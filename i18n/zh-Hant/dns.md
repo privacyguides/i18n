@@ -21,14 +21,14 @@ global:
 
 這些是我們喜歡的公共 DNS 解析器，因為它們的隱私和安全特性以及全球效能。 其中一些服務根據所選擇的伺服器提供基本的 DNS 等級惡意軟體或追蹤器封鎖功能，但如希望能夠查看和自訂封鎖的內容，則應使用專用的 DNS 過濾產品。
 
-| DNS 提供者                                                                    | 協議                                  | 記錄日誌 / 隱私政策    | [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) | 過濾                                                                                                  | Signed Apple Profile                                                                                                     |
-| -------------------------------------------------------------------------- | ----------------------------------- | -------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| [**AdGuard Public DNS**](https://adguard-dns.io/en/public-dns.html)        | 明文  DoH/3  DoT  DoQ  DNSCrypt       | 匿名化[^1]        | 匿名化                                                            | 根據伺服器的選擇。 使用的過濾器列表可以在這裡找到。 [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) | Yes [:octicons-link-external-24:](https://adguard.com/en/blog/encrypted-dns-ios-14.html)                                 |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup)          | Cleartext   DoH/3   DoT             | 匿名化[^2]        | 沒有                                                             | 根據伺服器的選擇。                                                                                           | No [:octicons-link-external-24:](https://community.cloudflare.com/t/requesting-1-1-1-1-signed-profiles-for-apple/571846) |
-| [**Control D Free DNS**](https://controld.com/free-dns)                    | 明文  DoH/3  DoT  DoQ                 | No[^3]         | 不是                                                             | 根據伺服器的選擇。                                                                                           | Yes [:octicons-link-external-24:](https://docs.controld.com/docs/macos-platform)                                         |
-| [**dns0.eu**](https://dns0.eu)                                             | Cleartext   DoH/3   DoH   DoT   DoQ | Anonymized[^4] | 匿名化                                                            | 根據伺服器的選擇。                                                                                           | Yes [:octicons-link-external-24:](https://dns0.eu/zero.dns0.eu.mobileconfig)                                             |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | DoH   DoT                           | No[^5]         | 沒有                                                             | 根據伺服器的選擇。 正在使用的過濾器列表可以在這裡找到。 [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)  | Yes [:octicons-link-external-24:](https://mullvad.net/en/blog/profiles-to-configure-our-encrypted-dns-on-apple-devices)  |
-| [**Quad9**](https://quad9.net)                                             | Cleartext   DoH   DoT   DNSCrypt    | Anonymized[^6] | 可選的                                                            | 根據伺服器選擇，預設會封鎖惡意程式碼。                                                                                 | Yes [:octicons-link-external-24:](https://quad9.net/news/blog/ios-mobile-provisioning-profiles)                          |
+| DNS 提供者                                                                    | 協議                            | 記錄日誌 / 隱私權政策 | [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) | 過濾                                                                                                  | 已簽署的 Apple 配置描述檔                                                                                                         |
+| -------------------------------------------------------------------------- | ----------------------------- | ------------ | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| [**AdGuard 公共 DNS**](https://adguard-dns.io/en/public-dns.html)            | 明文  DoH/3  DoT  DoQ  DNSCrypt | 匿名化[^1]      | 匿名化                                                            | 根據伺服器的選擇。 使用的過濾器列表可以在這裡找到。 [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) | 有 [:octicons-link-external-24:](https://adguard.com/en/blog/encrypted-dns-ios-14.html)                                   |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup)          | 明文   DoH/3   DoT              | 匿名化[^2]      | 不採納                                                            | 根據伺服器的選擇。                                                                                           | 沒有 [:octicons-link-external-24:](https://community.cloudflare.com/t/requesting-1-1-1-1-signed-profiles-for-apple/571846) |
+| [**Control D 免費 DNS**](https://controld.com/free-dns)                      | 明文  DoH/3  DoT  DoQ           | 不記錄[^3]      | 不採納                                                            | 根據伺服器的選擇。                                                                                           | 有 [:octicons-link-external-24:](https://docs.controld.com/docs/macos-platform)                                           |
+| [**dns0.eu**](https://dns0.eu)                                             | 明文   DoH/3   DoH   DoT   DoQ  | 匿名化[^4]      | 匿名化                                                            | 根據伺服器的選擇。                                                                                           | 有 [:octicons-link-external-24:](https://dns0.eu/zero.dns0.eu.mobileconfig)                                               |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | DoH   DoT                     | 不記錄[^5]      | 不採納                                                            | 根據伺服器的選擇。 正在使用的過濾器列表可以在這裡找到。 [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)  | 有 [:octicons-link-external-24:](https://mullvad.net/en/blog/profiles-to-configure-our-encrypted-dns-on-apple-devices)    |
+| [**Quad9**](https://quad9.net)                                             | 明文   DoH   DoT   DNSCrypt     | 匿名化[^6]      | 可選                                                             | 根據伺服器選擇，預設會封鎖惡意程式碼。                                                                                 | 有 [:octicons-link-external-24:](https://quad9.net/news/blog/ios-mobile-provisioning-profiles)                            |
 
 ## 自行託管 DNS 過濾器
 
@@ -85,13 +85,13 @@ AdGuard Home 提供精美的網頁介面，可查看有用資訊並管理被封�
 
 **Control D** 可自訂的 DNS 服務，可在 DNS 層級封鎖安全性威脅、不必要的內容和廣告。 付費方案之外，他們還提供許多可免費使用的預先配置 DNS 解析器。
 
-[:octicons-home-16: Homepage](https://controld.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://controld.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.controld.com/docs/getting-started){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/Control-D-Inc/ctrld){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://controld.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://controld.com/privacy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://docs.controld.com/docs/getting-started){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/Control-D-Inc/ctrld){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:fontawesome-brands-windows: Windows](https://docs.controld.com/docs/gui-setup-utility)
 - [:simple-apple: macOS](https://docs.controld.com/docs/gui-setup-utility)
@@ -112,13 +112,13 @@ AdGuard Home 提供精美的網頁介面，可查看有用資訊並管理被封�
 
 **NextDNS** 為可自訂的 DNS 服務，可在 DNS 層級封鎖安全性威脅、不必要的內容和廣告。 他們提供功能齊全的免費計劃，但使用受限。
 
-[:octicons-home-16: Homepage](https://nextdns.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextdns.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.nextdns.io){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/nextdns/nextdns){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://nextdns.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nextdns.io/privacy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://help.nextdns.io){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/nextdns/nextdns){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:fontawesome-brands-windows: Windows](https://github.com/nextdns/nextdns/wiki/Windows)
 - [:simple-apple: macOS](https://apps.apple.com/us/app/nextdns/id1464122853)
@@ -132,9 +132,9 @@ AdGuard Home 提供精美的網頁介面，可查看有用資訊並管理被封�
 
 與帳戶一起使用時，NextDNS 將預設啟用洞察和日誌記錄功能（因為某些功能需求）。 可選擇保留日誌的存留時間和儲存位置，或完全停用日誌。
 
-NextDNS 的免費方案功能齊全，但考量安全或其他關鍵過濾應用程序仍不可靠，因為如一個月內超過 300,000 次 DNS 查詢，所有過濾、日誌記錄和其他基於帳戶的功能都會被停用。 此後，它仍可以用作常規 DNS 供應商，因此裝置將繼續運作並透過 DNS-over-HTTPS 進行安全性查詢，而無需篩選器清單。
+NextDNS 的免費方案功能齊全，但不應依賴於其提供的安全性及其他重要功能，因為在一個月內進行 300,000 次 DNS 查詢之後，所有過濾、日誌記錄和其他基於帳戶的功能都會被停用。 此後，它仍可以用作常規 DNS 供應商，因此裝置將繼續運作並透過 DNS-over-HTTPS 進行安全的查詢，但沒有過濾功能。
 
-NextDNS 也在`https://dns.nextdns.io` 提供公共DNS-over-HTTPS 服務，並在`dns.nextdns.io` 提供DNS-over-TLS/QUIC服務，預設情況下，在 Firefox 和 Chromium 中可用，並遵守其預設的無日誌記錄[隱私權政策](https://nextdns.io/privacy)。
+NextDNS 也在 `https://dns.nextdns.io` 提供公共DNS-over-HTTPS 服務，並在 `dns.nextdns.io` 提供DNS-over-TLS/QUIC服務，預設情況下，在 Firefox 和 Chromium 中可用，並遵守其預設無日誌記錄的 [隱私權政策](https://nextdns.io/privacy) 。
 
 ## 加密的DNS代理
 
@@ -147,15 +147,15 @@ NextDNS 也在`https://dns.nextdns.io` 提供公共DNS-over-HTTPS 服務，並�
 ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
 ![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
 
-**RethinkDNS** 是一個開源 Android 用戶端工具，支持 [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh)、 [DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot)、 [DNSCrypt](advanced/dns-overview.md#dnscrypt)和 DNS 代理，以及快取DNS 回應、本地記錄 DNS 查詢，也可用作防火牆。 它還提供附加功能，例如快取 DNS 回應、本機記錄 DNS 查詢以及使用應用程式作為防火牆。
+**RethinkDNS** 是一個開放原始碼的 Android 用戶端，支援 [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh)、[DNS-over-TLS](advanced/dns-overview.md#dns-over-tls-dot)、[DNSCrypt](advanced/dns-overview.md#dnscrypt) 和 DNS代理。 它還提供附加功能，例如快取 DNS 回應、本機記錄 DNS 查詢以及使用應用程式作為防火牆。
 
-[:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.rethinkdns.com){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://rethinkdns.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://docs.rethinkdns.com){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads: "下載"</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
 - [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
@@ -164,7 +164,7 @@ NextDNS 也在`https://dns.nextdns.io` 提供公共DNS-over-HTTPS 服務，並�
 
 </div>
 
-雖然 RethinkDNS 佔用 Android VPN 插槽，但可以透過[新增 Wireguard 設定](https://docs.rethinkdns.com/proxy/wireguard)或將 VPN 或 Orbot 與該應用程式結合使用分別[手動將Orbot 配置為代理伺服器](https://docs.rethinkdns.com/firewall/orbot)。
+雖然 RethinkDNS 會佔用 Android 的 VPN 插槽，但您仍可在應用程式中使用 VPN 或 Orbot，方法是 [自行新增 Wireguard 設定](https://docs.rethinkdns.com/proxy/wireguard) 或 [手動將 Orbot 設定為 Proxy 伺服器](https://docs.rethinkdns.com/firewall/orbot)。
 
 ### dnscrypt-proxy
 
@@ -172,15 +172,15 @@ NextDNS 也在`https://dns.nextdns.io` 提供公共DNS-over-HTTPS 服務，並�
 
 ![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
 
-**dnscrypt-proxy** 是 DNS 代理，支持 [DNSCrypt](advanced/dns-overview.md#dnscrypt)、 [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh)和[Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS)。
+**dnscrypt-proxy** 是一個 DNS代理，支持 [DNSCrypt](advanced/dns-overview.md#dnscrypt)、 [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh) 和 [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS)。
 
-[:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Contribute }
+[:octicons-repo-16: 儲存庫](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:fontawesome-brands-windows: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
 - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
@@ -193,7 +193,7 @@ NextDNS 也在`https://dns.nextdns.io` 提供公共DNS-over-HTTPS 服務，並�
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-Warning "匿名化 DNS 功能[不會](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) 匿名化其他網路流量。"
+Anonymized DNS [不會](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) 匿名化其他網路流量。
 
 </div>
 
@@ -205,9 +205,9 @@ Warning "匿名化 DNS 功能[不會](advanced/dns-overview.md#why-shouldnt-i-us
 
 - [DNSSEC](advanced/dns-overview.md#what-is-dnssec).
 - [QNAME 最小化](advanced/dns-overview.md#what-is-qname-minimization).
-- 匿名 [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) 或預設為禁用。
+- 匿名化 [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) 或 根本不採納。
 
-此外，所有公開提供者：
+此外，對於所有公開提供者：
 
 - 首選 [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) 支援或地理轉向支援。
 - 不得將任何個人資料記錄在磁碟
