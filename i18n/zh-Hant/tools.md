@@ -48,7 +48,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 如果您需要匿名， **Tor 瀏覽器** （電腦版、 Android 版) 是您的首選，因為它可讓您存取 **Tor** 網路，這是一群由志工操作的伺服器，可讓您免費連線，並改善您在網際網路上的隱私與安全性。 個人和組織還可以通過 Tor 網路 與「.onion 洋蔥服務」分享資訊，而不會損害他們的隱私。 很難阻止和追蹤 Tor 流量，因此它是一種有效的審查規避工具。
 
-[閱讀我們的完整描述 :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary }
+[閱讀完整評論 :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary }
 
 </div>
 
@@ -60,7 +60,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
     **Mullvad 瀏覽器** 是移除 Tor 網路整合的 [Tor 瀏覽器](tor.md#tor-browser) 版本，目的是提供 Tor Browser 的反指紋瀏覽器技術給 VPN 使用者。
 
-    - [閱讀我們的完整描述 :material-arrow-right-drop-circle:](desktop-browsers.md#mullvad-browser)
+    - [閱讀完整評論 :material-arrow-right-drop-circle:](desktop-browsers.md#mullvad-browser)
 
 - ![Firefox logo](assets/img/browsers/firefox.svg){ .lg .middle .twemoji } **Firefox**
 
@@ -68,39 +68,39 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
     **Firefox** 是一個很棒的Chromium替代方案，它提供強大的隱私權設定，例如： [加強型追蹤保護](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop)，可以幫助阻擋各種[類型的追蹤](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks)。
 
-    - [Read Full Review :material-arrow-right-drop-circle:](desktop-browsers.md#firefox)
+    - [閱讀完整評論 :material-arrow-right-drop-circle:](desktop-browsers.md#firefox)
 
-- ![Brave logo](assets/img/browsers/brave.svg){ .lg .middle .twemoji } **Brave Browser**
+- ![Brave logo](assets/img/browsers/brave.svg){ .lg .middle .twemoji } **Brave 瀏覽器**
 
     ---
 
-    **Brave** is a private-by-default browser based on Chromium, so it should feel familiar and have minimal website compatibility issues.
+    **Brave** 是基於 Chromium ，預設保護您隱私的瀏覽器；所以應該十分容易上手，網站相容性的問題也最小。
 
-    - [Brave Desktop Review :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
-    - [Brave Mobile Review :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
+    - [閱讀 Brave電腦版 的評論 :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
+    - [閱讀 Brave手機版 的評論 :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
 
 - ![Mull logo](assets/img/browsers/mull.svg){ .lg .middle .twemoji } **Mull (Android)**
 
     ---
 
-    **Mull** is a Firefox-based browser for Android centered around privacy and removing proprietary components.
+    **Mull** 是以隱私和零專有元件為重點的 Android 版 Firefox 瀏覽器。
 
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#mull)
+    - [閱讀完整評論 :material-arrow-right-drop-circle:](mobile-browsers.md#mull)
 
 - ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
 
     ---
 
-    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0/) features and default tracker blocking. It also separates your cookies in private browsing mode to prevent tracking between tabs.
+    我們推薦 **Safari** ，因為它具有 [防指紋](https://webkit.org/blog/15697/private-browsing-2-0/) 功能和預設的追蹤程式封鎖功能。 它還會在私密瀏覽模式中分隔您開啟分頁的 cookies，以防止在標籤頁之間進行追蹤。
 
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari)
+    - [閱讀完整評論 :material-arrow-right-drop-circle:](mobile-browsers.md#safari)
 
 </div>
 
 <div class="grid" markdown>
 
 <div markdown>
-### Browser Extensions
+### 瀏覽器擴充套件
 
 <div class="grid cards" markdown>
 
@@ -113,12 +113,12 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 </div>
 
 <div markdown>
-### More Tor Network Tools
+### 更多 Tor 網路工具
 
 <div class="grid cards" markdown>
 
-- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
-- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor for iOS)](tor.md#onion-browser)
+- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot（手機上的 Tor 代理）](tor.md#orbot)
+- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser（iOS版 Tor瀏覽器）](tor.md#onion-browser)
 
 </div>
 
@@ -126,14 +126,14 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 </div>
 
-## Top 3 Private VPN Providers
+## 前三名尊重隱私的電子郵件供應商
 
 <details class="danger" markdown>
 <summary>VPN 不提供匿名性</summary>
 
 使用 VPN **不會** 讓您的瀏覽習慣匿名，也不會為不安全（ HTTP ）流量增加額外的安全性。
 
-If you are looking for **anonymity**, you should use the Tor Browser.
+如果您需要 **匿名**，您應該使用 Tor瀏覽器。
 
 如果需要額外的 **安全性** ，應該確保一直使用 HTTPS 連接到網站。 VPN不能取代良好的安全措施。
 
