@@ -1,5 +1,5 @@
 ---
-title: "電子郵件客戶端程式"
+title: "電子郵件客戶端"
 icon: material/email-open
 description: 這些電子郵件客戶端尊重隱私並支持OpenPGP電子郵件加密。
 cover: email-clients.webp
@@ -56,7 +56,7 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 
 我們建議您變更其中一些設定，讓 Thunderbird 更私密一點。
 
-這些選項可在 :material-menu: → **設定** → **隱私權與安全性**中找到。
+這些選項可在 :material-menu: → **設定** → **隱私權與安全性** 中找到。
 
 ##### 網站內容
 
@@ -73,7 +73,7 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 
 #### Thunderbird-user.js （進階）
 
-[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) 是一組設定選項，目的是儘可能停用 Thunderbird 內的網頁瀏覽功能，以減少攻擊面並維護隱私。 有些變更是從 [Arkenfox 專案](desktop-browsers.md#arkenfox-advanced)回傳過來的。
+[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) 是一組設定選項，目的是儘可能停用 Thunderbird 內的網頁瀏覽功能，以減少攻擊面並維護隱私。 有些變更是從 [Arkenfox 專案](desktop-browsers.md#arkenfox-advanced) 中得來的。
 
 ## 特定平臺
 
@@ -81,7 +81,7 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 
 <div class="admonition recommendation" markdown>
 
-![Apple Mail 標誌](assets/img/email-clients/applemail.png){ align=right }
+![Apple Mail logo](assets/img/email-clients/applemail.png){ align=right }
 
 **Apple Mail** 已包含在 macOS 中，並可透過 [GPG Suite](encryption.md#gpg-suite) 擴充為 OpenPGP 支援，增加傳送 PGP 加密電子郵件的功能。
 
@@ -106,9 +106,9 @@ Apple Mail 具備在背景載入遠端內容或完全封鎖遠端內容的功能
 
 <div class="admonition recommendation" markdown>
 
-![Canary Mail 標誌](assets/img/email-clients/canarymail.svg){ align=right }
+![Canary Mail logo](assets/img/email-clients/canarymail.svg){ align=right }
 
-**Canary Mail** 是一款付費的電子郵件用戶端，其設計目的是透過生物辨識應用程式鎖等安全功能，讓端對端加密無懈可擊。
+**Canary Mail** 是一款需付費的電子郵件用戶端，其設計目的是透過生物辨識應用程式鎖等安全功能，讓端對端加密無懈可擊。
 
 [:octicons-home-16: 首頁](https://canarymail.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="隱私權政策" }
@@ -129,7 +129,7 @@ Apple Mail 具備在背景載入遠端內容或完全封鎖遠端內容的功能
 <details class="warning" markdown>
 <summary>警告</summary>
 
-Canary Mail 最近才推出 Windows 和 Android 用戶端，不過我們認為它們不如 iOS 和 Mac 的用戶端穩定。
+Canary Mail 最近推出了 Windows 和 Android 用戶端，不過我們認為它們不如 iOS 和 Mac 的客戶端穩定。
 
 </details>
 
@@ -139,7 +139,7 @@ Canary Mail 是封閉原始碼的。 由於 iOS 上支援 PGP E2EE 的電子郵�
 
 <div class="admonition recommendation" markdown>
 
-![FairEmail 標誌](assets/img/email-clients/fairemail.svg){ align=right }
+![FairEmail logo](assets/img/email-clients/fairemail.svg){ align=right }
 
 **FairEmail** 是一款極簡、開放原始碼的電子郵件應用程式，使用開放標準 (IMAP、SMTP、OpenPGP)，並將資料和電池使用量降至最低。
 
@@ -147,7 +147,7 @@ Canary Mail 是封閉原始碼的。 由於 iOS 上支援 PGP E2EE 的電子郵�
 [:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="隱私權政策" }
 [:octicons-info-16:](https://github.com/M66B/FairEmail/blob/master/FAQ.md){ .card-link title="說明文件" }
 [:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://email.faircode.eu/donate){ .card-link title="貢獻" }
+[:octicons-heart-16:](https://email.faircode.eu/donate){ .card-link title="捐款" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -163,7 +163,7 @@ Canary Mail 是封閉原始碼的。 由於 iOS 上支援 PGP E2EE 的電子郵�
 
 <div class="admonition recommendation" markdown>
 
-![Evolution 標誌](assets/img/email-clients/evolution.svg){ align=right }
+![Evolution logo](assets/img/email-clients/evolution.svg){ align=right }
 
 **Evolution** 是個人資訊管理應用程式，提供整合的郵件、行事曆和通訊錄功能。 Evolution 有大量的[說明文件](https://help.gnome.org/users/evolution/stable)，可以幫助您開始使用。
 
@@ -171,7 +171,7 @@ Canary Mail 是封閉原始碼的。 由於 iOS 上支援 PGP E2EE 的電子郵�
 [:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="隱私權政策" }
 [:octicons-info-16:](https://help.gnome.org/users/evolution/stable){ .card-link title="說明文件" }
 [:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://gnome.org/donate){ .card-link title="貢獻" }
+[:octicons-heart-16:](https://gnome.org/donate){ .card-link title="捐款" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -196,7 +196,7 @@ Canary Mail 是封閉原始碼的。 由於 iOS 上支援 PGP E2EE 的電子郵�
 [:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="隱私權政策" }
 [:octicons-info-16:](https://docs.k9mail.app){ .card-link title="說明文件" }
 [:octicons-code-16:](https://github.com/thundernest/k-9){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title="貢獻" }
+[:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title="捐款" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -221,7 +221,7 @@ Canary Mail 是封閉原始碼的。 由於 iOS 上支援 PGP E2EE 的電子郵�
 
 ![Kontact 標誌](assets/img/email-clients/kontact.svg){ align=right }
 
-**Kontact** 是 [KDE](https://kde.org) 專案的個人資訊管理員 (PIM) 應用程式。 It provides a mail client, address book, RSS client, and an organizer.
+**Kontact** 是 [KDE](https://kde.org) 專案的個人資訊管理員 (PIM) 應用程式。 它提供郵件用戶端、通訊錄、RSS 用戶端和數位筆記等功能。
 
 [:octicons-home-16: Homepage](https://kontact.kde.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }

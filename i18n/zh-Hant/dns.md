@@ -209,7 +209,7 @@ Anonymized DNS [不會](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dn
 
 此外，對於所有公開提供者：
 
-- 首選 [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) 支援或地理轉向支援。
+- 偏好有支援 [anycast](https://en.wikipedia.org/wiki/Anycast#Addressing_methods) 或 geo-steering 的服務。
 - 不得將任何個人資料記錄在磁碟
     - 正如腳註所述，一些提供者會收集查詢信息，例如用於安全研究等目的，但在這種情況下，數據不得與任何 PII（例如 IP 位址等）相關聯。
 
