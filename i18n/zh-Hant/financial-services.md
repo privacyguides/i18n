@@ -2,7 +2,7 @@
 title: 金融服務
 icon: material/bank
 cover: financial-services.webp
-description: These services can assist you in protecting your privacy from merchants and other trackers, which is one of the biggest challenges to privacy today.
+description: 這些服務可協助您保護您的隱私不受商家和其他追蹤者的侵害，而這正是當今隱私權所面臨的最大挑戰之一。
 ---
 
 在線支付是隱私面臨的最大挑戰之一。 這些服務可以幫助您保護隱私，免受商家和其他追蹤者的影響，前提是您對如何有效地進行私人付款有深入的了解。 我們強烈建議您在網路購買前先閱讀本站私密付款之介紹：
@@ -16,7 +16,7 @@ description: These services can assist you in protecting your privacy from merch
 <div class="admonition tip" markdown>
 <p class="admonition-title">檢查您目前的銀行</p>
 
-許多銀行和信用卡提供商提供本機虛擬卡功能。 如果您使用已提供的選項，則在大多數情況下使用時請依循以下建議。 That way, you are not trusting multiple parties with your personal information.
+許多銀行和信用卡提供商提供本機虛擬卡功能。 如果您使用已提供的選項，則在大多數情況下使用時請依循以下建議。 這樣，您就不會將您的個人資訊交給多方人士。
 
 </div>
 
@@ -25,32 +25,32 @@ description: These services can assist you in protecting your privacy from merch
 <div class="admonition recommendation" markdown>
 
 ![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
-![Privacy.com 標誌](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
+![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
 
-**Privacy.com** 的免費方案每月最多創建12 張虛擬卡，設定卡片的支付上限與立即關閉卡片。 Their paid plans provide higher limits on the number of cards that can be created each month and the option to hide transaction information from your bank.
+**Privacy.com** 的免費方案允許您每月最多創建 12 張虛擬卡，並可設定卡片的支付上限與立即關閉卡片。 他們的付費計劃提供更高的每月可建立卡片數量，以及向銀行隱藏交易資訊的選項。
 
-[:octicons-home-16: Homepage](https://privacy.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.privacy.com){ .card-link title=Documentation}
+[:octicons-home-16: 首頁](https://privacy.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://support.privacy.com){ .card-link title=說明文件}
 
 </details>
 
 </div>
 
-Privacy.com 預設情況下將您購買的商家資訊提供給您的銀行。 Their paid "discreet merchants" feature hides merchant information from your bank, so your bank only sees that a purchase was made with Privacy.com, but not where that money was spent. However, that is not foolproof, and of course, Privacy.com still has knowledge about the merchants you are spending money with.
+Privacy.com 預設情況下將與您交易的商家資訊提供給您的銀行。 他們的付費「discreet merchants」功能會向您的銀行隱藏商家資訊，因此您的銀行只會看到您透過 Privacy.com 購物，但不會看到錢花在哪裡。 然而，這並非萬無一失，而且──Privacy.com 仍可瞭解正在與您交易的商家。
 
 ### MySudo （美國，付費）
 
 <div class="admonition recommendation" markdown>
 
 ![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ align=right }
-![MySudo標誌](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
+![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
 
-**MySudo** 根據您購買的方案最多提供 9張虛擬卡。 付費方案還包括一些有助於私密購物的功能，例如虛擬電話號碼和電子郵件地址，但我們通常建議使用專業 [電子郵件別名提供商](email-aliasing.md)進行廣泛的別名使用保護。
+**MySudo** 根據您購買的方案最多提供 9 張虛擬卡。 付費方案還包括一些有助於私密購物的功能，例如虛擬電話號碼和電子郵件地址，但我們通常建議使用專業 [電子郵件別名提供商](email-aliasing.md)進行廣泛的別名使用保護。
 
-[:octicons-home-16: Homepage](https://mysudo.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mysudo.com){ .card-link title=Documentation}
+[:octicons-home-16: 首頁](https://mysudo.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://support.mysudo.com){ .card-link title=說明文件}
 
 </details>
 

@@ -10,7 +10,7 @@ cover: email-clients.webp
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 - [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
-我們推薦的**電子郵件用戶端**同時支援 [OpenPGP](encryption.md#openpgp) 和比較強的驗證，例如 [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth)。 OAuth 允許您使用[多因素驗證](basics/multi-factor-authentication.md)，以防止帳號盜用。
+我們推薦的**電子郵件客戶端**同時支援 [OpenPGP](encryption.md#openpgp) 和比較強的驗證，例如 [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth)。 OAuth 允許您使用[多因素驗證](basics/multi-factor-authentication.md)，以防止帳號盜用。
 
 <details class="warning" markdown>
 <summary>電子郵件不提供前向保密</summary>
@@ -223,14 +223,14 @@ Canary Mail 是封閉原始碼的。 由於 iOS 上支援 PGP E2EE 的電子郵�
 
 **Kontact** 是 [KDE](https://kde.org) 專案的個人資訊管理員 (PIM) 應用程式。 它提供郵件用戶端、通訊錄、RSS 用戶端和數位筆記等功能。
 
-[:octicons-home-16: Homepage](https://kontact.kde.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kontact.kde.org/users){ .card-link title="Documentation" }
-[:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://kontact.kde.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://kontact.kde.org/users){ .card-link title="說明文件" }
+[:octicons-code-16:](https://invent.kde.org/pim/kmail){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title="捐款" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-linux: Linux](https://kontact.kde.org/download)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.kontact)
@@ -245,15 +245,15 @@ Canary Mail 是封閉原始碼的。 由於 iOS 上支援 PGP E2EE 的電子郵�
 
 ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ align=right }
 
-**Mailvelope** is a browser extension that enables the exchange of encrypted emails following the OpenPGP encryption standard.
+**Mailvelope** 是一個瀏覽器擴充套件，可依照 OpenPGP 加密標準支援加密電子郵件。
 
-[:octicons-home-16: Homepage](https://mailvelope.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailvelope.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mailvelope.com/faq){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://mailvelope.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailvelope.com/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://mailvelope.com/faq){ .card-link title="說明文檔" }
+[:octicons-code-16:](https://github.com/mailvelope/mailvelope){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/mailvelope)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke)
@@ -269,17 +269,17 @@ Canary Mail 是封閉原始碼的。 由於 iOS 上支援 PGP E2EE 的電子郵�
 
 ![NeoMutt logo](assets/img/email-clients/mutt.svg){ align=right }
 
-**NeoMutt** is an open-source command line email reader for Linux and BSD. It's a fork of [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client)) with added features.
+**NeoMutt** 是適用於 Linux 和 BSD 的開放原始碼命令行電子郵件閱讀器。 它是 [Mutt](https://zh.wikipedia.org/wiki/Mutt) 的分支，並增加了一些功能。
 
-NeoMutt is a text-based client that has a steep learning curve. It is, however, very customizable.
+NeoMutt 是一個以命令行為基礎的客戶端，其學習曲線非常陡峭。 不過，它具有能高度自定義的特色。
 
-[:octicons-home-16: Homepage](https://neomutt.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://neomutt.org/guide){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://paypal.com/paypalme/russon){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://neomutt.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://neomutt.org/guide){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://paypal.com/paypalme/russon){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-apple: macOS](https://neomutt.org/distro)
 - [:simple-linux: Linux](https://neomutt.org/distro)
@@ -304,6 +304,6 @@ NeoMutt is a text-based client that has a steep learning curve. It is, however, 
 
 - 必須開放原始碼
 - 必須跨平臺
-- 預設不收集任何遙測
+- 預設不收集任何資料
 - 應該原生支持 OpenPGP ，即沒有擴充元件
 - 應支援本機儲存 OpenPGP 加密的電子郵件
