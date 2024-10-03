@@ -6,7 +6,7 @@ cover: device-integrity.webp
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-這些工具可用於驗證行動裝置的完整性，檢查它們是否有間諜軟體和惡意軟體（例如 Pegasus、Predator 或 KingsPawn）的危害跡象。 本頁重點關注**行動安全性**，因為行動裝置通常具有為人所知配置的唯讀系統，檢測惡意修改比傳統桌面系統更容易。 將來可能會再擴展此頁面的重點。
+這些工具可用於驗證行動裝置的完整性，檢查它們是否有間諜軟體和惡意軟體（例如：飛馬（Pegasus）、Predator 或 KingsPawn）的危害跡象。 本頁重點關注 **行動平台安全性** ，因為行動裝置通常具有為人所知配置的唯讀系統，檢測惡意修改比傳統桌面系統更容易。 將來可能會再擴展此頁面的重點。
 
 <div class="admonition note" markdown>
 <p class="admonition-title">進階主題</p>
@@ -71,7 +71,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 ![MVT logo](assets/img/device-integrity/mvt.webp){ align=right }
 
-**Mobile Verification Toolkit** (**MVT**) 是一組實用程式，可簡化和自動化掃描移動設備的過程，查找已知間諜軟體活動的潛在目標或感染痕跡。 MVT 由國際特赦組織開發，於 2021 年在 [Pegasus 專案](https://forbiddenstories.org/about-the-pegasus-project/) 背景下發布。
+**Mobile Verification Toolkit** (**MVT**) 是一組實用程式，可簡化和自動化掃描移動設備的過程，查找已知間諜軟體活動的潛在目標或感染痕跡。 MVT 由國際特赦組織開發，於 2021 年在 [飛馬計畫（Pegasus Project）](https://forbiddenstories.org/about-the-pegasus-project/) 的背景下發布。
 
 [:octicons-home-16: 首頁](https://mvt.re){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="原始碼" }
@@ -176,25 +176,25 @@ iMazing 會自動並以互動方式引導完成使用 [MVT](#mobile-verification
 
 Auditor 並不像本頁上的其他工具一樣是掃描/分析工具。 相反地，它使用由裝置硬體支持的 keystore ，讓您可以驗證裝置的身份，並確保作業系統本身沒有被竄改或遭到 verified boot 降級攻擊。 這為裝置本身提供了非常強大的完整性檢查，但不一定檢查裝置上執行的使用者級應用程式是否是惡意的。
 
-Auditor 使用 **兩個** 設備執行證明和入侵檢測，即一個 _被驗證者（auditee）_ 和一個 _驗證者（auditor）_。 驗證者 可以是任何 Android 10+ 裝置（或是由 [GrapheneOS](android/distributions.md#grapheneos) 所持有的遠端網路服務），而 被驗證者 必須是特定 [支援的裝置](https://attestation.app/about#device-support)。 Auditor 適用於:
+Auditor 使用 **兩個** 設備執行證明和入侵檢測，即一個 _被驗證者（auditee）_ 和一個 _驗證者（auditor）_。 驗證者 可以是任何 Android 10+ 裝置（或是由 [GrapheneOS](android/distributions.md#grapheneos) 所持有的遠端網路服務），而 被驗證者 必須是特定 [支援的裝置](https://attestation.app/about#device-support)。 Auditor 運行原理：
 
-- 在_審核員_和_被審核者_之間使用 [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) 模式，雙方在兩人在[硬體支援的金鑰庫](https://source.android.com/security/keystore/)the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore/)中建立 _審計員_私鑰。
-- _審核員_可以是審核員應用程式的另一個實例，也可以是[遠端憑證服務](https://attestation.app)。
-- _審計者_ 記錄 _審計對象_ 當前的狀態和配置。
-- 如果在配對完成後發生篡改 審計對象的作業系統 ，審計人員將意識到設備狀態和配置的變化。
+- 在_auditor_和_auditee_之間使用 [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) 模式，雙方在 [由硬體支援的 keystore](https://source.android.com/security/keystore/) 中建立 _Auditor（軟體）_ 的私鑰。
+- _驗證者_可以是 Auditor應用程式 的另一個實例，也可以是 [遠端憑證服務](https://attestation.app)。
+- _驗證者_ 會記錄 _被驗證者_ 當前的狀態和配置。
+- 如果在配對完成後 被驗證者的作業系統 遭到篡改 ，驗證者設備 將意識到設備狀態和配置的變化。
 - 您將收到更改的提醒。
 
 要注意的是，Auditor 只能在初始配對之後有效檢測變化，而由於其 TOFU 模型，不一定在配對期間或之前檢測到變化。 為了確保硬體和作業系統真實， 在設備安裝後連上網際網路之前，立即 [進行本地認證](https://grapheneos.org/install/web#verifying-installation) 。
 
 沒有個人識別資料被提交給證明服務。 建議使用匿名帳戶註冊，並啟用遠程認證，以進行持續監控。
 
-如果您的 [威脅模型](basics/threat-modeling.md) 需要隱私，可以考慮使用[Orbot](tor.md#orbot) 或VPN，從證明服務中隱藏 IP地址。
+如果您的 [威脅模型](basics/threat-modeling.md) 需要隱私性，可以考慮使用[Orbot](tor.md#orbot) 或VPN，從證明服務中隱藏 IP地址。
 
 ## 設備掃瞄器
 
 <small>防護下列威脅：</small>
 
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-bug-outline: 被動攻擊](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 可在設備上安裝這些應用程序，這些應用程式會掃描裝置是否有遭駭洩漏跡象。
 
@@ -212,12 +212,12 @@ Auditor 使用 **兩個** 設備執行證明和入侵檢測，即一個 _被驗�
 ![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ align=right }
 ![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ align=right }
 
-**Hypatia** is an open source real-time malware scanner for Android, from the developer of [DivestOS](android/distributions.md#divestos). It accesses the internet to download signature database updates, but does not upload your files or any metadata to the cloud (scans are performed entirely locally).
+**Hypatia** 是 Android 的開放原始碼即時惡意軟體掃描器，由 [DivestOS](android/distributions.md#divestos) 的開發者開發。 它會訪問網際網路以下載已簽署的資料庫更新，但不會上傳您的檔案或任何元資料到雲端（掃描完全在本機執行）。
 
-[:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#hypatia){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://divestos.org/pages/privacy_policy#hypatia){ .card-link title="Privacy Policy" }
-[:octicons-code-16:](https://github.com/divested-mobile/hypatia){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://divestos.org/pages/our_apps#hypatia){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://divestos.org/pages/privacy_policy#hypatia){ .card-link title="隱私權政策" }
+[:octicons-code-16:](https://github.com/divested-mobile/hypatia){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -228,7 +228,7 @@ Auditor 使用 **兩個** 設備執行證明和入侵檢測，即一個 _被驗�
 
 </div>
 
-Hypatia 特別擅長偵測常見的追蹤軟體：如果懷疑自己是追蹤軟體的受害者，請[造訪此頁面](https://stopstalkerware.org/information-for-survivors/) 尋求建議。
+Hypatia 特別擅長偵測常見的追蹤軟體（stalkerware）：如果懷疑自己是追蹤軟體的受害者，請 [造訪此頁面](https://stopstalkerware.org/information-for-survivors/) 尋求建議。
 
 ### iVerify Basic (iOS)
 
@@ -236,11 +236,11 @@ Hypatia 特別擅長偵測常見的追蹤軟體：如果懷疑自己是追蹤軟
 
 ![iVerify logo](assets/img/device-integrity/iverify.webp){ align=right }
 
-**iVerify** 是一款 iOS 應用程式，會自動掃描裝置檢查配置設定、修補程式等級和其他安全性領域。 It also checks your device for indicators of compromise by jailbreak tools or of [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red } such as [Pegasus](https://en.wikipedia.org/wiki/Pegasus_\(spyware\)).
+**iVerify** 是一款 iOS 應用程式，會自動掃描裝置檢查配置設定、修補程式等級和其他安全性領域。 它也會檢查您的裝置是否遭到越獄工具攻擊或 [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red } ：如 [飛馬](https://zh.wikipedia.org/wiki/%E9%A3%9B%E9%A6%AC_%28%E9%96%93%E8%AB%9C%E8%BB%9F%E4%BB%B6%29) 入侵的跡象。
 
-[:octicons-home-16: Homepage](https://iverify.io/products/basic){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://iverify.io/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://iverify.io/frequently-asked-questions#iVerify-General){ .card-link title=Documentation}
+[:octicons-home-16: 首頁](https://iverify.io/products/basic){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://iverify.io/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://iverify.io/frequently-asked-questions#iVerify-General){ .card-link title=說明文件}
 
 <details class="downloads" markdown>
 <summary>下載</summary>
