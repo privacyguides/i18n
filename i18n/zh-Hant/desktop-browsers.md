@@ -109,7 +109,7 @@ Mullvad 瀏覽器 預設總是使用隱私瀏覽模式運行，這意味著您�
 
 ### Mullvad Leta
 
-Mullvad 瀏覽器 將 DuckDuckGo 設為預設的[搜尋引擎](search-engines.md)，但它也預先加入了 **Mullvad Leta**，一個需要訂閱 Mullvad VPN 才能使用的搜尋引擎。 Mullvad Leta 直接查詢 Google 的付費搜索 API，這就是為什麼它僅限付費訂閱者使用。 然而，由於這個限制，Mullvad 可能將搜索字串和 Mullvad VPN 帳戶進行關聯。 因此，我們不建議使用 Mullvad Leta，即使 Mullvad 僅收集極少量的 VPN 訂閱者資訊。
+Mullvad 瀏覽器 將 DuckDuckGo 設為預設的[搜尋引擎](search-engines.md)，但它也預裝了 **Mullvad Leta**，一個需要訂閱 Mullvad VPN 才能使用的搜尋引擎。 Mullvad Leta 直接查詢 Google 的付費搜索 API，這也是為什麼它僅限付費訂閱者使用。 然而，由於這個限制，Mullvad 有可能將搜尋字串和 Mullvad VPN 帳戶進行關聯。 因此，我們不建議使用 Mullvad Leta，即使 Mullvad 僅收集極少量的 VPN 訂閱者資訊。
 
 ## Firefox
 
