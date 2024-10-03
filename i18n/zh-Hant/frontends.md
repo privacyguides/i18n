@@ -7,9 +7,9 @@ cover: frontends.webp
 
 有時，某些服務會以煩人的彈出窗口來封鎖訪問內容，強迫訪客須註冊帳戶。 如果不啓用JavaScript ，也可能會中斷。 這些前端可以讓您避開這些限制。
 
-如您選擇自行託管這些前端，要緊的是讓別人可以使用您的實例，才能讓您融入其中。 對於在何處與如何託管實例，您該謹慎處之，尤其當有其它人的使用會連結到您的託管。
+如您選擇自行託管這些前端，要緊的是讓別人可以使用您的實例，才能讓您融入其中。 您應該謹慎處理託管的地點和方式，因為其他人如何使用將會影響到您的託管。
 
-當您使用其它人的實例，請確認有細讀此實例的隱私政策。 它們可以任擁有者修改因此不必然反映原本預設的政策。 有些實例有[Tor](tor.md) .onion地址，只要您的搜尋查詢不包含PII ，這些地址可以保護某些隱私。
+當您使用其它人的伺服器，請確認有細讀此伺服器的隱私權政策。 它們可以任擁有者修改因此不必然反映原本預設的政策。 有些伺服器使用 [Tor](tor.md) .onion地址，只要您的搜尋查詢不包含PII ，這些地址可以保護您的某些隱私。
 
 ## Reddit
 
@@ -21,26 +21,26 @@ cover: frontends.webp
 
 **Redlib** 是 [Reddit](https://reddit.com) 的開源前端，也可自行託管。
 
-有許多公共實例，其中一些實例支援 [Tor](tor.md) onion 服務。
+有許多公開伺服器，其中一些伺服器支援 [Tor](tor.md) 洋蔥服務。
 
-[:octicons-repo-16: Repository](https://github.com/redlib-org/redlib){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/redlib-org/redlib-instances/blob/main/instances.md){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://github.com/redlib-org/redlib?tab=readme-ov-file#table-of-contents){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Source Code" }
+[:octicons-repo-16: 儲存庫](https://github.com/redlib-org/redlib){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/redlib-org/redlib-instances/blob/main/instances.md){ .card-link title="公開伺服器清單"}
+[:octicons-info-16:](https://github.com/redlib-org/redlib?tab=readme-ov-file#table-of-contents){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="原始碼" }
 
 </div>
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note "備註"</p>
+<p class="admonition-title">備註</p>
 
-[舊版 Reddit](https://old.reddit.com) 網站不需要像新 Reddit 網站使用過多的 JavaScript，但它最近阻止了為公共 VPN 保留的 IP 位址的存取。 您可以將舊Reddit 給合[2022年10月](https://forum.torproject.org/t/reddit-onion-service-launch/5305)所推出的[Tor](tor.md) Onion ，載取點 [https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion](https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion).
+[舊版 Reddit](https://old.reddit.com) 網站不需要像新 Reddit 網站使用過多的 JavaScript，但它最近阻止了對公共 VPN 所使用的 IP 位址的存取。 您可以將 舊界面 Reddit 與他們在 [2022 年 10 月推出](https://forum.torproject.org/t/reddit-onion-service-launch/5305) 的 [Tor](tor.md) 洋蔥服務： [https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion](https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion) 結合使用。
 
 </div>
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">溫馨提示</p>
 
-如果想在瀏覽器中禁用 JavaScript ，例如 [Tor瀏覽器](tor.md#tor-browser/) 最安全級別， Redlib 非常實用。
+如果想在瀏覽器中禁用 JavaScript ，例如 [Tor瀏覽器](tor.md#tor-browser/) 的 最安全級別， Redlib 非常實用。
 </div>
 
 ## TikTok
@@ -53,7 +53,7 @@ cover: frontends.webp
 
 **ProxiTok** 是 [TikTok](https://tiktok.com)網站的開源前端，也可自主託管。
 
-有許多公共實例，其中一些實例支援 [Tor](tor.md) onion 服務。
+有許多公開伺服器，其中一些伺服器支援 [Tor](tor.md) 洋蔥服務。
 
 [:octicons-repo-16: Repository](https://github.com/pablouser1/ProxiTok){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/pablouser1/ProxiTok/wiki/Public-instances){ .card-link title="Public Instances"}
@@ -83,14 +83,14 @@ cover: frontends.webp
 
 預設情況下， FreeTube 會封鎖所有 YouTube 廣告。 此外， FreeTube 可選擇與 [SponsorBlock](https://sponsor.ajay.app) 整合，可以跳過贊助的影片段。
 
-[:octicons-home-16: Homepage](https://freetubeapp.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.freetubeapp.io){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://freetubeapp.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://docs.freetubeapp.io){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:fontawesome-brands-windows: Windows](https://freetubeapp.io/#download)
 - [:simple-apple: macOS](https://freetubeapp.io/#download)
@@ -104,7 +104,7 @@ cover: frontends.webp
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-When using FreeTube, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. 如果您的 [威脅模型](basics/threat-modeling.md) 需要隱藏您的IP 位址，請考慮使用 [VPN](vpn.md)或 [Tor](tor.md)。
+使用 FreeTube 時，YouTube、 [Invidious](https://instances.invidious.io) 或 [SponsorBlock](https://sponsor.ajay.app) 仍可能知道您的 IP 位址，具體取決於您的設定。 如果您的 [威脅模型](basics/threat-modeling.md) 需要隱藏您的IP 位址，請考慮使用 [VPN](vpn.md) 或 [Tor](tor.md)。
 
 </div>
 
@@ -114,15 +114,15 @@ When using FreeTube, your IP address may still be known to YouTube, [Invidious](
 
 ![Yattee logo](assets/img/frontends/yattee.svg){ align=right }
 
-**Yattee** is a free and open-source privacy oriented video player for iOS, tvOS, and macOS for [YouTube](https://youtube.com). When using Yattee, your subscription list is saved locally on your device.
+**Yattee** 是 iOS、tvOS 和 macOS 適用於 [YouTube](https://youtube.com) 的自由、開放原始碼、以隱私為重點的影片播放器。 使用 Yattee 時，您的訂閱清單會儲存在本機裝置上。
 
-You will need to take a few [extra steps](https://web.archive.org/web/20230330122839/https://gonzoknows.com/posts/Yattee) before you can use Yattee to watch YouTube, due to App Store restrictions.
+由於 App Store 的限制，您需要採取一些 [額外步驟](https://web.archive.org/web/20230330122839/https://gonzoknows.com/posts/Yattee) ，才能使用 Yattee 觀看 YouTube。
 
-[:octicons-home-16: Homepage](https://github.com/yattee/yattee){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/yattee/yattee/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/yattee/yattee){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/yattee/yattee/wiki/Donations){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://github.com/yattee/yattee){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://r.yattee.stream/docs/privacy.html){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://github.com/yattee/yattee/wiki){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/yattee/yattee){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://github.com/yattee/yattee/wiki/Donations){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -137,7 +137,7 @@ You will need to take a few [extra steps](https://web.archive.org/web/2023033012
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-When using Yattee, your IP address may still be known to YouTube, [Invidious](https://instances.invidious.io), [Piped](https://github.com/TeamPiped/Piped/wiki/Instances), or [SponsorBlock](https://sponsor.ajay.app) depending on your configuration. 如果您的 [威脅模型](basics/threat-modeling.md) 需要隱藏您的IP 位址，請考慮使用 [VPN](vpn.md)或 [Tor](tor.md)。
+使用 Yattee 時，您的 IP位址 可能仍會被 YouTube、 [Invidious](https://instances.invidious.io) 、 [Piped](https://github.com/TeamPiped/Piped/wiki/Instances) 或 [SponsorBlock](https://sponsor.ajay.app) 所知曉，具體取決於您的設定。 如果您的 [威脅模型](basics/threat-modeling.md) 需要隱藏您的IP 位址，請考慮使用 [VPN](vpn.md) 或 [Tor](tor.md)。
 
 </div>
 
@@ -154,11 +154,11 @@ When using Yattee, your IP address may still be known to YouTube, [Invidious](ht
 
 LibreTube 可將訂閱列表和播放列表存儲於 Android 設備，或者存儲到您選擇的 Piped 實例帳戶，以便利用其他設備無縫訪問。
 
-[:octicons-home-16: Homepage](https://libretube.dev){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/libre-tube/LibreTube/blob/master/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://libretube.dev/#faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/libre-tube/LibreTube#donate){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://libretube.dev){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/libre-tube/LibreTube/blob/master/PRIVACY_POLICY.md){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://libretube.dev/#faq){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://github.com/libre-tube/LibreTube#donate){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -172,7 +172,7 @@ LibreTube 可將訂閱列表和播放列表存儲於 Android 設備，或者存�
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-使用 LibreTube 時，IP 位址會為所用的 [Piped](https://github.com/TeamPiped/Piped/wiki/Instances)實例和 [SponsorBlock](https://sponsor.ajay.app)看見，具體取決於您的設定。 如果您的 [威脅模型](basics/threat-modeling.md) 需要隱藏您的IP 位址，請考慮使用 [VPN](vpn.md)或 [Tor](tor.md)。
+使用 LibreTube 時，IP 位址會為所用的 [Piped](https://github.com/TeamPiped/Piped/wiki/Instances)實例和 [SponsorBlock](https://sponsor.ajay.app)看見，具體取決於您的設定。 如果您的 [威脅模型](basics/threat-modeling.md) 需要隱藏您的IP 位址，請考慮使用 [VPN](vpn.md) 或 [Tor](tor.md)。
 
 </div>
 
@@ -184,15 +184,15 @@ LibreTube 可將訂閱列表和播放列表存儲於 Android 設備，或者存�
 
 ![Newpipe logo](assets/img/frontends/newpipe.svg){ align=right }
 
-**NewPipe** 是 [YouTube](https://youtube.com)、 [SoundCloud](https://soundcloud.com)、 [media.ccc.de](https://media.ccc.de)、 [Bandcamp](https://bandcamp.com)和 [PeerTube](https://joinpeertube.org) (1)的免費開源 Android應用程式。
+**NewPipe** 是自由及開放原始碼的 Android 應用程式，可用於觀看 [YouTube](https://youtube.com)、 [SoundCloud](https://soundcloud.com)、 [media.ccc.de](https://media.ccc.de)、 [Bandcamp](https://bandcamp.com)和 [PeerTube](https://joinpeertube.org) (1)。
 
-訂閱清單和播放列表會儲存在本地的 Android裝置。
+訂閱清單和播放列表會儲存在本地的 Android 裝置上。
 
-[:octicons-home-16: Homepage](https://newpipe.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://newpipe.net/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://newpipe.net/FAQ){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/TeamNewPipe/NewPipe){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://newpipe.net/donate){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://newpipe.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://newpipe.net/legal/privacy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://newpipe.net/FAQ){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/TeamNewPipe/NewPipe){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://newpipe.net/donate){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -203,12 +203,12 @@ LibreTube 可將訂閱列表和播放列表存儲於 Android 設備，或者存�
 
 </div>
 
-1. 預設實例為 [FramaTube](https://framatube.org)，但可在 **Settings** → **Content** → **PeerTube instance ** 添加更多實例。
+1. 預設伺服器為 [FramaTube](https://framatube.org)，但可在 **設定** → **內容** → **PeerTube 站臺** 添加更多伺服器。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-使用NewPipe時，IP 位址會被所使用的影片供應商看見。 如果您的 [威脅模型](basics/threat-modeling.md) 需要隱藏您的IP 位址，請考慮使用 [VPN](vpn.md)或 [Tor](tor.md)。
+使用NewPipe時，IP 位址會被所使用的影片供應商看見。 如果您的 [威脅模型](basics/threat-modeling.md) 需要隱藏您的IP 位址，請考慮使用 [VPN](vpn.md) 或 [Tor](tor.md)。
 
 </div>
 
@@ -221,13 +221,13 @@ LibreTube 可將訂閱列表和播放列表存儲於 Android 設備，或者存�
 
 **Invidious** 是 [YouTube](https://youtube.com)的免費開源前端，也可自行託管。
 
-有許多公共實例，其中一些實例支援 [Tor](tor.md) onion 服務。
+有許多公開伺服器，其中一些伺服器支援 [Tor](tor.md) 洋蔥服務。
 
-[:octicons-home-16: Homepage](https://invidious.io){ .md-button .md-button--primary }
-[:octicons-server-16:](https://instances.invidious.io){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://docs.invidious.io){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://invidious.io/donate){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://invidious.io){ .md-button .md-button--primary }
+[:octicons-server-16:](https://instances.invidious.io){ .card-link title="公開伺服器清單"}
+[:octicons-info-16:](https://docs.invidious.io){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://invidious.io/donate){ .card-link title=捐款 }
 
 </details>
 
@@ -243,7 +243,7 @@ LibreTube 可將訂閱列表和播放列表存儲於 Android 設備，或者存�
 <div class="admonition tip" markdown>
 <p class="admonition-title">溫馨提示</p>
 
-如果您想在瀏覽器中停用JavaScript ，例如 [Tor瀏覽器](tor.md#tor-browser)最安全級別，Invidious 非常有用。 它本身不提供隱私，故不建議登入任何帳戶。
+如果您想在瀏覽器中停用JavaScript ，例如 [Tor瀏覽器](tor.md#tor-browser) 的最安全級別，Invidious 非常有用。 它本身並不保證您的隱私，故不建議登入任何帳戶。
 
 </div>
 
@@ -253,15 +253,15 @@ LibreTube 可將訂閱列表和播放列表存儲於 Android 設備，或者存�
 
 ![Piped logo](assets/img/frontends/piped.svg){ align=right }
 
-**Piped** 是 [YouTube](https://youtube.com)的免費開源前端，也是可自主託管。
+**Piped** 是 [YouTube](https://youtube.com)的自由及開放原始碼前端，同樣可自主託管。
 
-Piped 需要JavaScript 才能運行，它有許多公共實例。
+Piped 需要 JavaScript 才能運行，它有許多公共伺服器。
 
-[:octicons-repo-16: Repository](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/TeamPiped/Piped/wiki/Instances){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://docs.piped.video/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=Contribute }
+[:octicons-repo-16: 儲存庫](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/TeamPiped/Piped/wiki/Instances){ .card-link title="公開伺服器清單"}
+[:octicons-info-16:](https://docs.piped.video/docs){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title=捐款 }
 
 </details>
 
@@ -270,7 +270,7 @@ Piped 需要JavaScript 才能運行，它有許多公共實例。
 <div class="admonition tip" markdown>
 <p class="admonition-title">溫馨提示</p>
 
-Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) without installing an extension. 它本身不提供隱私，故不建議登入任何帳戶。
+如果您想在不安裝擴充套件的情況下使用 [SponsorBlock](https://sponsor.ajay.app) ，Piped 會很有用。 它本身並不保證您的隱私，故不建議登入任何帳戶。
 
 </div>
 
@@ -281,11 +281,11 @@ Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) with
 推薦的前端…
 
 - 必須是開源軟體。
-- 必須是可自行託管。
+- 必須可自行託管。
 - 必須提供匿名訪客完整的網站基本功能。
 
-我們只考慮符合以下條件的前端平台：
+我們只會在平台符合下列條件之一時，才會考慮前端：
 
-- 通常只能在啟用 JavaScript 的情況下才能存取。
-- 通常只能透過帳戶存取。
+- 通常只有在啟用 JavaScript 的情況下才能存取。
+- 通常必須登入帳戶才能存取。
 - 封鎖商業 [VPN](vpn.md) 的存取。

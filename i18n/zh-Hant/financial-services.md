@@ -67,7 +67,7 @@ MySudo 虛擬卡目前只能在其 iOS應用上使用。
 
 ## 禮品卡市集
 
-這些服務可接受 [加密貨幣](cryptocurrency.md)來購買各種商家禮品卡。 其中一些服務提供更高限額的身份驗證選項，它們也只淮許有電子郵件地址的帳戶。 Basic limits typically start at $5,000-10,000 a day for basic accounts, with significantly higher limits for ID verified accounts (if offered).
+這些服務可接受 [加密貨幣](cryptocurrency.md)來購買各種商家禮品卡。 其中一些服務提供更高限額的身份驗證選項，它們也只淮許有電子郵件地址的帳戶。 基本帳戶的限額通常從每天 5,000 到 10,000 美元不等，經過身份驗證的帳戶限額會高很多（如果您選擇提供的話）。
 
 ### Coincards
 
@@ -75,11 +75,11 @@ MySudo 虛擬卡目前只能在其 iOS應用上使用。
 
 ![Coincards logo](assets/img/financial-services/coincards.svg){ align=right }
 
-**Coincards** allows you to purchase gift cards for a large variety of merchants. Their homepage has a complete listing of the various countries where their service is available.
+**Coincards** 可讓您購買各式各樣商家的禮品卡。 他們的首頁完整列出提供服務的所有國家。
 
-[:octicons-home-16: Homepage](https://coincards.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://coincards.com/frequently-asked-questions){ .card-link title=Documentation}
+[:octicons-home-16: 首頁](https://coincards.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://coincards.com/frequently-asked-questions){ .card-link title=說明文件}
 
 </details>
 
@@ -90,5 +90,5 @@ MySudo 虛擬卡目前只能在其 iOS應用上使用。
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-- 接受付款 [使用推薦加密貨幣](cryptocurrency.md)。
+- 接受使用 [我們推薦的加密貨幣](cryptocurrency.md) 付款。
 - 無需提供身份證件。

@@ -5,7 +5,7 @@ description: 這些加密的筆記錄應用程式可讓您跟進記錄，而無�
 cover: notebooks.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>防護下列威脅：</small>
 
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 

@@ -1,7 +1,7 @@
 ---
 title: 手機
 icon: material/cellphone-check
-description: These mobile devices provide the best hardware security support for custom Android operating systems.
+description: 這些行動裝置為客製化 Android 作業系統提供最佳的硬體安全支援。
 cover: android.webp
 schema:
   - "@context": http://schema.org

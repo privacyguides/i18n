@@ -5,14 +5,14 @@ description: 這些工具可協助透過多重身份驗證保護網路帳戶，�
 cover: multi-factor-authentication.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>防護下列威脅：</small>
 
 - [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 <div class="admonition note" markdown>
 <p class="admonition-title">硬體金鑰</p>
 
-[硬體金鑰推薦](security-keys.md) 已移入自有類別。
+[硬體安全金鑰推薦](security-keys.md) 已移至其本身的類別。
 
 </div>
 
@@ -26,12 +26,12 @@ cover: multi-factor-authentication.webp
 
 ![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.svg){ align=right }
 
-**Ente Auth** is a free and open-source app which stores and generates TOTP tokens. 它可以與線上帳戶一起使用，以安全、端對端加密的方式在裝置上備份和同步令牌（並透過網頁介面存取它們）。 它也可在單一設備上離線使用，無需帳戶。
+**Ente Auth** 是一個自由且開放原始碼的應用程式，可儲存私鑰並產生 TOTP 一次性密碼。 它可以與線上帳戶一起使用，以安全、端對端加密的方式在裝置上備份和同步令牌（並透過網頁介面存取它們）。 它也可在單一設備上離線使用，無需帳戶。
 
-[:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.ente.io/auth){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://ente.io/auth){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://help.ente.io/auth){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -39,7 +39,7 @@ cover: multi-factor-authentication.webp
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id6444121398)
 - [:simple-github: GitHub](https://github.com/ente-io/ente/releases?q=auth)
-- [:octicons-globe-16: Web](https://auth.ente.io)
+- [:octicons-globe-16: 網頁版](https://auth.ente.io)
 
 </details>
 
@@ -51,13 +51,13 @@ cover: multi-factor-authentication.webp
 
 ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ align=right }
 
-**Aegis Authenticator** 是一款適用於 Android 的免費開源應用程式，管理線上服務的兩步驟驗證。 Aegis Authenticator 完全離線/本機運行，不同於許多替代方案，它具備匯出令牌以進行備份的選項。
+**Aegis Authenticator** 是一款適用於 Android 的自由且開放原始碼應用程式，管理線上服務的兩步驟驗證。 Aegis Authenticator 完全離線/本機運行，不同於許多替代方案，它具備匯出令牌以進行備份的選項。
 
-[:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://buymeacoffee.com/beemdevelopment){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://getaegis.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://buymeacoffee.com/beemdevelopment){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -76,4 +76,4 @@ cover: multi-factor-authentication.webp
 
 - 源代碼必須公開。
 - 無需網際網路連線。
-- Cloud syncing must be optional, and (if available) sync functionality must be E2EE.
+- 雲端同步功能必須是非強迫的，而且（如該軟體有）同步功能則其必須採納 E2EE。
