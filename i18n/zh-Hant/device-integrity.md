@@ -28,7 +28,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 如果以下任何工具表明可能有 Pegasus、Predator 或 KingsPawn 等間諜軟體危害，建議聯絡：
 
 - 人權捍衛者、記者或來自民間團體：[國際特赦組織安全實驗室](https://securitylab.amnesty.org/contact-us)
-- If a business or government device is compromised: the appropriate security liason at your enterprise, department, or agency
+- 企業或政府裝置：您所屬企業、部門或機構的相關資安人員
 - 本地執法單位
 
 **除此之外，我們無法直接為您提供幫助。** 我們很樂意在我們的[社區](https://discuss.privacyguides.net)空間中討論您的具體情況或情況並檢查結果，但不太可能提供本頁所述之外的協助。
@@ -42,22 +42,22 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 這些工具根據他們能夠從裝置存取的資訊以及可公開存取的破壞指標提供分析。 重要的是記住兩件事：
 
 1. 破壞指標就僅是：_指標_。 它們不是明確的發現，有時可能是**誤報**。 如果偵測到有侵駭跡象，則表示應對「潛在」威脅進行更多研究。
-2. 這些工具尋找的侵駭指標由威脅研究組織發布，但並非所有指標都對外開放！ 這意味著，如果裝置感染了任何公共指標都未偵測到的間諜軟體，則工具可能會**漏報**。 Reliable and comprehensive digital forensic support and triage require access to non-public indicators, research, and threat intelligence.
+2. 這些工具所尋找的危害指標由威脅研究組織發布，但並非所有指標都對外開放！ 這意味著，如果裝置感染了任何公共指標都未偵測到的間諜軟體，則工具可能會**漏報**。 可靠且全面的數位鑑識支援和取得資料後要進行的分類需要存取非公開的指標、研究和威脅情報。
 
 ## 外部驗證工具
 
 <small>防護下列威脅：</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
-External verification tools run on your computer and scan your mobile device for forensic traces, which are helpful to identify potential compromise.
+外部驗證工具會在您的電腦上執行，並掃描您的行動裝置以尋找「痕跡」，這些「痕跡」有助於識別潛在的損害。
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger "危險"</p>
 
 公開的損壞指標不足以確定設備是“乾淨的”、非特定間諜軟體工具的目標。 僅依賴公開指標可能會錯過最新的鑑證痕跡並給予錯誤的安全感。
 
-Reliable and comprehensive digital forensic support and triage require access to non-public indicators, research, and threat intelligence.
+可靠且全面的數位鑑識支援和取得資料後要進行的分類需要存取非公開的指標、研究和威脅情報。
 
 可透過 [Amnesty International's Security Lab](https://amnesty.org/en/tech/) 或 [Access Now’s Digital Security Helpline](https://accessnow.org/help/) 取得公民社會的此類支援。
 
@@ -73,8 +73,8 @@ Reliable and comprehensive digital forensic support and triage require access to
 
 **Mobile Verification Toolkit** (**MVT**) 是一組實用程式，可簡化和自動化掃描移動設備的過程，查找已知間諜軟體活動的潛在目標或感染痕跡。 MVT 由國際特赦組織開發，於 2021 年在 [Pegasus 專案](https://forbiddenstories.org/about-the-pegasus-project/) 背景下發布。
 
-[:octicons-home-16: Homepage](https://mvt.re){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://mvt.re){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -93,7 +93,8 @@ Reliable and comprehensive digital forensic support and triage require access to
 
 </div>
 
-MVT 對掃描 iOS 裝置「最」有用。 Android stores very little diagnostic information useful to triage potential compromises, and because of this, `mvt-android` capabilities are limited as well. 另一方面，加密的 iOS iTunes 備份提供儲存在裝置上足夠大的檔案子集，可在許多情況下偵測可疑工件。 話雖這麼說，MVT 仍為 iOS 和 Android 分析相當有用的工具。
+MVT 對掃描 iOS 裝置「最」有用。 Android 儲存的診斷資訊非常少，無法用來分流
+類潛在的入侵，也因為如此，「mvt-android」的功能也受到限制。 另一方面，加密的 iOS iTunes 備份提供儲存在裝置上足夠大的檔案子集，可在許多情況下偵測可疑工件。 話雖這麼說，MVT 仍為 iOS 和 Android 分析相當有用的工具。
 
 如果使用 iOS 且處於高風險狀態，我們有三個額外建議：
 
@@ -115,9 +116,9 @@ MVT 對掃描 iOS 裝置「最」有用。 Android stores very little diagnostic
 
 **iMazing** 為 iOS 裝置提供免費的間諜軟體分析工具，充當 [MVT](#mobile-verification-toolkit) 的圖形介面包裝器。 相比 MVT ，它更容易運行，前者是專為技術人員和法醫調查人員設計的命令列工具。
 
-[:octicons-home-16: Homepage](https://imazing.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://imazing.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://imazing.com/spyware-analyzer){ .card-link title=Documentation}
+[:octicons-home-16: 首頁](https://imazing.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://imazing.com/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://imazing.com/spyware-analyzer){ .card-link title=說明文件}
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -135,8 +136,8 @@ iMazing 會自動並以互動方式引導完成使用 [MVT](#mobile-verification
 
 <small>防護下列威脅：</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-bug-outline: 被動攻擊](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 可安裝這些應用程式來檢查裝置和作業系統是否有篡改跡象，並驗證裝置的身份。
 
@@ -156,11 +157,11 @@ iMazing 會自動並以互動方式引導完成使用 [MVT](#mobile-verification
 
 **Auditor** 是一款利用硬體安全功能通過主動驗證設備身份及其作業系統的完整性來進行完整性監控的應用程式。 目前僅在 GrapheneOS 或 [支援設備](https://attestation.app/about#device-support)的庫存作業系統運行。
 
-[:octicons-home-16: Homepage](https://attestation.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://attestation.app/about){ .card-link title=Documentation}
-[:octicons-code-16:](https://attestation.app/source){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://attestation.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://attestation.app/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://attestation.app/about){ .card-link title=說明文件}
+[:octicons-code-16:](https://attestation.app/source){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://attestation.app/donate){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -173,9 +174,9 @@ iMazing 會自動並以互動方式引導完成使用 [MVT](#mobile-verification
 
 </div>
 
-Auditor is not a scanning/analysis tool like some other tools on this page. Rather, it uses your device's hardware-backed keystore to allow you to verify the identity of your device and gain assurance that the operating system itself hasn't been tampered with or downgraded via verified boot. 這為裝置本身提供了非常強大的完整性檢查，但不一定檢查裝置上執行的使用者級應用程式是否是惡意的。
+Auditor 並不像本頁上的其他工具一樣是掃描/分析工具。 相反地，它使用由裝置硬體支持的 keystore ，讓您可以驗證裝置的身份，並確保作業系統本身沒有被竄改或遭到 verified boot 降級攻擊。 這為裝置本身提供了非常強大的完整性檢查，但不一定檢查裝置上執行的使用者級應用程式是否是惡意的。
 
-審核員使用**兩個**設備執行證明和入侵檢測，即一個_被審核者_（正在驗證的設備）和一個_審核員_（執行驗證的設備）。 The auditor can be any Android 10+ device (or a remote web service operated by [GrapheneOS](android/distributions.md#grapheneos)), while the auditee must be a specifically [supported device](https://attestation.app/about#device-support). Auditor 適用於:
+Auditor 使用 **兩個** 設備執行證明和入侵檢測，即一個 _被驗證者（auditee）_ 和一個 _驗證者（auditor）_。 驗證者 可以是任何 Android 10+ 裝置（或是由 [GrapheneOS](android/distributions.md#grapheneos) 所持有的遠端網路服務），而 被驗證者 必須是特定 [支援的裝置](https://attestation.app/about#device-support)。 Auditor 適用於:
 
 - 在_審核員_和_被審核者_之間使用 [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) 模式，雙方在兩人在[硬體支援的金鑰庫](https://source.android.com/security/keystore/)the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore/)中建立 _審計員_私鑰。
 - _審核員_可以是審核員應用程式的另一個實例，也可以是[遠端憑證服務](https://attestation.app)。

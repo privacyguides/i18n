@@ -2,7 +2,7 @@
 title: 貢獻者
 hide:
   - toc
-description: A complete list of contributors who have collectively made an enormous impact on the Privacy Guides project.
+description: 完整的貢獻者名單，這些貢獻者共同對 Privacy Guides 專案產生了巨大的影響。
 ---
 
 <!-- Do NOT manually edit this file, please add yourself to the .all-contributorsrc file instead. See our GitHub Issues for more details -->
