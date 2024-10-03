@@ -167,9 +167,9 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 
 ##### 加強型追蹤保護功能
 
-- [x] 選擇 **嚴格** 加強型追蹤保護
+- [x] 在 加強型追蹤保護 下選擇 **嚴格**
 
-通過封鎖社交媒體追蹤器、指紋辨識腳本 (請注意，這無法保護您免於*所有*的指紋辨識)、加密貨幣採礦程式、跨網站 Cookie 和其他追蹤內容來保護您。 加強型追蹤保護功能 可保護您免於許多常見威脅，但它不能阻止所有追蹤途徑，因為它被設計為對網站的可用性影響極小或沒有影響。
+透過封鎖社交媒體追蹤器、指紋辨識腳本 (注意，這並不能保護您免於*所有*的指紋辨識)、加密貨幣採礦程式、跨網站 Cookie 以及其他追蹤內容來保護您。 加強型追蹤保護功能 可保護您免於許多常見威脅，但並不能阻止所有追蹤途徑，因為它的設計考量了網站的可用性。
 
 ##### 關閉時清除資料
 
@@ -177,7 +177,7 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 
 - [x] 勾選 **關閉 Firefox 時清除 Cookie 與網站資料**
 
-這可以保護您免受持久性 Cookie 的影響，但不能保護您免受在任何一次瀏覽階段的 Cookie。 啟用此功能後，只需重新啟動 Firefox，就能輕鬆清除瀏覽器 Cookie。 如果您希望在經常造訪的特定網站保持登入，可以針對每個網站設定例外。
+這可以保護您免受持久性 Cookie 的影響，但無法防止在單一瀏覽階段中取得的 Cookie。 啟用此功能後，只需重新啟動 Firefox，就能輕鬆清除瀏覽器 Cookie。 如果您希望在經常造訪的特定網站保持登入，可以針對每個網站設定例外。
 
 ##### 遙測
 
@@ -187,22 +187,22 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 
 > Firefox 會向 Mozilla 發送以下數據：您的 Firefox 版本和語言；操作系統和硬體配置；記憶體、關於崩潰和錯誤的基本訊息；更新、安全瀏覽和啟動等自動化流程系統的結果。 當 Firefox 向 Mozilla 發送數據時，會將您的 IP 位址作為伺服器日誌的一部份暫時收集。
 
-此外，Mozilla 帳戶服務也收集[一些技術數據](https://mozilla.org/privacy/mozilla-accounts)。 如果有使用 Mozilla 帳戶，您可以選擇退出。
+此外，Mozilla 帳戶服務也收集[一些技術資料](https://mozilla.org/privacy/mozilla-accounts)。 如果有使用 Mozilla 帳戶，您可以選擇退出。
 
 1. 在 [accounts.firefox.com 開啟您的個人資料設定](https://accounts.firefox.com/settings#data-collection)
 2. 取消勾選 **資料收集與使用** > **幫助我們改善 ⁨Mozilla 帳號⁩**
 
 ##### 網站廣告偏好設定
 
-- [ ] 取消勾選**允許網站進行能保護隱私的廣告成效測量**
+- [ ] 取消勾選 **允許網站進行能保護隱私的廣告成效測量**
 
-Firefox 128 發佈以後，新的[保護隱私的成效測量](https://support.mozilla.org/kb/privacy-preserving-attribution) (簡稱 PPA) 設定已經加入並且[預設是開啟的](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2)。 PPA 允許廣告商利用您的瀏覽器進行廣告成效測量，進而取代基於 JavaScript 的傳統追蹤方式。 我們認為此行為不屬於使用者代理的職責範圍，而 Arkenfox 預設停用此功能的事實，也是停用此功能的額外指標。
+Firefox 128 發佈時，新增了一個[尊重隱私的成效測量](https://support.mozilla.org/kb/privacy-preserving-attribution) (簡稱 PPA)，並且[預設為開啟狀態](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2)。 PPA 允許廣告商利用您的瀏覽器進行廣告成效測量，進而取代基於 JavaScript 的傳統追蹤方式。 我們認為此行為超出了使用者代理的職責範圍，而 Arkenfox 預設停用此功能的決定，也進一步的表明應該停用這項功能。
 
 ##### 純 HTTPS 模式
 
-- [x] 勾選 **在所有視窗都開啟純 HTTPS 模式**
+- [x] 勾選 **在所有視窗都只使用 HTTPS 連線**
 
-這可以防止您無意間以明文 HTTP 連線到網站。 如今，不支援 HTTPS 的網站並不多見，因此這對您日常瀏覽的影響應該很小或沒有影響。
+這可以防止您無意間以明文 HTTP 連線到網站。 如今，不支援 HTTPS 的網站已不多見，因此這對您日常瀏覽的影響幾乎沒有影響。
 
 ##### 基於 HTTPS 的 DNS 服務 (DNS over HTTPS)
 
@@ -210,7 +210,7 @@ Firefox 128 發佈以後，新的[保護隱私的成效測量](https://support.m
 
 - [x] 選擇 **最大保護** 與合適的提供者
 
-最大保護 強制使用 DNS over HTTPS，如果 Firefox 無法連線到您的安全 DNS 解析器，或者安全 DNS 解析器表示您嘗試存取的網域沒有記錄，則會顯示安全警告。 這可以防止您所連接的網路暗中降低您的 DNS 安全性。
+最大保護 強制使用 DNS over HTTPS，如果 Firefox 無法連線到您的安全 DNS 解析器，或者安全 DNS 解析器表示您嘗試存取的網域沒有記錄，則會顯示安全警告。 這可以防止您所使用的網路暗中降低您的 DNS 安全性。
 
 #### 同步
 
@@ -219,15 +219,15 @@ Firefox 128 發佈以後，新的[保護隱私的成效測量](https://support.m
 ### Arkenfox (進階)
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">使用 Mullvad 瀏覽器以進階防止指紋識別</p>
+<p class="admonition-title">使用 Mullvad 瀏覽器以防止更進階的指紋識別</p>
 
-[Mullvad 瀏覽器](#mullvad-browser) 提供與 Arkenfox 相同的防指紋保護，不需要使用 Mullvad VPN 就能獲得這些保護。 再加上 VPN，Mullvad 瀏覽器 可以阻擋 Arkenfox 無法處理的更先進追蹤腳本。 Arkenfox 仍具有更靈活的優勢，可以對需要保持登入狀態的個別網站設定例外。
+[Mullvad 瀏覽器](#mullvad-browser) 提供與 Arkenfox 相同的防指紋保護，不需要使用 Mullvad VPN 就能獲得這些保護。 結合 VPN 使用時，Mullvad 瀏覽器 能夠阻擋 Arkenfox 無法處理的進階追蹤腳本。 相較之下，Arkenfox 仍然具有更高的靈活性，可以對需要保持登入狀態的個別網站設定例外。
 
 </div>
 
-[Arkenfox 專案](https://github.com/arkenfox/user.js) 為 Firefox 提供一套經過仔細考量的設定。 如果您[決定](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not)使用 Arkenfox，有[幾個選項](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common])主觀上較為嚴格，並且、或者可能導致某些網站無法正常運作，您可以[輕鬆變更](https://github.com/arkenfox/user.js/wiki/3.1-Overrides)，以滿足您的需求。 我們**強烈建議**完整閱讀他們的 [Wiki 頁面](https://github.com/arkenfox/user.js/wiki)。 Arkenfox 也支援[容器](https://support.mozilla.org/kb/containers#w_for-advanced-users)功能。
+[Arkenfox 專案](https://github.com/arkenfox/user.js) 為 Firefox 提供一套經過精心考量的設定。 如果您[決定](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not)使用 Arkenfox，有[幾個選項](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common])可能在主觀上會較為嚴格，且/或可能導致某些網站無法正常運作，不過您可以[輕鬆更改](https://github.com/arkenfox/user.js/wiki/3.1-Overrides)這些選項，以滿足您的需求。 我們**強烈建議**完整閱讀他們的 [Wiki 頁面](https://github.com/arkenfox/user.js/wiki)。 Arkenfox 也支援[容器](https://support.mozilla.org/kb/containers#w_for-advanced-users)功能。
 
-Arkenfox 的目標旨在通過 Canvas 隨機化和 Firefox 內置的指紋對抗配置設置來阻止基本或單純的跟蹤腳本。 它的目的不是讓您的瀏覽器與其他許多使用 Arkenfox 的使用者混在一起，那是 Mullvad 瀏覽器或 Tor 瀏覽器的作法，也是阻止進階指紋跟蹤腳本的唯一方法。 請記住，您可以隨時使用多個瀏覽器。例如，您可以考慮將 Firefox + Arkenfox 用於希望保持登入或可以信任的幾個網站，而 Mullvad 瀏覽器則用於一般瀏覽。
+Arkenfox 的目標旨在透過 Canvas 隨機化和 Firefox 內建的抗指紋設定來阻止基本或簡單的追蹤腳本。 它的目的不是讓您的瀏覽器與其他許多使用 Arkenfox 的使用者混在一起，那是 Mullvad 瀏覽器或 Tor 瀏覽器的作法，也是阻止進階指紋跟蹤腳本的唯一方法。 請記得，您可以隨時使用多個瀏覽器，例如，您可以考慮在需要保持登入或可以信任的幾個網站使用 Firefox + Arkenfox，而在一般瀏覽時則使用 Mullvad 瀏覽器。
 
 ## Brave
 
@@ -235,9 +235,9 @@ Arkenfox 的目標旨在通過 Canvas 隨機化和 Firefox 內置的指紋對抗
 
 ![Brave 標誌](assets/img/browsers/brave.svg){ align=right }
 
-**Brave 瀏覽器** 內建內容封鎖程式和[隱私權功能](https://brave.com/privacy-features/) ，其中許多功能預設已啟用。
+**Brave 瀏覽器** 內建內容封鎖程式和[隱私權功能](https://brave.com/privacy-features/) ，其中許多功能預設為啟用。
 
-Brave 基於 Chromium 瀏覽器專案構建，因此它應該令人感到熟悉並且具有最少的網站兼容性問題。
+Brave 基於 Chromium 瀏覽器專案構建，因此使用起來應該會感到熟悉，並且網站相容性問題最小。
 
 [:octicons-home-16: 首頁](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="洋蔥服務" }
@@ -261,7 +261,7 @@ Brave 基於 Chromium 瀏覽器專案構建，因此它應該令人感到熟悉�
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-Brave 在官網的下載檔案中新增了 "[推廣代碼](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" 用以追蹤瀏覽器的下載來源，例如從 `BRV002` 下載的檔案名稱為 `Brave-Browser-BRV002.pkg`。 安裝程式會在安裝過程結束後向 Brave 伺服器發送推廣代碼。 如擔心此問題，可在開啟前更改安裝軟體的檔案名稱。
+Brave 在官網的下載的檔案名稱中新增了一個 "[推廣代碼](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)"，用於追蹤瀏覽器的下載來源，例如，下載檔名為 `Brave-Browser-BRV002.pkg`，那 `BRV002` 就是推薦碼。 安裝程式會在結束後向 Brave 的伺服器發送帶有推廣代碼的遙測。 如果您擔心這個問題，可以在開啟前更改安裝軟體的檔案名稱。
 
 </div>
 
