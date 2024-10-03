@@ -1,7 +1,7 @@
 ---
-title: Office Suites
+title: 辦公軟體套件
 icon: material/file-edit-outline
-description: These office suites offer their full functionality without an account and can be used offline.
+description: 這些辦公軟體套件提供完整的功能，無需帳號且可離線使用。
 cover: office-suites.webp
 ---
 
@@ -16,10 +16,10 @@ cover: office-suites.webp
 **LibreOffice** 是免費的開放原始碼辦公軟體套件，具有廣泛的功能。
 
 [:octicons-home-16: 首頁](https://libreoffice.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://libreoffice.org/about-us/privacy/privacy-policy-en){ .card-link title="隱私政策" }
-[:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation){ .card-link title=文件}
+[:octicons-eye-16:](https://libreoffice.org/about-us/privacy/privacy-policy-en){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation){ .card-link title=說明文件}
 [:octicons-code-16:](https://libreoffice.org/about-us/source-code){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://libreoffice.org/donate){ .card-link title=貢獻 }
+[:octicons-heart-16:](https://libreoffice.org/donate){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -44,7 +44,7 @@ cover: office-suites.webp
 **OnlyOffice** 是一套以雲端為基礎的免費開放原始碼辦公軟體套件，具有廣泛的功能，包括與 Nextcloud 整合。
 
 [:octicons-home-16: 首頁](https://onlyoffice.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502\&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="隱私政策" }
+[:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502\&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="隱私權政策" }
 [:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=說明文件}
 [:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="原始碼" }
 
@@ -64,7 +64,7 @@ cover: office-suites.webp
 
 ## 標準
 
-\*\*請注意，我們與推薦的任何專案都沒有任何關係。\*\*除了 [我們的標準準則](about/criteria.md)之外，我們還制定了一套明確的要求，讓我們能夠提供客觀的推薦。 我們建議您在選擇使用專案前先熟悉此清單，並自己進行研究，以確保它是適合您的選擇。
+**請注意，我們與所推薦專案沒有任何關聯。** 除了 [我們的標準準則](about/criteria.md) 外，還有一套明確要求以提出客觀建議。 我們建議您在選擇使用專案前先熟悉此清單，並自己進行研究，以確保它是適合您的選擇。
 
 - 必須跨平台。
 - 必須是開放原始碼軟體。

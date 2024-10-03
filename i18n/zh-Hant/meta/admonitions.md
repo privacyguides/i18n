@@ -188,7 +188,7 @@ description: A guide for website contributors on creating admonitions.
 
 ![PhotoPrism logo](../assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
+**PhotoPrism** 是一個可 自行託管 的相片管理平台。 它支援相簿同步與分享，以及多個 [功能](https://photoprism.app/features)。 它在設計上未採納 E2EE，因此最好託管在您信任且在您控制之下的伺服器上。
 
 [:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="隱私權政策" }
