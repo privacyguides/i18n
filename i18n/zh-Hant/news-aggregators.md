@@ -38,7 +38,7 @@ cover: news-aggregators.webp
 
 ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ align=right }
 
-**NewsFlash** 開源、現代化、簡單好用的Linux GTK4 新聞推送閱讀器。 可離線使用或搭配 [NextCloud News](https://apps.nextcloud.com/apps/news) 或[Inoreader](https://inoreader.com)等服務使用。 具備搜尋功能以及預先準備的新聞來源清單如 [TechCrunch](https://techcrunch.com) 方便直接加入。 只能透過 Flatpak 取得 ( Flathub 檔案庫)。
+**NewsFlash** 是一個開放原始碼、現代化、簡單好用的 Linux GTK4 新聞推送閱讀器。 可離線使用或搭配 [NextCloud News](https://apps.nextcloud.com/apps/news) 或[Inoreader](https://inoreader.com)等服務使用。 具備搜尋功能以及預先準備的新聞來源清單如 [TechCrunch](https://techcrunch.com) 方便直接加入。 只能透過 Flatpak 取得 ( Flathub 檔案庫)。
 
 [:octicons-repo-16: 儲存庫](https://gitlab.com/news-flash/news_flash_gtk){ .md-button .md-button--primary }
 [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="原始碼" }
@@ -122,10 +122,10 @@ cover: news-aggregators.webp
 
 **NetNewsWire** 是一款自由及開放原始碼的訊息源閱讀器，適用於 macOS 和 iOS ，專注於原生設計和功能集。 它支持典型的 Feed 格式與內置支持 Reddit Feed。
 
-[:octicons-home-16: Homepage](https://netnewswire.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://netnewswire.com/help){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://netnewswire.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://netnewswire.com/help){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -143,11 +143,11 @@ cover: news-aggregators.webp
 
 ![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ align=right }
 
-**Newsboat** 是文字控制界面的RSS/Atom 新聞閱讀器。 分支自 [Newsbeuter](https://zh.wikipedia.org/wiki/Newsbeuter) 後，維持積極維護。 非常輕量，適合在 [Secure Shell](https://zh.wikipedia.org/wiki/Secure_Shell)上使用。
+**Newsboat** 是文字控制界面的RSS/Atom 新聞閱讀器。 分支自 [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter) 後，維持積極維護。 非常輕量，適合在 [Secure Shell](https://zh.wikipedia.org/wiki/Secure_Shell) 上使用。
 
-[:octicons-home-16: Homepage](https://newsboat.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://newsboat.org/releases/2.27/docs/newsboat.html){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://newsboat.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://newsboat.org/releases/2.27/docs/newsboat.html){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="原始碼" }
 
 </div>
 
@@ -179,12 +179,12 @@ https://reddit.com/r/[SUBREDDIT]/new/.rss
 
 ### YouTube
 
-You can subscribe YouTube channels without logging in and associating usage information with your Google account.
+您可以訂閱 YouTube 頻道，而無需登入並將使用資訊與您的 Google 帳戶相關聯。
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example "例子"</p>
+<p class="admonition-title">範例</p>
 
-欲透過 RSS 軟體訂閱 YouTube 頻，首先檢查該頻道的 [頻道代號](https://support.google.com/youtube/answer/6180214). 頻道代號可在其"關於"頁面找到，請到: **關於** > **分享** > **複製頻道 ID**. 替換下方的 `[CHANNEL ID]`:
+欲透過 RSS 客戶端訂閱 YouTube 頻道，首先需要取得該頻道的 [頻道 ID](https://support.google.com/youtube/answer/6180214) 。 頻道代號可在其"關於"頁面找到，請到： **簡介** > **分享頻道** > **複製頻道 ID** 。 並替換下方的 [CHANNEL ID]：
 
 ```text
 https://youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
