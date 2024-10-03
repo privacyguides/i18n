@@ -9,28 +9,28 @@ global:
     - "table tbody"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>防護下列威脅：</small>
 
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
 使用第三方伺服器的加密 DNS 只能避開基本的 [DNS 封鎖](https://en.wikipedia.org/wiki/DNS_blocking) ，當您確定不會有不良後果時。 加密的 DNS 無法為您隱藏瀏覽活動。
 
-[了解更多 DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
+[了解更多有關 DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
 
 ## 推薦的 DNS 提供商
 
 這些是我們喜歡的公共 DNS 解析器，因為它們的隱私和安全特性以及全球效能。 其中一些服務根據所選擇的伺服器提供基本的 DNS 等級惡意軟體或追蹤器封鎖功能，但如希望能夠查看和自訂封鎖的內容，則應使用專用的 DNS 過濾產品。
 
-| DNS 提供者                                                                    | 協議                                  | 記錄日誌 / 隱私政策    | [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) | 篩選                                                                                                  | Signed Apple Profile                                                                                                     |
+| DNS 提供者                                                                    | 協議                                  | 記錄日誌 / 隱私政策    | [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) | 過濾                                                                                                  | Signed Apple Profile                                                                                                     |
 | -------------------------------------------------------------------------- | ----------------------------------- | -------------- | -------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | [**AdGuard Public DNS**](https://adguard-dns.io/en/public-dns.html)        | 明文  DoH/3  DoT  DoQ  DNSCrypt       | 匿名化[^1]        | 匿名化                                                            | 根據伺服器的選擇。 使用的過濾器列表可以在這裡找到。 [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) | Yes [:octicons-link-external-24:](https://adguard.com/en/blog/encrypted-dns-ios-14.html)                                 |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup)          | Cleartext   DoH/3   DoT             | Anonymized[^2] | 不是                                                             | 根據伺服器的選擇。                                                                                           | No [:octicons-link-external-24:](https://community.cloudflare.com/t/requesting-1-1-1-1-signed-profiles-for-apple/571846) |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup)          | Cleartext   DoH/3   DoT             | 匿名化[^2]        | 沒有                                                             | 根據伺服器的選擇。                                                                                           | No [:octicons-link-external-24:](https://community.cloudflare.com/t/requesting-1-1-1-1-signed-profiles-for-apple/571846) |
 | [**Control D Free DNS**](https://controld.com/free-dns)                    | 明文  DoH/3  DoT  DoQ                 | No[^3]         | 不是                                                             | 根據伺服器的選擇。                                                                                           | Yes [:octicons-link-external-24:](https://docs.controld.com/docs/macos-platform)                                         |
 | [**dns0.eu**](https://dns0.eu)                                             | Cleartext   DoH/3   DoH   DoT   DoQ | Anonymized[^4] | 匿名化                                                            | 根據伺服器的選擇。                                                                                           | Yes [:octicons-link-external-24:](https://dns0.eu/zero.dns0.eu.mobileconfig)                                             |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | DoH   DoT                           | No[^5]         | 不是                                                             | 根據伺服器的選擇。 正在使用的過濾器列表可以在這裡找到。 [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)  | Yes [:octicons-link-external-24:](https://mullvad.net/en/blog/profiles-to-configure-our-encrypted-dns-on-apple-devices)  |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | DoH   DoT                           | No[^5]         | 沒有                                                             | 根據伺服器的選擇。 正在使用的過濾器列表可以在這裡找到。 [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)  | Yes [:octicons-link-external-24:](https://mullvad.net/en/blog/profiles-to-configure-our-encrypted-dns-on-apple-devices)  |
 | [**Quad9**](https://quad9.net)                                             | Cleartext   DoH   DoT   DNSCrypt    | Anonymized[^6] | 可選的                                                            | 根據伺服器選擇，預設會封鎖惡意程式碼。                                                                                 | Yes [:octicons-link-external-24:](https://quad9.net/news/blog/ios-mobile-provisioning-profiles)                          |
 
-## 自行託管 DNS 篩選
+## 自行託管 DNS 過濾器
 
 在被控制平臺，自主託管 DNS 可提供有用的過濾，例如智能電視和其他物聯網設備，因為不需要客戶端軟件。
 
@@ -40,42 +40,42 @@ global:
 
 ![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
 
-**Pi-hole** 是一個開源的 [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) ，它使用 [DNS 篩選](https://cloudflare.com/learning/access-management/what-is-dns-filtering/)來阻止不需要的網頁內容，例如廣告。
+**Pi-hole** 是一個開源的 [DNS沉洞](https://zh.wikipedia.org/wiki/DNS%E6%B2%89%E6%B4%9E) ，它使用 [DNS 過濾](https://cloudflare.com/learning/access-management/what-is-dns-filtering/)來阻止不需要的網頁內容，例如廣告。
 
-Pi-hole 設計應用在 Raspberry Pi ，但它不限於這種硬體。 該軟體良好的 Web 界面，可查看有用資訊和管理被阻止的內容。
+Pi-hole 設計應用在 Raspberry Pi ，但它並不限於這種硬體。 該軟體良好的 Web 界面，可查看有用資訊和管理被阻止的內容。
 
-[:octicons-home-16: Homepage](https://pi-hole.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://pi-hole.net/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.pi-hole.net){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribute }
+[:octicons-home-16: 首頁](https://pi-hole.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://pi-hole.net/privacy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://docs.pi-hole.net){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=捐款 }
 
 </details>
 
 </div>
 
-### AdGuard首頁
+### AdGuard Home
 
 <div class="admonition recommendation" markdown>
 
-![AdGuard 首頁標誌](assets/img/dns/adguard-home.svg){ align=right }
+![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
 
-**AdGuard** 是一個開源的 [DNS-sinkhole](https://en.wikipedia.org/wiki/DNS_sinkhole) ，使用[DNS 過濾](https://cloudflare.com/learning/access-management/what-is-dns-filtering/) 來封鎖不需要的網頁內容，例如廣告。
+**AdGuard Home** 是一個開源的 [DNS沉洞](https://zh.wikipedia.org/wiki/DNS%E6%B2%89%E6%B4%9E) ，使用 [DNS 過濾](https://cloudflare.com/learning/access-management/what-is-dns-filtering/) 來封鎖不需要的網頁內容，例如廣告。
 
-AdGuard 首頁提供精美的網頁介面，可查看有用資訊並管理被封鎖的內容。
+AdGuard Home 提供精美的網頁介面，可查看有用資訊並管理被封鎖的內容。
 
-[:octicons-home-16: Homepage](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="原始碼" }
 
 </details>
 
 </div>
 
-## 雲端的 DNS 篩選
+## 雲端 DNS 過濾器
 
-這些 DNS 過濾解決方案提供 Web 儀表板，可以在其中根據特定需求自訂封鎖列表，類似於 Pi-hole。 這些服務通常比上述自託管服務更容易設定和配置，並且可以更輕鬆地跨多個網絡使用（自託管解決方案通常僅限於家用/本地網絡，除非設置更高級的網絡）配置）。
+這些 DNS 過濾解決方案提供 網頁儀表板，可以在其中根據特定需求自訂封鎖列表，類似於 Pi-hole。 這些服務通常比上述自託管服務更容易設定和配置，並且可以更輕鬆地跨多個網路使用（自託管解決方案通常僅限於家用/本地網路，除非您進行更進階的設定）。
 
 ### Control D
 
