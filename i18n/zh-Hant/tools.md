@@ -147,41 +147,41 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
     ---
 
-    - [x] **112+ Countries**
-    - [x] WireGuard Support
-    - [x] Cash Payments
-    - [x] Partial Port Forwarding Support
-    - [ ] No IPv6
+    - [x] **在 112 個國家設有伺服器**
+    - [x] 支援 WireGuard
+    - [x] 允許使用現金付款
+    - [x] 提供 有限的 連結埠轉發功能
+    - [ ] 不支援IPv6
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
+    [閱讀完整評論 :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
 
 - ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .lg .middle .twemoji } **IVPN**
 
     ---
 
-    - [x] **37+ Countries**
-    - [x] WireGuard Support
-    - [x] Monero & Cash Payments
-    - [ ] No Port Forwarding
-    - [ ] No IPv6
+    - [x] **在 37 個國家設有伺服器**
+    - [x] 支援 WireGuard
+    - [x] 允許使用現金、Monero 付款
+    - [ ] 不提供連結埠轉發功能
+    - [ ] 不支援IPv6
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#ivpn)
+    [閱讀完整評論 :material-arrow-right-drop-circle:](vpn.md#ivpn)
 
 - ![Mullvad logo](assets/img/vpn/mullvad.svg){ .lg .middle .twemoji } **Mullvad**
 
     ---
 
-    - [x] **45+ Countries**
-    - [x] WireGuard Support
-    - [x] Monero & Cash Payments
-    - [ ] No Port Forwarding
-    - [x] IPv6 Support
+    - [x] **在 45 個國家設有伺服器**
+    - [x] 支援 WireGuard
+    - [x] 允許使用現金、Monero 付款
+    - [ ] 不提供連結埠轉發功能
+    - [x] 支援IPv6
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#ivpn)
+    [閱讀完整評論 :material-arrow-right-drop-circle:](vpn.md#mullvad)
 
 </div>
 
-## 前三大隱私電子郵件供應商
+## 前三名尊重隱私的電子郵件供應商
 
 <div class="grid cards" markdown>
 
@@ -189,15 +189,15 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
     ---
 
-    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. 他們自 2013 年起開始營運。 Proton AG 總部位於瑞士日內瓦。 Proton Mail Free 方案隨附 500MB 的郵件儲存空間，可以免費增加至 1GB。
+    Proton Mail 是一個注重隱私、加密、安全和易用性的電子郵件服務。 他們自 2013 年起開始營運。 Proton AG 總部位於瑞士日內瓦。 Proton Mail Free 方案隨附 500MB 的郵件儲存空間，可以免費增加至 1GB。
 
-    [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
+    [閱讀我們的完整評論 :material-arrow-right-drop-circle:](email.md#proton-mail)
 
 - ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji } **Mailbox.org**
 
     ---
 
-    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. 自 **2014 年** 開始運營。 Mailbox.org  總部位於德國柏林。 初級帳戶有 2GB 儲存空間，可以根據需要升級。
+    Mailbox.org 是一個專注於安全、無廣告的電子郵件服務，其使用來自民營企業的 100% 環保能源。 自 **2014 年** 開始運營。 Mailbox.org  總部位於德國柏林。 初級帳戶有 2GB 儲存空間，可以根據需要升級。
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#mailboxorg)
 
