@@ -5,7 +5,7 @@
 *[attack surface]: The total number of possible entry points for unauthorized access to a system
 *[AVB]: Android Verified Boot
 *[cgroups]: Control Groups
-*[CLI]: Command Line Interface
+*[CLI]: Příkazová řádka
 *[CSV]: Hodnoty oddělené čárkou
 *[CVE]: Common Vulnerabilities and Exposures
 *[dark pattern]: A deceptive design pattern intended to trick a user into doing things
