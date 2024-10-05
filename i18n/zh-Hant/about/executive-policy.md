@@ -1,17 +1,17 @@
 ---
-title: Executive Policy
-description: These are policies formally adopted by our executive committee, and take precedence over all other statements expressed on this website.
+title: 執行政策
+description: 這些是我們的執行委員會正式通過的政策，並優先於本網站上表達的所有其他聲明。
 ---
 
-These are policies formally adopted by Privacy Guides' executive committee, and take precedence over all other statements expressed on this website.
+這些都是 Privacy Guides 的執行委員會正式通過的政策，並優先於本網站上表達的所有其他聲明。
 
-The key words **must**, **must not**, **required**, **shall**, **shall not**, **should**, **should not**, **recommended**, **may**, and **optional** are to be interpreted as described in [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119).
+關鍵字 **must**、**must not**、**required**、**shall**、**shall not**、**should**、**should not**、**recommended**、**may** 及 **optional** 的解釋方式如 [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119) 所述。
 
-## EP1: Freely-Provided Product Samples
+## EP1: 免費提供產品樣品
 
-_Our policy on accepting product samples for review was adopted September 7, 2024._
+_我們接受產品樣品審查的政策於 2024 年 9 月 7 日通過。_
 
-\=== "Current Version (1)"
+\=== 「當前版本 (1)」
 
 ```
 - Privacy Guides **shall not** proactively reach out to vendors asking for product samples or review accounts.

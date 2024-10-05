@@ -1,6 +1,6 @@
 ---
 title: "PrivacyTools FAQ"
-description: The real story behind the team transition from privacytools.io to privacyguides.org
+description: 團隊從 privacytools.io 轉型到 privacyguides.org 背後的真實故事
 ---
 
 2021年9月，每個活躍的貢獻者都一致同意從 PrivacyTools 轉移到此網站：Privacy Guides。 這個決定是因為 PrivacyTools 創始人和域名控制者已經消失很長一段時間，無法聯繫。

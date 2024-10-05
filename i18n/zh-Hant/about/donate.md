@@ -1,6 +1,6 @@
 ---
-title: Donate
-description: The charitable mission of Privacy Guides relies on contributions from visitors like yourself. Anything you can do to support the project is hugely appreciated.
+title: 捐款
+description: Privacy Guides 的慈善使命有賴於像您這樣的訪客的貢獻。 我們衷心感謝您對此專案的支持。
 ---
 
 <!-- markdownlint-disable MD036 -->
@@ -8,7 +8,7 @@ description: The charitable mission of Privacy Guides relies on contributions fr
 
 五年多來，Privacy Guides 不斷努力跟上網路安全與隱私權的世界，並推廣隱私權的整體好處。 這是一個**非營利、社群推動的**專案，沒有所有[貢獻者](contributors.md)的慷慨支持是無法完成的。
 
-## Donate
+## 捐款
 
 目前，支持的最佳方式是透過 GitHub 贊助每月或一次性捐款。 我們很快就能透過其他支付平台接受捐款。
 
@@ -25,10 +25,10 @@ Privacy Guides 是一個 **非營利** 組織。 我們將捐款用於各種目�
 
 本網站的流量每月使用大約是數百 GB，我們使用各種服務提供商來提供流量。
 
-**Payroll**
+**薪資**
 :
 
-We currently have one paid part-time [position](../about.md#staff) which handles day-to-day tasks like system administration, writing regular product reviews, posting our weekly show, creating course content, etc. In the future, we would like to be able to hire full-time journalists and writers to review products and create more educational content.
+我們目前有一個付費[兼職](../about.md#staff)，負責處理日常工作，例如：系統管理、撰寫定期產品評論、發佈我們的每週節目和製作課程內容等。 未來，我們希望能聘請全職的記者和作家來評論產品，並製作更多教育性的內容。
 
 **網域註冊**
 :

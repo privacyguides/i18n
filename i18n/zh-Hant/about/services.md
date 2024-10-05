@@ -1,5 +1,5 @@
 - - -
-description: We run a number of web services to test out features and promote cool decentralized, federated, and/or open-source projects.
+說明：我們運行許多網路服務來測試功能，並推廣優質的去中心化、聯邦式 和/或 開源專案。
 - - -
 
 # Privacy Guides 服務
@@ -11,19 +11,19 @@ description: We run a number of web services to test out features and promote co
 ## Discourse
 
 - 域名: [discuss.privacyguides.net](https://discuss.privacyguides.net)
-- 可用性:公共
+- 可用性：公開
 - 碼源： [github.com/discourse/discourse](https://github.com/discourse/discourse)
 
 ## Gitea
 
 - 域名： [code.privacyguides.dev](https://code.privacyguides.dev)
-- Availability: Invite-Only. Access may be granted upon request to any team working on *Privacy Guides*-related development or content.
+- 可用性：需受邀。 任何負責 *Privacy Guides* 相關開發或內容的團隊，均可應要求取得存取權。
 - 來源： [snapcraft.io/gitea](https://snapcraft.io/gitea)
 
 ## Matrix
 
 - 域名： [matrix.privacyguides.org](https://matrix.privacyguides.org)
-- Availability: Invite-Only. Access may be granted upon request to Privacy Guides team members, Matrix moderators, third-party Matrix community administrators, Matrix bot operators, and other individuals in need of a reliable Matrix presence.
+- 可用性：需受邀。 Access may be granted upon request to Privacy Guides team members, Matrix moderators, third-party Matrix community administrators, Matrix bot operators, and other individuals in need of a reliable Matrix presence.
 - 來源： [github.com/spantaleev/matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy)
 
 ## SearXNG
