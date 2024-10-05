@@ -1,21 +1,21 @@
 ---
 title: 提交訊息
-description: A guide for website contributors on using useful Git commit messages when making website change requests.
+description: 網站貢獻者在提出網站變更請求時，關於如何給出有用的 Git 提交訊息指南。
 ---
 
-For our commit messages we follow the style provided by [Conventional Commits](https://conventionalcommits.org). Not all of those suggestions are appropriate for Privacy Guides, so the main ones we use are:
+對於我們的提交訊息，我們遵循 [Conventional Commits](https://conventionalcommits.org) 所提供的樣式。 並非所有這些建議都適合 Privacy Guides，因此我們使用的主要建議有：
 
-## Update to existing text
+## 更新現有文本
 
-This example could be used for an item already on the site, but includes a minor update to the description.
+此範例可用於網站中已存在的項目，但包括描述的小更新。
 
 ```text
 update: Add mention of security audit (#0000)
 ```
 
-## Addition or removal of recommendations/pages
+## 新增或移除建議/頁面
 
-This example is for the addition or removal of an item. You may elaborate why it was removed in the commit paragraph below. Note the extra `!` to draw attention to a major change.
+此範例用於增加或移除項目。 您可以在下面的提交段落中詳細說明移除的原因。 請注意額外的 `！` ，以引起對重大變更的注意。
 
 ```text
 update!: Remove foobar (#0000)
@@ -23,11 +23,11 @@ update!: Remove foobar (#0000)
 Foobar was removed due to it having numerious security issues and being unmaintained.
 ```
 
-You can actually add a `!` to _any_ of the types on this page to denote particularly large changes, but this is generally where it will be most appropriate.
+實際上，您可以在此頁面介紹的 _任一_ 變更種類中加入 `!`，以表示特別大的變更；但在通常情況下，這是最適合添加 `!` 的種類。
 
-## Feature/enhancement
+## 新功能/增強
 
-For new features or enhancements to the site, e.g. things that have the `enhancements` label on GitHub, it may be appropriate to signify these with:
+對於網站的新功能或增強功能，例如在 GitHub 上有 `enhancements` 標籤的東西，可能適合以此來標示：
 
 ```text
 feat: Add blah blah (#0000)
@@ -35,43 +35,43 @@ feat: Add blah blah (#0000)
 This change adds the forum topics to the main page
 ```
 
-## Minor changes
+## 細節變動
 
-Small changes that **don't affect the meaning** of the article, e.g. correcting a typo, fixing grammar, changing formatting/whitespace, CSS updates, etc.
+**不影響文章意義** 的小變更，例如更正錯字、修正文法、變更格式/空格、CSS 更新等。
 
 ```text
 style: Typo correction in VPN overview
 ```
 
-## Development-related types
+## 開發相關的類型
 
-These commit types are typically used for changes that won't be visible to the general audience.
+這些提交類型通常用於一般閱聽人看不到的變更。
 
-We use `fix:` for changes that fix site related bugs. These things will usually have the `bug` label on GitHub.
+我們使用 `fix:` 來修正與網站相關的錯誤。 這些東西通常會在 GitHub 上貼上 `bug` 標籤。
 
 ```text
 fix: Remove broken Invidious embeds (#0000)
 ```
 
-We use `docs:` to denote changes to the developer documentation for this website, including (but not limited to) for example the README file, or most pages in `/docs/about` or `/docs/meta`:
+我們使用 `docs:` 來表示本網站開發者文件的變更，包括（但不限於）README 檔案、 `/docs/about` 與 `/docs/meta` 中的大多數頁面：
 
 ```text
 docs: Update Git commit message guidelines (#0000)
 ```
 
-We use `build:` for commits related to our build process, mainly dependency updates.
+我們使用 `build:` 來處理與構建程序相關的提交，主要是依賴項更新。
 
 ```text
 build: Bump modules/mkdocs-material from 463e535 to 621a5b8
 ```
 
-We use `ci:` for commits related to GitHub Actions, DevContainers, or other automated build platforms.
+我們使用 `ci:` 來處理與 GitHub Actions、DevContainers 或其他自動構建平台相關的提交。
 
 ```text
 ci: Update Netlify config (#0000)
 ```
 
-We use `refactor:` for changes which neither fix a bug nor add a feature, e.g. rearranging files, navigation order, etc.
+我們使用 `refactor:` 來處理既沒有修正錯誤也沒有新增功能的變更，例如重新排列檔案、導覽順序等。
 
 ```text
 refactor: Move docs/assets to theme/assets

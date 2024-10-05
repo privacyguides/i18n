@@ -38,7 +38,7 @@ description: 隱私保護不能僅聚焦於軟體方面；了解您每天使用�
 大多數電腦和手機都配備 TPM （或類似的安全加密協處理器），可安全儲存您的加密金鑰，並處理其他與安全相關的功能。 如果您目前使用的機器沒有這些功能，您可能會從購買具有此功能的較新電腦中獲益。 有些桌上型電腦和伺服器主機板有一個「TPM 接口」，可供添加包含 TPM 的小型配件板。
 
 <div class="admonition Note" markdown>
-<p class="admonition-title">備註</p>
+<p class="admonition-title">Note</p>
 
 虛擬 TPM 容易受到側通道攻擊，而外部 TPM 由於與主機板上的 CPU 分離，當攻擊者能夠存取硬體時，容易受到 [監聽](https://pulsesecurity.co.nz/articles/TPM-sniffing) 攻擊。 解決這個問題的方法是將安全加密協處理器包含在 CPU 本身，Apple 的晶片和微軟的 [Pluton](https://microsoft.com/en-us/security/blog/2020/11/17/meet-the-microsoft-pluton-processor-the-security-chip-designed-for-the-future-of-windows-pcs) 就是如此。
 
@@ -131,7 +131,7 @@ Android 為生物辨識定義了三種 [安全等級](https://source.android.com
 您的路由器會處理所有網路流量，並作為您與開放網際網路之間的第一道防線。
 
 <div class="admonition Note" markdown>
-<p class="admonition-title">備註</p>
+<p class="admonition-title">Note</p>
 
 許多路由器都附有儲存空間，可將檔案存放在上面，這樣您就可以從網路上的任何電腦存取這些檔案。 我們建議您不要將網路裝置用於網路以外的用途。 如果您的路由器受到攻擊，您的檔案也會受到攻擊。
 

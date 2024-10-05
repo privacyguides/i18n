@@ -83,7 +83,7 @@ Shelter 支援阻止跨配置檔案的聯絡人搜尋以及透過預設檔案管
 - 除非需錄制聲音，否則無需 麥克風權限 。
 
 <div class="admonition note" markdown>
-<p class="admonition-title">備註</p>
+<p class="admonition-title">Note</p>
 
 目前拍攝的影片不會被自動刪除元資料，但此功能已確認將在未來添加。
 
