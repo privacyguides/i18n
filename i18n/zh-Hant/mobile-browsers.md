@@ -150,12 +150,12 @@ Brave 允許您在內部網頁 brave://settings/shields/filters 內選擇額外�
 
 ![Mull logo](assets/img/browsers/mull.svg){ align=right }
 
-**Mull** 是一款基於 Firefox 的隱私去污漬的 Android 瀏覽器。 與 Firefox 相比，它提供了更強的開箱即用指紋識別保護，並禁用 JavaScript 即時 (JIT) 編譯以增強安全性。 它還刪除了 Firefox 中的所有商業專有元素，例如取代 Google Play 服務引用。
+**Mull** 是一款基於 Firefox 的以隱私為重點，去除專有 二進位大型物件（blob） 的 Android 瀏覽器。 與 Firefox 相比，它提供了更強的開箱即用指紋識別保護，並禁用 JavaScript 即時 (JIT) 編譯以增強安全性。 它還刪除了 Firefox 中的所有商業專有元素，例如取代 Google Play 服務引用。
 
-[:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#mull){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://divestos.org/pages/privacy_policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://divestos.org/pages/browsers#tuningFenix){ .card-link title=Documentation }
-[:octicons-code-16:](https://codeberg.org/divested-mobile/mull-fenix){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://divestos.org/pages/our_apps#mull){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://divestos.org/pages/privacy_policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://divestos.org/pages/browsers#tuningFenix){ .card-link title=說明文檔 }
+[:octicons-code-16:](https://codeberg.org/divested-mobile/mull-fenix){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>

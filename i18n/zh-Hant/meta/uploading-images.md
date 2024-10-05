@@ -1,6 +1,6 @@
 ---
-title: Uploading Images
-description: A guide for website contributors on uploading images in the proper format and location.
+title: 上傳圖片
+description: 網站供稿者以正確格式和取得方式上傳圖片的指南。
 ---
 
 如果您對本網站進行的變更涉及新增圖片或取代現有圖片，以下是幾項一般建議：

@@ -1,15 +1,15 @@
 ---
-title: Writing Style
-description: Our official writing style handbook for website contributors.
+title: 撰寫風格
+description: 我們為網站撰稿人提供的官方寫作風格手冊。
 ---
 
-Privacy Guides 以美式英語書寫，如有疑問，請參閱[美國心理學會格式手冊](https://apastyle.apa.org/style-grammar-guidelines/grammar) 。
+Privacy Guides 以美式英語書寫，如有疑問，請參閱[APA格式手冊](https://apastyle.apa.org/style-grammar-guidelines/grammar) 。
 
-一般而言， [美國聯邦政府的平易近人語言指南](https://plainlanguage.gov/guidelines) 提供了如何寫得清晰簡潔的良好概述。 以下我們將重點介紹該指南中的一些重要注意事項。
+一般而言， [United States federal plain language guidelines](https://plainlanguage.gov/guidelines) 提供了如何寫得清晰簡潔的良好概述。 以下我們將重點介紹該指南中的一些重要注意事項。
 
 ## 為我們的觀眾寫作
 
-Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily adults who use technology. 不要把內容說得好像是在對國中生講課一樣，但也不要過度使用複雜的專業術語，因為一般電腦使用者對這些概念並不熟悉。
+Privacy Guides 的目標[受眾](https://plainlanguage.gov/guidelines/audience)主要是使用科技的成年人。 不要把內容說得好像是在對國中生講課一樣，但也不要過度使用複雜的專業術語，因為一般電腦使用者對這些概念並不熟悉。
 
 ### 只探討人們想知道的內容
 
@@ -48,7 +48,7 @@ Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audienc
 
 來源： [plainlanguage.gov](https://plainlanguage.gov/guidelines/organize/have-a-topic-sentence)
 
-## 謹選擇用字
+## 謹慎選擇用字
 
 > 字字珠璣。 它們是書面和口頭溝通的最基本組成部分。 不要使用行話、技術名詞或縮寫，讓人們無法理解，使事情變得複雜。
 

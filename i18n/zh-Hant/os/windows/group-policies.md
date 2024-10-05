@@ -1,6 +1,6 @@
 ---
 title: 群組原則設置
-description: A quick guide to configuring Group Policy to make Windows a bit more privacy respecting.
+description: 設定群組政策使 Windows 更尊重隱私的快速指南。
 ---
 
 除了修改登錄機碼本身之外，**本機群組原則編輯器**是無需安裝第三方工具即可更改系統許多方面的最強大方法。 更改這些設定需要 [專業版](index.md#windows-editions) 或更高版本。

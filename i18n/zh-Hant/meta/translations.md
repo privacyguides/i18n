@@ -1,9 +1,9 @@
 ---
-title: Translations
-description: A guide for website contributors on adding translations to our website.
+title: 翻譯
+description: 網站貢獻者在我們的網站上新增翻譯的指南。
 ---
 
-Crowdin 有很好的文件，我們建議您查看他們的[入門指南](https://support.crowdin.com/crowdin-intro)。 我們的網站大量使用 [Markdown](https://en.wikipedia.org/wiki/Markdown) 撰寫，所以應該很容易貢獻翻譯。 這個頁面包含了一些有用的提示，教您如何翻譯我們網站上可能會遇到的特定語法。
+Crowdin 有很好的文件，我們建議您查看他們的 [入門指南](https://support.crowdin.com/crowdin-intro)。 我們的網站大量使用 [Markdown](https://en.wikipedia.org/wiki/Markdown) 撰寫，所以應該很容易貢獻翻譯。 這個頁面包含了一些有用的提示，教您如何翻譯我們網站上可能會遇到的特定語法。
 
 如果您有其他問題的話，請加入我們在 Matrix 上的在地化群組 ([#pg-i18n:aragon.sh](https://matrix.to/#/%23pg-i18n:aragon.sh))，並閱讀 [部落格公告](https://blog.privacyguides.org/2023/02/26/i18n-announcement) 取得關於本計劃的進一步資訊。
 
@@ -23,7 +23,7 @@ Crowdin 有很好的文件，我們建議您查看他們的[入門指南](https:
 
 ## 標點符號
 
-例如上面的警告、引號，例如：`" "` 必須用來指定字串文字。 MkDocs 不會正確解析其他符號，例如 `「 」` 或 ` « »`。 其他標點符號用於在文字中標記普通引文則沒有問題。
+例如上面的警告、引號，例如：`" "` 必須用來指定字串文字。 MkDocs 不會正確解析其他符號，例如： `「 」` 或 `« »`。 其他標點符號用於在文字中標記普通引文則沒有問題。
 
 ## 全形標點符號和 Markdown 語法
 
