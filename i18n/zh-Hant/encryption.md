@@ -109,7 +109,7 @@ Cryptomator 的文件詳細介紹它的預期[安全目標](https://docs.cryptom
 
 VeraCrypt是已停產的 TrueCrypt 項目的分支。 根據其開發人員的說法，已經實施了安全性改進，並解決了最初的TrueCrypt 代碼審計提出的問題。
 
-使用 VeraCrypt 加密時，您可以選擇不同的 [哈希函數](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme)。 我們建議您只需 **** 選擇 [SHA-512](https://en.wikipedia.org/wiki/SHA-512) 並堅持 [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) 區塊密碼。
+使用 VeraCrypt 加密時，您可以選擇不同的 [雜湊函式](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme)。 我們建議您**只**選擇 [SHA-512](https://en.wikipedia.org/wiki/SHA-512)，並堅持使用 [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) 區塊加密法。
 
 Truecrypt 已完成[多次審計](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits)，而 VeraCrypt 也曾接受 [獨立審計](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit)。
 

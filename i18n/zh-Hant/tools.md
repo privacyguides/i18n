@@ -199,22 +199,22 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
     Mailbox.org 是一個專注於安全、無廣告的電子郵件服務，其使用來自民營企業的 100% 環保能源。 自 **2014 年** 開始運營。 Mailbox.org  總部位於德國柏林。 初級帳戶有 2GB 儲存空間，可以根據需要升級。
 
-    [Read Full Review :material-arrow-right-drop-circle:](email.md#mailboxorg)
+    [閱讀完整評論 :material-arrow-right-drop-circle:](email.md#mailboxorg)
 
 - ![Tuta logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
 
     ---
 
-    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta 自 2011 年開始營運，總部位於德國漢諾威。 免費帳戶提供 10GB 容量。
+    Tuta（以前稱為 *Tutanota*）是一個透過使用加密技術來專注於安全與隱私的電子郵件服務。 Tuta 自 2011 年開始營運，總部位於德國漢諾威。 免費帳戶提供 10GB 容量。
 
-    [Read Full Review :material-arrow-right-drop-circle:](email.md#tuta)
+    [閱讀完整評論 :material-arrow-right-drop-circle:](email.md#tuta)
 
 </div>
 
 <div class="grid" markdown>
 
 <div markdown>
-### Email Aliasing Services
+### 電子郵件別名服務
 
 <div class="grid cards" markdown>
 
@@ -225,7 +225,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 </div>
 
 <div markdown>
-### Self-Hosting Email
+### 自行託管電子郵件
 
 <div class="grid cards" markdown>
 
@@ -237,7 +237,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 </div>
 
-### Secure Email Clients
+### 安全的電子郵件用戶端
 
 <div class="grid cards" markdown>
 
@@ -255,7 +255,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 [了解更多 :material-arrow-right-drop-circle:](email-clients.md)
 
-## More Private Service Providers
+## 更多尊重隱私的服務供應商
 
 ### 雲端儲存
 
@@ -274,7 +274,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 <div class="grid cards" markdown>
 
 - ![EasyOptOuts logo](assets/img/data-broker-removals/easyoptouts.svg){ .twemoji loading=lazy } [EasyOptOuts](data-broker-removals.md#easyoptouts-paid)
-- ![Google logo](assets/img/data-broker-removals/google.svg){ .twemoji loading=lazy } [Google *Results about you*](data-broker-removals.md#google-results-about-you-free)
+- ![Google logo](assets/img/data-broker-removals/google.svg){ .twemoji loading=lazy } [Google *與你相關的結果*](data-broker-removals.md#google-results-about-you-free)
 
 </div>
 
@@ -399,12 +399,12 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 <div class="grid cards" markdown>
 
-- ![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Self-Hostable)](document-collaboration.md#nextcloud)
+- ![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud（自行託管）](document-collaboration.md#nextcloud)
 - ![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ .twemoji loading=lazy } [CryptPad](document-collaboration.md#cryptpad)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](document-collaboration.md)
+[了解更多 :material-arrow-right-drop-circle:](document-collaboration.md)
 
 ### 加密軟體
 
@@ -421,7 +421,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 - ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ .twemoji loading=lazy } [Cryptomator](encryption.md#cryptomator-cloud)
 - ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ .twemoji loading=lazy } [Picocrypt](encryption.md#picocrypt-file)
-- ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji loading=lazy }![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji loading=lazy } [VeraCrypt (FDE)](encryption.md#veracrypt-disk)
+- ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ .twemoji loading=lazy }![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ .twemoji loading=lazy } [VeraCrypt（全磁碟加密）](encryption.md#veracrypt-disk)
 - ![Kryptor logo](assets/img/encryption-software/kryptor.png){ .twemoji loading=lazy } [Kryptor](encryption.md#kryptor)
 - ![Tomb logo](assets/img/encryption-software/tomb.png){ .twemoji loading=lazy } [Tomb](encryption.md#tomb)
 
@@ -449,7 +449,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 - ![Send logo](assets/img/file-sharing-sync/send.svg){ .twemoji loading=lazy } [Send](file-sharing.md#send)
 - ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ .twemoji loading=lazy } [OnionShare](file-sharing.md#onionshare)
 - ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-sharing.md#freedombox)
-- ![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Self-Hostable)](file-sharing.md#nextcloud-client-server)
+- ![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud（自行託管）](file-sharing.md#nextcloud-client-server)
 - ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ .twemoji loading=lazy } [Syncthing](file-sharing.md#syncthing-p2p)
 
 </div>
@@ -460,20 +460,20 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 <div class="grid cards" markdown>
 
-- ![Redlib logo](assets/img/frontends/redlib.svg){ .twemoji loading=lazy } [Redlib (Reddit, Web)](frontends.md#redlib)
-- ![ProxiTok logo](assets/img/frontends/proxitok.svg){ .twemoji loading=lazy } [ProxiTok (TikTok, Web)](frontends.md#proxitok)
-- ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji loading=lazy } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
-- ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji loading=lazy } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
-- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji loading=lazy }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji loading=lazy } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
-- ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji loading=lazy } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
-- ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji loading=lazy }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji loading=lazy } [Invidious (YouTube, Web)](frontends.md#invidious)
-- ![Piped logo](assets/img/frontends/piped.svg){ .twemoji loading=lazy } [Piped (YouTube, Web)](frontends.md#piped)
+- ![Redlib logo](assets/img/frontends/redlib.svg){ .twemoji loading=lazy } [Redlib（Reddit，網頁版）](frontends.md#redlib)
+- ![ProxiTok logo](assets/img/frontends/proxitok.svg){ .twemoji loading=lazy } [ProxiTok（TikTok，網頁版）](frontends.md#proxitok)
+- ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji loading=lazy } [FreeTube（YouTube，電腦版）](frontends.md#freetube)
+- ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji loading=lazy } [Yattee（YouTube，iOS、tvOS、macOS版）](frontends.md#yattee)
+- ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji loading=lazy }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji loading=lazy } [LibreTube（YouTube，Android 版）](frontends.md#libretube-android)
+- ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji loading=lazy } [NewPipe（YouTube，Android 版）](frontends.md#newpipe-android)
+- ![Invidious logo](assets/img/frontends/invidious.svg#only-light){ .twemoji loading=lazy }![Invidious logo](assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji loading=lazy } [Invidious（YouTube，網頁版）](frontends.md#invidious)
+- ![Piped logo](assets/img/frontends/piped.svg){ .twemoji loading=lazy } [Piped（YouTube，網頁版）](frontends.md#piped)
 
 </div>
 
 [了解更多 :material-arrow-right-drop-circle:](frontends.md)
 
-### Language Tools
+### 語言工具
 
 <div class="grid cards" markdown>
 
@@ -483,14 +483,14 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 [了解更多 :material-arrow-right-drop-circle:](language-tools.md)
 
-### 多因素驗證工具
+### 多重要素驗證工具
 
-**請注意:** [硬體安全密鑰](#security-keys)已移至自己的類別。
+**請注意：** [硬體安全密鑰](#security-keys)已移至自己的類別。
 
 <div class="grid cards" markdown>
 
 - ![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.svg){ .twemoji loading=lazy } [Ente Auth](multi-factor-authentication.md#ente-auth)
-- ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ .twemoji loading=lazy } [Aegis Authenticator (Android)](multi-factor-authentication.md#aegis-authenticator-android)
+- ![Aegis logo](assets/img/multi-factor-authentication/aegis.png){ .twemoji loading=lazy } [Aegis Authenticator（Android）](multi-factor-authentication.md#aegis-authenticator-android)
 
 </div>
 
@@ -526,7 +526,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 [了解更多 :material-arrow-right-drop-circle:](notebooks.md)
 
-### Office Suites
+### 辦公軟體套件
 
 <div class="grid cards" markdown>
 
@@ -546,9 +546,9 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 - ![1Password logo](assets/img/password-management/1password.svg){ .twemoji loading=lazy } [1Password](passwords.md#1password)
 - ![Psono logo](assets/img/password-management/psono.svg){ .twemoji loading=lazy } [Psono](passwords.md#psono)
 - ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ .twemoji loading=lazy } [KeePassXC](passwords.md#keepassxc)
-- ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ .twemoji loading=lazy } [KeePassDX (Android)](passwords.md#keepassdx-android)
-- ![Strongbox logo](assets/img/password-management/strongbox.svg){ .twemoji loading=lazy } [Strongbox (iOS & macOS)](passwords.md#strongbox-ios-macos)
-- ![gopass logo](assets/img/password-management/gopass.svg){ .twemoji loading=lazy } [gopass (CLI)](passwords.md#gopass-cli)
+- ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ .twemoji loading=lazy } [KeePassDX（Android）](passwords.md#keepassdx-android)
+- ![Strongbox logo](assets/img/password-management/strongbox.svg){ .twemoji loading=lazy } [Strongbox（iOS & macOS）](passwords.md#strongbox-ios-macos)
+- ![gopass logo](assets/img/password-management/gopass.svg){ .twemoji loading=lazy } [gopass（命令行）](passwords.md#gopass-cli)
 
 </div>
 
@@ -592,7 +592,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 [了解更多 :material-arrow-right-drop-circle:](security-keys.md)
 
-### Mobile Phones
+### 手機
 
 <div class="grid cards" markdown>
 
@@ -606,7 +606,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 ### 行動平台
 
-#### Custom Android Operating Systems
+#### 自訂 Android 作業系統
 
 <div class="grid cards" markdown>
 
@@ -621,7 +621,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 <div class="grid cards" markdown>
 
-- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji loading=lazy } [Shelter (Work Profiles)](android/general-apps.md#shelter)
+- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji loading=lazy } [Shelter（工作設定檔）](android/general-apps.md#shelter)
 - ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji loading=lazy }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji loading=lazy } [Secure Camera](android/general-apps.md#secure-camera)
 - ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji loading=lazy }![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji loading=lazy } [Secure PDF Viewer](android/general-apps.md#secure-pdf-viewer)
 
@@ -629,12 +629,12 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 [了解更多 :material-arrow-right-drop-circle:](android/general-apps.md)
 
-#### Ways to Obtain Android Apps
+#### Android 應用程式獲取途徑
 
 <div class="grid cards" markdown>
 
-- ![Obtainium logo](assets/img/android/obtainium.svg){ .twemoji loading=lazy } [Obtainium (App Manager)](android/obtaining-apps.md#obtainium)
-- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji loading=lazy } [Aurora Store (Google Play Client)](android/obtaining-apps.md#aurora-store)
+- ![Obtainium logo](assets/img/android/obtainium.svg){ .twemoji loading=lazy } [Obtainium（應用程式管理器）](android/obtaining-apps.md#obtainium)
+- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji loading=lazy } [Aurora Store（Google Play 用戶端）](android/obtaining-apps.md#aurora-store)
 
 </div>
 
@@ -650,8 +650,8 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 - ![Arch logo](assets/img/linux-desktop/archlinux.svg){ .twemoji loading=lazy } [Arch Linux](desktop.md#arch-linux)
 - ![Fedora logo](assets/img/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Atomic Desktops](desktop.md#fedora-atomic-desktops)
 - ![nixOS logo](assets/img/linux-desktop/nixos.svg){ .twemoji loading=lazy } [NixOS](desktop.md#nixos)
-- ![Whonix logo](assets/img/linux-desktop/whonix.svg){ .twemoji loading=lazy } [Whonix (Tor)](desktop.md#whonix)
-- ![Tails logo](assets/img/linux-desktop/tails.svg){ .twemoji loading=lazy } [Tails (Live Boot)](desktop.md#tails)
+- ![Whonix logo](assets/img/linux-desktop/whonix.svg){ .twemoji loading=lazy } [Whonix（Tor）](desktop.md#whonix)
+- ![Tails logo](assets/img/linux-desktop/tails.svg){ .twemoji loading=lazy } [Tails（自生系統）](desktop.md#tails)
 - ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ .twemoji loading=lazy } [Kicksecure](desktop.md#kicksecure)
 
 </div>
