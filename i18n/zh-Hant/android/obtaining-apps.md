@@ -56,7 +56,7 @@ Google Play商店 需要登錄 Google帳戶 才能使用，這不利於隱私。
 
 </div>
 
-Aurora Store 不允許其匿名帳戶下載付費應用程式。 您可以選擇在 Aurora Store 上登錄 Google帳戶 來下載已購買的應用程式，這確實將給予 Google 能力用於了解並存取您已安裝的應用程式。 即便如此，您仍然受益於不需要在裝置上擁有完整的 Google Play 客戶端 和 Google Play 服務 抑或是 microG。
+Aurora Store 不允許其匿名帳戶下載付費應用程式。 您可以選擇在 Aurora Store 上登錄 Google帳戶 來下載已購買的應用程式，這確實將給予 Google 能力用於了解並存取您已安裝的應用程式。 即便如此，您仍然受益於不需要在裝置上擁有完整的 Google Play 客戶端 ＋ Google Play 服務 抑或是 microG。
 
 ## 手動添加 RSS 以追蹤應用程式更新
 
@@ -117,7 +117,7 @@ Aurora Store 不允許其匿名帳戶下載付費應用程式。 您可以選擇
 
 其他流行的 F-Droid 第三方儲存庫（例如：[IzzyOnDroid](https://apt.izzysoft.de/fdroid)）緩解了其中的一些問題。 IzzyOnDroid 儲存庫直接從 GitHub 獲取開發人員的官方構建，是僅次於從開發人員自己的 F-Droid 儲存庫獲取軟體的最好選項。 但是，這仍不是我們所想推薦的方法，因為如果應用程式後來被添加到主要 F-Droid 儲存庫，則很有可能被從 IzzyOnDroid 儲存庫中 [刪除](https://github.com/vfsfitvnm/ViMusic/issues/240#issuecomment-1225564446) 。 雖然這是有道理的（因為該儲存庫的目標是在應用程式被納入主要 F-Droid 儲存庫之前託管應用程式），但這將使您安裝的應用程式無法再接收更新。
 
-不過，[F-Droid](https://f-droid.org/en/packages) 和 [IzzyOnDroid](https://apt.izzysoft.de/fdroid) 儲存庫有無數的應用程式；因此它們可以是搜尋和發現開源應用程式的有用工具，然後您可以透過其他方式取得這些應用程式，例如：Play 商店、Aurora 商店，或直接從開發人員處獲取 APK 安裝檔案。 透過此方法尋找新應用程式時，您應該做出最佳判斷，並密切關注應用程式的更新頻率。 過時的應用程式可能依賴停止支援的程式庫等，從而帶來潛在的安全風險。
+不過，[F-Droid](https://f-droid.org/en/packages) 和 [IzzyOnDroid](https://apt.izzysoft.de/fdroid) 儲存庫有無數的應用程式；因此它們可以是搜尋和發現開源應用程式的有用工具，然後您可以透過其他方式取得這些應用程式，例如：Play 商店、Aurora Store，或直接從開發人員處獲取 APK 安裝檔案。 透過此方法尋找新應用程式時，需要您自行做出最佳判斷，並密切關注應用程式的更新頻率。 過時的應用程式可能依賴停止支援的函式庫等，從而帶來潛在的安全風險。
 
 <div class="admonition note" markdown>
 <p class="admonition-title">F-Droid Basic</p>
