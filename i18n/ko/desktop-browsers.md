@@ -150,7 +150,7 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 #### 검색
 
-- [ ] Uncheck **Show search suggestions**
+-
 
 여러분의 지역에 따라 검색 제안 기능이 제공되지 않을 수도 있습니다.
 
@@ -355,7 +355,7 @@ Brave의 Web3 기능은 잠재적으로 브라우저의 핑거프린트와 공�
 
 1. 플랫폼에 따라 해당 옵션이 제공되지 않을 수 있습니다.
 
-#### Brave 동기화
+#### Brave Sync
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
