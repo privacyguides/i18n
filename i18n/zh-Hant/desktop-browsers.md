@@ -261,7 +261,7 @@ Brave 基於 Chromium 瀏覽器專案構建，因此使用起來應該會感到�
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-Brave 在官網的下載的檔案名稱中新增了一個 "[推廣代碼](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)"，用於追蹤瀏覽器的下載來源，例如，下載檔名為 `Brave-Browser-BRV002.pkg`，那 `BRV002` 就是推薦碼。 安裝程式會在結束後向 Brave 的伺服器發送帶有推廣代碼的遙測。 如果您擔心這個問題，可以在開啟前更改安裝軟體的檔案名稱。
+Brave 在官網的下載的檔案名稱中新增了一個 「[推廣代碼（referral code）](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)」，用於追蹤瀏覽器的下載來源；舉例來說，下載的檔案名為 `Brave-Browser-BRV002.pkg`，則其名稱中的 `BRV002` 就是它的推廣代碼。 安裝程式會在結束後向 Brave 的伺服器發送帶有推廣代碼的遙測。 如果您擔心這個問題，可以在開啟前更改安裝軟體的檔案名稱。
 
 </div>
 
