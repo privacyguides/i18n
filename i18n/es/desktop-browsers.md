@@ -2,7 +2,7 @@
 meta_title: "Navegadores Web para PC y Mac que Respetan la Privacidad - Privacy Guides"
 title: "Navegadores de Escritorio"
 icon: material/laptop
-description: Estos navegadores respetan la privacidad y actualmente son recomendados para la navegación estándar/no anónima por Internet en computadoras.
+description: Estos navegadores que protegen la privacidad son los que recomendamos actualmente para la navegación estándar/no anónima por Internet en computadoras de escritorio.
 cover: desktop-browsers.webp
 schema:
   - 
@@ -63,7 +63,7 @@ schema:
 
 Estos son nuestros **navegadores** recomendados y las configuraciones para la navegación estándar/no anónima por Internet. Recomendamos [Mullvad Browser](#mullvad-browser) si estás centrado en fuertes protecciones de privacidad y contra huellas digitales desde el primer momento, [Firefox](#firefox) para navegantes ocasionales que buscan una buena alternativa a Google Chrome, y [Brave](#brave) si necesitas compatibilidad con el navegador Chromium.
 
-Si necesitas navegar por Internet de forma anónima, deberías utilizar [Tor](tor.md) . Hacemos algunas recomendaciones de configuración en esta página, pero todos los navegadores que no sean Tor Browser serán rastreables por *alguien* de una forma u otra.
+Si necesitas navegar por Internet de forma anónima, deberías utilizar [Tor](tor.md). Hacemos algunas recomendaciones de configuración en esta página, pero todos los navegadores que no sean Tor Browser serán rastreables por *alguien* de una forma u otra.
 
 ## Mullvad Browser
 
@@ -71,9 +71,9 @@ Si necesitas navegar por Internet de forma anónima, deberías utilizar [Tor](to
 
 ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Es desarrollado por el Proyecto Tor y distribuido por [Mullvad](vpn.md#mullvad), y **no** requiere el uso de la VPN de Mullvad.
+**Mullvad Browser** es una versión de [Tor Browser](tor.md#tor-browser) con las integraciones de la red Tor eliminadas. Su objetivo es proporcionar a los usuarios de VPN las tecnologías de navegador contra la huella digital de Tor Browser, que son protecciones clave contra la [:material-eye-outline: Vigilancia Masiva](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Es desarrollado por el Proyecto Tor y distribuido por [Mullvad](vpn.md#mullvad), y **no** requiere el uso de la VPN de Mullvad.
 
-[:octicons-home-16: Página Principal](https://mullvad.net/en/browser){ .md-button .md-button--primary }
+[:octicons-home-16: Página Principal](https://mullvad.net/es/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Política de Privacidad" }
 [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title=Documentación}
 [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Código Fuente" }
@@ -277,21 +277,21 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
 
 <div class="annotate" markdown>
 
-- [x] Seleccione **Agresivo** bajo *Bloqueo de rastreadores y anuncios*
+- [x] Selecciona **Agresivo** en *Bloqueo de rastreadores y anuncios*
 
 <details class="warning" markdown>
 <summary>Usa listas de filtros predeterminadas</summary>
 
-Brave te permite seleccionar filtros de contenido adicionales dentro de la página interna `brave://adblock`. Te aconsejamos que no utilices esta función; en su lugar, mantén las listas de filtros predeterminadas. El uso de listas adicionales te hará destacar entre los demás usuarios de Brave y también puede aumentar la superficie de ataque si hay un exploit en Brave y se añade una regla maliciosa a una de las listas que utilizas.
+Brave te permite seleccionar filtros de contenido adicionales en la página interna `brave://adblock`. Te aconsejamos que no utilices esta función; en su lugar, mantén las listas de filtros predeterminadas. El uso de listas adicionales te hará destacar entre los demás usuarios de Brave y también puede aumentar la superficie de ataque si hay un exploit en Brave y se añade una regla maliciosa a una de las listas que utilizas.
 
 </details>
 
-- [x] Seleccione **Estricto** bajo *Actualizar las conexiones a HTTPS*
-- [x] (Opcional) Seleccione **Bloquear scripts** (1)
-- [x] Marque **Bloquear huellas digitales**
-- [x] Seleccione **Bloquear cookies de terceros**
-- [x] Marque **Olvidarme al cerrar este sitio** (2)
-- [ ] Desmarque todos los componentes de redes sociales
+- [x] Selecciona **Estricto** en *Mejorar conexiones a HTTPS*
+- [x] (Opcional) Selecciona **Bloquear scripts** (1)
+- [x] Marca **Bloquear huellas digitales**
+- [x] Selecciona **Bloquear cookies de terceros**
+- [x] Marca **Olvidarme al cerrar este sitio** (2)
+- [ ] Desmarca todos los componentes de redes sociales
 
 </div>
 
@@ -302,48 +302,48 @@ Brave te permite seleccionar filtros de contenido adicionales dentro de la pági
 
 <div class="annotate" markdown>
 
-- [x] Select **Don't allow sites to use the V8 optimizer** under *Security* → *Manage V8 security* (1)
-- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [x] Select **Auto-redirect AMP pages**
-- [x] Select **Auto-redirect tracking URLs**
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- [x] Selecciona **No permitir que los sitios usen el optimizador de V8** en *Seguridad* → *Gestionar la seguridad de V8* (1)
+- [x] Selecciona **Quitar automáticamente los permisos de los sitios que no se usan** en *Configuración del sitio y de los Escudos*
+- [x] Selecciona **Desactivar el UDP sin proxy** en [Política de gestión de IP de WebRTC](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [ ] Desmarca **Utiliza los servicios de Google para la mensajería push**
+- [x] Selecciona **Redirigir automáticamente las páginas AMP**
+- [x] Selecciona **URL de seguimiento de redirección automática**
+- [x] Selecciona **Impedir que los sitios obtengan mis huellas digitales en función de mis preferencias de idioma**
 
 </div>
 
-1. Disabling the V8 optimizer reduces your attack surface by disabling [*some*](https://grapheneos.social/@GrapheneOS/112708049232710156) parts of JavaScript Just-In-Time (JIT) compilation.
+1. Desactivar el optimizador V8 reduce tu superficie de ataque al desactivar [*algunas*](https://grapheneos.social/@GrapheneOS/112708049232710156) partes de la compilación Just-In-Time (JIT) de JavaScript.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Desinfectar al cerrar</p>
 
-- [x] Select **Delete data sites have saved to your device when you close all windows** under *Sites and Shields Settings* → *Content* → *Additional content settings* → *On-device site data*.
+- [x] Selecciona **Eliminar los datos que los sitios guardan en tu dispositivo cuando cierras todas las ventanas** en *Configuración del sitio y de los Escudos* → *Contenido* → *Configuración de contenido adicional* → *Datos de sitios en el dispositivo*.
 
-If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
+Si deseas permanecer conectado a un sitio concreto que visitas a menudo, puedes establecer excepciones por sitio en la sección *Comportamientos personalizados*.
 
 </div>
 
-##### Tor windows
+##### Ventanas Tor
 
-[**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
+[**Ventana Privada con Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) te permite enrutar tu tráfico a través de la red Tor en Ventanas Privadas y acceder a servicios .onion, lo que puede ser útil en algunos casos. Sin embargo, Brave **no** es tan resistente a las huellas digitales como Tor Browser y mucha menos gente usa Brave con Tor, así que destacarás. Si tu modelo de amenaza requiere un fuerte anonimato, utiliza [Tor Browser](tor.md#tor-browser).
 
-##### Data Collection
+##### Recopilación de datos
 
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Desmarca **Permitir estadísticas del producto con preservación de la privacidad (P3A)**
+- [ ] Desmarca **Enviar automáticamente el ping de uso diario a Brave**
+- [ ] Desmarca **Enviar informes de diagnóstico automáticamente**
 
 #### Web3
 
 Las funciones Web3 de Brave pueden aumentar potencialmente la huella digital de tu navegador y la superficie de ataque. A menos que uses alguna de estas funciones, deberían ser desactivadas.
 
-- Select **Extensions (no fallback)** under *Default Ethereum wallet*
-- Select **Extensions (no fallback)** under *Default Solana wallet*
-- Set *Method to resolve IPFS resources* to **Disabled**
+- Selecciona **Extensiones (sin copia de seguridad)** en *Cartera predeterminada de Ethereum*
+- Selecciona **Extensiones (sin copia de seguridad)** en *Cartera predeterminada de Solana*
+- Establece *Método para resolver los recursos IPFS* como **Deshabilitado**
 
 #### Extensiones
 
-- [ ] Uncheck all built-in extensions you don't use
+- [ ] Desmarca todas las extensiones integradas que no utilices
 
 #### Sistema
 

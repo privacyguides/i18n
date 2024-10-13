@@ -92,7 +92,7 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
 <details class="warning" markdown>
 <summary>Usa listas de filtros predeterminadas</summary>
 
-Brave te permite seleccionar filtros de contenido adicionales dentro de la página interna `brave://adblock`. Desaconsejamos el uso de esta función; en su lugar, mantenga las listas de filtros por defecto. El uso de listas adicionales le hará destacar entre los demás usuarios de Brave y también puede aumentar la superficie de ataque si hay un exploit en Brave y se añade una regla maliciosa a una de las listas que utiliza.
+Brave te permite seleccionar filtros de contenido adicionales en la página interna `brave://adblock`. Desaconsejamos el uso de esta función; en su lugar, mantenga las listas de filtros por defecto. El uso de listas adicionales le hará destacar entre los demás usuarios de Brave y también puede aumentar la superficie de ataque si hay un exploit en Brave y se añade una regla maliciosa a una de las listas que utiliza.
 
 </details>
 
