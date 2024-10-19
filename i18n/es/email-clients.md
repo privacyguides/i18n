@@ -5,7 +5,7 @@ description: Estos clientes de correo electrónico respetan la privacidad y admi
 cover: email-clients.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protege contra la(s) siguiente(s) amenaza(s):</small>
 
 - [:material-server-network: Proveedores de servicios](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 - [:material-target-account: Ataques dirigidos](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}

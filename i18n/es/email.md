@@ -10,11 +10,11 @@ global:
     - "table tbody"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protege contra la(s) siguiente(s) amenaza(s):</small>
 
 - [:material-server-network: Proveedores de servicios](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-Correo electrónico es prácticamente una necesidad para utilizar cualquier servicio en línea, sin embargo, no lo recomendamos para las conversaciones de persona a persona. En vez de utilizar el correo electrónico para comunicarte con otras personas, considera utilizar un servicio de mensajería instantánea que soporte el secreto hacia adelante.
+El correo electrónico es prácticamente una necesidad para utilizar cualquier servicio en línea, sin embargo, no lo recomendamos para las conversaciones de persona a persona. En vez de utilizar el correo electrónico para comunicarte con otras personas, considera utilizar un servicio de mensajería instantánea que soporte el secreto hacia adelante.
 
 [Servicios de Mensajería Instantánea Recomendados](real-time-communication.md ""){.md-button}
 
@@ -58,16 +58,16 @@ OpenPGP tampoco soporta Forward secrecy, lo que significa que si tu clave privad
 
 ![Logo Proton Mail](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** es un servicio de correo electrónico con un enfoque en privacidad, encriptación, seguridad, y la facilidad de uso. They have been in operation since 2013. Proton AG tiene su sede en Ginebra, Suiza. El plan gratuito de Proton Mail incluye 500MB de almacenamiento, que puede ser aumentado hasta 1GB sin costo.
+**Proton Mail** es un servicio de correo electrónico con un enfoque en privacidad, encriptación, seguridad, y la facilidad de uso. Ha estado en operación desde 2013. Proton AG tiene su sede en Ginebra, Suiza. El plan gratuito de Proton Mail incluye 500MB de almacenamiento, que puede ser aumentado hasta 1GB sin costo.
 
-[:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Página Principal](https://proton.me/mail){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Servicio Onion" }
+[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Política de Privacidad" }
 [:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
@@ -83,7 +83,7 @@ OpenPGP tampoco soporta Forward secrecy, lo que significa que si tu clave privad
 
 Las cuentas gratuitas tienen algunas limitaciones, como no poder buscar texto en el contenido, y no tener acceso a [Proton Mail Bridge](https://proton.me/mail/bridge), que es requerido para utilizar un [cliente recomendado de correo electrónico para escritorio](email-clients.md) (como Thunderbird). Cuentas pagas incluyen funciones como Proton Mail Bridge, almacenamiento adicional, y soporte para dominios personalizados. Una [carta de certificación](https://proton.me/blog/security-audit-all-proton-apps) fue proporcionada para las aplicaciones de Proton Mail el 9 de noviembre de 2021 por [Securitum](https://research.securitum.com).
 
-If you have the Proton Unlimited plan or any multi-user Proton plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+Si tienes el plan Proton Unlimited o cualquier plan Proton multiusuario, también obtienes [SimpleLogin](email-aliasing.md#simplelogin) Premium gratis.
 
 Proton Mail tiene informes de errores internos que **no** son compartidos con terceros. Esto se puede desactivar en la aplicación web: :gear: → **Todos los ajustes** → **Cuenta** → **Seguridad y privacidad** → **Privacidad y recolección de datos**.
 
@@ -129,9 +129,9 @@ Proton Mail no ofrece la función de legado digital.
 
 **Mailbox.org** es un servicio de correo electrónico centrado en ser seguro, sin publicidad, y alimentado de forma privada con energía 100% ecológica. Han estado en operación desde 2014. Mailbox.org tiene su sede en Berlín, Alemania. Las cuentas inician con hasta 2GB de almacenamiento, que pueden ser ampliados cuando sea necesario.
 
-[:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Documentation" }
+[:octicons-home-16: Página Principal](https://mailbox.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Documentación" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -195,16 +195,16 @@ Estos proveedores almacenan tus correos electrónicos con cifrado de cero-conoci
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Las cuentas gratuitas inician con 1GB de almacenamiento.
+**Tuta** (antes *Tutanota*) es un servicio de correo electrónico centrado en la seguridad y la privacidad mediante el uso de cifrado. Tuta lleva funcionando desde 2011 y tiene su sede en Hannover, Alemania. Las cuentas gratuitas inician con 1GB de almacenamiento.
 
-[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
+[:octicons-home-16: Página Principal](https://tuta.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribuir" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
@@ -260,12 +260,12 @@ Los administradores de sistemas avanzados pueden plantearse crear su propio serv
 
 ![Logo de Mailcow](assets/img/email/mailcow.svg){ align=right }
 
-**Mailcow** es un servidor de correo más avanzado perfecto para aquellos con un poco más de experiencia en Linux. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
+**Mailcow** es un servidor de correo más avanzado perfecto para aquellos con un poco más de experiencia en Linux. Tiene todo lo que necesitas en un contenedor Docker: un servidor de correo con soporte DKIM, antivirus y monitorización de spam, webmail y ActiveSync con SOGo, y administración basada en web con soporte 2FA.
 
-[:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.mailcow.email){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title="Contribute" }
+[:octicons-home-16: Página Principal](https://mailcow.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.mailcow.email){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title="Contribuir" }
 
 </div>
 
@@ -275,9 +275,9 @@ Los administradores de sistemas avanzados pueden plantearse crear su propio serv
 
 **Mail-in-a-Box** es un script de configuración automatizada para desplegar un servidor de correo en Ubuntu. Su objetivo es facilitar a los usuarios la instalación de su propio servidor de correo.
 
-[:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://mailinabox.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Código Fuente" }
 
 </div>
 
@@ -309,8 +309,8 @@ Consideramos que estas características son importantes para ofrecer un servicio
 - Soporte para un buzón temporal para usuarios externos. Esto es útil cuando quieres enviar un correo electrónico encriptado, sin enviar una copia real a tu destinatario. Estos correos electrónicos suelen tener una vida útil limitada y luego se eliminan automáticamente. Tampoco requieren que el destinatario configure ninguna criptografía como OpenPGP.
 - Disponibilidad de los servicios del proveedor de correo electrónico a través de un [ servicio onion](https://en.wikipedia.org/wiki/.onion).
 - Soporte de [subdireccionamiento](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
-- Catch-all or alias functionality for those who use their own domains.
-- Use of standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Los protocolos de acceso estándar garantizan que los clientes puedan descargar fácilmente todo su correo electrónico en caso de que quieran cambiar de proveedor.
+- Funcionalidad Catch-all o alias para quienes utilizan sus propios dominios.
+- Uso de protocolos estándar de acceso al correo electrónico como IMAP, SMTP o [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Los protocolos de acceso estándar garantizan que los clientes puedan descargar fácilmente todo su correo electrónico en caso de que quieran cambiar de proveedor.
 
 ### Privacidad
 
@@ -318,7 +318,7 @@ Preferimos que nuestros proveedores recomendados recojan la menor cantidad de da
 
 **Mínimo para calificar:**
 
-- Protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
+- Proteger la dirección IP del remitente, lo que puede implicar filtrarla para que no aparezca en el campo de cabecera `Recibido`.
 - No requiere información personal identificable (PII) aparte de un nombre de usuario y una contraseña.
 - Política de privacidad que cumple los requisitos definidos por el RGPD.
 
@@ -329,12 +329,12 @@ Preferimos que nuestros proveedores recomendados recojan la menor cantidad de da
 
 ### Seguridad
 
-Los servidores de correo electrónico manejan muchos datos sensibles. We expect that providers will adopt best industry practices in order to protect their customers.
+Los servidores de correo electrónico manejan muchos datos sensibles. Esperamos que los proveedores adopten las mejores prácticas del sector para proteger a sus clientes.
 
 **Mínimo para calificar:**
 
 - Protección del correo web con 2FA, como TOTP.
-- Zero access encryption, which builds on encryption at rest. El proveedor no disponga de las claves de descifrado de los datos que posee. Esto evita que un empleado deshonesto filtre datos a los que tiene acceso o que un adversario remoto divulgue datos que ha robado al obtener acceso no autorizado al servidor.
+- Cifrado de acceso cero, que se basa en el cifrado en reposo. El proveedor no disponga de las claves de descifrado de los datos que posee. Esto evita que un empleado deshonesto filtre datos a los que tiene acceso o que un adversario remoto divulgue datos que ha robado al obtener acceso no autorizado al servidor.
 - Compatible con [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions).
 - Sin errores o vulnerabilidades TLS al ser perfilado por herramientas como [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh) o [Qualys SSL Labs](https://ssllabs.com/ssltest); esto incluye errores relacionados con certificados y parámetros DH débiles, como los que llevaron a [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - Una preferencia de suite de servidor (opcional en TLSv1.3) para suites de cifrado potentes que soporten forward secrecy y encriptación autenticada.
@@ -347,13 +347,13 @@ Los servidores de correo electrónico manejan muchos datos sensibles. We expect 
 - Estándares de seguridad del sitio web tales como:
     - [Seguridad de transporte estricta HTTP](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
     - [Integridad de subrecurso](https://en.wikipedia.org/wiki/Subresource_Integrity) si se cargan cosas desde dominios externos.
-- Must support viewing of [message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
+- Debe admitir la visualización de [encabezados de mensaje](https://en.wikipedia.org/wiki/Email#Message_header), ya que es una característica forense crucial para determinar si un correo electrónico es un intento de phishing.
 
 **Mejor caso:**
 
-- Soporte para autenticación de hardware, ej. U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
+- Soporte para autenticación de hardware, ej. U2F y [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
 - [Registro de recursos de autorización de autoridad de certificación (CAA) de DNS](https://tools.ietf.org/html/rfc6844) además del soporte de DANE.
-- Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
+- Implementación de [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), que es útil para las personas que envían mensajes a listas de correo [RFC8617](https://tools.ietf.org/html/rfc8617).
 - Auditorías de seguridad publicadas por una empresa externa de prestigio.
 - Programas de recompensa de errores y/o un proceso coordinado de divulgación de vulnerabilidades.
 - Estándares de seguridad del sitio web tales como:
@@ -374,23 +374,23 @@ No confiarías tus finanzas a alguien con una identidad falsa, así que ¿por qu
 
 ### Marketing
 
-With the email providers we recommend, we like to see responsible marketing.
+Con los proveedores de correo electrónico que recomendamos, nos gusta ver un marketing responsable.
 
 **Mejor caso:**
 
-- Debe autoalojar las analíticas (no Google Analytics, Adobe Analytics, etc.). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt out.
+- Debe autoalojar las analíticas (no Google Analytics, Adobe Analytics, etc.). El sitio del proveedor también debe cumplir con [DNT (No Rastrear)](https://en.wikipedia.org/wiki/Do_Not_Track)para las personas que deseen darse de baja.
 
-Must not have any irresponsible marketing, which can include the following:
+No debe tener ningún tipo de marketing irresponsable, que puede incluir lo siguiente:
 
 - Reclamaciones de "cifrado irrompible" El cifrado debe usarse con la intención de que no sea secreto en el futuro cuando exista la tecnología para descifrarlo.
-- Haciendo garantías de proteger el anonimato al 100%. Cuando alguien afirma que algo es 100% significa que no hay certeza de fracaso. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
+- Haciendo garantías de proteger el anonimato al 100%. Cuando alguien afirma que algo es 100% significa que no hay certeza de fracaso. Sabemos que las personas pueden desanonimizarse fácilmente de varias maneras, por ejemplo:
 
     - Reutilizar información personal (como cuentas de correo electrónico, seudónimos únicos, etc.) que ellos accesaron sin programas de anonimato (Tor, VPN, etc.)
     - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **Mejor Caso:**
 
-- Clear and easy to read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
+- Documentación clara y fácil de leer para tareas como la configuración de 2FA, clientes de correo electrónico, OpenPGP, etc.
 
 ### Funcionalidad Adicional
 

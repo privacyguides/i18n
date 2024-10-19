@@ -14,7 +14,7 @@ Las opciones enumeradas aquí son multiplataforma y excelentes para crear copias
 
 ### Cryptomator (Nube)
 
-<small>Protects against the following threat(s):</small>
+<small>Protege contra la(s) siguiente(s) amenaza(s):</small>
 
 - [:material-bug-outline: Ataques pasivos](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 
@@ -53,7 +53,7 @@ La documentación de Cryptomator detalla con más detalle su [objetivo de seguri
 
 ### Picocrypt (Archivo)
 
-<small>Protects against the following threat(s):</small>
+<small>Protege contra la(s) siguiente(s) amenaza(s):</small>
 
 - [:material-target-account: Ataques dirigidos](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
@@ -80,7 +80,7 @@ La documentación de Cryptomator detalla con más detalle su [objetivo de seguri
 
 ### VeraCrypt (Disco)
 
-<small>Protects against the following threat(s):</small>
+<small>Protege contra la(s) siguiente(s) amenaza(s):</small>
 
 - [:material-target-account: Ataques dirigidos](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
@@ -115,7 +115,7 @@ Truecrypt ha sido [auditado un buen número de veces](https://en.wikipedia.org/w
 
 ## Cifrado de Disco Completo del Sistema Operativo
 
-<small>Protects against the following threat(s):</small>
+<small>Protege contra la(s) siguiente(s) amenaza(s):</small>
 
 - [:material-target-account: Ataques dirigidos](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
@@ -243,7 +243,7 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 ## Línea de Comandos
 
-<small>Protects against the following threat(s):</small>
+<small>Protege contra la(s) siguiente(s) amenaza(s):</small>
 
 - [:material-target-account: Ataques dirigidos](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
@@ -293,7 +293,7 @@ Las herramientas con interfaces de línea de comandos son útiles para integrar 
 
 ## OpenPGP
 
-<small>Protects against the following threat(s):</small>
+<small>Protege contra la(s) siguiente(s) amenaza(s):</small>
 
 - [:material-target-account: Ataques dirigidos](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 - [:material-bug-outline: Ataques pasivos](basics/common-threats.md#security-and-privacy ""){.pg-orange}

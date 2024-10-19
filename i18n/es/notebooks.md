@@ -5,7 +5,7 @@ description: Estas aplicaciones encriptadas para tomar notas te permiten hacer u
 cover: notebooks.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protege contra la(s) siguiente(s) amenaza(s):</small>
 
 - [:material-server-network: Proveedores de servicios](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
