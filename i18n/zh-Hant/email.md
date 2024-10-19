@@ -144,7 +144,7 @@ Proton Mail 不提供數字遺產功能。
 
 #### :material-check:{ .pg-green } 自訂域名和別名
 
-Mailbox.org 可使用自定域名，且支援 [捕獲所有](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all- alias-with-a-custom-domain-name) 位址。 Proton Mail還支持 <[子地址](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it)，這對於不想購買網域的人很有用。
+Mailbox.org 可使用自定域名，且支援 [捕獲所有](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all- alias-with-a-custom-domain-name) 位址。 Mailbox.org 也支援[子地址](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it)，如果您不想購買網域，這非常有用。
 
 #### :material-check:{ .pg-green } 私人付款方式
 
