@@ -76,39 +76,39 @@ Si GrapheneOS no es compatible con tu teléfono, DivestOS es una buena alternati
 
 ![DivestOS logo](../assets/img/android/divestos.svg){ align=right }
 
-**DivestOS** is a soft-fork of [LineageOS](https://lineageos.org).
-DivestOS inherits many [supported devices](https://divestos.org/index.php?page=devices\&base=LineageOS) from LineageOS. It has signed builds, making it possible to have [verified boot](../os/android-overview.md#verified-boot) on some non-Pixel devices. Not all supported devices support verified boot or other security features.
+**DivestOS** es un soft-fork de [LineageOS](https://lineageos.org).
+DivestOS hereda muchos [dispositivos compatibles](https://divestos.org/index.php?page=devices\&base=LineageOS) de LineageOS. Tiene builds firmados, haciendo posible tener [arranque verificado](../os/android-overview.md#verified-boot) en algunos dispositivos que no son Pixel. No todos los dispositivos compatibles admiten el arranque verificado u otras funciones de seguridad.
 
-[:octicons-home-16: Homepage](https://divestos.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title="Contribute" }
+[:octicons-home-16: Página Principal](https://divestos.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion){ .card-link title="Servicio Onion" }
+[:octicons-eye-16:](https://divestos.org/index.php?page=privacy_policy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://divestos.org/index.php?page=faq){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/divested-mobile){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://divested.dev/pages/donate){ .card-link title="Contribuir" }
 
 </div>
 
-The [status](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) of firmware updates in particular will vary significantly depending on your phone model. While standard AOSP bugs and vulnerabilities can be fixed with standard software updates like those provided by DivestOS, some vulnerabilities cannot be patched without support from the device manufacturer, making end-of-life devices less safe even with an up-to-date alternative ROM like DivestOS.
+El [estado](https://gitlab.com/divested-mobile/firmware-empty/-/blob/master/STATUS) de las actualizaciones de firmware en particular variará significativamente dependiendo del modelo de tu teléfono. Mientras que los errores y vulnerabilidades estándar de AOSP pueden solucionarse con actualizaciones de software estándar como las proporcionadas por DivestOS, algunas vulnerabilidades no pueden parchearse sin el apoyo del fabricante del dispositivo, lo que hace que los dispositivos al final de su vida útil sean menos seguros incluso con una ROM alternativa actualizada como DivestOS.
 
-DivestOS has automated kernel vulnerability ([CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)) [patching](https://gitlab.com/divested-mobile/cve_checker), fewer proprietary blobs, and a custom [hosts](https://divested.dev/index.php?page=dnsbl) file. Its hardened WebView, [Mulch](https://gitlab.com/divested-mobile/mulch), enables [control-flow integrity](https://en.wikipedia.org/wiki/Control-flow_integrity) for all architectures and [network state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning), and receives out-of-band updates.
+DivestOS dispone de [parcheo](https://gitlab.com/divested-mobile/cve_checker) automático de vulnerabilidades del kernel ([CVE](https://es.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)), menos blobs propietarios y un archivo [hosts](https://divested.dev/index.php?page=dnsbl) personalizado. Su WebView reforzado, [Mulch](https://gitlab.com/divested-mobile/mulch), permite la [integridad del flujo de control](https://en.wikipedia.org/wiki/Control-flow_integrity) para todas las arquitecturas y la [partición del estado de la red](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning), y recibe actualizaciones fuera de banda.
 
-DivestOS also includes kernel patches from GrapheneOS and enables all available kernel security features via [defconfig hardening](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758). All kernels newer than version 3.4 include full page [sanitization](https://lwn.net/Articles/334747) and all ~22 Clang-compiled kernels have [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471) enabled.
+DivestOS también incluye parches del núcleo de GrapheneOS y activa todas las funciones de seguridad del núcleo disponibles a través de [defconfig hardening](https://github.com/Divested-Mobile/DivestOS-Build/blob/master/Scripts/Common/Functions.sh#L758). Todos los kernels más nuevos que la versión 3.4 incluyen [sanitización](https://lwn.net/Articles/334747) de página completa y todos los kernels compilados por Clang ~22 tienen activado [`-ftrivial-auto-var-init=zero`](https://reviews.llvm.org/D54604?id=174471).
 
-DivestOS implements some system hardening patches originally developed for GrapheneOS. DivestOS 16.0 and higher implements GrapheneOS's `INTERNET` and `SENSORS` permission toggle, [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), [exec-spawning](https://grapheneos.org/usage#exec-spawning), Java Native Interface [constification](https://en.wikipedia.org/wiki/Const_\(computer_programming\)), and partial [bionic](https://en.wikipedia.org/wiki/Bionic_\(software\)) hardening patchsets. 17.1 and higher features per-network full MAC address randomization, [`ptrace_scope`](https://kernel.org/doc/html/latest/admin-guide/LSM/Yama.html) control, automatic reboot, and Wi-Fi/Bluetooth [timeout options](https://grapheneos.org/features#attack-surface-reduction).
+DivestOS implementa algunos parches de endurecimiento del sistema desarrollados originalmente para GrapheneOS. DivestOS 16.0 y superior implementa el cambio de permisos `INTERNET` y `SENSORS` de GrapheneOS, [asignador de memoria endurecido](https://github.com/GrapheneOS/hardened_malloc), [exec-spawning](https://grapheneos.org/usage#exec-spawning), Interfaz Nativa Java [constificación](https://en.wikipedia.org/wiki/Const_\(programación_informática\)), y parches de endurecimiento parciales [biónicos](https://en.wikipedia.org/wiki/Bionic_\(software\)). La versión 17.1 y superiores incluyen aleatorización completa de direcciones MAC por red, control [`ptrace_scope`](https://kernel.org/doc/html/latest/admin-guide/LSM/Yama.html), reinicio automático y [opciones de tiempo de espera](https://grapheneos.org/features#attack-surface-reduction) Wi-Fi/Bluetooth.
 
-DivestOS uses F-Droid as its default app store. We normally [recommend avoiding F-Droid](obtaining-apps.md#f-droid), but doing so on DivestOS isn't viable; the developers update their apps via their own F-Droid repository, [DivestOS Official](https://divestos.org/fdroid/official). For these apps you should continue to use F-Droid **with the DivestOS repository enabled** to keep those components up to date. For other apps, our recommended [methods of obtaining them](obtaining-apps.md) still apply.
+DivestOS utiliza F-Droid como su tienda de aplicaciones por defecto. Normalmente [recomendamos evitar F-Droid](obtaining-apps.md#f-droid), pero hacerlo en DivestOS no es viable; los desarrolladores actualizan sus aplicaciones a través de su propio repositorio F-Droid, [DivestOS Oficial](https://divestos.org/fdroid/official). Para estas aplicaciones debes seguir usando F-Droid **con el repositorio DivestOS habilitado** para mantener esos componentes actualizados. Para otras aplicaciones, se siguen aplicando nuestros [métodos de obtención](obtaining-apps.md) recomendados.
 
-DivestOS replaces many of Android's background network connections to Google services with alternative services, such as using OpenEUICC for eSIM activation, NTP.org for network time, and Quad9 for DNS. These connections can be modified, but their deviation from a standard Android phone's network connections could mean it is easier for an adversary on your network to deduce what operating system you have installed on your phone. If this is a concern to you, consider using a [trusted VPN](../vpn.md) and enabling the native VPN [kill switch](../os/android-overview.md#vpn-killswitch) to hide this network traffic from your local network and ISP.
+DivestOS sustituye muchas de las conexiones de red en segundo plano de Android a los servicios de Google por servicios alternativos, como el uso de OpenEUICC para la activación de eSIM, NTP.org para la hora de red y Quad9 para DNS. Estas conexiones pueden modificarse, pero su desviación de las conexiones de red de un teléfono Android estándar podría significar que es más fácil para un adversario en tu red deducir qué sistema operativo tienes instalado en tu teléfono. Si esto te preocupa, considera la posibilidad de utilizar una [VPN de confianza](../vpn.md) y activar el [kill switch](../os/android-overview.md#vpn-killswitch) nativo de VPN para ocultar este tráfico de red de tu red local e ISP.
 
 ## Criterios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
+**Por favor, ten en cuenta que no estamos afiliados a ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](../about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
 
 - Debe ser software de código abierto.
-- Must support bootloader locking with custom AVB key support.
-- Must receive major Android updates within 0-1 months of release.
-- Must receive Android feature updates (minor version) within 0-14 days of release.
-- Must receive regular security patches within 0-5 days of release.
-- Must **not** be "rooted" out of the box.
-- Must **not** enable Google Play Services by default.
-- Must **not** require system modification to support Google Play Services.
+- Debe soportar el bloqueo del cargador de arranque con soporte de clave AVB personalizada.
+- Debe recibir las principales actualizaciones de Android dentro de 0-1 meses desde su lanzamiento.
+- Debe recibir actualizaciones de las funciones de Android (versión menor) en un plazo de 0 a 14 días desde su lanzamiento.
+- Debe recibir parches de seguridad periódicos en un plazo de 0 a 5 días desde su publicación.
+- No debe estar «rooteado» desde el principio.
+- **No** debe habilitar Google Play Services por defecto.
+- **No** debe requerir la modificación del sistema para admitir Google Play Services.
