@@ -1,6 +1,6 @@
 ---
-meta_title: "Privacy Guides: Independent Privacy & Security Resources"
-description: "Established in 2021, Privacy Guides is the most popular & trustworthy non-profit resource to find privacy tools and learn about protecting your digital life."
+meta_title: "Privacy Guides: Recursos Independientes sobre Privacidad y Seguridad"
+description: "Fundado en 2021, Privacy Guides es el recurso sin ánimo de lucro más popular y fiable para encontrar herramientas de privacidad y aprender a proteger tu vida digital."
 template: home.html
 social:
   cards_layout: home
@@ -48,42 +48,43 @@ Al igual que el derecho al matrimonio interracial, el sufragio femenino, la libe
 
 No deberías confundir privacidad con secretismo. Sabemos lo que sucede en el baño, pero todavía puedes cerrar la puerta. Eso es porque quieres privacidad, no secretismo. **Todos** tienen algo que proteger. La privacidad es algo que nos hace humanos.
 
-[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button" }
+[:material-book-outline: Por qué es Importante la Privacidads](basics/why-privacy-matters.md){ class="md-button" }
 </div>
 
 <div markdown>
-## What should I do?
+## ¿Qué debería hacer?
 
-> First, you need to make a plan
+> En primer lugar, necesitas elaborar un plan 
 
-Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. ¡Pero no te preocupes! La seguridad es un proceso, si piensas con antelación, podrás elaborar un plan adecuado para ti. Security isn't just about the *privacy tools* you use or the software you download. Más bien, empieza por entender las amenazas únicas a las que te enfrentas, y cómo puedes contrarrestarlas.
+Intentar proteger todos tus datos de todo el mundo todo el tiempo es poco práctico, caro y agotador. ¡Pero no te preocupes! La seguridad es un proceso, si piensas con antelación, podrás elaborar un plan adecuado para ti. La seguridad no consiste solo en las *herramientas de privacidad* que utilices o el software que descargues. Más bien, empieza por entender las amenazas únicas a las que te enfrentas, y cómo puedes contrarrestarlas.
 
-==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
+==Este proceso de identificación de amenazas y definición de contramedidas se denomina **modelado de amenazas**==, y constituye la base de todo buen plan de seguridad y privacidad.
+La seguridad no consiste solo en las *herramientas de privacidad* que utilices o el software que descargues.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button" }
+[:material-book-outline: Aprende Más Sobre el Modelado de Amenazas](basics/threat-modeling.md){ class="md-button" }
 </div>
 </div>
 
-## Trustworthy Privacy Software Reviews
+## Reseñas de Software de Privacidad de Confianza
 
 <div class="grid" markdown>
 
 <div markdown>
-**Privacy Guides** has a dedicated [community](https://discuss.privacyguides.net) independently reviewing various *privacy tools* and services. Each of our recommendations comply with a strict set of criteria to ensure they provide the most value to most people, and provide the best balance of privacy, security, and convenience. As part of a non-profit **public charity**, Privacy Guides has strict **journalistic standards** and policies to ensure our recommendations are free of conflict of interest, and we do not partner with providers or affiliate programs that could sway our reviews and recommendations.
+**Privacy Guides** tiene una [comunidad](https://discuss.privacyguides.net) dedicada que revisa de forma independiente varias *herramientas de privacidad* y servicios. Cada una de nuestras recomendaciones cumple un estricto conjunto de criterios para garantizar que aporten el máximo valor a la mayoría de las personas y ofrezcan el mejor equilibrio entre privacidad, seguridad y comodidad. Como parte de una **organización benéfica pública** sin ánimo de lucro, Privacy Guides aplica estrictas **normas periodísticas** y políticas para garantizar que nuestras recomendaciones estén libres de conflictos de intereses, y no nos asociamos con proveedores o programas de afiliación que puedan influir en nuestras reseñas y recomendaciones.
 
-[:material-heart:{.pg-red} Support Our Work](about/donate.md){ .md-button .md-button--primary }
+[:material-heart:{.pg-red} Apoya Nuestro Trabajo](about/donate.md){ .md-button .md-button--primary }
 </div>
 
-- [x] **Ad-Free Recommendations**
-- [x] **Complete Editorial Independence**
-- [x] **Non-Profit & Open Source**
-- [x] **Frequent Updates**
-- [x] **Trusted by Journalists**
-- [x] **Trusted by Readers**
+- [x] **Recomendaciones Sin Publicidad**
+- [x] **Completa Independencia Editorial**
+- [x] **Sin Ánimo de Lucro y de Código Abierto**
+- [x] **Actualizaciones Frecuentes**
+- [x] **Confiado por Periodistas**
+- [x] **Confiado por Lectores**
 
 </div>
 
-### Top 3 Private Email Providers
+### Los 3 Mejores Proveedores Privados de Correo Electrónico
 
 <div class="grid cards" markdown>
 
@@ -91,31 +92,31 @@ Trying to protect all your data from everyone all the time is impractical, expen
 
     ---
 
-    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG tiene su sede en Ginebra, Suiza. El plan gratuito de Proton Mail incluye 500MB de almacenamiento, que puede ser aumentado hasta 1GB sin costo.
+    Proton Mail es un servicio de correo electrónico centrado en la privacidad, el cifrado, la seguridad y la facilidad de uso. Ha estado en operación desde 2013. Proton AG tiene su sede en Ginebra, Suiza. El plan gratuito de Proton Mail incluye 500MB de almacenamiento, que puede ser aumentado hasta 1GB sin costo.
 
-    [:octicons-arrow-right-24: Read Full Review](email.md#proton-mail)
+    [:octicons-arrow-right-24: Leer Reseña Completa](email.md#proton-mail)
 
 -   ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji } **Mailbox.org**
 
     ---
 
-    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. Han estado en operación desde 2014. Mailbox.org tiene su sede en Berlín, Alemania. Las cuentas inician con hasta 2GB de almacenamiento, que pueden ser ampliados cuando sea necesario.
+    Mailbox.org es un servicio de correo electrónico centrado en la seguridad, sin publicidad y alimentado de forma privada con energía 100% ecológica. Ha estado en operación desde 2014. Mailbox.org tiene su sede en Berlín, Alemania. Las cuentas inician con hasta 2GB de almacenamiento, que pueden ser ampliados cuando sea necesario.
 
-    [:octicons-arrow-right-24: Read Full Review](email.md#mailboxorg)
+    [:octicons-arrow-right-24: Leer Reseña Completa](email.md#mailboxorg)
 
 -   ![Tuta logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
 
     ---
 
-    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Las cuentas gratuitas inician con 1GB de almacenamiento.
+    Tuta (antes *Tutanota*) es un servicio de correo electrónico centrado en la seguridad y la privacidad mediante el uso de cifrado. Tuta lleva funcionando desde 2011 y tiene su sede en Hannover, Alemania. Las cuentas gratuitas inician con 1GB de almacenamiento.
 
-    [:octicons-arrow-right-24: Read Full Review](email.md#tuta)
+    [:octicons-arrow-right-24: Leer Reseña Completa](email.md#tuta)
 
 </div>
 
 <div class="grid" markdown>
 <div markdown>
-### Best VPN Services
+### Mejores Servicios VPN
 
 <div class="grid cards" markdown>
 
@@ -127,7 +128,7 @@ Trying to protect all your data from everyone all the time is impractical, expen
 </div>
 
 <div markdown>
-### Secure Cloud Storage Services
+### Servicios Seguros de Almacenamiento en la Nube
 
 <div class="grid cards" markdown>
 
@@ -139,7 +140,7 @@ Trying to protect all your data from everyone all the time is impractical, expen
 </div>
 
 <div markdown>
-### Best Web Browsers
+### Mejores Navegadores Web
 
 <div class="grid cards" markdown>
 
@@ -151,8 +152,8 @@ Trying to protect all your data from everyone all the time is impractical, expen
 </div>
 </div>
 
-[:material-format-list-checkbox: More Recommended **Privacy Tools**](tools.md){ class="md-button md-button--primary" }
-[Best Mobile Browsers](mobile-browsers.md ""){.md-button} [Top Browser Extensions](browser-extensions.md ""){.md-button} [DNS Servers](dns.md ""){.md-button} [Email Aliasing Services](email-aliasing.md ""){.md-button} [Photo Organization Tools](photo-management.md ""){.md-button} [PC Operating Systems](desktop.md ""){.md-button}
+[:material-format-list-checkbox: Más Recomendaciones de **Herramientas de Privacidad**](tools.md){ class="md-button md-button--primary" }
+[Mejores Navegadores Móviles](mobile-browsers.md ""){.md-button} [Mejores Extensiones de Navegador](browser-extensions.md ""){.md-button} [Servidores DNS](dns.md ""){.md-button} [Servicios de Alias de Correo Electrónico](email-aliasing.md ""){.md-button} [Herramientas de Organización de Fotos](photo-management.md ""){.md-button} [Sistemas Operativos de PC](desktop.md ""){.md-button}
 
 ---
 
