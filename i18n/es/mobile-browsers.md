@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Respecting Web Browsers for Android and iOS - Privacy Guides"
+meta_title: "Navegadores Web que Respetan la Privacidad para Android e iOS - Privacy Guides"
 title: "Navegadores Móviles"
 icon: material/cellphone-information
 description: Estos navegadores son los que recomendamos actualmente para la navegación estándar/no anónima por Internet en su teléfono.
@@ -42,7 +42,7 @@ schema:
 
 - [:material-account-cash: Capitalismo de Vigilancia](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. Si necesitas navegar por Internet de forma anónima, deberías utilizar [Tor](tor.md) .
+Estos son nuestros **navegadores web para móviles** y configuraciones recomendados actualmente para la navegación estándar/no anónima por Internet. Si necesitas navegar por Internet de forma anónima, deberías utilizar [Tor](tor.md) .
 
 ## Brave
 
@@ -61,7 +61,7 @@ Brave se basa en el proyecto de navegador web Chromium, por lo que debería resu
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
@@ -73,21 +73,21 @@ Brave se basa en el proyecto de navegador web Chromium, por lo que debería resu
 
 ### Configuración Recomendada de Brave
 
-Tor Browser es la única manera de navegar por Internet de forma verdaderamente anónima. Cuando use Brave, Le recomendamos cambiar los siguiente ajustes para proteger su privacidad de ciertas partes, pero todos los navegadores que no sean [Tor Browser](tor.md#tor-browser) serán rastreables por *alguien* en un sentido u otro.
+Tor Browser es la única manera de navegar por Internet de forma verdaderamente anónima. Cuando uses Brave, te recomendamos cambiar los siguiente ajustes para proteger tu privacidad de ciertas partes, pero todos los navegadores que no sean [Tor Browser](tor.md#tor-browser) serán rastreables por *alguien* en un sentido u otro.
 
 Estas opciones se pueden encontrar en :material-menu: → **Configuración** → **Protecciones y privacidad de Brave**
 
-#### Shields
+#### Escudos
 
 Brave incluye algunas medidas antihuellas en su función [Escudos](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Te sugerimos configurar estas opciones [globalmente](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) en todas las páginas que visites.
 
-#### Brave shields global defaults
+#### Valores generales predeterminados de los escudos de Brave
 
 Las opciones de los escudos pueden reducirse según las necesidades de cada sitio, pero por defecto recomendamos configurar lo siguiente:
 
 <div class="annotate" markdown>
 
-- [x] Seleccione **Agresivo** en **Bloquear rastreadores y anuncios**
+- [x] Selecciona **Agresivo** en **Bloquear rastreadores y anuncios**
 
 <details class="warning" markdown>
 <summary>Usa listas de filtros predeterminadas</summary>
@@ -96,49 +96,49 @@ Brave te permite seleccionar filtros de contenido adicionales en la página inte
 
 </details>
 
-- [x] Select **Auto-redirect AMP pages**
-- [x] Select **Auto-redirect tracking URLs**
-- [x] Select **strict** under **Upgrade connections to HTTPS**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Block third-party cookies** under **Block Cookies**
-- [x] Select **Block fingerprinting**
-- [x] Select **Prevent fingerprinting via language settings**
+- [x] Selecciona **Redirigir automáticamente las páginas AMP**
+- [x] Selecciona **URL de seguimiento de redirección automática**
+- [x] Selecciona **estricto** en **Mejorar conexiones a HTTPS**
+- [x] (Opcional) Selecciona **Bloquear Scripts** (1)
+- [x] Selecciona **Block cookies de terceros** en **Bloquear cookies**
+- [x] Selecciona **Bloquear fingerprinting**
+- [x] Selecciona **Evita la toma de huellas dactilares mediante los ajustes de idioma**
 
 </div>
 
 1. Esta opción proporciona una funcionalidad similar a los [modos de bloqueo](https://github.com/gorhill/uBlock/wiki/Blocking-mode) avanzados de uBlock Origin o la extensión [NoScript](https://noscript.net).
 
-#### Clear browsing data
+#### Borrar datos de navegación
 
-- [x] Seleccione **Borrar datos al salir**
+- [x] Selecciona **Borrar datos al salir**
 
-#### Social Media Blocking
+#### Bloqueo de redes sociales
 
-- [ ] Desmarque todos los componentes de redes sociales
+- [ ] Desmarca todos los componentes de redes sociales
 
-#### Other privacy settings
+#### Otros ajustes de privacidad
 
 <div class="annotate" markdown>
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [x] (Optional) Select **No protection** under **Safe Browsing** (1)
-- [ ] Uncheck **Allow sites to check if you have payment methods saved**
-- [ ] Uncheck **IPFS Gateway** (2)
-- [x] Select **Close tabs on exit**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
+- [x] Selecciona **Desactivar UDP sin proxy** en [Política de gestión de IP de WebRTC](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [x] (Opcional) Selecciona **Sin protección** en **Navegación segura** (1)
+- [ ] Desmarca **Permite a los sitios comprobar si tienes métodos de pago guardados**
+- [ ] Desmarca **Puerta de enlace IPFS** (2)
+- [x] Selecciona **Cerrar pestañas al salir**
+- [ ] Desmarca **Permitir estadísticas de productos que preservan la privacidad (P3A)**
+- [ ] Desmarca **Enviar informes de diagnóstico automáticamente**
+- [ ] Desmarca **Enviar automáticamente el ping de uso diario a Brave**
 
 </div>
 
-1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
-2. El Sistema de Archivos InterPlanetario (IPFS) es una red descentralizada, de igual a igual, para almacenar y compartir datos en un sistema de archivos distribuido. A menos que utilice la función, desactívela.
+1. La [implementación de la Navegación Segura](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) de Brave en Android **no** delega [las solicitudes de red de la Navegación Segura](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) como su homólogo de escritorio. Esto significa que tu dirección IP puede ser vista (y registrada) por Google. Ten en cuenta que la Navegación Segura no está disponible para dispositivos Android sin Google Play Services.
+2. El Sistema de Archivos InterPlanetario (IPFS) es una red descentralizada, de igual a igual, para almacenar y compartir datos en un sistema de archivos distribuido. A menos que utilices la función, desactívala.
 
 ### Leo
 
-These options can be found in :material-menu: → **Settings** → **Leo**
+Estas opciones se encuentran en :material-menu: → **Configuración** → **Leo**
 
-- [ ] Uncheck **Show autocomplete suggestions in address bar**
+- [ ] Desmarca **Mostrar sugerencias autocompletadas en la barra de direcciones**
 
 ### Brave Sync
 
@@ -150,7 +150,7 @@ These options can be found in :material-menu: → **Settings** → **Leo**
 
 ![Mull logo](assets/img/browsers/mull.svg){ align=right }
 
-**Mull** es un navegador orientado y depurado a la privacidad basado en Firefox. A comparación con Firefox, este ofrece una protección mayor contra las huellas digitales y desactiva la compilación Just-In-Time (JIT) de JavaScript para mejorar la seguridad. Este también elimina todos los elementos propietarios de Firefox, como el reemplazo de las referencias a los Servicios de Google Play.
+**Mull** es un navegador para Android orientado a la privacidad y depurado, basado en Firefox. A comparación con Firefox, este ofrece una protección mayor contra las huellas digitales y desactiva la compilación Just-In-Time (JIT) de JavaScript para mejorar la seguridad. Este también elimina todos los elementos propietarios de Firefox, como el reemplazo de las referencias a los Servicios de Google Play.
 
 [:octicons-home-16: Página principal](https://divestos.org/pages/our_apps#mull){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://divestos.org/pages/privacy_policy){ .card-link title="Política de privacidad" }
@@ -173,11 +173,11 @@ Los navegadores basados en Firefox (Gecko) para Android [carecen](https://bugzil
 
 </div>
 
-Enable DivestOS's [F-Droid repository](https://divestos.org/fdroid/official) to receive updates directly from the developer. La descarga de Mull desde el repositorio oficial de F-Droid puede significar que las actualizaciones se atrasen por algunos días o incluso más.
+Habilita el [repositorio F-Droid](https://divestos.org/fdroid/official) de DivestOS para recibir actualizaciones directamente del desarrollador. La descarga de Mull desde el repositorio oficial de F-Droid puede significar que las actualizaciones se atrasen por algunos días o incluso más.
 
 Mull activa varias características del [proyecto Tor uplift](https://wiki.mozilla.org/Security/Tor_Uplift) usando las preferencias de [Arkenfox](desktop-browsers.md#arkenfox-advanced). Los blobs propietarios son eliminados desde el código de Mozilla usando script desarrollador para Fennec F-Droid.
 
-### Recommended Mull Configuration
+### Configuración Recomendada de Mull
 
 Sugerimos instalar [uBlock Origin](browser-extensions.md#ublock-origin) como bloqueador de contenido si quieres bloquear los rastreadores en Mull.
 
@@ -193,19 +193,19 @@ En iOS, cualquier aplicación que puede navegar en internet está [limitada](htt
 
 ![Safari logo](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** es el navegador predeterminado en iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical) as well as fingerprint randomization, and Private Relay for those with a paid iCloud+ subscription. It also allows you to separate your browsing with different profiles and lock private tabs with your biometrics/PIN.
+**Safari** es el navegador predeterminado en iOS. Incluye [funciones de privacidad](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) como [Prevención Inteligente de Rastreo](https://webkit.org/blog/7675/intelligent-tracking-prevention), Informe de Privacidad, pestañas aisladas y efímeras de Navegación Privada, protección de huellas digitales (presentando una versión simplificada de la configuración del sistema a los sitios web para que más dispositivos parezcan idénticos), así como aleatorización de huellas digitales, y Relay Privado para quienes tengan una suscripción de pago a iCloud+. También te permite separar tu navegación con diferentes perfiles y bloquear pestañas privadas con tus datos biométricos/PIN.
 
-[:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title=Documentation}
+[:octicons-home-16: Página Principal](https://apple.com/safari){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title=Documentación}
 
 </details>
 
 </div>
 
-### Configuración recomendada de Safari
+### Configuración Recomendada de Safari
 
-We would suggest installing [AdGuard](browser-extensions.md#adguard) if you want a content blocker in Safari.
+Te sugerimos instalar [AdGuard](browser-extensions.md#adguard) si quieres un bloqueador de contenido en Safari.
 
 Las siguientes opciones relacionadas con la privacidad/seguridad pueden encontrarse en :gear: aplicación de **Ajustes** → **Safari**
 
