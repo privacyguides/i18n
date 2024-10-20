@@ -30,10 +30,10 @@ schema:
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protege contra la(s) siguiente(s) amenaza(s):</small>
 
-- [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-target-account: Ataques Dirigidos](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-bug-outline: Ataques Pasivos](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 Un **sistema operativo personalizado basado en Android** (también conocido como **ROM** personalizada) es una manera popular de alcanzar altos niveles de privacidad y seguridad en tu dispositivo. Esto contrasta con la versión "stock" de Android que viene preinstalada en tu teléfono y está profundamente integrada con los Servicios de Google Play.
 
@@ -50,27 +50,27 @@ Recomendamos instalar uno de estos sistemas operativos personalizados Android en
 
 **GrapheneOS** es la mejor opción cuando se trata de privacidad y seguridad.
 
-GrapheneOS proporciona [mejoras adicionales de seguridad](https://en.wikipedia.org/wiki/Hardening_\(computing\)) y privacidad. It has a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), network and sensor permissions, and various other [security features](https://grapheneos.org/features). GrapheneOS also comes with full firmware updates and signed builds, so verified boot is fully supported.
+GrapheneOS proporciona [mejoras adicionales de seguridad](https://en.wikipedia.org/wiki/Hardening_\(computing\)) y privacidad. Dispone de un [asignador de memoria reforzado](https://github.com/GrapheneOS/hardened_malloc), permisos de red y sensores, y otras diversas [características de seguridad](https://grapheneos.org/features). GrapheneOS también incluye actualizaciones completas de firmware y compilaciones firmadas, por lo que el arranque verificado es totalmente compatible.
 
-[:octicons-home-16: Homepage](https://grapheneos.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://grapheneos.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Documentación}
+[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribuir }
 
 </div>
 
-GrapheneOS supports [sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), which runs Google Play Services fully sandboxed like any other regular app. This means you can take advantage of most Google Play Services, such as push notifications, while giving you full control over their permissions and access, and while containing them to a specific [work profile](../os/android-overview.md#work-profile) or [user profile](../os/android-overview.md#user-profiles) of your choice.
+GrapheneOS es compatible con [Google Play aislado](https://grapheneos.org/usage#sandboxed-google-play), que ejecuta los servicios de Google Play totalmente aislados como cualquier otra aplicación normal. Esto significa que puedes aprovechar la mayoría de los servicios de Google Play, como las notificaciones push, a la vez que tienes un control total sobre sus permisos y accesos, y los limitas a un [perfil de trabajo](../os/android-overview.md#work-profile) o [perfil de usuario](../os/android-overview.md#user-profiles) específico de tu elección.
 
-[Google Pixel phones](../mobile-phones.md#google-pixel) are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#future-devices).
+Los [teléfonos Google Pixel](../mobile-phones.md#google-pixel) son los únicos dispositivos que actualmente cumplen los [requisitos de seguridad de hardware] de GrapheneOS(https://grapheneos.org/faq#future-devices).
 
-By default, Android makes many network connections to Google to perform DNS connectivity checks, to sync with current network time, to check your network connectivity, and for many other background tasks. GrapheneOS replaces these with connections to servers operated by GrapheneOS and subject to their privacy policy. This hides information like your IP address [from Google](../basics/common-threats.md#privacy-from-service-providers), but means it is trivial for an admin on your network or ISP to see you are making connections to `grapheneos.network`, `grapheneos.org`, etc. and deduce what operating system you are using.
+Por defecto, Android realiza muchas conexiones de red a Google para realizar comprobaciones de conectividad DNS, para sincronizar con la hora actual de la red, para comprobar tu conectividad de red y para muchas otras tareas en segundo plano. GrapheneOS los sustituye por conexiones a servidores operados por GrapheneOS y sujetos a su política de privacidad. Esto oculta información como tu dirección IP [de Google](../basics/common-threats.md#privacy-from-service-providers), pero significa que es trivial para un administrador de tu red o ISP ver que estás haciendo conexiones a `grapheneos.network`, `grapheneos.org`, etc. y deducir qué sistema operativo estás usando.
 
-If you want to hide information like this from an adversary on your network or ISP, you **must** use a [trusted VPN](../vpn.md) in addition to changing the connectivity check setting to **Standard (Google)**. It can be found in :gear: **Settings** → **Network & internet** → **Internet connectivity checks**. This option allows you to connect to Google's servers for connectivity checks, which, alongside the usage of a VPN, helps you blend in with a larger pool of Android devices.
+Si quieres ocultar información como esta a un adversario de tu red o ISP, **debes** utilizar una [VPN de confianza](../vpn.md) además de cambiar la configuración de comprobación de conectividad a **Estándar (Google)**. Se puede encontrar en :gear: **Configuración** → **Red e Internet** → **Comprobaciones de conectividad a Internet**. Esta opción te permite conectarte a los servidores de Google para comprobar la conectividad, lo que, junto con el uso de una VPN, te ayuda a mezclarte con un grupo mayor de dispositivos Android.
 
 ### DivestOS
 
-If GrapheneOS isn't compatible with your phone, DivestOS is a good alternative. It supports a wide variety of phones with _varying_ levels of security protections and quality control.
+Si GrapheneOS no es compatible con tu teléfono, DivestOS es una buena alternativa. Admite una amplia variedad de teléfonos con _varios_ niveles de protecciones de seguridad y control de calidad.
 
 <div class="admonition recommendation" markdown>
 

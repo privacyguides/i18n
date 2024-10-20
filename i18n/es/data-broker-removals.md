@@ -5,7 +5,7 @@ description: Our recommended methods for removing your personal information from
 cover: data-broker-removals.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protege contra la(s) siguiente(s) amenaza(s):</small>
 
 - [:material-account-search: Public Exposure](basics/common-threats.md#limiting-public-information){ .pg-green }
 

@@ -5,7 +5,7 @@ description: Estas extensiones de navegador pueden mejorar tu experiencia de nav
 cover: browser-extensions.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protege contra la(s) siguiente(s) amenaza(s):</small>
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 

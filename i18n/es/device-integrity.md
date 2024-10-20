@@ -46,7 +46,7 @@ Estas herramientas proporcionan un análisis basado en la información de tu dis
 
 ## Herramientas externas de verificación
 
-<small>Protects against the following threat(s):</small>
+<small>Protege contra la(s) siguiente(s) amenaza(s):</small>
 
 - [:material-target-account: Ataques dirigidos](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
@@ -133,7 +133,7 @@ iMazing automatiza y te guía de forma interactiva a través del proceso de uso 
 
 ## Verificación en el Dispositivo
 
-<small>Protects against the following threat(s):</small>
+<small>Protege contra la(s) siguiente(s) amenaza(s):</small>
 
 - [:material-target-account: Ataques dirigidos](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 - [:material-bug-outline: Ataques pasivos](basics/common-threats.md#security-and-privacy){ .pg-orange }
@@ -191,7 +191,7 @@ Si tu [modelo de amenaza](basics/threat-modeling.md) requiere privacidad, podrí
 
 ## Escáneres en el Dispositivo
 
-<small>Protects against the following threat(s):</small>
+<small>Protege contra la(s) siguiente(s) amenaza(s):</small>
 
 - [:material-bug-outline: Ataques pasivos](basics/common-threats.md#security-and-privacy){ .pg-orange }
 

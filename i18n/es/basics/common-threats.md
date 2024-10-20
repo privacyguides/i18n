@@ -6,50 +6,50 @@ description: Tu modelo de amenaza es personal, pero éstas son algunas de las co
 
 En términos generales, clasificamos nuestras recomendaciones en las [amenazas](threat-modeling.md) u objetivos que se aplican a la mayoría de las personas. ==Puede que no te preocupe ninguna, una, varias o todas estas posibilidades==, y las herramientas y servicios que utilices dependerán de cuáles sean tus objetivos. Es posible que también tengas amenazas específicas fuera de estas categorías, ¡lo cual está perfectamente bien! Lo importante es desarrollar una comprensión de los beneficios y las deficiencias de las herramientas que elijas utilizar, porque prácticamente ninguna de ellas te protegerá de todas las amenazas.
 
-<span class="pg-purple">:material-incognito: **Anonymity**</span>
+<span class="pg-purple">:material-incognito: **Anonimato**</span>
 :
 
-Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
+Esconder tu actividad en línea de tu identidad real, protegiéndote de las personas que intentan descubrir *tu* identidad específicamente.
 
-<span class="pg-red">:material-target-account: **Targeted Attacks**</span>
+<span class="pg-red">:material-target-account: **Ataques Dirigidos**</span>
 :
 
-Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
+Estar protegido de hackers u otros actores maliciosos que intentan acceder a *tus* datos o dispositivos en concreto.
 
-<span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
+<span class="pg-viridian">:material-package-variant-closed-remove: **Ataques a la Cadena de Suministro**</span>
 :
 
-Typically a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+Normalmente una forma de <span class="pg-red">:material-target-account: Ataque Dirigido</span> que se centra en una vulnerabilidad o exploit introducido en un software por lo demás bueno, ya sea directamente o a través de una dependencia de un tercero.
 
-<span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
+<span class="pg-orange">:material-bug-outline: **Ataques Pasivos**</span>
 :
 
-Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
+Estar protegido de cosas como el malware, las filtraciones de datos y otros ataques que se realizan contra muchas personas a la vez.
 
-<span class="pg-teal">:material-server-network: **Service Providers**</span>
+<span class="pg-teal">:material-server-network: **Proveedores de Servicios**</span>
 :
 
-Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
+Proteger tus datos de los proveedores de servicios (por ejemplo, con E2EE, que hace que tus datos sean ilegibles para el servidor).
 
-<span class="pg-blue">:material-eye-outline: **Mass Surveillance**</span>
+<span class="pg-blue">:material-eye-outline: **Vigilancia Masiva**</span>
 :
 
-Protection from government agencies, organizations, websites, and services which work together to track your activities.
+Protección frente a agencias gubernamentales, organizaciones, sitios web y servicios que colaboran para rastrear tus actividades.
 
-<span class="pg-brown">:material-account-cash: **Surveillance Capitalism**</span>
+<span class="pg-brown">:material-account-cash: **Capitalismo de la Vigilancia**</span>
 :
 
-Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
+Protegerte de las grandes redes publicitarias, como Google y Facebook, así como de una infinidad de recopiladores de datos de terceros.
 
-<span class="pg-green">:material-account-search: **Public Exposure**</span>
+<span class="pg-green">:material-account-search: **Exposición Pública**</span>
 :
 
-Limiting the information about you that is accessible online—to search engines or the general public.
+Limitar la información sobre ti a la que pueden acceder en línea los motores de búsqueda o el público en general.
 
-<span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
+<span class="pg-blue-gray">:material-close-outline: **Censura**</span>
 :
 
-Avoiding censored access to information or being censored yourself when speaking online.
+Evitar el acceso censurado a la información o ser censurado uno mismo al hablar en línea.
 
 Algunas de estas amenazas pueden ser más importantes para ti que otras, dependiendo de tus preocupaciones específicas. Por ejemplo, un desarrollador de software con acceso a información importante o crítica podría estar preocupado por los <span class="pg-viridian">:material-package-variant-closed-remove: ataques a la cadena de suministros</span> y los <span class="pg-red">:material-target-account: ataques dirigidos</span>. Es probable que ellos quieran protejer sus datos personales de ser barridos en programas de <span class="pg-blue">:material-eye-outline:Espionaje Masivo</span>. Del mismo modo, muchas personas pueden estar preocupadas principalmente por la <span class="pg-green">:material-account-search: Exposición pública</span> de sus datos personales, pero aún así deben tener cuidado con los problemas centrados en la seguridad, como los <span class="pg-orange">:material-bug-outline: Ataques pasivos</span>-como el malware que afecta a sus dispositivos.
 
@@ -80,7 +80,7 @@ Los sistemas operativos de escritorio generalmente se retrasan en el aislamiento
 
 </div>
 
-## Attacks against Specific Individuals
+## Ataques contra Individuos Concretos
 
 <span class="pg-red">:material-target-account: Ataques dirigidos</span>
 
@@ -95,7 +95,7 @@ Por su diseño, los **navegadores web**, los **clientes de correo electrónico**
 
 Si te preocupan los **ataques físicos** deberías utilizar un sistema operativo con una implementación de arranque seguro verificado, como Android, iOS, macOS o [Windows (con TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). También deberías asegurarte de que tu disco esté encriptado y de que el sistema operativo utiliza un TPM o Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) o [Element](https://developers.google.com/android/security/android-ready-se) para limitar los intentos de introducir la frase de contraseña de encriptación. Deberías evitar compartir tu ordenador con personas que no sean de tu confianza, ya que la mayoría de los sistemas operativos de escritorio no cifran los datos por separado para cada usuario.
 
-## Attacks against Certain Organizations
+## Ataques contra Determinadas Organizaciones
 
 <span class="pg-viridian">:material-package-variant-closed-remove: Ataques a la cadena de suministro</span>
 
@@ -110,19 +110,19 @@ Un ejemplo importante de esto sucedió en 2017 cuando M.E.Doc, un software de co
 
 Hay algunas maneras de realizar este ataque:
 
-1. A contributor or employee might first work their way into a position of power within a project or organization, and then abuse that position by adding malicious code.
+1. Un colaborador o empleado podría primero hacerse un hueco en una posición de poder dentro de un proyecto u organización, y luego abusar de esa posición añadiendo código malicioso.
 2. Un desarrollador puede ser coaccionado por un tercero para agregar código malicioso.
 3. Un individuo o grupo podría identificar una dependencia en software de terceros (también conocida como librería) y trabajar para infiltrarse con los dos métodos anteriores, conociendo que serán utilizadas por otros desarrolladores de software.
 
-Estos tipos de ataques pueden requerir mucho tiempo y preparación para ser realizados y son riesgosos porque pueden ser detectados, especialmente en proyectos de código abierto si estos son populares y tienen interés externo. Desafortunadamente, estos también son uno de los más peligrosos, porque son muy difíciles de mitigar en su totalidad. We would encourage readers to only use software which has a good reputation and makes an effort to reduce risk by:
+Estos tipos de ataques pueden requerir mucho tiempo y preparación para ser realizados y son riesgosos porque pueden ser detectados, especialmente en proyectos de código abierto si estos son populares y tienen interés externo. Desafortunadamente, estos también son uno de los más peligrosos, porque son muy difíciles de mitigar en su totalidad. Recomendamos a los lectores que utilicen únicamente programas informáticos que gocen de buena reputación y se esfuercen por reducir los riesgos haciendo lo siguiente:
 
-1. Adoptar únicamente programas populares que han estado disponibles durante un tiempo. The more interest in a project, the greater likelihood that external parties will notice malicious changes. Un actor malicioso también necesitará más tiempo para obtener la confianza de la comunidad con aportes significativos.
-2. Finding software which releases binaries with widely-used, trusted build infrastructure platforms, as opposed to developer workstations or self-hosted servers. Algunos sistemas como GitHub Actions te permiten inspeccionar el script de construcción que se ejecuta públicamente para mayor confianza. Esto reduce la probabilidad de que un malware en la computadora del desarrollador pueda infectar sus paquetes y proporciona la confianza de que los binarios son producidos correctamente.
-3. Looking for code signing on individual source code commits and releases, which creates an auditable trail of who did what. Por ejemplo: ¿el código malicioso se encontraba en el repositorio del programa? ¿Cuál desarrollador lo agregó? ¿Se agregó durante el proceso de compilación?
-4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what each change is supposed to accomplish. Los mensajes limpios pueden facilitar a las personas ajenas al proyecto la verificación, la auditoría y la búsqueda de errores.
-5. Anotar la cantidad de colaboradores o mantenedores en un programa. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enabling undesirable behavior. Esto puede significar que los programas desarrollados por las "grandes tecnológicas" tienen un escrutinio mayor al de un desarrollador solitario que no responde ante nadie.
+1. Adoptar únicamente programas populares que han estado disponibles durante un tiempo. Cuanto mayor sea el interés por un proyecto, mayor será la probabilidad de que las partes externas adviertan cambios malintencionados. Un actor malicioso también necesitará más tiempo para obtener la confianza de la comunidad con aportes significativos.
+2. Encontrar software que libere binarios con plataformas de infraestructura de compilación fiables y de uso generalizado, en lugar de estaciones de trabajo para desarrolladores o servidores autoalojados. Algunos sistemas como GitHub Actions te permiten inspeccionar el script de construcción que se ejecuta públicamente para mayor confianza. Esto reduce la probabilidad de que un malware en la computadora del desarrollador pueda infectar sus paquetes y proporciona la confianza de que los binarios son producidos correctamente.
+3. Buscar la firma de código en los commits y releases individuales de código fuente, lo que crea un rastro auditable de quién hizo qué. Por ejemplo: ¿el código malicioso se encontraba en el repositorio del programa? ¿Cuál desarrollador lo agregó? ¿Se agregó durante el proceso de compilación?
+4. Comprobar si el código fuente tiene mensajes de confirmación significativos (como [compromisos convencionales](https://conventionalcommits.org)) que expliquen qué se supone que consigue cada cambio. Los mensajes limpios pueden facilitar a las personas ajenas al proyecto la verificación, la auditoría y la búsqueda de errores.
+5. Anotar la cantidad de colaboradores o mantenedores en un programa. Un desarrollador solitario puede ser más susceptible de ser coaccionado para añadir código malicioso por una parte externa, o de permitir por negligencia un comportamiento indeseable. Esto puede significar que los programas desarrollados por las "grandes tecnológicas" tienen un escrutinio mayor al de un desarrollador solitario que no responde ante nadie.
 
-## Privacy from Service Providers
+## Privacidad frente a los Proveedores de Servicios
 
 <span class="pg-teal">:material-server-network: Proveedores de servicios</span>
 
@@ -137,7 +137,7 @@ Afortunadamente, E2EE puede aliviar este problema encriptando las comunicaciones
 
 En la práctica, la eficacia de las diferentes implementaciones de E2EE varía. Las aplicaciones, como [Signal](../real-time-communication.md#signal), se ejecutan de forma nativa en tu dispositivo, y cada copia de la aplicación es la misma en diferentes instalaciones. Si el proveedor de servicios introdujera un [backdoor](https://es.wikipedia.org/wiki/Puerta_trasera) en su aplicación -en un intento de robar tus claves privadas- podría ser detectado posteriormente con [ingeniería inversa](https://es.wikipedia.org/wiki/Ingenier%C3%Ada_inversa).
 
-On the other hand, web-based E2EE implementations, such as Proton Mail's web app or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. Un servidor malicioso puede dirigirse a ti y enviarte un código JavaScript malicioso para robar tu clave de cifrado (y sería extremadamente difícil de notar). Dado que el servidor puede elegir servir diferentes clientes de la web a diferentes personas -incluso si te diste cuenta del ataque- sería increíblemente difícil probar la culpabilidad del proveedor.
+Por otro lado, las implementaciones E2EE basadas en web, como la aplicación web de Proton Mail o *Web Vault* de Bitwarden, dependen de que el servidor sirva dinámicamente código JavaScript al navegador para gestionar la criptografía. Un servidor malicioso puede dirigirse a ti y enviarte un código JavaScript malicioso para robar tu clave de cifrado (y sería extremadamente difícil de notar). Dado que el servidor puede elegir servir diferentes clientes de la web a diferentes personas -incluso si te diste cuenta del ataque- sería increíblemente difícil probar la culpabilidad del proveedor.
 
 Por lo tanto, siempre que sea posible, hay que utilizar aplicaciones nativas en lugar de clientes web.
 
@@ -160,7 +160,7 @@ En Francia puedes consultar el [sitio web de Technopolice](https://technopolice.
 
 </div>
 
-Los gobiernos suelen justificar los programas de vigilancia masiva como medios necesarios para combatir el terrorismo y prevenir la delincuencia. However, as breaches of human rights, they're most often used to disproportionately target minority groups and political dissidents, among others.
+Los gobiernos suelen justificar los programas de vigilancia masiva como medios necesarios para combatir el terrorismo y prevenir la delincuencia. Sin embargo, como violaciones de los derechos humanos, se utilizan con mayor frecuencia para atacar de forma desproporcionada a grupos minoritarios y disidentes políticos, entre otros.
 
 <div class="admonition quote" markdown>
 <p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">La lección del 11-S sobre la privacidad: La Vigilancia Masiva No es el Camino a Seguir</a></em></p>
@@ -171,7 +171,7 @@ Ante las revelaciones de Edward Snowden sobre programas del gobierno como [PRISM
 
 A pesar de la creciente vigilancia masiva en Estados Unidos, el gobierno ha descubierto que los programas de vigilancia masiva como Section 215 han tenido "poco valor único" con respecto a la detención de delitos reales o complots terroristas, con esfuerzos que duplican en gran medida los propios programas de vigilancia selectiva del FBI.[^2]
 
-Online, you can be tracked via a variety of methods, including but not limited to:
+En línea, puedes ser rastreado a través de una variedad de métodos, incluyendo pero no limitado a:
 
 - Tu dirección IP
 - Cookies del navegador
@@ -181,7 +181,7 @@ Online, you can be tracked via a variety of methods, including but not limited t
 
 Si estás preocupado sobre los programas de vigilancia masiva, puedes usar estrategias como la compartamentalización de tus identidades en línea, mezclarte con otros usuarios o, cuando sea posible, evitar brindar información que te identifique.
 
-## Surveillance as a Business Model
+## Vigilancia como Modelo de Negocio
 
 <span class="pg-brown">:material-account-cash: Capitalismo de Vigilancia</span>
 
@@ -228,4 +228,4 @@ Siempre debes tener en cuenta los riesgos de intentar saltarse la censura, las p
 [^2]: Junta de Supervisión de la Privacidad y las Libertades Civiles de los Estados Unidos: [*Informe sobre el Programa de Registros Telefónicos llevado a cabo bajo la Sección 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: Wikipedia: [*Capitalismo de vigilancia*](https://es.wikipedia.org/wiki/Capitalismo_de_vigilancia)
 [^4]: "[Enumerar lo malo](https://ranum.com/security/computer_security/editorials/dumb)" (o, "enumerar todas las cosas malas que conocemos"), como hacen muchos bloqueadores de contenidos y programas antivirus, no consigue protegerle adecuadamente de amenazas nuevas y desconocidas porque aún no se han añadido a la lista de filtros. También deberías emplear otras técnicas de mitigación.
-[^5]: United Nations: [*Universal Declaration of Human Rights*](https://un.org/en/about-us/universal-declaration-of-human-rights).
+[^5]: Naciones Unidas: [*Declaración Universal de los Derechos Humanos*](https://un.org/en/about-us/universal-declaration-of-human-rights).
