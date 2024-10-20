@@ -78,7 +78,7 @@ También pensamos que es mejor para la seguridad de las claves privadas del prov
 
 Los clientes VPN de Mullvad han sido auditados por Cure53 y Assured AB en un reporte de pentest \[publicado en cure53.de\](https://cure53.de/pentest-report_mullvad_v2.pdf). Los investigadores de seguridad concluyeron:
 
-&gt; Cure53 y Assured AB están satisfechos con los resultados de la auditoría y el software deja una impresión positiva en general. Con la dedicación a la seguridad del equipo interno de Mullvad VPN, los testers no tienen dudas de que el proyecto va por buen camino desde el punto de vista de la seguridad. Puedes ver informes individuales para cada plataforma en [protonvpn.com](https://protonvpn.com/blog/open-source). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit). El 9 de noviembre de 2021, [Securitum](https://research.securitum.com)proporcionó una carta de certificación [](https://proton.me/blog/security-audit-all-proton-apps) para las aplicaciones de Proton VPN.
+&gt; Cure53 y Assured AB están satisfechos con los resultados de la auditoría y el software deja una impresión positiva en general. Con la dedicación a la seguridad del equipo interno de Mullvad VPN, los testers no tienen dudas de que el proyecto va por buen camino desde el punto de vista de la seguridad. Puedes ver informes individuales para cada plataforma en [protonvpn.com](https://protonvpn.com/blog/open-source). En abril de 2022, Proton VPN se sometió a [otra auditoría](https://protonvpn.com/blog/no-logs-audit). El 9 de noviembre de 2021, [Securitum](https://research.securitum.com)proporcionó una carta de certificación [](https://proton.me/blog/security-audit-all-proton-apps) para las aplicaciones de Proton VPN.
 
 #### :material-check:{ .pg-green } Clientes de código abierto
 
@@ -106,7 +106,7 @@ Actualmente, Proton VPN solo admite el [ reenvío del puerto](https://protonvpn.
 
 Proton VPN tiene su protocolo [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol) que *puede* ayudar en situaciones en las que los protocolos VPN como OpenVPN o Wireguard son bloqueados con varias técnicas rudimentarias. Stealth encapsula el túnel VPN en una sesión TLS para que parezca tráfico de Internet más genérico.
 
-Unfortunately, it does not work very well in countries where sophisticated filters that analyze all outgoing traffic in an attempt to discover encrypted tunnels are deployed. Stealth is available on Android, iOS, Windows, and macOS, but it's not yet available on Linux.
+Desafortunadamente, no funciona muy bien en países donde se despliegan sofisticados filtros que analizan todo el tráfico saliente en un intento de descubrir túneles cifrados. Stealth está disponible en Android, iOS, Windows y macOS, pero aún no en Linux.
 
 #### :material-check:{ .pg-green } Clientes Móviles
 
@@ -134,7 +134,7 @@ Los fallos del sistema [pueden ocurrir](https://protonvpn.com/support/macos-t2-c
 [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
 - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
@@ -200,7 +200,7 @@ Los clientes de IVPN soportan la autenticación de dos factores. IVPN también o
 
 ![Logo de Mullvad](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** es una VPN rápida y económica que se centra en la transparencia y la seguridad. They have been in operation since 2009. Mullvad tiene su sede en Suecia y no ofrece una prueba gratuita.
+**Mullvad** es una VPN rápida y económica que se centra en la transparencia y la seguridad. Ha estado en operación desde 2009. Mullvad tiene su sede en Suecia y no ofrece una prueba gratuita.
 
 [:octicons-home-16: Página Principal](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Servicio Onion" }
@@ -209,7 +209,7 @@ Los clientes de IVPN soportan la autenticación de dos factores. IVPN también o
 [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1488466513)
@@ -222,9 +222,9 @@ Los clientes de IVPN soportan la autenticación de dos factores. IVPN también o
 
 </div>
 
-#### :material-check:{ .pg-green } 45 Countries
+#### :material-check:{ .pg-green } 45 Países
 
-Mullvad has [servers in 45 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
+Mullvad tiene [servidores en 45 países](https://mullvad.net/servers).(1) Elegir un proveedor de VPN con el servidor más cercano a ti reducirá la latencia del tráfico de red que envías. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
 { .annotate }
 
 1. Última comprobación: 06-08-2024
