@@ -1,6 +1,6 @@
 ---
-title: Obtener aplicaciones
-description: We recommend these methods for obtaining applications on Android without interacting with Google Play Services.
+title: Obtener Aplicaciones
+description: Recomendamos estos métodos para obtener aplicaciones en Android sin interactuar con los Servicios de Google Play.
 ---
 
 Hay varias formas para obtener aplicaciones de Android de una manera privada, incluso desde Google Play Store, sin interactuar con los Servicios de Google Play. Recomendamos los siguientes métodos de obtener aplicaciones en Android, listados en orden de preferencia.
@@ -72,19 +72,19 @@ En GitHub, usando [Secure Camera](general-apps.md#secure-camera) como un ejemplo
 
 ### GitLab
 
-On GitLab, using [Aurora Store](#aurora-store) as an example, you would navigate to its [project repository](https://gitlab.com/AuroraOSS/AuroraStore) and append `/-/tags?format=atom` to the URL:
+En GitLab, usando [Aurora Store](#aurora-store) como ejemplo, navegarías a su [repositorio de proyecto](https://gitlab.com/AuroraOSS/AuroraStore) y añadirías `/-/tags?format=atom` a la URL:
 
 `https://gitlab.com/AuroraOSS/AuroraStore/-/tags?format=atom`
 
-### Verifying APK Fingerprints
+### Verificación de Huellas Digitales APK
 
-If you download APK files to install manually, you can verify their signature with the [`apksigner`](https://developer.android.com/studio/command-line/apksigner) tool, which is a part of Android [build-tools](https://developer.android.com/studio/releases/build-tools).
+Si descarga archivos APK para instalarlos manualmente, puedes verificar su firma con la herramienta [`apksigner`](https://developer.android.com/studio/command-line/apksigner), que forma parte de [build-tools](https://developer.android.com/studio/releases/build-tools) de Android.
 
-1. Install [Java JDK](https://oracle.com/java/technologies/downloads).
+1. Instala [Java JDK](https://oracle.com/java/technologies/downloads).
 
-2. Download the [Android Studio command line tools](https://developer.android.com/studio#command-tools).
+2. Descarga las [Herramientas de línea de comandos de Android Studio](https://developer.android.com/studio#command-tools).
 
-3. Extract the downloaded archive:
+3. Extrae el archivo descargado:
 
    ```bash
    unzip commandlinetools-*.zip
@@ -92,13 +92,13 @@ If you download APK files to install manually, you can verify their signature wi
    ./bin/sdkmanager --sdk_root=./ "build-tools;29.0.3"
    ```
 
-4. Run the signature verification command:
+4. Ejecuta el comando de verificación de firma:
 
    ```bash
    ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk
    ```
 
-5. The resulting hashes can then be compared with another source. Some developers such as Signal [show the fingerprints](https://signal.org/android/apk) on their website.
+5. Los hashes resultantes pueden compararse con otra fuente. Algunos desarrolladores como Signal [muestran las huellas digitales](https://signal.org/android/apk) en su sitio web.
 
    ```bash
    Signer #1 certificate DN: CN=GrapheneOS

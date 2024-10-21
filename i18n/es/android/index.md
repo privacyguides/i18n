@@ -1,6 +1,6 @@
 ---
 title: Android
-description: Our advice for replacing privacy-invasive default Android features with private and secure alternatives.
+description: Nuestros consejos para sustituir las funciones predeterminadas de Android que invaden la privacidad por alternativas privadas y seguras.
 icon: simple/android
 cover: android.webp
 schema:
@@ -20,47 +20,47 @@ schema:
 
 El **Android Open Source Project** (AOSP) es un sistema operativo de código abierto liderado por Google, que se encuentra detrás de la mayoría de dispositivos móviles a nivel mundial. La mayoría de los teléfonos vendidos con Android son modificados para incluir integraciones invasivas y aplicaciones como los Servicios de Google Play, por lo que puedes mejorar de manera significativa tu privacidad en tu dispositivo móvil al reemplazar la instalación predeterminada con una versión de Android sin estas características invasivas.
 
-[General Android Overview :material-arrow-right-drop-circle:](../os/android-overview.md){ .md-button .md-button--primary }
+[Resumen General de Android :material-arrow-right-drop-circle:](../os/android-overview.md){ .md-button .md-button--primary }
 
 ## Nuestro Consejo
 
-### Replace Google Services
+### Sustituye los Servicios de Google
 
-There are many methods of obtaining apps on Android while avoiding Google Play. Whenever possible, try using one of these methods before getting your apps from non-private sources:
+Hay muchos métodos para obtener aplicaciones en Android sin tener que recurrir a Google Play. Siempre que sea posible, intenta utilizar uno de estos métodos antes de obtener tus aplicaciones de fuentes no privadas:
 
-[Obtaining Applications :material-arrow-right-drop-circle:](obtaining-apps.md){ .md-button }
+[Obtener Aplicaciones :material-arrow-right-drop-circle:](obtaining-apps.md){ .md-button }
 
-There are also many private alternatives to the apps that come pre-installed on your phone, such as the camera app. Besides the Android apps we recommend throughout this site in general, we've created a list of system utilities specific to Android which you might find useful.
+También hay muchas alternativas privadas a las aplicaciones que vienen preinstaladas en el teléfono, como la aplicación de la cámara. Además de las aplicaciones para Android que recomendamos en este sitio en general, hemos creado una lista de utilidades del sistema específicas para Android que pueden resultarte útiles.
 
-[General App Recommendations :material-arrow-right-drop-circle:](general-apps.md){ .md-button }
+[Recomendaciones Generales de Aplicaciones :material-arrow-right-drop-circle:](general-apps.md){ .md-button }
 
-### Install a Custom Distribution
+### Instala una Distribución Personalizada
 
 Cuando compras un teléfono Android, el sistema operativo por defecto viene con aplicaciones y funcionalidades que no forman parte de Android Open Source Project. Muchas de estas aplicaciones -incluso aplicaciones como el marcador que proporcionan una funcionalidad básica del sistema- requieren integraciones invasivas con Google Play Services, que a su vez pide privilegios para acceder a tus archivos, almacenamiento de contactos, registros de llamadas, mensajes SMS, ubicación, cámara, micrófono y muchas otras cosas en tu dispositivo para que esas aplicaciones básicas del sistema y muchas otras aplicaciones funcionen en primer lugar. Frameworks como Google Play Services aumentan la superficie de ataque de tu dispositivo y son la fuente de varios problemas de privacidad con Android.
 
-This problem could be solved by using an alternative Android distribution, commonly known as a _custom ROM_, that does not come with such invasive integration. Desafortunadamente, varias distribuciones modificadas de Android suelen violar el modelo de seguridad de Android al no soportar características críticas de seguridad como el AVB, protección de reversión, actualizaciones del firmware, etc. Some distributions also ship [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) builds which expose root via [ADB](https://developer.android.com/studio/command-line/adb) and require [more permissive](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug\&type=code) SELinux policies to accommodate debugging features, resulting in a further increased attack surface and weakened security model.
+Este problema se puede resolver utilizando una distribución alternativa de Android, comúnmente conocida como _ROM personalizada_, que no venga con una integración tan invasiva. Desafortunadamente, varias distribuciones modificadas de Android suelen violar el modelo de seguridad de Android al no soportar características críticas de seguridad como el AVB, protección de reversión, actualizaciones del firmware, etc. Algunas distribuciones también incluyen compilaciones [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) que exponen la raíz a través de [ADB](https://developer.android.com/studio/command-line/adb) y requieren políticas SELinux [más permisivas](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug\&type=code) para acomodar las características de depuración, lo que resulta en una mayor superficie de ataque y un modelo de seguridad debilitado.
 
-Idealmente, cuando escojas una distribución de Android, deberías asegurarte de que mantenga el modelo de seguridad de Android. At the very least, the distribution should have production builds, support for AVB, rollback protection, timely firmware and operating system updates, and SELinux in [enforcing mode](https://source.android.com/security/selinux/concepts#enforcement_levels). All of our recommended Android distributions satisfy these criteria:
+Idealmente, cuando escojas una distribución de Android, deberías asegurarte de que mantenga el modelo de seguridad de Android. Como mínimo, la distribución debería tener compilaciones de producción, compatibilidad con AVB, protección contra reversiones, actualizaciones puntuales del firmware y del sistema operativo, y SELinux en [modo de imposición](https://source.android.com/security/selinux/concepts#enforcement_levels). Todas nuestras distribuciones de Android recomendadas cumplen estos criterios:
 
-[Recommended Distributions :material-arrow-right-drop-circle:](distributions.md){ .md-button }
+[Distribuciones Recomendadas :material-arrow-right-drop-circle:](distributions.md){ .md-button }
 
-### Avoid Root
+### Evita Rootear
 
-[Rooting](https://en.wikipedia.org/wiki/Rooting_\(Android\)) Android phones can decrease security significantly as it weakens the complete [Android security model](https://en.wikipedia.org/wiki/Android_\(operating_system\)#Security_and_privacy). Esto puede debilitar la privacidad en caso de que haya un exploit que sea asistido por la seguridad debilitada. Los métodos de rooteo más comunes involucran la manipulación directa de la partición de arranque, haciendo que sea imposible realizar con éxito el arranque verificado. Apps that require root will also modify the system partition, meaning that Verified Boot would have to remain disabled. Having root exposed directly in the user interface also increases the attack surface of your device and may assist in [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation) vulnerabilities and SELinux policy bypasses.
+El [Rooting](https://es.wikipedia.org/wiki/Root_\(Android\)) de los teléfonos Android puede disminuir la seguridad de forma significativa, ya que debilita todo el [modelo de seguridad de Android](https://es.wikipedia.org/wiki/Android#Seguridad,_privacidad_y_vigilancia). Esto puede debilitar la privacidad en caso de que haya un exploit que sea asistido por la seguridad debilitada. Los métodos de rooteo más comunes involucran la manipulación directa de la partición de arranque, haciendo que sea imposible realizar con éxito el arranque verificado. Las aplicaciones que requieren root también modificarán la partición del sistema, lo que significa que el Arranque Verificado tendría que permanecer desactivado. Tener la raíz expuesta directamente en la interfaz de usuario también aumenta la superficie de ataque de su dispositivo y puede ayudar en las vulnerabilidades de [escalada de privilegios](https://es.wikipedia.org/wiki/Escalada_de_privilegios) y las omisiones de la política SELinux.
 
-Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_\(file\)) (AdAway) and firewalls (AFWall+) which require root access persistently are dangerous and should not be used. Tampoco son la forma correcta de resolver sus propósitos. For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy enhancing services such as [Orbot](../tor.md#orbot) or a [real VPN provider](../vpn.md).
+Los bloqueadores de contenido que modifican el [archivo hosts](https://es.wikipedia.org/wiki/Archivo_hosts) (AdAway) y los cortafuegos (AFWall+) que requieren acceso root de forma persistente son peligrosos y no deben utilizarse. Tampoco son la forma correcta de resolver sus propósitos. Para el bloqueo de contenidos, sugerimos [DNS](../dns.md) cifrado o la funcionalidad de bloqueo de contenidos proporcionada por una VPN. TrackerControl y AdAway en modo no-root ocuparán la ranura VPN (usando una VPN loopback local), impidiéndote usar servicios que mejoran la privacidad como [Orbot](../tor.md#orbot) o un [proveedor VPN real](../vpn.md).
 
-AFWall+ works based on the [packet filtering](https://en.wikipedia.org/wiki/Firewall_\(computing\)#Packet_filter) approach and may be bypassable in some situations.
+AFWall+ funciona basado en el enfoque [filtrado de paquetes](https://es.wikipedia.org/wiki/Cortafuegos_\(inform%C3%A1tica\)#Cortafuegos_de_capa_de_red_o_de_filtrado_de_paquetes) y puede ser evitable en algunas situaciones.
 
 No creemos que los sacrificios de seguridad realizados al rootear un teléfono merezcan la pena por los cuestionables beneficios de privacidad de esas aplicaciones.
 
-### Install Updates Regularly
+### Instala Actualizaciones Periódicamente
 
-It's important to not use an [end-of-life](https://endoflife.date/android) version of Android. Newer versions of Android receive not only security updates for the operating system but also important privacy enhancing updates too.
+Es importante no utilizar una versión [end-of-life](https://endoflife.date/android) de Android. Las nuevas versiones de Android no solo reciben actualizaciones de seguridad para el sistema operativo, sino también importantes actualizaciones para mejorar la privacidad.
 
-For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. Las aplicaciones del sistema sólo las proporciona el OEM o la distribución de Android.
+Por ejemplo, [antes de Android 10](https://developer.android.com/about/versions/10/privacy/changes) cualquier app con el permiso [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) podía acceder a números de serie sensibles y únicos de tu teléfono como [IMEI](https://es.wikipedia.org/wiki/IMEI), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), o el [IMSI](https://es.wikipedia.org/wiki/IMSI) de tu tarjeta SIM; mientras que ahora deben ser apps del sistema para hacerlo. Las aplicaciones del sistema sólo las proporciona el OEM o la distribución de Android.
 
-### Use Built-in Sharing Features
+### Utiliza las Funciones Integradas para Compartir
 
 Puedes evitar dar permiso a muchas aplicaciones para acceder a tus archivos multimedia con las funciones de uso compartido integradas en Android. Muchas aplicaciones te permiten "compartir" un archivo con ellas para cargarlo.
 
