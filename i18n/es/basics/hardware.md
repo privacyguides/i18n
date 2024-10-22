@@ -50,97 +50,97 @@ Muchos dispositivos vienen equipados con un lector de huellas dactilares o funci
 
 La biometría puede impedir que alguien te vea teclear tu contraseña, así que si el shoulder-surfing forma parte de tu modelo de amenazas, la biometría es una buena opción.
 
-La mayoría de las implementaciones de autenticación facial requieren que estés mirando el teléfono y, además, solo funcionan desde una distancia relativamente cercana, por lo que no tienes que preocuparte demasiado de que alguien te apunte a la cara para desbloquearlo sin tu consentimiento. You can still disable biometrics when your phone is locked if you want. On iOS, you can hold the side button and a volume button for 3 seconds to disable Face ID on models that support it. On Android, hold the power button and press Lockdown on the menu.
+La mayoría de las implementaciones de autenticación facial requieren que estés mirando el teléfono y, además, solo funcionan desde una distancia relativamente cercana, por lo que no tienes que preocuparte demasiado de que alguien te apunte a la cara para desbloquearlo sin tu consentimiento. Si lo deseas, puedes desactivar la biometría cuando el teléfono esté bloqueado. En iOS, puedes mantener pulsado el botón lateral y un botón de volumen durante 3 segundos para desactivar Face ID en los modelos que lo admitan. En Android, mantén pulsado el botón de encendido y pulsa Bloqueo en el menú.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-Some devices do not have the proper hardware for secure face authentication. There's two main types of face authentication: 2D and 3D. 3D face authentication makes use of a dot projector that lets the device create a 3D depth map of your face. Make sure that your device has this capability.
+Algunos dispositivos no disponen del hardware adecuado para la autenticación facial segura. Hay dos tipos principales de autenticación facial: 2D y 3D. La autenticación facial 3D utiliza un proyector de puntos que permite al dispositivo crear un mapa de profundidad 3D de tu cara. Asegúrate de que tu dispositivo dispone de esta capacidad.
 
 </div>
 
-Android defines three [security classes](https://source.android.com/docs/security/features/biometric/measure#biometric-classes) for biometrics; you should check that your device is Class 3 before enabling biometrics.
+Android define tres [clases de seguridad](https://source.android.com/docs/security/features/biometric/measure#biometric-classes) para la biometría; debes comprobar que tu dispositivo es de Clase 3 antes de activar la biometría.
 
-### Device Encryption
+### Cifrado del Dispositivo
 
-If your device is [encrypted](../encryption.md), your data is most secure when your device is completely powered off (as opposed to merely asleep), i.e. before you've entered your encryption key or lock screen password for the first time. On phones, this state of higher security is referred to as "Before First Unlock" (BFU), and "After First Unlock" (AFU) once you enter the correct password after a reboot/power-on. AFU is considerably less secure against digital forensics toolkits and other exploits, compared to BFU. Therefore, if you are concerned about an attacker with physical access to your device, you should turn it off fully whenever you aren't using it.
+Si tu dispositivo está [cifrado](../encryption.md), tus datos estarán más seguros cuando el dispositivo esté completamente apagado (en lugar de simplemente dormido), es decir, antes de que hayas introducido la clave de cifrado o la contraseña de la pantalla de bloqueo por primera vez. En los teléfonos, este estado de mayor seguridad se denomina "Antes del primer desbloqueo" (BFU), y "Después del primer desbloqueo"(AFU) una vez que se introduce la contraseña correcta tras un reinicio/encendido. AFU es considerablemente menos seguro contra los kits de herramientas forenses digitales y otros exploits, en comparación con BFU. Por lo tanto, si te preocupa que un atacante tenga acceso físico a tu dispositivo, deberías apagarlo por completo siempre que no lo estés utilizando.
 
-This may be impractical, so consider whether it's worth it, but in either case even AFU mode is effective against most threats, given you are using a strong encryption key.
+Esto puede ser poco práctico, así que considera si vale la pena, pero en cualquier caso incluso el modo AFU es efectivo contra la mayoría de las amenazas, siempre que estés usando una clave de cifrado fuerte.
 
-## External Hardware
+## Hardware Externo
 
-Some threats can't be protected against by your internal components alone. Many of these options are highly situational; please evaluate if they are really necessary for your threat model.
+Existen amenazas contra las que no es posible protegerse únicamente con los componentes internos. Muchas de estas opciones son altamente situacionales; por favor, evalúa si son realmente necesarias para tu modelo de amenaza.
 
 ### Llaves de Seguridad
 
-Hardware keys are devices that use strong cryptography to authenticate you to a device or account. The idea is that because they can not be copied, you can use them to secure accounts in such a way that they can only be accessed with physical possession of the key, eliminating many remote attacks.
+Las llaves son dispositivos que utilizan criptografía fuerte para autenticarte en un dispositivo o cuenta. La idea es que, como no se pueden copiar, se pueden utilizar para proteger cuentas de forma que solo se pueda acceder a ellas con la posesión física de la clave, lo que elimina muchos ataques remotos.
 
-[Recommended Hardware Keys :material-arrow-right-drop-circle:](../security-keys.md){ .md-button .md-button--primary } [Learn More about Hardware Keys :material-arrow-right-drop-circle:](multi-factor-authentication.md#hardware-security-keys){ .md-button }
+[Llaves Recomendadas :material-arrow-right-drop-circle:](../security-keys.md){ .md-button .md-button--primary } [Más Información sobre las Llaves :material-arrow-right-drop-circle:](multi-factor-authentication.md#hardware-security-keys){ .md-button }
 
-### Camera/Microphone
+### Cámara/Micrófono
 
-If you don't want to trust your OS's permission controls to prevent the camera from activating in the first place, you can buy camera blockers that physically prevent light from reaching the camera. You could also buy a device that doesn't have a built-in camera and use an external camera that you can unplug whenever you're done using it. Some devices come with built-in camera blockers or hardware switches that physically disconnect the camera from power.
+Si no quieres confiar en que los controles de permisos de tu sistema operativo impidan que la cámara se active en primer lugar, puedes comprar bloqueadores de cámara que impidan físicamente que la luz llegue a la cámara. También puedes comprar un dispositivo que no tenga cámara integrada y utilizar una cámara externa que puedas desconectar cuando termines de usarla. Algunos dispositivos vienen con bloqueadores de cámara integrados o interruptores de hardware que desconectan físicamente la cámara de la corriente.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-You should only buy covers that fit your laptop and won't cause damage when you close the lid. Covering the camera will interfere with automatic brightness and face authentication features.
+Solo debes comprar cubiertas que se adapten a tu portátil y no causen daños al cerrar la tapa. Cubrir la cámara interferirá con el brillo automático y las funciones de autenticación facial.
 
 </div>
 
-For microphone access, in most cases you will need to trust your OS's built-in permission controls. Alternatively, buy a device that doesn't have a built-in microphone and use an external microphone that you can unplug when you're done using it. Some devices, like a [MacBook or an iPad](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web), feature a hardware disconnect for the microphone when you close the lid.
+Para acceder al micrófono, en la mayoría de los casos tendrás que confiar en los controles de permisos integrados en tu sistema operativo. Otra opción es comprar un dispositivo que no tenga micrófono incorporado y utilizar un micrófono externo que puedas desconectar cuando termines de usarlo. Algunos dispositivos, como un [MacBook o un iPad](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web), disponen de un hardware que desconecta el micrófono cuando cierras la tapa.
 
-Many computers have a BIOS option to disable the camera and microphone. When disabled there, the hardware won't even appear as a device on a booted system.
+Muchas computadoras tienen una opción en el BIOS para desactivar la cámara y el micrófono. Cuando se desactiva, el hardware ni siquiera aparecerá como dispositivo en un sistema arrancado.
 
-### Privacy Screens
+### Pantallas de Privacidad
 
-Privacy screens are a film you can put over your normal screen so that the screen is only visible from a certain angle. These are good if your threat model includes others peeking at your screen, but it is not foolproof as anyone could just move to a different viewing angle and see what's on your screen.
+Las pantallas de privacidad son una lámina que se coloca sobre la pantalla normal para que solo sea visible desde un ángulo determinado. Esto es bueno si tu modelo de amenaza incluye que otros miren tu pantalla, pero no es infalible, ya que cualquiera podría cambiar el ángulo de visión y ver lo que hay en tu pantalla.
 
-### Dead Man's Switches
+### Dispositivos de Hombre Muerto
 
-A dead man's switch stops a piece of machinery from operating without the presence of a human operator. These were originally designed as a safety measure, but the same concept can be applied to an electronic device to lock it when you're not present.
+Un dispositivo de hombre muerto impide que una máquina funcione sin la presencia de un operario. Originalmente se diseñaron como medida de seguridad, pero el mismo concepto puede aplicarse a un dispositivo electrónico para bloquearlo cuando no estás presente.
 
-Some laptops are able to [detect](https://support.microsoft.com/en-us/windows/managing-presence-sensing-settings-in-windows-11-82285c93-440c-4e15-9081-c9e38c1290bb) when you're present and can lock automatically when you aren't sitting in front of the screen. You should check the settings in your OS to see if your computer supports this feature.
+Algunos portátiles son capaces de [detectar](https://support.microsoft.com/en-us/windows/managing-presence-sensing-settings-in-windows-11-82285c93-440c-4e15-9081-c9e38c1290bb) cuándo estás presente y pueden bloquearse automáticamente cuando no estás sentado frente a la pantalla. Deberías comprobar la configuración de tu sistema operativo para ver si tu ordenador admite esta función.
 
-You can also get cables, like [Buskill](https://buskill.in), that will lock or wipe your computer when the cable is disconnected.
+También puedes conseguir cables, como [Buskill](https://buskill.in), que bloquean o borran el ordenador cuando se desconecta el cable.
 
-### Anti-Interdiction/Evil Maid Attack
+### Anti-Interdicción/Ataque Evil Maid
 
-The best way to prevent a targeted attack against you before a device is in your possession is to purchase a device in a physical store, rather than ordering it to your address.
+La mejor manera de prevenir un ataque dirigido contra ti antes de que un dispositivo esté en tu posesión es comprarlo en una tienda física, en lugar de encargarlo a domicilio.
 
-Make sure your device supports secure boot/verified boot, and you have it enabled. Try to avoid leaving your device unattended whenever possible.
+Asegúrate de que tu dispositivo es compatible con el arranque seguro/verificado y de que lo tienes activado. Intenta evitar dejar tu dispositivo desatendido siempre que sea posible.
 
-## Secure your Network
+## Asegura tu Red
 
-### Compartmentalization
+### Compartimentación
 
-Many solutions exist that allow you to separate what you're doing on a computer, such as virtual machines and sandboxing. However, the best compartmentalization is physical separation. This is useful especially for situations where certain software requires you to bypass security features in your OS, such as with anti-cheat software bundled with many games.
+Existen muchas soluciones que permiten separar lo que se hace en un ordenador, como las máquinas virtuales y el sandboxing. Sin embargo, la mejor compartimentación es la separación física. Esto resulta especialmente útil en situaciones en las que determinados programas requieren que el usuario se salte las funciones de seguridad del sistema operativo, como ocurre con el software antitrampas incluido en muchos juegos.
 
-For gaming, it may be useful to designate one machine as your "gaming" machine and only use it for that one task. Keep it on a separate VLAN. This may require the use of a managed switch and a router that supports segregated networks.
+Para jugar, puede ser útil designar una máquina como «de juego» y utilizarla únicamente para esa tarea. Mantenla en una VLAN separada. Esto puede requerir el uso de un conmutador gestionado y un router que admita redes segregadas.
 
-Most consumer routers allow you to do this by enabling a separate "guest" network that can't talk to your main network. All untrusted devices can go here, including IoT devices like your smart fridge, thermostat, TV, etc.
+La mayoría de los routers de usuario permiten hacerlo habilitando una red "de invitados" independiente que no puede comunicarse con la red principal. Todos los dispositivos que no sean de confianza pueden ir aquí, incluidos los dispositivos IoT como tu frigorífico inteligente, termostato, televisor, etc.
 
-### Minimalism
+### Minimalismo
 
-As the saying goes, "less is more". The fewer devices you have connected to your network, the less potential attack surface you'll have and the less work it will be to make sure they all stay up-to-date.
+Como dice el dicho, «menos es más». Cuantos menos dispositivos tengas conectados a tu red, menos superficie de ataque potencial tendrás y menos trabajo te supondrá asegurarte de que todos ellos se mantienen actualizados.
 
-You may find it useful to go around your home and make a list of every connected device you have to help you keep track.
+Puede que te resulte útil recorrer tu casa y hacer una lista de todos los dispositivos conectados que tienes para ayudarte a hacer un seguimiento.
 
 ### Routers
 
-Your router handles all your network traffic and acts as your first line of defense between you and the open internet.
+El router gestiona todo el tráfico de red y actúa como primera línea de defensa entre el usuario e Internet.
 
 <div class="admonition Note" markdown>
 <p class="admonition-title">Nota</p>
 
-A lot of routers come with storage to put your files on so you can access them from any computer on your network. We recommend you don't use networking devices for things other than networking. In the event your router was compromised, your files would also be compromised.
+Muchos routers incluyen un espacio de almacenamiento en el que puedes guardar tus archivos y acceder a ellos desde cualquier ordenador de la red. Te recomendamos que no utilices los dispositivos de red para otras cosas que no sean trabajar en red. En caso de que tu router se viera comprometido, tus archivos también lo estarían.
 
 </div>
 
-The most important thing to think about with routers is keeping them up-to-date. Many modern routers will automatically install updates, but many others won't. You should check on your router's settings page for this option. That page can usually be accessed by typing `192.168.1.1` or `192.168.0.1` into the URL bar of any browser assuming you're on the same network. You can also check in the network settings of your OS for "router" or "gateway".
+Lo más importante con los routers es mantenerlos actualizados. Muchos routers modernos instalan automáticamente las actualizaciones, pero muchos otros no. Debes comprobar esta opción en la página de configuración de tu router. Normalmente se puede acceder a esa página escribiendo `192.168.1.1` o `192.168.0.1` en la barra de URL de cualquier navegador, suponiendo que estés en la misma red. También puedes buscar "router" o "gateway" en la configuración de red de tu sistema operativo.
 
-If your router does not support automatic updates, you will need to go to the manufacturer's site to download the updates and apply them manually.
+Si tu router no admite actualizaciones automáticas, tendrás que ir al sitio del fabricante para descargar las actualizaciones y aplicarlas manualmente.
 
-Many consumer-grade routers aren't supported for very long. If your router isn't supported by the manufacturer anymore, you can check if it's supported by [FOSS firmware](../router.md). You can also buy routers that come with FOSS firmware installed by default; these tend to be supported longer than most routers.
+Muchos routers de usuario no reciben soporte técnico durante mucho tiempo. Si tu router ya no está soportado por el fabricante, puedes comprobar si está soportado por [firmware FOSS](../router.md). También puedes comprar routers que vienen con firmware FOSS instalado por defecto; éstos suelen recibir soporte durante más tiempo que la mayoría de los routers.
 
-Some ISPs provide a combined router/modem. It can be beneficial for security to purchase a separate router and set your ISP router/modem into modem-only mode. This way, even when your ISP-provided router is no longer getting updates, you can still get security updates and patches. It also means any problems that affect your modem won't affect your router and vice versa.
+Algunos ISP ofrecen un router/módem combinado. Puede ser beneficioso para la seguridad comprar un router independiente y configurar el router/módem de tu ISP en modo sólo módem. De este modo, aunque el router proporcionado por tu proveedor de Internet deje de recibir actualizaciones, podrás seguir recibiendo actualizaciones y parches de seguridad. También significa que cualquier problema que afecte a tu módem no afectará a tu router y viceversa.
