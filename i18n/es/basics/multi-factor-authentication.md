@@ -36,7 +36,7 @@ A diferencia de [WebAuthn](#fido-fast-identity-online), TOTP no ofrece protecci�
 
 Un adversario podría crear un sitio web para imitar un servicio oficial en un intento de engañarte para que des tu nombre de usuario, contraseña y código TOTP actual. Si el adversario utiliza esas credenciales registradas puede ser capaz de entrar en el servicio real y secuestrar la cuenta.
 
-Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../security-keys.md) are not supported [authenticator apps](../multi-factor-authentication.md) are still a good option.
+Aunque no es perfecto, TOTP es lo suficientemente seguro para la mayoría de la gente, y cuando [las claves de seguridad de hardware](../security-keys.md) no son compatibles [las aplicaciones de autenticación](../multi-factor-authentication.md) siguen siendo una buena opción.
 
 ### Llaves de seguridad de hardware
 
@@ -100,7 +100,7 @@ Al configurar tu método MFA, ten en cuenta que es tan seguro como el método de
 
 Siempre debes tener copias de seguridad de tu método MFA. Las llaves de seguridad de hardware pueden perderse, ser robadas o simplemente dejar de funcionar con el tiempo. Se recomienda tener un par de llaves de seguridad de hardware con el mismo acceso a tus cuentas en lugar de una sola.
 
-When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g. [VeraCrypt](../encryption.md#veracrypt-disk)).
+Cuando utilices TOTP con una aplicación de autenticación, asegúrate de hacer una copia de seguridad de tus claves de recuperación o de la propia aplicación, o copia los «secretos compartidos» en otra instancia de la aplicación en un teléfono diferente o en un contenedor cifrado (por ejemplo, [VeraCrypt](../encryption.md#veracrypt-disk)).
 
 ### Configuración Inicial
 

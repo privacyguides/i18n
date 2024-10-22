@@ -1,5 +1,5 @@
 ---
-title: Eligiendo tu hardware
+title: Eligiendo Tu Hardware
 icon: material/chip
 description: El software no es lo único importante; aprende sobre las herramientas de hardware que puedes utilizar a diario para proteger tu privacidad.
 ---
@@ -15,42 +15,42 @@ Los componentes internos de tus dispositivos procesan y almacenan toda tu inform
 Algunos dispositivos tienen un "programa de seguridad del hardware", que consiste en una colaboración entre los proveedores sobre las mejores prácticas y recomendaciones al momento de diseñar un hardware, por ejemplo:
 
 - [Los equipos de núcleo seguro de Windows](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) cumplen con unos criterios superiores de seguridad especificados por Microsoft. Estas protecciones no aplican únicamente a los usuarios de Windows; los usuarios de otros sistemas operativos pueden aprovechar características como la [protección DMA](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) y la capacidad de desconfiar completamente de los certificados de Microsoft.
-- [Android Ready SE](https://developers.google.com/android/security/android-ready-se) is a collaboration between vendors to ensure their devices follow [best practices](https://source.android.com/docs/security/best-practices/hardware) and include tamper resistant hardware backed storage for things like encryption keys.
-- macOS running on an Apple SoC takes advantage of [hardware security](../os/macos-overview.md#hardware-security) which may not be available with third party operating systems.
-- [ChromeOS security](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper) is at its best when running on a Chromebook as it is able to make use of available hardware features such as the [hardware root-of-trust](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper/#hardware-root-of-trust-and-verified-boot).
+- [Android Ready SE](https://developers.google.com/android/security/android-ready-se) es una colaboración entre proveedores para garantizar que sus dispositivos siguen las [mejores prácticas](https://source.android.com/docs/security/best-practices/hardware) e incluyen almacenamiento respaldado por hardware a prueba de manipulaciones para cosas como las claves de cifrado.
+- La ejecución de macOS en un SoC de Apple aprovecha las ventajas de la [seguridad del hardware](../os/macos-overview.md#hardware-security) que pueden no estar disponibles con sistemas operativos de terceros.
+- La [seguridad de ChromeOS](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper) es óptima cuando se ejecuta en un Chromebook, ya que puede hacer uso de las funciones de hardware disponibles, como la [raíz de confianza de hardware](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper/#hardware-root-of-trust-and-verified-boot).
 
-Even if you don't use these operating systems, participation in these programs may indicate that the manufacturer is following best practices when it comes to hardware security and updates.
+Incluso si no utilizas estos sistemas operativos, la participación en estos programas puede indicar que el fabricante sigue las mejores prácticas en lo que respecta a la seguridad y las actualizaciones del hardware.
 
-### Preinstalled OS
+### SO Preinstalado
 
-New computers nearly always come with Windows preinstalled, unless you buy a Mac or a specialty Linux machine. It's usually a good idea to wipe the drive and install a fresh copy of your operating system of choice, even if that means just reinstalling Windows from scratch. Due to agreements between hardware vendors and shady software vendors, the default Windows install often comes preloaded with bloatware, [adware](https://bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal), or even [malware](https://zdnet.com/article/dell-poweredge-motherboards-ship-with-malware).
+Los ordenadores nuevos casi siempre vienen con Windows preinstalado, a no ser que compres un Mac o una máquina especializada en Linux. Suele ser una buena idea borrar la unidad e instalar una copia nueva del sistema operativo elegido, aunque eso signifique reinstalar Windows desde cero. Debido a los acuerdos entre los proveedores de hardware y los proveedores de software sospechoso, la instalación predeterminada de Windows a menudo viene precargada con bloatware, [adware](https://bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal), o incluso [malware](https://zdnet.com/article/dell-poweredge-motherboards-ship-with-malware).
 
-### Actualizaciones de firmware
+### Actualizaciones de Firmware
 
-Hardware often has security issues that are discovered and patched through firmware updates for your hardware.
+El hardware suele tener problemas de seguridad que se descubren y parchean mediante actualizaciones del firmware de tu hardware.
 
-Almost every component of your computer requires firmware to operate, from your motherboard to your storage devices. It is ideal for all the components of your device to be fully supported. Apple devices, Chromebooks, most Android phones, and Microsoft Surface devices will handle firmware updates for you as long as the device is supported.
+Casi todos los componentes de la computadora necesitan firmware para funcionar, desde la placa base hasta los dispositivos de almacenamiento. Lo ideal es que todos los componentes de tu dispositivo sean totalmente compatibles. Los dispositivos Apple, Chromebooks, la mayoría de los teléfonos Android y los dispositivos Microsoft Surface gestionarán las actualizaciones de firmware por ti siempre que el dispositivo sea compatible.
 
-If you build your own PC, you may need to manually update your motherboard's firmware by downloading it from your OEM's website. If you use Linux, consider using the built-in [`fwupd`](https://fwupd.org) tool that will let you check for and apply any firmware updates available for your motherboard.
+Si construyes tu propio PC, es posible que tengas que actualizar manualmente el firmware de la placa base descargándolo desde el sitio web del fabricante. Si usas Linux, considera usar la herramienta integrada [`fwupd`](https://fwupd.org) que te permitirá buscar y aplicar cualquier actualización de firmware disponible para tu placa base.
 
-### TPM/Secure Cryptoprocessor
+### TPM/Criptoprocesador Seguro
 
-Most computers and phones come equipped with a TPM (or a similar secure cryptoprocessor) which safely stores your encryption keys and handles other security-related functions. If you're currently using a machine that doesn't have one of these, you might benefit from purchasing a newer computer that has this feature. Some desktop and server motherboards have a "TPM header" which can accept a small accessory board containing the TPM.
+La mayoría de computadoras y teléfonos vienen equipados con un TPM (o un criptoprocesador seguro similar) que almacena de forma segura tus claves de cifrado y maneja otras funciones relacionadas con la seguridad. Si actualmente utilizas una máquina que no tiene una de estas características, puede que te convenga comprar un ordenador más nuevo que disponga de ella. Algunas placas base de ordenadores de sobremesa y servidores tienen un «encabezado TPM» que puede aceptar una pequeña placa accesoria que contiene el TPM.
 
 <div class="admonition Note" markdown>
 <p class="admonition-title">Nota</p>
 
-Virtual TPMs are susceptible to side-channel attacks and external TPMs, as a result of being separate from the CPU on the motherboard, are vulnerable to [sniffing](https://pulsesecurity.co.nz/articles/TPM-sniffing) when an attacker has access to the hardware. The solution to this problem is to include the secure processor inside the CPU itself, which is the case for Apple's chips and Microsoft's [Pluton](https://microsoft.com/en-us/security/blog/2020/11/17/meet-the-microsoft-pluton-processor-the-security-chip-designed-for-the-future-of-windows-pcs).
+Los TPM virtuales son susceptibles de sufrir ataques de canal lateral y los TPM externos, al estar separados de la CPU en la placa base, son vulnerables al [sniffing](https://pulsesecurity.co.nz/articles/TPM-sniffing) cuando un atacante tiene acceso al hardware. La solución a este problema es incluir el procesador seguro dentro de la propia CPU, como es el caso de los chips de Apple y [Pluton](https://microsoft.com/en-us/security/blog/2020/11/17/meet-the-microsoft-pluton-processor-the-security-chip-designed-for-the-future-of-windows-pcs) de Microsoft.
 
 </div>
 
-### Biometrics
+### Biometría
 
-Many devices come equipped with a fingerprint reader or face recognition capabilities. These can be very convenient, but they aren't perfect and sometimes fail. Most devices will fall back to a PIN or password when this happens, meaning that the security of your devices is still only as good as your password.
+Muchos dispositivos vienen equipados con un lector de huellas dactilares o funciones de reconocimiento facial. Pueden ser muy prácticos, pero no son perfectos y a veces fallan. La mayoría de los dispositivos volverán a utilizar un PIN o una contraseña cuando esto ocurra, lo que significa que la seguridad de tus dispositivos sigue dependiendo de tu contraseña.
 
-Biometrics can prevent someone from watching you type in your password, so if shoulder-surfing is part of your threat model then biometrics are a good option.
+La biometría puede impedir que alguien te vea teclear tu contraseña, así que si el shoulder-surfing forma parte de tu modelo de amenazas, la biometría es una buena opción.
 
-Most implementations of face authentication require you to be looking at your phone and also only work from a relatively close distance, so you don't need to worry too much about someone pointing your phone at your face to unlock it without your consent. You can still disable biometrics when your phone is locked if you want. On iOS, you can hold the side button and a volume button for 3 seconds to disable Face ID on models that support it. On Android, hold the power button and press Lockdown on the menu.
+La mayoría de las implementaciones de autenticación facial requieren que estés mirando el teléfono y, además, solo funcionan desde una distancia relativamente cercana, por lo que no tienes que preocuparte demasiado de que alguien te apunte a la cara para desbloquearlo sin tu consentimiento. You can still disable biometrics when your phone is locked if you want. On iOS, you can hold the side button and a volume button for 3 seconds to disable Face ID on models that support it. On Android, hold the power button and press Lockdown on the menu.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
