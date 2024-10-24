@@ -32,7 +32,7 @@ En este sitio web recomendamos una amplia variedad de aplicaciones para Android.
 
 ### Shelter
 
-If your device is on Android 15 or greater, we recommend using the native [Private Space](../os/android-overview.md#private-space) feature instead, which provides nearly the same functionality without needing to place trust in and grant powerful permissions to a third-party app.
+Si tu dispositivo está en Android 15 o superior, te recomendamos que utilices la función nativa [Espacio Privado](../os/android-overview.md#private-space) en su lugar, que proporciona casi la misma funcionalidad sin necesidad de confiar en una aplicación de terceros y concederle potentes permisos.
 
 <div class="admonition recommendation" markdown>
 
@@ -61,7 +61,7 @@ Se recomienda Shelter en lugar de [Insular](https://secure-system.gitlab.io/Insu
 
 <small>Protege contra la(s) siguiente(s) amenaza(s):</small>
 
-- [:material-account-search: Public Exposure](../basics/common-threats.md#limiting-public-information){ .pg-green }
+- [:material-account-search: Exposición pública](../basics/common-threats.md#limiting-public-information){ .pg-green }
 
 <div class="admonition recommendation" markdown>
 
