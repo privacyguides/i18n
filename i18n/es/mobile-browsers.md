@@ -61,7 +61,7 @@ Brave se basa en el proyecto de navegador web Chromium, por lo que debería resu
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1052879175)
@@ -77,13 +77,13 @@ Tor Browser es la única manera de navegar por Internet de forma verdaderamente 
 
 === "Android"
 
-    These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**.
+    Estas opciones se encuentran en :material-menu: → **Configuración** → **Protecciones y privacidad de Brave**.
 
 === "iOS"
 
-    These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy**.
+    Estas opciones se encuentran en :fontawesome-solid-ellipsis: → **Configuración** → **Protecciones y privacidad**.
 
-#### Brave shields global defaults
+#### Valores generales predeterminados de los escudos de Brave
 
 Brave incluye algunas medidas antihuellas en su función [Escudos](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Te sugerimos configurar estas opciones [globalmente](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) en todas las páginas que visites.
 
@@ -93,55 +93,55 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
 
     <div class="annotate" markdown>
 
-    - [x] Select **Aggressive** under *Block trackers & ads*
-    - [x] Select **Auto-redirect AMP pages**
-    - [x] Select **Auto-redirect tracking URLs**
-    - [x] Select **Require all connections to use HTTPS (strict)** under *Upgrade connections to HTTPS*
-    - \[x\] (Optional) Select **Block Scripts** (1)
-    - [x] Select **Block third-party cookies** under *Block Cookies*
-    - [x] Select **Block Fingerprinting**
-    - [x] Select **Prevent fingerprinting via language settings**
+    - [x] Selecciona **Agresivo** en *Bloquear rastreadores y anuncios*
+    - [x] Selecciona **Redirigir automáticamente las páginas AMP**
+    - [x] Selecciona **URL de seguimiento de redirección automática**
+    - [x] Selecciona **Exigir que todas las conexiones utilicen HTTPS (estricto)** en *Mejorar conexiones a HTTPS*
+    - \[x\] (Opcional) Selecciona **Bloquear Scripts** (1)
+    - [x] Selecciona **Bloquear cookies de terceros** en *Bloquear cookies*
+    - [x] Selecciona **Bloquear Fingerprinting**
+    - [x] Selecciona **Evita la toma de huellas dactilares mediante los ajustes de idioma**
 
     <details class="warning" markdown>
-    <summary>Use default filter lists</summary>
+    <summary>Utiliza listas de filtros predeterminadas</summary>
 
-    Brave allows you to select additional content filters within the **Content Filtering** menu or the internal `brave://adblock` page. Desaconsejamos el uso de esta función; en su lugar, mantenga las listas de filtros por defecto. El uso de listas adicionales le hará destacar entre los demás usuarios de Brave y también puede aumentar la superficie de ataque si hay un exploit en Brave y se añade una regla maliciosa a una de las listas que utiliza.
+    Brave te permite seleccionar filtros de contenido adicionales dentro del menú **Filtros de contenido** o de la página interna `brave://adblock`. Desaconsejamos el uso de esta función; en su lugar, mantenga las listas de filtros por defecto. El uso de listas adicionales le hará destacar entre los demás usuarios de Brave y también puede aumentar la superficie de ataque si hay un exploit en Brave y se añade una regla maliciosa a una de las listas que utiliza.
 
     </details>
 
-    - [x] Select **Forget me when I close this site**
+    - [x] Selecciona **Olvidarme al cerrar este sitio**
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Esta opción desactiva JavaScript, lo que romperá muchos sitios. Para no romperlos, puedes establecer excepciones para cada sitio pulsando sobre el icono del Escudo en la barra de direcciones y desmarcando esta opción en *Controles avanzados*.
 
 === "iOS"
 
     <div class="annotate" markdown>
 
-    - [x] Select **Aggressive** under *Trackers & Ads Blocking*
-    - [x] Select **Strict** under *Upgrade Connections to HTTPS*
-    - [x] Select **Auto-Redirect AMP pages**
-    - [x] Select **Auto-Redirect Tracking URLs**
-    - \[x\] (Optional) Select **Block Scripts** (1)
-    - [x] Select **Block Fingerprinting**
+    - [x] Selecciona **Agresivo** en *Bloquear rastreadores y anuncios*
+    - [x] Selecciona **Estricto** en *Mejorar conexiones a HTTPS*
+    - [x] Selecciona **Redirigir automáticamente las páginas AMP**
+    - [x] Selecciona **URL de seguimiento de redirección automática**
+    - \[x\] (Opcional) Selecciona **Bloquear Scripts** (1)
+    - [x] Selecciona **Bloquear Fingerprinting**
 
     <details class="warning" markdown>
-    <summary>Use default filter lists</summary>
+    <summary>Utiliza listas de filtros predeterminadas</summary>
 
-    Brave allows you to select additional content filters within the **Content Filtering** menu. Desaconsejamos el uso de esta función; en su lugar, mantenga las listas de filtros por defecto. El uso de listas adicionales le hará destacar entre los demás usuarios de Brave y también puede aumentar la superficie de ataque si hay un exploit en Brave y se añade una regla maliciosa a una de las listas que utiliza.
+    Brave te permite seleccionar filtros de contenido adicionales dentro del menú **Filtros de contenido**. Desaconsejamos el uso de esta función; en su lugar, mantenga las listas de filtros por defecto. El uso de listas adicionales le hará destacar entre los demás usuarios de Brave y también puede aumentar la superficie de ataque si hay un exploit en Brave y se añade una regla maliciosa a una de las listas que utiliza.
 
     </details>
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Esta opción desactiva JavaScript, lo que romperá muchos sitios. Para no romperlos, puedes establecer excepciones para cada sitio pulsando sobre el icono del Escudo en la barra de direcciones y desmarcando esta opción en *Controles avanzados*.
 
-##### Clear browsing data (Android only)
+##### Borrar datos de navegación (solo Android)
 
 - [x] Selecciona **Borrar datos al salir**
 
-##### Social Media Blocking (Android only)
+##### Bloqueo de redes sociales (solo Android)
 
 - [ ] Desmarca todos los componentes de redes sociales
 
@@ -151,10 +151,10 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
 
     <div class="annotate" markdown>
 
-    - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-    - \[x\] (Optional) Select **No protection** under *Safe Browsing* (1)
-    - [ ] Uncheck **Allow sites to check if you have payment methods saved**
-    - [x] Select **Close tabs on exit**
+    - [x] Selecciona **Desactivar UDP sin proxy** en [*Política de gestión de IP de WebRTC*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+    - \[x\] (Opcional) Selecciona **Sin protección** en *Navegación segura* (1)
+    - [ ] Desmarca **Permite a los sitios comprobar si tienes métodos de pago guardados**
+    - [x] Selecciona **Cerrar pestañas al salir**
     - [ ] Desmarca **Permitir estadísticas del producto con preservación de la privacidad (P3A)**
     - [ ] Desmarca **Enviar informes de diagnóstico automáticamente**
     - [ ] Desmarca **Enviar automáticamente el ping de uso diario a Brave**
@@ -165,20 +165,20 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
 
 === "iOS"
 
-    - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
+    - [ ] Desmarca **Permitir estadísticas de productos que preservan la privacidad (P3A)**
     - [ ] Desmarca **Enviar automáticamente el ping de uso diario a Brave**
 
 ### Leo
 
-These options can be found in :material-menu: → **Settings** → **Leo**.
+Estas opciones se encuentran en :material-menu: → **Configuración** → **Leo**.
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Show autocomplete suggestions in address bar** (1)
+- [ ] Desmarca **Mostrar sugerencias autocompletadas en la barra de direcciones** (1)
 
 </div>
 
-1. This option is not present in Brave's iOS app.
+1. Esta opción no está presente en la aplicación de Brave para iOS.
 
 ### Brave Sync
 

@@ -295,20 +295,20 @@ Brave te permite seleccionar filtros de contenido adicionales en la página inte
 
 </div>
 
-1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
-2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+1. Esta opción desactiva JavaScript, lo que romperá muchos sitios. Para no romperlos, puedes establecer excepciones por sitio haciendo clic en el icono del Escudo en la barra de direcciones y desmarcando esta opción en *Controles avanzados*.
+2. Si deseas permanecer conectado a un sitio concreto que visitas a menudo, puedes establecer excepciones por sitio haciendo clic en el icono del Escudo de la barra de direcciones y desmarcando esta opción en *Controles avanzados*.
 
 #### Privacidad y seguridad
 
 <div class="annotate" markdown>
 
-- [x] Select **Don't allow sites to use the V8 optimizer** under *Security* → *Manage V8 security* (1)
-- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
-- [x] Select **Disable non-proxied UDP** under [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [x] Select **Auto-redirect AMP pages**
-- [x] Select **Auto-redirect tracking URLs**
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- [x] Selecciona **No permitir que los sitios usen el optimizador de V8** en *Seguridad* → *Gestionar la seguridad de V8* (1)
+- [x] Selecciona **Quitar automáticamente los permisos de los sitios que no se usan** en *Configuración del sitio y de los Escudos*
+- [x] Selecciona **Desactivar el UDP sin proxy** en [*Política de gestión de IP de WebRTC*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [ ] Desmarca **Utiliza los servicios de Google para la mensajería push**
+- [x] Selecciona **Redirigir automáticamente las páginas AMP**
+- [x] Selecciona **URL de seguimiento de redirección automática**
+- [x] Selecciona **Impedir que los sitios obtengan mis huellas digitales en función de mis preferencias de idioma**
 
 </div>
 
