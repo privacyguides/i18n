@@ -179,7 +179,7 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 这可以保护您免受持久性cookies的影响，但不能保护您免受在任何一个浏览会话中获得的cookies的影响。 启用该功能后，只需重新启动火狐浏览器，就可以轻松清理浏览器的cookies。 如果你希望在你经常访问的特定网站上保持登录状态，你可以在每个网站的基础上设置例外。
 
-##### 遥测
+##### Telemetry
 
 - [ ] 取消勾选 **允许火狐浏览器向Mozilla发送技术和互动数据**
 - [ ] 取消勾选 **允许Firefox安装和运行研究**
@@ -286,7 +286,7 @@ Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%
 
 
 
-#### 盾
+#### Shields
 
 Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
@@ -312,8 +312,8 @@ Brave allows you to select additional content filters within the internal `brave
 
 </div>
 
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode).
-2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar.
+1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 
 
@@ -323,7 +323,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 - [x] Select **Don't allow sites to use the V8 optimizer** under *Security* → *Manage V8 security* (1)
 - [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [x] Select **Disable non-proxied UDP** under [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
 - [ ] Uncheck **Use Google services for push messaging**
 - [x] Select **Auto-redirect AMP pages**
 - [x] Select **Auto-redirect tracking URLs**
@@ -362,7 +362,6 @@ Brave 的 Web3 功能可能会增加浏览器指纹和攻击面。 Unless you us
 
 - Select **Extensions (no fallback)** under *Default Ethereum wallet*
 - Select **Extensions (no fallback)** under *Default Solana wallet*
-- Set *Method to resolve IPFS resources* to **Disabled**
 
 
 
@@ -384,7 +383,7 @@ Brave 的 Web3 功能可能会增加浏览器指纹和攻击面。 Unless you us
 
 
 
-#### Brave 同步
+#### Brave Sync
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
@@ -395,10 +394,6 @@ Brave 的 Web3 功能可能会增加浏览器指纹和攻击面。 Unless you us
 **Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
 **Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
-
-
-
-## 其它资源
 
 
 

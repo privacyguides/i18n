@@ -95,21 +95,31 @@ Android 13:
 
 ### 用戶設定檔
 
-多重使用者設定檔可在 **設定** → **系統** → **多重使用者** 中找到，是 Android 中最簡單的隔離方式。
+Multiple **user profiles** can be found in :gear: **Settings** → **System** → **Users** and are the simplest way to isolate in Android.
 
-透過使用者設定檔，可對特定使用者施加限制，例如：打電話、使用簡訊或在裝置上安裝應用程式。 每個用戶設定檔皆使用個自密鑰加密，無法訪問設置上其它用戶的任何資料。 即使是裝置擁有者也無法在不知道用戶密碼的情況下查看其他身份的資料。 多用戶配置設定是一種更安全的隔離方法。
+With user profiles, you can impose restrictions on a specific profile, such as: making calls, using SMS, or installing apps. 每個用戶設定檔皆使用個自密鑰加密，無法訪問設置上其它用戶的任何資料。 即使是裝置擁有者也無法在不知道用戶密碼的情況下查看其他身份的資料。 多用戶配置設定是一種更安全的隔離方法。
 
 
 
 ### 工作用設定檔
 
-[工作用設定檔](https://support.google.com/work/android/answer/6191949) 是另一個隔離個別應用的方法，也比單獨的用戶設定檔更為方便。
+[**Work Profiles**](https://support.google.com/work/android/answer/6191949) are another way to isolate individual apps and may be more convenient than separate user profiles.
 
 在沒有企業 MDM 的情況下，必須使用 [Shelter](../android/general-apps.md#shelter) 等**裝置控制器**應用程式才能建立工作設定檔，除非您使用的是包含企業 MDM 的自訂 Android 作業系統。
 
 工作設定檔依賴裝置控制器才能運作。 *檔案穿梭*、*連絡人搜尋封鎖*等功能或任何種類的隔離功能都必須由控制器執行。 您也必須完全信任裝置控制器應用程式，因為它可以完全存取您在工作設定檔內的資料。
 
-此方法的安全性通常比第二使用者設定檔低，但卻可讓您同時在工作和個人設定檔中執行應用程式，非常方便。
+This method is generally less secure than a secondary user profile; however, it does allow you the convenience of running apps in both the owner profile and work profile simultaneously.
+
+
+
+### Private Space
+
+**Private Space** is a feature introduced in Android 15 that adds another way of isolating individual apps. You can set up a private space in the owner profile by navigating to :gear: **Settings** → **Security & privacy** → **Private space**. Once set up, your private space resides at the bottom of the app drawer.
+
+Like user profiles, a private space is encrypted using its own encryption key, and you have the option to set up a different unlock method. Like work profiles, you can use apps from both the owner profile and private space simultaneously. Apps launched from a private space are distinguished by an icon depicting a key within a shield.
+
+Unlike work profiles, Private Space is a feature native to Android that does not require a third-party app to manage it. For this reason, we generally recommend using a private space over a work profile, though you can use a work profile alongside a private space.
 
 
 

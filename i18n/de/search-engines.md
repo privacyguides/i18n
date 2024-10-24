@@ -10,6 +10,10 @@ global:
     - "table tbody"
 ---
 
+<small>Schützt vor der/den folgenden Bedrohung(en):</small>
+
+- [:material-account-cash: Überwachungskapitalismus](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 Use a **search engine** that doesn't build an advertising profile based on your searches.
 
 ## Empfohlene DNS-Anbieter

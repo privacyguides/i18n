@@ -24,9 +24,15 @@ schema:
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
+<small>防護下列威脅：</small>
+
+- [:material-bug-outline: 被動攻擊](../basics/common-threats.md#security-and-privacy){ .pg-orange }
+
 我們在本網站上推薦了各種 Android 應用程式。 此處列出的應用程式是 Android 獨有的，專門增強或替換了關鍵系統功能。
 
 ### Shelter
+
+If your device is on Android 15 or greater, we recommend using the native [Private Space](../os/android-overview.md#private-space) feature instead, which provides nearly the same functionality without needing to place trust in and grant powerful permissions to a third-party app.
 
 <div class="admonition recommendation" markdown>
 
@@ -45,13 +51,17 @@ Shelter 支援阻止跨配置檔案的聯絡人搜尋以及透過預設檔案管
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-建議使用Shelter，而不是 [Insular](https://secure-system.gitlab.io/Insular) 和 [Island](https://github.com/oasisfeng/island) ，因為它支援 [聯絡人搜尋屏蔽](https://secure-system.gitlab.io/Insular/faq.html) 。
-
 使用 Shelter 時，您將需要完全信任其開發人員，因為 Shelter 將作為 [設備管理員](https://developer.android.com/guide/topics/admin/device-admin) 來創建工作設定檔，這將使它有大量權限訪問存儲在工作設定檔的資料。
 
 </div>
 
+建議使用Shelter，而不是 [Insular](https://secure-system.gitlab.io/Insular) 和 [Island](https://github.com/oasisfeng/island) ，因為它支援 [聯絡人搜尋屏蔽](https://secure-system.gitlab.io/Insular/faq.html) 。
+
 ### Secure Camera
+
+<small>防護下列威脅：</small>
+
+- [:material-account-search: Public Exposure](../basics/common-threats.md#limiting-public-information){ .pg-green }
 
 <div class="admonition recommendation" markdown>
 
@@ -96,7 +106,6 @@ Shelter 支援阻止跨配置檔案的聯絡人搜尋以及透過預設檔案管
 <small>防護下列威脅：</small>
 
 - [:material-target-account: 針對性攻擊](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: 被動攻擊](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 <div class="admonition recommendation" markdown>
 

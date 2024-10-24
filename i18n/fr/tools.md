@@ -31,15 +31,6 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 
 </div>
 
-<div class="admonition example" markdown>
-<p class="admonition-title">Étiquettes du modèle de menace</p>
-
-Vous pouvez trouver l'une des icônes suivantes sur certaines pages de recommandation : <span class="pg-purple">:material-incognito:</span> <span class="pg-red">:material-target-account:</span> <span class="pg-viridian">:material-package-variant-closed-remove:</span> <span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span> <span class="pg-blue">:material-eye-outline:</span> <span class="pg-brown">:material-account-cash:</span> <span class="pg-green">:material-account-search:</span> <span class="pg-blue-gray">:material-close-outline:</span>
-
-Nous testons une nouvelle fonctionnalité qui permet aux lecteurs de mieux identifier et comprendre les types de menaces contre lesquelles les outils de protection de la vie privée sont les plus efficaces. Dites-nous ce que vous pensez de cette fonctionnalité en répondant à ce [fil] du forum dédié (https://discuss.privacyguides.net/t/implement-threat-model-labels/18659) !
-
-</div>
-
 ## Navigateurs Web privés
 
 <div class="admonition recommendation" markdown>

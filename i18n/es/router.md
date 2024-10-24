@@ -5,7 +5,12 @@ description: Alternative operating systems for securing your router or Wi-Fi acc
 cover: router.webp
 ---
 
-A continuación se presentan algunos sistemas operativos alternativos, que pueden utilizarse en routers, puntos de acceso Wi-Fi, etc.
+<small>Protege contra la(s) siguiente(s) amenaza(s):</small>
+
+- [:material-account-cash: Capitalismo de Vigilancia](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-bug-outline: Ataques pasivos](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+
+Below are a few alternative operating systems that can be used on routers, Wi-Fi access points, etc.
 
 ## OpenWrt
 

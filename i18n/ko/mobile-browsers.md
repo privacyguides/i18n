@@ -64,8 +64,8 @@ Brace는 Chromium 웹 브라우저 프로젝트 기반으로 구축되었으므�
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
-- [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1052879175)
+- [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 
 </details>
 
@@ -75,70 +75,110 @@ Brace는 Chromium 웹 브라우저 프로젝트 기반으로 구축되었으므�
 
 진정한 익명 인터넷 탐색이 가능한 유일한 방법은 Tor 브라우저입니다. 다음 설정들은 여러분이 Brave를 사용할 때 특정 주체로부터 프라이버시를 보호할 수 있도록 권장드리는 사항입니다. [Tor 브라우저](tor.md#tor-browser) 이외의 모든 브라우저는 어떤 식으로든 누군가는 특정 대상을 추적할 수 있음을 명심해야 합니다.
 
-이러한 옵션은 :material-menu: → **설정** → **Brave Shields 및 프라이버시**에서 확인할 수 있습니다.
+=== "Android"
 
-#### Shields
+    These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**.
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+=== "iOS"
+
+    These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy**.
 
 #### Brave shields global defaults
 
+Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+
 필요에 따라 사이트별로 보호 옵션을 낮출 수 있으나, 기본적으로 다음과 같이 설정할 것을 권장드립니다:
 
-<div class="annotate" markdown>
+=== "Android"
 
-- [x] Select **Aggressive** under **Block trackers & ads**
+    <div class="annotate" markdown>
 
-<details class="warning" markdown>
-<summary>Use default filter lists</summary>
+    - [x] Select **Aggressive** under *Block trackers & ads*
+    - [x] Select **Auto-redirect AMP pages**
+    - [x] Select **Auto-redirect tracking URLs**
+    - [x] Select **Require all connections to use HTTPS (strict)** under *Upgrade connections to HTTPS*
+    - \[x\] (Optional) Select **Block Scripts** (1)
+    - [x] Select **Block third-party cookies** under *Block Cookies*
+    - [x] Select **Block Fingerprinting**
+    - [x] Select **Prevent fingerprinting via language settings**
 
-Brave allows you to select additional content filters within the internal `brave://adblock` page. 이 기능을 사용하지 말고 기본 필터 목록을 유지할 것을 권장드립니다. 추가적인 목록을 사용하면 다른 Brave 사용자에 비해 더 눈에 띄게 되며, 만약 Brave에 취약점이 존재하고 여러분이 사용하는 규칙 목록에 악성 규칙이 포함될 경우 공격 표면을 증가시킬 수도 있습니다.
+    <details class="warning" markdown>
+    <summary>Use default filter lists</summary>
 
-</details>
+    Brave allows you to select additional content filters within the **Content Filtering** menu or the internal `brave://adblock` page. 이 기능을 사용하지 말고 기본 필터 목록을 유지할 것을 권장드립니다. 추가적인 목록을 사용하면 다른 Brave 사용자에 비해 더 눈에 띄게 되며, 만약 Brave에 취약점이 존재하고 여러분이 사용하는 규칙 목록에 악성 규칙이 포함될 경우 공격 표면을 증가시킬 수도 있습니다.
 
-- [x] Select **Auto-redirect AMP pages**
-- [x] Select **Auto-redirect tracking URLs**
-- [x] Select **strict** under **Upgrade connections to HTTPS**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Block third-party cookies** under **Block Cookies**
-- [x] Select **Block fingerprinting**
-- [x] Select **Prevent fingerprinting via language settings**
+    </details>
 
-</div>
+    - [x] Select **Forget me when I close this site**
 
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode) or the [NoScript](https://noscript.net) extension.
+    </div>
 
-#### Clear browsing data
+    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+
+=== "iOS"
+
+    <div class="annotate" markdown>
+
+    - [x] Select **Aggressive** under *Trackers & Ads Blocking*
+    - [x] Select **Strict** under *Upgrade Connections to HTTPS*
+    - [x] Select **Auto-Redirect AMP pages**
+    - [x] Select **Auto-Redirect Tracking URLs**
+    - \[x\] (Optional) Select **Block Scripts** (1)
+    - [x] Select **Block Fingerprinting**
+
+    <details class="warning" markdown>
+    <summary>Use default filter lists</summary>
+
+    Brave allows you to select additional content filters within the **Content Filtering** menu. 이 기능을 사용하지 말고 기본 필터 목록을 유지할 것을 권장드립니다. 추가적인 목록을 사용하면 다른 Brave 사용자에 비해 더 눈에 띄게 되며, 만약 Brave에 취약점이 존재하고 여러분이 사용하는 규칙 목록에 악성 규칙이 포함될 경우 공격 표면을 증가시킬 수도 있습니다.
+
+    </details>
+
+    </div>
+
+    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+
+##### Clear browsing data (Android only)
 
 - [x] **종료 시 데이터 지우기** 활성화
 
-#### Social Media Blocking
+##### Social Media Blocking (Android only)
 
 - [ ] 모든 소셜 미디어 항목 비활성화
 
 #### Other privacy settings
 
-<div class="annotate" markdown>
+=== "Android"
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [x] (Optional) Select **No protection** under **Safe Browsing** (1)
-- [ ] Uncheck **Allow sites to check if you have payment methods saved**
-- [ ] Uncheck **IPFS Gateway** (2)
-- [x] Select **Close tabs on exit**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
+    <div class="annotate" markdown>
 
-</div>
+    - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+    - \[x\] (Optional) Select **No protection** under *Safe Browsing* (1)
+    - [ ] Uncheck **Allow sites to check if you have payment methods saved**
+    - [x] Select **Close tabs on exit**
+    - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+    - [ ] Uncheck **Automatically send diagnostic reports**
+    - [ ] Uncheck **Automatically send daily usage ping to Brave**
 
-1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
-2. IPFS(InterPlanetary File System)는 분산 파일 시스템에서 데이터를 저장하고 공유하기 위한 탈중앙화 P2P 네트워크입니다. 해당 기능을 사용하지 않는다면 비활성화하세요.
+    </div>
+
+    1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
+
+=== "iOS"
+
+    - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
+    - [ ] Uncheck **Automatically send daily usage ping to Brave**
 
 ### Leo
 
-These options can be found in :material-menu: → **Settings** → **Leo**
+These options can be found in :material-menu: → **Settings** → **Leo**.
 
-- [ ] Uncheck **Show autocomplete suggestions in address bar**
+<div class="annotate" markdown>
+
+- [ ] Uncheck **Show autocomplete suggestions in address bar** (1)
+
+</div>
+
+1. This option is not present in Brave's iOS app.
 
 ### Brave Sync
 

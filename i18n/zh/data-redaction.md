@@ -6,6 +6,10 @@ description: Use these tools to remove metadata like GPS location and other iden
 cover: data-redaction.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-search: 公开曝光](basics/common-threats.md#limiting-public-information ""){.pg-green}
+
 共享文件时，请务必删除关联的元数据。 图像文件通常包括 [Exif](https://en.wikipedia.org/wiki/Exif) 数据。 照片有时甚至包括文件元数据中的GPS坐标。
 
 ## 电脑版

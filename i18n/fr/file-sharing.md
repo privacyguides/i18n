@@ -143,7 +143,6 @@ Nous ne recommandons pas l'utilisation de [l'application E2EE](https://apps.next
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
 - [:fontawesome-brands-windows: Windows](https://syncthing.net/downloads)
 - [:simple-apple: macOS](https://syncthing.net/downloads)
 - [:simple-linux: Linux](https://syncthing.net/downloads)

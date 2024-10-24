@@ -5,7 +5,12 @@ description: 能保護路由器或 Wi-Fi 存取點安全的替代作業系統。
 cover: router.webp
 ---
 
-以下是一些替代操作系統，可用於路由器， Wi-Fi接入點等。
+<small>防護下列威脅：</small>
+
+- [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-bug-outline: 被動攻擊](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+
+Below are a few alternative operating systems that can be used on routers, Wi-Fi access points, etc.
 
 ## OpenWrt
 

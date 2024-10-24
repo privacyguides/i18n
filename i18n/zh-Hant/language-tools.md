@@ -8,11 +8,9 @@ cover: language-tools.webp
 <small>防護下列威脅：</small>
 
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
-- [:material-eye-outline: 大規模監控](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
-- [:material-close-outline: 審查](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 
-輸入至文法、拼字和樣式檢查器以及翻譯服務的文字可能包含敏感資訊，這些資訊可能無限期地儲存在伺服器上。 本頁面列出的語言工具不會將您提交的文字傳送到伺服器，且能自行託管並離線使用，以最大程度地控制您的資料。
+Text inputted to grammar, spelling, and style checkers, as well as translation services, can contain sensitive information which may be stored on their servers for an indefinite amount of time and sold to third parties. 本頁面列出的語言工具不會將您提交的文字傳送到伺服器，且能自行託管並離線使用，以最大程度地控制您的資料。
 
 ## LanguageTool
 

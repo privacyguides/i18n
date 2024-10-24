@@ -6,6 +6,10 @@ description: 使用這些工具來移除所分享的相片和文件中的GPS定�
 cover: data-redaction.webp
 ---
 
+<small>防護下列威脅：</small>
+
+- [:material-account-search: 公共曝露](basics/common-threats.md#limiting-public-information ""){.pg-green}
+
 分享檔案時，請務必移除相關的中繼資料。 映像文件通常包含 [Exif](https://en.wikipedia.org/wiki/Exif) 數據。 照片有時甚至在文件元數據中包含GPS坐標。
 
 ## 電腦版應用程式

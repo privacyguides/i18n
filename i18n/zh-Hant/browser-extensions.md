@@ -70,7 +70,6 @@ uBlock Origin 還有一個「Lite」版本，與原始版相比，其功能集�
 <details class="downloads" markdown>
 <summary>下載</summary>
 
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
 
 </details>

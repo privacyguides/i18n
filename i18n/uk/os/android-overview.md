@@ -92,19 +92,27 @@ Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/
 
 ### Профілі користувачів
 
-Для цього потрібен **контролер пристрою** такий як [Shelter](#recommended-apps), якщо ви не використовуєте CalyxOS, яка вже містить в собі контролер.
+Multiple **user profiles** can be found in :gear: **Settings** → **System** → **Users** and are the simplest way to isolate in Android.
 
-Робочий профіль залежить від функціонування контролера пристрою. Кожен профіль зашифрований за допомогою власного ключа шифрування і не може отримати доступ до даних будь-яких інших профілів. Навіть власник пристрою не може переглядати дані профілів, не знаючи їхніх паролів. Multiple user profiles are a more secure method of isolation.
+With user profiles, you can impose restrictions on a specific profile, such as: making calls, using SMS, or installing apps. Кожен профіль зашифрований за допомогою власного ключа шифрування і не може отримати доступ до даних будь-яких інших профілів. Навіть власник пристрою не може переглядати дані профілів, не знаючи їхніх паролів. Multiple user profiles are a more secure method of isolation.
 
 ### Робочий профіль
 
-[Робочі профілі](https://support.google.com/work/android/answer/6191949) - це ще один спосіб ізоляції програм, який може бути зручнішим, ніж окремі профілі користувачів.
+[**Work Profiles**](https://support.google.com/work/android/answer/6191949) are another way to isolate individual apps and may be more convenient than separate user profiles.
 
 A **device controller** app such as [Shelter](../android/general-apps.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 
 Робочий профіль залежить від функціонування контролера пристрою. Такі функції як *Файловий шатл* та *блокування пошуку контактів* або будь-які інші функції ізоляції повинні бути реалізовані контролером. You must also fully trust the device controller app, as it has full access to your data inside the work profile.
 
-Цей метод, як правило, є менш безпечним, ніж додатковий профіль користувача; однак, він дозволяє вам зручно запускати додатки як в робочому, так і в особистому профілях одночасно.
+This method is generally less secure than a secondary user profile; however, it does allow you the convenience of running apps in both the owner profile and work profile simultaneously.
+
+### Private Space
+
+**Private Space** is a feature introduced in Android 15 that adds another way of isolating individual apps. You can set up a private space in the owner profile by navigating to :gear: **Settings** → **Security & privacy** → **Private space**. Once set up, your private space resides at the bottom of the app drawer.
+
+Like user profiles, a private space is encrypted using its own encryption key, and you have the option to set up a different unlock method. Like work profiles, you can use apps from both the owner profile and private space simultaneously. Apps launched from a private space are distinguished by an icon depicting a key within a shield.
+
+Unlike work profiles, Private Space is a feature native to Android that does not require a third-party app to manage it. For this reason, we generally recommend using a private space over a work profile, though you can use a work profile alongside a private space.
 
 ### VPN Killswitch
 

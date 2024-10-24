@@ -92,19 +92,27 @@ Le applicazioni che rispettano la privacy come [Bitwarden](https://reports.exodu
 
 ### Profili Utente
 
-I profili utente multipli si trovano in **Impostazioni** → **Sistema** → **Utenti multipli** e sono il metodo più semplice per isolare in Android.
+Multiple **user profiles** can be found in :gear: **Settings** → **System** → **Users** and are the simplest way to isolate in Android.
 
-Con i profili utente, puoi imporre limitazioni a un profilo specifico, come: effettuare chiamate, utilizzare gli SMS o installare app sul dispositivo. Ogni profilo è crittografato con la sua chiave crittografica e non può accedere ai dati di qualsiasi altro profilo. Anche il proprietario del dispositivo non può visualizzare i dati di altri profili, senza conoscerne la password. I profili utente multipli sono un metodo di isolamento più sicuro.
+With user profiles, you can impose restrictions on a specific profile, such as: making calls, using SMS, or installing apps. Ogni profilo è crittografato con la sua chiave crittografica e non può accedere ai dati di qualsiasi altro profilo. Anche il proprietario del dispositivo non può visualizzare i dati di altri profili, senza conoscerne la password. I profili utente multipli sono un metodo di isolamento più sicuro.
 
 ### Profilo di lavoro
 
-I [Profili di Lavoro](https://support.google.com/work/android/answer/6191949) sono un altro metodo per isolare le singole app e potrebbe essere più comodo dei profili utente separati.
+[**Work Profiles**](https://support.google.com/work/android/answer/6191949) are another way to isolate individual apps and may be more convenient than separate user profiles.
 
 A **device controller** app such as [Shelter](../android/general-apps.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 
 Il profilo di lavoro dipende da un controllore del dispositivo per funzionare. Le funzionalità come *File Shuttle* e *blocco della ricerca dei contatti* o qualsiasi tipo di funzionalità d'isolamento, devono essere implementate dal controllore. È inoltre necessario fidarsi completamente dell'app di controllo del dispositivo, che ha pieno accesso ai dati dell'utente all'interno del profilo di lavoro.
 
-Questo metodo, generalmente, è meno sicuro di un profilo utente secondario; tuttavia, ti consente la comodità di eseguire le app nei profili lavorativi e personali, simultaneamente.
+This method is generally less secure than a secondary user profile; however, it does allow you the convenience of running apps in both the owner profile and work profile simultaneously.
+
+### Private Space
+
+**Private Space** is a feature introduced in Android 15 that adds another way of isolating individual apps. You can set up a private space in the owner profile by navigating to :gear: **Settings** → **Security & privacy** → **Private space**. Once set up, your private space resides at the bottom of the app drawer.
+
+Like user profiles, a private space is encrypted using its own encryption key, and you have the option to set up a different unlock method. Like work profiles, you can use apps from both the owner profile and private space simultaneously. Apps launched from a private space are distinguished by an icon depicting a key within a shield.
+
+Unlike work profiles, Private Space is a feature native to Android that does not require a third-party app to manage it. For this reason, we generally recommend using a private space over a work profile, though you can use a work profile alongside a private space.
 
 ### Killswitch per VPN
 

@@ -5,6 +5,10 @@ description: הפצות לינוקס מומלצות בדרך כלל להגנה �
 cover: desktop.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: קפיטליזם מעקב](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 הפצות לינוקס מומלצות בדרך כלל להגנה על פרטיות וחופש תוכנה. אם אינך משתמש עדיין בלינוקס, להלן כמה הפצות שאנו מציעים לנסות, כמו גם כמה טיפים כלליים לשיפור פרטיות ואבטחה החלים על הפצות לינוקס רבות.
 
 - [סקירה כללית של לינוקס :material-arrow-right-drop-circle:](os/linux-overview.md)
@@ -69,7 +73,7 @@ Tumbleweed עוקב אחר מודל מהדורה מתגלגל שבו כל עדכ
 
 להיות התפלגות DIY, אתה [צפוי להגדיר ולתחזק](os/linux-overview.md#arch-based-distributions) המערכת שלך בעצמך. יש Arch [מתקין רשמי](https://wiki.archlinux.org/title/Archinstall) כדי להפוך את תהליך ההתקנה קצת יותר קל.
 
-חלק גדול מהחבילות של [ארץ' לינוקס](https://reproducible.archlinux.org) הן [לשחזור](https://reproducible-builds.org).
+A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org) are [reproducible](https://reproducible-builds.org)[^1].
 
 ## Atomic Distributions
 
@@ -125,7 +129,7 @@ The Nix package manager uses a purely functional language—which is also called
 
 [Nixpkgs](https://github.com/nixos/nixpkgs) (the main source of packages) are contained in a single GitHub repository. You can also define your own packages in the same language and then easily include them in your config.
 
-Nix is a source-based package manager; if there’s no pre-built available in the binary cache, Nix will just build the package from source using its definition. It builds each package in a sandboxed *pure* environment, which is as independent of the host system as possible. Binaries built with this method are reproducible, which can be useful as a safeguard against [:material-package-variant-closed-remove: Supply Chain Attacks](basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}.
+Nix is a source-based package manager; if there’s no pre-built available in the binary cache, Nix will just build the package from source using its definition. It builds each package in a sandboxed *pure* environment, which is as independent of the host system as possible. Binaries built with this method are reproducible[^1].
 
 ## הפצות ממוקדות אנונימיות
 
@@ -135,7 +139,7 @@ Nix is a source-based package manager; if there’s no pre-built available in th
 
 ![Whonix לוגו](assets/img/linux-desktop/whonix.svg){ align=right }
 
-**Whonix** מבוסס על [Kicksecure](#kicksecure), נגזר ממוקד אבטחה של דביאן. מטרתו לספק פרטיות, אבטחה ואנונימיות באינטרנט. כדאי להשתמש ב - Whonix בשילוב עם [Qubes OS](# qubes- os).
+**Whonix** מבוסס על [Kicksecure](#kicksecure), נגזר ממוקד אבטחה של דביאן. It aims to provide privacy, security, and [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } on the internet. כדאי להשתמש ב - Whonix בשילוב עם [Qubes OS](# qubes- os).
 
 [:octicons-home-16: Homepage](https://whonix.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion Service" }
@@ -158,7 +162,7 @@ Whonix is best used [in conjunction with Qubes](https://whonix.org/wiki/Qubes/Wh
 
 ![Tails לוגו](assets/img/linux-desktop/tails.svg){ align=right }
 
-**Tails** היא מערכת הפעלה חיה המבוססת על דביאן המנתבת את כל התקשורת דרך Tor, שיכולה לאתחל כמעט כל מחשב מ - DVD, מקל USB או התקנת כרטיס SD. הוא משתמש ב - [Tor](tor.md) כדי לשמור על פרטיות ואנונימיות תוך עקיפת הצנזורה, והוא אינו מותיר עקבות של עצמו במחשב שבו הוא נמצא בשימוש לאחר שהוא כבוי.
+**Tails** היא מערכת הפעלה חיה המבוססת על דביאן המנתבת את כל התקשורת דרך Tor, שיכולה לאתחל כמעט כל מחשב מ - DVD, מקל USB או התקנת כרטיס SD. It uses [Tor](tor.md) to preserve privacy and [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } while circumventing censorship, and it leaves no trace of itself on the computer it is used on after it is powered off.
 
 [:octicons-home-16: Homepage](https://tails.net){ .md-button .md-button--primary }
 [:octicons-info-16:](https://tails.net/doc/index.en.html){ .card-link title=Documentation}
@@ -183,6 +187,10 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
 
 ## הפצות ממוקדות אבטחה
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: התקפות פסיביות](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+
 ### Qubes OS
 
 <div class="admonition recommendation" markdown>
@@ -202,7 +210,7 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
 
 </div>
 
-Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate *qubes*. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the *qubes* and the core system.
+Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate *qubes*. Should one part of the system be compromised via an exploit in a [:material-target-account: Targeted Attack](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}, the extra isolation is likely to protect the rest of the *qubes* and the core system.
 
 For further information about how Qubes works, read our full [Qubes OS overview](os/qubes-overview.md) page.
 
@@ -242,3 +250,5 @@ Choosing a Linux distro that is right for you will come down to a huge variety o
     - שמירה על מערכת הפעלה היא אתגר מרכזי, ולפרויקטים קטנים יותר יש נטייה לטעויות נמנעות יותר, או לעכב עדכונים קריטיים (או גרוע מכך, להיעלם לחלוטין). אנו נשענים לעבר פרויקטים אשר ככל הנראה יהיו בערך 10 שנים מהיום (בין אם זה נובע מגיבוי תאגידי או תמיכה קהילתית משמעותית מאוד), והרחק מפרויקטים שנבנו בעבודת יד או שיש להם מספר מצומצם של מתחזקים.
 
 In addition, [our standard criteria](about/criteria.md) for recommended projects still applies. **Please note we are not affiliated with any of the projects we recommend.**
+
+[^1]: Reproducibility entails the ability to verify that packages and binaries made available to the end user match the source code, which can be useful against potential [:material-package-variant-closed-remove: Supply Chain Attacks](basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}.

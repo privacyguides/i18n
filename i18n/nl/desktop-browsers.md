@@ -172,7 +172,7 @@ Als je op bepaalde sites aangemeld wilt blijven, kunt je uitzonderingen toestaan
 
 Dit beschermt je tegen blijvende cookies, maar niet tegen cookies die tijdens een bepaalde surfsessie worden aangemaakt. Wanneer dit is ingeschakeld, wordt het mogelijk om jouw browsercookies gemakkelijk te wissen door Firefox gewoon opnieuw op te starten. Je kunt per site uitzonderingen instellen, als je ingelogd wilt blijven op een bepaalde site die je vaak bezoekt.
 
-##### Telemetrie
+##### Telemetry
 
 - [ ] Uncheck **Firefox toestaan technische en interactiegegevens naar Mozilla**te sturen
 - [ ] Uncheck **Firefox toestaan om studies te installeren en uit te voeren**uit
@@ -262,7 +262,7 @@ Brave voegt een "[referral code](https://github.com/brave/brave-browser/wiki/Bra
 
 Deze opties zijn te vinden in :material-menu: → **Instellingen**.
 
-#### Schilden
+#### Shields
 
 Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
@@ -288,8 +288,8 @@ Brave allows you to select additional content filters within the internal `brave
 
 </div>
 
-1. This option provides functionality similar to uBlock Origin's advanced [blocking modes](https://github.com/gorhill/uBlock/wiki/Blocking-mode).
-2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar.
+1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 #### Privacy and security
 
@@ -297,7 +297,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 - [x] Select **Don't allow sites to use the V8 optimizer** under *Security* → *Manage V8 security* (1)
 - [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [x] Select **Disable non-proxied UDP** under [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
 - [ ] Uncheck **Use Google services for push messaging**
 - [x] Select **Auto-redirect AMP pages**
 - [x] Select **Auto-redirect tracking URLs**
@@ -332,7 +332,6 @@ De Web3-functies van Brave kunnen de vingerafdruk van jouw browser en het aanval
 
 - Select **Extensions (no fallback)** under *Default Ethereum wallet*
 - Select **Extensions (no fallback)** under *Default Solana wallet*
-- Set *Method to resolve IPFS resources* to **Disabled**
 
 #### Extensions
 
@@ -357,8 +356,6 @@ De Web3-functies van Brave kunnen de vingerafdruk van jouw browser en het aanval
 **Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. Het is afhankelijk van een bewaarrekening en KYC van een select aantal providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
 **Brave Wallet** werkt lokaal op jouw computer, maar ondersteunt geen private cryptocurrencies, dus we raden het gebruik van deze functie ook af.
-
-## Aanvullende middelen
 
 ## Criteria
 

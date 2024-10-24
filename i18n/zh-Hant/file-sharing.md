@@ -141,9 +141,8 @@ OnionShare 提供透過 [Tor 橋接器](https://docs.onionshare.org/2.6.2/en/tor
 [:octicons-heart-16:](https://syncthing.net/donations){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nutomic.syncthingandroid)
 - [:fontawesome-brands-windows: Windows](https://syncthing.net/downloads)
 - [:simple-apple: macOS](https://syncthing.net/downloads)
 - [:simple-linux: Linux](https://syncthing.net/downloads)

@@ -24,9 +24,15 @@ schema:
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
+<small>Protege contra la(s) siguiente(s) amenaza(s):</small>
+
+- [:material-bug-outline: Ataques Pasivos](../basics/common-threats.md#security-and-privacy){ .pg-orange }
+
 En este sitio web recomendamos una amplia variedad de aplicaciones para Android. Las aplicaciones que se encuentran listadas son exclusivas para Android y están diseñadas para mejorar o reemplazar funcionalidades clave del sistema.
 
 ### Shelter
+
+If your device is on Android 15 or greater, we recommend using the native [Private Space](../os/android-overview.md#private-space) feature instead, which provides nearly the same functionality without needing to place trust in and grant powerful permissions to a third-party app.
 
 <div class="admonition recommendation" markdown>
 
@@ -45,13 +51,17 @@ Shelter permite bloquear la búsqueda de contactos entre perfiles y compartir ar
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-Se recomienda Shelter en lugar de [Insular](https://secure-system.gitlab.io/Insular) e [Island](https://github.com/oasisfeng/island), ya que admite [bloqueo de búsqueda de contactos](https://secure-system.gitlab.io/Insular/faq.html).
-
 Al utilizar Shelter, estás depositando toda tu confianza en su desarrollador, ya que Shelter actúa como [Administrador del Dispositivo](https://developer.android.com/guide/topics/admin/device-admin) para crear el Perfil de Trabajo, y tiene un amplio acceso a los datos almacenados dentro del Perfil de Trabajo.
 
 </div>
 
+Se recomienda Shelter en lugar de [Insular](https://secure-system.gitlab.io/Insular) e [Island](https://github.com/oasisfeng/island), ya que admite [bloqueo de búsqueda de contactos](https://secure-system.gitlab.io/Insular/faq.html).
+
 ### Secure Camera
+
+<small>Protege contra la(s) siguiente(s) amenaza(s):</small>
+
+- [:material-account-search: Public Exposure](../basics/common-threats.md#limiting-public-information){ .pg-green }
 
 <div class="admonition recommendation" markdown>
 
@@ -96,7 +106,6 @@ Los metadatos de orientación de la imagen no se borran. Si activas la localizac
 <small>Protege contra la(s) siguiente(s) amenaza(s):</small>
 
 - [:material-target-account: Ataques Dirigidos](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Ataques Pasivos](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 <div class="admonition recommendation" markdown>
 

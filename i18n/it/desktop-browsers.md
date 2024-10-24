@@ -179,7 +179,7 @@ Se vuoi mantenere l'accesso per alcuni siti in particolare, puoi consentire le e
 
 Ciò ti protegge dai cookie persistenti, ma non da quelli acquisiti durante ogni sessione di navigazione. Con questa opzione attiva, è possibile eliminare facilmente i cookie del browser riavviando Firefox. Puoi impostare delle eccezioni a seconda del sito, se desideri rimanere connesso a un sito in particolare, che visiti spesso.
 
-##### Telemetria
+##### Telemetry
 
 - [ ] Rimuovi la spunta da **Consenti a Firefox di inviare a Mozilla dati tecnici e relativi all’interazione con il browser**
 - [ ] Rimuovi la spunta da **Consenti a Firefox di installare e condurre studi**
@@ -295,8 +295,8 @@ Brave consente di selezionare filtri aggiuntivi per i contenuti nella pagina int
 
 </div>
 
-1. Questa opzione offre una funzionalità simile alle [modalità di blocco](https://github.com/gorhill/uBlock/wiki/Blocking-mode) avanzate di uBlock Origin.
-2. Se desideri mantenere l'accesso in un particolare sito che visiti spesso, puoi selezionare le eccezioni per ogni sito cliccando sull'icona dello scudo sulla barra degli indirizzi.
+1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 #### Privacy and security
 
@@ -304,7 +304,7 @@ Brave consente di selezionare filtri aggiuntivi per i contenuti nella pagina int
 
 - [x] Select **Don't allow sites to use the V8 optimizer** under *Security* → *Manage V8 security* (1)
 - [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP Handling Policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [x] Select **Disable non-proxied UDP** under [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
 - [ ] Uncheck **Use Google services for push messaging**
 - [x] Select **Auto-redirect AMP pages**
 - [x] Select **Auto-redirect tracking URLs**
@@ -339,7 +339,6 @@ Le funzionalità Web3 di Brave possono potenzialmente aumentare il fingerprint d
 
 - Select **Extensions (no fallback)** under *Default Ethereum wallet*
 - Select **Extensions (no fallback)** under *Default Solana wallet*
-- Set *Method to resolve IPFS resources* to **Disabled**
 
 #### Extensions
 
@@ -364,8 +363,6 @@ Le funzionalità Web3 di Brave possono potenzialmente aumentare il fingerprint d
 **Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. Si affida a un conto custodiale e KYC da un dato numero di fornitori. Non raccomandiamo BAT come [criptovaluta privata](cryptocurrency.md), né raccomandiamo l'uso di un [wallet custodial](advanced/payments.md#wallet-custody), pertanto sconsigliamo di utilizzare questa funzione.
 
 **Brave Wallet** opera localmente sul tuo computer, ma non supporta alcuna criptovaluta privata, quindi, scoraggiamo l'utilizzo di questa funzione.
-
-## Risorse Aggiuntive
 
 ## Criteri
 

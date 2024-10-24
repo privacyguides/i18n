@@ -5,6 +5,10 @@ description: Las distribuciones de Linux se recomiendan comúnmente para la prot
 cover: desktop.webp
 ---
 
+<small>Protege contra la(s) siguiente(s) amenaza(s):</small>
+
+- [:material-account-cash: Capitalismo de Vigilancia](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 Las distribuciones de Linux se recomiendan comúnmente para la protección de la privacidad y la libertad del software. Si aún no utiliza Linux, a continuación le sugerimos que pruebe algunas distribuciones, así como algunos consejos generales para mejorar la privacidad y la seguridad que son aplicables a muchas distribuciones de Linux.
 
 - [Vista General de Linux :material-arrow-right-drop-circle:](os/linux-overview.md)
@@ -69,7 +73,7 @@ Arch Linux tiene un ciclo de actualización continuo. No existe un calendario fi
 
 Al ser una distribución DIY, se espera que usted [configure y mantenga](os/linux-overview.md#arch-based-distributions) su sistema por su cuenta. Arch dispone de un [instalador oficial](https://wiki.archlinux.org/title/Archinstall) para facilitar el proceso de instalación.
 
-Gran parte de los [paquetes de Arch Linux](https://reproducible.archlinux.org) son [reproducibles](https://reproducible-builds.org).
+A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org) are [reproducible](https://reproducible-builds.org)[^1].
 
 ## Distribuciones Atómicas
 
@@ -125,7 +129,7 @@ The Nix package manager uses a purely functional language—which is also called
 
 [Nixpkgs](https://github.com/nixos/nixpkgs) (la fuente principal de paquetes) se encuentra en un único repositorio de GitHub. También puedes definir tus propios paquetes en el mismo idioma e incluirlos fácilmente en tu configuración.
 
-Nix es un gestor de paquetes basado en el código fuente; si no hay ningún paquete preconstruido disponible en la caché de binarios, Nix simplemente construirá el paquete desde el código fuente usando su definición. It builds each package in a sandboxed *pure* environment, which is as independent of the host system as possible. Binaries built with this method are reproducible, which can be useful as a safeguard against [:material-package-variant-closed-remove: Supply Chain Attacks](basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}.
+Nix es un gestor de paquetes basado en el código fuente; si no hay ningún paquete preconstruido disponible en la caché de binarios, Nix simplemente construirá el paquete desde el código fuente usando su definición. It builds each package in a sandboxed *pure* environment, which is as independent of the host system as possible. Binaries built with this method are reproducible[^1].
 
 ## Distribuciones Enfocadas en el Anonimato
 
@@ -135,7 +139,7 @@ Nix es un gestor de paquetes basado en el código fuente; si no hay ningún paqu
 
 ![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
 
-**Whonix** está basado en [Kicksecure](#kicksecure), una bifurcación de Debian centrada en la seguridad. Su objetivo es proporcionar privacidad, seguridad y anonimato en Internet. Whonix se utiliza mejor junto con [Qubes OS](#qubes-os).
+**Whonix** está basado en [Kicksecure](#kicksecure), una bifurcación de Debian centrada en la seguridad. It aims to provide privacy, security, and [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } on the internet. Whonix se utiliza mejor junto con [Qubes OS](#qubes-os).
 
 [:octicons-home-16: Página Principal](https://whonix.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Servicio Onion" }
@@ -158,7 +162,7 @@ Whonix se utiliza mejor [junto con Qubes](https://whonix.org/wiki/Qubes/Why_use_
 
 ![Tails logo](assets/img/linux-desktop/tails.svg){ align=right }
 
-**Tails** es un sistema operativo basado en Debian que enruta todas las comunicaciones a través de Tor, y que puede arrancar en casi cualquier ordenador desde un DVD, una memoria USB o una tarjeta SD. Utiliza [Tor](tor.md) para preservar la privacidad y el anonimato a la vez que elude la censura, y no deja rastro de sí mismo en el ordenador en el que se utiliza una vez apagado.
+**Tails** es un sistema operativo basado en Debian que enruta todas las comunicaciones a través de Tor, y que puede arrancar en casi cualquier ordenador desde un DVD, una memoria USB o una tarjeta SD. It uses [Tor](tor.md) to preserve privacy and [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } while circumventing censorship, and it leaves no trace of itself on the computer it is used on after it is powered off.
 
 [:octicons-home-16: Página Principal](https://tails.net){ .md-button .md-button--primary }
 [:octicons-info-16:](https://tails.net/doc/index.en.html){ .card-link title=Documentación}
@@ -183,6 +187,10 @@ Tails está diseñado para formatearse por completo después de cada reinicio. E
 
 ## Distribuciones Enfocadas en la Seguridad
 
+<small>Protege contra la(s) siguiente(s) amenaza(s):</small>
+
+- [:material-bug-outline: Ataques pasivos](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+
 ### Qubes OS
 
 <div class="admonition recommendation" markdown>
@@ -202,7 +210,7 @@ Tails está diseñado para formatearse por completo después de cada reinicio. E
 
 </div>
 
-Qubes OS asegura el ordenador aislando subsistemas (por ejemplo, redes, USB, etc.) y aplicaciones en *qubes*separadas. En caso de que una parte del sistema se vea comprometida, es probable que el aislamiento adicional proteja el resto de *qubes* y el sistema central.
+Qubes OS asegura el ordenador aislando subsistemas (por ejemplo, redes, USB, etc.) y aplicaciones en *qubes*separadas. Should one part of the system be compromised via an exploit in a [:material-target-account: Targeted Attack](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}, the extra isolation is likely to protect the rest of the *qubes* and the core system.
 
 Para más información sobre el funcionamiento de Qubes, consulta nuestra página [Qubes OS overview](os/qubes-overview.md).
 
@@ -242,3 +250,5 @@ La elección de una distribución Linux adecuada para ti dependerá de una gran 
     - Mantener un sistema operativo es un gran reto, y los proyectos más pequeños tienden a cometer más errores evitables o a retrasar las actualizaciones críticas (o peor aún, a desaparecer por completo). Nos inclinamos por proyectos que probablemente seguirán existiendo dentro de 10 años (ya sea gracias al respaldo de empresas o a un apoyo muy significativo de la comunidad), y nos alejamos de los proyectos construidos a mano o con un número reducido de mantenedores.
 
 Además, [nuestros criterios estándar](about/criteria.md) para los proyectos recomendados se siguen aplicando. **Ten en cuenta que no estamos afiliados a ninguno de los proveedores que recomendamos.**
+
+[^1]: Reproducibility entails the ability to verify that packages and binaries made available to the end user match the source code, which can be useful against potential [:material-package-variant-closed-remove: Supply Chain Attacks](basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}.

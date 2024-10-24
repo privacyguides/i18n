@@ -213,7 +213,7 @@ Briar 利用[^1] Bramble[Handshake](https://code.briarproject.org/briar/briar-sp
 
 個人資料圖片、反應和暱稱不會加密。
 
-群組語音和視訊通話 [並非](https://github.com/vector-im/element-web/issues/12878) E2EE ，而是使用 Jitsi ，但這將會隨著 [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401) 而改變。 群組通話目前 [沒有驗證](https://github.com/vector-im/element-web/issues/13074) ，因此其它人員也可以加入。 我們建議您不要將此功能用於私人會議。
+With the integration of [Element Call](https://element.io/blog/we-have-lift-off-element-x-call-and-server-suite-are-ready) into Element's web app, desktop apps, and its [rewritten mobile apps](https://element.io/blog/element-x-experience-the-future-of-element), group VoIP and video calls are E2EE by default.
 
 Matrix協議本身 [理論上支援前向保密](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1] ，但 [目前在 Element 中並不支援](https://github.com/vector-im/element-web/issues/7101) ，因為這會破壞某些方面的使用者體驗，例如金鑰備份和共用訊息歷史記錄。
 

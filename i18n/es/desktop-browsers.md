@@ -295,20 +295,20 @@ Brave te permite seleccionar filtros de contenido adicionales en la página inte
 
 </div>
 
-1. Esta opción proporciona una funcionalidad similar a los [modos de bloqueo](https://github.com/gorhill/uBlock/wiki/Blocking-mode) avanzados de uBlock Origin.
-2. Si deseas permanecer conectado a un sitio concreto que visitas a menudo, puedes establecer excepciones por sitio haciendo clic en el icono del Escudo de la barra de direcciones.
+1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 #### Privacidad y seguridad
 
 <div class="annotate" markdown>
 
-- [x] Selecciona **No permitir que los sitios usen el optimizador de V8** en *Seguridad* → *Gestionar la seguridad de V8* (1)
-- [x] Selecciona **Quitar automáticamente los permisos de los sitios que no se usan** en *Configuración del sitio y de los Escudos*
-- [x] Selecciona **Desactivar el UDP sin proxy** en [Política de gestión de IP de WebRTC](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Desmarca **Utiliza los servicios de Google para la mensajería push**
-- [x] Selecciona **Redirigir automáticamente las páginas AMP**
-- [x] Selecciona **URL de seguimiento de redirección automática**
-- [x] Selecciona **Impedir que los sitios obtengan mis huellas digitales en función de mis preferencias de idioma**
+- [x] Select **Don't allow sites to use the V8 optimizer** under *Security* → *Manage V8 security* (1)
+- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
+- [x] Select **Disable non-proxied UDP** under [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [ ] Uncheck **Use Google services for push messaging**
+- [x] Select **Auto-redirect AMP pages**
+- [x] Select **Auto-redirect tracking URLs**
+- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
 
 </div>
 
@@ -339,7 +339,6 @@ Las funciones Web3 de Brave pueden aumentar potencialmente la huella digital de 
 
 - Selecciona **Extensiones (sin copia de seguridad)** en *Cartera predeterminada de Ethereum*
 - Selecciona **Extensiones (sin copia de seguridad)** en *Cartera predeterminada de Solana*
-- Establece *Método para resolver los recursos IPFS* como **Deshabilitado**
 
 #### Extensiones
 
@@ -364,8 +363,6 @@ Las funciones Web3 de Brave pueden aumentar potencialmente la huella digital de 
 **Recompensas de Brave** permite recibir la criptomoneda Basic Attention Token (BAT) por realizar ciertas acciones en Brave. Se basa en una cuenta de custodia y KYC de un número selecto de proveedores. No recomendamos utilizar BAT como una [criptomoneda privada](cryptocurrency.md), ni recomendamos el uso de una [billetera de custodia](advanced/payments.md#wallet-custody), por lo que no recomendamos usar esta función.
 
 **Brave Wallet** funciona localmente en tu ordenador, pero no admite ninguna criptomoneda privada, por lo que desaconsejamos utilizar esta función también.
-
-## Recursos Adicionales
 
 ## Criterios
 

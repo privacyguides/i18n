@@ -92,19 +92,27 @@ Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/
 
 ### 用户资料
 
-多个用户配置文件可以在 **设置** → **系统** → **多个用户** ，是Android中最简单的隔离方式。
+Multiple **user profiles** can be found in :gear: **Settings** → **System** → **Users** and are the simplest way to isolate in Android.
 
-通过用户个人资料，你可以对一个特定的个人资料施加限制，如：打电话、使用短信或在设备上安装应用程序。 每个用户资料使用自己的加密密钥进行加密，不能访问任何其他人的个人资料。 即使是设备所有者，如果不知道他们的密码，也不能查看其他人的个人资料。 多个个人资料是一种更安全的隔离方法。
+With user profiles, you can impose restrictions on a specific profile, such as: making calls, using SMS, or installing apps. 每个用户资料使用自己的加密密钥进行加密，不能访问任何其他人的个人资料。 即使是设备所有者，如果不知道他们的密码，也不能查看其他人的个人资料。 多个个人资料是一种更安全的隔离方法。
 
 ### 工作身份
 
-[工作配置文件](https://support.google.com/work/android/answer/6191949) 是隔离单个应用程序的另一种方式，可能比单独的用户配置文件更方便。
+[**Work Profiles**](https://support.google.com/work/android/answer/6191949) are another way to isolate individual apps and may be more convenient than separate user profiles.
 
 A **device controller** app such as [Shelter](../android/general-apps.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 
 该工作档案依赖于设备控制器来运作。 诸如 *文件穿梭* 和 *接触搜索封锁* 或任何种类的隔离功能必须由控制器实现。 You must also fully trust the device controller app, as it has full access to your data inside the work profile.
 
-这种方法通常不如二级用户配置文件安全；但是，它确实允许你在工作和个人配置文件中同时运行应用程序的便利。
+This method is generally less secure than a secondary user profile; however, it does allow you the convenience of running apps in both the owner profile and work profile simultaneously.
+
+### Private Space
+
+**Private Space** is a feature introduced in Android 15 that adds another way of isolating individual apps. You can set up a private space in the owner profile by navigating to :gear: **Settings** → **Security & privacy** → **Private space**. Once set up, your private space resides at the bottom of the app drawer.
+
+Like user profiles, a private space is encrypted using its own encryption key, and you have the option to set up a different unlock method. Like work profiles, you can use apps from both the owner profile and private space simultaneously. Apps launched from a private space are distinguished by an icon depicting a key within a shield.
+
+Unlike work profiles, Private Space is a feature native to Android that does not require a third-party app to manage it. For this reason, we generally recommend using a private space over a work profile, though you can use a work profile alongside a private space.
 
 ### VPN Killswitch
 

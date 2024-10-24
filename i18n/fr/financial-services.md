@@ -5,11 +5,19 @@ cover: financial-services.webp
 description: These services can assist you in protecting your privacy from merchants and other trackers, which is one of the biggest challenges to privacy today.
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Capitalisme de surveillance](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 Effectuer des paiements en ligne est l'un des plus grands défis en matière de protection de la vie privée. Ces services peuvent vous aider à protéger votre vie privée contre les marchands et autres traqueurs, à condition que vous ayez une bonne compréhension de la façon d'effectuer des paiements privés de manière efficace. Nous vous encourageons vivement à lire notre article sur les paiements avant d'effectuer tout achat :
 
 [Effectuer des paiements privés :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
 ## Services de masquage des paiements
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-search: Exposition publique](basics/common-threats.md#limiting-public-information ""){.pg-green}
 
 Il existe un certain nombre de services qui fournissent des "cartes de débit virtuelles" que vous pouvez utiliser avec les commerçants en ligne sans révéler vos informations bancaires ou de facturation réelles dans la plupart des cas. Il est important de noter que ces services financiers ne sont **pas** anonymes et qu'ils sont soumis aux lois relatives à la connaissance du client (KYC) et peuvent nécessiter une pièce d'identité ou d'autres informations d'identification. Ces services sont principalement utiles pour vous protéger contre les fuites de données des commerçants, le pistage peu sophistiqué ou la corrélation des achats par les agences de marketing, et le vol de données en ligne ; et **non pas** pour effectuer un achat de manière totalement anonyme.
 
@@ -67,6 +75,10 @@ Les cartes virtuelles de MySudo ne sont actuellement disponibles que via leur ap
 
 ## Marchés de cartes-cadeaux
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-eye-outline: Surveillance de masse](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+
 Ces services vous permettent d'acheter des cartes-cadeaux pour une variété de marchands en ligne avec de la [crypto-monnaie](cryptocurrency.md). Certains de ces services proposent des options de vérification d'identité pour des limites plus élevées, mais ils permettent également d'ouvrir des comptes avec une simple adresse email. Basic limits typically start at $5,000-10,000 a day for basic accounts, with significantly higher limits for ID verified accounts (if offered).
 
 ### Coincards
@@ -85,7 +97,6 @@ Ces services vous permettent d'acheter des cartes-cadeaux pour une variété de 
 
 </div>
 
-<!-- markdownlint-disable-next-line -->
 ### Critères
 
 **Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de [nos critères de base](about/criteria.md), nous avons développé un ensemble d'exigences claires pour nous permettre de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.

@@ -31,15 +31,6 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 </div>
 
-<div class="admonition example" markdown>
-<p class="admonition-title">威脅模型標籤</p>
-
-您可以在某些推薦頁面上找到以下任何圖示： <span class="pg-purple">:material-incognito:</span> <span class="pg-red">:material-target-account:</span> <span class="pg-viridian">:material-package-variant-closed-remove:</span> <span class="pg-orange">:material-bug-outline:</span> <span class="pg-teal">:material-server-network:</span> <span class="pg-blue">:material-eye-outline:</span> <span class="pg-brown">:material-account-cash:</span> <span class="pg-green">:material-account-search:</span> <span class="pg-blue-gray">:material-close-outline:</span>
-
-我們正在測試一項新功能，讓讀者能更好地辨識和瞭解隱私工具最能防禦的威脅種類。 請在論壇上回覆有關此功能的專屬 [主題](https://discuss.privacyguides.net/t/implement-threat-model-labels/18659) ，讓我們知道您對此功能的看法！
-
-</div>
-
 ## 尊重隱私的瀏覽器
 
 <div class="admonition recommendation" markdown>

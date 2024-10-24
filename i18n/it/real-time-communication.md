@@ -213,7 +213,7 @@ Messages and files shared in private rooms (those which require an invite) are b
 
 Le immagini del profilo, le reazioni e i nomi utente non sono crittografati.
 
-Group voice and video calls are [not](https://github.com/vector-im/element-web/issues/12878) E2EE and use Jitsi, but this is expected to change with [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401). Le chiamate di gruppo, correntemente, non dispongono di [autenticazione](https://github.com/vector-im/element-web/issues/13074), a significare che i non partecipanti alla stanza, possono anche unirsi alle chiamate. Consigliamo di non utilizzare questa funzionalità per le riunioni private.
+With the integration of [Element Call](https://element.io/blog/we-have-lift-off-element-x-call-and-server-suite-are-ready) into Element's web app, desktop apps, and its [rewritten mobile apps](https://element.io/blog/element-x-experience-the-future-of-element), group VoIP and video calls are E2EE by default.
 
 Il protocollo Matrix stesso [teoricamente supporta la segretezza in avanti](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1], tuttavia questo è [attualmente non supportato in Element](https://github.com/vector-im/element-web/issues/7101) a causa dell'interruzione di alcuni aspetti dell'esperienza utente, come i backup delle chiavi e la cronologia dei messaggi condivisi.
 

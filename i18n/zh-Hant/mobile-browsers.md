@@ -61,11 +61,11 @@ Brave 基於 Chromium 瀏覽器專案構建，因此它應該令人感到熟悉�
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
-- [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1052879175)
+- [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 
 </details>
 
@@ -75,70 +75,110 @@ Brave 基於 Chromium 瀏覽器專案構建，因此它應該令人感到熟悉�
 
 Tor 瀏覽器是真正匿名瀏覽網際網路的唯一途徑。 當您使用 Brave 時，我們建議您更改以下設定，以保護您的隱私免受某些影響，但除了 [Tor 瀏覽器](tor.md#tor-browser)以外的所有瀏覽器都可能以某種方式或另一種方式被 *某人* 追蹤。
 
-這些選項可以在 :material-menu: → **設定** → **Brave 防護與安全性** 中找到
+=== "Android"
 
-#### 防護
+    These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**.
+
+=== "iOS"
+
+    These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy**.
+
+#### Brave shields global defaults
 
 Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shields)功能包含一些防指紋識別措施。 我們建議在您訪問的所有網頁上[全域](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)套用這些設定。
 
-#### Brave shields 全域預設值
-
 防護功能的選項可以根據各網站需要依情況降級，但我們建議預設使用以下設定：
 
-<div class="annotate" markdown>
+=== "Android"
 
-- [x] 在 **封鎖追蹤器與廣告** 下選擇 **積極**
+    <div class="annotate" markdown>
 
-<details class="warning" markdown>
-<summary>使用預設過濾器清單</summary>
+    - [x] Select **Aggressive** under *Block trackers & ads*
+    - [x] Select **Auto-redirect AMP pages**
+    - [x] Select **Auto-redirect tracking URLs**
+    - [x] Select **Require all connections to use HTTPS (strict)** under *Upgrade connections to HTTPS*
+    - \[x\] (Optional) Select **Block Scripts** (1)
+    - [x] Select **Block third-party cookies** under *Block Cookies*
+    - [x] Select **Block Fingerprinting**
+    - [x] Select **Prevent fingerprinting via language settings**
 
-Brave 允許您在內部網頁 brave://settings/shields/filters 內選擇額外的內容過濾器。 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
+    <details class="warning" markdown>
+    <summary>Use default filter lists</summary>
 
-</details>
+    Brave allows you to select additional content filters within the **Content Filtering** menu or the internal `brave://adblock` page. 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
 
-- [x] 勾選 **自動重新導向 AMP 頁面**
-- [x] 勾選 **自動重新導向追蹤 URL**
-- [x] 將 **升級連線至 HTTPS** 設定為 **要求所有連線使用 HTTPS (嚴格)**
-- [x] （可選） 勾選 **阻擋指令稿** (1)
-- [x] 將 **封鎖 Cookies** 設定為 **封鎖第三方 Cookie**
-- [x] 勾選 **封鎖指紋識別**
-- [x] 勾選 **透過語言設定防止指紋識別攻擊**
+    </details>
 
-</div>
+    - [x] Select **Forget me when I close this site**
 
-1. 此選項提供的功能類似於 uBlock Origin 的 進階[封鎖模式](https://github.com/gorhill/uBlock/wiki/Blocking-mode) 或 [NoScript](https://noscript.net) 擴充功能。
+    </div>
 
-#### 清除瀏覽資料
+    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+
+=== "iOS"
+
+    <div class="annotate" markdown>
+
+    - [x] Select **Aggressive** under *Trackers & Ads Blocking*
+    - [x] Select **Strict** under *Upgrade Connections to HTTPS*
+    - [x] Select **Auto-Redirect AMP pages**
+    - [x] Select **Auto-Redirect Tracking URLs**
+    - \[x\] (Optional) Select **Block Scripts** (1)
+    - [x] Select **Block Fingerprinting**
+
+    <details class="warning" markdown>
+    <summary>Use default filter lists</summary>
+
+    Brave allows you to select additional content filters within the **Content Filtering** menu. 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
+
+    </details>
+
+    </div>
+
+    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+
+##### Clear browsing data (Android only)
 
 - [x] 勾選 **結束時清除資料**
 
-#### 封鎖社交媒體
+##### Social Media Blocking (Android only)
 
 - [ ] 取消勾選所有社交媒體元件
 
 #### 其他隱私設定
 
-<div class="annotate" markdown>
+=== "Android"
 
-- [x] 將 [WebRTC IP 處理政策](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc) 設定為 **停用非代理 UDP**
-- [x] (可選) 將 **安全瀏覽** 設定為 **無防護** (1)
-- [ ] 取消勾選 **允許網站檢查是否有已儲存的付款方式**
-- [ ] 取消勾選 **IPFS 閘道器** (2)
-- [x] 勾選 **退出時關閉分頁**
-- [ ] 取消勾選 **允許保護私隱的產品分析 (P3A)**
-- [ ] 取消勾選 **自動傳送診斷報告**
-- [ ] 取消勾選 **自動傳送每日使用 ping 到 Brave**
+    <div class="annotate" markdown>
 
-</div>
+    - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+    - \[x\] (Optional) Select **No protection** under *Safe Browsing* (1)
+    - [ ] Uncheck **Allow sites to check if you have payment methods saved**
+    - [x] Select **Close tabs on exit**
+    - [ ] 取消勾選 **允許保護私隱的產品分析 (P3A)**
+    - [ ] 取消勾選 **自動傳送診斷報告**
+    - [ ] 取消勾選 **自動傳送每日使用 ping 到 Brave**
 
-1. Brave 在 Android 上[實作的 安全瀏覽](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) **不會**像電腦版一樣代理 [安全瀏覽服務 的網路請求](https://developers.google.com/safe-browsing/v4/update-api#checking-urls)。 這表示 Google 可能會看到 (並記錄) 您的 IP 位址。 請注意，安全瀏覽功能不適用於沒有 Google Play 服務的 Android 裝置。
-2. 星際檔案系統 (InterPlanetary File System，縮寫為 IPFS) 是一個旨在實現檔案的分散式儲存、共享和持久化的網路傳輸協定。 除非您使用此功能，否則停用它。
+    </div>
+
+    1. Brave 在 Android 上[實作的 安全瀏覽](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) **不會**像電腦版一樣代理 [安全瀏覽服務 的網路請求](https://developers.google.com/safe-browsing/v4/update-api#checking-urls)。 這表示 Google 可能會看到 (並記錄) 您的 IP 位址。 請注意，安全瀏覽功能不適用於沒有 Google Play 服務的 Android 裝置。
+
+=== "iOS"
+
+    - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
+    - [ ] 取消勾選 **自動傳送每日使用 ping 到 Brave**
 
 ### Leo
 
-這些選項可以在 :material-menu: **設定** → **Leo** 中找到。
+These options can be found in :material-menu: → **Settings** → **Leo**.
 
-- [ ] 取消選擇 **在網址列顯示自動完成建議**
+<div class="annotate" markdown>
+
+- [ ] Uncheck **Show autocomplete suggestions in address bar** (1)
+
+</div>
+
+1. This option is not present in Brave's iOS app.
 
 ### Brave 同步
 

@@ -8,11 +8,9 @@ cover: language-tools.webp
 <small>Schützt vor der/den folgenden Bedrohung(en):</small>
 
 - [:material-server-network: Diensteanbieter](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
-- [:material-eye-outline: Massenüberwachung](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }
 - [:material-account-cash: Überwachungskapitalismus](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
-- [:material-close-outline: Zensur](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 
-Texte, die in Grammatik-, Rechtschreib- und Stilprüfungsprogramme sowie in Übersetzungsdienste eingegeben werden, können vertrauliche Informationen enthalten, die auf ihren Servern auf unbestimmte Zeit gespeichert werden können. Die auf dieser Seite aufgeführten Sprachtools senden den von dir eingegebenen Text nicht an einen Server und können selbst gehostet und offline verwendet werden, um eine maximale Kontrolle über deine Daten zu gewährleisten.
+Text inputted to grammar, spelling, and style checkers, as well as translation services, can contain sensitive information which may be stored on their servers for an indefinite amount of time and sold to third parties. Die auf dieser Seite aufgeführten Sprachtools senden den von dir eingegebenen Text nicht an einen Server und können selbst gehostet und offline verwendet werden, um eine maximale Kontrolle über deine Daten zu gewährleisten.
 
 ## LanguageTool
 

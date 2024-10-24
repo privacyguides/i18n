@@ -5,6 +5,10 @@ description: 這些辦公軟體套件提供完整的功能，無需帳號且可�
 cover: office-suites.webp
 ---
 
+<small>防護下列威脅：</small>
+
+- [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+
 選擇不需要登入帳戶即可使用完整功能的**辦公軟體套件**。 這裡列出的工具可以離線使用，而且可以合理地取代 Microsoft Office 來滿足大多數的需求。
 
 ## LibreOffice

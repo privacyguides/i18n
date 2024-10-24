@@ -64,8 +64,8 @@ Brave si basa sul progetto del browser web di Chromium, quindi, dovrebbe sembrar
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
-- [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1052879175)
+- [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 
 </details>
 
@@ -75,70 +75,110 @@ Brave si basa sul progetto del browser web di Chromium, quindi, dovrebbe sembrar
 
 Il Tor Browser è l'unico che veramente permette di navigare Internet anonimamente. Quando utilizzi Brave, consigliamo di modificare le seguenti informazioni per proteggere la tua privacy da certe parti, ma tutti i browser tranne [Tor Browser](tor.md#tor-browser) saranno tracciabili da *qualcuno*, in un modo o nell'altro.
 
-Queste opzioni si possono trovare in :material-menu: → **Impostazioni** → **Protezioni Brave e privacy**
+=== "Android"
 
-#### Shields
+    These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**.
 
-Brave include delle misure anti-impronta digitale nella sua funzionalità, [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Suggeriamo di configurare queste opzioni [globalmente](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) tra tutte le pagine che visiti.
+=== "iOS"
+
+    These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy**.
 
 #### Brave shields global defaults
 
+Brave include delle misure anti-impronta digitale nella sua funzionalità, [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Suggeriamo di configurare queste opzioni [globalmente](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) tra tutte le pagine che visiti.
+
 Le funzionalità di Shields possono essere ridotte per ogni sito se necessario; ciò nonostante, raccomandiamo le seguenti impostazioni:
 
-<div class="annotate" markdown>
+=== "Android"
 
-- [x] Seleziona **Aggressivo** sotto **Blocca tracker e annunci**
+    <div class="annotate" markdown>
 
-<details class="warning" markdown>
-<summary>Utilizza gli elenchi di filtri predefiniti</summary>
+    - [x] Select **Aggressive** under *Block trackers & ads*
+    - [x] Select **Auto-redirect AMP pages**
+    - [x] Select **Auto-redirect tracking URLs**
+    - [x] Select **Require all connections to use HTTPS (strict)** under *Upgrade connections to HTTPS*
+    - \[x\] (Optional) Select **Block Scripts** (1)
+    - [x] Select **Block third-party cookies** under *Block Cookies*
+    - [x] Select **Block Fingerprinting**
+    - [x] Select **Prevent fingerprinting via language settings**
 
-Brave consente di selezionare filtri aggiuntivi per i contenuti nella pagina interna `brave://adblock`. Sconsigliamo di utilizzare questa funzionalità; piuttosto, mantieni gli elenchi di filtri predefiniti. Utilizzare ulteriori elenchi ti distinguerà dagli altri utenti di Brave e potrebbe inoltre incrementare la superficie di attacco, se è presente un exploit su Brave e una regola dannosa viene aggiunta a uno degli elenchi che utilizzi.
+    <details class="warning" markdown>
+    <summary>Use default filter lists</summary>
 
-</details>
+    Brave allows you to select additional content filters within the **Content Filtering** menu or the internal `brave://adblock` page. Sconsigliamo di utilizzare questa funzionalità; piuttosto, mantieni gli elenchi di filtri predefiniti. Utilizzare ulteriori elenchi ti distinguerà dagli altri utenti di Brave e potrebbe inoltre incrementare la superficie di attacco, se è presente un exploit su Brave e una regola dannosa viene aggiunta a uno degli elenchi che utilizzi.
 
-- [x] Select **Auto-redirect AMP pages**
-- [x] Select **Auto-redirect tracking URLs**
-- [x] Select **strict** under **Upgrade connections to HTTPS**
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Select **Block third-party cookies** under **Block Cookies**
-- [x] Select **Block fingerprinting**
-- [x] Select **Prevent fingerprinting via language settings**
+    </details>
 
-</div>
+    - [x] Select **Forget me when I close this site**
 
-1. Questa opzione fornisce una funzionalità simile alle [modalità di blocco](https://github.com/gorhill/uBlock/wiki/Blocking-mode) avanzate di uBlock Origin o all'estensione [NoScript](https://noscript.net).
+    </div>
 
-#### Clear browsing data
+    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+
+=== "iOS"
+
+    <div class="annotate" markdown>
+
+    - [x] Select **Aggressive** under *Trackers & Ads Blocking*
+    - [x] Select **Strict** under *Upgrade Connections to HTTPS*
+    - [x] Select **Auto-Redirect AMP pages**
+    - [x] Select **Auto-Redirect Tracking URLs**
+    - \[x\] (Optional) Select **Block Scripts** (1)
+    - [x] Select **Block Fingerprinting**
+
+    <details class="warning" markdown>
+    <summary>Use default filter lists</summary>
+
+    Brave allows you to select additional content filters within the **Content Filtering** menu. Sconsigliamo di utilizzare questa funzionalità; piuttosto, mantieni gli elenchi di filtri predefiniti. Utilizzare ulteriori elenchi ti distinguerà dagli altri utenti di Brave e potrebbe inoltre incrementare la superficie di attacco, se è presente un exploit su Brave e una regola dannosa viene aggiunta a uno degli elenchi che utilizzi.
+
+    </details>
+
+    </div>
+
+    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+
+##### Clear browsing data (Android only)
 
 - [x] Seleziona **Cancella dati all'uscita**
 
-#### Social Media Blocking
+##### Social Media Blocking (Android only)
 
 - [ ] Rimuovi la spunta da tutti i componenti social
 
 #### Other privacy settings
 
-<div class="annotate" markdown>
+=== "Android"
 
-- [x] Select **Disable non-proxied UDP** under [WebRTC IP handling policy](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [x] (Optional) Select **No protection** under **Safe Browsing** (1)
-- [ ] Uncheck **Allow sites to check if you have payment methods saved**
-- [ ] Uncheck **IPFS Gateway** (2)
-- [x] Select **Close tabs on exit**
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send diagnostic reports**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
+    <div class="annotate" markdown>
 
-</div>
+    - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+    - \[x\] (Optional) Select **No protection** under *Safe Browsing* (1)
+    - [ ] Uncheck **Allow sites to check if you have payment methods saved**
+    - [x] Select **Close tabs on exit**
+    - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
+    - [ ] Uncheck **Automatically send diagnostic reports**
+    - [ ] Uncheck **Automatically send daily usage ping to Brave**
 
-1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
-2. L'InterPlanetary File System (IPFS) è una rete peer-to-peer e decentralizzata, utilizzata per archiviare e condividere dati in un filesystem distribuito. A meno che tu non utilizzi questa funziona, disabilitala.
+    </div>
+
+    1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
+
+=== "iOS"
+
+    - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
+    - [ ] Uncheck **Automatically send daily usage ping to Brave**
 
 ### Leo
 
-These options can be found in :material-menu: → **Settings** → **Leo**
+These options can be found in :material-menu: → **Settings** → **Leo**.
 
-- [ ] Uncheck **Show autocomplete suggestions in address bar**
+<div class="annotate" markdown>
+
+- [ ] Uncheck **Show autocomplete suggestions in address bar** (1)
+
+</div>
+
+1. This option is not present in Brave's iOS app.
 
 ### Brave Sync
 

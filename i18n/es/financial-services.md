@@ -5,11 +5,19 @@ cover: financial-services.webp
 description: These services can assist you in protecting your privacy from merchants and other trackers, which is one of the biggest challenges to privacy today.
 ---
 
+<small>Protege contra la(s) siguiente(s) amenaza(s):</small>
+
+- [:material-account-cash: Capitalismo de Vigilancia](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 Realizar pagos en línea es uno de los principales desafíos para la privacidad. Estos servicios pueden ayudarle a proteger su privacidad frente a los comercios y otros rastreadores, siempre que conozca bien cómo realizar pagos privados de forma eficaz. Le recomendamos encarecidamente que primero lea nuestro apartado de pagos antes de realizar cualquier compra:
 
 [Hacer Pagos Privados: :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
 ## Servicios de Enmascaramiento de Pagos
+
+<small>Protege contra la(s) siguiente(s) amenaza(s):</small>
+
+- [:material-account-search: Exposición pública](basics/common-threats.md#limiting-public-information ""){.pg-green}
 
 Hay una serie de servicios que ofrecen "tarjetas de débito virtuales" que puede utilizar con comercios en línea sin revelar sus datos bancarios o de facturación reales en la mayoría de los casos. Es importante tener en cuenta que estos servicios financieros **no** son anónimos y están sujetos a las leyes de "Conozca a su cliente" (KYC) y pueden requerir su DNI u otra información identificativa. Estos servicios son útiles principalmente para protegerle de las filtraciones de datos de los comercios, del seguimiento menos sofisticado o de la correlación de compras por parte de las agencias de marketing y del robo de datos en línea; y **no** para realizar una compra de forma totalmente anónima.
 
@@ -67,6 +75,10 @@ Por el momento, las tarjetas virtuales de MySudo solo están disponibles a trav�
 
 ## Mercados en Línea de Tarjetas Regalo
 
+<small>Protege contra la(s) siguiente(s) amenaza(s):</small>
+
+- [:material-eye-outline: Vigilancia masiva](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+
 Estos servicios le permiten comprar tarjetas de regalo para una gran variedad de comercios en línea con [criptomonedas](cryptocurrency.md). Algunos de estos servicios ofrecen opciones de verificación de identidad para límites más altos, pero también permiten cuentas con sólo una dirección de correo electrónico. Basic limits typically start at $5,000-10,000 a day for basic accounts, with significantly higher limits for ID verified accounts (if offered).
 
 ### Coincards
@@ -85,7 +97,6 @@ Estos servicios le permiten comprar tarjetas de regalo para una gran variedad de
 
 </div>
 
-<!-- markdownlint-disable-next-line -->
 ### Criterios
 
 **Por favor, tenga en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de elegir utilizar un proyecto y realizar su propia investigación para asegurarse que es la elección ideal para usted.

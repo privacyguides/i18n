@@ -10,6 +10,10 @@ global:
     - "table tbody"
 ---
 
+<small>防護下列威脅：</small>
+
+- [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 使用不會根據您的搜尋紀錄建立廣告檔案的 **搜尋引擎** 。
 
 ## 推薦的提供商

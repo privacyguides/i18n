@@ -295,20 +295,20 @@ Brave ermöglicht die Auswahl zusätzlicher Inhaltsfilter auf der internen Seite
 
 </div>
 
-1. Diese Option bietet ähnliche Funktionen wie die erweiterten [Blockierungsmodi](https://github.com/gorhill/uBlock/wiki/Blocking-mode) von uBlock Origin.
-2. Wenn du auf einer bestimmten Website, die du häufig besuchst, eingeloggt bleiben möchtest, kannst du Ausnahmen für die einzelnen Websites festlegen, indem du auf das Schildsymbol in der Adressleiste klickst.
+1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 #### Datenschutz und Sicherheit
 
 <div class="annotate" markdown>
 
-- [x] Wähle **Websites dürfen das V8-Optimierungstool nicht verwenden** unter *Sicherheit* → *V8-Sicherheit verwalten* (1)
-- [x] Wähle **Berechtigungen für nicht verwendete Websites automatisch entfernen** unter *Website- und Schutzeinstellungen*
-- [x] Wähle **Nicht-proxisiertes UDP deaktivieren** unter [WebRTC-IP-Nutzungsrichtlinien](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Deaktiviere **Nutzen Sie Google-Services für Push-Benachrichtigungen**
-- [x] Wähle **AMP-Seiten automatisch umleiten**
-- [x] Wähle **Tracking-URLs automatisch umleiten**
-- [x] Wähle **Verhindern, dass Websites aufgrund meiner Spracheinstellungen Fingerabdrücke von mir erstellen**
+- [x] Select **Don't allow sites to use the V8 optimizer** under *Security* → *Manage V8 security* (1)
+- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
+- [x] Select **Disable non-proxied UDP** under [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [ ] Uncheck **Use Google services for push messaging**
+- [x] Select **Auto-redirect AMP pages**
+- [x] Select **Auto-redirect tracking URLs**
+- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
 
 </div>
 
@@ -339,7 +339,6 @@ Die Web3-Funktionen von Brave können deinen Browser-Fingerabdruck und deine Ang
 
 - Wähle **Erweiterungen (kein Backup)** unter *Standard-Ethereum-Wallet*
 - Wähle **Erweiterungen (kein Backup)** unter *Standard-Solana-Wallet*
-- Set *Method to resolve IPFS resources* to **Disabled**
 
 #### Erweiterungen
 
@@ -364,8 +363,6 @@ Die Web3-Funktionen von Brave können deinen Browser-Fingerabdruck und deine Ang
 Mit **Brave Rewards** erhältst du Basic Attention Token (BAT), eine Kryptowährung, für die Durchführung bestimmter Aktionen in Brave. Es basiert auf einem Custodial (d. h. von Dritten verwalteten) Account und KYC von einer ausgewählten Anzahl von Anbietern. Wir empfehlen BAT nicht als [private Kryptowährung](cryptocurrency.md), und wir empfehlen auch nicht die Verwendung einer [Custodial-Wallet](advanced/payments.md#wallet-custody). Wir raten also von dieser Funktion ab.
 
 **Brave Wallet** arbeitet lokal auf Ihrem Computer, unterstützt aber keine privaten Kryptowährungen, weshalb wir auch von dieser Funktion abraten würden.
-
-## Zusätzliche Ressourcen
 
 ## Kriterien
 

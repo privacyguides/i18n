@@ -6,6 +6,10 @@ description: Use these tools to remove metadata like GPS location and other iden
 cover: data-redaction.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-search: Exposição pública](basics/common-threats.md#limiting-public-information ""){.pg-green}
+
 Ao partilhar ficheiros, certifique-se de que remove os metadados associados. Os arquivos de imagem geralmente incluem [EXIF](https://en.wikipedia.org/wiki/Exif) dados. As fotos às vezes até incluem [GPS](https://en.wikipedia.org/wiki/Global_Positioning_System) coordenadas nos metadados do arquivo.
 
 ## Desktop

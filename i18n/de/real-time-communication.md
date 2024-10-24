@@ -213,7 +213,7 @@ Nachrichten und Dateien, die in privaten Räumen (für die eine Einladung erford
 
 Profilbilder, Reaktionen und Spitznamen sind nicht verschlüsselt.
 
-Gruppen-Sprach- und Videoanrufe sind [nicht](https://github.com/vector-im/element-web/issues/12878) E2EE und verwenden Jitsi, aber dies wird sich mit [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401) ändern. Gruppenanrufe haben derzeit [keine Authentifizierung](https://github.com/vector-im/element-web/issues/13074), d. h., dass auch Personen, die nicht teil des Raumes sind, an den Anrufen teilnehmen können. Wir empfehlen, diese Funktion nicht für private Besprechungen zu verwenden.
+With the integration of [Element Call](https://element.io/blog/we-have-lift-off-element-x-call-and-server-suite-are-ready) into Element's web app, desktop apps, and its [rewritten mobile apps](https://element.io/blog/element-x-experience-the-future-of-element), group VoIP and video calls are E2EE by default.
 
 Das Matrix-Protokoll selbst [unterstützt theoretisch Forward Secrecy](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1]. Dies wird jedoch [derzeit in Element nicht unterstützt](https://github.com/vector-im/element-web/issues/7101), da es einige Aspekte der Benutzerfreundlichkeit, wie z. B. das Schlüssel-Backup und den gemeinsamen Nachrichtenverlauf, beeinträchtigt.
 

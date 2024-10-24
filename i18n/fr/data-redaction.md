@@ -6,6 +6,10 @@ description: Utilisez ces outils pour supprimer les métadonnées telles que la 
 cover: data-redaction.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-search: Exposition publique](basics/common-threats.md#limiting-public-information ""){.pg-green}
+
 Lorsque vous partagez des fichiers, veillez à supprimer les métadonnées associées. Les fichiers d'image comprennent généralement des données [Exif](https://en.wikipedia.org/wiki/Exif) . Les photos comportent parfois même des coordonnées GPS dans les métadonnées du fichier.
 
 ## Bureau

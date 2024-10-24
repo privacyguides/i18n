@@ -117,7 +117,7 @@ Peergos is primarily a web app, but you can self-host the server either as a loc
 
 Ejecutar una versión local de Peergos junto con una cuenta registrada en su servicio alojado de pago te permite acceder a tu almacenamiento Peergos sin depender de DNS o autoridades de certificación TLS, y mantener una copia de seguridad de tus datos en su nube. La experiencia del usuario debería ser la misma tanto si ejecutas su servidor de escritorio como si utilizas su interfaz web alojada.
 
-Peergos fue [auditado](https://cure53.de/pentest-report_peergos.pdf) por Cure53 en septiembre de 2019, y todos los problemas encontrados se solucionaron posteriormente.
+Peergos was [audited](https://cure53.de/pentest-report_peergos.pdf) by Cure53 in June 2019, and all found issues were subsequently fixed.
 
 An Android app is not available but it is [in the works](https://discuss.privacyguides.net/t/peergos-private-storage-sharing-social-media-and-application-platform/11825/25). La solución actual consiste en utilizar [la PWA](https://peergos.net) móvil en su lugar.
 

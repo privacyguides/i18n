@@ -5,11 +5,19 @@ cover: financial-services.webp
 description: These services can assist you in protecting your privacy from merchants and other trackers, which is one of the biggest challenges to privacy today.
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: קפיטליזם מעקב](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 ביצוע תשלומים אונליין הוא אחד האתגרים הגדולים ביותר לפרטיות. שירותים אלה יכולים לסייע לך בהגנה על פרטיותך מפני סוחרים ועוקבים אחרים, בתנאי שיש לך הבנה טובה כיצד לבצע תשלומים פרטיים ביעילות. אנו ממליצים בחום שתקרא תחילה את מאמר סקירת התשלומים שלנו לפני ביצוע רכישות כלשהן:
 
 [ביצוע תשלומים פרטיים :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
 ## שירותי מיסוך תשלומים
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-search: חשיפה ציבורית](basics/common-threats.md#limiting-public-information ""){.pg-green}
 
 ישנם מספר שירותים המספקים "כרטיסי חיוב וירטואליים" שבהם אתה יכול להשתמש עם סוחרים מקוונים מבלי לחשוף את פרטי הבנק או החיוב בפועל שלך ברוב המקרים. חשוב לציין ששירותים פיננסיים אלו הם **אינם** אנונימיים וכפופים לחוקי "הכר את הלקוח שלך" (KYC) ועשויים לדרוש את תעודת הזהות שלך או מידע מזהה אחר. שירותים אלה שימושיים בעיקר להגנה עליך מפני הפרות נתונים של סוחרים, מעקב פחות מתוחכם או מתאם רכישה על ידי סוכנויות שיווק וגניבת נתונים מקוונים; ו**לא** לביצוע רכישה באופן אנונימי לחלוטין.
 
@@ -67,6 +75,10 @@ Privacy.com מספק מידע על הסוחרים מהם אתה רוכש לבנ�
 
 ## שווקים של כרטיסי מתנה
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-eye-outline: מעקב המוני](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+
 שירותים אלו מאפשרים לך לרכוש כרטיסי מתנה עבור מגוון סוחרים באינטרנט באמצעות [מטבע קריפטוגרפי](cryptocurrency.md). חלק מהשירותים הללו מציעים אפשרויות אימות מזהה עבור מגבלות גבוהות יותר, אך הם גם מאפשרים חשבונות עם כתובת אימייל בלבד. Basic limits typically start at $5,000-10,000 a day for basic accounts, with significantly higher limits for ID verified accounts (if offered).
 
 ### Coincards
@@ -85,7 +97,6 @@ Privacy.com מספק מידע על הסוחרים מהם אתה רוכש לבנ�
 
 </div>
 
-<!-- markdownlint-disable-next-line -->
 ### קריטריונים
 
 **שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.

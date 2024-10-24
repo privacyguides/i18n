@@ -6,6 +6,10 @@ description: Use these tools to remove metadata like GPS location and other iden
 cover: data-redaction.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-search: חשיפה ציבורית](basics/common-threats.md#limiting-public-information ""){.pg-green}
+
 בעת שיתוף קבצים, הקפד להסיר מטא נתונים משויכים. קבצי תמונה כוללים בדרך כלל [נתוני Exif](https://en.wikipedia.org/wiki/Exif). תמונות לפעמים אפילו כוללות קואורדינטות GPS במטא-נתונים של הקובץ.
 
 ## מחשב שולחני
@@ -170,5 +174,5 @@ exiftool -all= *.file_extension
 
 **שים לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל [הקריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו סט ברור של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
 
-- אפליקציות שפותחו עבור מערכות הפעלה בקוד פתוח חייבות להיות בקוד פתוח.
+- Apps developed for open-source operating systems must be open source.
 - יישומים חייבים להיות חינמיים ולא לכלול מודעות או מגבלות אחרות.

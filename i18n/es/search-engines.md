@@ -10,6 +10,10 @@ global:
     - "table tbody"
 ---
 
+<small>Protege contra la(s) siguiente(s) amenaza(s):</small>
+
+- [:material-account-cash: Capitalismo de Vigilancia](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 Use a **search engine** that doesn't build an advertising profile based on your searches.
 
 ## Proveedores Recomendados

@@ -6,6 +6,10 @@ description: Utiliza estas herramientas para eliminar metadatos como la ubicaci�
 cover: data-redaction.webp
 ---
 
+<small>Protege contra la(s) siguiente(s) amenaza(s):</small>
+
+- [:material-account-search: Exposición pública](basics/common-threats.md#limiting-public-information ""){.pg-green}
+
 Cuando compartas archivos, asegúrate de remover los metadatos asociados. Archivos de imagen comúnmente incluyen datos [Exif](https://en.wikipedia.org/wiki/Exif). Fotos a veces incluyen hasta coordenadas GPS en los metadatos del archivo.
 
 ## Equipo de escritorio

@@ -70,7 +70,6 @@ uBlock Origin también tiene una versión "Lite" de su extensión, que ofrece un
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
 
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/addon/ublock-origin-lite)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
 
 </details>

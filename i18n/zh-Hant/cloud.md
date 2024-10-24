@@ -117,7 +117,7 @@ Peergos 主要是網頁應用程式，但您可以自行託管伺服器，將其
 
 透過註冊帳戶在其付費託管服務上運行本地版本的 Peergos ，用戶可在不依賴 DNS 或 TLS 憑證授權單位的情況下存取 Peergos 存儲，並將資料副本備份到其雲端。 無論運行他們的桌面伺服器還是僅使用他們的託管 Web 介面，使用者體驗都應該是相同的。
 
-Peergos 於 2019 年 9 月接受了 Cure53 的[審核](https://cure53.de/pentest-report_peergos.pdf)，所有發現的問題隨後都做了修復。
+Peergos was [audited](https://cure53.de/pentest-report_peergos.pdf) by Cure53 in June 2019, and all found issues were subsequently fixed.
 
 Android 應用程式尚未推出，但已在 [開發中](https://discuss.privacyguides.net/t/peergos-private-storage-sharing-social-media-and-application-platform/11825/25) 。 目前的解決方法是改用移動平台 [PWA](https://peergos.net)。
 

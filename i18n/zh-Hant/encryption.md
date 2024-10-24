@@ -78,6 +78,8 @@ Cryptomator 的文件詳細介紹它的預期[安全目標](https://docs.cryptom
 
 </div>
 
+Picocrypt has been [audited](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) by Radically Open Security in August 2024, and [most](https://github.com/Picocrypt/Picocrypt/issues/32#issuecomment-2329722740) of the issues found in the audit were subsequently fixed.
+
 ### VeraCrypt (磁碟)
 
 <small>防護下列威脅：</small>

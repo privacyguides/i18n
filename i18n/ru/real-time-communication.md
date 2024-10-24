@@ -213,7 +213,7 @@ Messages and files shared in private rooms (those which require an invite) are b
 
 Фотографии профиля, реакции и никнеймы не зашифрованы.
 
-Group voice and video calls are [not](https://github.com/vector-im/element-web/issues/12878) E2EE and use Jitsi, but this is expected to change with [Native Group VoIP Signalling](https://github.com/matrix-org/matrix-doc/pull/3401). Групповые звонки в настоящее время [не имеют аутентификации](https://github.com/vector-im/element-web/issues/13074), что означает, что к звонкам могут присоединяться и не входящие в комнату участники. Мы рекомендуем вам не использовать эту функцию для приватных созвонов.
+With the integration of [Element Call](https://element.io/blog/we-have-lift-off-element-x-call-and-server-suite-are-ready) into Element's web app, desktop apps, and its [rewritten mobile apps](https://element.io/blog/element-x-experience-the-future-of-element), group VoIP and video calls are E2EE by default.
 
 The Matrix protocol itself [theoretically supports forward secrecy](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1], however this is [not currently supported in Element](https://github.com/vector-im/element-web/issues/7101) due to it breaking some aspects of the user experience such as key backups and shared message history.
 

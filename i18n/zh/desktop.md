@@ -5,6 +5,10 @@ description: 由于隐私保护和软件自由，Linux发行版被普遍推荐�
 cover: desktop.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: 监视资本主义](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 由于隐私保护和软件自由，Linux发行版被普遍推荐。 如果你还没有使用Linux，下面是我们建议尝试的一些发行版，以及一些适用于许多Linux发行版的一般隐私和安全改进提示。
 
 - [安卓概况 :material-arrow-right-drop-circle:](os/linux-overview.md)
@@ -69,7 +73,7 @@ Arch Linux有一个滚动的发布周期。 没有固定的发布时间表，软
 
 作为一个 DIY 发行版，您需要 [自行设置并维护您的](os/linux-overview.md#arch-based-distributions) 系统。 Arch有一个 [官方安装程序](https://wiki.archlinux.org/title/Archinstall) ，使安装过程更容易一些。
 
-[Arch Linux的很大一部分软件包](https://reproducible.archlinux.org) ，都是 [，可复制的](https://reproducible-builds.org)。
+A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org) are [reproducible](https://reproducible-builds.org)[^1].
 
 ## Atomic Distributions
 
@@ -125,7 +129,7 @@ The Nix package manager uses a purely functional language—which is also called
 
 [Nixpkgs](https://github.com/nixos/nixpkgs) (the main source of packages) are contained in a single GitHub repository. You can also define your own packages in the same language and then easily include them in your config.
 
-Nix is a source-based package manager; if there’s no pre-built available in the binary cache, Nix will just build the package from source using its definition. It builds each package in a sandboxed *pure* environment, which is as independent of the host system as possible. Binaries built with this method are reproducible, which can be useful as a safeguard against [:material-package-variant-closed-remove: Supply Chain Attacks](basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}.
+Nix is a source-based package manager; if there’s no pre-built available in the binary cache, Nix will just build the package from source using its definition. It builds each package in a sandboxed *pure* environment, which is as independent of the host system as possible. Binaries built with this method are reproducible[^1].
 
 ## 以匿名为重点的发行版
 
@@ -135,7 +139,7 @@ Nix is a source-based package manager; if there’s no pre-built available in th
 
 ![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
 
-**Whonix** is based on [Kicksecure](#kicksecure), a security-focused fork of Debian. 它的目的是在互联网上提供隐私、安全和匿名性。 Whonix最好与[Qubes OS]（#qubes-os）一起使用。
+**Whonix** is based on [Kicksecure](#kicksecure), a security-focused fork of Debian. It aims to provide privacy, security, and [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } on the internet. Whonix最好与[Qubes OS]（#qubes-os）一起使用。
 
 [:octicons-home-16: Homepage](https://whonix.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion Service" }
@@ -158,7 +162,7 @@ Whonix is best used [in conjunction with Qubes](https://whonix.org/wiki/Qubes/Wh
 
 ![Tails标志](assets/img/linux-desktop/tails.svg){ align=right }
 
-**Tails**是一个基于Debian的实时操作系统，它通过Tor路由所有的通信，它可以从DVD、U盘或SD卡安装在几乎任何电脑上启动。 它使用 [Tor]（tor.md）来保护隐私和匿名，同时规避审查制度，而且在关闭电源后，它不会在其使用的计算机上留下任何痕迹。
+**Tails**是一个基于Debian的实时操作系统，它通过Tor路由所有的通信，它可以从DVD、U盘或SD卡安装在几乎任何电脑上启动。 It uses [Tor](tor.md) to preserve privacy and [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } while circumventing censorship, and it leaves no trace of itself on the computer it is used on after it is powered off.
 
 [:octicons-home-16: Homepage](https://tails.net){ .md-button .md-button--primary }
 [:octicons-info-16:](https://tails.net/doc/index.en.html){ .card-link title=Documentation}
@@ -183,6 +187,10 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
 
 ## 以安全为重点的发行版
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-bug-outline: 被动攻击](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+
 ### Qubes操作系统
 
 <div class="admonition recommendation" markdown>
@@ -202,7 +210,7 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
 
 </div>
 
-Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate *qubes*. Should one part of the system be compromised, the extra isolation is likely to protect the rest of the *qubes* and the core system.
+Qubes OS secures the computer by isolating subsystems (e.g., networking, USB, etc.) and applications in separate *qubes*. Should one part of the system be compromised via an exploit in a [:material-target-account: Targeted Attack](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}, the extra isolation is likely to protect the rest of the *qubes* and the core system.
 
 For further information about how Qubes works, read our full [Qubes OS overview](os/qubes-overview.md) page.
 
@@ -242,3 +250,5 @@ Choosing a Linux distro that is right for you will come down to a huge variety o
     - Maintaining an operating system is a major challenge, and smaller projects have a tendency to make more avoidable mistakes, or delay critical updates (or worse, disappear entirely). We lean towards projects which will likely be around 10 years from now (whether that's due to corporate backing or very significant community support), and away from projects which are hand-built or have a small number of maintainers.
 
 In addition, [our standard criteria](about/criteria.md) for recommended projects still applies. **Please note we are not affiliated with any of the projects we recommend.**
+
+[^1]: Reproducibility entails the ability to verify that packages and binaries made available to the end user match the source code, which can be useful against potential [:material-package-variant-closed-remove: Supply Chain Attacks](basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}.

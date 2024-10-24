@@ -24,9 +24,15 @@ schema:
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
+<small>Schützt vor der/den folgenden Bedrohung(en):</small>
+
+- [:material-bug-outline: Passive Angriffe](../basics/common-threats.md#security-and-privacy){ .pg-orange }
+
 Wir empfehlen auf dieser Website eine Vielzahl von Android-Apps. Die hier aufgeführten Apps sind Android-exklusiv und verbessern oder ersetzen wichtige Systemfunktionen.
 
 ### Shelter
+
+If your device is on Android 15 or greater, we recommend using the native [Private Space](../os/android-overview.md#private-space) feature instead, which provides nearly the same functionality without needing to place trust in and grant powerful permissions to a third-party app.
 
 <div class="admonition recommendation" markdown>
 
@@ -45,13 +51,17 @@ Shelter unterstützt die profilübergreifende Kontaktsuche und Freigabe von Date
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warnung</p>
 
-Shelter wird gegenüber [Insular](https://secure-system.gitlab.io/Insular) und [Island](https://github.com/oasisfeng/island) empfohlen, da es das [Blockieren der Kontaktsuche](https://secure-system.gitlab.io/Insular/faq.html) unterstützt.
-
 Bei der Verwendung von Shelter vertraust du vollständig dem Entwickler, da Shelter als [Geräteadministrator](https://developer.android.com/guide/topics/admin/device-admin) fungiert, um das Arbeitsprofil zu erstellen, und es hat umfassenden Zugriff auf die Daten, die im Arbeitsprofil gespeichert sind.
 
 </div>
 
+Shelter wird gegenüber [Insular](https://secure-system.gitlab.io/Insular) und [Island](https://github.com/oasisfeng/island) empfohlen, da es das [Blockieren der Kontaktsuche](https://secure-system.gitlab.io/Insular/faq.html) unterstützt.
+
 ### Secure Camera
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-search: Public Exposure](../basics/common-threats.md#limiting-public-information){ .pg-green }
 
 <div class="admonition recommendation" markdown>
 
@@ -93,10 +103,9 @@ Die Metadaten zur Bildausrichtung werden nicht gelöscht. Wenn du den Standort (
 
 ### Secure PDF Viewer
 
-<small>Schützt vor der/den folgenden Bedrohung(en):</small>
+<small>Protects against the following threat(s):</small>
 
 - [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Angriffe](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 <div class="admonition recommendation" markdown>
 

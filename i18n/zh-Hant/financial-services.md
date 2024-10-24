@@ -5,11 +5,19 @@ cover: financial-services.webp
 description: 這些服務可協助您保護您的隱私不受商家和其他追蹤者的侵害，而這正是當今隱私權所面臨的最大挑戰之一。
 ---
 
+<small>防護下列威脅：</small>
+
+- [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 在線支付是隱私面臨的最大挑戰之一。 這些服務可以幫助您保護隱私，免受商家和其他追蹤者的影響，前提是您對如何有效地進行私人付款有深入的了解。 我們強烈建議您在網路購買前先閱讀本站私密付款之介紹：
 
 [私密付款 :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
 ## 付款掩蔽服務
+
+<small>防護下列威脅：</small>
+
+- [:material-account-search: 公共曝露](basics/common-threats.md#limiting-public-information ""){.pg-green}
 
 有許多服務提供“虛擬簽帳卡” ，在線商家接受此種付款方式則在大多數情況下不會透露您實際銀行或帳單信息。 請注意，這些金融服務 **並不是** 匿名，且受「了解您的客戶」（ KYC ）法律的約束，並可能需要客戶身份證明文件或其他識別信息。 這些服務主要保護您免受商家資料洩露、營銷機構粗糙的跟蹤或購買聯結以及線上資料盜竊；這些並 **不能** 在購買時完全匿名。
 
@@ -67,6 +75,10 @@ MySudo 虛擬卡目前只能在其 iOS應用上使用。
 
 ## 禮品卡市集
 
+<small>防護下列威脅：</small>
+
+- [:material-eye-outline: 大規模監控](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+
 這些服務可接受 [加密貨幣](cryptocurrency.md)來購買各種商家禮品卡。 其中一些服務提供更高限額的身份驗證選項，它們也只淮許有電子郵件地址的帳戶。 基本帳戶的限額通常從每天 5,000 到 10,000 美元不等，經過身份驗證的帳戶限額會高很多（如果您選擇提供的話）。
 
 ### Coincards
@@ -85,7 +97,6 @@ MySudo 虛擬卡目前只能在其 iOS應用上使用。
 
 </div>
 
-<!-- markdownlint-disable-next-line -->
 ### 標準
 
 **請注意，我們所推薦專案沒有任何瓜葛。 ** 除了 [標準準則](about/criteria.md)外，我們還發展出一套明確要求以提出客觀建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。

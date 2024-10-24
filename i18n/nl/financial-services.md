@@ -5,11 +5,19 @@ cover: financial-services.webp
 description: These services can assist you in protecting your privacy from merchants and other trackers, which is one of the biggest challenges to privacy today.
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Surveillance kapitalisme](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 Online betalen is een van de grootste uitdagingen voor privacy. Deze diensten kunnen je helpen jouw privacy te beschermen tegen handelaren en andere trackers, op voorwaarde dat je goed weet hoe je privébetalingen doeltreffend kunt verrichten. Wij raden je sterk aan eerst ons overzichtsartikel over betalingen te lezen voordat je aankopen doet:
 
 [Privébetalingen maken :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
 ## Maskerende betalingsdiensten
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-search: Publiekelijke bekendheid](basics/common-threats.md#limiting-public-information ""){.pg-green}
 
 Er zijn een aantal diensten die "virtuele debetkaarten" aanbieden die je bij online handelaren kunt gebruiken zonder in de meeste gevallen jouw werkelijke bank- of factureringsgegevens bekend te maken. Het is belangrijk op te merken dat deze financiële diensten **niet** anoniem zijn en onderworpen zijn aan "Know Your Customer" (KYC) wetten en jouw ID of andere identificerende informatie kunnen vereisen. Deze diensten zijn vooral nuttig om je te beschermen tegen inbreuken op gegevens van handelaars, minder gesofisticeerde tracking of aankoopcorrelatie door marketingbureaus, en online gegevensdiefstal; en **niet** om volledig anoniem een aankoop te doen.
 
@@ -67,6 +75,10 @@ De virtuele kaarten van MySudo zijn momenteel alleen beschikbaar via hun iOS-app
 
 ## Marktplaatsen voor cadeaubonnen
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-eye-outline: Massabewaking](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+
 Met deze diensten kunt je online cadeaubonnen kopen voor verschillende handelaren met [cryptocurrency](cryptocurrency.md). Sommige van deze services bieden opties voor ID-verificatie voor hogere limieten, maar ze staan ook accounts toe met alleen een e-mailadres. Basic limits typically start at $5,000-10,000 a day for basic accounts, with significantly higher limits for ID verified accounts (if offered).
 
 ### Coincards
@@ -85,7 +97,6 @@ Met deze diensten kunt je online cadeaubonnen kopen voor verschillende handelare
 
 </div>
 
-<!-- markdownlint-disable-next-line -->
 ### Criteria
 
 **Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je jezelf vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat je de juiste keuze maakt.

@@ -5,11 +5,19 @@ cover: financial-services.webp
 description: These services can assist you in protecting your privacy from merchants and other trackers, which is one of the biggest challenges to privacy today.
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-cash: Капитализм слежки](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+
 Платежи в интернете - одно из самых больших испытаний для конфиденциальности. Эти службы могут помочь вам защитить вашу конфиденциальность от продавцов и других отслеживающих устройств, если вы хорошо понимаете, как эффективно осуществлять приватные платежи. Мы настоятельно рекомендуем вам сначала прочитать нашу обзорную статью о платежах, прежде чем совершать какие-либо покупки:
 
 [Совершение приватных платежей :material-arrow-right-drop-circle:](advanced/payments.md ""){.md-button}
 
 ## Услуги по маскировке платежей
+
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-search: Публичная экспозиция](basics/common-threats.md#limiting-public-information ""){.pg-green}
 
 Существует ряд служб, предоставляющих "виртуальные дебетовые карты", которые вы можете использовать в интернет-магазинах, не раскрывая в большинстве случаев свою реальную банковскую или платежную информацию. Важно отметить, что эти финансовые услуги **не** анонимны и подчиняются законам "Знай своего клиента" (KYC) и могут потребовать от вас удостоверение личности или другую идентифицирующую информацию. Эти услуги в первую очередь полезны для защиты от утечки данных продавцов, менее сложного отслеживания или корреляции покупок маркетинговыми агентствами и кражи данных в интернете; но **не** для совершения покупки полностью анонимно.
 
@@ -67,6 +75,10 @@ MySudo's virtual cards are currently only available via their iOS app.
 
 ## Маркетплейсы подарочных карт
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-eye-outline: Массовое наблюдение](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+
 Эти сервисы позволяют приобретать подарочные карты для различных онлайн-площадок с помощью [криптовалюты](cryptocurrency.md). Некоторые из этих сервисов предлагают возможность проверки личности для получения более высоких лимитов, но они также позволяют создавать аккаунты, используя только адрес электронной почты. Basic limits typically start at $5,000-10,000 a day for basic accounts, with significantly higher limits for ID verified accounts (if offered).
 
 ### Coincards
@@ -85,7 +97,6 @@ MySudo's virtual cards are currently only available via their iOS app.
 
 </div>
 
-<!-- markdownlint-disable-next-line -->
 ### Критерии
 
 **Обрати внимание, что у нас нет связей ни с одним проектом, который мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md) мы разработали четкий набор требований, позволяющий давать объективные рекомендации. Перед тем, как вы решите выбрать какой-либо проект, мы рекомендуем вам ознакомиться со списком критериев и провести собственное исследование, чтобы убедиться в правильности своего выбора.

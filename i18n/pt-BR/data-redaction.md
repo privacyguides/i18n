@@ -6,6 +6,10 @@ description: Use essas ferramentas para remover metadados como localização GPS
 cover: data-redaction.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-search: Public Exposure](basics/common-threats.md#limiting-public-information ""){.pg-green}
+
 Ao compartilhar arquivos, é importante remover metadados associados. Os arquivos de imagem geralmente incluem dados [Exif](https://en.wikipedia.org/wiki/Exif). Às vezes, as fotos incluem até mesmo coordenadas de GPS nos metadados do arquivo.
 
 ## Computador

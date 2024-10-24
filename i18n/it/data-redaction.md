@@ -6,6 +6,10 @@ description: Utilizza questi strumenti per rimuovere metadati come la posizione 
 cover: data-redaction.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-account-search: Esposizione pubblica](basics/common-threats.md#limiting-public-information ""){.pg-green}
+
 Condividendo dei file, assicurati di rimuovere i metadati associati. I file immagine includono comunemente dati [Exif](https://en.wikipedia.org/wiki/Exif). Talvolta, le foto, includono persino le coordinate GPS nei metadati del file.
 
 ## Desktop

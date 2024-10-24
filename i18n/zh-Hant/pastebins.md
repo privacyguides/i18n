@@ -5,6 +5,10 @@ description: 這些工具可讓您完全控制您分享給其他方的任何貼�
 cover: pastebins.webp
 ---
 
+<small>防護下列威脅：</small>
+
+- [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+
 [**Pastebins**](https://en.wikipedia.org/wiki/Pastebin) 是線上服務，最常用於以方便有效的方式分享大型程式碼區塊。 此處列出的 Pastebins 採用用戶端加密和密碼保護貼上的內容；這兩項功能都可防止網站或伺服器操作員閱讀或存取任何貼上的內容。
 
 ## PrivateBin
