@@ -22,21 +22,21 @@ Muitas pessoas confundem os conceitos de **privacidade**, **segurança**, e **an
 **Segurança**
 :
 
-Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
+A segurança é a capacidade de confiar nas aplicações que utiliza - que as partes envolvidas são quem dizem ser - e de manter essas aplicações seguras. No contexto da navegação na Web, por exemplo, a segurança pode ser fornecida por certificados HTTPS.
 :
 
-Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
+Os certificados provam que está a falar diretamente com o site Web que está a visitar e impedem que os atacantes na sua rede leiam ou modifiquem os dados enviados para ou a partir do site Web.
 
 <!-- markdownlint-disable-next-line -->
-**Anonymity**
+**Anonimato**
 :
 
-Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+O anonimato é a capacidade de agir sem um identificador persistente. Pode conseguir isto online com [Tor](../tor.md), que lhe permite navegar na Internet com um endereço IP e uma ligação de rede aleatórios em vez dos seus.
 :
 
-**Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
+**Pseudônimo** é um conceito semelhante, mas permite-lhe ter um identificador persistente sem que este esteja ligado à sua identidade real. Se todas as pessoas o conhece como `@GamerGuy12` online, mas ninguém sabe o seu nome verdadeiro, esse é o seu pseudónimo.
 
-Todos esses conceitos se sobrepõem, mas é possível ter qualquer combinação deles. O ponto ideal para a maioria das pessoas é quando todos esses três conceitos se coincidem. However, it's trickier to achieve than many initially believe. Às vezes, você precisa fazer um meio-termo em relação a alguns desses itens, e isso também é normal. É nesse ponto que a **modelagem de ameaças** entra em ação, permitindo que você tome decisões informadas sobre os [aplicativos e serviços](../tools.md) que você usa.
+Todos esses conceitos se sobrepõem, mas é possível ter qualquer combinação deles. O ponto ideal para a maioria das pessoas é quando todos esses três conceitos se coincidem. No entanto, é mais difícil de conseguir do que muitos pensam. Às vezes, você precisa fazer um meio-termo em relação a alguns desses itens, e isso também é normal. É nesse ponto que a **modelagem de ameaças** entra em ação, permitindo que você tome decisões informadas sobre os [aplicativos e serviços](../tools.md) que você usa.
 
 [:material-book-outline: Saiba Mais Sobre a Modelagem de Ameaças](threat-modeling.md ""){.md-button}
 
@@ -44,7 +44,7 @@ Todos esses conceitos se sobrepõem, mas é possível ter qualquer combinação 
 
 Um contra-argumento comum aos movimentos pró-privacidade é a ideia de que uma pessoa não precisa de privacidade se não tiver **"nada a esconder"**. Essa é uma concepção falsa e perigosa, pois cria a sensação de que as pessoas que pedem privacidade devem ser desonestas, criminosas ou mal-intencionadas.
 
-==Você nunca pode confundir privacidade com segredo.== Nós sabemos o que acontece no banheiro, mas mesmo assim você fecha a porta. That's because you want privacy, not secrecy. Sempre há certos fatos sobre nós — digamos, informações pessoais de saúde ou comportamento sexual — que não gostaríamos que o mundo inteiro soubesse, e tudo bem. A necessidade de privacidade é natural, e é isso que nos torna humanos. Privacidade é sobre fortalecer seus direitos sobre suas próprias informações, não sobre esconder segredos.
+==Você nunca pode confundir privacidade com segredo.== Nós sabemos o que acontece no banheiro, mas mesmo assim você fecha a porta. Isso é porque quer privacidade, não segredo. Sempre há certos fatos sobre nós — digamos, informações pessoais de saúde ou comportamento sexual — que não gostaríamos que o mundo inteiro soubesse, e tudo bem. A necessidade de privacidade é natural, e é isso que nos torna humanos. Privacidade é sobre fortalecer seus direitos sobre suas próprias informações, não sobre esconder segredos.
 
 ## Privacidade Fala Sobre Controle?
 
@@ -58,6 +58,6 @@ Privacidade é algo que precisa estar incluído por padrão nos [aplicativos e s
 
 ## Fontes
 
-- [Why Privacy Matters](https://amazon.com/dp/0190939044) (2021) by Neil Richards
-- [The New Oil: Why Privacy & Security Matter](https://thenewoil.org/en/guides/prologue/why)
-- [@Thorin-Oakenpants on Anonymity vs Privacy vs Security](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452)
+- [Porque é que a privacidade é importante](https://amazon.com/dp/0190939044) (2021) de Neil Richards
+- [O novo petróleo: Porquê a privacidade & Questão de segurança](https://thenewoil.org/en/guides/prologue/why)
+- [@Thorin-Oakenpants sobre Anonimato vs Privacidade vs Segurança](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452)
