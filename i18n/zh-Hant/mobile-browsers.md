@@ -77,13 +77,13 @@ Tor 瀏覽器是真正匿名瀏覽網際網路的唯一途徑。 當您使用 Br
 
 === "Android"
 
-    These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**.
+    這些選項可以在 :material-menu: → **設定** → **Brave 防護與安全性** 中找到。
 
 === "iOS"
 
     These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy**.
 
-#### Brave shields global defaults
+#### Brave 防護全域預設設定
 
 Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shields)功能包含一些防指紋識別措施。 我們建議在您訪問的所有網頁上[全域](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)套用這些設定。
 
@@ -97,23 +97,23 @@ Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shi
     - [x] 勾選 **自動重定向 AMP 頁面**
     - [x] 勾選 **自動重新導向追蹤 URL**
     - [x] 將 *升級連線至 HTTPS* 設定為 **要求所有連線使用 HTTPS（嚴格）**
-    - \[x\] (Optional) Select **Block Scripts** (1)
-    - [x] Select **Block third-party cookies** under *Block Cookies*
-    - [x] Select **Block Fingerprinting**
-    - [x] Select **Prevent fingerprinting via language settings**
+    - [x] （可選）勾選 **阻擋指令稿** (1)
+    - [x] 將 *封鎖 Cookies* 設定為 **封鎖第三方 Cookie**
+    - [x] 勾選 **封鎖指紋識別**
+    - [x] 勾選 **透過語言設定防止指紋辨識攻擊**
 
     <details class="warning" markdown>
-    <summary>Use default filter lists</summary>
+    <summary>使用預設篩選清單</summary>
 
-    Brave allows you to select additional content filters within the **Content Filtering** menu or the internal `brave://adblock` page. 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
+    Brave 允許您在 **內容過濾** 選單或瀏覽器內部的 `brave://adblock` 頁面中啟用其他內容篩選清單。 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
 
     </details>
 
-    - [x] Select **Forget me when I close this site**
+    - [x] 勾選 **當我關閉此網站時忘記我**
 
     </div>
 
-    1. 此選項會停用 JavaScript，這會破壞許多網站。 To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. 此選項會停用 JavaScript，這會破壞許多網站。 若您想要避免破壞它們，您可以為每個需要的網站設定例外，方法是按一下網址列上的 Shield 圖示，然後在 *進階控制* 下取消勾選此設定。
 
 === "iOS"
 
@@ -123,11 +123,11 @@ Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shi
     - [x] Select **Strict** under *Upgrade Connections to HTTPS*
     - [x] Select **Auto-Redirect AMP pages**
     - [x] Select **Auto-Redirect Tracking URLs**
-    - \[x\] (Optional) Select **Block Scripts** (1)
-    - [x] Select **Block Fingerprinting**
+    - [x] （可選）勾選 **阻擋指令稿** (1)
+    - [x] 勾選 **封鎖指紋識別**
 
     <details class="warning" markdown>
-    <summary>Use default filter lists</summary>
+    <summary>使用預設篩選清單</summary>
 
     Brave allows you to select additional content filters within the **Content Filtering** menu. 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
 
@@ -135,13 +135,13 @@ Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shi
 
     </div>
 
-    1. 此選項會停用 JavaScript，這會破壞許多網站。 To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. 此選項會停用 JavaScript，這會破壞許多網站。 若您想要避免破壞它們，您可以為每個需要的網站設定例外，方法是按一下網址列上的 Shield 圖示，然後在 *進階控制* 下取消勾選此設定。
 
-##### Clear browsing data (Android only)
+##### 清除瀏覽資料（僅適用於 Android）
 
 - [x] 勾選 **結束時清除資料**
 
-##### Social Media Blocking (Android only)
+##### 阻擋社群媒體（僅適用於 Android）
 
 - [ ] 取消勾選所有社交媒體元件
 
@@ -151,10 +151,10 @@ Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shi
 
     <div class="annotate" markdown>
 
-    - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-    - \[x\] (Optional) Select **No protection** under *Safe Browsing* (1)
-    - [ ] Uncheck **Allow sites to check if you have payment methods saved**
-    - [x] Select **Close tabs on exit**
+    - [x] 將 [*WebRTC IP 處理政策*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc) 設定為 **停用非代理 UDP**
+    - [x] （可選） 將 *安全瀏覽* 設定為 **無防護** (1)
+    - [ ] 取消勾選 **允許網站檢查是否有已儲存的付款方式**
+    - [x] 勾選 **退出時關閉分頁**
     - [ ] 取消勾選 **允許保護私隱的產品分析 (P3A)**
     - [ ] 取消勾選 **自動傳送診斷報告**
     - [ ] 取消勾選 **自動傳送每日使用 ping 到 Brave**
