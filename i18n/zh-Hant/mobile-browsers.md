@@ -93,10 +93,10 @@ Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shi
 
     <div class="annotate" markdown>
 
-    - [x] Select **Aggressive** under *Block trackers & ads*
-    - [x] Select **Auto-redirect AMP pages**
-    - [x] Select **Auto-redirect tracking URLs**
-    - [x] Select **Require all connections to use HTTPS (strict)** under *Upgrade connections to HTTPS*
+    - [x] 在 *封鎖追蹤器與廣告* 下選擇 **積極**
+    - [x] 勾選 **自動重定向 AMP 頁面**
+    - [x] 勾選 **自動重新導向追蹤 URL**
+    - [x] 將 *升級連線至 HTTPS* 設定為 **要求所有連線使用 HTTPS（嚴格）**
     - \[x\] (Optional) Select **Block Scripts** (1)
     - [x] Select **Block third-party cookies** under *Block Cookies*
     - [x] Select **Block Fingerprinting**
@@ -113,7 +113,7 @@ Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shi
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. 此選項會停用 JavaScript，這會破壞許多網站。 To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 === "iOS"
 
@@ -135,7 +135,7 @@ Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shi
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. 此選項會停用 JavaScript，這會破壞許多網站。 To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 ##### Clear browsing data (Android only)
 

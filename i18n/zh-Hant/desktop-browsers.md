@@ -295,20 +295,20 @@ Brave 允許您在內部網頁 brave://settings/shields/filters 內選擇額外�
 
 </div>
 
-1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
-2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+1. 此選項會停用 JavaScript，這會破壞許多網站。 若您想要避免破壞它們，您可以為每個需要的網站設定例外，方法是按一下網址列上的 Shield 圖示，然後在 *進階控制* 下取消勾選此設定。
+2. 如果您希望在經常造訪的特定網站保持登入狀態，您可以按個別網站設定例外情況，方法是按一下位址列上的 Shield 圖示，然後在 *進階控制* 下取消勾選此設定。
 
 #### 隱私權和安全性
 
 <div class="annotate" markdown>
 
-- [x] Select **Don't allow sites to use the V8 optimizer** under *Security* → *Manage V8 security* (1)
-- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
-- [x] Select **Disable non-proxied UDP** under [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [x] Select **Auto-redirect AMP pages**
-- [x] Select **Auto-redirect tracking URLs**
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- [x] 在 *安全性* → *管理 V8 安全性* 底下選擇**禁止網站使用 V8 最佳化工具** (1)
+- [x] 在 *網站與 Shields 設定* 下選擇 **自動移除未使用網站的權限**
+- [x] 在 [*WebRTC IP 處理政策*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc) 下選擇 **停用非代理 UDP**
+- [ ] 取消勾選 **使用 Google 服務來推播訊息**
+- [x] 選取 **自動重新導向 AMP 頁面**
+- [x] 選取 **自動重新導向追蹤 URL**
+- [x] 選取 **根據我的語言偏好設定，防止網站識別我的指紋**
 
 </div>
 
