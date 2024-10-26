@@ -82,54 +82,54 @@ A pesar de los nombres de estas directivas, esto no _requiere_ que hagas nada po
 - Requerir Ruta de Acceso de Confianza para la Entrada de Credenciales: **Habilitada**
 - Impedir el Uso de Preguntas de Seguridad en las Cuentas Locales: **Habilitada**
 
-#### Recopilación de Datos y Compilaciones Preliminares
+#### Recopilación de Datos y Versiones Preliminares
 
-- Permitir Telemetría: **Habilitada**
-  - Opciones: **Requerido** (Edición Pro); o
-  - Options: **Diagnostic data off** (Enterprise or Education Edition)
-- Limit Diagnostic Log Collection: **Enabled**
-- Limit Dump Collection: **Enabled**
-- Limitar los Datos de Diagnóstico de Nivel Mejorado al Valor Mínimo Requerido por Windows Analytics: **Habilitada**
-  - Opciones: **Deshabilitar la Recopilación de Análisis de Windows**
+- Permitir Datos de Diagnóstico: **Habilitada**
+  - Opciones: **Enviar Datos de Diagnóstico Necesarios** (Edición Pro); o
+  - Opciones: **Datos de Diagnóstico Desactivados** (Edición Enterprise o Education)
+- Limitar Recopilación de Registros de Diagnóstico: **Habilitada**
+- Limitarn Recopilación de Volcados: **Habilitada**
+- Limitar los Datos de Diagnóstico Opcionales para el Análisis de Escritorio: **Habilitada**
+  - Opciones: **Desactivar la Colección de Análisis de Escritorio**
 - No Volver a Mostrar Notificaciones de Comentarios: **Habilitada**
 
-#### File Explorer
+#### Explorador de Archivos
 
-- Turn off account-based insights, recent, favorite, and recommended files in File Explorer: **Enabled**
+- Desactivar la Información Basada en Cuentas, los Archivos Recientes, Favoritos y Recomendados en Explorador de Archivos: **Habilitada**
 
 #### MDM
 
-- Disable MDM Enrollment: **Enabled**
+- Deshabilitar la Inscripción de MDM: **Habilitada**
 
 #### OneDrive
 
-- Save documents to OneDrive by default: **Disabled**
-- Prevent OneDrive from generating network traffic until the user signs in to OneDrive: **Enabled**
-- Prevent the usage of OneDrive for file storage: **Enabled**
+- Guardar Documentos en OneDrive de Forma Predeterminada: **Deshabilitada**
+- Impedir que se Está Generando el Tráfico de Red Hasta que el Usuario Inicia Sesión en OneDrive OneDrive: **Habilitada**
+- Impedir el Uso de OneDrive para Almacenar Archivos: **Habilitada**
 
-This last setting disables OneDrive on your system; make sure to change it to **Disabled** if you use OneDrive.
+Este último ajuste desactiva OneDrive en tu sistema; asegúrate de cambiarlo a **Deshabilitada** si utilizas OneDrive.
 
-#### Push To Install
+#### Insertar para Instalar
 
-- Turn off Push To Install service: **Enabled**
+- Desactivar el Servicio Inesrtar para Instalar: **Habilitada**
 
 #### Buscar
 
-- Allow Cortana: **Disabled**
-- Don't search the web or display web results in Search: **Enabled**
-- Set what information is shared in Search: **Enabled**
-  - Type of information: **Anonymous info**
+- Permitir el Uso de Cortana: **Deshabilitada**
+- No buscar en Internet o Mostrar Resultados de Internet en Search: **Habilitada**
+- Definir Qué Información se Comparte en Search: **Habilitada**
+  - Tipo de información: **Información anónima**
 
-#### Sync your settings
+#### Sincronizar la Configuración
 
-- Do not sync: **Enabled**
+- No Sincronizar: **Habilitada**
 
-#### Text input
+#### Entrada de Texto
 
-- Improve inking and typing recognition: **Disabled**
+- Mejorar el Reconocimiento de la Escritura y la Entrada Manuscrita: **Deshabilitada**
 
-#### Windows Error Reporting
+#### Informes de Errores de Windows
 
-- Do not send additional data: **Enabled**
-- Consent > Configure Default consent: **Enabled**
-  - Consent level: **Always ask before sending data**
+- No Enviar Datos Adicionales: **Habilitada**
+- Consentimiento > Configurar Consentimiento Predeterminado: **Habilitada**
+  - Nivel de consentimiento: **Preguntar siempre antes de enviar datos**
