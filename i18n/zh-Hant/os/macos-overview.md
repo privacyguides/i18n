@@ -20,7 +20,7 @@ description: macOS 是蘋果電腦的桌面作業系統，搭配其自家硬體�
 
 當開啟應用程式時，macOS 會執行連線檢查，驗證應用程式是否包含已知惡意軟體，以及開發人員的簽名證書是否被撤銷。
 
-過去這些檢查是通過未加密的 OCSP 協議執行，因此可能會將您運行的應用程式資料洩露到網路上。 Apple 在 2021 年將其 OCSP 服務升級為 HTTPS 加密，並[發布了該服務的日誌記錄政策資訊](https://support.apple.com/HT202491)。 他們還承諾添加一種機制，讓用戶可選擇退出此連線檢查，但截至 2023 年 7 月，該機制尚未添加到 macOS 。
+Apple's OCSP service uses HTTPS encryption, so only they are able to see which apps you open. They've [posted information](https://support.apple.com/HT202491) about their logging policy for this service. They additionally [promised](http://lapcatsoftware.com/articles/2024/8/3.html) to add a mechanism for people to opt-out of this online check, but this has not been added to macOS.
 
 雖然[可以](https://electiclight.co/2021/02/23/how-to-run-apps-in-private/)相對輕鬆地手動選擇退出此檢查，但除非您會受到 macOS 執行撤銷檢查的嚴重損害，不建議這樣做，它們在確保阻止受感染的應用程式運行上發揮著重要作用。
 
@@ -32,13 +32,13 @@ description: macOS 是蘋果電腦的桌面作業系統，搭配其自家硬體�
 
 如果您使用第二個帳戶，則不會嚴格要求在 macOS 登入畫面需登錄到原始管理員帳戶。 當以標準用戶身份執行需要管理員權限的操作時，系統會提示進行身份驗證，這時可以作為標準用戶單次性輸入管理員憑據。 如果希望在登錄畫面中只有一個帳戶，Apple 提供了[隱藏管理員帳戶的指南](https://support.apple.com/HT203998)。
 
-或者，您可以使用 [macOS Enterprise Privileges](https://github.com/SAP/macOS-enterprise-privileges) 之類的實用程式按需升級到管理員權限，但這可能容易受到一些未被發現弪點的利用，一如所有基於軟體的保護。
-
 ### iCloud
 
-Apple 產品的大多數隱私和安全問題與其*雲服務*有關，而不是其硬體或軟體。 當使用 iCloud 等 Apple 服務時，大部分資訊都存儲在他們的伺服器上以密鑰保護，且預設情況下 Apple 可以取用該密鑰。 這種訪問級別偶爾會被執法部門濫用，儘管您的資料在設備上還是安全加密的狀態。當然，Apple 與任何其他公司一樣容易遭受資料洩露。
+當使用 iCloud 等 Apple 服務時，大部分資訊都存儲在他們的伺服器上以密鑰保護，且預設情況下 Apple 可以取用該密鑰。 This is called [Standard Data Protection](https://support.apple.com/en-us/102651) by Apple.
 
 因此，如果使用 iCloud，則應[啟用**進階資料保護**](https://support.apple.com/HT212520)。 它利用存在設備上的密鑰對您的iCloud 數據（端到端）加密，此密鑰並不在Apple 伺服器，因此發生數據洩露時您的 iCloud 數據可得到保護與隱匿。
+
+If you want to be able to install apps from the App Store but don't want to enable iCloud, you can sign in to your Apple Account from the App Store instead of **System Settings**.
 
 ### 系統設定
 
@@ -54,7 +54,9 @@ Apple 產品的大多數隱私和安全問題與其*雲服務*有關，而不是
 
 單擊網路名稱旁邊的“詳細資訊”按鈕：
 
-- [x] 勾選**限制 IP 地址跟踪**
+- [x] Select **Rotating** under **Private Wi-Fi address**
+
+- [x] Check **Limit IP address tracking**
 
 ##### 防火牆
 
@@ -134,21 +136,13 @@ Apple 產品的大多數隱私和安全問題與其*雲服務*有關，而不是
 
 ### MAC 地址隨機化
 
-網路斷開時執行 Wi-Fi 掃描，macOS 使用隨機 MAC 位址。 但是，當連接到首選 Wi-Fi 網路時，所用的 MAC 位址不會隨機化。 完整 MAC 位址隨機化是一個進階課題，大多數人不需要擔心執行以下步驟。
+macOS uses a randomized MAC address when performing Wi-Fi scans while disconnected from a network.
 
-不同於iOS，macOS 設定中不提供隨機化 MAC 位址選項，因此如想變更此標識符，則需要使用命令或腳本來完成。 若要設定隨機 MAC 位址，如已連線請先中斷網路連線，然後開啟**終端機**並輸入下列指令以隨機化 MAC 位址：
+You can set your MAC address to be randomized per network and rotate occasionally to prevent tracking between networks and on the same network over time.
 
-``` zsh
-openssl rand -hex 6 | sed 's/^\(.\{1\}\)./\12/; s/\(..\)/\1:/g; s/.$//' | xargs sudo ifconfig en0 ether
-```
+Go to **System Settings** → **Network** → **Wi-Fi** → **Details** and set **Private Wi-Fi address** to either **Fixed** if you want a fixed but unique address for the network you're connected to, or **Rotating** if you want it to change over time.
 
-`en0` 為變更其 MAC 位址的介面名稱。 這可能並不適合每台 Mac，因此要進行檢查，可以按住 option 鍵並單擊螢幕右上角的 Wi-Fi 符號。 “介面名稱”應顯示在下拉式選單的頂部。
-
-這個指令會將 MAC 位址設定為隨機的「本機管理」位址，與 iOS、Windows 和 Android 的 MAC 位址隨機化功能的行為相符。 這意味著MAC 位址中的每個字符都是完全隨機的，除了第二個字符，它表示MAC 位址是*本地管理的*並且不與任何實際硬體衝突。 此方法與現代網路最相容。 另一種方法是將 MAC 位址的前六個字元設定為 Apple 現有的*組織唯一識別碼*之一，我們將其留給讀者練習。 該方法可能更容易與某些網路發生衝突，但較不被注意。 鑑於其他現代作業系統中隨機、本地管理的 MAC 位址已普遍存在，我們認為這兩種方法都不具有顯著的隱私優勢。
-
-再次連接到網路時，將使用隨機 MAC 位址來連線。 這將在重新開機時重置。
-
-網路上廣播的 MAC 位址並不是唯一透露裝置身份的訊息，主機名稱是另一個可識別身份的訊息。 您可能想要在**系統設定**中將主機名稱設定為通用名稱，例如「MacBook Air」、「Laptop」、「John's MacBook Pro」或「iPhone」&# 062 ; **常規** > **分享**。 某些[隱私權腳本](https://github.com/sunknudsen/privacy-guides/tree/master/how-to-spoof-mac-address-and-hostname-automatically-at-boot-on-macos#guide)可輕鬆產生隨機的主機名稱。
+Consider changing your hostname as well, which is another device identifier that's broadcast on the network you're connected to. You may wish to set your hostname to something generic like "MacBook Air", "Laptop", "John's MacBook Pro", or "iPhone" in **System Settings** → **General** → **Sharing**. 某些[隱私權腳本](https://github.com/sunknudsen/privacy-guides/tree/master/how-to-spoof-mac-address-and-hostname-automatically-at-boot-on-macos#guide)可輕鬆產生隨機的主機名稱。
 
 ## 安全保護
 
@@ -179,20 +173,61 @@ macOS 設置了某些無法覆蓋的安全限制。 這些稱為強制取用控�
 
 ##### App 沙盒
 
-2012年6月之後，從 App Store 下載的 macOS 應用需要使用[應用沙箱](https://developer.apple.com/documentation/security/app_sandbox)進行沙箱處理。
+On macOS, whether an app is sandboxed is determined by the developer when they sign it. The App Sandbox protects against vulnerabilities in the apps you run by limiting what a malicious actor can access in the event that the app is exploited. The App Sandbox *alone* can't protect against [:material-package-variant-closed-remove: Supply Chain Attacks](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian} by malicious developers. For that, sandboxing needs to be enforced by someone other than the developer themselves, as it is on the App Store.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-從官方 App Store 之外下載的軟體不需要沙盒。 應盡可能避免使用非 App Store 軟體。
+從官方 App Store 之外下載的軟體不需要沙盒。 If your threat model prioritizes defending against [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }, then you may want to check if the software you download outside the App Store is sandboxed, which is up to the developer to *opt in*.
 
 </div>
+
+You can check if an app uses the App Sandbox in a few ways:
+
+You can check if apps that are already running are sandboxed using the [Activity Monitor](https://developer.apple.com/documentation/security/protecting-user-data-with-app-sandbox#Verify-that-your-app-uses-App-Sandbox).
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">警告</p>
+
+Just because one of an app's processes is sandboxed doesn't mean they all are.
+
+</div>
+
+Alternatively, you can check apps before you run them by running this command in the terminal:
+
+``` zsh
+% codesign -dvvv --entitlements - <path to your app>
+```
+
+If an app is sandboxed, you should see the following output:
+
+``` zsh
+    [Key] com.apple.security.app-sandbox
+    [Value]
+        [Bool] true
+```
+
+If you find that the app you want to run is not sandboxed, then you may employ methods of [compartmentalization](../basics/common-threats.md#security-and-privacy) such as virtual machines or separate devices, use a similar app that is sandboxed, or choose to not use the unsandboxed app altogether.
+
+##### Hardened Runtime
+
+The [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime) is an extra form of protection for apps that prevents certain classes of exploits. It improves the security of apps against exploitation by disabling certain features like JIT.
+
+You can check if an app uses the Hardened Runtime using this command:
+
+``` zsh
+codesign --display --verbose /path/to/bundle.app
+```
+
+If Hardened Runtime is enabled, you will see `flags=0x10000(runtime)`. The `runtime` output means Hardened Runtime is enabled. There might be other flags, but the runtime flag is what we're looking for here.
+
+You can enable a column in Activity Monitor called "Restricted" which is a flag that prevents programs from injecting code via macOS's [dynamic linker](https://pewpewthespells.com/blog/blocking_code_injection_on_ios_and_os_x.html). Ideally, this should say "Yes".
 
 ##### 防毒軟體
 
 macOS 提供兩種惡意軟體防禦形式：
 
-1. 首先，防止啟動惡意軟體是由 App Store 對 App Store 應用程式的審核流程或*公證*（*Gatekeeper* 的一部份），這是 Apple 允許運行之前掃描第三方應用程式是否存在已知惡意軟體的程序。
+1. 首先，防止啟動惡意軟體是由 App Store 對 App Store 應用程式的審核流程或*公證*（*Gatekeeper* 的一部份），這是 Apple 允許運行之前掃描第三方應用程式是否存在已知惡意軟體的程序。 Apps are required to be signed by the developers using a key given to them by Apple. This ensures that you are running software from the real developers. Notarization also requires that developers enable the Hardened Runtime for their apps, which limits methods of exploitation.
 2. *XProtect* 提供針對其他惡意軟體的防護以及修復系統上現有惡意軟體，XProtect 是 macOS 內建較傳統的防病毒軟體。
 
 建議不要安裝第三方防毒軟體，它們通常不具備正常運行所需的系統取用權限，因為Apple 對第三方應用程序的限制，授予它們要求的高級別取用權限常會帶來麻煩。對電腦造成更大的安全和隱私風險。

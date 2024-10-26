@@ -20,7 +20,7 @@ description: macOS is Apple's desktop operating system that works with their har
 
 macOS מבצעת בדיקות מקוונות כאשר אתה פותח אפליקציה כדי לוודא אם אפליקציה מכילה תוכנה זדונית ידועה, והאם אישור החתימה של המפתח נשלל.
 
-בעבר, בדיקות אלו בוצעו באמצעות פרוטוקול OCSP לא מוצפן שיכול היה להדליף מידע על האפליקציות שהרצת לרשת שלך. אפל שדרגה את שירות ה-OCSP שלה לשימוש בהצפנת HTTPS בשנת 2021, ו[פרסמה מידע](https://support.apple.com/HT202491) על מדיניות הרישום שלהם עבור שירות זה. בנוסף, הם הבטיחו להוסיף מנגנון שיאפשר לאנשים לבטל את הסכמתם לבדיקה המקוונת הזו, אך זה לא התווסף ל-macOS נכון ליולי 2023.
+Apple's OCSP service uses HTTPS encryption, so only they are able to see which apps you open. They've [posted information](https://support.apple.com/HT202491) about their logging policy for this service. They additionally [promised](http://lapcatsoftware.com/articles/2024/8/3.html) to add a mechanism for people to opt-out of this online check, but this has not been added to macOS.
 
 While you [can](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private) manually opt out of this check relatively easily, we recommend against doing so unless you would be badly compromised by the revocation checks performed by macOS, because they serve an important role in ensuring compromised apps are blocked from running.
 
@@ -32,13 +32,13 @@ However, exploits in protective utilities like `sudo` have been [discovered in t
 
 אם אתה משתמש בחשבון שני, אין צורך בהחלט להיכנס לחשבון המנהל המקורי שלך ממסך הכניסה של macOS. כאשר אתה עושה משהו כמשתמש רגיל הדורש הרשאות מנהל מערכת, המערכת אמורה לבקש ממך אימות, שם תוכל להזין את אישורי המנהל שלך כמשתמש הרגיל שלך באופן חד פעמי. אפל מספקת [הנחיות](https://support.apple.com/HT203998) להסתרת חשבון המנהל שלך אם אתה מעדיף לראות רק חשבון בודד במסך ההתחברות שלך.
 
-לחלופין, אתה יכול להשתמש בכלי שירות כמו [macOS Enterprise Privileges](https://github.com/SAP/macOS-enterprise-privileges) כדי להסלים לזכויות מנהל על פי דרישה, אבל זה עשוי להיות פגיע לניצול שלא התגלה, כמו כל הגנות מבוססות תוכנה.
-
 ### iCloud
 
-רוב דאגות הפרטיות והאבטחה של מוצרי אפל קשורות ל*שירותי הענן* שלהם, לא לחומרה או לתוכנה שלהם. כאשר אתה משתמש בשירותי אפל כמו iCloud, רוב המידע שלך מאוחסן בשרתים שלהם ומאובטח באמצעות מפתחות *שאלם יש לאפל גישה* כברירת מחדל. רמת הגישה הזו נוצלה מדי פעם על ידי רשויות אכיפת החוק כדי לעקוף את העובדה שהנתונים שלך מוצפנים בצורה מאובטחת במכשיר שלך, וכמובן שאפל חשופה לפרצות מידע כמו כל חברה אחרת.
+כאשר אתה משתמש בשירותי אפל כמו iCloud, רוב המידע שלך מאוחסן בשרתים שלהם ומאובטח באמצעות מפתחות *שאלם יש לאפל גישה* כברירת מחדל. This is called [Standard Data Protection](https://support.apple.com/en-us/102651) by Apple.
 
 לכן, אם אתה משתמש ב-iCloud, עליך [להפעיל את **הגנת נתונים מתקדמת**](https://support.apple.com/HT212520). זה מצפין כמעט את כל נתוני ה-iCloud שלך עם מפתחות המאוחסנים במכשירים שלך (הצפנה מקצה לקצה), ולא בשרתים של אפל, כך שנתוני ה-iCloud שלך מאובטחים במקרה של הפרת נתונים, ומוסתרים אחרת מאפל.
+
+If you want to be able to install apps from the App Store but don't want to enable iCloud, you can sign in to your Apple Account from the App Store instead of **System Settings**.
 
 ### הגדרות מערכת
 
@@ -54,7 +54,9 @@ However, exploits in protective utilities like `sudo` have been [discovered in t
 
 לחץ על כפתור "פרטים" לפי שם הרשת שלך:
 
-- [x] סמן את **הגבלת מעקב אחר כתובות IP**
+- [x] Select **Rotating** under **Private Wi-Fi address**
+
+- [x] Check **Limit IP address tracking**
 
 ##### חומת-אש
 
@@ -134,21 +136,13 @@ However, exploits in protective utilities like `sudo` have been [discovered in t
 
 ### כתובת MAC אקראית
 
-macOS משתמש בכתובת MAC אקראית בעת ביצוע סריקות Wi-Fi בזמן ניתוק מרשת. עם זאת, כאשר אתה מתחבר לרשת Wi-Fi מועדפת, כתובת ה-MAC המשמשת לעולם אינה אקראית. אקראיות מלאה של כתובות MAC היא נושא מתקדם, ורוב האנשים לא צריכים לדאוג לגבי ביצוע השלבים הבאים.
+macOS uses a randomized MAC address when performing Wi-Fi scans while disconnected from a network.
 
-בניגוד ל-iOS, macOS לא נותן לך אפשרות לעשות אקראי את כתובת ה-MAC שלך בהגדרות, כך שאם תרצה לשנות מזהה זה, תצטרך לעשות זאת עם פקודה או סקריפט. כדי להגדיר כתובת MAC אקראית, ראשית התנתק מהרשת אם אתה כבר מחובר, ואז פתח את **Terminal** והזן פקודה זו כדי להפוך את כתובת ה-MAC שלך באקראי:
+You can set your MAC address to be randomized per network and rotate occasionally to prevent tracking between networks and on the same network over time.
 
-``` zsh
-openssl rand -hex 6 | sed 's/^\(.\{1\}\)./\12/; s/\(..\)/\1:/g; s/.$//' | xargs sudo ifconfig en0 ether
-```
+Go to **System Settings** → **Network** → **Wi-Fi** → **Details** and set **Private Wi-Fi address** to either **Fixed** if you want a fixed but unique address for the network you're connected to, or **Rotating** if you want it to change over time.
 
-`en0` הוא שם הממשק שעבורו אתה משנה את כתובת ה-MAC. ייתכן שזה לא המתאים בכל Mac, אז כדי לבדוק אתה יכול להחזיק את מקש האפשרות וללחוץ על סמל ה- Wi-Fi בפינה השמאלית העליונה של המסך. "שם ממשק" אמור להיות מוצג בחלק העליון של התפריט הנפתח.
-
-פקודה זו מגדירה את כתובת ה-MAC שלך לכתובת אקראית, "מנוהלת מקומית", התואמת את ההתנהגות של תכונות האקראיות של כתובות MAC של iOS, Windows ו-Android. משמעות הדבר היא שכל תו בכתובת ה-MAC הוא אקראי לחלוטין מלבד התו השני, המציין את כתובת ה-MAC כ*מנוהלת מקומית* ואינה מתנגשת עם חומרה ממשית כלשהי. שיטה זו מתאימה ביותר לרשתות מודרניות. שיטה חלופית היא להגדיר את ששת התווים הראשונים של כתובת ה-MAC לאחד מ*מזהים ייחודיים ארגוניים* הקיימים של אפל, אותם נשאיר כתרגיל לקורא. סביר יותר ששיטה זו תתנגש עם רשתות מסוימות, אך עשויה להיות פחות בולטת. בהתחשב בשכיחותן של כתובות MAC אקראיות המנוהלות מקומית במערכות הפעלה מודרניות אחרות, איננו חושבים שלכל אחת מהשיטות יש יתרונות פרטיות משמעותיים על פני האחרת.
-
-כאשר תתחבר שוב לרשת, תתחבר עם כתובת MAC אקראית. זה יאופס עם אתחול מחדש.
-
-כתובת ה-MAC שלך היא לא המידע הייחודי היחיד על המכשיר שלך המשודר ברשת, שם המארח שלך הוא עוד פיסת מידע שיכולה לזהות אותך באופן ייחודי. ייתכן שתרצה להגדיר את שם המארח שלך למשהו כללי כמו "MacBook Air", "Laptop", "John's MacBook Pro" או "iPhone" ב**הגדרות מערכת** > **כללי** > **שיתוף**. כמה [סקריפטים של פרטיות](https://github.com/sunknudsen/privacy-guides/tree/master/how-to-spoof-mac-address-and-hostname-automatically-at-boot-on-macos#guide) מאפשרים לך ליצור בקלות שמות מארח עם שמות אקראיים.
+Consider changing your hostname as well, which is another device identifier that's broadcast on the network you're connected to. You may wish to set your hostname to something generic like "MacBook Air", "Laptop", "John's MacBook Pro", or "iPhone" in **System Settings** → **General** → **Sharing**. כמה [סקריפטים של פרטיות](https://github.com/sunknudsen/privacy-guides/tree/master/how-to-spoof-mac-address-and-hostname-automatically-at-boot-on-macos#guide) מאפשרים לך ליצור בקלות שמות מארח עם שמות אקראיים.
 
 ## הגנות אבטחה
 
@@ -179,20 +173,61 @@ macOS מגדיר מגבלות אבטחה מסוימות שלא ניתן לעקו
 
 ##### ארגז חול לאפליקציה
 
-macOS apps submitted to the App Store after June 1, 2012 are required to be sandboxed using the [App Sandbox](https://developer.apple.com/documentation/security/app_sandbox).
+On macOS, whether an app is sandboxed is determined by the developer when they sign it. The App Sandbox protects against vulnerabilities in the apps you run by limiting what a malicious actor can access in the event that the app is exploited. The App Sandbox *alone* can't protect against [:material-package-variant-closed-remove: Supply Chain Attacks](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian} by malicious developers. For that, sandboxing needs to be enforced by someone other than the developer themselves, as it is on the App Store.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-תוכנה שהורדה מחוץ לחנות האפליקציות הרשמית אינה חייבת להיות בארגז חול. עליך להימנע ככל האפשר מתוכנות שאינן ב-App Store.
+תוכנה שהורדה מחוץ לחנות האפליקציות הרשמית אינה חייבת להיות בארגז חול. If your threat model prioritizes defending against [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }, then you may want to check if the software you download outside the App Store is sandboxed, which is up to the developer to *opt in*.
 
 </div>
+
+You can check if an app uses the App Sandbox in a few ways:
+
+You can check if apps that are already running are sandboxed using the [Activity Monitor](https://developer.apple.com/documentation/security/protecting-user-data-with-app-sandbox#Verify-that-your-app-uses-App-Sandbox).
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+Just because one of an app's processes is sandboxed doesn't mean they all are.
+
+</div>
+
+Alternatively, you can check apps before you run them by running this command in the terminal:
+
+``` zsh
+% codesign -dvvv --entitlements - <path to your app>
+```
+
+If an app is sandboxed, you should see the following output:
+
+``` zsh
+    [Key] com.apple.security.app-sandbox
+    [Value]
+        [Bool] true
+```
+
+If you find that the app you want to run is not sandboxed, then you may employ methods of [compartmentalization](../basics/common-threats.md#security-and-privacy) such as virtual machines or separate devices, use a similar app that is sandboxed, or choose to not use the unsandboxed app altogether.
+
+##### Hardened Runtime
+
+The [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime) is an extra form of protection for apps that prevents certain classes of exploits. It improves the security of apps against exploitation by disabling certain features like JIT.
+
+You can check if an app uses the Hardened Runtime using this command:
+
+``` zsh
+codesign --display --verbose /path/to/bundle.app
+```
+
+If Hardened Runtime is enabled, you will see `flags=0x10000(runtime)`. The `runtime` output means Hardened Runtime is enabled. There might be other flags, but the runtime flag is what we're looking for here.
+
+You can enable a column in Activity Monitor called "Restricted" which is a flag that prevents programs from injecting code via macOS's [dynamic linker](https://pewpewthespells.com/blog/blocking_code_injection_on_ios_and_os_x.html). Ideally, this should say "Yes".
 
 ##### אנטי וירוס
 
 macOS מגיע עם שתי צורות של הגנה מפני תוכנות זדוניות:
 
-1. הגנה מפני הפעלת תוכנות זדוניות מלכתחילה מסופקת על ידי תהליך הבדיקה של App Store עבור יישומי App Store, או *אישור נוטריוני* (חלק מ* Gatekeeper*), תהליך שבו יישומי צד שלישי נסרקים לאיתור תוכנות זדוניות ידועות על ידי אפל לפני שהם מורשים לפעול.
+1. הגנה מפני הפעלת תוכנות זדוניות מלכתחילה מסופקת על ידי תהליך הבדיקה של App Store עבור יישומי App Store, או *אישור נוטריוני* (חלק מ* Gatekeeper*), תהליך שבו יישומי צד שלישי נסרקים לאיתור תוכנות זדוניות ידועות על ידי אפל לפני שהם מורשים לפעול. Apps are required to be signed by the developers using a key given to them by Apple. This ensures that you are running software from the real developers. Notarization also requires that developers enable the Hardened Runtime for their apps, which limits methods of exploitation.
 2. הגנה מפני תוכנות זדוניות אחרות ותיקון מתוכנות זדוניות קיימות במערכת שלך מסופקת על ידי *XProtect*, תוכנת אנטי-וירוס מסורתית יותר המובנית ב-macOS.
 
 אנו ממליצים לא להתקין תוכנת אנטי-וירוס של צד שלישי מכיוון שבדרך כלל אין להם את הגישה ברמת המערכת הנדרשת לתפקוד תקין בכל מקרה, בגלל המגבלות של אפל על אפליקציות של צד שלישי, ומכיוון שהענקת רמות הגישה הגבוהות שהם מבקשים מייצגת לעתים קרובות סיכון אבטחה ופרטיות גדול עוד יותר למחשב שלך.

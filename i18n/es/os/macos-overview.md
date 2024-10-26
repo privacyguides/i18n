@@ -20,7 +20,7 @@ Los nuevos dispositivos de Apple Silicon pueden configurarse sin una conexión a
 
 macOS realiza comprobaciones en línea al abrir una aplicación para verificar si contiene malware conocido y si el certificado de firma del desarrollador es revocado.
 
-Anteriormente, estas comprobaciones se realizaban a través de un protocolo OCSP no cifrado que podía filtrar información sobre las aplicaciones que ejecutaba en tu red. Apple actualizó su servicio OCSP para utilizar el cifrado HTTPS en 2021, y [publicó información](https://support.apple.com/HT202491) sobre su política de registro para este servicio. Además, prometieron añadir un mecanismo para que las personas pudieran optar por no participar en esta comprobación en línea, pero esto no se ha añadido a macOS todavía (julio de 2023).
+Apple's OCSP service uses HTTPS encryption, so only they are able to see which apps you open. They've [posted information](https://support.apple.com/HT202491) about their logging policy for this service. They additionally [promised](http://lapcatsoftware.com/articles/2024/8/3.html) to add a mechanism for people to opt-out of this online check, but this has not been added to macOS.
 
 Aunque [puedes](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private) excluirte manualmente de esta comprobación con relativa facilidad, recomendamos no hacerlo a menos que las comprobaciones de revocación realizadas por macOS te pongan en grave peligro, ya que desempeñan un papel importante a la hora de garantizar que se bloquee la ejecución de aplicaciones comprometidas.
 
@@ -32,13 +32,13 @@ Sin embargo, en utilidades de protección como `sudo`, [en el pasado](https://bo
 
 Si utilizas una segunda cuenta, no es estrictamente necesario que inicies sesión en tu cuenta de Administrador original desde la pantalla de inicio de sesión de macOS. Cuando estés haciendo algo como usuario Estándar que requiera permisos de Administrador, el sistema debería pedirte autenticación, donde puedes introducir tus credenciales de Administrador como usuario Estándar una sola vez. Apple proporciona [orientación](https://support.apple.com/HT203998) sobre cómo ocultar tu cuenta de Administrador si prefieres ver sólo una cuenta en tu pantalla de inicio de sesión.
 
-Alternativamente, puedes utilizar una utilidad como [macOS Enterprise Privileges](https://github.com/SAP/macOS-enterprise-privileges) para escalar a derechos de Administrador bajo demanda, pero esto puede ser vulnerable a algún exploit no descubierto, como todas las protecciones basadas en software.
-
 ### iCloud
 
-La mayoría de los problemas de privacidad y seguridad de los productos Apple están relacionados con sus *servicios en la nube*, no con su hardware o software. Cuando utilizas servicios de Apple como iCloud, la mayor parte de tu información se almacena en sus servidores y se protege con claves *a las que Apple tiene acceso* por defecto. En ocasiones, las fuerzas de seguridad han abusado de este nivel de acceso para eludir el hecho de que tus datos están cifrados de forma segura en tu dispositivo y, por supuesto, Apple es vulnerable a las filtraciones de datos como cualquier otra empresa.
+Cuando utilizas servicios de Apple como iCloud, la mayor parte de tu información se almacena en sus servidores y se protege con claves *a las que Apple tiene acceso* por defecto. This is called [Standard Data Protection](https://support.apple.com/en-us/102651) by Apple.
 
 Por lo tanto, si utilizas iCloud, deberías activar la [ **Protección de Datos Avanzada**](https://support.apple.com/HT212520). Esto encripta casi todos tus datos de iCloud con claves almacenadas en tus dispositivos (encriptación de extremo a extremo), en lugar de en los servidores de Apple, de modo que tus datos de iCloud están protegidos en caso de violación de datos y, por lo demás, ocultos a Apple.
+
+If you want to be able to install apps from the App Store but don't want to enable iCloud, you can sign in to your Apple Account from the App Store instead of **System Settings**.
 
 ### Ajustes del Sistema
 
@@ -54,7 +54,9 @@ Dependiendo de si estás utilizando **Wi-Fi** o **Ethernet** (indicado con un pu
 
 Haz clic en el botón "Detalles" junto al nombre de tu red:
 
-- [x] Selecciona **Limitar rastreo de dirección IP**
+- [x] Select **Rotating** under **Private Wi-Fi address**
+
+- [x] Check **Limit IP address tracking**
 
 ##### Firewall
 
@@ -134,21 +136,13 @@ El [modo hermético](https://blog.privacyguides.org/2022/10/27/macos-ventura-pri
 
 ### Aleatorización de direcciones Mac
 
-macOS utiliza una dirección MAC aleatoria cuando realiza escaneos Wi-FI mientras está desconectado de una red. Sin embargo, cuando se conecta a una red Wi-Fi preferida, la dirección MAC utilizada nunca es aleatoria. La aleatorización completa de direcciones MAC es un tema avanzado y la mayoría de las personas no necesita preocuparse sobre realizar los siguientes pasos.
+macOS uses a randomized MAC address when performing Wi-Fi scans while disconnected from a network.
 
-A diferencia de iOS, macOS no proporciona una opción para aleatorizar la dirección MAC en los ajustes, por lo que si deseas modificar este identificador, necesitas hacerlo con un comando o un script. Para establecer una dirección MAC aleatoria, primero debe desconectarse de la red si ya está conectado, luego debe abrir la **Terminal** e ingresar este comando para aleatorizar la dirección MAC:
+You can set your MAC address to be randomized per network and rotate occasionally to prevent tracking between networks and on the same network over time.
 
-``` zsh
-openssl rand -hex 6 | sed 's/^\(.\{1\}\)./\12/; s/\(..\)/\1:/g; s/.$//' | xargs sudo ifconfig en0 ether
-```
+Go to **System Settings** → **Network** → **Wi-Fi** → **Details** and set **Private Wi-Fi address** to either **Fixed** if you want a fixed but unique address for the network you're connected to, or **Rotating** if you want it to change over time.
 
-`en0` es el nombre de la interfaz a la que le está cambiando la dirección MAC. Puede que esto no sea correcto en todos los Mac, así que para comprobarlo puedes mantener presionada la tecla Opción y seleccionar el símbolo de Wi-Fi en la parte superior derecha de la pantalla. El "nombre de la interfaz" debe aparecer en la parte superior del menú desplegable.
-
-Este comando establece la dirección MAC en una aleatoria "administrada localmente", coincidiendo con las características de aleatorización de dirección MAC presentes en iOS, Windows y Android. Esto significa que cada carácter en la dirección MAC está completamente aleatorizado, a excepción del segundo carácted, que denota la dirección MAC como *localmente administrada* y no está en conflicto con algún hardware real. Este método presenta mejor compatibilidad con redes modernas. Un método alternativo es establecer los seis primeros caracteres de la dirección MAC en uno de los *Identificadores Únicos Organizacionales* de Apple, que dejaremos como un ejercicio para el lector. Este método es más probable que genere problemas con algunas redes, pero puede ser menos reconocible. Debido a la prevalencia de las direcciones MAC aleatorias y localmente administradas en otros sistemas operativos modernos, no consideramos que alguno de los métodos presente mejoras significativas para la privacidad, a comparación de los otros.
-
-Cuando se conecta a la red nuevamente, se conectará con una dirección MAC aleatoria. Esto se restablecerá al reiniciar.
-
-Su dirección MAC no es el único identificador sobre su dispositivo que es transmitido por la red, su nombre de host es otra pieza de información que puede identificarlo. Es posible que desee establecer su nombre de host en algo genérico como "MacBook Air", "Laptop", "John's MacBook Pro", o "iPhone" en **Configuración del sistema** > **General** > **Compartir**. Algunos [scripts de privacidad](https://github.com/sunknudsen/privacy-guides/tree/master/how-to-spoof-mac-address-and-hostname-automatically-at-boot-on-macos#guide) le permiten generar fácilmente nombres de host aleatorios.
+Consider changing your hostname as well, which is another device identifier that's broadcast on the network you're connected to. You may wish to set your hostname to something generic like "MacBook Air", "Laptop", "John's MacBook Pro", or "iPhone" in **System Settings** → **General** → **Sharing**. Algunos [scripts de privacidad](https://github.com/sunknudsen/privacy-guides/tree/master/how-to-spoof-mac-address-and-hostname-automatically-at-boot-on-macos#guide) le permiten generar fácilmente nombres de host aleatorios.
 
 ## Protecciones de seguridad
 
@@ -179,20 +173,61 @@ La Protección de la integridad del sistema hace que las ubicaciones de los arch
 
 ##### Sandbox de aplicaciones
 
-Las aplicaciones macOS enviadas a la App Store después del 1 de junio de 2012 deben estar aisladas mediante [App Sandbox](https://developer.apple.com/documentation/security/app_sandbox).
+On macOS, whether an app is sandboxed is determined by the developer when they sign it. The App Sandbox protects against vulnerabilities in the apps you run by limiting what a malicious actor can access in the event that the app is exploited. The App Sandbox *alone* can't protect against [:material-package-variant-closed-remove: Supply Chain Attacks](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian} by malicious developers. For that, sandboxing needs to be enforced by someone other than the developer themselves, as it is on the App Store.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-El software descargado desde fuera de la App Store oficial no necesita ser virtualizado. Debes evitar en la medida de lo posible el software que no se encuentre en la App Store.
+El software descargado desde fuera de la App Store oficial no necesita ser virtualizado. If your threat model prioritizes defending against [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }, then you may want to check if the software you download outside the App Store is sandboxed, which is up to the developer to *opt in*.
 
 </div>
+
+You can check if an app uses the App Sandbox in a few ways:
+
+You can check if apps that are already running are sandboxed using the [Activity Monitor](https://developer.apple.com/documentation/security/protecting-user-data-with-app-sandbox#Verify-that-your-app-uses-App-Sandbox).
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Advertencia</p>
+
+Just because one of an app's processes is sandboxed doesn't mean they all are.
+
+</div>
+
+Alternatively, you can check apps before you run them by running this command in the terminal:
+
+``` zsh
+% codesign -dvvv --entitlements - <path to your app>
+```
+
+If an app is sandboxed, you should see the following output:
+
+``` zsh
+    [Key] com.apple.security.app-sandbox
+    [Value]
+        [Bool] true
+```
+
+If you find that the app you want to run is not sandboxed, then you may employ methods of [compartmentalization](../basics/common-threats.md#security-and-privacy) such as virtual machines or separate devices, use a similar app that is sandboxed, or choose to not use the unsandboxed app altogether.
+
+##### Hardened Runtime
+
+The [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime) is an extra form of protection for apps that prevents certain classes of exploits. It improves the security of apps against exploitation by disabling certain features like JIT.
+
+You can check if an app uses the Hardened Runtime using this command:
+
+``` zsh
+codesign --display --verbose /path/to/bundle.app
+```
+
+If Hardened Runtime is enabled, you will see `flags=0x10000(runtime)`. The `runtime` output means Hardened Runtime is enabled. There might be other flags, but the runtime flag is what we're looking for here.
+
+You can enable a column in Activity Monitor called "Restricted" which is a flag that prevents programs from injecting code via macOS's [dynamic linker](https://pewpewthespells.com/blog/blocking_code_injection_on_ios_and_os_x.html). Ideally, this should say "Yes".
 
 ##### Antivirus
 
 macOS incluye dos formas de defensa ante el malware:
 
-1. La protección ante la ejecución del malware es proporcionada por el proceso de revisión de aplicaciones de la App Store, o la *Notarización* (parte de *Gatekeeper*), proceso donde las aplicaciones de terceros son escaneadas por Apple para buscar algún malware conocido, antes de que se le permita ser ejecutada.
+1. La protección ante la ejecución del malware es proporcionada por el proceso de revisión de aplicaciones de la App Store, o la *Notarización* (parte de *Gatekeeper*), proceso donde las aplicaciones de terceros son escaneadas por Apple para buscar algún malware conocido, antes de que se le permita ser ejecutada. Apps are required to be signed by the developers using a key given to them by Apple. This ensures that you are running software from the real developers. Notarization also requires that developers enable the Hardened Runtime for their apps, which limits methods of exploitation.
 2. La protección contra otros malware y la remediación contra malware existente en el sistema, es proporcionada por *XProtect*, un antivirus tradicional incluido en macOS.
 
 Recomendamos evitar la instalación de antivirus desarrollados por terceras personas porque, generalmente, estos no cuentan con acceso al nivel del sistema, requerido para funcionar correctamente. Esto se debe a las limitaciones de Apple en las aplicaciones de terceros, además de que garantizar altos niveles de acceso puede afectar la seguridad y la privacidad de la computadora.
