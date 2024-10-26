@@ -7,91 +7,91 @@ Aparte de modificar el propio registro, el **Editor de Directivas de Grupo Local
 
 Estos ajustes deben establecerse en una nueva instalación de Windows. Configurarlos en tu instalación existente debería funcionar, pero puede introducir un comportamiento impredecible y lo haces bajo tu propio riesgo.
 
-Todas estas configuraciones tienen una explicación adjunta en el Editor de Directivas de Grupo que explica exactamente lo que hacen, normalmente con gran detalle. Por favor, presta atención a esas descripciones cuando hagas cambios, para que sepas exactamente lo que estamos recomendando aquí. We've also explained some of our choices below whenever the explanation included with Windows is inadequate.
+Todas estas configuraciones tienen una explicación adjunta en el Editor de Directivas de Grupo que explica exactamente lo que hacen, normalmente con gran detalle. Por favor, presta atención a esas descripciones cuando hagas cambios, para que sepas exactamente lo que estamos recomendando aquí. También hemos explicado algunas de nuestras opciones aquí siempre que la explicación incluida con Windows sea inadecuada.
 
-## Administrative Templates
+## Planitllas Administrativas
 
-You can find these settings by opening `gpedit.msc` and navigating to **Local Computer Policy** > **Computer Configuration** > **Administrative Templates** in the left sidebar. The headers on this page correspond to folders/subfolders within Administrative Templates, and the bullet points correspond to individual policies.
+Puedes encontrar esta configuración abriendo `gpedit.msc` y navegando a **Directiva Equipo Local** > **Configuración del Equipo** > **Plantillas Administrativas** en la barra lateral izquierda. Los encabezados de esta página corresponden a carpetas/subcarpetas dentro de Plantillas Administrativas, y las viñetas corresponden a directivas individuales.
 
-To change any group policy, double click it and select Enabled or Disabled at the top of the window that appears depending on the recommendations below. Some group policies have additional settings that can be configured, and if that's the case the appropriate settings are noted below as well.
+Para cambiar cualquier directiva de grupo, haz doble clic en ella y selecciona Habilitada o Deshabilitada en la parte superior de la ventana que aparece en función de las recomendaciones siguientes. Algunas directivas de grupo tienen parámetros adicionales que pueden configurarse, y si ese es el caso, los parámetros apropiados también se indican a continuación.
 
 ### Sistema
 
 #### Device Guard
 
-- Turn On Virtualization Based Security: **Enabled**
-  - Platform Security Level: **Secure Boot and DMA Protection**
-  - Secure Launch Configuration: **Enabled**
+- Activar la Seguridad Basada en la Virtualización: \*_Habilitada_
+  - Nivel de Seguridad de la Plataforma: **Arranque Seguro y Protección de DMA**
+  - Configuración de Inicio Seguro: **Habilitada**
 
-#### Internet Communication Management
+#### Administración de Comunicaciones de Internet
 
-- Turn off Windows Customer Experience Improvement Program: **Enabled**
-- Turn off Windows Error Reporting: **Enabled**
-- Turn off the Windows Messenger Customer Experience Improvement Program: **Enabled**
+- Desactivar el Programa para la Mejora de la Experiencia del Usuario de Windows: **Habilitada**
+- Desactivar el Informe de Errores de Windows: **Habilitada**
+- Desactivar el Programa para la Mejora de la Experiencia del Usuario de Windows Messenger: **Habilitada**
 
-Note that disabling the Windows Customer Experience Improvement Program also disables some other tracking features that can be individually controlled with Group Policy as well. We don't list them all here or disable them because this setting covers that.
+Ten en cuenta que al deshabilitar el Programa para la Mejora de la Experiencia del Usuario de Windows también se deshabilitan algunas otras funciones de seguimiento que también se pueden controlar individualmente con la Directiva de Grupo. No las enumeramos todas aquí ni las desactivamos porque este ajuste lo cubre.
 
-#### OS Policies
+#### Directivas del Sistema Operativo
 
-- Allow Clipboard History: **Disabled**
-- Allow Clipboard synchronization across devices: **Disabled**
-- Enables Activity Feed: **Disabled**
-- Allow publishing of User Activities: **Disabled**
-- Allow upload of User Activities: **Disabled**
+- Permitir el Historial del Portapapeles: **Deshabilitada**
+- Permitir la Sincronización del Portapapeles entre Dispositivos: **Deshabilitada**
+- Habilita la Fuente de Actividades: **Deshabilitada**
+- Permitir la Publicación de las Actividades del Usuario: **Deshabilitada**
+- Permitir la Carga de Actividades del Usuario: **Deshabilitada**
 
 #### Perfiles de usuario
 
-- Turn off the advertising ID: **Enabled**
+- Desactivar el Identificador de Publicidad: **Habilitada**
 
-### Windows Components
+### Componentes de Windows
 
-#### AutoPlay Policies
+#### Directivas de Reproducción Automática
 
-AutoRun and AutoPlay are features which allow Windows to run a script or perform some other task when a device is connected, sometimes avoiding security measures that involve user consent. This could allow untrusted devices to run malicious code without your knowledge. It's a security best practice to disable these features, and simply open files on your external disks manually.
+Reproducción Automática y Ejecución Automática son funciones que permiten a Windows ejecutar un script o realizar alguna otra tarea cuando un dispositivo está conectado, a veces evitando las medidas de seguridad que implican el consentimiento del usuario. Esto podría permitir a dispositivos no fiables ejecutar código malicioso sin tu conocimiento. Es una buena práctica de seguridad desactivar estas funciones y abrir los archivos de los discos externos manualmente.
 
-- Turn off AutoPlay: **Enabled**
-- Disallow Autoplay for nonvolume devices: **Enabled**
-- Set the default behavior for AutoRun: **Enabled**
-  - Default AutoRun Behavior: **Do not execute any AutoRun commands**
+- Desactivar Reproducción Automática: **Habilitada**
+- Deshabilitar Reproducción Automática para Dispositivos que no son de Volumen: **Habilitada**
+- Establece el Comportamiento Predeterminado para Ejecución Automática: **Habilitada**
+  - Comportamiento Predeterminado de Ejecución Automática: **No Ejecutar Ningún Comando de Ejecución Automática**
 
-#### BitLocker Drive Encryption
+#### Cifrado de Unidad BitLocker
 
-You may wish to re-encrypt your operating system drive after changing these settings.
+Es posible que desees volver a cifrar la unidad del sistema operativo después de cambiar estos ajustes.
 
-- Choose drive encryption method and cipher strength (Windows Vista, Windows Server 2008, Windows 7): **Enabled**
-  - Select the encryption method: **AES-256**
+- Elija Método de Cifrado e Intensidad de Cifrado de Unidad (Windows Vista, Windows Server 2008, Windows 7): **Habilitada**
+  - Seleccione el método de cifrado: **AES-256**
 
-Setting the cipher strength for the Windows 7 policy still applies that strength to newer versions of Windows.
+Establecer la intensidad de cifrado para la política de Windows 7 todavía aplica esa intensidad a las nuevas versiones de Windows.
 
-##### Operating System Drives
+##### Unidades del Sistema Operativo
 
-- Require additional authentication at startup: **Enabled**
-- Allow enhanced PINs for startup: **Enabled**
+- Requiere Autenticación Adicional al Iniciar: **Habilitada**
+- Permitir los PIN Mejorados para el Inicio: **Habilitada**
 
-Despite the names of these policies, this doesn't _require_ you to do anything by default, but it will unlock the _option_ to have a more complex setup (such as requiring a PIN at startup in addition to the TPM) in the Bitlocker setup wizard.
+A pesar de los nombres de estas directivas, esto no _requiere_ que hagas nada por defecto, pero desbloqueará la _opción_ de tener una configuración más compleja (como requerir un PIN al inicio además del TPM) en el asistente de configuración de Bitlocker.
 
-#### Cloud Content
+#### Contenido de la Nube
 
-- Turn off cloud optimized content: **Enabled**
-- Turn off cloud consumer account state content: **Enabled**
-- Do not show Windows tips: **Enabled**
-- Turn off Microsoft consumer experiences: **Enabled**
+- Desactivar el Contenido Optimizado en la Nube: **Habilitada**
+- Desactivar el Contenido de Estado de Cuentas de Consumidor en la nube: **Habilitada**
+- No Mostrar Recomendaciones de Windows: **Habilitada**
+- Desactivar Experiencias del Consumidor de Microsoft: **Habilitada**
 
-#### Credential User Interface
+#### Interfaz de Usuario de Credenciales
 
-- Require trusted path for credential entry: **Enabled**
-- Prevent the use of security questions for local accounts: **Enabled**
+- Requerir Ruta de Acceso de Confianza para la Entrada de Credenciales: **Habilitada**
+- Impedir el Uso de Preguntas de Seguridad en las Cuentas Locales: **Habilitada**
 
-#### Data Collection and Preview Builds
+#### Recopilación de Datos y Compilaciones Preliminares
 
-- Allow Diagnostic Data: **Enabled**
-  - Options: **Send required diagnostic data** (Pro Edition); or
+- Permitir Telemetría: **Habilitada**
+  - Opciones: **Requerido** (Edición Pro); o
   - Options: **Diagnostic data off** (Enterprise or Education Edition)
 - Limit Diagnostic Log Collection: **Enabled**
 - Limit Dump Collection: **Enabled**
-- Limit optional diagnostic data for Desktop Analytics: **Enabled**
-  - Options: **Disable Desktop Analytics collection**
-- Do not show feedback notifications: **Enabled**
+- Limitar los Datos de Diagnóstico de Nivel Mejorado al Valor Mínimo Requerido por Windows Analytics: **Habilitada**
+  - Opciones: **Deshabilitar la Recopilación de Análisis de Windows**
+- No Volver a Mostrar Notificaciones de Comentarios: **Habilitada**
 
 #### File Explorer
 
