@@ -1,13 +1,13 @@
 ---
-title: Group Policy Settings
-description: A quick guide to configuring Group Policy to make Windows a bit more privacy respecting.
+title: Configuración de las Directivas de Grupo
+description: Una guía rápida para configurar las Directivas de Grupo para que Windows respete un poco más la privacidad.
 ---
 
-Outside of modifying the registry itself, the **Local Group Policy Editor** is the most powerful way to change many aspects of your system without installing third-party tools. Changing these settings requires [Pro Edition](index.md#windows-editions) or better.
+Aparte de modificar el propio registro, el **Editor de Directivas de Grupo Local** es la forma más potente de cambiar muchos aspectos del sistema sin instalar herramientas de terceros. Para cambiar estos ajustes se requiere la [Edición Pro](index.md#windows-editions) o superior.
 
-These settings should be set on a brand new installation of Windows. Setting them on your existing installation should work, but may introduce unpredictible behavior and is done at your own risk.
+Estos ajustes deben establecerse en una nueva instalación de Windows. Configurarlos en tu instalación existente debería funcionar, pero puede introducir un comportamiento impredecible y lo haces bajo tu propio riesgo.
 
-All of these settings have an explanation attached to them in the Group Policy editor which explains exactly what they do, usually in great detail. Please pay attention to those descriptions as you make changes, so you know exactly what we are recommending here. We've also explained some of our choices below whenever the explanation included with Windows is inadequate.
+Todas estas configuraciones tienen una explicación adjunta en el Editor de Directivas de Grupo que explica exactamente lo que hacen, normalmente con gran detalle. Por favor, presta atención a esas descripciones cuando hagas cambios, para que sepas exactamente lo que estamos recomendando aquí. We've also explained some of our choices below whenever the explanation included with Windows is inadequate.
 
 ## Administrative Templates
 
