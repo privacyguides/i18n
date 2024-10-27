@@ -66,21 +66,21 @@ Ein Beobachter könnte jedes dieser Pakete verändern.
 
 ## Was ist ein "verschlüsseltes DNS"?
 
-Encrypted DNS can refer to one of a number of protocols, the most common ones being [DNSCrypt](#dnscrypt), [DNS over TLS](#dns-over-tls-dot), and [DNS over HTTPS](#dns-over-https-doh).
+Verschlüsseltes DNS kann sich auf eine Reihe von Protokollen beziehen, die gängigsten sind [DNSCrypt](#dnscrypt), [DNS over TLS](#dns-over-tls-dot) und [DNS over HTTPS](#dns-over-https-doh).
 
 ### DNSCrypt
 
-[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) war eine der ersten Methoden zur Verschlüsselung von DNS-Anfragen. DNSCrypt arbeitet auf Port 443 und funktioniert mit den Transportprotokollen TCP und UDP. DNSCrypt has never been submitted to the [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) nor has it gone through the [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments) process, so it has not been used widely outside of a few [implementations](https://dnscrypt.info/implementations). As a result, it has been largely replaced by the more popular [DNS over HTTPS](#dns-over-https-doh).
+[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) war eine der ersten Methoden zur Verschlüsselung von DNS-Anfragen. DNSCrypt arbeitet auf Port 443 und funktioniert mit den Transportprotokollen TCP und UDP. DNSCrypt wurde nie bei der [Internet Engineering Task Force (IETF](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force)), englisch für "Internettechnik-Arbeitsgruppe", eingereicht und hat auch nicht den [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments), englisch für "Anfrage für Kommentare", Prozess durchlaufen, sodass es außerhalb einiger weniger [Implementierungen](https://dnscrypt.info/implementations) nicht weit verbreitet ist. Infolgedessen wurde es weitgehend durch das populärere [DNS über HTTPS](#dns-over-https-doh) ersetzt.
 
-### DNS over TLS (DoT)
+### DNS über TLS (DoT)
 
-[**DNS over TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) is another method for encrypting DNS communication that is defined in [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). Support was first implemented in Android 9, iOS 14, and on Linux in [systemd-resolved](https://freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) in version 237. Preference in the industry has been moving away from DoT to DoH in recent years, as DoT is a [complex protocol](https://dnscrypt.info/faq) and has varying compliance to the RFC across the implementations that exist. DoT also operates on a dedicated port 853 which can be blocked easily by restrictive firewalls.
+[**DNS über TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) ist eine weitere Methode zur Verschlüsselung der DNS-Kommunikation, die in [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858) definiert ist. Die Unterstützung wurde erstmals in Android 9, iOS 14 und unter Linux in [systemd-resolved](https://freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) in Version 237 implementiert. In den letzten Jahren hat sich die Präferenz in der Branche von DoT auf DoH verlagert, da DoT ein [komplexes Protokoll](https://dnscrypt.info/faq) ist und die Einhaltung des RFC bei den vorhandenen Implementierungen unterschiedlich ist. DoT arbeitet auch über einen speziellen Port 853, der von restriktiven Firewalls leicht blockiert werden kann.
 
-### DNS over HTTPS (DoH)
+### DNS über HTTPS (DoH)
 
-[**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS), as defined in [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484), packages queries in the [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) protocol and provides security with HTTPS. Support was first added in web browsers such as Firefox 60 and Chrome 83.
+[**DNS über HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS)wie in [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484) definiert, verpackt Abfragen im [HTTP/2-Protokoll](https://en.wikipedia.org/wiki/HTTP/2) und bietet Sicherheit mit HTTPS. Die Unterstützung wurde erstmals in Webbrowsern wie Firefox 60 und Chrome 83 hinzugefügt.
 
-Native implementation of DoH showed up in iOS 14, macOS 11, Microsoft Windows, and Android 13 (however, it won't be enabled [by default](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)). General Linux desktop support is waiting on the systemd [implementation](https://github.com/systemd/systemd/issues/8639) so [installing third-party software is still required](../dns.md#encrypted-dns-proxies).
+Die native Implementierung von DoH tauchte in iOS 14, macOS 11, Microsoft Windows und Android 13 auf (sie wird jedoch nicht [standardmäßig](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144) aktiviert). Der allgemeine Linux-Desktop-Support wartet auf die [systemd-Implementierung](https://github.com/systemd/systemd/issues/8639), so dass [die Installation von Drittanbieter-Software weiterhin erforderlich ist](../dns.md#encrypted-dns-proxies).
 
 ### Native Betriebssystemunterstützung
 
@@ -98,33 +98,33 @@ Apple bietet keine native Schnittstelle zur Erstellung von Profilen mit verschl�
 
 #### Linux
 
-`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](../dns.md#dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
+`systemd-resolved`, das viele Linux-Distributionen für die DNS-Suche verwenden, [unterstützt DoH](https://github.com/systemd/systemd/issues/8639) noch nicht. Wenn Sie DoH verwenden möchten, müssen Sie einen Proxy wie [dnscrypt-proxy](../dns.md#dnscrypt-proxy) installieren und [ihn](https://wiki.archlinux.org/title/Dnscrypt-proxy) so [konfigurieren](https://wiki. archlinux. org/title/Dnscrypt-proxy), dass er alle DNS-Anfragen von Ihrem Systemresolver entgegennimmt und über HTTPS weiterleitet.
 
-## What can an outside party see?
+## Was kann ein Außenstehender sehen?
 
-In this example we will record what happens when we make a DoH request:
+In diesem Beispiel werden wir aufzeichnen, was passiert, wenn wir eine DoH-Anfrage stellen:
 
-1. First, start `tshark`:
+1. Starten Sie zunächst `tshark`:
 
     ```bash
     tshark -w /tmp/dns_doh.pcap -f "tcp port https and host 1.1.1.1"
     ```
 
-2. Second, make a request with `curl`:
+2. Zweitens: Stellen Sie eine Anfrage mit `curl`:
 
     ```bash
     curl -vI --doh-url https://1.1.1.1/dns-query https://privacyguides.org
     ```
 
-3. After making the request, we can stop the packet capture with <kbd>CTRL</kbd> + <kbd>C</kbd>.
+3. Nach der Anfrage können wir die Paketaufnahme mit <kbd>STRG</kbd> + <kbd>C</kbd> beenden.
 
-4. Analyse the results in Wireshark:
+4. Analysieren Sie die Ergebnisse in Wireshark:
 
     ```bash
     wireshark -r /tmp/dns_doh.pcap
     ```
 
-We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) and [TLS handshake](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) that occurs with any encrypted connection. When looking at the "application data" packets that follow, none of them contain the domain we requested or the IP address returned.
+Wir können den [Verbindungsaufbau](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) und den [TLS-Handshake](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) sehen, der bei jeder verschlüsselten Verbindung stattfindet. Die folgenden "Anwendungsdaten"-Pakete enthalten weder die von uns angeforderte Domäne noch die zurückgegebene IP-Adresse.
 
 ## Why **shouldn't** I use encrypted DNS?
 

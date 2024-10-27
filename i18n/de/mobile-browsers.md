@@ -113,7 +113,7 @@ Die Optionen im Schutz-Menü können je nach Bedarf für jede Website herunterge
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Mit dieser Option wird JavaScript deaktiviert, was bei vielen Websites zu Problemen führt. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 === "iOS"
 
@@ -135,7 +135,7 @@ Die Optionen im Schutz-Menü können je nach Bedarf für jede Website herunterge
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Mit dieser Option wird JavaScript deaktiviert, was bei vielen Websites zu Problemen führt. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 ##### Clear browsing data (Android only)
 
