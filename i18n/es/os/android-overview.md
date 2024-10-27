@@ -9,19 +9,19 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 **Android Open Source Project** es un sistema operativo móvil seguro que cuenta con un fuerte [aislamiento de aplicaciones](https://source.android.com/security/app-sandbox), [arranque verificado](https://source.android.com/security/verifiedboot) (AVB) y un sólido sistema de control de [permisos ](https://developer.android.com/guide/topics/permissions/overview).
 
-[:octicons-home-16:](https://source.android.com){ .card-link title=Homepage }
-[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://cs.android.com/android/platform/superproject/main){ .card-link title="Source Code" }
+[:octicons-home-16:](https://source.android.com){ .card-link title=Página Principal }
+[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentación}
+[:octicons-code-16:](https://cs.android.com/android/platform/superproject/main){ .card-link title="Código Fuente" }
 
-[Our Android Advice :material-arrow-right-drop-circle:](../android/index.md ""){.md-button.md-button--primary}
+[Nuestros Consejos sobre Android :material-arrow-right-drop-circle:](../android/index.md ""){.md-button.md-button--primary}
 
 ## Protecciones de Seguridad
 
-Key components of the Android security model include [verified boot](#verified-boot), [firmware updates](#firmware-updates), and a robust [permission system](#android-permissions). These important security features form the baseline of the minimum criteria for our [mobile phone](../mobile-phones.md) and [custom Android OS](../android/distributions.md) recommendations.
+Los componentes clave del modelo de seguridad de Android incluyen el [arranque verificado](#verified-boot), las [actualizaciones de firmware](#firmware-updates) y un sólido [sistema de permisos](#android-permissions). Estas importantes características de seguridad constituyen la base de los criterios mínimos para nuestras recomendaciones sobre [teléfonos móviles](../mobile-phones.md) y [Sistemas Operativos Android personalizados](../android/distributions.md).
 
 ### Arranque verificado
 
-[**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. Proviene de protección contra ataques [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack), persistencia del malware, y se asegura que las actualizaciones de seguridad no puedan ser desactualizadas gracias a la [protección de reversión](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+El [**Arranque Verificado**](https://source.android.com/security/verifiedboot) es una parte importante del modelo de seguridad de Android. Proviene de protección contra ataques [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack), persistencia del malware, y se asegura que las actualizaciones de seguridad no puedan ser desactualizadas gracias a la [protección de reversión](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
 
 Android 10 y superior se han alejado del cifrado de disco completo por un cifrado más flexible [basado en archivos](https://source.android.com/security/encryption/file-based). Tus datos se encriptan utilizando claves de encriptación únicas, y los archivos del sistema operativo se dejan sin encriptar.
 
@@ -29,11 +29,11 @@ El arranque verificado garantiza la integridad de los archivos del sistema opera
 
 Desgraciadamente, los fabricantes de equipos originales (OEM) solo están obligados a dar soporte al arranque verificado en su distribución de Android de serie. Solo unos pocos fabricantes de equipos originales, como Google, admiten la inscripción de claves AVB modificadas en sus dispositivos. Además, algunos derivados de AOSP como LineageOS o /e/ OS no admiten arranque verificado, incluso en hardware con soporte de arranque verificado para sistemas operativos de terceros. Nosotros recomendamos que compruebe la compatibilidad **antes** de comprar un nuevo dispositivo. Los derivados de AOSP que no soportan el arranque verificado **no son** recomendados.
 
-Muchos OEMs también han roto la implementación del Arranque Verificado que tienes que conocer más allá de su marketing. Por ejemplo, los Fairphone 3 y 4 no son seguros por defecto, ya que el [bootloader de serie confía en la clave de firma pública AVB](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). This breaks verified boot on a stock Fairphone device, as the system will boot alternative Android operating systems (such as /e/) [without any warning](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) about custom operating system usage.
+Muchos OEMs también han roto la implementación del Arranque Verificado que tienes que conocer más allá de su marketing. Por ejemplo, los Fairphone 3 y 4 no son seguros por defecto, ya que el [bootloader de serie confía en la clave de firma pública AVB](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). Esto rompe el arranque verificado en un dispositivo Fairphone de fábrica, ya que el sistema arrancará sistemas operativos Android alternativos (como /e/) [sin ninguna advertencia](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) sobre el uso del sistema operativo personalizado.
 
 ### Actualizaciones de Firmware
 
-**Firmware updates** are critical for maintaining security and without them your device cannot be secure. Los fabricantes de equipos originales tienen acuerdos de asistencia con sus socios para proporcionar los componentes de código cerrado durante un periodo de asistencia limitado. Estos se detallan en los [boletines de seguridad mensuales de Android](https://source.android.com/security/bulletin).
+Las **actualizaciones de firmware** son fundamentales para mantener la seguridad y sin ellas tu dispositivo no puede ser seguro. Los fabricantes de equipos originales tienen acuerdos de asistencia con sus socios para proporcionar los componentes de código cerrado durante un periodo de asistencia limitado. Estos se detallan en los [boletines de seguridad mensuales de Android](https://source.android.com/security/bulletin).
 
 Dado que los componentes del teléfono, como el procesador y las tecnologías de radio, dependen de componentes de código cerrado, las actualizaciones deben ser proporcionadas por los respectivos fabricantes. Por lo tanto, es importante que compres un dispositivo dentro de un ciclo de soporte activo. [Qualcomm](https://www.qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) y [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) dan 4 años de soporte a sus dispositivos, mientras que los productos más baratos suelen tener ciclos de soporte más cortos. Con la introducción del [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google ahora hace su propio SoC y van a ofrecer un mínimo de 5 años de soporte. Con la introducción de la serie Pixel 8, Google aumentó esa ventana de soporte a 7 años.
 
@@ -43,9 +43,9 @@ Fairphone, por ejemplo, comercializa su dispositivo Fairphone 4 con 6 años de s
 
 ### Permisos de Android
 
-[**Permissions on Android**](https://developer.android.com/guide/topics/permissions/overview) grant you control over what apps are allowed to access. Google regularmente hace [mejoras](https://developer.android.com/about/versions/11/privacy/permissions) en el sistema de permisos en cada versión sucesiva. Todas las aplicaciones que instales están estrictamente [aisladas](https://source.android.com/security/app-sandbox), por lo que no es necesario instalar ninguna aplicación de antivirus.
+Los [**permisos en Android**](https://developer.android.com/guide/topics/permissions/overview) te permiten controlar a qué aplicaciones se les permite el acceso. Google regularmente hace [mejoras](https://developer.android.com/about/versions/11/privacy/permissions) en el sistema de permisos en cada versión sucesiva. Todas las aplicaciones que instales están estrictamente [aisladas](https://source.android.com/security/app-sandbox), por lo que no es necesario instalar ninguna aplicación de antivirus.
 
-Un smartphone con la última versión de Android siempre será más seguro que un smartphone antiguo con un antivirus que hayas pagado. It's better not to pay for antivirus software and to save money to buy a new smartphone such as a [Google Pixel](../mobile-phones.md#google-pixel).
+Un smartphone con la última versión de Android siempre será más seguro que un smartphone antiguo con un antivirus que hayas pagado. Es mejor no pagar por un antivirus y ahorrar para comprar un nuevo smartphone como un [Google Pixel](../mobile-phones.md#google-pixel).
 
 Android 10:
 
@@ -66,7 +66,7 @@ Android 12:
 
 Android 13:
 
-- Un permiso para [acceso Wi-Fi cercano](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby Wi-Fi access points were a popular way for apps to track a user's location.
+- Un permiso para [acceso Wi-Fi cercano](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). Las direcciones MAC de los puntos de acceso Wi-Fi cercanos eran una forma popular de que las aplicaciones rastrearan la ubicación de un usuario.
 - Más [permisos de contenido multimedia detallados](https://developer.android.com/about/versions/13/behavior-changes-13?hl=es-419#granular-media-permissions), lo que significa que puedes conceder acceso sólo a imágenes, vídeos o archivos de audio.
 - El uso en segundo plano de los sensores requiere ahora el permiso [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission).
 
@@ -92,27 +92,27 @@ Las aplicaciones que respetan la privacidad como [Bitwarden](https://reports.exo
 
 ### Perfiles de usuario
 
-Multiple **user profiles** can be found in :gear: **Settings** → **System** → **Users** and are the simplest way to isolate in Android.
+Los **perfiles de usuario** múltiples se pueden encontrar en :gear: **Ajustes** → **Sistema** → **Usuarios** y son la forma más sencilla de aislar en Android.
 
-With user profiles, you can impose restrictions on a specific profile, such as: making calls, using SMS, or installing apps. Cada perfil se cifra con su propia clave de cifrado y no puede acceder a los datos de ningún otro perfil. Incluso el propietario del dispositivo no puede ver los datos de otros perfiles sin conocer su contraseña. Los perfiles de usuario múltiples son un método más seguro de aislamiento.
+Con los perfiles de usuario, puedes imponer restricciones a un perfil específico, como: hacer llamadas, usar SMS o instalar apps. Cada perfil se cifra con su propia clave de cifrado y no puede acceder a los datos de ningún otro perfil. Incluso el propietario del dispositivo no puede ver los datos de otros perfiles sin conocer su contraseña. Los perfiles de usuario múltiples son un método más seguro de aislamiento.
 
 ### Perfil de trabajo
 
-[**Work Profiles**](https://support.google.com/work/android/answer/6191949) are another way to isolate individual apps and may be more convenient than separate user profiles.
+Los [**Perfiles de Trabajo**](https://support.google.com/work/android/answer/6191949) son otra forma de aislar aplicaciones individuales y pueden ser más convenientes que los perfiles de usuario separados.
 
-A **device controller** app such as [Shelter](../android/general-apps.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
+Para crear un perfil de trabajo sin un MDM empresarial se necesita una aplicación de **controlador de dispositivo** como [Shelter](../android/general-apps.md#shelter), a menos que se utilice un sistema operativo personalizado de Android que incluya uno.
 
 El perfil de trabajo depende de un controlador de dispositivo para funcionar. Características como el *transbordador de archivos* y el *bloqueo de búsqueda de contactos* o cualquier tipo de característica de aislamiento debe ser implementada por el controlador. También debes confiar plenamente en la aplicación del controlador del dispositivo, ya que tiene acceso total a tus datos dentro del perfil de trabajo.
 
-This method is generally less secure than a secondary user profile; however, it does allow you the convenience of running apps in both the owner profile and work profile simultaneously.
+Este método suele ser menos seguro que un perfil de usuario secundario; sin embargo, te permite ejecutar aplicaciones en el perfil de propietario y en el perfil de trabajo simultáneamente.
 
-### Private Space
+### Espacio Privado
 
-**Private Space** is a feature introduced in Android 15 that adds another way of isolating individual apps. You can set up a private space in the owner profile by navigating to :gear: **Settings** → **Security & privacy** → **Private space**. Once set up, your private space resides at the bottom of the app drawer.
+El **Espacio Privado** es una función introducida en Android 15 que añade otra forma de aislar aplicaciones individuales. Puedes configurar un espacio privado en el perfil de propietario navegando a :gear: **Ajustes** → **Seguridad y privacidad** → **Espacio privado**. Una vez configurado, tu espacio privado se encuentra en la parte inferior del cajón de aplicaciones.
 
-Like user profiles, a private space is encrypted using its own encryption key, and you have the option to set up a different unlock method. Like work profiles, you can use apps from both the owner profile and private space simultaneously. Apps launched from a private space are distinguished by an icon depicting a key within a shield.
+Al igual que los perfiles de usuario, un espacio privado se cifra utilizando su propia clave de cifrado, y tienes la opción de configurar un método de desbloqueo diferente. Al igual que los perfiles de trabajo, puedes utilizar aplicaciones del perfil de propietario y del espacio privado simultáneamente. Las aplicaciones lanzadas desde un espacio privado se distinguen por un icono que representa una llave dentro de un escudo.
 
-Unlike work profiles, Private Space is a feature native to Android that does not require a third-party app to manage it. For this reason, we generally recommend using a private space over a work profile, though you can use a work profile alongside a private space.
+A diferencia de los perfiles de trabajo, el Espacio Privado es una función nativa de Android que no requiere una aplicación de terceros para gestionarlo. Por esta razón, generalmente recomendamos utilizar un espacio privado en lugar de un perfil de trabajo, aunque puedes utilizar un perfil de trabajo junto con un espacio privado.
 
 ### "Killswitch" de un VPN
 
@@ -120,15 +120,15 @@ Android 7 y superiores admiten un interruptor de corte de VPN (VPN kill switch),
 
 ### Cambios globales
 
-Los dispositivos Android modernos tienen interruptores globales para desactivar los servicios de Bluetooth y de localización. Android 12 introdujo interruptores para la cámara y el micrófono. Cuando no estén en uso, recomendamos desactivar estas funciones. Apps cannot use disabled features (even if granted individual permissions) until re-enabled.
+Los dispositivos Android modernos tienen interruptores globales para desactivar los servicios de Bluetooth y de localización. Android 12 introdujo interruptores para la cámara y el micrófono. Cuando no estén en uso, recomendamos desactivar estas funciones. Las aplicaciones no pueden usar las funciones desactivadas (incluso si se les concede un permiso individual) hasta que se reactiven.
 
 ## Servicios de Google
 
-If you are using a device with Google services—whether with the stock operating system or an operating system that safely sandboxes Google Play Services like GrapheneOS—there are a number of additional changes you can make to improve your privacy. Seguimos recomendando evitar los servicios de Google por completo, o limitar los servicios de Google Play a un perfil específico de usuario/trabajo combinando un controlador de dispositivo como *Shelter* con Google Play aislado de GrapheneOS.
+Si estás utilizando un dispositivo con servicios de Google, ya sea con el sistema operativo original o con un sistema operativo que aísla de forma segura los servicios de Google Play, como GrapheneOS, puedes realizar una serie de cambios adicionales para mejorar tu privacidad. Seguimos recomendando evitar los servicios de Google por completo, o limitar los servicios de Google Play a un perfil específico de usuario/trabajo combinando un controlador de dispositivo como *Shelter* con Google Play aislado de GrapheneOS.
 
 ### Programa de Protección Avanzada
 
-Si tienes una cuenta de Google sugerimos que te inscribas en el [Programa de Protección Avanzada](https://landing.google.com/advancedprotection). Está disponible sin costo a cualquiera que tenga dos o más llaves de seguridad de hardware con soporte para [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online). Alternatively, you can use [passkeys](https://fidoalliance.org/passkeys).
+Si tienes una cuenta de Google sugerimos que te inscribas en el [Programa de Protección Avanzada](https://landing.google.com/advancedprotection). Está disponible sin costo a cualquiera que tenga dos o más llaves de seguridad de hardware con soporte para [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online). Como alternativa, puedes utilizar [passkeys](https://fidoalliance.org/passkeys).
 
 El Programa de Protección Avanzada proporciona una supervisión de amenazas mejorada y permite:
 
@@ -161,7 +161,7 @@ En las distribuciones de Android con servicios privilegiados de Google Play (com
 - :gear: **Ajustes** → **Google** → **Anuncios**
 - :gear: **Ajustes** → **Privacidad** → **Anuncios**
 
-You will either be given the option to delete your advertising ID or to *Opt out of interest-based ads* (this varies between OEM distributions of Android). If presented with the option to delete the advertising ID, that is preferred. Si no es así, asegúrate de optar por no participar y restablecer tu ID de publicidad.
+Te van a dar la opción de eliminar tu ID de publicidad u *Optar por no recibir anuncios basados en intereses* (esto varía según la distribución OEM de Android). Si se te ofrece la opción de eliminar el identificador de publicidad, es preferible que lo hagas. Si no es así, asegúrate de optar por no participar y restablecer tu ID de publicidad.
 
 ### SafetyNet y Play Integrity API
 

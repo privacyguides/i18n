@@ -1,5 +1,5 @@
 ---
-title: Vista General de macOS
+title: Resumen de macOS
 icon: material/apple-finder
 description: macOS es el sistema operativo de escritorio de Apple que trabaja con su hardware para ofrecer una seguridad sólida.
 ---

@@ -1,23 +1,23 @@
 ---
 title: Sistemas Operativos
-description: An overview of our operating system-related recommendations for all major computing hardware.
+description: Un resumen de nuestras recomendaciones sobre sistemas operativos para los principales equipos informáticos.
 ---
 
-We publish configuration guides for the major operating systems, because you can generally improve the amount of data that is collected about you on any option, especially if you use privacy tools like our [recommended web browsers](../desktop-browsers.md) in place of native tools where appropriate. However, some operating systems will be more privacy-respecting inherently, and it will be much harder to achieve an equivalent level of privacy on other choices.
+Publicamos guías de configuración para los principales sistemas operativos, porque en general puedes mejorar la cantidad de datos que se recopilan sobre ti en cualquier opción, especialmente si utilizas herramientas de privacidad como nuestros [navegadores web recomendados](../desktop-browsers.md) en lugar de herramientas nativas cuando proceda. Sin embargo, algunos sistemas operativos serán más respetuosos con la privacidad de forma inherente, y será mucho más difícil conseguir un nivel equivalente de privacidad en otras opciones.
 
-- [Recommended Linux Distros :material-arrow-right-drop-circle:](../desktop.md)
-- [Recommended Android Distros :material-arrow-right-drop-circle:](../android/distributions.md)
+- [Distribuciones Linux Recomendadas :material-arrow-right-drop-circle:](../desktop.md)
+- [Distribuciones Android Recomendadas :material-arrow-right-drop-circle:](../android/distributions.md)
 
-The articles marked with a :material-star: are our more mature articles.
+Los artículos marcados con :material-star: son nuestros artículos más maduros.
 
-## Mobile Operating Systems
+## Sistemas Operativos Móviles
 
-- [Android Overview](android-overview.md) :material-star:
-- [iOS Overview](ios-overview.md)
+- [Resumen de Android](android-overview.md) :material-star:
+- [Resumen de iOS](ios-overview.md)
 
-## Desktop Operating Systems
+## Sistemas Operativos de Escritorio
 
-- [Linux Overview](linux-overview.md) :material-star:
-- [macOS Overview](macos-overview.md)
-- [Qubes Overview](qubes-overview.md) :material-star:
-- [Windows Overview](windows/index.md)
+- [Resumen de Linux](linux-overview.md) :material-star:
+- [Resumen de macOS](macos-overview.md)
+- [Resumen de Qubes](qubes-overview.md) :material-star:
+- [Resumen de Windows](windows/index.md)

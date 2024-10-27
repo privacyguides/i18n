@@ -1,5 +1,5 @@
 ---
-title: Vista General de iOS
+title: Resumen de iOS
 icon: simple/apple
 description: iOS es un sistema operativo móvil desarrollado por Apple para el iPhone.
 ---
