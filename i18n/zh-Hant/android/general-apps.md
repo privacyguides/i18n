@@ -32,7 +32,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 ### Shelter
 
-If your device is on Android 15 or greater, we recommend using the native [Private Space](../os/android-overview.md#private-space) feature instead, which provides nearly the same functionality without needing to place trust in and grant powerful permissions to a third-party app.
+如果您的裝置是 Android 15 或更高版本，我們建議您改用原生的 [私人空間](../os/android-overview.md#private-space) 功能，它提供幾乎相同的功能；而不需要信任第三方應用程式並授予其極高的權限。
 
 <div class="admonition recommendation" markdown>
 
@@ -61,7 +61,7 @@ Shelter 支援阻止跨配置檔案的聯絡人搜尋以及透過預設檔案管
 
 <small>防護下列威脅：</small>
 
-- [:material-account-search: Public Exposure](../basics/common-threats.md#limiting-public-information){ .pg-green }
+- [:material-account-search: 公共曝露](../basics/common-threats.md#limiting-public-information){ .pg-green }
 
 <div class="admonition recommendation" markdown>
 
