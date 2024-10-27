@@ -20,7 +20,7 @@ Los nuevos dispositivos de Apple Silicon pueden configurarse sin una conexión a
 
 macOS realiza comprobaciones en línea al abrir una aplicación para verificar si contiene malware conocido y si el certificado de firma del desarrollador es revocado.
 
-Apple's OCSP service uses HTTPS encryption, so only they are able to see which apps you open. They've [posted information](https://support.apple.com/HT202491) about their logging policy for this service. They additionally [promised](http://lapcatsoftware.com/articles/2024/8/3.html) to add a mechanism for people to opt-out of this online check, but this has not been added to macOS.
+El servicio OCSP de Apple utiliza cifrado HTTPS, por lo que solo ellos pueden ver qué aplicaciones abres. Han [publicado información](https://support.apple.com/HT202491) sobre su política de registro para este servicio. Además, [prometieron](http://lapcatsoftware.com/articles/2024/8/3.html) añadir un mecanismo para que la gente pudiera optar por no participar en esta comprobación en línea, pero esto no se ha añadido a macOS.
 
 Aunque [puedes](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private) excluirte manualmente de esta comprobación con relativa facilidad, recomendamos no hacerlo a menos que las comprobaciones de revocación realizadas por macOS te pongan en grave peligro, ya que desempeñan un papel importante a la hora de garantizar que se bloquee la ejecución de aplicaciones comprometidas.
 
@@ -34,11 +34,11 @@ Si utilizas una segunda cuenta, no es estrictamente necesario que inicies sesió
 
 ### iCloud
 
-Cuando utilizas servicios de Apple como iCloud, la mayor parte de tu información se almacena en sus servidores y se protege con claves *a las que Apple tiene acceso* por defecto. This is called [Standard Data Protection](https://support.apple.com/en-us/102651) by Apple.
+Cuando utilizas servicios de Apple como iCloud, la mayor parte de tu información se almacena en sus servidores y se protege con claves *a las que Apple tiene acceso* por defecto. Apple lo denomina [Protección de Datos Estándar](https://support.apple.com/en-us/102651).
 
 Por lo tanto, si utilizas iCloud, deberías activar la [ **Protección de Datos Avanzada**](https://support.apple.com/HT212520). Esto encripta casi todos tus datos de iCloud con claves almacenadas en tus dispositivos (encriptación de extremo a extremo), en lugar de en los servidores de Apple, de modo que tus datos de iCloud están protegidos en caso de violación de datos y, por lo demás, ocultos a Apple.
 
-If you want to be able to install apps from the App Store but don't want to enable iCloud, you can sign in to your Apple Account from the App Store instead of **System Settings**.
+Si quieres poder instalar aplicaciones desde el App Store pero no quieres activar iCloud, puedes iniciar sesión en tu cuenta de Apple desde el App Store en lugar de desde **Ajustes del Sistema**.
 
 ### Ajustes del Sistema
 

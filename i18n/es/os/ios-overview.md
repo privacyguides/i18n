@@ -8,9 +8,9 @@ description: iOS es un sistema operativo móvil desarrollado por Apple para el i
 
 ## Notas de Privacidad
 
-iOS devices are frequently praised by security experts for their robust data protection and adherence to modern best practices. Sin embargo, el carácter restrictivo del ecosistema de Apple -especialmente con sus dispositivos móviles- sigue obstaculizando la privacidad de varias maneras.
+Los dispositivos iOS suelen ser elogiados por los expertos en seguridad por su sólida protección de datos y su adhesión a las mejores prácticas modernas. Sin embargo, el carácter restrictivo del ecosistema de Apple -especialmente con sus dispositivos móviles- sigue obstaculizando la privacidad de varias maneras.
 
-En general, consideramos que iOS ofrece una protección de la privacidad y la seguridad mejor que la media para la mayoría de la gente, en comparación con los dispositivos Android de serie de cualquier fabricante. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android/distributions.md#aosp-derivatives) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
+En general, consideramos que iOS ofrece una protección de la privacidad y la seguridad mejor que la media para la mayoría de la gente, en comparación con los dispositivos Android de serie de cualquier fabricante. Sin embargo, puedes alcanzar estándares de privacidad aún más altos con un [sistema operativo Android personalizado](../android/distributions.md#aosp-derivatives) como GrapheneOS, si quieres o necesitas ser completamente independiente de los servicios en la nube de Apple o Google.
 
 ### Bloqueo de Activación
 
@@ -40,9 +40,9 @@ También puedes proteger tus datos limitando lo que sincronizas con iCloud. En l
 
 #### iCloud+
 
-Una suscripción de pago a **iCloud+** (con cualquier plan de almacenamiento de iCloud) incluye algunas funciones de protección de la privacidad. While these may provide adequate service for current iCloud customers, we wouldn't recommend purchasing an iCloud+ plan over a [VPN](../vpn.md) and [standalone email aliasing service](../email-aliasing.md) just for these features alone.
+Una suscripción de pago a **iCloud+** (con cualquier plan de almacenamiento de iCloud) incluye algunas funciones de protección de la privacidad. Si bien pueden ofrecer un servicio adecuado a los clientes actuales de iCloud, no recomendaríamos adquirir un plan iCloud+ en lugar de una [VPN ](../vpn.md) y un [servicio independiente de alias de correo electrónico](../email-aliasing.md) solo por estas funciones.
 
-[**Private Relay**](https://apple.com/legal/privacy/data/en/icloud-relay) is a proxy service which relays all of your Safari traffic, your DNS queries, and unencrypted traffic on your device through two servers: one owned by Apple and one owned by a third-party provider (including Akamai, Cloudflare, and Fastly). En teoría, esto debería impedir que cualquier proveedor de la cadena -incluido Apple- tenga plena visibilidad de los sitios web que visitas mientras estás conectado. Unlike a VPN, Private Relay does not protect traffic that's already encrypted.
+[**Relay Privado**](https://apple.com/legal/privacy/data/en/icloud-relay) es un servicio proxy que retransmite todo tu tráfico de Safari, tus consultas DNS y el tráfico no cifrado de tu dispositivo a través de dos servidores: uno propiedad de Apple y otro de un proveedor externo (incluidos Akamai, Cloudflare y Fastly). En teoría, esto debería impedir que cualquier proveedor de la cadena -incluido Apple- tenga plena visibilidad de los sitios web que visitas mientras estás conectado. A diferencia de una VPN, el Relay Privado no protege el tráfico que ya está cifrado.
 
 **Ocultar Mi Correo Electrónico** es el servicio de alias de correo electrónico de Apple. Puede crear un alias de correo electrónico de forma gratuita al *Iniciar sesión con Apple* en un sitio web o una aplicación, o generar alias ilimitados bajo demanda con un plan iCloud+ de pago. Ocultar Mi Correo Electrónico tiene la ventaja de utilizar el dominio `@icloud.com` para sus alias, que puede ser menos susceptible de ser bloqueado en comparación con otros servicios de alias de correo electrónico, pero no ofrece la funcionalidad que ofrecen los servicios independientes, como el cifrado PGP automático o la compatibilidad con múltiples buzones de correo.
 
@@ -56,7 +56,7 @@ En la parte superior de la aplicación **Ajustes**, verás tu nombre y tu foto d
 
 **Buscar** es un servicio que te permite rastrear tus dispositivos Apple y compartir tu ubicación con tus amigos y familiares. También te permite borrar el dispositivo a distancia en caso de robo, evitando que un ladrón acceda a tus datos. Tus [datos de localización de Buscar son E2EE](https://apple.com/legal/privacy/data/en/find-my) cuando:
 
-- Your location is shared with a family member or friend, and you both use iOS 17 or greater.
+- Tu localización se comparte con un familiar o amigo, y ambos utilizáis iOS 17 o superior.
 - Tu dispositivo está desconectado y es localizado por la red Buscar.
 
 Tus datos de localización no son E2EE cuando tu dispositivo está conectado y utilizas Buscar iPhone remotamente para localizar tu dispositivo. Tendrá que decidir si estas ventajas compensan los beneficios antirrobo del Bloqueo de Activación.
@@ -125,11 +125,11 @@ Si utilizas datos biométricos, debes saber cómo desactivarlos rápidamente en 
 
 En algunos dispositivos antiguos, puede que tengas que pulsar el botón de encendido cinco veces para desactivar la biometría en su lugar, o para los dispositivos con Touch ID puede que sólo tengas que mantener pulsado el botón de encendido y nada más. Asegúrate de probarlo con antelación para saber qué método funciona con tu dispositivo.
 
-**Stolen Device Protection** is a new feature in iOS 17.3 which adds additional security intended to protect your personal data if your device is stolen while unlocked. Si utilizas la biometría y la función Buscar Mi Dispositivo en la configuración de tu ID de Apple, te recomendamos que actives esta nueva protección:
+**Protección en Caso de Robo** es una nueva función de iOS 17.3 que añade seguridad adicional destinada a proteger tus datos personales si te roban el dispositivo mientras está desbloqueado. Si utilizas la biometría y la función Buscar Mi Dispositivo en la configuración de tu ID de Apple, te recomendamos que actives esta nueva protección:
 
 - [x] Selecciona **Activar Protección**
 
-After enabling Stolen Device Protection, [certain actions](https://support.apple.com/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling Lost Mode. It also adds a security delay to certain actions performed away from your home or another "familiar location," such as requiring a 1-hour timer to reset your Apple ID password or sign out of your Apple ID. Este retraso pretende darte tiempo para activar el Modo Perdido y asegurar tu cuenta antes de que un ladrón pueda reiniciar tu dispositivo.
+Después de activar la Protección en Caso de Robo, [ciertas acciones](https://support.apple.com/HT212510) requerirán autenticación biométrica sin una contraseña de respaldo (en el caso de que un "shoulder surfer" haya obtenido tu PIN), como el uso de autorrelleno de contraseña, el acceso a información de pago y la desactivación del Modo Perdido. También añade un retardo de seguridad a ciertas acciones que se realizan fuera de casa o de otro "lugar conocido", como exigir un temporizador de 1 hora para restablecer la contraseña del ID de Apple o cerrar la sesión del ID de Apple. Este retraso pretende darte tiempo para activar el Modo Perdido y asegurar tu cuenta antes de que un ladrón pueda reiniciar tu dispositivo.
 
 **Permitir Acceso al Estar Bloqueado** te da opciones para lo que puedes permitir cuando tu teléfono está bloqueado. Cuantas más de estas opciones deshabilites, menos podrá hacer alguien sin tu contraseña, pero menos cómodo será para ti. Elige a cuáles de ellos no quieres que alguien tenga acceso si llega a poner sus manos en tu teléfono.
 
@@ -161,23 +161,23 @@ Con esta opción activada, alguien podría borrar intencionadamente tu teléfono
 
 - [ ] Desactiva **Localización**
 
-A purple arrow will appear next to an app in these settings that has used your location recently, while a gray arrow indicates that your location has been accessed within the last 24 hours. If you decide to leave Location Services on, Apple will use it for System Services by default. You can review and pick which services can use your location here. However, if you don't want to submit location analytics to Apple, which they use to improve Apple Maps, you can disable this here as well. Select **System Services**:
+Aparecerá una flecha morada junto a una aplicación en estos ajustes que haya utilizado tu ubicación recientemente, mientras que una flecha gris indica que se ha accedido a tu ubicación en las últimas 24 horas. Si decides dejar activada la Localización, Apple la utilizará por defecto para los Servicios del Sistema. Aquí puede revisar y elegir qué servicios pueden utilizar tu localización. Sin embargo, si no quieres enviar análisis de localización a Apple, que utilizan para mejorar Mapas, también puedes desactivar esta opción. Selecciona **Servicios del Sistema**:
 
-- [ ] Turn off **iPhone Analytics**
-- [ ] Turn off **Routing & Traffic**
-- [ ] Turn off **Improve Maps**
+- [ ] Desactiva **Análisis de iPhone**
+- [ ] Desactiva **Enrutamiento y Tráfico**
+- [ ] Desactiva **Mejorar Mapas**
 
 Aquí puedes decidir si permites que las aplicaciones soliciten **rastrearte**. Desactivar esta opción impide que todas las aplicaciones te rastreen con el ID de publicidad de tu teléfono. Selecciona **Rastreo**:
 
 - [ ] Desactiva **Permitir que las Apps Soliciten Rastrearte**
 
-This is disabled by default and cannot be changed for users under 18.
+Esta opción está desactivada por defecto y no puede modificarse para usuarios menores de 18 años.
 
 Deberías desactivar **Datos de Uso y de los Sensores** si no deseas participar en estudios. Selecciona **Datos de Uso y de los Sensores**:
 
 - [ ] Desactiva **Datos de Uso y de los Sensores**
 
-**Comprobación de Seguridad** te permite ver y revocar rápidamente a determinadas personas y aplicaciones que podrían tener permiso para acceder a tus datos. Here you can perform an **Emergency Reset**, immediately resetting permissions for all people and apps which might have access to device resources. You can also **Manage Sharing & Access** which allows you to go through and customize who and what has access to your device and account resources.
+**Comprobación de Seguridad** te permite ver y revocar rápidamente a determinadas personas y aplicaciones que podrían tener permiso para acceder a tus datos. Aquí puedes realizar un **Restablecimiento de Emergencia**, restableciendo inmediatamente los permisos para todas las personas y aplicaciones que puedan tener acceso a los recursos del dispositivo. También puedes **Gestionar Accesos y Datos Compartidos** que te permite revisar y personalizar quién y qué tiene acceso a tu dispositivo y a los recursos de tu cuenta.
 
 Deberías desactivar los análisis si no deseas enviar datos de uso a Apple. Selecciona **Análisis y Mejoras**:
 
@@ -187,7 +187,7 @@ Deberías desactivar los análisis si no deseas enviar datos de uso a Apple. Sel
 - [ ] Desactiva **Mejorar Seguridad**
 - [ ] Desactiva **Mejorar Siri y Dictado**
 
-Desactiva **Anuncios Personalizados** si no quieres anuncios personalizados. Select **Apple Advertising**:
+Desactiva **Anuncios Personalizados** si no quieres anuncios personalizados. Selecciona **Publicidad de Apple**:
 
 - [ ] Desactiva **Anuncios Personalizados**
 
@@ -211,7 +211,7 @@ El jailbreaking en un iPhone socava su seguridad y te hace vulnerable. Ejecutar 
 
 ### iMessage Encriptado
 
-El color de la burbuja de mensajes en la aplicación Mensajes indica si tus mensajes son E2EE o no. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates the other party is using the outdated SMS and MMS protocols. Actualmente, la única forma de obtener E2EE en Mensajes es que ambas partes utilicen iMessage en dispositivos Apple.
+El color de la burbuja de mensajes en la aplicación Mensajes indica si tus mensajes son E2EE o no. Una burbuja azul indica que estás utilizando iMessage con E2EE, mientras que una burbuja verde indica que la otra parte está utilizando los anticuados protocolos SMS y MMS. Actualmente, la única forma de obtener E2EE en Mensajes es que ambas partes utilicen iMessage en dispositivos Apple.
 
 Si tú o tu compañero de mensajería tenéis activada la Copia de Seguridad de iCloud sin Protección de Datos Avanzada, la clave de cifrado se almacenará en los servidores de Apple, lo que significa que podrán acceder a tus mensajes. Además, el intercambio de claves de iMessage no es tan seguro como otras implementaciones alternativas, como Signal (que permite ver la clave del destinatario y verificarla mediante un código QR), por lo que no se debería confiar en él para comunicaciones especialmente sensibles.
 
@@ -227,4 +227,4 @@ Apple siempre pone las versiones beta de iOS a disposición de quienes deseen ay
 
 ### Antes del Primer Desbloqueo
 
-If your threat model includes forensic tools, and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. El estado *después de* un reinicio pero *antes de* desbloquear tu dispositivo se conoce como "Antes del Primer Desbloqueo" (BFU), y cuando tu dispositivo está en ese estado hace que sea [significativamente más difícil](https://belkasoft.com/checkm8_glossary) para las herramientas forenses explotar vulnerabilidades para acceder a tus datos. Este estado BFU te permite recibir notificaciones de llamadas, mensajes de texto y alarmas, pero la mayoría de los datos de tu dispositivo siguen estando encriptados y son inaccesibles. Esto puede ser poco práctico, así que considera si estas soluciones tienen sentido para tu situación.
+Si tu modelo de amenazas incluye herramientas forenses y quieres minimizar la posibilidad de que se utilicen exploits para acceder a tu teléfono, debes reiniciar el dispositivo con frecuencia. El estado *después de* un reinicio pero *antes de* desbloquear tu dispositivo se conoce como "Antes del Primer Desbloqueo" (BFU), y cuando tu dispositivo está en ese estado hace que sea [significativamente más difícil](https://belkasoft.com/checkm8_glossary) para las herramientas forenses explotar vulnerabilidades para acceder a tus datos. Este estado BFU te permite recibir notificaciones de llamadas, mensajes de texto y alarmas, pero la mayoría de los datos de tu dispositivo siguen estando encriptados y son inaccesibles. Esto puede ser poco práctico, así que considera si estas soluciones tienen sentido para tu situación.
