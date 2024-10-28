@@ -54,9 +54,9 @@ Dependiendo de si estás utilizando **Wi-Fi** o **Ethernet** (indicado con un pu
 
 Haz clic en el botón "Detalles" junto al nombre de tu red:
 
-- [x] Select **Rotating** under **Private Wi-Fi address**
+- [x] Selecciona **Rotatoria** en **Dirección Wi-Fi privada**
 
-- [x] Check **Limit IP address tracking**
+- [x] Selecciona **Limitar rastreo de dirección IP**
 
 ##### Firewall
 
@@ -136,13 +136,13 @@ El [modo hermético](https://blog.privacyguides.org/2022/10/27/macos-ventura-pri
 
 ### Aleatorización de direcciones Mac
 
-macOS uses a randomized MAC address when performing Wi-Fi scans while disconnected from a network.
+macOS utiliza una dirección MAC aleatoria cuando realiza escaneos Wi-Fi mientras está desconectado de una red.
 
-You can set your MAC address to be randomized per network and rotate occasionally to prevent tracking between networks and on the same network over time.
+Puedes configurar tu dirección MAC para que sea aleatoria por red y rotarla ocasionalmente para evitar el rastreo entre redes y en la misma red a lo largo del tiempo.
 
-Go to **System Settings** → **Network** → **Wi-Fi** → **Details** and set **Private Wi-Fi address** to either **Fixed** if you want a fixed but unique address for the network you're connected to, or **Rotating** if you want it to change over time.
+Ve a **Ajustes del Sistema** → **Red** → **Wi-Fi** → **Detalles** y establece **Dirección Wi-Fi privada** en **Fija** si quieres una dirección fija pero única para la red a la que estás conectado, o en **Rotatoria** si quieres que cambie con el tiempo.
 
-Consider changing your hostname as well, which is another device identifier that's broadcast on the network you're connected to. You may wish to set your hostname to something generic like "MacBook Air", "Laptop", "John's MacBook Pro", or "iPhone" in **System Settings** → **General** → **Sharing**. Algunos [scripts de privacidad](https://github.com/sunknudsen/privacy-guides/tree/master/how-to-spoof-mac-address-and-hostname-automatically-at-boot-on-macos#guide) le permiten generar fácilmente nombres de host aleatorios.
+Considera también la posibilidad de cambiar tu nombre de host, que es otro identificador de dispositivo que se difunde en la red a la que estás conectado. Es posible que desees establecer tu nombre de host en algo genérico como "MacBook Air", "Laptop", "MacBook Pro de John", o "iPhone" en **Ajustes del Sistema**→ **General**→ **Compartir**. Algunos [scripts de privacidad](https://github.com/sunknudsen/privacy-guides/tree/master/how-to-spoof-mac-address-and-hostname-automatically-at-boot-on-macos#guide) le permiten generar fácilmente nombres de host aleatorios.
 
 ## Protecciones de seguridad
 
