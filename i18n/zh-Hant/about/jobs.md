@@ -9,4 +9,32 @@ Privacy Guides 擁有一支由隱私權研究人員和倡導者組成的小型�
 
 ---
 
-_我們目前沒有任何職位空缺。_
+## Open Positions
+
+<div class="grid cards" markdown>
+
+- :material-video-box:{ .lg .middle } **Content Creator**
+
+  ---
+
+  Full-Time | Remote | \$20-$25/hour
+
+  [View posting :material-arrow-right-drop-circle:](jobs/content-creator.md)
+
+- :material-file-document-edit:{ .lg .middle } **Journalist**
+
+  ---
+
+  Full-Time | Remote | \$20-$25/hour
+
+  [View posting :material-arrow-right-drop-circle:](jobs/journalist.md)
+
+- :material-comment-account-outline:{ .lg .middle } **Intern - Community/News**
+
+  ---
+
+  Internship | Remote | \$15/hour
+
+  [View posting :material-arrow-right-drop-circle:](jobs/intern-news.md)
+
+</div>

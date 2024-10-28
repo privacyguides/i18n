@@ -12,7 +12,7 @@ description: 域名系统是 “互联网的电话簿”，帮助浏览器找到
 
 DNS自互联网的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System#History) 以来一直存在。 与DNS服务器间的通讯通常是 **未** 加密的。 在家用场景下，客户通过 [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol)获得由ISP提供的服务器。
 
-未加密的DNS请求可能会被轻易地 **被监视** ，或者在传输过程中 **被修改**。 在世界的某些地方，Isp被要求做原始的 [DNS过滤](https://en.wikipedia.org/wiki/DNS_blocking)。 当你请求一个被封锁的域名的IP地址时，服务器可能不会回应，或可能以不同的IP地址回应。 由于DNS协议没有加密，ISP（或任何网络运营商）可以使用 [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection) 来监控请求。 ISP还可以基于共有特性阻止请求，无论使用的是哪个DNS服务器。 未加密的DNS始终使用 [端口](https://en.wikipedia.org/wiki/Port_(computer_networking)) 53 ，并且始终使用UDP。
+未加密的DNS请求可能会被轻易地 **被监视** ，或者在传输过程中 **被修改**。 在世界的某些地方，Isp被要求做原始的 [DNS过滤](https://en.wikipedia.org/wiki/DNS_blocking)。 当你请求一个被封锁的域名的IP地址时，服务器可能不会回应，或可能以不同的IP地址回应。 由于DNS协议没有加密，ISP（或任何网络运营商）可以使用 [DPI](https://en.wikipedia.org/wiki/Deep_packet_inspection) 来监控请求。 ISP还可以基于共有特性阻止请求，无论使用的是哪个DNS服务器。
 
 下面，我们将探讨并提供一个教程来验证一下外部观察者对于使用常规未加密DNS和 [加密DNS](#what-is-encrypted-dns)这两种情况下分别可能看到什么。
 
@@ -84,7 +84,7 @@ DoH的原生实现出现在iOS 14、macOS 11、微软Windows和Android 13中（�
 
 ### Native Operating System Support
 
-#### 安卓
+#### Android
 
 安卓9及以上系统支持通过TLS的DNS。 这些设置可以在下面找到。 **设置** &rarr; **网络 & 互联网** &rarr; **私人DNS**。
 

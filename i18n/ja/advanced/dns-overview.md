@@ -12,7 +12,7 @@ The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is th
 
 DNSはインターネットの[初期](https://en.wikipedia.org/wiki/Domain_Name_System#History)から存在しています。 DNSサーバーとの間で行われるDNSリクエストは、一般的には暗号化**されていません**。 In a residential setting, a customer is given servers by the ISP via [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
 
-暗号化されていないDNSリクエストは、転送中簡単に**監視し**、**変更**することができます。 世界のいくつかの地域では、ISPは原始的な[DNSフィルタリング](https://en.wikipedia.org/wiki/DNS_blocking)を行うよう命じられています。 ブロックされているドメインのIPアドレスをリクエストすると、サーバーは応答しないか、別のIPアドレスで応答することがあります。 DNSプロトコルは暗号化されていないため、ISPは（またはどのネットワークオペレーターも） [ディープ・パケット・インスペクション](https://en.wikipedia.org/wiki/Deep_packet_inspection)によって 、リクエストを監視できます。 ISPは、どのDNSサーバーが使われているかに関係なく、共通の特徴に基づいてリクエストをブロックすることもできます。 暗号化されていないDNSは、常に[ポート](https://en.wikipedia.org/wiki/Port_(computer_networking))53とUDPを使用します。
+暗号化されていないDNSリクエストは、転送中簡単に**監視し**、**変更**することができます。 世界のいくつかの地域では、ISPは原始的な[DNSフィルタリング](https://en.wikipedia.org/wiki/DNS_blocking)を行うよう命じられています。 ブロックされているドメインのIPアドレスをリクエストすると、サーバーは応答しないか、別のIPアドレスで応答することがあります。 DNSプロトコルは暗号化されていないため、ISPは（またはどのネットワークオペレーターも） [ディープ・パケット・インスペクション](https://en.wikipedia.org/wiki/Deep_packet_inspection)によって 、リクエストを監視できます。 ISPは、どのDNSサーバーが使われているかに関係なく、共通の特徴に基づいてリクエストをブロックすることもできます。
 
 Below, we discuss and provide a tutorial to prove what an outside observer may see using regular unencrypted DNS and [encrypted DNS](#what-is-encrypted-dns).
 
