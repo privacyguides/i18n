@@ -173,33 +173,33 @@ La Protección de la integridad del sistema hace que las ubicaciones de los arch
 
 ##### Sandbox de aplicaciones
 
-On macOS, whether an app is sandboxed is determined by the developer when they sign it. The App Sandbox protects against vulnerabilities in the apps you run by limiting what a malicious actor can access in the event that the app is exploited. The App Sandbox *alone* can't protect against [:material-package-variant-closed-remove: Supply Chain Attacks](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian} by malicious developers. For that, sandboxing needs to be enforced by someone other than the developer themselves, as it is on the App Store.
+En macOS, el desarrollador determina si una aplicación está aislada cuando la firma. El App Sandbox protege contra las vulnerabilidades de las aplicaciones que ejecuta, limitando el acceso de un actor malicioso en caso de que se explote la aplicación. El App Sandbox *por sí solo* no puede proteger contra [:material-package-variant-closed-remove: Ataques a la Cadena de Suministro](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian} por parte de desarrolladores maliciosos. Para ello, el aislamiento debe ser aplicado por alguien que no sea el propio desarrollador, como ocurre en la App Store.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-El software descargado desde fuera de la App Store oficial no necesita ser virtualizado. If your threat model prioritizes defending against [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }, then you may want to check if the software you download outside the App Store is sandboxed, which is up to the developer to *opt in*.
+El software descargado desde fuera de la App Store oficial no necesita ser virtualizado. Si tu modelo de amenazas prioriza la defensa contra [:material-bug-outline: Ataques Pasivos](../basics/common-threats.md#security-and-privacy){ .pg-orange }, entonces es posible que quieras comprobar si el software que descargas fuera de la App Store está protegido por un sandbox, que depende del desarrollador para *optar por él*.
 
 </div>
 
-You can check if an app uses the App Sandbox in a few ways:
+Puedes comprobar si una aplicación utiliza App Sandbox de varias maneras:
 
-You can check if apps that are already running are sandboxed using the [Activity Monitor](https://developer.apple.com/documentation/security/protecting-user-data-with-app-sandbox#Verify-that-your-app-uses-App-Sandbox).
+Puedes comprobar si las aplicaciones que ya se están ejecutando están aisladas mediante el [Monitor de Actividad](https://developer.apple.com/documentation/security/protecting-user-data-with-app-sandbox#Verify-that-your-app-uses-App-Sandbox).
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-Just because one of an app's processes is sandboxed doesn't mean they all are.
+Que uno de los procesos de una aplicación esté aislado no significa que todos lo estén.
 
 </div>
 
-Alternatively, you can check apps before you run them by running this command in the terminal:
+También puedes comprobar las aplicaciones antes de ejecutarlas ejecutando este comando en el terminal:
 
 ``` zsh
 % codesign -dvvv --entitlements - <path to your app>
 ```
 
-If an app is sandboxed, you should see the following output:
+Si una aplicación está aislada, deberías ver el siguiente resultado:
 
 ``` zsh
     [Key] com.apple.security.app-sandbox
@@ -207,27 +207,27 @@ If an app is sandboxed, you should see the following output:
         [Bool] true
 ```
 
-If you find that the app you want to run is not sandboxed, then you may employ methods of [compartmentalization](../basics/common-threats.md#security-and-privacy) such as virtual machines or separate devices, use a similar app that is sandboxed, or choose to not use the unsandboxed app altogether.
+Si descubres que la aplicación que deseas ejecutar no está aislada, puedes emplear métodos de [compartimentación](../basics/common-threats.md#security-and-privacy) como máquinas virtuales o dispositivos separados, utilizar una aplicación similar que sí esté aislada o decidir no utilizar la aplicación no aislada.
 
 ##### Hardened Runtime
 
-The [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime) is an extra form of protection for apps that prevents certain classes of exploits. It improves the security of apps against exploitation by disabling certain features like JIT.
+El [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime) es una forma extra de protección para apps que previene ciertas clases de exploits. Mejora la seguridad de las aplicaciones contra la explotación deshabilitando ciertas características como JIT.
 
-You can check if an app uses the Hardened Runtime using this command:
+Puede comprobar si una aplicación utiliza el Hardened Runtime mediante este comando:
 
 ``` zsh
 codesign --display --verbose /path/to/bundle.app
 ```
 
-If Hardened Runtime is enabled, you will see `flags=0x10000(runtime)`. The `runtime` output means Hardened Runtime is enabled. There might be other flags, but the runtime flag is what we're looking for here.
+Si el Hardened Runtime está activado, verás `flags=0x10000(runtime)`. La salida `runtime` significa que Hardened Runtime está activado. Puede haber otras señales, pero la señal de runtime es la que buscamos aquí.
 
-You can enable a column in Activity Monitor called "Restricted" which is a flag that prevents programs from injecting code via macOS's [dynamic linker](https://pewpewthespells.com/blog/blocking_code_injection_on_ios_and_os_x.html). Ideally, this should say "Yes".
+Puedes activar una columna en el Monitor de Actividad llamada «Restringido», que es una marca que impide que los programas inyecten código a través del [dynamic linker](https://pewpewthespells.com/blog/blocking_code_injection_on_ios_and_os_x.html) de macOS. Lo ideal sería que dijera "Sí".
 
 ##### Antivirus
 
 macOS incluye dos formas de defensa ante el malware:
 
-1. La protección ante la ejecución del malware es proporcionada por el proceso de revisión de aplicaciones de la App Store, o la *Notarización* (parte de *Gatekeeper*), proceso donde las aplicaciones de terceros son escaneadas por Apple para buscar algún malware conocido, antes de que se le permita ser ejecutada. Apps are required to be signed by the developers using a key given to them by Apple. This ensures that you are running software from the real developers. Notarization also requires that developers enable the Hardened Runtime for their apps, which limits methods of exploitation.
+1. La protección ante la ejecución del malware es proporcionada por el proceso de revisión de aplicaciones de la App Store, o la *Notarización* (parte de *Gatekeeper*), proceso donde las aplicaciones de terceros son escaneadas por Apple para buscar algún malware conocido, antes de que se le permita ser ejecutada. Las aplicaciones deben ser firmadas por los desarrolladores con una clave que les da Apple. Esto asegura que estás ejecutando software de los desarrolladores reales. La notarización también requiere que los desarrolladores habiliten el Hardened Runtime para sus aplicaciones, lo que limita los métodos de explotación.
 2. La protección contra otros malware y la remediación contra malware existente en el sistema, es proporcionada por *XProtect*, un antivirus tradicional incluido en macOS.
 
 Recomendamos evitar la instalación de antivirus desarrollados por terceras personas porque, generalmente, estos no cuentan con acceso al nivel del sistema, requerido para funcionar correctamente. Esto se debe a las limitaciones de Apple en las aplicaciones de terceros, además de que garantizar altos niveles de acceso puede afectar la seguridad y la privacidad de la computadora.
