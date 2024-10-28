@@ -27,13 +27,13 @@ Diese Messenger eignen sich hervorragend zur Sicherung deiner sensiblen Kommunik
 
 ![Signal logo](assets/img/messengers/signal.svg){ align=right }
 
-**Signal** ist eine mobile App, die von Signal Messenger LLC entwickelt wurde. Die App bietet Instant Messaging und Anrufe, die mit dem Signal-Protokoll gesichert sind, einem extrem sicheren Verschlüsselungsprotokoll, das Forward Secrecy[^1] und Post-Compromise Security[^2] unterstützt.
+**Signal** ist eine mobile App, die von Signal Messenger LLC entwickelt wurde. The app provides instant messaging and calls secured with the Signal Protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
 
 [:octicons-home-16: Homepage](https://signal.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Datenschutzerklärung" }
-[:octicons-info-16:](https://support.signal.org){ .card-link title=Dokumentation}
-[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Quellcode" }
-[:octicons-heart-16:](https://signal.org/donate){ .card-link title=Spenden }
+[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.signal.org){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://signal.org/donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -80,7 +80,7 @@ If you use Android and your threat model requires protecting against [:material-
 
 [:octicons-home-16: Homepage](https://molly.im){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/mollyim/mollyim-android/wiki){ .card-link title="Documentation"}
+[:octicons-info-16:](https://github.com/mollyim/mollyim-android/wiki){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/mollyim/mollyim-android){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://opencollective.com/mollyim){ .card-link title="Contribute" }
 
@@ -111,14 +111,14 @@ Molly und Molly-FOSS unterstützen [reproduzierbare Builds](https://github.com/m
 
 <div class="admonition recommendation" markdown>
 
-![Simplex-Logo](assets/img/messengers/simplex.svg){ align=right }
+![Simplex logo](assets/img/messengers/simplex.svg){ align=right }
 
-**SimpleX** Chat ist ein Instant Messenger, der ohne eindeutigen Identifikatoren wie Telefonnummern oder Benutzernamen auskommt. Sein dezentrales Netzwerk macht SimpleX Chat zu einem effektiven Werkzeug gegen [:material-close-outline: Zensur](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Benutzer von SimpleX Chat können einen QR-Code scannen oder auf einen Einladungslink klicken, um an Gruppengesprächen teilzunehmen.
+**SimpleX Chat** is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Sein dezentrales Netzwerk macht SimpleX Chat zu einem effektiven Werkzeug gegen [:material-close-outline: Zensur](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
 [:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){ .card-link title="Datenschutzrichtlinie" }
-[:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=Dokumentation}
-[:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Quellcode" }
+[:octicons-eye-16:](https://simplex.chat/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://simplex.chat/docs/simplex.html){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -134,9 +134,14 @@ Molly und Molly-FOSS unterstützen [reproduzierbare Builds](https://github.com/m
 
 </div>
 
-SimpleX Chat wurde im Oktober 2016 einem [Audit](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) von Trail of Bits unterzogen.
+SimpleX provides direct messaging, group chats, and E2EE calls secured with the [SimpleX Messaging Protocol](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md), which uses double ratchet encryption with quantum resistance. Additionally, SimpleX Chat provides metadata protection by using unidirectional ["simplex queues"](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md#simplex-queue) to deliver messages.
 
-SimpleX Chat unterstützt grundlegende Gruppen-Chat-Funktionen, Direktnachrichten und die Bearbeitung von Nachrichten und Markdown. E2EE Audio- und Videoanrufe werden ebenfalls unterstützt. Deine Daten können exportiert und auf ein anderes Gerät importiert werden, da es keine zentralen Server gibt, auf denen die Daten gesichert werden.
+To participate in conversations on SimpleX Chat, you must scan a QR code or click an invite link. This allows you to verify a contact out-of-band, which protects against man-in-the-middle attacks by network providers. Deine Daten können exportiert und auf ein anderes Gerät importiert werden, da es keine zentralen Server gibt, auf denen die Daten gesichert werden.
+
+You can find a full list of the privacy and security [features](https://github.com/simplex-chat/simplex-chat#privacy-and-security-technical-details-and-limitations) implemented in SimpleX Chat on the app's repository.
+
+SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html#simplex-cryptographic-design-review-by-trail-of-bits) and in [October 2022](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website).
+
 
 ### Briar
 
@@ -147,10 +152,10 @@ SimpleX Chat unterstützt grundlegende Gruppen-Chat-Funktionen, Direktnachrichte
 **Briar** ist ein verschlüsselter Instant-Messenger, der sich mit anderen Geräten [über das Tor-Netzwerk verbindet](https://briarproject.org/how-it-works). Das macht es zu einem effektiven Werkzeug zur Umgehung von [:material-close-outline: Zensur](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar kann sich auch über Wi-Fi oder Bluetooth verbinden, wenn sich die Geräte in der Nähe befinden. Dieser lokale Mesh-Modus von Briar kann nützlich sein, wenn die Internetverfügbarkeit ein Problem darstellt.
 
 [:octicons-home-16: Homepage](https://briarproject.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Datenschutzrichtlinie" }
-[:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title=Dokumentation}
-[:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Quellcode" }
-[:octicons-heart-16:](https://briarproject.org){ .card-link title="Spendenoptionen sind unten auf der Hompage aufgeführt" }
+[:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title="Documentation" }
+[:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://briarproject.org){ .card-link title="Donation options are listed on the bottom of the homepage" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -192,9 +197,9 @@ Diese Messenger haben keine Forward Secrecy[^1], und obwohl sie bestimmte Anford
 Nachrichten und Dateien, die in privaten Räumen (für die eine Einladung erforderlich ist) geteilt werden, sind standardmäßig E2EE, ebenso wie persönliche Sprach- und Videoanrufe.
 
 [:octicons-home-16: Homepage](https://element.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Datenschutzrichtlinie" }
-[:octicons-info-16:](https://element.io/help){ .card-link title=Dokumentation}
-[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Quellcode" }
+[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://element.io/help){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -230,9 +235,9 @@ Das Protokoll wurde 2016 einem unabhängigen [Audit](https://matrix.org/blog/201
 Session verwendet das dezentralisierte [Oxen Service Node Network](https://oxen.io) zum Speichern und Weiterleiten von Nachrichten. Jede verschlüsselte Nachricht wird über drei Knoten im Oxen Service Node Network geleitet, was es den Knoten praktisch unmöglich macht, aussagekräftige Informationen über die Nutzer des Netzwerks zu sammeln.
 
 [:octicons-home-16: Homepage](https://getsession.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Datenschutzrichtlinie" }
-[:octicons-info-16:](https://getsession.org/faq){ .card-link title=Dokumentation}
-[:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Quellcode" }
+[:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://getsession.org/faq){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

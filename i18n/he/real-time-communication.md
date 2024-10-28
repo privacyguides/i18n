@@ -31,9 +31,9 @@ These are our recommendations for encrypted **real-time communication**.
 
 [:octicons-home-16: Homepage](https://signal.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.signal.org){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.signal.org){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://signal.org/donate){ .card-link title=Contribute }
+[:octicons-heart-16:](https://signal.org/donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -80,7 +80,7 @@ If you use Android and your threat model requires protecting against [:material-
 
 [:octicons-home-16: Homepage](https://molly.im){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/mollyim/mollyim-android/wiki){ .card-link title="Documentation"}
+[:octicons-info-16:](https://github.com/mollyim/mollyim-android/wiki){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/mollyim/mollyim-android){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://opencollective.com/mollyim){ .card-link title="Contribute" }
 
@@ -113,11 +113,11 @@ Molly and Molly-FOSS support [reproducible builds](https://github.com/mollyim/mo
 
 ![Simplex logo](assets/img/messengers/simplex.svg){ align=right }
 
-**SimpleX** Chat is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. משתמשי SimpleX Chat יכולים לסרוק קוד QR או ללחוץ על קישור הזמנה כדי להשתתף בשיחות קבוצתיות.
+**SimpleX Chat** is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
 [:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/simplex-chat/simplex-chat/blob/stable/PRIVACY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/simplex-chat/simplex-chat/tree/stable/docs){ .card-link title=Documentation}
+[:octicons-eye-16:](https://simplex.chat/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://simplex.chat/docs/simplex.html){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -134,9 +134,14 @@ Molly and Molly-FOSS support [reproducible builds](https://github.com/mollyim/mo
 
 </div>
 
-SimpleX Chat [נבדק](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website.html) על ידי Trail of Bits באוקטובר 2022.
+SimpleX provides direct messaging, group chats, and E2EE calls secured with the [SimpleX Messaging Protocol](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md), which uses double ratchet encryption with quantum resistance. Additionally, SimpleX Chat provides metadata protection by using unidirectional ["simplex queues"](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md#simplex-queue) to deliver messages.
 
-SimpleX Chat תומך בפונקציונליות בסיסית של צ'אט קבוצתי, הודעות ישירות ועריכה של הודעות ו-markdown. שיחות שמע ווידאו E2EE נתמכות גם כן. Your data can be exported and imported onto another device, as there are no central servers where this is backed up.
+To participate in conversations on SimpleX Chat, you must scan a QR code or click an invite link. This allows you to verify a contact out-of-band, which protects against man-in-the-middle attacks by network providers. Your data can be exported and imported onto another device, as there are no central servers where this is backed up.
+
+You can find a full list of the privacy and security [features](https://github.com/simplex-chat/simplex-chat#privacy-and-security-technical-details-and-limitations) implemented in SimpleX Chat on the app's repository.
+
+SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html#simplex-cryptographic-design-review-by-trail-of-bits) and in [October 2022](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website).
+
 
 ### Briar
 
@@ -148,7 +153,7 @@ SimpleX Chat תומך בפונקציונליות בסיסית של צ'אט קב�
 
 [:octicons-home-16: Homepage](https://briarproject.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title=Documentation}
+[:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title="Documentation" }
 [:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://briarproject.org){ .card-link title="Donation options are listed on the bottom of the homepage" }
 
@@ -193,7 +198,7 @@ Messages and files shared in private rooms (those which require an invite) are b
 
 [:octicons-home-16: Homepage](https://element.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://element.io/help){ .card-link title=Documentation}
+[:octicons-info-16:](https://element.io/help){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -231,7 +236,7 @@ Session uses the decentralized [Oxen Service Node Network](https://oxen.io) to s
 
 [:octicons-home-16: Homepage](https://getsession.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://getsession.org/faq){ .card-link title=Documentation}
+[:octicons-info-16:](https://getsession.org/faq){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
