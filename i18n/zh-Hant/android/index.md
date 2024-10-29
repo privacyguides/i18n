@@ -38,7 +38,7 @@ schema:
 
 購買 Android 手機時，該設備的預設作業系統通常綁入非 Android 開源專案的應用程式與服務，成為侵入性整合。 其中許多應用程式-- 甚至是提供基本系統功能的撥號器等應用程式-- 都需放到 Google Play 服務進行侵入式整合，且 Google Play 服務需要存取檔案、聯絡人儲存、通話記錄、簡訊、位置、攝影機、麥克風以及設備上的許多內容的權限，這樣基本系統程式和其他應用程式才能運行。 這些應用程式和服務增加了設備的攻擊面，成為 Android 各種隱私問題的來源。
 
-這個問題可以透過使用另一種 Android 發行版（通常稱為 \* 客製化 ROM\* ）來解決，這種套件不會有這種入侵性的整合。 不幸的是，許多自定義 Android 發行版常常違反 Android 安全模型，不支持重要的安全功能，如 AVB 、回滾保護、韌體更新等。 有些發行版提供 [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) 版本的構建，這種版本可透過 [ADB](https://developer.android.com/studio/command-line/adb) 暴露 root，並需要 [更寬鬆的](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug\&type=code) SELinux 政策以允許除錯功能，這會進一步增加攻擊面和削弱安全模型。
+這個問題可以透過使用另一種 Android 發行版（通常稱為 _客製化 ROM_）來解決，這種套件不會有這種入侵性的整合。 不幸的是，許多自定義 Android 發行版常常違反 Android 安全模型，不支持重要的安全功能，如 AVB 、回滾保護、韌體更新等。 有些發行版提供 [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) 版本的構建，這種版本可透過 [ADB](https://developer.android.com/studio/command-line/adb) 暴露 root，並需要 [更寬鬆的](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug\&type=code) SELinux 政策以允許除錯功能，這會進一步增加攻擊面和削弱安全模型。
 
 理想情況下，在選擇客製 Android 發行版時，應該確保它符合Android 安全模型。 至少，該發行版應該具有生產構建，支持 AVB ，回滾保護，及時韌體和作業系統更新，以及SELinux [強制模式](https://source.android.com/security/selinux/concepts#enforcement_levels) 。 我們推薦的所有 Android 發行版都符合這些標準：
 

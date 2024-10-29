@@ -22,7 +22,7 @@ cover: encryption.webp
 
 ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
 
-**Cryptomator** 是一種加密方案，專為私密的將檔案儲存至任何雲端 [:material-server-network: 提供商](basics/common-threats.md#privacy-from-service-providers){ .pg-teal } 而設計，讓您無需相信他們不會存取您的檔案。 它允許您創建存儲在虛擬驅動器上的保管庫，其內容已加密並與雲端儲存供應商同步。
+**Cryptomator** 是一種加密方案，專為私密的將檔案儲存至任何雲端 [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers){ .pg-teal } 而設計，讓您無需相信他們不會存取您的檔案。 它允許您創建存儲在虛擬驅動器上的保管庫，其內容已加密並與雲端儲存供應商同步。
 
 [:octicons-home-16: 首頁](https://cryptomator.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="隱私權政策" }
