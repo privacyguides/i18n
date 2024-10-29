@@ -78,11 +78,11 @@ If you use Android and your threat model requires protecting against [:material-
 
 **Molly** is an alternative Signal client for Android which allows you to encrypt the local database with a passphrase at rest, to have unused RAM data securely shredded, to route your connection via Tor, and [more](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features). It also has usability improvements including scheduled backups, automatic locking, and the ability to use your Android phone as a linked device instead of the primary device for a Signal account.
 
-[:octicons-home-16: Homepage](https://molly.im){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/mollyim/mollyim-android/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mollyim/mollyim-android){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/mollyim){ .card-link title="Contribute" }
+[:octicons-home-16: Hemsida](https://molly.im){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Integritetspolicy" }
+[:octicons-info-16:](https://github.com/mollyim/mollyim-android/wiki){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/mollyim/mollyim-android){ .card-link title="Källkod" }
+[:octicons-heart-16:](https://opencollective.com/mollyim){ .card-link title="Bidra" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -115,10 +115,10 @@ Molly and Molly-FOSS support [reproducible builds](https://github.com/mollyim/mo
 
 **SimpleX Chat** is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
-[:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplex.chat/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://simplex.chat/docs/simplex.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
+[:octicons-home-16: Hemsida](https://simplex.chat){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://simplex.chat/privacy){ .card-link title="Integritetspolicy" }
+[:octicons-info-16:](https://simplex.chat/docs/simplex.html){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Källkod" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -196,10 +196,10 @@ These messengers do not have forward secrecy[^1], and while they fulfill certain
 
 Messages and files shared in private rooms (those which require an invite) are by default E2EE, as are one-to-one voice and video calls.
 
-[:octicons-home-16: Homepage](https://element.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://element.io/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
+[:octicons-home-16: Hemsida](https://element.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Integritetspolicy" }
+[:octicons-info-16:](https://element.io/help){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Källkod" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -234,10 +234,10 @@ The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matr
 
 Session uses the decentralized [Oxen Service Node Network](https://oxen.io) to store and route messages. Every encrypted message is routed through three nodes in the Oxen Service Node Network, making it virtually impossible for the nodes to compile meaningful information on those using the network.
 
-[:octicons-home-16: Homepage](https://getsession.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://getsession.org/faq){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }
+[:octicons-home-16: Hemsida](https://getsession.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Integritetspolicy" }
+[:octicons-info-16:](https://getsession.org/faq){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Källkod" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

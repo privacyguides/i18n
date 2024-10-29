@@ -71,8 +71,8 @@ If you don't use an automatic scanner to find results about you, consider settin
 
 **EasyOptOuts** is a $20/year service which will search a number of different data broker sites and automatically submit opt-out requests on your behalf. They will perform the first search and removal process immediately, and then re-run the process every 4 months in case your data shows up on new sites over time.
 
-[:octicons-home-16: Homepage](https://easyoptouts.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://easyoptouts.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Hemsida](https://easyoptouts.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://easyoptouts.com/privacy){ .card-link title="Integritetspolicy" }
 
 </div>
 

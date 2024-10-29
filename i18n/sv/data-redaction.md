@@ -91,8 +91,8 @@ Appen erbjuder flera sätt att radera metadata från bilder. Namn:
 
 **Metapho** är en enkel och ren visare för fotometadata som datum, filnamn, storlek, kameramodell, slutartid och plats.
 
-[:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://zininworks.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Hemsida](https://zininworks.com/metapho){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://zininworks.com/privacy){ .card-link title="Integritetspolicy" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -111,10 +111,10 @@ Appen erbjuder flera sätt att radera metadata från bilder. Namn:
 
 **PrivacyBlur** är en gratis app som kan sudda ut känsliga delar av bilder innan de delas på nätet.
 
-[:octicons-home-16: Homepage](https://privacyblur.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
+[:octicons-home-16: Hemsida](https://privacyblur.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Integritetspolicy" }
+[:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Källkod" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

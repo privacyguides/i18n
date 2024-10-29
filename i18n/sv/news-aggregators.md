@@ -107,10 +107,10 @@ A **news aggregator** is software which aggregates digital content from online n
 
 **Miniflux** is a web-based news aggregator that you can self-host. Den stöder [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) och [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
-[:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
-[:octicons-info-16:](https://miniflux.app/docs/index.html){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title=Contribute }
+[:octicons-home-16: Hemsida](https://miniflux.app){ .md-button .md-button--primary }
+[:octicons-info-16:](https://miniflux.app/docs/index.html){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Källkod" }
+[:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title=Bidra }
 
 </div>
 
