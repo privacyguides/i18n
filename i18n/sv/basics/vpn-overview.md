@@ -79,7 +79,7 @@ Most VPN services are owned by the same [few companies](https://vpnpro.com/blog/
 
 You should also be wary that many VPN review sites are merely advertising vehicles open to the highest bidder. ==Privacy Guides does not make money from recommending external products, and never uses affiliate programs.==
 
-[Our VPN Recommendations](../vpn.md ""){.md-button}
+[Våra VPN-rekommendationer](../vpn.md ""){.md-button}
 
 ## Modern VPN Alternatives
 

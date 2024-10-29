@@ -17,7 +17,7 @@ We are occasionally looking for strong journalistic writers, product reviewers, 
 
   ---
 
-  Full-Time | Remote | \$20-$25/hour
+  Heltid | Distans | \$20-$25/timme
 
   [View posting :material-arrow-right-drop-circle:](jobs/content-creator.md)
 
@@ -25,7 +25,7 @@ We are occasionally looking for strong journalistic writers, product reviewers, 
 
   ---
 
-  Full-Time | Remote | \$20-$25/hour
+  Heltid | Distans | \$20-$25/timme
 
   [View posting :material-arrow-right-drop-circle:](jobs/journalist.md)
 
@@ -33,7 +33,7 @@ We are occasionally looking for strong journalistic writers, product reviewers, 
 
   ---
 
-  Internship | Remote | \$15/hour
+  Praktikplats | Distans | \$15/timme
 
   [View posting :material-arrow-right-drop-circle:](jobs/intern-news.md)
 
