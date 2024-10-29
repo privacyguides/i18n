@@ -1,5 +1,5 @@
 ---
-title: macOS 簡介
+title: macOS 概述
 icon: material/apple-finder
 description: macOS 是蘋果電腦的桌面作業系統，搭配其自家硬體提供了堅固的安全。
 ---
@@ -20,9 +20,9 @@ description: macOS 是蘋果電腦的桌面作業系統，搭配其自家硬體�
 
 當開啟應用程式時，macOS 會執行連線檢查，驗證應用程式是否包含已知惡意軟體，以及開發人員的簽名證書是否被撤銷。
 
-Apple's OCSP service uses HTTPS encryption, so only they are able to see which apps you open. They've [posted information](https://support.apple.com/HT202491) about their logging policy for this service. They additionally [promised](http://lapcatsoftware.com/articles/2024/8/3.html) to add a mechanism for people to opt-out of this online check, but this has not been added to macOS.
+Apple 的 OCSP 服務使用 HTTPS 加密，因此只有他們能夠看到您開啟了哪些應用程式。 他們 [已公佈](https://support.apple.com/HT202491) 有關這項服務的登錄政策資訊。 此外，他們 [還承諾會](http://lapcatsoftware.com/articles/2024/8/3.html) 新增一個機制，讓人們可以選擇退出這項線上檢查，但 macOS 並未新增這項功能。
 
-雖然[可以](https://electiclight.co/2021/02/23/how-to-run-apps-in-private/)相對輕鬆地手動選擇退出此檢查，但除非您會受到 macOS 執行撤銷檢查的嚴重損害，不建議這樣做，它們在確保阻止受感染的應用程式運行上發揮著重要作用。
+雖然 [可以](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private) 相對輕鬆地手動選擇退出此檢查，但除非您會受到 macOS 執行撤銷檢查的嚴重損害，不建議這樣做，它們在確保阻止受感染的應用程式運行上發揮著重要作用。
 
 ## 建議的設定
 
@@ -34,11 +34,11 @@ Apple's OCSP service uses HTTPS encryption, so only they are able to see which a
 
 ### iCloud
 
-當使用 iCloud 等 Apple 服務時，大部分資訊都存儲在他們的伺服器上以密鑰保護，且預設情況下 Apple 可以取用該密鑰。 This is called [Standard Data Protection](https://support.apple.com/en-us/102651) by Apple.
+當使用 iCloud 等 Apple 服務時，大部分資訊都存儲在他們的伺服器上以密鑰保護，且預設情況下 Apple 可以取用該密鑰。 Apple 將此稱為 [標準資料保護](https://support.apple.com/en-us/102651)。
 
 因此，如果使用 iCloud，則應[啟用**進階資料保護**](https://support.apple.com/HT212520)。 它利用存在設備上的密鑰對您的iCloud 數據（端到端）加密，此密鑰並不在Apple 伺服器，因此發生數據洩露時您的 iCloud 數據可得到保護與隱匿。
 
-If you want to be able to install apps from the App Store but don't want to enable iCloud, you can sign in to your Apple Account from the App Store instead of **System Settings**.
+如果您希望能夠從 App Store 安裝應用程式，但不想啟用 iCloud，您可以從 App Store 登入 Apple 帳戶，而非 **系統設定**。
 
 ### 系統設定
 
@@ -56,7 +56,7 @@ If you want to be able to install apps from the App Store but don't want to enab
 
 - [x] Select **Rotating** under **Private Wi-Fi address**
 
-- [x] Check **Limit IP address tracking**
+- [x] 檢查 **限制 IP 位址追蹤**
 
 ##### 防火牆
 
@@ -136,9 +136,9 @@ If you want to be able to install apps from the App Store but don't want to enab
 
 ### MAC 地址隨機化
 
-macOS uses a randomized MAC address when performing Wi-Fi scans while disconnected from a network.
+macOS 在網路連線中斷而執行 Wi-Fi 掃描時，會使用隨機化的 MAC 位址。
 
-You can set your MAC address to be randomized per network and rotate occasionally to prevent tracking between networks and on the same network over time.
+您可以將 MAC 位址設定為根據每個網路隨機化，並偶爾輪換，以防止在不同網路之間和同一網路中長時間追蹤。
 
 Go to **System Settings** → **Network** → **Wi-Fi** → **Details** and set **Private Wi-Fi address** to either **Fixed** if you want a fixed but unique address for the network you're connected to, or **Rotating** if you want it to change over time.
 

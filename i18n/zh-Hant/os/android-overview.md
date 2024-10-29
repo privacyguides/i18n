@@ -93,33 +93,33 @@ Android 13:
 
 
 
-### 用戶設定檔
+### 使用者設定檔
 
-多重**用戶設定檔**可在 :gear: **設定** → **系統** → **使用者** 中找到，是 Android 中最簡單的隔離方式。
+多重**使用者設定檔**可在 :gear: **設定** → **系統** → **使用者** 中找到，是 Android 中最簡單的隔離方式。
 
-您可以對特定設定檔施加限制，例如：撥打電話、使用 SMS 或安裝應用程式。 每個用戶設定檔皆使用個自密鑰加密，無法訪問設置上其它用戶的任何資料。 即使是裝置擁有者也無法在不知道用戶密碼的情況下查看其他身份的資料。 多用戶配置設定是一種更安全的隔離方法。
+您可以對特定設定檔施加限制，例如：撥打電話、使用 SMS 或安裝應用程式。 每個使用者設定檔皆使用個自密鑰加密，無法訪問設置上其它用戶的任何資料。 即使是裝置擁有者也無法在不知道用戶密碼的情況下查看其他身份的資料。 多重使用者設定檔是一種更安全的隔離方法。
 
 
 
-### 工作用設定檔
+### 工作設定檔
 
-[**工作用設定檔**](https://support.google.com/work/android/answer/6191949) 是另一個隔離個別應用的方法，也比單獨的用戶設定檔更為方便。
+[**工作設定檔**](https://support.google.com/work/android/answer/6191949) 是另一個隔離個別應用的方法，也比單獨的使用者設定檔更為方便。
 
 在沒有企業 MDM 的情況下，必須使用 [Shelter](../android/general-apps.md#shelter) 等**裝置控制器**應用程式才能建立工作設定檔，除非您使用的是包含企業 MDM 的自訂 Android 作業系統。
 
 工作設定檔依賴裝置控制器才能運作。 *檔案穿梭*、*連絡人搜尋封鎖*等功能或任何種類的隔離功能都必須由控制器執行。 您也必須完全信任裝置控制器應用程式，因為它可以完全存取您在工作設定檔內的資料。
 
-一般而言，此方法的安全性比用戶設定檔低，但可讓您同時在個人設定檔和工作設定檔中執行應用程式，非常方便。
+一般而言，此方法的安全性比使用者設定檔低，但可讓您同時在原有設定檔和工作設定檔中執行應用程式，非常方便。
 
 
 
 ### 私人空間
 
-**私人空間** 是 Android 15 中引入的一項功能，增加了另一種隔離個別應用程式的方式。 您可以在個人設定檔中設定私人空間，方法是導覽 :gear: **設定** → **安全性與隱私權** → **私人空間**。 設定完成後，您的私人空間會位於應用程式列表底部。
+**私人空間** 是 Android 15 中引入的一項功能，增加了另一種隔離個別應用程式的方式。 您可以在個人設定檔中設定私人空間，方法是導覽 :gear: **設定** → **安全性與隱私權** → **私人空間**。 設定完成後，您的私人空間會位於應用程式清單底部。
 
-Like user profiles, a private space is encrypted using its own encryption key, and you have the option to set up a different unlock method. Like work profiles, you can use apps from both the owner profile and private space simultaneously. Apps launched from a private space are distinguished by an icon depicting a key within a shield.
+與用戶設定檔一樣，私人空間也是使用自己的加密金鑰來加密，而且您可以選擇設定不同的解鎖方式。 就像工作用設定檔一樣，您可以同時使用原有設定檔和私人空間中的應用程式。 從私人空間啟動的應用程式會以一個圖示來區分，該圖示描繪了一個鑰匙在盾牌中。
 
-Unlike work profiles, Private Space is a feature native to Android that does not require a third-party app to manage it. For this reason, we generally recommend using a private space over a work profile, though you can use a work profile alongside a private space.
+與工作設定檔不同，私人空間是 Android 原生的功能，不需要第三方應用程式來管理。 因此，我們一般建議您使用私人空間而非工作設定檔，不過您也可以同時使用工作設定檔和私人空間。
 
 
 

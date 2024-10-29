@@ -73,7 +73,7 @@ Arch Linux有一個滾動發佈週期。 沒有固定的發布時間表，套件
 
 作為 DIY 發行版，用戶需要 [自行設置與維護](os/linux-overview.md#arch-based-distributions) 系統。 Arch有一個 [官方安裝程式](https://wiki.archlinux.org/title/Archinstall) ，使安裝過程更容易。
 
-A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org) are [reproducible](https://reproducible-builds.org)[^1].
+[Arch Linux 的套件](https://reproducible.archlinux.org) 大部份都是 [可重現的](https://reproducible-builds.org)[^1]。
 
 ## 原子化發行版
 
@@ -129,7 +129,7 @@ Nix 套件管理員使用純函數式程式設計語言（稱為 Nix ）來定�
 
 [Nixpkgs](https://github.com/nixos/nixpkgs) （套件的主要來源）包含在單一的 GitHub 儲存庫中。 您也可以用相同的語言定義自己的套件，然後輕鬆地將它們包含在您的配置中。
 
-Nix是一個基於源的套件管理器；如果二進位快取中沒有預先構建的可用性， Nix 只會使用其定義從源構建套件。 它在盡可能獨立於主機系統的沙盒 *純淨*環境（pure environment，此處因找不到資料而直翻）中建立每個套件。 Binaries built with this method are reproducible[^1].
+Nix是一個基於源的套件管理器；如果二進位快取中沒有預先構建的可用性， Nix 只會使用其定義從源構建套件。 它在盡可能獨立於主機系統的沙盒 *純淨*環境（pure environment，此處因找不到資料而直翻）中建立每個套件。 使用此方法建立的二進位檔是可重現的[^1]。
 
 ## 以匿名爲重點的發行版
 
@@ -139,7 +139,7 @@ Nix是一個基於源的套件管理器；如果二進位快取中沒有預先�
 
 ![Whonix logo](assets/img/linux-desktop/whonix.svg){ align=right }
 
-**Whonix** 為基於 [Kicksecure](#kicksecure) 專注在安全的 Debian 分支系統。 It aims to provide privacy, security, and [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } on the internet. Whonix 最好與 [Qubes OS](#qubes-os) 配合使用。
+**Whonix** 為基於 [Kicksecure](#kicksecure) 專注在安全的 Debian 分支系統。 其目的是在網際網路上提供隱私、安全性和 [:material-incognito: 匿名](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }。 Whonix 最好與 [Qubes OS](#qubes-os) 配合使用。
 
 [:octicons-home-16: 首頁](https://whonix.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="洋蔥服務" }
@@ -162,7 +162,7 @@ Whonix 最好 [與 Qubes 結合使用](https://whonix.org/wiki/Qubes/Why_use_Qub
 
 ![Tails logo](assets/img/linux-desktop/tails.svg){ align=right }
 
-**Tails** 是一個基於Debian 的自生作業系統，通過 Tor 路由所有通訊，透過 DVD ， USB記憶棒或 SD卡安裝幾乎可在任何電腦上啟動。 It uses [Tor](tor.md) to preserve privacy and [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } while circumventing censorship, and it leaves no trace of itself on the computer it is used on after it is powered off.
+**Tails** 是一個基於Debian 的自生作業系統，通過 Tor 路由所有通訊，透過 DVD ， USB記憶棒或 SD卡安裝幾乎可在任何電腦上啟動。 它使用 [Tor](tor.md) 來維護 隱私 和 [:material-incognito: 匿名](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } ，同時規避審查，而且在關閉電源後，它不會在使用的電腦上留下任何痕跡。
 
 [:octicons-home-16: 首頁](https://tails.net){ .md-button .md-button--primary }
 [:octicons-info-16:](https://tails.net/doc/index.en.html){ .card-link title=說明文件}
@@ -210,7 +210,7 @@ Tails Tor 瀏覽器預設包含 [uBlock Origin](browser-extensions.md#ublock-ori
 
 </div>
 
-Qubes OS 作業系統將子系統（例如網絡、USB等）和應用程式隔離在個別的 *qubes* 以保護電腦。 Should one part of the system be compromised via an exploit in a [:material-target-account: Targeted Attack](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}, the extra isolation is likely to protect the rest of the *qubes* and the core system.
+Qubes OS 作業系統將子系統（例如網絡、USB等）和應用程式隔離在個別的 *qubes* 以保護電腦。 如果系統的某個部分遭受 [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} ，額外的隔離可能會保護其他的 *qubes* 和核心系統。
 
 有關 Oubes 運作的進一步資訊，請參考我們完整的 [Qubes OS 介紹](os/qubes-overview.md) 頁面。
 
