@@ -12,6 +12,13 @@ cover: data-redaction.webp
 
 共享文件时，请务必删除关联的元数据。 图像文件通常包括 [Exif](https://en.wikipedia.org/wiki/Exif) 数据。 照片有时甚至包括文件元数据中的GPS坐标。
 
+<div class="admonition warning" markdown>
+<p class="admonition-title">警告</p>
+
+您应该* *从不* *使用模糊来编辑[图片中的文本](https://bishopfox.com/blog/unredacter-tool-never-pixelation)。 If you want to redact text in an image, you should draw a box over the text.
+
+</div>
+
 ## 电脑版
 
 ### MAT2
@@ -100,36 +107,6 @@ cover: data-redaction.webp
 - [:simple-appstore: App Store](https://apps.apple.com/app/id914457352)
 
 </details>
-
-</div>
-
-### PrivacyBlur
-
-<div class="admonition recommendation" markdown>
-
-![PrivacyBlur标志](assets/img/data-redaction/privacyblur.svg) { align=right }
-
-**PrivacyBlur**是一个免费的应用程序，它可以在网上分享之前模糊图片的敏感部分。
-
-[:octicons-home-16: Homepage](https://privacyblur.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1536274106)
-
-</details>
-
-</div>
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">警告</p>
-
-您应该* *从不* *使用模糊来编辑[图片中的文本](https://bishopfox.com/blog/unredacter-tool-never-pixelation)。 如果你想编辑图像中的文本，在文本上画一个方框。 为此，我们建议使用[Pocket Paint]（https://github.com/Catrobat/Paintroid）等应用程序。
 
 </div>
 

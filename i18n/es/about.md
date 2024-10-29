@@ -121,7 +121,7 @@ Otros colaboradores han ofrecido voluntariamente su tiempo para revisar y aproba
 
 <div class="grid cards" markdown>
 
-- [:simple-github: **kimg45**](https://github.com/kimg45)
+- [:simple-github: **friadev**](https://github.com/friadev)
 - [:simple-github: **ph00lt0**](https://github.com/ph00lt0)
 - [:simple-github: **redoomed1**](https://github.com/redoomed1)
 

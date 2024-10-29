@@ -12,6 +12,13 @@ cover: data-redaction.webp
 
 Fájlok megosztásakor ügyelj a kapcsolódó metaadatok eltávolítsára. A képfájlok gyakran tartalmaznak [Exif](https://en.wikipedia.org/wiki/Exif) adatokat. A fényképek időnként még GPS-koordinátákat is tartalmaznak a fájl metaadataiban.
 
+<div class="admonition warning" markdown>
+<p class="admonition-title">Figyelmeztetés</p>
+
+**Soha** ne használd a homályosítást [képekben lévő szöveg](https://bishopfox.com/blog/unredacter-tool-never-pixelation) szerkesztésére. If you want to redact text in an image, you should draw a box over the text.
+
+</div>
+
 ## Asztal
 
 ### MAT2
@@ -100,36 +107,6 @@ A **Metapho** egy egyszerű és letisztult megjelenítője fényképek metaadata
 - [:simple-appstore: App Store](https://apps.apple.com/app/id914457352)
 
 </details>
-
-</div>
-
-### PrivacyBlur
-
-<div class="admonition recommendation" markdown>
-
-![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ align=right }
-
-A **PrivacyBlur** egy ingyenes alkalmazás, amely képes elmosni képek érzékeny részeit, mielőtt online megosztanád azokat.
-
-[:octicons-home-16: Homepage](https://privacyblur.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1536274106)
-
-</details>
-
-</div>
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">Figyelmeztetés</p>
-
-**Soha** ne használd a homályosítást [képekben lévő szöveg](https://bishopfox.com/blog/unredacter-tool-never-pixelation) szerkesztésére. Ha egy képen lévő szöveget szeretnél visszatartani, rajzolj egy négyzetet a szöveg fölé. Ehhez olyan alkalmazásokat ajánlunk, mint a [Pocket Paint](https://github.com/Catrobat/Paintroid).
 
 </div>
 

@@ -12,6 +12,13 @@ cover: data-redaction.webp
 
 När du delar filer ska du se till att ta bort tillhörande metadata. Bildfiler innehåller vanligtvis [Exif](https://en.wikipedia.org/wiki/Exif) data. Foton innehåller ibland även GPS-koordinater i filmetadata.
 
+<div class="admonition warning" markdown>
+<p class="admonition-title">Varning</p>
+
+Du bör **aldrig** använda oskärpa för att redigera [text i bilder] (https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, you should draw a box over the text.
+
+</div>
+
 ## Skrivbord
 
 ### MAT2
@@ -100,36 +107,6 @@ Appen erbjuder flera sätt att radera metadata från bilder. Namn:
 - [:simple-appstore: App Store](https://apps.apple.com/app/id914457352)
 
 </details>
-
-</div>
-
-### PrivacyBlur
-
-<div class="admonition recommendation" markdown>
-
-![PrivacyBlur-logotyp](assets/img/data-redaction/privacyblur.svg){ align=right }
-
-**PrivacyBlur** är en gratis app som kan sudda ut känsliga delar av bilder innan de delas på nätet.
-
-[:octicons-home-16: Hemsida](https://privacyblur.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Integritetspolicy" }
-[:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Dokumentation}
-[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Källkod" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1536274106)
-
-</details>
-
-</div>
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">Varning</p>
-
-Du bör **aldrig** använda oskärpa för att redigera [text i bilder] (https://bishopfox.com/blog/unredacter-tool-never-pixelation). Om du vill redigera text i en bild ritar du en ruta över texten. För detta föreslår vi appar som [Pocket Paint] (https://github.com/Catrobat/Paintroid).
 
 </div>
 

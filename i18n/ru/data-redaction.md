@@ -12,6 +12,13 @@ cover: data-redaction.webp
 
 Когда вы делитесь с кем-то файлами, то не забудьте удалить связанные с ними метаданные. Файлы изображений обычно содержат [данные EXIF](https://ru.wikipedia.org/wiki/Exif). Иногда фотографии даже содержат ваши GPS координаты в метаданных файла.
 
+<div class="admonition warning" markdown>
+<p class="admonition-title">Предупреждение</p>
+
+Вы **никогда** не должны использовать размытие для редактирования [текста на изображениях](https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, you should draw a box over the text.
+
+</div>
+
 ## Для компьютеров
 
 ### MAT2
@@ -100,36 +107,6 @@ cover: data-redaction.webp
 - [:simple-appstore: App Store](https://apps.apple.com/app/id914457352)
 
 </details>
-
-</div>
-
-### PrivacyBlur
-
-<div class="admonition recommendation" markdown>
-
-![Логотип PrivacyBlur](assets/img/data-redaction/privacyblur.svg){ align=right }
-
-**PrivacyBlur** - это бесплатное приложение, которое позволяет размыть чувствительные части фотографий перед тем, как поделиться ими в интернете.
-
-[:octicons-home-16: Homepage](https://privacyblur.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1536274106)
-
-</details>
-
-</div>
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">Предупреждение</p>
-
-Вы **никогда** не должны использовать размытие для редактирования [текста на изображениях](https://bishopfox.com/blog/unredacter-tool-never-pixelation). Если вы хотите скрыть текст на изображении, закройте текст черным квадратом. Для этого мы предлагаем такие приложения, как [Pocket Paint](https://github.com/Catrobat/Paintroid).
 
 </div>
 

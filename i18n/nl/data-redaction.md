@@ -12,6 +12,13 @@ cover: data-redaction.webp
 
 Wanneer je bestanden deelt, is het belangrijk om de bijbehorende metadata te verwijderen. Afbeeldingsbestanden bevatten vaak [Exif](https://en.wikipedia.org/wiki/Exif) data. Foto's bevatten soms zelfs GPS-coördinaten in de metadata van het bestand.
 
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+Je moet **nooit** vervaging gebruiken om [tekst in afbeeldingen](https://bishopfox.com/blog/unredacter-tool-never-pixelation) te redigeren. If you want to redact text in an image, you should draw a box over the text.
+
+</div>
+
 ## Desktop
 
 ### MAT2
@@ -100,36 +107,6 @@ Metapho geeft eenvoudige en nette weergave van de afbeeldingsmetadata zoals datu
 - [:simple-appstore: App Store](https://apps.apple.com/app/id914457352)
 
 </details>
-
-</div>
-
-### PrivacyBlur
-
-<div class="admonition recommendation" markdown>
-
-![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ align=right }
-
-**PrivacyBlur** is een gratis app die gevoelige delen van foto's kan vervagen voordat je ze online deelt.
-
-[:octicons-home-16: Homepage](https://privacyblur.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1536274106)
-
-</details>
-
-</div>
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
-
-Je moet **nooit** vervaging gebruiken om [tekst in afbeeldingen](https://bishopfox.com/blog/unredacter-tool-never-pixelation) te redigeren. Als u tekst in een afbeelding wilt redigeren, tekent u een kader over de tekst. Hiervoor stellen wij apps voor zoals [Pocket Paint](https://github.com/Catrobat/Paintroid).
 
 </div>
 

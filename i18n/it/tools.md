@@ -376,11 +376,10 @@ Se stai cercando maggiore **sicurezza**, dovresti sempre assicurarti di connette
 
 <div class="grid cards" markdown>
 
-- ![Logo di MAT2](assets/img/data-redaction/mat2.svg){ .twemoji loading=lazy } [MAT2](data-redaction.md#mat2)
-- ![Logo di ExifEraser](assets/img/data-redaction/exiferaser.svg){ .twemoji loading=lazy } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
-- ![Logo di Metapho](assets/img/data-redaction/metapho.jpg){ .twemoji loading=lazy } [Metapho (iOS)](data-redaction.md#metapho-ios)
-- ![Logo di PrivacyBlur](assets/img/data-redaction/privacyblur.svg){ .twemoji loading=lazy } [PrivacyBlur](data-redaction.md#privacyblur)
-- ![Logo di ExifTool](assets/img/data-redaction/exiftool.png){ .twemoji loading=lazy } [ExifTool (CLI)](data-redaction.md#exiftool)
+- ![MAT2 logo](assets/img/data-redaction/mat2.svg){ .twemoji loading=lazy } [MAT2](data-redaction.md#mat2)
+- ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ .twemoji loading=lazy } [ExifEraser (Android)](data-redaction.md#exiferaser-android)
+- ![Metapho logo](assets/img/data-redaction/metapho.jpg){ .twemoji loading=lazy } [Metapho (iOS)](data-redaction.md#metapho-ios)
+- ![ExifTool logo](assets/img/data-redaction/exiftool.png){ .twemoji loading=lazy } [ExifTool (CLI)](data-redaction.md#exiftool)
 
 </div>
 
@@ -680,11 +679,10 @@ Questi strumenti possono essere utili per alcuni individui. Forniscono funzional
 
 <div class="grid cards" markdown>
 
-- ![Logo di MVT](assets/img/device-integrity/mvt.webp){ .twemoji loading=lazy } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
-- ![Logo di iMazing](assets/img/device-integrity/imazing.png){ .twemoji loading=lazy } [iMazing (iOS)](device-integrity.md#imazing-ios)
-- ![Logo di Auditor](assets/img/device-integrity/auditor.svg#only-light){ .twemoji loading=lazy }![Logo di Auditor](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji loading=lazy } [Auditor (Android)](device-integrity.md#auditor-android)
-- ![Logo di Hypatia](assets/img/device-integrity/hypatia.svg#only-light){ .twemoji loading=lazy }![Logo di Hypatia](assets/img/device-integrity/hypatia-dark.svg#only-dark){ .twemoji loading=lazy } [Hypatia (Android)](device-integrity.md#hypatia-android)
-- ![Logo di iVerify](assets/img/device-integrity/iverify.webp){ .twemoji loading=lazy } [iVerify Basic (iOS)](device-integrity.md#iverify-basic-ios)
+- ![MVT logo](assets/img/device-integrity/mvt.webp){ .twemoji loading=lazy } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
+- ![iMazing logo](assets/img/device-integrity/imazing.png){ .twemoji loading=lazy } [iMazing (iOS)](device-integrity.md#imazing-ios)
+- ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ .twemoji loading=lazy }![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji loading=lazy } [Auditor (Android)](device-integrity.md#auditor-android)
+- ![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ .twemoji loading=lazy }![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ .twemoji loading=lazy } [Hypatia (Android)](device-integrity.md#hypatia-android)
 
 </div>
 

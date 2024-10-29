@@ -12,6 +12,13 @@ cover: data-redaction.webp
 
 Lorsque vous partagez des fichiers, veillez à supprimer les métadonnées associées. Les fichiers d'image comprennent généralement des données [Exif](https://en.wikipedia.org/wiki/Exif) . Les photos comportent parfois même des coordonnées GPS dans les métadonnées du fichier.
 
+<div class="admonition warning" markdown>
+<p class="admonition-title">Avertissement</p>
+
+Vous ne devez **jamais** utiliser le flou pour expurger [du texte dans les images](https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, you should draw a box over the text.
+
+</div>
+
 ## Bureau
 
 ### MAT2
@@ -100,36 +107,6 @@ Metapho est une visionneuse simple et propre pour les métadonnées des photos t
 - [:simple-appstore: App Store](https://apps.apple.com/app/id914457352)
 
 </details>
-
-</div>
-
-### PrivacyBlur
-
-<div class="admonition recommendation" markdown>
-
-![Logo PrivacyBlur](assets/img/data-redaction/privacyblur.svg){ align=right }
-
-**PrivacyBlur** est une application gratuite qui permet de brouiller les parties sensibles des photos avant de les partager en ligne.
-
-[:octicons-home-16: Page d'accueil](https://privacyblur.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Politique de confidentialité" }
-[:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Code source" }
-
-<details class="downloads" markdown>
-<summary>Téléchargements</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1536274106)
-
-</details>
-
-</div>
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">Avertissement</p>
-
-Vous ne devez **jamais** utiliser le flou pour expurger [du texte dans les images](https://bishopfox.com/blog/unredacter-tool-never-pixelation). Si vous voulez expurger du texte dans une image, dessinez une case sur le texte. Pour cela, nous vous suggérons [Pocket Paint](https://github.com/Catrobat/Paintroid) ou [Imagepipe](https://codeberg.org/Starfish/Imagepipe).
 
 </div>
 

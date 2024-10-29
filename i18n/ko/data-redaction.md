@@ -12,6 +12,13 @@ cover: data-redaction.webp
 
 파일을 공유할 때에는 관련 메타데이터를 제거해야 합니다. 이미지 파일에는 보통 [Exif](https://en.wikipedia.org/wiki/Exif) 데이터가 포함되어 있습니다. 사진 파일 메타데이터에는 GPS 좌표가 포함될 때도 있습니다.
 
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+이미지 내 텍스트를 지우는 용도로 블러 처리를 사용해서는 [**절대** 안 됩니다](https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, you should draw a box over the text.
+
+</div>
+
 ## 데스크톱
 
 ### MAT2
@@ -100,36 +107,6 @@ ExifEraser로 이미지 메타데이터를 제거하는 방법은 다양합니�
 - [:simple-appstore: App Store](https://apps.apple.com/app/id914457352)
 
 </details>
-
-</div>
-
-### PrivacyBlur
-
-<div class="admonition recommendation" markdown>
-
-![PrivacyBlur 로고](assets/img/data-redaction/privacyblur.svg){ align=right }
-
-**PrivacyBlur**는 사진을 온라인에 공유하기 전에 민감한 부분을 흐릿하게 만들 수 있는 무료 앱입니다.
-
-[:octicons-home-16: Homepage](https://privacyblur.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1536274106)
-
-</details>
-
-</div>
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
-
-이미지 내 텍스트를 지우는 용도로 블러 처리를 사용해서는 [**절대** 안 됩니다](https://bishopfox.com/blog/unredacter-tool-never-pixelation). 이미지 내 텍스트를 지울 때는 텍스트 위에 박스를 그려야 합니다. 해당 용도로는 [Pocket Paint](https://github.com/Catrobat/Paintroid) 등의 앱을 추천드립니다.
 
 </div>
 

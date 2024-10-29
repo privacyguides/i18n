@@ -12,6 +12,13 @@ cover: data-redaction.webp
 
 בעת שיתוף קבצים, הקפד להסיר מטא נתונים משויכים. קבצי תמונה כוללים בדרך כלל [נתוני Exif](https://en.wikipedia.org/wiki/Exif). תמונות לפעמים אפילו כוללות קואורדינטות GPS במטא-נתונים של הקובץ.
 
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+כדאי **לעולם** לא להשתמש בטשטוש כדי לעצב [טקסט בתמונות](https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, you should draw a box over the text.
+
+</div>
+
 ## מחשב שולחני
 
 ### MAT2
@@ -100,36 +107,6 @@ cover: data-redaction.webp
 - [:simple-appstore: App Store](https://apps.apple.com/app/id914457352)
 
 </details>
-
-</div>
-
-### PrivacyBlur
-
-<div class="admonition recommendation" markdown>
-
-![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ align=right }
-
-** PrivacyBlur** היא אפליקציה חינמית שיכולה לטשטש חלקים רגישים של תמונות לפני שהיא משתפת אותם באינטרנט.
-
-[:octicons-home-16: Homepage](https://privacyblur.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1536274106)
-
-</details>
-
-</div>
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
-
-כדאי **לעולם** לא להשתמש בטשטוש כדי לעצב [טקסט בתמונות](https://bishopfox.com/blog/unredacter-tool-never-pixelation). אם ברצונך לשנות טקסט בתמונה, צייר תיבה מעל הטקסט. לשם כך, אנו מציעים אפליקציות כמו [Pocket Paint](https://github.com/Catrobat/Paintroid).
 
 </div>
 

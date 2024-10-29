@@ -12,6 +12,13 @@ cover: data-redaction.webp
 
 Cuando compartas archivos, asegúrate de remover los metadatos asociados. Archivos de imagen comúnmente incluyen datos [Exif](https://en.wikipedia.org/wiki/Exif). Fotos a veces incluyen hasta coordenadas GPS en los metadatos del archivo.
 
+<div class="admonition warning" markdown>
+<p class="admonition-title">Advertencia</p>
+
+No se debe **nunca** utilizar el desenfoque para redactar [texto en imágenes](https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, you should draw a box over the text.
+
+</div>
+
 ## Equipo de escritorio
 
 ### MAT2
@@ -100,36 +107,6 @@ La aplicación ofrece múltiples formas de borrar los metadatos de las imágenes
 - [:simple-appstore: App Store](https://apps.apple.com/app/id914457352)
 
 </details>
-
-</div>
-
-### PrivacyBlur
-
-<div class="admonition recommendation" markdown>
-
-![Logotipo de PrivacyBlur](assets/img/data-redaction/privacyblur.svg){ align=right }
-
-**PrivacyBlur** es una aplicación gratuita que permite difuminar partes sensibles de las imágenes antes de compartirlas en Internet.
-
-[:octicons-home-16: Página Principal](https://privacyblur.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Código Fuente" }
-
-<details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1536274106)
-
-</details>
-
-</div>
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">Advertencia</p>
-
-No se debe **nunca** utilizar el desenfoque para redactar [texto en imágenes](https://bishopfox.com/blog/unredacter-tool-never-pixelation). Si desea redactar texto en una imagen, dibuje un recuadro sobre el texto. Para ello, te sugerimos aplicaciones como [Pocket Paint](https://github.com/Catrobat/Paintroid).
 
 </div>
 

@@ -12,6 +12,13 @@ cover: data-redaction.webp
 
 Condividendo dei file, assicurati di rimuovere i metadati associati. I file immagine includono comunemente dati [Exif](https://en.wikipedia.org/wiki/Exif). Talvolta, le foto, includono persino le coordinate GPS nei metadati del file.
 
+<div class="admonition warning" markdown>
+<p class="admonition-title">Avviso</p>
+
+Non dovresti **mai** utilizzare la sfocatura per nascondere [il testo nelle immagini] (https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, you should draw a box over the text.
+
+</div>
+
 ## Desktop
 
 ### MAT2
@@ -100,36 +107,6 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Nell
 - [:simple-appstore: App Store](https://apps.apple.com/it/app/metapho/id914457352)
 
 </details>
-
-</div>
-
-### PrivacyBlur
-
-<div class="admonition recommendation" markdown>
-
-![Logo di PrivacyBlur](assets/img/data-redaction/privacyblur.svg){ align=right }
-
-**PrivacyBlur** è un'app gratuita che consente di sfocare le parti sensibili delle immagini, prima di condividerle online.
-
-[:octicons-home-16: Pagina Principale](https://privacyblur.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Politica sulla Privacy" }
-[:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Codice Sorgente" }
-
-<details class="downloads" markdown>
-<summary>Scarica</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur&gl=IT)
-- [:simple-appstore: App Store](https://apps.apple.com/it/app/privacyblur/id1536274106)
-
-</details>
-
-</div>
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">Avviso</p>
-
-Non dovresti **mai** utilizzare la sfocatura per nascondere [il testo nelle immagini] (https://bishopfox.com/blog/unredacter-tool-never-pixelation). Se desideri censurare il testo in un'immagine, disegnaci un riquadro sopra di esso. A questo scopo, suggeriamo applicazioni come [Pocket Paint](https://github.com/Catrobat/Paintroid).
 
 </div>
 

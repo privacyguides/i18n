@@ -12,6 +12,13 @@ cover: data-redaction.webp
 
 分享檔案時，請務必移除相關的中繼資料。 映像文件通常包含 [Exif](https://en.wikipedia.org/wiki/Exif) 數據。 照片有時甚至在文件元數據中包含GPS坐標。
 
+<div class="admonition warning" markdown>
+<p class="admonition-title">警告</p>
+
+您 **永遠不應** 透過模糊文字的方式來遮蓋 [圖片中的文字](https://bishopfox.com/blog/unredacter-tool-never-pixelation)。 If you want to redact text in an image, you should draw a box over the text.
+
+</div>
+
 ## 電腦版應用程式
 
 ### MAT2
@@ -100,36 +107,6 @@ Linux 有MAT2 提供支持的第三方圖形界面工具 [Metadata Cleaner](http
 - [:simple-appstore: App Store](https://apps.apple.com/app/id914457352)
 
 </details>
-
-</div>
-
-### PrivacyBlur
-
-<div class="admonition recommendation" markdown>
-
-![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ align=right }
-
-**PrivacyBlur** 是一個免費應用程式，在線上分享前先模糊圖片的敏感部分。
-
-[:octicons-home-16: 首頁](https://privacyblur.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=說明文件}
-[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="原始碼" }
-
-<details class="downloads" markdown>
-<summary>下載</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1536274106)
-
-</details>
-
-</div>
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">警告</p>
-
-您 **永遠不應** 透過模糊文字的方式來遮蓋 [圖片中的文字](https://bishopfox.com/blog/unredacter-tool-never-pixelation)。 如果要遮蓋圖片中的文字，請在文字上畫一個框。 為此，我們建議使用 [Pocket Paint](https://github.com/Catrobat/Paintroid) 等應用程式。
 
 </div>
 

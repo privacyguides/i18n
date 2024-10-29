@@ -228,32 +228,3 @@ El uso de estas aplicaciones no basta para determinar que un dispositivo está "
 </div>
 
 Hypatia es especialmente buena en la detección de stalkerware común: Si sospechas que eres víctima de stalkerware, deberías [visitar esta página](https://stopstalkerware.org/information-for-survivors) para obtener asesoramiento.
-
-### iVerify Basic (iOS)
-
-<div class="admonition recommendation" markdown>
-
-![logo de iVerify](assets/img/device-integrity/iverify.webp){ align=right }
-
-**iVerify Basic** is an iOS app which can scan your device to check configuration settings, patch level, and other areas of security. It also checks your device for indicators of compromise by jailbreak tools or of [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red } such as [Pegasus](https://en.wikipedia.org/wiki/Pegasus_\(spyware\)).
-
-[:octicons-home-16: Homepage](https://iverify.io/products/basic){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://iverify.io/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://iverify.io/frequently-asked-questions#iVerify-General){ .card-link title=Documentation}
-
-<details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
-
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1466120520)
-
-</details>
-
-</div>
-
-Previously, iVerify would scan your device for threats automatically in the background and notify you if one is found, but this is [no longer the case](https://discuss.privacyguides.net/t/iverify-basic-is-now-available-on-android/18458/11) following their rebrand of the consumer app to _iVerify Basic_ in May 2024. You can still run manual scans within the app. Automatic background scanning is now only available in iVerify's enterprise product which is unavailable to consumers.
-
-Like all iOS apps, iVerify Basic is restricted to what it can observe about your device from within the iOS App Sandbox. No proporcionará un análisis tan sólido como una herramienta de análisis de sistema completo como [MVT](#mobile-verification-toolkit). Su función principal es detectar si tu dispositivo tiene jailbreak, para lo cual es eficaz, sin embargo, una hipotética amenaza que esté _específicamente_ diseñada para eludir las comprobaciones de iVerify probablemente lo conseguiría.
-
-iVerify Basic is **not** an "antivirus" tool, and will not detect non-system-level malware such as malicious custom keyboards or malicious Wi-Fi Sync configurations, for example.
-
-In addition to device scanning, iVerify Basic also includes a number of additional security utilities which you may find useful, including device [reboot reminders](os/ios-overview.md#before-first-unlock), iOS update notifications (which are often faster than Apple's staggered update notification rollout), and some basic privacy and security guides.

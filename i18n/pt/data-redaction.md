@@ -12,6 +12,15 @@ cover: data-redaction.webp
 
 Ao partilhar ficheiros, certifique-se de que remove os metadados associados. Os arquivos de imagem geralmente incluem [EXIF](https://en.wikipedia.org/wiki/Exif) dados. As fotos às vezes até incluem [GPS](https://en.wikipedia.org/wiki/Global_Positioning_System) coordenadas nos metadados do arquivo.
 
+<div class="admonition warning" markdown>
+<p class="admonition-title">Warning</p>
+
+![logotipo PrivacyBlur](/assets/img/android/privacyblur.svg){ align=right }
+
+**PrivacyBlur*** é uma aplicação gratuita que pode desfocar porções sensíveis de imagens antes de as partilhar online. If you want to redact text in an image, you should draw a box over the text.
+
+</div>
+
 ## Desktop
 
 ### ExifCleaner
@@ -106,43 +115,6 @@ The app offers multiple ways to erase metadata from images. 17.1 e 18.1 caracter
 - [:simple-appstore: App Store](https://apps.apple.com/app/id914457352)
 
 </details>
-
-</div>
-
-### PrivacyBlur
-
-<div class="admonition recommendation" markdown>
-
-![PrivacyBlur logo](assets/img/data-redaction/privacyblur.svg){ align=right }
-
-**PrivacyBlur** is a free app which can blur sensitive portions of pictures before sharing them online.
-
-[:octicons-home-16: Homepage](https://privacyblur.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://privacyblur.app/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/MATHEMA-GmbH/privacyblur#readme){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/MATHEMA-GmbH/privacyblur){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1536274106)
-
-</details>
-
-</div>
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
-
-![logotipo PrivacyBlur](/assets/img/android/privacyblur.svg){ align=right }
-
-**PrivacyBlur*** é uma aplicação gratuita que pode desfocar porções sensíveis de imagens antes de as partilhar online. [Visite privacyblur.app](https://privacyblur.app/){ .md-button .md-button--primary }
-
-**Downloads:**
-- [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=de.mathema.privacyblur)
-- [:pg-f-droid: F-Droid](https://f-droid.org/en/packages/de.mathema.privacyblur/)
-- [:fontawesome-brands-github: GitHub](https://github.com/MATHEMA-GmbH/privacyblur) For this, we suggest apps like [Pocket Paint](https://github.com/Catrobat/Paintroid).
 
 </div>
 
