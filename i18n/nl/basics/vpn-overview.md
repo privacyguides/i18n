@@ -43,9 +43,9 @@ Houd er rekening mee dat een VPN geen beveiliging of versleuteling toevoegt aan 
 
 VPNs can provide *some* of the same benefits Tor provides, such as hiding your IP from the websites you visit and geographically shifting your network traffic, and good VPN providers will not cooperate with e.g. legal authorities from oppressive regimes, especially if you choose a VPN provider outside your own jurisdiction.
 
-VPNs cannot encrypt data outside the connection between your device and the VPN server. VPN providers can also see and modify your traffic the same way your ISP could, so there is still a level of trust you are placing in them. En er is geen enkele manier om het "no logging" beleid van een VPN provider te verifiëren.
+VPN kunnen dataverkeer tussen jouw apparaat en de VPN-server niet versleutelen. VPN-aanbieders kunnen het verkeer inspecteren en veranderen net als een internetprovider dat kan. Daarom moet je dus kunnen vertrouwen op de aanbieder van de VPN. En er is geen enkele manier om het "no logging" beleid van een VPN provider te verifiëren.
 
-## When isn't a VPN suitable?
+## Wanneer is een VPN geen geschikte keuze?
 
 Using a VPN in cases where you're using your [real-life or well-known identity](common-misconceptions.md#complicated-is-better) online is unlikely to be useful. Dit kan spam- en fraudedetectiesystemen alarmeren, zoals wanneer je zou inloggen op de website van uw bank.
 
