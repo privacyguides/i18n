@@ -10,7 +10,7 @@ cover: calendar.webp
 - [:material-bug-outline: Ataques pasivos](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: Proveedores de servicios](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-**Calendars** contain some of your most sensitive data; use products that implement E2EE at rest to prevent a provider from reading them.
+**Los calendarios** contienen algunos de tus datos más sensibles; utiliza productos que implementen E2EE en reposo para evitar que un proveedor pueda leerlos.
 
 ## Tuta
 
