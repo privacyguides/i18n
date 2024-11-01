@@ -62,7 +62,7 @@ Usar un servicio de alias requiere confiar tus mensajes sin encriptar a tu prove
 
 </div>
 
-El número de alias compartidos (finalizan en un dominio compartido como @addy.io) que puedes crear está limitado a 10 en el plan gratuito de addy.io, 50 en el plan de 1$/mes e ilimitado en el plan de 4$/mes (facturado en 3$ por un año). You can create unlimited standard aliases which end in a domain like @[username].addy.io or a custom domain on paid plans. However, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. Estos son útiles cuando un dominio compartido puede estar bloqueado por un servicio. Securitum [auditó](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io en septiembre de 2023 y no [se identificaron] vulnerabilidades significativas(https://addy.io/addy-io-security-audit.pdf).
+El número de alias compartidos (finalizan en un dominio compartido como @addy.io) que puedes crear está limitado a 10 en el plan gratuito de addy.io, 50 en el plan de 1$/mes e ilimitado en el plan de 4$/mes (facturado en 3$ por un año). Puedes crear un número ilimitado de alias estándar que terminen en un dominio como @[nombredeusuario].addy.io o un dominio personalizado en los planes de pago. Sin embargo, como ya se ha mencionado, esto puede ir en detrimento de la privacidad porque la gente puede relacionar trivialmente tus alias estándar basándose únicamente en el nombre de dominio. Estos son útiles cuando un dominio compartido puede estar bloqueado por un servicio. Securitum [auditó](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io en septiembre de 2023 y no [se identificaron] vulnerabilidades significativas(https://addy.io/addy-io-security-audit.pdf).
 
 Funciones gratuitas destacables:
 
@@ -70,9 +70,9 @@ Funciones gratuitas destacables:
 - [x] Alias Estándar Ilimitados
 - [ ] No Hay Respuestas Salientes
 - [x] 1 Buzón de Destinatario
-- [x] Automatic PGP Encryption[^1]
+- [x] Cifrado PGP Automático[^1]
 
-If you cancel your subscription, you will still enjoy the features of your paid plan until the billing cycle ends. After the end of your current billing cycle, most paid features (including any custom domains) will be [deactivated](https://addy.io/faq/#what-happens-if-i-have-a-subscription-but-then-cancel-it), paid account settings will be reverted to their defaults, and catch-all will be enabled if it was previously disabled.
+Si cancelas tu suscripción, disfrutarás de las características de tu plan de pago hasta que finalice el ciclo de facturación. Una vez finalizado el ciclo de facturación actual, la mayoría de las funciones de pago (incluidos los dominios personalizados) se [desactivarán](https://addy.io/faq/#what-happens-if-i-have-a-subscription-but-then-cancel-it), la configuración de las cuentas de pago se restablecerá a sus valores predeterminados y se activará la función catch-all si anteriormente estaba desactivada.
 
 ### SimpleLogin
 
@@ -104,19 +104,19 @@ If you cancel your subscription, you will still enjoy the features of your paid 
 
 SimpleLogin fue [adquirido por Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) el 8 de abril de 2022. Si utilizas Proton Mail para tu buzón principal, SimpleLogin es una gran elección. Como ambos productos pertenecen ahora a la misma empresa, ahora sólo tienes que confiar en una única entidad. También esperamos que SimpleLogin se integre más estrechamente con las ofertas de Proton en el futuro. SimpleLogin sigue siendo compatible con el reenvío a cualquier proveedor de correo electrónico de tu elección. Securitum [auditó](https://simplelogin.io/blog/security-audit) SimpleLogin a principios de 2022 y todos los problemas [se solucionaron](https://simplelogin.io/audit2022/web.pdf).
 
-Puedes vincular tu cuenta SimpleLogin en la configuración con tu cuenta Proton. If you have the Proton Unlimited plan or any multi-user Proton plan, you will have SimpleLogin Premium for free.
+Puedes vincular tu cuenta SimpleLogin en la configuración con tu cuenta Proton. Si tienes el plan Proton Unlimited o cualquier plan Proton multiusuario, tendrás SimpleLogin Premium gratis.
 
 Funciones gratuitas destacables:
 
 - [x] 10 Alias Compartidos
 - [x] Respuestas Ilimitadas
 - [x] 1 Buzón de Destinatario
-- [ ] Automatic PGP Encryption[^1] is only available on paid plans
+- [ ] El Cifrado PGP Automático[^1] solo está disponible en los planes de pago
 
-When your subscription ends, all aliases you created will still be able to receive and send emails. However, you cannot create any new aliases that would exceed the free plan limit, nor can you add a new domain, directory, or mailbox.
+Cuando finalice tu suscripción, todos los alias que hayas creado podrán seguir recibiendo y enviando mensajes de correo electrónico. Sin embargo, no puedes crear ningún alias nuevo que supere el límite del plan gratuito, ni puedes añadir un nuevo dominio, directorio o buzón.
 
 ## Criterios
 
 **Por favor, ten en cuenta que no estamos afiliados con ninguno de los proveedores que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), evaluamos los proveedores de correo electrónico con el mismo estándar que nuestros [criterios de proveedor de correo electrónico](email.md#criteria) donde corresponda. Sugerimos que te familiarices con esta lista antes de decidir utilizar un servicio de correo electrónico y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
 
-[^1]: Automatic PGP encryption allows you to encrypt non-encrypted incoming emails before they are forwarded to your mailbox, making sure your primary mailbox provider never sees unencrypted email content.
+[^1]: El cifrado PGP automático te permite cifrar correos electrónicos entrantes no cifrados antes de que sean enviados a tu buzón de correo, asegurándote de que tu proveedor principal de buzón nunca vea contenido de correo electrónico no cifrado.
