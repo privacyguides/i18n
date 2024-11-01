@@ -28,7 +28,7 @@ Esto significa que un atacante deberá volver a infectar tu dispositivo con regu
 Si cualquiera de las siguientes herramientas indican un potencial compromiso de parte de programas espías como Pegasus, Predator o KingsPawn, te recomendamos contactar:
 
 - Si eres un defensor de los derechos humanos, periodista o perteneces a una organización de la sociedad civil: [Laboratorio de Seguridad de Amnistía Internacional](https://securitylab.amnesty.org/contact-us)
-- If a business or government device is compromised: the appropriate security liason at your enterprise, department, or agency
+- Si un dispositivo empresarial o gubernamental se ve comprometido: el intermediario de seguridad apropiado en tu empresa, departamento o agencia
 - Cuerpos locales de seguridad
 
 **No somos capaces de ayudarte directamente más allá de esto.** Estamos encantados de discutir tu situación o circunstancia en específico y revisar tus resultados en nuestros espacios [comunitarios](https://discuss.privacyguides.net), pero es poco probable que podamos ayudarte más allá de lo escrito en esta página.
@@ -42,7 +42,7 @@ Las herramientas en esta página únicamente son capaces de detectar indicadores
 Estas herramientas proporcionan un análisis basado en la información de tu dispositivo que son capaces de acceder, además de los indicadores públicos de compromiso. Es importante tomar en cuenta dos cosas:
 
 1. Los indicadores de compromiso son solo eso: _indicadores_. No son un hallazgo definitivo y, ocasionalmente, pueden ser **falsos positivos**. Si un indicador de compromiso es detectado, esto significa que deberías realizar una investigación adicional sobre la _potencial_ amenaza.
-2. ¡Los indicadores de compromiso buscados por estas herramientas son publicados por organizaciones de investigación de amenazas, pero no todos los indicadores son públicos! Esto significa que estas herramientas pueden presentar un **falso negativo**, si tu dispositivo está infectado con programas de espionaje que no son detectados por cualquiera de los indicadores públicos. Reliable and comprehensive digital forensic support and triage require access to non-public indicators, research, and threat intelligence.
+2. ¡Los indicadores de compromiso buscados por estas herramientas son publicados por organizaciones de investigación de amenazas, pero no todos los indicadores son públicos! Esto significa que estas herramientas pueden presentar un **falso negativo**, si tu dispositivo está infectado con programas de espionaje que no son detectados por cualquiera de los indicadores públicos. Un apoyo y triaje forense digital fiable y completo requiere acceso a indicadores no públicos, investigación e inteligencia sobre amenazas.
 
 ## Herramientas externas de verificación
 
@@ -50,14 +50,14 @@ Estas herramientas proporcionan un análisis basado en la información de tu dis
 
 - [:material-target-account: Ataques dirigidos](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
-External verification tools run on your computer and scan your mobile device for forensic traces, which are helpful to identify potential compromise.
+Las herramientas de verificación externas se ejecutan en el ordenador y escanean el dispositivo móvil en busca de rastros forenses, que son útiles para identificar un posible compromiso.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Peligro</p>
 
 Los indicadores públicos de compromiso son insuficientes para determinar si un dispositivo está "limpio" y no está bajo el radar de una herramienta de espionaje en específico. La confianza en indicadores públicos puede pasar por alto los más recientes rastros forenses y proporcionar una falsa sensación de seguridad.
 
-Reliable and comprehensive digital forensic support and triage require access to non-public indicators, research, and threat intelligence.
+Un apoyo y triaje forense digital fiable y completo requiere acceso a indicadores no públicos, investigación e inteligencia sobre amenazas.
 
 Este tipo de soporte está disponible para la sociedad civil a través de del [Laboratorio de Seguridad de Amnistía Internacional](https://amnesty.org/es/tech/) o la [Línea de ayuda de Seguridad Digital de Access Now](https://accessnow.org/help).
 
@@ -93,7 +93,7 @@ El uso de MVT no es suficiente para determinar que un dispositivo está "limpio"
 
 </div>
 
-MVT es _más_ útil para escanear dispositivos iOS. Android stores very little diagnostic information useful to triage potential compromises, and because of this, `mvt-android` capabilities are limited as well. Por otro lado, las copias de seguridad cifradas de iTunes para iOS proporcionan un subconjunto de archivos almacenados en el dispositivo lo suficientemente grande como para detectar artefactos sospechosos en muchos casos. Dicho esto, MVT sigue proporcionando herramientas bastante útiles para el análisis tanto de iOS como de Android.
+MVT es _más_ útil para escanear dispositivos iOS. Android almacena muy poca información de diagnóstico útil para hacer el triaje de posibles compromisos, y debido a esto, las capacidades de `mvt-android` también son limitadas. Por otro lado, las copias de seguridad cifradas de iTunes para iOS proporcionan un subconjunto de archivos almacenados en el dispositivo lo suficientemente grande como para detectar artefactos sospechosos en muchos casos. Dicho esto, MVT sigue proporcionando herramientas bastante útiles para el análisis tanto de iOS como de Android.
 
 Si utilizas iOS y estás en situación de alto riesgo, tenemos tres sugerencias adicionales para ti:
 
@@ -173,9 +173,9 @@ El uso de estas aplicaciones no basta para determinar que un dispositivo está "
 
 </div>
 
-Auditor is not a scanning/analysis tool like some other tools on this page. Rather, it uses your device's hardware-backed keystore to allow you to verify the identity of your device and gain assurance that the operating system itself hasn't been tampered with or downgraded via verified boot. Esto proporciona una comprobación muy sólida de la integridad del propio dispositivo, pero no comprueba necesariamente si las aplicaciones a nivel de usuario que se ejecutan en el dispositivo son maliciosas.
+Auditor no es una herramienta de escaneo/análisis como otras herramientas de esta página. En su lugar, utiliza el almacén de claves respaldado por hardware de tu dispositivo para permitirte verificar la identidad de tu dispositivo y obtener la garantía de que el propio sistema operativo no ha sido manipulado o degradado a través del arranque verificado. Esto proporciona una comprobación muy sólida de la integridad del propio dispositivo, pero no comprueba necesariamente si las aplicaciones a nivel de usuario que se ejecutan en el dispositivo son maliciosas.
 
-El auditor realiza la atestación y la detección de intrusiones con **dos** dispositivos, uno _auditado_ (el dispositivo que se verifica) y un _auditor_ (el dispositivo que realiza la verificación). The auditor can be any Android 10+ device (or a remote web service operated by [GrapheneOS](android/distributions.md#grapheneos)), while the auditee must be a specifically [supported device](https://attestation.app/about#device-support). Auditor funciona así:
+El auditor realiza la atestación y la detección de intrusiones con **dos** dispositivos, uno _auditado_ (el dispositivo que se verifica) y un _auditor_ (el dispositivo que realiza la verificación). El auditor puede ser cualquier dispositivo Android 10+ (o un servicio web remoto operado por [GrapheneOS](android/distributions.md#grapheneos)), mientras que el auditado debe ser un dispositivo específicamente [soportado](https://attestation.app/about#device-support). Auditor funciona así:
 
 - DocumentaciónUtilizando un modelo [Confiar en el Primer Uso (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) entre un _auditor_ y un _auditado_, la pareja establece una clave privada en el [almacén de claves respaldado por hardware](https://source.android.com/security/keystore) del _Auditor_.
 - El _auditor_ puede ser otra instancia de la aplicación Auditor o el [Servicio de Certificación a Distancia](https://attestation.app).
@@ -211,7 +211,7 @@ El uso de estas aplicaciones no basta para determinar que un dispositivo está "
 ![Logo de Hypatia](assets/img/device-integrity/hypatia.svg#only-light){ align=right }
 ![Logo de Hypatia](assets/img/device-integrity/hypatia-dark.svg#only-dark){ align=right }
 
-**Hypatia** is an open source real-time malware scanner for Android, from the developer of [DivestOS](android/distributions.md#divestos). It accesses the internet to download signature database updates, but does not upload your files or any metadata to the cloud (scans are performed entirely locally).
+**Hypatia** es un escáner de malware en tiempo real de código abierto para Android, del desarrollador de [DivestOS](android/distributions.md#divestos). Este accede a Internet para descargar actualizaciones de la base de datos de firmas, pero no sube tus archivos o cualquier metadato a la nube (los escaneos son realizados de manera local).
 
 [:octicons-home-16: Página principal](https://divestos.org/pages/our_apps#hypatia){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://divestos.org/pages/privacy_policy#hypatia){ .card-link title="Política de privacidad" }

@@ -1,17 +1,17 @@
 ---
-title: Document Collaboration
+title: Colaboración en Documentos
 icon: material/account-group
-description: Most online office suites do not support E2EE, meaning the cloud provider has access to everything you do.
+description: La mayoría de las paquetes de ofimática en línea no admiten E2EE, lo que significa que el proveedor de la nube tiene acceso a todo lo que haces.
 cover: document-collaboration.webp
 ---
 
 <small>Protege contra la(s) siguiente(s) amenaza(s):</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-server-network: Proveedores de Servicios](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-Most online office suites do not support E2EE, meaning the cloud provider has access to everything you do. The provider's privacy policy may legally protect your rights, but it does not provide technical access constraints.
+La mayoría de las paquetes de ofimática en línea no admiten E2EE, lo que significa que el proveedor de la nube tiene acceso a todo lo que haces. La política de privacidad del proveedor puede proteger legalmente tus derechos, pero no establece limitaciones técnicas de acceso.
 
-## Collaboration Platforms
+## Plataformas de Colaboración
 
 ### Nextcloud
 
@@ -19,7 +19,7 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
 
 ![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ align=right }
 
-**Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
+**Nextcloud** es un conjunto de programas cliente-servidor gratuitos y de código abierto para crear tus propios servicios de alojamiento de archivos en un servidor privado que tú controlas.
 
 [:octicons-home-16: Página Principal](https://nextcloud.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Política de Privacidad" }
@@ -44,7 +44,7 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
 <div class="admonition danger" markdown>
 <p class="admonition-title">Peligro</p>
 
-No recomendamos utilizar la [aplicación con cifrado de extremo a extremo](https://apps.nextcloud.com/apps/end_to_end_encryption) para Nextcloud, porque puede causar la pérdida de datos; esta es considerada como altamente experimental y no debe utilizarse en entornos de producción. For this reason, we don't recommend third-party Nextcloud providers.
+No recomendamos utilizar la [aplicación con cifrado de extremo a extremo](https://apps.nextcloud.com/apps/end_to_end_encryption) para Nextcloud, porque puede causar la pérdida de datos; esta es considerada como altamente experimental y no debe utilizarse en entornos de producción. Por esta razón, no recomendamos proveedores de Nextcloud de terceros.
 
 </div>
 
@@ -54,13 +54,13 @@ No recomendamos utilizar la [aplicación con cifrado de extremo a extremo](https
 
 ![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ align=right }
 
-**CryptPad** is a private-by-design alternative to popular office tools. All content on this web service is end-to-end encrypted and can be shared with other users easily.
+**CryptPad** es una alternativa privada a las herramientas ofimáticas más populares. Todos los contenidos de este servicio web están cifrados de extremo a extremo y pueden compartirse fácilmente con otros usuarios.
 
-[:octicons-home-16: Homepage](https://cryptpad.fr){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.cryptpad.fr){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title=Contribute }
+[:octicons-home-16: Página Principal](https://cryptpad.fr){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://docs.cryptpad.fr){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title=Contribuir }
 
 </details>
 
@@ -72,18 +72,18 @@ No recomendamos utilizar la [aplicación con cifrado de extremo a extremo](https
 
 #### Requisitos Mínimos
 
-In general, we define collaboration platforms as full-fledged suites which could reasonably act as a replacement to Google Drive.
+En general, definimos las plataformas de colaboración como paquetes completos que razonablemente podrían actuar como sustituto de Google Drive.
 
 - Debe ser de código abierto.
-- Must make files accessible via WebDAV unless it is impossible due to E2EE.
-- Must have sync clients for Linux, macOS, and Windows.
-- Must support document and spreadsheet editing.
-- Must support real-time document collaboration.
-- Must support exporting documents to standard document formats (e.g. ODF).
+- Debe hacer que los archivos sean accesibles a través de WebDAV a menos que sea imposible debido al E2EE.
+- Debe tener clientes de sincronización para Linux, macOS y Windows.
+- Debe soportar la edición de documentos y hojas de cálculo.
+- Debe permitir la colaboración documental en tiempo real.
+- Debe admitir la exportación de documentos a formatos de documento estándar (por ejemplo, ODF).
 
 #### Mejor Caso
 
 Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto perfecto en esta categoría. Es posible que nuestras recomendaciones no incluyan todas o algunas de estas funciones, pero las que sí las incluyan pueden estar mejor clasificadas que otras en esta página.
 
-- Should store files in a conventional filesystem.
-- Should support TOTP or FIDO2 multi-factor authentication support, or passkey logins.
+- Debe almacenar los archivos en un sistema de archivos convencional.
+- Debe ser compatible con la autenticación multifactor TOTP o FIDO2, o con los inicios de sesión con llave de acceso.

@@ -385,7 +385,7 @@ Si busca más **seguridad**, asegúrese siempre de conectarse a sitios web que u
 
 [Más información :material-arrow-right-drop-circle:](data-redaction.md)
 
-### Document Collaboration
+### Colaboración en Documentos
 
 <div class="grid cards" markdown>
 

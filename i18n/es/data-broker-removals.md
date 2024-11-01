@@ -28,77 +28,77 @@ La forma más rápida, eficaz y privada de darse de baja de los sitios de búsqu
 
 Primero deberías buscar tu información en estos sitios y enviar una solicitud de exclusión si encuentras tu información. Al eliminar tus datos de estos proveedores, normalmente se eliminan tus datos de muchos sitios más pequeños al mismo tiempo.
 
-- Advanced Background Checks ([Search](https://www.advancedbackgroundchecks.com/), [Opt-Out](https://www.advancedbackgroundchecks.com/removal))
-- BeenVerified ([Search](https://www.beenverified.com/app/optout/search), [Opt-Out](https://www.beenverified.com/app/optout/address-search))
-- CheckPeople ([Search](https://checkpeople.com/do-not-sell-info), select _Remove Record_ to opt-out)
-- ClustrMaps ([Search](https://clustrmaps.com/), [Opt-Out](https://clustrmaps.com/bl/opt-out))
-- Dataveria ([Search](https://dataveria.com/), [Opt-Out](https://dataveria.com/ng/control/privacy))
-- Glad I Know ([Search](https://gladiknow.com/), [Opt-Out](https://gladiknow.com/opt-out))
-- InfoTracer ([Search](https://www.infotracer.com/), [Opt-Out](https://www.infotracer.com/optout))
-- Intelius ([Search](https://www.intelius.com/), [Opt-Out](https://suppression.peopleconnect.us/login))
-- PeekYou ([Search](https://www.peekyou.com/), [Opt-Out](https://www.peekyou.com/about/contact/optout))
-- PublicDataUSA ([Search](https://www.publicdatausa.com/), [Opt-Out](https://www.publicdatausa.com/remove.php))
-- Radaris ([Search](https://radaris.com/), [Opt-Out](https://radaris.com/page/how-to-remove))
-- Spokeo ([Search](https://www.spokeo.com/search), [Opt-Out](https://www.spokeo.com/optout))
-- That's Them ([Search](https://thatsthem.com/), [Opt-Out](https://thatsthem.com/optout))
-- USPhonebook ([Search and Opt-Out](https://www.usphonebook.com/opt-out/))
-- Whitepages ([Search](https://www.whitepages.com/), [Opt-Out](https://www.whitepages.com/suppression_requests))
+- Advanced Background Checks ([Buscar](https://www.advancedbackgroundchecks.com/), [Darse de baja](https://www.advancedbackgroundchecks.com/removal))
+- BeenVerified ([Buscar](https://www.beenverified.com/app/optout/search), [Darse de baja](https://www.beenverified.com/app/optout/address-search))
+- CheckPeople ([Buscar](https://checkpeople.com/do-not-sell-info), selecciona _Remove Record_ para darte de baja)
+- ClustrMaps ([Buscar](https://clustrmaps.com/), [Darse de baja](https://clustrmaps.com/bl/opt-out))
+- Dataveria ([Buscar](https://dataveria.com/), [Darse de baja](https://dataveria.com/ng/control/privacy))
+- Glad I Know ([Buscar](https://gladiknow.com/), [Darse de baja](https://gladiknow.com/opt-out))
+- InfoTracer ([Buscar](https://www.infotracer.com/), [Darse de baja](https://www.infotracer.com/optout))
+- Intelius ([Buscar](https://www.intelius.com/), [Darse de baja](https://suppression.peopleconnect.us/login))
+- PeekYou ([Buscar](https://www.peekyou.com/), [Darse de baja](https://www.peekyou.com/about/contact/optout))
+- PublicDataUSA ([Buscar](https://www.publicdatausa.com/), [Darse de baja](https://www.publicdatausa.com/remove.php))
+- Radaris ([Buscar](https://radaris.com/), [Darse de baja](https://radaris.com/page/how-to-remove))
+- Spokeo ([Buscar](https://www.spokeo.com/search), [Darse de baja](https://www.spokeo.com/optout))
+- That's Them ([Buscar](https://thatsthem.com/), [Darse de baja](https://thatsthem.com/optout))
+- USPhonebook ([Buscar y Darse de baja](https://www.usphonebook.com/opt-out/))
+- Whitepages ([Buscar](https://www.whitepages.com/), [Darse de baja](https://www.whitepages.com/suppression_requests))
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Un consejo sobre la estrategia de exclusión</p>
 
 Asegúrate de no quemarte ni agobiarte con este proceso. A menos que estés en peligro inminente, puedes tomarte descansos y evitar hacerlos todos a la vez.[^1]
 
-Una estrategia podría consistir en visitar un solo sitio web de la lista anterior cada semana, empezando por el primero. La semana siguiente pasas al siguiente sitio web de la lista, y así sucesivamente. When you reach the end of the list, you can start again from the beginning.
+Una estrategia podría consistir en visitar un solo sitio web de la lista anterior cada semana, empezando por el primero. La semana siguiente pasas al siguiente sitio web de la lista, y así sucesivamente. Cuando llegues al final de la lista, puedes volver a empezar desde el principio.
 
-This sets you up on a nice schedule to re-review each website approximately every 3-4 months, and breaks down the process into simple 5 minute tasks you can easily add to your weekly routine.
+De este modo se establece un horario para volver a revisar cada sitio web aproximadamente cada 3-4 meses, y se divide el proceso en sencillas tareas de 5 minutos que puedes añadir fácilmente a tu rutina semanal.
 
 </div>
 
-Once you have opted-out of all of these sites for the first time, it's best to wait a week or two for the requests to propagate to all their sites. Then, you can start to search and opt-out of any remaining sites you find. It can be a good idea to use a web crawler like [Google's _Results about you_](#google-results-about-you-free) tool to help find any data that remains on the internet.
+Una vez que te hayas dado de baja de todos estos sitios por primera vez, lo mejor es esperar una o dos semanas para que las solicitudes se propaguen a todos sus sitios. A continuación, puedes empezar a buscar y darte de baja de los sitios restantes que encuentres. Puede ser una buena idea utilizar un rastreador web como la herramienta [Google's _Results about you_](#google-results-about-you-free) para ayudar a encontrar cualquier dato que permanezca en Internet.
 
-Otherwise, privacy journalist Yael Grauer has compiled an excellent list of data broker sites with direct links to their search tools and opt-out pages. You can take some time to go though each site to determine whether they have your information, and remove it:
+Por lo demás, la periodista especializada en privacidad Yael Grauer ha elaborado una excelente lista de sitios de comerciantes de datos con enlaces directos a sus herramientas de búsqueda y páginas de exclusión voluntaria. Puedes dedicar algún tiempo a revisar cada sitio para determinar si tienen tu información y eliminarla:
 
-[:simple-github: Big Ass Data Broker Opt-Out List](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List){ .md-button }
+[:simple-github: Enorme Lista de Exclusión de Comerciantes de Datos](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List){ .md-button }
 
-If you don't use an automatic scanner to find results about you, consider setting a reminder to re-do this process every 3, 6, or 12 months depending on your risk level and the amount of personal data you have out there. Unfortunately, it is common for your data to re-appear over time or show up on brand new people search sites even after you opt-out.
+Si no utilizas un escáner automático para encontrar resultados sobre ti, considera la posibilidad de establecer un recordatorio para volver a realizar este proceso cada 3, 6 o 12 meses, en función de tu nivel de riesgo y de la cantidad de datos personales que tengas ahí fuera. Desafortunadamente, es habitual que tus datos reaparezcan con el tiempo o aparezcan en nuevos sitios de búsqueda de personas incluso después de haberte dado de baja.
 
-## EasyOptOuts <small>Paid</small>
+## EasyOptOuts <small>de Pago</small>
 
 <div class="admonition recommendation" markdown>
 
 ![EasyOptOuts logo](assets/img/data-broker-removals/easyoptouts.svg){ align=right }
 
-**EasyOptOuts** is a $20/year service which will search a number of different data broker sites and automatically submit opt-out requests on your behalf. They will perform the first search and removal process immediately, and then re-run the process every 4 months in case your data shows up on new sites over time.
+**EasyOptOuts** es un servicio de 20$/año que busca en diferentes sitios de comerciantes de datos y envía automáticamente solicitudes de exclusión en tu nombre. Realizarán la primera búsqueda y el proceso de eliminación inmediatamente, y luego volverán a ejecutar el proceso cada 4 meses en caso de que tus datos aparezcan en nuevos sitios con el tiempo.
 
-[:octicons-home-16: Homepage](https://easyoptouts.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://easyoptouts.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Página Principal](https://easyoptouts.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://easyoptouts.com/privacy){ .card-link title="Política de Privacidad" }
 
 </div>
 
-Some websites supported by EasyOptOuts are publicly searchable. In those cases EasyOptOuts will perform a search and only submit an opt-out request if your personal data is already found, to prevent sending your data in an opt-out request to sites that didn't have it already. However, they do support some sites which are not publicly searchable, and in those cases your data will be sent to them in an opt-out request regardless, in case you are in their private databases.
+Algunos sitios web compatibles con EasyOptOuts pueden consultarse públicamente. En esos casos, EasyOptOuts realizará una búsqueda y solo enviará una solicitud de exclusión voluntaria si tus datos personales ya se han encontrado, para evitar enviar tus datos en una solicitud de exclusión voluntaria a sitios que aún no los tenían. Sin embargo, admiten algunos sitios en los que no se pueden realizar búsquedas públicas, y en esos casos tus datos les serán enviados en una solicitud de exclusión voluntaria a pesar de todo, en caso de que tú estés en sus bases de datos privadas.
 
-Our testing indicates that EasyOptOuts provides the best value out of any data removal service we've tested, with a very affordable price and high effectiveness. We will publish a detailed review of EasyOptOuts on our blog in the near future and update this page when it is published. [Independent findings from Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) also indicate that EasyOptOuts is one of the top performing data removal services.
+Nuestras pruebas indican que EasyOptOuts ofrece la mejor relación calidad-precio de todos los servicios de eliminación de datos que hemos probado, con un precio muy asequible y una alta efectividad. Publicaremos una revisión detallada de EasyOptOuts en nuestro blog en un futuro próximo y actualizaremos esta página cuando se publique. [Los resultados independientes de Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) también indican que EasyOptOuts es uno de los servicios de eliminación de datos con mejores resultados.
 
 <div class="admonition failure" markdown>
-<p class="admonition-title">High priority sites not supported by EasyOptOuts</p>
+<p class="admonition-title">Sitios de alta prioridad no compatibles con EasyOptOuts</p>
 
-EasyOptOuts does not cover the following sites we consider to be "high priority," so you should still manually opt-out of:
+EasyOptOuts no cubre los siguientes sitios que consideramos de "alta prioridad", por lo que deberías excluirte manualmente:
 
-- Intelius ([Search](https://www.intelius.com/), [Opt-Out](https://suppression.peopleconnect.us/login))
-- PeekYou ([Search](https://www.peekyou.com/), [Opt-Out](https://www.peekyou.com/about/contact/optout))
-- PublicDataUSA ([Search](https://www.publicdatausa.com/), [Opt-Out](https://www.publicdatausa.com/remove.php))
+- Intelius ([Buscar](https://www.intelius.com/), [Darse de baja](https://suppression.peopleconnect.us/login))
+- PeekYou ([Buscar](https://www.peekyou.com/), [Darse de baja](https://www.peekyou.com/about/contact/optout))
+- PublicDataUSA ([Buscar](https://www.publicdatausa.com/), [Darse de baja](https://www.publicdatausa.com/remove.php))
 
 </div>
 
-## Google _Results About You_ <small>Free</small>
+## _Resultado Sobre Ti_ de Google <small>Gratis</small>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Google is a data collector themselves</p>
+<p class="admonition-title">Google es un recolector de datos en sí mismo</p>
 
-This method will require you to submit your personal information to Google for them to periodically monitor their search results for. Google claims to not use the information provided to this tool to "personalize your experiences" across other Google products.
+Este método requerirá que envíes tu información personal a Google para que supervise periódicamente tus resultados de búsqueda. Google afirma que no utiliza la información proporcionada a esta herramienta para "personalizar tus experiencias" en otros productos de Google.
 
-While Google is not a data broker themselves _per se_, as they don't sell or share your data with outside parties, some may find this relationship unacceptable. You should always decide whether the benefits of this tool outweigh the drawbacks for your individual situation.
+Aunque Google no es un comerciante de datos propiamente dicho, ya que no vende ni comparte tus datos con terceros, algunos pueden considerar inaceptable esta relación. Siempre debes decidir si las ventajas de esta herramienta superan a los inconvenientes en tu situación particular.
 
 </div>
 
@@ -106,20 +106,20 @@ While Google is not a data broker themselves _per se_, as they don't sell or sha
 
 ![Google logo](assets/img/data-broker-removals/google.svg){ align=right }
 
-**Results about you** is a free tool which helps you discover whether your personal contact information, including your home address, phone number, and email address, appears in Google search results. If any personal information is found, you can request its removal.
+**Resultados sobre ti** es una herramienta gratuita que te ayuda a descubrir si tu información de contacto personal, incluidos tu domicilio, número de teléfono y dirección de correo electrónico, aparece en los resultados de búsqueda de Google. Si se encuentra algún dato personal, puedes solicitar su eliminación.
 
-[:octicons-globe-16: Open Web Tool](https://myactivity.google.com/results-about-you){ .md-button .md-button--primary }
-[:octicons-info-16:](https://support.google.com/websearch/answer/12719076){ .card-link title=Documentation}
+[:octicons-globe-16: Herramienta Web Abierta](https://myactivity.google.com/results-about-you){ .md-button .md-button--primary }
+[:octicons-info-16:](https://support.google.com/websearch/answer/12719076){ .card-link title=Documentación}
 
 </div>
 
-In many cases, a Google search is the first place a potential stalker or abuser would look to find your personal information, which could make using it a worthwhile trade-off. However, this tool does not remove your information from the discovered websites themselves, only their listings on Google. You should still consider manually opting out from the results which are discovered, or using another service which automatically opts you out from those sites directly.
+En muchos casos, una búsqueda en Google es el primer lugar en el que un acosador o maltratador potencial buscaría información personal, por lo que su uso puede ser una opción que merezca la pena. Sin embargo, esta herramienta no elimina tu información de los propios sitios web descubiertos, solo de sus listados en Google. Aún así, deberías considerar la posibilidad de excluirte manualmente de los resultados que se descubran, o utilizar otro servicio que te excluya automáticamente de esos sitios directamente.
 
-You can add up to 3 addresses, 3 phone numbers, and 3 email addresses to your Google account to monitor for. The service is only available in select markets (initially the US and UK) to users over 18.
+Puedes añadir hasta 3 direcciones, 3 números de teléfono y 3 direcciones de correo electrónico a tu cuenta de Google para supervisarlos. El servicio solo está disponible en determinados mercados (inicialmente EE. UU. y Reino Unido) para usuarios mayores de 18 años.
 
-When results are found, they will be available for review in this web tool. You can also optionally receive an email notification delivered to the account's Gmail address that lets you know when new results are found. You will then be able to click **Request to remove** on each discovered listing, and Google will review the request.
+Cuando se encuentren los resultados, se podrán consultar en esta herramienta web. También puedes recibir opcionalmente una notificación por correo electrónico en la dirección de Gmail de la cuenta que te avise cuando se encuentren nuevos resultados. A continuación, podrás hacer clic en **Solicitar la eliminación** en cada uno de los listados descubiertos y Google revisará la solicitud.
 
-In our testing, this tool worked to reliably remove people search sites from Google search results, but was not effective against websites that showed _corporate_ filing information, even if you used your personal address to register a company, nor was it effective against social media profiles.
+En nuestras pruebas, esta herramienta funcionó para eliminar de forma fiable los sitios de búsqueda de personas de los resultados de búsqueda de Google, pero no fue eficaz contra los sitios web que mostraban información de registro _corporativo_, incluso si utilizabas tu dirección personal para registrar una empresa, ni tampoco contra los perfiles de redes sociales.
 
 ## Criterios
 
@@ -127,8 +127,8 @@ In our testing, this tool worked to reliably remove people search sites from Goo
 
 Nuestras selecciones de servicios de eliminación se basan principalmente en pruebas profesionales independientes realizadas por terceros, como se indica en las secciones anteriores, en nuestras propias pruebas internas y en los comentarios agregados de nuestra comunidad.
 
-- Must not be a whitelabeled service or reseller of another provider.
-- Must not be affiliated with the data broker industry or purchase advertising on people search sites.
-- Must only use your personal data for the purposes of opting you out of data broker databases and people search sites.
+- No debe ser un servicio con etiqueta blanca ni un revendedor de otro proveedor.
+- No debe estar afiliado a la industria de la comercialización de datos ni comprar publicidad en sitios de búsqueda de personas.
+- Solo debe utilizar tus datos personales para excluirte de bases de datos de comerciantes y sitios de búsqueda de personas.
 
-[^1]: If you _are_ immediately threatened by stalkers or other threats, you should strongly consider an automated tool like [EasyOptOuts](#easyoptouts-paid), at least for the initial "purge." When things are more manageable in the future you can come back to the manual process. Of course, in a dangerous situation your first priority should always be to seek professional help from police or others before tackling it on your own.
+[^1]: Si _estás_ amenazado inmediatamente por acosadores u otras amenazas, deberías considerar seriamente una herramienta automatizada como [EasyOptOuts](#easyoptouts-paid), al menos para la "purga" inicial. Cuando las cosas sean más manejables en el futuro podrás volver al proceso manual. Por supuesto, en una situación peligrosa tu primera prioridad debe ser siempre buscar ayuda profesional de la policía o de otras personas antes de afrontarla por tu cuenta.

@@ -7,7 +7,7 @@ cover: office-suites.webp
 
 <small>Protege contra la(s) siguiente(s) amenaza(s):</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-server-network: Proveedores de Servicios](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
 Elige una **suite de ofimática** que no requiera iniciar sesión para acceder a todas sus funciones. Las herramientas listadas aquí pueden ser utilizadas sin conexión y, en la mayoría de los casos, podrían reemplazar a Microsoft Office.
 
