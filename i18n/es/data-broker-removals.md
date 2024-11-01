@@ -1,32 +1,32 @@
 ---
-title: Data Removal Services
+title: Servicios de Eliminación de Datos
 icon: material/database-off
-description: Our recommended methods for removing your personal information from data brokers and people search sites.
+description: Nuestros métodos recomendados para eliminar tu información personal de comerciantes de datos y sitios de búsqueda de personas.
 cover: data-broker-removals.webp
 ---
 
 <small>Protege contra la(s) siguiente(s) amenaza(s):</small>
 
-- [:material-account-search: Public Exposure](basics/common-threats.md#limiting-public-information){ .pg-green }
+- [:material-account-search: Exposición Pública](basics/common-threats.md#limiting-public-information){ .pg-green }
 
-"People search sites" operated by data brokers represent an immense privacy risk to the majority of Americans. For many, sensitive personal information such as your address, phone number, email, and age is a simple internet search away. While there is unfortunately no federal regulation in place to protect your data, many of these companies will remove your information from their _public_ databases upon request.
+Los "sitios de búsqueda de personas" operados por comerciantes de datos representan un inmenso riesgo para la privacidad de la mayoría de los estadounidenses. Para muchos, la información personal sensible, como tu dirección, número de teléfono, correo electrónico y edad, está a una simple búsqueda en Internet. Aunque desgraciadamente no existe ninguna normativa federal que proteja tus datos, muchas de estas empresas eliminarán tu información de sus bases de datos _públicas_ si así lo solicitas.
 
-:flag_us: **Note:** Many of these tools are only available in the United States, and data brokers collecting, sharing, and selling information from public records and other resources is largely a US-centric issue. In many other regions, your data is already protected via regulations like the GDPR. We will always advocate for similarly strong privacy protections in the United States, but those affected today may still benefit from these "stop-gap" solutions.
+:flag_us: **Nota:** Muchas de estas herramientas solo están disponibles en Estados Unidos, y los comerciantes de datos que recopilan, comparten y venden información de registros públicos y otros recursos son en gran medida un problema centrado en Estados Unidos. En muchas otras regiones, tus datos ya están protegidos mediante normativas como el GDPR. Siempre abogaremos por una protección de la privacidad igual de sólida en Estados Unidos, pero los afectados de hoy todavía pueden beneficiarse de estas soluciones «provisionales».
 
-Counterintuitively, removing your personal data on these sites from the internet generally requires _providing_ these companies with your personal data for them to comply with the request. Unfortunately, in most cases it is still worth doing so to minimize the amount of personal data about you which is publicly accessible.
+Contraintuitivamente, la eliminación de tus datos personales en estos sitios de Internet generalmente requiere _proporcionar_ a estas empresas yus datos personales para que cumplan con la solicitud. Lamentablemente, en la mayoría de los casos sigue mereciendo la pena hacerlo para minimizar la cantidad de datos personales sobre ti que son de acceso público.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Try it out</p>
+<p class="admonition-title">Pruébalo</p>
 
-Use your favorite [search engine](search-engines.md) to see if your data is trivially exposed by searching for your name in quotes, plus your general location. For example, search for `"Jane Smith" Chicago IL`. In many cases, you may find your personal information makes up many of the first results. Even if results about you aren't readily available though, you may still be affected. The list of data brokers linked below will provide more places to check whether your data is in any public databases.
+Utiliza tu [motor de búsqueda](search-engines.md) favorito para ver si tus datos están trivialmente expuestos buscando tu nombre entre comillas, además de tu ubicación general. Por ejemplo, busca `"Jane Smith" Chicago IL`. En muchos casos, es posible que tu información personal aparezca en muchos de los primeros resultados. Incluso si los resultados sobre ti no están disponibles, puedes verte afectado. La lista de comerciantes de datos enlazada a continuación te proporcionará más lugares donde comprobar si tus datos figuran en alguna base de datos pública.
 
 </div>
 
-## Manual Opt-Outs <small>Free</small>
+## Exclusiones Manuales <small>Gratuitas</small>
 
-The quickest, most effective, and most private way to remove yourself from people search sites is to submit opt-out requests manually to each site. This can _seem_ like a daunting task, because there are hundreds of people search sites, but the reality is that the vast majority of these sites are operated by a small handful of companies.
+La forma más rápida, eficaz y privada de darse de baja de los sitios de búsqueda de personas es enviar solicitudes de exclusión manualmente a cada sitio. Esto puede _parecer_ una tarea desalentadora, porque hay cientos de sitios de búsqueda de personas, pero la realidad es que la gran mayoría de estos sitios están operados por un pequeño puñado de empresas.
 
-You should search for your information on these sites first, and submit an opt-out request if your information is found. Removing your data from these providers typically removes your data from many smaller sites at the same time.
+Primero deberías buscar tu información en estos sitios y enviar una solicitud de exclusión si encuentras tu información. Al eliminar tus datos de estos proveedores, normalmente se eliminan tus datos de muchos sitios más pequeños al mismo tiempo.
 
 - Advanced Background Checks ([Search](https://www.advancedbackgroundchecks.com/), [Opt-Out](https://www.advancedbackgroundchecks.com/removal))
 - BeenVerified ([Search](https://www.beenverified.com/app/optout/search), [Opt-Out](https://www.beenverified.com/app/optout/address-search))
@@ -45,11 +45,11 @@ You should search for your information on these sites first, and submit an opt-o
 - Whitepages ([Search](https://www.whitepages.com/), [Opt-Out](https://www.whitepages.com/suppression_requests))
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">A tip on opt-out strategy</p>
+<p class="admonition-title">Un consejo sobre la estrategia de exclusión</p>
 
-Be sure to avoid burning out or becoming overwhelmed with this process. Unless you're in immediate danger, you can take breaks and avoid doing them all at once.[^1]
+Asegúrate de no quemarte ni agobiarte con este proceso. A menos que estés en peligro inminente, puedes tomarte descansos y evitar hacerlos todos a la vez.[^1]
 
-One strategy could be to look at a single website from the list above every week, starting from the top. Next week you move on to the following website on the list, and so on. When you reach the end of the list, you can start again from the beginning.
+Una estrategia podría consistir en visitar un solo sitio web de la lista anterior cada semana, empezando por el primero. La semana siguiente pasas al siguiente sitio web de la lista, y así sucesivamente. When you reach the end of the list, you can start again from the beginning.
 
 This sets you up on a nice schedule to re-review each website approximately every 3-4 months, and breaks down the process into simple 5 minute tasks you can easily add to your weekly routine.
 
@@ -123,9 +123,9 @@ In our testing, this tool worked to reliably remove people search sites from Goo
 
 ## Criterios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing a data removal service, and conduct your own research to ensure it's the right choice for you.
+**Por favor, ten en cuenta que no estamos afiliados a ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Te sugerimos que te familiarices con esta lista antes de elegir un servicio de eliminación de datos, y que lleves a cabo tu propia investigación para asegurarte de que es la opción adecuada para ti.
 
-Our picks for removal services are primarily based on independent professional testing from third-parties as noted in the sections above, our own internal testing, and aggregated reviews from our community.
+Nuestras selecciones de servicios de eliminación se basan principalmente en pruebas profesionales independientes realizadas por terceros, como se indica en las secciones anteriores, en nuestras propias pruebas internas y en los comentarios agregados de nuestra comunidad.
 
 - Must not be a whitelabeled service or reseller of another provider.
 - Must not be affiliated with the data broker industry or purchase advertising on people search sites.

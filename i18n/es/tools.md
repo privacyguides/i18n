@@ -260,7 +260,7 @@ Si busca más **seguridad**, asegúrese siempre de conectarse a sitios web que u
 
 [Más información :material-arrow-right-drop-circle:](cloud.md)
 
-### Data Removal Services
+### Servicios de Eliminación de Datos
 
 <div class="grid cards" markdown>
 

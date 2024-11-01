@@ -15,7 +15,7 @@ Cuando compartas archivos, asegúrate de remover los metadatos asociados. Archiv
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-No se debe **nunca** utilizar el desenfoque para redactar [texto en imágenes](https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, you should draw a box over the text.
+No se debe **nunca** utilizar el desenfoque para eliminar [texto en imágenes](https://bishopfox.com/blog/unredacter-tool-never-pixelation). Si deseas eliminar texto en una imagen, dibuja un recuadro sobre el texto.
 
 </div>
 
@@ -36,7 +36,7 @@ En Linux, existe una herramienta gráfica de terceros [Metadata Cleaner](https:/
 [:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2)
 - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
@@ -128,7 +128,7 @@ Suele ser un componente de otras aplicaciones de eliminación de Exif y se encue
 [:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:fontawesome-brands-windows: Windows](https://exiftool.org)
 - [:simple-apple: macOS](https://exiftool.org)
