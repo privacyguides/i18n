@@ -330,7 +330,7 @@ gpg --quick-gen-key alice@example.com future-default
 [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
 - [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
@@ -405,10 +405,10 @@ Actualmente, GPG Suite [aún no](https://gpgtools.com/sonoma) tiene una versión
 
 **OpenKeychain** es una implementación de GnuPG para Android. Es comúnmente requerido por clientes de correo como [K-9 Mail](email-clients.md#k-9-mail-android) y [FairEmail](email-clients.md#fairemail-android) y otras aplicaciones Android para proporcionar soporte de cifrado. Cure53 completó una [auditoría de seguridad](https://openkeychain.org/openkeychain-3-6) de OpenKeychain 3.6 en octubre de 2015. Los detalles técnicos sobre la auditoría y las soluciones de OpenKeychain pueden consultarse [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
 
-[:octicons-home-16: Homepage](https://openkeychain.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://openkeychain.org/faq){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://openkeychain.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://openkeychain.org/help/privacy-policy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://openkeychain.org/faq){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>

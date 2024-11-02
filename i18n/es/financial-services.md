@@ -2,7 +2,7 @@
 title: Servicios Financieros
 icon: material/bank
 cover: financial-services.webp
-description: These services can assist you in protecting your privacy from merchants and other trackers, which is one of the biggest challenges to privacy today.
+description: Estos servicios pueden ayudarle a proteger su privacidad frente a comerciantes y otros rastreadores, que es uno de los mayores retos a los que se enfrenta la privacidad hoy en día.
 ---
 
 <small>Protege contra la(s) siguiente(s) amenaza(s):</small>
@@ -24,7 +24,7 @@ Hay una serie de servicios que ofrecen "tarjetas de débito virtuales" que puede
 <div class="admonition tip" markdown>
 <p class="admonition-title">Compruebe su banco actual</p>
 
-Muchos bancos y proveedores de tarjetas de crédito ofrecen funciones nativas de tarjeta virtual. Si ya utiliza uno que ofrezca esta opción, debería utilizarlo en lugar de las siguientes recomendaciones en la mayoría de los casos. That way, you are not trusting multiple parties with your personal information.
+Muchos bancos y proveedores de tarjetas de crédito ofrecen funciones nativas de tarjeta virtual. Si ya utiliza uno que ofrezca esta opción, debería utilizarlo en lugar de las siguientes recomendaciones en la mayoría de los casos. De este modo, no estará confiando su información personal a múltiples partes.
 
 </div>
 
@@ -35,7 +35,7 @@ Muchos bancos y proveedores de tarjetas de crédito ofrecen funciones nativas de
 ![Privacy.com logo](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
 ![Privacy.com logo](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
 
-El plan gratuito de **Privacy.com** le permite crear hasta 12 tarjetas virtuales al mes, establecer límites de gasto en esas tarjetas y cerrarlas al instante. Their paid plans provide higher limits on the number of cards that can be created each month and the option to hide transaction information from your bank.
+El plan gratuito de **Privacy.com** le permite crear hasta 12 tarjetas virtuales al mes, establecer límites de gasto en esas tarjetas y cerrarlas al instante. Sus planes de pago ofrecen mayores límites en el número de tarjetas que se pueden crear cada mes y la opción de ocultar la información de las transacciones a su banco.
 
 [:octicons-home-16: Página Principal](https://privacy.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Política de Privacidad" }
@@ -45,7 +45,7 @@ El plan gratuito de **Privacy.com** le permite crear hasta 12 tarjetas virtuales
 
 </div>
 
-Privacy.com facilita por defecto a su banco información sobre los comercios en los que compra. Their paid "discreet merchants" feature hides merchant information from your bank, so your bank only sees that a purchase was made with Privacy.com, but not where that money was spent. However, that is not foolproof, and of course, Privacy.com still has knowledge about the merchants you are spending money with.
+Privacy.com facilita por defecto a su banco información sobre los comercios en los que compra. Su función de pago "discreet merchants" oculta la información del comerciante a su banco, de modo que este solo ve que se ha realizado una compra en Privacy.com, pero no dónde se ha gastado el dinero. Sin embargo, esto no es infalible y, por supuesto, Privacy.com sigue teniendo conocimiento de los comerciantes en los que usted gasta dinero.
 
 ### MySudo (EE. UU., De Pago)
 
@@ -54,7 +54,7 @@ Privacy.com facilita por defecto a su banco información sobre los comercios en 
 ![MySudo logo](assets/img/financial-services/mysudo.svg#only-light){ align=right }
 ![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ align=right }
 
-**MySudo** proporciona hasta 9 tarjetas virtuales dependiendo del plan que contrate. Their paid plans additionally include functionality which may be useful for making purchases privately, such as virtual phone numbers and email addresses, although we typically recommend other [email aliasing providers](email-aliasing.md) for extensive email aliasing use.
+**MySudo** proporciona hasta 9 tarjetas virtuales dependiendo del plan que contrate. Sus planes de pago incluyen además funciones que pueden ser útiles para realizar compras en privado, como números de teléfono virtuales y direcciones de correo electrónico, aunque normalmente recomendamos otros [proveedores de alias de correo electrónico](email-aliasing.md) para un uso extenso del alias de correo electrónico.
 
 [:octicons-home-16: Página Principal](https://mysudo.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://anonyome.com/privacy-policy){ .card-link title="Política de Privacidad" }
@@ -79,7 +79,7 @@ Por el momento, las tarjetas virtuales de MySudo solo están disponibles a trav�
 
 - [:material-eye-outline: Vigilancia masiva](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 
-Estos servicios le permiten comprar tarjetas de regalo para una gran variedad de comercios en línea con [criptomonedas](cryptocurrency.md). Algunos de estos servicios ofrecen opciones de verificación de identidad para límites más altos, pero también permiten cuentas con sólo una dirección de correo electrónico. Basic limits typically start at $5,000-10,000 a day for basic accounts, with significantly higher limits for ID verified accounts (if offered).
+Estos servicios le permiten comprar tarjetas de regalo para una gran variedad de comercios en línea con [criptomonedas](cryptocurrency.md). Algunos de estos servicios ofrecen opciones de verificación de identidad para límites más altos, pero también permiten cuentas con sólo una dirección de correo electrónico. Los límites básicos suelen comenzar en 5.000-10.000 dólares al día para las cuentas básicas, con límites significativamente más altos para las cuentas verificadas por ID (si se ofrecen).
 
 ### Coincards
 
@@ -87,7 +87,7 @@ Estos servicios le permiten comprar tarjetas de regalo para una gran variedad de
 
 ![Coincards logo](assets/img/financial-services/coincards.svg){ align=right }
 
-**Coincards** allows you to purchase gift cards for a large variety of merchants. Their homepage has a complete listing of the various countries where their service is available.
+**Coincards** le permite comprar tarjetas regalo para una gran variedad de comercios. Su página de inicio contiene una lista completa de los distintos países en los que está disponible su servicio.
 
 [:octicons-home-16: Página Principal](https://coincards.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="Política de Privacidad" }
