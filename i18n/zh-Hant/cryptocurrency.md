@@ -53,7 +53,7 @@ cover: cryptocurrency.webp
 
 2021 年 8 月，CipherTrace [宣佈](https://web.archive.org/web/20240223224846/https://ciphertrace.com/enhanced-monero-tracing) 為政府機構提供更強的Monero 追蹤能力。 公開貼文顯示，美國財政部金融犯罪執法網路於 2022 年底 [授權](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) CipherTrace 的「Monero 模塊」。
 
-Monero 交易圖隱私受到其相對較小的環形簽名的限制，特別是抵抗針對性的攻擊。 Monero's 隱私功能也曾被某些資安研究人員 [質疑](https://web.archive.org/web/20180331203053/https://wired.com/story/monero-privacy) ，過去已發現一些弱點與補丁，因此如 CipherTrace 的宣稱並非不可能。 雖然 Monero 大規模監控工具不太可能像比特幣和其他工具一樣存在，但可以肯定的是，追蹤工具有助於進行針對性的調查。
+Monero 交易圖隱私受到其相對較小的環形簽名的限制，特別是抵抗針對性的攻擊。 Monero 的隱私功能也曾被某些資安研究人員 [質疑](https://web.archive.org/web/20180331203053/https://wired.com/story/monero-privacy) ，過去也曾發現一些嚴重的漏洞（已被修補），因此如 CipherTrace 的宣稱並非不可能。 雖然 Monero 大規模監控工具不太可能像比特幣和其他工具一樣存在，但可以肯定的是，追蹤工具有助於進行針對性的調查。
 
 Monero 是隱私友好的加密貨幣中最強大的競爭者，但它的隱私聲稱**尚未**被任何方式證明 。 需要更多的時間和研究來評估 Monero 是否足夠抵禦攻擊來提供足夠的隱私。
 

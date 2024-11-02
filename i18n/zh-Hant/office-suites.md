@@ -15,7 +15,7 @@ cover: office-suites.webp
 
 <div class="admonition recommendation" markdown>
 
-
+![LibreOffice logo](assets/img/office-suites/libreoffice.svg){ align=right }
 
 **LibreOffice** 是免費的開放原始碼辦公軟體套件，具有廣泛的功能。
 
