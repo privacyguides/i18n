@@ -10,7 +10,7 @@ description: iOS is a mobile operating system developed by Apple for the iPhone.
 
 iOS devices are frequently praised by security experts for their robust data protection and adherence to modern best practices. עם זאת, ההגבלה של המערכת האקולוגית של אפל - במיוחד עם המכשירים הניידים שלה - עדיין פוגעת בפרטיות במספר דרכים.
 
-בדרך כלל אנו מחשיבים את iOS כמספקת הגנות פרטיות ואבטחה טובות מהממוצע עבור רוב האנשים, בהשוואה למכשירי אנדרואיד במלאי מכל יצרן. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android/distributions.md#aosp-derivatives) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
+בדרך כלל אנו מחשיבים את iOS כמספקת הגנות פרטיות ואבטחה טובות מהממוצע עבור רוב האנשים, בהשוואה למכשירי אנדרואיד במלאי מכל יצרן. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android/distributions.md) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
 
 ### נעילת הפעלה
 
@@ -18,7 +18,7 @@ iOS devices are frequently praised by security experts for their robust data pro
 
 ### חנות אפליקציות חובה
 
-המקור היחיד לאפליקציות ב-iOS הוא חנות האפליקציות של אפל, שדורשת מזהה אפל כדי לגשת אליה. משמעות הדבר היא כי לאפל יש תיעוד של כל אפליקציה שאתה מתקין במכשיר שלך, וסביר להניח שהיא יכולה לקשור את המידע הזה לזהותך האמיתית אם תספק ל-App Store אמצעי תשלום.
+The only source for apps on iOS is Apple's App Store, which requires an Apple Account to access. משמעות הדבר היא כי לאפל יש תיעוד של כל אפליקציה שאתה מתקין במכשיר שלך, וסביר להניח שהיא יכולה לקשור את המידע הזה לזהותך האמיתית אם תספק ל-App Store אמצעי תשלום.
 
 ### טלמטריה פולשנית
 
@@ -27,6 +27,8 @@ iOS devices are frequently praised by security experts for their robust data pro
 לאחרונה, נמצאה שאפל [משדרת ניתוח נתונים גם כאשר שיתוף הניתוח מושבת ](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) ב-iOS, והנתונים האלה [נראה](https://twitter.com/mysk_co/status/1594515229915979776) מקושרים בקלות למזהים ייחודיים של חשבון iCloud למרות שהם כביכול אנונימיים.
 
 ## תצורה מומלצת
+
+**Note:** This guide assumes that you're running the latest version of iOS.
 
 ### iCloud
 
@@ -48,7 +50,7 @@ iOS devices are frequently praised by security experts for their robust data pro
 
 #### מדיה & רכישות
 
-בחלק העליון של האפליקציה **הגדרות**, תראה את שמך ותמונת הפרופיל שלך אם אתה מחובר ל-Apple ID. בחר באפשרות זו, ולאחר מכן בחר **מדיה & רכישות** > **הצג חשבון**.
+At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple Account. Select that, then select **Media & Purchases** → **View Account**.
 
 - [ ] כבה **המלצות מותאמות אישית**
 
@@ -61,7 +63,7 @@ iOS devices are frequently praised by security experts for their robust data pro
 
 נתוני המיקום שלך אינם E2EE כאשר המכשיר שלך מחובר ואתה משתמש ב - Find My iPhone מרחוק כדי לאתר את המכשיר שלך. תצטרך לקבל את ההחלטה אם תמורות אלה שוות את היתרונות נגד גניבה של נעילת הפעלה.
 
-בחלק העליון של האפליקציה **הגדרות**, תראה את שמך ותמונת הפרופיל שלך אם אתה מחובר ל-Apple ID. בחר באפשרות זו, ולאחר מכן בחר **איתור**. כאן באפשרותך לבחור אם להפעיל או להשבית את תכונות המיקום שלי.
+At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple Account. בחר באפשרות זו, ולאחר מכן בחר **איתור**. כאן באפשרותך לבחור אם להפעיל או להשבית את תכונות המיקום שלי.
 
 ### Settings
 
@@ -73,9 +75,9 @@ iOS devices are frequently praised by security experts for their robust data pro
 
 #### רשת אלחוטית
 
-באפשרותך לאפשר הקצאה אקראית של כתובות חומרה כדי להגן עליך ממעקב אחר רשתות Wi - Fi. ברשת שאליה אתה מחובר כעת, לחץ על לחצן :material-information: :
+You can enable [hardware address randomization](https://support.apple.com/en-us/102509#triswitch) to protect you from tracking across Wi-Fi networks, and on the same network over time. On the network you are currently connected to, tap the :material-information: button:
 
-- [x] הפעל את **כתובת Wi-Fi פרטית**
+- [x] Set **Private Wi-Fi Address** to **Fixed** or **Rotating**
 
 יש לך גם אפשרות **להגביל מעקב אחר כתובות IP**. זה דומה ל - iCloud Private Relay אבל משפיע רק על חיבורים ל"מעקבים ידועים." מכיוון שהיא משפיעה רק על חיבורים לשרתים שעלולים להיות זדוניים, סביר להניח שהגדרה זו תשאיר אותה מופעלת, אך אם אינך מעוניין בכך * כל * תעבורה שתנותב דרך השרתים של אפל, מומלץ לכבות אותה.
 
@@ -85,11 +87,13 @@ iOS devices are frequently praised by security experts for their robust data pro
 
 - [ ] כבה את **Bluetooth**
 
+Note that Bluetooth is automatically turned on after every system update.
+
 #### כללי
 
-שם המכשיר של האייפון שלך יכיל כברירת מחדל את שמך הפרטי, וזה יהיה גלוי לכל מי ברשתות שאתה מתחבר אליהן. אתה צריך לשנות את זה למשהו יותר גנרי, כמו "אייפון" בחר **אודות** > **שם** והזן את שם המכשיר המועדף עליך.
+שם המכשיר של האייפון שלך יכיל כברירת מחדל את שמך הפרטי, וזה יהיה גלוי לכל מי ברשתות שאתה מתחבר אליהן. אתה צריך לשנות את זה למשהו יותר גנרי, כמו "אייפון" Select **About** → **Name** and enter the device name you prefer.
 
-חשוב להתקין **עדכוני תוכנה** לעיתים קרובות כדי לקבל את תיקוני האבטחה האחרונים. אתה יכול להפעיל את **עדכונים אוטומטיים** כדי לשמור על הטלפון שלך מעודכן מבלי שתצטרך לחפש כל הזמן עדכונים. בחר **עדכון תוכנה** > **עדכונים אוטומטיים**:
+חשוב להתקין **עדכוני תוכנה** לעיתים קרובות כדי לקבל את תיקוני האבטחה האחרונים. אתה יכול להפעיל את **עדכונים אוטומטיים** כדי לשמור על הטלפון שלך מעודכן מבלי שתצטרך לחפש כל הזמן עדכונים. Select **Software Update** → **Automatic Updates**:
 
 - [x] הפעל את **הורד עדכוני iOS**
 - [x] הפעל את **התקן עדכוני iOS**
@@ -97,13 +101,13 @@ iOS devices are frequently praised by security experts for their robust data pro
 
 **AirDrop** מאפשר לך להעביר קבצים בקלות, אך הוא יכול לאפשר לזרים לשלוח לך קבצים שאינך רוצה.
 
-- [x] בחר **AirDrop** > **קבלה כבויה**
+- [x] Select **AirDrop** → **Receiving Off**
 
-**AirPlay** מאפשר לך להזרים בצורה חלקה תוכן מה-iPhone שלך לטלוויזיה; עם זאת, ייתכן שלא תמיד תרצה בכך. בחר **AirPlay & מסירה** > **AirPlay אוטומטית לטלוויזיות**:
+**AirPlay** מאפשר לך להזרים בצורה חלקה תוכן מה-iPhone שלך לטלוויזיה; עם זאת, ייתכן שלא תמיד תרצה בכך. Select **AirPlay & Continuity** → **Automatically AirPlay**:
 
 - [x] בחר **לעולם לא** או **שאל**
 
-**רענון אפליקציות ברקע** מאפשר ליישומים שלך לרענן את התוכן שלהם בזמן שאינך משתמש בהם. זה עלול לגרום להם ליצור קשרים לא רצויים. כיבוי זה יכול גם לחסוך בחיי סוללה, אבל זה עשוי להשפיע על היכולת של אפליקציה לקבל מידע מעודכן, במיוחד אפליקציות מזג אוויר והודעות.
+**רענון אפליקציות ברקע** מאפשר ליישומים שלך לרענן את התוכן שלהם בזמן שאינך משתמש בהם. זה עלול לגרום להם ליצור קשרים לא רצויים. Turning this off can also save battery life, but may affect an app's ability to receive updated information, particularly weather and messaging apps.
 
 בחר **רענון אפליקציות ברקע** וכבה את כל האפליקציות שאינך רוצה להמשיך לרענן ברקע. אם אינך רוצה שאפליקציות כלשהן ירעננו ברקע, תוכל לבחור שוב ב**רענון אפליקציה ברקע** ולכבות **אותה**.
 
@@ -117,19 +121,19 @@ iOS devices are frequently praised by security experts for their robust data pro
 
 הגדרת סיסמה חזקה בטלפון שלך היא הצעד החשוב ביותר שאתה יכול לנקוט לאבטחת המכשיר הפיזי. תצטרך לעשות כאן פשרה בין אבטחה לנוחות: סיסמה ארוכה יותר תהיה מעצבנת להזין בכל פעם, אבל סיסמה קצרה יותר או PIN יהיה קל יותר לנחש. הגדרת Face ID או Touch ID יחד עם סיסמה חזקה יכולה להיות פשרה טובה בין שימושיות ואבטחה.
 
-בחר **הפעל קוד גישה** או **שנה קוד גישה** > **אפשרויות קוד סיסמה** > **קוד אלפאנומרי מותאם אישית**. Make sure that you create a [secure password](../basics/passwords-overview.md).
+Select **Turn Passcode On** or **Change Passcode** → **Passcode Options** → **Custom Alphanumeric Code**. Make sure that you create a [secure password](../basics/passwords-overview.md).
 
 אם ברצונך להשתמש ב-Face ID או Touch ID, תוכל להמשיך ולהגדיר זאת כעת. הטלפון שלך ישתמש בסיסמה שהגדרת קודם לכן כחלופה למקרה שהאימות הביומטרי שלך ייכשל. שיטות פתיחה ביומטריות הן בעיקר נוחות, אם כי הן עוצרות מצלמות מעקב או אנשים מעבר לכתף שלך מלצפות בך מזין את קוד הסיסמה שלך.
 
 אם אתה משתמש ביומטרי, אתה צריך לדעת איך לכבות אותם במהירות במקרה חירום. לחיצה ממושכת על לחצן הצד או ההפעלה ו*כל אחד* כפתור עוצמת הקול עד שתראה את המחוון Slide to Power Off תשבית את הביומטרי, ותחייב את קוד הגישה שלך כדי לפתוח. קוד הגישה שלך יידרש גם לאחר הפעלה מחדש של המכשיר.
 
-בחלק מהמכשירים הישנים יותר, ייתכן שתצטרך ללחוץ על כפתור ההפעלה חמש פעמים כדי להשבית את הביומטרי במקום זאת, או עבור מכשירים עם Touch ID ייתכן שתצטרך ללחוץ על כפתור ההפעלה ותו לא. הקפד לנסות זאת מראש כדי שתדע איזו שיטה עובדת עבור המכשיר שלך.
+On some older devices, you may have to press the power button five times to disable biometrics instead, or for devices with Touch ID, you may just have to hold down the power button and nothing else. הקפד לנסות זאת מראש כדי שתדע איזו שיטה עובדת עבור המכשיר שלך.
 
-**Stolen Device Protection** is a new feature in iOS 17.3 which adds additional security intended to protect your personal data if your device is stolen while unlocked. If you use biometrics and the Find My Device feature in your Apple ID settings, we recommend enabling this new protection:
+**Stolen Device Protection** adds additional security intended to protect your personal data if your device is stolen while unlocked. If you use biometrics and the Find My Device feature in your Apple Account settings, we recommend enabling this new protection:
 
 - [x] Select **Turn On Protection**
 
-After enabling Stolen Device Protection, [certain actions](https://support.apple.com/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling Lost Mode. It also adds a security delay to certain actions performed away from your home or another "familiar location," such as requiring a 1-hour timer to reset your Apple ID password or sign out of your Apple ID. This delay is intended to give you time to enable Lost Mode and secure your account before a thief can reset your device.
+After enabling Stolen Device Protection, [certain actions](https://support.apple.com/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling Lost Mode. It also adds a security delay to certain actions performed away from your home or another "familiar location," such as requiring a 1-hour timer to reset your Apple Account password or sign out of your Apple Account. This delay is intended to give you time to enable Lost Mode and secure your account before a thief can reset your device.
 
 **אפשר גישה כאשר הוא נעול** נותן לך אפשרויות למה שאתה יכול לאפשר כשהטלפון שלך נעול. ככל שתבטל יותר מהאפשרויות האלה, כך מישהו ללא הסיסמה שלך יכול לעשות פחות, אבל זה יהיה פחות נוח עבורך. תברר ובחר לאילו מבין אלה אינך רוצה שלמישהו תהיה גישה אם הוא ישים את ידו על הטלפון שלך.
 
@@ -186,6 +190,8 @@ This is disabled by default and cannot be changed for users under 18.
 - [ ] כבה את **שיפור כושר+**
 - [ ] כבה את **שפר את הבטיחות**
 - [ ] כבה את **שפר את Siri & הכתבה**
+- [ ] Turn off **Improve Assistive Voice Features**
+- [ ] Turn off **Improve AR Location Accuracy**
 
 השבת את **מודעות מותאמות אישית** אם אינך מעוניין במודעות ממוקדות. Select **Apple Advertising**:
 
@@ -203,21 +209,56 @@ This is disabled by default and cannot be changed for users under 18.
 
 ### שיחות E2EE
 
-שיחות טלפון רגילות שנעשות באמצעות אפליקציית הטלפון דרך הספק שלך אינן E2EE. גם שיחות FaceTime Video ו-FaceTime Audio הן E2EE, או שאתה יכול להשתמש ב[אפליקציה אחרת](../real-time-communication.md) כמו Signal.
+שיחות טלפון רגילות שנעשות באמצעות אפליקציית הטלפון דרך הספק שלך אינן E2EE. Both FaceTime Video and FaceTime Audio calls are E2EE. Alternatively, you can use [another app](../real-time-communication.md) like Signal for E2EE calls.
+
+### Imessage מוצפן
+
+The [color of the message bubble](https://support.apple.com/en-us/104972) in the Messages app indicates whether your messages are E2EE or not. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates the other party is using either the outdated SMS and MMS protocols or RCS. RCS on iOS is **not** E2EE. Currently, the only way to have E2EE in Messages is for both parties to be using iMessage on Apple devices.
+
+אם אתה או שותף ההודעות שלך הפעלת גיבוי iCloud ללא הגנת נתונים מתקדמת, מפתח ההצפנה יאוחסן בשרתים של אפל, כלומר הם יכולים לגשת להודעות שלך. Additionally, iMessage's key exchange is not as secure as alternative implementations like Signal's (which allows you to view the recipients key and verify by QR code), so it shouldn't be relied on for particularly sensitive communications.
+
+### Photo Permissions
+
+When an app prompts you for access to your device's photo library, iOS provides you with options to limit what an app can access.
+
+Rather than allow an app to access all the photos on your device, you can allow it to only access whichever photos you choose by tapping the "Select Photos..." option in the permission dialog. You can change photo access permissions at any time by navigating to **Settings** → **Privacy & Security** → **Photos**.
+
+![Photo Permissions](../assets/img/ios/photo-permissions-light.png#only-light) ![Photo Permissions](../assets/img/ios/photo-permissions-dark.png#only-dark)
+
+**Add Photos Only** is a permission that only gives an app the ability to download photos to the photo library. Not all apps which request photo library access provide this option.
+
+![Private Access](../assets/img/ios/private-access-light.png#only-light) ![Private Access](../assets/img/ios/private-access-dark.png#only-dark)
+
+Some apps also support **Private Access**, which functions similarly to the **Limited Access** permission. However, photos shared to apps using Private Access include their location by default. We recommend unchecking this setting if you do not [remove photo metadata](../data-redaction.md) beforehand.
+
+### Contact Permissions
+
+Similarly, rather than allow an app to access all the contacts saved on your device, you can allow it to only access whichever contacts you choose. You can change contact access permissions at any time by navigating to **Settings** → **Privacy & Security** → **Contacts**.
+
+![Contact Permissions](../assets/img/ios/contact-permissions-light.png#only-light) ![Contact Permissions](../assets/img/ios/contact-permissions-dark.png#only-dark)
+
+### Require Biometrics and Hide Apps
+
+iOS offers the ability to lock most apps behind Touch ID/Face ID or your passcode, which can be useful for protecting sensitive content in apps which do not provide the option themselves. You can lock an app by long-pressing on it and selecting **Require Face ID/Touch ID**. Any app locked in this way requires biometric authentication whenever opening it or accessing its contents in other apps. Also, notification previews for locked apps will not be shown.
+
+In addition to locking apps behind biometrics, you can also hide apps so that they don't appear on the Home Screen, App Library, the app list in **Settings**, etc. While hiding apps may be useful in situations where you have to hand your unlocked phone to someone else, the concealment provided by the feature is not absolute, as a hidden app is still visible in some places such as the battery usage list. Moreover, one notable tradeoff of hiding an app is that you will not receive any of its notifications.
+
+You can hide an app by long-pressing on it and selecting **Require Face ID/Touch ID** → **Hide and Require Face ID/Touch ID**. Note that pre-installed Apple apps, as well as the default web browser and email app, cannot be hidden. Hidden apps reside in a **Hidden** folder at the bottom of the App Library, which can be unlocked using biometrics. This folder appears in the App Library whether you hid any apps or not, which provides you a degree of plausible deniability.
+
+### השחרת פנים/מידע
+
+If you need to hide information in a photo, you can use Apple's built-in editing tools to do so.
+
+- Open the **Photos** app and tap the photo you have selected for redaction
+- Tap the :material-tune: (at the bottom of the screen) → markup symbol (top right) → plus icon at the bottom right
+- Select **Add Shape** and choose the square or circle
+- On the toolbar, tap the circle (left-most option) and choose black as the color for filling in the shape. You can also move the shape and increase its size as you see fit.
+
+**Don't** use the highlighter to obfuscate information, as its opacity is not quite 100%.
 
 ### הימנע מפריצת Jailbreak
 
 פריצת Jailbreaking של אייפון מערערת את האבטחה שלו והופכת אותך לפגיע. הפעלת תוכנת צד שלישי לא מהימנה עלולה לגרום למכשיר שלך להידבק בתוכנה זדונית.
-
-### Imessage מוצפן
-
-צבע בועת ההודעה באפליקציית ההודעות מציין אם ההודעות שלך הן E2EE או לא. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates the other party is using the outdated SMS and MMS protocols. נכון לעכשיו, הדרך היחידה להשיג E2EE בהודעות היא ששני הצדדים ישתמשו ב-iMessage במכשירי אפל.
-
-אם אתה או שותף ההודעות שלך הפעלת גיבוי iCloud ללא הגנת נתונים מתקדמת, מפתח ההצפנה יאוחסן בשרתים של אפל, כלומר הם יכולים לגשת להודעות שלך. בנוסף, החלפת המפתחות של iMessage אינה מאובטחת כמו יישומים אלטרנטיביים, כמו Signal (המאפשר לך להציג את מפתח הנמענים ולאמת באמצעות קוד QR), כך שאין להסתמך עליה עבור תקשורת רגישה במיוחד.
-
-### השחרת פנים/מידע
-
-אם אתה צריך להסתיר מידע בתמונה, אתה יכול להשתמש בכלים המובנים של אפל כדי לעשות זאת. פתח את התמונה שברצונך לערוך, לחץ על ערוך בפינה השמאלית העליונה של המסך, ולאחר מכן לחץ על סמל הסימון בפינה השמאלית העליונה. לחץ על הפלוס בפינה השמאלית התחתונה של המסך, ולאחר מכן לחץ על סמל המלבן. כעת, אתה יכול למקם מלבן בכל מקום בתמונה. הקפד ללחוץ על סמל הצורה בפינה השמאלית התחתונה ובחר את המלבן המלא. **אל** תשתמש במדגיש כדי לטשטש מידע, מכיוון שהאטימות שלו לא ממש 100%.
 
 ### iOS בטא
 
@@ -227,4 +268,4 @@ This is disabled by default and cannot be changed for users under 18.
 
 ### לפני הפתיחה הראשונה
 
-If your threat model includes forensic tools, and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. המצב *אחרי* אתחול מחדש אך *לפני* ביטול נעילת המכשיר שלך מכונה "לפני ביטול נעילה ראשון" (BFU), וכאשר המכשיר שלך נמצא במצב זה, זה מקשה [באופן משמעותי](https://belkasoft.com/checkm8_glossary) עבור כלים משפטיים לנצל נקודות תורפה כדי לגשת לנתונים שלך. מצב BFU זה מאפשר לך לקבל התראות על שיחות, הודעות טקסט והתראות, אך רוב הנתונים במכשיר שלך עדיין מוצפנים ואינם נגישים. זה יכול להיות לא מעשי, אז שקול אם הפשרות האלה הגיוניות למצב שלך.
+If your threat model includes [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} that involve forensic tools, and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. המצב *אחרי* אתחול מחדש אך *לפני* ביטול נעילת המכשיר שלך מכונה "לפני ביטול נעילה ראשון" (BFU), וכאשר המכשיר שלך נמצא במצב זה, זה מקשה [באופן משמעותי](https://belkasoft.com/checkm8_glossary) עבור כלים משפטיים לנצל נקודות תורפה כדי לגשת לנתונים שלך. מצב BFU זה מאפשר לך לקבל התראות על שיחות, הודעות טקסט והתראות, אך רוב הנתונים במכשיר שלך עדיין מוצפנים ואינם נגישים. זה יכול להיות לא מעשי, אז שקול אם הפשרות האלה הגיוניות למצב שלך.

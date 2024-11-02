@@ -233,7 +233,7 @@ iOS에서는 웹 브라우징이 가능한 모든 앱이 Apple에서 제공하�
 
 ![Safari 로고](assets/img/browsers/safari.svg){ align=right }
 
-**Safari**는 iOS 기본 브라우저입니다. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical) as well as fingerprint randomization, and Private Relay for those with a paid iCloud+ subscription. It also allows you to separate your browsing with different profiles and lock private tabs with your biometrics/PIN.
+**Safari**는 iOS 기본 브라우저입니다. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
 
 [:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
@@ -247,35 +247,33 @@ iOS에서는 웹 브라우징이 가능한 모든 앱이 Apple에서 제공하�
 
 We would suggest installing [AdGuard](browser-extensions.md#adguard) if you want a content blocker in Safari.
 
-The following privacy/security-related options can be found in the :gear: **Settings** app → **Safari**
+The following privacy/security-related options can be found in :gear: **Settings** → **Apps** → **Safari**.
 
 #### Profiles
 
-All of your cookies, history, and website data will be separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
+Safari allows you to separate your browsing with different profiles. All of your cookies, history, and website data are separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
 
 #### 개인 정보 및 보안
 
-- [x] **크로스 사이트 추적 방지** 활성화
+- [x] Enable **Prevent Cross-Site Tracking**
 
-    Webkit의 [지능형 추적 방지](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp)가 활성화됩니다. 해당 기능은 온 디바이스(On-device) 머신 러닝을 이용해 추적기를 중단시켜 원치 않는 추적을 방지하는 데 도움을 줍니다. 지능형 추적 방지는 많은 일반적인 위협을 방지하지만, 웹사이트 사용성을 방지하지 않도록 설계되었기 때문에 모든 추적 경로를 차단하지는 않습니다.
+This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but does not block all tracking avenues because it is designed to not interfere with website usability.
 
-- [x] Enable **Require Face ID to Unlock Private Browsing**
+- [x] Enable **Require Face ID/Touch ID to Unlock Private Browsing**
 
-    This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
+This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
 
-#### Advanced → Privacy
+#### Other Privacy Settings
+
+These options can be found in :gear: **Settings** → **Apps** → **Safari** → **Advanced**.
+
+##### Fingerprinting Mitigations
 
 The **Advanced Tracking and Fingerprinting Protection** setting will randomize certain values so that it's more difficult to fingerprint you:
 
 - [x] Select **All Browsing** or **Private Browsing**
 
-#### 개인정보 보호 리포트
-
-개인정보 보호 리포트는 현재 방문 중인 웹사이트에서 사용자 정보를 수집하지 못하도록 차단된 크로스 사이트 추적기 정보 요약을 제공합니다. 시간 경과에 따라 어떤 추적기가 차단됐는지 보여주는 주간 리포트를 표시할 수도 있습니다.
-
-개인정보 보호 리포트는 페이지 설정 메뉴에서 접근할 수 있습니다.
-
-#### 개인정보 보호 광고 측정
+##### 개인정보 보호 광고 측정
 
 - [ ] **개인 정보 보호 광고 측정** 비활성화
 
@@ -285,23 +283,23 @@ The **Advanced Tracking and Fingerprinting Protection** setting will randomize c
 
 #### 항상 개인정보 보호 브라우징
 
-Safari를 열고 우측 하단의 탭 버튼을 탭합니다. 이후, 탭 그룹 목록을 펼칩니다.
+Safari를 열고 우측 하단의 탭 버튼을 탭합니다. Then, expand the :material-format-list-bulleted: Tab Groups list.
 
 - [x] **개인정보 보호**를 활성화합니다.
 
 Safari 개인정보 보호 브라우징 모드는 추가적인 프라이버시 보호 기능을 제공합니다. 개인정보 보호 브라우징 모드는 각 탭마다 새로운 [임시](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) 세션을 사용하여, 탭을 서로 격리합니다. 개인정보 보호 브라우징 모드에서는 Safari 번역 기능 사용 시 웹페이지 주소가 Apple에 전송되지 않는 등, 프라이버시에 도움이 되는 여타 소소한 이점도 존재합니다.
 
-단, 개인정보 보호 브라우징 모드는 쿠키 및 웹사이트 데이터를 저장하지 않으므로 사이트 로그인을 유지할 수 없음을 알아두어야 합니다. 이로 인해 사용이 불편할 수 있습니다.
+Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed in to sites. 이로 인해 사용이 불편할 수 있습니다.
 
 #### iCloud 동기화
 
 Safari 방문 기록, 탭 그룹, iCloud 탭, 저장된 암호는 E2EE 동기화됩니다. However, by default, bookmarks are [not](https://support.apple.com/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://apple.com/legal/privacy/en-ww).
 
-You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/HT212520). **Apple 사용자 이름 → iCloud → 고급 데이터 보호**로 이동하세요.
+You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/HT212520). Go to :gear: **Settings** → **iCloud** → **Advanced Data Protection**.
 
-- [x] **고급 데이터 보호** 활성화
+- [x] Turn on **Advanced Data Protection**
 
-고급 데이터 보호가 비활성화된 iCloud를 사용하는 경우, 여러분의 기기에서 Safari 기본 다운로드 위치 설정을 확인하고 로컬로 지정할 것을 권장드립니다. 해당 옵션은 :gear: **설정** → **Safari** → **일반** → **다운로드**에서 확인할 수 있습니다.
+If you use iCloud with Advanced Data Protection disabled, we also recommend setting Safari's default download location to a local folder on your device. This option can be found in :gear: **Settings** → **Apps** → **Safari** → **General** → **Downloads**.
 
 ## 평가 기준
 

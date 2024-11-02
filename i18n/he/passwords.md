@@ -22,7 +22,7 @@ schema:
       - ווינדוס
       - macOS
       - לינוקס
-      - אנדרואיד
+      - Android
       - iOS
     subjectOf:
       "@context": http://schema.org
@@ -40,7 +40,7 @@ schema:
       - ווינדוס
       - macOS
       - לינוקס
-      - אנדרואיד
+      - Android
       - iOS
     subjectOf:
       "@context": http://schema.org
@@ -54,7 +54,7 @@ schema:
     url: https://proton.me/pass
     applicationCategory: מנהל הסיסמאות
     operatingSystem:
-      - אנדרואיד
+      - Android
       - iOS
     subjectOf:
       "@context": http://schema.org
@@ -68,7 +68,7 @@ schema:
     url: https://psono.com
     applicationCategory: מנהל הסיסמאות
     operatingSystem:
-      - אנדרואיד
+      - Android
       - iOS
     subjectOf:
       "@context": http://schema.org
@@ -97,7 +97,7 @@ schema:
     image: /assets/img/password-management/keepassdx.svg
     url: https://keepassdx.com
     applicationCategory: מנהל הסיסמאות
-    operatingSystem: אנדרואיד
+    operatingSystem: Android
     subjectOf:
       "@context": http://schema.org
       "@type": WebPage
@@ -145,7 +145,7 @@ schema:
 <div class="admonition info" markdown>
 <p class="admonition-title">Info</p>
 
-מנהלי סיסמאות מובנים בתוכנות כמו דפדפנים ומערכות הפעלה אינם טובים לפעמים כמו תוכנות ייעודיות למנהל סיסמאות. היתרון של מנהל סיסמאות מובנה הוא אינטגרציה טובה עם התוכנה, אך לרוב זה יכול להיות פשוט מאוד וחסר תכונות פרטיות ואבטחה שיש להצעות עצמאיות.
+מנהלי סיסמאות מובנים בתוכנות כמו דפדפנים ומערכות הפעלה אינם טובים לפעמים כמו תוכנות ייעודיות למנהל סיסמאות. The advantage of a built-in password manager is good integration with the software, but it can often be very simple and lack privacy and security features that standalone offerings have.
 
 לדוגמה, מנהל הסיסמאות ב-Microsoft Edge אינו מציע E2EE כלל. Google's password manager has [optional](https://support.google.com/accounts/answer/11350823) E2EE, and [Apple's](https://support.apple.com/HT202303) offers E2EE by default.
 
@@ -165,7 +165,7 @@ schema:
 
 [:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://bitwarden.com/help){ .card-link title=Documentation}
+[:octicons-info-16:](https://bitwarden.com/help){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -173,7 +173,7 @@ schema:
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1137397744)
-- [:simple-github: GitHub](https://github.com/bitwarden/mobile/releases)
+- [:simple-github: GitHub](https://github.com/bitwarden/android/releases)
 - [:fontawesome-brands-windows: Windows](https://bitwarden.com/download)
 - [:simple-linux: Linux](https://bitwarden.com/download)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/com.bitwarden.desktop)
@@ -194,9 +194,9 @@ Bitwarden's server-side code is [open source](https://github.com/bitwarden/serve
 
 **Vaultwarden** is an alternative implementation of Bitwarden's sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy official service might not be ideal. אם אתם מחפשים לארח את Bitwarden באופן עצמאי בשרת שלכם, קרוב לוודאי שתרצו להשתמש ב-Vaultwarden על פני קוד השרת הרשמי של Bitwarden.
 
-[:octicons-repo-16: Vaultwarden מאגר](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title=תיעוד}
-[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="קוד מקור" }
-[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title=לתרומה }
+[:octicons-repo-16: Vaultwarden Repository](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title="Contribute" }
 
 ### Proton Pass
 
@@ -208,7 +208,7 @@ Bitwarden's server-side code is [open source](https://github.com/bitwarden/serve
 
 [:octicons-home-16: Homepage](https://proton.me/pass){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/pass){ .card-link title="Documentation"}
+[:octicons-info-16:](https://proton.me/support/pass){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/protonpass){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -242,11 +242,11 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 
 ![1Password logo](assets/img/password-management/1password.svg){ align=right }
 
-**1Password** is a password manager with a strong focus on security and ease-of-use, which allows you to store passwords, passkeys, credit cards, software licenses, and any other sensitive information in a secure digital vault. Your vault is hosted on 1Password's servers for a [monthly fee](https://1password.com/sign-up). 1Password is [audited](https://support.1password.com/security-assessments) on a regular basis and provides exceptional customer support. 1Password הוא מקור סגור; עם זאת, האבטחה של המוצר מתועדת ביסודיות ב[מסמך האבטחה הלבן](https://1passwordstatic.com/files/security/1password-white-paper.pdf) שלהם.
+**1Password** is a password manager with a strong focus on security and ease-of-use that allows you to store passwords, passkeys, credit cards, software licenses, and any other sensitive information in a secure digital vault. Your vault is hosted on 1Password's servers for a [monthly fee](https://1password.com/sign-up). 1Password is [audited](https://support.1password.com/security-assessments) on a regular basis and provides exceptional customer support. 1Password הוא מקור סגור; עם זאת, האבטחה של המוצר מתועדת ביסודיות ב[מסמך האבטחה הלבן](https://1passwordstatic.com/files/security/1password-white-paper.pdf) שלהם.
 
 [:octicons-home-16: Homepage](https://1password.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.1password.com){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.1password.com){ .card-link title="Documentation" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -266,7 +266,7 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 
 </div>
 
-Traditionally, 1Password has offered the best password manager user experience for people using macOS and iOS; however, it has now achieved feature-parity across all platforms. 1Password's clients boast many features geared towards families and less technical people, such as an intuitive UI for ease of use and navigation, as well as advanced functionality. Notably, nearly every feature of 1Password is available within its native mobile or desktop clients.
+Traditionally, 1Password has offered the best password manager user experience for people using macOS and iOS; however, it has now achieved feature parity across all platforms. 1Password's clients boast many features geared towards families and less technical people, such as an intuitive UI for ease of use and navigation, as well as advanced functionality. Notably, nearly every feature of 1Password is available within its native mobile or desktop clients.
 
 כספת 1Password שלך מאובטחת גם עם סיסמת האב שלך וגם עם מפתח אבטחה אקראי בן 34 תווים כדי להצפין את הנתונים שלך בשרתים שלהם. מפתח אבטחה זה מוסיף שכבת הגנה לנתונים שלך מכיוון שהנתונים שלך מאובטחים באנטרופיה גבוהה ללא קשר לסיסמת המאסטר שלך. פתרונות רבים אחרים של מנהל סיסמאות תלויים לחלוטין בחוזקה של סיסמת המאסטר שלך כדי לאבטח את הנתונים שלך.
 
@@ -280,7 +280,7 @@ Traditionally, 1Password has offered the best password manager user experience f
 
 [:octicons-home-16: Homepage](https://psono.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://doc.psono.com){ .card-link title=Documentation}
+[:octicons-info-16:](https://doc.psono.com){ .card-link title="Documentation" }
 [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -308,7 +308,7 @@ In April 2024, Psono added [support for passkeys](https://psono.com/blog/psono-i
 
 - חייב להשתמש ב-E2EE חזק, מבוסס תקנים/מודרני.
 - חייב להיות מתועד ביסודיות נוהלי הצפנה ואבטחה.
-- חייב להיות ביקורת שפורסמה מצד שלישי מכובד ובלתי תלוי.
+- Must have a published audit from a reputable, independent third party.
 - כל טלמטריה לא חיונית חייבת להיות אופציונלית.
 - אסור לאסוף יותר PII ממה שנדרש למטרות חיוב.
 
@@ -333,9 +333,9 @@ In April 2024, Psono added [support for passkeys](https://psono.com/blog/psono-i
 
 [:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://keepassxc.org/docs){ .card-link title=Documentation}
+[:octicons-info-16:](https://keepassxc.org/docs){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title=Contribute }
+[:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -351,7 +351,7 @@ In April 2024, Psono added [support for passkeys](https://psono.com/blog/psono-i
 
 </div>
 
-KeePassXC מאחסן את נתוני הייצוא שלו כקובצי [CSV](https://en.wikipedia.org/wiki/Comma-separated_values). המשמעות עשויה להיות אובדן נתונים אם אתה מייבא קובץ זה למנהל סיסמאות אחר. אנו ממליצים לך לבדוק כל רשומה באופן ידני.
+KeePassXC מאחסן את נתוני הייצוא שלו כקובצי [CSV](https://en.wikipedia.org/wiki/Comma-separated_values). You may encounter data loss if you import this file into another password manager. אנו ממליצים לך לבדוק כל רשומה באופן ידני.
 
 ### KeePassDX (אנדרואיד)
 
@@ -362,9 +362,9 @@ KeePassXC מאחסן את נתוני הייצוא שלו כקובצי [CSV](http
 **KeePassDX** is a lightweight password manager for Android; it allows for editing encrypted data in a single file in KeePass format and can fill in forms in a secure way. The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) of the app allows you to unlock cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
 
 [:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title=Contribute }
+[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -386,9 +386,9 @@ KeePassXC מאחסן את נתוני הייצוא שלו כקובצי [CSV](http
 
 [:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://strongboxsafe.com/getting-started){ .card-link title=Documentation}
+[:octicons-info-16:](https://strongboxsafe.com/getting-started){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Contribute }
+[:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -399,7 +399,7 @@ KeePassXC מאחסן את נתוני הייצוא שלו כקובצי [CSV](http
 
 </div>
 
-Additionally, there is an offline-only version offered: [Strongbox Zero](https://apps.apple.com/app/id1581589638). גרסה זו מופשטת בניסיון לצמצם את שטח התקיפה.
+Additionally, Strongbox offers an offline-only version: [Strongbox Zero](https://apps.apple.com/app/id1581589638). גרסה זו מופשטת בניסיון לצמצם את שטח התקיפה.
 
 ### gopass (CLI)
 
@@ -407,12 +407,12 @@ Additionally, there is an offline-only version offered: [Strongbox Zero](https:/
 
 ![gopass logo](assets/img/password-management/gopass.svg){ align=right }
 
-**gopass** is a minimal password manager for the command line written in Go. It can be used within scripting applications and works on all major desktop and server operating systems (Linux, macOS, BSD, Windows).
+**gopass** is a minimal password manager for the command line written in Go. It can be used within scripting applications and works on all major desktop and server operating systems.
 
 [:octicons-home-16: Homepage](https://gopass.pw){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribute }
+[:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -426,7 +426,6 @@ Additionally, there is an offline-only version offered: [Strongbox Zero](https:/
 
 </div>
 
-<!-- markdownlint-disable-next-line -->
 ### קריטריונים
 
 **שימו לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם.** בנוסף ל[קריטריונים הסטנדרטיים שלנו](about/criteria.md), פיתחנו מערכת ברורה של דרישות כדי לאפשר לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.

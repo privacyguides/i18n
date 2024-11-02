@@ -84,7 +84,7 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
     Recomendamos **Safari** por sus funciones [anti-huella digital](https://webkit.org/blog/15697/private-browsing-2-0/) y el bloqueo de rastreadores por defecto. También separa sus cookies en el modo de navegación privada para evitar el seguimiento entre pestañas.
 
-    - [Lea la Reseña Completa :material-arrow-right-drop-circle:](mobile-browsers.md#safari)
+    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 
 </div>
 

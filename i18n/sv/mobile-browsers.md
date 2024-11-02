@@ -233,7 +233,7 @@ I iOS är alla appar som kan surfa på webben [](https://developer.apple.com/app
 
 ![Safari-logotyp](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** är standardwebbläsaren i iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical) as well as fingerprint randomization, and Private Relay for those with a paid iCloud+ subscription. It also allows you to separate your browsing with different profiles and lock private tabs with your biometrics/PIN.
+**Safari** är standardwebbläsaren i iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
 
 [:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
@@ -247,35 +247,33 @@ I iOS är alla appar som kan surfa på webben [](https://developer.apple.com/app
 
 We would suggest installing [AdGuard](browser-extensions.md#adguard) if you want a content blocker in Safari.
 
-Följande integritet- och säkerhetsrelaterade inställningar kan hittas under :gear:**Inställningar** → **Safari**
+The following privacy/security-related options can be found in :gear: **Settings** → **Apps** → **Safari**.
 
 #### Profiler
 
-Alla webbplatskakor, historik och webbplats data kommer att vara separata för varje profil. Du borde använda olika profiler för olika ändamål, t.ex. Shopping, Arbete, eller Studier.
+Safari allows you to separate your browsing with different profiles. All of your cookies, history, and website data are separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
 
 #### Integritet & Säkerhet
 
-- [x] Aktivera **Förhindra spårning på andra webbplatser**
+- [x] Enable **Prevent Cross-Site Tracking**
 
-    Detta aktiverar WebKits [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). Funktionen hjälper till att skydda mot oönskad spårning genom att använda maskininlärning på enheten för att stoppa spårare. ITP skyddar mot många vanliga hot, men blockerar inte alla spårningsvägar eftersom den är utformad för att inte störa användbarheten av webbplatser.
+This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but does not block all tracking avenues because it is designed to not interfere with website usability.
 
-- [x] Aktivera **Kräv Face ID för att Låsa upp Privat Surfning**
+- [x] Enable **Require Face ID/Touch ID to Unlock Private Browsing**
 
-    Den här inställningen låter dig låsa dina privata flikar med biometrik/PIN när de inte används.
+This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
 
-#### Avancerat → Sekretess
+#### Other Privacy Settings
+
+These options can be found in :gear: **Settings** → **Apps** → **Safari** → **Advanced**.
+
+##### Fingerprinting Mitigations
 
 The **Advanced Tracking and Fingerprinting Protection** setting will randomize certain values so that it's more difficult to fingerprint you:
 
 - [x] Select **All Browsing** or **Private Browsing**
 
-#### Integritetsrapport
-
-Privacy Report ger en ögonblicksbild av de spårare som för närvarande förhindras från att profilera dig på den webbplats du besöker. Den kan också visa en veckorapport som visar vilka spårare som har blockerats över tid.
-
-Rapporten om sekretess är tillgänglig via menyn Sidinställningar.
-
-#### Sekretessbevarande annonsmätning
+##### Sekretessbevarande annonsmätning
 
 - [ ] Inaktivera **Integritetsbevarande annonsmätning**
 
@@ -285,23 +283,23 @@ Funktionen har i sig själv inga större problem med integriteten, så även om 
 
 #### Alltid privat surfning
 
-Öppna Safari och tryck på knappen Flikar längst ner till höger. Expandera sedan listan Flikgrupper.
+Öppna Safari och tryck på knappen Flikar längst ner till höger. Then, expand the :material-format-list-bulleted: Tab Groups list.
 
 - [x] Välj **Rensa uppgifter vid avslut**
 
 Safaris läge för privat surfning ger ytterligare skydd för privatlivet. Privat surfning använder en ny [tillfällig](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) -session för varje flik, vilket innebär att flikarna är isolerade från varandra. Det finns också andra mindre sekretessfördelar med privat surfning, till exempel att inte skicka en webbsidas adress till Apple när du använder Safaris översättningsfunktion.
 
-Observera att privat surfning inte sparar cookies och webbplatsdata, så det är inte möjligt att vara inloggad på webbplatser. Detta kan vara en olägenhet.
+Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed in to sites. Detta kan vara en olägenhet.
 
 #### iCloud-synkronisering
 
 Synkronisering av Safari-historik, flikgrupper, iCloud-flikar och sparade lösenord är E2EE. Bokmärken är [inte](https://support.apple.com/HT202303) förinställt krypterade. Apple kan dekryptera och komma åt dem, enligt deras [integritetspolicy](https://apple.com/legal/privacy/en-ww).
 
-Du kan aktivera E2EE för Safaribokmärken och nedladdningar genom att aktivera [Avancerat dataskydd](https://support.apple.com/HT212520). Gå till ditt **Apple-ID-namn → iCloud → Avancerat dataskydd**.
+Du kan aktivera E2EE för Safaribokmärken och nedladdningar genom att aktivera [Avancerat dataskydd](https://support.apple.com/HT212520). Go to :gear: **Settings** → **iCloud** → **Advanced Data Protection**.
 
-- [x] Aktivera **Avancerat dataskydd**
+- [x] Turn on **Advanced Data Protection**
 
-Om du använder iCloud med avancerat dataskydd inaktiverat rekommenderar vi också att du kontrollerar att Safaris standardhämtningsplats är inställd på lokalt på din enhet. Detta alternativ finns i :gear: **Inställningar** → **Safari** → **Allmänt** → **Nedladdningar**.
+If you use iCloud with Advanced Data Protection disabled, we also recommend setting Safari's default download location to a local folder on your device. This option can be found in :gear: **Settings** → **Apps** → **Safari** → **General** → **Downloads**.
 
 ## Kriterier
 

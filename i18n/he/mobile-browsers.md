@@ -233,7 +233,7 @@ Because Mull has more advanced and strict privacy protections enabled by default
 
 ![Safari לוגו](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** הוא דפדפן ברירת המחדל ב - iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), Privacy Report, isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical) as well as fingerprint randomization, and Private Relay for those with a paid iCloud+ subscription. It also allows you to separate your browsing with different profiles and lock private tabs with your biometrics/PIN.
+**Safari** הוא דפדפן ברירת המחדל ב - iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
 
 [:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
@@ -247,35 +247,33 @@ Because Mull has more advanced and strict privacy protections enabled by default
 
 We would suggest installing [AdGuard](browser-extensions.md#adguard) if you want a content blocker in Safari.
 
-The following privacy/security-related options can be found in the :gear: **Settings** app → **Safari**
+The following privacy/security-related options can be found in :gear: **Settings** → **Apps** → **Safari**.
 
 #### Profiles
 
-All of your cookies, history, and website data will be separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
+Safari allows you to separate your browsing with different profiles. All of your cookies, history, and website data are separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
 
 #### פרטיות& אבטחה
 
-- [x] אפשר **מנע מעקב בין אתרים**
+- [x] Enable **Prevent Cross-Site Tracking**
 
-    זה מאפשר [הגנת מעקב אינטליגנטי](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp) של WebKit. התכונה מסייעת בהגנה מפני מעקב לא רצוי על ידי שימוש בלמידת מכונה במכשיר כדי לעצור עוקבים. ITP מגן מפני איומים נפוצים רבים, אך הוא אינו חוסם את כל אפיקי המעקב מכיוון שהוא נועד לא להפריע לשימושיות האתר.
+This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but does not block all tracking avenues because it is designed to not interfere with website usability.
 
-- [x] Enable **Require Face ID to Unlock Private Browsing**
+- [x] Enable **Require Face ID/Touch ID to Unlock Private Browsing**
 
-    This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
+This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
 
-#### Advanced → Privacy
+#### Other Privacy Settings
+
+These options can be found in :gear: **Settings** → **Apps** → **Safari** → **Advanced**.
+
+##### Fingerprinting Mitigations
 
 The **Advanced Tracking and Fingerprinting Protection** setting will randomize certain values so that it's more difficult to fingerprint you:
 
 - [x] Select **All Browsing** or **Private Browsing**
 
-#### דוח פרטיות
-
-דוח הפרטיות מספק תמונה של עוקבים חוצי אתרים שכרגע מונעים ממך ליצור פרופיל באתר שבו אתה מבקר. הוא יכול גם להציג דוח שבועי כדי להראות אילו עוקבים נחסמו לאורך זמן.
-
-ניתן לגשת לדוח הפרטיות דרך התפריט 'הגדרות דף '.
-
-#### שמירת הפרטיות של מדידת המודעות
+##### שמירת הפרטיות של מדידת המודעות
 
 - [ ] השבת **פרטיות שמירה על מדידת מודעות**
 
@@ -285,23 +283,23 @@ The **Advanced Tracking and Fingerprinting Protection** setting will randomize c
 
 #### גלישה פרטית תמיד
 
-פתח את Safari והקש על כפתור הכרטיסיות, הממוקם בפינה השמאלית התחתונה. לאחר מכן, הרחב את רשימת קבוצות הכרטיסיות.
+פתח את Safari והקש על כפתור הכרטיסיות, הממוקם בפינה השמאלית התחתונה. Then, expand the :material-format-list-bulleted: Tab Groups list.
 
 - [x] בחר **פרטי**
 
 מצב הגלישה הפרטית של Safari מציע הגנות פרטיות נוספות. גלישה פרטית משתמשת בהפעלה חדשה [>חולפת](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) עבור כל כרטיסייה, כלומר כרטיסיות מבודדות זו מזו. יש גם יתרונות פרטיות קטנים יותר עם גלישה פרטית, כגון אי שליחת כתובת של דף אינטרנט לאפל בעת שימוש בתכונת התרגום של Safari.
 
-שימו לב שגלישה פרטית אינה שומרת קובצי עוגיות ונתוני אתר, כך שלא ניתן יהיה להישאר מחובר לאתרים. זה עשוי להיות אי נוחות.
+Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed in to sites. זה עשוי להיות אי נוחות.
 
 #### iCloud Sync
 
 סנכרון של היסטוריית ספארי, קבוצות כרטיסיות, כרטיסיות iCloud וסיסמאות שמורות הם E2EE. However, by default, bookmarks are [not](https://support.apple.com/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://apple.com/legal/privacy/en-ww).
 
-You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/HT212520). עבור אל **שם Apple ID שלך ← iCloud ← הגנת נתונים מתקדמת**.
+You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/HT212520). Go to :gear: **Settings** → **iCloud** → **Advanced Data Protection**.
 
-- [x] הפעל **הגנת נתונים מתקדמת**
+- [x] Turn on **Advanced Data Protection**
 
-אם אתה משתמש ב-iCloud עם הגנת נתונים מתקדמת מושבתת, אנו ממליצים גם לבדוק כדי לוודא שמיקום ההורדה המוגדר כברירת מחדל של Safari מוגדר באופן מקומי במכשיר שלך. ניתן למצוא אפשרות זו ב -:gear: **הגדרות** ← **Safari** ← **כללי** ← **הורדות**.
+If you use iCloud with Advanced Data Protection disabled, we also recommend setting Safari's default download location to a local folder on your device. This option can be found in :gear: **Settings** → **Apps** → **Safari** → **General** → **Downloads**.
 
 ## קריטריונים
 

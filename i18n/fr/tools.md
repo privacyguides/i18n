@@ -84,7 +84,7 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 
     Nous recommandons **Safari** en raison de ses fonctionnalités [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0/) et de son blocage par défaut des traceurs. It also separates your cookies in private browsing mode to prevent tracking between tabs.
 
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari)
+    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 
 </div>
 

@@ -233,7 +233,7 @@ Mull 隨附預設配置的隱私保護設定。 如果想在退出應用程式�
 
 ![Safari 標誌](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** 是 iOS 預設瀏覽器。 它包括 [隱私功能](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios)，例如 [智慧型追蹤防護](https://webkit.org/blog/7675/intelligent-tracking-prevention)、隱私報告、隔離且短暫的私人瀏覽標籤、指紋保護 (透過向網站呈現簡化版的系統組態，讓更多裝置看起來完全相同) 以及指紋隨機化，並針對已付費訂閱 iCloud+ 的使用者提供 Private Relay。 它還允許您使用不同的設定檔來分開瀏覽，並使用您的生物特徵/PIN 鎖定隱私瀏覽。
+**Safari** 是 iOS 預設瀏覽器。 It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
 
 [:octicons-home-16: 首頁](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="隱私權政策" }
@@ -247,35 +247,33 @@ Mull 隨附預設配置的隱私保護設定。 如果想在退出應用程式�
 
 如果您想要在 Safari 中使用內容阻擋器，我們建議您安裝[AdGuard](browser-extensions.md#adguard)。
 
-可以在 :gear: **Settings** app → **Safari** 中找到以下與隱私/安全相關的選項。
+The following privacy/security-related options can be found in :gear: **Settings** → **Apps** → **Safari**.
 
 #### 主題類別
 
-您的所有 Cookie、歷史記錄和網站資料將會針對各個主題類別分開。 您應該為不同用途使用不同的主題類別，例如購物、工作或學校。
+Safari allows you to separate your browsing with different profiles. All of your cookies, history, and website data are separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
 
 #### 隱私 & 安全
 
-- [x] 啓用 **防止跨網站跟蹤**
+- [x] Enable **Prevent Cross-Site Tracking**
 
-    這將啟用 WebKit 的[智慧追蹤預防](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp)。 該功能利用裝置上的機器學習來阻止跟蹤器不必要的跟蹤。 智慧追蹤預防可保護您免於許多常見威脅，但它不能阻止所有追蹤途徑，因為它被設計為不會干擾網站的可用性。
+This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but does not block all tracking avenues because it is designed to not interfere with website usability.
 
-- [x] 啟用 **需要密碼來解鎖私密瀏覽**
+- [x] Enable **Require Face ID/Touch ID to Unlock Private Browsing**
 
-    此設定可在私密瀏覽分頁未使用時使用 生物辨識資訊/PIN 鎖定。
+This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
 
-#### 進階 → 隱私權
+#### Other Privacy Settings
+
+These options can be found in :gear: **Settings** → **Apps** → **Safari** → **Advanced**.
+
+##### Fingerprinting Mitigations
 
 **進階追蹤和指紋保護** 設定將隨機化某些值，可使網站更難以進行指紋辨識：
 
 - [x] 選擇 **所有瀏覽** 或 **私密瀏覽**
 
-#### 隱私報告
-
-隱私報告提供跨網站追蹤器的快照，瀏覽器如何防止追蹤器在您訪問的網站上分析您的狀況。 它還可以顯示每週報告，以顯示哪些追蹤器隨著時間的推移被封鎖。
-
-隱私權報告可透過「頁面設定」選單存取。
-
-#### 維護隱私權廣告測量
+##### 維護隱私權廣告測量
 
 - [ ] 停用 **維護隱私權廣告測量**
 
@@ -285,23 +283,23 @@ Mull 隨附預設配置的隱私保護設定。 如果想在退出應用程式�
 
 #### 總是保持私密瀏覽
 
-開啟 Safari ，然後點按右下角的「標籤」按鈕。 然後，展開分頁群組清單。
+開啟 Safari ，然後點按右下角的「標籤」按鈕。 Then, expand the :material-format-list-bulleted: Tab Groups list.
 
 - [x] 選擇 **私密瀏覽**
 
 Safar i的私密瀏覽模式提供額外的隱私保護。 私密瀏覽為每個分頁使用新的[短暫](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral)工作階段，這意味著各個分頁之間是隔離的。 隱私瀏覽還有其他較小的隱私優勢，例如在使用 Safari 的翻譯功能時，不會將網頁地址傳送給 Apple。
 
-請注意，私密瀏覽不會保存 Cookies 和網站資料，因此無法保持登入狀態。 這可能會帶來不便。
+Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed in to sites. 這可能會帶來不便。
 
 #### iCloud 同步
 
 Safari 的歷史記錄、分頁群組、iCloud 分頁和已儲存密碼的同步都採用 E2EE 加密。 但預設情況下，書籤[並非如此](https://support.apple.com/HT202303)。 Apple 可以根據其[隱私權政策](https://apple.com/legal/privacy/en-ww)解密並存取它們。
 
-您可以為 Safari 書籤和下載啟用 E2EE ，只需啟用「[進階資料防護](https://support.apple.com/HT212520)」即可。 請前往您的 **Apple ID 名稱 → iCloud → 進階資料保護**。
+您可以為 Safari 書籤和下載啟用 E2EE ，只需啟用「[進階資料防護](https://support.apple.com/HT212520)」即可。 Go to :gear: **Settings** → **iCloud** → **Advanced Data Protection**.
 
-- [x] 開啟 「**進階資料保護**」
+- [x] Turn on **Advanced Data Protection**
 
-如果您在不開啟「進階資料保護」的情況下使用 iCloud ，我們亦建議您檢查，確保 Safari 預設下載位置已設定為裝置上的本機位置。 此選項可在 :gear: **設定** → **Safari** → **一般** → **下載**中找到。
+If you use iCloud with Advanced Data Protection disabled, we also recommend setting Safari's default download location to a local folder on your device. This option can be found in :gear: **Settings** → **Apps** → **Safari** → **General** → **Downloads**.
 
 ## 標準
 

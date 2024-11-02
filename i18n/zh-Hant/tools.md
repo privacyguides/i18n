@@ -84,7 +84,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
     我們推薦 **Safari** ，因為它具有 [防指紋](https://webkit.org/blog/15697/private-browsing-2-0/) 功能和預設的追蹤程式封鎖功能。 它還會在私密瀏覽模式中分隔您開啟分頁的 cookies，以防止在標籤頁之間進行追蹤。
 
-    - [閱讀完整評論 :material-arrow-right-drop-circle:](mobile-browsers.md#safari)
+    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 
 </div>
 

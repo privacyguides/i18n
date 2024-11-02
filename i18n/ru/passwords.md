@@ -145,7 +145,7 @@ schema:
 <div class="admonition info" markdown>
 <p class="admonition-title">Инфо.</p>
 
-Встроенные менеджеры паролей, например в браузерах и операционных системах, иногда не так хороши, как специализированные программы для управления паролями. Преимуществом встроенных менеджеров паролей является хорошая интеграция с программным обеспечением, но зачастую они могут быть очень простыми и не иметь функций конфиденциальности и безопасности, которыми обладают отдельные программы.
+Встроенные менеджеры паролей, например в браузерах и операционных системах, иногда не так хороши, как специализированные программы для управления паролями. The advantage of a built-in password manager is good integration with the software, but it can often be very simple and lack privacy and security features that standalone offerings have.
 
 Например, менеджер паролей в Microsoft Edge вообще не поддерживает E2EE. Google's password manager has [optional](https://support.google.com/accounts/answer/11350823) E2EE, and [Apple's](https://support.apple.com/HT202303) offers E2EE by default.
 
@@ -165,7 +165,7 @@ schema:
 
 [:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://bitwarden.com/help){ .card-link title=Documentation}
+[:octicons-info-16:](https://bitwarden.com/help){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -173,7 +173,7 @@ schema:
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1137397744)
-- [:simple-github: GitHub](https://github.com/bitwarden/mobile/releases)
+- [:simple-github: GitHub](https://github.com/bitwarden/android/releases)
 - [:fontawesome-brands-windows: Windows](https://bitwarden.com/download)
 - [:simple-linux: Linux](https://bitwarden.com/download)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/com.bitwarden.desktop)
@@ -194,9 +194,9 @@ Bitwarden's server-side code is [open source](https://github.com/bitwarden/serve
 
 **Vaultwarden** is an alternative implementation of Bitwarden's sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy official service might not be ideal. Если вы хотите самостоятельно развернуть Bitwarden на своем сервере, скорее всего, вам стоит использовать Vaultwarden вместо официального сервера Bitwarden.
 
-[:octicons-repo-16: Репозиторий Vaultwarden](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title=Документация}
-[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Исходный код" }
-[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title=Поддержать }
+[:octicons-repo-16: Vaultwarden Repository](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title="Contribute" }
 
 ### Proton Pass
 
@@ -208,7 +208,7 @@ Bitwarden's server-side code is [open source](https://github.com/bitwarden/serve
 
 [:octicons-home-16: Homepage](https://proton.me/pass){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/pass){ .card-link title="Documentation"}
+[:octicons-info-16:](https://proton.me/support/pass){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/protonpass){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -242,11 +242,11 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 
 ![1Password logo](assets/img/password-management/1password.svg){ align=right }
 
-**1Password** is a password manager with a strong focus on security and ease-of-use, which allows you to store passwords, passkeys, credit cards, software licenses, and any other sensitive information in a secure digital vault. Your vault is hosted on 1Password's servers for a [monthly fee](https://1password.com/sign-up). 1Password is [audited](https://support.1password.com/security-assessments) on a regular basis and provides exceptional customer support. 1Password имеет закрытый исходный код, но безопасность продукта подробно описана в их [технической документации по безопасности](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
+**1Password** is a password manager with a strong focus on security and ease-of-use that allows you to store passwords, passkeys, credit cards, software licenses, and any other sensitive information in a secure digital vault. Your vault is hosted on 1Password's servers for a [monthly fee](https://1password.com/sign-up). 1Password is [audited](https://support.1password.com/security-assessments) on a regular basis and provides exceptional customer support. 1Password имеет закрытый исходный код, но безопасность продукта подробно описана в их [технической документации по безопасности](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
 
 [:octicons-home-16: Homepage](https://1password.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.1password.com){ .card-link title=Documentation}
+[:octicons-info-16:](https://support.1password.com){ .card-link title="Documentation" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -266,7 +266,7 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 
 </div>
 
-Traditionally, 1Password has offered the best password manager user experience for people using macOS and iOS; however, it has now achieved feature-parity across all platforms. 1Password's clients boast many features geared towards families and less technical people, such as an intuitive UI for ease of use and navigation, as well as advanced functionality. Notably, nearly every feature of 1Password is available within its native mobile or desktop clients.
+Traditionally, 1Password has offered the best password manager user experience for people using macOS and iOS; however, it has now achieved feature parity across all platforms. 1Password's clients boast many features geared towards families and less technical people, such as an intuitive UI for ease of use and navigation, as well as advanced functionality. Notably, nearly every feature of 1Password is available within its native mobile or desktop clients.
 
 Ваше хранилище 1Password защищено одновременно мастер-паролем и случайным 34-символьным ключом безопасности для шифрования данных на серверах. Этот ключ добавляет вашим данным дополнительную защиту: они зашифрованы с высокой энтропией независимо от безопасности вашего мастер-пароля. Многие другие решения для управления паролями полностью полагаются на безопасность мастер-пароля для защиты ваших данных.
 
@@ -280,7 +280,7 @@ Traditionally, 1Password has offered the best password manager user experience f
 
 [:octicons-home-16: Homepage](https://psono.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://doc.psono.com){ .card-link title=Documentation}
+[:octicons-info-16:](https://doc.psono.com){ .card-link title="Documentation" }
 [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -308,7 +308,7 @@ In April 2024, Psono added [support for passkeys](https://psono.com/blog/psono-i
 
 - Должны использовать сильное, современное/стандартизированное E2EE.
 - Должны иметь тщательно документированные методы шифрования и обеспечения безопасности.
-- Должен иметь опубликованный аудит от авторитетной, независимой третьей стороны.
+- Must have a published audit from a reputable, independent third party.
 - Вся телеметрия, не критичная для работы сервиса, должна быть необязательной.
 - Не должны собирать больше ПД, чем необходимо для проведения оплаты.
 
@@ -333,9 +333,9 @@ In April 2024, Psono added [support for passkeys](https://psono.com/blog/psono-i
 
 [:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://keepassxc.org/docs){ .card-link title=Documentation}
+[:octicons-info-16:](https://keepassxc.org/docs){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title=Contribute }
+[:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -351,7 +351,7 @@ In April 2024, Psono added [support for passkeys](https://psono.com/blog/psono-i
 
 </div>
 
-KeePassXC хранит экспортированные данные в виде [CSV](https://ru.wikipedia.org/wiki/CSV) файлов. При импортировании этого файла в другой менеджер паролей, вы можете потерять часть данных. Мы советуем вам проверять каждую запись вручную.
+KeePassXC хранит экспортированные данные в виде [CSV](https://ru.wikipedia.org/wiki/CSV) файлов. You may encounter data loss if you import this file into another password manager. Мы советуем вам проверять каждую запись вручную.
 
 ### KeePassDX (Android)
 
@@ -362,9 +362,9 @@ KeePassXC хранит экспортированные данные в виде
 **KeePassDX** is a lightweight password manager for Android; it allows for editing encrypted data in a single file in KeePass format and can fill in forms in a secure way. The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) of the app allows you to unlock cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
 
 [:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title=Contribute }
+[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -386,9 +386,9 @@ KeePassXC хранит экспортированные данные в виде
 
 [:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://strongboxsafe.com/getting-started){ .card-link title=Documentation}
+[:octicons-info-16:](https://strongboxsafe.com/getting-started){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title=Contribute }
+[:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -399,7 +399,7 @@ KeePassXC хранит экспортированные данные в виде
 
 </div>
 
-Additionally, there is an offline-only version offered: [Strongbox Zero](https://apps.apple.com/app/id1581589638). Эта версия урезана, чтобы уменьшить площадь атаки.
+Additionally, Strongbox offers an offline-only version: [Strongbox Zero](https://apps.apple.com/app/id1581589638). Эта версия урезана, чтобы уменьшить площадь атаки.
 
 ### gopass (CLI)
 
@@ -407,12 +407,12 @@ Additionally, there is an offline-only version offered: [Strongbox Zero](https:/
 
 ![gopass logo](assets/img/password-management/gopass.svg){ align=right }
 
-**gopass** is a minimal password manager for the command line written in Go. It can be used within scripting applications and works on all major desktop and server operating systems (Linux, macOS, BSD, Windows).
+**gopass** is a minimal password manager for the command line written in Go. It can be used within scripting applications and works on all major desktop and server operating systems.
 
 [:octicons-home-16: Homepage](https://gopass.pw){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribute }
+[:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -426,7 +426,6 @@ Additionally, there is an offline-only version offered: [Strongbox Zero](https:/
 
 </div>
 
-<!-- markdownlint-disable-next-line -->
 ### Критерии
 
 **Обратите внимание, что у нас нет связей ни с одним из проектов, которые мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md)мы разработали четкий набор требований, позволяющий нам давать объективные рекомендации. Мы рекомендуем вам ознакомиться с этим списком, прежде чем выбрать программу, и провести самостоятельное исследование, чтобы убедиться, что это правильный выбор для вас.

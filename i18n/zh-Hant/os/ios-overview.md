@@ -10,7 +10,7 @@ description: 蘋果公司使用 Unix 作業系統來開發macOS 支援自家的 
 
 iOS 設備因其強大的資料保護和對現代最佳作法的遵守而受到安全專家的讚揚。 然而，Apple 生態系統的限制性——尤其是移動設備——仍然在很多方面阻礙了隱私。
 
-我們認為，與任何製造商的庫存 Android 設備相比，iOS 為大多數人提供了水平之上的隱私和安全保護。 不過，如希望或需要完全獨立於 Apple 或 Google 雲端服務，您可以使用 GrapheneOS 等 [自訂 Android 作業系統](../android/distributions.md#aosp-derivatives) 來實現更高的隱私標準。
+我們認為，與任何製造商的庫存 Android 設備相比，iOS 為大多數人提供了水平之上的隱私和安全保護。 However, you can achieve even higher standards of privacy with a [custom Android operating system](../android/distributions.md) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
 
 ### 激活鎖
 
@@ -18,7 +18,7 @@ iOS 設備因其強大的資料保護和對現代最佳作法的遵守而受到�
 
 ### 強制的 App Store
 
-iOS 上應用的唯一來源是 Apple App Store，需要 Apple ID 才能訪問。 這意味著 Apple 擁有您在設備上安裝的每個應用記錄，且如果向 App Store 提供付款方式，則可能會將該資訊與您的實際身份聯繫起來。
+The only source for apps on iOS is Apple's App Store, which requires an Apple Account to access. 這意味著 Apple 擁有您在設備上安裝的每個應用記錄，且如果向 App Store 提供付款方式，則可能會將該資訊與您的實際身份聯繫起來。
 
 ### 侵入式遙測
 
@@ -27,6 +27,8 @@ iOS 上應用的唯一來源是 Apple App Store，需要 Apple ID 才能訪問�
 最近，人們發現 Apple [即使禁用分析共享， iOS 也會傳輸分析數據 ](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) ，儘管宣稱已匿名處理，這些數據[似乎](https://twitter.com/mysk_co/status/1594515229915979776)很容易連結到唯一的 iCloud 帳戶標識符。
 
 ## 建議的設定
+
+**Note:** This guide assumes that you're running the latest version of iOS.
 
 ### iCloud
 
@@ -48,7 +50,7 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 #### 媒體 & 購買項目
 
-在「 **設定** 」應用程式的頂部，如果您已登入 Apple ID，便會看到您的姓名和個人資料相片。 選擇該項，然後選擇**媒體 & 購買** > **查看帳戶**。
+At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple Account. Select that, then select **Media & Purchases** → **View Account**.
 
 - [ ] 關閉 **個人化推薦**
 
@@ -61,7 +63,7 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 設備有連線且遠程使用“尋找 iPhone”來定位您的設備，則位置資料不是 E2EE。 您必須決定權衡是否值得激活防盜鎖。
 
-在「 **設定** 」應用程式的頂部，如果您已登入 Apple ID，便會看到您的姓名和個人資料相片。 選取這項然後再選 **尋找**。 此處您可以選擇是否啟用或禁用“查找設備”功能。
+At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple Account. 選取這項然後再選 **尋找**。 此處您可以選擇是否啟用或禁用“查找設備”功能。
 
 ### 設定
 
@@ -73,9 +75,9 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 #### Wi-Fi
 
-您可以啟用硬體位址隨機化功能，以保護您免受跨 Wi-Fi 網路的追蹤。 在您目前連線的網路上，按下 :material-information: 按鈕：
+You can enable [hardware address randomization](https://support.apple.com/en-us/102509#triswitch) to protect you from tracking across Wi-Fi networks, and on the same network over time. On the network you are currently connected to, tap the :material-information: button:
 
-- [x] 打開 **專用 Wi-Fi 地址**
+- [x] Set **Private Wi-Fi Address** to **Fixed** or **Rotating**
 
 您也可以選擇 **限制 IP 位址追蹤**。 這與 iCloud Private Relay 類似，但僅影響與“已知跟踪器”的連接。 因為它只影響與潛在惡意伺服器的連接，所以啟用此設置應該沒問題，但如果不希望*任何*流量通過 Apple 的伺服器路由，則可把它關掉。
 
@@ -85,11 +87,13 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 - [ ] 關閉 **藍牙**
 
+Note that Bluetooth is automatically turned on after every system update.
+
 #### 一般設定
 
-預設情況中，您的 iPhone 設備名稱將包含您的名字，所連接的網絡中的其它人都可以看到該名稱。 所以應該將其更改為更一般的名稱，例如“iPhone”。 選擇 **關於** > **名稱** ，然後輸入您喜歡的裝置名稱。
+預設情況中，您的 iPhone 設備名稱將包含您的名字，所連接的網絡中的其它人都可以看到該名稱。 所以應該將其更改為更一般的名稱，例如“iPhone”。 Select **About** → **Name** and enter the device name you prefer.
 
-經常安裝 **軟體更新** 以獲得最新的安全修復非常重要。 您可以啟用 **自動更新** ，以保持手機最新，而無需不斷檢查更新。 選擇 **軟體更新** > **自動更新**：
+經常安裝 **軟體更新** 以獲得最新的安全修復非常重要。 您可以啟用 **自動更新** ，以保持手機最新，而無需不斷檢查更新。 Select **Software Update** → **Automatic Updates**:
 
 - [x] 打開 **下載 iOS 更新**
 - [x] 打開 **安裝 iOS 更新**
@@ -97,13 +101,13 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 **AirDrop** 可以輕鬆傳輸檔案，但它可能允許陌生人對您發送不想要的檔案。
 
-- [x] 選擇 **AirDrop** > **關閉接收**
+- [x] Select **AirDrop** → **Receiving Off**
 
-**AirPlay** 可讓您將內容從 iPhone 無縫串流到電視； 然而，您可能並不會想要一直維持這樣。 選擇 **AirPlay & 關閉** > **自動串流 AirPlay 到 TVs**:
+**AirPlay** 可讓您將內容從 iPhone 無縫串流到電視； 然而，您可能並不會想要一直維持這樣。 Select **AirPlay & Continuity** → **Automatically AirPlay**:
 
 - [x] 選擇 **絕不** 或 **詢問**
 
-**背景 App 重新整理**可將應用程式在不使用時刷新其內容。 這可能會導致它們建立不必要的連接。 關閉此功能還可節省電池壽命，但可能會影響應用程式接收更新資訊的能力，特別是天氣和消息傳遞的應用。
+**背景 App 重新整理**可將應用程式在不使用時刷新其內容。 這可能會導致它們建立不必要的連接。 Turning this off can also save battery life, but may affect an app's ability to receive updated information, particularly weather and messaging apps.
 
 選擇 **背景 App 重新整理** 並切掉無需在背景下繼續刷新的應用。 若不想讓任何 apps 在背景刷新，可再次選擇 **背景 App 重新整理** 並將其 **關閉**。
 
@@ -117,19 +121,19 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 在手機上設置強密碼是確保設備物理安全的最重要步驟。 您必須權衡安全性與便利性：每次輸入較長的密碼很麻煩，但較短的密碼或 PIN 碼很容易被猜到。 設置 Face ID 或 Touch ID 以及強密碼可以在可用性和安全性之間實現良好折衷。
 
-選擇 **開啟密碼** 或 **更改密碼** > **密碼選項** > **自訂英數密碼**。 確認建立[安全密碼](../basics/passwords-overview.md)。
+Select **Turn Passcode On** or **Change Passcode** → **Passcode Options** → **Custom Alphanumeric Code**. 確認建立[安全密碼](../basics/passwords-overview.md)。
 
 如果想使用 Face ID 或 Touch ID，可以立即進行設置。 您的手機將使用之前設置的密碼作為後備密碼，以防生物識別驗證失敗。 生物識別解鎖方法主要是便利，雖然它們確實可以阻止監控攝像頭或身旁的人看到您所輸入的密碼。
 
 如果使用生物識別技術，應該知道如何在緊急情況下快速關閉它們。 按住側面按鈕或電源按鈕以及*任一*音量按鈕，直到看到滑動關閉滑塊為止，這將禁用生物識別功能，需要密碼才能解鎖。 設備重新啟動後還需要您的密碼。
 
-在某些較舊的設備上，可能需要按電源按鈕五次才能禁用生物識別功能，或者具有 Touch ID 的設備，可能只需按住電源按鈕即可。 請事先嘗試此操作，以便知道哪種方法適用您的設備。
+On some older devices, you may have to press the power button five times to disable biometrics instead, or for devices with Touch ID, you may just have to hold down the power button and nothing else. 請事先嘗試此操作，以便知道哪種方法適用您的設備。
 
-**被盜設備保護**是iOS 17.3 的新功能，增加了額外的安全性，當設備在解鎖時被盜時保護您的個人資料。 如在 Apple ID 設定中使用生物辨識技術和「尋找我的裝置」功能，我們建議啟用此新保護：
+**Stolen Device Protection** adds additional security intended to protect your personal data if your device is stolen while unlocked. If you use biometrics and the Find My Device feature in your Apple Account settings, we recommend enabling this new protection:
 
 - [x] 選擇**開啟保護**
 
-啟用被盜設備保護後，[某些操作](https://support.apple.com/HT212510)將需要生物識別身份驗證，無需密碼回退（如果駭客准竊盜已獲得您的 PIN），例如使用密碼自動填寫功能就可訪問支付資訊並關閉遺失模式。 它還可以在住處或其他「熟悉位置」以外的地點執行的某些操作增加安全延遲，例如需要 1 小時計時器來重設 Apple ID 密碼或退出 Apple ID。 此延遲是為了有時間啟用遺失模式並在小偷重置設備前保護好您的帳戶。
+啟用被盜設備保護後，[某些操作](https://support.apple.com/HT212510)將需要生物識別身份驗證，無需密碼回退（如果駭客准竊盜已獲得您的 PIN），例如使用密碼自動填寫功能就可訪問支付資訊並關閉遺失模式。 It also adds a security delay to certain actions performed away from your home or another "familiar location," such as requiring a 1-hour timer to reset your Apple Account password or sign out of your Apple Account. 此延遲是為了有時間啟用遺失模式並在小偷重置設備前保護好您的帳戶。
 
 **鎖定時允許存取** 提供您在手機鎖定時可以允許的選項。 禁用的這些選項越多，沒有密碼者可做的事情就越少，但對您來說也就更不方便。 選擇不希望其他人接觸您的手機後訪問其中哪些內容。
 
@@ -186,6 +190,8 @@ iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長�
 - [ ] 關閉 **改善 Fitness+**
 - [ ] 關閉 **改進安全性**
 - [ ] 關閉 **改進 Siri 與聽寫**
+- [ ] Turn off **Improve Assistive Voice Features**
+- [ ] Turn off **Improve AR Location Accuracy**
 
 關閉 **個人化廣告** 如不願加入針對式行銷。 選擇 **Apple 廣告**:
 
@@ -203,21 +209,56 @@ iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長�
 
 ### E2EE 通話
 
-通過電信運營商使用“電話”應用程式撥打的一般電話不是 E2EE。 FaceTime 的影像語音通話都是 E2EE，或是也可使用 [其他應用](../real-time-communication.md)，例如 Signal。
+通過電信運營商使用“電話”應用程式撥打的一般電話不是 E2EE。 Both FaceTime Video and FaceTime Audio calls are E2EE. Alternatively, you can use [another app](../real-time-communication.md) like Signal for E2EE calls.
+
+### 加密的 iMessage
+
+The [color of the message bubble](https://support.apple.com/en-us/104972) in the Messages app indicates whether your messages are E2EE or not. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates the other party is using either the outdated SMS and MMS protocols or RCS. RCS on iOS is **not** E2EE. Currently, the only way to have E2EE in Messages is for both parties to be using iMessage on Apple devices.
+
+如果您或您的訊息傳遞夥伴在沒有進階資料保護下啟用 iCloud 備份，則加密密鑰會存儲在 Apple 伺服器，這意味著他們可以訪問您的訊息。 Additionally, iMessage's key exchange is not as secure as alternative implementations like Signal's (which allows you to view the recipients key and verify by QR code), so it shouldn't be relied on for particularly sensitive communications.
+
+### Photo Permissions
+
+When an app prompts you for access to your device's photo library, iOS provides you with options to limit what an app can access.
+
+Rather than allow an app to access all the photos on your device, you can allow it to only access whichever photos you choose by tapping the "Select Photos..." option in the permission dialog. You can change photo access permissions at any time by navigating to **Settings** → **Privacy & Security** → **Photos**.
+
+![Photo Permissions](../assets/img/ios/photo-permissions-light.png#only-light) ![Photo Permissions](../assets/img/ios/photo-permissions-dark.png#only-dark)
+
+**Add Photos Only** is a permission that only gives an app the ability to download photos to the photo library. Not all apps which request photo library access provide this option.
+
+![Private Access](../assets/img/ios/private-access-light.png#only-light) ![Private Access](../assets/img/ios/private-access-dark.png#only-dark)
+
+Some apps also support **Private Access**, which functions similarly to the **Limited Access** permission. However, photos shared to apps using Private Access include their location by default. We recommend unchecking this setting if you do not [remove photo metadata](../data-redaction.md) beforehand.
+
+### Contact Permissions
+
+Similarly, rather than allow an app to access all the contacts saved on your device, you can allow it to only access whichever contacts you choose. You can change contact access permissions at any time by navigating to **Settings** → **Privacy & Security** → **Contacts**.
+
+![Contact Permissions](../assets/img/ios/contact-permissions-light.png#only-light) ![Contact Permissions](../assets/img/ios/contact-permissions-dark.png#only-dark)
+
+### Require Biometrics and Hide Apps
+
+iOS offers the ability to lock most apps behind Touch ID/Face ID or your passcode, which can be useful for protecting sensitive content in apps which do not provide the option themselves. You can lock an app by long-pressing on it and selecting **Require Face ID/Touch ID**. Any app locked in this way requires biometric authentication whenever opening it or accessing its contents in other apps. Also, notification previews for locked apps will not be shown.
+
+In addition to locking apps behind biometrics, you can also hide apps so that they don't appear on the Home Screen, App Library, the app list in **Settings**, etc. While hiding apps may be useful in situations where you have to hand your unlocked phone to someone else, the concealment provided by the feature is not absolute, as a hidden app is still visible in some places such as the battery usage list. Moreover, one notable tradeoff of hiding an app is that you will not receive any of its notifications.
+
+You can hide an app by long-pressing on it and selecting **Require Face ID/Touch ID** → **Hide and Require Face ID/Touch ID**. Note that pre-installed Apple apps, as well as the default web browser and email app, cannot be hidden. Hidden apps reside in a **Hidden** folder at the bottom of the App Library, which can be unlocked using biometrics. This folder appears in the App Library whether you hid any apps or not, which provides you a degree of plausible deniability.
+
+### 塗黑臉孔/資訊
+
+If you need to hide information in a photo, you can use Apple's built-in editing tools to do so.
+
+- Open the **Photos** app and tap the photo you have selected for redaction
+- Tap the :material-tune: (at the bottom of the screen) → markup symbol (top right) → plus icon at the bottom right
+- Select **Add Shape** and choose the square or circle
+- On the toolbar, tap the circle (left-most option) and choose black as the color for filling in the shape. You can also move the shape and increase its size as you see fit.
+
+**Don't** use the highlighter to obfuscate information, as its opacity is not quite 100%.
 
 ### 避免 iOS越獄
 
 iPhone 越獄會破壞其安全性更容易受到攻擊。 運行不可信任的第三方軟體可能會導致設備感染惡意軟體。
-
-### 加密的 iMessage
-
-Messages 應用程式中訊息氣泡的顏色指示該訊息是否為 E2EE。 藍色氣泡表示您正將 iMessage 與 E2EE 結合使用，而綠色氣泡表示對方正在使用過時的 SMS 和 MMS 協議。 要在 Messages 中實現 E2EE ，目前唯一方法只有雙方都在 Apple 設備上使用 iMessage。
-
-如果您或您的訊息傳遞夥伴在沒有進階資料保護下啟用 iCloud 備份，則加密密鑰會存儲在 Apple 伺服器，這意味著他們可以訪問您的訊息。 此外，iMessage 的密鑰交換不如 Signal（它允許您查看收件人密鑰並通過 QR 碼進行驗證）等替代方案安全，因此不應依賴它進行敏感內容通訊。
-
-### 塗黑臉孔/資訊
-
-如果想要隱藏照片資訊，可以使用 Apple 內置工具來完成。 打開要編輯的照片，按螢幕右上角的編輯，然後按右上角的標記符號。 按螢幕右下角的加號，然後按矩形圖標。 現在，可以在圖像的任何位置放置一個矩形。 確保按左下角的形狀圖標並選擇填充矩形。 **不要**使用亮光筆來混淆資訊，因為它的不透明度並非 100%。
 
 ### iOS Betas
 
@@ -227,4 +268,4 @@ Apple 會為那些希望幫助查找和報告錯誤的人先提供 iOS 測試版
 
 ### Before First Unlock(初次解鎖之前)
 
-如果您的威脅模式包含鑑識工具，而且您希望將利用漏洞存取手機的機會減到最低，您應該經常重新啟動裝置。 重啟後**解鎖設備**之前的狀態稱為“首次解鎖之前”(BFU) ，當設備處於該狀態時，取證鑑識工具[明顯更加困難](https://belkasoft.com/checkm8_glossary)利用漏洞訪問您的資料。 此 BFU 狀態允許您接收電話、簡訊和鬧鐘通知，但設備上的大部分資料為加密且無法訪問。 這可能不切實際，因此請考慮權衡這個作法對於自身情況是否有意義。
+If your threat model includes [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} that involve forensic tools, and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. 重啟後**解鎖設備**之前的狀態稱為“首次解鎖之前”(BFU) ，當設備處於該狀態時，取證鑑識工具[明顯更加困難](https://belkasoft.com/checkm8_glossary)利用漏洞訪問您的資料。 此 BFU 狀態允許您接收電話、簡訊和鬧鐘通知，但設備上的大部分資料為加密且無法訪問。 這可能不切實際，因此請考慮權衡這個作法對於自身情況是否有意義。
