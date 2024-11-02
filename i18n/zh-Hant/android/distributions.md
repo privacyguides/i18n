@@ -62,7 +62,7 @@ GrapheneOS 提供了額外的 [安全強化](https://zh.m.wikipedia.org/wiki/%E5
 
 </div>
 
-GrapheneOS 支援 [沙盒化 Google Play](https://grapheneos.org/usage#sandboxed-google-play) ，他將 Google Play 服務 完全沙盒化，使其如同其他常規應用程式一樣運行。 這意味著可正常使用大多數 Google Play 服務 所提供的功能，像是 推送通知 ，同時讓您完全控制其存取能力和權限，並將其包含在所選的特定 [工作設定檔](../os/android-overview.md#work-profile) 或 [用戶設定檔](../os/android-overview.md#user-profiles) 。
+GrapheneOS 支援 [沙盒化 Google Play](https://grapheneos.org/usage#sandboxed-google-play) ，他將 Google Play 服務 完全沙盒化，使其如同其他常規應用程式一樣運行。 這意味著可正常使用大多數 Google Play 服務 所提供的功能，像是 推送通知 ，同時讓您完全控制其存取能力和權限，並將其包含在所選的特定 [工作設定檔](../os/android-overview.md#work-profile) 或 [使用者設定檔](../os/android-overview.md#user-profiles) 。
 
 [Google Pixel系列](../mobile-phones.md#google-pixel) 是目前唯一符合 GrapheneOS [硬體安全要求](https://grapheneos.org/faq#future-devices) 的裝置。
 
