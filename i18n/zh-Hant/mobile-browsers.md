@@ -170,7 +170,7 @@ Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shi
 
 ### Leo
 
-These options can be found in :material-menu: → **Settings** → **Leo**.
+這些選項可以在 :material-menu: → **設定** → **Leo** 中找到。
 
 <div class="annotate" markdown>
 

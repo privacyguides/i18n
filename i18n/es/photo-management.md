@@ -10,7 +10,7 @@ cover: photo-management.webp
 - [:material-bug-outline: Ataques pasivos](basics/common-threats.md#security-and-privacy){ .pg-orange }
 - [:material-server-network: Proveedores de Servicios](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon Photos don't secure your photos against being accessed by the cloud storage provider themselves. Estas opciones mantienen la privacidad de tus fotos personales y te permiten compartirlas solo con familiares y personas de confianza.
+La mayoría de las soluciones de **gestión de fotografías en la nube**, como Google Photos, Flickr y Amazon Photos, no protegen tus fotos contra el acceso del propio proveedor de almacenamiento en la nube. Estas opciones mantienen la privacidad de tus fotos personales y te permiten compartirlas solo con familiares y personas de confianza.
 
 ## Ente Photos
 
@@ -19,12 +19,12 @@ Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon
 ![Ente logo](assets/img/photo-management/ente.svg#only-light){ align=right }
 ![Ente logo](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
 
-**Ente Photos** is an end-to-end encrypted photo backup service which supports automatic backups on iOS and Android. Su código es totalmente abierto, tanto en el lado del cliente como en el del servidor. It is also [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting). The free plan offers 5GB of storage as long as you use the service at least once a year.
+**Ente Photos** es un servicio de copia de seguridad cifrada de fotos de extremo a extremo que admite copias de seguridad automáticas en iOS y Android. Su código es totalmente abierto, tanto en el lado del cliente como en el del servidor. También es [autoalojable](https://github.com/ente-io/ente/tree/main/server#self-hosting). El plan gratuito ofrece 5GB de almacenamiento siempre que utilices el servicio al menos una vez al año.
 
-[:octicons-home-16: Homepage](https://ente.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://ente.io/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://ente.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://ente.io/faq){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -42,7 +42,7 @@ Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon
 
 </div>
 
-Ente Photos underwent an [audit by Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
+Ente Photos se sometió a una [auditoría por Cure53](https://ente.io/blog/cryptography-audit) en marzo de 2023 y por [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) en abril de 2023.
 
 ## Stingle
 
@@ -51,12 +51,12 @@ Ente Photos underwent an [audit by Cure53](https://ente.io/blog/cryptography-aud
 ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ align=right }
 ![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ align=right }
 
-**Stingle** is a gallery and camera application with built-in, end-to-end encrypted backup and sync functionality for your photos and videos. Storage starts at 1GB for free accounts on their cloud, or you can host your own Stingle API server for total independence.
+**Stingle** es una aplicación de galería y cámara con funciones integradas de copia de seguridad cifrada de extremo a extremo y de sincronización para tus fotos y vídeos. El almacenamiento comienza en 1GB para cuentas gratuitas en su nube, o puedes alojar tu propio servidor API Stingle para una independencia total.
 
-[:octicons-home-16: Homepage](https://stingle.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://stingle.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://stingle.org/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/stingle){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://stingle.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://stingle.org/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://stingle.org/faq){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/stingle){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -76,12 +76,12 @@ Ente Photos underwent an [audit by Cure53](https://ente.io/blog/cryptography-aud
 
 ![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
+**PhotoPrism** es una plataforma autoalojable para la gestión de fotos. Permite sincronizar y compartir álbumes y tiene otras muchas [funciones](https://photoprism.app/features). No incluye E2EE, por lo que es mejor alojarlo en un servidor en el que confíes y que esté bajo tu control.
 
-[:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -98,9 +98,9 @@ Ente Photos underwent an [audit by Cure53](https://ente.io/blog/cryptography-aud
 
 ### Requisitos Mínimos
 
-- Cloud-hosted providers must enforce end-to-end encryption.
+- Los proveedores alojados en la nube deben aplicar cifrado de extremo a extremo.
 - Debe ofrecer un plan gratuito o un periodo de prueba.
-- Must support TOTP or FIDO2 multi-factor authentication, or passkey logins.
+- Debe ser compatible con la autenticación multifactor TOTP o FIDO2, o con los inicios de sesión con llave de acceso.
 - Debe ofrecer una interfaz web que admita funciones básicas de gestión de archivos.
 - Debe permitir exportar fácilmente todos los archivos/documentos.
 - Debe ser de código abierto.

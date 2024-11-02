@@ -1,7 +1,7 @@
 ---
 title: Pastebins
 icon: material/content-paste
-description: These tools allow you to have full control of any pasted data you share to other parties.
+description: Estas herramientas te permiten tener un control total de cualquier dato pegado que compartas con terceros.
 cover: pastebins.webp
 ---
 
@@ -9,7 +9,7 @@ cover: pastebins.webp
 
 - [:material-server-network: Proveedores de Servicios](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-[**Pastebins**](https://en.wikipedia.org/wiki/Pastebin) are online services most commonly used to share large blocks of code in a convenient and efficient manner. The pastebins listed here employ client-side encryption and password protection for pasted content; both of these features prevent the website or server operator from reading or accessing the contents of any paste.
+Los [**Pastebins**](https://es.wikipedia.org/wiki/Pastebin) son servicios en línea muy utilizados para compartir grandes bloques de código de forma cómoda y eficaz. Los pastebins enumerados aquí emplean encriptación del lado del cliente y protección por contraseña para el contenido pegado; ambas características impiden que el operador del sitio web o del servidor lea o acceda al contenido de cualquier paste.
 
 ## PrivateBin
 
@@ -17,7 +17,7 @@ cover: pastebins.webp
 
 ![PrivateBin logo](assets/img/pastebins/privatebin.svg){ align=right }
 
-**PrivateBin** is a minimalist, open-source online pastebin where the server has zero knowledge of pasted data. Los datos se cifran/descifran en el navegador utilizando AES de 256 bits. Es la versión mejorada de ZeroBin.
+**PrivateBin** es un pastebin en línea minimalista y de código abierto en el que el servidor no tiene ningún conocimiento de los datos pegados. Los datos se cifran/descifran en el navegador utilizando AES de 256 bits. Es la versión mejorada de ZeroBin.
 
 [:octicons-home-16: Página Principal](https://privatebin.info){ .md-button .md-button--primary }
 [:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Instancias Públicas"}
