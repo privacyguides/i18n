@@ -1,6 +1,6 @@
 ---
-title: Branding Guidelines
-description: A guide for journalists and website contributors on proper branding of the Privacy Guides wordmark and logo.
+title: Directrices de Marca
+description: Una guía para periodistas y colaboradores de sitios web sobre el uso correcto de la marca y el logotipo de Privacy Guides.
 ---
 
 El nombre de la página es **Privacy Guides** y **no** debe ser cambiado a:

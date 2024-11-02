@@ -1,42 +1,42 @@
 ---
-title: Intern (Community & News)
-description: Privacy Guides is looking for an intern to discover and promote relevant news content on our platform, and to moderate and engage with our online communities.
+title: Becario (Comunidad y Noticias)
+description: Privacy Guides busca un becario que descubra y promueva contenidos informativos relevantes en nuestra plataforma, y que modere e interactúe con nuestras comunidades en línea.
 ---
 
-[:material-arrow-left-drop-circle: Job Openings](../jobs.md)
+[:material-arrow-left-drop-circle: Ofertas de Empleo](../jobs.md)
 
-Are you passionate about privacy and cybersecurity?
+¿Te apasionan la privacidad y la ciberseguridad?
 
-Privacy Guides is an international nonprofit dedicated to producing top-tier, unbiased educational content and journalism, and to fostering safe and informative online communities to discuss technical topics around improving personal privacy and cybersecurity.
+Privacy Guides es una organización internacional sin ánimo de lucro dedicada a producir contenidos educativos y periodísticos imparciales de primer nivel y a fomentar comunidades en línea seguras e informativas para debatir temas técnicos relacionados con la mejora de la privacidad personal y la ciberseguridad.
 
-This role is focused on interacting with our community members and answering their questions, keeping our online communities safe and constructive, and sharing thoughtful and informative news stories from around the internet for community discussion.
+Esta función se centra en interactuar con los miembros de nuestra comunidad y responder a sus preguntas, mantener nuestras comunidades en línea seguras y constructivas, y compartir noticias interesantes e informativas de todo Internet para el debate de la comunidad.
 
-Responsibilities will include:
+Las responsabilidades incluirán:
 
-- Regularly interacting with our forum and other communities.
-- Responding to moderation complaints/flags within our communities.
-- Reading news stories from a variety of publications and generally staying up to date with the latest news in the privacy and cybersecurity space.
-- Regularly posting interesting news stories and other topics you discover in our communities for discussion.
-- Assisting our other staff and volunteers with research, writing, video production, and editing.
-- Assisting with Privacy Guides' advocacy efforts.
-- Remaining polite and fact-focused.
+- Interactuar regularmente con nuestro foro y otras comunidades.
+- Responder a las quejas/alertas de moderación en nuestras comunidades.
+- Leer noticias de diversas publicaciones y, en general, mantenerse al día de las últimas novedades en el ámbito de la privacidad y la ciberseguridad.
+- Publicar regularmente noticias interesantes y otros temas que descubras en nuestras comunidades para su discusión.
+- Ayudar al resto del personal y a los voluntarios en las tareas de investigación, redacción, producción de vídeo y edición.
+- Colaborar en los esfuerzos de promoción de Privacy Guides.
+- Mantener la cortesía y centrarse en los hechos.
 
-No prior experience is necessary. We are looking for people passionate about privacy, cybersecurity, journalism, and community management regardless of your GPA or background.
+No es necesaria experiencia previa. Buscamos personas apasionadas por la privacidad, la ciberseguridad, el periodismo y la gestión de comunidades, independientemente de su GPA o formación.
 
-The following will be assets to your application, but please submit an application even if they don't apply to you:
+Los siguientes puntos serán ventajas para tu solicitud, pero te rogamos que presentes una solicitud aunque no se apliquen a tu caso:
 
-- Familiarity with Privacy Guides' communities, culture, and mission.
-- Previous experience with social media management and/or journalism.
-- Located between UTC-08:00 and UTC-04:00 time zones.
+- Familiaridad con las comunidades, la cultura y la misión de Privacy Guides.
+- Experiencia previa en gestión de redes sociales y/o periodismo.
+- Situado entre las zonas horarias UTC-08:00 y UTC-04:00.
 
-This is a part-time, 10-20 hour per week role depending on your availability. We can work around your schedule and other obligations.
+Se trata de un puesto a tiempo parcial, de 10 a 20 horas semanales, en función de tu disponibilidad. Podemos adaptarnos a tus horarios y otras obligaciones.
 
-This is a 6-month contract paying $15 / hour USD, with the optional opportunity for renewal or a longer-term role depending on your personal goals and the project's outcome. The specific starting and ending dates are flexible.
+Se trata de un contrato de 6 meses con una remuneración de 15 $/hora dólares estadounidenses, con la posibilidad opcional de renovación o de un puesto a más largo plazo en función de tus objetivos personales y del resultado del proyecto. Las fechas concretas de inicio y fin son flexibles.
 
 ---
 
-**To apply, please send a cover letter and resume to <jobs@privacyguides.org>, and include the name of this position in the subject line. Feel free to include any other information or examples of your work that you think we may find relevant if you'd like.**
+**Para presentar tu candidatura, por favor, envía una carta de presentación y un currículum vitae a <jobs@privacyguides.org>, e incluye el nombre de este puesto en el asunto. Si lo deseas, puedes incluir cualquier otra información o ejemplos de tu trabajo que consideres relevantes.**
 
-Privacy Guides is fiscally hosted by [MAGIC Grants](https://magicgrants.org), a 501(c)(3) public charity. MAGIC Grants is an equal opportunity employer. MAGIC Grants does not discriminate against any applicant or employee because of age, color, sex, disability, national origin, race, religion, sexual orientation, sexual identity, veteran status, or other protected characteristic.
+Privacy Guides está auspiciada fiscalmente por [MAGIC Grants](https://magicgrants.org), una organización benéfica pública 501(c)(3). MAGIC Grants ofrece igualdad de oportunidades. MAGIC Grants no discrimina a ningún solicitante o empleado por motivos de edad, color, sexo, discapacidad, origen nacional, raza, religión, orientación sexual, identidad sexual, condición de veterano o cualquier otra característica protegida.
 
-We respect your privacy. After this position is filled, your application will be deleted. Your application will not be shared with third parties.
+Respetamos tu privacidad. Una vez cubierto este puesto, tu solicitud será eliminada. Tu solicitud no se compartirá con terceros.

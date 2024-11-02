@@ -1,61 +1,61 @@
 ---
-title: Journalist
-description: Privacy Guides is looking for a determined and focused journalist to research and write stories from the privacy and cybersecurity space on a regular basis.
+title: Periodista
+description: Privacy Guides busca un periodista decidido y centrado que investigue y escriba regularmente artículos sobre privacidad y ciberseguridad.
 ---
 
-[:material-arrow-left-drop-circle: Job Openings](../jobs.md)
+[:material-arrow-left-drop-circle: Ofertas de Empleo](../jobs.md)
 
-Are you passionate about privacy and cybersecurity?
+¿Te apasionan la privacidad y la ciberseguridad?
 
-Privacy Guides is an international nonprofit dedicated to producing top-tier, unbiased educational content and journalism, and to fostering safe and informative online communities to discuss technical topics around improving personal privacy and cybersecurity.
+Privacy Guides es una organización internacional sin ánimo de lucro dedicada a producir contenidos educativos y periodísticos imparciales de primer nivel y a fomentar comunidades en línea seguras e informativas para debatir temas técnicos relacionados con la mejora de la privacidad personal y la ciberseguridad.
 
-We are looking for a determined and focused journalist to join our team. As a reporter for our organization, you will conduct research, interview sources, and write engaging stories in the field of consumer privacy and cybersecurity.
+Buscamos un periodista decidido y centrado que se una a nuestro equipo. Como reportero de nuestra organización, llevarás a cabo investigaciones, entrevistarás a fuentes y redactarás artículos atractivos en el ámbito de la privacidad y la ciberseguridad de los consumidores.
 
-Our ideal candidate is committed to combating misinformation and clearly communicating stories on a timely basis, and dedicated to producing top-tier, unbiased journalism.
+Nuestro candidato ideal es una persona comprometida con la lucha contra la desinformación y que comunique clara y oportunamente las noticias, y dedicada a la producción de un periodismo imparcial de primer nivel.
 
-Privacy Guides is a small, largely volunteer-driven nonprofit media organization, and we do not currently have a dedicated writing and editing team. As such, you will be expected to take charge of the entire writing process from beginning to publication. You will have the freedom to choose which topics to cover and set a schedule to release articles on our main website.
+Privacy Guides es una pequeña organización de medios de comunicación sin ánimo de lucro impulsada en gran parte por voluntarios, y actualmente no contamos con un equipo dedicado a la redacción y edición. Como tal, deberás encargarte de todo el proceso de redacción, desde el principio hasta la publicación. Tendrás libertad para elegir los temas que quieres tratar y establecer un calendario para publicar los artículos en nuestro sitio web principal.
 
-\==Our primary mission is to publish the highest quality content surrounding consumer privacy and cybersecurity on the internet==, not the highest quantity of stories. You will be empowered to dive deep into the topics you are writing about, and expected to meet our high quality and editorial standards.
+\==Nuestra misión principal es publicar contenidos de la mayor calidad posible sobre privacidad del consumidor y ciberseguridad en Internet==, no la mayor cantidad de historias. Tendrás la posibilidad de profundizar en los temas sobre los que escribas y se espera que cumplas nuestras estrictas normas de calidad y redacción.
 
-Your responsibilities will include, but aren’t limited to:
+Tus responsabilidades incluirán, pero no se limitarán a:
 
-- Creating high-quality articles for our [knowledge base](../../basics/why-privacy-matters.md).
-- Performing product reviews for our [reviews](https://www.privacyguides.org/articles/category/reviews/) section and [tool recommendations](../../tools.md).
-- Researching new topics to cover.
-- Interviewing and fact-checking all relevant sources.
-- Regular posting of high-quality, unbiased journalistic content across our platforms.
+- Creación de artículos de alta calidad para nuestra [base de conocimientos](../../basics/why-privacy-matters.md).
+- Realización de revisiones de productos para nuestra sección [revisiones](https://www.privacyguides.org/articles/category/reviews/) y [recomendaciones de herramientas](../../tools.md).
+- Investigar nuevos temas que tratar.
+- Entrevista y comprobación de todas las fuentes pertinentes.
+- Publicación periódica de contenidos periodísticos imparciales y de alta calidad en nuestras plataformas.
 
-As a guideline, we expect roughly 3-5 articles a week that meet our quality standards, since we believe a well-researched article will take at least 8 hours to research and write on average. We realize some articles can be completed quickly, while others may take weeks or longer before publishing. You will be empowered to use your best judgement and prioritize your work accordingly.
+A título orientativo, esperamos entre 3 y 5 artículos a la semana que cumplan nuestros estándares de calidad, ya que creemos que un artículo bien documentado requiere al menos 8 horas de investigación y redacción de media. Somos conscientes de que algunos artículos pueden terminarse rápidamente, mientras que otros pueden tardar semanas o más antes de publicarse. Tendrás derecho a utilizar tu mejor criterio y a dar prioridad a tu trabajo en consecuencia.
 
-We are much more interested in articles that deeply cover a subject area than articles that cover the news of the day.
+Nos interesan mucho más los artículos que tratan en profundidad un tema que los que cubren las noticias del día.
 
-Job requirements:
+Requisitos del puesto:
 
-- Excellent organization and communication skills.
-- Expertise in English and writing.
-- Flexibility to set and respond to varying priorities and deadlines.
-- Proactive, results-driven mindset with a strong sense of initiative.
-- Personal interest in consumer privacy, cybersecurity, and technology.
-- Regular communication with the Privacy Guides committee and other team members.
-- Skeptical nature and drive to investigate difficult, often niche, technologies. You will need to evaluate the truthfulness of claims.
+- Excelentes dotes de organización y comunicación.
+- Experiencia en inglés y redacción.
+- Flexibilidad para establecer y responder a prioridades y fechas límites.
+- Mentalidad proactiva, orientada a los resultados y con un fuerte sentido de la iniciativa.
+- Interés personal por la privacidad de los consumidores, la ciberseguridad y la tecnología.
+- Comunicación periódica con el comité de Privacy Guides y otros miembros del equipo.
+- Naturaleza escéptica e impulso para investigar tecnologías difíciles, a menudo de nicho. Deberás evaluar la veracidad de las afirmaciones.
 
-The following qualifications will be an asset to your application. However, we are looking for the best candidate (which isn’t always apparent on paper!), so please apply even if you don’t meet any/many of these qualifications.
+Las siguientes cualificaciones serán una ventaja para tu candidatura. No obstante, buscamos al mejor candidato (¡lo que no siempre es evidente sobre el papel!), por lo que te rogamos que presentes tu candidatura incluso si no cumples alguna o muchas de estas cualificaciones.
 
-- Previous writing or journalism experience.
-- Previous product review experience.
-- Education in English, journalism, media production, or any other related fields.
-- Familiarity with Privacy Guides' communities, culture, and mission.
-- Located between UTC-08:00 and UTC-04:00 time zones.
-- At least basic familiarity with GitHub, including pull requests, branches, reviews, and issues.
+- Experiencia previa en redacción o periodismo.
+- Experiencia previa en revisión de productos.
+- Formación en inglés, periodismo, producción de medios de comunicación o cualquier otro campo relacionado.
+- Familiaridad con las comunidades, la cultura y la misión de Privacy Guides.
+- Situado entre las zonas horarias UTC-08:00 y UTC-04:00.
+- Familiaridad al menos básica con GitHub, incluidos pull requests, branches, reviews, e issues.
 
-The ideal candidate can commit to this role on a full-time basis (40 hours / week), but we are open to discussing a schedule you suggest.
+El candidato ideal puede comprometerse con esta función a tiempo completo (40 horas / semana), pero estamos abiertos a discutir un horario que tú sugieras.
 
-For this position, our hiring pay range falls between \$20-$25 / hour USD. The base pay may vary depending on job related qualifications such as knowledge, skills, and experience. Our compensation structure is rooted in a performance and merit based approach that acknowledges performance of both the individual and the project as a whole.
+Para esta posición, nuestro rango de pago de contratación oscila entre \$20-$25 / hora de dólares estadounidenses. El salario base puede variar en función de las cualificaciones relacionadas con el puesto, como conocimientos, aptitudes y experiencia. Nuestra estructura de retribución se basa en el rendimiento y el mérito, y reconoce tanto el rendimiento individual como el del proyecto en su conjunto.
 
 ---
 
-**To apply, please send a cover letter and resume to <jobs@privacyguides.org>, and include the name of this position in the subject line. Feel free to include any other information or examples of your work that you think we may find relevant if you'd like.**
+**Para presentar tu candidatura, por favor, envía una carta de presentación y un currículum vitae a <jobs@privacyguides.org>, e incluye el nombre de este puesto en el asunto. Si lo deseas, puedes incluir cualquier otra información o ejemplos de tu trabajo que consideres relevantes.**
 
-Privacy Guides is fiscally hosted by [MAGIC Grants](https://magicgrants.org), a 501(c)(3) public charity. MAGIC Grants is an equal opportunity employer. MAGIC Grants does not discriminate against any applicant or employee because of age, color, sex, disability, national origin, race, religion, sexual orientation, sexual identity, veteran status, or other protected characteristic.
+Privacy Guides está auspiciada fiscalmente por [MAGIC Grants](https://magicgrants.org), una organización benéfica pública 501(c)(3). MAGIC Grants ofrece igualdad de oportunidades. MAGIC Grants no discrimina a ningún solicitante o empleado por motivos de edad, color, sexo, discapacidad, origen nacional, raza, religión, orientación sexual, identidad sexual, condición de veterano o cualquier otra característica protegida.
 
-We respect your privacy. After this position is filled, your application will be deleted. Your application will not be shared with third parties.
+Respetamos tu privacidad. Una vez cubierto este puesto, tu solicitud será eliminada. Tu solicitud no se compartirá con terceros.

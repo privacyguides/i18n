@@ -1,6 +1,6 @@
 ---
-title: "Notices and Disclaimers"
-description: Information about our website license, acceptable use policy, and other important details.
+title: "Avisos y Descargos de Responsabilidad"
+description: Información sobre la licencia de nuestro sitio web, la política de uso aceptable y otros detalles importantes.
 ---
 
 ## Aviso Legal
@@ -17,7 +17,7 @@ Además, Privacy Guides no garantiza que este sitio web esté disponible, de for
 
 <div class="admonition danger" markdown>
 
-The following is a human-readable summary of (and not a substitute for) the [license](https://github.com/privacyguides/privacyguides.org/blob/main/README.md#license).
+Lo que sigue es un resumen legible de (y no un sustituto de) la [licencia](https://github.com/privacyguides/privacyguides.org/blob/main/README.md#license).
 
 </div>
 

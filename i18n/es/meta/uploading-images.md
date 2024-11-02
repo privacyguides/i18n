@@ -1,6 +1,6 @@
 ---
-title: Uploading Images
-description: A guide for website contributors on uploading images in the proper format and location.
+title: Subir Imágenes
+description: Una guía para los colaboradores del sitio web sobre la subida de imágenes en el formato y ubicación adecuados.
 ---
 
 Si realiza cambios a este sitio web donde se requiera agregar nuevas imágenes o reemplazar las existentes, aquí tiene un par de recomendaciones generales:

@@ -1,6 +1,6 @@
 ---
 title: Advertencias
-description: A guide for website contributors on creating admonitions.
+description: Una guía para colaboradores del sitio web sobre la creación de advertencias.
 ---
 
 **Las advertencias** (o "llamadas de atención") son una opción que los redactores pueden utilizar para incluir contenidos secundarios en un artículo sin interrumpir el flujo del documento.
@@ -213,7 +213,7 @@ Se trata de un tipo especial de advertencia plegable, utilizada para generar la 
 
 ```markdown title="Downloads Section"
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)

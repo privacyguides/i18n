@@ -33,8 +33,8 @@ Ocasionalmente buscamos buenos redactores periodísticos, revisores de productos
 
   ---
 
-  Internship | Remote | \$15/hour
+  Prácticas | A Distancia | 15$/hora
 
-  [View posting :material-arrow-right-drop-circle:](jobs/intern-news.md)
+  [Ver publicación :material-arrow-right-drop-circle:](jobs/intern-news.md)
 
 </div>

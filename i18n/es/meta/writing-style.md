@@ -1,6 +1,6 @@
 ---
-title: Writing Style
-description: Our official writing style handbook for website contributors.
+title: Estilo de Escritura
+description: Nuestro manual oficial de estilo para colaboradores del sitio web.
 ---
 
 Privacy Guides está redactada en inglés americano, por lo que, en caso de duda, deberá consultar las [normas de estilo APA](https://apastyle.apa.org/style-grammar-guidelines/grammar).
@@ -9,7 +9,7 @@ En general, las [directrices federales sobre lenguaje sencillo de Estados Unidos
 
 ## Escribir para nuestro público
 
-Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily adults who use technology. No simplifique el contenido como si se dirigiera a una clase de secundaria, pero tampoco abuse de terminología complicada sobre conceptos con los que los usuarios medios de ordenadores no estarían familiarizados.
+El [público objetivo](https://plainlanguage.gov/guidelines/audience) de Privacy Guides son principalmente adultos que utilizan tecnología. No simplifique el contenido como si se dirigiera a una clase de secundaria, pero tampoco abuse de terminología complicada sobre conceptos con los que los usuarios medios de ordenadores no estarían familiarizados.
 
 ### Abordar sólo lo que la gente quiere saber
 
