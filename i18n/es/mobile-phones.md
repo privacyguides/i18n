@@ -1,7 +1,7 @@
 ---
 title: Teléfonos celulares
 icon: material/cellphone-check
-description: These mobile devices provide the best hardware security support for custom Android operating systems.
+description: Estos dispositivos móviles ofrecen el mejor soporte de seguridad de hardware para sistemas operativos Android personalizados.
 cover: android.webp
 schema:
   - "@context": http://schema.org

@@ -5,7 +5,7 @@ description: Estos clientes para la lectura de noticias le permiten estar al dí
 cover: news-aggregators.webp
 ---
 
-A **news aggregator** is software which aggregates digital content from online newspapers, blogs, podcasts, and other resources to one location for easy viewing. Using one can be a great way to keep up with your favorite content.
+Un **agregador de noticias** es un programa informático que reúne contenidos digitales de periódicos, blogs, podcasts y otros recursos en un único lugar para facilitar su consulta. Utilizar uno puede ser una forma estupenda de estar al día de sus contenidos favoritos.
 
 ## Clientes
 
@@ -58,14 +58,14 @@ A **news aggregator** is software which aggregates digital content from online n
 
 ![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
 
-**Feeder** is a modern RSS client for Android that has many [features](https://github.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds. Es compatible con [RSS](https://es.wikipedia.org/wiki/RSS), [Atom](https://es.wikipedia.org/wiki/Atom_(formato_de_redifusi%C3%B3n)), [RDF](https://es.wikipedia.org/wiki/RDF/XML) y [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+**Feeder** es un cliente RSS moderno para Android que tiene muchas [características](https://github.com/spacecowboy/Feeder#features) y funciona bien con carpetas de fuentes RSS. Es compatible con [RSS](https://es.wikipedia.org/wiki/RSS), [Atom](https://es.wikipedia.org/wiki/Atom_(formato_de_redifusi%C3%B3n)), [RDF](https://es.wikipedia.org/wiki/RDF/XML) y [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
 [:octicons-repo-16: Repositorio](https://github.com/spacecowboy/Feeder){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Código Fuente" }
 [:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
 - [:simple-github: GitHub](https://github.com/spacecowboy/Feeder/releases)
@@ -89,7 +89,7 @@ A **news aggregator** is software which aggregates digital content from online n
 [:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:fontawesome-brands-windows: Windows](https://hyliu.me/fluent-reader)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
@@ -120,7 +120,7 @@ A **news aggregator** is software which aggregates digital content from online n
 
 ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
 
-**NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. Es compatible con los formatos de fuente típicos, además incluye soporte integrado para fuentes de Reddit.
+**NetNewsWire** es un lector de fuentes gratuito y de código abierto para macOS e iOS con un diseño y un conjunto de funciones nativos. Es compatible con los formatos de fuente típicos, además incluye soporte integrado para fuentes de Reddit.
 
 [:octicons-home-16: Página Principal](https://netnewswire.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Política de Privacidad" }
@@ -179,7 +179,7 @@ https://reddit.com/r/[SUBREDDIT]/new/.rss
 
 ### YouTube
 
-You can subscribe YouTube channels without logging in and associating usage information with your Google account.
+Puede suscribirse a canales de YouTube sin necesidad de iniciar sesión ni asociar la información de uso a su cuenta de Google.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Ejemplo</p>

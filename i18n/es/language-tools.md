@@ -1,7 +1,7 @@
 ---
-title: Language Tools
+title: Herramientas de Idiomas
 icon: material/alphabetical-variant
-description: These language tools do not send your input text to a server and can be used offline and self-hosted.
+description: Estas herramientas de idiomas no envían el texto introducido a un servidor y pueden utilizarse sin conexión y de forma autoalojada.
 cover: language-tools.webp
 ---
 
@@ -10,7 +10,7 @@ cover: language-tools.webp
 - [:material-server-network: Proveedores de Servicios](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 - [:material-account-cash: Capitalismo de Vigilancia](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-Text inputted to grammar, spelling, and style checkers, as well as translation services, can contain sensitive information which may be stored on their servers for an indefinite amount of time and sold to third parties. The language tools listed on this page do not send your submitted text to a server, and can be self-hosted and used offline for maximum control of your data.
+El texto introducido en los correctores gramaticales, ortográficos y de estilo, así como en los servicios de traducción, puede contener información sensible que puede ser almacenada en sus servidores por tiempo indefinido y vendida a terceros. Las herramientas de idiomas listadas en esta página no envían el texto enviado a un servidor, y pueden ser autoalojadas y utilizadas sin conexión para el máximo control de tus datos.
 
 ## LanguageTool
 
@@ -19,14 +19,14 @@ Text inputted to grammar, spelling, and style checkers, as well as translation s
 ![LanguageTool logo](assets/img/language-tools/languagetool.svg#only-light){ align=right }
 ![LanguageTool logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ align=right }
 
-**LanguageTool** is a multilingual grammar, style and spell checker that supports more than 20 languages. The software is [self-hostable](https://dev.languagetool.org/http-server), and the extensions do not send your input text to their server.
+**LanguageTool** es un corrector gramatical, ortográfico y de estilo multilingüe compatible con más de 20 idiomas. El software es [autoalojable](https://dev.languagetool.org/http-server), y las extensiones no envían tu texto de entrada a su servidor.
 
-LanguageTool offers integration with a variety of [office suites](https://languagetool.org/services#text_editors) and [email clients](https://languagetool.org/services#mail_clients).
+LanguageTool ofrece integración con diversos [paquetes ofimáticos](https://languagetool.org/services#text_editors) y [clientes de correo electrónico](https://languagetool.org/services#mail_clients).
 
-[:octicons-home-16: Homepage](https://languagetool.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://languagetool.org/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://languagetooler.freshdesk.com/en/support/solutions){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/languagetool-org){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://languagetool.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://languagetool.org/legal/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://languagetooler.freshdesk.com/en/support/solutions){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/languagetool-org){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -48,4 +48,4 @@ LanguageTool offers integration with a variety of [office suites](https://langua
 **Por favor, ten en cuenta que no estamos afiliados a ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
 
 - Debe ser de código abierto.
-- Must be possible to self-host.
+- Debe ser posible el autoalojamiento.

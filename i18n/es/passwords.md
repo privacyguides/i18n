@@ -407,7 +407,7 @@ Además, hay una versión solo sin conexión: [Strongbox Cero](https://apps.appl
 
 ![gopass logo](assets/img/password-management/gopass.svg){ align=right }
 
-**gopass** is a minimal password manager for the command line written in Go. It can be used within scripting applications and works on all major desktop and server operating systems (Linux, macOS, BSD, Windows).
+**gopass** es un gestor de contraseñas mínimo para la línea de comandos escritos en Go. Puede utilizarse dentro de aplicaciones de scripting y funciona en los principales sistemas operativos de escritorio y servidor (Linux, macOS, BSD, Windows).
 
 [:octicons-home-16: Página Principal](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title=Documentación}
@@ -415,7 +415,7 @@ Además, hay una versión solo sin conexión: [Strongbox Cero](https://apps.appl
 [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:fontawesome-brands-windows: Windows](https://gopass.pw/#install-windows)
 - [:simple-apple: macOS](https://gopass.pw/#install-macos)

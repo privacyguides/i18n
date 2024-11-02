@@ -10,13 +10,13 @@ cover: multi-factor-authentication.webp
 - [:material-target-account: Ataques dirigidos](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Hardware Keys</p>
+<p class="admonition-title">Llaves Físicas</p>
 
-[Hardware security key recommendations](security-keys.md) have been moved to their own category.
+Las [recomendaciones sobre llaves de seguridad físicas](security-keys.md) se han movido a su propia categoría.
 
 </div>
 
-**Multi-Factor Authentication Apps** implement a security standard adopted by the Internet Engineering Task Force (IETF) called **Time-based One-time Passwords**, or **TOTP**. Se trata de un método en el que los sitios web comparten un secreto con usted que es utilizado por su aplicación de autenticación para generar un código de seis dígitos (normalmente) basado en la hora actual, que introduce al iniciar sesión para que el sitio web lo compruebe. Normalmente, estos códigos se regeneran cada 30 segundos, y una vez que se genera uno nuevo, el anterior queda inutilizado. Incluso si un pirata informático consigue un código de seis dígitos, no hay forma de que invierta ese código para obtener el secreto original ni de que pueda predecir cuáles serán los códigos futuros.
+Las **Aplicaciones de Autenticación Multifactor** aplican una norma de seguridad adoptada por el Grupo de Trabajo de Ingeniería de Internet (IETF) denominada **contraseñas de un solo uso basadas en el tiempo**, o **TOTP**. Se trata de un método en el que los sitios web comparten un secreto con usted que es utilizado por su aplicación de autenticación para generar un código de seis dígitos (normalmente) basado en la hora actual, que introduce al iniciar sesión para que el sitio web lo compruebe. Normalmente, estos códigos se regeneran cada 30 segundos, y una vez que se genera uno nuevo, el anterior queda inutilizado. Incluso si un pirata informático consigue un código de seis dígitos, no hay forma de que invierta ese código para obtener el secreto original ni de que pueda predecir cuáles serán los códigos futuros.
 
 Recomendamos encarecidamente que utilice aplicaciones TOTP para móviles en lugar de alternativas de escritorio, ya que Android e iOS tienen mejor seguridad y aislamiento de aplicaciones que la mayoría de los sistemas operativos de escritorio.
 
@@ -26,15 +26,15 @@ Recomendamos encarecidamente que utilice aplicaciones TOTP para móviles en luga
 
 ![Ente Auth logo](assets/img/multi-factor-authentication/ente-auth.svg){ align=right }
 
-**Ente Auth** is a free and open-source app which stores and generates TOTP tokens. Esta permite utilizar una cuenta en línea para realizar copias de seguridad y sincronizar sus tokens entre sus dispositivos (y accesarlos por medio de una interfaz web) de una manera secura y cifrada de extremo a extremo. También se puede utilizar sin conexión a Internet en un único dispositivo sin la necesidad de una cuenta.
+**Ente Auth** es una aplicación gratuita y de código abierto que almacena y genera tokens TOTP. Esta permite utilizar una cuenta en línea para realizar copias de seguridad y sincronizar sus tokens entre sus dispositivos (y accesarlos por medio de una interfaz web) de una manera secura y cifrada de extremo a extremo. También se puede utilizar sin conexión a Internet en un único dispositivo sin la necesidad de una cuenta.
 
-[:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.ente.io/auth){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://ente.io/auth){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://help.ente.io/auth){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id6444121398)
@@ -76,4 +76,4 @@ Recomendamos encarecidamente que utilice aplicaciones TOTP para móviles en luga
 
 - El código fuente debe estar a disposición del público.
 - No debe requerir conexión a Internet.
-- Cloud syncing must be optional, and (if available) sync functionality must be E2EE.
+- La sincronización con la nube debe ser opcional, y (si está disponible) la funcionalidad de sincronización debe ser E2EE.

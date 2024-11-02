@@ -463,7 +463,7 @@ Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar
 
 [Más información :material-arrow-right-drop-circle:](frontends.md)
 
-### Language Tools
+### Herramientas de Idiomas
 
 <div class="grid cards" markdown>
 
