@@ -9,7 +9,7 @@ description: Una lista completa de herramientas, servicios, software y hardware 
 
 Si está buscando una solución específica para algo, estas son las herramientas de hardware y software que recomendamos en una variedad de categorías. Nuestras herramientas de privacidad recomendadas se eligen principalmente en función de sus características de seguridad, con un énfasis adicional en las herramientas descentralizadas y de código abierto. Son aplicables a una variedad de modelos de amenazas que van desde la protección contra los programas de vigilancia masiva global y la evasión de las grandes empresas tecnológicas hasta la mitigación de ataques, pero solo usted puede determinar lo que funcionará mejor según sus necesidades.
 
-[VPN Providers](vpn.md ""){.md-button} [Password Managers](passwords.md ""){.md-button} [Email Providers](email.md ""){.md-button} [Browser Extensions](browser-extensions.md ""){.md-button} [DNS Servers](dns.md ""){.md-button} [Email Aliasing Services](email-aliasing.md ""){.md-button} [Photo Organization Tools](photo-management.md ""){.md-button}
+[Proveedores de VPN](vpn.md ""){.md-button} [Administradores de Contraseñas](passwords.md ""){.md-button} [Proveedores de Correo Electrónico](email.md ""){.md-button} [Extensiones de Navegador](browser-extensions.md ""){.md-button} [Servidores DNS](dns.md ""){.md-button} [Servicios de Alias de Correo Electrónico](email-aliasing.md ""){.md-button} [Herramientas de Organización de Fotografías](photo-management.md ""){.md-button}
 
 ¡Si necesita ayuda para averiguar cuáles son las mejores herramientas de privacidad y programas alternativos para sus necesidades, inicie un debate en nuestro [foro](https://discuss.privacyguides.net) o en nuestra comunidad [Matrix](https://matrix.to/#/#privacyguides:matrix.org)!
 
@@ -18,28 +18,28 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 <div class="grid" markdown>
 
 <div markdown>
-- [x] **Ad-Free Recommendations**
-- [x] **Frequent Updates**
-- [x] **Trusted by Readers**
+- [x] **Recomendaciones Sin Publicidad**
+- [x] **Actualizaciones Frecuentes**
+- [x] **Confiada por los Lectores**
 </div>
 
 <div markdown>
-- [x] **Complete Editorial Independence**
-- [x] **Open-Source Contributions**
-- [x] **Trusted by Journalists**
+- [x] **Completa Independencia Editorial**
+- [x] **Contribuciones de Código Abierto**
+- [x] **Confiada por los Periodistas**
 </div>
 
 </div>
 
-## Private Web Browsers
+## Navegadores Web Privados
 
 <div class="admonition recommendation" markdown>
 
 ![Tor Browser logo](assets/img/browsers/tor.svg){ align=left }
 
-**Tor Browser** (Desktop & Android) is the top choice if you need anonymity, as it provides you with access to the **Tor** network, a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuos y organizaciones también pueden compartir información a través de la red Tor con los "servicios ocultos .onion" sin comprometer su privacidad. Debido a que el tráfico de Tor es difícil de bloquear y rastrear, Tor es una herramienta eficaz para eludir la censura.
+**Tor Browser** (Escritorio y Android) es la mejor opción si necesita anonimato, ya que le proporciona acceso a la red **Tor**, un grupo de servidores operados por voluntarios que le permite conectarse gratis y mejorar su privacidad y seguridad en Internet. Individuos y organizaciones también pueden compartir información a través de la red Tor con los "servicios ocultos .onion" sin comprometer su privacidad. Debido a que el tráfico de Tor es difícil de bloquear y rastrear, Tor es una herramienta eficaz para eludir la censura.
 
-[Read Our Full Review :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary }
+[Lea Nuestra Reseña Completa :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary }
 
 </div>
 
@@ -49,23 +49,23 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
     ---
 
-    **Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed, aimed at providing Tor Browser's anti-fingerprinting browser technologies to VPN users.
+    **Mullvad Browser** es una versión de [Tor Browser](tor.md#tor-browser) con las integraciones de red Tor eliminadas, destinada a proporcionar las tecnologías de navegador anti-huella digital de Tor Browser a los usuarios de VPN.
 
-    - [Read Full Review :material-arrow-right-drop-circle:](desktop-browsers.md#mullvad-browser)
+    - [Lea la Reseña Completa :material-arrow-right-drop-circle:](desktop-browsers.md#mullvad-browser)
 
 - ![Firefox logo](assets/img/browsers/firefox.svg){ .lg .middle .twemoji } **Firefox**
 
     ---
 
-    **Firefox** is a great Chromium alternative which provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
+    **Firefox** es una gran alternativa a Chromium que proporciona una fuerte configuración de privacidad como [Protección de Rastreo Mejorada](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), que puede ayudar a bloquear varios [tipos de rastreo](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
 
-    - [Read Full Review :material-arrow-right-drop-circle:](desktop-browsers.md#firefox)
+    - [Lea la Reseña Completa :material-arrow-right-drop-circle:](desktop-browsers.md#firefox)
 
 - ![Brave logo](assets/img/browsers/brave.svg){ .lg .middle .twemoji } **Brave Browser**
 
     ---
 
-    **Brave** is a private-by-default browser based on Chromium, so it should feel familiar and have minimal website compatibility issues.
+    **Brave** es un navegador privado por defecto basado en Chromium, por lo que debería resultar familiar y tener mínimos problemas de compatibilidad con sitios web.
 
     - [Brave Desktop Review :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
     - [Brave Mobile Review :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
@@ -74,24 +74,24 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
     ---
 
-    **Mull** is a Firefox-based browser for Android centered around privacy and removing proprietary components.
+    **Mull** es un navegador basado en Firefox para Android centrado en la privacidad y la eliminación de componentes propietarios.
 
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#mull)
+    - [Lea la Reseña Completa :material-arrow-right-drop-circle:](mobile-browsers.md#mull)
 
 - ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
 
     ---
 
-    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0/) features and default tracker blocking. It also separates your cookies in private browsing mode to prevent tracking between tabs.
+    Recomendamos **Safari** por sus funciones [anti-huella digital](https://webkit.org/blog/15697/private-browsing-2-0/) y el bloqueo de rastreadores por defecto. También separa sus cookies en el modo de navegación privada para evitar el seguimiento entre pestañas.
 
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari)
+    - [Lea la Reseña Completa :material-arrow-right-drop-circle:](mobile-browsers.md#safari)
 
 </div>
 
 <div class="grid" markdown>
 
 <div markdown>
-### Browser Extensions
+### Extensiones del Navegador
 
 <div class="grid cards" markdown>
 
@@ -104,12 +104,12 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 </div>
 
 <div markdown>
-### More Tor Network Tools
+### Más Herramientas de la Red Tor
 
 <div class="grid cards" markdown>
 
-- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
-- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor for iOS)](tor.md#onion-browser)
+- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Procy Tor Smartphone)](tor.md#orbot)
+- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor para iOS)](tor.md#onion-browser)
 
 </div>
 
@@ -117,14 +117,14 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
 </div>
 
-## Top 3 Private VPN Providers
+## Los 3 Mejores Proveedores Privados de VPN
 
 <details class="danger" markdown>
 <summary>Las VPNs no proporcionan anonimato</summary>
 
 Utilizar una VPN **no** mantendrá sus hábitos de navegación en el anonimato, ni añadirá seguridad adicional al tráfico no seguro (HTTP).
 
-If you are looking for **anonymity**, you should use the Tor Browser.
+Si busca **anonimato**, debería usar Tor Browser.
 
 Si busca más **seguridad**, asegúrese siempre de conectarse a sitios web que utilicen HTTPS. Una VPN no sustituye las buenas prácticas de seguridad.
 
@@ -138,37 +138,37 @@ Si busca más **seguridad**, asegúrese siempre de conectarse a sitios web que u
 
     ---
 
-    - [x] **112+ Countries**
-    - [x] WireGuard Support
-    - [x] Cash Payments
-    - [x] Partial Port Forwarding Support
+    - [x] **112+ Países**
+    - [x] Soporte de WireGuard
+    - [x] Pagos en Efectivo
+    - [x] Soporte de Reenvío Parcial de Puertos
     - [ ] No IPv6
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
+    [Lea la Reseña Completa :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
 
 - ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .lg .middle .twemoji } **IVPN**
 
     ---
 
-    - [x] **37+ Countries**
-    - [x] WireGuard Support
-    - [x] Monero & Cash Payments
-    - [ ] No Port Forwarding
+    - [x] **37+ Países**
+    - [x] Soporte de WireGuard
+    - [x] Pagos en Efectivo y Monero
+    - [ ] No Reenvío de Puertos
     - [ ] No IPv6
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#ivpn)
+    [Lea la Reseña Completa :material-arrow-right-drop-circle:](vpn.md#ivpn)
 
 - ![Mullvad logo](assets/img/vpn/mullvad.svg){ .lg .middle .twemoji } **Mullvad**
 
     ---
 
-    - [x] **45+ Countries**
-    - [x] WireGuard Support
-    - [x] Monero & Cash Payments
-    - [ ] No Port Forwarding
-    - [x] IPv6 Support
+    - [x] **45+ Países**
+    - [x] Soporte de WireGuard
+    - [x] Pagos en Efectivo y Monero
+    - [ ] No Reenvío de Puertos
+    - [x] Soporte de IPv6
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#ivpn)
+    [Lea la Reseña Completa :material-arrow-right-drop-circle:](vpn.md#ivpn)
 
 </div>
 
@@ -180,32 +180,33 @@ Si busca más **seguridad**, asegúrese siempre de conectarse a sitios web que u
 
     ---
 
-    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. Ha estado en operación desde 2013. Proton AG tiene su sede en Ginebra, Suiza. El plan gratuito de Proton Mail incluye 500MB de almacenamiento, que puede ser aumentado hasta 1GB sin costo.
+    Proton Mail es un servicio de correo electrónico centrado en la privacidad, el cifrado, la seguridad y la facilidad de uso. Ha estado en operación desde 2013. Proton AG tiene su sede en Ginebra, Suiza. El plan gratuito de Proton Mail incluye 500MB de almacenamiento, que puede ser aumentado hasta 1GB sin costo.
 
-    [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
+    [Lea la Reseña Completa :material-arrow-right-drop-circle:](email.md#proton-mail)
 
 - ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji } **Mailbox.org**
 
     ---
 
-    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. Han estado en operación desde 2014. Mailbox.org tiene su sede en Berlín, Alemania. Las cuentas inician con hasta 2GB de almacenamiento, que pueden ser ampliados cuando sea necesario.
+    Mailbox.org es un servicio de correo electrónico centrado en la seguridad, sin publicidad y alimentado de forma privada con energía 100% ecológica.
+. Han estado en operación desde 2014. Mailbox.org tiene su sede en Berlín, Alemania. Las cuentas inician con hasta 2GB de almacenamiento, que pueden ser ampliados cuando sea necesario.
 
-    [Read Full Review :material-arrow-right-drop-circle:](email.md#mailboxorg)
+    [Lea la Reseña Completa :material-arrow-right-drop-circle:](email.md#mailboxorg)
 
 - ![Tuta logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
 
     ---
 
-    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta lleva funcionando desde 2011 y tiene su sede en Hannover, Alemania. Las cuentas gratuitas inician con 1GB de almacenamiento.
+    Tuta (antes *Tutanota*) es un servicio de correo electrónico centrado en la seguridad y la privacidad mediante el uso de cifrado. Tuta lleva funcionando desde 2011 y tiene su sede en Hannover, Alemania. Las cuentas gratuitas inician con 1GB de almacenamiento.
 
-    [Read Full Review :material-arrow-right-drop-circle:](email.md#tuta)
+    [Lea la Reseña Completa :material-arrow-right-drop-circle:](email.md#tuta)
 
 </div>
 
 <div class="grid" markdown>
 
 <div markdown>
-### Email Aliasing Services
+### Servicios de Alias de Correo Electrónico
 
 <div class="grid cards" markdown>
 
@@ -216,7 +217,7 @@ Si busca más **seguridad**, asegúrese siempre de conectarse a sitios web que u
 </div>
 
 <div markdown>
-### Self-Hosting Email
+### Autoalojamiento de Correo Electrónico
 
 <div class="grid cards" markdown>
 
@@ -228,7 +229,7 @@ Si busca más **seguridad**, asegúrese siempre de conectarse a sitios web que u
 
 </div>
 
-### Secure Email Clients
+### Clientes de Correo Electrónico Seguros
 
 <div class="grid cards" markdown>
 
@@ -246,7 +247,7 @@ Si busca más **seguridad**, asegúrese siempre de conectarse a sitios web que u
 
 [Más información :material-arrow-right-drop-circle:](email-clients.md)
 
-## More Private Service Providers
+## Más Proveedores de Servicios Privados
 
 ### Almacenamiento en la Nube
 
@@ -265,7 +266,7 @@ Si busca más **seguridad**, asegúrese siempre de conectarse a sitios web que u
 <div class="grid cards" markdown>
 
 - ![EasyOptOuts logo](assets/img/data-broker-removals/easyoptouts.svg){ .twemoji loading=lazy } [EasyOptOuts](data-broker-removals.md#easyoptouts-paid)
-- ![Google logo](assets/img/data-broker-removals/google.svg){ .twemoji loading=lazy } [Google *Results about you*](data-broker-removals.md#google-results-about-you-free)
+- ![Google logo](assets/img/data-broker-removals/google.svg){ .twemoji loading=lazy } [Google *Resultados sobre ti*](data-broker-removals.md#google-results-about-you-free)
 
 </div>
 
@@ -439,7 +440,7 @@ Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar
 - ![Send logo](assets/img/file-sharing-sync/send.svg){ .twemoji loading=lazy } [Send](file-sharing.md#send)
 - ![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ .twemoji loading=lazy } [OnionShare](file-sharing.md#onionshare)
 - ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-sharing.md#freedombox)
-- ![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Self-Hostable)](file-sharing.md#nextcloud-client-server)
+- ![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud (Autoalojable)](file-sharing.md#nextcloud-client-server)
 - ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ .twemoji loading=lazy } [Syncthing](file-sharing.md#syncthing-p2p)
 
 </div>
@@ -452,7 +453,7 @@ Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar
 
 - ![Redlib logo](assets/img/frontends/redlib.svg){ .twemoji loading=lazy } [Redlib (Reddit, Web)](frontends.md#redlib)
 - ![ProxiTok logo](assets/img/frontends/proxitok.svg){ .twemoji loading=lazy } [ProxiTok (TikTok, Web)](frontends.md#proxitok)
-- ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji loading=lazy } [FreeTube (YouTube, Desktop)](frontends.md#freetube)
+- ![FreeTube logo](assets/img/frontends/freetube.svg){ .twemoji loading=lazy } [FreeTube (YouTube, Escritorio)](frontends.md#freetube)
 - ![Yattee logo](assets/img/frontends/yattee.svg){ .twemoji loading=lazy } [Yattee (YouTube; iOS, tvOS, macOS)](frontends.md#yattee)
 - ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ .twemoji loading=lazy }![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ .twemoji loading=lazy } [LibreTube (YouTube, Android)](frontends.md#libretube-android)
 - ![NewPipe logo](assets/img/frontends/newpipe.svg){ .twemoji loading=lazy } [NewPipe (YouTube, Android)](frontends.md#newpipe-android)
@@ -475,7 +476,7 @@ Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar
 
 ### Herramientas de Autenticación de Múltiples Factores
 
-**Note:** [Hardware security keys](#security-keys) have been moved to their own category.
+**Nota:** [Las llaves de seguridad físicas](#security-keys) se han trasladado a su propia categoría.
 
 <div class="grid cards" markdown>
 
@@ -516,7 +517,7 @@ Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar
 
 [Más información :material-arrow-right-drop-circle:](notebooks.md)
 
-### Office Suites
+### Paquetes Ofimáticos
 
 <div class="grid cards" markdown>
 
@@ -574,7 +575,7 @@ Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar
 
 <div class="grid cards" markdown>
 
-- ![Yubico logo](assets/img/security-keys/mini/yubico.svg){ .twemoji loading=lazy } [Yubico Security Key](security-keys.md#yubico-security-key)
+- ![Yubico logo](assets/img/security-keys/mini/yubico.svg){ .twemoji loading=lazy } [Llave de Seguridad Yubico](security-keys.md#yubico-security-key)
 - ![Yubico logo](assets/img/security-keys/mini/yubico.svg){ .twemoji loading=lazy } [YubiKey](security-keys.md#yubikey)
 - ![Nitrokey](assets/img/security-keys/mini/nitrokey.svg){ .twemoji loading=lazy } [Nitrokey](security-keys.md#nitrokey)
 
@@ -582,7 +583,7 @@ Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar
 
 [Más información :material-arrow-right-drop-circle:](security-keys.md)
 
-### Mobile Phones
+### Teléfonos Móviles
 
 <div class="grid cards" markdown>
 
@@ -596,7 +597,7 @@ Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar
 
 ### Móvil
 
-#### Custom Android Operating Systems
+#### Sistemas Operativos Android Personalizados
 
 <div class="grid cards" markdown>
 
@@ -611,7 +612,7 @@ Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar
 
 <div class="grid cards" markdown>
 
-- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji loading=lazy } [Shelter (Work Profiles)](android/general-apps.md#shelter)
+- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji loading=lazy } [Shelter (Perfiles de Trabajo)](android/general-apps.md#shelter)
 - ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji loading=lazy }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji loading=lazy } [Secure Camera](android/general-apps.md#secure-camera)
 - ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji loading=lazy }![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji loading=lazy } [Secure PDF Viewer](android/general-apps.md#secure-pdf-viewer)
 
@@ -619,12 +620,12 @@ Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar
 
 [Más información :material-arrow-right-drop-circle:](android/general-apps.md)
 
-#### Ways to Obtain Android Apps
+#### Formas de Obtener Aplicaciones para Android
 
 <div class="grid cards" markdown>
 
-- ![Obtainium logo](assets/img/android/obtainium.svg){ .twemoji loading=lazy } [Obtainium (App Manager)](android/obtaining-apps.md#obtainium)
-- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji loading=lazy } [Aurora Store (Google Play Client)](android/obtaining-apps.md#aurora-store)
+- ![Obtainium logo](assets/img/android/obtainium.svg){ .twemoji loading=lazy } [Obtainium (Gestor de Aplicaciones)](android/obtaining-apps.md#obtainium)
+- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji loading=lazy } [Aurora Store (Cliente de Google Play)](android/obtaining-apps.md#aurora-store)
 
 </div>
 

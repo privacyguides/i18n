@@ -1,28 +1,26 @@
 ---
-title: Executive Policy
-description: These are policies formally adopted by our executive committee, and take precedence over all other statements expressed on this website.
+title: Política Ejecutiva
+description: Se trata de políticas adoptadas formalmente por nuestro comité ejecutivo y prevalecen sobre cualquier otra declaración expresada en este sitio web.
 ---
 
-These are policies formally adopted by Privacy Guides' executive committee, and take precedence over all other statements expressed on this website.
+Se trata de políticas adoptadas formalmente por el comité ejecutivo de Privacy Guides, y prevalecen sobre cualquier otra declaración expresada en este sitio web.
 
-The key words **must**, **must not**, **required**, **shall**, **shall not**, **should**, **should not**, **recommended**, **may**, and **optional** are to be interpreted as described in [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119).
+Las palabras clave **debe**, **no debe**, **requerido**, **deberá**, **no deberá**, **debería**, **no debería**, **recomendado**, **puede**, y **opcional** deben interpretarse como se describe en [RFC 2119](https://datatracker. etf.org/doc/html/rfc2119).
 
-## EP1: Freely-Provided Product Samples
+## EP1: Muestras Gratuitas de Productos
 
-_Our policy on accepting product samples for review was adopted September 7, 2024._
+_Nuestra política de aceptación de muestras de productos para su revisión fue adoptada el 7 de septiembre de 2024._
 
-\=== "Current Version (1)"
+\=== "Versión Actual (1)"
 
 ```
-- Privacy Guides **shall not** proactively reach out to vendors asking for product samples or review accounts.
-- Privacy Guides **shall not** accept test/review accounts for subscription cloud services.
-- Privacy Guides **may** accept freely-provided product samples for one-time purchase software applications which run locally, given they don't require a subscription for continued operation.
-- Privacy Guides **may** accept freely-provided samples of hardware products.
-    - Privacy Guides **may** accept a freely-provided subscription service associated with a hardware product, if such a subscription/license is necessary to use the product.
-- Privacy Guides **must not** enter into an agreement pertaining to our editorial opinion with the vendor in order to receive a sample or publish a review. All freely-provided items must be strictly "no strings attached."
-    - We **may** agree to return the product to the vendor following the review if requested.
-    - We **may** agree to a reasonable NDA, provided it has a clear embargo date that is lifted no more than 6 months in the future where the NDA completely no longer applies.
-    - We **should not** enter into any other agreement with the vendor not described here. Potential agreements not described here **must** be approved by the executive committee beforehand.
-
-In all cases, whether we paid for the product independently or received a free sample from a vendor, how we obtained the product **must** be clearly documented in the background section of every article associated with the product.
+- Privacy Guides **no** se pondrá en contacto de forma proactiva con los proveedores para pedirles muestras de productos o cuentas de revisión.
+- Privacy Guides **no** aceptará cuentas de prueba/revisión para servicios en la nube de suscripción.
+- Privacy Guides **podría** aceptar muestras de producto gratuitas para aplicaciones de software de compra única que se ejecutan localmente, dado que no requieren una suscripción para su funcionamiento continuado.
+- Privacy Guides **podría** aceptar muestras gratuitas de productos de hardware.
+    - Privacy Guides **podría** aceptar un servicio de suscripción gratuito asociado a un producto de hardware, si dicha suscripción/licencia es necesaria para utilizar el producto.
+- Privacy Guides **no debe** llegar a un acuerdo sobre nuestra opinión editorial con el vendedor para recibir una muestra o publicar una reseña. Todos los artículos proporcionados gratuitamente deben ser estrictamente «sin condiciones».
+    - Es **posible** que nos comprometamos a devolver el producto al vendedor después de la reseña, si así se nos solicita.
+    - Es **posible** que aceptemos un acuerdo de confidencialidad razonable, siempre que tenga una fecha de embargo clara que no se levante más de 6 meses en el futuro, cuando el acuerdo de confidencialidad ya no se aplique por completo.
+    - **No debemos** firmar ningún otro acuerdo con el vendedor que no esté descrito aquí. Los posibles acuerdos no descritos aquí **deben** ser aprobados previamente por el comité ejecutivo.
 ```

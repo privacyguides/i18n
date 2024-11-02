@@ -1,22 +1,22 @@
 ---
-title: Donate
-description: The charitable mission of Privacy Guides relies on contributions from visitors like yourself. Anything you can do to support the project is hugely appreciated.
+title: Donar
+description: La misión benéfica de Privacy Guides depende de las contribuciones de visitantes como tú. Todo lo que puedas hacer para apoyar el proyecto será muy apreciado.
 ---
 
 <!-- markdownlint-disable MD036 -->
-Donate to Privacy Guides and support our mission to defend digital rights and spread the word about mass surveillance programs and other daily privacy invasions. You can help Privacy Guides researchers, activists, and maintainers create informative content, host private digital services, and protect privacy rights at a time when the world needs it most.
+Haz un donativo a Privacy Guides y apoya nuestra misión de defender los derechos digitales y difundir información sobre los programas de vigilancia masiva y otras invasiones cotidianas de la privacidad. Puedes ayudar a los investigadores, activistas y mantenedores de Privacy Guides a crear contenidos informativos, albergar servicios digitales privados y proteger los derechos de privacidad en un momento en que el mundo más lo necesita.
 
-Privacy Guides has been a nonstop effort for over 5 years to stay up to date with the world of cybersecurity and privacy, and to promote the benefits of privacy overall. This is a **non-profit, community-driven** project that would not be possible without the generous support of all our [contributors](contributors.md).
+Privacy Guides lleva más de 5 años esforzándose sin descanso por mantenerse al día en el mundo de la ciberseguridad y la privacidad, y por promover los beneficios de la privacidad en general. Se trata de un proyecto **comunitario sin ánimo de lucro** que no sería posible sin el generoso apoyo de todos nuestros [colaboradores](contributors.md).
 
-## Donate
+## Donar
 
-Currently, the best way to support our work is to send a monthly or one-time contribution via GitHub Sponsors. We will be able to accept donations via alternate payment platforms very soon.
+Actualmente, la mejor manera de apoyar nuestro trabajo es enviar una contribución mensual o única a través de GitHub Sponsors. Muy pronto podremos aceptar donaciones a través de otras plataformas de pago.
 
-[:material-heart:{ .pg-red } Sponsor us on GitHub](https://github.com/sponsors/privacyguides){ class="md-button md-button--primary" }
+[:material-heart:{ .pg-red } Patrocínanos en GitHub](https://github.com/sponsors/privacyguides){ class="md-button md-button--primary" }
 
-A new donation platform we control to make donating easier will be deployed soon. In the meantime, if you'd like to arrange a donation (including with cryptocurrency), please reach out to [info@magicgrants.org](mailto:info@magicgrants.org).
+Pronto se pondrá en marcha una nueva plataforma de donaciones que controlamos para facilitar las donaciones. Mientras tanto, si deseas realizar una donación (incluso en criptomonedas), ponte en contacto con [info@magicgrants.org](mailto:info@magicgrants.org).
 
-## Como usamos las donaciones
+## Cómo usamos las donaciones
 
 Privacy Guides es una organización **sin ánimos de lucro**. Utilizamos las donaciones para diversos fines, entre ellos:
 
@@ -25,38 +25,38 @@ Privacy Guides es una organización **sin ánimos de lucro**. Utilizamos las don
 
 El tráfico de este sitio web utiliza cientos de gigabytes de datos al mes, utilizamos una variedad de proveedores de servicios para mantener este tráfico.
 
-**Payroll**
+**Nómina**
 :
 
-We currently have one paid part-time [position](../about.md#staff) which handles day-to-day tasks like system administration, writing regular product reviews, posting our weekly show, creating course content, etc. In the future, we would like to be able to hire full-time journalists and writers to review products and create more educational content.
+Actualmente tenemos un [puesto](../about.md#staff) remunerado a tiempo parcial que se encarga de tareas cotidianas como la administración del sistema, la redacción de reseñas periódicas de productos, la publicación de nuestro programa semanal, la creación de contenidos para los cursos, etc. En el futuro, nos gustaría poder contratar periodistas y escritores a tiempo completo para revisar productos y crear más contenidos educativos.
 
-**Domain Registrations**
+**Registro de Dominios**
 :
 
-We have a few domain names like `privacyguides.org` which cost us around $10 yearly to maintain their registration.
+Tenemos algunos nombres de dominio como `privacyguides.org` los cuales nos cuestan alrededor de 10 dólares al año para mantener su registro.
 
 **Servicios en línea**
 :
 
-We host [internet services](services.md) for testing and showcasing different privacy-products we like and [recommend](../tools.md). Some of them are made publicly available for our community's use (SearXNG, Tor, etc.), and some are provided for our team members (email, etc.).
+Alojamos [servicios de internet](services.md) para probar y mostrar diferentes productos de privacidad que nos gustan y [recomendamos](../tools.md). Algunos de ellos están a disposición del público para uso de nuestra comunidad (SearXNG, Tor, etc.), y otros se proporcionan a los miembros de nuestro equipo (correo electrónico, etc.).
 
 **Compras de productos**
 :
 
 Ocasionalmente compramos productos y servicios con el fin de probar nuestras [herramientas recomendadas](../tools.md).
 
-Your donation will go to a [dedicated fund](https://magicgrants.org/funds/privacy_guides) within [MAGIC Grants](https://magicgrants.org), a 501(c)(3) organization. The funds will only be used for this project specifically. You may qualify for a tax deduction. If you need a donation receipt, please email <info@magicgrants.org>.
+Tu donación irá a un [fondo dedicado](https://magicgrants.org/funds/privacy_guides) dentro de [MAGIC Grants](https://magicgrants.org), una organización 501(c)(3). Los fondos solo se utilizarán específicamente para este proyecto. Es posible que puedas beneficiarte de una deducción fiscal. Si necesitas un recibo de donación, envía un correo electrónico a <info@magicgrants.org>.
 
 ¡Gracias a todos los que apoyan nuestra misión! :material-heart:{ .pg-red }
 
-We strictly **cannot** use donations to support political campaigns/candidates or attempt to influence legislation. Earnings also will **not** inure to the benefit of any private shareholder or individual.
+**No podemos** utilizar las donaciones para apoyar campañas o candidatos políticos ni para influir en la legislación. Los beneficios **tampoco** beneficiarán a ningún accionista privado o particular.
 
-## Merchandise
+## Mercadería
 
 Otra opción para apoyarnos es comprar nuestra mercadería en HelloTux. Nosotros recibimos una pequeña comisión por cada artículo vendido, y tú obtienes un producto de calidad como recompensa.
 
 [Compra en HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
 
-## Non-Financial Support
+## Apoyo No Financiero
 
-It takes a lot of [people](contributors.md) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spread the word about privacy and mass surveillance. If you're looking for other ways to help out, consider getting involved by [editing the site](https://github.com/privacyguides/privacyguides.org), [joining our forum](https://discuss.privacyguides.net), or [contributing translations](https://crowdin.com/project/privacyguides).
+Se necesita mucha [gente](contributors.md) y [trabajo](https://github.com/privacyguides/privacyguides.org/pulse/monthly) para mantener actualizada las Privacy Guides y difundir información sobre la privacidad y la vigilancia masiva. Si buscas otras formas de ayudar, considera la posibilidad de participar [editando el sitio](https://github.com/privacyguides/privacyguides.org), [uniéndote a nuestro foro](https://discuss.privacyguides.net) o [contribuyendo con traducciones](https://crowdin.com/project/privacyguides).

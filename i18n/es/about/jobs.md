@@ -1,35 +1,35 @@
 ---
-title: Job Openings
-description: Privacy Guides has a small, remote team of privacy researchers and advocates. Any open positions we may have in the future will be posted here.
+title: Ofertas de Empleo
+description: Privacy Guides cuenta con un pequeño equipo remoto de investigadores y defensores de la privacidad. Los puestos vacantes que podamos tener en el futuro se publicarán aquí.
 ---
 
-Privacy Guides has a small, remote team of privacy researchers and advocates working to further our mission of protecting free expression and promoting privacy-respecting technology. As a non-profit, we are expanding very slowly to ensure the project is sustainable in the long term. All of our staff members are listed [here](../about.md#staff). Please consider [donating](donate.md) to support our cause.
+Privacy Guides cuenta con un pequeño equipo remoto de investigadores y defensores de la privacidad que trabajan para llevar adelante nuestra misión de proteger la libertad de expresión y promover una tecnología respetuosa con la privacidad. Como organización sin ánimo de lucro, nos expandimos muy lentamente para garantizar la sostenibilidad del proyecto a largo plazo. Todos los miembros de nuestro personal figuran [aquí](../about.md#staff). Por favor, considera la posibilidad de [donar](donate.md) para apoyar nuestra causa.
 
-We are occasionally looking for strong journalistic writers, product reviewers, and privacy experts to help us out, and any open positions will be posted below.
+Ocasionalmente buscamos buenos redactores periodísticos, revisores de productos y expertos en privacidad para que nos ayuden, y los puestos vacantes se publicarán a continuación.
 
 ---
 
-## Open Positions
+## Posiciones Abiertas
 
 <div class="grid cards" markdown>
 
-- :material-video-box:{ .lg .middle } **Content Creator**
+- :material-video-box:{ .lg .middle } **Creador de Contenido**
 
   ---
 
-  Full-Time | Remote | \$20-$25/hour
+  Tiempo Completo | A Distancia |$20-$25/hora
 
-  [View posting :material-arrow-right-drop-circle:](jobs/content-creator.md)
+  [Ver publicación :material-arrow-right-drop-circle:](jobs/content-creator.md)
 
-- :material-file-document-edit:{ .lg .middle } **Journalist**
+- :material-file-document-edit:{ .lg .middle } **Periodista**
 
   ---
 
-  Full-Time | Remote | \$20-$25/hour
+  Tiempo Completo | A Distancia |$20-$25/hora
 
-  [View posting :material-arrow-right-drop-circle:](jobs/journalist.md)
+  [Ver publicación :material-arrow-right-drop-circle:](jobs/journalist.md)
 
-- :material-comment-account-outline:{ .lg .middle } **Intern - Community/News**
+- :material-comment-account-outline:{ .lg .middle } **Becario - Comunidad/Noticias**
 
   ---
 

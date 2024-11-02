@@ -4,7 +4,7 @@ title: "Outils de protection de la vie privée"
 icon: material/tools
 hide:
   - toc
-description: A complete list of the privacy tools, services, software, and hardware recommended by the Privacy Guides community.
+description: Liste complète des outils, services, logiciels et matériels de protection de la vie privée recommandés par la communauté Privacy Guides.
 ---
 
 Si vous cherchez une solution spécifique à un problème, voici pour diverses catégories les outils matériels et logiciels que nous vous recommandons. Les outils de protection de la vie privée que nous recommandons sont principalement choisis pour leurs fonctionnalités de sécurité, avec une attention particulière pour les outils décentralisés et open source. Ils sont adaptés à divers modèles menaces, que vous cherchiez à vous protéger contre les programmes de surveillance de masse mondiaux et à éviter les grandes entreprises du numérique, voire à mitiger les attaques. Toutefois, vous seul êtes en mesure de déterminer ce qui répondra le mieux à vos besoins.
@@ -35,9 +35,9 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 
 <div class="admonition recommendation" markdown>
 
-![Tor Browser logo](assets/img/browsers/tor.svg){ align=left }
+![Logo du navigateur Tor](assets/img/browsers/tor. vg){ align=left }
 
-**Tor Browser** (Desktop & Android) is the top choice if you need anonymity, as it provides you with access to the **Tor** network, a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Les particuliers et les organisations peuvent également partager des informations sur le réseau Tor avec des "services cachés .onion" sans compromettre leur vie privée. Parce que le trafic Tor est difficile à bloquer et à tracer, Tor est un outil efficace pour contourner la censure.
+**Le navigateur Tor** (Ordinateur & Android) est le meilleur choix si vous avez besoin de l'anonymat, car il vous donne accès au réseau **Tor** un groupe de serveurs gérés par des bénévoles qui vous permettent de vous connecter gratuitement et d'améliorer votre vie privée et votre sécurité sur Internet. Les particuliers et les organisations peuvent également partager des informations sur le réseau Tor avec des "services cachés .onion" sans compromettre leur vie privée. Parce que le trafic Tor est difficile à bloquer et à tracer, Tor est un outil efficace pour contourner la censure.
 
 [Read Our Full Review :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary }
 
@@ -76,13 +76,13 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 
     **Mull** is a Firefox-based browser for Android centered around privacy and removing proprietary components.
 
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#mull)
+    - [Lire l'avis complet :material-arrow-right-drop-circle:](mobile-browsers.md#mull)
 
 - ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
 
     ---
 
-    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0/) features and default tracker blocking. It also separates your cookies in private browsing mode to prevent tracking between tabs.
+    Nous recommandons **Safari** en raison de ses fonctionnalités [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0/) et de son blocage par défaut des traceurs. It also separates your cookies in private browsing mode to prevent tracking between tabs.
 
     - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari)
 
