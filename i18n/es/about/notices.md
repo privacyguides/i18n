@@ -13,7 +13,7 @@ Privacy Guides es un proyecto de código abierto al que se ha contribuido bajo l
 
 Además, Privacy Guides no garantiza que este sitio web esté disponible, de forma constante o en absoluto.
 
-## Resumen de licencias
+## Resumen de Licencias
 
 <div class="admonition danger" markdown>
 
@@ -35,7 +35,7 @@ Creemos que los logotipos y otras imágenes en `assets` obtenidos de terceros pr
 
 Cuando contribuyes a nuestro sitio web lo estás haciendo bajo las licencias anteriores, y estás otorgando a las Guías de Privacidad un autor, mundial, no exclusivo, transferible, sin realismo Licencia irrevocable con derecho a sublicenciar tales derechos a través de múltiples niveles de sublicencias, para reproducir, modificar, mostrar, realizar y distribuir su contribución como parte de nuestro proyecto.
 
-## Uso aceptable
+## Uso Aceptable
 
 Usted no puedes utilizar este sitio web de ninguna manera que cause o pueda causar daños al sitio web o que afecte a la disponibilidad o accesibilidad de Privacy Guides, ni de ninguna manera que sea ilegal, ilícita, fraudulenta o perjudicial, o que esté relacionada con cualquier propósito o actividad ilícita, ilegal, fraudulenta o perjudicial.
 
