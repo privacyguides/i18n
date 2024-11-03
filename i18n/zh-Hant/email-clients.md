@@ -63,7 +63,7 @@ When replying to someone on a mailing list in Thunderbird Mobile, the "reply" op
 
 <div class="annotate" markdown>
 
-We recommend changing some of these settings to make Thunderbird Desktop a little more private.
+我們建議您變更其中一些設定，讓電腦版 Thunderbird 更為私密。
 
 這些選項可在 :material-menu: → **設定** → **隱私權與安全性** 中找到。
 
@@ -82,7 +82,7 @@ We recommend changing some of these settings to make Thunderbird Desktop a littl
 
 #### Thunderbird-user.js （進階）
 
-[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) 是一組設定選項，目的是儘可能停用 Thunderbird 電腦版 內的網頁瀏覽功能，以減少攻擊面並維護隱私。 有些變更是從 [Arkenfox 專案](desktop-browsers.md#arkenfox-advanced) 中得來的。
+[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) 是一系列設定選項，目的是儘可能停用 Thunderbird 電腦版 內的網頁瀏覽功能，以減少攻擊面並維護隱私。 有些變更是從 [Arkenfox 專案](desktop-browsers.md#arkenfox-advanced) 中得來的。
 
 ## 特定平臺
 
