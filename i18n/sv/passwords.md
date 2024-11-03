@@ -163,10 +163,10 @@ Dessa lösenordshanterare synkroniserar dina lösenord till en molnserver så at
 
 **Bitwarden** is a free and open-source password and passkey manager. Syftet är att lösa problem med lösenordshantering för enskilda personer, grupper och företag. Bitwarden är en av de bästa och säkraste lösningarna för att lagra alla dina inloggningar och lösenord och samtidigt hålla dem synkroniserade mellan alla dina enheter.
 
-[:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://bitwarden.com/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Source Code" }
+[:octicons-home-16: Hemsida](https://bitwarden.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Integritetspolicy" }
+[:octicons-info-16:](https://bitwarden.com/help){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Källkod" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -206,10 +206,10 @@ Bitwarden's server-side code is [open source](https://github.com/bitwarden/serve
 
 **Proton Pass** is an open-source, end-to-end encrypted password manager developed by Proton, the team behind [Proton Mail](email.md#proton-mail). It securely stores your login credentials, generates unique email aliases, and supports and stores passkeys.
 
-[:octicons-home-16: Homepage](https://proton.me/pass){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/pass){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/protonpass){ .card-link title="Source Code" }
+[:octicons-home-16: Hemsida](https://proton.me/pass){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="Integritetspolicy" }
+[:octicons-info-16:](https://proton.me/support/pass){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/protonpass){ .card-link title="Källkod" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -244,9 +244,9 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 
 **1Password** is a password manager with a strong focus on security and ease-of-use that allows you to store passwords, passkeys, credit cards, software licenses, and any other sensitive information in a secure digital vault. Your vault is hosted on 1Password's servers for a [monthly fee](https://1password.com/sign-up). 1Password is [audited](https://support.1password.com/security-assessments) on a regular basis and provides exceptional customer support. 1Password är en sluten källa, men produktens säkerhet dokumenteras noggrant i deras [white paper om säkerhet](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
 
-[:octicons-home-16: Homepage](https://1password.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.1password.com){ .card-link title="Documentation" }
+[:octicons-home-16: Hemsida](https://1password.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="Integritetspolicy" }
+[:octicons-info-16:](https://support.1password.com){ .card-link title="Dokumentation" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -278,10 +278,10 @@ Ditt 1Password-valv är skyddat med både ditt huvudlösenord och en slumpmässi
 
 **Psono** är en gratis lösenordshanterare med öppen källkod från Tyskland, med fokus på lösenordshantering för team. Psono stöder säker delning av lösenord, filer, bokmärken och e-post. Alla hemligheter skyddas av ett huvudlösenord.
 
-[:octicons-home-16: Homepage](https://psono.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://doc.psono.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Source Code" }
+[:octicons-home-16: Hemsida](https://psono.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Integritetspolicy" }
+[:octicons-info-16:](https://doc.psono.com){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Källkod" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -331,11 +331,11 @@ Med dessa alternativ kan du hantera en krypterad lösenordsdatabas lokalt.
 
 **KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal of extending and improving it with new features and bugfixes to provide a feature-rich, cross-platform, and modern open-source password manager.
 
-[:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://keepassxc.org/docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title="Contribute" }
+[:octicons-home-16: Hemsida](https://keepassxc.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Integritetspolicy" }
+[:octicons-info-16:](https://keepassxc.org/docs){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Källkod" }
+[:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title="Bidra" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -361,10 +361,10 @@ KeePassXC lagrar sina exportdata som [CSV](https://en.wikipedia.org/wiki/Comma-s
 
 **KeePassDX** is a lightweight password manager for Android; it allows for editing encrypted data in a single file in KeePass format and can fill in forms in a secure way. The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) of the app allows you to unlock cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
 
-[:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title="Contribute" }
+[:octicons-home-16: Hemsida](https://keepassdx.com){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Källkod" }
+[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title="Bidra" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -384,11 +384,11 @@ KeePassXC lagrar sina exportdata som [CSV](https://en.wikipedia.org/wiki/Comma-s
 
 **Strongbox** is a native password manager for iOS and macOS. Strongbox stöder både KeePass- och Password Safe-format och kan användas tillsammans med andra lösenordshanterare, som KeePassXC, på andra plattformar än Apple-plattformar. By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier, with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
 
-[:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://strongboxsafe.com/getting-started){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title="Contribute" }
+[:octicons-home-16: Hemsida](https://strongboxsafe.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Integritetspolicy" }
+[:octicons-info-16:](https://strongboxsafe.com/getting-started){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Källkod" }
+[:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title="Bidra" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -409,10 +409,10 @@ Additionally, Strongbox offers an offline-only version: [Strongbox Zero](https:/
 
 **gopass** is a minimal password manager for the command line written in Go. It can be used within scripting applications and works on all major desktop and server operating systems.
 
-[:octicons-home-16: Homepage](https://gopass.pw){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title="Contribute" }
+[:octicons-home-16: Hemsida](https://gopass.pw){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Källkod" }
+[:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title="Bidra" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

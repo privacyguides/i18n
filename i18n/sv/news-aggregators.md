@@ -17,11 +17,11 @@ A **news aggregator** is software which aggregates digital content from online n
 
 **Akregator** är en nyhetsflödesläsare som är en del av projektet [KDE](https://kde.org). Den har en snabb sökning, avancerad arkiveringsfunktionalitet och en intern webbläsare för enkel läsning av nyheter.
 
-[:octicons-home-16: Homepage](https://apps.kde.org/akregator){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Documentation}
-[:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title=Contribute }
+[:octicons-home-16: Hemsida](https://apps.kde.org/akregator){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Integritetspolicy" }
+[:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Källkod" }
+[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title=Bidra }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

@@ -122,10 +122,10 @@ Appen erbjuder flera sätt att radera metadata från bilder. Namn:
 
 Det är ofta en del av andra program för att ta bort Exif-filer och finns i de flesta Linuxdistributioners arkiv.
 
-[:octicons-home-16: Homepage](https://exiftool.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribute }
+[:octicons-home-16: Hemsida](https://exiftool.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Källkod" }
+[:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Bidra }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
