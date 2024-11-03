@@ -297,7 +297,7 @@ Safari 的歷史記錄、分頁群組、iCloud 分頁和已儲存密碼的同步
 
 您可以為 Safari 書籤和下載啟用 E2EE ，只需啟用「[進階資料防護](https://support.apple.com/HT212520)」即可。 Go to :gear: **Settings** → **iCloud** → **Advanced Data Protection**.
 
-- [x] Turn on **Advanced Data Protection**
+- [x] 開啟 **進階資料保護**
 
 If you use iCloud with Advanced Data Protection disabled, we also recommend setting Safari's default download location to a local folder on your device. This option can be found in :gear: **Settings** → **Apps** → **Safari** → **General** → **Downloads**.
 

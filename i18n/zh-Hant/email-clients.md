@@ -39,7 +39,7 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.thunderbird.android)
 - [:simple-github: GitHub](https://github.com/thunderbird/thunderbird-android/releases)
@@ -55,7 +55,7 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-When replying to someone on a mailing list in Thunderbird Mobile, the "reply" option may also include the mailing list. For more information see [thunderbird/thunderbird-android #3738](https://github.com/thunderbird/thunderbird-android/issues/3738).
+When replying to someone on a mailing list in Thunderbird Mobile, the "reply" option may also include the mailing list. 更多資訊請參閱 [thunderbird/thunderbird-android #3738](https://github.com/thunderbird/thunderbird-android/issues/3738)。
 
 </div>
 
@@ -82,7 +82,7 @@ We recommend changing some of these settings to make Thunderbird Desktop a littl
 
 #### Thunderbird-user.js （進階）
 
-[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) is a set of configuration options that aims to disable as many of the web-browsing features within Thunderbird Desktop as possible in order to reduce attack surface and maintain privacy. 有些變更是從 [Arkenfox 專案](desktop-browsers.md#arkenfox-advanced) 中得來的。
+[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) 是一組設定選項，目的是儘可能停用 Thunderbird 電腦版 內的網頁瀏覽功能，以減少攻擊面並維護隱私。 有些變更是從 [Arkenfox 專案](desktop-browsers.md#arkenfox-advanced) 中得來的。
 
 ## 特定平臺
 
