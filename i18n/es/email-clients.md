@@ -39,7 +39,7 @@ OpenPGP tampoco admite [secreto hacia adelante](https://en.wikipedia.org/wiki/Fo
 [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.thunderbird.android)
 - [:simple-github: GitHub](https://github.com/thunderbird/thunderbird-android/releases)
@@ -55,7 +55,7 @@ OpenPGP tampoco admite [secreto hacia adelante](https://en.wikipedia.org/wiki/Fo
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-When replying to someone on a mailing list in Thunderbird Mobile, the "reply" option may also include the mailing list. For more information see [thunderbird/thunderbird-android #3738](https://github.com/thunderbird/thunderbird-android/issues/3738).
+Al responder a alguien de una lista de correo en Thunderbird Mobile, la opción "responder" también puede incluir la lista de correo. Para más información, consulta [thunderbird/thunderbird-android #3738](https://github.com/thunderbird/thunderbird-android/issues/3738).
 
 </div>
 
@@ -63,7 +63,7 @@ When replying to someone on a mailing list in Thunderbird Mobile, the "reply" op
 
 <div class="annotate" markdown>
 
-We recommend changing some of these settings to make Thunderbird Desktop a little more private.
+Recomendamos cambiar algunos de estos ajustes para que Thunderbird Desktop sea un poco más privado.
 
 Estas opciones se encuentran en :material-menu: → **Preferencias** → **Privacidad y seguridad**.
 
@@ -82,7 +82,7 @@ Estas opciones se encuentran en :material-menu: → **Preferencias** → **Priva
 
 #### Thunderbird-user.js (avanzado)
 
-[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) is a set of configuration options that aims to disable as many of the web-browsing features within Thunderbird Desktop as possible in order to reduce attack surface and maintain privacy. Algunos de los cambios son adaptados desde el [proyecto Arkenfox](desktop-browsers.md#arkenfox-advanced).
+[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) es un conjunto de opciones de configuración cuyo objetivo es desactivar el mayor número posible de funciones de navegación web en Thunderbird Desktop para reducir la superficie de ataque y mantener la privacidad. Algunos de los cambios son adaptados desde el [proyecto Arkenfox](desktop-browsers.md#arkenfox-advanced).
 
 ## Plataforma Específica
 

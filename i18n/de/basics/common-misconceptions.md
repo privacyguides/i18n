@@ -1,5 +1,5 @@
 ---
-title: "Common Misconceptions"
+title: "Häufige Missverständnisse"
 icon: 'material/robot-confused'
 description: Datenschutz ist kein einfaches Thema, und es ist leicht, sich von Marketingaussagen und anderen Desinformationen täuschen zu lassen.
 schema:
@@ -27,15 +27,15 @@ schema:
         acceptedAnswer:
           "@type": Answer
           text: |
-            Focusing solely on the privacy policies and marketing of a tool or provider can blind you to its weaknesses. When you're looking for a more private solution, you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like Cryptomator) which provides E2EE on any cloud provider. Switching to a "privacy-focused" provider (that doesn't implement E2EE) doesn't solve your problem: it just shifts trust from Google to that provider.
+            Wenn man sich ausschließlich auf die Datenschutzrichtlinien und die Vermarktung eines Tools oder Anbieters konzentriert, kann man seine Schwächen übersehen. Wenn du nach einer datenschutzfreundlicheren Lösung suchst, solltest du das zugrunde liegende Problem bestimmen und technische Lösungen für dieses Problem finden. So solltest du beispielsweise Google Drive meiden, da Google dadurch Zugriff auf alle deine Daten hat. Das zugrundeliegende Problem ist in diesem Fall das Fehlen von E2EE. Du solltest also sicherstellen, dass der Anbieter, zu dem du wechselst, tatsächlich E2EE implementiert, oder ein Tool (wie Cryptomator) verwenden, das E2EE für jeden Cloud-Anbieter bereitstellt. Der Wechsel zu einem „datenschutzfreundlichen“ Anbieter (der kein E2EE implementiert) löst dein Problem nicht: Es verlagert lediglich das Vertrauen von Google auf diesen Anbieter.
       - 
         "@type": Question
         name: Wie kompliziert sollte mein Bedrohungsmodell sein?
         acceptedAnswer:
           "@type": Answer
           text: |
-            We often see people describing privacy threat models that are overly complex. Often, these solutions include problems like many different email accounts or complicated setups with lots of moving parts and conditions. The replies are usually answers to "What is the best way to do X?"
-            Finding the "best" solution for yourself doesn't necessarily mean you are after an infallible solution with dozens of conditions—these solutions are often difficult to work with realistically. As we discussed previously, security often comes at the cost of convenience.
+            Oft sehen wir Menschen, die Bedrohungsmodelle für ihre Privatsphäre beschreiben, die übermäßig komplex sind. Oft beinhalten diese Lösungen Probleme wie viele verschiedene E-Mail-Konten oder komplizierte Konfigurationen mit vielen beweglichen Teilen und Bedingungen. Die Antworten sind in der Regel Antworten auf die Frage „Wie kann man X am besten machen?“
+            Die "beste" Lösung für sich selbst zu finden, bedeutet nicht unbedingt, dass du eine unfehlbare Lösung mit Dutzenden von Bedingungen anstrebst - solche Lösungen sind oft schwer realistisch zu handhaben. Wie wir bereits besprochen haben, geht Sicherheit oft auf Kosten der Bequemlichkeit.
 ---
 
 ## „Open-Source-Software ist immer sicher“oder „Proprietäre Software ist sicherer“
@@ -44,7 +44,7 @@ Diese Mythen beruhen auf einer Reihe von Vorurteilen, aber ob der Quellcode offe
 
 Open-Source-Software *kann* von Dritten geprüft werden und ist in Bezug auf potenzielle Schwachstellen oft transparenter als proprietäre Software. Außerdem kannst du den Code überprüfen und verdächtige Funktionen deaktivieren, die du selbst findest. *Wenn du dies nicht tust*, gibt es keine Garantie, dass der Code jemals evaluiert wurde, insbesondere bei kleineren Softwareprojekten. The open development process has also sometimes been exploited to introduce new vulnerabilities known as [:material-package-variant-closed-remove: Supply Chain Attacks](common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}, which are discussed further in our [Common Threats](common-threats.md) page.[^1]
 
-On the flip side, proprietary software is less transparent, but that doesn't imply that it's not secure. Major proprietary software projects can be audited internally and by third-party agencies, and independent security researchers can still find vulnerabilities with techniques like reverse engineering.
+Auf der anderen Seite ist proprietäre Software weniger transparent, was aber nicht bedeutet, dass sie nicht sicher ist. Große proprietäre Softwareprojekte können intern und von Drittanbietern geprüft werden, und unabhängige Sicherheitsforscher können mit Techniken wie Reverse Engineering immer noch Schwachstellen finden.
 
 Um voreingenommene Entscheidungen zu vermeiden, ist es *wichtig,* dass du die Datenschutz- und Sicherheitsstandards der von dir verwendeten Software bewertest.
 
@@ -57,9 +57,9 @@ Bei Lösungen wie VPNs (bei denen das Vertrauen in den Internetanbieter auf den 
 
 ## „Auf den Datenschutz ausgerichtete Lösungen sind von Natur aus vertrauenswürdig“
 
-Wenn man sich ausschließlich auf die Datenschutzrichtlinien und die Vermarktung eines Tools oder Anbieters konzentriert, kann man seine Schwächen übersehen. Wenn du nach einer datenschutzfreundlicheren Lösung suchst, solltest du das zugrunde liegende Problem bestimmen und technische Lösungen für dieses Problem finden. So solltest du beispielsweise Google Drive meiden, da Google dadurch Zugriff auf alle deine Daten hat. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like [Cryptomator](../encryption.md#cryptomator-cloud)) which provides E2EE on any cloud provider. Switching to a "privacy-focused" provider (that doesn't implement E2EE) doesn't solve your problem: it just shifts trust from Google to that provider.
+Wenn man sich ausschließlich auf die Datenschutzrichtlinien und die Vermarktung eines Tools oder Anbieters konzentriert, kann man seine Schwächen übersehen. Wenn du nach einer datenschutzfreundlicheren Lösung suchst, solltest du das zugrunde liegende Problem bestimmen und technische Lösungen für dieses Problem finden. So solltest du beispielsweise Google Drive meiden, da Google dadurch Zugriff auf alle deine Daten hat. Das zugrundeliegende Problem ist in diesem Fall das Fehlen von E2EE. Du solltest also sicherstellen, dass der Anbieter, zu dem du wechselst, tatsächlich E2EE implementiert, oder ein Tool (wie [Cryptomator](../encryption.md#cryptomator-cloud)) verwenden, das E2EE für jeden Cloud-Anbieter bereitstellt. Der Wechsel zu einem „datenschutzfreundlichen“ Anbieter (der kein E2EE implementiert) löst dein Problem nicht: Es verlagert lediglich das Vertrauen von Google auf diesen Anbieter.
 
-The privacy policies and business practices of providers you choose are very important, but should be considered secondary to technical guarantees of your privacy: You shouldn't shift trust to another provider when trusting a provider isn't a requirement at all.
+Die Datenschutzrichtlinien und Geschäftspraktiken der Anbieter, die du auswählst, sind sehr wichtig, sollten aber gegenüber den technischen Garantien für deine Privatsphäre als zweitrangig betrachtet werden: Du solltest dein Vertrauen nicht auf einen anderen Anbieter übertragen, wenn das Vertrauen in einen Anbieter gar nicht erforderlich ist.
 
 ## „Kompliziert ist besser“
 

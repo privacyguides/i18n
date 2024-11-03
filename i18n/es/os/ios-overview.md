@@ -227,34 +227,34 @@ En lugar de permitir que una aplicación acceda a todas las fotos de tu disposit
 
 **Solo Añadir Fotos** es un permiso que solo permite a una aplicación descargar fotos a la biblioteca de fotos. No todas las aplicaciones que solicitan acceso a la biblioteca de fotos proporcionan esta opción.
 
-![Private Access](../assets/img/ios/private-access-light.png#only-light) ![Private Access](../assets/img/ios/private-access-dark.png#only-dark)
+![Acceso Privado](../assets/img/ios/private-access-light.png#only-light) ![Acceso Privado](../assets/img/ios/private-access-dark.png#only-dark)
 
 Algunas aplicaciones también admiten el **Acceso Privado**, que funciona de forma similar al permiso de **Acceso Limitado**. Sin embargo, las fotos compartidas con aplicaciones que utilizan Acceso Privado incluyen su ubicación por defecto. Te recomendamos que desactives esta opción si previamente no [eliminas los metadatos de las fotos](../data-redaction.md).
 
-### Contact Permissions
+### Permisos de Contacto
 
-Similarly, rather than allow an app to access all the contacts saved on your device, you can allow it to only access whichever contacts you choose. You can change contact access permissions at any time by navigating to **Settings** → **Privacy & Security** → **Contacts**.
+Del mismo modo, en lugar de permitir que una aplicación acceda a todos los contactos guardados en tu dispositivo, puedes permitir que solo acceda a los contactos que tú elijas. Puede cambiar los permisos de acceso a los contactos en cualquier momento navegando hasta **Ajustes** → **Privacidad y Seguridad** → **Contactos**.
 
-![Contact Permissions](../assets/img/ios/contact-permissions-light.png#only-light) ![Contact Permissions](../assets/img/ios/contact-permissions-dark.png#only-dark)
+![Permisos de Contacto](../assets/img/ios/contact-permissions-light.png#only-light) ![Permisos de Contacto](../assets/img/ios/contact-permissions-dark.png#only-dark)
 
-### Require Biometrics and Hide Apps
+### Exigir Datos Biométricos y Ocultar Aplicaciones
 
-iOS offers the ability to lock most apps behind Touch ID/Face ID or your passcode, which can be useful for protecting sensitive content in apps which do not provide the option themselves. You can lock an app by long-pressing on it and selecting **Require Face ID/Touch ID**. Any app locked in this way requires biometric authentication whenever opening it or accessing its contents in other apps. Also, notification previews for locked apps will not be shown.
+iOS ofrece la posibilidad de bloquear la mayoría de las aplicaciones con Touch ID/Face ID o tu código, lo que puede ser útil para proteger contenido sensible en aplicaciones que no ofrecen esta opción. Puedes bloquear una aplicación pulsando prolongadamente sobre ella y seleccionando **Requerir Face ID/Touch ID**. Cualquier aplicación bloqueada de este modo requiere autenticación biométrica cada vez que se abre o se accede a su contenido en otras aplicaciones. Además, no se mostrarán las vistas previas de las notificaciones de las aplicaciones bloqueadas.
 
-In addition to locking apps behind biometrics, you can also hide apps so that they don't appear on the Home Screen, App Library, the app list in **Settings**, etc. While hiding apps may be useful in situations where you have to hand your unlocked phone to someone else, the concealment provided by the feature is not absolute, as a hidden app is still visible in some places such as the battery usage list. Moreover, one notable tradeoff of hiding an app is that you will not receive any of its notifications.
+Además de bloquear las aplicaciones tras los datos biométricos, también puedes ocultarlas para que no aparezcan en la pantalla de inicio, la biblioteca de aplicaciones, la lista de aplicaciones en **Ajustes**, etc. Aunque ocultar aplicaciones puede ser útil en situaciones en las que tienes que entregar tu teléfono desbloqueado a otra persona, la ocultación que proporciona la función no es absoluta, ya que una aplicación oculta sigue siendo visible en algunos lugares, como la lista de uso de la batería. Además, una contrapartida notable de ocultar una aplicación es que no recibirás ninguna de sus notificaciones.
 
-You can hide an app by long-pressing on it and selecting **Require Face ID/Touch ID** → **Hide and Require Face ID/Touch ID**. Note that pre-installed Apple apps, as well as the default web browser and email app, cannot be hidden. Hidden apps reside in a **Hidden** folder at the bottom of the App Library, which can be unlocked using biometrics. This folder appears in the App Library whether you hid any apps or not, which provides you a degree of plausible deniability.
+Puedes ocultar una aplicación pulsando prolongadamente sobre ella y seleccionando **Requerir Face ID/Touch**→**Ocultar y Requerir Face ID/Touch ID**. Ten en cuenta que las aplicaciones de Apple preinstaladas, así como el navegador web y la aplicación de correo electrónico predeterminados, no se pueden ocultar. Las aplicaciones ocultas residen en una carpeta **Oculta** en la parte inferior de la biblioteca de aplicaciones, que puede desbloquearse utilizando datos biométricos. Esta carpeta aparece en la Biblioteca de Aplicaciones tanto si has ocultado aplicaciones como si no, lo que te proporciona un grado de negación plausible.
 
 ### Ocultar Caras/Información
 
-If you need to hide information in a photo, you can use Apple's built-in editing tools to do so.
+Si necesitas ocultar información en una foto, puedes utilizar las herramientas de edición integradas de Apple para hacerlo.
 
-- Open the **Photos** app and tap the photo you have selected for redaction
-- Tap the :material-tune: (at the bottom of the screen) → markup symbol (top right) → plus icon at the bottom right
-- Select **Add Shape** and choose the square or circle
-- On the toolbar, tap the circle (left-most option) and choose black as the color for filling in the shape. You can also move the shape and increase its size as you see fit.
+- Abre la aplicación **Fotos** y toca la foto que hayas seleccionado para editarla
+- Pulsa :material-tune: (en la parte inferior de la pantalla) → el símbolo de marca (arriba a la derecha) → el icono más en la parte inferior derecha
+- Selecciona **Añadir Forma** y elige el cuadrado o el círculo
+- En la barra de herramientas, pulsa sobre el círculo (opción situada más a la izquierda) y elige el negro como color para rellenar la forma. También puedes mover la forma y aumentar su tamaño según te convenga.
 
-**Don't** use the highlighter to obfuscate information, as its opacity is not quite 100%.
+**No** utilices el resaltador para ocultar información, ya que su opacidad no es del 100%.
 
 ### Evita el Jailbreaking
 
@@ -268,4 +268,4 @@ Apple siempre pone las versiones beta de iOS a disposición de quienes deseen ay
 
 ### Antes del Primer Desbloqueo
 
-If your threat model includes [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} that involve forensic tools, and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. El estado *después de* un reinicio pero *antes de* desbloquear tu dispositivo se conoce como "Antes del Primer Desbloqueo" (BFU), y cuando tu dispositivo está en ese estado hace que sea [significativamente más difícil](https://belkasoft.com/checkm8_glossary) para las herramientas forenses explotar vulnerabilidades para acceder a tus datos. Este estado BFU te permite recibir notificaciones de llamadas, mensajes de texto y alarmas, pero la mayoría de los datos de tu dispositivo siguen estando encriptados y son inaccesibles. Esto puede ser poco práctico, así que considera si estas soluciones tienen sentido para tu situación.
+Si tu modelo de amenaza incluye [:material-target-account: Ataques Dirigidos](../basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} que implican herramientas forenses, y quieres minimizar la posibilidad de que se utilicen exploits para acceder a tu teléfono, deberías reiniciar tu dispositivo con frecuencia. El estado *después de* un reinicio pero *antes de* desbloquear tu dispositivo se conoce como "Antes del Primer Desbloqueo" (BFU), y cuando tu dispositivo está en ese estado hace que sea [significativamente más difícil](https://belkasoft.com/checkm8_glossary) para las herramientas forenses explotar vulnerabilidades para acceder a tus datos. Este estado BFU te permite recibir notificaciones de llamadas, mensajes de texto y alarmas, pero la mayoría de los datos de tu dispositivo siguen estando encriptados y son inaccesibles. Esto puede ser poco práctico, así que considera si estas soluciones tienen sentido para tu situación.

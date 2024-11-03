@@ -84,7 +84,7 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
     Recomendamos **Safari** por sus funciones [anti-huella digital](https://webkit.org/blog/15697/private-browsing-2-0/) y el bloqueo de rastreadores por defecto. También separa sus cookies en el modo de navegación privada para evitar el seguimiento entre pestañas.
 
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
+    - [Lea la Reseña Completa :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 
 </div>
 
@@ -239,7 +239,7 @@ Si busca más **seguridad**, asegúrese siempre de conectarse a sitios web que u
 - ![FairEmail logo](assets/img/email-clients/fairemail.svg){ .twemoji loading=lazy } [FairEmail (Android)](email-clients.md#fairemail-android)
 - ![GNOME Evolution logo](assets/img/email-clients/evolution.svg){ .twemoji loading=lazy } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
 - ![Kontact logo](assets/img/email-clients/kontact.svg){ .twemoji loading=lazy } [Kontact (Linux)](email-clients.md#kontact-kde)
-- ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji loading=lazy } [Mailvelope (PGP in standard webmail)](email-clients.md#mailvelope-browser)
+- ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji loading=lazy } [Mailvelope (PGP en correo web estándar)](email-clients.md#mailvelope-browser)
 - ![NeoMutt logo](assets/img/email-clients/mutt.svg){ .twemoji loading=lazy } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
 
 </div>

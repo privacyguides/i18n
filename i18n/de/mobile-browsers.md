@@ -93,7 +93,7 @@ Die Optionen im Schutz-Menü können je nach Bedarf für jede Website herunterge
 
     <div class="annotate" markdown>
 
-    - [x] Select **Aggressive** under *Block trackers & ads*
+    - [x] Wähle **Aggressiv** unter *Tracker & Anzeigenblockierung*
     - [x] Select **Auto-redirect AMP pages**
     - [x] Select **Auto-redirect tracking URLs**
     - [x] Select **Require all connections to use HTTPS (strict)** under *Upgrade connections to HTTPS*
@@ -137,15 +137,15 @@ Die Optionen im Schutz-Menü können je nach Bedarf für jede Website herunterge
 
     1. Mit dieser Option wird JavaScript deaktiviert, was bei vielen Websites zu Problemen führt. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
-##### Clear browsing data (Android only)
+##### Browsing-Daten löschen (nur Android)
 
 - [x] Wähle **Vergiss mich, wenn ich diese Seite schließe**
 
-##### Social Media Blocking (Android only)
+##### Blockieren von sozialen Medien (nur Android)
 
 - [ ] Deaktiviere alle Social Media Komponenten
 
-#### Other privacy settings
+#### Andere Datenschutzeinstellungen
 
 === "Android"
 
@@ -170,15 +170,15 @@ Die Optionen im Schutz-Menü können je nach Bedarf für jede Website herunterge
 
 ### Leo
 
-These options can be found in :material-menu: → **Settings** → **Leo**.
+Diese Optionen sind unter :material-menu: → **Einstellungen** → **Leo** zu finden.
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Show autocomplete suggestions in address bar** (1)
+- [ ] Deaktiviere **Vorschläge zur Autovervollständigung in Adressleiste anzeigen** (1)
 
 </div>
 
-1. This option is not present in Brave's iOS app.
+1. Diese Option ist in der iOS-App von Brave nicht vorhanden.
 
 ### Brave Sync
 
@@ -217,7 +217,7 @@ Aktiviere das [F-Droid Repository](https://divestos.org/fdroid/official) von Div
 
 Mull aktiviert viele Funktionen, die vom [Tor Uplift-Projekt](https://wiki.mozilla.org/Security/Tor_Uplift) entwickelt wurden, indem es Einstellungen von [Arkenfox](desktop-browsers.md#arkenfox-advanced) verwendet. Proprietäre Blobs werden mit den für Fennec F-Droid entwickelten Skripten aus Mozillas Code entfernt.
 
-### Recommended Mull Configuration
+### Empfohlene Mull Konfiguration
 
 Wir empfehlen die Installation von [uBlock Origin](browser-extensions.md#ublock-origin) als Inhaltsblocker, wenn du Tracker in Mull blockieren möchtest.
 
@@ -245,27 +245,27 @@ Unter iOS [muss](https://developer.apple.com/app-store/review/guidelines) jede A
 
 ### Empfohlene Safari-Konfiguration
 
-We would suggest installing [AdGuard](browser-extensions.md#adguard) if you want a content blocker in Safari.
+Wir empfehlen die Installation von [AdGuard](browser-extensions.md#adguard), wenn du einen Content-Blocker in Safari willst.
 
-The following privacy/security-related options can be found in :gear: **Settings** → **Apps** → **Safari**.
+Die folgenden datenschutz- und sicherheitsrelevanten Optionen findest du unter :gear: **Einstellungen** → **Apps** → **Safari**.
 
 #### Profile
 
-Safari allows you to separate your browsing with different profiles. All of your cookies, history, and website data are separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
+Safari ermöglicht es, dein Browsing mit verschiedenen Profilen zu trennen. Alle deine Cookies, dein Verlauf und deine Website-Daten werden für jedes Profil separat gespeichert. Du solltest verschiedene Profile für verschiedene Zwecke verwenden, z. B. Einkaufen, Arbeit oder Schule.
 
 #### Datenschutz & Sicherheit
 
-- [x] Enable **Prevent Cross-Site Tracking**
+- [x] Aktiviere **Cross-Sitetracking verhindern**
 
 This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but does not block all tracking avenues because it is designed to not interfere with website usability.
 
-- [x] Enable **Require Face ID/Touch ID to Unlock Private Browsing**
+- [x] Aktiviere **Face ID/Touch ID zum Entsperren von „Privates Surfen“ anfordern**
 
 This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
 
-#### Other Privacy Settings
+#### Andere Datenschutzeinstellungen
 
-These options can be found in :gear: **Settings** → **Apps** → **Safari** → **Advanced**.
+Diese Optionen sind zu finden unter :gear: **Einstellungen** → **Apps** → **Safari** → **Erweitert**.
 
 ##### Fingerprinting Mitigations
 
@@ -289,15 +289,15 @@ Die Funktion hat an sich wenig Datenschutzbedenken. Du kannst sie zwar aktiviert
 
 Der Modus "Privates Surfen" von Safari bietet zusätzlichen Schutz für die Privatsphäre. Private Browsing verwendet eine neue [kurzlebige](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) Sitzung für jedn Tab, was bedeutet, dass die Tabs voneinander isoliert sind. Private Browsing bietet noch weitere kleinere Vorteile für den Datenschutz, z. B. wird die Adresse einer Webseite nicht an Apple gesendet, wenn die Übersetzungsfunktion von Safari verwendet wird.
 
-Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed in to sites. Dies kann zu Unannehmlichkeiten führen.
+Beachte, dass Private Browsing keine Cookies und Website-Daten speichert, sodass es nicht möglich ist, auf Websites angemeldet zu bleiben. Dies kann zu Unannehmlichkeiten führen.
 
 #### iCloud Sync
 
 Die Synchronisierung von Safari-Verlauf, Tab-Gruppen, iCloud-Tabs und gespeicherten Kennwörtern erfolgt über E2EE. Allerdings werden Lesezeichen standardmäßig [nicht](https://support.apple.com/HT202303) verschlüsselt. Apple kann sie entschlüsseln und in Übereinstimmung mit der [Datenschutzrichtlinie](https://apple.com/legal/privacy/en-ww) darauf zugreifen.
 
-Du kannst E2EE für deine Safari-Lesezeichen und Downloads aktivieren, indem du [Erweiterten Datenschutz](https://support.apple.com/de-de/108756) aktivierst. Go to :gear: **Settings** → **iCloud** → **Advanced Data Protection**.
+Du kannst E2EE für deine Safari-Lesezeichen und Downloads aktivieren, indem du [Erweiterten Datenschutz](https://support.apple.com/de-de/108756) aktivierst. Gehen Sie zu :gear: **Einstellungen** → **iCloud** → **Erweiterter Datenschutz**.
 
-- [x] Turn on **Advanced Data Protection**
+- [x] Wähle **Erweiterten Datenschutz aktivieren**
 
 If you use iCloud with Advanced Data Protection disabled, we also recommend setting Safari's default download location to a local folder on your device. This option can be found in :gear: **Settings** → **Apps** → **Safari** → **General** → **Downloads**.
 
