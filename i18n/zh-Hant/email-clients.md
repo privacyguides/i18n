@@ -39,8 +39,10 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.thunderbird.android)
+- [:simple-github: GitHub](https://github.com/thunderbird/thunderbird-android/releases)
 - [:fontawesome-brands-windows: Windows](https://thunderbird.net)
 - [:simple-apple: macOS](https://thunderbird.net)
 - [:simple-linux: Linux](https://thunderbird.net)
@@ -50,11 +52,18 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 
 </div>
 
+<div class="admonition warning" markdown>
+<p class="admonition-title">警告</p>
+
+When replying to someone on a mailing list in Thunderbird Mobile, the "reply" option may also include the mailing list. For more information see [thunderbird/thunderbird-android #3738](https://github.com/thunderbird/thunderbird-android/issues/3738).
+
+</div>
+
 #### 建議的設定
 
 <div class="annotate" markdown>
 
-我們建議您變更其中一些設定，讓 Thunderbird 更私密一點。
+We recommend changing some of these settings to make Thunderbird Desktop a little more private.
 
 這些選項可在 :material-menu: → **設定** → **隱私權與安全性** 中找到。
 
@@ -73,7 +82,7 @@ OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy
 
 #### Thunderbird-user.js （進階）
 
-[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) 是一組設定選項，目的是儘可能停用 Thunderbird 內的網頁瀏覽功能，以減少攻擊面並維護隱私。 有些變更是從 [Arkenfox 專案](desktop-browsers.md#arkenfox-advanced) 中得來的。
+[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) is a set of configuration options that aims to disable as many of the web-browsing features within Thunderbird Desktop as possible in order to reduce attack surface and maintain privacy. 有些變更是從 [Arkenfox 專案](desktop-browsers.md#arkenfox-advanced) 中得來的。
 
 ## 特定平臺
 
@@ -179,39 +188,6 @@ Canary Mail 是封閉原始碼的。 由於 iOS 上支援 PGP E2EE 的電子郵�
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gnome.Evolution)
 
 </details>
-
-</div>
-
-### K-9 Mail (Android)
-
-<div class="admonition recommendation" markdown>
-
-![K-9 Mail 標誌](assets/img/email-clients/k9mail.svg){ align=right }
-
-**K-9 Mail** 是一個獨立的郵件應用程式，同時支援 POP3 和 IMAP 信箱，但只支援 IMAP 的推送郵件。
-
-未來，K-9 Mail 將成為 Thunderbird 的[官方品牌](https://k9mail.app/2022/06/13/K-9-Mail-and-Thunderbird.html) Android 用戶端。
-
-[:octicons-home-16: 首頁](https://k9mail.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://docs.k9mail.app){ .card-link title="說明文件" }
-[:octicons-code-16:](https://github.com/thundernest/k-9){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title="捐款" }
-
-<details class="downloads" markdown>
-<summary>下載</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
-- [:simple-github: GitHub](https://github.com/thundernest/k-9/releases)
-
-</details>
-
-</div>
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">警告</p>
-
-回覆郵件名單上的某人時，「回覆」選項也可能包括郵件名單。 如需詳細資訊，請參閱 [thundernest/k-9 #3738](https://github.com/thundernest/k-9/issues/3738)。
 
 </div>
 

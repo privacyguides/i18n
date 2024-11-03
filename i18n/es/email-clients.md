@@ -39,8 +39,10 @@ OpenPGP tampoco admite [secreto hacia adelante](https://en.wikipedia.org/wiki/Fo
 [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.thunderbird.android)
+- [:simple-github: GitHub](https://github.com/thunderbird/thunderbird-android/releases)
 - [:fontawesome-brands-windows: Windows](https://thunderbird.net)
 - [:simple-apple: macOS](https://thunderbird.net)
 - [:simple-linux: Linux](https://thunderbird.net)
@@ -50,11 +52,18 @@ OpenPGP tampoco admite [secreto hacia adelante](https://en.wikipedia.org/wiki/Fo
 
 </div>
 
+<div class="admonition warning" markdown>
+<p class="admonition-title">Advertencia</p>
+
+When replying to someone on a mailing list in Thunderbird Mobile, the "reply" option may also include the mailing list. For more information see [thunderbird/thunderbird-android #3738](https://github.com/thunderbird/thunderbird-android/issues/3738).
+
+</div>
+
 #### Configuración Recomendada
 
 <div class="annotate" markdown>
 
-Recomendamos cambiar algunas de estas configuraciones para que Thunderbird sea un poco más privado.
+We recommend changing some of these settings to make Thunderbird Desktop a little more private.
 
 Estas opciones se encuentran en :material-menu: → **Preferencias** → **Privacidad y seguridad**.
 
@@ -73,7 +82,7 @@ Estas opciones se encuentran en :material-menu: → **Preferencias** → **Priva
 
 #### Thunderbird-user.js (avanzado)
 
-[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) es un conjunto de opciones de configuración cuyo objetivo es desactivar tantas funciones de navegación web de Thunderbird como sea posible para reducir la superficie de ataque y mantener la privacidad. Algunos de los cambios son adaptados desde el [proyecto Arkenfox](desktop-browsers.md#arkenfox-advanced).
+[`thunderbird-user.js`](https://github.com/HorlogeSkynet/thunderbird-user.js) is a set of configuration options that aims to disable as many of the web-browsing features within Thunderbird Desktop as possible in order to reduce attack surface and maintain privacy. Algunos de los cambios son adaptados desde el [proyecto Arkenfox](desktop-browsers.md#arkenfox-advanced).
 
 ## Plataforma Específica
 
@@ -179,39 +188,6 @@ Canary Mail es de código cerrado. Lo recomendamos debido a las pocas opciones q
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.gnome.Evolution)
 
 </details>
-
-</div>
-
-### K-9 Mail (Android)
-
-<div class="admonition recommendation" markdown>
-
-![K-9 Mail logo](assets/img/email-clients/k9mail.svg){ align=right }
-
-**K-9 Mail** es una aplicación de correo independiente que soporta buzones POP3 e IMAP, pero solo soporta push mail para IMAP.
-
-En el futuro, K-9 Mail será el cliente [de marca oficial](https://k9mail.app/2022/06/13/K-9-Mail-and-Thunderbird.html) Thunderbird para Android.
-
-[:octicons-home-16: Página Principal](https://k9mail.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://k9mail.app/privacy){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://docs.k9mail.app){ .card-link title="Documentación" }
-[:octicons-code-16:](https://github.com/thundernest/k-9){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://k9mail.app/contribute){ .card-link title="Contribuir" }
-
-<details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.fsck.k9)
-- [:simple-github: GitHub](https://github.com/thundernest/k-9/releases)
-
-</details>
-
-</div>
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">Advertencia</p>
-
-Al responder a alguien de una lista de correo, la opción "responder" también puede incluir la lista de correo. Para obtener más información, consulta (https://github.com/thundernest/k-9/issues/3738).
 
 </div>
 

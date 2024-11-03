@@ -403,7 +403,7 @@ gpg --quick-gen-key alice@example.com future-default
 
 ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
 
-**OpenKeychain** 是 GnuPG 的Android 實作。 郵件客戶端通常需要它，例如 [K-9 Mail](email-clients.md#k-9-mail-android) 和 [FairEmail](email-clients.md#fairemail-android) 以及其他 Android 應用程序提供加密支持。 Cure53 於2015年10月完成了 OpenKeychain 3.6 的 [安全審核](https://openkeychain.org/openkeychain-3-6)。 審核 OpenKeychain 方案的 [技術細節在此](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015)。
+**OpenKeychain** 是 GnuPG 的Android 實作。 It's commonly required by mail clients such as [Thunderbird](email-clients.md#thunderbird) and [FairEmail](email-clients.md#fairemail-android) and other Android apps to provide encryption support. Cure53 於2015年10月完成了 OpenKeychain 3.6 的 [安全審核](https://openkeychain.org/openkeychain-3-6)。 審核 OpenKeychain 方案的 [技術細節在此](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015)。
 
 [:octicons-home-16: 首頁](https://openkeychain.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://openkeychain.org/help/privacy-policy){ .card-link title="隱私權政策" }

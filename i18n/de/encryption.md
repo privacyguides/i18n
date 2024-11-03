@@ -403,7 +403,7 @@ Derzeit gibt es [noch keine](https://gpgtools.com/sonoma) stabile Version von GP
 
 ![OpenKeychain-Logo](assets/img/encryption-software/openkeychain.svg){ align=right }
 
-**OpenKeychain** ist eine Implementierung von GnuPG für Android. Es wird häufig von Mail-Clients wie [K-9 Mail](email-clients.md#k-9-mail-android) und [FairEmail](email-clients.md#fairemail-android) und anderen Android-Apps benötigt, um Verschlüsselung zu unterstützen. Cure53 hat im Oktober 2015 ein [Sicherheitsaudit](https://openkeychain.org/openkeychain-3-6) von OpenKeychain 3.6 durchgeführt. Technische Einzelheiten über die Prüfung und die Lösungen von OpenKeychain findest du [hier](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
+**OpenKeychain** ist eine Implementierung von GnuPG für Android. It's commonly required by mail clients such as [Thunderbird](email-clients.md#thunderbird) and [FairEmail](email-clients.md#fairemail-android) and other Android apps to provide encryption support. Cure53 hat im Oktober 2015 ein [Sicherheitsaudit](https://openkeychain.org/openkeychain-3-6) von OpenKeychain 3.6 durchgeführt. Technische Einzelheiten über die Prüfung und die Lösungen von OpenKeychain findest du [hier](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
 
 [:octicons-home-16: Homepage](https://openkeychain.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://openkeychain.org/help/privacy-policy){ .card-link title="Datenschutzrichtlinie" }
