@@ -1,9 +1,9 @@
 ---
-title: Ofertas de Empleo
-description: Privacy Guides cuenta con un pequeño equipo remoto de investigadores y defensores de la privacidad. Los puestos vacantes que podamos tener en el futuro se publicarán aquí.
+title: Puestos de Trabajo
+description: Privacy Guides cuenta con un pequeño equipo remoto de investigadores y defensores de la privacidad. Cualquier puesto vacante que podremos tener en el futuro será publicado aquí.
 ---
 
-Privacy Guides cuenta con un pequeño equipo remoto de investigadores y defensores de la privacidad que trabajan para llevar adelante nuestra misión de proteger la libertad de expresión y promover una tecnología respetuosa con la privacidad. Como organización sin ánimo de lucro, nos expandimos muy lentamente para garantizar la sostenibilidad del proyecto a largo plazo. Todos los miembros de nuestro personal figuran [aquí](../about.md#staff). Por favor, considera la posibilidad de [donar](donate.md) para apoyar nuestra causa.
+Privacy Guides cuenta con un pequeño equipo remoto de investigadores y defensores de la privacidad quienes están trabajando para avanzar nuestra misión de proteger la libertad de expresión y promover tecnología respetuosa con la privacidad. Como organización sin ánimo de lucro, nos expandimos muy lentamente para garantizar la sostenibilidad del proyecto a largo plazo. Todos los miembros de nuestro personal figuran [aquí](../about.md#staff). Por favor, considera [donar](donate.md) para apoyar nuestra causa.
 
 Ocasionalmente buscamos buenos redactores periodísticos, revisores de productos y expertos en privacidad para que nos ayuden, y los puestos vacantes se publicarán a continuación.
 
@@ -33,7 +33,7 @@ Ocasionalmente buscamos buenos redactores periodísticos, revisores de productos
 
   ---
 
-  Prácticas | A Distancia | 15$/hora
+  Prácticas | A Distancia | \15$/hora
 
   [Ver publicación :material-arrow-right-drop-circle:](jobs/intern-news.md)
 
