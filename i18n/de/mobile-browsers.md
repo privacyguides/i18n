@@ -261,7 +261,7 @@ This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/track
 
 - [x] Aktiviere **Face ID/Touch ID zum Entsperren von „Privates Surfen“ anfordern**
 
-This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
+Mit dieser Einstellung kannst du deine privaten Tabs bei Nichtgebrauch mit Biometrie/PIN sperren.
 
 #### Andere Datenschutzeinstellungen
 
@@ -299,7 +299,7 @@ Du kannst E2EE für deine Safari-Lesezeichen und Downloads aktivieren, indem du 
 
 - [x] Wähle **Erweiterten Datenschutz aktivieren**
 
-If you use iCloud with Advanced Data Protection disabled, we also recommend setting Safari's default download location to a local folder on your device. This option can be found in :gear: **Settings** → **Apps** → **Safari** → **General** → **Downloads**.
+Wenn du iCloud mit deaktiviertem erweiterten Datenschutz verwendest, empfehlen wir außerdem, den Standard-Ladeort von Safari auf einen lokalen Ordner auf deinem Gerät zu setzen. Diese Option ist zu finden unter :gear: **Einstellungen** → **Apps** → **Safari** → **Allgemein** → **Downloads**.
 
 ## Kriterien
 
