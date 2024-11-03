@@ -27,13 +27,13 @@ Diese Messenger eignen sich hervorragend zur Sicherung deiner sensiblen Kommunik
 
 ![Signal logo](assets/img/messengers/signal.svg){ align=right }
 
-**Signal** ist eine mobile App, die von Signal Messenger LLC entwickelt wurde. The app provides instant messaging and calls secured with the Signal Protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
+**Signal** ist eine mobile App, die von Signal Messenger LLC entwickelt wurde. Die App bietet Instant Messaging und Anrufe, die mit dem Signal-Protokoll gesichert sind, einem extrem sicheren Verschlüsselungsprotokoll, dass Forward Secrecy[^1] und Post-Compromise Security[^2] unterstützt.
 
 [:octicons-home-16: Homepage](https://signal.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.signal.org){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://signal.org/donate){ .card-link title="Contribute" }
+[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Datenschutzerklärung" }
+[:octicons-info-16:](https://support.signal.org){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://signal.org/donate){ .card-link title="Spenden" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -79,10 +79,10 @@ If you use Android and your threat model requires protecting against [:material-
 **Molly** ist ein alternativer Signal-Client für Android, der es dir ermöglicht, die lokale Datenbank im Ruhezustand mit einer Passphrase zu verschlüsseln, ungenutzte RAM-Daten sicher zu schreddern, deine Verbindung über Tor zu leiten und [mehr](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features). Außerdem gibt es Verbesserungen bei der Benutzerfreundlichkeit, wie z. B. geplante Backups, automatisches Sperren und die Möglichkeit, dein Android-Telefon als verknüpftes Gerät anstelle des Hauptgeräts für ein Signal-Konto zu verwenden.
 
 [:octicons-home-16: Homepage](https://molly.im){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/mollyim/mollyim-android/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mollyim/mollyim-android){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/mollyim){ .card-link title="Contribute" }
+[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Datenschutzerklärung" }
+[:octicons-info-16:](https://github.com/mollyim/mollyim-android/wiki){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/mollyim/mollyim-android){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://opencollective.com/mollyim){ .card-link title="Spenden" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -95,13 +95,13 @@ If you use Android and your threat model requires protecting against [:material-
 
 </div>
 
-Molly wird alle zwei Wochen aktualisiert, um die neuesten Funktionen und Fehlerbehebungen von Signal einzubinden. Die Ausnahme sind Sicherheitsprobleme, die so schnell wie möglich behoben werden. Allerdings sollten Sie sich darüber im Klaren sein, dass es zu einer leichten Verzögerung im Vergleich zum Upstream kommen kann, was sich auf Aktionen wie die [Migration von Signal zu Molly](https://github.com/mollyim/mollyim-android/wiki/Migrating-From-Signal#migrating-from-signal) auswirken kann.
+Molly wird alle zwei Wochen aktualisiert, um die neuesten Funktionen und Fehlerbehebungen von Signal einzubinden. Die Ausnahme sind Sicherheitsprobleme, die so schnell wie möglich behoben werden. Allerdings solltest du dir darüber im Klaren sein, dass es zu einer leichten Verzögerung im Vergleich zum Upstream kommen kann, was sich auf Aktionen wie die [Migration von Signal zu Molly](https://github.com/mollyim/mollyim-android/wiki/Migrating-From-Signal#migrating-from-signal) auswirken kann.
 
 Beachte, dass du durch die Verwendung von Molly mehreren Parteien vertraust, da du nun dem Signal-Team *und dem* Molly-Team vertrauen musst, dass sie sichere und rechtzeitige Aktualisierungen liefern.
 
 Es gibt eine Version von Molly namens **Molly-FOSS**, die proprietären Code wie die Google-Dienste, die sowohl von Signal als auch von Molly verwendet werden, entfernt, was allerdings auf Kosten einiger Funktionen wie akkusparende Push-Benachrichtigungen via Google Play Services geht.
 
-There is also a version called [**Molly-UP**](https://github.com/mollyim/mollyim-android#unifiedpush) which is based on Molly-FOSS and adds support for push notifications with [UnifiedPush](https://unifiedpush.org/), an open source alternative to the push notifications provided by Google Play Services, but it requires running a separate program called [Mollysocket](https://github.com/mollyim/mollysocket) to function. Mollysocket can either be self-hosted on a separate computer or server (VPS), or alternatively a public Mollysocket instance can be used ([step-by-step tutorial, in German](https://www.kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy/)).
+Es gibt auch eine Version namens [**Molly-UP**](https://github.com/mollyim/mollyim-android#unifiedpush) die auf Molly-FOSS basiert und Unterstützung für Push-Benachrichtigungen mit [UnifiedPush](https://unifiedpush.org/) bietet, einer Open-Source-Alternative zu den Push-Benachrichtigungen von Google Play Services, die jedoch ein separates Programm namens [Mollysocket](https://github.com/mollyim/mollysocket) erfordert. Mollysocket kann entweder selbst auf einem separaten Computer oder Server (VPS) gehostet werden, oder alternativ kann eine öffentliche Mollysocket-Instanz verwendet werden ([Schritt-für-Schritt-Anleitung](https://www.kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy/)).
 
 Alle drei Versionen von Molly bieten die gleichen Sicherheitsverbesserungen.
 
@@ -111,14 +111,14 @@ Molly und Molly-FOSS unterstützen [reproduzierbare Builds](https://github.com/m
 
 <div class="admonition recommendation" markdown>
 
-![Simplex logo](assets/img/messengers/simplex.svg){ align=right }
+![Simplex-Logo](assets/img/messengers/simplex.svg){ align=right }
 
-**SimpleX Chat** is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Sein dezentrales Netzwerk macht SimpleX Chat zu einem effektiven Werkzeug gegen [:material-close-outline: Zensur](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
+**SimpleX Chat** ist ein Instant Messenger, der ohne eindeutigen Identifikatoren wie Telefonnummern oder Benutzernamen auskommt. Sein dezentrales Netzwerk macht SimpleX Chat zu einem effektiven Werkzeug gegen [:material-close-outline: Zensur](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
 [:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplex.chat/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://simplex.chat/docs/simplex.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://simplex.chat/privacy){ .card-link title="Datenschutzerklärung" }
+[:octicons-info-16:](https://simplex.chat/docs/simplex.html){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Quellcode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -134,13 +134,13 @@ Molly und Molly-FOSS unterstützen [reproduzierbare Builds](https://github.com/m
 
 </div>
 
-SimpleX provides direct messaging, group chats, and E2EE calls secured with the [SimpleX Messaging Protocol](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md), which uses double ratchet encryption with quantum resistance. Additionally, SimpleX Chat provides metadata protection by using unidirectional ["simplex queues"](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md#simplex-queue) to deliver messages.
+SimpleX provides direct messaging, group chats, and E2EE calls secured with the [SimpleX Messaging Protocol](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md), which uses double ratchet encryption with quantum resistance. Zusätzlich bietet SimpleX Chat Schutz für Metadaten durch Verwendung von unidirektionalen [„simplex queues“](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md#simplex-queue), um Nachrichten zu senden.
 
-To participate in conversations on SimpleX Chat, you must scan a QR code or click an invite link. This allows you to verify a contact out-of-band, which protects against man-in-the-middle attacks by network providers. Deine Daten können exportiert und auf ein anderes Gerät importiert werden, da es keine zentralen Server gibt, auf denen die Daten gesichert werden.
+Um an Unterhaltungen in SimpleX Chat teilzunehmen, musst du einen QR-Code scannen oder auf einen Einladungslink klicken. So kannst du einen Kontakt Out-Of-Band verifizieren, was vor Man-in-the-Middle-Angriffen durch Netzbetreiber schützt. Deine Daten können exportiert und auf ein anderes Gerät importiert werden, da es keine zentralen Server gibt, auf denen die Daten gesichert werden.
 
-You can find a full list of the privacy and security [features](https://github.com/simplex-chat/simplex-chat#privacy-and-security-technical-details-and-limitations) implemented in SimpleX Chat on the app's repository.
+Eine vollständige Liste der in SimpleX Chat implementierten [Datenschutz- und Sicherheitsfunktionen](https://github.com/simplex-chat/simplex-chat#privacy-and-security-technical-details-and-limitations) findest du im Repository der App.
 
-SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html#simplex-cryptographic-design-review-by-trail-of-bits) and in [October 2022](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website).
+SimpleX Chat wurde im [Juli 2024](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html#simplex-cryptographic-design-review-by-trail-of-bits) und im [Oktober 2022](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website) unabhängig geprüft.
 
 
 ### Briar
@@ -152,10 +152,10 @@ SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/
 **Briar** ist ein verschlüsselter Instant-Messenger, der sich mit anderen Geräten [über das Tor-Netzwerk verbindet](https://briarproject.org/how-it-works). Das macht es zu einem effektiven Werkzeug zur Umgehung von [:material-close-outline: Zensur](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar kann sich auch über Wi-Fi oder Bluetooth verbinden, wenn sich die Geräte in der Nähe befinden. Dieser lokale Mesh-Modus von Briar kann nützlich sein, wenn die Internetverfügbarkeit ein Problem darstellt.
 
 [:octicons-home-16: Homepage](https://briarproject.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title="Documentation" }
-[:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://briarproject.org){ .card-link title="Donation options are listed on the bottom of the homepage" }
+[:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Datenschutzerklärung" }
+[:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://briarproject.org){ .card-link title="Spendenoptionen sind unten auf der Homepage aufgeführt" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -197,9 +197,9 @@ Diese Messenger haben keine Forward Secrecy[^1], und obwohl sie bestimmte Anford
 Nachrichten und Dateien, die in privaten Räumen (für die eine Einladung erforderlich ist) geteilt werden, sind standardmäßig E2EE, ebenso wie persönliche Sprach- und Videoanrufe.
 
 [:octicons-home-16: Homepage](https://element.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://element.io/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Datenschutzerklärung" }
+[:octicons-info-16:](https://element.io/help){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Quellcode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -218,7 +218,7 @@ Nachrichten und Dateien, die in privaten Räumen (für die eine Einladung erford
 
 Profilbilder, Reaktionen und Spitznamen sind nicht verschlüsselt.
 
-With the integration of [Element Call](https://element.io/blog/we-have-lift-off-element-x-call-and-server-suite-are-ready) into Element's web app, desktop apps, and its [rewritten mobile apps](https://element.io/blog/element-x-experience-the-future-of-element), group VoIP and video calls are E2EE by default.
+Mit der Integration von [Element Call](https://element.io/blog/we-have-lift-off-element-x-call-and-server-suite-are-ready) in die Web-App, die Desktop-Apps und die [neu geschriebenen Mobile-Apps](https://element.io/blog/element-x-experience-the-future-of-element) von Element sind Gruppen-VoIP- und Videoanrufe standardmäßig E2EE.
 
 Das Matrix-Protokoll selbst [unterstützt theoretisch Forward Secrecy](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1]. Dies wird jedoch [derzeit in Element nicht unterstützt](https://github.com/vector-im/element-web/issues/7101), da es einige Aspekte der Benutzerfreundlichkeit, wie z. B. das Schlüssel-Backup und den gemeinsamen Nachrichtenverlauf, beeinträchtigt.
 
@@ -235,9 +235,9 @@ Das Protokoll wurde 2016 einem unabhängigen [Audit](https://matrix.org/blog/201
 Session verwendet das dezentralisierte [Oxen Service Node Network](https://oxen.io) zum Speichern und Weiterleiten von Nachrichten. Jede verschlüsselte Nachricht wird über drei Knoten im Oxen Service Node Network geleitet, was es den Knoten praktisch unmöglich macht, aussagekräftige Informationen über die Nutzer des Netzwerks zu sammeln.
 
 [:octicons-home-16: Homepage](https://getsession.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://getsession.org/faq){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Datenschutzerklärung" }
+[:octicons-info-16:](https://getsession.org/faq){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Quellcode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

@@ -10,7 +10,7 @@ description: iOS es un sistema operativo móvil desarrollado por Apple para el i
 
 Los dispositivos iOS suelen ser elogiados por los expertos en seguridad por su sólida protección de datos y su adhesión a las mejores prácticas modernas. Sin embargo, el carácter restrictivo del ecosistema de Apple -especialmente con sus dispositivos móviles- sigue obstaculizando la privacidad de varias maneras.
 
-En general, consideramos que iOS ofrece una protección de la privacidad y la seguridad mejor que la media para la mayoría de la gente, en comparación con los dispositivos Android de serie de cualquier fabricante. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android/distributions.md) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
+En general, consideramos que iOS ofrece una protección de la privacidad y la seguridad mejor que la media para la mayoría de la gente, en comparación con los dispositivos Android de serie de cualquier fabricante. Sin embargo, puedes alcanzar estándares de privacidad aún más altos con un [sistema operativo Android personalizado](../android/distributions.md) como GrapheneOS, si quieres o necesitas ser completamente independiente de los servicios en la nube de Apple o Google.
 
 ### Bloqueo de Activación
 
@@ -18,7 +18,7 @@ Todos los dispositivos iOS deben ser verificados contra los servidores de bloque
 
 ### App Store Obligatoria
 
-The only source for apps on iOS is Apple's App Store, which requires an Apple Account to access. Esto significa que Apple tiene un registro de todas las aplicaciones que instalas en tu dispositivo, y es probable que pueda relacionar esa información con tu identidad real si proporcionas a la App Store un método de pago.
+La única fuente de aplicaciones en iOS es la App Store de Apple, que requiere una cuenta de Apple para acceder. Esto significa que Apple tiene un registro de todas las aplicaciones que instalas en tu dispositivo, y es probable que pueda relacionar esa información con tu identidad real si proporcionas a la App Store un método de pago.
 
 ### Telemetría Invasiva
 
@@ -28,7 +28,7 @@ Recientemente, se ha descubierto que Apple [transmite datos analíticos incluso 
 
 ## Configuración Recomendada
 
-**Note:** This guide assumes that you're running the latest version of iOS.
+**Nota:** En esta guía se asume que utilizas la última versión de iOS.
 
 ### iCloud
 
@@ -50,7 +50,7 @@ Una suscripción de pago a **iCloud+** (con cualquier plan de almacenamiento de 
 
 #### Contenido y Compras
 
-At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple Account. Select that, then select **Media & Purchases** → **View Account**.
+En la parte superior de la aplicación **Ajustes**, verás tu nombre y tu foto de perfil si has iniciado sesión con una cuenta de Apple. Selecciónalo y, a continuación, selecciona **Contenido y compras**→**Ver cuenta**.
 
 - [ ] Desactiva **Recomendaciones Personalizadas**
 
@@ -63,7 +63,7 @@ At the top of the **Settings** app, you'll see your name and profile picture if 
 
 Tus datos de localización no son E2EE cuando tu dispositivo está conectado y utilizas Buscar iPhone remotamente para localizar tu dispositivo. Tendrá que decidir si estas ventajas compensan los beneficios antirrobo del Bloqueo de Activación.
 
-At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple Account. Selecciónelo y, a continuación, selecciona **Buscar**. Aquí puedes elegir si quieres activar o desactivar las funciones de localización de Buscar.
+En la parte superior de la aplicación **Ajustes**, verás tu nombre y tu foto de perfil si has iniciado sesión con una cuenta de Apple. Selecciónelo y, a continuación, selecciona **Buscar**. Aquí puedes elegir si quieres activar o desactivar las funciones de localización de Buscar.
 
 ### Ajustes
 
@@ -75,9 +75,9 @@ Activar el **Modo Avión**, evita que tu teléfono entre en contacto con las tor
 
 #### Wi-Fi
 
-You can enable [hardware address randomization](https://support.apple.com/en-us/102509#triswitch) to protect you from tracking across Wi-Fi networks, and on the same network over time. On the network you are currently connected to, tap the :material-information: button:
+Puedes activar [la aleatorización de direcciones de hardware](https://support.apple.com/en-us/102509#triswitch) para protegerte del rastreo a través de redes Wi-Fi, y en la misma red a lo largo del tiempo. En la red a la que está conectado actualmente, pulsa el :material-information: botón :
 
-- [x] Set **Private Wi-Fi Address** to **Fixed** or **Rotating**
+- [x] Configura la **Dirección Wi-Fi Privada ** como **Fija** o **Rotatoria**
 
 También tienes la opción de **Limitar rastreo de dirección IP**. Esto es similar a iCloud Private Relay pero sólo afecta a las conexiones con "rastreadores conocidos". Dado que sólo afecta a las conexiones con servidores potencialmente maliciosos, probablemente esté bien dejar activada esta opción, pero si no quieres que enrute *ningún* tráfico a través de los servidores de Apple, deberías desactivarla.
 
@@ -87,13 +87,13 @@ También tienes la opción de **Limitar rastreo de dirección IP**. Esto es simi
 
 - [ ] Desactiva **Bluetooth**
 
-Note that Bluetooth is automatically turned on after every system update.
+Ten en cuenta que Bluetooth se activa automáticamente después de cada actualización del sistema.
 
 #### General
 
-El nombre de dispositivo de tu iPhone contendrá por defecto tu nombre de pila, y éste será visible para cualquiera en las redes a las que te conectes. Deberías cambiarlo por algo más genérico, como "iPhone". Select **About** → **Name** and enter the device name you prefer.
+El nombre de dispositivo de tu iPhone contendrá por defecto tu nombre de pila, y éste será visible para cualquiera en las redes a las que te conectes. Deberías cambiarlo por algo más genérico, como "iPhone". Selecciona **Información**→**Nombre** e introduce el nombre de dispositivo que prefieras.
 
-Es importante instalar con frecuencia **Actualizaciones de Software** para obtener las últimas correcciones de seguridad. Puedes activar **Actualizaciones Automáticas** para mantener tu teléfono al día sin necesidad de buscar actualizaciones constantemente. Select **Software Update** → **Automatic Updates**:
+Es importante instalar con frecuencia **Actualizaciones de Software** para obtener las últimas correcciones de seguridad. Puedes activar **Actualizaciones Automáticas** para mantener tu teléfono al día sin necesidad de buscar actualizaciones constantemente. Selecciona **Actualización de Software**→**Actualizaciones Automáticas**:
 
 - [x] Activa **Descargar Actualizaciones de iOS**
 - [x] Activa **Instalar Actualizaciones de iOS**
@@ -101,13 +101,13 @@ Es importante instalar con frecuencia **Actualizaciones de Software** para obten
 
 **AirDrop** te permite transferir archivos fácilmente, pero puede permitir que extraños te envíen archivos que no deseas.
 
-- [x] Select **AirDrop** → **Receiving Off**
+- [x] Selecciona **AirDrop** → **Recepción Desactivada**
 
-**AirPlay** te permite transmitir sin interrupciones contenidos desde tu iPhone a un televisor; sin embargo, es posible que no siempre quieras hacerlo. Select **AirPlay & Continuity** → **Automatically AirPlay**:
+**AirPlay** te permite transmitir sin interrupciones contenidos desde tu iPhone a un televisor; sin embargo, es posible que no siempre quieras hacerlo. Selecciona **AirPlay y Continuidad**→ **Transmisión por AirPlay Automática**:
 
 - [x] Selecciona **Nunca** o **Preguntar**
 
-**Actualización en Segundo Plano** permite que tus aplicaciones actualicen su contenido mientras no las estás utilizando. Esto puede provocar que realicen conexiones no deseadas. Turning this off can also save battery life, but may affect an app's ability to receive updated information, particularly weather and messaging apps.
+**Actualización en Segundo Plano** permite que tus aplicaciones actualicen su contenido mientras no las estás utilizando. Esto puede provocar que realicen conexiones no deseadas. Desactivar esta opción también puede ahorrar batería, pero puede afectar a la capacidad de una aplicación para recibir información actualizada, en particular las aplicaciones meteorológicas y de mensajería.
 
 Selecciona **Actualización en Segundo Plano** y desactiva las aplicaciones que no quieras que sigan actualizándose en segundo plano. Si no quieres que ninguna aplicación se actualice en segundo plano, puedes volver a seleccionar **Actualización en Segundo Plano** y **desactivarla **.
 
@@ -121,19 +121,19 @@ Si no quieres que nadie pueda controlar tu teléfono con Siri cuando está bloqu
 
 Establecer una contraseña segura en tu teléfono es el paso más importante que puedes dar para la seguridad física del dispositivo. Tendrás que elegir entre seguridad y comodidad: Una contraseña más larga será molesta de escribir cada vez, pero una contraseña más corta o un PIN serán más fáciles de adivinar. Configurar Face ID o Touch ID junto con una contraseña segura puede ser un buen compromiso entre usabilidad y seguridad.
 
-Select **Turn Passcode On** or **Change Passcode** → **Passcode Options** → **Custom Alphanumeric Code**. Asegúrate de crear una [contraseña segura](../basics/passwords-overview.md).
+Selecciona **Activar Código** o **Cambiar Código**→ **Opciones de Código**→ **Código Alfanumérico Personalizado**. Asegúrate de crear una [contraseña segura](../basics/passwords-overview.md).
 
 Si deseas utilizar Face ID o Touch ID, puedes seguir adelante y configurarlo ahora. Tu teléfono utilizará la contraseña que configuraste anteriormente como alternativa en caso de que falle la verificación biométrica. Los métodos de desbloqueo biométrico son ante todo una ventaja, aunque impiden que las cámaras de vigilancia o las personas por encima de su hombro te vean introducir el código.
 
 Si utilizas datos biométricos, debes saber cómo desactivarlos rápidamente en caso de emergencia. Si mantienes pulsado el botón lateral o de encendido y *o* el botón de volumen hasta que veas el control deslizante para Apagar, se desactivará la biometría y tendrás que introducir el código para desbloquear. El código también será necesario después de reiniciar el dispositivo.
 
-On some older devices, you may have to press the power button five times to disable biometrics instead, or for devices with Touch ID, you may just have to hold down the power button and nothing else. Asegúrate de probarlo con antelación para saber qué método funciona con tu dispositivo.
+En algunos dispositivos antiguos, puede que tengas que pulsar el botón de encendido cinco veces para desactivar la biometría en su lugar, o para los dispositivos con Touch ID, puede que solo tengas que mantener pulsado el botón de encendido y nada más. Asegúrate de probarlo con antelación para saber qué método funciona con tu dispositivo.
 
-**Stolen Device Protection** adds additional security intended to protect your personal data if your device is stolen while unlocked. If you use biometrics and the Find My Device feature in your Apple Account settings, we recommend enabling this new protection:
+**Protección en Caso de Robo** añade seguridad adicional destinada a proteger tus datos personales si te roban el dispositivo mientras está desbloqueado. Si utilizas la biometría y la función Buscar Mi Dispositivo en la configuración de tu Cuenta de Apple, te recomendamos que actives esta nueva protección:
 
 - [x] Selecciona **Activar Protección**
 
-Después de activar la Protección en Caso de Robo, [ciertas acciones](https://support.apple.com/HT212510) requerirán autenticación biométrica sin una contraseña de respaldo (en el caso de que un "shoulder surfer" haya obtenido tu PIN), como el uso de autorrelleno de contraseña, el acceso a información de pago y la desactivación del Modo Perdido. It also adds a security delay to certain actions performed away from your home or another "familiar location," such as requiring a 1-hour timer to reset your Apple Account password or sign out of your Apple Account. Este retraso pretende darte tiempo para activar el Modo Perdido y asegurar tu cuenta antes de que un ladrón pueda reiniciar tu dispositivo.
+Después de activar la Protección en Caso de Robo, [ciertas acciones](https://support.apple.com/HT212510) requerirán autenticación biométrica sin una contraseña de respaldo (en el caso de que un "shoulder surfer" haya obtenido tu PIN), como el uso de autorrelleno de contraseña, el acceso a información de pago y la desactivación del Modo Perdido. También añade un retardo de seguridad a ciertas acciones que se realizan fuera de casa o de otro "lugar conocido", como exigir un temporizador de 1 hora para restablecer la contraseña de la cuenta de Apple o cerrar sesión en ella. Este retraso pretende darte tiempo para activar el Modo Perdido y asegurar tu cuenta antes de que un ladrón pueda reiniciar tu dispositivo.
 
 **Permitir Acceso al Estar Bloqueado** te da opciones para lo que puedes permitir cuando tu teléfono está bloqueado. Cuantas más de estas opciones deshabilites, menos podrá hacer alguien sin tu contraseña, pero menos cómodo será para ti. Elige a cuáles de ellos no quieres que alguien tenga acceso si llega a poner sus manos en tu teléfono.
 
@@ -190,8 +190,8 @@ Deberías desactivar los análisis si no deseas enviar datos de uso a Apple. Sel
 - [ ] Desactiva **Mejorar Fitness++**
 - [ ] Desactiva **Mejorar Seguridad**
 - [ ] Desactiva **Mejorar Siri y Dictado**
-- [ ] Turn off **Improve Assistive Voice Features**
-- [ ] Turn off **Improve AR Location Accuracy**
+- [ ] Desactiva **Mejorar las Funciones de Voz Asistida**
+- [ ] Desactiva **Mejorar la Precisión de la Localización en Realidad Aumentada**
 
 Desactiva **Anuncios Personalizados** si no quieres anuncios personalizados. Selecciona **Publicidad de Apple**:
 
@@ -209,27 +209,27 @@ Desactiva **Anuncios Personalizados** si no quieres anuncios personalizados. Sel
 
 ### Llamadas E2EE
 
-Las llamadas telefónicas normales realizadas con la aplicación Teléfono a través de tu operador no son E2EE. Both FaceTime Video and FaceTime Audio calls are E2EE. Alternatively, you can use [another app](../real-time-communication.md) like Signal for E2EE calls.
+Las llamadas telefónicas normales realizadas con la aplicación Teléfono a través de tu operador no son E2EE. Tanto las llamadas de FaceTime Video como las de FaceTime Audio son E2EE. También puedes utilizar [otra aplicación](../real-time-communication.md) como Signal para las llamadas E2EE.
 
 ### iMessage Encriptado
 
-The [color of the message bubble](https://support.apple.com/en-us/104972) in the Messages app indicates whether your messages are E2EE or not. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates the other party is using either the outdated SMS and MMS protocols or RCS. RCS on iOS is **not** E2EE. Currently, the only way to have E2EE in Messages is for both parties to be using iMessage on Apple devices.
+El [color de la burbuja de mensajes](https://support.apple.com/en-us/104972) en la aplicación Mensajes indica si tus mensajes son E2EE o no. Una burbuja azul indica que estás utilizando iMessage con E2EE, mientras que una burbuja verde indica que la otra parte está utilizando los anticuados protocolos SMS y MMS o RCS. RCS en iOS **no** es E2EE. Actualmente, la única forma de tener E2EE en Mensajes es que ambas partes utilicen iMessage en dispositivos Apple.
 
-Si tú o tu compañero de mensajería tenéis activada la Copia de Seguridad de iCloud sin Protección de Datos Avanzada, la clave de cifrado se almacenará en los servidores de Apple, lo que significa que podrán acceder a tus mensajes. Additionally, iMessage's key exchange is not as secure as alternative implementations like Signal's (which allows you to view the recipients key and verify by QR code), so it shouldn't be relied on for particularly sensitive communications.
+Si tú o tu compañero de mensajería tenéis activada la Copia de Seguridad de iCloud sin Protección de Datos Avanzada, la clave de cifrado se almacenará en los servidores de Apple, lo que significa que podrán acceder a tus mensajes. Además, el intercambio de claves de iMessage no es tan seguro como el de otras alternativas como Signal (que permite ver la clave del destinatario y verificarla mediante un código QR), por lo que no se debería confiar en él para comunicaciones especialmente delicadas.
 
-### Photo Permissions
+### Permisos de Fotos
 
-When an app prompts you for access to your device's photo library, iOS provides you with options to limit what an app can access.
+Cuando una aplicación te pide acceso a la biblioteca de fotos de tu dispositivo, iOS te ofrece opciones para limitar a qué puede acceder una aplicación.
 
-Rather than allow an app to access all the photos on your device, you can allow it to only access whichever photos you choose by tapping the "Select Photos..." option in the permission dialog. You can change photo access permissions at any time by navigating to **Settings** → **Privacy & Security** → **Photos**.
+En lugar de permitir que una aplicación acceda a todas las fotos de tu dispositivo, puedes permitir que solo acceda a las fotos que tú elijas pulsando la opción "Seleccionar Fotos..." en el cuadro de diálogo de permisos. Puedes cambiar los permisos de acceso a las fotos en cualquier momento navegando hasta **Ajustes** → **Privacidad y Seguridad** → **Fotos**.
 
-![Photo Permissions](../assets/img/ios/photo-permissions-light.png#only-light) ![Photo Permissions](../assets/img/ios/photo-permissions-dark.png#only-dark)
+![Permisos de Fotos](../assets/img/ios/photo-permissions-light.png#only-light) ![Permisos de Fotos](../assets/img/ios/photo-permissions-dark.png#only-dark)
 
-**Add Photos Only** is a permission that only gives an app the ability to download photos to the photo library. Not all apps which request photo library access provide this option.
+**Solo Añadir Fotos** es un permiso que solo permite a una aplicación descargar fotos a la biblioteca de fotos. No todas las aplicaciones que solicitan acceso a la biblioteca de fotos proporcionan esta opción.
 
 ![Private Access](../assets/img/ios/private-access-light.png#only-light) ![Private Access](../assets/img/ios/private-access-dark.png#only-dark)
 
-Some apps also support **Private Access**, which functions similarly to the **Limited Access** permission. However, photos shared to apps using Private Access include their location by default. We recommend unchecking this setting if you do not [remove photo metadata](../data-redaction.md) beforehand.
+Algunas aplicaciones también admiten el **Acceso Privado**, que funciona de forma similar al permiso de **Acceso Limitado**. Sin embargo, las fotos compartidas con aplicaciones que utilizan Acceso Privado incluyen su ubicación por defecto. Te recomendamos que desactives esta opción si previamente no [eliminas los metadatos de las fotos](../data-redaction.md).
 
 ### Contact Permissions
 

@@ -57,13 +57,13 @@ Bei Lösungen wie VPNs (bei denen das Vertrauen in den Internetanbieter auf den 
 
 ## „Auf den Datenschutz ausgerichtete Lösungen sind von Natur aus vertrauenswürdig“
 
-Focusing solely on the privacy policies and marketing of a tool or provider can blind you to its weaknesses. When you're looking for a more private solution, you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like [Cryptomator](../encryption.md#cryptomator-cloud)) which provides E2EE on any cloud provider. Switching to a "privacy-focused" provider (that doesn't implement E2EE) doesn't solve your problem: it just shifts trust from Google to that provider.
+Wenn man sich ausschließlich auf die Datenschutzrichtlinien und die Vermarktung eines Tools oder Anbieters konzentriert, kann man seine Schwächen übersehen. Wenn du nach einer datenschutzfreundlicheren Lösung suchst, solltest du das zugrunde liegende Problem bestimmen und technische Lösungen für dieses Problem finden. So solltest du beispielsweise Google Drive meiden, da Google dadurch Zugriff auf alle deine Daten hat. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like [Cryptomator](../encryption.md#cryptomator-cloud)) which provides E2EE on any cloud provider. Switching to a "privacy-focused" provider (that doesn't implement E2EE) doesn't solve your problem: it just shifts trust from Google to that provider.
 
 The privacy policies and business practices of providers you choose are very important, but should be considered secondary to technical guarantees of your privacy: You shouldn't shift trust to another provider when trusting a provider isn't a requirement at all.
 
 ## „Kompliziert ist besser“
 
-Oft sehen wir Menschen, die Bedrohungsmodelle für Privatsphäre beschreiben, die übermäßig komplex sind. Oft beinhalten diese Lösungen Probleme wie viele verschiedene E-Mail-Konten oder komplizierte Konfigurationen mit vielen beweglichen Teilen und Bedingungen. Die Antworten sind in der Regel Antworten auf die Frage "Wie kann man *X* am besten machen?"
+Oft sehen wir Menschen, die Bedrohungsmodelle für ihre Privatsphäre beschreiben, die übermäßig komplex sind. Oft beinhalten diese Lösungen Probleme wie viele verschiedene E-Mail-Konten oder komplizierte Konfigurationen mit vielen beweglichen Teilen und Bedingungen. Die Antworten sind in der Regel Antworten auf die Frage "Wie kann man *X* am besten machen?"
 
 Die "beste" Lösung für sich selbst zu finden, bedeutet nicht unbedingt, dass du eine unfehlbare Lösung mit Dutzenden von Bedingungen anstrebst - solche Lösungen sind oft schwer realistisch zu handhaben. Wie wir bereits besprochen haben, geht Sicherheit oft auf Kosten der Bequemlichkeit. Unten geben wir einige Tipps:
 
