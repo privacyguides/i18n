@@ -17,6 +17,6 @@ description: A complete list of contributors who have collectively made an enorm
 | 💬    | `question`    | Κάποιος που έδωσε χρήσιμες απαντήσεις στο [forum](https://discuss.privacyguides.net) ή στα κανάλια Matrix.                        |
 | 🌍    | `translation` | Κάποιο που έχει συνεισφέρει στο [Crowdin](https://crowdin.com/project/privacyguides).                                             |
 
-Ένα τεράστιο ευχαριστώ από την ομάδα Privacy Guides σε αυτά τα υπέροχα άτομα ([full emoji key](https://allcontributors.org/docs/en/emoji-key)):
+A huge thank you from Privacy Guides to the following wonderful people ([full emoji key](https://allcontributors.org/docs/en/emoji-key)). We also especially thank our dedicated community moderation team on Matrix and our forum: _Austin Huang_, _namazso_, _hik_, _riley_, and _Valynor_.
 
 \--8<-- "includes/contributors.md"

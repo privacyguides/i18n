@@ -17,6 +17,6 @@ description: 完整的貢獻者名單，這些貢獻者共同對 Privacy Guides 
 | 💬   | `question`    | 在[論壇](https://discuss.privacyguides.net) 或 Matrix 頻道上回答問題時提供幫助的人。              |
 | 🌍   | `translation` | [Crowdin](https://crowdin.com/project/privacyguides) 貢獻者。                      |
 
-Privacy Guides 向這些優秀人士表達衷心感謝（[完​​整表情符號鍵](https://allcontributors.org/docs/en/emoji-key)）：
+A huge thank you from Privacy Guides to the following wonderful people ([full emoji key](https://allcontributors.org/docs/en/emoji-key)). We also especially thank our dedicated community moderation team on Matrix and our forum: _Austin Huang_, _namazso_, _hik_, _riley_, and _Valynor_.
 
 \--8<-- "includes/contributors.md"

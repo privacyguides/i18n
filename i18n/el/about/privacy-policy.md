@@ -3,7 +3,7 @@ title: "Privacy Policy"
 description: We do not sell or share your data with any third-parties.
 ---
 
-Το Privacy Guides είναι ένα κοινοτικό έργο που λειτουργεί από έναν αριθμό ενεργών εθελοντών που συνεισφέρουν. Ο δημόσιος κατάλογος των μελών της ομάδας [μπορεί να βρεθεί στο GitHub](https://github.com/orgs/privacyguides/people).
+Privacy Guides is a community project operated by a number of active contributors. The public list of team members [can be found on our forum](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all).
 
 ## Δεδομένα που συλλέγουμε από επισκέπτες
 

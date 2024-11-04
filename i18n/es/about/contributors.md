@@ -17,6 +17,6 @@ Este proyecto sigue la especificación de [todos los colaboradores](https://gith
 | 💬    | `question`   | Alguien que ha ayudado respondiendo preguntas en nuestro [foro](https://discuss.privacyguides.net) o los canales de Matrix.                 |
 | 🌍    | `traducción` | Alguien que ha contribuido en [Crowdin](https://crowdin.com/project/privacyguides).                                                         |
 
-Un enorme agradecimiento de parte del equipo de Privacy Guides a todas estas maravillosas personas ([full emoji key](https://allcontributors.org/docs/en/emoji-key)):
+A huge thank you from Privacy Guides to the following wonderful people ([full emoji key](https://allcontributors.org/docs/en/emoji-key)). We also especially thank our dedicated community moderation team on Matrix and our forum: _Austin Huang_, _namazso_, _hik_, _riley_, and _Valynor_.
 
 \--8<-- "includes/contributors.md"

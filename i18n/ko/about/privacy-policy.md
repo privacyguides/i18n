@@ -3,7 +3,7 @@ title: "Privacy Policy"
 description: We do not sell or share your data with any third-parties.
 ---
 
-Privacy Guides는 여러 자원봉사자들이 운영하는 커뮤니티 프로젝트입니다. 팀 구성원 공개 목록은 [GitHub에서 확인하실 수 있습니다](https://github.com/orgs/privacyguides/people).
+Privacy Guides is a community project operated by a number of active contributors. The public list of team members [can be found on our forum](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all).
 
 ## 방문자로부터 수집하는 데이터
 

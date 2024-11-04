@@ -3,7 +3,7 @@ title: "Privacy Policy"
 description: We do not sell or share your data with any third-parties.
 ---
 
-Privacy Guides adalah proyek komunitas yang dioperasikan oleh sejumlah kontributor sukarelawan yang aktif. Daftar publik anggota tim [dapat ditemukan di GitHub](https://github.com/orgs/privacyguides/people).
+Privacy Guides is a community project operated by a number of active contributors. The public list of team members [can be found on our forum](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all).
 
 ## Data yang Kami Kumpulkan dari Pengunjung
 

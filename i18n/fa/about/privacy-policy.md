@@ -3,11 +3,7 @@ title: "Privacy Policy"
 description: We do not sell or share your data with any third-parties.
 ---
 
-Privacy Guides یک پروژه اجتماعی است که توسط تعدادی از مشارکت کنندگان داوطلب فعال اداره می شود. لیست عمومی اعضای تیم
-
-[در GitHub قابل مشاهده](https://github.com/orgs/privacyguides/people) است.</p> 
-
-
+Privacy Guides is a community project operated by a number of active contributors. The public list of team members [can be found on our forum](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all).
 
 ## داده هایی که از بازدیدکنندگان جمع‌آوری می کنیم
 
@@ -25,15 +21,11 @@ We run a self-hosted installation of [Umami](https://umami.is) to collect some a
 
 The only data which is collected is data sent in a standard web request, which includes referral sources, the page you're visiting, your user agent, your IP address, and your screen resolution. The raw data is immediately discarded after statistics have been generated, for example if we collect your screen resolution as `1125x2436`, the only data we retain is "mobile device" and not your specific resolution.
 
-
-
 ## داده هایی که از صاحبان حساب درخواست می‌کنیم
 
 If you register for an account on one of our services, we may collect any information you provide us (such as your email, password, profile information, etc.) and use that information to provide you with the service. We never share or sell this data.
 
 Some services we host have separate privacy policies which supersede this document. For example, the privacy policy of our forum can be found at [discuss.privacyguides.net/privacy](https://discuss.privacyguides.net/privacy).
-
-
 
 ## تماس با ما
 
@@ -41,20 +33,15 @@ Even in the limited cases where your data is collected, our volunteers and most 
 
 Thus, inquiries regarding your personal information should be sent directly to:
 
-
-
 ```text
 Jonah Aragon
 مدیر خدمات
 jonah@privacyguides.org
 ```
 
-
 برای سایر پرسش‌ها، می‌توانید با هر عضوی از تیم ما تماس بگیرید.
 
 For complaints under GDPR more generally, you always have the option to lodge complaints with your local data protection supervisory authorities.
-
-
 
 ## درباره این سیاست
 

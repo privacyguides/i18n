@@ -3,7 +3,7 @@ title: "Privacy Policy"
 description: We do not sell or share your data with any third-parties.
 ---
 
-A Privacy Guides egy közösségi projekt, amelyet számos aktív önkéntes közreműködő működtet. A csapattagok nyilvános listája [megtalálható a GitHub-on](https://github.com/orgs/privacyguides/people).
+Privacy Guides is a community project operated by a number of active contributors. The public list of team members [can be found on our forum](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all).
 
 ## Látogatókról Gyűjtött Adatok
 

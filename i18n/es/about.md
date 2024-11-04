@@ -24,27 +24,11 @@ schema:
 [:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Página Principal}
 [:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Código Fuente" }
 
-## Personal
+Privacy Guides is built by volunteers and staff members around the world. All changes to our recommendations and resources are reviewed by at least two [trusted](https://discuss.privacyguides.net/u?group=team\&order=solutions\&period=all) individuals, and we work diligently to ensure our content is updated as quickly as possible to adapt to the ever changing cybersecurity threat landscape.
 
-[**Jonah Aragon**](https://www.jonaharagon.com) es el Director de Proyectos y redactor de _Privacy Guides_. Su función incluye investigar y escribir para este sitio web, administrar el sistema, crear el contenido del curso _Aprendizaje en línea de Privacy Guides_, revisar los productos recomendados aquí y la mayoría de las demás tareas cotidianas.
+In addition to our core team, [many other people](about/contributors.md) have made contributions to the project. ¡Tú también puedes contribuir! Somos de código abierto en GitHub y aceptamos sugerencias de traducciones en [Crowdin](https://crowdin.com/project/privacyguides).
 
-<div class="grid" markdown>
-
-[:simple-discourse: Discourse (preferido): @jonah](https://discuss.privacyguides.net/u/jonah)
-
-[:material-email: Correo Electrónico: jonah@privacyguides.org](mailto:jonah@privacyguides.org)
-
-[:simple-mastodon: Mastodon: @jonah@neat.computer](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
-
-[:simple-signal: Signal: @jonah.01](https://signal.me/#eu/dDtlmTPv09utyEJPwCHq8UYs-AVOPlys8weinr7alfdylK5G-LNIX7GasDNJdV6y)
-
-</div>
-
-_El Director de Proyecto es un puesto a tiempo parcial que depende directamente del Comité Ejecutivo._
-
----
-
-[Puestos Vacantes :material-arrow-right-drop-circle:](about/jobs.md)
+[Job Openings :material-arrow-right-drop-circle:](about/jobs.md)
 
 ## Comité Ejecutivo
 
@@ -62,9 +46,9 @@ El comité ejecutivo del proyecto está conformado por cinco voluntarios encarga
 
   [:material-account: Perfil](https://discuss.privacyguides.net/u/dngray)
 
-  [:simple-github:](https://github.com/dngray "GitHub")
-  [:simple-mastodon:](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
-  [:material-email:](mailto:dngray@privacyguides.org "Correo electrónico")
+  [:material-github:](https://github.com/dngray "GitHub")
+  [:material-mastodon:](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
+  [:material-email:](mailto:dngray@privacyguides.org "Email")
 
 - :detective:{ .lg .middle } **Freddy**
 
@@ -74,9 +58,9 @@ El comité ejecutivo del proyecto está conformado por cinco voluntarios encarga
 
   [:material-account: Perfil](https://discuss.privacyguides.net/u/freddy)
 
-  [:simple-github:](https://github.com/freddy-m "GitHub")
-  [:simple-mastodon:](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
-  [:material-email:](mailto:freddy@privacyguides.org "Correo electrónico")
+  [:material-github:](https://github.com/freddy-m "GitHub")
+  [:material-mastodon:](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
+  [:material-email:](mailto:freddy@privacyguides.org "Email")
 
 - :robot:{ .lg .middle } **Jonah Aragon**
 
@@ -86,9 +70,10 @@ El comité ejecutivo del proyecto está conformado por cinco voluntarios encarga
 
   [:material-account: Perfil](https://discuss.privacyguides.net/u/jonah)
 
-  [:simple-github:](https://github.com/jonaharagon "GitHub")
-  [:simple-mastodon:](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
-  [:material-email:](mailto:jonah@privacyguides.org "Correo electrónico")
+  [:material-home:](https://www.jonaharagon.com "Homepage")
+  [:material-github:](https://github.com/jonaharagon "GitHub")
+  [:material-mastodon:](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
+  [:material-email:](mailto:jonah@privacyguides.org "Email")
 
 - :cactus:{ .lg .middle } **Niek de Wilde**
 
@@ -98,9 +83,9 @@ El comité ejecutivo del proyecto está conformado por cinco voluntarios encarga
 
   [:material-account: Perfil](https://discuss.privacyguides.net/u/Niek-de-Wilde)
 
-  [:simple-github:](https://github.com/blacklight447 "GitHub")
-  [:simple-mastodon:](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
-  [:material-email:](mailto:niekdewilde@privacyguides.org "Correo electrónico")
+  [:material-github:](https://github.com/blacklight447 "GitHub")
+  [:material-mastodon:](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
+  [:material-email:](mailto:niekdewilde@privacyguides.org "Email")
 
 - :smirk_cat:{ .lg .middle } **Olivia**
 
@@ -110,28 +95,10 @@ El comité ejecutivo del proyecto está conformado por cinco voluntarios encarga
 
   [:material-account: Perfil](https://discuss.privacyguides.net/u/olivia)
 
-  [:simple-github:](https://github.com/hook9 "GitHub")
-  [:simple-mastodon:](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
+  [:material-github:](https://github.com/hook9 "GitHub")
+  [:material-mastodon:](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
 
 </div>
-
-## Equipo de voluntarios
-
-Otros colaboradores han ofrecido voluntariamente su tiempo para revisar y aprobar los cambios en este sitio web, además de mantenerlo actualizado. Los cambios requieren más de 2 aprobaciones por parte del equipo de miembros antes de que los cambios sean fusionados. Además de los miembros del comité ejecutivo, los voluntarios [de confianza](https://github.com/orgs/privacyguides/people) para revisar las solicitudes de fusión incluyen a:
-
-<div class="grid cards" markdown>
-
-- [:simple-github: **friadev**](https://github.com/friadev)
-- [:simple-github: **ph00lt0**](https://github.com/ph00lt0)
-- [:simple-github: **redoomed1**](https://github.com/redoomed1)
-
-</div>
-
-También agradecemos especialmente a neustro equipo de dedicado de moderadores en Matrix y nuestro foro: _Austin Huang_, _namazso_, _hik_, _riley_, y _Valynor_.
-
-Además, [muchas otras personas](about/contributors.md) han realizado contribuciones al proyecto. ¡Tú también puedes contribuir! Somos de código abierto en GitHub y aceptamos sugerencias de traducciones en [Crowdin](https://crowdin.com/project/privacyguides).
-
-Los miembros de nuestro equipo revisan todos los cambios realizados en el sitio web y dirigen el curso del proyecto en su conjunto. No se benefician personalmente de ninguna contribución realizada a este sitio. Las donaciones a Privacy Guides son generalmente deducibles de impuestos en los Estados Unidos.
 
 ## En los Medios de Comunicación
 

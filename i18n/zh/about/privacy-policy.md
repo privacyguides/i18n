@@ -3,7 +3,7 @@ title: "Privacy Policy"
 description: We do not sell or share your data with any third-parties.
 ---
 
-隐私指南是一个社区项目，由一些活跃的志愿者贡献者运营。 团队成员的公开列表 [可在GitHub](https://github.com/orgs/privacyguides/people)上找到。
+Privacy Guides is a community project operated by a number of active contributors. The public list of team members [can be found on our forum](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all).
 
 ## 我们从访客那里收集的数据
 

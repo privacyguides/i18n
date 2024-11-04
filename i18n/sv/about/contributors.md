@@ -17,6 +17,6 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 | 💬    | `question`    | Someone who has been helpful when answering questions on our [forum](https://discuss.privacyguides.net) or Matrix channels.     |
 | 🌍    | `translation` | Someone who has contributed on [Crowdin](https://crowdin.com/project/privacyguides).                                            |
 
-A huge thank you from Privacy Guides to these wonderful people ([full emoji key](https://allcontributors.org/docs/en/emoji-key)):
+A huge thank you from Privacy Guides to the following wonderful people ([full emoji key](https://allcontributors.org/docs/en/emoji-key)). We also especially thank our dedicated community moderation team on Matrix and our forum: _Austin Huang_, _namazso_, _hik_, _riley_, and _Valynor_.
 
 \--8<-- "includes/contributors.md"

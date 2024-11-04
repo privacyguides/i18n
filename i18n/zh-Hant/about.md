@@ -24,27 +24,11 @@ Privacy Guides 是一個具有社會動機的網站，提供資訊以保護您�
 [:octicons-home-16:](https://www.privacyguides.org){ .card-link title=首頁 }
 [:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="原始碼" }
 
-## 員工
+Privacy Guides is built by volunteers and staff members around the world. All changes to our recommendations and resources are reviewed by at least two [trusted](https://discuss.privacyguides.net/u?group=team\&order=solutions\&period=all) individuals, and we work diligently to ensure our content is updated as quickly as possible to adapt to the ever changing cybersecurity threat landscape.
 
-[**Jonah Aragon**](https://www.jonaharagon.com) 是 _Privacy Guides_ 的專案主任兼撰稿人。 他的職責包括為本網站進行研究與寫作、系統管理、建立 _Privacy Guides Online Learning_ 課程內容、審查此處推薦的產品，以及其他大部分的日常工作。
+In addition to our core team, [many other people](about/contributors.md) have made contributions to the project. 您也可以！ 我們在 GitHub 上開放原始碼，並在 [Crowdin](https://crowdin.com/project/privacyguides) 上接受翻譯建議。
 
-<div class="grid" markdown>
-
-[:simple-discourse: Discourse（首選）: @jonah](https://discuss.privacyguides.net/u/jonah)
-
-[:material-email: 電子郵箱： jonah@privacyguides.org](mailto:jonah@privacyguides.org)
-
-[:simple-mastodon: Mastodon: @jonah@neat.computer](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
-
-[:simple-signal: Signal: @jonah.01](https://signal.me/#eu/dDtlmTPv09utyEJPwCHq8UYs-AVOPlys8weinr7alfdylK5G-LNIX7GasDNJdV6y)
-
-</div>
-
-_專案主任為兼職職位，直接向執行委員會報告。_
-
----
-
-[職位空缺 :material-arrow-right-drop-circle:](about/jobs.md)
+[Job Openings :material-arrow-right-drop-circle:](about/jobs.md)
 
 ## 執行委員會
 
@@ -62,9 +46,9 @@ _專案主任為兼職職位，直接向執行委員會報告。_
 
   [:material-account: 個人資料](https://discuss.privacyguides.net/u/dngray)
 
-  [:simple-github:](https://github.com/dngray "GitHub")
-  [:simple-mastodon:](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
-  [:material-email:](mailto:dngray@privacyguides.org "電子信箱")
+  [:material-github:](https://github.com/dngray "GitHub")
+  [:material-mastodon:](https://mastodon.social/@dngray "@dngray@mastodon.social"){rel=me}
+  [:material-email:](mailto:dngray@privacyguides.org "Email")
 
 - :detective:{ .lg .middle } **Freddy**
 
@@ -74,9 +58,9 @@ _專案主任為兼職職位，直接向執行委員會報告。_
 
   [:material-account: 個人資料](https://discuss.privacyguides.net/u/freddy)
 
-  [:simple-github:](https://github.com/freddy-m "GitHub")
-  [:simple-mastodon:](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
-  [:material-email:](mailto:freddy@privacyguides.org "電子郵箱")
+  [:material-github:](https://github.com/freddy-m "GitHub")
+  [:material-mastodon:](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
+  [:material-email:](mailto:freddy@privacyguides.org "Email")
 
 - :robot:{ .lg .middle } **Jonah Aragon**
 
@@ -86,9 +70,10 @@ _專案主任為兼職職位，直接向執行委員會報告。_
 
   [:material-account: 個人資料](https://discuss.privacyguides.net/u/jonah)
 
-  [:simple-github:](https://github.com/jonaharagon "GitHub")
-  [:simple-mastodon:](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
-  [:material-email:](mailto:jonah@privacyguides.org "電子郵箱")
+  [:material-home:](https://www.jonaharagon.com "Homepage")
+  [:material-github:](https://github.com/jonaharagon "GitHub")
+  [:material-mastodon:](https://mastodon.neat.computer/@jonah "@jonah@neat.computer"){rel=me}
+  [:material-email:](mailto:jonah@privacyguides.org "Email")
 
 - :cactus:{ .lg .middle } **Niek de Wilde**
 
@@ -98,9 +83,9 @@ _專案主任為兼職職位，直接向執行委員會報告。_
 
   [:material-account: 個人資料](https://discuss.privacyguides.net/u/Niek-de-Wilde)
 
-  [:simple-github:](https://github.com/blacklight447 "GitHub")
-  [:simple-mastodon:](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
-  [:material-email:](mailto:niekdewilde@privacyguides.org "電子郵箱")
+  [:material-github:](https://github.com/blacklight447 "GitHub")
+  [:material-mastodon:](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
+  [:material-email:](mailto:niekdewilde@privacyguides.org "Email")
 
 - :smirk_cat:{ .lg .middle } **Olivia**
 
@@ -110,28 +95,10 @@ _專案主任為兼職職位，直接向執行委員會報告。_
 
   [:material-account: 個人資料](https://discuss.privacyguides.net/u/olivia)
 
-  [:simple-github:](https://github.com/hook9 "GitHub")
-  [:simple-mastodon:](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
+  [:material-github:](https://github.com/hook9 "GitHub")
+  [:material-mastodon:](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
 
 </div>
-
-## 志工團隊
-
-其他多位貢獻者自願抽出時間，審核和核准本網站的變更，並保持網站的更新。 變更需要團隊成員 2 次以上的核准才能合併。 除了上述執行委員會成員之外，審核 pull 請求的 [可信任](https://github.com/orgs/privacyguides/people) 志願者還包括：
-
-<div class="grid cards" markdown>
-
-- [:simple-github: **friadev**](https://github.com/friadev)
-- [:simple-github: **ph00lt0**](https://github.com/ph00lt0)
-- [:simple-github: **redoomed1**](https://github.com/redoomed1)
-
-</div>
-
-我們也特別感謝 Matrix 和我們論壇上盡心盡力的管理團隊：_Austin Huang_、_namazso_、_hik_、_riley_ 和 _Valynor_。
-
-此外，還有 [許多人](about/contributors.md) 也對專案做出了貢獻。 您也可以！ 我們在 GitHub 上開放原始碼，並在 [Crowdin](https://crowdin.com/project/privacyguides) 上接受翻譯建議。
-
-我們的團隊成員會檢視網站的所有變更，並指導整個專案的進程。 他們個人不會從本網站的任何貢獻中獲利。 在美國，對 Privacy Guides 的捐款通常可以免稅。
 
 ## 媒體報導
 

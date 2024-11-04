@@ -3,7 +3,7 @@ title: "Privacy Policy"
 description: We do not sell or share your data with any third-parties.
 ---
 
-Privacy Guides הוא פרויקט קהילתי המופעל על ידי מספר תורמים מתנדבים פעילים. הרשימה הציבורית של חברי הצוות נמצא [ב - GitHub](https://github.com/orgs/privacyguides/people).
+Privacy Guides is a community project operated by a number of active contributors. The public list of team members [can be found on our forum](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all).
 
 ## נתונים שאנו אוספים ממבקרים
 
