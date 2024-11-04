@@ -284,10 +284,10 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 
 **Psono** 是來自德國的免費開源密碼管理器，專注於團隊的密碼管理。 Psono支援安全分享密碼、檔案、書籤和電子郵件。 所有機密都受到主密碼的保護。
 
-[:octicons-home-16: Homepage](https://psono.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://doc.psono.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://psono.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://doc.psono.com){ .card-link title="說明文件" }
+[:octicons-code-16:](https://gitlab.com/psono){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -318,7 +318,7 @@ Psono 為其產品提供廣泛的說明文件。 Psono 的網路用戶端可以�
 
 - 必須使用強大的、基於標準的/現代的E2EE。
 - 必須有徹底記錄的加密和安全實踐。
-- Must have a published audit from a reputable, independent third party.
+- 必須由信譽良好的獨立第三方進行公開審核。
 - 所有非必要的遙測都必須是可選的。
 - 除了收費之必要外，不得收集過多個人識別資訊(PII)。
 
