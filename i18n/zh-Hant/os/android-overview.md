@@ -50,7 +50,7 @@ Android 10 及以上版本已從全磁碟加密轉變為更靈活的[基於文�
 Android 10:
 
 - [範圍儲存空間](https://developer.android.com/about/versions/10/privacy/changes#scoped-storage) 可讓您更好地控制檔案，並可以限制 [存取外部儲存空間](https://developer.android.com/training/data-storage#permissions)。 應用程式可在外部存儲中具有特定目錄，可以在那裡存儲特定類型的媒體。
-- 通過引入 `ACCESS_BACKGROUND_LOCATION` 權限，更緊密地訪問 [設備位置](https://developer.android.com/about/versions/10/privacy/changes#app-access-device-location) 。 這可以防止應用程式在未經用戶明確許可的情況下在後臺運行時訪問位置。
+- 通過引入 `ACCESS_BACKGROUND_LOCATION` 權限，以更嚴格控管應用程式獲取 [設備位置](https://developer.android.com/about/versions/10/privacy/changes#app-access-device-location) 。 這可以防止應用程式在未經用戶明確許可的情況下在後臺運行時訪問位置。
 
 Android 11:
 
@@ -61,9 +61,8 @@ Android 11:
 Android 12:
 
 - 只授予 [近似位置](https://developer.android.com/about/versions/12/behavior-changes-12#approximate-location)的權限。
-- 休眠應用/a>的自動重置。</li> 
-  
-  - [資料存取稽核](https://developer.android.com/about/versions/12/behavior-changes-12#data-access-auditing) 更容易確定應用程式的哪一部分正在執行特定類型的資料存取。</ul> 
+- 自動重設 [休眠的應用程式](https://developer.android.com/about/versions/12/behavior-changes-12#app-hibernation) 。
+- [資料存取稽核](https://developer.android.com/about/versions/12/behavior-changes-12#data-access-auditing) 更容易確定應用程式的哪一部分正在執行特定類型的資料存取。
 
 Android 13:
 
@@ -91,15 +90,11 @@ Android 13:
 
 ## 隱私功能
 
-
-
 ### 使用者設定檔
 
 多重**使用者設定檔**可在 :gear: **設定** → **系統** → **使用者** 中找到，是 Android 中最簡單的隔離方式。
 
 您可以對特定設定檔施加限制，例如：撥打電話、使用 SMS 或安裝應用程式。 每個使用者設定檔皆使用個自密鑰加密，無法訪問設置上其它用戶的任何資料。 即使是裝置擁有者也無法在不知道用戶密碼的情況下查看其他身份的資料。 多重使用者設定檔是一種更安全的隔離方法。
-
-
 
 ### 工作設定檔
 
@@ -111,8 +106,6 @@ Android 13:
 
 一般而言，此方法的安全性比使用者設定檔低，但可讓您同時在原有設定檔和工作設定檔中執行應用程式，非常方便。
 
-
-
 ### 私人空間
 
 **私人空間** 是 Android 15 中引入的一項功能，增加了另一種隔離個別應用程式的方式。 您可以在個人設定檔中設定私人空間，方法是導覽 :gear: **設定** → **安全性與隱私權** → **私人空間**。 設定完成後，您的私人空間會位於應用程式清單底部。
@@ -121,25 +114,17 @@ Android 13:
 
 與工作設定檔不同，私人空間是 Android 原生的功能，不需要第三方應用程式來管理。 因此，我們一般建議您使用私人空間而非工作設定檔，不過您也可以同時使用工作設定檔和私人空間。
 
-
-
 ### VPN Killswitch
 
 Android 7 及以上版本支援 VPN kill switch，無需安裝第三方應用程式即可使用。 此功能可以防止VPN中斷連線時的洩漏。 它可以在 :gear: **設置** → **網路 & 網際網路** → **VPN** → :gear: → **區塊連接沒有 VPN**中找到。
-
-
 
 ### 全局切換
 
 現代 Android 裝置具有全局切換功能，可停用藍牙和定位服務。 Android 12為相機和麥克風引入了切換功能。 不使用時，建議停用這些功能。 重新啟用前，應用程式無法使用停用的功能 (即使已授予個別權限)。
 
-
-
 ## Google 服務
 
 如果您使用的是有 Google 服務的裝置，無論是使用原版作業系統或像 GrapheneOS 這樣安全沙盒化 Google Play 服務的作業系統，您都可以做一些額外的變更來改善您的隱私。 我們仍建議完全避免 Google 服務，或結合 *Shelter* 等裝置控制器與 GrapheneOS 的 Sandboxed Google Play，將 Google Play 服務限制於特定使用者/工作設定檔。
-
-
 
 ### 進階保護計劃
 
@@ -152,23 +137,18 @@ Android 7 及以上版本支援 VPN kill switch，無需安裝第三方應用程
 - 掃描 Gmail 帳戶收到的電子郵件，以防[釣魚嘗試](https://en.wikipedia.org/wiki/Phishing#Email_phishing)
 - 使用 Google Chrome 進行更嚴格的[安全瀏覽器掃描](https://google.com/chrome/privacy/whitepaper.html#malware)
 - 更嚴格的憑證遺失帳戶復原程序
-  
-  如果您使用非沙盒的 Google Play 服務 (常見於一般作業系統)，進階保護方案也會提供[額外的好處](https://support.google.com/accounts/answer/9764949)，例如：
 
-- 不允許安裝 Google Play 商店、作業系統供應商的應用程式商店以外的應用程式，或透過 [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
+ 如果您使用非沙盒的 Google Play 服務 (常見於一般作業系統)，進階保護方案也會提供[額外的好處](https://support.google.com/accounts/answer/9764949)，例如：
 
+- 不允許除來自 Google Play 商店、作業系統供應商的應用程式商店的應用程式安裝（即便是透過 [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge) ）
 - 使用 [Play Protect](https://support.google.com/googleplay/answer/2812853?#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work) 強制自動設備掃描
 - 警告您未經驗證的應用程式
-
-
 
 ### Google Play 系统更新
 
 過去， Android 安全更新必須由作業系統供應商提供。 從 Android 10 開始， Android 變得更模組化， Google 可以通過特權 Play 服務推送 **約** 系統組件的安全更新。
 
 如果您的 EOL 裝置搭載 Android 10 或更高版本，且無法在裝置上執行我們所推薦的任何作業系統，您最好還是堅持使用您的 OEM Android 安裝系統 (相較於 LineageOS 或 /e/ OS 等未在此列出的作業系統)。 這可讓您從 Google 收到**一些**安全修補程式，同時不會因使用不安全的 Android 衍生程式而違反 Android 安全模式，並增加您的攻擊面。 我們仍建議您盡快升級至支援的裝置。
-
-
 
 ### 廣告識別碼
 
@@ -182,8 +162,6 @@ Android 7 及以上版本支援 VPN kill switch，無需安裝第三方應用程
 - :gear: **設定** → **私隱** → **廣告**
 
 可選擇刪除您的廣告ID 或 *選擇退出基於興趣的廣告*，這視 Android OEM 而異。 如果提供刪除首選廣告ID 的選項。 如果沒有，請確保選擇退出並重設您的廣告ID。
-
-
 
 ### SafetyNet 和 Play Integrity API
 
