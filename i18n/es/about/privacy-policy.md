@@ -3,7 +3,7 @@ title: "Política de Privacidad"
 description: No vendemos ni compartimos sus datos con terceros.
 ---
 
-Privacy Guides is a community project operated by a number of active contributors. The public list of team members [can be found on our forum](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all).
+Privacy Guides es un proyecto comunitario gestionado por una serie de colaboradores activos. La lista pública de miembros del equipo [puede consultarse en nuestro foro](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all).
 
 ## Datos que recopilamos de los visitantes
 

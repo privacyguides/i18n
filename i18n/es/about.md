@@ -24,11 +24,11 @@ schema:
 [:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Página Principal}
 [:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Código Fuente" }
 
-Privacy Guides is built by volunteers and staff members around the world. All changes to our recommendations and resources are reviewed by at least two [trusted](https://discuss.privacyguides.net/u?group=team\&order=solutions\&period=all) individuals, and we work diligently to ensure our content is updated as quickly as possible to adapt to the ever changing cybersecurity threat landscape.
+Privacy Guides está elaborada por voluntarios y miembros del personal de todo el mundo. Todos los cambios en nuestras recomendaciones y recursos son revisados por al menos dos personas [de confianza](https://discuss.privacyguides.net/u?group=team\&order=solutions\&period=all), y trabajamos con diligencia para garantizar que nuestro contenido se actualice lo más rápidamente posible para adaptarse al panorama siempre cambiante de las amenazas a la ciberseguridad.
 
-In addition to our core team, [many other people](about/contributors.md) have made contributions to the project. ¡Tú también puedes contribuir! Somos de código abierto en GitHub y aceptamos sugerencias de traducciones en [Crowdin](https://crowdin.com/project/privacyguides).
+Además de nuestro equipo central, [muchas otras personas](about/contributors.md) han contribuido al proyecto. ¡Tú también puedes contribuir! Somos de código abierto en GitHub y aceptamos sugerencias de traducciones en [Crowdin](https://crowdin.com/project/privacyguides).
 
-[Job Openings :material-arrow-right-drop-circle:](about/jobs.md)
+[Ofertas de Empleo :material-arrow-right-drop-circle:](about/jobs.md)
 
 ## Comité Ejecutivo
 
