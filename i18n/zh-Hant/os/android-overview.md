@@ -124,7 +124,7 @@ Android 7 及以上版本支援 VPN kill switch，無需安裝第三方應用程
 
 ## Google 服務
 
-如果您使用的是有 Google 服務的裝置，無論是使用原版作業系統或像 GrapheneOS 這樣安全沙盒化 Google Play 服務的作業系統，您都可以做一些額外的變更來改善您的隱私。 我們仍建議完全避免 Google 服務，或結合 *Shelter* 等裝置控制器與 GrapheneOS 的 Sandboxed Google Play，將 Google Play 服務限制於特定使用者/工作設定檔。
+如果您使用的是有 Google 服務的裝置，無論是使用原生作業系統（'stock' 版本）或像 GrapheneOS 這樣透過沙盒化使您能安全使用 Google Play 服務 的作業系統，您都可以做一些額外的變更來改善您的隱私。 我們仍建議完全避免 Google 服務，或結合 *Shelter* 等裝置控制器與 GrapheneOS 的 Sandboxed Google Play，將 Google Play 服務限制於特定使用者/工作設定檔。
 
 ### 進階保護計劃
 
@@ -138,11 +138,11 @@ Android 7 及以上版本支援 VPN kill switch，無需安裝第三方應用程
 - 使用 Google Chrome 進行更嚴格的[安全瀏覽器掃描](https://google.com/chrome/privacy/whitepaper.html#malware)
 - 更嚴格的憑證遺失帳戶復原程序
 
- 如果您使用非沙盒的 Google Play 服務 (常見於一般作業系統)，進階保護方案也會提供[額外的好處](https://support.google.com/accounts/answer/9764949)，例如：
+ 如果您使用非沙盒化的 Google Play 服務（常見於一般作業系統），進階保護方案會帶來 [額外的好處](https://support.google.com/accounts/answer/9764949)，例如：
 
-- 不允許除來自 Google Play 商店、作業系統供應商的應用程式商店的應用程式安裝（即便是透過 [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge) ）
+- 僅允許從 Google Play 商店、作業系統供應商的應用程式商店安裝應用程式（即便是 [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge) 安裝 也不被允許）
 - 使用 [Play Protect](https://support.google.com/googleplay/answer/2812853?#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work) 強制自動設備掃描
-- 警告您未經驗證的應用程式
+- 針對未經驗證的應用程式向您發出警告
 
 ### Google Play 系统更新
 
