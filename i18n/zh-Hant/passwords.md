@@ -347,11 +347,11 @@ Psono 為其產品提供廣泛的說明文件。 Psono 的網路用戶端可以�
 
 **KeePassXC** 是 KeePassX 的社群分支，是 KeePass Password Safe 的原生跨平台移植，目標是以新功能和錯誤修正來擴充和改進它，以提供一個功能豐富、跨平台和現代化的開源密碼管理器。
 
-[:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://keepassxc.org/docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://keepassxc.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://keepassxc.org/docs){ .card-link title="說明文件" }
+[:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title="捐款" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -367,7 +367,7 @@ Psono 為其產品提供廣泛的說明文件。 Psono 的網路用戶端可以�
 
 </div>
 
-KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) 檔案。 You may encounter data loss if you import this file into another password manager. 我們建議您手動檢查每個記錄。
+KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) 檔案。 如果您將此檔案匯入其他密碼管理器，可能會造成資料遺失的問題。 我們建議您手動檢查每個記錄。
 
 
 
@@ -379,10 +379,10 @@ KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 **KeePassDX** 是適用於 Android 的輕量級密碼管理器；可在單一檔案中以 KeePass 格式編輯加密資料，並能以安全的方式填寫表格。 應用程式的 [專業版](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) 可讓您解鎖外觀和非標準協定功能，但更重要的是，它有助於並鼓勵開發。
 
-[:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://keepassdx.com){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="說明文件" }
+[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title="捐款" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -402,11 +402,11 @@ KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 **Strongbox** 是 iOS 和 macOS 的原生密碼管理器。 Strongbox 支援 KeePass 和 Password Safe 兩種格式，可在非蘋果平台上與其他密碼管理器 （如 KeePassXC）搭配使用。 透過採用 [基礎免費模式](https://strongboxsafe.com/pricing)，Strongbox 在基礎免費層級下提供大部分功能，而更多以便利為導向的 [功能](https://strongboxsafe.com/comparison)，例如生物辨識驗證，則鎖定在訂閱或永久授權。
 
-[:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://strongboxsafe.com/getting-started){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://strongboxsafe.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://strongboxsafe.com/getting-started){ .card-link title="說明文件" }
+[:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title="捐款" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -417,7 +417,7 @@ KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 </div>
 
-Additionally, Strongbox offers an offline-only version: [Strongbox Zero](https://apps.apple.com/app/id1581589638). 此版本經過刪減，試圖減少攻擊面。
+此外，Strongbox 還提供離線版本： [Strongbox Zero](https://apps.apple.com/app/id1581589638)。 此版本經過刪減，試圖減少攻擊面。
 
 
 
@@ -427,12 +427,12 @@ Additionally, Strongbox offers an offline-only version: [Strongbox Zero](https:/
 
 ![gopass 標誌](assets/img/password-management/gopass.svg){ align=right }
 
-**gopass** 是用 Go 寫成的命令列極簡密碼管理器。 It can be used within scripting applications and works on all major desktop and server operating systems.
+**gopass** 是用 Go 寫成的命令列極簡密碼管理器。 它可在 腳本應用程式("scripting applications") 中使用，且支援所有主要的桌面和伺服器作業系統。
 
-[:octicons-home-16: Homepage](https://gopass.pw){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://gopass.pw){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title="說明文件" }
+[:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title="捐款" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
