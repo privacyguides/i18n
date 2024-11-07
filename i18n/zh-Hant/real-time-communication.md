@@ -27,13 +27,13 @@ cover: real-time-communication.webp
 
 ![Signal logo](assets/img/messengers/signal.svg){ align=right }
 
-**Signal** 是由Signal Messenger LLC開發的行動應用程式。 The app provides instant messaging and calls secured with the Signal Protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
+**Signal** 是由Signal Messenger LLC開發的行動應用程式。 該應用程式使用 Signal 通訊協定 提供即時通訊的安全保障，Signal 通訊協定是一種極為安全的加密協定，支援 前向保密[^1] 和 洩漏後安全[^2] 。
 
-[:octicons-home-16: Homepage](https://signal.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.signal.org){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://signal.org/donate){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://signal.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://support.signal.org){ .card-link title="說明文件" }
+[:octicons-code-16:](https://github.com/signalapp){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://signal.org/donate){ .card-link title="捐款" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -78,11 +78,11 @@ Signal 需要手機號碼才能註冊，但是您應該建立用戶名，以隱�
 
 **Molly** 是 Android 的替代 Signal 用戶端，可讓您使用密碼加密本機資料庫、安全地刪除未使用的 RAM 資料、透過 Tor 路由連線；除此之外，還有 [許多](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features)。 它還改善了可用性，包括排程備份、自動鎖定，以及使用 Android 手機作為連結裝置，而非 Signal 帳戶的主要裝置。
 
-[:octicons-home-16: Homepage](https://molly.im){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/mollyim/mollyim-android/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mollyim/mollyim-android){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/mollyim){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://molly.im){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://github.com/mollyim/mollyim-android/wiki){ .card-link title="說明文件" }
+[:octicons-code-16:](https://github.com/mollyim/mollyim-android){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://opencollective.com/mollyim){ .card-link title="捐款" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -113,12 +113,12 @@ Molly 和 Molly-FOSS 支援 [可重現構建](https://github.com/mollyim/mollyim
 
 ![Simplex logo](assets/img/messengers/simplex.svg){ align=right }
 
-**SimpleX Chat** is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. 其分佈式網路使 SimpleX Chat 成為對抗 [:material-close-outline: 審查](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } 的有效工具。
+**SimpleX Chat** 是一款不依賴任何獨特識別碼（例如：電話號碼、使用者名稱）的即時通訊工具。 其分佈式網路使 SimpleX Chat 成為對抗 [:material-close-outline: 審查](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } 的有效工具。
 
-[:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplex.chat/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://simplex.chat/docs/simplex.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://simplex.chat){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://simplex.chat/privacy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://simplex.chat/docs/simplex.html){ .card-link title="說明文件" }
+[:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -151,11 +151,11 @@ SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/
 
 **Briar** 是一個加密的即時通訊軟體，可以使用 Tor 網路 [連線](https://briarproject.org/how-it-works) 到其他用戶端，使其成為規避 [:material-close-outline: 審查](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } 的有效工具。 Briar 還可以使用鄰近 Wi-Fi 或藍牙連接。 當無法使用網際網路時， Briar 的本地網格（mesh）模式可能很有用。
 
-[:octicons-home-16: Homepage](https://briarproject.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title="Documentation" }
-[:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://briarproject.org){ .card-link title="Donation options are listed on the bottom of the homepage" }
+[:octicons-home-16: 首頁](https://briarproject.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title="說明文件" }
+[:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://briarproject.org){ .card-link title="捐款方式列在其首頁底部" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -196,10 +196,10 @@ Briar 利用[^1] Bramble[Handshake](https://code.briarproject.org/briar/briar-sp
 
 在私人聊天室 (需要邀請) 共用的訊息和檔案預設為 E2EE，一對一的語音和視訊通話也是如此。
 
-[:octicons-home-16: Homepage](https://element.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://element.io/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://element.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://element.io/privacy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://element.io/help){ .card-link title="說明文件" }
+[:octicons-code-16:](https://github.com/element-hq){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -234,10 +234,10 @@ Matrix協議本身 [理論上支援前向保密](https://gitlab.matrix.org/matri
 
 Session使用去中心化的 [Oxen Service Node Network](https://oxen.io/) 來儲存和路由訊息。 每條加密訊息都通過 Oxen Service Node Network 中三個節點路由，使得節點幾乎不可能編譯有意義信息給此網路的使用者。
 
-[:octicons-home-16: Homepage](https://getsession.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://getsession.org/faq){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://getsession.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://getsession.org/faq){ .card-link title="說明文件" }
+[:octicons-code-16:](https://github.com/oxen-io){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
