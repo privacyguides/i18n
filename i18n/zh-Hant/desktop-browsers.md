@@ -46,7 +46,7 @@ schema:
     name: Brave
     image: /assets/img/browsers/brave.svg
     url: https://brave.com
-    sameAs: https://zh.wikipedia.org/wiki/Brave%E6%B5%8F%E8%A7%88%E5%99%A8
+    sameAs: https://zh.wikipedia.org/zh-tw/Brave%E6%B5%8F%E8%A7%88%E5%99%A8
     applicationCategory: Web Browser
     operatingSystem:
       - Windows 作業系統
@@ -89,11 +89,11 @@ schema:
 
 </div>
 
-與 [Tor 瀏覽器](tor.md) 類似，Mullvad 瀏覽器的設計也是透過讓您的瀏覽器指紋與所有 Mullvad 瀏覽器使用者相同來防止指紋識別，並且它還包含根據安全等級自動調整的設定和擴充功能，分為 *標準*、*較安全* 和 *最安全* 三個等級。 因此，除了調整預設的[安全等級](https://tb-manual.torproject.org/security-settings)外，請絕對不要對瀏覽器進行任何修改。 其他修改將使您的指紋變得獨特，從而打破使用此瀏覽器的目的。 如果您希望對瀏覽器進行更多配置，且指紋識別對您來說不是問題，我們建議使用 [Firefox](#firefox)。
+與 [Tor 瀏覽器](tor.md) 類似，Mullvad 瀏覽器的設計也是透過讓您的瀏覽器指紋與所有 Mullvad 瀏覽器使用者相同來防止指紋識別，並且它還包含根據安全等級自動調整的設定和擴充功能，分為 *標準*、*較安全* 和 *最安全* 三個等級。 因此，除了調整預設的[安全等級](https://tb-manual.torproject.org/security-settings)外，請絕對不要對瀏覽器進行任何修改。 其他修改將使您的指紋變得獨特，從而打破使用此瀏覽器的目的。 如果您希望更深入地調整瀏覽器設定，且您不擔心瀏覽器指紋被識別，我們推薦使用 [Firefox](#firefox)。
 
 ### 防止指紋識別
 
-在**不**使用 [VPN](vpn.md) 的情況下，Mullvad 瀏覽器可提供與其他私人瀏覽器 (例如 Firefox + [Arkenfox](#arkenfox-advanced) 或 [Brave](#brave)) 相同的防護措施，以對抗[單純的指紋辨識腳本](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting)。 Mullvad 瀏覽器 在開箱即用的情況下提供了這些保護措施，代價是可能會牺牲其他私密瀏覽器所具備的靈活性和便利性。
+在**不**使用 [VPN](vpn.md) 的情況下，Mullvad 瀏覽器可提供與其他隱私瀏覽器 (例如 Firefox + [Arkenfox](#arkenfox-advanced) 或 [Brave](#brave)) 相同的防護措施，以對抗[單純的指紋辨識腳本](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting)。 Mullvad 瀏覽器在開箱即用的情況下提供了這些保護措施，代價是可能會牺牲其他隱私瀏覽器所具備的靈活性和便利性。
 
 ==要獲得最強大的防指紋辨識防護，我們建議將 Mullvad 瀏覽器 **搭配** VPN 一同使用== ，不論是 Mullvad 或其他推薦的 VPN 供應商皆可。 當您將 VPN 與 Mullvad 瀏覽器 搭配使用時，您將與許多其他使用者共用一個指紋和 IP 位址池，以讓你混在「人群」之中。 這個策略是阻止進階追蹤腳本的唯一方法，也同樣是 Tor 瀏覽器 使用的防指紋辨識技術。
 
@@ -169,7 +169,7 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 
 - [x] 在 加強型追蹤保護 下選擇 **嚴格**
 
-透過封鎖社交媒體追蹤器、指紋辨識腳本 (注意，這並不能保護您免於*所有*的指紋辨識)、加密貨幣採礦程式、跨網站 Cookie 以及其他追蹤內容來保護您。 加強型追蹤保護功能 可保護您免於許多常見威脅，但並不能阻止所有追蹤途徑，因為它的設計考量了網站的可用性。
+透過封鎖社交媒體追蹤器、指紋辨識腳本 (注意，這並不能保護您免於*所有*的指紋辨識)、加密貨幣挖礦程式、跨網站 Cookie 以及其他追蹤內容來保護您。 加強型追蹤保護功能可保護您免於許多常見威脅，但並不能阻止所有追蹤途徑，因為它的設計考量了網站的可用性。
 
 ##### 關閉時清除資料
 
@@ -360,13 +360,13 @@ Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 除非�
 
 #### Brave Rewards 與錢包
 
-**Brave Rewards** 可讓您在 Brave 執行某些動作時獲得 Basic Attention Token (BAT) 加密貨幣。 它依賴於由少數提供商的託管帳號和 KYC。 我們不建議使用 BAT 作為[私密加密貨幣](cryptocurrency.md)，也不建議使用[托管錢包](advanced/payments.md#wallet-custody)，不鼓勵使用此功能。
+**Brave Rewards** 可讓您在 Brave 執行某些動作時獲得 Basic Attention Token (BAT) 加密貨幣。 它依賴於由少數提供商的託管帳號和 KYC。 我們不建議使用 BAT 作為[隱私加密貨幣](cryptocurrency.md)，也不建議使用[托管錢包](advanced/payments.md#wallet-custody)，因此我們會建議避免使用此功能。
 
-**Brave 錢包** 在您的電腦上本地運行，但不支援任何私密加密貨幣，因此我們也不建議使用此功能。
+**Brave 錢包** 在您的電腦上本地運行，但不支援任何隱私加密貨幣，因此我們也不建議使用此功能。
 
 ## 標準
 
-**請注意，我們與所推薦的任何專案都沒有任何關係。**除了[我們的標準準則](about/criteria.md)外，我們還制定了一套明確的要求，以便我們提供客觀的建議。 我們建議您在選擇使用專案前先熟悉此清單，並自行研究，以確保它是適合您的選擇。
+**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用專案前先熟悉此清單，並自行研究，以確保它是適合您的選擇。
 
 ### 最低合格要求
 
@@ -378,7 +378,7 @@ Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 除非�
 - 預設情況下會封鎖第三方 Cookie
 - 必須支援[狀態分割](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning)，以減少跨網站追蹤。[^1]
 
-### 最佳案例
+### 最佳情況
 
 最佳案例標準代表我們希望在這個類別中看到的完美項目應具備的條件。 我們建議的瀏覽器可能不包括以下所有功能，但若包含這些功能會讓該項目在此頁面排名更高。
 
@@ -388,6 +388,6 @@ Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 除非�
 - 不包括對使用者隱私沒有影響的附加功能 (bloatware)。
 - 預設情況下不應收集遙測。
 - 提供開源同步伺服器實作。
-- 預設使用[私密搜尋引擎](search-engines.md)。
+- 預設使用[隱私搜尋引擎](search-engines.md)。
 
 [^1]: Brave 的實施詳情請參閱 [Brave 隱私更新：為隱私區隔網路狀態](https://brave.com/privacy-updates/14-partitioning-network-state)。
