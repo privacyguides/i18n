@@ -61,9 +61,9 @@ schema:
 
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-這些是我們目前推薦的**桌面瀏覽器**和標準/非匿名瀏覽的設定。 如果您重視強大的隱私保護和內建的的反指紋追蹤功能，我們推薦使用 [Mullvad 瀏覽器](#mullvad-browser)；如果您在尋求 Google Chrome 替代方案的休閒用網路瀏覽器，我們推薦使用 [Firefox](#firefox)；如果您需要 Chromium 的瀏覽器相容性，我們推薦使用 [Brave](#brave)。
+這些是我們目前推薦的**桌面瀏覽器**與其設定，適合普通或非匿名的網頁瀏覽。 如果您重視強大的隱私保護和內建的的反指紋追蹤功能，我們推薦使用 [Mullvad 瀏覽器](#mullvad-browser)；如果您在尋求 Google Chrome 替代方案的休閒用網路瀏覽器，我們推薦使用 [Firefox](#firefox)；如果您需要 Chromium 的瀏覽器相容性，我們推薦使用 [Brave](#brave)。
 
-如果您需要匿名瀏覽網際網路，應該使用 [Tor](tor.md)。 我們在此頁面提供一些設定建議，但除了 Tor 瀏覽器以外的所有瀏覽器都可能以某種方式被*某人*追蹤。
+如果您需要匿名瀏覽網際網路，應該使用 [Tor](tor.md)。 我們在此頁面提供了一些設定建議，但除了 Tor 瀏覽器以外的所有瀏覽器都可能以某種方式被*某人*追蹤。
 
 ## Mullvad 瀏覽器
 
@@ -89,7 +89,7 @@ schema:
 
 </div>
 
-與 [Tor 瀏覽器](tor.md) 類似，Mullvad 瀏覽器 旨在通過使您的瀏覽器指紋與其他 Mullvad 瀏覽器 用戶相同來防止指紋識別，並且它還包括根據安全等級自動配置的設定和擴充功能，分為 *標準*、*較安全* 和 *最安全* 三個等級。 因此，除了調整預設的[安全等級](https://tb-manual.torproject.org/security-settings)外，請絕對不要對瀏覽器進行任何修改。 其他修改將使您的指紋變得獨特，從而打破使用此瀏覽器的目的。 如果您希望對瀏覽器進行更多配置，且指紋識別對您來說不是問題，我們建議使用 [Firefox](#firefox)。
+與 [Tor 瀏覽器](tor.md) 類似，Mullvad 瀏覽器的設計也是透過讓您的瀏覽器指紋與所有 Mullvad 瀏覽器使用者相同來防止指紋識別，並且它還包含根據安全等級自動調整的設定和擴充功能，分為 *標準*、*較安全* 和 *最安全* 三個等級。 因此，除了調整預設的[安全等級](https://tb-manual.torproject.org/security-settings)外，請絕對不要對瀏覽器進行任何修改。 其他修改將使您的指紋變得獨特，從而打破使用此瀏覽器的目的。 如果您希望對瀏覽器進行更多配置，且指紋識別對您來說不是問題，我們建議使用 [Firefox](#firefox)。
 
 ### 防止指紋識別
 
