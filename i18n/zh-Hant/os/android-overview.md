@@ -94,7 +94,7 @@ Android 13:
 
 多重**使用者設定檔**可在 :gear: **設定** → **系統** → **使用者** 中找到，是 Android 中最簡單的隔離方式。
 
-您可以對特定設定檔施加限制，例如：撥打電話、使用 SMS 或安裝應用程式。 每個使用者設定檔皆使用個自密鑰加密，無法訪問設置上其它用戶的任何資料。 即使是裝置擁有者也無法在不知道用戶密碼的情況下查看其他身份的資料。 多重使用者設定檔是一種更安全的隔離方法。
+您可以對特定設定檔施加限制，例如：撥打電話、使用 SMS 或安裝應用程式。 每個使用者設定檔皆使用個自密鑰加密，無法訪問其它用戶的任何資料。 即使是裝置擁有者也無法在不知道用戶密碼的情況下查看其他身份的資料。 多重使用者設定檔是一種更安全的隔離方法。
 
 ### 工作設定檔
 
@@ -128,7 +128,7 @@ Android 7 及以上版本支援 VPN kill switch，無需安裝第三方應用程
 
 ### 進階保護計劃
 
-如果您有 Google 帳戶，我們建議您加入[進階保護計劃](https://landing.google.com/advancedprotection)。 任何人只要擁有兩個或以上支援 [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) 的硬體安全金鑰，即可免費使用。 或者，您可以使用[密碼金鑰](https://fidoalliance.org/passkeys)。
+如果您有 Google 帳戶，我們建議您加入[進階保護計劃](https://landing.google.com/advancedprotection)。 任何人只要擁有兩個或以上支援 [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) 的實體安全金鑰，即可免費使用。 或者，您可以使用[密碼金鑰](https://fidoalliance.org/passkeys)。
 
 進階防護計劃提供強化的威脅監控，並能夠：
 

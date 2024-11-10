@@ -32,9 +32,9 @@ The only source for apps on iOS is Apple's App Store, which requires an Apple Ac
 
 ### iCloud
 
-Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是其硬體或軟體。 當使用 iCloud 等 Apple 服務時，大部分資訊都存儲在他們的伺服器上以密鑰保護，且預設情況下 Apple 可以取用該密鑰。 您可以查看 [Apple 文檔](https://support.apple.com/HT202303)，了解哪些服務是端到端加密的。 任何列為“傳輸中”或“伺服器上”的內容都意味著 Apple 可以在未經您許可下訪問存取該資料。 這種訪問級別偶爾會被執法部門濫用，儘管您的資料在設備上還是安全加密的狀態。當然，Apple 與任何其他公司一樣容易遭受資料洩露。
+Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是其硬體或軟體。 當使用 iCloud 等 Apple 服務時，大部分資訊都儲存在他們的伺服器上以金鑰保護，且預設情況下 Apple 可以取用該金鑰。 您可以查看 [Apple 文檔](https://support.apple.com/HT202303)，了解哪些服務是端到端加密的。 任何列為“傳輸中”或“伺服器上”的內容都意味著 Apple 可以在未經您許可下訪問存取該資料。 這種訪問級別偶爾會被執法部門濫用，儘管您的資料在設備上還是安全加密的狀態。當然，Apple 與任何其他公司一樣容易遭受資料洩露。
 
-因此，如果使用 iCloud，則應[啟用**進階資料保護**](https://support.apple.com/HT212520)。 這會使用存儲在您設備上的的密鑰對 iCloud 數據加密（端到端加密）而不是放在 Apple 伺服器的密鑰，以便 iCloud 在發生數據洩露時得到保護，且不會被 Apple 發現。
+因此，如果使用 iCloud，則應[啟用**進階資料保護**](https://support.apple.com/HT212520)。 這會使用儲存在您裝置上的的金鑰對 iCloud 數據加密（端對端加密）而不是放在 Apple 伺服器的金鑰，以便 iCloud 在發生數據洩露時得到保護，且不會被 Apple 發現。
 
 進階資料保護所用的加密法雖然強大，但[仍然*比不上*](https://discuss.privacyguides.net/t/apple-advances-user-security-with-powerful-new-data-protections/10778/4)其他[雲端服務](../cloud.md)的加密，特別是涉及到 iCloud Drive 時。 雖然我們強烈建議在使用 iCloud 時使用進階資料保護，但我們也建議考慮從更加[注重隱私的服務提供商](../tools.md)尋找 iCloud 的替代品，儘管 大多數人不太可能受到這些加密怪癖的影響。
 
@@ -42,7 +42,7 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 #### iCloud+
 
-付費 **iCloud+** 訂閱（任何 iCloud 存儲方案）附帶一些隱私保護功能。 雖然這些能為當前 iCloud 客戶提供足夠服務，但不建議通過 [VPN](../vpn.md) 購買 iCloud 方案，和將 [獨立電子郵件別名服務](../email-aliasing.md)僅用在這些功能。
+付費 **iCloud+** 訂閱（任何 iCloud 儲存方案）附帶一些隱私保護功能。 雖然這些能為當前 iCloud 客戶提供足夠服務，但不建議通過 [VPN](../vpn.md) 購買 iCloud 方案，和將 [獨立電子郵件別名服務](../email-aliasing.md)僅用在這些功能。
 
 [**Private Relay**](https://apple.com/legal/privacy/data/en/icloud-relay) 是一項代理服務，可透過兩個伺服器轉發您裝置上所有 Safari 、DNS 查詢和未加密流量：一個由 Apple 擁有，另一個由第三方供應商（包括 Akamai、Cloudflare 和 Fastly）擁有。 理論上這應該可以防止鏈中的任何單一提供商（包括 Apple）完全了解您連線訪問的網站。 與 VPN 不同，Private Relay 不保護已加密的流量。
 
@@ -215,7 +215,7 @@ iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長�
 
 The [color of the message bubble](https://support.apple.com/en-us/104972) in the Messages app indicates whether your messages are E2EE or not. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates the other party is using either the outdated SMS and MMS protocols or RCS. RCS on iOS is **not** E2EE. Currently, the only way to have E2EE in Messages is for both parties to be using iMessage on Apple devices.
 
-如果您或您的訊息傳遞夥伴在沒有進階資料保護下啟用 iCloud 備份，則加密密鑰會存儲在 Apple 伺服器，這意味著他們可以訪問您的訊息。 Additionally, iMessage's key exchange is not as secure as alternative implementations like Signal's (which allows you to view the recipients key and verify by QR code), so it shouldn't be relied on for particularly sensitive communications.
+如果您或您的訊息傳遞夥伴在沒有進階資料保護下啟用 iCloud 備份，則加密金鑰會儲存在 Apple 伺服器，這意味著他們可以訪問您的訊息。 Additionally, iMessage's key exchange is not as secure as alternative implementations like Signal's (which allows you to view the recipients key and verify by QR code), so it shouldn't be relied on for particularly sensitive communications.
 
 ### Photo Permissions
 

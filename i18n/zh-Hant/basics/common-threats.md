@@ -130,14 +130,14 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 顯而易見的問題是，服務提供商（或破壞伺服器的駭客）可以隨時隨地訪問您的對話，而您永遠不會知道。 這適用於許多常見的服務，例如 SMS 訊息、Telegram 和 Discord。
 
-慶幸的是， E2EE 可以加密您與收件人之間的通信，甚至在訊息送到伺服器之前，緩解此問題。 假設服務提供商無法訪問任何一方的私鑰，您的訊息保密性得到保證。
+慶幸的是， E2EE 可以加密您與收件人之間的通訊，甚至在訊息送到伺服器之前，緩解此問題。 假設服務提供商無法訪問任何一方的私鑰，您的訊息保密性得到保證。
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Web 加密備註提醒</p>
 
-實際上，不同 E2EE 操作的效力各不相同。 應用程式，例如 [Signal](../real-time-communication.md#signal)，會在您的裝置上原生執行，且此應用程式在不同設備的安裝上都是如此。 如果服務提供商在他們的應用程序中引入[後門](https://zh.wikipedia.org/wiki/Backdoor_(computing)) ----試圖竊取您的私鑰----它稍後可以通過[逆向工程](https://zh.wikipedia.org/wiki/Reverse_engineering)檢測。
+實際上，不同 E2EE 操作的效力各不相同。 應用程式，例如 [Signal](../real-time-communication.md#signal)，會在您的裝置上原生執行，且此應用程式在不同設備的安裝上都是如此。 如果服務提供商在他們的應用程式中植入[後門](https://zh.wikipedia.org/wiki/Backdoor_(computing)) ----試圖竊取您的私鑰----它稍後可以通過[逆向工程](https://zh.wikipedia.org/wiki/Reverse_engineering)偵測。
 
-另一方面，基於網頁的 E2EE 實作，例如 Proton Mail 的網頁應用程式或 Bitwarden 的 *Web Vault* ，則依賴伺服器動態提供 JavaScript 程式碼給瀏覽器來處理加密。 惡意伺服器可以針對您發送惡意 JavaScript 代碼以竊取您的加密密鑰（這將非常難以察覺）。 因為伺服器可以選擇為不同的人提供不同的網頁用戶端，即使您注意到攻擊也很難證明提供商有罪。
+另一方面，基於網頁的 E2EE 實作，例如 Proton Mail 的網頁應用程式或 Bitwarden 的 *Web Vault* ，則依賴伺服器動態提供 JavaScript 程式碼給瀏覽器來處理加密。 惡意伺服器可以針對您發送惡意 JavaScript 代碼以竊取您的加密金鑰（這將非常難以察覺）。 因為伺服器可以選擇為不同的人提供不同的網頁用戶端，即使您注意到攻擊也很難證明提供商有罪。
 
 因此，您應該盡可能使用原生軟體程式多於網頁客戶端。
 
@@ -211,7 +211,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 對企業平臺的審查越來越普遍，如Twitter 和 Facebook 等平臺屈服於公眾需求、市場和政府機構的壓力。 政府對企業的施壓可能是隱蔽的，例如白宮私下 [要求拿掉](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) 某個勯動的 Youtube 影片，或是公開者如中國政府命令企業要遵循嚴厲的審查制度。
 
-關注審查威脅的人可以使用像 [Tor](../advanced/tor-overview.md) 這樣的技術來規避它，並支持像 [Matrix](../real-time-communication.md#element)這樣的抗審查通信平臺，該平臺沒有可以任意關閉帳戶的集中帳戶權限。
+關注審查威脅的人可以使用像 [Tor](../advanced/tor-overview.md) 這樣的技術來規避它，並支援像 [Matrix](../real-time-communication.md#element)這樣的抗審查通訊平臺，該平臺沒有可以任意關閉帳戶的集中帳戶權限。
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">溫馨提示</p>

@@ -97,7 +97,7 @@ Snowflake 無法加強隱私，也不會在個人瀏覽器中連接 Tor 網路�
 
 </div>
 
-不同於 Tor ，所有 I2P 流量都是 I2P 網路內部的，這意味著常規互聯網網站**不能**直接從 I2P 存取。 相反，可以連接到直接在 I2P 網路上匿名託管的網站，這些網站稱為“eepsites”，並且具有以“.i2p”結尾的網域。
+不同於 Tor ，所有 I2P 流量都是 I2P 網路內部的，這意味著常規網站**不能**直接從 I2P 存取。 相反，可以連接到直接在 I2P 網路上匿名託管的網站，這些網站稱為“eepsites”，並且具有以“.i2p”結尾的網域。
 
 <div class="admonition example" markdown>
 <p class="admonition-title">試用一下！</p>

@@ -99,9 +99,9 @@ description: Linux 是一種開放原始碼、注重隱私的桌面作業系統�
 
 ### Swap
 
-考慮使用 [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) 而不是傳統的 swap 檔案或分區，以避免將潛在敏感的記憶資料寫入持久存儲（並提高性能）。 基於 Fedora 的發行版 [預設使用 ZRAM](https://fedoraproject.org/wiki/Changes/SwapOnZRAM)。
+考慮使用 [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) 而不是傳統的 swap 檔案或分區，以避免將潛在敏感的記憶資料寫入持久儲存（並提高性能）。 基於 Fedora 的發行版 [預設使用 ZRAM](https://fedoraproject.org/wiki/Changes/SwapOnZRAM)。
 
-如果需要 suspend-to-disk （磁盤休眠）功能，則仍然需要使用傳統的swap 檔案或分區。 確保持久存儲設備上的任何交換空間予以[加密](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption)，以減輕一些威脅。
+如果需要 suspend-to-disk （磁盤休眠）功能，則仍然需要使用傳統的swap 檔案或分區。 確保持久儲存設備上的任何交換空間予以[加密](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption)，以減輕一些威脅。
 
 ### 商用靭體(Microcode更新)
 
@@ -150,7 +150,7 @@ MAC 地址隨機化主要有利於 Wi-Fi 連接。 對於乙太網路連接，�
 
 - **主機名稱 **，系統的主機名稱會分享到所連接的網路。 應避免主機名稱像你的名字或作業系統等具識別度的術語，最好用一般術語或隨機字符串。
 - **用戶名稱 ** 。同樣地，用戶名稱會在系統中以各種方式使用。 考慮用 "用戶 "這樣一般常見字，而不是您的真實姓名。
-- **機器 ID**：在安裝過程中，會生成一個獨特的機器ID 並存儲在您的設備上。 考慮 [將它設置為一個通用 ID](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id)。
+- **機器 ID**：在安裝過程中，會生成一個獨特的機器ID 並儲存在您的裝置上。 考慮 [將它設置為一個通用 ID](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id)。
 
 ### 系統計數
 

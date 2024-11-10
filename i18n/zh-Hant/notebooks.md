@@ -108,7 +108,7 @@ Standard Notes 已於 2024 年 4 月 10 日 [加入 Proton AG](https://standardn
 
 </div>
 
-Joplin 不 [支援](https://github.com/laurent22/joplin/issues/289) 應用程式自身或個別筆記的 password/PIN 保護。 但是您的資料在傳輸與同步過程中仍會使用主密鑰加密。 2023 年 1 月起 Joplin [支援](https://github.com/laurent22/joplin/commit/f10d9f75b055d84416053fab7e35438f598753e9) Android 和 iOS 生物辨識應用鎖。
+Joplin 不 [支援](https://github.com/laurent22/joplin/issues/289) 應用程式自身或個別筆記的 password/PIN 保護。 但是您的資料在傳輸與同步過程中仍會使用主金鑰加密。 2023 年 1 月起 Joplin [支援](https://github.com/laurent22/joplin/commit/f10d9f75b055d84416053fab7e35438f598753e9) Android 和 iOS 生物辨識應用鎖。
 
 ### Cryptee
 
@@ -117,7 +117,7 @@ Joplin 不 [支援](https://github.com/laurent22/joplin/issues/289) 應用程式
 ![Cryptee logo](./assets/img/notebooks/cryptee.svg#only-light){ align=right }
 ![Cryptee logo](./assets/img/notebooks/cryptee-dark.svg#only-dark){ align=right }
 
-**Cryptee** 是一個開源的，基於網頁的 E2EE 文件編輯器和照片存儲應用程式。 Cryptee 為漸進式網路應用程式(PWA) ，這意味著它可以在所有現代設備上無縫工作，而無需為每個平臺提供原生應用程序。
+**Cryptee** 是一個開源的，基於網頁的 E2EE 文件編輯器和照片儲存應用程式。 Cryptee 為漸進式網路應用程式(PWA) ，這意味著它可以在所有現代設備上無縫工作，而無需為每個平臺提供原生應用程序。
 
 [:octicons-home-16: 首頁](https://crypt.ee){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://crypt.ee/privacy){ .card-link title="隱私權政策" }

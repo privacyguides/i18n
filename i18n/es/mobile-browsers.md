@@ -227,7 +227,7 @@ Debido a que Mull tiene protecciones más avanzadas y estrictas activadas por de
 
 ## Safari (iOS)
 
-En iOS, cualquier aplicación que puede navegar en internet está [limitada](https://developer.apple.com/app-store/review/guidelines) a utilizar un sistema que provee Apple, [llamado WebKit](https://developer.apple.com/documentation/webkit), por lo que hay pocos motivos para utilizar un navegador de terceros.
+On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Chromium engine like its counterparts on other operating systems.
 
 <div class="admonition recommendation" markdown>
 
@@ -249,6 +249,23 @@ Te sugerimos instalar [AdGuard](browser-extensions.md#adguard) si quieres un blo
 
 Las siguientes opciones relacionadas con la privacidad y la seguridad se encuentran en :gear: **Ajustes** → **Aplicaciones** → **Safari**.
 
+#### Allow Safari to Access
+
+Under **Siri**:
+
+- [ ] Disable **Learn from this App**
+- [ ] Disable **Show in App**
+- [ ] Disable **Show on Home Screen**
+- [ ] Disable **Suggest App**
+
+This prevents Siri from using content from Safari for Siri suggestions.
+
+#### Buscar
+
+- [ ] Disable **Search Engine Suggestions**
+
+This setting sends whatever you type in the address bar to the search engine set in Safari. Desactivar las sugerencias de búsqueda te permite controlar con mayor precisión los datos que envías al proveedor de tu motor de búsqueda.
+
 #### Perfiles
 
 Safari te permite separar tu navegación con diferentes perfiles. Todas tus cookies, historial y datos del sitio web están separados para cada perfil. Deberías utilizar diferentes perfiles para diferentes propósitos, por ejemplo, ir de compras, trabajar o uso escolar.
@@ -262,6 +279,32 @@ Esto habilita la [Protección de Seguimiento Inteligente](https://webkit.org/tra
 - [x] Activa **Requerir Face ID/Touch ID para desbloquear la navegación privada**
 
 Este ajuste te permite bloquear tus pestañas privadas detrás de los datos biométricos/PIN cuando no las estés utilizando.
+
+- [ ] Disable **Fraudulent Website Warning**
+
+This setting uses Google Safe Browsing (or Tencent Safe Browsing for users in mainland China or Hong Kong) to protect you while you browse. As such, your IP address may be logged by your Safe Browsing provider. Disabling this setting will disable this logging, but you might be more vulnerable to known phishing sites.
+
+- [ ] Disable **Highlights**
+
+Apple's privacy policy for Safari states:
+
+> When visiting a webpage, Safari may send information calculated from the webpage address to Apple over OHTTP to determine if relevant highlights are available.
+
+#### Settings for Websites
+
+Under **Camera**
+
+- [x] Select **Ask**
+
+Under **Microphone**
+
+- [x] Select **Ask**
+
+Under **Location**
+
+- [x] Select **Ask**
+
+These settings ensure that websites can only access your camera, microphone, or location after you explicitly grant them access.
 
 #### Otros Ajustes de Privacidad
 

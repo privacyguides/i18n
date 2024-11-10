@@ -10,7 +10,7 @@ cover: multi-factor-authentication.webp
 - [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 - [:material-bug-outline: 被動攻擊](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-實體**安全密鑰**可為線上帳戶添加強大的保護層。 與[驗證器應用程式](multi-factor-authentication.md) 相比，FIDO2 安全密鑰協定不受網路釣魚的影響，在沒持有金鑰的情況下不會受到損害。 許多服務支援 FIDO2/WebAuthn 作為保護帳戶安全的多因素驗證選項，且某些服務可用安全金鑰作為無密碼身份驗證的強大單因素驗證器。
+實體**安全金鑰**可為線上帳戶添加強大的保護層。 與[驗證器應用程式](multi-factor-authentication.md) 相比，FIDO2 安全金鑰協定不受網路釣魚的影響，在沒持有金鑰的情況下不會受到侵害。 許多服務支援 FIDO2/WebAuthn 作為保護帳戶安全的多因素驗證選項，且某些服務可用安全金鑰作為無密碼身份驗證的強大單因素驗證器。
 
 ## YubiKey 安全金鑰
 
@@ -20,7 +20,7 @@ cover: multi-factor-authentication.webp
   ![Security Key Series by Yubico](assets/img/security-keys/yubico-security-key.webp){ width="315" }
 </figure>
 
-**Yubico Security Key**系列是最佳成本效益的硬體安全金鑰，擁有 FIDO 2 級認證。 它支援 FIDO2/WebAuthn 和 FIDO U2F，並且可以與大多數支援安全密鑰作為第二因素的服務以及許多密碼管理器一起使用。
+**Yubico Security Key**系列是最佳成本效益的實體安全金鑰，擁有 FIDO 2 級認證。 它支援 FIDO2/WebAuthn 和 FIDO U2F，並且可以與大多數支援安全金鑰作為第二因素的服務以及許多密碼管理器一起使用。
 
 [:octicons-home-16: 首頁](https://yubico.com/products/security-key){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="隱私權政策" }
@@ -65,13 +65,13 @@ Yubico 的 **YubiKey** 系列是最受歡迎的安全金鑰之一。 YubiKey 5 �
 
 </div>
 
-[比較表](https://yubico.com/store/compare) 顯示 YubiKey 的功能以及與 Yubico [安全密鑰](#yubico-security-key) 系列之間相互比較。 YubiKey 好處之一是，一支可以滿足對安全密鑰硬體的全部期待。 建議購買前先 [作個小測驗](https://yubico.com/quiz/) ，確保做出正確的選擇。
+[比較表](https://yubico.com/store/compare) 顯示 YubiKey 的功能以及與 Yubico [安全金鑰](#yubico-security-key) 系列之間相互比較。 YubiKey 好處之一是，一支可以滿足對安全金鑰硬體的全部期待。 建議購買前先 [作個小測驗](https://yubico.com/quiz/) ，確保做出正確的選擇。
 
 Yubikey 5系列具有FIDO 1級認證，這是最常見的。 不過，有些政府或其他組織可能需要具備第二級認證的金鑰，在這種情況下，您就必須購買 [Yubikey 5 **FIPS** 系列](https://yubico.com/products/yubikey-fips) ，或 [Yubico Security Key 系列](#yubico-security-key) 金鑰。 大多數人不必擔心這種差異。
 
 YubiKey 可以使用 [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) 或 [YubiKey Personalization Tools](https://yubico.com/support/download/yubikey-personalization-tools) 來設定它。 若要管理 TOTP 程式碼，可用 [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)。 Yubico 所有客戶端軟體都是開源的。
 
-支持 HOTP 和 TOTP 的機型， OTP 介面中有2個插槽可用於HOTP 和32個插槽來存儲 TOTP 機密。 這些機密經加密後存儲在密鑰上，永遠不會將它們暴露在插入的設備上。 一旦向 Yubico Authenticator 提供種子（共享祕密） ，它將只會給出六位數的代碼，但永遠不會提供種子。 此安全模型有助於限制攻擊者，即便運行 Yubico Authenticator的設備受到破壞，讓受到物理攻擊時 Yubikey 仍具抵抗力。
+支援 HOTP 和 TOTP 的機型， OTP 介面中有2個插槽可用於HOTP 和32個插槽來儲存 TOTP 機密。 這些機密經加密後存儲在金鑰上，永遠不會將它們暴露在插入的設備上。 一旦向 Yubico Authenticator 提供種子（共享祕密） ，它將只會給出六位數的代碼，但永遠不會提供種子。 此安全模型有助於限制攻擊者，即便運行 Yubico Authenticator的設備受到破壞，讓受到物理攻擊時 Yubikey 仍具抵抗力。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
@@ -100,14 +100,14 @@ Yubikey 安全金鑰的韌體不可更新。 如果您想要使用較新韌體�
 
 [比較表](https://nitrokey.com/#comparison) 顯示 Nitrokey 模式的功能以及比較方式。 **Nitrokey 3** 具有組合的功能集。
 
-Nitrokey 模式可用 [Nitrokey 應用程式](https://nitrokey.com/download) 來配置。
+Nitrokey 模式可用 [Nitrokey 應用程式](https://nitrokey.com/download) 來設定。
 
 支持 HOTP 和 TOTP 的型號，有3個 HOTP 插槽，15 個 TOTP 插槽。 有些 Nitrokeys 可以充當密碼管理器。 可以存儲 16 組憑證，並使用與 OpenPGP 接口相同的密碼對憑證加密。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-雖然 Nitrokeys 不會將 HOTP/TOTP 機密釋放給所插入的設備，但HOTP 和 TOTP存儲\* _未經加密_ \* ，容易受到物理攻擊。 如果需要存儲 HOTP 或 TOTP 這類祕密，強烈建議使用Yubikey 代替。
+雖然 Nitrokeys 不會將 HOTP/TOTP 機密釋放給所插入的裝置，但HOTP 和 TOTP 儲存\* _未經加密_ \* ，容易受到物理攻擊。 如果需要存儲 HOTP 或 TOTP 這類機密，強烈建議使用Yubikey 代替。
 
 </div>
 

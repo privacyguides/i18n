@@ -161,7 +161,7 @@ schema:
 
 ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ align=right }
 
-**Bitwarden** 是一個免費的開源密碼與密鑰管理器。 它旨在解決個人、團隊和商業組織的密碼管理問題。 Bitwarden 是最佳和最安全的解決方案之一，可儲存所有登錄名和密碼，同時方便地在所有設備之間保持同步。
+**Bitwarden** 是一個免費的開源密碼與金鑰管理器。 它旨在解決個人、團隊和商業組織的密碼管理問題。 Bitwarden 是最佳和最安全的解決方案之一，可儲存所有登錄名和密碼，同時方便地在所有設備之間保持同步。
 
 [:octicons-home-16: 首頁](https://bitwarden.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="隱私權政策" }
@@ -204,7 +204,7 @@ Bitwarden 伺服器端代碼是 [開源的](https://github.com/bitwarden/server)
 
 ![Proton Pass 標誌](assets/img/password-management/protonpass.svg){ align=right }
 
-**Proton Pass** 是由 [Proton Mail] (email.md#protonmail) 背後的團隊 Proton 所開發的開放原始碼、端對端加密的密碼管理器。 它能安全地儲存您的登入憑證、產生獨特的電子郵件別名，並支援和儲存密碼。
+**Proton Pass** 是由 [Proton Mail] (email.md#protonmail) 背後的團隊 Proton 所開發的開放原始碼、端對端加密的密碼管理器。 它能安全地儲存您的登入憑證、產生獨特的電子郵件別名，並支援儲存密碼。
 
 [:octicons-home-16: 首頁](https://proton.me/pass){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="隱私權政策" }
@@ -246,7 +246,7 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 
 ![1Password 標誌](assets/img/password-management/1password.svg){ align=right }
 
-**1Password** 是強調安全性與易用性的密碼管理器，可讓您將密碼、密鑰、信用卡、軟體許可證以及其他任何敏感資訊儲存於安全的數位保險庫中。 您的保管庫託管在 1Password 伺服器，費用為 [每月收取](https://1password.com/sign-up/)。 1Password 定期 [接受審計](https://support.1password.com/security-assessments/) 並提供卓越的客戶支援。 1Password 是封閉原始碼；但是，產品的安全性已徹底記錄在他們的 [安全白皮書](https://1passwordstatic.com/files/security/1password-white-paper.pdf)。
+**1Password** 是強調安全性與易用性的密碼管理器，可讓您將密碼、金鑰、信用卡、軟體許可證以及其他任何敏感資訊儲存於安全的數位保險庫中。 您的保管庫託管在 1Password 伺服器，費用為 [每月收取](https://1password.com/sign-up/)。 1Password 定期 [接受審計](https://support.1password.com/security-assessments/) 並提供卓越的客戶支援。 1Password 是封閉原始碼；但是，產品的安全性已徹底記錄在他們的 [安全白皮書](https://1passwordstatic.com/files/security/1password-white-paper.pdf)。
 
 [:octicons-home-16: 首頁](https://1password.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="隱私權政策" }

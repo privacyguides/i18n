@@ -115,7 +115,7 @@ Tresorit 已獲得多項獨立安全稽核：
 
 Peergos 主要是網頁應用程式，但您可以自行託管伺服器，將其作為遠端 Peergos 帳戶的本機快取，或作為獨立的儲存伺服器，省去註冊遠端帳戶和訂閱的麻煩。 Peergos 伺服器是 `.jar` 檔案，這表示您必須將 Java 17+ 執行環境（[OpenJDK 下載](https://azul.com/downloads)）安裝在電腦上以使其正常工作。
 
-透過註冊帳戶在其付費託管服務上運行本地版本的 Peergos ，用戶可在不依賴 DNS 或 TLS 憑證授權單位的情況下存取 Peergos 存儲，並將資料副本備份到其雲端。 無論運行他們的桌面伺服器還是僅使用他們的託管 Web 介面，使用者體驗都應該是相同的。
+透過註冊帳戶在其付費託管服務上運行本機版本的 Peergos ，用戶可在不依賴 DNS 或 TLS 憑證授權單位的情況下存取 Peergos 儲存，並將資料副本備份到其雲端。 無論運行他們的桌面伺服器還是僅使用他們的託管 Web 介面，使用者體驗都應該是相同的。
 
 Peergos was [audited](https://cure53.de/pentest-report_peergos.pdf) by Cure53 in June 2019, and all found issues were subsequently fixed.
 

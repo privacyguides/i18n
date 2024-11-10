@@ -15,7 +15,7 @@ description: 從許多方面來看電子郵件本質上是不安全的，這也�
 
 還有另一種標準被稱為 [S/MIME](https://en.wikipedia.org/wiki/S/MIME)，但它需要由 [憑證機構](https://en.wikipedia.org/wiki/Certificate_authority) 頒發的憑證（並非所有憑證都發行S/MIME憑證）。 [Google Workplace](https://support.google.com/a/topic/9061730) 和[Outlook Web 或 Exchange Server 2016、2019 版](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480)可用加密訊息。
 
-即使您使用OpenPGP ，它也不支持 [向前保密](https://en.wikipedia.org/wiki/Forward_secrecy)，這意味著如果您或收件人的私鑰被盜，所有先前加密的消息都將被曝光。 這就是為什麼我們建議 [即時通訊](../real-time-communication.md) ，只要有可能，就實現電子郵件的前向保密性，以進行個人對個人的通信。
+即使您使用OpenPGP ，它也不支援 [向前保密](https://en.wikipedia.org/wiki/Forward_secrecy)，這意味著如果您或收件人的私鑰被盜，所有先前加密的消息都將被曝光。 這就是為什麼我們建議 [即時通訊](../real-time-communication.md) ，只要有可能，就實現電子郵件的前向保密性，以進行個人對個人的通信。
 
 ## Web Key Directory 網頁金鑰目錄標準介紹
 
@@ -25,13 +25,13 @@ description: 從許多方面來看電子郵件本質上是不安全的，這也�
 
 如果使用自訂網域，則需另外設定 WKD。 如果你可控制自定域名，則無論電子郵件提供者為何，都可以設定 WKD。 一個簡單的方法是使用 [WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service) 功能，透過指向`wkd.keys.openpgp.org` 網域的`openpgpkey` 子網域來設定CNAME記錄，然後將金鑰上傳到 [keys.openpgp.org](https://keys.openpgp.org) 。 或者你可以 [在自己的 Web 伺服器搭建 WKD](https://wiki.gnupg.org/WKDHosting) 。
 
-如使用不支援 WKD 供應商的共用網域（例如 @gmail.com），則無法透過此方法與其他人共用你的 OpenPGP 密鑰。
+如使用不支援 WKD 供應商的共用網域（例如 @gmail.com），則無法透過此方法與其他人共用你的 OpenPGP 金鑰。
 
 ### 哪些郵件客戶端支持 E2EE？
 
 電子郵件服務供應商讓您能使用標準訪問協議如 IMAP 與SMTP，以便應用[我們推薦的電子郵件客戶端軟體](../email-clients.md)。 根據驗證方法的不同，如果提供者或電子郵件用戶端不支持OAT或橋接應用程序，這可能會導致安全性降低，因為 [多因素驗證](multi-factor-authentication.md) 在純密碼驗證中是不可能的。
 
-### 我要怎樣保護自己的私密鑰匙？
+### 我該如何保護自己的私鑰？
 
 智慧卡（例如 [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) 或 [Nitrokey](../security-keys.md#nitrokey) ）的工作原理是透過執行 電子郵件/網頁郵件 客戶端的裝置（手機、平板電腦、電腦等）接收加密的電子郵件訊息。 智慧卡會解密該訊息再把解開的內容傳到設備。
 
@@ -41,7 +41,7 @@ description: 從許多方面來看電子郵件本質上是不安全的，這也�
 
 電子郵件中繼資料儲存在電子郵件的 [個訊息標題](https://en. wikipedia. org/wiki/Email#Message_header) 中，並包含您可能已經看到的一些可見標題，例如： `To`、 `From`、 `Cc`、 `Date`、 `Subject`。 許多電子郵件客戶端和提供商還包含一些隱藏的標題，可以揭示有關您的帳戶的信息。
 
-客戶端軟體可能會使用電子郵件中繼資料來顯示來自誰以及收到訊息的時間。 服務器可以使用它來確定電子郵件消息必須發送的位置，其中 [個其他目的](https://en.wikipedia.org/wiki/Email#Message_header) 並不總是透明的。
+客戶端軟體可能會使用電子郵件中繼資料來顯示來自誰以及收到訊息的時間。 伺服器可以使用它來確定電子郵件消息必須發送的位置，其中 [個其他目的](https://en.wikipedia.org/wiki/Email#Message_header) 並不總是透明的。
 
 ### 誰可以查看電子郵件中繼資料？
 

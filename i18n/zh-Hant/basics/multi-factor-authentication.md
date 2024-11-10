@@ -30,7 +30,7 @@ TOTP 是最常見的 MFA 形式之一。 當您設置TOTP時，您通常需要�
 
 然後，時間限制代碼從共享機密和當前時間衍生出來。 由於代碼僅在短時間內有效，無法訪問共享機密，因此對手無法生成新代碼。
 
-如果持有支援 TOTP 的硬體安全金鑰（例如具有 [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)的YubiKey ），建議將「共享機密」儲存在硬體上。 像 YubiKey 這類硬體就是為了讓“共享祕密”難以提取、複製而開發的工具。 YubiKey 也不會連接到網際網路，不像使用 TOTP 應用程式的手機。
+如果持有支援 TOTP 的實體安全金鑰（例如具有 [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)的YubiKey ），建議將「共享機密」儲存在硬體上。 像 YubiKey 這類硬體就是為了讓“共享祕密”難以提取、複製而開發的工具。 YubiKey 也不會連接到網際網路，不像使用 TOTP 應用程式的手機。
 
 與 [WebAuthn](#fido-fast-identity-online)不同， TOTP 無法應對 [網路釣魚](https://en.wikipedia.org/wiki/Phishing) 或重複使用攻擊。 如果對手從您身上取得有效的登錄碼，他們可以隨意多次使用它，直到過期（通常是60秒）。
 
@@ -38,7 +38,7 @@ TOTP 是最常見的 MFA 形式之一。 當您設置TOTP時，您通常需要�
 
 儘管未瑧完美，但TOTP 對於大多數人已足夠安全，且無[硬體安全金鑰](../security-keys.md)支援時，[驗證應用程式](../multi-factor-authentication.md)仍然是不錯的選擇。
 
-### 硬體安全金鑰
+### 實體安全金鑰
 
 YubiKey 將資料存在防纂改的強固晶片， 除非運用先進實驗室等級的取證程序，一般非破壞方式[很難存取](https://security.stackexchange.com/a/245772) 。
 
@@ -46,9 +46,9 @@ YubiKey 將資料存在防纂改的強固晶片， 除非運用先進實驗室�
 
 #### Yubico OTP
 
-Yubico OTP 的驗證協議通常是執行在硬體安全金鑰上。 當決定使用 Yubico OTP 時，該密鑰將產生公用 ID ，私有 ID 和祕密密鑰，然後密鑰日上傳到 Yubico OTP 伺服器。
+Yubico OTP 的驗證協議通常是執行在實體安全金鑰上。 當決定使用 Yubico OTP 時，該密鑰將產生公用 ID ，私有 ID 和祕密金鑰，然後將密鑰上傳到 Yubico OTP 伺服器。
 
-在登入網站時，需要做的就是實際觸摸安全金鑰。 安全金鑰將模擬鍵盤並將一次性密碼列印到密碼欄位中。
+在登入網站時，需要做的就是實際觸摸安全金鑰。 安全金鑰將模擬鍵盤並將一次性密碼輸入到密碼欄位中。
 
 它會將一次性密碼轉發到 Yubico OTP 伺服器進行驗證。 在密鑰和 Yubico 驗證伺服器上的計數器都會迭加。 OTP 只能使用一次，當成功驗證後，計數器會增加，以防止重複使用 OTP。 Yubico 提供了此過程的 [詳細文件](https://developers.yubico.com/OTP/OTPs_Explained.html) 。
 
@@ -74,7 +74,7 @@ WebAuthn是最安全、最私密的第二要素驗證形式。 雖然驗證體�
   ![FIDO](../assets/img/multi-factor-authentication/fido.png)
 </figure>
 
-當您創建一個帳戶時，公鑰會發送到服務，然後當您登錄時，服務會要求您使用您的私鑰“簽署”一些數據。 這樣做的好處是，服務不會儲存密碼資料，因此對手無從竊取任何東西。
+當您創建一個帳戶時，公鑰會發送到服務，然後當您登錄時，服務會要求您使用您的私鑰“簽署”一些資料。 這樣做的好處是，服務不會儲存密碼資料，因此對手無從竊取任何東西。
 
 這份簡報將討論密碼驗證的歷史、隱憂（例如密碼重複使用），以及 FIDO2 和 [WebAuthn](https://webauthn.guide) 的標準：
 
@@ -84,7 +84,7 @@ WebAuthn是最安全、最私密的第二要素驗證形式。 雖然驗證體�
 
 對於 Web 服務，它通常與 WebAuthn 一起使用，WebAuthn 是[W3C 建議](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC))的一部分。 它使用公鑰驗證，並且比在 Yubico OTP 和 TOTP 使用的共享機密更安全，因為它在驗證期間包括原始名稱（通常是域名）。 提供證明以保護您免受網路釣魚攻擊，以幫助您確定使用真實服務而不是假網站服務。
 
-與 Yubico OTP不同，WebAuthn不使用任何公共ID ，因此密鑰 **無法** 被不同網站識別。 它也不使用任何第三方雲端伺服器進行驗證。 所有通訊都已在密鑰和所登入的網站之間完成。 FIDO 還使用計數器，該計數器在使用時會增加，以防止期間重用和克隆密鑰。
+與 Yubico OTP不同，WebAuthn不使用任何公共ID ，因此金鑰 **無法** 被不同網站識別。 它也不使用任何第三方雲端伺服器進行驗證。 所有通訊都已在金鑰和所登入的網站之間完成。 FIDO 還使用計數器，該計數器在使用時會增加，以防止期間重用和複製金鑰。
 
 如果網站或服務支援 WebAuthn 驗證，強烈建議您使用它而不是其他形式的 MFA。
 
@@ -98,7 +98,7 @@ WebAuthn是最安全、最私密的第二要素驗證形式。 雖然驗證體�
 
 ### 備份
 
-您應該始終備份您的 MFA 方法。 硬體安全金鑰可能會丟失、被盜或隨著時間的推移而停止運作。 建議您擁有一對具有相同帳戶存取權限的硬體安全金鑰，而不僅僅是一個。
+您應該始終備份您的 MFA 方法。 實體安全金鑰可能會丟失、被盜或隨著時間的推移而停止運作。 建議您擁有一對具有相同帳戶存取權限的硬體安全金鑰，而不僅僅是一個。
 
 使用TOTP 和驗證器應用程式時，請確保備份恢復金鑰或應用程式，或將"共享密文"複製到不同手機上的另一個應用程式實例或加密容器中（例如[VeraCrypt](../encryption.md#veracrypt-disk)）。
 
@@ -116,13 +116,13 @@ WebAuthn是最安全、最私密的第二要素驗證形式。 雖然驗證體�
 
 ## 更多設定MFA的地方
 
-除了保護您的網站登錄外，多因素身份驗證還可用於保護您的本地設備的登錄、 SSH 密鑰甚至密碼資料庫。
+除了保護您的網站登錄外，多因素身份驗證還可用於保護您的本機裝置的登錄、 SSH 金鑰甚至密碼資料庫。
 
 ### macOS
 
-macOS 具有 [原生支援](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) 用於使用智慧卡(PIV)進行驗證。 如果您有支援 PIV 介面的智慧卡或硬體安全金鑰(例如 YubiKey) ，建議您遵循智慧卡/硬體安全供應商的文件，為您的macOS 電腦設定第二要素驗證。
+macOS 具有 [原生支援](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) 用於使用智慧卡(PIV)進行驗證。 如果您有支援 PIV 介面的智慧卡或實體安全金鑰(例如 YubiKey) ，建議您遵循智慧卡/實體安全供應商的文件，為您的macOS 電腦設定第二要素驗證。
 
-Yubico 指南 [在macOS](https://support.yubico.com/hc/articles/360016649059) 中使用 YubiKey 作為智慧卡，可幫助您在 macOS 設置 YubiKey。
+Yubico 指南 [在macOS](https://support.yubico.com/hc/articles/360016649059) 中使用 YubiKey 作為智慧卡，可幫助您在 macOS 設定 YubiKey。
 
 設定智慧卡/安全金鑰後，我們建議您在終端機中執行此命令：
 
@@ -141,17 +141,17 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLog
 
 </div>
 
-Linux 上的 `pam_u2f` 模組可以提供雙因素驗證，以便在最流行的 Linux 發行版上登錄。 如果您有支援 U2F 的硬體安全金鑰，可以為您的登入設定 MFA 驗證。 Yubico 有 [Ubuntu Linux 登入指南 - U2F](https://support.yubico.com/hc/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) 應該適用於任何發佈版本。 軟體包管理器指令（例如 `apt-get`）和軟體包名稱可能不同。 本指南 **不適用於**  Qubes OS.
+Linux 上的 `pam_u2f` 模組可以提供雙因素驗證，以便在最流行的 Linux 發行版上登錄。 如果您有支援 U2F 的實體安全金鑰，可以為您的登入設定 MFA 驗證。 Yubico 有 [Ubuntu Linux 登入指南 - U2F](https://support.yubico.com/hc/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) 應該適用於任何發佈版本。 軟體包管理器指令（例如 `apt-get`）和軟體包名稱可能不同。 本指南 **不適用於**  Qubes OS.
 
 ### Qubes OS
 
-Qubes OS 支援 YubiKeys 進行 Challenge-Response 驗證。 若有具 Challenge-Response 驗證支援的 YubiKey ，請查看 Qubes OS [YubiKey 文檔](https://qubes-os.org/doc/yubikey) ，以在Qubes OS 設置 MFA。
+Qubes OS 支援 YubiKeys 進行 Challenge-Response 驗證。 若有具 Challenge-Response 驗證支援的 YubiKey ，請查看 Qubes OS [YubiKey 文件](https://qubes-os.org/doc/yubikey) ，以在Qubes OS 設定 MFA。
 
 ### SSH
 
-#### 硬件安全金鑰
+#### 實體安全金鑰
 
-SSH MFA 可以使用多種不同的身份驗證方法進行設置，這些方法在硬體安全金鑰中很受歡迎。 建議查看 Yubico [文件檔](https://developers.yubico.com/SSH) ，了解如何設置此功能。
+SSH MFA 可以使用多種不同的身份驗證方法進行設定，這些方法在實體安全金鑰中很受歡迎。 建議查看 Yubico [文件檔](https://developers.yubico.com/SSH) ，了解如何設置此功能。
 
 #### TOTP
 

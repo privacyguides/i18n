@@ -72,7 +72,7 @@ Proton VPN [在 112 個國家設有伺服器](https://protonvpn.com/vpn-servers)
 
 1. 最近檢查日期: 2024-08-06
 
-我們認為，如果 VPN 提供商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜、與其他客戶共享的解決方案 (例如[虛擬服務器](https://en.wikipedia.org/wiki/Virtual_private_server))，對其私鑰的安全性會更好。
+我們認為，如果 VPN 提供商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜、與其他客戶共享的解決方案 (例如[虛擬伺服器](https://en.wikipedia.org/wiki/Virtual_private_server))，對其私鑰的安全性會更好。
 
 #### :material-check:{ .pg-green } 獨立稽核
 
@@ -152,7 +152,7 @@ IVPN 在 [37 個國家/地區設有伺服器](https://ivpn.net/status)。 (1) �
 
 1. 最近檢查日期: 2024-08-06
 
-我們認為，如果 VPN 提供商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜、與其他客戶共享的解決方案 (例如[虛擬服務器](https://en.wikipedia.org/wiki/Virtual_private_server))，對其私鑰的安全性會更好。
+我們認為，如果 VPN 提供商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜、與其他客戶共享的解決方案 (例如[虛擬伺服器](https://en.wikipedia.org/wiki/Virtual_private_server))，對其私鑰的安全性會更好。
 
 #### :material-check:{ .pg-green } 獨立稽核
 
@@ -227,7 +227,7 @@ Mullvad 在 [45 個國家/地區設有伺服器](https://mullvad.net/servers)。
 
 1. 最近檢查日期: 2024-08-06
 
-我們認為，如果 VPN 提供商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜、與其他客戶共享的解決方案 (例如[虛擬服務器](https://en.wikipedia.org/wiki/Virtual_private_server))，對其私鑰的安全性會更好。
+我們認為，如果 VPN 提供商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜、與其他客戶共享的解決方案 (例如[虛擬伺服器](https://en.wikipedia.org/wiki/Virtual_private_server))，對其私鑰的安全性會更好。
 
 #### :material-check:{ .pg-green } 獨立稽核
 

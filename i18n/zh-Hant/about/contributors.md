@@ -7,7 +7,7 @@ description: 完整的貢獻者名單，這些貢獻者共同對 Privacy Guides 
 
 <!-- Do NOT manually edit this file, please add yourself to the .all-contributorsrc file instead. See our GitHub Issues for more details -->
 
-本專案遵循 [all-contributors](https://github.com/all-contributors/all-contributors) 規範。 歡迎將**各種**類型的貢獻添加到[此列表](https://github.com/privacyguides/privacyguides.org/blob/main/.all-contributorsrc)，包括對 Privacy Guides 的存儲庫外部貢獻，與內容無關的貢獻（例如分享想法、推廣項目、在論壇上回答問題等）。
+本專案遵循 [all-contributors](https://github.com/all-contributors/all-contributors) 規範。 歡迎將**各種**類型的貢獻添加到[此列表](https://github.com/privacyguides/privacyguides.org/blob/main/.all-contributorsrc)，包括對 Privacy Guides 的儲存庫外部貢獻，與內容無關的貢獻（例如分享想法、推廣項目、在論壇上回答問題等）。
 
 | 表情符號 | 類別            | 敘述                                                                             |
 | ---- | ------------- | ------------------------------------------------------------------------------ |

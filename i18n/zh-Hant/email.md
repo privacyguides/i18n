@@ -2,7 +2,7 @@
 meta_title: "加密私人電子郵件建議 - Privacy Guides"
 title: "電子郵件服務"
 icon: material/email
-description: 這些電子郵件提供商提供了一個好地方來安全地存儲您的電子郵件，也有不少能與其他供應商相互操作的 OpenPGP 加密。
+description: 這些電子郵件提供商提供了一個好地方來安全的儲存您的電子郵件，也有不少能與其他供應商相互操作的 OpenPGP 加密。
 cover: email.webp
 global:
   - 
@@ -34,7 +34,7 @@ global:
 
 ## OpenPGP 兼容服務
 
-這些供應商原生支援 OpenPGP 加密以及 [Web Key Directory 標準](basics/email-security.md#what-is-the-web-key-directory-standard)，可進行 provider-agnostic E2EE 電郵。 例如， Proton Mail 用戶可以向 Mailbox.org 用戶發送 E2EE 消息，或者您可以從它支援的網際網路服務接收 OpenPGP 加密通知。
+這些供應商原生支援 OpenPGP 加密以及 [Web Key Directory 標準](basics/email-security.md#what-is-the-web-key-directory-standard)，可進行 provider-agnostic E2EE 電子郵件。 例如， Proton Mail 用戶可以向 Mailbox.org 用戶發送 E2EE 消息，或者您可以從它支援的網際網路服務接收 OpenPGP 加密通知。
 
 <div class="grid cards" markdown>
 
@@ -97,17 +97,17 @@ Proton Mail 除了[支持](https://proton.me/support/payment-options)郵寄現�
 
 #### :material-check:{ .pg-green } 帳號安全
 
-Proton Mail 支援使用 TOTP [雙因素驗證](https://proton.me/support/two-factor-authentication-2fa) 和採用 FIDO2 或 U2F 標準的 [硬體安全金鑰](https://proton.me/support/2fa-security-key)。 使用硬體安全金鑰需要先設定 TOTP 雙因素驗證。
+Proton Mail 支援使用 TOTP [兩步驟驗證](https://proton.me/support/two-factor-authentication-2fa) 和採用 FIDO2 或 U2F 標準的 [硬體安全金鑰](https://proton.me/support/2fa-security-key)。 使用實體安全金鑰需要先設定 TOTP 兩步驟驗證。
 
 #### :material-check:{ .pg-green } 資料安全
 
 Proton Mail 使用「[零存取加密技術](https://proton.me/blog/zero-access-encryption)」來保護電子郵件和[行事曆](https://proton.me/news/protoncalendar-security-model)的資料安全。 使用「零存取加密技術」保護的數據只能由您訪問。
 
-存儲在 [Proton 通錄](https://proton.me/support/proton-contacts)中的某些資訊，例如顯示名稱和電子郵件地址，並未使用零存取加密進行保護。 支援零存取加密的聯絡人欄位(例如電話號碼)會以掛鎖圖示顯示。
+儲存在 [Proton 通錄](https://proton.me/support/proton-contacts)中的某些資訊，例如顯示名稱和電子郵件位址，並未使用零存取加密進行保護。 支援零存取加密的聯絡人欄位(例如電話號碼)會以掛鎖圖示顯示。
 
 #### :material-check:{ .pg-green } 電子郵件加密
 
-Proton Mail 網頁郵件整合了 [OpenPGP 加密](https://proton.me/support/how-to-use-pgp) 。 發送到其他 Proton Mail 帳號的電子郵件會自動加密，並且可以在您的帳號設置中輕鬆啟用「使用 OpenPGP 金鑰對非 Proton Mail 地址進行加密」。 Proton 也支援透過 [Web 金鑰目錄 (WKD)](https://wiki.gnupg.org/WKD) 自動發現外部金鑰。 因此發送到使用 WKD 的其他供應商的電子郵件也將使用 OpenPGP 自動加密，無需與聯絡人手動交換公共 PGP 金鑰。 它可以 [加密非 Proton Mail 郵件地址的訊息](https://proton.me/support/password-protected-emails)，不必非得使用帶OpenPGP 的 Proton Mail 帳戶。
+Proton Mail 網頁郵件整合了 [OpenPGP 加密](https://proton.me/support/how-to-use-pgp) 。 發送到其他 Proton Mail 帳號的電子郵件會自動加密，並且可以在您的帳號設定中輕鬆啟用「使用 OpenPGP 金鑰對非 Proton Mail 位位址進行加密」。 Proton 也支援透過 [Web 金鑰目錄 (WKD)](https://wiki.gnupg.org/WKD) 自動發現外部金鑰。 因此發送到使用 WKD 的其他供應商的電子郵件也將使用 OpenPGP 自動加密，無需與聯絡人手動交換公共 PGP 金鑰。 它可以 [加密非 Proton Mail 郵件地址的訊息](https://proton.me/support/password-protected-emails)，不必非得使用帶OpenPGP 的 Proton Mail 帳戶。
 
 Proton Mail 也透過 HTTP 從其 WKD 發布 Proton 帳戶的公鑰。 這可讓非 Proton Mail 使用者可以輕鬆找到 Proton Mail 帳戶的 OpenPGP 金鑰，以利跨供應商進行 E2EE 。 這僅限於使用 Proton 自身網域別名 (例如 @proton.me) 的電子郵件。 如果使用自定域名，則須另行[設定 WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) 。
 
@@ -162,9 +162,9 @@ Mailbox.org 允許使用 [加密郵箱](https://kb.mailbox.org/en/private/e-mail
 
 #### :material-check:{ .pg-green } 電子郵件加密
 
-Mailbox.org 在他們的網頁郵件中 [整合了加密功能](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) ，這簡化了向具有公開OpenPGP密鑰的人發送訊息。 它們也讓遠端收件者可以在 Mailbox.org 的伺服器上[解密電子郵件](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp)。 當遠端收件人沒有 OpenPGP 無法解密自己郵箱中的電子郵件時，此功能非常有用。
+Mailbox.org 在他們的網頁郵件中 [整合了加密功能](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) ，這簡化了向具有公開OpenPGP金鑰的人發送訊息。 它們也讓遠端收件者可以在 Mailbox.org 的伺服器上[解密電子郵件](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp)。 當遠端收件人沒有 OpenPGP 無法解密自己郵箱中的電子郵件時，此功能非常有用。
 
-Mailbox.org 還支持通過 HTTP 的 [Web密鑰目錄（ WKD ）](https://wiki.gnupg.org/WKD)發現公鑰。 因此其它人可以輕鬆找到 Mailbox.org 帳戶的 OpenPGP 金鑰，便於跨提供者使用 E2EE。 這僅限於使用 Mailbox.org  自身網域(例如 @mailbox.org) 的電子郵件。 如果使用自定域名，則須另行[設定 WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) 。
+Mailbox.org 還支援通過 HTTP 的 [Web金鑰目錄（ WKD ）](https://wiki.gnupg.org/WKD)發現公鑰。 因此其它人可以輕鬆找到 Mailbox.org 帳戶的 OpenPGP 金鑰，便於跨提供者使用 E2EE。 這僅限於使用 Mailbox.org  自身網域(例如 @mailbox.org) 的電子郵件。 如果使用自定域名，則須另行[設定 WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) 。
 
 #### :material-information-outline:{ .pg-blue } 終止帳號
 
@@ -180,7 +180,7 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
 
 ## 更多供應商
 
-這些提供商以零知識加密方式儲存您的電子郵件，使其成為保護儲存電子郵件安全的絕佳選擇。 但是，它們不支持供應商之間可相互操作 E2EE 通信的加密標準。
+這些提供商以零知識加密方式儲存您的電子郵件，使其成為保護儲存電子郵件安全的絕佳選擇。 但是，它們不支援供應商之間可相互操作 E2EE 通信的加密標準。
 
 <div class="grid cards" markdown>
 

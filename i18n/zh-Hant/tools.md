@@ -568,7 +568,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 ## 硬體
 
-### 安全密鑰
+### 安全金鑰
 
 <div class="grid cards" markdown>
 

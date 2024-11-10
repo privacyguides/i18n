@@ -136,7 +136,7 @@ Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profi
 
 確定瀏覽活動的最簡單方法可能是查看您的設備正在訪問的 IP 位址。 例如，如果觀察者知道 `privacyguides.org` 位於 `198.98.54.105`，而您的裝置正在請求 `198.98.54.105`的數據，則很有可能您正在訪問隱私指南。
 
-此方法僅在 IP 位址屬於僅託管少數網站的伺服器時才有用。 如果網站託管在共享平臺(例如 Github Pages ， Cloudflare Pages ， Netlify ， WordPress ， Blogger等)，它就不太有用。 如果服務器託管在 [反向代理](https://en.wikipedia.org/wiki/Reverse_proxy)之後，這也不是很有用，這在現代互聯網上非常常見。
+此方法僅在 IP 位址屬於僅託管少數網站的伺服器時才有用。 如果網站託管在共享平臺(例如 Github Pages ， Cloudflare Pages ， Netlify ， WordPress ， Blogger等)，它就不太有用。 如果伺服器託管在 [反向代理](https://en.wikipedia.org/wiki/Reverse_proxy)之後，這也不是很有用，這在現代網路上非常常見。
 
 ### 伺服器名指示(SNI)
 
@@ -347,7 +347,7 @@ graph TB
 
 DNSSEC 簽署過程類似於無法仿製的個人獨特簽名於法律文件，法院專家透過簽名驗證該文件效力須依據簽名的真假判定。 這些數位簽名確保資料不會被篡改。
 
-DNSSEC 在所有 DNS 層中實施分級數位簽名政策。 例如，查詢 `privacyguides.org` ，根 DNS 伺服器將簽署尾綴 `.org` 伺服器密鑰，然後 `.org` 伺服器再簽署 `privacyguides.org`的授權名稱伺服器的密鑰。
+DNSSEC 在所有 DNS 層中實施分級數位簽名政策。 例如，查詢 `privacyguides.org` ，根 DNS 伺服器將簽署後綴 `.org` 伺服器金鑰，然後 `.org` 伺服器再簽署 `privacyguides.org`的授權名稱伺服器的金鑰。
 
 <small>改編自 Google 的 [DNS 安全擴充 (DNSSEC) 概述](https://cloud.google.com/dns/docs/dnssec) 和 Cloudflare 提供的[DNSSEC：簡介](https://blog.cloudflare.com/dnssec- an -introduction），兩者皆以 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) 授權。</small> 
 

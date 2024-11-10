@@ -15,7 +15,7 @@ description: 隱私保護不能僅聚焦於軟體方面；了解您每天使用�
 有些裝置會有「硬體安全認證」，例如在設計硬體時，廠商之間會就最佳實務和建議進行合作：
 
 - [Windows 安全核心電腦](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) 符合 Microsoft 指定的更高安全性標準。 這些保護並不只適用於 Windows 使用者；其他作業系統的使用者仍可利用其 [DMA 保護](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) 以及 完全不信任 Microsoft 證書 等功能。
-- [Android Ready SE](https://developers.google.com/android/security/android-ready-se) 是廠商之間的合作，以確保其裝置遵循 [最佳實踐](https://source.android.com/docs/security/best-practices/hardware) ，並包含基於硬體的可防篡改儲存設備，例如加密金鑰。
+- [Android Ready SE](https://developers.google.com/android/security/android-ready-se) 是廠商之間的合作，以確保其裝置遵循 [最佳實踐](https://source.android.com/docs/security/best-practices/hardware) ，並包含基於硬體的可防篡改儲存裝置，例如加密金鑰。
 - 在 Apple SoC 上執行的 macOS 可利用 [硬體安全性](../os/macos-overview.md#hardware-security) ，第三方作業系統可能無法使用此類功能。
 - [ChromeOS 的安全性](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper) 在 Chromebook 上可發揮最佳效果，因為它能利用可用的硬體功能，例如 [硬體信任根](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper/#hardware-root-of-trust-and-verified-boot) 。
 
@@ -63,7 +63,7 @@ Android 為生物辨識定義了三種 [安全等級](https://source.android.com
 
 ### 裝置加密
 
-如果您的裝置已進行 [加密](../encryption.md) ，在裝置完全關機 (而非僅是睡眠狀態) 時，也就是在您第一次輸入加密金鑰或鎖屏密碼之前，您的資料是最安全的（相較於其他狀態）。 在手機上，這種較高安全性的狀態稱為 “Before First Unlock（首次解鎖之前）（BFU）”，而一旦您在重新開機/開機後輸入正確密碼，則稱為 “After First Unlock（首次解鎖之後）（AFU）”。 相較於 BFU，AFU 對於數位鑑識工具套件和其他攻擊的防禦能力要低得多。 因此，如果您擔心攻擊者可以實體存取您的裝置（即 可直接取得您的設備實體 ），您應該在不使用裝置時將其關機。
+如果您的裝置已進行 [加密](../encryption.md) ，在裝置完全關機 (而非僅是睡眠狀態) 時，也就是在您第一次輸入加密金鑰或鎖定螢幕密碼之前，您的資料是最安全的（相較於其他狀態）。 在手機上，這種較高安全性的狀態稱為 “Before First Unlock（首次解鎖之前）（BFU）”，而一旦您在重新開機/開機後輸入正確密碼，則稱為 “After First Unlock（首次解鎖之後）（AFU）”。 相較於 BFU，AFU 對於數位鑑識工具套件和其他攻擊的防禦能力要低得多。 因此，如果您擔心攻擊者可以實體存取您的裝置（即 可直接取得您的設備實體 ），您應該在不使用裝置時將其關機。
 
 這可能不切實際，所以請考慮是否值得；但無論如何，只要您使用強大的加密金鑰，即使是 AFU 模式也能有效對抗大多數威脅。
 
@@ -71,11 +71,11 @@ Android 為生物辨識定義了三種 [安全等級](https://source.android.com
 
 有些威脅單靠您的內部元件無法防範。 這些選項中有許多都是高度情境性的；請評估您的威脅模型是否真的需要這些選項。
 
-### 硬體安全金鑰
+### 實體安全金鑰
 
-硬體金鑰是使用強大加密技術來驗證您的設備或帳戶的裝置。 其原理是：由於金鑰無法被複製，您可以使用金鑰來保護帳戶，使帳戶只有在實際擁有金鑰的情況下才能被存取，從而消除許多遠端攻擊。
+硬體金鑰是使用強大加密技術來驗證您的裝置或帳戶的裝置。 其原理是：由於金鑰無法被複製，您可以使用金鑰來保護帳戶，使帳戶只有在實際擁有金鑰的情況下才能被存取，從而消除許多遠端攻擊。
 
-[建議的硬體金鑰 :material-arrow-right-drop-circle:](../security-keys.md){ .md-button .md-button--primary } [了解更多有關硬體金鑰的事 :material-arrow-right-drop-circle:](multi-factor-authentication.md#hardware-security-keys){ .md-button }
+[建議的實體金鑰 :material-arrow-right-drop-circle:](../security-keys.md){ .md-button .md-button--primary } [了解更多有關實體金鑰的事 :material-arrow-right-drop-circle:](multi-factor-authentication.md#hardware-security-keys){ .md-button }
 
 ### 相機/麥克風
 

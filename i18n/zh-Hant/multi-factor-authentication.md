@@ -10,9 +10,9 @@ cover: multi-factor-authentication.webp
 - [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 <div class="admonition note" markdown>
-<p class="admonition-title">硬體金鑰</p>
+<p class="admonition-title">實體金鑰</p>
 
-[硬體安全金鑰推薦](security-keys.md) 已移至其本身的類別。
+[實體安全金鑰推薦](security-keys.md) 已移至其本身的類別。
 
 </div>
 

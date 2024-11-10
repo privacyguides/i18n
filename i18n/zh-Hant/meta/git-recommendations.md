@@ -5,9 +5,9 @@ description: 網站撰稿人如何更好利用 Git 的指南。
 
 如果想直接在 github.com 網頁編輯器對本站進行修改，則無須擔心此處的建議。 如您使用本地端開發或者您是一位常駐的網站編輯者（可能使用本地端開發），請參考以下建議。
 
-## 開啟 SSH 密鑰提交簽署
+## 開啟 SSH 金鑰提交簽署
 
-可使用現有的SSH 密鑰簽署或 [建立新密鑰one](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)。
+可使用現有的SSH 金鑰簽署或 [建立新金鑰one](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)。
 
 1. 設置 Git 客戶端以預設簽署提交與標籤(移除 `--global` 以便只對此存取庫作簽署):
 
@@ -17,13 +17,13 @@ description: 網站撰稿人如何更好利用 Git 的指南。
     git config --global tag.gpgSign true
     ```
 
-2. 透過下方指令來設定簽署 Git 的 SSH 密鑰，把 `/PATH/TO/.SSH/KEY.PUB` 替換成存放公鑰的路徑，如 `/home/user/.ssh/id_ed25519.pub`:
+2. 透過下方指令來設定簽署 Git 的 SSH 金鑰，把 `/PATH/TO/.SSH/KEY.PUB` 替換成存放公鑰的路徑，如 `/home/user/.ssh/id_ed25519.pub`:
 
     ```bash
     git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
     ```
 
-確認 [加入您 GitHub 帳戶中的 SSH 密鑰](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) **簽署密鑰** (其不同於驗證密鑰)。
+確認 [加入您 GitHub 帳戶中的 SSH 金鑰](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) **簽署金鑰** (其不同於驗證金鑰)。
 
 ## Rebase on Git pull
 

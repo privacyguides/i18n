@@ -22,7 +22,7 @@ cover: encryption.webp
 
 ![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
 
-**Cryptomator** 是一種加密方案，專為私密的將檔案儲存至任何雲端 [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers){ .pg-teal } 而設計，讓您無需相信他們不會存取您的檔案。 它允許您創建存儲在虛擬驅動器上的保管庫，其內容已加密並與雲端儲存供應商同步。
+**Cryptomator** 是一種加密方案，專為私密的將檔案儲存至任何雲端 [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers){ .pg-teal } 而設計，讓您無需相信他們不會存取您的檔案。 它允許您創建儲存在虛擬驅動器上的保管庫，其內容已加密並與雲端儲存供應商同步。
 
 [:octicons-home-16: 首頁](https://cryptomator.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="隱私權政策" }
@@ -61,7 +61,7 @@ Cryptomator 的文件詳細介紹它的預期[安全目標](https://docs.cryptom
 
 ![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ align=right }
 
-**Picocrypt** 是一個小而簡單的加密工具，提供現代加密。 Picocrypt 使用安全的 XChaCha20 密碼和 Argon2id 密鑰派生功能來提供高級別的安全性。 它使用 Go 標準x/crypto 模塊作為其加密功能。
+**Picocrypt** 是一個小而簡單的加密工具，提供現代加密。 Picocrypt 使用安全的 XChaCha20 密碼和 Argon2id 金鑰派生功能來提供高級別的安全性。 它使用 Go 標準x/crypto 模塊作為其加密功能。
 
 [:octicons-repo-16: 儲存庫](https://github.com/Picocrypt/Picocrypt){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/Picocrypt/Picocrypt){ .card-link title="原始碼" }
@@ -156,7 +156,7 @@ BitLocker [僅支援](https://support.microsoft.com/windows/turn-on-device-encry
     powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
     ```
 
-3. 造訪[進階啟動選項](https://support.microsoft.com/windows/advanced-startup-options-include-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617)。 重新啟動時需要在 Windows 啟動前按下F8 鍵，然後進入 *命令提示符* in **疑難排解** → **進階選項** → **命令提示符**。
+3. 造訪[進階啟動選項](https://support.microsoft.com/windows/advanced-startup-options-include-safe-mode-b90e7808-80b5-a291-d4b8-1a1af602b617)。 重新啟動時需要在 Windows 啟動前按下F8 鍵，然後進入 *命令提示字元* in **疑難排解** → **進階選項** → **命令提字元**。
 4. 使用管理員帳戶登入並在命令提示符中輸入指令以開始加密：
 
     ```powershell
@@ -195,7 +195,7 @@ BitLocker [僅支援](https://support.microsoft.com/windows/turn-on-device-encry
 
 </div>
 
-我們建議您將本地恢復金鑰存放在安全的地方，而不是使用您的iCloud 帳戶進行恢復。
+我們建議您將本機復原金鑰存放在安全的地方，而不是使用您的 iCloud 帳號進行復原。
 
 ### Linux Unified Key設定
 

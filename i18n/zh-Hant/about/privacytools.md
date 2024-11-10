@@ -13,7 +13,7 @@ PrivacyTools.io 建立了一個信譽良好的網站和一系列服務後，這�
 
 PrivacyTools 由 BurungHantu 於 2015年創建，在斯諾登洩密事件後，他希望建立一個隱私資源的有用工具。 該網站成長為一個蓬勃發展的開源專案，有 [許多貢獻者](https://github.com/privacytools/privacytools.io/graphs/contributors)，某些最終賦予各種組織職責，例如運營 Matrix 和 Mastodon 等線上服務，管理和審查 GitHub網站變更，為項目尋找贊助商，撰寫部落格文章和運營 Twitter 等社交媒體外展平臺等。
 
-從2019年開始， BurungHantu 與網站和社區的積極發展越來越疏遠，並開始推遲運營服務器的相關付款。 為避免本站系統管理員自掏腰包支付網站的伺服器成本，我們自[2019年10月31日起變動](https://web.archive.org/web/20210729184557/https://blog.privacytools.io/privacytools-io-joins-the-open-collective-foundation)了網頁上的捐款方式，從過去 BurungHantu 私人的 l PayPal 與加密貨幣帳戶改成 OpenCollective 帳戶。 這有額外的好處，使財務完全透明，這是我們堅信的價值，並且在美國可以免稅，因為它們由 Open Collective Foundation 501 (c) 3 持有。 這一變化得到了團隊的一致同意，沒有爭議。
+從2019年開始， BurungHantu 與網站和社區的積極發展越來越疏遠，並開始推遲運營伺服器的相關付款。 為避免本站系統管理員自掏腰包支付網站的伺服器成本，我們自[2019年10月31日起變動](https://web.archive.org/web/20210729184557/https://blog.privacytools.io/privacytools-io-joins-the-open-collective-foundation)了網頁上的捐款方式，從過去 BurungHantu 私人的 l PayPal 與加密貨幣帳戶改成 OpenCollective 帳戶。 這有額外的好處，使財務完全透明，這是我們堅信的價值，並且在美國可以免稅，因為它們由 Open Collective Foundation 501 (c) 3 持有。 這一變化得到了團隊的一致同意，沒有爭議。
 
 ## 為什麼我們要繼續前進
 
