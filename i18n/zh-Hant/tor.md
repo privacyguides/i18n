@@ -109,12 +109,12 @@ Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。
 
 </div>
 
-我們之前建議在 Orbot 設定中啟用 *隔離目標地址* 偏好設定。 雖然從理論上講，此設定可以強制您連接不同 IP 地址使用不同的迴路來改善隱私，但它並未為大多數應用程式（特別是 Web瀏覽）提供實際優勢，可能會帶來顯著的效能拖累，增加 Tor 網路的負載。 我們不再建議您從預設值調整此設定，除非您知道需要調整。[^1]
+我們之前建議在 Orbot 設定中啟用 *隔離目標位址* 偏好設定。 雖然從理論上講，此設定可以強制您連接不同 IP 位址使用不同的迴路來改善隱私，但它並未為大多數應用程式（特別是 Web瀏覽）提供實際優勢，可能會帶來顯著的效能拖累，增加 Tor 網路的負載。 我們不再建議您從預設值調整此設定，除非您知道需要調整。[^1]
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Android 提示</p>
 
-Orbot 可以代理個別應用程式，如果它們有支援 SOCKS 或 HTTP 代理。 它也能使用 [VpnService](https://developer.android.com/reference/android/net/VpnService) 代理您的所有網路連接，其 VPN killswitch 設置在 :gear: **Settings** → **Network &amp; internet** → **VPN** → :gear: → **Block connections without VPN**.。
+Orbot 可以代理個別應用程式，如果它們有支援 SOCKS 或 HTTP 代理。 它也能使用 [VpnService](https://developer.android.com/reference/android/net/VpnService) 代理您的所有網路連接，其 VPN killswitch 設定在 :gear: **Settings** → **Network &amp; internet** → **VPN** → :gear: → **Block connections without VPN**.。
 
 Guardian Project 的[F-Droid repository](https://guardianproject.info/fdroid)和 [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android) 上Orbot 往往不是最新版，因此請考慮直接從 [GitHub repository](https://github.com/guardianproject/orbot/releases) 下載。
 
@@ -128,13 +128,13 @@ Guardian Project 的[F-Droid repository](https://guardianproject.info/fdroid)和
 
 ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
 
-**Onion 瀏覽器** 是開源瀏覽器，其可讓您在 iOS 設備上匿名瀏覽 Tor 網路，其有 [Tor Project](https://support.torproject.org/glossary/onion-browser/)之保證。 [:material-star-box: 閱讀我們最新的 Onion Browser 評論](/articles/2024/09/18/onion-browser-review/)
+**Onion 瀏覽器** 是開源瀏覽器，其可讓您在 iOS 設備上匿名瀏覽 Tor 網路，其有 [Tor Project](https://support.torproject.org/glossary/onion-browser/)之保證。 [:material-star-box: Read our latest Onion Browser review.](/articles/2024/09/18/onion-browser-review)
 
-[:octicons-home-16: 首頁](https://onionbrowser.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=文檔}
-[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=捐款 }
+[:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>下載</summary>

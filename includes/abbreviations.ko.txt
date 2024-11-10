@@ -16,6 +16,7 @@
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
+*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
 *[E2EE]: 종단 간 암호화(End-to-End Encryption/Encrypted)
 *[ECS]: EDNS 클라이언트 서브넷
 *[EEA]: 유럽 경제 지역
@@ -71,6 +72,7 @@
 *[PGP]: Pretty Good Privacy (OpenPGP 참조)
 *[PII]: 개인 식별 정보(Personally Identifiable Information)
 *[QNAME]: Qualified Name
+*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
 *[롤링 릴리스]: 정해진 주기가 아닌, 빈번히 릴리스되는 업데이트
 *[RSS]: Really Simple Syndication
 *[SELinux]: 보안 강화 리눅스(Security-Enhanced Linux)

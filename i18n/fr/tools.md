@@ -76,13 +76,13 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 
     **Mull** is a Firefox-based browser for Android centered around privacy and removing proprietary components.
 
-    - [Lire l'avis complet :material-arrow-right-drop-circle:](mobile-browsers.md#mull)
+    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#mull)
 
 - ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
 
     ---
 
-    Nous recommandons **Safari** en raison de ses fonctionnalités [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0/) et de son blocage par défaut des traceurs. It also separates your cookies in private browsing mode to prevent tracking between tabs.
+    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) features and default tracker blocking. It also separates your cookies in private browsing mode to prevent tracking between tabs.
 
     - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 

@@ -79,7 +79,7 @@ OnionShare 提供透過 [Tor 橋接器](https://docs.onionshare.org/2.6.2/en/tor
 
 ![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ align=right }
 
-**FreedomBox** 是設計在[單板電腦(SBC)](https://en.wikipedia.org/wiki/Single-board_computer)上執行的作業系統。 其目的是讓設置自主託管的伺服器應用程式變得容易。
+**FreedomBox** 是設計在[單板電腦(SBC)](https://en.wikipedia.org/wiki/Single-board_computer)上執行的作業系統。 其目的是讓設定自主託管的伺服器應用程式變得容易。
 
 [:octicons-home-16: Homepage](https://freedombox.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentation}
@@ -169,5 +169,5 @@ OnionShare 提供透過 [Tor 橋接器](https://docs.onionshare.org/2.6.2/en/tor
 - 應該有 iOS 和 Android 的行動平台客戶端，至少支援文件預覽。
 - 應支援 iOS 和 Android 的相片備份，並可選擇支援 Android 上的檔案/資料夾同步。
 
-[^1]: Proton Drive 可讓您透過生成可分享的公開連結或傳送獨特的連結至指定的電子郵件地址來 [分享檔案或資料夾](https://proton.me/support/drive-shareable-link) 。 公開連結可以使用密碼保護、設定過期時間，需要時也可完全撤銷，而透過電子郵件分享的連結則可以自訂權限，也可以完全撤銷。 根據 Proton Drive 的 [隱私權政策](https://proton.me/drive/privacy-policy) ，檔案內容、檔案和資料夾名稱以及縮圖預覽均經過端對端加密。
-[^2]: 如有 [premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) 訂閱，[Bitwarden Send](https://bitwarden.com/products/send) 可讓您以 [端到端加密](https://bitwarden.com/help/send-encryption) 的方式安全地分享檔案和文字。 可以要求收件人在收到並開啟連結後需輸入 [密碼](https://bitwarden.com/help/send-privacy/#send-passwords) 才能存取 Bitwarden Send 還具有 [自動刪除](https://bitwarden.com/help/send-lifespan) 功能。
+[^1]: Proton Drive 可讓您透過生成可分享的公開連結或傳送獨特的連結至指定的電子郵件位址來 [分享檔案或資料夾](https://proton.me/support/drive-shareable-link) 。 公開連結可以使用密碼保護、設定過期時間，需要時也可完全撤銷，而透過電子郵件分享的連結則可以自訂權限，也可以完全撤銷。 根據 Proton Drive 的 [隱私權政策](https://proton.me/drive/privacy-policy) ，檔案內容、檔案和資料夾名稱以及縮圖預覽均經過端對端加密。
+[^2]: 如有 [premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) 訂閱，[Bitwarden Send](https://bitwarden.com/products/send) 可讓您以 [端對端加密](https://bitwarden.com/help/send-encryption) 的方式安全地分享檔案和文字。 可以要求收件人在收到並開啟連結後需輸入 [密碼](https://bitwarden.com/help/send-privacy/#send-passwords) 才能存取 Bitwarden Send 還具有 [自動刪除](https://bitwarden.com/help/send-lifespan) 功能。

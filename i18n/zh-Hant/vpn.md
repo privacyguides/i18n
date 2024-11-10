@@ -33,11 +33,11 @@ global:
 
 我們推薦的供應商使用加密技術，支援 WireGuard & OpenVPN，並有無記錄政策。 閱讀我們[完整的標準清單](#criteria)，瞭解更多資訊。
 
-| 供應商                   | 國家   | WireGuard                     | 端口轉發                                            | IPv6                                              | 匿名支付      |
-| --------------------- | ---- | ----------------------------- | ----------------------------------------------- | ------------------------------------------------- | --------- |
-| [Proton](#proton-vpn) | 112+ | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } 部分支援 | :material-alert-outline:{ .pg-orange }            | 現金        |
-| [IVPN](#ivpn)         | 37+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }          | :material-information-outline:{ .pg-blue } 僅限連出流量 | Monero、現金 |
-| [Mullvad](#mullvad)   | 45+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }          | :material-check:{ .pg-green }                     | Monero、現金 |
+| 供應商                   | 國家   | WireGuard                     | 端口轉發                                                   | IPv6                                                       | 匿名支付      |
+| --------------------- | ---- | ----------------------------- | ------------------------------------------------------ | ---------------------------------------------------------- | --------- |
+| [Proton](#proton-vpn) | 112+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Partial Support | :material-information-outline:{ .pg-blue } Limited Support | 現金        |
+| [IVPN](#ivpn)         | 37+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-information-outline:{ .pg-blue } 僅限連出流量          | Monero、現金 |
+| [Mullvad](#mullvad)   | 45+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-check:{ .pg-green }                              | Monero、現金 |
 
 ### Proton VPN
 
@@ -53,12 +53,13 @@ global:
 [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1437005085)
 - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
 - [:fontawesome-brands-windows: Windows](https://protonvpn.com/download-windows)
+- [:simple-apple: macOS](https://protonvpn.com/download-macos)
 - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup)
 
 </details>
@@ -92,9 +93,9 @@ Proton VPN 支援 WireGuard® 協議。 [WireGuard](https://wireguard.com/protoc
 
 Proton VPN [推薦](https://protonvpn.com/blog/wireguard)搭配 WireGuard 使用。 在 Proton VPN 的 Windows、macOS、iOS、Android、ChromeOS 以及 Android TV 等平台的應用程式中，WireGuard 已是預設協議；然而， Linux 作業系統的應用程式[尚未支援](https://protonvpn.com/support/how-to-change-vpn-protocols)此協議。
 
-#### :material-alert-outline:{ .pg-orange } 不支援 IPv6
+#### :material-alert-outline:{ .pg-orange } Limited IPv6 Support
 
-Proton VPN 的伺服器僅支援 IPv4。 Proton VPN 的客戶端會封鎖所有的 IPv6 出站流量，所以不用擔心您的 IPv6 地址會洩漏，但是您將無法連接到任何僅支援 IPv6 的網站，並且無法從僅有 IPv6 的網路連接到 Proton VPN。
+Proton [now supports IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks) in their browser extension but only 80% of their servers are IPv6-compatible. On other platforms, the Proton VPN client will block all outgoing IPv6 traffic, so you don't have to worry about your IPv6 address being leaked, but you will not be able to connect to any IPv6-only sites, nor will you be able to connect to Proton VPN from an IPv6-only network.
 
 #### :material-information-outline:{ .pg-info } 遠端端口轉發
 
@@ -182,7 +183,7 @@ IVPN 曾支援遠端端口轉發，但在 [2023 年 6 月](https://ivpn.net/blog
 
 #### :material-check:{ .pg-green } 突破網路審查
 
-IVPN 使用 [v2ray](https://v2ray.com/en/index.html) 的混淆模式，這有助於在 OpenVPN 或 WireGuard 等 VPN 協定遭到封鎖時繞過審查。 此功能目前僅支援桌機版與 [iOS](https://ivpn.net/knowledgebase/ios/v2ray)。 可透過 QUIC 或 TCP 兩種模式連接 [VMess](https://guide.v2fly.org/en_US/basics/vmess.html)。 QUIC 是一個新的傳輸協議，具有更好的擁塞控管，因此可能速度更快，且延遲更低。 TCP 模式的數據呈現為一般的 HTTP 流量。
+IVPN has obfuscation modes using [v2ray](https://v2ray.com/en/index.html) which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. 此功能目前僅支援桌機版與 [iOS](https://ivpn.net/knowledgebase/ios/v2ray)。 可透過 QUIC 或 TCP 兩種模式連接 [VMess](https://guide.v2fly.org/en_US/basics/vmess.html)。 QUIC 是一個新的傳輸協議，具有更好的擁塞控管，因此可能速度更快，且延遲更低。 TCP 模式的數據呈現為一般的 HTTP 流量。
 
 #### :material-check:{ .pg-green } 行動裝置客戶端
 
@@ -198,7 +199,7 @@ IVPN 用戶端支援雙因子身份驗證。 IVPN 有「[反追蹤](https://ivpn
 
 ![Mullvad 標誌](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** 是一個快速且便宜的 VPN，非常注重透明和安全性。 他們自 2009 年起開始營運。 Mullvad 總部位於瑞典，不提供免費試用。
+**Mullvad** 是一個快速且便宜的 VPN，非常注重透明和安全性。 他們自 2009 年起開始營運。 Mullvad is based in Sweden and offers a 30-day money-back guarantee for payment methods that allow it.
 
 [:octicons-home-16: 首頁](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="洋蔥服務" }
@@ -247,7 +248,7 @@ Mullvad 在其 [GitHub 組織](https://github.com/mullvad/mullvadvpn-app) 中提
 
 #### :material-check:{ .pg-green } 接受現金和 Monero
 
-除了接受信用卡/簽帳卡和 PayPal 外， Mullvad 還接受比特幣, Bitcoin Cash **Monero** 和 **現金/當地貨幣** （年度方案繳費）作為匿名付款方式。 也提供帶有兌換代碼的預付卡。 Mullvad 也接受 Swish 和銀行電匯。
+除了接受信用卡/簽帳卡和 PayPal 外， Mullvad 還接受比特幣, Bitcoin Cash **Monero** 和 **現金/當地貨幣** （年度方案繳費）作為匿名付款方式。 也提供帶有兌換代碼的預付卡。 Mullvad also accepts Swish and bank wire transfers, as well as a few European payment systems.
 
 #### :material-check:{ .pg-green } 支援 WireGuard
 
@@ -265,7 +266,12 @@ Mullvad 曾支援遠端端口轉發，但在 [2023 年 5 月](https://mullvad.ne
 
 #### :material-check:{ .pg-green } 突破網路審查
 
-IVPN 使用 [Shadowsocks 與 v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) 的混淆模式，這有助於在 OpenVPN 或 WireGuard 等 VPN 協定遭到封鎖時繞過審查。
+Mullvad offers several features to help bypass censorship and access the internet freely:
+
+- **Obfuscation modes**: Mullvad has two built-in obfuscation modes: "UDP-over-TCP" and ["Wireguard over Shadowsocks"](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard). These modes disguise your VPN traffic as regular web traffic, making it harder for censors to detect and block. Supposedly, China has to use a [new method to disrupt Shadowsocks-routed traffic](https://gfw.report/publications/usenixsecurity23/en).
+- **Advanced obfuscation with Shadowsocks and v2ray**: For more advanced users, Mullvad provides a guide on how to use the [Shadowsocks with v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) plugin with Mullvad clients. This setup provides an additional layer of obfuscation and encryption.
+- **Custom server IPs**: To counter IP-blocking, you can request custom server IPs from Mullvad's support team. Once you receive the custom IPs, you can input the text file in the "Server IP override" settings, which will override the chosen server IP addresses with ones that aren't known to the censor.
+- **Bridges and proxies**: Mullvad also allows you to use bridges or proxies to reach their API (needed for authentication), which can help bypass censorship attempts that block access to the API itself.
 
 #### :material-check:{ .pg-green } 行動裝置客戶端
 
@@ -273,7 +279,7 @@ Mullvad 提供 [App Store](https://apps.apple.com/app/id1488466513) 和 [Google 
 
 #### :material-information-outline:{ .pg-blue } 補充說明
 
-Mullvad 對於他們[自有或租用](https://mullvad.net/en/servers)的節點透明度非常好。 他們在 ShadowSocks + OpenVPN 配置中使用 [ShadowSocks](https://shadowsocks.org)，以更能抵抗具有[深度封包檢查](https://en.wikipedia.org/wiki/Deep_packet_inspection)的防火牆試圖封鎖 VPN。 據推測， [中國使用不同的方法來阻止 ShadowSocks 伺服器](https://github.com/net4people/bbs/issues/22)。
+Mullvad 對於他們[自有或租用](https://mullvad.net/en/servers)的節點透明度非常好。 They also provide the option to enable Defense Against AI-guided Traffic Analysis ([DAITA](https://mullvad.net/en/blog/daita-defense-against-ai-guided-traffic-analysis)) in their apps. DAITA protects against the threat of advanced traffic analysis which can be used to connect patterns in VPN traffic with specific websites.
 
 ## 標準
 
@@ -295,15 +301,16 @@ Mullvad 對於他們[自有或租用](https://mullvad.net/en/servers)的節點�
 - 支援強固的協議，如 WireGuard & OpenVPN。
 - 客戶端內建 Killswitch。
 - 支援多跳連接 (Multihop)。 萬一單個節點受損，多跳方式就非常重要，才能保持數據的私密性。
-- 如有提供 VPN 用戶端，則應為 [開源](https://en.wikipedia.org/wiki/Open_source)，一如所內置的 VPN 軟體。 我們相信，可取得的[源代碼](https://en.wikipedia.org/wiki/Source_code)可為用戶設備實際運作提供更高的透明度。
+- 如有提供 VPN 用戶端，則應為 [開源](https://en.wikipedia.org/wiki/Open_source)，一如所內建的 VPN 軟體。 我們相信，可取得的[源代碼](https://en.wikipedia.org/wiki/Source_code)可為用戶設備實際運作提供更高的透明度。
+- Censorship resistance features designed to bypass firewalls without DPI.
 
 **最佳案例：**
 
 - Killswitch 具高度可配置選項（啟用/禁用某些網路、開機時等等）
 - 易於使用的 VPN 客戶端
-- 支援 [IPv6](https://en.wikipedia.org/wiki/IPv6) 協議 我們預期伺服器將允許透過 IPv6 傳入連線，並允許您存取託管在 IPv6 位址上的服務。
+- [IPv6](https://en.wikipedia.org/wiki/IPv6) support. 我們預期伺服器將允許透過 IPv6 傳入連線，並允許您存取託管在 IPv6 位址上的服務。
 - [遠端端口轉發](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) 的功能可協助在使用P2P ([對等](https://en.wikipedia.org/wiki/Peer-to-peer)) 檔案共享軟體或自建伺服器 (例如 Mumble) 時建立連接。
-- 混淆技術，利用隨機資料填充資料封包以規避網路審查。
+- Obfuscation technology which camouflages the true nature of internet traffic, designed to circumvent advanced internet censorship methods like DPI.
 
 ### 隱私
 
@@ -328,13 +335,16 @@ Mullvad 對於他們[自有或租用](https://mullvad.net/en/servers)的節點�
 - 強固加密方案：具有 SHA-256 驗證的 OpenVPN；RSA-2048 或更好的握手；AES-256-GCM 或 AES-256-CBC 數據加密。
 - 前向保密。
 - 由信譽良好的第三方公司執行公佈的全面安全審計。
+- VPN servers that use full-disk encryption or are RAM-only.
 
 **最佳案例：**
 
 - 最強加密： RSA-4096。
+- Optional quantum-resistant encryption.
 - 前向保密。
 - 由信譽良好的第三方公司執行公佈的全面安全審計。
 - 漏洞獎勵計劃 和/或 協調漏洞披露過程。
+- RAM-only VPN servers.
 
 ### 信任
 
@@ -343,6 +353,7 @@ Mullvad 對於他們[自有或租用](https://mullvad.net/en/servers)的節點�
 **最低合格要求：**
 
 - 面向公眾的領導或所有權。
+- Company based in a jurisdiction where it cannot be forced to do secret logging.
 
 **最佳案例：**
 
@@ -374,4 +385,4 @@ Mullvad 對於他們[自有或租用](https://mullvad.net/en/servers)的節點�
 
 ### 附加功能
 
-雖不是嚴格要求，在決定推薦哪些服務商時我們還會考慮其他一些便利或隱私因素。 其中包括內容封鎖功能、金絲雀安全聲明 (warrant canaries)、多跳連接、出色的客戶支持、允許同時連接的數量等。
+雖不是嚴格要求，在決定推薦哪些服務商時我們還會考慮其他一些便利或隱私因素。 These include content blocking functionality, warrant canaries, excellent customer support, the number of allowed simultaneous connections, etc.

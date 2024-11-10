@@ -4,7 +4,7 @@ icon: simple/qubesos
 description: Qubes 作業系統利用*qubes* (過去稱"虛擬機器") 來隔離應用程式以提高安全性。
 ---
 
-[**Qubes OS**](../desktop.md#qubes-os) 為開源作業系統，其使用 [Xen](https://en.wikipedia.org/wiki/Xen) 管理程序利用 隔離*qubes*(虛擬器)來為桌面運算提供強固的安全。 您可為每一個 *qube* 依其目的指定不同的信賴層級。 Qubes OS 利用隔離作法來提高安全性。 它只允許根據具體情況進行操作，因此與[不良枚舉](https://ranum.com/security/computer_security/editorials/dumb)相反。
+[**Qubes OS**](../desktop.md#qubes-os) 為開源作業系統，其使用 [Xen](https://en.wikipedia.org/wiki/Xen) 管理程式利用 隔離*qubes*(虛擬器)來為桌面運算提供強固的安全。 您可為每一個 *qube* 依其目的指定不同的信賴層級。 Qubes OS 利用隔離作法來提高安全性。 它只允許根據具體情況進行操作，因此與[不良枚舉](https://ranum.com/security/computer_security/editorials/dumb)相反。
 
 ## Qubes OS如何工作？
 
@@ -61,7 +61,7 @@ Qubes OS在主機作業系統上 利用 [dom0](https://wiki.xenproject.org/wiki/
 
 [建立新的 ProxyVM](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) 並連接到所選的 VPN 後，可 **先將** Whonix qubes 串接至 ProxyVM 再連上 Tor 網路，其做法是設定Whonix **閘道** (`sys-whonix`) 的 NetVM 為新建立的 ProxyVM。
 
-Qubes 設置大概像這樣：
+Qubes 設定大概像這樣：
 
 | Qube 名稱         | Qube 簡述                                                                                   | NetVM           |
 | --------------- | ----------------------------------------------------------------------------------------- | --------------- |

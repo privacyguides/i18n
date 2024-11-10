@@ -16,6 +16,7 @@
 *[DoQ]: 基於 QUIC 的 DNS 服務 (DNS over QUIC)
 *[DoH3]: 基於 HTTP/3 的 DNS 服務 (DNS over HTTP/3)
 *[DoT]: 基於 TLS 的 DNS 服務 (DNS over TLS)
+*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
 *[E2EE]: 端對端加密
 *[ECS]: EDNS 客戶端子網
 *[EEA]: 歐洲經濟區
@@ -39,7 +40,7 @@
 *[hypervisor]: 將 CPU 資源分配給多個操作系統的電腦軟體、韌體或硬體。
 *[ICCID]: 集成式迴路卡識別碼
 *[IMAP]: 網際網路訊息存取協定
-*[IMEI]: 國際移動設備識別碼
+*[IMEI]: 國際行動裝置識別碼
 *[IMSI]: 國際移動使用者辨識碼
 *[IP]: 網際網路協定
 *[IPv4]: 網際網路通訊協定第 4 版
@@ -71,6 +72,7 @@
 *[PGP]: 優良保密協定 (見 OpenPGP)
 *[PII]: 個人識別資訊
 *[QNAME]: 限定名稱
+*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
 *[滾動式更新]: 頻繁釋出的更新，而非在固定的時間間隔內進行更新。
 *[RSS]: 簡易資訊聚合格式
 *[SELinux]: 安全增強型 Linux

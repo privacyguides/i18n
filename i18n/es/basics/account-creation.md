@@ -74,7 +74,7 @@ Las aplicaciones maliciosas, especialmente en dispositivos móviles en los que l
 
 ### Número de teléfono
 
-Recomendamos evitar los servicios que exigen un número de teléfono para darse de alta. Un número de teléfono puede identificarte en múltiples servicios y, dependiendo de los acuerdos de intercambio de datos, esto hará que su uso sea más fácil de rastrear, sobre todo si uno de esos servicios es violado, ya que el número de teléfono **no** suele estar encriptado.
+Recomendamos evitar los servicios que exigen un número de teléfono para darse de alta. A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
 
 Si puedes, evita dar tu número de teléfono real. Algunos servicios permiten el uso de números VOIP, pero a menudo activan los sistemas de detección de fraude y provocan el bloqueo de la cuenta, por lo que no lo recomendamos para cuentas importantes.
 

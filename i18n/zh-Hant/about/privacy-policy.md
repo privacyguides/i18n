@@ -29,7 +29,7 @@ Some services we host have separate privacy policies which supersede this docume
 
 ## Contacting Us
 
-Even in the limited cases where your data is collected, our volunteers and most members of the Privacy Guides team have no access to that information. Some information (such as your email address) may be accessible to moderators via limited control panels for the purposes of moderating our communities.
+Even in the limited cases where your data is collected, our volunteers and most members of the Privacy Guides team have no access to that information. 為了管理社區，版主可以透過有限的控制面板存取某些資訊（例如電子郵件地址）。
 
 Thus, inquiries regarding your personal information should be sent directly to:
 

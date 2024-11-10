@@ -74,7 +74,7 @@ Anche le applicazioni dannose, in particolare sui dispositivi mobili in cui l'ap
 
 ### Numero telefonico
 
-Consigliamo di evitare i servizi che richiedono un numero telefonico per iscriversi. Un numero telefonico può identificarti su svariati servizi e, a seconda degli accordi di condivisione dei dati, semplificherà il tracciamento del tuo utilizzo, particolarmente se uno di essi è violato, poiché, spesso, il numero di telefono **non** è crittografato.
+Consigliamo di evitare i servizi che richiedono un numero telefonico per iscriversi. A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
 
 Dovresti evitare di dare il tuo vero numero di telefono, se possibile. Alcuni servizi consentiranno l'utilizzo di numeri VoIP, tuttavia, questi, innescano spesso dei sistemi di rilevamento delle frodi, causando il blocco di un profilo, quindi, li sconsigliamo per i profili importanti.
 

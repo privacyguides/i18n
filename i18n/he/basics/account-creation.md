@@ -74,7 +74,7 @@ Malicious applications, particularly on mobile devices where the application has
 
 ### מספר טלפון
 
-אנו ממליצים להימנע משירותים הדורשים מספר טלפון לצורך הרשמה. מספר טלפון יכול לזהות אותך במספר שירותים ובהתאם להסכמי שיתוף נתונים זה יקל על המעקב אחר השימוש שלך, במיוחד אם אחד מהשירותים האלה נפרץ מכיוון שמספר הטלפון הוא לרוב **לא** מוצפן.
+אנו ממליצים להימנע משירותים הדורשים מספר טלפון לצורך הרשמה. A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
 
 כדאי להימנע מלמסור את מספר הטלפון האמיתי שלך אם אתה יכול. שירותים מסוימים יאפשרו שימוש במספרי VOIP, אולם אלה מפעילים לעתים קרובות מערכות זיהוי הונאה, מה שגורם לנעילה של חשבון, ולכן איננו ממליצים על כך עבור חשבונות חשובים.
 

@@ -74,7 +74,7 @@ Malicious applications, particularly on mobile devices where the application has
 
 ### 전화번호
 
-전화번호 입력이 필수적인 서비스를 가입하는 것은 피하는 것이 좋습니다. 전화번호를 이용하면 여러 서비스에서 사용자를 식별할 수 있으며, 서비스끼리 데이터를 공유하는 경우에는 사용자 추적 또한 간단해집니다. 특히, 어떤 서비스에서 데이터 유출이 발생하는 경우, 전화번호는 암호화되지 **않은** 채로 유출되는 경우가 많기 때문에 더욱 문제가 커집니다.
+전화번호 입력이 필수적인 서비스를 가입하는 것은 피하는 것이 좋습니다. A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
 
 가능하다면, 실제 전화번호를 제공하지 않는 것이 좋습니다. VoIP 번호를 사용할 수 있는 일부 서비스도 있지만, 사기 탐지 시스템에 의해 계정이 잠기는 경우가 많기 때문에 중요한 계정에 VoIP 번호를 사용하는 것은 권장드리지 않습니다.
 

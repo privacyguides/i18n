@@ -74,7 +74,7 @@ OAuth在需要服务之间更深入整合的情况下特别有用。 我们的�
 
 ### 手机号
 
-我们建议避免使用那些需要电话号码才能注册的服务。 一个电话号码可以在多个服务中识别你的身份，根据数据共享协议，这将使你的使用情况更容易被追踪，特别是当这些服务之一被破坏时，因为电话号码通常是 **，而不是** 加密。
+我们建议避免使用那些需要电话号码才能注册的服务。 A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
 
 如果可以的话，你应该避免提供你的真实电话号码。 有些服务会允许使用VOIP号码，但是这些号码往往会触发欺诈检测系统，导致账户被锁定，所以我们不建议重要账户使用这种号码。
 

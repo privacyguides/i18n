@@ -16,6 +16,7 @@
 *[DoQ]: DNS melalui QUIC
 *[DoH3]: DNS melalui HTTP/3
 *[DoT]: DNS melalui TLS
+*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
 *[E2EE]: Enkripsi Ujung ke Ujung/Terenkripsi
 *[ECS]: Subnet Klien EDNS
 *[EEA]: Wilayah Ekonomi Eropa
@@ -71,6 +72,7 @@
 *[PGP]: Pretty Good Privacy (lihat OpenPGP)
 *[PII]: Informasi Identifikasi Pribadi
 *[QNAME]: Nama yang Memenuhi Syarat
+*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
 *[rilis bergulir]: Pembaruan yang sering dirilis daripada interval yang ditetapkan
 *[RSS]: Really Simple Syndication
 *[SELinux]: Linux yang Ditingkatkan Keamanannya

@@ -51,7 +51,7 @@ Tor 的工作原理是通過志願者運營的伺服器來引導您的網際網�
 
 有些 VPN 提供者和其他出版物會推薦這些**不良**配置，以逃避某些地區的 Tor 禁令（出口節點被網站阻止）。 [通常](https://support.torproject.org/#about_change-paths)，Tor 會經常更改通過網路的迴路路徑。 當選擇永久*目的地* VPN（在*Tor 之後*連接到VPN 伺服器）時，就消除了此番優勢且嚴重損害匿名性。
 
-此類不良配置很難無意中完成，因為它通常涉及在 Tor 瀏覽器內設置自訂代理設置，或在 VPN 用戶端內設置自訂代理設定（透過 Tor 瀏覽器路由 VPN 流量）。 只要避免這些非預設配置，可能就沒問題。
+此類不良配置很難無意中完成，因為它通常涉及在 Tor 瀏覽器內設定自訂代理設置，或在 VPN 用戶端內設定自訂代理設定（透過 Tor 瀏覽器路由 VPN 流量）。 只要避免這些非預設配置，可能就沒問題。
 
 ---
 
@@ -149,11 +149,11 @@ Tor 使用來自出口，中間和入口節點的金鑰對每個封包（傳輸�
 
 一旦 Tor 構建了電路，數據傳輸將按照以下方式進行：
 
-1. 首先：當數據包到達入口節點時，第一層加密被移除。 在這個加密封包中，入口節點將找到另一個具有中間節點地址的加密封包。 然後，入口節點將將封包轉發到中間節點。
+1. 首先：當數據包到達入口節點時，第一層加密被移除。 在這個加密封包中，入口節點將找到另一個具有中間節點位址的加密封包。 然後，入口節點將將封包轉發到中間節點。
 
 2. 其次：當中間節點從入口節點接收到封包時，它也會利用其金鑰刪除一層加密，找到具有出口節點位址的加密資料包。 然後中間節點將數據包轉發到出口節點。
 
-3. 最後：當退出節點收到其資料包時，它將使用其金鑰移除最後一層加密。 出口節點將看到目的地地址，並將封包轉發到該地址。
+3. 最後：當退出節點收到其資料包時，它將使用其金鑰移除最後一層加密。 出口節點將看到目的地位址，並將封包轉發到該位址。
 
 下面是顯示此過程的圖表。 每個節點都會移除自己的加密層，當目的地伺服器傳回數據時，同樣過程會再反向發生。 例如，出口節點不知道你是誰，但它確實知道封包來自哪個節點，因此添加了自己的加密層並將其發送回來。
 
@@ -200,8 +200,8 @@ ISP 肯定不會截取所有資料包級資料與將其永久儲存，他們*無
 ## 其他資源
 
 - [Tor 瀏覽器用戶手冊](https://tb-manual.torproject.org)
-- [Tor 如何運作 - Computerphile](https://www.youtube.com/watch?v=QRYzre4bf7I) <small>(YouTube)</small>
-- [Tor 洋蔥服務 - Computerphile](https://www.youtube.com/watch?v=lVcbq_a5N9I) <small>(YouTube)</small>
+- [How Tor Works - Computerphile](https://youtube.com/watch?v=QRYzre4bf7I) <small>(YouTube)</small>
+- [Tor Onion Services - Computerphile](https://youtube.com/watch?v=lVcbq_a5N9I) <small>(YouTube)</small>
 
 [^1]: 迴路中的第一個節點被稱為“入口守衛”或“守衛”。 它是一個快速和穩定的中繼站，作迴路中的第一個入口通常會維持 2~3個月，以防止已知的匿名破壞攻擊。 其餘的迴路則會依每次訪問網站而變化，這些中繼節點共同提供Tor  完整隱私保護。 了解更多關於守衛中繼的運作，請參考 [部落格文章](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) 和 [入口守衛論文paper](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf)。 ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2))
 

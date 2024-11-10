@@ -74,7 +74,7 @@ Malicious applications, particularly on mobile devices where the application has
 
 ### Nomor telepon
 
-Kami sarankan untuk menghindari layanan yang memerlukan nomor telepon untuk mendaftar. Nomor telepon dapat menjadi identitas Anda di berbagai layanan dan tergantung pada perjanjian berbagi data, hal ini akan membuat penggunaan Anda lebih mudah dilacak, terutama jika salah satu layanan tersebut dibobol karena nomor telepon sering kali **tidak** dienkripsi.
+Kami sarankan untuk menghindari layanan yang memerlukan nomor telepon untuk mendaftar. A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
 
 Anda harus menghindari memberikan nomor telepon asli Anda jika Anda bisa. Some services will allow the use of VOIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
 

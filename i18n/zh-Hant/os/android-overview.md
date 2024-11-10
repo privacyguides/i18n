@@ -35,7 +35,7 @@ Android 10 及以上版本已從全磁碟加密轉變為更靈活的[基於文�
 
 **韌體更新**對維護安全性至關重要，沒有韌體更新，您的裝置就不可能安全。 OEM 與合作夥伴簽訂支援協議，在有限的支援期限內提供封閉原始碼元件。 詳情請參閱每月 [Android 安全公告](https://source.android.com/security/bulletin)。
 
-由於手機的元件（例如處理器和無線電技術）依賴於閉源元件，因此更新必須由各自的製造商提供。 因此，您的購買裝置必須在有效的支援週期內。 [高通](https://www.qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and)和[三星](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox)為其裝置提供 4 年的支援，而較便宜的產品通常支援週期較短。 隨著 [Pixel 6](https://support.google.com/pixelphone/answer/4457705) 的推出，Google 現在自家製造 SoC，而且他們會提供至少 5 年的支援。 隨著 Pixel 8 系列的推出，Google 將支援期限延長至 7 年。
+由於手機的元件（例如處理器和無線電技術）依賴於閉源元件，因此更新必須由各自的製造商提供。 因此，您的購買裝置必須在有效的支援週期內。 [Qualcomm](https://qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) support their devices for 4 years, while cheaper products often have shorter support cycles. 隨著 [Pixel 6](https://support.google.com/pixelphone/answer/4457705) 的推出，Google 現在自家製造 SoC，而且他們會提供至少 5 年的支援。 隨著 Pixel 8 系列的推出，Google 將支援期限延長至 7 年。
 
 不再受 SoC 製造商支援的 EOL （產品生命週期結束）裝置無法從 OEM 供應商或 Android 售後市場經銷商取得韌體更新。 這表示這些裝置的安全問題仍未修正。
 
@@ -66,7 +66,7 @@ Android 12:
 
 Android 13:
 
-- 同意 [鄰近的 Wi-Fi 存取](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). 附近 Wi-Fi 接入點的 MAC地址是應用程式跟蹤用戶位置的常用方式。
+- 同意 [鄰近的 Wi-Fi 存取](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). 附近 Wi-Fi 接入點的 MAC 位址是應用程式跟蹤用戶位置的常用方式。
 - 更多 [細微媒體權限](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions)，這意味著您只能授予對圖片，影片或音訊檔案的存取權限。
 - 傳感器的背景使用需要 [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission) 權限。
 
@@ -116,7 +116,7 @@ Android 13:
 
 ### VPN Killswitch
 
-Android 7 及以上版本支援 VPN kill switch，無需安裝第三方應用程式即可使用。 此功能可以防止VPN中斷連線時的洩漏。 它可以在 :gear: **設定** → **網路 & 網際網路** → **VPN** → :gear: → **區塊連接沒有 VPN**中找到。
+Android 7 及以上版本支援 VPN kill switch，無需安裝第三方應用程式即可使用。 此功能可以防止VPN中斷連線時的洩漏。 它可以在 :gear: **設定** → **網路 &網際網路** → **VPN** → :gear: → **區塊連接沒有 VPN**中找到。
 
 ### 全局切換
 
@@ -156,7 +156,7 @@ Android 7 及以上版本支援 VPN kill switch，無需安裝第三方應用程
 
 在具有 [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play)的Android 版上，前往 :gear: **設定** → **應用程式** → **Sandboxed Google Play** → **Google 設定** → **廣告**，然後選擇 *刪除廣告ID*。
 
-在具有特權Google Play服務的Android發行版（如 庫存 OSes）上，設置可能在幾個位置。 查看
+在具有特權Google Play服務的Android發行版（如 庫存 OSes）上，設定可能在幾個位置。 查看
 
 - :gear: **設定** → **Google** → **廣告**
 - :gear: **設定** → **私隱** → **廣告**

@@ -120,7 +120,7 @@ Privacy Guides 於 2021 年 9 月推出，是 [已解散](about/privacytools.md)
 
 我們還推出了新的討論論壇 [discuss.privacyguides.net](https://discuss.privacyguides.net) ，一個可以分享想法並詢問有關我們使命之問題的社區平臺。 這可擴大我們在 Matrix 上的現有社群，並取代我們先前的 GitHub 討論平台，減少我們對專有討論平台的依賴。
 
-2023 年，我們推出了 [法文](https://www.privacyguides.org/fr/)、[希伯來文](https://www.privacyguides.org/he/)、[荷蘭文](https://www.privacyguides.org/nl/)，以及更多語言的網站翻譯版本，這些都是由 [Crowdin](https://crowdin.com/project/privacyguides) 上優秀的翻譯團隊所促成的。 我們計劃繼續擴大我們的服務範圍並發揚教育使命，並尋找方法更清楚地突顯現代數位時代的人們缺乏隱私意識的危險，以及科技產業安全漏洞的普遍性和危害。
+In 2023, we launched international translations of our website in [French](https://www.privacyguides.org/fr), [Hebrew](https://www.privacyguides.org/he), [Dutch](https://www.privacyguides.org/nl), and more languages, made possible by our excellent translation team on [Crowdin](https://crowdin.com/project/privacyguides). 我們計劃繼續擴大我們的服務範圍並發揚教育使命，並尋找方法更清楚地突顯現代數位時代的人們缺乏隱私意識的危險，以及科技產業安全漏洞的普遍性和危害。
 
 ## 網站授權
 

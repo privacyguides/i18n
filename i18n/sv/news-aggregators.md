@@ -21,11 +21,11 @@ A **news aggregator** is software which aggregates digital content from online n
 
 **Akregator** är en nyhetsflödesläsare som är en del av projektet [KDE](https://kde.org). It comes with a fast search, advanced archiving functionality, and an internal browser for easy news reading.
 
-[:octicons-home-16: Homepage](https://apps.kde.org/akregator){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title="Documentation" }
-[:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title="Contribute" }
+[:octicons-home-16: Hemsida](https://apps.kde.org/akregator){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Integritetspolicy" }
+[:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Källkod" }
+[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title="Bidra" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -87,10 +87,10 @@ A **news aggregator** is software which aggregates digital content from online n
 
 **Miniflux** is a web-based news aggregator that you can self-host. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
-[:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
-[:octicons-info-16:](https://miniflux.app/docs/index){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title="Contribute" }
+[:octicons-home-16: Hemsida](https://miniflux.app){ .md-button .md-button--primary }
+[:octicons-info-16:](https://miniflux.app/docs/index){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Källkod" }
+[:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title="Bidra" }
 
 </div>
 
@@ -102,10 +102,10 @@ A **news aggregator** is software which aggregates digital content from online n
 
 **NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. Den stödjer de vanligaste formaten tillsammans med inbyggd support för flöden från Reddit.
 
-[:octicons-home-16: Homepage](https://netnewswire.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://netnewswire.com/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
+[:octicons-home-16: Hemsida](https://netnewswire.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="Integritetspolicy" }
+[:octicons-info-16:](https://netnewswire.com/help){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Källkod" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -125,9 +125,9 @@ A **news aggregator** is software which aggregates digital content from online n
 
 **Newsboat** är en RSS/Atom-flödesläsare för textkonsolen. Det är en aktivt underhållen gaffel av [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter). It is very lightweight and ideal for use over [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
 
-[:octicons-home-16: Homepage](https://newsboat.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://newsboat.org/releases/2.37/docs/newsboat.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="Source Code" }
+[:octicons-home-16: Hemsida](https://newsboat.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://newsboat.org/releases/2.37/docs/newsboat.html){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="Källkod" }
 
 </div>
 

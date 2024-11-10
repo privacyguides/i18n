@@ -74,7 +74,7 @@ Malicious applications, particularly on mobile devices where the application has
 
 ### Telefon numarası
 
-Kayıt için telefon numarası gerektiren hizmetlerden kaçınmanızı öneririz. Bir telefon numarası sizi birden fazla hizmette tanımlayabilir ve veri paylaşım anlaşmalarına bağlı olarak bu, özellikle telefon numarası genellikle **şifrelenmediği** için bu hizmetlerden birinin ihlal edilmesi durumunda kullanımınızın izlenmesini kolaylaştıracaktır.
+Kayıt için telefon numarası gerektiren hizmetlerden kaçınmanızı öneririz. A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
 
 Mümkünse gerçek telefon numaranızı vermekten kaçınmalısınız. Some services will allow the use of VOIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
 

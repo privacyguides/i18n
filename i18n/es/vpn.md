@@ -33,11 +33,11 @@ Si buscas **anonimato**, deberías usar el Navegador Tor. Si buscas **seguridad*
 
 Nuestros proveedores recomendados usan cifrado, soportan Wireguard & OpenVPN, además de que tienen una política de cero registros. Lee nuestra \[lista completa de criterios\](#criterios) para más información.
 
-| Proveedor             | Países | WireGuard                     | Redireccionamiento de puertos                              | IPv6                                                             | Pagos anónimos   |
-| --------------------- | ------ | ----------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------- | ---------------- |
-| [Proton](#proton-vpn) | 112+   | :material-check:{ .pg-green } | :material-information-outline:{ .pg-blue } Soporte parcial | :material-alert-outline:{ .pg-orange }                           | Efectivo         |
-| [IVPN](#ivpn)         | 37+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                     | :material-information-outline:{ .pg-blue } Sólo tráfico saliente | Monero, efectivo |
-| [Mullvad](#mullvad)   | 45+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                                    | Monero, efectivo |
+| Proveedor             | Países | WireGuard                     | Redireccionamiento de puertos                          | IPv6                                                             | Pagos anónimos   |
+| --------------------- | ------ | ----------------------------- | ------------------------------------------------------ | ---------------------------------------------------------------- | ---------------- |
+| [Proton](#proton-vpn) | 112+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Partial Support | :material-information-outline:{ .pg-blue } Limited Support       | Efectivo         |
+| [IVPN](#ivpn)         | 37+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-information-outline:{ .pg-blue } Sólo tráfico saliente | Monero, efectivo |
+| [Mullvad](#mullvad)   | 45+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-check:{ .pg-green }                                    | Monero, efectivo |
 
 ### Proton VPN
 
@@ -53,12 +53,13 @@ Nuestros proveedores recomendados usan cifrado, soportan Wireguard & OpenVPN, ad
 [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1437005085)
 - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
 - [:fontawesome-brands-windows: Windows](https://protonvpn.com/download-windows)
+- [:simple-apple: macOS](https://protonvpn.com/download-macos)
 - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup)
 
 </details>
@@ -94,9 +95,9 @@ Mullvad soporta el protocolo WireGuard®. [WireGuard](https://wireguard.com) es 
 
 Proton VPN [recomienda](https://protonvpn.com/blog/wireguard) el uso de WireGuard con su servicio. En las aplicaciones de Proton VPN para Windows, macOS, iOS, Android, ChromeOS y Android TV, WireGuard es el protocolo predeterminado; sin embargo, [la compatibilidad](https://protonvpn.com/support/how-to-change-vpn-protocols) para el protocolo no está presente en su aplicación para Linux.
 
-#### :material-alert-outline:{ .pg-orange } Sin soporte para IPv6
+#### :material-alert-outline:{ .pg-orange } Limited IPv6 Support
 
-Los servidores de Proton VPN sólo son compatibles con IPv4. Las aplicaciones de Proton VPN bloquearán todo el tráfico IPv6 saliente, por lo que no debes preocuparte por la filtración de tu dirección IPv6, pero no serás capaz de conectarte a cualquier página disponible sólo a través de IPv6 y no serás capaz de conectarte a Proton VPN desde una red de solo IPv6.
+Proton [now supports IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks) in their browser extension but only 80% of their servers are IPv6-compatible. On other platforms, the Proton VPN client will block all outgoing IPv6 traffic, so you don't have to worry about your IPv6 address being leaked, but you will not be able to connect to any IPv6-only sites, nor will you be able to connect to Proton VPN from an IPv6-only network.
 
 #### :material-information-outline:{ .pg-info } Reenvío remoto de puertos
 
@@ -184,7 +185,7 @@ Anteriormente, IVPN admitía el reenvío de puertos, pero eliminó la opción en
 
 #### :material-check:{ .pg-green } Anti censura
 
-IVPN tiene modos de ofuscación usando el proyecto [v2ray](https://v2ray.com/en/index.html) que ayuda en situaciones donde los protocolos VPN como OpenVPN o Wireguard están bloqueados. Actualmente, esta característica solo está disponible en la versión para escritorio e [iOS](https://ivpn.net/knowledgebase/ios/v2ray). Este cuenta con dos modos donde puede usar [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) sobre QUIC o conexiones TCP. QUIC es un moderno protocolo con mejor control de la congestión y puede ser más rápido con menor latencia. El modo TCP ayuda para que tus datos aparezcan como tráfico HTTP regular.
+IVPN has obfuscation modes using [v2ray](https://v2ray.com/en/index.html) which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Actualmente, esta característica solo está disponible en la versión para escritorio e [iOS](https://ivpn.net/knowledgebase/ios/v2ray). Este cuenta con dos modos donde puede usar [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) sobre QUIC o conexiones TCP. QUIC es un moderno protocolo con mejor control de la congestión y puede ser más rápido con menor latencia. El modo TCP ayuda para que tus datos aparezcan como tráfico HTTP regular.
 
 #### :material-check:{ .pg-green } Clientes Móviles
 
@@ -200,7 +201,7 @@ Los clientes de IVPN soportan la autenticación de dos factores. IVPN también o
 
 ![Logo de Mullvad](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** es una VPN rápida y económica que se centra en la transparencia y la seguridad. Ha estado en operación desde 2009. Mullvad tiene su sede en Suecia y no ofrece una prueba gratuita.
+**Mullvad** es una VPN rápida y económica que se centra en la transparencia y la seguridad. Ha estado en operación desde 2009. Mullvad is based in Sweden and offers a 30-day money-back guarantee for payment methods that allow it.
 
 [:octicons-home-16: Página Principal](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Servicio Onion" }
@@ -249,7 +250,7 @@ Mullvad proporciona el código fuente para sus clientes de escritorio y móviles
 
 #### :material-check:{ .pg-green } Acepta Efectivo y Monero
 
-Mullvad, además de tarjetas de crédito/débito y PayPal, también acepta Bitcoin, Bitcoin Cash, **Monero** y **efectivo/moneda local** como métodos anónimos de pago. Tarjetas prepago con códigos canjeables también están disponibles. Mullvad también acepta Swish y transferencias bancarias.
+Mullvad, además de tarjetas de crédito/débito y PayPal, también acepta Bitcoin, Bitcoin Cash, **Monero** y **efectivo/moneda local** como métodos anónimos de pago. Tarjetas prepago con códigos canjeables también están disponibles. Mullvad also accepts Swish and bank wire transfers, as well as a few European payment systems.
 
 #### :material-check:{ .pg-green } Soporte de WireGuard
 
@@ -267,7 +268,12 @@ Anteriormente, Mullvad admitía el reenvío de puertos, pero eliminó esta opci�
 
 #### :material-check:{ .pg-green } Anti censura
 
-Mullvad tiene un modo de ofuscación usando [Shadowsocks con v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) que puede ser útil en situaciones donde los protocolos VPN como OpenVPN o Wireguard están bloqueados.
+Mullvad offers several features to help bypass censorship and access the internet freely:
+
+- **Obfuscation modes**: Mullvad has two built-in obfuscation modes: "UDP-over-TCP" and ["Wireguard over Shadowsocks"](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard). These modes disguise your VPN traffic as regular web traffic, making it harder for censors to detect and block. Supposedly, China has to use a [new method to disrupt Shadowsocks-routed traffic](https://gfw.report/publications/usenixsecurity23/en).
+- **Advanced obfuscation with Shadowsocks and v2ray**: For more advanced users, Mullvad provides a guide on how to use the [Shadowsocks with v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) plugin with Mullvad clients. This setup provides an additional layer of obfuscation and encryption.
+- **Custom server IPs**: To counter IP-blocking, you can request custom server IPs from Mullvad's support team. Once you receive the custom IPs, you can input the text file in the "Server IP override" settings, which will override the chosen server IP addresses with ones that aren't known to the censor.
+- **Bridges and proxies**: Mullvad also allows you to use bridges or proxies to reach their API (needed for authentication), which can help bypass censorship attempts that block access to the API itself.
 
 #### :material-check:{ .pg-green } Clientes Móviles
 
@@ -275,7 +281,7 @@ Mullvad ha publicado clientes para [App Store](https://apps.apple.com/app/id1488
 
 #### :material-information-outline:{ .pg-blue } Notas adicionales
 
-Mullvad es muy transparente sobre los nodos que [posee o alquila](https://mullvad.net/en/servers). Utilizan [ShadowSocks](https://shadowsocks.org) en su configuración ShadowSocks + OpenVPN, haciéndolos más resistentes contra cortafuegos con [Inspección de Profunda de Paquetes](https://en.wikipedia.org/wiki/Deep_packet_inspection) intentando bloquear VPNs. Supuestamente, [China tiene que utilizar un método diferente para bloquear los servidores de ShadowSocks](https://github.com/net4people/bbs/issues/22).
+Mullvad es muy transparente sobre los nodos que [posee o alquila](https://mullvad.net/en/servers). They also provide the option to enable Defense Against AI-guided Traffic Analysis ([DAITA](https://mullvad.net/en/blog/daita-defense-against-ai-guided-traffic-analysis)) in their apps. DAITA protects against the threat of advanced traffic analysis which can be used to connect patterns in VPN traffic with specific websites.
 
 ## Criterios
 
@@ -298,14 +304,15 @@ Requerimos que todos nuestros proveedores de VPN recomendados proporcionen archi
 - Killswitch integrado en los clientes.
 - Soporte de multisaltos. El multihopping es importante para mantener la privacidad de los datos en caso de que un solo nodo se vea comprometido.
 - Si se proporcionan clientes VPN, deben ser de [código abierto](https://en.wikipedia.org/wiki/Open_source), como el software VPN que generalmente llevan incorporado. Creemos que la disponibilidad de [código fuente](https://en.wikipedia.org/wiki/Source_code) proporciona una mayor transparencia sobre lo que su dispositivo está haciendo realmente.
+- Censorship resistance features designed to bypass firewalls without DPI.
 
 **Mejor Caso:**
 
 - Killswitch con opciones altamente configurables (activar/desactivar en determinadas redes, en el arranque, etc.)
 - Clientes VPN fáciles de usar
-- Admite [IPv6](https://en.wikipedia.org/wiki/IPv6). Esperamos que los servidores permitan las conexiones entrantes a través de IPv6 y le permitan acceder a los servicios alojados en direcciones IPv6.
+- [IPv6](https://en.wikipedia.org/wiki/IPv6) support. Esperamos que los servidores permitan las conexiones entrantes a través de IPv6 y le permitan acceder a los servicios alojados en direcciones IPv6.
 - La capacidad de [redirección de puertos](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) ayuda a crear conexiones cuando se utiliza software de intercambio de archivos P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)), Freenet, o se aloja un servidor (por ejemplo, Mumble).
-- Tecnología de ofuscación que rellena los paquetes de datos con datos aleatorios para eludir la censura en Internet.
+- Obfuscation technology which camouflages the true nature of internet traffic, designed to circumvent advanced internet censorship methods like DPI.
 
 ### Privacidad
 
@@ -330,13 +337,16 @@ Una VPN no tiene sentido si ni siquiera puede proporcionar una seguridad adecuad
 - Esquemas de cifrado fuertes: OpenVPN con autenticación SHA-256; RSA-2048 o mejor handshake; AES-256-CBC o cifrado de datos AES-256-GCM.
 - Secreto Hacia Adelante.
 - Auditorías de seguridad publicadas por una empresa externa de prestigio.
+- VPN servers that use full-disk encryption or are RAM-only.
 
 **Mejor Caso:**
 
 - Cifrado más fuerte: RSA-4096.
+- Optional quantum-resistant encryption.
 - Secreto Hacia Adelante.
 - Auditorías de seguridad exhaustivas publicadas por una empresa externa de prestigio.
 - Programas de recompensa de errores y/o un proceso coordinado de divulgación de vulnerabilidades.
+- RAM-only VPN servers.
 
 ### Confianza
 
@@ -345,6 +355,7 @@ No confiarías tus finanzas a alguien con una identidad falsa, así que ¿por qu
 **Mínimo para Calificar:**
 
 - Liderazgo o titularidad de cara al público.
+- Company based in a jurisdiction where it cannot be forced to do secret logging.
 
 **Mejor Caso:**
 
@@ -376,4 +387,4 @@ El marketing responsable que es a la vez educativo y útil para el consumidor po
 
 ### Funcionalidad Adicional
 
-Aunque no son estrictamente requisitos, hay algunos factores en los que nos fijamos a la hora de determinar qué proveedores recomendar. Entre ellas se incluyen la funcionalidad de bloqueo de contenidos, los canarios de garantía, las conexiones multisalto, la excelente atención al cliente, el número de conexiones simultáneas permitidas, etc.
+Aunque no son estrictamente requisitos, hay algunos factores en los que nos fijamos a la hora de determinar qué proveedores recomendar. These include content blocking functionality, warrant canaries, excellent customer support, the number of allowed simultaneous connections, etc.

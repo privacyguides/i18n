@@ -55,7 +55,7 @@ VPN 無法加密裝置與 VPN 伺服器之間連線以外的資料。 VPN 服務
 
 ## 我應該將加密 DNS 與 VPN 一起使用嗎？
 
-除非 VPN 提供者本身託管加密的 DNS 伺服器，否則**可能不會**。 將 DOH/DOT（或任何其他形式的加密 DNS）與第三方伺服器一起使用只會添加更多值得信任的實體。 您的 VPN 提供商仍可以根據 IP 地址和其他方法查看您訪問的網站。 話雖如此，啟用加密 DNS 以便啟用瀏覽器中的其他安全功能（例如 ECH）可能會有一些優點。 依賴瀏覽器內加密 DNS 的瀏覽器技術相對較新，尚未普及，因此它們是否與您特別相關，留給您自行研究。
+除非 VPN 提供者本身託管加密的 DNS 伺服器，否則**可能不會**。 將 DOH/DOT（或任何其他形式的加密 DNS）與第三方伺服器一起使用只會添加更多值得信任的實體。 您的 VPN 提供商仍可以根據 IP 位址和其他方法查看您訪問的網站。 話雖如此，啟用加密 DNS 以便啟用瀏覽器中的其他安全功能（例如 ECH）可能會有一些優點。 依賴瀏覽器內加密 DNS 的瀏覽器技術相對較新，尚未普及，因此它們是否與您特別相關，留給您自行研究。
 
 建議使用加密 DNS 的另一個常見原因是它可以防止 DNS 欺騙。 您的瀏覽器應該已經檢查了 [TLS 憑證](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) 和 **HTTPS** ，並警告您。 如果沒用 **HTTPS**，則對手可以修改您的 DNS 查詢之外的任何東西，最終結果將沒太大差異。
 
@@ -114,5 +114,5 @@ MPR 試圖解決 VPN 固有的問題：用戶必須完全信任它們。 他們�
 - [VPN 問題和隱私評論網站](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites)
 - [免費 VPN 應用程式調查](https://top10vpn.com/research/free-vpn-investigations/ownership)
 - [揭露隱身的 VPN 擁有者：由 23 家公司運營101款 VPN 產品](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies)
-- [這家中國公司祕密支持24個尋求危險權限的流行應用程序](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions)
+- [這家中國公司祕密支援 24 個尋求危險權限的流行應用程式](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions)
 - [VPN - a Very Precarious Narrative](https://overengineer.dev/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert

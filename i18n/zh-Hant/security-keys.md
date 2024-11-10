@@ -71,7 +71,7 @@ Yubikey 5系列具有FIDO 1級認證，這是最常見的。 不過，有些政�
 
 YubiKey 可以使用 [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) 或 [YubiKey Personalization Tools](https://yubico.com/support/download/yubikey-personalization-tools) 來設定它。 若要管理 TOTP 程式碼，可用 [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)。 Yubico 所有客戶端軟體都是開源的。
 
-支援 HOTP 和 TOTP 的機型， OTP 介面中有2個插槽可用於HOTP 和32個插槽來儲存 TOTP 機密。 這些機密經加密後存儲在金鑰上，永遠不會將它們暴露在插入的設備上。 一旦向 Yubico Authenticator 提供種子（共享祕密） ，它將只會給出六位數的代碼，但永遠不會提供種子。 此安全模型有助於限制攻擊者，即便運行 Yubico Authenticator的設備受到破壞，讓受到物理攻擊時 Yubikey 仍具抵抗力。
+支援 HOTP 和 TOTP 的機型， OTP 介面中有2個插槽可用於HOTP 和32個插槽來儲存 TOTP 機密。 這些機密經加密後儲存在金鑰上，永遠不會將它們暴露在插入的設備上。 一旦向 Yubico Authenticator 提供種子（共享祕密） ，它將只會給出六位數的代碼，但永遠不會提供種子。 此安全模型有助於限制攻擊者，即便運行 Yubico Authenticator的設備受到破壞，讓受到物理攻擊時 Yubikey 仍具抵抗力。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
@@ -102,12 +102,12 @@ Yubikey 安全金鑰的韌體不可更新。 如果您想要使用較新韌體�
 
 Nitrokey 模式可用 [Nitrokey 應用程式](https://nitrokey.com/download) 來設定。
 
-支持 HOTP 和 TOTP 的型號，有3個 HOTP 插槽，15 個 TOTP 插槽。 有些 Nitrokeys 可以充當密碼管理器。 可以存儲 16 組憑證，並使用與 OpenPGP 接口相同的密碼對憑證加密。
+支持 HOTP 和 TOTP 的型號，有3個 HOTP 插槽，15 個 TOTP 插槽。 有些 Nitrokeys 可以充當密碼管理器。 可以儲存 16 組憑證，並使用與 OpenPGP 接口相同的密碼對憑證加密。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-雖然 Nitrokeys 不會將 HOTP/TOTP 機密釋放給所插入的裝置，但HOTP 和 TOTP 儲存\* _未經加密_ \* ，容易受到物理攻擊。 如果需要存儲 HOTP 或 TOTP 這類機密，強烈建議使用Yubikey 代替。
+雖然 Nitrokeys 不會將 HOTP/TOTP 機密釋放給所插入的裝置，但HOTP 和 TOTP 儲存\* _未經加密_ \* ，容易受到物理攻擊。 如果需要儲存 HOTP 或 TOTP 這類機密，強烈建議使用Yubikey 代替。
 
 </div>
 

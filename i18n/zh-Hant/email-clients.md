@@ -15,7 +15,7 @@ cover: email-clients.webp
 <details class="warning" markdown>
 <summary>電子郵件不提供前向保密</summary>
 
-當使用端到端加密（ E2EE ）技術（如 OpenPGP ）時，電子郵件仍然會有一些未在電子郵件標頭中加密的[中繼數據](basics/email-security.md#email-metadata-overview)。
+當使用端對端加密（ E2EE ）技術（如 OpenPGP ）時，電子郵件仍然會有一些未在電子郵件標頭中加密的[中繼數據](basics/email-security.md#email-metadata-overview)。
 
 OpenPGP 也不支援[前向保密](https://en.wikipedia.org/wiki/Forward_secrecy)，這表示如果您或收件者的私鑰被盜，之前用它加密的所有訊息都會曝光：[我該如何保護我的私鑰呢？](basics/email-security.md)考慮使用提供前向保密功能的媒介：
 

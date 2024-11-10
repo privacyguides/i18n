@@ -8,7 +8,7 @@ description: 網域名稱系統是“網際網路電話簿” ，可幫助瀏覽
 
 ## 什麼是 DNS？
 
-當您訪問一個網站時，會傳回一個數字地址。 以訪問 `privacyguides.org`網站為例，它傳回的地址為 `192.98.54.105` 。
+當您訪問一個網站時，會傳回一個數字位址。 以訪問 `privacyguides.org`網站為例，它傳回的位址為 `192.98.54.105` 。
 
 DNS 從網際網路的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System#History) 就存在了。 來往 DNS 伺服器的 DNS 請求通常 **不是** 加密的。 一般家用的網路中，客戶的伺服器通常是由 ISP 透過 [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol)給予的。
 
@@ -92,7 +92,7 @@ Android 9 以上版本支援 DNS over TLS。 設定方式可以在以下位置�
 
 最新版本的 iOS、iPadOS、tvOS 和 macOS 都支持 DoT 和 DoH。 這兩個通訊協議都透過 [組態檔](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) 或透過 [DNS 設定 API ](https://developer.apple.com/documentation/networkextension/dns_settings)獲得原生支援。
 
-安裝設定設定檔或使用 DNS 設定API 的應用程式後，即可選擇 DNS 設定。 如果啟用 VPN， 隧道內的解析將使用 VPN 的 DNS 設置，而不是設備系統的設置。
+安裝設定設定檔或使用 DNS 設定API 的應用程式後，即可選擇 DNS 設定。 如果啟用 VPN， 隧道內的解析將使用 VPN 的 DNS 設定，而不是設備系統的設定。
 
 Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profile creator](https://dns.notjakob.com/tool.html) 是一款非正式工具用以建立您自己的加密 DNS 設定檔。不過這個軟體並未得到簽署。 最好是簽署過個人資設定檔；簽署會驗證個人資料的來源，並有助於確保個人資料的完整性。 綠色的「已驗證」標籤會提供給已簽署的配置文件。 代碼簽名的詳細資訊，請參閱 [關於代碼簽名](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html)。
 
@@ -124,7 +124,7 @@ Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profi
     wireshark -r /tmp/dns_doh.pcap
     ```
 
-可看到[連接建立](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_builtment)和[TLS 握手](https://cloudflare.com/learning/ssl/ What-happens-in-a-tls-handshake)發生在加密連線時。 當查看隨後的“應用程序數據”封包時，都不包含所請求的域名或它的 IP 地址。
+可看到[連接建立](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_builtment)和[TLS 握手](https://cloudflare.com/learning/ssl/ What-happens-in-a-tls-handshake)發生在加密連線時。 當查看隨後的“應用程式資料”封包時，都不包含所請求的域名或它的 IP 位址。
 
 ## 什麼時候 **不該** 使用加密的 DNS ？
 
@@ -142,7 +142,7 @@ Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profi
 
 伺服器名稱指示通常用於IP位址託管多個網站時。 這可能是像 Cloudflare 的服務，或者其他 [阻斷服務攻擊](https://en.wikipedia.org/wiki/Denial-of-service_attack) 保護。
 
-1. 再次開始捕捉 `tshark`。 我們添加了一個自身IP 地址的過濾器，因此您不會捕獲過多封包：
+1. 再次開始捕捉 `tshark`。 我們新增了一個自身 IP 位址的過濾器，因此您不會捕獲過多封包：
 
     ```bash
     tshark -w /tmp/pg.pcap port 443 and host 198.98.54.105
@@ -307,7 +307,7 @@ OCSP 請求包含憑證，其帶有獨特的"[序列號](https://en.wikipedia.or
     ```
 
 
-如果網路觀察者拿到可公開取得的公共憑證，就可將序列號與該憑證作匹配，從而確定您正在訪問的網站。 這個過程可以自動化，並且可以將IP地址與序列號相關聯。 也可檢查 [憑證透明度](https://en.wikipedia.org/wiki/Certificate_Transparency) 日誌的序列號。
+如果網路觀察者拿到可公開取得的公共憑證，就可將序列號與該憑證作匹配，從而確定您正在訪問的網站。 這個過程可以自動化，並且可以將 IP 位址與序列號相關聯。 也可檢查 [憑證透明度](https://en.wikipedia.org/wiki/Certificate_Transparency) 日誌的序列號。
 
 
 

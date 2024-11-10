@@ -29,7 +29,7 @@ cover: data-redaction.webp
 
 **MAT2** 是免費軟體，可以移除圖像，音頻，種子和文件文件類型的中繼資料。 它提供命令行工具和圖形用戶界面擴展給 [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin)，其為[KDE](https://kde.org)的預設檔案管理器。
 
-Linux 有MAT2 提供支持的第三方圖形界面工具 [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) ，並且[可從 Flathub 取得](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner)。
+Linux 有MAT2 提供支援的第三方圖形界面工具 [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) ，並且[可從 Flathub 取得](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner)。
 
 [:octicons-repo-16: 儲存庫](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
 [:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=說明文件}
@@ -57,7 +57,7 @@ Linux 有MAT2 提供支持的第三方圖形界面工具 [Metadata Cleaner](http
 
 **ExifEraser** 是 Android 的現代無需許可的圖像中繼資料擦除應用程式。
 
-它目前支持JPEG ， PNG和WebP 檔案格式。
+它目前支援JPEG ， PNG和WebP 檔案格式。
 
 [:octicons-repo-16: 儲存庫](https://github.com/Tommy-Geenexus/exif-eraser){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=說明文件}
@@ -84,10 +84,10 @@ Linux 有MAT2 提供支持的第三方圖形界面工具 [Metadata Cleaner](http
 
 該應用程式提供了多種方式來清除圖像中的中繼數據。 亦即:
 
-- 您可以使用 ExifEraser 分享其他應用程序的圖像。
-- 通過應用程序本身，可以一次選擇單個圖像，多個圖像，甚至是整個目錄。
-- 它具有“相機”選項，該選項使用操作系統的相機應用程序拍攝照片，然後從中刪除中繼數據。
-- 在應用分屏模式下，它可以從另一個應用程式拖放圖片到 ExifEraser 。
+- 您可以使用 ExifEraser 分享其他應用程式的圖片。
+- 通過應用程式本身，可以一次選擇單個圖片，多個圖片，甚至是整個目錄。
+- 它具有“相機”選項，該選項使用操作系統的相機應用程式拍攝照片，然後從中刪除中繼數據。
+- 在分割視窗模式下，它可以從另一個應用程式拖放圖片到 ExifEraser 。
 - 最後，它允許您從剪貼板黏貼圖像。
 
 ### Metapho (iOS)
@@ -120,7 +120,7 @@ Linux 有MAT2 提供支持的第三方圖形界面工具 [Metadata Cleaner](http
 
 **ExifTool** 是原始的perl庫和命令行應用程式，用於讀取、寫入和編輯各種檔案格式 (JPEG , TIFF , PNG, PDF, RAW等）的中繼資訊(Exif , IPTC , XMP...)。
 
-它通常是其他Exif 移除應用程式的組件，並且在大多數 Linux 發行版儲存庫中。
+它通常是其他 Exif 移除應用程式的組件，並且在大多數 Linux 發行版儲存庫中。
 
 [:octicons-home-16: 首頁](https://exiftool.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=說明文字}

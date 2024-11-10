@@ -20,7 +20,7 @@ Privacy Guides es una pequeña organización de medios de comunicación sin áni
 Tus responsabilidades incluirán, pero no se limitarán a:
 
 - Creación de artículos de alta calidad para nuestra [base de conocimientos](../../basics/why-privacy-matters.md).
-- Realización de revisiones de productos para nuestra sección [revisiones](https://www.privacyguides.org/articles/category/reviews/) y [recomendaciones de herramientas](../../tools.md).
+- Performing product reviews for our [reviews](https://www.privacyguides.org/articles/category/reviews) section and [tool recommendations](../../tools.md).
 - Investigar nuevos temas que tratar.
 - Entrevista y comprobación de todas las fuentes pertinentes.
 - Publicación periódica de contenidos periodísticos imparciales y de alta calidad en nuestras plataformas.

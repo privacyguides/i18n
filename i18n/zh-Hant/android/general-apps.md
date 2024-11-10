@@ -38,7 +38,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 ![Shelter logo](../assets/img/android/shelter.svg){ align=right }
 
-**Shelter** 是一款應用程序，可協助您利用 Android 的工作設定檔功能來隔離或複製裝置上的應用程式。
+**Shelter** 是一款應用程式，可協助您利用 Android 的工作設定檔功能來隔離或複製裝置上的應用程式。
 
 Shelter 支援阻止跨配置檔案的聯絡人搜尋以及透過預設檔案管理器跨配置檔案共用檔案 ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui))。
 
@@ -51,7 +51,7 @@ Shelter 支援阻止跨配置檔案的聯絡人搜尋以及透過預設檔案管
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-使用 Shelter 時，您將需要完全信任其開發人員，因為 Shelter 將作為 [設備管理員](https://developer.android.com/guide/topics/admin/device-admin) 來創建工作設定檔，這將使它有大量權限訪問存儲在工作設定檔的資料。
+使用 Shelter 時，您將需要完全信任其開發人員，因為 Shelter 將作為 [設備管理員](https://developer.android.com/guide/topics/admin/device-admin) 來創建工作設定檔，這將使它有大量權限訪問儲存在工作設定檔的資料。
 
 </div>
 
@@ -89,7 +89,7 @@ Shelter 支援阻止跨配置檔案的聯絡人搜尋以及透過預設檔案管
 主要隱私功能包括：
 
 - 自動刪除 [Exif](https://zh.wikipedia.org/wiki/Exif) 元資料（預設啟用）
-- 使用新的 [Media](https://developer.android.com/training/data-storage/shared/media) 應用程式接口，因此不需要 [存儲權限](https://developer.android.com/training/data-storage) 。
+- 使用新的 [Media](https://developer.android.com/training/data-storage/shared/media) 應用程式接口，因此不需要 [儲存權限](https://developer.android.com/training/data-storage) 。
 - 除非需錄制聲音，否則無需 麥克風權限 。
 
 <div class="admonition note" markdown>

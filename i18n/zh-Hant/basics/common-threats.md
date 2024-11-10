@@ -89,7 +89,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 <div class="admonition tip" markdown>
 <p class="admonition-title">溫馨提示</p>
 
-在設計上， **網頁瀏覽器**、**電子郵件用戶端** 和 **辦公室應用程式** 常常運行源自第三方的無法信任的代碼。 運行多個虛擬器-將這些應用程序與主機系統相互分開，此技術可減少系統遭到應用程序攻擊的機會。 例如， Qubes OS 或 Windows 上的 Microsoft Defender Application Guard 等技術提供了方便的作法。
+在設計上， **網頁瀏覽器**、**電子郵件用戶端** 和 **辦公室應用程式** 常常運行源自第三方的無法信任的代碼。 運行多個虛擬器-將這些應用程式與主機系統相互分開，此技術可減少系統遭到應用程式攻擊的機會。 例如， Qubes OS 或 Windows 上的 Microsoft Defender Application Guard 等技術提供了方便的作法。
 
 </div>
 
@@ -173,7 +173,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 在線上，可透過各種方式追蹤您，包括但不限於：
 
-- 您的 IP 地址
+- 您的 IP 位址
 - 瀏覽器 cookie
 - 您提交到網站的資料
 - 您的瀏覽器或裝置指紋

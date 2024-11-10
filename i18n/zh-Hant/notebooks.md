@@ -117,7 +117,7 @@ Joplin 不 [支援](https://github.com/laurent22/joplin/issues/289) 應用程式
 ![Cryptee logo](./assets/img/notebooks/cryptee.svg#only-light){ align=right }
 ![Cryptee logo](./assets/img/notebooks/cryptee-dark.svg#only-dark){ align=right }
 
-**Cryptee** 是一個開源的，基於網頁的 E2EE 文件編輯器和照片儲存應用程式。 Cryptee 為漸進式網路應用程式(PWA) ，這意味著它可以在所有現代設備上無縫工作，而無需為每個平臺提供原生應用程序。
+**Cryptee** 是一個開源的，基於網頁的 E2EE 文件編輯器和照片儲存應用程式。 Cryptee 為漸進式網路應用程式(PWA) ，這意味著它可以在所有現代裝置上無縫工作，而無需為每個平臺提供原生應用程式。
 
 [:octicons-home-16: 首頁](https://crypt.ee){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://crypt.ee/privacy){ .card-link title="隱私權政策" }
@@ -167,4 +167,4 @@ Cryptee 免費提供100MB 的儲存空間，如果需要更多容量，則另有
 ### 最佳案例：
 
 - 本地備份/同步功能應支援加密。
-- 基於雲的平臺應支持文件共享。
+- 基於雲的平臺應支援文件共享。

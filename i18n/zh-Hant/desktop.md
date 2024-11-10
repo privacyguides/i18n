@@ -71,7 +71,7 @@ Tumbleweed 遵循滾動發佈模式，每個更新都是快照發布。 當您�
 
 Arch Linux有一個滾動發佈週期。 沒有固定的發布時間表，套件經常更新。
 
-作為 DIY 發行版，用戶需要 [自行設置與維護](os/linux-overview.md#arch-based-distributions) 系統。 Arch有一個 [官方安裝程式](https://wiki.archlinux.org/title/Archinstall) ，使安裝過程更容易。
+作為 DIY 發行版，用戶需要 [自行設定與維護](os/linux-overview.md#arch-based-distributions) 系統。 Arch有一個 [官方安裝程式](https://wiki.archlinux.org/title/Archinstall) ，使安裝過程更容易。
 
 [Arch Linux 的套件](https://reproducible.archlinux.org) 大部份都是 [可重現的](https://reproducible-builds.org)[^1]。
 
@@ -150,7 +150,7 @@ Nix是一個基於源的套件管理器；如果二進位快取中沒有預先�
 
 </div>
 
-Whonix 運行兩個虛擬機器：一個“工作站”和一個 Tor “閘道”。 來自工作站的所有通訊都必須通過 Tor 閘道。 這意味著，即使工作站受到某種惡意軟體的破壞，真實的IP地址仍然隱藏。
+Whonix 運行兩個虛擬機器：一個“工作站”和一個 Tor “閘道”。 來自工作站的所有通訊都必須通過 Tor 閘道。 這意味著，即使工作站受到某種惡意軟體的破壞，真實的 IP 位址仍然隱藏。
 
 它的功能包括Tor 串流隔離、[擊鍵匿名](https://www.whonix.org/wiki/Keyrinkle_Deanonymization#Kloak)、[加密交換](https://github. com /Whonix/swap-file-creator)，以及強化的記憶體分配器。 Whonix 未來的版本可能會包含 [完整的系統 AppArmor 策略](https://github.com/roddhjav/apparmor.d) 和 [沙盒化應用程式啟動器](https://whonix.org/wiki/Sandbox-app-launcher) ，以完全限制系統上的所有程序。
 

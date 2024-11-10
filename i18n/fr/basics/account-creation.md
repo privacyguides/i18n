@@ -74,7 +74,7 @@ Des applications malveillantes, en particulier sur les appareils mobiles où l'a
 
 ### Numéro de téléphone
 
-Nous vous recommandons d'éviter les services qui exigent un numéro de téléphone pour l'inscription. Un numéro de téléphone peut vous identifier auprès de plusieurs services et, en fonction des accords de partage des données, cela rendra votre navigation plus facile à suivre, en particulier si l'un de ces services a une fuite, car le numéro de téléphone est souvent **non** chiffré.
+Nous vous recommandons d'éviter les services qui exigent un numéro de téléphone pour l'inscription. A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
 
 Vous devriez éviter de donner votre vrai numéro de téléphone si vous le pouvez. Certains services autorisent l'utilisation de numéros VOIP, mais ceux-ci déclenchent souvent des systèmes de détection des fraudes, entraînant le blocage du compte, ce que nous ne recommandons pas pour les comptes importants.
 

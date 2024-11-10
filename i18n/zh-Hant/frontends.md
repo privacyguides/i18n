@@ -102,7 +102,7 @@ cover: frontends.webp
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-預設情況下， Invidious不會代理影片串流。 通過 Invidious 觀看的影片會直接連接到 Google 伺服器（例如`googlevideo.com`)，但是有些實例支持影片代理-只需在實例設置中啟用*Proxy videos*或在 URL 中添加`&local = true`。
+預設情況下， Invidious不會代理影片串流。 通過 Invidious 觀看的影片會直接連接到 Google 伺服器（例如`googlevideo.com`)，但是有些實例支持影片代理-只需在實例設定中啟用*Proxy videos*或在 URL 中新增`&local = true`。
 
 </div>
 
@@ -219,7 +219,7 @@ Piped 需要 JavaScript 才能運行，它有許多公共伺服器。
 ![LibreTube logo](assets/img/frontends/libretube.svg#only-light){ align=right }
 ![LibreTube logo](assets/img/frontends/libretube-dark.svg#only-dark){ align=right }
 
-**LibreTube** 是一款免費的 [YouTube](https://youtube.com)開源Android應用程序，使用 [Piped](# piped) API。
+**LibreTube** 是一款免費的 [YouTube](https://youtube.com)開源Android應用程式，使用 [Piped](# piped) API。
 
 訂閱清單和播放列表會儲存在本地的 Android 裝置上。
 

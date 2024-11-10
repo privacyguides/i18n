@@ -16,6 +16,7 @@
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
+*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
 *[E2EE]: Κρυπτογράφηση/-μένο από Άκρο-σε-Άκρο
 *[ECS]: EDNS Client Subnet (Υποδίκτυο Πελάτη EDNS)
 *[EEA]: ΕΟΧ: Ευρωπαϊκός Οικονομικός Χώρος
@@ -71,6 +72,7 @@
 *[PGP]: Pretty Good Privacy (βλέπε OpenPGP)
 *[PII]: Προσωπικές Ταυτοποιήσιμες Πληροφορίες (αγγλικά: Personally Identifiable Information)
 *[QNAME]: Qualified Name
+*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
 *[κυλιόμενη κυκλοφορία]: Άμεσες ενημερώσεις χωρίς προκαθορισμένο χρονοδιάγραμμα κυκλοφορίας (αγγλικά: rolling release)
 *[RSS]: Really Simple Syndication
 *[SELinux]: Security-Enhanced Linux

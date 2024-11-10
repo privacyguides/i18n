@@ -9,7 +9,7 @@ description: 網站撰稿人如何更好利用 Git 的指南。
 
 可使用現有的SSH 金鑰簽署或 [建立新金鑰one](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)。
 
-1. 設置 Git 客戶端以預設簽署提交與標籤(移除 `--global` 以便只對此存取庫作簽署):
+1. 設定 Git 客戶端以預設簽署提交與標籤(移除 `--global` 以便只對此存取庫作簽署):
 
     ```bash
     git config --global commit.gpgsign true
@@ -29,7 +29,7 @@ description: 網站撰稿人如何更好利用 Git 的指南。
 
 使用 `git pull --rebase` 取代 `git pull` 以從 Github 把變動提取回本地端機器。 這種方式會使本地端的變動總在 Github 之上，而您可避免合併提交(本取存庫亦不允許)。
 
-可將它設為默認行為:
+可將它設為預設行為:
 
 ```bash
 git config --global pull.rebase true

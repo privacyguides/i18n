@@ -100,7 +100,7 @@ cover: news-aggregators.webp
 
 ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
 
-**NetNewsWire** 是一款自由及開放原始碼的訊息源閱讀器，適用於 macOS 和 iOS ，專注於原生設計和功能集。 它支持典型的 Feed 格式與內置支持 Reddit Feed。
+**NetNewsWire** 是一款自由及開放原始碼的訊息源閱讀器，適用於 macOS 和 iOS ，專注於原生設計和功能集。 它支援典型的 Feed 格式與內建支援 Reddit Feed。
 
 [:octicons-home-16: Homepage](https://netnewswire.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="Privacy Policy" }
@@ -140,7 +140,7 @@ cover: news-aggregators.webp
 
 ## 社交媒體 RSS 支援
 
-一些社交媒體服務也支持 RSS ，儘管它很少受到推廣。
+一些社交媒體服務也支援 RSS ，儘管它很少受到推廣。
 
 ### Reddit
 

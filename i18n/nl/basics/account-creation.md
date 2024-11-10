@@ -74,7 +74,7 @@ Malicious applications, particularly on mobile devices where the application has
 
 ### Telefoonnummer
 
-We raden je aan services te vermijden waarvoor een telefoonnummer nodig is om je aan te melden. Een telefoonnummer kan je identificeren in meerdere services en afhankelijk van overeenkomsten voor het delen van gegevens zal dit jouw gemakkelijker te volgen maken, vooral als een van die services wordt geschonden, omdat het telefoonnummer vaak **niet** versleuteld is.
+We raden je aan services te vermijden waarvoor een telefoonnummer nodig is om je aan te melden. A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
 
 Vermijd het geven van jouw echte telefoonnummer als je kunt. Sommige diensten staan het gebruik van VOIP-nummers toe, maar deze alarmeren vaak fraudedetectiesystemen, waardoor een rekening wordt geblokkeerd.
 

@@ -71,7 +71,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 ![MVT logo](assets/img/device-integrity/mvt.webp){ align=right }
 
-**Mobile Verification Toolkit** (**MVT**) 是一組實用程式，可簡化和自動化掃描移動設備的過程，查找已知間諜軟體活動的潛在目標或感染痕跡。 MVT 由國際特赦組織開發，於 2021 年在 [飛馬計畫（Pegasus Project）](https://forbiddenstories.org/about-the-pegasus-project/) 的背景下發布。
+**Mobile Verification Toolkit** (**MVT**) 是一組實用程式，可簡化和自動化掃描行動裝置的過程，尋找已知間諜軟體活動的潛在目標或感染痕跡。 MVT 由國際特赦組織開發，於 2021 年在 [飛馬計畫（Pegasus Project）](https://forbiddenstories.org/about-the-pegasus-project/) 的背景下發布。
 
 [:octicons-home-16: 首頁](https://mvt.re){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="原始碼" }
@@ -196,7 +196,7 @@ Auditor 使用 **兩個** 設備執行證明和入侵檢測，即一個 _被驗�
 
 - [:material-bug-outline: 被動攻擊](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-可在設備上安裝這些應用程序，這些應用程式會掃描裝置是否有遭駭洩漏跡象。
+可在設備上安裝這些應用程式，這些應用程式會掃描裝置是否有遭駭洩漏跡象。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>

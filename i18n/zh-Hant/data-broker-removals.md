@@ -28,21 +28,21 @@ cover: data-broker-removals.webp
 
 您應該先在這些網站上搜尋您的資訊，如果找到您的資訊，請提交退出請求。 從這些仲介移除您的資料，通常會同時從許多小型網站移除您的資料。
 
-- Advanced Background Checks（ [搜尋](https://www.advancedbackgroundchecks.com/)、 [退出](https://www.advancedbackgroundchecks.com/removal) ）
-- BeenVerified（ [搜尋](https://www.beenverified.com/app/optout/search)、 [退出](https://www.beenverified.com/app/optout/address-search) ）
+- Advanced Background Checks ([Search](https://advancedbackgroundchecks.com), [Opt-Out](https://advancedbackgroundchecks.com/removal))
+- BeenVerified ([Search](https://beenverified.com/app/optout/search), [Opt-Out](https://beenverified.com/app/optout/address-search))
 - CheckPeople（ [搜尋](https://checkpeople.com/do-not-sell-info) ，發現資料後選擇 _Remove Record_ 即可）
-- ClustrMaps（ [搜尋](https://clustrmaps.com/)、 [退出](https://clustrmaps.com/bl/opt-out) ）
-- Dataveria（ [搜尋](https://dataveria.com/)、 [退出](https://dataveria.com/ng/control/privacy) ）
-- Glad I Know（ [搜尋](https://gladiknow.com/)、 [退出](https://gladiknow.com/opt-out) ）
-- InfoTracer（ [搜尋](https://www.infotracer.com/)、 [退出](https://www.infotracer.com/optout) ）
-- Intelius（ [搜尋](https://www.intelius.com/)、 [退出](https://suppression.peopleconnect.us/login) ）
-- PeekYou（ [搜尋](https://www.peekyou.com/)、 [退出](https://www.peekyou.com/about/contact/optout) ）
-- PublicDataUSA（ [搜尋](https://www.publicdatausa.com/)、 [退出](https://www.publicdatausa.com/remove.php) ）
-- Radaris（ [搜尋](https://radaris.com/)、 [退出](https://radaris.com/page/how-to-remove) ）
-- Spokeo（ [搜尋](https://www.spokeo.com/search)、 [退出](https://www.spokeo.com/optout) ）
-- That's Them（ [搜尋](https://thatsthem.com/)、 [退出](https://thatsthem.com/optout) ）
-- USPhonebook（ [搜尋和退出](https://www.usphonebook.com/opt-out/) ）
-- Whitepages（ [搜尋](https://www.whitepages.com/)、 [退出](https://www.whitepages.com/suppression_requests) ）
+- ClustrMaps ([Search](https://clustrmaps.com), [Opt-Out](https://clustrmaps.com/bl/opt-out))
+- Dataveria ([Search](https://dataveria.com), [Opt-Out](https://dataveria.com/ng/control/privacy))
+- Glad I Know ([Search](https://gladiknow.com), [Opt-Out](https://gladiknow.com/opt-out))
+- InfoTracer ([Search](https://infotracer.com), [Opt-Out](https://infotracer.com/optout))
+- Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
+- PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/optout))
+- PublicDataUSA ([Search](https://publicdatausa.com), [Opt-Out](https://publicdatausa.com/remove.php))
+- Radaris ([Search](https://radaris.com), [Opt-Out](https://radaris.com/page/how-to-remove))
+- Spokeo ([Search](https://spokeo.com/search), [Opt-Out](https://spokeo.com/optout))
+- That's Them ([Search](https://thatsthem.com), [Opt-Out](https://thatsthem.com/optout))
+- USPhonebook ([Search and Opt-Out](https://usphonebook.com/opt-out))
+- Whitepages ([Search](https://whitepages.com), [Opt-Out](https://whitepages.com/suppression_requests))
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">對於 退出策略 的 提示</p>
@@ -85,9 +85,9 @@ EasyOptOuts 支援的某些網站可公開搜尋。 在這些情況下，EasyOpt
 
 EasyOptOuts 並不涵蓋下列我們認為「高度優先」的網站，因此您仍需手動選擇退出：
 
-- Intelius（ [搜尋](https://www.intelius.com/)、 [退出](https://suppression.peopleconnect.us/login) ）
-- PeekYou（ [搜尋](https://www.peekyou.com/)、 [退出](https://www.peekyou.com/about/contact/optout) ）
-- PublicDataUSA（ [搜尋](https://www.publicdatausa.com/)、 [退出](https://www.publicdatausa.com/remove.php) ）
+- Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
+- PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/optout))
+- PublicDataUSA ([Search](https://publicdatausa.com), [Opt-Out](https://publicdatausa.com/remove.php))
 
 </div>
 

@@ -16,6 +16,7 @@
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
+*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
 *[E2EE]: Crittografia/Crittografato end-to-end
 *[ECS]: Sottorete client EDNS
 *[EEA]: Spazio economico europeo
@@ -71,6 +72,7 @@
 *[PGP]: Pretty Good Privacy (vedi OpenPGP)
 *[PII]: Personally Identifiable Information
 *[QNAME]: Qualified Name
+*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
 *[rolling release]: Aggiornamenti che vengono rilasciati frequentemente anziché a intervalli prestabiliti
 *[RSS]: Really Simple Syndication
 *[SELinux]: Security-Enhanced Linux

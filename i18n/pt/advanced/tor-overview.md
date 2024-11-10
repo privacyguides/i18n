@@ -200,8 +200,8 @@ It is [possible](https://discuss.privacyguides.net/t/clarify-tors-weaknesses-wit
 ## Recursos Adicionais
 
 - [Manual do utilizador do Tor](https://tb-manual.torproject.org)
-- [How Tor Works - Computerphile](https://www.youtube.com/watch?v=QRYzre4bf7I) <small>(YouTube)</small>
-- [Tor Onion Services - Computerphile](https://www.youtube.com/watch?v=lVcbq_a5N9I) <small>(YouTube)</small>
+- [How Tor Works - Computerphile](https://youtube.com/watch?v=QRYzre4bf7I) <small>(YouTube)</small>
+- [Tor Onion Services - Computerphile](https://youtube.com/watch?v=lVcbq_a5N9I) <small>(YouTube)</small>
 
 [^1]: O primeiro relé no seu circuito chama-se "guarda de entrada" ou "guarda". Trata-se de um retransmissor rápido e estável que permanece o primeiro no seu circuito durante 2-3 meses, a fim de o proteger contra um ataque conhecido de quebra de anonimato. O resto do seu circuito muda a cada novo site que visita e, em conjunto, estes relés fornecem todas as proteções de privacidade do Tor. Para obter mais informações sobre o funcionamento dos relés de proteção, consulte esta [publicação no blogue](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) e o [documento](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) sobre proteções de entrada. ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2))
 

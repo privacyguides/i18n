@@ -60,7 +60,7 @@ Aurora Store 不允許其匿名帳戶下載付費應用程式。 您可以選擇
 
 ## 手動添加 RSS 以追蹤應用程式更新
 
-對於在 GitHub 和 GitLab 等平台上發布的應用程序，您可以將其 RSS 摘要添加到您的 [新聞聚合器](../news-aggregators.md) ，這將幫助您追蹤新版本。
+對於在 GitHub 和 GitLab 等平台上發布的應用程式，您可以將其 RSS 摘要添加到您的 [新聞聚合器](../news-aggregators.md) ，這將幫助您追蹤新版本。
 
 ![RSS APK](../assets/img/android/rss-apk-light.png#only-light) ![RSS APK](../assets/img/android/rss-apk-dark.png#only-dark) ![APK Changes](../assets/img/android/rss-changes-light.png#only-light) ![APK Changes](../assets/img/android/rss-changes-dark.png#only-dark)
 
@@ -122,6 +122,6 @@ Aurora Store 不允許其匿名帳戶下載付費應用程式。 您可以選擇
 <div class="admonition note" markdown>
 <p class="admonition-title">F-Droid Basic</p>
 
-在極少數情況下，應用程式的開發人員只會透過 F-Droid 發布應用程式（[Gadgetbridge](https://gadgetbridge.org) 就是其中一個例子）。 如果您真的需要這樣的應用程序，我們建議使用較新的 [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) 客戶端，而不是原版 F-Droid 客戶端來獲得它。 F-Droid Basic 支援無需特權或 root 的背景自動更新，並且具有減少的功能集（限制攻擊面）。
+在極少數情況下，應用程式的開發人員只會透過 F-Droid 發布應用程式（[Gadgetbridge](https://gadgetbridge.org) 就是其中一個例子）。 如果您真的需要這樣的應用程式，我們建議使用較新的 [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) 客戶端，而不是原版 F-Droid 客戶端來獲得它。 F-Droid Basic 支援無需特權或 root 的背景自動更新，並且具有減少的功能集（限制攻擊面）。
 
 </div>

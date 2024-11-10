@@ -4,7 +4,7 @@ icon: material/apple-finder
 description: macOS 是蘋果電腦的桌面作業系統，搭配其自家硬體提供了堅固的安全。
 ---
 
-蘋果公司使用 Unix 作業系統來開發**macOS** 支援自家的 Mac 電腦。 為提高 macOS 隱私，用戶可關閉遙測功能以強化現有的隱私與安全設置。
+蘋果公司使用 Unix 作業系統來開發**macOS** 支援自家的 Mac 電腦。 為提高 macOS 隱私，用戶可關閉遙測功能以強化現有的隱私與安全設定。
 
 舊款的 Intel-based Macs 與 Hackintoshe 則無法完全支援 macOS 所提供的安全功能。 為提昇資料安全，建議使用帶[Apple silicon](https://support.apple.com/HT211814)晶片的新款 Mac 。
 
@@ -14,7 +14,7 @@ description: macOS 是蘋果電腦的桌面作業系統，搭配其自家硬體�
 
 ### 激活鎖
 
-新款 Apple silicon 設備無需網際網路連接即可設置。 但是，恢復或重置 Mac 將**需要**連接到 Apple 伺服器，以檢查丟失或被盜設備資料庫的激活鎖。
+新款 Apple silicon 裝置無需網際網路連接即可設定。 但是，恢復或重置 Mac 將**需要**連接到 Apple 伺服器，以檢查丟失或被盜設備資料庫的激活鎖。
 
 ### 應用程式撤銷檢查
 
@@ -26,7 +26,7 @@ Apple 的 OCSP 服務使用 HTTPS 加密，因此只有他們能夠看到您開�
 
 ## 建議的設定
 
-首次設置 Mac 時，您的帳戶將是管理員帳戶，其具有比標準用戶帳戶更高的權限。 macOS 有許多保護措施可以防止惡意軟體和其他程式濫用您的管理員權限，因此使用此帳戶通常是安全的。
+首次設定 Mac 時，您的帳戶將是管理員帳戶，其具有比標準用戶帳戶更高的權限。 macOS 有許多保護措施可以防止惡意軟體和其他程式濫用您的管理員權限，因此使用此帳戶通常是安全的。
 
 然而，破壞利用 `sudo` 這類的保護效用程式中的漏洞問題，已[ 發現過](https://bogner.sh/2014/03/another-mac-os-x-sudo-password-bypass)。 如果想避免運行的程式濫用管理員權限，可以考慮創建第二個標準用戶帳戶用於日常操作。 這樣的另一個好處是，當應用程式需要管理員訪問權限時，它會更加明顯，因為它每次都會提示您輸入憑據。
 
@@ -42,7 +42,7 @@ Apple 的 OCSP 服務使用 HTTPS 加密，因此只有他們能夠看到您開�
 
 ### 系統設定
 
-您應該確認或更改許多內建設置以強化系統。 開啟**設定** 應用程式：
+您應該確認或更改許多內建設定以強化系統。 開啟**設定** 應用程式：
 
 #### 藍牙
 
@@ -60,7 +60,7 @@ Apple 的 OCSP 服務使用 HTTPS 加密，因此只有他們能夠看到您開�
 
 ##### 防火牆
 
-防火牆會阻止不必要的網路連接。 防火牆設置越嚴格，您的 Mac 就越安全。 然而某些服務可能會被封鎖。 您應該將防火牆配置得盡可能嚴格，但不會影響使用的服務。
+防火牆會阻止不必要的網路連接。 防火牆設定越嚴格，您的 Mac 就越安全。 然而某些服務可能會被封鎖。 您應該將防火牆配置得盡可能嚴格，但不會影響使用的服務。
 
 - [x] 勾選 **防火牆**
 
@@ -134,7 +134,7 @@ Apple 的 OCSP 服務使用 HTTPS 加密，因此只有他們能夠看到您開�
 
 - [x] 點擊 **開啟**
 
-### MAC 地址隨機化
+### MAC 位址隨機化
 
 macOS 在網路連線中斷而執行 Wi-Fi 掃描時，會使用隨機化的 MAC 位址。
 
@@ -165,7 +165,7 @@ macOS 的系統組件受到唯讀簽署系統卷宗之保護，這意味著您�
 
 #### 系統完整性保護
 
-macOS 設置了某些無法覆蓋的安全限制。 這些稱為強制取用控制，它們構成 macOS 上的沙盒、家長控制和系統完整性保護的基礎。
+macOS 設定了某些無法覆蓋的安全限制。 這些稱為強制取用控制，它們構成 macOS 上的沙盒、家長控制和系統完整性保護的基礎。
 
 系統完整保護使重要的檔案成為唯讀，以防止惡意代碼的修改。 這是基於硬體內核完整保護之上，可防止記憶體中的內核遭修改。
 
@@ -227,10 +227,10 @@ You can enable a column in Activity Monitor called "Restricted" which is a flag 
 
 macOS 提供兩種惡意軟體防禦形式：
 
-1. 首先，防止啟動惡意軟體是由 App Store 對 App Store 應用程式的審核流程或*公證*（*Gatekeeper* 的一部份），這是 Apple 允許運行之前掃描第三方應用程式是否存在已知惡意軟體的程序。 Apps are required to be signed by the developers using a key given to them by Apple. This ensures that you are running software from the real developers. Notarization also requires that developers enable the Hardened Runtime for their apps, which limits methods of exploitation.
+1. 首先，防止啟動惡意軟體是由 App Store 對 App Store 應用程式的審核流程或*公證*（*Gatekeeper* 的一部份），這是 Apple 允許運行之前掃描第三方應用程式是否存在已知惡意軟體的程式。 Apps are required to be signed by the developers using a key given to them by Apple. This ensures that you are running software from the real developers. Notarization also requires that developers enable the Hardened Runtime for their apps, which limits methods of exploitation.
 2. *XProtect* 提供針對其他惡意軟體的防護以及修復系統上現有惡意軟體，XProtect 是 macOS 內建較傳統的防病毒軟體。
 
-建議不要安裝第三方防毒軟體，它們通常不具備正常運行所需的系統取用權限，因為Apple 對第三方應用程序的限制，授予它們要求的高級別取用權限常會帶來麻煩。對電腦造成更大的安全和隱私風險。
+建議不要安裝第三方防毒軟體，它們通常不具備正常運行所需的系統取用權限，因為Apple 對第三方應用程式的限制，授予它們要求的高級別取用權限常會帶來麻煩。對電腦造成更大的安全和隱私風險。
 
 ##### 備份
 
@@ -252,7 +252,7 @@ macOS 通過僅允許官方 Apple 軟體在啟動時運行以防止惡意軟體�
 
 開機 ROM 構成了硬體信任根。 這確保惡意軟體無法篡改開機過程。 Mac 啟動時，開機 ROM 第一個運行，為信任鏈中的第一個環節。
 
-Mac 電腦有三種安全模式啟動：*完全安全*、*降低安全性*和*許可安全*，預設的設置為完全安全。 理想情況下，您應該使用完全安全模式，並避免諸如**內核擴展**而迫使降低安全模式。 請務必[檢查](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac)使用的是完全安全模式。
+Mac 電腦有三種安全模式啟動：*完全安全*、*降低安全性*和*許可安全*，預設的設定為完全安全。 理想情況下，您應該使用完全安全模式，並避免諸如**內核擴展**而迫使降低安全模式。 請務必[檢查](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac)使用的是完全安全模式。
 
 #### 安全隔離區
 
@@ -268,7 +268,7 @@ Apple Touch ID 功能可使用生物識別技術安全地解鎖設備。
 
 #### 硬體麥克風斷線
 
-所有配備 Apple silicon 或 T2 晶片的筆記型電腦都具備在閉合時內置麥克風硬體即斷線的功能。 這意味著即使作業系統受到破壞，攻擊者無法監聽 Mac 的麥克風。
+所有配備 Apple silicon 或 T2 晶片的筆記型電腦都具備在閉合時內建麥克風硬體即斷線的功能。 這意味著即使作業系統受到破壞，攻擊者無法監聽 Mac 的麥克風。
 
 請注意，攝影機沒有硬體斷接，因為只要上蓋關閉時，其視線即會被遮擋。
 

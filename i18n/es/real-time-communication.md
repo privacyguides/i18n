@@ -101,7 +101,7 @@ Tenga en cuenta que está confiando en múltiples partes al utilizar Molly, ya q
 
 Existe una versión de Molly llamada **Molly-FOSS** que elimina el código propietario como los servicios de Google utilizados tanto por Signal como por Molly, a costa de algunas características como las notificaciones push que ahorran batería a través de Google Play Services.
 
-También existe una versión llamada [**Molly-UP**](https://github.com/mollyim/mollyim-android#unifiedpush) que se basa en Molly-FOSS y añade soporte para notificaciones push con [UnifiedPush](https://unifiedpush.org/), una alternativa de código abierto a las notificaciones push proporcionadas por Google Play Services, pero requiere ejecutar un programa independiente llamado [Mollysocket](https://github.com/mollyim/mollysocket) para funcionar. Mollysocket puede ser autoalojado en un ordenador o servidor independiente (VPS), o alternativamente se puede utilizar una instancia pública de Mollysocket[(tutorial paso a paso, en alemán](https://www.kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy/)).
+There is also a version called [**Molly-UP**](https://github.com/mollyim/mollyim-android#unifiedpush) which is based on Molly-FOSS and adds support for push notifications with [UnifiedPush](https://unifiedpush.org), an open source alternative to the push notifications provided by Google Play Services, but it requires running a separate program called [Mollysocket](https://github.com/mollyim/mollysocket) to function. Mollysocket can either be self-hosted on a separate computer or server (VPS), or alternatively a public Mollysocket instance can be used ([step-by-step tutorial, in German](https://kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy)).
 
 Las tres versiones de Molly ofrecen las mismas mejoras de seguridad.
 
@@ -141,7 +141,6 @@ Para participar en conversaciones en SimpleX Chat, debe escanear un código QR o
 Puede encontrar una lista completa de las [funciones](https://github.com/simplex-chat/simplex-chat#privacy-and-security-technical-details-and-limitations) de privacidad y seguridad implementadas en SimpleX Chat en el repositorio de la aplicación.
 
 SimpleX Chat fue auditada de forma independiente en [julio de 2024](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html#simplex-cryptographic-design-review-by-trail-of-bits) y en [octubre de 2022](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website).
-
 
 ### Briar
 

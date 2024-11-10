@@ -56,11 +56,11 @@ Signal 需要手機號碼才能註冊，但是您應該建立用戶名，以隱�
 3. 輸入一個使用者名稱 此用戶名將一直與一組獨特數字配對，以保持用戶名的唯一性防止人們猜測它，例如，如果輸入“John”，您的用戶名最終可能會是`@john.35`。 根據預設設定，當您建立使用者名稱時，只有 2 位數字會與使用者名稱配對，但您可以增加更多位數，直到達到使用者名稱的長度限制 (32 個字元)。
 4. 返回系統應用程式設定頁面並選擇**隱私權**。
 5. 選擇**手機號碼**
-6. 將 **誰可以看到我的號碼** 設置為：**沒有人**
+6. 將 **誰可以看到我的號碼** 設定為：**沒有人**
 
-若想防止已知您手機號碼的人找到您的 Signal 帳號或用戶名稱，也可以選擇把 **誰可以透過電話號碼找到我** 設置為 **沒有人** 。
+若想防止已知您手機號碼的人找到您的 Signal 帳號或用戶名稱，也可以選擇把 **誰可以透過電話號碼找到我** 設定為 **沒有人** 。
 
-連絡人清單會使用您的 Signal PIN 加密，而伺服器無法存取。 個人帳號也會加密，並僅與您聊天的聯絡人分享。 Signal 支援[私密 群組](https://signal.org/blog/signal-private-group-system)，伺服器不會記錄該群組成員資格、群組標題、群組頭像，或群組屬性。 當啓用 [Sealed Sender](https://signal.org/blog/sealed-sender) 時， Signal具有最小元數據。 發件人地址與訊息內文一起加密，伺服器只可見到收件人地址。 Sealed Sender 功能僅適用於聯絡人清單的成員，但在收訊時也可啟用以防止接收垃圾郵件增加的風險。
+連絡人清單會使用您的 Signal PIN 加密，而伺服器無法存取。 個人帳號也會加密，並僅與您聊天的聯絡人分享。 Signal 支援[私密 群組](https://signal.org/blog/signal-private-group-system)，伺服器不會記錄該群組成員資格、群組標題、群組頭像，或群組屬性。 當啓用 [Sealed Sender](https://signal.org/blog/sealed-sender) 時， Signal具有最小元數據。 寄件者位址與訊息內文一起加密，伺服器只可見到收件人地址。 Sealed Sender 功能僅適用於聯絡人清單的成員，但在收訊時也可啟用以防止接收垃圾郵件增加的風險。
 
 其協議在2016年獨立進行了 [審計](https://eprint.iacr.org/2016/1013.pdf) 。 Signal 協議的規範可以在他們的 [文檔](https://signal.org/docs)中找到。
 
@@ -101,7 +101,7 @@ Molly 每兩週更新一次，以包含 Signal 的最新功能和錯誤修正。
 
 Molly 有一個稱為 **Molly-FOSS** 的版本，它移除了 Signal 和 Molly 所使用的 Google 服務等專有程式碼，但卻犧牲了一些功能，例如透過 Google Play 服務來推送通知（可節省電池用量）。
 
-還有一個版本叫做 [**Molly-UP**](https://github.com/mollyim/mollyim-android#unifiedpush) 的版本，它以 Molly-FOSS 為基礎，並增加了使用 [UnifiedPush](https://unifiedpush.org/) 來推送通知的支援，這是一個能代替 Google Play 服務推送通知的開放原始碼專案，但它需要執行一個名為 [Mollysocket](https://github.com/mollyim/mollysocket) 的獨立程式才能運作。 Mollysocket 可以自行架設在獨立的電腦或伺服器（VPS），或者使用公開 Mollysocket 實例（[逐步教學，德文](https://www.kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy/)）。
+There is also a version called [**Molly-UP**](https://github.com/mollyim/mollyim-android#unifiedpush) which is based on Molly-FOSS and adds support for push notifications with [UnifiedPush](https://unifiedpush.org), an open source alternative to the push notifications provided by Google Play Services, but it requires running a separate program called [Mollysocket](https://github.com/mollyim/mollysocket) to function. Mollysocket can either be self-hosted on a separate computer or server (VPS), or alternatively a public Mollysocket instance can be used ([step-by-step tutorial, in German](https://kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy)).
 
 三個版本的 Molly 都提供相同的安全性改進。
 
@@ -142,7 +142,6 @@ You can find a full list of the privacy and security [features](https://github.c
 
 SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html#simplex-cryptographic-design-review-by-trail-of-bits) and in [October 2022](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website).
 
-
 ### Briar
 
 <div class="admonition recommendation" markdown>
@@ -175,7 +174,7 @@ Briar 要新增聯絡人，必須先彼此互加。 您可以交換 `briar://` �
 
 Briar有一個完整 [發布的規範](https://code.briarproject.org/briar/briar-spec)。
 
-Briar 利用[^1] Bramble[Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) 和[Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md)協定來支持前向保密。
+Briar 利用[^1] Bramble[Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) 和[Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md)協定來支援前向保密。
 
 ## 額外選項
 

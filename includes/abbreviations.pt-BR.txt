@@ -16,6 +16,7 @@ Caraterística digital herdada: Legado Digital refere-se a recursos que permitem
 *[DoQ]: DNS sobre QUIC
 *[DoH3]: DNS sobre HTTP/3
 *[DoT]: DNS sobre TLS
+*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
 *[E2EE]: Criptografia/Criptografia ponto-a-ponto
 *[ECS]: Sub-rede de clientes EDNS
 *[EEA]: Espaço Econômico Europeu
@@ -71,6 +72,7 @@ Caraterística digital herdada: Legado Digital refere-se a recursos que permitem
 *[PGP]: Pretty Good Privacy (veja OpenPGP)
 *[PII]: Informações Pessoalmente Identificáveis
 *[QNAME]: Qualified Name
+*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
 *[rolling release]: Atualizações lançadas com frequência em vez de intervalos
 *[RSS]: Sindicação bem simples
 *[SELinux]: Segurança aprimorada do Linux

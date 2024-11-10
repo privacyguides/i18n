@@ -11,7 +11,7 @@ description: A complete list of contributors who have collectively made an enorm
 
 | Emoji | Type          | Description                                                                                                                                       |
 | ----- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 📖    | `doc`         | Συνεισφέρον στο περιεχόμενο του [privacyguides.org](https://www.privacyguides.org/en/).                           |
+| 📖    | `doc`         | A contributor to the content on [privacyguides.org](https://www.privacyguides.org/en).                            |
 | 👀    | `review`      | Κάποιο που αφιέρωσε χρόνο για να ελέγξει [pull requests](https://github.com/privacyguides/privacyguides.org/pulls) στον ιστότοπο. |
 | 📝    | `blog`        | Κάποιο που έχει γράψει για εμάς ανάρτηση [ιστολογίου](https://blog.privacyguides.org).                                            |
 | 💬    | `question`    | Κάποιος που έδωσε χρήσιμες απαντήσεις στο [forum](https://discuss.privacyguides.net) ή στα κανάλια Matrix.                        |

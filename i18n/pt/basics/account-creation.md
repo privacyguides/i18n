@@ -74,7 +74,7 @@ Malicious applications, particularly on mobile devices where the application has
 
 ### Número de telemóvel
 
-Recomendamos que evite serviços que exijam um número de telefone para se registar. Um número de telefone pode identificá-lo em vários serviços e, dependendo dos acordos de partilha de dados, facilitará o rastreio da sua utilização, especialmente se um desses serviços for violado, dado que o número de telefone é frequentemente **e não** encriptado.
+Recomendamos que evite serviços que exijam um número de telefone para se registar. A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
 
 Se possível, deve evitar dar o seu número de telefone verdadeiro. Alguns serviços permitem a utilização de números VOIP, no entanto, estes acionam frequentemente sistemas de deteção de fraudes, fazendo com que uma conta seja bloqueada, pelo que não recomendamos a sua utilização para contas importantes.
 

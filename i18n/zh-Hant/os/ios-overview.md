@@ -4,17 +4,17 @@ icon: simple/apple
 description: 蘋果公司使用 Unix 作業系統來開發macOS 支援自家的 Mac 電腦。
 ---
 
-**iOS** 和 **iPadOS** 是 Apple 分別為其 iPhone 和 iPad 產品開發的專有移動作業系統。 如果您擁有 Apple 移動設備，可通過禁用某些內置遙測功能以及強化系統內置的隱私和安全設置來增強隱私。
+**iOS** 和 **iPadOS** 是 Apple 分別為其 iPhone 和 iPad 產品開發的專有移動作業系統。 如果您擁有 Apple 行動裝置，可透過關閉某些內建遙測功能以及強化系統內建的隱私和安全設定來加強隱私。
 
 ## 隱私筆記
 
-iOS 設備因其強大的資料保護和對現代最佳作法的遵守而受到安全專家的讚揚。 然而，Apple 生態系統的限制性——尤其是移動設備——仍然在很多方面阻礙了隱私。
+iOS 設備因其強大的資料保護和對現代最佳作法的遵守而受到安全專家的讚揚。 然而，Apple 生態系統的限制性——尤其是行動裝置——仍然在很多方面阻礙了隱私。
 
 我們認為，與任何製造商的庫存 Android 設備相比，iOS 為大多數人提供了水平之上的隱私和安全保護。 However, you can achieve even higher standards of privacy with a [custom Android operating system](../android/distributions.md) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
 
 ### 激活鎖
 
-所有 iOS 設備在初始設置或重置時都必須根據 Apple 的激活鎖伺服器進行檢查，這意味著**需要**網際網路連接才能使用 iOS 設備。
+所有 iOS 設備在初始設定或重置時都必須根據 Apple 的激活鎖伺服器進行檢查，這意味著**需要**網際網路連接才能使用 iOS 設備。
 
 ### 強制的 App Store
 
@@ -32,7 +32,7 @@ The only source for apps on iOS is Apple's App Store, which requires an Apple Ac
 
 ### iCloud
 
-Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是其硬體或軟體。 當使用 iCloud 等 Apple 服務時，大部分資訊都儲存在他們的伺服器上以金鑰保護，且預設情況下 Apple 可以取用該金鑰。 您可以查看 [Apple 文檔](https://support.apple.com/HT202303)，了解哪些服務是端到端加密的。 任何列為“傳輸中”或“伺服器上”的內容都意味著 Apple 可以在未經您許可下訪問存取該資料。 這種訪問級別偶爾會被執法部門濫用，儘管您的資料在設備上還是安全加密的狀態。當然，Apple 與任何其他公司一樣容易遭受資料洩露。
+Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是其硬體或軟體。 當使用 iCloud 等 Apple 服務時，大部分資訊都儲存在他們的伺服器上以金鑰保護，且預設情況下 Apple 可以取用該金鑰。 您可以查看 [Apple 文檔](https://support.apple.com/HT202303)，了解哪些服務是端對端加密的。 任何列為“傳輸中”或“伺服器上”的內容都意味著 Apple 可以在未經您許可下訪問存取該資料。 這種訪問級別偶爾會被執法部門濫用，儘管您的資料在設備上還是安全加密的狀態。當然，Apple 與任何其他公司一樣容易遭受資料洩露。
 
 因此，如果使用 iCloud，則應[啟用**進階資料保護**](https://support.apple.com/HT212520)。 這會使用儲存在您裝置上的的金鑰對 iCloud 數據加密（端對端加密）而不是放在 Apple 伺服器的金鑰，以便 iCloud 在發生數據洩露時得到保護，且不會被 Apple 發現。
 
@@ -67,11 +67,11 @@ At the top of the **Settings** app, you'll see your name and profile picture if 
 
 ### 設定
 
-許多其他與隱私相關的設置可以在**設置**應用中找到。
+許多其他與隱私相關的設定可以在**設定**應用中找到。
 
 #### 飛航模式
 
-啟用 **飛航模式** 會阻止您的手機與手機基地塔連線。 您仍然可以連接到 Wi-Fi 和藍牙，因此每當您連接到 Wi-Fi 時，您都可以開啟此設置。
+啟用 **飛航模式** 會阻止您的手機與手機基地塔連線。 您仍然可以連接到 Wi-Fi 和藍牙，因此每當您連接到 Wi-Fi 時，您都可以開啟此設定。
 
 #### Wi-Fi
 
@@ -79,7 +79,7 @@ You can enable [hardware address randomization](https://support.apple.com/en-us/
 
 - [x] Set **Private Wi-Fi Address** to **Fixed** or **Rotating**
 
-您也可以選擇 **限制 IP 位址追蹤**。 這與 iCloud Private Relay 類似，但僅影響與“已知跟踪器”的連接。 因為它只影響與潛在惡意伺服器的連接，所以啟用此設置應該沒問題，但如果不希望*任何*流量通過 Apple 的伺服器路由，則可把它關掉。
+您也可以選擇 **限制 IP 位址追蹤**。 這與 iCloud Private Relay 類似，但僅影響與“已知跟踪器”的連接。 因為它只影響與潛在惡意伺服器的連接，所以啟用此設定應該沒問題，但如果不希望*任何*流量通過 Apple 的伺服器路由，則可把它關掉。
 
 #### 藍牙
 
@@ -119,11 +119,11 @@ Note that Bluetooth is automatically turned on after every system update.
 
 #### Face ID/Touch ID & 密碼
 
-在手機上設置強密碼是確保設備物理安全的最重要步驟。 您必須權衡安全性與便利性：每次輸入較長的密碼很麻煩，但較短的密碼或 PIN 碼很容易被猜到。 設置 Face ID 或 Touch ID 以及強密碼可以在可用性和安全性之間實現良好折衷。
+在手機上設定強密碼是確保設備物理安全的最重要步驟。 您必須權衡安全性與便利性：每次輸入較長的密碼很麻煩，但較短的密碼或 PIN 碼很容易被猜到。 設定 Face ID 或 Touch ID 以及強密碼可以在可用性和安全性之間實現良好折衷。
 
 Select **Turn Passcode On** or **Change Passcode** → **Passcode Options** → **Custom Alphanumeric Code**. 確認建立[安全密碼](../basics/passwords-overview.md)。
 
-如果想使用 Face ID 或 Touch ID，可以立即進行設置。 您的手機將使用之前設置的密碼作為後備密碼，以防生物識別驗證失敗。 生物識別解鎖方法主要是便利，雖然它們確實可以阻止監控攝像頭或身旁的人看到您所輸入的密碼。
+如果想使用 Face ID 或 Touch ID，可以立即進行設定。 您的手機將使用之前設定的密碼作為後備密碼，以防生物識別驗證失敗。 生物識別解鎖方法主要是便利，雖然它們確實可以阻止監控攝像頭或身旁的人看到您所輸入的密碼。
 
 如果使用生物識別技術，應該知道如何在緊急情況下快速關閉它們。 按住側面按鈕或電源按鈕以及*任一*音量按鈕，直到看到滑動關閉滑塊為止，這將禁用生物識別功能，需要密碼才能解鎖。 設備重新啟動後還需要您的密碼。
 
@@ -148,12 +148,12 @@ On some older devices, you may have to press the power button five times to disa
 - [ ] 關閉 **回撥未接來電**
 - [ ] 關閉 **USB 配件**
 
-iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長時間； 然而，過去已經有一些漏洞可以繞開這個問題。 為了更加安全，可將手機設置為在 10 次密碼嘗試錯誤後自行擦除。
+iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長時間； 然而，過去已經有一些漏洞可以繞開這個問題。 為了更加安全，可將手機設定為在 10 次密碼嘗試錯誤後自行擦除。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-啟用此設置後，別人可以通過多次輸入錯誤密碼來故意擦除您的手機。 確保有適當備份，並且僅在有把握的情況下才啟用此設置。
+啟用此設置後，別人可以通過多次輸入錯誤密碼來故意擦除您的手機。 確保有適當備份，並且僅在有把握的情況下才啟用此設定。
 
 </div>
 
@@ -171,7 +171,7 @@ iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長�
 - [ ] Turn off **Routing & Traffic**
 - [ ] Turn off **Improve Maps**
 
-您在此處決定是否讓 apps **追蹤** 活動。 關閉此功能可禁止所有應用程序利用手機的廣告 ID 進行跟踪。 選擇 **追蹤**:
+您在此處決定是否讓 apps **追蹤** 活動。 關閉此功能可禁止所有應用程式利用手機的廣告 ID 進行跟踪。 選擇 **追蹤**:
 
 - [ ] 關閉 **允許 App 發出追蹤請求**
 
@@ -197,11 +197,11 @@ iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長�
 
 - [ ] 關閉 **個人化廣告**
 
-**App 隱私權報告**為內置工具，可讓您查看應用程式使用哪些權限。 選取 **App 隱私權報告**:
+**App 隱私權報告**為內建工具，可讓您查看應用程式使用哪些權限。 選取 **App 隱私權報告**:
 
 - [x] 選擇 **開啟 App 隱私權報告**
 
-[封閉模式](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode)是可以啟用的安全設置使手機更能抵抗攻擊。 請注意，某些應用和功能[將無法正常運作](https://support.apple.com/HT212650)。
+[封閉模式](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode)是可以啟用的安全設定使手機更能抵抗攻擊。 請注意，某些應用和功能[將無法正常運作](https://support.apple.com/HT212650)。
 
 - [x] 選擇 **開啟封閉模式**
 

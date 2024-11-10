@@ -16,6 +16,7 @@
 *[DoQ]: QUIC üzerinden DNS
 *[DoH3]: HTTP/3 üzerinden DNS
 *[DoT]: TLS üzerinden DNS
+*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
 *[E2EE]: Uçtan Uca Şifreleme/Şifreli
 *[ECS]: EDNS İstemci Alt Ağı
 *[AEA]: Avrupa Ekonomik Alanı
@@ -71,6 +72,7 @@
 *[PGP]: Pretty Good Privacy (bkz. OpenPGP)
 *[PII]: Kişiyi Tanımlamak İçin Kullanılan Bilgiler
 *[QNAME]: Nitelikli Ad
+*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
 *[yuvarlanan sürüm]: Sabit aralıklar yerine sık sık yayınlanan güncellemeler
 *[RSS]: Gerçekten Basit Dağıtım
 *[SELinux]: Güvenliği Geliştirilmiş Linux

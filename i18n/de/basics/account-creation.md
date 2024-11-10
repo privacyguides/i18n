@@ -74,7 +74,7 @@ Bösartige Anwendungen, insbesondere auf mobilen Geräten, bei denen die Anwendu
 
 ### Telefonnummer
 
-Wir empfehlen, Dienste zu meiden, die eine Telefonnummer für die Anmeldung erfordern. Eine Telefonnummer kann dich bei mehreren Diensten identifizieren, und je nach den Vereinbarungen über die gemeinsame Nutzung von Daten lässt sich deine Nutzung leichter nachverfolgen, vor allem, wenn einer dieser Dienste angegriffen wird, da die Telefonnummer oft **nicht** verschlüsselt ist.
+Wir empfehlen, Dienste zu meiden, die eine Telefonnummer für die Anmeldung erfordern. A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
 
 Wenn möglich, solltest du deine echte Telefonnummer nicht herausgeben. Einige Dienste gestatten die Verwendung von VOIP-Nummern, die jedoch häufig Betrugserkennungssysteme auslösen und zur Sperrung eines Kontos führen, weshalb wir dies für wichtige Konten nicht empfehlen.
 

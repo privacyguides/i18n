@@ -29,7 +29,7 @@ description: 簡介常見的即時通訊應用程式網路架構。
 - 集中型網路 [禁封了](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165)可以提供更靈活自定與更佳使用體驗的第三方客戶端。 通常定義在使用條款和條件。
 - 對於第三方開發人員來說，文件記錄很糟。
 - 由單一實體控制服務時，其 [所有權](https://web.archive.org/web/20210729191953/https://blog.privacytools.io/delisting-wire)、隱私政策和服務操作可輕易改變，甚致危及服務。
-- 自我託管需要精力和設置服務的知識。
+- 自我託管需要精力和設定服務的知識。
 
 ## 聯邦式網路
 
@@ -62,7 +62,7 @@ P2P 軟體連接到 [分佈式網路](https://en.wikipedia.org/wiki/Distributed_
 
 客戶端（對等軟體）通常通過 [分布式計算](https://en.wikipedia.org/wiki/Distributed_computing) 網路找到彼此。 例如， [Distributed Hash Tables](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT)被 [torrents](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) 和 [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) 使用。 另一種方法是鄰近的網路，通過WiFi或藍牙建立連接（例如， Briar 或 [Scuttlebutt](https://scuttlebutt.nz) 社交網路協議）。
 
-一旦對等體通過任何這些方法找到通往其聯繫的路徑，它們之間就會建立直接連接。  通常訊息內容會加密，但觀察者仍然可以推斷發件人和收件人的位置和身份。
+一旦對等體通過任何這些方法找到通往其聯繫的路徑，它們之間就會建立直接連接。 通常訊息內容會加密，但觀察者仍然可以推斷寄件人和收件人的位置和身份。
 
 P2P 網路不使用伺服器，對等方彼此之間直接通訊，因此不能自我託管。 但是，一些額外的服務可能要靠集中式伺服器，例如用戶看到或轉發離線消息，這些需要自託管伺服器的協助。
 
@@ -85,7 +85,7 @@ P2P 網路不使用伺服器，對等方彼此之間直接通訊，因此不能�
 
 使用 [匿名路由](https://doi.org/10.1007/978-1-4419-5906-5_628) 的傳訊方式會隱藏發送者、接收者的身份或他們一直在溝通的證據。 理想情況下，這三種東西都該被隱藏。
 
-匿名路由[有多種](https://doi.org/10.1145/3182658) 實現方式。 其中最著名 [洋蔥路由](https://en.wikipedia.org/wiki/Onion_routing) （即 [Tor](tor-overview.md)） ，該虛擬 [覆蓋網路](https://en.wikipedia.org/wiki/Overlay_network) 隱藏節點位置以及收件人和發件人之間的加密訊息。 發送者和接收者不會直接互動，而是通過祕密會合節點，這樣就不會洩漏 IP 位址或物理位置。 節點無法解密訊息，也無法解密最終目的地；只有收件人可以。 中間節點只能解密下一步送到哪裡的指示，消息本體仍保持加密直到送達最終有權限解密的收件人，因此是“洋蔥層”。
+匿名路由[有多種](https://doi.org/10.1145/3182658) 實現方式。 其中最著名 [洋蔥路由](https://en.wikipedia.org/wiki/Onion_routing) （即 [Tor](tor-overview.md)） ，該虛擬 [覆蓋網路](https://en.wikipedia.org/wiki/Overlay_network) 隱藏節點位置以及收件人和寄件人之間的加密訊息。 發送者和接收者不會直接互動，而是通過祕密會合節點，這樣就不會洩漏 IP 位址或物理位置。 節點無法解密訊息，也無法解密最終目的地；只有收件人可以。 中間節點只能解密下一步送到哪裡的指示，消息本體仍保持加密直到送達最終有權限解密的收件人，因此是“洋蔥層”。
 
 在匿名路由網路中自我託管節點無法增加額外隱私優勢，但有助於整個網路軔性抵禦識別攻擊。
 
