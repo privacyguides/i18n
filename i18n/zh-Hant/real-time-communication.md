@@ -254,7 +254,7 @@ Session使用去中心化的 [Oxen Service Node Network](https://oxen.io/) 來�
 
 Session 允許E2EE在一對一聊天或封閉羣組中，最多可容納100名成員。 開放群組對成員數量沒有限制，從設計上來說是開放的。
 
-Session 先前基於 Signal 協議，並於 2020 年 12 月替換為自己的協議。 Session 協議[不](https://getsession.org/blog/session-protocol-technical-information)支持前向保密。[^1]
+Session 先前基於 Signal 協議，並於 2020 年 12 月替換為自己的協議。 Session 協議[不](https://getsession.org/blog/session-protocol-technical-information)支援前向保密。[^1]
 
 2020年3月Oxen 對 Session 進行獨立審計。 審計於 2021 年 4 月 [結束](https://getsession.org/session-code-audit) ：
 
@@ -279,7 +279,7 @@ Session [白皮書](https://arxiv.org/pdf/2002.04609.pdf) ，描述了應用程�
 最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
 - 支援前向保密[^1]
-- 支持未來保密（入侵後安全）[^2]
+- 支援未來保密（入侵後安全）[^2]
 - 開源伺候器。
 - 去中心化，即[聯邦式或 P2P](advanced/communication-network-types.md)。
 - 所有訊息預設為使用 E2EE。

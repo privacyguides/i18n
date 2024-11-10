@@ -90,7 +90,7 @@ Android 9 以上版本支援 DNS over TLS。 設定方式可以在以下位置�
 
 #### Apple 裝置
 
-最新版本的 iOS、iPadOS、tvOS 和 macOS 都支持 DoT 和 DoH。 這兩個通訊協議都透過 [組態檔](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) 或透過 [DNS 設定 API ](https://developer.apple.com/documentation/networkextension/dns_settings)獲得原生支援。
+最新版本的 iOS、iPadOS、tvOS 和 macOS 都支援 DoT 和 DoH。 這兩個通訊協議都透過 [組態檔](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) 或透過 [DNS 設定 API ](https://developer.apple.com/documentation/networkextension/dns_settings)獲得原生支援。
 
 安裝設定設定檔或使用 DNS 設定API 的應用程式後，即可選擇 DNS 設定。 如果啟用 VPN， 隧道內的解析將使用 VPN 的 DNS 設定，而不是設備系統的設定。
 

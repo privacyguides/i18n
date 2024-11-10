@@ -113,7 +113,7 @@ Proton VPN 有自己的 [Stealth](https://protonvpn.com/blog/stealth-vpn-protoco
 
 #### :material-information-outline:{ .pg-blue } 補充說明
 
-Proton VPN 客戶端目前支持所有平臺上的雙因素身份驗證。 Proton VPN 在瑞士、冰島和瑞典擁有自己的伺服器和資料中心。 他們透過自己的 DNS 服務，提供內容封鎖和已知的惡意軟體網域。 此外，Proton VPN 還提供 "Tor" 伺服器，可輕鬆連接到洋蔥網站，但我們仍然強烈建議您使用 [官方 Tor 瀏覽器](tor.md#tor-browser) 來完成此類目的。
+Proton VPN 客戶端目前支援所有平臺上的雙因素身份驗證。 Proton VPN 在瑞士、冰島和瑞典擁有自己的伺服器和資料中心。 他們透過自己的 DNS 服務，提供內容封鎖和已知的惡意軟體網域。 此外，Proton VPN 還提供 "Tor" 伺服器，可輕鬆連接到洋蔥網站，但我們仍然強烈建議您使用 [官方 Tor 瀏覽器](tor.md#tor-browser) 來完成此類目的。
 
 ##### :material-alert-outline:{ .pg-orange } Killswitch 無法在基於 Intel 處理器的 Mac 電腦上使用
 
@@ -256,7 +256,7 @@ Mullvad 支援 WireGuard® 協議。 [WireGuard](https://wireguard.com/protocol)
 
 Mullvad [建議](https://mullvad.net/en/help/why-wireguard)搭配 WireGuard 使用。 在 Mullvad 的 Android、iOS、macOS 以及 Linux 平台的應用程式中，WireGuard 已是預設協議；在 Windows 平台則需[手動選擇](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app) WireGuard。 Mullvad 也提供 WireGuard 設定檔產生器，可用於 WireGuard 的官方[應用程式](https://wireguard.com/install)。
 
-#### :material-check:{ .pg-green } IPv6 支持
+#### :material-check:{ .pg-green } IPv6 支援
 
 Mullvad 允許您[存取架設在 IPv6 上的服務](https://mullvad.net/en/blog/2014/9/15/ipv6-support)，且支援使用 IPv6 的裝置連線。
 
@@ -275,7 +275,7 @@ Mullvad offers several features to help bypass censorship and access the interne
 
 #### :material-check:{ .pg-green } 行動裝置客戶端
 
-Mullvad 提供 [App Store](https://apps.apple.com/app/id1488466513) 和 [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) 客戶端，兩者都支持易於使用的界面，無須手動配置 WireGuard。 Android 客戶端也可以在 [GitHub](https://github.com/mullvad/mullvadvpn-app/releases) 上下載。
+Mullvad 提供 [App Store](https://apps.apple.com/app/id1488466513) 和 [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) 客戶端，兩者都支援易於使用的界面，無須手動配置 WireGuard。 Android 客戶端也可以在 [GitHub](https://github.com/mullvad/mullvadvpn-app/releases) 上下載。
 
 #### :material-information-outline:{ .pg-blue } 補充說明
 

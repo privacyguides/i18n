@@ -1,7 +1,7 @@
 ---
 title: "電子郵件客戶端"
 icon: material/email-open
-description: 這些電子郵件客戶端尊重隱私並支持OpenPGP電子郵件加密。
+description: 這些電子郵件客戶端尊重隱私並支援OpenPGP電子郵件加密。
 cover: email-clients.webp
 ---
 
@@ -281,5 +281,5 @@ NeoMutt 是一個以命令行為基礎的客戶端，其學習曲線非常陡峭
 - 必須開放原始碼
 - 必須跨平臺
 - 預設不收集任何資料
-- 應該原生支持 OpenPGP ，而無須擴充套件
+- 應該原生支援 OpenPGP ，而無須擴充套件
 - 應支援本機儲存 OpenPGP 加密的電子郵件

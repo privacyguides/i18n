@@ -174,7 +174,7 @@ iMazing 會自動並以互動方式引導完成使用 [MVT](#mobile-verification
 
 </div>
 
-Auditor 並不像本頁上的其他工具一樣是掃描/分析工具。 相反的，它使用由裝置硬體支持的 keystore ，讓您可以驗證裝置的身份，並確保作業系統本身沒有被竄改或遭到 verified boot 降級攻擊。 這為裝置本身提供了非常強大的完整性檢查，但不一定檢查裝置上執行的使用者級應用程式是否是惡意的。
+Auditor 並不像本頁上的其他工具一樣是掃描/分析工具。 相反的，它使用由裝置硬體支援的 keystore ，讓您可以驗證裝置的身份，並確保作業系統本身沒有被竄改或遭到 verified boot 降級攻擊。 這為裝置本身提供了非常強大的完整性檢查，但不一定檢查裝置上執行的使用者級應用程式是否是惡意的。
 
 Auditor 使用 **兩個** 設備執行證明和入侵檢測，即一個 _被驗證者（auditee）_ 和一個 _驗證者（auditor）_。 驗證者 可以是任何 Android 10+ 裝置（或是由 [GrapheneOS](android/distributions.md#grapheneos) 所持有的遠端網路服務），而 被驗證者 必須是特定 [支援的裝置](https://attestation.app/about#device-support)。 Auditor 運行原理：
 

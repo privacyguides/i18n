@@ -57,4 +57,4 @@ OPNsense 是從 [pfSense](https://en.wikipedia.org/wiki/PfSense) 另外發展出
 
 - 它必須是開源的。
 - 必須定期更新。
-- 需要支持各種各樣的硬體。
+- 需要支援各種各樣的硬體。

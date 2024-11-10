@@ -89,11 +89,11 @@ Proton Mail 的內容崩潰報告**不會**對其它第三方分享。 可以在
 
 #### :material-check:{ .pg-green } 自訂域名和別名
 
-付費的 Proton Mail 訂閱者可以使用自定網域服務或 [通用電子郵件](https://proton.me/support/catch-all) 功能。 Proton Mail 還支持 [子位址](https://proton.me/support/creating-aliases)，這對於不想購買網域的人很有用。
+付費的 Proton Mail 訂閱者可以使用自定網域服務或 [通用電子郵件](https://proton.me/support/catch-all) 功能。 Proton Mail 還支援 [子位址](https://proton.me/support/creating-aliases)，這對於不想購買網域的人很有用。
 
 #### :material-check:{ .pg-green } 私密付款方式
 
-Proton Mail 除了[支持](https://proton.me/support/payment-options)郵寄現金外，還接受信用卡/簽帳卡、[Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) 和 PayPal 付款。
+Proton Mail 除了[支援](https://proton.me/support/payment-options)郵寄現金外，還接受信用卡/簽帳卡、[Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) 和 PayPal 付款。
 
 #### :material-check:{ .pg-green } 帳號安全
 
@@ -335,7 +335,7 @@ Tuta 不提供數位遺產功能。
 
 - 使用雙重驗證 (例如 TOTP) 保護 Webmail。
 - 零存取加密，建立在靜態加密的基礎上。 提供者沒有其所持有資料的解密金鑰。 這可防止惡意員工洩露他們存取的資料，或遠端敵人透過未經授權存取伺服器來釋放他們竊取的資料。
-- [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) 支持。
+- [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) 支援。
 - 使用 [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh) 或 [Qualys SSL Labs](https://ssllabs.com/ssltest) 等工具沒發現 TLS 錯誤或漏洞； 這包括與憑證相關的錯誤和弱 DH 參數，例如 [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)) 錯誤。
 - 伺服器套件偏好設定 (TLSv1.3 為選用)，適用於支援前向保密和認證加密的強密碼套件。
 - 有效的 [MTA-STS](https://tools.ietf.org/html/rfc8461) 和[TLS-RPT](https://tools.ietf.org/html/rfc8460) 政策。

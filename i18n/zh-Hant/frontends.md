@@ -102,7 +102,7 @@ cover: frontends.webp
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-預設情況下， Invidious不會代理影片串流。 通過 Invidious 觀看的影片會直接連接到 Google 伺服器（例如`googlevideo.com`)，但是有些實例支持影片代理-只需在實例設定中啟用*Proxy videos*或在 URL 中新增`&local = true`。
+預設情況下， Invidious不會代理影片串流。 通過 Invidious 觀看的影片會直接連接到 Google 伺服器（例如`googlevideo.com`)，但是有些實例支援影片代理-只需在實例設定中啟用*Proxy videos*或在 URL 中新增`&local = true`。
 
 </div>
 

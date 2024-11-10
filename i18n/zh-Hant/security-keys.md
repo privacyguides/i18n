@@ -102,7 +102,7 @@ Yubikey 安全金鑰的韌體不可更新。 如果您想要使用較新韌體�
 
 Nitrokey 模式可用 [Nitrokey 應用程式](https://nitrokey.com/download) 來設定。
 
-支持 HOTP 和 TOTP 的型號，有3個 HOTP 插槽，15 個 TOTP 插槽。 有些 Nitrokeys 可以充當密碼管理器。 可以儲存 16 組憑證，並使用與 OpenPGP 接口相同的密碼對憑證加密。
+支援 HOTP 和 TOTP 的型號，有 3 個 HOTP 插槽，15 個 TOTP 插槽。 有些 Nitrokeys 可以充當密碼管理器。 可以儲存 16 組憑證，並使用與 OpenPGP 接口相同的密碼對憑證加密。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
@@ -136,4 +136,4 @@ Nitrokey 模式可用 [Nitrokey 應用程式](https://nitrokey.com/download) 來
 - 應採用 USB-C 格式。
 - 應與 NFC一起使用。
 - 支持 TOTP 機密儲存。
-- 應支持安全軔體更新。
+- 應支援安全軔體更新。

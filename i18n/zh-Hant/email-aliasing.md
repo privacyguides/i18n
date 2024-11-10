@@ -10,7 +10,7 @@ cover: email-aliasing.webp
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 - [:material-account-search: 公共暴露](basics/common-threats.md#limiting-public-information){ .pg-green }
 
-**電子郵件別名服務** 可讓您輕鬆地為每個註冊的網站產生一個新的電子郵件地址。 電子郵件別名會自動把郵件轉發到所選擇的電子郵件地址，以隱藏「主要」電子郵件地址和 [電子郵件提供商](email.md)。 真正的電子郵件別名比許多提供商常用和支持的加號地址（plus addressing）更好，可自行創建別名，如：「yourname +[anythinghere]@example.com」，而這可避免網站，廣告商和跟蹤網路簡單地刪除+符號之後的任何內容，以知道使用者真實電子郵件地址。 [IAB](https://en.wikipedia.org/wiki/Interactive_Advertising_Bureau) 等組織要求廣告商 [規範化電子郵件地址](https://shkspr.mobi/blog/2023/01/the-iab-loves-tracking-users-but-it-hates-users-tracking-them) ；如此一來無論使用者的隱私意願如何，都可以關聯和追蹤它們。
+**電子郵件別名服務** 可讓您輕鬆地為每個註冊的網站產生一個新的電子郵件地址。 電子郵件別名會自動把郵件轉發到所選擇的電子郵件地址，以隱藏「主要」電子郵件地址和 [電子郵件提供商](email.md)。 真正的電子郵件別名比許多提供商常用和支援的加號地址（plus addressing）更好，可自行創建別名，如：「yourname +[anythinghere]@example.com」，而這可避免網站，廣告商和跟蹤網路簡單地刪除+符號之後的任何內容，以知道使用者真實電子郵件地址。 [IAB](https://en.wikipedia.org/wiki/Interactive_Advertising_Bureau) 等組織要求廣告商 [規範化電子郵件地址](https://shkspr.mobi/blog/2023/01/the-iab-loves-tracking-users-but-it-hates-users-tracking-them) ；如此一來無論使用者的隱私意願如何，都可以關聯和追蹤它們。
 
 <div class="grid cards" markdown>
 
