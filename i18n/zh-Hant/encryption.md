@@ -1,12 +1,12 @@
 ---
-meta_title: "推薦的加密軟件： VeraCrypt, Cryptomat, PicoCrypt 和 OpenPGP - Privacy Guides"
+meta_title: "推薦的加密軟體： VeraCrypt, Cryptomat, PicoCrypt 和 OpenPGP - Privacy Guides"
 title: "加密軟體"
 icon: material/file-lock
 description: 數據加密是控制誰可以訪問它的唯一方法。 這些工具允許您加密電子郵件和任何其他檔案。
 cover: encryption.webp
 ---
 
-**加密** 是控制誰能存取您資料的唯一安全方法。 如果您目前沒有為您的硬盤，電子郵件或檔案使用加密軟件，您應該在這裡選擇一個選項。
+**加密** 是控制誰能存取您資料的唯一安全方法。 如果您目前沒有為您的硬碟，電子郵件或檔案使用加密軟體，您應該在這裡選擇一個選項。
 
 ## 多平臺
 
@@ -91,7 +91,7 @@ Picocrypt has been [audited](https://github.com/Picocrypt/storage/blob/main/Pico
 ![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
 ![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
 
-**VeraCrypt** 是一個開源的免費軟件實用程式，用於即時加密。 它可以在檔案中建立虛擬加密磁碟、加密分割區，或透過預先啟動驗證來加密整個儲存裝置。
+**VeraCrypt** 是一個開源的免費軟體實用程式，用於即時加密。 它可以在檔案中建立虛擬加密磁碟、加密分割區，或透過預先啟動驗證來加密整個儲存裝置。
 
 [:octicons-home-16: 首頁](https://veracrypt.fr){ .md-button .md-button--primary }
 [:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title="說明文件" }

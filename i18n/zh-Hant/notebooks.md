@@ -84,7 +84,7 @@ Standard Notes 已於 2024 年 4 月 10 日 [加入 Proton AG](https://standardn
 
 ![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
 
-**Joplin** 是一個自由、開放原始碼且功能齊全的筆記和待辦事項記錄應用程式，可以處理大量 Markdown 文件並組織成筆記本和標籤功能。 它提供E2EE ，可以通過Nextcloud ， Dropbox等同步。 它也可以輕鬆自 Evernote 和純文本筆記導入。
+**Joplin** 是一個自由、開放原始碼且功能齊全的筆記和待辦事項記錄應用程式，可以處理大量 Markdown 文件並組織成筆記本和標籤功能。 它提供E2EE ，可以通過Nextcloud ， Dropbox等同步。 它也可以輕鬆的從 Evernote 和純文本筆記導入。
 
 [:octicons-home-16: 首頁](https://joplinapp.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="隱私權政策" }
@@ -143,7 +143,7 @@ Cryptee 免費提供100MB 的儲存空間，如果需要更多容量，則另有
 
 ![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
 
-**Org-mode** 是GNU Emacs的 [主要模式](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html)。 Org-mode 用於記錄筆記，維護待辦事項列表，規劃項目以及使用快速有效的純文本系統撰寫文件。 可以利用 [檔案同步](file-sharing.md#file-sync) 工具進行同步。
+**Org-mode** 是GNU Emacs的 [主要模式](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html)。 Org-mode 用於記錄筆記，維護待辦事項列表，規劃項目以及使用快速有效的純文字系統撰寫文件。 可以利用 [檔案同步](file-sharing.md#file-sync) 工具進行同步。
 
 [:octicons-home-16: 首頁](https://orgmode.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=說明文件}

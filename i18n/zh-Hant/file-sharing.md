@@ -133,7 +133,7 @@ OnionShare 提供透過 [Tor 橋接器](https://docs.onionshare.org/2.6.2/en/tor
 
 ![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ align=right }
 
-**Syncthing** 是一個開源的點對點連續檔案件同步實用程式。 它可用在本地網路或網際網路的多個設備之間同步檔案。 Syncthing 不使用集中式伺服器；它使用 [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) 在裝置之間傳輸資料。 所有資料都使用 TLS 加密。
+**Syncthing** 是一個開源的點對點連續檔案件同步實用程式。 它可用在區域網路或網際網路的多個設備之間同步檔案。 Syncthing 不使用集中式伺服器；它使用 [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) 在裝置之間傳輸資料。 所有資料都使用 TLS 加密。
 
 [:octicons-home-16: 首頁](https://syncthing.net){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.syncthing.net){ .card-link title=說明文件}

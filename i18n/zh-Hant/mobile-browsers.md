@@ -263,9 +263,9 @@ This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/track
 
 This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
 
-#### Other Privacy Settings
+#### 其他隱私設定
 
-These options can be found in :gear: **Settings** → **Apps** → **Safari** → **Advanced**.
+這些選項可以在 :gear: **設定** → **應用程式** → **Safari** → **進階**
 
 ##### Fingerprinting Mitigations
 

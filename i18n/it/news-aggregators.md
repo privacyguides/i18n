@@ -5,6 +5,10 @@ description: Questi client di aggregazione di notizie consentono di tenersi aggi
 cover: news-aggregators.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: Fornitori di Servizi](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 A **news aggregator** is software which aggregates digital content from online newspapers, blogs, podcasts, and other resources to one location for easy viewing. Using one can be a great way to keep up with your favorite content.
 
 ## Client d'aggregazione
@@ -15,13 +19,13 @@ A **news aggregator** is software which aggregates digital content from online n
 
 ![Logo di Akregator](assets/img/news-aggregators/akregator.svg){ align=right }
 
-**Akregator** è un aggregatore di notizie, parte del progetto [KDE](https://kde.org). Dispone di funzionalità di ricerca veloce, archiviazione avanzata e un browser interno per la facile lettura delle notizie.
+**Akregator** è un aggregatore di notizie, parte del progetto [KDE](https://kde.org). It comes with a fast search, advanced archiving functionality, and an internal browser for easy news reading.
 
-[:octicons-home-16: Pagina Principale](https://apps.kde.org/it/akregator/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Politica sulla Privacy" }
-[:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Documentazione}
-[:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Codice Sorgente" }
-[:octicons-heart-16:](https://kde.org/it/community/donations/){ .card-link title=Contribuisci }
+[:octicons-home-16: Homepage](https://apps.kde.org/akregator){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title="Documentation" }
+[:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -36,9 +40,9 @@ A **news aggregator** is software which aggregates digital content from online n
 
 <div class="admonition recommendation" markdown>
 
-![Logo di NewsFlash](assets/img/news-aggregators/newsflash.png){ align=right }
+![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ align=right }
 
-**NewsFlash** è un lettore del feed delle notizie GTK4 open source, moderno, semplice e facile da utilizzare per Linux. È utilizzabile offline o con servizi come [NextCloud News](https://apps.nextcloud.com/apps/news) o [Inoreader](https://inoreader.com). Dispone di una funzionalità di ricerca e persino di un elenco predefinito di fonti come [TechCrunch](https://techcrunch.com), che puoi aggiungere direttamente. È disponibile soltanto come Flatpak (sulla repository di Flathub).
+**NewsFlash** is an open-source, modern, and easy-to-use news feed reader for Linux. It can be used offline or used with services like [Nextcloud News](https://apps.nextcloud.com/apps/news) or [Inoreader](https://inoreader.com). It has a search feature and a pre-defined list of sources that you can add directly.
 
 [:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk){ .md-button .md-button--primary }
 [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Codice sorgente" }
@@ -58,41 +62,17 @@ A **news aggregator** is software which aggregates digital content from online n
 
 ![Logo di Feeder](assets/img/news-aggregators/feeder.png){ align=right }
 
-**Feeder** è un client moderno RSS per Android con molte [funzionalità](https://github.com/spacecowboy/Feeder#features) e funziona bene con le cartelle di feed RSS. Supporta [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) e [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+**Feeder** è un client moderno RSS per Android con molte [funzionalità](https://github.com/spacecowboy/Feeder#features) e funziona bene con le cartelle di feed RSS. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
 [:octicons-repo-16: Repository](https://github.com/spacecowboy/Feeder){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Codice sorgente" }
-[:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Contribuisci }
+[:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play&gl=IT)
 - [:simple-github: GitHub](https://github.com/spacecowboy/Feeder/releases)
-
-</details>
-
-</div>
-
-### Fluent Reader
-
-<div class="admonition recommendation" markdown>
-
-![Logo di Fluent Reader](assets/img/news-aggregators/fluent-reader.svg){ align=right }
-
-**Fluent Reader** è un aggregatore di notizie multipiattaforma e sicuro, che dispone di utili funzionalità per la privacy, come l'eliminazione dei cookie all'uscita, rigide [politiche di sicurezza dei contenuti (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy) e supporto al proxy, a significare che puoi utilizzarlo su [Tor](tor.md).
-
-[:octicons-home-16: Pagina Principale](https://hyliu.me/fluent-reader){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .card-link title="Politica sulla Privacy" }
-[:octicons-info-16:](https://github.com/yang991178/fluent-reader/wiki){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/yang991178/fluent-reader){ .card-link title="Codice Sorgente" }
-[:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribuisci }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:fontawesome-brands-windows: Windows](https://hyliu.me/fluent-reader)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
 
 </details>
 
@@ -105,12 +85,12 @@ A **news aggregator** is software which aggregates digital content from online n
 ![Logo Miniflux](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
 ![Logo Miniflux](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
 
-**Miniflux** è un aggregatore di notizie basato sul web self-hostable. Supporta [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) e [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+**Miniflux** è un aggregatore di notizie basato sul web self-hostable. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
 [:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
-[:octicons-info-16:](https://miniflux.app/docs/index.html){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Codice sorgente" }
-[:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title=Contribuisci }
+[:octicons-info-16:](https://miniflux.app/docs/index){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title="Contribute" }
 
 </div>
 
@@ -122,10 +102,10 @@ A **news aggregator** is software which aggregates digital content from online n
 
 **NetNewsWire** è un lettore di feed gratuito e open source per macOS e iOS con un'attenzione particolare al design e alle funzionalità native. Supporta i formati tipici dei feed, insieme al supporto integrato per i feed di Reddit.
 
-[:octicons-home-16: Pagina Principale](https://netnewswire.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Politica sulla Privacy" }
-[:octicons-info-16:](https://netnewswire.com/help){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Codice Sorgente" }
+[:octicons-home-16: Homepage](https://netnewswire.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://netnewswire.com/help){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -143,11 +123,11 @@ A **news aggregator** is software which aggregates digital content from online n
 
 ![Logo di Newsboat](assets/img/news-aggregators/newsboat.svg){ align=right }
 
-**Newsboat** è un lettore di feed RSS/Atom per la console di testo. È un fork attivamente mantenuto di [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter). È molto leggera e ideale per l'utilizzo tramite [Secure Shell](https://it.wikipedia.org/wiki/Secure_Shell).
+**Newsboat** è un lettore di feed RSS/Atom per la console di testo. È un fork attivamente mantenuto di [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter). It is very lightweight and ideal for use over [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
 
-[:octicons-home-16: Home](https://newsboat.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://newsboat.org/releases/2.27/docs/newsboat.html){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="Codice Sorgente" }
+[:octicons-home-16: Homepage](https://newsboat.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://newsboat.org/releases/2.37/docs/newsboat.html){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="Source Code" }
 
 </div>
 
@@ -179,12 +159,12 @@ https://reddit.com/r/[SUBREDDIT]/new/.rss
 
 ### YouTube
 
-You can subscribe YouTube channels without logging in and associating usage information with your Google account.
+You can subscribe to YouTube channels without logging in and associating usage information with your Google account.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Esempio</p>
 
-Per iscriverti a un canale YouTube con un client RSS, cerca innanzitutto il [codice del canale](https://support.google.com/youtube/answer6180214). Il codice del canale si trova nella pagina informativa del canale YouTube a cui ci si vuole abbonare, alla voce **Informazioni** > **Condividi** > **Copia ID canale**. Sostituisci `[ID CANALE]` qui sotto:
+Per iscriverti a un canale YouTube con un client RSS, cerca innanzitutto il [codice del canale](https://support.google.com/youtube/answer6180214). The channel code can be found on the about page of the YouTube channel you wish to subscribe to, under: **About** → **Share** → **Copy channel ID**. Sostituisci `[ID CANALE]` qui sotto:
 
 ```text
 https://youtube.com/feeds/videos.xml?channel_id=[ID CANALE]

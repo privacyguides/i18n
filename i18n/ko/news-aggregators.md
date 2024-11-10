@@ -5,6 +5,10 @@ description: These news aggregator clients let you keep up with your favorite bl
 cover: news-aggregators.webp
 ---
 
+<small>Protects against the following threat(s):</small>
+
+- [:material-server-network: 서비스 제공자/제공 업체(Service Providers)](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+
 A **news aggregator** is software which aggregates digital content from online newspapers, blogs, podcasts, and other resources to one location for easy viewing. Using one can be a great way to keep up with your favorite content.
 
 ## 클라이언트
@@ -15,13 +19,13 @@ A **news aggregator** is software which aggregates digital content from online n
 
 ![Akregator 로고](assets/img/news-aggregators/akregator.svg){ align=right }
 
-**Akregator**는 [KDE](https://kde.org) 프로젝트의 일부인 뉴스 피드 리더 프로그램입니다. 빠른 검색, 고급 아카이브 기능, 뉴스를 간편하게 읽을 수 있는 내부 브라우저 등의 기능을 제공합니다.
+**Akregator**는 [KDE](https://kde.org) 프로젝트의 일부인 뉴스 피드 리더 프로그램입니다. It comes with a fast search, advanced archiving functionality, and an internal browser for easy news reading.
 
 [:octicons-home-16: Homepage](https://apps.kde.org/akregator){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title="Documentation" }
 [:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title=Contribute }
+[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -38,7 +42,7 @@ A **news aggregator** is software which aggregates digital content from online n
 
 ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ align=right }
 
-**NewsFlash** is an open-source, modern, simple and easy to use GTK4 news feed reader for Linux. It can be used offline or used with services like [NextCloud News](https://apps.nextcloud.com/apps/news) or [Inoreader](https://inoreader.com). It has a search feature and even a pre-defined list of sources like [TechCrunch](https://techcrunch.com) that you can add directly. It is only available as a Flatpak (on the Flathub repository).
+**NewsFlash** is an open-source, modern, and easy-to-use news feed reader for Linux. It can be used offline or used with services like [Nextcloud News](https://apps.nextcloud.com/apps/news) or [Inoreader](https://inoreader.com). It has a search feature and a pre-defined list of sources that you can add directly.
 
 [:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk){ .md-button .md-button--primary }
 [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Source Code" }
@@ -58,41 +62,17 @@ A **news aggregator** is software which aggregates digital content from online n
 
 ![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
 
-**Feeder** is a modern RSS client for Android that has many [features](https://github.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds. [RSS](https://ko.wikipedia.org/wiki/RSS), [Atom](https://ko.wikipedia.org/wiki/%EC%95%84%ED%86%B0_(%ED%91%9C%EC%A4%80)), [RDF](https://en.wikipedia.org/wiki/RDF/XML), [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed)를 지원합니다.
+**Feeder** is a modern RSS client for Android that has many [features](https://github.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
 [:octicons-repo-16: Repository](https://github.com/spacecowboy/Feeder){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title=Contribute }
+[:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
 - [:simple-github: GitHub](https://github.com/spacecowboy/Feeder/releases)
-
-</details>
-
-</div>
-
-### Fluent Reader
-
-<div class="admonition recommendation" markdown>
-
-![Fluent Reader 로고](assets/img/news-aggregators/fluent-reader.svg){ align=right }
-
-**Fluent Reader**는 크로스 플랫폼을 지원하는 안전한 뉴스 리더 프로그램입니다. 종료 시 쿠키 삭제, 엄격한 [콘텐츠 보안 정책(CSP)](https://ko.wikipedia.org/wiki/%EC%BD%98%ED%85%90%EC%B8%A0_%EB%B3%B4%EC%95%88_%EC%A0%95%EC%B1%85), 프록시 지원(즉, [Tor](tor.md)를 통해 사용할 수 있음) 등의 유용한 프라이버시 기능을 갖추고 있습니다.
-
-[:octicons-home-16: Homepage](https://hyliu.me/fluent-reader){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/yang991178/fluent-reader/wiki/Privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/yang991178/fluent-reader/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/yang991178/fluent-reader){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/yang991178){ .card-link title=Contribute }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:fontawesome-brands-windows: Windows](https://hyliu.me/fluent-reader)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1520907427)
 
 </details>
 
@@ -105,12 +85,12 @@ A **news aggregator** is software which aggregates digital content from online n
 ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
 ![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
 
-**Miniflux** is a web-based news aggregator that you can self-host. [RSS](https://ko.wikipedia.org/wiki/RSS), [Atom](https://ko.wikipedia.org/wiki/%EC%95%84%ED%86%B0_(%ED%91%9C%EC%A4%80)), [RDF](https://en.wikipedia.org/wiki/RDF/XML), [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed)를 지원합니다.
+**Miniflux** is a web-based news aggregator that you can self-host. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
 [:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
-[:octicons-info-16:](https://miniflux.app/docs/index.html){ .card-link title=Documentation}
+[:octicons-info-16:](https://miniflux.app/docs/index){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title=Contribute }
+[:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title="Contribute" }
 
 </div>
 
@@ -123,8 +103,8 @@ A **news aggregator** is software which aggregates digital content from online n
 **NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. 일반적인 피드 형식과 함께 Reddit 피드를 기본 지원합니다.
 
 [:octicons-home-16: Homepage](https://netnewswire.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://netnewswire.com/privacypolicy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://netnewswire.com/help){ .card-link title=Documentation}
+[:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://netnewswire.com/help){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -143,11 +123,11 @@ A **news aggregator** is software which aggregates digital content from online n
 
 ![Newsboat 로고](assets/img/news-aggregators/newsboat.svg){ align=right }
 
-**Newsboat**는 텍스트 콘솔용 RSS/Atom 피드 리더입니다. [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter)로부터 포크된 프로젝트로, 활발하게 유지 관리되고 있습니다. 매우 가벼우며, [SSH](https://ko.wikipedia.org/wiki/%EC%8B%9C%ED%81%90%EC%96%B4_%EC%85%B8)상에서 사용하기에 이상적입니다.
+**Newsboat**는 텍스트 콘솔용 RSS/Atom 피드 리더입니다. [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter)로부터 포크된 프로젝트로, 활발하게 유지 관리되고 있습니다. It is very lightweight and ideal for use over [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
 
-[:octicons-home-16: 홈페이지](https://newsboat.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://newsboat.org/releases/2.27/docs/newsboat.html){ .card-link title=문서}
-[:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="소스 코드" }
+[:octicons-home-16: Homepage](https://newsboat.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://newsboat.org/releases/2.37/docs/newsboat.html){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="Source Code" }
 
 </div>
 
@@ -179,12 +159,12 @@ https://reddit.com/r/[SUBREDDIT]/new/.rss
 
 ### YouTube
 
-You can subscribe YouTube channels without logging in and associating usage information with your Google account.
+You can subscribe to YouTube channels without logging in and associating usage information with your Google account.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Example</p>
 
-RSS 클라이언트로 Youtube 채널을 구독하려면 [채널 코드](https://support.google.com/youtube/answer/6180214)를 확인해야 합니다. The channel code can be found on the about page of the YouTube channel you wish to subscribe to, under: **About** > **Share** > **Copy channel ID**. Replace `[CHANNEL ID]` below:
+RSS 클라이언트로 Youtube 채널을 구독하려면 [채널 코드](https://support.google.com/youtube/answer/6180214)를 확인해야 합니다. The channel code can be found on the about page of the YouTube channel you wish to subscribe to, under: **About** → **Share** → **Copy channel ID**. Replace `[CHANNEL ID]` below:
 
 ```text
 https://youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]

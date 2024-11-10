@@ -91,7 +91,7 @@ Note that Bluetooth is automatically turned on after every system update.
 
 #### 一般設定
 
-預設情況中，您的 iPhone 設備名稱將包含您的名字，所連接的網絡中的其它人都可以看到該名稱。 所以應該將其更改為更一般的名稱，例如“iPhone”。 Select **About** → **Name** and enter the device name you prefer.
+預設情況中，您的 iPhone 裝置名稱將包含您的名字，所連接的網路中的其它人都可以看到該名稱。 所以應該將其更改為更一般的名稱，例如“iPhone”。 Select **About** → **Name** and enter the device name you prefer.
 
 經常安裝 **軟體更新** 以獲得最新的安全修復非常重要。 您可以啟用 **自動更新** ，以保持手機最新，而無需不斷檢查更新。 Select **Software Update** → **Automatic Updates**:
 

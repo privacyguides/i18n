@@ -7,7 +7,7 @@ hide:
 description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及硬體的完整清單。
 ---
 
-如果您正在尋找特定的解決方案，這些是我們在各種類別中推薦的硬件和軟件工具。 我們推薦的隱私工具主要是基於安全功能而選擇的，並特別強調去中心化和開源工具。 它們適用於各種威脅模型，從防止全球大規模監控計劃，避免大型科技公司到減輕攻擊，但只有您才能確定哪些最適合您的需求。
+如果您正在尋找特定的解決方案，這些是我們在各種類別中推薦的硬體和軟體工具。 我們推薦的隱私工具主要是基於安全功能而選擇的，並特別強調去中心化和開源工具。 它們適用於各種威脅模型，從防止全球大規模監控計劃，避免大型科技公司到減輕攻擊，但只有您才能確定哪些最適合您的需求。
 
 [VPN 供應商](vpn.md ""){.md-button} [密碼管理器](passwords.md ""){.md-button} [電子郵件供應商](email.md ""){.md-button} [瀏覽器擴充套件](browser-extensions.md ""){.md-button} [DNS 伺服器](dns.md ""){.md-button} [電子郵件別名服務](email-aliasing.md ""){.md-button} [照片管理工具](photo-management.md ""){.md-button}
 
@@ -492,7 +492,6 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 - ![Akregator logo](assets/img/news-aggregators/akregator.svg){ .twemoji loading=lazy } [Akregator](news-aggregators.md#akregator)
 - ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ .twemoji loading=lazy } [NewsFlash](news-aggregators.md#newsflash)
 - ![Feeder logo](assets/img/news-aggregators/feeder.png){ .twemoji} [Feeder (Android)](news-aggregators.md#feeder)
-- ![Fluent Reader logo](assets/img/news-aggregators/fluent-reader.svg){ .twemoji loading=lazy } [Fluent Reader](news-aggregators.md#fluent-reader)
 - ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji loading=lazy }![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji loading=lazy } [Miniflux](news-aggregators.md#miniflux)
 - ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ .twemoji loading=lazy } [NetNewsWire](news-aggregators.md#netnewswire)
 - ![Newsboat logo](assets/img/news-aggregators/newsboat.svg){ .twemoji loading=lazy } [Newsboat](news-aggregators.md#newsboat)

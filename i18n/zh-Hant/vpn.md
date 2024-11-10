@@ -299,7 +299,7 @@ Mullvad 對於他們[自有或租用](https://mullvad.net/en/servers)的節點�
 
 **最佳案例：**
 
-- Killswitch 具高度可配置選項（啟用/禁用某些網路、開機時啟閉等上）
+- Killswitch 具高度可配置選項（啟用/禁用某些網路、開機時等等）
 - 易於使用的 VPN 客戶端
 - 支援 [IPv6](https://en.wikipedia.org/wiki/IPv6) 協議 我們預期伺服器將允許透過 IPv6 傳入連線，並允許您存取託管在 IPv6 位址上的服務。
 - [遠端端口轉發](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) 的功能可協助在使用P2P ([對等](https://en.wikipedia.org/wiki/Peer-to-peer)) 檔案共享軟體或自建伺服器 (例如 Mumble) 時建立連接。

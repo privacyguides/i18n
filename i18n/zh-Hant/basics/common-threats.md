@@ -51,7 +51,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 避免在線上發言時，資訊存取受到審查或自己受到審查。
 
-其中一些威脅對您來說可能比其他威脅更嚴重，這取決於您的具體問題。 例如，有權存取有價值或關鍵資料的軟體開發人員可能主要關心 <span class="pg-viridian">:material-package-variant-closed-remove: 供應鏈攻擊</span> 和 <span class="pg-red">:material-target-account: 針對性的攻擊</span>。 他們可能仍然希望保護自己的個人資料免受 <span class="pg-blue">:material-eye-outline: 大規模監控</span> 計劃的影響。 同樣，許多人主要關心其個人資料的 <span class="pg-green">:material-account-search: 公開曝光</span> ，但他們仍應該警惕聚焦安全的問題，例如 <span class="pg-orange">:material-bug-outline: 被動攻擊</span>—例如惡意軟件影響他們的設備。
+其中一些威脅對您來說可能比其他威脅更嚴重，這取決於您的具體問題。 例如，有權存取有價值或關鍵資料的軟體開發人員可能主要關心 <span class="pg-viridian">:material-package-variant-closed-remove: 供應鏈攻擊</span> 和 <span class="pg-red">:material-target-account: 針對性的攻擊</span>。 他們可能仍然希望保護自己的個人資料免受 <span class="pg-blue">:material-eye-outline: 大規模監控</span> 計劃的影響。 同樣，許多人主要關心其個人資料的 <span class="pg-green">:material-account-search: 公開曝光</span> ，但他們仍應該警惕聚焦安全的問題，例如 <span class="pg-orange">:material-bug-outline: 被動攻擊</span>—例如惡意軟體影響他們的裝置。
 
 ## 匿名 vs. 隱私
 
@@ -128,7 +128,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 我們活在一個幾乎所有東西都連上網際網路的世界。 我們的「私人」訊息、電子郵件和社交互動通常儲存在伺服器的某個地方。 通常，當您向某人發送訊息時，它會儲存在伺服器上，當對方想要閱讀訊息時，伺服器會將其顯示給他們。
 
-顯而易見的問題是，服務提供商（或破壞伺服器的黑客）可以隨時隨地訪問您的對話，而您永遠不會知道。 這適用於許多常見的服務，例如 SMS 訊息、Telegram 和 Discord。
+顯而易見的問題是，服務提供商（或破壞伺服器的駭客）可以隨時隨地訪問您的對話，而您永遠不會知道。 這適用於許多常見的服務，例如 SMS 訊息、Telegram 和 Discord。
 
 慶幸的是， E2EE 可以加密您與收件人之間的通信，甚至在訊息送到伺服器之前，緩解此問題。 假設服務提供商無法訪問任何一方的私鑰，您的訊息保密性得到保證。
 
@@ -143,7 +143,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 </div>
 
-即便使用 E2EE ，服務商仍然可以對**元數據**進行分析，這通常不受保護。 雖然服務提供商無法讀取您的訊息，但他們仍然可以觀察重要的事情，例如您正在與誰交談、傳送訊息的頻率以及使用活躍時段。 元數據的保護不多，如果它在您的 [威脅模型](threat-modeling.md) 中，就應該密切注意使用軟體的技術文檔，看看元數據是否最小化或任何保護。
+即便使用 E2EE ，服務商仍然可以對**元數據**進行分析，這通常不受保護。 雖然服務提供商無法讀取您的訊息，但他們仍然可以觀察重要的事情，例如您正在與誰交談、傳送訊息的頻率以及使用活躍時段。 元數據的保護不多，如果它在您的 [威脅模型](threat-modeling.md) 中，就應該密切注意使用軟體的技術說明，看看元數據是否最小化或任何保護。
 
 ## 大規模監控計劃
 
@@ -222,7 +222,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 </div>
 
-您必須考慮試圖繞過網路審查的風險、潛在的後果以及您的對手可能很經驗老道。 您應該謹慎選擇軟件，並制定備份計劃以防被抓住。
+您必須考慮試圖繞過網路審查的風險、潛在的後果以及您的對手可能很經驗老道。 您應該謹慎選擇軟體，並制定備份計劃以防被抓住。
 
 [^1]: 維基百科: [*大型監控*](https://en.wikipedia.org/wiki/Mass_surveillance) 與 [*監控*](https://en.wikipedia.org/wiki/Surveillance).
 [^2]: 美國隱私和公民自由監督委員會： [*根據第 215 條進行的電話記錄計劃的報告*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)

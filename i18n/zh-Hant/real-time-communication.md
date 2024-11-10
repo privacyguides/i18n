@@ -15,7 +15,7 @@ cover: real-time-communication.webp
 
 以上是我們對加密**即時通訊軟體**的建議。
 
-[通訊網絡 :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
+[通訊網路 :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
 
 ## 加密傳訊軟體
 

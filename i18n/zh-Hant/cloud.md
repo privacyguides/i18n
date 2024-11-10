@@ -13,7 +13,7 @@ cover: cloud.webp
 
 **許多雲端儲存提供商** 要求您完全信任他們不會查看您的檔案。 下面列出的替代方案通過實施安全的 E2EE，消除了對信任的需要。
 
-如果這些替代方案不符合您的需求，建議您考慮使用其他雲端提供商的加密軟件，例如 [Cryptomator](encryption.md#cryptomator-cloud) 。 把 Cryptomator 結合在 **任一種** 雲服務商(包含這裡推薦的) 也是好方法，可減低某服務商原生客戶端加密漏洞之風險。
+如果這些替代方案不符合您的需求，建議您考慮使用其他雲端提供商的加密軟體，例如 [Cryptomator](encryption.md#cryptomator-cloud) 。 把 Cryptomator 結合在 **任一種** 雲服務商(包含這裡推薦的) 也是好方法，可減低某服務商原生客戶端加密漏洞之風險。
 
 <details class="admonition info" markdown>
 <summary>尋找 Nextcloud?</summary>
@@ -84,7 +84,7 @@ Tresorit 已獲得多項獨立安全稽核：
     - Computest 發現了兩個已解決的漏洞。
 - [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture): Penetration Testing by Ernst & Young.
     - 該檢測分析了 Tresorit 完整源代碼，並驗證了落實 Tresorit [白皮書](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf)中描述的概念。
-    - Ernst & Young 還測試了網絡、行動和桌面客戶端： “測試結果發現沒有偏離 Tresorit 的資料機密性聲明。
+    - Ernst & Young 還測試了網路、行動和桌面客戶端： “測試結果發現沒有偏離 Tresorit 的資料機密性聲明。
 
 他們還獲得了數位信任標籤（Digital Trust Label），這是 [Swiss Digital Initiative](https://efd.admin.ch/en/swiss-digital-initiative-en) 發出的認證，要求通過[35 項](https://swiss-digital-initiative.org/criteria)與安全性、隱私性和可靠性相關的標準。
 

@@ -145,7 +145,7 @@ schema:
 <div class="admonition info" markdown>
 <p class="admonition-title">資訊</p>
 
-瀏覽器和作業系統所內置的密碼管理器常常不如專用密碼管理器軟體。 內建密碼管理器的優點在於與原生軟體的良好整合，但它通常功能較少，而且缺乏獨立產品所具有的隱私和安全特點。
+瀏覽器和作業系統所內建的密碼管理器常常不如專用密碼管理器軟體。 內建密碼管理器的優點在於與原生軟體的良好整合，但它通常功能較少，而且缺乏獨立產品所具有的隱私和安全特點。
 
 例如，Microsoft Edge 的密碼管理器根本不提供 E2EE。 Google的密碼管理員有 [optional](https://support.google.com/accounts/answer/11350823) 個E2EE ，而 [Apple](https://support.apple.com/HT202303)預設提供E2EE。
 

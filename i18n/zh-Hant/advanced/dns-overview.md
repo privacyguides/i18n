@@ -24,7 +24,7 @@ DNS 從網際網路的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
     ```
 
-2. 然後我們可以使用 [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) （ Linux ， MacOS 等）或 [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) （ Windows ）將 DNS查詢發送到兩個伺服器。 Web 瀏覽器等軟體會自動執行這些查詢，除非它們被配置為使用加密的DNS。
+2. 然後我們可以使用 [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) （ Linux ， MacOS 等）或 [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) （ Windows ）將 DNS查詢發送到兩個伺服器。 Web 瀏覽器等軟體會自動執行這些查詢，除非它們被設定為使用加密的DNS。
 
     === "Linux ， macOS"
 
@@ -380,9 +380,9 @@ QNAME 指 "合格域名"，例如 `discuss.privacyguides.net`. 過去，在解�
 
 ## 什麼是 EDNS 客戶端子網(ECS ) ？
 
-[EDNS Client Subnet](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) 是遞歸DNS 解析器為DNS 查詢的 [主機或客戶端](https://en.wikipedia.org/wiki/Client_(computing))，指定 [子網絡](https://en.wikipedia.org/wiki/Subnetwork) 的方法。
+[EDNS Client Subnet](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) 是遞歸DNS 解析器為DNS 查詢的 [主機或客戶端](https://en.wikipedia.org/wiki/Client_(computing))，指定 [子網路](https://en.wikipedia.org/wiki/Subnetwork) 的方法。
 
-它的目的是回答客戶端距離最靠近的伺服器以“加快”資料的傳遞，類似[內容傳遞網絡](https://en.wikipedia.org/wiki/Content_delivery_network)，後者通常用於視頻串流和 JavaScript Web 應用程序。
+它的目的是回答客戶端距離最靠近的伺服器以“加快”資料的傳遞，類似[內容傳遞網路](https://en.wikipedia.org/wiki/Content_delivery_network)，後者通常用於串流影片和 JavaScript Web 應用程式。
 
 此功能確實以隱私為代價，因為它會告訴 DNS伺服器一些有關客戶端位置的資訊。 例如，如果 IP 位址是 `198.51.100.32`，DNS 提供者可能會與權威伺服器共用 `198.51.100.0/24`。 一些 DNS 提供者透過大約鄰近位置的另一個 IP 位址來匿名化此資料。
 

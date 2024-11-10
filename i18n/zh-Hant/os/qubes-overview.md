@@ -31,9 +31,9 @@ Qubes 使用 [分區化](https://qubes-os.org/intro) 來確保系統安全。 Qu
 
 Qubes OS在主機作業系統上 利用 [dom0](https://wiki.xenproject.org/wiki/Dom0) Xen VM 來控制其他 *qubes* ，這些都在 dom0 的桌面環境中顯示個別的應用程式視窗。 這種類型的架構有很多用途。 以下是您可以執行的一些任務。 您可以看到通過合併多個步驟可以使過程更加安全。
 
-### 復制和黏貼文本
+### 複製和貼上文字
 
-可利用 `qvm-copy-to-vm` 或以下說明 [複製並貼上文本](https://qubes-os.org/doc/how-to-copy-and-paste-text) ：
+可利用 `qvm-copy-to-vm` 或以下說明 [複製並貼上文字](https://qubes-os.org/doc/how-to-copy-and-paste-text) ：
 
 1. 按 **Ctrl + C** 讓所在的 *qube* 複製某些內容。
 2. 按 **Ctrl + Shift + C** 讓 *qube* 將此緩衝區供全局剪貼板使用。
@@ -57,9 +57,9 @@ Qubes OS在主機作業系統上 利用 [dom0](https://wiki.xenproject.org/wiki/
 
 ## 透過 VPN 連接 Tor
 
-[建議](../advanced/tor-overview.md) 使用 [VPN](../vpn.md) 來連接 Tor 網絡，Qubes 可以很輕鬆地結合 ProxyVMs 與 Whonix 來操作。
+[建議](../advanced/tor-overview.md) 使用 [VPN](../vpn.md) 來連接 Tor 網路，Qubes 可以很輕鬆地結合 ProxyVMs 與 Whonix 來操作。
 
-[建立新的 ProxyVM](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) 並連接到所選的 VPN 後，可 **先將** Whonix qubes 串接至 ProxyVM 再連上 Tor 網絡，其做法是設置Whonix **閘道** (`sys-whonix`) 的 NetVM 為新建立的 ProxyVM。
+[建立新的 ProxyVM](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) 並連接到所選的 VPN 後，可 **先將** Whonix qubes 串接至 ProxyVM 再連上 Tor 網路，其做法是設定Whonix **閘道** (`sys-whonix`) 的 NetVM 為新建立的 ProxyVM。
 
 Qubes 設置大概像這樣：
 

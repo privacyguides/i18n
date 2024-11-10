@@ -67,7 +67,7 @@ Android 12:
 Android 13:
 
 - 同意 [鄰近的 Wi-Fi 存取](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). 附近 Wi-Fi 接入點的 MAC地址是應用程式跟蹤用戶位置的常用方式。
-- 更多 [細微媒體權限](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions)，這意味著您只能授予對圖像，視頻或音頻文件的存取權限。
+- 更多 [細微媒體權限](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions)，這意味著您只能授予對圖片，影片或音訊檔案的存取權限。
 - 傳感器的背景使用需要 [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission) 權限。
 
 應用程式可能會要求獲得特定功能的許可。 例如，任何可以掃描二維碼的應用程式都需要相機權限。 有些應用程式可能會要求超過所需的權限。
@@ -116,7 +116,7 @@ Android 13:
 
 ### VPN Killswitch
 
-Android 7 及以上版本支援 VPN kill switch，無需安裝第三方應用程式即可使用。 此功能可以防止VPN中斷連線時的洩漏。 它可以在 :gear: **設置** → **網路 & 網際網路** → **VPN** → :gear: → **區塊連接沒有 VPN**中找到。
+Android 7 及以上版本支援 VPN kill switch，無需安裝第三方應用程式即可使用。 此功能可以防止VPN中斷連線時的洩漏。 它可以在 :gear: **設定** → **網路 & 網際網路** → **VPN** → :gear: → **區塊連接沒有 VPN**中找到。
 
 ### 全局切換
 

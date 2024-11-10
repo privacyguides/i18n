@@ -210,7 +210,7 @@ Tails Tor 瀏覽器預設包含 [uBlock Origin](browser-extensions.md#ublock-ori
 
 </div>
 
-Qubes OS 作業系統將子系統（例如網絡、USB等）和應用程式隔離在個別的 *qubes* 以保護電腦。 如果系統的某個部分遭受 [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} ，額外的隔離可能會保護其他的 *qubes* 和核心系統。
+Qubes OS 作業系統將子系統（例如網路、USB等）和應用程式隔離在個別的 *qubes* 以保護電腦。 如果系統的某個部分遭受 [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} ，額外的隔離可能會保護其他的 *qubes* 和核心系統。
 
 有關 Oubes 運作的進一步資訊，請參考我們完整的 [Qubes OS 介紹](os/qubes-overview.md) 頁面。
 

@@ -5,7 +5,7 @@ description: 網站貢獻者在提出網站變更請求時，關於如何給出�
 
 對於我們的提交訊息，我們遵循 [Conventional Commits](https://conventionalcommits.org) 所提供的樣式。 並非所有這些建議都適合 Privacy Guides，因此我們使用的主要建議有：
 
-## 更新現有文本
+## 更新現有文字
 
 此範例可用於網站中已存在的項目，但包括描述的小更新。
 

@@ -100,7 +100,7 @@ DivestOS 也實現了一些最初專為 GrapheneOS 開發的系統加固補丁�
 
 DivestOS 使用 F-Droid 作為其預設應用程式商店。 我們通常 [建議避免使用 F-Droid](obtaining-apps.md#f-droid) ，但在 DivestOS 上這樣做是不可行的；開發人員透過自己的 F-Droid 儲存庫：[DivestOS Official](https://divestos.org/fdroid/official) 來更新他們的應用程式。 對於這些應用程式，您應該繼續使用 F-Droid ＋ **DivestOS 儲存庫** ，以保持這些元件為最新。 對於其他應用程式，我們推薦的 [應用程式獲取途徑](obtaining-apps.md) 仍然適用。
 
-DivestOS 以替代服務取代 Android 與 Google 服務的許多背景網路連線，例如使用 OpenEUICC 來啟動 eSIM；使用 NTP.org 來設定網路時間；以及使用 Quad9 來設定 DNS。 這些連線可以修改，但它們與標準 Android 手機的網路連線不同，可能意味著您所使用的網路中的對手更容易推測出您手機上安裝的作業系統。 如果您擔心這一點，請考慮使用 [受信任的 VPN](../vpn.md) 並啟用本機 VPN [kill switch](../os/android-overview.md#vpn-killswitch) 來對您的本機網路和 ISP 隱藏此網路流量。
+DivestOS 以替代服務取代 Android 與 Google 服務的許多背景網路連線，例如使用 OpenEUICC 來啟動 eSIM；使用 NTP.org 來設定網路時間；以及使用 Quad9 來設定 DNS。 這些連線可以修改，但它們與標準 Android 手機的網路連線不同，可能意味著您所使用的網路中的對手更容易推測出您手機上安裝的作業系統。 如果您擔心這一點，請考慮使用 [受信任的 VPN](../vpn.md) 並啟用本機 VPN [kill switch](../os/android-overview.md#vpn-killswitch) 來對您的區域網路和 ISP 隱藏此網路流量。
 
 ## 標準
 

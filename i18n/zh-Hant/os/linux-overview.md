@@ -77,7 +77,7 @@ description: Linux 是一種開放原始碼、注重隱私的桌面作業系統�
 此外，我們特別**反推薦**這兩個 Arch 衍生品：
 
 - **Manjaro**: 此發行版將軟體套件保留 2週，以確保不會破壞他們自己的修改，而不是確保上游的穩定。 使用AUR軟體套件時，通常是根據 Arch 軟體庫中最新的 [存放庫構建](https://en.wikipedia.org/wiki/Library_(computing))。
-- **Garuda**: 他們使用 [Chaotic-AUR](https://aur.chaotic.cx) ，會自動地從 AUR 編譯軟件套件。 沒有驗證程序去確保 AUR 套件不會受到供應鏈攻擊。
+- **Garuda**: 他們使用 [Chaotic-AUR](https://aur.chaotic.cx) ，會自動從 AUR 編譯軟體套件。 沒有驗證程序去確保 AUR 套件不會受到供應鏈攻擊。
 
 ### Linux-libre 內核與 “Libre” 發行版
 
@@ -142,7 +142,7 @@ Linux 發行版，如 [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) �
 
 如果使用 [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components)，則需要設定 [`MACAddressPolicy=random`](https://freedesktop. org/software /systemd/man/systemd.link.html#MACAddressPolicy=) 這將啟用[RFC 7844（DHCP 用戶端的匿名設定檔）](https://freedesktop.org/software/ systemd/man /systemd.network.html#Anonymize=)。
 
-MAC 地址隨機化主要有利於 Wi-Fi 連接。 對以太網連接，隨機化 MAC 地址幾乎沒什麼好處（如果有的話），因為網絡管理員可以通過其他方式輕鬆識別您的設備（例如檢查您在網絡交換機上連接的端口）。 隨機化 Wi-Fi MAC 地址必須有 Wi-Fi 靭體支持。
+MAC 地址隨機化主要有利於 Wi-Fi 連接。 對於乙太網路連接，隨機化 MAC 位址幾乎沒什麼好處(如果有的話)，因為網路管理員可以通過其他方式輕鬆識別您的裝置(例如檢查您在網路交換機上連接的端口)。 隨機化 Wi-Fi MAC 地址必須有 Wi-Fi 靭體支持。
 
 ### 其他標識符
 

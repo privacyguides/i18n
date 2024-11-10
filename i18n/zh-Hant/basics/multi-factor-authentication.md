@@ -32,7 +32,7 @@ TOTP 是最常見的 MFA 形式之一。 當您設置TOTP時，您通常需要�
 
 如果持有支援 TOTP 的硬體安全金鑰（例如具有 [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)的YubiKey ），建議將「共享機密」儲存在硬體上。 像 YubiKey 這類硬體就是為了讓“共享祕密”難以提取、複製而開發的工具。 YubiKey 也不會連接到網際網路，不像使用 TOTP 應用程式的手機。
 
-與 [WebAuthn](#fido-fast-identity-online)不同， TOTP 無法應對 [網絡釣魚](https://en.wikipedia.org/wiki/Phishing) 或重複使用攻擊。 如果對手從您身上取得有效的登錄碼，他們可以隨意多次使用它，直到過期（通常是60秒）。
+與 [WebAuthn](#fido-fast-identity-online)不同， TOTP 無法應對 [網路釣魚](https://en.wikipedia.org/wiki/Phishing) 或重複使用攻擊。 如果對手從您身上取得有效的登錄碼，他們可以隨意多次使用它，直到過期（通常是60秒）。
 
 對手可以建立一個網站來模仿官方服務，試圖欺騙你提供你的用戶名，密碼和當前的 TOTP 代碼。 如果對手使用這些記錄的憑證，他們可能能夠登錄到真正的服務並劫持帳戶。
 
