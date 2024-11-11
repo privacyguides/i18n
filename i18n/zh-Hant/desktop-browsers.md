@@ -73,10 +73,10 @@ schema:
 
 **Mullvad 瀏覽器** 是移除 Tor 網路整合的 [Tor 瀏覽器](tor.md#tor-browser) 版本。 它的目的是提供為 VPN 使用者提供 Tor 瀏覽器的反指紋瀏覽器技術，這些技術是對抗 [:material-eye-outline: 大規模監控](basics/common-threats.md#mass-surveillance-programs){ .pg-blue } 的重要保護措施。 它由 Tor 計劃開發，並由 [Mullvad](vpn.md#mullvad)發布，而且 **不需要** 使用 Mullvad 的 VPN。
 
-[:octicons-home-16: 首頁](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title="文檔" }
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="原始碼" }
+[:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title="Documentation" }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -119,11 +119,11 @@ Mullvad 瀏覽器 將 DuckDuckGo 設為預設的[搜尋引擎](search-engines.md
 
 **Firefox** 提供強大的隱私設定，例如 [加強型追蹤保護功能](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop)，可以幫助阻擋各種[類型的追蹤](https://support.mozilla.org/zh-TW/kb/enhanced-tracking-protection-firefox-desktop#w_jia-qiang-xing-zhui-zong-bao-hu-gong-neng-hui-feng-suo-shi-mo)。
 
-[:octicons-home-16: 首頁](https://firefox.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title="文檔" }
-[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="捐贈" }
+[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title="Documentation" }
+[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -185,6 +185,8 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 - [ ] 取消勾選 **允許 Firefox 安裝並進行研究**
 - [ ] 取消勾選 **允許 Firefox 以您的身分自動回報錯誤報告**
 
+According to Mozilla's privacy policy for Firefox,
+
 > Firefox 會向 Mozilla 發送以下數據：您的 Firefox 版本和語言；操作系統和硬體配置；記憶體、關於崩潰和錯誤的基本訊息；更新、安全瀏覽和啟動等自動化流程系統的結果。 當 Firefox 向 Mozilla 發送數據時，會將您的 IP 位址作為伺服器日誌的一部份暫時收集。
 
 此外，Mozilla 帳戶服務也收集[一些技術資料](https://mozilla.org/privacy/mozilla-accounts)。 如果有使用 Mozilla 帳戶，您可以選擇退出。
@@ -227,7 +229,7 @@ Firefox 128 發佈時，新增了一個[尊重隱私的成效測量](https://sup
 
 [Arkenfox 專案](https://github.com/arkenfox/user.js) 為 Firefox 提供一套經過精心考量的設定。 如果您[決定](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not)使用 Arkenfox，有[幾個選項](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common])可能在主觀上會較為嚴格，且/或可能導致某些網站無法正常運作，不過您可以[輕鬆更改](https://github.com/arkenfox/user.js/wiki/3.1-Overrides)這些選項，以滿足您的需求。 我們**強烈建議**完整閱讀他們的 [Wiki 頁面](https://github.com/arkenfox/user.js/wiki)。 Arkenfox 也支援[容器](https://support.mozilla.org/kb/containers#w_for-advanced-users)功能。
 
-Arkenfox 的目標旨在透過 Canvas 隨機化和 Firefox 內建的抗指紋設定來阻止基本或簡單的追蹤腳本。 它的目的不是讓您的瀏覽器與其他許多使用 Arkenfox 的使用者混在一起，那是 Mullvad 瀏覽器或 Tor 瀏覽器的作法，也是阻止進階指紋跟蹤腳本的唯一方法。 請記得，您可以隨時使用多個瀏覽器，例如，您可以考慮在需要保持登入或可以信任的幾個網站使用 Firefox + Arkenfox，而在一般瀏覽時則使用 Mullvad 瀏覽器。
+Arkenfox 的目標旨在透過 Canvas 隨機化和 Firefox 內建的抗指紋設定來阻止基本或簡單的追蹤腳本。 它的目的不是讓您的瀏覽器與其他許多使用 Arkenfox 的使用者混在一起，那是 Mullvad 瀏覽器或 Tor 瀏覽器的作法，也是阻止進階指紋跟蹤腳本的唯一方法。 Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
 
 ## Brave
 
@@ -239,11 +241,11 @@ Arkenfox 的目標旨在透過 Canvas 隨機化和 Firefox 內建的抗指紋設
 
 Brave 基於 Chromium 瀏覽器專案構建，因此使用起來應該會感到熟悉，並且網站相容性問題最小。
 
-[:octicons-home-16: 首頁](https://brave.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="洋蔥服務" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title="文檔" }
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="原始碼" }
+[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -325,7 +327,7 @@ Brave 允許您在內部網頁 brave://settings/shields/filters 內選擇額外�
 
 ##### Tor 視窗
 
-[**使用 Tor 的隱私視窗**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity)允許您在私人視窗中透過 Tor 網路路由流量，並存取 .onion 服務，這在某些情況下可能很有用。 不過，Brave 對指紋辨識的抵抗力**不如**Tor 瀏覽器，而且將 Brave 與 Tor 配合使用的人少得多，因此您會脫穎而出。 如果您的威脅模式需要極高的匿名性，請使用[Tor 瀏覽器](tor.md#tor-browser)。
+[**使用 Tor 的隱私視窗**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity)允許您在私人視窗中透過 Tor 網路路由流量，並存取 .onion 服務，這在某些情況下可能很有用。 However, Brave is **not** as resistant to fingerprinting as the Tor Browser is, and far fewer people use Brave with Tor, so you will stand out. 如果您的威脅模式需要極高的匿名性，請使用[Tor 瀏覽器](tor.md#tor-browser)。
 
 ##### 資料集合
 
@@ -343,6 +345,12 @@ Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 除非�
 #### 擴充功能
 
 - [ ] 取消勾選所有您用不到的內建擴充功能
+
+#### Search engine
+
+We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
+
+- [ ] 取消勾選 **顯示搜尋建議**
 
 #### 系統
 
@@ -384,7 +392,7 @@ Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 除非�
 
 - 應該要內建內容攔截功能。
 - 支援 Cookie 區隔 (就像[多帳號容器](https://support.mozilla.org/kb/containers)一樣)。
-- 支援漸進式網路應用程式。 PWA 使您能夠將某些網站安裝為在您的電腦上，像本機應用程式一樣運行。 這可能比安裝基於 Electron 的應用程式更有優勢，因為您可以受益於瀏覽器的定期安全更新。
+- Should support Progressive Web Apps (PWAs). PWA 使您能夠將某些網站安裝為在您的電腦上，像本機應用程式一樣運行。 This can have advantages over installing Electron-based apps because PWAs benefit from your browser's regular security updates.
 - 不包括對使用者隱私沒有影響的附加功能 (bloatware)。
 - 預設情況下不應收集遙測。
 - 提供開源同步伺服器實作。

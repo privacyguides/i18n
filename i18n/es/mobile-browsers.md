@@ -54,11 +54,11 @@ Estos son nuestros **navegadores web para móviles** y configuraciones recomenda
 
 Brave se basa en el proyecto de navegador web Chromium, por lo que debería resultar familiar y tener mínimos problemas de compatibilidad con sitios web.
 
-[:octicons-home-16: Página Principal](https://brave.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Servicio Onion" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Politica de Privacidad" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Código Fuente" }
+[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -180,6 +180,12 @@ Estas opciones se encuentran en :material-menu: → **Configuración** → **Leo
 
 1. Esta opción no está presente en la aplicación de Brave para iOS.
 
+### Search engines
+
+These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
+
+- [ ] Desmarca **Mostrar sugerencias de búsqueda**
+
 ### Brave Sync
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) permite que tus datos de navegación (historial, favoritos, etc.) sean accesibles en todos tus dispositivos sin necesidad de tener una cuenta y los protege con E2EE.
@@ -192,10 +198,10 @@ Estas opciones se encuentran en :material-menu: → **Configuración** → **Leo
 
 **Mull** es un navegador para Android orientado a la privacidad y depurado, basado en Firefox. A comparación con Firefox, este ofrece una protección mayor contra las huellas digitales y desactiva la compilación Just-In-Time (JIT) de JavaScript para mejorar la seguridad. Este también elimina todos los elementos propietarios de Firefox, como el reemplazo de las referencias a los Servicios de Google Play.
 
-[:octicons-home-16: Página principal](https://divestos.org/pages/our_apps#mull){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://divestos.org/pages/privacy_policy){ .card-link title="Política de privacidad" }
-[:octicons-info-16:](https://divestos.org/pages/browsers#tuningFenix){ .card-link title=Documentación }
-[:octicons-code-16:](https://codeberg.org/divested-mobile/mull-fenix){ .card-link title="Código fuente" }
+[:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#mull){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://divestos.org/pages/privacy_policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://divestos.org/pages/browsers#tuningFenix){ .card-link title="Documentation" }
+[:octicons-code-16:](https://codeberg.org/divested-mobile/mull-fenix){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Descargas</summary>
@@ -235,9 +241,9 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 **Safari** es el navegador predeterminado en iOS. Incluye [funciones de privacidad](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) como [Prevención Inteligente de Rastreo](https://webkit.org/blog/7675/intelligent-tracking-prevention), pestañas aisladas y efímeras de Navegación Privada, protección de huellas digitales (presentando una versión simplificada de la configuración del sistema a los sitios web para que más dispositivos parezcan idénticos) y aleatorización de huellas digitales, así como Relay Privado para quienes tengan una suscripción de pago a iCloud+.
 
-[:octicons-home-16: Página Principal](https://apple.com/safari){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title=Documentación}
+[:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title="Documentation" }
 
 </details>
 
