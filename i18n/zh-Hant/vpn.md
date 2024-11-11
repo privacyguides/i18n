@@ -33,11 +33,11 @@ global:
 
 我們推薦的供應商使用加密技術，支援 WireGuard & OpenVPN，並有無記錄政策。 閱讀我們[完整的標準清單](#criteria)，瞭解更多資訊。
 
-| 供應商                   | 國家   | WireGuard                     | 端口轉發                                                   | IPv6                                                       | 匿名支付      |
-| --------------------- | ---- | ----------------------------- | ------------------------------------------------------ | ---------------------------------------------------------- | --------- |
-| [Proton](#proton-vpn) | 112+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Partial Support | :material-information-outline:{ .pg-blue } Limited Support | 現金        |
-| [IVPN](#ivpn)         | 37+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-information-outline:{ .pg-blue } 僅限連出流量          | Monero、現金 |
-| [Mullvad](#mullvad)   | 45+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-check:{ .pg-green }                              | Monero、現金 |
+| 供應商                   | 國家   | WireGuard                     | 端口轉發                                        | IPv6                                              | 匿名支付      |
+| --------------------- | ---- | ----------------------------- | ------------------------------------------- | ------------------------------------------------- | --------- |
+| [Proton](#proton-vpn) | 112+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } 部分支援 | :material-information-outline:{ .pg-blue } 有限支援   | 現金        |
+| [IVPN](#ivpn)         | 37+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-information-outline:{ .pg-blue } 僅限連出流量 | Monero、現金 |
+| [Mullvad](#mullvad)   | 45+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-check:{ .pg-green }                     | Monero、現金 |
 
 ### Proton VPN
 
@@ -53,7 +53,7 @@ global:
 [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1437005085)
@@ -93,9 +93,9 @@ Proton VPN 支援 WireGuard® 協議。 [WireGuard](https://wireguard.com/protoc
 
 Proton VPN [推薦](https://protonvpn.com/blog/wireguard)搭配 WireGuard 使用。 在 Proton VPN 的 Windows、macOS、iOS、Android、ChromeOS 以及 Android TV 等平台的應用程式中，WireGuard 已是預設協議；然而， Linux 作業系統的應用程式[尚未支援](https://protonvpn.com/support/how-to-change-vpn-protocols)此協議。
 
-#### :material-alert-outline:{ .pg-orange } Limited IPv6 Support
+#### :material-alert-outline:{ .pg-orange } 有限的 IPv6 支援
 
-Proton [now supports IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks) in their browser extension but only 80% of their servers are IPv6-compatible. On other platforms, the Proton VPN client will block all outgoing IPv6 traffic, so you don't have to worry about your IPv6 address being leaked, but you will not be able to connect to any IPv6-only sites, nor will you be able to connect to Proton VPN from an IPv6-only network.
+Proton 現在在其瀏覽器擴充套件中 [支援 IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks)，但只有 80% 的伺服器相容於 IPv6。 在其他平台上，Proton VPN 客戶端會封鎖所有 IPv6 流量，因此您不必擔心您的 IPv6 位址會被洩漏，但您將無法連線到任何僅允許使用 IPv6 訪問的網站，也無法從僅限 IPv6 的網路連線到 Proton VPN。
 
 #### :material-information-outline:{ .pg-info } 遠端端口轉發
 
@@ -183,7 +183,7 @@ IVPN 曾支援遠端端口轉發，但在 [2023 年 6 月](https://ivpn.net/blog
 
 #### :material-check:{ .pg-green } 突破網路審查
 
-IVPN has obfuscation modes using [v2ray](https://v2ray.com/en/index.html) which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. 此功能目前僅支援桌機版與 [iOS](https://ivpn.net/knowledgebase/ios/v2ray)。 可透過 QUIC 或 TCP 兩種模式連接 [VMess](https://guide.v2fly.org/en_US/basics/vmess.html)。 QUIC 是一個新的傳輸協議，具有更好的擁塞控管，因此可能速度更快，且延遲更低。 TCP 模式的數據呈現為一般的 HTTP 流量。
+IVPN 具有使用 [v2ray](https://v2ray.com/en/index.html) 的混淆模式，這有助於在 OpenVPN 或 WireGuard 等 VPN 協定遭到封鎖時繞過審查。 此功能目前僅支援 電腦版 與 [iOS](https://ivpn.net/knowledgebase/ios/v2ray) 版。 可透過 QUIC 或 TCP 兩種模式連接 [VMess](https://guide.v2fly.org/en_US/basics/vmess.html)。 QUIC 是一個新的傳輸協議，具有更好的擁塞控制，因此可能速度更快，且延遲更低。 TCP 模式的數據呈現為一般的 HTTP 流量。
 
 #### :material-check:{ .pg-green } 行動裝置客戶端
 
@@ -199,7 +199,7 @@ IVPN 用戶端支援雙因子身份驗證。 IVPN 有「[反追蹤](https://ivpn
 
 ![Mullvad 標誌](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** 是一個快速且便宜的 VPN，非常注重透明和安全性。 他們自 2009 年起開始營運。 Mullvad is based in Sweden and offers a 30-day money-back guarantee for payment methods that allow it.
+**Mullvad** 是一個快速且便宜的 VPN，非常注重透明和安全性。 他們自 2009 年起開始營運。 Mullvad 位於瑞典，提供 30 天退款保證（前提是您的付款方式允許）。
 
 [:octicons-home-16: 首頁](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="洋蔥服務" }
@@ -248,7 +248,7 @@ Mullvad 在其 [GitHub 組織](https://github.com/mullvad/mullvadvpn-app) 中提
 
 #### :material-check:{ .pg-green } 接受現金和 Monero
 
-除了接受信用卡/簽帳卡和 PayPal 外， Mullvad 還接受比特幣, Bitcoin Cash **Monero** 和 **現金/當地貨幣** （年度方案繳費）作為匿名付款方式。 也提供帶有兌換代碼的預付卡。 Mullvad also accepts Swish and bank wire transfers, as well as a few European payment systems.
+除了接受信用卡/簽帳卡和 PayPal 外， Mullvad 還接受比特幣, Bitcoin Cash **Monero** 和 **現金/當地貨幣** （年度方案繳費）作為匿名付款方式。 也提供帶有兌換代碼的預付卡。 Mullvad 也接受 Swish 和銀行電匯，以及一些歐洲的付款系統。
 
 #### :material-check:{ .pg-green } 支援 WireGuard
 
