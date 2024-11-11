@@ -66,7 +66,7 @@ Yubico 驗證伺服器是雲端服務，您把信任託付給  Yubico 相信他�
 
 [FIDO ](https://en.wikipedia.org/wiki/FIDO_Alliance) 包含許多標準，首先是U2F ，然後是 [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project) ，其中包括 Web 標準 [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn)。
 
-U2F 和 FIDO2 指的是 [Client to Authenticator Protocol](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol)，這是安全金鑰和電腦之間的協議，例如筆記本電腦或手機。 它補充了 WebAuthn ， WebAuthn 為驗證網站登錄（ “依賴方” ）之組件。
+U2F 和 FIDO2 指的是 [Client to Authenticator Protocol](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol)，這是安全金鑰和電腦之間的協議，例如筆記型電腦或手機。 它補充了 WebAuthn ， WebAuthn 為驗證網站登錄（ “依賴方” ）之組件。
 
 WebAuthn是最安全、最私密的第二要素驗證形式。 雖然驗證體驗與 Yubico OTP 類似，但密鑰不會打印出一次性密碼也不會使用第三方伺服器進行驗證。 相反，它使用 [公鑰加密](https://en.wikipedia.org/wiki/Public-key_cryptography) 進行驗證。
 
