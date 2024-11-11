@@ -10,7 +10,7 @@ cover: encryption.webp
 
 ## Multi-platform
 
-De hier genoemde opties zijn multiplatform en zeer geschikt voor het maken van versleutelde back-ups van jouw gegevens.
+The options listed here are available on multiple platforms and great for creating encrypted backups of your data.
 
 ### Cryptomator (Cloud)
 
@@ -115,21 +115,21 @@ Bij het versleutelen met VeraCrypt heb je de keuze uit verschillende [hashfuncti
 
 Truecrypt is [een aantal keer gecontroleerd](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), en VeraCrypt is ook [apart gecontroleerd](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
 
-## OS Volledige Schijfversleuteling
+## Operating System Encryption
 
 <small>Protects against the following threat(s):</small>
 
 - [:material-target-account: Gerichte aanvallen](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
-For encrypting the drive your operating system boots from, we generally recommend enabling the encryption software that comes with your operating system rather than using a third-party tool. This is because your operating system's native encryption tools often make use of OS and hardware-specific features like the [secure cryptoprocessor](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) in your device to protect your computer against more advanced physical attacks. For secondary drives and external drives which you *don't* boot from, we still recommend using open-source tools like [VeraCrypt](#veracrypt-disk) over the tools below, because they offer additional flexibility and let you avoid vendor lock-in.
+Built-in OS encryption solutions generally leverage hardware security features such as a [secure cryptoprocessor](basics/hardware.md#tpmsecure-cryptoprocessor). Therefore, we recommend using the built-in encryption solutions for your operating system. For cross-platform encryption, we still recommend [cross-platform tools](#multi-platform) for additional flexibility and to avoid vendor lock-in.
 
 ### BitLocker
 
 <div class="admonition recommendation" markdown>
 
-![BitLocker-logo](assets/img/encryption-software/bitlocker.png){ align=right }
+![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }
 
-**BitLocker** is de oplossing voor volledige volume-encryptie die met Microsoft Windows wordt meegeleverd. The main reason we recommend it for encrypting your boot drive is because of its [use of TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, a forensics company, has written about this feature in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection).
+**BitLocker** is the full volume encryption solution bundled with Microsoft Windows that uses the Trusted Platform Module ([TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm)) for hardware-based security.
 
 [:octicons-info-16:](https://learn.microsoft.com/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title="Documentation" }
 
@@ -137,7 +137,7 @@ For encrypting the drive your operating system boots from, we generally recommen
 
 </div>
 
-BitLocker is [only supported](https://support.microsoft.com/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) on Pro, Enterprise and Education editions of Windows. Het kan worden ingeschakeld op Home-edities, mits deze aan de voorwaarden voldoen.
+BitLocker is [officially supported](https://support.microsoft.com/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) on the Pro, Enterprise, and Education editions of Windows. It can be enabled on Home editions provided that they meet the following prerequisites.
 
 <details class="example" markdown>
 <summary>Enabling BitLocker on Windows Home</summary>
@@ -187,7 +187,7 @@ To enable BitLocker on "Home" editions of Windows, you must have partitions form
 
 ![FileVault-logo](assets/img/encryption-software/filevault.png){ align=right }
 
-**FileVault** is de in macOS ingebouwde oplossing voor volumeversleuteling tijdens het filteren. FileVault wordt aanbevolen omdat het [leverages](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web) hardware beveiligingsmogelijkheden biedt die aanwezig zijn op een Apple silicium SoC of T2 Security Chip.
+**FileVault** is de in macOS ingebouwde oplossing voor volumeversleuteling tijdens het filteren. FileVault takes advantage of the [hardware security capabilities](os/macos-overview.md#hardware-security) present on an Apple silicon SoC or T2 Security Chip.
 
 [:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title="Documentation" }
 
@@ -195,7 +195,7 @@ To enable BitLocker on "Home" editions of Windows, you must have partitions form
 
 </div>
 
-Wij raden je aan een lokale herstelsleutel op een veilige plaats op te slaan in plaats van uw iCloud-account te gebruiken voor herstel.
+We advise against using your iCloud account for recovery; instead, you should securely store a local recovery key on a separate storage device.
 
 ### Linux Unified Key Setup
 
@@ -377,7 +377,7 @@ We suggest [Canary Mail](email-clients.md#canary-mail-ios) for using PGP with em
 
 ![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }
 
-**GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail-macos) and macOS.
+**GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail-macos) and other email clients on macOS.
 
 We recommend taking a look at their [First steps](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) and [Knowledge Base](https://gpgtools.tenderapp.com/kb) for support.
 
@@ -395,15 +395,15 @@ We recommend taking a look at their [First steps](https://gpgtools.tenderapp.com
 
 </div>
 
-Currently, GPG Suite does [not yet](https://gpgtools.com/sonoma) have a stable release for macOS Sonoma.
+Currently, GPG Suite does [not yet](https://gpgtools.com/sequoia) have a stable release for macOS Sonoma and later.
 
 ### OpenKeychain
 
 <div class="admonition recommendation" markdown>
 
-![OpenKeychain-logo](assets/img/encryption-software/openkeychain.svg){ align=right }
+![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
 
-**OpenKeychain** is een Android implementatie van GnuPG. It's commonly required by mail clients such as [Thunderbird](email-clients.md#thunderbird) and [FairEmail](email-clients.md#fairemail-android) and other Android apps to provide encryption support. Cure53 completed a [security audit](https://openkeychain.org/openkeychain-3-6) of OpenKeychain 3.6 in October 2015. Technische details over de audit en OpenKeychain's oplossingen zijn te vinden op [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
+**OpenKeychain** is an implementation of GnuPG for Android. It's commonly required by mail clients such as [Thunderbird](email-clients.md#thunderbird), [FairEmail](email-clients.md#fairemail-android), and other Android apps to provide encryption support.
 
 [:octicons-home-16: Homepage](https://openkeychain.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }
@@ -418,6 +418,8 @@ Currently, GPG Suite does [not yet](https://gpgtools.com/sonoma) have a stable r
 </details>
 
 </div>
+
+Cure53 completed a [security audit](https://openkeychain.org/openkeychain-3-6) of OpenKeychain 3.6 in October 2015. The published audit and OpenKeychain's solutions to the issues raised in the audit can be found [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
 
 ## Criteria
 

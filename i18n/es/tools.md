@@ -399,13 +399,15 @@ Si busca más **seguridad**, asegúrese siempre de conectarse a sitios web que u
 ### Software de Cifrado
 
 <details class="info" markdown>
-<summary>Cifrado de Disco del Sistema Operativo</summary>
+<summary>Operating System Encryption</summary>
 
-Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar cualquier herramienta de cifrado que proporcione su sistema operativo, ya sea **BitLocker** en Windows, **FileVault** en macOS o **LUKS** en Linux. Estas herramientas están incluidas en el sistema operativo y suelen utilizar elementos de cifrado por hardware, como un TPM, que otros programas de cifrado de disco completo, como VeraCrypt, no utilizan. VeraCrypt sigue siendo adecuado para los discos que no son del sistema operativo, como las unidades externas, especialmente las unidades a las que se puede acceder desde varios sistemas operativos.
+For encrypting your OS drive, we typically recommend using the encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and take advantage of hardware encryption elements such as a [secure cryptoprocessor](basics/hardware.md/#tpmsecure-cryptoprocessor).
 
-[Más información :material-arrow-right-drop-circle:](encryption.md#os-full-disk-encryption)
+[Más información :material-arrow-right-drop-circle:](encryption.md#operating-system-encryption)
 
 </details>
+
+#### Cross-platform Tools
 
 <div class="grid cards" markdown>
 
@@ -419,7 +421,7 @@ Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar
 
 [Más información :material-arrow-right-drop-circle:](encryption.md)
 
-#### Clientes OpenPGP
+#### OpenPGP Clients
 
 <div class="grid cards" markdown>
 
@@ -595,7 +597,7 @@ Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar
 
 ### Móvil
 
-#### Sistemas Operativos Android Personalizados
+#### Custom Android Operating Systems
 
 <div class="grid cards" markdown>
 
@@ -606,7 +608,7 @@ Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar
 
 [Más información :material-arrow-right-drop-circle:](android/distributions.md)
 
-#### Aplicaciones de Android
+#### Android Apps
 
 <div class="grid cards" markdown>
 
@@ -618,7 +620,7 @@ Para cifrar la unidad de su sistema operativo, normalmente recomendamos utilizar
 
 [Más información :material-arrow-right-drop-circle:](android/general-apps.md)
 
-#### Formas de Obtener Aplicaciones para Android
+#### Ways to Obtain Android Apps
 
 <div class="grid cards" markdown>
 

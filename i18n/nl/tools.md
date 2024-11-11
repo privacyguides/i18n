@@ -398,13 +398,15 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 ### Encryptie Software
 
 <details class="info" markdown>
-<summary>Operating System Disk Encryption</summary>
+<summary>Operating System Encryption</summary>
 
-For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. Deze tools worden meegeleverd met het besturingssysteem en maken doorgaans gebruik van hardware-encryptie-elementen zoals een TPM, die andere software voor volledige schijfversleuteling, zoals VeraCrypt, niet gebruiken. VeraCrypt is nog steeds geschikt voor schijven die niet op een besturingssysteem werken, zoals externe schijven, vooral schijven die vanuit meerdere besturingssystemen kunnen worden benaderd.
+For encrypting your OS drive, we typically recommend using the encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and take advantage of hardware encryption elements such as a [secure cryptoprocessor](basics/hardware.md/#tpmsecure-cryptoprocessor).
 
-[Meer informatie :material-arrow-right-drop-circle:](encryption.md#os-full-disk-encryption)
+[Meer informatie :material-arrow-right-drop-circle:](encryption.md#operating-system-encryption)
 
 </details>
+
+#### Cross-platform Tools
 
 <div class="grid cards" markdown>
 
@@ -418,7 +420,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 [Meer informatie :material-arrow-right-drop-circle:](encryption.md)
 
-#### OpenPGP-clients
+#### OpenPGP Clients
 
 <div class="grid cards" markdown>
 

@@ -398,13 +398,15 @@ Se stai cercando maggiore **sicurezza**, dovresti sempre assicurarti di connette
 ### Software di crittografia
 
 <details class="info" markdown>
-<summary>Crittografia del disco del sistema operativo</summary>
+<summary>Operating System Encryption</summary>
 
-Per crittografare l'unità del sistema operativo, in genere si consiglia di utilizzare qualsiasi strumento di crittografia fornito dal sistema operativo, che si tratti di **BitLocker** su Windows, **FileVault** su macOS o **LUKS** su Linux. Questi strumenti sono inclusi con il sistema operativo e, tipicamente, utilizzano elementi crittografici hardware come TPM, a differenza di altri software crittografici a disco intero, come VeraCrypt. VeraCrypt è comunque adatto a dischi senza sistema operativo come le unità esterne, in particolare quelle a cui si può accedere da più sistemi operativi.
+For encrypting your OS drive, we typically recommend using the encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and take advantage of hardware encryption elements such as a [secure cryptoprocessor](basics/hardware.md/#tpmsecure-cryptoprocessor).
 
-[Scopri di più :material-arrow-right-drop-circle:](encryption.md#os-full-disk-encryption)
+[Scopri di più :material-arrow-right-drop-circle:](encryption.md#operating-system-encryption)
 
 </details>
+
+#### Cross-platform Tools
 
 <div class="grid cards" markdown>
 
@@ -418,7 +420,7 @@ Per crittografare l'unità del sistema operativo, in genere si consiglia di util
 
 [Scopri di più :material-arrow-right-drop-circle:](encryption.md)
 
-#### Client OpenPGP
+#### OpenPGP Clients
 
 <div class="grid cards" markdown>
 
@@ -605,7 +607,7 @@ Per crittografare l'unità del sistema operativo, in genere si consiglia di util
 
 [Scopri di più :material-arrow-right-drop-circle:](android/distributions.md)
 
-#### Applicazioni Android
+#### Android Apps
 
 <div class="grid cards" markdown>
 

@@ -122,7 +122,7 @@ Apple 的 OCSP 服務使用 HTTPS 加密，因此只有他們能夠看到您開�
 
 ##### FileVault
 
-在具有安全隔離區（Apple T2 安全晶片、Apple 晶片）的現代裝置上，您的數據會保持加密。如果裝置未偵測到數據遭篡改，則會通過硬體金鑰自動解密。 啟用 FileVault 還需要輪入密碼來解密資料，大大提高了安全性，尤其是在關機時或開機後首次登錄時。
+在具有安全隔離區（Apple T2 安全晶片、Apple 晶片）的現代裝置上，您的數據會保持加密。如果裝置未偵測到數據遭篡改，則會通過硬體金鑰自動解密。 Enabling [FileVault](../encryption.md#filevault) additionally requires your password to decrypt your data, greatly improving security, especially when powered off or before the first login after powering on.
 
 在較舊的 Intel 的 Mac 電腦，FileVault 是預設唯一可用的磁盤加密形式，應始終啟用。
 
@@ -234,7 +234,7 @@ macOS 提供兩種惡意軟體防禦形式：
 
 ##### 備份
 
-macOS 自帶[時光機](https://support.apple.com/HT201250) 的自動備份軟體，因此您可以在損壞/損壞的情況下將加密備份建立到外接或網路磁碟已刪除的檔案。
+macOS comes with automatic backup software called [Time Machine](https://support.apple.com/HT201250), so you can create encrypted backups to an external drive or a network drive in the event of corrupted/deleted files.
 
 ### 硬體安全
 

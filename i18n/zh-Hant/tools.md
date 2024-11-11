@@ -398,13 +398,15 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 ### 加密軟體
 
 <details class="info" markdown>
-<summary>作業系統磁碟加密</summary>
+<summary>Operating System Encryption</summary>
 
-若要加密作業系統磁碟，通常建議使用作業系統提供的加密工具，無論是 Windows 的 **BitLocker**、macOS**FileVault** 或 Linux **LUKS**。 這些工具包含在作業系統中，通常使用硬體加密要素，例如 TPM ，而 VeraCrypt 等其他全磁碟加密軟體則不然。 VeraCrypt 仍然適用於非作業系統磁碟，例如外接磁碟，特別是可以從多重作業系統訪問的磁碟。
+For encrypting your OS drive, we typically recommend using the encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and take advantage of hardware encryption elements such as a [secure cryptoprocessor](basics/hardware.md/#tpmsecure-cryptoprocessor).
 
-[了解更多 :material-arrow-right-drop-circle:](encryption.md#os-full-disk-encryption)
+[了解更多 :material-arrow-right-drop-circle:](encryption.md#operating-system-encryption)
 
 </details>
+
+#### Cross-platform Tools
 
 <div class="grid cards" markdown>
 
@@ -418,7 +420,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 [了解更多 :material-arrow-right-drop-circle:](encryption.md)
 
-#### OpenPGP 客戶端
+#### OpenPGP Clients
 
 <div class="grid cards" markdown>
 
@@ -594,7 +596,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 ### 行動平台
 
-#### 自訂 Android 作業系統
+#### Custom Android Operating Systems
 
 <div class="grid cards" markdown>
 
@@ -605,7 +607,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 [了解更多 :material-arrow-right-drop-circle:](android/distributions.md)
 
-#### Android 應用程式
+#### Android Apps
 
 <div class="grid cards" markdown>
 
@@ -617,7 +619,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 [了解更多 :material-arrow-right-drop-circle:](android/general-apps.md)
 
-#### Android 應用程式獲取途徑
+#### Ways to Obtain Android Apps
 
 <div class="grid cards" markdown>
 

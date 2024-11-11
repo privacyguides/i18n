@@ -398,13 +398,15 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 ### Softwares de Criptografia
 
 <details class="info" markdown>
-<summary>Operating System Disk Encryption</summary>
+<summary>Operating System Encryption</summary>
 
-For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. Esses programas vem com o sistema operacional e normalmente usam componentes de criptografia do equipamento físico (hardware), como o TPM, que outros programas de criptografia de disco completo, como o VeraCrypt, não usam. O VeraCrypt ainda é adequado para discos de sistemas não operacionais, como unidades externas, especialmente unidades que podem ser acessadas a partir de vários sistemas operacionais.
+For encrypting your OS drive, we typically recommend using the encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and take advantage of hardware encryption elements such as a [secure cryptoprocessor](basics/hardware.md/#tpmsecure-cryptoprocessor).
 
-[Saiba mais :material-arrow-right-drop-circle:](encryption.md#os-full-disk-encryption)
+[Saiba mais :material-arrow-right-drop-circle:](encryption.md#operating-system-encryption)
 
 </details>
+
+#### Cross-platform Tools
 
 <div class="grid cards" markdown>
 
@@ -418,7 +420,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 [Saiba mais :material-arrow-right-drop-circle:](encryption.md)
 
-#### Clientes OpenPGP
+#### OpenPGP Clients
 
 <div class="grid cards" markdown>
 
@@ -605,7 +607,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 [Saiba mais :material-arrow-right-drop-circle:](android/distributions.md)
 
-#### Aplicativos Android
+#### Android Apps
 
 <div class="grid cards" markdown>
 

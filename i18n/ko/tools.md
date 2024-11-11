@@ -398,13 +398,15 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 ### 암호화 소프트웨어
 
 <details class="info" markdown>
-<summary>Operating System Disk Encryption</summary>
+<summary>Operating System Encryption</summary>
 
-For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. 이러한 툴들은 운영 체제에 기본적으로 포함되어 있으며, VeraCrypt와 같은 디스크 암호화 프로그램들과 달리 TPM과 같은 하드웨어를 이용하여 암호화합니다. VeraCrypt는 운영체제가 설치되지 않은 디스크에 사용하는 데에는 적합합니다. 특히, 다양한 운영체제에서 사용할 외장 하드에 사용할 수 있습니다.
+For encrypting your OS drive, we typically recommend using the encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and take advantage of hardware encryption elements such as a [secure cryptoprocessor](basics/hardware.md/#tpmsecure-cryptoprocessor).
 
-[자세히 알아보기 :material-arrow-right-drop-circle:](encryption.md#os-full-disk-encryption)
+[자세히 알아보기 :material-arrow-right-drop-circle:](encryption.md#operating-system-encryption)
 
 </details>
+
+#### Cross-platform Tools
 
 <div class="grid cards" markdown>
 
@@ -418,7 +420,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](encryption.md)
 
-#### OpenPGP 클라이언트
+#### OpenPGP Clients
 
 <div class="grid cards" markdown>
 
@@ -605,7 +607,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](android/distributions.md)
 
-#### Android 앱
+#### Android Apps
 
 <div class="grid cards" markdown>
 

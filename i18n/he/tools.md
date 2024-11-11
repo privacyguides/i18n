@@ -398,13 +398,15 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 ### תוכנת הצפנה
 
 <details class="info" markdown>
-<summary>Operating System Disk Encryption</summary>
+<summary>Operating System Encryption</summary>
 
-For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. כלים אלה כלולים במערכת ההפעלה ומשתמשים בדרך כלל ברכיבי הצפנת חומרה כגון TPM שתוכנות הצפנה אחרות בדיסק מלא כמו VeraCrypt אינן עושות. VeraCrypt עדיין מתאים לדיסקים שאינם פועלים במערכת כגון כוננים חיצוניים, במיוחד כוננים שניתן לגשת אליהם ממספר מערכות הפעלה.
+For encrypting your OS drive, we typically recommend using the encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and take advantage of hardware encryption elements such as a [secure cryptoprocessor](basics/hardware.md/#tpmsecure-cryptoprocessor).
 
-[למד עוד :material-arrow-right-drop-circle:](encryption.md#os-full-disk-encryption)
+[למד עוד :material-arrow-right-drop-circle:](encryption.md#operating-system-encryption)
 
 </details>
+
+#### Cross-platform Tools
 
 <div class="grid cards" markdown>
 
@@ -418,7 +420,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 [למד עוד :material-arrow-right-drop-circle:](encryption.md)
 
-#### לקוחות OpenPGP
+#### OpenPGP Clients
 
 <div class="grid cards" markdown>
 
@@ -605,7 +607,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 [למד עוד :material-arrow-right-drop-circle:](android/distributions.md)
 
-#### אפליקציות אנדרואיד
+#### Android Apps
 
 <div class="grid cards" markdown>
 

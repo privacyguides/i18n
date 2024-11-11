@@ -398,13 +398,15 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 ### Инструменты для шифрования
 
 <details class="info" markdown>
-<summary>Operating System Disk Encryption</summary>
+<summary>Operating System Encryption</summary>
 
-For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. Эти инструменты доступны "из коробки" и обычно используют аппаратные элементы шифрования, такие как TPM, чего не делают другие программы для шифрования диска, такие как VeraCrypt. Однако VeraCrypt по-прежнему подходит для дисков, не относящихся к операционной системе (внешние диски), и к таким дискам, доступ к которым может осуществляться из нескольких операционных систем.
+For encrypting your OS drive, we typically recommend using the encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and take advantage of hardware encryption elements such as a [secure cryptoprocessor](basics/hardware.md/#tpmsecure-cryptoprocessor).
 
-[Узнать больше :material-arrow-right-drop-circle:](encryption.md#os-full-disk-encryption)
+[Узнать больше :material-arrow-right-drop-circle:](encryption.md#operating-system-encryption)
 
 </details>
+
+#### Cross-platform Tools
 
 <div class="grid cards" markdown>
 
@@ -418,7 +420,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 [Узнать больше :material-arrow-right-drop-circle:](encryption.md)
 
-#### Клиенты OpenPGP
+#### OpenPGP Clients
 
 <div class="grid cards" markdown>
 
@@ -605,7 +607,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 [Узнать больше :material-arrow-right-drop-circle:](android/distributions.md)
 
-#### Приложения для Android
+#### Android Apps
 
 <div class="grid cards" markdown>
 

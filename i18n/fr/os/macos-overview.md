@@ -122,7 +122,7 @@ Décidez si vous souhaitez des publicités personnalisées en fonction de votre 
 
 ##### FileVault
 
-Sur les appareils modernes dotés d'une Secure Enclave (puce de sécurité T2 d'Apple, Apple silicium), vos données sont toujours chiffrées, mais elles sont déchiffrées automatiquement par une clé matérielle si votre appareil ne détecte pas qu'il a été altéré. L'activation de FileVault requiert en outre votre mot de passe pour déchiffrer vos données, ce qui améliore considérablement la sécurité, en particulier lorsque l'ordinateur est éteint ou avant la première connexion après la mise sous tension.
+Sur les appareils modernes dotés d'une Secure Enclave (puce de sécurité T2 d'Apple, Apple silicium), vos données sont toujours chiffrées, mais elles sont déchiffrées automatiquement par une clé matérielle si votre appareil ne détecte pas qu'il a été altéré. Enabling [FileVault](../encryption.md#filevault) additionally requires your password to decrypt your data, greatly improving security, especially when powered off or before the first login after powering on.
 
 Sur les anciens ordinateurs Mac à processeur Intel, FileVault est la seule forme de chiffrement de disque disponible par défaut et doit toujours être activé.
 
@@ -234,7 +234,7 @@ Nous vous déconseillons d'installer des logiciels antivirus tiers, car ils n'on
 
 ##### Sauvegardes
 
-macOS est livré avec un logiciel de sauvegarde automatique appelé [Time Machine](https://support.apple.com/HT201250), qui vous permet de créer des sauvegardes chiffrées sur un disque externe ou réseau en cas de fichiers corrompus/supprimés.
+macOS comes with automatic backup software called [Time Machine](https://support.apple.com/HT201250), so you can create encrypted backups to an external drive or a network drive in the event of corrupted/deleted files.
 
 ### Sécurité matérielle
 

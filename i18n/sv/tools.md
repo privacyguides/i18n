@@ -398,13 +398,15 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 ### Programvara för kryptering
 
 <details class="info" markdown>
-<summary>Operating System Disk Encryption</summary>
+<summary>Operating System Encryption</summary>
 
-For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. Dessa verktyg ingår i operativsystemet och använder vanligtvis hårdvarukrypteringselement, t. ex. en TPM, som andra krypteringsprogram för hela hårddiskar, t. ex. VeraCrypt, inte gör. VeraCrypt lämpar sig fortfarande för diskar som inte är i driftssystemet, t. ex. externa enheter, särskilt enheter som kan nås från flera olika operativsystem.
+For encrypting your OS drive, we typically recommend using the encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and take advantage of hardware encryption elements such as a [secure cryptoprocessor](basics/hardware.md/#tpmsecure-cryptoprocessor).
 
-[Läs mer :material-arrow-right-drop-circle:](encryption.md#os-full-disk-encryption)
+[Läs mer :material-arrow-right-drop-circle:](encryption.md#operating-system-encryption)
 
 </details>
+
+#### Cross-platform Tools
 
 <div class="grid cards" markdown>
 
@@ -418,7 +420,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 [Läs mer :material-arrow-right-drop-circle:](encryption.md)
 
-#### OpenPGP-klienter
+#### OpenPGP Clients
 
 <div class="grid cards" markdown>
 
@@ -605,7 +607,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 [Läs mer :material-arrow-right-drop-circle:](android/distributions.md)
 
-#### Android-app
+#### Android Apps
 
 <div class="grid cards" markdown>
 

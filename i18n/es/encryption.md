@@ -10,7 +10,7 @@ El **cifrado** es la única forma segura de controlar quién puede acceder a sus
 
 ## Multiplataforma
 
-Las opciones enumeradas aquí son multiplataforma y excelentes para crear copias de seguridad cifradas de sus datos.
+The options listed here are available on multiple platforms and great for creating encrypted backups of your data.
 
 ### Cryptomator (Nube)
 
@@ -115,13 +115,13 @@ Al cifrar con VeraCrypt, tiene la opción de seleccionar entre diferentes [funci
 
 Truecrypt ha sido [auditado un buen número de veces](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), y VeraCrypt también ha sido [auditado de manera separada](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
 
-## Cifrado de Disco Completo del Sistema Operativo
+## Operating System Encryption
 
 <small>Protege contra la(s) siguiente(s) amenaza(s):</small>
 
 - [:material-target-account: Ataques dirigidos](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
-Para cifrar la unidad desde la que inicia el sistema operativo, por lo general recomendamos habilitar el software de cifrado que viene incluido en el propio sistema operativo, en vez de utilizar una herramienta creada por terceros. Esto se debe a que las herramientas de cifrado propias del sistema operativo suelen utilizar características específicas del sistema operativo y el hardware, como el [criptoprocesador seguro](https://en.wikipedia.org/wiki/Secure_cryptoprocessor) del dispositivo para proteger la computadora contra ataques físicos más avanzados. Para unidades secundarias y externas que *no* se utilizan para iniciar, recomendamos utilizar herramientas de código abierto como [VeraCrypt](#veracrypt-disk) en vez de las siguientes herramientas, porque estas ofrecen más flexibilidad y permiten evitar la dependencia de un proveedor.
+Built-in OS encryption solutions generally leverage hardware security features such as a [secure cryptoprocessor](basics/hardware.md#tpmsecure-cryptoprocessor). Therefore, we recommend using the built-in encryption solutions for your operating system. For cross-platform encryption, we still recommend [cross-platform tools](#multi-platform) for additional flexibility and to avoid vendor lock-in.
 
 ### BitLocker
 
@@ -129,7 +129,7 @@ Para cifrar la unidad desde la que inicia el sistema operativo, por lo general r
 
 ![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }
 
-**BitLocker** es la solución de cifrado de volumen completo incluida con Microsoft Windows. La principal razón por la que recomendamos utilizarlo para encriptar tu unidad de arranque, es por su [uso de TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, una compañía forense, ha escrito sobre esta característica en [Entendiendo la Protección TPM de BitLocker](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection).
+**BitLocker** is the full volume encryption solution bundled with Microsoft Windows that uses the Trusted Platform Module ([TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm)) for hardware-based security.
 
 [:octicons-info-16:](https://learn.microsoft.com/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title="Documentación" }
 
@@ -137,7 +137,7 @@ Para cifrar la unidad desde la que inicia el sistema operativo, por lo general r
 
 </div>
 
-BitLocker [solo es compatible](https://support.microsoft.com/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) con las ediciones Pro, Enterprise y Education de Windows. Se puede habilitar en las ediciones Home siempre que cumplan con los requisitos previos.
+BitLocker is [officially supported](https://support.microsoft.com/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) on the Pro, Enterprise, and Education editions of Windows. It can be enabled on Home editions provided that they meet the following prerequisites.
 
 <details class="example" markdown>
 <summary>Activar BitLocker en Windows Home</summary>
@@ -187,7 +187,7 @@ Para habilitar BitLocker en las ediciones "Home" de Windows, debe tener particio
 
 ![FileVault logo](assets/img/encryption-software/filevault.png){ align=right }
 
-**FileVault** es la solución de cifrado de volúmenes sobre la marcha integrada en macOS. FileVault se recomienda porque [leverages](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web) las capacidades de seguridad de hardware presentes en un SoC Apple Silicon o un Chip de Seguridad T2.
+**FileVault** es la solución de cifrado de volúmenes sobre la marcha integrada en macOS. FileVault takes advantage of the [hardware security capabilities](os/macos-overview.md#hardware-security) present on an Apple silicon SoC or T2 Security Chip.
 
 [:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title="Documentación" }
 
@@ -195,7 +195,7 @@ Para habilitar BitLocker en las ediciones "Home" de Windows, debe tener particio
 
 </div>
 
-Recomendamos almacenar una clave de recuperación local en un lugar seguro en lugar de utilizar su cuenta de iCloud para la recuperación.
+We advise against using your iCloud account for recovery; instead, you should securely store a local recovery key on a separate storage device.
 
 ### Linux Unified Key Setup
 
@@ -377,7 +377,7 @@ Sugerimos [Canary Mail](email-clients.md#canary-mail-ios) para utilizar PGP con 
 
 ![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }
 
-**GPG Suite** proporciona soporte OpenPGP para [Apple Mail](email-clients.md#apple-mail-macos) y macOS.
+**GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail-macos) and other email clients on macOS.
 
 Recomendamos echar un vistazo a sus [Primeros pasos](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) y [Base de conocimientos](https://gpgtools.tenderapp.com/kb) para obtener ayuda.
 
@@ -395,7 +395,7 @@ Recomendamos echar un vistazo a sus [Primeros pasos](https://gpgtools.tenderapp.
 
 </div>
 
-Actualmente, GPG Suite [aún no](https://gpgtools.com/sonoma) tiene una versión estable para macOS Sonoma.
+Currently, GPG Suite does [not yet](https://gpgtools.com/sequoia) have a stable release for macOS Sonoma and later.
 
 ### OpenKeychain
 
@@ -403,7 +403,7 @@ Actualmente, GPG Suite [aún no](https://gpgtools.com/sonoma) tiene una versión
 
 ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
 
-**OpenKeychain** es una implementación de GnuPG para Android. Es comúnmente requerido por clientes de correo como [Thunderbird](email-clients.md#thunderbird) y [FairEmail](email-clients.md#fairemail-android) y otras aplicaciones Android para proporcionar soporte de encriptación. Cure53 completó una [auditoría de seguridad](https://openkeychain.org/openkeychain-3-6) de OpenKeychain 3.6 en octubre de 2015. Los detalles técnicos sobre la auditoría y las soluciones de OpenKeychain pueden consultarse [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
+**OpenKeychain** is an implementation of GnuPG for Android. It's commonly required by mail clients such as [Thunderbird](email-clients.md#thunderbird), [FairEmail](email-clients.md#fairemail-android), and other Android apps to provide encryption support.
 
 [:octicons-home-16: Página Principal](https://openkeychain.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://openkeychain.org/help/privacy-policy){ .card-link title="Política de Privacidad" }
@@ -418,6 +418,8 @@ Actualmente, GPG Suite [aún no](https://gpgtools.com/sonoma) tiene una versión
 </details>
 
 </div>
+
+Cure53 completed a [security audit](https://openkeychain.org/openkeychain-3-6) of OpenKeychain 3.6 in October 2015. The published audit and OpenKeychain's solutions to the issues raised in the audit can be found [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
 
 ## Criterios
 

@@ -10,7 +10,7 @@ cover: encryption.webp
 
 ## Multi-Plattform
 
-Die hier aufgeführten Optionen sind plattformübergreifend und eignen sich hervorragend für die Erstellung verschlüsselter Backups deiner Daten.
+The options listed here are available on multiple platforms and great for creating encrypted backups of your data.
 
 ### Cryptomator (Cloud)
 
@@ -115,21 +115,21 @@ Beim Verschlüsseln mit VeraCrypt hast du die Möglichkeit, zwischen verschieden
 
 Truecrypt wurde bereits [mehrfach geprüft](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), und auch VeraCrypt wurde einem [separaten Audit](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit) unterzogen.
 
-## Betriebssystem-Festplatten-Verschlüsselung
+## Operating System Encryption
 
 <small>Schützt vor der/den folgenden Bedrohung(en):</small>
 
 - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
-Für die Verschlüsselung der Festplatte, von der dein Betriebssystem startet, empfehlen wir im Allgemeinen, die Verschlüsselungssoftware zu aktivieren, die mit deinem Betriebssystem geliefert wird, anstatt ein Drittanbieter-Tool zu verwenden. Dies liegt daran, dass die nativen Verschlüsselungs-Tools deines Betriebssystems oft betriebsystem- und hardwarespezifische Funktionen wie den [sicheren Kryptoprozessor](https://de.wikipedia.org/wiki/Kryptoprozessor) in deinem Gerät nutzen, um deinen Computer vor aus­ge­feilten physischen Angriffen zu schützen. Für sekundäre Laufwerke und externe Laufwerke, von denen du *nicht* bootest, empfehlen wir immer noch, Open-Source-Tools wie [VeraCrypt](#veracrypt-disk) anstatt der unten aufgeführten Tools zu verwenden, da sie zusätzliche Flexibilität bieten und es dir ermöglichen, eine Abhängigkeit von einem bestimmten Anbieter zu vermeiden.
+Built-in OS encryption solutions generally leverage hardware security features such as a [secure cryptoprocessor](basics/hardware.md#tpmsecure-cryptoprocessor). Therefore, we recommend using the built-in encryption solutions for your operating system. For cross-platform encryption, we still recommend [cross-platform tools](#multi-platform) for additional flexibility and to avoid vendor lock-in.
 
 ### BitLocker
 
 <div class="admonition recommendation" markdown>
 
-![BitLocker-Logo](assets/img/encryption-software/bitlocker.png){ align=right }
+![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }
 
-**BitLocker** ist die Lösung zur vollständigen Verschlüsselung von Datenträgern, die mit Microsoft Windows gebündelt ist. Der Hauptgrund, warum wir es für die Verschlüsselung deines Startlaufwerks empfehlen, ist die [Verwendung vom TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm). ElcomSoft, ein Forensikunternehmen, hat über diese Funktion in [Understanding BitLocker TPM Protection](https://blog.elcomsoft.com/2021/01/understanding-BitLocker-tpm-protection) geschrieben.
+**BitLocker** is the full volume encryption solution bundled with Microsoft Windows that uses the Trusted Platform Module ([TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm)) for hardware-based security.
 
 [:octicons-info-16:](https://learn.microsoft.com/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title="Dokumentation" }
 
@@ -137,7 +137,7 @@ Für die Verschlüsselung der Festplatte, von der dein Betriebssystem startet, e
 
 </div>
 
-BitLocker wird [nur](https://support.microsoft.com/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) auf den Pro-, Enterprise- und Education-Editionen von Windows unterstützt. Es kann auf Home-Editionen aktiviert werden, vorausgesetzt, dass sie die Voraussetzungen erfüllen.
+BitLocker is [officially supported](https://support.microsoft.com/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) on the Pro, Enterprise, and Education editions of Windows. It can be enabled on Home editions provided that they meet the following prerequisites.
 
 <details class="example" markdown>
 <summary>Aktivieren von BitLocker unter Windows Home</summary>
@@ -187,7 +187,7 @@ Sichere die Datei `BitLocker-Recovery-Key.txt` auf deinem Desktop auf einem sepa
 
 ![FileVault Logo](assets/img/encryption-software/filevault.png){ align=right }
 
-**FileVault** ist die in macOS eingebaute "on-the-fly"-Verschlüsselungslösung. FileVault wird empfohlen, da es [gebrauch](https://support.apple.com/guide/security/volume-encryption-with-filevault-sec4c6dc1b6e/web) von den Hardware-Sicherheitsfunktionen auf den Apple-Silicon-SoC und T2-Security-Chip macht.
+**FileVault** ist die in macOS eingebaute "on-the-fly"-Verschlüsselungslösung. FileVault takes advantage of the [hardware security capabilities](os/macos-overview.md#hardware-security) present on an Apple silicon SoC or T2 Security Chip.
 
 [:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title="Dokumentation" }
 
@@ -195,7 +195,7 @@ Sichere die Datei `BitLocker-Recovery-Key.txt` auf deinem Desktop auf einem sepa
 
 </div>
 
-Wir empfehlen die Verwendung, eines lokalen Wiederherstellungsschlüssels, der an einem sicheren Ort aufbewahrt wird, anstatt deines iCloud-Kontos für die Wiederherstellung.
+We advise against using your iCloud account for recovery; instead, you should securely store a local recovery key on a separate storage device.
 
 ### Linux Unified Key Setup
 
@@ -375,9 +375,9 @@ Wir empfehlen [Canary Mail](email-clients.md#canary-mail-ios) für die Verwendun
 
 <div class="admonition recommendation" markdown>
 
-![GPG Suite-Logo](assets/img/verschlüsselungssoftware/gpgsuite.png){ align=right }
+![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }
 
-**GPG Suite** bietet OpenPGP-Unterstützung für [Apple Mail](email-clients.md#apple-mail-macos) und macOS.
+**GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail-macos) and other email clients on macOS.
 
 Wir empfehlen, einen Blick auf die [Ersten Schritte](https://gpgtools.tenderapp.com/kb/how-to/erste-schritte-gpgtools-einrichten-einen-schlssel-erstellen-deine-erste-verschlsselte-mail) und die [Wissensdatenbank](https://gpgtools.tenderapp.com/kb) zu werfen, um Unterstützung zu erhalten.
 
@@ -395,15 +395,15 @@ Wir empfehlen, einen Blick auf die [Ersten Schritte](https://gpgtools.tenderapp.
 
 </div>
 
-Derzeit gibt es [noch keine](https://gpgtools.com/sonoma) stabile Version von GPG Suite für macOS Sonoma.
+Currently, GPG Suite does [not yet](https://gpgtools.com/sequoia) have a stable release for macOS Sonoma and later.
 
 ### OpenKeychain
 
 <div class="admonition recommendation" markdown>
 
-![OpenKeychain-Logo](assets/img/encryption-software/openkeychain.svg){ align=right }
+![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
 
-**OpenKeychain** ist eine Implementierung von GnuPG für Android. It's commonly required by mail clients such as [Thunderbird](email-clients.md#thunderbird) and [FairEmail](email-clients.md#fairemail-android) and other Android apps to provide encryption support. Cure53 hat im Oktober 2015 ein [Sicherheitsaudit](https://openkeychain.org/openkeychain-3-6) von OpenKeychain 3.6 durchgeführt. Technische Einzelheiten über die Prüfung und die Lösungen von OpenKeychain findest du [hier](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
+**OpenKeychain** is an implementation of GnuPG for Android. It's commonly required by mail clients such as [Thunderbird](email-clients.md#thunderbird), [FairEmail](email-clients.md#fairemail-android), and other Android apps to provide encryption support.
 
 [:octicons-home-16: Homepage](https://openkeychain.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://openkeychain.org/help/privacy-policy){ .card-link title="Datenschutzrichtlinie" }
@@ -418,6 +418,8 @@ Derzeit gibt es [noch keine](https://gpgtools.com/sonoma) stabile Version von GP
 </details>
 
 </div>
+
+Cure53 completed a [security audit](https://openkeychain.org/openkeychain-3-6) of OpenKeychain 3.6 in October 2015. The published audit and OpenKeychain's solutions to the issues raised in the audit can be found [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
 
 ## Kriterien
 

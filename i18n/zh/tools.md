@@ -398,13 +398,15 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 ### 加密软件
 
 <details class="info" markdown>
-<summary>Operating System Disk Encryption</summary>
+<summary>Operating System Encryption</summary>
 
-For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. 这些工具包含在操作系统中，通常使用硬件加密组件，如TPM，而其它的全盘加密软件如VeraCrypt则没有。 VeraCrypt仍然适用于加密非系统盘，如外部驱动器，特别是那些可能会从多个操作系统来访问的驱动器。
+For encrypting your OS drive, we typically recommend using the encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and take advantage of hardware encryption elements such as a [secure cryptoprocessor](basics/hardware.md/#tpmsecure-cryptoprocessor).
 
-[了解更多 :hero-arrow-circle-right-fill:](encryption.md#os-full-disk-encryption)
+[了解更多 :hero-arrow-circle-right-fill:](encryption.md#operating-system-encryption)
 
 </details>
+
+#### Cross-platform Tools
 
 <div class="grid cards" markdown>
 
@@ -605,7 +607,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 [了解更多 :hero-arrow-circle-right-fill:](android/distributions.md)
 
-#### DNS 供应商
+#### Android Apps
 
 <div class="grid cards" markdown>
 

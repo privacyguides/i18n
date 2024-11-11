@@ -122,7 +122,7 @@ Decidi se desideri annunci personalizzati secondo il tuo utilizzo.
 
 ##### FileVault
 
-Sui dispositivi moderni con un Secure Enclave (Chip di Sicurezza Apple T2, Apple silicon), i tuoi dati sono sempre crittografati, ma sono automaticamente decrittografati da una chiave hardware, se il tuo dispositivo non rileva di esser stato manomesso. Abilitare FileVault richiede inoltre la tua password per decrittografare i tuoi dati, migliorando ampiamente la sicurezza, specialmente quando spento o prima del primo accesso all'accensione.
+Sui dispositivi moderni con un Secure Enclave (Chip di Sicurezza Apple T2, Apple silicon), i tuoi dati sono sempre crittografati, ma sono automaticamente decrittografati da una chiave hardware, se il tuo dispositivo non rileva di esser stato manomesso. Enabling [FileVault](../encryption.md#filevault) additionally requires your password to decrypt your data, greatly improving security, especially when powered off or before the first login after powering on.
 
 Sui vecchi computer Mac basati su Intel, FileVault è la sola forma di crittografia del disco disponibile di default, e dovrebbe sempre essere abilitata.
 
@@ -234,7 +234,7 @@ Sconsigliamo di installare software antivirus di terze parti, poiché, tipicamen
 
 ##### Backup
 
-macOS presenta un software di backup automatico chiamato [Time Machine](https://support.apple.com/HT201250), così, puoi creare dei backup crittografati su un'unità esterna o di rete, nel caso di file corrotti/eliminati.
+macOS comes with automatic backup software called [Time Machine](https://support.apple.com/HT201250), so you can create encrypted backups to an external drive or a network drive in the event of corrupted/deleted files.
 
 ### Sicurezza Hardware
 

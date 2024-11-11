@@ -398,13 +398,15 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 ### Logiciels de chiffrement
 
 <details class="info" markdown>
-<summary>Chiffrement du disque du système d'exploitation</summary>
+<summary>Operating System Encryption</summary>
 
-Pour chiffrer le disque de votre système d'exploitation, nous vous recommandons généralement d'utiliser l'outil de chiffrement fourni par votre système d'exploitation, que ce soit **BitLocker** sur Windows, **FileVault** sur macOS, ou **LUKS** sur Linux. Ces outils sont fournis avec le système d'exploitation et utilisent généralement des équipements de chiffrement matériels tels que le TPM, ce que ne font pas d'autres logiciels de chiffrement de disque comme VeraCrypt. VeraCrypt convient toujours aux disques sans système d'exploitation, comme les disques externes, en particulier les disques auxquels on peut accéder à partir de plusieurs systèmes d'exploitation.
+For encrypting your OS drive, we typically recommend using the encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and take advantage of hardware encryption elements such as a [secure cryptoprocessor](basics/hardware.md/#tpmsecure-cryptoprocessor).
 
-[En savoir plus :material-arrow-right-drop-circle:](encryption.md#os-full-disk-encryption)
+[En savoir plus :material-arrow-right-drop-circle:](encryption.md#operating-system-encryption)
 
 </details>
+
+#### Cross-platform Tools
 
 <div class="grid cards" markdown>
 
@@ -418,7 +420,7 @@ Pour chiffrer le disque de votre système d'exploitation, nous vous recommandons
 
 [En savoir plus :material-arrow-right-drop-circle:](encryption.md)
 
-#### Clients OpenPGP
+#### OpenPGP Clients
 
 <div class="grid cards" markdown>
 
@@ -605,7 +607,7 @@ Pour chiffrer le disque de votre système d'exploitation, nous vous recommandons
 
 [En savoir plus :material-arrow-right-drop-circle:](android/distributions.md)
 
-#### Applications Android
+#### Android Apps
 
 <div class="grid cards" markdown>
 

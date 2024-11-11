@@ -398,13 +398,15 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 ### Titkosító Szoftverek
 
 <details class="info" markdown>
-<summary>Operating System Disk Encryption</summary>
+<summary>Operating System Encryption</summary>
 
-For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. Ezek az eszközök az operációs rendszer részét képezik, és általában olyan hardveres titkosítási elemeket használnak, mint például a TPM, amit más teljes lemez titkosító szoftverek, például a VeraCrypt nem. A VeraCrypt továbbra is alkalmas nem operációs rendszer lemezek, például külső meghajtók számára, különösen olyan meghajtók esetében, amelyekhez több operációs rendszerből is hozzáférhetnek.
+For encrypting your OS drive, we typically recommend using the encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and take advantage of hardware encryption elements such as a [secure cryptoprocessor](basics/hardware.md/#tpmsecure-cryptoprocessor).
 
-[További információ :material-arrow-right-drop-circle:](encryption.md#os-full-disk-encryption)
+[További információ :material-arrow-right-drop-circle:](encryption.md#operating-system-encryption)
 
 </details>
+
+#### Cross-platform Tools
 
 <div class="grid cards" markdown>
 
@@ -418,7 +420,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 [További információ :material-arrow-right-drop-circle:](encryption.md)
 
-#### OpenPGP Kliensek
+#### OpenPGP Clients
 
 <div class="grid cards" markdown>
 
@@ -605,7 +607,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 [További információ :material-arrow-right-drop-circle:](android/distributions.md)
 
-#### Android Alkalmazások
+#### Android Apps
 
 <div class="grid cards" markdown>
 

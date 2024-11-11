@@ -398,13 +398,15 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 ### Perangkat Lunak Enkripsi
 
 <details class="info" markdown>
-<summary>Operating System Disk Encryption</summary>
+<summary>Operating System Encryption</summary>
 
-For encrypting your operating system drive, we typically recommend using whichever encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. Alat-alat ini disertakan dengan sistem operasi dan biasanya menggunakan elemen enkripsi perangkat keras seperti TPM yang tidak dimiliki oleh perangkat lunak enkripsi disk penuh lainnya seperti VeraCrypt. VeraCrypt masih cocok untuk disk sistem non-operasi seperti drive eksternal, terutama drive yang dapat diakses dari beberapa sistem operasi.
+For encrypting your OS drive, we typically recommend using the encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and take advantage of hardware encryption elements such as a [secure cryptoprocessor](basics/hardware.md/#tpmsecure-cryptoprocessor).
 
-[Pelajari lebih lanjut :material-arrow-right-drop-circle:](encryption.md#os-full-disk-encryption)
+[Pelajari lebih lanjut :material-arrow-right-drop-circle:](encryption.md#operating-system-encryption)
 
 </details>
+
+#### Cross-platform Tools
 
 <div class="grid cards" markdown>
 
@@ -418,7 +420,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 [Pelajari lebih lanjut :material-arrow-right-drop-circle:](encryption.md)
 
-#### Klien OpenPGP
+#### OpenPGP Clients
 
 <div class="grid cards" markdown>
 
@@ -605,7 +607,7 @@ For encrypting your operating system drive, we typically recommend using whichev
 
 [Pelajari lebih lanjut :material-arrow-right-drop-circle:](android/distributions.md)
 
-#### Aplikasi Android
+#### Android Apps
 
 <div class="grid cards" markdown>
 

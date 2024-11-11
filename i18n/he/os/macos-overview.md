@@ -122,7 +122,7 @@ If you want to be able to install apps from the App Store but don't want to enab
 
 ##### FileVault
 
-במכשירים מודרניים עם מובלעת מאובטחת (Apple T2 Security Chip, Apple Silicon), הנתונים שלך תמיד מוצפנים, אך מפוענחים אוטומטית על ידי מפתח חומרה אם המכשיר שלך לא מזהה שטופלו בהם. הפעלת FileVault מחייבת בנוסף את הסיסמה שלך כדי לפענח את הנתונים שלך, מה שמשפר מאוד את האבטחה, במיוחד כאשר הוא כיבוי או לפני הכניסה הראשונה לאחר ההפעלה.
+במכשירים מודרניים עם מובלעת מאובטחת (Apple T2 Security Chip, Apple Silicon), הנתונים שלך תמיד מוצפנים, אך מפוענחים אוטומטית על ידי מפתח חומרה אם המכשיר שלך לא מזהה שטופלו בהם. Enabling [FileVault](../encryption.md#filevault) additionally requires your password to decrypt your data, greatly improving security, especially when powered off or before the first login after powering on.
 
 במחשבי Mac ישנים יותר מבוססי אינטל, FileVault היא הצורה היחידה של הצפנת דיסקים הזמינה כברירת מחדל, וצריכה להיות מופעלת תמיד.
 
@@ -234,7 +234,7 @@ macOS מגיע עם שתי צורות של הגנה מפני תוכנות זדו
 
 ##### גיבויים
 
-macOS מגיע עם תוכנת גיבוי אוטומטית בשם [Time Machine](https://support.apple.com/HT201250), כך שתוכל ליצור גיבויים מוצפנים לכונן חיצוני או רשת במקרה של פגום/ קבצים שנמחקו.
+macOS comes with automatic backup software called [Time Machine](https://support.apple.com/HT201250), so you can create encrypted backups to an external drive or a network drive in the event of corrupted/deleted files.
 
 ### אבטחת חומרה
 
