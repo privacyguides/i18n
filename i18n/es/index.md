@@ -92,7 +92,7 @@ La seguridad no consiste solo en las *herramientas de privacidad* que utilices o
 
     ---
 
-    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. Ha estado en operación desde 2013. Proton AG tiene su sede en Ginebra, Suiza. El plan gratuito de Proton Mail incluye 500MB de almacenamiento, que puede ser aumentado hasta 1GB sin costo.
+    Proton Mail es un servicio de correo electrónico centrado en la privacidad, el cifrado, la seguridad y la facilidad de uso. Ha estado en operación desde 2013. Proton AG tiene su sede en Ginebra, Suiza. El plan gratuito de Proton Mail incluye 500MB de almacenamiento, que puede ser aumentado hasta 1GB sin costo.
 
     [:octicons-arrow-right-24: Read Full Review](email.md#proton-mail)
 
@@ -100,7 +100,7 @@ La seguridad no consiste solo en las *herramientas de privacidad* que utilices o
 
     ---
 
-    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. Ha estado en operación desde 2014. Mailbox.org tiene su sede en Berlín, Alemania. Las cuentas inician con hasta 2GB de almacenamiento, que pueden ser ampliados cuando sea necesario.
+    Mailbox.org es un servicio de correo electrónico seguro, sin publicidad y alimentado de forma privada con energía 100% ecológica. Ha estado en operación desde 2014. Mailbox.org tiene su sede en Berlín, Alemania. Las cuentas inician con hasta 2GB de almacenamiento, que pueden ser ampliados cuando sea necesario.
 
     [:octicons-arrow-right-24: Read Full Review](email.md#mailboxorg)
 
@@ -108,7 +108,7 @@ La seguridad no consiste solo en las *herramientas de privacidad* que utilices o
 
     ---
 
-    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta lleva funcionando desde 2011 y tiene su sede en Hannover, Alemania. Las cuentas gratuitas inician con 1GB de almacenamiento.
+    Tuta (antes *Tutanota*) es un servicio de correo electrónico centrado en la seguridad y la privacidad mediante el uso de cifrado. Tuta lleva funcionando desde 2011 y tiene su sede en Hannover, Alemania. Las cuentas gratuitas inician con 1GB de almacenamiento.
 
     [:octicons-arrow-right-24: Leer Reseña Completa](email.md#tuta)
 
