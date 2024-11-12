@@ -88,27 +88,27 @@ La seguridad no consiste solo en las *herramientas de privacidad* que utilices o
 
 <div class="grid cards" markdown>
 
--   ![Proton Mail logo](assets/img/email/protonmail.svg){ .lg .middle .twemoji } **Proton Mail**
+-   ![Proton Mail logo](assets/img/email/protonmail.svg){ .lg .middle .twemoji loading=lazy } **Proton Mail**
 
     ---
 
-    Proton Mail es un servicio de correo electrónico centrado en la privacidad, el cifrado, la seguridad y la facilidad de uso. Ha estado en operación desde 2013. Proton AG tiene su sede en Ginebra, Suiza. El plan gratuito de Proton Mail incluye 500MB de almacenamiento, que puede ser aumentado hasta 1GB sin costo.
+    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. Ha estado en operación desde 2013. Proton AG tiene su sede en Ginebra, Suiza. El plan gratuito de Proton Mail incluye 500MB de almacenamiento, que puede ser aumentado hasta 1GB sin costo.
 
-    [:octicons-arrow-right-24: Leer Reseña Completa](email.md#proton-mail)
+    [:octicons-arrow-right-24: Read Full Review](email.md#proton-mail)
 
--   ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji } **Mailbox.org**
-
-    ---
-
-    Mailbox.org es un servicio de correo electrónico centrado en la seguridad, sin publicidad y alimentado de forma privada con energía 100% ecológica. Ha estado en operación desde 2014. Mailbox.org tiene su sede en Berlín, Alemania. Las cuentas inician con hasta 2GB de almacenamiento, que pueden ser ampliados cuando sea necesario.
-
-    [:octicons-arrow-right-24: Leer Reseña Completa](email.md#mailboxorg)
-
--   ![Tuta logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
+-   ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji loading=lazy } **Mailbox.org**
 
     ---
 
-    Tuta (antes *Tutanota*) es un servicio de correo electrónico centrado en la seguridad y la privacidad mediante el uso de cifrado. Tuta lleva funcionando desde 2011 y tiene su sede en Hannover, Alemania. Las cuentas gratuitas inician con 1GB de almacenamiento.
+    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. Ha estado en operación desde 2014. Mailbox.org tiene su sede en Berlín, Alemania. Las cuentas inician con hasta 2GB de almacenamiento, que pueden ser ampliados cuando sea necesario.
+
+    [:octicons-arrow-right-24: Read Full Review](email.md#mailboxorg)
+
+-   ![Tuta logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji loading=lazy } **Tuta**
+
+    ---
+
+    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta lleva funcionando desde 2011 y tiene su sede en Hannover, Alemania. Las cuentas gratuitas inician con 1GB de almacenamiento.
 
     [:octicons-arrow-right-24: Leer Reseña Completa](email.md#tuta)
 
@@ -159,7 +159,7 @@ La seguridad no consiste solo en las *herramientas de privacidad* que utilices o
 
 ## Sobre Privacy Guides
 
-![Logo de Privacy Guides](assets/brand/logos/png/square/pg-yellow.png){ align=right }
+![Logo de Privacy Guides](assets/brand/logos/png/square/pg-yellow.png){ align=right loading=lazy }
 
 Creado en 2021 ante la dificultad de encontrar revisiones imparciales en el mundo de las VPN y la privacidad, **Privacy Guides** es el sitio web más popular, confiable y sin fines de lucro que proporciona información sobre la protección de la seguridad y privacidad de tus datos *personales*. Nuestras recomendaciones y reseñas comunitarias sobre **herramientas de privacidad**, además de nuestra comunidad dedicada en ayudar a los demás, nos diferencian de otros blogs y creadores de contenido. El equipo detrás de este proyecto ha estado investigando sobre la privacidad y la seguridad en el espacio del código abierto durante 5 años, originalmente con un recurso web ahora difunto, que eventualmente se convirtió en el *Privacy Guides* en que millones de lectores confían.
 

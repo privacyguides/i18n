@@ -87,27 +87,27 @@ schema:
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail 標誌](assets/img/email/protonmail.svg){ .lg .middle .twemoji } **Proton Mail**
+-   ![Proton Mail logo](assets/img/email/protonmail.svg){ .lg .middle .twemoji loading=lazy } **Proton Mail**
 
     ---
 
-    Proton Mail 是一個注重隱私、加密、安全和易用性的電子郵件服務。 他們自 2013 年起開始營運。 Proton AG 總部位於瑞士日內瓦。 Proton Mail 免費方案提供 500MB 的郵件儲存空間，您可以免費增加至 1GB。
+    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. 他們自 2013 年起開始營運。 Proton AG 總部位於瑞士日內瓦。 Proton Mail 免費方案提供 500MB 的郵件儲存空間，您可以免費增加至 1GB。
 
-    [:octicons-arrow-right-24: 閱讀完整評論](email.md#proton-mail)
+    [:octicons-arrow-right-24: Read Full Review](email.md#proton-mail)
 
-- ![Mailbox.org 標誌](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji } **Mailbox.org**
-
-    ---
-
-    Mailbox.org 是一個專注於安全、無廣告的電子郵件服務，並使用 100% 民間供電的環保能源。 他們自 2014 年起開始營運。 Mailbox.org  總部位於德國柏林。 帳戶一開始最多只有 2GB 儲存空間，並可視需要升級。
-
-    [:octicons-arrow-right-24: 閱讀完整評論](email.md#mailboxorg)
-
-- ![Tuta 標誌](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji }![Tuta 標誌](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
+-   ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji loading=lazy } **Mailbox.org**
 
     ---
 
-    Tuta (前身為 *Tutanota*)是一項電子郵件服務，透過使用加密技術，著重於安全性與隱私權。 Tuta 自 2011 年開始營運，總部位於德國漢諾威。 免費帳戶的起始儲存容量為 1GB。
+    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. 他們自 2014 年起開始營運。 Mailbox.org  總部位於德國柏林。 帳戶一開始最多只有 2GB 儲存空間，並可視需要升級。
+
+    [:octicons-arrow-right-24: Read Full Review](email.md#mailboxorg)
+
+-   ![Tuta logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji loading=lazy } **Tuta**
+
+    ---
+
+    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta 自 2011 年開始營運，總部位於德國漢諾威。 免費帳戶的起始儲存容量為 1GB。
 
     [:octicons-arrow-right-24: 閱讀完整評論](email.md#tuta)
 
@@ -158,7 +158,7 @@ schema:
 
 ## 關於 Privacy Guides
 
-![Privacy Guides 標誌](assets/brand/logos/png/square/pg-yellow.png){ align=right }
+![Privacy Guides 標誌](assets/brand/logos/png/square/pg-yellow.png){ align=right loading=lazy }
 
 由於在 VPN 和隱私權領域很難找到公正的評論員，**Privacy Guides **於 2021 年成立，是最受歡迎、值得信賴的非營利性網站，提供有關保護*個人*資料安全和隱私權的資訊。 我們對**隱私工具**的群眾推薦和評論，以及致力於幫助他人的社群，讓我們有別於其他部落格和內容創作者。 這個專案背後的團隊研究開放原始碼領域的隱私權與安全性已超過 5 年，最初是透過一個現已停用的網路資源，最後成為數百萬讀者信賴的*「隱私權指南」*(Privacy Guides)。
 

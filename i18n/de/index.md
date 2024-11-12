@@ -87,27 +87,27 @@ Der Versuch, alle deine Daten ständig vor allen zu schützen, ist unpraktisch, 
 
 <div class="grid cards" markdown>
 
--   ![Proton Mail Logo](assets/img/email/protonmail.svg){ .lg .middle .twemoji } **Proton Mail**
+-   ![Proton Mail logo](assets/img/email/protonmail.svg){ .lg .middle .twemoji loading=lazy } **Proton Mail**
 
     ---
 
-Proton Mail ist ein E-Mail-Dienst mit dem Schwerpunkt auf Datenschutz, Verschlüsselung, Sicherheit und Benutzerfreundlichkeit. Sie sind seit 2013 in Betrieb. Die Proton AG hat ihren Sitz in Genf, Schweiz. Der Proton Mail Free Tarif beinhaltet 500 MB Mailspeicher, den du kostenlos auf bis zu 1 GB erweitern kannst.
+    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. Sie sind seit 2013 in Betrieb. Die Proton AG hat ihren Sitz in Genf, Schweiz. Der Proton Mail Free Tarif beinhaltet 500 MB Mailspeicher, den du kostenlos auf bis zu 1 GB erweitern kannst.
 
-    [:octicons-arrow-right-24: Lese die vollständige Review](email.md#proton-mail)
+    [:octicons-arrow-right-24: Read Full Review](email.md#proton-mail)
 
--   ![Mailbox.org-Logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji } **Mailbox.org**
-
-    ---
-
-    Mailbox.org ist ein E-Mail-Dienst, mit dem Ziel sicher und werbefrei zu sein und der mit 100 % Ökostrom betrieben wird. Er wird seit 2014 betrieben. Mailbox.org hat seinen Sitz in Berlin, Deutschland. Konten beginnen mit 2 GB Speicherplatz, der nach Bedarf erweitert werden kann.
-
-    [:octicons-arrow-right-24: Lese die vollständige Review](email.md#mailboxorg)
-
--   ![Tuta Logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji }![Tuta Logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
+-   ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji loading=lazy } **Mailbox.org**
 
     ---
 
-    Tuta (ehemals *Tutanota*) ist ein E-Mail-Dienst mit einem Fokus auf Sicherheit und Privatsphäre durch Verschlüsselung. Tuta ist seit 2011 in Betrieb und hat seinen Sitz in Hannover, Deutschland. Kostenlose Konten beginnen mit 1 GB Speicherplatz.
+    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. Er wird seit 2014 betrieben. Mailbox.org hat seinen Sitz in Berlin, Deutschland. Konten beginnen mit 2 GB Speicherplatz, der nach Bedarf erweitert werden kann.
+
+    [:octicons-arrow-right-24: Read Full Review](email.md#mailboxorg)
+
+-   ![Tuta logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji loading=lazy } **Tuta**
+
+    ---
+
+    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta ist seit 2011 in Betrieb und hat seinen Sitz in Hannover, Deutschland. Kostenlose Konten beginnen mit 1 GB Speicherplatz.
 
     [:octicons-arrow-right-24: Lese die vollständige Review](email.md#tuta)
 
@@ -158,7 +158,7 @@ Proton Mail ist ein E-Mail-Dienst mit dem Schwerpunkt auf Datenschutz, Verschlü
 
 ## Über Privacy Guides
 
-![Privacy Guides Logo](assets/brand/logos/png/square/pg-yellow.png){ align=right }
+![Privacy Guides Logo](assets/brand/logos/png/square/pg-yellow.png){ align=right loading=lazy }
 
 Gegründet im Jahr 2021 aufgrund der Schwierigkeit, unvoreingenommene Rezensenten im VPN- und Privatsphären-Bereich zu finden, ist **Privacy Guides** die beliebteste, vertrauenswürdige, gemeinnützige-Website, die Informationen über den Schutz deiner *persönlichen* Daten und Privatsphäre bietet. Unsere crowdsourced Empfehlungen und Rezensionen von **Privatsphäre/Datenschutz-Tools** und unserer Community mit dem Ziel, anderen zu helfen, setzen uns von anderen Blogs und Content-Creatorn ab. Das Team, das hinter diesem Projekt steht, erforscht seit mehr als 5 Jahren Datenschutz und Sicherheit im Open-Source-Bereich, ursprünglich mit einer inzwischen nicht mehr existierenden Web-Ressource, die schließlich zu *Privacy Guides* wurde, dem Millionen von Lesern vertrauen.
 

@@ -252,7 +252,7 @@ Session使用去中心化的 [Oxen Service Node Network](https://oxen.io/) 來�
 
 </div>
 
-Session 允許E2EE在一對一聊天或封閉羣組中，最多可容納100名成員。 開放群組對成員數量沒有限制，從設計上來說是開放的。
+Session 允許E2EE在一對一聊天或封閉羣組中，最多可容納100名成員。 It is also possible to [set up](https://docs.oxen.io/oxen-docs/products-built-on-oxen/session/guides/open-group-setup) or join open groups which can host thousands of members, but messages in these open groups are **not** end-to-end encrypted between participants.
 
 Session 先前基於 Signal 協議，並於 2020 年 12 月替換為自己的協議。 Session 協議[不](https://getsession.org/blog/session-protocol-technical-information)支援前向保密。[^1]
 

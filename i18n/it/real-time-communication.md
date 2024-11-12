@@ -252,7 +252,7 @@ Session uses the decentralized [Oxen Service Node Network](https://oxen.io) to s
 
 </div>
 
-Session consente l'E2EE per le chat individuali o i gruppi chiusi, che consentono fino a 100 membri. I gruppi aperti non hanno limitazioni sul numero di membri, ma sono aperti per scelta.
+Session consente l'E2EE per le chat individuali o i gruppi chiusi, che consentono fino a 100 membri. It is also possible to [set up](https://docs.oxen.io/oxen-docs/products-built-on-oxen/session/guides/open-group-setup) or join open groups which can host thousands of members, but messages in these open groups are **not** end-to-end encrypted between participants.
 
 Session si basava in precedenza sul Signal Protocol, prima di sostituirlo con il proprio nel dicembre 2020. Session Protocol [non](https://getsession.org/blog/session-protocol-technical-information) supporta la segretezza in avanti.[^1]
 

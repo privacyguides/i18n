@@ -252,7 +252,7 @@ Session uses the decentralized [Oxen Service Node Network](https://oxen.io) to s
 
 </div>
 
-Session maakt E2EE mogelijk in één-op-één chats of gesloten groepen met maximaal 100 leden. Open groepen hebben geen beperking wat het aantal leden betreft, maar zijn open van opzet.
+Session maakt E2EE mogelijk in één-op-één chats of gesloten groepen met maximaal 100 leden. It is also possible to [set up](https://docs.oxen.io/oxen-docs/products-built-on-oxen/session/guides/open-group-setup) or join open groups which can host thousands of members, but messages in these open groups are **not** end-to-end encrypted between participants.
 
 Session was previously based on Signal Protocol before replacing it with their own in December 2020. Session Protocol does [not](https://getsession.org/blog/session-protocol-technical-information) support forward secrecy.[^1]
 
