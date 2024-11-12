@@ -91,15 +91,15 @@ schema:
 
     ---
 
-    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. 他們自 2013 年起開始營運。 Proton AG 總部位於瑞士日內瓦。 Proton Mail 免費方案提供 500MB 的郵件儲存空間，您可以免費增加至 1GB。
+    Proton Mail 是一個注重隱私、加密、安全和易用性的電子郵件服務。 他們自 2013 年起開始營運。 Proton AG 總部位於瑞士日內瓦。 Proton Mail 免費方案提供 500MB 的郵件儲存空間，您可以免費增加至 1GB。
 
-    [:octicons-arrow-right-24: Read Full Review](email.md#proton-mail)
+    [:octicons-arrow-right-24: 閱讀完整評論](email.md#proton-mail)
 
--   ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji loading=lazy } **Mailbox.org**
+- ![Mailbox.org 標誌](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji loading=lazy } **Mailbox.org**
 
     ---
 
-    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. 他們自 2014 年起開始營運。 Mailbox.org  總部位於德國柏林。 帳戶一開始最多只有 2GB 儲存空間，並可視需要升級。
+    Mailbox.org 是一個專注於安全、無廣告的電子郵件服務，並使用 100% 民間供電的環保能源。 他們自 2014 年起開始營運。 Mailbox.org  總部位於德國柏林。 帳戶一開始最多只有 2GB 儲存空間，並可視需要升級。
 
     [:octicons-arrow-right-24: Read Full Review](email.md#mailboxorg)
 
