@@ -399,7 +399,7 @@ Si busca más **seguridad**, asegúrese siempre de conectarse a sitios web que u
 ### Software de Cifrado
 
 <details class="info" markdown>
-<summary>Operating System Encryption</summary>
+<summary>Cifrado del Sistema Operativo</summary>
 
 For encrypting your OS drive, we typically recommend using the encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and take advantage of hardware encryption elements such as a [secure cryptoprocessor](basics/hardware.md/#tpmsecure-cryptoprocessor).
 

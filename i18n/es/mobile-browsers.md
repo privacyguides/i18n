@@ -182,7 +182,7 @@ Estas opciones se encuentran en :material-menu: → **Configuración** → **Leo
 
 ### Motores de búsqueda
 
-These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
+Estas opciones se encuentran en :material-menu:/:fontawesome-solid-ellipsis: → **Configuración** → **Motores de búsqueda**.
 
 - [ ] Desmarca **Mostrar sugerencias de búsqueda**
 
@@ -198,10 +198,10 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 
 **Mull** es un navegador para Android orientado a la privacidad y depurado, basado en Firefox. A comparación con Firefox, este ofrece una protección mayor contra las huellas digitales y desactiva la compilación Just-In-Time (JIT) de JavaScript para mejorar la seguridad. Este también elimina todos los elementos propietarios de Firefox, como el reemplazo de las referencias a los Servicios de Google Play.
 
-[:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#mull){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://divestos.org/pages/privacy_policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://divestos.org/pages/browsers#tuningFenix){ .card-link title="Documentation" }
-[:octicons-code-16:](https://codeberg.org/divested-mobile/mull-fenix){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://divestos.org/pages/our_apps#mull){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://divestos.org/pages/privacy_policy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://divestos.org/pages/browsers#tuningFenix){ .card-link title="Documentación" }
+[:octicons-code-16:](https://codeberg.org/divested-mobile/mull-fenix){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
 <summary>Descargas</summary>
@@ -233,7 +233,7 @@ Debido a que Mull tiene protecciones más avanzadas y estrictas activadas por de
 
 ## Safari (iOS)
 
-On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Chromium engine like its counterparts on other operating systems.
+En iOS, cualquier aplicación que pueda navegar por la web está [restringida](https://developer.apple.com/app-store/review/guidelines) a utilizar un [framework WebKit](https://developer.apple.com/documentation/webkit) proporcionado por Apple, por lo que un navegador como [Brave](#brave) no utiliza el motor Chromium como sus homólogos en otros sistemas operativos.
 
 <div class="admonition recommendation" markdown>
 
@@ -241,9 +241,9 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 **Safari** es el navegador predeterminado en iOS. Incluye [funciones de privacidad](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) como [Prevención Inteligente de Rastreo](https://webkit.org/blog/7675/intelligent-tracking-prevention), pestañas aisladas y efímeras de Navegación Privada, protección de huellas digitales (presentando una versión simplificada de la configuración del sistema a los sitios web para que más dispositivos parezcan idénticos) y aleatorización de huellas digitales, así como Relay Privado para quienes tengan una suscripción de pago a iCloud+.
 
-[:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title="Documentation" }
+[:octicons-home-16: Página Principal](https://apple.com/safari){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title="Documentación" }
 
 </details>
 
@@ -255,22 +255,22 @@ Te sugerimos instalar [AdGuard](browser-extensions.md#adguard) si quieres un blo
 
 Las siguientes opciones relacionadas con la privacidad y la seguridad se encuentran en :gear: **Ajustes** → **Aplicaciones** → **Safari**.
 
-#### Allow Safari to Access
+#### Permitir a Safari Acceder
 
-Under **Siri**:
+En **Siri**:
 
-- [ ] Disable **Learn from this App**
-- [ ] Disable **Show in App**
-- [ ] Disable **Show on Home Screen**
-- [ ] Disable **Suggest App**
+- [ ] Desactiva **Aprender de esta App**
+- [ ] Desactiva **Mostrar en App**
+- [ ] Desactiva **Mostrar en Pantalla de Inicio**
+- [ ] Desactiva **Sugerir App**
 
-This prevents Siri from using content from Safari for Siri suggestions.
+Esto evita que Siri utilice el contenido de Safari para las sugerencias de Siri.
 
 #### Buscar
 
-- [ ] Disable **Search Engine Suggestions**
+- [ ] Desactiva **Sugerencias del Motor de Búsqueda**
 
-This setting sends whatever you type in the address bar to the search engine set in Safari. Desactivar las sugerencias de búsqueda te permite controlar con mayor precisión los datos que envías al proveedor de tu motor de búsqueda.
+Este ajuste envía todo lo que escribas en la barra de direcciones al motor de búsqueda configurado en Safari. Desactivar las sugerencias de búsqueda te permite controlar con mayor precisión los datos que envías al proveedor de tu motor de búsqueda.
 
 #### Perfiles
 
@@ -286,31 +286,31 @@ Esto habilita la [Protección de Seguimiento Inteligente](https://webkit.org/tra
 
 Este ajuste te permite bloquear tus pestañas privadas detrás de los datos biométricos/PIN cuando no las estés utilizando.
 
-- [ ] Disable **Fraudulent Website Warning**
+- [ ] Desactiva **Aviso de Sitio Web Fraudulento**
 
-This setting uses Google Safe Browsing (or Tencent Safe Browsing for users in mainland China or Hong Kong) to protect you while you browse. As such, your IP address may be logged by your Safe Browsing provider. Disabling this setting will disable this logging, but you might be more vulnerable to known phishing sites.
+Esta configuración utiliza Google Safe Browsing (o Tencent Safe Browsing para usuarios de China continental o Hong Kong) para protegerte mientras navegas. Por ello, es posible que tu proveedor de navegación segura registre tu dirección IP. Si desactivas esta opción, se desactivará el registro, pero podrías ser más vulnerable a los sitios de phishing conocidos.
 
-- [ ] Disable **Highlights**
+- [ ] Desactiva **Destacados**
 
-Apple's privacy policy for Safari states:
+La política de privacidad de Apple para Safari establece:
 
-> When visiting a webpage, Safari may send information calculated from the webpage address to Apple over OHTTP to determine if relevant highlights are available.
+> Al visitar una página web, Safari puede enviar información calculada a partir de la dirección de la página web a Apple a través de HTTP para determinar si hay disponibles elementos destacados relevantes.
 
-#### Settings for Websites
+#### Configuración de Sitios Web
 
-Under **Camera**
+En **Cámara**
 
-- [x] Select **Ask**
+- [x] Selecciona **Preguntar**
 
-Under **Microphone**
+En **Micrófono**
 
-- [x] Select **Ask**
+- [x] Selecciona **Preguntar**
 
-Under **Location**
+En**Ubicación**
 
-- [x] Select **Ask**
+- [x] Selecciona **Preguntar**
 
-These settings ensure that websites can only access your camera, microphone, or location after you explicitly grant them access.
+Estos ajustes garantizan que los sitios web solo puedan acceder a tu cámara, micrófono o ubicación después de que les concedas explícitamente el acceso.
 
 #### Otros Ajustes de Privacidad
 

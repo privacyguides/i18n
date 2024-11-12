@@ -28,21 +28,21 @@ La forma más rápida, eficaz y privada de darse de baja de los sitios de búsqu
 
 Primero deberías buscar tu información en estos sitios y enviar una solicitud de exclusión si encuentras tu información. Al eliminar tus datos de estos proveedores, normalmente se eliminan tus datos de muchos sitios más pequeños al mismo tiempo.
 
-- Advanced Background Checks ([Search](https://advancedbackgroundchecks.com), [Opt-Out](https://advancedbackgroundchecks.com/removal))
-- BeenVerified ([Search](https://beenverified.com/app/optout/search), [Opt-Out](https://beenverified.com/app/optout/address-search))
+- Advanced Background Checks ([Buscar](https://advancedbackgroundchecks.com), [Darse de baja](https://advancedbackgroundchecks.com/removal))
+- BeenVerified ([Buscar](https://beenverified.com/app/optout/search), [Darse de baja](https://beenverified.com/app/optout/address-search))
 - CheckPeople ([Buscar](https://checkpeople.com/do-not-sell-info), selecciona _Remove Record_ para darte de baja)
-- ClustrMaps ([Search](https://clustrmaps.com), [Opt-Out](https://clustrmaps.com/bl/opt-out))
-- Dataveria ([Search](https://dataveria.com), [Opt-Out](https://dataveria.com/ng/control/privacy))
-- Glad I Know ([Search](https://gladiknow.com), [Opt-Out](https://gladiknow.com/opt-out))
-- InfoTracer ([Search](https://infotracer.com), [Opt-Out](https://infotracer.com/optout))
-- Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
-- PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/optout))
-- PublicDataUSA ([Search](https://publicdatausa.com), [Opt-Out](https://publicdatausa.com/remove.php))
-- Radaris ([Search](https://radaris.com), [Opt-Out](https://radaris.com/page/how-to-remove))
-- Spokeo ([Search](https://spokeo.com/search), [Opt-Out](https://spokeo.com/optout))
-- That's Them ([Search](https://thatsthem.com), [Opt-Out](https://thatsthem.com/optout))
-- USPhonebook ([Search and Opt-Out](https://usphonebook.com/opt-out))
-- Whitepages ([Search](https://whitepages.com), [Opt-Out](https://whitepages.com/suppression_requests))
+- ClustrMaps ([Buscar](https://clustrmaps.com), [Darse de baja](https://clustrmaps.com/bl/opt-out))
+- Dataveria ([Buscar](https://dataveria.com), [Darse de baja](https://dataveria.com/ng/control/privacy))
+- Glad I Know ([Buscar](https://gladiknow.com), [Darse de baja(https://gladiknow.com/opt-out))
+- InfoTracer ([Buscar](https://infotracer.com), [Darse de baja](https://infotracer.com/optout))
+- Intelius ([Buscar](https://intelius.com), [Darse de baja(https://suppression.peopleconnect.us/login))
+- PeekYou ([Buscar](https://peekyou.com), [Darse de baja](https://peekyou.com/about/contact/optout))
+- PublicDataUSA ([Buscar](https://publicdatausa.com), [Darse de baja](https://publicdatausa.com/remove.php))
+- Radaris ([Buscar](https://radaris.com), [Darse de baja](https://radaris.com/page/how-to-remove))
+- Spokeo ([Buscar](https://spokeo.com/search), [Darse de baja](https://spokeo.com/optout))
+- That's Them ([Buscar](https://thatsthem.com), [Darse de baja](https://thatsthem.com/optout))
+- USPhonebook ([Buscar y Darse de baja](https://usphonebook.com/opt-out))
+- Whitepages ([Buscar](https://whitepages.com), [Darse de baja](https://whitepages.com/suppression_requests))
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Un consejo sobre la estrategia de exclusión</p>
@@ -85,9 +85,9 @@ Nuestras pruebas indican que EasyOptOuts ofrece la mejor relación calidad-preci
 
 EasyOptOuts no cubre los siguientes sitios que consideramos de "alta prioridad", por lo que deberías excluirte manualmente:
 
-- Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
-- PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/optout))
-- PublicDataUSA ([Search](https://publicdatausa.com), [Opt-Out](https://publicdatausa.com/remove.php))
+- Intelius ([Buscar](https://intelius.com), [Darse de baja(https://suppression.peopleconnect.us/login))
+- PeekYou ([Buscar](https://peekyou.com), [Darse de baja](https://peekyou.com/about/contact/optout))
+- PublicDataUSA ([Buscar](https://publicdatausa.com), [Darse de baja](https://publicdatausa.com/remove.php))
 
 </div>
 
