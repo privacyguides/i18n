@@ -101,13 +101,13 @@ schema:
 
     Mailbox.org 是一個專注於安全、無廣告的電子郵件服務，並使用 100% 民間供電的環保能源。 他們自 2014 年起開始營運。 Mailbox.org  總部位於德國柏林。 帳戶一開始最多只有 2GB 儲存空間，並可視需要升級。
 
-    [:octicons-arrow-right-24: Read Full Review](email.md#mailboxorg)
+    [:octicons-arrow-right-24: 閱讀完整評論](email.md#mailboxorg)
 
--   ![Tuta logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji loading=lazy } **Tuta**
+- ![Tuta 標誌](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji loading=lazy }![Tuta 標誌](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji loading=lazy } **Tuta**
 
     ---
 
-    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta 自 2011 年開始營運，總部位於德國漢諾威。 免費帳戶的起始儲存容量為 1GB。
+    Tuta(之前稱為 *Tutanota*) 是一項電子郵件服務，透過使用加密技術，著重於安全與隱私。 Tuta 自 2011 年開始營運，總部位於德國漢諾威。 免費帳戶的起始儲存容量為 1GB。
 
     [:octicons-arrow-right-24: 閱讀完整評論](email.md#tuta)
 

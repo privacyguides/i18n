@@ -10,9 +10,9 @@ cover: encryption.webp
 
 ## 多平臺
 
-The options listed here are available on multiple platforms and great for creating encrypted backups of your data.
+這裡列出的選項可在多種平台上使用，非常適合為您的資料建立加密備份。
 
-### Cryptomator (雲端)
+### Cryptomator（雲端）
 
 <small>防護下列威脅：</small>
 
@@ -78,9 +78,9 @@ Cryptomator 的文件詳細介紹它的預期[安全目標](https://docs.cryptom
 
 </div>
 
-Picocrypt has been [audited](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) by Radically Open Security in August 2024, and [most](https://github.com/Picocrypt/Picocrypt/issues/32#issuecomment-2329722740) of the issues found in the audit were subsequently fixed.
+Picocrypt 已於 2024 年 8 月接受 Radically Open Security 的[審核](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf)，審核中發現的[大部分](https://github.com/Picocrypt/Picocrypt/issues/32#issuecomment-2329722740)問題隨後都已修正。
 
-### VeraCrypt (磁碟)
+### VeraCrypt（磁碟）
 
 <small>防護下列威脅：</small>
 
@@ -115,21 +115,21 @@ VeraCrypt是已停產的 TrueCrypt 項目的分支。 根據其開發人員的�
 
 Truecrypt 已完成[多次審計](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits)，而 VeraCrypt 也曾接受 [獨立審計](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit)。
 
-## Operating System Encryption
+## 作業系統加密
 
 <small>防護下列威脅：</small>
 
 - [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
-Built-in OS encryption solutions generally leverage hardware security features such as a [secure cryptoprocessor](basics/hardware.md#tpmsecure-cryptoprocessor). Therefore, we recommend using the built-in encryption solutions for your operating system. For cross-platform encryption, we still recommend [cross-platform tools](#multi-platform) for additional flexibility and to avoid vendor lock-in.
+作業系統內建的加密方案通常會利用硬體安全功能，例如：[安全加密協處理器](basics/hardware.md#tpmsecure-cryptoprocessor)。 因此，我們建議您使用作業系統內建的加密方案。 對於跨平台加密，我們仍建議使用 [跨平台工具](#multi-platform) ，以獲得額外的靈活性，並避免供應商鎖定。
 
 ### BitLocker
 
 <div class="admonition recommendation" markdown>
 
-![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }
+![BitLocker 標誌](assets/img/encryption-software/bitlocker.png){ align=right }
 
-**BitLocker** is the full volume encryption solution bundled with Microsoft Windows that uses the Trusted Platform Module ([TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm)) for hardware-based security.
+**BitLocker** 是 Microsoft Windows 綁定的全 卷(volume) 加密方案，使用 信賴平台模組([TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm)) 提供基於硬體的安全性。
 
 [:octicons-info-16:](https://learn.microsoft.com/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title="說明文件" }
 
@@ -137,7 +137,7 @@ Built-in OS encryption solutions generally leverage hardware security features s
 
 </div>
 
-BitLocker is [officially supported](https://support.microsoft.com/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) on the Pro, Enterprise, and Education editions of Windows. It can be enabled on Home editions provided that they meet the following prerequisites.
+Windows 的專業版、企業版和教育版均[正式支援](https://support.microsoft.com/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) BitLocker。 只要符合下列先決條件，即可在家庭版上啟用。
 
 <details class="example" markdown>
 <summary>Windows Home上啓用BitLocker</summary>
@@ -187,7 +187,7 @@ BitLocker is [officially supported](https://support.microsoft.com/windows/turn-o
 
 ![FileVault logo](assets/img/encryption-software/filevault.png){ align=right }
 
-**FileVault** 是 macOS 內建的即時磁區加密方案。 FileVault takes advantage of the [hardware security capabilities](os/macos-overview.md#hardware-security) present on an Apple silicon SoC or T2 Security Chip.
+**FileVault** 是 macOS 內建的即時磁區加密方案。 FileVault 能利用 Apple 晶片 SoC 或 T2 安全晶片上的 [硬體安全功能](os/macos-overview.md#hardware-security)。
 
 [:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title="說明文件" }
 
@@ -195,7 +195,7 @@ BitLocker is [officially supported](https://support.microsoft.com/windows/turn-o
 
 </div>
 
-We advise against using your iCloud account for recovery; instead, you should securely store a local recovery key on a separate storage device.
+我們建議您不要使用 iCloud 帳戶進行復原；相反地，您應該將本機的復原金鑰安全地儲存在獨立的儲存裝置上。
 
 ### Linux Unified Key設定
 
@@ -377,7 +377,7 @@ gpg --quick-gen-key alice@example.com future-default
 
 ![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }
 
-**GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail-macos) and other email clients on macOS.
+**GPG Suite** 為 macOS 上的 [Apple Mail](email-clients.md#apple-mail-macos) 和其他電子郵件客戶端提供 OpenPGP 支援。
 
 我們建議看看他們的 [第一步](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) 和 [知識庫](https://gpgtools.tenderapp.com/kb) 以取得支援。
 
@@ -395,7 +395,7 @@ gpg --quick-gen-key alice@example.com future-default
 
 </div>
 
-Currently, GPG Suite does [not yet](https://gpgtools.com/sequoia) have a stable release for macOS Sonoma and later.
+目前，GPG Suite [還沒有](https://gpgtools.com/sequoia) 適用於 macOS Sonoma 及更新版本的穩定版本。
 
 ### OpenKeychain
 
@@ -403,7 +403,7 @@ Currently, GPG Suite does [not yet](https://gpgtools.com/sequoia) have a stable 
 
 ![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
 
-**OpenKeychain** is an implementation of GnuPG for Android. It's commonly required by mail clients such as [Thunderbird](email-clients.md#thunderbird), [FairEmail](email-clients.md#fairemail-android), and other Android apps to provide encryption support.
+**OpenKeychain** 是 Android 版 GnuPG 的實作。 一般的郵件客戶端如 [Thunderbird](email-clients.md#thunderbird)、[FairEmail](email-clients.md#fairemail-android) 和其他 Android 應用程式都需要它來提供加密支援。
 
 [:octicons-home-16: 首頁](https://openkeychain.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://openkeychain.org/help/privacy-policy){ .card-link title="隱私權政策" }
@@ -419,7 +419,7 @@ Currently, GPG Suite does [not yet](https://gpgtools.com/sequoia) have a stable 
 
 </div>
 
-Cure53 completed a [security audit](https://openkeychain.org/openkeychain-3-6) of OpenKeychain 3.6 in October 2015. The published audit and OpenKeychain's solutions to the issues raised in the audit can be found [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
+Cure53 於 2015 年 10 月完成對 OpenKeychain 3.6 的 [安全審核](https://openkeychain.org/openkeychain-3-6)。 已公布的審核報告以及 OpenKeychain 對於審核報告中所提出問題的解決方案，可以在 [這裡](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015) 找到。
 
 ## 標準
 
