@@ -266,9 +266,9 @@ Mullvad 曾支援遠端端口轉發，但在 [2023 年 5 月](https://mullvad.ne
 
 #### :material-check:{ .pg-green } 突破網路審查
 
-Mullvad offers several features to help bypass censorship and access the internet freely:
+Mullvad 提供多種功能，協助繞過審查制度，自由存取網際網路：
 
-- **Obfuscation modes**: Mullvad has two built-in obfuscation modes: "UDP-over-TCP" and ["Wireguard over Shadowsocks"](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard). These modes disguise your VPN traffic as regular web traffic, making it harder for censors to detect and block. Supposedly, China has to use a [new method to disrupt Shadowsocks-routed traffic](https://gfw.report/publications/usenixsecurity23/en).
+- **混淆模式**：Mullvad 有兩種內建混淆模式—"UDP-over-TCP" 和 ["Wireguard over Shadowsocks"](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard)。 這些模式會將您的 VPN 流量偽裝成一般的網路流量，使審查員更難偵測和封鎖。 據說，中國得利用[新方法來擾亂 Shadowsocks 路由的流量](https://gfw.report/publications/usenixsecurity23/en)。
 - **Advanced obfuscation with Shadowsocks and v2ray**: For more advanced users, Mullvad provides a guide on how to use the [Shadowsocks with v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) plugin with Mullvad clients. This setup provides an additional layer of obfuscation and encryption.
 - **Custom server IPs**: To counter IP-blocking, you can request custom server IPs from Mullvad's support team. Once you receive the custom IPs, you can input the text file in the "Server IP override" settings, which will override the chosen server IP addresses with ones that aren't known to the censor.
 - **Bridges and proxies**: Mullvad also allows you to use bridges or proxies to reach their API (needed for authentication), which can help bypass censorship attempts that block access to the API itself.
