@@ -21,7 +21,7 @@ cover: alternative-networks.webp
 
 ![Tor logo](assets/img/self-contained-networks/tor.svg){ align=right }
 
-**Tor** 網絡是一組由志願者操作的伺服器，可免費連線，並改善隱私權和安全性。 個人和組織還可以通過 Tor 網路與“.onion 隱藏服務”分享資訊，而不會侵犯他們的隱私。 由於 Tor 流量難以封鎖和追蹤，因此 Tor 是一種有效的 [:material-close-outline: 審查](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } 規避工具。
+**Tor** 網路是一組由志願者操作的伺服器，可免費連線，並改善隱私權和安全性。 個人和組織還可以通過 Tor 網路與“.onion 隱藏服務”分享資訊，而不會侵犯他們的隱私。 由於 Tor 流量難以封鎖和追蹤，因此 Tor 是一種有效的 [:material-close-outline: 審查](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } 規避工具。
 
 [:octicons-home-16:](https://torproject.org){ .card-link title=首頁 }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="洋蔥服務" }

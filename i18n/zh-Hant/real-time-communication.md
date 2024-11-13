@@ -285,5 +285,5 @@ Session [白皮書](https://arxiv.org/pdf/2002.04609.pdf) ，描述了應用程�
 - 所有訊息預設為使用 E2EE。
 - 支援多平台 Linux、macOS、Windows、Android 和 iOS。
 
-[^1]: [前向保密](https://en.wikipedia.org/wiki/Forward_secrecy) 是指密鑰會非常頻繁地輪換，因此如果目前的加密密鑰被洩露，也不會暴露**過去的**訊息。
+[^1]: [前向保密](https://en.wikipedia.org/wiki/Forward_secrecy) 是指金鑰會非常頻繁的輪換，因此如果目前的加密金鑰被洩露，也不會暴露**過去的**訊息。
 [^2]: 未來保密（或洩漏後安全）是防止攻擊者利用洩露的私鑰解密**未來**訊息，除非攻擊者將來也能取得更多會話金鑰。 這有效地迫使攻擊者攔截各方間的所有通訊，因為一旦發生未被攔截的金鑰交換，他們就會失去訪問權限。&#160;[ &#8617;](#fnref:2){.footnote-backref}

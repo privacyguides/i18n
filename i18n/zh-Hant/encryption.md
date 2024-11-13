@@ -282,7 +282,7 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 ![Tomb logo](assets/img/encryption-software/tomb.png){ align=right }
 
-**Tomb** 是 LUKS 的命令行 shell 包裝器。 它通過 [第三方工具](https://dyne.org/software/tomb/#advanced-usage) 支持隱寫。
+**Tomb** 是 LUKS 的命令行 shell 包裝器。 它通過 [第三方工具](https://dyne.org/software/tomb/#advanced-usage) 支援隱寫。
 
 [:octicons-home-16: 首頁](https://dyne.org/software/tomb){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/dyne/Tomb/wiki){ .card-link title="說明文件" }
