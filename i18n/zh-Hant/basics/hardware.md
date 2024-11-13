@@ -12,7 +12,7 @@ description: 隱私保護不能僅聚焦於軟體方面；了解您每天使用�
 
 ### 硬體安全認證
 
-有些裝置會有「硬體安全認證」，例如在設計硬體時，廠商之間會就最佳實務和建議進行合作：
+有些裝置會有「硬體安全認證」，例如在設計硬體時，廠商之間會就最佳實踐和建議進行合作：
 
 - [Windows 安全核心電腦](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) 符合 Microsoft 指定的更高安全性標準。 這些保護並不只適用於 Windows 使用者；其他作業系統的使用者仍可利用其 [DMA 保護](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) 以及 完全不信任 Microsoft 證書 等功能。
 - [Android Ready SE](https://developers.google.com/android/security/android-ready-se) 是廠商之間的合作，以確保其裝置遵循 [最佳實踐](https://source.android.com/docs/security/best-practices/hardware) ，並包含基於硬體的可防篡改儲存裝置，例如加密金鑰。
@@ -92,9 +92,9 @@ Android 為生物辨識定義了三種 [安全等級](https://source.android.com
 
 許多電腦的 BIOS 選項可以停用攝影機和麥克風； 當在此處被停用時，這些硬體甚至不會在啟動的系統上顯示為裝置。
 
-### 隱私屏障
+### 螢幕防窺片
 
-隱私屏障是一種可以覆蓋在正常螢幕上的薄膜，因此螢幕只能從特定角度可見。 如果您的威脅模型包括他人偷看您的螢幕，這些都是很好的方法，但並非萬無一失，因為任何人都可以移動到不同的檢視角度，看到您螢幕上的內容。
+螢幕防窺片是一種可以覆蓋在正常螢幕上的薄膜，因此螢幕只能從特定角度可見。 如果您的威脅模型包括他人偷看您的螢幕，這些都是很好的方法，但並非萬無一失，因為任何人都可以移動到不同的檢視角度，看到您螢幕上的內容。
 
 ### 警醒設備
 
