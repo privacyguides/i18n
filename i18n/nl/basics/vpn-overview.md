@@ -25,7 +25,7 @@ VPN's versleutelen je verkeer tussen je apparaat en een server van je VPN-aanbie
 ``` mermaid
 flowchart LR
  763931["Your Device<div>(with VPN Client)</div>"] ===|"VPN Encryption"| 404512{"VPN Server"}
- 404512 -.-|"No VPN Encryption"| 593753((("The Internet\n(Your Destination)")))
+ 404512 -.-|"No VPN Encryption"| 593753(("The Internet<div>(Your Destination)</div>"))
  subgraph 763931["Your Device<div>(with VPN Client)</div>"]
  end
 ```

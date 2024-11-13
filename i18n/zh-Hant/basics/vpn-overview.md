@@ -25,7 +25,7 @@ VPN 會對裝置和 VPN 提供者擁有的伺服器之間流量進行加密。 �
 ``` mermaid
 flowchart LR
  763931["Your Device<div>(with VPN Client)</div>"] ===|"VPN Encryption"| 404512{"VPN Server"}
- 404512 -.-|"No VPN Encryption"| 593753((("The Internet\n(Your Destination)")))
+ 404512 -.-|"No VPN Encryption"| 593753(("The Internet<div>(Your Destination)</div>"))
  subgraph 763931["Your Device<div>(with VPN Client)</div>"]
  end
 ```

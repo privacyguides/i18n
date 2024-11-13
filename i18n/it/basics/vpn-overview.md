@@ -24,9 +24,9 @@ Le VPN criptano il tuo traffico tra il tuo dispositivo e un server di proprietà
 
 ``` mermaid
 flowchart LR
- 763931["Tuo Dispositivo<div>(con Client VPN)</div>"] ===|"Crittografia VPN"| 404512{"Server VPN"}
- 404512 -.-|"Nessuna Crittografia VPN"| 593753((("Internet\n(Tua Destinazione)")))
- subgraph 763931["Tuo Dispositivo<div>(con Client VPN)</div>"]
+ 763931["Your Device<div>(with VPN Client)</div>"] ===|"VPN Encryption"| 404512{"VPN Server"}
+ 404512 -.-|"No VPN Encryption"| 593753(("The Internet<div>(Your Destination)</div>"))
+ subgraph 763931["Your Device<div>(with VPN Client)</div>"]
  end
 ```
 

@@ -24,9 +24,9 @@ Les VPNs chiffrent votre trafic entre votre appareil et un serveur appartenant Ã
 
 ``` mermaid
 flowchart LR
- 763931["Votre appareil<div>(avec client VPN)</div>"] ===|"chiffrement VPN"| 404512{"serveur VPN"}
- 404512 -.-|"pas de chiffrement VPN"| 593753((("Internet\n(votre destination)")))
- subgraph 763931["Votre appareil<div>(avec client VPN)</div>"]
+ 763931["Your Device<div>(with VPN Client)</div>"] ===|"VPN Encryption"| 404512{"VPN Server"}
+ 404512 -.-|"No VPN Encryption"| 593753(("The Internet<div>(Your Destination)</div>"))
+ subgraph 763931["Your Device<div>(with VPN Client)</div>"]
  end
 ```
 

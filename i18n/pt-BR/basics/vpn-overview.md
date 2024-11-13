@@ -23,7 +23,11 @@ Quando nos referimos a "Redes Privadas Virtuais" neste site, geralmente estamos 
 As VPNs criptografam o tráfego entre o dispositivo e um servidor de propriedade do provedor de VPN. Do ponto de vista de qualquer pessoa entre você e o servidor VPN, parece que você está se conectando ao servidor VPN. Do ponto de vista de qualquer pessoa entre o servidor VPN e o site de destino, tudo o que ela pode ver é o servidor VPN se conectando ao site.
 
 ``` mermaid
-
+flowchart LR
+ 763931["Your Device<div>(with VPN Client)</div>"] ===|"VPN Encryption"| 404512{"VPN Server"}
+ 404512 -.-|"No VPN Encryption"| 593753(("The Internet<div>(Your Destination)</div>"))
+ subgraph 763931["Your Device<div>(with VPN Client)</div>"]
+ end
 ```
 
 Observe que uma VPN não adiciona nenhuma segurança ou criptografia ao seu tráfego entre o servidor VPN e o seu destino na Internet. Para acessar um site com segurança, você ainda **deve** garantir que o HTTPS esteja em uso, independentemente de usar uma VPN.

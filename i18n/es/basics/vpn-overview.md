@@ -23,10 +23,10 @@ Cuando hablamos de "Redes Privadas Virtuales" en este sitio web, normalmente nos
 Las VPN cifran el tráfico entre tu dispositivo y un servidor propiedad de tu proveedor de VPN. Desde la perspectiva de cualquiera que se encuentre entre ti y el servidor VPN, parece que te estás conectando al servidor VPN. Desde la perspectiva de cualquier persona que se encuentre entre el servidor VPN y tu sitio de destino, todo lo que pueden ver es el servidor VPN conectándose al sitio web.
 
 ``` mermaid
-diagrama de flujo LR
- 763931["Tu Dispositivo<div>(con Cliente VPN)</div>"] ===|"Cifrado VPN"| 404512{"Servidor VPN"}
- 404512 -.-|"Sin Cifrado VPN "| 593753((("Internet\n(Tu Destino)")))
- subgraph 763931["Tu Dispositivo<div>(con Cliente VPN)</div>"]
+flowchart LR
+ 763931["Your Device<div>(with VPN Client)</div>"] ===|"VPN Encryption"| 404512{"VPN Server"}
+ 404512 -.-|"No VPN Encryption"| 593753(("The Internet<div>(Your Destination)</div>"))
+ subgraph 763931["Your Device<div>(with VPN Client)</div>"]
  end
 ```
 
