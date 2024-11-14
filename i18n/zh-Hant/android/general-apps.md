@@ -61,7 +61,7 @@ Shelter 支援阻止跨配置檔案的聯絡人搜尋以及透過預設檔案管
 
 <small>防護下列威脅：</small>
 
-- [:material-account-search: 公共曝露](../basics/common-threats.md#limiting-public-information){ .pg-green }
+- [:material-account-search: 公共暴露](../basics/common-threats.md#limiting-public-information){ .pg-green }
 
 <div class="admonition recommendation" markdown>
 

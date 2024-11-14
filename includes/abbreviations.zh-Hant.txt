@@ -16,7 +16,7 @@
 *[DoQ]: 基於 QUIC 的 DNS 服務 (DNS over QUIC)
 *[DoH3]: 基於 HTTP/3 的 DNS 服務 (DNS over HTTP/3)
 *[DoT]: 基於 TLS 的 DNS 服務 (DNS over TLS)
-*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
+*[DPI]: 即：深度封包檢測 (Deep Packet Inspection)，是一種用於識別並封鎖具有特定特徵封包的技術
 *[E2EE]: 端對端加密
 *[ECS]: EDNS 客戶端子網
 *[EEA]: 歐洲經濟區
@@ -72,7 +72,7 @@
 *[PGP]: 優良保密協定 (見 OpenPGP)
 *[PII]: 個人識別資訊
 *[QNAME]: 限定名稱
-*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
+*[QUIC]: 以 UDP 為基礎的網路協定，旨在結合 UDP 的速度與 TCP 的可靠性。
 *[滾動式更新]: 頻繁釋出的更新，而非在固定的時間間隔內進行更新。
 *[RSS]: 簡易資訊聚合格式
 *[SELinux]: 安全增強型 Linux

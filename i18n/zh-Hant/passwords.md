@@ -234,11 +234,7 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 
 > Proton Pass 應用程式和元件在安全性方面給人留下相當正面的印象。
 
-所提出的問題與修正都見諸於
-
-報告< /a>。</p> 
-
-
+所提出的問題與修正可在 [報告](https://res.cloudinary.com/dbulfrlrz/images/v1707561557/wp-pme/Cure53-proton-pass-20230717/Cure53-proton-pass-20230717.pdf) 中見到。
 
 ### 1Password
 
@@ -274,8 +270,6 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 
 您的 1Password 儲存庫使用您的主密碼和隨機化的 34 個字元安全金鑰來保護，以加密您在其伺服器上的資料。 此安全金鑰為您的資料添加了一層保護，因為無論您的主密碼如何，資料都受到高熵保護。 許多其他密碼管理器解決方案完全依賴於您的主密碼的強度來保護您的數據。
 
-
-
 ### Psono
 
 <div class="admonition recommendation" markdown>
@@ -306,13 +300,9 @@ Psono 為其產品提供廣泛的說明文件。 Psono 的網路用戶端可以�
 
 2024 年 4 月，Psono 僅為瀏覽器擴充套件新增[密碼金鑰的支援](https://psono.com/blog/psono-introduces-passkeys)。
 
-
-
 ### 標準
 
 **請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
-
-
 
 #### 最低合格要求
 
@@ -322,8 +312,6 @@ Psono 為其產品提供廣泛的說明文件。 Psono 的網路用戶端可以�
 - 所有非必要的遙測都必須是可選的。
 - 除了收費之必要外，不得收集過多個人識別資訊(PII)。
 
-
-
 #### 最佳情況
 
 最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
@@ -331,13 +319,9 @@ Psono 為其產品提供廣泛的說明文件。 Psono 的網路用戶端可以�
 - 遙測應選擇加入（預設情況下禁用）或根本不收集。
 - 應該是開源的，並且可以合理地自主託管。
 
-
-
 ## 本地儲存
 
 這些選項可讓您在本機管理加密的密碼資料庫。
-
-
 
 ### KeePassXC
 
@@ -368,8 +352,6 @@ Psono 為其產品提供廣泛的說明文件。 Psono 的網路用戶端可以�
 </div>
 
 KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) 檔案。 如果您將此檔案匯入其他密碼管理器，可能會造成資料遺失的問題。 我們建議您手動檢查每個記錄。
-
-
 
 ### KeePassDX (Android)
 
@@ -418,8 +400,6 @@ KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-
 </div>
 
 此外，Strongbox 還提供離線版本： [Strongbox Zero](https://apps.apple.com/app/id1581589638)。 此版本經過刪減，試圖減少攻擊面。
-
-
 
 ### gopass (CLI)
 
