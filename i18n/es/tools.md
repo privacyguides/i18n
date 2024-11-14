@@ -70,13 +70,21 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
     - [Brave Desktop Review :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
     - [Brave Mobile Review :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
 
+- ![Cromite logo](assets/img/browsers/cromite.svg){ .lg .middle .twemoji } **Cromite (Android)**
+
+    ---
+
+    **Cromite** is a Chromium-based Android browser with built-in ad-blocking and [privacy enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the popular, now-discontinued Bromite browser.
+
+    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
+
 - ![Mull logo](assets/img/browsers/mull.svg){ .lg .middle .twemoji } **Mull (Android)**
 
     ---
 
-    **Mull** es un navegador basado en Firefox para Android centrado en la privacidad y la eliminación de componentes propietarios.
+    **Mull** is a Firefox-based browser for Android centered around privacy and removing proprietary components.
 
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#mull)
+    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#mull-android)
 
 - ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
 
@@ -108,8 +116,8 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
 <div class="grid cards" markdown>
 
-- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Procy Tor Smartphone)](tor.md#orbot)
-- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor para iOS)](tor.md#onion-browser)
+- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
+- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor for iOS)](tor.md#onion-browser-ios)
 
 </div>
 

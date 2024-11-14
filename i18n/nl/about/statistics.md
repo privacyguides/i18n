@@ -7,7 +7,7 @@ description: We self-host Umami to create a nice visualization of our traffic st
 
 We hosten [Umami](https://umami.is) zelf om een mooie visualisatie van onze webverkeersstatistieken te maken, die openbaar zijn via de onderstaande link.
 
-[Bekijk statistieken](https://stats.privacyguides.net/share/nVWjyd2QfgOPBhMF/www.privacyguides.org){ .md-button .md-button--primary }
+[View Statistics](https://stats.triplebit.net/share/S80jBc50hxr5TquS/www.privacyguides.org){ .md-button .md-button--primary }
 
 Met deze methode:
 

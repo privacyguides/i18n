@@ -9,10 +9,7 @@ description: 網站供稿者以正確格式和取得方式上傳圖片的指南�
 
 - 我們**偏好** SVG 影像，但如果沒有 SVG 影像，我們也可以使用 PNG 影像。 此外，對於封面圖片，我們希望它們是從 [Unsplash](https://unsplash.com) 取得，並且是 WebP 格式。
 
-公司標誌的尺寸為：
-
-- 128x128px
-- 384x128px
+Company logos should be square if possible, and at least 200x200px if they are PNGs (non-vector images).
 
 ## 最佳化
 

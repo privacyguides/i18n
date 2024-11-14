@@ -9,10 +9,7 @@ Si realiza cambios a este sitio web donde se requiera agregar nuevas imágenes o
 
 - **Preferimos** las imágenes SVG, pero si no existen podemos usar imágenes PNG. Además, para las imágenes de portada, preferimos que sean obtenidas de [Unsplash](https://unsplash.com) y estén en formato WebP.
 
-Los logotipos de empresa tienen un tamaño de lienzo de:
-
-- 128x128px
-- 384x128px
+Company logos should be square if possible, and at least 200x200px if they are PNGs (non-vector images).
 
 ## Optimización
 

@@ -59,7 +59,7 @@ Le recomendamos que desactive las [Estadísticas de uso anónimas](https://searc
 
 **DuckDuckGo** es uno de los buscadores privados más populares. Entre las funciones de búsqueda de DuckDuckGo destacan [bangs](https://duckduckgo.com/bang) y una variedad de [respuestas instantáneas](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features). El motor de búsqueda utiliza numerosas [fuentes](https://help.duckduckgo.com/results/sources) distintas de Bing para las respuestas instantáneas y otros resultados no primarios.
 
-DuckDuckGo es el motor de búsqueda por defecto de [Tor Browser](tor.md#tor-browser) y es una de las pocas opciones disponibles en el navegador [Safari](mobile-browsers.md#safari) de Apple.
+DuckDuckGo is the default search engine for the [Tor Browser](tor.md#tor-browser) and is one of the few available options on Apple’s [Safari](mobile-browsers.md#safari-ios) browser.
 
 [:octicons-home-16: Página Principal](https://duckduckgo.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Servicio Onion" }

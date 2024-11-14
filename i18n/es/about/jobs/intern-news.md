@@ -5,6 +5,15 @@ description: Privacy Guides busca un becario que descubra y promueva contenidos 
 
 [:material-arrow-left-drop-circle: Ofertas de Empleo](../jobs.md)
 
+<div class="admonition info" markdown>
+<p class="admonition-title">Position Closed</p>
+
+Thank you for your interest in this position at Privacy Guides. At this time we are no longer accepting new applications, but please follow our [job openings](../jobs.md) page to learn about future opportunities.
+
+As of November 14, 2024, we may still be reaching out to existing candidates. If you previously applied, please keep an eye on your inbox!
+
+</div>
+
 ¿Te apasionan la privacidad y la ciberseguridad?
 
 Privacy Guides es una organización internacional sin ánimo de lucro dedicada a producir contenidos educativos y periodísticos imparciales de primer nivel y a fomentar comunidades en línea seguras e informativas para debatir temas técnicos relacionados con la mejora de la privacidad personal y la ciberseguridad.
@@ -35,7 +44,14 @@ Se trata de un contrato de 6 meses con una remuneración de 15 $/hora dólares e
 
 ---
 
-**Para presentar tu candidatura, por favor, envía una carta de presentación y un currículum vitae a <jobs@privacyguides.org>, e incluye el nombre de este puesto en el asunto. Si lo deseas, puedes incluir cualquier otra información o ejemplos de tu trabajo que consideres relevantes.**
+<div class="admonition info" markdown>
+<p class="admonition-title">Position Closed</p>
+
+Thank you for your interest in this position at Privacy Guides. At this time we are no longer accepting new applications, but please follow our [job openings](../jobs.md) page to learn about future opportunities.
+
+As of November 14, 2024, we may still be reaching out to existing candidates. If you previously applied, please keep an eye on your inbox!
+
+</div>
 
 Privacy Guides está auspiciada fiscalmente por [MAGIC Grants](https://magicgrants.org), una organización benéfica pública 501(c)(3). MAGIC Grants ofrece igualdad de oportunidades. MAGIC Grants no discrimina a ningún solicitante o empleado por motivos de edad, color, sexo, discapacidad, origen nacional, raza, religión, orientación sexual, identidad sexual, condición de veterano o cualquier otra característica protegida.
 

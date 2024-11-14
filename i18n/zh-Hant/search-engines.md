@@ -59,7 +59,7 @@ Brave Search 包括獨特的功能，如[討論](https://search.brave.com/help/d
 
 **DuckDuckGo** 最主流的隱私搜尋引擎選項之一。 著名的 DuckDuckGo 搜索功能包括 [bangs](https://duckduckgo.com/bang)和許多[即時答案](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features)。 此搜尋引擎使用 Bing 以外的眾多[來源](https://help.duckduckgo.com/results/sources) 來獲取即時答案和其他非主要結果。
 
-DuckDuckGo 是 [Tor瀏覽器](tor.md#tor-browser) 的預設搜尋引擎，也是 Apple [Safari 瀏覽器](mobile-browsers.md#safari) 上為數不多的可用選項之一。
+DuckDuckGo is the default search engine for the [Tor Browser](tor.md#tor-browser) and is one of the few available options on Apple’s [Safari](mobile-browsers.md#safari-ios) browser.
 
 [:octicons-home-16: 首頁](https://duckduckgo.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="洋蔥服務" }

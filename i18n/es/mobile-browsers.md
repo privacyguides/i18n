@@ -27,6 +27,18 @@ schema:
   - 
     "@context": http://schema.org
     "@type": MobileApplication
+    name: Cromite
+    image: /assets/img/browsers/cromite.svg
+    url: https://cromite.org
+    applicationCategory: Web Browser
+    operatingSystem:
+      - Android
+    subjectOf:
+      "@type": WebPage
+      url: "./"
+  - 
+    "@context": http://schema.org
+    "@type": MobileApplication
     name: Safari
     image: /assets/img/browsers/safari.svg
     url: https://apple.com/safari
@@ -168,7 +180,7 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
     - [ ] Desmarca **Permitir estadísticas de productos que preservan la privacidad (P3A)**
     - [ ] Desmarca **Enviar automáticamente el ping de uso diario a Brave**
 
-### Leo
+#### Leo
 
 Estas opciones se encuentran en :material-menu: → **Configuración** → **Leo**.
 
@@ -180,15 +192,76 @@ Estas opciones se encuentran en :material-menu: → **Configuración** → **Leo
 
 1. Esta opción no está presente en la aplicación de Brave para iOS.
 
-### Motores de búsqueda
+#### Motores de búsqueda
 
 Estas opciones se encuentran en :material-menu:/:fontawesome-solid-ellipsis: → **Configuración** → **Motores de búsqueda**.
 
 - [ ] Desmarca **Mostrar sugerencias de búsqueda**
 
-### Brave Sync
+#### Brave Sync
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) permite que tus datos de navegación (historial, favoritos, etc.) sean accesibles en todos tus dispositivos sin necesidad de tener una cuenta y los protege con E2EE.
+
+## Cromite (Android)
+
+<div class="admonition recommendation" markdown>
+
+![Cromite logo](assets/img/browsers/cromite.svg){ align=right }
+
+**Cromite** is a Chromium-based browser with built-in ad blocking, fingerprinting protections, and other [privacy and security enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the discontinued **Bromite** browser.
+
+[:octicons-home-16: Homepage](https://www.cromite.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Source Code" }
+
+<details class="downloads" markdown>
+<summary>Downloads</summary>
+
+- [:simple-android: F-Droid](https://www.cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
+- [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
+
+</details>
+
+</div>
+
+### Configuración Recomendada
+
+These options can be found in :material-menu: → :gear: **Settings** → **Privacy and security**.
+
+#### Browsing data
+
+- [x] Select **Close all open tabs on exit**
+
+#### Incognito mode
+
+- [x] Select **Open external links in incognito**
+
+#### Seguridad
+
+- [x] Select **Always use secure connections**
+
+Esto evita que te conectes involuntariamente a un sitio web en texto plano HTTP. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+
+#### Adblock Plus settings
+
+These options can be found in :material-menu: → :gear: **Settings** → **Adblock Plus settings**.
+
+Cromite contains a customized version of Adblock Plus with EasyList enabled by default, as well as options to select more filter lists within the **FIlter lists** menu.
+
+Using extra lists will make you stand out from other Cromite users and may also increase attack surface if a malicious rule is added to one of the lists you use.
+
+- \[x\] (Optional) Select **Enable anti-circumvention and snippets**
+
+This setting adds an additional Adblock Plus list that may increase the effectiveness of Cromite's content blocking. The warnings about standing out and potentially increasing attack surface apply.
+
+#### Legacy Adblock settings
+
+These options can be found in :material-menu: → :gear: **Settings** → **Legacy Adblock settings**.
+
+- [ ] Uncheck the autoupdate setting
+
+This disables update checks for the unmaintained Bromite adblock filter.
 
 ## Mull (Android)
 

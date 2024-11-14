@@ -29,12 +29,4 @@ Ocasionalmente buscamos buenos redactores periodísticos, revisores de productos
 
   [Ver publicación :material-arrow-right-drop-circle:](jobs/journalist.md)
 
-- :material-comment-account-outline:{ .lg .middle } **Becario - Comunidad/Noticias**
-
-  ---
-
-  Prácticas | A Distancia | \15$/hora
-
-  [Ver publicación :material-arrow-right-drop-circle:](jobs/intern-news.md)
-
 </div>

@@ -29,12 +29,4 @@ Privacy Guides 擁有一支由隱私權研究人員和倡導者組成的小型�
 
   [View posting :material-arrow-right-drop-circle:](jobs/journalist.md)
 
-- :material-comment-account-outline:{ .lg .middle } **Intern - Community/News**
-
-  ---
-
-  Internship | Remote | \$15/hour
-
-  [View posting :material-arrow-right-drop-circle:](jobs/intern-news.md)
-
 </div>

@@ -9,10 +9,7 @@ If you make changes to this website that involve adding new images or replacing 
 
 - We **prefer** SVG images, but if those do not exist we can use PNG images. Additionally, for cover images, we prefer that they are obtained from [Unsplash](https://unsplash.com) and are in the WebP format.
 
-Firmenlogos haben eine Leinwandgröße von:
-
-- 128 x 128 px
-- 384 x 128 px
+Company logos should be square if possible, and at least 200x200px if they are PNGs (non-vector images).
 
 ## Optimierung
 

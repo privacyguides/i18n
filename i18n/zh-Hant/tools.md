@@ -67,16 +67,24 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
     **Brave** 是基於 Chromium ，預設保護您隱私的瀏覽器；所以應該十分容易上手，網站相容性的問題也最小。
 
-    - [閱讀 Brave電腦版 的評論 :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
-    - [閱讀 Brave手機版 的評論 :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
+    - [Brave Desktop Review :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
+    - [Brave Mobile Review :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
+
+- ![Cromite logo](assets/img/browsers/cromite.svg){ .lg .middle .twemoji } **Cromite (Android)**
+
+    ---
+
+    **Cromite** is a Chromium-based Android browser with built-in ad-blocking and [privacy enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the popular, now-discontinued Bromite browser.
+
+    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
 
 - ![Mull logo](assets/img/browsers/mull.svg){ .lg .middle .twemoji } **Mull (Android)**
 
     ---
 
-    **Mull** 是以隱私和零專有元件為重點的 Android 版 Firefox 瀏覽器。
+    **Mull** is a Firefox-based browser for Android centered around privacy and removing proprietary components.
 
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#mull)
+    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#mull-android)
 
 - ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
 
@@ -108,8 +116,8 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 <div class="grid cards" markdown>
 
-- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot（手機上的 Tor 代理）](tor.md#orbot)
-- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser（iOS版 Tor瀏覽器）](tor.md#onion-browser)
+- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
+- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor for iOS)](tor.md#onion-browser-ios)
 
 </div>
 
