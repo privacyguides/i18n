@@ -204,7 +204,7 @@ Bitwarden 伺服器端代碼是 [開源的](https://github.com/bitwarden/server)
 
 ![Proton Pass 標誌](assets/img/password-management/protonpass.svg){ align=right }
 
-**Proton Pass** 是由 [Proton Mail] (email.md#protonmail) 背後的團隊 Proton 所開發的開放原始碼、端對端加密的密碼管理器。 它能安全地儲存您的登入憑證、產生獨特的電子郵件別名，並支援儲存密碼。
+**Proton Pass** 是由 [Proton Mail](email.md#protonmail) 背後的團隊 Proton 所開發的開放原始碼、端對端加密的密碼管理器。 它能安全地儲存您的登入憑證、產生獨特的電子郵件別名，並支援儲存密碼。
 
 [:octicons-home-16: 首頁](https://proton.me/pass){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="隱私權政策" }
