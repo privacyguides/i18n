@@ -22,9 +22,15 @@ The only source for apps on iOS is Apple's App Store, which requires an Apple Ac
 
 ### Invazív telemetria
 
-Az Apple-nek korábban is voltak problémái telemetria megfelelő anonimizálásával az iOS-en. [2019-ben](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings) kiderült, hogy az Apple a Siri felvételeit – amelyek némelyike rendkívül bizalmas információkat tartalmazott – továbbította a szervereire, hogy azt harmadik fél szerződött vállalkozók kézzel vizsgálják felül. Bár átmenetileg leállították ezt a programot, miután [széles körben beszámoltak](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana) erről a gyakorlatról, a probléma [2021-ig](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance) nem oldódott meg teljesen.
+Apple has historically had problems with properly disassociating their telemetry from Apple Accounts on iOS. In [2019](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), Apple was found to transmit Siri recordings—some containing highly confidential information—to their servers for manual review by third-party contractors. Though Apple temporarily stopped that program after that practice was [widely reported on](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), the company rolled out a switch to [**opt out** of uploading conversations with Siri](https://theguardian.com/technology/2019/oct/30/apple-lets-users-opt-out-of-having-siri-conversations-recorded) a few months later in the succeeding iOS update. Moreover, in 2021, [Apple reworked Siri](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance) so that it processes voice recordings locally rather than sending it to their servers.
 
-A közelmúltban kiderült, hogy az Apple [még akkor is továbbítja az analitikai adatokat, ha az](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) iOS-en az analitikai megosztás ki van kapcsolva, és [úgy tűnik,](https://twitter.com/mysk_co/status/1594515229915979776) hogy ezek az adatok könnyen összekapcsolhatók az iCloud-fiók egyedi azonosítóival, annak ellenére, hogy állítólag névtelenek.
+More recently, Apple has been found to transmit analytics [even when analytics sharing is disabled](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) on iOS, and this data [appears](https://twitter.com/mysk_co/status/1594515229915979776) to be easily linked to unique iCloud account identifiers despite supposedly being decoupled from Apple Accounts.
+
+### Traffic Outside Active VPN Connections
+
+Apple's [privacy policy regarding VPNs](https://apple.com/legal/privacy/data/en/vpns) states:
+
+> Even when a VPN is active, some traffic that is necessary for essential system services will take place outside the VPN so that your device can function properly.
 
 ## Ajánlott konfiguráció
 

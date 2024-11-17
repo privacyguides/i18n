@@ -22,9 +22,15 @@ The only source for apps on iOS is Apple's App Store, which requires an Apple Ac
 
 ### 侵入式遙測
 
-蘋果在 iOS 適當匿名遙測上常發生問題。 [2019 年](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings)，Apple 被發現將 Siri 錄音（其中一些包含高度機密信息）傳輸回其伺服器，以供第三方承包商進行手動審核。 雖然他們這種做法被[廣泛報導後](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana)暫時停止了該計劃，[直到2021 年](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance)，問題並未完全解決。
+Apple has historically had problems with properly disassociating their telemetry from Apple Accounts on iOS. In [2019](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), Apple was found to transmit Siri recordings—some containing highly confidential information—to their servers for manual review by third-party contractors. Though Apple temporarily stopped that program after that practice was [widely reported on](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), the company rolled out a switch to [**opt out** of uploading conversations with Siri](https://theguardian.com/technology/2019/oct/30/apple-lets-users-opt-out-of-having-siri-conversations-recorded) a few months later in the succeeding iOS update. Moreover, in 2021, [Apple reworked Siri](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance) so that it processes voice recordings locally rather than sending it to their servers.
 
-最近，人們發現 Apple [即使禁用分析共享， iOS 也會傳輸分析數據 ](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) ，儘管宣稱已匿名處理，這些數據[似乎](https://twitter.com/mysk_co/status/1594515229915979776)很容易連結到唯一的 iCloud 帳戶標識符。
+More recently, Apple has been found to transmit analytics [even when analytics sharing is disabled](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) on iOS, and this data [appears](https://twitter.com/mysk_co/status/1594515229915979776) to be easily linked to unique iCloud account identifiers despite supposedly being decoupled from Apple Accounts.
+
+### Traffic Outside Active VPN Connections
+
+Apple's [privacy policy regarding VPNs](https://apple.com/legal/privacy/data/en/vpns) states:
+
+> Even when a VPN is active, some traffic that is necessary for essential system services will take place outside the VPN so that your device can function properly.
 
 ## 建議的設定
 
