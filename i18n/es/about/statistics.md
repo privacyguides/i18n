@@ -7,7 +7,7 @@ description: Nosotros autoalojamos Umami para crear una bonita visualización de
 
 Nosotros alojamos [Umami](https://umami.is) para crear una bonita visualización de nuestras estadísticas de tráfico, que se pueden accesar públicamente en el siguiente enlace.
 
-[View Statistics](https://stats.triplebit.net/share/S80jBc50hxr5TquS/www.privacyguides.org){ .md-button .md-button--primary }
+[Ver las Estadísticas](https://stats.triplebit.net/share/S80jBc50hxr5TquS/www.privacyguides.org){ .md-button .md-button--primary }
 
 Con estas procesamos:
 

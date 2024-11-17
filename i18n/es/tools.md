@@ -67,30 +67,30 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
     **Brave** es un navegador privado por defecto basado en Chromium, por lo que debería resultar familiar y tener mínimos problemas de compatibilidad con sitios web.
 
-    - [Brave Desktop Review :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
-    - [Brave Mobile Review :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
+    - [Reseña de Brave Desktop :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
+    - [Reseña de Brave Mobile :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
 
 - ![Cromite logo](assets/img/browsers/cromite.svg){ .lg .middle .twemoji } **Cromite (Android)**
 
     ---
 
-    **Cromite** is a Chromium-based Android browser with built-in ad-blocking and [privacy enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the popular, now-discontinued Bromite browser.
+    **Cromite** es un navegador para Android basado en Chromium con bloqueo de anuncios y [mejoras de privacidad] integradas(https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). Se trata de una bifurcación del popular navegador Bromite, ya descontinuado.
 
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
+    - [Lea la Reseña Completa :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
 
 - ![Mull logo](assets/img/browsers/mull.svg){ .lg .middle .twemoji } **Mull (Android)**
 
     ---
 
-    **Mull** is a Firefox-based browser for Android centered around privacy and removing proprietary components.
+    **Mull** es un navegador basado en Firefox para Android centrado en la privacidad y la eliminación de componentes propietarios.
 
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#mull-android)
+    - [Lea la Reseña Completa :material-arrow-right-drop-circle:](mobile-browsers.md#mull-android)
 
 - ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
 
     ---
 
-    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) features and default tracker blocking. También separa sus cookies en el modo de navegación privada para evitar el seguimiento entre pestañas.
+    Recomendamos **Safari** por sus funciones [anti-huella digital](https://webkit.org/blog/15697/private-browsing-2-0) y bloqueo de rastreadores por defecto. También separa sus cookies en el modo de navegación privada para evitar el seguimiento entre pestañas.
 
     - [Lea la Reseña Completa :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 
@@ -116,8 +116,8 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
 <div class="grid cards" markdown>
 
-- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
-- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor for iOS)](tor.md#onion-browser-ios)
+- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Proxy Tor Smartphone)](tor.md#orbot)
+- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor para iOS)](tor.md#onion-browser-ios)
 
 </div>
 
@@ -409,13 +409,13 @@ Si busca más **seguridad**, asegúrese siempre de conectarse a sitios web que u
 <details class="info" markdown>
 <summary>Cifrado del Sistema Operativo</summary>
 
-For encrypting your OS drive, we typically recommend using the encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and take advantage of hardware encryption elements such as a [secure cryptoprocessor](basics/hardware.md/#tpmsecure-cryptoprocessor).
+Para cifrar su unidad de SO, normalmente recomendamos utilizar la herramienta de cifrado que proporciona su sistema operativo, ya sea **BitLocker** en Windows, **FileVault** en macOS o **LUKS** en Linux. Estas herramientas se incluyen con el sistema operativo y aprovechan los elementos de cifrado del hardware, como un [criptoprocesador seguro](basics/hardware.md/#tpmsecure-cryptoprocessor).
 
 [Más información :material-arrow-right-drop-circle:](encryption.md#operating-system-encryption)
 
 </details>
 
-#### Cross-platform Tools
+#### Herramientas Multiplataforma
 
 <div class="grid cards" markdown>
 
@@ -429,7 +429,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 [Más información :material-arrow-right-drop-circle:](encryption.md)
 
-#### OpenPGP Clients
+#### Clientes OpenPGP
 
 <div class="grid cards" markdown>
 
@@ -605,7 +605,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 ### Móvil
 
-#### Custom Android Operating Systems
+#### Sistemas Operativos Android Personalizados
 
 <div class="grid cards" markdown>
 
@@ -616,7 +616,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 [Más información :material-arrow-right-drop-circle:](android/distributions.md)
 
-#### Android Apps
+#### Aplicaciones de Android
 
 <div class="grid cards" markdown>
 
@@ -628,7 +628,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 [Más información :material-arrow-right-drop-circle:](android/general-apps.md)
 
-#### Ways to Obtain Android Apps
+#### Formas de Obtener Aplicaciones para Android
 
 <div class="grid cards" markdown>
 

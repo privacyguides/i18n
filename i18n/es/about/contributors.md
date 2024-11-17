@@ -11,7 +11,7 @@ Este proyecto sigue la especificación de [todos los colaboradores](https://gith
 
 | Emoji | Tipo         | Descripción                                                                                                                                                 |
 | ----- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 📖    | `doc`        | A contributor to the content on [privacyguides.org](https://www.privacyguides.org/en).                                      |
+| 📖    | `doc`        | Un colaborador del contenido de [privacyguides.org](https://www.privacyguides.org/es).                                      |
 | 👀    | `review`     | Alguien que se ha tomado el tiempo para revisar los [pull requests](https://github.com/privacyguides/privacyguides.org/pulls) a este sitio. |
 | 📝    | `blog`       | Alguien que ha escrito una publicación en el [blog](https://blog.privacyguides.org) para nosotros.                                          |
 | 💬    | `question`   | Alguien que ha ayudado respondiendo preguntas en nuestro [foro](https://discuss.privacyguides.net) o los canales de Matrix.                 |

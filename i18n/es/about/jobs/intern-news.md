@@ -6,11 +6,11 @@ description: Privacy Guides busca un becario que descubra y promueva contenidos 
 [:material-arrow-left-drop-circle: Ofertas de Empleo](../jobs.md)
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Position Closed</p>
+<p class="admonition-title">Posición Cerrada</p>
 
-Thank you for your interest in this position at Privacy Guides. At this time we are no longer accepting new applications, but please follow our [job openings](../jobs.md) page to learn about future opportunities.
+Gracias por tu interés en este puesto en Privacy Guides. En este momento ya no aceptamos nuevas candidaturas, pero sigue nuestra página [puestos de trabajo](../jobs.md) para conocer futuras oportunidades.
 
-As of November 14, 2024, we may still be reaching out to existing candidates. If you previously applied, please keep an eye on your inbox!
+A fecha de 14 de noviembre de 2024, es posible que sigamos poniéndonos en contacto con los candidatos existentes. ¡Si ya has presentado tu candidatura, por favor, estate atento a tu bandeja de entrada!
 
 </div>
 
@@ -45,11 +45,11 @@ Se trata de un contrato de 6 meses con una remuneración de 15 $/hora dólares e
 ---
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Position Closed</p>
+<p class="admonition-title">Posición Cerrada</p>
 
-Thank you for your interest in this position at Privacy Guides. At this time we are no longer accepting new applications, but please follow our [job openings](../jobs.md) page to learn about future opportunities.
+Gracias por tu interés en este puesto en Privacy Guides. En este momento ya no aceptamos nuevas candidaturas, pero sigue nuestra página [puestos de trabajo](../jobs.md) para conocer futuras oportunidades.
 
-As of November 14, 2024, we may still be reaching out to existing candidates. If you previously applied, please keep an eye on your inbox!
+A fecha de 14 de noviembre de 2024, es posible que sigamos poniéndonos en contacto con los candidatos existentes. ¡Si ya has presentado tu candidatura, por favor, estate atento a tu bandeja de entrada!
 
 </div>
 
