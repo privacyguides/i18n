@@ -86,7 +86,7 @@ uBlock Origin Lite solo recibe actualizaciones de la lista de bloqueos cada vez 
 
 ### AdGuard
 
-We recommend [Safari](mobile-browsers.md#safari-ios) for iOS users, which unfortunately is not supported by uBlock Origin. Por suerte, Adguard ofrece una alternativa adecuada:
+Recomendamos [Safari](mobile-browsers.md#safari-ios) para los usuarios de iOS, que lamentablemente no es compatible con uBlock Origin. Por suerte, Adguard ofrece una alternativa adecuada:
 
 <div class="admonition recommendation" markdown>
 

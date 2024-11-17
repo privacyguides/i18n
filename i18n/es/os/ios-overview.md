@@ -22,15 +22,15 @@ La única fuente de aplicaciones en iOS es la App Store de Apple, que requiere u
 
 ### Telemetría Invasiva
 
-Apple has historically had problems with properly disassociating their telemetry from Apple Accounts on iOS. In [2019](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), Apple was found to transmit Siri recordings—some containing highly confidential information—to their servers for manual review by third-party contractors. Though Apple temporarily stopped that program after that practice was [widely reported on](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), the company rolled out a switch to [**opt out** of uploading conversations with Siri](https://theguardian.com/technology/2019/oct/30/apple-lets-users-opt-out-of-having-siri-conversations-recorded) a few months later in the succeeding iOS update. Moreover, in 2021, [Apple reworked Siri](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance) so that it processes voice recordings locally rather than sending it to their servers.
+Apple ha tenido históricamente problemas con la correcta disociación de su telemetría de las Cuentas de Apple en iOS. En [2019](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), se descubrió que Apple transmitía grabaciones de Siri -algunas con información altamente confidencial- a sus servidores para que terceros contratistas las revisaran manualmente. Aunque Apple detuvo temporalmente ese programa después de que se [informara ampliamente sobre](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana) esa práctica, la compañía puso en marcha un interruptor para [**optar por no** subir conversaciones con Siri](https://theguardian.com/technology/2019/oct/30/apple-lets-users-opt-out-of-having-siri-conversations-recorded) unos meses más tarde en la siguiente actualización de iOS. Además, en 2021, [Apple retocó Siri](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance) para que procese las grabaciones de voz localmente en lugar de enviarlas a sus servidores.
 
-More recently, Apple has been found to transmit analytics [even when analytics sharing is disabled](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) on iOS, and this data [appears](https://twitter.com/mysk_co/status/1594515229915979776) to be easily linked to unique iCloud account identifiers despite supposedly being decoupled from Apple Accounts.
+Más recientemente, se ha descubierto que Apple transmite datos analíticos [incluso cuando el uso compartido de datos analíticos está desactivado](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) en iOS, y estos datos [parecen](https://twitter.com/mysk_co/status/1594515229915979776) estar fácilmente vinculados a identificadores de cuenta únicos de iCloud a pesar de estar supuestamente desvinculados de las cuentas de Apple.
 
-### Traffic Outside Active VPN Connections
+### Tráfico Fuera de las Conexiones VPN Activas
 
-Apple's [privacy policy regarding VPNs](https://apple.com/legal/privacy/data/en/vpns) states:
+La [política de privacidad de Apple en relación con las VPN](https://apple.com/legal/privacy/data/en/vpns) establece:
 
-> Even when a VPN is active, some traffic that is necessary for essential system services will take place outside the VPN so that your device can function properly.
+> Incluso cuando una VPN está activa, parte del tráfico necesario para los servicios esenciales del sistema tendrá lugar fuera de la VPN para que tu dispositivo pueda funcionar correctamente.
 
 ## Configuración Recomendada
 

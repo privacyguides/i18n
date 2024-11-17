@@ -42,7 +42,7 @@ schema:
     name: Safari
     image: /assets/img/browsers/safari.svg
     url: https://apple.com/safari
-    applicationCategory: Web Browser
+    applicationCategory: Navegador Web
     operatingSystem:
       - iOS
     subjectOf:
@@ -208,15 +208,15 @@ Estas opciones se encuentran en :material-menu:/:fontawesome-solid-ellipsis: →
 
 ![Cromite logo](assets/img/browsers/cromite.svg){ align=right }
 
-**Cromite** is a Chromium-based browser with built-in ad blocking, fingerprinting protections, and other [privacy and security enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the discontinued **Bromite** browser.
+**Cromite** es un navegador basado en Chromium con bloqueo de anuncios integrado, protección de huellas digitales y otras [mejoras de privacidad y seguridad](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). Es una bifurcación del navegador descatalogado **Bromite**.
 
-[:octicons-home-16: Homepage](https://www.cromite.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://www.cromite.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-android: F-Droid](https://www.cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
 - [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
@@ -227,41 +227,41 @@ Estas opciones se encuentran en :material-menu:/:fontawesome-solid-ellipsis: →
 
 ### Configuración Recomendada
 
-These options can be found in :material-menu: → :gear: **Settings** → **Privacy and security**.
+Estas opciones se encuentran en :material-menu: → :gear: **Configuración** → **Privacidad y seguridad**.
 
 #### Browsing data
 
-- [x] Select **Close all open tabs on exit**
+- [x] Selecciona **Close all open tabs on exit**
 
-#### Incognito mode
+#### Modo Incógnito
 
-- [x] Select **Open external links in incognito**
+- [x] Selecciona **Open external links in incognito**
 
 #### Seguridad
 
-- [x] Select **Always use secure connections**
+- [x] Selecciona **Usar siempre conexiones seguras**
 
-Esto evita que te conectes involuntariamente a un sitio web en texto plano HTTP. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+Esto evita que te conectes involuntariamente a un sitio web en texto plano HTTP. HTTP es muy poco común hoy en día, por lo que esto debería tener poco o ningún impacto en tu navegación diaria.
 
 #### Adblock Plus settings
 
-These options can be found in :material-menu: → :gear: **Settings** → **Adblock Plus settings**.
+Estas opciones se encuentran en :material-menu: → :gear: **Configuración** → **Adblock Plus settings**.
 
-Cromite contains a customized version of Adblock Plus with EasyList enabled by default, as well as options to select more filter lists within the **FIlter lists** menu.
+Cromite contiene una versión personalizada de Adblock Plus con EasyList activado por defecto, así como opciones para seleccionar más listas de filtros dentro del menú **Filter lists**.
 
-Using extra lists will make you stand out from other Cromite users and may also increase attack surface if a malicious rule is added to one of the lists you use.
+Usar listas adicionales te hará destacar de otros usuarios de Cromite y también puede aumentar la superficie de ataque si una regla maliciosa es añadida a una de las listas que usas.
 
-- \[x\] (Optional) Select **Enable anti-circumvention and snippets**
+- \[x\] (Opcional) Selecciona **Enable anti-circumvention and snippets**
 
-This setting adds an additional Adblock Plus list that may increase the effectiveness of Cromite's content blocking. The warnings about standing out and potentially increasing attack surface apply.
+Esta opción añade una lista adicional de Adblock Plus que puede aumentar la efectividad del bloqueo de contenido de Cromite. Se aplican las advertencias sobre destacar y aumentar potencialmente la superficie de ataque.
 
 #### Legacy Adblock settings
 
-These options can be found in :material-menu: → :gear: **Settings** → **Legacy Adblock settings**.
+Estas opciones se encuentran en :material-menu: → :gear: **Configuración** → **Legacy Adblock settings**.
 
-- [ ] Uncheck the autoupdate setting
+- [ ] Desmarca la opción de actualización automática (Autoupdate)
 
-This disables update checks for the unmaintained Bromite adblock filter.
+Esto desactiva las comprobaciones de actualización para el filtro adblock Bromite, que no recibe mantenimiento.
 
 ## Mull (Android)
 

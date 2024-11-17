@@ -36,7 +36,7 @@ Estos servicios de mensajería son ideales para proteger sus comunicaciones conf
 [:octicons-heart-16:](https://signal.org/donate){ .card-link title="Contribuir" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
@@ -102,7 +102,7 @@ Tenga en cuenta que está confiando en múltiples partes al utilizar Molly, ya q
 
 Existe una versión de Molly llamada **Molly-FOSS** que elimina el código propietario como los servicios de Google utilizados tanto por Signal como por Molly, a costa de algunas características como las notificaciones push que ahorran batería a través de Google Play Services.
 
-There is also a version called [**Molly-UP**](https://github.com/mollyim/mollyim-android#unifiedpush) which is based on Molly-FOSS and adds support for push notifications with [UnifiedPush](https://unifiedpush.org), an open source alternative to the push notifications provided by Google Play Services, but it requires running a separate program called [Mollysocket](https://github.com/mollyim/mollysocket) to function. Mollysocket can either be self-hosted on a separate computer or server (VPS), or alternatively a public Mollysocket instance can be used ([step-by-step tutorial, in German](https://kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy)).
+También existe una versión llamada [**Molly-UP**](https://github.com/mollyim/mollyim-android#unifiedpush) que se basa en Molly-FOSS y añade soporte para notificaciones push con [UnifiedPush](https://unifiedpush.org), una alternativa de código abierto a las notificaciones push proporcionadas por Google Play Services, pero requiere ejecutar un programa independiente llamado [Mollysocket](https://github.com/mollyim/mollysocket) para funcionar. Mollysocket puede ser autoalojado en un ordenador o servidor independiente (VPS), o alternativamente se puede utilizar una instancia pública de Mollysocket[(tutorial paso a paso, en alemán](https://kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy)).
 
 Las tres versiones de Molly ofrecen las mismas mejoras de seguridad.
 
@@ -253,7 +253,7 @@ Session utiliza la red descentralizada [Oxen Service Node Network](https://oxen.
 
 </div>
 
-Session permite E2EE en chats individuales o grupos cerrados que admiten hasta 100 miembros. It is also possible to [set up](https://docs.oxen.io/oxen-docs/products-built-on-oxen/session/guides/open-group-setup) or join open groups which can host thousands of members, but messages in these open groups are **not** end-to-end encrypted between participants.
+Session permite E2EE en chats individuales o grupos cerrados que admiten hasta 100 miembros. También es posible [crear](https://docs.oxen.io/oxen-docs/products-built-on-oxen/session/guides/open-group-setup) o unirse a grupos abiertos que pueden albergar a miles de miembros, pero los mensajes en estos grupos abiertos **no** están cifrados de extremo a extremo entre los participantes.
 
 Session se basaba anteriormente en el Protocolo Signal antes de sustituirlo por el suyo propio en diciembre de 2020. El Protocolo Sesion [no](https://getsession.org/blog/session-protocol-technical-information) soporta el secreto hacia adelante.[^1]
 
