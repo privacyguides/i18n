@@ -228,8 +228,6 @@ El código del lado del servidor de Bitwarden es de [código abierto](https://gi
 
 Con la adquisición de SimpleLogin en abril de 2022, Proton ha ofrecido una función de "ocultar mi correo electrónico" que permite crear 10 alias (plan gratuito) o alias ilimitados (planes de pago).
 
-Proton Pass actualmente no tiene ninguna funcionalidad de "contraseña maestra", lo que significa que su bóveda está protegida con la contraseña de su cuenta Proton y cualquiera de sus métodos de [autenticación de dos factores](basics/multi-factor-authentication.md) compatibles.
-
 Las aplicaciones móviles y la extensión de navegador de Proton Pass se sometieron a una auditoría realizada por Cure53 durante los meses de mayo y junio de 2023. La empresa de análisis de seguridad concluyó:
 
 > Las aplicaciones y componentes de Proton Pass dejan una impresión bastante positiva en términos de seguridad.

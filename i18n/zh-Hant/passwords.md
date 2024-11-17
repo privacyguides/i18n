@@ -228,8 +228,6 @@ Bitwarden 伺服器端代碼是 [開源的](https://github.com/bitwarden/server)
 
 隨著 2022 年 4 月收購 SimpleLogin，Proton 提供了「隱藏我的電子郵件」功能，可建立 10 個別名（免費方案）或無限個別名（付費方案）。
 
-Proton Pass 目前沒有「主密碼」功能，意味著您的保管庫由 Proton 帳戶密碼及[雙因素認證](basics/multi-factor-authentication.md)方法來保護。
-
 Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 月接受了 Cure53 的審核。 安全分析公司的結論為：
 
 > Proton Pass 應用程式和元件在安全性方面給人留下相當正面的印象。

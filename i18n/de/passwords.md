@@ -228,8 +228,6 @@ Der serverseitige Code von Bitwarden ist [quelloffen](https://github.com/bitward
 
 Mit der Übernahme von SimpleLogin im April 2022 bietet Proton eine "Hide-My-Email"-Funktion an, mit der du 10 Aliase (kostenloser Plan) oder unbegrenzte Aliase (kostenpflichtige Pläne) erstellen kannst.
 
-Proton Pass verfügt derzeit nicht über eine "Master-Passwort"-Funktionalität, d. h. dein Tresor ist mit dem Passwort für dein Proton-Konto und einer der unterstützten [Zwei-Faktor-Authentifizierungsmethoden](basics/multi-factor-authentication.md) geschützt.
-
 Die mobilen Anwendungen und die Browsererweiterung von Proton Pass wurden im Mai und Juni 2023 von Cure53 geprüft. Das Sicherheitsanalyseunternehmen kam zu dem Schluss:
 
 > Proton Pass Apps und Komponenten hinterlassen einen recht positiven Eindruck in Sachen Sicherheit.

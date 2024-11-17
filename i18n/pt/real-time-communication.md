@@ -40,6 +40,7 @@ Estas aplicações de mensagens são ótimas para proteger as suas comunicaçõe
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
+- [:simple-github: GitHub](https://github.com/signalapp/Signal-Android/releases)
 - [:simple-android: Android](https://signal.org/android/apk)
 - [:fontawesome-brands-windows: Windows](https://signal.org/download/windows)
 - [:simple-apple: macOS](https://signal.org/download/macos)
