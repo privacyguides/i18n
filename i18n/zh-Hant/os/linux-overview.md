@@ -134,9 +134,9 @@ Linux 發行版，如 [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) �
 
 ### MAC 位址隨機化
 
-許多桌面 Linux 發行版（Fedora、openSUSE等）自帶 [網路管理員](https://en.wikipedia.org/wiki/NetworkManager)，以配定以太網和 Wi-Fi設定。
+許多桌面 Linux 發行版（Fedora、openSUSE等）自帶 [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager) 來設定乙太網路和 Wi-Fi。
 
-可[隨機化](https://fedoramagazine.org/randomize-mac-address-nm)<a href="https://en.wikipedia.org/wiki/MAC_address 使用NetworkManager 時的“MAC 位址”。 這在Wi-Fi 上提供了更多隱私，因為這讓追踪所連網路的特定設備變得更困難。 但這 [**並不是**](https://papers.mathyvanhoef.com/wisec2016.pdf) 讓您匿名。
+對於使用 NetworkManager 的人， [隨機化](https://fedoramagazine.org/randomize-mac-address-nm) [MAC 位址](https://en.wikipedia.org/wiki/MAC_address) 是可行的。 這在Wi-Fi 上提供了更多隱私，因為這讓追踪所連網路的特定設備變得更困難。 但這 [**並不是**](https://papers.mathyvanhoef.com/wisec2016.pdf) 讓您匿名。
 
 建議將設定更改為**隨機**，而不是**穩定**，如[這篇文章的說明](https: // fedoramagazine.org/randomize-mac-address-nm)。
 
@@ -154,11 +154,11 @@ MAC 位址隨機化主要有利於 Wi-Fi 連接。 對於乙太網路連接，�
 
 ### 系統計數
 
-Fedora 專案使用[`countme`](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting#Detailed_Description) 變量而非獨特 ID 來[計算多少](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting)系統訪問它的鏡像。 Fedora 這樣做是為了確定負載並在必要時為更新提供更好的伺服器。
+Fedora 專案使用 [`countme`](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting#Detailed_Description) 變數而非獨特 ID 來 [計算](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting) 多少系統訪問它的鏡像。 Fedora 這樣做是為了確定負載並在必要時提供更好的更新伺服器。
 
-這個 [選項](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) ，目前預設為關閉。 我們建議將 `countme=false` 添加到 `/etc/dnf/dnf.conf` ，以備將來啟用。 使用 `rpm-ostree` 的系統，如 Silverblue，通過遮蔽 [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems) 計時器來禁用 countme 選項。
+這個 [選項](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) ，目前預設為關閉。 我們建議將 `countme=false` 添加到 `/etc/dnf/dnf.conf` ，以防止將來此選項被改為預設啟用。 使用 `rpm-ostree` 的系統，如 Silverblue，通過遮蔽 [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems) 計時器來禁用 countme 選項。
 
-openSUSE 還使用[唯一的 ID](https://en.opensuse.org/openSUSE:Statistics) 來計算系統，可以通過清空`/var/lib/zypp/AnonymousUniqueId` 此檔案來禁用。
+openSUSE 則是使用[唯一的 ID](https://en.opensuse.org/openSUSE:Statistics) 來計算系統，可以通過清空`/var/lib/zypp/AnonymousUniqueId` 此檔案來禁用。
 
 [^1]: KDE 目前有一個開放的提案，加入螢幕擷取的控制： <https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/issues/7>
 [^2]: Sway 正在等待加入特定的安全控制，直到他們「知道 Wayland 的整體安全性會如何發展」： <https://github.com/swaywm/sway/issues/5118#issuecomment-600054496>
