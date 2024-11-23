@@ -167,9 +167,9 @@ As opções do Shields (Escudos) podem ser reduzidas de acordo com o site, confo
     - \[x\] (Optional) Select **No protection** under *Safe Browsing* (1)
     - [ ] Uncheck **Allow sites to check if you have payment methods saved**
     - [x] Select **Close tabs on exit**
-    - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-    - [ ] Uncheck **Automatically send diagnostic reports**
-    - [ ] Uncheck **Automatically send daily usage ping to Brave**
+    - [ ] Desmarque **Permitir análise de produtos com preservação da privacidade (P3A)**
+    - [ ] Desmarque **Automaticamente enviar relatórios de diagnóstico**
+    - [ ] Desmarque **Automaticamente enviar ping de uso diário para Brave**
 
     </div>
 
@@ -178,7 +178,7 @@ As opções do Shields (Escudos) podem ser reduzidas de acordo com o site, confo
 === "iOS"
 
     - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
-    - [ ] Uncheck **Automatically send daily usage ping to Brave**
+    - [ ] Desmarque **Automaticamente enviar ping de uso diário para Brave**
 
 #### Leo
 
@@ -200,7 +200,7 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+A [Sincronização do Firefox](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) permite que seus dados de navegação (histórico, favoritos, etc.) sejam acessíveis em todos os seus dispositivos, além de protegê-los com E2EE.
 
 ## Cromite (Android)
 

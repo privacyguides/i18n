@@ -333,30 +333,30 @@ Se desejar permanecer conectado a um site específico que visita com frequência
 
 [**Janela privada com Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) permite rotear seu tráfego pela rede Tor em janelas privadas e acessar serviços .onion, o que pode ser útil em alguns casos. No entanto, o Brave **não** é tão resistente à impressão digital quanto o Navegador Tor, e muito menos pessoas usam o Brave com o Tor, portanto, você se destacará. Se o seu modelo de ameaça exigir um forte anonimato, use o [Navegador Tor](tor.md#tor-browser).
 
-##### Data Collection
+##### Coleta de dados
 
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Desmarque **Permitir análise de produtos com preservação da privacidade (P3A)**
+- [ ] Desmarque **Automaticamente enviar ping de uso diário para Brave**
+- [ ] Desmarque **Automaticamente enviar relatórios de diagnóstico**
 
 #### Web3
 
-As funcionalidades Web3 do Brave podem potencialmente acrescentar à impressão digital do seu navegador e a superfície de ataque. Unless you use any of these features, they should be disabled.
+As funcionalidades Web3 do Brave podem potencialmente acrescentar à impressão digital do seu navegador e a superfície de ataque. A menos que você use qualquer um desses recursos, eles devem ser desativados.
 
-- Select **Extensions (no fallback)** under *Default Ethereum wallet*
-- Select **Extensions (no fallback)** under *Default Solana wallet*
+- Selecione **Extensões (sem fallback)** sob *carteira Ethereum padrão*
+- Selecione **Extensões (sem fallback)** sob *Carteira Solana padrão*
 
-#### Extensions
+#### Extensões
 
-- [ ] Uncheck all built-in extensions you don't use
+- [ ] Desmarque todas as extensões integradas que você não usa
 
-#### Search engine
+#### Motor de busca
 
-We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
+Recomendamos a desativação das sugestões de pesquisa no Brave pelo mesmo motivo que recomendamos a desativação desse recurso no [Firefox](#search).
 
 - [ ] Desmarque **Mostrar sugestões de pesquisa**
 
-#### System
+#### Sistema
 
 <div class="annotate" markdown>
 
@@ -366,13 +366,13 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 1. Esta opção não está presente em todas as plataformas.
 
-#### Brave Sync
+#### Sincronização do Brave
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+A [Sincronização do Firefox](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) permite que seus dados de navegação (histórico, favoritos, etc.) sejam acessíveis em todos os seus dispositivos, além de protegê-los com E2EE.
 
-#### Brave Rewards and Wallet
+#### Recompensas Brave e Carteira
 
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. Ele depende de uma conta de custódia e KYC de um número selecionado de provedores. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**O Recompensas Brave** permite que você receba a criptomoeda Basic Attention Token (BAT) por realizar determinadas ações no Brave. Ele depende de uma conta de custódia e KYC de um número selecionado de provedores. Não recomendamos o BAT como uma [criptomoeda privada](cryptocurrency.md), nem recomendamos o uso de uma [carteira de custódia](advanced/payments.md#wallet-custody), portanto, não recomendamos o uso desse recurso.
 
 A **Carteira Brave** opera localmente em seu computador, mas não suporta nenhuma criptomoeda privada, então nós desencorajamos o uso dessa ferramenta também.
 
@@ -384,22 +384,22 @@ A **Carteira Brave** opera localmente em seu computador, mas não suporta nenhum
 
 - Deve ser um software de código aberto.
 - Deve suportar atualizações automáticas.
-- Must receive engine updates in 0-1 days from upstream release.
-- Must be available on Linux, macOS, and Windows.
-- Any changes required to make the browser more privacy-respecting must not negatively impact user experience.
-- Must block third-party cookies by default.
-- Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- Deve receber atualizações do mecanismo em 0 a 1 dias a partir da versão upstream.
+- Deve estar disponível no Linux, macOS e Windows.
+- Quaisquer alterações necessárias para tornar o navegador mais respeitoso com a privacidade não devem afetar negativamente a experiência do usuário.
+- Deve bloquear cookies de terceiros por padrão.
+- Deve suportar [particionamento de estado](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) para mitigar o rastreamento entre sites.[^1]
 
 ### Melhor Caso
 
 Os nossos critérios de melhor caso representam o que gostaríamos de ver no projeto perfeito desta categoria. As nossas recomendações podem não incluir todas ou algumas destas funcionalidades, mas as que as incluem podem ter uma classificação mais elevada do que outras nesta página.
 
-- Should include built-in content blocking functionality.
-- Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Should support Progressive Web Apps (PWAs). PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps because PWAs benefit from your browser's regular security updates.
-- Should not include add-on functionality (bloatware) that does not impact user privacy.
-- Should not collect telemetry by default.
-- Should provide an open-source sync server implementation.
-- Should default to a [private search engine](search-engines.md).
+- Deve incluir a funcionalidade integrada de bloqueio de conteúdo.
+- Deve suportar compartimentação de cookie (à la [Contêineres de Multi-Contas](https://support.mozilla.org/kb/containers)).
+- Deve oferecer suporte a PWAs (Progressive Web Apps). PWAs permite que você instale certos sites como se eles fossem aplicativos nativos no seu computador. Isso pode ter vantagens em relação à instalação de aplicativos baseados em Electron, pois os PWAs se beneficiam das atualizações de segurança regulares do seu navegador.
+- Não deve incluir funcionalidades adicionais (bloatware) que não afetem a privacidade do usuário.
+- Não deve coletar telemetria por padrão.
+- Deve fornecer uma implementação de servidor de sincronização de código aberto.
+- Deve ter como padrão um [mecanismo de pesquisa privado](search-engines.md).
 
-[^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).
+[^1]: Implementação do Brave é detalhada em: [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).
