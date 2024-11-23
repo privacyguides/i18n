@@ -62,15 +62,15 @@ These are our currently recommended **mobile web browsers** and configurations f
 
 ![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
-**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
+O **Brave Browser** inclui um bloqueador de conteúdo embutido e [recursos de privacidade](https://brave.com/privacy-features/), os quais muitos são ativados por padrão.
 
 Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
 
-[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+[:octicons-home-16: Página inicial](https://brave.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Serviço Onion" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Política de privacidade" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title="Documentação" }
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Código fonte" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -83,7 +83,7 @@ Brave is built upon the Chromium web browser project, so it should feel familiar
 
 </div>
 
-### Recommended Brave Configuration
+### Configuração recomendada do Brave
 
 O Navegador Tor é a única maneira de realmente navegar na Internet de forma anônima. Ao usar o Brave, recomendamos que você altere as seguintes configurações para proteger sua privacidade de determinadas partes, mas todos os navegadores, exceto o [Navegador Tor](tor.md#tor-browser), serão rastreáveis por *alguém* de uma forma ou de outra.
 
@@ -97,7 +97,7 @@ O Navegador Tor é a única maneira de realmente navegar na Internet de forma an
 
 #### Brave shields global defaults
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+O Brave inclui algumas medidas contra a impressão digital em seu recurso [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Sugerimos configurar essas opções [globalmente](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) em todas as páginas que você visita.
 
 As opções do Shields (Escudos) podem ser reduzidas de acordo com o site, conforme necessário, mas, por padrão, recomendamos configurar o seguinte:
 
@@ -125,7 +125,7 @@ As opções do Shields (Escudos) podem ser reduzidas de acordo com o site, confo
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Essa opção desabilita o JavaScript, o que interromperá muitos sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 === "iOS"
 
@@ -147,7 +147,7 @@ As opções do Shields (Escudos) podem ser reduzidas de acordo com o site, confo
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Essa opção desabilita o JavaScript, o que interromperá muitos sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 ##### Clear browsing data (Android only)
 
@@ -196,7 +196,7 @@ These options can be found in :material-menu: → **Settings** → **Leo**.
 
 These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
 
-- [ ] Uncheck **Show search suggestions**
+- [ ] Desmarque **Mostrar sugestões de pesquisa**
 
 #### Brave Sync
 
