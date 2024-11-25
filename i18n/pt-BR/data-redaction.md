@@ -13,7 +13,7 @@ cover: data-redaction.webp
 Ao compartilhar arquivos, é importante remover metadados associados. Os arquivos de imagem geralmente incluem dados [Exif](https://en.wikipedia.org/wiki/Exif). Às vezes, as fotos incluem até mesmo coordenadas de GPS nos metadados do arquivo.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Aviso</p>
 
 You should **never** use blur to redact [text in images](https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, you should draw a box over the text.
 

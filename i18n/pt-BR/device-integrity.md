@@ -87,7 +87,7 @@ These tools can trigger false-positives. If any of these tools finds indicators 
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Aviso</p>
 
 Using MVT is insufficient to determine that a device is "clean", and not targeted with a particular spyware tool.
 
@@ -141,7 +141,7 @@ iMazing automates and interactively guides you through the process of using [MVT
 These are apps you can install which check your device and operating system for signs of tampering, and validate the identity of your device.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Aviso</p>
 
 Using these apps is insufficient to determine that a device is "clean", and not targeted with a particular spyware tool.
 
@@ -198,7 +198,7 @@ If your [threat model](basics/threat-modeling.md) requires privacy, you could co
 These are apps you can install on your device which scan your device for signs of compromise.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Aviso</p>
 
 Using these apps is insufficient to determine that a device is "clean", and not targeted with a particular spyware tool.
 
