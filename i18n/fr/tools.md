@@ -358,6 +358,18 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 ## Logiciels
 
+### AI Chat
+
+<div class="grid cards" markdown>
+
+- ![Kobold logo](assets/img/ai-chat/kobold.png){ .twemoji loading=lazy } [Kobold.cpp](ai-chat.md#koboldcpp)
+- ![Llamafile logo](assets/img/ai-chat/llamafile.svg){ .twemoji loading=lazy } [Llamafile](ai-chat.md#llamafile)
+- ![Ollama logo](assets/img/ai-chat/ollama.png){ .twemoji loading=lazy } [Ollama (CLI)](ai-chat.md#ollama-cli)
+
+</div>
+
+[En savoir plus :material-arrow-right-drop-circle:](ai-chat.md)
+
 ### Calendriers synchronisés
 
 <div class="grid cards" markdown>

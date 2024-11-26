@@ -358,6 +358,18 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 ## 軟體
 
+### AI Chat
+
+<div class="grid cards" markdown>
+
+- ![Kobold logo](assets/img/ai-chat/kobold.png){ .twemoji loading=lazy } [Kobold.cpp](ai-chat.md#koboldcpp)
+- ![Llamafile logo](assets/img/ai-chat/llamafile.svg){ .twemoji loading=lazy } [Llamafile](ai-chat.md#llamafile)
+- ![Ollama logo](assets/img/ai-chat/ollama.png){ .twemoji loading=lazy } [Ollama (CLI)](ai-chat.md#ollama-cli)
+
+</div>
+
+[了解更多 :material-arrow-right-drop-circle:](ai-chat.md)
+
 ### 行事曆同步
 
 <div class="grid cards" markdown>

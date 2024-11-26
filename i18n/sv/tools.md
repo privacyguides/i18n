@@ -358,6 +358,18 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 ## Programvara
 
+### AI Chat
+
+<div class="grid cards" markdown>
+
+- ![Kobold logo](assets/img/ai-chat/kobold.png){ .twemoji loading=lazy } [Kobold.cpp](ai-chat.md#koboldcpp)
+- ![Llamafile logo](assets/img/ai-chat/llamafile.svg){ .twemoji loading=lazy } [Llamafile](ai-chat.md#llamafile)
+- ![Ollama logo](assets/img/ai-chat/ollama.png){ .twemoji loading=lazy } [Ollama (CLI)](ai-chat.md#ollama-cli)
+
+</div>
+
+[Läs mer :material-arrow-right-drop-circle:](ai-chat.md)
+
 ### Kalendersynkronisering
 
 <div class="grid cards" markdown>

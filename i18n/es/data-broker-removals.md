@@ -86,8 +86,6 @@ Nuestras pruebas indican que EasyOptOuts ofrece la mejor relación calidad-preci
 EasyOptOuts no cubre los siguientes sitios que consideramos de "alta prioridad", por lo que deberías excluirte manualmente:
 
 - Intelius ([Buscar](https://intelius.com), [Darse de baja(https://suppression.peopleconnect.us/login))
-- PeekYou ([Buscar](https://peekyou.com), [Darse de baja](https://peekyou.com/about/contact/optout))
-- PublicDataUSA ([Buscar](https://publicdatausa.com), [Darse de baja](https://publicdatausa.com/remove.php))
 
 </div>
 

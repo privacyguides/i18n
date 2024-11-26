@@ -49,6 +49,8 @@
 *[ISPs]: Интернет-провайдеры
 *[JNI]: Нативный интерфейс Java
 *[KYC]: Знай своего клиента (Know Your Customer)
+*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
+*[LLMs]: Large Language Models (AI models such as ChatGPT)
 *[LUKS]: Шифрование всего диска Linux (Linux Unified Key Setup)
 *[MAC]: Управление доступом к среде
 *[MDAG]: Защита приложений при помощи Microsoft Defender
@@ -62,6 +64,7 @@
 *[OCSP]: Протокол состояния сетевого сертификата
 *[OEM]: Оригинальный производитель оборудования
 *[OEMs]: Оригинальные производители оборудования
+*[open-weights]: An open weights-model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
 *[ОС]: Операционная система
 *[OTP]: Одноразовый пароль (One-Time Password)
 *[OTPs]: Одноразовые пароли (One-Time Passwords)
@@ -73,6 +76,7 @@
 *[ПД]: Персональные данные
 *[QNAME]: Квалифицированное имя элемента, атрибута или идентификатора в документе XML
 *[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
+*[rate limits]: Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time.
 *[rolling release]: Обновления, которые выходят часто, а не через определенные промежутки времени
 *[RSS]: Способ распространения лент новостей или изменений в блогах
 *[SELinux]: Linux с повышенной безопасностью
@@ -86,6 +90,8 @@
 *[SaaS]: Программное обеспечение как услуга (облачное программное обеспечение)
 *[SoC]: Система на кристалле (System on Chip)
 *[SSO]: Единый вход
+*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
+*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
 *[TCP]: Протокол управления передачей данных
 *[TEE]: Доверенная среда исполнения
 *[TLS]: Протокол защиты транспортного уровня

@@ -49,6 +49,8 @@
 *[ISPs]: Penyedia Layanan Internet
 *[JNI]: Antarmuka Asli Java
 *[KYC]: Kenali Pelanggan Anda
+*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
+*[LLMs]: Large Language Models (AI models such as ChatGPT)
 *[LUKS]: Pengaturan Kunci Terpadu Linux (Enkripsi Diska Penuh)
 *[MAC]: Kontrol Akses Media
 *[MDAG]: Microsoft Defender Application Guard
@@ -62,6 +64,7 @@
 *[OCSP]: Protokol Status Sertifikat Daring
 *[OEM]: Produsen Peralatan Asli
 *[OEMs]: Produsen Peralatan Asli
+*[open-weights]: An open weights-model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
 *[OS]: Sistem Operasi
 *[OTP]: Kata Sandi Sekali Pakai
 *[OTPs]: Kata Sandi Sekali Pakai
@@ -73,6 +76,7 @@
 *[PII]: Informasi Identifikasi Pribadi
 *[QNAME]: Nama yang Memenuhi Syarat
 *[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
+*[rate limits]: Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time.
 *[rilis bergulir]: Pembaruan yang sering dirilis daripada interval yang ditetapkan
 *[RSS]: Really Simple Syndication
 *[SELinux]: Linux yang Ditingkatkan Keamanannya
@@ -86,6 +90,8 @@
 *[SaaS]: Perangkat lunak sebagai layanan (perangkat lunak awan)
 *[SoC]: Sistem pada Chip
 *[SSO]: Sistem masuk tunggal
+*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
+*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
 *[TCP]: Protokol Kontrol Transmisi
 *[TEE]: Lingkungan Eksekusi Terpercaya
 *[TLS]: Keamanan Lapisan Transportasi

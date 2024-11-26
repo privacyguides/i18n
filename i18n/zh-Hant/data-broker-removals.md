@@ -86,8 +86,6 @@ EasyOptOuts 支援的某些網站可公開搜尋。 在這些情況下，EasyOpt
 EasyOptOuts 並不涵蓋下列我們認為「高度優先」的網站，因此您仍需手動選擇退出：
 
 - Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
-- PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/optout))
-- PublicDataUSA ([Search](https://publicdatausa.com), [Opt-Out](https://publicdatausa.com/remove.php))
 
 </div>
 

@@ -358,6 +358,18 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 ## 소프트웨어
 
+### AI Chat
+
+<div class="grid cards" markdown>
+
+- ![Kobold logo](assets/img/ai-chat/kobold.png){ .twemoji loading=lazy } [Kobold.cpp](ai-chat.md#koboldcpp)
+- ![Llamafile logo](assets/img/ai-chat/llamafile.svg){ .twemoji loading=lazy } [Llamafile](ai-chat.md#llamafile)
+- ![Ollama logo](assets/img/ai-chat/ollama.png){ .twemoji loading=lazy } [Ollama (CLI)](ai-chat.md#ollama-cli)
+
+</div>
+
+[자세히 알아보기 :material-arrow-right-drop-circle:](ai-chat.md)
+
 ### 캘린더 동기화
 
 <div class="grid cards" markdown>
