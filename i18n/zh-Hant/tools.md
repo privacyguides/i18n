@@ -358,7 +358,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 ## 軟體
 
-### AI Chat
+### AI 聊天
 
 <div class="grid cards" markdown>
 

@@ -1,6 +1,6 @@
 ---
-meta_title: "Recommended AI Chat: Private ChatGPT Alternatives - Privacy Guides"
-title: AI Chat
+meta_title: 推薦的 AI 聊天：私密的 ChatGPT 替代方案 - Privacy Guides
+title: AI 聊天
 icon: material/assistant
 description: Unlike OpenAI's ChatGPT and its Big Tech competitors, these AI tools run locally so your data never leaves your desktop device.
 cover: ai-chatbots.webp
