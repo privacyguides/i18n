@@ -30,19 +30,19 @@ cover: ai-chatbots.webp
 
 LLM 通常可以透過參數的數量來區分用途，對於提供給終端使用者的開放原始碼模型，參數的數量通常介於 1.3B 到 405B 之間。 例如，參數低於 6.7B 的模型只適合文字摘要等基本任務，而參數介於 7B 與 13B 之間的模型則是品質與速度的絕佳折衷。 具備進階推理能力的模型一般在 70B 左右。
 
-For consumer-grade hardware, it is generally recommended to use [quantized models](https://huggingface.co/docs/optimum/en/concept_guides/quantization) for the best balance between model quality and performance. Check out the table below for more precise information about the typical requirements for different sizes of quantized models.
+對於消費級硬體，一般建議使用 [量化模型](https://huggingface.co/docs/optimum/en/concept_guides/quantization)，以達到模型品質與效能的最佳平衡。 請參閱下表，瞭解有關不同大小量化模型典型要求的更精確資訊。
 
-| Model Size (in Parameters) | Minimum RAM | Minimum Processor                            |
-| --------------------------------------------- | ----------- | -------------------------------------------- |
-| 7B                                            | 8GB         | Modern CPU (AVX2 support) |
-| 13B                                           | 16GB        | Modern CPU (AVX2 support) |
-| 70B                                           | 72GB        | GPU with VRAM                                |
+| 模型大小（使用 參數 作為單位） | 最低 RAM 要求 | 最低處理器要求          |
+| ---------------- | --------- | ---------------- |
+| 7B               | 8GB       | 現代 CPU（需支援 AVX2） |
+| 13B              | 16GB      | 現代 CPU（需支援 AVX2） |
+| 70B              | 72GB      | 具備 VRAM 的 GPU    |
 
-To run AI locally, you need both an AI model and an AI client.
+若要在本機執行 AI，您需要 AI 模型和 AI 客戶端。
 
-### Choosing a Model
+### 選擇模型
 
-There are many permissively licensed models available to download. [Hugging Face](https://huggingface.co/models) is a platform that lets you browse, research, and download models in common formats like [GGUF](https://huggingface.co/docs/hub/en/gguf). Companies that provide good open-weights models include big names like Mistral, Meta, Microsoft, and Google. However, there are also many community models and 'fine-tunes' available. As mentioned above, quantized models offer the best balance between model quality and performance for those using consumer-grade hardware.
+There are many permissively licensed models available to download. [Hugging Face](https://huggingface.co/models) 是一個讓您瀏覽、研究和下載常用格式模型的平台，如 [GGUF](https://huggingface.co/docs/hub/en/gguf)。 Companies that provide good open-weights models include big names like Mistral, Meta, Microsoft, and Google. However, there are also many community models and 'fine-tunes' available. As mentioned above, quantized models offer the best balance between model quality and performance for those using consumer-grade hardware.
 
 To help you choose a model that fits your needs, you can look at leaderboards and benchmarks. The most widely-used leaderboard is the community-driven [LM Arena](https://lmarena.ai). Additionally, the [OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) focuses on the performance of open-weights models on common benchmarks like [MMLU-Pro](https://arxiv.org/abs/2406.01574).  There are also specialized benchmarks which measure factors like [emotional intelligence](https://eqbench.com), ["uncensored general intelligence"](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard), and [many others](https://www.nebuly.com/blog/llm-leaderboards).
 
