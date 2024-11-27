@@ -48,14 +48,14 @@ There are many permissively licensed models available to download. [Hugging Face
 
 ## AI 聊天客戶端
 
-| 特點                   | [Kobold.cpp](#koboldcpp)                                      | [Ollama](#ollama-cli)                                                         | [Llamafile](#llamafile)                                                                                            |
-| -------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| GPU 支援               | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-check:{ .pg-green }                                      |
-| 圖片生成                 | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-close:{ .pg-red }                                        |
-| 語音辨識                 | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-close:{ .pg-red }                                        |
-| Auto-download Models | :material-close:{ .pg-red }   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Few models available        |
-| 自訂參數                 | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-check:{ .pg-green }                                      |
-| 多平臺                  | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Size limitations on Windows |
+| 特點     | [Kobold.cpp](#koboldcpp)                                      | [Ollama](#ollama-cli)                                                         | [Llamafile](#llamafile)                                                                                 |
+| ------ | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| GPU 支援 | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-check:{ .pg-green }                           |
+| 圖片生成   | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-close:{ .pg-red }                             |
+| 語音辨識   | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-close:{ .pg-red }                             |
+| 自動下載模型 | :material-close:{ .pg-red }   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } 僅支援極少數模型         |
+| 自訂參數   | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-check:{ .pg-green }                           |
+| 多平臺    | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } 在 Windows 上有大小限制 |
 
 ### Kobold.cpp
 
@@ -65,7 +65,7 @@ There are many permissively licensed models available to download. [Hugging Face
 
 Kobold.cpp 是一個 AI 用戶端，可在您的 Windows、Mac 或 Linux 電腦上本地執行。 如果您需要大量的客製化和調整，例如為了角色扮演的目的，這是一個絕佳的選擇。
 
-In addition to supporting a large range of text models, Kobold.cpp also supports image generators such as [Stable Diffusion](https://stability.ai/stable-image) and automatic speech recognition tools such as [Whisper](https://github.com/ggerganov/whisper.cpp).
+除了支援大量的文字模型之外，Kobold.cpp 也支援圖片產生器，如： [Stable Diffusion](https://stability.ai/stable-image) ；以及自動語音辨識工具，如： [Whisper](https://github.com/ggerganov/whisper.cpp)。
 
 [:octicons-home-16: Homepage](https://github.com/LostRuins/koboldcpp){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title="Documentation" }
