@@ -67,10 +67,10 @@ Kobold.cpp 是一個 AI 用戶端，可在您的 Windows、Mac 或 Linux 電腦�
 
 除了支援大量的文字模型之外，Kobold.cpp 也支援圖片產生器，如： [Stable Diffusion](https://stability.ai/stable-image) ；以及自動語音辨識工具，如： [Whisper](https://github.com/ggerganov/whisper.cpp)。
 
-[:octicons-home-16: Homepage](https://github.com/LostRuins/koboldcpp){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="Source Code" }
-[:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="Security Policy" }
+[:octicons-home-16: 首頁](https://github.com/LostRuins/koboldcpp){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title="說明文件" }
+[:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="原始碼" }
+[:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="安全性政策" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
