@@ -42,9 +42,9 @@ LLM 通常可以透過參數的數量來區分用途，對於提供給終端使�
 
 ### 選擇模型
 
-There are many permissively licensed models available to download. [Hugging Face](https://huggingface.co/models) 是一個讓您瀏覽、研究和下載常用格式模型的平台，如 [GGUF](https://huggingface.co/docs/hub/en/gguf)。 Companies that provide good open-weights models include big names like Mistral, Meta, Microsoft, and Google. However, there are also many community models and 'fine-tunes' available. 如上所述，量化模型為使用消費級硬體的使用者提供了模型品質與效能之間的最佳平衡。
+有許多採用寬鬆式自由軟體授權條款的模型可供下載。 [Hugging Face](https://huggingface.co/models) 是一個讓您瀏覽、研究和下載常用格式模型的平台，如 [GGUF](https://huggingface.co/docs/hub/en/gguf)。 提供優質 'open-weights'模型 的公司包括 Mistral、Meta、Microsoft 和 Google 等大公司。 不過，也有許多由社群製作和「微調」的模型可用。 如上所述，量化模型為使用消費級硬體的使用者提供了模型品質與效能之間的最佳平衡。
 
-為了幫助您選擇適合您的模型，您可以參考排行榜和基準。 使用最廣泛的排行榜是由社群驅動的 [LM Arena](https://lmarena.ai)。 Additionally, the [OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) focuses on the performance of open-weights models on common benchmarks like [MMLU-Pro](https://arxiv.org/abs/2406.01574).  There are also specialized benchmarks which measure factors like [emotional intelligence](https://eqbench.com), ["uncensored general intelligence"](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard), and [many others](https://www.nebuly.com/blog/llm-leaderboards).
+為了幫助您選擇適合您的模型，您可以參考排行榜和基準。 使用最廣泛的排行榜是由社群驅動的 [LM Arena](https://lmarena.ai)。 此外，[OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) 著重於 'open-weights'模型 在一般基準上的表現，例如： [MMLU-Pro](https://arxiv.org/abs/2406.01574)。  There are also specialized benchmarks which measure factors like [emotional intelligence](https://eqbench.com), ["uncensored general intelligence"](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard), and [many others](https://www.nebuly.com/blog/llm-leaderboards).
 
 ## AI 聊天客戶端
 
@@ -84,13 +84,13 @@ Kobold.cpp 是一個 AI 用戶端，可在您的 Windows、Mac 或 Linux 電腦�
 </div>
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Compatibility Issues</p>
+<p class="admonition-title">相容性問題</p>
 
-Kobold.cpp might not run on computers without AVX/AVX2 support.
+Kobold.cpp 可能無法在不支援 AVX/AVX2 的電腦上執行。
 
 </div>
 
-Kobold.cpp allows you to modify parameters such as the AI model temperature and the AI chat's system prompt. It also supports creating a network tunnel to access AI models from other devices such as your phone.
+Kobold.cpp allows you to modify parameters such as the AI model temperature and the AI chat's system prompt. 它也支援建立網路隧道，以便從手機等其他裝置存取 AI 模型。
 
 ### Ollama (CLI)
 
@@ -167,23 +167,23 @@ A downloaded model is generally safe if it satisfies all of the above checks.
 
 ## 標準
 
-Please note we are not affiliated with any of the projects we recommend. In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project and conduct your own research to ensure it's the right choice for you.
+請注意，我們與所推薦的任何項目毫無關聯。 除了 [我們的標準準則](about/criteria.md)，我們也制定了一套明確的要求，讓我們能提供客觀的建議。 我們建議您在選擇使用專案前先熟悉此清單，並自行研究，以確保它是適合您的選擇。
 
 ### 最低合格要求
 
-- Must be open-source.
-- Must not transmit personal data, including chat data.
-- Must be multi-platform.
-- Must not require a GPU.
+- 必須是開源的。
+- 不得傳輸個人資料，包括聊天資料。
+- 必須跨平台。
+- 必須不需要 GPU。
 - Must have support for GPU-powered fast inference.
-- Must not require an internet connection.
+- 必須無需網際網路連線。
 
 ### 最佳情況
 
-Our best-case criteria represent what we _would_ like to see from the perfect project in this category. 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
+最佳情況標準代表我們 _希望_ 在這個類別的完美項目的應具備的特性。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
-- Should be easy to download and set up, e.g. with a one-click install process.
-- Should have a built-in model downloader option.
+- 應該容易下載和設定，例如具備一鍵安裝程序。
+- 應該有內建的模型下載器選項。
 - The user should be able to modify the LLM parameters, such as its system prompt or temperature.
 
 [^1]: A file checksum is a type of anti-tampering fingerprint. A developer usually provides a checksum in a text file that can be downloaded separately, or on the download page itself. Verifying that the checksum of the file you downloaded matches the one provided by the developer helps ensure that the file is genuine and wasn't tampered with in transit. You can use commands like `sha256sum` on Linux and macOS, or `certutil -hashfile file SHA256` on Windows to generate the downloaded file's checksum.
