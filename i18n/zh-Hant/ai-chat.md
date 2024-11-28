@@ -98,7 +98,7 @@ Kobold.cpp 可讓您修改 AI 模型溫度和 AI 聊天的 system prompt 等參�
 
 ![Ollama Logo](assets/img/ai-chat/ollama.png){align=right}
 
-Ollama is a command-line AI assistant that is available on macOS, Linux, and Windows. Ollama is a great choice if you're looking for an AI client that's easy-to-use, widely compatible, and fast due to its use of inference and other techniques. It also doesn't involve any manual setup.
+Ollama 是一款命令列人工智能助理，可在 macOS、Linux 和 Windows 上使用。 Ollama is a great choice if you're looking for an AI client that's easy-to-use, widely compatible, and fast due to its use of inference and other techniques. It also doesn't involve any manual setup.
 
 In addition to supporting a wide range of text models, Ollama also supports [LLaVA](https://github.com/haotian-liu/LLaVA) models and has experimental support for Meta's [Llama vision capabilities](https://huggingface.co/blog/llama32#what-is-llama-32-vision).
 
