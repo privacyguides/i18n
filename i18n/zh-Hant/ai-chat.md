@@ -126,14 +126,14 @@ Ollama 可自動下載您要使用的 AI 模型，簡化設定本地 AI 聊天�
 
 ![Llamafile Logo](assets/img/ai-chat/llamafile.svg){align=right}
 
-Llamafile is a lightweight single-file executable that allows users to run LLMs locally on their own computers without any setup involved. It is [backed by Mozilla](https://hacks.mozilla.org/2023/11/introducing-llamafile) and available on Linux, macOS, and Windows.
+Llamafile 是一個輕量級的單一檔案執行檔，可讓使用者在自己的電腦上本地執行 LLM，而不需要進行任何設定。 它 [由 Mozilla 資助](https://hacks.mozilla.org/2023/11/introducing-llamafile)，可在 Linux、macOS 和 Windows 上使用。
 
-Llamafile also supports LLaVA. However, it doesn't support speech recognition or image generation.
+Llamafile 也支援 LLaVA。 但是，它不支援語音辨識及圖片生成。
 
-[:octicons-home-16: Homepage](https://github.com/Mozilla-Ocho/llamafile){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Mozilla-Ocho/llamafile#llamafile){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Mozilla-Ocho/llamafile){ .card-link title="Source Code" }
-[:octicons-lock-16:](https://github.com/Mozilla-Ocho/llamafile#security){ .card-link title="Security Policy" }
+[:octicons-home-16: 首頁](https://github.com/Mozilla-Ocho/llamafile){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Mozilla-Ocho/llamafile#llamafile){ .card-link title="說明文件" }
+[:octicons-code-16:](https://github.com/Mozilla-Ocho/llamafile){ .card-link title="原始碼" }
+[:octicons-lock-16:](https://github.com/Mozilla-Ocho/llamafile#security){ .card-link title="安全性政策" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -144,9 +144,9 @@ Llamafile also supports LLaVA. However, it doesn't support speech recognition or
 
 </div>
 
-Mozilla has made llamafiles available for only some Llama and Mistral models, while there are few third-party llamafiles available. Moreover, Windows limits `.exe` files to 4GB, and most models are larger than that.
+Mozilla 只為某些 Llama 和 Mistral 模型提供 llamafile，而可用的第三方 llamafile 很少。 此外，Windows 將 `.exe` 檔案大小限制為最大 4GB，而大多數模型都大於此數目。
 
-To circumvent these issues, you can [load external weights](https://github.com/Mozilla-Ocho/llamafile#using-llamafile-with-external-weights).
+為了迴避這些問題，您可以 [load external weights](https://github.com/Mozilla-Ocho/llamafile#using-llamafile-with-external-weights)。
 
 ## Securely Downloading Models
 
