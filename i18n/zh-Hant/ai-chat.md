@@ -90,7 +90,7 @@ Kobold.cpp 可能無法在不支援 AVX/AVX2 的電腦上執行。
 
 </div>
 
-Kobold.cpp allows you to modify parameters such as the AI model temperature and the AI chat's system prompt. 它也支援建立網路隧道，以便從手機等其他裝置存取 AI 模型。
+Kobold.cpp 可讓您修改 AI 模型溫度和 AI 聊天的 system prompt 等參數。 它也支援建立網路隧道，以便從手機等其他裝置存取 AI 模型。
 
 ### Ollama (CLI)
 
@@ -118,7 +118,7 @@ In addition to supporting a wide range of text models, Ollama also supports [LLa
 
 </div>
 
-Ollama simplifies the process of setting up a local AI chat by downloading the AI model you want to use automatically. For example, running `ollama run llama3.2` will automatically download and run the Llama 3.2 model. Furthermore, Ollama maintains their own [model library](https://ollama.com/library) where they host the files of various AI models. This ensures that models are vetted for both performance and security, eliminating the need to manually verify model authenticity.
+Ollama 可自動下載您要使用的 AI 模型，簡化設定本地 AI 聊天的程序。 例如：執行 `ollama run llama3.2` 會自動下載並執行 Llama 3.2 模型。 此外，Ollama 維護他們自己的 [模型庫](https://ollama.com/library)，在那裡存放著各種 AI 模型的檔案。 This ensures that models are vetted for both performance and security, eliminating the need to manually verify model authenticity.
 
 ### Llamafile
 
@@ -138,7 +138,7 @@ Llamafile also supports LLaVA. However, it doesn't support speech recognition or
 <details class="downloads" markdown>
 <summary>下載</summary>
 
-- [:fontawesome-solid-desktop: Desktop](https://github.com/Mozilla-Ocho/llamafile#quickstart)
+- [:fontawesome-solid-desktop: 電腦版](https://github.com/Mozilla-Ocho/llamafile#quickstart)
 
 </details>
 

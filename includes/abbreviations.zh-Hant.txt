@@ -50,7 +50,7 @@
 *[JNI]: Java 原生介面
 *[KYC]: 客戶身分審查
 *[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-*[LLMs]: Large Language Models (AI models such as ChatGPT)
+*[LLM]: 大型語言模型（AI 模型，例如：ChatGPT）
 *[LUKS]: Linux 統一金鑰設定 (全磁碟加密)
 *[MAC]: 媒體存取控制
 *[MDAG]: Microsoft Defender 應用程式防護
@@ -90,7 +90,7 @@
 *[SaaS]: 軟體即服務 (雲端軟體)
 *[SoC]: 系統晶片
 *[SSO]: 單一登入
-*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
+*[system prompt]: 系統級提示詞 (system prompt)，是 AI 聊天中人類給予的全局指示，用以指導它應該如何運作。
 *[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
 *[TCP]: 傳輸控制通訊協定
 *[TEE]: 受信任執行環境
