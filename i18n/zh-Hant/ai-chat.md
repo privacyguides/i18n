@@ -12,7 +12,7 @@ cover: ai-chatbots.webp
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 - [:material-close-outline: 審查](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 
-自 2022 年 ChatGPT 發表以來，人們與 大型語言模型(LLM) 的互動變得越來越普遍。 大型語言模型 可以幫助我們寫出更好的文章；瞭解不熟悉的主題；或是回答各式各樣的問題。 They can statistically predict the next word based on a vast amount of data scraped from the web.
+自 2022 年 ChatGPT 發表以來，人們與 大型語言模型(LLM) 的互動變得越來越普遍。 大型語言模型 可以幫助我們寫出更好的文章；瞭解不熟悉的主題；或是回答各式各樣的問題。 他們可以根據從網路搜刮的大量資料，以統計方式預測下一串對話。
 
 ## LLM 的隱私權疑慮
 
@@ -63,7 +63,7 @@ LLM 通常可以透過參數的數量來區分用途，對於提供給終端使�
 
 ![Kobold.cpp Logo](assets/img/ai-chat/kobold.png){align=right}
 
-Kobold.cpp 是一個 AI 用戶端，可在您的 Windows、Mac 或 Linux 電腦上本地執行。 如果您需要大量的客製化和調整，例如為了角色扮演的目的，這是一個絕佳的選擇。
+Kobold.cpp 是一個 AI 客戶端，可在您的 Windows、Mac 或 Linux 電腦上本地執行。 如果您需要大量的客製化和調整，例如為了角色扮演的目的，這是一個絕佳的選擇。
 
 除了支援大量的文字模型之外，Kobold.cpp 也支援圖片產生器，如： [Stable Diffusion](https://stability.ai/stable-image) ；以及自動語音辨識工具，如： [Whisper](https://github.com/ggerganov/whisper.cpp)。
 
@@ -148,13 +148,13 @@ Mozilla 只為某些 Llama 和 Mistral 模型提供 llamafile，而可用的第�
 
 為了迴避這些問題，您可以 [load external weights](https://github.com/Mozilla-Ocho/llamafile#using-llamafile-with-external-weights)。
 
-## Securely Downloading Models
+## 安全地下載模型
 
-If you use an AI client that maintains their own library of model files (such as [Ollama](#ollama-cli) and [Llamafile](#llamafile)), you should download it from there. However, if you want to download models not present in their library, or use an AI client that doesn't maintain its library (such as [Kobold.cpp](#koboldcpp)), you will need to take extra steps to ensure that the AI model you download is safe and legitimate.
+如果您使用的 AI 客戶端 有維護他們自己的模型檔案庫（例如： [Ollama](#ollama-cli) 和 [Llamafile](#llamafile) ），您應該從那裡下載。 不過，如果您要下載的模型不在他們的檔案庫中，或是使用沒有自行維護檔案庫的 AI 客戶端（例如： [Kobold.cpp](#koboldcpp) ），您就需要進行額外的檢查，以確保您下載的 AI 模型是未經篡改且安全的。
 
-We recommend downloading model files from Hugging Face since it provides several features to verify that your download is genuine and safe to use.
+我們建議您從 Hugging Face 下載模型檔案，因為它提供了多種功能來驗證您的下載是未經篡改且可安全使用的。
 
-To check the authenticity and safety of the model, look for:
+若要檢查模型的真實性和安全性，請尋找：
 
 - Model cards with clear documentation
 - A verified organization badge
