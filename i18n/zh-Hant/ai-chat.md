@@ -14,9 +14,9 @@ cover: ai-chatbots.webp
 
 自 2022 年 ChatGPT 發表以來，人們與 大型語言模型(LLM) 的互動變得越來越普遍。 大型語言模型 可以幫助我們寫出更好的文章；瞭解不熟悉的主題；或是回答各式各樣的問題。 They can statistically predict the next word based on a vast amount of data scraped from the web.
 
-## 大型語言模型的隱私權疑慮
+## LLM 的隱私權疑慮
 
-訓練 AI 模型需要用到資料；然而，用於訓練 AI 模型的資料包括從網路上獲取的大量公開資料，其中可能包括姓名和地址等敏感資訊。 基於雲端的 AI 軟體通常會 [收集您輸入的資料](https://openai.com/policies/row-privacy-policy)，這表示您的聊天內容對他們而言並非私密的。 這種做法也會帶來資料外洩的風險。 此外，大型語言模型 真的有可能在未來與其他使用者的對話中洩露您的私人聊天資訊。
+訓練 AI 模型需要用到資料；然而，用於訓練 AI 模型的資料包括從網路上獲取的大量公開資料，其中可能包括姓名和地址等敏感資訊。 基於雲端的 AI 軟體通常會 [收集您輸入的資料](https://openai.com/policies/row-privacy-policy)，這表示您的聊天內容對他們而言並非私密的。 這種做法也會帶來資料外洩的風險。 此外，LLM 真的有可能在未來與其他使用者的對話中洩露您的私人聊天資訊。
 
 如果您擔心這些做法，您可以拒絕使用 AI，或是使用 [真正開放原始碼的模型](https://proton.me/blog/how-to-build-privacy-first-ai)，這些模型會公開釋出，並允許您檢查其訓練資料集。 由 [Ai2](https://allenai.org/open-data) 所製作的 [OLMoE](https://allenai.org/blog/olmoe-an-open-small-and-state-of-the-art-mixture-of-experts-model-c258432d0514)，就是這樣的一個模型。
 
@@ -98,14 +98,14 @@ Kobold.cpp 可讓您修改 AI 模型溫度和 AI 聊天的 system prompt 等參�
 
 ![Ollama Logo](assets/img/ai-chat/ollama.png){align=right}
 
-Ollama 是一款命令列人工智能助理，可在 macOS、Linux 和 Windows 上使用。 Ollama is a great choice if you're looking for an AI client that's easy-to-use, widely compatible, and fast due to its use of inference and other techniques. It also doesn't involve any manual setup.
+Ollama 是一款命令列人工智能助理，可在 macOS、Linux 和 Windows 上使用。 如果您正在尋找一個易於使用、具有廣泛相容性，而且因使用 推理(inference) 和其他技術而速度極快的 AI 客戶端，Ollama 是一個不錯的選擇。 它也無須進行任何手動設定。
 
-In addition to supporting a wide range of text models, Ollama also supports [LLaVA](https://github.com/haotian-liu/LLaVA) models and has experimental support for Meta's [Llama vision capabilities](https://huggingface.co/blog/llama32#what-is-llama-32-vision).
+除了支援大量文字生成模型之外，Ollama 也支援 [LLaVA](https://github.com/haotian-liu/LLaVA) 模型，並且對 Meta 的 [Llama 視覺能力](https://huggingface.co/blog/llama32#what-is-llama-32-vision) 有實驗性的支援。
 
-[:octicons-home-16: Homepage](https://ollama.com){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/ollama/ollama#readme){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ollama/ollama){ .card-link title="Source Code" }
-[:octicons-lock-16:](https://github.com/ollama/ollama/blob/a14f76491d694b2f5a0dec6473514b7f93beeea0/SECURITY.md){ .card-link title="Security Policy" }
+[:octicons-home-16: 首頁](https://ollama.com){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/ollama/ollama#readme){ .card-link title="說明文件" }
+[:octicons-code-16:](https://github.com/ollama/ollama){ .card-link title="原始碼" }
+[:octicons-lock-16:](https://github.com/ollama/ollama/blob/a14f76491d694b2f5a0dec6473514b7f93beeea0/SECURITY.md){ .card-link title="安全性政策" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -118,7 +118,7 @@ In addition to supporting a wide range of text models, Ollama also supports [LLa
 
 </div>
 
-Ollama 可自動下載您要使用的 AI 模型，簡化設定本地 AI 聊天的程序。 例如：執行 `ollama run llama3.2` 會自動下載並執行 Llama 3.2 模型。 此外，Ollama 維護他們自己的 [模型庫](https://ollama.com/library)，在那裡存放著各種 AI 模型的檔案。 This ensures that models are vetted for both performance and security, eliminating the need to manually verify model authenticity.
+Ollama 可自動下載您要使用的 AI 模型，簡化設定本地 AI 聊天的程序。 例如：執行 `ollama run llama3.2` 會自動下載並執行 Llama 3.2 模型。 此外，Ollama 維護他們自己的 [模型庫](https://ollama.com/library)，在那裡存放著各種 AI 模型的檔案。 這可確保模型的效能和安全性都經過審核，無需手動驗證模型的真實及可靠性。
 
 ### Llamafile
 
@@ -184,6 +184,6 @@ A downloaded model is generally safe if it satisfies all of the above checks.
 
 - 應該容易下載和設定，例如具備一鍵安裝程序。
 - 應該有內建的模型下載器選項。
-- The user should be able to modify the LLM parameters, such as its system prompt or temperature.
+- 使用者應能修改 LLM 參數，例如其 system prompt 或 temperature。
 
 [^1]: A file checksum is a type of anti-tampering fingerprint. A developer usually provides a checksum in a text file that can be downloaded separately, or on the download page itself. Verifying that the checksum of the file you downloaded matches the one provided by the developer helps ensure that the file is genuine and wasn't tampered with in transit. You can use commands like `sha256sum` on Linux and macOS, or `certutil -hashfile file SHA256` on Windows to generate the downloaded file's checksum.
