@@ -24,9 +24,9 @@ VPN 會對裝置和 VPN 提供者擁有的伺服器之間流量進行加密。 �
 
 ``` mermaid
 flowchart LR
- 763931["Your Device<div>(with VPN Client)</div>"] ===|"VPN Encryption"| 404512{"VPN Server"}
- 404512 -.-|"No VPN Encryption"| 593753(("The Internet<div>(Your Destination)</div>"))
- subgraph 763931["Your Device<div>(with VPN Client)</div>"]
+ 763931["你的裝置<div>（安裝了 VPN 客戶端）</div>"] ===|"透過 VPN 加密"| 404512{"VPN 伺服器"}
+ 404512 -.-|"未經過 VPN 加密"| 593753(("網際網路<div>（您打算訪問的網路資源）</div>"))
+ subgraph 763931["你的裝置<div>（安裝了 VPN 客戶端）</div>"]
  end
 ```
 
@@ -77,7 +77,7 @@ VPN 無法加密裝置與 VPN 伺服器之間連線以外的資料。 VPN 服務
 
 大多數 VPN 服務都是由[少數公司](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies)擁有。 這些可疑的公司運行許多小型 VPN 服務，製造出一種擁有比實際更多選擇的假象，來實現利潤最大化。 通常這些為空殼公司提供服務的供應商都有糟糕的隱私權政策，不應信任。 請非常嚴格地決定使用哪個提供者。
 
-還應警惕：許多 VPN 評論網站只是向最高出價者開放的廣告工具。 == Privacy Guides 不會透過推薦外部產品賺錢，且從不使用推廣方案。==
+還應警惕：許多 VPN 評論網站只是向最高出價者開放的廣告工具。 ==Privacy Guides 不會透過推薦外部產品賺錢，且從不使用推廣方案。==
 
 [VPN 建議](../vpn.md ""){.md-button}
 
