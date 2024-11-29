@@ -156,7 +156,7 @@ Mozilla 只為某些 Llama 和 Mistral 模型提供 llamafile，而可用的第�
 
 若要檢查模型的真實性和安全性，請尋找：
 
-- Model cards with clear documentation
+- 具有清晰說明的模型卡
 - A verified organization badge
 - Community reviews and usage statistics
 - A "Safe" badge next to the model file (Hugging Face only)
