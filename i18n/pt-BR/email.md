@@ -127,7 +127,7 @@ O Proton Mail não oferece um recurso de legado digital.
 
 ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
 
-O **Mailbox.org** é um serviço de e-mail que se concentra em ser seguro, livre de anúncios e alimentado de forma privada por energia 100% ecológica. Eles estão operando desde 2014. Mailbox.org é sediado em Berlim, Alemanha. Accounts start with up to 2GB storage, which can be upgraded as needed.
+O **Mailbox.org** é um serviço de e-mail que se concentra em ser seguro, livre de anúncios e alimentado de forma privada por energia 100% ecológica. Eles estão operando desde 2014. Mailbox.org é sediado em Berlim, Alemanha. As contas começam com até 2 GB de armazenamento, que podem ser aumentados conforme necessário.
 
 [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
@@ -144,43 +144,43 @@ O **Mailbox.org** é um serviço de e-mail que se concentra em ser seguro, livre
 
 #### :material-check: { .pg-green } Domínios e Pseudônimos Personalizados
 
-Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox.org also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
+O Mailbox.org permite que você use seu próprio domínio e oferece suporte a endereços [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name). Mailbox.org também oferece suporte para [subendereçamento](https://proton.me/support/creating-aliases), o que é útil para as pessoas que não querem comprar um domínio.
 
 #### :material-check:{ .pg-green } Métodos de Pagamento Privados
 
-Mailbox.org não aceita nenhuma criptomoeda como resultado do seu processador de pagamentos BitPay ter suspendido as operações na Alemanha. However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
+Mailbox.org não aceita nenhuma criptomoeda como resultado do seu processador de pagamentos BitPay ter suspendido as operações na Alemanha. No entanto, eles aceitam dinheiro por correio, pagamento em dinheiro para conta bancária, transferência bancária, cartão de crédito, PayPal e alguns processadores específicos da Alemanha: paydirekt and Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Segurança da Conta
 
-Mailbox.org supports [two factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Padrões da Web como [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) ainda não são suportados.
+O Mailbox.org oferece suporte à [autenticação de dois fatores](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) somente para o webmail. Você pode usar o TOTP ou uma [YubiKey](https://en.wikipedia.org/wiki/YubiKey) por meio do [YubiCloud](https://yubico.com/products/services-software/yubicloud). Padrões da Web como [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) ainda não são suportados.
 
 #### :material-information-outline:{ .pg-blue } Segurança dos Dados
 
-Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Novas mensagens que você receber serão imediatamente criptografadas com a sua chave pública.
+Mailbox.org permite criptografia de e-mails recebidos usando sua [caixa de correio criptografada](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Novas mensagens que você receber serão imediatamente criptografadas com a sua chave pública.
 
-However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. Uma [opção autônoma](calendar.md) pode ser mais apropriada para essas informações.
+No entanto, [o Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), a plataforma de software usada pelo Mailbox.org, [não oferece suporte à](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) criptografia do seu catálogo de endereços e calendário. Uma [opção autônoma](calendar.md) pode ser mais apropriada para essas informações.
 
 #### :material-check:{ .pg-green } Criptografia do Email
 
-Mailbox.org has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox.org's servers. Esse recurso é útil quando o destinatário remoto não tem OpenPGP e não pode descriptografar uma cópia do e-mail em sua própria caixa de correio.
+Mailbox.org tem [criptografia integrada](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) em seu webmail, o que simplifica o envio de mensagens para pessoas com chaves OpenPGP públicas. Eles também permitem que [destinatários remotos descriptografem um e-mail](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) nos servidores do Mailbox.org. Esse recurso é útil quando o destinatário remoto não tem OpenPGP e não pode descriptografar uma cópia do e-mail em sua própria caixa de correio.
 
-Mailbox.org também suporta a descoberta de chaves públicas via HTTP a partir do seu [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Isso permite que pessoas fora do Mailbox.org encontrem as chaves OpenPGP de contas Mailbox.org facilmente, para criptografia ponta-a-ponta (E2EE) entre provedores. This only applies to email addresses ending in one of Mailbox.org's own domains, like @mailbox.org. Se você usar um domínio personalizado, deverá [configurar o WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separadamente.
+Mailbox.org também suporta a descoberta de chaves públicas via HTTP a partir do seu [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Isso permite que pessoas fora do Mailbox.org encontrem as chaves OpenPGP de contas Mailbox.org facilmente, para criptografia ponta-a-ponta (E2EE) entre provedores. Isso só se aplica aos endereços de e-mail que terminam em um dos domínios da própria Mailbox, como @mailbox.org. Se você usar um domínio personalizado, deverá [configurar o WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separadamente.
 
 #### :material-information-outline:{ .pg-blue } Rescisão da Conta
 
-Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Sua conta será definida como uma conta de usuário restrita quando o contrato terminar. Ele será excluído de forma irrevogável após [30 dias](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
 #### :material-information-outline:{ .pg-blue } Funcionalidades Adicionais
 
-You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). No entanto, sua interface webmail não pode ser acessada através do seu serviço ".onion" e você pode experimentar erros de certificado TLS.
+Você pode acessar sua conta do Mailbox.org via IMAP/SMTP usando o [ serviço .onion](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). No entanto, sua interface webmail não pode ser acessada através do seu serviço ".onion" e você pode experimentar erros de certificado TLS.
 
-All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org também suporta [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync), além dos protocolos de acesso padrão como IMAP e POP3.
+Todas as contas vêm com armazenamento limitado na nuvem que [pode ser criptografado](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org também oferece o pseudônimo [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), que impõe a criptografia TLS na conexão entre os servidores de email, caso contrário, a mensagem não será enviada. Mailbox.org também suporta [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync), além dos protocolos de acesso padrão como IMAP e POP3.
 
 Mailbox.org tem um recurso de legado digital para todos os planos. Você pode escolher se quer que os seus dados sejam transmitidos aos seus herdeiros, desde que estes o solicitem e apresentem o seu testamento. Como alternativa, você pode nomear uma pessoa através do seu nome e endereço.
 
 ## Mais Provedores
 
-Estes provedores armazenam os seus e-mails com criptografia de conhecimento zero, o que os torna excelentes opções para manter seguros os seus e-mails armazenados. However, they don't support interoperable encryption standards for E2EE communications between different providers.
+Estes provedores armazenam os seus e-mails com criptografia de conhecimento zero, o que os torna excelentes opções para manter seguros os seus e-mails armazenados. No entanto, eles não suportam padrões de criptografia interoperáveis para comunicações ponta-a-ponta (E2EE) entre provedores.
 
 <div class="grid cards" markdown>
 
@@ -195,13 +195,13 @@ Estes provedores armazenam os seus e-mails com criptografia de conhecimento zero
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1GB of storage.
+**Tuta** (anteriormente *Tutanota*) é um serviço de e-mail com foco na segurança e privacidade por meio do uso de criptografia. Tutá está em funcionamento desde 2011 e está com sede em Hanover, Alemanha. Contas gratuitas começam com 1GB de armazenamento.
 
-[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
+[:octicons-home-16: Página inicial](https://firefox.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Política de privacidade" }
+[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentação" }
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Código fonte" }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribuir" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -218,19 +218,19 @@ Estes provedores armazenam os seus e-mails com criptografia de conhecimento zero
 
 </div>
 
-Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
+Tuta não é compatível com o [protocolo IMAP](https://tuta.com/support#imap) nem com o uso de [clientes de e-mail](email-clients.md) de terceiros, e você também não poderá adicionar [contas de e-mail externas](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) ao aplicativo Tuta. [A importação de e-mails](https://github.com/tutao/tutanota/issues/630) também não é suportada no momento, embora isso deva [ser alterado](https://tuta.com/blog/kickoff-import). E-mails podem ser exportados [individualmente ou por seleção em massa](https://tuta.com/support#generalMail) por pasta, o que pode ser inconveniente se você tiver muitas pastas.
 
 #### :material-check: { .pg-green } Domínios e Pseudônimos Personalizados
 
-Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/support#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/support#plus), but you can use a [catch-all](https://tuta.com/support#settings-global) with a custom domain.
+Contas pagas da Tuta podem usar 15 ou 30 pseudônimos, dependendo do plano, e pseudônimos ilimitados em [domínios personalizados](https://tuta.com/support#custom-domain). Tutá não permite [subendereçamento (mais endereços)](https://tuta.com/support#plus), mas você pode usar um [catch-all](https://tuta.com/support#settings-global) com um domínio personalizado.
 
 #### :material-information-outline:{ .pg-blue } Métodos de Pagamento Privados
 
-Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with Proxystore.
+Tuta só aceita diretamente cartões de crédito e PayPal, mas [a criptomoeda](cryptocurrency.md) pode ser usada para comprar gift cards por meio de sua [parceria](https://tuta.com/support/#cryptocurrency) com a Proxystore.
 
 #### :material-check:{ .pg-green } Segurança da Conta
 
-Tuta supports [two factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
+Tuta oferece suporte à [autenticação de dois fatores](https://tuta.com/support#2fa) com TOTP ou U2F.
 
 #### :material-check:{ .pg-green } Segurança dos Dados
 

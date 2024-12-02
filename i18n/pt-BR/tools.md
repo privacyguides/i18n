@@ -196,7 +196,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. Eles estão operando desde 2014. Mailbox.org é sediado em Berlim, Alemanha. Accounts start with up to 2GB storage, which can be upgraded as needed.
+    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. Eles estão operando desde 2014. Mailbox.org é sediado em Berlim, Alemanha. As contas começam com até 2 GB de armazenamento, que podem ser aumentados conforme necessário.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#mailboxorg)
 
@@ -204,7 +204,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1GB of storage.
+    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Contas gratuitas começam com 1GB de armazenamento.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#tuta)
 
