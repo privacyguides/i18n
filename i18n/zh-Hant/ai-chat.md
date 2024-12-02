@@ -12,7 +12,7 @@ cover: ai-chatbots.webp
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 - [:material-close-outline: 審查](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 
-自 2022 年 ChatGPT 發表以來，人們與 大型語言模型(LLM) 的互動變得越來越普遍。 大型語言模型 可以幫助我們寫出更好的文章；瞭解不熟悉的主題；或是回答各式各樣的問題。 他們可以根據從網路搜刮的大量資料，以統計方式預測下一串對話。
+自 2022 年 ChatGPT 發表以來，人們與 LLM（大型語言模型） 的互動變得越來越普遍。 LLM 可以幫助我們寫出更好的文章；瞭解不熟悉的主題；或是回答各式各樣的問題。 他們可以根據從網路搜刮的大量資料，以統計方式預測下一串對話。
 
 ## LLM 的隱私權疑慮
 
@@ -70,7 +70,7 @@ Kobold.cpp 是一個 AI 客戶端，可在您的 Windows、Mac 或 Linux 電腦�
 [:octicons-home-16: 首頁](https://github.com/LostRuins/koboldcpp){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title="說明文件" }
 [:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="原始碼" }
-[:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="安全性政策" }
+[:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="安全策略" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -105,7 +105,7 @@ Ollama 是一款命令列人工智能助理，可在 macOS、Linux 和 Windows �
 [:octicons-home-16: 首頁](https://ollama.com){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/ollama/ollama#readme){ .card-link title="說明文件" }
 [:octicons-code-16:](https://github.com/ollama/ollama){ .card-link title="原始碼" }
-[:octicons-lock-16:](https://github.com/ollama/ollama/blob/a14f76491d694b2f5a0dec6473514b7f93beeea0/SECURITY.md){ .card-link title="安全性政策" }
+[:octicons-lock-16:](https://github.com/ollama/ollama/blob/a14f76491d694b2f5a0dec6473514b7f93beeea0/SECURITY.md){ .card-link title="安全策略" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -133,7 +133,7 @@ Llamafile 也支援 LLaVA。 但是，它不支援語音辨識及圖片生成。
 [:octicons-home-16: 首頁](https://github.com/Mozilla-Ocho/llamafile){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Mozilla-Ocho/llamafile#llamafile){ .card-link title="說明文件" }
 [:octicons-code-16:](https://github.com/Mozilla-Ocho/llamafile){ .card-link title="原始碼" }
-[:octicons-lock-16:](https://github.com/Mozilla-Ocho/llamafile#security){ .card-link title="安全性政策" }
+[:octicons-lock-16:](https://github.com/Mozilla-Ocho/llamafile#security){ .card-link title="安全策略" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -163,7 +163,7 @@ Mozilla 只為某些 Llama 和 Mistral 模型提供 llamafile，而可用的第�
 - 核對 checksum（核對和）[^1]
   - 在 Hugging Face 上，您可以按一下模型檔案，並在其下方尋找 **Copy SHA256** 按鈕，以找到雜湊值。 您應該將此 checksum 與您下載的模型檔案之 checksum 進行比對。
 
-A downloaded model is generally safe if it satisfies all of the above checks.
+如果下載的模型通過上述所有檢查，則該模型應該是安全的。
 
 ## 標準
 
@@ -175,7 +175,7 @@ A downloaded model is generally safe if it satisfies all of the above checks.
 - 不得傳輸個人資料，包括聊天資料。
 - 必須跨平台。
 - 必須不需要 GPU。
-- Must have support for GPU-powered fast inference.
+- 必須支援 GPU 驅動的快速推理。
 - 必須無需網際網路連線。
 
 ### 最佳情況
