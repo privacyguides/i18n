@@ -50,7 +50,7 @@
 *[JNI]: Interface native Java
 *[KYC]: Connaissance du client
 *[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-*[LLMs]: Large Language Models (AI models such as ChatGPT)
+*[LLMs]: Grands modèles de langage (modèles d'IA tels que ChatGPT)
 *[LUKS]: Configuration de la clé unifiée Linux (chiffrement complet du disque)
 *[MAC]: Contrôle d'accès aux médias
 *[MDAG]: Protection des applications Microsoft Defender
@@ -75,7 +75,7 @@
 *[PGP]: Pretty Good Privacy (voir OpenPGP)
 *[DCP]: Donnée à charactère personnel
 *[QNAME]: Nom qualifié
-*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
+*[QUIC]: Un protocole réseau basé sur UDP, mais visant à combiner la vitesse d'UDP avec la fiabilité de TCP.
 *[rate limits]: Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time.
 *[publication continue]: Mises à jour qui sont publiées fréquemment plutôt qu'à intervalles réguliers
 *[RSS]: Syndication vraiment simple
@@ -90,8 +90,8 @@
 *[SaaS]: Logiciel en tant que service (logiciel cloud)
 *[SoC]: Système sur puce
 *[SSO]: Authentification unique
-*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
-*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
+*[prompt système]: Le prompt système d'un chatbot correspond aux instructions générales données par un humain pour guider son fonctionnement.
+*[température]: La température de l'IA est un paramètre utilisé dans les modèles d'IA pour contrôler le niveau d'aléatoire et de créativité dans le texte généré.
 *[TCP]: Protocole de contrôle de transmission
 *[TEE]: Environnement d'exécution de confiance
 *[TLS]: Sécurité de la couche transport
