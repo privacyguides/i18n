@@ -125,14 +125,14 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 
 </div>
 
-## Top 3 Private VPN Providers
+## Top 3 des fournisseurs de VPN privés
 
 <details class="danger" markdown>
 <summary>Les VPN ne peuvent pas fournir d'anonymat</summary>
 
 L'utilisation d'un VPN ne rendra **pas** votre navigation anonyme et n'ajoutera pas de sécurité supplémentaire à un trafic non sécurisé (HTTP).
 
-If you are looking for **anonymity**, you should use the Tor Browser.
+Si vous recherchez **l'anonymat**, vous devriez utiliser le navigateur Tor.
 
 Si vous recherchez une **sécurité** supplémentaire, vous devez toujours vous assurer que vous vous connectez à des sites web utilisant HTTPS. Un VPN ne se substitue pas à de bonnes pratiques de sécurité.
 
@@ -180,15 +180,15 @@ Si vous recherchez une **sécurité** supplémentaire, vous devez toujours vous 
 
 </div>
 
-## Top 3 Private Email Providers
+## Top 3 des fournisseurs d'emails privés
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .lg .middle .twemoji } **Proton Mail**
+- ![Logo de Proton Mail](assets/img/email/protonmail.svg){ .lg .middle .twemoji } **Proton Mail**
 
     ---
 
-    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG a son siège à Genève, en Suisse. L'offre Free de Proton Mail comprend 500 Mo de stockage d'e-mails, que vous pouvez augmenter jusqu'à 1 Go gratuitement.
+    Proton Mail est un service d'e-mail qui met l'accent sur la confidentialité, le chiffrement, la sécurité et la facilité d'utilisation. Il existe depuis 2013. Proton AG a son siège à Genève, en Suisse. L'offre Free de Proton Mail comprend 500 Mo de stockage d'e-mails, que vous pouvez augmenter jusqu'à 1 Go gratuitement.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
 
