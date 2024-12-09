@@ -19,21 +19,19 @@ Non dovresti **mai** utilizzare la sfocatura per nascondere [il testo nelle imma
 
 </div>
 
-## Desktop
-
-### MAT2
+## MAT2
 
 <div class="admonition recommendation" markdown>
 
-![Logo di MAT2](assets/img/data-redaction/mat2.svg){ align=right }
+![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
 
-**MAT2** è un software gratuito che consente la rimozione dei metadati da file immagine, audio, torrent e documenti. Fornisce sia uno strumento a riga di comando che un'interfaccia utente grafica tramite un'estensione per [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), il gestore file predefinito di [KDE](https://kde.org/it/).
+**MAT2** is free, cross-platform software which allows you to remove metadata from image, audio, torrent, and document file types. Fornisce sia uno strumento a riga di comando che un'interfaccia utente grafica tramite un'estensione per [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), il gestore file predefinito di [KDE](https://kde.org/it/).
 
-Su Linux, esiste uno strumento grafico di terze parti [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner) basato su MAT2 ed è [disponibile su Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
+On Linux, you can use [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner), a third-party graphical tool powered by MAT2 that's [available on Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
 
 [:octicons-repo-16: Repository](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
-[:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=Documentazione}
-[:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Codice sorgente" }
+[:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title="Documentation" }
+[:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -47,9 +45,7 @@ Su Linux, esiste uno strumento grafico di terze parti [Metadata Cleaner](https:/
 
 </div>
 
-## Mobile
-
-### ExifEraser (Android)
+## ExifEraser (Android)
 
 <div class="admonition recommendation" markdown>
 
@@ -60,8 +56,8 @@ Su Linux, esiste uno strumento grafico di terze parti [Metadata Cleaner](https:/
 Attualmente supporta file JPEG, PNG e WebP.
 
 [:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Codice sorgente" }
+[:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -90,42 +86,30 @@ L'applicazione offre diversi modi per cancellare i metadati dalle immagini. Nell
 - Consente di trascinare le foto da un'altra applicazione in ExifEraser quando entrambe sono aperte in modalità split-screen.
 - Infine, consente di incollare un'immagine dagli appunti.
 
-### Metapho (iOS)
+## Shortcuts (iOS & macOS)
+
+On iOS and macOS, you can remove image metadata without using any third-party apps by creating a [**shortcut**](https://apps.apple.com/app/id915249334) for this purpose. Here is an example shortcut you can download to use as is:
+
+[:material-tag-minus: Clean Image Metadata](https://icloud.com/shortcuts/fb774ddb7b5b4296871776c67ac0fff9 ""){.md-button}
+
+You can also use it as a model for your own shortcut; just make sure that the **Preserve Metadata** option under the **Convert** action is unchecked. Once added, you can access the shortcut in the share sheet that appears when you select the :octicons-share-24: Share button. You can select multiple images and invoke the shortcut to remove their metadata all at once.
+
+This shortcut removes metadata such as location, device model, lens model, and other camera information. It also sets the image creation date to the time the shortcut was used.
+
+## ExifTool (CLI)
 
 <div class="admonition recommendation" markdown>
 
-![Logo di Metapho](assets/img/data-redaction/metapho.jpg){ align=right }
+![ExifTool logo](assets/img/data-redaction/exiftool.png){ align=right }
 
-**Metapho** è un visualizzatore semplice e pulito per i metadati delle foto, quali data, nome del file, dimensioni, modello della fotocamera, velocità dell'otturatore e posizione.
+**ExifTool** is the original Perl library and command-line application for reading, writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
 
-[:octicons-home-16: Pagina Principale](https://zininworks.com/metapho){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://zininworks.com/privacy){ .card-link title="Politica sulla Privacy" }
-
-<details class="downloads" markdown>
-<summary>Scarica</summary>
-
-- [:simple-appstore: App Store](https://apps.apple.com/it/app/metapho/id914457352)
-
-</details>
-
-</div>
-
-## Linea di comando
-
-### ExifTool
-
-<div class="admonition recommendation" markdown>
-
-![Logo di ExifTool](assets/img/data-redaction/exiftool.png){ align=right }
-
-**ExifTool** è la libreria perl originale e appliczione di riga di comando per leggere, scrivere e modificare le meta-informazioni (Exif, IPTC, XMP e altre) in un'ampia gamma di formati di file (JPEG, TIFF, PNG, PDF, RAW e altri).
-
-Spesso è usato come un componente di altre applicazioni di rimozione Exif ed è presente nei repository della maggior parte delle distribuzioni Linux.
+It is often a component of other Exif removal applications and in most Linux distribution repositories.
 
 [:octicons-home-16: Homepage](https://exiftool.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Codice sorgente" }
-[:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribuisci }
+[:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

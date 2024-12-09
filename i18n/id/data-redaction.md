@@ -19,20 +19,18 @@ Anda *"tidak boleh** menggunakan teknik blur untuk menyamarkan [teks dalam gamba
 
 </div>
 
-## Desktop
-
-### MAT2
+## MAT2
 
 <div class="admonition recommendation" markdown>
 
-![Logo MAT2](assets/img/data-redaksi/mat2.svg){ align=right }
+![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
 
-**MAT2** adalah perangkat lunak gratis, yang memungkinkan metadata dihapus dari jenis file gambar, audio, torrent, dan dokumen. It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
+**MAT2** is free, cross-platform software which allows you to remove metadata from image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
 
-Di Linux, alat grafis pihak ketiga [Metadata Cleaner] (https://gitlab.com/rmnvgr/metadata-cleaner) yang didukung oleh MAT2 ada dan [tersedia di Flathub] (https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
+On Linux, you can use [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner), a third-party graphical tool powered by MAT2 that's [available on Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
 
 [:octicons-repo-16: Repository](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
-[:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=Documentation}
+[:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title="Documentation" }
 [:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -47,9 +45,7 @@ Di Linux, alat grafis pihak ketiga [Metadata Cleaner] (https://gitlab.com/rmnvgr
 
 </div>
 
-## Handphone
-
-### ExifEraser (Android)
+## ExifEraser (Android)
 
 <div class="admonition recommendation" markdown>
 
@@ -60,7 +56,7 @@ Di Linux, alat grafis pihak ketiga [Metadata Cleaner] (https://gitlab.com/rmnvgr
 Saat ini mendukung file JPEG, PNG dan WebP.
 
 [:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -90,42 +86,30 @@ Aplikasi ini menawarkan beberapa cara untuk menghapus metadata dari gambar. Yait
 - Anda dapat menyeret foto dari aplikasi lain ke ExifEraser apabila keduanya terbuka dalam mode layar terbagi.
 - Terakhir, Anda dapat menempelkan gambar dari clipboard Anda.
 
-### Metapho (iOS)
+## Shortcuts (iOS & macOS)
+
+On iOS and macOS, you can remove image metadata without using any third-party apps by creating a [**shortcut**](https://apps.apple.com/app/id915249334) for this purpose. Here is an example shortcut you can download to use as is:
+
+[:material-tag-minus: Clean Image Metadata](https://icloud.com/shortcuts/fb774ddb7b5b4296871776c67ac0fff9 ""){.md-button}
+
+You can also use it as a model for your own shortcut; just make sure that the **Preserve Metadata** option under the **Convert** action is unchecked. Once added, you can access the shortcut in the share sheet that appears when you select the :octicons-share-24: Share button. You can select multiple images and invoke the shortcut to remove their metadata all at once.
+
+This shortcut removes metadata such as location, device model, lens model, and other camera information. It also sets the image creation date to the time the shortcut was used.
+
+## ExifTool (CLI)
 
 <div class="admonition recommendation" markdown>
 
-![Metapho logo](assets/img/data-redaksi/metapho.jpg){ align=right }
+![ExifTool logo](assets/img/data-redaction/exiftool.png){ align=right }
 
-**Metapho** adalah penampil yang sederhana dan bersih untuk metadata foto seperti tanggal, nama file, ukuran, model kamera, kecepatan rana, dan lokasi.
+**ExifTool** is the original Perl library and command-line application for reading, writing, and editing meta information (Exif, IPTC, XMP, and more) in a wide variety of file formats (JPEG, TIFF, PNG, PDF, RAW, and more).
 
-[:octicons-home-16: Homepage](https://zininworks.com/metapho){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://zininworks.com/privacy){ .card-link title="Privacy Policy" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-appstore: App Store](https://apps.apple.com/app/id914457352)
-
-</details>
-
-</div>
-
-## Baris perintah
-
-### ExifTool
-
-<div class="admonition recommendation" markdown>
-
-![Logo ExifTool](assets/img/data-redaksi/exiftool.png){ align=right }
-
-**ExifTool** adalah library dari perl dan sebuah aplikasi baris perintah untuk membaca, menulis, dan mengedit informasi meta (Exif, IPTC, XMP, dan banyak lagi) dalam berbagai macam format file (JPEG, TIFF, PNG, PDF, RAW, dan banyak lagi).
-
-Aplikasi ini sering kali merupakan komponen dari aplikasi penghapus Exif lainnya dan ada di sebagian besar repositori distribusi Linux.
+It is often a component of other Exif removal applications and in most Linux distribution repositories.
 
 [:octicons-home-16: Homepage](https://exiftool.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title=Documentation}
+[:octicons-info-16:](https://exiftool.org/faq.html){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/exiftool/exiftool){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title=Contribute }
+[:octicons-heart-16:](https://exiftool.org/#donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
