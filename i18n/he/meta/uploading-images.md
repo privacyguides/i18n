@@ -29,8 +29,8 @@ optipng -o7 file.png
 
 ב-Inkscape:
 
-1. File Save As..
-2. הגדר את הסוג ל-SVG אופטימיזציה (*.svg)
+1. File > Save As...
+2. Set type to: Optimized SVG (*.svg)
 
 בלשונית **האפשרויות**:
 

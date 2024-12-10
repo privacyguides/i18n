@@ -29,8 +29,8 @@ SVG 이미지는 모두 [Scour](https://github.com/scour-project/scour)로 최�
 
 Inkscape에서 다음과 같이 진행합니다.
 
-1. **파일**(File) - **다른 이름으로 저장하기...**(Save As...)
-2. 저장 형식을 **최적화된 SVG (*.svg)**(Optimized SVG (*.svg))로 설정합니다.
+1. File > Save As...
+2. Set type to: Optimized SVG (*.svg)
 
 **최적화된 SVG 출력**(Optimized SVG Output) 창 - **옵션**(Options):
 

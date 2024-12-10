@@ -29,8 +29,8 @@ Utilizza [Scour](https://github.com/scour-project/scour) per ripulire tutte le i
 
 Su Inkscape:
 
-1. File Salva come...
-2. Seleziona formato SVG ottimizzato (*.svg)
+1. File > Save As...
+2. Set type to: Optimized SVG (*.svg)
 
 Nella scheda **Opzioni**:
 

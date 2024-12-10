@@ -29,8 +29,8 @@ optipng -o7 file.png
 
 En Inkscape:
 
-1. Archivo Guardar como...
-2. Establecer tipo a SVG optimizado (*.svg)
+1. File > Save As...
+2. Set type to: Optimized SVG (*.svg)
 
 En la pestaña **Opciones**:
 

@@ -29,8 +29,8 @@ optipng -o7 file.png
 
 Inkscape-ben:
 
-1. Fájl > Mentés másként..
-2. Típus beállítása: Optimalizált SVG (*.svg)
+1. File > Save As...
+2. Set type to: Optimized SVG (*.svg)
 
 A **Beállítások** lapon:
 
