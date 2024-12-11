@@ -1,12 +1,12 @@
 ---
-title: "Why Privacy Matters"
+title: "Mengapa Privasi itu Penting"
 icon: 'material/shield-account'
-description: In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not.
+description: Di era modern yang penuh dengan eksploitasi data digital, privasi Anda tidak pernah sepenting ini, namun banyak yang percaya bahwa itu sudah tidak bisa diselamatkan lagi. Itu tidak benar.
 ---
 
-In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not. ==Your privacy is up for grabs==, and you need to care about it. Privacy is about power, and it is so important that this power ends up in the right hands.
+Di era modern yang penuh dengan eksploitasi data digital, privasi Anda tidak pernah sepenting ini, namun banyak yang percaya bahwa itu sudah tidak bisa diselamatkan lagi. Itu tidak benar. ==Privasi Anda sedang dipertaruhkan==, dan Anda harus peduli akan hal itu. Privasi adalah tentang kuasa, dan sangat penting bahwa kuasa ini berakhir di tangan yang tepat.
 
-Privacy is ultimately about human information, and this is important because we know that human information confers power over human beings. If we care about our ability to be authentic, fulfilled, and free humans, we have to care about the rules that apply to information about us. So much of our modern society is structured around **information**. When you shop online, read the news, look something up, vote, seek directions, or really anything else, you are relying on information. If we live in an information society, our information matters, and therefore privacy matters.
+Privasi pada dasarnya adalah tentang informasi manusia, dan ini penting karena kita tahu bahwa informasi manusia memberikan kekuasaan kepada manusia. If we care about our ability to be authentic, fulfilled, and free humans, we have to care about the rules that apply to information about us. So much of our modern society is structured around **information**. When you shop online, read the news, look something up, vote, seek directions, or really anything else, you are relying on information. If we live in an information society, our information matters, and therefore privacy matters.
 
 ## What is Privacy?
 

@@ -180,7 +180,7 @@ We recommend a wide variety of **privacy tools** (a.k.a. *privacy apps*, *privac
 <div markdown>
 ## Why does privacy matter?
 
-In the modern age of digital data exploitation, your privacy has never been more critical, yet many believe it is already a lost cause. It is not. ==Your privacy is up for grabs, and you need to care about it.== Privacy is about power, and it is so important that this power ends up in the right hands.
+In the modern age of digital data exploitation, your privacy has never been more critical, yet many believe it is already a lost cause. Itu tidak benar. ==Your privacy is up for grabs, and you need to care about it.== Privacy is about power, and it is so important that this power ends up in the right hands.
 
 Many people get the concepts of privacy, security, and anonymity confused. You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
 
