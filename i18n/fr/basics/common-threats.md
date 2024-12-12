@@ -14,7 +14,7 @@ Shielding your online activity from your real identity, protecting you from peop
 <span class="pg-red">:material-target-account: **Targeted Attacks**</span>
 :
 
-Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
+Être protégé contre les hackers ou autres entités malveillantes qui essaient d'accéder spécifiquement à *vos* données ou à vos appareils.
 
 <span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
 :

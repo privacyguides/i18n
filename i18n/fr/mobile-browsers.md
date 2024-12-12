@@ -54,7 +54,7 @@ schema:
 
 - [:material-account-cash: Capitalisme de surveillance](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. Si vous avez besoin de naviguer anonymement sur Internet, vous devriez plutôt utiliser [Tor](tor.md).
+Voici nos recommandations actuelles concernant les **navigateurs internet mobiles** et paramètres pour la navigation internet standard et non-anonyme. Si vous avez besoin de naviguer anonymement sur Internet, vous devriez plutôt utiliser [Tor](tor.md).
 
 ## Brave
 
