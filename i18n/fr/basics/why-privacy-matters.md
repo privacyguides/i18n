@@ -1,5 +1,5 @@
 ---
-title: "Pourquoi la vie privée est importante"
+title: "Pourquoi la confidentialité est importante"
 icon: 'material/shield-account'
 description: À l'ère moderne de l'exploitation des données numériques, la protection de votre vie privée n'a jamais été aussi cruciale, et pourtant beaucoup pensent qu'elle est déjà une cause perdue. Ce n'est pas le cas.
 ---
@@ -44,7 +44,7 @@ Tous ces concepts se chevauchent, mais il est possible de les combiner. Pour la 
 
 Un contre-argument courant aux mouvements en faveur de la protection de la vie privée est l'idée que l'on n'a pas besoin de vie privée si l'on n'a **"rien à cacher"**. Il s'agit d'une idée fausse et dangereuse, car elle donne l'impression que les personnes qui exigent le respect de la vie privée sont forcément déviantes, criminelles ou mauvaises.
 
-==Il ne faut pas confondre vie privée et secret.== Nous savons ce qui se passe dans les toilettes, mais vous fermez quand même la porte. That's because you want privacy, not secrecy. Il y a toujours certains faits nous concernant - par exemple, des informations sur notre santé personnelle ou notre comportement sexuel - que nous ne voudrions pas que le monde entier connaisse, et c'est normal. Le besoin de vie privée est légitime et c'est ce qui fait de nous des êtres humains. La protection de la vie privée consiste à renforcer vos droits sur vos propres informations, et non à cacher des secrets.
+==Il ne faut pas confondre vie privée et secret.== Nous savons ce qui se passe dans les toilettes, mais vous fermez quand même la porte. C'est parce que vous voulez la confidentialité, pas le secret. Il y a toujours certains faits nous concernant - par exemple, des informations sur notre santé personnelle ou notre comportement sexuel - que nous ne voudrions pas que le monde entier connaisse, et c'est normal. Le besoin de vie privée est légitime et c'est ce qui fait de nous des êtres humains. La protection de la vie privée consiste à renforcer vos droits sur vos propres informations, et non à cacher des secrets.
 
 ## La vie privée est-elle une question de contrôle ?
 
@@ -52,7 +52,7 @@ Une définition courante de la vie privée est la possibilité de *contrôler* q
 
 Prenons l'exemple des formulaires de consentement des cookies. Vous les rencontrez peut-être des dizaines de fois par jour sur les différents sites web que vous visitez, avec une belle série de cases à cocher et de curseurs qui vous permettent d'adapter vos préférences à vos besoins. En fin de compte, nous appuyons sur le bouton "J'accepte", parce que nous voulons simplement lire l'article ou faire un achat. Personne n'a envie de procéder à un audit de la protection de la vie privée sur chaque site web qu'il visite. Il s'agit d'un exercice [d'architecture de choix](https://en.wikipedia.org/wiki/Choice_architecture), conçu pour vous inciter à choisir la voie la plus facile au lieu de vous plonger dans un labyrinthe d'options de configuration qui n'ont pas lieu d'exister.
 
-==Le contrôle de votre vie privée dans la plupart des applications est une illusion.== Il s'agit d'un joli tableau de bord avec toutes sortes de choix que vous pouvez faire à propos de vos données, mais rarement les choix que vous recherchez, comme "n'utiliser mes données que pour m'aider". Ce type de contrôle vise à vous faire culpabiliser de vos choix, à vous faire comprendre que vous "aviez le choix" de rendre les applications que vous utilisez plus privées, et que vous avez choisi de ne pas le faire.
+==Le contrôle de votre vie privée dans la plupart des applications sont une illusion.==. Il s'agit d'un joli tableau de bord avec toutes sortes de choix que vous pouvez faire à propos de vos données, mais rarement les choix que vous recherchez, comme "n'utiliser mes données que pour m'aider." Ce type de contrôle vise à vous faire culpabiliser de vos choix, à vous faire comprendre que vous "aviez le choix" de rendre les applications que vous utilisez plus privées, et que vous avez choisi de ne pas le faire.
 
 La protection de la vie privée doit être intégrée par défaut dans les [logiciels et services](../tools.md) que nous utilisons, car il est impossible de forcer de vous-même la plupart des applications à respecter votre vie privée.
 
