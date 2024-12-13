@@ -10,15 +10,20 @@ description: Privacy Guides 的慈善使命有賴於像您這樣的訪客的貢�
 
 ## 捐款
 
-目前，支持的最佳方式是透過 GitHub 贊助每月或一次性捐款。 我們很快就能透過其他支付平台接受捐款。
+MAGIC Grants is our fiscal host, and their custom, open-source donation platform allows you to donate to our project with **Monero**, **Bitcoin**, or **debit/credit card**.
 
-[:material-heart:{ .pg-red } 在 GitHub 上贊助我們](https://github.com/sponsors/privacyguides){ class="md-button md-button--primary" }
+[:material-heart:{ .pg-red } Donate](https://donate.magicgrants.org/privacyguides){ class="md-button md-button--primary" }
+[Sponsor on GitHub](https://github.com/sponsors/privacyguides){ class="md-button" }
 
-我們控制的新捐款平台即將部署，讓捐款更輕鬆。 與此同時，如果您想要安排捐款（包括使用加密貨幣），請聯絡 [info@magicgrants.org](mailto:info@magicgrants.org)。
+Donating with Monero will maximize your donation by lowering our transaction fees while simultaneously [preserving your privacy](../cryptocurrency.md), win-win! You can also donate to us via GitHub Sponsors if you prefer, or if you would like to publicize your support. GitHub does not charge us any fees if you donate as an individual, but may charge us fees if you donate with a GitHub organization, if this is a concern for you.
 
 ## 我們如何使用贊助費用
 
-Privacy Guides 是一個 **非營利** 組織。 我們將捐款用於各種目的，包括：
+Privacy Guides is a **non-profit** project. Your donation will go to a [dedicated fund](https://magicgrants.org/funds/privacy_guides) within [MAGIC Grants](https://magicgrants.org), a 501(c)(3) organization and our fiscal host. The funds will **only** be used for this project specifically.
+
+您可獲得減稅資格。 When you donate to us [here](https://donate.magicgrants.org/privacyguides) with cryptocurrency or card you have the option to receive a receipt from MAGIC Grants for this purpose. If you have questions about other transactions please email <info@magicgrants.org>.
+
+我們將捐款用於各種目的，包括：
 
 **網站託管**
 :
@@ -28,7 +33,7 @@ Privacy Guides 是一個 **非營利** 組織。 我們將捐款用於各種目�
 **薪資**
 :
 
-我們目前有一個付費[兼職](../about.md#staff)，負責處理日常工作，例如：系統管理、撰寫定期產品評論、發佈我們的每週節目和製作課程內容等。 未來，我們希望能聘請全職的記者和作家來評論產品，並製作更多教育性的內容。
+We are endeavoring to [hire](jobs.md) full-time journalists and writers to review products and create more educational content on a regular basis.
 
 **網域註冊**
 :
@@ -45,18 +50,16 @@ Privacy Guides 是一個 **非營利** 組織。 我們將捐款用於各種目�
 
 我們偶爾會購買產品和服務，以測試我們的 [推薦工具](../tools.md)。
 
-您的捐款將撥入 [MAGIC Grants](https://magicgrants.org)（一個 501(c)(3) 機構）內的[專用基金](https://magicgrants.org/funds/privacy_guides)。 該資金將僅用於本專案項目。 您可獲得減稅資格。 如需要捐款收據，請發送電子郵件至 <info@magicgrants.org>。
+Thank you to all those who support our mission! :material-heart:{ .pg-red }
 
-感謝所有支持本站宗旨的朋友！ :material-heart:{ .pg-red }
-
-我們**嚴禁**將捐款用於支持政治競選/候選人或試圖影響立法。 任何私人股東或個人也**不得**從中獲利。
+We strictly **cannot** use donations to support political campaigns/candidates or attempt to influence legislation. Earnings also will **not** inure to the benefit of any private shareholder or individual.
 
 ## 周邊商品
 
-另一個支持我們的方是從 HelloTux 購買我們的商品。 我們從每件售出的商品中收取少量佣金，而您則可獲得優質的產品。
+Another option to support us is by buying our merchandise from HelloTux. We get a small commission for each item sold, and you get a quality product to show for it.
 
-[在 HelloTux.com 購買](https://hellotux.com/privacyguides){ class="md-button" }
+[Buy on HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
 
 ## 非財務支援
 
-要保持 Privacy Guides 的更新並傳播有關隱私權和大規模監控的訊息，需要[許多人](contributors.md)的[不辭辛勞](https://github.com/privacyguides/privacyguides.org/pulse/monthly)。 如果您正在尋找其他幫忙的方式，請考慮參與[編輯網站](https://github.com/privacyguides/privacyguides.org)、[加入我們的論壇](https://discuss.privacyguides.net)或[貢獻翻譯](https://crowdin.com/project/privacyguides)。
+It takes a lot of [people](contributors.md) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spread the word about privacy and mass surveillance. If you're looking for other ways to help out, consider getting involved by [editing the site](https://github.com/privacyguides/privacyguides.org), [joining our forum](https://discuss.privacyguides.net), or [contributing translations](https://crowdin.com/project/privacyguides).

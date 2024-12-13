@@ -20,9 +20,9 @@ schema:
 
 **Privacy Guides** es un sitio web socialmente motivado que proporciona información para proteger la seguridad y privacidad de tus datos. Somos un proyecto sin fines de lucro con la misión de informar al público sobre el valor de la privacidad en línea y sobre las iniciativas gubernamentales digitales que pretenden vigilar tu actividad en línea. Nuestro sitio web no tiene anuncios y no está asociado con alguno de los proveedores listados.
 
-[:material-heart:{.pg-red} Realiza una Donación](about/donate.md){ .md-button .md-button--primary }
-[:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Página Principal}
-[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Código Fuente" }
+[:material-heart:{.pg-red} Make a Donation](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary }
+[:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Homepage }
+[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
 
 Privacy Guides está elaborada por voluntarios y miembros del personal de todo el mundo. Todos los cambios en nuestras recomendaciones y recursos son revisados por al menos dos personas [de confianza](https://discuss.privacyguides.net/u?group=team\&order=solutions\&period=all), y trabajamos con diligencia para garantizar que nuestro contenido se actualice lo más rápidamente posible para adaptarse al panorama siempre cambiante de las amenazas a la ciberseguridad.
 

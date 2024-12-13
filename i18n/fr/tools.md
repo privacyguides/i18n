@@ -99,7 +99,7 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 <div class="grid" markdown>
 
 <div markdown>
-### Browser Extensions
+### Extensions de navigateur
 
 <div class="grid cards" markdown>
 
@@ -112,12 +112,12 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 </div>
 
 <div markdown>
-### More Tor Network Tools
+### Plus d'outils pour le réseau Tor
 
 <div class="grid cards" markdown>
 
-- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
-- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor for iOS)](tor.md#onion-browser-ios)
+- ![Logo d'Orbot](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
+- ![Logo d'Onion Browser](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor for iOS)](tor.md#onion-browser-ios)
 
 </div>
 
