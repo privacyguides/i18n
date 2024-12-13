@@ -27,8 +27,6 @@ cover: data-redaction.webp
 
 **MAT2** is free, cross-platform software which allows you to remove metadata from image, audio, torrent, and document file types. 它提供命令行工具和圖形用戶界面擴展給 [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin)，其為[KDE](https://kde.org)的預設檔案管理器。
 
-On Linux, you can use [Metadata Cleaner](https://gitlab.com/rmnvgr/metadata-cleaner), a third-party graphical tool powered by MAT2 that's [available on Flathub](https://flathub.org/apps/details/fr.romainvigier.MetadataCleaner).
-
 [:octicons-repo-16: Repository](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
 [:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title="Documentation" }
 [:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Source Code" }
