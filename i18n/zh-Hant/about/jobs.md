@@ -11,22 +11,4 @@ Privacy Guides 擁有一支由隱私權研究人員和倡導者組成的小型�
 
 ## 職缺
 
-<div class="grid cards" markdown>
-
-- :material-video-box:{ .lg .middle } **內容創造者**
-
-  ---
-
-  全職 | 遠端工作 | \$20-$25/小時
-
-  [View posting :material-arrow-right-drop-circle:](jobs/content-creator.md)
-
-- :material-file-document-edit:{ .lg .middle } **Journalist**
-
-  ---
-
-  全職 | 遠端工作 | \$20-$25/小時
-
-  [View posting :material-arrow-right-drop-circle:](jobs/journalist.md)
-
-</div>
+There are no open positions at this time.

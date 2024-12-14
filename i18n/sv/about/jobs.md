@@ -11,22 +11,4 @@ We are occasionally looking for strong journalistic writers, product reviewers, 
 
 ## Open Positions
 
-<div class="grid cards" markdown>
-
-- :material-video-box:{ .lg .middle } **Content Creator**
-
-  ---
-
-  Heltid | Distans | \$20-$25/timme
-
-  [View posting :material-arrow-right-drop-circle:](jobs/content-creator.md)
-
-- :material-file-document-edit:{ .lg .middle } **Journalist**
-
-  ---
-
-  Heltid | Distans | \$20-$25/timme
-
-  [View posting :material-arrow-right-drop-circle:](jobs/journalist.md)
-
-</div>
+There are no open positions at this time.

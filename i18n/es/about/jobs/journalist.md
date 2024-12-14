@@ -5,6 +5,13 @@ description: Privacy Guides busca un periodista decidido y centrado que investig
 
 [:material-arrow-left-drop-circle: Ofertas de Empleo](../jobs.md)
 
+<div class="admonition info" markdown>
+<p class="admonition-title">Posición Cerrada</p>
+
+Gracias por tu interés en este puesto en Privacy Guides. En este momento ya no aceptamos nuevas candidaturas, pero sigue nuestra página [puestos de trabajo](../jobs.md) para conocer futuras oportunidades.
+
+</div>
+
 ¿Te apasionan la privacidad y la ciberseguridad?
 
 Privacy Guides es una organización internacional sin ánimo de lucro dedicada a producir contenidos educativos y periodísticos imparciales de primer nivel y a fomentar comunidades en línea seguras e informativas para debatir temas técnicos relacionados con la mejora de la privacidad personal y la ciberseguridad.
@@ -54,7 +61,12 @@ Para esta posición, nuestro rango de pago de contratación oscila entre \$20-$2
 
 ---
 
-**Para presentar tu candidatura, por favor, envía una carta de presentación y un currículum vitae a <jobs@privacyguides.org>, e incluye el nombre de este puesto en el asunto. Si lo deseas, puedes incluir cualquier otra información o ejemplos de tu trabajo que consideres relevantes.**
+<div class="admonition info" markdown>
+<p class="admonition-title">Posición Cerrada</p>
+
+Gracias por tu interés en este puesto en Privacy Guides. En este momento ya no aceptamos nuevas candidaturas, pero sigue nuestra página [puestos de trabajo](../jobs.md) para conocer futuras oportunidades.
+
+</div>
 
 Privacy Guides está auspiciada fiscalmente por [MAGIC Grants](https://magicgrants.org), una organización benéfica pública 501(c)(3). MAGIC Grants ofrece igualdad de oportunidades. MAGIC Grants no discrimina a ningún solicitante o empleado por motivos de edad, color, sexo, discapacidad, origen nacional, raza, religión, orientación sexual, identidad sexual, condición de veterano o cualquier otra característica protegida.
 

@@ -10,8 +10,6 @@ description: Privacy Guides busca un becario que descubra y promueva contenidos 
 
 Gracias por tu interés en este puesto en Privacy Guides. En este momento ya no aceptamos nuevas candidaturas, pero sigue nuestra página [puestos de trabajo](../jobs.md) para conocer futuras oportunidades.
 
-A fecha de 14 de noviembre de 2024, es posible que sigamos poniéndonos en contacto con los candidatos existentes. ¡Si ya has presentado tu candidatura, por favor, estate atento a tu bandeja de entrada!
-
 </div>
 
 ¿Te apasionan la privacidad y la ciberseguridad?
@@ -48,8 +46,6 @@ Se trata de un contrato de 6 meses con una remuneración de 15 $/hora dólares e
 <p class="admonition-title">Posición Cerrada</p>
 
 Gracias por tu interés en este puesto en Privacy Guides. En este momento ya no aceptamos nuevas candidaturas, pero sigue nuestra página [puestos de trabajo](../jobs.md) para conocer futuras oportunidades.
-
-A fecha de 14 de noviembre de 2024, es posible que sigamos poniéndonos en contacto con los candidatos existentes. ¡Si ya has presentado tu candidatura, por favor, estate atento a tu bandeja de entrada!
 
 </div>
 
