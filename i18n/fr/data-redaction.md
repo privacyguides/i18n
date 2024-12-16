@@ -84,9 +84,9 @@ L'application offre plusieurs façons d'effacer les métadonnées des images. À
 - Elle vous permet de faire glisser des photos d'une autre application dans ExifEraser lorsque les deux sont ouvertes en mode écran partagé.
 - Enfin, elle vous permet de coller une image à partir de votre presse-papiers.
 
-## Shortcuts (iOS & macOS)
+## Raccourcis (iOS & macOS)
 
-On iOS and macOS, you can remove image metadata without using any third-party apps by creating a [**shortcut**](https://apps.apple.com/app/id915249334) for this purpose. Here is an example shortcut you can download to use as is:
+Here is an example shortcut you can download to use as is:
 
 [:material-tag-minus: Clean Image Metadata](https://icloud.com/shortcuts/fb774ddb7b5b4296871776c67ac0fff9 ""){.md-button}
 
