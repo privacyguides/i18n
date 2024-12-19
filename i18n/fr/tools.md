@@ -483,7 +483,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 [En savoir plus :material-arrow-right-drop-circle:](frontends.md)
 
-### Language Tools
+###
 
 <div class="grid cards" markdown>
 
