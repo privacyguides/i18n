@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Guides: Independent Privacy & Security Resources"
+meta_title: "隐私指南：个人隐私 & 安全指南"
 description: "Established in 2021, Privacy Guides is the most popular & trustworthy non-profit resource to find privacy tools and learn about protecting your digital life."
 template: home.html
 social:
@@ -40,13 +40,13 @@ schema:
 <!-- markdownlint-disable -->
 <div class="grid" markdown>
 <div markdown>
-## Why should I care?
+## 我为什么要引起注意？
 
 > “I have nothing to hide. Why should I care about my privacy?”
 
-Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
+与跨种族间婚姻权、妇女选举权、言论自由和许多其他权利一样，我们的隐私权并非总是存在和得到保障。 在一些独裁国家中，近乎完全不存在隐私。 Generations before ours fought for our right to privacy. ===隐私是我们每个人与生俱来的人权，===我们有权享有(不受歧视)。
 
-You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
+您不应该将隐私与保密混为一谈。 即使我们都知道浴室会发生什么，但您还是关上了门。 那是因为你想要隐私，而不是对此保密。 **每个人**都有需要保护的东西。 隐私是我们之所以为人的原因。
 
 [:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button" }
 </div>
