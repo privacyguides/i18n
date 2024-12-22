@@ -308,7 +308,7 @@ OpenPGP 有時需要執行特定任務，例如數位簽署和加密電子郵件
 <div class="admonition tip" markdown>
 <p class="admonition-title">在生成金鑰時使用未來的預設值</p>
 
-當[產生金鑰](https://gnupg.org/gph/en/manual/c14.html)時，建議使用`future-default` 指令，它將指示GnuPG 使用現代密碼學，例如[Curve25519](https: //en.wikipedia.org/wiki/Curve25519#History) 與 [Ed25519](https://ed25519.cr.yp.to):
+當[產生金鑰](https://gnupg.org/gph/en/manual/c14.html)時，建議使用 `future-default` 指令，它將指示GnuPG 使用現代密碼學，例如 [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) 與 [Ed25519](https://ed25519.cr.yp.to) ：
 
 ```bash
 gpg --quick-gen-key alice@example.com future-default

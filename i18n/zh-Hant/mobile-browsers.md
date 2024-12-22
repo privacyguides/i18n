@@ -208,15 +208,15 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 
 ![Cromite logo](assets/img/browsers/cromite.svg){ align=right }
 
-**Cromite** is a Chromium-based browser with built-in ad blocking, fingerprinting protections, and other [privacy and security enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the discontinued **Bromite** browser.
+**Cromite** 是一個基於 Chromium 的瀏覽器，內建廣告封鎖、指紋保護及其他 [隱私與安全強化功能](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md)。 它是已停止維護的 **Bromite** 瀏覽器之分支。
 
-[:octicons-home-16: Homepage](https://www.cromite.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://www.cromite.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="說明文件" }
+[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-android: F-Droid](https://www.cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
 - [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
@@ -271,10 +271,10 @@ This disables update checks for the unmaintained Bromite adblock filter.
 
 **Mull** 是一款基於 Firefox 的以隱私為重點，去除專有 二進位大型物件（blob） 的 Android 瀏覽器。 與 Firefox 相比，它提供了更強的開箱即用指紋識別保護，並禁用 JavaScript 即時 (JIT) 編譯以增強安全性。 它還刪除了 Firefox 中的所有商業專有元素，例如取代 Google Play 服務引用。
 
-[:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#mull){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://divestos.org/pages/privacy_policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://divestos.org/pages/browsers#tuningFenix){ .card-link title="Documentation" }
-[:octicons-code-16:](https://codeberg.org/divested-mobile/mull-fenix){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://divestos.org/pages/our_apps#mull){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://divestos.org/pages/privacy_policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://divestos.org/pages/browsers#tuningFenix){ .card-link title="說明文件" }
+[:octicons-code-16:](https://codeberg.org/divested-mobile/mull-fenix){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -288,7 +288,7 @@ This disables update checks for the unmaintained Bromite adblock filter.
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger "危險"</p>
 
-Android 上基於Firefox (Gecko) 的瀏覽器[缺乏](https://bugzilla.mozilla.org/show_bug.cgi?id=1610822) [網站隔離](https://wiki.mozilla.org/Project_Fission), [ ^1] 強大的安全功能，可防止惡意網站執行類似[Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)) 的攻擊來獲取對您擁有的另一個網站的內存的存取權限open.[^2] 基於 Chromium 的瀏覽器（例如​​ [Brave](#brave)）將針對惡意網站提供更強大的保護。
+Android 上基於Firefox (Gecko) 的瀏覽器[缺乏](https://bugzilla.mozilla.org/show_bug.cgi?id=1610822) [網站隔離](https://wiki.mozilla.org/Project_Fission)[^1] ，這是一個強大的安全功能，可防止惡意網站執行類似 [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)) 的攻擊以獲取您開啟的另一個網站的記憶體存取權限[^2] ；基於 Chromium 的瀏覽器（例如：​​[Brave](#brave)）將針對惡意網站提供更強大的保護。
 
 </div>
 
