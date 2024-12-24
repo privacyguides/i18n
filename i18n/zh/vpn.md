@@ -301,7 +301,7 @@ Mullvad is very transparent about which nodes they [own or rent](https://mullvad
 - 支持强大的协议，如WireGuard & OpenVPN。
 - 客户端内置的杀毒软件。
 - 多跳支持。 多重跳转对于在单个节点受损的情况下保持数据的私密性非常重要。
-- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. 我们相信， [源代码](https://en.wikipedia.org/wiki/Source_code) 的可用性提供了更大的透明度，了解你的设备实际上在做什么。
+- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what the program is actually doing.
 - Censorship resistance features designed to bypass firewalls without DPI.
 
 **Best Case:**

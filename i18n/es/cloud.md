@@ -28,7 +28,7 @@ Nextcloud [sigue siendo una herramienta recomendada](document-collaboration.md#n
 
 ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
 
-**Proton Drive** es un proveedor de almacenamiento cifrado en la nube del popular proveedor de correo electrónico cifrado [Proton Mail](email.md#proton-mail). El almacenamiento gratuito inicial está limitado a 2GB, pero al completar ciertos pasos se puede obtener almacenamiento adicional de hasta 5GB.
+**Proton Drive** es un proveedor de almacenamiento cifrado en la nube del popular proveedor de correo electrónico cifrado [Proton Mail](email.md#proton-mail). The initial free storage is limited to 2GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5GB.
 
 [:octicons-home-16: Página Principal](https://proton.me/drive){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/drive/privacy-policy){ .card-link title="Política de Privacidad" }

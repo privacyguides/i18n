@@ -301,7 +301,7 @@ Minden általunk ajánlott VPN-szolgáltatótól elvárjuk, hogy biztosítson Op
 - Olyan erős protokollok támogatása, mint a WireGuard és az OpenVPN.
 - Kliensekbe beépített killswitch.
 - Multihop támogatás. Multihopping is important to keep data private in case of a single node compromise.
-- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. Úgy véljük, hogy a [forráskód](https://en.wikipedia.org/wiki/Source_code) elérhetősége nagyobb átláthatóságot biztosít arról, hogy az eszközöd valójában mit csinál.
+- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what the program is actually doing.
 - Censorship resistance features designed to bypass firewalls without DPI.
 
 **Legjobb Esetben:**

@@ -28,7 +28,7 @@ Nextcloud [仍是](document-collaboration.md#nextcloud) 自我託管檔案管理
 
 ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
 
-**Proton Drive** 是一個加密雲端儲存提供商，由經營廣受歡迎的加密電子郵件 [Proton Mail](email.md#proton-mail) 的提供商推出。 初始免費儲存空間限制為 2GB，但完成特定步驟後，可獲得高達 5GB 的額外儲存空間。
+**Proton Drive** 是一個加密雲端儲存提供商，由經營廣受歡迎的加密電子郵件 [Proton Mail](email.md#proton-mail) 的提供商推出。 The initial free storage is limited to 2GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5GB.
 
 [:octicons-home-16: 首頁](https://proton.me/drive){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/drive/privacy-policy){ .card-link title="隱私權政策" }

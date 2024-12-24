@@ -301,7 +301,7 @@ Wij eisen dat al onze aanbevolen VPN-providers OpenVPN-configuratiebestanden lev
 - Ondersteuning voor sterke protocollen zoals WireGuard & OpenVPN.
 - Killswitch ingebouwd in clients.
 - Multihop ondersteuning. Multihopping is belangrijk om gegevens privé te houden in het geval van een compromittering door één knooppunt.
-- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. Wij zijn van mening dat de beschikbaarheid van [broncode](https://en.wikipedia.org/wiki/Source_code) meer transparantie biedt over wat uw apparaat feitelijk doet.
+- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what the program is actually doing.
 - Censorship resistance features designed to bypass firewalls without DPI.
 
 **Beste geval:**

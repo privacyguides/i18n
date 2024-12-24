@@ -301,7 +301,7 @@ Mullvad 對於他們[自有或租用](https://mullvad.net/en/servers)的節點�
 - 支援強固的協議，如 WireGuard & OpenVPN。
 - 客戶端內建 Killswitch。
 - 支援多跳連接 (Multihop)。 萬一單個節點受損，多跳方式就非常重要，才能保持數據的私密性。
-- 如有提供 VPN 用戶端，則應為 [開源](https://en.wikipedia.org/wiki/Open_source)，一如所內建的 VPN 軟體。 我們相信，可取得的[源代碼](https://en.wikipedia.org/wiki/Source_code)可為用戶設備實際運作提供更高的透明度。
+- 如有提供 VPN 用戶端，則應為 [開源](https://en.wikipedia.org/wiki/Open_source)，一如所內建的 VPN 軟體。 We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what the program is actually doing.
 - Censorship resistance features designed to bypass firewalls without DPI.
 
 **最佳案例：**

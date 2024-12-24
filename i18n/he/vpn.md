@@ -301,7 +301,7 @@ Mullvad is very transparent about which nodes they [own or rent](https://mullvad
 - תמיכה בפרוטוקולים חזקים כגון WireGuard & OpenVPN.
 - Killswitch מובנה בקליינטים.
 - תמיכה Multihop. Multihopping חשוב לשמור על נתונים פרטיים במקרה של פשרה צומת אחת.
-- אם מסופקים לקוחות VPN, הם צריכים להיות [קוד פתוח](https://en.wikipedia.org/wiki/Open_source), כמו תוכנת ה-VPN שהם בדרך כלל מובנים בהם. אנחנו מאמינים שזמינות של [קוד מקור](https://en.wikipedia.org/wiki/Source_code) מספקת שקיפות רבה יותר לגבי מה שהמכשיר שלך עושה בפועל.
+- אם מסופקים לקוחות VPN, הם צריכים להיות [קוד פתוח](https://en.wikipedia.org/wiki/Open_source), כמו תוכנת ה-VPN שהם בדרך כלל מובנים בהם. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what the program is actually doing.
 - Censorship resistance features designed to bypass firewalls without DPI.
 
 **המקרה הטוב ביותר:**

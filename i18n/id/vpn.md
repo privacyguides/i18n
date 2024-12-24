@@ -301,7 +301,7 @@ Kami mewajibkan semua penyedia VPN yang kami rekomendasikan untuk menyediakan be
 - Dukungan untuk protokol yang kuat seperti WireGuard & OpenVPN.
 - Killswitch yang terpasang pada klien.
 - Dukungan multihop. Multihopping penting untuk menjaga kerahasiaan data jika terjadi kompromi pada satu node.
-- Jika klien VPN tersedia, klien tersebut seharusnya [bersumber terbuka](https://id.wikipedia.org/wiki/Perangkat_lunak_sumber_terbuka), seperti perangkat lunak VPN yang umumnya sudah terpasang di dalamnya. Kami percaya bahwa ketersediaan [kode sumber](https://id.wikipedia.org/wiki/Kode_sumber) memberikan transparansi yang lebih besar tentang apa yang sebenarnya dilakukan oleh perangkat Anda.
+- Jika klien VPN tersedia, klien tersebut seharusnya [bersumber terbuka](https://id.wikipedia.org/wiki/Perangkat_lunak_sumber_terbuka), seperti perangkat lunak VPN yang umumnya sudah terpasang di dalamnya. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what the program is actually doing.
 - Censorship resistance features designed to bypass firewalls without DPI.
 
 **Kasus Terbaik:**

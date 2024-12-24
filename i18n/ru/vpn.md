@@ -301,7 +301,7 @@ Mullvad is very transparent about which nodes they [own or rent](https://mullvad
 - Поддержка надежных протоколов, таких как WireGuard & OpenVPN.
 - Killswitch встроен в приложения.
 - Поддержка Multihop. Multihop важен для сохранения конфиденциальности данных в случае компрометации одного узла.
-- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. Мы считаем, что доступность [исходного кода](https://en.wikipedia.org/wiki/Source_code) обеспечивает большую прозрачность в отношении того, что на самом деле делает ваше устройство.
+- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what the program is actually doing.
 - Censorship resistance features designed to bypass firewalls without DPI.
 
 **В лучшем случае:**

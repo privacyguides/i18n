@@ -41,15 +41,8 @@ Veel zo niet de meeste cryptocurrency projecten zijn zwendel. Voer transacties z
 
 Met Monero kunnen externe waarnemers geen adressen ontcijferen die handelen in Monero, transactiebedragen, adresbalansen of transactiegeschiedenissen.
 
-Voor optimale privacy, zorg ervoor dat je een noncustodial wallet gebruikt waar de view key op het apparaat blijft. Dit betekent dat alleen jij je geld kunt uitgeven en de inkomende en uitgaande transacties kunt zien. Als je een custodial wallet gebruikt, kan de provider **alles zien wat** je doet; als je een "lichtgewicht" wallet gebruikt waarbij de provider jouw privé view key bewaard, kan de provider bijna alles zien wat u doet. Sommige niet-custodiale wallets omvatten:
-
-- [Officiële Monero-client](https://getmonero.org/downloads) (Desktop)
-- [Cake Wallet](https://cakewallet.com) (iOS, Android, macOS)
-    - Cake Wallet ondersteunt meerdere cryptocurrencies. A Monero-only version of Cake Wallet for iOS and Android is available at [Monero.com](https://monero.com).
-- [Feather Wallet](https://featherwallet.org) (Desktop)
-- [Monerujo](https://monerujo.io) (Android)
-
-Voor maximale privacy (zelfs met een niet-custodiale wallet) moet je jouw eigen Monero-knooppunt beheren. Als je een knooppunt van een ander gebruikt, krijgt hij enige informatie, zoals het IP-adres van waaruit je verbinding maakt, de tijdstempels waarmee je jouw portemonnee synchroniseert, en de transacties die je vanuit jouw portemonnee verstuurt (maar geen andere details over die transacties). Alternatively, you can connect to someone else’s Monero node over Tor or [I2P](alternative-networks.md#i2p-the-invisible-internet-project).
+<details class="info" markdown>
+<summary>Monero's resilience to mass surveillance</summary>
 
 In August 2021, CipherTrace [announced](https://web.archive.org/web/20240223224846/https://ciphertrace.com/enhanced-monero-tracing) enhanced Monero tracing capabilities for government agencies. Uit openbare berichten blijkt dat het Financial Crimes Enforcement Network van het Amerikaanse ministerie van Financiën [eind 2022 een licentie heeft verleend aan](https://sam.gov/opp/d12cbe9afbb94ca68006d0f006d355ac/view) CipherTrace's "Monero Module".
 
@@ -57,8 +50,45 @@ De privacy van de Monero-transactiegrafiek wordt beperkt door de relatief kleine
 
 Uiteindelijk is Monero de sterkste mededinger voor een privacyvriendelijke cryptocurrency, maar zijn privacyclaims zijn **niet** definitief bewezen. Er is meer tijd en onderzoek nodig om te beoordelen of Monero weerbaar genoeg is tegen aanvallen om altijd voldoende privacy te bieden.
 
+</details>
+
+### Monero wallets
+
+For optimal privacy, make sure to use a self-custody wallet where the [view key](https://www.getmonero.org/resources/moneropedia/viewkey.html) stays on the device. Dit betekent dat alleen jij je geld kunt uitgeven en de inkomende en uitgaande transacties kunt zien. If you use a custodial wallet, the provider can see **everything** you do; if you use a “lightweight” wallet where the provider retains your view key, the provider can see almost everything you do (but not spend your funds). Some self-custody wallets where the view key does not leave your device include:
+
+- [Officiële Monero-client](https://getmonero.org/downloads) (Desktop)
+- [Cake Wallet](https://cakewallet.com) (iOS, Android, Desktop)
+    - Cake Wallet ondersteunt meerdere cryptocurrencies. A Monero-only version of Cake Wallet for iOS and Android is available at [Monero.com](https://monero.com).
+- [Feather Wallet](https://featherwallet.org) (Desktop)
+- [Monerujo](https://monerujo.io) (Android)
+
+### Monero nodes
+
+For maximum privacy (even with a self-custody wallet), you should run your own Monero node called the [Monero daemon](https://getmonero.org/downloads/#cli). Als je een knooppunt van een ander gebruikt, krijgt hij enige informatie, zoals het IP-adres van waaruit je verbinding maakt, de tijdstempels waarmee je jouw portemonnee synchroniseert, en de transacties die je vanuit jouw portemonnee verstuurt (maar geen andere details over die transacties). Alternatively, you can connect to someone else’s Monero node over Tor, [I2P](alternative-networks.md#i2p-the-invisible-internet-project), or a VPN.
+
+### Buying Monero
+
+[General tips for acquiring Monero](advanced/payments.md#acquisition ""){.md-button}
+
+There are numerous centralized exchanges (CEX) as well as P2P marketplaces where you can buy and sell Monero. Some of them require identifying yourself (KYC) to comply with anti-money laundering regulations. However, due to Monero's privacy features, the only thing known to the seller is _that_ you bought Monero, but not how much you own or where you spend it (after it leaves the exchange). Some reputable places to buy Monero include:
+
+- [Kraken](https://kraken.com): A well-known CEX. Registration and KYC are mandatory. Card payments and bank transfers accepted. Make sure not to leave your newly purchased Monero on Kraken's platform after the purchase; withdraw them to a self-custody wallet. Monero is not available in all jurisdictions that Kraken operates in.[^1]
+- [Cake Wallet](https://cakewallet.com): A self-custody cross-platform wallet for Monero and other cryptocurrencies. You can buy Monero directly in the app using card payments or bank transfers (through third-party providers such as [Guardarian](https://guardarian.com) or [DFX](https://dfx.swiss)).[^2] KYC is usually not required, but it depends on your country and the amount you are purchasing. In countries where directly purchasing Monero is not possible, you can also use a provider within Cake Wallet to first buy another cryptocurrency such as Bitcoin, Bitcoin Cash, or Litecoin and then exchange it to Monero in-app.
+    - [Monero.com](https://monero.com) is an associated website where you can buy Monero and other cryptocurrencies without having to download an app. The funds will simply be sent to the wallet address of your choice.
+- [RetoSwap](https://retoswap.com) (formerly known as Haveno-Reto) is a self-custody, decentralized P2P exchange platform based on the [Haveno](https://haveno.exchange) project which is available for Linux, Windows, and macOS. Monero can be bought and sold with maximum privacy, since most trading counterparties do not require KYC, trades are made directly between users (P2P), and all connections run through the Tor network. It is possible to buy Monero via bank transfer, Paypal, or even by paying in cash (meeting in person or sending by mail). Arbitrators can step in to resolve disputes between buyer and seller, but be careful when sharing your bank account or other sensitive information with your trading counterparty. Trading with some accounts may be against those accounts' terms of service. Please note that you can only buy Monero on RetoSwap if you already own a small amount of Monero (currently a minimum of 0.11 XMR) in order to fund security deposits, although there are ongoing efforts to drop this requirement in the future.
+
 ## Criteria
 
 **Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je jezelf vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat je de juiste keuze maakt.
 
 - Cryptocurrency moet standaard private/ontraceerbare transacties bieden.
+
+<div class="admonition tip" markdown>
+<p class="admonition-title">Important notices</p>
+
+The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](about/notices.md).
+
+</div>
+
+[^1]: You may refer to the following pages for up-to-date information on countries in which Kraken does **not** allow the purchase of Monero: [Where is Kraken licensed or regulated?](https://support.kraken.com/hc/en-us/articles/where-is-kraken-licensed-or-regulated) and [Support for Monero (XMR) in Europe](https://support.kraken.com/hc/en-us/articles/support-for-monero-xmr-in-europe).
+[^2]: You may refer to the following pages for up-to-date information on countries in which Cake Wallet and Monero.com **only** allow the direct purchase of Monero (through third-party providers): [Which countries are served by DFX?](https://docs.dfx.swiss/en/faq.html#which-countries-are-served-by-dfx) and [What are the supported countries/regions? (Guardarian)](https://guardarian.freshdesk.com/support/solutions/articles/80001151826-what-are-the-supported-countries-regions).

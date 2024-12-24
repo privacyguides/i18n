@@ -103,3 +103,10 @@ MySudo 虛擬卡目前只能在其 iOS應用上使用。
 
 - 接受使用 [我們推薦的加密貨幣](cryptocurrency.md) 付款。
 - 無需提供身份證件。
+
+<div class="admonition tip" markdown>
+<p class="admonition-title">Important notices</p>
+
+The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](about/notices.md).
+
+</div>
