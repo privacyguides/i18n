@@ -263,47 +263,6 @@ These options can be found in :material-menu: → :gear: **Settings** → **Lega
 
 This disables update checks for the unmaintained Bromite adblock filter.
 
-## Mull (Android)
-
-<div class="admonition recommendation" markdown>
-
-![Mull logo](assets/img/browsers/mull.svg){ align=right }
-
-**Mull** is a privacy oriented and deblobbed Android browser based on Firefox. Compared to Firefox, it offers much greater fingerprinting protection out of the box, and disables JavaScript Just-in-Time (JIT) compilation for enhanced security. It also removes all proprietary elements from Firefox, such as replacing Google Play Services references.
-
-[:octicons-home-16: Hemsida](https://divestos.org/pages/our_apps#mull){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://divestos.org/pages/privacy_policy){ .card-link title="Integritetspolicy" }
-[:octicons-info-16:](https://divestos.org/pages/browsers#tuningFenix){ .card-link title="Dokumentation" }
-[:octicons-code-16:](https://codeberg.org/divested-mobile/mull-fenix){ .card-link title="Källkod" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-fdroid: F-Droid](https://f-droid.org/en/packages/us.spotco.fennec_dos)
-
-</details>
-
-</div>
-
-<div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
-
-Firefox (Gecko)-baserade webbläsare på Android [saknar](https://bugzilla.mozilla.org/show_bug.cgi?id=1610822) [sidisolering](https://wiki.mozilla.org/Project_Fission),[^1] en kraftfull säkerhetsfunktion som skyddar när en hemsida försöker utföra en [Spectre](https://sv.wikipedia.org/wiki/Spectre_(s%C3%A4kerhetsh%C3%A5l))-liknande attack för att få tillgång till minnet av en annan hemsida du har öppen.[^2] Chromiumbaserade webbläsare som [Brave](#brave) ger bättre skydd mote farliga hemsidor.
-
-</div>
-
-Enable DivestOS's [F-Droid repository](https://divestos.org/fdroid/official) to receive updates directly from the developer. Downloading Mull from the default F-Droid repo will mean your updates could be delayed by a few days or longer.
-
-Mull enables many features upstreamed by the [Tor uplift project](https://wiki.mozilla.org/Security/Tor_Uplift) using preferences from [Arkenfox](desktop-browsers.md#arkenfox-advanced). Proprietary blobs are removed from Mozilla's code using the scripts developed for Fennec F-Droid.
-
-### Recommended Mull Configuration
-
-Vi föreslår att du installerar [uBlock Origin](browser-extensions.md#ublock-origin) som en innehållsblockerare om du vill blockera trackers inom Mull.
-
-Mull comes with privacy protecting settings configured by default. You might consider configuring the **Delete browsing data on quit** options in Mull's settings if you want to close all your open tabs when quitting the app automatically, or clear other data such as browsing history and cookies automatically.
-
-Eftersom att Mull har mer avancerade och strikta integritetsskyddsinställningar aktiverade automatiskt jämfört med många webbläsare kan en del hemsidor stoppas från att laddas, eller inte fungera som tänkt, om du inte ändrar de inställningarna. Den här [listan med kända fel och lösningar](https://divestos.org/pages/broken#mull) kan ge dig tips om hur du kan åtgärda felen när du råkar på en sida som inte laddar korrekt. Att ändra inställningar för att fixa en sida som laddar fel kan påverka integritet och säkerhet, så var säker på att du förstår alla instruktioner du följer.
-
 ## Safari (iOS)
 
 On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Chromium engine like its counterparts on other operating systems.

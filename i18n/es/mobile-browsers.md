@@ -263,47 +263,6 @@ Estas opciones se encuentran en :material-menu: → :gear: **Configuración** �
 
 Esto desactiva las comprobaciones de actualización para el filtro adblock Bromite, que no recibe mantenimiento.
 
-## Mull (Android)
-
-<div class="admonition recommendation" markdown>
-
-![Mull logo](assets/img/browsers/mull.svg){ align=right }
-
-**Mull** es un navegador para Android orientado a la privacidad y depurado, basado en Firefox. A comparación con Firefox, este ofrece una protección mayor contra las huellas digitales y desactiva la compilación Just-In-Time (JIT) de JavaScript para mejorar la seguridad. Este también elimina todos los elementos propietarios de Firefox, como el reemplazo de las referencias a los Servicios de Google Play.
-
-[:octicons-home-16: Página Principal](https://divestos.org/pages/our_apps#mull){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://divestos.org/pages/privacy_policy){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://divestos.org/pages/browsers#tuningFenix){ .card-link title="Documentación" }
-[:octicons-code-16:](https://codeberg.org/divested-mobile/mull-fenix){ .card-link title="Código Fuente" }
-
-<details class="downloads" markdown>
-<summary>Descargas</summary>
-
-- [:simple-fdroid: F-Droid](https://f-droid.org/en/packages/us.spotco.fennec_dos)
-
-</details>
-
-</div>
-
-<div class="admonition danger" markdown>
-<p class="admonition-title">Peligro</p>
-
-Los navegadores basados en Firefox (Gecko) para Android [carecen](https://bugzilla.mozilla.org/show_bug.cgi?id=1610822) del [aislamiento de sitios](https://wiki.mozilla.org/Project_Fission),[^1] una potente función de seguridad que protege contra un sitio malicioso que realice un ataque similar a [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)) para obtener acceso a la memoria de otro sitio web que tienes abierto.[^2] Los navegadores basados en Chromium como [Brave](#brave) proporcionan una protección más robusta contra sitios maliciosos.
-
-</div>
-
-Habilita el [repositorio F-Droid](https://divestos.org/fdroid/official) de DivestOS para recibir actualizaciones directamente del desarrollador. La descarga de Mull desde el repositorio oficial de F-Droid puede significar que las actualizaciones se atrasen por algunos días o incluso más.
-
-Mull activa varias características del [proyecto Tor uplift](https://wiki.mozilla.org/Security/Tor_Uplift) usando las preferencias de [Arkenfox](desktop-browsers.md#arkenfox-advanced). Los blobs propietarios son eliminados desde el código de Mozilla usando script desarrollador para Fennec F-Droid.
-
-### Configuración Recomendada de Mull
-
-Sugerimos instalar [uBlock Origin](browser-extensions.md#ublock-origin) como bloqueador de contenido si quieres bloquear los rastreadores en Mull.
-
-Mull viene con ajustes para la protección de la privacidad activados por defecto. Puedes considerar configurar las opciones para **Eliminar los datos de navegación al salir** en los ajustes de Mull si quieres cerrar automáticamente todas las pestañas abiertas al salir de la aplicación, o eliminar otros datos como el historial de navegación y las cookies de manera automática.
-
-Debido a que Mull tiene protecciones más avanzadas y estrictas activadas por defecto a comparación de otros navegadores, algunos sitios web podrían no cargar o dejar de funcionar correctamente, a menos que se ajusten esas configuraciones. Puedes consultar esta [lista de problemas conocidos y soluciones](https://divestos.org/pages/broken#mull) para obtener consejos sobre una posible solución si encuentras un sitio roto. Ajustar una configuración para el correcto funcionamiento de un sitio web podría impactar tu privacidad y/o seguridad, por lo que debes asegurarte de comprender totalmente cualquier instrucción que sigues.
-
 ## Safari (iOS)
 
 En iOS, cualquier aplicación que pueda navegar por la web está [restringida](https://developer.apple.com/app-store/review/guidelines) a utilizar un [framework WebKit](https://developer.apple.com/documentation/webkit) proporcionado por Apple, por lo que un navegador como [Brave](#brave) no utiliza el motor Chromium como sus homólogos en otros sistemas operativos.

@@ -76,21 +76,13 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
     **Cromite** es un navegador para Android basado en Chromium con bloqueo de anuncios y [mejoras de privacidad] integradas(https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). Se trata de una bifurcación del popular navegador Bromite, ya descontinuado.
 
-    - [Lea la Reseña Completa :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
-
-- ![Mull logo](assets/img/browsers/mull.svg){ .lg .middle .twemoji } **Mull (Android)**
-
-    ---
-
-    **Mull** es un navegador basado en Firefox para Android centrado en la privacidad y la eliminación de componentes propietarios.
-
-    - [Lea la Reseña Completa :material-arrow-right-drop-circle:](mobile-browsers.md#mull-android)
+    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
 
 - ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
 
     ---
 
-    Recomendamos **Safari** por sus funciones [anti-huella digital](https://webkit.org/blog/15697/private-browsing-2-0) y bloqueo de rastreadores por defecto. También separa sus cookies en el modo de navegación privada para evitar el seguimiento entre pestañas.
+    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) features and default tracker blocking. También separa sus cookies en el modo de navegación privada para evitar el seguimiento entre pestañas.
 
     - [Lea la Reseña Completa :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 
@@ -621,7 +613,6 @@ Para cifrar su unidad de SO, normalmente recomendamos utilizar la herramienta de
 <div class="grid cards" markdown>
 
 - ![GrapheneOS logo](assets/img/android/grapheneos.svg#only-light){ .twemoji loading=lazy }![GrapheneOS logo](assets/img/android/grapheneos-dark.svg#only-dark){ .twemoji loading=lazy } [GrapheneOS](android/distributions.md#grapheneos)
-- ![DivestOS logo](assets/img/android/divestos.svg){ .twemoji loading=lazy } [DivestOS](android/distributions.md#divestos)
 
 </div>
 
@@ -702,7 +693,6 @@ Estas herramientas pueden ser útiles para determinadas personas. Proporcionan f
 - ![MVT logo](assets/img/device-integrity/mvt.webp){ .twemoji loading=lazy } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
 - ![iMazing logo](assets/img/device-integrity/imazing.png){ .twemoji loading=lazy } [iMazing (iOS)](device-integrity.md#imazing-ios)
 - ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ .twemoji loading=lazy }![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji loading=lazy } [Auditor (Android)](device-integrity.md#auditor-android)
-- ![Hypatia logo](assets/img/device-integrity/hypatia.svg#only-light){ .twemoji loading=lazy }![Hypatia logo](assets/img/device-integrity/hypatia-dark.svg#only-dark){ .twemoji loading=lazy } [Hypatia (Android)](device-integrity.md#hypatia-android)
 
 </div>
 

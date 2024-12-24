@@ -263,47 +263,6 @@ These options can be found in :material-menu: → :gear: **Settings** → **Lega
 
 This disables update checks for the unmaintained Bromite adblock filter.
 
-## Mull (Android)
-
-<div class="admonition recommendation" markdown>
-
-![Mull logo](assets/img/browsers/mull.svg){ align=right }
-
-**Mull** 是一款基於 Firefox 的以隱私為重點，去除專有 二進位大型物件（blob） 的 Android 瀏覽器。 與 Firefox 相比，它提供了更強的開箱即用指紋識別保護，並禁用 JavaScript 即時 (JIT) 編譯以增強安全性。 它還刪除了 Firefox 中的所有商業專有元素，例如取代 Google Play 服務引用。
-
-[:octicons-home-16: 首頁](https://divestos.org/pages/our_apps#mull){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://divestos.org/pages/privacy_policy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://divestos.org/pages/browsers#tuningFenix){ .card-link title="說明文件" }
-[:octicons-code-16:](https://codeberg.org/divested-mobile/mull-fenix){ .card-link title="原始碼" }
-
-<details class="downloads" markdown>
-<summary>下載</summary>
-
-- [:simple-fdroid: F-Droid](https://f-droid.org/en/packages/us.spotco.fennec_dos)
-
-</details>
-
-</div>
-
-<div class="admonition danger" markdown>
-<p class="admonition-title">Danger "危險"</p>
-
-Android 上基於Firefox (Gecko) 的瀏覽器[缺乏](https://bugzilla.mozilla.org/show_bug.cgi?id=1610822) [網站隔離](https://wiki.mozilla.org/Project_Fission)[^1] ，這是一個強大的安全功能，可防止惡意網站執行類似 [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)) 的攻擊以獲取您開啟的另一個網站的記憶體存取權限[^2] ；基於 Chromium 的瀏覽器（例如：​​[Brave](#brave)）將針對惡意網站提供更強大的保護。
-
-</div>
-
-啟用 DivestOS 的[F-Droid 儲存庫](https://divestos.org/fdroid/official)，以便直接從開發者接收更新。 從預設的 F-Droid 儲存庫下載 Mull 將意味著更新可能會延遲幾天或更長時間。
-
-Mull 透過[Tor 提升專案](https://wiki.mozilla.org/Security/Tor_Uplift)的[Arkenfox](desktop-browsers.md#arkenfox-advanced)的偏好來啟動許多上游高級功能。 使用為 Fennec F-Droid 開發的腳本從 Mozilla 程式碼中刪除商業專有 blob。
-
-### 建議的 Mull 設定
-
-如想封鎖 Mull 中的追蹤器，建議安裝 [uBlock Origin](browser-extensions.md#ublock-origin) 作為內容封鎖程式。
-
-Mull 隨附預設配置的隱私保護設定。 如果想在退出應用程式時自動關閉所有開啟的標籤頁，或清除瀏覽等其他數據，可以考慮在Mull 的設定中配置**退出時刪除瀏覽資料**選項自動歷史記錄和cookie。
-
-與大多數瀏覽器相比，Mull 預設啟用更高級、更嚴格的隱私保護，因此某些網站可能無法載入或正常運作，除非調整這些設定。 如果遇到損壞的網站，可以查閱此[已知問題和解決方法清單](https://divestos.org/pages/broken#mull)，以獲取有關潛在修復的建議。 調整設定以修復網站可能會影響隱私/安全，因此請確保完全理解所遵循的任何說明。
-
 ## Safari (iOS)
 
 On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Chromium engine like its counterparts on other operating systems.

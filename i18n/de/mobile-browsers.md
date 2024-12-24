@@ -263,47 +263,6 @@ These options can be found in :material-menu: → :gear: **Settings** → **Lega
 
 This disables update checks for the unmaintained Bromite adblock filter.
 
-## Mull (Android)
-
-<div class="admonition recommendation" markdown>
-
-![Mull-Logo](assets/img/browsers/mull.svg){ align=right }
-
-**Mull** ist ein datenschutzorientierter und puristischer Android-Browser, der auf Firefox basiert. Im Vergleich zu Firefox bietet er einen wesentlich besseren Schutz vor Fingerabdrücken und deaktiviert die Just-in-Time-Kompilierung (JIT) von JavaScript, um die Sicherheit zu erhöhen. Außerdem werden alle proprietären Elemente aus Firefox entfernt, wie z. B. das Ersetzen der Verweise auf Google Play-Services.
-
-[:octicons-home-16: Homepage](https://divestos.org/pages/our_apps#mull){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://divestos.org/pages/privacy_policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://divestos.org/pages/browsers#tuningFenix){ .card-link title="Documentation" }
-[:octicons-code-16:](https://codeberg.org/divested-mobile/mull-fenix){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-fdroid: F-Droid](https://f-droid.org/en/packages/us.spotco.fennec_dos)
-
-</details>
-
-</div>
-
-<div class="admonition danger" markdown>
-<p class="admonition-title">Gefahr</p>
-
-Firefox (Gecko)-basierten Browsern auf Android [fehlt](https://bugzilla.mozilla.org/show_bug.cgi?id=1610822) [site isolation](https://wiki.mozilla.org/Project_Fission),[^1] eine leistungsstarke Sicherheitsfunktion, die davor schützt, dass eine bösartige Website einen [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability))-ähnlichen Angriff durchführt, um Zugriff auf den Speicher einer anderen von dir geöffneten Website zu erlangen[^2] Chromium-basierte Browser wie [Brave](#brave) bieten einen zuverlässigeren Schutz vor bösartigen Websites.
-
-</div>
-
-Aktiviere das [F-Droid Repository](https://divestos.org/fdroid/official) von DivestOS, um Updates direkt vom Entwickler zu erhalten. Wenn du Mull aus dem Standard-F-Droid-Repository herunterlädst, können sich Updates um einige Tage oder länger verzögern.
-
-Mull aktiviert viele Funktionen, die vom [Tor Uplift-Projekt](https://wiki.mozilla.org/Security/Tor_Uplift) entwickelt wurden, indem es Einstellungen von [Arkenfox](desktop-browsers.md#arkenfox-advanced) verwendet. Proprietäre Blobs werden mit den für Fennec F-Droid entwickelten Skripten aus Mozillas Code entfernt.
-
-### Empfohlene Mull Konfiguration
-
-Wir empfehlen die Installation von [uBlock Origin](browser-extensions.md#ublock-origin) als Inhaltsblocker, wenn du Tracker in Mull blockieren möchtest.
-
-Mull verfügt über bereits standardmäßig konfigurierte Einstellungen zum Schutz der Privatsphäre. Du kannst die Option **Browserdaten beim Beenden löschen** in den Einstellungen von Mull konfigurieren, wenn du alle offenen Tabs beim Beenden der App automatisch schließen oder andere Daten wie den Browserverlauf und Cookies automatisch löschen möchtest.
-
-Da in Mull im Vergleich zu den meisten Browsern standardmäßig ein erweiterter und strengerer Schutz der Privatsphäre aktiviert ist, können einige Websites möglicherweise nicht geladen werden oder nicht richtig funktionieren, wenn du diese Einstellungen nicht anpasst. Du kannst diese [Liste mit bekannten Problemen und Umgehungsmöglichkeiten](https://divestos.org/pages/broken#mull) konsultieren, um Ratschläge für eine mögliche Lösung zu erhalten, wenn du auf eine fehlerhafte Website stoßt. Wenn du eine Einstellung änderst, um eine Website zu reparieren, kann sich dies auf deine Privatsphäre/Sicherheit auswirken. Vergewisser dich daher, dass du alle Anweisungen, die du befolgst, vollständig verstehst.
-
 ## Safari (iOS)
 
 On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Chromium engine like its counterparts on other operating systems.
