@@ -262,10 +262,10 @@ Administratores de sistema avançados podem considerar a possibilidade de config
 
 **Mailcow** é um servidor de correio mais avançado, perfeito para aqueles com mais experiência no Linux. Ele tem tudo o que você precisa em um contêiner Docker: um servidor de e-mail com suporte a DKIM, antivírus e monitoramento de spam, webmail e ActiveSync com SOGo, e administração baseada na web com suporte a 2FA.
 
-[:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.mailcow.email){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title="Contribute" }
+[:octicons-home-16: Página inicial](https://mailcow.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.mailcow.email){ .card-link title="Documentação" }
+[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Código fonte" }
+[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title="Contribuir" }
 
 </div>
 
@@ -275,20 +275,20 @@ Administratores de sistema avançados podem considerar a possibilidade de config
 
 **Mail-in-a-Box** é um script de configuração automatizado para implementar um servidor de correio no Ubuntu. Seu objetivo é facilitar a configuração de seu próprio servidor de e-mail.
 
-[:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
+[:octicons-home-16: Página inicial](https://mailinabox.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title="Documentação" }
+[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Código fonte" }
 
 </div>
 
 Para uma abordagem mais manual, selecionamos estes dois artigos:
 
-- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
-- [How To Run Your Own Mail Server](https://c0ffee.net/blog/mail-server-guide) (August 2017)
+- [Configuração de um servidor de correio eletrônico com OpenSMTPD, Dovecot e Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
+- [Como rodar o seu próprio servidor de correio](https://c0ffee.net/blog/mail-server-guide) (agosto de 2017)
 
 ## Requisitos
 
-**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
+**Por favor, note que não somos afiliados a nenhum dos provedores que recomendamos.** Além de [nosso critério básico](about/criteria.md), desenvolvemos um conjunto claro de requisitos para qualquer provedor de e-mail que queira ser mencionado, incluindo a implementação de melhores práticas do setor, tecnologia moderna e muito mais. Sugerimos que você se familiarize com esta lista antes de escolher um provedor de e-mail e faça sua própria pesquisa para garantir que o provedor de e-mail escolhido seja a opção certa para você.
 
 ### Tecnologia
 
@@ -297,14 +297,14 @@ Consideramos esses recursos importantes para fornecer um serviço seguro e otimi
 **Mínimo Para Qualificação:**
 
 - Criptografa os dados da conta de e-mail em repouso com criptografia de acesso zero.
-- Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .eml with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
-- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
-- Operates on owned infrastructure, i.e. not built upon third-party email service providers.
+- Recurso de exportação como [Mbox](https://en.wikipedia.org/wiki/Mbox) ou .eml individual com o padrão [RFC5322](https://datatracker.ietf.org/doc/rfc5322).
+- Permite que os usuários usem seu próprio [nome de domínio](https://en.wikipedia.org/wiki/Domain_name). Nomes de domínio personalizados são importantes para os usuários, porque lhes permite manter sua agência a partir do serviço. Deve piorar ou ser adquirido por outra empresa que não priorize a privacidade.
+- Opera em uma infraestrutura própria, ou seja, não é baseada em provedores de serviços de e-mail de terceiros.
 
 **Melhor Caso:**
 
-- Encrypts all account data (Contacts, Calendars, etc.) at rest with zero-access encryption.
-- Integrated webmail E2EE/PGP encryption provided as a convenience.
+- Criptografa todos os dados da conta (contatos, calendários, etc.) em repouso com criptografia de acesso zero.
+- Criptografia E2EE/PGP integrada de webmail fornecido como conveniência.
 - Support for [WKD](https://wiki.gnupg.org/WKD) to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key by typing: `gpg --locate-key example_user@example.com`
 - Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email, without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
 - Availability of the email provider's services via an [onion service](https://en.wikipedia.org/wiki/.onion).
