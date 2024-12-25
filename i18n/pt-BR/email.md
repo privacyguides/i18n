@@ -234,21 +234,21 @@ Tuta oferece suporte à [autenticação de dois fatores](https://tuta.com/suppor
 
 #### :material-check:{ .pg-green } Segurança dos Dados
 
-Tuta has [zero access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). Isso significa que as mensagens e outros dados armazenados em sua conta só são legíveis por você.
+O Tuta tem [criptografia de acesso zero em repouso](https://tuta.com/support#what-encrypted) para seus e-mails, [contatos do catálogo de endereços](https://tuta.com/support#encrypted-address-book) e [calendários](https://tuta.com/support#calendar). Isso significa que as mensagens e outros dados armazenados em sua conta só são legíveis por você.
 
 #### :material-information-outline:{ .pg-blue } Criptografia do Email
 
-Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
+A Tuta [não usa o OpenPGP](https://tuta.com/support/#pgp). Contas Tuta só podem receber e-mails criptografados de contas de e-mail não-Tuta quando enviados através de uma [caixa de correio temporária do Tutanota](https://www.tutanota.com/howto/#encrypted-email-external).
 
 #### :material-information-outline:{ .pg-blue } Rescisão da Conta
 
-Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. Você poderá reutilizar uma conta gratuita desativada se pagar.
+A Tuta excluirá [as contas gratuitas inativas](https://tuta.com/support#inactive-accounts) após seis meses. Você poderá reutilizar uma conta gratuita desativada se pagar.
 
 #### :material-information-outline:{ .pg-blue } Funcionalidades Adicionais
 
-Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
+Tuta oferece a versão comercial do [Tuta para organizações sem fins lucrativos](https://tuta.com/blog/secure-email-for-non-profit) de graça ou com desconto.
 
-Tuta doesn't offer a digital legacy feature.
+O Tuta não oferece um recurso de legado digital.
 
 ## Email Auto-Hospedado
 
@@ -260,7 +260,7 @@ Administratores de sistema avançados podem considerar a possibilidade de config
 
 ![Mailcow logo](assets/img/email/mailcow.svg){ align=right }
 
-**Mailcow** is a more advanced mail server perfect for those with a bit more Linux experience. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
+**Mailcow** é um servidor de correio mais avançado, perfeito para aqueles com mais experiência no Linux. Ele tem tudo o que você precisa em um contêiner Docker: um servidor de e-mail com suporte a DKIM, antivírus e monitoramento de spam, webmail e ActiveSync com SOGo, e administração baseada na web com suporte a 2FA.
 
 [:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.mailcow.email){ .card-link title="Documentation" }
