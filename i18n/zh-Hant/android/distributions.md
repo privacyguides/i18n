@@ -58,11 +58,11 @@ GrapheneOS 支援 [沙盒化 Google Play](https://grapheneos.org/usage#sandboxed
 
 預設情況下，Android 會與 Google 進行許多網路連線，以執行 DNS 連線檢查、同步目前的網路時間、檢查您的網路連線，以及其他許多背景工作。 GrapheneOS 不這麼做，他們通過讓作業系統與由其團隊所擁有的伺服器通訊來完成上述工作，這些伺服器遵守他們的隱私權政策 這能向 [Google](.../basics/common-threats.md#privacy-from-service-providers) 隱藏您的資訊（例如：IP位置），但這意味著您的網路管理員或 ISP 的很容易看到您正在連線到 `grapheneos.network`、`grapheneos.org` 等，並推斷出您使用的作業系統。
 
-如果您想要隱藏類似此類的資訊，以避免被您網路上或 ISP 上的對手發現，除了將連線檢查設定變更為 **Standard (Google)** 之外，您還 **必須** 使用 [可信賴的 VPN](../vpn.md)。 它可以在 :gear: **設定** → **網路與網際網路** → **Internet connectivity checks** 中找到. 此選項可讓您連線至 Google 伺服器進行連線檢查，加上 VPN 的使用，可協助您混入更多的 Android 裝置中。
+如果您想要隱藏類似此類的資訊，以避免被您網路上或 ISP 上的對手發現，除了將連線檢查設定變更為 **Standard (Google)** 之外，您還 **必須** 使用 [可信賴的 VPN](../vpn.md)。 連線檢查設定可以在 :gear: **設定** → **網路與網際網路** → **Internet connectivity checks** 中找到。 此選項可讓您連線至 Google 伺服器進行連線檢查，加上 VPN 的使用，可協助您混入更多的 Android 裝置中。
 
 ## 標準
 
-\*\*請注意，我們與推薦的任何項目均無關。\*\*除了[我們的通用標準](../about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**請注意，我們與推薦的任何項目均無關。** 除了 [我們的通用標準](../about/criteria.md) 外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 - 必須是開源軟體。
 - 必須支援引導裝載程式鎖定且其必須允許使用自訂 AVB 金鑰簽名。
