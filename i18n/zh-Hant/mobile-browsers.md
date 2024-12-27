@@ -177,7 +177,7 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
 
 === "iOS"
 
-    - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
+    - [ ] 取消勾選 **允許保護隱私的產品分析 (P3A)**
     - [ ] 取消勾選 **自動傳送每日使用 ping 到 Brave**
 
 #### Leo
@@ -200,15 +200,15 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
 
 #### Brave 同步
 
-[Brave 同步](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) 可在不同裝置上訪問瀏覽數據 (歷史記錄，書籤等)，無需帳戶且受 E2EE 保護。
+[Brave 同步](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) 可在不同裝置上存取瀏覽數據 (歷史記錄，書籤等)，無需帳戶且受 E2EE 保護。
 
 ## Cromite (Android)
 
 <div class="admonition recommendation" markdown>
 
-![Cromite logo](assets/img/browsers/cromite.svg){ align=right }
+![Cromite 標誌](assets/img/browsers/cromite.svg){ align=right }
 
-**Cromite** 是一個基於 Chromium 的瀏覽器，內建廣告封鎖、指紋保護及其他 [隱私與安全強化功能](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md)。 它是已停止維護的 **Bromite** 瀏覽器之分支。
+**Cromite** 是一個基於 Chromium 的瀏覽器，內建廣告封鎖、指紋保護及其他[隱私與安全強化功能](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md)。 它是已停止維護的 **Bromite** 瀏覽器之分支。
 
 [:octicons-home-16: 首頁](https://www.cromite.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="隱私權政策" }
@@ -227,55 +227,55 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
 
 ### 建議的設定
 
-These options can be found in :material-menu: → :gear: **Settings** → **Privacy and security**.
+這些選項可以在 :material-menu: → :gear: **設定** → **隱私權和安全性** 中找到。
 
 #### Browsing data
 
-- [x] Select **Close all open tabs on exit**
+- [x] 勾選 **Close all open tabs on exit**
 
-#### Incognito mode
+#### 無痕模式
 
-- [x] Select **Open external links in incognito**
+- [x] 勾選 **Open external links in incognito**
 
-#### 安全
+#### 安全性
 
-- [x] Select **Always use secure connections**
+- [x] 勾選 **一律使用安全連線**
 
-這可以防止您無意間以明文 HTTP 連線到網站。 HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+這可以防止您無意間以明文 HTTP 連線到網站。 如今，僅支援 HTTP 的網站已不多見，因此這對您日常瀏覽的影響幾乎沒有影響。
 
 #### Adblock Plus settings
 
-These options can be found in :material-menu: → :gear: **Settings** → **Adblock Plus settings**.
+這些選項可以在 :material-menu: → :gear: **設定** → **Adblock Plus settings** 中找到。
 
-Cromite contains a customized version of Adblock Plus with EasyList enabled by default, as well as options to select more filter lists within the **FIlter lists** menu.
+Cromite 包含 Adblock Plus 的自訂版本，預設啟用 EasyList，也可以在 **Filter lists** 選單中套用更多過濾列表。
 
-Using extra lists will make you stand out from other Cromite users and may also increase attack surface if a malicious rule is added to one of the lists you use.
+使用額外的清單將使您從其他 Cromite 使用者中脫穎而出，並且如果瀏覽器存在漏洞，而您使用的清單之一被加入了惡意規則，也可能會增加攻擊面。
 
-- \[x\] (Optional) Select **Enable anti-circumvention and snippets**
+- \[x\] (選擇性) 勾選 **Enable anti-circumvention and snippets**
 
-This setting adds an additional Adblock Plus list that may increase the effectiveness of Cromite's content blocking. The warnings about standing out and potentially increasing attack surface apply.
+此設定會新增額外的 Adblock Plus 清單，可能會提高 Cromite 封鎖內容的效能。 關於脫穎而出和潛在增加攻擊面的警告仍然適用。
 
 #### Legacy Adblock settings
 
-These options can be found in :material-menu: → :gear: **Settings** → **Legacy Adblock settings**.
+這些選項可以在 :material-menu: → :gear: **設定** → **Legacy Adblock settings** 中找到。
 
-- [ ] Uncheck the autoupdate setting
+- [x] 勾選 Autoupdate disabled
 
-This disables update checks for the unmaintained Bromite adblock filter.
+這會停用對已停止維護的 Bromite 廣告過濾器的更新檢查。
 
 ## Safari (iOS)
 
-On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Chromium engine like its counterparts on other operating systems.
+在 iOS 上，任何可以瀏覽網頁的應用程式都[只能](https://developer.apple.com/app-store/review/guidelines)使用 Apple 提供的 [WebKit 框架](https://developer.apple.com/documentation/webkit)，因此 [Brave](#brave) 這類瀏覽器無法像其他作業系統一樣使用 Chromium 引擎。
 
 <div class="admonition recommendation" markdown>
 
 ![Safari 標誌](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** 是 iOS 預設瀏覽器。 It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
+**Safari** 是 iOS 的預設瀏覽器。 它包括多種[隱私功能](https://support.apple.com/zh-tw/guide/iphone/iphb01fc3c85/ios)，例如[智慧追蹤預防](https://webkit.org/blog/7675/intelligent-tracking-prevention)、隱私報告、受隔離且短暫的私密瀏覽標籤、指紋保護 (透過向網站呈現簡化版的系統組態，讓更多裝置看起來完全相同)，以及指紋隨機化，並針對已付費訂閱 iCloud+ 的使用者提供私密轉送功能。
 
-[:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title="Documentation" }
+[:octicons-home-16: 首頁](https://www.apple.com/tw/safari/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.apple.com/tw/legal/privacy/data/zh-tw/safari/){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://support.apple.com/zh-tw/guide/iphone/iph1fbef4daa/ios){ .card-link title="說明文件" }
 
 </details>
 
@@ -283,42 +283,42 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 ### 建議的 Safari 設定
 
-如果您想要在 Safari 中使用內容阻擋器，我們建議您安裝[AdGuard](browser-extensions.md#adguard)。
+如果您想要在 Safari 中使用內容阻擋器，我們建議您安裝 [AdGuard](browser-extensions.md#adguard)。
 
-The following privacy/security-related options can be found in :gear: **Settings** → **Apps** → **Safari**.
+可以在 :gear: **設定** → **Safari** 中找到以下與隱私及安全相關的選項。
 
-#### Allow Safari to Access
+#### 允許 SAFARI 取用
 
-Under **Siri**:
+在 **Siri 與搜尋** 選單中:
 
-- [ ] Disable **Learn from this App**
-- [ ] Disable **Show in App**
-- [ ] Disable **Show on Home Screen**
-- [ ] Disable **Suggest App**
+- [ ] 停用 **從此 App 學習**
+- [ ] 停用 **在 App 中顯示**
+- [ ] 停用 **在主畫面上顯示**
+- [ ] 停用 **建議 App**
 
-This prevents Siri from using content from Safari for Siri suggestions.
+這可以防止 Siri 使用 Safari 中的內容來提供 Siri 建議。
 
 #### 搜尋
 
-- [ ] Disable **Search Engine Suggestions**
+- [ ] 停用 **搜尋引擎建議**
 
-This setting sends whatever you type in the address bar to the search engine set in Safari. 停用搜尋建議可讓您更精確地控制您傳送給搜尋引擎供應商的資料。
+此設定會將您在網址列中輸入的內容傳送至 Safari 中設定的搜尋引擎。 停用搜尋建議可讓您更精確地控制您傳送給搜尋引擎供應商的資料。
 
 #### 主題類別
 
-Safari allows you to separate your browsing with different profiles. All of your cookies, history, and website data are separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
+Safari 可以使用不同的主題類別來分隔您的瀏覽。 您的所有 Cookie、歷史記錄和網站資料將會針對各個主題類別分開。 您應該為不同用途使用不同的主題類別，例如購物、工作或學校。
 
 #### 隱私權與安全性
 
-- [x] Enable **Prevent Cross-Site Tracking**
+- [x] 啟用 **防止跨網站追蹤**
 
-This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but does not block all tracking avenues because it is designed to not interfere with website usability.
+這將啟用 WebKit 的[智慧追蹤預防](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp)。 該功能利用裝置上的機器學習來阻止追蹤器，從而防止使用者被追蹤。 智慧追蹤預防可保護您免於許多常見威脅，但不能阻止所有追蹤途徑，因為它被設計為不會干擾網站的可用性。
 
-- [x] Enable **Require Face ID/Touch ID to Unlock Private Browsing**
+- [x] 啟用 **需要 Face ID/Touch ID 來解鎖私密瀏覽**
 
-This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
+此設定可在私密瀏覽分頁未使用時使用 生物辨識/PIN 鎖定。
 
-- [ ] Disable **Fraudulent Website Warning**
+- [ ] 停用 **詐騙網站警告**
 
 This setting uses Google Safe Browsing (or Tencent Safe Browsing for users in mainland China or Hong Kong) to protect you while you browse. As such, your IP address may be logged by your Safe Browsing provider. Disabling this setting will disable this logging, but you might be more vulnerable to known phishing sites.
 
