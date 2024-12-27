@@ -1,14 +1,14 @@
 ---
-meta_title: "適用於 Android 和 iOS 且尊重隱私的網頁瀏覽器 - Privacy Guides"
+meta_title: "尊重隱私的 Android 和 iOS 網路瀏覽器 - Privacy Guides"
 title: "行動瀏覽器"
 icon: material/cellphone-information
-description: 這些瀏覽器是我們目前推薦在行動裝置上使用的標準/非匿名網路瀏覽器。
+description: 我們目前推薦的這些瀏覽器適合在手機上進行標準/非匿名的網路瀏覽。
 cover: mobile-browsers.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": 網頁
-    name: 私密行動瀏覽器推薦
+    name: 推薦的隱私行動瀏覽器
     url: "./"
     relatedLink: "../desktop-browsers/"
   - 
@@ -42,11 +42,11 @@ schema:
     name: Safari
     image: /assets/img/browsers/safari.svg
     url: https://apple.com/safari
-    applicationCategory: 網頁瀏覽器
+    applicationCategory: 網路瀏覽器
     operatingSystem:
       - iOS
     subjectOf:
-      "@type": 網頁
+      "@type": WebPage
       url: "./"
 ---
 
@@ -54,7 +54,7 @@ schema:
 
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-這些是我們目前推薦的 **行動網路瀏覽器** 以及 標準/非匿名網路瀏覽 的配置。 如果需要匿名瀏覽網際網路，您應該使用 [Tor](tor.md) 代替。
+這些是我們目前推薦的**行動瀏覽器**與其設定，適合普通或非匿名的網頁瀏覽。 如果您需要匿名瀏覽網際網路，應該使用 [Tor](tor.md)。
 
 ## Brave
 
@@ -64,7 +64,7 @@ schema:
 
 **Brave 瀏覽器** 內建內容封鎖程式和[隱私權功能](https://brave.com/privacy-features/) ，其中許多功能預設為啟用。
 
-Brave 基於 Chromium 瀏覽器專案構建，因此它應該令人感到熟悉並且具有最少的網站兼容性問題。
+Brave 基於 Chromium 瀏覽器專案構建，因此使用起來應該會感到熟悉，並且具有最少的網站兼容性問題。
 
 [:octicons-home-16: 首頁](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="洋蔥服務" }
@@ -85,7 +85,7 @@ Brave 基於 Chromium 瀏覽器專案構建，因此它應該令人感到熟悉�
 
 ### 建議的 Brave 設定
 
-Tor 瀏覽器是真正匿名瀏覽網際網路的唯一途徑。 當您使用 Brave 時，我們建議您更改以下設定，以保護您的隱私免受某些影響，但除了 [Tor 瀏覽器](tor.md#tor-browser)以外的所有瀏覽器都可能以某種方式或另一種方式被 *某人* 追蹤。
+Tor 瀏覽器是真正匿名瀏覽網際網路的唯一途徑。 當您使用 Brave 時，我們建議您更改以下設定，以保護您的隱私免受第三者影響，但除了 [Tor 瀏覽器](tor.md#tor-browser)以外的所有瀏覽器都可能以某種方式或另一種方式被 *某人* 追蹤。
 
 === "Android"
 
@@ -93,11 +93,11 @@ Tor 瀏覽器是真正匿名瀏覽網際網路的唯一途徑。 當您使用 Br
 
 === "iOS"
 
-    These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy**.
+    這些選項可以在 :fontawesome-solid-ellipsis: → **設定** → **Shields 與隱私權** 中找到。
 
 #### Brave 防護全域預設設定
 
-Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shields)功能包含一些防指紋識別措施。 我們建議在您訪問的所有網頁上[全域](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)套用這些設定。
+Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-What-is-Shields) 功能包含一些防指紋識別措施。 我們建議在您訪問的所有網頁上[全域](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)套用這些設定。
 
 防護功能的選項可以根據各網站需要依情況降級，但我們建議預設使用以下設定：
 
@@ -105,11 +105,11 @@ Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shi
 
     <div class="annotate" markdown>
 
-    - [x] 在 *封鎖追蹤器與廣告* 下選擇 **積極**
+    - [x] 將 *封鎖追蹤器與廣告* 設定為 **積極**
     - [x] 勾選 **自動重定向 AMP 頁面**
     - [x] 勾選 **自動重新導向追蹤 URL**
-    - [x] 將 *升級連線至 HTTPS* 設定為 **要求所有連線使用 HTTPS（嚴格）**
-    - [x] （可選）勾選 **阻擋指令稿** (1)
+    - [x] 將 *升級連線至 HTTPS* 設定為 **要求所有連線使用 HTTPS (嚴格)**
+    - \[x\] (選擇性) 勾選 **阻擋指令稿** (1)
     - [x] 將 *封鎖 Cookies* 設定為 **封鎖第三方 Cookie**
     - [x] 勾選 **封鎖指紋識別**
     - [x] 勾選 **透過語言設定防止指紋辨識攻擊**
@@ -117,7 +117,7 @@ Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shi
     <details class="warning" markdown>
     <summary>使用預設篩選清單</summary>
 
-    Brave 允許您在 **內容過濾** 選單或瀏覽器內部的 `brave://adblock` 頁面中啟用其他內容篩選清單。 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
+    Brave 允許您在 **內容過濾** 選單或瀏覽器內部的 `brave://adblock` 頁面中啟用其他內容篩選清單。 我們建議您不要使用此功能；請保留預設的內容篩選清單。 使用額外的清單將使您從其他 Brave 使用者中脫穎而出，並且如果 Brave 存在漏洞，而您使用的清單之一被加入了惡意規則，也可能會增加攻擊面。
 
     </details>
 
@@ -125,37 +125,37 @@ Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shi
 
     </div>
 
-    1. 此選項會停用 JavaScript，這會破壞許多網站。 若您想要避免破壞它們，您可以為每個需要的網站設定例外，方法是按一下網址列上的 Shield 圖示，然後在 *進階控制* 下取消勾選此設定。
+    1. 此選項會停用 JavaScript，這會破壞許多網站。 若您想要避免破壞它們，可以針對個別需要的網站設定例外。只需按一下網址列上的 Shield 圖示，然後在 *進階控制* 下取消勾選此設定即可。
 
 === "iOS"
 
     <div class="annotate" markdown>
 
-    - [x] Select **Aggressive** under *Trackers & Ads Blocking*
-    - [x] Select **Strict** under *Upgrade Connections to HTTPS*
-    - [x] Select **Auto-Redirect AMP pages**
-    - [x] Select **Auto-Redirect Tracking URLs**
-    - [x] （可選）勾選 **阻擋指令稿** (1)
+    - [x] 將 *追蹤器和廣告封鎖* 設定為 **積極**
+    - [x] 將 *將連線升級為 HTTPS* 設定為 **嚴格**
+    - [x] 勾選 **自動重新導向 AMP 頁面**
+    - [x] 勾選 **自動重新導向追蹤 URL**
+    - \[x\] (選擇性) 勾選 **封鎖指令碼** (1)
     - [x] 勾選 **封鎖指紋識別**
 
     <details class="warning" markdown>
     <summary>使用預設篩選清單</summary>
 
-    Brave allows you to select additional content filters within the **Content Filtering** menu. 我們建議您不要使用此功能；請保留預設的篩選條件清單。 使用額外清單將使您在一般 Brave 用戶中被突顯出來，如果Brave有漏洞，並將惡意規則添加到您使用的清單中，也可能會增加攻擊面。
+    Brave 允許您在 **內容過濾** 選單中啟用其他內容篩選清單。 我們建議您不要使用此功能；請保留預設的內容篩選清單。 使用額外的清單將使您從其他 Brave 使用者中脫穎而出，並且如果 Brave 存在漏洞，而您使用的清單之一被加入了惡意規則，也可能會增加攻擊面。
 
     </details>
 
     </div>
 
-    1. 此選項會停用 JavaScript，這會破壞許多網站。 若您想要避免破壞它們，您可以為每個需要的網站設定例外，方法是按一下網址列上的 Shield 圖示，然後在 *進階控制* 下取消勾選此設定。
+    1. 此選項會停用 JavaScript，這會破壞許多網站。 若您想要避免破壞它們，可以針對個別需要的網站設定例外。只需按一下網址列上的 Shield 圖示，然後在 *進階控制* 下取消勾選此設定即可。
 
-##### 清除瀏覽資料（僅適用於 Android）
+##### 清除瀏覽資料 (僅適用於 Android)
 
 - [x] 勾選 **結束時清除資料**
 
-##### 阻擋社群媒體（僅適用於 Android）
+##### 阻擋社群媒體 (僅適用於 Android)
 
-- [ ] 取消勾選所有社交媒體元件
+- [ ] 取消勾選所有社群媒體元件
 
 #### 其他隱私設定
 
@@ -173,7 +173,7 @@ Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shi
 
     </div>
 
-    1. Brave 在 Android 上[實作的 安全瀏覽](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) **不會**像電腦版一樣代理 [安全瀏覽服務 的網路請求](https://developers.google.com/safe-browsing/v4/update-api#checking-urls)。 這表示 Google 可能會看到 (並記錄) 您的 IP 位址。 請注意，安全瀏覽功能不適用於沒有 Google Play 服務的 Android 裝置。
+    1. Brave 在 Android 上[實作的安全瀏覽](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) **不會** 像電腦版一樣代理 [安全瀏覽服務的網路請求](https://developers.google.com/safe-browsing/v4/update-api#checking-urls)。 這表示 Google 可能會看到 (並記錄) 您的 IP 位址。 請注意，安全瀏覽功能不適用於沒有 Google Play 服務的 Android 裝置。
 
 === "iOS"
 
@@ -186,21 +186,21 @@ Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shi
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Show autocomplete suggestions in address bar** (1)
+- [ ] 取消勾選 **在網址列顯示自動完成建議** (1)
 
 </div>
 
-1. This option is not present in Brave's iOS app.
+1. Brave 的 iOS 版應用程式中沒有此選項。
 
-#### Search engines
+#### 搜尋引擎
 
-These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
+這些選項可以在 :material-menu:/:fontawesome-solid-ellipsis: → **設定** → **搜尋引擎** 中找到。
 
 - [ ] 取消勾選 **顯示搜尋建議**
 
 #### Brave 同步
 
-[Brave 同步](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) 可在不同裝置上訪問瀏覽數據 (歷史記錄，書籤等)，無需帳戶且具 E2EE 保護。
+[Brave 同步](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) 可在不同裝置上訪問瀏覽數據 (歷史記錄，書籤等)，無需帳戶且受 E2EE 保護。
 
 ## Cromite (Android)
 
