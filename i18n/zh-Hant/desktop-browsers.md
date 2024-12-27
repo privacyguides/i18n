@@ -95,21 +95,21 @@ schema:
 
 在**不**使用 [VPN](vpn.md) 的情況下，Mullvad 瀏覽器可提供與其他隱私瀏覽器 (例如 Firefox + [Arkenfox](#arkenfox-advanced) 或 [Brave](#brave)) 相同的防護措施，以對抗[單純的指紋辨識腳本](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting)。 Mullvad 瀏覽器在開箱即用的情況下提供了這些保護措施，代價是可能會犧牲其他隱私瀏覽器所具備的靈活性和便利性。
 
-==要獲得最強大的防指紋辨識防護，我們建議將 Mullvad 瀏覽器 **搭配** VPN 一同使用== ，不論是 Mullvad 或其他推薦的 VPN 供應商皆可。 當您將 VPN 與 Mullvad 瀏覽器搭配使用時，您將與許多其他使用者共用一個指紋和 IP 位址池，以讓你混在「人群」之中。 這個策略是阻止進階追蹤腳本的唯一方法，也同樣是 Tor 瀏覽器 使用的防指紋辨識技術。
+==要獲得最強大的防指紋辨識防護，我們建議將 Mullvad 瀏覽器 **搭配** VPN 一同使用== ，不論是 Mullvad 或其他推薦的 VPN 供應商皆可。 當您將 VPN 與 Mullvad 瀏覽器搭配使用時，您將與許多其他使用者共用一個指紋和 IP 位址池，以讓你混在「人群」之中。 這個策略是阻止進階追蹤腳本的唯一方法，也同樣是 Tor 瀏覽器使用的防指紋辨識技術。
 
-請注意，雖然您可以將 Mullvad 瀏覽器 與任何 VPN 供應商一起使用，但該 VPN 上的其他使用者也必須使用 Mullvad 瀏覽器，才能形成這個「人群」，而這在 Mullvad VPN 上比其他供應商更有可能發生，特別是在 Mullvad 瀏覽器 推出後不久。 Mullvad 瀏覽器沒有內建 VPN，也不會在瀏覽之前檢查是否使用 VPN，必須另外設定和管理 VPN 連線。
+請注意，雖然您可以將 Mullvad 瀏覽器與任何 VPN 供應商一起使用，但該 VPN 上的其他使用者也必須使用 Mullvad 瀏覽器，才能形成這個「人群」，而這在 Mullvad VPN 上比其他供應商更有可能發生，特別是在 Mullvad 瀏覽器推出後不久。 Mullvad 瀏覽器沒有內建 VPN，也不會在瀏覽之前檢查是否使用 VPN，必須另外設定和管理 VPN 連線。
 
-Mullvad 瀏覽器 附帶預先安裝的 *uBlock Origin* 和 *NoScript* 擴充功能。 我們通常不建議新增*額外*的[瀏覽器擴充功能](browser-extensions.md)，且這些與瀏覽器預裝的擴充功能**不**應移除或修改成任何預設值以外的設定，一旦隨意更動，您的瀏覽器指紋會明顯有別於其他 Mullvad 瀏覽器使用者。 它還預先安裝了 Mullvad 瀏覽器擴充功能，但也*可*將其安全地移除，而不會影響您的瀏覽器指紋，但即使您不使用 Mullvad VPN，也可以安全地保留它。
+Mullvad 瀏覽器附帶預先安裝的 *uBlock Origin* 和 *NoScript* 擴充功能。 我們通常不建議新增*額外*的[瀏覽器擴充功能](browser-extensions.md)，且這些與瀏覽器預裝的擴充功能**不**應移除或修改成任何預設值以外的設定，一旦隨意更動，您的瀏覽器指紋會明顯有別於其他 Mullvad 瀏覽器使用者。 它還預先安裝了 Mullvad 瀏覽器擴充功能，但也*可*將其安全地移除，而不會影響您的瀏覽器指紋，但即使您不使用 Mullvad VPN，也可以安全地保留它。
 
 ### 隱私瀏覽模式
 
-Mullvad 瀏覽器 預設總是使用隱私瀏覽模式運行，這意味著您的歷史記錄、Cookie 和其他網站資料在每次關閉瀏覽器時都會被清除。 但書籤、瀏覽器設定和擴充功能設定仍會保留。
+Mullvad 瀏覽器預設總是使用隱私瀏覽模式運行，這意味著您的歷史記錄、Cookie 和其他網站資料在每次關閉瀏覽器時都會被清除。 但書籤、瀏覽器設定和擴充功能設定仍會保留。
 
 這是為了防止進階形式的追蹤，但確實犧牲了便利性和一些 Firefox 功能，例如多重帳戶容器 (Multi-Account Containers，又稱容器分頁功能)。 請記住，您隨時可以使用多個瀏覽器，例如，您可以考慮對希望保持登入狀態或在 Mullvad 瀏覽器中無法正常運作的幾個網站使用 Firefox + Arkenfox，而在一般瀏覽時使用 Mullvad 瀏覽器。
 
 ### Mullvad Leta
 
-Mullvad 瀏覽器 將 DuckDuckGo 設為預設的[搜尋引擎](search-engines.md)，但它也預裝了 **Mullvad Leta**，一個需要訂閱 Mullvad VPN 才能使用的搜尋引擎。 Mullvad Leta 直接查詢 Google 的付費搜索 API，這也是為什麼它僅限付費訂閱者使用。 然而，由於這個限制，Mullvad 有可能將搜尋字串和 Mullvad VPN 帳戶進行關聯。 因此，我們不建議使用 Mullvad Leta，即使 Mullvad 僅收集極少量的 VPN 訂閱者資訊。
+Mullvad 瀏覽器將 DuckDuckGo 設為預設的[搜尋引擎](search-engines.md)，但它也預裝了 **Mullvad Leta**，一個需要訂閱 Mullvad VPN 才能使用的搜尋引擎。 Mullvad Leta 直接查詢 Google 的付費搜索 API，這也是為什麼它僅限付費訂閱者使用。 然而，由於這個限制，Mullvad 有可能將搜尋字串和 Mullvad VPN 帳戶進行關聯。 因此，我們不建議使用 Mullvad Leta，即使 Mullvad 僅收集極少量的 VPN 訂閱者資訊。
 
 ## Firefox
 
@@ -327,7 +327,7 @@ Brave 允許您在內部網頁 brave://settings/shields/filters 內選擇額外�
 
 ##### Tor 視窗
 
-[**使用 Tor 的隱私視窗**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity)允許您在私人視窗中透過 Tor 網路路由流量，並存取 .onion 服務，這在某些情況下可能很有用。 不過，Brave 對指紋辨識的抵抗力**不如**Tor 瀏覽器，而且將 Brave 與 Tor 配合使用的人少得多，因此您會脫穎而出。 如果您的威脅模式需要極高的匿名性，請使用[Tor 瀏覽器](tor.md#tor-browser)。
+[**使用 Tor 的隱私視窗**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity)允許您在私人視窗中透過 Tor 網路路由流量，並存取 .onion 服務，這在某些情況下可能很有用。 不過，Brave 對指紋辨識的抵抗力**不如** Tor 瀏覽器，而且將 Brave 與 Tor 配合使用的人少得多，因此您會脫穎而出。 如果您的威脅模式需要極高的匿名性，請使用 [Tor 瀏覽器](tor.md#tor-browser)。
 
 ##### 資料集合
 
@@ -360,7 +360,7 @@ Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 除非�
 
 </div>
 
-1. 此功能並不適用於所有平臺。
+1. 此功能並不適用於所有平台。
 
 #### Brave 同步
 
@@ -380,7 +380,7 @@ Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 除非�
 
 - 必須是開源軟體
 - 必須支援自動更新
-- 必須從上游版本釋出後的 0-1 天內接收引擎更新
+- 必須在上游版本釋出後的 0-1 天內接收引擎更新
 - 必須適用於 Linux、macOS 和 Windows
 - 為了使瀏覽器更尊重隱私權而作的任何變動都不應對用戶體驗產生負面影響
 - 預設情況下會封鎖第三方 Cookie
@@ -391,11 +391,11 @@ Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 除非�
 最佳案例標準代表我們希望在這個類別中看到的完美項目應具備的條件。 我們建議的瀏覽器可能不包括以下所有功能，但若包含這些功能會讓該項目在此頁面排名更高。
 
 - 應該要內建內容攔截功能。
-- 支援 Cookie 區隔 (就像[多帳號容器](https://support.mozilla.org/kb/containers)一樣)。
-- 應支援 漸進式網路應用程式(PWA)。 PWA 使您能夠將某些網站安裝為在您的電腦上，像本機應用程式一樣運行。 這會比安裝基於 Electron 的應用程式更有優勢，因為 PWA 可以受益於瀏覽器的定期安全更新。
-- 不包括對使用者隱私沒有影響的附加功能 (bloatware)。
+- 應該要支援 Cookie 區隔 (就像[多帳號容器](https://support.mozilla.org/kb/containers)一樣)。
+- 應該要支援 漸進式網路應用程式 (PWA)。 PWA 使您能夠將某些網站安裝為在您的電腦上，像本機應用程式一樣運行。 這會比安裝基於 Electron 的應用程式更有優勢，因為 PWA 可以受益於瀏覽器的定期安全更新。
+- 不應該包含對使用者隱私沒有益處的附加功能 (bloatware)。
 - 預設情況下不應收集遙測。
-- 提供開源同步伺服器實作。
-- 預設使用[隱私搜尋引擎](search-engines.md)。
+- 應該要提供開源同步伺服器實作。
+- 預設情況下應使用[隱私搜尋引擎](search-engines.md)。
 
 [^1]: Brave 的實施詳情請參閱 [Brave 隱私更新：為隱私區隔網路狀態](https://brave.com/privacy-updates/14-partitioning-network-state)。

@@ -42,7 +42,7 @@ schema:
     name: Safari
     image: /assets/img/browsers/safari.svg
     url: https://apple.com/safari
-    applicationCategory: Web Browser
+    applicationCategory: 網頁瀏覽器
     operatingSystem:
       - iOS
     subjectOf:
@@ -308,7 +308,7 @@ This setting sends whatever you type in the address bar to the search engine set
 
 Safari allows you to separate your browsing with different profiles. All of your cookies, history, and website data are separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
 
-#### 隱私 & 安全
+#### 隱私權與安全性
 
 - [x] Enable **Prevent Cross-Site Tracking**
 
