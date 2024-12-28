@@ -29,7 +29,7 @@ global:
 
 [VPN 概述 :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
-## 推薦的提供商
+## 推薦的供應商
 
 我們推薦的供應商使用加密技術，支援 WireGuard & OpenVPN，並有無記錄政策。 閱讀我們[完整的標準清單](#criteria)，瞭解更多資訊。
 
@@ -68,12 +68,12 @@ global:
 
 #### :material-check:{ .pg-green } 112 個國家
 
-Proton VPN [在 112 個國家設有伺服器](https://protonvpn.com/vpn-servers)，如果您使用其[免費計劃](https://protonvpn.com/free-vpn/server)，則在[5 個](https://protonvpn.com/support/how-to-create-free-vpn-account)國家設有伺服器。(1) 選擇伺服器距離您最近的 VPN 供應商可減少網路延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
+Proton VPN [在 112 個國家設有伺服器](https://protonvpn.com/vpn-servers)，如果您使用其[免費計劃](https://protonvpn.com/free-vpn/server)，則在[5 個](https://protonvpn.com/support/how-to-create-free-vpn-account)國家設有伺服器。(1) 選擇擁有距離您最近的伺服器之 VPN 供應商，可減少發送網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
 1. 最近檢查日期: 2024-08-06
 
-我們認為，如果 VPN 提供商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜、與其他客戶共享的解決方案 (例如[虛擬伺服器](https://en.wikipedia.org/wiki/Virtual_private_server))，對其私鑰的安全性會更好。
+我們認為，如果 VPN 供應商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而非採用更便宜、與其他客戶共享的解決方案 (例如[虛擬伺服器](https://en.wikipedia.org/wiki/Virtual_private_server))，對其私鑰的安全性會更好。
 
 #### :material-check:{ .pg-green } 獨立稽核
 
@@ -125,7 +125,7 @@ Proton VPN 客戶端目前支援所有平臺上的雙因素身份驗證。 Proto
 
 ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
 
-**IVPN** 是另一個高級 VPN 提供商，自 2009 年開始運營。 IVPN 位於直布羅陀，不提供免費試用。
+**IVPN** 是另一個高級 VPN 供應商，自 2009 年開始運營。 IVPN 位於直布羅陀，不提供免費試用。
 
 [:octicons-home-16: 首頁](https://ivpn.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="隱私權政策" }
@@ -148,12 +148,12 @@ Proton VPN 客戶端目前支援所有平臺上的雙因素身份驗證。 Proto
 
 #### :material-check:{ .pg-green } 37 個國家
 
-IVPN 在 [37 個國家/地區設有伺服器](https://ivpn.net/status)。 (1) 選擇擁有距離您最近的伺服器之 VPN 供應商，可減少發送網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
+IVPN 在 [37 個國家/地區設有伺服器](https://ivpn.net/status)。(1) 選擇擁有距離您最近的伺服器之 VPN 供應商，可減少發送網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
 1. 最近檢查日期: 2024-08-06
 
-我們認為，如果 VPN 提供商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜、與其他客戶共享的解決方案 (例如[虛擬伺服器](https://en.wikipedia.org/wiki/Virtual_private_server))，對其私鑰的安全性會更好。
+我們認為，如果 VPN 供應商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而非採用更便宜、與其他客戶共享的解決方案 (例如[虛擬伺服器](https://en.wikipedia.org/wiki/Virtual_private_server))，對其私鑰的安全性會更好。
 
 #### :material-check:{ .pg-green } 獨立稽核
 
@@ -223,12 +223,12 @@ IVPN 用戶端支援雙因子身份驗證。 IVPN 有「[反追蹤](https://ivpn
 
 #### :material-check:{ .pg-green } 45 個國家
 
-Mullvad 在 [45 個國家/地區設有伺服器](https://mullvad.net/servers)。 (1) 選擇距離您最近的伺服器，可減少網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
+Mullvad 在 [45 個國家/地區設有伺服器](https://mullvad.net/servers)。(1) 選擇擁有距離您最近的伺服器之 VPN 供應商，可減少發送網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
 1. 最近檢查日期: 2024-08-06
 
-我們認為，如果 VPN 提供商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而不是更便宜、與其他客戶共享的解決方案 (例如[虛擬伺服器](https://en.wikipedia.org/wiki/Virtual_private_server))，對其私鑰的安全性會更好。
+我們認為，如果 VPN 供應商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而非採用更便宜、與其他客戶共享的解決方案 (例如[虛擬伺服器](https://en.wikipedia.org/wiki/Virtual_private_server))，對其私鑰的安全性會更好。
 
 #### :material-check:{ .pg-green } 獨立稽核
 
@@ -268,7 +268,7 @@ Mullvad 曾支援遠端端口轉發，但在 [2023 年 5 月](https://mullvad.ne
 
 Mullvad 提供多種功能，協助繞過審查制度，自由存取網際網路：
 
-- **混淆模式**：Mullvad 有兩種內建混淆模式—"UDP-over-TCP" 和 ["Wireguard over Shadowsocks"](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard)。 這些模式會將您的 VPN 流量偽裝成一般的網路流量，使審查員更難偵測和封鎖。 據說，中國得利用[新方法來擾亂 Shadowsocks 路由的流量](https://gfw.report/publications/usenixsecurity23/en)。
+- **混淆模式**：Mullvad 有兩種內建混淆模式 —「UDP-over-TCP」 和 [「Wireguard over Shadowsocks」](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard)。 這些模式會將您的 VPN 流量偽裝成一般的網路流量，使審查員更難偵測和封鎖。 據說，中國會利用[新的方法來擾亂 Shadowsocks 路由的流量](https://gfw.report/publications/usenixsecurity23/en)。
 - **Advanced obfuscation with Shadowsocks and v2ray**: For more advanced users, Mullvad provides a guide on how to use the [Shadowsocks with v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) plugin with Mullvad clients. This setup provides an additional layer of obfuscation and encryption.
 - **Custom server IPs**: To counter IP-blocking, you can request custom server IPs from Mullvad's support team. Once you receive the custom IPs, you can input the text file in the "Server IP override" settings, which will override the chosen server IP addresses with ones that aren't known to the censor.
 - **Bridges and proxies**: Mullvad also allows you to use bridges or proxies to reach their API (needed for authentication), which can help bypass censorship attempts that block access to the API itself.
@@ -290,7 +290,7 @@ Mullvad 對於他們[自有或租用](https://mullvad.net/en/servers)的節點�
 
 </div>
 
-**請注意我們和所推薦的服務商沒有任何利害關係。 這使我們能夠提供完全客觀的建議。** 除了 [我們的標準條件](about/criteria.md)外，我們還為任何希望獲得推薦的 VPN 服務商制定了一套明確的要求，包括強大的加密、獨立的安全審計、現代技術等。 我們建議您在選擇 VPN 供應商之前先熟悉此清單，並進行自己的研究，盡可能地確保您選擇的 VPN 供應商值得信賴。
+**請注意，我們與推薦的任何項目均無任何關聯。 這使我們能夠提供完全客觀的建議。**除了[我們的通用標準](about/criteria.md)外，我們還為任何希望獲得推薦的 VPN 服務商制定了一套明確的要求，包括高強度加密、獨立安全審計、現代技術等。 我們建議您在選擇 VPN 供應商之前先熟悉此清單，並進行自己的研究，盡可能地確保您選擇的 VPN 供應商值得信賴。
 
 ### 技術
 

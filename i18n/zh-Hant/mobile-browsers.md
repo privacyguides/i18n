@@ -253,7 +253,7 @@ Cromite 包含 Adblock Plus 的自訂版本，預設啟用 EasyList，也可以�
 
 - \[x\] (選擇性) 勾選 **Enable anti-circumvention and snippets**
 
-此設定會新增額外的 Adblock Plus 清單，可能會提高 Cromite 封鎖內容的效能。 關於脫穎而出和潛在增加攻擊面的警告仍然適用。
+此設定會新增額外的 Adblock Plus 清單，可能會提高 Cromite 封鎖內容的效能。 關於從其他使用者中脫穎而出和潛在增加攻擊面的警告仍然適用。
 
 #### Legacy Adblock settings
 
@@ -320,37 +320,37 @@ Safari 可以使用不同的主題類別來分隔您的瀏覽。 您的所有 Co
 
 - [ ] 停用 **詐騙網站警告**
 
-This setting uses Google Safe Browsing (or Tencent Safe Browsing for users in mainland China or Hong Kong) to protect you while you browse. As such, your IP address may be logged by your Safe Browsing provider. Disabling this setting will disable this logging, but you might be more vulnerable to known phishing sites.
+此設定使用 Google 安全瀏覽功能 (中國大陸或香港的使用者則使用騰訊安全瀏覽) 在瀏覽時保護你的安全。 因此，您的 IP 位址可能會被安全瀏覽功能供應商記錄下來。 停用此設定可以防止被記錄，但也可能會更容易受到已知釣魚網站的攻擊。
 
-- [ ] Disable **Highlights**
+- [ ] 停用 **Highlights**
 
-Apple's privacy policy for Safari states:
+Apple 的 Safari 隱私權政策規定：
 
-> When visiting a webpage, Safari may send information calculated from the webpage address to Apple over OHTTP to determine if relevant highlights are available.
+> 瀏覽網頁時，Safari 可能會透過 OHTTP 將從網頁位址計算出的資訊傳送給 Apple，以判斷是否有相關的重點內容。
 
-#### Settings for Websites
+#### 網站設定
 
-Under **Camera**
+將 **相機**
 
-- [x] Select **Ask**
+- [x] 設定為 **詢問**
 
-Under **Microphone**
+將 **麥克風**
 
-- [x] Select **Ask**
+- [x] 設定為 **詢問**
 
-Under **Location**
+將 **位置**
 
-- [x] Select **Ask**
+- [x] 設定為 **詢問**
 
-These settings ensure that websites can only access your camera, microphone, or location after you explicitly grant them access.
+這些設定可確保網站只有在您選擇允許後，才能存取您的相機、麥克風或位置。
 
 #### 其他隱私設定
 
-這些選項可以在 :gear: **設定** → **應用程式** → **Safari** → **進階**
+這些選項可以在 :gear: **設定** → **Safari** → **進階** 中找到。
 
-##### Fingerprinting Mitigations
+##### 進階追蹤和指紋保護
 
-**進階追蹤和指紋保護** 設定將隨機化某些值，可使網站更難以進行指紋辨識：
+**進階追蹤和指紋保護** 設定將隨機化某些參數，可使網站更難以進行指紋辨識：
 
 - [x] 選擇 **所有瀏覽** 或 **私密瀏覽**
 
@@ -358,29 +358,29 @@ These settings ensure that websites can only access your camera, microphone, or 
 
 - [ ] 停用 **維護隱私權廣告測量**
 
-廣告點擊測量通常使用侵犯使用者隱私的追蹤技術。 「[私密點擊測量](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm)」是一項針對 WebKit 的功能和提議的網頁標準，旨在讓廣告商能夠衡量網路活動的效果，同時不損害使用者隱私。
+廣告點擊測量通常會使用侵犯使用者隱私的追蹤技術。 「[私密點擊測量](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm)」是一項針對 WebKit 的功能和提議的網頁標準，旨在讓廣告商能夠衡量網路活動的效果，同時不損害使用者隱私。
 
-此功能本身沒有什麼隱私疑慮，因此您可以選擇不管它，但我們認為，它在私密瀏覽中自動停用反而顯示出功能被關閉的情況。
+這個功能本身沒有什麼隱私疑慮，因此您可以選擇不管它，但我們認為，它在私密瀏覽中自動停用反而顯示出應該關閉該功能的理由。
 
 #### 總是保持私密瀏覽
 
-開啟 Safari ，然後點按右下角的「標籤」按鈕。 Then, expand the :material-format-list-bulleted: Tab Groups list.
+打開 Safari ，然後按一下右下角的標籤按鈕。 然後展開 :material-format-list-bulleted: 標籤頁群組列表。
 
 - [x] 選擇 **私密瀏覽**
 
-Safar i的私密瀏覽模式提供額外的隱私保護。 私密瀏覽為每個分頁使用新的[短暫](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral)工作階段，這意味著各個分頁之間是隔離的。 隱私瀏覽還有其他較小的隱私優勢，例如在使用 Safari 的翻譯功能時，不會將網頁位址傳送給 Apple。
+Safari 的私密瀏覽模式提供額外的隱私保護。 私密瀏覽為每個分頁使用新的[短暫](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral)工作階段，這意味著各個分頁之間是隔離的。 隱私瀏覽還有其他較小的隱私優勢，例如在使用 Safari 的翻譯功能時，不會將網頁位址傳送給 Apple。
 
-Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed in to sites. 這可能會帶來不便。
+要注意的是，私密瀏覽不會保存 Cookies 和網站資料，因此無法保持登入狀態。 這可能會帶來不便。
 
 #### iCloud 同步
 
 Safari 的歷史記錄、分頁群組、iCloud 分頁和已儲存密碼的同步都採用 E2EE 加密。 但預設情況下，書籤[並非如此](https://support.apple.com/HT202303)。 Apple 可以根據其[隱私權政策](https://apple.com/legal/privacy/en-ww)解密並存取它們。
 
-您可以為 Safari 書籤和下載啟用 E2EE ，只需啟用「[進階資料防護](https://support.apple.com/HT212520)」即可。 Go to :gear: **Settings** → **iCloud** → **Advanced Data Protection**.
+您可以為 Safari 書籤和下載啟用 E2EE ，只需啟用「[進階資料保護](https://support.apple.com/HT212520)」即可。 前往 :gear: **Settings** → **iCloud** → **進階資料保護**。
 
 - [x] 開啟 **進階資料保護**
 
-If you use iCloud with Advanced Data Protection disabled, we also recommend setting Safari's default download location to a local folder on your device. This option can be found in :gear: **Settings** → **Apps** → **Safari** → **General** → **Downloads**.
+如果您在不開啟「進階資料保護」的情況下使用 iCloud ，我們亦建議您檢查，確保 Safari 的預設下載位置已設定為裝置上的本機位置。 這些選項可以在 :gear: **設定** → **Safari** → **一般** → **下載項目** 中找到。
 
 ## 標準
 
