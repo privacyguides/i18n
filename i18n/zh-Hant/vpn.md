@@ -1,5 +1,5 @@
 ---
-meta_title: "私密 VPN 服務建議和比較，無任何贊助商或廣告 - Privacy Guides"
+meta_title: "隱私 VPN 服務建議和比較，無任何贊助商或廣告 - Privacy Guides"
 title: "VPN 服務"
 icon: material/vpn
 description: 保護您線上隱私與安全的最佳 VPN 服務。 在這裡尋找一個不會監視您的供應商。
@@ -33,7 +33,7 @@ global:
 
 我們推薦的供應商使用加密技術，支援 WireGuard & OpenVPN，並有無記錄政策。 閱讀我們[完整的標準清單](#criteria)，瞭解更多資訊。
 
-| 供應商                   | 國家   | WireGuard                     | 端口轉發                                        | IPv6                                              | 匿名支付      |
+| 供應商                   | 國家   | WireGuard                     | 端口轉發                                        | IPv6                                              | 匿名付款方式    |
 | --------------------- | ---- | ----------------------------- | ------------------------------------------- | ------------------------------------------------- | --------- |
 | [Proton](#proton-vpn) | 112+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } 部分支援 | :material-information-outline:{ .pg-blue } 有限支援   | 現金        |
 | [IVPN](#ivpn)         | 37+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-information-outline:{ .pg-blue } 僅限連出流量 | Monero、現金 |
@@ -49,7 +49,7 @@ global:
 
 [:octicons-home-16: 首頁](https://protonvpn.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://protonvpn.com/support){ .card-link title="文檔"}
+[:octicons-info-16:](https://protonvpn.com/support){ .card-link title="說明文件"}
 [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
@@ -68,7 +68,7 @@ global:
 
 #### :material-check:{ .pg-green } 112 個國家
 
-Proton VPN [在 112 個國家設有伺服器](https://protonvpn.com/vpn-servers)，如果您使用其[免費計劃](https://protonvpn.com/free-vpn/server)，則在[5 個](https://protonvpn.com/support/how-to-create-free-vpn-account)國家設有伺服器。(1) 選擇擁有距離您最近的伺服器之 VPN 供應商，可減少發送網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
+Proton VPN [在 112 個國家設有伺服器](https://protonvpn.com/vpn-servers)，如果您使用其[免費計劃](https://protonvpn.com/free-vpn/server)，則在 [5 個](https://protonvpn.com/support/how-to-create-free-vpn-account)國家設有伺服器。(1) 選擇擁有距離您最近的伺服器之 VPN 供應商，可減少發送網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
 1. 最近檢查日期: 2024-08-06
@@ -129,7 +129,7 @@ Proton VPN 客戶端目前支援所有平臺上的雙因素身份驗證。 Proto
 
 [:octicons-home-16: 首頁](https://ivpn.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="文檔"}
+[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="說明文件"}
 [:octicons-code-16:](https://github.com/ivpn){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
@@ -204,7 +204,7 @@ IVPN 用戶端支援雙因子身份驗證。 IVPN 有「[反追蹤](https://ivpn
 [:octicons-home-16: 首頁](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="洋蔥服務" }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="文檔" }
+[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="說明文件" }
 [:octicons-code-16:](https://github.com/mullvad){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
@@ -269,9 +269,9 @@ Mullvad 曾支援遠端端口轉發，但在 [2023 年 5 月](https://mullvad.ne
 Mullvad 提供多種功能，協助繞過審查制度，自由存取網際網路：
 
 - **混淆模式**：Mullvad 有兩種內建混淆模式 —「UDP-over-TCP」 和 [「Wireguard over Shadowsocks」](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard)。 這些模式會將您的 VPN 流量偽裝成一般的網路流量，使審查員更難偵測和封鎖。 據說，中國會利用[新的方法來擾亂 Shadowsocks 路由的流量](https://gfw.report/publications/usenixsecurity23/en)。
-- **Advanced obfuscation with Shadowsocks and v2ray**: For more advanced users, Mullvad provides a guide on how to use the [Shadowsocks with v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) plugin with Mullvad clients. This setup provides an additional layer of obfuscation and encryption.
-- **Custom server IPs**: To counter IP-blocking, you can request custom server IPs from Mullvad's support team. Once you receive the custom IPs, you can input the text file in the "Server IP override" settings, which will override the chosen server IP addresses with ones that aren't known to the censor.
-- **Bridges and proxies**: Mullvad also allows you to use bridges or proxies to reach their API (needed for authentication), which can help bypass censorship attempts that block access to the API itself.
+- **使用 Shadowsocks 和 v2ray 進階混淆**：對於更進階的使用者，Mullvad 提供了如何在 Mullvad 用戶端同時使用 [Shadowsocks 以及 v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) 外掛程式的指南。 此設定提供了額外的混淆和加密層。
+- **自訂伺服器 IP**：要對抗 IP 封鎖，您可以向 Mullvad 的支援團隊申請自訂伺服器 IP。 收到自訂 IP 後，您可以在「Server IP override」設定中輸入文字檔，這樣就可以用審查員不知道的 IP 位址覆寫所選的伺服器 IP 位址。
+- **橋接和代理**：Mullvad 也允許您使用橋接器或代理伺服器來存取他們的 API (驗證時需要)，這有助於繞過存取 API 的審查封鎖。
 
 #### :material-check:{ .pg-green } 行動裝置客戶端
 
@@ -279,7 +279,7 @@ Mullvad 提供 [App Store](https://apps.apple.com/app/id1488466513) 和 [Google 
 
 #### :material-information-outline:{ .pg-blue } 補充說明
 
-Mullvad 對於他們[自有或租用](https://mullvad.net/en/servers)的節點透明度非常好。 They also provide the option to enable Defense Against AI-guided Traffic Analysis ([DAITA](https://mullvad.net/en/blog/daita-defense-against-ai-guided-traffic-analysis)) in their apps. DAITA protects against the threat of advanced traffic analysis which can be used to connect patterns in VPN traffic with specific websites.
+Mullvad 對於他們[自有或租用](https://mullvad.net/en/servers)的節點透明度非常好。 他們也在應用程式中提供啟用防禦 AI 導向流量分析 ([DAITA](https://mullvad.net/en/blog/daita-defense-against-ai-guided-traffic-analysis)) 的選項。 DAITA 可防禦進階流量分析的威脅，這種分析可用於將 VPN 流量中的模式與特定網站連接起來。
 
 ## 標準
 
@@ -294,34 +294,34 @@ Mullvad 對於他們[自有或租用](https://mullvad.net/en/servers)的節點�
 
 ### 技術
 
-我們要求所有推薦的 VPN 服務商有提供 OpenVPN 配置檔案，以便用在任何客戶端。 **如果** VPN 提供自己的客戶端，則要求有 killswitch 來阻止未連接 VPN 時網路資料遭洩漏。
+我們要求所有推薦的 VPN 服務商有提供 OpenVPN 配置檔案，以便在任何用戶端中使用。 **如果** VPN 提供自己的客戶端，則要求有 killswitch 來阻止未連接 VPN 時網路資料遭洩漏。
 
 **最低合格要求：**
 
 - 支援強固的協議，如 WireGuard & OpenVPN。
-- 客戶端內建 Killswitch。
+- 用戶端內建 Killswitch。
 - 支援多跳連接 (Multihop)。 萬一單個節點受損，多跳方式就非常重要，才能保持數據的私密性。
-- 如有提供 VPN 用戶端，則應為 [開源](https://en.wikipedia.org/wiki/Open_source)，一如所內建的 VPN 軟體。 We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what the program is actually doing.
-- Censorship resistance features designed to bypass firewalls without DPI.
+- 如有提供 VPN 用戶端，則應為 [開源](https://en.wikipedia.org/wiki/Open_source)，一如所內建的 VPN 軟體。 我們相信，提供[原始碼](https://en.wikipedia.org/wiki/Source_code)可顯著提高透明度，讓我們知道程式實際在做什麼。
+- 抗審查功能可在沒有 DPI 的情況下繞過防火牆。
 
-**最佳案例：**
+**最佳情況：**
 
 - Killswitch 具高度可配置選項（啟用/禁用某些網路、開機時等等）
 - 易於使用的 VPN 客戶端
-- [IPv6](https://en.wikipedia.org/wiki/IPv6) support. 我們預期伺服器將允許透過 IPv6 傳入連線，並允許您存取託管在 IPv6 位址上的服務。
-- [遠端端口轉發](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) 的功能可協助在使用P2P ([對等](https://en.wikipedia.org/wiki/Peer-to-peer)) 檔案共享軟體或自建伺服器 (例如 Mumble) 時建立連接。
-- Obfuscation technology which camouflages the true nature of internet traffic, designed to circumvent advanced internet censorship methods like DPI.
+- 支援 [IPv6](https://en.wikipedia.org/wiki/IPv6)。 我們希望伺服器能允許透過 IPv6 傳入連線，並允許您存取託管在 IPv6 位址上的服務。
+- [遠端端口轉發](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) 的功能可協助在使用 P2P ([對等](https://en.wikipedia.org/wiki/Peer-to-peer)) 檔案共享軟體或自建伺服器 (例如 Mumble) 時建立連接。
+- 混淆技術可掩蓋網際網路流量的真實性質，旨在繞過像 DPI 等先進的網際網路審查方法。
 
 ### 隱私
 
-我們希望所推薦的提供商盡可能減少客戶資料收集。 不收集註冊時的個人資訊，並接受匿名形式的付款是必需的。
+我們希望所推薦的供應商收集越少資料越好。 必須在註冊時不收集個人資訊，並接受匿名付款方式。
 
 **最低合格要求：**
 
 - [匿名加密貨幣](cryptocurrency.md) **或** 現金支付選項。
 - 註冊時無需個人資料：最多只需提供使用者名稱、密碼和電子郵件。
 
-**最佳案例：**
+**最佳情況：**
 
 - 接受多種 [匿名付款方式](advanced/payments.md)。
 - 無需任何個人資訊（自動生成的用戶名稱、不要求電子郵件等）。
@@ -332,33 +332,33 @@ Mullvad 對於他們[自有或租用](https://mullvad.net/en/servers)的節點�
 
 **最低合格要求：**
 
-- 強固加密方案：具有 SHA-256 驗證的 OpenVPN；RSA-2048 或更好的握手；AES-256-GCM 或 AES-256-CBC 數據加密。
+- 強固加密方案：具有 SHA-256 驗證的 OpenVPN；RSA-2048 或更好的握手協議；AES-256-GCM 或 AES-256-CBC 數據加密。
 - 前向保密。
-- 由信譽良好的第三方公司執行公佈的全面安全審計。
-- VPN servers that use full-disk encryption or are RAM-only.
+- 由信譽良好的第三方公司公布的安全審計。
+- 使用全磁碟加密或僅使用 RAM 的 VPN 伺服器。
 
-**最佳案例：**
+**最佳情況：**
 
-- 最強加密： RSA-4096。
-- Optional quantum-resistant encryption.
+- 最強加密：RSA-4096。
+- (可選) 抗量子加密演算法。
 - 前向保密。
 - 由信譽良好的第三方公司執行公佈的全面安全審計。
 - 漏洞獎勵計劃 和/或 協調漏洞披露過程。
-- RAM-only VPN servers.
+- 僅使用 RAM 的 VPN 伺服器。
 
 ### 信任
 
-您不會把財務資料交給身份作假的人，又怎會信任他們來處置您的網路資料？ 我們要求推薦的供應商公開其所有權或領導層級狀況。 我們也希望看到頻繁的透明度報告，特別是關於如何處理政府要求的報告。
+您不會把財務交給身份作假的人處理，又怎會信任他們來處置您的網路資料？ 我們要求推薦的供應商公開其所有權或領導層級狀況。 我們也希望能夠看到經常性的透明度報告，尤其是如何處理政府要求的部份。
 
 **最低合格要求：**
 
 - 面向公眾的領導或所有權。
-- Company based in a jurisdiction where it cannot be forced to do secret logging.
+- 公司所在的司法管轄區不能強迫其進行秘密紀錄。
 
-**最佳案例：**
+**最佳情況：**
 
 - 面向公眾的領導。
-- 頻繁的透明度報告。
+- 經常性的透明度報告。
 
 ### 行銷
 
@@ -373,16 +373,16 @@ Mullvad 對於他們[自有或租用](https://mullvad.net/en/servers)的節點�
 - 保證 100% 匿名性保護。 當有人聲稱某件事 100% 可行時，這意味他對失敗也無從確定。 我們知道有許多方式可以輕易地去匿名化，例如：
     - 重複使用在沒有使用匿名軟體 (例如 Tor、VPN 等) 情況下訪問的個人資訊 (例如電子郵件帳戶，獨特的假名等)
     - [瀏覽器指紋](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
-- 聲稱單一迴路 VPN 比 Tor “更匿名” ， Tor 是由三個或更多個跳組成經常變化的迴路。
-- 使用負責任的語言：也就是說，可以說VPN “已斷開”或“未連接” ，但是聲稱某人“暴露” ， “易受攻擊”或“受損”是不必要的使用可能不正確的警告語言。 例如，此人可能只是使用其他VPN提供商的服務或使用Tor。
+- 聲稱單一迴路 VPN 比 Tor「更匿名」，Tor 是由至少三個多跳組成，且經常變化的迴路。
+- 使用負責任的用詞：例如，可以說 VPN 已「斷線」或「未連接」，但聲稱某人「已暴露」、「易受攻擊」或「受到威脅」則是不必要且容易造成誤導的驚嚇用語。 例如，此人可能只是正在使用其他 VPN 提供商的服務或 Tor。
 
-**最佳案例：**
+**最佳情況：**
 
 負責任的行銷，既具教育意義又對消費者實用，可能包括：
 
-- 與何時應使用 [Tor](tor.md) 的準確比較。
-- VPN 服務商網站可否透過 [.onion 服務](https://en.wikipedia.org/wiki/.onion)訪問。
+- 準確比較何時應該使用 [Tor](tor.md)。
+- VPN 服務商網站可否透過 [.onion 服務](https://en.wikipedia.org/wiki/.onion)造訪。
 
 ### 附加功能
 
-雖不是嚴格要求，在決定推薦哪些服務商時我們還會考慮其他一些便利或隱私因素。 These include content blocking functionality, warrant canaries, excellent customer support, the number of allowed simultaneous connections, etc.
+雖不是嚴格要求，在決定推薦哪些服務商時我們還會考慮其他一些便利或隱私因素。 其中包括內容封鎖功能、金絲雀安全聲明 (warrant canaries)、出色的客服支援、同時允許連接的數量等。

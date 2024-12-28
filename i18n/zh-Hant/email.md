@@ -22,7 +22,7 @@ global:
 
 除此之外，我們還推薦各種基於可持續商業模式和內建安全和隱私功能的電子郵件提供商。 閱讀我們[完整的標準清單](#criteria)，瞭解更多資訊。
 
-| 供應商                         | OpenPGP / WKD                          | IMAP / SMTP                                       | 零存取加密                                             | 匿名支付                |
+| 供應商                         | OpenPGP / WKD                          | IMAP / SMTP                                       | 零存取加密                                             | 匿名付款方式              |
 | --------------------------- | -------------------------------------- | ------------------------------------------------- | ------------------------------------------------- | ------------------- |
 | [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } 僅提供付費版 | :material-check:{ .pg-green }                     | 現金                  |
 | [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                     | :material-information-outline:{ .pg-blue } 限 Mail | 現金                  |
@@ -322,7 +322,7 @@ Tuta 不提供數位遺產功能。
 - 除了使用者名稱和密碼外，不要求提供個人身份識別資訊(PII)。
 - 隱私政策符合 GDPR 之要求。
 
-**最佳案例：**
+**最佳情況：**
 
 - 接受 [匿名付款選項](advanced/payments.md) （[加密貨幣](cryptocurrency.md)，現金，禮品卡等）
 - 託管在有強力法律保障隱私的司法管轄區。
@@ -354,7 +354,7 @@ Tuta 不提供數位遺產功能。
 - 支援硬體驗證，即 U2F 和 [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online)。
 - [DNS 憑證授權機構授權 (CAA) 資源記錄](https://tools.ietf.org/html/rfc6844) 除了 DANE 支援外。
 - [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) 的實作，這對於在郵件列表 [RFC8617](https://tools.ietf.org/html/rfc8617) 發佈文章的人很有用。
-- 由信譽良好的第三方公司執行公佈的全面安全審計。
+- 由信譽良好的第三方公司公布的安全審計。
 - 漏洞獎勵計劃和/或協調漏洞披露過程。
 - 網站安全標準，例如：
     - [內容安全策略(CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
@@ -388,7 +388,7 @@ Tuta 不提供數位遺產功能。
     - 重複使用他們在沒有使用匿名軟體 (Tor、VPN 等) 的情況下存取的個人資訊，例如 (電子郵件帳號、獨特假名等)
     - [瀏覽器指紋](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
-**最佳案例：**
+**最佳情況：**
 
 - 針對設定雙重驗證、電子郵件用戶端、OpenPGP 等任務，提供簡單好懂的說明文件。
 

@@ -42,11 +42,11 @@ schema:
 <div markdown>
 為何我該關心？
 
-“我沒有什麼可隱瞞的。 為何我該在意自己的隱私？”
+> “我沒有什麼好隱瞞的。 為什麼要在乎隱私？”
 
-就像異族通婚、女性參政權、言論自由等許多權利，我們的隱私權並非總是受到保障。 在一些獨裁政權下，根本無隱私可言。 前人已為隱私權奮鬥了數個世代。 ==隱私作為一種人權，是人人生而固有的權利== ，每個人都應當 (不受歧視地) 享受此權利。
+就像異族通婚、女性參政權、言論自由等許多權利一樣，我們的隱私權並非始終受到保障。 在一些獨裁政權下，甚至根本無隱私可言。 前人已為隱私權奮鬥了數個世代。 ==隱私作為一種人權，是人人生而固有的權利== ，每個人都應當 (不受歧視地) 享受此權利。
 
-您不應該混淆隱私與保密。 我們知道浴室裡會發生什麼事，但您還是會把門關上。 那是因為您想要隱私，而不是保密。 **每個人**都有需要保護的東西。 隱私讓我們之所以為人。
+你不應該把隱私和保密混為一談。 我們都知道浴室裡會發生什麼事，但您還是會把門關上。 那是因為您想要隱私，而不是為了隱瞞祕密。 **每個人**都有需要保護的東西。 隱私讓我們之所以為人。
 
 [:material-book-outline: 為什麼隱私很重要](basics/why-privacy-matters.md){ class="md-button" }
 </div>
@@ -54,13 +54,13 @@ schema:
 <div markdown>
 我該怎麼做？
 
-> 首先您需要計劃
+> 首先，您需要制定一個計劃
 
-試著去從大家手上隨時隨地保護您的所有資料相當不切實際、成本高而且令人精疲力竭。 但是別擔心！ 安全是一個過程，只要未雨綢繆，您就能制定出適合自己的計劃。 安全性不只是您使用的*隱私工具*或下載的軟體。 相對來說，首先要瞭解您面臨的獨特威脅，以及如何降低這些威脅。
+冀望您所有的資料完全免受任何人的侵害是不切實際、昂貴且耗神的。 但是別擔心！ 安全是一個過程，提前做好準備，相信您能制定出一個適合自己的計劃。 安全並不僅僅是您使用的*隱私工具*或下載的軟體。 相反，首先要瞭解您面臨的獨特威脅，以及如何減輕這些威脅。
 
-==這個識別威脅和定義對策的過程叫做**威脅模型**== ，它構成了每個安全及隱私計劃的基礎。
+==這個識別威脅和定義對策的過程叫做**建立威脅模型**== ，它構成了每個安全及隱私計劃的基礎。
 
-[:material-book-outline: 了解更多威脅模型](basics/threat-modeling.md){ class="md-button" }
+[:material-book-outline: 進一步瞭解建立威脅模型](basics/threat-modeling.md){ class="md-button" }
 </div>
 </div>
 
@@ -69,9 +69,9 @@ schema:
 <div class="grid" markdown>
 
 <div markdown>
-**Privacy Guides** 有一個專門的[社群](https://discuss.privacyguides.net)，獨立審查各種*隱私工具*和服務。 我們的每項建議都符合一套嚴格的標準，以確保能為大多數人提供最大價值，並在隱私、安全性和便利性之間取得最佳平衡。 作為非營利**公共慈善機構**的一部分，Privacy Guides 有嚴格的**新聞標準**和政策，以確保我們的推薦沒有利益衝突，而且我們不與可能影響我們的評論和推薦的提供商或聯盟計劃合作。
+**Privacy Guides** 有一個專門的[社群](https://discuss.privacyguides.net)，獨立審查各種*隱私工具*和服務。 我們的每項建議都符合一套嚴格的標準，以確保能為大多數人提供最大價值，並在隱私、安全性和便利性之間取得最佳平衡。 作為非營利**公共慈善機構**的一部分，Privacy Guides 有嚴格的**新聞標準**和政策，以確保我們的推薦沒有利益衝突，而且我們不與可能影響我們的評論和推薦的供應商或聯盟計劃合作。
 
-[:material-heart:{.pg-red} Support Our Work](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary }
+[:material-heart:{.pg-red} 支援我們的工作](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary }
 </div>
 
 - [x] **無廣告推薦**
@@ -87,7 +87,7 @@ schema:
 
 <div class="grid cards" markdown>
 
--   ![Proton Mail logo](assets/img/email/protonmail.svg){ .lg .middle .twemoji loading=lazy } **Proton Mail**
+-   ![Proton Mail 標誌](assets/img/email/protonmail.svg){ .lg .middle .twemoji loading=lazy } **Proton Mail**
 
     ---
 
