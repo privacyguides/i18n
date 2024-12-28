@@ -297,8 +297,8 @@ Tuta 不提供數位遺產功能。
 **最低合格要求：**
 
 - 使用零存取加密技術全程加密電子郵件帳戶資料。
-- 匯出功能則為[Mbox](https://en.wikipedia.org/wiki/Mbox) 或[RFC5322](https://datatracker.ietf.org/doc/rfc5322) 標準的個別 .eml 。
-- 允許使用者使用自己的 [網域名稱](https://en.wikipedia.org/wiki/Domain_name)。 自定網域名稱對用戶來說很重要，因為它允許用戶在使用服務時仍維持持自我代理，以防服務變差或被另一家不優先考慮隱私的公司收購。
+- 以 [Mbox](https://en.wikipedia.org/wiki/Mbox) 或符合 [RFC5322](https://datatracker.ietf.org/doc/rfc5322) 標準的個別 .eml 匯出功能。
+- 允許使用者使用自己的[網域名稱](https://en.wikipedia.org/wiki/Domain_name)。 自定網域名稱對用戶來說很重要，因為它允許用戶在使用服務時仍維持持自我代理，以防服務變差或被另一家不優先考慮隱私的公司收購。
 - 在自有基礎設施上運作，即不建立在第三方電子郵件服務提供商之上。
 
 **最佳案例：**
