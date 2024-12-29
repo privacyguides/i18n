@@ -1,11 +1,11 @@
-*[2ФА]: (англ. two-factor authentication) - Двухфакторная аутентификация
+*[2FA]: (англ. two-factor authentication) - Двухфакторная аутентификация
 *[ADB]: (англ. Android Debug Bridge) - Отладочный мост Android
 *[AOSP]: (англ. Android Open Source Project) - Проект с открытым исходным кодом Android
 *[ATA]: (англ. Advanced Technology Attachment) - Интерфейс подключения накопителей к компьютеру
 *[поверхность атаки]: (англ. attack surface) - Возможные уязвимые места для несанкционированного доступа к системе
 *[AVB]: Проверенная загрузка Android
-*[cgroups]: Control Groups
-*[CLI]: Интерфейс командной строки
+*[cgroups]: (англ. Control Groups) - Контрольные группы
+*[CLI]: (англ. Command-line interface) - Интерфейс командной строки
 *[CSV]: Comma-Separated Values, формат таблиц
 *[CVE]: Common Vulnerabilities and Exposures
 *[тёмный паттерн]: Обманчивый шаблон дизайна, предназначенный для того, чтобы обмануть пользователя (англ. dark pattern)
@@ -55,7 +55,7 @@
 *[MAC]: Управление доступом к среде
 *[MDAG]: Защита приложений при помощи Microsoft Defender
 *[MEID]: Идентификатор мобильного оборудования
-*[МФА]: Многофакторная аутентификация
+*[MFA]: Многофакторная аутентификация
 *[NVMe]: Nonvolatile Memory Express
 *[NAT]: Преобразование сетевых адресов (Network address translation)
 *[NAT-PMP]: Протокол сопоставления портов NAT (NAT Port Mapping Protocol)
