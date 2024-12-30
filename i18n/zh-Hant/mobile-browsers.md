@@ -322,6 +322,10 @@ Safari 可以使用不同的主題類別來分隔您的瀏覽。 您的所有 Co
 
 此設定使用 Google 安全瀏覽功能 (中國大陸或香港的使用者則使用騰訊安全瀏覽) 在瀏覽時保護你的安全。 因此，您的 IP 位址可能會被安全瀏覽功能供應商記錄下來。 停用此設定可以防止被記錄，但也可能會更容易受到已知釣魚網站的攻擊。
 
+- [x] Enable **Not Secure Connection Warning**
+
+This setting shows a warning screen if your connection to a website isn't using HTTPS. Safari will automatically try to upgrade the site to HTTPS, so you should only see this when there is no HTTPS connection available.
+
 - [ ] 停用 **Highlights**
 
 Apple 的 Safari 隱私權政策規定：

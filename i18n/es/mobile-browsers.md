@@ -322,6 +322,10 @@ Este ajuste te permite bloquear tus pestañas privadas detrás de los datos biom
 
 Esta configuración utiliza Google Safe Browsing (o Tencent Safe Browsing para usuarios de China continental o Hong Kong) para protegerte mientras navegas. Por ello, es posible que tu proveedor de navegación segura registre tu dirección IP. Si desactivas esta opción, se desactivará el registro, pero podrías ser más vulnerable a los sitios de phishing conocidos.
 
+- [x] Enable **Not Secure Connection Warning**
+
+This setting shows a warning screen if your connection to a website isn't using HTTPS. Safari will automatically try to upgrade the site to HTTPS, so you should only see this when there is no HTTPS connection available.
+
 - [ ] Desactiva **Destacados**
 
 La política de privacidad de Apple para Safari establece:
