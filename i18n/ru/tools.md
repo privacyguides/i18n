@@ -120,7 +120,7 @@ If you want assistance figuring out the best privacy tools and alternative progr
 ## Top 3 Private VPN Providers
 
 <details class="danger" markdown>
-<summary>VPNs do not provide anonymity</summary>
+<summary>VPN не обеспечивает анонимность</summary>
 
 Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
 
