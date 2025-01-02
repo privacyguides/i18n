@@ -1,8 +1,8 @@
 ---
-meta_title: "Интернет браузеры соблюдающие конфиденциальность для ПК и Мак - Privacy Guides"
+meta_title: "Интернет браузеры, ориентированные на защиту конфиденциальности для ПК и Mac - Privacy Guides"
 title: "Браузеры для настольных компьютеров"
 icon: material/laptop
-description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
+description: В настоящее время мы рекомендуем эти браузеры с фокусом на защиту конфиденциальности для обычного использования на десктопах (ПК и Mac).
 cover: desktop-browsers.webp
 schema:
   - 
