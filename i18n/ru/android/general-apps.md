@@ -1,6 +1,6 @@
 ---
-title: General Apps
-description: The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
+title: Базовые приложения
+description: Приложения, упомянутые здесь, разработаны исключительно для Android и ориентированы на улучшение или замену основных функций операционной системы.
 schema:
   - "@context": http://schema.org
     "@type": WebPage
@@ -28,15 +28,15 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 - [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-We recommend a wide variety of Android apps throughout this site. The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
+We recommend a wide variety of Android apps throughout this site. Приложения, упомянутые здесь, разработаны исключительно для Android и ориентированы на улучшение или замену основных функций операционной системы.
 
 ### Shelter
 
-If your device is on Android 15 or greater, we recommend using the native [Private Space](../os/android-overview.md#private-space) feature instead, which provides nearly the same functionality without needing to place trust in and grant powerful permissions to a third-party app.
+Если ваше устройство работает на Android 15 или более новой версии, мы рекомендуем использовать встроенную функцию [Private Space](../os/android-overview.md#private-space), которая предоставляет аналогичный функционал, но без необходимости доверять стороннему приложению и предоставлять ему расширенные разрешения.
 
 <div class="admonition recommendation" markdown>
 
-![Shelter logo](../assets/img/android/shelter.svg){ align=right }
+![Логотип Shelter](../assets/img/android/shelter.svg){ align=right }
 
 **Shelter** is an app that helps you leverage Android's Work Profile functionality to isolate or duplicate apps on your device.
 
@@ -65,8 +65,8 @@ Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) a
 
 <div class="admonition recommendation" markdown>
 
-![Secure camera logo](../assets/img/android/secure_camera.svg#only-light){ align=right }
-![Secure camera logo](../assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
+![Логотип Secure camera](../assets/img/android/secure_camera.svg#only-light){ align=right }
+![Логотип Secure camera](../assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
 
 **Secure Camera** is a camera app focused on privacy and security which can capture images, videos, and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
 
@@ -76,7 +76,7 @@ Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) a
 [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Скачать</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
