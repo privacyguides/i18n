@@ -305,8 +305,8 @@ Consideramos esses recursos importantes para fornecer um serviço seguro e otimi
 
 - Criptografa todos os dados da conta (contatos, calendários, etc.) em repouso com criptografia de acesso zero.
 - Criptografia E2EE/PGP integrada de webmail fornecido como conveniência.
-- Support for [WKD](https://wiki.gnupg.org/WKD) to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key by typing: `gpg --locate-key example_user@example.com`
-- Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email, without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
+- Suporte ao [WKD](https://wiki.gnupg.org/WKD) para permitir a descoberta aprimorada de chaves OpenPGP públicas via HTTP. Usuários do GnuPG podem obter uma chave digitando: `gpg --locate-key example_user@example.com`
+- Suporte para uma caixa de correio temporária para usuários externos. Isso é útil quando você deseja enviar um e-mail criptografado sem enviar uma cópia real para o seu destinatário. Estes e-mails geralmente têm um tempo de vida limitado e depois são automaticamente excluídos. They also don't require the recipient to configure any cryptography like OpenPGP.
 - Availability of the email provider's services via an [onion service](https://en.wikipedia.org/wiki/.onion).
 - [Sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) support.
 - Catch-all or alias functionality for those who use their own domains.
