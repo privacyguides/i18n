@@ -3,17 +3,17 @@ title: Параметры групповой политики
 description: Краткое руководство по конфигурации групповой политики для повышения конфиденциальности в Windows.
 ---
 
-Outside of modifying the registry itself, the **Local Group Policy Editor** is the most powerful way to change many aspects of your system without installing third-party tools. Changing these settings requires [Pro Edition](index.md#windows-editions) or better.
+Не учитывая изменения реестра, **Редактор локальной групповой политики** является одним из самых эффективных способов настроить различные параметры системы без необходимости установки сторонних программ. Для изменения этих параметров требуется версия [Pro](index.md#windows-editions) или лучше.
 
-These settings should be set on a brand new installation of Windows. Setting them on your existing installation should work, but may introduce unpredictible behavior and is done at your own risk.
+Эти настройки следует применить при первичной установке Windows. Изменение этих параметров на системе, которая уже работает некоторое время, скорее всего, пройдет без проблем, однако существует риск возникновения непредсказуемых сбоев. В таком случае ответственность за изменения ложится на вас.
 
-All of these settings have an explanation attached to them in the Group Policy editor which explains exactly what they do, usually in great detail. Please pay attention to those descriptions as you make changes, so you know exactly what we are recommending here. We've also explained some of our choices below whenever the explanation included with Windows is inadequate.
+Все эти параметры содержат пояснения в редакторе групповой политики, которые обычно очень подробно объясняют их функциональность. Пожалуйста, обращайте внимание на эти описания при внесении изменений, чтобы точно понимать, что именно мы рекомендуем. Мы также пояснили некоторые из наших решений ниже, когда объяснения, предоставленные в Windows, оказались недостаточными.
 
 ## Административные шаблоны
 
-You can find these settings by opening `gpedit.msc` and navigating to **Local Computer Policy** > **Computer Configuration** > **Administrative Templates** in the left sidebar. The headers on this page correspond to folders/subfolders within Administrative Templates, and the bullet points correspond to individual policies.
+Вы можете найти эти параметры, открыв `gpedit.msc` и перейдя в **Политика "Локальный компьютер"** > **Конфигурация компьютера** > **Административные шаблоны** в левой панели. Заголовки на этой странице соответствуют папкам и вложенным папкам в Административных шаблонах, а пункты списка — отдельным политикам.
 
-To change any group policy, double click it and select Enabled or Disabled at the top of the window that appears depending on the recommendations below. Some group policies have additional settings that can be configured, and if that's the case the appropriate settings are noted below as well.
+Чтобы изменить любую групповую политику, дважды щелкните по ней и выберите «Включено» или «Отключено» в верхней части открывшегося окна в зависимости от рекомендаций, приведенных ниже. Некоторые групповые политики содержат дополнительные параметры для настройки, и в этом случае соответствующие настройки также указаны ниже.
 
 ### Система
 
@@ -25,11 +25,11 @@ To change any group policy, double click it and select Enabled or Disabled at th
 
 #### Internet Communication Management
 
-- Turn off Windows Customer Experience Improvement Program: **Enabled**
-- Turn off Windows Error Reporting: **Enabled**
-- Turn off the Windows Messenger Customer Experience Improvement Program: **Enabled**
+- Отключить программу по улучшению качества программного обеспечения Windows: **Включено**
+- Отключить отчёты об ошибках Windows: **Включено**
+- Отключить программу по улучшению качества программного обеспечения Windows Messenger: **Включено**
 
-Note that disabling the Windows Customer Experience Improvement Program also disables some other tracking features that can be individually controlled with Group Policy as well. We don't list them all here or disable them because this setting covers that.
+Обратите внимание, что отключение программы улучшения качества программного обеспечения Windows также деактивирует некоторые другие функции отслеживания, которые можно настроить индивидуально с помощью групповой политики. Мы не будем их перечислять, так как этот параметр уже охватывает все эти функции.
 
 #### Политики ОС
 
@@ -41,20 +41,20 @@ Note that disabling the Windows Customer Experience Improvement Program also dis
 
 #### Профили пользователей
 
-- Turn off the advertising ID: **Enabled**
+- Отключить идентификатор объявлений: **Включено**
 
-### Windows Components
+### Компоненты Windows
 
-#### AutoPlay Policies
+#### Политики автозапуска
 
-AutoRun and AutoPlay are features which allow Windows to run a script or perform some other task when a device is connected, sometimes avoiding security measures that involve user consent. This could allow untrusted devices to run malicious code without your knowledge. It's a security best practice to disable these features, and simply open files on your external disks manually.
+В текущем контексте автозапуск — это функция, которая позволяет Windows запускать сценарий или выполнять другую задачу при подключении устройства, иногда обходя меры безопасности, требующие согласия пользователя. Это может позволить ненадёжным устройствам запускать вредоносный код без вашего ведома. Для повышения безопасности лучше отключить эти функции и открывать файлы на внешних дисках вручную.
 
-- Turn off AutoPlay: **Enabled**
-- Disallow Autoplay for nonvolume devices: **Enabled**
-- Set the default behavior for AutoRun: **Enabled**
-  - Default AutoRun Behavior: **Do not execute any AutoRun commands**
+- Выключение автозапуска: **Включено**
+- Запрет автозапуска устройств, не являющихся томами: **Включено**
+- Установка поведения по умолчанию для автозапуска: **Включено**
+  - Поведение автозапуска по умолчанию: **Не использовать команды автозапуска**
 
-#### BitLocker Drive Encryption
+#### Шифрование диска BitLocker
 
 You may wish to re-encrypt your operating system drive after changing these settings.
 
@@ -70,22 +70,22 @@ Setting the cipher strength for the Windows 7 policy still applies that strength
 
 Despite the names of these policies, this doesn't _require_ you to do anything by default, but it will unlock the _option_ to have a more complex setup (such as requiring a PIN at startup in addition to the TPM) in the Bitlocker setup wizard.
 
-#### Cloud Content
+#### Содержимое облака
 
-- Turn off cloud optimized content: **Enabled**
-- Turn off cloud consumer account state content: **Enabled**
-- Do not show Windows tips: **Enabled**
-- Turn off Microsoft consumer experiences: **Enabled**
+- Отключить оптимизированное для облака содержимое: **Включено**
+- Отключить содержимое учетной записи и потребителя в облаке: **Включено**
+- Не показывать советы по использованию Windows: **Включено**
+- Выключить возможности потребителя Майкрософт: **Включено**
 
-#### Credential User Interface
+#### Пользовательский интерфейс учетных данных
 
-- Require trusted path for credential entry: **Enabled**
-- Prevent the use of security questions for local accounts: **Enabled**
+- Запрашивать достоверный путь для входа в учетную запись: **Включено**
+- Предотвращение использования контрольных вопросов для локальных учетных записей: **Включено**
 
-#### Data Collection and Preview Builds
+#### Сборки для сбора данных и предварительные сборки
 
-- Allow Diagnostic Data: **Enabled**
-  - Options: **Send required diagnostic data** (Pro Edition); or
+- Разрешить сбор диагностических данных: **Включено**
+  - Параметры: **Отправлять обязательные диагностические данные** (Windows Pro); или
   - Options: **Diagnostic data off** (Enterprise or Education Edition)
 - Limit Diagnostic Log Collection: **Enabled**
 - Limit Dump Collection: **Enabled**
@@ -103,9 +103,9 @@ Despite the names of these policies, this doesn't _require_ you to do anything b
 
 #### OneDrive
 
-- Save documents to OneDrive by default: **Disabled**
-- Prevent OneDrive from generating network traffic until the user signs in to OneDrive: **Enabled**
-- Prevent the usage of OneDrive for file storage: **Enabled**
+- По умолчанию сохранять документы в OneDrive: **Отключено**
+- Запретить OneDrive создавать сетевой трафик, пока пользователь не войдёт в OneDrive: **Включено**
+- Запретить использование OneDrive для хранения файлов: **Включено**
 
 This last setting disables OneDrive on your system; make sure to change it to **Disabled** if you use OneDrive.
 
@@ -113,23 +113,23 @@ This last setting disables OneDrive on your system; make sure to change it to **
 
 - Turn off Push To Install service: **Enabled**
 
-#### Поиск
+#### Найти
 
-- Allow Cortana: **Disabled**
-- Don't search the web or display web results in Search: **Enabled**
-- Set what information is shared in Search: **Enabled**
-  - Type of information: **Anonymous info**
+- Разрешить использование Кортаны: **Отключено**
+- Не выполнять поиск в Интернете или не отображать результаты из Интернета в поиске: **Включено**
+- Установить, какая информация является общей при поиске: **Включено**
+  - Тип сведений: **Анонимные сведения**
 
-#### Sync your settings
+#### Синхронизация параметров
 
-- Do not sync: **Enabled**
+- Не синхронизировать: **Включено**
 
-#### Text input
+#### Ввод текста
 
-- Improve inking and typing recognition: **Disabled**
+- Улучшение распознавания ввода с клавиатуры и рукописного ввода: **Отключено**
 
-#### Windows Error Reporting
+#### Отчёты об ошибках Windows
 
-- Do not send additional data: **Enabled**
-- Consent > Configure Default consent: **Enabled**
-  - Consent level: **Always ask before sending data**
+- Не отправлять дополнительные данные: **Включено**
+- Разрешение > Настроить разрешение по умолчанию: **Включено**
+  - Уровень разрешения: **Всегда запрашивать разрешения перед отправкой данных**
