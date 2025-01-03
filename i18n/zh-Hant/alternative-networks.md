@@ -68,7 +68,7 @@ cover: alternative-networks.webp
 
 Snowflake 無法加強隱私，也不會在個人瀏覽器中連接 Tor 網路。 但如果網際網路連接沒有被審查的情形，請考慮使用它，幫助受審查網路中的人們能有更好的隱私。 無需擔心人們通過您的代理訪問哪些網站----他們的可見瀏覽 IP 地址將與其 Tor 出口節點相匹配，而不是您的 IP 地址。
 
-運行 Snowflake 代理風險很低，甚至低於運行 Tor 中繼或橋接器，而這些中繼器或橋接器已經不算是特別高風險的工作。 但是，它通過您的網路進行代理流量，在某些方面可能會產生影響，特別是所用的網路頻寬有限制的話。 在決定是否要執行代理程式之前，請確保了解 [Snowflake 的工作原理'(https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) 。
+運行 Snowflake 代理風險很低，甚至低於運行 Tor 中繼或橋接器，而這些中繼器或橋接器已經不算是特別高風險的工作。 但是，它通過您的網路進行代理流量，在某些方面可能會產生影響，特別是所用的網路頻寬有限制的話。 在決定是否要執行代理程式之前，請確保了解 [Snowflake 的工作原理](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) 。
 
 ### I2P (隱形網際網路計劃)
 

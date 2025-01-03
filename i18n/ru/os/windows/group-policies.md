@@ -1,6 +1,6 @@
 ---
-title: Group Policy Settings
-description: A quick guide to configuring Group Policy to make Windows a bit more privacy respecting.
+title: Параметры групповой политики
+description: Краткое руководство по конфигурации групповой политики для повышения конфиденциальности в Windows.
 ---
 
 Outside of modifying the registry itself, the **Local Group Policy Editor** is the most powerful way to change many aspects of your system without installing third-party tools. Changing these settings requires [Pro Edition](index.md#windows-editions) or better.
@@ -9,19 +9,19 @@ These settings should be set on a brand new installation of Windows. Setting the
 
 All of these settings have an explanation attached to them in the Group Policy editor which explains exactly what they do, usually in great detail. Please pay attention to those descriptions as you make changes, so you know exactly what we are recommending here. We've also explained some of our choices below whenever the explanation included with Windows is inadequate.
 
-## Administrative Templates
+## Административные шаблоны
 
 You can find these settings by opening `gpedit.msc` and navigating to **Local Computer Policy** > **Computer Configuration** > **Administrative Templates** in the left sidebar. The headers on this page correspond to folders/subfolders within Administrative Templates, and the bullet points correspond to individual policies.
 
 To change any group policy, double click it and select Enabled or Disabled at the top of the window that appears depending on the recommendations below. Some group policies have additional settings that can be configured, and if that's the case the appropriate settings are noted below as well.
 
-### System
+### Система
 
 #### Device Guard
 
-- Turn On Virtualization Based Security: **Enabled**
-  - Platform Security Level: **Secure Boot and DMA Protection**
-  - Secure Launch Configuration: **Enabled**
+- Включить средство обеспечения безопасности на основе виртуализации: **Включено**
+  - Выберите уровень безопасности платформы: **Безопасная загрузка и защита DMA**
+  - Настройка безопасного запуска: **Включено**
 
 #### Internet Communication Management
 
@@ -31,13 +31,13 @@ To change any group policy, double click it and select Enabled or Disabled at th
 
 Note that disabling the Windows Customer Experience Improvement Program also disables some other tracking features that can be individually controlled with Group Policy as well. We don't list them all here or disable them because this setting covers that.
 
-#### OS Policies
+#### Политики ОС
 
-- Allow Clipboard History: **Disabled**
-- Allow Clipboard synchronization across devices: **Disabled**
-- Enables Activity Feed: **Disabled**
-- Allow publishing of User Activities: **Disabled**
-- Allow upload of User Activities: **Disabled**
+- Разрешить журнал буфера обмена: **Отключено**
+- Разрешить синхронизацию буфера обмена между устройствами: **Отключено**
+- Включить веб-канал активности: **Отключено**
+- Разрешить публикацию действий пользователя: **Отключено**
+- Разрешить загрузку действий пользователя: **Отключено**
 
 #### Профили пользователей
 
