@@ -56,7 +56,7 @@ description: Краткое руководство по конфигурации
 
 #### Шифрование диска BitLocker
 
-You may wish to re-encrypt your operating system drive after changing these settings.
+После изменения этих настроек возможно вы захотите повторно зашифровать диск с операционной системой.
 
 - Choose drive encryption method and cipher strength (Windows Vista, Windows Server 2008, Windows 7): **Enabled**
   - Select the encryption method: **AES-256**
