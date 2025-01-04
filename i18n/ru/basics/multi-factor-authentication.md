@@ -36,7 +36,7 @@ TOTP - одна из наиболее распространенных форм 
 
 Злоумышленник может создать сайт, имитирующий официальный сервис, чтобы обманом заставить вас сообщить свое имя пользователя, пароль и текущий код TOTP. Если злоумышленник затем использует эти записанные учетные данные, он сможет войти в реальный сервис и завладеть учетной записью.
 
-Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../security-keys.md) are not supported [authenticator apps](../multi-factor-authentication.md) are still a good option.
+Хотя TOTP и не идеален, он достаточно безопасен для большинства людей, а когда [аппаратные ключи безопасности](../security-keys.md) не поддерживаются, [приложения-аутентификаторы](../multi-factor-authentication.md) все ещё являются хорошим вариантом.
 
 ### Аппаратные ключи безопасности
 
@@ -151,7 +151,7 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLog
 
 #### Аппаратные ключи безопасности
 
-МФА с SSH может быть настроена с использованием нескольких различных методов аутентификации, которые популярны при использовании аппаратных ключей безопасности. We recommend that you check out Yubico's [documentation](https://developers.yubico.com/SSH) on how to set this up.
+МФА с SSH может быть настроена с использованием нескольких различных методов аутентификации, которые популярны при использовании аппаратных ключей безопасности. Мы рекомендуем вам ознакомиться с [документацией](https://developers.yubico.com/SSH) Yubico о том, как это настроить.
 
 #### TOTP
 
