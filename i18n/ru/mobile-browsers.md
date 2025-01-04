@@ -60,9 +60,9 @@ These are our currently recommended **mobile web browsers** and configurations f
 
 <div class="admonition recommendation" markdown>
 
-![Brave logo](assets/img/browsers/brave.svg){ align=right }
+![Логотип Brave](assets/img/browsers/brave.svg){ align=right }
 
-**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
+**Brave Browser** содержит встроенный блокировщик рекламы и [функции конфиденциальности](https://brave.com/privacy-features), многие из которых уже включены по умолчанию.
 
 Brave основан на Chromium, поэтому он покажется тебе знакомым, а также у него не должно быть проблем совместимости с сайтами.
 
@@ -196,7 +196,7 @@ These options can be found in :material-menu: → **Settings** → **Leo**.
 
 These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
 
-- [ ] Uncheck **Show search suggestions**
+- [ ] Отключите **Показывать поисковые предложения**
 
 #### Brave Sync
 
@@ -302,7 +302,7 @@ This prevents Siri from using content from Safari for Siri suggestions.
 
 - [ ] Disable **Search Engine Suggestions**
 
-This setting sends whatever you type in the address bar to the search engine set in Safari. Отключение поисковых предложений позволяет более точно контролировать данные, которые вы отправляете поисковой системе.
+This setting sends whatever you type in the address bar to the search engine set in Safari. Отключение поисковых предложений предоставляет возможность более строго контролировать данные, отправляемые в поисковую систему.
 
 #### Profiles
 

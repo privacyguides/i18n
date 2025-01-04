@@ -1,78 +1,78 @@
 ---
 title: Messages de commit
-description: A guide for website contributors on using useful Git commit messages when making website change requests.
+description: Un guide pour les contributeurs de sites web sur l'utilisation de messages de commit Git utiles lors des demandes de modification de sites web.
 ---
 
 Pour nos messages de commit, nous suivons le style fourni par [Conventional Commits](https://conventionalcommits.org). Toutes ces suggestions ne sont pas appropriées pour Privacy Guides, c'est pourquoi les principales que nous utilisons sont les suivantes :
 
-## Update to existing text
+## Mettre à jour le texte existant
 
 Cet exemple peut être utilisé pour un article déjà présent sur le site, mais dont la description a été légèrement modifiée.
 
 ```text
-update: Add mention of security audit (#0000)
+mise à jour : ajout de la mention de l'audit de sécurité (#0000)
 ```
 
-## Addition or removal of recommendations/pages
+## Ajout ou suppression de recommandations/pages
 
-This example is for the addition or removal of an item. You may elaborate why it was removed in the commit paragraph below. Note the extra `!` to draw attention to a major change.
+Cet exemple concerne l'ajout ou le retrait d'un élément. Vous pouvez expliquer pourquoi il a été supprimé dans le paragraphe d'engagement ci-dessous. Notez le `!` supplémentaire pour attirer l'attention sur un changement majeur.
 
 ```text
-update!: Remove foobar (#0000)
+mise à jour : Suppression de foobar (#0000)
 
-Foobar was removed due to it having numerious security issues and being unmaintained.
+Foobar a été supprimé car il présente de nombreux problèmes de sécurité et n'est pas maintenu.
 ```
 
-You can actually add a `!` to _any_ of the types on this page to denote particularly large changes, but this is generally where it will be most appropriate.
+Vous pouvez en fait ajouter un `!` à _tous_ les types de cette page pour indiquer des changements particulièrement importants, mais c'est généralement ici que cela sera le plus approprié.
 
 ## Fonctionnalité/amélioration
 
 Pour les nouvelles fonctionnalités ou les améliorations du site, par exemple les choses qui ont le label `enhancements` sur GitHub, il peut être approprié de les signifier avec :
 
 ```text
-feat: Add blah blah (#0000)
+feat: Ajouter blah blah (#0000)
 
-This change adds the forum topics to the main page
+Ce changement ajoute les sujets du forum à la page principale
 ```
 
-## Minor changes
+## Modifications mineures
 
-Small changes that **don't affect the meaning** of the article, e.g. correcting a typo, fixing grammar, changing formatting/whitespace, CSS updates, etc.
+Petites modifications qui **n'affectent pas le sens** de l'article, par exemple la correction d'une coquille, la correction de la grammaire, la modification du formatage/de l'espace blanc, les mises à jour CSS, etc.
 
 ```text
-style: Typo correction in VPN overview
+style : Correction d'une faute d'orthographe dans la présentation du VPN
 ```
 
-## Development-related types
+## Types d'activités liées au développement
 
-These commit types are typically used for changes that won't be visible to the general audience.
+Ces types de livraisons sont généralement utilisés pour les modifications qui ne seront pas visibles par le grand public.
 
-We use `fix:` for changes that fix site related bugs. These things will usually have the `bug` label on GitHub.
+Nous utilisons `fix:` pour les changements qui corrigent les bogues liés au site. Ces choses ont généralement le label `correction` ou `bug` sur GitHub.
 
 ```text
-fix: Remove broken Invidious embeds (#0000)
+fix : Suppression des liens Invidious cassés (#0000)
 ```
 
-We use `docs:` to denote changes to the developer documentation for this website, including (but not limited to) for example the README file, or most pages in `/docs/about` or `/docs/meta`:
+Nous utilisons `docs:` pour indiquer les changements apportés à la documentation du développeur pour ce site web, y compris (mais sans s'y limiter) par exemple le fichier README, ou la plupart des pages dans `/docs/about` ou `/docs/meta` :
 
 ```text
-docs: Update Git commit message guidelines (#0000)
+docs : Mise à jour des directives pour les messages de commit Git (#0000)
 ```
 
-We use `build:` for commits related to our build process, mainly dependency updates.
+Nous utilisons `build:` pour les commits liés à notre processus de construction, principalement les mises à jour de dépendances.
 
 ```text
-build: Bump modules/mkdocs-material from 463e535 to 621a5b8
+build : Modification du module/mkdocs-material de 463e535 à 621a5b8
 ```
 
-We use `ci:` for commits related to GitHub Actions, DevContainers, or other automated build platforms.
+Nous utilisons `ci:` pour les commits liés aux actions GitHub, aux DevContainers, ou à d'autres plateformes de construction automatisées.
 
 ```text
-ci: Update Netlify config (#0000)
+ci : Mise à jour de la configuration de Netlify (#0000)
 ```
 
-We use `refactor:` for changes which neither fix a bug nor add a feature, e.g. rearranging files, navigation order, etc.
+Nous utilisons `refactor:` pour les changements qui ne corrigent pas de bogues et n'ajoutent pas de fonctionnalité, par exemple la réorganisation des fichiers, l'ordre de navigation, etc.
 
 ```text
-refactor: Move docs/assets to theme/assets
+refactoriser : Déplacer docs/assets vers theme/assets
 ```
