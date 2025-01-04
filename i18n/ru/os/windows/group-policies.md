@@ -58,17 +58,17 @@ description: Краткое руководство по конфигурации
 
 После изменения этих настроек возможно вы захотите повторно зашифровать диск с операционной системой.
 
-- Choose drive encryption method and cipher strength (Windows Vista, Windows Server 2008, Windows 7): **Enabled**
-  - Select the encryption method: **AES-256**
+- Этот параметр политики позволяет выбрать метод шифрования диска и стойкость шифра (Windows vista, Windows Server 2008, Windows 7, Windows Server 2008 R2): **Включено**
+  - Выберите метод шифрования: **AES c 256-разрядным ключом**
 
-Setting the cipher strength for the Windows 7 policy still applies that strength to newer versions of Windows.
+Настройка силы шифрования для политики Windows 7 продолжает действовать и в более новых версиях Windows.
 
-##### Operating System Drives
+##### Диски операционной системы
 
-- Require additional authentication at startup: **Enabled**
-- Allow enhanced PINs for startup: **Enabled**
+- Этот параметр политики позволяет вам настроить требование дополнительной проверки подлинности при запуске: **Включено**
+- Этот параметр политики позволяет разрешить использование улучшенных ПИН-кодов при запуске компьютера: **Включено**
 
-Despite the names of these policies, this doesn't _require_ you to do anything by default, but it will unlock the _option_ to have a more complex setup (such as requiring a PIN at startup in addition to the TPM) in the Bitlocker setup wizard.
+Несмотря на названия этих политик, по умолчанию они ничего не требуют, но активируют _опцию_ для более детальной настройки (например, требование ввода ПИН-кода при запуске в дополнение к TPM) в мастере настройки BitLocker.
 
 #### Содержимое облака
 
