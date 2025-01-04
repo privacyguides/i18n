@@ -1,8 +1,8 @@
 ---
-meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
+meta_title: "Как приватно создавать учетные записи в Интернете - Privacy Guides"
 title: "Создание аккаунта"
 icon: 'material/account-plus'
-description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
+description: Создание аккаунтов в интернете является, практически, необходимостью; предпримите следующие шаги, чтобы сохранить вашу конфиденциальность.
 ---
 
 Часто люди регистрируются на сайтах, не задумываясь. Возможно, это стриминг, позволяющий смотреть новое шоу, о котором все говорят, или аккаунт, предоставляющий скидку в любимом заведении быстрого питания. В любом случае вы должны рассмотреть сегодняшние и последующие последствия для ваших данных.

@@ -155,8 +155,8 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLog
 
 #### TOTP
 
-МФА с SSH также можно настроить с помощью TOTP. DigitalOcean has provided a tutorial [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). Большинство вещей должны быть одинаковыми независимо от дистрибутива, однако команды менеджера пакетов - например, `apt-get`- и названия пакетов могут отличаться.
+МФА с SSH также можно настроить с помощью TOTP. DigitalOcean предоставила руководство [Как настроить многофакторную аутентификацию для SSH на Ubuntu 20.04](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). Большинство вещей должны быть одинаковыми независимо от дистрибутива, однако команды менеджера пакетов — например, `apt-get` — и названия пакетов могут отличаться.
 
 ### KeePass (и KeePassXC)
 
-Базы данных KeePass и KeePassXC могут быть защищены с помощью Challenge-Response или HOTP в качестве второго фактора аутентификации. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.
+Базы данных KeePass и KeePassXC могут быть защищены с помощью Challenge-Response или HOTP в качестве второго фактора аутентификации. У Yubico есть руководство для KeePass [Использование YubiKey с KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass), подобное также есть на сайте [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa).

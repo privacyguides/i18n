@@ -71,7 +71,7 @@ schema:
 
 ![Логотип Mullvad Browser](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad Browser** это версия [браузера Tor](tor.md#tor-browser) в которой удалили интеграцию сети Tor. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Он разработан проектом Tor и распространяется [Mullvad](vpn.md#mullvad), и **не** требует использования VPN Mullvad.
+**Mullvad Browser** это версия [браузера Tor](tor.md#tor-browser) в которой удалили интеграцию сети Tor. Его задача — совместить Mullvad VPN и функции браузера Tor, защищающие от цифровых отпечатков. Эти функции являются важным инструментом против [:material-eye-outline: Массового наблюдения](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Он разработан проектом Tor и распространяется [Mullvad](vpn.md#mullvad), и **не** требует использования VPN Mullvad.
 
 [:octicons-home-16: Домашняя страница](https://mullvad.net/ru/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Политика конфиденциальности" }
@@ -140,7 +140,7 @@ Mullvad Browser поставляется с включенной по умолч
 <div class="admonition warning" markdown>
 <p class="admonition-title">Предупреждение</p>
 
-Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+Firefox добавляет уникальный [маркер загрузки](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) к загрузкам с сайта Mozilla и использует телеметрию для отправки этого маркера. Токен **не** добавляется при скачивании с [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
 </div>
 

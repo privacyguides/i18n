@@ -33,11 +33,11 @@ If you are looking for **anonymity**, you should use the Tor Browser. If you're 
 
 Our recommended providers use encryption, support WireGuard & OpenVPN, and have a no logging policy. Для получения дополнительной информации, ознакомьтесь с \[полным списком критериев\](#_18).
 
-| Провайдер             | Страны | WireGuard                     | Проброс портов                                  | IPv6                                                     | Анонимные платежи |
-| --------------------- | ------ | ----------------------------- | ----------------------------------------------- | -------------------------------------------------------- | ----------------- |
-| [Proton](#proton-vpn) | 112+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Частично | :material-information-outline:{ .pg-blue } Ограниченно   | Наличные          |
-| [IVPN](#ivpn)         | 37+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }          | :material-information-outline:{ .pg-blue } Outgoing Only | Monero, Наличные  |
-| [Mullvad](#mullvad)   | 45+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }          | :material-check:{ .pg-green }                            | Monero, Наличные  |
+| Провайдер             | Страны | WireGuard                     | Проброс портов                                  | IPv6                                                               | Анонимные платежи |
+| --------------------- | ------ | ----------------------------- | ----------------------------------------------- | ------------------------------------------------------------------ | ----------------- |
+| [Proton](#proton-vpn) | 112+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Частично | :material-information-outline:{ .pg-blue } Ограниченно             | Наличные          |
+| [IVPN](#ivpn)         | 37+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }          | :material-information-outline:{ .pg-blue } Только исходящий трафик | Monero, Наличные  |
+| [Mullvad](#mullvad)   | 45+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }          | :material-check:{ .pg-green }                                      | Monero, Наличные  |
 
 ### Proton VPN
 
