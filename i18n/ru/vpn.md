@@ -99,7 +99,7 @@ Proton [теперь поддерживает IPv6](https://protonvpn.com/suppor
 
 #### :material-information-outline:{ .pg-info } Удалённая переадресация портов
 
-Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup). Торрент приложения часто поддерживают NAT-PMP нативно.
+В настоящее время Proton VPN поддерживает только эфемерную удаленную [переадресацию портов](https://protonvpn.com/support/port-forwarding) через NAT-PMP с 60-секундным временем аренды. Приложение для Windows обеспечивает лёгкий доступ к ней, в то время как на других операционных системах вам придётся запустить собственный [клиент NAT-PMP](https://protonvpn.com/support/port-forwarding-manual-setup). Торрент приложения часто поддерживают NAT-PMP нативно.
 
 #### :material-information-outline:{ .pg-blue } Борьба с цензурой
 
