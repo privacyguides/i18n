@@ -86,20 +86,20 @@ Despite the names of these policies, this doesn't _require_ you to do anything b
 
 - Разрешить сбор диагностических данных: **Включено**
   - Параметры: **Отправлять обязательные диагностические данные** (Windows Pro); или
-  - Options: **Diagnostic data off** (Enterprise or Education Edition)
-- Limit Diagnostic Log Collection: **Enabled**
-- Limit Dump Collection: **Enabled**
-- Limit optional diagnostic data for Desktop Analytics: **Enabled**
-  - Options: **Disable Desktop Analytics collection**
-- Do not show feedback notifications: **Enabled**
+  - Параметры: **Сбор диагностических данных отключен** (Enterprise или Education)
+- Ограничение сбора журналов диагностики: **Включено**
+- Ограничение сбора дампов: **Включено**
+- Ограничение сбора необязательных диагностических данных для Аналитики компьютеров: **Включено**
+  - Параметры: **Отключение сбора данных для Аналитики компьютеров**
+- Не показывать уведомления об отзывах: **Включено**
 
-#### File Explorer
+#### Проводник
 
-- Turn off account-based insights, recent, favorite, and recommended files in File Explorer: **Enabled**
+- Отключить аналитику на основе учетных записей, последние, избранные и рекомендуемые файлы в проводнике: **Включено**
 
 #### MDM
 
-- Disable MDM Enrollment: **Enabled**
+- Отключить регистрацию для MDM: **Включено**
 
 #### OneDrive
 
@@ -107,11 +107,11 @@ Despite the names of these policies, this doesn't _require_ you to do anything b
 - Запретить OneDrive создавать сетевой трафик, пока пользователь не войдёт в OneDrive: **Включено**
 - Запретить использование OneDrive для хранения файлов: **Включено**
 
-This last setting disables OneDrive on your system; make sure to change it to **Disabled** if you use OneDrive.
+Последний параметр отключает OneDrive в вашей системе; обязательно измените его на **Disabled**, если вы используете OneDrive.
 
-#### Push To Install
+#### Установка нажатием
 
-- Turn off Push To Install service: **Enabled**
+- Выключить службу установки нажатием: **Включено**
 
 #### Найти
 
