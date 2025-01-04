@@ -68,7 +68,7 @@ global:
 
 #### :material-check:{ .pg-green } 112 Стран
 
-Proton VPN has [servers in 112 countries](https://protonvpn.com/vpn-servers) or [5](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/free-vpn/server).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
+У Proton VPN есть [серверы в 112 странах](https://protonvpn.com/vpn-servers) или [5](https://protonvpn.com/support/how-to-create-free-vpn-account), если вы используете [бесплатный план](https://protonvpn.com/free-vpn/server).(1) Выбрав VPN-провайдера с ближайшим к вам сервером снизит задержку исходящего интернет-трафика. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
 { .annotate }
 
 1. Последняя проверка: 06.08.2024
@@ -93,15 +93,15 @@ Proton VPN, в основном, поддерживает протокол WireG
 
 Proton VPN [recommends](https://protonvpn.com/blog/wireguard) the use of WireGuard with their service. On Proton VPN's Windows, macOS, iOS, Android, ChromeOS, and Android TV apps, WireGuard is the default protocol; however, [support](https://protonvpn.com/support/how-to-change-vpn-protocols) for the protocol is not present in their Linux app.
 
-#### :material-alert-outline:{ .pg-orange } Limited IPv6 Support
+#### :material-alert-outline:{ .pg-orange } Ограниченная поддержка IPv6
 
 Proton [now supports IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks) in their browser extension but only 80% of their servers are IPv6-compatible. On other platforms, the Proton VPN client will block all outgoing IPv6 traffic, so you don't have to worry about your IPv6 address being leaked, but you will not be able to connect to any IPv6-only sites, nor will you be able to connect to Proton VPN from an IPv6-only network.
 
-#### :material-information-outline:{ .pg-info } Remote Port Forwarding
+#### :material-information-outline:{ .pg-info } Удалённая переадресация портов
 
 Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding) via NAT-PMP, with 60 second lease times. The Windows app provides an easy to access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup). Торрент приложения часто поддерживают NAT-PMP нативно.
 
-#### :material-information-outline:{ .pg-blue } Anti-Censorship
+#### :material-information-outline:{ .pg-blue } Борьба с цензурой
 
 Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol) protocol which *may* help in situations where VPN protocols like OpenVPN or Wireguard are blocked with various rudimentary techniques. Stealth encapsulates the VPN tunnel in TLS session in order to look like more generic internet traffic.
 
@@ -111,7 +111,7 @@ Unfortunately, it does not work very well in countries where sophisticated filte
 
 In addition to providing standard OpenVPN configuration files, Proton VPN has mobile clients for [App Store](https://apps.apple.com/app/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android), and [GitHub](https://github.com/ProtonVPN/android-app/releases) allowing for easy connections to their servers.
 
-#### :material-information-outline:{ .pg-blue } Additional Notes
+#### :material-information-outline:{ .pg-blue } Дополнительные замечания
 
 Proton VPN clients support two factor authentication on all platforms. Proton VPN имеет собственные серверы и дата-центры в Швейцарии, Исландии и Швеции. They offer content blocking and known-malware blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](tor.md#tor-browser) for this purpose.
 
@@ -148,7 +148,7 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 
 #### :material-check:{ .pg-green } 37 Стран
 
-IVPN has [servers in 37 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
+У IVPN есть [серверы в 37 странах](https://ivpn.net/status).(1) Выбрав VPN-провайдера с ближайшим к вам сервером снизит задержку исходящего интернет-трафика. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
 { .annotate }
 
 1. Последняя проверка: 06.08.2024
@@ -173,15 +173,15 @@ IVPN поддерживает протокол WireGuard®️. [WireGuard](https
 
 IVPN [recommends](https://ivpn.net/wireguard) the use of WireGuard with their service and, as such, the protocol is the default on all of IVPN's apps. IVPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
 
-#### :material-information-outline:{ .pg-blue } IPv6 Support
+#### :material-information-outline:{ .pg-blue } Поддержка IPv6
 
 IVPN allows you to [connect to services using IPv6](https://ivpn.net/knowledgebase/general/do-you-support-ipv6) but doesn't allow you to connect from a device using an IPv6 address.
 
 #### :material-alert-outline:{ .pg-orange } Удалённая переадресация портов
 
-IVPN previously supported port forwarding, but removed the option in [June 2023](https://ivpn.net/blog/gradual-removal-of-port-forwarding). Отсутствие этой функции может негативно сказаться на некоторых приложениях, особенно на пиринговых приложениях, таких как торрент-клиенты.
+Ранее IVPN поддерживал переадресацию портов, но в [июне 2023 года](https://ivpn.net/blog/gradual-removal-of-port-forwarding) эта опция была убрана. Отсутствие этой функции может негативно сказаться на некоторых приложениях, особенно на пиринговых приложениях, таких как торрент-клиенты.
 
-#### :material-check:{ .pg-green } Anti-Censorship
+#### :material-check:{ .pg-green } Борьба с цензурой
 
 IVPN has obfuscation modes using [v2ray](https://v2ray.com/en/index.html) which helps in situations where VPN protocols like OpenVPN or Wireguard are blocked. Currently this feature is only available on Desktop and [iOS](https://ivpn.net/knowledgebase/ios/v2ray). It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) over QUIC or TCP connections. QUIC is a modern protocol with better congestion control and therefore may be faster with reduced latency. The TCP mode makes your data appear as regular HTTP traffic.
 
@@ -189,9 +189,9 @@ IVPN has obfuscation modes using [v2ray](https://v2ray.com/en/index.html) which 
 
 In addition to providing standard OpenVPN configuration files, IVPN has mobile clients for [App Store](https://apps.apple.com/app/id1193122683), [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client), and [GitHub](https://github.com/ivpn/android-app/releases) allowing for easy connections to their servers.
 
-#### :material-information-outline:{ .pg-blue } Additional Notes
+#### :material-information-outline:{ .pg-blue } Дополнительные замечания
 
-IVPN clients support two factor authentication. IVPN also provides "[AntiTracker](https://ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
+Клиенты IVPN поддерживают двухфакторную аутентификацию. IVPN also provides "[AntiTracker](https://ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
 
 ### Mullvad
 
@@ -221,9 +221,9 @@ IVPN clients support two factor authentication. IVPN also provides "[AntiTracker
 
 </div>
 
-#### :material-check:{ .pg-green } 45 Countries
+#### :material-check:{ .pg-green } 45 Стран
 
-Mullvad has [servers in 45 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
+У Mullvad есть [серверы в 45 странах](https://mullvad.net/servers).(1) Выбрав VPN-провайдера с ближайшим к вам сервером снизит задержку исходящего интернет-трафика. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
 { .annotate }
 
 1. Последняя проверка: 06.08.2024
@@ -258,13 +258,13 @@ Mullvad [recommends](https://mullvad.net/en/help/why-wireguard) the use of WireG
 
 #### :material-check:{ .pg-green } Поддержка IPv6
 
-Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support) and connect from a device using an IPv6 address.
+Mullvad позволяет [получить доступ к сервисам, размещённым на IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support), и подключиться к ним с устройства, использующего IPv6-адрес.
 
 #### :material-alert-outline:{ .pg-orange } Удаленная переадресация портов
 
 Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports). Отсутствие этой функции может негативно сказаться на некоторых приложениях, особенно на пиринговых приложениях, таких как торрент-клиенты.
 
-#### :material-check:{ .pg-green } Anti-Censorship
+#### :material-check:{ .pg-green } Борьба с цензурой
 
 Mullvad offers several features to help bypass censorship and access the internet freely:
 
@@ -277,7 +277,7 @@ Mullvad offers several features to help bypass censorship and access the interne
 
 Mullvad has published [App Store](https://apps.apple.com/app/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. Клиент для Android также доступен на [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
 
-#### :material-information-outline:{ .pg-blue } Additional Notes
+#### :material-information-outline:{ .pg-blue } Дополнительные замечания
 
 Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers). They also provide the option to enable Defense Against AI-guided Traffic Analysis ([DAITA](https://mullvad.net/en/blog/daita-defense-against-ai-guided-traffic-analysis)) in their apps. DAITA protects against the threat of advanced traffic analysis which can be used to connect patterns in VPN traffic with specific websites.
 

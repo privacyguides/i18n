@@ -304,24 +304,24 @@ Brave allows you to select additional content filters within the internal `brave
 
 <div class="annotate" markdown>
 
-- [x] Select **Don't allow sites to use the V8 optimizer** under *Security* → *Manage V8 security* (1)
-- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
-- [x] Select **Disable non-proxied UDP** under [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [x] Select **Auto-redirect AMP pages**
-- [x] Select **Auto-redirect tracking URLs**
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- [x] Выберите **Запретить сайтам использовать оптимизатор V8** в *Безопасность* → *Оптимизатор V8* (1)
+- [x] Включите **Автоматически удалять разрешения для неиспользуемых сайтов** в *Настройки сайта и Shields*
+- [x] Выберите **Отключить непроксируемый протокол UDP** в [*Политика обработки IP WebRTC*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [ ] Отключите **Использовать сервисы Google для обмена push-сообщениями**
+- [x] Включите **Автоматичсеки перенаправлять с AMP-страниц**
+- [x] Включите **Автоматичсеки перенаправлять URL-адреса отслеживания**
+- [x] Включите **Запрещать сайтам использовать цифровые отпечатки для выбора языка**
 
 </div>
 
-1. Disabling the V8 optimizer reduces your attack surface by disabling [*some*](https://grapheneos.social/@GrapheneOS/112708049232710156) parts of JavaScript Just-In-Time (JIT) compilation.
+1. Отключение оптимизатора V8 уменьшает площадь атаки за счет отключения [*некоторых*](https://grapheneos.social/@GrapheneOS/112708049232710156) частей компиляции JavaScript Just-In-Time (JIT).
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Sanitizing on close</p>
+<p class="admonition-title">Отчистка при закрытии</p>
 
-- [x] Select **Delete data sites have saved to your device when you close all windows** under *Sites and Shields Settings* → *Content* → *Additional content settings* → *On-device site data*.
+- [x] Выберите **Удалять данные сайтов, сохранённые на устройстве, при закрытии всех окон** в *Настройки сайта и Shields* → *Контент* → *Дополнительные настройки контента* → *Данные сайтов, сохранённые на устройстве*.
 
-If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
+Если вы хотите оставаться залогиненным на сайте, который часто посещаете, вы можете настроить исключения для каждого ресурса, кликнув на значок щита в адресной строке.
 
 </div>
 
@@ -346,17 +346,17 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 - [ ] Uncheck all built-in extensions you don't use
 
-#### Search engine
+#### Поисковая система
 
-We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
+Мы рекомендуем отключить подсказки поиска в Brave по той же причине, по которой мы рекомендуем отключить эту функцию в [Firefox](#search).
 
-- [ ] Отключите **Показывать поисковые предложения**
+- [ ] Отключите **Показывать подсказки при поиске**
 
-#### System
+#### Система
 
 <div class="annotate" markdown>
 
-- [ ] Отключи **Продолжить выполнение фоновых приложений после закрытия Brave**, чтобы отключить фоновые приложения (1)
+- [ ] Отключите **Продолжить выполнение фоновых приложений после закрытия Brave**, чтобы отключить фоновые приложения (1)
 
 </div>
 
@@ -368,7 +368,7 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 #### Награды Brave и Кошелёк
 
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. Она опирается на кастодиальный аккаунт и KYC от определенного числа провайдеров. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Вознаграждение Brave** позволяет получать криптовалюту Basic Attention Token (BAT) за выполнение определенных действий в Brave. Она опирается на кастодиальный аккаунт и KYC от определенного числа провайдеров. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
 **Кошелек Brave** работает локально на твоём компьютере, но не поддерживает никаких конфиденциальных криптовалют, поэтому мы бы не советовали использовать и эту функцию.
 
@@ -378,12 +378,12 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 ### Минимальные требования
 
-- Должен иметь открытый исходный код.
+- Должен быть с открытым исходным кодом.
 - Должен поддерживать автоматические обновления.
 - Must receive engine updates in 0-1 days from upstream release.
-- Must be available on Linux, macOS, and Windows.
-- Any changes required to make the browser more privacy-respecting must not negatively impact user experience.
-- Must block third-party cookies by default.
+- Должен быть доступен на Linux, macOS и Windows.
+- Все изменения, направленные на улучшение конфиденциальности браузера, не должны отрицательно сказываться на удобстве его использования.
+- Должен блокировать сторонние куки по умолчанию.
 - Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
 ### В лучшем случае
