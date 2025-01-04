@@ -3,7 +3,7 @@
 *[AOSP]: (англ. Android Open Source Project) - Проект с открытым исходным кодом Android
 *[ATA]: (англ. Advanced Technology Attachment) - Интерфейс подключения накопителей к компьютеру
 *[поверхность атаки]: (англ. attack surface) - Возможные уязвимые места для несанкционированного доступа к системе
-*[AVB]: Проверенная загрузка Android
+*[AVB]: (англ. Android Verified Boot) - Проверенная загрузка Android
 *[cgroups]: (англ. Control Groups) - Контрольные группы
 *[CLI]: (англ. Command-line interface) - Интерфейс командной строки
 *[CSV]: Comma-Separated Values, формат таблиц

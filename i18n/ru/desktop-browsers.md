@@ -191,7 +191,7 @@ Firefox добавляет уникальный [маркер загрузки](
 
 Кроме того, аккаунт Mozilla собирает [некоторые технические данные](https://mozilla.org/privacy/mozilla-accounts). Если вы используете аккаунт Mozilla, вы можете отключить сбор этих данных:
 
-1. Открой [настройки профиля на сайте accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
+1. Откройте [настройки вашего профиля на сайте accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Uncheck **Data Collection and Use** > **Help improve Firefox Accounts**
 
 ##### Настройка рекламы для веб-сайтов
@@ -216,7 +216,7 @@ Firefox добавляет уникальный [маркер загрузки](
 
 #### Синхронизация
 
-[Синхронизация Firefox](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) даёт тебе доступ к данным твоего браузера (история, закладки и т.д.) на всех твоих устройствах и защищает их с помощью E2EE.
+[Синхронизация Firefox](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) позволяет получать доступ к данным вашего браузера (история, закладки и т.д.) на всех ваших устройствах и защищает их с использованием сквозного шифрования (E2EE).
 
 ### Arkenfox (дополнительно)
 
@@ -368,7 +368,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 #### Награды Brave и Кошелёк
 
-**Вознаграждение Brave** позволяет получать криптовалюту Basic Attention Token (BAT) за выполнение определенных действий в Brave. Она опирается на кастодиальный аккаунт и KYC от определенного числа провайдеров. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Вознаграждение Brave** позволяет получать криптовалюту Basic Attention Token (BAT) за выполнение определенных действий в Brave. Она опирается на кастодиальный аккаунт и KYC от определенного числа провайдеров. Мы не рекомендуем использовать BAT в качестве [конфиденциальной криптовалюты](cryptocurrency.md), также мы не рекомендуем использовать [кастодиальный кошелек](advanced/payments.md#wallet-custody), поэтому мы не советуем использовать эту функцию.
 
 **Кошелек Brave** работает локально на твоём компьютере, но не поддерживает никаких конфиденциальных криптовалют, поэтому мы бы не советовали использовать и эту функцию.
 
