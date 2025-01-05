@@ -4,14 +4,14 @@ icon: 'material/eye-outline'
 description: Модель угрозы уникальна для каждого, но здесь описаны некоторые из тех вещей, которые волнуют многих посетителей этого сайта.
 ---
 
-В широком смысле мы разделяем наши рекомендации по категориям [угроз](threat-modeling.md) или целей, которые применимы к большинству людей. ==Вас может волновать одна, несколько, все эти возможности или они могут не волновать вас вовсе==, и инструменты и услуги, которые вы используете, зависят от ваших целей. У тебя могут быть специфичные угрозы, не относящиеся к этим категориям, что определённо нормально! Важной частью является развитие понимания преимуществ и недостатков инструментов, которые ты решил использовать, потому что ни один из них не защитит тебя от всех угроз.
+В широком смысле мы разделяем наши рекомендации по категориям [угроз](threat-modeling.md) или целей, которые применимы к большинству людей. ==Вас может волновать одна, несколько, все эти возможности или они могут не волновать вас вовсе==, и инструменты и услуги, которые вы используете, зависят от ваших целей. У вас могут быть специфичные угрозы, не относящиеся к этим категориям, что определённо нормально! Важно понять преимущества и недостатки выбранных вами инструментов, потому что практически ни один из них не защитит вас от всех угроз.
 
 <span class="pg-purple">:material-incognito: **Анонимность**</span>
 :
 
 Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
 
-<span class="pg-red">:material-target-account: **Целевые атаки**</span>
+<span class="pg-red">:material-target-account: **Целенаправленные атаки**</span>
 :
 
 Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
@@ -95,7 +95,7 @@ Avoiding censored access to information or being censored yourself when speaking
 
 If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). Также следует убедиться, что диск зашифрован и что операционная система использует TPM или [Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) или [Secure Element](https://developers.google.com/android/security/android-ready-se) для ограничения количества попыток ввода парольной фразы шифрования. Вам следует избегать совместного использования компьютера с людьми, которым вы не доверяете, поскольку большинство настольных операционных систем не шифруют данные отдельно для каждого пользователя.
 
-## Attacks against Certain Organizations
+## Атаки на определённые организации
 
 <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>
 

@@ -1,5 +1,5 @@
 ---
-meta_title: The Best Custom Android OSes (aka Custom ROMs) - Privacy Guides
+meta_title: Лучшие кастомные прошивки Android - Privacy Guides
 title: Alternative Distributions
 description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
 schema:
@@ -22,23 +22,23 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-target-account: Целенаправленные атаки](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-bug-outline: Пассивные атаки](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 A **custom Android-based operating system** (often known as a **custom ROM**) is a popular way to achieve higher levels of privacy and security on your device. This is in contrast to the "stock" version of Android which comes with your phone from the factory, and is often deeply integrated with Google Play Services.
 
 We recommend installing one of these custom Android operating systems on your device, listed in order of preference, depending on your device's compatibility with these operating systems.
 
-## AOSP Derivatives
+## Основанные на AOSP
 
 ### GrapheneOS
 
 <div class="admonition recommendation" markdown>
 
-![GrapheneOS logo](../assets/img/android/grapheneos.svg#only-light){ align=right }
-![GrapheneOS logo](../assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
+![Логотип GrapheneOS](../assets/img/android/grapheneos.svg#only-light){ align=right }
+![Логотип GrapheneOS](../assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
 
-**GrapheneOS** is the best choice when it comes to privacy and security.
+**GrapheneOS** - лучший выбор, когда речь идет о конфиденциальности и безопасности.
 
 GrapheneOS provides additional [security hardening](https://en.wikipedia.org/wiki/Hardening_\(computing\)) and privacy improvements. It has a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), network and sensor permissions, and various other [security features](https://grapheneos.org/features). GrapheneOS also comes with full firmware updates and signed builds, so verified boot is fully supported.
 
@@ -60,13 +60,13 @@ If you want to hide information like this from an adversary on your network or I
 
 ## Критерии
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Перед тем, как вы решите выбрать какой-либо проект, мы рекомендуем вам ознакомиться со списком критериев и провести собственное исследование, чтобы убедиться в правильности своего выбора.
+**Важно отметить, что мы не связаны с каким-либо проектом, который мы рекомендуем.** В дополнение к [нашим стандартным критериям](../about/criteria.md), мы разработали чёткий набор требований, обеспечивающий объективность наших рекомендаций. Перед тем, как вы решите выбрать какой-либо проект, мы рекомендуем вам ознакомиться со списком критериев и провести собственное исследование, чтобы убедиться в правильности своего выбора.
 
-- Должно иметь открытый исходный код.
-- Must support bootloader locking with custom AVB key support.
-- Must receive major Android updates within 0-1 months of release.
-- Must receive Android feature updates (minor version) within 0-14 days of release.
-- Must receive regular security patches within 0-5 days of release.
-- Must **not** be "rooted" out of the box.
-- Must **not** enable Google Play Services by default.
-- Must **not** require system modification to support Google Play Services.
+- Должна иметь открытый исходный код.
+- Должна поддерживать блокировку загрузчика с использованием кастомного ключа AVB.
+- Должна получать основные обновления Android в течение 0-1 месяца после релиза.
+- Должна получать обновления функций Android (минорные версии) в течение 0-14 дней после релиза.
+- Должна регулярно получать патчи безопасности в течение 0-5 дней после релиза.
+- По умолчанию root-доступ должен быть **выключен**.
+- По умолчанию Google Play Services должны быть **выключены**.
+- Система должна быть совместима с Google Play Services **без необходимости** в дополнительных модификациях.
