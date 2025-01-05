@@ -6,12 +6,12 @@ description: Модель угрозы уникальна для каждого,
 
 В широком смысле мы разделяем наши рекомендации по категориям [угроз](threat-modeling.md) или целей, которые применимы к большинству людей. ==Вас может волновать одна, несколько, все эти возможности или они могут не волновать вас вовсе==, и инструменты и услуги, которые вы используете, зависят от ваших целей. У тебя могут быть специфичные угрозы, не относящиеся к этим категориям, что определённо нормально! Важной частью является развитие понимания преимуществ и недостатков инструментов, которые ты решил использовать, потому что ни один из них не защитит тебя от всех угроз.
 
-<span class="pg-purple">:material-incognito: **Anonymity**</span>
+<span class="pg-purple">:material-incognito: **Анонимность**</span>
 :
 
 Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
 
-<span class="pg-red">:material-target-account: **Targeted Attacks**</span>
+<span class="pg-red">:material-target-account: **Целевые атаки**</span>
 :
 
 Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
@@ -21,32 +21,32 @@ Being protected from hackers or other malicious actors who are trying to gain ac
 
 Typically a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
 
-<span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
+<span class="pg-orange">:material-bug-outline: **Пассивные атаки**</span>
 :
 
 Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
 
-<span class="pg-teal">:material-server-network: **Service Providers**</span>
+<span class="pg-teal">:material-server-network: **Поставщики услуг**</span>
 :
 
 Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
 
-<span class="pg-blue">:material-eye-outline: **Mass Surveillance**</span>
+<span class="pg-blue">:material-eye-outline: **Массовое наблюдение**</span>
 :
 
 Protection from government agencies, organizations, websites, and services which work together to track your activities.
 
-<span class="pg-brown">:material-account-cash: **Surveillance Capitalism**</span>
+<span class="pg-brown">:material-account-cash: **Капитализм слежки**</span>
 :
 
 Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
 
-<span class="pg-green">:material-account-search: **Public Exposure**</span>
+<span class="pg-green">:material-account-search: **Публичная экспозиция**</span>
 :
 
 Limiting the information about you that is accessible online—to search engines or the general public.
 
-<span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
+<span class="pg-blue-gray">:material-close-outline: **Цензура**</span>
 :
 
 Avoiding censored access to information or being censored yourself when speaking online.
@@ -72,7 +72,7 @@ Avoiding censored access to information or being censored yourself when speaking
 Чтобы минимизировать возможный ущерб, которое *может* причинить вредоносное ПО, следует использовать защиту путём разделения. К примеру, это может выражаться в использовании разных компьютеров для разных задач, использовании виртуальных машин для разделения различных групп связанных приложений или использовании безопасной операционной системы с сильным акцентом на "песочницу" приложений и обязательный контроль доступа.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">Совет</p>
 
 Мобильные операционные системы, как правило, имеют лучшую "песочницу" для приложений, чем настольные операционные системы: приложения не могут получить root-доступ и требуют разрешения на доступ к системным ресурсам.
 
@@ -87,7 +87,7 @@ Avoiding censored access to information or being censored yourself when speaking
 С целенаправленными атаками на конкретного человека бороться сложнее. К распространенным атакам относятся рассылка вредоносных документов по электронной почте, использование уязвимостей (например, в браузерах и операционных системах) и физические атаки. Если это вас беспокоит, вам следует использовать более продвинутые стратегии защиты от угроз.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">Совет</p>
 
 По своей конструкции **веб-браузеры**, **почтовые клиенты** и **офисные приложения** обычно выполняют ненадёжный код, переданный вам третьими лицами. Запуск нескольких виртуальных машин для отделения подобных приложений от хост-системы, а также друг от друга - это одна из техник, которую можно использовать для снижения вероятности того, что эксплойт в этих приложениях скомпрометирует остальную часть вашей системы. Например, такие технологии, как Qubes OS или Microsoft Defender Application Guard в Windows, предоставляют удобные методы для этого.
 
@@ -102,7 +102,7 @@ If you are concerned about **physical attacks** you should use an operating syst
 Supply chain attacks are frequently a form of <span class="pg-red">:material-target-account: Targeted Attack</span> towards businesses, governments, and activists, although they can end up compromising the public at large as well.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example</p>
+<p class="admonition-title">Пример</p>
 
 A notable example of this occurred in 2017 when M.E.Doc, a popular accounting software in Ukraine, was infected with the *NotPetya* virus, subsequently infecting people who downloaded that software with ransomware. NotPetya itself was a ransomware attack which impacted 2000+ companies in various countries, and was based on the *EternalBlue* exploit developed by the NSA to attack Windows computers over the network.
 
@@ -133,7 +133,7 @@ These sorts of attacks can require a lot of time and preparation to perform and 
 К счастью, сквозное шифрование (далее - E2EE) может облегчить эту проблему, шифруя сообщения между вами и желаемыми получателями еще до того, как они будут отправлены на сервер. Конфиденциальность ваших сообщений гарантирована при условии, что поставщик услуг не имеет доступа к закрытым ключам ни одной из сторон.
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note on Web-based Encryption</p>
+<p class="admonition-title">Примечание о веб-шифровании</p>
 
 На практике эффективность различных реализаций E2EE может варьироваться. Приложения, такие как [Signal](../real-time-communication.md#signal), работают на вашем устройстве, и каждая копия приложения является одинаковой при различных установках. Если поставщик услуг внедрит [backdoor](https://ru.wikipedia.org/wiki/%D0%91%D1%8D%D0%BA%D0%B4%D0%BE%D1%80) в свое приложение - в попытке украсть ваши закрытые ключи - это можно будет обнаружить с помощью [reverse engineering](https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D0%B0%D1%8F_%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%BA%D0%B0).
 
@@ -214,7 +214,7 @@ If you're concerned about mass surveillance programs, you can use strategies lik
 Люди, обеспокоенные угрозой цензуры, могут использовать такие технологии, как [Tor](../advanced/tor-overview.md), чтобы обойти ее, и поддерживать устойчивые к цензуре платформы для общения, такие как [Matrix](../real-time-communication.md#element), где нет централизованного органа, который может произвольно закрыть учетные записи.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">Совет</p>
 
 Хотя уклонение от цензуры само по себе может быть легким, скрыть тот факт, что вы это делаете, может быть очень проблематично.
 
@@ -228,4 +228,4 @@ If you're concerned about mass surveillance programs, you can use strategies lik
 [^2]: Совет по надзору за соблюдением конфиденциальности и гражданских свобод США: [*Отчет о программе записи телефонных разговоров, проводимой в соответствии с разделом 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: Wikipedia: [*Surveillance capitalism*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
 [^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. Вы также должны использовать другие методы смягчения последствий.
-[^5]: United Nations: [*Universal Declaration of Human Rights*](https://un.org/en/about-us/universal-declaration-of-human-rights).
+[^5]: Организация Объединенных Наций: [*Всеобщая декларация прав человека*](https://un.org/en/about-us/universal-declaration-of-human-rights).

@@ -161,7 +161,7 @@ IVPN прошла [аудит отсутствия логов от Cure53](https
 
 #### :material-check:{ .pg-green } Клиенты с открытым исходным кодом
 
-As of February 2020 [IVPN applications are now open source](https://ivpn.net/blog/ivpn-applications-are-now-open-source). Исходный код можно получить из их [репозиториев на GitHub](https://github.com/ivpn).
+С февраля 2020 года [приложения IVPN перешли на открытый исходный код](https://ivpn.net/blog/ivpn-applications-are-now-open-source). Исходный код можно получить из их [репозиториев на GitHub](https://github.com/ivpn).
 
 #### :material-check:{ .pg-green } Принимает наличные и Monero
 
@@ -175,7 +175,7 @@ IVPN [recommends](https://ivpn.net/wireguard) the use of WireGuard with their se
 
 #### :material-information-outline:{ .pg-blue } Поддержка IPv6
 
-IVPN allows you to [connect to services using IPv6](https://ivpn.net/knowledgebase/general/do-you-support-ipv6) but doesn't allow you to connect from a device using an IPv6 address.
+IVPN позволяет [подключаться к сервисам, использующим IPv6](https://ivpn.net/knowledgebase/general/do-you-support-ipv6), но не позволяет подключаться с устройства, использующего IPv6-адрес.
 
 #### :material-alert-outline:{ .pg-orange } Удалённая переадресация портов
 
@@ -262,7 +262,7 @@ Mullvad позволяет [получить доступ к сервисам, �
 
 #### :material-alert-outline:{ .pg-orange } Удаленная переадресация портов
 
-Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports). Отсутствие этой функции может негативно сказаться на некоторых приложениях, особенно на пиринговых приложениях, таких как торрент-клиенты.
+Ранее Mullvad поддерживал переадресацию портов, но в [мае 2023 года](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports) эта возможность была убрана. Отсутствие этой функции может негативно сказаться на некоторых приложениях, особенно на пиринговых приложениях, таких как торрент-клиенты.
 
 #### :material-check:{ .pg-green } Борьба с цензурой
 
@@ -275,11 +275,11 @@ Mullvad offers several features to help bypass censorship and access the interne
 
 #### :material-check:{ .pg-green } Приложения для смартфонов
 
-Mullvad has published [App Store](https://apps.apple.com/app/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. Клиент для Android также доступен на [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
+Оба клиента Mullvad в [App Store](https://apps.apple.com/app/id1488466513) и [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) поддерживают простой в использовании интерфейс, в противовес ручной настройке соединения WireGuard. Клиент для Android также доступен на [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
 
 #### :material-information-outline:{ .pg-blue } Дополнительные замечания
 
-Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers). They also provide the option to enable Defense Against AI-guided Traffic Analysis ([DAITA](https://mullvad.net/en/blog/daita-defense-against-ai-guided-traffic-analysis)) in their apps. DAITA protects against the threat of advanced traffic analysis which can be used to connect patterns in VPN traffic with specific websites.
+Mullvad очень открыт в отношении того, какими узлами [владеет или арендует](https://mullvad.net/en/servers). Он также предоставляет возможность включить в своих приложениях Защиту от ИИ-анализа трафика [(DAITA](https://mullvad.net/en/blog/daita-defense-against-ai-guided-traffic-analysis)). DAITA защищает от угрозы продвинутого анализа трафика, который может быть использован для связи шаблонов в VPN трафике с определёнными веб-сайтами.
 
 ## Критерии
 
