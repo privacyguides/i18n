@@ -109,7 +109,7 @@ Another consideration is legal liability. The exit node will need to deal with l
 
 Many dVPNs are used to push a cryptocurrency rather than to make the best service. They also tend to be smaller networks with fewer nodes, making them more vulnerable to [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack).
 
-## Связанная информация о VPN
+## Больше информации о VPN
 
 - [The Trouble with VPN and Privacy Review Sites](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites)
 - [Free VPN App Investigation](https://top10vpn.com/research/free-vpn-investigations/ownership)
