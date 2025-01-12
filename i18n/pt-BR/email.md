@@ -306,11 +306,11 @@ Consideramos esses recursos importantes para fornecer um serviço seguro e otimi
 - Criptografa todos os dados da conta (contatos, calendários, etc.) em repouso com criptografia de acesso zero.
 - Criptografia E2EE/PGP integrada de webmail fornecido como conveniência.
 - Suporte ao [WKD](https://wiki.gnupg.org/WKD) para permitir a descoberta aprimorada de chaves OpenPGP públicas via HTTP. Usuários do GnuPG podem obter uma chave digitando: `gpg --locate-key example_user@example.com`
-- Suporte para uma caixa de correio temporária para usuários externos. Isso é útil quando você deseja enviar um e-mail criptografado sem enviar uma cópia real para o seu destinatário. Estes e-mails geralmente têm um tempo de vida limitado e depois são automaticamente excluídos. They also don't require the recipient to configure any cryptography like OpenPGP.
-- Availability of the email provider's services via an [onion service](https://en.wikipedia.org/wiki/.onion).
-- [Sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) support.
-- Catch-all or alias functionality for those who use their own domains.
-- Use of standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
+- Suporte para uma caixa de correio temporária para usuários externos. Isso é útil quando você deseja enviar um e-mail criptografado sem enviar uma cópia real para o seu destinatário. Estes e-mails geralmente têm um tempo de vida limitado e depois são automaticamente excluídos. Eles também não exigem que o destinatário configure nenhuma criptografia, como o OpenPGP.
+- Disponibilidade do site do provedor de serviços de e-mail em um [serviço onion](https://en.wikipedia.org/wiki/.onion).
+- Suporte a [subendereçamento](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
+- Funcionalidade de alias ou catch-all para aqueles que usam seus próprios domínios.
+- Uso de protocolos padrão de acesso a e-mail, como IMAP, SMTP ou [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Os protocolos de acesso padrão garantem que os clientes possam baixar facilmente todos os seus e-mails, caso queiram mudar para outro provedor.
 
 ### Privacidade
 
@@ -318,51 +318,51 @@ Preferimos que nossos provedores recomendados coletem o mínimo possível de dad
 
 **Mínimo Para Qualificação:**
 
-- Protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
-- Don't require personally identifiable information (PII) besides a username and a password.
-- Privacy policy that meets the requirements defined by the GDPR.
+- Protege o endereço IP do remetente, o que pode envolver a filtragem de sua exibição no campo de cabeçalho `Received`.
+- Não exige informações de identificação pessoal (PII) além de um nome de usuário e uma senha.
+- Política de privacidade que atende aos requisitos definidos pelo GDPR.
 
 **Melhor Caso:**
 
 - Aceita [opções de pagamento anônimas](advanced/payments.md) ([criptomoedas](cryptocurrency.md), dinheiro, cartões-presente, etc.)
-- Hosted in a jurisdiction with strong email privacy protection laws.
+- Hospedado em uma jurisdição com fortes leis de proteção de privacidade de e-mail.
 
 ### Segurança
 
-Email servers deal with a lot of very sensitive data. We expect that providers will adopt best industry practices in order to protect their customers.
+Os servidores de e-mail lidam com uma grande quantidade de dados muito confidenciais. Esperamos que os provedores adotem as melhores práticas do setor para proteger seus clientes.
 
 **Mínimo Para Qualificação:**
 
-- Protection of webmail with 2FA, such as TOTP.
-- Zero access encryption, which builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
-- [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) support.
-- No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
-- A server suite preference (optional on TLSv1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
-- A valid [MTA-STS](https://tools.ietf.org/html/rfc8461) and [TLS-RPT](https://tools.ietf.org/html/rfc8460) policy.
-- Valid [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) records.
-- Valid [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) records.
-- Have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. If DMARC authentication is being used, the policy must be set to `reject` or `quarantine`.
-- A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
-- [SMTPS](https://en.wikipedia.org/wiki/SMTPS) submission, assuming SMTP is used.
-- Website security standards such as:
-    - [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
-    - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
-- Must support viewing of [message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
+- Proteção do webmail com 2FA, como TOTP.
+- Criptografia de acesso zero, que se baseia na criptografia em repouso. O provedor não tem as chaves de descriptografia dos dados que possui. Isso evita que um funcionário desonesto vaze os dados aos quais tem acesso ou que um adversário remoto libere os dados que roubou ao obter acesso não autorizado ao servidor.
+- Suporte a [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions).
+- Nenhum erro ou vulnerabilidade de TLS ao ser analisado por ferramentas como [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh) ou [Qualys SSL Labs](https://ssllabs.com/ssltest); isso inclui erros relacionados a certificados e parâmetros DH fracos, como os que levaram ao [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
+- Uma preferência de suite de servidor (opcional em TLSv1.3) para suites de cifragem fortes que suportam encaminhamento de sigilo e criptografia autenticada.
+- Uma política válida de [MTA-STS](https://tools.ietf.org/html/rfc8461) e [TLS-RPT](https://tools.ietf.org/html/rfc8460).
+- Registros [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) válidos.
+- Registros [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) e [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) válidos.
+- Tenha um registro e uma política [DMARC](https://en.wikipedia.org/wiki/DMARC) adequados ou use o [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) para autenticação. Se a autenticação DMARC estiver sendo usada, a política deve ser definida como `rejeitar` ou `em quarentena`.
+- Uma preferência de suíte de servidor de TLS 1.2 ou posterior e um plano para [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
+- Envio [SMTPS](https://en.wikipedia.org/wiki/SMTPS), assumindo que o SMTP seja usado.
+- Padrões de segurança do site, como:
+    - [HTTP Segurança de Transporte Estrita](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
+    - [Integridade do sub-recurso](https://en.wikipedia.org/wiki/Subresource_Integrity) se estiver carregando coisas de domínios externos.
+- Deve suportar a visualização de [cabeçalhos de mensagens](https://en.wikipedia.org/wiki/Email#Message_header), pois esse é um recurso forense crucial para determinar se um e-mail é uma tentativa de phishing.
 
 **Melhor Caso:**
 
-- Support for hardware authentication, i.e. U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
-- [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
-- Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
+- Suporte para autenticação de hardware, isto é. U2F e [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
+- [Registro de recurso de autorização de autoridade de certificação (CAA) do DNS](https://tools.ietf.org/html/rfc6844), além do suporte a DANE.
+- Implementação do [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), que é útil para pessoas que postam em listas de discussão [RFC8617](https://tools.ietf.org/html/rfc8617).
 - Auditorias de segurança publicadas por uma empresa terceirizada de boa reputação.
 - Programas de recompensa por bugs e/ou um processo coordenado de divulgação de vulnerabilidades.
-- Website security standards such as:
-    - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
+- Padrões de segurança do site, tais como:
+    - [Política de segurança de conteúdo (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
     - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163)
 
 ### Confiança
 
-You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? Exigimos que nossos provedores recomendados sejam transparentes quanto a seus proprietários ou lideranças. Também esperamos ver relatórios de transparência frequentes, especialmente com relação à forma como as solicitações do governo são tratadas.
+Você não confiaria suas finanças a alguém com uma identidade falsa, então por que confiar seu e-mail a essa pessoa? Exigimos que nossos provedores recomendados sejam transparentes quanto a seus proprietários ou lideranças. Também esperamos ver relatórios de transparência frequentes, especialmente com relação à forma como as solicitações do governo são tratadas.
 
 **Mínimo Para Qualificação:**
 
@@ -374,24 +374,24 @@ You wouldn't trust your finances to someone with a fake identity, so why trust t
 
 ### Marketing
 
-With the email providers we recommend, we like to see responsible marketing.
+Com os provedores de e-mail que recomendamos, gostamos de ver um marketing responsável.
 
 **Mínimo Para Qualificação:**
 
-- Must self-host analytics (no Google Analytics, Adobe Analytics, etc.). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt out.
+- É necessário hospedar análises (sem Google Analytics, Adobe Analytics, etc.). O site do provedor também deve estar em conformidade com o [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) para aqueles que desejarem desativá-lo.
 
-Must not have any irresponsible marketing, which can include the following:
+Não deve haver qualquer marketing irresponsável, o que pode incluir o seguinte:
 
-- Claims of "unbreakable encryption." Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
-- Garantir 100% de proteção ao anonimato. When someone makes a claim that something is 100% it means there is no certainty for failure. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
+- Alegações de "criptografia inquebrável" A criptografia deve ser utilizada com a intenção de não ser secreta no futuro quando a tecnologia para quebra-lá existir.
+- Garantir 100% de proteção ao anonimato. Quando alguém afirma que algo é 100%, significa que não há certeza de fracasso. Sabemos que as pessoas podem facilmente se desanonimizar de várias maneiras, por exemplo:
 
-    - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
+    - Reutilização de informações pessoais, por exemplo, (contas de e-mail, pseudônimos exclusivos etc.) que eles acessaram sem software de anonimato (Tor, I2P, VPN etc.)
     - [Impressão digital do navegador](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **Melhor Caso:**
 
-- Clear and easy to read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
+- Limpar e ler facilmente a documentação de tarefas como a configuração do 2FA, clientes de e-mail, OpenPGP, etc.
 
 ### Funções Adicionais
 
-While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.
+Embora não sejam requisitos estritos, há outros fatores de conveniência ou privacidade que analisamos ao determinar quais provedores recomendar.
