@@ -1,8 +1,8 @@
 ---
-meta_title: "Recommended AI Chat: Private ChatGPT Alternatives - Privacy Guides"
-title: AI Chat
+meta_title: "Chat IA Recomendado: Alternativas Privadas a ChatGPT - Privacy Guides"
+title: Chat IA
 icon: material/assistant
-description: Unlike OpenAI's ChatGPT and its Big Tech competitors, these AI tools run locally so your data never leaves your desktop device.
+description: A diferencia de ChatGPT de OpenAI y sus competidores de los gigantes tecnológicos, estas herramientas de IA se ejecutan localmente, por lo que tus datos nunca salen de tu dispositivo de escritorio.
 cover: ai-chatbots.webp
 ---
 
@@ -10,52 +10,52 @@ cover: ai-chatbots.webp
 
 - [:material-server-network: Proveedores de Servicios](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 - [:material-account-cash: Capitalismo de Vigilancia](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
-- [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
+- [:material-close-outline: Censura](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 
-Since the release of ChatGPT in 2022, interactions with Large Language Models (LLMs) have become increasingly common. LLMs can help us write better, understand unfamiliar subjects, or answer a wide range of questions. They can statistically predict the next word based on a vast amount of data scraped from the web.
+Desde el lanzamiento de ChatGPT en 2022, las interacciones con grandes modelos lingüísticos (LLM) son cada vez más frecuentes. Los LLM pueden ayudarnos a escribir mejor, a comprender temas desconocidos o a responder a una amplia gama de preguntas. Pueden predecir estadísticamente la siguiente palabra basándose en una gran cantidad de datos extraídos de Internet.
 
-## Privacy Concerns About LLMs
+## Preocupaciones por la Privacidad de los LLM
 
-Data used to train AI models, however, includes a massive amount of publicly available data scraped from the web, which can include sensitive information like names and addresses. Cloud-based AI software often [collects your inputs](https://openai.com/policies/row-privacy-policy), meaning your chats are not private from them. This practice also introduces a risk of data breaches. Furthermore, there is a real possibility that an LLM will leak your private chat information in future conversations with other users.
+Sin embargo, los datos utilizados para entrenar modelos de IA incluyen una enorme cantidad de datos públicos extraídos de Internet, que pueden incluir información confidencial como nombres y direcciones. El software de IA basado en la nube a menudo [recopila tus entradas](https://openai.com/policies/row-privacy-policy), lo que significa que tus chats no son privados frente a ellos. Esta práctica también introduce un riesgo de violación de datos. Además, existe la posibilidad real de que un LLM filtre tu información privada del chat en futuras conversaciones con otros usuarios.
 
-If you are concerned about these practices, you can either refuse to use AI, or use [truly open-source models](https://proton.me/blog/how-to-build-privacy-first-ai) which publicly release and allow you to inspect their training datasets. One such model is [OLMoE](https://allenai.org/blog/olmoe-an-open-small-and-state-of-the-art-mixture-of-experts-model-c258432d0514) made by [Ai2](https://allenai.org/open-data).
+Si te preocupan estas prácticas, puedes negarte a usar la IA o usar [modelos verdaderamente de código abierto](https://proton.me/blog/how-to-build-privacy-first-ai) que publican y te permiten inspeccionar sus conjuntos de datos de entrenamiento. Uno de estos modelos es [OLMoE](https://allenai.org/blog/olmoe-an-open-small-and-state-of-the-art-mixture-of-experts-model-c258432d0514) hecho por [Ai2](https://allenai.org/open-data).
 
-Alternatively, you can run AI models locally so that your data never leaves your device and is therefore never shared with third parties. As such, local models are a more private and secure alternative to cloud-based solutions and allow you to share sensitive information to the AI model without worry.
+Alternativamente, puedes ejecutar modelos de IA localmente para que tus datos nunca salgan de tu dispositivo y, por lo tanto, nunca se compartan con terceros. Como tales, los modelos locales son una alternativa más privada y segura que las soluciones basadas en la nube y permiten compartir información sensible con el modelo de IA sin preocupaciones.
 
-## AI Models
+## Modelos de IA
 
-### Hardware for Local AI Models
+### Hardware para Modelos Locales de IA
 
-Local models are also fairly accessible. It's possible to run smaller models at lower speeds on as little as 8GB of RAM. Using more powerful hardware such as a dedicated GPU with sufficient VRAM or a modern system with fast LPDDR5X memory offers the best experience.
+Los modelos locales también son bastante accesibles. Es posible ejecutar modelos más pequeños a velocidades inferiores con tan solo 8 GB de RAM. Utilizar un hardware más potente, como una GPU dedicada con suficiente VRAM o un sistema moderno con memoria LPDDR5X rápida, ofrece la mejor experiencia.
 
-LLMs can usually be differentiated by the number of parameters, which can vary between 1.3B to 405B for open-source models available for end users. For example, models below 6.7B parameters are only good for basic tasks like text summaries, while models between 7B and 13B are a great compromise between quality and speed. Models with advanced reasoning capabilities are generally around 70B.
+Los LLM suelen diferenciarse por el número de parámetros, que pueden variar entre 1,3B y 405B para los modelos de código abierto disponibles para los usuarios finales. Por ejemplo, los modelos con parámetros inferiores a 6,7B sólo son buenos para tareas básicas como resúmenes de texto, mientras que los modelos entre 7B y 13B son un gran compromiso entre calidad y velocidad. Los modelos con capacidades de razonamiento avanzadas suelen rondar los 70B.
 
-For consumer-grade hardware, it is generally recommended to use [quantized models](https://huggingface.co/docs/optimum/en/concept_guides/quantization) for the best balance between model quality and performance. Check out the table below for more precise information about the typical requirements for different sizes of quantized models.
+Para el hardware de consumo personal, generalmente se recomienda utilizar [modelos cuantizados] (https://huggingface.co/docs/optimum/en/concept_guides/quantization) para obtener el mejor equilibrio entre la calidad del modelo y el rendimiento. Echa un vistazo a la tabla de abajo para obtener información más precisa sobre los requerimientos típicos de diferentes tamaños de modelos cuantificados.
 
-| Model Size (in Parameters) | Minimum RAM | Minimum Processor                            |
-| --------------------------------------------- | ----------- | -------------------------------------------- |
-| 7B                                            | 8GB         | Modern CPU (AVX2 support) |
-| 13B                                           | 16GB        | Modern CPU (AVX2 support) |
-| 70B                                           | 72GB        | GPU with VRAM                                |
+| Tamaño del Modelo (en Parámetros) | RAM Mínima | Procesador Mínimo                                    |
+| ---------------------------------------------------- | ---------- | ---------------------------------------------------- |
+| 7B                                                   | 8 GB       | CPU Moderna (compatible con AVX2) |
+| 13B                                                  | 16 GB      | CPU Moderna (compatible con AVX2) |
+| 70B                                                  | 72 GB      | GPU con VRAM                                         |
 
-To run AI locally, you need both an AI model and an AI client.
+Para ejecutar IA localmente, se necesita tanto un modelo de IA como un cliente de IA.
 
-### Choosing a Model
+### Elegir un Modelo
 
-There are many permissively licensed models available to download. [Hugging Face](https://huggingface.co/models) is a platform that lets you browse, research, and download models in common formats like [GGUF](https://huggingface.co/docs/hub/en/gguf). Companies that provide good open-weights models include big names like Mistral, Meta, Microsoft, and Google. However, there are also many community models and 'fine-tunes' available. As mentioned above, quantized models offer the best balance between model quality and performance for those using consumer-grade hardware.
+Hay muchos modelos con licencia permisiva disponibles para descargar. [Hugging Face](https://huggingface.co/models) es una plataforma que te permite navegar, investigar y descargar modelos en formatos comunes como [GGUF](https://huggingface.co/docs/hub/en/gguf). Entre las empresas que ofrecen buenos modelos open-weights figuran grandes nombres como Mistral, Meta, Microsoft y Google. Sin embargo, también hay muchos modelos comunitarios y «fine-tunes» disponibles. Como ya se ha mencionado, los modelos cuantificados ofrecen el mejor equilibrio entre calidad de modelo y rendimiento para quienes utilizan hardware de consumo personal.
 
-To help you choose a model that fits your needs, you can look at leaderboards and benchmarks. The most widely-used leaderboard is the community-driven [LM Arena](https://lmarena.ai). Additionally, the [OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) focuses on the performance of open-weights models on common benchmarks like [MMLU-Pro](https://arxiv.org/abs/2406.01574).  There are also specialized benchmarks which measure factors like [emotional intelligence](https://eqbench.com), ["uncensored general intelligence"](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard), and [many others](https://www.nebuly.com/blog/llm-leaderboards).
+Para ayudarte a elegir un modelo que se adapte a tus necesidades, puedes consultar tablas de clasificación y puntos de referencia. La tabla de clasificación más utilizada es la de la comunidad [LM Arena](https://lmarena.ai). Además, la [OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) se centra en el rendimiento de los modelos de ponderación abierta en puntos de referencia comunes como [MMLU-Pro](https://arxiv.org/abs/2406.01574).  También existen puntos de referencia especializados que miden factores como [inteligencia emocional](https://eqbench.com), [«inteligencia general no censurada»](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard), y [muchos otros](https://www.nebuly.com/blog/llm-leaderboards).
 
-## AI Chat Clients
+## Clientes de Chat IA
 
-| Feature              | [Kobold.cpp](#koboldcpp)                                      | [Ollama](#ollama-cli)                                                         | [Llamafile](#llamafile)                                                                                            |
-| -------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| GPU Support          | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-check:{ .pg-green }                                      |
-| Image Generation     | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-close:{ .pg-red }                                        |
-| Speech Recognition   | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-close:{ .pg-red }                                        |
-| Auto-download Models | :material-close:{ .pg-red }   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Few models available        |
-| Custom Parameters    | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-check:{ .pg-green }                                      |
-| Multiplataforma      | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Size limitations on Windows |
+| Característica            | [Kobold.cpp](#koboldcpp)                                      | [Ollama](#ollama-cli)                                                         | [Llamafile](#llamafile)                                                                                                  |
+| ------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Soporte de GPU            | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-check:{ .pg-green }                                            |
+| Generación de Imágenes    | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-close:{ .pg-red }                                              |
+| Reconocimiento de Voz     | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-close:{ .pg-red }                                              |
+| Modelos de Autodescarga   | :material-close:{ .pg-red }   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Pocos modelos disponibles         |
+| Parámetros Personalizados | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-check:{ .pg-green }                                            |
+| Multiplataforma           | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Limitaciones de tamaño en Windows |
 
 ### Kobold.cpp
 

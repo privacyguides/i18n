@@ -65,21 +65,21 @@ Las monedas de privacidad han sido objeto de un creciente escrutinio por parte d
 
 ### Otras Monedas (Bitcoin, Ethereum, etc.)
 
-The vast majority of cryptocurrency projects use a transparent blockchain, meaning that all transactions are both easily traceable and permanent. Por ello, desaconsejamos encarecidamente el uso de la mayoría de las criptomonedas por motivos relacionados con la privacidad.
+La gran mayoría de los proyectos de criptomonedas utilizan una blockchain transparente, lo que significa que todas las transacciones son fácilmente rastreables y permanentes. Por ello, desaconsejamos encarecidamente el uso de la mayoría de las criptomonedas por motivos relacionados con la privacidad.
 
-Anonymous transactions on a transparent blockchain are *theoretically* possible, and the Bitcoin wiki [gives one example of a "completely anonymous" transaction](https://en.bitcoin.it/wiki/Privacy#Example_-_A_perfectly_private_donation). However, this example requires a complicated setup involving Tor and "solo-mining" a block to generate completely independent cryptocurrency, a practice which has not been practical (even for enthusiasts) for many years.
+Las transacciones anónimas en una blockchain transparente son *teóricamente* posibles, y la wiki de Bitcoin [ofrece un ejemplo de transacción «completamente anónima»](https://en.bitcoin.it/wiki/Privacy#Example_-_A_perfectly_private_donation). Sin embargo, este ejemplo requiere una complicada configuración que implica Tor y la «minería en solitario» de un bloque para generar criptomonedas completamente independientes, una práctica que no ha sido práctica (ni siquiera para los entusiastas) durante muchos años.
 
 ==Tu mejor opción es evitar estas criptomonedas por completo y quedarse con una que proporcione privacidad por defecto.== Intentar utilizar otra criptomoneda está fuera del alcance de este sitio y se desaconseja encarecidamente.
 
 ### Custodia de Carteras
 
-With cryptocurrency there are two forms of wallets: custodial wallets and self-custody wallets. Los monederos custodiados son operados por empresas/intercambios centralizados, donde la clave privada de tu monedero la tiene esa empresa, y puedes acceder a ellos desde cualquier lugar normalmente con un nombre de usuario y contraseña normales. Self-custody wallets are wallets where you control and manage the private keys to access it. Assuming you keep your wallet's private keys secured and backed up, self-custody wallets provide greater security and censorship-resistance over custodial wallets, because your cryptocurrency can't be stolen or frozen by a company with custody over your private keys. La custodia de claves es especialmente importante cuando se trata de monedas con privacidad: Los monederos de custodia conceden a la empresa operadora la capacidad de ver tus transacciones, anulando los beneficios de privacidad de esas criptodivisas.
+En el caso de las criptomonedas existen dos tipos de monederos: los monederos de custodia y los monederos de autocustodia. Los monederos custodiados son operados por empresas/intercambios centralizados, donde la clave privada de tu monedero la tiene esa empresa, y puedes acceder a ellos desde cualquier lugar normalmente con un nombre de usuario y contraseña normales. Los monederos de autocustodia son monederos en los que tú controlas y gestionas las claves privadas para acceder a ellos. Asumiendo que mantienes las claves privadas de tu monedero seguras y con copias de seguridad, los monederos de autocustodia proporcionan mayor seguridad y resistencia a la censura que los monederos de custodia, porque tu criptomoneda no puede ser robada o congelada por una empresa que tenga la custodia de tus claves privadas. La custodia de claves es especialmente importante cuando se trata de monedas con privacidad: Los monederos de custodia conceden a la empresa operadora la capacidad de ver tus transacciones, anulando los beneficios de privacidad de esas criptodivisas.
 
 ### Adquisición
 
-Adquirir [criptomonedas](../cryptocurrency.md) como Monero de forma privada puede ser difícil. P2P marketplaces (platforms which facilitate trades between people) are one option, though the user experience typically suffers. If using an exchange which requires KYC is acceptable for you as long as subsequent transactions can't be traced, it's much easier to purchase Monero on a centralized exchange or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. Then, you can withdraw the purchased Monero to your own self-custody wallet to use privately from that point forward.
+Adquirir [criptomonedas](../cryptocurrency.md) como Monero de forma privada puede ser difícil. Los mercados P2P (plataformas que facilitan el comercio entre personas) son una opción, aunque la experiencia del usuario suele resentirse. Si el uso de un intercambio que requiere KYC es aceptable para ti, siempre y cuando las transacciones posteriores no puedan ser rastreadas, es mucho más fácil comprar Monero en un intercambio centralizado o comprar Bitcoin/Litecoin de un intercambio KYC que luego se puede cambiar por Monero. A continuación, puedes retirar el Monero comprado a tu propio monedero de autocustodia para utilizarlo de forma privada a partir de ese momento.
 
-[Recommended places to buy Monero](../cryptocurrency.md#buying-monero ""){.md-button}
+[Lugares recomendados para comprar Monero](../cryptocurrency.md#buying-monero ""){.md-button}
 
 Si sigues este camino, asegúrate de comprar Monero en momentos diferentes y en cantidades distintas a las que lo gastarás. Si compras 5.000 dólares de Monero en una bolsa y haces una compra de 5.000 dólares en Monero una hora más tarde, esas acciones podrían ser potencialmente correlacionadas por un observador externo independientemente del camino que haya tomado el Monero. Escalonar las compras y adquirir grandes cantidades de Monero por adelantado para luego gastarlas en múltiples transacciones más pequeñas puede evitar este escollo.
 
@@ -90,8 +90,8 @@ Cuando hagas un pago en persona con efectivo, asegúrate de tener en cuenta tu p
 Al comprar en línea, lo ideal sería que lo hicieras a través de [Tor](tor-overview.md). Sin embargo, muchos comerciantes no permiten las compras con Tor. Puedes considerar utilizar una [VPN recomendada](../vpn.md) (pagada con dinero en efectivo, tarjeta regalo o Monero), o hacer la compra desde una cafetería o biblioteca con Wi-Fi gratuito. Si vas a pedir un artículo físico que necesita ser entregado, tendrás que facilitar una dirección de entrega. Considera la posibilidad de utilizar un apartado de correos, un buzón privado o la dirección de tu trabajo.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Important notices</p>
+<p class="admonition-title">Avisos importantes</p>
 
-The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](../about/notices.md).
+El contenido aquí no constituye asesoramiento jurídico o financiero. No apoyamos ni fomentamos actividades ilícitas, ni nada que infrinja las condiciones de servicio de una empresa. Consulta con un profesional para confirmar que estas recomendaciones son legales y están disponibles en tu jurisdicción. [Ver todos los avisos](../about/notices.md).
 
 </div>

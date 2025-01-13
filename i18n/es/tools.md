@@ -351,7 +351,7 @@ Si busca más **seguridad**, asegúrese siempre de conectarse a sitios web que u
 
 ## Software
 
-### AI Chat
+### Chat IA
 
 <div class="grid cards" markdown>
 
