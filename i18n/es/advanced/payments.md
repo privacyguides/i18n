@@ -4,33 +4,33 @@ icon: material/hand-coin
 description: Tus hábitos de compra son el santo grial de la focalización publicitaria, pero tienes muchas opciones a la hora de realizar pagos de forma privada.
 ---
 
-Data about your buying habits is considered the holy grail of ad targeting: your purchases can leak a veritable treasure trove of data about you. Desgraciadamente, el sistema financiero actual es contrario a la privacidad por su propio diseño, ya que permite a los bancos, a otras empresas y a los gobiernos rastrear fácilmente las transacciones. No obstante, tienes muchas opciones a la hora de realizar pagos de forma privada.
+Los datos sobre tus hábitos de compra se consideran el santo grial de la estrategia publicitaria: tus compras pueden revelar un auténtico caudal de información sobre ti. Desgraciadamente, el sistema financiero actual es contrario a la privacidad por su propio diseño, ya que permite a los bancos, a otras empresas y a los gobiernos rastrear fácilmente las transacciones. No obstante, tienes muchas opciones a la hora de realizar pagos de forma privada.
 
 ## Efectivo
 
-Durante siglos, **efectivo** ha funcionado como la principal forma de pago privado. Cash has excellent privacy properties in most cases, is widely accepted in most countries, and is **fungible**, meaning it is non-unique and completely interchangeable.
+Durante siglos, **efectivo** ha funcionado como la principal forma de pago privado. El efectivo tiene excelentes propiedades de privacidad en la mayoría de los casos, es ampliamente aceptado en la mayoría de los países y es **fungible**, lo que significa que no es único y es completamente intercambiable.
 
-La legislación sobre pagos en efectivo varía según el país. En Estados Unidos, los pagos en efectivo superiores a 10.000 dólares deben declararse al IRS mediante el [Formulario 8300](https://irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). La empresa receptora está obligada a verificar el nombre, la dirección, la ocupación, la fecha de nacimiento y el número de la Seguridad Social u otro NIF del beneficiario (con algunas excepciones). Regulated exchanges, banks, and money services businesses must collect an ID for transactions exceeding $3,000. Cash contains serial numbers to assist law enforcement in targeted investigations.
+La legislación sobre pagos en efectivo varía según el país. En Estados Unidos, los pagos en efectivo superiores a 10.000 dólares deben declararse al IRS mediante el [Formulario 8300](https://irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). La empresa receptora está obligada a verificar el nombre, la dirección, la ocupación, la fecha de nacimiento y el número de la Seguridad Social u otro NIF del beneficiario (con algunas excepciones). Las bolsas, bancos y empresas de servicios monetarios regulados deben solicitar un documento de identidad para las transacciones superiores a 3.000 $. El efectivo contiene números de serie para ayudar a las fuerzas de seguridad en investigaciones específicas.
 
-Despite the above, cash is typically the best option when available.
+A pesar de lo anterior, el efectivo suele ser la mejor opción cuando está disponible.
 
-## Tarjetas de Prepago & Tarjetas de Regalo
+## Tarjetas Prepago y Tarjetas Regalo
 
-You can easily purchase gift cards and prepaid cards at most grocery stores and convenience stores with cash. Las tarjetas regalo no suelen tener comisión, aunque las de prepago a menudo sí, así que presta mucha atención a estas comisiones y a las fechas de caducidad. Some stores may ask to see your ID at checkout in an effort to reduce fraud.
+Puedes comprar fácilmente tarjetas regalo y tarjetas prepago en la mayoría de los supermercados y tiendas de conveniencia con dinero en efectivo. Las tarjetas regalo no suelen tener comisión, aunque las de prepago a menudo sí, así que presta mucha atención a estas comisiones y a las fechas de caducidad. Algunas tiendas pueden pedirte el DNI en la caja para intentar reducir el fraude.
 
 Las tarjetas regalo suelen tener límites de hasta 200 dólares por tarjeta, pero algunas ofrecen límites de hasta 2.000 dólares por tarjeta. Las tarjetas prepago (por ejemplo, de Visa o Mastercard) usualmente tienen límites de hasta $1,000 por tarjeta.
 
 Las tarjetas regalo tienen el inconveniente de estar sujetas a las políticas de los comercios, que pueden tener terribles condiciones y restricciones. Por ejemplo, algunos comercios no aceptan exclusivamente el pago con tarjetas regalo, o pueden anular el valor de la tarjeta si consideran que eres un usuario de alto riesgo. Una vez que se dispone de crédito comercial, el comerciante tiene un alto grado de control sobre este crédito.
 
-Prepaid cards usually don’t allow cash withdrawals from ATMs or “peer-to-peer” payments in Venmo and similar apps.
+Las tarjetas de prepago no suelen permitir la retirada de efectivo en cajeros automáticos ni los pagos «de igual a igual» en Venmo y aplicaciones similares.
 
-El efectivo sigue siendo la mejor opción para las compras en persona para la mayoría de la gente. Gift cards are often sold at a discount, which make them attractive. Las tarjetas de prepago pueden ser útiles en lugares donde no se acepta dinero en efectivo. Las tarjetas regalo y las tarjetas prepago son más fáciles de utilizar en Internet que el dinero en efectivo, y son más fáciles de adquirir con criptomonedas que con dinero en efectivo.
+El efectivo sigue siendo la mejor opción para las compras en persona para la mayoría de la gente. Las tarjetas regalo suelen venderse con descuento, lo que las hace atractivas. Las tarjetas de prepago pueden ser útiles en lugares donde no se acepta dinero en efectivo. Las tarjetas regalo y las tarjetas prepago son más fáciles de utilizar en Internet que el dinero en efectivo, y son más fáciles de adquirir con criptomonedas que con dinero en efectivo.
 
 ### Mercados en Línea
 
-Si tienes [criptomonedas](../cryptocurrency.md), puedes comprar tarjetas regalo en una tienda online de tarjetas de regalo. Some of these services offer high limits (with ID verification), but they usually allow basic, low-limit accounts with just an email address. Expect limits under $10,000 for basic accounts and significantly higher limits for ID verified accounts (if offered).
+Si tienes [criptomonedas](../cryptocurrency.md), puedes comprar tarjetas regalo en una tienda online de tarjetas de regalo. Algunos de estos servicios ofrecen límites altos (con verificación de identidad), pero suelen permitir cuentas básicas de límite bajo con solo una dirección de correo electrónico. Los límites suelen ser inferiores a 10.000 $ para las cuentas básicas y mucho más elevados para las cuentas verificadas (si se ofrecen).
 
-Al comprar tarjetas regalo por Internet, suele haber un ligero descuento. Las tarjetas de prepago suelen venderse en Internet por su valor nominal o con una comisión. If you buy prepaid cards and gift cards with cryptocurrencies, you should strongly prefer to pay with Monero which provides strong privacy (more on this below). Pagar una tarjeta regalo con un método de pago rastreable anula los beneficios que una tarjeta regalo puede proporcionar cuando se compra con dinero en efectivo o Monero.
+Al comprar tarjetas regalo por Internet, suele haber un ligero descuento. Las tarjetas de prepago suelen venderse en Internet por su valor nominal o con una comisión. Si compras tarjetas prepago y tarjetas regalo con criptomonedas, deberías preferir pagar con Monero, que proporciona una gran privacidad (más sobre esto más adelante). Pagar una tarjeta regalo con un método de pago rastreable anula los beneficios que una tarjeta regalo puede proporcionar cuando se compra con dinero en efectivo o Monero.
 
 - [Mercados de tarjetas regalo en línea :material-arrow-right-drop-circle:](../financial-services.md#gift-card-marketplaces)
 
@@ -44,14 +44,14 @@ Estas tienden a ser buenas opciones para pagos recurrentes/de suscripción en l�
 
 ## Criptomonedas
 
-Las criptomonedas son una forma digital de moneda diseñada para funcionar sin autoridades centrales como un gobierno o un banco. While *some* cryptocurrency projects can allow you to make private transactions online, many use a transparent blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly. Por ello, en general no recomendamos utilizar criptomonedas como depósito de valor a largo plazo. Si decides utilizar criptomoneda en línea, asegúrate de conocer bien sus aspectos de privacidad de antemano, y sólo invierte cantidades cuya pérdida no sea desastrosa.
+Las criptomonedas son una forma digital de moneda diseñada para funcionar sin autoridades centrales como un gobierno o un banco. Aunque *algunos* proyectos de criptomoneda permiten realizar transacciones privadas en línea, muchos utilizan una blockchain transparente que no proporciona ninguna privacidad a las transacciones. Las criptomonedas también tienden a ser activos muy volátiles, lo que significa que su valor puede cambiar rápida y significativamente. Por ello, en general no recomendamos utilizar criptomonedas como depósito de valor a largo plazo. Si decides utilizar criptomoneda en línea, asegúrate de conocer bien sus aspectos de privacidad de antemano, y sólo invierte cantidades cuya pérdida no sea desastrosa.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Peligro</p>
 
-The vast majority of cryptocurrencies operate on a **transparent** blockchain, meaning that every transaction's details are public knowledge. This includes most well-known cryptocurrencies like Bitcoin and Ethereum. Las transacciones con estas criptomonedas no deben considerarse privadas y no protegerán tu anonimato.
+La gran mayoría de las criptomonedas operan en una blockchain **transparente**, lo que significa que los detalles de cada transacción son de dominio público. Esto incluye incluso las criptomonedas más conocidas, como Bitcoin y Ethereum. Las transacciones con estas criptomonedas no deben considerarse privadas y no protegerán tu anonimato.
 
-Además, muchas criptomonedas, si no la mayoría, son estafas. Únicamente realice transacciones con los proyectos en los que confíe. Transactions are irreversible and do not include any consumer protections.
+Además, muchas criptomonedas, si no la mayoría, son estafas. Únicamente realice transacciones con los proyectos en los que confíe. Las transacciones son irreversibles y no incluyen ninguna protección para el consumidor.
 
 </div>
 
@@ -61,7 +61,7 @@ Existen varios proyectos de criptomonedas que pretenden proporcionar privacidad 
 
 - [Criptomoneda Recomendada :material-arrow-right-drop-circle:](../cryptocurrency.md#monero)
 
-Las monedas de privacidad han sido objeto de un creciente escrutinio por parte de organismos gubernamentales. In 2020, [the IRS published a $625,000 bounty](https://forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) for tools which can trace (at least to some extent) Bitcoin Lightning Network and/or Monero transactions. They ultimately [paid two companies](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis and Integra Fec) a combined $1.25 million to further develop tools to do so. Due to the secrecy surrounding tools like these, ==none of these methods of tracing cryptocurrencies have been independently confirmed.== However, it is quite likely that tools which assist targeted investigations into private coin transactions exist, and that privacy coins in their current form only succeed in thwarting mass surveillance.
+Las monedas de privacidad han sido objeto de un creciente escrutinio por parte de organismos gubernamentales. En 2020, [el IRS publicó una recompensa de 625.000 $](https://forbes.com/sites/kellyphillipserb/2020/09/14/irs-will-pay-up-to-625000-if-you-can-crack-monero-other-privacy-coins/?sh=2e9808a085cc) por herramientas que puedan rastrear (al menos hasta cierto punto) transacciones de Bitcoin Lightning Network y/o Monero. Al final [pagaron a dos empresas](https://sam.gov/opp/5ab94eae1a8d422e88945b64181c6018/view) (Chainalysis e Integra Fec) un total de 1,25 millones de dólares estadounidenses para que siguieran desarrollando herramientas para ello. Debido al secretismo que rodea a este tipo de herramientas, ==ninguno de estos métodos de rastreo de criptomonedas ha sido confirmado de forma independiente.== Sin embargo, es bastante probable que existan herramientas que ayuden a realizar investigaciones específicas sobre las transacciones de monedas privadas, y que las monedas de privacidad en su forma actual solo consigan frustrar la vigilancia masiva.
 
 ### Otras Monedas (Bitcoin, Ethereum, etc.)
 
