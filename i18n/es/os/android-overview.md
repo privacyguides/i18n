@@ -156,7 +156,7 @@ Todos los dispositivos con Google Play Services instalado automáticamente gener
 
 En las distribuciones de Android con los [servicios de Google Play aislados](https://grapheneos.org/usage#sandboxed-google-play), ve a :gear: **Ajustes** → **Aplicaciones** → **Google Play aislado** → **Ajustes de Google** → **Anuncios**, y selecciona *Eliminar el ID de publicidad*.
 
-En las distribuciones de Android con servicios privilegiados de Google Play (como los sistemas operativos de serie), la configuración puede estar en una de varias ubicaciones. Revisa
+On Android distributions with privileged Google Play Services (which includes the stock installation on most devices), the setting may be in one of several locations. Revisa
 
 - :gear: **Ajustes** → **Google** → **Anuncios**
 - :gear: **Ajustes** → **Privacidad** → **Anuncios**

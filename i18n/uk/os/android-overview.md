@@ -156,7 +156,7 @@ All devices with Google Play Services installed automatically generate an [adver
 
 On Android distributions with [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), go to :gear: **Settings** → **Apps** → **Sandboxed Google Play** → **Google Settings** → **Ads**, and select *Delete advertising ID*.
 
-На прошивках Android з привілейованими сервісами Google Play (як на заводських ОС), налаштування може здійснюватися в одному з кількох місць. Перевірте
+On Android distributions with privileged Google Play Services (which includes the stock installation on most devices), the setting may be in one of several locations. Перевірте
 
 - :gear: **Налаштування** → **Google** → **Реклама**
 - :gear: **Налаштування** → **Конфіденційність** → **Реклама**

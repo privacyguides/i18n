@@ -156,7 +156,7 @@ All devices with Google Play Services installed automatically generate an [adver
 
 Sulle distribuzioni Android con [Google Play in modalità sandbox](https://grapheneos.org/usage#sandboxed-google-play), vai su :gear: **Impostazioni** → **App** → **Sandboxed Google Play** → **Impostazioni di Google** → **Pubblicità** e seleziona *Elimina ID pubblicitario*.
 
-Sulle distribuzioni di Android con Google Play Services privilegiati (come gli OS di fabbrica), l'impostazione potrebbe trovarsi in una delle seguenti, svariate posizioni. Controlla
+On Android distributions with privileged Google Play Services (which includes the stock installation on most devices), the setting may be in one of several locations. Controlla
 
 - :gear: **Impostazioni** → **Google** → **Pubblicità**
 - :gear: **Impostazioni** → **Privacy** → **Pubblicità**

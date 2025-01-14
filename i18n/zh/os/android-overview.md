@@ -156,7 +156,7 @@ All devices with Google Play Services installed automatically generate an [adver
 
 在带有 [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play)的安卓发行上，进入 :gear: **设置** → **应用程序** → **Sandboxed Google Play** → **谷歌设置** → **广告**，并选择 *删除广告 ID*。
 
-在拥有特权的谷歌游戏服务的安卓发行版上（如股票操作系统），该设置可能在几个位置之一。 查看
+On Android distributions with privileged Google Play Services (which includes the stock installation on most devices), the setting may be in one of several locations. 查看
 
 - :gear: **设置** → **谷歌** → **广告**
 - :gear: **设置** → **隐私** → **广告**

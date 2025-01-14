@@ -156,7 +156,7 @@ Google Play Servicesがインストールされているすべてのデバイス
 
 [サンドボックス化されたGoogle Play](https://grapheneos.org/usage#sandboxed-google-play)を備えたAndroid ディストリビューションでは、:gear: **設定** → **アプリ** → **Sandboxed Google Play** → **Google Settings** → **広告**に移動し、*Delete advertising ID*を選択します。
 
-On Android distributions with privileged Google Play Services (such as stock OSes), the setting may be in one of several locations. Check
+On Android distributions with privileged Google Play Services (which includes the stock installation on most devices), the setting may be in one of several locations. Check
 
 - :gear: **設定** → **Google** → **広告**
 - :gear: **設定** → **プライバシー** → **広告**

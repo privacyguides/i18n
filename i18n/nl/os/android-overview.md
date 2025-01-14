@@ -156,7 +156,7 @@ All devices with Google Play Services installed automatically generate an [adver
 
 Op Android distributies met [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), ga naar :gear: **Instellingen** → **Apps** → **Sandboxed Google Play** → **Google Instellingen** → **Advertenties**, en selecteer *Verwijder reclame ID*.
 
-Op Android distributies met geprivilegieerde Google Play Services (zoals standaard OSes), kan de instelling op een van verschillende locaties staan. Check
+On Android distributions with privileged Google Play Services (which includes the stock installation on most devices), the setting may be in one of several locations. Check
 
 - :gear: **Instellingen** → **Google** → **Advertenties**
 - :gear: **Instellingen** → **Privacy** → **Advertenties**

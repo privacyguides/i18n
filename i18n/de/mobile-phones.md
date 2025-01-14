@@ -33,7 +33,7 @@ Die meisten **Mobiltelefone** erhalten nur kurze oder begrenzte Zeitfenster für
 
 Die hier aufgelisteten Mobilgeräte bieten eine lange Lebensdauer garantierter Sicherheitsupdates und ermöglichen Ihnen die Installation eines benutzerdefinierten Betriebssystems, ohne das Android-Sicherheitsmodell zu verletzen.
 
-[Empfohlene Custom ROMs :material-arrow-right-drop-circle:](android/distributions.md){ .md-button .md-button--primary } [Details zur Android-Sicherheit :material-arrow-right-drop-circle:](os/android-overview.md#security-protections){ .md-button }
+[Recommended Android Distributions :material-arrow-right-drop-circle:](android/distributions.md){ .md-button .md-button--primary } [Details about Android Security :material-arrow-right-drop-circle:](os/android-overview.md#security-protections){ .md-button }
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warnung</p>

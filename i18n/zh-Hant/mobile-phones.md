@@ -33,7 +33,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 此處列出的行動裝置可提供長壽命的保證安全更新，並允許您安裝自訂作業系統，而不會違反 Android 安全模型。
 
-[推薦的客製化作業系統 :material-arrow-right-drop-circle:](android/distributions.md){ .md-button .md-button--primary } [Android 安全性詳細資訊 :material-arrow-right-drop-circle:](os/android-overview.md#security-protections){ .md-button }
+[Recommended Android Distributions :material-arrow-right-drop-circle:](android/distributions.md){ .md-button .md-button--primary } [Details about Android Security :material-arrow-right-drop-circle:](os/android-overview.md#security-protections){ .md-button }
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>

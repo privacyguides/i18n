@@ -156,7 +156,7 @@ All devices with Google Play Services installed automatically generate an [adver
 
 В дистрибутивах андроид с [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), откройте :gear: **Настройки** → **Приложения** → **Sandboxed Google Play** → **Google Settings** → **Реклама**, и выберите *Удалить рекламный идентификатор*.
 
-В дистрибутивах Android с привилегированными службами Google Play (например, в стоковых ОС) эта настройка может находиться в одном из нескольких мест. Проверьте
+On Android distributions with privileged Google Play Services (which includes the stock installation on most devices), the setting may be in one of several locations. Проверьте
 
 - :gear: **Настройки** → **Google** → **Реклама**
 - :gear: **Настройки** → **Конфиденциальность** → **Реклама**

@@ -156,7 +156,7 @@ All devices with Google Play Services installed automatically generate an [adver
 
 בהפצות אנדרואיד עם [Google Play בארגז חול](https://grapheneos.org/usage#sandboxed-google-play), עבור אל :gear: **הגדרות** ← **אפליקציות** ← **Google Play בארגז חול** ← **הגדרות גוגל** ← **מודעות**, ותבחר *מחק מזהה פרסום*.
 
-בהפצות אנדרואיד עם שירותי Google Play מורשים (כגון מערכת הפעלה ברירת מחדל), ההגדרה עשויה להיות באחד מכמה מיקומים. בדיקה
+On Android distributions with privileged Google Play Services (which includes the stock installation on most devices), the setting may be in one of several locations. בדיקה
 
 - :gear: **הגדרות** ← **גוגל** ← **מודעות**
 - :gear: **הגדרות** ← **פרטיות** ← **מודעות**

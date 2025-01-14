@@ -33,7 +33,7 @@ La mayoría de los **teléfonos celulares** reciben actualizaciones de seguridad
 
 Los dispositivos móviles listados aquí proporcionan una larga vida útil de actualizaciones de seguridad garantizadas y permiten la instalación de un sistema operativo personalizado sin violar el modelo de seguridad de Android.
 
-[Sistemas operativos recomendados :material-arrow-right-drop-circle:](android/distributions.md){ .md-button .md-button--primary } [Detalles sobre la seguridad de Android :material-arrow-right-drop-circle:](os/android-overview.md#security-protections){ .md-button }
+[Recommended Android Distributions :material-arrow-right-drop-circle:](android/distributions.md){ .md-button .md-button--primary } [Details about Android Security :material-arrow-right-drop-circle:](os/android-overview.md#security-protections){ .md-button }
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>

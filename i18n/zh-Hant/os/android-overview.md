@@ -156,7 +156,7 @@ Android 7 及以上版本支援 VPN kill switch，無需安裝第三方應用程
 
 在具有 [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play)的Android 版上，前往 :gear: **設定** → **應用程式** → **Sandboxed Google Play** → **Google 設定** → **廣告**，然後選擇 *刪除廣告ID*。
 
-在具有特權Google Play服務的Android發行版（如 庫存 OSes）上，設定可能在幾個位置。 查看
+On Android distributions with privileged Google Play Services (which includes the stock installation on most devices), the setting may be in one of several locations. 查看
 
 - :gear: **設定** → **Google** → **廣告**
 - :gear: **設定** → **私隱** → **廣告**
