@@ -1,5 +1,5 @@
 ---
-meta_title: "Ad-Free Privacy Tool/Service Recommendations - Privacy Guides"
+meta_title: "Recommandations d'outils/services de protection de la vie privée sans publicité - Privacy Guides"
 title: "Outils de protection de la vie privée"
 icon: material/tools
 hide:
@@ -39,52 +39,46 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 
 **Le navigateur Tor** (Ordinateur & Android) est le meilleur choix si vous avez besoin de l'anonymat, car il vous donne accès au réseau **Tor** un groupe de serveurs gérés par des bénévoles qui vous permettent de vous connecter gratuitement et d'améliorer votre vie privée et votre sécurité sur Internet. Les particuliers et les organisations peuvent également partager des informations sur le réseau Tor avec des "services cachés .onion" sans compromettre leur vie privée. Parce que le trafic Tor est difficile à bloquer et à tracer, Tor est un outil efficace pour contourner la censure.
 
-[Read Our Full Review :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary }
+[Lire notre revue complète :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary }
 
 </div>
 
 <div class="grid cards" markdown>
 
-- ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .lg .middle .twemoji } **Mullvad Browser**
+![Logo du navigateur Mullvad](assets/img/browsers/mullvad_browser.svg){ align=right }
+
+Le **Navigateur Mullvad** est une version du [Navigateur Tor](tor.md#tor-browser) dont l'intégration au réseau Tor a été supprimée, visant à fournir les technologies de protection contre la capture des empreintes numériques du Navigateur Tor aux utilisateurs de VPN.
+
+    ![Logo Firefox](assets/img/browsers/firefox.svg){ align=right }
+
+**Firefox** offre de solides paramètres de confidentialité, tels que la [protection renforcée contre le suivi](https://support.mozilla.org/fr/kb/protection-renforcee-contre-pistage-firefox-ordinateur), qui peut contribuer à bloquer divers [types de suivi](https://support.mozilla.org/fr/kb/protection-renforcee-contre-pistage-firefox-ordinateur#w_what-enhanced-tracking-protection-blocks).
+
+    - [Lire la revue complète :material-arrow-right-drop-circle:](desktop-browsers.md#firefox)
+
+- ![Logo Brave](assets/img/browsers/brave. vg){ .lg .middle .twemoji } **Navigateur Brave**
 
     ---
 
-    **Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed, aimed at providing Tor Browser's anti-fingerprinting browser technologies to VPN users.
-
-    - [Read Full Review :material-arrow-right-drop-circle:](desktop-browsers.md#mullvad-browser)
-
-- ![Firefox logo](assets/img/browsers/firefox.svg){ .lg .middle .twemoji } **Firefox**
-
-    ---
-
-    **Firefox** is a great Chromium alternative which provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
-
-    - [Read Full Review :material-arrow-right-drop-circle:](desktop-browsers.md#firefox)
-
-- ![Brave logo](assets/img/browsers/brave.svg){ .lg .middle .twemoji } **Brave Browser**
-
-    ---
-
-    **Brave** is a private-by-default browser based on Chromium, so it should feel familiar and have minimal website compatibility issues.
+    **Brave** est un navigateur privé par défaut basé sur Chromium, il devrait donc se sentir familier et avoir un minimum de problèmes de compatibilité avec les sites web.
 
     - [Brave Desktop Review :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
     - [Brave Mobile Review :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
 
-- ![Cromite logo](assets/img/browsers/cromite.svg){ .lg .middle .twemoji } **Cromite (Android)**
+- ![Logo Cromite](assets/img/browsers/cromite.svg){ .lg .middle .twemoji } **Cromite (Android)**
 
     ---
 
-    **Cromite** is a Chromium-based Android browser with built-in ad-blocking and [privacy enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). Il s'agit d'une version dérivée du navigateur populaire Bromite, aujourd'hui abandonné.
+    **Cromite** est un navigateur Android basé sur Chromium avec blocage des publicités intégré et [améliorations de la protection de la vie privée](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). Il s'agit d'une version dérivée du navigateur populaire Bromite, aujourd'hui abandonné.
 
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
+    - [Lire l'avis complet :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
 
 - ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
 
     ---
 
-    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) features and default tracker blocking. It also separates your cookies in private browsing mode to prevent tracking between tabs.
+    Nous recommandons **Safari** en raison de ses fonctionnalités [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) et de son blocage par défaut des traceurs. Il sépare également vos cookies en mode de navigation privée pour éviter le suivi entre les onglets.
 
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
+    - [Lire notre revue complète :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 
 </div>
 
@@ -144,31 +138,31 @@ Si vous recherchez une **sécurité** supplémentaire, vous devez toujours vous 
     - [x] Partial Port Forwarding Support
     - [ ] No IPv6
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
+    [Lire la revue complète :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
 
 - ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .lg .middle .twemoji } **IVPN**
 
     ---
 
-    - [x] **37+ Countries**
-    - [x] WireGuard Support
+    - [x] **37+ Pays**
+    - [x] Support WireGuard
     - [x] Monero & Cash Payments
-    - [ ] No Port Forwarding
-    - [ ] No IPv6
+    - [ ] Pas de Port Forwarding
+    - [ ] Pas d'IPv6
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#ivpn)
+    [Lire la revue complète :material-arrow-right-drop-circle:](vpn.md#ivpn)
 
-- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .lg .middle .twemoji } **Mullvad**
+- ![Logo Mullvad](assets/img/vpn/mullvad.svg){ .lg .middle .twemoji } **Mullvad**
 
     ---
 
-    - [x] **45+ Countries**
+    - [x] **45+ Pays**
     - [x] WireGuard Support
     - [x] Monero & Cash Payments
     - [ ] No Port Forwarding
     - [x] IPv6 Support
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#ivpn)
+    [Lire la revue complète :material-arrow-right-drop-circle:](vpn.md#ivpn)
 
 </div>
 
@@ -182,13 +176,13 @@ Si vous recherchez une **sécurité** supplémentaire, vous devez toujours vous 
 
     Proton Mail est un service d'e-mail qui met l'accent sur la confidentialité, le chiffrement, la sécurité et la facilité d'utilisation. Il existe depuis 2013. Proton AG a son siège à Genève, en Suisse. L'offre Free de Proton Mail comprend 500 Mo de stockage d'e-mails, que vous pouvez augmenter jusqu'à 1 Go gratuitement.
 
-    [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
+    [Lire la critique complète :material-arrow-right-drop-circle:](email.md#proton-mail)
 
 - ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji } **Mailbox.org**
 
     ---
 
-    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. Il est en activité depuis 2014. Mailbox.org est basé à Berlin, en Allemagne. Les comptes commencent avec 2 Go de stockage, qui peut être mis à niveau au besoin.
+    Mailbox.org est un service de messagerie électronique sécurisé, sans publicité et alimenté par une énergie 100 % écologique. Il est en activité depuis 2014. Mailbox.org est basé à Berlin, en Allemagne. Les comptes commencent avec 2 Go de stockage, qui peut être mis à niveau au besoin.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#mailboxorg)
 

@@ -16,7 +16,7 @@
 *[DoQ]: DNS sur QUIC
 *[DoH3]: DNS sur HTTP/3
 *[DoT]: DNS sur TLS
-*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
+*[DPI]: L'inspection approfondie des paquets (Deep Packet Inspection) identifie et bloque les paquets contenant des charges utiles spécifiques
 *[E2EE]: Chiffrement/Chiffré(e)s de bout en bout
 *[ECS]: Sous-réseau du client EDNS
 *[EEA]: Espace économique européen
@@ -49,7 +49,7 @@
 *[FAIs]: Fournisseurs d'accès internet
 *[JNI]: Interface native Java
 *[KYC]: Connaissance du client
-*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
+*[LLaVA]: Grand assistant linguistique et visuel (modèle d'IA multimodale)
 *[LLMs]: Grands modèles de langage (modèles d'IA tels que ChatGPT)
 *[LUKS]: Configuration de la clé unifiée Linux (chiffrement complet du disque)
 *[MAC]: Contrôle d'accès aux médias
@@ -64,7 +64,7 @@
 *[OCSP]: Protocole d'état des certificats en ligne
 *[OEM]: Fabricant d'équipement d'origine
 *[OEMs]: Fabricants d'équipement d'origine
-*[open-weights]: An open weights-model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
+*[open-weights]: Un modèle de poids ouvert est un modèle IA que n'importe qui peut télécharger et utiliser, mais pour lequel les données de formation et/ou les algorithmes sous-jacents sont propriétaires.
 *[OS]: Système d'exploitation
 *[OTP]: Mot de passe à usage unique
 *[OTPs]: Mots de passe à usage unique
@@ -76,7 +76,7 @@
 *[DCP]: Donnée à charactère personnel
 *[QNAME]: Nom qualifié
 *[QUIC]: Un protocole réseau basé sur UDP, mais visant à combiner la vitesse d'UDP avec la fiabilité de TCP.
-*[rate limits]: Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time.
+*[limites de débit]: Les limites tarifaires sont des restrictions qu'un service impose sur le nombre de fois qu'un utilisateur peut accéder à ses services dans un délai donné.
 *[publication continue]: Mises à jour qui sont publiées fréquemment plutôt qu'à intervalles réguliers
 *[RSS]: Syndication vraiment simple
 *[SELinux]: Sécurité renforcée de Linux
