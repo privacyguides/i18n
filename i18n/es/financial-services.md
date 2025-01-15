@@ -105,8 +105,8 @@ Estos servicios le permiten comprar tarjetas de regalo para una gran variedad de
 - No exige identificación.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Important notices</p>
+<p class="admonition-title">Avisos importantes</p>
 
-The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](about/notices.md).
+El contenido aquí no constituye asesoramiento jurídico o financiero. No apoyamos ni fomentamos actividades ilícitas, ni nada que infrinja las condiciones de servicio de una empresa. Consulte a un profesional para confirmar que estas recomendaciones son legales y están disponibles en su jurisdicción. [Ver todos los avisos](about/notices.md).
 
 </div>

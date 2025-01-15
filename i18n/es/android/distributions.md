@@ -1,5 +1,5 @@
 ---
-meta_title: The Best Android Operating Systems - Privacy Guides
+meta_title: Los Mejores Sistemas Operativos Android - Privacy Guides
 title: Distribuciones alternativas
 description: Puedes reemplazar el sistema operativo en tu teléfono Android por estas alternativas seguras y respetuosas con la privacidad.
 schema:
@@ -25,13 +25,13 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 - [:material-target-account: Ataques Dirigidos](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 - [:material-bug-outline: Ataques Pasivos](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-A **custom Android-based operating system** (sometimes referred to as a **custom ROM**) can be a way to achieve a higher level of privacy and security on your device. This is in contrast to the "stock" version of Android which comes with your phone from the factory, and is often deeply integrated with Google Play Services as well as other vendor software.
+Un **sistema operativo personalizado basado en Android** (a veces denominado **ROM personalizada**) puede ser una forma de conseguir un mayor nivel de privacidad y seguridad en tu dispositivo. Esto contrasta con la versión «stock» de Android que viene con el teléfono de fábrica, y que suele estar profundamente integrada con Google Play Services, así como con el software de otros proveedores.
 
-We recommend installing GrapheneOS if you have a Google Pixel as it provides improved security hardening and additional privacy features. The reasons we don't list other operating systems or devices are as follows:
+Recomendamos instalar GrapheneOS si tienes un Google Pixel, ya que proporciona un endurecimiento de seguridad mejorado y funciones de privacidad adicionales. Las razones por las que no enumeramos otros sistemas operativos o dispositivos son las siguientes:
 
-- They often have [weaker security](index.md#install-a-custom-distribution).
-- Support is frequently dropped when the maintainer loses interest or upgrades their device, which is in contrast to the predictable [support cycle](https://grapheneos.org/faq#device-lifetime) that GrapheneOS follows.
-- They generally have few or no notable privacy or security improvements that make installing them worthwhile.
+- Suelen tener [seguridad más débil](index.md#install-a-custom-distribution).
+- El soporte se abandona con frecuencia cuando el mantenedor pierde interés o actualiza su dispositivo, lo que contrasta con el predecible [ciclo de soporte](https://grapheneos.org/faq#device-lifetime) que sigue GrapheneOS.
+- Por lo general, presentan pocas o ninguna mejora notable de la privacidad o la seguridad que haga que merezca la pena instalarlas.
 
 ## GrapheneOS
 

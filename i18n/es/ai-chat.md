@@ -44,7 +44,7 @@ Para ejecutar IA localmente, se necesita tanto un modelo de IA como un cliente d
 
 Hay muchos modelos con licencia permisiva disponibles para descargar. [Hugging Face](https://huggingface.co/models) es una plataforma que te permite navegar, investigar y descargar modelos en formatos comunes como [GGUF](https://huggingface.co/docs/hub/en/gguf). Entre las empresas que ofrecen buenos modelos open-weights figuran grandes nombres como Mistral, Meta, Microsoft y Google. Sin embargo, también hay muchos modelos comunitarios y «fine-tunes» disponibles. Como ya se ha mencionado, los modelos cuantificados ofrecen el mejor equilibrio entre calidad de modelo y rendimiento para quienes utilizan hardware de consumo personal.
 
-Para ayudarte a elegir un modelo que se adapte a tus necesidades, puedes consultar tablas de clasificación y puntos de referencia. La tabla de clasificación más utilizada es la de la comunidad [LM Arena](https://lmarena.ai). Además, la [OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) se centra en el rendimiento de los modelos de ponderación abierta en puntos de referencia comunes como [MMLU-Pro](https://arxiv.org/abs/2406.01574).  También existen puntos de referencia especializados que miden factores como [inteligencia emocional](https://eqbench.com), [«inteligencia general no censurada»](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard), y [muchos otros](https://www.nebuly.com/blog/llm-leaderboards).
+Para ayudarte a elegir un modelo que se adapte a tus necesidades, puedes consultar tablas de clasificación y puntos de referencia. La tabla de clasificación más utilizada es la de la comunidad [LM Arena](https://lmarena.ai). Además, la [OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) se centra en el rendimiento de los modelos open-weights en puntos de referencia comunes como [MMLU-Pro](https://arxiv.org/abs/2406.01574).  También existen puntos de referencia especializados que miden factores como [inteligencia emocional](https://eqbench.com), [«inteligencia general no censurada»](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard), y [muchos otros](https://www.nebuly.com/blog/llm-leaderboards).
 
 ## Clientes de Chat IA
 
@@ -130,60 +130,60 @@ Llamafile es un ejecutable ligero de un solo archivo que permite a los usuarios 
 
 Llamafile también es compatible con LLaVA. Sin embargo, no admite el reconocimiento de voz ni la generación de imágenes.
 
-[:octicons-home-16: Homepage](https://github.com/Mozilla-Ocho/llamafile){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Mozilla-Ocho/llamafile#llamafile){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Mozilla-Ocho/llamafile){ .card-link title="Source Code" }
-[:octicons-lock-16:](https://github.com/Mozilla-Ocho/llamafile#security){ .card-link title="Security Policy" }
+[:octicons-home-16: Página Principal](https://github.com/Mozilla-Ocho/llamafile){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Mozilla-Ocho/llamafile#llamafile){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/Mozilla-Ocho/llamafile){ .card-link title="Código Fuente" }
+[:octicons-lock-16:](https://github.com/Mozilla-Ocho/llamafile#security){ .card-link title="Política de Seguridad" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
 
-- [:fontawesome-solid-desktop: Desktop](https://github.com/Mozilla-Ocho/llamafile#quickstart)
+- [:fontawesome-solid-desktop: Escritorio](https://github.com/Mozilla-Ocho/llamafile#quickstart)
 
 </details>
 
 </div>
 
-Mozilla has made llamafiles available for only some Llama and Mistral models, while there are few third-party llamafiles available. Moreover, Windows limits `.exe` files to 4GB, and most models are larger than that.
+Mozilla ha puesto a disposición llamafiles solo para algunos modelos de Llama y Mistral, mientras que hay pocos llamafiles de terceros disponibles. Además, Windows limita los archivos `.exe` a 4 GB, y la mayoría de los modelos superan ese tamaño.
 
-To circumvent these issues, you can [load external weights](https://github.com/Mozilla-Ocho/llamafile#using-llamafile-with-external-weights).
+Para evitar estos problemas, puedes [cargar weights externos](https://github.com/Mozilla-Ocho/llamafile#using-llamafile-with-external-weights).
 
-## Securely Downloading Models
+## Descarga Segura de Modelos
 
-If you use an AI client that maintains their own library of model files (such as [Ollama](#ollama-cli) and [Llamafile](#llamafile)), you should download it from there. However, if you want to download models not present in their library, or use an AI client that doesn't maintain its library (such as [Kobold.cpp](#koboldcpp)), you will need to take extra steps to ensure that the AI model you download is safe and legitimate.
+Si utilizas un cliente de IA que mantiene su propia biblioteca de archivos modelo (como [Ollama](#ollama-cli) y [Llamafile](#llamafile)), deberías descargarlo desde allí. Sin embargo, si quieres descargar modelos que no están presentes en su biblioteca, o utilizar un cliente de IA que no mantiene su biblioteca (como [Kobold.cpp](#koboldcpp)), tendrás que tomar medidas adicionales para asegurarte de que el modelo de IA que descargas es seguro y legítimo.
 
-We recommend downloading model files from Hugging Face since it provides several features to verify that your download is genuine and safe to use.
+Recomendamos descargar archivos modelo de Hugging Face, ya que ofrece varias funciones para comprobar que su descarga es auténtica y segura.
 
-To check the authenticity and safety of the model, look for:
+Para comprobar la autenticidad y seguridad del modelo, busca:
 
-- Model cards with clear documentation
-- A verified organization badge
-- Community reviews and usage statistics
-- A "Safe" badge next to the model file (Hugging Face only)
-- Matching checksums[^1]
-  - On Hugging Face, you can find the hash by clicking on a model file and looking for the **Copy SHA256** button below it. You should compare this checksum with the one from the model file you downloaded.
+- Tarjetas modelo con documentación clara
+- Un distintivo de organización verificada
+- Comentarios de la comunidad y estadísticas de uso
+- Un distintivo "Seguro" junto a la ficha del modelo (solo Hugging Face)
+- Checksums coincidentes[^1]
+  - En Hugging Face, puedes encontrar el hash haciendo clic en un archivo de modelo y buscando el botón **Copy SHA256** debajo de él. Debes comparar esta checksum con la del fichero modelo que has descargado.
 
-A downloaded model is generally safe if it satisfies all of the above checks.
+Por lo general, un modelo descargado es seguro si satisface todas las comprobaciones anteriores.
 
 ## Criterios
 
-Please note we are not affiliated with any of the projects we recommend. In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project and conduct your own research to ensure it's the right choice for you.
+Por favor, ten en cuenta que no estamos afiliados a ninguno de los proyectos que recomendamos. Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que te familiarices con esta lista antes de decidir utilizar un proyecto y realices tu propia investigación para asegurarte de que es la elección ideal para ti.
 
 ### Requisitos Mínimos
 
-- Must be open-source.
-- Must not transmit personal data, including chat data.
-- Must be multi-platform.
-- Must not require a GPU.
-- Must have support for GPU-powered fast inference.
-- Must not require an internet connection.
+- Debe ser de código abierto.
+- No debe transmitir datos personales, incluidos los del chat.
+- Debe ser multiplataforma.
+- No debe requerir GPU.
+- Debe ser compatible con la inferencia rápida en la GPU.
+- No debe requerir conexión a Internet.
 
 ### Mejor Caso
 
-Our best-case criteria represent what we _would_ like to see from the perfect project in this category. Es posible que nuestras recomendaciones no incluyan todas o algunas de estas funciones, pero las que sí las incluyan pueden estar mejor clasificadas que otras en esta página.
+Nuestros criterios para el mejor de los casos representan lo que nos _gustaría_ ver en el proyecto perfecto de esta categoría. Es posible que nuestras recomendaciones no incluyan todas o algunas de estas funciones, pero las que sí las incluyan pueden estar mejor clasificadas que otras en esta página.
 
-- Should be easy to download and set up, e.g. with a one-click install process.
-- Should have a built-in model downloader option.
-- The user should be able to modify the LLM parameters, such as its system prompt or temperature.
+- Debería ser fácil de descargar y configurar, por ejemplo, con un proceso de instalación de un solo clic.
+- Debería tener una opción de descarga de modelos integrada.
+- El usuario debería poder modificar los parámetros de la LLM, como su indicador de sistema o su temperatura.
 
-[^1]: A file checksum is a type of anti-tampering fingerprint. A developer usually provides a checksum in a text file that can be downloaded separately, or on the download page itself. Verifying that the checksum of the file you downloaded matches the one provided by the developer helps ensure that the file is genuine and wasn't tampered with in transit. You can use commands like `sha256sum` on Linux and macOS, or `certutil -hashfile file SHA256` on Windows to generate the downloaded file's checksum.
+[^1]: La checksum de un archivo es un tipo de huella digital antimanipulación. Un desarrollador suele proporcionar una checksum en un archivo de texto que puede descargarse por separado, o en la propia página de descarga. Verificar que la checksum del archivo descargado coincide con la proporcionada por el desarrollador ayuda a garantizar que el archivo es auténtico y no ha sido manipulado durante el transporte. Puedes utilizar comandos como `sha256sum` en Linux y macOS, o `certutil -hashfile file SHA256` en Windows para generar la checksum del archivo descargado.

@@ -10,18 +10,18 @@ Privacy Guides lleva más de 5 años esforzándose sin descanso por mantenerse a
 
 ## Donar
 
-MAGIC Grants is our fiscal host, and their custom, open-source donation platform allows you to donate to our project with **Monero**, **Bitcoin**, or **debit/credit card**.
+MAGIC Grants es nuestro anfitrión fiscal, y su plataforma de donaciones personalizada y de código abierto te permite donar a nuestro proyecto con **Monero**, **Bitcoin** o **tarjeta de débito/crédito**.
 
-[:material-heart:{ .pg-red } Donate](https://donate.magicgrants.org/privacyguides){ class="md-button md-button--primary" }
-[Sponsor on GitHub](https://github.com/sponsors/privacyguides){ class="md-button" }
+[:material-heart:{ .pg-red } Donar](https://donate.magicgrants.org/privacyguides){ class="md-button md-button--primary" }
+[Patrocinar en GitHub](https://github.com/sponsors/privacyguides){ class="md-button" }
 
-Donating with Monero will maximize your donation by lowering our transaction fees while simultaneously [preserving your privacy](../cryptocurrency.md), win-win! You can also donate to us via GitHub Sponsors if you prefer, or if you would like to publicize your support. GitHub does not charge us any fees if you donate as an individual, but may charge us fees if you donate with a GitHub organization, if this is a concern for you.
+Donar con Monero maximizará tu donación al reducir nuestras comisiones de transacción mientras que simultáneamente [preserva tu privacidad](../cryptocurrency.md), ¡ganamos todos! Si lo prefieres, también puedes donarnos a través de GitHub Sponsors, o si quieres hacer público tu apoyo. GitHub no nos cobra ninguna comisión si donas como particular, pero puede cobrarnos comisiones si donas con una organización de GitHub, si esto te preocupa.
 
 ## Cómo usamos las donaciones
 
-Privacy Guides is a **non-profit** project. Your donation will go to a [dedicated fund](https://magicgrants.org/funds/privacy_guides) within [MAGIC Grants](https://magicgrants.org), a 501(c)(3) organization and our fiscal host. The funds will **only** be used for this project specifically.
+Privacy Guides es un proyecto **sin ánimo de lucro**. Tu donación irá a un [fondo dedicado](https://magicgrants.org/funds/privacy_guides) dentro de [MAGIC Grants](https://magicgrants.org), una organización 501(c)(3) y nuestro anfitrión fiscal. Los fondos **solo** se utilizarán específicamente para este proyecto.
 
-Es posible que puedas beneficiarte de una deducción fiscal. When you donate to us [here](https://donate.magicgrants.org/privacyguides) with cryptocurrency or card you have the option to receive a receipt from MAGIC Grants for this purpose. If you have questions about other transactions please email <info@magicgrants.org>.
+Es posible que puedas beneficiarte de una deducción fiscal. Cuando nos dones [aquí](https://donate.magicgrants.org/privacyguides) con criptomonedas o tarjeta, tienes la opción de recibir un recibo de MAGIC Grants por este concepto. Si tienes preguntas sobre otras transacciones, envía un correo electrónico a <info@magicgrants.org>.
 
 Utilizamos las donaciones para diversos fines, entre ellos:
 
@@ -33,7 +33,7 @@ El tráfico de este sitio web utiliza cientos de gigabytes de datos al mes, util
 **Nómina**
 :
 
-We are endeavoring to [hire](jobs.md) full-time journalists and writers to review products and create more educational content on a regular basis.
+Nos esforzamos por [contratar](jobs.md) periodistas y escritores a tiempo completo para revisar productos y crear más contenidos educativos de forma regular.
 
 **Registro de Dominios**
 :
@@ -50,16 +50,16 @@ Alojamos [servicios de internet](services.md) para probar y mostrar diferentes p
 
 Ocasionalmente compramos productos y servicios con el fin de probar nuestras [herramientas recomendadas](../tools.md).
 
-Thank you to all those who support our mission! :material-heart:{ .pg-red }
+¡Gracias a todos los que apoyan nuestra misión! :material-heart:{ .pg-red }
 
-We strictly **cannot** use donations to support political campaigns/candidates or attempt to influence legislation. Earnings also will **not** inure to the benefit of any private shareholder or individual.
+**No podemos** utilizar las donaciones para apoyar campañas o candidatos políticos ni para influir en la legislación. Los beneficios **tampoco** beneficiarán a ningún accionista privado o particular.
 
 ## Mercadería
 
-Another option to support us is by buying our merchandise from HelloTux. We get a small commission for each item sold, and you get a quality product to show for it.
+Otra opción para apoyarnos es comprar nuestra mercadería en HelloTux. Nosotros recibimos una pequeña comisión por cada artículo vendido, y tú obtienes un producto de calidad como recompensa.
 
-[Buy on HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
+[Comprar en HelloTux.com](https://hellotux.com/privacyguides){ class="md-button" }
 
 ## Apoyo No Financiero
 
-It takes a lot of [people](contributors.md) and [work](https://github.com/privacyguides/privacyguides.org/pulse/monthly) to keep Privacy Guides up to date and spread the word about privacy and mass surveillance. If you're looking for other ways to help out, consider getting involved by [editing the site](https://github.com/privacyguides/privacyguides.org), [joining our forum](https://discuss.privacyguides.net), or [contributing translations](https://crowdin.com/project/privacyguides).
+Se necesita mucha [gente](contributors.md) y [trabajo](https://github.com/privacyguides/privacyguides.org/pulse/monthly) para mantener actualizada Privacy Guides y difundir información sobre la privacidad y la vigilancia masiva. Si buscas otras formas de ayudar, considera la posibilidad de participar [editando el sitio](https://github.com/privacyguides/privacyguides.org), [uniéndote a nuestro foro](https://discuss.privacyguides.net) o [contribuyendo con traducciones](https://crowdin.com/project/privacyguides).

@@ -76,13 +76,13 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
     **Cromite** es un navegador para Android basado en Chromium con bloqueo de anuncios y [mejoras de privacidad] integradas(https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). Se trata de una bifurcación del popular navegador Bromite, ya descontinuado.
 
-    - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
+    - [Lea la Reseña Completa :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
 
 - ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
 
     ---
 
-    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) features and default tracker blocking. También separa sus cookies en el modo de navegación privada para evitar el seguimiento entre pestañas.
+    Recomendamos **Safari** por sus funciones [anti-huella digital](https://webkit.org/blog/15697/private-browsing-2-0) y bloqueo de rastreadores por defecto. También separa sus cookies en el modo de navegación privada para evitar el seguimiento entre pestañas.
 
     - [Lea la Reseña Completa :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 
