@@ -63,14 +63,14 @@ Para ayudarte a elegir un modelo que se adapte a tus necesidades, puedes consult
 
 ![Kobold.cpp Logo](assets/img/ai-chat/kobold.png){align=right}
 
-Kobold.cpp is an AI client that runs locally on your Windows, Mac, or Linux computer. It's an excellent choice if you are looking for heavy customization and tweaking, such as for role-playing purposes.
+Kobold.cpp es un cliente de IA que se ejecuta localmente en tu ordenador Windows, Mac o Linux. Es una opción excelente si lo que buscas es una gran personalización y ajuste, por ejemplo para juegos de rol.
 
-In addition to supporting a large range of text models, Kobold.cpp also supports image generators such as [Stable Diffusion](https://stability.ai/stable-image) and automatic speech recognition tools such as [Whisper](https://github.com/ggerganov/whisper.cpp).
+Además de soportar una amplia gama de modelos de texto, Kobold.cpp también soporta generadores de imágenes como [Stable Diffusion](https://stability.ai/stable-image) y herramientas de reconocimiento automático de voz como [Whisper](https://github.com/ggerganov/whisper.cpp).
 
-[:octicons-home-16: Homepage](https://github.com/LostRuins/koboldcpp){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="Source Code" }
-[:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="Security Policy" }
+[:octicons-home-16: Página Principal](https://github.com/LostRuins/koboldcpp){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="Código Fuente" }
+[:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="Política de Seguridad" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -84,13 +84,13 @@ In addition to supporting a large range of text models, Kobold.cpp also supports
 </div>
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Compatibility Issues</p>
+<p class="admonition-title">Problemas de Compatibilidad</p>
 
-Kobold.cpp might not run on computers without AVX/AVX2 support.
+Kobold.cpp podría no funcionar en ordenadores sin soporte AVX/AVX2.
 
 </div>
 
-Kobold.cpp allows you to modify parameters such as the AI model temperature and the AI chat's system prompt. It also supports creating a network tunnel to access AI models from other devices such as your phone.
+Kobold.cpp te permite modificar parámetros como la temperatura del modelo de IA y el indicador de sistema del chat de IA. También permite crear un túnel de red para acceder a los modelos de IA desde otros dispositivos, como el teléfono.
 
 ### Ollama (CLI)
 
@@ -98,14 +98,14 @@ Kobold.cpp allows you to modify parameters such as the AI model temperature and 
 
 ![Ollama Logo](assets/img/ai-chat/ollama.png){align=right}
 
-Ollama is a command-line AI assistant that is available on macOS, Linux, and Windows. Ollama is a great choice if you're looking for an AI client that's easy-to-use, widely compatible, and fast due to its use of inference and other techniques. It also doesn't involve any manual setup.
+Ollama es un asistente de IA de línea de comandos que está disponible en macOS, Linux y Windows. Ollama es una gran elección si buscas un cliente de IA fácil de usar, ampliamente compatible y rápido gracias a su uso de la inferencia y otras técnicas. Tampoco requiere ninguna configuración manual.
 
-In addition to supporting a wide range of text models, Ollama also supports [LLaVA](https://github.com/haotian-liu/LLaVA) models and has experimental support for Meta's [Llama vision capabilities](https://huggingface.co/blog/llama32#what-is-llama-32-vision).
+Además de soportar una amplia gama de modelos de texto, Ollama también soporta modelos [LLaVA](https://github.com/haotian-liu/LLaVA) y tiene soporte experimental para las [capacidades vision de Llama] (https://huggingface.co/blog/llama32#what-is-llama-32-vision) de Meta.
 
-[:octicons-home-16: Homepage](https://ollama.com){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/ollama/ollama#readme){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ollama/ollama){ .card-link title="Source Code" }
-[:octicons-lock-16:](https://github.com/ollama/ollama/blob/a14f76491d694b2f5a0dec6473514b7f93beeea0/SECURITY.md){ .card-link title="Security Policy" }
+[:octicons-home-16: Página Principal](https://ollama.com){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/ollama/ollama#readme){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/ollama/ollama){ .card-link title="Código Fuente" }
+[:octicons-lock-16:](https://github.com/ollama/ollama/blob/a14f76491d694b2f5a0dec6473514b7f93beeea0/SECURITY.md){ .card-link title="Política de Seguridad" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -118,7 +118,7 @@ In addition to supporting a wide range of text models, Ollama also supports [LLa
 
 </div>
 
-Ollama simplifies the process of setting up a local AI chat by downloading the AI model you want to use automatically. For example, running `ollama run llama3.2` will automatically download and run the Llama 3.2 model. Furthermore, Ollama maintains their own [model library](https://ollama.com/library) where they host the files of various AI models. This ensures that models are vetted for both performance and security, eliminating the need to manually verify model authenticity.
+Ollama simplifica el proceso de creación de un chat de IA local descargando automáticamente el modelo de IA que deseas utilizar. Por ejemplo, ejecutar `ollama run llama3.2` descargará y ejecutará automáticamente el modelo Llama 3.2. Además, Ollama mantiene su propia [biblioteca de modelos](https://ollama.com/library) donde aloja los archivos de varios modelos de IA. De este modo se garantiza que los modelos se examinan tanto en lo que respecta al rendimiento como a la seguridad, eliminando la necesidad de verificar manualmente la autenticidad de los modelos.
 
 ### Llamafile
 
@@ -126,9 +126,9 @@ Ollama simplifies the process of setting up a local AI chat by downloading the A
 
 ![Llamafile Logo](assets/img/ai-chat/llamafile.svg){align=right}
 
-Llamafile is a lightweight single-file executable that allows users to run LLMs locally on their own computers without any setup involved. It is [backed by Mozilla](https://hacks.mozilla.org/2023/11/introducing-llamafile) and available on Linux, macOS, and Windows.
+Llamafile es un ejecutable ligero de un solo archivo que permite a los usuarios ejecutar LLM localmente en sus propios ordenadores sin necesidad de configuración. Está [respaldado por Mozilla](https://hacks.mozilla.org/2023/11/introducing-llamafile) y disponible en Linux, macOS y Windows.
 
-Llamafile also supports LLaVA. However, it doesn't support speech recognition or image generation.
+Llamafile también es compatible con LLaVA. Sin embargo, no admite el reconocimiento de voz ni la generación de imágenes.
 
 [:octicons-home-16: Homepage](https://github.com/Mozilla-Ocho/llamafile){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Mozilla-Ocho/llamafile#llamafile){ .card-link title="Documentation" }
