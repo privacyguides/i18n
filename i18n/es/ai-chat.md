@@ -90,7 +90,7 @@ Kobold.cpp podría no funcionar en ordenadores sin soporte AVX/AVX2.
 
 </div>
 
-Kobold.cpp te permite modificar parámetros como la temperatura del modelo de IA y el indicador de sistema del chat de IA. También permite crear un túnel de red para acceder a los modelos de IA desde otros dispositivos, como el teléfono.
+Kobold.cpp te permite modificar parámetros como la temperatura del modelo de IA y el prompt de sistema del chat de IA. También permite crear un túnel de red para acceder a los modelos de IA desde otros dispositivos, como el teléfono.
 
 ### Ollama (CLI)
 
@@ -184,6 +184,6 @@ Nuestros criterios para el mejor de los casos representan lo que nos _gustaría_
 
 - Debería ser fácil de descargar y configurar, por ejemplo, con un proceso de instalación de un solo clic.
 - Debería tener una opción de descarga de modelos integrada.
-- El usuario debería poder modificar los parámetros de la LLM, como su indicador de sistema o su temperatura.
+- El usuario debería poder modificar los parámetros de la LLM, como su prompt de sistema o su temperatura.
 
 [^1]: La checksum de un archivo es un tipo de huella digital antimanipulación. Un desarrollador suele proporcionar una checksum en un archivo de texto que puede descargarse por separado, o en la propia página de descarga. Verificar que la checksum del archivo descargado coincide con la proporcionada por el desarrollador ayuda a garantizar que el archivo es auténtico y no ha sido manipulado durante el transporte. Puedes utilizar comandos como `sha256sum` en Linux y macOS, o `certutil -hashfile file SHA256` en Windows para generar la checksum del archivo descargado.
