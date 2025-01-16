@@ -1,6 +1,6 @@
 ---
-meta_title: "Privacy Guides: Independent Privacy & Security Resources"
-description: "Established in 2021, Privacy Guides is the most popular & trustworthy non-profit resource to find privacy tools and learn about protecting your digital life."
+meta_title: "Privacy Guides: Recursos Imparciais & de Privacidade e Segurança"
+description: "Estabelecido em 2021, O Privacy Guides é a fonte mais popular & e confiável para encontrar ferramentas de privacidade e para aprender sobre como proteger sua vida digital."
 template: home.html
 social:
   cards_layout: home
@@ -40,82 +40,82 @@ schema:
 <!-- markdownlint-disable -->
 <div class="grid" markdown>
 <div markdown>
-## Why should I care?
+## Por que eu devo me importar?
 
-> “I have nothing to hide. Why should I care about my privacy?”
+> "Não tenho nada a esconder. Por que eu deveria me preocupar com a minha privacidade?”
 
-Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
+Assim como o direito à segurança, o direito ao voto pleno, a liberdade de expressão, e muitos outros, nosso direito a privacidade nem sempre foi respeitado. Em várias ditaduras, continua a não ser. Gerações anteriores à nossa lutaram por nosso direito à privacidade. ==Privacidade é um direito humano, inerente a todos nós,== ao qual temos direito (sem discriminação).
 
-You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
+Você não deve confundir privacidade com segredo. Sabemos o que acontece no banheiro, mas você ainda fecha a porta. Isso é porque você quer privacidade, não segredo. **Todos** têm algo para proteger. Privacidade é algo que nos torna humanos.
 
-[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button" }
+[:material-book-outline: Por que a privacidade importa](basics/why-privacy-matters.md){ class="md-button" }
 </div>
 
 <div markdown>
-## What should I do?
+## O que eu devo fazer?
 
-> First, you need to make a plan
+> Primeiro, você precisa fazer um plano
 
-Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. Mas não se preocupe! A segurança é um processo e, pensando no futuro, você pode construir um plano que seja o mais indicado para você. Security isn't just about the *privacy tools* you use or the software you download. Muito além disso, começa por perceber as ameaças únicas que você enfrenta, e como você pode reduzi-las.
+Tentar proteger todos os seus dados de todo mundo o tempo todo é impraticável, caro e exaustivo. Mas não se preocupe! A segurança é um processo e, pensando no futuro, você pode construir um plano que seja o mais indicado para você. Segurança não é apenas sobre as ferramentas que você usa ou o programa que você baixa. Muito além disso, começa por perceber as ameaças únicas que você enfrenta, e como você pode reduzi-las.
 
-==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
+==Esse processo de identificação de ameaças e definição de contramedidas é chamado de **modelagem de ameaças**==, e forma a base de todo bom plano de segurança e privacidade.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button" }
+[:material-book-outline: Saiba Mais Sobre Modelagem de Ameaça](basics/threat-modeling.md){ class="md-button" }
 </div>
 </div>
 
-## Trustworthy Privacy Software Reviews
+## Avaliações de softwares de privacidade confiáveis
 
 <div class="grid" markdown>
 
 <div markdown>
-**Privacy Guides** has a dedicated [community](https://discuss.privacyguides.net) independently reviewing various *privacy tools* and services. Each of our recommendations comply with a strict set of criteria to ensure they provide the most value to most people, and provide the best balance of privacy, security, and convenience. As part of a non-profit **public charity**, Privacy Guides has strict **journalistic standards** and policies to ensure our recommendations are free of conflict of interest, and we do not partner with providers or affiliate programs that could sway our reviews and recommendations.
+O **Privacy Guides** tem uma [comunidade](https://discuss.privacyguides.net) dedicada que analisa independentemente vários serviços e *ferramentas de privacidade*. Cada uma de nossas recomendações obedece a um rigoroso conjunto de critérios para garantir que elas ofereçam o maior valor para a maioria das pessoas e proporcionem o melhor equilíbrio entre privacidade, segurança e conveniência. Como parte de uma **instituição pública de caridade** sem fins lucrativos, o Privacy Guides tem rígidos **padrões jornalísticos** e políticas para garantir que nossas recomendações sejam isentas de conflitos de interesse, e não fazemos parcerias com provedores ou programas afiliados que possam influenciar nossas análises e recomendações.
 
-[:material-heart:{.pg-red} Support Our Work](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary }
+[:material-heart:{.pg-red} Apoie Nossa Obra](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary }
 </div>
 
-- [x] **Ad-Free Recommendations**
-- [x] **Complete Editorial Independence**
-- [x] **Non-Profit & Open Source**
-- [x] **Frequent Updates**
-- [x] **Trusted by Journalists**
-- [x] **Trusted by Readers**
+- [x] **Recomendações sem anúncios**
+- [x] **Independência editorial completa**
+- [x] **Sem fins lucrativos e de código aberto**
+- [x] **Atualizações frequentes**
+- [x] **Confiado por jornalistas**
+- [x] **Confiado por leitores**
 
 </div>
 
-### Top 3 Private Email Providers
+### Os 3 principais provedores de e-mail privado
 
 <div class="grid cards" markdown>
 
--   ![Proton Mail logo](assets/img/email/protonmail.svg){ .lg .middle .twemoji loading=lazy } **Proton Mail**
+-   ![logo do Proton Mail](assets/img/email/protonmail.svg){ .lg .middle .twemoji loading=lazy } **Proton Mail**
 
     ---
 
-    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG é localizado em Genève, Suíça. O plano Proton Mail Free vem com 500 Mb de armazenamento de e-mail, que você pode aumentar até 1 GB gratuitamente.
+    Proton Mail é um serviço de e-mail focado em privacidade, criptografia, segurança, e facilidade de uso. Eles estão em operação desde 2013. Proton AG é localizado em Genève, Suíça. O plano Proton Mail Free vem com 500 Mb de armazenamento de e-mail, que você pode aumentar até 1 GB gratuitamente.
 
-    [:octicons-arrow-right-24: Read Full Review](email.md#proton-mail)
+    [:octicons-arrow-right-24: Leia a Análise Completa](email.md#proton-mail)
 
--   ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji loading=lazy } **Mailbox.org**
-
-    ---
-
-    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. Eles estão operando desde 2014. Mailbox.org é sediado em Berlim, Alemanha. As contas começam com até 2 GB de armazenamento, que podem ser aumentados conforme necessário.
-
-    [:octicons-arrow-right-24: Read Full Review](email.md#mailboxorg)
-
--   ![Tuta logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji loading=lazy } **Tuta**
+- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji loading=lazy } **Mailbox. rg**
 
     ---
 
-    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Contas gratuitas começam com 1GB de armazenamento.
+    Mailbox.org é um serviço de correio electrónico centrado em ser seguro, livre de anúncios e alimentado com energia 100% amiga do meio ambiente. Eles estão operando desde 2014. Mailbox.org é sediado em Berlim, Alemanha. As contas começam com até 2 GB de armazenamento, que podem ser aumentados conforme necessário.
 
-    [:octicons-arrow-right-24: Read Full Review](email.md#tuta)
+    [:octicons-arrow-right-24: Leia a Análise Completa](email.md#mailboxorg)
+
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ . g .middle .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle . wemoji loading=lazy } **Tuta**
+
+    ---
+
+    Tuta (anteriormente *Tutanota*) é um serviço de e-mail com foco na segurança e privacidade através do uso de criptografia. Tutá está em funcionamento desde 2011 e está sediado em Hanover, Alemanha. Contas gratuitas começam com 1GB de armazenamento.
+
+    [:octicons-arrow-right-24: Leia a Análise Completa](email.md#tuta)
 
 </div>
 
 <div class="grid" markdown>
 <div markdown>
-### Best VPN Services
+### Melhores serviços de VPN
 
 <div class="grid cards" markdown>
 
@@ -127,63 +127,63 @@ Trying to protect all your data from everyone all the time is impractical, expen
 </div>
 
 <div markdown>
-### Secure Cloud Storage Services
+### Serviços de armazenamento seguro em nuvem
 
 <div class="grid cards" markdown>
 
-- ![Proton Drive logo](assets/img/cloud/protondrive.svg){ .twemoji loading=lazy } [Proton Drive](cloud.md#proton-drive)
-- ![Tresorit logo](assets/img/cloud/tresorit.svg){ .twemoji loading=lazy } [Tresorit](cloud.md#tresorit)
-- ![Peergos logo](assets/img/cloud/peergos.svg){ .twemoji loading=lazy } [Peergos](cloud.md#peergos)
+- ![Logo da Proton Drive](assets/img/cloud/protondrive.svg){ .twemoji loading=lazy } [Proton Drive](cloud.md#proton-drive)
+- ![Logo do Tresorit](assets/img/cloud/tresorit.svg){ .twemoji loading=lazy } [Tresorit](cloud.md#tresorit)
+- ![Logo do Peergos](assets/img/cloud/peergos.svg){ .twemoji loading=lazy } [Peergos](cloud.md#peergos)
 
 </div>
 </div>
 
 <div markdown>
-### Best Web Browsers
+### Melhores Navegadores da Web
 
 <div class="grid cards" markdown>
 
-- ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .twemoji loading=lazy } [Mullvad Browser](desktop-browsers.md#mullvad-browser)
-- ![Firefox logo](assets/img/browsers/firefox.svg){ .twemoji loading=lazy } [Firefox](desktop-browsers.md#firefox)
-- ![Brave logo](assets/img/browsers/brave.svg){ .twemoji loading=lazy } [Brave](desktop-browsers.md#brave)
+- ![Logotipo do Mullvad Browser](assets/img/browsers/mullvad_browser.svg){ .twemoji loading=lazy } [Mullvad Browser](desktop-browsers.md#mullvad-browser)
+- ![Logotipo do Firefox](assets/img/browsers/firefox.svg){ .twemoji loading=lazy } [Firefox](desktop-browsers.md#firefox)
+- ![Logotipo do Brave](assets/img/browsers/brave.svg){ .twemoji loading=lazy } [Brave](desktop-browsers.md#brave)
 
 </div>
 </div>
 </div>
 
-[:material-format-list-checkbox: More Recommended **Privacy Tools**](tools.md){ class="md-button md-button--primary" }
-[Best Mobile Browsers](mobile-browsers.md ""){.md-button} [Top Browser Extensions](browser-extensions.md ""){.md-button} [DNS Servers](dns.md ""){.md-button} [Email Aliasing Services](email-aliasing.md ""){.md-button} [Photo Organization Tools](photo-management.md ""){.md-button} [PC Operating Systems](desktop.md ""){.md-button}
+[:material-format-list-checkbox: Mais **Ferramentas Recomendadas de Privacidade**](tools.md) {class="md-button md-button--primary" }
+[Melhores navegadores móveis](mobile-browsers.md ""){.md-button} [Principais extensões de navegador](browser-extensions.md ""){.md-button} [Servidores DNS](dns.md ""){.md-button} [Serviços de Aliasing de E-mail](email-aliasing.md ""){.md-button} [Ferramentas de organização de fotos](photo-management.md ""){.md-button} [Sistemas operacionais de PC](desktop.md ""){.md-button}
 
 ---
 
-## About Privacy Guides
+## Sobre o Privacy Guides
 
-![Privacy Guides logo](assets/brand/logos/png/square/pg-yellow.png){ align=right loading=lazy }
+![Logo do Privacy Guides](assets/brand/logos/png/square/pg-yellow.png){ align=right loading=lazy }
 
-Established in 2021 due to the difficulty of finding unbiased reviewers in the VPN and privacy space, **Privacy Guides** is the most popular, trustworthy, non-profit website that provides information about protecting your *personal* data security and privacy. Our crowdsourced recommendations and reviews of **privacy tools** and our community dedicated to helping others set us apart from other blogs and content creators. The team behind this project has been researching privacy and security in the open-source space for over 5 years, originally with a now-defunct web resource that eventually became the *Privacy Guides* millions of readers trust.
+Criado em 2021 devido à dificuldade de encontrar avaliadores imparciais no espaço de VPN e privacidade, o **Privacy Guides** é o site sem fins lucrativos mais popular e confiável que fornece informações sobre como proteger a segurança e a privacidade de seus dados *pessoais*. Nossas recomendações e revisões colaborativas das **ferramentas de privacidade** e nossa comunidade dedicada a ajudar os outros, nos diferenciam de outros blogs e criadores de conteúdo. A equipe por trás desse projeto vem pesquisando sobre privacidade e segurança no espaço de código aberto há mais de 5 anos, originalmente com um recurso da Web agora extinto que acabou se tornando o *Privacy Guides*, no qual milhões de leitores confiam.
 
-*Our website is free of advertisements and not affiliated with any of the listed providers.*
+*Nosso site é livre de anúncios e não é afiliado a nenhum dos provedores listados.*
 
-As seen in **WIRED**, **Tweakers.net**, **The New York Times**, and many other publications as a reliable source for privacy and security knowledge.
+Considerado pela **WIRED**, **Tweakers.net**, **The New York Times**, e muitas outras publicações como uma fonte confiável de conhecimento sobre privacidade e segurança.
 
-[:material-information: More About Who We Are](about.md){ class="md-button md-button--primary" } [:material-email: Join our Newsletter](https://blog.privacyguides.org/#/portal/signup ""){.md-button}
+[:material-information: Mais sobre quem somos](about.md){ class="md-button md-button--primary" } [:material-email: Junte-se à nossa Newsletter](https://blog.privacyguides.org/#/portal/signup ""){.md-button}
 
 <div class="grid" markdown>
 <div markdown>
-## What are privacy tools?
+## O que são ferramentas de privacidade?
 
-We recommend a wide variety of **privacy tools** (a.k.a. *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can adopt to improve your privacy. Many of the tools we recommend are completely free to use and open-source software, while some are commercial services available for purchase. Switching from mainstream data-hungry software like Google Chrome and Windows to privacy-focused tools like [Brave](desktop-browsers.md#brave) and [Linux](desktop.md) can go a long way towards controlling the information you share with companies and others.
+Recomendamos uma grande variedade de **ferramentas de privacidade** (a.k.a. *apps de privacidade*, *utilitários de privacidade*, *softwares de privacidade*) abrangendo software e hardware que você pode adotar para melhorar sua privacidade. Muitas das ferramentas que recomendamos são totalmente gratuitas e de software de código aberto, enquanto algumas são serviços comerciais disponíveis para compra. Mudar do software convencional que consome muitos dados, como o Google Chrome e o Windows, para ferramentas voltadas para a privacidade, como o [Brave](desktop-browsers.md#brave) e o [Linux](desktop.md), pode ajudar muito a controlar as informações que você compartilha com empresas e outras pessoas.
 
-[:material-check-all: Our General Criteria](about/criteria.md){ class="md-button" }
+[:material-check-all: Nosso Critério Geral](about/criteria.md){ class="md-button" }
 </div>
 
 <div markdown>
-## Why does privacy matter?
+## Porque a Privacidade Importa?
 
-In the modern age of digital data exploitation, your privacy has never been more critical, yet many believe it is already a lost cause. Não é. ==Your privacy is up for grabs, and you need to care about it.== Privacy is about power, and it is so important that this power ends up in the right hands.
+Na era moderna da exploração de dados digitais, sua privacidade nunca foi tão importante e, ainda assim, muitos acreditam que ela já é uma causa perdida. Não é. ==Sua privacidade está em jogo e você precisa se preocupar com ela.== Privacidade tem a ver com poder, e é muito importante que esse poder esteja nas mãos certas.
 
-Many people get the concepts of privacy, security, and anonymity confused. Você verá pessoas criticando vários produtos como "não privados" quando, na verdade, elas querem dizer que eles não fornecem anonimato, por exemplo. Neste site, examinamos todos esses três tópicos, mas é importante que você entenda a diferença entre eles e quando cada um entra em ação.
+Muitas pessoas confundem os conceitos de privacidade, segurança e anonimato. Você verá pessoas criticando vários produtos como "não privados" quando, na verdade, elas querem dizer que eles não fornecem anonimato, por exemplo. Neste site, examinamos todos esses três tópicos, mas é importante que você entenda a diferença entre eles e quando cada um entra em ação.
 
-[Privacy vs Security vs Anonymity](basics/why-privacy-matters.md#what-is-privacy){ class="md-button" }
+[Privacidade vs Segurança vs Anonimato](basics/why-privacy-matters.md#what-is-privacy){ class="md-button" }
 </div>
 </div>

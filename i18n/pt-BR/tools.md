@@ -172,7 +172,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
 </div>
 
-## Top 3 Private Email Providers
+## Os 3 principais provedores de e-mail privado
 
 <div class="grid cards" markdown>
 
@@ -180,7 +180,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG é localizado em Genève, Suíça. O plano Proton Mail Free vem com 500 Mb de armazenamento de e-mail, que você pode aumentar até 1 GB gratuitamente.
+    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. Eles estão em operação desde 2013. Proton AG é localizado em Genève, Suíça. O plano Proton Mail Free vem com 500 Mb de armazenamento de e-mail, que você pode aumentar até 1 GB gratuitamente.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
 
@@ -196,7 +196,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Contas gratuitas começam com 1GB de armazenamento.
+    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tutá está em funcionamento desde 2011 e está sediado em Hanover, Alemanha. Contas gratuitas começam com 1GB de armazenamento.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#tuta)
 
