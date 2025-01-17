@@ -77,7 +77,7 @@ If you use Android and your threat model requires protecting against [:material-
 
 ![Molly-Logo](assets/img/messengers/molly.svg){ align=right }
 
-**Molly** ist ein alternativer Signal-Client für Android, der es dir ermöglicht, die lokale Datenbank im Ruhezustand mit einer Passphrase zu verschlüsseln, ungenutzte RAM-Daten sicher zu schreddern, deine Verbindung über Tor zu leiten und [mehr](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features). Außerdem gibt es Verbesserungen bei der Benutzerfreundlichkeit, wie z. B. geplante Backups, automatisches Sperren und die Möglichkeit, dein Android-Telefon als verknüpftes Gerät anstelle des Hauptgeräts für ein Signal-Konto zu verwenden.
+**Molly** ist ein alternativer Signal-Client für Android, der es dir ermöglicht, die lokale Datenbank im Ruhezustand mit einer Passphrase zu verschlüsseln, ungenutzte RAM-Daten sicher zu schreddern, deine Verbindung über Tor zu leiten und [mehr](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features). It also has usability improvements including scheduled backups, automatic locking, [UnifiedPush](https://unifiedpush.org) support, and the ability to use your Android phone as a linked device instead of the primary device for a Signal account.
 
 [:octicons-home-16: Homepage](https://molly.im){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Datenschutzerklärung" }
@@ -100,13 +100,11 @@ Molly wird alle zwei Wochen aktualisiert, um die neuesten Funktionen und Fehlerb
 
 Beachte, dass du durch die Verwendung von Molly mehreren Parteien vertraust, da du nun dem Signal-Team *und dem* Molly-Team vertrauen musst, dass sie sichere und rechtzeitige Aktualisierungen liefern.
 
-Es gibt eine Version von Molly namens **Molly-FOSS**, die proprietären Code wie die Google-Dienste, die sowohl von Signal als auch von Molly verwendet werden, entfernt, was allerdings auf Kosten einiger Funktionen wie akkusparende Push-Benachrichtigungen via Google Play Services geht.
+There is a version of Molly called **Molly-FOSS** which removes proprietary code like the Google services used by both Signal and Molly, at the expense of some features like battery-saving push notifications via Google Play Services. You can regain push notifications without Google Play Services in either version of Molly with [UnifiedPush](https://unifiedpush.org), but it requires running a separate program called [Mollysocket](https://github.com/mollyim/mollysocket) on another device to function. Mollysocket can either be self-hosted on a separate computer or server (VPS), or alternatively a public Mollysocket instance can be used ([step-by-step tutorial, in German](https://kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy)).
 
-There is also a version called [**Molly-UP**](https://github.com/mollyim/mollyim-android#unifiedpush) which is based on Molly-FOSS and adds support for push notifications with [UnifiedPush](https://unifiedpush.org), an open source alternative to the push notifications provided by Google Play Services, but it requires running a separate program called [Mollysocket](https://github.com/mollyim/mollysocket) to function. Mollysocket can either be self-hosted on a separate computer or server (VPS), or alternatively a public Mollysocket instance can be used ([step-by-step tutorial, in German](https://kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy)).
+All versions of Molly provide the same security improvements.
 
-Alle drei Versionen von Molly bieten die gleichen Sicherheitsverbesserungen.
-
-Molly und Molly-FOSS unterstützen [reproduzierbare Builds](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds), d.h. es ist möglich zu bestätigen, dass die kompilierten APKs mit dem Quellcode übereinstimmen.
+Molly and Molly-FOSS support [reproducible builds](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds), meaning it's possible to confirm that the compiled APKs match the source code.
 
 ### SimpleX Chat
 
@@ -135,13 +133,13 @@ Molly und Molly-FOSS unterstützen [reproduzierbare Builds](https://github.com/m
 
 </div>
 
-SimpleX provides direct messaging, group chats, and E2EE calls secured with the [SimpleX Messaging Protocol](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md), which uses double ratchet encryption with quantum resistance. Zusätzlich bietet SimpleX Chat Schutz für Metadaten durch Verwendung von unidirektionalen [„simplex queues“](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md#simplex-queue), um Nachrichten zu senden.
+SimpleX provides direct messaging, group chats, and E2EE calls secured with the [SimpleX Messaging Protocol](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md), which uses double ratchet encryption with quantum resistance. Additionally, SimpleX Chat provides metadata protection by using unidirectional ["simplex queues"](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md#simplex-queue) to deliver messages.
 
-Um an Unterhaltungen in SimpleX Chat teilzunehmen, musst du einen QR-Code scannen oder auf einen Einladungslink klicken. So kannst du einen Kontakt Out-Of-Band verifizieren, was vor Man-in-the-Middle-Angriffen durch Netzbetreiber schützt. Deine Daten können exportiert und auf ein anderes Gerät importiert werden, da es keine zentralen Server gibt, auf denen die Daten gesichert werden.
+To participate in conversations on SimpleX Chat, you must scan a QR code or click an invite link. This allows you to verify a contact out-of-band, which protects against man-in-the-middle attacks by network providers. Your data can be exported and imported onto another device, as there are no central servers where this is backed up.
 
-Eine vollständige Liste der in SimpleX Chat implementierten [Datenschutz- und Sicherheitsfunktionen](https://github.com/simplex-chat/simplex-chat#privacy-and-security-technical-details-and-limitations) findest du im Repository der App.
+You can find a full list of the privacy and security [features](https://github.com/simplex-chat/simplex-chat#privacy-and-security-technical-details-and-limitations) implemented in SimpleX Chat on the app's repository.
 
-SimpleX Chat wurde im [Juli 2024](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html#simplex-cryptographic-design-review-by-trail-of-bits) und im [Oktober 2022](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website) unabhängig geprüft.
+SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html#simplex-cryptographic-design-review-by-trail-of-bits) and in [October 2022](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website).
 
 ### Briar
 
@@ -169,13 +167,13 @@ SimpleX Chat wurde im [Juli 2024](https://simplex.chat/blog/20241014-simplex-net
 
 </div>
 
-Um einen Kontakt auf Briar hinzuzufügen, musst sich beide Seiten zuerst gegenseitig hinzufügen. Du kannst entweder `briar://` Links austauschen oder den QR-Code eines Kontakts scannen, wenn dieser in der Nähe ist.
+To add a contact on Briar, you must both add each other first. You can either exchange `briar://` links or scan a contact’s QR code if they are nearby.
 
-Die Client-Software wurde von unabhängiger Seite [geprüft](https://briarproject.org/news/2017-beta-released-security-audit), und das anonyme Routing-Protokoll verwendet das Tor-Netzwerk, das ebenfalls geprüft ist.
+The client software was independently [audited](https://briarproject.org/news/2017-beta-released-security-audit), and the anonymous routing protocol uses the Tor network which has also been audited.
 
-Briar hat eine vollständig [veröffentlichte Spezifikation](https://code.briarproject.org/briar/briar-spec).
+Briar has a fully [published specification](https://code.briarproject.org/briar/briar-spec).
 
-Briar unterstützt Forward Secrecy[^1] durch Verwendung des Bramble [Handshake-](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) und [Transportprotokolls](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md).
+Briar supports forward secrecy[^1] by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
 
 ## Weitere Optionen
 
@@ -216,13 +214,13 @@ Nachrichten und Dateien, die in privaten Räumen (für die eine Einladung erford
 
 </div>
 
-Profilbilder, Reaktionen und Spitznamen sind nicht verschlüsselt.
+Profile pictures, reactions, and nicknames are not encrypted.
 
-Mit der Integration von [Element Call](https://element.io/blog/we-have-lift-off-element-x-call-and-server-suite-are-ready) in die Web-App, die Desktop-Apps und die [neu geschriebenen Mobile-Apps](https://element.io/blog/element-x-experience-the-future-of-element) von Element sind Gruppen-VoIP- und Videoanrufe standardmäßig E2EE.
+With the integration of [Element Call](https://element.io/blog/we-have-lift-off-element-x-call-and-server-suite-are-ready) into Element's web app, desktop apps, and its [rewritten mobile apps](https://element.io/blog/element-x-experience-the-future-of-element), group VoIP and video calls are E2EE by default.
 
-Das Matrix-Protokoll selbst [unterstützt theoretisch Forward Secrecy](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1]. Dies wird jedoch [derzeit in Element nicht unterstützt](https://github.com/vector-im/element-web/issues/7101), da es einige Aspekte der Benutzerfreundlichkeit, wie z. B. das Schlüssel-Backup und den gemeinsamen Nachrichtenverlauf, beeinträchtigt.
+The Matrix protocol itself [theoretically supports forward secrecy](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1], however this is [not currently supported in Element](https://github.com/vector-im/element-web/issues/7101) due to it breaking some aspects of the user experience such as key backups and shared message history.
 
-Das Protokoll wurde 2016 einem unabhängigen [Audit](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) unterzogen. Die Spezifikation des Matrix-Protokolls findest du in der entsprechenden [Dokumentation](https://spec.matrix.org/latest). Die von Matrix verwendete [kryptografische Olm Ratchet](https://matrix.org/docs/matrix-concepts/end-to-end-encryption) ist eine Implementierung des [Double-Ratchet-Algorithmus](https://signal.org/docs/specifications/doubleratchet) von Signal.
+The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) in 2016. The specification for the Matrix protocol can be found in their [documentation](https://spec.matrix.org/latest). The [Olm cryptographic ratchet](https://matrix.org/docs/matrix-concepts/end-to-end-encryption) used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet).
 
 ### Session
 
@@ -253,19 +251,19 @@ Session verwendet das dezentralisierte [Oxen Service Node Network](https://oxen.
 
 </div>
 
-Session ermöglicht E2EE in Einzelchats oder geschlossenen Gruppen, die bis zu 100 Mitglieder umfassen können. It is also possible to [set up](https://docs.oxen.io/oxen-docs/products-built-on-oxen/session/guides/open-group-setup) or join open groups which can host thousands of members, but messages in these open groups are **not** end-to-end encrypted between participants.
+Session allows for E2EE in one-on-one chats or closed groups which allow for up to 100 members. It is also possible to [set up](https://docs.oxen.io/oxen-docs/products-built-on-oxen/session/guides/open-group-setup) or join open groups which can host thousands of members, but messages in these open groups are **not** end-to-end encrypted between participants.
 
-Session basierte früher auf dem Signal-Protokoll, bevor es im Dezember 2020 durch sein eigenes ersetzt wurde. Das Session-Protokoll unterstützt [keine](https://getsession.org/blog/session-protocol-technical-information) Forward-Secrecy.[^1]
+Session was previously based on Signal Protocol before replacing it with their own in December 2020. Session Protocol does [not](https://getsession.org/blog/session-protocol-technical-information) support forward secrecy.[^1]
 
-Im März 2020 forderte Oxen ein unabhängiges Audit für Session an. Das Audit wurde im April 2021 [abgeschlossen](https://getsession.org/session-code-audit):
+Oxen requested an independent audit for Session in March 2020. The audit [concluded](https://getsession.org/session-code-audit) in April 2021:
 
 > Das allgemeine Sicherheitsniveau dieser Anwendung ist gut und macht sie für Menschen, die sich um ihre Privatsphäre sorgen, nutzbar.
 
-Session hat ein [Whitepaper](https://arxiv.org/pdf/2002.04609.pdf), in dem die technischen Details der App und des Protokolls beschrieben werden.
+Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the technical details of the app and protocol.
 
 ## Kriterien
 
-**Bitte beachte, dass wir mit keinem der Projekte, die wir empfehlen, in Verbindung stehen.** Zusätzlich zu unseren [Standardkriterien](about/criteria.md) haben wir eine Reihe klarer Anforderungen entwickelt, die es uns ermöglichen, objektive Empfehlungen zu geben. Wir empfehlen dir, dich mit der Liste vertraut zu machen, bevor du dich für ein Projekt entscheidest, und deine eigenen Recherchen anzustellen, um sicherzustellen, dass es die richtige Wahl für dich ist.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 ### Mindestanforderungen
 
