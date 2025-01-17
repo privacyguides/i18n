@@ -100,6 +100,50 @@ El comité ejecutivo del proyecto está conformado por cinco voluntarios encarga
 
 </div>
 
+## Staff
+
+Our staff are paid to contribute to supplemental content at Privacy Guides, like [video production](https://www.youtube.com/@privacyguides), [news articles and tutorials](https://www.privacyguides.org/articles/), and our discussion communities and social media. Most are available and paid on a full-time basis to assist the organization.
+
+<div class="grid cards" markdown>
+
+- :jack_o_lantern:{ .lg .middle } **Em**
+
+  ---
+
+  :material-text-account: Journalist
+
+  [:material-account: Profile](https://discuss.privacyguides.net/u/ematprivacyguides)
+
+  [:material-github:](https://github.com/EmAtPrivacyGuides "GitHub")
+  [:material-mastodon:](https://infosec.exchange/@Em0nM4stodon "@Em0nM4stodon@infosec.exchange"){rel=me}
+  [:material-email:](mailto:em@privacyguides.org "Email")
+
+- :full_moon_with_face:{ .lg .middle } **Jordan Warne**
+
+  ---
+
+  :material-text-account: Content Producer
+
+  [:material-account: Profile](https://discuss.privacyguides.net/u/Jordan)
+
+  [:material-github:](https://github.com/jordan-warne "GitHub")
+  [:material-mastodon:](https://social.lol/@jw "@jw@social.lol"){rel=me}
+  [:material-email:](mailto:jordan@privacyguides.org "Email")
+
+- :japanese_goblin:{ .lg .middle } **Kevin Pham**
+
+  ---
+
+  :material-text-account: Community & News Intern
+
+  [:material-account: Profile](https://discuss.privacyguides.net/u/kevpham)
+
+  [:material-github:](https://github.com/kevpham123 "GitHub")
+  [:material-mastodon:](https://mastodon.social/@kevpham "@kevpham@mastodon.social"){rel=me}
+  [:material-email:](mailto:kevin@privacyguides.org "Email")
+
+</div>
+
 ## En los Medios de Comunicación
 
 > Para encontrar aplicaciones [alternativas centradas en la privacidad], consulta sitios como Good Reports y **Privacy Guides**, que enumeran aplicaciones centradas en la privacidad en diversas categorías, entre las que destacan los proveedores de correo electrónico (normalmente con planes de pago) que no están gestionados por las grandes empresas tecnológicas.
