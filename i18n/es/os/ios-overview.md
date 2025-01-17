@@ -262,9 +262,9 @@ Si tu dispositivo lo admite, puedes utilizar la función [Limpiar](https://suppo
 - Pulsa el botón **Limpiar**
 - Dibuja un círculo alrededor de lo que quieras ocultar. Las caras se pixelarán y se intentará borrar todo lo demás.
 
-Nuestra advertencia [en contra de difuminar el texto](../data-redaction.md) también se aplica aquí, por lo que recomendamos en su lugar añadir una forma negra con una opacidad del 100% sobre ello. In addition to redacting text, you can also black out any face or object using the **Photos** app.
+Nuestra advertencia [en contra de difuminar el texto](../data-redaction.md) también se aplica aquí, por lo que recomendamos en su lugar añadir una forma negra con una opacidad del 100% sobre ello. Además de ocultar texto, también puedes tachar cualquier cara u objeto con la aplicación **Fotos**.
 
-- Tap the image you have selected for redaction
+- Pulsa sobre la imagen que deseas editar
 - Pulsa :material-tune: (en la parte inferior de la pantalla) → el símbolo de marca (arriba a la derecha) → el icono más en la parte inferior derecha
 - Selecciona **Añadir Forma** y elige el cuadrado o el círculo
 - En la barra de herramientas, pulsa sobre el círculo (opción situada más a la izquierda) y elige el negro como color para rellenar la forma. También puedes mover la forma y aumentar su tamaño según te convenga.
