@@ -1,48 +1,48 @@
 ---
 title: Android
-description: Our advice for replacing privacy-invasive default Android features with private and secure alternatives.
-icon: simple/android
+description: Nosso conselho para substituir os recursos padrão do Android que invadem a privacidade por alternativas privadas e seguras.
+icon: simples/android
 cover: android.webp
 schema:
   - "@context": http://schema.org
     "@type": WebPage
-    name: Android Recommendations
+    name: Recomendações para Android
     url: ./
   - "@context": http://schema.org
     "@type": CreativeWork
     name: Android
     image: /assets/img/android/android.svg
     url: https://source.android.com/
-    sameAs: https://en.wikipedia.org/wiki/Android_(operating_system)
+    sameAs: https://pt.wikipedia.org/wiki/Android#:~:text=Android%20%C3%A9%20um%20sistema%20operacional,desenvolvedores%20conhecido%20como%20Open%20Handset
 ---
 
-![Android logo](../assets/img/android/android.svg){ align=right }
+![Shelter logo](../assets/img/android/android.svg){ align=right }
 
-The **Android Open Source Project** (AOSP) is an open-source mobile operating system led by Google which powers the majority of the world's mobile devices. Most phones sold with Android are modified to include invasive integrations and apps such as Google Play Services, so you can significantly improve your privacy on your mobile device by replacing your phone's default installation with a version of Android without these invasive features.
+O **Android Open Source Project** (AOSP) é um sistema operacional móvel de código aberto liderado pelo Google que alimenta a maioria dos dispositivos móveis do mundo. A maioria dos celulares vendidos com Android são modificados para incluir integrações invasivas e aplicativos como o Google Play Services. Você pode melhorar a privacidade de seu dispositivo significativamente ao usar uma versão do Android sem esses recursos invasivos.
 
-[General Android Overview :material-arrow-right-drop-circle:](../os/android-overview.md){ .md-button .md-button--primary }
+[Visão geral do Android :material-arrow-right-drop-circle:](../os/android-overview.md){ .md-button .md-button--primary }
 
-## Our Advice
+## Nosso conselho
 
-### Replace Google Services
+### Substituir Google Services
 
-There are many methods of obtaining apps on Android while avoiding Google Play. Whenever possible, try using one of these methods before getting your apps from non-private sources:
+Há muitos métodos para obter aplicativos no Android, evitando o Google Play. Sempre que possível, tente usar um desses métodos antes de obter seus aplicativos de fontes não privadas:
 
-[Obtaining Applications :material-arrow-right-drop-circle:](obtaining-apps.md){ .md-button }
+[Obtenção de aplicativos :material-arrow-right-drop-circle:](obtaining-apps.md){ .md-button }
 
-There are also many private alternatives to the apps that come pre-installed on your phone, such as the camera app. Besides the Android apps we recommend throughout this site in general, we've created a list of system utilities specific to Android which you might find useful.
+Há também muitas alternativas privadas para os aplicativos que vêm pré-instalados no seu telefone, como o aplicativo da câmera. Além dos aplicativos para Android que recomendamos neste site em geral, criamos uma lista de utilitários de sistema específicos para Android que podem ser úteis.
 
-[General App Recommendations :material-arrow-right-drop-circle:](general-apps.md){ .md-button }
+[Recomendações Gerais do Aplicativo :material-arrow-right-drop-circle:](general-apps.md){ .md-button }
 
-### Install a Custom Distribution
+### Instalar uma Distribuição Personalizada
 
-When you buy an Android phone, the default operating system comes bundled with apps and functionality that are not part of the Android Open Source Project. Many of these apps—even apps like the dialer which provide basic system functionality—require invasive integrations with Google Play Services, which in turn asks for privileges to access your files, contacts storage, call logs, SMS messages, location, camera, microphone, and numerous other things on your device in order for those basic system apps and many other apps to function in the first place. Frameworks like Google Play Services increase the attack surface of your device and are the source of various privacy concerns with Android.
+Quando você compra um telefone Android, o sistema operacional padrão vem empacotado com aplicativos e funcionalidades que não fazem parte do Projeto de Código Aberto Android. Muitos destes aplicativos - até mesmo aplicativos como o discador que fornecem a funcionalidade básica do sistema - exigem integrações invasivas com os Serviços do Google Play, que, por sua vez, pede privilégios para acessar seus arquivos, armazenamento de contatos, registros de chamadas, mensagens SMS, localização, câmera, microfone, e várias outras coisas no seu dispositivo para que esses aplicativos básicos de sistema e muitos outros apps funcionem em primeiro lugar. Frameworks como o Google Play Services aumentam a superfície de ataque do seu dispositivo e são a fonte de várias preocupações de privacidade com o Android.
 
-This problem could be solved by using an alternative Android distribution, commonly known as a _custom ROM_, that does not come with such invasive integration. Unfortunately, many custom Android distributions often violate the Android security model by not supporting critical security features such as AVB, rollback protection, firmware updates, and so on. Some distributions also ship [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) builds which expose root via [ADB](https://developer.android.com/studio/command-line/adb) and require [more permissive](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug\&type=code) SELinux policies to accommodate debugging features, resulting in a further increased attack surface and weakened security model.
+Este problema poderia ser resolvido usando uma distribuição alternativa para Android, comumente conhecida como _custom ROM_, que não vem com tal integração invasiva. Infelizmente, muitas distribuições personalizadas do Android muitas vezes violam o modelo de segurança do Android não suportando recursos de segurança críticos como AVB, proteção reversa, atualizações de firmware e assim por diante. Algumas distribuições também fornecem compilações [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) que expõem a raiz via [ADB](https://developer.android.com/studio/command-line/adb) e exigem políticas SELinux [mais permissivas](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug\&type=code) para acomodar os recursos de depuração, resultando em uma superfície de ataque ainda maior e em um modelo de segurança enfraquecido.
 
-Ideally, when choosing a custom Android distribution, you should make sure that it upholds the Android security model. At the very least, the distribution should have production builds, support for AVB, rollback protection, timely firmware and operating system updates, and SELinux in [enforcing mode](https://source.android.com/security/selinux/concepts#enforcement_levels). All of our recommended Android distributions satisfy these criteria:
+O ideal é que, ao escolher uma distribuição personalizada do Android, você se certifique de que ela mantenha o modelo de segurança do Android. No mínimo, a distribuição deve ter construções de produção, apoio à proteção rollback de AVB, atualizações oportunas do firmware e do sistema operacional e do SELinux no [modo de implementação](https://source.android.com/security/selinux/concepts#enforcement_levels). Todas as nossas distribuições recomendadas do Android satisfazem esses critérios:
 
-[Recommended Distributions :material-arrow-right-drop-circle:](distributions.md){ .md-button }
+[Distribuições recomendadas :material-arrow-right-drop-circle:](distributions.md){ .md-button }
 
 ### Avoid Root
 

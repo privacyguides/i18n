@@ -1,79 +1,79 @@
 ---
-title: General Apps
-description: The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
+title: Aplicativos Gerais
+description: Os aplicativos listados aqui são exclusivos do Android e melhoram ou substituem as principais funcionalidades do sistema.
 schema:
   - "@context": http://schema.org
     "@type": WebPage
-    name: General Android Apps
+    name: Aplicativos gerais para Android
     url: ./
   - "@context": http://schema.org
     "@type": MobileApplication
     name: Shelter
-    applicationCategory: Utilities
+    applicationCategory: Utilitários
     operatingSystem: Android
   - "@context": http://schema.org
     "@type": MobileApplication
     name: Secure Camera
-    applicationCategory: Utilities
+    applicationCategory: Utilitários
     operatingSystem: Android
   - "@context": http://schema.org
     "@type": MobileApplication
     name: Secure PDF Viewer
-    applicationCategory: Utilities
+    applicationCategory: Utilitários
     operatingSystem: Android
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protege contra a(s) seguinte(s) ameaça(s):</small>
 
-- [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-bug-outline: Ataques passivos](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-We recommend a wide variety of Android apps throughout this site. The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
+Recomendamos uma ampla variedade de aplicativos Android neste site. Os aplicativos listados aqui são exclusivos do Android e melhoram ou substituem as principais funcionalidades do sistema.
 
 ### Shelter
 
-If your device is on Android 15 or greater, we recommend using the native [Private Space](../os/android-overview.md#private-space) feature instead, which provides nearly the same functionality without needing to place trust in and grant powerful permissions to a third-party app.
+Se o seu dispositivo estiver no Android 15 ou superior, recomendamos o uso do recurso nativo [Private Space](../os/android-overview.md#private-space), em vez disso, que fornece quase a mesma funcionalidade sem precisar confiar e conceder poderosas permissões a um app de terceiros.
 
 <div class="admonition recommendation" markdown>
 
 ![Shelter logo](../assets/img/android/shelter.svg){ align=right }
 
-**Shelter** is an app that helps you leverage Android's Work Profile functionality to isolate or duplicate apps on your device.
+O **shelter** é um aplicativo que ajuda a alavancar a funcionalidade do Perfil de Trabalho do Android para isolar ou duplicar aplicativos em seu dispositivo.
 
-Shelter supports blocking contact search cross profiles and sharing files across profiles via the default file manager ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
+O Shelter suporta o bloqueio do contato entre perfis e o compartilhamento de arquivos entre perfis através do gerenciador de arquivos padrão ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
 
-[:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
-[:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://patreon.com/PeterCxy){ .card-link title=Contribute }
+[:octicons-repo-16: Repositório](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
+[:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Código Fonte" }
+[:octicons-heart-16:](https://patreon.com/PeterCxy){ .card-link title=Contribuir }
 
 </div>
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Aviso</p>
 
-When using Shelter, you are placing complete trust in its developer, as Shelter acts as a [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) to create the Work Profile, and it has extensive access to the data stored within the Work Profile.
+Ao usar o Shelter, você está colocando total confiança em seu desenvolvedor, pois o Shelter atua como um [Dispositivo Admin](https://developer.android.com/guide/topics/admin/device-admin) para criar o Perfil de Trabalho, e tem extenso acesso aos dados armazenados dentro do perfil de trabalho.
 
 </div>
 
-Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) and [Island](https://github.com/oasisfeng/island) as it supports [contact search blocking](https://secure-system.gitlab.io/Insular/faq.html).
+O Shelter é recomendado sobre [Insular](https://secure-system.gitlab.io/Insular) e [Island](https://github.com/oasisfeng/island), já que suporta [bloqueio de busca de contatos](https://secure-system.gitlab.io/Insular/faq.html).
 
 ### Secure Camera
 
-<small>Protects against the following threat(s):</small>
+<small>Protege contra a(s) seguinte(s) ameaça(s):</small>
 
-- [:material-account-search: Public Exposure](../basics/common-threats.md#limiting-public-information){ .pg-green }
+- [:material-account-search: Exposição Pública](../basics/common-threats.md#limiting-public-information){ .pg-green }
 
 <div class="admonition recommendation" markdown>
 
 ![Secure camera logo](../assets/img/android/secure_camera.svg#only-light){ align=right }
 ![Secure camera logo](../assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
 
-**Secure Camera** is a camera app focused on privacy and security which can capture images, videos, and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
+O **Secure Camera** é um aplicativo de câmera focado em privacidade e segurança que pode capturar imagens, vídeos e códigos QR. As extensões do fornecedor CameraX (Retrato, HDR, Visão noturna, Retoque facial e Automático) também são compatíveis com os dispositivos disponíveis.
 
-[:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
-[:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-repo-16: Repositório](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
+[:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentação}
+[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Código Fonte" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -86,39 +86,39 @@ Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) a
 
 </div>
 
-Main privacy features include:
+Os principais recursos de privacidade incluem:
 
-- Auto removal of [Exif](https://en.wikipedia.org/wiki/Exif) metadata (enabled by default)
-- Use of the new [Media](https://developer.android.com/training/data-storage/shared/media) API, therefore [storage permissions](https://developer.android.com/training/data-storage) are not required
-- Microphone permission not required unless you want to record sound
+- Remoção automática de metadados [Exif](https://en.wikipedia.org/wiki/Exif) (habilitada por padrão)
+- Uso do novo [Media](https://developer.android.com/training/data-storage/shared/media) API, portanto [permissões de armazenamento](https://developer.android.com/training/data-storage) não são necessárias
+- Permissão do microfone não é necessária a menos que você queira gravar som
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Nota</p>
 
-Metadata is not currently deleted from video files but that is planned.
+Os metadados não serão excluídos dos arquivos de vídeo, mas isso está planejado.
 
-The image orientation metadata is not deleted. If you enable location (in Secure Camera) that **won't** be deleted either. If you want to delete that later you will need to use an external app such as [ExifEraser](../data-redaction.md#exiferaser-android).
+Os metadados da orientação da imagem não são excluídos. Se você ativar a localização (na Câmera Segura) isso **não** será excluído também. Se você deseja excluir isso mais tarde, você precisará usar um aplicativo externo, como [ExifEraser](../data-redaction.md#exiferaser-android).
 
 </div>
 
 ### Secure PDF Viewer
 
-<small>Protects against the following threat(s):</small>
+<small>Protege contra a(s) seguinte(s) ameaça(s):</small>
 
-- [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-target-account: Ataques Localizados](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
 <div class="admonition recommendation" markdown>
 
 ![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
 ![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
-**Secure PDF Viewer** is a PDF viewer based on [pdf.js](https://en.wikipedia.org/wiki/PDF.js) that doesn't require any permissions. The PDF is fed into a [sandboxed](https://en.wikipedia.org/wiki/Sandbox_\(software_development\)) [WebView](https://developer.android.com/guide/webapps/webview). This means that it doesn't require permission directly to access content or files.
+O **Secure PDF Viewer** é um visualizador de PDF baseado em [pdf.js] (https://pt.wikipedia.org/wiki/PDF.js) que não requer nenhuma permissão. O PDF é alimentado em um [sandboxed](https://pt.wikipedia.org/wiki/Sandbox_\(desenvolvimento_de_software\)) [WebView](https://developer.android.com/guide/webapps/webview). Isso significa que não requer permissão direta para acessar conteúdo ou arquivos.
 
-[Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) is used to enforce that the JavaScript and styling properties within the WebView are entirely static content.
+A [Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) é usada para impor que o JavaScript e as propriedades de estilo dentro do WebView sejam conteúdo totalmente estático.
 
-[:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-repo-16: Repositório](https://github.com/GrapheneOS/PdfViewer){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Código Fonte" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -131,10 +131,10 @@ The image orientation metadata is not deleted. If you enable location (in Secure
 
 </div>
 
-## Criteria
+## Critério
 
-**Por favor, note que não somos parceiros de nenhum dos produtos que recomendamos.** Além de [nosso critério padrão](../about/criteria.md), desenvolvemos um conjunto claro de requisitos para nos permitir fornecer recomendações objetivas. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Por favor, note que não somos parceiros de nenhum dos produtos que recomendamos.** Além de [nosso critério padrão](../about/criteria.md), desenvolvemos um conjunto claro de requisitos para nos permitir fornecer recomendações objetivas. Sugerimos que você se familiarize com esta lista antes de escolher um provedor de e-mail e faça sua própria pesquisa para garantir que o provedor de e-mail escolhido seja a opção certa para você.
 
-- Applications on this page must not be applicable to any other software category on the site.
-- General applications should extend or replace core system functionality.
-- Applications should receive regular updates and maintenance.
+- As aplicações desta página não devem ser aplicáveis a nenhuma outra categoria de software do site.
+- Aplicações gerais devem estender ou substituir as funcionalidades do sistema central.
+- Os aplicativos devem receber atualizações e manutenção regulares.
