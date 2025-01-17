@@ -251,18 +251,18 @@ Además de bloquear las aplicaciones tras los datos biométricos, también puede
 
 Puedes ocultar una aplicación pulsando prolongadamente sobre ella y seleccionando **Requerir Face ID/Touch**→**Ocultar y Requerir Face ID/Touch ID**. Ten en cuenta que las aplicaciones de Apple preinstaladas, así como el navegador web y la aplicación de correo electrónico predeterminados, no se pueden ocultar. Las aplicaciones ocultas residen en una carpeta **Oculta** en la parte inferior de la biblioteca de aplicaciones, que puede desbloquearse utilizando datos biométricos. Esta carpeta aparece en la Biblioteca de Aplicaciones tanto si has ocultado aplicaciones como si no, lo que te proporciona un grado de negación plausible.
 
-### Redacting Elements in Images
+### Ocultar Elementos en Imágenes
 
 Si necesitas ocultar información en una foto, puedes utilizar las herramientas de edición integradas de Apple para hacerlo.
 
-If your device supports it, you can use the [Clean Up](https://support.apple.com/en-us/121429) feature to pixelate faces or remove objects from images.
+Si tu dispositivo lo admite, puedes utilizar la función [Limpiar](https://support.apple.com/en-us/121429) para pixelar caras o eliminar objetos de las imágenes.
 
 - Abre la aplicación **Fotos** y toca la foto que hayas seleccionado para editarla
-- Tap the :material-tune: (at the bottom of the screen)
-- Tap the button labeled **Clean Up**
-- Draw a circle around whatever you want to redact. Faces will be pixelated and it will attempt to delete anything else.
+- Pulsa :material-tune: (en la parte inferior de la pantalla)
+- Pulsa el botón **Limpiar**
+- Dibuja un círculo alrededor de lo que quieras ocultar. Las caras se pixelarán y se intentará borrar todo lo demás.
 
-Our warning [against blurring text](../data-redaction.md) also applies here, so we recommend to instead add a black shape with 100% opacity over it. In addition to redacting text, you can also black out any face or object using the **Photos** app.
+Nuestra advertencia [en contra de difuminar el texto](../data-redaction.md) también se aplica aquí, por lo que recomendamos en su lugar añadir una forma negra con una opacidad del 100% sobre ello. In addition to redacting text, you can also black out any face or object using the **Photos** app.
 
 - Tap the image you have selected for redaction
 - Pulsa :material-tune: (en la parte inferior de la pantalla) → el símbolo de marca (arriba a la derecha) → el icono más en la parte inferior derecha

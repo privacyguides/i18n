@@ -100,9 +100,9 @@ El comité ejecutivo del proyecto está conformado por cinco voluntarios encarga
 
 </div>
 
-## Staff
+## Personal
 
-Our staff are paid to contribute to supplemental content at Privacy Guides, like [video production](https://www.youtube.com/@privacyguides), [news articles and tutorials](https://www.privacyguides.org/articles/), and our discussion communities and social media. Most are available and paid on a full-time basis to assist the organization.
+Nuestro personal recibe una remuneración por contribuir a los contenidos complementarios de Privacy Guides, como [producción de vídeos](https://www.youtube.com/@privacyguides), [artículos de noticias y tutoriales](https://www.privacyguides.org/articles/), y nuestras comunidades de debate y redes sociales. La mayoría están disponibles y son remunerados a tiempo completo para ayudar a la organización.
 
 <div class="grid cards" markdown>
 
@@ -110,37 +110,37 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
 
   ---
 
-  :material-text-account: Journalist
+  :material-text-account: Periodista
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/ematprivacyguides)
+  [:material-account: Perfil](https://discuss.privacyguides.net/u/ematprivacyguides)
 
   [:material-github:](https://github.com/EmAtPrivacyGuides "GitHub")
   [:material-mastodon:](https://infosec.exchange/@Em0nM4stodon "@Em0nM4stodon@infosec.exchange"){rel=me}
-  [:material-email:](mailto:em@privacyguides.org "Email")
+  [:material-email:](mailto:em@privacyguides.org "Correo Electrónico")
 
 - :full_moon_with_face:{ .lg .middle } **Jordan Warne**
 
   ---
 
-  :material-text-account: Content Producer
+  :material-text-account: Productor de Contenido
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/Jordan)
+  [:material-account: Perfil](https://discuss.privacyguides.net/u/Jordan)
 
   [:material-github:](https://github.com/jordan-warne "GitHub")
   [:material-mastodon:](https://social.lol/@jw "@jw@social.lol"){rel=me}
-  [:material-email:](mailto:jordan@privacyguides.org "Email")
+  [:material-email:](mailto:jordan@privacyguides.org "Correo Electrónico")
 
 - :japanese_goblin:{ .lg .middle } **Kevin Pham**
 
   ---
 
-  :material-text-account: Community & News Intern
+  :material-text-account: Becario de Comunidad y Noticias
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/kevpham)
+  [:material-account: Perfil](https://discuss.privacyguides.net/u/kevpham)
 
   [:material-github:](https://github.com/kevpham123 "GitHub")
   [:material-mastodon:](https://mastodon.social/@kevpham "@kevpham@mastodon.social"){rel=me}
-  [:material-email:](mailto:kevin@privacyguides.org "Email")
+  [:material-email:](mailto:kevin@privacyguides.org "Correo Electrónico")
 
 </div>
 
