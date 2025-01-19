@@ -2,10 +2,10 @@
 meta_title: "Bagaimana VPN Menjaga Privasi Anda? Konsep Utama VPN - Privacy Guides"
 title: Konsep Utama VPN
 icon: material/vpn
-description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. Anda harus memperhatikan hal-hal ini.
+description: Jaringan Pribadi Virtual (VPN) mengalihkan risiko dari ISP Anda ke pihak ketiga yang Anda percayai. Anda harus memperhatikan hal-hal ini.
 ---
 
-Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world.
+Jaringan Pribadi Virtual adalah cara untuk memperluas ujung jaringan Anda untuk keluar ke tempat lain di dunia.
 
 Normally, an ISP can see the flow of internet traffic entering and exiting your network termination device (i.e. modem). Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 

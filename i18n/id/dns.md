@@ -9,7 +9,7 @@ global:
     - "table tbody"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Melindungi dari ancaman berikut ini:</small>
 
 - [:material-account-cash: Kapitalisme Pengawasan](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
