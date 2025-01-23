@@ -105,7 +105,7 @@ Il nome del tuo dispositivo iPhone conterrà di default il tuo nome e, questo, s
 - [x] Attiva **Installa Aggiornamenti iOS**
 - [x] Attiva **Risposte di Sicurezza e File di Sistema**
 
-**AirDrop** ti consente di trasferire facilmente file, ma può consentire a sconosciuti di inviarti file indesiderati.
+**AirDrop** is commonly used to easily share files, but it represents a significant privacy risk. The AirDrop protocol constantly broadcasts your personal information to your surroundings, with [very weak](https://www.usenix.org/system/files/sec21-heinrich.pdf) security protections. Your identity can easily be discovered by attackers even with limited resources, and the Chinese government has [openly acknowledged](https://arstechnica.com/security/2024/01/hackers-can-id-unique-apple-airdrop-users-chinese-authorities-claim-to-do-just-that/) using such techniques to identify AirDrop users in public since 2022.
 
 - [x] Select **AirDrop** → **Receiving Off**
 
