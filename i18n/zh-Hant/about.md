@@ -20,11 +20,11 @@ schema:
 
 Privacy Guides 是一個具有社會動機的網站，提供資訊以保護您的資料安全和隱私。 我們是一個非營利專案，使命是讓大眾了解數位隱私的價值，以及全球政府旨在監控您線上活動的行徑。 我們的網站沒有廣告，也不隸屬於所列的任何供應商。
 
-[:material-heart:{.pg-red} Make a Donation](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary }
-[:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Homepage }
-[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
+[:material-heart:{.pg-red} 進行捐款](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary }
+[:octicons-home-16:](https://www.privacyguides.org){ .card-link title=首頁 }
+[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="原始碼" }
 
-Privacy Guides is built by volunteers and staff members around the world. All changes to our recommendations and resources are reviewed by at least two [trusted](https://discuss.privacyguides.net/u?group=team\&order=solutions\&period=all) individuals, and we work diligently to ensure our content is updated as quickly as possible to adapt to the ever changing cybersecurity threat landscape.
+Privacy Guides 是由世界各地的志工和工作人員建立的。 All changes to our recommendations and resources are reviewed by at least two [trusted](https://discuss.privacyguides.net/u?group=team\&order=solutions\&period=all) individuals, and we work diligently to ensure our content is updated as quickly as possible to adapt to the ever changing cybersecurity threat landscape.
 
 In addition to our core team, [many other people](about/contributors.md) have made contributions to the project. 您也可以！ 我們在 GitHub 上開放原始碼，並在 [Crowdin](https://crowdin.com/project/privacyguides) 上接受翻譯建議。
 
