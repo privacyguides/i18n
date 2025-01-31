@@ -24,27 +24,27 @@ Privacy Guides 是一個具有社會動機的網站，提供資訊以保護您�
 [:octicons-home-16:](https://www.privacyguides.org){ .card-link title=首頁 }
 [:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="原始碼" }
 
-Privacy Guides 是由世界各地的志工和工作人員建立的。 All changes to our recommendations and resources are reviewed by at least two [trusted](https://discuss.privacyguides.net/u?group=team\&order=solutions\&period=all) individuals, and we work diligently to ensure our content is updated as quickly as possible to adapt to the ever changing cybersecurity threat landscape.
+Privacy Guides 是由世界各地的志工和工作人員建立的。 我們對於建議和資源做的所有變更，都至少經過兩位 [可信](https://discuss.privacyguides.net/u?group=team\&order=solutions\&period=all) 成員的審核，而且我們會努力工作，以確保盡快更新我們的內容，以適應不斷變化的網路安全威脅環境。
 
-In addition to our core team, [many other people](about/contributors.md) have made contributions to the project. 您也可以！ 我們在 GitHub 上開放原始碼，並在 [Crowdin](https://crowdin.com/project/privacyguides) 上接受翻譯建議。
+除了我們的核心團隊之外，還有 [許多人](about/contributors.md) 也對專案做出了貢獻。 您也可以！ 我們在 GitHub 上開放原始碼，並在 [Crowdin](https://crowdin.com/project/privacyguides) 上接受翻譯建議。
 
-[Job Openings :material-arrow-right-drop-circle:](about/jobs.md)
+[職位空缺 :material-arrow-right-drop-circle:](about/jobs.md)
 
-## Contact Us
+## 聯絡我們
 
-[:simple-discourse: Join the Privacy Guides forum](https://discuss.privacyguides.net/){ .md-button .md-button--primary }
+[:simple-discourse: 加入 Privacy Guides 論壇](https://discuss.privacyguides.net/){ .md-button .md-button--primary }
 
-The best way to get individual help is from our community on Discourse. If you notice an issue with our website, please open a discussion in the [Site Development](https://discuss.privacyguides.net/c/site-development/7) category on our forum. If you have a question about anything we cover, please ask it in the [Questions](https://discuss.privacyguides.net/c/privacy/questions/8) category on our forum.
+獲得個別協助的最佳方式是我們在 Discourse 上的社群。 如果您發現我們的網站有問題，請在論壇的 [Site Development](https://discuss.privacyguides.net/c/site-development/7) 分類中開啟討論。 如果您對我們所涵蓋的任何內容有疑問，請在我們論壇的 [Questions](https://discuss.privacyguides.net/c/privacy/questions/8) 分類中提出。
 
-![Signal contact QR code](assets/img/layout/signal-contact-qr.png){ align=right }
+![Signal 連絡 QR code](assets/img/layout/signal-contact-qr.png){ align=right }
 
-Have a tip for us, or need to share some sensitive information? The best way to get in touch with us securely is via `@privacyguides.01` on Signal. This group account is monitored by [Jonah](https://discuss.privacyguides.net/u/jonah), [Niek](https://discuss.privacyguides.net/u/niek-de-wilde), [Em](https://discuss.privacyguides.net/u/ematprivacyguides), and [Jordan](https://discuss.privacyguides.net/u/jordan).
+您有小秘訣要告訴我們，或需要分享一些敏感資訊嗎？ 與我們安全聯繫的最佳方式是透過 Signal 上的 `@privacyguides.01` 。 這個團隊帳號由 [Jonah](https://discuss.privacyguides.net/u/jonah)、[Niek](https://discuss.privacyguides.net/u/niek-de-wilde)、[Em](https://discuss.privacyguides.net/u/ematprivacyguides) 和 [Jordan](https://discuss.privacyguides.net/u/jordan) 管理。
 
-[:simple-signal: Chat on Signal](https://signal.me/#eu/zg9xcrIv5w-EtXt2FmTJgfWv01LmyTed8rpr7RDv35Mizq8ISZ9NJLmYtzsxI0Z4){ .md-button }
+[:simple-signal: 在 Signal 上聯繫](https://signal.me/#eu/zg9xcrIv5w-EtXt2FmTJgfWv01LmyTed8rpr7RDv35Mizq8ISZ9NJLmYtzsxI0Z4){ .md-button }
 
-You may also email the entire team at <team@privacyguides.org>. This is a shared inbox that could be read by any [team member](https://discuss.privacyguides.net/u?group=team\&order=solutions\&period=all), so please consider what sensitive information you share via email accordingly.
+您也可以寄電子郵件給整個團隊： <team@privacyguides.org> 。 這是一個共用的收件匣，任何 [團隊成員](https://discuss.privacyguides.net/u?group=team\&order=solutions\&period=all) 都能讀取，因此請考慮您透過電子郵件分享的敏感資訊。
 
-We will do our best to respond to all queries within 3 business days, but please understand we are unable to provide individualized advice to everyone who asks. If you have a question about privacy, you will receive a much more detailed and timely response from the Privacy Guides community by [asking on our forum](https://discuss.privacyguides.net/c/privacy/questions/8).
+我們會盡力在 3 個工作天內回覆所有詢問，但請理解我們無法為每一位詢問者提供個人化的建議。 如果您有關於隱私權的問題，您可以 [在我們的論壇上詢問](https://discuss.privacyguides.net/c/privacy/questions/8)，從 Privacy Guides社群 獲得更詳細及時的回應。
 
 You can also use OpenPGP to contact us via email, if you feel comfortable with your client's security settings. You can discover the PGP keys of our team members using WKD if your client supports it. If it doesn't, or you don't know what that means, you can also find the public key for any Privacy Guides email account by searching on [keys.openpgp.org](https://keys.openpgp.org/). We do not have PGP for the shared team inbox, only individual mailboxes which can be found in our team directory below.
 
