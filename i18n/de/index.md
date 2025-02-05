@@ -71,7 +71,7 @@ Der Versuch, alle deine Daten ständig vor allen zu schützen, ist unpraktisch, 
 <div markdown>
 **Privacy Guides** hat eine engagierte [Community](https://discuss.privacyguides.net), die unabhängig verschiedene *Privacy-Tools* und -Dienste überprüft. Alle unsere Empfehlungen erfüllen eine Reihe strenger Kriterien, um sicherzustellen, dass sie den meisten Menschen den größten Nutzen bringen und das beste Gleichgewicht zwischen Privatsphäre, Sicherheit und Komfort bieten. Als Teil einer gemeinnützigen **öffentlichen Wohltätigkeitsorganisation** hat Privacy Guides strenge **journalistische Standards** und Richtlinien, um sicherzustellen, dass unsere Empfehlungen frei von Interessenkonflikten sind, und wir arbeiten nicht mit Anbietern oder Partnerprogrammen zusammen, die unsere Bewertungen und Empfehlungen beeinflussen könnten.
 
-[:material-heart:{.pg-red} Support Our Work](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary }
+[:material-heart:{.pg-red} Unterstütze unsere Arbeit](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary }
 </div>
 
 - [x] **Werbefreie Empfehlungen**
@@ -101,13 +101,13 @@ Der Versuch, alle deine Daten ständig vor allen zu schützen, ist unpraktisch, 
 
     Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. Er wird seit 2014 betrieben. Mailbox.org hat seinen Sitz in Berlin, Deutschland. Konten beginnen mit 2 GB Speicherplatz, der nach Bedarf erweitert werden kann.
 
-    [:octicons-arrow-right-24: Read Full Review](email.md#mailboxorg)
+    [:octicons-arrow-right-24: Lese die vollständige Review](email.md#mailboxorg)
 
--   ![Tuta logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji loading=lazy } **Tuta**
+-   ![Tuta-Logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji loading=lazy }![Tuta-Logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji loading=lazy } **Tuta**
 
     ---
 
-    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta ist seit 2011 in Betrieb und hat seinen Sitz in Hannover, Deutschland. Kostenlose Konten beginnen mit 1 GB Speicherplatz.
+    Tuta (ehemals *Tutanota*) ist ein E-Mail-Dienst mit einem Fokus auf Sicherheit und Datenschutz durch Verschlüsselung. Tuta ist seit 2011 in Betrieb und hat seinen Sitz in Hannover, Deutschland. Kostenlose Konten beginnen mit 1 GB Speicherplatz.
 
     [:octicons-arrow-right-24: Lese die vollständige Review](email.md#tuta)
 
