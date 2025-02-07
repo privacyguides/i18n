@@ -47,6 +47,8 @@ The options listed here are available on multiple platforms and great for creati
 
 O VeraCrypt é um garfo do projeto TrueCrypt descontinuado. De acordo com seus desenvolvedores, melhorias de segurança foram implementadas e questões levantadas pela auditoria inicial do código TrueCrypt foram abordadas.
 
+Cryptomator is free to use on all desktop platforms, as well as on iOS in "read only" mode. Cryptomator offers [paid](https://cryptomator.org/pricing) apps with full functionality on iOS and Android. The Android version can be purchased anonymously via [ProxyStore](https://cryptomator.org/coop/proxystore).
+
 Ao encriptar com VeraCrypt, o utilizador tem a opção de seleccionar de diferentes [funções hash](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme). Sugerimos aos utilizadores **apenas** seleccione [SHA-512](https://en.wikipedia.org/wiki/SHA-512) e deve ficar com o [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) cifra de bloco. The audit did not extend to [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift), which is a library used by Cryptomator for iOS.
 
 Cryptomator's documentation details its intended [security target](https://docs.cryptomator.org/en/latest/security/security-target), [security architecture](https://docs.cryptomator.org/en/latest/security/architecture), and [best practices](https://docs.cryptomator.org/en/latest/security/best-practices) for use in further detail.

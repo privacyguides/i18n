@@ -47,6 +47,8 @@ The options listed here are available on multiple platforms and great for creati
 
 Cryptomator verwendet AES-256-Verschlüsselung, um sowohl Dateien als auch Dateinamen zu verschlüsseln. Cryptomator kann weder Metadaten wie Zugriffs-, Änderungs- und Erstellungszeitstempel, noch die Anzahl und Größe von Dateien und Ordnern verschlüsseln.
 
+Cryptomator is free to use on all desktop platforms, as well as on iOS in "read only" mode. Cryptomator offers [paid](https://cryptomator.org/pricing) apps with full functionality on iOS and Android. The Android version can be purchased anonymously via [ProxyStore](https://cryptomator.org/coop/proxystore).
+
 Einige kryptografische Bibliotheken von Cryptomator sind von Cure53 [geprüft](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44) worden. Die geprüften Bibliotheken umfasst: [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) und [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). Das Audit wurde erstreckte sich nicht auf [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift), eine Bibliothek, die von Cryptomator für iOS verwendet wird.
 
 In der Dokumentation von Cryptomator werden die angestrebten [Sicherheitsziele](https://docs.cryptomator.org/en/latest/security/security-target), die [Sicherheitsarchitektur](https://docs.cryptomator.org/en/latest/security/architecture) und die [Best Practices](https://docs.cryptomator.org/en/latest/security/best-practices) für den Einsatz im Detail beschrieben.

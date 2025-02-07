@@ -47,6 +47,8 @@ Las opciones listadas aquí están disponibles en múltiples plataformas y son g
 
 Cryptomator utiliza el cifrado AES-256 para cifrar tanto los archivos como los nombres de los archivos. Cryptomator no puede cifrar metadatos como las marcas de la fecha de acceso, modificación y creación, ni el número y tamaño de los archivos y carpetas.
 
+Cryptomator is free to use on all desktop platforms, as well as on iOS in "read only" mode. Cryptomator offers [paid](https://cryptomator.org/pricing) apps with full functionality on iOS and Android. The Android version can be purchased anonymously via [ProxyStore](https://cryptomator.org/coop/proxystore).
+
 Algunas bibliotecas criptográficas de Cryptomator han sido [auditadas](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44) por Cure53. El alcance de las bibliotecas auditadas incluye: [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) y [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). La auditoría no se extendió a [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift), que es una biblioteca utilizada por Cryptomator para iOS.
 
 La documentación de Cryptomator detalla con más detalle su [objetivo de seguridad](https://docs.cryptomator.org/en/latest/security/security-target), la [arquitectura de seguridad](https://docs.cryptomator.org/en/latest/security/architecture) y las [mejores prácticas](https://docs.cryptomator.org/en/latest/security/best-practices) de uso.

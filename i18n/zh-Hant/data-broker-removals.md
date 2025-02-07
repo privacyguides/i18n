@@ -78,7 +78,7 @@ cover: data-broker-removals.webp
 
 EasyOptOuts 支援的某些網站可公開搜尋。 在這些情況下，EasyOptOuts 會執行搜尋，只有在已找到您的個人資料時，才會提交退出請求，以避免在退出請求中，將您的資料傳送至尚未擁有您個人資料的網站。 不過，他們確實支援一些無法公開搜尋的網站，在這些情況下，您的資料會以退出請求的方式傳送給他們，無論如何，以防您在他們的私人資料庫中。
 
-我們的測試顯示，在我們測試過的所有資料移除服務中，EasyOptOuts 提供了最有價值的服務，價格非常實惠，而且十分有效。 我們會在不久的將來在部落格上發表 EasyOptOuts 的詳細評測，並在發表時更新本頁面。 [《消費者報告》的獨立調查結果](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) 也顯示 EasyOptOuts 是最佳的資料移除服務之一。
+Our [testing](https://www.privacyguides.org/articles/2025/02/03/easyoptouts-review/) indicates that EasyOptOuts provides the best value out of any data removal service we've tested, with a very affordable price and high effectiveness. Independent [findings from Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) also indicate that EasyOptOuts is one of the top performing data removal services.
 
 <div class="admonition failure" markdown>
 <p class="admonition-title">EasyOptOuts 不支援的高優先級網站</p>
@@ -86,6 +86,7 @@ EasyOptOuts 支援的某些網站可公開搜尋。 在這些情況下，EasyOpt
 EasyOptOuts 並不涵蓋下列我們認為「高度優先」的網站，因此您仍需手動選擇退出：
 
 - Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
+- PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/optout))
 
 </div>
 
@@ -129,4 +130,4 @@ EasyOptOuts 並不涵蓋下列我們認為「高度優先」的網站，因此�
 - 不得隸屬於資料仲介商或在人員搜尋網站上投放廣告。
 - 必須僅將您的個人資料用於使您退出您選擇的資料仲介商資料庫和人員搜尋網站。
 
-[^1]: 如果您 _遭遇_ 騷擾者騷擾或其他需要立即處理的威脅，您絕對需要考慮使用 [EasyOptOuts](#easyoptouts-paid) 之類的自動化工具，至少在首次 「清除」 時應當如此。 當未來事情變得更容易處理時，您可以回到手動的流程。 當然，在危險情況下，您的首要任務應該是先向警方或其他人尋求專業協助，然後再自行解決。
+[^1]: 如果您 _遭遇_ 騷擾者騷擾或其他需要立即處理的威脅，您絕對需要考慮使用 [EasyOptOuts](#easyoptouts-paid) 之類的自動化工具，至少在首次 「清除」 時應當如此。 當未來事情變得更容易處理時，您可以回到手動的流程。 Of course, in a dangerous situation your first priority should always be to seek professional help [from police](https://onlineharassmentfieldmanual.pen.org/involving-law-enforcement) or others before tackling it on your own.

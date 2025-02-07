@@ -47,6 +47,8 @@ The options listed here are available on multiple platforms and great for creati
 
 Cryptomator använder AES-256-kryptering för att kryptera både filer och filnamn. Cryptomator kan inte kryptera metadata som åtkomst, ändring och skapande tidsstämplar, eller antalet och storleken på filer och mappar.
 
+Cryptomator is free to use on all desktop platforms, as well as on iOS in "read only" mode. Cryptomator offers [paid](https://cryptomator.org/pricing) apps with full functionality on iOS and Android. The Android version can be purchased anonymously via [ProxyStore](https://cryptomator.org/coop/proxystore).
+
 Vissa kryptografiska bibliotek från Cryptomator har granskats [av Cure53](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44). De granskade biblioteken omfattar följande: [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) och [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). Granskningen omfattade inte [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift), som är ett bibliotek som används av Cryptomator för iOS.
 
 Cryptomator's documentation details its intended [security target](https://docs.cryptomator.org/en/latest/security/security-target), [security architecture](https://docs.cryptomator.org/en/latest/security/architecture), and [best practices](https://docs.cryptomator.org/en/latest/security/best-practices) for use in further detail.

@@ -47,6 +47,8 @@ cover: encryption.webp
 
 Cryptomator 使用 AES-256 加密來加密檔案和檔案名稱。 Cryptomator 無法加密中繼資料，例如存取、修改和創建時間戳記，也無法加密檔案和資料夾的數量和大小。
 
+Cryptomator is free to use on all desktop platforms, as well as on iOS in "read only" mode. Cryptomator offers [paid](https://cryptomator.org/pricing) apps with full functionality on iOS and Android. The Android version can be purchased anonymously via [ProxyStore](https://cryptomator.org/coop/proxystore).
+
 一些 Cryptomator 加密程式庫 [已被Cure53審核](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44) 。 稽核程式庫的範圍包括： [cryptolib](https://github.com/cryptomator/cryptolib)、 [cryptofs](https://github.com/cryptomator/cryptofs)、 [siv-mode](https://github.com/cryptomator/siv-mode) 和 [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor)。 審計並未包含[cryptolib-swift](https://github.com/cryptomator/cryptolib-swift)它是 Cryptomator 運用在 iOS 程式庫。
 
 Cryptomator 的文件詳細介紹它的預期[安全目標](https://docs.cryptomator.org/en/latest/security/security-target)，[安全架構](https:/ /docs.cryptomator.org/en/latest/security/architecture)和[最佳實踐](https://docs.cryptomator.org/en/latest/security/best-practices) 以供更詳細的使用。

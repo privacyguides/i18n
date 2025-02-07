@@ -104,7 +104,7 @@ If you cancel your subscription, you will still enjoy the features of your paid 
 
 SimpleLogin a été [racheté par Proton AG] (https://proton.me/news/proton-and-simplelogin-join-forces) le 8 avril 2022. Si vous utilisez Proton Mail pour votre boîte mail principale, SimpleLogin est un excellent choix. Les deux produits étant désormais détenus par la même société, vous ne devez plus faire confiance qu'à une seule entité. Nous supposons également que SimpleLogin sera plus étroitement intégré aux offres de Proton à l'avenir. SimpleLogin continue de prendre en charge la redirection vers le fournisseur d'e-mail de votre choix. Securitum a [audité](https://simplelogin.io/blog/security-audit) SimpleLogin au début de 2022 et tous les problèmes [ont été résolus](https://simplelogin.io/audit2022/web.pdf).
 
-Vous pouvez lier votre compte SimpleLogin dans les paramètres avec votre compte Proton. If you have the Proton Unlimited plan or any multi-user Proton plan, you will have SimpleLogin Premium for free.
+Vous pouvez lier votre compte SimpleLogin dans les paramètres avec votre compte Proton. If you have Proton Pass Plus, Proton Unlimited, or any multi-user Proton plan, you will have SimpleLogin Premium for free.
 
 Fonctionnalités gratuites notables :
 

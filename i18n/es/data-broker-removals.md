@@ -78,7 +78,7 @@ Si no utilizas un escáner automático para encontrar resultados sobre ti, consi
 
 Algunos sitios web compatibles con EasyOptOuts pueden consultarse públicamente. En esos casos, EasyOptOuts realizará una búsqueda y solo enviará una solicitud de exclusión voluntaria si tus datos personales ya se han encontrado, para evitar enviar tus datos en una solicitud de exclusión voluntaria a sitios que aún no los tenían. Sin embargo, admiten algunos sitios en los que no se pueden realizar búsquedas públicas, y en esos casos tus datos les serán enviados en una solicitud de exclusión voluntaria a pesar de todo, en caso de que tú estés en sus bases de datos privadas.
 
-Nuestras pruebas indican que EasyOptOuts ofrece la mejor relación calidad-precio de todos los servicios de eliminación de datos que hemos probado, con un precio muy asequible y una alta efectividad. Publicaremos una revisión detallada de EasyOptOuts en nuestro blog en un futuro próximo y actualizaremos esta página cuando se publique. [Los resultados independientes de Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) también indican que EasyOptOuts es uno de los servicios de eliminación de datos con mejores resultados.
+Our [testing](https://www.privacyguides.org/articles/2025/02/03/easyoptouts-review/) indicates that EasyOptOuts provides the best value out of any data removal service we've tested, with a very affordable price and high effectiveness. Independent [findings from Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) also indicate that EasyOptOuts is one of the top performing data removal services.
 
 <div class="admonition failure" markdown>
 <p class="admonition-title">Sitios de alta prioridad no compatibles con EasyOptOuts</p>
@@ -86,6 +86,7 @@ Nuestras pruebas indican que EasyOptOuts ofrece la mejor relación calidad-preci
 EasyOptOuts no cubre los siguientes sitios que consideramos de "alta prioridad", por lo que deberías excluirte manualmente:
 
 - Intelius ([Buscar](https://intelius.com), [Darse de baja(https://suppression.peopleconnect.us/login))
+- PeekYou ([Buscar](https://peekyou.com), [Darse de baja](https://peekyou.com/about/contact/optout))
 
 </div>
 
@@ -129,4 +130,4 @@ Nuestras selecciones de servicios de eliminación se basan principalmente en pru
 - No debe estar afiliado a la industria de la comercialización de datos ni comprar publicidad en sitios de búsqueda de personas.
 - Solo debe utilizar tus datos personales para excluirte de bases de datos de comerciantes y sitios de búsqueda de personas.
 
-[^1]: Si _estás_ amenazado inmediatamente por acosadores u otras amenazas, deberías considerar seriamente una herramienta automatizada como [EasyOptOuts](#easyoptouts-paid), al menos para la "purga" inicial. Cuando las cosas sean más manejables en el futuro podrás volver al proceso manual. Por supuesto, en una situación peligrosa tu primera prioridad debe ser siempre buscar ayuda profesional de la policía o de otras personas antes de afrontarla por tu cuenta.
+[^1]: Si _estás_ amenazado inmediatamente por acosadores u otras amenazas, deberías considerar seriamente una herramienta automatizada como [EasyOptOuts](#easyoptouts-paid), al menos para la "purga" inicial. Cuando las cosas sean más manejables en el futuro podrás volver al proceso manual. Of course, in a dangerous situation your first priority should always be to seek professional help [from police](https://onlineharassmentfieldmanual.pen.org/involving-law-enforcement) or others before tackling it on your own.

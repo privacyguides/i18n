@@ -104,7 +104,7 @@ cover: email-aliasing.webp
 
 SimpleLogin 在2022 年 4月8日[已被 Proton AG 收購](https://proton.me/news/proton-and-simplelogin-join-forces)。 如果主要電子郵箱使用 Proton Mail， SimpleLogin是一個不錯的選擇。 這兩種產品現在都由同一家公司擁有，您只需要信任單一實體。 我們預計 SimpleLogin 未來會與 Proton 產品更緊密地整合。 SimpleLogin 繼續支援轉寄至您所選擇的任何電子郵件供應商。 Securitum 在 2022 年初[審核](https://simplelogin.io/blog/security-audit) SimpleLogin，所有問題[均已改善](https://simplelogin.io/audit2022/web.pdf)。
 
-可在設定中將 SimpleLogin 帳戶與 Proton 帳戶作連結。 如果您擁有 Proton Unlimited 方案或任何多用戶 Proton 方案，您將免費擁有 SimpleLogin Premium 。
+可在設定中將 SimpleLogin 帳戶與 Proton 帳戶作連結。 If you have Proton Pass Plus, Proton Unlimited, or any multi-user Proton plan, you will have SimpleLogin Premium for free.
 
 值得注意的免費功能：
 
