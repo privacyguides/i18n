@@ -33,7 +33,6 @@ cover: data-broker-removals.webp
 - CheckPeople（ [搜尋](https://checkpeople.com/do-not-sell-info) ，發現資料後選擇 _Remove Record_ 即可）
 - ClustrMaps ([Search](https://clustrmaps.com), [Opt-Out](https://clustrmaps.com/bl/opt-out))
 - Dataveria ([Search](https://dataveria.com), [Opt-Out](https://dataveria.com/ng/control/privacy))
-- Glad I Know ([Search](https://gladiknow.com), [Opt-Out](https://gladiknow.com/opt-out))
 - InfoTracer ([Search](https://infotracer.com), [Opt-Out](https://infotracer.com/optout))
 - Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
 - PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/optout))

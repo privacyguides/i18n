@@ -33,7 +33,6 @@ Primero deberías buscar tu información en estos sitios y enviar una solicitud 
 - CheckPeople ([Buscar](https://checkpeople.com/do-not-sell-info), selecciona _Remove Record_ para darte de baja)
 - ClustrMaps ([Buscar](https://clustrmaps.com), [Darse de baja](https://clustrmaps.com/bl/opt-out))
 - Dataveria ([Buscar](https://dataveria.com), [Darse de baja](https://dataveria.com/ng/control/privacy))
-- Glad I Know ([Buscar](https://gladiknow.com), [Darse de baja(https://gladiknow.com/opt-out))
 - InfoTracer ([Buscar](https://infotracer.com), [Darse de baja](https://infotracer.com/optout))
 - Intelius ([Buscar](https://intelius.com), [Darse de baja(https://suppression.peopleconnect.us/login))
 - PeekYou ([Buscar](https://peekyou.com), [Darse de baja](https://peekyou.com/about/contact/optout))
