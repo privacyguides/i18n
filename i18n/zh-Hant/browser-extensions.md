@@ -53,7 +53,7 @@ cover: browser-extensions.webp
 uBlock Origin 還有一個「Lite」版本，與原始版相比，其功能集非常有限。 但比之成熟的姊妹產品它具有一些明顯優勢值得考慮，如果...
 
 - ...不想對擴充功能授予完整的「讀取/修改網站資料」權限（即使是像 uBlock Origin 這樣受信任的擴充功能）
-- ....想要一個更多資源（記憶體/CPU）高效的內容攔截器[^1]
+- ....想要一個資源（記憶體/CPU）利用更高效的內容攔截器[^1]
 - ...瀏覽器只能支援 Manifest V3 擴展。
 
 <div class="admonition recommendation" markdown>
@@ -86,7 +86,7 @@ uBlock Origin Lite 僅在擴充功能從瀏覽器的附加元件市場更新時�
 
 ### AdGuard
 
-We recommend [Safari](mobile-browsers.md#safari-ios) for iOS users, which unfortunately is not supported by uBlock Origin. 幸好還有 Adguard 作為足夠的替代：
+我們建議 iOS 使用者使用 [Safari](mobile-browsers.md#safari-ios) ，遺憾的是 uBlock Origin 並不支援它。 幸好還有 Adguard 作為足夠的替代：
 
 <div class="admonition recommendation" markdown>
 
