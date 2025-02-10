@@ -157,7 +157,7 @@ IVPN 在 [37 個國家/地區設有伺服器](https://ivpn.net/status)。(1) 選
 
 #### :material-check:{ .pg-green } 獨立稽核
 
-IVPN 已通過 [Cure53 的無日誌審計](https://cure53.de/audit-report_ivpn.pdf)，該審計結果與 IVPN 的無日誌聲明一致。 IVPN 還在 2020 年 1 月完成了 [Cure53 的全面滲透測試報告](https://cure53.de/summary-report_ivpn_2019.pdf) 。 IVPN 也表示他們計劃在未來提供[年度報告](https://ivpn.net/blog/independent-security-audit-concluded)。 進一步的審核於 [2022 年 4 月](https://ivpn.net/blog/ivpn-apps-security-audit-2022-concluded)進行，並由 Cure53 [在其網站上公布](https://cure53.de/pentest-report_IVPN_2022.pdf)。
+IVPN has had multiple [independent audits](https://ivpn.net/en/blog/tags/audit) since 2019 and has publicly announced their commitment to [annual security audits](https://ivpn.net/blog/ivpn-apps-security-audit-concluded).
 
 #### :material-check:{ .pg-green } 開源客戶端
 
@@ -232,15 +232,7 @@ Mullvad 在 [45 個國家/地區設有伺服器](https://mullvad.net/servers)。
 
 #### :material-check:{ .pg-green } 獨立稽核
 
-Mullvad 的 VPN 客戶端已通過 Cure53 和 Assured AB 的滲透測試審計，報告[發布於 cure53.de](https://cure53.de/pentest-report_mullvad_v2.pdf)。 安全研究人員得出結論：
-
-> Cure53 和 Assured AB 對審計結果感到滿意，對該軟體整體留下正面的印象。 憑藉 Mullvad VPN 內部團隊在安全方面的投入，測試人員從安全角度判斷該項目走在正確的軌道上。
-
-2020 年，[宣布](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app)進行第二次審計，[最終審計報告](https://cure53.de/pentest-report_mullvad_2020_v2.pdf)已發布在 Cure53 網站上：
-
-> 2020年5月~6月針對 Mullvad  的專案結果是相當正面。 [...] Mullvad 使用的整體應用生態系統給人留下了健全且結構完善的印象。 應用程式整體使用結構化的方式，可更輕鬆地推出補丁和修復措施。 最重要的是，Cure53 所發現的結果展示了持續審計和重新評估當前資訊泄漏途徑的重要性，以始終確保終端使用者的隱私。 Mullvad 在保護終端用戶免受常見的 PII 洩漏和隱私相關風險方面做得很好。
-
-2021 年[宣布](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit)進行基礎設施審計，[最終審計報告](https://cure53.de/pentest-report_mullvad_2021_v1.pdf)已在 Cure53 網站上發布。 另一份報告已於 [2022 年 6 月](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data)發布，可在 [Assured 的網站](https://assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf) 上取得。
+Mullvad has had multiple [independent audits](https://mullvad.net/en/blog/tag/audits) and has publicly announced their endeavors to conduct [annual audits](https://mullvad.net/en/blog/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) of their apps and infrastructure.
 
 #### :material-check:{ .pg-green } 開源客戶端
 

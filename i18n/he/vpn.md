@@ -157,7 +157,7 @@ IVPN has [servers in 37 countries](https://ivpn.net/status).(1) Picking a VPN pr
 
 #### :material-check:{ .pg-green } נבדק באופן עצמאי
 
-IVPN [עבר ביקורת ללא רישום מ-](https://cure53.de/audit-report_ivpn.pdf)Cure53 שהסתיים בהסכמה עם טענת VPN ללא רישום. IVPN השלימה גם [דוח בדיקה מקיף ](https://cure53.de/summary-report_ivpn_2019.pdf)Cure53 בינואר 2020. IVPN has also said they plan to have [annual reports](https://ivpn.net/blog/independent-security-audit-concluded) in the future. A further review was conducted [in April 2022](https://ivpn.net/blog/ivpn-apps-security-audit-2022-concluded) and was produced by Cure53 [on their website](https://cure53.de/pentest-report_IVPN_2022.pdf).
+IVPN has had multiple [independent audits](https://ivpn.net/en/blog/tags/audit) since 2019 and has publicly announced their commitment to [annual security audits](https://ivpn.net/blog/ivpn-apps-security-audit-concluded).
 
 #### :material-check:{ .pg-green } לקוחות קוד פתוח
 
@@ -232,15 +232,7 @@ Mullvad has [servers in 45 countries](https://mullvad.net/servers).(1) Picking a
 
 #### :material-check:{ .pg-green } נבדק באופן עצמאי
 
-לקוחות ה-VPN של Mullvad נבדקו על ידי Cure53 ו-Assured AB בדו"ח חדיש [שפורסם ב-](https://cure53.de/pentest-report_mullvad_v2.pdf)cure53.de. חוקרי האבטחה הגיעו למסקנה:
-
-> Cure53 ו-Assured AB מרוצים מתוצאות הביקורת והתוכנה משאירה רושם חיובי כללי. עם מסירות אבטחה של הצוות הפנימי במתחם ה-VPN של Mullvad, לבודקים אין ספק לגבי הפרויקט בדרך הנכונה מבחינה אבטחה.
-
-In 2020 a second audit [was announced](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app) and the [final audit report](https://cure53.de/pentest-report_mullvad_2020_v2.pdf) was made available on Cure53's website:
-
-> התוצאות של פרויקט מאי-יוני 2020 המתמקד במתחם Mullvad הן חיוביות למדי. [...] המערכת האקולוגית הכוללת של היישום המשמשת את Mullvad משאירה רושם קול ומובנה. המבנה הכללי של היישום מקל על גלגול תיקונים ותיקונים באופן מובנה. יותר מכל, הממצאים שנצפו על ידי Cure53 מדגימים את החשיבות של ביקורת מתמדת והערכה מחדש של וקטורי הדליפה הנוכחיים, על מנת להבטיח תמיד את פרטיותם של משתמשי הקצה. עם זאת, Mullvad עושה עבודה נהדרת בהגנה על משתמש הקצה מפני דליפות PII נפוצות וסיכונים הקשורים לפרטיות.
-
-In 2021 an infrastructure audit [was announced](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) and the [final audit report](https://cure53.de/pentest-report_mullvad_2021_v1.pdf) was made available on Cure53's website. Another report was commissioned [in June 2022](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data) and is available on [Assured's website](https://assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
+Mullvad has had multiple [independent audits](https://mullvad.net/en/blog/tag/audits) and has publicly announced their endeavors to conduct [annual audits](https://mullvad.net/en/blog/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) of their apps and infrastructure.
 
 #### :material-check:{ .pg-green } לקוחות קוד פתוח
 

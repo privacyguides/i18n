@@ -157,7 +157,7 @@ Também achamos que é melhor para a segurança das chaves privadas do fornecedo
 
 #### :material-check:{ .pg-green } Auditado de forma independente
 
-O IVPN foi submetido a uma auditoria de não-registo [da Cure53](https://cure53.de/audit-report_ivpn.pdf), que concluiu da veracidade da alegação dessa política feita pelo IVPN. O IVPN também foi submetido a um teste abrangente de penetração, realizado pela [Cure53](https://cure53.de/summary-report_ivpn_2019.pdf), em janeiro de 2020. IVPN has also said they plan to have [annual reports](https://ivpn.net/blog/independent-security-audit-concluded) in the future. A further review was conducted [in April 2022](https://ivpn.net/blog/ivpn-apps-security-audit-2022-concluded) and was produced by Cure53 [on their website](https://cure53.de/pentest-report_IVPN_2022.pdf).
+IVPN has had multiple [independent audits](https://ivpn.net/en/blog/tags/audit) since 2019 and has publicly announced their commitment to [annual security audits](https://ivpn.net/blog/ivpn-apps-security-audit-concluded).
 
 #### :material-check:{ .pg-green } Clientes de código aberto
 
@@ -232,15 +232,7 @@ Também achamos que é melhor para a segurança das chaves privadas do fornecedo
 
 #### :material-check:{ .pg-green } Auditado de forma independente
 
-Os clientes VPN do Mullvad foram auditados pela Cure53 e pela Assured AB, com os resultados disponíveis num relatório de testes de penetração [publicado em cure53.de](https://cure53.de/pentest-report_mullvad_v2.pdf). Os investigadores de segurança concluíram:
-
-> A Cure53 e a Assured AB estão satisfeitas com os resultados da auditoria e referem que o software deixa uma impressão globalmente positiva. Com uma equipa interna dedicada à segurança a trabalhar nas instalações do Mullvad, os auditores não têm dúvidas de que o projeto está no bom caminho, do ponto de vista da segurança.
-
-In 2020 a second audit [was announced](https://mullvad.net/blog/2020/6/25/results-available-audit-mullvad-app) and the [final audit report](https://cure53.de/pentest-report_mullvad_2020_v2.pdf) was made available on Cure53's website:
-
-> Os resultados desta auditoria realizada em maio-junho de 2020, que visou as instalações do Mullvad, são bastante positivos. [...] O ecossistema global de aplicações utilizado pelo Mullvad deixa uma impressão sólida e estruturada. A estrutura geral da aplicação facilita a implementação de patches e correções de uma forma estruturada. Acima de tudo, o que foi detetado pela Cure53 mostra a importância de auditar e reavaliar constantemente os atuais vectores de fuga de informação, de modo a garantir sempre a privacidade dos utilizadores finais. Dito isto, o Mullvad faz um excelente trabalho ao proteger o utilizador final das fugas comuns de informações pessoais e dos riscos relacionados com a privacidade.
-
-In 2021 an infrastructure audit [was announced](https://mullvad.net/en/blog/2021/1/20/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) and the [final audit report](https://cure53.de/pentest-report_mullvad_2021_v1.pdf) was made available on Cure53's website. Another report was commissioned [in June 2022](https://mullvad.net/en/blog/2022/6/22/vpn-server-audit-found-no-information-leakage-or-logging-of-customer-data) and is available on [Assured's website](https://assured.se/publications/Assured_Mullvad_relay_server_audit_report_2022.pdf).
+Mullvad has had multiple [independent audits](https://mullvad.net/en/blog/tag/audits) and has publicly announced their endeavors to conduct [annual audits](https://mullvad.net/en/blog/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) of their apps and infrastructure.
 
 #### :material-check:{ .pg-green } Clientes de código aberto
 
