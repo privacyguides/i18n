@@ -77,7 +77,7 @@ Si no utilizas un escáner automático para encontrar resultados sobre ti, consi
 
 Algunos sitios web compatibles con EasyOptOuts pueden consultarse públicamente. En esos casos, EasyOptOuts realizará una búsqueda y solo enviará una solicitud de exclusión voluntaria si tus datos personales ya se han encontrado, para evitar enviar tus datos en una solicitud de exclusión voluntaria a sitios que aún no los tenían. Sin embargo, admiten algunos sitios en los que no se pueden realizar búsquedas públicas, y en esos casos tus datos les serán enviados en una solicitud de exclusión voluntaria a pesar de todo, en caso de que tú estés en sus bases de datos privadas.
 
-Our [testing](https://www.privacyguides.org/articles/2025/02/03/easyoptouts-review/) indicates that EasyOptOuts provides the best value out of any data removal service we've tested, with a very affordable price and high effectiveness. Independent [findings from Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) also indicate that EasyOptOuts is one of the top performing data removal services.
+Our [testing](https://www.privacyguides.org/articles/2025/02/03/easyoptouts-review) indicates that EasyOptOuts provides the best value out of any data removal service we've tested, with a very affordable price and high effectiveness. Independent [findings from Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) also indicate that EasyOptOuts is one of the top performing data removal services.
 
 <div class="admonition failure" markdown>
 <p class="admonition-title">Sitios de alta prioridad no compatibles con EasyOptOuts</p>

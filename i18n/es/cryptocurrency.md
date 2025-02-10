@@ -54,7 +54,7 @@ En última instancia, Monero es el principal candidato para una criptomoneda ami
 
 ### Monederos Monero
 
-Para una privacidad óptima, asegúrate de utilizar un monedero de autocustodia en el que la [clave de visualización](https://www.getmonero.org/resources/moneropedia/viewkey.html) permanezca en el dispositivo. Esto significa que solo usted tiene la capacidad de gastar sus fondos, además de ver las transacciones entrantes y salientes. Si utiliza un monedero de custodia, el proveedor puede ver **todo** lo que hace; si utiliza un monedero «ligero» en el que el proveedor retiene su clave de visualización, el proveedor puede ver casi todo lo que hace (pero no gastar sus fondos). Algunos monederos de autocustodia en los que la clave de visualización no sale de su dispositivo son:
+For optimal privacy, make sure to use a self-custody wallet where the [view key](https://getmonero.org/resources/moneropedia/viewkey.html) stays on the device. Esto significa que solo usted tiene la capacidad de gastar sus fondos, además de ver las transacciones entrantes y salientes. Si utiliza un monedero de custodia, el proveedor puede ver **todo** lo que hace; si utiliza un monedero «ligero» en el que el proveedor retiene su clave de visualización, el proveedor puede ver casi todo lo que hace (pero no gastar sus fondos). Algunos monederos de autocustodia en los que la clave de visualización no sale de su dispositivo son:
 
 - [Cliente oficial de Monero](https://getmonero.org/downloads) (Escritorio)
 - [Cake Wallet](https://cakewallet.com) (iOS, Android, Desktop)

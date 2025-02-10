@@ -62,7 +62,9 @@ cover: email-aliasing.webp
 
 </div>
 
-免費帳戶建立共用網域名(像 @addy.io) 的數量為最多10個，月付1美元則可增加到 50 個別外，月付 4美元(或年繳則以3美元計) 則無數量限制。 可建立無限的標準別名，這些別名以 @[username].addy.io 等網域或付費方案自訂網域結尾。 付費帳戶可建立無數的標準別名如尾綴為 @[username]. 或是自定域名。不過如前面提過，標準別名電郵並不利於隱私，因為只依據域名就可以簡單地把別名綁定起來。 當共用網域名服務封鎖此功能時，它就派得上用場了。 Securitum 於 2023 年 9 月 完成對 addy.io 的 [稽核](https://addy.io/blog/addy-io-passes-independent-security-audit) ，[已確認](https://addy.io/addy-io-security-audit.pdf) 沒發現任何重大漏洞。
+免費帳戶建立共用網域名(像 @addy.io) 的數量為最多10個，月付1美元則可增加到 50 個別外，月付 4美元(或年繳則以3美元計) 則無數量限制。 You can pay for these plans using [cryptocurrency](https://addy.io/help/subscribing-with-cryptocurrency) or purchase a voucher code from [ProxyStore](https://addy.io/help/voucher-codes), addy.io's official reseller.
+
+可建立無限的標準別名，這些別名以 @[username].addy.io 等網域或付費方案自訂網域結尾。 付費帳戶可建立無數的標準別名如尾綴為 @[username]. 或是自定域名。不過如前面提過，標準別名電郵並不利於隱私，因為只依據域名就可以簡單地把別名綁定起來。 當共用網域名服務封鎖此功能時，它就派得上用場了。 Securitum 於 2023 年 9 月 完成對 addy.io 的 [稽核](https://addy.io/blog/addy-io-passes-independent-security-audit) ，[已確認](https://addy.io/addy-io-security-audit.pdf) 沒發現任何重大漏洞。
 
 值得注意的免費功能：
 
@@ -105,6 +107,8 @@ cover: email-aliasing.webp
 SimpleLogin 在2022 年 4月8日[已被 Proton AG 收購](https://proton.me/news/proton-and-simplelogin-join-forces)。 如果主要電子郵箱使用 Proton Mail， SimpleLogin是一個不錯的選擇。 這兩種產品現在都由同一家公司擁有，您只需要信任單一實體。 我們預計 SimpleLogin 未來會與 Proton 產品更緊密地整合。 SimpleLogin 繼續支援轉寄至您所選擇的任何電子郵件供應商。 Securitum 在 2022 年初[審核](https://simplelogin.io/blog/security-audit) SimpleLogin，所有問題[均已改善](https://simplelogin.io/audit2022/web.pdf)。
 
 可在設定中將 SimpleLogin 帳戶與 Proton 帳戶作連結。 If you have Proton Pass Plus, Proton Unlimited, or any multi-user Proton plan, you will have SimpleLogin Premium for free.
+
+You can also purchase a voucher code for SimpleLogin Premium anonymously via their official reseller, [ProxyStore](https://simplelogin.io/faq).
 
 值得注意的免費功能：
 

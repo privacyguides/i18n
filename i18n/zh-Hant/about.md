@@ -46,7 +46,7 @@ Privacy Guides 是由世界各地的志工和工作人員建立的。 我們對�
 
 我們會盡力在 3 個工作天內回覆所有詢問，但請理解我們無法為每一位詢問者提供個人化的建議。 如果您有關於隱私權的問題，您可以 [在我們的論壇上詢問](https://discuss.privacyguides.net/c/privacy/questions/8)，從 Privacy Guides社群 獲得更詳細及時的回應。
 
-You can also use OpenPGP to contact us via email, if you feel comfortable with your client's security settings. You can discover the PGP keys of our team members using WKD if your client supports it. If it doesn't, or you don't know what that means, you can also find the public key for any Privacy Guides email account by searching on [keys.openpgp.org](https://keys.openpgp.org/). We do not have PGP for the shared team inbox, only individual mailboxes which can be found in our team directory below.
+You can also use OpenPGP to contact us via email, if you feel comfortable with your client's security settings. You can discover the PGP keys of our team members using WKD if your client supports it. If it doesn't, or you don't know what that means, you can also find the public key for any Privacy Guides email account by searching on [keys.openpgp.org](https://keys.openpgp.org). We do not have PGP for the shared team inbox, only individual mailboxes which can be found in our team directory below.
 
 If you need an alternative secure channel, please request one via any contact method including social media, and we will work with you to establish one. Please do not share any sensitive information with us before we have established an appropriately secure discussion channel.
 

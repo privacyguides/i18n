@@ -62,7 +62,9 @@ Usar un servicio de alias requiere confiar tus mensajes sin encriptar a tu prove
 
 </div>
 
-El número de alias compartidos (finalizan en un dominio compartido como @addy.io) que puedes crear está limitado a 10 en el plan gratuito de addy.io, 50 en el plan de 1$/mes e ilimitado en el plan de 4$/mes (facturado en 3$ por un año). Puedes crear un número ilimitado de alias estándar que terminen en un dominio como @[nombredeusuario].addy.io o un dominio personalizado en los planes de pago. Sin embargo, como ya se ha mencionado, esto puede ir en detrimento de la privacidad porque la gente puede relacionar trivialmente tus alias estándar basándose únicamente en el nombre de dominio. Estos son útiles cuando un dominio compartido puede estar bloqueado por un servicio. Securitum [auditó](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io en septiembre de 2023 y no [se identificaron] vulnerabilidades significativas(https://addy.io/addy-io-security-audit.pdf).
+El número de alias compartidos (finalizan en un dominio compartido como @addy.io) que puedes crear está limitado a 10 en el plan gratuito de addy.io, 50 en el plan de 1$/mes e ilimitado en el plan de 4$/mes (facturado en 3$ por un año). You can pay for these plans using [cryptocurrency](https://addy.io/help/subscribing-with-cryptocurrency) or purchase a voucher code from [ProxyStore](https://addy.io/help/voucher-codes), addy.io's official reseller.
+
+Puedes crear un número ilimitado de alias estándar que terminen en un dominio como @[nombredeusuario].addy.io o un dominio personalizado en los planes de pago. Sin embargo, como ya se ha mencionado, esto puede ir en detrimento de la privacidad porque la gente puede relacionar trivialmente tus alias estándar basándose únicamente en el nombre de dominio. Estos son útiles cuando un dominio compartido puede estar bloqueado por un servicio. Securitum [auditó](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io en septiembre de 2023 y no [se identificaron] vulnerabilidades significativas(https://addy.io/addy-io-security-audit.pdf).
 
 Funciones gratuitas destacables:
 
@@ -105,6 +107,8 @@ Si cancelas tu suscripción, disfrutarás de las características de tu plan de 
 SimpleLogin fue [adquirido por Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) el 8 de abril de 2022. Si utilizas Proton Mail para tu buzón principal, SimpleLogin es una gran elección. Como ambos productos pertenecen ahora a la misma empresa, ahora sólo tienes que confiar en una única entidad. También esperamos que SimpleLogin se integre más estrechamente con las ofertas de Proton en el futuro. SimpleLogin sigue siendo compatible con el reenvío a cualquier proveedor de correo electrónico de tu elección. Securitum [auditó](https://simplelogin.io/blog/security-audit) SimpleLogin a principios de 2022 y todos los problemas [se solucionaron](https://simplelogin.io/audit2022/web.pdf).
 
 Puedes vincular tu cuenta SimpleLogin en la configuración con tu cuenta Proton. If you have Proton Pass Plus, Proton Unlimited, or any multi-user Proton plan, you will have SimpleLogin Premium for free.
+
+You can also purchase a voucher code for SimpleLogin Premium anonymously via their official reseller, [ProxyStore](https://simplelogin.io/faq).
 
 Funciones gratuitas destacables:
 

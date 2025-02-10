@@ -54,7 +54,7 @@ Monero 是隱私友好的加密貨幣中最強大的競爭者，但它的隱私�
 
 ### Monero wallets
 
-For optimal privacy, make sure to use a self-custody wallet where the [view key](https://www.getmonero.org/resources/moneropedia/viewkey.html) stays on the device. 這意味著只有您能夠花費資金並查看交易進出。 If you use a custodial wallet, the provider can see **everything** you do; if you use a “lightweight” wallet where the provider retains your view key, the provider can see almost everything you do (but not spend your funds). Some self-custody wallets where the view key does not leave your device include:
+For optimal privacy, make sure to use a self-custody wallet where the [view key](https://getmonero.org/resources/moneropedia/viewkey.html) stays on the device. 這意味著只有您能夠花費資金並查看交易進出。 If you use a custodial wallet, the provider can see **everything** you do; if you use a “lightweight” wallet where the provider retains your view key, the provider can see almost everything you do (but not spend your funds). Some self-custody wallets where the view key does not leave your device include:
 
 - [官方Monero客戶端](https://getmonero.org/downloads) （桌面）
 - [Cake Wallet](https://cakewallet.com) (iOS, Android, Desktop)

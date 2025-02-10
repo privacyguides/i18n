@@ -54,7 +54,7 @@ In August 2021, CipherTrace [announced](https://web.archive.org/web/202402232248
 
 ### Monero wallets
 
-For optimal privacy, make sure to use a self-custody wallet where the [view key](https://www.getmonero.org/resources/moneropedia/viewkey.html) stays on the device. Это означает то, что только вы будете иметь возможность расходовать свои средства и видеть входящие и исходящие транзакции. If you use a custodial wallet, the provider can see **everything** you do; if you use a “lightweight” wallet where the provider retains your view key, the provider can see almost everything you do (but not spend your funds). Some self-custody wallets where the view key does not leave your device include:
+For optimal privacy, make sure to use a self-custody wallet where the [view key](https://getmonero.org/resources/moneropedia/viewkey.html) stays on the device. Это означает то, что только вы будете иметь возможность расходовать свои средства и видеть входящие и исходящие транзакции. If you use a custodial wallet, the provider can see **everything** you do; if you use a “lightweight” wallet where the provider retains your view key, the provider can see almost everything you do (but not spend your funds). Some self-custody wallets where the view key does not leave your device include:
 
 - [Официальный клиент Monero](https://getmonero.org/ru/downloads/) (для ПК)
 - [Cake Wallet](https://cakewallet.com) (iOS, Android, Desktop)

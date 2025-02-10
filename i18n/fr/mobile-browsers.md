@@ -210,7 +210,7 @@ La [Synchronisation Brave](https://support.brave.com/hc/articles/360059793111-Un
 
 **Cromite** is a Chromium-based browser with built-in ad blocking, fingerprinting protections, and other [privacy and security enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the discontinued **Bromite** browser.
 
-[:octicons-home-16: Homepage](https://www.cromite.org){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://cromite.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Source Code" }
@@ -218,7 +218,7 @@ La [Synchronisation Brave](https://support.brave.com/hc/articles/360059793111-Un
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-android: F-Droid](https://www.cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
+- [:simple-android: F-Droid](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
 - [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
 
 </details>

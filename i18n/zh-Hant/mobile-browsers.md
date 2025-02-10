@@ -210,15 +210,15 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
 
 **Cromite** 是一個基於 Chromium 的瀏覽器，內建廣告封鎖、指紋保護及其他[隱私與安全強化功能](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md)。 它是已停止維護的 **Bromite** 瀏覽器之分支。
 
-[:octicons-home-16: 首頁](https://www.cromite.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="說明文件" }
-[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="原始碼" }
+[:octicons-home-16: Homepage](https://cromite.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
-- [:simple-android: F-Droid](https://www.cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
+- [:simple-android: F-Droid](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
 - [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
 
 </details>

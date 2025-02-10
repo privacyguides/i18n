@@ -77,7 +77,7 @@ cover: data-broker-removals.webp
 
 EasyOptOuts 支援的某些網站可公開搜尋。 在這些情況下，EasyOptOuts 會執行搜尋，只有在已找到您的個人資料時，才會提交退出請求，以避免在退出請求中，將您的資料傳送至尚未擁有您個人資料的網站。 不過，他們確實支援一些無法公開搜尋的網站，在這些情況下，您的資料會以退出請求的方式傳送給他們，無論如何，以防您在他們的私人資料庫中。
 
-Our [testing](https://www.privacyguides.org/articles/2025/02/03/easyoptouts-review/) indicates that EasyOptOuts provides the best value out of any data removal service we've tested, with a very affordable price and high effectiveness. Independent [findings from Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) also indicate that EasyOptOuts is one of the top performing data removal services.
+Our [testing](https://www.privacyguides.org/articles/2025/02/03/easyoptouts-review) indicates that EasyOptOuts provides the best value out of any data removal service we've tested, with a very affordable price and high effectiveness. Independent [findings from Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) also indicate that EasyOptOuts is one of the top performing data removal services.
 
 <div class="admonition failure" markdown>
 <p class="admonition-title">EasyOptOuts 不支援的高優先級網站</p>

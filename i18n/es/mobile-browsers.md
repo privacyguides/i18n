@@ -210,15 +210,15 @@ Estas opciones se encuentran en :material-menu:/:fontawesome-solid-ellipsis: →
 
 **Cromite** es un navegador basado en Chromium con bloqueo de anuncios integrado, protección de huellas digitales y otras [mejoras de privacidad y seguridad](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). Es una bifurcación del navegador descatalogado **Bromite**.
 
-[:octicons-home-16: Página Principal](https://www.cromite.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Documentación" }
-[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Código Fuente" }
+[:octicons-home-16: Homepage](https://cromite.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
-- [:simple-android: F-Droid](https://www.cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
+- [:simple-android: F-Droid](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
 - [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
 
 </details>

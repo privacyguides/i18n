@@ -54,7 +54,7 @@ Uiteindelijk is Monero de sterkste mededinger voor een privacyvriendelijke crypt
 
 ### Monero wallets
 
-For optimal privacy, make sure to use a self-custody wallet where the [view key](https://www.getmonero.org/resources/moneropedia/viewkey.html) stays on the device. Dit betekent dat alleen jij je geld kunt uitgeven en de inkomende en uitgaande transacties kunt zien. If you use a custodial wallet, the provider can see **everything** you do; if you use a “lightweight” wallet where the provider retains your view key, the provider can see almost everything you do (but not spend your funds). Some self-custody wallets where the view key does not leave your device include:
+For optimal privacy, make sure to use a self-custody wallet where the [view key](https://getmonero.org/resources/moneropedia/viewkey.html) stays on the device. Dit betekent dat alleen jij je geld kunt uitgeven en de inkomende en uitgaande transacties kunt zien. If you use a custodial wallet, the provider can see **everything** you do; if you use a “lightweight” wallet where the provider retains your view key, the provider can see almost everything you do (but not spend your funds). Some self-custody wallets where the view key does not leave your device include:
 
 - [Officiële Monero-client](https://getmonero.org/downloads) (Desktop)
 - [Cake Wallet](https://cakewallet.com) (iOS, Android, Desktop)
