@@ -1,6 +1,6 @@
 ---
 meta_title: "Privacy Guides: Independent Privacy & Security Resources"
-description: "Established in 2021, Privacy Guides is the most popular & trustworthy non-profit resource to find privacy tools and learn about protecting your digital life."
+description: "Crée en 2021, Privacy Guides est la ressource à but non lucratif la plus populaire et la plus & fiable pour trouver des outils de protection de la vie privée ainsi qu'en apprendre plus sur la protection de votre vie numérique."
 template: home.html
 social:
   cards_layout: home
@@ -42,11 +42,11 @@ schema:
 <div markdown>
 ## Pourquoi devrais-je m'en soucier ?
 
-> “I have nothing to hide. Pourquoi devrais-je me soucier de ma vie privée ? »
+> "Je n'ai rien à cacher. Pourquoi devrais-je me soucier de ma vie privée ? »
 
 Tout comme le droit au mariage mixte, le droit de vote des femmes, la liberté d'expression et bien d'autres, notre droit à la vie privée n'a pas toujours été respecté. Dans plusieurs dictatures, ce n'est toujours pas le cas. Nombreux sont nos ancêtres qui se sont battus pour notre droit à la vie privée. ==La vie privée est un droit humain inhérent à chacun d'entre nous== auquel nous avons droit (sans discrimination).
 
-You shouldn't confuse privacy with secrecy. On sait ce qui se passe dans les toilettes, mais on ferme quand même la porte. That's because you want privacy, not secrecy. **Tout le monde** a quelque chose à protéger. Privacy is something that makes us human.
+Il ne faut pas confondre la vie privée et le secret. On sait ce qui se passe dans les toilettes, mais on ferme quand même la porte. C'est parce que vous voulez une vie privée, et non pas du secret. **Tout le monde** a quelque chose à protéger. La vie privée est quelque chose qui nous rend humain.
 
 [:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button" }
 </div>
@@ -54,13 +54,13 @@ You shouldn't confuse privacy with secrecy. On sait ce qui se passe dans les toi
 <div markdown>
 ## Que dois-je faire ?
 
-> First, you need to make a plan
+> Tout d'abord, vous devez établir un plan
 
-Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. Mais ne vous en faites pas ! La sécurité est un processus et, en anticipant, vous pouvez élaborer un plan qui vous convient. Security isn't just about the *privacy tools* you use or the software you download. Au contraire, elle commence par une compréhension des menaces uniques auxquelles vous êtes confrontés, et comment les atténuer.
+Essayer de protéger toutes vos données contre tout le monde, tout le temps, est peu pratique, coûteux et épuisant. Mais ne vous en faites pas ! La sécurité est un processus et, en anticipant, vous pouvez élaborer un plan qui vous convient. La sécurité ne se limite pas aux *outils de protection de la vie privée* que vous utilisez ou aux logiciels que vous téléchargez. Au contraire, elle commence par une compréhension des menaces uniques auxquelles vous êtes confrontés, et comment les atténuer.
 
 ==Ce processus d'identification des menaces et de définition des contre-mesures est appelé la **modélisation des menaces**==, et constitue la base de tout bon plan de sécurité et de confidentialité.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button" }
+[:material-book-outline: En savoir plus sur la modélisation des menaces](basics/threat-modeling.md){ class="md-button" }
 </div>
 </div>
 
@@ -69,29 +69,29 @@ Trying to protect all your data from everyone all the time is impractical, expen
 <div class="grid" markdown>
 
 <div markdown>
-**Privacy Guides** has a dedicated [community](https://discuss.privacyguides.net) independently reviewing various *privacy tools* and services. Each of our recommendations comply with a strict set of criteria to ensure they provide the most value to most people, and provide the best balance of privacy, security, and convenience. As part of a non-profit **public charity**, Privacy Guides has strict **journalistic standards** and policies to ensure our recommendations are free of conflict of interest, and we do not partner with providers or affiliate programs that could sway our reviews and recommendations.
+**Privacy Guides** dispose d'une [communauté] dédiée (https://discuss.privacyguides.net) qui évalue de manière indépendante divers *outils et services de protection de la vie privée. Chacune de nos recommandations répond à un ensemble de critères stricts afin de s'assurer qu'elles apportent la plus grande valeur au plus grand nombre et qu'elles offrent le meilleur équilibre entre vie privée, sécurité et commodité. En tant que membre d'une **organisation caritative publique** à but non lucratif, Privacy Guides applique des **normes journalistiques** et des politiques strictes pour garantir que nos recommandations sont exemptes de conflits d'intérêts. Nous ne nous associons pas à des fournisseurs ou à des programmes d'affiliation susceptibles d'influencer nos évaluations et nos recommandations.
 
-[:material-heart:{.pg-red} Support Our Work](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary }
+[:material-heart:{.pg-red} Soutenir notre travail](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary }
 </div>
 
-- [x] **Ad-Free Recommendations**
-- [x] **Complete Editorial Independence**
-- [x] **Non-Profit & Open Source**
-- [x] **Frequent Updates**
-- [x] **Trusted by Journalists**
-- [x] **Trusted by Readers**
+- [x] **Recommandations sans publicité**
+- [x] **Indépendance éditoriale totale**
+- [x] **Sans but lucratif et Open Source**
+- [x] **Mises à jour fréquentes**
+- [x] **Confiance des journalistes**
+- [x] **Confiance des lecteurs**
 
 </div>
 
-### Top 3 Private Email Providers
+### Top 3 des fournisseurs d'emails privés
 
 <div class="grid cards" markdown>
 
--   ![Proton Mail logo](assets/img/email/protonmail.svg){ .lg .middle .twemoji loading=lazy } **Proton Mail**
+-   ![Proton Mail logo](assets/img/email/protonmail.svg){ .lg .middle .twemoji } **Proton Mail**
 
     ---
 
-    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG a son siège à Genève, en Suisse. L'offre Free de Proton Mail comprend 500 Mo de stockage d'e-mails, que vous pouvez augmenter jusqu'à 1 Go gratuitement.
+    Proton Mail est un service d'e-mail qui met l'accent sur la confidentialité, le chiffrement, la sécurité et la facilité d'utilisation. Ils sont en activité depuis 2013. Proton AG a son siège à Genève, en Suisse. L'offre Free de Proton Mail comprend 500 Mo de stockage d'e-mails, que vous pouvez augmenter jusqu'à 1 Go gratuitement.
 
     [:octicons-arrow-right-24: Read Full Review](email.md#proton-mail)
 
