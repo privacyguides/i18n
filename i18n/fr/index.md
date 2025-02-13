@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Guides: Independent Privacy & Security Resources"
+meta_title: "Privacy Guides : votre ressource indépendante en matière de protection de la vie privée et de sécurité"
 description: "Crée en 2021, Privacy Guides est la ressource à but non lucratif la plus populaire et la plus & fiable pour trouver des outils de protection de la vie privée ainsi qu'en apprendre plus sur la protection de votre vie numérique."
 template: home.html
 social:
@@ -48,7 +48,7 @@ Tout comme le droit au mariage mixte, le droit de vote des femmes, la liberté d
 
 Il ne faut pas confondre la vie privée et le secret. On sait ce qui se passe dans les toilettes, mais on ferme quand même la porte. C'est parce que vous voulez une vie privée, et non pas du secret. **Tout le monde** a quelque chose à protéger. La vie privée est quelque chose qui nous rend humain.
 
-[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button" }
+[:material-book-outline: Pourquoi la protection de la vie privée](basics/why-privacy-matters.md){ class="md-button" }
 </div>
 
 <div markdown>
@@ -178,12 +178,12 @@ We recommend a wide variety of **privacy tools** (a.k.a. *privacy apps*, *privac
 </div>
 
 <div markdown>
-## Why does privacy matter?
+## Pourquoi la protection de la vie privée est-elle importante ?
 
-In the modern age of digital data exploitation, your privacy has never been more critical, yet many believe it is already a lost cause. Ce n'est pas le cas. ==Your privacy is up for grabs, and you need to care about it.== Privacy is about power, and it is so important that this power ends up in the right hands.
+À l'ère moderne de l'exploitation des données numériques, la protection de votre vie privée n'a jamais été aussi cruciale, et pourtant beaucoup pensent qu'elle est déjà une cause perdue. Ce n'est pas le cas. ==Votre vie privée est en jeu, et vous devez vous en préoccuper.== La vie privée est une question de pouvoir, et il est très important que ce pouvoir se retrouve entre les bonnes mains.
 
-Many people get the concepts of privacy, security, and anonymity confused. Vous verrez des gens critiquer divers produits en disant qu'ils ne sont pas privés, alors qu'ils veulent dire qu'ils ne garantissent pas l'anonymat, par exemple. Sur ce site web, nous abordons ces trois sujets, mais il est important que vous compreniez la différence entre eux et quand chacun d'entre eux entre en jeu.
+De nombreuses personnes confondent les notions de vie privée, de sécurité et d'anonymat. Vous verrez des gens critiquer divers produits en disant qu'ils ne sont pas privés, alors qu'ils veulent dire qu'ils ne garantissent pas l'anonymat, par exemple. Sur ce site web, nous abordons ces trois sujets, mais il est important que vous compreniez la différence entre eux et quand chacun d'entre eux entre en jeu.
 
-[Privacy vs Security vs Anonymity](basics/why-privacy-matters.md#what-is-privacy){ class="md-button" }
+[Vie privée vs Sécurité vs Anonymat](basics/why-privacy-matters.md#what-is-privacy){ class="md-button" }
 </div>
 </div>
