@@ -64,7 +64,7 @@ Essayer de protéger toutes vos données contre tout le monde, tout le temps, es
 </div>
 </div>
 
-## Trustworthy Privacy Software Reviews
+## Avis fiables sur les logiciels de protection de la vie privée
 
 <div class="grid" markdown>
 
@@ -93,13 +93,13 @@ Essayer de protéger toutes vos données contre tout le monde, tout le temps, es
 
     Proton Mail est un service d'e-mail qui met l'accent sur la confidentialité, le chiffrement, la sécurité et la facilité d'utilisation. Ils sont en activité depuis 2013. Proton AG a son siège à Genève, en Suisse. L'offre Free de Proton Mail comprend 500 Mo de stockage d'e-mails, que vous pouvez augmenter jusqu'à 1 Go gratuitement.
 
-    [:octicons-arrow-right-24: Read Full Review](email.md#proton-mail)
+    :octicons-arrow-right-24: Lire l'article complet](email.md#proton-mail)
 
 -   ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji loading=lazy } **Mailbox.org**
 
     ---
 
-    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. Il est en activité depuis 2014. Mailbox.org est basé à Berlin, en Allemagne. Les comptes commencent avec 2 Go de stockage, qui peut être mis à niveau au besoin.
+    Mailbox.org est un service de messagerie électronique sécurisé, sans publicité et alimenté par une énergie 100% écologique. Il est en activité depuis 2014. Mailbox.org est basé à Berlin, en Allemagne. Les comptes commencent avec 2 Go de stockage, qui peut être mis à niveau au besoin.
 
     [:octicons-arrow-right-24: Read Full Review](email.md#mailboxorg)
 
