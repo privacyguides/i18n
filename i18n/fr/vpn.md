@@ -89,9 +89,9 @@ Proton VPN, en plus d'accepter les cartes de crédit/débit, PayPal, et [le Bitc
 
 #### :material-check:{ .pg-green } Prise en charge de WireGuard
 
-Proton VPN prend principalement en charge le protocole WireGuard®. [WireGuard](https://wireguard.com) est un protocole plus récent qui utilise une [cryptographie](https://wireguard.com/protocol) de pointe. De plus, WireGuard vise à être plus simple et plus performant.
+Proton VPN supports the WireGuard® protocol. [WireGuard](https://wireguard.com) est un protocole plus récent qui utilise une [cryptographie](https://wireguard.com/protocol) de pointe. De plus, WireGuard vise à être plus simple et plus performant.
 
-Proton VPN [recommande](https://protonvpn.com/blog/wireguard) l'utilisation de WireGuard avec leur service. Sur les applications Windows, macOS, iOS, Android, ChromeOS et Android TV de Proton VPN, WireGuard est le protocole par défaut ; cependant, la [prise en charge](https://protonvpn.com/support/how-to-change-vpn-protocols) du protocole n'est pas présente dans leur application Linux.
+Proton VPN [recommande](https://protonvpn.com/blog/wireguard) l'utilisation de WireGuard avec leur service. Proton VPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
 
 #### :material-alert-outline:{ .pg-orange } Limited IPv6 Support
 

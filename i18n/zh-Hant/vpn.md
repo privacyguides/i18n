@@ -89,9 +89,9 @@ Proton VPN 在其 [GitHub 組織](https://github.com/ProtonVPN) 中提供桌面�
 
 #### :material-check:{ .pg-green } 支援 WireGuard
 
-Proton VPN 支援 WireGuard® 協議。 [WireGuard](https://wireguard.com/protocol) 是一種較新的協議，使用最先進的[密碼學](https://wireguard.com)。 此外，WireGuard 的目標是更簡單，更高效。
+Proton VPN supports the WireGuard® protocol. [WireGuard](https://wireguard.com/protocol) 是一種較新的協議，使用最先進的[密碼學](https://wireguard.com)。 此外，WireGuard 的目標是更簡單，更高效。
 
-Proton VPN [推薦](https://protonvpn.com/blog/wireguard)搭配 WireGuard 使用。 在 Proton VPN 的 Windows、macOS、iOS、Android、ChromeOS 以及 Android TV 等平台的應用程式中，WireGuard 已是預設協議；然而， Linux 作業系統的應用程式[尚未支援](https://protonvpn.com/support/how-to-change-vpn-protocols)此協議。
+Proton VPN [推薦](https://protonvpn.com/blog/wireguard)搭配 WireGuard 使用。 Proton VPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
 
 #### :material-alert-outline:{ .pg-orange } 有限的 IPv6 支援
 

@@ -89,9 +89,9 @@ Proton VPN предоставляет исходный код для своих 
 
 #### :material-check:{ .pg-green } Поддержка WireGuard
 
-Proton VPN, в основном, поддерживает протокол WireGuard®. [WireGuard](https://wireguard.com) – это более новый протокол, в использующий самую современную [криптографию](https://wireguard.com/protocol). Кроме того, WireGuard стремится быть более простым и производительным.
+Proton VPN supports the WireGuard® protocol. [WireGuard](https://wireguard.com) – это более новый протокол, в использующий самую современную [криптографию](https://wireguard.com/protocol). Кроме того, WireGuard стремится быть более простым и производительным.
 
-Proton VPN [рекомендует](https://protonvpn.com/blog/wireguard) использовать WireGuard вместе со своим сервисом. В приложениях Proton VPN для Windows, macOS, iOS, Android, ChromeOS и Android TV по умолчанию используется протокол WireGuard, однако в приложении для Linux [поддержка](https://protonvpn.com/support/how-to-change-vpn-protocols) этого протокола отсутствует.
+Proton VPN [рекомендует](https://protonvpn.com/blog/wireguard) использовать WireGuard вместе со своим сервисом. Proton VPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
 
 #### :material-alert-outline:{ .pg-orange } Ограниченная поддержка IPv6
 

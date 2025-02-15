@@ -91,9 +91,9 @@ Proton VPN, además de aceptar tarjetas de crédito/débito, PayPal y [Bitcoin](
 
 #### :material-check:{ .pg-green } Soporte de WireGuard
 
-Mullvad soporta el protocolo WireGuard®. [WireGuard](https://wireguard.com) es un protocolo más reciente que utiliza [criptografía](https://wireguard.com/protocol) de última generación. Además, WireGuard aspira ser más simple y veloz.
+Proton VPN supports the WireGuard® protocol. [WireGuard](https://wireguard.com) es un protocolo más reciente que utiliza [criptografía](https://wireguard.com/protocol) de última generación. Además, WireGuard aspira ser más simple y veloz.
 
-Proton VPN [recomienda](https://protonvpn.com/blog/wireguard) el uso de WireGuard con su servicio. En las aplicaciones de Proton VPN para Windows, macOS, iOS, Android, ChromeOS y Android TV, WireGuard es el protocolo predeterminado; sin embargo, [la compatibilidad](https://protonvpn.com/support/how-to-change-vpn-protocols) para el protocolo no está presente en su aplicación para Linux.
+Proton VPN [recomienda](https://protonvpn.com/blog/wireguard) el uso de WireGuard con su servicio. Proton VPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
 
 #### :material-alert-outline:{ .pg-orange } Soporte IPv6 Limitado
 
