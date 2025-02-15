@@ -1,21 +1,21 @@
 ---
-title: Android Overview
+title: Обзор Android
 icon: simple/android
-description: Android is an open-source operating system with strong security protections, which makes it our top choice for phones.
+description: Android - это операционная система с открытым исходным кодом, обеспечивающая надежную защиту, что делает ее нашим предпочтительным выбором для телефонов.
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
 ![Логотип Android](../assets/img/android/android.svg){ align=right }
 
-The **Android Open Source Project** is a secure mobile operating system featuring strong [app sandboxing](https://source.android.com/security/app-sandbox), [Verified Boot](https://source.android.com/security/verifiedboot) (AVB), and a robust [permission](https://developer.android.com/guide/topics/permissions/overview) control system.
+**Проект Android с открытым исходным кодом** — это защищенная мобильная операционная система с эффективной [песочницей приложений](https://source.android.com/security/app-sandbox), [проверенной загрузкой](https://source.android.com/security/verifiedboot) (AVB) и надежной системой управления [разрешениями](https://developer.android.com/guide/topics/permissions/overview).
 
-[:octicons-home-16:](https://source.android.com){ .card-link title=Homepage }
-[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://cs.android.com/android/platform/superproject/main){ .card-link title="Source Code" }
+[:octicons-home-16:](https://source.android.com){ .card-link title=Домашняя страница}
+[:octicons-info-16:](https://source.android.com/docs){ .card-link title=Документация}
+[:octicons-code-16:](https://cs.android.com/android/platform/superproject/main){ .card-link title="Исходный код" }
 
-[Our Android Advice :material-arrow-right-drop-circle:](../android/index.md ""){.md-button.md-button--primary}
+[Наши советы по Android :material-arrow-right-drop-circle:](../android/index.md ""){.md-button.md-button--primary}
 
-## Security Protections
+## Безопасность
 
 Key components of the Android security model include [verified boot](#verified-boot), [firmware updates](#firmware-updates), and a robust [permission system](#android-permissions). These important security features form the baseline of the minimum criteria for our [mobile phone](../mobile-phones.md) and [custom Android OS](../android/distributions.md) recommendations.
 
@@ -88,7 +88,7 @@ Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/
 
 </div>
 
-## Privacy Features
+## Конфиденциальность
 
 ### Профили пользователей
 
@@ -122,7 +122,7 @@ Android 7 and above supports a VPN kill switch, and it is available without the 
 
 В современных устройствах Android есть глобальные переключатели для отключения Bluetooth и служб определения местоположения. В Android 12 появились переключатели для камеры и микрофона. Когда эти функции не используются, мы рекомендуем отключать их. Apps cannot use disabled features (even if granted individual permissions) until re-enabled.
 
-## Google Services
+## Сервисы Google
 
 If you are using a device with Google services—whether with the stock operating system or an operating system that safely sandboxes Google Play Services like GrapheneOS—there are a number of additional changes you can make to improve your privacy. Мы по-прежнему рекомендуем полностью отказаться от сервисов Google или ограничить сервисы Google Play определенным профилем пользователя/рабочим профилем, объединив контроллер устройства, такой как *Shelter*, с GrapheneOS's Sandboxed Google Play.
 

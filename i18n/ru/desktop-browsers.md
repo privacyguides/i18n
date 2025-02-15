@@ -192,7 +192,7 @@ Firefox добавляет уникальный [маркер загрузки](
 Кроме того, аккаунт Mozilla собирает [некоторые технические данные](https://mozilla.org/privacy/mozilla-accounts). Если вы используете аккаунт Mozilla, вы можете отключить сбор этих данных:
 
 1. Откройте [настройки вашего профиля на сайте accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
-2. Uncheck **Data Collection and Use** > **Help improve Firefox Accounts**
+2. Отключите **Data Collection and Use** > **Help improve Firefox Accounts**
 
 ##### Настройка рекламы для веб-сайтов
 
