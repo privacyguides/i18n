@@ -77,11 +77,11 @@ With cryptocurrency there are two forms of wallets: custodial wallets and self-c
 
 ### 取得
 
-私下購買 [加密貨幣](../cryptocurrency.md) ，如Monero 可能很困難。 P2P marketplaces (platforms which facilitate trades between people) are one option, though the user experience typically suffers. If using an exchange which requires KYC is acceptable for you as long as subsequent transactions can't be traced, it's much easier to purchase Monero on a centralized exchange or purchase Bitcoin/Litecoin from a KYC exchange which can then be swapped for Monero. Then, you can withdraw the purchased Monero to your own self-custody wallet to use privately from that point forward.
+私下收購 Monero 等[加密貨幣](../cryptocurrency.md)可能很困難。 P2P 市場（促進人與人之間交易的平台）是一種選擇，但使用者體驗通常會受到影響。 如果使用需要 KYC 的交易所對您來說是可以接受的，只要後續交易無法被追蹤，那麼在集中式交易所購買 Monero 或從 KYC 交易所購買 Bitcoin/Litecoin，然後再換成 Monero 會容易得多。 之後，您就可以將購買的 Monero 提領到自己的自我保管錢包中，從此開始私下使用。
 
-[Recommended places to buy Monero](../cryptocurrency.md#buying-monero ""){.md-button}
+[推薦購買 Monero 的地方](../cryptocurrency.md#buying-monero ""){.md-button}
 
-如果您選擇這條路線，請確保以不同的時間和額度購買與用掉Monero 。 如果你在交易所購買 5000 美元的 Monero ，並在一個小時後花掉這筆錢，外部觀察者會將這些行為作關聯，無關 Monero 走的是通道。 驚人的購買和提前購買大量的Monero 以支應之後小額交易，可以避免這種陷阱。
+如果您走這條路線，請確保在不同的時間購買 Monero，且購買的金額與您要花費的地方不同。 如果您在交易所購買了 5000 美元的 Monero，一小時後再購買 5000 美元的 Monero，無論 Monero 走的是哪一條路，這些行為都有可能被外部觀察者相關聯。 錯開來購買，預先購買較大數量的 Monero，之後再花在多筆較小的交易上，可以避免這個陷阱。
 
 ## 其他注意事項
 
@@ -90,8 +90,8 @@ With cryptocurrency there are two forms of wallets: custodial wallets and self-c
 在網上購買時，理想情況下應該透過 [Tor](tor-overview.md)進行。 但是，許多商家不允許使用 Tor 購買。 可以考慮使用 [推薦的 VPN](../vpn.md) （使用現金、禮品卡或 Monero 支付），或利用咖啡店或圖書館免費 Wi-Fi 購買。 如果你訂購的是實體物品，則需要提供送遞地址。 您應該考慮使用郵政信箱、私人郵箱或工作地址。
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Important notices</p>
+<p class="admonition-title">重要聲明</p>
 
-The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](../about/notices.md).
+此處的內容並非法律或財務建議。 我們不贊同或鼓勵非法活動，也不贊同或鼓勵任何違反公司服務條款的行為。 請向專業人員查詢，確認這些建議在您的司法管轄區是否合法和可用。 [查看所有聲明](../about/notices.md).
 
 </div>
