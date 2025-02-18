@@ -1,11 +1,11 @@
 ---
-meta_title: The Best Android Operating Systems - Privacy Guides
-title: Alternative Distributions
-description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
+meta_title: Les meilleurs systèmes d'exploitation Android - Privacy Guides
+title: Distributions alternatives
+description: Vous pouvez remplacer le système d'exploitation de votre téléphone Android par ces alternatives sécurisées et respectueuses de la vie privée.
 schema:
   - "@context": http://schema.org
     "@type": WebPage
-    name: Private Android Operating Systems
+    name: Systèmes d'exploitation Android privés
     url: ./
   - "@context": http://schema.org
     "@type": CreativeWork
@@ -22,8 +22,8 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 <small>Protège contre la/les menaces suivantes :</small>
 
-- [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-target-account: Attaques ciblées](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-bug-outline: Attaques passives](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 Un **système d'exploitation personnalisé basé sur Android** (parfois appelé un **ROM personnalisé**) peut être une façon d'atteindre un niveau plus élevé de confidentialité et de sécurité sur votre appareil. Cela contraste avec la version "stock" d'Android, qui est installé sur votre appareil par défaut lors de la fabrication. Cette version est souvent profondément intégrée aux services Google Play ainsi qu'à d'autres logiciels fournisseurs.
 
@@ -42,33 +42,33 @@ Nous recommandons d'installer GrapheneOS si vous avez un Google Pixel, puisqu'il
 
 **GrapheneOS** est le meilleur choix en matière de confidentialité et de sécurité.
 
-GrapheneOS fournit des [renforcements de sécurité](https://en.wikipedia.org/wiki/Hardening_\(computing\)) et de confidentialité supplémentaire. It has a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), network and sensor permissions, and various other [security features](https://grapheneos.org/features). GrapheneOS est également livré avec des mises à jour complètes du micrologiciel (firmware) et des versions signées, de sorte que le démarrage sécurisé (secure boot) est entièrement pris en charge.
+GrapheneOS fournit des [renforcements de sécurité](https://en.wikipedia.org/wiki/Hardening_\(computing\)) et de confidentialité supplémentaire. Il dispose d'un [allocateur de mémoire renforcé](https://github.com/GrapheneOS/hardened_malloc), de permissions de réseau et de capteurs, et de diverses autres [fonctions de sécurité](https://grapheneos.org/features). GrapheneOS est également livré avec des mises à jour complètes du micrologiciel et des versions signées, de sorte que le démarrage sécurisé est entièrement pris en charge.
 
-[:octicons-home-16: Homepage](https://grapheneos.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://grapheneos.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Code source" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribuer }
 
 </div>
 
-GrapheneOS prend en charge [l'isolation Google Play] (https://grapheneos.org/usage#sandboxed-google-play), qui exécute les services Google Play de façon isolée, comme n'importe quelle autre application. This means you can take advantage of most Google Play Services, such as push notifications, while giving you full control over their permissions and access, and while containing them to a specific [work profile](../os/android-overview.md#work-profile) or [user profile](../os/android-overview.md#user-profiles) of your choice.
+GrapheneOS prend en charge [l'isolation Google Play] (https://grapheneos.org/usage#sandboxed-google-play), qui exécute les services Google Play de façon isolée, comme n'importe quelle autre application. Cela signifie que vous pouvez profiter de la plupart des avantages des services Google Play, comme les notifications, tout en vous donnant le contrôle total à leurs permissions et leurs accès, en plus de les limiter à un [profil professionnel](../os/android-overview.md#work-profile) ou à un [profil personnel](../os/android-overview.md#user-profiles) de votre choix.
 
-[Google Pixel phones](../mobile-phones.md#google-pixel) are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#future-devices).
+Les [téléphones Google Pixel](../mobile-phones.md#google-pixel) sont présentement les seuls à répondre aux [exigences de sécurité matérielle](https://grapheneos.org/faq#future-devices) de GrapheneOS.
 
-By default, Android makes many network connections to Google to perform DNS connectivity checks, to sync with current network time, to check your network connectivity, and for many other background tasks. GrapheneOS replaces these with connections to servers operated by GrapheneOS and subject to their privacy policy. This hides information like your IP address [from Google](../basics/common-threats.md#privacy-from-service-providers), but means it is trivial for an admin on your network or ISP to see you are making connections to `grapheneos.network`, `grapheneos.org`, etc. and deduce what operating system you are using.
+Par défaut, Android effectue de nombreuses connexions réseau avec Google pour effectuer des vérifications de connectivité DNS, pour se synchroniser avec l'heure actuelle du réseau, pour vérifier votre connectivité réseau et pour de nombreuses autres tâches d'arrière-plan. GrapheneOS vient remplacer celles-ci par des connexions à des serveurs opérés par GrapheneOS qui sont soumis à leur propre politique de confidentialité. Cela cache votre information comme votre adresse IP [de Google](../basics/common-threats.md#privacy-from-service-providers), mais fais en sorte qu'il est trivial pour un administrateur de votre réseau ou pour votre fournisseur d'accès internet que vous faites des connexions à `grapheneos.network`, `grapheneos.org`, etc. et de déuire quel système d'exploitation vous utilisez.
 
-If you want to hide information like this from an adversary on your network or ISP, you **must** use a [trusted VPN](../vpn.md) in addition to changing the connectivity check setting to **Standard (Google)**. It can be found in :gear: **Settings** → **Network & internet** → **Internet connectivity checks**. This option allows you to connect to Google's servers for connectivity checks, which, alongside the usage of a VPN, helps you blend in with a larger pool of Android devices.
+Si vous voulez cacher ce type d'information à une personne en particulier sur votre réseau ou à votre FAI, vous **devez** utiliser un [VPN de confiance](../vpn.md) en plus de changer le paramètre de vérification de connectivité à **Standard (Google)**. Celui-ci se trouve dans :gear: **Paramètres** → **Réseau et internet** → **Vérification de la connectivité internet**. Cette option vous permet de vous connecter aux serveurs de Google pour vérifier la connectivité, ce qui, avec l'utilisation d'un VPN, vous aide à vous fondre dans un plus grand nombre d'appareils Android.
 
 ## Critères
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
+**Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de [nos critères de base](../about/criteria.md), nous avons développé un ensemble d'exigences claires pour nous permettre de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
 
 - Doit être un logiciel open source.
-- Must support bootloader locking with custom AVB key support.
-- Must receive major Android updates within 0-1 months of release.
-- Must receive Android feature updates (minor version) within 0-14 days of release.
-- Must receive regular security patches within 0-5 days of release.
-- Must **not** be "rooted" out of the box.
-- Must **not** enable Google Play Services by default.
-- Must **not** require system modification to support Google Play Services.
+- Doit prendre en charge le verrouillage du chargeur d'amorçage avec prise en charge d'une clé AVB personnalisée.
+- Doit recevoir les mises à jour majeures d'Android dans le mois suivant leur sortie.
+- Doit recevoir les mises à jour des fonctionnalités d'Android (version mineure) dans les deux semaines après leur sortie.
+- Doit recevoir les correctifs de sécurités réguliers dans les 5 jours suivants leur sortie.
+- **Ne** dois **pas** être fourni "rooted".
+- **Ne** dois **pas** activer les services Google Play par défaut.
+- **Ne** dois **pas** nécessiter une modification du système pour prendre en charge les services Google Play.
