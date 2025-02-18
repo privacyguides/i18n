@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Guides : votre ressource indépendante en matière de protection de la vie privée et de sécurité"
+meta_title: "Privacy Guides : votre ressource indépendante en matière de protection de la vie privée & de sécurité"
 description: "Crée en 2021, Privacy Guides est la ressource à but non lucratif la plus populaire et la plus & fiable pour trouver des outils de protection de la vie privée ainsi qu'en apprendre plus sur la protection de votre vie numérique."
 template: home.html
 social:
@@ -87,13 +87,13 @@ Essayer de protéger toutes vos données contre tout le monde, tout le temps, es
 
 <div class="grid cards" markdown>
 
--   ![Proton Mail logo](assets/img/email/protonmail.svg){ .lg .middle .twemoji } **Proton Mail**
+-   ![Proton Mail logo](assets/img/email/protonmail.svg){ .lg .middle .twemoji loading=lazy } **Proton Mail**
 
     ---
 
     Proton Mail est un service d'e-mail qui met l'accent sur la confidentialité, le chiffrement, la sécurité et la facilité d'utilisation. Ils sont en activité depuis 2013. Proton AG a son siège à Genève, en Suisse. L'offre Free de Proton Mail comprend 500 Mo de stockage d'e-mails, que vous pouvez augmenter jusqu'à 1 Go gratuitement.
 
-    :octicons-arrow-right-24: Lire l'article complet](email.md#proton-mail)
+    [:octicons-arrow-right-24: Lire l'article complet](email.md#proton-mail)
 
 -   ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji loading=lazy } **Mailbox.org**
 
@@ -107,15 +107,15 @@ Essayer de protéger toutes vos données contre tout le monde, tout le temps, es
 
     ---
 
-    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Les comptes gratuits commencent avec 1 Go de stockage.
+    Tuta(anciennement *Tutanota*) est un service de mesagerie électronique  mettant l'accent sur la sécurité et la protéction de la vie privée via l'utilisation du cryptage. Tuta est en activité depuis 2011 et est basée à Hanovre, en Allemagne. Les comptes gratuits commencent avec 1 Go de stockage.
 
-    [:octicons-arrow-right-24: Read Full Review](email.md#tuta)
+    [:octicons-arrow-right-24: Lire l'article complet](email.md#tuta)
 
 </div>
 
 <div class="grid" markdown>
 <div markdown>
-### Best VPN Services
+### Les meilleurs fournisseurs de VPN
 
 <div class="grid cards" markdown>
 
@@ -127,7 +127,7 @@ Essayer de protéger toutes vos données contre tout le monde, tout le temps, es
 </div>
 
 <div markdown>
-### Secure Cloud Storage Services
+### Services de stockage sécurisé dans le Cloud
 
 <div class="grid cards" markdown>
 
@@ -139,7 +139,7 @@ Essayer de protéger toutes vos données contre tout le monde, tout le temps, es
 </div>
 
 <div markdown>
-### Best Web Browsers
+### Meilleures navigateurs Web
 
 <div class="grid cards" markdown>
 
@@ -151,30 +151,30 @@ Essayer de protéger toutes vos données contre tout le monde, tout le temps, es
 </div>
 </div>
 
-[:material-format-list-checkbox: More Recommended **Privacy Tools**](tools.md){ class="md-button md-button--primary" }
-[Best Mobile Browsers](mobile-browsers.md ""){.md-button} [Top Browser Extensions](browser-extensions.md ""){.md-button} [DNS Servers](dns.md ""){.md-button} [Email Aliasing Services](email-aliasing.md ""){.md-button} [Photo Organization Tools](photo-management.md ""){.md-button} [PC Operating Systems](desktop.md ""){.md-button}
+[:material-format-list-checkbox: Plus de recoomandations d' **Outils pour la protéction de la vie privée**](tools.md){ class="md-button md-button--primary" }
+[Meilleurs Navigateurs Mobiles](mobile-browsers.md ""){.md-button} [Meilleurs Extensions pour Navigateurs](browser-extensions.md ""){.md-button} [Serveurs DNS](dns.md ""){.md-button} [Fournsseurs d'Alias pour Messagerie électrionque](email-aliasing.md ""){.md-button} [Logiciels d'Organsations de Photos](photo-management.md ""){.md-button} [Système d'Exploitation pour Ordinateurs](desktop.md ""){.md-button}
 
 ---
 
-## About Privacy Guides
+## À propos de Privacy Guides
 
 ![Privacy Guides logo](assets/brand/logos/png/square/pg-yellow.png){ align=right loading=lazy }
 
-Established in 2021 due to the difficulty of finding unbiased reviewers in the VPN and privacy space, **Privacy Guides** is the most popular, trustworthy, non-profit website that provides information about protecting your *personal* data security and privacy. Our crowdsourced recommendations and reviews of **privacy tools** and our community dedicated to helping others set us apart from other blogs and content creators. The team behind this project has been researching privacy and security in the open-source space for over 5 years, originally with a now-defunct web resource that eventually became the *Privacy Guides* millions of readers trust.
+Créé en 2021 en raison de la difficulté à trouver des évaluateurs impartiaux dans le domaine des VPN et de la protection de la vie privée, **Privacy Guides** est le site web à but non lucratif le plus populaire et le plus digne de confiance qui fournit des informations sur la protection de la sécurité des données *personnelles* et de la vie privée. Nous nous distinguons des autres blogs et créateurs de contenu par nos recommandations et évaluations d'**outils de protection de la vie privée**, ainsi que par notre communauté qui se consacre à aider les autres. L'équipe à l'origine de ce projet étudie la protection de la vie privée et la sécurité dans l'espace open-source depuis plus de 5 ans, à l'origine avec une ressource web aujourd'hui disparue qui est devenue les *Guides de la vie privée* auxquels des millions de lecteurs font confiance.
 
-*Our website is free of advertisements and not affiliated with any of the listed providers.*
+*Notre site est exempt de publicité et n'est affilié à aucun des fournisseurs cités.*
 
-As seen in **WIRED**, **Tweakers.net**, **The New York Times**, and many other publications as a reliable source for privacy and security knowledge.
+Il a été cité dans **WIRED**, **Tweakers.net**, **The New York Times** et de nombreuses autres publications comme une source fiable de connaissances en matière de protection de la vie privée et de sécurité.
 
-[:material-information: More About Who We Are](about.md){ class="md-button md-button--primary" } [:material-email: Join our Newsletter](https://blog.privacyguides.org/#/portal/signup ""){.md-button}
+[:material-information: En savoir plus sur nous](about.md){ class="md-button md-button--primary" } [:material-email: S'abonner à notre Newsletter](https://blog.privacyguides.org/#/portal/signup ""){.md-button}
 
 <div class="grid" markdown>
 <div markdown>
-## What are privacy tools?
+## Qu'est-ce qu'un outil de protection de la vie privée ?
 
-We recommend a wide variety of **privacy tools** (a.k.a. *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can adopt to improve your privacy. Many of the tools we recommend are completely free to use and open-source software, while some are commercial services available for purchase. Switching from mainstream data-hungry software like Google Chrome and Windows to privacy-focused tools like [Brave](desktop-browsers.md#brave) and [Linux](desktop.md) can go a long way towards controlling the information you share with companies and others.
+Nous recommandons une grande variété d'**outils de confidentialité** (a.k.a. *applications de protection de la vie privée*, *utilitaires de protection de la vie privée*, *logiciels de protection de la vie privée*) couvrant les logiciels et le matériel que vous pouvez adopter pour améliorer votre protection de la vie privée. La plupart des outils que nous recommandons sont entièrement gratuits et constituent des logiciels libres, tandis que d'autres sont des services commerciaux disponibles à l'achat. Passer d'un logiciel grand public gourmand en données comme Google Chrome et Windows à des outils axés sur la protection de la vie privée comme [Brave](desktop-browsers.md#brave) et [Linux](desktop.md) peut grandement contribuer à contrôler les informations que vous partagez avec les entreprises et d'autres personnes.
 
-[:material-check-all: Our General Criteria](about/criteria.md){ class="md-button" }
+[:material-check-all: Nos critères généraux](about/criteria.md){ class="md-button" }
 </div>
 
 <div markdown>
