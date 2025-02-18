@@ -20,16 +20,16 @@ schema:
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protège contre les menaces suivantes :</small>
 
-- [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-target-account: Attaques ciblées](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-bug-outline: Attaques passives](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-A **custom Android-based operating system** (sometimes referred to as a **custom ROM**) can be a way to achieve a higher level of privacy and security on your device. This is in contrast to the "stock" version of Android which comes with your phone from the factory, and is often deeply integrated with Google Play Services as well as other vendor software.
+Un **système d'exploitation personnalisé basé sur Android** (parfois appelé un **ROM personnalisé**) peut être une façon d'atteindre un niveau plus élevé de confidentialité et de sécurité sur votre appareil. Cela contraste avec la version "stock" d'Android, qui est installé sur votre appareil par défaut lors de la fabrication. Cette version est souvent profondément intégrée aux services Google Play ainsi qu'à d'autres logiciels fournisseurs.
 
-We recommend installing GrapheneOS if you have a Google Pixel as it provides improved security hardening and additional privacy features. The reasons we don't list other operating systems or devices are as follows:
+Nous recommandons d'installer GrapheneOS si vous avez un Google Pixel, puisqu'il procure des renforcements au niveau de sécurité et des fonctionnalités de confidentialité additionnelles. Les raisons pourquoi nous ne mentionnons pas d'autres systèmes d'opérations ou d'appareils sont les suivantes :
 
-- They often have [weaker security](index.md#install-a-custom-distribution).
+- Ils ont souvent une sécurité [plus faible](index.md#install-a-custom-distribution).
 - Support is frequently dropped when the maintainer loses interest or upgrades their device, which is in contrast to the predictable [support cycle](https://grapheneos.org/faq#device-lifetime) that GrapheneOS follows.
 - They generally have few or no notable privacy or security improvements that make installing them worthwhile.
 
