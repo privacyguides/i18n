@@ -1,40 +1,40 @@
 ---
-title: Windows Overview
+title: Aperçu de Windows
 icon: material/microsoft-windows
-description: Microsoft Windows is a common operating system which is extremely non-private out of the box. Our guide covers making some improvements to your computer without replacing your OS.
+description: Microsoft Windows est un système d'exploitation populaire qui est, de base, configuré de façon très non confidentielle. Notre guide propose certaines modifications que vous pouvez faire, sans changer de système d'exploitation.
 ---
 
-**Microsoft Windows** is a common OS shipped with many PCs by default. The following guides aim to provide some ways to improve privacy and reduce the default telemetry and data stored by disabling some unnecessary features. Over time, Microsoft adds features to the OS which can sometimes rely on cloud-based services. These features will often require certain types of [optional data](https://privacy.microsoft.com/data-collection-windows) that is sometimes sent to remote servers for processing.
+**Microsoft Windows** est un OS communément livré par défaut avec de nombreux PC. Ce guide vise à vous offrir certaines façons d'améliorer votre confidentialité et à réduire le montant de télémétrie et de données stockées par défaut en désactivant certaines fonctions inutiles. Au fil du temps, Microsoft a ajouté beaucoup de fonctionnalités à l'OS qui dépendent parfois de services cloud. Ces fonctionnalités nécessitent souvent certains types de [données optionnelles](https://privacy.microsoft.com/data-collection-windows) qui sont parfois envoyées à des serveurs distants pour être traitées.
 
-One of the newest examples was called **Recall**, a part of the Copilot AI feature set. Recall periodically screenshots anything you've seen on your PC in order to show it to you at a later date. These "helpful" features create considerable metadata which can be forensically analyzed. In most cases browsing history is sufficient and this feature can be safely disabled. The main concerns with Recall was that the data is stored in a local database that is decrypted when your device is powered on, meaning it is an easy target for hackers if the device ever becomes infected with malware. Recall will not redact sensitive information like copied passwords or financial information from the database, but it does protect against making screenshots of any copyrighted content protected by digital rights management (DRM) systems.
+L'exemple le plus récent s'appelle "Retrouver", qui fait partie de l'ensemble de fonctionnalités de Copilote IA. "Retrouver" réalise périodiquement des captures d'écrans de tout ce que vous avez vu sur votre PC pour ensuite vous le montrer à une date ultérieure. Ces fonctionnalités "utiles" créent des métadonnées considérables, qui peuvent ensuite être analysées de manière judicieuse. Dans la plupart des cas, l'historique de navigation est suffisant et cette fonctionnalité peut donc être désactivée en toute sécurité. L'inquiétude principale avec Retrouver est que les données stockées localement sont décryptées lors de l'ouverture de votre appareil, ce qui veut dire qu'il est une cible facile pour un acteur malveillant si votre appareil devenait infecté avec un logiciel malveillant. Retrouver ne supprimera pas les informations sensibles telles que les mots de passes ou les informations financières de la base de données, mais il protège contre la prise de captures d'écran de contenu ayant un droit d'auteur protégé par la gestion des droits numériques (GDN).
 
-Unfortunately, this feature was added without too much thought about the privacy implications of having such a feature enabled by default (which it now [no longer is](https://wired.com/story/microsoft-recall-off-default-security-concerns)). It is not an isolated example, however. Another example was Microsoft automatically [enabling folder backups to OneDrive](https://neowin.net/news/windows-11-is-now-automatically-enabling-onedrive-folder-backup-without-asking-permission) on new Windows 11 installations without asking for permission.
+Malheureusement, cette fonctionnalité a été ajoutée sans considérer les impacts qu'elle pourrait avoir en étant activée par défaut ([elle est maintenant désactivée par défaut)](https://wired.com/story/microsoft-recall-off-default-security-concerns). Toutefois, ce n'est pas un cas isolé. Un autre exemple serait la fois où Microsoft a [activé les sauvegardes automatiques à OneDrive](https://neowin.net/news/windows-11-is-now-automatically-enabling-onedrive-folder-backup-without-asking-permission) sur les nouvelles installations Windows 11 sans demander de permission.
 
-You can enhance your privacy and security on Windows without downloading any third-party tools with these guides:
+Vous pouvez améliorer votre confidentialité et votre sécurité sur Windows, sans télécharger de logiciel tiers, en utilisant ces guides :
 
-- Initial Installation (coming soon)
-- [Group Policy Settings](group-policies.md)
-- Privacy Settings (coming soon)
-- Application Sandboxing (coming soon)
-- Security Hardening (coming soon)
+- Installation initiale (à venir)
+- [Paramètres de stratégie de groupe](group-policies.md)
+- Paramètres de confidentialité (à venir)
+- Isolation d'applications (à venir)
+- Renforcement de la sécurité (à venir)
 
 <div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
+<p class="admonition-title">Cette section est nouvelle</p>
 
-This section is a work in progress, because it takes considerably more time and effort to make a Windows installation more privacy friendly than other operating systems.
+Cette section est un travail en cours parce que, comparativement aux autres systèmes d'exploitation, il faut beaucoup plus de temps et d'effort pour rendre une installation Windows plus confidentielle.
 
 </div>
 
 ## Remarques concernant la vie privée
 
-Microsoft Windows, particularly those versions aimed at consumers like the **Home** version often don't prioritize privacy friendly features by [default](https://theguardian.com/technology/2015/jul/31/windows-10-microsoft-faces-criticism-over-privacy-default-settings). As a result we often see more [data collection](https://en.wikipedia.org/wiki/Criticism_of_Microsoft#Telemetry_and_data_collection) than necessary, without any real warnings that this is the default behavior. In an attempt to compete with Google in the advertising space, [Cortana](https://en.wikipedia.org/wiki/Cortana_\(virtual_assistant\)) has included unique identifiers such as an "advertising ID" in order to correlate usage and assist advertisers in targeted advertising.  At launch, telemetry could not be disabled in non-enterprise editions of Windows 10. It still cannot be disabled, but Microsoft added the ability to [reduce](https://extremetech.com/computing/243079-upcoming-windows-update-reduces-spying-microsoft-still-mum-data-collects) the data that is sent to them.
+Microsoft Windows, particulièrement les versions pour les particuliers, comme la version **Home**, ne priorisent pas les fonctionnalités de confidentialité par [défaut](https://theguardian.com/technology/2015/jul/31/windows-10-microsoft-faces-criticism-over-privacy-default-settings). En conséquence, nous remarquons beaucoup plus de [collecte de données](https://en.wikipedia.org/wiki/Criticism_of_Microsoft#Telemetry_and_data_collection) que nécessaire, sans réel avertissement qu'il s'agit du comportement par défaut. Pour tenter de faire compétition à Google dans le domaine des publicités, [Cortana](https://fr.wikipedia.org/wiki/Cortana_\(assistant_personnel_intelligent\)) a inclus des identifiants uniques tels qu'un "identifiant publicitaire" afin de corréler l'utilisation et d'aider les publicitaires à cibler leurs publicités.  Au lancement, la télémétrie ne pouvait pas être désactivé dans les éditions non commerciales de Windows 10. Celle-ci ne peut toujours pas être désactivée, cependant, Microsoft a ajouté l'option de [réduire](https://extremetech.com/computing/243079-upcoming-windows-update-reduces-spying-microsoft-still-mum-data-collects) les données qui leur sont envoyées.
 
-With Windows 11 there are a number of restrictions or defaults such as:
+Windows 11 comporte un certain nombre de restrictions ou de valeurs par défaut, telles que :
 
-- Requiring the use of a Microsoft account instead of a local account.
-- Making it more difficult to find local account options for Windows **Pro** and **Enterprise**.
-- Enabling all data collection options by default, requiring users to "opt out".
-- Heavily integrating Microsoft services like Bing, OneDrive, and Teams in ways which are difficult to remove and presented as the only option to users.
+- L'obligation d'utiliser un compte Microsoft au lieu d'un compte local.
+- Rendre difficile l'accès à l'option de compte local pour les éditions \*_Pro_ et **Entreprise** de Windows.
+- L'activation par défaut de la collecte de données, obligeant les utilisateurs à la désactiver par eux même.
+- L'intégration massive des services Microsoft comme Bing, OneDrive et Teams pour paraître comme la seule option pour les utilisateurs, et qu'il soit difficile de les supprimer.
 - Setting the default browser always to Edge, or reverting to Edge if it's changed.
 - Adding cloud-based AI features to many areas in Windows and various Microsoft Apps.
 - Unnecessarily storing sensitive data. Even data which is stored locally and not sent to Microsoft is still a target for hackers or malware on your device.
