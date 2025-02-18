@@ -5,7 +5,7 @@ description: Les distributions Linux sont généralement recommandées pour la p
 cover: desktop.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protège contre la/les menaces suivantes :</small>
 
 - [:material-account-cash: Capitalisme de surveillance](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
@@ -21,7 +21,7 @@ Les distributions Linux sont généralement recommandées pour la protection de 
 
 ![Logo Fedora](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Workstation** est la distribution que nous recommandons aux personnes qui découvrent Linux. Fedora generally adopts newer technologies (e.g., [Wayland](https://wayland.freedesktop.org) and [PipeWire](https://pipewire.org)) before other distributions. Ces nouvelles technologies s'accompagnent souvent d'améliorations générales en matière de sécurité, de vie privée et d'ergonomie.
+**Fedora Workstation** est la distribution que nous recommandons aux personnes qui découvrent Linux. Fedora adapte généralement les nouvelles technologies (p. ex. [Wayland](https://wayland.freedesktop.org) et [PireWire](https://pipewire.org)) avant les autres distributions. Ces nouvelles technologies s'accompagnent souvent d'améliorations générales en matière de sécurité, de vie privée et d'ergonomie.
 
 [:octicons-home-16: Homepage](https://fedoraproject.org/workstation){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs){ .card-link title=Documentation}
@@ -31,7 +31,7 @@ Les distributions Linux sont généralement recommandées pour la protection de 
 
 </div>
 
-Fedora a un cycle de publication semi-continu. While some packages like [GNOME](https://gnome.org) are frozen until the next Fedora release, most packages (including the kernel) are updated frequently throughout the lifespan of the release. Chaque version de Fedora est supportée pendant un an, avec une nouvelle version publiée tous les 6 mois.
+Fedora a un cycle de publication semi-continu. Alors que certains packages comme <a href="https://gnome.org>"GNOME</a> sont gelés jusqu'à la prochaine version de Fedora, la plupart des packages (incluant le kernel) sont mis à jour fréquemment lors du cycle de vie de la version. Chaque version de Fedora est supportée pendant un an, avec une nouvelle version publiée tous les 6 mois.
 
 ### openSUSE Tumbleweed
 
@@ -41,7 +41,7 @@ Fedora a un cycle de publication semi-continu. While some packages like [GNOME](
 
 **openSUSE Tumbleweed** est une distribution stable à publication continue.
 
-openSUSE Tumbleweed uses [Btrfs](https://en.wikipedia.org/wiki/Btrfs) and [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) to ensure that snapshots can be rolled back should there be a problem.
+openSUSE Tumbleweed utilise [Btrfs](https://en.wikipedia.org/wiki/Btrfs) and [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) pour s'assurer que le système peut être restauré à une version précédente en cas de problème.
 
 [:octicons-home-16: Homepage](https://get.opensuse.org/tumbleweed){ .md-button .md-button--primary }
 [:octicons-info-16:](https://doc.opensuse.org){ .card-link title=Documentation}
@@ -59,7 +59,7 @@ Tumbleweed suit un modèle de publication continu où chaque mise à jour est pu
 
 ![Arch logo](assets/img/linux-desktop/archlinux.svg){ align=right }
 
-**Arch Linux** is a lightweight, do-it-yourself (DIY) distribution, meaning that you only get what you install. Pour plus d'informations, voir leur [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions_(Fran%C3%A7ais)).
+**Arch Linux** est une distribution légère et do-it-yourself (DIY), ce qui veut dire que vous n'obtenez que ce que vous installez. Pour plus d'informations, voir leur [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions_(Fran%C3%A7ais)).
 
 [:octicons-home-16: Homepage](https://archlinux.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://wiki.archlinux.org){ .card-link title=Documentation}
@@ -73,7 +73,7 @@ Arch Linux a un cycle de publication continue. Il n'y a pas de calendrier de pub
 
 S'agissant d'une distribution DIY, vous êtes [censé mettre en place et maintenir](os/linux-overview.md#arch-based-distributions) votre système par vous-même. Arch a un [installateur officiel](https://wiki.archlinux.org/title/Archinstall_(Fran%C3%A7ais)) pour rendre le processus d'installation un peu plus facile.
 
-A large portion of [Arch Linux’s packages](https://reproducible.archlinux.org) are [reproducible](https://reproducible-builds.org)[^1].
+Une grande portion des [packages d'Arch Linux](https://reproducible.archlinux.org) sont [reproducibles](https://reproducible-builds.org)[^1].
 
 ## Distributions atomiques
 
