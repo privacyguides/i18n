@@ -31,15 +31,15 @@ Microsoft Windows, particulièrement les versions pour les particuliers, comme l
 
 Windows 11 comporte un certain nombre de restrictions ou de valeurs par défaut, telles que :
 
-- L'obligation d'utiliser un compte Microsoft au lieu d'un compte local.
-- Rendre difficile l'accès à l'option de compte local pour les éditions \*_Pro_ et **Entreprise** de Windows.
-- L'activation par défaut de la collecte de données, obligeant les utilisateurs à la désactiver par eux même.
-- L'intégration massive des services Microsoft comme Bing, OneDrive et Teams pour paraître comme la seule option pour les utilisateurs, et qu'il soit difficile de les supprimer.
-- Setting the default browser always to Edge, or reverting to Edge if it's changed.
-- Adding cloud-based AI features to many areas in Windows and various Microsoft Apps.
-- Unnecessarily storing sensitive data. Even data which is stored locally and not sent to Microsoft is still a target for hackers or malware on your device.
+- Il oblige l'utilisation d'un compte Microsoft au lieu d'un compte local.
+- Il rend difficile l'accès à l'option de compte local pour les éditions \*_Pro_ et **Entreprise** de Windows.
+- Il active par défaut de la collecte de données, obligeant les utilisateurs à la désactiver par eux même.
+- Il intègre massivement les services Microsoft comme Bing, OneDrive et Teams, les présentant comme les seules options pour les utilisateurs, en plus de les rendre difficile à supprimer.
+- Il règle Edge comme navigateur par défaut, en tout temps, et celui-ci le redevient après chaque mise à jour s'il a été changé.
+- Il ajoute des fonctionnalités IA basées sur l'infonuagique dans plusieurs composantes Windows et applications Microsoft.
+- Il conserve des informations sensibles inutiles par défaut. Même si ces données sont conservées localement, elles demeurent une cible pour les acteurs malveillants qui pourraient se retrouver sur votre appareil.
 
-Microsoft often uses the automatic updates feature to add new functionality to your device and make changes that collect your data and are enabled by default. Some [privacy features](https://blogs.windows.com/windows-insider/2023/11/16/previewing-changes-in-windows-to-comply-with-the-digital-markets-act-in-the-european-economic-area) such as the option to _opt out_ of syncing an online Microsoft account with Windows, require you to select a country in the EEA (European Economic Area) during installation. It can be changed to your real country after Windows is installed.
+Microsoft utilise fréquemment sa fonction de mises à jour automatiques pour ajouter des nouvelles fonctionnalités à votre appareil et effectuer des changements dans la collecte de données qui sont activés par défaut. Some [privacy features](https://blogs.windows.com/windows-insider/2023/11/16/previewing-changes-in-windows-to-comply-with-the-digital-markets-act-in-the-european-economic-area) such as the option to _opt out_ of syncing an online Microsoft account with Windows, require you to select a country in the EEA (European Economic Area) during installation. It can be changed to your real country after Windows is installed.
 
 ## Windows Editions
 
