@@ -48,7 +48,7 @@ optipng -o7 file.png
 - [ ] Απενεργοποιήστε **Remove the XML declaration**
 - [x] Ενεργοποιήστε **Remove metadata**
 - [x] Ενεργοποιήστε **Remove comments**
-- [x] Ενεργοποιήστε **Embeded raster images**
+- [x] Turn on **Embedded raster images**
 - [x] Ενεργοποιήστε **Enable viewboxing**
 
 Στην καρτέλα **SVG Output** στις επιλογές εγγράφου **Pretty-printing**:

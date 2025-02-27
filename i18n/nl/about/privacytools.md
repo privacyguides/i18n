@@ -37,9 +37,9 @@ Eind juli 2021 hebben we de PrivacyTools-gemeenschap [op de hoogte gebracht](htt
 
 ## Controle over r/privacytoolsIO
 
-Gelijktijdig met de lopende website problemen bij privacytools.io, werd het r/privacytoolsIO moderatieteam geconfronteerd met uitdagingen bij het beheer van de subreddit. De subreddit werd altijd grotendeels onafhankelijk van de ontwikkeling van de website beheerd, maar BurungHantu was ook de primaire moderator van de subreddit, en hij was de enige moderator die "Volledige controle"-rechten kreeg. u/trai_dep was op dat moment de enige actieve moderator en [diende](https://reddit.com/comments/o9tllh) op 28 juni 2021 een verzoek [in](https://reddit. com/comments/o9tllh) bij de beheerders van Reddit waarin hij vroeg om de positie van primaire moderator en volledige controleprivileges om de nodige wijzigingen in de Subreddit aan te brengen.
+Simultaneously with the ongoing website issues at privacytools.io, the r/privacytoolsIO moderation team was facing challenges with managing the Subreddit. The Subreddit had always been operated mostly independently of the website's development, but BurungHantu was the primary moderator of the Subreddit as well, and he was the only moderator granted "Full Control" privileges. u/trai_dep was op dat moment de enige actieve moderator en [diende](https://reddit.com/comments/o9tllh) op 28 juni 2021 een verzoek [in](https://reddit. com/comments/o9tllh) bij de beheerders van Reddit waarin hij vroeg om de positie van primaire moderator en volledige controleprivileges om de nodige wijzigingen in de Subreddit aan te brengen.
 
-Reddit vereist dat subreddits actieve moderatoren hebben. Indien de eerste moderator gedurende een lange periode (bijvoorbeeld een jaar) inactief is, kan de positie van eerste moderator opnieuw worden toegewezen aan de volgende moderator in de rij. Om dit verzoek in te willigen, moest BurungHantu volledig afwezig zijn geweest bij alle Reddit-activiteiten gedurende een lange periode, wat consistent was met zijn gedrag op andere platforms.
+Reddit requires that Subreddits have active moderators. Indien de eerste moderator gedurende een lange periode (bijvoorbeeld een jaar) inactief is, kan de positie van eerste moderator opnieuw worden toegewezen aan de volgende moderator in de rij. Om dit verzoek in te willigen, moest BurungHantu volledig afwezig zijn geweest bij alle Reddit-activiteiten gedurende een lange periode, wat consistent was met zijn gedrag op andere platforms.
 
 > Als je als moderator van een subreddit werd verwijderd via een Reddit-verzoek is dat omdat je gebrek aan reactie en gebrek aan activiteit de subreddit kwalificeerde voor een r/redditrequest-overplaatsing.
 > 
@@ -55,7 +55,7 @@ Deze verandering [bracht het volgende met zich mee:](https://reddit.com/comments
 
 - `www.privacytools.io` omleiden naar [www.privacyguides.org.](https://www.privacyguides.org).
 - Het archiveren van de broncode op GitHub om ons werk uit het verleden en de issue tracker te bewaren, die we bleven gebruiken voor maanden van toekomstige ontwikkeling van deze site.
-- Aankondigingen plaatsen op onze subreddit en diverse andere gemeenschappen om mensen te informeren over de officiële verandering.
+- Posting announcements to our Subreddit and various other communities informing people of the official change.
 - Formeel sluiten van privacytools.io-diensten, zoals Matrix en Mastodon, en bestaande gebruikers aanmoedigen om zo snel mogelijk te migreren.
 
 Alles leek soepel te verlopen, en het grootste deel van onze actieve gemeenschap maakte de overstap naar ons nieuwe project, precies zoals we hoopten.
@@ -66,11 +66,11 @@ Ongeveer een week na de overgang kwam BurungHantu voor het eerst in bijna een ja
 
 Op dat moment beweerde BurungHantu dat hij alleen verder wilde werken aan privacytools.io en hij vroeg ons om de omleiding van `www.privacytools.io` naar [www.privacyguides.org](https://www.privacyguides.org) te verwijderen [.](https://www.privacyguides.org). We hebben hem gevraagd de subdomeinen voor Matrix, Mastodon en PeerTube ten minste een paar maanden actief te houden als openbare dienst voor onze gemeenschap, zodat gebruikers op deze platforms gemakkelijk naar andere accounts kunnen migreren. Door de gefedereerde aard van de diensten die wij leverden, waren deze gebonden aan specifieke domeinnamen waardoor het zeer moeilijk (en in sommige gevallen onmogelijk) was om te migreren.
 
-Omdat de controle over de r/privacytoolsIO subreddit helaas niet werd teruggegeven aan BurungHantu op zijn verzoek (meer informatie hieronder), werden deze subdomeinen begin oktober [afgesloten](https://reddit.com/comments/pymthv/comment/hexwrps), waardoor er geen migratiemogelijkheden meer waren voor gebruikers die deze diensten nog gebruikten.
+Unfortunately, because control of the r/privacytoolsIO Subreddit was not returned to BurungHantu at his demand (further information below), those subdomains were [cut off](https://reddit.com/comments/pymthv/comment/hexwrps) at the beginning of October, ending any migration possibilities to any users still using those services.
 
 Hierna heeft BurungHantu valse beschuldigingen geuit over het stelen van donaties van het project door Jonah. BurungHantu had meer dan een jaar na het vermeende incident, en toch heeft hij nooit iemand op de hoogte gebracht tot na de migratie van de Privacy Guides. BurungHantu is herhaaldelijk door het team [en de gemeenschap](https://twitter.com/TommyTran732/status/1526153536962281474)gevraagd om bewijzen en om commentaar op de reden voor zijn stilzwijgen, maar heeft dat niet gedaan.
 
-BurungHantu maakte ook een [twitter post](https://twitter.com/privacytoolsIO/status/1510560676967710728) bewerend dat een "advocaat" hem had bereikt op Twitter en advies gaf, in een andere poging om ons te intimideren om hem de controle over onze subreddit te geven, en als onderdeel van zijn lastercampagne om het water rond de lancering van Privacy Guides te vertroebelen terwijl hij zich voordoet als een slachtoffer.
+BurungHantu also made a [twitter post](https://twitter.com/privacytoolsIO/status/1510560676967710728) alleging that an "attorney" had reached out to him on Twitter and was providing advice, in another attempt to bully us into giving him control of our Subreddit, and as part of his smear campaign to muddy the waters surrounding the launch of Privacy Guides while pretending to be a victim.
 
 ## PrivacyTools.io Nu
 
@@ -80,7 +80,7 @@ Vanaf 25 september 2022 zien we de algemene plannen van BurungHantu in vervullin
 
 ## privacyTools. io Nu
 
-Na de lancering van [r/PrivacyGuides](https://reddit.com/r/privacyguides) was het onpraktisch voor u/trai_dep om beide subreddits te blijven modereren en met de gemeenschap aan boord voor de overgang, [werd](https://reddit.com/comments/qk7qrj) r/privacytoolsIO een beperkt subreddit in een post op 1 november 2021:
+After the launch of [r/PrivacyGuides](https://reddit.com/r/privacyguides), it was impractical for u/trai_dep to continue moderating both Subreddits, and with the community on-board with the transition, r/privacytoolsIO was [made](https://reddit.com/comments/qk7qrj) a restricted sub in a post on November 1st, 2021:
 
 > [...] De groei van deze Sub was het resultaat van grote inspanningen, gedurende meerdere jaren, door het PrivacyGuides.org team. En door ieder van jullie.
 > 
@@ -88,11 +88,11 @@ Na de lancering van [r/PrivacyGuides](https://reddit.com/r/privacyguides) was he
 
 Subreddits zijn van niemand, en al helemaal niet van merkhouders. Ze horen bij hun gemeenschap, en de gemeenschap en haar moderatoren hebben besloten de verhuizing naar r/PrivacyGuides te steunen.
 
-In de maanden daarna heeft BurungHantu gedreigd en gesmeekt om de controle over de subreddit terug te geven aan zijn account, wat [in strijd](https://reddit.com/r/redditrequest/wiki/top_mod_removal) is met de regels van Reddit:
+In the months since, BurungHantu has threatened and begged for returning Subreddit control to his account in [violation](https://reddit.com/r/redditrequest/wiki/top_mod_removal) of Reddit rules:
 
 > Vergelding door een moderator met betrekking tot verwijderingsverzoeken is niet toegestaan.
 
-Voor een gemeenschap met vele duizenden resterende abonnees, vinden we dat het ongelooflijk respectloos zou zijn om de controle over dat enorme platform terug te geven aan de persoon die het meer dan een jaar heeft verlaten en die nu een website beheert waarvan we denken dat deze informatie van zeer lage kwaliteit biedt. Het behoud van de jaren van eerdere discussies in die gemeenschap is belangrijker voor ons, en dus hebben u/trai_dep en de rest van het subreddit moderatieteam de beslissing genomen om r/privacytoolsIO as-is te houden.
+Voor een gemeenschap met vele duizenden resterende abonnees, vinden we dat het ongelooflijk respectloos zou zijn om de controle over dat enorme platform terug te geven aan de persoon die het meer dan een jaar heeft verlaten en die nu een website beheert waarvan we denken dat deze informatie van zeer lage kwaliteit biedt. Preserving the years of past discussions in that community is more important to us, and thus u/trai_dep and the rest of the Subreddit moderation team has made the decision to keep r/privacytoolsIO as-is.
 
 ## OpenCollective Nu
 

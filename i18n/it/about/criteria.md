@@ -24,7 +24,7 @@ Abbiamo questi requisiti per quanto riguarda gli sviluppatori che desiderano inv
 
 - Deve indicare l'affiliazione, cioè, la sua posizione entro il progetto inviato.
 
-- Must have a security whitepaper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
+- Must have a security white paper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
     - Regarding third party audit status, we want to know if you have undergone one, or have requested one. Se possibile, ti preghiamo di menzionare chi condurrà il controllo.
 
 - Deve spiegare ciò che il progetto offre in termini di privacy.

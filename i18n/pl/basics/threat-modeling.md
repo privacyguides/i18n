@@ -35,7 +35,7 @@ Aby określić, co może stać się z cennymi dla Ciebie rzeczami oraz ustalić,
 
 Przed odpowiedzeniem na te pytania warto ustalić, kto może chcieć próbować dotrzeć do Ciebie lub Twoich danych. ==Osoba lub podmiot, który stanowi zagrożenie dla Twoich zasobów to "przeciwnik".== Przykładem potencjalnego przeciwnika może być Twój szef, były partner, konkurencja firmy, rząd kraju lub haker w publicznej sieci.
 
-*Sporządź listę swoich przeciwników lub podmiotów, którzy mogą chcieć uzyskać dostęp do Twoich zasobów. Twoja lista może zawierać osoby fizyczne, agencje rządowe lub korporacje.*
+*Make a list of your adversaries or those who might want to get hold of your assets. Twoja lista może zawierać osoby fizyczne, agencje rządowe lub korporacje.*
 
 W zależności od tego, kim są Twoi przeciwnicy, ta lista może być czymś, co chcesz zniszczyć po zakończeniu tworzenia modelu zagrożeń.
 

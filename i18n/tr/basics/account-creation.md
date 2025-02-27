@@ -5,7 +5,7 @@ icon: 'material/account-plus'
 description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
 ---
 
-Çoğu zaman insanlar düşünmeden hizmetlere kaydolurlar. Bu, herkesin konuştuğu yeni diziyi izleyebileceğiniz bir yayın hizmeti ya da en sevdiğiniz fast food restoranında indirim sağlayan bir hesap olabilir. Her ne için olursa olsun, şimdi ve daha sonrası için verileriniz üzerindeki etkilerini göz önünde bulundurmalısınız.
+Çoğu zaman insanlar düşünmeden hizmetlere kaydolurlar. Maybe it's a streaming service to watch that new show everyone's talking about, or an account that gives you a discount for your favorite fast food place. Her ne için olursa olsun, şimdi ve daha sonrası için verileriniz üzerindeki etkilerini göz önünde bulundurmalısınız.
 
 Kullandığınız her yeni hizmetle ilgili riskler vardır. Veri ihlalleri; müşteri bilgilerinin üçüncü taraflara ifşa edilmesi; kötü niyetli çalışanların verilere erişmesi; tüm bunlar bilgilerinizi dışarıya verirken göz önünde bulundurulması gereken olasılıklardır. Hizmete güvenebileceğinizden emin olmanız gerekir. Bu nedenle değerli verilerinizi olgun ve test edilmiş olanlar dışında herhangi bir yerde saklamanızı önermiyoruz. Bu genellikle uçtan uca şifreleme (E2EE) sağlayan ve kriptografik denetimden geçmiş hizmetler anlamına gelir. Denetim, ürünün deneyimsiz bir geliştiricinin neden olduğu göze çarpan güvenlik sorunları olmadan tasarlandığına dair güvenceyi artırır.
 
@@ -13,11 +13,11 @@ Bazı hizmetlerde hesapları silmek de zor olabilir. Bazen bir hesapla ilişkili
 
 ## Hizmet Koşulları & Gizlilik Politikası
 
-ToS, hizmeti kullanırken uymayı kabul ettiğiniz kurallardır. Daha büyük hizmetlerde bu kurallar genellikle otomatik sistemler tarafından uygulanır. Bazen bu otomatik sistemler hata yapabilir. Örneğin, bir VPN veya VOIP numarası kullandığınız için bazı hizmetlerde hesabınız yasaklanabilir veya kilitlenebilir. Bu tür yasaklara itiraz etmek genellikle zordur ve her zaman başarılı olmayan otomatik bir süreci de içerir. Örnek olarak e-posta için Gmail'i kullanmanızı önermememizin nedenlerinden biri de budur. E-posta, kaydolduğunuz diğer hizmetlere erişim için çok önemlidir.
+ToS, hizmeti kullanırken uymayı kabul ettiğiniz kurallardır. Daha büyük hizmetlerde bu kurallar genellikle otomatik sistemler tarafından uygulanır. Bazen bu otomatik sistemler hata yapabilir. For example, you may be banned or locked out of your account on some services for using a VPN or VoIP number. Bu tür yasaklara itiraz etmek genellikle zordur ve her zaman başarılı olmayan otomatik bir süreci de içerir. Örnek olarak e-posta için Gmail'i kullanmanızı önermememizin nedenlerinden biri de budur. E-posta, kaydolduğunuz diğer hizmetlere erişim için çok önemlidir.
 
-Gizlilik Politikası, hizmetin verilerinizi nasıl kullanacağını söyler, ve verilerinizin nasıl kullanılacağını anlamanız için okumaya değerdir. Bir şirket veya kuruluş yasal olarak politikada yer alan her şeye uymak zorunda olmayabilir (yargı yetkisine bağlı). Yerel yasalarınızın ne olduğu ve bir sağlayıcının neleri toplamasına izin verdiği konusunda fikir sahibi olmanızı tavsiye ederiz.
+The Privacy Policy is how the service says they will use your data, and it is worth reading so that you understand how your data will be used. Bir şirket veya kuruluş yasal olarak politikada yer alan her şeye uymak zorunda olmayabilir (yargı yetkisine bağlı). Yerel yasalarınızın ne olduğu ve bir sağlayıcının neleri toplamasına izin verdiği konusunda fikir sahibi olmanızı tavsiye ederiz.
 
-"Veri toplama", "veri analizi", "çerezler", "reklamlar" veya "3. taraf" hizmetler gibi belirli terimleri aramanızı öneririz. Bazen veri toplamayı veya verilerinizi paylaşmayı devre dışı bırakabilirsiniz, ancak en iyisi en başından gizliliğinize saygı duyan bir hizmet seçmektir.
+"Veri toplama", "veri analizi", "çerezler", "reklamlar" veya "3. taraf" hizmetler gibi belirli terimleri aramanızı öneririz. Sometimes you will be able to opt out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
 
 Aynı zamanda şirkete veya kuruluşa kendi gizlilik politikalarına uyacaklarına dair güvendiğinizi unutmayın.
 
@@ -42,7 +42,7 @@ Oturum açma kimlik bilgilerinizi yönetmekten siz sorumlu olacaksınız. Daha f
 
 #### Email aliases
 
-If you don't want to give your real email address to a service, you have the option to use an alias. We described them in more detail on our email services recommendation page. Essentially, alias services allow you to generate new email addresses that forward all emails to your main address. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign up process. Those can be filtered automatically based on the alias they are sent to.
+If you don't want to give your real email address to a service, you have the option to use an alias. We described them in more detail on our email services recommendation page. Essentially, alias services allow you to generate new email addresses that forward all emails to your main address. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. Those can be filtered automatically based on the alias they are sent to.
 
 Should a service get hacked, you might start receiving phishing or spam emails to the address you used to sign up. Using unique aliases for each service can assist in identifying exactly what service was hacked.
 
@@ -76,7 +76,7 @@ Malicious applications, particularly on mobile devices where the application has
 
 Kayıt için telefon numarası gerektiren hizmetlerden kaçınmanızı öneririz. A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
 
-Mümkünse gerçek telefon numaranızı vermekten kaçınmalısınız. Some services will allow the use of VOIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
+Mümkünse gerçek telefon numaranızı vermekten kaçınmalısınız. Some services will allow the use of VoIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
 
 In many cases you will need to provide a number that you can receive SMS or calls from, particularly when shopping internationally, in case there is a problem with your order at border screening. It's common for services to use your number as a verification method; don't let yourself get locked out of an important account because you wanted to be clever and give a fake number!
 

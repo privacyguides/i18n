@@ -44,7 +44,7 @@ Lorsqu'ils sont auto-hébergés, les membres d'un serveur fédéré peuvent déc
 - Permet un meilleur contrôle de vos propres données lorsque vous utilisez votre propre serveur.
 - Vous permet de choisir à qui confier vos données en choisissant entre plusieurs serveurs "publics".
 - Permet souvent l'utilisation de clients tiers qui peuvent fournir une expérience plus naturelle, personnalisée ou accessible.
-- Il est possible de vérifier que le logiciel du serveur correspond au code source public, en supposant que vous avez accès au serveur ou que vous faites confiance à la personne qui y a accès (par exemple, un membre de la famille).
+- Server software can be verified that it matches public source code, assuming you have access to the server, or you trust the person who does (e.g., a family member).
 
 **Inconvénients :**
 
@@ -60,7 +60,7 @@ Lorsqu'ils sont auto-hébergés, les membres d'un serveur fédéré peuvent déc
 
 Les messageries P2P se connectent à un [réseau distribué](https://fr.wikipedia.org/wiki/Réseau_distribué) de nœuds pour relayer un message au destinataire sans serveur tiers.
 
-Les clients (les pairs) se trouvent généralement les uns les autres grâce à l'utilisation d'un réseau de [calcul distribué](https://fr.wikipedia.org/wiki/Calcul_distribué). Citons par exemple les [Tables de Hachages Distribuées](https://fr.wikipedia.org/wiki/Table_de_hachage_distribuée) (THD), utilisées par les [Torrents](https://fr.wikipedia.org/wiki/BitTorrent) et [l'IPFS](https://fr.wikipedia.org/wiki/InterPlanetary_File_System). Une autre approche est celle des réseaux basés sur la proximité, où une connexion est établie par WiFi ou Bluetooth (par exemple, Briar ou le protocole de réseau social [Scuttlebutt](https://scuttlebutt.nz) ).
+Les clients (les pairs) se trouvent généralement les uns les autres grâce à l'utilisation d'un réseau de [calcul distribué](https://fr.wikipedia.org/wiki/Calcul_distribué). Citons par exemple les [Tables de Hachages Distribuées](https://fr.wikipedia.org/wiki/Table_de_hachage_distribuée) (THD), utilisées par les [Torrents](https://fr.wikipedia.org/wiki/BitTorrent) et [l'IPFS](https://fr.wikipedia.org/wiki/InterPlanetary_File_System). Another approach is proximity based networks, where a connection is established over Wi-Fi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
 
 Lorsqu'un pair a trouvé une route vers son contact par l'une de ces méthodes, une connexion directe est établie entre eux. Bien que les messages soient généralement chiffrés, un observateur peut toujours déduire l'emplacement et l'identité de l'expéditeur et du destinataire.
 
@@ -85,9 +85,9 @@ Les réseaux P2P n'utilisent pas de serveurs, car les pairs communiquent directe
 
 Une messagerie utilisant le [routage anonyme](https://doi.org/10.1007/978-1-4419-5906-5_628) cache soit l'identité de l'expéditeur, celle du destinataire, ou la preuve qu'ils aient communiqué. Idéalement, une messagerie devrait cacher les trois.
 
-Il existe de [nombreuses](https://doi.org/10.1145/3182658) façons différentes de mettre en œuvre le routage anonyme. L'une des plus célèbres est le [routage en oignon](https://en.wikipedia.org/wiki/Onion_routing) comme [Tor](https://fr.wikipedia.org/wiki/Tor_(réseau)), qui communique des messages chiffrés par le biais d'un [réseau superposé](https://fr.wikipedia.org/wiki/Réseau_superposé) qui masque l'emplacement de chaque nœud ainsi que le destinataire et l'expéditeur de chaque message. L'expéditeur et le destinataire n'interagissent jamais directement et ne se rencontrent que par l'intermédiaire d'un nœud de rendez-vous secret, de sorte qu'il n'y ait aucune fuite d'adresses IP ni de localisation physique. Les nœuds ne peuvent pas déchiffrer les messages ni la destination finale, seul le destinataire le peut. Chaque nœud intermédiaire ne peut déchiffrer qu'une partie qui indique où envoyer ensuite le message encore chiffré, jusqu'à ce qu'il arrive au destinataire qui peut le déchiffrer entièrement, d'où les "couches d'oignon."
+There are [many](https://doi.org/10.1145/3182658) ways to implement anonymous routing. L'une des plus célèbres est le [routage en oignon](https://en.wikipedia.org/wiki/Onion_routing) comme [Tor](https://fr.wikipedia.org/wiki/Tor_(réseau)), qui communique des messages chiffrés par le biais d'un [réseau superposé](https://fr.wikipedia.org/wiki/Réseau_superposé) qui masque l'emplacement de chaque nœud ainsi que le destinataire et l'expéditeur de chaque message. L'expéditeur et le destinataire n'interagissent jamais directement et ne se rencontrent que par l'intermédiaire d'un nœud de rendez-vous secret, de sorte qu'il n'y ait aucune fuite d'adresses IP ni de localisation physique. Les nœuds ne peuvent pas déchiffrer les messages ni la destination finale, seul le destinataire le peut. Chaque nœud intermédiaire ne peut déchiffrer qu'une partie qui indique où envoyer ensuite le message encore chiffré, jusqu'à ce qu'il arrive au destinataire qui peut le déchiffrer entièrement, d'où les "couches d'oignon."
 
-L'auto-hébergement d'un nœud dans un réseau de routage anonyme ne procure pas à l'hébergeur des avantages supplémentaires en matière de confidentialité, mais contribue plutôt à la résilience de l'ensemble du réseau contre les attaques d'identification pour le bénéfice de tous.
+Self-hosting a node in an anonymous routing network does not provide the host with additional privacy benefits, but rather contributes to the whole network's resilience against identification attacks for everyone's benefit.
 
 **Avantages :**
 

@@ -37,9 +37,9 @@ Anélkül, hogy bármilyen kapcsolatban álltunk volna a BurungHantuval, úgy d�
 
 ## Az r/privacytoolsIO ellenőrzése
 
-A privacytools.io weboldalon folyó problémákkal egyidejűleg az r/privacytoolsIO moderációs csapatnak is kihívásokkal kellett szembenéznie a subreddit kezelésével. Az alreddit mindig is a weboldal fejlesztésétől nagyrészt függetlenül működött, de BurungHantu volt az alreddit elsődleges moderátora is, és ő volt az egyetlen moderátor, aki "Teljes irányítási" jogosultságokkal rendelkezett. u/trai_dep volt az egyetlen aktív moderátor abban az időben, és 2021. június 28-án kérvényt [küldött](https://reddit.com/comments/o9tllh) a Reddit adminisztrátorainak, amelyben kérte, hogy megkapja az elsődleges moderátori pozíciót és a teljes irányítási jogosultságokat, hogy a szükséges változtatásokat elvégezhesse a subredditen.
+Simultaneously with the ongoing website issues at privacytools.io, the r/privacytoolsIO moderation team was facing challenges with managing the Subreddit. The Subreddit had always been operated mostly independently of the website's development, but BurungHantu was the primary moderator of the Subreddit as well, and he was the only moderator granted "Full Control" privileges. u/trai_dep volt az egyetlen aktív moderátor abban az időben, és 2021. június 28-án kérvényt [küldött](https://reddit.com/comments/o9tllh) a Reddit adminisztrátorainak, amelyben kérte, hogy megkapja az elsődleges moderátori pozíciót és a teljes irányítási jogosultságokat, hogy a szükséges változtatásokat elvégezhesse a subredditen.
 
-A Reddit megköveteli, hogy az alredditek aktív moderátorokkal rendelkezzenek. Ha az elsődleges moderátor hosszabb ideig (például egy évig) inaktív, az elsődleges moderátori pozíciót a soron következő moderátor töltheti be újra. Ahhoz, hogy ezt a kérést teljesítsék, BurungHantunak hosszú időn keresztül teljesen távol kellett volna maradnia minden Reddit-tevékenységtől, ami összhangban volt a más platformokon tanúsított viselkedésével.
+Reddit requires that Subreddits have active moderators. Ha az elsődleges moderátor hosszabb ideig (például egy évig) inaktív, az elsődleges moderátori pozíciót a soron következő moderátor töltheti be újra. Ahhoz, hogy ezt a kérést teljesítsék, BurungHantunak hosszú időn keresztül teljesen távol kellett volna maradnia minden Reddit-tevékenységtől, ami összhangban volt a más platformokon tanúsított viselkedésével.
 
 > Ha Reddit-kérésen keresztül eltávolítottak moderátorként egy alredditből, az azért van, mert a válaszadás és az aktivitás hiánya miatt az r/redditrequest alreddit áthelyezésre jogosult.
 > 
@@ -55,7 +55,7 @@ Ez a változás [a következőket vonta maga után:](https://reddit.com/comments
 
 - Redirecting `www.privacytools.io` to [www.privacyguides.org](https://www.privacyguides.org).
 - A forráskód archiválása a GitHubon, hogy megőrizzük a korábbi munkánkat és a problémakövetőt, amelyet továbbra is használtunk az oldal jövőbeli fejlesztésének hónapjai során.
-- Bejelentések közzététele a subredditünkön és különböző más közösségekben, amelyek tájékoztatják az embereket a hivatalos változásról.
+- Posting announcements to our Subreddit and various other communities informing people of the official change.
 - A privacytools.io szolgáltatások, mint például a Matrix és a Mastodon hivatalos bezárása, és a meglévő felhasználók ösztönzése a lehető leghamarabbi áttérésre.
 
 Úgy tűnt, hogy a dolgok zökkenőmentesen mennek, és az aktív közösségünk nagy része pontosan úgy váltott át az új projektünkre, ahogy reméltük.
@@ -66,11 +66,11 @@ Nagyjából egy héttel az átállást követően BurungHantu közel egy év ut�
 
 At this point, BurungHantu claimed he wanted to continue working on privacytools.io on his own and requested that we remove the redirect from `www.privacytools.io` to [www.privacyguides.org](https://www.privacyguides.org). Mi köteleztük és kértük, hogy tartsa aktívan a Matrix, Mastodon és PeerTube aldomainjeit, hogy legalább néhány hónapig nyilvános szolgáltatásként működtethessük a közösségünk számára, hogy az ezeken a platformokon lévő felhasználók könnyen át tudjanak menni más fiókokra. A szolgáltatásaink feldarabolt jellege miatt azok specifikus domain nevekhez voltak kötve, ami nagyon nehézzé tette az áttelepülést (néhány esetben lehetetlenné).
 
-Sajnos, mivel az r/privacytoolsIO alreddit irányítását BurungHantu kérésére nem adták át (további információk lejjebb), ezeket az aldomaineket október elején [lekapcsolták](https://reddit.com/comments/pymthv/comment/hexwrps), így a még mindig ezeket a szolgáltatásokat használó felhasználók számára megszűnt minden migrációs lehetőség.
+Unfortunately, because control of the r/privacytoolsIO Subreddit was not returned to BurungHantu at his demand (further information below), those subdomains were [cut off](https://reddit.com/comments/pymthv/comment/hexwrps) at the beginning of October, ending any migration possibilities to any users still using those services.
 
 Ezt követően BurungHantu hamis vádakat fogalmazott meg azzal kapcsolatban, hogy Jonah adományokat lopott a projektből. BurungHantunak több mint egy éve volt arra, hogy közzétegye az állítólagos esetet, mégis senkit sem tájékoztatott róla egészen a Privacy Guides migrációja utáni időpontig. BurungHantut a csapat [és a közösség](https://twitter.com/TommyTran732/status/1526153536962281474) többször kérte, hogy bizonyítsa be, és nyilatkozzon a hallgatásának okáról, de ezt nem tette meg.
 
-BurungHantu egy [Twitter-bejegyzést](https://twitter.com/privacytoolsIO/status/1510560676967710728) is közzétett, amelyben azt állította, hogy egy "ügyvéd" felkereste őt a Twitteren, és tanácsot adott neki, egy újabb kísérletként arra, hogy megfélemlítsen minket, hogy átadjuk neki az irányítást a subredditünk felett, és a rágalomhadjárat részeként, hogy zavarossá tegye a Privacy Guides elindítását, miközben úgy állította be magát, mintha áldozat lenne.
+BurungHantu also made a [twitter post](https://twitter.com/privacytoolsIO/status/1510560676967710728) alleging that an "attorney" had reached out to him on Twitter and was providing advice, in another attempt to bully us into giving him control of our Subreddit, and as part of his smear campaign to muddy the waters surrounding the launch of Privacy Guides while pretending to be a victim.
 
 ## PrivacyTools.io most
 
@@ -80,7 +80,7 @@ BurungHantu egy [Twitter-bejegyzést](https://twitter.com/privacytoolsIO/status/
 
 ## Az r/privacytoolsIO most
 
-Az [r/PrivacyGuides](https://reddit.com/r/privacyguides) elindítása után nem volt célszerű, hogy u/trai_dep továbbra is mindkét alredditet moderálja, és mivel a közösség egyetértett az átállással, az r/privacytoolsIO egy 2021. november 1-jei bejegyzésben [ korlátozott alreditté vált](https://reddit.com/comments/qk7qrj):
+After the launch of [r/PrivacyGuides](https://reddit.com/r/privacyguides), it was impractical for u/trai_dep to continue moderating both Subreddits, and with the community on-board with the transition, r/privacytoolsIO was [made](https://reddit.com/comments/qk7qrj) a restricted sub in a post on November 1st, 2021:
 
 > [...] A PrivacyGuides.org csapatának több éven át tartó nagy erőfeszítései eredményeként nőtt meg ez az aloldal. És mindannyiótok által.
 > 
@@ -88,11 +88,11 @@ Az [r/PrivacyGuides](https://reddit.com/r/privacyguides) elindítása után nem 
 
 A szubredditek nem tartoznak senkihez, és különösen nem tartoznak a márkatulajdonosokhoz. A közösségükhöz tartoznak, és a közösség és annak moderátorai döntöttek úgy, hogy támogatják az r/PrivacyGuides-ba való költözést.
 
-Az azóta eltelt hónapokban BurungHantu a Reddit szabályait [megszegve](https://reddit.com/r/redditrequest/wiki/top_mod_removal) fenyegetőzött és könyörgött, hogy adja vissza a subreddit irányítását a fiókjának:
+In the months since, BurungHantu has threatened and begged for returning Subreddit control to his account in [violation](https://reddit.com/r/redditrequest/wiki/top_mod_removal) of Reddit rules:
 
 > A moderátorok megtorlása az eltávolítási kérelmekkel kapcsolatban tilos.
 
-Egy olyan közösség számára, amelynek még több ezer tagja van, úgy érezzük, hogy hihetetlenül tiszteletlen lenne visszaadni az irányítást a hatalmas platform felett annak a személynek, aki több mint egy éve elhagyta azt, és aki most egy olyan weboldalt üzemeltet, amely szerintünk nagyon alacsony minőségű információt nyújt. A közösségben folytatott több éves múltbeli viták megőrzése fontosabb számunkra, ezért u/trai_dep és a többi moderátor úgy döntött, hogy az r/privacytoolsIO-t megtartjuk.
+Egy olyan közösség számára, amelynek még több ezer tagja van, úgy érezzük, hogy hihetetlenül tiszteletlen lenne visszaadni az irányítást a hatalmas platform felett annak a személynek, aki több mint egy éve elhagyta azt, és aki most egy olyan weboldalt üzemeltet, amely szerintünk nagyon alacsony minőségű információt nyújt. Preserving the years of past discussions in that community is more important to us, and thus u/trai_dep and the rest of the Subreddit moderation team has made the decision to keep r/privacytoolsIO as-is.
 
 ## OpenCollective most
 

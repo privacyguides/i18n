@@ -1,10 +1,10 @@
 ---
-title: "Autenticação multi-fator"
+title: "Multifactor Authentication"
 icon: 'material/two-factor-authentication'
 description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
 ---
 
-**Multi-Factor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. The most common method is time limited codes you might receive from SMS or an app.
+**Multifactor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. The most common method is time limited codes you might receive from SMS or an app.
 
 A idéia por trás do AMF é que mesmo que um hacker (ou adversário) seja capaz de descobrir sua senha (algo que você *sabe*), eles ainda precisarão de um dispositivo que você possui como o seu telefone (algo que você *tem*), a fim de gerar o código necessário para entrar na sua conta. Os métodos de AMF variam na segurança com base nesta premissa: quanto mais difícil for para um atacante ter acesso ao seu método AMF, melhor.
 
@@ -26,7 +26,7 @@ A segurança da notificação push AMF depende tanto da qualidade do aplicativo,
 
 ### Palavra-passe única baseada no tempo (TOTP)
 
-TOTP is one of the most common forms of MFA available. When you set up TOTP, you are generally required to scan a [QR Code](https://en.wikipedia.org/wiki/QR_code) which establishes a "[shared secret](https://en.wikipedia.org/wiki/Shared_secret)" with the service that you intend to use. The shared secret is secured inside of the authenticator app's data, and is sometimes protected by a password.
+TOTP is one of the most common forms of MFA available. When you set up TOTP, you are generally required to scan a [QR Code](https://en.wikipedia.org/wiki/QR_code) which establishes a "[shared secret](https://en.wikipedia.org/wiki/Shared_secret)" with the service that you intend to use. The shared secret is secured inside the authenticator app's data, and is sometimes protected by a password.
 
 Se você tem uma chave de segurança de hardware com suporte a TOTP (como uma YubiKey com [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)), recomendamos que você armazene os seus "segredos compartilhados" no hardware. As the code is only valid for a short time, without access to the shared secret, an adversary cannot generate new codes.
 
@@ -82,7 +82,7 @@ This presentation discusses the history of password authentication, the pitfalls
 
 Se um site ou serviço suportar FIDO2 / U2F para a autenticação, é altamente recomendável que o utilize em relação a qualquer outra forma de AMF.
 
-Typically for web services it is used with WebAuthn which is a part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). It uses public key authentication and is more secure than shared secrets used in Yubico OTP and TOTP methods, as it includes the origin name (usually, the domain name) during authentication. Attestation is provided to protect you from phishing attacks, as it helps you to determine that you are using the authentic service and not a fake copy.
+Typically, for web services it is used with WebAuthn which is a part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). It uses public key authentication and is more secure than shared secrets used in Yubico OTP and TOTP methods, as it includes the origin name (usually, the domain name) during authentication. Attestation is provided to protect you from phishing attacks, as it helps you to determine that you are using the authentic service and not a fake copy.
 
 Ao configurar o seu método AMF, tenha em mente que ele é apenas tão seguro quanto o seu método de autenticação mais fraco que você usa. It also does not use any third-party cloud server for authentication. Por exemplo, se você já estiver usando TOTP, você deve desativar o e-mail e SMS MFA. Se já estiver a utilizar o FIDO2 / U2F, não deve utilizar o Yubico OTP ou TOTP na sua conta.
 
@@ -116,15 +116,15 @@ If you use SMS MFA, use a carrier who will not switch your phone number to a new
 
 ## Mais lugares para configurar o AMF
 
-Yubico tem um guia [Usando o seu YubiKey como Smart Card em macOS](https://support.yubico.com/hc/en-us/articles/360016649059) que o pode ajudar a configurar o seu YubiKey em macOS.
+Beyond just securing your website logins, multifactor authentication can be used to secure your local logins, SSH keys or even password databases as well.
 
 ### macOS
 
-macOS has [native support](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) for authentication with smart cards (PIV). If you have a smartcard or a hardware security key that supports the PIV interface such as the YubiKey, we recommend that you follow your smartcard/hardware security vendor's documentation and set up second factor authentication for your macOS computer.
+macOS has [native support](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) for authentication with smart cards (PIV). If you have a smart card or a hardware security key that supports the PIV interface such as the YubiKey, we recommend that you follow your smart card or hardware security vendor's documentation and set up second factor authentication for your macOS computer.
 
 Yubico have a guide [Using Your YubiKey as a Smart Card in macOS](https://support.yubico.com/hc/articles/360016649059) which can help you set up your YubiKey on macOS.
 
-After your smartcard/security key is set up, we recommend running this command in the Terminal:
+After your smart card/security key is set up, we recommend running this command in the Terminal:
 
 ```text
 sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLogin -bool YES
@@ -159,4 +159,4 @@ SSH MFA can also be set up using TOTP. DigitalOcean has provided a tutorial [How
 
 ### KeePass (e KeePassXC)
 
-KeePass and KeePassXC databases can be secured using Challenge-Response or HOTP as a second-factor authentication. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.
+KeePass and KeePassXC databases can be secured using HOTP or Challenge-Response as a second-factor of authentication. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.

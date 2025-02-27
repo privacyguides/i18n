@@ -63,13 +63,13 @@ Les politiques de confidentialité et les pratiques commerciales des fournisseur
 
 ## "Plus c'est complexe mieux c'est"
 
-Nous voyons souvent des personnes décrire des modèles de menace pour protéger leurs vies privées qui sont trop complexes. Souvent, ces solutions incluent des problèmes tels que de nombreux comptes email différents ou des configurations compliquées avec de nombreuses pièces mouvantes et conditions. Les réponses sont généralement des réponses à la question "Quelle est la meilleure façon de faire *X*?"
+Nous voyons souvent des personnes décrire des modèles de menace pour protéger leurs vies privées qui sont trop complexes. Often, these solutions include problems like multiple email accounts or complicated setups with lots of moving parts and conditions. Les réponses sont généralement des réponses à la question "Quelle est la meilleure façon de faire *X*?"
 
 Trouver la "meilleure" solution pour soi ne signifie pas nécessairement que l'on recherche une solution infaillible avec des dizaines de conditions - ces solutions sont souvent difficiles à utiliser de manière réaliste. Comme nous l'avons vu précédemment, la sécurité se fait souvent au détriment de la commodité. Nous vous donnons ci-dessous quelques conseils :
 
 1. ==Les actions doivent servir un objectif particulier:== réfléchissez à la manière de faire ce que vous voulez avec le moins d'actions possible.
 2. ==Supprimer les points d'échec humains:== nous échouons, nous nous fatiguons et nous oublions des choses. Pour maintenir la sécurité, évitez de vous appuyer sur des conditions et des processus manuels dont vous devez vous souvenir.
-3. ==Utilisez le bon niveau de protection pour ce que vous voulez faire.== Nous voyons souvent des recommandations de solutions soi-disant à l'épreuve des forces de l'ordre et des assignations/mandats. Celles-ci nécessitent souvent des connaissances spécialisées et ne sont généralement pas ce que les gens recherchent. Il ne sert à rien de construire un modèle de menace complexe pour l'anonymat si vous pouvez être facilement désanonymisé par un simple oubli.
+3. ==Utilisez le bon niveau de protection pour ce que vous voulez faire.== Nous voyons souvent des recommandations de solutions soi-disant à l'épreuve des forces de l'ordre et des assignations/mandats. Celles-ci nécessitent souvent des connaissances spécialisées et ne sont généralement pas ce que les gens recherchent. There's no point in building an intricate threat model for anonymity if you can be easily deanonymized by a simple oversight.
 
 Alors, à quoi ça pourrait ressembler ?
 
@@ -94,4 +94,4 @@ Les modèles de menace les plus clairs sont ceux où les gens *savent qui vous �
 
     L'utilisation de Tor peut y contribuer. Il convient également de noter qu'un plus grand anonymat est possible grâce à la communication asynchrone : La communication en temps réel est vulnérable à l'analyse des habitudes de frappe (c'est-à-dire plus d'un paragraphe de texte, diffusé sur un forum, par e-mail, etc.)
 
-[^1]: Une attaque notable de la chaîne d'approvisionnement s'est produite en mars 2024, lorsqu'un mainteneur malveillant a ajouté une porte dérobée obscurcie dans `xz`, une bibliothèque de compression populaire. La porte dérobée ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) devait permettre à un inconnu d'accéder à distance à la plupart des serveurs Linux via SSH, mais elle a été découverte avant d'être largement déployée.
+[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added an obfuscated backdoor into `xz`, a popular compression library. La porte dérobée ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) devait permettre à un inconnu d'accéder à distance à la plupart des serveurs Linux via SSH, mais elle a été découverte avant d'être largement déployée.

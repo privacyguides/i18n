@@ -86,4 +86,4 @@ In general, we define collaboration platforms as full-fledged suites which could
 満たされることが望ましい基準には、このカテゴリーの完璧なプロジェクトに私たちが望むものを示しています。 私たちが推薦するプロジェクトは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいれば、このページで他のプロジェクトよりも上位にランクされるかもしれません。
 
 - Should store files in a conventional filesystem.
-- Should support TOTP or FIDO2 multi-factor authentication support, or passkey logins.
+- Should support TOTP or FIDO2 multifactor authentication support, or passkey logins.

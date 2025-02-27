@@ -56,11 +56,11 @@ De este modo se establece un horario para volver a revisar cada sitio web aproxi
 
 Una vez que te hayas dado de baja de todos estos sitios por primera vez, lo mejor es esperar una o dos semanas para que las solicitudes se propaguen a todos sus sitios. A continuación, puedes empezar a buscar y darte de baja de los sitios restantes que encuentres. Puede ser una buena idea utilizar un rastreador web como la herramienta [Google's _Results about you_](#google-results-about-you-free) para ayudar a encontrar cualquier dato que permanezca en Internet.
 
-Por lo demás, la periodista especializada en privacidad Yael Grauer ha elaborado una excelente lista de sitios de comerciantes de datos con enlaces directos a sus herramientas de búsqueda y páginas de exclusión voluntaria. Puedes dedicar algún tiempo a revisar cada sitio para determinar si tienen tu información y eliminarla:
+Por lo demás, la periodista especializada en privacidad Yael Grauer ha elaborado una excelente lista de sitios de comerciantes de datos con enlaces directos a sus herramientas de búsqueda y páginas de exclusión voluntaria. You can take some time to go through each site to determine whether they have your information, and remove it:
 
 [:simple-github: Enorme Lista de Exclusión de Comerciantes de Datos](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List){ .md-button }
 
-Si no utilizas un escáner automático para encontrar resultados sobre ti, considera la posibilidad de establecer un recordatorio para volver a realizar este proceso cada 3, 6 o 12 meses, en función de tu nivel de riesgo y de la cantidad de datos personales que tengas ahí fuera. Desafortunadamente, es habitual que tus datos reaparezcan con el tiempo o aparezcan en nuevos sitios de búsqueda de personas incluso después de haberte dado de baja.
+Si no utilizas un escáner automático para encontrar resultados sobre ti, considera la posibilidad de establecer un recordatorio para volver a realizar este proceso cada 3, 6 o 12 meses, en función de tu nivel de riesgo y de la cantidad de datos personales que tengas ahí fuera. Unfortunately, it is common for your data to re-appear over time or show up on brand-new people search sites even after you opt out.
 
 ## EasyOptOuts <small>de Pago</small>
 
@@ -125,7 +125,7 @@ En nuestras pruebas, esta herramienta funcionó para eliminar de forma fiable lo
 
 Nuestras selecciones de servicios de eliminación se basan principalmente en pruebas profesionales independientes realizadas por terceros, como se indica en las secciones anteriores, en nuestras propias pruebas internas y en los comentarios agregados de nuestra comunidad.
 
-- No debe ser un servicio con etiqueta blanca ni un revendedor de otro proveedor.
+- Must not be a white labeled service or reseller of another provider.
 - No debe estar afiliado a la industria de la comercialización de datos ni comprar publicidad en sitios de búsqueda de personas.
 - Solo debe utilizar tus datos personales para excluirte de bases de datos de comerciantes y sitios de búsqueda de personas.
 

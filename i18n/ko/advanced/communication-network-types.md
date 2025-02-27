@@ -44,7 +44,7 @@ description: 메신저 애플리케이션에서 보편적으로 사용되는 몇
 - 자체 서버를 운영하는 경우 자신의 데이터에 대한 통제력이 향상됩니다.
 - 여러 '공개' 서버 중 원하는 서버를 고르는 것으로 데이터 신뢰 대상을 취사선택 가능합니다.
 - 네이티브, 커스텀, 사용 경험 면에서 더 뛰어난 제3자 클라이언트를 사용할 수 있도록 허용하는 경우가 많습니다.
-- 서버에 직접 접근 가능하거나, 접근 가능한 사람을 신뢰(권한을 가진 사람 중 한명이 자신의 가족인 경우 등)하는 경우 실제 서버 소프트웨어가 공개된 소스 코드와 일치하는지 검증할 수 있습니다.
+- Server software can be verified that it matches public source code, assuming you have access to the server, or you trust the person who does (e.g., a family member).
 
 **단점:**
 
@@ -60,7 +60,7 @@ description: 메신저 애플리케이션에서 보편적으로 사용되는 몇
 
 P2P 메신저는 [분산형(Distributed) 네트워크](https://en.wikipedia.org/wiki/Distributed_networking)에 노드로서 연결되어 제3자 서버 없이 수신자에게 메시지를 전달합니다.
 
-클라이언트(피어)는 일반적으로 [분산 컴퓨팅](https://en.wikipedia.org/wiki/Distributed_computing) 네트워크를 이용해 서로를 찾아냅니다. 예시로는 [토렌트](https://ko.wikipedia.org/wiki/%EB%B9%84%ED%8A%B8%ED%86%A0%EB%A0%8C%ED%8A%B8), [IPFS](https://ko.wikipedia.org/wiki/InterPlanetary_File_System)에서 사용하는 [분산 해시 테이블](https://ko.wikipedia.org/wiki/%EB%B6%84%EC%82%B0_%ED%95%B4%EC%8B%9C_%ED%85%8C%EC%9D%B4%EB%B8%94)(DHT)이 있습니다. Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
+클라이언트(피어)는 일반적으로 [분산 컴퓨팅](https://en.wikipedia.org/wiki/Distributed_computing) 네트워크를 이용해 서로를 찾아냅니다. 예시로는 [토렌트](https://ko.wikipedia.org/wiki/%EB%B9%84%ED%8A%B8%ED%86%A0%EB%A0%8C%ED%8A%B8), [IPFS](https://ko.wikipedia.org/wiki/InterPlanetary_File_System)에서 사용하는 [분산 해시 테이블](https://ko.wikipedia.org/wiki/%EB%B6%84%EC%82%B0_%ED%95%B4%EC%8B%9C_%ED%85%8C%EC%9D%B4%EB%B8%94)(DHT)이 있습니다. Another approach is proximity based networks, where a connection is established over Wi-Fi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
 
 피어가 이러한 방법을 통해 연락 상대로 연결되는 경로를 찾아내면 서로 직접 연결이 이루어집니다. 메시지에는 일반적으로 암호화가 적용되나, 관찰자는 발신자/수신자의 위치와 신원을 유추할 수 있습니다.
 
@@ -85,9 +85,9 @@ P2P 네트워크는 피어가 서로 직접 통신하므로 서버를 사용하�
 
 [익명 라우팅](https://doi.org/10.1007/978-1-4419-5906-5_628)을 사용하는 메신저는 발신자, 수신자의 신원 혹은 통신 흔적을 드러내지 않습니다. 이상적으로는, 메신저는 이 세 가지(발신자 신원, 수신자 신원, 통신 흔적) 모두를 숨길 수 있어야 합니다.
 
-익명 라우팅을 구현하는 방법은 [여러 가지](https://doi.org/10.1145/3182658)가 존재합니다. 대표적인 방법으로는 [Onion 라우팅](https://en.wikipedia.org/wiki/Onion_routing)([Tor](tor-overview.md))이 존재합니다. 각 메시지의 발신자나 수신자뿐만 아니라 각 노드의 위치를 숨기는 가상 [오버레이 네트워크](https://en.wikipedia.org/wiki/Overlay_network)를 통해 암호화 메시지를 주고받습니다. 발신자와 수신자는 직접적으로 상호작용하지 않고 비밀 랑데부 노드를 통해서만 만나기 때문에 IP 주소나 실제 위치는 노출되지 않습니다. 노드는 메시지를 복호화하거나 최종 목적지를 알 수 없으며, 수신자만이 해독 가능합니다. 각 중개 노드는 메시지를 다음에는 어디로 보낼지를 나타내는 부분만 해독 가능하며 그 외에는 여전히 암호화가 적용되어 있습니다. 그리고 이 과정은 수신자에게 도달해 완전히 복호화될 때까지 반복됩니다. 'Onion(양파) 레이어'라는 명칭은 이러한 작동 방식에서 유래되었습니다.
+There are [many](https://doi.org/10.1145/3182658) ways to implement anonymous routing. 대표적인 방법으로는 [Onion 라우팅](https://en.wikipedia.org/wiki/Onion_routing)([Tor](tor-overview.md))이 존재합니다. 각 메시지의 발신자나 수신자뿐만 아니라 각 노드의 위치를 숨기는 가상 [오버레이 네트워크](https://en.wikipedia.org/wiki/Overlay_network)를 통해 암호화 메시지를 주고받습니다. 발신자와 수신자는 직접적으로 상호작용하지 않고 비밀 랑데부 노드를 통해서만 만나기 때문에 IP 주소나 실제 위치는 노출되지 않습니다. 노드는 메시지를 복호화하거나 최종 목적지를 알 수 없으며, 수신자만이 해독 가능합니다. 각 중개 노드는 메시지를 다음에는 어디로 보낼지를 나타내는 부분만 해독 가능하며 그 외에는 여전히 암호화가 적용되어 있습니다. 그리고 이 과정은 수신자에게 도달해 완전히 복호화될 때까지 반복됩니다. 'Onion(양파) 레이어'라는 명칭은 이러한 작동 방식에서 유래되었습니다.
 
-익명 라우팅 네트워크에서 노드를 자체 호스팅하는 행위는 자신의 프라이버시에 추가적인 이점을 제공하지 않습니다. 전체 네트워크로 하여금 식별 공격에 대한 복원력을 높이는 데 기여하는, 모두의 이익을 위한 행위입니다.
+Self-hosting a node in an anonymous routing network does not provide the host with additional privacy benefits, but rather contributes to the whole network's resilience against identification attacks for everyone's benefit.
 
 **장점:**
 

@@ -9,7 +9,7 @@ cover: notebooks.webp
 
 - [:material-server-network: Fournisseurs de service](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-Gardez une trace de vos notes et de vos journaux sans les donner à un tiers.
+Keep track of your notes and journals without giving them to a third party.
 
 Si vous utilisez actuellement une application comme Evernote, Google Keep, ou Microsoft OneNote, nous vous suggérons de choisir ici une alternative qui supporte le E2EE.
 
@@ -82,9 +82,9 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 <div class="admonition recommendation" markdown>
 
-![Logo Joplin](assets/img/notebooks/joplin.svg){ align=right }
+![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
 
-**Joplin** est une application gratuite, open-source et complète de prise de notes et de tâches à accomplir qui peut gérer un grand nombre de notes écrites en markdown organisées en carnets et en balises. Il offre E2EE et peut se synchroniser via Nextcloud, Dropbox, et plus encore. Il permet également d'importer facilement des notes d'Evernote et des notes en texte brut.
+**Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle numerous markdown notes organized into notebooks and tags. Il offre E2EE et peut se synchroniser via Nextcloud, Dropbox, et plus encore. Il permet également d'importer facilement des notes d'Evernote et des notes en texte brut.
 
 [:octicons-home-16: Homepage](https://joplinapp.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="Privacy Policy" }
@@ -133,7 +133,7 @@ Joplin ne [prend pas en charge](https://github.com/laurent22/joplin/issues/289) 
 
 </div>
 
-Cryptee offre 100 Mo de stockage gratuit, avec des options payantes si vous avez besoin de plus. L'inscription ne nécessite pas d'e-mail ou d'autres informations permettant d'identifier la personne.
+Cryptee offers 100 MB of storage for free, with paid options if you need more. L'inscription ne nécessite pas d'e-mail ou d'autres informations permettant d'identifier la personne.
 
 ## Blocs-notes locaux
 

@@ -11,7 +11,7 @@ We hosten [Umami](https://umami.is) zelf om een mooie visualisatie van onze webv
 
 Met deze methode:
 
-- Je informatie wordt nooit gedeeld met derden, het blijft op servers die wij beheren
+- Your information is never shared with a third party, it stays on servers we control
 - Je persoonlijke gegevens worden nooit opgeslagen, we verzamelen alleen samengevoegde gegevens
 - Er wordt geen JavaScript aan de clientzijde gebruikt
 

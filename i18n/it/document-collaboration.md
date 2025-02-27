@@ -86,4 +86,4 @@ In general, we define collaboration platforms as full-fledged suites which could
 I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto perfetto in questa categoria. I nostri consigli potrebbero non includere tutte o alcune di queste funzionalità, ma quelli che le includono potrebbero essere preferiti ad altri su questa pagina.
 
 - Should store files in a conventional filesystem.
-- Should support TOTP or FIDO2 multi-factor authentication support, or passkey logins.
+- Should support TOTP or FIDO2 multifactor authentication support, or passkey logins.

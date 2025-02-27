@@ -44,7 +44,7 @@ There are a variety of ways to connect to the Tor network from your device, the 
 
 Some of these apps are better than others, and again making a determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
 
-If more complete anonymity is paramount to your situation, you should **only** be using the desktop Tor Browser client, ideally in a [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) configuration. Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against de-anonymization.
+If more complete anonymity is paramount to your situation, you should **only** be using the desktop Tor Browser client, ideally in a [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) configuration. Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
 
 ## Navegador Tor
 
@@ -114,17 +114,11 @@ Anteriormente, recomendamos ativar a preferência *Isolar endereço de destino* 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tips for Android</p>
 
-Os dados de cada usuário são criptografados usando sua própria chave de criptografia exclusiva, e os arquivos do sistema operacional são deixados não criptografados. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN killswitch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+Os dados de cada usuário são criptografados usando sua própria chave de criptografia exclusiva, e os arquivos do sistema operacional são deixados não criptografados. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN kill switch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
 
 O Orbot está frequentemente desatualizado no [repositório F-Droid](https://guardianproject.info/fdroid) e no [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android) do Projeto Guardian, então considere fazer o download diretamente do [repositório GitHub](https://github.com/guardianproject/orbot/releases).
 
-[Visite orbot.app](https://orbot.app/){ .md-button .md-button--primary }
-
-**Downloads***
-- [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
-- [:pg-f-droid: F-Droid](https://guardianproject.info/fdroid)
-- [:fontawesome-brands-github: GitHub](https://github.com/guardianproject/orbot)
-- [:fontawesome-brands-gitlab: GitLab](https://gitlab.com/guardianproject/orbot)
+All versions are signed using the same signature, so they should be compatible with each other.
 
 </div>
 

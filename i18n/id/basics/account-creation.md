@@ -5,7 +5,7 @@ icon: 'material/account-plus'
 description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
 ---
 
-Seringkali orang mendaftar untuk layanan tanpa berpikir. Mungkin itu adalah layanan streaming sehingga Anda dapat menonton acara baru yang dibicarakan semua orang, atau akun yang memberi Anda diskon untuk tempat makanan cepat saji favorit Anda. Apa pun masalahnya, Anda harus mempertimbangkan implikasi untuk data Anda sekarang dan di kemudian hari.
+Seringkali orang mendaftar untuk layanan tanpa berpikir. Maybe it's a streaming service to watch that new show everyone's talking about, or an account that gives you a discount for your favorite fast food place. Apa pun masalahnya, Anda harus mempertimbangkan implikasi untuk data Anda sekarang dan di kemudian hari.
 
 Ada risiko yang terkait dengan setiap layanan baru yang Anda gunakan. Pelanggaran data; pengungkapan informasi pelanggan kepada pihak ketiga; karyawan nakal yang mengakses data; semuanya adalah kemungkinan yang harus dipertimbangkan ketika memberikan informasi Anda. Anda harus yakin bahwa Anda bisa mempercayai layanan ini, itulah sebabnya kami tidak menyarankan untuk menyimpan data berharga pada apa pun kecuali pada produk yang paling matang dan telah teruji. Hal ini biasanya berarti layanan yang menyediakan E2EE dan telah menjalani audit kriptografi. Audit meningkatkan jaminan bahwa produk dirancang tanpa masalah keamanan mencolok yang disebabkan oleh pengembang yang tidak berpengalaman.
 
@@ -13,11 +13,11 @@ Mungkin juga sulit untuk menghapus akun pada beberapa layanan. Terkadang [menimp
 
 ## Ketentuan Layanan & Kebijakan Privasi
 
-ToS adalah peraturan yang Anda setujui untuk diikuti saat menggunakan layanan. Pada layanan yang lebih besar aturan-aturan ini sering kali ditegakkan oleh sistem otomatis. Terkadang sistem otomatis ini bisa membuat kesalahan. Sebagai contoh, Anda mungkin diblokir atau dikunci dari akun Anda pada beberapa layanan karena menggunakan nomor VPN atau VOIP. Mengajukan banding atas larangan semacam itu sering kali sulit, dan melibatkan proses otomatis juga, yang tidak selalu berhasil. Ini akan menjadi salah satu alasan mengapa kami tidak menyarankan menggunakan Gmail untuk email sebagai contoh. Email sangat penting untuk akses ke layanan lain yang mungkin telah Anda daftarkan.
+ToS adalah peraturan yang Anda setujui untuk diikuti saat menggunakan layanan. Pada layanan yang lebih besar aturan-aturan ini sering kali ditegakkan oleh sistem otomatis. Terkadang sistem otomatis ini bisa membuat kesalahan. For example, you may be banned or locked out of your account on some services for using a VPN or VoIP number. Mengajukan banding atas larangan semacam itu sering kali sulit, dan melibatkan proses otomatis juga, yang tidak selalu berhasil. Ini akan menjadi salah satu alasan mengapa kami tidak menyarankan menggunakan Gmail untuk email sebagai contoh. Email sangat penting untuk akses ke layanan lain yang mungkin telah Anda daftarkan.
 
-Kebijakan Privasi adalah bagaimana layanan mengatakan bahwa mereka akan menggunakan data Anda dan perlu dibaca agar Anda memahami bagaimana data Anda akan digunakan. Perusahaan atau organisasi mungkin tidak diwajibkan secara hukum untuk mengikuti semua yang tercantum dalam kebijakan (tergantung pada yurisdiksi). Kami sarankan Anda mengetahui undang-undang setempat dan apa yang diizinkan oleh penyedia layanan untuk dikumpulkan.
+The Privacy Policy is how the service says they will use your data, and it is worth reading so that you understand how your data will be used. Perusahaan atau organisasi mungkin tidak diwajibkan secara hukum untuk mengikuti semua yang tercantum dalam kebijakan (tergantung pada yurisdiksi). Kami sarankan Anda mengetahui undang-undang setempat dan apa yang diizinkan oleh penyedia layanan untuk dikumpulkan.
 
-Sebaiknya cari istilah-istilah tertentu seperti "pengumpulan data", "analisis data", "cookie", "iklan", atau layanan "pihak ketiga". Kadang-kadang Anda dapat memilih untuk tidak ikut serta dalam pengumpulan data atau membagikan data Anda, tetapi yang terbaik adalah memilih layanan yang menghormati privasi Anda sejak awal.
+Sebaiknya cari istilah-istilah tertentu seperti "pengumpulan data", "analisis data", "cookie", "iklan", atau layanan "pihak ketiga". Sometimes you will be able to opt out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
 
 Ingatlah bahwa Anda juga menaruh kepercayaan pada perusahaan atau organisasi tersebut dan bahwa mereka akan mematuhi kebijakan privasi mereka sendiri.
 
@@ -42,7 +42,7 @@ Anda akan bertanggung jawab untuk mengelola kredensial login Anda. Untuk keamana
 
 #### Alias surel
 
-Jika Anda tidak ingin memberikan alamat surel asli Anda ke layanan, Anda memiliki opsi untuk menggunakan alias. Kami menjelaskannya secara lebih rinci di halaman rekomendasi layanan surel kami. Pada dasarnya, layanan alias memungkinkan Anda untuk membuat alamat surel baru yang meneruskan semua surel ke alamat utama Anda. Hal ini dapat membantu mencegah pelacakan di seluruh layanan dan membantu Anda mengelola surel pemasaran yang terkadang menyertai proses pendaftaran. Semua itu dapat disaring secara otomatis berdasarkan alias yang dikirim.
+Jika Anda tidak ingin memberikan alamat surel asli Anda ke layanan, Anda memiliki opsi untuk menggunakan alias. Kami menjelaskannya secara lebih rinci di halaman rekomendasi layanan surel kami. Pada dasarnya, layanan alias memungkinkan Anda untuk membuat alamat surel baru yang meneruskan semua surel ke alamat utama Anda. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. Semua itu dapat disaring secara otomatis berdasarkan alias yang dikirim.
 
 Jika layanan diretas, Anda mungkin akan mulai menerima surel phishing atau spam ke alamat yang Anda gunakan untuk mendaftar. Using unique aliases for each service can assist in identifying exactly what service was hacked.
 
@@ -76,7 +76,7 @@ Malicious applications, particularly on mobile devices where the application has
 
 Kami sarankan untuk menghindari layanan yang memerlukan nomor telepon untuk mendaftar. A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
 
-Anda harus menghindari memberikan nomor telepon asli Anda jika Anda bisa. Some services will allow the use of VOIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
+Anda harus menghindari memberikan nomor telepon asli Anda jika Anda bisa. Some services will allow the use of VoIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
 
 Dalam banyak kasus, Anda perlu memberikan nomor yang dapat digunakan untuk menerima SMS atau telepon, terutama saat berbelanja internasional, untuk berjaga-jaga jika terjadi masalah dengan pesanan Anda saat pemeriksaan di perbatasan. It's common for services to use your number as a verification method; don't let yourself get locked out of an important account because you wanted to be clever and give a fake number!
 

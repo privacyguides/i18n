@@ -109,7 +109,7 @@ Dies ist erforderlich, um fortgeschrittene Formen der Nachverfolgung zu verhinde
 
 ### Mullvad Leta
 
-Der Mullvad Browser wird mit DuckDuckGo als Standard [Suchmaschine](search-engines.md) ausgeliefert, aber es ist auch **Mullvad Leta** vorinstalliert, eine Suchmaschine, die ein aktives Mullvad VPN-Abonnement erfordert, um darauf zugreifen zu können. Mullvad Leta greift für die Suche direkt auf die kostenpflichtige API von Google zu, daher ist es auf zahlende Abonnenten beschränkt. Aufgrund dieser Einschränkung ist es für Mullvad jedoch möglich, Suchanfragen über Mullvad Leta mit Mullvad-VPN-Konten in einen Zusammenhang zu setzen. Aus diesem Grund raten wir von der Verwendung von Mullvad Leta ab, auch wenn Mullvad nur sehr wenige Informationen über seine VPN-Abonnenten sammelt.
+Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes pre-installed with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. Mullvad Leta greift für die Suche direkt auf die kostenpflichtige API von Google zu, daher ist es auf zahlende Abonnenten beschränkt. Aufgrund dieser Einschränkung ist es für Mullvad jedoch möglich, Suchanfragen über Mullvad Leta mit Mullvad-VPN-Konten in einen Zusammenhang zu setzen. Aus diesem Grund raten wir von der Verwendung von Mullvad Leta ab, auch wenn Mullvad nur sehr wenige Informationen über seine VPN-Abonnenten sammelt.
 
 ## Firefox
 
@@ -189,7 +189,7 @@ Laut Mozillas Datenschutzrichtlinie für Firefox,
 
 > Firefox sendet Daten über deine Firefox-Version und -Sprache, das Betriebssystem und die Hardware-Konfiguration deines Geräts, den Arbeitsspeicher, grundlegende Informationen über Abstürze und Fehler sowie die Ergebnisse automatisierter Prozesse wie Updates, Safebrowsing und Aktivierung an Mozilla. Wenn Firefox Daten an Mozilla sendet, wird deine IP-Adresse vorübergehend als Teil von Mozillas Serverprotokollen erfasst.
 
-Außerdem sammelt der Mozilla-Konten-Dienst [einige technische Daten](https://mozilla.org/privacy/mozilla-accounts). Wenn du ein Mozilla-Konto verwendest, kannst du dich hiervon abmelden:
+Außerdem sammelt der Mozilla-Konten-Dienst [einige technische Daten](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt out:
 
 1. Öffnen deine [Profileinstellungen auf accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Deaktiviere **Datenerfassung und -nutzung** > **Helfen Sie, Firefox-Konten zu verbessern**
@@ -204,7 +204,7 @@ Mit der Veröffentlichung von Firefox 128 wurde eine neue Einstellung für die [
 
 - [x] Wähle **Nur-HTTPS-Modus in allen Fenstern aktivieren**
 
-Dadurch wird verhindert, dass ungewollt eine Verbindung zu einer Website mit einer unverschlüsselten HTTP-Verbindung hergestellt wird. Websites ohne HTTPS sind heutzutage unüblich, sodass dies nur geringe oder gar keine Auswirkungen auf das tägliche Surfen haben sollte.
+Dadurch wird verhindert, dass ungewollt eine Verbindung zu einer Website mit einer unverschlüsselten HTTP-Verbindung hergestellt wird. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
 
 ##### DNS über HTTPS
 
@@ -297,7 +297,7 @@ Brave ermöglicht die Auswahl zusätzlicher Inhaltsfilter auf der internen Seite
 
 </div>
 
-1. Mit dieser Option wird JavaScript deaktiviert, was bei vielen Websites zu Problemen führt. Um sie wieder nutzbar zu machen, können Sie Ausnahmen für jede einzelne Website festlegen, indem Sie auf das Schild-Symbol in der Adressleiste klicken und diese Einstellung unter *Fortgeschrittene Steuerung* deaktivieren.
+1. Mit dieser Option wird JavaScript deaktiviert, was bei vielen Websites zu Problemen führt. To fix them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 2. Wenn Sie bei einer bestimmten Website, die Sie häufig besuchen, angemeldet bleiben möchten, können Sie Ausnahmen für jede einzelne Website festlegen, indem Sie auf das Schild-Symbol in der Adressleiste klicken und diese Einstellung unter *Erweiterte Steuerelemente* deaktivieren.
 
 #### Datenschutz und Sicherheit

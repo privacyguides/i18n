@@ -24,7 +24,7 @@ Wij stellen deze eisen aan ontwikkelaars die hun project of software in overwegi
 
 - Je moet jouw banden bekendmaken, d.w.z. jouw positie binnen het ingediende project.
 
-- Must have a security whitepaper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
+- Must have a security white paper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
     - Regarding third party audit status, we want to know if you have undergone one, or have requested one. Vermeld indien mogelijk wie de controle zal uitvoeren.
 
 - Moet uitleggen wat het project te bieden heeft op het gebied van privacy.

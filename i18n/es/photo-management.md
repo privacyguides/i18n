@@ -19,7 +19,7 @@ La mayoría de las soluciones de **gestión de fotografías en la nube**, como G
 ![Ente logo](assets/img/photo-management/ente.svg#only-light){ align=right }
 ![Ente logo](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
 
-**Ente Photos** es un servicio de copia de seguridad cifrada de fotos de extremo a extremo que admite copias de seguridad automáticas en iOS y Android. Su código es totalmente abierto, tanto en el lado del cliente como en el del servidor. También es [autoalojable](https://github.com/ente-io/ente/tree/main/server#self-hosting). El plan gratuito ofrece 5GB de almacenamiento siempre que utilices el servicio al menos una vez al año.
+**Ente Photos** es un servicio de copia de seguridad cifrada de fotos de extremo a extremo que admite copias de seguridad automáticas en iOS y Android. Su código es totalmente abierto, tanto en el lado del cliente como en el del servidor. También es [autoalojable](https://github.com/ente-io/ente/tree/main/server#self-hosting). The free plan offers 5 GB of storage as long as you use the service at least once a year.
 
 [:octicons-home-16: Página Principal](https://ente.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Política de Privacidad" }
@@ -51,7 +51,7 @@ Ente Photos se sometió a una [auditoría por Cure53](https://ente.io/blog/crypt
 ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ align=right }
 ![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ align=right }
 
-**Stingle** es una aplicación de galería y cámara con funciones integradas de copia de seguridad cifrada de extremo a extremo y de sincronización para tus fotos y vídeos. El almacenamiento comienza en 1GB para cuentas gratuitas en su nube, o puedes alojar tu propio servidor API Stingle para una independencia total.
+**Stingle** es una aplicación de galería y cámara con funciones integradas de copia de seguridad cifrada de extremo a extremo y de sincronización para tus fotos y vídeos. Storage starts at 1 GB for free accounts on their cloud, or you can host your own Stingle API server for total independence.
 
 [:octicons-home-16: Página Principal](https://stingle.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://stingle.org/privacy){ .card-link title="Política de Privacidad" }
@@ -100,7 +100,7 @@ Ente Photos se sometió a una [auditoría por Cure53](https://ente.io/blog/crypt
 
 - Los proveedores alojados en la nube deben aplicar cifrado de extremo a extremo.
 - Debe ofrecer un plan gratuito o un periodo de prueba.
-- Debe ser compatible con la autenticación multifactor TOTP o FIDO2, o con los inicios de sesión con llave de acceso.
+- Must support TOTP or FIDO2 multifactor authentication, or passkey logins.
 - Debe ofrecer una interfaz web que admita funciones básicas de gestión de archivos.
 - Debe permitir exportar fácilmente todos los archivos/documentos.
 - Debe ser de código abierto.

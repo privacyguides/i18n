@@ -251,9 +251,9 @@ Por defecto, LibreTube bloquea todos los anuncios de YouTube. Además, LibreTube
 
 <div class="admonition recommendation annotate" markdown>
 
-![Newpipe logo](assets/img/frontends/newpipe.svg){ align=right }
+![NewPipe logo](assets/img/frontends/newpipe.svg){ align=right }
 
-**NewPipe** es una aplicación Android gratuita y de código abierto para [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com) y [PeerTube](https://joinpeertube.org) (1).
+**NewPipe** is a free and open-source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org) (1).
 
 Tu lista de suscripciones y tus listas de reproducción se guardan localmente en tu dispositivo Android.
 

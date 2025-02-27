@@ -9,7 +9,7 @@ cover: notebooks.webp
 
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-第三者による閲覧を防止しながら、メモや日記を保存できます。
+Keep track of your notes and journals without giving them to a third party.
 
 現在、Evernote、Google Keep、Microsoft OneNoteなどを使用している場合は、ここに掲載されたエンドツーエンド暗号化対応のアプリケーションに移行することをおすすめします。
 
@@ -82,9 +82,9 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 <div class="admonition recommendation" markdown>
 
-![Joplinのロゴ](assets/img/notebooks/joplin.svg){ align=right }
+![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
 
-**Joplin**は、ノートやタグを管理し大量のMarkdownノートを扱える、フリー、オープンソース、フル機能のノートおよびToDoアプリケーションです。 エンドツーエンド暗号化対応で、NextcloudやDropboxなどを通じて同期できます。 また、Evernoteやプレーンテキストノートを簡単にインポートできます。
+**Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle numerous markdown notes organized into notebooks and tags. エンドツーエンド暗号化対応で、NextcloudやDropboxなどを通じて同期できます。 また、Evernoteやプレーンテキストノートを簡単にインポートできます。
 
 [:octicons-home-16: Homepage](https://joplinapp.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="Privacy Policy" }
@@ -133,7 +133,7 @@ Joplin does not [support](https://github.com/laurent22/joplin/issues/289) passwo
 
 </div>
 
-Crypteeは100MBのストレージを無料で提供しています。さらに必要な場合は有料オプションを利用できます。 サインアップには電子メールやその他の個人情報は必要ありません。
+Cryptee offers 100 MB of storage for free, with paid options if you need more. サインアップには電子メールやその他の個人情報は必要ありません。
 
 ## ローカルノート
 

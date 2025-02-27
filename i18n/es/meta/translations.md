@@ -27,8 +27,8 @@ Para ejemplos como el anterior de los avisos, las comillas (por ejemplo, `" "`) 
 
 ## Alternativas de ancho completo y sintaxis de Markdown
 
-Los sistemas de escritura CJK tienden a utilizar variantes alternativas de "ancho completo" de símbolos comunes. Estos son caracteres diferentes y no pueden ser utilizados para la sintaxis de Markdown.
+Los sistemas de escritura CJK tienden a utilizar variantes alternativas de "ancho completo" de símbolos comunes. These are different characters and cannot be used for Markdown syntax.
 
-- Los enlaces deben usar paréntesis regulares como `(` (paréntesis izquierdo U+0028) y `)` (paréntesis derecho U+0029) y no ` (` (paréntesis izquierdo de ancho completo U+FF08) o `) ` (paréntesis derecho de ancho completo U+FF09)
+- Links must use regular parenthesis i.e. `(` (Left Parenthesis U+0028) and `)` (Right Parenthesis U+0029) and not `（` (Fullwidth Left Parenthesis U+FF08) or `）` (Fullwidth Right Parenthesis U+FF09)
 - El texto indentado debe utilizar `:` (dos puntos U+003A) y no `：` (dos puntos de ancho completo U+FF1A)
 - Las imágenes deben utilizar `!` (signo de exclamación U+0021) y no `! ` (signo de exclamación de ancho completoU+FF01)

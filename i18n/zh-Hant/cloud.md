@@ -28,7 +28,7 @@ Nextcloud [仍是](document-collaboration.md#nextcloud) 自我託管檔案管理
 
 ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
 
-**Proton Drive** 是一個加密雲端儲存提供商，由經營廣受歡迎的加密電子郵件 [Proton Mail](email.md#proton-mail) 的提供商推出。 The initial free storage is limited to 2GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5GB.
+**Proton Drive** 是一個加密雲端儲存提供商，由經營廣受歡迎的加密電子郵件 [Proton Mail](email.md#proton-mail) 的提供商推出。 The initial free storage is limited to 2 GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5 GB.
 
 [:octicons-home-16: 首頁](https://proton.me/drive){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/drive/privacy-policy){ .card-link title="隱私權政策" }
@@ -119,7 +119,7 @@ Peergos 主要是網頁應用程式，但您可以自行託管伺服器，將其
 
 Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November 2024 by Radically Open Security and all issues were fixed. They were previously [audited](https://cure53.de/pentest-report_peergos.pdf) by Cure53 in June 2019, and all found issues were subsequently fixed.
 
-Android 應用程式尚未推出，但已在 [開發中](https://discuss.privacyguides.net/t/peergos-private-storage-sharing-social-media-and-application-platform/11825/25) 。 目前的解決方法是改用移動平台 [PWA](https://peergos.net)。
+An Android app is not available, but it is [in the works](https://discuss.privacyguides.net/t/peergos-private-storage-sharing-social-media-and-application-platform/11825/25). 目前的解決方法是改用移動平台 [PWA](https://peergos.net)。
 
 ## 標準
 
@@ -129,7 +129,7 @@ Android 應用程式尚未推出，但已在 [開發中](https://discuss.privacy
 
 - 必須執行端對端加密。
 - 必須提供免費計劃或試用期以進行測試。
-- 必須支援 TOTP 或 FIDO2 多因素驗證，或 Passkey 登入。
+- Must support TOTP or FIDO2 multifactor authentication, or passkey logins.
 - 必須提供支援基本檔案管理功能的網頁介面。
 - 允許輕鬆匯出所有檔案/文件。
 

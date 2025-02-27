@@ -1,10 +1,10 @@
 ---
-title: "多因素认证"
+title: "Multifactor Authentication"
 icon: 'material/two-factor-authentication'
 description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
 ---
 
-**多因素认证** 是一种安全机制，除了输入用户名（或电子邮件）和密码外，还需要其他步骤。 最常见的方法可能是你需要从短信或应用程序中收到限时代码。
+**Multifactor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. 最常见的方法可能是你需要从短信或应用程序中收到限时代码。
 
 通常，如果黑客（或对手）能够找出您的密码，那么他们就能够访问密码所属的帐户。 有MFA的账户迫使黑客同时拥有密码（你 *知道*的东西）和你的设备（你 *拥有*的东西），比如你的手机。
 
@@ -26,7 +26,7 @@ MFA方法的安全性各不相同，但都是基于同样的前提：攻击者�
 
 ### 基于时间的一次性密码（TOTP）。
 
-TOTP是目前最常见的MFA形式之一。 当你设置TOTP时，一般要求你扫描一个 [二维码](https://en.wikipedia.org/wiki/QR_code) ，与你打算使用的服务建立一个"[共享密钥](https://en.wikipedia.org/wiki/Shared_secret)" 。 共享密钥在身份验证器应用程序的数据中得到保护，有时还会受到密码保护。
+TOTP是目前最常见的MFA形式之一。 当你设置TOTP时，一般要求你扫描一个 [二维码](https://en.wikipedia.org/wiki/QR_code) ，与你打算使用的服务建立一个"[共享密钥](https://en.wikipedia.org/wiki/Shared_secret)" 。 The shared secret is secured inside the authenticator app's data, and is sometimes protected by a password.
 
 然后，时限代码可以由共享密钥和当前时间派生。 由于代码只在很短的时间内有效，在无法获得共享密钥的情况下，对手无法生成新的代码。
 
@@ -82,7 +82,7 @@ This presentation discusses the history of password authentication, the pitfalls
 
 与任何MFA方法相比， FIDO2和WebAuthn都具有更加卓越的安全性和隐私性。
 
-通常对于web服务，使用的WebAuthn是 [W3C建议](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC))的一部分。 它使用公钥身份验证，比Yubico OTP和TOTP方法中使用的共享密文更安全，因为它包括身份验证期间的来源名称（通常是域名）。 提供认证是为了保护您免受网络钓鱼攻击，因为它可以帮助您确定您使用的是真实的服务，而不是伪造的副本。
+Typically, for web services it is used with WebAuthn which is a part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). 它使用公钥身份验证，比Yubico OTP和TOTP方法中使用的共享密文更安全，因为它包括身份验证期间的来源名称（通常是域名）。 提供认证是为了保护您免受网络钓鱼攻击，因为它可以帮助您确定您使用的是真实的服务，而不是伪造的副本。
 
 与Yubico OTP不同， WebAuthn不使用任何公共ID ，因此密钥 **不能** 在不同的网站之间被识别。 它也不使用任何第三方云服务器进行认证。 所有的通信都是在钥匙和你正在登录的网站之间完成的。 FIDO还有会在使用时递增的计数器，以防止会话复用和密钥克隆。
 
@@ -116,15 +116,15 @@ When using TOTP with an authenticator app, be sure to back up your recovery keys
 
 ## MFA适用的更多场合
 
-除了保护你的网站登录之外，多因素认证还可以用来保护你的本地登录、SSH密钥甚至是密码数据库。
+Beyond just securing your website logins, multifactor authentication can be used to secure your local logins, SSH keys or even password databases as well.
 
 ### mac系统
 
-macOS [原生支持](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) 使用智能卡（PIV）进行认证。 如果你有一张支持PIV接口的智能卡或硬件安全钥匙，如YubiKey，我们建议你按照你的智能卡/硬件安全供应商的文档，为你的macOS电脑设置第二要素认证。
+macOS [原生支持](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) 使用智能卡（PIV）进行认证。 If you have a smart card or a hardware security key that supports the PIV interface such as the YubiKey, we recommend that you follow your smart card or hardware security vendor's documentation and set up second factor authentication for your macOS computer.
 
 Yubico have a guide [Using Your YubiKey as a Smart Card in macOS](https://support.yubico.com/hc/articles/360016649059) which can help you set up your YubiKey on macOS.
 
-设置智能卡/安全密钥后，我们建议在终端中运行此命令：
+After your smart card/security key is set up, we recommend running this command in the Terminal:
 
 ```text
 sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLogin -bool YES
@@ -159,4 +159,4 @@ SSH MFA也可以使用TOTP进行设置。 DigitalOcean has provided a tutorial [
 
 ### KeePass (和KeePassXC)
 
-KeePass和KeePassXC数据库可以使用质询响应或HOTP作为第二因素身份验证进行保护。 Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.
+KeePass and KeePassXC databases can be secured using HOTP or Challenge-Response as a second-factor of authentication. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.

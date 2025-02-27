@@ -63,13 +63,13 @@ Het privacybeleid en de zakelijke praktijken van de aanbieders die je kiest, zij
 
 ## "Ingewikkeld is beter"
 
-We zien vaak dat mensen overdreven ingewikkelde dreigingsmodellen voor privacybedreigingen beschrijven. Vaak omvatten deze oplossingen problemen zoals veel verschillende e-mailaccounts of ingewikkelde opstellingen met veel bewegende delen en voorwaarden. De antwoorden zijn meestal antwoorden op "Wat is de beste manier om *X* te doen?"
+We zien vaak dat mensen overdreven ingewikkelde dreigingsmodellen voor privacybedreigingen beschrijven. Often, these solutions include problems like multiple email accounts or complicated setups with lots of moving parts and conditions. De antwoorden zijn meestal antwoorden op "Wat is de beste manier om *X* te doen?"
 
 Het vinden van de "beste" oplossing voor jezelf betekent niet noodzakelijk dat je op zoek bent naar een onfeilbare oplossing met tientallen voorwaarden - deze oplossingen zijn vaak moeilijk om realistisch mee te werken. Zoals we eerder hebben besproken, gaat veiligheid vaak ten koste van gemak. Hieronder geven we enkele tips:
 
 1. ==Acties moeten een bepaald doel dienen==, denk na over hoe je met zo weinig mogelijk acties kunt doen wat je wilt.
 2. ==Verwijder menselijke faalpunten:== We maken fouten, worden moe, en vergeten dingen. Om de veiligheid te behouden, moet je voorkomen dat je vertrouwt op handmatige acties en processen die je moet onthouden.
-3. ==Gebruik het juiste niveau van bescherming voor wat je van plan bent.== Wij zien vaak aanbevelingen van zogenaamde politie, en legerbestendige oplossingen. Deze vereisen vaak specialistische kennis en zijn over het algemeen niet wat de mensen willen. Het heeft geen zin een ingewikkeld dreigingsmodel voor anonimiteit op te stellen als je gemakkelijk kunt worden gedeanonimiseerd door een eenvoudige vergissing.
+3. ==Gebruik het juiste niveau van bescherming voor wat je van plan bent.== Wij zien vaak aanbevelingen van zogenaamde politie, en legerbestendige oplossingen. Deze vereisen vaak specialistische kennis en zijn over het algemeen niet wat de mensen willen. There's no point in building an intricate threat model for anonymity if you can be easily deanonymized by a simple oversight.
 
 Dus, hoe zou dit eruit zien?
 
@@ -94,4 +94,4 @@ Een van de duidelijkste dreigingsmodellen is een model waarbij mensen *weten wie
 
     Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
 
-[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added a obfuscated backdoor into `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed.
+[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added an obfuscated backdoor into `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed.

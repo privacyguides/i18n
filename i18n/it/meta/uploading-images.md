@@ -48,7 +48,7 @@ Nella scheda **Output SVG**, in **Opzioni documento**:
 - [ ] Disattiva **Rimuovi dichiarazione XML**
 - [x] Attiva **Rimuovi metadati**
 - [x] Attiva **Rimuovi commenti**
-- [x] Attiva **Incorpora immagini raster**
+- [x] Turn on **Embedded raster images**
 - [x] Attiva **Attiva anteprima**
 
 Nella scheda **Output SVG**, in **Formattazione**:

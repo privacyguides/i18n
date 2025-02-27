@@ -4,7 +4,7 @@ icon: 'material/eye-outline'
 description: 您的威脅模型雖說是個人的事，但它也是本站許多訪客關心的課題。
 ---
 
-廣義來講，我們將建議歸類為適用於大多數人的 [威脅](threat-modeling.md) 或目標。 您可能會在意各種可能性的組合，而選用的工具和服務則取決於您的目標何在。 您也可能有超出這些類別之外的特定威脅，這完全有可能！ 重要的是要了解您選擇使用的工具的好處和缺點，因為幾乎沒有一種工具可以保護您免受任何威脅。
+廣義來講，我們將建議歸類為適用於大多數人的 [威脅](threat-modeling.md) 或目標。 您可能會在意各種可能性的組合，而選用的工具和服務則取決於您的目標何在。 You may have specific threats outside these categories as well, which is perfectly fine! 重要的是要了解您選擇使用的工具的好處和缺點，因為幾乎沒有一種工具可以保護您免受任何威脅。
 
 <span class="pg-purple">:material-incognito: **匿名**</span>
 :
@@ -19,7 +19,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 <span class="pg-viridian">:material-package-variant-closed-remove: **供應鏈攻擊**</span>
 :
 
-通常是 <span class="pg-red">:material-target-account: 針對性攻擊的</span> 一種形式，其重點在於直接或透過第三方的依賴，在原本良好的軟體中導入弱點或漏洞。
+Typically, a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
 
 <span class="pg-orange">:material-bug-outline: **被動攻擊**</span>
 :
@@ -44,7 +44,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 <span class="pg-green">:material-account-search: **公開曝光**</span>
 :
 
-限制搜尋引擎或一般大眾在線上可取得的關於您的資訊。
+Limiting the information about you that is accessible online—to search engines or the public.
 
 <span class="pg-blue-gray">:material-close-outline: **審查**</span>
 :
@@ -76,7 +76,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 行動作業系統通常具有比桌面作業系統具備更好的應用程式沙盒：應用程式沒有根存取權限，且需要存取系統資源的權限。
 
-桌面操作系統通常在適當的沙盒化上落後。 ChromeOS 具備與 Android 相似的沙盒功能， macOS 具有完整的系統權限控制（開發人員可以選擇為應用程式加入沙盒）。 然而，這些作業系統確實會將識別資料傳回給各自的OEMs。 Linux 傾向於不對系統供應商提交資料，但它在漏洞和惡意應用程式的保護很差。 這可以通過專門的發行版來緩解，這些發行版大量使用虛擬器或容器，例如 [Qubes OS](../desktop.md#qubes-os)。
+桌面操作系統通常在適當的沙盒化上落後。 ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). 然而，這些作業系統確實會將識別資料傳回給各自的OEMs。 Linux 傾向於不對系統供應商提交資料，但它在漏洞和惡意應用程式的保護很差。 這可以通過專門的發行版來緩解，這些發行版大量使用虛擬器或容器，例如 [Qubes OS](../desktop.md#qubes-os)。
 
 </div>
 
@@ -143,7 +143,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 </div>
 
-即便使用 E2EE ，服務商仍然可以對**元數據**進行分析，這通常不受保護。 雖然服務提供商無法讀取您的訊息，但他們仍然可以觀察重要的事情，例如您正在與誰交談、傳送訊息的頻率以及使用活躍時段。 元數據的保護不多，如果它在您的 [威脅模型](threat-modeling.md) 中，就應該密切注意使用軟體的技術說明，看看元數據是否最小化或任何保護。
+即便使用 E2EE ，服務商仍然可以對**元數據**進行分析，這通常不受保護。 While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. 元數據的保護不多，如果它在您的 [威脅模型](threat-modeling.md) 中，就應該密切注意使用軟體的技術說明，看看元數據是否最小化或任何保護。
 
 ## 大規模監控計劃
 
@@ -156,7 +156,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 如想進一步了解監控方法及其在您的城市的實施方式，也可以查看[電子前鋒基金會 EFF](https://eff.org/)的[監控地圖集](https://atlasofsurveillance.org/)。
 
-若在法國，可以看看非營利組織 La Quadrature du Net 維護的 [Technolopolice 網站](https://technopolice.fr/villes/)。
+In France, you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
 
 </div>
 
@@ -189,7 +189,7 @@ description: 您的威脅模型雖說是個人的事，但它也是本站許多�
 
 對於許多人來說，私人公司的追蹤和監視是一個越來越令人擔憂的問題。 無處不在的廣告網路，例如 Google 和 Facebook 營運的廣告網路，跨越網路遠超過他們直接控制的網站，沿途跟蹤您的行為。 使用內容攔截工具來限制對伺服器的請求、閱讀了解所用服務的隱私政策，都有助於避開許多基本對手 (雖然這不能完全防止跟蹤)。[^4]
 
-此外，即使是 *AdTech* 或追蹤產業以外的公司，也可以與 [資料掮客](https://en.wikipedia.org/wiki/Information_broker) （如劍橋分析 Cambridge Analytica、益博睿 Experian 或 Datalogix ）或其他方共享您的資料。 您不能僅因為您使用的服務不屬於典型的 AdTech 或追蹤產業商業模式，而自行假設您的資料是安全的。 對抗企業資料收集最好的保護是盡可能加密或混淆您的數據，讓不同的供應商難以將資料相互關聯去建立您的個人檔案。
+Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. 您不能僅因為您使用的服務不屬於典型的 AdTech 或追蹤產業商業模式，而自行假設您的資料是安全的。 對抗企業資料收集最好的保護是盡可能加密或混淆您的數據，讓不同的供應商難以將資料相互關聯去建立您的個人檔案。
 
 ## 限制公共資訊
 

@@ -28,7 +28,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 如果以下任何工具表明可能有 Pegasus、Predator 或 KingsPawn 等間諜軟體危害，建議聯絡：
 
 - 人權捍衛者、記者或來自民間團體：[國際特赦組織安全實驗室](https://securitylab.amnesty.org/contact-us)
-- 企業或政府裝置：您所屬企業、部門或機構的相關資安人員
+- If a business or government device is compromised: the appropriate security liaison at your enterprise, department, or agency
 - 本地執法單位
 
 **除此之外，我們無法直接為您提供幫助。** 我們很樂意在我們的[社區](https://discuss.privacyguides.net)空間中討論您的具體情況或情況並檢查結果，但不太可能提供本頁所述之外的協助。
@@ -130,7 +130,7 @@ MVT 對掃描 iOS 裝置「最」有用。 Android 儲存的診斷資訊非常�
 
 </div>
 
-iMazing 會自動並以互動方式引導完成使用 [MVT](#mobile-verification-toolkit) 掃描裝置，尋找由各種威脅研究人員發布的可公開存取的入侵指標。 適用於 MVT 的所有資訊和警告也適用於此工具，因此建議熟悉上述部分中有關 MVT 的說明。
+iMazing 會自動並以互動方式引導完成使用 [MVT](#mobile-verification-toolkit) 掃描裝置，尋找由各種威脅研究人員發布的可公開存取的入侵指標。 All the information and warnings which apply to MVT apply to this tool as well, so we suggest you also familiarize yourself with the notes on MVT in the sections above.
 
 ## 裝置驗證
 

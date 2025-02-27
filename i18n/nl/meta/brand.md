@@ -12,7 +12,7 @@ De naam van de website is **Privacy Guides** en moet **niet** worden veranderd i
 - PG.org
 </div>
 
-De naam van de subreddit is **r/PrivacyGuides** of **the Privacy Guides Subreddit**.
+The name of the Subreddit is **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
 
 Aanvullende merkrichtlijnen zijn te vinden op [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
 

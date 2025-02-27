@@ -4,7 +4,7 @@ icon: material/dns
 description: O sistema de nomes de domínio, DNS, é a "lista telefónica da Internet", e ajuda o seu browser a encontrar o site que procura.
 ---
 
-O sistema de nomes de domínio [](https://en.wikipedia.org/wiki/Domain_Name_System) é a "lista telefónica da Internet". O DNS traduz os nomes de domínio em endereços IP, para que os navegadores e outros serviços possam carregar os recursos da Internet, através de uma rede descentralizada de servidores.
+The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is the 'phone book of the Internet'. O DNS traduz os nomes de domínio em endereços IP, para que os navegadores e outros serviços possam carregar os recursos da Internet, através de uma rede descentralizada de servidores.
 
 ## O que é o DNS?
 
@@ -24,7 +24,7 @@ Abaixo, discutimos e fornecemos um tutorial que prova o que um observador extern
     tshark -w /tmp/dns.pcap udp porto 53 e host 1.1.1.1 ou host 8.8.8.8
     ```
 
-2. Podemos depois utilizar o [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS, etc.) ou o [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) para enviar a pesquisa de DNS para ambos os servidores. Software como, por exemplo, os browsers fazem estas pesquisas automaticamente, a menos que estejam configurados para utilizar DNS encriptado.
+2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, macOS, etc.) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. Software como, por exemplo, os browsers fazem estas pesquisas automaticamente, a menos que estejam configurados para utilizar DNS encriptado.
 
     === "Linux, macOS"
 
@@ -39,7 +39,7 @@ Abaixo, discutimos e fornecemos um tutorial que prova o que um observador extern
         nslookup privacyguides.org 8.8.8.8
         ```
 
-3. Next, we want to [analyse](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
+3. Next, we want to [analyze](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
 
     ==== "Wireshark"
 
@@ -70,7 +70,7 @@ Encrypted DNS can refer to one of a number of protocols, the most common ones be
 
 ### DNSCrypt
 
-O [**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) foi um dos primeiros métodos de encriptação de pedidos DNS. O DNSCrypt funciona na porta 443 e utiliza os protocolos de transporte TCP ou UDP. O DNSCrypt nunca foi submetido à [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force), nem passou pelo processo [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments), pelo que não foi amplamente utilizado, exceto em algumas implementações [](https://dnscrypt.info/implementations). Por esse motivo, foi amplamente substituído pelo mais popular [DNS sobre HTTPS](#dns-over-https-doh).
+O [**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) foi um dos primeiros métodos de encriptação de pedidos DNS. O DNSCrypt funciona na porta 443 e utiliza os protocolos de transporte TCP ou UDP. DNSCrypt has never been submitted to the [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) nor has it gone through the [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments) process, so it has not been used widely outside a few [implementations](https://dnscrypt.info/implementations). Por esse motivo, foi amplamente substituído pelo mais popular [DNS sobre HTTPS](#dns-over-https-doh).
 
 ### DNS sobre TLS (DoT)
 
@@ -118,7 +118,7 @@ Neste exemplo, vamos registar o que acontece quando fazemos um pedido ao DoH:
 
 3. Depois de fazer o pedido, podemos parar a captura de pacotes com <kbd>CTRL</kbd> + <kbd>C</kbd>.
 
-4. Analise os resultados no Wireshark:
+4. Analyze the results in Wireshark:
 
     ```bash
     wireshark -r /tmp/dns_doh.pcap
@@ -136,13 +136,13 @@ Quando fazemos uma pesquisa DNS, geralmente é porque queremos aceder a um recur
 
 A forma mais simples de determinar a sua atividade de navegação é verificar os endereços IP a que os seus dispositivos acedem. Por exemplo, se o observador sabe que `privacyguides.org` está em `198.98.54.105`, e o seu dispositivo está a pedir dados a `198.98.54.105`, há uma boa hipótese de estar a visitar o Privacy Guides.
 
-Este método só é útil quando o endereço IP pertence a um servidor que aloja um número reduzido de sites. Também não é muito útil se o site estiver alojado numa plataforma partilhada (por exemplo, Github Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). Também não é muito útil se o servidor estiver hospedado atrás de um [proxy reverso](https://en.wikipedia.org/wiki/Reverse_proxy), o que é muito comum na Internet moderna.
+Este método só é útil quando o endereço IP pertence a um servidor que aloja um número reduzido de sites. It's also not very useful if the site is hosted on a shared platform (e.g. GitHub Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). Também não é muito útil se o servidor estiver hospedado atrás de um [proxy reverso](https://en.wikipedia.org/wiki/Reverse_proxy), o que é muito comum na Internet moderna.
 
 ### Indicação do nome do servidor (SNI)
 
-A indicação do nome do servidor é normalmente utilizada quando um endereço IP aloja uma grande quantidade de sites. Pode ser um serviço como o Cloudflare ou alguma outra proteção contra [ataques de negação de serviço (DoS)](https://en.wikipedia.org/wiki/Denial-of-service_attack).
+Server Name Indication is typically used when an IP address hosts many websites. Pode ser um serviço como o Cloudflare ou alguma outra proteção contra [ataques de negação de serviço (DoS)](https://en.wikipedia.org/wiki/Denial-of-service_attack).
 
-1. Comece a capturar novamente com o `tshark`. Adicionámos um filtro com o nosso endereço IP para que não capture muitos pacotes:
+1. Comece a capturar novamente com o `tshark`. We've added a filter with our IP address, so you don't capture many packets:
 
     ```bash
     tshark -w /tmp/pg.pcap porto 443 e host 198.98.54.105
@@ -293,7 +293,7 @@ graph TB
     ispDNS --> | Não | nothing(Não faça nada)
 ```
 
-O DNS encriptado com terceiros só deve ser utilizado para contornar redirecionamentos e o bloqueio básico do DNS [](https://en.wikipedia.org/wiki/DNS_blocking) quando tiver a certeza de que não haverá quaisquer consequências ou quando estiver interessado num fornecedor que efetue uma filtragem rudimentar.
+Encrypted DNS with a third party should only be used to get around redirects and basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences, or you're interested in a provider that does some rudimentary filtering.
 
 [Lista de servidores DNS recomendados](../dns.md ""){.md-button}
 

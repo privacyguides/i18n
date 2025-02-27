@@ -24,7 +24,7 @@ Todos nuestros [gestores recomendados de contraseñas](../passwords.md) incluyen
 
 Debes evitar cambiar frecuentemente las contraseñas que debes recordar (como la contraseña maestra de tu gestor de contraseñas), a menos que tengas alguna razón para creer que ha sido comprometida, porque cambiarla con mucha frecuencia te expone al riesgo de olvidarla.
 
-Cuando se trata de contraseñas que no tienes que recordar (como las contraseñas almacenadas en tu gestor de contraseñas), si tu [modelo de amenazas](threat-modeling.md) lo requiere, recomendamos revisar las cuentas importantes (especialmente las cuentas que no utilizan autenticación multifactor) y cambiar tu contraseña cada dos meses, en caso de que se hayan visto comprometidas en una filtración de datos que aún no se haya hecho pública. La mayoría de los gestores de contraseñas permiten fijar una fecha de caducidad para facilitar su gestión.
+When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multifactor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. La mayoría de los gestores de contraseñas permiten fijar una fecha de caducidad para facilitar su gestión.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Comprobación de las violaciones de datos</p>
@@ -54,13 +54,13 @@ Para generar una frase de contraseña diceware utilizando dados reales, sigue es
 <div class="admonition Note" markdown>
 <p class="admonition-title">Nota</p>
 
-Estas instrucciones asumen que estás usando [EFF large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) para generar la frase de contraseña, que requiere cinco tiradas de dados por palabra. Otras listas de palabras pueden requerir más o menos tiradas por palabra, y pueden necesitar una cantidad diferente de palabras para alcanzar la misma entropía.
+These instructions assume that you are using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other word lists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
 
 </div>
 
 1. Tira un dado de seis caras cinco veces y anota el número después de cada tirada.
 
-2. Por ejemplo, digamos que sacas `2-5-2-6-6`. Busca en la [EFF large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) la palabra que corresponde a `25266`.
+2. Por ejemplo, digamos que sacas `2-5-2-6-6`. Look through the [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
 
 3. Encontrarás la palabra `encriptar`. Escribe esa palabra.
 
@@ -75,25 +75,25 @@ Estas instrucciones asumen que estás usando [EFF large wordlist](https://eff.or
 
 Si no tienes acceso a dados reales o prefieres no utilizarlos, puedes utilizar el generador de contraseñas integrado en tu gestor de contraseñas, ya que la mayoría de ellos tienen la opción de generar frases de contraseña diceware además de contraseñas normales.
 
-Te recomendamos que utilices la [EFF large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) para generar tus frases de contraseña diceware, ya que ofrece exactamente la misma seguridad que la lista original, a la vez que contiene palabras más fáciles de memorizar. También hay [otras listas de palabras en diferentes idiomas](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), si no quieres que tu frase de contraseña esté en inglés.
+We recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
 
 <details class="note" markdown>
 <summary>Explicación de la entropía y la fuerza de las frases de contraseña diceware</summary>
 
-Para demostrar lo fuertes que son las frases de contraseña diceware, utilizaremos la frase de contraseña de siete palabras antes mencionada (`viewable fastness reluctant squishy seventeen shown pencil`) y [EFF large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) como ejemplo.
+To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
 
 Una métrica para determinar la fuerza de una frase de contraseña diceware es cuánta entropía tiene. La entropía por palabra en una frase de contraseña diceware se calcula como <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mtext>PalabrasEnLista</mtext> <mo form="postfix" stretchy="false">)</mo> </mrow> </math> y la entropía global de la frase de contraseña se calcula como: <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mtext>PalabrasEnLista</mtext> <mtext>PalabrasEnFrase</mtext> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>
 
 Por tanto, cada palabra de la lista mencionada genera ~12,9 bits de entropía (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mn>7776</mn> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>), y una frase de contraseña de siete palabras derivada de ella tiene ~90,47 bits de entropía (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mn>7776</mn> <mn>7</mn> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>).
 
-La [EFF large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contiene 7776 palabras únicas. Para calcular la cantidad de posibles frases de contraseña, todo lo que tenemos que hacer es <math> <msup> <mtext>PalabrasEnLista</mtext> <mtext>PalabrasEnFrase</mtext> </msup> </math>o en nuestro caso, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
+The [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. Para calcular la cantidad de posibles frases de contraseña, todo lo que tenemos que hacer es <math> <msup> <mtext>PalabrasEnLista</mtext> <mtext>PalabrasEnFrase</mtext> </msup> </math>o en nuestro caso, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
 
-Pongamos todo esto en perspectiva: Una frase de siete palabras utilizando la [EFF large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) es una de las ~1.719.070.799.748.422.500.000.000.000 frases posibles.
+Let's put all of this in perspective: A seven word passphrase using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
 
 Por término medio, se necesita probar el 50% de todas las combinaciones posibles para adivinar su frase. Teniendo esto en cuenta, incluso si tu adversario es capaz de realizar ~1.000.000.000.000 de intentos por segundo, aún tardaría ~27.255.689 años en adivinar tu frase de contraseña. Esto es así incluso si las siguientes cosas son ciertas:
 
 - Tu adversario sabe que has utilizado el método diceware.
-- Tu adversario conoce la lista de palabras específica que utilizaste.
+- Your adversary knows the specific word list that you used.
 - Tu adversario sabe cuántas palabras contiene tu frase de contraseña.
 
 </details>
@@ -113,7 +113,7 @@ Hay muchas buenas opciones para elegir, tanto basadas en la nube como locales. E
 <div class="admonition warning" markdown>
 <p class="admonition-title">No coloques tus contraseñas y tokens TOTP en el mismo gestor de contraseñas</p>
 
-Cuando utilices [códigos TOTP como autenticación multifactor](multi-factor-authentication.md#time-based-one-time-password-totp), la mejor práctica de seguridad es mantener tus códigos TOTP en una [app separada](../multi-factor-authentication.md).
+When using [TOTP codes as multifactor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
 
 Almacenar tus tokens TOTP en el mismo lugar que tus contraseñas, aunque cómodo, reduce las cuentas a un único factor en caso de que un adversario acceda a tu gestor de contraseñas.
 

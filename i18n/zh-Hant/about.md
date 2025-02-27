@@ -24,7 +24,7 @@ Privacy Guides 是一個具有社會動機的網站，提供資訊以保護您�
 [:octicons-home-16:](https://www.privacyguides.org){ .card-link title=首頁 }
 [:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="原始碼" }
 
-Privacy Guides 是由世界各地的志工和工作人員建立的。 我們對於建議和資源做的所有變更，都至少經過兩位 [可信](https://discuss.privacyguides.net/u?group=team\&order=solutions\&period=all) 成員的審核，而且我們會努力工作，以確保盡快更新我們的內容，以適應不斷變化的網路安全威脅環境。
+Privacy Guides 是由世界各地的志工和工作人員建立的。 All changes to our recommendations and resources are reviewed by at least two [trusted](https://discuss.privacyguides.net/u?group=team\&order=solutions\&period=all) individuals, and we work diligently to ensure our content is updated as quickly as possible to adapt to the ever-changing cybersecurity threat landscape.
 
 除了我們的核心團隊之外，還有 [許多人](about/contributors.md) 也對專案做出了貢獻。 您也可以！ 我們在 GitHub 上開放原始碼，並在 [Crowdin](https://crowdin.com/project/privacyguides) 上接受翻譯建議。
 

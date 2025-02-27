@@ -12,7 +12,7 @@ Nama situs web adalah **Privacy Guides** dan **tidak boleh** diubah menjadi:
 - PG.org
 </div>
 
-Nama subreddit adalah **r/PrivacyGuides** atau **Privacy Guides Subreddit**.
+The name of the Subreddit is **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
 
 Panduan merek tambahan dapat ditemukan di [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
 

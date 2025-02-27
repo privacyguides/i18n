@@ -5,7 +5,7 @@ icon: 'material/account-plus'
 description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
 ---
 
-사람들은 별다른 생각 없이 서비스에 가입할 때가 많습니다. 남들이 이야기하는 새로 나온 드라마를 상영하는 스트리밍 서비스에 가입하기도 하고, 자주 가는 음식 프랜차이즈에서 할인 혜택을 받으려고 가입하기도 합니다. 어떤 경우든, 현재 및 향후 여러분의 데이터에 미치는 영향을 고려해야 합니다.
+사람들은 별다른 생각 없이 서비스에 가입할 때가 많습니다. Maybe it's a streaming service to watch that new show everyone's talking about, or an account that gives you a discount for your favorite fast food place. 어떤 경우든, 현재 및 향후 여러분의 데이터에 미치는 영향을 고려해야 합니다.
 
 새로 사용하는 모든 서비스에는 위험성이 뒤따릅니다. 어딘가에 정보를 제공할 때에는 데이터 유출, 제3자에게 고객 정보 공개, 불량 직원의 데이터 접근 등 다양한 가능성을 고려해야 합니다. 그러니 믿을만한, 즉 가장 성숙하고 실전에서 검증된 서비스 이외에는 여러분의 소중한 데이터를 저장하지 않을 것을 권장드립니다. 믿을 만한 서비스는 일반적으로 E2EE를 제공하고 암호화 감사를 거친 서비스를 의미합니다. 보안 감사는 미숙한 개발자에 의해 생겼을지도 모르는 확연한 보안 문제가 없게 제품이 설계되었음을 보장합니다.
 
@@ -13,11 +13,11 @@ description: Creating accounts online is practically an internet necessity, take
 
 ## 서비스 이용 약관 & 개인정보 보호 정책(프라이버시 정책)
 
-'이용 약관'은 여러분이 어떤 서비스를 이용할 때 동의해야 하는 규칙입니다. 대규모 서비스에서는 이용 약관 규칙을 자동화된 시스템과 운용하는 경우가 많습니다. 그리고 자동화 시스템에서는 간혹 실수가 발생하기도 합니다. 예를 들어, 일부 서비스에서는 VPN/VoIP 번호를 사용한다는 이유로 계정이 차단되거나 잠길 수 있습니다. 이런 제한 조치에 대한 이의 제기는 어려운 경우가 많고 자동화된 과정을 거쳐야 하므로, 항상 성공적이진 않습니다. 이는 Privacy Guides에서 Gmail 이메일 서비스 사용을 권장드리지 않는 이유 중 하나이기도 합니다. 이메일은 여러분이 가입한 다른 서비스에 접근하기 위한 매우 중요한 역할을 맡고 있습니다.
+'이용 약관'은 여러분이 어떤 서비스를 이용할 때 동의해야 하는 규칙입니다. 대규모 서비스에서는 이용 약관 규칙을 자동화된 시스템과 운용하는 경우가 많습니다. 그리고 자동화 시스템에서는 간혹 실수가 발생하기도 합니다. For example, you may be banned or locked out of your account on some services for using a VPN or VoIP number. 이런 제한 조치에 대한 이의 제기는 어려운 경우가 많고 자동화된 과정을 거쳐야 하므로, 항상 성공적이진 않습니다. 이는 Privacy Guides에서 Gmail 이메일 서비스 사용을 권장드리지 않는 이유 중 하나이기도 합니다. 이메일은 여러분이 가입한 다른 서비스에 접근하기 위한 매우 중요한 역할을 맡고 있습니다.
 
-개인정보 보호 정책은 서비스에서 여러분의 데이터를 어떻게 이용할지 명시한 것으로, 여러분은 자신의 데이터가 어떻게 쓰일지 이해하기 위해 읽어보는 것이 좋습니다. 회사/조직은 정책 내 모든 내용을 따르도록 법적으로 강제되지는 않을 수 있습니다(관할권에 따라 달라집니다). 제공 업체가 수집 가능한 데이터의 범위와 현지 법률을 어느 정도는 파악해 두는 것이 좋습니다.
+The Privacy Policy is how the service says they will use your data, and it is worth reading so that you understand how your data will be used. 회사/조직은 정책 내 모든 내용을 따르도록 법적으로 강제되지는 않을 수 있습니다(관할권에 따라 달라집니다). 제공 업체가 수집 가능한 데이터의 범위와 현지 법률을 어느 정도는 파악해 두는 것이 좋습니다.
 
-살펴봐야 할 주요 용어는 '데이터 수집(Data Collection)', '데이터 분석(Data Analysis)', '쿠키(Cookies)', '광고(Ads)', '제3자/타사(3rd-Party)' 등이 있습니다. 데이터 수집/공유를 거부할 수 있는 경우도 있지만, 가장 좋은 방법은 처음부터 프라이버시를 존중하는 서비스를 선택하는 것입니다.
+살펴봐야 할 주요 용어는 '데이터 수집(Data Collection)', '데이터 분석(Data Analysis)', '쿠키(Cookies)', '광고(Ads)', '제3자/타사(3rd-Party)' 등이 있습니다. Sometimes you will be able to opt out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
 
 또한, 여러분은 해당 서비스 회사/조직이 개인정보 처리 방침을 올바르게 준수할 것이라고 믿고 있을 뿐임을 명심해야 합니다.
 
@@ -42,7 +42,7 @@ description: Creating accounts online is practically an internet necessity, take
 
 #### 이메일 별칭
 
-실제 이메일 주소를 서비스에 노출하지 않고자 하는 경우 이메일 별칭을 사용할 수 있습니다. (이메일 별칭 관련 자세한 내용은 이메일 서비스 권장 목록 페이지를 참고하세요.) 이메일 별칭 서비스를 사용하면 주요 이메일 주소로 모든 이메일이 전달되는 새로운 이메일 주소를 만들 수 있습니다. 서비스 간 추적을 방지하고, 가입 과정에서 따라온 마케팅 이메일을 관리하는 데에 유용합니다. 어떤 별칭으로 보내졌는지에 따라 자동으로 분류되기 때문입니다.
+실제 이메일 주소를 서비스에 노출하지 않고자 하는 경우 이메일 별칭을 사용할 수 있습니다. (이메일 별칭 관련 자세한 내용은 이메일 서비스 권장 목록 페이지를 참고하세요.) 이메일 별칭 서비스를 사용하면 주요 이메일 주소로 모든 이메일이 전달되는 새로운 이메일 주소를 만들 수 있습니다. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. 어떤 별칭으로 보내졌는지에 따라 자동으로 분류되기 때문입니다.
 
 서비스가 해킹당할 경우, 가입한 이메일 주소로 피싱/스팸 메일이 올 수 있습니다. 서비스마다 고유한 별칭을 사용하면 어떤 서비스가 해킹당했는지 식별 가능합니다.
 
@@ -76,7 +76,7 @@ Malicious applications, particularly on mobile devices where the application has
 
 전화번호 입력이 필수적인 서비스를 가입하는 것은 피하는 것이 좋습니다. A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
 
-가능하다면, 실제 전화번호를 제공하지 않는 것이 좋습니다. VoIP 번호를 사용할 수 있는 일부 서비스도 있지만, 사기 탐지 시스템에 의해 계정이 잠기는 경우가 많기 때문에 중요한 계정에 VoIP 번호를 사용하는 것은 권장드리지 않습니다.
+가능하다면, 실제 전화번호를 제공하지 않는 것이 좋습니다. Some services will allow the use of VoIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
 
 대부분의 경우, 문자나 전화를 실제로 받을 수 있는 번호를 제공해야 합니다. 대표적으로 해외 직구 시에는 세관에서 문제가 발생할 경우를 대비해야 합니다. 서비스에서는 전화번호가 인증 수단의 역할을 하는 것이 일반적이니, 교묘하게 가짜 번호를 입력했다가 중요 계정이 차단되는 일이 없도록 주의하세요!
 

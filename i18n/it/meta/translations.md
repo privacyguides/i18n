@@ -27,8 +27,8 @@ Per gli esempi come gli ammonimenti precedenti, le virgolette, es.: `" "` devono
 
 ## Alternative a larghezza intera e sintassi di Markdown
 
-Sistemi di scrittura CJK tendono a utilizzare varianti alternative "a larghezza intera" di simboli comuni. Si tratta di caratteri differenti e non utilizzabili per la sintassi di Markdown.
+Sistemi di scrittura CJK tendono a utilizzare varianti alternative "a larghezza intera" di simboli comuni. These are different characters and cannot be used for Markdown syntax.
 
-- I link devono utilizzare le parentesi regolari, cioè `(` (Parentesi Sinistra U+0028) e `)` (Parentesi Destra U+0029) e non `（` (Parentesi Sinistra a Larghezza Intera U+FF08) o `）` (Parentesi Destra a Larghezza Intera U+FF09)
+- Links must use regular parenthesis i.e. `(` (Left Parenthesis U+0028) and `)` (Right Parenthesis U+0029) and not `（` (Fullwidth Left Parenthesis U+FF08) or `）` (Fullwidth Right Parenthesis U+FF09)
 - Il testo tra virgolette rientrato deve utilizzare `:` (Due punti U+003A) e non `：` (Due Punti a Larghezza Intera U+FF1A)
 - Le immagini devono utilizzare `!` (Punto Esclamativo U+0021) e non `！` (Punto Esclamativo a Larghezza Intera U+FF01)

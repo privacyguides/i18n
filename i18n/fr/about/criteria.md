@@ -24,7 +24,7 @@ Nous avons ces exigences à l'égard des développeurs qui souhaitent soumettre 
 
 - Vous devez indiquer votre affiliation, c'est-à-dire votre position au sein du projet soumis.
 
-- Must have a security whitepaper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
+- Must have a security white paper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
     - Regarding third party audit status, we want to know if you have undergone one, or have requested one. Si possible, veuillez mentionner qui mènera l'audit.
 
 - Vous devez expliquer ce que le projet apporte en matière de respect de la vie privée.

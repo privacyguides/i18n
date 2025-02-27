@@ -29,13 +29,13 @@ Wenn du eine gemeinsam genutzte Domain eines Anbieters verwendest, welcher WKD n
 
 ### Welche E-Mail-Clients unterstützen E2EE?
 
-E-Mail-Anbieter, die dir die Verwendung von Standard-Zugriffsprotokollen wie IMPA und SMTP ermöglichen, können mit jedem der [von uns empfohlenen E-Mail-Clients](../email-clients.md) verwendet werden. Abhängig von der Authentifizierungsmethode kann dies zu einer Verringerung der Sicherheit führen, wenn entweder der Anbieter oder der E-Mail-Client OATH oder eine Bridge-Anwendung nicht unterstützt, da eine [Multi-Faktor-Authentifizierung](multi-factor-authentication.md) mit einer reinen Passwort-Authentifizierung nicht möglich ist.
+E-Mail-Anbieter, die dir die Verwendung von Standard-Zugriffsprotokollen wie IMPA und SMTP ermöglichen, können mit jedem der [von uns empfohlenen E-Mail-Clients](../email-clients.md) verwendet werden. Depending on the authentication method, this may lead to the decrease security if either the provider or the email client does not support OATH or a bridge application as [multifactor authentication](multi-factor-authentication.md) is not possible with plain password authentication.
 
 ### Wie schütze ich meine privaten Schlüssel?
 
-Eine Smartcard (wie z. B. ein [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) oder [Nitrokey](../security-keys.md#nitrokey)) funktioniert, indem sie eine verschlüsselte E-Mail-Nachricht von einem Gerät (Telefon, Tablet, Computer usw.) empfängt, auf dem ein E-Mail-/Webmail-Client läuft. Die Nachricht wird dann von der Smartcard entschlüsselt und der entschlüsselte Inhalt an das Gerät zurückgeschickt.
+A smart card (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. The message is then decrypted by the smart card and the decrypted content is sent back to the device.
 
-Es ist vorteilhaft, wenn die Entschlüsselung auf der Smartcard erfolgt, um zu vermeiden, dass dein privater Schlüssel möglicherweise einem kompromittierten Gerät preisgegeben wird.
+It is advantageous for the decryption to occur on the smart card to avoid possibly exposing your private key to a compromised device.
 
 ## Übersicht über E-Mail-Metadaten
 
@@ -49,4 +49,4 @@ Die E-Mail-Metadaten sind mit [Opportunistic TLS](https://de.wikipedia.org/wiki/
 
 ### Warum können Metadaten nicht E2EE werden?
 
-E-Mail-Metadaten sind entscheidend für die grundlegenden Funktionen von E-Mails (woher sie kommen und wohin sie gehen sollen). E2EE war ursprünglich nicht in den E-Mail-Protokollen enthalten, sondern erfordert zusätzliche Software wie OpenPGP. Da OpenPGP-Nachrichten mit herkömmlichen E-Mail-Anbietern zusammenarbeiten müssen, kann es keine E-Mail-Metadaten verschlüsseln, sondern nur den eigentlichen Nachrichtentext. Das bedeutet, dass selbst bei Verwendung von OpenPGP Außenstehende viele Informationen über deine Nachrichten sehen können, z. B. an wen du eine E-Mail sendest, die Betreffzeilen, wann du sie sendest usw.
+E-Mail-Metadaten sind entscheidend für die grundlegenden Funktionen von E-Mails (woher sie kommen und wohin sie gehen sollen). E2EE war ursprünglich nicht in den E-Mail-Protokollen enthalten, sondern erfordert zusätzliche Software wie OpenPGP. Da OpenPGP-Nachrichten mit herkömmlichen E-Mail-Anbietern zusammenarbeiten müssen, kann es keine E-Mail-Metadaten verschlüsseln, sondern nur den eigentlichen Nachrichtentext. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, the subject lines, when you're emailing, etc.

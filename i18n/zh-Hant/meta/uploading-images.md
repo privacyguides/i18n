@@ -48,7 +48,7 @@ optipng -o7 file.png
 - [ ] 關閉 **移除 XML 宣告**
 - [x] 打開 **移除元數據**
 - [x] 開啟 **刪除評論**
-- [x] 打開 **嵌入式光柵映像**
+- [x] Turn on **Embedded raster images**
 - [x] 打開 **啓用 viewboxing **
 
 在 **Pretty-printing**下的 **SVG 輸出** 標籤：

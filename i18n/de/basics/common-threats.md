@@ -4,7 +4,7 @@ icon: 'material/eye-outline'
 description: Deine persönliche Bedrohungsanalyse kannst nur du selber durchführen. Vielen Besuchern dieser Webseite sind aber folgende Dinge wichtig.
 ---
 
-Wir ordnen unsere Empfehlungen nach [Bedrohungen](threat-modeling.md) beziehungsweise Zielen, die für die meisten Menschen gelten. ==Dich können keine, eine, einige oder alle dieser Themen betreffen==, und du solltest die von dir eingesetzten Werkzeuge und Dienste von deinen Zielen abhängig machen. Du kannst auch spezifische Bedrohungen außerhalb dieser Kategorien haben, das ist völlig in Ordnung! Wichtig ist, dass du die Vorteile und Schwächen der von dir gewählten Werkzeuge kennst, denn praktisch keines davon schützt dich vor jeder Bedrohung.
+Wir ordnen unsere Empfehlungen nach [Bedrohungen](threat-modeling.md) beziehungsweise Zielen, die für die meisten Menschen gelten. ==Dich können keine, eine, einige oder alle dieser Themen betreffen==, und du solltest die von dir eingesetzten Werkzeuge und Dienste von deinen Zielen abhängig machen. You may have specific threats outside these categories as well, which is perfectly fine! Wichtig ist, dass du die Vorteile und Schwächen der von dir gewählten Werkzeuge kennst, denn praktisch keines davon schützt dich vor jeder Bedrohung.
 
 <span class="pg-purple">:material-incognito: **Anonymität**</span>
 :
@@ -19,7 +19,7 @@ Schutz vor Hackern oder anderen böswilligen Akteuren, die versuchen, sich Zugan
 <span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
 :
 
-Typically a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+Typically, a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
 
 <span class="pg-orange">:material-bug-outline: **Passive Angriffe**</span>
 :
@@ -44,7 +44,7 @@ Schutz vor großen Werbenetzwerken wie Google und Facebook sowie vor einer Vielz
 <span class="pg-green">:material-account-search: **Public Exposure**</span>
 :
 
-Begrenzung der Informationen über dich online—für Suchmaschinen oder die allgemeine Öffentlichkeit.
+Limiting the information about you that is accessible online—to search engines or the public.
 
 <span class="pg-blue-gray">:material-close-outline: **Zensur**</span>
 :
@@ -76,7 +76,7 @@ Um den Schaden, den eine bösartige Software anrichten *könnte*, zu minimieren,
 
 Mobile Betriebssysteme verfügen im Allgemeinen über eine bessere Sandbox für Anwendungen als Desktop-Betriebssysteme: Apps können keinen Root-Zugriff erhalten und benötigen eine Genehmigung für den Zugriff auf Systemressourcen.
 
-Desktop-Betriebssysteme hinken im Allgemeinen bei ordnungsgemäßen Sandboxing-Technik hinterher. ChromeOS verfügt über ähnliche Sandboxing-Funktionen wie Android, und macOS bietet eine vollständige Kontrolle der Systemberechtigungen (und Entwickler können sich für Sandboxing von Anwendungen entscheiden). Allerdings übermitteln diese Betriebssysteme identifizierende Informationen an ihre jeweiligen OEMs. Linux tendiert dazu, keine Informationen an Systemanbieter weiterzugeben, bietet aber nur einen geringen Schutz gegen Exploits und bösartige Anwendungen. Dies kann mit spezialisierten Distributionen, die in erheblichem Umfang virtuelle Maschinen oder Container verwenden, wie [Qubes OS](../desktop.md#qubes-os), etwas abgemildert werden.
+Desktop-Betriebssysteme hinken im Allgemeinen bei ordnungsgemäßen Sandboxing-Technik hinterher. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). Allerdings übermitteln diese Betriebssysteme identifizierende Informationen an ihre jeweiligen OEMs. Linux tendiert dazu, keine Informationen an Systemanbieter weiterzugeben, bietet aber nur einen geringen Schutz gegen Exploits und bösartige Anwendungen. Dies kann mit spezialisierten Distributionen, die in erheblichem Umfang virtuelle Maschinen oder Container verwenden, wie [Qubes OS](../desktop.md#qubes-os), etwas abgemildert werden.
 
 </div>
 
@@ -143,7 +143,7 @@ Daher solltest du, wann immer möglich, native Anwendungen anstelle von Webclien
 
 </div>
 
-Selbst mit E2EE können Dienstanbieter immer noch Profile von dir auf der Grundlage von **Metadaten** erstellen, die normalerweise nicht geschützt sind. Der Dienstanbieter kann deine Nachrichten zwar nicht lesen, aber er kann dennoch wichtige Dinge beobachten, z. B. mit wem du sprichst, wie oft du einer Person Nachrichten schickst und wann du normalerweise aktiv bist. Der Schutz von Metadaten ist eher unüblich, und wenn es in deinem [Bedrohungsmodell](threat-modeling.md) vorkommt, solltest du die technische Dokumentation der Software, die du verwendest, genau prüfen, um zu sehen, ob es eine Minimierung oder einen Schutz von Metadaten gibt.
+Selbst mit E2EE können Dienstanbieter immer noch Profile von dir auf der Grundlage von **Metadaten** erstellen, die normalerweise nicht geschützt sind. While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. Der Schutz von Metadaten ist eher unüblich, und wenn es in deinem [Bedrohungsmodell](threat-modeling.md) vorkommt, solltest du die technische Dokumentation der Software, die du verwendest, genau prüfen, um zu sehen, ob es eine Minimierung oder einen Schutz von Metadaten gibt.
 
 ## Massenüberwachungsprogramme
 
@@ -156,7 +156,7 @@ Unter Massenüberwachung versteht man die aufwändige Überwachung des "Verhalte
 
 If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
 
-In Frankreich kannst du einen Blick auf die [Technopolice Website](https://technopolice.fr/villes) werfen, die von dem gemeinnützigen Verein La Quadrature du Net betrieben wird.
+In France, you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
 
 </div>
 
@@ -189,7 +189,7 @@ Wenn du über Massenüberwachungsprogramme besorgt bist, kannst du Strategien an
 
 Für viele Menschen ist die Verfolgung und Überwachung durch private Unternehmen eine wachsende Sorge. Weit verbreitete Werbenetzwerke, wie die von Google und Facebook betriebenen, umspannen das Internet weit über die von ihnen kontrollierten Websites hinaus und verfolgen dabei deine Handlungen. Der Einsatz von Tools wie Content-Blockern zur Begrenzung der Netzwerkanfragen an ihre Server und das Lesen der Datenschutzrichtlinien der von dir genutzten Dienste kann dir helfen, viele einfache Angriffe zu vermeiden (auch wenn dies das Tracking nicht vollständig verhindern kann).[^4]
 
-Darüber hinaus können auch Unternehmen außerhalb der *AdTech-* oder Tracking-Branche deine Informationen an [Datenmakler](https://en.wikipedia.org/wiki/Information_broker) (wie Cambridge Analytica, Experian oder Datalogix) oder andere Parteien weitergeben. Du kannst nicht automatisch annehmen, dass deine Daten sicher sind, nur weil der Dienst, den du verwendest, nicht zum typischen AdTech- oder Tracking-Geschäftsmodell gehört. Der stärkste Schutz vor der Datensammlung durch Unternehmen ist es, deine Daten zu verschlüsseln oder zu verschleiern, wann immer möglich, um es verschiedenen Anbietern schwer zu machen, Daten miteinander zu korrelieren und ein Profil über dich zu erstellen.
+Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. Du kannst nicht automatisch annehmen, dass deine Daten sicher sind, nur weil der Dienst, den du verwendest, nicht zum typischen AdTech- oder Tracking-Geschäftsmodell gehört. Der stärkste Schutz vor der Datensammlung durch Unternehmen ist es, deine Daten zu verschlüsseln oder zu verschleiern, wann immer möglich, um es verschiedenen Anbietern schwer zu machen, Daten miteinander zu korrelieren und ein Profil über dich zu erstellen.
 
 ## Einschränkung der öffentlichen Information
 

@@ -27,8 +27,8 @@ Bei Beispielen wie den obigen Admonitions müssen Anführungszeichen, z. B.: `" 
 
 ## Alternativen in voller Breite und Markdown-Syntax
 
-CJK Schreibsysteme neigen dazu, alternative "Vollbreite"-Varianten von gängigen Symbolen zu verwenden. Dies sind unterschiedliche Zeichen und können nicht für die Markdown-Syntax verwendet werden.
+CJK Schreibsysteme neigen dazu, alternative "Vollbreite"-Varianten von gängigen Symbolen zu verwenden. These are different characters and cannot be used for Markdown syntax.
 
-- Links müssen reguläre Klammern verwenden, d. h. `(` (Linke Parenthese U+0028) und `)` (Rechte Parenthese U+0029) und nicht `（` (Linke Parenthese in voller Breite U+FF08) oder `）` (volle Breite der rechten Klammer U+FF09)
+- Links must use regular parenthesis i.e. `(` (Left Parenthesis U+0028) and `)` (Right Parenthesis U+0029) and not `（` (Fullwidth Left Parenthesis U+FF08) or `）` (Fullwidth Right Parenthesis U+FF09)
 - Eingerückter Text in Anführungszeichen muss `:` (Doppelpunkt U+003A) und nicht `：` (Doppelpunkt mit voller Breite U+FF1A) verwenden
 - Bilder müssen `!` (Ausrufezeichen U+0021) und nicht `！` (Ausrufezeichen in voller Breite U+FF01) verwenden

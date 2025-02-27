@@ -44,7 +44,7 @@ Ketika dihosting sendiri, anggota server federasi dapat menemukan dan berkomunik
 - Memungkinkan kontrol yang lebih besar atas data Anda saat menjalankan server Anda sendiri.
 - Memungkinkan Anda untuk memilih kepada siapa Anda akan memercayakan data Anda dengan memilih di antara beberapa server "publik".
 - Sering kali memungkinkan klien pihak ketiga yang dapat memberikan pengalaman yang lebih asli, disesuaikan, atau dapat diakses.
-- Perangkat lunak server dapat diverifikasi bahwa itu cocok dengan kode sumber publik, dengan asumsi Anda memiliki akses ke server atau Anda mempercayai orang yang memilikinya (misalnya, anggota keluarga).
+- Server software can be verified that it matches public source code, assuming you have access to the server, or you trust the person who does (e.g., a family member).
 
 **Kekurangan:**
 
@@ -60,7 +60,7 @@ Ketika dihosting sendiri, anggota server federasi dapat menemukan dan berkomunik
 
 Perpesanan P2P terhubung ke [jaringan node yang terdistribusi](https://en.wikipedia.org/wiki/Distributed_networking) untuk menyampaikan pesan ke penerima tanpa server pihak ketiga.
 
-Klien (peer) biasanya menemukan satu sama lain melalui penggunaan jaringan [komputasi terdistribusi](https://id.wikipedia.org/wiki/Komputasi_terdistribusi). Contohnya antara lain [Tabel Hash Terdistribusi](https://id.wikipedia.org/wiki/Tabel_Hash_Terdistribusi) (DHT), yang digunakan oleh [torrent](https://id.wikipedia.org/wiki/BitTorrent) dan [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) sebagai contoh. Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
+Klien (peer) biasanya menemukan satu sama lain melalui penggunaan jaringan [komputasi terdistribusi](https://id.wikipedia.org/wiki/Komputasi_terdistribusi). Contohnya antara lain [Tabel Hash Terdistribusi](https://id.wikipedia.org/wiki/Tabel_Hash_Terdistribusi) (DHT), yang digunakan oleh [torrent](https://id.wikipedia.org/wiki/BitTorrent) dan [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) sebagai contoh. Another approach is proximity based networks, where a connection is established over Wi-Fi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
 
 Setelah peer menemukan rute ke kontaknya melalui salah satu metode ini, koneksi langsung di antara mereka dibuat. Meskipun pesan biasanya dienkripsi, seorang pengamat masih dapat menyimpulkan lokasi dan identitas pengirim dan penerima.
 
@@ -85,9 +85,9 @@ Jaringan P2P tidak menggunakan server, karena rekan-rekan berkomunikasi secara l
 
 Pengirim pesan yang menggunakan [perutean anonim](https://doi.org/10.1007/978-1-4419-5906-5_628) menyembunyikan identitas pengirim, penerima, atau bukti bahwa mereka telah berkomunikasi. Secara ideal, sebuah perpesanan seharusnya menyembunyikan ketiganya.
 
-Ada [banyak](https://doi.org/10.1145/3182658) cara yang berbeda untuk menerapkan perutean anonim. Salah satu yang paling terkenal adalah [perutean bawang](https://en.wikipedia.org/wiki/Onion_routing) (yaitu [Tor](tor-overview.md)), yang mengkomunikasikan pesan terenkripsi melalui jaringan hamparan [virtual](https://en.wikipedia.org/wiki/Overlay_network) yang menyembunyikan lokasi setiap node serta penerima dan pengirim setiap pesan. Pengirim dan penerima tidak pernah berinteraksi secara langsung dan hanya bertemu melalui simpul pertemuan rahasia sehingga tidak ada kebocoran alamat IP atau lokasi fisik. Node tidak dapat mendekripsi pesan, atau tujuan akhir; hanya penerima yang dapat melakukannya. Setiap node perantara hanya dapat mendekripsi bagian yang menunjukkan ke mana harus mengirim pesan yang masih terenkripsi berikutnya, sampai pesan tersebut tiba di penerima yang dapat mendekripsi sepenuhnya, oleh karena itu disebut sebagai "lapisan bawang."
+There are [many](https://doi.org/10.1145/3182658) ways to implement anonymous routing. Salah satu yang paling terkenal adalah [perutean bawang](https://en.wikipedia.org/wiki/Onion_routing) (yaitu [Tor](tor-overview.md)), yang mengkomunikasikan pesan terenkripsi melalui jaringan hamparan [virtual](https://en.wikipedia.org/wiki/Overlay_network) yang menyembunyikan lokasi setiap node serta penerima dan pengirim setiap pesan. Pengirim dan penerima tidak pernah berinteraksi secara langsung dan hanya bertemu melalui simpul pertemuan rahasia sehingga tidak ada kebocoran alamat IP atau lokasi fisik. Node tidak dapat mendekripsi pesan, atau tujuan akhir; hanya penerima yang dapat melakukannya. Setiap node perantara hanya dapat mendekripsi bagian yang menunjukkan ke mana harus mengirim pesan yang masih terenkripsi berikutnya, sampai pesan tersebut tiba di penerima yang dapat mendekripsi sepenuhnya, oleh karena itu disebut sebagai "lapisan bawang."
 
-Melayani sebuah node secara sendiri dalam jaringan perutean anonim tidak memberikan manfaat privasi tambahan kepada penyedia, tetapi berkontribusi pada ketahanan seluruh jaringan terhadap serangan identifikasi untuk keuntungan semua orang.
+Self-hosting a node in an anonymous routing network does not provide the host with additional privacy benefits, but rather contributes to the whole network's resilience against identification attacks for everyone's benefit.
 
 **Keuntungan:**
 

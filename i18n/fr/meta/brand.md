@@ -12,7 +12,7 @@ Le nom du site web est **Privacy Guides** et ne devrait **pas** être changé en
 - PG.org
 </div>
 
-Le nom du subreddit est **r/PrivacyGuides** ou **the Privacy Guides Subreddit**.
+The name of the Subreddit is **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
 
 D'autres directives relatives à l'image de marque sont disponibles à l'adresse [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
 

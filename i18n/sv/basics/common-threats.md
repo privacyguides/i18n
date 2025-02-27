@@ -4,7 +4,7 @@ icon: 'material/eye-outline'
 description: Your threat model is personal to you, but these are some of the things many visitors to this site care about.
 ---
 
-Broadly speaking, we categorize our recommendations into the [threats](threat-modeling.md) or goals that apply to most people. ==You may be concerned with none, one, a few, or all of these possibilities==, and the tools and services you use depend on what your goals are. You may have specific threats outside of these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortcomings of the tools you choose to use, because virtually none of them will protect you from every threat.
+Broadly speaking, we categorize our recommendations into the [threats](threat-modeling.md) or goals that apply to most people. ==You may be concerned with none, one, a few, or all of these possibilities==, and the tools and services you use depend on what your goals are. You may have specific threats outside these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortcomings of the tools you choose to use, because virtually none of them will protect you from every threat.
 
 <span class="pg-purple">:material-incognito: **Anonymity**</span>
 :
@@ -19,7 +19,7 @@ Being protected from hackers or other malicious actors who are trying to gain ac
 <span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
 :
 
-Typically a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+Typically, a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
 
 <span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
 :
@@ -44,7 +44,7 @@ Protecting yourself from big advertising networks, like Google and Facebook, as 
 <span class="pg-green">:material-account-search: **Public Exposure**</span>
 :
 
-Limiting the information about you that is accessible online—to search engines or the general public.
+Limiting the information about you that is accessible online—to search engines or the public.
 
 <span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
 :
@@ -76,7 +76,7 @@ För att minimera den skada som en skadlig programvara ** kan orsaka bör du anv
 
 Mobila operativsystem har i allmänhet bättre applikationssandlåda än stationära operativsystem: Appar kan inte få root-åtkomst och kräver tillstånd för åtkomst till systemresurser.
 
-Skrivbordsoperativsystem släpar i allmänhet efter vid korrekt sandlåda. ChromeOS har liknande sandlådor som Android och macOS har fullständig kontroll över systembehörigheter (och utvecklare kan välja att sandlådor ska användas för program). Dessa operativsystem överför dock identifieringsinformation till sina respektive OEM-tillverkare. Linux tenderar att inte lämna information till systemleverantörer, men har dåligt skydd mot exploateringar och skadliga program. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+Skrivbordsoperativsystem släpar i allmänhet efter vid korrekt sandlåda. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). Dessa operativsystem överför dock identifieringsinformation till sina respektive OEM-tillverkare. Linux tenderar att inte lämna information till systemleverantörer, men har dåligt skydd mot exploateringar och skadliga program. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
 
 </div>
 
@@ -143,7 +143,7 @@ Därför bör du använda inbyggda applikationer över webbklienter när det är
 
 </div>
 
-Även med E2EE kan tjänsteleverantörer fortfarande profilera dig utifrån **metadata**, som vanligtvis inte är skyddade. Medan tjänsteleverantören inte kan läsa dina meddelanden kan de fortfarande observera viktiga saker, till exempel vem du pratar med, hur ofta du skickar meddelanden till dem och när du vanligtvis är aktiv. Skydd av metadata är ganska ovanligt, och om det ingår i din hotmodell [](threat-modeling.md)- bör du vara uppmärksam på den tekniska dokumentationen för den programvara du använder för att se om det finns någon minimering eller något skydd av metadata överhuvudtaget.
+Även med E2EE kan tjänsteleverantörer fortfarande profilera dig utifrån **metadata**, som vanligtvis inte är skyddade. While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. Skydd av metadata är ganska ovanligt, och om det ingår i din hotmodell [](threat-modeling.md)- bör du vara uppmärksam på den tekniska dokumentationen för den programvara du använder för att se om det finns någon minimering eller något skydd av metadata överhuvudtaget.
 
 ## Massövervakningsprogram
 
@@ -156,7 +156,7 @@ Massövervakning är ett komplicerat försök att övervaka "beteende, många ak
 
 If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
 
-In France you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
+In France, you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
 
 </div>
 
@@ -189,7 +189,7 @@ If you're concerned about mass surveillance programs, you can use strategies lik
 
 För många människor är spårning och övervakning av privata företag ett växande problem. Genomgripande annonsnätverk, som de som drivs av Google och Facebook, spänner över internet långt bortom bara de webbplatser de kontrollerar och spårar dina handlingar längs vägen. Genom att använda verktyg som innehållsblockerare för att begränsa nätverksförfrågningar till deras servrar och läsa sekretesspolicyn för de tjänster du använder kan du undvika många grundläggande motståndare (även om det inte helt kan förhindra spårning).[^4]
 
-Dessutom kan även företag utanför *AdTech* eller spårningsbranschen dela din information med [datamäklare](https://en.wikipedia.org/wiki/Information_broker) (t.ex. Cambridge Analytica, Experian eller Datalogix) eller andra parter. Du kan inte automatiskt anta att dina data är säkra bara för att den tjänst du använder inte faller inom den typiska AdTech- eller spårningsaffärsmodellen. Det starkaste skyddet mot företags datainsamling är att kryptera eller dölja dina data när det är möjligt, vilket gör det svårt för olika leverantörer att korrelera data med varandra och bygga en profil på dig.
+Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. Du kan inte automatiskt anta att dina data är säkra bara för att den tjänst du använder inte faller inom den typiska AdTech- eller spårningsaffärsmodellen. Det starkaste skyddet mot företags datainsamling är att kryptera eller dölja dina data när det är möjligt, vilket gör det svårt för olika leverantörer att korrelera data med varandra och bygga en profil på dig.
 
 ## Begränsning av offentlig information
 

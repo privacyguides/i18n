@@ -29,13 +29,13 @@ description: Электронная почта по своей природе н
 
 ### Какие почтовые клиенты поддерживают E2EE?
 
-Провайдеры электронной почты, позволяющие использовать стандартные протоколы доступа, такие как IMAP и SMTP, можно использовать с любым [ почтовым клиентом, которые мы рекомендуем](../email-clients.md). В зависимости от метода аутентификации, это может привести к снижению безопасности, если провайдер или почтовый клиент не поддерживает OATH или приложение-мост, поскольку [многофакторная аутентификация](multi-factor-authentication.md) невозможна при аутентификации по простому паролю.
+Провайдеры электронной почты, позволяющие использовать стандартные протоколы доступа, такие как IMAP и SMTP, можно использовать с любым [ почтовым клиентом, которые мы рекомендуем](../email-clients.md). Depending on the authentication method, this may lead to the decrease security if either the provider or the email client does not support OATH or a bridge application as [multifactor authentication](multi-factor-authentication.md) is not possible with plain password authentication.
 
 ### Как я могу защитить свои приватные ключи?
 
-A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. Затем сообщение расшифровывается смарт-картой, и расшифрованное содержимое отправляется обратно на устройство.
+A smart card (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. The message is then decrypted by the smart card and the decrypted content is sent back to the device.
 
-Расшифровку лучше производить на смарт-карте, чтобы избежать возможное раскрытие приватного ключа на скомпрометированном устройстве.
+It is advantageous for the decryption to occur on the smart card to avoid possibly exposing your private key to a compromised device.
 
 ## Обзор метаданных электронной почты
 
@@ -49,4 +49,4 @@ A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/36001379
 
 ### Почему метаданные не могут быть E2EE?
 
-Метаданные электронной почты имеют решающее значение для самой базовой функциональности электронной почты (откуда она пришла и куда должна отправиться). E2EE изначально не был встроен в почтовые протоколы, вместо этого потребовалось дополнительное программное обеспечение, такое как OpenPGP. Поскольку сообщения OpenPGP по-прежнему должны работать с традиционными почтовыми провайдерами, он не может шифровать метаданные электронной почты, только само тело сообщения. Это означает, что даже при использовании OpenPGP сторонние наблюдатели могут увидеть много информации о ваших сообщениях, например, кому вы отправили письмо, тему письма, когда вы отправили письмо и т.д.
+Метаданные электронной почты имеют решающее значение для самой базовой функциональности электронной почты (откуда она пришла и куда должна отправиться). E2EE изначально не был встроен в почтовые протоколы, вместо этого потребовалось дополнительное программное обеспечение, такое как OpenPGP. Поскольку сообщения OpenPGP по-прежнему должны работать с традиционными почтовыми провайдерами, он не может шифровать метаданные электронной почты, только само тело сообщения. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, the subject lines, when you're emailing, etc.

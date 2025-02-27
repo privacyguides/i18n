@@ -1,10 +1,10 @@
 ---
-title: "Multi-Faktor Autentisering"
+title: "Multifactor Authentication"
 icon: 'material/two-factor-authentication'
 description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
 ---
 
-**Flerfaktorsautentisering** (**MFA**) är en säkerhetsmekanism som kräver ytterligare steg utöver att ange användarnamn (eller e-post) och lösenord. Den vanligaste metoden är tidsbegränsade koder som du kan få från SMS eller en app.
+**Multifactor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. Den vanligaste metoden är tidsbegränsade koder som du kan få från SMS eller en app.
 
 Om en hackare (eller motståndare) kan ta reda på ditt lösenord får han eller hon normalt sett tillgång till det konto som lösenordet tillhör. Ett konto med MFA tvingar hackaren att ha både lösenordet (något som du *känner till*) och en enhet som du äger (något som du *har*), t. ex. din telefon.
 
@@ -26,7 +26,7 @@ The security of push notification MFA is dependent on both the quality of the ap
 
 ### Time-based One-time Password (TOTP)
 
-TOTP is one of the most common forms of MFA available. When you set up TOTP, you are generally required to scan a [QR Code](https://en.wikipedia.org/wiki/QR_code) which establishes a "[shared secret](https://en.wikipedia.org/wiki/Shared_secret)" with the service that you intend to use. The shared secret is secured inside of the authenticator app's data, and is sometimes protected by a password.
+TOTP is one of the most common forms of MFA available. When you set up TOTP, you are generally required to scan a [QR Code](https://en.wikipedia.org/wiki/QR_code) which establishes a "[shared secret](https://en.wikipedia.org/wiki/Shared_secret)" with the service that you intend to use. The shared secret is secured inside the authenticator app's data, and is sometimes protected by a password.
 
 The time-limited code is then derived from the shared secret and the current time. As the code is only valid for a short time, without access to the shared secret, an adversary cannot generate new codes.
 
@@ -82,7 +82,7 @@ This presentation discusses the history of password authentication, the pitfalls
 
 FIDO2 and WebAuthn have superior security and privacy properties when compared to any MFA methods.
 
-För webbtjänster används det vanligtvis tillsammans med WebAuthn som är en del av [W3C:s rekommendationer](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). Det använder autentisering med offentliga nycklar och är säkrare än delade hemligheter som används i Yubico OTP- och TOTP-metoder, eftersom det innehåller ursprungsnamnet (vanligtvis domännamnet) under autentisering. Intyg tillhandahålls för att skydda dig från nätfiskeattacker, eftersom det hjälper dig att avgöra att du använder den autentiska tjänsten och inte en falsk kopia.
+Typically, for web services it is used with WebAuthn which is a part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). Det använder autentisering med offentliga nycklar och är säkrare än delade hemligheter som används i Yubico OTP- och TOTP-metoder, eftersom det innehåller ursprungsnamnet (vanligtvis domännamnet) under autentisering. Intyg tillhandahålls för att skydda dig från nätfiskeattacker, eftersom det hjälper dig att avgöra att du använder den autentiska tjänsten och inte en falsk kopia.
 
 Till skillnad från Yubico OTP använder WebAuthn inget offentligt ID, så nyckeln är **inte** identifierbar på olika webbplatser. Det använder inte heller någon tredje parts molnserver för autentisering. All kommunikation sker mellan nyckeln och den webbplats du loggar in på. FIDO använder också en räknare som ökas vid användning för att förhindra återanvändning av sessioner och klonade tangenter.
 
@@ -116,15 +116,15 @@ Om du använder SMS MFA, använd en operatör som inte byter ditt telefonnummer 
 
 ## Fler ställen att inrätta MFA
 
-Flerfaktorsautentisering kan användas för att säkra lokala inloggningar, SSH-nycklar eller till och med lösenordsdatabaser.
+Beyond just securing your website logins, multifactor authentication can be used to secure your local logins, SSH keys or even password databases as well.
 
 ### macOS
 
-macOS har [inbyggt stöd](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) för autentisering med smarta kort (PIV). Om du har ett smartkort eller en hårdvarunyckel som stöder PIV-gränssnittet, till exempel YubiKey, rekommenderar vi att du följer dokumentationen från leverantören av smartkortet eller hårdvarunyckeln och konfigurerar andrafaktorsautentisering för din macOS-dator.
+macOS har [inbyggt stöd](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) för autentisering med smarta kort (PIV). If you have a smart card or a hardware security key that supports the PIV interface such as the YubiKey, we recommend that you follow your smart card or hardware security vendor's documentation and set up second factor authentication for your macOS computer.
 
 Yubico have a guide [Using Your YubiKey as a Smart Card in macOS](https://support.yubico.com/hc/articles/360016649059) which can help you set up your YubiKey on macOS.
 
-När din smartkort/säkerhetsnyckel har ställts in rekommenderar vi att du kör det här kommandot i terminalen:
+After your smart card/security key is set up, we recommend running this command in the Terminal:
 
 ```text
 sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLogin -bool YES
@@ -159,4 +159,4 @@ SSH MFA kan också ställas in med TOTP. DigitalOcean has provided a tutorial [H
 
 ### KeePass (och KeePassXC)
 
-KeePass- och KeePassXC-databaser kan säkras med hjälp av Challenge-Response eller HOTP som andrafaktorsautentisering. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.
+KeePass and KeePassXC databases can be secured using HOTP or Challenge-Response as a second-factor of authentication. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.

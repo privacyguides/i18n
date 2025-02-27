@@ -2,7 +2,7 @@
 meta_title: "隱私 VPN 服務建議和比較，無任何贊助商或廣告 - Privacy Guides"
 title: "VPN 服務"
 icon: material/vpn
-description: 保護您線上隱私與安全的最佳 VPN 服務。 在這裡尋找一個不會監視您的供應商。
+description: 保護您線上隱私與安全的最佳 VPN 服務。 Find a provider here that isn't out to spy on you.
 cover: vpn.webp
 global:
   - 
@@ -99,11 +99,11 @@ Proton 現在在其瀏覽器擴充套件中 [支援 IPv6](https://protonvpn.com/
 
 #### :material-information-outline:{ .pg-info } 遠端端口轉發
 
-Proton VPN 目前僅支援通過 NAT-PMP 進行短暫的[遠端端口轉發](https://protonvpn.com/support/port-forwarding)，租用時間為 60 秒。 Windows 應用程式提供簡易使用選項，而其它作業系統則需運行 [NAT-PMP 客戶端](https://protonvpn.com/support/port-forwarding-manual-setup)。 BT 客戶端通常原生支援 NAT-PMP。
+Proton VPN 目前僅支援通過 NAT-PMP 進行短暫的[遠端端口轉發](https://protonvpn.com/support/port-forwarding)，租用時間為 60 秒。 The Windows app provides an easy-to-access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup). BT 客戶端通常原生支援 NAT-PMP。
 
 #### :material-information-outline:{ .pg-blue } 突破網路審查
 
-Proton VPN 有自己的 [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol) 協定，在其它 VPN 協定如 OpenVPN、WireGuard 遭封鎖時*可能*有所幫助。 Stealth 將 VPN 隧道封裝在 TLS 會話中，使其看起來像是一般的網路流量。
+Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol) protocol which *may* help in situations where VPN protocols like OpenVPN or WireGuard are blocked with various rudimentary techniques. Stealth 將 VPN 隧道封裝在 TLS 會話中，使其看起來像是一般的網路流量。
 
 不幸的是，在部署了精密過濾器分析所有傳出流量以試圖發現加密隧道的國家，此方法的效果並不理想。 Stealth 可在 Android、iOS、Windows 和 macOS 上使用，但尚未在 Linux 上可用。
 
@@ -113,11 +113,11 @@ Proton VPN 有自己的 [Stealth](https://protonvpn.com/blog/stealth-vpn-protoco
 
 #### :material-information-outline:{ .pg-blue } 補充說明
 
-Proton VPN 客戶端目前支援所有平臺上的雙因素身份驗證。 Proton VPN 在瑞士、冰島和瑞典擁有自己的伺服器和資料中心。 他們透過自己的 DNS 服務，提供內容封鎖和已知的惡意軟體網域。 此外，Proton VPN 還提供 "Tor" 伺服器，可輕鬆連接到洋蔥網站，但我們仍然強烈建議您使用 [官方 Tor 瀏覽器](tor.md#tor-browser) 來完成此類目的。
+Proton VPN clients support two-factor authentication on all platforms. Proton VPN 在瑞士、冰島和瑞典擁有自己的伺服器和資料中心。 他們透過自己的 DNS 服務，提供內容封鎖和已知的惡意軟體網域。 此外，Proton VPN 還提供 "Tor" 伺服器，可輕鬆連接到洋蔥網站，但我們仍然強烈建議您使用 [官方 Tor 瀏覽器](tor.md#tor-browser) 來完成此類目的。
 
-##### :material-alert-outline:{ .pg-orange } Killswitch 無法在基於 Intel 處理器的 Mac 電腦上使用
+##### :material-alert-outline:{ .pg-orange } Kill switch feature is broken on Intel-based Macs
 
-基於 Intel 處理器的 Mac 電腦 若使用 VPN killswitch 可能會導致[系統崩潰](https://protonvpn.com/support/macos-t2-chip-kill-switch) 。 如果您需要此功能，但使用的是搭載 Intel 處理器的 Mac 電腦 ，則應考慮使用其他 VPN 服務。
+System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch) on Intel-based Macs when using the VPN kill switch. 如果您需要此功能，但使用的是搭載 Intel 處理器的 Mac 電腦 ，則應考慮使用其他 VPN 服務。
 
 ### IVPN
 
@@ -183,7 +183,7 @@ IVPN 曾支援遠端端口轉發，但在 [2023 年 6 月](https://ivpn.net/blog
 
 #### :material-check:{ .pg-green } 突破網路審查
 
-IVPN 具有使用 [v2ray](https://v2ray.com/en/index.html) 的混淆模式，這有助於在 OpenVPN 或 WireGuard 等 VPN 協定遭到封鎖時繞過審查。 此功能目前僅支援 電腦版 與 [iOS](https://ivpn.net/knowledgebase/ios/v2ray) 版。 可透過 QUIC 或 TCP 兩種模式連接 [VMess](https://guide.v2fly.org/en_US/basics/vmess.html)。 QUIC 是一個新的傳輸協議，具有更好的擁塞控制，因此可能速度更快，且延遲更低。 TCP 模式的數據呈現為一般的 HTTP 流量。
+IVPN has obfuscation modes using [v2ray](https://v2ray.com/en/index.html) which helps in situations where VPN protocols like OpenVPN or WireGuard are blocked. Currently, this feature is only available on Desktop and [iOS](https://ivpn.net/knowledgebase/ios/v2ray). 可透過 QUIC 或 TCP 兩種模式連接 [VMess](https://guide.v2fly.org/en_US/basics/vmess.html)。 QUIC 是一個新的傳輸協議，具有更好的擁塞控制，因此可能速度更快，且延遲更低。 TCP 模式的數據呈現為一般的 HTTP 流量。
 
 #### :material-check:{ .pg-green } 行動裝置客戶端
 
@@ -191,7 +191,7 @@ IVPN 具有使用 [v2ray](https://v2ray.com/en/index.html) 的混淆模式，這
 
 #### :material-information-outline:{ .pg-blue } 補充說明
 
-IVPN 用戶端支援雙因子身份驗證。 IVPN 有「[反追蹤](https://ivpn.net/antitracker)」功能，以阻絕來自網路層的廣告與追蹤。
+IVPN clients support two-factor authentication. IVPN 有「[反追蹤](https://ivpn.net/antitracker)」功能，以阻絕來自網路層的廣告與追蹤。
 
 ### Mullvad
 
@@ -199,7 +199,7 @@ IVPN 用戶端支援雙因子身份驗證。 IVPN 有「[反追蹤](https://ivpn
 
 ![Mullvad 標誌](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** 是一個快速且便宜的 VPN，非常注重透明和安全性。 他們自 2009 年起開始營運。 Mullvad 位於瑞典，提供 30 天退款保證（前提是您的付款方式允許）。
+**Mullvad** 是一個快速且便宜的 VPN，非常注重透明和安全性。 他們自 2009 年起開始營運。 Mullvad is based in Sweden and offers a 14-day money-back guarantee for [payment methods](https://mullvad.net/en/help/refunds) that allow it.
 
 [:octicons-home-16: 首頁](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="洋蔥服務" }
@@ -260,7 +260,7 @@ Mullvad 曾支援遠端端口轉發，但在 [2023 年 5 月](https://mullvad.ne
 
 Mullvad 提供多種功能，協助繞過審查制度，自由存取網際網路：
 
-- **混淆模式**：Mullvad 有兩種內建混淆模式 —「UDP-over-TCP」 和 [「Wireguard over Shadowsocks」](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard)。 這些模式會將您的 VPN 流量偽裝成一般的網路流量，使審查員更難偵測和封鎖。 據說，中國會利用[新的方法來擾亂 Shadowsocks 路由的流量](https://gfw.report/publications/usenixsecurity23/en)。
+- **Obfuscation modes**: Mullvad has two built-in obfuscation modes: "UDP-over-TCP" and ["WireGuard over Shadowsocks"](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard). 這些模式會將您的 VPN 流量偽裝成一般的網路流量，使審查員更難偵測和封鎖。 據說，中國會利用[新的方法來擾亂 Shadowsocks 路由的流量](https://gfw.report/publications/usenixsecurity23/en)。
 - **使用 Shadowsocks 和 v2ray 進階混淆**：對於更進階的使用者，Mullvad 提供了如何在 Mullvad 用戶端同時使用 [Shadowsocks 以及 v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) 外掛程式的指南。 此設定提供了額外的混淆和加密層。
 - **自訂伺服器 IP**：要對抗 IP 封鎖，您可以向 Mullvad 的支援團隊申請自訂伺服器 IP。 收到自訂 IP 後，您可以在「Server IP override」設定中輸入文字檔，這樣就可以用審查員不知道的 IP 位址覆寫所選的伺服器 IP 位址。
 - **橋接和代理**：Mullvad 也允許您使用橋接器或代理伺服器來存取他們的 API (驗證時需要)，這有助於繞過存取 API 的審查封鎖。
@@ -286,19 +286,19 @@ Mullvad 對於他們[自有或租用](https://mullvad.net/en/servers)的節點�
 
 ### 技術
 
-我們要求所有推薦的 VPN 服務商有提供 OpenVPN 配置檔案，以便在任何用戶端中使用。 **如果** VPN 提供自己的客戶端，則要求有 killswitch 來阻止未連接 VPN 時網路資料遭洩漏。
+We require all our recommended VPN providers to provide standard configuration files which can be used in a generic, open-source client. **If** a VPN provides their own custom client, we require a kill switch to block network data leaks when disconnected.
 
 **最低合格要求：**
 
-- 支援強固的協議，如 WireGuard & OpenVPN。
-- 用戶端內建 Killswitch。
-- 支援多跳連接 (Multihop)。 萬一單個節點受損，多跳方式就非常重要，才能保持數據的私密性。
+- Support for strong protocols such as WireGuard.
+- Kill switch built in to clients.
+- Multi-hop support. Multi-hopping is important to keep data private in case of a single node compromise.
 - 如有提供 VPN 用戶端，則應為 [開源](https://en.wikipedia.org/wiki/Open_source)，一如所內建的 VPN 軟體。 我們相信，提供[原始碼](https://en.wikipedia.org/wiki/Source_code)可顯著提高透明度，讓我們知道程式實際在做什麼。
 - 抗審查功能可在沒有 DPI 的情況下繞過防火牆。
 
 **最佳情況：**
 
-- Killswitch 具高度可配置選項（啟用/禁用某些網路、開機時等等）
+- Kill switch with highly configurable options (enable/disable on certain networks, on boot, etc.)
 - 易於使用的 VPN 客戶端
 - 支援 [IPv6](https://en.wikipedia.org/wiki/IPv6)。 我們希望伺服器能允許透過 IPv6 傳入連線，並允許您存取託管在 IPv6 位址上的服務。
 - [遠端端口轉發](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) 的功能可協助在使用 P2P ([對等](https://en.wikipedia.org/wiki/Peer-to-peer)) 檔案共享軟體或自建伺服器 (例如 Mumble) 時建立連接。
@@ -316,11 +316,11 @@ Mullvad 對於他們[自有或租用](https://mullvad.net/en/servers)的節點�
 **最佳情況：**
 
 - 接受多種 [匿名付款方式](advanced/payments.md)。
-- 無需任何個人資訊（自動生成的用戶名稱、不要求電子郵件等）。
+- No personal information accepted (auto-generated username, no email required, etc.).
 
 ### 安全
 
-若 VPN 不能提供足夠安全性，它就毫無意義。 我們要求所有推薦的供應商遵守其 OpenVPN 連接的現行安全標準。 理想中，預設他們會使用更多面向未來的加密方案。 我們要求有獨立的第三方來審核供應商的安全性，理想情況下是每年都能進行全方方面審計。
+若 VPN 不能提供足夠安全性，它就毫無意義。 We require all our recommended providers to abide by current security standards. 理想中，預設他們會使用更多面向未來的加密方案。 我們要求有獨立的第三方來審核供應商的安全性，理想情況下是每年都能進行全方方面審計。
 
 **最低合格要求：**
 
@@ -358,7 +358,7 @@ Mullvad 對於他們[自有或租用](https://mullvad.net/en/servers)的節點�
 
 **最低合格要求：**
 
-- 必須自行託管分析工具 (例如不使用 Google Analytics)。 供應商的網站還必須遵守 [DNT (Do Not Track, 請勿追蹤) ](https://en.wikipedia.org/wiki/Do_Not_Track) 的要求，以供選擇退出的人使用。
+- 必須自行託管分析工具 (例如不使用 Google Analytics)。 The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for people who want to opt out.
 
 不得有任何不負責任的行銷：
 

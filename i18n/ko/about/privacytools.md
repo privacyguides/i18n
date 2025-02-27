@@ -37,9 +37,9 @@ At the end of July 2021, we [informed](https://web.archive.org/web/2021072918442
 
 ## r/privacytoolsIO 운영 권한
 
-privacytools.io 웹사이트 문제가 계속되는 동시에, 레딧의 r/privacytoolsIO 서브레딧(게시판) 운영팀은 관리에 어려움을 겪고 있었습니다. 서브레딧 운영은 웹사이트 개발과는 독립적으로 이루어졌지만, BurungHantu는 서브레딧의 주 관리자이기도 했으며 '모든 권한'을 가진 유일한 관리자였습니다. u/trai_dep was the only active moderator at the time, and [posted](https://reddit.com/comments/o9tllh) a request to Reddit's administrators on June 28, 2021, asking to be granted the primary moderator position and full control privileges, in order to make necessary changes to the Subreddit.
+Simultaneously with the ongoing website issues at privacytools.io, the r/privacytoolsIO moderation team was facing challenges with managing the Subreddit. The Subreddit had always been operated mostly independently of the website's development, but BurungHantu was the primary moderator of the Subreddit as well, and he was the only moderator granted "Full Control" privileges. u/trai_dep was the only active moderator at the time, and [posted](https://reddit.com/comments/o9tllh) a request to Reddit's administrators on June 28, 2021, asking to be granted the primary moderator position and full control privileges, in order to make necessary changes to the Subreddit.
 
-Reddit은 서브레딧에 활동하는 관리자가 존재해야 합니다. 주 관리자는 장기간(예시: 1년 이상) 활동하지 않는 경우, 주 관리자는 다음 순위의 관리자로 재임명 가능합니다. 이 요청이 받아들여지기 위해서는 BurungHantu가 (다른 플랫폼에서 잠적했던 것처럼) 오랜 기간 동안 어떤 Reddit 활동에도 전혀 참여하지 않았어야 했습니다.
+Reddit requires that Subreddits have active moderators. 주 관리자는 장기간(예시: 1년 이상) 활동하지 않는 경우, 주 관리자는 다음 순위의 관리자로 재임명 가능합니다. 이 요청이 받아들여지기 위해서는 BurungHantu가 (다른 플랫폼에서 잠적했던 것처럼) 오랜 기간 동안 어떤 Reddit 활동에도 전혀 참여하지 않았어야 했습니다.
 
 > Reddit 요청을 통해 서브레딧 관리자에서 해임된 경우, 이는 귀하의 응답 부재와 활동 부족으로 인해 해당 서브레딧이 r/redditrequest 위임을 받을 조건을 충족했기 때문입니다.
 > 
@@ -55,7 +55,7 @@ This change [entailed:](https://reddit.com/comments/pnhn4a)
 
 - Redirecting `www.privacytools.io` to [www.privacyguides.org](https://www.privacyguides.org).
 - 지난 작업과 이슈 트래커를 보존하기 위해 GitHub에 소스 코드를 아카이브하여 향후 수개월 동안 현재 사이트를 개발하는 용도로 이용했습니다.
-- 서브레딧을 비롯한 다양한 커뮤니티에 공지를 게시하여 공식적인 변경 사항을 알립니다.
+- Posting announcements to our Subreddit and various other communities informing people of the official change.
 - Matrix, Mastodon 등 privacytools.io 서비스를 공식적으로 폐쇄하고 기존 사용자에게 가능한 한 빨리 이전하도록 권장합니다.
 
 모든 것이 순조롭게 진행되는 듯 보였고, 활발히 활동하던 커뮤니티는 대부분 저희가 바라던 대로 새 프로젝트로 전환했습니다.
@@ -66,11 +66,11 @@ This change [entailed:](https://reddit.com/comments/pnhn4a)
 
 At this point, BurungHantu claimed he wanted to continue working on privacytools.io on his own and requested that we remove the redirect from `www.privacytools.io` to [www.privacyguides.org](https://www.privacyguides.org). Privacy Guides는 이를 따랐고, 커뮤니티 인원들이 사용하고 있는 Matrix, Mastodon, PeerTube 서브도메인을 적어도 앞으로 몇 달간은 공개 서비스로 계속 운영하여 해당 사용자들이 다른 계정으로 마이그레이션할 기간을 마련해달라고 BurungHantu에게 요청했습니다. 당시 제공하던 서비스의 연합적 특성으로 인해 특정 도메인에 결속돼있어 마이그레이션하기 매우 어려웠고, 아예 불가능한 경우마저 있었습니다.
 
-Unfortunately, because control of the r/privacytoolsIO subreddit was not returned to BurungHantu at his demand (further information below), those subdomains were [cut off](https://reddit.com/comments/pymthv/comment/hexwrps) at the beginning of October, ending any migration possibilities to any users still using those services.
+Unfortunately, because control of the r/privacytoolsIO Subreddit was not returned to BurungHantu at his demand (further information below), those subdomains were [cut off](https://reddit.com/comments/pymthv/comment/hexwrps) at the beginning of October, ending any migration possibilities to any users still using those services.
 
 곧이어 BurungHantu는 Jonah가 프로젝트 후원금을 훔쳤다고 거짓 비난을 했습니다. BurungHantu의 주장대로라면 당시 시점은 이미 해당 사건이 발생한 지 1년이 넘은 상태였지만, Privacy Guides로의 이전이 이루어질 때까지 그 누구에게도 해당 사건을 알리지 않았다는 뜻이 됩니다. Privacy Guides 팀 및 [커뮤니티는](https://twitter.com/TommyTran732/status/1526153536962281474) BurungHantu에게 해당 주장이 사실이라면 증거는 무엇인지, 여태까지 고발하지 않았던 이유는 무엇인지 밝힐 것을 여러 차례 요청했지만, 그는 대답하지 않았습니다.
 
-또한 BurungHantu는 [Twitter 게시글](https://twitter.com/privacytoolsIO/status/1510560676967710728)에서 자신은 현재 '변호사'의 조언을 따르고 있는 중이라고 주장했으나, 이는 서브레딧 관리 권한을 되찾기 위한 시도의 일종이며, 자신은 피해자일 뿐임을 설파하며 Privacy Guides 출시 시점이 다가온 상황에 여론을 조작하려는 행동의 일환이었습니다.
+BurungHantu also made a [twitter post](https://twitter.com/privacytoolsIO/status/1510560676967710728) alleging that an "attorney" had reached out to him on Twitter and was providing advice, in another attempt to bully us into giving him control of our Subreddit, and as part of his smear campaign to muddy the waters surrounding the launch of Privacy Guides while pretending to be a victim.
 
 ## PrivacyTools.io 현황
 
@@ -80,7 +80,7 @@ Unfortunately, because control of the r/privacytoolsIO subreddit was not returne
 
 ## r/privacytoolsIO 현황
 
-After the launch of [r/PrivacyGuides](https://reddit.com/r/privacyguides), it was impractical for u/trai_dep to continue moderating both subreddits, and with the community on-board with the transition, r/privacytoolsIO was [made](https://reddit.com/comments/qk7qrj) a restricted sub in a post on November 1st, 2021:
+After the launch of [r/PrivacyGuides](https://reddit.com/r/privacyguides), it was impractical for u/trai_dep to continue moderating both Subreddits, and with the community on-board with the transition, r/privacytoolsIO was [made](https://reddit.com/comments/qk7qrj) a restricted sub in a post on November 1st, 2021:
 
 > ... 이 서브레딧의 여태까지의 성장은 수년에 걸쳐 이루어진 많은 노력의 결과입니다. 다름 아닌 PrivacyGuides.org 팀이 그 주역이었습니다. 그리고 여러분 모두의 덕택이었습니다.
 > 
@@ -88,11 +88,11 @@ After the launch of [r/PrivacyGuides](https://reddit.com/r/privacyguides), it wa
 
 서브레딧은 그 누구의 소유물도 아니며, 브랜드 대표만의 소유물은 더더욱 아닙니다. 서브레딧은 커뮤니티의 소유물입니다. 그리고 커뮤니티와 운영진은 r/PrivacyGuides로의 이전을 지지하기로 결정했습니다.
 
-In the months since, BurungHantu has threatened and begged for returning subreddit control to his account in [violation](https://reddit.com/r/redditrequest/wiki/top_mod_removal) of Reddit rules:
+In the months since, BurungHantu has threatened and begged for returning Subreddit control to his account in [violation](https://reddit.com/r/redditrequest/wiki/top_mod_removal) of Reddit rules:
 
 > 해임 요청에 관련한 관리자의 보복 행위는 허용되지 않습니다.
 
-커뮤니티에 여전히 수천 명의 구독자가 남아 있었기 때문에, 이 거대한 플랫폼의 통제권을 매우 낮은 품질의 정보를 제공하는 사이트를 운영하고 있는 사람에게, 1년 이상 방임하는 사람에게 돌려주는 것은 도리가 아니라 판단했습니다. 해당 커뮤니티에서 이루어졌던 지난 수년간의 토론을 보존하는 것이 더 중요했기 때문에 u/trai_dep 및 나머지 관리자는 r/privacytoolsIO를 그대로 유지하기로 결정했습니다.
+커뮤니티에 여전히 수천 명의 구독자가 남아 있었기 때문에, 이 거대한 플랫폼의 통제권을 매우 낮은 품질의 정보를 제공하는 사이트를 운영하고 있는 사람에게, 1년 이상 방임하는 사람에게 돌려주는 것은 도리가 아니라 판단했습니다. Preserving the years of past discussions in that community is more important to us, and thus u/trai_dep and the rest of the Subreddit moderation team has made the decision to keep r/privacytoolsIO as-is.
 
 ## OpenCollective 현황
 

@@ -24,7 +24,7 @@ description: A list of general priorities we consider for all submissions to Pri
 
 - Πρέπει να γνωστοποιήσετε τη σχέση σας, δηλαδή τη θέση σας στο πλαίσιο του υποβαλλόμενου έργου.
 
-- Must have a security whitepaper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
+- Must have a security white paper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
     - Regarding third party audit status, we want to know if you have undergone one, or have requested one. Εάν είναι δυνατόν, αναφέρετε ποιος θα διενεργήσει τον έλεγχο.
 
 - Πρέπει να εξηγήσει τι προσφέρει το έργο όσον αφορά την προστασία της ιδιωτικότητας.

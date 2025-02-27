@@ -11,7 +11,7 @@ We self-host [Umami](https://umami.is) to create a nice visualization of our tra
 
 Con questo processo:
 
-- Le tue informazioni non vengono mai condivise con terzi e rimangono su server da noi controllati
+- Your information is never shared with a third party, it stays on servers we control
 - I tuoi dati personali non vengono mai salvati, raccogliamo dati solo in forma aggregata
 - Non viene utilizzato JavaScript lato client
 

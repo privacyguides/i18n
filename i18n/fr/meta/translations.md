@@ -27,8 +27,8 @@ Pour des exemples tels que les admonitions ci-dessus, les guillemets, par exempl
 
 ## Alternatives en pleine largeur et syntaxe Markdown
 
-Les systèmes d'écriture CJK ont tendance à utiliser des variantes "pleine largeur" des symboles courants. Il s'agit de caractères différents qui ne peuvent pas être utilisés pour la syntaxe Markdown.
+Les systèmes d'écriture CJK ont tendance à utiliser des variantes "pleine largeur" des symboles courants. These are different characters and cannot be used for Markdown syntax.
 
-- Les liens doivent utiliser des parenthèses normales, c'est-à-dire `(` (parenthèse gauche U+0028) et `)` (parenthèse droite U+0029) et non `（` (parenthèse gauche pleine largeur U+FF08) ou `）` (parenthèse droite pleine largeur U+FF09)
+- Links must use regular parenthesis i.e. `(` (Left Parenthesis U+0028) and `)` (Right Parenthesis U+0029) and not `（` (Fullwidth Left Parenthesis U+FF08) or `）` (Fullwidth Right Parenthesis U+FF09)
 - Le texte cité et en retrait doit utiliser `:` (deux-points U+003A) et non `：` (deux-points pleine largeur U+FF1A)
 - Les images doivent utiliser `!` (point d'exclamation U+0021) et non `！` (point d'exclamation pleine largeur U+FF01)

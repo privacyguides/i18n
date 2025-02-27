@@ -4,7 +4,7 @@ icon: material/dns
 description: מערכת שמות הדומיין היא "ספר הטלפונים של האינטרנט", שעוזרת לדפדפן שלך למצוא את האתר שהוא מחפש.
 ---
 
-[מערכת שמות הדומיין](https://en.wikipedia.org/wiki/Domain_Name_System) היא 'ספר הטלפונים של האינטרנט'. DNS מתרגם שמות דומיין לכתובות IP כך שדפדפנים ושירותים אחרים יכולים לטעון משאבי אינטרנט, דרך רשת מבוזרת של שרתים.
+The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is the 'phone book of the Internet'. DNS מתרגם שמות דומיין לכתובות IP כך שדפדפנים ושירותים אחרים יכולים לטעון משאבי אינטרנט, דרך רשת מבוזרת של שרתים.
 
 ## מה זה DNS?
 
@@ -24,7 +24,7 @@ DNS קיים מאז [הימים הראשונים](https://en.wikipedia.org/wiki/
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
     ```
 
-2. לאחר מכן נוכל להשתמש ב[`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS וכו') או [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) כדי לשלוח את בדיקת ה-DNS לשני השרתים. תוכנות כגון דפדפני אינטרנט מבצעות חיפושים אלו באופן אוטומטי, אלא אם כן הם מוגדרים לשימוש ב-DNS מוצפן.
+2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, macOS, etc.) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. תוכנות כגון דפדפני אינטרנט מבצעות חיפושים אלו באופן אוטומטי, אלא אם כן הם מוגדרים לשימוש ב-DNS מוצפן.
 
     === "לינוקס, macOS"
 
@@ -39,7 +39,7 @@ DNS קיים מאז [הימים הראשונים](https://en.wikipedia.org/wiki/
         nslookup privacyguides.org 8.8.8.8
         ```
 
-3. Next, we want to [analyse](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
+3. Next, we want to [analyze](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
 
     === "Wireshark"
 
@@ -70,7 +70,7 @@ Encrypted DNS can refer to one of a number of protocols, the most common ones be
 
 ### DNSCrypt
 
-[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) הייתה אחת השיטות הראשונות להצפנת שאילתות DNS. DNSCrypt פועל על יציאה 443 ועובד עם פרוטוקולי התחבורה TCP או UDP. DNSCrypt מעולם לא הוגש ל[כוח המשימה להנדסת אינטרנט (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) וגם לא עבר דרך [בקשה להערות (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments), כך שלא נעשה בו שימוש נרחב מחוץ לכמה [יישומים](https://dnscrypt.info/implementations). כתוצאה מכך, הוא הוחלף במידה רבה על ידי [DNS על HTTPS](#dns-over-https-doh) הפופולרי יותר.
+[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) הייתה אחת השיטות הראשונות להצפנת שאילתות DNS. DNSCrypt פועל על יציאה 443 ועובד עם פרוטוקולי התחבורה TCP או UDP. DNSCrypt has never been submitted to the [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) nor has it gone through the [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments) process, so it has not been used widely outside a few [implementations](https://dnscrypt.info/implementations). כתוצאה מכך, הוא הוחלף במידה רבה על ידי [DNS על HTTPS](#dns-over-https-doh) הפופולרי יותר.
 
 ### DNS על TLS (DoT)
 
@@ -118,7 +118,7 @@ Apple אינה מספקת ממשק מקורי ליצירת פרופילי DNS מ
 
 3. לאחר הגשת הבקשה, נוכל לעצור את לכידת החבילות עם <kbd>CTRL</kbd> + <kbd>C</kbd>.
 
-4. נתח את התוצאות ב-Wireshark:
+4. Analyze the results in Wireshark:
 
     ```bash
     wireshark -r /tmp/dns_doh.pcap
@@ -136,13 +136,13 @@ We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmis
 
 הדרך הפשוטה ביותר לקבוע את פעילות הגלישה עשויה להיות להסתכל על כתובות ה-IP שהמכשירים שלך ניגשים אליהם. לדוגמה, אם הצופה יודע ש-`privacyguides.org` נמצא בכתובת `198.98.54.105`, והמכשיר שלך מבקש נתונים מ-`198.98.54.105`, יש יש סיכוי טוב שאתה מבקר בPrivacy Guides.
 
-שיטה זו שימושית רק כאשר כתובת ה-IP שייכת לשרת המארח רק מעט אתרים. זה גם לא מאוד שימושי אם האתר מתארח בפלטפורמה משותפת (למשל Github Pages, Cloudflare Pages, Netlify, WordPress, Blogger וכו'). זה גם לא מאוד שימושי אם השרת מתארח מאחורי [פרוקסי הפוך](https://en.wikipedia.org/wiki/Reverse_proxy), הנפוץ מאוד באינטרנט המודרני.
+שיטה זו שימושית רק כאשר כתובת ה-IP שייכת לשרת המארח רק מעט אתרים. It's also not very useful if the site is hosted on a shared platform (e.g. GitHub Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). זה גם לא מאוד שימושי אם השרת מתארח מאחורי [פרוקסי הפוך](https://en.wikipedia.org/wiki/Reverse_proxy), הנפוץ מאוד באינטרנט המודרני.
 
 ### ציון שם השרת (SNI)
 
-ציון שם שרת משמש בדרך כלל כאשר כתובת IP מארחת אתרים רבים. זה יכול להיות שירות כמו Cloudflare, או הגנה אחרת של [מניעת מניעת שירות](https://en.wikipedia.org/wiki/Denial-of-service_attack).
+Server Name Indication is typically used when an IP address hosts many websites. זה יכול להיות שירות כמו Cloudflare, או הגנה אחרת של [מניעת מניעת שירות](https://en.wikipedia.org/wiki/Denial-of-service_attack).
 
-1. התחל לתעד שוב עם `tshark`. הוספנו מסנן עם כתובת ה-IP שלנו כדי שלא תלכוד הרבה מנות:
+1. התחל לתעד שוב עם `tshark`. We've added a filter with our IP address, so you don't capture many packets:
 
     ```bash
     tshark -w /tmp/pg.pcap port 443 and host 198.98.54.105
@@ -293,7 +293,7 @@ graph TB
     ispDNS --> | לא | כלום(לא לעשות כלום)
 ```
 
-יש להשתמש ב-DNS מוצפן עם צד שלישי רק כדי לעקוף הפניות מחדש ו[חסימת DNS](https://en.wikipedia.org/wiki/DNS_blocking) בסיסית כאשר אתה יכול להיות בטוח שלא יהיו השלכות או שאתה מעוניין בספק שיבצע סינון ראשוני.
+Encrypted DNS with a third party should only be used to get around redirects and basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences, or you're interested in a provider that does some rudimentary filtering.
 
 [רשימת שרתי DNS מומלצים](../dns.md ""){.md-button}
 

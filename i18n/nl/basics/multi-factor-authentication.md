@@ -1,10 +1,10 @@
 ---
-title: "Multifactorauthenticatie"
+title: "Multifactor Authentication"
 icon: 'material/two-factor-authentication'
 description: MFA is een cruciaal beveiligingsmechanisme voor de beveiliging van jouw online accounts, maar sommige methoden zijn sterker dan andere.
 ---
 
-**Multifactorauthenticatie** is een beveiligingsmechanisme dat extra stappen vereist naast het invoeren van jouw gebruikersnaam (of e-mail) en wachtwoord. De meest gebruikelijke methode zijn codes met tijdsbeperking die je via sms of een app kunt ontvangen.
+**Multifactor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. De meest gebruikelijke methode zijn codes met tijdsbeperking die je via sms of een app kunt ontvangen.
 
 Als een hacker (of tegenstander) jouw wachtwoord weet te achterhalen, krijgt hij toegang tot de account waar dat wachtwoord bij hoort. Een account met MFA dwingt de hacker om zowel het wachtwoord te hebben (iets wat je *weet*) als een apparaat dat je bezit (iets wat je *hebt*), zoals je telefoon.
 
@@ -32,7 +32,7 @@ De beveiliging van push notification MFA is afhankelijk van zowel de kwaliteit v
 
 ### Time-based One-time Password (TOTP)
 
-TOTP is een van de meest voorkomende vormen van MFB. Wanneer je TOTP instelt, moet je over het algemeen een [QR-code](https://en.wikipedia.org/wiki/QR_code) scannen die een "[gedeeld geheim](https://en.wikipedia.org/wiki/Shared_secret)" tot stand brengt met de dienst die je van plan bent te gebruiken. Het gedeelde geheim is beveiligd in de gegevens van de authenticator-app, en is soms beveiligd met een wachtwoord.
+TOTP is een van de meest voorkomende vormen van MFB. Wanneer je TOTP instelt, moet je over het algemeen een [QR-code](https://en.wikipedia.org/wiki/QR_code) scannen die een "[gedeeld geheim](https://en.wikipedia.org/wiki/Shared_secret)" tot stand brengt met de dienst die je van plan bent te gebruiken. The shared secret is secured inside the authenticator app's data, and is sometimes protected by a password.
 
 De in de tijd beperkte code wordt dan afgeleid van het gedeelde geheim en de huidige tijd. Aangezien de code slechts korte tijd geldig is, kan een adversair zonder toegang tot het gedeelde geheim geen nieuwe codes genereren.
 
@@ -94,7 +94,7 @@ This presentation discusses the history of password authentication, the pitfalls
 
 FIDO2 en WebAuthn hebben superieure beveiligings- en privacy-eigenschappen in vergelijking met andere MFA-methoden.
 
-Typisch voor webdiensten wordt het gebruikt met WebAuthn dat deel uitmaakt van de [W3C aanbevelingen](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). Het gebruikt publieke sleutelauthenticatie en is veiliger dan gedeelde geheimen die worden gebruikt in de Yubico OTP- en TOTP-methoden, omdat het de oorsprongsnaam (gewoonlijk de domeinnaam) bij de authenticatie betrekt. Attestatie wordt verstrekt om je te beschermen tegen phishing-aanvallen, aangezien het je helpt vast te stellen dat je de authentieke dienst gebruikt en niet een namaakkopie.
+Typically, for web services it is used with WebAuthn which is a part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). Het gebruikt publieke sleutelauthenticatie en is veiliger dan gedeelde geheimen die worden gebruikt in de Yubico OTP- en TOTP-methoden, omdat het de oorsprongsnaam (gewoonlijk de domeinnaam) bij de authenticatie betrekt. Attestatie wordt verstrekt om je te beschermen tegen phishing-aanvallen, aangezien het je helpt vast te stellen dat je de authentieke dienst gebruikt en niet een namaakkopie.
 
 In tegenstelling tot Yubico OTP, gebruikt WebAuthn geen publieke ID, dus de sleutel is **niet** identificeerbaar over verschillende websites. Het maakt ook geen gebruik van een cloud server van derden voor verificatie. Alle communicatie vindt plaats tussen de sleutel en de website waarop je inlogt. FIDO gebruikt ook een teller die bij gebruik wordt opgehoogd om hergebruik van sessies en gekloonde sleutels te voorkomen.
 
@@ -140,17 +140,17 @@ Als je SMS MFA gebruikt, gebruik dan een provider die jouw telefoonnummer niet z
 
 ## Meer plaatsen om MFA op te zetten
 
-Naast het beveiligen van jouw website logins, kan multifactor authenticatie ook worden gebruikt om jouw lokale logins, SSH sleutels of zelfs wachtwoord databases te beveiligen.
+Beyond just securing your website logins, multifactor authentication can be used to secure your local logins, SSH keys or even password databases as well.
 
 
 
 ### macOS
 
-macOS heeft [native ondersteuning](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) voor authenticatie met smartcards (PIV). Indien je een smartcard of een hardware beveiligingssleutel heeft die de PIV interface ondersteunt, zoals de YubiKey, raden wij je aan om de documentatie van jouw smartcard/hardware beveiligingsleverancier te volgen en tweede factor authenticatie voor jouw macOS computer in te stellen.
+macOS heeft [native ondersteuning](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) voor authenticatie met smartcards (PIV). If you have a smart card or a hardware security key that supports the PIV interface such as the YubiKey, we recommend that you follow your smart card or hardware security vendor's documentation and set up second factor authentication for your macOS computer.
 
 Yubico heeft een handleiding voor [het gebruik van je YubiKey als een smartcard in macOS](https://support.yubico.com/hc/articles/360016649059) die je kan helpen bij het instellen van je YubiKey op macOS.
 
-Nadat jouw smartcard/security key is ingesteld, raden wij je aan dit commando in de Terminal uit te voeren:
+After your smart card/security key is set up, we recommend running this command in the Terminal:
 
 
 
@@ -200,4 +200,4 @@ SSH MFA kan ook worden ingesteld met TOTP. DigitalOcean heeft een tutorial besch
 
 ### KeePass (en KeePassXC)
 
-KeePass en KeePassXC databases kunnen worden beveiligd met Challenge-Response of HOTP als een tweede-factor authenticatie. Yubico heeft een document verstrekt voor KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) en er is er ook een op de [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.
+KeePass and KeePassXC databases can be secured using HOTP or Challenge-Response as a second-factor of authentication. Yubico heeft een document verstrekt voor KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) en er is er ook een op de [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.

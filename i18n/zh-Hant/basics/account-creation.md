@@ -5,7 +5,7 @@ icon: 'material/account-plus'
 description: 創建帳戶為實際連線網際網路所必要，請採取下列步驟確保您的線上隱私。
 ---
 
-人們經常不假思索地註冊網路服務。 這些帳號也許是一個串流媒體服務可觀看人人都在談論的新節目，或是取得喜歡的快餐店折扣。 無論在什麼樣的場景，您都應該考慮現在和以後對個資的影響。
+人們經常不假思索地註冊網路服務。 Maybe it's a streaming service to watch that new show everyone's talking about, or an account that gives you a discount for your favorite fast food place. 無論在什麼樣的場景，您都應該考慮現在和以後對個資的影響。
 
 在新的服務申請帳號時，都伴著相關風險。 資料洩露；向第三方披露客戶資訊、員工有不當的權限可以訪問所有資料，在給出您的個資時都必須考慮的接下來可能的狀況。 您需要確信足夠信任該服務，這就是為什麼我們建議把重要資料儲存在最成熟且通過測試的產品。 這通常意味著提供 E2EE 並經過加密審計的服務。 審計增加了產品設計的保證，減低因開發人員缺乏經驗所導致的安全問題。
 
@@ -13,11 +13,11 @@ description: 創建帳戶為實際連線網際網路所必要，請採取下列�
 
 ## 服務條款 & 隱私權政策
 
-服務條款是您在使用服務時同意遵守的規則。 隨著更大的服務，這些規則通常由自動化系統強制執行。 有時這些自動化系統可能會出錯。 例如，您的帳號可能會因為使用 VPN 或 VOIP 號碼而被禁止或無法使用某些服務。 對這種禁令提出上訴通常很困難，而且通常都由系統自動處理而不是人工審核，造成了上訴的困難度。 這也是我們不建議使用 Gmail 作為電子郵件的原因之一。 電子郵件對於訪問您已註冊的其他服務至關重要。
+服務條款是您在使用服務時同意遵守的規則。 隨著更大的服務，這些規則通常由自動化系統強制執行。 有時這些自動化系統可能會出錯。 For example, you may be banned or locked out of your account on some services for using a VPN or VoIP number. 對這種禁令提出上訴通常很困難，而且通常都由系統自動處理而不是人工審核，造成了上訴的困難度。 這也是我們不建議使用 Gmail 作為電子郵件的原因之一。 電子郵件對於訪問您已註冊的其他服務至關重要。
 
-隱私權政策是該服務表示他們將如何使用您的數據，因此值得閱讀，以便您了解如何使用您的數據。 公司或組織可能沒有法律義務遵守政策中包含的所有內容（取決於司法管轄區）。 我們建議您了解當地法律以及這些法律允許供應商收集哪些資訊。
+The Privacy Policy is how the service says they will use your data, and it is worth reading so that you understand how your data will be used. 公司或組織可能沒有法律義務遵守政策中包含的所有內容（取決於司法管轄區）。 我們建議您了解當地法律以及這些法律允許供應商收集哪些資訊。
 
-我們建議您尋找特定的術語，例如「資料收集」、「資料分析」、「Cookie」、「廣告」或「第三方」服務。 有時您可以選擇退出資料收集或拒絕分享資料，但最好從一開始就選擇尊重您隱私權的服務。
+我們建議您尋找特定的術語，例如「資料收集」、「資料分析」、「Cookie」、「廣告」或「第三方」服務。 Sometimes you will be able to opt out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
 
 請記住，您把信任託付給該公司或組織，冀望其真的遵守自己的隱私政策。
 
@@ -42,7 +42,7 @@ description: 創建帳戶為實際連線網際網路所必要，請採取下列�
 
 #### 電子郵件別名
 
-如果您不想將您的真實電子郵件地址提供給服務，您可以選擇使用別名。 我們在電子郵件服務推薦頁面上更詳細地描述了它們。 基本上，別名服務允許您生成新的電子郵件位址，將所有電子郵件轉發到您的主位址。 這可以幫助防止跨服務跟蹤，並幫助您管理有時會隨註冊過程而來的營銷電子郵件。 這些可以根據它們被發送到的別名自動過濾。
+如果您不想將您的真實電子郵件地址提供給服務，您可以選擇使用別名。 我們在電子郵件服務推薦頁面上更詳細地描述了它們。 基本上，別名服務允許您生成新的電子郵件位址，將所有電子郵件轉發到您的主位址。 This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. 這些可以根據它們被發送到的別名自動過濾。
 
 如果服務遭到駭客攻擊，您用於註冊的電子郵件可能會收到網路釣魚或垃圾郵件。 為每個服務使用獨特的別名可以幫助確定哪些服務被駭。
 
@@ -76,7 +76,7 @@ OAuth 在那些服務之間深度整合情況下，可以特別有用。 我們�
 
 我們建議您避免使用需要電話號碼才能註冊的服務。 A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
 
-如果可以的話，你應該避免透露你的真實電話號碼。 某些服務將允許使用 VOIP 號碼，但這些通常會觸發欺詐偵測系統，導致帳戶被鎖定，因此我們不建議重要帳戶使用此系統。
+如果可以的話，你應該避免透露你的真實電話號碼。 Some services will allow the use of VoIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
 
 在許多情況下，您需要提供可以接收短信或電話的號碼，特別是在國際購物時，以防您在邊境審查時的訂單出現問題。 服務通常會使用您的號碼作為驗證方式；不要自作聰明使用假的電話號碼，最後讓自己重要的帳戶被鎖定！
 

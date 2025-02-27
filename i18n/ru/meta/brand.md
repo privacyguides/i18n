@@ -12,7 +12,7 @@ description: A guide for journalists and website contributors on proper branding
 - PG.org
 </div>
 
-Название сабреддита - **r/PrivacyGuides** или **the Privacy Guides Subreddit**.
+The name of the Subreddit is **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
 
 Дополнительные рекомендации по брендингу можно найти на сайте [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
 

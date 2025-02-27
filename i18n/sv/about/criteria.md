@@ -24,7 +24,7 @@ Vi har dessa krav på utvecklare som vill lämna in sitt projekt eller sin progr
 
 - Måste uppge tillhörighet, det vill säga din position inom projektet som lämnas in.
 
-- Must have a security whitepaper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
+- Must have a security white paper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
     - Regarding third party audit status, we want to know if you have undergone one, or have requested one. Om möjligt, ange vem som kommer att genomföra revisionen.
 
 - Måste förklara vad projektet tillför när det gäller integritetsskydd.

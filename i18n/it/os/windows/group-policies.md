@@ -3,9 +3,9 @@ title: Impostazioni dei criteri di gruppo
 description: A quick guide to configuring Group Policy to make Windows a bit more privacy respecting.
 ---
 
-Al di fuori della modifica del registro stesso, il **Local Group Policy Editor** è il modo più potente per modificare molti aspetti del sistema senza installare strumenti di terze parti. La modifica di queste impostazioni richiede [Pro Edition](index.md#windows-editions) o superiore.
+Outside modifying the registry itself, the **Local Group Policy Editor** is the most powerful way to change many aspects of your system without installing third-party tools. La modifica di queste impostazioni richiede [Pro Edition](index.md#windows-editions) o superiore.
 
-Queste impostazioni devono essere impostate su una nuova installazione di Windows. L'impostazione di questi parametri sull'installazione esistente dovrebbe funzionare, ma potrebbe introdurre un comportamento imprevedibile ed è a rischio dell'utente.
+These settings should be set on a brand-new installation of Windows. Setting them on your existing installation should work, but may introduce unpredictable behavior and is done at your own risk.
 
 Tutte queste impostazioni sono accompagnate da una spiegazione nell'editor dei Criteri di gruppo che ne illustra esattamente le funzioni, di solito in modo molto dettagliato. Prestate attenzione a queste descrizioni mentre apportate le modifiche, in modo da sapere esattamente cosa vi stiamo raccomandando. Abbiamo anche spiegato alcune delle nostre scelte qui di seguito, quando la spiegazione inclusa in Windows è inadeguata.
 
@@ -68,7 +68,7 @@ Impostare la forza di cifratura per il criterio di Windows 7 continua ad applica
 - Richiedi un'autenticazione aggiuntiva all'avvio: **Abilitato**
 - Permetti i PIN migliorati per l'avvio: **Abilitato**
 
-Nonostante i nomi di questi criteri, questo non _richiede_ di fare nulla per impostazione predefinita, ma sbloccherà l'_opzione_ di avere una configurazione più complessa (come la richiesta di un PIN all'avvio oltre al TPM) nella procedura guidata di Bitlocker.
+Despite the names of these policies, this doesn't _require_ you to do anything by default, but it will unlock the _option_ to have a more complex setup (such as requiring a PIN at startup in addition to the TPM) in the BitLocker setup wizard.
 
 #### Contenuto cloud
 

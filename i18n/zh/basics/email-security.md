@@ -29,13 +29,13 @@ description: 电子邮件在许多方面本身就不安全，以下是它不是�
 
 ### 哪些电子邮件客户端支持端到端加密？
 
-允许你使用IMAP和SMTP等标准访问协议的电子邮件提供商可以与我们推荐的任何 [电子邮件客户端一起使用](../email-clients.md)。 根据认证方法，如果供应商或电子邮件客户端不支持OATH或桥接应用，这可能会导致安全性下降，因为 [多因素认证](/basics/multi-factor-authentication/) ，不可能使用普通密码认证。
+允许你使用IMAP和SMTP等标准访问协议的电子邮件提供商可以与我们推荐的任何 [电子邮件客户端一起使用](../email-clients.md)。 Depending on the authentication method, this may lead to the decrease security if either the provider or the email client does not support OATH or a bridge application as [multifactor authentication](multi-factor-authentication.md) is not possible with plain password authentication.
 
 ### 我如何保护我的私钥？
 
-A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. 然后，该信息被智能卡解密，解密后的内容被送回设备。
+A smart card (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. The message is then decrypted by the smart card and the decrypted content is sent back to the device.
 
-在智能卡上进行解密是很有利的，这样可以避免将你的私钥暴露给某个被攻破的设备。
+It is advantageous for the decryption to occur on the smart card to avoid possibly exposing your private key to a compromised device.
 
 ## 电子邮件元数据概述
 
@@ -49,4 +49,4 @@ A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/36001379
 
 ### 为什么元数据不能被端到端加密？
 
-电子邮件元数据对于电子邮件最基本的功能（它从哪里来，又要到哪里去）至关重要。 E2EE最初没有内置于电子邮件协议中，而是需要像OpenPGP这样的附加软件。 因为OpenPGP信息仍然要与传统的电子邮件供应商合作，它不能对电子邮件元数据进行加密，只能对信息主体本身进行加密。 这意味着，即使使用OpenPGP，外部观察者也可以看到你的信息的很多信息，如你给谁发电子邮件，主题行，你什么时候发电子邮件，等等。
+电子邮件元数据对于电子邮件最基本的功能（它从哪里来，又要到哪里去）至关重要。 E2EE最初没有内置于电子邮件协议中，而是需要像OpenPGP这样的附加软件。 因为OpenPGP信息仍然要与传统的电子邮件供应商合作，它不能对电子邮件元数据进行加密，只能对信息主体本身进行加密。 That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, the subject lines, when you're emailing, etc.

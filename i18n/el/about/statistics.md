@@ -11,7 +11,7 @@ We self-host [Umami](https://umami.is) to create a nice visualization of our tra
 
 Με αυτή τη διαδικασία:
 
-- Οι πληροφορίες σας δεν κοινοποιούνται ποτέ σε τρίτους, παραμένουν σε διακομιστές που ελέγχουμε εμείς.
+- Your information is never shared with a third party, it stays on servers we control
 - Τα προσωπικά σας δεδομένα δεν αποθηκεύονται ποτέ, συλλέγουμε δεδομένα μόνο συγκεντρωτικά.
 - No client-side JavaScript is used
 

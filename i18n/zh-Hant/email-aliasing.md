@@ -80,7 +80,7 @@ cover: email-aliasing.webp
 
 <div class="admonition recommendation" markdown>
 
-![Simplelogin logo](assets/img/email-aliasing/simplelogin.svg){ align=right }
+![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ align=right }
 
 **SimpleLogin** 是免費服務，可在各種共享域名上提供電子郵件別名，並可選擇提供無限別名和自訂域名等付費功能。
 

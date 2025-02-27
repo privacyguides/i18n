@@ -19,7 +19,7 @@ Below are a few alternative operating systems that can be used on routers, Wi-Fi
 ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ align=right }
 ![OpenWrt logo](assets/img/router/openwrt-dark. vg#only-dark){ align=right }
 
-**OpenWrt** é um sistema operacional baseado em Linux; ele é usado principalmente em dispositivos incorporados (embedded) para rotear o tráfego de rede. Inclui util-linux, uClibc e BusyBox. Todos os componentes foram otimizados para roteadores domésticos.
+**OpenWrt** é um sistema operacional baseado em Linux; ele é usado principalmente em dispositivos incorporados (embedded) para rotear o tráfego de rede. Inclui util-linux, uClibc e BusyBox. All the components have been optimized for home routers.
 
 [:octicons-home-16: Homepage](https://openwrt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=Documentação}

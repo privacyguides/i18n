@@ -12,7 +12,7 @@ description: A guide for journalists and website contributors on proper branding
 - PG.org
 </div>
 
-서브레딧 명칭은 **r/PrivacyGuides** 혹은 **the Privacy Guides Subreddit**입니다.
+The name of the Subreddit is **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
 
 추가 브랜드 가이드라인은 [github.com/privacyguides/brand](https://github.com/privacyguides/brand)에서 확인하실 수 있습니다.
 

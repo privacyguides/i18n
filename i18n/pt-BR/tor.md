@@ -44,7 +44,7 @@ Há uma variedade de maneiras de se conectar à rede Tor a partir do seu disposi
 
 Alguns desses aplicativos são melhores do que outros, e novamente fazer uma determinação equivale ao seu modelo de ameaça. Se você é um usuário casual do Tor que não está preocupado com o ISP que coleta provas contra você, usar aplicativos como o [Orbot](#orbot) ou aplicativos do navegador móvel para acessar a rede Tor provavelmente não é problema. Aumentar o número de pessoas que usam Tor todos os dias ajuda a reduzir o mau estigma do Tor, e diminui a qualidade das "listas de usuários de Tor" que os ISPs e os governos podem compilar.
 
-Se o anonimato mais completo for fundamental para a sua situação, você deve somente **** utilizar o cliente do navegador Tor para área de trabalho, idealmente em uma configuração de [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os). Os navegadores móveis são menos comuns no Tor (e, como resultado, mais passíveis de impressão digital), e outras configurações não são tão rigorosamente testadas contra a desanonimização.
+Se o anonimato mais completo for fundamental para a sua situação, você deve somente **** utilizar o cliente do navegador Tor para área de trabalho, idealmente em uma configuração de [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os). Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
 
 ## Navegador Tor
 
@@ -120,11 +120,11 @@ Antes, recomendávamos habilitar a opção *"Isolar os endereços de destino"* (
 <div class="admonition tip" markdown>
 <p class="admonition-title">Dicas para o Android</p>
 
-Orbot pode fazer proxy em aplicativos individuais se eles suportarem proxy SOCKS ou HTTP. Ele também pode fazer proxy de todas as suas conexões de rede usando [VpnService](https://developer.android.com/reference/android/net/VpnService) e pode ser usado com o killswitch de VPN em :gear: **Configurações** → **Rede e Internet** → **VPN** → :gear: → **Bloquear conexões sem VPN**.
+Orbot pode fazer proxy em aplicativos individuais se eles suportarem proxy SOCKS ou HTTP. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN kill switch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
 
 Orbot costuma estar desatualizado no [repositório F-Droid, do Projeto Guardian](https://guardianproject.info/fdroid) e na [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android), então, considere baixar diretamente do [repositório GitHub](https://github.com/guardianproject/orbot/releases) em vez disso.
 
-Todas as versões são assinadas usando a mesma assinatura, por isso devem ser compatíveis entre si.
+All versions are signed using the same signature, so they should be compatible with each other.
 
 </div>
 

@@ -101,7 +101,7 @@ These operating systems differ from Fedora Workstation as they replace the [DNF]
 
 Una vez finalizada la actualización, reiniciará el sistema en la nueva implantación. `rpm-ostree` mantiene dos despliegues del sistema para que usted pueda fácilmente volver atrás si algo se rompe en el nuevo despliegue. También existe la opción de anclar más implementaciones según sea necesario.
 
-[Flatpak](https://flatpak.org) es el método principal de instalación de paquetes en estas distribuciones, ya que `rpm-ostree` solo está pensado para superponer paquetes que no pueden permanecer dentro de un contenedor sobre la imagen base.
+[Flatpak](https://flatpak.org) is the primary package installation method on these distributions, as `rpm-ostree` is only meant to overlay packages that cannot stay inside a container on top of the base image.
 
 Como alternativa a Flatpaks, existe la opción de [Toolbx](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox) para crear contenedores [Podman](https://podman.io) que imitan un entorno Fedora tradicional, una [característica útil](https://containertoolbx.org) para el desarrollador exigente. Estos contenedores comparten un directorio de inicio con el sistema operativo anfitrión.
 
@@ -123,7 +123,7 @@ NixOS es una distribución independiente basada en el gestor de paquetes Nix y c
 
 El gestor de paquetes de NixOS guarda cada versión de cada paquete en una carpeta diferente del almacén **Nix**. Debido a esto, puedes tener diferentes versiones del mismo paquete instalado en tu sistema. Después de escribir el contenido del paquete en la carpeta, esta pasa a ser de solo lectura.
 
-NixOS también proporciona actualizaciones atómicas. Primero descarga (o construye) los paquetes y archivos para la nueva generación de sistemas y luego cambia a ella. Hay diferentes maneras de cambiar a una nueva generación: puedes decirle a NixOS que la active después de reiniciar o puedes cambiar a ella en el tiempo de ejecución. También puedes *probar* la nueva generación cambiando a ella durante el tiempo de ejecución, pero sin establecerla como la generación actual del sistema. Si algo en el proceso de actualización se rompe, puedes simplemente reiniciar y automáticamente volver a una versión de trabajo de tu sistema.
+NixOS también proporciona actualizaciones atómicas. Primero descarga (o construye) los paquetes y archivos para la nueva generación de sistemas y luego cambia a ella. There are different ways to switch to a new generation: you can tell NixOS to activate it after reboot, or you can switch to it at runtime. También puedes *probar* la nueva generación cambiando a ella durante el tiempo de ejecución, pero sin establecerla como la generación actual del sistema. Si algo en el proceso de actualización se rompe, puedes simplemente reiniciar y automáticamente volver a una versión de trabajo de tu sistema.
 
 El gestor de paquetes Nix utiliza un lenguaje puramente funcional -que también se llama Nix- para definir paquetes.
 

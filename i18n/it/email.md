@@ -58,7 +58,7 @@ Inoltre, OpenPGP non supporta la Forward Secrecy, ciò significa che se la chiav
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** è un servizio di posta elettronica incentrato su privacy, crittografia, sicurezza e facilità d'uso. They have been in operation since 2013. Proton AG ha sede a Ginevra, Svizzera. Il piano gratuito di Proton Mail prevede 500 MB di spazio di archiviazione per la posta, che può essere aumentato gratuitamente fino a 1 GB.
+**Proton Mail** è un servizio di posta elettronica incentrato su privacy, crittografia, sicurezza e facilità d'uso. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -97,7 +97,7 @@ Proton Mail [accetta](https://proton.me/support/payment-options) contanti per po
 
 #### :material-check:{ .pg-green } Sicurezza dell'account
 
-Proton Mail supporta l'[autenticazione a due fattori](https://proton.me/support/two-factor-authentication-2fa) TOTP e le [chiavi di sicurezza hardware](https://proton.me/support/2fa-security-key), utilizzando gli standard FIDO2 o U2F. L'utilizzo di una chiave di sicurezza hardware richiede prima la configurazione dell'autenticazione a due fattori TOTP.
+Proton Mail supports TOTP [two-factor authentication](https://proton.me/support/two-factor-authentication-2fa) and [hardware security keys](https://proton.me/support/2fa-security-key) using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
 
 #### :material-check:{ .pg-green } Sicurezza dei dati
 
@@ -117,7 +117,7 @@ Se hai un account a pagamento e il tuo [abbonamento non viene pagato](https://pr
 
 #### :material-information-outline:{ .pg-blue } Funzionalità aggiuntive
 
-Il piano [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) di Proton Mail consente anche l'accesso ad altri servizi Proton, oltre a fornire molteplici domini personalizzati, alias "hide-my-email" illimitati e 500 GB di archiviazione.
+Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
 
 Proton Mail non offre una funzionalità di eredità digitale.
 
@@ -127,7 +127,7 @@ Proton Mail non offre una funzionalità di eredità digitale.
 
 ![Logo di Mailbox.org](assets/img/email/mailboxorg.svg){ align=right }
 
-**Mailbox.org** è un servizio email incentrato sull'essere sicuro, privo di pubblicità e alimentato privatamente da energia ecologica al 100%. Sono operativi dal 2014. Mailbox.org ha sede a Berlino, in Germania. I profili partono da 2 GB di archiviazione, i quali possono essere aumentati se necessario.
+**Mailbox.org** è un servizio email incentrato sull'essere sicuro, privo di pubblicità e alimentato privatamente da energia ecologica al 100%. Sono operativi dal 2014. Mailbox.org ha sede a Berlino, in Germania. Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
 [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
@@ -148,11 +148,11 @@ Mailbox.org consente di utilizzare il proprio dominio e supporta gli indirizzi d
 
 #### :material-check:{ .pg-green } Metodi di pagamento privati
 
-Mailbox.org non accetta criptovalute a causa della sospensione delle attività del suo elaboratore di pagamenti BitPay, in Germania. Tuttavia, accettano contanti per posta, pagamento in contanti su conto corrente, bonifico bancario, carta di credito, PayPal e un paio di fornitori specifici per la Germania: paydirekt e Sofortüberweisung.
+Mailbox.org non accetta criptovalute a causa della sospensione delle attività del suo elaboratore di pagamenti BitPay, in Germania. However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and a couple of German-specific processors: paydirekt and Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Sicurezza dell'account
 
-Mailbox.org supporta l'[autenticazione a due fattori](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) solo per la sua webmail. È possibile utilizzare TOTP o una [YubiKey](https://en.wikipedia.org/wiki/YubiKey) tramite [YubiCloud](https://yubico.com/products/services-software/yubicloud). Gli standard Web come [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) non sono ancora supportati.
+Mailbox.org supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. È possibile utilizzare TOTP o una [YubiKey](https://en.wikipedia.org/wiki/YubiKey) tramite [YubiCloud](https://yubico.com/products/services-software/yubicloud). Gli standard Web come [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) non sono ancora supportati.
 
 #### :material-information-outline:{ .pg-blue } Sicurezza dei dati
 
@@ -172,7 +172,7 @@ Alla scadenza del contratto, l'account sarà impostato come account utente limit
 
 #### :material-information-outline:{ .pg-blue } Funzionalità aggiuntive
 
-È possibile accedere al proprio account Mailbox.org tramite IMAP/SMTP utilizzando il [ servizio .onion](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). Tuttavia, l'interfaccia webmail non è accessibile tramite il loro servizio .onion e potresti riscontrare errori del certificato TLS.
+È possibile accedere al proprio account Mailbox.org tramite IMAP/SMTP utilizzando il [ servizio .onion](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). However, their webmail interface cannot be accessed via their .onion service, and you may experience TLS certificate errors.
 
 Tutti gli account sono dotati di uno spazio di archiviazione cloud limitato che [può essere crittografato](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org offre anche l'alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), che applica la crittografia TLS alla connessione tra i server di posta, altrimenti il messaggio non verrà inviato affatto. Mailbox.org supporta anche [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync), oltre ai protocolli di accesso standard come IMAP e POP3.
 
@@ -195,7 +195,7 @@ Questi fornitori memorizzano le tue email con la crittografia a conoscenza zero,
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Gli account gratuiti partono da 1 GB di spazio di archiviazione.
+**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1 GB of storage.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
@@ -226,11 +226,11 @@ Gli account Tuta a pagamento possono utilizzare 15 o 30 alias a seconda del pian
 
 #### :material-information-outline:{ .pg-blue } Metodi di pagamento privati
 
-Tuta accetta direttamente solo carte di credito e PayPal, tuttavia le [criptovalute](cryptocurrency.md) possono essere utilizzate per acquistare carte regalo grazie alla [collaborazione](https://tuta.com/support/#cryptocurrency) con Proxystore.
+Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
 
 #### :material-check:{ .pg-green } Sicurezza dell'account
 
-Tuta supporta l'[autenticazione a due fattori](https://tuta.com/support#2fa) con TOTP o U2F.
+Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
 
 #### :material-check:{ .pg-green } Sicurezza dei dati
 
@@ -297,7 +297,7 @@ Consideriamo queste funzionalità come importanti per poter fornire un servizio 
 **Requisiti minimi:**
 
 - Crittografia dei dati degli account email a riposo con crittografia ad "accesso zero".
-- Possibilità di esportazione come [Mbox](https://en.wikipedia.org/wiki/Mbox) o singoli .eml con standard [RFC5322](https://datatracker.ietf.org/doc/rfc5322).
+- Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
 - Consente agli utenti di utilizzare il proprio [nome di dominio](https://en.wikipedia.org/wiki/Domain_name). I nomi di dominio personalizzati sono importanti per gli utenti, poiché consentono loro di mantenere la propria autonomia dal servizio, dovesse diventare negativo o essere acquisito da un'altra azienda che non dà priorità alla privacy.
 - Opera su un'infrastruttura proprietaria, cioè, non basata su fornitori del servizio email di terze parti.
 

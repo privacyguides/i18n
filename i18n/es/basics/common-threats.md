@@ -4,7 +4,7 @@ icon: 'material/eye-outline'
 description: Tu modelo de amenaza es personal, pero éstas son algunas de las cosas que preocupan a muchos visitantes de este sitio.
 ---
 
-En términos generales, clasificamos nuestras recomendaciones en las [amenazas](threat-modeling.md) u objetivos que se aplican a la mayoría de las personas. ==Puede que no te preocupe ninguna, una, varias o todas estas posibilidades==, y las herramientas y servicios que utilices dependerán de cuáles sean tus objetivos. Es posible que también tengas amenazas específicas fuera de estas categorías, ¡lo cual está perfectamente bien! Lo importante es desarrollar una comprensión de los beneficios y las deficiencias de las herramientas que elijas utilizar, porque prácticamente ninguna de ellas te protegerá de todas las amenazas.
+En términos generales, clasificamos nuestras recomendaciones en las [amenazas](threat-modeling.md) u objetivos que se aplican a la mayoría de las personas. ==Puede que no te preocupe ninguna, una, varias o todas estas posibilidades==, y las herramientas y servicios que utilices dependerán de cuáles sean tus objetivos. You may have specific threats outside these categories as well, which is perfectly fine! Lo importante es desarrollar una comprensión de los beneficios y las deficiencias de las herramientas que elijas utilizar, porque prácticamente ninguna de ellas te protegerá de todas las amenazas.
 
 <span class="pg-purple">:material-incognito: **Anonimato**</span>
 :
@@ -19,7 +19,7 @@ Estar protegido de hackers u otros actores maliciosos que intentan acceder a *tu
 <span class="pg-viridian">:material-package-variant-closed-remove: **Ataques a la Cadena de Suministro**</span>
 :
 
-Normalmente una forma de <span class="pg-red">:material-target-account: Ataque Dirigido</span> que se centra en una vulnerabilidad o exploit introducido en un software por lo demás bueno, ya sea directamente o a través de una dependencia de un tercero.
+Typically, a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
 
 <span class="pg-orange">:material-bug-outline: **Ataques Pasivos**</span>
 :
@@ -44,7 +44,7 @@ Protegerte de las grandes redes publicitarias, como Google y Facebook, así como
 <span class="pg-green">:material-account-search: **Exposición Pública**</span>
 :
 
-Limitar la información sobre ti a la que pueden acceder en línea los motores de búsqueda o el público en general.
+Limiting the information about you that is accessible online—to search engines or the public.
 
 <span class="pg-blue-gray">:material-close-outline: **Censura**</span>
 :
@@ -76,7 +76,7 @@ Para minimizar el daño que una pieza maliciosa de software *podría hacer*, deb
 
 Los sistemas operativos móviles suelen tener un mejor aislamiento de aplicaciones que los sistemas operativos de escritorio: Las aplicaciones no pueden obtener acceso a la raíz y requieren permiso para acceder a los recursos del sistema.
 
-Los sistemas operativos de escritorio generalmente se retrasan en el aislamiento adecuado. ChromeOS tiene capacidades de aislamiento similares a las de Android, y macOS tiene un control total de los permisos del sistema (y los desarrolladores pueden optar por el aislamiento para las aplicaciones). Sin embargo, estos sistemas operativos transmiten información de identificación a sus respectivos OEM. Linux tiende a no enviar información a los proveedores de sistemas, pero tiene poca protección contra los exploits y las aplicaciones maliciosas. Esto puede mitigarse un poco con distribuciones especializadas que hagan un uso significativo de máquinas virtuales o contenedores, como [Qubes OS](../desktop.md#qubes-os).
+Los sistemas operativos de escritorio generalmente se retrasan en el aislamiento adecuado. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). Sin embargo, estos sistemas operativos transmiten información de identificación a sus respectivos OEM. Linux tiende a no enviar información a los proveedores de sistemas, pero tiene poca protección contra los exploits y las aplicaciones maliciosas. Esto puede mitigarse un poco con distribuciones especializadas que hagan un uso significativo de máquinas virtuales o contenedores, como [Qubes OS](../desktop.md#qubes-os).
 
 </div>
 
@@ -143,7 +143,7 @@ Por lo tanto, siempre que sea posible, hay que utilizar aplicaciones nativas en 
 
 </div>
 
-Incluso con E2EE, los proveedores de servicios aún pueden hacerte un perfil basado en **metadatos**, que generalmente no están protegidos. Aunque el proveedor de servicios no puede leer tus mensajes, sí puede observar cosas importantes, como con quién hablas, la frecuencia con la que les envías mensajes y cuándo sueles estar activo. La protección de los metadatos es bastante infrecuente, y -si está dentro de tu [modelo de amenazas](threat-modeling.md)- deberías prestar mucha atención a la documentación técnica del software que estás utilizando para ver si hay alguna minimización o protección de los metadatos.
+Incluso con E2EE, los proveedores de servicios aún pueden hacerte un perfil basado en **metadatos**, que generalmente no están protegidos. While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. La protección de los metadatos es bastante infrecuente, y -si está dentro de tu [modelo de amenazas](threat-modeling.md)- deberías prestar mucha atención a la documentación técnica del software que estás utilizando para ver si hay alguna minimización o protección de los metadatos.
 
 ## Programas de vigilancia masiva
 
@@ -156,7 +156,7 @@ La vigilancia masiva es el intrincado esfuerzo por controlar el "comportamiento,
 
 Si quieres saber más sobre los métodos de vigilancia y cómo se aplican en tu ciudad, también puedes echar un vistazo al [Atlas de la Vigilancia](https://atlasofsurveillance.org) de la [Electronic Frontier Foundation](https://eff.org).
 
-En Francia puedes consultar el [sitio web de Technopolice](https://technopolice.fr/villes), mantenido por la asociación sin ánimo de lucro La Quadrature du Net.
+In France, you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
 
 </div>
 
@@ -189,7 +189,7 @@ Si estás preocupado sobre los programas de vigilancia masiva, puedes usar estra
 
 Para muchas personas, el seguimiento y la vigilancia por parte de empresas privadas es una preocupación creciente. Las redes publicitarias omnipresentes, como las operadas por Google y Facebook, se extienden por Internet mucho más allá de los sitios que controlan, rastreando tus acciones a lo largo del camino. El uso de herramientas como los bloqueadores de contenido para limitar las solicitudes de red a sus servidores y la lectura de las políticas de privacidad de los servicios que utiliza pueden ayudarte a evitar a muchos adversarios básicos (aunque no puede evitar por completo el rastreo).[^4]
 
-Además, incluso empresas ajenas a la industria de *AdTech* o de seguimiento pueden compartir tu información con los [corredores de datos](https://es.wikipedia.org/wiki/Broker_de_informaci%C3%B3n) (como Cambridge Analytica, Experian o Datalogix) u otras partes. No puedes asumir automáticamente que tus datos están seguros sólo porque el servicio que utilizas no entra dentro del típico modelo de negocio de AdTech o de seguimiento. La mayor protección contra la recopilación de datos por parte de las empresas es encriptar u ofuscar tus datos siempre que sea posible, dificultando que los diferentes proveedores puedan correlacionar los datos entre sí y construir un perfil sobre ti.
+Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. No puedes asumir automáticamente que tus datos están seguros sólo porque el servicio que utilizas no entra dentro del típico modelo de negocio de AdTech o de seguimiento. La mayor protección contra la recopilación de datos por parte de las empresas es encriptar u ofuscar tus datos siempre que sea posible, dificultando que los diferentes proveedores puedan correlacionar los datos entre sí y construir un perfil sobre ti.
 
 ## Limitación de la información pública
 

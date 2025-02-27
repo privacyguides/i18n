@@ -140,16 +140,16 @@ A **news aggregator** is software which aggregates digital content from online n
 
 ## RSS를 지원하는 SNS
 
-널리 알려지진 않았지만, 일부 SNS는 RSS를 지원합니다.
+Some social media services also support RSS, although it's not often advertised.
 
 ### Reddit
 
-Reddit에서는 RSS를 이용해 서브레딧을 구독할 수 있습니다.
+Reddit allows you to subscribe to Subreddits via RSS.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Example</p>
 
-Replace `[SUBREDDIT]` with the subreddit you wish to subscribe to.
+Replace `[SUBREDDIT]` with the Subreddit you wish to subscribe to.
 
 ```text
 https://reddit.com/r/[SUBREDDIT]/new/.rss

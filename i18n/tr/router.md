@@ -19,7 +19,7 @@ Below are a few alternative operating systems that can be used on routers, Wi-Fi
 ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ align=right }
 ![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
 
-**OpenWrt** Linux kernelini temel alan, gömülü cihazlarda ağ trafiğini yönlendirmek için kullanılan bir işletim sistemidir. (Gömülü bir işletim sistemi de denebilir.). Ana bileşenler Linux kerneli, util - linux, uClibc ve BusyBox'tur. Tüm bileşenler, ev yönlendiricilerinde bulunan sınırlı depolama ve belleğe sığacak kadar küçük olacak şekilde optimize edilmiştir.
+**OpenWrt** Linux kernelini temel alan, gömülü cihazlarda ağ trafiğini yönlendirmek için kullanılan bir işletim sistemidir. (Gömülü bir işletim sistemi de denebilir.). Ana bileşenler Linux kerneli, util - linux, uClibc ve BusyBox'tur. All the components have been optimized for home routers.
 
 [:octicons-home-16: Anasayfa](https://openwrt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=Documentation}

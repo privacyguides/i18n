@@ -35,7 +35,7 @@ Um "bem" é algo que você valoriza e quer proteger. No contexto da segurança d
 
 Para responder a esta pergunta, é importante identificar quem pode querer ter como alvo você ou as suas informações. ==Uma pessoa ou entidade que representa uma ameaça aos seus ativos é um “adversário”.== Exemplos de potenciais adversários são o seu chefe, o seu ex-parceiro, o seu concorrente comercial, o seu governo ou um hacker numa rede pública.
 
-*Faça uma lista dos seus adversários ou daqueles que podem querer apropriar-se dos seus ativos. A sua lista pode incluir indivíduos, agências governamentais ou corporações.*
+*Make a list of your adversaries or those who might want to get hold of your assets. A sua lista pode incluir indivíduos, agências governamentais ou corporações.*
 
 Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
 

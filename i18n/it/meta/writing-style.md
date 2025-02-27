@@ -64,7 +64,7 @@ Dovremmo provare a evitare le abbreviazioni quadno possibile, ma la tecnologia �
 
 ## Sii conciso
 
-> Le parole inutili fanno perdere tempo al tuo pubblico. Una buona scrittura è come una conversazione. Ometti le informazioni che il pubblico non necessita di sapere. Ciò può risultare difficile per un esperto in materia, quindi, è importante far leggere a qualcuno le informazioni, dalla prospettiva del pubblico.
+> Le parole inutili fanno perdere tempo al tuo pubblico. Una buona scrittura è come una conversazione. Ometti le informazioni che il pubblico non necessita di sapere. This can be difficult as a subject-matter expert, so it’s important to have someone look at the information from the audience’s perspective.
 
 Fonte: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 

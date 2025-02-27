@@ -24,7 +24,7 @@ Os programadores que pretendam submeter o seu projeto ou software para apreciaç
 
 - Devem indicar a sua afiliação, ou seja, a sua posição no âmbito do projeto apresentado.
 
-- Must have a security whitepaper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
+- Must have a security white paper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
     - Regarding third party audit status, we want to know if you have undergone one, or have requested one. Sempre que possível, devem mencionar quem efetuará a(s) auditoria(s).
 
 - Devem explicar qual a mais-valia que o projeto traz às questões relacionadas com a privacidade.

@@ -26,7 +26,7 @@ cover: ai-chatbots.webp
 
 ### 本地 AI 模型的硬體
 
-本地模型也相當容易運行。 只要 8GB 記憶體，就能以較低的速度運行較小的模型。 使用更強大的硬體，例如具有足夠 VRAM 的專用 GPU 或具有快速 LPDDR5X 記憶體的現代系統，可以提供最佳的體驗。
+本地模型也相當容易運行。 It's possible to run smaller models at lower speeds on as little as 8 GB of RAM. 使用更強大的硬體，例如具有足夠 VRAM 的專用 GPU 或具有快速 LPDDR5X 記憶體的現代系統，可以提供最佳的體驗。
 
 LLM 通常可以透過參數的數量來區分用途，對於提供給終端使用者的開放原始碼模型，參數的數量通常介於 1.3B 到 405B 之間。 例如，參數低於 6.7B 的模型只適合文字摘要等基本任務，而參數介於 7B 與 13B 之間的模型則是品質與速度的絕佳折衷。 具備進階推理能力的模型一般在 70B 左右。
 
@@ -34,9 +34,9 @@ LLM 通常可以透過參數的數量來區分用途，對於提供給終端使�
 
 | 模型大小（使用 參數 作為單位） | 最低 RAM 要求 | 最低處理器要求          |
 | ---------------- | --------- | ---------------- |
-| 7B               | 8GB       | 現代 CPU（需支援 AVX2） |
-| 13B              | 16GB      | 現代 CPU（需支援 AVX2） |
-| 70B              | 72GB      | 具備 VRAM 的 GPU    |
+| 7B               | 8 GB      | 現代 CPU（需支援 AVX2） |
+| 13B              | 16 GB     | 現代 CPU（需支援 AVX2） |
+| 70B              | 72 GB     | 具備 VRAM 的 GPU    |
 
 若要在本機執行 AI，您需要 AI 模型和 AI 客戶端。
 
@@ -144,7 +144,7 @@ Llamafile 也支援 LLaVA。 但是，它不支援語音辨識及圖片生成。
 
 </div>
 
-Mozilla 只為某些 Llama 和 Mistral 模型提供 llamafile，而可用的第三方 llamafile 很少。 此外，Windows 將 `.exe` 檔案大小限制為最大 4GB，而大多數模型都大於此數目。
+Mozilla 只為某些 Llama 和 Mistral 模型提供 llamafile，而可用的第三方 llamafile 很少。 Moreover, Windows limits `.exe` files to 4 GB, and most models are larger than that.
 
 為了迴避這些問題，您可以 [load external weights](https://github.com/Mozilla-Ocho/llamafile#using-llamafile-with-external-weights)。
 
@@ -163,7 +163,7 @@ Mozilla 只為某些 Llama 和 Mistral 模型提供 llamafile，而可用的第�
 - 核對 checksum（核對和）[^1]
   - 在 Hugging Face 上，您可以按一下模型檔案，並在其下方尋找 **Copy SHA256** 按鈕，以找到雜湊值。 您應該將此 checksum 與您下載的模型檔案之 checksum 進行比對。
 
-如果下載的模型通過上述所有檢查，則該模型應該是安全的。
+A downloaded model is generally safe if it satisfies all the above checks.
 
 ## 標準
 
@@ -175,14 +175,14 @@ Mozilla 只為某些 Llama 和 Mistral 模型提供 llamafile，而可用的第�
 - 不得傳輸個人資料，包括聊天資料。
 - 必須跨平台。
 - 必須不需要 GPU。
-- 必須支援 GPU 驅動的快速推理。
+- Must support GPU-powered fast inference.
 - 必須無需網際網路連線。
 
 ### 最佳情況
 
 最佳情況標準代表我們 _希望_ 在這個類別的完美項目的應具備的特性。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
-- 應該容易下載和設定，例如具備一鍵安裝程序。
+- Should be easy to download and set up, e.g. with a one-click installation process.
 - 應該有內建的模型下載器選項。
 - 使用者應能修改 LLM 參數，例如其 system prompt 或 temperature。
 

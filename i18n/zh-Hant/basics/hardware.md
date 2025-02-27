@@ -55,7 +55,7 @@ description: 隱私保護不能僅聚焦於軟體方面；了解您每天使用�
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-有些裝置沒有適當的硬體來進行安全的臉部驗證。 臉部辨識有兩種主要類型：2D 和 3D。 3D 類型的臉部辨識利用點陣投影器，讓裝置為您的臉部建立 3D 深度圖。 請確定您的裝置具有此功能。
+有些裝置沒有適當的硬體來進行安全的臉部驗證。 There are two main types of face authentication: 2D and 3D. 3D 類型的臉部辨識利用點陣投影器，讓裝置為您的臉部建立 3D 深度圖。 請確定您的裝置具有此功能。
 
 </div>
 
@@ -102,7 +102,7 @@ Android 為生物辨識定義了三種 [安全等級](https://source.android.com
 
 有些筆記型電腦能夠[偵測](https://support.microsoft.com/en-us/windows/managing-presence-sensing-settings-in-windows-11-82285c93-440c-4e15-9081-c9e38c1290bb)您是否在場，並在您沒有坐在螢幕前時自動鎖定。 您應該檢查作業系統的設定，看看您的電腦是否支援此功能。
 
-您也可以購買纜線，例如 [Buskill](https://buskill.in)，當纜線中斷時，它會鎖定或抹除您的電腦。
+You can also get cables, like [BusKill](https://buskill.in), that will lock or wipe your computer when the cable is disconnected.
 
 ### 反阻絕/邪惡女傭攻擊
 

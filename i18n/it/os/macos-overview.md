@@ -6,7 +6,7 @@ description: macOS è il sistema operativo desktop di Apple che opera con il lor
 
 **macOS** è un sistema operativo Unix sviluppato da Apple per i propri computer Mac. Per migliorare la privacy su macOS, puoi disabilitare le funzionalità di telemetria e rafforzare le impostazioni di privacy e sicurezza esistenti.
 
-I più datati Mac e Hackintosh basati su Intel non supportano tutte le funzionalità di sicurezza offerte da macOS. To enhance data security, we recommend using a newer Mac with [Apple silicon](https://support.apple.com/HT211814).
+I più datati Mac e Hackintosh basati su Intel non supportano tutte le funzionalità di sicurezza offerte da macOS. To enhance data security, we recommend using a newer Mac with [Apple Silicon](https://support.apple.com/HT211814).
 
 ## Note sulla Privacy
 
@@ -14,7 +14,7 @@ Esistono alcune notevoli preoccupazioni sulla privacy con macOS, che dovremmo co
 
 ### Blocco di Attivazione
 
-I nuovissimi dispositivi di Apple silicon sono configurabili senza una connessione a Internet. Tuttavia, recuperare o ripristinare il tuo Mac **richiederà** una connessione a Internet, affinché i server di Apple possano verificarlo rispetto al database del Blocco di Attivazione, dei dispositivi perduti o rubati.
+Brand-new Apple Silicon devices can be set up without an internet connection. Tuttavia, recuperare o ripristinare il tuo Mac **richiederà** una connessione a Internet, affinché i server di Apple possano verificarlo rispetto al database del Blocco di Attivazione, dei dispositivi perduti o rubati.
 
 ### Controlli di Revoca dell'App
 
@@ -122,7 +122,7 @@ Decidi se desideri annunci personalizzati secondo il tuo utilizzo.
 
 ##### FileVault
 
-Sui dispositivi moderni con un Secure Enclave (Chip di Sicurezza Apple T2, Apple silicon), i tuoi dati sono sempre crittografati, ma sono automaticamente decrittografati da una chiave hardware, se il tuo dispositivo non rileva di esser stato manomesso. Enabling [FileVault](../encryption.md#filevault) additionally requires your password to decrypt your data, greatly improving security, especially when powered off or before the first login after powering on.
+On modern devices with a Secure Enclave (Apple T2 Security Chip, Apple Silicon), your data is always encrypted, but is decrypted automatically by a hardware key if your device doesn't detect it's been tampered with. Enabling [FileVault](../encryption.md#filevault) additionally requires your password to decrypt your data, greatly improving security, especially when powered off or before the first login after powering on.
 
 Sui vecchi computer Mac basati su Intel, FileVault è la sola forma di crittografia del disco disponibile di default, e dovrebbe sempre essere abilitata.
 
@@ -207,7 +207,7 @@ If an app is sandboxed, you should see the following output:
         [Bool] true
 ```
 
-If you find that the app you want to run is not sandboxed, then you may employ methods of [compartmentalization](../basics/common-threats.md#security-and-privacy) such as virtual machines or separate devices, use a similar app that is sandboxed, or choose to not use the unsandboxed app altogether.
+If you find that the app you want to run is not sandboxed, then you may employ methods of [compartmentalization](../basics/common-threats.md#security-and-privacy) such as virtual machines or separate devices, use a similar app that is sandboxed, or choose to not use the non-sandboxed app altogether.
 
 ##### Hardened Runtime
 
@@ -230,7 +230,7 @@ macOS presenta due forme di difesa dai malware:
 1. In primo luogo, la protezione dal lancio di malware è fornita dal processo di revisione dell'App Store per le applicazioni presenti su di esso, o *Notarizzazione* (parte di *Gatekeeper*), un procedimento in cui le app di terze parti sono scansionate in cerca di malware noti da Apple, prima di poter essere eseguite. Apps are required to be signed by the developers using a key given to them by Apple. This ensures that you are running software from the real developers. Notarization also requires that developers enable the Hardened Runtime for their apps, which limits methods of exploitation.
 2. La protezione da altri malware e rimedi da malware esistenti sul tuo sistema è fornita da *XProtect*, un software antivirus più tradizionale, integrato su macOS.
 
-Sconsigliamo di installare software antivirus di terze parti, poiché, tipicamente, non hanno accesso a livello di sistema, necessario per funzionare propriamente, a causa di limitazioni di Apple sulle app di terze parti, e poiché garantire gli alti livelli d'accesso da essi richiesti, causa spesso un rischio sulla sicurezza e privacy maggiore al tuo computer.
+We recommend against installing third-party antivirus software as they typically do not have the system-level access required to properly function anyway, because of Apple's limitations on third-party apps, and because granting the high levels of access they do ask for often poses an even greater security and privacy risk to your computer.
 
 ##### Backup
 
@@ -238,7 +238,7 @@ macOS comes with automatic backup software called [Time Machine](https://support
 
 ### Sicurezza Hardware
 
-Molte funzionalità di sicurezza moderne su macOS, come Avvio Sicuro, la mitigazione degli exploit a livello hardware, i controlli d'integrità dell'OS e la crittografia basata sui file, si affidano ad Apple silicon e i più nuovi hardware di Apple hanno sempre la [migliore sicurezza](https://support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1). Incoraggiamo esclusivamente l'utilizzo di Apple silicon, e non dei precedenti computer Mac o Hackintosh basati su Intel.
+Many modern security features in macOS—such as modern Secure Boot, hardware-level exploit mitigation, OS integrity checks, and file-based encryption—rely on Apple Silicon, and Apple's newer hardware always has the [best security](https://support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1). We only encourage the use of Apple Silicon, and not older Intel-based Mac computers or Hackintoshes.
 
 Alcune di queste funzionalità di sicurezza moderne sono disponibili sui vecchi computer Mac con processore Intel con l'Apple T2 Security Chip, ma questo chip è suscettibile all'exploit *checkm8* che potrebbe comprometterne la sicurezza.
 
@@ -256,7 +256,7 @@ I computer Mac sono configurabili per avviarsi in tre modalità di sicurezza: *S
 
 #### Secure Enclave
 
-Secure Enclave è un chip di sicurezza integrato nei dispositivi con Apple silicon, responsabile della memorizzazione e generazione delle chiavi crittografiche per i dati inattivi, nonché per i dati di Face ID e Touch ID. Contiene la propria ROM di avvio separata.
+The Secure Enclave is a security chip built into devices with Apple Silicon which is responsible for storing and generating encryption keys for data at rest as well as Face ID and Touch ID data. Contiene la propria ROM di avvio separata.
 
 Puoi pensare a Secure Enclave come un hub di sicurezza del tuo dispositivo: include un motore crittografico AES e un meccanismo per memorizzare in sicurezza le tue chiavi crittografiche, ed è separato dal resto del sistema quindi, anche se il processore principale è compromesso, dovrebbe ancora essere sicuro.
 
@@ -268,7 +268,7 @@ I tuoi dati biometrici non abbandonano mai il tuo dispositivo; sono memorizzati 
 
 #### Disconnessione del Microfono Hardware
 
-Tutti i portatili con Apple silicon o il chip T2, includono una disconnessione hardware per il microfono integrato, alla chiusura dello schermo. Ciò significa che non vi è modo per un utente malevolo, di ascoltare dal microfono del tuo Mac, anche se il sistema operativo è compromesso.
+All laptops with Apple Silicon or the T2 chip feature a hardware disconnect for the built-in microphone whenever the lid is closed. Ciò significa che non vi è modo per un utente malevolo, di ascoltare dal microfono del tuo Mac, anche se il sistema operativo è compromesso.
 
 Nota che la fotocamera non presenta una disconnessione hardware, poiché la sua inquadratura è comunque oscurata, alla chiusura dello schermo.
 
@@ -287,7 +287,7 @@ Quando è necessario utilizzare uno di tali processori, Apple opera da fornitore
 
 #### Protezioni di Accesso Diretto alla Memoria
 
-Apple silicon separa ogni componente che richieda l'accesso diretto alla memoria. Ad esempio, una porta di Thunderbolt non può accedere alla memoria designata per il Kernel.
+Apple Silicon separates each component that requires direct memory access. Ad esempio, una porta di Thunderbolt non può accedere alla memoria designata per il Kernel.
 
 ## Fonti
 

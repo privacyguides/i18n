@@ -19,7 +19,7 @@ Below are a few alternative operating systems that can be used on routers, Wi-Fi
 ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ align=right }
 ![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
 
-**OpenWrt** - це операційна система (зокрема, вбудована операційна система), заснована на ядрі Linux, яка в основному використовується на вбудованих пристроях для маршрутизації мережевого трафіку. Основними компонентами є ядро Linux, util-linux, uClibc, та BusyBox. Всі компоненти були оптимізовані за розміром, щоб бути досить маленькими для розміщення в обмеженому сховищі і пам'яті, доступних в домашніх маршрутизаторах.
+**OpenWrt** - це операційна система (зокрема, вбудована операційна система), заснована на ядрі Linux, яка в основному використовується на вбудованих пристроях для маршрутизації мережевого трафіку. Основними компонентами є ядро Linux, util-linux, uClibc, та BusyBox. All the components have been optimized for home routers.
 
 [Homepage](https://openwrt.org){ .md-button .md-button--primary }
 

@@ -63,13 +63,13 @@ schema:
 
 ## "复杂的是更好的"
 
-我们经常看到人们描述的隐私威胁模型过于复杂。 通常情况下，这些解决方案包括许多不同的电子邮件账户或有许多移动部件和条件的复杂设置等问题。 答案通常是“做 *×*的最佳方式是什么？”。
+我们经常看到人们描述的隐私威胁模型过于复杂。 Often, these solutions include problems like multiple email accounts or complicated setups with lots of moving parts and conditions. 答案通常是“做 *×*的最佳方式是什么？”。
 
 为自己寻找 "最佳 "解决方案并不一定意味着你要追求一个有几十种条件的无懈可击的解决方案——这些解决方案往往难以现实地发挥作用。 正如我们之前所讨论的，安全往往是以便利为代价的。 下面，我们提供一些提示。
 
 1. ==行动需要服务于一个特定的目的：==思考如何用最少的行动完成你想要的东西。
 2. ==消除人类的失败点：==我们会失败，会累，会忘记事情。 为了维护安全，避免依赖你必须记住的手动条件和流程。
-3. ==为你的意图使用正确的保护水平。==我们经常看到所谓的执法或防传唤解决方案的建议。 这些往往需要专业知识，通常不是人们想要的。 如果你可以通过一个简单的疏忽轻易地去掉匿名，那么为匿名建立一个复杂的威胁模型就没有意义。
+3. ==为你的意图使用正确的保护水平。==我们经常看到所谓的执法或防传唤解决方案的建议。 这些往往需要专业知识，通常不是人们想要的。 There's no point in building an intricate threat model for anonymity if you can be easily deanonymized by a simple oversight.
 
 那么，如何看待这个问题？
 
@@ -94,4 +94,4 @@ schema:
 
     Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
 
-[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added a obfuscated backdoor into `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed.
+[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added an obfuscated backdoor into `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed.

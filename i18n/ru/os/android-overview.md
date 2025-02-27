@@ -84,7 +84,7 @@ Android 13:
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49). Эта библиотека включает [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging), которая нужна для поддержки [push-уведомлений](https://en.wikipedia.org/wiki/Push_technology) в приложениях. Именно [это относится](https://fosstodon.org/@bitwarden/109636825700482007) к Bitwarden. Это не означает, что Bitwarden использует все возможности аналитики, которые предоставляет Google Firebase Analytics.
+Privacy-friendly apps such as [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest) may show some trackers such as [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49). Эта библиотека включает [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging), которая нужна для поддержки [push-уведомлений](https://en.wikipedia.org/wiki/Push_technology) в приложениях. Именно [это относится](https://fosstodon.org/@bitwarden/109636825700482007) к Bitwarden. That doesn't mean that Bitwarden is using all the analytics features that are provided by Google Firebase Analytics.
 
 </div>
 
@@ -114,7 +114,7 @@ Like user profiles, a private space is encrypted using its own encryption key, a
 
 Unlike work profiles, Private Space is a feature native to Android that does not require a third-party app to manage it. For this reason, we generally recommend using a private space over a work profile, though you can use a work profile alongside a private space.
 
-### VPN Killswitch
+### VPN kill switch
 
 Android 7 and above supports a VPN kill switch, and it is available without the need to install third-party apps. Эта функция может предотвратить утечку данных в случае отключения VPN. Его можно найти в :gear: **Настройки** → **Сеть и интернет** → **VPN** → :gear: → **Блокировать соединения без VPN**.
 
@@ -124,7 +124,7 @@ Android 7 and above supports a VPN kill switch, and it is available without the 
 
 ## Сервисы Google
 
-If you are using a device with Google services—whether with the stock operating system or an operating system that safely sandboxes Google Play Services like GrapheneOS—there are a number of additional changes you can make to improve your privacy. Мы по-прежнему рекомендуем полностью отказаться от сервисов Google или ограничить сервисы Google Play определенным профилем пользователя/рабочим профилем, объединив контроллер устройства, такой как *Shelter*, с GrapheneOS's Sandboxed Google Play.
+If you are using a device with Google services—whether with the stock operating system or an operating system that safely sandboxes Google Play Services like GrapheneOS—there are a number of additional changes you can make to improve your privacy. We still recommend avoiding Google services entirely, or limiting Google Play Services to a specific user/work profile by combining a device controller like *Shelter* with GrapheneOS's Sandboxed Google Play.
 
 ### Дополнительная защита
 

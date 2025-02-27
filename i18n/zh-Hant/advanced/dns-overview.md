@@ -4,7 +4,7 @@ icon: material/dns
 description: 網域名稱系統是“網際網路電話簿” ，可幫助瀏覽器找到它正在尋找的網站。
 ---
 
-[網域名稱系統](https://en.wikipedia.org/wiki/Domain_Name_System) 是「網際網路的電話簿」。 DNS 將網域名稱轉換為 IP 位址，以便瀏覽器和其他服務可以通過分散的伺服器網路載入網路資源。
+The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is the 'phone book of the Internet'. DNS 將網域名稱轉換為 IP 位址，以便瀏覽器和其他服務可以通過分散的伺服器網路載入網路資源。
 
 ## 什麼是 DNS？
 
@@ -24,7 +24,7 @@ DNS 從網際網路的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
     ```
 
-2. 然後我們可以使用 [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) （ Linux ， MacOS 等）或 [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) （ Windows ）將 DNS查詢發送到兩個伺服器。 Web 瀏覽器等軟體會自動執行這些查詢，除非它們被設定為使用加密的DNS。
+2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, macOS, etc.) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. Web 瀏覽器等軟體會自動執行這些查詢，除非它們被設定為使用加密的DNS。
 
     === "Linux ， macOS"
 
@@ -39,7 +39,7 @@ DNS 從網際網路的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System
         nslookup privacyguides.org 8.8.8.8
         ```
 
-3. 接下來，[分析](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs)結果：
+3. Next, we want to [analyze](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
 
     === "Wireshark"
 
@@ -70,7 +70,7 @@ DNS 從網際網路的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System
 
 ### DNSCrypt
 
-[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) 是第一種查詢加密 DNS 的方法之一。 DNSCrypt 在 443 端口上運作，與 TCP 或 UDP 傳輸協議一起使用。 DNSCrypt 從未向 [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force)提交文件 ，也未通過 [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments) 流程，因此 [實用少](https://dnscrypt.info/implementations)並未被廣泛使用。 因此，它大量被更受歡迎的 [DNS over HTTPS](#dns-over-https-doh) 取代。
+[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) 是第一種查詢加密 DNS 的方法之一。 DNSCrypt 在 443 端口上運作，與 TCP 或 UDP 傳輸協議一起使用。 DNSCrypt has never been submitted to the [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) nor has it gone through the [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments) process, so it has not been used widely outside a few [implementations](https://dnscrypt.info/implementations). 因此，它大量被更受歡迎的 [DNS over HTTPS](#dns-over-https-doh) 取代。
 
 ### 通過 TLS 的 DNS (DoT)
 
@@ -118,7 +118,7 @@ Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profi
 
 3. 提出請求後，快速鍵 <kbd>CTRL</kbd> + <kbd>C</kbd>可停止封包捉取。
 
-4. 在 Wireshark 中分析結果：
+4. Analyze the results in Wireshark:
 
     ```bash
     wireshark -r /tmp/dns_doh.pcap
@@ -136,13 +136,13 @@ Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profi
 
 確定瀏覽活動的最簡單方法可能是查看您的設備正在訪問的 IP 位址。 例如，如果觀察者知道 `privacyguides.org` 位於 `198.98.54.105`，而您的裝置正在請求 `198.98.54.105`的數據，則很有可能您正在訪問隱私指南。
 
-此方法僅在 IP 位址屬於僅託管少數網站的伺服器時才有用。 如果網站託管在共享平臺(例如 Github Pages ， Cloudflare Pages ， Netlify ， WordPress ， Blogger等)，它就不太有用。 如果伺服器託管在 [反向代理](https://en.wikipedia.org/wiki/Reverse_proxy)之後，這也不是很有用，這在現代網路上非常常見。
+此方法僅在 IP 位址屬於僅託管少數網站的伺服器時才有用。 It's also not very useful if the site is hosted on a shared platform (e.g. GitHub Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). 如果伺服器託管在 [反向代理](https://en.wikipedia.org/wiki/Reverse_proxy)之後，這也不是很有用，這在現代網路上非常常見。
 
 ### 伺服器名指示(SNI)
 
-伺服器名稱指示通常用於IP位址託管多個網站時。 這可能是像 Cloudflare 的服務，或者其他 [阻斷服務攻擊](https://en.wikipedia.org/wiki/Denial-of-service_attack) 保護。
+Server Name Indication is typically used when an IP address hosts many websites. 這可能是像 Cloudflare 的服務，或者其他 [阻斷服務攻擊](https://en.wikipedia.org/wiki/Denial-of-service_attack) 保護。
 
-1. 再次開始捕捉 `tshark`。 我們新增了一個自身 IP 位址的過濾器，因此您不會捕獲過多封包：
+1. 再次開始捕捉 `tshark`。 We've added a filter with our IP address, so you don't capture many packets:
 
     ```bash
     tshark -w /tmp/pg.pcap port 443 and host 198.98.54.105
@@ -333,7 +333,7 @@ graph TB
 ```
 
 
-與第三方合作的加密 DNS 應限於避開重定向和基本的 [DNS 封鎖](https://en.wikipedia.org/wiki/DNS_blocking) ，也就是確定無後顧或對供應商的基本過濾感興趣時才用第三方。
+Encrypted DNS with a third party should only be used to get around redirects and basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences, or you're interested in a provider that does some rudimentary filtering.
 
 [推薦的 DNS 伺服器列表](../dns.md ""){.md-button}
 

@@ -6,7 +6,7 @@ description: macOS is Apple's desktop operating system that works with their har
 
 **macOS** היא מערכת הפעלה Unix שפותחה על ידי אפל עבור מחשבי ה-Mac שלהם. כדי לשפר את הפרטיות ב-macOS, אתה יכול להשבית את תכונות הטלמטריה ולהקשיח את הגדרות הפרטיות והאבטחה הקיימות.
 
-מחשבי Mac ו-Hackintosh ישנים יותר מבוססי אינטל אינם תומכים בכל תכונות האבטחה ש-macOS מציעה. To enhance data security, we recommend using a newer Mac with [Apple silicon](https://support.apple.com/HT211814).
+מחשבי Mac ו-Hackintosh ישנים יותר מבוססי אינטל אינם תומכים בכל תכונות האבטחה ש-macOS מציעה. To enhance data security, we recommend using a newer Mac with [Apple Silicon](https://support.apple.com/HT211814).
 
 ## הערות פרטיות
 
@@ -14,7 +14,7 @@ description: macOS is Apple's desktop operating system that works with their har
 
 ### נעילת הפעלה
 
-ניתן להגדיר מכשירי סיליקון חדשים של Apple ללא חיבור לאינטרנט. עם זאת, שחזור או איפוס ה-Mac שלך **ידרש**חיבור לאינטרנט לשרתים של אפל כדי לבדוק מול מסד הנתונים של נעילת ההפעלה של מכשירים שאבדו או נגנבו.
+Brand-new Apple Silicon devices can be set up without an internet connection. עם זאת, שחזור או איפוס ה-Mac שלך **ידרש**חיבור לאינטרנט לשרתים של אפל כדי לבדוק מול מסד הנתונים של נעילת ההפעלה של מכשירים שאבדו או נגנבו.
 
 ### בדיקות ביטול אפליקציה
 
@@ -122,7 +122,7 @@ If you want to be able to install apps from the App Store but don't want to enab
 
 ##### FileVault
 
-במכשירים מודרניים עם מובלעת מאובטחת (Apple T2 Security Chip, Apple Silicon), הנתונים שלך תמיד מוצפנים, אך מפוענחים אוטומטית על ידי מפתח חומרה אם המכשיר שלך לא מזהה שטופלו בהם. Enabling [FileVault](../encryption.md#filevault) additionally requires your password to decrypt your data, greatly improving security, especially when powered off or before the first login after powering on.
+On modern devices with a Secure Enclave (Apple T2 Security Chip, Apple Silicon), your data is always encrypted, but is decrypted automatically by a hardware key if your device doesn't detect it's been tampered with. Enabling [FileVault](../encryption.md#filevault) additionally requires your password to decrypt your data, greatly improving security, especially when powered off or before the first login after powering on.
 
 במחשבי Mac ישנים יותר מבוססי אינטל, FileVault היא הצורה היחידה של הצפנת דיסקים הזמינה כברירת מחדל, וצריכה להיות מופעלת תמיד.
 
@@ -207,7 +207,7 @@ If an app is sandboxed, you should see the following output:
         [Bool] true
 ```
 
-If you find that the app you want to run is not sandboxed, then you may employ methods of [compartmentalization](../basics/common-threats.md#security-and-privacy) such as virtual machines or separate devices, use a similar app that is sandboxed, or choose to not use the unsandboxed app altogether.
+If you find that the app you want to run is not sandboxed, then you may employ methods of [compartmentalization](../basics/common-threats.md#security-and-privacy) such as virtual machines or separate devices, use a similar app that is sandboxed, or choose to not use the non-sandboxed app altogether.
 
 ##### Hardened Runtime
 
@@ -230,7 +230,7 @@ macOS מגיע עם שתי צורות של הגנה מפני תוכנות זדו
 1. הגנה מפני הפעלת תוכנות זדוניות מלכתחילה מסופקת על ידי תהליך הבדיקה של App Store עבור יישומי App Store, או *אישור נוטריוני* (חלק מ* Gatekeeper*), תהליך שבו יישומי צד שלישי נסרקים לאיתור תוכנות זדוניות ידועות על ידי אפל לפני שהם מורשים לפעול. Apps are required to be signed by the developers using a key given to them by Apple. This ensures that you are running software from the real developers. Notarization also requires that developers enable the Hardened Runtime for their apps, which limits methods of exploitation.
 2. הגנה מפני תוכנות זדוניות אחרות ותיקון מתוכנות זדוניות קיימות במערכת שלך מסופקת על ידי *XProtect*, תוכנת אנטי-וירוס מסורתית יותר המובנית ב-macOS.
 
-אנו ממליצים לא להתקין תוכנת אנטי-וירוס של צד שלישי מכיוון שבדרך כלל אין להם את הגישה ברמת המערכת הנדרשת לתפקוד תקין בכל מקרה, בגלל המגבלות של אפל על אפליקציות של צד שלישי, ומכיוון שהענקת רמות הגישה הגבוהות שהם מבקשים מייצגת לעתים קרובות סיכון אבטחה ופרטיות גדול עוד יותר למחשב שלך.
+We recommend against installing third-party antivirus software as they typically do not have the system-level access required to properly function anyway, because of Apple's limitations on third-party apps, and because granting the high levels of access they do ask for often poses an even greater security and privacy risk to your computer.
 
 ##### גיבויים
 
@@ -238,7 +238,7 @@ macOS comes with automatic backup software called [Time Machine](https://support
 
 ### אבטחת חומרה
 
-תכונות אבטחה מודרניות רבות ב-macOS - כמו אתחול מאובטח מודרני, הפחתת ניצול ברמת החומרה, בדיקות שלמות מערכת ההפעלה והצפנה מבוססת קבצים - מסתמכות על סיליקון של Apple, ולחומרה החדשה יותר של אפל יש תמיד את [האבטחה הטובה ביותר](https:// support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1). אנו מעודדים רק שימוש בסיליקון של Apple, ולא במחשבי Mac או Hackintosh ישנים יותר מבוססי אינטל.
+Many modern security features in macOS—such as modern Secure Boot, hardware-level exploit mitigation, OS integrity checks, and file-based encryption—rely on Apple Silicon, and Apple's newer hardware always has the [best security](https://support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1). We only encourage the use of Apple Silicon, and not older Intel-based Mac computers or Hackintoshes.
 
 חלק מתכונות האבטחה המודרניות הללו זמינות במחשבי Mac ישנים יותר מבוססי אינטל עם שבב האבטחה של Apple T2, אך השבב הזה רגיש לניצול *checkm8* שעלול לסכן את האבטחה שלו.
 
@@ -256,7 +256,7 @@ ROM האתחול הוא שורש האמון של החומרה. זה מבטיח �
 
 #### Secure Enclave
 
-ה-Secure Enclave הוא שבב אבטחה מובנה במכשירים עם סיליקון של אפל אשר אחראי על אחסון ויצירת מפתחות הצפנה עבור נתונים במנוחה וכן נתוני Face ID ו-Touch ID. הוא מכיל ROM אתחול נפרד משלו.
+The Secure Enclave is a security chip built into devices with Apple Silicon which is responsible for storing and generating encryption keys for data at rest as well as Face ID and Touch ID data. הוא מכיל ROM אתחול נפרד משלו.
 
 אתה יכול לחשוב על ה-Secure Enclave כמרכז האבטחה של המכשיר שלך: יש לו מנוע הצפנה AES ומנגנון לאחסון מאובטח של מפתחות ההצפנה שלך, והוא מופרד משאר המערכת, כך שגם אם המעבד הראשי נפגע, הוא צריך עדיין להיות בטוח.
 
@@ -268,7 +268,7 @@ ROM האתחול הוא שורש האמון של החומרה. זה מבטיח �
 
 #### ניתוק מיקרופון של החומרה
 
-כל המחשבים הניידים עם סיליקון אפל או שבב T2 כוללים ניתוק חומרה עבור המיקרופון המובנה בכל פעם שהמכסה סגור. זה אומר שאין שום דרך לתוקף להאזין למיקרופון של ה-Mac שלך גם אם מערכת ההפעלה נפגעת.
+All laptops with Apple Silicon or the T2 chip feature a hardware disconnect for the built-in microphone whenever the lid is closed. זה אומר שאין שום דרך לתוקף להאזין למיקרופון של ה-Mac שלך גם אם מערכת ההפעלה נפגעת.
 
 שימו לב שלמצלמה אין ניתוק חומרה, מכיוון שהנוף שלה מעורפל כאשר המכסה סגור בכל מקרה.
 
@@ -287,7 +287,7 @@ ROM האתחול הוא שורש האמון של החומרה. זה מבטיח �
 
 #### הגנות גישה ישירה לזיכרון
 
-סיליקון אפל מפריד בין כל רכיב שדורש גישה ישירה לזיכרון. לדוגמה, יציאת Thunderbolt לא יכולה לגשת לזיכרון המיועד לליבה.
+Apple Silicon separates each component that requires direct memory access. לדוגמה, יציאת Thunderbolt לא יכולה לגשת לזיכרון המיועד לליבה.
 
 ## מקורות
 

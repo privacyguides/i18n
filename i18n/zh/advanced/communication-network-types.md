@@ -44,7 +44,7 @@ description: 即时信息应用程序常用的几种网络架构的概述。
 - 允许在运行自己的服务器时更好地控制自己的数据。
 - 允许您通过在多个“公共”服务器之间选择信任谁。
 - 通常允许第三方客户端提供更原生、定制或可访问的体验。
-- 可以验证服务器与公共源代码匹配，假设您有权访问服务器或您信任这样做的人（例如，家庭成员）。
+- Server software can be verified that it matches public source code, assuming you have access to the server, or you trust the person who does (e.g., a family member).
 
 **缺点**
 
@@ -60,7 +60,7 @@ description: 即时信息应用程序常用的几种网络架构的概述。
 
 点对点聊天软件连接到一个由节点组成的 [分布式网络](https://en.wikipedia.org/wiki/Distributed_networking) ，在没有第三方服务器的情况下将信息转发给收件人。
 
-客户端（对等节点）通常通过使用 [分布式网络](https://en.wikipedia.org/wiki/Distributed_computing) 找到对方。 这方面的例子包括 [分布式哈希表](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT)，由 [torrents](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) 和 [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) 等使用。 另一种方法是基于近距离的网络，通过WiFi或蓝牙建立连接（例如，Briar或 [Scuttlebutt](https://scuttlebutt.nz) 社交网络协议）。
+客户端（对等节点）通常通过使用 [分布式网络](https://en.wikipedia.org/wiki/Distributed_computing) 找到对方。 这方面的例子包括 [分布式哈希表](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT)，由 [torrents](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) 和 [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) 等使用。 Another approach is proximity based networks, where a connection is established over Wi-Fi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
 
 一旦一个节点通过这些方法中的任何一种找到了通往其联系人的路线，它们之间就会建立直接连接。 虽然信息通常是加密的，但观察者仍然可以推断出发件人和收件人的位置和身份。
 
@@ -85,10 +85,10 @@ P2P网络不使用服务器，因为节点之间直接通信，因此不存在�
 
 使用 [匿名路由](https://doi.org/10.1007/978-1-4419-5906-5_628) 的Messenger隐藏发送方、接收方的身份或他们一直在通信的证据。 理想情况下，Messenger应该将这三者都隐藏起来。
 
-有 [许多](https://doi.org/10.1145/3182658) 不同的方法来实现匿名网络。 其中最著名的是
+There are [many](https://doi.org/10.1145/3182658) ways to implement anonymous routing. 其中最著名的是
 洋葱路由 （即 [Tor](tor-overview.md)），它通过一个强加密的 [覆盖网络](https://en.wikipedia.org/wiki/Overlay_network) ，隐藏每个节点的位置以及每个信息的接收者和发送者来通信。 发件人和收件人从不直接交互，只通过一个秘密的会合节点会面，这样就不会泄露IP地址或物理位置。 节点不能解密信息，也不能解密最终目的地；只有收件人可以。 每个中间节点只能解密一部分，表明下一步将把仍然加密的信息发送到哪里，直到它到达可以完全解密的收件人那里，因此命名为 "洋葱路由"。</p> 
 
-在匿名网络中自托管一个节点并不为托管者提供额外的隐私，而是有助于整个网络对识别攻击的抗性，对每个人都有好处。
+Self-hosting a node in an anonymous routing network does not provide the host with additional privacy benefits, but rather contributes to the whole network's resilience against identification attacks for everyone's benefit.
 
 **优点：**
 

@@ -84,7 +84,7 @@ Android 13:
 <div class="admonition note" markdown>
 <p class="admonition-title">備註</p>
 
-[Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/)等隱私友好型應用程式可能會顯示 [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/)等追蹤程式。 此程式庫包括 [Firebase Cloud Messaging](https://zh.wikipedia.org/wiki/Firebase_Cloud_Messaging) ，可以在應用程式中提供 [推送通知](https://zh.wikipedia.org/wiki/Push_technology)。 這是Bitwarden的 [情況](https://fosstodon.org/ @ bitwarden/109636825700482007)。 這並不意味 Bitwarden 使用 Google Firebase Analytics 提供的所有分析功能。
+[Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/)等隱私友好型應用程式可能會顯示 [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/)等追蹤程式。 此程式庫包括 [Firebase Cloud Messaging](https://zh.wikipedia.org/wiki/Firebase_Cloud_Messaging) ，可以在應用程式中提供 [推送通知](https://zh.wikipedia.org/wiki/Push_technology)。 這是Bitwarden的 [情況](https://fosstodon.org/ @ bitwarden/109636825700482007)。 That doesn't mean that Bitwarden is using all the analytics features that are provided by Google Firebase Analytics.
 
 </div>
 
@@ -114,7 +114,7 @@ Android 13:
 
 與工作設定檔不同，私人空間是 Android 原生的功能，不需要第三方應用程式來管理。 因此，我們一般建議您使用私人空間而非工作設定檔，不過您也可以同時使用工作設定檔和私人空間。
 
-### VPN Killswitch
+### VPN kill switch
 
 Android 7 及以上版本支援 VPN kill switch，無需安裝第三方應用程式即可使用。 此功能可以防止VPN中斷連線時的洩漏。 它可以在 :gear: **設定** → **網路 &網際網路** → **VPN** → :gear: → **區塊連接沒有 VPN**中找到。
 
@@ -124,7 +124,7 @@ Android 7 及以上版本支援 VPN kill switch，無需安裝第三方應用程
 
 ## Google 服務
 
-如果您使用的是有 Google 服務的裝置，無論是使用原生作業系統（'stock' 版本）或像 GrapheneOS 這樣透過沙盒化使您能安全使用 Google Play 服務 的作業系統，您都可以做一些額外的變更來改善您的隱私。 我們仍建議完全避免 Google 服務，或結合 *Shelter* 等裝置控制器與 GrapheneOS 的 Sandboxed Google Play，將 Google Play 服務限制於特定使用者/工作設定檔。
+如果您使用的是有 Google 服務的裝置，無論是使用原生作業系統（'stock' 版本）或像 GrapheneOS 這樣透過沙盒化使您能安全使用 Google Play 服務 的作業系統，您都可以做一些額外的變更來改善您的隱私。 We still recommend avoiding Google services entirely, or limiting Google Play Services to a specific user/work profile by combining a device controller like *Shelter* with GrapheneOS's Sandboxed Google Play.
 
 ### 進階保護計劃
 

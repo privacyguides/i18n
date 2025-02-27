@@ -9,7 +9,7 @@ cover: notebooks.webp
 
 - [:material-server-network: Поставщики услуг](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-Сохраняйте свои заметки и дневники, не передавая их третьим лицам.
+Keep track of your notes and journals without giving them to a third party.
 
 Если вы в настоящее время используете такие приложения, как Evernote, Google Keep или Microsoft OneNote, то мы предлагаем вам выбрать альтернативу с поддержкой E2EE.
 
@@ -82,9 +82,9 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 <div class="admonition recommendation" markdown>
 
-![Логотип Joplin](assets/img/notebooks/joplin.svg){ align=right }
+![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
 
-**Joplin** - это бесплатное, открытое приложение с богатой функциональностью для ведения заметок и списков задач, которое может обрабатывать большое количество заметок в формате Markdown, упорядоченных по тегам и записным книжкам. Приложение предлагает E2EE и может синхронизироваться через Nextcloud, Dropbox и др. Приложение также предлагает легкий перенос данных из Evernote и простых текстовых заметок.
+**Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle numerous markdown notes organized into notebooks and tags. Приложение предлагает E2EE и может синхронизироваться через Nextcloud, Dropbox и др. Приложение также предлагает легкий перенос данных из Evernote и простых текстовых заметок.
 
 [:octicons-home-16: Homepage](https://joplinapp.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="Privacy Policy" }
@@ -133,7 +133,7 @@ Joplin does not [support](https://github.com/laurent22/joplin/issues/289) passwo
 
 </div>
 
-Cryptee предлагает 100 МБ хранилища бесплатно, а если вам нужно больше, вы можете воспользоваться платными опциями. Регистрация не требует указания электронной почты или другой персональной информации.
+Cryptee offers 100 MB of storage for free, with paid options if you need more. Регистрация не требует указания электронной почты или другой персональной информации.
 
 ## Локальные сервисы
 

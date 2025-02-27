@@ -48,7 +48,7 @@ Inkscape에서 다음과 같이 진행합니다.
 - [ ] **XML 선언 제거하기**(Remove the XML declaration) 비활성화
 - [x] **메타데이터 제거하기**(Remove metadata) 활성화
 - [x] **주석 제거하기**(Remove comments) 활성화
-- [x] **래스터 이미지 끼워넣기**(Embeded raster images) 활성화
+- [x] Turn on **Embedded raster images**
 - [x] **보기상자 활성화**(Enable viewboxing) 활성화
 
 **SVG 출력**(SVG Output) - **멋을 낸 인쇄물**(Pretty-printing):

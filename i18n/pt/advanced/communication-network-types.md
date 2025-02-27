@@ -44,7 +44,7 @@ Numa solução auto-hospedada, os membros de um servidor federado podem descobri
 - Permite um maior controlo sobre os seus próprios dados, devido a estes residirem no seu próprio servidor.
 - Permite-lhe escolher a quem confiar os seus dados, escolhendo entre vários servidores "públicos".
 - Não raras vezes, permite clientes de terceiros que podem proporcionar uma experiência mais nativa, personalizada ou acessível.
-- É possível verificar se o software do servidor corresponde ao código-fonte público, assumindo que tem acesso ao servidor ou que confia na pessoa que o tem (por exemplo, um membro da família).
+- Server software can be verified that it matches public source code, assuming you have access to the server, or you trust the person who does (e.g., a family member).
 
 **Desvantagens:**
 
@@ -60,7 +60,7 @@ Numa solução auto-hospedada, os membros de um servidor federado podem descobri
 
 As aplicações de mensagens instantâneas P2P ligam-se a uma [rede distribuída](https://en.wikipedia.org/wiki/Distributed_networking) de nós para retransmitir a mensagem ao destinatário, sem utilizar um servidor de terceiros.
 
-Os clientes (peers) comunicam através da utilização de uma rede de [computação distribuída](https://en.wikipedia.org/wiki/Distributed_computing). Exemplos do atrás dito incluem [Distributed Hash Tables](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), utilizadas por [torrents](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) e [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System), por exemplo. Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
+Os clientes (peers) comunicam através da utilização de uma rede de [computação distribuída](https://en.wikipedia.org/wiki/Distributed_computing). Exemplos do atrás dito incluem [Distributed Hash Tables](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), utilizadas por [torrents](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) e [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System), por exemplo. Another approach is proximity based networks, where a connection is established over Wi-Fi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
 
 Uma vez que um peer tenha encontrado uma rota para o seu contacto através de qualquer um destes métodos, é estabelecida uma ligação direta entre eles. Embora as mensagens sejam normalmente encriptadas, um observador pode ainda assim deduzir a localização e a identidade do remetente e do destinatário.
 
@@ -85,9 +85,9 @@ As redes P2P não utilizam servidores, uma vez que os peers comunicam diretament
 
 Uma aplicação de mensagens instantâneas que utilize o [encaminhamento anónimo](https://doi.org/10.1007/978-1-4419-5906-5_628) oculta a identidade do remetente, do destinatário ou a prova de que estão a comunicar. Idealmente, a aplicação deve esconder os três.
 
-Existem [muitas](https://doi.org/10.1145/3182658) formas diferentes de implementar o encaminhamento anónimo. Um dos mais famosos é o [onion routing](https://en.wikipedia.org/wiki/Onion_routing) (ou seja, [Tor](tor-overview.md)), que comunica mensagens encriptadas através de uma rede virtual [sobreposta](https://en.wikipedia.org/wiki/Overlay_network), que oculta a localização de cada nó, bem como o destinatário e o remetente de cada mensagem. O remetente e o destinatário nunca interagem diretamente e só se encontram através de um nó de encontro secreto, para que não haja fuga de endereços IP nem de localização física. Os nós não podem decifrar as mensagens, nem o destino final; só o destinatário o pode fazer. Cada nó intermediário só pode decifrar uma parte que indica para onde deve ser enviada a mensagem, ainda encriptada, até chegar ao destinatário, que a pode decifrar completamente. Daí o nome "camadas de cebola"
+There are [many](https://doi.org/10.1145/3182658) ways to implement anonymous routing. Um dos mais famosos é o [onion routing](https://en.wikipedia.org/wiki/Onion_routing) (ou seja, [Tor](tor-overview.md)), que comunica mensagens encriptadas através de uma rede virtual [sobreposta](https://en.wikipedia.org/wiki/Overlay_network), que oculta a localização de cada nó, bem como o destinatário e o remetente de cada mensagem. O remetente e o destinatário nunca interagem diretamente e só se encontram através de um nó de encontro secreto, para que não haja fuga de endereços IP nem de localização física. Os nós não podem decifrar as mensagens, nem o destino final; só o destinatário o pode fazer. Cada nó intermediário só pode decifrar uma parte que indica para onde deve ser enviada a mensagem, ainda encriptada, até chegar ao destinatário, que a pode decifrar completamente. Daí o nome "camadas de cebola"
 
-A auto-hospedagem de um nó numa rede de encaminhamento anónima não proporciona ao anfitrião benefícios adicionais em termos de privacidade, mas contribui para a resiliência de toda a rede contra ataques de identificação, para benefício de todos.
+Self-hosting a node in an anonymous routing network does not provide the host with additional privacy benefits, but rather contributes to the whole network's resilience against identification attacks for everyone's benefit.
 
 **Vantagens:**
 

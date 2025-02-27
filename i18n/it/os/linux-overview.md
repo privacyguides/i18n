@@ -10,9 +10,9 @@ Il nostro sito web utilizza generalmente il termine "Linux" per descrivere le di
 
 [Consigli su Linux :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
 
-## Note sulla Privacy
+## Security Notes
 
-Esistono alcune notevoli preoccupazioni sulla privacy con Linux, di cui dovresti essere consapevole. Nonostante tali svantaggi, le distribuzioni di Linux per desktop sono comunque ottime per gran parte delle persone che desiderano:
+There are some notable security concerns with Linux which you should be aware of. Nonostante tali svantaggi, le distribuzioni di Linux per desktop sono comunque ottime per gran parte delle persone che desiderano:
 
 - Evitare la telemetria fornita dai sistemi operativi proprietari
 - Maintain [software freedom](https://gnu.org/philosophy/free-sw.en.html#four-freedoms)
@@ -52,11 +52,11 @@ Non crediamo che trattenere i pacchetti e applicare patch provvisorie sia una bu
 
 Tradizionalmente, le distribuzioni di Linux si aggiornano tramite l'aggiornamento sequenziale dei pacchetti desiderati. Traditional updates such as those used in Fedora, Arch Linux, and Debian-based distributions can be less reliable if an error occurs while updating.
 
-Atomic updating distributions, on the other hand, apply updates in full or not at all. On an atomic distribution, if an error occurs while updating (perhaps due to a power failure), nothing is changed on the system.
+Distros which use atomic updates, on the other hand, apply updates in full or not at all. On an atomic distribution, if an error occurs while updating (perhaps due to a power failure), nothing is changed on the system.
 
 The atomic update method can achieve reliability with this model and is used for [distributions](../desktop.md#atomic-distributions) like Silverblue and NixOS. [Adam Šamalík](https://twitter.com/adsamalik) provides a presentation on how `rpm-ostree` works with Silverblue:
 
-- [Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalik](https://youtu.be/aMo4ZlWznao) <small>(YouTube)</small>
+- [Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalík](https://youtu.be/aMo4ZlWznao) <small>(YouTube)</small>
 
 ### Distribuzioni "Incentrate sulla sicurezza"
 
@@ -85,7 +85,7 @@ We recommend **against** using the Linux-libre kernel, since it [removes securit
 
 ### Mandatory access control
 
-Mandatory access control is a set of additional security controls which help to confine parts of the system such as apps and system services. The two common forms of mandatory access control found in Linux distributions are [SELinux](https://github.com/SELinuxProject) and [AppArmor](https://apparmor.net). While Fedora uses SELinux by default, Tumbleweed [defaults](https://en.opensuse.org/Portal:SELinux) to AppArmor in the installer, with an option to [choose](https://en.opensuse.org/Portal:SELinux/Setup) SELinux instead.
+Mandatory access control is a set of additional security controls which help to confine parts of the system such as apps and system services. The two common forms of mandatory access control found in Linux distributions are [SELinux](https://github.com/SELinuxProject) and [AppArmor](https://apparmor.net). Fedora and Tumbleweed use SELinux by default, with Tumbleweed offering an option in its installer to choose AppArmor instead.
 
 SELinux on [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-getting-started) confines Linux containers, virtual machines, and service daemons by default. AppArmor is used by the snap daemon for [sandboxing](https://snapcraft.io/docs/security-sandboxing) snaps which have [strict](https://snapcraft.io/docs/snap-confinement) confinement such as [Firefox](https://snapcraft.io/firefox). There is a community effort to confine more parts of the system in Fedora with the [ConfinedUsers](https://fedoraproject.org/wiki/SIGs/ConfinedUsers) special interest group.
 
@@ -93,7 +93,7 @@ SELinux on [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-gett
 
 ### Crittografia delle Unità
 
-Molte delle distribuzioni Linux offrono un opzione nel proprio programma d'installazione per abilitare la FDE di [LUKS](../encryption.md#linux-unified-key-setup). Se questa opzione non viene impostata durante l'installazione, dovrai fare il backup dei tuoi dati e reinstallare, in quanto la crittografia viene applicata dopo [la partizione del disco](https://en.wikipedia.org/wiki/Disk_partitioning), ma prima della formattazione dei [file di sistema](https://en.wikipedia.org/wiki/File_system). Inoltre, suggeriamo di svuotare il tuo dispositivo di archiviazione:
+Molte delle distribuzioni Linux offrono un opzione nel proprio programma d'installazione per abilitare la FDE di [LUKS](../encryption.md#linux-unified-key-setup). If this option isn’t set at installation time, you will have to back up your data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning), but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. Inoltre, suggeriamo di svuotare il tuo dispositivo di archiviazione:
 
 - [Cancellazione sicura dei dati :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/05/25/secure-data-erasure)
 
@@ -156,7 +156,7 @@ Esistono altri identificatori di sistema a cui dovresti prestare attenzione. Dov
 
 Fedora Project [conteggia](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting) quanti sistemi univoci accedono ai suoi mirror, utilizzando una variabile [`countme`](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting#Detailed_Description), invece di un ID univoco. Fedora lo fa per determinare il carico e fornire server migliori per gli aggiornamenti, quando necessario.
 
-Quest'[opzione](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) è disabilitata di default. Consigliamo di aggiungere `countme=false` a `/etc/dnf/dnf.conf` nel caso in cui venga abilitato in futuro. On systems that use `rpm-ostree` such as Silverblue, the countme option is disabled by masking the [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems) timer.
+Quest'[opzione](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) è disabilitata di default. Consigliamo di aggiungere `countme=false` a `/etc/dnf/dnf.conf` nel caso in cui venga abilitato in futuro. On systems that use `rpm-ostree` such as Silverblue, the `countme` option is disabled by masking the [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems) timer.
 
 openSUSE also uses a [unique ID](https://en.opensuse.org/openSUSE:Statistics) to count systems, which can be disabled by emptying the `/var/lib/zypp/AnonymousUniqueId` file.
 

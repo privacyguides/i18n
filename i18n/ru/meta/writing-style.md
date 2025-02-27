@@ -64,7 +64,7 @@ Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/organize/have-a
 
 ## Будьте лаконичны
 
-> Лишние слова тратят время вашей аудитории. Искусство написания текстов - это как разговор. Пропустите информацию, которую аудитории не нужно знать. Это может быть непросто, если вы являетесь экспертом в данной области, поэтому важно, чтобы кто-то посмотрел на информацию с точки зрения аудитории.
+> Лишние слова тратят время вашей аудитории. Искусство написания текстов - это как разговор. Пропустите информацию, которую аудитории не нужно знать. This can be difficult as a subject-matter expert, so it’s important to have someone look at the information from the audience’s perspective.
 
 Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 

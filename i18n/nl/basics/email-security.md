@@ -29,13 +29,13 @@ If you use a shared domain from a provider which doesn't support WKD, like @gmai
 
 ### Welke e-mailclients ondersteunen E2EE?
 
-E-mailproviders die je in staat stellen standaard toegangsprotocollen zoals IMAP en SMTP te gebruiken, kunnen worden gebruikt met elk van de [e-mailclients die wij aanbevelen](../email-clients.md). Afhankelijk van de authenticatiemethode kan dit leiden tot een verminderde veiligheid indien de provider of de e-mailclient OATH of een bridge-toepassing niet ondersteunt, aangezien [multifactor authenticatie](/basics/multi-factor-authentication/) niet mogelijk is met gewone wachtwoordauthenticatie.
+E-mailproviders die je in staat stellen standaard toegangsprotocollen zoals IMAP en SMTP te gebruiken, kunnen worden gebruikt met elk van de [e-mailclients die wij aanbevelen](../email-clients.md). Depending on the authentication method, this may lead to the decrease security if either the provider or the email client does not support OATH or a bridge application as [multifactor authentication](multi-factor-authentication.md) is not possible with plain password authentication.
 
 ### Hoe bescherm ik mijn private sleutels?
 
-A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. Het bericht wordt vervolgens door de smartcard ontsleuteld en de ontsleutelde inhoud wordt teruggestuurd naar het apparaat.
+A smart card (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. The message is then decrypted by the smart card and the decrypted content is sent back to the device.
 
-It is advantageous for the decryption to occur on the smartcard to avoid possibly exposing your private key to a compromised device.
+It is advantageous for the decryption to occur on the smart card to avoid possibly exposing your private key to a compromised device.
 
 ## Overzicht e-mailmetagegevens
 
@@ -49,4 +49,4 @@ E-mail metadata wordt beschermd tegen externe waarnemers met [Opportunistic TLS]
 
 ### Waarom kan metadata niet E2EE zijn?
 
-E-mail metadata is van cruciaal belang voor de meest elementaire functionaliteit van e-mail (waar het vandaan komt, en waar het naartoe moet). E2EE was oorspronkelijk niet in de e-mailprotocollen ingebouwd; in plaats daarvan was extra software zoals OpenPGP nodig. Omdat OpenPGP-berichten nog steeds met traditionele e-mailproviders moeten werken, kan het niet de metagegevens van e-mail versleutelen, alleen de inhoud van het bericht zelf. Dat betekent dat zelfs wanneer OpenPGP wordt gebruikt, externe waarnemers veel informatie over jouw berichten kunnen zien, zoals wie je e-mailt, de onderwerpregels, wanneer je e-mailt, enz.
+E-mail metadata is van cruciaal belang voor de meest elementaire functionaliteit van e-mail (waar het vandaan komt, en waar het naartoe moet). E2EE was oorspronkelijk niet in de e-mailprotocollen ingebouwd; in plaats daarvan was extra software zoals OpenPGP nodig. Omdat OpenPGP-berichten nog steeds met traditionele e-mailproviders moeten werken, kan het niet de metagegevens van e-mail versleutelen, alleen de inhoud van het bericht zelf. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, the subject lines, when you're emailing, etc.

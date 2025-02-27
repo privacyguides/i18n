@@ -24,7 +24,7 @@ Privacy Guides는 특정 제품을 추천함으로써 수익을 창출하지 않
 
 - 본인이 제안한 프로젝트와 어떤 관계(소속)에 있는지를 공개해야 합니다.
 
-- Must have a security whitepaper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
+- Must have a security white paper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
     - Regarding third party audit status, we want to know if you have undergone one, or have requested one. 가능하다면 감사를 누가 진행하는지도 언질을 해주시면 좋습니다.
 
 - 해당 프로젝트가 프라이버시 면에서 어떤 이점을 제공하는지를 설명해야 합니다.

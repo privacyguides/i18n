@@ -19,7 +19,7 @@ Below are a few alternative operating systems that can be used on routers, Wi-Fi
 ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ align=right }
 ![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
 
-**OpenWrt** 是一個基於 Linux 的操作系統；它主要用於嵌入式設備以路由網路流量。 它包括util-linux ， uClibc和BusyBox。 所有組件都已為家庭路由器進行了優化。
+**OpenWrt** 是一個基於 Linux 的操作系統；它主要用於嵌入式設備以路由網路流量。 它包括util-linux ， uClibc和BusyBox。 All the components have been optimized for home routers.
 
 [:octicons-home-16: 首頁](https://openwrt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=說明文件}

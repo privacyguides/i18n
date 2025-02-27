@@ -29,13 +29,13 @@ description: 從許多方面來看電子郵件本質上是不安全的，這也�
 
 ### 哪些郵件客戶端支援 E2EE？
 
-電子郵件服務供應商讓您能使用標準訪問協議如 IMAP 與SMTP，以便應用[我們推薦的電子郵件客戶端軟體](../email-clients.md)。 根據驗證方法的不同，如果提供者或電子郵件用戶端不支援OAT或橋接應用程式，這可能會導致安全性降低，因為 [多因素驗證](multi-factor-authentication.md) 在純密碼驗證中是不可能的。
+電子郵件服務供應商讓您能使用標準訪問協議如 IMAP 與SMTP，以便應用[我們推薦的電子郵件客戶端軟體](../email-clients.md)。 Depending on the authentication method, this may lead to the decrease security if either the provider or the email client does not support OATH or a bridge application as [multifactor authentication](multi-factor-authentication.md) is not possible with plain password authentication.
 
 ### 我該如何保護自己的私鑰？
 
-智慧卡（例如 [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) 或 [Nitrokey](../security-keys.md#nitrokey) ）的工作原理是透過執行 電子郵件/網頁郵件 客戶端的裝置（手機、平板電腦、電腦等）接收加密的電子郵件訊息。 智慧卡會解密該訊息再把解開的內容傳到設備。
+A smart card (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. The message is then decrypted by the smart card and the decrypted content is sent back to the device.
 
-在智慧卡上進行解密的優點是可避免將私鑰暴露在某個遭破壞的裝置。
+It is advantageous for the decryption to occur on the smart card to avoid possibly exposing your private key to a compromised device.
 
 ## 電子郵件元資料概覽
 
@@ -49,4 +49,4 @@ description: 從許多方面來看電子郵件本質上是不安全的，這也�
 
 ### 爲什麼元數據不能是E2EE ？
 
-電子郵件元數據對於電子郵件最基本的功能（它來自何處，以及它必須去向何處）至關重要。 E2EE 最初並未內建於電子郵件協議中，而是需要像 OpenPGP 這樣的附加軟體。 由於 OpenPGP 訊息仍必須與傳統的電子郵件供應商合作，因此它無法加密電子郵件元數據，只能加密訊息正文本身。 這意味著即使在使用 OpenPGP 時，外部觀察者也可以看到關於您的消息的大量信息，例如您正在發送電子郵件的人，主題行，當您發送電子郵件時等。
+電子郵件元數據對於電子郵件最基本的功能（它來自何處，以及它必須去向何處）至關重要。 E2EE 最初並未內建於電子郵件協議中，而是需要像 OpenPGP 這樣的附加軟體。 由於 OpenPGP 訊息仍必須與傳統的電子郵件供應商合作，因此它無法加密電子郵件元數據，只能加密訊息正文本身。 That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, the subject lines, when you're emailing, etc.

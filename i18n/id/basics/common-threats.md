@@ -4,7 +4,7 @@ icon: 'material/eye-outline'
 description: Model ancaman Anda bersifat pribadi bagi Anda, tetapi ini adalah beberapa hal yang dipedulikan oleh banyak pengunjung situs ini.
 ---
 
-Secara garis besar, kami mengkategorikan rekomendasi kami ke dalam [ancaman](threat-modeling.md) atau tujuan yang berlaku untuk kebanyakan orang. ==Anda mungkin tidak peduli dengan tidak ada, satu, beberapa, atau semua kemungkinan ini==, dan alat dan layanan yang Anda gunakan tergantung pada tujuan Anda. Anda mungkin juga memiliki ancaman khusus di luar kategori ini, dan itu tidak masalah! Bagian yang penting adalah mengembangkan pemahaman tentang manfaat dan kekurangan alat yang Anda pilih untuk digunakan, karena hampir tidak ada satu pun yang akan melindungi Anda dari setiap ancaman.
+Secara garis besar, kami mengkategorikan rekomendasi kami ke dalam [ancaman](threat-modeling.md) atau tujuan yang berlaku untuk kebanyakan orang. ==Anda mungkin tidak peduli dengan tidak ada, satu, beberapa, atau semua kemungkinan ini==, dan alat dan layanan yang Anda gunakan tergantung pada tujuan Anda. You may have specific threats outside these categories as well, which is perfectly fine! Bagian yang penting adalah mengembangkan pemahaman tentang manfaat dan kekurangan alat yang Anda pilih untuk digunakan, karena hampir tidak ada satu pun yang akan melindungi Anda dari setiap ancaman.
 
 <span class="pg-purple">:material-incognito: **Anonymity**</span>
 :
@@ -19,7 +19,7 @@ Being protected from hackers or other malicious actors who are trying to gain ac
 <span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
 :
 
-Typically a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+Typically, a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
 
 <span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
 :
@@ -44,7 +44,7 @@ Protecting yourself from big advertising networks, like Google and Facebook, as 
 <span class="pg-green">:material-account-search: **Public Exposure**</span>
 :
 
-Limiting the information about you that is accessible online—to search engines or the general public.
+Limiting the information about you that is accessible online—to search engines or the public.
 
 <span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
 :
@@ -76,7 +76,7 @@ Untuk meminimalkan kerusakan *yang dapat* dilakukan oleh perangkat lunak berbaha
 
 Sistem operasi seluler umumnya memiliki kotak pasir aplikasi yang lebih baik daripada sistem operasi desktop: Aplikasi tidak dapat memperoleh akses akar, dan memerlukan izin untuk mengakses sumber daya sistem.
 
-Sistem operasi desktop umumnya tertinggal dalam hal kotak pasir yang tepat. ChromeOS memiliki kemampuan kotak pasir yang mirip dengan Android, dan macOS memiliki kontrol izin sistem penuh (dan pengembang dapat memilih untuk ikut serta dalam kotak pasir untuk aplikasi). Namun demikian, sistem operasi ini mengirimkan informasi identifikasi ke OEM masing-masing. Linux cenderung tidak menyerahkan informasi kepada vendor sistem, tetapi memiliki perlindungan yang buruk terhadap eksploitasi dan aplikasi jahat. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+Sistem operasi desktop umumnya tertinggal dalam hal kotak pasir yang tepat. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). Namun demikian, sistem operasi ini mengirimkan informasi identifikasi ke OEM masing-masing. Linux cenderung tidak menyerahkan informasi kepada vendor sistem, tetapi memiliki perlindungan yang buruk terhadap eksploitasi dan aplikasi jahat. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
 
 </div>
 
@@ -143,7 +143,7 @@ Oleh karena itu, Anda seharusnya menggunakan aplikasi asli daripada klien web bi
 
 </div>
 
-Bahkan dengan E2EE, penyedia layanan masih bisa membuat profil Anda berdasarkan **metadata**, yang biasanya tidak dilindungi. Meskipun penyedia layanan tidak dapat membaca pesan Anda, mereka masih dapat mengamati hal-hal penting, seperti siapa yang Anda ajak bicara, seberapa sering Anda mengirim pesan kepada mereka, dan kapan Anda biasanya aktif. Perlindungan metadata cukup jarang dilakukan, dan—jika ada dalam [model ancaman](threat-modeling.md)—Anda harus memperhatikan dengan seksama dokumentasi teknis perangkat lunak yang Anda gunakan untuk mengetahui apakah ada minimalisasi atau perlindungan metadata sama sekali.
+Bahkan dengan E2EE, penyedia layanan masih bisa membuat profil Anda berdasarkan **metadata**, yang biasanya tidak dilindungi. While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. Perlindungan metadata cukup jarang dilakukan, dan—jika ada dalam [model ancaman](threat-modeling.md)—Anda harus memperhatikan dengan seksama dokumentasi teknis perangkat lunak yang Anda gunakan untuk mengetahui apakah ada minimalisasi atau perlindungan metadata sama sekali.
 
 ## Program Pengawasan Massal
 
@@ -156,7 +156,7 @@ Pengawasan massal adalah upaya yang rumit untuk memantau "perilaku, berbagai akt
 
 If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
 
-In France you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
+In France, you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
 
 </div>
 
@@ -189,7 +189,7 @@ If you're concerned about mass surveillance programs, you can use strategies lik
 
 Bagi banyak orang, pelacakan dan pengawasan oleh perusahaan swasta merupakan masalah yang terus meningkat. Jaringan iklan yang tersebar luas, seperti yang dioperasikan oleh Google dan Facebook, menjangkau internet jauh lebih dari sekadar situs yang mereka kendalikan, melacak tindakan Anda di sepanjang jalan. Menggunakan alat seperti pemblokir konten untuk membatasi permintaan jaringan ke server mereka, dan membaca kebijakan privasi layanan yang Anda gunakan bisa membantu Anda menghindari banyak musuh dasar (meskipun tidak bisa sepenuhnya mencegah pelacakan).[^4]
 
-Selain itu, bahkan perusahaan di luar *AdTech* atau industri pelacakan dapat membagikan informasi Anda dengan [pialang data](https://en.wikipedia.org/wiki/Information_broker) (seperti Cambridge Analytica, Experian, atau Datalogix) atau pihak lain. Anda tidak bisa secara otomatis berasumsi bahwa data Anda aman hanya karena layanan yang Anda gunakan tidak termasuk dalam model bisnis AdTech atau pelacakan pada umumnya. Perlindungan terkuat terhadap pengumpulan data perusahaan adalah dengan mengenkripsi atau mengaburkan data Anda jika memungkinkan, sehingga menyulitkan penyedia layanan yang berbeda untuk menghubungkan data satu sama lain dan membuat profil Anda.
+Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. Anda tidak bisa secara otomatis berasumsi bahwa data Anda aman hanya karena layanan yang Anda gunakan tidak termasuk dalam model bisnis AdTech atau pelacakan pada umumnya. Perlindungan terkuat terhadap pengumpulan data perusahaan adalah dengan mengenkripsi atau mengaburkan data Anda jika memungkinkan, sehingga menyulitkan penyedia layanan yang berbeda untuk menghubungkan data satu sama lain dan membuat profil Anda.
 
 ## Membatasi Informasi Publik
 

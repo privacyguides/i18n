@@ -64,7 +64,7 @@ Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/organize/have-a
 
 ## مختصر باشد
 
-> کلمات غیر ضروری وقت مخاطب شما را تلف می کند. یک نوشته خوب مثل یک مکالمه است. اطلاعاتی را که مخاطب نیازی به دانستن آنها ندارد حذف کنید. این می تواند به عنوان یک متخصص در موضوع دشوار باشد، بنابراین مهم است که به اطلاعات از دیدگاه مخاطب نگاه کنید.
+> کلمات غیر ضروری وقت مخاطب شما را تلف می کند. یک نوشته خوب مثل یک مکالمه است. اطلاعاتی را که مخاطب نیازی به دانستن آنها ندارد حذف کنید. This can be difficult as a subject-matter expert, so it’s important to have someone look at the information from the audience’s perspective.
 
 Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 

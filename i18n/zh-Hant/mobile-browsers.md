@@ -247,7 +247,7 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
 
 這些選項可以在 :material-menu: → :gear: **設定** → **Adblock Plus settings** 中找到。
 
-Cromite 包含 Adblock Plus 的自訂版本，預設啟用 EasyList，也可以在 **Filter lists** 選單中套用更多過濾列表。
+Cromite contains a customized version of Adblock Plus with EasyList enabled by default, as well as options to select more filter lists within the **Filter lists** menu.
 
 使用額外的清單將使您從其他 Cromite 使用者中脫穎而出，並且如果瀏覽器存在漏洞，而您使用的清單之一被加入了惡意規則，也可能會增加攻擊面。
 
@@ -271,7 +271,7 @@ Cromite 包含 Adblock Plus 的自訂版本，預設啟用 EasyList，也可以�
 
 ![Safari 標誌](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** 是 iOS 的預設瀏覽器。 它包括多種[隱私功能](https://support.apple.com/zh-tw/guide/iphone/iphb01fc3c85/ios)，例如[智慧追蹤預防](https://webkit.org/blog/7675/intelligent-tracking-prevention)、隱私報告、受隔離且短暫的私密瀏覽標籤、指紋保護 (透過向網站呈現簡化版的系統組態，讓更多裝置看起來完全相同)，以及指紋隨機化，並針對已付費訂閱 iCloud+ 的使用者提供私密轉送功能。
+**Safari** 是 iOS 的預設瀏覽器。 It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites, so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
 
 [:octicons-home-16: 首頁](https://www.apple.com/tw/safari/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://www.apple.com/tw/legal/privacy/data/zh-tw/safari/){ .card-link title="隱私權政策" }
@@ -372,7 +372,7 @@ Apple 的 Safari 隱私權政策規定：
 
 - [x] 選擇 **私密瀏覽**
 
-Safari 的私密瀏覽模式提供額外的隱私保護。 私密瀏覽為每個分頁使用新的[短暫](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral)工作階段，這意味著各個分頁之間是隔離的。 隱私瀏覽還有其他較小的隱私優勢，例如在使用 Safari 的翻譯功能時，不會將網頁位址傳送給 Apple。
+Safari 的私密瀏覽模式提供額外的隱私保護。 私密瀏覽為每個分頁使用新的[短暫](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral)工作階段，這意味著各個分頁之間是隔離的。 There are other smaller privacy benefits with Private Browsing too, such as not sending a webpage’s address to Apple when using Safari's translation feature.
 
 要注意的是，私密瀏覽不會保存 Cookies 和網站資料，因此無法保持登入狀態。 這可能會帶來不便。
 

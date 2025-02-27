@@ -9,7 +9,7 @@ cover: notebooks.webp
 
 - [:material-server-network: Fornitori di Servizi](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-Monitora le tue note e i tuoi diari senza doverli dare a una terza parte.
+Keep track of your notes and journals without giving them to a third party.
 
 Se stai utilizzando un'applicazione come Evernote, Google Keep o Microsoft OneNote, suggeriamo di selezionare qui un'alternativa, che supporti l'E2EE.
 
@@ -82,9 +82,9 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 <div class="admonition recommendation" markdown>
 
-![Logo di Joplin](assets/img/notebooks/joplin.svg){ align=right }
+![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
 
-**Joplin** è un'applicazione gratuita, open source e completa di appunti e liste, che può gestire molte note in Markdown, organizzate in blocchi note e tag. Offre l'E2EE e può sincronizzarsi con Nextcloud, Dropbox e molto altro. Offre anche la possibilità di importare facilmente note da Evernote e note in testo semplice.
+**Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle numerous markdown notes organized into notebooks and tags. Offre l'E2EE e può sincronizzarsi con Nextcloud, Dropbox e molto altro. Offre anche la possibilità di importare facilmente note da Evernote e note in testo semplice.
 
 [:octicons-home-16: Homepage](https://joplinapp.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="Privacy Policy" }
@@ -133,7 +133,7 @@ Joplin non [supporta](https://github.com/laurent22/joplin/issues/289) la protezi
 
 </div>
 
-Cryptee offre 100MB di archiviazione gratuiti, con opzioni a pagamento se necessiti di più spazio. L'iscrizione non richiede un'email o altre informazioni personalmente identificabili.
+Cryptee offers 100 MB of storage for free, with paid options if you need more. L'iscrizione non richiede un'email o altre informazioni personalmente identificabili.
 
 ## Note locali
 

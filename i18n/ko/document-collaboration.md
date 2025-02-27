@@ -86,4 +86,4 @@ In general, we define collaboration platforms as full-fledged suites which could
 평가 기준에서 '우대 사항'은 해당 부문에서 완벽한 프로젝트에 기대하는 바를 나타냅니다. 다음의 우대 사항에 해당하지 않더라도 권장 목록에 포함될 수 있습니다. 단, 우대 사항에 해당할수록 이 페이지의 다른 항목보다 높은 순위를 갖습니다.
 
 - Should store files in a conventional filesystem.
-- Should support TOTP or FIDO2 multi-factor authentication support, or passkey logins.
+- Should support TOTP or FIDO2 multifactor authentication support, or passkey logins.

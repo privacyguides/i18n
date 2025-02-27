@@ -9,7 +9,7 @@ cover: notebooks.webp
 
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-Theo dõi các ghi chú và nhật ký của bạn mà không đưa chúng cho bên thứ ba.
+Keep track of your notes and journals without giving them to a third party.
 
 Nếu bạn hiện đang sử dụng một ứng dụng như Evernote, Google Keep hoặc Microsoft OneNote, chúng tôi khuyên bạn nên chọn một ứng dụng thay thế hỗ trợ E2EE tại đây.
 
@@ -84,7 +84,7 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 ![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
 
-**Joplin** là một ứng dụng ghi chú và việc cần làm miễn phí, mã nguồn mở và đầy đủ tính năng có thể xử lý một số lượng lớn các ghi chú đánh dấu được sắp xếp thành sổ ghi chép và thẻ. Nó cung cấp E2EE và có thể đồng bộ hóa thông qua Nextcloud, Dropbox, v.v. Nó cũng cung cấp khả năng nhập dễ dàng từ Evernote và ghi chú văn bản thuần túy.
+**Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle numerous markdown notes organized into notebooks and tags. Nó cung cấp E2EE và có thể đồng bộ hóa thông qua Nextcloud, Dropbox, v.v. Nó cũng cung cấp khả năng nhập dễ dàng từ Evernote và ghi chú văn bản thuần túy.
 
 [:octicons-home-16: Homepage](https://joplinapp.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="Privacy Policy" }
@@ -132,7 +132,7 @@ Joplin does not [support](https://github.com/laurent22/joplin/issues/289) passwo
 
 </div>
 
-Cryptee offers 100MB of storage for free, with paid options if you need more. Sign-up doesn't require an e-mail or other personally identifiable information.
+Cryptee offers 100 MB of storage for free, with paid options if you need more. Sign-up doesn't require an e-mail or other personally identifiable information.
 
 ## Local notebooks
 

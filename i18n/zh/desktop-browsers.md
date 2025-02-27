@@ -109,7 +109,7 @@ Mullvad 浏览器一直在无痕浏览模式下运行，这意味着每次关闭
 
 ### Mullvad Leta
 
-Mullvad 浏览器将 DuckDuckGo 设置为默认的 [搜索引擎](search-engines.md)，但它也预装了 **Mullvad Leta**，这是一个需要订阅 Mullvad VPN 才能访问的搜索引擎。 Mullvad Leta queries Google's paid search API directly, which is why it is limited to paying subscribers. However, it is possible for Mullvad to correlate search queries and Mullvad VPN accounts because of this limitation. 因此，我们不建议使用 Mullvad Leta，虽然 Mullvad 对 VPN 用户信息收集得很少。
+Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes pre-installed with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. Mullvad Leta queries Google's paid search API directly, which is why it is limited to paying subscribers. However, it is possible for Mullvad to correlate search queries and Mullvad VPN accounts because of this limitation. 因此，我们不建议使用 Mullvad Leta，虽然 Mullvad 对 VPN 用户信息收集得很少。
 
 ## Firefox（火狐浏览器）
 
@@ -189,7 +189,7 @@ According to Mozilla's privacy policy for Firefox,
 
 > 火狐浏览器会向我们发送有关您的火狐浏览器版本和语言、设备操作系统和硬件配置、内存、有关崩溃和错误的基本信息以及更新、安全浏览和激活等自动处理结果的数据。 当火狐浏览器向我们发送数据时，您的IP地址会被暂时收集，作为我们服务器日志的一部分。
 
-Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt-out:
+Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt out:
 
 1. 在 accounts.firefox.com</a>上打开你的
 
@@ -211,7 +211,7 @@ With the release of Firefox 128, a new setting for [privacy-preserving attributi
 
 - [x] 选择 **启用所有窗口的纯HTTPS-Only模式**
 
-这可以防止你无意中以纯文本的HTTP方式连接到一个网站。 现在没有HTTPS的网站已经不多见了，所以这对你的日常浏览应该没有什么影响。
+这可以防止你无意中以纯文本的HTTP方式连接到一个网站。 Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
 
 
 
@@ -314,7 +314,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 </div>
 
-1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+1. This option disables JavaScript, which will break a lot of sites. To fix them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 

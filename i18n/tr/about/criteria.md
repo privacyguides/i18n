@@ -24,7 +24,7 @@ Projelerini veya yazılımlarını değerlendirmeye göndermek isteyen geliştir
 
 - Bağlılığınızı, yani sunulan projedeki pozisyonunuzu açıklamalısınız.
 
-- Must have a security whitepaper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
+- Must have a security white paper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
     - Regarding third party audit status, we want to know if you have undergone one, or have requested one. Mümkünse lütfen denetimi kimin yapacağını belirtin.
 
 - Projenin mahremiyet konusunda masaya ne getirdiğini açıklamalıdır.

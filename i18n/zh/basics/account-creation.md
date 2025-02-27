@@ -5,7 +5,7 @@ icon: 'material/account-plus'
 description: 在网上创建账户几乎是网络生活的必需品，采取这些步骤来保障您的隐私安全。
 ---
 
-人们经常不假思索地注册服务。 也许它是一个流媒体服务，这样你就可以看到每个人都在谈论的新节目，或者一个为你最喜欢的快餐店提供折扣的账户。 无论情况如何，你应该考虑现在和以后对你的数据的影响。
+人们经常不假思索地注册服务。 Maybe it's a streaming service to watch that new show everyone's talking about, or an account that gives you a discount for your favorite fast food place. 无论情况如何，你应该考虑现在和以后对你的数据的影响。
 
 你所使用的每一项新服务都有风险。 数据泄露；向第三方披露客户信息；流氓雇员访问数据；所有这些都是在提供你的信息时必须考虑的可能性。 你需要确信你可以信任该服务，这就是为什么我们不建议将有价值的数据存储在任何东西上，除了最成熟和经过战斗考验的产品。 这通常意味着提供E2EE并经过加密审计的服务。 审计增加了对产品的保证，即产品的设计没有由缺乏经验的开发者造成的明显的安全问题。
 
@@ -13,11 +13,11 @@ description: 在网上创建账户几乎是网络生活的必需品，采取这�
 
 ## 用户协议和隐私政策
 
-服务条款是你在使用服务时同意遵守的规则。 对于较大的服务，这些规则通常由自动系统执行。 有时这些自动系统会犯错误。 例如，你可能因为使用VPN或VOIP号码而被禁止或被锁定在某些服务的账户中。 对这种禁令提出上诉往往很困难，而且也涉及到一个自动程序，并不总是成功。 这将是我们不建议使用Gmail的电子邮件作为例子的原因之一。 电子邮件对于访问你可能已经注册的其他服务至关重要。
+服务条款是你在使用服务时同意遵守的规则。 对于较大的服务，这些规则通常由自动系统执行。 有时这些自动系统会犯错误。 For example, you may be banned or locked out of your account on some services for using a VPN or VoIP number. 对这种禁令提出上诉往往很困难，而且也涉及到一个自动程序，并不总是成功。 这将是我们不建议使用Gmail的电子邮件作为例子的原因之一。 电子邮件对于访问你可能已经注册的其他服务至关重要。
 
-隐私政策是该服务说他们将如何使用你的数据，它值得阅读，以便你了解你的数据将如何被使用。 一个公司或组织可能在法律上没有义务遵守政策中的所有内容（这取决于司法管辖区）。 我们建议对你当地的法律有一些了解，以及他们允许供应商收集什么。
+The Privacy Policy is how the service says they will use your data, and it is worth reading so that you understand how your data will be used. 一个公司或组织可能在法律上没有义务遵守政策中的所有内容（这取决于司法管辖区）。 我们建议对你当地的法律有一些了解，以及他们允许供应商收集什么。
 
-我们建议寻找特定的术语，如 "数据收集"、"数据分析"、"cookies"、"广告 "或 "第三方 "服务。 有时你可以选择不收集数据或不分享你的数据，但最好是选择一个从一开始就尊重你的隐私的服务。
+我们建议寻找特定的术语，如 "数据收集"、"数据分析"、"cookies"、"广告 "或 "第三方 "服务。 Sometimes you will be able to opt out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
 
 请记住，你也将你的信任寄托在该公司或组织身上，他们会遵守自己的隐私政策。
 
@@ -42,7 +42,7 @@ description: 在网上创建账户几乎是网络生活的必需品，采取这�
 
 #### 邮箱别名
 
-如果你不想把你的真实电子邮件地址提供给一个服务，你可以选择使用一个别名。 我们在我们的电子邮件服务推荐页面上对它们进行了更详细的描述。 本质上，别名服务允许你生成新的电子邮件地址，将所有电子邮件转发到你的主地址。 这可以帮助防止跨服务的追踪，并帮助你管理有时伴随着注册过程的营销电子邮件。 这些可以根据它们被发送到的别名自动过滤。
+如果你不想把你的真实电子邮件地址提供给一个服务，你可以选择使用一个别名。 我们在我们的电子邮件服务推荐页面上对它们进行了更详细的描述。 本质上，别名服务允许你生成新的电子邮件地址，将所有电子邮件转发到你的主地址。 This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. 这些可以根据它们被发送到的别名自动过滤。
 
 如果一项服务被黑客攻击，你可能会开始收到钓鱼或垃圾邮件到你用来注册的地址。 为每项服务使用独特的别名，可以帮助准确识别什么服务被黑。
 
@@ -76,7 +76,7 @@ OAuth在需要服务之间更深入整合的情况下特别有用。 我们的�
 
 我们建议避免使用那些需要电话号码才能注册的服务。 A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
 
-如果可以的话，你应该避免提供你的真实电话号码。 有些服务会允许使用VOIP号码，但是这些号码往往会触发欺诈检测系统，导致账户被锁定，所以我们不建议重要账户使用这种号码。
+如果可以的话，你应该避免提供你的真实电话号码。 Some services will allow the use of VoIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
 
 在许多情况下，你将需要提供一个可以接收短信或电话的号码，特别是在国际购物时，以防你的订单在边境检查时出现问题。 服务机构使用你的号码作为验证方法是很常见的；不要因为你想耍小聪明，给了一个假的号码，而让自己被锁定在一个重要的账户之外。
 

@@ -20,7 +20,7 @@ Tor 的工作原理是通過志願者運營的伺服器來引導您的網際網�
 
 在連接到 Tor 之前，應先仔細考慮想透過 Tor 實現什麼目的，想要對誰隱藏網路活動資訊。
 
-在自由的國家，透過 Tor 存取普通內容，無需擔心 ISP 或區域網路管理員知道您正在使用 Tor，反而可能會幫助 [消除Tor 使用污名化](https://2019.www.torproject.org/about/torusers.html.en) ，您可以透過標準方式直接連接到Tor，例如[Tor 瀏覽器](../tor.md)。
+If you live in a free country, are accessing mundane content via Tor, aren't worried about your ISP or local network administrators having the knowledge that you're using Tor, and want to help [destigmatize](https://2019.www.torproject.org/about/torusers.html.en) Tor usage, you can likely connect to Tor directly via standard means like [Tor Browser](../tor.md) without worry.
 
 如果您有能力使用可信任的 VPN 供應商，且有**以下任一情況**，那麼最好應透過 VPN 連接 Tor：
 

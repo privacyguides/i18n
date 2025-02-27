@@ -63,13 +63,13 @@ schema:
 
 ## « Το περίπλοκο είναι και καλύτερο»
 
-Συχνά βλέπουμε ανθρώπους να περιγράφουν μοντέλα απειλής της ιδιωτικότητας, που είναι υπερβολικά πολύπλοκα. Συχνά, αυτές οι λύσεις περιλαμβάνουν προβλήματα όπως πολλοί διαφορετικοί λογαριασμοί ηλεκτρονικού ταχυδρομείου ή περίπλοκες ρυθμίσεις με πολλά κινούμενα μέρη και συνθήκες. Οι απαντήσεις αποκρίνονται συνήθως στο ερώτημα "Ποιος είναι ο καλύτερος τρόπος για να κάνουμε *X*?"
+Συχνά βλέπουμε ανθρώπους να περιγράφουν μοντέλα απειλής της ιδιωτικότητας, που είναι υπερβολικά πολύπλοκα. Often, these solutions include problems like multiple email accounts or complicated setups with lots of moving parts and conditions. Οι απαντήσεις αποκρίνονται συνήθως στο ερώτημα "Ποιος είναι ο καλύτερος τρόπος για να κάνουμε *X*?"
 
 Η εύρεση της «καλύτερης» λύσης για τον εαυτό σας δε σημαίνει απαραίτητα, ότι αναζητάτε μια αλάνθαστη λύση με δεκάδες συνθήκες - αυτές οι λύσεις είναι συχνά δύσκολο να εφαρμοστούν ρεαλιστικά. Όπως αναφέραμε προηγουμένως, η ασφάλεια συχνά έχει ως κόστος την ευκολία. Παρακάτω, παρέχουμε ορισμένες συμβουλές:
 
 1. ==Οι ενέργειες πρέπει να εξυπηρετούν έναν συγκεκριμένο σκοπό:== Σκεφτείτε, πώς θα κάνετε αυτό που θέλετε, με τις λιγότερες δυνατές ενέργειες.
 2. ==Αφαιρέστε τα σημεία ανθρώπινης αποτυχίας: == Αποτυγχάνουμε, κουραζόμαστε, και ξεχνάμε. Για να διατηρήσετε την ασφάλεια, αποφύγετε να βασίζεστε σε χειροκίνητες συνθήκες και διαδικασίες, που πρέπει να θυμάστε.
-3. ==Χρησιμοποιήστε το σωστό επίπεδο προστασίας για τους σκοπούς σας.== Συχνά βλέπουμε να προτείνονται οι λεγόμενες λύσεις των δυνάμεων ασφαλείας ή οι λύσεις, που καθιστούν αδύνατη την κλήτευση. Αυτές συχνά απαιτούν εξειδικευμένη γνώση και γενικά δεν είναι αυτό που επιθυμούν οι άνθρωποι. Δεν υπάρχει νόημα να δημιουργήσετε ένα περίπλοκο μοντέλο απειλών για την ανωνυμία, αν μπορείτε εύκολα να χάσετε την εν λόγω ανωνυμία, λόγω μιας απλής παράβλεψης.
+3. ==Χρησιμοποιήστε το σωστό επίπεδο προστασίας για τους σκοπούς σας.== Συχνά βλέπουμε να προτείνονται οι λεγόμενες λύσεις των δυνάμεων ασφαλείας ή οι λύσεις, που καθιστούν αδύνατη την κλήτευση. Αυτές συχνά απαιτούν εξειδικευμένη γνώση και γενικά δεν είναι αυτό που επιθυμούν οι άνθρωποι. There's no point in building an intricate threat model for anonymity if you can be easily deanonymized by a simple oversight.
 
 Έτσι, πώς μπορεί αυτό να φαίνεται;
 
@@ -94,4 +94,4 @@ schema:
 
     Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
 
-[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added a obfuscated backdoor into `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed.
+[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added an obfuscated backdoor into `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed.

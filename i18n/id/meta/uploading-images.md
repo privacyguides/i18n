@@ -48,7 +48,7 @@ Pada tab **SVG Output** di bawah **Opsi dokumen**:
 - [ ] Matikan **Hapus deklarasi XML**
 - [x] Aktifkan **Hapus metadata**
 - [x] Aktifkan **Hapus komentar**
-- [x] Aktifkan **Gambar raster yang disematkan**
+- [x] Turn on **Embedded raster images**
 - [x] Aktifkan **Aktifkan viewboxing**
 
 Pada tab **SVG Output** di bawah **Opsi dokumen**:

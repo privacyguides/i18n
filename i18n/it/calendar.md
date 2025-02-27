@@ -19,7 +19,7 @@ cover: calendar.webp
 ![Logo di Tuta](assets/img/email/tuta.svg#only-light){ align=right }
 ![Logo di Tuta](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** offre un calendario gratuito e criptato su tutte le piattaforme da loro supportate. Le caratteristiche includono: E2EE automatica di tutti i dati, funzioni di condivisione, importazione/esportazione, autenticazione a più fattori e [altro](https://tuta.com/it/calendar-app-comparison).
+**Tuta** offre un calendario gratuito e criptato su tutte le piattaforme da loro supportate. Features include: automatic E2EE of all data, sharing features, import/export functionality, multifactor authentication, and [more](https://tuta.com/calendar-app-comparison).
 
 Calendari multipli e funzionalità di condivisione estese sono limitate agli abbonati a pagamento.
 

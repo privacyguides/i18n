@@ -251,9 +251,9 @@ Di default, LibreTube blocca tutte le inserzioni di YouTube. Inoltre, LibreTube 
 
 <div class="admonition recommendation annotate" markdown>
 
-![Logo di Newpipe](assets/img/frontends/newpipe.svg){ align=right }
+![NewPipe logo](assets/img/frontends/newpipe.svg){ align=right }
 
-**NewPipe** è un'applicazione Android gratuita e open source per [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com) e [PeerTube](https://joinpeertube.org/it) (1).
+**NewPipe** is a free and open-source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org) (1).
 
 Il tuo elenco delle iscrizioni e le playlist sono salvate localmente sul tuo dispositivo Android.
 

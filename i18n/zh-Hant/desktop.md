@@ -101,7 +101,7 @@ These operating systems differ from Fedora Workstation as they replace the [DNF]
 
 更新完成後，您將重新啟動系統進入新的布署。 `rpm-ostree` 會保留系統的兩個布署，以便在新布署出現問題時，可以輕鬆地回退。 此外，還可根據需要釘選更多布署。
 
-[Flatpak](https://flatpak.org) 是這些發行版本的主要套件安裝方式，而 `rpm-ostree` 只用在基礎映像上疊加那些無法留在容器的套件。
+[Flatpak](https://flatpak.org) is the primary package installation method on these distributions, as `rpm-ostree` is only meant to overlay packages that cannot stay inside a container on top of the base image.
 
 作為 Flatpaks 的替代方案，您可以選擇 [Toolbx](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox) 來建立 [Podman](https://podman.io) 容器，模仿傳統的 Fedora 環境，對於眼光獨到的開發人員而言，這是 [非常有用的功能](https://containertoolbx.org) 。 這些容器與主機作業系統共用一個主目錄。
 
@@ -123,7 +123,7 @@ NixOS 是基於 Nix套件管理器的獨立發行版，專注於可重複性和�
 
 NixOS’ 套件管理器 將各個套件版本儲存在 **Nix store** 底下不同的資料夾。 因此，您可以在系統上安裝相同套件的不同版本。 套件內容寫入資料夾後，該資料夾會變成唯讀。
 
-NixOS 也提供原子化更新。 它會先下載（或建立）新世代系統的套件和檔案，然後再切換到新系統。 切換到新世代有不同的方式：您可以告訴 NixOS 在重新開機後啟動新世代，或是在運行時就切換到新世代。 也可以在運行時就切換到新世代系統來 *測試* ，但不將它設成當前系統。 如果更新過程中遭到打斷，可以重新啟動並自動返回到系統的工作版本。
+NixOS 也提供原子化更新。 它會先下載（或建立）新世代系統的套件和檔案，然後再切換到新系統。 There are different ways to switch to a new generation: you can tell NixOS to activate it after reboot, or you can switch to it at runtime. 也可以在運行時就切換到新世代系統來 *測試* ，但不將它設成當前系統。 如果更新過程中遭到打斷，可以重新啟動並自動返回到系統的工作版本。
 
 Nix 套件管理員使用純函數式程式設計語言（稱為 Nix ）來定義套件。
 

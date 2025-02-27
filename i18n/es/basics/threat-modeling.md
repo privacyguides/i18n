@@ -35,7 +35,7 @@ Un "activo" es algo que valoras y quieres proteger. En el contexto de la segurid
 
 Para responder a esta pregunta, es importante identificar quién podría querer suponer una amenaza para usted o su información. ==Una persona o entidad que supone una amenaza para sus activos es un "adversario".== Ejemplos de adversarios potenciales son tu jefe, tu ex pareja, tu competencia empresarial, tu gobierno o un hacker en una red pública.
 
-*Haz una lista de tus adversarios o de aquellos que podrían querer apoderarse de tus activos. Su lista puede incluir individuos, una agencia gubernamental o empresas.*
+*Make a list of your adversaries or those who might want to get hold of your assets. Su lista puede incluir individuos, una agencia gubernamental o empresas.*
 
 Dependiendo de quiénes sean sus adversarios, esta lista puede ser algo que quieras destruir después de haber terminado de desarrollar tu modelo de amenazas.
 

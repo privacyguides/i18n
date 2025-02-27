@@ -44,7 +44,7 @@ description: סקירה כללית של מספר ארכיטקטורות רשת �
 - מאפשר שליטה רבה יותר על הנתונים שלך בעת הפעלת השרת שלך.
 - מאפשר לך לבחור עם מי לסמוך על הנתונים שלך על ידי בחירה בין מספר שרתים "ציבוריים ".
 - לעתים קרובות מאפשר לקוחות צד שלישי שיכולים לספק חוויה מקורית, מותאמת אישית או נגישה יותר.
-- ניתן לאמת שתוכנת השרת תואמת לקוד המקור הציבורי, בהנחה שיש לך גישה לשרת או שאתה בוטח באדם שעושה זאת (למשל, בן משפחה).
+- Server software can be verified that it matches public source code, assuming you have access to the server, or you trust the person who does (e.g., a family member).
 
 **חסרונות:**
 
@@ -60,7 +60,7 @@ description: סקירה כללית של מספר ארכיטקטורות רשת �
 
 מסנג'רים P2P מתחברים ל[רשת מבוזרת](https://en.wikipedia.org/wiki/Distributed_networking) של צמתים כדי להעביר הודעה לנמען ללא שרת של צד שלישי.
 
-לקוחות (עמיתים) מוצאים זה את זה בדרך כלל באמצעות [רשת מחשוב מבוזרת](https://en.wikipedia.org/wiki/Distributed_computing). דוגמאות לכך כוללות [טבלאות Hash מפוזרות](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), המשמשות את [טורנטים](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) ו[IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) למשל. Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
+לקוחות (עמיתים) מוצאים זה את זה בדרך כלל באמצעות [רשת מחשוב מבוזרת](https://en.wikipedia.org/wiki/Distributed_computing). דוגמאות לכך כוללות [טבלאות Hash מפוזרות](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), המשמשות את [טורנטים](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) ו[IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) למשל. Another approach is proximity based networks, where a connection is established over Wi-Fi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
 
 לאחר שעמית מצא מסלול ליצירת קשר באמצעות כל אחת מהשיטות הללו, נוצר קשר ישיר ביניהן. למרות שהודעות מוצפנות בדרך כלל, צופה עדיין יכול להסיק את המיקום והזהות של השולח והנמען.
 
@@ -85,9 +85,9 @@ description: סקירה כללית של מספר ארכיטקטורות רשת �
 
 מסנג'ר המשתמש ב[ניתוב אנונימי](https://doi.org/10.1007/978-1-4419-5906-5_628) מסתיר את זהות השולח, המקבל או ראיות לכך שהם תקשרו. באופן אידיאלי, מסנג'ר צריך להסתיר את שלושתם.
 
-ישנן [הרבה](https://doi.org/10.1145/3182658) דרכים שונות ליישם ניתוב אנונימי. אחד המפורסמים ביותר הוא [ניתוב בצל](https://en.wikipedia.org/wiki/Onion_routing) (כלומר [Tor](tor-overview.md)), שמתקשרת הודעות מוצפנות באמצעות [רשת שכבת-על](https://en.wikipedia.org/wiki/Overlay_network) וירטואלית המסתירה את המיקום של כל צומת כמו גם את הנמען והשולח של כל הודעה. השולח והנמען לעולם אינם מקיימים אינטראקציה ישירה ורק נפגשים דרך צומת מפגש סודי כך שאין דליפה של כתובות IP או מיקום פיזי. צמתים אינם יכולים לפענח הודעות, וגם לא את היעד הסופי; רק הנמען יכול. כל צומת מתווך יכול לפענח רק חלק שמציין לאן לשלוח את ההודעה שעדיין מוצפנת בשלב הבא, עד שהוא מגיע לנמען שיכול לפענח אותה במלואה, ומכאן "שכבות הבצל."
+There are [many](https://doi.org/10.1145/3182658) ways to implement anonymous routing. אחד המפורסמים ביותר הוא [ניתוב בצל](https://en.wikipedia.org/wiki/Onion_routing) (כלומר [Tor](tor-overview.md)), שמתקשרת הודעות מוצפנות באמצעות [רשת שכבת-על](https://en.wikipedia.org/wiki/Overlay_network) וירטואלית המסתירה את המיקום של כל צומת כמו גם את הנמען והשולח של כל הודעה. השולח והנמען לעולם אינם מקיימים אינטראקציה ישירה ורק נפגשים דרך צומת מפגש סודי כך שאין דליפה של כתובות IP או מיקום פיזי. צמתים אינם יכולים לפענח הודעות, וגם לא את היעד הסופי; רק הנמען יכול. כל צומת מתווך יכול לפענח רק חלק שמציין לאן לשלוח את ההודעה שעדיין מוצפנת בשלב הבא, עד שהוא מגיע לנמען שיכול לפענח אותה במלואה, ומכאן "שכבות הבצל."
 
-אירוח עצמי של צומת ברשת ניתוב אנונימית אינו מספק למארח יתרונות פרטיות נוספים, אלא תורם לעמידות הרשת כולה בפני התקפות זיהוי לטובת כולם.
+Self-hosting a node in an anonymous routing network does not provide the host with additional privacy benefits, but rather contributes to the whole network's resilience against identification attacks for everyone's benefit.
 
 **יתרונות:**
 

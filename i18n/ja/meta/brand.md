@@ -12,7 +12,7 @@ description: A guide for journalists and website contributors on proper branding
 - PG.org
 </div>
 
-Subredditの名前は**r/PrivacyGuides**または**the Privacy Guides Subreddit**です。
+The name of the Subreddit is **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
 
 その他のブランドガイドラインについては、[github.com/privacyguides/brand](https://github.com/privacyguides/brand)を参照してください。
 

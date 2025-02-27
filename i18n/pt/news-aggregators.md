@@ -140,16 +140,16 @@ O **Newsboat** é um leitor de feeds RSS/Atom para a consola de texto. É um for
 
 ## Suporte RSS para redes sociais
 
-Alguns serviços de redes sociais também suportam RSS, embora isso não seja frequentemente anunciado.
+Some social media services also support RSS, although it's not often advertised.
 
 ### Reddit
 
-O Reddit permite-lhe subscrever subreddits através de RSS.
+Reddit allows you to subscribe to Subreddits via RSS.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Example</p>
 
-Replace `[SUBREDDIT]` with the subreddit you wish to subscribe to.
+Replace `[SUBREDDIT]` with the Subreddit you wish to subscribe to.
 
 ```text
 https://reddit.com/r/[SUBREDDIT]/new/.rss

@@ -64,7 +64,7 @@ Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/organize/have-a
 
 ## 간결하게 작성하세요
 
-> 불필요한 단어는 청중의 시간을 낭비합니다. 훌륭한 글쓰기는 대화와 같습니다. 청중에게 있어서 불필요한 정보는 생략하세요. 이는 어떤 주제의 전문가로서는 어려울 수도 있지만, 중요한 것은 청중의 관점에서 정보를 살펴보는 것입니다.
+> 불필요한 단어는 청중의 시간을 낭비합니다. 훌륭한 글쓰기는 대화와 같습니다. 청중에게 있어서 불필요한 정보는 생략하세요. This can be difficult as a subject-matter expert, so it’s important to have someone look at the information from the audience’s perspective.
 
 Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 

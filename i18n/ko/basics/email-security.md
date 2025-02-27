@@ -29,13 +29,13 @@ If you use a shared domain from a provider which doesn't support WKD, like @gmai
 
 ### E2EE 지원 이메일 클라이언트는 무엇인가요?
 
-IMAP, SMTP 등 표준 접속 프로토콜을 사용할 수 있는 이메일 제공 업체는 [권장 이메일 클라이언트](../email-clients.md)와 함께 사용할 수 있습니다. 인증 방법에 따라서, 이메일 제공 업체/클라이언트가 OATH를 지원하지 않거나 브리지 애플리케이션을 지원하지 않는 경우, 단순 비밀번호 인증으로는 [다중 인증](multi-factor-authentication.md)이 불가능하므로 보안이 저하될 수 있습니다.
+IMAP, SMTP 등 표준 접속 프로토콜을 사용할 수 있는 이메일 제공 업체는 [권장 이메일 클라이언트](../email-clients.md)와 함께 사용할 수 있습니다. Depending on the authentication method, this may lead to the decrease security if either the provider or the email client does not support OATH or a bridge application as [multifactor authentication](multi-factor-authentication.md) is not possible with plain password authentication.
 
 ### 개인 키를 어떻게 보호해야 하나요?
 
-A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. 암호화된 메일 내용은 스마트카드에서 복호화되며, 복호화된 내용이 스마트카드로부터 기기로 전달됩니다.
+A smart card (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. The message is then decrypted by the smart card and the decrypted content is sent back to the device.
 
-It is advantageous for the decryption to occur on the smartcard to avoid possibly exposing your private key to a compromised device.
+It is advantageous for the decryption to occur on the smart card to avoid possibly exposing your private key to a compromised device.
 
 ## 이메일 메타데이터 개요
 
@@ -49,4 +49,4 @@ It is advantageous for the decryption to occur on the smartcard to avoid possibl
 
 ### 메타데이터는 종단 간 암호화를 적용할 수 없나요?
 
-이메일 메타데이터는 이메일의 가장 기본적인 기능(어디에서 왔는지, 어디로 가야하는지 등)에 매우 중요한 역할을 합니다. 이메일 프로토콜에는 본래 E2EE가 내장되지 않았기 때문에, OpenPGP 등의 애드온 소프트웨어가 필요합니다. 그러나 OpenPGP 메시지는 여전히 기존 이메일 제공 업체와도 작동해야 합니다. 따라서 메시지 본문은 암호화할 수 있으나, 메타데이터는 암호화할 수 없습니다. 따라서, OpenPGP를 사용하더라도 외부 관찰자는 이메일 수신자, 제목, 이메일 작성 시간 등 여러 정보를 볼 수 있습니다.
+이메일 메타데이터는 이메일의 가장 기본적인 기능(어디에서 왔는지, 어디로 가야하는지 등)에 매우 중요한 역할을 합니다. 이메일 프로토콜에는 본래 E2EE가 내장되지 않았기 때문에, OpenPGP 등의 애드온 소프트웨어가 필요합니다. 그러나 OpenPGP 메시지는 여전히 기존 이메일 제공 업체와도 작동해야 합니다. 따라서 메시지 본문은 암호화할 수 있으나, 메타데이터는 암호화할 수 없습니다. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, the subject lines, when you're emailing, etc.

@@ -28,7 +28,7 @@ Nextcloud [sigue siendo una herramienta recomendada](document-collaboration.md#n
 
 ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
 
-**Proton Drive** es un proveedor de almacenamiento cifrado en la nube del popular proveedor de correo electrónico cifrado [Proton Mail](email.md#proton-mail). El almacenamiento gratuito inicial está limitado a 2 GB, pero al completar [ciertos pasos](https://proton.me/support/more-free-storage-existing-users), se puede obtener almacenamiento adicional de hasta 5 GB.
+**Proton Drive** es un proveedor de almacenamiento cifrado en la nube del popular proveedor de correo electrónico cifrado [Proton Mail](email.md#proton-mail). The initial free storage is limited to 2 GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5 GB.
 
 [:octicons-home-16: Página Principal](https://proton.me/drive){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/drive/privacy-policy){ .card-link title="Política de Privacidad" }
@@ -119,7 +119,7 @@ Ejecutar una versión local de Peergos junto con una cuenta registrada en su ser
 
 Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November 2024 by Radically Open Security and all issues were fixed. They were previously [audited](https://cure53.de/pentest-report_peergos.pdf) by Cure53 in June 2019, and all found issues were subsequently fixed.
 
-No hay disponible una aplicación para Android, pero está [en preparación](https://discuss.privacyguides.net/t/peergos-private-storage-sharing-social-media-and-application-platform/11825/25). La solución actual consiste en utilizar [la PWA](https://peergos.net) móvil en su lugar.
+An Android app is not available, but it is [in the works](https://discuss.privacyguides.net/t/peergos-private-storage-sharing-social-media-and-application-platform/11825/25). La solución actual consiste en utilizar [la PWA](https://peergos.net) móvil en su lugar.
 
 ## Criterios
 
@@ -129,7 +129,7 @@ No hay disponible una aplicación para Android, pero está [en preparación](htt
 
 - Debe aplicar el cifrado de extremo a extremo.
 - Debe ofrecer un plan gratuito o un periodo de prueba.
-- Debe ser compatible con la autenticación multifactor TOTP o FIDO2, o con los inicios de sesión con llave de acceso.
+- Must support TOTP or FIDO2 multifactor authentication, or passkey logins.
 - Debe ofrecer una interfaz web que admita funciones básicas de gestión de archivos.
 - Debe permitir exportar fácilmente todos los archivos/documentos.
 

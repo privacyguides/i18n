@@ -86,7 +86,7 @@ uBlock Origin Lite 僅在擴充功能從瀏覽器的附加元件市場更新時�
 
 ### AdGuard
 
-我們建議 iOS 使用者使用 [Safari](mobile-browsers.md#safari-ios) ，遺憾的是 uBlock Origin 並不支援它。 幸好還有 Adguard 作為足夠的替代：
+我們建議 iOS 使用者使用 [Safari](mobile-browsers.md#safari-ios) ，遺憾的是 uBlock Origin 並不支援它。 Luckily, AdGuard provides an adequate alternative:
 
 <div class="admonition recommendation" markdown>
 

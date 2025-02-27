@@ -35,7 +35,7 @@ description: 보안, 프라이버시, 사용성 간의 균형 조절은 프라�
 
 먼저, 여러분 개인 및 여러분의 정보를 목표삼을 만한 상대가 누구인지 인지하는 것이 중요합니다. ==자산에 위협을 가하는 사람이나 단체를 '공격자'라고 합니다.== 잠재적 공격자의 예로는 상사, 전 파트너, 비즈니스 경쟁사, 국가의 정부, 공용 네트워크의 해커 등이 있습니다.
 
-*공격자 또는 여러분의 자산을 손에 넣으려는 사람들의 목록을 정리하세요. 목록에는 개인, 정부 기관, 법인 등이 포함될 수 있습니다.*
+*Make a list of your adversaries or those who might want to get hold of your assets. 목록에는 개인, 정부 기관, 법인 등이 포함될 수 있습니다.*
 
 Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
 

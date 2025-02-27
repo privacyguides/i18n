@@ -115,7 +115,7 @@ VeraCrypt is een vork van het beëindigde TrueCrypt-project. Volgens de ontwikke
 
 Bij het versleutelen met VeraCrypt heb je de keuze uit verschillende [hashfuncties](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme). Wij raden je aan **alleen** [SHA-512](https://en.wikipedia.org/wiki/SHA-512) te selecteren en vast te houden aan het [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) blokcijfer.
 
-Truecrypt is [een aantal keer gecontroleerd](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), en VeraCrypt is ook [apart gecontroleerd](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
+TrueCrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), and VeraCrypt has also been [audited separately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
 
 ## Operating System Encryption
 
@@ -189,7 +189,7 @@ To enable BitLocker on "Home" editions of Windows, you must have partitions form
 
 ![FileVault-logo](assets/img/encryption-software/filevault.png){ align=right }
 
-**FileVault** is de in macOS ingebouwde oplossing voor volumeversleuteling tijdens het filteren. FileVault takes advantage of the [hardware security capabilities](os/macos-overview.md#hardware-security) present on an Apple silicon SoC or T2 Security Chip.
+**FileVault** is de in macOS ingebouwde oplossing voor volumeversleuteling tijdens het filteren. FileVault takes advantage of the [hardware security capabilities](os/macos-overview.md#hardware-security) present on an Apple Silicon SoC or T2 Security Chip.
 
 [:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title="Documentation" }
 

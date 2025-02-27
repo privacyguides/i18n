@@ -5,7 +5,7 @@ icon: 'material/account-plus'
 description: Das Anlegen von Online-Konten ist praktisch eine Notwendigkeit für das Internet. Mit diesen Schritten kannst du sicherstellen, dass du privat bleibst.
 ---
 
-Oft melden sich Menschen für Dienste an, ohne nachzudenken. Vielleicht ist es ein Streaming-Dienst, mit dem du die neue Serie, über die alle reden, sehen kannst, oder ein Konto, mit dem du einen Rabatt für dein Lieblingsrestaurant bekommst. In jedem Fall solltest du die Auswirkungen auf Ihre Daten jetzt und in Zukunft beachten.
+Oft melden sich Menschen für Dienste an, ohne nachzudenken. Maybe it's a streaming service to watch that new show everyone's talking about, or an account that gives you a discount for your favorite fast food place. In jedem Fall solltest du die Auswirkungen auf Ihre Daten jetzt und in Zukunft beachten.
 
 Mit jedem neuen Dienst, den du nutzt, sind Risiken verbunden. Datenlecks, die Weitergabe von Kundeninformationen an Dritte, der Zugriff auf Daten durch unberechtigte Mitarbeiter - all dies sind Möglichkeiten, die bei der Weitergabe deiner Informationen berücksichtigt werden müssen. Du musst sicher sein, dass du dem Dienst vertrauen kannst. Deshalb empfehlen wir, wertvolle Daten nur auf den ausgereiftesten und erprobten Produkten zu speichern. Das bedeutet in der Regel Dienste, die E2EE anbieten und eine kryptographisches Audit durchlaufen haben. Ein Audit erhöht die Sicherheit, dass das Produkt ohne eklatante Sicherheitsprobleme entwickelt wurde, die von einem unerfahrenen Entwickler verursacht wurden.
 
@@ -13,11 +13,11 @@ Bei einigen Diensten kann es auch schwierig sein, die Konten zu löschen. Manchm
 
 ## Nutzungsbedingungen & Datenschutzbestimmungen
 
-Die Nutzungsbedingungen sind die Regeln, denen du zustimmst, wenn du einen Dienst in Anspruch nimmst. Bei größeren Dienstleistern werden diese Regeln oft durch automatisierte Systeme durchgesetzt. Manchmal können diese automatischen Systeme Fehler machen. So kann es beispielsweise vorkommen, dass dein Konto bei einigen Diensten gesperrt wird, weil du eine VPN- oder VOIP-Nummer verwendest. Gegen solche Verbote Einspruch zu erheben, ist oft schwierig und erfordert auch ein automatisiertes Verfahren, das nicht immer erfolgreich ist. Dies wäre einer der Gründe, warum wir beispielsweise nicht empfehlen würden, Gmail für E-Mail zu verwenden. E-Mail ist entscheidend für den Zugriff auf andere Dienste, für die du dich möglicherweise angemeldet hast.
+Die Nutzungsbedingungen sind die Regeln, denen du zustimmst, wenn du einen Dienst in Anspruch nimmst. Bei größeren Dienstleistern werden diese Regeln oft durch automatisierte Systeme durchgesetzt. Manchmal können diese automatischen Systeme Fehler machen. For example, you may be banned or locked out of your account on some services for using a VPN or VoIP number. Gegen solche Verbote Einspruch zu erheben, ist oft schwierig und erfordert auch ein automatisiertes Verfahren, das nicht immer erfolgreich ist. Dies wäre einer der Gründe, warum wir beispielsweise nicht empfehlen würden, Gmail für E-Mail zu verwenden. E-Mail ist entscheidend für den Zugriff auf andere Dienste, für die du dich möglicherweise angemeldet hast.
 
-In den Datenschutzrichtlinien steht, wie der Dienst deine Daten verwenden wird, und es lohnt sich, sie zu lesen, damit du verstehst, wie deine Daten verwendet werden. Ein Unternehmen oder eine Organisation ist möglicherweise rechtlich nicht verpflichtet, alles zu befolgen, was in der Richtlinie enthalten ist (dies hängt von der jeweiligen Rechtsprechung ab). Wir empfehlen dir, einen Überblick über die örtlichen Gesetze zu verschaffen und darüber, was ein Anbieter erheben darf.
+The Privacy Policy is how the service says they will use your data, and it is worth reading so that you understand how your data will be used. Ein Unternehmen oder eine Organisation ist möglicherweise rechtlich nicht verpflichtet, alles zu befolgen, was in der Richtlinie enthalten ist (dies hängt von der jeweiligen Rechtsprechung ab). Wir empfehlen dir, einen Überblick über die örtlichen Gesetze zu verschaffen und darüber, was ein Anbieter erheben darf.
 
-Wir empfehlen die Suche nach bestimmten Begriffen wie "Datenerfassung", "Datenanalyse", "Cookies", "Anzeigen" oder "Drittanbieter". Manchmal hast du die Möglichkeit, die Datenerfassung oder die Weitergabe deiner Daten abzulehnen, aber es ist am besten, einen Dienst zu wählen, der deine Privatsphäre von Anfang an respektiert.
+Wir empfehlen die Suche nach bestimmten Begriffen wie "Datenerfassung", "Datenanalyse", "Cookies", "Anzeigen" oder "Drittanbieter". Sometimes you will be able to opt out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
 
 Denke auch daran, dass du dem Unternehmen oder der Organisation dein Vertrauen schenkst und dass sie ihre eigenen Datenschutzrichtlinien einhalten.
 
@@ -42,7 +42,7 @@ Du bist für die Verwaltung deiner Anmeldedaten verantwortlich. Für zusätzlich
 
 #### E-Mail-Aliasse
 
-Wenn du deine echte E-Mail-Adresse nicht an einen Dienst weitergeben möchtest, hast du die Möglichkeit, einen Alias zu verwenden. Wir haben diese auf unserer Empfehlungsseite für E-Mail-Dienste näher beschrieben. Im Grunde erlauben dir Alias-Dienste neue E-Mail-Adressen zu generieren, die alle E-Mails an deine Hauptadresse weiterleiten. Dies kann dazu beitragen, die Nachverfolgung über verschiedene Dienste hinweg zu verhindern und die Marketing-E-Mails zu verwalten, die manchmal mit dem Anmeldeprozess einhergehen. Diese können automatisch anhand des Alias gefiltert werden, an den sie gesendet werden.
+Wenn du deine echte E-Mail-Adresse nicht an einen Dienst weitergeben möchtest, hast du die Möglichkeit, einen Alias zu verwenden. Wir haben diese auf unserer Empfehlungsseite für E-Mail-Dienste näher beschrieben. Im Grunde erlauben dir Alias-Dienste neue E-Mail-Adressen zu generieren, die alle E-Mails an deine Hauptadresse weiterleiten. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. Diese können automatisch anhand des Alias gefiltert werden, an den sie gesendet werden.
 
 Sollte ein Dienst gehackt werden, erhältst du möglicherweise Phishing- oder Spam-E-Mails an die Adresse, die du für die Anmeldung verwendet hast. Die Verwendung eindeutiger Aliasnamen für jeden Dienst kann dabei helfen, genau festzustellen, welcher Dienst gehackt wurde.
 
@@ -76,7 +76,7 @@ Bösartige Anwendungen, insbesondere auf mobilen Geräten, bei denen die Anwendu
 
 Wir empfehlen, Dienste zu meiden, die eine Telefonnummer für die Anmeldung erfordern. A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
 
-Wenn möglich, solltest du deine echte Telefonnummer nicht herausgeben. Einige Dienste gestatten die Verwendung von VOIP-Nummern, die jedoch häufig Betrugserkennungssysteme auslösen und zur Sperrung eines Kontos führen, weshalb wir dies für wichtige Konten nicht empfehlen.
+Wenn möglich, solltest du deine echte Telefonnummer nicht herausgeben. Some services will allow the use of VoIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
 
 In vielen Fällen musst du eine Nummer angeben, unter der du SMS oder Anrufe empfangen kannst, insbesondere bei internationalen Einkäufen, falls es bei der Grenzkontrolle Probleme mit deiner Bestellung gibt. Es ist üblich, dass Dienste deine Nummer als Verifizierungsmethode verwenden; lasse es nicht zu, dass du aus einem wichtigen Konto ausgesperrt wirst, weil du clever sein und eine falsche Nummer angeben willst!
 

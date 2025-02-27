@@ -10,9 +10,9 @@ description: Linux 是一種開放原始碼、注重隱私的桌面作業系統�
 
 [建議的 Linux 發行版 :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
 
-## 隱私筆記
+## Security Notes
 
-用戶應考量 一些使用 Linux 須關注的隱私問題。 儘管有這些缺點，對於大多數用戶，桌面 Linux 發行版還是很棒：
+There are some notable security concerns with Linux which you should be aware of. 儘管有這些缺點，對於大多數用戶，桌面 Linux 發行版還是很棒：
 
 - 避免商業作業系統經常出現的遙測現象
 - 維護 [軟體自由](https://gnu.org/philosophy/free-sw.en.html#four-freedoms)
@@ -52,11 +52,11 @@ description: Linux 是一種開放原始碼、注重隱私的桌面作業系統�
 
 傳統上 Linux 發行版的更新模式是依次更新所需的軟體套件。 Fedora、Arch Linux 和其他基於 Debian 的發行版皆採納此種模式—而這種模式如果在更新時發生錯誤，其系統可靠性可能會因此降低。
 
-而原子更新模式則是完全套用更新或完全不套用更新。 在採納原子更新模式的發行版上，如果在更新時發生錯誤（也許是由於停電），系統上就不會有任何改變。
+Distros which use atomic updates, on the other hand, apply updates in full or not at all. 在採納原子更新模式的發行版上，如果在更新時發生錯誤（也許是由於停電），系統上就不會有任何改變。
 
 因此 Silverblue 和 NixOS 等 [發行版](../desktop.md#atomic-distributions) 在這種情況下便可以依靠原子更新模式維持系統穩定性。 [Adam Šamalík](https://twitter.com/adsamalik) 介紹 `rpm-ostree` 如何與 Silverblue 搭配使用：
 
-- [Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalik](https://youtu.be/aMo4ZlWznao) <small>(YouTube)</small>
+- [Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalík](https://youtu.be/aMo4ZlWznao) <small>(YouTube)</small>
 
 ### 「注重安全」的發行版
 
@@ -85,7 +85,7 @@ description: Linux 是一種開放原始碼、注重隱私的桌面作業系統�
 
 ### 強制訪問控制
 
-強制訪問控制是一套額外的安全控制，有助於限制應用程式和系統服務等部分。 Linux 發行版本中常見的兩種強制訪問控制實作是 [SELinux](https://github.com/SELinuxProject) 和 [AppArmor](https://apparmor.net) 。 Fedora 預設使用 SELinux，而 Tumbleweed 則在安裝程式中[預設](https://en.opensuse.org/Portal:SELinux)使用 AppArmor，並允許您[選擇](https://en.opensuse.org/Portal:SELinux/Setup)改用 SELinux 。
+強制訪問控制是一套額外的安全控制，有助於限制應用程式和系統服務等部分。 Linux 發行版本中常見的兩種強制訪問控制實作是 [SELinux](https://github.com/SELinuxProject) 和 [AppArmor](https://apparmor.net) 。 Fedora and Tumbleweed use SELinux by default, with Tumbleweed offering an option in its installer to choose AppArmor instead.
 
 [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-getting-started) 上的 SELinux 預設會限制 Linux軟體容器、虛擬機器和守護進程。 AppArmor 由 Snap 守護進程 用於 [沙盒化](https://snapcraft.io/docs/security-sandboxing) Snap，這些由 Snap 提供的軟體有 [嚴格](https://snapcraft.io/docs/snap-confinement) 限制，例如 [Firefox](https://snapcraft.io/firefox) 。 在 Fedora 的 [ConfinedUsers](https://fedoraproject.org/wiki/SIGs/ConfinedUsers) 特別興趣小組中，有社群致力於限制系統的更多部分。
 
@@ -93,7 +93,7 @@ description: Linux 是一種開放原始碼、注重隱私的桌面作業系統�
 
 ### 磁碟加密
 
-大多數Linux 發行版安裝程式中都有啟用 [LUKS](../encryption.md#linux-unified-key-setup) FDE之選項。 如果在安裝時沒有設定這個選項，就只能重新安裝，因為在 [系統系統](https://en.wikipedia.org/wiki/File_system) 被格式化 [磁碟分區](https://en.wikipedia.org/wiki/Disk_partitioning)後進行加密。 我們還建議安全地刪除儲存設備。
+大多數Linux 發行版安裝程式中都有啟用 [LUKS](../encryption.md#linux-unified-key-setup) FDE之選項。 If this option isn’t set at installation time, you will have to back up your data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning), but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. 我們還建議安全地刪除儲存設備。
 
 - [安全資料清除 :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/05/25/secure-data-erasure)
 
@@ -156,7 +156,7 @@ MAC 位址隨機化主要有利於 Wi-Fi 連接。 對於乙太網路連接，�
 
 Fedora 專案使用 [`countme`](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting#Detailed_Description) 變數而非獨特 ID 來 [計算](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting) 多少系統訪問它的鏡像。 Fedora 這樣做是為了確定負載並在必要時提供更好的更新伺服器。
 
-這個 [選項](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) ，目前預設為關閉。 我們建議將 `countme=false` 添加到 `/etc/dnf/dnf.conf` ，以防止將來此選項被改為預設啟用。 使用 `rpm-ostree` 的系統，如 Silverblue，通過遮蔽 [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems) 計時器來禁用 countme 選項。
+這個 [選項](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) ，目前預設為關閉。 我們建議將 `countme=false` 添加到 `/etc/dnf/dnf.conf` ，以防止將來此選項被改為預設啟用。 On systems that use `rpm-ostree` such as Silverblue, the `countme` option is disabled by masking the [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems) timer.
 
 openSUSE 則是使用[唯一的 ID](https://en.opensuse.org/openSUSE:Statistics) 來計算系統，可以通過清空`/var/lib/zypp/AnonymousUniqueId` 此檔案來禁用。
 

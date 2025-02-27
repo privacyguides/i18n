@@ -24,7 +24,7 @@ Estos son los requisitos que exigimos a los desarrolladores que deseen presentar
 
 - Debe revelar su afiliación, es decir, su cargo dentro del proyecto que se presenta.
 
-- Debe contar con un documento de seguridad si se trata de un proyecto que implica el manejo de información sensible como un servicio de mensajería, un administrador de contraseñas, almacenamiento cifrado en la nube, etc.
+- Must have a security white paper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
     - En cuanto al estado de la auditoría de terceros, queremos saber si se ha sometido a una o la ha solicitado. Si es posible, mencione quién realizará la auditoría.
 
 - Debe explicar qué aporta el proyecto en materia de privacidad.

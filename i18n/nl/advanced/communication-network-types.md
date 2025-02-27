@@ -44,7 +44,7 @@ Bij zelf-hosting kunnen leden van een federatieve server leden van andere server
 - Maakt een grotere controle over jouw eigen gegevens mogelijk wanneer je jouw eigen server gebruikt.
 - Hiermee kunt je kiezen aan wie je jouw gegevens toevertrouwt door te kiezen tussen meerdere "openbare" servers.
 - Staat vaak clients van derden toe die een meer native, aangepaste of toegankelijke ervaring kunnen bieden.
-- Bij serversoftware kan worden nagegaan of deze overeenkomt met de openbare broncode, ervan uitgaande dat je toegang hebt tot de server of dat je de persoon die dat heeft (bijvoorbeeld een familielid) vertrouwt.
+- Server software can be verified that it matches public source code, assuming you have access to the server, or you trust the person who does (e.g., a family member).
 
 **Nadelen:**
 
@@ -60,7 +60,7 @@ Bij zelf-hosting kunnen leden van een federatieve server leden van andere server
 
 P2P berichten diensten maken verbinding met een [gedistribueerd netwerk](https://en.wikipedia.org/wiki/Distributed_networking) van knooppunten om een bericht door te geven aan de ontvanger zonder een server van derden.
 
-Cliënten (peers) vinden elkaar meestal via een [gedistribueerd computernetwerk](https://en.wikipedia.org/wiki/Distributed_computing). Voorbeelden hiervan zijn [Distributed Hash Tables](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), gebruikt door [torrents](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) en [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) bijvoorbeeld. Een andere benadering is op nabijheid gebaseerde netwerken, waarbij een verbinding tot stand wordt gebracht via WiFi of Bluetooth (bijvoorbeeld Briar of het [Scuttlebutt](https://scuttlebutt.nz) sociale netwerkprotocol).
+Cliënten (peers) vinden elkaar meestal via een [gedistribueerd computernetwerk](https://en.wikipedia.org/wiki/Distributed_computing). Voorbeelden hiervan zijn [Distributed Hash Tables](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), gebruikt door [torrents](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) en [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) bijvoorbeeld. Another approach is proximity based networks, where a connection is established over Wi-Fi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
 
 Zodra een peer via een van deze methoden een route naar zijn contactpersoon heeft gevonden, wordt een rechtstreekse verbinding tussen hen tot stand gebracht. Hoewel berichten meestal versleuteld zijn, kan een waarnemer toch de locatie en de identiteit van de verzender en de ontvanger afleiden.
 
@@ -85,9 +85,9 @@ P2P-netwerken maken geen gebruik van servers, aangezien peers rechtstreeks met e
 
 Een berichten diensten die gebruik maakt van [anonieme routering](https://doi.org/10.1007/978-1-4419-5906-5_628) verbergt de identiteit van de verzender, de ontvanger of het bewijs dat zij hebben gecommuniceerd. Idealiter zou een berichten diensten alle drie moeten verbergen.
 
-Er zijn [veel](https://doi.org/10.1145/3182658) verschillende manieren om anonieme routering te implementeren. Een van de bekendste is [onion routing](https://en.wikipedia.org/wiki/Onion_routing) (d.w.z. [Tor](tor-overview.md)), waarbij versleutelde berichten worden gecommuniceerd via een virtueel [overlay netwerk](https://en.wikipedia.org/wiki/Overlay_network) dat de locatie van elk knooppunt en de ontvanger en verzender van elk bericht verbergt. De verzender en de ontvanger hebben nooit rechtstreeks contact en ontmoeten elkaar alleen via een geheim rendez-vousknooppunt, zodat er geen IP-adressen of fysieke locatie uitlekken. Knooppunten kunnen berichten niet ontcijferen, noch de eindbestemming; alleen de ontvanger kan dat. Elk tussenliggend knooppunt kan slechts een deel decoderen dat aangeeft waar het nog versleutelde bericht naartoe moet, totdat het aankomt bij de ontvanger die het volledig kan decoderen, vandaar de "ui-lagen"
+There are [many](https://doi.org/10.1145/3182658) ways to implement anonymous routing. Een van de bekendste is [onion routing](https://en.wikipedia.org/wiki/Onion_routing) (d.w.z. [Tor](tor-overview.md)), waarbij versleutelde berichten worden gecommuniceerd via een virtueel [overlay netwerk](https://en.wikipedia.org/wiki/Overlay_network) dat de locatie van elk knooppunt en de ontvanger en verzender van elk bericht verbergt. De verzender en de ontvanger hebben nooit rechtstreeks contact en ontmoeten elkaar alleen via een geheim rendez-vousknooppunt, zodat er geen IP-adressen of fysieke locatie uitlekken. Knooppunten kunnen berichten niet ontcijferen, noch de eindbestemming; alleen de ontvanger kan dat. Elk tussenliggend knooppunt kan slechts een deel decoderen dat aangeeft waar het nog versleutelde bericht naartoe moet, totdat het aankomt bij de ontvanger die het volledig kan decoderen, vandaar de "ui-lagen"
 
-Het zelf hosten van een knooppunt in een anoniem routenetwerk biedt de hoster geen extra privacyvoordelen, maar draagt bij tot de weerbaarheid van het hele netwerk tegen identificatieaanvallen, wat in ieders voordeel is.
+Self-hosting a node in an anonymous routing network does not provide the host with additional privacy benefits, but rather contributes to the whole network's resilience against identification attacks for everyone's benefit.
 
 **Voordelen:**
 

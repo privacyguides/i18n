@@ -4,7 +4,7 @@ icon: 'material/eye-outline'
 description: Cada utilizador tem o seu modelo de ameaça, mas estes são alguns dos aspetos que interessam a muitos visitantes deste site.
 ---
 
-Em termos gerais, categorizamos as nossas recomendações no tipo de [ameaças](threat-modeling.md) ou objetivos que se aplicam à maioria das pessoas. ==Pode preocupar-se com nenhuma, uma, algumas ou todas estas possibilidades==, e as ferramentas e serviços que utiliza dependem dos seus objetivos. Também pode ter ameaças específicas fora destas categorias, o que é perfeitamente normal! O que importa realmente é que compreenda as vantagens e desvantagens das ferramentas que escolher, uma vez que praticamente nenhuma delas o protegerá de todas as ameaças.
+Em termos gerais, categorizamos as nossas recomendações no tipo de [ameaças](threat-modeling.md) ou objetivos que se aplicam à maioria das pessoas. ==Pode preocupar-se com nenhuma, uma, algumas ou todas estas possibilidades==, e as ferramentas e serviços que utiliza dependem dos seus objetivos. You may have specific threats outside these categories as well, which is perfectly fine! O que importa realmente é que compreenda as vantagens e desvantagens das ferramentas que escolher, uma vez que praticamente nenhuma delas o protegerá de todas as ameaças.
 
 <span class="pg-purple">:material-incognito: **Anonymity**</span>
 :
@@ -19,7 +19,7 @@ Being protected from hackers or other malicious actors who are trying to gain ac
 <span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
 :
 
-Typically a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+Typically, a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
 
 <span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
 :
@@ -44,7 +44,7 @@ Protecting yourself from big advertising networks, like Google and Facebook, as 
 <span class="pg-green">:material-account-search: **Public Exposure**</span>
 :
 
-Limiting the information about you that is accessible online—to search engines or the general public.
+Limiting the information about you that is accessible online—to search engines or the public.
 
 <span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
 :
@@ -76,7 +76,7 @@ Para minimizar os danos que um software malicioso *pode* causar, deve utilizar a
 
 Os sistemas operativos móveis têm geralmente uma melhor proteção das aplicações do que os sistemas operativos de secretária: as aplicações não podem obter acesso à raiz e necessitam de permissão para aceder aos recursos do sistema.
 
-Os sistemas operativos para desktop deixam a desejar no que diz respeito a uma adequada proteção. O ChromeOS tem capacidades de sandbox semelhantes às do Android e o macOS tem controlo total das permissões do sistema (e os programadores podem optar pela sandbox para as aplicações). No entanto, estes sistemas operativos transmitem informações de identificação aos respectivos OEMs. O Linux tende a não enviar informações aos fornecedores de sistemas, mas tem uma fraca proteção contra exploits e aplicações maliciosas. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+Os sistemas operativos para desktop deixam a desejar no que diz respeito a uma adequada proteção. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). No entanto, estes sistemas operativos transmitem informações de identificação aos respectivos OEMs. O Linux tende a não enviar informações aos fornecedores de sistemas, mas tem uma fraca proteção contra exploits e aplicações maliciosas. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
 
 </div>
 
@@ -143,7 +143,7 @@ Por conseguinte, sempre que possível, deve utilizar aplicações nativas em vez
 
 </div>
 
-Mesmo com a E2EE, os fornecedores de serviços podem ainda traçar o seu perfil com base nos **metadados**, que normalmente não estão protegidos. Embora o fornecedor de serviços não possa ler as suas mensagens, pode observar coisas importantes, como com quem está a falar, com que frequência lhes envia mensagens e quando está normalmente ativo. A proteção de metadados é bastante invulgar e, se estiver incluída no seu [modelo de ameaças](threat-modeling.md), deve prestar muita atenção à documentação técnica do software que está a utilizar, de forma a verificar se existe alguma minimização ou proteção de metadados.
+Mesmo com a E2EE, os fornecedores de serviços podem ainda traçar o seu perfil com base nos **metadados**, que normalmente não estão protegidos. While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. A proteção de metadados é bastante invulgar e, se estiver incluída no seu [modelo de ameaças](threat-modeling.md), deve prestar muita atenção à documentação técnica do software que está a utilizar, de forma a verificar se existe alguma minimização ou proteção de metadados.
 
 ## Programas de vigilância em massa
 
@@ -156,7 +156,7 @@ A vigilância em massa é o esforço intrincado para monitorizar o "comportament
 
 If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
 
-In France you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
+In France, you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
 
 </div>
 
@@ -189,7 +189,7 @@ If you're concerned about mass surveillance programs, you can use strategies lik
 
 Para muitas pessoas, a localização e vigilância por parte de empresas privadas é uma preocupação crescente. As redes de marketing omnipresentes, como as operadas pela Google e pelo Facebook, abrangem a Internet muito para além dos sites que controlam, acompanhando todas as suas ações ao longo da sua jornada de navegação. A utilização de ferramentas tais como bloqueadores de conteúdos para limitar os pedidos de rede aos seus servidores, bem como a leitura das políticas de privacidade dos serviços que utiliza, pode ajudá-lo a evitar muitos adversários básicos (embora não possa impedir completamente o rastreio).[^4]
 
-Além disso, mesmo as empresas que não pertencem à *AdTech* ou à indústria de rastreio podem partilhar as suas informações com [corretores de dados](https://en.wikipedia.org/wiki/Information_broker) (como a Cambridge Analytica, a Experian ou a Datalogix) ou outras partes. Não pode assumir que os seus dados estão seguros só porque o serviço que está a utilizar não se enquadra no modelo de negócio típico da AdTech ou do rastreio. A proteção mais forte contra a recolha de dados empresariais é encriptar ou ofuscar os seus dados sempre que possível, dificultando a correlação entre os dados de diferentes fornecedores e a criação de um perfil sobre si.
+Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. Não pode assumir que os seus dados estão seguros só porque o serviço que está a utilizar não se enquadra no modelo de negócio típico da AdTech ou do rastreio. A proteção mais forte contra a recolha de dados empresariais é encriptar ou ofuscar os seus dados sempre que possível, dificultando a correlação entre os dados de diferentes fornecedores e a criação de um perfil sobre si.
 
 ## Limitação da informação pública
 

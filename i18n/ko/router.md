@@ -19,7 +19,7 @@ Below are a few alternative operating systems that can be used on routers, Wi-Fi
 ![OpenWrt 로고](assets/img/router/openwrt.svg#only-light){ align=right }
 ![OpenWrt 로고](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
 
-**OpenWrt**는 Linux 기반 운영 체제입니다. 주로 임베디드 기기에서 네트워크 트래픽 라우터 용도로 사용됩니다. util-linux, uClibc, BusyBox 등을 포함하고 있습니다. 모든 구성 요소는 가정용 공유기(라우터)에 알맞게 최적화되어 있습니다.
+**OpenWrt**는 Linux 기반 운영 체제입니다. 주로 임베디드 기기에서 네트워크 트래픽 라우터 용도로 사용됩니다. util-linux, uClibc, BusyBox 등을 포함하고 있습니다. All the components have been optimized for home routers.
 
 [:octicons-home-16: 홈페이지](https://openwrt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=문서}

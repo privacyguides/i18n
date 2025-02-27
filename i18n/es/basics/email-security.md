@@ -29,13 +29,13 @@ Si utilizar un dominio compartido desde un proveedor no compatible con WKD, como
 
 ### ¿Qué clientes de correo electrónico admiten E2EE?
 
-Los proveedores de correo electrónico que permiten utilizar protocolos de acceso estándar como IMAP y SMTP pueden utilizarse con cualquiera de los clientes de correo electrónico [que recomendamos](../email-clients.md). Dependiendo del método de autenticación, esto puede conducir a la disminución de la seguridad si el proveedor o el cliente de correo electrónico no soporta OATH o una aplicación puente debido a que la [autenticación multifactor](multi-factor-authentication.md) no es posible con la autenticación de contraseña simple.
+Los proveedores de correo electrónico que permiten utilizar protocolos de acceso estándar como IMAP y SMTP pueden utilizarse con cualquiera de los clientes de correo electrónico [que recomendamos](../email-clients.md). Depending on the authentication method, this may lead to the decrease security if either the provider or the email client does not support OATH or a bridge application as [multifactor authentication](multi-factor-authentication.md) is not possible with plain password authentication.
 
 ### ¿Cómo puedo proteger mis claves privadas?
 
-Una tarjeta inteligente (como una [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) o [Nitrokey](../security-keys.md#nitrokey)) funciona recibiendo un mensaje de correo electrónico cifrado desde un dispositivo (teléfono, tableta, ordenador, etc.) que ejecute un cliente de correo electrónico/correo web. El mensaje es entonces descifrado por la tarjeta inteligente y el contenido descifrado es enviado de vuelta al dispositivo.
+A smart card (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. The message is then decrypted by the smart card and the decrypted content is sent back to the device.
 
-Es ventajoso para el descifrado que suceda en la tarjeta inteligente para evitar la posible exposición de tu clave privada en un dispositivo comprometido.
+It is advantageous for the decryption to occur on the smart card to avoid possibly exposing your private key to a compromised device.
 
 ## Descripción general de los metadatos de correo electrónico
 
@@ -49,4 +49,4 @@ Los metadatos del correo electrónico están protegidos de observadores externos
 
 ### ¿Por qué los metadatos no pueden ser E2EE?
 
-Los metadatos del correo electrónico son cruciales para la funcionalidad más básica del correo electrónico (de dónde viene y a dónde tiene que ir). E2EE no estaba integrado originalmente en los protocolos de correo electrónico, sino que requería un software adicional como OpenPGP. Dado que los mensajes OpenPGP todavía tienen que funcionar con los proveedores de correo electrónico tradicionales, no puede cifrar los metadatos del correo electrónico, sino sólo el cuerpo del mensaje. Esto significa que, incluso cuando se utiliza OpenPGP, los observadores externos pueden ver mucha información sobre tus mensajes, como a quién estás enviando correos electrónicos, las líneas de asunto, cuándo estás enviando correos, etc.
+Los metadatos del correo electrónico son cruciales para la funcionalidad más básica del correo electrónico (de dónde viene y a dónde tiene que ir). E2EE no estaba integrado originalmente en los protocolos de correo electrónico, sino que requería un software adicional como OpenPGP. Dado que los mensajes OpenPGP todavía tienen que funcionar con los proveedores de correo electrónico tradicionales, no puede cifrar los metadatos del correo electrónico, sino sólo el cuerpo del mensaje. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, the subject lines, when you're emailing, etc.

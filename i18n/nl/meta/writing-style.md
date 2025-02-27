@@ -64,7 +64,7 @@ We moeten proberen afkortingen waar mogelijk te vermijden, maar de technologie z
 
 ## Wees beknopt
 
-> Onnodige woorden verspillen de tijd van je publiek. Goed schrijven is als een gesprek. Laat informatie weg die het publiek niet hoeft te weten. Dit kan moeilijk zijn als een expert op het gebied van onderwerpen, dus het is belangrijk dat iemand naar de informatie kijkt vanuit het perspectief van het publiek.
+> Onnodige woorden verspillen de tijd van je publiek. Goed schrijven is als een gesprek. Laat informatie weg die het publiek niet hoeft te weten. This can be difficult as a subject-matter expert, so it’s important to have someone look at the information from the audience’s perspective.
 
 Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 

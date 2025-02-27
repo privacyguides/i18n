@@ -251,9 +251,9 @@ Piped 需要 JavaScript 才能運行，它有許多公共伺服器。
 
 <div class="admonition recommendation annotate" markdown>
 
-![Newpipe logo](assets/img/frontends/newpipe.svg){ align=right }
+![NewPipe logo](assets/img/frontends/newpipe.svg){ align=right }
 
-**NewPipe** 是自由及開放原始碼的 Android 應用程式，可用於觀看 [YouTube](https://youtube.com)、 [SoundCloud](https://soundcloud.com)、 [media.ccc.de](https://media.ccc.de)、 [Bandcamp](https://bandcamp.com)和 [PeerTube](https://joinpeertube.org) (1)。
+**NewPipe** is a free and open-source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org) (1).
 
 訂閱清單和播放列表會儲存在本地的 Android 裝置上。
 

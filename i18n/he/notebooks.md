@@ -9,7 +9,7 @@ cover: notebooks.webp
 
 - [:material-server-network: ספקי שירות](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-עקוב אחר ההערות והיומנים שלך מבלי למסור אותם לצד שלישי.
+Keep track of your notes and journals without giving them to a third party.
 
 אם אתה משתמש כעת באפליקציה כמו Evernote, Google Keep או Microsoft OneNote, אנו מציעים שתבחר כאן חלופה שתומכת ב-E2EE.
 
@@ -82,9 +82,9 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 <div class="admonition recommendation" markdown>
 
-![Joplin לוגו](assets/img/notebooks/joplin.svg){ align=right }
+![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
 
-**Joplin** הוא יישום חינמי, קוד פתוח ומלא תכונות לרישום הערות ומשימות שיכול להתמודד עם מספר רב של הערות סימון מאורגנים במחברות ותגים. הוא מציע E2EE ויכול לסנכרן דרך Nextcloud, Dropbox ועוד. הוא מציע גם ייבוא קל מ-Evernote והערות בטקסט רגיל.
+**Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle numerous markdown notes organized into notebooks and tags. הוא מציע E2EE ויכול לסנכרן דרך Nextcloud, Dropbox ועוד. הוא מציע גם ייבוא קל מ-Evernote והערות בטקסט רגיל.
 
 [:octicons-home-16: Homepage](https://joplinapp.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="Privacy Policy" }
@@ -133,7 +133,7 @@ Joplin does not [support](https://github.com/laurent22/joplin/issues/289) passwo
 
 </div>
 
-Cryptee מציע 100MB של אחסון בחינם, עם אפשרויות בתשלום אם אתה צריך יותר. ההרשמה אינה דורשת דואר אלקטרוני או מידע מזהה אישי אחר.
+Cryptee offers 100 MB of storage for free, with paid options if you need more. ההרשמה אינה דורשת דואר אלקטרוני או מידע מזהה אישי אחר.
 
 ## מחברות מקומיות
 

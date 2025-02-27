@@ -84,7 +84,7 @@ If an app is mostly a web-based service, the tracking may occur on the server si
 <div class="admonition note" markdown>
 <p class="admonition-title">Anmerkung</p>
 
-Datenschutzfreundliche Anwendungen wie [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest) können einige Tracker wie [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49) anzeigen. Diese Bibliothek enthält [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging), das [Push-Benachrichtigungen](https://en.wikipedia.org/wiki/Push_technology) in Anwendungen bereitstellen kann. Dies [ist der Fall](https://fosstodon.org/@bitwarden/109636825700482007) bei Bitwarden. Das bedeutet nicht, dass Bitwarden alle von Google Firebase Analytics bereitgestellten Analysefunktionen nutzt.
+Datenschutzfreundliche Anwendungen wie [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest) können einige Tracker wie [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49) anzeigen. Diese Bibliothek enthält [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging), das [Push-Benachrichtigungen](https://en.wikipedia.org/wiki/Push_technology) in Anwendungen bereitstellen kann. Dies [ist der Fall](https://fosstodon.org/@bitwarden/109636825700482007) bei Bitwarden. That doesn't mean that Bitwarden is using all the analytics features that are provided by Google Firebase Analytics.
 
 </div>
 
@@ -114,7 +114,7 @@ Like user profiles, a private space is encrypted using its own encryption key, a
 
 Unlike work profiles, Private Space is a feature native to Android that does not require a third-party app to manage it. For this reason, we generally recommend using a private space over a work profile, though you can use a work profile alongside a private space.
 
-### VPN Kill-Switch
+### VPN kill switch
 
 Android 7 und höher unterstützt einen VPN-Kill-Switch, der ohne die Installation von Drittanbieter-Apps verfügbar ist. Diese Funktion kann Leaks verhindern, wenn die VPN-Verbindung unterbrochen wird. Du findest sie unter :gear: **Einstellungen** → **Netzwerk & Internet** → **VPN** → :gear: → **Verbindungen ohne VPN blockieren**.
 
@@ -124,7 +124,7 @@ Moderne Android-Geräte haben globale Schalter zum Deaktivieren von Bluetooth un
 
 ## Google-Dienste
 
-If you are using a device with Google services—whether with the stock operating system or an operating system that safely sandboxes Google Play Services like GrapheneOS—there are a number of additional changes you can make to improve your privacy. We still recommend avoiding Google services entirely, or limiting Google Play services to a specific user/work profile by combining a device controller like *Shelter* with GrapheneOS's Sandboxed Google Play.
+If you are using a device with Google services—whether with the stock operating system or an operating system that safely sandboxes Google Play Services like GrapheneOS—there are a number of additional changes you can make to improve your privacy. We still recommend avoiding Google services entirely, or limiting Google Play Services to a specific user/work profile by combining a device controller like *Shelter* with GrapheneOS's Sandboxed Google Play.
 
 ### Advanced Protection Program
 

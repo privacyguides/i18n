@@ -6,7 +6,7 @@ description: macOS 是蘋果電腦的桌面作業系統，搭配其自家硬體�
 
 蘋果公司使用 Unix 作業系統來開發**macOS** 支援自家的 Mac 電腦。 為提高 macOS 隱私，用戶可關閉遙測功能以強化現有的隱私與安全設定。
 
-舊款的 Intel-based Macs 與 Hackintoshe 則無法完全支援 macOS 所提供的安全功能。 為提昇資料安全，建議使用帶[Apple silicon](https://support.apple.com/HT211814)晶片的新款 Mac 。
+舊款的 Intel-based Macs 與 Hackintoshe 則無法完全支援 macOS 所提供的安全功能。 To enhance data security, we recommend using a newer Mac with [Apple Silicon](https://support.apple.com/HT211814).
 
 ## 隱私筆記
 
@@ -14,7 +14,7 @@ description: macOS 是蘋果電腦的桌面作業系統，搭配其自家硬體�
 
 ### 激活鎖
 
-新款 Apple silicon 裝置無需網際網路連接即可設定。 但是，恢復或重置 Mac 將**需要**連接到 Apple 伺服器，以檢查丟失或被盜設備資料庫的激活鎖。
+Brand-new Apple Silicon devices can be set up without an internet connection. 但是，恢復或重置 Mac 將**需要**連接到 Apple 伺服器，以檢查丟失或被盜設備資料庫的激活鎖。
 
 ### 應用程式撤銷檢查
 
@@ -122,7 +122,7 @@ Apple 的 OCSP 服務使用 HTTPS 加密，因此只有他們能夠看到您開�
 
 ##### FileVault
 
-在具有安全隔離區（Apple T2 安全晶片、Apple 晶片）的現代裝置上，您的數據會保持加密。如果裝置未偵測到數據遭篡改，則會通過硬體金鑰自動解密。 Enabling [FileVault](../encryption.md#filevault) additionally requires your password to decrypt your data, greatly improving security, especially when powered off or before the first login after powering on.
+On modern devices with a Secure Enclave (Apple T2 Security Chip, Apple Silicon), your data is always encrypted, but is decrypted automatically by a hardware key if your device doesn't detect it's been tampered with. Enabling [FileVault](../encryption.md#filevault) additionally requires your password to decrypt your data, greatly improving security, especially when powered off or before the first login after powering on.
 
 在較舊的 Intel 的 Mac 電腦，FileVault 是預設唯一可用的磁盤加密形式，應始終啟用。
 
@@ -207,7 +207,7 @@ If an app is sandboxed, you should see the following output:
         [Bool] true
 ```
 
-If you find that the app you want to run is not sandboxed, then you may employ methods of [compartmentalization](../basics/common-threats.md#security-and-privacy) such as virtual machines or separate devices, use a similar app that is sandboxed, or choose to not use the unsandboxed app altogether.
+If you find that the app you want to run is not sandboxed, then you may employ methods of [compartmentalization](../basics/common-threats.md#security-and-privacy) such as virtual machines or separate devices, use a similar app that is sandboxed, or choose to not use the non-sandboxed app altogether.
 
 ##### Hardened Runtime
 
@@ -230,7 +230,7 @@ macOS 提供兩種惡意軟體防禦形式：
 1. 首先，防止啟動惡意軟體是由 App Store 對 App Store 應用程式的審核流程或*公證*（*Gatekeeper* 的一部份），這是 Apple 允許運行之前掃描第三方應用程式是否存在已知惡意軟體的程式。 Apps are required to be signed by the developers using a key given to them by Apple. This ensures that you are running software from the real developers. Notarization also requires that developers enable the Hardened Runtime for their apps, which limits methods of exploitation.
 2. *XProtect* 提供針對其他惡意軟體的防護以及修復系統上現有惡意軟體，XProtect 是 macOS 內建較傳統的防病毒軟體。
 
-建議不要安裝第三方防毒軟體，它們通常不具備正常運行所需的系統取用權限，因為Apple 對第三方應用程式的限制，授予它們要求的高級別取用權限常會帶來麻煩。對電腦造成更大的安全和隱私風險。
+We recommend against installing third-party antivirus software as they typically do not have the system-level access required to properly function anyway, because of Apple's limitations on third-party apps, and because granting the high levels of access they do ask for often poses an even greater security and privacy risk to your computer.
 
 ##### 備份
 
@@ -238,7 +238,7 @@ macOS comes with automatic backup software called [Time Machine](https://support
 
 ### 硬體安全
 
-macOS 中的許多現代安全功能（例如現代安全啟動、硬體級漏洞利用緩解、作業系統完整性檢查和檔案加密）都依賴於Apple 晶片，Apple 較新硬體一直具有[最佳安全性](https:// support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1)。 我們只鼓勵使用 Apple 晶片，而不推薦較舊的 Intel  Mac 電腦或 Hackintoshes。
+Many modern security features in macOS—such as modern Secure Boot, hardware-level exploit mitigation, OS integrity checks, and file-based encryption—rely on Apple Silicon, and Apple's newer hardware always has the [best security](https://support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1). We only encourage the use of Apple Silicon, and not older Intel-based Mac computers or Hackintoshes.
 
 其中一些現代安全功能可在配備Apple T2 安全晶片的 Intel 老式Mac 電腦上使用，但該晶片容易受到*checkm8* 漏洞的攻擊，這可能會損害其安全性。
 
@@ -256,7 +256,7 @@ Mac 電腦有三種安全模式啟動：*完全安全*、*降低安全性*和*�
 
 #### 安全隔離區
 
-安全隔離區是內建於 Apple silicon 裝置的安全晶片，負責儲存和生成靜態資料以及 Face ID 和 Touch ID 資料的加密金鑰。 它包含自己獨立的開機 ROM。
+The Secure Enclave is a security chip built into devices with Apple Silicon which is responsible for storing and generating encryption keys for data at rest as well as Face ID and Touch ID data. 它包含自己獨立的開機 ROM。
 
 您可以將安全隔離區想成裝置的安全中心：它具有 AES 加密引擎和安全儲存加密金鑰機制，它與系統的其餘部分分開，因此即使主處理器受到損害，也仍然保持安全。
 
@@ -268,7 +268,7 @@ Apple Touch ID 功能可使用生物識別技術安全地解鎖設備。
 
 #### 硬體麥克風斷線
 
-所有配備 Apple silicon 或 T2 晶片的筆記型電腦都具備在閉合時內建麥克風硬體即斷線的功能。 這意味著即使作業系統受到破壞，攻擊者無法監聽 Mac 的麥克風。
+All laptops with Apple Silicon or the T2 chip feature a hardware disconnect for the built-in microphone whenever the lid is closed. 這意味著即使作業系統受到破壞，攻擊者無法監聽 Mac 的麥克風。
 
 請注意，攝影機沒有硬體斷接，因為只要上蓋關閉時，其視線即會被遮擋。
 
@@ -287,7 +287,7 @@ Apple Touch ID 功能可使用生物識別技術安全地解鎖設備。
 
 #### 直接記憶體存取保護
 
-Apple silicon 將需要直接訪問記憶體的各組件分開。 例如，Thunderbolt 端口無法訪問為內核指定的記憶體。
+Apple Silicon separates each component that requires direct memory access. 例如，Thunderbolt 端口無法訪問為內核指定的記憶體。
 
 ## 來源
 

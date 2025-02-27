@@ -19,7 +19,7 @@ Below are a few alternative operating systems that can be used on routers, Wi-Fi
 ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ align=right }
 ![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
 
-**OpenWrt** là một hệ điều hành (cụ thể là hệ điều hành nhúng) dựa trên nhân Linux, chủ yếu được sử dụng trên các thiết bị nhúng để định tuyến lưu lượng mạng. Các thành phần chính là Linux kernel, using-linux, uClibc và BusyBox. Tất cả các thành phần đã được tối ưu hóa về kích thước, đủ nhỏ để phù hợp với bộ nhớ và lưu trữ hạn chế có sẵn trong bộ định tuyến gia đình.
+**OpenWrt** là một hệ điều hành (cụ thể là hệ điều hành nhúng) dựa trên nhân Linux, chủ yếu được sử dụng trên các thiết bị nhúng để định tuyến lưu lượng mạng. Các thành phần chính là Linux kernel, using-linux, uClibc và BusyBox. All the components have been optimized for home routers.
 
 [Homepage](https://openwrt.org){ .md-button .md-button--primary }
 

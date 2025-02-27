@@ -48,7 +48,7 @@ Na janela **Exportar em SVG** nas **Opções do documento**:
 - [ ] Desative **Remover a declaração XML**
 - [x] Ative **Remover metadados**
 - [x] Ative **Remover comentários**
-- [x] Ative **Embutir imagens raster**
+- [x] Turn on **Embedded raster images**
 - [x] Ative **Ativar viewBox**
 
 Na janela **Exportar em SVG** em **Impressão organizada**:

@@ -37,9 +37,9 @@ At the end of July 2021, we [informed](https://web.archive.org/web/2021072918442
 
 ## Controle de r/privacytoolsIO
 
-Em simultâneo com os problemas contínuos do site privacytools.io, a equipa de moderação do r/privacytoolsIO estava a enfrentar desafios para gerir o subreddit. O subreddit sempre foi gerido de forma independente do desenvolvimento do site, mas BurungHantu também era o principal moderador do subreddit, e o único moderador com privilégios de "Controle total". u/trai_dep was the only active moderator at the time, and [posted](https://reddit.com/comments/o9tllh) a request to Reddit's administrators on June 28, 2021, asking to be granted the primary moderator position and full control privileges, in order to make necessary changes to the Subreddit.
+Simultaneously with the ongoing website issues at privacytools.io, the r/privacytoolsIO moderation team was facing challenges with managing the Subreddit. The Subreddit had always been operated mostly independently of the website's development, but BurungHantu was the primary moderator of the Subreddit as well, and he was the only moderator granted "Full Control" privileges. u/trai_dep was the only active moderator at the time, and [posted](https://reddit.com/comments/o9tllh) a request to Reddit's administrators on June 28, 2021, asking to be granted the primary moderator position and full control privileges, in order to make necessary changes to the Subreddit.
 
-O Reddit exige que os subreddits tenham moderadores ativos. Se o moderador principal estiver inativo durante um longo período de tempo (por exemplo, um ano), a posição de moderador principal pode ser atribuída ao moderador seguinte. Para que esse pedido fosse atendido, era necessário que BurungHantu tivesse estado completamente ausente de todas as atividades do Reddit durante um longo período de tempo, o que era consistente com o seu comportamento noutras plataformas.
+Reddit requires that Subreddits have active moderators. Se o moderador principal estiver inativo durante um longo período de tempo (por exemplo, um ano), a posição de moderador principal pode ser atribuída ao moderador seguinte. Para que esse pedido fosse atendido, era necessário que BurungHantu tivesse estado completamente ausente de todas as atividades do Reddit durante um longo período de tempo, o que era consistente com o seu comportamento noutras plataformas.
 
 > Se perder o privilégio de moderador de um subreddit através de um pedido do Reddit, significa que foram a sua falta de resposta e falta de atividade que qualificaram o subreddit para uma transferência r/redditrequest.
 > 
@@ -55,7 +55,7 @@ This change [entailed:](https://reddit.com/comments/pnhn4a)
 
 - Redirecting `www.privacytools.io` to [www.privacyguides.org](https://www.privacyguides.org).
 - Arquivamento do código-fonte no GitHub para preservação do trabalho anterior e do rastreador de problemas, que continuámos a usar durante meses no desenvolvimento futuro deste site.
-- Publicação de anúncios no nosso subreddit e em várias comunidades, informando as pessoas da mudança oficial.
+- Posting announcements to our Subreddit and various other communities informing people of the official change.
 - Encerramento formal dos serviços privacytools.io, como Matrix e Mastodon, e ações de incentivo para que os utilizadores existentes migrassem o mais rápido possível.
 
 As coisas pareciam estar a correr bem, uma vez que a maioria da nossa comunidade ativa efetuou a mudança para o nosso novo projeto, exatamente como esperávamos.
@@ -66,11 +66,11 @@ Cerca de uma semana após a transição, BurungHantu voltou a ficar online pela 
 
 At this point, BurungHantu claimed he wanted to continue working on privacytools.io on his own and requested that we remove the redirect from `www.privacytools.io` to [www.privacyguides.org](https://www.privacyguides.org). Acedemos ao pedido e solicitámos que fossem mantidos os subdomínios Matrix, Mastodon e PeerTube ativos para que pudessem prestar um serviço público à nossa comunidade, pelo menos durante alguns meses, a fim de permitir que os utilizadores dessas plataformas migrassem facilmente para outras contas. Devido à natureza federada dos serviços que fornecíamos, estes estavam vinculados a domínios específicos, o que tornava a migração muito difícil (e, em alguns casos, até impossível).
 
-Unfortunately, because control of the r/privacytoolsIO subreddit was not returned to BurungHantu at his demand (further information below), those subdomains were [cut off](https://reddit.com/comments/pymthv/comment/hexwrps) at the beginning of October, ending any migration possibilities to any users still using those services.
+Unfortunately, because control of the r/privacytoolsIO Subreddit was not returned to BurungHantu at his demand (further information below), those subdomains were [cut off](https://reddit.com/comments/pymthv/comment/hexwrps) at the beginning of October, ending any migration possibilities to any users still using those services.
 
 Em seguida, BurungHantu fez falsas acusações de que Jonah roubava donativos ao projeto. Passou mais de um ano desde que o suposto incidente ocorreu, sem que BurungHantu tenha informado alguém, o que veio a acontecer apenas após a migração do Privacy Guides. Repetidamente, a equipa [e a comunidade](https://twitter.com/TommyTran732/status/1526153536962281474) solicitaram a BurungHantu que fornecesse provas e explicasse o motivo do seu silêncio.
 
-BurungHantu, inclusive, fez uma [publicação no Twitter](https://twitter.com/privacytoolsIO/status/1510560676967710728) alegando que um "advogado" o procurou para lhe dar conselhos, no que consistiu outra tentativa para nos intimidar, de forma a que lhe concedessemos o controle do nosso subreddit e, como parte de sua campanha de difamação, para turvar as águas em torno do lançamento do Privacy Guides, fingindo ser uma vítima.
+BurungHantu also made a [twitter post](https://twitter.com/privacytoolsIO/status/1510560676967710728) alleging that an "attorney" had reached out to him on Twitter and was providing advice, in another attempt to bully us into giving him control of our Subreddit, and as part of his smear campaign to muddy the waters surrounding the launch of Privacy Guides while pretending to be a victim.
 
 ## PrivacyTools.io Agora
 
@@ -80,7 +80,7 @@ Desde 25 de setembro de 2022, que vemos que os planos de BurungHantu se estão a
 
 ## r/privacytoolsIO Agora
 
-After the launch of [r/PrivacyGuides](https://reddit.com/r/privacyguides), it was impractical for u/trai_dep to continue moderating both subreddits, and with the community on-board with the transition, r/privacytoolsIO was [made](https://reddit.com/comments/qk7qrj) a restricted sub in a post on November 1st, 2021:
+After the launch of [r/PrivacyGuides](https://reddit.com/r/privacyguides), it was impractical for u/trai_dep to continue moderating both Subreddits, and with the community on-board with the transition, r/privacytoolsIO was [made](https://reddit.com/comments/qk7qrj) a restricted sub in a post on November 1st, 2021:
 
 > [...] O crescimento deste sub foi fruto de um grande esforço, ao longo de vários anos, da equipa PrivacyGuides.org. E do esforço de cada um de vós.
 > 
@@ -88,11 +88,11 @@ After the launch of [r/PrivacyGuides](https://reddit.com/r/privacyguides), it wa
 
 Os subreddits não pertencem a ninguém e, sobretudo, não pertencem aos detentores de marcas. Eles pertencem às suas comunidades, e a comunidade e os seus moderadores tomaram a decisão de apoiar a mudança para r/PrivacyGuides.
 
-In the months since, BurungHantu has threatened and begged for returning subreddit control to his account in [violation](https://reddit.com/r/redditrequest/wiki/top_mod_removal) of Reddit rules:
+In the months since, BurungHantu has threatened and begged for returning Subreddit control to his account in [violation](https://reddit.com/r/redditrequest/wiki/top_mod_removal) of Reddit rules:
 
 > Não é permitido a qualquer moderador retaliar em relação a pedidos de remoção.
 
-Para uma comunidade com muitos milhares de subscritores, consideramos que seria incrivelmente desrespeitoso devolver o controle dessa enorme plataforma para uma pessoa que a abandonou durante mais de um ano, e que agora gere um site que, na nossa opinião, fornecer informações de muito pouca qualidade. Preservar os anos de discussões passadas nessa comunidade é mais importante para nós e, por isso, u/trai_dep e a restante equipa de moderação do subreddit tomaram a decisão de manter r/privacytoolsIO tal como está.
+Para uma comunidade com muitos milhares de subscritores, consideramos que seria incrivelmente desrespeitoso devolver o controle dessa enorme plataforma para uma pessoa que a abandonou durante mais de um ano, e que agora gere um site que, na nossa opinião, fornecer informações de muito pouca qualidade. Preserving the years of past discussions in that community is more important to us, and thus u/trai_dep and the rest of the Subreddit moderation team has made the decision to keep r/privacytoolsIO as-is.
 
 ## OpenCollective Agora
 

@@ -4,7 +4,7 @@ icon: material/dns
 description: 域名系统是 “互联网的电话簿”，帮助浏览器找到网站。
 ---
 
-[域名系统](https://en.wikipedia.org/wiki/Domain_Name_System) 是“互联网电话簿”。 DNS将域名转换为IP地址，以便浏览器和其他服务可以通过分散的服务器网络加载互联网资源。
+The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is the 'phone book of the Internet'. DNS将域名转换为IP地址，以便浏览器和其他服务可以通过分散的服务器网络加载互联网资源。
 
 ## 什么是DNS？
 
@@ -24,7 +24,7 @@ DNS自互联网的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System#His
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
     ```
 
-2. 然后我们可以使用 [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) （Linux，macOS等）或 [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) （Windows）将DNS查询发送到两个服务器。 Web浏览器等软件会自动执行这些查找，除非它们被配置为使用加密的DNS。
+2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, macOS, etc.) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. Web浏览器等软件会自动执行这些查找，除非它们被配置为使用加密的DNS。
 
     === "Linux, macOS"
 
@@ -39,7 +39,7 @@ DNS自互联网的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System#His
         nslookup privacyguides.org 8.8.8.8
         ```
 
-3. Next, we want to [analyse](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
+3. Next, we want to [analyze](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
 
     === "Wireshark"
 
@@ -70,7 +70,7 @@ Encrypted DNS can refer to one of a number of protocols, the most common ones be
 
 ### DNSCrypt
 
-[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) 是首批加密DNS查询的方法之一。 DNSCrypt在端口443上运行，并可以使用TCP或UDP传输协议。 DNSCrypt从未提交给 [互联网工程任务组（IETF）](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) 也没有经过 [征求意见（RFC）](https://en.wikipedia.org/wiki/Request_for_Comments) 过程，因此除了少数 [实现](https://dnscrypt.info/implementations)之外没有被广泛使用。 因此，它在很大程度上被更流行的 [DNS over HTTPS](#dns-over-https-doh)取代了。
+[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) 是首批加密DNS查询的方法之一。 DNSCrypt在端口443上运行，并可以使用TCP或UDP传输协议。 DNSCrypt has never been submitted to the [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) nor has it gone through the [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments) process, so it has not been used widely outside a few [implementations](https://dnscrypt.info/implementations). 因此，它在很大程度上被更流行的 [DNS over HTTPS](#dns-over-https-doh)取代了。
 
 ### DNS over TLS (DoT)
 
@@ -118,7 +118,7 @@ DoH的原生实现出现在iOS 14、macOS 11、微软Windows和Android 13中（�
 
 3. 在提出请求后，我们可以用 <kbd>CTRL</kbd> + <kbd>C</kbd>停止抓包。
 
-4. 在Wireshark中分析结果：
+4. Analyze the results in Wireshark:
 
     ```bash
     wireshark -r /tmp/dns_doh.pcap
@@ -136,13 +136,13 @@ We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmis
 
 确定浏览活动的最简单方法可能是查看你的设备所访问的IP地址。 例如，如果观察者知道 `privacyguides.org` 在 `198.98.54.105`，而你的设备正在从 `198.98.54.105`请求数据，你很有可能正在访问隐私指南。
 
-这种方法只有在IP地址属于一个只承载少数网站的服务器时才有用。 如果网站托管在一个共享平台上（如Github Pages、Cloudflare Pages、Netlify、WordPress、Blogger等），这也不是很有用。 如果服务器托管在一个 [反向代理](https://en.wikipedia.org/wiki/Reverse_proxy)，它也不是很有用，这在现代互联网上非常普遍。
+这种方法只有在IP地址属于一个只承载少数网站的服务器时才有用。 It's also not very useful if the site is hosted on a shared platform (e.g. GitHub Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). 如果服务器托管在一个 [反向代理](https://en.wikipedia.org/wiki/Reverse_proxy)，它也不是很有用，这在现代互联网上非常普遍。
 
 ### 服务器名称指示（SNI）
 
-服务器名称指示通常在一个IP地址承载许多网站时使用。 这可能是一个像Cloudflare这样的服务，或其他一些 [拒绝服务攻击](https://en.wikipedia.org/wiki/Denial-of-service_attack) 保护。
+Server Name Indication is typically used when an IP address hosts many websites. 这可能是一个像Cloudflare这样的服务，或其他一些 [拒绝服务攻击](https://en.wikipedia.org/wiki/Denial-of-service_attack) 保护。
 
-1. 再次开始捕获 `tshark`。 我们用我们的IP地址添加了一个过滤器，所以你不会捕获很多数据包。
+1. 再次开始捕获 `tshark`。 We've added a filter with our IP address, so you don't capture many packets:
 
     ```bash
     tshark -w /tmp/pg.pcap port 443 and host 198.98.54.105
@@ -293,7 +293,7 @@ Governments, in particular [China](https://zdnet.com/article/china-is-now-blocki
     ispDNS --> | 否 | nothing(什么都不做)
 ```
 
-第三方的加密DNS应该只用于绕过重定向和基本的 [DNS拦截](https://en.wikipedia.org/wiki/DNS_blocking) ，当你能确定不会有任何后果，或者你对一个能做一些基本过滤的供应商感兴趣时。
+Encrypted DNS with a third party should only be used to get around redirects and basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences, or you're interested in a provider that does some rudimentary filtering.
 
 [推荐的DNS服务器列表](../dns.md ""){.md-button}
 

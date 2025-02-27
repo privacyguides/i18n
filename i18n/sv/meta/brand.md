@@ -12,7 +12,7 @@ Webbplatsen heter **Privacy Guides** och bör **inte** ändras till:
 - PG.org
 </div>
 
-Namnet på underreddit är **r/PrivacyGuides** eller **the Privacy Guides Subreddit**.
+The name of the Subreddit is **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
 
 Ytterligare riktlinjer för varumärket finns på [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
 

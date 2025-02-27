@@ -29,13 +29,13 @@ Jika Anda menggunakan domain bersama dari penyedia yang tidak mendukung WKD, sep
 
 ### Klien Email Apa yang Mendukung E2EE?
 
-Penyedia email yang memungkinkan Anda menggunakan protokol akses standar seperti IMAP dan SMTP dapat digunakan dengan salah satu klien email [yang kami rekomendasikan](../email-clients.md). Tergantung pada metode otentikasi, ini dapat menyebabkan penurunan keamanan jika baik penyedia atau klien email tidak mendukung SUMPAH atau aplikasi jembatan sebagai [otentikasi multi-faktor](multi-factor-authentication.md) tidak mungkin dengan otentikasi kata sandi biasa.
+Penyedia email yang memungkinkan Anda menggunakan protokol akses standar seperti IMAP dan SMTP dapat digunakan dengan salah satu klien email [yang kami rekomendasikan](../email-clients.md). Depending on the authentication method, this may lead to the decrease security if either the provider or the email client does not support OATH or a bridge application as [multifactor authentication](multi-factor-authentication.md) is not possible with plain password authentication.
 
 ### Bagaimana Cara Melindungi Kunci Pribadi Saya?
 
-A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. Pesan tersebut kemudian didekripsi oleh smartcard dan konten yang telah didekripsi dikirim kembali ke perangkat.
+A smart card (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. The message is then decrypted by the smart card and the decrypted content is sent back to the device.
 
-Terjadinya proses dekripsi di kartu pintar begitu menguntungkan karena hal tersebut berfungsi untuk menghindari kemungkinan mengekspos kunci pribadi Anda ke perangkat yang telah tersusupi.
+It is advantageous for the decryption to occur on the smart card to avoid possibly exposing your private key to a compromised device.
 
 ## Email Metadata Overview
 
@@ -49,4 +49,4 @@ Metadata email dilindungi dari pengamat luar dengan [Opportunistic TLS](https://
 
 ### Mengapa Metadata tidak bisa menjadi E2EE?
 
-Email metadata is crucial to the most basic functionality of email (where it came from, and where it has to go). E2EE pada awalnya tidak dibangun ke dalam protokol email, melainkan membutuhkan perangkat lunak tambahan seperti OpenPGP. Karena pesan OpenPGP masih harus bekerja dengan penyedia email tradisional, ia tidak dapat mengenkripsi metadata email, hanya isi pesan itu sendiri. Itu berarti bahwa bahkan ketika menggunakan OpenPGP, pengamat luar dapat melihat banyak informasi tentang pesan Anda, seperti siapa yang Anda kirimi email, baris subjek, ketika Anda mengirim email, dll.
+Email metadata is crucial to the most basic functionality of email (where it came from, and where it has to go). E2EE pada awalnya tidak dibangun ke dalam protokol email, melainkan membutuhkan perangkat lunak tambahan seperti OpenPGP. Karena pesan OpenPGP masih harus bekerja dengan penyedia email tradisional, ia tidak dapat mengenkripsi metadata email, hanya isi pesan itu sendiri. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, the subject lines, when you're emailing, etc.

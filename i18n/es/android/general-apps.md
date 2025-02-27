@@ -95,7 +95,7 @@ Entre las principales características de privacidad se incluyen:
 <div class="admonition note" markdown>
 <p class="admonition-title">Nota</p>
 
-Actualmente no se eliminan los metadatos de los archivos de vídeo, pero está previsto hacerlo.
+Metadata is not currently deleted from video files, but that is planned.
 
 Los metadatos de orientación de la imagen no se borran. Si activas la localización (en Secure Camera) eso **tampoco** se borrará. Si quieres borrarlo más tarde tendrás que usar una aplicación externa como [ExifEraser](../data-redaction.md#exiferaser-android).
 

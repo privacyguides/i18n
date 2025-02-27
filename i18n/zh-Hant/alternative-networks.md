@@ -68,7 +68,7 @@ cover: alternative-networks.webp
 
 Snowflake 無法加強隱私，也不會在個人瀏覽器中連接 Tor 網路。 但如果網際網路連接沒有被審查的情形，請考慮使用它，幫助受審查網路中的人們能有更好的隱私。 無需擔心人們通過您的代理訪問哪些網站----他們的可見瀏覽 IP 地址將與其 Tor 出口節點相匹配，而不是您的 IP 地址。
 
-運行 Snowflake 代理風險很低，甚至低於運行 Tor 中繼或橋接器，而這些中繼器或橋接器已經不算是特別高風險的工作。 但是，它通過您的網路進行代理流量，在某些方面可能會產生影響，特別是所用的網路頻寬有限制的話。 在決定是否要執行代理程式之前，請確保了解 [Snowflake 的工作原理](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) 。
+Running a Snowflake proxy is low-risk, even more so than running a Tor relay or bridge which are already not particularly risky endeavors. 但是，它通過您的網路進行代理流量，在某些方面可能會產生影響，特別是所用的網路頻寬有限制的話。 在決定是否要執行代理程式之前，請確保了解 [Snowflake 的工作原理](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) 。
 
 ### I2P (隱形網際網路計劃)
 
@@ -77,7 +77,7 @@ Snowflake 無法加強隱私，也不會在個人瀏覽器中連接 Tor 網路�
 ![I2P logo](assets/img/self-contained-networks/i2p.svg#only-light){ align=right }
 ![I2P logo](assets/img/self-contained-networks/i2p-dark.svg#only-dark){ align=right }
 
-**I2P**是一個網路層，對連接進行加密，並透過分佈在世界各地的電腦網路路由它們。 它主要致力創建一個替代性的隱私保護網路，而不是使常規的網路連接匿名。
+**I2P** is a network layer which encrypts your connections and routes them via a network of computers distributed around the world. 它主要致力創建一個替代性的隱私保護網路，而不是使常規的網路連接匿名。
 
 [:octicons-home-16: 首頁](https://geti2p.net/en){ .md-button .md-button--primary }
 [:octicons-info-16:](https://geti2p.net/en/about/software){ .card-link title=說明文件 }
@@ -106,7 +106,7 @@ Snowflake 無法加強隱私，也不會在個人瀏覽器中連接 Tor 網路�
 
 </div>
 
-再者，每個 I2P 節點預設都會為其他使用者中繼流量，而不是依賴專門的中繼志工來運行節點。 Tor 網路大約有[10,000](https://metrics.torproject.org/networksize.html) 個中繼和網橋，而I2P 上有大約50,000 個中繼和網橋，這意味著流量可能有更多的路由方式來最大化匿名性。 I2P 也比 Tor 效能更高，這可能是由於 Tor 更關注常規「clearnet」網路流量使用更多瓶頸出口節點的副作用。 與 Tor 相比，通常認為 I2P 上的隱藏服務效能更優。 在 Tor 上運行 BitTorrent 等 P2P 應用程式具有挑戰性（並且會極大地影響 Tor 網路效能），而在 I2P 上運行卻非常簡單且高效能。
+再者，每個 I2P 節點預設都會為其他使用者中繼流量，而不是依賴專門的中繼志工來運行節點。 Tor 網路大約有[10,000](https://metrics.torproject.org/networksize.html) 個中繼和網橋，而I2P 上有大約50,000 個中繼和網橋，這意味著流量可能有更多的路由方式來最大化匿名性。 I2P also tends to be more performant than Tor, although this is likely a side effect of Tor being more focused on regular "clearnet" internet traffic and thus using more bottle necked exit nodes. 與 Tor 相比，通常認為 I2P 上的隱藏服務效能更優。 在 Tor 上運行 BitTorrent 等 P2P 應用程式具有挑戰性（並且會極大地影響 Tor 網路效能），而在 I2P 上運行卻非常簡單且高效能。
 
 然而，I2P 的方法也有缺點。 Tor 依賴專用的出口節點，這意味著更多的人可以在不太安全的環境中使用它，而且Tor 上確實存在的中繼可能性能更高、更穩定，因為它們通常不在長駐連接上運行。 Tor 也更關注**瀏覽器隱私**（即防指紋），並配有專用的 [Tor 瀏覽器](tor.md) 來盡可能使瀏覽活動匿名。 I2P 透過[常用網頁瀏覽器](desktop-browsers.md) 使用，雖然可以將瀏覽器設定為更保護隱私，但可能不會與其他 I2P 使用者有相同的瀏覽器指紋（沒有在這方面混在「人群」）。
 

@@ -91,7 +91,7 @@ Essayer de protéger toutes vos données contre tout le monde, tout le temps, es
 
     ---
 
-    Proton Mail est un service d'e-mail qui met l'accent sur la confidentialité, le chiffrement, la sécurité et la facilité d'utilisation. Ils sont en activité depuis 2013. Proton AG a son siège à Genève, en Suisse. L'offre Free de Proton Mail comprend 500 Mo de stockage d'e-mails, que vous pouvez augmenter jusqu'à 1 Go gratuitement.
+    Proton Mail est un service d'e-mail qui met l'accent sur la confidentialité, le chiffrement, la sécurité et la facilité d'utilisation. Ils sont en activité depuis 2013. Proton AG is based in Geneva, Switzerland. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
 
     [:octicons-arrow-right-24: Lire l'article complet](email.md#proton-mail)
 
@@ -99,7 +99,7 @@ Essayer de protéger toutes vos données contre tout le monde, tout le temps, es
 
     ---
 
-    Mailbox.org est un service de messagerie électronique sécurisé, sans publicité et alimenté par une énergie 100% écologique. Il est en activité depuis 2014. Mailbox.org est basé à Berlin, en Allemagne. Les comptes commencent avec 2 Go de stockage, qui peut être mis à niveau au besoin.
+    Mailbox.org est un service de messagerie électronique sécurisé, sans publicité et alimenté par une énergie 100% écologique. Il est en activité depuis 2014. Mailbox.org est basé à Berlin, en Allemagne. Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
     [:octicons-arrow-right-24: Read Full Review](email.md#mailboxorg)
 
@@ -107,7 +107,7 @@ Essayer de protéger toutes vos données contre tout le monde, tout le temps, es
 
     ---
 
-    Tuta(anciennement *Tutanota*) est un service de mesagerie électronique  mettant l'accent sur la sécurité et la protéction de la vie privée via l'utilisation du cryptage. Tuta est en activité depuis 2011 et est basée à Hanovre, en Allemagne. Les comptes gratuits commencent avec 1 Go de stockage.
+    Tuta(anciennement *Tutanota*) est un service de mesagerie électronique  mettant l'accent sur la sécurité et la protéction de la vie privée via l'utilisation du cryptage. Tuta est en activité depuis 2011 et est basée à Hanovre, en Allemagne. Free accounts start with 1 GB of storage.
 
     [:octicons-arrow-right-24: Lire l'article complet](email.md#tuta)
 
@@ -172,7 +172,7 @@ Il a été cité dans **WIRED**, **Tweakers.net**, **The New York Times** et de 
 <div markdown>
 ## Qu'est-ce qu'un outil de protection de la vie privée ?
 
-Nous recommandons une grande variété d'**outils de confidentialité** (a.k.a. *applications de protection de la vie privée*, *utilitaires de protection de la vie privée*, *logiciels de protection de la vie privée*) couvrant les logiciels et le matériel que vous pouvez adopter pour améliorer votre protection de la vie privée. La plupart des outils que nous recommandons sont entièrement gratuits et constituent des logiciels libres, tandis que d'autres sont des services commerciaux disponibles à l'achat. Passer d'un logiciel grand public gourmand en données comme Google Chrome et Windows à des outils axés sur la protection de la vie privée comme [Brave](desktop-browsers.md#brave) et [Linux](desktop.md) peut grandement contribuer à contrôler les informations que vous partagez avec les entreprises et d'autres personnes.
+Nous recommandons une grande variété d'**outils de confidentialité** (a.k.a. *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can use to improve your privacy. La plupart des outils que nous recommandons sont entièrement gratuits et constituent des logiciels libres, tandis que d'autres sont des services commerciaux disponibles à l'achat. Passer d'un logiciel grand public gourmand en données comme Google Chrome et Windows à des outils axés sur la protection de la vie privée comme [Brave](desktop-browsers.md#brave) et [Linux](desktop.md) peut grandement contribuer à contrôler les informations que vous partagez avec les entreprises et d'autres personnes.
 
 [:material-check-all: Nos critères généraux](about/criteria.md){ class="md-button" }
 </div>

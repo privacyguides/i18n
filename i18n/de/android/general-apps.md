@@ -95,7 +95,7 @@ Zu den wichtigsten Privatsphäre-Funktionen gehören:
 <div class="admonition note" markdown>
 <p class="admonition-title">Anmerkung</p>
 
-Metadaten werden derzeit nicht aus Videodateien gelöscht, dies ist jedoch geplant.
+Metadata is not currently deleted from video files, but that is planned.
 
 Die Metadaten zur Bildausrichtung werden nicht gelöscht. Wenn du den Standort (in Secure Camera) aktivierst, wird dieser auch **nicht** gelöscht. Wenn du dies später löschen möchtest, musst du eine externe App wie [ExifEraser](../data-redaction.md#exiferaser-android) verwenden.
 

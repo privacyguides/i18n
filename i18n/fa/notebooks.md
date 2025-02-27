@@ -9,7 +9,7 @@ cover: notebooks.webp
 
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-یادداشت ها و ژورنال های خود را بدون دادن به شخص ثالث پیگیری کنید.
+Keep track of your notes and journals without giving them to a third party.
 
 اگر در حال حاضر از برنامه‌ای مانند Evernote، Google Keep یا Microsoft OneNote استفاده می‌کنید، پیشنهاد می‌کنیم یک جایگزین را در اینجا انتخاب کنید که از E2EE پشتیبانی می‌کند.
 
@@ -82,7 +82,7 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 ![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
 
-**Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle a large number of markdown notes organized into notebooks and tags. It offers E2EE and can sync through Nextcloud, Dropbox, and more. It also offers easy import from Evernote and plain-text notes.
+**Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle numerous markdown notes organized into notebooks and tags. It offers E2EE and can sync through Nextcloud, Dropbox, and more. It also offers easy import from Evernote and plain-text notes.
 
 [:octicons-home-16: Homepage](https://joplinapp.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="Privacy Policy" }
@@ -131,7 +131,7 @@ Joplin does not [support](https://github.com/laurent22/joplin/issues/289) passwo
 
 </div>
 
-Cryptee offers 100MB of storage for free, with paid options if you need more. Sign-up doesn't require an e-mail or other personally identifiable information.
+Cryptee offers 100 MB of storage for free, with paid options if you need more. Sign-up doesn't require an e-mail or other personally identifiable information.
 
 ## Local notebooks
 

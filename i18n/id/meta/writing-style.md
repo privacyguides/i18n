@@ -64,7 +64,7 @@ Kita harus mencoba menghindari singkatan jika memungkinkan, tetapi teknologi pen
 
 ## Tulis secara ringkas
 
-> Kata-kata yang tidak perlu akan membuang waktu audiens Anda. Tulisan yang bagus itu seperti sebuah percakapan. Hilangkan informasi yang tidak perlu diketahui oleh audiens. Hal ini bisa menjadi sulit sebagai seorang ahli materi, jadi penting untuk memiliki seseorang yang melihat informasi dari sudut pandang audiens.
+> Kata-kata yang tidak perlu akan membuang waktu audiens Anda. Tulisan yang bagus itu seperti sebuah percakapan. Hilangkan informasi yang tidak perlu diketahui oleh audiens. This can be difficult as a subject-matter expert, so it’s important to have someone look at the information from the audience’s perspective.
 
 Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 

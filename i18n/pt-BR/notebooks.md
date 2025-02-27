@@ -9,7 +9,7 @@ cover: notebooks.webp
 
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-Mantenha o controle de suas anotações e registros de atividades sem entregá-los a terceiros.
+Keep track of your notes and journals without giving them to a third party.
 
 Se você estiver usando atualmente um aplicativo como Evernote, Google Keep, ou Microsoft OneNote, sugerimos que escolha uma alternativa que suporte E2EE.
 
@@ -82,9 +82,9 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 <div class="admonition recommendation" markdown>
 
-![Logotipo Joplin](assets/img/notebooks/joplin.svg){ align=right }
+![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
 
-* *Joplin** é um aplicativo de anotações e tarefas gratuito, de código aberto e com todos os recursos que pode lidar com um grande número de anotações organizadas em blocos de anotações e tags. Ele oferece E2EE e pode sincronizar através do Nextcloud, Dropbox e muito mais. Oferece também uma importação fácil a partir do Evernote e notas de texto simples.
+**Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle numerous markdown notes organized into notebooks and tags. Ele oferece E2EE e pode sincronizar através do Nextcloud, Dropbox e muito mais. Oferece também uma importação fácil a partir do Evernote e notas de texto simples.
 
 [:octicons-home-16: Homepage](https://joplinapp.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="Privacy Policy" }
@@ -133,7 +133,7 @@ Joplin does not [support](https://github.com/laurent22/joplin/issues/289) passwo
 
 </div>
 
-Cryptee offers 100MB of storage for free, with paid options if you need more. Sign-up doesn't require an e-mail or other personally identifiable information.
+Cryptee offers 100 MB of storage for free, with paid options if you need more. Sign-up doesn't require an e-mail or other personally identifiable information.
 
 ## Local notebooks
 

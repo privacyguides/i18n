@@ -4,7 +4,7 @@ icon: 'material/eye-outline'
 description: Seu modelo de ameaça é personalizado para você, mas estas são algumas das coisas com as quais muitos visitantes deste site se preocupam.
 ---
 
-Em resumo, nós agrupamos nossas recomendações considerando as [ameaças](threat-modeling.md) ou objetivos que se aplicam à maioria das pessoas. ==Você pode estar preocupado com nenhuma, uma, poucas ou todas essas possibilidades==, e as ferramentas e serviços para você usar vão de depender de quais são seus objetivos. Você também pode ter ameaças específicas fora dessas categorias, o que é perfeitamente normal! A parte importante é desenvolver um entendimento dos benefícios e das deficiências das ferramentas que você escolher usar, pois, praticamente nenhuma delas o protegerá de todas as ameaças.
+Em resumo, nós agrupamos nossas recomendações considerando as [ameaças](threat-modeling.md) ou objetivos que se aplicam à maioria das pessoas. ==Você pode estar preocupado com nenhuma, uma, poucas ou todas essas possibilidades==, e as ferramentas e serviços para você usar vão de depender de quais são seus objetivos. You may have specific threats outside these categories as well, which is perfectly fine! A parte importante é desenvolver um entendimento dos benefícios e das deficiências das ferramentas que você escolher usar, pois, praticamente nenhuma delas o protegerá de todas as ameaças.
 
 <span class="pg-purple">:material-incognito: **Anonymity**</span>
 :
@@ -19,7 +19,7 @@ Being protected from hackers or other malicious actors who are trying to gain ac
 <span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
 :
 
-Typically a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+Typically, a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
 
 <span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
 :
@@ -44,7 +44,7 @@ Protecting yourself from big advertising networks, like Google and Facebook, as 
 <span class="pg-green">:material-account-search: **Public Exposure**</span>
 :
 
-Limiting the information about you that is accessible online—to search engines or the general public.
+Limiting the information about you that is accessible online—to search engines or the public.
 
 <span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
 :
@@ -76,7 +76,7 @@ Para minimizar os danos que um aplicativo malicioso *pode* causar, você deve us
 
 Sistemas operacionais móveis geralmente têm um isolamento (sandboxing) de aplicativos melhor do que os sistemas operacionais de mesa (desktop): Aplicativos não podem obter acesso à raiz e precisam de permissão para acessar os recursos do sistema.
 
-Sistemas operacionais de mesa geralmente ficam para trás em termos de isolamento adequado. ChromeOS tem recursos de isolamento semelhantes aos do Android, e o macOS tem controle total de permissões do sistema (e os desenvolvedores podem optar pelo isolamento para aplicativos). No entanto, esses sistemas operacionais transmitem informações de identificação para seus respectivos OEMs. Linux tende a não enviar informações aos fornecedores de sistemas, mas tem pouca proteção contra explorações e aplicativos mal-intencionados. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+Sistemas operacionais de mesa geralmente ficam para trás em termos de isolamento adequado. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). No entanto, esses sistemas operacionais transmitem informações de identificação para seus respectivos OEMs. Linux tende a não enviar informações aos fornecedores de sistemas, mas tem pouca proteção contra explorações e aplicativos mal-intencionados. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
 
 </div>
 
@@ -143,7 +143,7 @@ Therefore, you should use native applications over web clients whenever possible
 
 </div>
 
-Even with E2EE, service providers can still profile you based on **metadata**, which typically isn't protected. While the service provider can't read your messages, they can still observe important things, such as who you're talking to, how often you message them, and when you're typically active. Protection of metadata is fairly uncommon, and—if it's within your [threat model](threat-modeling.md)—you should pay close attention to the technical documentation of the software you're using to see if there's any metadata minimization or protection at all.
+Even with E2EE, service providers can still profile you based on **metadata**, which typically isn't protected. While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. Protection of metadata is fairly uncommon, and—if it's within your [threat model](threat-modeling.md)—you should pay close attention to the technical documentation of the software you're using to see if there's any metadata minimization or protection at all.
 
 ## Programas de Vigilância em Massa
 
@@ -156,7 +156,7 @@ Mass surveillance is the intricate effort to monitor the "behavior, many activit
 
 If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
 
-In France you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
+In France, you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
 
 </div>
 
@@ -189,7 +189,7 @@ If you're concerned about mass surveillance programs, you can use strategies lik
 
 For many people, tracking and surveillance by private corporations is a growing concern. Pervasive ad networks, such as those operated by Google and Facebook, span the internet far beyond just the sites they control, tracking your actions along the way. Using tools like content blockers to limit network requests to their servers, and reading the privacy policies of the services you use can help you avoid many basic adversaries (although it can't completely prevent tracking).[^4]
 
-Additionally, even companies outside of the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. You can't automatically assume your data is safe just because the service you're using doesn't fall within the typical AdTech or tracking business model. The strongest protection against corporate data collection is to encrypt or obfuscate your data whenever possible, making it difficult for different providers to correlate data with each other and build a profile on you.
+Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. You can't automatically assume your data is safe just because the service you're using doesn't fall within the typical AdTech or tracking business model. The strongest protection against corporate data collection is to encrypt or obfuscate your data whenever possible, making it difficult for different providers to correlate data with each other and build a profile on you.
 
 ## Limitação de Informações Públicas
 

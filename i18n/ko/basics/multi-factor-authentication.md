@@ -1,10 +1,10 @@
 ---
-title: "다중 인증"
+title: "Multifactor Authentication"
 icon: 'material/two-factor-authentication'
 description: MFA는 온라인 계정을 보호하는 데에 있어서 중요한 보안 메커니즘이지만, 방식에 따라 보안성은 달라집니다.
 ---
 
-**다중 인증**(**MFA**, Multi-Factor Authentication)은 사용자 이름(혹은 이메일)과 비밀번호 입력 외에도 추가 단계를 거치는 보안 방식입니다. 가장 흔히 볼 수 있는 예시로는 문자 메시지나 앱으로 받는 시간 제한 인증 코드가 대표적입니다.
+**Multifactor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. 가장 흔히 볼 수 있는 예시로는 문자 메시지나 앱으로 받는 시간 제한 인증 코드가 대표적입니다.
 
 보통, 해커/공격자가 여러분의 비밀번호를 알아내는 순간 해당 계정은 뚫립니다. 하지만 해당 계정이 MFA를 사용하고 있다면, 해커는 (여러분의 *머릿속에* 있는) 비밀번호 뿐만 아니라 (여러분의 *손에* 들려있는 휴대폰 등) 기기 또한 탈취해야 합니다.
 
@@ -26,7 +26,7 @@ SMS나 이메일로 OTP 코드를 받는 방식은 MFA를 통한 계정 보호 �
 
 ### TOTP(시간 기반 일회용 비밀번호)
 
-TOTP(시간 기반 일회용 비밀번호, Time-based One-time Password)는 널리 쓰이는 MFA 방식 중 하나입니다. 일반적으로 TOTP 설정은 사용하고자 하는 서비스에서 [QR 코드](https://ko.wikipedia.org/wiki/QR_%EC%BD%94%EB%93%9C)를 스캔하여 '[공유 비밀(Shared Secret)](https://en.wikipedia.org/wiki/Shared_secret)'을 설정하는 방식으로 이루어집니다. 공유 비밀은 인증 앱의 데이터 내부에서 보호되며, 간혹 비밀번호로 보호되는 경우도 있습니다.
+TOTP(시간 기반 일회용 비밀번호, Time-based One-time Password)는 널리 쓰이는 MFA 방식 중 하나입니다. 일반적으로 TOTP 설정은 사용하고자 하는 서비스에서 [QR 코드](https://ko.wikipedia.org/wiki/QR_%EC%BD%94%EB%93%9C)를 스캔하여 '[공유 비밀(Shared Secret)](https://en.wikipedia.org/wiki/Shared_secret)'을 설정하는 방식으로 이루어집니다. The shared secret is secured inside the authenticator app's data, and is sometimes protected by a password.
 
 시간 제한 코드는 공유 비밀과 현재 시간 정보를 기반으로 만들어집니다. 코드는 짧은 시간 동안만 유효하므로 공격자는 공유 비밀에 접근하지 않고서는 새로운 코드를 생성할 수 없습니다.
 
@@ -82,7 +82,7 @@ This presentation discusses the history of password authentication, the pitfalls
 
 FIDO2, WebAuthn은 여타 MFA 방식에 비해 보안성과 프라이버시 면에서 우월합니다.
 
-일반적으로 웹 서비스에서는 [W3C 권고안](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC))의 일부인 WebAuthn을 사용합니다. WebAuthn은 공개 키 인증을 사용하며 인증 시 출처(보통은 도메인 이름)를 포함하므로, Yubico OTP나 TOTP 방식에 사용되는 공유 비밀보다 안전합니다. 또한 WebAuthn의 증명(Attestation)은 사용자가 현재 위조된 것이 아닌 실제 서비스를 사용하고 있는지를 확인하는 데에 도움이 되어 여러분을 피싱 공격으로부터 보호합니다.
+Typically, for web services it is used with WebAuthn which is a part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). WebAuthn은 공개 키 인증을 사용하며 인증 시 출처(보통은 도메인 이름)를 포함하므로, Yubico OTP나 TOTP 방식에 사용되는 공유 비밀보다 안전합니다. 또한 WebAuthn의 증명(Attestation)은 사용자가 현재 위조된 것이 아닌 실제 서비스를 사용하고 있는지를 확인하는 데에 도움이 되어 여러분을 피싱 공격으로부터 보호합니다.
 
 Yubico OTP와는 달리 WebAuthn은 공개 ID를 사용하지 않기 때문에, 키를 기반으로 여러 사이트에서 누군가를 식별하는 것이 **불가능합니다**. 인증 과정에 제3자 클라우드 서버를 사용하지도 않습니다. 모든 통신은 키와 (로그인하고자 하는) 웹사이트 간에서만 이루어집니다. FIDO는 사용할 때마다 카운터가 증가하는 방식을 사용하기 때문에, 세션 재사용이나 키 복제가 방지됩니다.
 
@@ -116,15 +116,15 @@ SMS로 MFA를 사용할 경우에는 [SIM 스와핑 사기](https://en.wikipedia
 
 ## More Places to Set Up MFA
 
-Beyond just securing your website logins, multi-factor authentication can be used to secure your local logins, SSH keys or even password databases as well.
+Beyond just securing your website logins, multifactor authentication can be used to secure your local logins, SSH keys or even password databases as well.
 
 ### macOS
 
-macOS has [native support](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) for authentication with smart cards (PIV). If you have a smartcard or a hardware security key that supports the PIV interface such as the YubiKey, we recommend that you follow your smartcard/hardware security vendor's documentation and set up second factor authentication for your macOS computer.
+macOS has [native support](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) for authentication with smart cards (PIV). If you have a smart card or a hardware security key that supports the PIV interface such as the YubiKey, we recommend that you follow your smart card or hardware security vendor's documentation and set up second factor authentication for your macOS computer.
 
 Yubico have a guide [Using Your YubiKey as a Smart Card in macOS](https://support.yubico.com/hc/articles/360016649059) which can help you set up your YubiKey on macOS.
 
-After your smartcard/security key is set up, we recommend running this command in the Terminal:
+After your smart card/security key is set up, we recommend running this command in the Terminal:
 
 ```text
 sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLogin -bool YES
@@ -159,4 +159,4 @@ SSH MFA can also be set up using TOTP. DigitalOcean has provided a tutorial [How
 
 ### KeePass (KeePassXC)
 
-KeePass and KeePassXC databases can be secured using Challenge-Response or HOTP as a second-factor authentication. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.
+KeePass and KeePassXC databases can be secured using HOTP or Challenge-Response as a second-factor of authentication. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.

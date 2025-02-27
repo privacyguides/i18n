@@ -58,7 +58,7 @@ Az OpenPGP nem támogatja a Forward secrecy-t sem, ami azt jelenti, hogy ha a t�
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-A **Proton Mail** egy olyan e-mail szolgáltatás, amely a magánéletre, a titkosításra, a biztonságra és az egyszerű használatra helyezi a hangsúlyt. They have been in operation since 2013. A Proton AG székhelye Genfben, Svájcban található. The Proton Mail Free plan comes with 500MB of Mail storage, which you can increase up to 1GB for free.
+A **Proton Mail** egy olyan e-mail szolgáltatás, amely a magánéletre, a titkosításra, a biztonságra és az egyszerű használatra helyezi a hangsúlyt. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -97,7 +97,7 @@ A Proton Mail készpénzt is [elfogad](https://proton.me/support/payment-options
 
 #### :material-check:{ .pg-green } Fiók biztonsága
 
-A Proton Mail támogatja a TOTP [kétfaktoros hitelesítést](https://proton.me/support/two-factor-authentication-2fa) és a FIDO2 vagy U2F szabványokat használó [hardveres biztonsági kulcsokat](https://proton.me/support/2fa-security-key). A hardveres biztonsági kulcs használatához először a TOTP kétfaktoros hitelesítés beállítása szükséges.
+Proton Mail supports TOTP [two-factor authentication](https://proton.me/support/two-factor-authentication-2fa) and [hardware security keys](https://proton.me/support/2fa-security-key) using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
 
 #### :material-check:{ .pg-green } Adatbiztonság
 
@@ -117,7 +117,7 @@ Ha előfizetéssel rendelkezel, de 14 napon túli [fizetetlen számlád](https:/
 
 #### :material-information-outline:{ .pg-blue } További funkciók
 
-Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500GB of storage.
+Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
 
 A Proton Mail nem kínál digitális örökség funkciót.
 
@@ -127,7 +127,7 @@ A Proton Mail nem kínál digitális örökség funkciót.
 
 ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
 
-**A **Mailbox.org** egy olyan e-mail szolgáltatás, amelynek középpontjában a biztonság, a reklámmentesség és a 100%-ban környezetbarát energiával működő, magánhálózatról biztosított energia áll. 2014 óta működnek. A Mailbox.org székhelye Berlinben, Németországban található. Accounts start with up to 2GB storage, which can be upgraded as needed.
+**A **Mailbox.org** egy olyan e-mail szolgáltatás, amelynek középpontjában a biztonság, a reklámmentesség és a 100%-ban környezetbarát energiával működő, magánhálózatról biztosított energia áll. 2014 óta működnek. A Mailbox.org székhelye Berlinben, Németországban található. Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
 [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
@@ -148,11 +148,11 @@ A Mailbox.org lehetővé teszi a saját domain használatáz, és támogatja a [
 
 #### :material-check:{ .pg-green } Privát fizetési módok
 
-A Mailbox.org nem fogad el semmilyen kriptovalutát, mivel a fizetési szolgáltatójuk, a BitPay felfüggesztette működését Németországban. However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and couple of German-specific processors: paydirekt and Sofortüberweisung.
+A Mailbox.org nem fogad el semmilyen kriptovalutát, mivel a fizetési szolgáltatójuk, a BitPay felfüggesztette működését Németországban. However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and a couple of German-specific processors: paydirekt and Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Fiók biztonsága
 
-A Mailbox.org csak a webmail esetében támogatja a [kétfaktoros hitelesítést](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa). A TOTP vagy a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) a [YubiCloudon](https://yubico.com/products/services-software/yubicloud) keresztül használható. Az olyan webes szabványok, mint a [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn), még nem támogatottak.
+Mailbox.org supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. A TOTP vagy a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) a [YubiCloudon](https://yubico.com/products/services-software/yubicloud) keresztül használható. Az olyan webes szabványok, mint a [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn), még nem támogatottak.
 
 #### :material-information-outline:{ .pg-blue } Adatbiztonság
 
@@ -172,7 +172,7 @@ Your account will be set to a restricted user account when your contract ends. I
 
 #### :material-information-outline:{ .pg-blue } További funkciók
 
-A Mailbox.org fiók a [.onion szolgáltatásuk](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org) segítségével IMAP/SMTP-n keresztül is elérhető. A webmail felületük azonban nem érhető el a .onion szolgáltatásukon keresztül, és előfordulhat, hogy TLS-tanúsítvány hibák jelennek meg.
+A Mailbox.org fiók a [.onion szolgáltatásuk](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org) segítségével IMAP/SMTP-n keresztül is elérhető. However, their webmail interface cannot be accessed via their .onion service, and you may experience TLS certificate errors.
 
 Minden fiókhoz korlátozott felhőalapú tárhely tartozik, amely [titkosítható](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). A mailbox.org kínálja a [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely) aliast is, amely érvényesíti a TLS titkosítást a levelezőszerverek közötti kapcsolaton, ennek hiányában az üzenet egyáltalán nem lesz elküldve. A Mailbox.org támogatja az [Exchange ActiveSync-et](https://en.wikipedia.org/wiki/Exchange_ActiveSync) is a szabványos hozzáférési protokollok, például az IMAP és a POP3 mellett.
 
@@ -195,7 +195,7 @@ Ezek a szolgáltatók zéró hozzáférésű titkosítással tárolják az e-mai
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1GB of storage.
+**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1 GB of storage.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
@@ -226,11 +226,11 @@ Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and u
 
 #### :material-information-outline:{ .pg-blue } Privát fizetési módok
 
-Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with Proxystore.
+Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
 
 #### :material-check:{ .pg-green } Fiók biztonsága
 
-Tuta supports [two factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
+Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
 
 #### :material-check:{ .pg-green } Adatbiztonság
 
@@ -297,7 +297,7 @@ Ezeket a funkciókat fontosnak tartjuk a biztonságos és optimális szolgáltat
 **Alap Elvárások Minősítéshez:**
 
 - Az email fiókok adatai alapértelmezetten zéró hozzáféréssel legyenek titkosítva.
-- Exportálási képesség [Mbox](https://en.wikipedia.org/wiki/Mbox) vagy egyedi .eml formátumban az [RFC5322](https://datatracker.ietf.org/doc/rfc5322) szabványnak megfelelően.
+- Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
 - Lehetővé teszi a felhasználók számára, hogy saját [domainnevüket](https://en.wikipedia.org/wiki/Domain_name) használják. Az egyéni domain nevek azért fontosak a felhasználók számára, mert lehetővé teszik számukra, hogy megőrizzék a függetlenedési képességüket a szolgáltatástól, ha az rosszra fordulna, vagy ha egy másik vállalat felvásárolná, amely nem helyezi előtérbe az adatvédelmet.
 - Saját infrastruktúrán működik, azaz nem harmadik féltől származó e-mail szolgáltatóra épül.
 

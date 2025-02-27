@@ -4,7 +4,7 @@ icon: 'material/eye-outline'
 description: Модель угрозы уникальна для каждого, но здесь описаны некоторые из тех вещей, которые волнуют многих посетителей этого сайта.
 ---
 
-В широком смысле мы разделяем наши рекомендации по категориям [угроз](threat-modeling.md) или целей, которые применимы к большинству людей. ==Вас может волновать одна, несколько, все эти возможности или они могут не волновать вас вовсе==, и инструменты и услуги, которые вы используете, зависят от ваших целей. У вас могут быть специфичные угрозы, не относящиеся к этим категориям, что определённо нормально! Важно понять преимущества и недостатки выбранных вами инструментов, потому что практически ни один из них не защитит вас от всех угроз.
+В широком смысле мы разделяем наши рекомендации по категориям [угроз](threat-modeling.md) или целей, которые применимы к большинству людей. ==Вас может волновать одна, несколько, все эти возможности или они могут не волновать вас вовсе==, и инструменты и услуги, которые вы используете, зависят от ваших целей. You may have specific threats outside these categories as well, which is perfectly fine! Важно понять преимущества и недостатки выбранных вами инструментов, потому что практически ни один из них не защитит вас от всех угроз.
 
 <span class="pg-purple">:material-incognito: **Анонимность**</span>
 :
@@ -19,7 +19,7 @@ Being protected from hackers or other malicious actors who are trying to gain ac
 <span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
 :
 
-Typically a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+Typically, a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
 
 <span class="pg-orange">:material-bug-outline: **Пассивные атаки**</span>
 :
@@ -44,7 +44,7 @@ Protecting yourself from big advertising networks, like Google and Facebook, as 
 <span class="pg-green">:material-account-search: **Публичная экспозиция**</span>
 :
 
-Limiting the information about you that is accessible online—to search engines or the general public.
+Limiting the information about you that is accessible online—to search engines or the public.
 
 <span class="pg-blue-gray">:material-close-outline: **Цензура**</span>
 :
@@ -76,7 +76,7 @@ Avoiding censored access to information or being censored yourself when speaking
 
 Мобильные операционные системы, как правило, имеют лучшую "песочницу" для приложений, чем настольные операционные системы: приложения не могут получить root-доступ и требуют разрешения на доступ к системным ресурсам.
 
-Настольные операционные системы, как правило, отстают по части надлежащей "песочницы". ChromeOS имеет возможности "песочницы", аналогичные Android, а macOS имеет полный контроль системных разрешений (и разработчики могут отказаться от "песочницы" для приложений). Однако эти операционные системы передают идентифицирующую информацию своим соответствующим OEM-производителям. Linux, как правило, не предоставляет информацию поставщикам систем, но имеет слабую защиту от эксплойтов и вредоносных приложений. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+Настольные операционные системы, как правило, отстают по части надлежащей "песочницы". ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). Однако эти операционные системы передают идентифицирующую информацию своим соответствующим OEM-производителям. Linux, как правило, не предоставляет информацию поставщикам систем, но имеет слабую защиту от эксплойтов и вредоносных приложений. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
 
 </div>
 
@@ -143,7 +143,7 @@ On the other hand, web-based E2EE implementations, such as Proton Mail's web app
 
 </div>
 
-Даже при использовании E2EE поставщики услуг все равно могут составить ваш профиль на основе **метаданных**, которые, как правило, не защищены. Хотя поставщик услуг не может читать ваши сообщения, он все же может наблюдать за такими важными вещами, как то, с кем вы общаетесь, как часто вы пишете им сообщения и когда вы обычно активны. Защита метаданных - довольно редкое явление, и, если это входит в вашу [модель угроз](threat-modeling.md), вам следует обратить пристальное внимание на техническую документацию используемого вами программного обеспечения, чтобы узнать, есть ли в нем минимизация или защита метаданных вообще.
+Даже при использовании E2EE поставщики услуг все равно могут составить ваш профиль на основе **метаданных**, которые, как правило, не защищены. While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. Защита метаданных - довольно редкое явление, и, если это входит в вашу [модель угроз](threat-modeling.md), вам следует обратить пристальное внимание на техническую документацию используемого вами программного обеспечения, чтобы узнать, есть ли в нем минимизация или защита метаданных вообще.
 
 ## Программы массового наблюдения
 
@@ -156,7 +156,7 @@ On the other hand, web-based E2EE implementations, such as Proton Mail's web app
 
 If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
 
-In France you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
+In France, you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
 
 </div>
 
@@ -189,7 +189,7 @@ If you're concerned about mass surveillance programs, you can use strategies lik
 
 Для многих людей слежка и наблюдение со стороны частных корпораций вызывает растущее беспокойство. Всепроникающие рекламные сети, такие как Google и Facebook, распространяются в Интернете далеко за пределы контролируемых ими сайтов, отслеживая ваши действия на всём пути. Использование таких инструментов, как блокировщики контента, для ограничения сетевых запросов к их серверам, а также чтение политики конфиденциальности сервисов, которыми вы пользуетесь, может помочь вам избежать многих основных недоброжелателей (хотя это не может полностью предотвратить слежку).[^4]
 
-Кроме того, даже компании, не относящиеся к *AdTech* или индустрии отслеживания, могут передавать вашу информацию брокерам данных [](https://en.wikipedia.org/wiki/Information_broker) (таким как Cambridge Analytica, Experian или Datalogix) или другим сторонам. Вы не можете автоматически считать, что ваши данные в безопасности только потому, что сервис, которым вы пользуетесь, не относится к типичной бизнес-модели AdTech или отслеживания. Самой надежной защитой от сбора корпоративных данных является шифрование или обфускация ваших данных всегда, когда это возможно, что затрудняет различным провайдерам соотнесение данных друг с другом и создание профиля на вас.
+Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. Вы не можете автоматически считать, что ваши данные в безопасности только потому, что сервис, которым вы пользуетесь, не относится к типичной бизнес-модели AdTech или отслеживания. Самой надежной защитой от сбора корпоративных данных является шифрование или обфускация ваших данных всегда, когда это возможно, что затрудняет различным провайдерам соотнесение данных друг с другом и создание профиля на вас.
 
 ## Ограничение публичной информации
 

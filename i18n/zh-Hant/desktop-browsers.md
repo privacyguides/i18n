@@ -109,7 +109,7 @@ Mullvad 瀏覽器預設總是使用隱私瀏覽模式運行，這意味著您的
 
 ### Mullvad Leta
 
-Mullvad 瀏覽器將 DuckDuckGo 設為預設的[搜尋引擎](search-engines.md)，但它也預裝了 **Mullvad Leta**，一個需要訂閱 Mullvad VPN 才能使用的搜尋引擎。 Mullvad Leta 直接查詢 Google 的付費搜索 API，這也是為什麼它僅限付費訂閱者使用。 然而，由於這個限制，Mullvad 有可能將搜尋字串和 Mullvad VPN 帳戶進行關聯。 因此，我們不建議使用 Mullvad Leta，即使 Mullvad 僅收集極少量的 VPN 訂閱者資訊。
+Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes pre-installed with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. Mullvad Leta 直接查詢 Google 的付費搜索 API，這也是為什麼它僅限付費訂閱者使用。 然而，由於這個限制，Mullvad 有可能將搜尋字串和 Mullvad VPN 帳戶進行關聯。 因此，我們不建議使用 Mullvad Leta，即使 Mullvad 僅收集極少量的 VPN 訂閱者資訊。
 
 ## Firefox
 
@@ -189,7 +189,7 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 
 > Firefox 會向 Mozilla 發送以下數據：您的 Firefox 版本和語言；操作系統和硬體配置；記憶體、關於崩潰和錯誤的基本訊息；更新、安全瀏覽和啟動等自動化流程系統的結果。 當 Firefox 向 Mozilla 發送數據時，會將您的 IP 位址作為伺服器日誌的一部份暫時收集。
 
-此外，Mozilla 帳戶服務也收集[一些技術資料](https://mozilla.org/privacy/mozilla-accounts)。 如果有使用 Mozilla 帳戶，您可以選擇退出。
+此外，Mozilla 帳戶服務也收集[一些技術資料](https://mozilla.org/privacy/mozilla-accounts)。 If you use a Mozilla Account you can opt out:
 
 1. 在 [accounts.firefox.com 開啟您的個人資料設定](https://accounts.firefox.com/settings#data-collection)
 2. 取消勾選 **資料收集與使用** > **幫助我們改善 ⁨Mozilla 帳號⁩**
@@ -204,7 +204,7 @@ Firefox 128 發佈時，新增了一個[尊重隱私的成效測量](https://sup
 
 - [x] 勾選 **在所有視窗都只使用 HTTPS 連線**
 
-這可以防止您無意間以明文 HTTP 連線到網站。 如今，不支援 HTTPS 的網站已不多見，因此這對您日常瀏覽的影響幾乎沒有影響。
+這可以防止您無意間以明文 HTTP 連線到網站。 Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
 
 ##### 基於 HTTPS 的 DNS 服務 (DNS over HTTPS)
 
@@ -297,7 +297,7 @@ Brave 允許您在內部網頁 brave://settings/shields/filters 內選擇額外�
 
 </div>
 
-1. 此選項會停用 JavaScript，這會破壞許多網站。 若您想要避免破壞它們，可以針對個別需要的網站設定例外。只需點一下網址列上的 Shield 圖示，然後在 *進階控制* 下取消勾選此設定即可。
+1. 此選項會停用 JavaScript，這會破壞許多網站。 To fix them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 2. 如果您希望在經常造訪的特定網站保持登入狀態，可以針對個別需要的網站設定例外。只需點一下網址列上的 Shield 圖示，然後在 *進階控制* 下取消勾選此設定即可。
 
 #### 隱私權和安全性

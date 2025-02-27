@@ -56,11 +56,11 @@ cover: data-broker-removals.webp
 
 在您第一次向所有資料仲介商送出退出請求後，最好等待一到兩個星期，讓他們下轄的所有網站都收到您的請求。 然後，您就可以開始搜尋並退出您找到的任何剩餘網站。 使用像 [Google 的 _與你相關的結果_](#google-results-about-you-free) 這樣的網路爬蟲工具來協助尋找網際網路上殘留的任何資料，可能是個好主意。
 
-除此之外，隱私權記者 Yael Grauer 編製了一個極佳的資料仲介網站清單，並附有直接連結至其搜尋工具和拒絕服務網頁的連結。 您可以花一些時間瀏覽每個網站，確定它們是否有您的資訊，然後將其移除：
+除此之外，隱私權記者 Yael Grauer 編製了一個極佳的資料仲介網站清單，並附有直接連結至其搜尋工具和拒絕服務網頁的連結。 You can take some time to go through each site to determine whether they have your information, and remove it:
 
 [:simple-github: Big Ass Data Broker Opt-Out List](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List){ .md-button }
 
-如果您沒有使用自動掃描器來尋找關於您的結果，請考慮設定提醒，每 3、6 或 12 個月重新執行此程序，視您的風險等級和您在外的個人資料數量而定。 不幸的是，即使您選擇退出，您的資料仍會隨著時間重新出現，或顯示在全新的人肉搜尋網站上。
+如果您沒有使用自動掃描器來尋找關於您的結果，請考慮設定提醒，每 3、6 或 12 個月重新執行此程序，視您的風險等級和您在外的個人資料數量而定。 Unfortunately, it is common for your data to re-appear over time or show up on brand-new people search sites even after you opt out.
 
 ## EasyOptOuts <small>需付費</small>
 
@@ -125,7 +125,7 @@ EasyOptOuts 並不涵蓋下列我們認為「高度優先」的網站，因此�
 
 我們對移除服務的挑選主要是基於第三方的獨立專業測試（如上文所述）、我們自己的內部測試，以及我們社群的彙總評論。
 
-- 不得是其他供應商的白標服務或經銷商。
+- Must not be a white labeled service or reseller of another provider.
 - 不得隸屬於資料仲介商或在人員搜尋網站上投放廣告。
 - 必須僅將您的個人資料用於使您退出您選擇的資料仲介商資料庫和人員搜尋網站。
 

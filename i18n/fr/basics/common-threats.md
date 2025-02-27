@@ -4,7 +4,7 @@ icon: 'material/eye-outline'
 description: Votre modèle de menace vous est personnel, mais ce sont là quelques-unes des questions qui préoccupent de nombreux visiteurs de ce site.
 ---
 
-Pour faire simple, nous classons nos recommandations dans ces catégories générales de [menaces](threat-modeling.md) ou d'objectifs qui s'appliquent à la plupart des gens. ==Vous pouvez vous sentir concerné par une, plusieurs, toutes, ou bien aucune de ces possibilités==. Les outils et les services que vous utilisez dépendent également de vos objectifs. Il est possible que vous ayez des menaces spécifiques ne rentrant dans aucune de ces catégories, ce qui est tout à fait normal ! L'important est de bien comprendre les avantages et les inconvénients des outils que vous choisissez d'utiliser, car pratiquement aucun d'entre eux ne vous protégera contre toutes les menaces possibles.
+Pour faire simple, nous classons nos recommandations dans ces catégories générales de [menaces](threat-modeling.md) ou d'objectifs qui s'appliquent à la plupart des gens. ==Vous pouvez vous sentir concerné par une, plusieurs, toutes, ou bien aucune de ces possibilités==. Les outils et les services que vous utilisez dépendent également de vos objectifs. You may have specific threats outside these categories as well, which is perfectly fine! L'important est de bien comprendre les avantages et les inconvénients des outils que vous choisissez d'utiliser, car pratiquement aucun d'entre eux ne vous protégera contre toutes les menaces possibles.
 
 <span class="pg-purple">:material-incognito: **Anonymity**</span>
 :
@@ -19,7 +19,7 @@ Shielding your online activity from your real identity, protecting you from peop
 <span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
 :
 
-Typically a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+Typically, a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
 
 <span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
 :
@@ -44,7 +44,7 @@ Protecting yourself from big advertising networks, like Google and Facebook, as 
 <span class="pg-green">:material-account-search: **Public Exposure**</span>
 :
 
-Limiting the information about you that is accessible online—to search engines or the general public.
+Limiting the information about you that is accessible online—to search engines or the public.
 
 <span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
 :
@@ -76,7 +76,7 @@ Pour minimiser les dommages potentiels qu'un logiciel malveillant peut causer, v
 
 Les systèmes d'exploitation mobiles sont généralement plus sûrs que les systèmes d'exploitation de bureau en ce qui concerne le sandboxing des applications.
 
-Les systèmes d'exploitation de bureau sont généralement à la traîne en ce qui concerne le sandboxing. ChromeOS possède des capacités de sandboxing similaires à celles d'Android, et macOS dispose d'un contrôle complet des autorisations système (et les développeurs peuvent opter pour le sandboxing pour les applications). Cependant, ces systèmes d'exploitation transmettent des informations d'identification à leurs constructeurs respectifs. Linux a tendance à ne pas soumettre d'informations aux fournisseurs de systèmes, mais il a une mauvaise protection contre les exploits et les applications malveillantes. Ce problème peut être quelque peu atténué avec des distributions spécialisées qui font un usage intensif des machines virtuelles ou des conteneurs, comme [Qubes OS](../desktop.md#qubes-os).
+Les systèmes d'exploitation de bureau sont généralement à la traîne en ce qui concerne le sandboxing. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). Cependant, ces systèmes d'exploitation transmettent des informations d'identification à leurs constructeurs respectifs. Linux a tendance à ne pas soumettre d'informations aux fournisseurs de systèmes, mais il a une mauvaise protection contre les exploits et les applications malveillantes. Ce problème peut être quelque peu atténué avec des distributions spécialisées qui font un usage intensif des machines virtuelles ou des conteneurs, comme [Qubes OS](../desktop.md#qubes-os).
 
 </div>
 
@@ -143,7 +143,7 @@ Par conséquent, lorsque vous comptez sur le chiffrement de bout en bout, vous d
 
 </div>
 
-Même avec le chiffrement de bout en bout, les fournisseurs de services peuvent toujours vous profiler sur la base des **métadonnées**, qui ne sont généralement pas protégées. Si le fournisseur de services ne peut pas lire vos messages pour savoir ce que vous dites, il peut néanmoins observer des choses comme les personnes avec lesquelles vous parlez, la fréquence de vos messages et les heures où vous êtes généralement actif. La protection des métadonnées est assez rare, et vous devriez prêter une attention particulière à la documentation technique du logiciel que vous utilisez pour voir s'il y a une minimisation ou une protection des métadonnées, si cela vous préoccupe.
+Même avec le chiffrement de bout en bout, les fournisseurs de services peuvent toujours vous profiler sur la base des **métadonnées**, qui ne sont généralement pas protégées. While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. La protection des métadonnées est assez rare, et vous devriez prêter une attention particulière à la documentation technique du logiciel que vous utilisez pour voir s'il y a une minimisation ou une protection des métadonnées, si cela vous préoccupe.
 
 ## Programmes de surveillance de masse
 
@@ -156,7 +156,7 @@ La surveillance de masse est un effort visant à surveiller le "comportement, de
 
 Si vous souhaitez en savoir plus sur les méthodes de surveillance et la manière dont elles sont mises en œuvre dans votre ville, vous pouvez également consulter l'[Atlas de la surveillance](https://atlasofsurveillance.org/) de l'[Electronic Frontier Foundation](https://eff.org/).
 
-En France, vous pouvez consulter le [site Technolopolice](https://technopolice.fr/villes/) géré par l'association à but non lucratif La Quadrature du Net.
+In France, you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
 
 </div>
 
@@ -189,7 +189,7 @@ Si vous êtes préoccupé par les programmes de surveillance de masse, vous pouv
 
 Pour de nombreuses personnes, le pistage et la surveillance par des sociétés privées constituent une préoccupation croissante. Les réseaux publicitaires omniprésents, tels que ceux exploités par Google et Facebook, s'étendent sur internet bien au-delà des sites qu'ils contrôlent et suivent vos actions tout le long de votre navigation. L'utilisation d'outils tels que des bloqueurs de contenu pour limiter les requêtes du réseau vers leurs serveurs, et la lecture des politiques de confidentialité des services que vous utilisez peuvent vous aider à éviter de nombreux adversaires de base (bien que cela ne puisse pas empêcher complètement le pistage).[^4]
 
-En outre, même les entreprises n'appartenant pas au secteur de l'*Industrie Publicitaire (AdTech)* ou du pistage peuvent partager vos informations avec des [data brokers](https://en.wikipedia.org/wiki/Information_broker) (ou « courtiers en données » en français) (tels que Cambridge Analytica, Experian ou Datalogix) ou d'autres parties. Vous ne pouvez pas automatiquement supposer que vos données sont en sécurité simplement parce que le service que vous utilisez n'a pas un modèle économique typique de l'AdTech ou du pistage. La meilleure protection contre la collecte de données par les entreprises est de chiffrer ou d'obscurcir vos données dans la mesure du possible, afin qu'il soit plus difficile pour les différents fournisseurs de corréler les données entre elles et d'établir un profil sur vous.
+Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. Vous ne pouvez pas automatiquement supposer que vos données sont en sécurité simplement parce que le service que vous utilisez n'a pas un modèle économique typique de l'AdTech ou du pistage. La meilleure protection contre la collecte de données par les entreprises est de chiffrer ou d'obscurcir vos données dans la mesure du possible, afin qu'il soit plus difficile pour les différents fournisseurs de corréler les données entre elles et d'établir un profil sur vous.
 
 ## Limiter l'information publique
 

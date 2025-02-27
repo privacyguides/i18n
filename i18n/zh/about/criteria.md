@@ -24,7 +24,7 @@ Below are some general priorities we consider for all submissions to Privacy Gui
 
 - 必须披露隶属关系，即您在提交的项目中的职位。
 
-- Must have a security whitepaper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
+- Must have a security white paper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
     - Regarding third party audit status, we want to know if you have undergone one, or have requested one. 如果可能，请说明谁将进行审计。
 
 - 必须解释该项目在隐私方面带来了什么。

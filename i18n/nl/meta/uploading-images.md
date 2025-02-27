@@ -48,7 +48,7 @@ In het tabblad **SVG-uitvoer** onder **Documentopties**:
 - [ ] Schakel **Verwijder de XML declaratie** uit
 - [x] Zet **Metadata verwijderen** aan
 - [x] Schakel **Reacties verwijderen** in
-- [x] Schakel **ingevoegde rasterafbeeldingen** in
+- [x] Turn on **Embedded raster images**
 - [x] Zet **'viewboxen' aan**
 
 In de **SVG Output** onder **Pretty-printing**:

@@ -4,7 +4,7 @@ icon: '资料/视野'
 description: 您的威胁模式是您自己量身定制的，但这些是本网站许多访客都关心的一些问题。
 ---
 
-广义而言，可以将我们有关[威胁](threat-modeling.md) 或者适用于大多数人的目标的建议分为这几类。 ==你可能关注其中零个、 一个、 几个、 或所有这些可能性==， 你应该使用的工具和服务取决于你的目标。 你可能也有这些类别之外的特定威胁，这完全可以！ 重要的是要去了解您选择的这些工具的优缺点，因为也许任何工具都不能够保护您免受所有可以想象到的威胁。
+广义而言，可以将我们有关[威胁](threat-modeling.md) 或者适用于大多数人的目标的建议分为这几类。 ==你可能关注其中零个、 一个、 几个、 或所有这些可能性==， 你应该使用的工具和服务取决于你的目标。 You may have specific threats outside these categories as well, which is perfectly fine! 重要的是要去了解您选择的这些工具的优缺点，因为也许任何工具都不能够保护您免受所有可以想象到的威胁。
 
 <span class="pg-purple">:material-incognito: **Anonymity**</span>
 :
@@ -19,7 +19,7 @@ Being protected from hackers or other malicious actors who are trying to gain ac
 <span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
 :
 
-Typically a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+Typically, a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
 
 <span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
 :
@@ -44,7 +44,7 @@ Protecting yourself from big advertising networks, like Google and Facebook, as 
 <span class="pg-green">:material-account-search: **Public Exposure**</span>
 :
 
-Limiting the information about you that is accessible online—to search engines or the general public.
+Limiting the information about you that is accessible online—to search engines or the public.
 
 <span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
 :
@@ -76,7 +76,7 @@ Avoiding censored access to information or being censored yourself when speaking
 
 在应用程序沙盒方面，移动操作系统通常比桌面操作系统更安全。
 
-应用程序无法获得根访问权限，只能访问您授予它们访问权限的系统资源。 桌面操作系统在成熟的沙箱方面通常比较落后。 ChromeOS具有与安卓类似的沙盒属性，而macOS具有完整的系统权限控制和（针对开发者）可选的应用程序沙盒，然而这些操作系统的确会将识别信息传输给各自的OEM。 Linux倾向于不向系统供应商提交信息，但它对漏洞和恶意应用程序的保护很差。 This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+应用程序无法获得根访问权限，只能访问您授予它们访问权限的系统资源。 ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). ChromeOS具有与安卓类似的沙盒属性，而macOS具有完整的系统权限控制和（针对开发者）可选的应用程序沙盒，然而这些操作系统的确会将识别信息传输给各自的OEM。 Linux倾向于不向系统供应商提交信息，但它对漏洞和恶意应用程序的保护很差。 This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
 
 </div>
 
@@ -143,7 +143,7 @@ On the other hand, web-based E2EE implementations, such as Proton Mail's web app
 
 </div>
 
-即使有端对端加密，服务提供商仍然可以根据 **元数据**，对你进行剖析，而这些元数据通常不受保护。 虽然服务提供商无法阅读您的消息以查看您所说的内容，但他们仍然可以观察到您正在与谁通话、您给他们发送消息的频率以及您通常活跃的时间等情况。 对元数据的保护是相当不常见的，如果你关心这一点，应该密切关注你所使用的软件的技术文档，看看是否有任何元数据最小化或保护。
+即使有端对端加密，服务提供商仍然可以根据 **元数据**，对你进行剖析，而这些元数据通常不受保护。 While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. 对元数据的保护是相当不常见的，如果你关心这一点，应该密切关注你所使用的软件的技术文档，看看是否有任何元数据最小化或保护。
 
 ## 大规模监控计划
 
@@ -156,7 +156,7 @@ On the other hand, web-based E2EE implementations, such as Proton Mail's web app
 
 If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
 
-In France you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
+In France, you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
 
 </div>
 
@@ -189,7 +189,7 @@ If you're concerned about mass surveillance programs, you can use strategies lik
 
 确保您的数据私密性的最佳方法是首先不要将其放在外面。 删除你在网上发现的关于自己的信息是你为了恢复隐私可以采取的最佳初步措施之一。 使用内容拦截器等工具来限制对其服务器的网络请求，并阅读你使用的服务的隐私政策，可以帮助你避免许多基本的对手（尽管它不能完全防止跟踪）。[^4]
 
-在你分享信息的网站上，检查你账户的隐私设置以限制该数据的传播范围是非常重要的。 例如，如果您的帐户具有“隐私模式” ，请启用此功能以确保您的帐户不会被搜索引擎索引，并且不会被未经您事先审核的人查看。 对企业数据收集最有力的保护是尽可能地加密或混淆你的数据，使不同的供应商难以将数据相互关联并建立你的档案。
+Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. 例如，如果您的帐户具有“隐私模式” ，请启用此功能以确保您的帐户不会被搜索引擎索引，并且不会被未经您事先审核的人查看。 对企业数据收集最有力的保护是尽可能地加密或混淆你的数据，使不同的供应商难以将数据相互关联并建立你的档案。
 
 ## 限制公共信息
 

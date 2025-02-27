@@ -115,7 +115,7 @@ VeraCrypt הוא מזלג של פרויקט TrueCrypt שהופסק. על פי ה
 
 בעת הצפנה עם VeraCrypt, יש לך אפשרות לבחור מבין [hash פונקציות](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme) שונות. אנו מציעים לך **לבחור** רק [SHA-512](https://en.wikipedia.org/wiki/SHA-512) ולהיצמד ל [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) צופן בלוק.
 
-Truecrypt [נבדק מספר פעמים](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), וגם VeraCrypt [נבדק בנפרד](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
+TrueCrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), and VeraCrypt has also been [audited separately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
 
 ## Operating System Encryption
 
@@ -189,7 +189,7 @@ To enable BitLocker on "Home" editions of Windows, you must have partitions form
 
 ![FileVault לוגו](assets/img/encryption-software/filevault.png){ align=right }
 
-**FileVault** הוא פתרון הצפנת נפח תוך כדי תנועה המובנה ב-macOS. FileVault takes advantage of the [hardware security capabilities](os/macos-overview.md#hardware-security) present on an Apple silicon SoC or T2 Security Chip.
+**FileVault** הוא פתרון הצפנת נפח תוך כדי תנועה המובנה ב-macOS. FileVault takes advantage of the [hardware security capabilities](os/macos-overview.md#hardware-security) present on an Apple Silicon SoC or T2 Security Chip.
 
 [:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title="Documentation" }
 

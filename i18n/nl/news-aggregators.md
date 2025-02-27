@@ -140,16 +140,16 @@ A **news aggregator** is software which aggregates digital content from online n
 
 ## RSS-ondersteuning voor sociale media
 
-Sommige socialemediadiensten ondersteunen ook RSS, hoewel dat niet vaak wordt geadverteerd.
+Some social media services also support RSS, although it's not often advertised.
 
 ### Reddit
 
-Met Reddit kun je je abonneren op subreddits via RSS.
+Reddit allows you to subscribe to Subreddits via RSS.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Example</p>
 
-Replace `[SUBREDDIT]` with the subreddit you wish to subscribe to.
+Replace `[SUBREDDIT]` with the Subreddit you wish to subscribe to.
 
 ```text
 https://reddit.com/r/[SUBREDDIT]/new/.rss

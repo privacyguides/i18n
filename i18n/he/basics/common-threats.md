@@ -4,7 +4,7 @@ icon: 'material/eye-outline'
 description: מודל האיום שלך הוא אישי עבורך, אך אלו הם חלק מהדברים שמהם אכפת למבקרים רבים באתר זה.
 ---
 
-באופן כללי, אנו מסווגים את ההמלצות שלנו ל[איומים](threat-modeling.md) או יעדים שחלים על רוב האנשים. ==ייתכן שאתה מודאג מאף אחת, אחת, כמה, או מכל האפשרויות האלה==, והכלים והשירותים שבהם אתה משתמש תלויים במטרותיך. ייתכן שיש לך איומים ספציפיים גם מחוץ לקטגוריות האלה, וזה בסדר גמור! החלק החשוב הוא פיתוח הבנה של היתרונות והחסרונות של הכלים שבהם אתה בוחר להשתמש, כי למעשה אף אחד מהם לא יגן עליך מכל איום.
+באופן כללי, אנו מסווגים את ההמלצות שלנו ל[איומים](threat-modeling.md) או יעדים שחלים על רוב האנשים. ==ייתכן שאתה מודאג מאף אחת, אחת, כמה, או מכל האפשרויות האלה==, והכלים והשירותים שבהם אתה משתמש תלויים במטרותיך. You may have specific threats outside these categories as well, which is perfectly fine! החלק החשוב הוא פיתוח הבנה של היתרונות והחסרונות של הכלים שבהם אתה בוחר להשתמש, כי למעשה אף אחד מהם לא יגן עליך מכל איום.
 
 <span class="pg-purple">:material-incognito: **Anonymity**</span>
 :
@@ -19,7 +19,7 @@ Being protected from hackers or other malicious actors who are trying to gain ac
 <span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
 :
 
-Typically a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+Typically, a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
 
 <span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
 :
@@ -44,7 +44,7 @@ Protecting yourself from big advertising networks, like Google and Facebook, as 
 <span class="pg-green">:material-account-search: **Public Exposure**</span>
 :
 
-Limiting the information about you that is accessible online—to search engines or the general public.
+Limiting the information about you that is accessible online—to search engines or the public.
 
 <span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
 :
@@ -76,7 +76,7 @@ Avoiding censored access to information or being censored yourself when speaking
 
 למערכות הפעלה מובייל יש בדרך כלל ארגז חול טוב יותר לאפליקציות מאשר למערכות הפעלה שולחניות: אפליקציות אינן יכולות לקבל גישת שורש, ודורשות הרשאה לגישה למשאבי המערכת.
 
-מערכות הפעלה שולחניות בדרך כלל מפגרות עם ארגז חול נכון. ל-ChromeOS יש יכולות ארגז חול דומות לאנדרואיד, ול-macOS יש בקרת הרשאות מערכת מלאה (ומפתחים יכולים להצטרף לארגזי חול עבור יישומים). עם זאת, מערכות הפעלה אלו אכן משדרות מידע מזהה ליצרני ה-OEM שלהם. לינוקס נוטה לא לשלוח מידע לספקי מערכות, אך יש לה הגנה גרועה מפני ניצול ואפליקציות זדוניות. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+מערכות הפעלה שולחניות בדרך כלל מפגרות עם ארגז חול נכון. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). עם זאת, מערכות הפעלה אלו אכן משדרות מידע מזהה ליצרני ה-OEM שלהם. לינוקס נוטה לא לשלוח מידע לספקי מערכות, אך יש לה הגנה גרועה מפני ניצול ואפליקציות זדוניות. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
 
 </div>
 
@@ -143,7 +143,7 @@ On the other hand, web-based E2EE implementations, such as Proton Mail's web app
 
 </div>
 
-אפילו עם E2EE, ספקי שירות עדיין יכולים ליצור פרופיל שלך על סמך **מטא נתונים**, שבדרך כלל אינם מוגנים. למרות שספק השירות לא יכול לקרוא את ההודעות שלך, הוא עדיין יכול לראות דברים חשובים, כגון עם מי אתה מדבר, באיזו תדירות אתה שולח להם הודעות ומתי אתה פעיל בדרך כלל. הגנה על מטא נתונים היא נדירה למדי, ואם היא ב[מודל האיום](threat-modeling.md) שלך - עליך לשים לב היטב לתיעוד הטכני של התוכנה שבה אתה משתמש כדי לראות אם יש מזעור או הגנה של מטא נתונים בכלל.
+אפילו עם E2EE, ספקי שירות עדיין יכולים ליצור פרופיל שלך על סמך **מטא נתונים**, שבדרך כלל אינם מוגנים. While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. הגנה על מטא נתונים היא נדירה למדי, ואם היא ב[מודל האיום](threat-modeling.md) שלך - עליך לשים לב היטב לתיעוד הטכני של התוכנה שבה אתה משתמש כדי לראות אם יש מזעור או הגנה של מטא נתונים בכלל.
 
 ## תוכניות מעקב המוני
 
@@ -156,7 +156,7 @@ On the other hand, web-based E2EE implementations, such as Proton Mail's web app
 
 If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
 
-In France you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
+In France, you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
 
 </div>
 
@@ -189,7 +189,7 @@ If you're concerned about mass surveillance programs, you can use strategies lik
 
 עבור אנשים רבים, מעקב ומעקב על ידי תאגידים פרטיים הם דאגה גוברת. רשתות מודעות נרחבות, כמו אלו המופעלות על ידי גוגל ופייסבוק, משתרעות על האינטרנט הרבה מעבר לאתרים שהם שולטים בהם, ועוקבות אחר הפעולות שלך לאורך הדרך. שימוש בכלים כמו חוסמי תוכן כדי להגביל את בקשות הרשת לשרתים שלהם, וקריאת מדיניות הפרטיות של השירותים שבהם אתה משתמש יכול לעזור לך למנוע יריבים בסיסיים רבים (אם כי זה לא יכול למנוע לחלוטין מעקב).[^4]
 
-בנוסף, אפילו חברות מחוץ ל*AdTech* או תעשיית המעקב יכולות לשתף את המידע שלך עם [מתווכי נתונים](https://en.wikipedia.org/wiki/Information_broker) (כגון Cambridge Analytica, Experian או Datalogix) או גורמים אחרים. אתה לא יכול להניח אוטומטית שהנתונים שלך בטוחים רק בגלל שהשירות שבו אתה משתמש אינו נופל במסגרת המודל העסקי הטיפוסי של AdTech או מעקב. ההגנה החזקה ביותר מפני איסוף נתונים תאגידי היא הצפנת או ערפול הנתונים שלך בכל עת אפשרי, מה שמקשה על ספקים שונים לתאם נתונים זה עם זה ולבנות עליך פרופיל.
+Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. אתה לא יכול להניח אוטומטית שהנתונים שלך בטוחים רק בגלל שהשירות שבו אתה משתמש אינו נופל במסגרת המודל העסקי הטיפוסי של AdTech או מעקב. ההגנה החזקה ביותר מפני איסוף נתונים תאגידי היא הצפנת או ערפול הנתונים שלך בכל עת אפשרי, מה שמקשה על ספקים שונים לתאם נתונים זה עם זה ולבנות עליך פרופיל.
 
 ## הגבלת מידע ציבורי
 

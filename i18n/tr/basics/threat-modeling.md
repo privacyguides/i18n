@@ -35,7 +35,7 @@ Bir “varlık” değer verdiğiniz ve korumak istediğiniz bir şeydir. In the
 
 To answer this question, it's important to identify who might want to target you or your information. ==A person or entity that poses a threat to your assets is an “adversary”.== Examples of potential adversaries are your boss, your former partner, your business competition, your government, or a hacker on a public network.
 
-*Make a list of your adversaries or those who might want to get ahold of your assets. Listeniz bireyleri, bir devlet kurumunu veya şirketleri içerebilir.*
+*Make a list of your adversaries or those who might want to get hold of your assets. Listeniz bireyleri, bir devlet kurumunu veya şirketleri içerebilir.*
 
 Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
 

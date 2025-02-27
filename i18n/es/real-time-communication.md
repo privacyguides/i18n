@@ -259,7 +259,7 @@ Oxen solicitó una auditoría independiente para Session en marzo de 2020. La au
 
 > El nivel general de seguridad de esta aplicación es bueno y la hace utilizable para personas preocupadas por su privacidad.
 
-Session tiene un [informe oficial](https://arxiv.org/pdf/2002.04609.pdf) que describe los aspectos técnicos de la aplicación y el protocolo.
+Session has a [white paper](https://arxiv.org/pdf/2002.04609.pdf) describing the technical details of the app and protocol.
 
 ## Criterios
 

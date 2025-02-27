@@ -13,7 +13,7 @@ cover: file-sharing.webp
 
 ## 檔案分享
 
-如果您已經使用 [Proton Drive](cloud.md#proton-drive)[^1] 或已訂閱 [Bitwarden](passwords.md#bitwarden) Premium[^2] ，請考慮使用它們各自提供的檔案分享功能，這兩種功能都使用端對端加密。 如果沒有，則這裡列出的獨立選項可確保您打算共享的檔案不會被遠端伺服器讀取。
+If you already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarden](passwords.md#bitwarden) Premium[^2] subscription, consider using the file sharing capabilities that they each offer, both of which use end-to-end encryption. 如果沒有，則這裡列出的獨立選項可確保您打算共享的檔案不會被遠端伺服器讀取。
 
 ### Send
 

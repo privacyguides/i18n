@@ -91,7 +91,7 @@ O **Privacy Guides** tem uma [comunidade](https://discuss.privacyguides.net) ded
 
     ---
 
-    Proton Mail é um serviço de e-mail focado em privacidade, criptografia, segurança, e facilidade de uso. Eles estão em operação desde 2013. Proton AG é localizado em Genève, Suíça. O plano Proton Mail Free vem com 500 Mb de armazenamento de e-mail, que você pode aumentar até 1 GB gratuitamente.
+    Proton Mail é um serviço de e-mail focado em privacidade, criptografia, segurança, e facilidade de uso. Eles estão em operação desde 2013. Proton AG is based in Geneva, Switzerland. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
 
     [:octicons-arrow-right-24: Leia a Análise Completa](email.md#proton-mail)
 
@@ -99,7 +99,7 @@ O **Privacy Guides** tem uma [comunidade](https://discuss.privacyguides.net) ded
 
     ---
 
-    Mailbox.org é um serviço de correio electrónico centrado em ser seguro, livre de anúncios e alimentado com energia 100% amiga do meio ambiente. Eles estão operando desde 2014. Mailbox.org é sediado em Berlim, Alemanha. As contas começam com até 2 GB de armazenamento, que podem ser aumentados conforme necessário.
+    Mailbox.org é um serviço de correio electrónico centrado em ser seguro, livre de anúncios e alimentado com energia 100% amiga do meio ambiente. Eles estão operando desde 2014. Mailbox.org é sediado em Berlim, Alemanha. Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
     [:octicons-arrow-right-24: Leia a Análise Completa](email.md#mailboxorg)
 
@@ -107,7 +107,7 @@ O **Privacy Guides** tem uma [comunidade](https://discuss.privacyguides.net) ded
 
     ---
 
-    Tuta (anteriormente *Tutanota*) é um serviço de e-mail com foco na segurança e privacidade através do uso de criptografia. Tutá está em funcionamento desde 2011 e está sediado em Hanover, Alemanha. Contas gratuitas começam com 1GB de armazenamento.
+    Tuta (anteriormente *Tutanota*) é um serviço de e-mail com foco na segurança e privacidade através do uso de criptografia. Tutá está em funcionamento desde 2011 e está sediado em Hanover, Alemanha. Free accounts start with 1 GB of storage.
 
     [:octicons-arrow-right-24: Leia a Análise Completa](email.md#tuta)
 
@@ -172,7 +172,7 @@ Considerado pela **WIRED**, **Tweakers.net**, **The New York Times**, e muitas o
 <div markdown>
 ## O que são ferramentas de privacidade?
 
-Recomendamos uma grande variedade de **ferramentas de privacidade** (a.k.a. *apps de privacidade*, *utilitários de privacidade*, *softwares de privacidade*) abrangendo software e hardware que você pode adotar para melhorar sua privacidade. Muitas das ferramentas que recomendamos são totalmente gratuitas e de software de código aberto, enquanto algumas são serviços comerciais disponíveis para compra. Mudar do software convencional que consome muitos dados, como o Google Chrome e o Windows, para ferramentas voltadas para a privacidade, como o [Brave](desktop-browsers.md#brave) e o [Linux](desktop.md), pode ajudar muito a controlar as informações que você compartilha com empresas e outras pessoas.
+Recomendamos uma grande variedade de **ferramentas de privacidade** (a.k.a. *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can use to improve your privacy. Muitas das ferramentas que recomendamos são totalmente gratuitas e de software de código aberto, enquanto algumas são serviços comerciais disponíveis para compra. Mudar do software convencional que consome muitos dados, como o Google Chrome e o Windows, para ferramentas voltadas para a privacidade, como o [Brave](desktop-browsers.md#brave) e o [Linux](desktop.md), pode ajudar muito a controlar as informações que você compartilha com empresas e outras pessoas.
 
 [:material-check-all: Nosso Critério Geral](about/criteria.md){ class="md-button" }
 </div>

@@ -12,7 +12,7 @@ description: A guide for journalists and website contributors on proper branding
 - PG.org
 </div>
 
-Το όνομα του subreddit είναι **r/PrivacyGuides** ή **the Privacy Guides Subreddit**.
+The name of the Subreddit is **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
 
 Πρόσθετες κατευθυντήριες γραμμές για το branding μπορείτε να βρείτε στη διεύθυνση [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
 

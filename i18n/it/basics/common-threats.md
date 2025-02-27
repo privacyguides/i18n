@@ -4,7 +4,7 @@ icon: 'material/eye-outline'
 description: Il tuo modello di minaccia è personale, ma queste sono alcuni aspetti che stanno a cuore a molti visitatori di questo sito web.
 ---
 
-In linea di massima, le nostre raccomandazioni sono suddivise in [minacce](threat-modeling.md) o obiettivi che si applicano alla maggior parte delle persone. ==Potresti essere interessato a nessuna, una, alcune o tutte queste possibilità==, e gli strumenti e servizi che utilizzi dipendono dai tuoi obiettivi. Potreste avere minacce specifiche anche al di fuori di queste categorie, il che è perfettamente normale! La parte importante è lo sviluppo di una comprensione dei benefici e difetti degli strumenti che scegli di utilizzare, poiché virtualmente nessuno di essi ti proteggerà da ogni minaccia.
+In linea di massima, le nostre raccomandazioni sono suddivise in [minacce](threat-modeling.md) o obiettivi che si applicano alla maggior parte delle persone. ==Potresti essere interessato a nessuna, una, alcune o tutte queste possibilità==, e gli strumenti e servizi che utilizzi dipendono dai tuoi obiettivi. You may have specific threats outside these categories as well, which is perfectly fine! La parte importante è lo sviluppo di una comprensione dei benefici e difetti degli strumenti che scegli di utilizzare, poiché virtualmente nessuno di essi ti proteggerà da ogni minaccia.
 
 <span class="pg-purple">:material-incognito: **Anonymity**</span>
 :
@@ -19,7 +19,7 @@ Being protected from hackers or other malicious actors who are trying to gain ac
 <span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
 :
 
-Typically a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+Typically, a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
 
 <span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
 :
@@ -44,7 +44,7 @@ Protecting yourself from big advertising networks, like Google and Facebook, as 
 <span class="pg-green">:material-account-search: **Public Exposure**</span>
 :
 
-Limiting the information about you that is accessible online—to search engines or the general public.
+Limiting the information about you that is accessible online—to search engines or the public.
 
 <span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
 :
@@ -76,7 +76,7 @@ Per minimizzare i danni che un software malevolo *potrebbe* causare, dovresti ut
 
 I sistemi operativi per mobile, generalmente, presentano un migliore sandboxing delle applicazioni, rispetto ai sistemi operativi per desktop: le app possono ottenere l'accesso di root e richiedono l'autorizzazione per accedere alle risorse di sistema.
 
-Generalmente, i sistemi operativi per desktop sono in ritardo, per l'adeguato sandboxing. ChromeOS ha funzionalità di sandboxing simili ad Android e macOS ha il pieno controllo delle autorizzazioni di sistema (e gli sviluppatori possono optare per il sandboxing delle applicazioni). Tuttavia, questi sistemi operativi trasmettono le informazioni identificativi ai rispettivi OEM. Linux tende a non inviare le informazioni ai fornitori del sistema, ma presenta una scarsa protezione da exploit e applicazioni dannose. Ciò si può in qualche modo mitigare con distribuzioni specializzate che fanno significativo utilizzo di macchine virtuali o contenitori, come [Qubes OS](../desktop.md#qubes-os).
+Generalmente, i sistemi operativi per desktop sono in ritardo, per l'adeguato sandboxing. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). Tuttavia, questi sistemi operativi trasmettono le informazioni identificativi ai rispettivi OEM. Linux tende a non inviare le informazioni ai fornitori del sistema, ma presenta una scarsa protezione da exploit e applicazioni dannose. Ciò si può in qualche modo mitigare con distribuzioni specializzate che fanno significativo utilizzo di macchine virtuali o contenitori, come [Qubes OS](../desktop.md#qubes-os).
 
 </div>
 
@@ -143,7 +143,7 @@ Dunque, dovresti utilizzare le applicazioni native, invece dei client web, quand
 
 </div>
 
-Anche con l'E2EE, i fornitori dei servizi possono comunque profilarti secondo i **metadati**, che tipicamente non sono protetti. Sebbene il fornitore del servizio non possa leggere i tuoi messaggi, può comunque osservare cose importanti, come con chi stai parlando, quanto spesso gli invii messaggi e quando sei tipicamente attivo. La protezione dei metadati è abbastanza rara e, se rientra nel tuo [modello di minaccia](threat-modeling.md), dovresti prestare molta attenzione alla documentazione tecnica del software che stai utilizzando, per scoprire se è prevista alcuna minimizzazione o protezione dei metadati.
+Anche con l'E2EE, i fornitori dei servizi possono comunque profilarti secondo i **metadati**, che tipicamente non sono protetti. While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. La protezione dei metadati è abbastanza rara e, se rientra nel tuo [modello di minaccia](threat-modeling.md), dovresti prestare molta attenzione alla documentazione tecnica del software che stai utilizzando, per scoprire se è prevista alcuna minimizzazione o protezione dei metadati.
 
 ## Programmi di sorveglianza di massa
 
@@ -156,7 +156,7 @@ La sorveglianza di massa consiste nell'intricato sforzo di monitorare il "compor
 
 Se vuoi saperne di più sui metodi di sorveglianza e su come vengono attuati nella tua città, puoi anche dare un'occhiata a [Atlas of Surveillance](https://atlasofsurveillance.org/) della [Electronic Frontier Foundation](https://eff.org/).
 
-In Francia puoi consultare il [sito web di Technopolice](https://technopolice.fr/villes) gestito dall'associazione non-profit La Quadrature du Net.
+In France, you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
 
 </div>
 
@@ -189,7 +189,7 @@ Se sei preoccupato per i programmi di sorveglianza di massa, puoi usare strategi
 
 Per molti, il tracciamento e la sorveglianza dalle aziende private è una preoccupazione crescente. Le reti pubblicitarie pervasive, come quelle gestite da Google e Facebook, si estendono su Internet ben oltre i siti che controllano, tracciando le tue azioni lungo il percorso. Utilizzare strumenti come i blocchi di contenuti per limitare le richieste di rete ai loro server e leggere le politiche sulla privacy dei servizi che utilizzi, può aiutarti a evitare molti avversari di base (sebbene non possa prevenire completamente il tracciamento).[^4]
 
-Inoltre, anche le aziende esterne al settore *AdTech* o di tracciamento, possono condividere le tue informazioni con gli [intermediari di dati](https://en.wikipedia.org/wiki/Information_broker) (come Cambridge Analytica, Experian o Datalogix), o altre parti. Non puoi supporre automaticamente che i tuoi dati siano sicuri semplicemente perché il servizio che stai utilizzando non ricade nel tipico modello aziendale dell'AdTech o di tracciamento. La protezione più forte contro la raccolta aziendale dei dati è crittografare od offuscare i tuoi dati quando possibile, complicando per i diversi fornitori, la correlazione dei dati tra loro e la costruzione di un profilo su di te.
+Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. Non puoi supporre automaticamente che i tuoi dati siano sicuri semplicemente perché il servizio che stai utilizzando non ricade nel tipico modello aziendale dell'AdTech o di tracciamento. La protezione più forte contro la raccolta aziendale dei dati è crittografare od offuscare i tuoi dati quando possibile, complicando per i diversi fornitori, la correlazione dei dati tra loro e la costruzione di un profilo su di te.
 
 ## Limitare le Informazioni Pubbliche
 

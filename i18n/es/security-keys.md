@@ -10,7 +10,7 @@ cover: multi-factor-authentication.webp
 - [:material-target-account: Ataques dirigidos](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 - [:material-bug-outline: Ataques pasivos](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-Una **llave de seguridad** física añade una capa fuerte de protección a tus cuentas en línea. A comparación con las [aplicaciones de autenticación](multi-factor-authentication.md), el protocolo de llave de seguridad FIDO2 es innume al phishing y no puede ser comprometido sin tener la llave física. Muchos servicios son compatibles con FIDO2/WebAuthn como una opción de autenticación multifactor para asegurar tu cuenta, y algunos servicios te permiten usar una llave de seguridad como un autenticador fuerte de factor único con autenticación sin contraseña.
+Una **llave de seguridad** física añade una capa fuerte de protección a tus cuentas en línea. A comparación con las [aplicaciones de autenticación](multi-factor-authentication.md), el protocolo de llave de seguridad FIDO2 es innume al phishing y no puede ser comprometido sin tener la llave física. Many services support FIDO2/WebAuthn as a multifactor authentication option for securing your account, and some services allow you to use a security key as a strong single-factor authenticator with passwordless authentication.
 
 ## Llave de seguridad Yubico
 
@@ -63,7 +63,7 @@ La serie **YubiKey** de Yubico es una de las más populares. La serie YubiKey 5 
 
 La [tabla comparativa](https://yubico.com/store/compare) muestra las características y cómo las YubiKeys se comparan entre sí y con otras series de [llave de seguridad](#yubico-security-key) de Yubico. Uno de los beneficios de la serie YubiKey es que una llave puede realizar casi todo lo que puedes esperar de una llave de seguridad física. Te recomendamos realizar la [encuesta](https://yubico.com/quiz) antes de realizar la compra, para asegurarte de que tomas la decisión correcta.
 
-La serie YubiKey 2 tiene la certificación FIDO Nivel 1, que es la más común. Sin embargo, algunos gobiernos u organizaciones pueden requerir una llave con la certificación de Nivel 2, en cuyo caso se debe adquirir una llave de la [serie Yubikey 5 **FIPS**](https://yubico.com/products/yubikey-fips) o una [llave de seguridad Yubico](#yubico-security-key). La mayoría de las personas no deben preocuparse por esta distinción.
+The YubiKey 5 series has FIDO Level 1 certification, which is the most common. However, some governments or other organizations may require a key with Level 2 certification, in which case you'll have to purchase a [YubiKey 5 **FIPS** series](https://yubico.com/products/yubikey-fips) key, or a [Yubico Security Key](#yubico-security-key). La mayoría de las personas no deben preocuparse por esta distinción.
 
 Las YubiKeys pueden ser programadas utilizando [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) o [YubiKey Personalization Tools](https://yubico.com/support/download/yubikey-personalization-tools). Para gestionar los códigos TOTP, puedes utilizar el [Autenticador Yubico](https://yubico.com/products/yubico-authenticator). Todos los clientes de Yubico son de código abierto.
 

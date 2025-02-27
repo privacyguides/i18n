@@ -80,7 +80,7 @@ Si cancelas tu suscripción, disfrutarás de las características de tu plan de 
 
 <div class="admonition recommendation" markdown>
 
-![Simplelogin logo](assets/img/email-aliasing/simplelogin.svg){ align=right }
+![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ align=right }
 
 **SimpleLogin** es un servicio gratuito que proporciona alias de correo electrónico en una variedad de nombres de dominio compartidos y, opcionalmente, ofrece funciones de pago como alias ilimitados y dominios personalizados.
 

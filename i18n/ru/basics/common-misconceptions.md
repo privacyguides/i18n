@@ -63,13 +63,13 @@ schema:
 
 ## "Сложнее - лучше"
 
-Мы часто видим, как люди описывают слишком сложные модели угроз конфиденциальности. Часто эти решения включают такие проблемы, как множество различных учетных записей электронной почты или сложные настройки с большим количеством условий. Ответы, как правило, являются ответами на вопрос "Как лучшего всего сделать *X*?"
+Мы часто видим, как люди описывают слишком сложные модели угроз конфиденциальности. Often, these solutions include problems like multiple email accounts or complicated setups with lots of moving parts and conditions. Ответы, как правило, являются ответами на вопрос "Как лучшего всего сделать *X*?"
 
 Поиск "лучшего" решения для себя не обязательно означает, что вам нужно безошибочное решение с десятками условий - с такими решениями часто трудно работать в реальности. Как мы уже говорили ранее, безопасность часто достигается ценой удобства. Ниже мы приводим несколько советов:
 
 1. ==Действия должны служить определенной цели:== подумайте о том, как сделать то, что вы хотите, с помощью наименьшего количества действий.
 2. ==Избегание человеческого фактора:== Мы терпим неудачи, устаем и забываем. Чтобы поддерживать безопасность, не полагайтесь на ручные условия и действия, которые вы должны помнить.
-3. ==Используйте правильный уровень защиты для того, что вы задумали.== Мы часто встречаем рекомендации так называемых решений, защищенных от правоохранительных органов или судебных решений. Они часто требуют специальных знаний и, как правило, не являются тем, что нужно людям. Нет смысла строить сложную модель угроз для анонимности, если вас можно легко деанонимизировать из-за простой оплошности.
+3. ==Используйте правильный уровень защиты для того, что вы задумали.== Мы часто встречаем рекомендации так называемых решений, защищенных от правоохранительных органов или судебных решений. Они часто требуют специальных знаний и, как правило, не являются тем, что нужно людям. There's no point in building an intricate threat model for anonymity if you can be easily deanonymized by a simple oversight.
 
 Итак, как это может выглядеть?
 
@@ -94,4 +94,4 @@ schema:
 
     Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
 
-[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added a obfuscated backdoor into `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed.
+[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added an obfuscated backdoor into `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed.

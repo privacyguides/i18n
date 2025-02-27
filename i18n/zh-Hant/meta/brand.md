@@ -12,7 +12,7 @@ description: 為記者和網站供稿者提供有關正確使用 Privacy Guides 
 - PG.org
 </div>
 
-Subreddit 的名字是 **r/PrivacyGuides** 或 **Privacy Guides Subreddit**。
+The name of the Subreddit is **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
 
 其他品牌指南可在 [github.com/privacyguides/brand](https://github.com/privacyguides/brand)找到
 

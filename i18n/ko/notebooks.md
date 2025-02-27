@@ -9,7 +9,7 @@ cover: notebooks.webp
 
 - [:material-server-network: 서비스 제공자/제공 업체(Service Providers)](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-여러분의 노트 내용이나 일기를 제3자가 볼 수 없도록 관리하세요.
+Keep track of your notes and journals without giving them to a third party.
 
 현재 Evernote, Google Keep, Microsoft OneNote와 같은 애플리케이션을 사용하고 계시다면, 여기에서 E2EE를 지원하는 대체제를 선택해 보실 것을 권장드립니다.
 
@@ -82,9 +82,9 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 <div class="admonition recommendation" markdown>
 
-![Joplin 로고(assets/img/notebooks/joplin.svg){ align=right }
+![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
 
-**Joplin**은 기능이 완벽하게 갖춰진 무료 오픈 소스 노트 작성/할 일 관리 애플리케이션입니다. 노트북 분류와 태그로 정리하여 수많은 마크다운 노트를 관리할 수 있습니다. E2EE를 제공하며, Nextcloud, Dropbox 등을 통해 동기화 가능합니다. Evernote나 일반 텍스트 노트에서 간편하게 가져올 수 있는 기능도 제공합니다.
+**Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle numerous markdown notes organized into notebooks and tags. E2EE를 제공하며, Nextcloud, Dropbox 등을 통해 동기화 가능합니다. Evernote나 일반 텍스트 노트에서 간편하게 가져올 수 있는 기능도 제공합니다.
 
 [:octicons-home-16: Homepage](https://joplinapp.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="Privacy Policy" }
@@ -133,7 +133,7 @@ Joplin does not [support](https://github.com/laurent22/joplin/issues/289) passwo
 
 </div>
 
-Cryptee는 100MB 저장 공간을 무료로 제공하며, 유료 결제를 통해 더 많은 저장 공간을 제공합니다. 가입 시 이메일 등의 개인 식별 정보를 필요로 하지 않습니다.
+Cryptee offers 100 MB of storage for free, with paid options if you need more. 가입 시 이메일 등의 개인 식별 정보를 필요로 하지 않습니다.
 
 ## 로컬 노트 작성
 

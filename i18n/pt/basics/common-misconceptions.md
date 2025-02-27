@@ -63,13 +63,13 @@ As políticas de privacidade e as práticas comerciais dos fornecedores que esco
 
 ## "Complicado é melhor"
 
-É frequente vermos pessoas a descrever modelos de ameaças à privacidade que são demasiado complexos. Muitas vezes, estas soluções incluem problemas como muitas contas de correio eletrónico diferentes ou configurações complicadas com muitas partes móveis e condições. As respostas são geralmente respostas a "Qual é a melhor maneira de fazer *X*?"
+É frequente vermos pessoas a descrever modelos de ameaças à privacidade que são demasiado complexos. Often, these solutions include problems like multiple email accounts or complicated setups with lots of moving parts and conditions. As respostas são geralmente respostas a "Qual é a melhor maneira de fazer *X*?"
 
 Encontrar a "melhor" solução para si não significa necessariamente que está à procura de uma solução infalível com dezenas de condições — estas soluções são muitas vezes difíceis de trabalhar de forma realista. Tal como referimos anteriormente, a segurança tem muitas vezes um custo em termos de conveniência. Em seguida, apresentamos alguns conselhos:
 
 1. ==As ações têm de servir um determinado objetivo:== pense em como fazer o que pretende com o menor número de ações.
 2. ==Remova os pontos de falha humanos:== Falhamos, cansamo-nos e esquecemo-nos de coisas. Para manter a segurança, evite depender de condições e processos manuais dos quais tem de se lembrar.
-3. ==Utilize o nível de proteção adequado para o que pretende== É frequente vermos recomendações das chamadas soluções à prova de intimação ou de aplicação da lei. Estes requerem frequentemente conhecimentos especializados e não são geralmente o que as pessoas querem. Não adianta criar um modelo de ameaças complexo para o anonimato se pode ser facilmente desanonimizado por um simples descuido.
+3. ==Utilize o nível de proteção adequado para o que pretende== É frequente vermos recomendações das chamadas soluções à prova de intimação ou de aplicação da lei. Estes requerem frequentemente conhecimentos especializados e não são geralmente o que as pessoas querem. There's no point in building an intricate threat model for anonymity if you can be easily deanonymized by a simple oversight.
 
 Então, o que isto pode parecer?
 
@@ -94,4 +94,4 @@ Um dos modelos de ameaça mais claros é aquele no qual as pessoas *sabem quem �
 
     Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
 
-[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added a obfuscated backdoor into `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed.
+[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added an obfuscated backdoor into `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed.

@@ -44,7 +44,7 @@ schema:
 
 其些應用程式比其他應用程式更好，但再次提醒其選用決定取決於您的威脅模型。 如果是Tor 的一般使用者，不擔心 ISP 收集針對您的證據，那麼使用[Orbot](#orbot) 等應用程式或行動瀏覽器應用程式訪用 Tor 網路可能沒問題。 越多人使用 Tor 有助於減少 Tor 的不良印記，降低 ISP 和政府可能編制的「Tor 用戶清單」內容。
 
-如果更完全的匿名至關重要，則應 **僅使用** 桌面版的 Tor 客戶端應用，最好再加上[Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) 一起搭配使用。 行動瀏覽器在 Tor 上較不常見 (因此也更容易被識別指紋)，而且其所採用的其他配置也沒有經過嚴格的去匿名化測試。
+如果更完全的匿名至關重要，則應 **僅使用** 桌面版的 Tor 客戶端應用，最好再加上[Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) 一起搭配使用。 Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
 
 ## Tor 瀏覽器
 
@@ -114,11 +114,11 @@ Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。
 <div class="admonition tip" markdown>
 <p class="admonition-title">Android 提示</p>
 
-Orbot 可以代理個別應用程式，如果它們有支援 SOCKS 或 HTTP 代理。 它也能使用 [VpnService](https://developer.android.com/reference/android/net/VpnService) 代理您的所有網路連接，其 VPN killswitch 設定在 :gear: **Settings** → **Network &amp; internet** → **VPN** → :gear: → **Block connections without VPN**.。
+Orbot 可以代理個別應用程式，如果它們有支援 SOCKS 或 HTTP 代理。 It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN kill switch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
 
 Guardian Project 的[F-Droid repository](https://guardianproject.info/fdroid)和 [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android) 上Orbot 往往不是最新版，因此請考慮直接從 [GitHub repository](https://github.com/guardianproject/orbot/releases) 下載。
 
-所有版本都使用同一個簽名，因此它們應該相互兼容。
+All versions are signed using the same signature, so they should be compatible with each other.
 
 </div>
 

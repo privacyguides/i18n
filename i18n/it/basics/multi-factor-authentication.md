@@ -1,10 +1,10 @@
 ---
-title: "Autenticazione a Fattori Multipli"
+title: "Multifactor Authentication"
 icon: 'material/two-factor-authentication'
 description: L'AFM è un meccaanismo di sicurezza fondamentale per proteggere i tuoi profili online, ma alcuni metodi sono più efficaci di altri.
 ---
 
-L'**Autenticazione a Fattori Multipli** (**AFM**) è un meccanismo di sicurezza che richiede ulteriori passaggi oltre all'inserimento del tuo nome utente (o email) e la password. Il metodo più comune è quello dei codici a tempo limitato, che potresti ricevere via SMS o da un'app.
+**Multifactor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. Il metodo più comune è quello dei codici a tempo limitato, che potresti ricevere via SMS o da un'app.
 
 Solitamente, se un hacker (o avversario) è in grado di scoprire la tua password, otterrebbe l'accesso al tuo profilo, cui appartiene tale password. Un proflo con l'AFM forza l'hacker ad avere sia la password (qualcosa che *conosci*) che un dispositivo che possiedi (qualcosa che *possiedi*), come il tuo telefono.
 
@@ -26,7 +26,7 @@ La sicurezza dell'AFM con notifiche push dipende dalla qualità dell'app, dalla 
 
 ### Time-based One-time Password (TOTP)
 
-La TOTP è una delle forme di AFM più comuni disponibili. Quando configuri la TOTP, devi generalmente scansionare un [Codice QR](https://en.wikipedia.org/wiki/QR_code), che stabilisce un "[codice segreto](https://en.wikipedia.org/wiki/Shared_secret)" con il servizio che intendi utilizzare. Questo è protetto tra i dati dell'app d'autenticazione ed è talvolta protetto da una password.
+La TOTP è una delle forme di AFM più comuni disponibili. Quando configuri la TOTP, devi generalmente scansionare un [Codice QR](https://en.wikipedia.org/wiki/QR_code), che stabilisce un "[codice segreto](https://en.wikipedia.org/wiki/Shared_secret)" con il servizio che intendi utilizzare. The shared secret is secured inside the authenticator app's data, and is sometimes protected by a password.
 
 Il codice a tempo limitato deriva dal codice segreto e dall'ora corrente. Poiché il codice è valido soltanto per un breve periodo di tempo, senza l'accesso al codice segreto condiviso, un avversario non può generare nuovi codici.
 
@@ -82,7 +82,7 @@ This presentation discusses the history of password authentication, the pitfalls
 
 FIDO2 e WebAuthn hanno proprietà di sicurezza e privacy superiori, rispetto a qualsiasi metodo AFM.
 
-Tipicamente, per i servizi web è utilizzato con WebAuthn, parte dei [consigli W3C](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). Utilizza l'autenticazione a chiave pubblica ed è più sicuro dei codici segreti condivisi utilizzati dai metodi di Yubico OTP e TOTP, poiché include il nome originale (solitamente, il nome di dominio), durante l'autenticazione. L'attestazione è fornita per proteggerti dagli attacchi di phishing, poiché ti aiuta a determinare che stai utilizzando il servizio autentico e non una copia falsa.
+Typically, for web services it is used with WebAuthn which is a part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). Utilizza l'autenticazione a chiave pubblica ed è più sicuro dei codici segreti condivisi utilizzati dai metodi di Yubico OTP e TOTP, poiché include il nome originale (solitamente, il nome di dominio), durante l'autenticazione. L'attestazione è fornita per proteggerti dagli attacchi di phishing, poiché ti aiuta a determinare che stai utilizzando il servizio autentico e non una copia falsa.
 
 Diversamente da Yubico OTP, WebAuthn non utilizza alcun ID pubblico, quindi la chiave **non** è identificabile tra siti web differenti. Inoltre, non utilizza alcun server su cloud di terze parti per l'autenticazione. Tutte le comunicazioni sono completate tra la chiave e il sito web cui stai accedendo. Inoltre, FIDO utilizza un contatore che incrementa all'utilizzo, per impedire il riutilizzo della sessione e la clonazione delle chiavi.
 
@@ -116,15 +116,15 @@ Se utilizzi gli SMS per l'AFM, utilizza un operatore che non cambi il tuo numero
 
 ## Altri posti per configurare l'AFM
 
-Oltre a proteggere i tuoi accessi ai siti web, l'autenticazione a più fattori è utilizzabile per proteggere i tuoi accessi locali, le chiavi SSH o persino i database di password.
+Beyond just securing your website logins, multifactor authentication can be used to secure your local logins, SSH keys or even password databases as well.
 
 ### macOS
 
-macOS [supporta nativamente](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) l'autenticazione con smart card (PIV). Se possiedi una smartcard o una chiave di sicurezza hardware che supporta l'interfaccia PIV, come YubiKey, consigliamo di seguire la documentazione del tuo fornitore di sicurezza con smartcard/hardware e di configurare l'autenticazione a due fattori per il tuo computer macOS.
+macOS [supporta nativamente](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) l'autenticazione con smart card (PIV). If you have a smart card or a hardware security key that supports the PIV interface such as the YubiKey, we recommend that you follow your smart card or hardware security vendor's documentation and set up second factor authentication for your macOS computer.
 
 Yubico ha una guida all'[Utilizzo della tua YubiKey come Smart Card su macOS](https://support.yubico.com/hc/articles/360016649059), che può aiutarti a configurarla su macOS.
 
-Dopo aver configurato la tua smartcard/chiave di sicurezza, consigliamo di eseguire questo comando nel Terminale:
+After your smart card/security key is set up, we recommend running this command in the Terminal:
 
 ```text
 sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLogin -bool YES
@@ -159,4 +159,4 @@ L'AFM SSH può anche essere configurata utilizzando TOTP. DigitalOcean ha fornit
 
 ### KeePass (e KeePassXC)
 
-I database di KeePass e KeePassXC possono essere protetti utilizzando la Challenge-Response o HOTP come autenticazione di secondo fattore. Yubico ha fornito un documento per KeePass [Utilizza la tua YubiKey con KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) e ce n'è anche uno sul sito [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa).
+KeePass and KeePassXC databases can be secured using HOTP or Challenge-Response as a second-factor of authentication. Yubico ha fornito un documento per KeePass [Utilizza la tua YubiKey con KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) e ce n'è anche uno sul sito [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa).

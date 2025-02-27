@@ -19,7 +19,7 @@ cover: photo-management.webp
 ![Ente logo](assets/img/photo-management/ente.svg#only-light){ align=right }
 ![Ente logo](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
 
-**Ente Photos**提供端對端加密照片備份服務，支援 iOS 和 Android 的自動備份。 其客戶端和伺服器端的程式碼都完全開源。 它也可 [自行託管](https://github.com/ente-io/ente/tree/main/server#self-hosting)。 免費方案要求您每年至少要使用該服務一次，該方案提供 5GB 儲存空間。
+**Ente Photos**提供端對端加密照片備份服務，支援 iOS 和 Android 的自動備份。 其客戶端和伺服器端的程式碼都完全開源。 它也可 [自行託管](https://github.com/ente-io/ente/tree/main/server#self-hosting)。 The free plan offers 5 GB of storage as long as you use the service at least once a year.
 
 [:octicons-home-16: 首頁](https://ente.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="隱私權政策" }
@@ -51,7 +51,7 @@ Ente Photos 於 2023 年 3 月接受 [Cure53 稽核](https://ente.io/blog/crypto
 ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ align=right }
 ![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ align=right }
 
-**Stingle** 是一款照片庫與相機應用程式，內建端對端加密備份與同步功能，可儲存您的相片與影片。 如果您使用他們的雲端，免費帳戶的儲存空間為 1GB ，您也可以託管自己的 Stingle API 伺服器，以獲取完全的獨立性。
+**Stingle** 是一款照片庫與相機應用程式，內建端對端加密備份與同步功能，可儲存您的相片與影片。 Storage starts at 1 GB for free accounts on their cloud, or you can host your own Stingle API server for total independence.
 
 [:octicons-home-16: 首頁](https://stingle.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://stingle.org/privacy){ .card-link title="隱私權政策" }
@@ -100,7 +100,7 @@ Ente Photos 於 2023 年 3 月接受 [Cure53 稽核](https://ente.io/blog/crypto
 
 - 雲端託管提供商必須強制執行端對端加密。
 - 必須提供免費方案或試用期以進行測試。
-- 必須支援 TOTP 或 FIDO2 此等強度的多重要素驗證，或允許使用 passkey 登入。
+- Must support TOTP or FIDO2 multifactor authentication, or passkey logins.
 - 必須提供支援基本檔案管理功能的網頁介面。
 - 允許輕鬆匯出所有檔案/文件。
 - 它必須是開源的。

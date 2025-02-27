@@ -7,7 +7,7 @@ description: A complete list of contributors who have collectively made an enorm
 
 <!-- Do NOT manually edit this file, please add yourself to the .all-contributorsrc file instead. See our GitHub Issues for more details -->
 
-Το παρόν έργο ακολουθεί την προδιαγραφή [all-contributors](https://github.com/all-contributors/all-contributors). Συνεισφορές **οποιουδήποτε** είδους είναι ευπρόσδεκτες να προστεθούν στη [λίστα αυτή](https://github.com/privacyguides/privacyguides.org/blob/main/.all-contributorsrc), συμπεριλαμβανομένων συνεισφορών στο Privacy Guides εκτός αυτού του αποθετηρίου και συνεισφορών που δεν σχετίζονται με το περιεχόμενο (όπως η ανταλλαγή ιδεών του Privacy Guides, η προώθηση του έργου, η απάντηση σε ερωτήσεις στο forum, κτλ).
+Το παρόν έργο ακολουθεί την προδιαγραφή [all-contributors](https://github.com/all-contributors/all-contributors). Contributions of **any** kind are welcome to be added to [this list](https://github.com/privacyguides/privacyguides.org/blob/main/.all-contributorsrc), including contributions to Privacy Guides outside this repo, and contributions that aren't content related (like sharing ideas for Privacy Guides, promoting the project, answering questions on the forum, etc.).
 
 | Emoji | Type          | Description                                                                                                                                       |
 | ----- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |

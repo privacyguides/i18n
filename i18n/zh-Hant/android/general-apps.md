@@ -95,7 +95,7 @@ Shelter 支援阻止跨配置檔案的聯絡人搜尋以及透過預設檔案管
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-目前拍攝的影片不會被自動刪除元資料，但此功能已確認將在未來添加。
+Metadata is not currently deleted from video files, but that is planned.
 
 圖片的 方向元資料 不會被自動刪除。 如果您啟用了定位功能（在Secure Camera中），需要注意的是，位置資料與圖片的方向元資料一樣 **不會** 被自動刪除。 如果您在拍攝後想刪除元資料，您將需要使用外部應用程式，例如： [ExifEraser](../data-redaction.md#exiferaser-android) 。
 

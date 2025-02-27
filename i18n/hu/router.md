@@ -19,7 +19,7 @@ Below are a few alternative operating systems that can be used on routers, Wi-Fi
 ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ align=right }
 ![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
 
-Az **OpenWrt** egy Linux alapú operációs rendszer; elsősorban beágyazott eszközökön használatos, hálózati forgalom irányítására. Tartalmazza az util-linux, uClibc és BusyBox programokat. Az összes komponens otthoni routerekhez lett optimalizálva.
+Az **OpenWrt** egy Linux alapú operációs rendszer; elsősorban beágyazott eszközökön használatos, hálózati forgalom irányítására. Tartalmazza az util-linux, uClibc és BusyBox programokat. All the components have been optimized for home routers.
 
 [:octicons-home-16: Honlap](https://openwrt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=Dokumentáció}

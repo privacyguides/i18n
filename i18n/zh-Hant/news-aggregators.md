@@ -140,16 +140,16 @@ cover: news-aggregators.webp
 
 ## 社交媒體 RSS 支援
 
-一些社交媒體服務也支援 RSS ，儘管它很少受到推廣。
+Some social media services also support RSS, although it's not often advertised.
 
 ### Reddit
 
-Reddit 允許您通過 RSS 訂閱 subreddits。
+Reddit allows you to subscribe to Subreddits via RSS.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Example "例子"</p>
 
-`[SUBREDDIT]` 替換成所欲訂閱的 subreddit.
+Replace `[SUBREDDIT]` with the Subreddit you wish to subscribe to.
 
 ```text
 https://reddit.com/r/[SUBREDDIT]/new/.rss

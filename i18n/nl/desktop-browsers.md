@@ -109,7 +109,7 @@ Dit is nodig om geavanceerde vormen van tracking te voorkomen, maar gaat wel ten
 
 ### Mullvad Leta
 
-Mullvad Browser wordt geleverd met DuckDuckGo ingesteld als de standaard [zoekmachine](search-engines.md), maar het komt ook voorgeïnstalleerd met **Mullvad Leta**, een zoekmachine die een actief Mullvad VPN-abonnement vereist om toegang te krijgen. Mullvad Leta raadpleegt de betaalde zoek API van Google direct en is daarom beperkt tot het betalen van abonnees. Door deze beperking is het echter mogelijk voor Mullvad om zoekopdrachten en Mullvad VPN-accounts te correleren. Daarom raden wij het gebruik van Mullvad Leta af, ook al verzamelt Mullvad zeer weinig informatie over hun VPN-abonnees.
+Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes pre-installed with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. Mullvad Leta raadpleegt de betaalde zoek API van Google direct en is daarom beperkt tot het betalen van abonnees. Door deze beperking is het echter mogelijk voor Mullvad om zoekopdrachten en Mullvad VPN-accounts te correleren. Daarom raden wij het gebruik van Mullvad Leta af, ook al verzamelt Mullvad zeer weinig informatie over hun VPN-abonnees.
 
 ## Firefox
 
@@ -189,7 +189,7 @@ According to Mozilla's privacy policy for Firefox,
 
 > Firefox stuurt ons gegevens over jouw Firefox-versie en -taal; besturingssysteem van het apparaat en hardwareconfiguratie; geheugen, basisinformatie over crashes en fouten; resultaat van geautomatiseerde processen zoals updates, veilig browsen en activering. Wanneer Firefox gegevens naar ons verzendt, wordt uw IP-adres tijdelijk verzameld als onderdeel van onze serverlogs.
 
-Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt-out:
+Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt out:
 
 1. Open jouw [profielinstellingen op accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Schakel **Gegevensverzameling en -gebruik uit** > **Help Firefox-accounts verbeteren**
@@ -204,7 +204,7 @@ With the release of Firefox 128, a new setting for [privacy-preserving attributi
 
 - [x] Select **Schakel HTTPS-only modus in alle vensters in**
 
-Dit voorkomt dat je onbedoeld verbinding maakt met een website in platte HTTP-tekst. Sites zonder HTTPS zijn tegenwoordig zeldzaam, dus dit zou weinig tot geen impact moeten hebben op jouw dagelijkse browsen.
+Dit voorkomt dat je onbedoeld verbinding maakt met een website in platte HTTP-tekst. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
 
 ##### DNS over HTTPS
 
@@ -297,7 +297,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 </div>
 
-1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+1. This option disables JavaScript, which will break a lot of sites. To fix them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 #### Privacy and security

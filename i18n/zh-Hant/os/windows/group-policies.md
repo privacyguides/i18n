@@ -3,9 +3,9 @@ title: 群組原則設定
 description: 設定群組政策使 Windows 更尊重隱私的快速指南。
 ---
 
-除了修改登錄機碼本身之外，**本機群組原則編輯器**是無需安裝第三方工具即可更改系統許多方面的最強大方法。 更改這些設定需要 [專業版](index.md#windows-editions) 或更高版本。
+Outside modifying the registry itself, the **Local Group Policy Editor** is the most powerful way to change many aspects of your system without installing third-party tools. 更改這些設定需要 [專業版](index.md#windows-editions) 或更高版本。
 
-這些設定應在全新安裝的 Windows 進行。 在現有安裝上設定它們應該可行，但還是有可能會引發不可預測的行為，須自行承擔風險。
+These settings should be set on a brand-new installation of Windows. Setting them on your existing installation should work, but may introduce unpredictable behavior and is done at your own risk.
 
 所有設定在群組原則編輯器中都附有說明，非常詳細地準確說明了它們的作用。 更改時請注意這些描述，準確了解我們在此建議的內容。 當 Windows 附帶的解釋不充分時，我們在下面解釋了我們的一些選擇。
 
@@ -68,7 +68,7 @@ description: 設定群組政策使 Windows 更尊重隱私的快速指南。
 - 啟動時需要其它驗證:**已啟用**
 - 允許用於啟動的 PIN 增強:**己啟用**
 
-儘管這些政策的名稱是這樣，但預設情況下並不會**強制**您執行任何動作。不過，這將在 BitLocker 設定引導中解鎖更複雜的設定**選項** (例如，除了 TPM 之外，啟動時還需要 PIN 碼)。
+Despite the names of these policies, this doesn't _require_ you to do anything by default, but it will unlock the _option_ to have a more complex setup (such as requiring a PIN at startup in addition to the TPM) in the BitLocker setup wizard.
 
 #### 雲端內容
 

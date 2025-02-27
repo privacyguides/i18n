@@ -27,8 +27,8 @@ Crowdin 有很好的文件，我們建議您查看他們的 [入門指南](https
 
 ## 全形標點符號和 Markdown 語法
 
-在中日韓書寫系統中的常見標點符號，往往使用"全形"。 這些是不一樣的字符，不能用於 markdown 語法。
+在中日韓書寫系統中的常見標點符號，往往使用"全形"。 These are different characters and cannot be used for Markdown syntax.
 
-- 連結必須使用普通括號，即 `(` (左括號 U+0028) 和 `)` (右括號 U+0029)，而不是`（` (全形左括號 U+FF08) 或 `）` (全形右括號 U+FF09)
+- Links must use regular parenthesis i.e. `(` (Left Parenthesis U+0028) and `)` (Right Parenthesis U+0029) and not `（` (Fullwidth Left Parenthesis U+FF08) or `）` (Fullwidth Right Parenthesis U+FF09)
 - 內縮的引用文字必須使用 `:` (冒號 U+003A)，而不是 `：` (全形冒號 U+FF1A)
 - 圖片必須使用 `!` (驚嘆號 U+0021)，而不是 `！` (全形驚嘆號 U+FF01)

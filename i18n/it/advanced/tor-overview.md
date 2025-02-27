@@ -20,7 +20,7 @@ Tor funziona instradando il traffico tramite questi server gestiti da volontari,
 
 Prima di connetterti a Tor, dovresti considerare attentamente cosa vuoi ottenere utilizzando Tor e a chi vuoi nascondere la tua attività in rete.
 
-Se vivi in un Paese libero, accedi a contenuti banali tramite Tor, non sei preoccupato che il tuo ISP o gli amministratori della rete locale sappiano che stai usando Tor e vuoi aiutare [a de-stigmatizzare](https://2019.www.torproject.org/about/torusers.html.en) l'uso di Tor, puoi probabilmente connetterti a Tor direttamente tramite mezzi standard come [Tor Browser](../tor.md) senza preoccupazioni.
+If you live in a free country, are accessing mundane content via Tor, aren't worried about your ISP or local network administrators having the knowledge that you're using Tor, and want to help [destigmatize](https://2019.www.torproject.org/about/torusers.html.en) Tor usage, you can likely connect to Tor directly via standard means like [Tor Browser](../tor.md) without worry.
 
 Se hai la possibilità di accedere a un provider VPN affidabile e **qualsiasi** dei seguenti punti è vero, quasi certamente dovresti connetterti a Tor attraverso una VPN:
 

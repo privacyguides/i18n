@@ -9,7 +9,7 @@ cover: notebooks.webp
 
 - [:material-server-network: Proveedores de servicios](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-Mantén el control de tus notas y diarios sin darlos a un tercero.
+Keep track of your notes and journals without giving them to a third party.
 
 Si actualmente utilizas una aplicación como Evernote, Google Keep o Microsoft OneNote, te sugerimos que elijas aquí una alternativa que soporte [Cifrado de extremo a extremo (E2EE)](https://es.wikipedia.org/wiki/Cifrado_de_extremo_a_extremo).
 
@@ -82,9 +82,9 @@ Standard Notes [se ha unido a Proton AG](https://standardnotes.com/blog/joining-
 
 <div class="admonition recommendation" markdown>
 
-![Logotipo de Joplin](/assets/img/notebooks/joplin.svg){ align=right }
+![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
 
-**Joplin** es una aplicación gratuita, de código abierto y con todas las funciones para tomar notas y hacer tareas, que puede manejar un gran número de notas markdown organizadas en cuadernos y etiquetas. Ofrece encriptación de extremo a extremo y puede sincronizar a través de Nextcloud, Dropbox y más. También ofrece una fácil importación desde Evernote y notas en texto plano.
+**Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle numerous markdown notes organized into notebooks and tags. Ofrece encriptación de extremo a extremo y puede sincronizar a través de Nextcloud, Dropbox y más. También ofrece una fácil importación desde Evernote y notas en texto plano.
 
 [:octicons-home-16: Página Principal](https://joplinapp.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="Política de Privacidad" }
@@ -133,7 +133,7 @@ Joplin no [admite](https://github.com/laurent22/joplin/issues/289) protección p
 
 </div>
 
-Cryptee ofrece 100MB de almacenamiento gratuito, con opciones de pago si necesitas más. La inscripción no requiere correo electrónico ni otros datos personales.
+Cryptee offers 100 MB of storage for free, with paid options if you need more. La inscripción no requiere correo electrónico ni otros datos personales.
 
 ## Blocs de Notas Locales
 

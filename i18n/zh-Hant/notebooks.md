@@ -9,7 +9,7 @@ cover: notebooks.webp
 
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-保存記錄您的筆記和日誌，不要將它們提供給第三方。
+Keep track of your notes and journals without giving them to a third party.
 
 如果您目前使用的是 Evernote、Google Keep 或 Microsoft OneNote 等應用程式，我們建議您在這裡選擇一個支援 E2EE 的替代方案。
 
@@ -84,7 +84,7 @@ Standard Notes 已於 2024 年 4 月 10 日 [加入 Proton AG](https://standardn
 
 ![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
 
-**Joplin** 是一個自由、開放原始碼且功能齊全的筆記和待辦事項記錄應用程式，可以處理大量 Markdown 文件並組織成筆記本和標籤功能。 它提供E2EE ，可以通過Nextcloud ， Dropbox等同步。 它也可以輕鬆的從 Evernote 和純文本筆記導入。
+**Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle numerous markdown notes organized into notebooks and tags. 它提供E2EE ，可以通過Nextcloud ， Dropbox等同步。 它也可以輕鬆的從 Evernote 和純文本筆記導入。
 
 [:octicons-home-16: 首頁](https://joplinapp.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="隱私權政策" }
@@ -133,7 +133,7 @@ Joplin 不 [支援](https://github.com/laurent22/joplin/issues/289) 應用程式
 
 </div>
 
-Cryptee 免費提供100MB 的儲存空間，如果需要更多容量，則另有付費選項。 註冊不需要電子郵件或其他個人身份資訊。
+Cryptee offers 100 MB of storage for free, with paid options if you need more. 註冊不需要電子郵件或其他個人身份資訊。
 
 ## 本地端的記事簿
 

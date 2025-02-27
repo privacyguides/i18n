@@ -1,10 +1,10 @@
 ---
-title: "多因素驗證"
+title: "Multifactor Authentication"
 icon: 'material/two-factor-authentication'
 description: 多因素驗證是保護您線上帳戶的關鍵安全機制，但有些方法比其他方法更強大。
 ---
 
-**多因素驗證**（**MFA**）是一種安全機制，除了輸入使用者名稱（或電子郵件）和密碼之外，還需要其他步驟。 最常見的方法是您會從簡訊或應用程式收到的有時間限制的代碼。
+**Multifactor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. 最常見的方法是您會從簡訊或應用程式收到的有時間限制的代碼。
 
 通常情況下，如果駭客（或任何想要盜取您帳號的人）能夠找出您的密碼，那麼他們將獲得密碼屬於的帳戶的存取權。 MFA 的帳戶迫使駭客同時擁有密碼（您 *知道*的東西）和您擁有的設備（您 *擁有*的東西），例如您的手機。
 
@@ -26,7 +26,7 @@ description: 多因素驗證是保護您線上帳戶的關鍵安全機制，但�
 
 ### 暫時性的一次性密碼 (TOTP)
 
-TOTP 是最常見的 MFA 形式之一。 當您設定TOTP時，您通常需要掃描 [QR Code](https://en.wikipedia.org/wiki/QR_code) ，該掃描與您打算使用的服務建立“[共享祕密](https://en.wikipedia.org/wiki/Shared_secret)”。 共用祕密在驗證器應用程式的數據中受到保護，有時會受到密碼的保護。
+TOTP 是最常見的 MFA 形式之一。 當您設定TOTP時，您通常需要掃描 [QR Code](https://en.wikipedia.org/wiki/QR_code) ，該掃描與您打算使用的服務建立“[共享祕密](https://en.wikipedia.org/wiki/Shared_secret)”。 The shared secret is secured inside the authenticator app's data, and is sometimes protected by a password.
 
 然後，時間限制代碼從共享機密和當前時間衍生出來。 由於代碼僅在短時間內有效，無法訪問共享機密，因此對手無法生成新代碼。
 
@@ -82,7 +82,7 @@ WebAuthn是最安全、最私密的第二要素驗證形式。 雖然驗證體�
 
 與任何 MFA 方法相比，FIDO2 和 WebAuthn 具有更優異的安全性和隱私屬性。
 
-對於 Web 服務，它通常與 WebAuthn 一起使用，WebAuthn 是[W3C 建議](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC))的一部分。 它使用公鑰驗證，並且比在 Yubico OTP 和 TOTP 使用的共享機密更安全，因為它在驗證期間包括原始名稱（通常是域名）。 提供證明以保護您免受網路釣魚攻擊，以幫助您確定使用真實服務而不是假網站服務。
+Typically, for web services it is used with WebAuthn which is a part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). 它使用公鑰驗證，並且比在 Yubico OTP 和 TOTP 使用的共享機密更安全，因為它在驗證期間包括原始名稱（通常是域名）。 提供證明以保護您免受網路釣魚攻擊，以幫助您確定使用真實服務而不是假網站服務。
 
 與 Yubico OTP不同，WebAuthn不使用任何公共ID ，因此金鑰 **無法** 被不同網站識別。 它也不使用任何第三方雲端伺服器進行驗證。 所有通訊都已在金鑰和所登入的網站之間完成。 FIDO 還使用計數器，該計數器在使用時會增加，以防止期間重用和複製金鑰。
 
@@ -116,15 +116,15 @@ WebAuthn是最安全、最私密的第二要素驗證形式。 雖然驗證體�
 
 ## 更多設定MFA的地方
 
-除了保護您的網站登錄外，多因素身份驗證還可用於保護您的本機裝置的登錄、 SSH 金鑰甚至密碼資料庫。
+Beyond just securing your website logins, multifactor authentication can be used to secure your local logins, SSH keys or even password databases as well.
 
 ### macOS
 
-macOS 具有 [原生支援](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) 用於使用智慧卡(PIV)進行驗證。 如果您有支援 PIV 介面的智慧卡或實體安全金鑰(例如 YubiKey) ，建議您遵循智慧卡/實體安全供應商的文件，為您的macOS 電腦設定第二要素驗證。
+macOS 具有 [原生支援](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) 用於使用智慧卡(PIV)進行驗證。 If you have a smart card or a hardware security key that supports the PIV interface such as the YubiKey, we recommend that you follow your smart card or hardware security vendor's documentation and set up second factor authentication for your macOS computer.
 
 Yubico 指南 [在macOS](https://support.yubico.com/hc/articles/360016649059) 中使用 YubiKey 作為智慧卡，可幫助您在 macOS 設定 YubiKey。
 
-設定智慧卡/安全金鑰後，我們建議您在終端機中執行此命令：
+After your smart card/security key is set up, we recommend running this command in the Terminal:
 
 ```text
 sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLogin -bool YES
@@ -159,4 +159,4 @@ SSH MFA 也可以使用 TOTP 設定。 DigitalOcean 提供了[如何在Ubuntu 20
 
 ### KeePass （和KeePassXC ）
 
-KeePass 和 KeePassXC 資料庫可以使用 Challenge-Response 或 HOTP 作為第二要素驗證進行密碼保護。 Yubico 提供 [透過 KeePass 使用 YubiKey](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass)說明文件， 它和< a href="https://keepassxc.org/docs/#faq-yubikey-2fa">KeePassXC</a> 網站的一樣。
+KeePass and KeePassXC databases can be secured using HOTP or Challenge-Response as a second-factor of authentication. Yubico 提供 [透過 KeePass 使用 YubiKey](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass)說明文件， 它和< a href="https://keepassxc.org/docs/#faq-yubikey-2fa">KeePassXC</a> 網站的一樣。

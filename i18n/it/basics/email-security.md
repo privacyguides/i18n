@@ -29,13 +29,13 @@ Se utilizzi un dominio condiviso da un fornitore che non supporta WKD, come @gma
 
 ### Quali client email supportano E2EE?
 
-I fornitori email che ti consentono di utilizzare i protocolli d'accesso standard come IMAP e SMTP, sono utilizzabili con qualsiasi [client email che consigliamo](../email-clients.md). In base al metodo d'autenticazione, ciò potrebbe comportare una riduzione della sicurezza se il fornitore o il client email non supportano OATH o un'applicazione di collegamento (bridge), poiché l'[autenticazione a più fattori](multi-factor-authentication.md) non è possibile con l'autenticazione con password semplice.
+I fornitori email che ti consentono di utilizzare i protocolli d'accesso standard come IMAP e SMTP, sono utilizzabili con qualsiasi [client email che consigliamo](../email-clients.md). Depending on the authentication method, this may lead to the decrease security if either the provider or the email client does not support OATH or a bridge application as [multifactor authentication](multi-factor-authentication.md) is not possible with plain password authentication.
 
 ### Come proteggo le mie chiavi private?
 
-A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. Il messaggio, quindi, viene decrittografato dalla smartcart e il contenuto decrittografato è reinviato al dispositivo.
+A smart card (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. The message is then decrypted by the smart card and the decrypted content is sent back to the device.
 
-È preferibile che la decodifica avvenga sulla smartcard per evitare di esporre la tua chiave privata a un dispositivo compromesso.
+It is advantageous for the decryption to occur on the smart card to avoid possibly exposing your private key to a compromised device.
 
 ## Panoramica sui metadati email
 
@@ -49,4 +49,4 @@ I metadati dell'email sono protetti dagli osservatori esterni con il [TLS opport
 
 ### Perché i metadati non possono essere E2EE?
 
-I metadati dell'email sono fondamentali per le funzionalità di base dell'email (da dove proviene e dove deve andare). Originariamente, l'E2EE non è stata integrata nei protocolli email, richiedendo piuttosto dei software aggiuntivi, come OpenPGP. Poiché i messaggi di OpenPGP devono continuare a funzionare con i fornitori email tradizionali, esso non può crittografare i metadati email, ma soltanto il corpo del messaggio. Ciò significa che, anche utilizzando OpenPGP, gli osservatori esterni possono visualizzare molte informazioni sui tuoi messaggi, come a chi stai scrivendo, l'oggetto, quando stai inviando l'email, etc.
+I metadati dell'email sono fondamentali per le funzionalità di base dell'email (da dove proviene e dove deve andare). Originariamente, l'E2EE non è stata integrata nei protocolli email, richiedendo piuttosto dei software aggiuntivi, come OpenPGP. Poiché i messaggi di OpenPGP devono continuare a funzionare con i fornitori email tradizionali, esso non può crittografare i metadati email, ma soltanto il corpo del messaggio. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, the subject lines, when you're emailing, etc.

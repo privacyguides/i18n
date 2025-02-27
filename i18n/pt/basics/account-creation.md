@@ -5,7 +5,7 @@ icon: 'material/account-plus'
 description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
 ---
 
-Muitas vezes, as pessoas inscrevem-se em serviços sem pensar. Talvez seja um serviço de streaming para poder ver aquela nova série de que todos falam, ou uma conta que lhe dá um desconto no seu restaurante de fast food favorito. Seja qual for o caso, deve considerar as implicações para os seus dados agora e mais tarde.
+Muitas vezes, as pessoas inscrevem-se em serviços sem pensar. Maybe it's a streaming service to watch that new show everyone's talking about, or an account that gives you a discount for your favorite fast food place. Seja qual for o caso, deve considerar as implicações para os seus dados agora e mais tarde.
 
 Há riscos associados a cada novo serviço que utiliza. Violações de dados; divulgação de informações de clientes a terceiros; acesso de funcionários desonestos aos dados; todas estas são possibilidades que devem ser tidas em conta ao se divulgarem informações. É necessário ter a certeza de que pode confiar no serviço, razão pela qual não recomendamos o armazenamento de dados valiosos em nada que não seja os produtos mais maduros e testados. Isto significa, normalmente, serviços que fornecem E2EE e que foram submetidos a uma auditoria criptográfica. Uma auditoria aumenta a garantia de que o produto foi concebido sem problemas de segurança evidentes causados por um programador inexperiente.
 
@@ -13,11 +13,11 @@ Também pode ser difícil apagar as contas em alguns serviços. Por vezes, [subs
 
 ## Termos de Serviço e Política de Privacidade
 
-Os ToS são as regras que aceita seguir quando utiliza o serviço. Nos serviços de maior dimensão, estas regras são frequentemente aplicadas por sistemas automatizados. Por vezes, estes sistemas automatizados podem cometer erros. Por exemplo, pode ser banido ou bloqueado da sua conta em alguns serviços por utilizar uma VPN, ou VOIP. O recurso a estas proibições é muitas vezes difícil e envolve também um processo automatizado, que nem sempre é bem-sucedido. Esta é uma das razões pelas quais não sugerimos a utilização do Gmail para correio eletrónico, por exemplo. O correio eletrónico é crucial para o acesso a outros serviços em que se tenha inscrito.
+Os ToS são as regras que aceita seguir quando utiliza o serviço. Nos serviços de maior dimensão, estas regras são frequentemente aplicadas por sistemas automatizados. Por vezes, estes sistemas automatizados podem cometer erros. For example, you may be banned or locked out of your account on some services for using a VPN or VoIP number. O recurso a estas proibições é muitas vezes difícil e envolve também um processo automatizado, que nem sempre é bem-sucedido. Esta é uma das razões pelas quais não sugerimos a utilização do Gmail para correio eletrónico, por exemplo. O correio eletrónico é crucial para o acesso a outros serviços em que se tenha inscrito.
 
-A Política de Privacidade é como o serviço diz que irá utilizar os seus dados e vale a pena lê-la para compreender como os seus dados serão utilizados. Uma empresa ou organização pode não ser legalmente obrigada a seguir tudo o que está contido na política (depende da jurisdição). Recomendamos que tenha uma ideia das leis locais e do que estas permitem que um fornecedor recolha.
+The Privacy Policy is how the service says they will use your data, and it is worth reading so that you understand how your data will be used. Uma empresa ou organização pode não ser legalmente obrigada a seguir tudo o que está contido na política (depende da jurisdição). Recomendamos que tenha uma ideia das leis locais e do que estas permitem que um fornecedor recolha.
 
-Recomendamos que procure termos específicos como "recolha de dados", "análise de dados", "cookies", "anúncios" ou serviços "de terceiros". Por vezes, pode optar por não participar na recolha de dados ou na partilha dos seus dados, mas é melhor escolher um serviço que respeite a sua privacidade desde o início.
+Recomendamos que procure termos específicos como "recolha de dados", "análise de dados", "cookies", "anúncios" ou serviços "de terceiros". Sometimes you will be able to opt out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
 
 Não se esqueça de que também está a depositar a sua confiança na empresa ou organização e que esta irá cumprir a sua própria política de privacidade.
 
@@ -42,7 +42,7 @@ Será responsável pela gestão das suas credenciais de início de sessão. Para
 
 #### Aliases de correio eletrónico
 
-Se não quiser fornecer o seu verdadeiro endereço de correio eletrónico a um serviço, tem a opção de utilizar um pseudónimo. Descrevemos los com mais pormenor na nossa página de recomendações de serviços de correio eletrónico. Essencialmente, os serviços de alias permitem-lhe gerar novos endereços de correio eletrónico que reencaminham todas as mensagens para o seu endereço principal. Isto pode ajudar a evitar o rastreio entre serviços e ajudá-lo a gerir as mensagens eletrónicas de marketing que, por vezes, acompanham o processo de registo. Estes podem ser filtrados automaticamente com base no pseudónimo para o qual são enviados.
+Se não quiser fornecer o seu verdadeiro endereço de correio eletrónico a um serviço, tem a opção de utilizar um pseudónimo. Descrevemos los com mais pormenor na nossa página de recomendações de serviços de correio eletrónico. Essencialmente, os serviços de alias permitem-lhe gerar novos endereços de correio eletrónico que reencaminham todas as mensagens para o seu endereço principal. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. Estes podem ser filtrados automaticamente com base no pseudónimo para o qual são enviados.
 
 Se um serviço for comprometido, pode começar a receber mensagens eletrónicas de phishing ou spam no endereço que utilizou para se registar. A utilização de aliases únicos para cada serviço pode ajudar a identificar exatamente qual o serviço comprometido.
 
@@ -76,7 +76,7 @@ Malicious applications, particularly on mobile devices where the application has
 
 Recomendamos que evite serviços que exijam um número de telefone para se registar. A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
 
-Se possível, deve evitar dar o seu número de telefone verdadeiro. Alguns serviços permitem a utilização de números VOIP, no entanto, estes acionam frequentemente sistemas de deteção de fraudes, fazendo com que uma conta seja bloqueada, pelo que não recomendamos a sua utilização para contas importantes.
+Se possível, deve evitar dar o seu número de telefone verdadeiro. Some services will allow the use of VoIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
 
 Em muitos casos, é necessário fornecer um número a partir do qual possa receber SMS ou chamadas, especialmente em compras internacionais, para o caso de haver um problema com a sua encomenda no controlo fronteiriço. É comum os serviços utilizarem o seu número como método de verificação; não se deixe bloquear numa conta importante porque quis ser esperto e dar um número falso!
 

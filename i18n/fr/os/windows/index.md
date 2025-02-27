@@ -21,13 +21,13 @@ Vous pouvez améliorer votre confidentialité et votre sécurité sur Windows, s
 <div class="admonition example" markdown>
 <p class="admonition-title">Cette section est nouvelle</p>
 
-Cette section est un travail en cours parce que, comparativement aux autres systèmes d'exploitation, il faut beaucoup plus de temps et d'effort pour rendre une installation Windows plus confidentielle.
+This section is a work in progress, because it takes considerably more time and effort to make a Windows installation more privacy-friendly than other operating systems.
 
 </div>
 
 ## Remarques concernant la vie privée
 
-Microsoft Windows, particulièrement les versions pour les particuliers, comme la version **Home**, ne priorisent pas les fonctionnalités de confidentialité par [défaut](https://theguardian.com/technology/2015/jul/31/windows-10-microsoft-faces-criticism-over-privacy-default-settings). En conséquence, nous remarquons beaucoup plus de [collecte de données](https://en.wikipedia.org/wiki/Criticism_of_Microsoft#Telemetry_and_data_collection) que nécessaire, sans réel avertissement qu'il s'agit du comportement par défaut. Pour tenter de faire compétition à Google dans le domaine des publicités, [Cortana](https://fr.wikipedia.org/wiki/Cortana_\(assistant_personnel_intelligent\)) a inclus des identifiants uniques tels qu'un "identifiant publicitaire" afin de corréler l'utilisation et d'aider les publicitaires à cibler leurs publicités.  Au lancement, la télémétrie ne pouvait pas être désactivé dans les éditions non commerciales de Windows 10. Celle-ci ne peut toujours pas être désactivée, cependant, Microsoft a ajouté l'option de [réduire](https://extremetech.com/computing/243079-upcoming-windows-update-reduces-spying-microsoft-still-mum-data-collects) les données qui leur sont envoyées.
+Microsoft Windows, particularly those versions aimed at consumers like the **Home** version often don't prioritize privacy-friendly features by [default](https://theguardian.com/technology/2015/jul/31/windows-10-microsoft-faces-criticism-over-privacy-default-settings). En conséquence, nous remarquons beaucoup plus de [collecte de données](https://en.wikipedia.org/wiki/Criticism_of_Microsoft#Telemetry_and_data_collection) que nécessaire, sans réel avertissement qu'il s'agit du comportement par défaut. Pour tenter de faire compétition à Google dans le domaine des publicités, [Cortana](https://fr.wikipedia.org/wiki/Cortana_\(assistant_personnel_intelligent\)) a inclus des identifiants uniques tels qu'un "identifiant publicitaire" afin de corréler l'utilisation et d'aider les publicitaires à cibler leurs publicités.  Au lancement, la télémétrie ne pouvait pas être désactivé dans les éditions non commerciales de Windows 10. Celle-ci ne peut toujours pas être désactivée, cependant, Microsoft a ajouté l'option de [réduire](https://extremetech.com/computing/243079-upcoming-windows-update-reduces-spying-microsoft-still-mum-data-collects) les données qui leur sont envoyées.
 
 Windows 11 comporte un certain nombre de restrictions ou de valeurs par défaut, telles que :
 
@@ -43,11 +43,11 @@ Microsoft utilise fréquemment sa fonction de mises à jour automatiques pour aj
 
 ## Windows Editions
 
-Many critical privacy and security features are unfortunately locked away behind higher-cost editions of Windows, instead of being available in Windows **Home**. Some features missing from **Home** include Bitlocker Drive Encryption, Hyper-V, and Windows Sandbox. In our Windows guides we will cover how to use all of these features appropriately, so having a premium edition of Windows will be necessary.
+Many critical privacy and security features are unfortunately locked away behind higher-cost editions of Windows, instead of being available in Windows **Home**. Some features missing from **Home** include BitLocker Drive Encryption, Hyper-V, and Windows Sandbox. In our Windows guides we will cover how to use all of these features appropriately, so having a premium edition of Windows will be necessary.
 
 Windows **Enterprise** provides the most flexibility when it comes to configuring privacy and security settings built in to Windows. For example, they are the only editions that allow you to enable the highest level of restrictions on data sent to Microsoft via telemetry tools. Unfortunately, Enterprise is not available for retail purchase, so it may not be available to you.
 
-The best version available for _retail_ purchase is Windows **Pro** as it has nearly all of the features you'll want to use to secure your device, including Bitlocker, Hyper-V, etc. The only thing missing is some of the most restrictive limitations on Microsoft's telemetry unfortunately.
+The best version available for _retail_ purchase is Windows **Pro** as it has nearly all the features you'll want to use to secure your device, including BitLocker, Hyper-V, etc. The only thing missing is some of the most restrictive limitations on Microsoft's telemetry, unfortunately.
 
 Students and teachers may be able to obtain a Windows **Education** (equivalent to Enterprise) or **Pro Education** license (equivalent to Pro) for free, including on personal devices, from their educational institution. Many schools partner with Microsoft via OnTheHub or Microsoft Azure for Education, so you can check those sites or your school's benefits page to see if you qualify. Whether or not you are able to get these licenses depends entirely on your institution. This may be the best way for many people to obtain an Enterprise-level edition of Windows for personal use. There are no additional privacy or security risks associated with using an Education license compared to the retail versions.
 
@@ -59,6 +59,6 @@ Currently, only Windows 11 license keys are available for purchase, but these ke
 
 The official [Media Creation Tool](https://microsoft.com/software-download/windows11) is the best way to put a Windows installer on a USB flash drive. Third-party tools like Rufus or Etcher may unexpectedly modify the files, which could lead to boot issues or other troubles when installing.
 
-This tool only lets you install a **Home** or **Pro** installation, as there are no publicly available downloads for Windows **Enterprise** edition. If you have an **Enterprise** license key, you can easily upgrade a **Pro** installation. To do this, install Windows **Pro** without entering a license key during setup, then enter your **Enterprise** key in the Settings app after completing the install. Your **Pro** install will be upgraded to **Enterprise** automatically after entering a valid license key.
+This tool only lets you install a **Home** or **Pro** installation, as there are no publicly available downloads for Windows **Enterprise** edition. If you have an **Enterprise** license key, you can easily upgrade a **Pro** installation. To do this, install Windows **Pro** without entering a license key during setup, then enter your **Enterprise** key in the Settings app after completing the installation. Your **Pro** install will be upgraded to **Enterprise** automatically after entering a valid license key.
 
 If you are installing an **Education** license then you will typically have a private download link that will be provided alongside your license key when you obtain it from your institution's benefits portal.

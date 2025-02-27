@@ -1,10 +1,10 @@
 ---
-title: "Autenticación de Múltiples Factores"
+title: "Multifactor Authentication"
 icon: 'material/two-factor-authentication'
 description: La MFA es un mecanismo de seguridad fundamental para proteger sus cuentas en línea, pero algunos métodos son más eficaces que otros.
 ---
 
-**La autenticación multifactorial** (**MFA**) es un mecanismo de seguridad que requiere pasos adicionales a la introducción del nombre de usuario (o correo electrónico) y la contraseña. El método más común son los códigos de tiempo limitado que puedes recibir de un SMS o una aplicación.
+**Multifactor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. El método más común son los códigos de tiempo limitado que puedes recibir de un SMS o una aplicación.
 
 Normalmente, si un hacker (o adversario) es capaz de averiguar tu contraseña, entonces obtendrá acceso a la cuenta a la que pertenece esa contraseña. Una cuenta con MFA obliga al hacker a tener tanto la contraseña (algo que *conoces*) como un dispositivo de tu propiedad (algo que *tienes*), como tu teléfono.
 
@@ -26,7 +26,7 @@ La seguridad de las notificaciones push MFA depende tanto de la calidad de la ap
 
 ### Contraseñas de un solo uso basado en tiempo (TOTP)
 
-El TOTP es una de las formas más comunes de MFA disponibles. Cuando se configura el TOTP, generalmente se requiere escanear un [código QR](https://es.wikipedia.org/wiki/C%C3%B3digo_QR) que establece un "[secreto compartido](https://es.wikipedia.org/wiki/Secreto_compartido)" con el servicio que se pretende utilizar. El secreto compartido está asegurado dentro de los datos de la aplicación de autenticación, y a veces está protegido por una contraseña.
+El TOTP es una de las formas más comunes de MFA disponibles. Cuando se configura el TOTP, generalmente se requiere escanear un [código QR](https://es.wikipedia.org/wiki/C%C3%B3digo_QR) que establece un "[secreto compartido](https://es.wikipedia.org/wiki/Secreto_compartido)" con el servicio que se pretende utilizar. The shared secret is secured inside the authenticator app's data, and is sometimes protected by a password.
 
 El código de tiempo limitado se deriva entonces del secreto compartido y de la hora actual. Como el código sólo es válido durante un corto periodo de tiempo, sin acceso al secreto compartido, un adversario no puede generar nuevos códigos.
 
@@ -82,7 +82,7 @@ Esta presentación habla de la historia de la autenticación de contraseñas, lo
 
 FIDO2 y WebAuthn tienen propiedades de seguridad y privacidad superiores en comparación con cualquier método MFA.
 
-Por lo general, para los servicios web se utiliza con WebAuthn, que es una parte de las [recomendaciones W3C](https://es.wikipedia.org/wiki/World_Wide_Web_Consortium#Recomendaci%C3%B3n_de_W3C_(REC)). Utiliza autenticación de clave pública y es más segura que los secretos compartidos utilizados en los métodos OTP y TOTP de Yubico, ya que incluye el nombre de origen (normalmente, el nombre del dominio) durante la autenticación. La certificación se proporciona para protegerte del phishing, ya que te ayuda a determinar que estás utilizando el servicio auténtico y no una copia falsa.
+Typically, for web services it is used with WebAuthn which is a part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). Utiliza autenticación de clave pública y es más segura que los secretos compartidos utilizados en los métodos OTP y TOTP de Yubico, ya que incluye el nombre de origen (normalmente, el nombre del dominio) durante la autenticación. La certificación se proporciona para protegerte del phishing, ya que te ayuda a determinar que estás utilizando el servicio auténtico y no una copia falsa.
 
 A diferencia de Yubico OTP, WebAuthn no utiliza ningún ID público, entonces la clave **no** es identificable a través de diferentes sitios web. Tampoco utiliza ningún servidor de nube de terceros para la autenticación. Toda la comunicación se completa entre la clave y el sitio web en el que estás iniciando sesión. FIDO también utiliza un contador que se incrementa cuando se utiliza para evitar la reutilización de la sesión y llaves clonadas.
 
@@ -116,15 +116,15 @@ Si usas MFA de SMS, utiliza un operador que no cambie tu número de teléfono a 
 
 ## Más lugares para configurar MFA
 
-Además de proteger tus inicios de sesión del sitio web, la autenticación de múltiples factores también se puede utilizar para proteger tus inicios de sesión locales, claves SSH o incluso bases de datos de contraseñas.
+Beyond just securing your website logins, multifactor authentication can be used to secure your local logins, SSH keys or even password databases as well.
 
 ### macOS
 
-macOS tiene [soporte nativo](https://support.apple.com/es-es/guide/deployment/depd0b888248/web) para la autenticación con tarjetas inteligentes (PIV). Si tienes una tarjeta inteligente o una llave de seguridad de hardware compatible con la interfaz PIV como la YubiKey, te recomendamos que sigas la documentación de tu tarjeta inteligente/vendedor de seguridad de hardware y configures la autenticación de segundo factor para tu ordenador macOS.
+macOS tiene [soporte nativo](https://support.apple.com/es-es/guide/deployment/depd0b888248/web) para la autenticación con tarjetas inteligentes (PIV). If you have a smart card or a hardware security key that supports the PIV interface such as the YubiKey, we recommend that you follow your smart card or hardware security vendor's documentation and set up second factor authentication for your macOS computer.
 
 Yubico tiene una guía [Uso de tu YubiKey como una Tarjeta Inteligente en macOS](https://support.yubico.com/hc/articles/360016649059) que puede ayudarte a configurar tu YubiKey en macOS.
 
-Después de configurar tu tarjeta inteligente/clave de seguridad, te recomendamos que ejecutes este comando en el Terminal:
+After your smart card/security key is set up, we recommend running this command in the Terminal:
 
 ```text
 sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLogin -bool YES
@@ -159,4 +159,4 @@ MFA de SSH también se puede configurar utilizando TOTP. DigitalOcean ha proporc
 
 ### KeePass (y KeePassXC)
 
-Las bases de datos de KeePass y KeePassXC pueden ser aseguradas utilizando Challenge-Response o HOTP como segundo factor de autenticación. Yubico ha proporcionado un documento para KeePass [Usando Tu YubiKey con KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) y también hay uno en el sitio web de [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa).
+KeePass and KeePassXC databases can be secured using HOTP or Challenge-Response as a second-factor of authentication. Yubico ha proporcionado un documento para KeePass [Usando Tu YubiKey con KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) y también hay uno en el sitio web de [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa).

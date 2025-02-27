@@ -27,7 +27,7 @@ description: 积累大量互联网账户很容易，这里有一些关于如何�
 
 ### 电子邮箱
 
-如果你过去没有使用密码管理器，或者你认为你有从未被添加到密码管理器的账户，另一个选择是搜索印象里当时注册用的电子邮箱。 在你的电子邮件客户端，搜索关键词，如 "验证 "或 "欢迎"。 几乎每次您创建在线帐户时，注册的服务都会向您的电子邮箱发送验证链接或介绍性消息。 这可能是找到被遗忘的旧账户的一个好方法。
+If you didn't use a password manager in the past, or you think you have accounts that were never added to your password manager, another option is to search the email account(s) that you believe you signed up on. 在你的电子邮件客户端，搜索关键词，如 "验证 "或 "欢迎"。 几乎每次您创建在线帐户时，注册的服务都会向您的电子邮箱发送验证链接或介绍性消息。 这可能是找到被遗忘的旧账户的一个好方法。
 
 ## 删除旧账户
 
@@ -39,7 +39,7 @@ description: 积累大量互联网账户很容易，这里有一些关于如何�
 
 ### GDPR（仅限欧洲经济区居民）
 
-Residents of the EEA have additional rights regarding data erasure specified in [Article 17](https://gdpr-info.eu/art-17-gdpr) of the GDPR. 如果适用于你，请阅读任何特定服务的隐私政策，以找到关于如何行使你的删除权的信息。 阅读隐私政策可能被证明是重要的，因为一些服务有一个 "删除账户 "的选项，它只是禁用你的账户，而要真正删除，你必须采取额外行动。 有时，实际删除可能涉及填写调查表、向服务的数据保护人员发送电子邮件，甚至证明你在欧洲经济区拥有住所。 如果你打算这么做， **不要** 覆盖账户信息--你作为欧洲经济区居民的身份可能被要求。 请注意，服务的地点并不重要；GDPR适用于任何为欧洲用户服务的人。 如果服务不尊重你的删除权，你可以联系你的国家的 [数据保护局](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) ，你可能有权获得金钱赔偿。
+Residents of the EEA have additional rights regarding data erasure specified in [Article 17](https://gdpr-info.eu/art-17-gdpr) of the GDPR. 如果适用于你，请阅读任何特定服务的隐私政策，以找到关于如何行使你的删除权的信息。 阅读隐私政策可能被证明是重要的，因为一些服务有一个 "删除账户 "的选项，它只是禁用你的账户，而要真正删除，你必须采取额外行动。 有时，实际删除可能涉及填写调查表、向服务的数据保护人员发送电子邮件，甚至证明你在欧洲经济区拥有住所。 如果你打算这么做， **不要** 覆盖账户信息--你作为欧洲经济区居民的身份可能被要求。 请注意，服务的地点并不重要；GDPR适用于任何为欧洲用户服务的人。 If the service does not respect your right to erasure, you can contact your national [Data Protection Authority](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) and may be entitled to monetary compensation.
 
 ### 覆盖账户信息
 

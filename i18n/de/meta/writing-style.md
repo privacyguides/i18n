@@ -64,7 +64,7 @@ Wir sollten versuchen, Abkürzungen so weit wie möglich zu vermeiden, aber Tech
 
 ## Prägnant sein
 
-> Unnötige Worte verschwenden die Zeit deines Publikums. Gutes Schreiben ist wie ein Gespräch. Lass Informationen weg, die das Publikum nicht wissen muss. Als Fachexperte kann dies schwierig sein, daher ist es wichtig, dass jemand die Informationen aus der Perspektive des Publikums betrachtet.
+> Unnötige Worte verschwenden die Zeit deines Publikums. Gutes Schreiben ist wie ein Gespräch. Lass Informationen weg, die das Publikum nicht wissen muss. This can be difficult as a subject-matter expert, so it’s important to have someone look at the information from the audience’s perspective.
 
 Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 

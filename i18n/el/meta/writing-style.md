@@ -64,7 +64,7 @@ Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audienc
 
 ## Να είστε συνοπτικοί
 
-> Οι περιττές λέξεις σπαταλούν το χρόνο του κοινού σας. Το καλό γράψιμο είναι σαν μια συζήτηση. Παραλείψτε πληροφορίες που το κοινό δεν χρειάζεται να γνωρίζει. Αυτό μπορεί να είναι δύσκολο ως ειδικός στο θέμα, γι' αυτό είναι σημαντικό να έχετε κάποιον να δει τις πληροφορίες από την οπτική γωνία του κοινού.
+> Οι περιττές λέξεις σπαταλούν το χρόνο του κοινού σας. Το καλό γράψιμο είναι σαν μια συζήτηση. Παραλείψτε πληροφορίες που το κοινό δεν χρειάζεται να γνωρίζει. This can be difficult as a subject-matter expert, so it’s important to have someone look at the information from the audience’s perspective.
 
 Πηγή: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 

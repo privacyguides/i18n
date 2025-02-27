@@ -24,7 +24,7 @@ description: These are some tips and tricks on how to create the strongest passw
 
 비밀번호 관리자의 마스터 비밀번호처럼 머릿속에 외워둬야 하는 비밀번호는 유출이 발생했다고 판단되지 않는 한 자주 변경하지 않는 편이 좋습니다. 잊어버릴 위험성이 높아지기 때문입니다.
 
-비밀번호 관리자 내에서 관리하는 비밀번호 등, 직접 외울 필요가 없는 비밀번호는 여러분의 [위협 모델](threat-modeling.md)에 따라 중요한 계정(특히 다중 인증을 사용하지 않는 계정)은 아직 공개되지 않은 데이터 유출이 발생했을 경우를 대비해 몇 달마다 비밀번호를 변경할 것을 권장합니다. 대부분의 비밀번호 관리자는 비밀번호 만료일 설정 기능을 제공하기 때문에 더욱 관리하기 쉽습니다.
+When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multifactor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. 대부분의 비밀번호 관리자는 비밀번호 만료일 설정 기능을 제공하기 때문에 더욱 관리하기 쉽습니다.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Checking for data breaches</p>
@@ -54,13 +54,13 @@ description: These are some tips and tricks on how to create the strongest passw
 <div class="admonition Note" markdown>
 <p class="admonition-title">Note</p>
 
-These instructions assume that you are using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. 다른 단어 목록을 사용할 경우에는 주사위를 굴려야 하는 횟수 혹은 동일한 엔트로피를 달성하기 위해 필요한 단어의 양이 달라질 수 있습니다.
+These instructions assume that you are using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other word lists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
 
 </div>
 
 1. 6면체 주사위를 5번 굴려서 각 주사위를 굴릴 때마다 숫자를 적습니다.
 
-2. 예를 들어, `2-5-2-6-6`가 나왔다고 가정해 보겠습니다. Look through the [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
+2. 예를 들어, `2-5-2-6-6`가 나왔다고 가정해 보겠습니다. Look through the [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
 
 3. `encrypt` 단어를 찾았습니다. 이 단어를 받아 적습니다.
 
@@ -75,25 +75,25 @@ These instructions assume that you are using [EFF's large wordlist](https://eff.
 
 실물 주사위가 없거나 사용하고 싶지 않은 경우, 비밀번호 관리자에 내장된 비밀번호 생성기를 사용하면 됩니다. 대부분의 비밀번호 관리자는 일반적인 패스워드 방식뿐만 아니라 다이스웨어 패스프레이즈도 지원합니다.
 
-We recommend using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. 영어 외 언어로 패스프레이즈를 생성하고자 하시는 경우 [다른 언어 단어 목록](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline)도 있습니다.
+We recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
 
 <details class="note" markdown>
 <summary>Explanation of entropy and strength of diceware passphrases</summary>
 
-To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
+To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
 
 One metric to determine the strength of a diceware passphrase is how much entropy it has. The entropy per word in a diceware passphrase is calculated as <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mtext>WordsInList</mtext> <mo form="postfix" stretchy="false">)</mo> </mrow> </math> and the overall entropy of the passphrase is calculated as: <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>
 
 Therefore, each word in the aforementioned list results in ~12.9 bits of entropy (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mn>7776</mn> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>), and a seven word passphrase derived from it has ~90.47 bits of entropy (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mn>7776</mn> <mn>7</mn> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>).
 
-The [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. To calculate the amount of possible passphrases, all we have to do is <math> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> </math>, or in our case, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
+The [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. To calculate the amount of possible passphrases, all we have to do is <math> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> </math>, or in our case, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
 
-Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+Let's put all of this in perspective: A seven word passphrase using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
 
 평균적으로, 누군가의 패스프레이즈를 알아맞히려면 가능한 모든 조합의 50%를 시도해야만 합니다. 이 점을 고려하여 계산해보면 공격자가 만약 초당 1,000,000,000,000번 시도한다고 가정해도 여러분의 패스프레이즈를 알아맞히는 데에는 27,255,689년이 걸립니다. 심지어 이는 다음 조건을 충족하는 경우의 이야기입니다:
 
 - 여러분이 다이스웨어 방식을 사용했다는 점을 공격자가 알고 있습니다.
-- 여러분이 어떤 단어 목록을 활용했는지를 공격자가 알고 있습니다.
+- Your adversary knows the specific word list that you used.
 - 여러분의 패스프레이즈 단어 개수를 공격자가 알고 있습니다.
 
 </details>
@@ -113,7 +113,7 @@ Let's put all of this in perspective: A seven word passphrase using [EFF's large
 <div class="admonition warning" markdown>
 <p class="admonition-title">Don't place your passwords and TOTP tokens inside the same password manager</p>
 
-When using [TOTP codes as multi-factor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
+When using [TOTP codes as multifactor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
 
 TOTP 토큰과 비밀번호를 한 곳에서 관리하면 편리하지만, 만약 공격자가 여러분의 비밀번호 관리자에 접근 가능할 경우 다중 인증은 무용지물이 됩니다.
 

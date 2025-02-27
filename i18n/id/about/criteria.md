@@ -24,7 +24,7 @@ Kami memiliki persyaratan ini terkait dengan pengembang yang ingin mengajukan pr
 
 - Harus mengungkapkan afiliasi, yaitu posisi Anda dalam proyek yang diajukan.
 
-- Must have a security whitepaper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
+- Must have a security white paper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
     - Regarding third party audit status, we want to know if you have undergone one, or have requested one. Jika memungkinkan, sebutkan siapa yang akan melakukan audit.
 
 - Harus menjelaskan apa yang dibawa oleh proyek terkait privasi.

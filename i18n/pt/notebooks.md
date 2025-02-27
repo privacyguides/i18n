@@ -9,7 +9,7 @@ cover: notebooks.webp
 
 - [:material-server-network: Fornecedores de serviços](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-Mantenha um registo das suas notas e diários sem os entregar a terceiros.
+Keep track of your notes and journals without giving them to a third party.
 
 Se estiver a utilizar atualmente uma aplicação como o Evernote, o Google Keep ou o Microsoft OneNote, sugerimos que escolha uma alternativa que suporte E2EE.
 
@@ -82,9 +82,9 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 <div class="admonition recommendation" markdown>
 
-![Joplin logo](/assets/img/notebooks/joplin.svg){ align=right }
+![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
 
-**Joplin** é uma aplicação gratuita, de código aberto e com todas as funcionalidades características de uma aplicação do género. É capaz de lidar com um grande número de notas markdown, organizadas em cadernos e tags. Oferece E2EE e pode ser sincronizada através do Nextcloud, Dropbox e muito mais. Também permite a importação fácil do Evernote e de notas de texto simples.
+**Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle numerous markdown notes organized into notebooks and tags. Oferece E2EE e pode ser sincronizada através do Nextcloud, Dropbox e muito mais. Também permite a importação fácil do Evernote e de notas de texto simples.
 
 [:octicons-home-16: Homepage](https://joplinapp.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="Privacy Policy" }
@@ -133,7 +133,7 @@ Joplin does not [support](https://github.com/laurent22/joplin/issues/289) passwo
 
 </div>
 
-O Cryptee oferece 100MB de armazenamento gratuito, com opções pagas para o caso de precisar de mais espaço. O registo não requer um e-mail ou outras informações de identificação pessoal.
+Cryptee offers 100 MB of storage for free, with paid options if you need more. O registo não requer um e-mail ou outras informações de identificação pessoal.
 
 ## Aplicações de Notas locais
 

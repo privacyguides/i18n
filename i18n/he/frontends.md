@@ -251,7 +251,7 @@ When using LibreTube, your IP address will be visible to YouTube, [Piped](https:
 
 <div class="admonition recommendation annotate" markdown>
 
-![Newpipe logo](assets/img/frontends/newpipe.svg){ align=right }
+![NewPipe logo](assets/img/frontends/newpipe.svg){ align=right }
 
 **NewPipe** is a free and open-source Android application for [YouTube](https://youtube.com), [SoundCloud](https://soundcloud.com), [media.ccc.de](https://media.ccc.de), [Bandcamp](https://bandcamp.com), and [PeerTube](https://joinpeertube.org) (1).
 

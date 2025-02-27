@@ -27,7 +27,7 @@ description: קל לצבור מספר רב של חשבונות אינטרנט, �
 
 ### אימייל
 
-אם לא השתמשת במנהל סיסמאות בעבר או שאתה חושב שיש לך חשבונות שמעולם לא נוספו למנהל הסיסמאות שלך, אפשרות נוספת היא לחפש בחשבונ(ות) הדוא"ל שאתה מאמין שנרשמת אליהם. בלקוח האימייל שלך, חפש מילות מפתח כגון "אמת" או "ברוך הבא" כמעט בכל פעם שתבצע חשבון מקוון, השירות ישלח קישור לאימות או הודעת היכרות לאימייל שלך. זו יכולה להיות דרך טובה למצוא חשבונות ישנים ונשכחים.
+If you didn't use a password manager in the past, or you think you have accounts that were never added to your password manager, another option is to search the email account(s) that you believe you signed up on. בלקוח האימייל שלך, חפש מילות מפתח כגון "אמת" או "ברוך הבא" כמעט בכל פעם שתבצע חשבון מקוון, השירות ישלח קישור לאימות או הודעת היכרות לאימייל שלך. זו יכולה להיות דרך טובה למצוא חשבונות ישנים ונשכחים.
 
 ## מחיקת חשבונות ישנים
 
@@ -39,7 +39,7 @@ description: קל לצבור מספר רב של חשבונות אינטרנט, �
 
 ### GDPR (תושבי EEA בלבד)
 
-Residents of the EEA have additional rights regarding data erasure specified in [Article 17](https://gdpr-info.eu/art-17-gdpr) of the GDPR. אם זה רלוונטי עבורך, קרא את מדיניות הפרטיות של כל שירות נתון כדי למצוא מידע על מימוש הזכות שלך למחיקה. קריאת מדיניות הפרטיות יכולה להיות חשובה, שכן חלק מהשירותים כוללים אפשרות "מחק חשבון" המשביתה רק את החשבון שלך ולמחיקת אמיתית עליך לנקוט פעולה נוספת. לפעמים מחיקה בפועל עשויה לכלול מילוי סקרים, שליחת אימייל לקצין הגנת המידע של השירות או אפילו הוכחת מקום מגוריך ב - EEA. אם אתם מתכננים ללכת בדרך זו,** אל תעשו ** שישכתב את המידע על חשבון שיש - הזהות שלך כתושב EEA עשוי להיות נדרש. שים לב כי המיקום של השירות אינו משנה; GDPR חל על כל מי שמשרת משתמשים באירופה. אם השירות אינו מכבד את זכותך למחיקה, באפשרותך ליצור קשר עם הלאום שלך [לרשות להגנת נתונים ](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) אתה יכול להיות זכאי לפיצוי כספי.
+Residents of the EEA have additional rights regarding data erasure specified in [Article 17](https://gdpr-info.eu/art-17-gdpr) of the GDPR. אם זה רלוונטי עבורך, קרא את מדיניות הפרטיות של כל שירות נתון כדי למצוא מידע על מימוש הזכות שלך למחיקה. קריאת מדיניות הפרטיות יכולה להיות חשובה, שכן חלק מהשירותים כוללים אפשרות "מחק חשבון" המשביתה רק את החשבון שלך ולמחיקת אמיתית עליך לנקוט פעולה נוספת. לפעמים מחיקה בפועל עשויה לכלול מילוי סקרים, שליחת אימייל לקצין הגנת המידע של השירות או אפילו הוכחת מקום מגוריך ב - EEA. אם אתם מתכננים ללכת בדרך זו,** אל תעשו ** שישכתב את המידע על חשבון שיש - הזהות שלך כתושב EEA עשוי להיות נדרש. שים לב כי המיקום של השירות אינו משנה; GDPR חל על כל מי שמשרת משתמשים באירופה. If the service does not respect your right to erasure, you can contact your national [Data Protection Authority](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) and may be entitled to monetary compensation.
 
 ### עריכת פרטי החשבון הקיים
 

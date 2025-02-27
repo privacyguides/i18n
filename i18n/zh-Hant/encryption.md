@@ -115,7 +115,7 @@ VeraCrypt是已停產的 TrueCrypt 項目的分支。 根據其開發人員的�
 
 使用 VeraCrypt 加密時，您可以選擇不同的 [雜湊函式](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme)。 我們建議您**只**選擇 [SHA-512](https://en.wikipedia.org/wiki/SHA-512)，並堅持使用 [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) 區塊加密法。
 
-Truecrypt 已完成[多次審計](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits)，而 VeraCrypt 也曾接受 [獨立審計](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit)。
+TrueCrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), and VeraCrypt has also been [audited separately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
 
 ## 作業系統加密
 
@@ -189,7 +189,7 @@ Windows 的專業版、企業版和教育版均[正式支援](https://support.mi
 
 ![FileVault logo](assets/img/encryption-software/filevault.png){ align=right }
 
-**FileVault** 是 macOS 內建的即時磁區加密方案。 FileVault 能利用 Apple 晶片 SoC 或 T2 安全晶片上的 [硬體安全功能](os/macos-overview.md#hardware-security)。
+**FileVault** 是 macOS 內建的即時磁區加密方案。 FileVault takes advantage of the [hardware security capabilities](os/macos-overview.md#hardware-security) present on an Apple Silicon SoC or T2 Security Chip.
 
 [:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title="說明文件" }
 

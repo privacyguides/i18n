@@ -35,7 +35,7 @@ description: セキュリティ、プライバシー、使いやすさのバラ�
 
 この質問に答えるには、あなたやあなたの情報を狙う可能性のある人物や組織を特定することが重要です。 =あなたの資産に脅威をあたえる人物や組織は「敵対者」です。==例えば、あなたの上司、元パートナー、ビジネス上の競争相手、政府、公共ネットワーク上のハッカーなどが敵対者になる可能性があります。
 
-*あなたの敵対者やあなたの資産を手に入れたいと考える人の一覧を作成します。 一覧には個人、政府機関、企業が含まれる可能性があります。*
+*Make a list of your adversaries or those who might want to get hold of your assets. 一覧には個人、政府機関、企業が含まれる可能性があります。*
 
 Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
 

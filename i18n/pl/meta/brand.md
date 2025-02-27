@@ -12,7 +12,7 @@ Nazwa strony to **Privacy Guides** i **nie** powinna być zmieniana na:
 - PG.org
 </div>
 
-Nazwa subreddita to **r/PrivacyGuides** lub **Privacy Guides Subreddit**.
+The name of the Subreddit is **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
 
 Dodatkowe wytyczne dotyczące marki można znaleźć na stronie [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
 

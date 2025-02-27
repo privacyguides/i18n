@@ -24,7 +24,7 @@ description: These are some tips and tricks on how to create the strongest passw
 
 Вам не следует слишком часто менять пароли, которые вы должны помнить (например, мастер-пароль от вашего менеджера паролей), если у вас нет оснований полагать, что он был взломан, поскольку слишком частая смена пароля подвергает вас риску его забыть.
 
-Что касается паролей, которые вам не нужно запоминать (например, пароли, хранящиеся в менеджере паролей), если [модель угроз](threat-modeling.md) требует этого, мы рекомендуем просматривать важные учетные записи (особенно те, которые не используют многофакторную аутентификацию) и менять их пароль каждые пару месяцев, на случай, если они были скомпрометированы в результате утечки данных, которая еще не стала известной. Большинство менеджеров паролей позволяют установить срок действия пароля, чтобы облегчить отслеживание их давности.
+When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multifactor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. Большинство менеджеров паролей позволяют установить срок действия пароля, чтобы облегчить отслеживание их давности.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Checking for data breaches</p>
@@ -54,13 +54,13 @@ description: These are some tips and tricks on how to create the strongest passw
 <div class="admonition Note" markdown>
 <p class="admonition-title">Note</p>
 
-These instructions assume that you are using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Другие списки слов могут требовать больше или меньше бросков на слово, и могут потребоваться другое количество слов для достижения той же энтропии.
+These instructions assume that you are using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other word lists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
 
 </div>
 
 1. Бросьте шестигранный кубик пять раз, записывая число после каждого броска.
 
-2. В качестве примера, допустим, вы бросили `2-5-2-6-6`. Look through the [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
+2. В качестве примера, допустим, вы бросили `2-5-2-6-6`. Look through the [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
 
 3. Вы найдете слово `encrypt`. Запишите это слово.
 
@@ -75,25 +75,25 @@ These instructions assume that you are using [EFF's large wordlist](https://eff.
 
 Если у вас нет доступа к настоящим игральным костям или вы предпочитаете не использовать их, вы можете воспользоваться встроенным в менеджере паролей генератором паролей, поскольку большинство из них имеют возможность генерировать парольные фразы в дополнение к обычным паролям.
 
-We recommend using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. Есть также [другие списки слов на разных языках](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), если вы не хотите, чтобы ваша парольная фраза была на английском языке.
+We recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
 
 <details class="note" markdown>
 <summary>Explanation of entropy and strength of diceware passphrases</summary>
 
-To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
+To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
 
 One metric to determine the strength of a diceware passphrase is how much entropy it has. The entropy per word in a diceware passphrase is calculated as <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mtext>WordsInList</mtext> <mo form="postfix" stretchy="false">)</mo> </mrow> </math> and the overall entropy of the passphrase is calculated as: <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>
 
 Therefore, each word in the aforementioned list results in ~12.9 bits of entropy (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mn>7776</mn> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>), and a seven word passphrase derived from it has ~90.47 bits of entropy (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mn>7776</mn> <mn>7</mn> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>).
 
-The [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. To calculate the amount of possible passphrases, all we have to do is <math> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> </math>, or in our case, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
+The [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. To calculate the amount of possible passphrases, all we have to do is <math> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> </math>, or in our case, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
 
-Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+Let's put all of this in perspective: A seven word passphrase using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
 
 В среднем, чтобы угадать вашу фразу, нужно попробовать 50% всех возможных комбинаций. Учитывая это, даже если ваш противник способен на ~1 000 000 000 000 000 000 угадываний в секунду, ему все равно потребуется ~27 255 689 лет, чтобы угадать вашу кодовую фразу. Это так, даже если верны следующие вещи:
 
 - Ваш противник знает, что вы использовали метод с кубиком.
-- Ваш противник знает конкретный список слов, который вы использовали.
+- Your adversary knows the specific word list that you used.
 - Ваш противник знает, сколько слов содержит ваша парольная фраза.
 
 </details>
@@ -113,7 +113,7 @@ Let's put all of this in perspective: A seven word passphrase using [EFF's large
 <div class="admonition warning" markdown>
 <p class="admonition-title">Don't place your passwords and TOTP tokens inside the same password manager</p>
 
-When using [TOTP codes as multi-factor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
+When using [TOTP codes as multifactor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
 
 Хранение TOTP-токенов в том же месте, что и паролей, хотя и удобно, но сводит защиту учетных записей к одному фактору в случае, если злоумышленник получит доступ к вашему менеджеру паролей.
 

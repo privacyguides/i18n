@@ -1,10 +1,10 @@
 ---
-title: "אימות מרובה גורמים"
+title: "Multifactor Authentication"
 icon: 'material/two-factor-authentication'
 description: MFA הוא מנגנון אבטחה קריטי לאבטחת החשבונות המקוונים שלך, אך שיטות מסוימות חזקות יותר מאחרות.
 ---
 
-**אימות מרובה גורמים** (**MFA**) הוא מנגנון אבטחה הדורש שלבים נוספים מעבר להזנת שם המשתמש (או האימייל) והסיסמה שלך. השיטה הנפוצה ביותר היא קודים מוגבלים בזמן שאתה עשוי לקבל מ-SMS או מאפליקציה.
+**Multifactor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. השיטה הנפוצה ביותר היא קודים מוגבלים בזמן שאתה עשוי לקבל מ-SMS או מאפליקציה.
 
 בדרך כלל, אם האקר (או יריב) מסוגל להבין את הסיסמה שלך, הם יקבלו גישה לחשבון שאליו שייכת הסיסמה. חשבון עם MFA מאלץ את ההאקר להחזיק גם את הסיסמה (משהו שאתה *יודע*) וגם מכשיר שבבעלותך (משהו שיש *לך*), כמו הטלפון שלך.
 
@@ -26,7 +26,7 @@ description: MFA הוא מנגנון אבטחה קריטי לאבטחת החשב
 
 ### סיסמה חד פעמית מבוססת זמן (TOTP)
 
-TOTP היא אחת הצורות הנפוצות ביותר של MFA. כאשר אתה מגדיר TOTP, אתה בדרך כלל נדרש לסרוק קוד QR [](https://en.wikipedia.org/wiki/QR_code) אשר קובע "[סוד משותף](https://en.wikipedia.org/wiki/Shared_secret)" עם השירות שבו אתה מתכוון להשתמש. הסוד המשותף מאובטח בתוך הנתונים של אפליקציית האימות, ולעתים מוגן על ידי סיסמה.
+TOTP היא אחת הצורות הנפוצות ביותר של MFA. כאשר אתה מגדיר TOTP, אתה בדרך כלל נדרש לסרוק קוד QR [](https://en.wikipedia.org/wiki/QR_code) אשר קובע "[סוד משותף](https://en.wikipedia.org/wiki/Shared_secret)" עם השירות שבו אתה מתכוון להשתמש. The shared secret is secured inside the authenticator app's data, and is sometimes protected by a password.
 
 לאחר מכן, הקוד המוגבל בזמן נגזר מהסוד המשותף ומהזמן הנוכחי. מאחר שהקוד תקף לזמן קצר בלבד, ללא גישה לסוד המשותף, היריב אינו יכול ליצור קודים חדשים.
 
@@ -82,7 +82,7 @@ This presentation discusses the history of password authentication, the pitfalls
 
 ל-FIDO2 ול-WebAuthn יש מאפייני אבטחה ופרטיות מעולים בהשוואה לכל שיטות MFA.
 
-בדרך כלל עבור שירותי אינטרנט הוא משמש עם WebAuthn שהוא חלק מ[המלצות W3C](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). הוא משתמש באימות מפתח ציבורי והוא מאובטח יותר מאשר סודות משותפים המשמשים בשיטות Yubico OTP ו-TOTP, מכיוון שהוא כולל את שם המקור (בדרך כלל, שם התחום) במהלך האימות. אישור מסופק כדי להגן עליך מפני התקפות דיוג, מכיוון שהוא עוזר לך לקבוע שאתה משתמש בשירות האותנטי ולא בעותק מזויף.
+Typically, for web services it is used with WebAuthn which is a part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). הוא משתמש באימות מפתח ציבורי והוא מאובטח יותר מאשר סודות משותפים המשמשים בשיטות Yubico OTP ו-TOTP, מכיוון שהוא כולל את שם המקור (בדרך כלל, שם התחום) במהלך האימות. אישור מסופק כדי להגן עליך מפני התקפות דיוג, מכיוון שהוא עוזר לך לקבוע שאתה משתמש בשירות האותנטי ולא בעותק מזויף.
 
 שלא כמו Yubico OTP, WebAuthn אינו משתמש בשום מזהה ציבורי, כך שהמפתח **לא** ניתן לזיהוי באתרים שונים. הוא גם לא משתמש בשרת ענן של צד שלישי לאימות. כל התקשורת הושלמה בין המפתח לאתר שאליו אתה נכנס. FIDO משתמשת גם במונה שמוגדל עם השימוש על מנת למנוע שימוש חוזר בהפעלה ומפתחות משובטים.
 
@@ -116,15 +116,15 @@ When using TOTP with an authenticator app, be sure to back up your recovery keys
 
 ## מקומות נוספים להגדרת MFA
 
-מעבר לאבטחת כניסות האתר שלך בלבד, ניתן להשתמש באימות רב-גורמי כדי לאבטח את כניסותיך המקומיות, מפתחות SSH או אפילו מסדי נתונים של סיסמאות.
+Beyond just securing your website logins, multifactor authentication can be used to secure your local logins, SSH keys or even password databases as well.
 
 ### macOS
 
-ל - macOS יש [תמיכה מקומית](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) לאימות עם כרטיסים חכמים (PIV). אם יש לך כרטיס חכם או מפתח אבטחה חומרה התומך בממשק PIV כגון YubiKey, אנו ממליצים לך לעקוב אחר התיעוד של ספק הכרטיס החכם/חומרה שלך ולהגדיר אימות גורם שני עבור מחשב macOS שלך.
+ל - macOS יש [תמיכה מקומית](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) לאימות עם כרטיסים חכמים (PIV). If you have a smart card or a hardware security key that supports the PIV interface such as the YubiKey, we recommend that you follow your smart card or hardware security vendor's documentation and set up second factor authentication for your macOS computer.
 
 Yubico have a guide [Using Your YubiKey as a Smart Card in macOS](https://support.yubico.com/hc/articles/360016649059) which can help you set up your YubiKey on macOS.
 
-לאחר הגדרת הכרטיס החכם/מפתח האבטחה שלך, אנו ממליצים להפעיל את הפקודה הזו בטרמינל:
+After your smart card/security key is set up, we recommend running this command in the Terminal:
 
 ```text
 sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLogin -bool YES
@@ -159,4 +159,4 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLog
 
 ### KeePass (ו-KeePassXC)
 
-ניתן לאבטח מסדי נתונים של KeePass ו-KeePassXC באמצעות Challenge-Response או HOTP כאימות גורם שני. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.
+KeePass and KeePassXC databases can be secured using HOTP or Challenge-Response as a second-factor of authentication. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.

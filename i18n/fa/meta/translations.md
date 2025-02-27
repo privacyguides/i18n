@@ -27,8 +27,8 @@ For examples like the above admonitions, quotation marks, e.g.: `" "` must be us
 
 ## تبدیل کامل عرض و نحوهٔ استفاده از Markdown
 
-سیستم‌های نگارش CJK (چینی، ژاپنی، کره‌ای) به طور معمول از نسخه‌های جایگزین "عرض کامل" نمادهای متداول استفاده می‌کنند. تبدیل‌های تمام‌عرض و نحوهٔ استفاده از نشانه‌ها در Markdown.
+سیستم‌های نگارش CJK (چینی، ژاپنی، کره‌ای) به طور معمول از نسخه‌های جایگزین "عرض کامل" نمادهای متداول استفاده می‌کنند. These are different characters and cannot be used for Markdown syntax.
 
-- Links must use regular parenthesis ie `(` (Left Parenthesis U+0028) and `)` (Right Parenthesis U+0029) and not `（` (Fullwidth Left Parenthesis U+FF08) or `）` (Fullwidth Right Parenthesis U+FF09)
+- Links must use regular parenthesis i.e. `(` (Left Parenthesis U+0028) and `)` (Right Parenthesis U+0029) and not `（` (Fullwidth Left Parenthesis U+FF08) or `）` (Fullwidth Right Parenthesis U+FF09)
 - Indented quoted text must use `:` (Colon U+003A) and not `：` (Fullwidth Colon U+FF1A)
 - Pictures must use `!` (Exclamation Mark U+0021) and not `！` (Fullwidth Exclamation Mark U+FF01)

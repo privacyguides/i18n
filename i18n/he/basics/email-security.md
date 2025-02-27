@@ -29,13 +29,13 @@ If you use a shared domain from a provider which doesn't support WKD, like @gmai
 
 ### אילו לקוחות אימייל תומכים ב - E2EE?
 
-ספקי אימייל המאפשרים לך להשתמש בפרוטוקולי גישה סטנדרטיים כגון IMAP ו- SMTP יכולים לשמש עם כל אחד מ[קליינטי הדואר האלקטרוני שאנו ממליצים עליהם](../email-clients.md). בהתאם לשיטת האימות, הדבר עלול להוביל לירידה באבטחה אם הספק או לקוח האימייל אינם תומכים בשבועה או ביישום גשר מאחר שלא ניתן לבצע [אימות רב - גורמי](multi-factor-authentication.md) באמצעות אימות סיסמה רגיל.
+ספקי אימייל המאפשרים לך להשתמש בפרוטוקולי גישה סטנדרטיים כגון IMAP ו- SMTP יכולים לשמש עם כל אחד מ[קליינטי הדואר האלקטרוני שאנו ממליצים עליהם](../email-clients.md). Depending on the authentication method, this may lead to the decrease security if either the provider or the email client does not support OATH or a bridge application as [multifactor authentication](multi-factor-authentication.md) is not possible with plain password authentication.
 
 ### כיצד אוכל להגן על המפתחות הפרטיים שלי?
 
-A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. לאחר מכן, ההודעה מפוענחת על ידי הכרטיס החכם והתוכן המפוענח נשלח חזרה למכשיר.
+A smart card (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. The message is then decrypted by the smart card and the decrypted content is sent back to the device.
 
-זה יתרון שהפענוח יתרחש בכרטיס החכם כדי למנוע חשיפת המפתח הפרטי שלך למכשיר שנפגע.
+It is advantageous for the decryption to occur on the smart card to avoid possibly exposing your private key to a compromised device.
 
 ## סקירה כללית של מטא נתונים בדוא"ל
 
@@ -49,4 +49,4 @@ A smartcard (such as a [YubiKey](https://support.yubico.com/hc/articles/36001379
 
 ### למה מטא נתונים לא יכולים להיות E2EE?
 
-מטא נתונים של דואר אלקטרוני חיוניים לפונקציונליות הבסיסית ביותר של דואר אלקטרוני (מהיכן הוא הגיע ולאן הוא צריך ללכת). E2EE לא היה מובנה בפרוטוקולי הדואר האלקטרוני במקור, ובמקום זאת נדרש לתוכנת הרחבה כמו OpenPGP. מכיוון שהודעות OpenPGP עדיין צריכות לעבוד עם ספקי דואר אלקטרוני מסורתיים, הן אינן יכולות להצפין מטה - נתונים של דואר אלקטרוני, אלא רק את גוף ההודעה עצמו. כלומר, גם כאשר משתמשים ב - OpenPGP, משקיפים חיצוניים יכולים לראות מידע רב על ההודעות שלך, כגון את מי אתה שולח בדוא"ל, את קווי הנושא, מתי אתה שולח דוא"ל וכו '.
+מטא נתונים של דואר אלקטרוני חיוניים לפונקציונליות הבסיסית ביותר של דואר אלקטרוני (מהיכן הוא הגיע ולאן הוא צריך ללכת). E2EE לא היה מובנה בפרוטוקולי הדואר האלקטרוני במקור, ובמקום זאת נדרש לתוכנת הרחבה כמו OpenPGP. מכיוון שהודעות OpenPGP עדיין צריכות לעבוד עם ספקי דואר אלקטרוני מסורתיים, הן אינן יכולות להצפין מטה - נתונים של דואר אלקטרוני, אלא רק את גוף ההודעה עצמו. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, the subject lines, when you're emailing, etc.

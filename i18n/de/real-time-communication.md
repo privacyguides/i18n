@@ -259,7 +259,7 @@ Oxen requested an independent audit for Session in March 2020. The audit [conclu
 
 > Das allgemeine Sicherheitsniveau dieser Anwendung ist gut und macht sie für Menschen, die sich um ihre Privatsphäre sorgen, nutzbar.
 
-Session has a [whitepaper](https://arxiv.org/pdf/2002.04609.pdf) describing the technical details of the app and protocol.
+Session has a [white paper](https://arxiv.org/pdf/2002.04609.pdf) describing the technical details of the app and protocol.
 
 ## Kriterien
 

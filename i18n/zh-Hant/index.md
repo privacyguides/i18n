@@ -91,7 +91,7 @@ schema:
 
     ---
 
-    Proton Mail 是一個注重隱私、加密、安全和易用性的電子郵件服務。 他們自 2013 年起開始營運。 Proton AG 總部位於瑞士日內瓦。 Proton Mail 免費方案提供 500MB 的郵件儲存空間，您可以免費增加至 1GB。
+    Proton Mail 是一個注重隱私、加密、安全和易用性的電子郵件服務。 他們自 2013 年起開始營運。 Proton AG is based in Geneva, Switzerland. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
 
     [:octicons-arrow-right-24: 閱讀完整評論](email.md#proton-mail)
 
@@ -99,7 +99,7 @@ schema:
 
     ---
 
-    Mailbox.org 是一個專注於安全、無廣告的電子郵件服務，並使用 100% 民間供電的環保能源。 他們自 2014 年起開始營運。 Mailbox.org  總部位於德國柏林。 帳戶一開始最多只有 2GB 儲存空間，並可視需要升級。
+    Mailbox.org 是一個專注於安全、無廣告的電子郵件服務，並使用 100% 民間供電的環保能源。 他們自 2014 年起開始營運。 Mailbox.org  總部位於德國柏林。 Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
     [:octicons-arrow-right-24: 閱讀完整評論](email.md#mailboxorg)
 
@@ -107,7 +107,7 @@ schema:
 
     ---
 
-    Tuta(之前稱為 *Tutanota*) 是一項電子郵件服務，透過使用加密技術，著重於安全與隱私。 Tuta 自 2011 年開始營運，總部位於德國漢諾威。 免費帳戶的起始儲存容量為 1GB。
+    Tuta(之前稱為 *Tutanota*) 是一項電子郵件服務，透過使用加密技術，著重於安全與隱私。 Tuta 自 2011 年開始營運，總部位於德國漢諾威。 Free accounts start with 1 GB of storage.
 
     [:octicons-arrow-right-24: 閱讀完整評論](email.md#tuta)
 
@@ -172,7 +172,7 @@ schema:
 <div markdown>
 ## 什麼是隱私工具？
 
-我們建議您使用多種**隱私工具**（又稱爲 *隱私應用程式*、*隱私工具*、*隱私軟體*）橫跨軟體與硬體，您可以採用這些軟體與硬體來改善您的隱私。 我們推薦的許多工具都是完全免費使用的開放原始碼軟體，而有些則是可供購買的商業服務。 從 Google Chrome 和 Windows 等渴求資料的主流軟體，轉換為 [Brave](desktop-browsers.md#brave) 和 [Linux](desktop.md) 等注重隱私權的工具，對於控制您與公司和其他人分享的資訊有很大幫助。
+我們建議您使用多種**隱私工具**（又稱爲 *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can use to improve your privacy. 我們推薦的許多工具都是完全免費使用的開放原始碼軟體，而有些則是可供購買的商業服務。 從 Google Chrome 和 Windows 等渴求資料的主流軟體，轉換為 [Brave](desktop-browsers.md#brave) 和 [Linux](desktop.md) 等注重隱私權的工具，對於控制您與公司和其他人分享的資訊有很大幫助。
 
 [:material-check-all: 我們的通用準則](about/criteria.md){ class="md-button" }
 </div>

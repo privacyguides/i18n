@@ -75,7 +75,7 @@ AdGuard Home 提供精美的網頁介面，可查看有用資訊並管理被封�
 
 ## 雲端 DNS 過濾器
 
-這些 DNS 過濾解決方案提供 網頁儀表板，可以在其中根據特定需求自訂封鎖列表，類似於 Pi-hole。 這些服務通常比上述自託管服務更容易設定和配置，並且可以更輕鬆地跨多個網路使用（自託管解決方案通常僅限於家用/區域網路，除非您進行更進階的設定）。
+These DNS filtering solutions offer a web dashboard where you can customize the block lists to your exact needs, similarly to a Pi-hole. 這些服務通常比上述自託管服務更容易設定和配置，並且可以更輕鬆地跨多個網路使用（自託管解決方案通常僅限於家用/區域網路，除非您進行更進階的設定）。
 
 ### Control D
 
@@ -164,7 +164,7 @@ NextDNS 也在 `https://dns.nextdns.io` 提供公共DNS-over-HTTPS 服務，並�
 
 </div>
 
-雖然 RethinkDNS 會佔用 Android 的 VPN 插槽，但您仍可在應用程式中使用 VPN 或 Orbot，方法是 [自行新增 Wireguard 設定](https://docs.rethinkdns.com/proxy/wireguard) 或 [手動將 Orbot 設定為 Proxy 伺服器](https://docs.rethinkdns.com/firewall/orbot)。
+While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot with the app by [adding a WireGuard configuration](https://docs.rethinkdns.com/proxy/wireguard) or [manually configuring Orbot as a Proxy server](https://docs.rethinkdns.com/firewall/orbot), respectively.
 
 ### dnscrypt-proxy
 

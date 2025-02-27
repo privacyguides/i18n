@@ -9,7 +9,7 @@ cover: notebooks.webp
 
 - [:material-server-network: Dienstverleners](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-Houd jouw notities en aantekeningen bij zonder ze aan derden te geven.
+Keep track of your notes and journals without giving them to a third party.
 
 Als je momenteel een toepassing zoals Evernote, Google Keep of Microsoft OneNote gebruikt, raden wij je aan hier een alternatief te kiezen dat E2EE ondersteunt.
 
@@ -84,7 +84,7 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 ![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
 
-**Joplin** is een gratis, open-source, en volledig uitgeruste applicatie voor het maken van notities en to-do's die een groot aantal markdown notities kan verwerken, georganiseerd in notitieblokken en tags. Het biedt E2EE en kan synchroniseren via Nextcloud, Dropbox, en meer. Het biedt ook een gemakkelijke import vanuit Evernote en notities in gewone tekst.
+**Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle numerous markdown notes organized into notebooks and tags. Het biedt E2EE en kan synchroniseren via Nextcloud, Dropbox, en meer. Het biedt ook een gemakkelijke import vanuit Evernote en notities in gewone tekst.
 
 [:octicons-home-16: Homepage](https://joplinapp.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="Privacy Policy" }
@@ -133,7 +133,7 @@ Joplin does not [support](https://github.com/laurent22/joplin/issues/289) passwo
 
 </div>
 
-Cryptee biedt gratis 100MB opslag, met betaalde opties als je meer nodig hebt. Aanmelden vereist geen e-mail of andere persoonlijk identificeerbare informatie.
+Cryptee offers 100 MB of storage for free, with paid options if you need more. Aanmelden vereist geen e-mail of andere persoonlijk identificeerbare informatie.
 
 ## Lokale notitieblokken
 

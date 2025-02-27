@@ -63,13 +63,13 @@ schema:
 
 ## "מסובך זה יותר טוב"
 
-לעתים קרובות אנחנו רואים אנשים שמתארים מודלים של איום על פרטיות שהם מורכבים מדי. לעתים קרובות, פתרונות אלה כוללים בעיות כמו חשבונות דוא"ל רבים ושונים או התקנות מסובכות עם הרבה העברת חלקים ותנאים. התשובות הן בדרך כלל תשובות לשאלה "מהי הדרך הטובה ביותר לעשות *X*?"
+לעתים קרובות אנחנו רואים אנשים שמתארים מודלים של איום על פרטיות שהם מורכבים מדי. Often, these solutions include problems like multiple email accounts or complicated setups with lots of moving parts and conditions. התשובות הן בדרך כלל תשובות לשאלה "מהי הדרך הטובה ביותר לעשות *X*?"
 
 מציאת הפתרון ה"טוב ביותר" עבור עצמך לא אומר בהכרח שאתה מחפש פתרון שאין לו טעות עם עשרות תנאים - פתרונות אלו לרוב קשה לעבוד איתם באופן מציאותי. כפי שדיברנו בעבר, אבטחה לרוב באה במחיר של נוחות. בהמשך אנו מספקים כמה טיפים:
 
 1. ==פעולות צריכות לשרת מטרה מסוימת:== תחשוב איך לעשות מה שאתה רוצה עם הכי פחות פעולות.
 2. ==הסר נקודות כשל אנושיות:== אנחנו נכשלים, מתעייפים ושוכחים דברים. כדי לשמור על אבטחה, הימנע מהסתמכות על תנאים ותהליכים ידניים שאתה צריך לזכור.
-3. ==השתמש ברמת ההגנה הנכונה עבור מה שאתה מתכוון.== לעתים קרובות אנו רואים המלצות על מה שנקרא פתרונות אכיפת חוק או הוכחת זימון. אלה דורשים לעתים קרובות ידע מומחה ובדרך כלל הם לא מה שאנשים רוצים. אין טעם לבנות מודל איום מורכב לאנונימיות אם ניתן בקלות לבטל את האנונימיות באמצעות פיקוח פשוט.
+3. ==השתמש ברמת ההגנה הנכונה עבור מה שאתה מתכוון.== לעתים קרובות אנו רואים המלצות על מה שנקרא פתרונות אכיפת חוק או הוכחת זימון. אלה דורשים לעתים קרובות ידע מומחה ובדרך כלל הם לא מה שאנשים רוצים. There's no point in building an intricate threat model for anonymity if you can be easily deanonymized by a simple oversight.
 
 אז איך זה עשוי להיראות?
 
@@ -94,4 +94,4 @@ schema:
 
     Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
 
-[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added a obfuscated backdoor into `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed.
+[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added an obfuscated backdoor into `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed.

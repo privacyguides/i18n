@@ -75,7 +75,7 @@ AdGuard Home cuenta con una interfaz web pulida para ver información y gestiona
 
 ## Filtrado DNS basado en la nube
 
-Estas soluciones de filtrado DNS ofrecen un panel web en el que puede personalizar las listas de bloqueo según sus necesidades exactas, de forma similar a un Pi-hole. Estos servicios suelen ser más fáciles de instalar y configurar que los autoalojados, como los anterioriores, y pueden utilizarse más fácilmente en múltiples redes (las soluciones autoalojadas suelen estar restringidas a su red doméstica/local, a menos que se establezca una configuración más avanzada).
+These DNS filtering solutions offer a web dashboard where you can customize the block lists to your exact needs, similarly to a Pi-hole. Estos servicios suelen ser más fáciles de instalar y configurar que los autoalojados, como los anterioriores, y pueden utilizarse más fácilmente en múltiples redes (las soluciones autoalojadas suelen estar restringidas a su red doméstica/local, a menos que se establezca una configuración más avanzada).
 
 ### Control D
 
@@ -164,7 +164,7 @@ El software de proxy de DNS cifrado proporciona un proxy local para que el servi
 
 </div>
 
-Aunque RethinkDNS ocupa el espacio VPN de Android, puedes seguir utilizando una VPN u Orbot con la aplicación [añadiendo una configuración de Wireguard](https://docs.rethinkdns.com/proxy/wireguard) o [configurando manualmente Orbot como servidor Proxy](https://docs.rethinkdns.com/firewall/orbot), respectivamente.
+While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot with the app by [adding a WireGuard configuration](https://docs.rethinkdns.com/proxy/wireguard) or [manually configuring Orbot as a Proxy server](https://docs.rethinkdns.com/firewall/orbot), respectively.
 
 ### dnscrypt-proxy
 

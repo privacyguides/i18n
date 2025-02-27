@@ -9,7 +9,7 @@ cover: notebooks.webp
 
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-Kövesd nyomon jegyzeteid és naplóid anélkül, hogy harmadik félnek adnád át azokat.
+Keep track of your notes and journals without giving them to a third party.
 
 Ha jelenleg olyan alkalmazást használsz, mint az Evernote, a Google Keep vagy a Microsoft OneNote, javasoljuk, hogy válassz egy olyan alternatívát, amely támogatja az End-to-End titksoítást.
 
@@ -84,7 +84,7 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 ![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
 
-A **Joplin** egy ingyenes, nyílt forráskódú, teljesen felszerelt jegyzetkezelő és teendő vezető alkalmazás, amely nagyszámú, jegyzetfüzetekbe és címkékbe rendezett markdown jegyzeteket képes kezelni. End-to-End titkosítást kínál, és képes szinkronizálni a Nextcloudon, a Dropboxon és sok máson keresztül is. Evernote és nyílt szöveges jegyzetek egyszerű importálását is lehetővé teszi.
+**Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle numerous markdown notes organized into notebooks and tags. End-to-End titkosítást kínál, és képes szinkronizálni a Nextcloudon, a Dropboxon és sok máson keresztül is. Evernote és nyílt szöveges jegyzetek egyszerű importálását is lehetővé teszi.
 
 [:octicons-home-16: Homepage](https://joplinapp.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="Privacy Policy" }
@@ -133,7 +133,7 @@ A **Cryptee** egy nyílt forráskódú, webalapú End-to-End titkosított dokume
 
 </div>
 
-A Cryptee 100MB tárhelyet kínál ingyenesen, fizetős lehetőséggel, ha többre lenne szükség. A regisztrációhoz nincs szükség e-mailre vagy más személyazonosításra alkalmas információra.
+Cryptee offers 100 MB of storage for free, with paid options if you need more. A regisztrációhoz nincs szükség e-mailre vagy más személyazonosításra alkalmas információra.
 
 ## Helyi Jegyzetfüzetek
 

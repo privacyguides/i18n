@@ -64,7 +64,7 @@ Nous devrions essayer d'éviter les abréviations dans la mesure du possible, ma
 
 ## Soyez concis
 
-> Les mots inutiles font perdre du temps à votre public. Une bonne écriture est comme une conversation. Omettez les informations que le public n'a pas besoin de connaître. Cela peut s'avérer difficile pour un expert en la matière. Il est donc important que quelqu'un examine les informations du point de vue du public.
+> Les mots inutiles font perdre du temps à votre public. Une bonne écriture est comme une conversation. Omettez les informations que le public n'a pas besoin de connaître. This can be difficult as a subject-matter expert, so it’s important to have someone look at the information from the audience’s perspective.
 
 Source : [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 

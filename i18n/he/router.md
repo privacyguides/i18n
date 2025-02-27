@@ -19,7 +19,7 @@ Below are a few alternative operating systems that can be used on routers, Wi-Fi
 ![לוגו OpenWrt](assets/img/router/openwrt.svg#only-light){ align=right }
 ![לוגו OpenWrt](assets/img/router/openwrt-dark.svg#only-dark){ align=right }
 
-**OpenWrt** היא מערכת הפעלה מבוססת לינוקס; הוא משמש בעיקר במכשירים משובצים לניתוב תעבורת רשת. זה כולל util-linux, uClibc ו-BusyBox. כל הרכיבים עברו אופטימיזציה עבור נתבים ביתיים.
+**OpenWrt** היא מערכת הפעלה מבוססת לינוקס; הוא משמש בעיקר במכשירים משובצים לניתוב תעבורת רשת. זה כולל util-linux, uClibc ו-BusyBox. All the components have been optimized for home routers.
 
 [:octicons-home-16: דף הבית](https://openwrt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://openwrt.org/docs/start){ .card-link title=תיעוד}

@@ -64,7 +64,7 @@ Deveremos evitar a utilização de abreviaturas, sempre que possível, embora sa
 
 ## Seja conciso
 
-> Palavras desnecessárias desperdiçam tempo ao seu público. Uma boa escrita é como uma conversa. Omita informações desnecessárias. Pode ser uma tarefa difícil para quem é especialista no tema, pelo que é importante que alguém possa validar a informação da perspetiva do público.
+> Palavras desnecessárias desperdiçam tempo ao seu público. Uma boa escrita é como uma conversa. Omita informações desnecessárias. This can be difficult as a subject-matter expert, so it’s important to have someone look at the information from the audience’s perspective.
 
 Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 

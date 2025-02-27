@@ -95,7 +95,7 @@ Os principais recursos de privacidade incluem:
 <div class="admonition note" markdown>
 <p class="admonition-title">Nota</p>
 
-Os metadados não serão excluídos dos arquivos de vídeo, mas isso está planejado.
+Metadata is not currently deleted from video files, but that is planned.
 
 Os metadados da orientação da imagem não são excluídos. Se você ativar a localização (na Câmera Segura) isso **não** será excluído também. Se você deseja excluir isso mais tarde, você precisará usar um aplicativo externo, como [ExifEraser](../data-redaction.md#exiferaser-android).
 

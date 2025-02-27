@@ -115,7 +115,7 @@ VeraCrypt è un fork del progetto abbandonato TrueCrypt. Secondo i suoi sviluppa
 
 Crittografando con VeraCrypt, puoi selezionare [funzioni di hash](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme) differenti. Ti suggeriamo di selezionare **soltanto** [SHA-512](https://en.wikipedia.org/wiki/SHA-512), e il cifrario a blocchi [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard).
 
-Truecrypt è stato [controllato numerose volte](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), così come VeraCrypt, [controllato separatamente](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
+TrueCrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), and VeraCrypt has also been [audited separately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
 
 ## Operating System Encryption
 
@@ -189,7 +189,7 @@ Esegui il backup di 'BitLocker-Recovery-Key.txt' sul tuo desktop, in un disposit
 
 ![Logo di FileVault](assets/img/encryption-software/filevault.png){ align=right }
 
-**FileVault** è la soluzione per la crittografia rapida dei volumi, integrata su macOS. FileVault takes advantage of the [hardware security capabilities](os/macos-overview.md#hardware-security) present on an Apple silicon SoC or T2 Security Chip.
+**FileVault** è la soluzione per la crittografia rapida dei volumi, integrata su macOS. FileVault takes advantage of the [hardware security capabilities](os/macos-overview.md#hardware-security) present on an Apple Silicon SoC or T2 Security Chip.
 
 [:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title="Documentation" }
 

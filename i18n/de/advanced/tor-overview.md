@@ -20,7 +20,7 @@ Tor funktioniert, indem es deinen Internetverkehr über von Freiwilligen betrieb
 
 Bevor du dich mit Tor verbindest, solltest du dir genau überlegen, was du mit der Nutzung von Tor erreichen willst und vor wem du deine Netzwerkaktivitäten verbergen willst.
 
-Wenn du in einem freien Land lebst, über Tor auf alltägliche Inhalte zugreifst, dir keine Sorgen darüber machst, dass dein Internetanbieter oder die Administratoren deines lokalen Netzwerks wissen, dass du Tor benutzt und zur [Entstigmatisierung der](https://2019.www.torproject.org/about/torusers.html.en) Tor-Nutzung beitragen willst, kannst du dich wahrscheinlich ohne Bedenken über Standardmittel wie den [Tor Browser](../tor.md) direkt mit Tor verbinden.
+If you live in a free country, are accessing mundane content via Tor, aren't worried about your ISP or local network administrators having the knowledge that you're using Tor, and want to help [destigmatize](https://2019.www.torproject.org/about/torusers.html.en) Tor usage, you can likely connect to Tor directly via standard means like [Tor Browser](../tor.md) without worry.
 
 Wenn du die Möglichkeit hast, auf einen vertrauenswürdigen VPN-Anbieter zuzugreifen und **einer der** folgenden Punkte auf dich zutrifft, solltest du dich auf jeden Fall über ein VPN mit Tor verbinden:
 

@@ -28,7 +28,7 @@ Cela signifie qu'un attaquant devrait régulièrement réinfecter votre appareil
 Si l'un des outils suivants indique une compromission potentielle par un logiciel espion tel que Pegasus, Predator ou KingsPawn, nous vous conseillons de contacter :
 
 - If you are a human rights defender, journalist, or from a civil society organization: [Amnesty International's Security Lab](https://securitylab.amnesty.org/contact-us)
-- If a business or government device is compromised: the appropriate security liason at your enterprise, department, or agency
+- If a business or government device is compromised: the appropriate security liaison at your enterprise, department, or agency
 - Les forces de l'ordre locales
 
 **Nous ne sommes pas en mesure de vous aider directement au-delà de ces conseils.** Nous sommes disposés à discuter de votre situation ou de vos circonstances particulières et à examiner vos résultats dans nos espaces [communautaires](https://discuss.privacyguides.net), mais il est peu probable que nous puissions vous aider au-delà de ce qui est écrit sur cette page.
@@ -129,7 +129,7 @@ MVT vous permet d'effectuer des analyses plus approfondies si votre appareil est
 
 </div>
 
-iMazing automatise et vous guide de manière interactive tout au long du processus d'utilisation de [MVT](#mobile-verification-toolkit) pour analyser votre appareil à la recherche d'indicateurs de compromission accessibles au public et publiés par divers chercheurs en menaces. Toutes les informations et tous les avertissements qui s'appliquent à MVT s'appliquent également à cet outil. Nous vous conseillons donc de vous familiariser également avec les notes sur MVT dans les sections ci-dessus.
+iMazing automatise et vous guide de manière interactive tout au long du processus d'utilisation de [MVT](#mobile-verification-toolkit) pour analyser votre appareil à la recherche d'indicateurs de compromission accessibles au public et publiés par divers chercheurs en menaces. All the information and warnings which apply to MVT apply to this tool as well, so we suggest you also familiarize yourself with the notes on MVT in the sections above.
 
 ## Vérification sur l'appareil
 

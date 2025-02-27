@@ -63,13 +63,13 @@ Kebijakan privasi dan praktik bisnis penyedia yang Anda pilih sangat penting, te
 
 ## "Rumit itu lebih baik"
 
-Kami sering melihat orang menggambarkan model ancaman privasi yang terlalu rumit. Sering kali, solusi ini mencakup masalah seperti banyak akun email yang berbeda atau pengaturan yang rumit dengan banyak bagian dan kondisi yang bergerak. Balasan biasanya berupa jawaban atas pertanyaan "Apa cara terbaik untuk melakukan *X*?"
+Kami sering melihat orang menggambarkan model ancaman privasi yang terlalu rumit. Often, these solutions include problems like multiple email accounts or complicated setups with lots of moving parts and conditions. Balasan biasanya berupa jawaban atas pertanyaan "Apa cara terbaik untuk melakukan *X*?"
 
 Menemukan solusi "terbaik" untuk diri Anda sendiri tidak selalu berarti Anda mencari solusi yang sempurna dengan lusinan kondisi—solusi ini sering kali sulit untuk diterapkan secara realistis. Seperti yang telah kami bahas sebelumnya, keamanan sering kali mengorbankan kenyamanan. Di bawah ini, kami memberikan beberapa kiat:
 
 1. ==Tindakan harus memiliki tujuan tertentu:== Pikirkan tentang cara melakukan apa yang Anda inginkan dengan tindakan yang paling sedikit.
 2. ==Menghilangkan titik-titik kegagalan manusia:== Kita gagal, lelah, dan melupakan hal-hal. Untuk menjaga keamanan, hindari mengandalkan kondisi dan proses manual yang harus Anda ingat.
-3. ==Gunakan tingkat perlindungan yang tepat untuk apa yang Anda inginkan.== Kami sering melihat rekomendasi yang disebut sebagai solusi penegakan hukum atau solusi antisomasi. Hal ini sering kali membutuhkan pengetahuan khusus dan umumnya tidak sesuai dengan keinginan banyak orang. Tidak ada gunanya membangun model ancaman yang rumit untuk anonimitas jika Anda dapat dengan mudah dibocorkan identitasnya hanya karena sebuah kesalahan.
+3. ==Gunakan tingkat perlindungan yang tepat untuk apa yang Anda inginkan.== Kami sering melihat rekomendasi yang disebut sebagai solusi penegakan hukum atau solusi antisomasi. Hal ini sering kali membutuhkan pengetahuan khusus dan umumnya tidak sesuai dengan keinginan banyak orang. There's no point in building an intricate threat model for anonymity if you can be easily deanonymized by a simple oversight.
 
 Jadi, bagaimana ini terlihat?
 
@@ -94,4 +94,4 @@ Salah satu model ancaman yang paling jelas adalah model di mana orang *tahu siap
 
     Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
 
-[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added a obfuscated backdoor into `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed.
+[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added an obfuscated backdoor into `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed.

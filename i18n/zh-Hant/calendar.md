@@ -19,7 +19,7 @@ cover: calendar.webp
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tutanota** 在其支援的平臺上提供免費和加密的日曆。 功能包括：所有資料自動 E2EE、共享、匯入/匯出、多因素驗證[等等](https://tuta.com/calendar-app-comparison/)。
+**Tutanota** 在其支援的平臺上提供免費和加密的日曆。 Features include: automatic E2EE of all data, sharing features, import/export functionality, multifactor authentication, and [more](https://tuta.com/calendar-app-comparison).
 
 多個行事曆和擴展共享功能僅限於付費訂閱者。
 

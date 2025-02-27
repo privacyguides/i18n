@@ -27,8 +27,8 @@ description: A guide for website contributors on adding translations to our webs
 
 ## Εναλλακτικές λύσεις Fullwidth και σύνταξη Markdown
 
-Τα συστήματα γραφής CJK τείνουν να χρησιμοποιούν εναλλακτικές παραλλαγές "fullwidth" κοινών συμβόλων. Πρόκειται για διαφορετικούς χαρακτήρες και δεν μπορούν να χρησιμοποιηθούν για σύνταξη markdown.
+Τα συστήματα γραφής CJK τείνουν να χρησιμοποιούν εναλλακτικές παραλλαγές "fullwidth" κοινών συμβόλων. These are different characters and cannot be used for Markdown syntax.
 
-- Οι σύνδεσμοι πρέπει να χρησιμοποιούν κανονικές παρενθέσεις δηλαδή `(` (Αριστερή παρένθεση U+0028) και `)` (Δεξιά παρένθεση U+0029) και όχι `（` (Αριστερή παρένθεση πλήρους πλάτους U+FF08) ή `）`. (Δεξιά παρένθεση fullwidth U+FF09)
+- Links must use regular parenthesis i.e. `(` (Left Parenthesis U+0028) and `)` (Right Parenthesis U+0029) and not `（` (Fullwidth Left Parenthesis U+FF08) or `）` (Fullwidth Right Parenthesis U+FF09)
 - Το κείμενο με εισαγωγικά σε εσοχή πρέπει να χρησιμοποιεί `:` (άνω και κάτω τελεία U+003A) και όχι `：` (Fullwidth Colon U+FF1A)
 - Οι εικόνες πρέπει να χρησιμοποιούν `!` (Θαυμαστικό U+0021) και όχι `！` (Θαυμαστικό fullwidth U+FF01)

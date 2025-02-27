@@ -35,7 +35,7 @@ Una "risorsa" è qualcosa che valorizzi e desideri proteggere. Nel contesto dell
 
 Per rispondere a questa domanda, è importante identificare chi potrebbe voler prendere di mira te o le tue informazioni. ==Una persona o entità rappresentante una minaccia per le tue risorse è un "avversario".== Esempi di potenziali avversari sono il tuo capo, il tuo ex collega, la tua competizione aziendale, il tuo governo o un hacker su una rete pubblica.
 
-*Crea un elenco dei tuoi avversari o di coloro che potrebbero voler entrare in possesso delle tue risorse. Il tuo elenco può includere individui, agenzie governative o aziende.*
+*Make a list of your adversaries or those who might want to get hold of your assets. Il tuo elenco può includere individui, agenzie governative o aziende.*
 
 A seconda di chi sono i tuoi avversari, questo elenco potrebbe essere qualcosa che vorrai distruggere dopo aver finito di sviluppare il tuo modello di minaccia.
 

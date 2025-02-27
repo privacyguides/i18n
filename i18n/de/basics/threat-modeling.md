@@ -35,7 +35,7 @@ Ein „Wertgegenstand“ (Asset) ist etwas, das du schätzt und schützen möcht
 
 Um diese Frage zu beantworten, ist es wichtig festzustellen, wer dich oder deine Informationen angreifen könnte. ==Eine Person oder Einrichtung, die eine Bedrohung für deine Wertsachen darstellt, ist ein „Gegner“ (Adversary).== Beispiele für potenzielle Gegner sind dein Chef, dein Ex-Partner, deine Geschäftskonkurrenz, deine Regierung oder ein Hacker in einem öffentlichen Netzwerk.
 
-*Erstelle eine Liste deiner Gegner oder derjenigen, die versuchen könnten, an deine Wertsachen zu gelangen. Deine Liste kann Einzelpersonen, eine Regierungsbehörde oder Unternehmen enthalten.*
+*Make a list of your adversaries or those who might want to get hold of your assets. Deine Liste kann Einzelpersonen, eine Regierungsbehörde oder Unternehmen enthalten.*
 
 Je nachdem, um wen es sich bei deinen Gegnern handelt, möchtest du diese Liste vielleicht vernichten, nachdem du dein Bedrohungsmodell entwickelt hast.
 

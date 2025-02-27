@@ -63,13 +63,13 @@ Die Datenschutzrichtlinien und Geschäftspraktiken der Anbieter, die du auswähl
 
 ## „Kompliziert ist besser“
 
-Oft sehen wir Menschen, die Bedrohungsmodelle für ihre Privatsphäre beschreiben, die übermäßig komplex sind. Oft beinhalten diese Lösungen Probleme wie viele verschiedene E-Mail-Konten oder komplizierte Konfigurationen mit vielen beweglichen Teilen und Bedingungen. Die Antworten sind in der Regel Antworten auf die Frage "Wie kann man *X* am besten machen?"
+Oft sehen wir Menschen, die Bedrohungsmodelle für ihre Privatsphäre beschreiben, die übermäßig komplex sind. Often, these solutions include problems like multiple email accounts or complicated setups with lots of moving parts and conditions. Die Antworten sind in der Regel Antworten auf die Frage "Wie kann man *X* am besten machen?"
 
 Die "beste" Lösung für sich selbst zu finden, bedeutet nicht unbedingt, dass du eine unfehlbare Lösung mit Dutzenden von Bedingungen anstrebst - solche Lösungen sind oft schwer realistisch zu handhaben. Wie wir bereits besprochen haben, geht Sicherheit oft auf Kosten der Bequemlichkeit. Unten geben wir einige Tipps:
 
 1. ==Aktionen müssen einem bestimmten Zweck dienen:== Überlege dir, wie du dein Ziel mit möglichst wenigen Aktionen erreichen kannst.
 2. ==Beseitige menschliche Schwachstellen:== Wir versagen, werden müde und vergessen Dinge. Um Sicherheit zu gewährleisten, solltest du dich nicht auf manuelle Bedingungen und Prozesse verlassen, die du dir merken musst.
-3. ==Wähle das richtige Maß an Schutz für das, was du beabsichtigst.== Wir sehen oft Empfehlungen für sogenannte gesetzeskonforme oder vorladungssichere Lösungen. Diese erfordern oft Fachwissen und sind im Allgemeinen nicht das, was die Meisten wollen. Es macht keinen Sinn, ein kompliziertes Bedrohungsmodell für Anonymität zu entwickeln, wenn man durch ein einfaches Versehen de-anonymisiert werden kann.
+3. ==Wähle das richtige Maß an Schutz für das, was du beabsichtigst.== Wir sehen oft Empfehlungen für sogenannte gesetzeskonforme oder vorladungssichere Lösungen. Diese erfordern oft Fachwissen und sind im Allgemeinen nicht das, was die Meisten wollen. There's no point in building an intricate threat model for anonymity if you can be easily deanonymized by a simple oversight.
 
 Wie könnte das also aussehen?
 
@@ -94,4 +94,4 @@ Eines der klarsten Bedrohungsmodelle ist eines, bei dem die Menschen *wissen, we
 
     Die Verwendung von Tor kann dabei helfen. Es ist auch erwähnenswert, dass eine größere Anonymität durch asynchrone Kommunikation möglich ist: Echtzeitkommunikation ist anfällig für die Analyse von Tippmustern (d. h. mehr als ein Absatz Text, der in einem Forum, per E-Mail usw. verbreitet wird).
 
-[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added a obfuscated backdoor into `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed.
+[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added an obfuscated backdoor into `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed.

@@ -26,7 +26,7 @@ Alternativamente, puedes ejecutar modelos de IA localmente para que tus datos nu
 
 ### Hardware para Modelos Locales de IA
 
-Los modelos locales también son bastante accesibles. Es posible ejecutar modelos más pequeños a velocidades inferiores con tan solo 8 GB de RAM. Utilizar un hardware más potente, como una GPU dedicada con suficiente VRAM o un sistema moderno con memoria LPDDR5X rápida, ofrece la mejor experiencia.
+Los modelos locales también son bastante accesibles. It's possible to run smaller models at lower speeds on as little as 8 GB of RAM. Utilizar un hardware más potente, como una GPU dedicada con suficiente VRAM o un sistema moderno con memoria LPDDR5X rápida, ofrece la mejor experiencia.
 
 Los LLM suelen diferenciarse por el número de parámetros, que pueden variar entre 1,3B y 405B para los modelos de código abierto disponibles para los usuarios finales. Por ejemplo, los modelos con parámetros inferiores a 6,7B sólo son buenos para tareas básicas como resúmenes de texto, mientras que los modelos entre 7B y 13B son un gran compromiso entre calidad y velocidad. Los modelos con capacidades de razonamiento avanzadas suelen rondar los 70B.
 
@@ -34,9 +34,9 @@ Para el hardware de consumo personal, generalmente se recomienda utilizar [model
 
 | Tamaño del Modelo (en Parámetros) | RAM Mínima | Procesador Mínimo                                    |
 | ---------------------------------------------------- | ---------- | ---------------------------------------------------- |
-| 7B                                                   | 8 GB       | CPU Moderna (compatible con AVX2) |
-| 13B                                                  | 16 GB      | CPU Moderna (compatible con AVX2) |
-| 70B                                                  | 72 GB      | GPU con VRAM                                         |
+| 7B                                                   | 8 GB       | CPU Moderna (compatible con AVX2) |
+| 13B                                                  | 16 GB      | CPU Moderna (compatible con AVX2) |
+| 70B                                                  | 72 GB      | GPU con VRAM                                         |
 
 Para ejecutar IA localmente, se necesita tanto un modelo de IA como un cliente de IA.
 
@@ -144,7 +144,7 @@ Llamafile también es compatible con LLaVA. Sin embargo, no admite el reconocimi
 
 </div>
 
-Mozilla ha puesto a disposición llamafiles solo para algunos modelos de Llama y Mistral, mientras que hay pocos llamafiles de terceros disponibles. Además, Windows limita los archivos `.exe` a 4 GB, y la mayoría de los modelos superan ese tamaño.
+Mozilla ha puesto a disposición llamafiles solo para algunos modelos de Llama y Mistral, mientras que hay pocos llamafiles de terceros disponibles. Moreover, Windows limits `.exe` files to 4 GB, and most models are larger than that.
 
 Para evitar estos problemas, puedes [cargar weights externos](https://github.com/Mozilla-Ocho/llamafile#using-llamafile-with-external-weights).
 
@@ -163,7 +163,7 @@ Para comprobar la autenticidad y seguridad del modelo, busca:
 - Checksums coincidentes[^1]
   - En Hugging Face, puedes encontrar el hash haciendo clic en un archivo de modelo y buscando el botón **Copy SHA256** debajo de él. Debes comparar esta checksum con la del fichero modelo que has descargado.
 
-Por lo general, un modelo descargado es seguro si satisface todas las comprobaciones anteriores.
+A downloaded model is generally safe if it satisfies all the above checks.
 
 ## Criterios
 
@@ -175,14 +175,14 @@ Por favor, ten en cuenta que no estamos afiliados a ninguno de los proyectos que
 - No debe transmitir datos personales, incluidos los del chat.
 - Debe ser multiplataforma.
 - No debe requerir GPU.
-- Debe ser compatible con la inferencia rápida en la GPU.
+- Must support GPU-powered fast inference.
 - No debe requerir conexión a Internet.
 
 ### Mejor Caso
 
 Nuestros criterios para el mejor de los casos representan lo que nos _gustaría_ ver en el proyecto perfecto de esta categoría. Es posible que nuestras recomendaciones no incluyan todas o algunas de estas funciones, pero las que sí las incluyan pueden estar mejor clasificadas que otras en esta página.
 
-- Debería ser fácil de descargar y configurar, por ejemplo, con un proceso de instalación de un solo clic.
+- Should be easy to download and set up, e.g. with a one-click installation process.
 - Debería tener una opción de descarga de modelos integrada.
 - El usuario debería poder modificar los parámetros de la LLM, como su prompt de sistema o su temperatura.
 

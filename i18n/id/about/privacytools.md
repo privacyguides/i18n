@@ -37,9 +37,9 @@ At the end of July 2021, we [informed](https://web.archive.org/web/2021072918442
 
 ## Kontrol dari r/privacytoolsIO
 
-Bersamaan dengan masalah situs web yang sedang berlangsung di privacytools.io, tim moderasi r/privacytoolsIO menghadapi tantangan dalam mengelola subreddit. Subreddit selalu dioperasikan secara independen dari pengembangan situs web, tetapi BurungHantu adalah moderator utama dari subreddit tersebut, dan dia adalah satu-satunya moderator yang diberikan hak istimewa "Kendali Penuh". u/trai_dep was the only active moderator at the time, and [posted](https://reddit.com/comments/o9tllh) a request to Reddit's administrators on June 28, 2021, asking to be granted the primary moderator position and full control privileges, in order to make necessary changes to the Subreddit.
+Simultaneously with the ongoing website issues at privacytools.io, the r/privacytoolsIO moderation team was facing challenges with managing the Subreddit. The Subreddit had always been operated mostly independently of the website's development, but BurungHantu was the primary moderator of the Subreddit as well, and he was the only moderator granted "Full Control" privileges. u/trai_dep was the only active moderator at the time, and [posted](https://reddit.com/comments/o9tllh) a request to Reddit's administrators on June 28, 2021, asking to be granted the primary moderator position and full control privileges, in order to make necessary changes to the Subreddit.
 
-Reddit mengharuskan subreddit memiliki moderator yang aktif. Jika moderator utama tidak aktif dalam jangka waktu yang lama (seperti satu tahun), posisi moderator utama dapat ditunjuk kembali ke moderator berikutnya. Agar permintaan ini dikabulkan, BurungHantu harus benar-benar absen dari semua aktivitas Reddit untuk jangka waktu yang lama, yang konsisten dengan perilakunya di platform lain.
+Reddit requires that Subreddits have active moderators. Jika moderator utama tidak aktif dalam jangka waktu yang lama (seperti satu tahun), posisi moderator utama dapat ditunjuk kembali ke moderator berikutnya. Agar permintaan ini dikabulkan, BurungHantu harus benar-benar absen dari semua aktivitas Reddit untuk jangka waktu yang lama, yang konsisten dengan perilakunya di platform lain.
 
 > Jika Anda dihapus sebagai moderator dari subreddit melalui permintaan Reddit, itu karena kurangnya tanggapan dan kurangnya aktivitas Anda memenuhi syarat subreddit untuk transfer r/redditrequest.
 > 
@@ -55,7 +55,7 @@ This change [entailed:](https://reddit.com/comments/pnhn4a)
 
 - Redirecting `www.privacytools.io` to [www.privacyguides.org](https://www.privacyguides.org).
 - Mengarsipkan kode sumber di GitHub untuk melestarikan pekerjaan masa lalu dan pelacak masalah kami, yang terus kami gunakan selama berbulan-bulan pengembangan dari situs ini di masa depan.
-- Mengirim pengumuman ke subreddit kami dan berbagai komunitas lain yang menginformasikan orang-orang tentang perubahan resmi.
+- Posting announcements to our Subreddit and various other communities informing people of the official change.
 - Secara resmi menutup layanan privacytools.io, seperti Matrix dan Mastodon, dan mendorong pengguna lama untuk bermigrasi sesegera mungkin.
 
 Segala sesuatunya tampak berjalan dengan lancar, dan sebagian besar komunitas aktif kami beralih ke proyek baru kami persis seperti yang kami harapkan.
@@ -66,11 +66,11 @@ Kira-kira seminggu setelah transisi, BurungHantu kembali daring untuk pertama ka
 
 At this point, BurungHantu claimed he wanted to continue working on privacytools.io on his own and requested that we remove the redirect from `www.privacytools.io` to [www.privacyguides.org](https://www.privacyguides.org). Kami mewajibkan dan meminta supaya subdomain untuk Matrix, Mastodon, dan PeerTube tetap aktif agar kami dapat menjalankan layanan publik kepada komunitas kami setidaknya selama beberapa bulan, agar pengguna di platform tersebut dapat dengan mudah bermigrasi ke akun lain. Karena sifat federasi dari layanan yang kami sediakan, layanan ini terikat pada nama domain tertentu sehingga sangat sulit untuk dimigrasikan (dan dalam beberapa kasus tidak mungkin).
 
-Unfortunately, because control of the r/privacytoolsIO subreddit was not returned to BurungHantu at his demand (further information below), those subdomains were [cut off](https://reddit.com/comments/pymthv/comment/hexwrps) at the beginning of October, ending any migration possibilities to any users still using those services.
+Unfortunately, because control of the r/privacytoolsIO Subreddit was not returned to BurungHantu at his demand (further information below), those subdomains were [cut off](https://reddit.com/comments/pymthv/comment/hexwrps) at the beginning of October, ending any migration possibilities to any users still using those services.
 
 Setelah itu, BurungHantu membuat tuduhan palsu tentang Jonah mencuri sumbangan dari proyek tersebut. BurungHantu memiliki waktu lebih dari setahun sejak insiden yang dituduhkan terjadi, namun dia tidak pernah membuat siapa pun menyadarinya sampai setelah migrasi Privacy Guides. BurungHantu telah berulang kali diminta untuk memberikan bukti dan memberikan komentar mengenai alasan kebungkamannya oleh tim [dan komunitas](https://twitter.com/TommyTran732/status/1526153536962281474), namun belum memberikannya.
 
-BurungHantu juga membuat [kiriman Twitter](https://twitter.com/privacytoolsIO/status/1510560676967710728) yang menuduh bahwa seorang "pengacara" telah menghubunginya di Twitter dan memberikan nasihat, dalam upaya lain untuk menggertak kami agar memberikannya kendali atas subreddit kami, dan sebagai bagian dari kampanye kotornya untuk mengotori air di sekitar peluncuran Privacy Guides sambil berpura-pura menjadi korban.
+BurungHantu also made a [twitter post](https://twitter.com/privacytoolsIO/status/1510560676967710728) alleging that an "attorney" had reached out to him on Twitter and was providing advice, in another attempt to bully us into giving him control of our Subreddit, and as part of his smear campaign to muddy the waters surrounding the launch of Privacy Guides while pretending to be a victim.
 
 ## PrivacyTools.io Sekarang
 
@@ -80,7 +80,7 @@ Pada tanggal 25 September 2022, kami melihat keseluruhan rencana BurungHantu ter
 
 ## r/privacytoolsIO Sekarang
 
-After the launch of [r/PrivacyGuides](https://reddit.com/r/privacyguides), it was impractical for u/trai_dep to continue moderating both subreddits, and with the community on-board with the transition, r/privacytoolsIO was [made](https://reddit.com/comments/qk7qrj) a restricted sub in a post on November 1st, 2021:
+After the launch of [r/PrivacyGuides](https://reddit.com/r/privacyguides), it was impractical for u/trai_dep to continue moderating both Subreddits, and with the community on-board with the transition, r/privacytoolsIO was [made](https://reddit.com/comments/qk7qrj) a restricted sub in a post on November 1st, 2021:
 
 > [...] Pertumbuhan Sub ini adalah hasil dari upaya besar, selama beberapa tahun, oleh tim PrivacyGuides.org. Dan oleh Anda semua.
 > 
@@ -88,11 +88,11 @@ After the launch of [r/PrivacyGuides](https://reddit.com/r/privacyguides), it wa
 
 Subreddit bukan milik siapa pun, dan terutama bukan milik pemegang merek. Mereka adalah bagian dari komunitas mereka, dan komunitas serta para moderatornya membuat keputusan untuk mendukung perpindahan ke r/PrivacyGuides.
 
-In the months since, BurungHantu has threatened and begged for returning subreddit control to his account in [violation](https://reddit.com/r/redditrequest/wiki/top_mod_removal) of Reddit rules:
+In the months since, BurungHantu has threatened and begged for returning Subreddit control to his account in [violation](https://reddit.com/r/redditrequest/wiki/top_mod_removal) of Reddit rules:
 
 > Pembalasan dari moderator mana pun sehubungan dengan permintaan penghapusan tidak diperbolehkan.
 
-Untuk sebuah komunitas dengan ribuan pelanggan yang tersisa, kami merasa bahwa akan sangat tidak sopan untuk mengembalikan kendali platform besar tersebut kepada orang yang meninggalkannya selama lebih dari satu tahun, dan yang sekarang mengoperasikan situs web yang menurut kami memberikan informasi yang sangat berkualitas rendah. Melestarikan diskusi-diskusi masa lalu di komunitas tersebut lebih penting bagi kami, dan oleh karena itu u/trai_dep dan tim moderator subreddit lainnya telah membuat keputusan untuk mempertahankan r/privacytoolsIO apa adanya.
+Untuk sebuah komunitas dengan ribuan pelanggan yang tersisa, kami merasa bahwa akan sangat tidak sopan untuk mengembalikan kendali platform besar tersebut kepada orang yang meninggalkannya selama lebih dari satu tahun, dan yang sekarang mengoperasikan situs web yang menurut kami memberikan informasi yang sangat berkualitas rendah. Preserving the years of past discussions in that community is more important to us, and thus u/trai_dep and the rest of the Subreddit moderation team has made the decision to keep r/privacytoolsIO as-is.
 
 ## OpenCollective Sekarang
 

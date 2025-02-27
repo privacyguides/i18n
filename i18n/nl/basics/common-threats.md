@@ -4,7 +4,7 @@ icon: 'material/eye-outline'
 description: Jouw dreigingsmodel is persoonlijk voor je, maar dit zijn enkele van de dingen die veel bezoekers van deze site belangrijk vinden.
 ---
 
-In grote lijnen delen wij onze aanbevelingen in in deze algemene categorieën van [bedreigingen](threat-modeling.md) of doelstellingen die voor de meeste mensen gelden. ==U kunt zich bezighouden met geen, een, enkele, of al deze mogelijkheden==, en de instrumenten en diensten die je gebruikt hangen af van wat jouw doelstellingen zijn. Misschien heb je ook specifieke bedreigingen buiten deze categorieën, en dat is prima! Het belangrijkste is dat je inzicht krijgt in de voordelen en tekortkomingen van de middelen die je gebruikt, want vrijwel geen enkel middel beschermt je tegen elke denkbare bedreiging.
+In grote lijnen delen wij onze aanbevelingen in in deze algemene categorieën van [bedreigingen](threat-modeling.md) of doelstellingen die voor de meeste mensen gelden. ==U kunt zich bezighouden met geen, een, enkele, of al deze mogelijkheden==, en de instrumenten en diensten die je gebruikt hangen af van wat jouw doelstellingen zijn. You may have specific threats outside these categories as well, which is perfectly fine! Het belangrijkste is dat je inzicht krijgt in de voordelen en tekortkomingen van de middelen die je gebruikt, want vrijwel geen enkel middel beschermt je tegen elke denkbare bedreiging.
 
 <span class="pg-purple">:material-incognito: **Anonymity**</span>
 :
@@ -19,7 +19,7 @@ Being protected from hackers or other malicious actors who are trying to gain ac
 <span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
 :
 
-Typically a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+Typically, a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
 
 <span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
 :
@@ -44,7 +44,7 @@ Protecting yourself from big advertising networks, like Google and Facebook, as 
 <span class="pg-green">:material-account-search: **Public Exposure**</span>
 :
 
-Limiting the information about you that is accessible online—to search engines or the general public.
+Limiting the information about you that is accessible online—to search engines or the public.
 
 <span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
 :
@@ -76,7 +76,7 @@ Om de potentiële schade van kwaadaardige software tot een minimum te beperken, 
 
 Mobiele besturingssystemen zijn over het algemeen veiliger dan desktopbesturingssystemen als het gaat om sandboxing van toepassingen.
 
-Apps kunnen geen root-toegang krijgen en hebben alleen toegang tot systeembronnen die je hen verleent. Desktop besturingssystemen lopen over het algemeen achter op het gebied van goede sandboxing. Chrome OS heeft vergelijkbare sandboxing-eigenschappen als Android, en macOS heeft volledige controle over systeemtoestemmingen en opt-in (voor ontwikkelaars) sandboxing voor applicaties, maar deze besturingssystemen geven wel identificerende informatie door aan hun respectieve OEM's. Linux heeft de neiging geen informatie door te geven aan systeemverkopers, maar het heeft een slechte bescherming tegen exploits en kwaadaardige apps. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+Apps kunnen geen root-toegang krijgen en hebben alleen toegang tot systeembronnen die je hen verleent. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). Chrome OS heeft vergelijkbare sandboxing-eigenschappen als Android, en macOS heeft volledige controle over systeemtoestemmingen en opt-in (voor ontwikkelaars) sandboxing voor applicaties, maar deze besturingssystemen geven wel identificerende informatie door aan hun respectieve OEM's. Linux heeft de neiging geen informatie door te geven aan systeemverkopers, maar het heeft een slechte bescherming tegen exploits en kwaadaardige apps. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
 
 </div>
 
@@ -143,7 +143,7 @@ Wanneer je vertrouwt op end-to-end encryptie, moet je daarom waar mogelijk nativ
 
 </div>
 
-Zelfs met end-to-end encryptie kunnen dienstverleners je nog steeds profileren op basis van **metadata**, die doorgaans niet beschermd zijn. Hoewel de dienstverlener jouw berichten niet kan lezen om te zien wat je zegt, kan hij wel observeren met wie je praat, hoe vaak je hen berichten stuurt en op welke tijden je doorgaans actief bent. Bescherming van metadata is tamelijk ongewoon, en je zou goed moeten opletten in de technische documentatie van de software die je gebruikt om te zien of er überhaupt sprake is van minimalisering of bescherming van metadata, als dat voor je een punt van zorg is.
+Zelfs met end-to-end encryptie kunnen dienstverleners je nog steeds profileren op basis van **metadata**, die doorgaans niet beschermd zijn. While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. Bescherming van metadata is tamelijk ongewoon, en je zou goed moeten opletten in de technische documentatie van de software die je gebruikt om te zien of er überhaupt sprake is van minimalisering of bescherming van metadata, als dat voor je een punt van zorg is.
 
 ## Programma's voor massatoezicht
 
@@ -156,7 +156,7 @@ Massasurveillance is een poging om een groot deel van of een gehele bevolking te
 
 If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
 
-In France you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
+In France, you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
 
 </div>
 
@@ -189,7 +189,7 @@ If you're concerned about mass surveillance programs, you can use strategies lik
 
 De beste manier om ervoor te zorgen dat jouw gegevens privé blijven, is ze in de eerste plaats gewoon niet openbaar te maken. Het verwijderen van informatie die je online over jezelf vindt, is een van de beste eerste stappen die je kunt nemen om jouw privacy terug te krijgen. Het gebruik van hulpmiddelen zoals content blockers om netwerkverzoeken aan hun servers te beperken, en het lezen van het privacybeleid van de diensten die je gebruikt, kunnen je helpen veel laag hangend fruit te vermijden, maar kunnen je nooit volledig beschermen tegen alle tracking.[^4]
 
-Op sites waar je informatie deelt, is het heel belangrijk dat je de privacyinstellingen van jouw account controleert om te beperken hoe wijd die gegevens worden verspreid. Als jouw accounts bijvoorbeeld een "privémodus" hebben, schakel deze dan in om ervoor te zorgen dat jouw account niet wordt geïndexeerd door zoekmachines en niet kan worden bekeken door mensen die je niet van tevoren vertrouwd. De sterkste bescherming tegen het verzamelen van bedrijfsgegevens is om jouw gegevens waar mogelijk te versleutelen of te verdoezelen, waardoor het voor verschillende providers moeilijk wordt om gegevens met elkaar te correleren en een profiel op je op te bouwen.
+Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. Als jouw accounts bijvoorbeeld een "privémodus" hebben, schakel deze dan in om ervoor te zorgen dat jouw account niet wordt geïndexeerd door zoekmachines en niet kan worden bekeken door mensen die je niet van tevoren vertrouwd. De sterkste bescherming tegen het verzamelen van bedrijfsgegevens is om jouw gegevens waar mogelijk te versleutelen of te verdoezelen, waardoor het voor verschillende providers moeilijk wordt om gegevens met elkaar te correleren en een profiel op je op te bouwen.
 
 ## Beperking van publieke informatie
 

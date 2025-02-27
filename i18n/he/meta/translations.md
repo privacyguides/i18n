@@ -27,8 +27,8 @@ Please join our localization room on Matrix ([#pg-i18n:aragon.sh](https://matrix
 
 ## חלופות ברוחב מלא ותחביר Markdown
 
-מערכות כתיבה של CJK נוטות להשתמש בגרסאות חלופיות "ברוחב מלא" של סמלים נפוצים. אלו תווים שונים ולא ניתן להשתמש בהם עבור markdown.
+מערכות כתיבה של CJK נוטות להשתמש בגרסאות חלופיות "ברוחב מלא" של סמלים נפוצים. These are different characters and cannot be used for Markdown syntax.
 
-- קישורים חייבים להשתמש בסוגריים רגילים, כלומר `(` (Left Parenthesis U+0028) ו-`)` (Right Parenthesis U+0029) ולא `（` (סוגריים שמאליים ברוחב מלא U+FF08) או `）` (סוגריים ימניים ברוחב מלא U+FF09)
+- Links must use regular parenthesis i.e. `(` (Left Parenthesis U+0028) and `)` (Right Parenthesis U+0029) and not `（` (Fullwidth Left Parenthesis U+FF08) or `）` (Fullwidth Right Parenthesis U+FF09)
 - טקסט מצוטט עם הזחה חייב להשתמש ב-`:` (נקודתיים U+003A) ולא ב-`：` (נקודתיים U+FF1A ברוחב מלא)
 - תמונות חייבות להשתמש ב-`!` (סימן קריאה U+0021) ולא ב-`！` (סימן קריאה ברוחב מלא U+FF01)

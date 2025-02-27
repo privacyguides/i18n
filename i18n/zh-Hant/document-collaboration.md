@@ -86,4 +86,4 @@ cover: document-collaboration.webp
 最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
 - 應將檔案儲存在傳統檔案系統中。
-- 應支援 TOTP 或 FIDO2 多因素驗證支援，或是能使用 通行金鑰 登入。
+- Should support TOTP or FIDO2 multifactor authentication support, or passkey logins.

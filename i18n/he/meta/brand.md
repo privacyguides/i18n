@@ -12,7 +12,7 @@ description: A guide for journalists and website contributors on proper branding
 - PG.org
 </div>
 
-שם ה-Subreddit הוא **r/PrivacyGuides** או **the Privacy Guides Subreddit**.
+The name of the Subreddit is **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
 
 ניתן למצוא הנחיות מיתוג נוספות בכתובת [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
 

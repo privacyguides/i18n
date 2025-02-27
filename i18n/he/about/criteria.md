@@ -24,7 +24,7 @@ Below are some general priorities we consider for all submissions to Privacy Gui
 
 - חייב לחשוף את ההשתייכות, כלומר את עמדתך בפרויקט המוגש.
 
-- Must have a security whitepaper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
+- Must have a security white paper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
     - Regarding third party audit status, we want to know if you have undergone one, or have requested one. במידת האפשר נא לציין מי יבצע את הביקורת.
 
 - חייב להסביר מה הפרויקט מביא לשולחן בכל הנוגע לפרטיות.

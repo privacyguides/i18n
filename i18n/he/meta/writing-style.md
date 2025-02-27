@@ -64,7 +64,7 @@ Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/organize/have-a
 
 ## תהיה תמציתי
 
-> מילים מיותרות מבזבזות את הזמן של הקהל שלך. כתיבה נהדרת היא כמו שיחה. השמט מידע שהקהל לא צריך לדעת. זה יכול להיות קשה כמומחה לנושא ולכן חשוב שמישהו יסתכל על המידע מנקודת המבט של הקהל.
+> מילים מיותרות מבזבזות את הזמן של הקהל שלך. כתיבה נהדרת היא כמו שיחה. השמט מידע שהקהל לא צריך לדעת. This can be difficult as a subject-matter expert, so it’s important to have someone look at the information from the audience’s perspective.
 
 Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 

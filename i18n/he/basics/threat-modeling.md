@@ -35,7 +35,7 @@ description: איזון בין אבטחה, פרטיות ושימושיות הי�
 
 כדי לענות על שאלה זו, חשוב לזהות מי ירצה למקד אותך או את המידע שלך. =אדם או ישות המהווים איום על הנכסים שלך הוא "יריב ". דוגמאות ליריבים פוטנציאליים הם הבוס שלך, השותף שלך לשעבר, התחרות העסקית שלך, הממשלה שלך, או האקר ברשת ציבורית.
 
-*ערוך רשימה של היריבים שלך או של אלה שאולי ירצו להשיג את הנכסים שלך. הרשימה עשויה לכלול אנשים פרטיים, סוכנות ממשלתית או תאגידים.*
+*Make a list of your adversaries or those who might want to get hold of your assets. הרשימה עשויה לכלול אנשים פרטיים, סוכנות ממשלתית או תאגידים.*
 
 Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
 

@@ -24,7 +24,7 @@ description: These are some tips and tricks on how to create the strongest passw
 
 עליך להימנע משינוי סיסמאות שאתה צריך לזכור (כגון סיסמת האב של מנהל הסיסמאות שלך) לעתים קרובות מדי, אלא אם יש לך סיבה להאמין שהיא נפגעה, שכן שינוי שלה לעתים קרובות מדי חושף אותך לסיכון של שכחתה.
 
-כשמדובר בסיסמאות שאינך חייב לזכור (כגון סיסמאות המאוחסנות בתוך מנהל הסיסמאות שלך), אם [מודל האיומים](threat-modeling.md) שלך דורש זאת, אנו ממליצים עוברים על חשבונות חשובים (במיוחד חשבונות שאינם משתמשים באימות רב-גורמי) ומשנים את הסיסמה שלהם כל חודשיים, למקרה שהם נפגעו בפרצת מידע שעדיין לא הפכה לציבורית. רוב מנהלי הסיסמאות מאפשרים לך להגדיר תאריך תפוגה לסיסמה שלך כדי להקל על הניהול שלה.
+When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multifactor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. רוב מנהלי הסיסמאות מאפשרים לך להגדיר תאריך תפוגה לסיסמה שלך כדי להקל על הניהול שלה.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Checking for data breaches</p>
@@ -54,13 +54,13 @@ description: These are some tips and tricks on how to create the strongest passw
 <div class="admonition Note" markdown>
 <p class="admonition-title">Note</p>
 
-These instructions assume that you are using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. רשימות מילים אחרות עשויות לדרוש יותר או פחות גלגולים למילה, ועשויות לדרוש כמות שונה של מילים כדי להשיג את אותה אנטרופיה.
+These instructions assume that you are using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other word lists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
 
 </div>
 
 1. לזרוק קובייה בעלת שש צדדים חמש פעמים, לרשום את המספר לאחר כל גלגול.
 
-2. כדוגמה, נניח שזרקת `2-5-2-6-6`. Look through the [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
+2. כדוגמה, נניח שזרקת `2-5-2-6-6`. Look through the [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
 
 3. אתה תמצא את המילה `להצפין`. כתוב את המילה הזו.
 
@@ -75,25 +75,25 @@ These instructions assume that you are using [EFF's large wordlist](https://eff.
 
 אם אין לך גישה או תעדיף לא להשתמש בקוביות אמיתיות, תוכל להשתמש במחולל הסיסמאות המובנה של מנהל הסיסמאות שלך, שכן לרובם יש אפשרות ליצור ביטויי סיסמה של תוכנת קוביות בנוסף לסיסמאות הרגילות.
 
-We recommend using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. יש גם [רשימות מילים אחרות בשפות שונות](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), אם אינך רוצה שביטוי הסיסמה שלך יהיה באנגלית.
+We recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
 
 <details class="note" markdown>
 <summary>Explanation of entropy and strength of diceware passphrases</summary>
 
-To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
+To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
 
 One metric to determine the strength of a diceware passphrase is how much entropy it has. The entropy per word in a diceware passphrase is calculated as <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mtext>WordsInList</mtext> <mo form="postfix" stretchy="false">)</mo> </mrow> </math> and the overall entropy of the passphrase is calculated as: <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>
 
 Therefore, each word in the aforementioned list results in ~12.9 bits of entropy (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mn>7776</mn> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>), and a seven word passphrase derived from it has ~90.47 bits of entropy (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mn>7776</mn> <mn>7</mn> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>).
 
-The [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. To calculate the amount of possible passphrases, all we have to do is <math> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> </math>, or in our case, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
+The [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. To calculate the amount of possible passphrases, all we have to do is <math> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> </math>, or in our case, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
 
-Let's put all of this in perspective: A seven word passphrase using [EFF's large wordlist](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+Let's put all of this in perspective: A seven word passphrase using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
 
 בממוצע, צריך לנסות 50% מכל השילובים האפשריים כדי לנחש את הביטוי שלך. עם זאת בחשבון, גם אם היריב שלך מסוגל ל-1,000,000,000,000 ניחושים בשנייה, עדיין ייקח לו ~27,255,689 שנים לנחש את משפט הסיסמה שלך. זה המצב גם אם הדברים הבאים נכונים:
 
 - היריב שלך יודע שהשתמשת בשיטת קוביות.
-- היריב שלך יודע את רשימת המילים הספציפית שבה השתמשת.
+- Your adversary knows the specific word list that you used.
 - היריב שלך יודע כמה מילים מכיל ביטוי הסיסמה שלך.
 
 </details>
@@ -113,7 +113,7 @@ Let's put all of this in perspective: A seven word passphrase using [EFF's large
 <div class="admonition warning" markdown>
 <p class="admonition-title">Don't place your passwords and TOTP tokens inside the same password manager</p>
 
-When using [TOTP codes as multi-factor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
+When using [TOTP codes as multifactor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
 
 אחסון אסימוני ה-TOTP שלך באותו מקום כמו הסיסמאות שלך, למרות שהוא נוח, מצמצם את החשבונות לגורם יחיד במקרה שיריב יקבל גישה למנהל הסיסמאות שלך.
 

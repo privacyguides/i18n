@@ -4,7 +4,7 @@ icon: material/dns
 description: Het Domain Name System is het "telefoonboek van het internet", dat jouw browser helpt de website te vinden die hij zoekt.
 ---
 
-Het [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is het "telefoonboek van het internet". DNS vertaalt domeinnamen naar IP-adressen zodat browsers en andere diensten internetbronnen kunnen laden, via een gedecentraliseerd netwerk van servers.
+The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is the 'phone book of the Internet'. DNS vertaalt domeinnamen naar IP-adressen zodat browsers en andere diensten internetbronnen kunnen laden, via een gedecentraliseerd netwerk van servers.
 
 ## Wat is DNS?
 
@@ -24,7 +24,7 @@ Hieronder bespreken we en geven we een tutorial om te bewijzen wat een externe w
     tshark -w /tmp/dns.pcap udp poort 53 en host 1.1.1.1 of host 8.8.8.8
     ```
 
-2. We kunnen dan [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS etc) of [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) gebruiken om de DNS lookup naar beide servers te sturen. Software zoals webbrowsers doen deze lookups automatisch, tenzij zij geconfigureerd zijn om gecodeerde DNS te gebruiken.
+2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, macOS, etc.) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. Software zoals webbrowsers doen deze lookups automatisch, tenzij zij geconfigureerd zijn om gecodeerde DNS te gebruiken.
 
     === "Linux, macOS"
 
@@ -39,7 +39,7 @@ Hieronder bespreken we en geven we een tutorial om te bewijzen wat een externe w
         nslookup privacyguides.org 8.8.8.8
         ```
 
-3. Next, we want to [analyse](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
+3. Next, we want to [analyze](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
 
     === "Wireshark"
 
@@ -70,7 +70,7 @@ Encrypted DNS can refer to one of a number of protocols, the most common ones be
 
 ### DNSCrypt
 
-[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) was een van de eerste methoden om DNS-query's te versleutelen. DNSCrypt werkt op poort 443 en werkt met zowel de TCP- als de UDP-transportprotocollen. DNSCrypt is nooit ingediend bij de [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) en is ook nooit door het [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments) proces gegaan, dus is het buiten een paar [implementaties nog niet op grote schaal gebruikt](https://dnscrypt.info/implementations). Als gevolg daarvan is het grotendeels vervangen door het meer populaire [DNS over HTTPS](#dns-over-https-doh).
+[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) was een van de eerste methoden om DNS-query's te versleutelen. DNSCrypt werkt op poort 443 en werkt met zowel de TCP- als de UDP-transportprotocollen. DNSCrypt has never been submitted to the [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) nor has it gone through the [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments) process, so it has not been used widely outside a few [implementations](https://dnscrypt.info/implementations). Als gevolg daarvan is het grotendeels vervangen door het meer populaire [DNS over HTTPS](#dns-over-https-doh).
 
 ### DNS over TLS (DoT)
 
@@ -118,7 +118,7 @@ In dit voorbeeld zullen we vastleggen wat er gebeurt als we een DoH-verzoek doen
 
 3. Na het verzoek te hebben gedaan, kunnen we de packet capture stoppen met <kbd>CTRL</kbd> + <kbd>C</kbd>.
 
-4. Analyseer de resultaten in Wireshark:
+4. Analyze the results in Wireshark:
 
     ```bash
     wireshark -r /tmp/dns_doh.pcap
@@ -136,13 +136,13 @@ Wanneer we een DNS lookup doen, is dat meestal omdat we toegang willen tot een b
 
 De eenvoudigste manier om de surfactiviteit vast te stellen, is te kijken naar de IP-adressen waartoe jouw apparaten toegang hebben. Als de waarnemer bijvoorbeeld weet dat `privacyguides.org` op `198.98.54.105`staat, en jouw apparaat gegevens opvraagt van `198.98.54.105`, is de kans groot dat je Privacy Guides bezoekt.
 
-Deze methode is alleen nuttig wanneer het IP-adres toebehoort aan een server die slechts enkele websites host. Het is ook niet erg nuttig als de site wordt gehost op een gedeeld platform (bijv. Github Pages, Cloudflare Pages, Netlify, WordPress, Blogger, enz.). Het is ook niet erg nuttig als de server gehost wordt achter een [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy), wat heel gebruikelijk is op het moderne Internet.
+Deze methode is alleen nuttig wanneer het IP-adres toebehoort aan een server die slechts enkele websites host. It's also not very useful if the site is hosted on a shared platform (e.g. GitHub Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). Het is ook niet erg nuttig als de server gehost wordt achter een [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy), wat heel gebruikelijk is op het moderne Internet.
 
 ### Server Naam Aanwijzing (SNA)
 
-Server Name Indication wordt meestal gebruikt wanneer een IP-adres veel websites host. Dit kan een dienst als Cloudflare zijn, of een andere [Denial-of-service-aanval](https://en.wikipedia.org/wiki/Denial-of-service_attack) bescherming.
+Server Name Indication is typically used when an IP address hosts many websites. Dit kan een dienst als Cloudflare zijn, of een andere [Denial-of-service-aanval](https://en.wikipedia.org/wiki/Denial-of-service_attack) bescherming.
 
-1. Begin opnieuw te vangen met `tshark`. We hebben een filter toegevoegd met ons IP adres zodat je niet veel pakketten opvangt:
+1. Begin opnieuw te vangen met `tshark`. We've added a filter with our IP address, so you don't capture many packets:
 
     ```bash
     tshark -w /tmp/pg.pcap poort 443 en host 198.98.54.105
@@ -293,7 +293,7 @@ graph TB
     ispDNS --> | Nee | nothing(Doe niets)
 ```
 
-Versleutelde DNS met een derde partij mag alleen worden gebruikt om redirects en basis-DNS-blokkering van [te omzeilen](https://en.wikipedia.org/wiki/DNS_blocking) als je er zeker van kunt zijn dat er geen gevolgen zijn of als je geïnteresseerd bent in een provider die een aantal rudimentaire filters uitvoert.
+Encrypted DNS with a third party should only be used to get around redirects and basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences, or you're interested in a provider that does some rudimentary filtering.
 
 [Lijst van aanbevolen DNS-servers](../dns.md ""){.md-button}
 

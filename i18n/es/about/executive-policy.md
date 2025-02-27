@@ -5,7 +5,7 @@ description: Se trata de políticas adoptadas formalmente por nuestro comité ej
 
 Se trata de políticas adoptadas formalmente por el comité ejecutivo de Privacy Guides, y prevalecen sobre cualquier otra declaración expresada en este sitio web.
 
-Las palabras clave **debe**, **no debe**, **requerido**, **deberá**, **no deberá**, **debería**, **no debería**, **recomendado**, **puede**, y **opcional** deben interpretarse como se describe en [RFC 2119](https://datatracker. etf.org/doc/html/rfc2119).
+The keywords **must**, **must not**, **required**, **shall**, **shall not**, **should**, **should not**, **recommended**, **may**, and **optional** are to be interpreted as described in [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119).
 
 ## EP1: Muestras Gratuitas de Productos
 

@@ -48,7 +48,7 @@ In der **SVG-Ausgabe** Registerkarte unter **Dokumenteinstellungen**:
 - [ ] Ausschalten **XML-Deklaration entfernen**
 - [x] Einschalten **Metadaten entfernen**
 - [x] Einschalten **Kommentare entfernen**
-- [x] Einschalten **Rasterbilder einbetten**
+- [x] Turn on **Embedded raster images**
 - [x] Einschalten **Viewbox aktivieren**
 
 In der **SVG-Ausgabe** Registerkarte unter **Formatierung**:

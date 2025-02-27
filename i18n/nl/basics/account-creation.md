@@ -5,7 +5,7 @@ icon: 'material/account-plus'
 description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
 ---
 
-Vaak melden mensen zich aan voor diensten zonder na te denken. Misschien is het een streamingdienst zodat je die nieuwe show kunt bekijken waar iedereen het over heeft, of een account waarmee je korting krijgt op uw favoriete fastfood zaak. Wat het geval ook is, je moet nu en later rekening houden met de implicaties voor jouw gegevens.
+Vaak melden mensen zich aan voor diensten zonder na te denken. Maybe it's a streaming service to watch that new show everyone's talking about, or an account that gives you a discount for your favorite fast food place. Wat het geval ook is, je moet nu en later rekening houden met de implicaties voor jouw gegevens.
 
 Aan elke nieuwe dienst die je gebruikt, zijn risico's verbonden. Datalekken; onthulling van klanteninformatie aan derden; malafide werknemers die toegang krijgen tot gegevens; het zijn allemaal mogelijkheden die moeten worden overwogen wanneer je jouw informatie verstrekt. Je moet er zeker van zijn dat je de service kunt vertrouwen, daarom raden we niet aan om waardevolle gegevens op te slaan over iets anders dan de meest volwassen en stressgeteste producten. Dat betekent meestal diensten die end-to-end encryptie leveren en een cryptografische audit hebben ondergaan. Een audit vergroot de zekerheid dat het product is ontworpen zonder opvallende beveiligingsproblemen die zijn veroorzaakt door een onervaren ontwikkelaar.
 
@@ -13,11 +13,11 @@ Bij sommige diensten kan het ook moeilijk zijn om de accounts te verwijderen. So
 
 ## Servicevoorwaarden en Privacybeleid
 
-De ToS zijn de regels waarmee je akkoord gaat wanneer je de dienst gebruikt. Bij grotere diensten worden deze regels vaak afgedwongen door geautomatiseerde systemen. Soms kunnen deze geautomatiseerde systemen fouten maken. Je kunt bijvoorbeeld bij sommige diensten worden verbannen of uitgesloten van jouw account omdat je een VPN- of VOIP-nummer gebruikt. Een beroep doen op een dergelijke verbanning is vaak moeilijk en omvat ook een geautomatiseerd proces, wat niet altijd succesvol is. Dit is een van de redenen waarom wij bijvoorbeeld niet aanraden Gmail als e-mail te gebruiken. E-mail is cruciaal voor de toegang tot andere diensten waarvoor je zich misschien hebt aangemeld.
+De ToS zijn de regels waarmee je akkoord gaat wanneer je de dienst gebruikt. Bij grotere diensten worden deze regels vaak afgedwongen door geautomatiseerde systemen. Soms kunnen deze geautomatiseerde systemen fouten maken. For example, you may be banned or locked out of your account on some services for using a VPN or VoIP number. Een beroep doen op een dergelijke verbanning is vaak moeilijk en omvat ook een geautomatiseerd proces, wat niet altijd succesvol is. Dit is een van de redenen waarom wij bijvoorbeeld niet aanraden Gmail als e-mail te gebruiken. E-mail is cruciaal voor de toegang tot andere diensten waarvoor je zich misschien hebt aangemeld.
 
-Het privacybeleid is hoe de service zegt dat ze jouw gegevens zullen gebruiken en het is de moeite waard om te lezen, zodat je begrijpt hoe jouw gegevens zullen worden gebruikt. Een bedrijf of organisatie is mogelijk niet wettelijk verplicht om alles wat in het beleid staat te volgen (het hangt af van de jurisdictie). We raden je aan om een idee te hebben van wat je lokale wetten zijn en wat ze een provider toestaan om te verzamelen.
+The Privacy Policy is how the service says they will use your data, and it is worth reading so that you understand how your data will be used. Een bedrijf of organisatie is mogelijk niet wettelijk verplicht om alles wat in het beleid staat te volgen (het hangt af van de jurisdictie). We raden je aan om een idee te hebben van wat je lokale wetten zijn en wat ze een provider toestaan om te verzamelen.
 
-Wij raden je aan te zoeken naar bepaalde termen zoals "gegevensverzameling", "gegevensanalyse", "cookies", "advertenties" of "diensten van derden". Soms kunt je je afmelden voor het verzamelen van gegevens of voor het delen van jouw gegevens, maar het is het beste om een dienst te kiezen die jouw privacy vanaf het begin respecteert.
+Wij raden je aan te zoeken naar bepaalde termen zoals "gegevensverzameling", "gegevensanalyse", "cookies", "advertenties" of "diensten van derden". Sometimes you will be able to opt out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
 
 Vergeet niet dat je ook jouw vertrouwen stelt in het bedrijf of de organisatie en dat zij hun eigen privacybeleid zullen naleven.
 
@@ -42,7 +42,7 @@ Je bent verantwoordelijk voor het beheer van jouw inloggegevens. Voor extra beve
 
 #### E-mail aliassen
 
-Als je jouw echte e-mailadres niet aan een dienst wilt geven, kunt je een alias gebruiken. We hebben deze in meer detail beschreven op onze pagina met aanbevelingen voor e-maildiensten. Met alias diensten kunt je nieuwe e-mailadressen aanmaken die alle e-mails doorsturen naar jouw hoofdadres. Dit kan helpen bij het voorkomen van tracking tussen services en je helpen bij het beheren van de marketing-e-mails die soms bij het aanmeldingsproces worden geleverd. Die kunnen automatisch worden gefilterd op basis van de alias waarnaar ze worden gestuurd.
+Als je jouw echte e-mailadres niet aan een dienst wilt geven, kunt je een alias gebruiken. We hebben deze in meer detail beschreven op onze pagina met aanbevelingen voor e-maildiensten. Met alias diensten kunt je nieuwe e-mailadressen aanmaken die alle e-mails doorsturen naar jouw hoofdadres. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. Die kunnen automatisch worden gefilterd op basis van de alias waarnaar ze worden gestuurd.
 
 Als een dienst wordt gehackt, kunt je phishing- of spam-e-mails ontvangen op het adres waarmee je je hebt aangemeld. Het gebruik van unieke aliassen voor elke service kan helpen bij het identificeren van precies welke service is gehackt.
 
@@ -76,7 +76,7 @@ Malicious applications, particularly on mobile devices where the application has
 
 We raden je aan services te vermijden waarvoor een telefoonnummer nodig is om je aan te melden. A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
 
-Vermijd het geven van jouw echte telefoonnummer als je kunt. Sommige diensten staan het gebruik van VOIP-nummers toe, maar deze alarmeren vaak fraudedetectiesystemen, waardoor een rekening wordt geblokkeerd.
+Vermijd het geven van jouw echte telefoonnummer als je kunt. Some services will allow the use of VoIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
 
 In veel gevallen moet je een nummer opgeven waarvan je smsjes of telefoontjes kunt ontvangen, vooral wanneer je internationaal winkelt, voor het geval er een probleem is met jouw bestelling bij de grenscontrole. Het is gebruikelijk dat services je nummer gebruiken als verificatiemethode; laat je niet buitensluiten van een belangrijk account omdat je slim wilt zijn en een nepnummer wilt geven!
 

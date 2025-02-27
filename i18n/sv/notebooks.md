@@ -9,7 +9,7 @@ cover: notebooks.webp
 
 - [:material-server-network: Tjänsteleverantörer](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-Håll koll på dina anteckningar och dagboksanteckningar utan att ge dem till tredje part.
+Keep track of your notes and journals without giving them to a third party.
 
 Om du för närvarande använder ett program som Evernote, Google Keep eller Microsoft OneNote föreslår vi att du väljer ett alternativ som stöder E2EE.
 
@@ -82,9 +82,9 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 <div class="admonition recommendation" markdown>
 
-![Joplin-logotyp](assets/img/notebooks/joplin.svg){ align=right }
+![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
 
-**Joplin** är ett kostnadsfritt, öppen källkod och fullt utrustat program för anteckningar och att göra som kan hantera ett stort antal markdown-noter organiserade i anteckningsböcker och taggar. Det erbjuder E2EE och kan synkroniseras via Nextcloud, Dropbox och mer. Det erbjuder också enkel import från Evernote och vanlig text anteckningar.
+**Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle numerous markdown notes organized into notebooks and tags. Det erbjuder E2EE och kan synkroniseras via Nextcloud, Dropbox och mer. Det erbjuder också enkel import från Evernote och vanlig text anteckningar.
 
 [:octicons-home-16: Homepage](https://joplinapp.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="Privacy Policy" }
@@ -133,7 +133,7 @@ Joplin does not [support](https://github.com/laurent22/joplin/issues/289) passwo
 
 </div>
 
-Cryptee erbjuder 100 Mb lagring gratis, med betalalternativ om du behöver mer. För att registrera dig krävs ingen e-post eller annan personligt identifierbar information.
+Cryptee offers 100 MB of storage for free, with paid options if you need more. För att registrera dig krävs ingen e-post eller annan personligt identifierbar information.
 
 ## Lokala anteckningsböcker
 

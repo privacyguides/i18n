@@ -4,7 +4,7 @@ icon: material/dns
 description: Система доменных имен - это "телефонная книга интернета", помогающая вашему браузеру найти нужный сайт.
 ---
 
-[Система доменных имен](https://en.wikipedia.org/wiki/Domain_Name_System) - это "телефонная книга Интернета". DNS переводит доменные имена в IP адреса, чтобы браузеры и другие службы могли загружать интернет-ресурсы, через децентрализованную сеть серверов.
+The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is the 'phone book of the Internet'. DNS переводит доменные имена в IP адреса, чтобы браузеры и другие службы могли загружать интернет-ресурсы, через децентрализованную сеть серверов.
 
 ## Что такое DNS?
 
@@ -24,7 +24,7 @@ DNS существует с [первых дней](https://en.wikipedia.org/wik
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
     ```
 
-2. Затем мы можем использовать [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, MacOS и т.д.) или [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) для поиска DNS на обоих серверах. Такие программы, как веб-браузеры, выполняют эти поиски автоматически, если только они не настроены на использование зашифрованного DNS.
+2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, macOS, etc.) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. Такие программы, как веб-браузеры, выполняют эти поиски автоматически, если только они не настроены на использование зашифрованного DNS.
 
     === "Linux, macOS"
 
@@ -39,7 +39,7 @@ DNS существует с [первых дней](https://en.wikipedia.org/wik
         nslookup privacyguides.org 8.8.8.8
         ```
 
-3. Next, we want to [analyse](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
+3. Next, we want to [analyze](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
 
     === "Wireshark"
 
@@ -70,7 +70,7 @@ Encrypted DNS can refer to one of a number of protocols, the most common ones be
 
 ### DNSCrypt
 
-[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) был одним из первых методов шифрования DNS-запросов. DNSCrypt работает через порт 443 и работает с транспортными протоколами TCP или UDP. DNSCrypt никогда не был представлен в [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) и не проходил через [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments) процесс, поэтому он не использовался широко за пределами нескольких [реализаций](https://dnscrypt.info/implementations). В результате он был в значительной степени заменён более популярным [DNS через HTTPS](#dns-over-https-doh).
+[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) был одним из первых методов шифрования DNS-запросов. DNSCrypt работает через порт 443 и работает с транспортными протоколами TCP или UDP. DNSCrypt has never been submitted to the [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) nor has it gone through the [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments) process, so it has not been used widely outside a few [implementations](https://dnscrypt.info/implementations). В результате он был в значительной степени заменён более популярным [DNS через HTTPS](#dns-over-https-doh).
 
 ### DNS через TLS (DoT)
 
@@ -118,7 +118,7 @@ Apple не предоставляет нативного интерфейса д
 
 3. После выполнения запроса мы можем остановить захват пакетов с помощью <kbd>CTRL</kbd> + <kbd>C</kbd>.
 
-4. Проанализируйте результаты в программе Wireshark:
+4. Analyze the results in Wireshark:
 
     ```bash
     wireshark -r /tmp/dns_doh.pcap
@@ -136,13 +136,13 @@ We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmis
 
 Самым простым способом определения активности в интернете может быть просмотр IP-адресов, к которым обращаются ваши устройства. Например, если наблюдатель знает, что сайт `privacyguides.org` находится по адресу `198.98.54.105`, а ваше устройство запрашивает данные с `198.98.54.105`, то велика вероятность, что вы посещаете Privacy Guides.
 
-Этот метод полезен только в том случае, если IP-адрес принадлежит серверу, на котором размещено всего несколько веб-сайтов. Он также не очень полезен, если сайт размещен на общей платформе (например, Github Pages, Cloudflare Pages, Netlify, WordPress, Blogger и т.д.). Он также не очень полезен, если сервер размещен за [обратным прокси](https://en.wikipedia.org/wiki/Reverse_proxy), что очень часто встречается в современном интернете.
+Этот метод полезен только в том случае, если IP-адрес принадлежит серверу, на котором размещено всего несколько веб-сайтов. It's also not very useful if the site is hosted on a shared platform (e.g. GitHub Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). Он также не очень полезен, если сервер размещен за [обратным прокси](https://en.wikipedia.org/wiki/Reverse_proxy), что очень часто встречается в современном интернете.
 
 ### Индикация имени сервера (SNI)
 
-Индикация имени сервера обычно используется, когда на одном IP-адресе размещается множество веб-сайтов. Это может быть сервис, например Cloudflare, или какая-либо другая защита от [Denial-of-Service атак](https://en.wikipedia.org/wiki/Denial-of-service_attack).
+Server Name Indication is typically used when an IP address hosts many websites. Это может быть сервис, например Cloudflare, или какая-либо другая защита от [Denial-of-Service атак](https://en.wikipedia.org/wiki/Denial-of-service_attack).
 
-1. Снова запустите захват с помощью `tshark`. Мы добавили фильтр с нашим IP-адресом, чтобы не перехватывать много пакетов:
+1. Снова запустите захват с помощью `tshark`. We've added a filter with our IP address, so you don't capture many packets:
 
     ```bash
     tshark -w /tmp/pg.pcap port 443 and host 198.98.54.105
@@ -293,7 +293,7 @@ graph TB
     ispDNS --> | Нет | nothing(Ничего не делайте)
 ```
 
-Зашифрованный DNS, предоставляемые не вашим интернет-провайдером, следует использовать только для обхода перенаправлений и обхода базовой [блокировки DNS](https://en.wikipedia.org/wiki/DNS_blocking) тогда, когда вы можете быть уверены, что это не повлечет за собой никаких последствий или вы заинтересованы в провайдере, который осуществляет элементарную фильтрацию.
+Encrypted DNS with a third party should only be used to get around redirects and basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences, or you're interested in a provider that does some rudimentary filtering.
 
 [Список рекомендуемых DNS-серверов](../dns.md ""){.md-button}
 

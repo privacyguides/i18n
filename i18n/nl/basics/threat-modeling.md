@@ -35,7 +35,7 @@ Om na te gaan wat er zou kunnen gebeuren met de dingen die je waardeert en om te
 
 Om deze vraag te beantwoorden, is het belangrijk na te gaan wie je of jouw informatie als doelwit zou willen gebruiken. ==Een persoon of entiteit die een bedreiging vormt voor jouw bezittingen is een "tegenstander".== Voorbeelden van potentiële tegenstanders zijn jouw baas, jouw voormalige partner, jouw zakelijke concurrentie, jouw regering, of een hacker op een openbaar netwerk.
 
-*Maak een lijst van jouw tegenstanders, of van degenen die jouw bezittingen in handen zouden willen krijgen. Jouw lijst kan personen, een overheidsinstantie of bedrijven omvatten.*
+*Make a list of your adversaries or those who might want to get hold of your assets. Jouw lijst kan personen, een overheidsinstantie of bedrijven omvatten.*
 
 Afhankelijk van wie je tegenstanders zijn, is deze lijst misschien iets dat je wilt vernietigen nadat je klaar bent met het ontwikkelen van je bedreigingsmodel.
 

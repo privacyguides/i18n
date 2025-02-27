@@ -91,7 +91,7 @@ Der Versuch, alle deine Daten ständig vor allen zu schützen, ist unpraktisch, 
 
     ---
 
-    Proton Mail ist ein E-Mail-Dienst mit einem Schwerpunkt auf Datenschutz, Verschlüsselung, Sicherheit und Benutzerfreundlichkeit. Sie sind seit 2013 in Betrieb. Die Proton AG hat ihren Sitz in Genf, Schweiz. Der Proton Mail Free Tarif beinhaltet 500 MB Mailspeicher, den du kostenlos auf bis zu 1 GB erweitern kannst.
+    Proton Mail ist ein E-Mail-Dienst mit einem Schwerpunkt auf Datenschutz, Verschlüsselung, Sicherheit und Benutzerfreundlichkeit. Sie sind seit 2013 in Betrieb. Proton AG is based in Geneva, Switzerland. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
 
     [:octicons-arrow-right-24: Lese die vollständige Review](email.md#proton-mail)
 
@@ -99,7 +99,7 @@ Der Versuch, alle deine Daten ständig vor allen zu schützen, ist unpraktisch, 
 
     ---
 
-    Mailbox.org ist ein E-Mail-Dienst, mit dem Ziel sicher und werbefrei zu sein und der mit 100% Ökostrum betrieben wird. Er wird seit 2014 betrieben. Mailbox.org hat seinen Sitz in Berlin, Deutschland. Konten beginnen mit 2 GB Speicherplatz, der nach Bedarf erweitert werden kann.
+    Mailbox.org ist ein E-Mail-Dienst, mit dem Ziel sicher und werbefrei zu sein und der mit 100% Ökostrum betrieben wird. Er wird seit 2014 betrieben. Mailbox.org hat seinen Sitz in Berlin, Deutschland. Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
     [:octicons-arrow-right-24: Lese die vollständige Review](email.md#mailboxorg)
 
@@ -107,7 +107,7 @@ Der Versuch, alle deine Daten ständig vor allen zu schützen, ist unpraktisch, 
 
     ---
 
-    Tuta (ehemals *Tutanota*) ist ein E-Mail-Dienst mit einem Fokus auf Sicherheit und Datenschutz durch Verschlüsselung. Tuta ist seit 2011 in Betrieb und hat seinen Sitz in Hannover, Deutschland. Kostenlose Konten beginnen mit 1 GB Speicherplatz.
+    Tuta (ehemals *Tutanota*) ist ein E-Mail-Dienst mit einem Fokus auf Sicherheit und Datenschutz durch Verschlüsselung. Tuta ist seit 2011 in Betrieb und hat seinen Sitz in Hannover, Deutschland. Free accounts start with 1 GB of storage.
 
     [:octicons-arrow-right-24: Lese die vollständige Review](email.md#tuta)
 
@@ -172,7 +172,7 @@ Bekannt aus **WIRED**, **Tweakers.net**, **The New York Times** und vielen ander
 <div markdown>
 ## Was sind Datenschutz-Tools?
 
-Wir empfehlen eine breite Palette von **Datenschutz/Privatsphäre-Tools** (auch bekannt als *Privatsphäre-Apps*, *Privatsphäre-Dienstprogramme*, *Privatsphäre-Software*), die Software und Hardware umfassen, die du zur Verbesserung deiner Privatsphäre einsetzen kannst. Viele der von uns empfohlenen Tools sind völlig kostenlos und Open-Source-Software, während einige kommerzielle Dienste zum Kauf angeboten werden. Das Wechseln von gängiger datenhungriger Software wie Google Chrome und Windows auf datenschutzfreundliche Werkzeuge wie [Brave](Desktop-Browser.md#brave) und [Linux](desktop.md) können viel dazu beitragen, die Informationen, die du an Unternehmen und andere weitergibst, zu kontrollieren.
+Wir empfehlen eine breite Palette von **Datenschutz/Privatsphäre-Tools** (auch bekannt als *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can use to improve your privacy. Viele der von uns empfohlenen Tools sind völlig kostenlos und Open-Source-Software, während einige kommerzielle Dienste zum Kauf angeboten werden. Das Wechseln von gängiger datenhungriger Software wie Google Chrome und Windows auf datenschutzfreundliche Werkzeuge wie [Brave](Desktop-Browser.md#brave) und [Linux](desktop.md) können viel dazu beitragen, die Informationen, die du an Unternehmen und andere weitergibst, zu kontrollieren.
 
 [:material-check-all: Unsere Standardkriterien](about/criteria.md){ class="md-button" }
 </div>

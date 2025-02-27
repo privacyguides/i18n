@@ -48,7 +48,7 @@ Dans l'onglet **Sortie SVG** sous **Options du document** :
 - [ ] Désactivez **Supprimer la déclaration XML**
 - [x] Activez **Supprimer les métadonnées**
 - [x] Activez **Supprimer les commentaires**
-- [x] Activez **Images matricielles incorporées**
+- [x] Turn on **Embedded raster images**
 - [x] Activez **Activer le viewboxing**
 
 Dans le document **Sortie SVG** sous **Pretty-printing** :

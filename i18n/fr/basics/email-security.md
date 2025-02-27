@@ -29,13 +29,13 @@ Si vous utilisez un domaine partagé d'un fournisseur qui ne prend pas en charge
 
 ### Quels clients d'e-mail supportent le E2EE ?
 
-Les fournisseurs d'e-mail qui vous permettent d'utiliser les protocoles d'accès standard comme IMAP et SMTP peuvent être utilisés avec n'importe lequel des [clients d'e-mail que nous recommandons](../email-clients.md). En fonction de la méthode d'authentification, cela peut entraîner une diminution de la sécurité si le fournisseur ou le client d'e-mail ne prend pas en charge OATH ou une application passerelle, car [l'authentification multi-facteurs](/basics/multi-factor-authentication/) n'est pas possible avec l'authentification par mot de passe simple.
+Les fournisseurs d'e-mail qui vous permettent d'utiliser les protocoles d'accès standard comme IMAP et SMTP peuvent être utilisés avec n'importe lequel des [clients d'e-mail que nous recommandons](../email-clients.md). Depending on the authentication method, this may lead to the decrease security if either the provider or the email client does not support OATH or a bridge application as [multifactor authentication](multi-factor-authentication.md) is not possible with plain password authentication.
 
 ### Comment puis-je protéger mes clés privées ?
 
-Une carte à puce (telle qu'une [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) ou [Nitrokey](../security-keys.md#nitrokey)) fonctionne en recevant un e-mail chiffré d'un appareil (téléphone, tablette, ordinateur, etc.) exécutant un client d'e-mail/une interface d'e-mail web. Le message est ensuite déchiffré par la carte à puce et le contenu déchiffré est renvoyé à l'appareil.
+A smart card (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. The message is then decrypted by the smart card and the decrypted content is sent back to the device.
 
-Il est préférable que le déchiffrement ait lieu sur la carte à puce afin d'éviter d'exposer votre clé privée à un dispositif compromis.
+It is advantageous for the decryption to occur on the smart card to avoid possibly exposing your private key to a compromised device.
 
 ## Aperçu des métadonnées des e-mails
 
@@ -49,4 +49,4 @@ Les métadonnées des emails sont protégées des observateurs extérieurs par l
 
 ### Pourquoi les métadonnées ne peuvent-elles pas être E2EE?
 
-Les métadonnées des e-mails sont essentielles à la fonctionnalité la plus élémentaire d'un e-mail (d'où il vient et où il doit aller). À l'origine, le E2EE n'était pas intégré dans les protocoles d'e-mails, mais nécessitait un logiciel complémentaire comme OpenPGP. Comme les messages OpenPGP doivent toujours fonctionner avec les fournisseurs d'e-mail traditionnels, il ne peut pas chiffrer les métadonnées de l'e-mail, mais seulement le corps du message lui-même. Cela signifie que, même en utilisant OpenPGP, des observateurs extérieurs peuvent voir de nombreuses informations sur vos messages, comme l'identité de l'expéditeur, l'objet du message, le moment de l'envoi, etc.
+Les métadonnées des e-mails sont essentielles à la fonctionnalité la plus élémentaire d'un e-mail (d'où il vient et où il doit aller). À l'origine, le E2EE n'était pas intégré dans les protocoles d'e-mails, mais nécessitait un logiciel complémentaire comme OpenPGP. Comme les messages OpenPGP doivent toujours fonctionner avec les fournisseurs d'e-mail traditionnels, il ne peut pas chiffrer les métadonnées de l'e-mail, mais seulement le corps du message lui-même. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, the subject lines, when you're emailing, etc.

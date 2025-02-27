@@ -115,7 +115,7 @@ VeraCrypt est un dérivé du projet TrueCrypt, qui a été abandonné. Selon ses
 
 Lors du chiffrement avec VeraCrypt, vous avez la possibilité de choisir parmi différentes [fonctions de hachage](https://fr.wikipedia.org/wiki/VeraCrypt#Syst%C3%A8me_de_chiffrement). Nous vous suggérons de **seulement** sélectionner [SHA-512](https://fr.wikipedia.org/wiki/SHA-2) et de vous en tenir au [chiffrement par blocs AES](https://fr.wikipedia.org/wiki/Advanced_Encryption_Standard).
 
-Truecrypt a été [audité un certain nombre de fois](https://fr.wikipedia.org/wiki/TrueCrypt#Audit_global_du_logiciel_en_2013) et VeraCrypt a également été [audité séparément](https://fr.wikipedia.org/wiki/VeraCrypt#Audit).
+TrueCrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), and VeraCrypt has also been [audited separately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
 
 ## Operating System Encryption
 
@@ -189,7 +189,7 @@ Pour activer BitLocker sur les éditions "Famille" de Windows, vous devez format
 
 ![Logo FileVault](assets/img/encryption-software/filevault.png){ align=right }
 
-**FileVault** est la solution de chiffrement de volume à la volée intégrée à macOS. FileVault takes advantage of the [hardware security capabilities](os/macos-overview.md#hardware-security) present on an Apple silicon SoC or T2 Security Chip.
+**FileVault** est la solution de chiffrement de volume à la volée intégrée à macOS. FileVault takes advantage of the [hardware security capabilities](os/macos-overview.md#hardware-security) present on an Apple Silicon SoC or T2 Security Chip.
 
 [:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title="Documentation" }
 
