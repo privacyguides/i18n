@@ -2,14 +2,14 @@
 *[ADB]: Android Debug Bridge
 *[AOSP]: Android Open Source Project
 *[ATA]: Advanced Technology Attachment
-*[attack surface]: The total number of possible entry points for unauthorized access to a system
+*[attack surface]: Celkový počet možných vstupních bodů pro neoprávněný přístup do systému
 *[AVB]: Android Verified Boot
 *[cgroups]: Control Groups
 *[CLI]: Příkazová řádka
 *[CSV]: Hodnoty oddělené čárkou
 *[CVE]: Common Vulnerabilities and Exposures
 *[dark pattern]: A deceptive design pattern intended to trick a user into doing things
-*[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
+*[digital legacy feature]: Digitální dědictví se týká funkcí, které umožňují poskytnout ostatním lidem přístup k vašim datům po vaší smrti
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: Systém doménových jmen
 *[DoH]: DNS přes HTTPS
