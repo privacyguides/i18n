@@ -19,9 +19,7 @@ Text inputted to grammar, spelling, and style checkers, as well as translation s
 ![LanguageTool-Logo](assets/img/language-tools/languagetool.svg#only-light){ align=right }
 ![LanguageTool-Logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ align=right }
 
-**LanguageTool** ist eine mehrsprachige Grammatik-, Stil- und Rechtschreibprüfung, die mehr als 20 Sprachen unterstützt. Die Software ist [selbst-hostbar](https://dev.languagetool.org/http-server), und die Erweiterungen senden deinen Eingabetext nicht an ihren Server.
-
-LanguageTool bietet die Integration mit einer Vielzahl von [Office-Suits](https://languagetool.org/services#text_editors) und [E-Mail-Clients](https://languagetool.org/services#mail_clients).
+**LanguageTool** ist eine mehrsprachige Grammatik-, Stil- und Rechtschreibprüfung, die mehr als 20 Sprachen unterstützt. According to their privacy policy, they do not store any content sent to their service for review, but for higher assurance the software is [self-hostable](https://dev.languagetool.org/http-server).
 
 [:octicons-home-16: Homepage](https://languagetool.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://languagetool.org/legal/privacy){ .card-link title="Datenschutzrichtlinie" }
@@ -42,6 +40,8 @@ LanguageTool bietet die Integration mit einer Vielzahl von [Office-Suits](https:
 </details>
 
 </div>
+
+LanguageTool bietet die Integration mit einer Vielzahl von [Office-Suits](https://languagetool.org/services#text_editors) und [E-Mail-Clients](https://languagetool.org/services#mail_clients).
 
 ## Kriterien
 

@@ -35,7 +35,7 @@ Molte banche e fornitori di carte di credito offrono una funzionalità nativa di
 ![Logo di Privacy.com](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
 ![Logo di Privacy.com](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
 
-Il piano gratuito di **Privacy.com** ti consente di creare fino a 12 carte virtuali al mese, di impostare i limiti di spesa su tali carte e di chiuderle istantaneamente. Their paid plans provide higher limits on the number of cards that can be created each month and the option to hide transaction information from your bank.
+Il piano gratuito di **Privacy.com** ti consente di creare fino a 12 carte virtuali al mese, di impostare i limiti di spesa su tali carte e di chiuderle istantaneamente. Their paid plans provide higher limits on the number of cards that can be created each month.
 
 [:octicons-home-16: Pagina Principale](https://privacy.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Politica sulla Privacy" }
@@ -45,7 +45,7 @@ Il piano gratuito di **Privacy.com** ti consente di creare fino a 12 carte virtu
 
 </div>
 
-Privacy.com fornisce le informazioni sui commercianti da cui acquisti alla tua banca, di default. Their paid "discreet merchants" feature hides merchant information from your bank, so your bank only sees that a purchase was made with Privacy.com, but not where that money was spent. However, that is not foolproof, and of course, Privacy.com still has knowledge about the merchants you are spending money with.
+Privacy.com gives information about the merchants you purchase from to your bank by [default](https://support.privacy.com/hc/en-us/articles/360012407533-What-will-I-see-on-my-bank-statement-when-I-make-a-purchase-with-Privacy). Their "[private spend mode](https://support.privacy.com/hc/en-us/articles/26732314558487-What-is-Private-Spend-Mode)" feature hides merchant information from your bank, so your bank only sees that a purchase was made with Privacy.com, but not where that money was spent. However, that is not foolproof, and of course, Privacy.com still has knowledge about the merchants you are spending money with.
 
 ### MySudo (US, a pagamento)
 

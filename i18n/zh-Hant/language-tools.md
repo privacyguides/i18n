@@ -19,9 +19,7 @@ cover: language-tools.webp
 ![LanguageTool logo](assets/img/language-tools/languagetool.svg#only-light){ align=right }
 ![LanguageTool logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ align=right }
 
-**LanguageTool** 是多語言文法、樣式和拼字檢查器，支援 20 多種語言。 該軟體 [可自行託管](https://dev.languagetool.org/http-server) ，擴充套件不會將您的輸入文字傳送到他們的伺服器。
-
-LanguageTool 提供與多種 [辦公室套件](https://languagetool.org/services#text_editors) 及 [電子郵件客戶端](https://languagetool.org/services#mail_clients) 的整合。
+**LanguageTool** 是多語言文法、樣式和拼字檢查器，支援 20 多種語言。 According to their privacy policy, they do not store any content sent to their service for review, but for higher assurance the software is [self-hostable](https://dev.languagetool.org/http-server).
 
 [:octicons-home-16: 首頁](https://languagetool.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://languagetool.org/legal/privacy){ .card-link title="隱私權政策" }
@@ -42,6 +40,8 @@ LanguageTool 提供與多種 [辦公室套件](https://languagetool.org/services
 </details>
 
 </div>
+
+LanguageTool 提供與多種 [辦公室套件](https://languagetool.org/services#text_editors) 及 [電子郵件客戶端](https://languagetool.org/services#mail_clients) 的整合。
 
 ## 標準
 

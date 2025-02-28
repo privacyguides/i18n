@@ -19,9 +19,7 @@ El texto introducido en los correctores gramaticales, ortográficos y de estilo,
 ![LanguageTool logo](assets/img/language-tools/languagetool.svg#only-light){ align=right }
 ![LanguageTool logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ align=right }
 
-**LanguageTool** es un corrector gramatical, ortográfico y de estilo multilingüe compatible con más de 20 idiomas. El software es [autoalojable](https://dev.languagetool.org/http-server), y las extensiones no envían tu texto de entrada a su servidor.
-
-LanguageTool ofrece integración con diversos [paquetes ofimáticos](https://languagetool.org/services#text_editors) y [clientes de correo electrónico](https://languagetool.org/services#mail_clients).
+**LanguageTool** es un corrector gramatical, ortográfico y de estilo multilingüe compatible con más de 20 idiomas. According to their privacy policy, they do not store any content sent to their service for review, but for higher assurance the software is [self-hostable](https://dev.languagetool.org/http-server).
 
 [:octicons-home-16: Página Principal](https://languagetool.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://languagetool.org/legal/privacy){ .card-link title="Política de Privacidad" }
@@ -42,6 +40,8 @@ LanguageTool ofrece integración con diversos [paquetes ofimáticos](https://lan
 </details>
 
 </div>
+
+LanguageTool ofrece integración con diversos [paquetes ofimáticos](https://languagetool.org/services#text_editors) y [clientes de correo electrónico](https://languagetool.org/services#mail_clients).
 
 ## Criterios
 
