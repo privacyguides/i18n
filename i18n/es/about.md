@@ -24,7 +24,7 @@ schema:
 [:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Página Principal }
 [:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Código Fuente" }
 
-Privacy Guides está elaborada por voluntarios y miembros del personal de todo el mundo. All changes to our recommendations and resources are reviewed by at least two [trusted](https://discuss.privacyguides.net/u?group=team\&order=solutions\&period=all) individuals, and we work diligently to ensure our content is updated as quickly as possible to adapt to the ever-changing cybersecurity threat landscape.
+Privacy Guides está elaborada por voluntarios y miembros del personal de todo el mundo. All changes to our recommendations and resources are reviewed by at least two trusted individuals, and we work diligently to ensure our content is updated as quickly as possible to adapt to the ever-changing cybersecurity threat landscape.
 
 Además de nuestro equipo central, [muchas otras personas](about/contributors.md) han contribuido al proyecto. ¡Tú también puedes contribuir! Somos de código abierto en GitHub y aceptamos sugerencias de traducciones en [Crowdin](https://crowdin.com/project/privacyguides).
 
@@ -32,7 +32,7 @@ Además de nuestro equipo central, [muchas otras personas](about/contributors.md
 
 ## Contact Us
 
-[:simple-discourse: Join the Privacy Guides forum](https://discuss.privacyguides.net/){ .md-button .md-button--primary }
+[:simple-discourse: Join the Privacy Guides forum](https://discuss.privacyguides.net){ .md-button .md-button--primary }
 
 The best way to get individual help is from our community on Discourse. If you notice an issue with our website, please open a discussion in the [Site Development](https://discuss.privacyguides.net/c/site-development/7) category on our forum. If you have a question about anything we cover, please ask it in the [Questions](https://discuss.privacyguides.net/c/privacy/questions/8) category on our forum.
 
@@ -42,7 +42,7 @@ Have a tip for us, or need to share some sensitive information? The best way to 
 
 [:simple-signal: Chat on Signal](https://signal.me/#eu/zg9xcrIv5w-EtXt2FmTJgfWv01LmyTed8rpr7RDv35Mizq8ISZ9NJLmYtzsxI0Z4){ .md-button }
 
-You may also email the entire team at <team@privacyguides.org>. This is a shared inbox that could be read by any [team member](https://discuss.privacyguides.net/u?group=team\&order=solutions\&period=all), so please consider what sensitive information you share via email accordingly.
+You may also email the entire team at <team@privacyguides.org>. This is a shared inbox that could be read by any team member, so please consider what sensitive information you share via email accordingly.
 
 We will do our best to respond to all queries within 3 business days, but please understand we are unable to provide individualized advice to everyone who asks. If you have a question about privacy, you will receive a much more detailed and timely response from the Privacy Guides community by [asking on our forum](https://discuss.privacyguides.net/c/privacy/questions/8).
 
@@ -122,7 +122,7 @@ El comité ejecutivo del proyecto está conformado por cinco voluntarios encarga
 
 ## Personal
 
-Nuestro personal recibe una remuneración por contribuir a los contenidos complementarios de Privacy Guides, como [producción de vídeos](https://www.youtube.com/@privacyguides), [artículos de noticias y tutoriales](https://www.privacyguides.org/articles/), y nuestras comunidades de debate y redes sociales. La mayoría están disponibles y son remunerados a tiempo completo para ayudar a la organización.
+Our staff are paid to contribute to supplemental content at Privacy Guides, like [video production](https://www.youtube.com/@privacyguides), [news articles and tutorials](https://www.privacyguides.org/articles), and our discussion communities and social media. La mayoría están disponibles y son remunerados a tiempo completo para ayudar a la organización.
 
 <div class="grid cards" markdown>
 

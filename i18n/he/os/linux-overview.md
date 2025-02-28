@@ -32,7 +32,7 @@ It is a [common misconception](../basics/common-misconceptions.md#open-source-so
 
 - **ארגז חול חזק** עבור אפליקציות בלינוקס חסר מאוד, אפילו עם אפליקציות מכולות כמו Flatpaks או פתרונות ארגז חול כמו Firejail. Flatpak is the most promising sandboxing utility for Linux thus far, but is still deficient in many areas and allows for [unsafe defaults](https://flatkill.org/2020) which permit most apps to trivially bypass their sandbox.
 
-בנוסף, לינוקס מפגרת בהטמעת [הפחתות ניצול](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) אשר כעת סטנדרטיות במערכות הפעלה אחרות, כגון Code Guard שרירותי ב-Windows או Hardened Runtime ב-macOS. כמו כן, רוב תוכניות הלינוקס ולינוקס עצמה מקודדות בשפות שאינן בטוחות בזיכרון. Memory corruption bugs are responsible for the [majority of vulnerabilities](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code) fixed and assigned a CVE. למרות שזה נכון גם עבור Windows ו-macOS, הם מתקדמים במהירות באימוץ שפות בטוחות לזיכרון - כמו Rust ו- Swift, בהתאמה - בעוד שאין מאמץ דומה לשכתב את לינוקס בשפה בטוחה לזיכרון כמו Rust.
+בנוסף, לינוקס מפגרת בהטמעת [הפחתות ניצול](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) אשר כעת סטנדרטיות במערכות הפעלה אחרות, כגון Code Guard שרירותי ב-Windows או Hardened Runtime ב-macOS. כמו כן, רוב תוכניות הלינוקס ולינוקס עצמה מקודדות בשפות שאינן בטוחות בזיכרון. Memory corruption bugs are responsible for the [majority of vulnerabilities](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code) fixed and assigned a CVE. While this is also true for Windows and macOS, they are quickly making progress on adopting memory-safe languages such as Rust and Swift, respectively.
 
 ## בחירת ההפצה שלך
 

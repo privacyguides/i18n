@@ -32,7 +32,7 @@ There are some notable security concerns with Linux which you should be aware of
 
 - Linux 上的應用程式嚴重缺乏**強大的沙盒**，即使便使用 Flatpaks 等容器化應用程式或 Firejail 等沙盒解決方案還是不足。 Flatpak 是迄今為止最被看好的 Linux 沙盒實用工具，但它仍存在許多缺陷，且允許 [不安全的預設設定](https://flatkill.org/2020) ，這使得大多數應用程式可輕鬆繞過其沙盒。
 
-此外，Linux 在實施 [漏洞緩解措施](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) 方面落後，這些緩解措施現已成為其他操作系統的標準配置，例如 Windows 上的任意代碼防護或 macOS 上的強化運行時間。 此外，大多數 Linux 程式和 Linux 本身都是用記憶體不安全語言編寫的。 記憶體損壞錯誤是造成[大多數漏洞](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code)的原因已修復並分配了CVE。 雖然 Windows 和 macOS 也是如此，但它們在使用記憶體安全語言（例如 Rust 和 Swift）上正在迅速進展，而Linux 方面則沒有這類以 Rust 重寫記憶體安全的投入 。
+此外，Linux 在實施 [漏洞緩解措施](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) 方面落後，這些緩解措施現已成為其他操作系統的標準配置，例如 Windows 上的任意代碼防護或 macOS 上的強化運行時間。 此外，大多數 Linux 程式和 Linux 本身都是用記憶體不安全語言編寫的。 記憶體損壞錯誤是造成[大多數漏洞](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code)的原因已修復並分配了CVE。 While this is also true for Windows and macOS, they are quickly making progress on adopting memory-safe languages such as Rust and Swift, respectively.
 
 ## 挑選發行版本
 
