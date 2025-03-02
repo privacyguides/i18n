@@ -137,6 +137,7 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
     - [x] Select **Auto-Redirect Tracking URLs**
     - \[x\] (Optional) Select **Block Scripts** (1)
     - [x] Select **Block Fingerprinting**
+    - [x] Select **Site Tabs Closed** under *Auto Shred*
 
     <details class="warning" markdown>
     <summary>Use default filter lists</summary>
@@ -166,6 +167,7 @@ Shields的选项可以根据需要在每个站点的基础上进行降级，但�
     - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - \[x\] (Optional) Select **No protection** under *Safe Browsing* (1)
     - [ ] Uncheck **Allow sites to check if you have payment methods saved**
+    - [ ] Uncheck **V8 Optimizer** under *Manage V8 security*
     - [x] Select **Close tabs on exit**
     - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
     - [ ] Uncheck **Automatically send diagnostic reports**

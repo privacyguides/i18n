@@ -137,6 +137,7 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
     - [x] Selecciona **URL de seguimiento de redirección automática**
     - \[x\] (Opcional) Selecciona **Bloquear Scripts** (1)
     - [x] Selecciona **Bloquear Fingerprinting**
+    - [x] Select **Site Tabs Closed** under *Auto Shred*
 
     <details class="warning" markdown>
     <summary>Utiliza listas de filtros predeterminadas</summary>
@@ -166,6 +167,7 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
     - [x] Selecciona **Desactivar UDP sin proxy** en [*Política de gestión de IP de WebRTC*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - \[x\] (Opcional) Selecciona **Sin protección** en *Navegación segura* (1)
     - [ ] Desmarca **Permite a los sitios comprobar si tienes métodos de pago guardados**
+    - [ ] Uncheck **V8 Optimizer** under *Manage V8 security*
     - [x] Selecciona **Cerrar pestañas al salir**
     - [ ] Desmarca **Permitir estadísticas del producto con preservación de la privacidad (P3A)**
     - [ ] Desmarca **Enviar informes de diagnóstico automáticamente**
