@@ -1,11 +1,11 @@
 ---
-meta_title: The Best Android Operating Systems - Privacy Guides
-title: Alternative Distributions
-description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
+meta_title: מערכות ההפעלה הטובות ביותר של אנדרואיד - Privacy Guides
+title: הפצות אלטרנטיביות
+description: אתה יכול להחליף את מערכת ההפעלה בטלפון האנדרואיד שלך בחלופות מאובטחות ומכבדות פרטיות.
 schema:
   - "@context": http://schema.org
     "@type": WebPage
-    name: Private Android Operating Systems
+    name: מערכות הפעלה פרטיות לאנדרואיד
     url: ./
   - "@context": http://schema.org
     "@type": CreativeWork
@@ -20,27 +20,27 @@ schema:
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-<small>Protects against the following threat(s):</small>
+<small> מגן מפני האיומ/ים הבאים: </small>
 
-- [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-target-account: התקפות ממוקדות](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-bug-outline: התקפות פסיביות](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-A **custom Android-based operating system** (sometimes referred to as a **custom ROM**) can be a way to achieve a higher level of privacy and security on your device. This is in contrast to the "stock" version of Android which comes with your phone from the factory, and is often deeply integrated with Google Play Services as well as other vendor software.
+מערכת הפעלה מבוססת אנדרואיד מותאמת אישית \*\* \*\* (המכונה לעיתים ROM \*\* מותאם אישית \*\*) יכולה להיות דרך להשיג רמה גבוהה יותר של פרטיות ואבטחה במכשיר שלך. זאת בניגוד לגרסת "הסטוק" של אנדרואיד שמגיעה עם הטלפון שלך מהמפעל, ולעתים קרובות משולבת עמוק עם שירותי Google Play כמו גם בתוכנת ספקים אחרים.
 
-We recommend installing GrapheneOS if you have a Google Pixel as it provides improved security hardening and additional privacy features. The reasons we don't list other operating systems or devices are as follows:
+אנו ממליצים להתקין GrapheneOS אם יש לך פיקסל של גוגל מכיוון שהוא מספק הקשחת אבטחה משופרת ותכונות פרטיות נוספות. הסיבות שאיננו מפרטים מערכות הפעלה או מכשירים אחרים הן כדלקמן:
 
-- They often have [weaker security](index.md#install-a-custom-distribution).
-- Support is frequently dropped when the maintainer loses interest or upgrades their device, which is in contrast to the predictable [support cycle](https://grapheneos.org/faq#device-lifetime) that GrapheneOS follows.
-- They generally have few or no notable privacy or security improvements that make installing them worthwhile.
+- לעתים קרובות יש להם [אבטחה חלשה יותר](index.md#install-a-custom-distribution).
+- התמיכה נופלת לעתים קרובות כאשר המתחזק מאבד עניין או משדרג את המכשיר שלהם, וזה בניגוד למחזור [מחזור התמיכה](https://grapheneos.org/faq#device-lifetime) ש-GrapheneOS עוקבים.
+- בדרך כלל יש להם מעט שיפורי פרטיות או אבטחה בולטים או שאינם בולטים שהופכים את התקנתם לכדאית.
 
 ## GrapheneOS
 
 <div class="admonition recommendation" markdown>
 
-![GrapheneOS logo](../assets/img/android/grapheneos.svg#only-light){ align=right }
-![GrapheneOS logo](../assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
+![GrapheneOS לוגו](../assets/img/android/grapheneos.svg#only-light){ align=right }
+![GrapheneOS לוגו](../assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
 
-**GrapheneOS** is the best choice when it comes to privacy and security.
+**GrapheneOS** היא הבחירה הטובה ביותר בכל הקשור לפרטיות וביטחון.
 
 GrapheneOS provides additional [security hardening](https://en.wikipedia.org/wiki/Hardening_\(computing\)) and privacy improvements. It has a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), network and sensor permissions, and various other [security features](https://grapheneos.org/features). GrapheneOS also comes with full firmware updates and signed builds, so verified boot is fully supported.
 
@@ -56,19 +56,19 @@ GrapheneOS supports [sandboxed Google Play](https://grapheneos.org/usage#sandbox
 
 [Google Pixel phones](../mobile-phones.md#google-pixel) are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#future-devices).
 
-By default, Android makes many network connections to Google to perform DNS connectivity checks, to sync with current network time, to check your network connectivity, and for many other background tasks. GrapheneOS replaces these with connections to servers operated by GrapheneOS and subject to their privacy policy. This hides information like your IP address [from Google](../basics/common-threats.md#privacy-from-service-providers), but means it is trivial for an admin on your network or ISP to see you are making connections to `grapheneos.network`, `grapheneos.org`, etc. and deduce what operating system you are using.
+כברירת מחדל, אנדרואיד מייצרת חיבורי רשת רבים לגוגל כדי לבצע בדיקות קישוריות של DNS, לסנכרון עם זמן הרשת הנוכחי, כדי לבדוק את קישוריות הרשת שלך ועבור משימות רקע רבות אחרות. GrapheneOS מחליף את אלה בחיבורים לשרתים המופעלים על ידי GrapheneOS ובכפוף למדיניות הפרטיות שלהם. זה מסתיר מידע כמו כתובת ה- IP שלך [מגוגל](../basics/common-threats.md#privacy-from-service-providers), אבל פירושו שזה טריוויאלי שמנהל המנהל ברשת או בספקס שלך יראה שאתה יוצר חיבורים ל- `grapheneos.network`, `grapheneos.org`, וכו' ותסיק באיזו מערכת הפעלה אתה משתמש.
 
-If you want to hide information like this from an adversary on your network or ISP, you **must** use a [trusted VPN](../vpn.md) in addition to changing the connectivity check setting to **Standard (Google)**. It can be found in :gear: **Settings** → **Network & internet** → **Internet connectivity checks**. This option allows you to connect to Google's servers for connectivity checks, which, alongside the usage of a VPN, helps you blend in with a larger pool of Android devices.
+אם ברצונך להסתיר מידע כזה מיריב ברשת או לספק האינטרנט שלך, עליך \*\* \*\* להשתמש ב- [VPN מהימן](../vpn.md) בנוסף לשינוי הגדרת בדיקת הקישוריות ל \*\* סטנדרט (גוגל) \*\*. ניתן למצוא אותו ב :gear: \*\* הגדרות \*\* ← \*\* רשת ואינטרנט \*\* ← \*\* בדיקות קישוריות לאינטרנט \*\*. אפשרות זו מאפשרת לך להתחבר לשרתים של גוגל לבדיקות קישוריות, אשר לצד השימוש ב- VPN עוזר לך להתמזג עם מאגר גדול יותר של מכשירי אנדרואיד.
 
 ## קריטריונים
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
+\*\*\*\* שימו לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם. \*\* בנוסף ל[הקריטריונים הסטנדרטיים שלנו](../about/criteria.md), פיתחנו מערך ברור של דרישות המאפשרות לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
 
 - חייבת להיות תוכנת קוד פתוח.
-- Must support bootloader locking with custom AVB key support.
-- Must receive major Android updates within 0-1 months of release.
-- Must receive Android feature updates (minor version) within 0-14 days of release.
-- Must receive regular security patches within 0-5 days of release.
-- Must **not** be "rooted" out of the box.
-- Must **not** enable Google Play Services by default.
-- Must **not** require system modification to support Google Play Services.
+- חייב לתמוך בנעילת bootloader עם תמיכת מפתח AVB מותאמת אישית.
+- חייב לקבל עדכוני אנדרואיד גדולים בתוך 0-1 חודשים מהשחרור.
+- חייב לקבל עדכוני תכונות אנדרואיד (גרסה מינורית) בתוך 0-14 ימים מהשחרור.
+- חייב לקבל תיקוני אבטחה רגילים בתוך 0-5 ימים מהשחרור.
+- חייב \*\* לא \*\* להיות "rooted" מחוץ לקופסה.
+- חייב **לא** להפעיל את שירותי Google Play כברירת מחדל.
+- חייב **לא** לדרוש שינוי במערכת כדי לתמוך בשירותי Google Play.

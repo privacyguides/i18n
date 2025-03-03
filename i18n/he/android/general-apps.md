@@ -133,7 +133,7 @@ The image orientation metadata is not deleted. If you enable location (in Secure
 
 ## קריטריונים
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
+\*\*\*\* שימו לב שאיננו קשורים לאף אחד מהפרויקטים שאנו ממליצים עליהם. \*\* בנוסף ל[הקריטריונים הסטנדרטיים שלנו](../about/criteria.md), פיתחנו מערך ברור של דרישות המאפשרות לנו לספק המלצות אובייקטיביות. אנו מציעים לך להכיר את הרשימה הזו לפני שתבחר להשתמש בפרויקט, ולערוך מחקר משלך כדי להבטיח שזו הבחירה הנכונה עבורך.
 
 - Applications on this page must not be applicable to any other software category on the site.
 - General applications should extend or replace core system functionality.

@@ -1,6 +1,6 @@
 ---
-title: About Privacy Guides
-description: Privacy Guides is a socially motivated website that provides information for protecting your data security and privacy.
+title: אודות Privacy Guides
+description: Privacy Guides הוא אתר בעל מוטיבציה חברתית המספק מידע להגנה על אבטחת הנתונים ופרטיותך.
 schema:
   "@context": https://schema.org
   "@type": Organization
@@ -16,7 +16,7 @@ schema:
     - https://mastodon.neat.computer/@privacyguides
 ---
 
-![Privacy Guides logo](assets/brand/logos/png/square/pg-yellow.png){ align=right }
+![Privacy Guides לוגו](assets/brand/logos/png/square/pg-yellow.png){ align=right }
 
 **Privacy Guides** is a socially motivated website that provides information for protecting your data security and privacy. We are a non-profit project with a mission to inform the public about the value of digital privacy, and about global government initiatives which aim to monitor your online activity. Our website is free of advertisements and not affiliated with any of the listed providers.
 

@@ -40,8 +40,8 @@
 *[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
 *[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: Internet Message Access Protocol
-*[IMEI]: International Mobile Equipment Identity
-*[IMSI]: International Mobile Subscriber Identity
+*[IMEI]: זהות ציוד סלולרי בינלאומי
+*[IMSI]: זהות מנויים סלולרית בינלאומית
 *[IP]: פרוטוקול אינטרנט
 *[IPv4]: פרוטוקול אינטרנט גרסה 4
 *[IPv6]: פרוטוקול אינטרנט גרסה 6

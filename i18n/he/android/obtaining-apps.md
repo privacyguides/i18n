@@ -1,9 +1,9 @@
 ---
-title: Obtaining Applications
-description: We recommend these methods for obtaining applications on Android without interacting with Google Play Services.
+title: השגת יישומים
+description: אנו ממליצים על שיטות אלה להשגת יישומים באנדרואיד מבלי לקיים אינטראקציה עם שירותי גוגל משחקים.
 ---
 
-There are many ways to obtain Android apps privately, even from the Play Store, without interacting with Google Play Services. We recommend the following methods of obtaining applications on Android, listed in order of preference.
+ישנן דרכים רבות להשיג אפליקציות אנדרואיד באופן פרטי, אפילו מחנות Play, מבלי ליצור אינטראקציה עם שירותי Google Play. אנו ממליצים על השיטות הבאות להשגת יישומים באנדרואיד, המופיעים לפי סדר העדפה.
 
 ## Obtainium
 
@@ -11,15 +11,15 @@ There are many ways to obtain Android apps privately, even from the Play Store, 
 
 ![Obtainium logo](../assets/img/android/obtainium.svg){ align=right }
 
-**Obtainium** is an app manager which allows you to install and update apps directly from the developer's own releases page (i.e. GitHub, GitLab, the developer's website, etc.), rather than a centralized app store/repository. It supports automatic background updates on Android 12 and higher.
+**Obtainium** הוא מנהל אפליקציות המאפשר להתקין ולעדכן אפליקציות ישירות מדף המהדורות של המפתח עצמו (כלומר Github, Gitlab, אתר המפתח וכו'), ולא חנות/מאגר אפליקציות ריכוזיות. הוא תומך בעדכוני רקע אוטומטיים על אנדרואיד 12 ומעלה.
 
 [:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/ImranR98/Obtainium/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
+[:octicons-info-16:](https://github.com/ImranR98/Obtainium/wiki){ .card-link title=תיעוד}
+[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="קוד מקור" }
+[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=תרמו }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary> הורדות </summary>
 
 - [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
 
@@ -27,9 +27,9 @@ There are many ways to obtain Android apps privately, even from the Play Store, 
 
 </div>
 
-Obtainium allows you to download APK installer files from a wide variety of sources, and it is up to you to ensure those sources and apps are legitimate. For example, using Obtainium to install Signal from [Signal's APK landing page](https://signal.org/android/apk) should be fine, but installing from third-party APK repositories like Aptoide or APKPure may pose additional risks. The risk of installing a malicious _update_ is lower, because Android itself verifies that all app updates are signed by the same developer as the existing app on your phone before installing them.
+Obtainium מאפשר לך להוריד קבצי התקנה של APK ממגוון רחב של מקורות, וזה תלוי בך כדי להבטיח שמקורות ואפליקציות אלה לגיטימיים. For example, using Obtainium to install Signal from [Signal's APK landing page](https://signal.org/android/apk) should be fine, but installing from third-party APK repositories like Aptoide or APKPure may pose additional risks. The risk of installing a malicious _update_ is lower, because Android itself verifies that all app updates are signed by the same developer as the existing app on your phone before installing them.
 
-## GrapheneOS App Store
+## GrapheneOS חנות אפליקציות
 
 GrapheneOS's app store is available on [GitHub](https://github.com/GrapheneOS/Apps/releases). It supports Android 12 and above and is capable of updating itself. The app store has standalone applications built by the GrapheneOS project such as the [Auditor](../device-integrity.md#auditor-android), [Camera](general-apps.md#secure-camera), and [PDF Viewer](general-apps.md#secure-pdf-viewer). If you are looking for these applications, we highly recommend that you get them from GrapheneOS's app store instead of the Play Store, as the apps on their store are signed by the GrapheneOS's project own signature that Google does not have access to.
 
