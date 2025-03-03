@@ -14,7 +14,7 @@ Det finns några anmärkningsvärda integritetsproblem med macOS som du bör tä
 
 ### Aktiveringslås
 
-Brand-new Apple Silicon devices can be set up without an internet connection. However, recovering or resetting your Mac will **require** an internet connection to Apple's servers to check against the Activation Lock database of lost or stolen devices.
+Fabriksnya Apple Siliconenheter kan aktiveras utan någon internetanslutning. För att återställa eller fabriksåterställa din Mac **krävs** en internetanslutning till Apples servrar för att jämföra mot Aktiveringslås-databasen över förlorade eller stulna enheter.
 
 ### App Revocation Checks
 
@@ -70,7 +70,7 @@ Click the **Options** button:
 
 If this configuration is too strict, you can come back and uncheck this. However, macOS will typically prompt you to allow incoming connections for an app if the app requests it.
 
-#### General
+#### Allmänt
 
 By default, your device name will be something like "[your name]'s iMac". Because this name is publicly broadcast on your network, you'll want to change your device name to something generic like "Mac".
 
@@ -92,7 +92,7 @@ Click the small :material-information-outline: icon next to **Automatic Updates*
 
 - [x] Check **Install Security Responses and system files**
 
-#### Privacy & Security
+#### Integritet & säkerhet
 
 Whenever an application requests a permission, it will show up here. You can decide which applications you want to allow or deny specific permissions.
 

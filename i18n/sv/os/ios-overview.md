@@ -95,7 +95,7 @@ You also have the option to **Limit IP Address Tracking**. This is similar to iC
 
 Note that Bluetooth is automatically turned on after every system update.
 
-#### General
+#### Allmänt
 
 Your iPhone's device name will by default contain your first name, and this will be visible to anyone on networks you connect to. You should change this to something more generic, like "iPhone." Select **About** → **Name** and enter the device name you prefer.
 
