@@ -1,18 +1,18 @@
 ---
-title: macOS Overview
+title: macOS Översikt
 icon: material/apple-finder
-description: macOS is Apple's desktop operating system that works with their hardware to provide strong security.
+description: macOS är Apples operativsystem för datorer som är integrerat med deras egen hårdvara för att ge ökad säkerhet.
 ---
 
-**macOS** är ett Unix-baserat operativsystem utvecklat av Apple för deras Macdatorer. To enhance privacy on macOS, you can disable telemetry features and harden existing privacy and security settings.
+**macOS** är ett Unix-baserat operativsystem utvecklat av Apple för deras Macdatorer. För att förbättra integriteten på macOS kan du inaktivera telemetrifunktioner och skärpa de befintliga integritets- och säkerhetsinställningar.
 
-Older Intel-based Macs and Hackintoshes do not support all the security features that macOS offers. To enhance data security, we recommend using a newer Mac with [Apple Silicon](https://support.apple.com/HT211814).
+Äldre Intel-baserade Mac-datorer och Hackintosh-datorer stödjer inte alla säkerhetsfunktioner som macOS erbjuder. För att maximera datasäkerheten rekommenderar vi att du använder en nyare Macdator med [Apple Silicon.](https://support.apple.com/HT211814)
 
-## Privacy Notes
+## Integritetsanmärkningar
 
-There are a few notable privacy concerns with macOS that you should consider. These pertain to the operating system itself, and not Apple's other apps and services.
+Det finns några anmärkningsvärda integritetsproblem med macOS som du bör tänka på. Dessa gäller själva operativsystemet och inte Apples övriga appar och tjänster.
 
-### Activation Lock
+### Aktiveringslås
 
 Brand-new Apple Silicon devices can be set up without an internet connection. However, recovering or resetting your Mac will **require** an internet connection to Apple's servers to check against the Activation Lock database of lost or stolen devices.
 
