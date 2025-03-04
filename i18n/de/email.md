@@ -58,12 +58,12 @@ OpenPGP unterstützt auch keine Forward Secrecy. Das heißt, wenn entweder dein 
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** ist ein E-Mail-Dienst mit dem Schwerpunkt auf Datenschutz, Verschlüsselung, Sicherheit und Benutzerfreundlichkeit. Sie sind seit 2013 in Betrieb. Proton AG is based in Geneva, Switzerland. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+**Proton Mail** ist ein E-Mail-Dienst mit dem Schwerpunkt auf Datenschutz, Verschlüsselung, Sicherheit und Benutzerfreundlichkeit. Sie sind seit 2013 in Betrieb. Die Proton AG hat ihren Sitz in Genf, Schweiz. Der Proton Mail Free Tarif beinhaltet 500 MB Mailspeicher, den du kostenlos auf bis zu 1 GB erweitern kannst.
 
-[:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://proton.me/de/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Datenschutzrichtlinie" }
-[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Dokumentation" }
+[:octicons-eye-16:](https://proton.me/de/mail/privacy-policy){ .card-link title="Datenschutzerklärung" }
+[:octicons-info-16:](https://proton.me/de/support/mail){ .card-link title="Dokumentation" }
 [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Quellcode" }
 
 <details class="downloads" markdown>
@@ -97,7 +97,7 @@ Proton Mail akzeptiert, neben den üblichen Zahlungen per Kredit-/Debitkarte, [B
 
 #### :material-check:{ .pg-green } Kontosicherheit
 
-Proton Mail supports TOTP [two-factor authentication](https://proton.me/support/two-factor-authentication-2fa) and [hardware security keys](https://proton.me/support/2fa-security-key) using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
+Proton Mail unterstützt TOTP [Zwei-Faktor-Authentisierung](https://proton.me/support/two-factor-authentication-2fa) und [Hardware-Sicherheitsschlüssel](https://proton.me/support/2fa-security-key) mittels FIDO2 oder U2F Standard. Um einen Hardware-Sicherheitsschlüssel zu nutzen, muss zuerst ein TOTP Code eingerichtet sein.
 
 #### :material-check:{ .pg-green } Datensicherheit
 
@@ -117,7 +117,7 @@ Wenn du ein kostenpflichtiges Konto hast und deine Rechnung [nach 14 Tagen noch 
 
 #### :material-information-outline:{ .pg-blue } Zusätzliche Funktionen
 
-Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
+Der [Unlimited-Tarif](https://proton.me/de/support/proton-plans#proton-unlimited) von Proton Mail ermöglicht auch den Zugang zu anderen Proton-Diensten und bietet darüber hinaus mehrere benutzerdefinierte Domains, eine unbegrenzte Anzahl von "Hide-my-email"-Aliasnamen und 500 GB Speicherplatz.
 
 Proton Mail bietet keine Funktion für deinen digitalen Nachlass.
 
@@ -127,11 +127,11 @@ Proton Mail bietet keine Funktion für deinen digitalen Nachlass.
 
 ![Mailbox.org-Logo](assets/img/email/mailboxorg.svg){ align=right }
 
-**Mailbox.org** ist ein E-Mail-Dienst, mit dem Ziel sicher und werbefrei zu sein und der mit 100 % Ökostrom betrieben wird. Er wird seit 2014 betrieben. Mailbox.org hat seinen Sitz in Berlin, Deutschland. Accounts start with up to 2 GB storage, which can be upgraded as needed.
+**Mailbox.org** ist ein E-Mail-Dienst, mit dem Ziel sicher und werbefrei zu sein und der mit 100 % Ökostrom betrieben wird. Er wird seit 2014 betrieben. Mailbox.org hat seinen Sitz in Berlin, Deutschland. Konten beginnen mit 2 GB Speicherplatz, der nach Bedarf erweitert werden kann.
 
 [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Datenschutzrichtlinie" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Dokumentation" }
+[:octicons-eye-16:](https://mailbox.org/de/datenschutz){ .card-link title="Datenschutzrichtlinie" }
+[:octicons-info-16:](https://kb.mailbox.org/de/privat){ .card-link title="Dokumentation" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -148,11 +148,11 @@ Bei Mailbox.org kannst du deine eigene Domain verwenden, und es werden [Catch-Al
 
 #### :material-check:{ .pg-green } Diskrete Zahlungsmöglichkeiten
 
-Mailbox.org akzeptiert keine Kryptowährungen, da deren Zahlungsanbieter BitPay seinen Betrieb in Deutschland eingestellt hat. However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and a couple of German-specific processors: paydirekt and Sofortüberweisung.
+Mailbox.org akzeptiert keine Kryptowährungen, da deren Zahlungsanbieter BitPay seinen Betrieb in Deutschland eingestellt hat. Sie akzeptieren jedoch Bargeld per Post, Bareinzahlung auf ein Bankkonto, Banküberweisung, Kreditkarte, PayPal und einige Deutschland spezifische Anbieter: paydirekt und Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Kontosicherheit
 
-Mailbox.org supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. Du kannst entweder TOTP oder einen [YubiKey](https://en.wikipedia.org/wiki/YubiKey) über die [YubiCloud](https://yubico.com/products/services-software/yubicloud) verwenden. Webstandards wie [WebAuthn](https://de.wikipedia.org/wiki/WebAuthn) werden noch nicht unterstützt.
+Mailbox.org unterstützt [Zwei-Faktor-Authentisierung](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) nur für Webmail. Du kannst entweder TOTP oder einen [YubiKey](https://en.wikipedia.org/wiki/YubiKey) über die [YubiCloud](https://yubico.com/products/services-software/yubicloud) verwenden. Webstandards wie [WebAuthn](https://de.wikipedia.org/wiki/WebAuthn) werden noch nicht unterstützt.
 
 #### :material-information-outline:{ .pg-blue } Datensicherheit
 
@@ -172,7 +172,7 @@ Nach Ablauf deines Vertrags wird dein Konto zunächst auf ein eingeschränktes B
 
 #### :material-information-outline:{ .pg-blue } Zusätzliche Funktionen
 
-Du kannst auf Ihr Mailbox.org-Konto über IMAP/SMTP zugreifen, indem du deren [.onion-Dienst](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org) nutzt. However, their webmail interface cannot be accessed via their .onion service, and you may experience TLS certificate errors.
+Du kannst auf Ihr Mailbox.org-Konto über IMAP/SMTP zugreifen, indem du deren [.onion-Dienst](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org) nutzt. Auf die Webmail-Schnittstelle kann jedoch nicht über den .onion-Dienst zugegriffen werden und es können TLS-Zertifikatsfehler auftreten.
 
 Alle Konten verfügen über einen begrenzten Cloud-Speicher, der [verschlüsselt werden kann](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org bietet auch den Alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely) an, der die TLS-Verschlüsselung der Verbindung zwischen den Mailservern erzwingt, ansonsten wird die Nachricht erst gar nicht gesendet. Mailbox.org unterstützt neben den Standardzugriffsprotokollen wie IMAP und POP3 auch [Exchange ActiveSync](https://de.wikipedia.org/wiki/Exchange_ActiveSync).
 
@@ -195,11 +195,11 @@ Diese Anbieter speichern deine E-Mails mit Zero-Knowledge-Verschlüsselung und s
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (ehemals *Tutanota*) ist ein E-Mail-Dienst mit einem Fokus auf Sicherheit und Privatsphäre durch Verschlüsselung. Tuta ist seit 2011 in Betrieb und hat seinen Sitz in Hannover, Deutschland. Free accounts start with 1 GB of storage.
+**Tuta** (ehemals *Tutanota*) ist ein E-Mail-Dienst mit einem Fokus auf Sicherheit und Privatsphäre durch Verschlüsselung. Tuta ist seit 2011 in Betrieb und hat seinen Sitz in Hannover, Deutschland. Kostenlose Konten beginnen mit 1 GB Speicherplatz.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Datenschutzrichtlinie" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title="Dokumentation" }
+[:octicons-eye-16:](https://tuta.com/de/privacy-policy){ .card-link title="Datenschutzerklärung" }
+[:octicons-info-16:](https://tuta.com/de/support){ .card-link title="Dokumentation" }
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Quellcode" }
 [:octicons-heart-16:](https://tuta.com/community){ .card-link title="Mitwirken" }
 
@@ -226,11 +226,11 @@ Bezahlte Tuta-Konten können je nach Tarif entweder 15 oder 30 Aliase und unbegr
 
 #### :material-information-outline:{ .pg-blue } Private Zahlungsmöglichkeiten
 
-Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
+Tuta akzeptiert nur Kreditkarten und PayPal, aber [Kryptowährung](cryptocurrency.md) kann verwendet werden, um Guthabenkarten über ihre [Partnerschaft](https://tuta.com/support/#cryptocurrency) mit Proxystore zu kaufen.
 
 #### :material-check:{ .pg-green } Kontosicherheit
 
-Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
+Tuta unterstützt die [Zwei-Faktor-Authentisierung](https://tuta.com/support#2fa) entweder mit TOTP oder U2F.
 
 #### :material-check:{ .pg-green } Datensicherheit
 
@@ -297,7 +297,7 @@ Wir halten diese Merkmale für wichtig, um einen sicheren und optimalen Service 
 **Mindestvoraussetzung um sich zu qualifizieren:**
 
 - Verschlüsselt die Daten von E-Mail-Konten im Ruhezustand mit Zero-Access-Verschlüsselung.
-- Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
+- Exportmöglichkeit als [Mbox](https://de.wikipedia.org/wiki/Mbox) oder individuelle .EML mit [RFC5322](https://datatracker.ietf.org/doc/rfc5322)-Standard.
 - Erlaubt es dem Nutzer, seinen eigenen [Domainnamen](https://de.wikipedia.org/wiki/Domain_(Internet)) zu verwenden. Benutzerdefinierte Domänennamen sind für die Nutzer wichtig, da du so deine Identität von dem Dienst fernhalten kannst, falls dieser sich als schlecht erweist oder von einem anderen Unternehmen übernommen wird, bei dem der Datenschutz keine Rolle spielt.
 - Arbeitet auf einer eigenen Infrastruktur, d.h. nicht auf der eines Drittanbieters von E-Mail-Diensten.
 

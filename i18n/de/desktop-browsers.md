@@ -109,7 +109,7 @@ Dies ist erforderlich, um fortgeschrittene Formen der Nachverfolgung zu verhinde
 
 ### Mullvad Leta
 
-Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes pre-installed with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. Mullvad Leta greift für die Suche direkt auf die kostenpflichtige API von Google zu, daher ist es auf zahlende Abonnenten beschränkt. Aufgrund dieser Einschränkung ist es für Mullvad jedoch möglich, Suchanfragen über Mullvad Leta mit Mullvad-VPN-Konten in einen Zusammenhang zu setzen. Aus diesem Grund raten wir von der Verwendung von Mullvad Leta ab, auch wenn Mullvad nur sehr wenige Informationen über seine VPN-Abonnenten sammelt.
+Der Mullvad Browser wird mit DuckDuckGo als Standard [Suchmaschine](search-engines.md) ausgeliefert, aber es ist auch **Mullvad Leta** vorinstalliert, eine Suchmaschine, die ein aktives Mullvad VPN-Abonnement erfordert, um darauf zugreifen zu können. Mullvad Leta greift für die Suche direkt auf die kostenpflichtige API von Google zu, daher ist es auf zahlende Abonnenten beschränkt. Aufgrund dieser Einschränkung ist es für Mullvad jedoch möglich, Suchanfragen über Mullvad Leta mit Mullvad-VPN-Konten in einen Zusammenhang zu setzen. Aus diesem Grund raten wir von der Verwendung von Mullvad Leta ab, auch wenn Mullvad nur sehr wenige Informationen über seine VPN-Abonnenten sammelt.
 
 ## Firefox
 
@@ -189,7 +189,7 @@ Laut Mozillas Datenschutzrichtlinie für Firefox,
 
 > Firefox sendet Daten über deine Firefox-Version und -Sprache, das Betriebssystem und die Hardware-Konfiguration deines Geräts, den Arbeitsspeicher, grundlegende Informationen über Abstürze und Fehler sowie die Ergebnisse automatisierter Prozesse wie Updates, Safebrowsing und Aktivierung an Mozilla. Wenn Firefox Daten an Mozilla sendet, wird deine IP-Adresse vorübergehend als Teil von Mozillas Serverprotokollen erfasst.
 
-Außerdem sammelt der Mozilla-Konten-Dienst [einige technische Daten](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt out:
+Außerdem sammelt der Mozilla-Konten-Dienst [einige technische Daten](https://mozilla.org/privacy/mozilla-accounts). Wenn du ein Mozilla-Konto verwendest, kannst du dich hiervon abmelden:
 
 1. Öffnen deine [Profileinstellungen auf accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Deaktiviere **Datenerfassung und -nutzung** > **Helfen Sie, Firefox-Konten zu verbessern**
@@ -204,7 +204,7 @@ Mit der Veröffentlichung von Firefox 128 wurde eine neue Einstellung für die [
 
 - [x] Wähle **Nur-HTTPS-Modus in allen Fenstern aktivieren**
 
-Dadurch wird verhindert, dass ungewollt eine Verbindung zu einer Website mit einer unverschlüsselten HTTP-Verbindung hergestellt wird. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+Dadurch wird verhindert, dass ungewollt eine Verbindung zu einer Website mit einer unverschlüsselten HTTP-Verbindung hergestellt wird. Websites ohne HTTPS sind heutzutage unüblich, sodass dies nur geringe oder gar keine Auswirkungen auf das tägliche Surfen haben sollte.
 
 ##### DNS über HTTPS
 
@@ -297,7 +297,7 @@ Brave ermöglicht die Auswahl zusätzlicher Inhaltsfilter auf der internen Seite
 
 </div>
 
-1. Mit dieser Option wird JavaScript deaktiviert, was bei vielen Websites zu Problemen führt. To fix them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+1. Mit dieser Option wird JavaScript deaktiviert, was bei vielen Websites zu Problemen führt. Um sie wieder nutzbar zu machen, können Sie Ausnahmen für jede einzelne Website festlegen, indem Sie auf das Schild-Symbol in der Adressleiste klicken und diese Einstellung unter *Fortgeschrittene Steuerung* deaktivieren.
 2. Wenn Sie bei einer bestimmten Website, die Sie häufig besuchen, angemeldet bleiben möchten, können Sie Ausnahmen für jede einzelne Website festlegen, indem Sie auf das Schild-Symbol in der Adressleiste klicken und diese Einstellung unter *Erweiterte Steuerelemente* deaktivieren.
 
 #### Datenschutz und Sicherheit
@@ -327,7 +327,7 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 ##### Tor-Fenster
 
-[**Privates Fenster mit Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) ermöglicht es dir, deinen Datenverkehr durch das Tor-Netzwerk in Inkognito-Fenster zu leiten und auf .onion-Dienste zuzugreifen, was in einigen Fällen nützlich sein kann. However, Brave is **not** as resistant to fingerprinting as the Tor Browser is, and far fewer people use Brave with Tor, so you will stand out. Wenn dein Bedrohungsmodell starke Anonymität erfordert, benutze den [Tor Browser](tor.md#tor-browser).
+[**Privates Fenster mit Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) ermöglicht es dir, deinen Datenverkehr durch das Tor-Netzwerk in Inkognito-Fenster zu leiten und auf .onion-Dienste zuzugreifen, was in einigen Fällen nützlich sein kann. Allerdings ist Brave **nicht** so resistent gegen Fingerprinting wie der Tor-Browser und es gibt viel weniger Leute, die Brave zusammen mit Tor benutzen, sodass du auffallen wirst. Wenn dein Bedrohungsmodell starke Anonymität erfordert, benutze den [Tor Browser](tor.md#tor-browser).
 
 ##### Datenerfassung
 
@@ -346,9 +346,9 @@ Die Web3-Funktionen von Brave können deinen Browser-Fingerabdruck und deine Ang
 
 - [ ] Deaktiviere alle integrierten Erweiterungen, die du nicht verwendest
 
-#### Search engine
+#### Suchmaschine
 
-We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
+Wir empfehlen die Deaktivierung von Suchvorschlägen in Brave aus demselben Grund, aus dem wir die Deaktivierung dieser Funktion in [Firefox](#search) empfehlen.
 
 - [ ] **Suchvorschläge anzeigen** deaktivieren
 

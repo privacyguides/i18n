@@ -80,7 +80,7 @@ schema:
     name: KeePassXC
     image: /assets/img/password-management/keepassxc.svg
     url: https://keepassxc.org
-    sameAs: https://en.wikipedia.org/wiki/KeePassXC
+    sameAs: https://de.wikipedia.org/wiki/KeePassXC
     applicationCategory: Passwort-Manager
     operatingSystem:
       - Windows
@@ -145,7 +145,7 @@ schema:
 <div class="admonition info" markdown>
 <p class="admonition-title">Info</p>
 
-Integrierte Passwortmanager in Software wie Browsern und Betriebssystemen sind manchmal nicht so gut wie spezielle Passwortmanager-Software. The advantage of a built-in password manager is good integration with the software, but it can often be very simple and lack privacy and security features that standalone offerings have.
+Integrierte Passwortmanager in Software wie Browsern und Betriebssystemen sind manchmal nicht so gut wie spezielle Passwortmanager-Software. Der Vorteil eines integrierten Passwortmanagers ist die gute Integration in die Software, aber er ist oft sehr einfach und verfügt nicht über die Datenschutz- und Sicherheitsfunktionen, die eigenständige Angebote bieten.
 
 Der Passwort-Manager in Microsoft Edge bietet zum Beispiel überhaupt kein E2EE. Googles Passwortmanager hat [optional](https://support.google.com/accounts/answer/11350823) E2EE, und [Apples](https://support.apple.com/HT202303) bietet standardmäßig E2EE.
 
@@ -163,10 +163,10 @@ Diese Passwort-Manager synchronisieren deine Passwörter mit einem Cloud-Server,
 
 **Bitwarden** ist ein kostenloser und quelloffener Passwort- und Passkey-Manager. Es zielt darauf ab, Passwortmanagementprobleme für Einzelpersonen, Teams und Unternehmen zu lösen. Bitwarden ist eine der besten und sichersten Lösungen, um alle deine Logins und Passwörter zu speichern und sie bequem zwischen all deinen Geräten zu synchronisieren.
 
-[:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://bitwarden.com/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Source Code" }
+[:octicons-home-16: Homepage](https://bitwarden.com/de-de/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://bitwarden.com/de-de/privacy/){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://bitwarden.com/de-de/help/){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Quellcode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -229,7 +229,7 @@ Der serverseitige Code von Bitwarden ist [quelloffen](https://github.com/bitward
 
 Mit der Übernahme von SimpleLogin im April 2022 bietet Proton eine "Hide-My-Email"-Funktion an, mit der du 10 Aliase (kostenloser Plan) oder unbegrenzte Aliase (kostenpflichtige Pläne) erstellen kannst.
 
-The Proton Pass mobile apps and browser extension underwent an audit performed by Cure53 throughout May and June 2023. Das Sicherheitsanalyseunternehmen kam zu dem Schluss:
+Die mobilen Anwendungen und die Browsererweiterung von Proton Pass wurden im Mai und Juni 2023 von Cure53 geprüft. Das Sicherheitsanalyseunternehmen kam zu dem Schluss:
 
 > Proton Pass Apps und Komponenten hinterlassen einen recht positiven Eindruck in Sachen Sicherheit.
 
