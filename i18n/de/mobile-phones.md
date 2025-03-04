@@ -1,7 +1,7 @@
 ---
 title: Mobiltelefone
 icon: material/cellphone-check
-description: These mobile devices provide the best hardware security support for custom Android operating systems.
+description: Diese mobilen Geräte bieten die beste Hardware-Sicherheitsunterstützung für benutzerdefinierte Android-Betriebssysteme.
 cover: android.webp
 schema:
   - "@context": http://schema.org
@@ -33,7 +33,7 @@ Die meisten **Mobiltelefone** erhalten nur kurze oder begrenzte Zeitfenster für
 
 Die hier aufgelisteten Mobilgeräte bieten eine lange Lebensdauer garantierter Sicherheitsupdates und ermöglichen Ihnen die Installation eines benutzerdefinierten Betriebssystems, ohne das Android-Sicherheitsmodell zu verletzen.
 
-[Recommended Android Distributions :material-arrow-right-drop-circle:](android/distributions.md){ .md-button .md-button--primary } [Details about Android Security :material-arrow-right-drop-circle:](os/android-overview.md#security-protections){ .md-button }
+[Empfohlene Android Distributionen :material-arrow-right-drop-circle:](android/distributions.md){ .md-button .md-button--primary } [Details zur Android-Sicherheit :material-arrow-right-drop-circle:](os/android-overview.md#security-protections){ .md-button }
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warnung</p>
@@ -82,9 +82,9 @@ Ein paar weitere Tipps für den Kauf eines Google Pixel:
 
 - Wenn du ein Schnäppchen bei einem Pixel-Gerät machen möchtest, empfehlen wir dir, ein „**a**“-Modell zu kaufen, kurz nachdem das nächste Flaggschiff veröffentlicht wurde. Meist gibt es dann Rabatte, weil Google versucht, seine Bestände zu räumen.
 - Consider price beating options and specials offered at physical stores.
-- Look at online community bargain sites in your country. These can alert you to good sales.
-- Google provides a list showing the [support cycle](https://support.google.com/nexus/answer/4457705) for each one of their devices. The price per day for a device can be calculated as: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext>Cost</mtext> <mrow> <mtext>End of Life Date</mtext> <mo>−</mo> <mtext>Current Date</mtext> </mrow> </mfrac> </math>
-  , meaning that the longer use of the device the lower cost per day.
+- Schaue auf online Schnäppchen-Seiten in deinem Land nach. Diese können dich auf gute Angebote aufmerksam machen.
+- Google stellt eine Liste mit dem [Support-Zyklus](https://support.google.com/nexus/answer/4457705?hl=de) für jedes ihrer Geräte zur Verfügung. Der Preis pro Tag für ein Gerät kann wie folgt berechnet werden: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext>Kosten</mtext> <mrow> <mtext>End-of-Life Datum</mtext> <mo>−</mo> <mtext>Aktuelles Datum</mtext> </mrow> </mfrac> </math>
+  , d. h. dass die Kosten pro Tag umso niedriger sind, je länger das Gerät genutzt wird.
 - Auch wenn das Pixel in deiner Region nicht verfügbar ist, kann das [NitroPhone](https://shop.nitrokey.com/shop) weltweit versendet werden.
 
 ## Kriterien
