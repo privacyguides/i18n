@@ -378,7 +378,7 @@ Com os provedores de e-mail que recomendamos, gostamos de ver um marketing respo
 
 **Mínimo Para Qualificação:**
 
-- É necessário hospedar análises (sem Google Analytics, Adobe Analytics, etc.). O site do provedor também deve estar em conformidade com o [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) para aqueles que desejarem desativá-lo.
+- Must self-host analytics (no Google Analytics, Adobe Analytics, etc.).
 
 Não deve haver qualquer marketing irresponsável, o que pode incluir o seguinte:
 

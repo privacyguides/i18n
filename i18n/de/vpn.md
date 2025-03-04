@@ -358,7 +358,7 @@ Bei den von uns empfohlenen VPN-Anbietern legen wir Wert auf ein verantwortungsv
 
 **Mindestvoraussetzung um zu qualifizieren:**
 
-- Sie müssen die Analysen selbst hosten (d. h. kein Google Analytics). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for people who want to opt out.
+- Must self-host analytics (i.e., no Google Analytics).
 
 Es darf kein Marketing geben, das unverantwortlich ist:
 

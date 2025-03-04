@@ -358,7 +358,7 @@ VPN הוא חסר טעם אם הוא אפילו לא יכול לספק אבטח�
 
 **מינימום כדי לעמוד בדרישות:**
 
-- חייבים לבצע ניתוח מידע באיחסון עצמי (כלומר, ללא Google Analytics). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for people who want to opt out.
+- Must self-host analytics (i.e., no Google Analytics).
 
 אסור שיהיה שיווק שהוא חסר אחריות:
 

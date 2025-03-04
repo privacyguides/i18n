@@ -24,7 +24,7 @@ Alle von uns [empfohlenen Passwort-Manager](../passwords.md) enthalten einen int
 
 Passwörter, die du dir merken musst (z. B. das Master-Passwort deines Passwort-Managers), solltest du nicht zu oft ändern, es sei denn, du hast Grund zu der Annahme, dass es kompromittiert wurde, denn wenn du es zu oft änderst, besteht die Gefahr, dass du es vergisst.
 
-When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multifactor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. Bei den meisten Passwort-Managern kannst du ein Verfallsdatum für dein Passwort festlegen, um die Verwaltung zu erleichtern.
+Wenn es um Passwörter geht, die du dir nicht merken musst (z. B. Passwörter, die in deinem Passwort-Manager gespeichert sind), empfehlen wir, falls dein [Bedrohungsmodell](threat-modeling.md) dies erfordert, wichtige Konten durchzugehen (insbesondere Konten, die keine Multi-Faktor-Authentifizierung verwenden) und deine Passwörter alle paar Monate zu ändern, für den Fall, dass sie durch eine noch nicht öffentlich gewordenes Datenleck gefährdet sind. Bei den meisten Passwort-Managern kannst du ein Verfallsdatum für dein Passwort festlegen, um die Verwaltung zu erleichtern.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Nach Datenlecks suchen</p>
@@ -54,13 +54,13 @@ Gehe wie folgt vor, um eine Diceware-Passphrase mit echten Würfeln zu erstellen
 <div class="admonition Note" markdown>
 <p class="admonition-title">Anmerkung</p>
 
-These instructions assume that you are using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other word lists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
+In dieser Anleitung wird davon ausgegangen, dass du die [EFF's große Wortliste](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) verwendest, um die Passphrase zu generieren, was fünf Würfelwürfe pro Wort erfordert. Andere Wortlisten können mehr oder weniger Würfe pro Wort erfordern und eine andere Anzahl von Wörtern benötigen, um die gleiche Entropie zu erreichen.
 
 </div>
 
 1. Würfel fünfmal mit einem sechsseitigen Würfel und notiere dir die Zahl nach jedem Wurf.
 
-2. Nehmen wir zum Beispiel an, du hast `2-5-2-6-6` gewürfelt. Look through the [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
+2. Nehmen wir zum Beispiel an, du hast `2-5-2-6-6` gewürfelt. Suche in [der großen Wortliste des EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) nach dem Wort, das `25266` entspricht.
 
 3. Du findest das Wort `encrypt`. Schreibe dieses Wort auf.
 
@@ -75,25 +75,25 @@ Du solltest die Wörter **nicht** neu rollen bis du eine Kombination von Wörter
 
 Wenn du keinen Zugang zu echten Würfeln hast oder es vorziehst, diesen nicht zu verwenden, kannst du den integrierten Passwortgenerator deines Passwort-Managers verwenden, da die meisten von ihnen die Option haben, zusätzlich zu den normalen Passwörtern auch Diceware-Passphrasen zu generieren.
 
-We recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
+Wir empfehlen, die [große Wortliste des EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) zu verwenden, um deine Diceware-Passphrasen zu generieren, da sie genau die gleiche Sicherheit bietet wie die ursprüngliche Liste, aber Wörter enthält, die man sich leichter merken kann. Es gibt auch [Wortlisten in verschiedenen Sprachen](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), wenn du nicht willst, dass deine Passphrase auf Englisch ist ([hier findest du die deutsche Version](https://theworld. com/~reinhold/diceware_german. txt)).
 
 <details class="note" markdown>
 <summary>Erläuterung von Entropie und der Stärke Diceware-Passphrasen</summary>
 
-To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
+Um zu demonstrieren, wie stark Passphrasen für Diceware sind, verwenden wir die oben erwähnte Passphrase mit sieben Wörtern(`sichtbar Schnelligkeit zögerlich weich siebzehn gezeigt Bleistift`) und die [große Wortliste des EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) als Beispiel.
 
 Eine Kennzahl zur Bestimmung der Stärke einer Diceware-Passphrase ist die Entropie, die sie aufweist. Die Entropie pro Wort in einer Diceware-Passphrase wird wie folgt berechnet <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mtext>WörterInListe</mtext> <mo form="postfix" stretchy="false">)</mo> </mrow> </math> und die Gesamtentropie der Passphrase wird wie folgt berechnet: <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mtext>WörterInListe</mtext> <mtext>WörterInPhrase</mtext> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>
 
 Daher ergibt jedes Wort in der oben genannten Liste ~12,9 Bits an Entropie (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mn>7776</mn> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>), und eine daraus abgeleitete Passphrase mit sieben Wörtern hat eine Entropie von ~90,47 Bit (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mn>7776</mn> <mn>7</mn> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>).
 
-The [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. Um die Anzahl der möglichen Passphrasen zu berechnen, müssen wir nur Folgendes tun <math> <msup> <mtext>WörterInListe</mtext> <mtext>WörterInPhrase</mtext> </msup> </math>, oder in unserem Fall, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
+[Die große Wortliste des EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) enthält 7776 einzigartige Wörter. Um die Anzahl der möglichen Passphrasen zu berechnen, müssen wir nur Folgendes tun <math> <msup> <mtext>WörterInListe</mtext> <mtext>WörterInPhrase</mtext> </msup> </math>, oder in unserem Fall, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
 
-Let's put all of this in perspective: A seven word passphrase using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+Lass uns das in den richtigen Kontext setzen: Eine Passphrase mit sieben Wörtern unter Verwendung der [großen Wortliste des EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) ist eine von ~1.719.070.799.748.422.500.000.000.000 möglichen Passphrasen.
 
 Im Durchschnitt müssen 50 % aller möglichen Kombinationen ausprobiert werden, um deinen Satz zu erraten. Selbst wenn dein Gegner in der Lage ist, ~1.000.000.000.000 Mal pro Sekunde zu raten, bräuchte er immer noch ~27.255.689 Jahre, um deine Passphrase zu erraten. Das ist auch dann der Fall, wenn die folgenden Dinge zutreffen:
 
 - Dein Gegner weiß, dass du die Diceware-Methode verwendet hast.
-- Your adversary knows the specific word list that you used.
+- Dein Gegner weiß die spezifische Wortliste, die du verwendet hast.
 - Dein Gegner weiß, wie viele Wörter deine Passphrase enthält.
 
 </details>
@@ -113,7 +113,7 @@ Es stehen viele gute Optionen zur Auswahl, sowohl cloudbasierte als auch lokale.
 <div class="admonition warning" markdown>
 <p class="admonition-title">Speichere deine Passwörter und TOTP-Tokens nicht im selben Passwortmanager ab</p>
 
-When using [TOTP codes as multifactor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
+Wenn du [TOTP-Codes als Multi-Faktor-Authentifizierung](multi-factor-authentication.md#time-based-one-time-password-totp) verwendest, ist es die beste Sicherheitspraxis, deine TOTP-Codes in einer [separaten Anwendung](../multi-factor-authentication.md) zu speichern.
 
 Das Speichern deiner TOTP-Tokens am gleichen Ort wie deine Passwörter ist zwar praktisch, reduziert aber die Konten auf einen einzigen Faktor, falls ein Angreifer Zugang zu deinem Passwortmanager erhält.
 

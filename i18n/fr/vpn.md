@@ -358,7 +358,7 @@ Avec les fournisseurs de VPN que nous recommandons, nous aimons voir un marketin
 
 **Minimum pour se qualifier :**
 
-- Doit héberger lui-même ses outils d'analyse de traffic (pas de Google Analytics, etc.). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for people who want to opt out.
+- Must self-host analytics (i.e., no Google Analytics).
 
 Ne doit pas avoir de marketing irresponsable :
 

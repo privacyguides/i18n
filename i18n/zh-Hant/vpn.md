@@ -358,7 +358,7 @@ We require all our recommended VPN providers to provide standard configuration f
 
 **最低合格要求：**
 
-- 必須自行託管分析工具 (例如不使用 Google Analytics)。 The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for people who want to opt out.
+- Must self-host analytics (i.e., no Google Analytics).
 
 不得有任何不負責任的行銷：
 

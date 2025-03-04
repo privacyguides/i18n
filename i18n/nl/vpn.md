@@ -358,7 +358,7 @@ Bij de VPN providers die wij aanbevelen zien wij graag verantwoorde marketing.
 
 **Minimum om in aanmerking te komen:**
 
-- Moet zelf analytics hosten (d.w.z., geen Google Analytics). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for people who want to opt out.
+- Must self-host analytics (i.e., no Google Analytics).
 
 Mag geen marketing hebben die onverantwoord is:
 

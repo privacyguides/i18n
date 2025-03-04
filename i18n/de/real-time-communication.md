@@ -42,9 +42,9 @@ Diese Messenger eignen sich hervorragend zur Sicherung deiner sensiblen Kommunik
 - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
 - [:simple-github: GitHub](https://github.com/signalapp/Signal-Android/releases)
 - [:simple-android: Android](https://signal.org/android/apk)
-- [:fontawesome-brands-windows: Windows](https://signal.org/download/windows)
-- [:simple-apple: macOS](https://signal.org/download/macos)
-- [:simple-linux: Linux](https://signal.org/download/linux)
+- [:fontawesome-brands-windows: Windows](https://signal.org/de/download/windows)
+- [:simple-apple: macOS](https://signal.org/de/download/macos)
+- [:simple-linux: Linux](https://signal.org/de/download/linux)
 
 </details>
 
@@ -102,9 +102,9 @@ Beachte, dass du durch die Verwendung von Molly mehreren Parteien vertraust, da 
 
 There is a version of Molly called **Molly-FOSS** which removes proprietary code like the Google services used by both Signal and Molly, at the expense of some features like battery-saving push notifications via Google Play Services. You can regain push notifications without Google Play Services in either version of Molly with [UnifiedPush](https://unifiedpush.org), but it requires running a separate program called [Mollysocket](https://github.com/mollyim/mollysocket) on another device to function. Mollysocket can either be self-hosted on a separate computer or server (VPS), or alternatively a public Mollysocket instance can be used ([step-by-step tutorial, in German](https://kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy)).
 
-All versions of Molly provide the same security improvements.
+Alle Versionen von Molly bieten die gleichen Sicherheitsverbesserungen.
 
-Molly and Molly-FOSS support [reproducible builds](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds), meaning it's possible to confirm that the compiled APKs match the source code.
+Molly und Molly-FOSS unterstützen [reproduzierbare Builds](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds), d. h. es ist möglich zu bestätigen, dass die kompilierten APKs mit dem Quellcode übereinstimmen.
 
 ### SimpleX Chat
 
@@ -137,9 +137,9 @@ SimpleX provides direct messaging, group chats, and E2EE calls secured with the 
 
 To participate in conversations on SimpleX Chat, you must scan a QR code or click an invite link. This allows you to verify a contact out-of-band, which protects against man-in-the-middle attacks by network providers. Your data can be exported and imported onto another device, as there are no central servers where this is backed up.
 
-You can find a full list of the privacy and security [features](https://github.com/simplex-chat/simplex-chat#privacy-and-security-technical-details-and-limitations) implemented in SimpleX Chat on the app's repository.
+Eine vollständige Liste der in SimpleX Chat implementierten [Datenschutz- und Sicherheitsfunktionen](https://github.com/simplex-chat/simplex-chat#privacy-and-security-technical-details-and-limitations) findest du im Repository der App.
 
-SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html#simplex-cryptographic-design-review-by-trail-of-bits) and in [October 2022](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website).
+SimpleX Chat wurde im [Juli 2024](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html#simplex-cryptographic-design-review-by-trail-of-bits) und im [Oktober 2022](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website) unabhängig geprüft.
 
 ### Briar
 
@@ -263,7 +263,7 @@ Session has a [white paper](https://arxiv.org/pdf/2002.04609.pdf) describing the
 
 ## Kriterien
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Bitte beachte, dass wir mit keinem der Projekte, die wir empfehlen, in Verbindung stehen.** Zusätzlich zu [unseren Standardkriterien](about/criteria.md) haben wir eine Reihe klarer Anforderungen entwickelt, die es uns ermöglichen, objektive Empfehlungen zu geben. Wir empfehlen dir, dich mit der Liste vertraut zu machen, bevor du dich für ein Projekt entscheidest, und deine eigenen Recherchen anzustellen, um sicherzustellen, dass es die richtige Wahl für dich ist.
 
 ### Mindestanforderungen
 

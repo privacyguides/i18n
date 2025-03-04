@@ -378,7 +378,7 @@ With the email providers we recommend, we like to see responsible marketing.
 
 **Minimum pour se qualifier :**
 
-- Doit héberger lui-même ses outils d'analyse de traffic (pas de Google Analytics, Adobe Analytics, etc.). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for those who wish to opt out.
+- Must self-host analytics (no Google Analytics, Adobe Analytics, etc.).
 
 Must not have any irresponsible marketing, which can include the following:
 

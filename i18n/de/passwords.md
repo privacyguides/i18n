@@ -175,13 +175,13 @@ Diese Passwort-Manager synchronisieren deine Passwörter mit einem Cloud-Server,
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1137397744)
 - [:simple-github: GitHub](https://github.com/bitwarden/android/releases)
 - [:fontawesome-brands-windows: Windows](https://bitwarden.com/download)
-- [:simple-apple: macOS](https://bitwarden.com/download)
-- [:simple-linux: Linux](https://bitwarden.com/download)
+- [:simple-apple: macOS](https://bitwarden.com/de-de/download/)
+- [:simple-linux: Linux](https://bitwarden.com/de-de/download/)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/com.bitwarden.desktop)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/bitwarden-password-manager)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
 - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
-- [:simple-safari: Safari](https://apps.apple.com/us/app/bitwarden/id1352778147)
+- [:simple-safari: Safari](https://apps.apple.com/de/app/bitwarden/id1352778147)
 
 </details>
 
@@ -195,9 +195,9 @@ Der serverseitige Code von Bitwarden ist [quelloffen](https://github.com/bitward
 
 **Vaultwarden** ist eine alternative Implementierung des Sync-Servers von Bitwarden, die in Rust geschrieben wurde und mit den offiziellen Bitwarden-Clients kompatibel ist. Sie eignet sich perfekt für den selbstgehosteten Einsatz, wenn der ressourcenintensive offizielle Dienst nicht ideal ist. Wenn du Bitwarden auf deinem eigenen Server hosten willst, wirst du mit ziemlicher Sicherheit lieber Vaultwarden als den offiziellen Servercode von Bitwarden verwenden wollen.
 
-[:octicons-repo-16: Vaultwarden Repository](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title="Contribute" }
+[:octicons-repo-16: Vaultwarden Repository](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title="Spenden" }
 
 ### Proton Pass
 
@@ -207,10 +207,10 @@ Der serverseitige Code von Bitwarden ist [quelloffen](https://github.com/bitward
 
 **Proton Pass** ist ein quelloffener, E2EE Passwort-Manager, der von Proton entwickelt wurde, dem Team hinter [Proton Mail](email.md#proton-mail). Es speichert deine Anmeldedaten sicher, erzeugt eindeutige E-Mail-Aliase und unterstützt und speichert Passkeys.
 
-[:octicons-home-16: Homepage](https://proton.me/pass){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/pass){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/protonpass){ .card-link title="Source Code" }
+[:octicons-home-16: Homepage](https://proton.me/de/pass){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://proton.me/de/pass/privacy-policy){ .card-link title="Datenschutzerklärung" }
+[:octicons-info-16:](https://proton.me/de/support/pass){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/protonpass){ .card-link title="Quellcode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -239,13 +239,13 @@ Alle Probleme wurden kurz nach dem [Bericht](https://res.cloudinary.com/dbulfrlr
 
 <div class="admonition recommendation" markdown>
 
-![1Password logo](assets/img/password-management/1password.svg){ align=right }
+![1Password Logo](assets/img/password-management/1password.svg){ align=right }
 
-**1Password** is a password manager with a strong focus on security and ease-of-use that allows you to store passwords, passkeys, credit cards, software licenses, and any other sensitive information in a secure digital vault. Dein Tresor wird auf den Servern von 1Password gegen eine [monatliche Gebühr] (https://1password.com/sign-up) gehostet. 1Password wird regelmäßig [geprüft] (https://support.1password.com/security-assessments) und bietet einen hervorragenden Kundensupport. 1Password ist ein Closed-Source-Produkt; die Sicherheit des Produkts ist jedoch in ihrem [Sicherheits-Whitepaper](https://1passwordstatic.com/files/security/1password-white-paper.pdf) ausführlich dokumentiert.
+**1Password** ist ein Passwortmanager mit einem starken Fokus auf Sicherheit und Benutzerfreundlichkeit, der es dir ermöglicht, Passwörter, Schlüssel, Kreditkarten, Softwarelizenzen und andere sensible Informationen in einem sicheren digitalen Tresor zu speichern. Dein Tresor wird auf den Servern von 1Password gegen eine [monatliche Gebühr] (https://1password.com/sign-up) gehostet. 1Password wird regelmäßig [geprüft] (https://support.1password.com/security-assessments) und bietet einen hervorragenden Kundensupport. 1Password ist ein Closed-Source-Produkt; die Sicherheit des Produkts ist jedoch in ihrem [Sicherheits-Whitepaper](https://1passwordstatic.com/files/security/1password-white-paper.pdf) ausführlich dokumentiert.
 
-[:octicons-home-16: Homepage](https://1password.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.1password.com){ .card-link title="Documentation" }
+[:octicons-home-16: Homepage](https://1password.com/de){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://1password.com/de/legal/privacy){ .card-link title="Datenschutzerklärung" }
+[:octicons-info-16:](https://support.1password.com/de/){ .card-link title="Dokumentation" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -265,7 +265,7 @@ Alle Probleme wurden kurz nach dem [Bericht](https://res.cloudinary.com/dbulfrlr
 
 </div>
 
-Traditionally, 1Password has offered the best password manager user experience for people using macOS and iOS; however, it has now achieved feature parity across all platforms. Die Clients von 1Password verfügen über viele Funktionen, die sich an Familien und technisch weniger versierte Personen richten, wie z. B. eine intuitive Benutzeroberfläche für einfache Bedienung und Navigation sowie erweiterte Funktionen. Nahezu jede Funktion von 1Password ist in den nativen mobilen oder Desktop-Clients verfügbar.
+Traditionell bot 1Password das beste Benutzererlebnis von Passwort-Managern für Menschen, die macOS und iOS nutzen; jedoch hat es nun Funktionsparität auf allen Plattformen erreicht. Die Clients von 1Password verfügen über viele Funktionen, die sich an Familien und technisch weniger versierte Personen richten, wie z. B. eine intuitive Benutzeroberfläche für einfache Bedienung und Navigation sowie erweiterte Funktionen. Nahezu jede Funktion von 1Password ist in den nativen mobilen oder Desktop-Clients verfügbar.
 
 Dein 1Password-Tresor ist sowohl mit deinem Master-Passwort als auch mit einem zufälligen 34-Zeichen-Sicherheitsschlüssel zur Verschlüsselung deiner Daten auf den Servern von 1Password gesichert. Dieser Sicherheitsschlüssel bietet einen zusätzlichen Schutz für deine Daten, da deine Daten unabhängig von deinem Master-Kennwort mit hoher Entropie gesichert sind. Viele andere Passwortmanager-Lösungen verlassen sich bei der Sicherung deiner Daten ausschließlich auf die Stärke deines Master-Passworts.
 
@@ -277,10 +277,10 @@ Dein 1Password-Tresor ist sowohl mit deinem Master-Passwort als auch mit einem z
 
 **Psono** ist ein freier und quelloffener Passwort-Manager aus Deutschland, der sich auf die Passwortverwaltung für Teams konzentriert. Psono unterstützt den sicheren Austausch von Passwörtern, Dateien, Lesezeichen und E-Mails. Alle Geheimnisse sind durch ein Master-Passwort geschützt.
 
-[:octicons-home-16: Homepage](https://psono.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://doc.psono.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Source Code" }
+[:octicons-home-16: Homepage](https://psono.com/de){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://psono.com/de/privacy-policy){ .card-link title="Datenschutzerklärung" }
+[:octicons-info-16:](https://doc.psono.com){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Quellcode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -307,7 +307,7 @@ Im April 2024 fügte Psono [Unterstützung für Passkeys](https://psono.com/blog
 
 - Muss starke, standardbasierte/moderne E2EE verwenden.
 - Muss gründlich dokumentierte Verschlüsselungs- und Sicherheitspraktiken haben.
-- Must have a published audit from a reputable, independent third party.
+- Es muss ein veröffentlichtes Audit von einem angesehenen, unabhängigen Dritten vorliegen.
 - Alle nicht wesentlichen Telemetriedaten müssen optional sein.
 - Es dürfen nicht mehr personenbezogene Daten erhoben werden, als für die Rechnungsstellung erforderlich sind.
 
@@ -326,15 +326,15 @@ Mit diesen Optionen kannst du eine verschlüsselte Kennwortdatenbank lokal verwa
 
 <div class="admonition recommendation" markdown>
 
-![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
+![KeePassXC Logo](assets/img/password-management/keepassxc.svg){ align=right }
 
-**KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal of extending and improving it with new features and bug fixes to provide a feature-rich, cross-platform, and modern open-source password manager.
+**KeePassXC** ist ein Community-Fork von KeePassX, einer nativen, plattformübergreifenden Portierung von KeePass Password Safe, mit dem Ziel, es mit neuen Funktionen und Fehlerbehebungen zu erweitern und zu verbessern, um einen funktionsreichen, plattformübergreifenden und modernen Open-Source-Passwortmanager anzubieten.
 
 [:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://keepassxc.org/docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title="Contribute" }
+[:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Datenschutzerklärung" }
+[:octicons-info-16:](https://keepassxc.org/docs){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title="Spenden" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -350,20 +350,20 @@ Mit diesen Optionen kannst du eine verschlüsselte Kennwortdatenbank lokal verwa
 
 </div>
 
-KeePassXC speichert seine Exportdaten als [CSV-Dateien](https://en.wikipedia.org/wiki/Comma-separated_values). You may encounter data loss if you import this file into another password manager. Wir empfehlen dir, jeden Datensatz manuell zu überprüfen.
+KeePassXC speichert seine Exportdaten als [CSV-Dateien](https://en.wikipedia.org/wiki/Comma-separated_values). Es kann zu Datenverlusten kommen, wenn du diese Datei in einen anderen Passwortmanager importierst. Wir empfehlen dir, jeden Datensatz manuell zu überprüfen.
 
 ### KeePassDX (Android)
 
 <div class="admonition recommendation" markdown>
 
-![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
+![KeePassDX Logo](assets/img/password-management/keepassdx.svg){ align=right }
 
-**KeePassDX** is a lightweight password manager for Android; it allows for editing encrypted data in a single file in KeePass format and can fill in forms securely. Die [Pro-Version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) der App ermöglicht es dir, kosmetische Inhalte und nicht standardmäßige Protokollfunktionen freizuschalten, aber noch wichtiger ist, dass sie die Entwicklung unterstützt und fördert.
+**KeePassDX** ist ein leichtgewichtiger Passwort-Manager für Android. Er ermöglicht das Bearbeiten von verschlüsselten Daten in einer einzelnen Datei im KeePass-Format und kann Formulare sicher ausfüllen. Die [Pro-Version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) der App ermöglicht es dir, kosmetische Inhalte und nicht standardmäßige Protokollfunktionen freizuschalten, aber noch wichtiger ist, dass sie die Entwicklung unterstützt und fördert.
 
 [:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title="Contribute" }
+[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title="Spenden" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -383,11 +383,11 @@ KeePassXC speichert seine Exportdaten als [CSV-Dateien](https://en.wikipedia.org
 
 **Strongbox** ist ein nativer Passwortmanager für iOS und macOS. Strongbox unterstützt sowohl das KeePass- als auch das Password Safe-Format und kann zusammen mit anderen Passwortmanagern wie KeePassXC auf Nicht-Apple-Plattformen verwendet werden. Durch den Einsatz eines [Freemium-Modells](https://strongboxsafe.com/pricing) bietet Strongbox die meisten Funktionen im Rahmen seines kostenlosen Angebots an, wobei komfortablere [Funktionen](https://strongboxsafe.com/comparison) - wie biometrische Authentifizierung - hinter einem Abonnement oder einer unbefristeten Lizenz verschlossen sind.
 
-[:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://strongboxsafe.com/getting-started){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title="Contribute" }
+[:octicons-home-16: Homepage](https://strongboxsafe.com/de/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://strongboxsafe.com/de/privacy){ .card-link title="Datenschutzerklärung" }
+[:octicons-info-16:](https://strongboxsafe.com/de/erste-schritte-mit-strongbox/){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title="Unterstützen" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -398,7 +398,7 @@ KeePassXC speichert seine Exportdaten als [CSV-Dateien](https://en.wikipedia.org
 
 </div>
 
-Additionally, Strongbox offers an offline-only version: [Strongbox Zero](https://apps.apple.com/app/id1581589638). Diese Version ist abgespeckt, um die Angriffsfläche zu verringern.
+Zusätzlich bietet Strongbox eine reine Offline-Version an: [Strongbox Zero](https://apps.apple.com/app/id1581589638). Diese Version ist abgespeckt, um die Angriffsfläche zu verringern.
 
 ### gopass (CLI)
 
@@ -406,12 +406,12 @@ Additionally, Strongbox offers an offline-only version: [Strongbox Zero](https:/
 
 ![gopass Logo](assets/img/password-management/gopass.svg){ align=right }
 
-**gopass** ist ein minimaler, in Go geschriebener Passwortmanager für die Kommandozeile. It can be used within scripting applications and works on all major desktop and server operating systems.
+**gopass** ist ein minimaler, in Go geschriebener Passwortmanager für die Kommandozeile. Es kann innerhalb von Skripting-Anwendungen verwendet werden und funktioniert auf allen wichtigen Desktop- und Server-Betriebssystemen.
 
 [:octicons-home-16: Homepage](https://gopass.pw){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title="Contribute" }
+[:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title="Spenden" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

@@ -358,7 +358,7 @@ Privacy Guides가 권장하는 VPN 제공 업체들은 책임감 있는 마케�
 
 **최소 요구 사항:**
 
-- 애널리틱스 서비스는 자체 호스팅을 해야 합니다. (Google Analytics와 같은 서비스 사용 금지) The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for people who want to opt out.
+- Must self-host analytics (i.e., no Google Analytics).
 
 다음과 같은 무책임한 마케팅 방식을 사용하지 않아야 합니다.
 

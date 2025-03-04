@@ -358,7 +358,7 @@ VPN бессмысленен, если он даже не может обесп�
 
 **Минимальные требования:**
 
-- Должен самостоятельно проводить аналитику (т.е. не Google Analytics). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for people who want to opt out.
+- Must self-host analytics (i.e., no Google Analytics).
 
 Не должно быть никакого маркетинга, который является безответственным:
 

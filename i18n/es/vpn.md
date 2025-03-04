@@ -360,7 +360,7 @@ Con los proveedores de VPN que recomendamos nos gusta ver un marketing responsab
 
 **Mínimo para Calificar:**
 
-- Debe tener análisis propios (no Google Analytics, etc.). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for people who want to opt out.
+- Must self-host analytics (i.e., no Google Analytics).
 
 No debe tener ningún mercadeo que sea irresponsable:
 

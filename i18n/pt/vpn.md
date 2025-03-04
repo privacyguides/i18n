@@ -358,7 +358,7 @@ Os fornecedores de VPN que recomendamos devem ter uma política de marketing res
 
 **Mínimos de qualificação:**
 
-- Deve ter sistema de análise de estatísticas auto-hospedado (não podem usar o Google Analytics). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for people who want to opt out.
+- Must self-host analytics (i.e., no Google Analytics).
 
 Não deve implementar políticas de marketing irresponsáveis:
 

@@ -358,7 +358,7 @@ Az általunk ajánlott VPN-szolgáltatóknál felelős marketinget szeretünk l�
 
 **Alap elvárások minősítéshez:**
 
-- Saját üzemeltetésű analitikai rendszerrel kell rendelkeznie (azaz nem Google Analytics). The provider's site must also comply with [DNT (Do Not Track)](https://en.wikipedia.org/wiki/Do_Not_Track) for people who want to opt out.
+- Must self-host analytics (i.e., no Google Analytics).
 
 Nem használhat felelőtlen marketinget:
 

@@ -378,7 +378,7 @@ Tuta 不提供數位遺產功能。
 
 **最低合格要求：**
 
-- 必須自行託管分析 (不使用 Google Analytics、Adobe Analytics 等)。 供應商的網站也必須符合[不要追蹤 (DNT)](https://en.wikipedia.org/wiki/Do_Not_Track) 的規定，以滿足希望選擇不追蹤的人的需求。
+- Must self-host analytics (no Google Analytics, Adobe Analytics, etc.).
 
 不得有任何不負責任的行銷行為，可能包括下列內容：
 

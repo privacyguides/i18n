@@ -378,7 +378,7 @@ Con los proveedores de correo electrónico que recomendamos, nos gusta ver un ma
 
 **Mejor caso:**
 
-- Debe autoalojar las analíticas (no Google Analytics, Adobe Analytics, etc.). El sitio del proveedor también debe cumplir con [DNT (No Rastrear)](https://en.wikipedia.org/wiki/Do_Not_Track)para las personas que deseen darse de baja.
+- Must self-host analytics (no Google Analytics, Adobe Analytics, etc.).
 
 No debe tener ningún tipo de marketing irresponsable, que puede incluir lo siguiente:
 

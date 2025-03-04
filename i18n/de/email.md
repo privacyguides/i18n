@@ -378,7 +378,7 @@ Bei den von uns empfohlenen E-Mail-Anbietern legen wir Wert auf ein verantwortun
 
 **Mindestvoraussetzung um sich zu qualifizieren:**
 
-- Sie müssen Ihre Analyse-Werkzeuge selbst hosten (kein Google Analytics, Adobe Analytics, etc.). Die Website des Anbieters muss auch die Anforderungen von [DNT (Do Not Track)](https://de.wikipedia.org/wiki/Do_Not_Track_(Software)) für diejenigen erfüllen, die sich dagegen entscheiden möchten.
+- Must self-host analytics (no Google Analytics, Adobe Analytics, etc.).
 
 Es darf kein unverantwortliches Marketing betrieben werden, wozu Folgendes gehören kann:
 
