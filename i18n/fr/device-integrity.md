@@ -101,7 +101,7 @@ Si vous utilisez iOS et que vous présentez un risque élevé, nous avons trois 
 
 2. Déclenchez souvent des journaux _sysdiagnose_ et sauvegardez-les en externe. Ces journaux peuvent fournir des données inestimables aux futurs enquêteurs criminalistiques si nécessaire.
 
-   La procédure à suivre varie selon le modèle, mais vous pouvez la déclencher sur les téléphones récents en maintenant enfoncées les touches _Alimentation_ + _Volume haut_ + _Volume bas_ jusqu'à ce que vous sentiez une brève vibration. Après quelques minutes, le journal _sysdiagnose_ horodaté apparaîtra dans **Paramètres** > **Confidentialité et sécurité** > **Analytiques et améliorations** > **Données analytiques**.
+    La procédure à suivre varie selon le modèle, mais vous pouvez la déclencher sur les téléphones récents en maintenant enfoncées les touches _Alimentation_ + _Volume haut_ + _Volume bas_ jusqu'à ce que vous sentiez une brève vibration. Après quelques minutes, le journal _sysdiagnose_ horodaté apparaîtra dans **Paramètres** > **Confidentialité et sécurité** > **Analytiques et améliorations** > **Données analytiques**.
 
 3. Activer le [mode Isolement](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode).
 

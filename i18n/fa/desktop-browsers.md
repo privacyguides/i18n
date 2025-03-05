@@ -109,7 +109,9 @@ Mullvad Browser comes with the *uBlock Origin* and *NoScript* browser extensions
 
 ### مولواد (Mullvad)
 
-Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes pre-installed with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. Mullvad Leta queries Google's paid search API directly, which is why it is limited to paying subscribers. However, it is possible for Mullvad to correlate search queries and Mullvad VPN accounts because of this limitation. For this reason we discourage the use of Mullvad Leta, even though Mullvad collects very little information about their VPN subscribers.
+Mullvad Browser comes with [**Mullvad Leta**](https://leta.mullvad.net) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
+
+If you are a Mullvad VPN user, there is some risk in using services like Mullvad Leta which are offered by your VPN provider themselves. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta), which is information a VPN is typically intended to separate. Even though Mullvad collects very little information about their VPN subscribers or Leta users, you should consider a different [search engine](search-engines.md) if this risk concerns you.
 
 ## فایرفاکس (Firefox)
 
@@ -152,9 +154,9 @@ These options can be found in :material-menu: → **Settings**.
 
 - [ ] Uncheck **Show search suggestions**
 
-ویژگی‌های پیشنهاد در جستجو ممکن است در منطقه شما در دسترس نباشند.
+Search suggestion features may not be available in your region.
 
-پیشنهادهای در جستجو همه‌ی مواردی را که در نوار آدرس تایپ می‌کنید به موتور جستجوی پیش‌فرض ارسال می‌کند، بدون درنظر گرفتن اینکه آیا شما یک جستجوی واقعی را ارسال کرده‌اید یا خیر. غیرفعال کردن پیشنهادهای جستجو به شما اجازه می‌دهد که با دقت بیشتری کنترل کنید که چه داده‌هایی را به ارائه‌دهنده موتور جستجو ارسال می‌کنید.
+Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
 ##### Firefox Suggest (US only)
 

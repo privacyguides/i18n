@@ -109,7 +109,9 @@ Mullvad 浏览器一直在无痕浏览模式下运行，这意味着每次关闭
 
 ### Mullvad Leta
 
-Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes pre-installed with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. Mullvad Leta queries Google's paid search API directly, which is why it is limited to paying subscribers. However, it is possible for Mullvad to correlate search queries and Mullvad VPN accounts because of this limitation. 因此，我们不建议使用 Mullvad Leta，虽然 Mullvad 对 VPN 用户信息收集得很少。
+Mullvad Browser comes with [**Mullvad Leta**](https://leta.mullvad.net) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
+
+If you are a Mullvad VPN user, there is some risk in using services like Mullvad Leta which are offered by your VPN provider themselves. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta), which is information a VPN is typically intended to separate. Even though Mullvad collects very little information about their VPN subscribers or Leta users, you should consider a different [search engine](search-engines.md) if this risk concerns you.
 
 ## Firefox（火狐浏览器）
 
@@ -146,19 +148,19 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 ### Recommended Firefox Configuration
 
-这些选项可以在 :material-menu: → **设置**中找到。
+These options can be found in :material-menu: → **Settings**.
 
 #### 搜索
 
 - [ ] Uncheck **Show search suggestions**
 
-搜索建议功能可能在你的地区无法使用。
+Search suggestion features may not be available in your region.
 
-搜索建议将你在地址栏中输入的所有内容发送到默认的搜索引擎，而不管你是否提交了实际的搜索。 禁用搜索建议可以让你更精确地控制你向搜索引擎供应商发送的数据。
+Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
 ##### Firefox Suggest (仅限美国)
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. 我们建议禁用这个功能，原因与我们建议禁用搜索建议的原因相同。 如果在 **地址栏** 标题下没有看到这些选项，则表示您没有获得这个功能，可以忽略这些设置。
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
 
 - [ ] Uncheck **Suggestions from Firefox**
 - [ ] 取消选中 **来自赞助商的建议**
@@ -169,15 +171,15 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 - [x] 选择 **严格的** 增强跟踪保护
 
-这可以通过阻止社交媒体追踪器、指纹脚本（注意，这并不能保护你 *所有* 指纹）、加密器、跨网站追踪cookies和其他一些追踪内容来保护你。 ETP可以防止许多常见的威胁，但它并不阻止所有的跟踪途径，因为它的设计对网站的可用性影响最小甚至没有影响。
+This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
 
 ##### 关闭时消毒
 
-如果你想在特定的网站上保持登录状态，你可以在 **Cookies和网站数据** → **管理例外情况中允许例外。**
+If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
 
 - [x] 勾选 **当Firefox关闭时，删除cookies和网站数据**
 
-这可以保护您免受持久性cookies的影响，但不能保护您免受在任何一个浏览会话中获得的cookies的影响。 启用该功能后，只需重新启动火狐浏览器，就可以轻松清理浏览器的cookies。 如果你希望在你经常访问的特定网站上保持登录状态，你可以在每个网站的基础上设置例外。
+This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
 
 ##### Telemetry
 
@@ -211,17 +213,17 @@ With the release of Firefox 128, a new setting for [privacy-preserving attributi
 
 - [x] 选择 **启用所有窗口的纯HTTPS-Only模式**
 
-这可以防止你无意中以纯文本的HTTP方式连接到一个网站。 Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
 
 
 
 ##### DNS over HTTPS
 
-如果您使用一个 [DNS over HTTPS 提供商](dns.md)：
+If you use a [DNS over HTTPS provider](dns.md):
 
 - [x] 选择 **最强保护** 并选择一个合适的提供商
 
-最强保护会强制使用 DoH ，如果 Firefox 无法连接到您的 DoH 服务器或者无法解析当前的域名会显示安全警告。 这将避免您所连接的网络秘密地降低您的 DNS 安全性。
+Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
 
 
 
@@ -240,9 +242,9 @@ With the release of Firefox 128, a new setting for [privacy-preserving attributi
 
 </div>
 
-[Arkenfox项目](https://github.com/arkenfox/user.js) ，为Firefox提供了一套精心考虑的选项。 If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. 我们 **，强烈建议** ，阅读其完整的 [wiki](https://github.com/arkenfox/user.js/wiki)。 Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
+The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
 
-Arkenfox 的目标只是通过 canvas 随机化和 Firefox 内置的抗指纹配置设置来挫败基本的或幼稚的跟踪脚本。 它不会像 Mullvad 浏览器或 Tor 浏览器那样，让你的浏览器与一大群其他用户融为一体，所以不会阻挡进阶的指纹跟踪脚本。 Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
+Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
 
 
 
@@ -284,7 +286,7 @@ Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%
 
 ### Recommended Brave Configuration
 
-这些选项可以在 :material-menu: → **设置**中找到。
+These options can be found in :material-menu: → **Settings**.
 
 
 
@@ -360,7 +362,7 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 #### Web3
 
-Brave 的 Web3 功能可能会增加浏览器指纹和攻击面。 Unless you use any of these features, they should be disabled.
+Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of these features, they should be disabled.
 
 - Select **Extensions (no fallback)** under *Default Ethereum wallet*
 - Select **Extensions (no fallback)** under *Default Solana wallet*
@@ -427,7 +429,7 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 ### 最好情况
 
-我们的最佳情况代表了我们希望从这个类别中的完美项目中看到的东西。 我们的推荐可能不包括任何或所有这些功能，但那些包含这些功能的推荐可能比本页面上的其他推荐排名更高。
+Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
 - Should include built-in content blocking functionality.
 - Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).

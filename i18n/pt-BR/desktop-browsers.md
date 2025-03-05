@@ -113,7 +113,9 @@ Isso é necessário para evitar formas avançadas de rastreamento, mas vem com o
 
 ### Mullvad Leta
 
-Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes pre-installed with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. O Mullvad Leta consulta diretamente a API de pesquisa paga do Google, razão pela qual está limitado aos assinantes pagantes. No entanto, é possível ao Mullvad correlacionar as consultas de pesquisa e as contas VPN do Mullvad devido a esta limitação. Por esse motivo, desencorajamos o uso do Mullvad Leta, mesmo que o Mullvad colete muito pouca informação sobre seus assinantes de VPN.
+Mullvad Browser comes with [**Mullvad Leta**](https://leta.mullvad.net) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
+
+If you are a Mullvad VPN user, there is some risk in using services like Mullvad Leta which are offered by your VPN provider themselves. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta), which is information a VPN is typically intended to separate. Even though Mullvad collects very little information about their VPN subscribers or Leta users, you should consider a different [search engine](search-engines.md) if this risk concerns you.
 
 ## Firefox
 
@@ -150,19 +152,19 @@ O Firefox inclui um [token de download] exclusivo (https://bugzilla.mozilla.org/
 
 ### Configuração recomendada do Firefox
 
-Essas opções podem ser encontradas em :material-menu: → **Configurações**.
+These options can be found in :material-menu: → **Settings**.
 
 #### Pesquisa
 
 - [ ] Desmarque **Mostrar sugestões de pesquisa**
 
-Os recursos de sugestão de pesquisa podem não estar disponíveis na sua região.
+Search suggestion features may not be available in your region.
 
-Sugestões de pesquisa enviam tudo o que você digita na barra de endereços para o mecanismo de pesquisa padrão, independente se você enviar uma pesquisa real. Desabilitar sugestões de busca permite que você controle com mais precisão quais dados você envia para o seu provedor de mecanismo de pesquisa.
+Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
 ##### Firefox Suggest (apenas nos EUA)
 
-[O Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) é um recurso semelhante às sugestões de pesquisa que está disponível apenas nos EUA. Recomendamos desativá-lo pelo mesmo motivo que recomendamos desativar as sugestões de pesquisa. Se você não ver essas opções sob o **cabeçalho da barra de endereços**, você não tem esse novo experimento e pode ignorar essas alterações.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
 
 - [ ] Desmarque **Sugestões de patrocinadores**
 - [ ] Desmarque **Sugestões de patrocinadores**
@@ -173,15 +175,15 @@ Sugestões de pesquisa enviam tudo o que você digita na barra de endereços par
 
 - [x] Selecione **Rigoroso**
 
-Isso protege você bloqueando rastreadores de mídia social, scripts de impressão digital (observe que isso não protege você de *todas as* impressões digitais), criptominers, “cookies” de rastreamento entre sites e alguns outros conteúdos de rastreamento. A Proteção aprimorada contra rastreamento (ETP) protege contra muitas ameaças comuns, mas isso não bloqueia todos os meios de rastreamento porque é projetado para ter um mínimo ou nenhum impacto na usabilidade do site.
+This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
 
 ##### Sanitizar ao Fechar
 
-O serviço [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy/) usa E2EE.
+If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
 
 - Selecione **Excluir cookies e dados do site quando o Firefox estiver fechado**
 
-Isso protege você contra cookies persistentes, mas não te protege contra cookies adquiridos durante a atual sessão de navegação. Quando isso está ativado, é possível limpar facilmente os cookies do navegador simplesmente reiniciando o Firefox. Você pode estabelecer exceções por site, se deseja permanecer logado em um site específico que você visita com frequência.
+This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
 
 ##### Telemetria
 
@@ -189,11 +191,11 @@ Isso protege você contra cookies persistentes, mas não te protege contra cooki
 - Limpar **Permitir que o Firefox instale e execute estudos**
 - Limpar **Permitir que o Firefox envie relatórios de falhas identificadas em seu nome**
 
-De acordo com a política de privacidade do Mozilla para Firefox,
+According to Mozilla's privacy policy for Firefox,
 
 > O Firefox envia dados sobre a sua versão e língua do Firefox; sistema operacional e configuração de hardware; memória, informação básica sobre crashes e erros; resultados de processos automatizados como atualizações, navegação segura e ativação para nós. Quando o Firefox envia dados para nós, seu endereço IP é temporariamente coletado como parte dos registros do nosso servidor.
 
-Ademais, o serviço Mozilla Accounts coleta [alguns dados técnicos](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt out:
+Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt out:
 
 1. Abra as suas [configurações de perfil em accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Desmarque **Coleta de dados e uso** > **Ajude a melhorar as contas Firefox**
@@ -202,25 +204,25 @@ Ademais, o serviço Mozilla Accounts coleta [alguns dados técnicos](https://moz
 
 - [ ] Desmarque **Permitir que sites façam medição de publicidade respeitando sua privacidade**
 
-Com o lançamento do Firefox 128, uma nova configuração para [atribuição de preservação da privacidade](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) foi adicionada e [ativada por padrão](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). O PPA permite que os anunciantes usem seu navegador da Web para medir a eficácia das campanhas na Web, em vez de usar o rastreamento tradicional baseado em JavaScript. Consideramos que esse comportamento está fora do escopo das responsabilidades de um agente de usuário, e o fato de estar desativado por padrão no Arkenfox é um indicador adicional para a desativação desse recurso.
+With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
 
 ##### Modo Somente HTTPS
 
 - Selecione **Ativar modo somente HTTPS em todas as janelas**
 
-Isso te previne de se conectar sem querer a um site em plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
 
 ##### DNS sobre HTTPS
 
-Se você usar um [provedor de DNS sobre HTTPS](dns.md):
+If you use a [DNS over HTTPS provider](dns.md):
 
 - [x] Selecione **Proteção Máxima** e escolha um provedor adequado
 
-A Proteção Máxima impõe o uso de DNS sobre HTTPS e um aviso de segurança será exibido se o Firefox não conseguir se conectar ao seu resolvedor de DNS seguro ou se o seu resolvedor de DNS seguro informar que os registros do domínio que você está tentando acessar não existem. Isso impede que a rede à qual você está conectado faça o downgrade secreto de sua segurança de DNS.
+Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
 
 #### Sincronização
 
-A [Sincronização do Firefox](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) permite que seus dados de navegação (histórico, favoritos, etc.) sejam acessíveis em todos os seus dispositivos, além de protegê-los com E2EE.
+[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
 
 ### Extensões
 
@@ -231,9 +233,9 @@ A [Sincronização do Firefox](https://hacks.mozilla.org/2018/11/firefox-sync-pr
 
 </div>
 
-O [projeto Arkenfox](https://github.com/arkenfox/user.js) fornece uma série de opções cuidadosamente selecionadas para o Firefox. Se você [decidir](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) usar o Arkenfox, [algumas opções](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) são subjetivamente rigorosas e/ou podem fazer com que alguns sites não funcionem corretamente, o que pode ser [facilmente alterado](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) para atender às suas necessidades. Nós **fortemente recomendamos** que você leia [a wiki completa do projeto](https://github.com/arkenfox/user.js/wiki). O Arkenfox também permite o suporte a [contêineres](https://support.mozilla.org/kb/containers#w_for-advanced-users).
+The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
 
-Arkenfox apenas mira em impedir básicos ou ingênuos scripts de rastreio através de uma aleatorização de tela e as configurações incorporadas do Firefox para resistir às impressões digitais. Ele não mira em fazer o seu navegador se misturar com uma grande multidão de outros usuários do Arkenfox na mesma forma que o Mullvad Browser ou o Tor Browser fazem, que é a única forma de impedir scripts avançados de rastreio de impressões digitais. Lembre-se que você pode sempre usar vários navegadores, por exemplo, você pode considerar usar o Firefox + Arkenfox para alguns poucos sites que você confia ou deseja permanecer logado, e o Mullvad Browser para a navegação em um geral.
+Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
 
 ## Brave
 
@@ -273,13 +275,13 @@ Brave adiciona um "[código de referência](https://github. om/brave/brave-brows
 
 ### Configuração recomendada do Brave
 
-Essas opções podem ser encontradas em :material-menu: → **Configurações**.
+These options can be found in :material-menu: → **Settings**.
 
 #### Shields
 
-O Brave inclui algumas medidas contra a impressão digital em seu recurso [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Sugerimos configurar essas opções [globalmente](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) em todas as páginas que você visita.
+Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
-As opções do Shields podem ser reduzidas para cada site caso necessário, mas por padrão nós recomendamos configurar as seguintes:
+As opções do Shields (Escudos) podem ser reduzidas de acordo com o site, conforme necessário, mas, por padrão, recomendamos configurar o seguinte:
 
 <div class="annotate" markdown>
 
@@ -331,7 +333,7 @@ Se desejar permanecer conectado a um site específico que visita com frequência
 
 ##### Tor Windows
 
-[**Janela privada com Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) permite rotear seu tráfego pela rede Tor em janelas privadas e acessar serviços .onion, o que pode ser útil em alguns casos. No entanto, o Brave **não** é tão resistente à impressão digital quanto o Navegador Tor, e muito menos pessoas usam o Brave com o Tor, portanto, você se destacará. Se o seu modelo de ameaça exigir um forte anonimato, use o [Navegador Tor](tor.md#tor-browser).
+[**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser is, and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
 
 ##### Coleta de dados
 
@@ -341,7 +343,7 @@ Se desejar permanecer conectado a um site específico que visita com frequência
 
 #### Web3
 
-As funcionalidades Web3 do Brave podem potencialmente acrescentar à impressão digital do seu navegador e a superfície de ataque. A menos que você use qualquer um desses recursos, eles devem ser desativados.
+Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of these features, they should be disabled.
 
 - Selecione **Extensões (sem fallback)** sob *carteira Ethereum padrão*
 - Selecione **Extensões (sem fallback)** sob *Carteira Solana padrão*
@@ -352,7 +354,7 @@ As funcionalidades Web3 do Brave podem potencialmente acrescentar à impressão 
 
 #### Motor de busca
 
-Recomendamos a desativação das sugestões de pesquisa no Brave pelo mesmo motivo que recomendamos a desativação desse recurso no [Firefox](#search).
+We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
 
 - [ ] Desmarque **Mostrar sugestões de pesquisa**
 
@@ -368,17 +370,17 @@ Recomendamos a desativação das sugestões de pesquisa no Brave pelo mesmo moti
 
 #### Sincronização do Brave
 
-A [Sincronização do Firefox](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) permite que seus dados de navegação (histórico, favoritos, etc.) sejam acessíveis em todos os seus dispositivos, além de protegê-los com E2EE.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
 #### Recompensas Brave e Carteira
 
-**O Recompensas Brave** permite que você receba a criptomoeda Basic Attention Token (BAT) por realizar determinadas ações no Brave. Ele depende de uma conta de custódia e KYC de um número selecionado de provedores. Não recomendamos o BAT como uma [criptomoeda privada](cryptocurrency.md), nem recomendamos o uso de uma [carteira de custódia](advanced/payments.md#wallet-custody), portanto, não recomendamos o uso desse recurso.
+**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
-A **Carteira Brave** opera localmente em seu computador, mas não suporta nenhuma criptomoeda privada, então nós desencorajamos o uso dessa ferramenta também.
+**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 
 ## Critérios
 
-**Por favor, note que não somos parceiros de nenhum dos produtos que recomendamos.**Em adição aos[nossos critérios básicos](about/criteria.md), desenvolvemos um conjunto claro de requisitos para nos permitir fornecer recomendações objetivas. Recomendamos que você se familiarize com esta lista antes de escolher usar um produto, e que faça sua própria pesquisa para garantir que o produto escolhido é o ideal para você.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 ### Requisitos Mínimos
 
@@ -392,7 +394,7 @@ A **Carteira Brave** opera localmente em seu computador, mas não suporta nenhum
 
 ### Melhor Caso
 
-Os nossos critérios de melhor caso representam o que gostaríamos de ver no projeto perfeito desta categoria. As nossas recomendações podem não incluir todas ou algumas destas funcionalidades, mas as que as incluem podem ter uma classificação mais elevada do que outras nesta página.
+Nosso critério de melhor caso representa o que gostaríamos de ver em um projeto perfeito nessa categoria. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
 - Deve incluir a funcionalidade integrada de bloqueio de conteúdo.
 - Deve suportar compartimentação de cookie (à la [Contêineres de Multi-Contas](https://support.mozilla.org/kb/containers)).

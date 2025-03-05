@@ -109,7 +109,9 @@ These are our currently recommended **desktop web browsers** and configurations 
 
 ### Mullvad Leta
 
-Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes pre-installed with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. Το Mullvad Leta αναζητά απευθείας το API πληρωμένης αναζήτησης της Google, γι' αυτό και περιορίζεται σε συνδρομητές επί πληρωμής. Ωστόσο, η Mullvad μπορεί να συσχετίσει τα ερωτήματα αναζήτησης και τους λογαριασμούς VPN της Mullvad λόγω αυτού του περιορισμού. Για το λόγο αυτό, αποθαρρύνουμε τη χρήση του Mullvad Leta, παρόλο που η Mullvad συλλέγει πολύ λίγες πληροφορίες για τους συνδρομητές VPN της.
+Mullvad Browser comes with [**Mullvad Leta**](https://leta.mullvad.net) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
+
+If you are a Mullvad VPN user, there is some risk in using services like Mullvad Leta which are offered by your VPN provider themselves. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta), which is information a VPN is typically intended to separate. Even though Mullvad collects very little information about their VPN subscribers or Leta users, you should consider a different [search engine](search-engines.md) if this risk concerns you.
 
 ## Firefox
 
@@ -152,13 +154,13 @@ These options can be found in :material-menu: → **Settings**.
 
 - [ ] Απενεργοποιήστε την επιλογή **Εμφάνιση προτάσεων αναζήτησης**
 
-Οι λειτουργίες προτάσεων αναζήτησης ενδέχεται να μην είναι διαθέσιμες στην περιοχή σας.
+Search suggestion features may not be available in your region.
 
-Οι προτάσεις αναζήτησης στέλνουν ό,τι πληκτρολογείτε στη γραμμή διευθύνσεων στην προεπιλεγμένη μηχανή αναζήτησης, ανεξάρτητα από το αν κάνετε πραγματική αναζήτηση. Η απενεργοποίηση των προτάσεων αναζήτησης σας επιτρέπει να ελέγχετε με μεγαλύτερη ακρίβεια τα δεδομένα που στέλνετε στον πάροχο της μηχανής αναζήτησης.
+Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
 ##### Firefox Suggest (μόνο στις ΗΠΑ)
 
-Το [Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) είναι μια λειτουργία παρόμοια με τις προτάσεις αναζήτησης, η οποία είναι διαθέσιμη μόνο στις ΗΠΑ. Συνιστούμε την απενεργοποίησή της για τον ίδιο λόγο που συνιστούμε την απενεργοποίηση των προτάσεων αναζήτησης. Εάν δεν βλέπετε αυτές τις επιλογές κάτω από την επικεφαλίδα της **Γραμμής Διευθύνσεων**, δεν έχετε τη νέα λειτουργία και μπορείτε να αγνοήσετε αυτές τις αλλαγές.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
 
 - [ ] Αποεπιλέξτε **Προτάσεις από τον Firefox**
 - [ ] Αποεπιλέξτε **Προτάσεις από χορηγούς**
@@ -169,7 +171,7 @@ These options can be found in :material-menu: → **Settings**.
 
 - [x] Επιλέξτε **Αυστηρή** ενισχυμένη προστασία εντοπισμού
 
-Αυτό σας προστατεύει αποκλείοντας τους ιχνηλάτες κοινωνικών δικτύων, το περιεχόμενο καταγραφής σε όλα τα παράθυρα (σημειώστε ότι αυτό δεν σας προστατεύει από *όλα τα* fingerprinting), τα cryptominers, τα cookie μεταξύ ισοτόπων σε όλα τα παράθυρα και κάποιο άλλο περιεχόμενο παρακολούθησης. Η ενισχυμένη προστασία από καταγραφή προστατεύει από πολλές κοινές απειλές, αλλά δεν μπλοκάρει όλες τις οδούς εντοπισμού, επειδή έχει σχεδιαστεί για να έχει ελάχιστες έως καθόλου επιπτώσεις στη χρηστικότητα του ιστότοπου.
+This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
 
 ##### Sanitize on Close
 
@@ -337,7 +339,7 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 #### Web3
 
-Τα χαρακτηριστικά Web3 του Brave μπορούν δυνητικά να αυξήσουν το δακτυλικό αποτύπωμα του προγράμματος περιήγησης και την επιφάνεια επιθέσεων. Unless you use any of these features, they should be disabled.
+Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of these features, they should be disabled.
 
 - Select **Extensions (no fallback)** under *Default Ethereum wallet*
 - Select **Extensions (no fallback)** under *Default Solana wallet*
@@ -364,17 +366,17 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 #### Brave Sync
 
-Το [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) επιτρέπει στα δεδομένα περιήγησής σας (ιστορικό, σελιδοδείκτες κ. λπ.) να είναι προσβάσιμα σε όλες τις συσκευές σας χωρίς να απαιτείται λογαριασμός και τα προστατεύει με κρυπτογράφηση από άκρο σε άκρο.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
 #### Brave Rewards and Wallet
 
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. Βασίζεται σε custodial λογαριασμό και KYC από έναν επιλεγμένο αριθμό παρόχων. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
-Το **Brave Wallet** λειτουργεί τοπικά στον υπολογιστή σας, αλλά δεν υποστηρίζει ιδιωτικά κρυπτονομίσματα, οπότε θα αποθαρρύναμε τη χρήση και αυτής της δυνατότητας.
+**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 
 ## Κριτήρια
 
-**Σημειώστε ότι δε συσχετιζόμαστε με κανένα από τα project που προτείνουμε.** Εκτός από τα [συνήθη κριτήριά μας](about/criteria.md), έχουμε αναπτύξει ένα σαφές σύνολο απαιτήσεων που μας επιτρέπουν να παρέχουμε αντικειμενικές συστάσεις. Σας προτείνουμε να εξοικειωθείτε με αυτόν τον κατάλογο προτού επιλέξετε να χρησιμοποιήσετε ένα project και να διεξάγετε τη δική σας έρευνα για να βεβαιωθείτε ότι είναι η σωστή επιλογή για εσάς.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 ### Ελάχιστες Απαιτήσεις
 
@@ -388,7 +390,7 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 ### Βέλτιστη Περίπτωση
 
-Τα κριτήρια της καλύτερης περίπτωσης αντιπροσωπεύουν αυτό που θα θέλαμε να δούμε από το τέλειο project σε αυτή την κατηγορία. Οι συστάσεις μας ενδέχεται να μην περιλαμβάνουν κάποια ή όλες αυτές τις λειτουργίες, αλλά εκείνες που τις περιλαμβάνουν ενδέχεται να κατατάσσονται υψηλότερα από άλλες σε αυτή τη σελίδα.
+Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
 - Should include built-in content blocking functionality.
 - Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).

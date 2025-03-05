@@ -128,7 +128,7 @@ All versions are signed using the same signature, so they should be compatible w
 
 ![Onion Browser Logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
 
-Der **Onion Browser** ist ein Open-Source-Browser, mit dem du auf iOS-Geräten anonym über das Tor-Netzwerk im Internet surfen kannst. Er wird vom [Tor-Projekt](https://support.torproject.org/glossary/onion-browser) unterstützt. [:material-star-box: Read our latest Onion Browser review.](/articles/2024/09/18/onion-browser-review)
+Der **Onion Browser** ist ein Open-Source-Browser, mit dem du auf iOS-Geräten anonym über das Tor-Netzwerk im Internet surfen kannst. Er wird vom [Tor-Projekt](https://support.torproject.org/glossary/onion-browser) unterstützt. [:material-star-box: Read our latest Onion Browser review.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review/)
 
 [:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }

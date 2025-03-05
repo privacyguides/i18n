@@ -109,7 +109,9 @@ Dit is nodig om geavanceerde vormen van tracking te voorkomen, maar gaat wel ten
 
 ### Mullvad Leta
 
-Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes pre-installed with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. Mullvad Leta raadpleegt de betaalde zoek API van Google direct en is daarom beperkt tot het betalen van abonnees. Door deze beperking is het echter mogelijk voor Mullvad om zoekopdrachten en Mullvad VPN-accounts te correleren. Daarom raden wij het gebruik van Mullvad Leta af, ook al verzamelt Mullvad zeer weinig informatie over hun VPN-abonnees.
+Mullvad Browser comes with [**Mullvad Leta**](https://leta.mullvad.net) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
+
+If you are a Mullvad VPN user, there is some risk in using services like Mullvad Leta which are offered by your VPN provider themselves. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta), which is information a VPN is typically intended to separate. Even though Mullvad collects very little information about their VPN subscribers or Leta users, you should consider a different [search engine](search-engines.md) if this risk concerns you.
 
 ## Firefox
 
@@ -146,19 +148,19 @@ Firefox voegt een uniek [download token](https://bugzilla.mozilla.org/show_bug.c
 
 ### Recommended Firefox Configuration
 
-Deze opties zijn te vinden in :material-menu: → **Instellingen**.
+These options can be found in :material-menu: → **Settings**.
 
 #### Zoeken
 
 - [ ] Uncheck **Show search suggestions**
 
-Functies voor zoeksuggesties zijn mogelijk niet beschikbaar in jouw regio.
+Search suggestion features may not be available in your region.
 
-Zoeksuggesties sturen alles wat je in de adresbalk typt naar de standaardzoekmachine, ongeacht of je een echte zoekopdracht geeft. Door zoeksuggesties uit te schakelen, kun je nauwkeuriger bepalen welke gegevens je naar jouw zoekmachineprovider stuurt.
+Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
 ##### Firefox stelt voor (alleen VS)
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. Wij raden aan dit uit te schakelen om dezelfde reden als waarom wij aanraden zoeksuggesties uit te schakelen. Als je deze opties niet ziet onder de kop **Adresbalk**, hebt je de nieuwe ervaring niet en kun je deze wijzigingen negeren.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
 
 - [ ] Uncheck **Suggestions from Firefox**
 - [ ] Deselecteer **Suggesties van sponsors**
@@ -169,15 +171,15 @@ Zoeksuggesties sturen alles wat je in de adresbalk typt naar de standaardzoekmac
 
 - [x] Select **Strict** Verbeterde traceringsbescherming
 
-Dit beschermt je door het blokkeren van social media trackers, fingerprinting scripts (merk op dat dit je niet beschermt tegen *alle* fingerprinting), cryptominers, cross-site tracking cookies, en sommige andere tracking content. ETP beschermt tegen veel voorkomende bedreigingen, maar blokkeert niet alle tracking-wegen omdat het is ontworpen om de bruikbaarheid van de site zo min mogelijk of helemaal niet te beïnvloeden.
+This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
 
 ##### Saneren bij sluiten
 
-Als je op bepaalde sites aangemeld wilt blijven, kunt je uitzonderingen toestaan in **Cookies en Sitegegevens** → **Uitzonderingen beheren...**
+If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
 
 - [x] Check **Cookies en sitegegevens verwijderen wanneer Firefox wordt afgesloten**
 
-Dit beschermt je tegen blijvende cookies, maar niet tegen cookies die tijdens een bepaalde surfsessie worden aangemaakt. Wanneer dit is ingeschakeld, wordt het mogelijk om jouw browsercookies gemakkelijk te wissen door Firefox gewoon opnieuw op te starten. Je kunt per site uitzonderingen instellen, als je ingelogd wilt blijven op een bepaalde site die je vaak bezoekt.
+This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
 
 ##### Telemetry
 
@@ -204,15 +206,15 @@ With the release of Firefox 128, a new setting for [privacy-preserving attributi
 
 - [x] Select **Schakel HTTPS-only modus in alle vensters in**
 
-Dit voorkomt dat je onbedoeld verbinding maakt met een website in platte HTTP-tekst. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
 
 ##### DNS over HTTPS
 
-Als u een [DNS boven HTTPS provider](dns.md) gebruikt:
+If you use a [DNS over HTTPS provider](dns.md):
 
 - [x] Selecteer **Maximale Bescherming** en kies een geschikte provider
 
-Max Bescherming forceert het gebruik van DNS via HTTPS. Een beveiligingswaarschuwing wordt weergegeven als Firefox geen verbinding kan maken met uw beveiligde DNS resolver, of als uw beveiligde DNS resolver zegt dat records voor het domein dat u probeert te openen, niet bestaan. Hiermee stopt het netwerk waarmee u bent verbonden om uw DNS-beveiliging stiekem te verlagen.
+Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
 
 #### Sync
 
@@ -227,9 +229,9 @@ Max Bescherming forceert het gebruik van DNS via HTTPS. Een beveiligingswaarschu
 
 </div>
 
-Het [Arkenfox-project](https://github.com/arkenfox/user.js) biedt een reeks zorgvuldig overwogen opties voor Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. Wij **raden je ten zeerste aan** hun volledige [wiki](https://github.com/arkenfox/user.js/wiki)door te lezen. Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
+The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
 
-Arkenfox wil alleen elementaire of naïeve volgscripts dwarsbomen via canvas randomisatie en de ingebouwde configuratie-instellingen voor vingerafdrukbestendigheid van Firefox. Het is niet de bedoeling dat jouw browser opgaat in een grote menigte van andere Arkenfox-gebruikers op dezelfde manier als Mullvad Browser of Tor Browser dat doen, wat de enige manier is om geavanceerde tracking-scripts voor vingerafdrukken te dwarsbomen. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
+Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
 
 ## Brave
 
@@ -269,7 +271,7 @@ Brave voegt een "[referral code](https://github.com/brave/brave-browser/wiki/Bra
 
 ### Recommended Brave Configuration
 
-Deze opties zijn te vinden in :material-menu: → **Instellingen**.
+These options can be found in :material-menu: → **Settings**.
 
 #### Shields
 
@@ -337,7 +339,7 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 #### Web3
 
-De Web3-functies van Brave kunnen de vingerafdruk van jouw browser en het aanvalsoppervlak vergroten. Unless you use any of these features, they should be disabled.
+Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of these features, they should be disabled.
 
 - Select **Extensions (no fallback)** under *Default Ethereum wallet*
 - Select **Extensions (no fallback)** under *Default Solana wallet*
@@ -368,9 +370,9 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 #### Brave Rewards and Wallet
 
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. Het is afhankelijk van een bewaarrekening en KYC van een select aantal providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
-**Brave Wallet** werkt lokaal op jouw computer, maar ondersteunt geen private cryptocurrencies, dus we raden het gebruik van deze functie ook af.
+**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 
 ## Criteria
 

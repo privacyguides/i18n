@@ -109,7 +109,9 @@ Mullvad 브라우저는 항상 사생활 보호 모드로 작동하므로 방문
 
 ### Mullvad Leta
 
-Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes pre-installed with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. Mullvad Leta queries Google's paid search API directly, which is why it is limited to paying subscribers. However, it is possible for Mullvad to correlate search queries and Mullvad VPN accounts because of this limitation. 이러한 이유로, 저희는 Mullvad가 VPN 구독자에 대한 정보를 거의 수집하지 않는다는 점을 알고 있음에도 불구하고 Mullvad Leta 사용을 권장하지 않습니다.
+Mullvad Browser comes with [**Mullvad Leta**](https://leta.mullvad.net) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
+
+If you are a Mullvad VPN user, there is some risk in using services like Mullvad Leta which are offered by your VPN provider themselves. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta), which is information a VPN is typically intended to separate. Even though Mullvad collects very little information about their VPN subscribers or Leta users, you should consider a different [search engine](search-engines.md) if this risk concerns you.
 
 ## Firefox
 
@@ -146,19 +148,19 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 ### Recommended Firefox Configuration
 
-이러한 옵션은 :material-menu: → **설정**에서 확인할 수 있습니다.
+These options can be found in :material-menu: → **Settings**.
 
 #### 검색
 
 -
 
-여러분의 지역에 따라 검색 제안 기능이 제공되지 않을 수도 있습니다.
+Search suggestion features may not be available in your region.
 
-검색 제안 기능은 실제로 검색을 누르지 않더라도 주소창에 입력하는 모든 내용을 기본 검색 엔진으로 전송합니다. 검색 제안을 비활성화하여 검색 엔진 제공 업체에 전송하는 데이터를 보다 신중하게 조절할 수 있습니다.
+Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
 ##### Firefox Suggest (미국 한정)
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. 검색 제안 사용을 비활성화한 것과 마찬가지 이유로 해당 기능을 비활성화할 것을 권장드립니다. **주소 표시줄** 헤더에 이러한 옵션이 표시되지 않는 경우 이는 무시하셔도 좋습니다.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
 
 - [ ] Uncheck **Suggestions from Firefox**
 - [ ] **스폰서에서 제안** 비활성화
@@ -169,15 +171,15 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 - [x] 향상된 추적 방지 기능에서 **엄격** 활성화
 
-소셜 미디어 추적기, 핑거프린팅 스크립트(*모든* 핑거프린팅으로부터 보호하지는 못함), 암호화폐 채굴기, 교차 사이트 추적 쿠키 및 기타 추적 콘텐츠를 차단합니다. 향상된 추적 방지 기능은 대부분의 일반적인 위협을 방지하지만, 웹사이트 사용성을 해치지 않도록 설계되었기 때문에 모든 추적 경로를 차단하지는 못합니다.
+This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
 
 ##### 종료 시 데이터 정리
 
-특정 사이트의 로그인을 유지하려면 **쿠키 및 사이트 데이터** → **예외 관리...**에서 예외를 허용할 수 있습니다.
+If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
 
 - [x] **Firefox를 닫을 때 쿠키와 사이트 데이터를 삭제** 활성화
 
-이 기능은 영구적인 쿠키로부터 여러분을 보호합니다. 하지만 한 번의 브라우저 세션 중에 획득한 쿠키로부터 여러분을 보호하지는 않습니다. 이 기능을 활성화해두면 브라우저 쿠키를 정리하고자 할 때 Firefox를 재시작하기만 하면 됩니다. 사이트별 예외를 설정해 자주 이용하는 특정 사이트의 로그인을 유지할 수 있습니다.
+This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
 
 ##### 원격 분석
 
@@ -204,7 +206,7 @@ With the release of Firefox 128, a new setting for [privacy-preserving attributi
 
 - [x] **모든 창에서 HTTPS 전용 모드 사용** 활성화
 
-의도치 않게 일반 텍스트 HTTP로 웹사이트에 연결되는 것을 방지합니다. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
 
 ##### DNS over HTTPS
 
@@ -227,9 +229,9 @@ Max Protection enforces the use of DNS over HTTPS, and a security warning will s
 
 </div>
 
-[Arkenfox 프로젝트](https://github.com/arkenfox/user.js)는 신중하게 고려된 Firefox용 옵션 모음을 제공합니다. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. 저희는 전체 [위키](https://github.com/arkenfox/user.js/wiki) 내용을 읽어보실 것을 **강력히 권장드립니다**. Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
+The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
 
-Arkenfox는 캔버스 무작위화(Randomization)와 Firefox에 기본 탑재된 핑거프린트 방지 구성 설정을 통해 기본적이거나 순진한(Naive) 추적 스크립트를 차단하는 것만 목표로 합니다. Mullvad 브라우저나 Tor 브라우저에서 사용하는 방식이자, 고급 핑거프린트 추적 스크립트를 막을 수 있는 유일한 방법인 '다른 사용자들 사이에 섞여들게 하는 것'은 Arkenfox의 목표가 아닙니다. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
+Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
 
 ## Brave
 
@@ -269,7 +271,7 @@ Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%
 
 ### Recommended Brave Configuration
 
-이러한 옵션은 :material-menu: → **설정**에서 확인할 수 있습니다.
+These options can be found in :material-menu: → **Settings**.
 
 #### Shields
 
@@ -337,7 +339,7 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 #### Web3
 
-Brave의 Web3 기능은 잠재적으로 브라우저의 핑거프린트와 공격 표면을 증가시킬 수 있습니다. Unless you use any of these features, they should be disabled.
+Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of these features, they should be disabled.
 
 - Select **Extensions (no fallback)** under *Default Ethereum wallet*
 - Select **Extensions (no fallback)** under *Default Solana wallet*
@@ -368,9 +370,9 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 #### Brave Rewards and Wallet
 
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. 해당 기능은 일부 선정된 제공 업체의 수탁형 계정과 KYC(고객 신원 확인)에 기반하여 동작합니다. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
-**Brave 월렛**은 사용자 컴퓨터 로컬에서 작동하지만, 프라이버시 암호화폐를 지원하지 않으므로 이 또한 사용을 권장하지 않습니다.
+**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 
 ## 평가 기준
 

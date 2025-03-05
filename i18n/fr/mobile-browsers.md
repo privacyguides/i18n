@@ -97,7 +97,7 @@ Le navigateur Tor est le seul moyen de vraiment naviguer anonymement sur Interne
 
 #### Brave shields global defaults
 
-Brave inclut des mesures anti-empreintes digitales dans sa fonction [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Nous vous conseillons de configurer ces options de [manière globale](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) sur toutes les pages que vous visitez.
+Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
 Les options "Boucliers" peuvent être réduites par site selon les besoins, mais par défaut, nous recommandons de définir les paramètres suivants:
 
@@ -202,7 +202,7 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 
 #### Brave Sync
 
-La [Synchronisation Brave](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) permet à vos données de navigation (historique, favoris, etc.) d'être accessibles sur tous vos appareils sans nécessiter de compte et les protège avec E2EE.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
 ## Cromite (Android)
 
@@ -243,7 +243,7 @@ These options can be found in :material-menu: → :gear: **Settings** → **Priv
 
 - [x] Select **Always use secure connections**
 
-Cela vous empêche de vous connecter involontairement à un site Web en "clair" HTTP. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+This prevents you from unintentionally connecting to a website in plain-text HTTP. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
 
 #### Adblock Plus settings
 
@@ -304,7 +304,7 @@ This prevents Siri from using content from Safari for Siri suggestions.
 
 - [ ] Disable **Search Engine Suggestions**
 
-This setting sends whatever you type in the address bar to the search engine set in Safari. La désactivation des suggestions de recherche vous permet de contrôler plus précisément les données que vous envoyez à votre fournisseur de moteur de recherche.
+This setting sends whatever you type in the address bar to the search engine set in Safari. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
 #### Profils
 

@@ -109,7 +109,9 @@ Jest to wymagane, aby zapobiec zaawansowanym formom śledzenia, ale odbywa się 
 
 ### Mullvad Leta
 
-Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes pre-installed with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. Mullvad Leta odpytuje bezpośrednio API płatnego wyszukiwania Google, dlatego jest ograniczona do płatnych subskrybentów. Jednak z powodu tego ograniczenia Mullvad może skorelować zapytania wyszukiwania i konta Mullvad VPN. Z tego powodu odradzamy korzystanie z Mullvad Leta, mimo że Mullvad zbiera bardzo mało informacji o swoich subskrybentach VPN.
+Mullvad Browser comes with [**Mullvad Leta**](https://leta.mullvad.net) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
+
+If you are a Mullvad VPN user, there is some risk in using services like Mullvad Leta which are offered by your VPN provider themselves. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta), which is information a VPN is typically intended to separate. Even though Mullvad collects very little information about their VPN subscribers or Leta users, you should consider a different [search engine](search-engines.md) if this risk concerns you.
 
 ## Firefox
 
@@ -146,19 +148,19 @@ Firefox zawiera unikalny [token pobierania](https://bugzilla.mozilla.org/show_bu
 
 ### Zalecana konfiguracja przeglądarki Firefox
 
-Opcje te można znaleźć na stronie :material-menu: → **Ustawienia**.
+These options can be found in :material-menu: → **Settings**.
 
 #### Wyszukiwarka
 
 - [ ] Odznacz **Pokaż sugestie wyszukiwania**
 
-Funkcje sugestii wyszukiwania mogą być niedostępne w danym regionie.
+Search suggestion features may not be available in your region.
 
-Sugestie wyszukiwania wysyłają wszystko, co wpisujesz w pasku adresu, do domyślnej wyszukiwarki, niezależnie od tego, czy wysyłasz rzeczywiste wyszukiwanie. Wyłączenie sugestii wyszukiwania pozwala bardziej precyzyjnie kontrolować dane wysyłane do dostawcy wyszukiwarki.
+Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
 ##### Firefox Suggest (tylko USA)
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) to funkcja podobna do sugestii wyszukiwania, która jest dostępna tylko w Stanach Zjednoczonych. Zalecamy jej wyłączenie z tego samego powodu, dla którego zalecamy wyłączenie sugestii wyszukiwania. Jeśli nie widzisz tych opcji pod **paskiem adresu strony** , nie masz tej funkcjonalności i możesz zignorować te zmiany.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
 
 - [ ] Odznacz **Sugestie z Firefox**
 - [ ] Usuń zaznaczenie **Sugestie od sponsorów**
@@ -169,15 +171,15 @@ Sugestie wyszukiwania wysyłają wszystko, co wpisujesz w pasku adresu, do domy�
 
 - [x] Wybierz **Ścisła** ochrona przed śledzeniem
 
-Chroni to użytkownika poprzez blokowanie modułów śledzących w mediach społecznościowych, skryptów fingerprinting (należy pamiętać, że nie chroni to przed *wszystkimi* odciskami palców), koparek kryptowalut, plików cookie śledzących różne witryny i niektórych innych treści śledzących. Ochrona przed śledzeniem chroni przed wieloma typowymi zagrożeniami, ale nie blokuje wszystkich ścieżek śledzenia, ponieważ została zaprojektowana tak, aby mieć minimalny lub zerowy wpływ na użyteczność witryny.
+This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
 
 ##### Wyczyść po zamknięciu
 
-Jeśli chcesz pozostać zalogowany w określonych witrynach, możesz zezwolić na wyjątki w **Pliki cookie i dane witryn** → **Zarządzaj wyjątkami....**
+If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
 
 - [x] Zaznacz **Usuń pliki cookie i dane witryn po zamknięciu przeglądarki Firefox**
 
-Chroni to użytkownika przed trwałymi plikami cookie, ale nie chroni przed plikami cookie pozyskanymi podczas jednej sesji przeglądania. Po włączeniu tej opcji możliwe jest łatwe wyczyszczenie plików cookie przeglądarki poprzez ponowne uruchomienie Firefoksa. Możesz ustawić wyjątki dla poszczególnych witryn, jeśli chcesz pozostać zalogowany w określonej witrynie, którą często odwiedzasz.
+This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
 
 ##### Telemetria
 
@@ -189,7 +191,7 @@ According to Mozilla's privacy policy for Firefox,
 
 > Firefox wysyła o nas dane o wersji i języku Firefoksa, systemie operacyjnym urządzeniach i konfiguracji sprzętowej, pamięci, podstawowe informacje o awariach i błędach oraz wynikach zautomatyzowanych procesów, takich jak aktualizacje, bezpieczne przeglądanie i aktywacja. Gdy przeglądarka Firefox wysyła nasze dane, adres IP użytkownika jest tymczasowo gromadzony w dziennikach serwera.
 
-Ponadto usługa Mozilla Accounts gromadzi [pewne dane techniczne](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt out:
+Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt out:
 
 1. Otwórz ustawienia profilu [na accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Usuń zaznaczenie **Gromadzenie i wykorzystywanie danych** > **Pomóż ulepszyć konta Firefox**
@@ -204,19 +206,19 @@ With the release of Firefox 128, a new setting for [privacy-preserving attributi
 
 - [x] Select **Enable HTTPS-Only Mode in all windows**
 
-Zapobiega to niezamierzonemu łączeniu się z witryną internetową w postaci zwykłego tekstu HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
 
 ##### DNS przez HTTPS
 
-Jeśli korzystasz z [dostawcy DNS over HTTPS](dns.md):
+If you use a [DNS over HTTPS provider](dns.md):
 
 - [x] Wybierz opcję **Maksymalna ochrona** i wybierz odpowiedniego dostawcę
 
-Maksymalna ochrona wymusza użycie DNS przez HTTPS, a ostrzeżenie o bezpieczeństwie pokaże się, jeśli Firefox nie może połączyć się z bezpiecznym resolwerem DNS, lub jeśli Twój bezpieczny resolwer DNS mówi, że rekordy domeny, do której próbujesz uzyskać dostęp, nie istnieją. Dzięki temu sieć, z którą jesteś połączony, nie będzie mogła potajemnie obniżyć Twoich zabezpieczeń DNS.
+Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
 
 #### Synchronizacja
 
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) umożliwia dostęp do danych przeglądania (historii, zakładek itp.) na wszystkich urządzeniach i chroni je za pomocą E2EE.
+[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
 
 ### Arkenfox (zaawansowany)
 
@@ -374,7 +376,7 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 ## Kryteria
 
-**Pamiętaj, że nie jesteśmy związani z żadnym z zalecanych projektów.** W dodatku do [naszych standardowych kryteriów](about/criteria.md), opracowaliśmy zestaw wymagań, które umożliwiają nam podejmowanie obiektywnych decyzji. Zalecamy zapoznanie się z tą listą przed zdecydowaniem o wyborze projektu oraz przeprowadzenie własnego rozeznania, aby upewnić się, że będzie dobrym wyborem dla Ciebie.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 ### Wymagania minimalne
 

@@ -109,7 +109,9 @@ Mullvad Browserは常にプライベートブラウジングモードで動作�
 
 ### Mullvad Leta
 
-Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes pre-installed with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. Mullvad Leta queries Google's paid search API directly, which is why it is limited to paying subscribers. However, it is possible for Mullvad to correlate search queries and Mullvad VPN accounts because of this limitation. MullvadはVPN加入者について非常に少ない情報しか収集していませんが、以上の理由より、Mullvad Letaの使用は推奨されません。
+Mullvad Browser comes with [**Mullvad Leta**](https://leta.mullvad.net) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
+
+If you are a Mullvad VPN user, there is some risk in using services like Mullvad Leta which are offered by your VPN provider themselves. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta), which is information a VPN is typically intended to separate. Even though Mullvad collects very little information about their VPN subscribers or Leta users, you should consider a different [search engine](search-engines.md) if this risk concerns you.
 
 ## Firefox
 
@@ -146,19 +148,19 @@ Firefoxは、Mozillaのウェブサイトからのダウンロードに固有の
 
 ### 推奨するFirefoxの設定
 
-これらのオプションは :material-menu: → **設定**にあります。
+These options can be found in :material-menu: → **Settings**.
 
 #### 検索
 
 - [ ] Uncheck **Show search suggestions**
 
-お住まいの地域では検索提案機能が利用できない場合があります。
+Search suggestion features may not be available in your region.
 
-検索提案機能は、実際に検索を行うかどうかに関わらず、アドレスバーに入力したすべての文字をデフォルトの検索エンジンに送信します。 検索提案機能を無効にすることで、検索エンジンプロバイダーに送信するデータを、より正確に制御することができます。
+Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
 ##### Firefox Suggest (アメリカのみ)
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest)は、米国でのみ利用可能な検索提案機能と似た機能です。 私たちは、検索提案機能の無効化を推奨するのと同じ理由で、これを無効にすることを推奨します。 **アドレスバー**のヘッダーの下に以下のオプションが表示されない場合、この機能は備わっていないので、これらの変更を無視しても問題ありません。
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
 
 - [ ] Uncheck **Suggestions from Firefox**
 - [ ] **スポンサーからの提案**のチェックを外すこと
@@ -169,15 +171,15 @@ Firefoxは、Mozillaのウェブサイトからのダウンロードに固有の
 
 - [x] 強化型トラッキング防止機能で**厳格**を選択する
 
-これにより、ソーシャルメディアのトラッカー、フィンガープリンティングスクリプト（*すべての*フィンガープリンティングから保護するわけではありません）、暗号通貨のマイニングプログラム、クロスサイトのトラッキングクッキー、その他の追跡コンテンツをブロックすることであなたを保護します。 ETPは多くの一般的な脅威に対抗しますが、サイトの利便性にほとんど影響を与えないように設計されているため、すべてのトラッキング手段をブロックするわけではありません。
+This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
 
 ##### 終了時のクリーンアップ
 
-特定のサイトにログインしたままにしたい場合は、**Cookie とサイトデータ** → **例外の管理...**で例外を許可することができます。
+If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
 
 - [x] **Firefox を閉じたときに Cookie とサイトデータを削除する**にチェックをつける
 
-これにより、永続的なクッキーからは保護されますが、1回の閲覧セッション中に取得されたクッキーからは保護されません。 これを有効にすると、Firefoxを再起動するだけで、ブラウザのクッキーを簡単に削除できるようになります。 よく訪れる特定のサイトにログインしたままにしたい場合は、サイトごとに例外を設定することができます。
+This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
 
 ##### テレメトリー
 
@@ -204,11 +206,11 @@ With the release of Firefox 128, a new setting for [privacy-preserving attributi
 
 - [x] **すべてのウィンドウで HTTPS-Only モードを有効にする**を選択する
 
-これにより、意図せずにプレーンテキストのHTTPでウェブサイトに接続することを防ぎます。 Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
 
 ##### DNS over HTTPS
 
-[DNS over HTTPSプロバイダー](dns.md)を使用している場合は、
+If you use a [DNS over HTTPS provider](dns.md):
 
 - [x] Select **Max Protection** and choose a suitable provider
 
@@ -216,7 +218,7 @@ Max Protection enforces the use of DNS over HTTPS, and a security warning will s
 
 #### Sync
 
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy)は、あなたの閲覧データ（履歴、ブックマークなど）をすべてのデバイスでアクセス可能にし、それをE2EEで保護します。
+[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
 
 ### Arkenfox（高度）
 
@@ -227,9 +229,9 @@ Max Protection enforces the use of DNS over HTTPS, and a security warning will s
 
 </div>
 
-[Arkenfoxプロジェクト](https://github.com/arkenfox/user.js)は、Firefoxのための慎重に考えられたオプションのセットを提供しています。 If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. プロジェクトの[wiki](https://github.com/arkenfox/user.js/wiki)に全て目を通すことを**強くお勧めします**。 Arkenfoxは[コンテナ](https://support.mozilla.org/kb/containers#w_for-advanced-users)のサポートも可能にしています。
+The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
 
-Arkenfoxでは、canvasのランダム化やFirefoxの組み込みのフィンガープリント対策の設定に基づき、基本的または単純なトラッキングスクリプトを防ぐことを唯一の目的としています。 Arkenfoxは、Mullvad BrowserやTor Browserが行う、高度なフィンガープリントトラッキング用のスクリプを防止する唯一の方法である大勢のユーザーの中に溶け込ませることは目的としていません。 Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
+Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
 
 ## Brave
 
@@ -269,7 +271,7 @@ Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%
 
 ### 推奨するBraveの設定
 
-これらのオプションは :material-menu: → **設定**にあります。
+These options can be found in :material-menu: → **Settings**.
 
 #### Shields
 
@@ -337,7 +339,7 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 #### Web3
 
-BraveのWeb3機能はブラウザのフィンガープリントなど攻撃面を潜在的に増やす可能性があります。 Unless you use any of these features, they should be disabled.
+Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of these features, they should be disabled.
 
 - Select **Extensions (no fallback)** under *Default Ethereum wallet*
 - Select **Extensions (no fallback)** under *Default Solana wallet*

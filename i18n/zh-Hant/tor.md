@@ -128,13 +128,13 @@ All versions are signed using the same signature, so they should be compatible w
 
 ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
 
-**Onion 瀏覽器** 是開源瀏覽器，其可讓您在 iOS 設備上匿名瀏覽 Tor 網路，其有 [Tor Project](https://support.torproject.org/glossary/onion-browser/)之保證。 [:material-star-box: 閱讀我們最新的 Onion Browser 評論](/articles/2024/09/18/onion-browser-review)
+**Onion 瀏覽器** 是開源瀏覽器，其可讓您在 iOS 設備上匿名瀏覽 Tor 網路，其有 [Tor Project](https://support.torproject.org/glossary/onion-browser/)之保證。 [:material-star-box: Read our latest Onion Browser review.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review/)
 
-[:octicons-home-16: 首頁](https://onionbrowser.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=說明文件}
-[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=捐款 }
+[:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>下載</summary>

@@ -109,7 +109,9 @@ Mullvad Browser מגיע עם *uBlock Origin* ו*NoScript* הרחבות דפדפ
 
 ### Mullvad Leta
 
-Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes pre-installed with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. Mullvad Leta queries Google's paid search API directly, which is why it is limited to paying subscribers. However, it is possible for Mullvad to correlate search queries and Mullvad VPN accounts because of this limitation. מסיבה זו אנו מונעים את השימוש ב-Mullvad Leta, למרות ש-Mullvad אוספת מעט מאוד מידע על מנויי ה-VPN שלהם.
+Mullvad Browser comes with [**Mullvad Leta**](https://leta.mullvad.net) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
+
+If you are a Mullvad VPN user, there is some risk in using services like Mullvad Leta which are offered by your VPN provider themselves. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta), which is information a VPN is typically intended to separate. Even though Mullvad collects very little information about their VPN subscribers or Leta users, you should consider a different [search engine](search-engines.md) if this risk concerns you.
 
 ## Firefox
 
@@ -146,19 +148,19 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 ### Recommended Firefox Configuration
 
-ניתן למצוא אפשרויות אלה ב - :material-menu: ← **הגדרות**.
+These options can be found in :material-menu: → **Settings**.
 
 #### חיפוש
 
 - [ ] Uncheck **Show search suggestions**
 
-ייתכן שתכונות הצעות חיפוש לא יהיו זמינות באזור שלך.
+Search suggestion features may not be available in your region.
 
-הצעות חיפוש שולחות את כל מה שאתה מקליד בסרגל הכתובות למנוע החיפוש המוגדר כברירת מחדל, ללא קשר אם אתה שולח חיפוש בפועל. השבתת הצעות חיפוש מאפשרת לך לשלוט בצורה מדויקת יותר באילו נתונים אתה שולח לספק מנועי החיפוש שלך.
+Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
 ##### Firefox Suggest (ארה"ב בלבד)
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. אנו ממליצים להשבית אותו מאותה סיבה שאנו ממליצים להשבית את הצעות החיפוש. אם אינך רואה את האפשרויות הללו תחת הכותרת **סרגל הכתובות**, אין לך את החוויה החדשה ואתה יכול להתעלם משינויים אלה.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
 
 - [ ] Uncheck **Suggestions from Firefox**
 - [ ] בטל את הסימון **הצעות מנותני חסות**
@@ -169,15 +171,15 @@ Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug
 
 - [x] בחר ** מחמיר** הגנת מעקב מתקדמת
 
-זה מגן עליך על ידי חסימת מעקבי מדיה חברתית, סקריפטים של טביעת אצבע (שים לב שזה לא מגן עליך מפני *כל* טביעות האצבע), קריפטומינרים, עוגיות מעקב חוצות- אתרים ותוכן מעקב אחר. ETP מגן מפני איומים נפוצים רבים, אך הוא אינו חוסם את כל אפיקי המעקב מכיוון שהוא נועד להשפיע באופן מינימלי עד ללא השפעה על השימושיות באתר.
+This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
 
 ##### חיטוי בעת סגירה
 
-אם אתה רוצה להישאר מחובר לאתרים מסוימים, אתה יכול לאפשר חריגים ב**עוגיות ונתוני אתר** ← **נהל חריגים... **
+If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
 
 - [x] סמן **מחיקת עוגיות ונתוני אתרים עם סגירת Firefox**
 
-זה מגן עליך מפני עוגיות מתמשכות, אך אינו מגן עליך מפני עוגיות שנרכשו במהלך כל הפעלת גלישה אחת. כאשר זה מופעל, אפשר לנקות בקלות את קובצי העוגיות של הדפדפן שלך פשוט על ידי הפעלה מחדש של Firefox. אתה יכול להגדיר חריגים על בסיס אתר, אם אתה רוצה להישאר מחובר לאתר מסוים שאתה מבקר בו לעתים קרובות.
+This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
 
 ##### Telemetry
 
@@ -204,15 +206,15 @@ With the release of Firefox 128, a new setting for [privacy-preserving attributi
 
 - [x] בחר **הפעלת מצב HTTPS בלבד בכל החלונות**
 
-זה מונע ממך להתחבר ללא כוונה לאתר אינטרנט ב-HTTP בטקסט רגיל. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
 
 ##### DNS דרך HTTPS
 
-אם אתה משתמש ב[ספק DNS דרך HTTPS](dns.md):
+If you use a [DNS over HTTPS provider](dns.md):
 
 - [x] בחר **Max Protection** ובחר ספק מתאים
 
-Max Protection אוכפת את השימוש ב-DNS על HTTPS, ואזהרת אבטחה תראה אם Firefox לא יכול להתחבר לפותר ה-DNS המאובטח שלך, או אם פותר ה-DNS המאובטח שלך אומר שרשומות עבור הדומיין שאליו אתה מנסה לגשת אינן קיימות. זה מונע מהרשת שאליה אתה מחובר לשדרג לאחור בסתר את אבטחת ה-DNS שלך.
+Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
 
 #### Sync
 
@@ -227,9 +229,9 @@ Max Protection אוכפת את השימוש ב-DNS על HTTPS, ואזהרת אב
 
 </div>
 
-פרויקט [Arkenfox](https://github.com/arkenfox/user.js) מספק קבוצה של אפשרויות שנשקלו בקפידה עבור Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. אנו **ממליצים בחום** לקרוא את [הויקי](https://github.com/arkenfox/user.js/wiki) המלא שלהם. Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
+The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
 
-Arkenfox שואפת רק לסכל תסריטי מעקב בסיסיים או נאיביים באמצעות קנבס אקראי והגדרות תצורת התנגדות טביעות האצבע המובנות של Firefox. זה לא מכוון לגרום לדפדפן שלך להשתלב עם קהל גדול של משתמשי Arkenfox אחרים באותו אופן שבו Mullvad Browser או Tor Browser עושים, וזו הדרך היחידה לסכל סקריפטים מתקדמים למעקב אחר טביעות אצבע. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
+Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
 
 ## Brave
 
@@ -269,7 +271,7 @@ Brave מוסיף "[קוד הפניה](https://github.com/brave/brave-browser/wik
 
 ### Recommended Brave Configuration
 
-ניתן למצוא אפשרויות אלה ב - :material-menu: ← **הגדרות**.
+These options can be found in :material-menu: → **Settings**.
 
 #### Shields
 
@@ -337,7 +339,7 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 #### Web3
 
-תכונות ה-Web3 של Brave עשויות להוסיף לטביעת האצבע של הדפדפן ולשטח ההתקפה שלך. Unless you use any of these features, they should be disabled.
+Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of these features, they should be disabled.
 
 - Select **Extensions (no fallback)** under *Default Ethereum wallet*
 - Select **Extensions (no fallback)** under *Default Solana wallet*
@@ -368,9 +370,9 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 #### Brave Rewards and Wallet
 
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. זה מסתמך על חשבון משמורת ו-KYC ממספר נבחר של ספקים. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
-**Brave Wallet** פועל באופן מקומי במחשב שלך, אך אינו תומך במטבעות קריפטוגרפיים פרטיים כלשהם, ולכן אנו נמנע משימוש גם בתכונה זו.
+**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 
 ## קריטריונים
 

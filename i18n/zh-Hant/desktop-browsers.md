@@ -109,7 +109,9 @@ Mullvad 瀏覽器預設總是使用隱私瀏覽模式運行，這意味著您的
 
 ### Mullvad Leta
 
-Mullvad Browser comes with DuckDuckGo set as the default [search engine](search-engines.md), but it also comes pre-installed with **Mullvad Leta**, a search engine which requires an active Mullvad VPN subscription to access. Mullvad Leta 直接查詢 Google 的付費搜索 API，這也是為什麼它僅限付費訂閱者使用。 然而，由於這個限制，Mullvad 有可能將搜尋字串和 Mullvad VPN 帳戶進行關聯。 因此，我們不建議使用 Mullvad Leta，即使 Mullvad 僅收集極少量的 VPN 訂閱者資訊。
+Mullvad Browser comes with [**Mullvad Leta**](https://leta.mullvad.net) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
+
+If you are a Mullvad VPN user, there is some risk in using services like Mullvad Leta which are offered by your VPN provider themselves. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta), which is information a VPN is typically intended to separate. Even though Mullvad collects very little information about their VPN subscribers or Leta users, you should consider a different [search engine](search-engines.md) if this risk concerns you.
 
 ## Firefox
 
@@ -146,19 +148,19 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 
 ### 建議的 Firefox 設定
 
-這些選項可以在 :material-menu: → **設定** 中找到。
+These options can be found in :material-menu: → **Settings**.
 
 #### 搜尋
 
 - [ ] 取消勾選 **顯示搜尋建議**
 
-搜尋建議功能可能無法在您所在的地區使用。
+Search suggestion features may not be available in your region.
 
-搜尋建議會將您在網址列中輸入的所有內容傳送至預設搜尋引擎，無論您是否實際提交搜尋。 停用搜尋建議可讓您更精確地控制您傳送給搜尋引擎供應商的資料。
+Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
 ##### Firefox Suggest (僅限美國)
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) 功能只限美國地區，其功能類似於搜尋建議。 我們建議停用此功能的原因與我們建議停用搜尋建議的原因相同。 如果您在「**網址列**」標題下沒有看到這些選項，則表示您還不能使用此功能，可以忽略這些變更。
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
 
 - [ ] 取消勾選 **Suggestions from Firefox**
 - [ ] 取消勾選 **Suggestions from sponsors**
@@ -169,15 +171,15 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 
 - [x] 在 加強型追蹤保護 下選擇 **嚴格**
 
-透過封鎖社交媒體追蹤器、指紋辨識腳本 (注意，這並不能保護您免於*所有*的指紋辨識)、加密貨幣挖礦程式、跨網站 Cookie 以及其他追蹤內容來保護您。 加強型追蹤保護功能可保護您免於許多常見威脅，但並不能阻止所有追蹤途徑，因為它的設計考量了網站的可用性。
+This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
 
 ##### 關閉時清除資料
 
-如果您想在特定網站保持登入，可以在 **Cookie 與網站資料** → **管理例外網站…** 中允許例外。
+If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
 
 - [x] 勾選 **關閉 Firefox 時清除 Cookie 與網站資料**
 
-這可以保護您免受持久性 Cookie 的影響，但無法防止在單一瀏覽階段中取得的 Cookie。 啟用此功能後，只需重新啟動 Firefox，就能輕鬆清除瀏覽器 Cookie。 如果您希望在經常造訪的特定網站保持登入，可以針對個別網站設定例外。
+This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
 
 ##### 遙測
 
@@ -185,11 +187,11 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 - [ ] 取消勾選 **允許 Firefox 安裝並進行研究**
 - [ ] 取消勾選 **允許 Firefox 以您的身分自動回報錯誤報告**
 
-根據 Mozilla 的 Firefox 隱私權政策：
+According to Mozilla's privacy policy for Firefox,
 
 > Firefox 會向 Mozilla 發送以下數據：您的 Firefox 版本和語言；操作系統和硬體配置；記憶體、關於崩潰和錯誤的基本訊息；更新、安全瀏覽和啟動等自動化流程系統的結果。 當 Firefox 向 Mozilla 發送數據時，會將您的 IP 位址作為伺服器日誌的一部份暫時收集。
 
-此外，Mozilla 帳戶服務也收集[一些技術資料](https://mozilla.org/privacy/mozilla-accounts)。 If you use a Mozilla Account you can opt out:
+Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt out:
 
 1. 在 [accounts.firefox.com 開啟您的個人資料設定](https://accounts.firefox.com/settings#data-collection)
 2. 取消勾選 **資料收集與使用** > **幫助我們改善 ⁨Mozilla 帳號⁩**
@@ -198,25 +200,25 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 
 - [ ] 取消勾選 **允許網站進行能保護隱私的廣告成效測量**
 
-Firefox 128 發佈時，新增了一個[尊重隱私的成效測量](https://support.mozilla.org/kb/privacy-preserving-attribution) (簡稱 PPA)，並且[預設為開啟狀態](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2)。 PPA 允許廣告商利用您的瀏覽器進行廣告成效測量，進而取代基於 JavaScript 的傳統追蹤方式。 我們認為此行為超出了使用者代理的職責範圍，而 Arkenfox 預設停用此功能的決定，也進一步的表明應該停用這項功能。
+With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
 
 ##### 純 HTTPS 模式
 
 - [x] 勾選 **在所有視窗都只使用 HTTPS 連線**
 
-這可以防止您無意間以明文 HTTP 連線到網站。 Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
 
 ##### 基於 HTTPS 的 DNS 服務 (DNS over HTTPS)
 
-如果您使用 [DNS over HTTPS 提供者](dns.md):
+If you use a [DNS over HTTPS provider](dns.md):
 
 - [x] 選擇 **最大保護** 與合適的提供者
 
-最大保護 強制使用 DNS over HTTPS，如果 Firefox 無法連線到您的安全 DNS 解析器，或者安全 DNS 解析器表示您嘗試存取的網域沒有記錄，則會顯示安全警告。 這可以防止您所使用的網路暗中降低您的 DNS 安全性。
+Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
 
 #### 同步
 
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) 讓您的瀏覽資料 (歷史記錄、書籤等) 在所有裝置上都可存取，並使用端對端加密 (E2EE) 進行保護。
+[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
 
 ### Arkenfox (進階)
 
@@ -227,9 +229,9 @@ Firefox 128 發佈時，新增了一個[尊重隱私的成效測量](https://sup
 
 </div>
 
-[Arkenfox 專案](https://github.com/arkenfox/user.js) 為 Firefox 提供一套經過精心考量的設定。 如果您[決定](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not)使用 Arkenfox，有[幾個選項](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common])可能在主觀上會較為嚴格，且/或可能導致某些網站無法正常運作，不過您可以[輕鬆更改](https://github.com/arkenfox/user.js/wiki/3.1-Overrides)這些選項，以滿足您的需求。 我們**強烈建議**完整閱讀他們的 [Wiki 頁面](https://github.com/arkenfox/user.js/wiki)。 Arkenfox 也支援[容器](https://support.mozilla.org/kb/containers#w_for-advanced-users)功能。
+The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
 
-Arkenfox 的目標旨在透過 Canvas 隨機化和 Firefox 內建的抗指紋設定來阻止基本或簡單的追蹤腳本。 它的目的不是讓您的瀏覽器與其他許多使用 Arkenfox 的使用者混在一起，那是 Mullvad 瀏覽器或 Tor 瀏覽器的作法，也是阻止進階指紋跟蹤腳本的唯一方法。 請記住，您可以使用多種瀏覽器。例如：您可以考慮使用 Firefox+Arkenfox 來瀏覽一些您想要保持登入狀態或以其他方式得到您信任的網站；而一般瀏覽則使用 Mullvad Browser。
+Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
 
 ## Brave
 
@@ -269,11 +271,11 @@ Brave 在官網的下載的檔案名稱中新增了一個 「[推廣代碼（ref
 
 ### 建議的 Brave 設定
 
-這些選項可以在 :material-menu: → **設定** 中找到。
+These options can be found in :material-menu: → **Settings**.
 
 #### 防護
 
-Brave 的[防護](https://support.brave.com/hc/articles/360022973471-What-is-Shields)功能包含一些防指紋識別措施。 我們建議在您訪問的所有網頁上[全域](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)套用這些設定。
+Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
 防護功能的選項可以根據各網站需要依情況降級，但我們建議預設使用以下設定：
 
@@ -327,7 +329,7 @@ Brave 允許您在內部網頁 brave://settings/shields/filters 內選擇額外�
 
 ##### Tor 視窗
 
-[**使用 Tor 的隱私視窗**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity)允許您在私人視窗中透過 Tor 網路路由流量，並存取 .onion 服務，這在某些情況下可能很有用。 不過，Brave 對指紋辨識的抵抗力**不如** Tor 瀏覽器，而且將 Brave 與 Tor 配合使用的人少得多，因此您會脫穎而出。 如果您的威脅模式需要極高的匿名性，請使用 [Tor 瀏覽器](tor.md#tor-browser)。
+[**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser is, and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
 
 ##### 資料集合
 
@@ -337,7 +339,7 @@ Brave 允許您在內部網頁 brave://settings/shields/filters 內選擇額外�
 
 #### Web3
 
-Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 除非您使用任何這些功能，否則應將其停用。
+Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of these features, they should be disabled.
 
 - 將 *預設以太坊錢包* 設定為 **擴充功能 (無後援)**
 - 將 *預設 Solana 錢包* 設定為 **擴充功能 (無後援)**
@@ -348,7 +350,7 @@ Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 除非�
 
 #### 搜尋引擎
 
-我們建議在 Brave 中停用搜尋建議，原因與我們建議在 [Firefox](#search) 中停用此功能相同。
+We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
 
 - [ ] 取消勾選 **顯示搜尋建議**
 
@@ -364,17 +366,17 @@ Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 除非�
 
 #### Brave 同步
 
-[Brave 同步](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) 可在不同裝置上存取瀏覽數據 (歷史記錄，書籤等)，無需帳戶且受 E2EE 保護。
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
 #### Brave Rewards 與錢包
 
-**Brave Rewards** 可讓您在 Brave 執行某些動作時獲得 Basic Attention Token (BAT) 加密貨幣。 它依賴於由少數供應商的託管帳號和 KYC。 我們不建議使用 BAT 作為[隱私加密貨幣](cryptocurrency.md)，也不建議使用[托管錢包](advanced/payments.md#wallet-custody)，因此我們會建議避免使用此功能。
+**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
-**Brave 錢包** 在您的電腦上本地運行，但不支援任何隱私加密貨幣，因此我們也不建議使用此功能。
+**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 
 ## 標準
 
-**請注意，我們與推薦的任何項目均無任何關聯。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用專案前先熟悉此清單，並自行研究，以確保它是適合您的選擇。
+**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 ### 最低合格要求
 
@@ -388,7 +390,7 @@ Brave 的 Web3 功能可能會增加您的瀏覽器指紋和攻擊面。 除非�
 
 ### 最佳情況
 
-最佳案例標準代表我們希望在這個類別中看到的完美項目應具備的條件。 我們建議的瀏覽器可能不包括以下所有功能，但若包含這些功能會讓該項目在此頁面排名更高。
+最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
 - 應該要內建內容攔截功能。
 - 應該要支援 Cookie 區隔 (就像[多帳號容器](https://support.mozilla.org/kb/containers)一樣)。

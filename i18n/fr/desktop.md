@@ -31,7 +31,7 @@ Les distributions Linux sont généralement recommandées pour la protection de 
 
 </div>
 
-Fedora a un cycle de publication semi-continu. Alors que certains packages comme <a href="https://gnome.org>"GNOME</a> sont gelés jusqu'à la prochaine version de Fedora, la plupart des packages (incluant le kernel) sont mis à jour fréquemment lors du cycle de vie de la version. Chaque version de Fedora est supportée pendant un an, avec une nouvelle version publiée tous les 6 mois.
+Fedora a un cycle de publication semi-continu. Alors que certains packages comme [GNOME](https://gnome.org) sont gelés jusqu'à la prochaine version de Fedora, la plupart des packages (incluant le kernel) sont mis à jour fréquemment lors du cycle de vie de la version. Chaque version de Fedora est supportée pendant un an, avec une nouvelle version publiée tous les 6 mois.
 
 ### openSUSE Tumbleweed
 
