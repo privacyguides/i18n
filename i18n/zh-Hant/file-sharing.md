@@ -53,11 +53,12 @@ ffsend upload --host https://send.vis.ee/ FILE
 [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:fontawesome-brands-windows: Windows](https://onionshare.org/#download)
 - [:simple-apple: macOS](https://onionshare.org/#download)
 - [:simple-linux: Linux](https://onionshare.org/#download)
+- [:simple-flathub: Flathub](https://flathub.org/apps/org.onionshare.OnionShare)
 
 </details>
 
