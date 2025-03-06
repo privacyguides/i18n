@@ -156,11 +156,11 @@ Diese Optionen sind unter :material-menu: → **Einstellungen** zu finden.
 
 Suchvorschläge sind in deiner Region möglicherweise nicht verfügbar.
 
-Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+Suchvorschläge senden alles, was du in die Adressleiste eingibst, an die Standardsuchmaschine, unabhängig davon, ob du die Suche tatsächlich durchführst. Indem du die Suchvorschläge deaktivierst, kannst du präziser kontrollieren, welche Daten an den Suchmaschinenanbieter gesendet werden.
 
 ##### Firefox Suggest (nur US)
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) ist eine Funktion, die Suchvorschlägen ähnelt und nur in den USA verfügbar ist. Wir empfehlen, sie aus demselben Grund zu deaktivieren, aus dem wir auch empfehlen, Suchvorschläge zu deaktivieren. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
 
 - [ ] Deaktiviere **Vorschläge von Firefox**
 - [ ] Deaktiviere **Vorschläge von Sponsoren**
@@ -350,7 +350,7 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 #### Suchmaschine
 
-We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
+Wir empfehlen die Deaktivierung von Suchvorschlägen in Brave aus demselben Grund, aus dem wir die Deaktivierung dieser Funktion in [Firefox](#search) empfehlen.
 
 - [ ] **Suchvorschläge anzeigen** deaktivieren
 
