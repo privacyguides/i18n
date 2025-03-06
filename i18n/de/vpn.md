@@ -358,7 +358,7 @@ Bei den von uns empfohlenen VPN-Anbietern legen wir Wert auf ein verantwortungsv
 
 **Mindestvoraussetzung um zu qualifizieren:**
 
-- Must self-host analytics (i.e., no Google Analytics).
+- Sie müssen Analyse-Tools selbst hosten (d. h. kein Google Analytics).
 
 Es darf kein Marketing geben, das unverantwortlich ist:
 
