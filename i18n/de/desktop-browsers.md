@@ -160,7 +160,7 @@ Suchvorschläge senden alles, was du in die Adressleiste eingibst, an die Standa
 
 ##### Firefox Suggest (nur US)
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) ist eine Funktion, die Suchvorschlägen ähnelt und nur in den USA verfügbar ist. Wir empfehlen, sie aus demselben Grund zu deaktivieren, aus dem wir auch empfehlen, Suchvorschläge zu deaktivieren. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) ist eine Funktion, die Suchvorschlägen ähnelt und nur in den USA verfügbar ist. Wir empfehlen, sie aus demselben Grund zu deaktivieren, aus dem wir auch empfehlen, Suchvorschläge zu deaktivieren. Wenn du diese Optionen im Abschnitt **Adressleiste** nicht siehst, ist dieses neue Feature bei dir noch nicht verfügbar, du kannst die beschriebenen Änderungen also ignorieren.
 
 - [ ] Deaktiviere **Vorschläge von Firefox**
 - [ ] Deaktiviere **Vorschläge von Sponsoren**
@@ -187,11 +187,11 @@ This protects you from persistent cookies, but does not protect you against cook
 - [ ] Deaktiviere **Firefox das Installieren und Durchführen von Studien erlauben**
 - [ ] Deaktiviere **Nicht gesendete Absturzberichte automatisch von Firefox senden lassen**
 
-According to Mozilla's privacy policy for Firefox,
+Laut Mozillas Datenschutzrichtlinie für Firefox,
 
 > Firefox sendet Daten über deine Firefox-Version und -Sprache, das Betriebssystem und die Hardware-Konfiguration deines Geräts, den Arbeitsspeicher, grundlegende Informationen über Abstürze und Fehler sowie die Ergebnisse automatisierter Prozesse wie Updates, Safebrowsing und Aktivierung an Mozilla. Wenn Firefox Daten an Mozilla sendet, wird deine IP-Adresse vorübergehend als Teil von Mozillas Serverprotokollen erfasst.
 
-Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt out:
+Außerdem sammelt der Mozilla-Konten-Dienst [einige technische Daten](https://mozilla.org/privacy/mozilla-accounts). Wenn du ein Mozilla-Konto verwendest, kannst du dich hiervon abmelden:
 
 1. Öffnen deine [Profileinstellungen auf accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Deaktiviere **Datenerfassung und -nutzung** > **Helfen Sie, Firefox-Konten zu verbessern**

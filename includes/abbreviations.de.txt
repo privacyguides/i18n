@@ -8,7 +8,7 @@
 *[CLI]: Kommandozeilen-Schnittstelle
 *[CSV]: Kommagetrennte Werte
 *[CVE]: Häufige Schwachstellen und Gefährdungen
-*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
+*[dark pattern]: Ein trügerisches Designmuster, das einen Benutzer dazu verleiten soll, etwas zu tun
 *[digitaler Nachlass]: Funktionen, die es ermöglichen nach dem eigenen Tod anderen Menschen Zugang zu Daten zu gewähren
 *[DNSSEC]: Domänennamensystem-Sicherheitserweiterungen
 *[DNS]: Domänennamensystem
@@ -16,7 +16,7 @@
 *[DoQ]: DNS über QUIC
 *[DoH3]: DNS über HTTP/3
 *[DoT]: DNS über TLS
-*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
+*[DPI]: Deep Packet Inspection identifiziert und blockiert Pakete mit bestimmter Nutzlast
 *[E2EE]: Ende-zu-Ende-Verschlüsselung/Verschlüsselt
 *[ECS]: EDNS Client Subnetz
 *[EWR]: Europäischer Wirtschaftsraum
@@ -50,7 +50,7 @@
 *[JNI]: Native Java-Schnittstelle
 *[KYC]: Know Your Customer
 *[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-*[LLMs]: Large Language Models (AI models such as ChatGPT)
+*[LLMs]: Large Language Models (Sprach-KI-Modelle wie ChatGPT)
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
 *[MAC]: Media Access Control
 *[MDAG]: Microsoft Defender Anwendungsschutz
@@ -72,7 +72,7 @@
 *[P2P]: Peer-to-Peer
 *[PAM]: Linux Pluggable Authentication Modules
 *[POP3]: Post Office Protocol 3
-*[PGP]: Pretty Good Privacy (see OpenPGP)
+*[PGP]: Pretty Good Privacy (siehe OpenPGP)
 *[PII]: Personenbezogene Daten
 *[QNAME]: Qualified Name
 *[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.

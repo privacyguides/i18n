@@ -180,7 +180,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. Sie sind seit 2013 in Betrieb. Proton AG is based in Geneva, Switzerland. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. Sie sind seit 2013 in Betrieb. Die Proton AG hat ihren Sitz in Genf, Schweiz. Der Proton Mail Free Tarif beinhaltet 500 MB Mailspeicher, den du kostenlos auf bis zu 1 GB erweitern kannst.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
 
@@ -188,7 +188,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. Er wird seit 2014 betrieben. Mailbox.org hat seinen Sitz in Berlin, Deutschland. Accounts start with up to 2 GB storage, which can be upgraded as needed.
+    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. Er wird seit 2014 betrieben. Mailbox.org hat seinen Sitz in Berlin, Deutschland. Konten beginnen mit 2 GB Speicherplatz, der nach Bedarf erweitert werden kann.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#mailboxorg)
 
