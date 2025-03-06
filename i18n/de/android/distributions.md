@@ -25,9 +25,9 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 - [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 - [:material-bug-outline: Passive Angriffe](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-A **custom Android-based operating system** (sometimes referred to as a **custom ROM**) can be a way to achieve a higher level of privacy and security on your device. This is in contrast to the "stock" version of Android which comes with your phone from the factory, and is often deeply integrated with Google Play Services as well as other vendor software.
+Ein **Custom Android-Betriebssystem** (manchmal auch als **Custom ROM** bezeichnet) kann eine Möglichkeit sein, um ein höheres Maß an Privatsphäre und Sicherheit auf einem Gerät zu erreichen. Dies steht im Gegensatz zu der „Stock“-Version von Android, die mit deinem Handy aus der Fabrik kommt, und häufig tiefgreifend mit Google Play Services, sowie Diensten anderer Hersteller, integriert ist.
 
-We recommend installing GrapheneOS if you have a Google Pixel as it provides improved security hardening and additional privacy features. The reasons we don't list other operating systems or devices are as follows:
+Wir empfehlen die Installation von GrapheneOS, wenn du ein Google Pixel besitzt, da es verbesserte Sicherheitshärtungen und zusätzliche Datenschutzfunktionen bietet. Die Gründe, warum wir keine anderen Betriebssysteme oder Geräte auflisten, sind folgende:
 
 - Sie haben oft eine [schwächere Sicherheit](index.md#install-a-custom-distribution).
 - Der Support wird häufig eingestellt, wenn der Maintainer das Interesse verliert oder sein Gerät aufrüstet, was im Gegensatz zu dem vorhersehbaren [Support-Zyklus](https://grapheneos.org/faq#device-lifetime) steht, dem GrapheneOS folgt.

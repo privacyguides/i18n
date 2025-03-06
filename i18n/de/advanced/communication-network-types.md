@@ -44,7 +44,7 @@ Wenn sie selbst gehostet werden, können die Mitglieder eines Verbund-Servers di
 - Ermöglicht eine bessere Kontrolle über deine eigenen Daten, wenn du deinen eigenen Server betreibst.
 - Erlaubt dir auszuwählen, wem du deine Daten anvertraust, indem du zwischen mehreren "öffentlichen" Servern entscheiden kannst.
 - Ermöglicht oft den Einsatz von Drittanbieter-Clients, die eine nativere, individuellere oder zugänglichere Erfahrung bieten können.
-- Server software can be verified that it matches public source code, assuming you have access to the server, or you trust the person who does (e.g., a family member).
+- Bei Serversoftware kann überprüft werden, ob sie mit dem öffentlichen Quellcode übereinstimmt; vorausgesetzt, du hast Zugang zum Server oder du vertraust der Person, die Zugang hat (z. B. einem Familienmitglied).
 
 **Nachteile:**
 
@@ -60,7 +60,7 @@ Wenn sie selbst gehostet werden, können die Mitglieder eines Verbund-Servers di
 
 P2P-Messenger stellen eine Verbindung zu einem [verteilten Netzwerk](https://en.wikipedia.org/wiki/Distributed_networking) von Knoten her, um eine Nachricht ohne einen Server von Dritten an die Zielperson weiterzuleiten.
 
-Die Clients (Peers) finden einander in der Regel über ein [verteiltes Computernetz](https://en.wikipedia.org/wiki/Distributed_computing). Beispiele hierfür sind [verteilte Hashtabellen (DHT)](https://de.wikipedia.org/wiki/Verteilte_Hashtabelle), die z. B. von [Torrents](https://de.wikipedia.org/wiki/BitTorrent) und [IPFS](https://de.wikipedia.org/wiki/InterPlanetary_File_System) verwendet werden. Another approach is proximity based networks, where a connection is established over Wi-Fi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
+Die Clients (Peers) finden einander in der Regel über ein [verteiltes Computernetz](https://en.wikipedia.org/wiki/Distributed_computing). Beispiele hierfür sind [verteilte Hashtabellen (DHT)](https://de.wikipedia.org/wiki/Verteilte_Hashtabelle), die z. B. von [Torrents](https://de.wikipedia.org/wiki/BitTorrent) und [IPFS](https://de.wikipedia.org/wiki/InterPlanetary_File_System) verwendet werden. Ein anderer Ansatz sind auf Nähe basierende Netzwerke, bei denen eine Verbindung über Wi-Fi oder Bluetooth hergestellt wird (z. B. Briar oder das Protokoll des sozialen Netzwerks [Scuttlebutt](https://scuttlebutt.nz)).
 
 Sobald ein Peer über eine dieser Methoden einen Weg zu dem Kontakt gefunden hat, wird eine direkte Verbindung zwischen beiden hergestellt. Obwohl die Nachrichten in der Regel verschlüsselt sind, kann ein Beobachter dennoch den Standort und die Identität von Absender und Empfänger feststellen.
 
@@ -85,9 +85,9 @@ P2P-Netze verwenden keine Server, da die Peers direkt miteinander kommunizieren 
 
 Ein Messenger, der [anonymes Routing](https://doi.org/10.1007/978-1-4419-5906-5_628) verwendet, verbirgt entweder die Identität des Absenders, des Empfängers oder den Nachweis, dass sie miteinander kommuniziert haben. Im Idealfall sollte ein Messenger alle drei verstecken.
 
-There are [many](https://doi.org/10.1145/3182658) ways to implement anonymous routing. Eines der bekanntesten ist das [Onion-Routing](https://de.wikipedia.org/wiki/Onion-Routing) (d. h. [Tor](tor-overview.md)), bei dem verschlüsselte Nachrichten über ein virtuelles [Overlay-Netzwerk](https://en.wikipedia.org/wiki/Overlay_network) übertragen werden, das den Standort jedes Knotens sowie den Empfänger und Absender jeder Nachricht verbirgt. Absender und Empfänger interagieren nie direkt, sondern treffen sich nur über einen geheimen Rendezvous-Knoten, so dass weder IP-Adressen noch physische Standorte bekannt werden. Die Knoten können die Nachrichten nicht entschlüsseln, ebenso wenig wie das endgültige Ziel, nur der Empfänger kann es. Jeder Zwischenknoten kann nur einen Teil entschlüsseln, der angibt, wohin die noch verschlüsselte Nachricht als Nächstes zu senden ist, bis sie beim Empfänger ankommt, der sie vollständig entschlüsseln kann, daher die "Onion Layer" (zu Deutsch: Zwiebelschichten).
+Es gibt [viele](https://doi.org/10.1145/3182658) Möglichkeiten, anonymes Routing zu implementieren. Eines der bekanntesten ist das [Onion-Routing](https://de.wikipedia.org/wiki/Onion-Routing) (d. h. [Tor](tor-overview.md)), bei dem verschlüsselte Nachrichten über ein virtuelles [Overlay-Netzwerk](https://en.wikipedia.org/wiki/Overlay_network) übertragen werden, das den Standort jedes Knotens sowie den Empfänger und Absender jeder Nachricht verbirgt. Absender und Empfänger interagieren nie direkt, sondern treffen sich nur über einen geheimen Rendezvous-Knoten, so dass weder IP-Adressen noch physische Standorte bekannt werden. Die Knoten können die Nachrichten nicht entschlüsseln, ebenso wenig wie das endgültige Ziel, nur der Empfänger kann es. Jeder Zwischenknoten kann nur einen Teil entschlüsseln, der angibt, wohin die noch verschlüsselte Nachricht als Nächstes zu senden ist, bis sie beim Empfänger ankommt, der sie vollständig entschlüsseln kann, daher die "Onion Layer" (zu Deutsch: Zwiebelschichten).
 
-Self-hosting a node in an anonymous routing network does not provide the host with additional privacy benefits, but rather contributes to the whole network's resilience against identification attacks for everyone's benefit.
+Das Selbst-hosten eines Knotens in einem anonymen Routing-Netz verschafft dem Host keine zusätzlichen Vorteile in Bezug auf die Privatsphäre, sondern trägt vielmehr zum Nutzen aller zur Widerstandsfähigkeit des gesamten Netzes gegen Identifizierungsangriffe bei.
 
 **Vorteile:**
 

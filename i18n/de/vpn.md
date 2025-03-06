@@ -2,7 +2,7 @@
 meta_title: "Private VPN-Anbieter Empfehlungen und Vergleiche, kein Sponsoring und keine Werbung - Privacy Guides"
 title: "VPN Anbieter"
 icon: material/vpn
-description: The best VPN services for protecting your privacy and security online. Find a provider here that isn't out to spy on you.
+description: Die besten VPN-Anbieter zum Schutz deiner Privatsphäre und Sicherheit im Internet. Hier findest du einen Anbieter, der nicht darauf aus ist, dich auszuspionieren.
 cover: vpn.webp
 global:
   - 
@@ -48,9 +48,9 @@ Die von uns empfohlenen Anbieter verwenden Verschlüsselung, unterstützen WireG
 **Proton VPN** ist ein starker Anwärter im VPN-Bereich und ist seit 2016 in Betrieb. Die Proton AG hat ihren Sitz in der Schweiz und bietet sowohl eine begrenzte kostenlose als auch eine umfangreichere Premium-Option an.
 
 [:octicons-home-16: Homepage](https://protonvpn.com/de){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://protonvpn.com/de/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://protonvpn.com/support){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://protonvpn.com/de/privacy-policy){ .card-link title="Datenschutzerklärung" }
+[:octicons-info-16:](https://protonvpn.com/support/de){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Quellcode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -89,21 +89,21 @@ Proton VPN akzeptiert nicht nur Kredit-/Debitkarten, PayPal und [Bitcoin](advanc
 
 #### :material-check:{ .pg-green } WireGuard-Unterstützung
 
-Proton VPN supports the WireGuard® protocol. [WireGuard](https://wireguard.com) ist ein neueres Protokoll, das modernste [Kryptographie](https://wireguard.com/protocol) verwendet. Darüber hinaus zielt WireGuard darauf ab, einfacher und leistungsfähiger zu sein.
+Proton VPN unterstützt das WireGuard®-Protokoll. [WireGuard](https://wireguard.com) ist ein neueres Protokoll, das modernste [Kryptographie](https://wireguard.com/protocol) verwendet. Darüber hinaus zielt WireGuard darauf ab, einfacher und leistungsfähiger zu sein.
 
-Proton VPN [empfiehlt](https://protonvpn.com/blog/wireguard) die Verwendung von WireGuard mit ihrem Dienst. Proton VPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
+Proton VPN [empfiehlt](https://protonvpn.com/blog/wireguard) die Verwendung von WireGuard mit ihrem Dienst. Proton VPN bietet auch einen WireGuard-Konfigurationsgenerator zur Verwendung mit den offiziellen WireGuard-[Apps](https://wireguard.com/install) an.
 
-#### :material-alert-outline:{ .pg-orange } Limited IPv6 Support
+#### :material-alert-outline:{ .pg-orange } Eingeschränkte IPv6 Unterstützung
 
-Proton [now supports IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks) in their browser extension but only 80% of their servers are IPv6-compatible. On other platforms, the Proton VPN client will block all outgoing IPv6 traffic, so you don't have to worry about your IPv6 address being leaked, but you will not be able to connect to any IPv6-only sites, nor will you be able to connect to Proton VPN from an IPv6-only network.
+Proton [unterstützt jetzt IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks) in ihrer Browsererweiterung, aber nur 80 % der Server sind IPv6-kompatibel. Auf anderen Plattformen blockiert der Proton VPN-Client den gesamten ausgehenden IPv6-Verkehr, so dass du dir keine Sorgen machen musst, dass deine IPv6-Adresse ausspioniert wird, aber du kannt dich weder mit reinen IPv6-Websites verbinden, noch dich von einem reinen IPv6-Netzwerk aus mit Proton VPN verbinden.
 
 #### :material-information-outline:{ .pg-info } Remote Portweiterleitung
 
-Proton VPN unterstützt derzeit nur vorrübergehende [Remote-Port-Weiterleitung](https://protonvpn.com/support/port-forwarding) über NAT-PMP, mit 60 Sekunden Bestandszeit. The Windows app provides an easy-to-access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup). Torrent-Anwendungen unterstützen oft NAT-PMP von Haus aus.
+Proton VPN unterstützt derzeit nur vorrübergehende [Remote-Port-Weiterleitung](https://protonvpn.com/support/port-forwarding) über NAT-PMP, mit 60 Sekunden Bestandszeit. Die Windows-App bietet eine leicht zugängliche Option dafür, während du auf anderen Betriebssystemen deinen eigenen [NAT-PMP-Client](https://protonvpn.com/support/port-forwarding-manual-setup) ausführen musst. Torrent-Anwendungen unterstützen oft NAT-PMP von Haus aus.
 
 #### :material-information-outline:{ .pg-blue } Anti-Zensur
 
-Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol) protocol which *may* help in situations where VPN protocols like OpenVPN or WireGuard are blocked with various rudimentary techniques. Stealth kapselt den VPN-Tunnel in eine TLS-Sitzung ein, damit er mehr wie normaler Internetverkehr aussieht.
+Proton VPN hat sein [Stealth-Protokoll](https://protonvpn.com/blog/stealth-vpn-protocol), das in Situationen helfen *kann*, in denen VPN-Protokolle wie OpenVPN oder WireGuard mit verschiedenen, rudimentären Techniken blockiert werden. Stealth kapselt den VPN-Tunnel in eine TLS-Sitzung ein, damit er mehr wie normaler Internetverkehr aussieht.
 
 Leider funktioniert das nicht sehr gut in Ländern, in denen ausgeklügelte Filter eingesetzt werden, die den gesamten ausgehenden Datenverkehr analysieren und versuchen, verschlüsselte Tunnel zu entdecken. Stealth ist für Android, iOS, Windows und macOS verfügbar, aber noch nicht für Linux.
 
@@ -113,11 +113,11 @@ Neben der Bereitstellung von Standard-OpenVPN-Konfigurationsdateien bietet Proto
 
 #### :material-information-outline:{ .pg-blue } Zusätzliche Hinweise
 
-Proton VPN clients support two-factor authentication on all platforms. Proton VPN hat eigene Server und Rechenzentren in der Schweiz, Island und Schweden. Sie bieten mit ihrem DNS-Dienst die Blockierung von Inhalten und bekannter Malware an. Darüber hinaus bietet Proton VPN auch "Tor"-Server an, die es dir ermöglichen, sich problemlos mit Onion-Seiten zu verbinden. Wir empfehlen jedoch dringend, zu diesem Zweck [den offiziellen Tor-Browser](tor.md#tor-browser) zu verwenden.
+Proton VPN Clients unterstützen Zwei-Faktor-Authentisierung auf allen Plattformen. Proton VPN hat eigene Server und Rechenzentren in der Schweiz, Island und Schweden. Sie bieten mit ihrem DNS-Dienst die Blockierung von Inhalten und bekannter Malware an. Darüber hinaus bietet Proton VPN auch "Tor"-Server an, die es dir ermöglichen, sich problemlos mit Onion-Seiten zu verbinden. Wir empfehlen jedoch dringend, zu diesem Zweck [den offiziellen Tor-Browser](tor.md#tor-browser) zu verwenden.
 
-##### :material-alert-outline:{ .pg-orange } Kill switch feature is broken on Intel-based Macs
+##### :material-alert-outline:{ .pg-orange } Die Kill-Switch-Funktion ist auf Intel-basierten Macs defekt
 
-System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch) on Intel-based Macs when using the VPN kill switch. Wenn du diese Funktion benötigst und einen Mac mit Intel-Chipsatz verwendest, solltest du einen anderen VPN-Dienst nutzen.
+Systemabstürze [können](https://protonvpn.com/support/macos-t2-chip-kill-switch) auf Intel-basierten Macs auftreten, wenn der VPN-Kill-Switch verwendet wird. Wenn du diese Funktion benötigst und einen Mac mit Intel-Chipsatz verwendest, solltest du einen anderen VPN-Dienst nutzen.
 
 ### IVPN
 
@@ -157,7 +157,7 @@ Wir sind außerdem der Meinung, dass es für die Sicherheit der privaten Schlüs
 
 #### :material-check:{ .pg-green } Unabhängig geprüft
 
-IVPN has had multiple [independent audits](https://ivpn.net/en/blog/tags/audit) since 2019 and has publicly announced their commitment to [annual security audits](https://ivpn.net/blog/ivpn-apps-security-audit-concluded).
+IVPN hat sich seit 2019 mehreren [unabhängigen Audits](https://ivpn.net/en/blog/tags/audit) unterzogen und hat öffentlich angekündigt, dass es sich zu [jährlichen Sicherheitsaudits](https://ivpn.net/blog/ivpn-apps-security-audit-concluded) verpflichtet.
 
 #### :material-check:{ .pg-green } Open-Source-Clients
 
@@ -191,7 +191,7 @@ Zusätzlich zu den Standard-OpenVPN-Konfigurationsdateien bietet IVPN mobile Cli
 
 #### :material-information-outline:{ .pg-blue } Zusätzliche Hinweise
 
-IVPN clients support two-factor authentication. IVPN bietet auch die Funktion "[AntiTracker](https://ivpn.net/antitracker)", die Werbenetzwerke und Tracker auf der Netzwerkebene blockiert.
+IVPN-Clients unterstützen die Zwei-Faktor-Authentisierung. IVPN bietet auch die Funktion "[AntiTracker](https://ivpn.net/antitracker)", die Werbenetzwerke und Tracker auf der Netzwerkebene blockiert.
 
 ### Mullvad
 
@@ -199,13 +199,13 @@ IVPN clients support two-factor authentication. IVPN bietet auch die Funktion "[
 
 ![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** ist ein schnelles und preiswertes VPN mit einem ernsthaften Fokus auf Transparenz und Sicherheit. Sie sind seit 2009 in Betrieb. Mullvad is based in Sweden and offers a 14-day money-back guarantee for [payment methods](https://mullvad.net/en/help/refunds) that allow it.
+**Mullvad** ist ein schnelles und preiswertes VPN mit einem ernsthaften Fokus auf Transparenz und Sicherheit. Sie sind seit 2009 in Betrieb. Mullvad hat seinen Sitz in Schweden und bietet eine 14-tägige Geld-zurück-Garantie für [Zahlungsarten](https://mullvad.net/en/help/refunds), die dies zulassen.
 
 [:octicons-home-16: Homepage](https://mullvad.net/de){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Dienst" }
-[:octicons-eye-16:](https://mullvad.net/de/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/de/help){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://mullvad.net/de/help/privacy-policy){ .card-link title="Datenschutzerklärung" }
+[:octicons-info-16:](https://mullvad.net/de/help){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Quellcode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -232,7 +232,7 @@ Wir sind außerdem der Meinung, dass es für die Sicherheit der privaten Schlüs
 
 #### :material-check:{ .pg-green } Unabhängig geprüft
 
-Mullvad has had multiple [independent audits](https://mullvad.net/en/blog/tag/audits) and has publicly announced their endeavors to conduct [annual audits](https://mullvad.net/en/blog/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) of their apps and infrastructure.
+Mullvad wurde mehrfach [von unabhängiger Seite geprüft](https://mullvad.net/en/blog/tag/audits) und hat öffentlich angekündigt, seine Anwendungen und seine Infrastruktur [jährlich auditieren](https://mullvad.net/en/blog/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) zu wollen.
 
 #### :material-check:{ .pg-green } Open-Source Anwendungen
 
@@ -316,27 +316,27 @@ Wir ziehen es vor, dass die von uns empfohlenen Anbieter*innen so wenig Daten wi
 **Im besten Fall:**
 
 - Akzeptiert mehrere [anonyme Zahlungsmöglichkeiten](advanced/payments.md).
-- No personal information accepted (auto-generated username, no email required, etc.).
+- Es werden keine persönlichen Informationen akzeptiert (automatisch generierter Benutzername, keine E-Mail erforderlich, usw.).
 
 ### Sicherheit
 
-Ein VPN ist sinnlos, wenn es nicht einmal angemessene Sicherheit bieten kann. We require all our recommended providers to abide by current security standards. Idealerweise würden sie standardmäßig zukunftssichere Verschlüsselungsverfahren verwenden. Wir setzen auch voraus, dass ein unabhängiger Dritter die Sicherheit des Anbieters überprüft, idealerweise sehr umfassend und wiederholt (jährlich).
+Ein VPN ist sinnlos, wenn es nicht einmal angemessene Sicherheit bieten kann. Wir setzen für all von uns empfohlenen Anbietern voraus, dass sie die aktuellen Sicherheitsstandards einhalten. Idealerweise würden sie standardmäßig zukunftssichere Verschlüsselungsverfahren verwenden. Wir setzen auch voraus, dass ein unabhängiger Dritter die Sicherheit des Anbieters überprüft, idealerweise sehr umfassend und wiederholt (jährlich).
 
 **Mindestvoraussetzung um zu qualifizieren:**
 
 - Starke Verschlüsselungsschemata: OpenVPN mit SHA-256-Authentifizierung; RSA-2048 oder besserer Handshake; AES-256-GCM oder AES-256-CBC Datenverschlüsselung.
 - Forward Secrecy (vorwärts gerichtete Geheimhaltung).
 - Veröffentlichte Sicherheitsaudits durch ein angesehenes Drittunternehmen.
-- VPN servers that use full-disk encryption or are RAM-only.
+- VPN-Server, die eine vollständige Festplattenverschlüsselung verwenden oder nur über RAM laufen.
 
 **Im besten Fall:**
 
 - Stärkste Verschlüsselung: RSA-4096.
-- Optional quantum-resistant encryption.
+- Optionale quantenresistente Verschlüsselung.
 - Forward Secrecy (vorwärts gerichtete Geheimhaltung).
 - Umfassende veröffentlichte Sicherheitsaudits durch ein angesehenes Drittunternehmen.
 - Bug-Bounty-Programme und/oder ein koordiniertes Verfahren zur Offenlegung von Sicherheitslücken.
-- RAM-only VPN servers.
+- VPN-Server die nur über RAM laufen.
 
 ### Vertrauen
 

@@ -32,7 +32,7 @@ Wir empfehlen auf dieser Website eine Vielzahl von Android-Apps. Die hier aufgef
 
 ### Shelter
 
-If your device is on Android 15 or greater, we recommend using the native [Private Space](../os/android-overview.md#private-space) feature instead, which provides nearly the same functionality without needing to place trust in and grant powerful permissions to a third-party app.
+Wenn dein Gerät mit Android 15 oder höher ausgestattet ist, empfehlen wir dir, stattdessen die native Funktion [Privater Speicher](../os/android-overview.md#private-space) zu verwenden, die nahezu dieselbe Funktionalität bietet, ohne dass du einer Drittanbieter-App vertrauen und ihr weitreichende Berechtigungen erteilen musst.
 
 <div class="admonition recommendation" markdown>
 
@@ -59,7 +59,7 @@ Shelter wird gegenüber [Insular](https://secure-system.gitlab.io/Insular) und [
 
 ### Secure Camera
 
-<small>Protects against the following threat(s):</small>
+<small>Schützt vor der/den folgenden Bedrohung(en):</small>
 
 - [:material-account-search: Public Exposure](../basics/common-threats.md#limiting-public-information){ .pg-green }
 
@@ -95,7 +95,7 @@ Zu den wichtigsten Privatsphäre-Funktionen gehören:
 <div class="admonition note" markdown>
 <p class="admonition-title">Anmerkung</p>
 
-Metadata is not currently deleted from video files, but that is planned.
+Metadaten werden derzeit nicht aus Videodateien gelöscht, dies ist jedoch geplant.
 
 Die Metadaten zur Bildausrichtung werden nicht gelöscht. Wenn du den Standort (in Secure Camera) aktivierst, wird dieser auch **nicht** gelöscht. Wenn du dies später löschen möchtest, musst du eine externe App wie [ExifEraser](../data-redaction.md#exiferaser-android) verwenden.
 
@@ -103,7 +103,7 @@ Die Metadaten zur Bildausrichtung werden nicht gelöscht. Wenn du den Standort (
 
 ### Secure PDF Viewer
 
-<small>Protects against the following threat(s):</small>
+<small>Schützt vor der/den folgenden Bedrohung(en):</small>
 
 - [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
