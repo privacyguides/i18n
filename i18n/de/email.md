@@ -201,7 +201,7 @@ Diese Anbieter speichern deine E-Mails mit Zero-Knowledge-Verschlüsselung und s
 [:octicons-eye-16:](https://tuta.com/de/privacy-policy){ .card-link title="Datenschutzerklärung" }
 [:octicons-info-16:](https://tuta.com/de/support){ .card-link title="Dokumentation" }
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Quellcode" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Mitwirken" }
+[:octicons-heart-16:](https://tuta.com/de/community){ .card-link title="Mitwirken" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -378,7 +378,7 @@ Bei den von uns empfohlenen E-Mail-Anbietern legen wir Wert auf ein verantwortun
 
 **Mindestvoraussetzung um sich zu qualifizieren:**
 
-- Must self-host analytics (no Google Analytics, Adobe Analytics, etc.).
+- Muss seine Analyse-Tools selbst hosten (kein Google Analytics, Adobe Analytics etc.).
 
 Es darf kein unverantwortliches Marketing betrieben werden, wozu Folgendes gehören kann:
 

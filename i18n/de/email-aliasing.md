@@ -32,39 +32,39 @@ Sie haben auch eine Reihe von Vorteilen gegenüber "temporären E-Mail-Diensten"
 - E-Mails werden an dein vertrauenswürdiges Postfach gesendet und nicht beim Alias-Anbieter gespeichert.
 - Temporäre E-Mail-Dienste haben in der Regel öffentliche Postfächer, auf die jeder zugreifen kann, der die Adresse kennt, während Aliase privat sind.
 
-Our email aliasing recommendations are providers that allow you to create aliases on domains they control, as well as on your own custom domain(s) for a modest yearly fee. They can also be self-hosted if you want maximum control. However, using a custom domain can have privacy-related drawbacks: If you are the only person using your custom domain, your actions can be easily tracked across websites simply by looking at the domain name in the email address and ignoring everything before the at (@) sign.
+Unsere E-Mail-Aliasing-Empfehlungen beziehen sich auf Provider, die es dir ermöglichen, gegen eine geringe Jahresgebühr Aliase für die von ihnen kontrollierten Domains sowie für deine eigene(n) benutzerdefinierte(n) Domain(s) zu erstellen. Sie können auch selbst gehostet werden, für maximale Kontrolle. Die Verwendung einer benutzerdefinierten Domain kann jedoch datenschutzbezogene Nachteile haben: Wenn du die einzige Person bist, die deine benutzerdefinierte Domain verwendet, können deine Aktionen auf verschiedenen Websites leicht nachverfolgt werden, indem einfach der Domainname in der E-Mail-Adresse betrachtet und alles vor dem @-Zeichen ignoriert wird.
 
-Using an aliasing service requires trusting both your email provider and your aliasing provider with your unencrypted messages. Some providers mitigate this slightly with automatic PGP encryption[^1], which reduces the number of parties you need to trust from two to one by encrypting incoming emails before they are delivered to your final mailbox provider.
+Die Verwendung eines Alias-Dienstes setzt voraus, dass du sowohl deinem E-Mail-Anbieter als auch deinem Alias-Anbieter deine unverschlüsselten Nachrichten anvertraust. Einige Anbieter entschärfen dieses Problem teils durch automatische PGP-Verschlüsselung[^1], bei der die Anzahl der Parteien, denen du vertrauen musst, von zwei auf eine reduziert wird, indem eingehende E-Mails verschlüsselt werden, bevor sie an deinen endgültigen Mailbox-Anbieter übermittelt werden.
 
 ### addy.io
 
 <div class="admonition recommendation" markdown>
 
-![addy.io logo](assets/img/email-aliasing/addy.svg){ align=right }
+![addy.io Logo](assets/img/email-aliasing/addy.svg){ align=right }
 
-**addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases.
+**addy.io** lässt dich 10 Domain-Aliase auf einer gemeinsam genutzten Domain kostenlos oder unbegrenzt „Standard“-Aliase erstellen.
 
 [:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://addy.io/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribute }
+[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Datenschutzerklärung" }
+[:octicons-info-16:](https://addy.io/faq){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Spenden }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
 - [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
 - [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/de/firefox/addon/addy_io/)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
 </details>
 
 </div>
 
-The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can pay for these plans using [cryptocurrency](https://addy.io/help/subscribing-with-cryptocurrency) or purchase a voucher code from [ProxyStore](https://addy.io/help/voucher-codes), addy.io's official reseller.
+Die Anzahl der geteilten Aliase (die auf eine gemeinsam genutzte Domain wie @addy.io enden), die du erstellen kannst, ist beim kostenlosen Tarif von addy.io auf 10 begrenzt, beim Tarif für 1 €/Monat auf 50 und beim Tarif für 4 €/Monat (der für ein Jahr mit 3 € berechnet wird) unbegrenzt. Du kannst für diese Tarife mit [Kryptowährung](https://addy.io/help/subscribing-with-cryptocurrency) bezahlen oder einen Gutscheincode von [ProxyStore](https://addy.io/help/voucher-codes), addy.io's offiziellem Reseller, erwerben.
 
-You can create unlimited standard aliases which end in a domain like @[username].addy.io or a custom domain on paid plans. However, as previously mentioned, this can be detrimental to privacy because people can trivially tie your standard aliases together based on the domain name alone. They are useful where a shared domain might be blocked by a service. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
+Du kannst unbegrenzt viele Standard-Aliase erstellen, die auf eine Domain wie @[Benutzername].addy.io oder eine benutzerdefinierte Domain bei kostenpflichtigen Tarifen enden. Wie bereits erwähnt, kann sich dies jedoch nachteilig auf deine Privatsphäre auswirken, da andere Personen deine Standard-Aliasnamen allein aufgrund des Domainnamens trivialerweise miteinander verknüpfen können. Standard Aliase sind sinnvoll, wenn geteilte Domains von einer Website geblockt werden. Securitum [auditierte](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io im September 2023, wobei keine signifikanten Schwachstellen [identifiziert wurden](https://addy.io/addy-io-security-audit.pdf).
 
 Bemerkenswerte kostenlose Funktionen:
 
@@ -80,24 +80,24 @@ If you cancel your subscription, you will still enjoy the features of your paid 
 
 <div class="admonition recommendation" markdown>
 
-![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ align=right }
+![SimpleLogin Logo](assets/img/email-aliasing/simplelogin.svg){ align=right }
 
 **SimpleLogin** is a free service which provides email aliases on a variety of shared domain names, and optionally provides paid features like unlimited aliases and custom domains.
 
-[:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplelogin.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://simplelogin.io/docs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
+[:octicons-home-16: Homepage](https://simplelogin.io/de/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://simplelogin.io/privacy){ .card-link title="Datenschutzerklärung" }
+[:octicons-info-16:](https://simplelogin.io/docs){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Quellcode" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<0>Downloads</0>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)
 - [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin)
+- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/de/firefox/addon/simplelogin)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
-- [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
+- [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff?hl=de-DE)
 - [:simple-safari: Safari](https://apps.apple.com/app/id6475835429)
 
 </details>
@@ -106,7 +106,7 @@ If you cancel your subscription, you will still enjoy the features of your paid 
 
 SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) as of April 8, 2022. If you use Proton Mail for your primary mailbox, SimpleLogin is a great choice. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin continues to support forwarding to any email provider of your choosing. Securitum [audited](https://simplelogin.io/blog/security-audit) SimpleLogin in early 2022 and all issues [were addressed](https://simplelogin.io/audit2022/web.pdf).
 
-You can link your SimpleLogin account in the settings with your Proton account. If you have Proton Pass Plus, Proton Unlimited, or any multi-user Proton plan, you will have SimpleLogin Premium for free.
+You can link your SimpleLogin account in the settings with your Proton account. Wenn du Proton Pass Plus, Proton Unlimited oder einen anderen Proton Multi-User-Tarif hast, erhältst du SimpleLogin Premium kostenlos.
 
 You can also purchase a voucher code for SimpleLogin Premium anonymously via their official reseller, [ProxyStore](https://simplelogin.io/faq).
 

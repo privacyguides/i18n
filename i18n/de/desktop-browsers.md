@@ -339,7 +339,7 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 #### Web3
 
-Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of these features, they should be disabled.
+Die Web3-Funktionen von Brave können deinen Browser-Fingerabdruck und deine Angriffsfläche potenziell vergrößern. Wenn du keine der Funktionen verwendest, sollten sie deaktiviert werden.
 
 - Wähle **Erweiterungen (kein Backup)** unter *Standard-Ethereum-Wallet*
 - Wähle **Erweiterungen (kein Backup)** unter *Standard-Solana-Wallet*
