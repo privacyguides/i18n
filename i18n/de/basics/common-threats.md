@@ -4,7 +4,7 @@ icon: 'material/eye-outline'
 description: Deine persönliche Bedrohungsanalyse kannst nur du selber durchführen. Vielen Besuchern dieser Webseite sind aber folgende Dinge wichtig.
 ---
 
-Wir ordnen unsere Empfehlungen nach [Bedrohungen](threat-modeling.md) beziehungsweise Zielen, die für die meisten Menschen gelten. ==Dich können keine, eine, einige oder alle dieser Themen betreffen==, und du solltest die von dir eingesetzten Werkzeuge und Dienste von deinen Zielen abhängig machen. You may have specific threats outside these categories as well, which is perfectly fine! Wichtig ist, dass du die Vorteile und Schwächen der von dir gewählten Werkzeuge kennst, denn praktisch keines davon schützt dich vor jeder Bedrohung.
+Wir ordnen unsere Empfehlungen nach [Bedrohungen](threat-modeling.md) beziehungsweise Zielen, die für die meisten Menschen gelten. ==Dich können keine, eine, einige oder alle dieser Themen betreffen==, und du solltest die von dir eingesetzten Werkzeuge und Dienste von deinen Zielen abhängig machen. Du kannst auch spezifische Bedrohungen außerhalb dieser Kategorien haben, das ist völlig in Ordnung! Wichtig ist, dass du die Vorteile und Schwächen der von dir gewählten Werkzeuge kennst, denn praktisch keines davon schützt dich vor jeder Bedrohung.
 
 <span class="pg-purple">:material-incognito: **Anonymität**</span>
 :
@@ -16,7 +16,7 @@ Schütze deine Online-Aktivitäten von deiner realen Identität, um dich vor Per
 
 Schutz vor Hackern oder anderen böswilligen Akteuren, die versuchen, sich Zugang zu *deinen * Daten oder Geräten zu verschaffen.
 
-<span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
+<span class="pg-viridian">:material-package-variant-closed-remove: **Supply-Chain-Attacke**</span>
 :
 
 Typically, a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
@@ -44,7 +44,7 @@ Schutz vor großen Werbenetzwerken wie Google und Facebook sowie vor einer Vielz
 <span class="pg-green">:material-account-search: **Public Exposure**</span>
 :
 
-Limiting the information about you that is accessible online—to search engines or the public.
+Begrenzung der Informationen über dich online—für Suchmaschinen oder die Öffentlichkeit.
 
 <span class="pg-blue-gray">:material-close-outline: **Zensur**</span>
 :
@@ -76,7 +76,7 @@ Um den Schaden, den eine bösartige Software anrichten *könnte*, zu minimieren,
 
 Mobile Betriebssysteme verfügen im Allgemeinen über eine bessere Sandbox für Anwendungen als Desktop-Betriebssysteme: Apps können keinen Root-Zugriff erhalten und benötigen eine Genehmigung für den Zugriff auf Systemressourcen.
 
-Desktop-Betriebssysteme hinken im Allgemeinen bei ordnungsgemäßen Sandboxing-Technik hinterher. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). Allerdings übermitteln diese Betriebssysteme identifizierende Informationen an ihre jeweiligen OEMs. Linux tendiert dazu, keine Informationen an Systemanbieter weiterzugeben, bietet aber nur einen geringen Schutz gegen Exploits und bösartige Anwendungen. Dies kann mit spezialisierten Distributionen, die in erheblichem Umfang virtuelle Maschinen oder Container verwenden, wie [Qubes OS](../desktop.md#qubes-os), etwas abgemildert werden.
+Desktop-Betriebssysteme hinken im Allgemeinen bei ordnungsgemäßen Sandboxing-Technik hinterher. ChromeOS verfügt über ähnliche Sandboxing-Funktionen wie Android, und macOS bietet eine vollständige Kontrolle der Systemberechtigungen (und Entwickler können sich für Sandboxing von Anwendungen entscheiden). Allerdings übermitteln diese Betriebssysteme identifizierende Informationen an ihre jeweiligen OEMs. Linux tendiert dazu, keine Informationen an Systemanbieter weiterzugeben, bietet aber nur einen geringen Schutz gegen Exploits und bösartige Anwendungen. Dies kann mit spezialisierten Distributionen, die in erheblichem Umfang virtuelle Maschinen oder Container verwenden, wie [Qubes OS](../desktop.md#qubes-os), etwas abgemildert werden.
 
 </div>
 
@@ -97,7 +97,7 @@ Wenn du dir Sorgen über **physische Angriffe** machst, solltest du ein Betriebs
 
 ## Angriffe auf bestimmte Organisationen
 
-<span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>
+<span class="pg-viridian">:material-package-variant-closed-remove: Supply-Chain-Attacke</span>
 
 Supply chain attacks are frequently a form of <span class="pg-red">:material-target-account: Targeted Attack</span> towards businesses, governments, and activists, although they can end up compromising the public at large as well.
 
@@ -154,9 +154,9 @@ Unter Massenüberwachung versteht man die aufwändige Überwachung des "Verhalte
 <div class="admonition abstract" markdown>
 <p class="admonition-title">Atlas der Überwachung</p>
 
-If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
+Wenn du mehr über Überwachungsmethoden und deren Umsetzung in US-Städten erfahren möchtest, kannst du die den [Atlas of Surveillance](https://atlasofsurveillance.org) der [Electronic Frontier Foundation](https://eff.org) ansehen.
 
-In France, you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
+Für Frankreich kannst du einen Blick auf die [Technopolice Website](https://technopolice.fr/villes) werfen, die von dem gemeinnützigen Verein La Quadrature du Net betrieben wird.
 
 </div>
 
@@ -228,4 +228,4 @@ Du musst immer die Risiken berücksichtigen, die mit dem Umgehen von Zensur verb
 [^2]: United States Privacy and Civil Liberties Oversight Board: [*Report on the Telephone Records Program Conducted under Section 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
 [^3]: Wikipedia: [*Surveillance capitalism*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
 [^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. You should also employ other mitigation techniques.
-[^5]: United Nations: [*Universal Declaration of Human Rights*](https://un.org/en/about-us/universal-declaration-of-human-rights).
+[^5]: Vereinte Nationen: [*Allgemeine Erklärung der Menschenrechte*](https://un.org/en/about-us/universal-declaration-of-human-rights).

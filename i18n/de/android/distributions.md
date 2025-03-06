@@ -29,9 +29,9 @@ A **custom Android-based operating system** (sometimes referred to as a **custom
 
 We recommend installing GrapheneOS if you have a Google Pixel as it provides improved security hardening and additional privacy features. The reasons we don't list other operating systems or devices are as follows:
 
-- They often have [weaker security](index.md#install-a-custom-distribution).
-- Support is frequently dropped when the maintainer loses interest or upgrades their device, which is in contrast to the predictable [support cycle](https://grapheneos.org/faq#device-lifetime) that GrapheneOS follows.
-- They generally have few or no notable privacy or security improvements that make installing them worthwhile.
+- Sie haben oft eine [schwächere Sicherheit](index.md#install-a-custom-distribution).
+- Der Support wird häufig eingestellt, wenn der Maintainer das Interesse verliert oder sein Gerät aufrüstet, was im Gegensatz zu dem vorhersehbaren [Support-Zyklus](https://grapheneos.org/faq#device-lifetime) steht, dem GrapheneOS folgt.
+- Sie bieten in der Regel nur wenige oder gar keine nennenswerten Verbesserungen des Datenschutzes oder der Sicherheit, die ihre Installation lohnend machen.
 
 ## GrapheneOS
 
@@ -58,14 +58,14 @@ GrapheneOS unterstützt [sandboxed Google Play](https://grapheneos.org/usage#san
 
 Standardmäßig stellt Android viele Netzwerkverbindungen zu Google her, um DNS-Verbindungsprüfungen durchzuführen, sich mit der aktuellen Netzwerkzeit zu synchronisieren, deine Netzwerkverbindung zu prüfen und viele andere Aufgaben im Hintergrund zu erledigen. GrapheneOS ersetzt diese durch Verbindungen zu Servern, die von GrapheneOS betrieben werden und deren Datenschutzbestimmungen unterliegen. Dies verbirgt Informationen wie deine IP-Adresse [vor Google](../basics/common-threats.md#privacy-from-service-providers), aber es bedeutet, dass es für einen Administrator in deinem Netzwerk oder ISP trivial ist, zu sehen, dass du Verbindungen zu `grapheneos.network`, `grapheneos.org` usw. herstellen, und daraus zu schließen, welches Betriebssystem du verwendest.
 
-Wenn du Informationen wie diese vor einem Angreifer in deinem Netzwerk oder vor deinem ISP verbergen möchtest, **musst** du ein [vertrauenswürdiges VPN](../vpn.md) verwenden und zusätzlich die Einstellung für die Verbindungsprüfung auf **Standard (Google)** ändern. It can be found in :gear: **Settings** → **Network & internet** → **Internet connectivity checks**. This option allows you to connect to Google's servers for connectivity checks, which, alongside the usage of a VPN, helps you blend in with a larger pool of Android devices.
+Wenn du Informationen wie diese vor einem Angreifer in deinem Netzwerk oder vor deinem ISP verbergen möchtest, **musst** du ein [vertrauenswürdiges VPN](../vpn.md) verwenden und zusätzlich die Einstellung für die Verbindungsprüfung auf **Standard (Google)** ändern. Du findest sie unter :gear: **Einstellungen** → **Netzwerk & Internet** → **Internet connectivity checks**. Mit dieser Option kannst du eine Verbindung zu den Google-Servern herstellen, um die Konnektivität zu prüfen. Zusammen mit der Verwendung eines VPNs kannst du dich so in einen größeren Pool von Android-Geräten einfügen.
 
 ## Kriterien
 
 **Bitte beachte, dass wir mit keinem der Projekte, die wir empfehlen, in Verbindung stehen.** Zusätzlich zu [unseren Standardkriterien](../about/criteria.md) haben wir eine Reihe klarer Anforderungen entwickelt, die es uns ermöglichen, objektive Empfehlungen zu geben. Wir empfehlen dir, dich mit der Liste vertraut zu machen, bevor du dich für ein Projekt entscheidest, und deine eigenen Recherchen anzustellen, um sicherzustellen, dass es die richtige Wahl für dich ist.
 
 - Es muss sich um Open-Source Software handeln.
-- Must support bootloader locking with custom AVB key support.
+- Muss die Bootloader-Sperre mit benutzerdefiniertem AVB-Key unterstützen.
 - Muss wichtige Android-Updates innerhalb von 0-1 Monaten nach der Veröffentlichung erhalten.
 - Muss innerhalb von 0-14 Tagen nach der Veröffentlichung Updates für Android-Funktionen (kleinere Versionen) erhalten.
 - Muss innerhalb von 0-5 Tagen nach der Veröffentlichung regelmäßig Sicherheits-Patches erhalten.

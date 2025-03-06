@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Respecting Web Browsers for Android and iOS - Privacy Guides"
+meta_title: "Datenschutzfreundliche Webbrowser für Android und iOS - Privacy Guides"
 title: "Mobile Browser"
 icon: material/cellphone-information
 description: Wir empfehlen aktuell diese mobilen Browser für normales bzw. nicht anonymes Surfen im Internet.
@@ -202,20 +202,20 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) ermöglicht den Zugriff auf deine Browsing-Daten (Verlauf, Lesezeichen usw.) auf all deinen Geräten und schützt diese Daten mit E2EE.
 
 ## Cromite (Android)
 
 <div class="admonition recommendation" markdown>
 
-![Cromite logo](assets/img/browsers/cromite.svg){ align=right }
+![Cromite-Logo](assets/img/browsers/cromite.svg){ align=right }
 
-**Cromite** is a Chromium-based browser with built-in ad blocking, fingerprinting protections, and other [privacy and security enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the discontinued **Bromite** browser.
+**Cromite** ist ein auf Chromium basierender Browser mit eingebautem Werbeblocker, Schutz vor Fingerprinting und anderen [Datenschutz- und Sicherheitsverbesserungen](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). Er ist ein Fork des eingestellten Browsers **Bromite**.
 
 [:octicons-home-16: Homepage](https://cromite.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Datenschutzerklärung" }
+[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Quellcode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -243,9 +243,9 @@ These options can be found in :material-menu: → :gear: **Settings** → **Priv
 
 - [x] Select **Always use secure connections**
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+Dadurch wird verhindert, dass ungewollt eine Verbindung zu einer Website mit einer unverschlüsselten HTTP-Verbindung hergestellt wird. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
 
-#### Adblock Plus settings
+#### Adblock Plus Einstellungen
 
 These options can be found in :material-menu: → :gear: **Settings** → **Adblock Plus settings**.
 
