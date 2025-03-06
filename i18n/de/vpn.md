@@ -345,7 +345,7 @@ Du würdest nicht jemandem mit einer gefälschten Identität deine Finanzen anve
 **Mindestvoraussetzung um zu qualifizieren:**
 
 - Öffentliche Führungs- oder Eigentumsverhältnisse.
-- Company based in a jurisdiction where it cannot be forced to do secret logging.
+- Unternehmen mit Sitz in einer Rechtsordnung, in der es nicht gezwungen werden kann, heimlich zu protokollieren.
 
 **Im besten Fall:**
 
@@ -377,4 +377,4 @@ Verantwortungsbewusstes Marketing, das sowohl lehrreich als auch nützlich für 
 
 ### Zusätzliche Funktionalitäten
 
-Obwohl es dafür keine strikten Anforderungen gibt, gibt es einige Faktoren, die wir geprüft haben, um zu ermitteln, welche Anbieter zu empfehlen sind. These include content blocking functionality, warrant canaries, excellent customer support, the number of allowed simultaneous connections, etc.
+Obwohl es dafür keine strikten Anforderungen gibt, gibt es einige Faktoren, die wir geprüft haben, um zu ermitteln, welche Anbieter zu empfehlen sind. Dazu gehören Funktionen zum Sperren von Inhalten, Warrant Canaries, ein hervorragender Kundendienst, die Anzahl der zulässigen gleichzeitigen Verbindungen usw.
