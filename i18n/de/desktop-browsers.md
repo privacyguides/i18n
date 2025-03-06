@@ -109,9 +109,9 @@ Dies ist erforderlich, um fortgeschrittene Formen der Nachverfolgung zu verhinde
 
 ### Mullvad Leta
 
-Mullvad Browser comes with [**Mullvad Leta**](https://leta.mullvad.net) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
+Mullvad Browser kommt mit [**Mullvad Leta**](https://leta.mullvad.net) als Standard-Suchmaschine, die als Proxy für die Suchergebnisse von Google oder Brave fungiert (konfigurierbar auf der Mullvad Leta Homepage).
 
-If you are a Mullvad VPN user, there is some risk in using services like Mullvad Leta which are offered by your VPN provider themselves. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta), which is information a VPN is typically intended to separate. Even though Mullvad collects very little information about their VPN subscribers or Leta users, you should consider a different [search engine](search-engines.md) if this risk concerns you.
+Wenn du Mullvad VPN-Nutzer bist, besteht ein gewisses Risiko, Dienste wie Mullvad Leta zu nutzen, die von deinem VPN-Provider selbst angeboten werden. Dies liegt daran, dass Mullvad theoretisch Zugriff auf deine wahre IP-Adresse (über ihr VPN) und deine Suchaktivität (via Leta) hat, Informationen, die ein VPN typischerweise trennen soll. Auch wenn Mullvad nur sehr wenige Informationen über seine VPN-Abonnenten oder Leta-Nutzer sammelt, solltest du eine andere [Suchmaschine](search-engines.md) in Betracht ziehen, wenn du dieses Risiko fürchtest.
 
 ## Firefox
 
@@ -148,13 +148,13 @@ Firefox enthält einen einzigartigen [Download-Token](https://bugzilla.mozilla.o
 
 ### Empfohlene Firefox-Konfiguration
 
-These options can be found in :material-menu: → **Settings**.
+Diese Optionen sind unter :material-menu: → **Einstellungen** zu finden.
 
 #### Suche
 
 - [ ] **Suchvorschläge anzeigen** deaktivieren
 
-Search suggestion features may not be available in your region.
+Suchvorschläge sind in deiner Region möglicherweise nicht verfügbar.
 
 Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
@@ -271,7 +271,7 @@ Brave fügt dem Dateinamen bei Downloads von der Brave-Website einen "[Herkunfts
 
 ### Empfohlene Brave-Konfiguration
 
-These options can be found in :material-menu: → **Settings**.
+Diese Optionen sind unter :material-menu: → **Einstellungen** zu finden.
 
 #### Shields
 

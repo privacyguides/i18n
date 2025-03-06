@@ -30,7 +30,7 @@ The **Yubico Security Key** series is the most cost-effective hardware security 
 
 </div>
 
-These keys are available in both USB-C and USB-A variants, and both options support NFC for use with a mobile device as well.
+Diese Tasten sind sowohl als USB-C- als auch als USB-A-Variante erhältlich, und beide Optionen unterstützen NFC für die Verwendung mit einem mobilen Gerät.
 
 This key provides only basic FIDO2 functionality, but for most people that is all you will need. Some notable features the Security Key series does **not** have include:
 

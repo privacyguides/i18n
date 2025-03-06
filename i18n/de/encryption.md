@@ -10,7 +10,7 @@ cover: encryption.webp
 
 ## Multi-Plattform
 
-The options listed here are available on multiple platforms and great for creating encrypted backups of your data.
+Die hier aufgeführten Optionen sind plattformübergreifend und eignen sich hervorragend für die Erstellung verschlüsselter Backups deiner Daten.
 
 ### Cryptomator (Cloud)
 
@@ -80,7 +80,7 @@ In der Dokumentation von Cryptomator werden die angestrebten [Sicherheitsziele](
 
 </div>
 
-Picocrypt has been [audited](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) by Radically Open Security in August 2024, and [most](https://github.com/Picocrypt/Picocrypt/issues/32#issuecomment-2329722740) of the issues found in the audit were subsequently fixed.
+Picocrypt wurde im August 2024 von Radically Open Security [geprüft](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf), und [die meisten](https://github.com/Picocrypt/Picocrypt/issues/32#issuecomment-2329722740) der bei der Prüfung festgestellten Probleme wurden anschließend behoben.
 
 ### VeraCrypt (Festplatte)
 
@@ -115,7 +115,7 @@ VeraCrypt ist eine Fork des eingestellten TrueCrypt-Projekts. Nach Angaben der E
 
 Beim Verschlüsseln mit VeraCrypt hast du die Möglichkeit, zwischen verschiedenen [Hash-Funktionen](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme) zu wählen. Wir empfehlen dir **nur** [SHA-512](https://en.wikipedia.org/wiki/SHA-512) auszuwählen und beim [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)-Blockchiffre zu bleiben.
 
-TrueCrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), and VeraCrypt has also been [audited separately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
+TrueCrypt wurde bereits [mehrfach geprüft](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), und auch VeraCrypt wurde einem [separaten Audit](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit) unterzogen.
 
 ## Operating System Encryption
 
