@@ -33,11 +33,11 @@ Wenn du auf der Suche nach **Anonymität** bist, solltest du den Tor-Browser ver
 
 Die von uns empfohlenen Anbieter verwenden Verschlüsselung, unterstützen WireGuard & OpenVPN und haben eine No-Logging-Politik. Weitere Informationen findest du in unserem [vollständigen Kriterienkatalog](#criteria).
 
-| Anbieter              | Länder | WireGuard                     | Port-Weiterleitung                                     | IPv6                                                       | Anonyme Zahlungen |
-| --------------------- | ------ | ----------------------------- | ------------------------------------------------------ | ---------------------------------------------------------- | ----------------- |
-| [Proton](#proton-vpn) | 112+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Partial Support | :material-information-outline:{ .pg-blue } Limited Support | Bargeld           |
-| [IVPN](#ivpn)         | 37+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-information-outline:{ .pg-blue } Nur ausgehend   | Monero, Bargeld   |
-| [Mullvad](#mullvad)   | 45+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-check:{ .pg-green }                              | Monero, Bargeld   |
+| Anbieter              | Länder | WireGuard                     | Port-Weiterleitung                                           | IPv6                                                                    | Anonyme Zahlungen |
+| --------------------- | ------ | ----------------------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------- |
+| [Proton](#proton-vpn) | 112+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Teilweise unterstützt | :material-information-outline:{ .pg-blue } Eingeschränkte Unterstützung | Bargeld           |
+| [IVPN](#ivpn)         | 37+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                       | :material-information-outline:{ .pg-blue } Nur ausgehend                | Monero, Bargeld   |
+| [Mullvad](#mullvad)   | 45+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                       | :material-check:{ .pg-green }                                           | Monero, Bargeld   |
 
 ### Proton VPN
 
@@ -183,7 +183,7 @@ IVPN unterstützte früher die Portweiterleitung, entfernte diese Option aber im
 
 #### :material-check:{ .pg-green } Anti-Zensur
 
-IVPN has obfuscation modes using [v2ray](https://v2ray.com/en/index.html) which helps in situations where VPN protocols like OpenVPN or WireGuard are blocked. Currently, this feature is only available on Desktop and [iOS](https://ivpn.net/knowledgebase/ios/v2ray). Sie verfügt über zwei Modi, in denen man [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) über QUIC- oder TCP-Verbindungen nutzen kann. QUIC ist ein modernes Protokoll mit besserer Staukontrolle und kann daher schneller sein und geringere Latenzzeiten aufweisen. Der TCP-Modus lässt deine Daten als normalen HTTP-Verkehr erscheinen.
+IVPN verfügt über Verschleierungsmodi mit [v2ray](https://v2ray.com/en/index.html), die in Situationen helfen, in denen VPN-Protokolle wie OpenVPN oder WireGuard blockiert sind. Derzeit ist diese Funktion nur auf Desktop und [iOS](https://ivpn.net/knowledgebase/ios/v2ray) verfügbar. Sie verfügt über zwei Modi, in denen man [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) über QUIC- oder TCP-Verbindungen nutzen kann. QUIC ist ein modernes Protokoll mit besserer Staukontrolle und kann daher schneller sein und geringere Latenzzeiten aufweisen. Der TCP-Modus lässt deine Daten als normalen HTTP-Verkehr erscheinen.
 
 #### :material-check:{ .pg-green } Mobile Anwendungen
 
@@ -258,7 +258,7 @@ Mullvad unterstützte früher die Portweiterleitung, entfernte diese Option jedo
 
 #### :material-check:{ .pg-green } Anti-Zensur
 
-Mullvad offers several features to help bypass censorship and access the internet freely:
+Mullvad bietet mehrere Funktionen, die dabei helfen, Zensur zu umgehen und frei auf das Internet zuzugreifen:
 
 - **Obfuscation modes**: Mullvad has two built-in obfuscation modes: "UDP-over-TCP" and ["WireGuard over Shadowsocks"](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard). These modes disguise your VPN traffic as regular web traffic, making it harder for censors to detect and block. Supposedly, China has to use a [new method to disrupt Shadowsocks-routed traffic](https://gfw.report/publications/usenixsecurity23/en).
 - **Advanced obfuscation with Shadowsocks and v2ray**: For more advanced users, Mullvad provides a guide on how to use the [Shadowsocks with v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) plugin with Mullvad clients. This setup provides an additional layer of obfuscation and encryption.
@@ -286,23 +286,23 @@ Es ist wichtig zu wissen, dass die Nutzung eines VPN-Anbieters dich nicht anonym
 
 ### Technologie
 
-We require all our recommended VPN providers to provide standard configuration files which can be used in a generic, open-source client. **If** a VPN provides their own custom client, we require a kill switch to block network data leaks when disconnected.
+Wir verlangen von allen von uns empfohlenen VPN-Anbietern, dass sie Standard-Konfigurationsdateien bereitstellen, die in einem generischen Open-Source-Client verwendet werden können. **Wenn** ein eigener VPN-Client bereitstellt wird, benötigt er einen Kill-Switch, um Datenlecks im Netzwerk zu blockieren, wenn die Verbindung getrennt wird.
 
 **Mindestvoraussetzung um zu qualifizieren:**
 
-- Support for strong protocols such as WireGuard.
-- Kill switch built in to clients.
-- Multi-hop support. Multi-hopping is important to keep data private in case of a single node compromise.
-- Wenn VPN-Clients zur Verfügung gestellt werden, sollten sie [Open Source](https://de.wikipedia.org/wiki/Open_Source)sein, wie die VPN-Software, die in der Regel in sie integriert ist. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what the program is actually doing.
-- Censorship resistance features designed to bypass firewalls without DPI.
+- Unterstützung von starken Protokollen wie WireGuard.
+- In die Clients integrierter Kill-Switch.
+- Multi-Hop-Unterstützung. Multi-Hopping ist wichtig, um Daten im Falle einer Kompromittierung eines einzelnen Knotens geheim zu halten.
+- Wenn VPN-Clients zur Verfügung gestellt werden, sollten sie [Open Source](https://de.wikipedia.org/wiki/Open_Source)sein, wie die VPN-Software, die in der Regel in sie integriert ist. Wir sind der Meinung, dass die Verfügbarkeit des [Quellcodes](https://en.wikipedia.org/wiki/Source_code) mehr Transparenz darüber schafft, was das Programm tatsächlich tut.
+- Zensurresistente Funktionen zur Umgehung von Firewalls ohne DPI.
 
 **Im besten Fall:**
 
-- Kill switch with highly configurable options (enable/disable on certain networks, on boot, etc.)
+- Kill-Switch mit hochgradig konfigurierbaren Optionen (Aktivierung/Deaktivierung in bestimmten Netzen, beim Booten usw.)
 - Einfach zu bedienende VPN-Clients
-- [IPv6](https://en.wikipedia.org/wiki/IPv6) support. Wir erwarten, dass die Server eingehende Verbindungen über IPv6 zulassen und dir den Zugang zu Diensten ermöglichen, die auf IPv6-Adressen gehostet werden.
+- [IPv6](https://en.wikipedia.org/wiki/IPv6) Unterstützung. Wir erwarten, dass die Server eingehende Verbindungen über IPv6 zulassen und dir den Zugang zu Diensten ermöglichen, die auf IPv6-Adressen gehostet werden.
 - Die Möglichkeit der [Remote-Port-Weiterleitung](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) hilft bei der Herstellung von Verbindungen bei der Verwendung von P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) Dateitauschbörsen-Software zum Austausch von Dateien oder zum Hosten eines Servers (z. B. Mumble).
-- Obfuscation technology which camouflages the true nature of internet traffic, designed to circumvent advanced internet censorship methods like DPI.
+- Verschleierungstechnologie, die die wahre Natur des Internetverkehrs tarnt und dazu dient, fortschrittliche Internet-Zensurmethoden wie DPI zu umgehen.
 
 ### Datenschutz
 

@@ -97,7 +97,7 @@ Tor Browser ist die einzige Möglichkeit, wirklich anonym im Internet zu surfen.
 
 #### Brave shields global defaults
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+Brave enthält einige Maßnahmen gegen Fingerabdrücke in seiner Funktion [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Wir empfehlen, diese Optionen [global](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) für alle Seiten zu konfigurieren.
 
 Die Optionen im Schutz-Menü können je nach Bedarf für jede Website heruntergestuft werden, aber als Standardeinstellung empfehlen wir Folgendes:
 
@@ -125,7 +125,7 @@ Die Optionen im Schutz-Menü können je nach Bedarf für jede Website herunterge
 
     </div>
 
-    1. Mit dieser Option wird JavaScript deaktiviert, was bei vielen Websites zu Problemen führt. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Mit dieser Option wird JavaScript deaktiviert, was bei vielen Websites zu Problemen führt. Um sie wieder nutzbar zu machen, können Sie Ausnahmen für jede einzelne Website festlegen, indem Sie auf das Schild-Symbol in der Adressleiste klicken und diese Einstellung unter *Fortgeschrittene Steuerung* deaktivieren.
 
 === "iOS"
 
@@ -148,7 +148,7 @@ Die Optionen im Schutz-Menü können je nach Bedarf für jede Website herunterge
 
     </div>
 
-    1. Mit dieser Option wird JavaScript deaktiviert, was bei vielen Websites zu Problemen führt. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Mit dieser Option wird JavaScript deaktiviert, was bei vielen Websites zu Problemen führt. Um sie wieder nutzbar zu machen, können Sie Ausnahmen für jede einzelne Website festlegen, indem Sie auf das Schild-Symbol in der Adressleiste klicken und diese Einstellung unter *Fortgeschrittene Steuerung* deaktivieren.
 
 ##### Browsing-Daten löschen (nur Android)
 
@@ -267,17 +267,17 @@ This disables update checks for the unmaintained Bromite adblock filter.
 
 ## Safari (iOS)
 
-On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Chromium engine like its counterparts on other operating systems.
+Unter iOS ist jede App, die im Internet surfen kann, [beschränkt](https://developer.apple.com/app-store/review/guidelines) auf das von Apple bereitgestellte [WebKit-Framework](https://developer.apple.com/documentation/webkit). Ein Browser wie [Brave](#brave) verwendet also nicht die Chromium-Engine wie seine Pendants auf anderen Betriebssystemen.
 
 <div class="admonition recommendation" markdown>
 
-![Safari logo](assets/img/browsers/safari.svg){ align=right }
+![Safari Logo](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** ist der Standard-Browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites, so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
+**Safari** ist der Standard-Browser in iOS. Es umfasst [Datenschutzfunktionen](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) wie [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolierte und vorübergehende Private-Browsing-Tabs, Maßnahmen gegen Fingerprinting (indem Websites eine vereinfachte Version der Systemkonfiguration angezeigt wird, sodass mehr Geräte identisch aussehen) sowie Private Relay für Nutzer:innen mit einem kostenpflichtigen iCloud+-Abonnement.
 
 [:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title="Documentation" }
+[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Datenschutzerklärung" }
+[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title="Dokumentation" }
 
 </details>
 
