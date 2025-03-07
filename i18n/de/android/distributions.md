@@ -1,5 +1,5 @@
 ---
-meta_title: The Best Android Operating Systems - Privacy Guides
+meta_title: Die besten Android-Betriebssysteme - Privacy Guides
 title: Alternative Distributionen
 description: Du kannst das Betriebssystem deines Android-Handys mit diesen sicheren und Privatsphäre-freundlichen Alternativen ersetzen.
 schema:

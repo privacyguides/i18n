@@ -42,7 +42,7 @@ schema:
 
 Diese Mythen beruhen auf einer Reihe von Vorurteilen, aber ob der Quellcode offen ist und wie die Software lizenziert wird, hat keinen Einfluss auf ihre Sicherheit. ==Open-Source-Software hat das *Potenzial*, sicherer zu sein als proprietäre Software, aber es gibt absolut keine Garantie dafür, dass dies der Fall ist.== Bei der Evaluierung von Software solltest du den Ruf und die Sicherheit jedes Tools einzeln betrachten.
 
-Open-Source-Software *kann* von Dritten geprüft werden und ist in Bezug auf potenzielle Schwachstellen oft transparenter als proprietäre Software. Außerdem kannst du den Code überprüfen und verdächtige Funktionen deaktivieren, die du selbst findest. *Wenn du dies nicht tust*, gibt es keine Garantie, dass der Code jemals evaluiert wurde, insbesondere bei kleineren Softwareprojekten. The open development process has also sometimes been exploited to introduce new vulnerabilities known as [:material-package-variant-closed-remove: Supply Chain Attacks](common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}, which are discussed further in our [Common Threats](common-threats.md) page.[^1]
+Open-Source-Software *kann* von Dritten geprüft werden und ist in Bezug auf potenzielle Schwachstellen oft transparenter als proprietäre Software. Außerdem kannst du den Code überprüfen und verdächtige Funktionen deaktivieren, die du selbst findest. *Wenn du dies nicht tust*, gibt es keine Garantie, dass der Code jemals evaluiert wurde, insbesondere bei kleineren Softwareprojekten. Der offene Entwicklungsprozess wurde manchmal auch ausgenutzt, um neue Schwachstellen einzuführen, die als [:material-package-variant-closed-remove: Supply-Chain-Attacken](common-threats.md#attacks-against-certain-organizations ""){.pg-viridian} bekannt sind und weitergehende in unserer Seite zu [häufigen Bedrohungen](common-threats.md) behandelt werden.[^1]
 
 Auf der anderen Seite ist proprietäre Software weniger transparent, was aber nicht bedeutet, dass sie nicht sicher ist. Große proprietäre Softwareprojekte können intern und von Drittanbietern geprüft werden, und unabhängige Sicherheitsforscher können mit Techniken wie Reverse Engineering immer noch Schwachstellen finden.
 
@@ -63,13 +63,13 @@ Die Datenschutzrichtlinien und Geschäftspraktiken der Anbieter, die du auswähl
 
 ## „Kompliziert ist besser“
 
-Oft sehen wir Menschen, die Bedrohungsmodelle für ihre Privatsphäre beschreiben, die übermäßig komplex sind. Often, these solutions include problems like multiple email accounts or complicated setups with lots of moving parts and conditions. Die Antworten sind in der Regel Antworten auf die Frage "Wie kann man *X* am besten machen?"
+Oft sehen wir Menschen, die Bedrohungsmodelle für ihre Privatsphäre beschreiben, die übermäßig komplex sind. Oft beinhalten diese Lösungen Probleme wie mehrere E-Mail-Konten oder komplizierte Konfigurationen mit vielen beweglichen Teilen und Bedingungen. Die Antworten sind in der Regel Antworten auf die Frage "Wie kann man *X* am besten machen?"
 
 Die "beste" Lösung für sich selbst zu finden, bedeutet nicht unbedingt, dass du eine unfehlbare Lösung mit Dutzenden von Bedingungen anstrebst - solche Lösungen sind oft schwer realistisch zu handhaben. Wie wir bereits besprochen haben, geht Sicherheit oft auf Kosten der Bequemlichkeit. Unten geben wir einige Tipps:
 
 1. ==Aktionen müssen einem bestimmten Zweck dienen:== Überlege dir, wie du dein Ziel mit möglichst wenigen Aktionen erreichen kannst.
 2. ==Beseitige menschliche Schwachstellen:== Wir versagen, werden müde und vergessen Dinge. Um Sicherheit zu gewährleisten, solltest du dich nicht auf manuelle Bedingungen und Prozesse verlassen, die du dir merken musst.
-3. ==Wähle das richtige Maß an Schutz für das, was du beabsichtigst.== Wir sehen oft Empfehlungen für sogenannte gesetzeskonforme oder vorladungssichere Lösungen. Diese erfordern oft Fachwissen und sind im Allgemeinen nicht das, was die Meisten wollen. There's no point in building an intricate threat model for anonymity if you can be easily deanonymized by a simple oversight.
+3. ==Wähle das richtige Maß an Schutz für das, was du beabsichtigst.== Wir sehen oft Empfehlungen für sogenannte gesetzeskonforme oder vorladungssichere Lösungen. Diese erfordern oft Fachwissen und sind im Allgemeinen nicht das, was die Meisten wollen. Es ergibt keinen Sinn, ein kompliziertes Bedrohungsmodell für Anonymität zu entwickeln, wenn man durch ein einfaches Versehen deanonymisiert werden kann.
 
 Wie könnte das also aussehen?
 
@@ -94,4 +94,4 @@ Eines der klarsten Bedrohungsmodelle ist eines, bei dem die Menschen *wissen, we
 
     Die Verwendung von Tor kann dabei helfen. Es ist auch erwähnenswert, dass eine größere Anonymität durch asynchrone Kommunikation möglich ist: Echtzeitkommunikation ist anfällig für die Analyse von Tippmustern (d. h. mehr als ein Absatz Text, der in einem Forum, per E-Mail usw. verbreitet wird).
 
-[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added an obfuscated backdoor into `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed.
+[^1]: Im März 2024 ereignete sich eine bemerkenswerte Supply-Chain-Attacke, als ein böswilliger Maintainer eine verschleierte Backdoor in `xz`, eine beliebte Kompressionsbibliothek, einbaute. Die Backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) sollte einem Unbekannten Fernzugriff auf die meisten Linux-Server über SSH gewähren, wurde aber entdeckt, bevor es weithin eingesetzt wurde.

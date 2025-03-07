@@ -143,7 +143,7 @@ Daher solltest du, wann immer möglich, native Anwendungen anstelle von Webclien
 
 </div>
 
-Selbst mit E2EE können Dienstanbieter immer noch Profile von dir auf der Grundlage von **Metadaten** erstellen, die normalerweise nicht geschützt sind. While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. Der Schutz von Metadaten ist eher unüblich, und wenn es in deinem [Bedrohungsmodell](threat-modeling.md) vorkommt, solltest du die technische Dokumentation der Software, die du verwendest, genau prüfen, um zu sehen, ob es eine Minimierung oder einen Schutz von Metadaten gibt.
+Selbst mit E2EE können Dienstanbieter immer noch Profile von dir auf der Grundlage von **Metadaten** erstellen, die normalerweise nicht geschützt sind. Der Dienstanbieter kann deine Nachrichten zwar nicht lesen, aber er kann dennoch wichtige Dinge beobachten, z. B. mit wem du sprichst, wie oft du einer Person Nachrichten schickst und wann du normalerweise aktiv bist. Der Schutz von Metadaten ist eher unüblich, und wenn es in deinem [Bedrohungsmodell](threat-modeling.md) vorkommt, solltest du die technische Dokumentation der Software, die du verwendest, genau prüfen, um zu sehen, ob es eine Minimierung oder einen Schutz von Metadaten gibt.
 
 ## Massenüberwachungsprogramme
 

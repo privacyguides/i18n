@@ -67,7 +67,7 @@ Privacy-Coins werden von staatlichen Behörden zunehmend genauer überprüft. In
 
 Die große Mehrheit der Kryptowährungsprojekte verwendet eine transparente Blockchain, was bedeutet, dass alle Transaktionen sowohl leicht nachvollziehbar als auch dauerhaft sind. Daher raten wir aus Gründen des Datenschutzes von der Verwendung der meisten Kryptowährungen dringend ab.
 
-Anonymous transactions on a transparent blockchain are *theoretically* possible, and the Bitcoin wiki [gives one example of a "completely anonymous" transaction](https://en.bitcoin.it/wiki/Privacy#Example_-_A_perfectly_private_donation). However, this example requires a complicated setup involving Tor and "solo-mining" a block to generate completely independent cryptocurrency, a practice which has not been practical (even for enthusiasts) for many years.
+Anonyme Transaktionen auf einer transparenten Blockchain sind *theoretisch* möglich, und das Bitcoin-Wiki [nennt ein Beispiel für eine „völlig anonyme“ Transaktion](https://en.bitcoin.it/wiki/Privacy#Example_-_A_perfectly_private_donation). Dieses Beispiel erfordert jedoch ein kompliziertes Setup mit Tor und „Solo-Mining“ eines Blocks, um eine völlig unabhängige Kryptowährung zu erzeugen, eine Praxis, die seit vielen Jahren nicht mehr praktikabel ist (selbst für Enthusiasten).
 
 ==Am besten ist es, diese Kryptowährungen ganz zu meiden und sich an eine Währung zu halten, die standardmäßig Datenschutz bietet.== Der Versuch, andere Kryptowährungen zu verwenden, liegt außerhalb des Rahmens dieser Website und wird dringend abgeraten.
 

@@ -1,10 +1,10 @@
 ---
-title: "Multifactor Authentication"
+title: "Multi-Faktor-Authentisierung"
 icon: 'material/two-factor-authentication'
 description: MFA ist ein wichtiger Sicherheitsmechanismus zum Schutz deiner Online-Konten, aber einige Methoden sind stärker als andere.
 ---
 
-**Multifactor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. Die gängigste Methode sind zeitlich begrenzte Codes, die du per SMS oder über eine App erhalten kannst.
+**Multi-Faktor-Authentisierung** (**MFA**) ist ein Sicherheitsmechanismus, der über die Eingabe von Benutzername (oder E-Mail) und Passwort hinaus zusätzliche Schritte erfordert. Die gängigste Methode sind zeitlich begrenzte Codes, die du per SMS oder über eine App erhalten kannst.
 
 Wenn ein Hacker (oder Angreifer) in der Lage ist, dein Passwort herauszufinden, erhält dieser normalerweise Zugang zu dem Konto, zu dem dieses Passwort gehört. Ein Konto mit MFA zwingt den Hacker dazu, sowohl das Passwort (etwas, das du *weißt*) als auch ein Gerät zu haben, das dir gehört (etwas, das du *hast*), wie dein Handy.
 
@@ -26,7 +26,7 @@ Die Sicherheit der MFA für Push-Benachrichtigungen hängt sowohl von der Qualit
 
 ### Zeitbasiertes Einmalpasswort (TOTP)
 
-TOTP ist eine der am weitesten verbreiteten Formen zur MFA. Bei der Einrichtung von TOTP musst du in der Regel einen [QR-Code](https://de.wikipedia.org/wiki/QR-Code) scannen, der ein [gemeinsames Geheimnis](https://de.wikipedia.org/wiki/Gemeinsames_Geheimnis) mit dem Dienst, den du nutzen möchten, festlegt. The shared secret is secured inside the authenticator app's data, and is sometimes protected by a password.
+TOTP ist eine der am weitesten verbreiteten Formen zur MFA. Bei der Einrichtung von TOTP musst du in der Regel einen [QR-Code](https://de.wikipedia.org/wiki/QR-Code) scannen, der ein [gemeinsames Geheimnis](https://de.wikipedia.org/wiki/Gemeinsames_Geheimnis) mit dem Dienst, den du nutzen möchten, festlegt. Das gemeinsame Geheimnis ist in den Daten der Authentifikator-App gesichert und manchmal durch ein Passwort geschützt.
 
 Der zeitlich begrenzte Code wird dann aus dem gemeinsamen Geheimnis und der aktuellen Zeit abgeleitet. Da der Code nur für eine kurze Zeit gültig ist, kann ein Angreifer ohne Zugang zum gemeinsamen Geheimnis keine neuen Codes erzeugen.
 
@@ -64,9 +64,9 @@ Wenn dein Bedrohungsmodell unterschiedliche Identitäten auf verschiedenen Websi
 
 #### FIDO (Fast IDentity Online)
 
-[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) includes a number of standards, first there was U2F and then later [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project) which includes the web standard [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
+[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) umfasst eine Reihe von Standards, zuerst U2F und später [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project), welches den Webstandard [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) beinhaltet.
 
-U2F and FIDO2 refer to the [Client to Authenticator Protocol](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol), which is the protocol between the security key and the computer, such as a laptop or phone. It complements WebAuthn which is the component used to authenticate with the website (the "Relying Party") you're trying to log in on.
+U2F und FIDO2 beziehen sich auf das [Client to Authenticator Protocol](https://de.wikipedia.org/wiki/Client_to_Authenticator_Protocol), d. h. das Protokoll zwischen dem Sicherheitsschlüssel und dem Computer, z. B. einem Laptop oder Telefon. Es ergänzt WebAuthn, die Komponente zur Authentifizierung bei der Website (der "Relying Party"), bei der du dich anzumelden versuchst.
 
 WebAuthn ist die sicherste und privatste Form der Zweitfaktor-Authentifizierung. Die Authentifizierung ist ähnlich wie bei Yubico OTP, aber der Schlüssel druckt kein Einmalpasswort aus und validiert nicht mit einem Server eines Drittanbieters. Stattdessen wird für die Authentifizierung ein [asymetrische Kryptosystem](https://de.wikipedia.org/wiki/Asymmetrisches_Kryptosystem) verwendet (Public-Key-Cryptography).
 
@@ -74,13 +74,13 @@ WebAuthn ist die sicherste und privatste Form der Zweitfaktor-Authentifizierung.
   ![FIDO](../assets/img/multi-factor-authentication/fido.png)
 </figure>
 
-When you create an account, the public key is sent to the service, then when you log in, the service will require you to "sign" some data with your private key. The benefit of this is that no password data is ever stored by the service, so there is nothing for an adversary to steal.
+Wenn du ein Konto anlegst, wird der öffentliche Schlüssel an den Dienst gesendet. Wenn du dich dann anmeldest, verlangt der Dienst, dass du einige Daten mit deinem privaten Schlüssel "signierst". Dies hat den Vorteil, dass der Dienst keine Passwortdaten speichert, sodass ein Angreifer nichts stehlen kann.
 
-This presentation discusses the history of password authentication, the pitfalls (such as password reuse), and the standards for FIDO2 and [WebAuthn](https://webauthn.guide):
+Diese Präsentation diskutiert den Verlauf der Passwort-Authentifizierung, die Fallstricke (wie die Wiederverwendung von Passworten) und die Standards für FIDO2 und [WebAuthn](https://webauthn.guide):
 
 - [How FIDO2 and WebAuthn Stop Account Takeovers](https://youtu.be/aMo4ZlWznao) <small>(YouTube)</small>
 
-FIDO2 and WebAuthn have superior security and privacy properties when compared to any MFA methods.
+FIDO2 und WebAuthn haben im Vergleich zu anderen MFA-Methoden überlegene Sicherheits- und Datenschutzeigenschaften.
 
 Typically, for web services it is used with WebAuthn which is a part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). It uses public key authentication and is more secure than shared secrets used in Yubico OTP and TOTP methods, as it includes the origin name (usually, the domain name) during authentication. Attestation is provided to protect you from phishing attacks, as it helps you to determine that you are using the authentic service and not a fake copy.
 
@@ -88,9 +88,9 @@ Unlike Yubico OTP, WebAuthn does not use any public ID, so the key is **not** id
 
 If a website or service supports WebAuthn for the authentication, it is highly recommended that you use it over any other form of MFA.
 
-## General Recommendations
+## Allgemeine Empfehlungen
 
-We have these general recommendations:
+Wir haben folgende allgemeine Empfehlungen:
 
 ### Which Method Should I Use?
 
@@ -106,7 +106,7 @@ When using TOTP with an authenticator app, be sure to back up your recovery keys
 
 When buying a security key, it is important that you change the default credentials, set up password protection for the key, and enable touch confirmation if your key supports it. Products such as the YubiKey have multiple interfaces with separate credentials for each one of them, so you should go over each interface and set up protection as well.
 
-### Email and SMS
+### E-Mail und SMS
 
 If you have to use email for MFA, make sure that the email account itself is secured with a proper MFA method.
 
@@ -114,9 +114,9 @@ If you use SMS MFA, use a carrier who will not switch your phone number to a new
 
 [MFA tools we recommend](../multi-factor-authentication.md ""){.md-button}
 
-## More Places to Set Up MFA
+## Weitere Orte zum Einrichten von MFA
 
-Beyond just securing your website logins, multifactor authentication can be used to secure your local logins, SSH keys or even password databases as well.
+Die Multi-Faktor-Authentisierung sichert nicht nur deine Website-Anmeldungen, sondern auch deine lokalen Anmeldungen, SSH-Schlüssel und sogar Passwortdatenbanken.
 
 ### macOS
 
@@ -151,11 +151,11 @@ Qubes OS has support for Challenge-Response authentication with YubiKeys. If you
 
 #### Hardware-Sicherheitsschlüssel
 
-SSH MFA kann mit mehreren verschiedenen Authentifizierungsmethoden eingerichtet werden, die mit Hardware-Sicherheitsschlüsseln beliebt sind. We recommend that you check out Yubico's [documentation](https://developers.yubico.com/SSH) on how to set this up.
+SSH MFA kann mit mehreren verschiedenen Authentifizierungsmethoden eingerichtet werden, die mit Hardware-Sicherheitsschlüsseln beliebt sind. Wir empfehlen dir, in der [Dokumentation](https://developers.yubico.com/SSH) von Yubico nachzulesen, wie du dies einrichten kannst.
 
 #### TOTP
 
-SSH MFA can also be set up using TOTP. DigitalOcean has provided a tutorial [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). Most things should be the same regardless of distribution, however the package manager commands—such as `apt-get`—and package names may differ.
+SSH MFA kann auch mit TOTP eingerichtet werden. DigitalOcean hat ein Tutorial [Wie man Multi-Faktor-Authentisierung für SSH auf Ubuntu 20.04](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04) einrichtet. Die meisten Dinge sollten unabhängig von der Distribution gleich sein, aber die Befehle des Paketmanagers — wie `apt-get` — und die Paketnamen können sich unterscheiden.
 
 ### KeePass (und KeePassXC)
 
