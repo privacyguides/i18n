@@ -26,6 +26,22 @@ Los [**Pastebins**](https://es.wikipedia.org/wiki/Pastebin) son servicios en lí
 
 </div>
 
+## Paaster
+
+<div class="admonition recommendation" markdown>
+
+![Paaster logo](assets/img/pastebins/paaster.svg){ align=right }
+
+**Paaster** is a secure and user-friendly pastebin application that prioritizes privacy and simplicity. With end-to-end encryption and paste history, Paaster ensures that your pasted code remains confidential and accessible.
+
+[:octicons-home-16: Homepage](https://paaster.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://paaster.io/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/WardPearce/paaster#security){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/WardPearce/paaster){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/sponsors/WardPearce){ .card-link title="Contribute" }
+
+</div>
+
 ## Criterios
 
 **Por favor, ten en cuenta que no estamos afiliados a ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.

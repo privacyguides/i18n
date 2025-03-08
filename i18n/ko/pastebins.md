@@ -26,6 +26,22 @@ cover: pastebins.webp
 
 </div>
 
+## Paaster
+
+<div class="admonition recommendation" markdown>
+
+![Paaster logo](assets/img/pastebins/paaster.svg){ align=right }
+
+**Paaster** is a secure and user-friendly pastebin application that prioritizes privacy and simplicity. With end-to-end encryption and paste history, Paaster ensures that your pasted code remains confidential and accessible.
+
+[:octicons-home-16: Homepage](https://paaster.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://paaster.io/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://github.com/WardPearce/paaster#security){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/WardPearce/paaster){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/sponsors/WardPearce){ .card-link title="Contribute" }
+
+</div>
+
 ## 평가 기준
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. 어떠한 프로젝트를 선택해 사용하기 전에, 이러한 요구 사항들을 숙지하고 여러분 스스로 조사하는 과정을 거쳐 적절한 선택을 하시기 바랍니다.
