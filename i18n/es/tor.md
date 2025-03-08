@@ -122,6 +122,8 @@ All versions are signed using the same signature, so they should be compatible w
 
 </div>
 
+On iOS, Orbot has some limitations that could potentially cause crashes or leaks: iOS does not have an effective OS-level feature to block connections without a VPN like Android does, and iOS has an artificial memory limit for network extensions that makes it challenging to run Tor in Orbot without crashes. Currently, it is always safer to use Tor on a desktop computer compared to a mobile device.
+
 ## Onion Browser (iOS)
 
 <div class="admonition recommendation" markdown>
@@ -146,5 +148,7 @@ All versions are signed using the same signature, so they should be compatible w
 </div>
 
 Onion Browser no proporciona los mismos niveles de protección de la privacidad que Tor Browser ofrece en las plataformas de escritorio. Para un uso ocasional es una forma perfectamente adecuada de acceder a servicios ocultos, pero si te preocupa ser rastreado o vigilado por adversarios avanzados no deberías confiar en esto como herramienta de anonimato.
+
+[Notably](https://github.com/privacyguides/privacyguides.org/issues/2929), Onion Browser does not *guarantee* all requests go through Tor. When using the built-in version of Tor, [your real IP **will** be leaked via WebRTC and audio/video streams](https://onionbrowser.com/faqs) due to limitations of WebKit. It is *safer* to use Onion Browser alongside Orbot, but this still comes with some limitations on iOS (noted in the Orbot section above).
 
 [^1]: El ajuste `IsolateDestAddr` se discute en la [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) y la [documentación sobre Stream Isolation de Whonix](https://whonix.org/wiki/Stream_Isolation), donde ambos proyectos sugieren que no es un buen enfoque para la mayoría de las personas.

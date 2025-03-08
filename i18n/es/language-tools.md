@@ -10,7 +10,7 @@ cover: language-tools.webp
 - [:material-server-network: Proveedores de Servicios](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 - [:material-account-cash: Capitalismo de Vigilancia](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-El texto introducido en los correctores gramaticales, ortográficos y de estilo, así como en los servicios de traducción, puede contener información sensible que puede ser almacenada en sus servidores por tiempo indefinido y vendida a terceros. Las herramientas de idiomas listadas en esta página no envían el texto enviado a un servidor, y pueden ser autoalojadas y utilizadas sin conexión para el máximo control de tus datos.
+El texto introducido en los correctores gramaticales, ortográficos y de estilo, así como en los servicios de traducción, puede contener información sensible que puede ser almacenada en sus servidores por tiempo indefinido y vendida a terceros. The language tools listed on this page do not store your submitted text to a server, and can be self-hosted and used offline for maximum control of your data.
 
 ## LanguageTool
 
@@ -19,7 +19,7 @@ El texto introducido en los correctores gramaticales, ortográficos y de estilo,
 ![LanguageTool logo](assets/img/language-tools/languagetool.svg#only-light){ align=right }
 ![LanguageTool logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ align=right }
 
-**LanguageTool** es un corrector gramatical, ortográfico y de estilo multilingüe compatible con más de 20 idiomas. According to their privacy policy, they do not store any content sent to their service for review, but for higher assurance the software is [self-hostable](https://dev.languagetool.org/http-server).
+**LanguageTool** is a multilingual grammar, style, and spell checker that supports more than 20 languages. According to their privacy policy, they do not store any content sent to their service for review, but for higher assurance the software is [self-hostable](https://dev.languagetool.org/http-server).
 
 [:octicons-home-16: Página Principal](https://languagetool.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://languagetool.org/legal/privacy){ .card-link title="Política de Privacidad" }
