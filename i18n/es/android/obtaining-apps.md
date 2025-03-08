@@ -86,26 +86,26 @@ Si descarga archivos APK para instalarlos manualmente, puedes verificar su firma
 
 3. Extrae el archivo descargado:
 
-   ```bash
-   unzip commandlinetools-*.zip
-   cd cmdline-tools
-   ./bin/sdkmanager --sdk_root=./ "build-tools;29.0.3"
-   ```
+    ```bash
+    unzip commandlinetools-*.zip
+    cd cmdline-tools
+    ./bin/sdkmanager --sdk_root=./ "build-tools;29.0.3"
+    ```
 
 4. Ejecuta el comando de verificación de firma:
 
-   ```bash
-   ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk
-   ```
+    ```bash
+    ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk
+    ```
 
 5. Los hashes resultantes pueden compararse con otra fuente. Algunos desarrolladores como Signal [muestran las huellas digitales](https://signal.org/android/apk) en su sitio web.
 
-   ```bash
-   Signer #1 certificate DN: CN=GrapheneOS
-   Signer #1 certificate SHA-256 digest: 6436b155b917c2f9a9ed1d15c4993a5968ffabc94947c13f2aeee14b7b27ed59
-   Signer #1 certificate SHA-1 digest: 23e108677a2e1b1d6e6b056f3bb951df7ad5570c
-   Signer #1 certificate MD5 digest: dbbcd0cac71bd6fa2102a0297c6e0dd3
-   ```
+    ```bash
+    Signer #1 certificate DN: CN=GrapheneOS
+    Signer #1 certificate SHA-256 digest: 6436b155b917c2f9a9ed1d15c4993a5968ffabc94947c13f2aeee14b7b27ed59
+    Signer #1 certificate SHA-1 digest: 23e108677a2e1b1d6e6b056f3bb951df7ad5570c
+    Signer #1 certificate MD5 digest: dbbcd0cac71bd6fa2102a0297c6e0dd3
+    ```
 
 ## F-Droid
 
@@ -122,6 +122,6 @@ Los repositorios [F-Droid](https://f-droid.org/es/packages) e [IzzyOnDroid](http
 <div class="admonition note" markdown>
 <p class="admonition-title">F-Droid Basic</p>
 
-En algunos casos excepcionales, el desarrollador de una aplicación solo la distribuirá a través de F-Droid ([Gadgetbridge](https://gadgetbridge.org) es un ejemplo de ello). Si realmente necesitas una aplicación como esa, te recomendamos que utilices el nuevo cliente [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) en lugar de la aplicación F-Droid original para obtenerla. F-Droid Basic soporta actualizaciones automáticas en segundo plano sin extensión privilegiada o root, y tiene un conjunto de características reducidas (limitando la superficie de ataque).
+In some rare cases, the developer of an app will only distribute it through F-Droid ([Gadgetbridge](../health-and-wellness.md#gadgetbridge) is one example of this). Si realmente necesitas una aplicación como esa, te recomendamos que utilices el nuevo cliente [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) en lugar de la aplicación F-Droid original para obtenerla. F-Droid Basic soporta actualizaciones automáticas en segundo plano sin extensión privilegiada o root, y tiene un conjunto de características reducidas (limitando la superficie de ataque).
 
 </div>

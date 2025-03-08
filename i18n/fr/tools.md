@@ -469,6 +469,22 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 [En savoir plus :material-arrow-right-drop-circle:](frontends.md)
 
+### Health and Wellness Apps
+
+<div class="grid cards" markdown>
+
+
+- ![drip. logo](assets/img/health-and-wellness/drip.png){ .twemoji loading=lazy } [drip.](health-and-wellness.md#drip)
+- ![Euki logo](assets/img/health-and-wellness/euki.png){ .twemoji loading=lazy } [Euki](health-and-wellness.md#euki)
+- ![Apple Health logo](assets/img/health-and-wellness/apple-health.png){ .twemoji loading=lazy } [Apple Health](health-and-wellness.md#apple-health)
+- ![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge.svg){ .twemoji loading=lazy } [Gadgetbridge](health-and-wellness.md#gadgetbridge)
+- ![Apple Health logo](assets/img/health-and-wellness/apple-health.png){ .twemoji loading=lazy } [Apple Health Records](health-and-wellness.md#apple-health-records)
+- ![CommonHealth logo](assets/img/health-and-wellness/commonhealth.png){ .twemoji loading=lazy } [CommonHealth](health-and-wellness.md#commonhealth)
+
+</div>
+
+[En savoir plus :material-arrow-right-drop-circle:](health-and-wellness.md)
+
 ###
 
 <div class="grid cards" markdown>
@@ -478,6 +494,17 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 </div>
 
 [En savoir plus :material-arrow-right-drop-circle:](language-tools.md)
+
+### Maps and Navigation Apps
+
+<div class="grid cards" markdown>
+
+- ![Organic Maps logo](assets/img/maps/organic-maps.svg){ .twemoji loading=lazy } [Organic Maps](maps.md#organic-maps)
+- ![OsmAnd logo](assets/img/maps/osmand.svg){ .twemoji loading=lazy } [OsmAnd](maps.md#osmand)
+
+</div>
+
+[En savoir plus :material-arrow-right-drop-circle:](maps.md)
 
 ### Outils d'authentification multi-facteurs
 

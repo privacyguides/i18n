@@ -86,26 +86,26 @@ Aurora Store 不允許其匿名帳戶下載付費應用程式。 您可以選擇
 
 3. 解壓縮下載的檔案：
 
-   ```bash
-   unzip commandlinetools-*.zip
-   cd cmdline-tools
-   ./bin/sdkmanager --sdk_root=./ "build-tools;29.0.3"
-   ```
+    ```bash
+    unzip commandlinetools-*.zip
+    cd cmdline-tools
+    ./bin/sdkmanager --sdk_root=./ "build-tools;29.0.3"
+    ```
 
 4. 執行簽章驗證指令：
 
-   ```bash
-   ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk
-   ```
+    ```bash
+    ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk
+    ```
 
 5. 然後可以將產生的雜湊值與另一個來源的相同應用程式進行比對。 一些開發人員（例如 Signal）也會在其網站上 [展示 fingerprints](https://signal.org/android/apk)，您可以用先前產生的雜湊值與其比對。
 
-   ```bash
-   Signer #1 certificate DN: CN=GrapheneOS
-   Signer #1 certificate SHA-256 digest: 6436b155b917c2f9a9ed1d15c4993a5968ffabc94947c13f2aeee14b7b27ed59
-   Signer #1 certificate SHA-1 digest: 23e108677a2e1b1d6e6b056f3bb951df7ad5570c
-   Signer #1 certificate MD5 digest: dbbcd0cac71bd6fa2102a0297c6e0dd3
-   ```
+    ```bash
+    Signer #1 certificate DN: CN=GrapheneOS
+    Signer #1 certificate SHA-256 digest: 6436b155b917c2f9a9ed1d15c4993a5968ffabc94947c13f2aeee14b7b27ed59
+    Signer #1 certificate SHA-1 digest: 23e108677a2e1b1d6e6b056f3bb951df7ad5570c
+    Signer #1 certificate MD5 digest: dbbcd0cac71bd6fa2102a0297c6e0dd3
+    ```
 
 ## F-Droid
 
@@ -122,6 +122,6 @@ The [F-Droid](https://f-droid.org/en/packages) and [IzzyOnDroid](https://apt.izz
 <div class="admonition note" markdown>
 <p class="admonition-title">F-Droid Basic</p>
 
-在極少數情況下，應用程式的開發人員只會透過 F-Droid 發布應用程式（[Gadgetbridge](https://gadgetbridge.org) 就是其中一個例子）。 如果您真的需要這樣的應用程式，我們建議使用較新的 [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) 客戶端，而不是原版 F-Droid 客戶端來獲得它。 F-Droid Basic 支援無需特權或 root 的背景自動更新，並且具有減少的功能集（限制攻擊面）。
+In some rare cases, the developer of an app will only distribute it through F-Droid ([Gadgetbridge](../health-and-wellness.md#gadgetbridge) is one example of this). 如果您真的需要這樣的應用程式，我們建議使用較新的 [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) 客戶端，而不是原版 F-Droid 客戶端來獲得它。 F-Droid Basic 支援無需特權或 root 的背景自動更新，並且具有減少的功能集（限制攻擊面）。
 
 </div>
