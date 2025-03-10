@@ -1,6 +1,6 @@
 ---
 title: "Computador/PC"
-icon: simple/linux
+icon: simples/linux
 description: Distribuições Linux são comumente recomendadas para proteção de sua privacidade e liberdade digital.
 cover: desktop.webp
 ---

@@ -1,64 +1,64 @@
 ---
-title: Windows Overview
+title: Visão geral do Windows
 icon: material/microsoft-windows
-description: Microsoft Windows is a common operating system which is extremely non-private out of the box. Our guide covers making some improvements to your computer without replacing your OS.
+description: O Microsoft Windows é o sistema operacional comum utilizado pela maioria dos desktops e é considerado extremamente <0>nocivo</0> à privacidade em sua configuração original. Nosso guia cobre informações relacionadas a procedimentos que melhoram a privacidade de seu computador sem a necessidade de trocar seu sistema operacional.
 ---
 
-**Microsoft Windows** is a common OS shipped with many PCs by default. The following guides aim to provide some ways to improve privacy and reduce the default telemetry and data stored by disabling some unnecessary features. Over time, Microsoft adds features to the OS which can sometimes rely on cloud-based services. These features will often require certain types of [optional data](https://privacy.microsoft.com/data-collection-windows) that is sometimes sent to remote servers for processing.
+**Microsoft Windows** é um sistema operacional instalado por padrão na maioria dos PCs (computadores de uso pessoal) Os guias seguintes visam prover informações e meios para melhorar a privacidade e reduzir a telemetria e dados pessoais através da desativação de recursos desnecessários e/ou invasivos. Com o passar do tempo, a Microsoft adicionou recursos em seu sistema operacional que podem em determinadas situações depender de serviços 'na nuvem'. Esses recursos dependem de [dados opcionais](https://www.microsoft.com/pt-br/privacy/data-collection-windows) enviados para servidores remotos de modo a serem processados
 
-One of the newest examples was called **Recall**, a part of the Copilot AI feature set. Recall periodically screenshots anything you've seen on your PC in order to show it to you at a later date. These "helpful" features create considerable metadata which can be forensically analyzed. In most cases browsing history is sufficient and this feature can be safely disabled. The main concerns with Recall was that the data is stored in a local database that is decrypted when your device is powered on, meaning it is an easy target for hackers if the device ever becomes infected with malware. Recall will not redact sensitive information like copied passwords or financial information from the database, but it does protect against making screenshots of any copyrighted content protected by digital rights management (DRM) systems.
+Um dos exemplos mais recentes foi chamado de **Recall**, uma parte do conjunto de recursos de IA do Copilot. Recall periodicamente faz **capturas de tela** de tudo o que você viu no PC para mostrá-lo posteriormente. Esses recursos "úteis" criam metadados consideráveis que podem ser analisados forensicamente. Na maioria dos casos, o histórico de navegação é suficiente e esse recurso pode ser desativado com segurança. A principal preocupação com o Recall é que os dados são armazenados em um banco de dados local que é descriptografado quando o dispositivo é ligado, o que significa que é um alvo fácil para os hackers se o dispositivo for infectado por malware (programa ou código malicioso). O Recall não eliminará informações confidenciais, como senhas copiadas ou informações financeiras do banco de dados, mas protege contra a realização de capturas de tela de qualquer conteúdo protegido por direitos autorais e protegido por sistemas de gerenciamento de direitos digitais (DRM).
 
-Unfortunately, this feature was added without too much thought about the privacy implications of having such a feature enabled by default (which it now [no longer is](https://wired.com/story/microsoft-recall-off-default-security-concerns)). It is not an isolated example, however. Another example was Microsoft automatically [enabling folder backups to OneDrive](https://neowin.net/news/windows-11-is-now-automatically-enabling-onedrive-folder-backup-without-asking-permission) on new Windows 11 installations without asking for permission.
+Infelizmente, esse recurso foi adicionado sem muita reflexão sobre as implicações de privacidade de ter esse recurso ativado por padrão (o que mudou [atualmente](https://wired.com/story/microsoft-recall-off-default-security-concerns)). Esse não é um exemplo isolado outro exemplo, da mesma companhia, foi a [ativação automática](https://neowin.net/news/windows-11-is-now-automatically-enabling-onedrive-folder-backup-without-asking-permission) de backups de pastas no OneDrive  em novas instalações do Windows 11 sem pedir permissão de seus usuários.
 
-You can enhance your privacy and security on Windows without downloading any third-party tools with these guides:
+Com estes guias você pode melhorar a privacidade e segurança no Windows sem baixar nenhuma ferramenta de terceiros:
 
-- Initial Installation (coming soon)
-- [Group Policy Settings](group-policies.md)
-- Privacy Settings (coming soon)
-- Application Sandboxing (coming soon)
-- Security Hardening (coming soon)
+- Instalação Inicial
+- [Configurações de Políticas de Grupos](group-policies.md)
+- Configurações de privacidade (em breve)
+- Sandboxing de aplicativos (em breve)
+- Melhorias na Segurança (em breve)
 
 <div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
+<p class="admonition-title">Esta seção é **nova**</p>
 
-This section is a work in progress, because it takes considerably more time and effort to make a Windows installation more privacy-friendly than other operating systems.
+_Esta seção é um trabalho em andamento, pois é preciso muito mais tempo e esforço para tornar uma instalação do Windows mais favorável à privacidade do que outros sistemas operacionais._
 
 </div>
 
-## Privacy Notes
+## Nota de Privacidade
 
-Microsoft Windows, particularly those versions aimed at consumers like the **Home** version often don't prioritize privacy-friendly features by [default](https://theguardian.com/technology/2015/jul/31/windows-10-microsoft-faces-criticism-over-privacy-default-settings). As a result we often see more [data collection](https://en.wikipedia.org/wiki/Criticism_of_Microsoft#Telemetry_and_data_collection) than necessary, without any real warnings that this is the default behavior. In an attempt to compete with Google in the advertising space, [Cortana](https://en.wikipedia.org/wiki/Cortana_\(virtual_assistant\)) has included unique identifiers such as an "advertising ID" in order to correlate usage and assist advertisers in targeted advertising.  At launch, telemetry could not be disabled in non-enterprise editions of Windows 10. It still cannot be disabled, but Microsoft added the ability to [reduce](https://extremetech.com/computing/243079-upcoming-windows-update-reduces-spying-microsoft-still-mum-data-collects) the data that is sent to them.
+O Microsoft Windows, especialmente as versões voltadas para os consumidores, como a versão **Home**, geralmente não prioriza recursos favoráveis à privacidade por [padrão](https://theguardian.com/technology/2015/jul/31/windows-10-microsoft-faces-criticism-over-privacy-default-settings). Como resultado, podemos observar a [coleta de dados](https://en.wikipedia.org/wiki/Criticism_of_Microsoft#Telemetry_and_data_collection) numa intensidade bem maior do que se julgaria necessário, sem conter nenhum aviso de que esse é o comportamento padrão do sistema. Numa tentativa de competir com o Google no âmbito publicitário, a [Cortana](https://pt.wikipedia.org/wiki/Cortana_\(virtual_assistant\)) incluiu identificadores exclusivos, como um "ID de publicidade", para correlacionar o uso e auxiliar empresas anunciantes na publicidade direcionada.  No lançamento do Windows 10 não era possivel desativar a telemetria em licenças não corporativas do sistema operacional. Ainda não é possível desativar por completo mas a Microsoft adicionou recursos para [reduzir](https://extremetech.com/computing/243079-upcoming-windows-update-reduces-spying-microsoft-still-mum-data-collects) a quantidade de dados enviados.
 
-With Windows 11 there are a number of restrictions or defaults such as:
+No Windows 11 há uma série de restrições ou padrões pré-definidos como:
 
-- Requiring the use of a Microsoft account instead of a local account.
-- Making it more difficult to find local account options for Windows **Pro** and **Enterprise**.
-- Enabling all data collection options by default, requiring users to "opt out".
-- Heavily integrating Microsoft services like Bing, OneDrive, and Teams in ways which are difficult to remove and presented as the only option to users.
-- Setting the default browser always to Edge, or reverting to Edge if it's changed.
-- Adding cloud-based AI features to many areas in Windows and various Microsoft Apps.
-- Unnecessarily storing sensitive data. Even data which is stored locally and not sent to Microsoft is still a target for hackers or malware on your device.
+- Exigir a autenticação ode uma conta da Microsoft em vez de uma conta local.
+- Tornando cada vez mais difícil encontrar opções de contas locais para o Windows em suas versões **Pro** e **Enterprise**.
+- Manter ativadas todas as opções de coleta de dados por padrão, forçando seus usuários a desabilitar manualmente.
+- Promovendo a integração forçada de outros serviços da companhia como o Edge, Bing, OneDrive e o Teams ao sistema Windows, de forma que dificulta a remoção dos mesmos, tornando-os as únicas opções para usuários inexperientes.
+- Mantendo o Microsoft Edge como navegador padrão, eventualmente revertendo para o mesmo caso modificado.
+- Adicionando recursos baseados 'em nuvem' e agentes de IA em várias áreas do sistema Windows e outros aplicativos da Microsoft.
+- Armazenamento desnecessário de dados confidenciais. Mesmo que os dados estejam localmente armazenados e não sejam enviados para a Microsoft eles ainda podem ser um alvo para hackers, malwares e ameaças de todo tipo.
 
-Microsoft often uses the automatic updates feature to add new functionality to your device and make changes that collect your data and are enabled by default. Some [privacy features](https://blogs.windows.com/windows-insider/2023/11/16/previewing-changes-in-windows-to-comply-with-the-digital-markets-act-in-the-european-economic-area) such as the option to _opt out_ of syncing an online Microsoft account with Windows, require you to select a country in the EEA (European Economic Area) during installation. It can be changed to your real country after Windows is installed.
+A Microsoft geralmente utiliza seu recurso de atualizações automáticas para adicionar novos recursos e funcionalidades que podem coletar dados, configurações que são ativadas por padrão. Alguns [recursos de privacidade](https://blogs.windows.com/windows-insider/2023/11/16/previewing-changes-in-windows-to-comply-with-the-digital-markets-act-in-the-european-economic-area), como a opção de _optar por sair_ da sincronização de uma conta Microsoft on-line com o Windows, exigem que você selecione um país no EEE (Espaço Econômico Europeu) durante a instalação. Você pode alterar para o seu país original depois que a instalação for feita.
 
-## Windows Editions
+## Edições do Windows
 
-Many critical privacy and security features are unfortunately locked away behind higher-cost editions of Windows, instead of being available in Windows **Home**. Some features missing from **Home** include BitLocker Drive Encryption, Hyper-V, and Windows Sandbox. In our Windows guides we will cover how to use all of these features appropriately, so having a premium edition of Windows will be necessary.
+Infelizmente, muitos recursos essenciais de privacidade e segurança estão bloqueados nas edições de custo mais baixo do Windows, em vez de estarem disponíveis no Windows **Home**. Alguns recursos ausentes na edição **Home** do Windows incluem o BitLocker Drive Encryption, Hyper-V e Windows Sandbox. Em nossos guias voltados para o Microsoft Windows, abordaremos como usar todos esses recursos adequadamente, portanto, será necessário ter uma edição 'premium' (Pro, Educational ou Enterprise' do Windows.
 
-Windows **Enterprise** provides the most flexibility when it comes to configuring privacy and security settings built in to Windows. For example, they are the only editions that allow you to enable the highest level of restrictions on data sent to Microsoft via telemetry tools. Unfortunately, Enterprise is not available for retail purchase, so it may not be available to you.
+O Windows **Enterprise** oferece a maior flexibilidade quando se trata de configurar as definições de privacidade e segurança incorporadas ao Windows. São as únicas edições que permitem que você ative o mais alto nível de restrições nos dados enviados à Microsoft por meio de ferramentas de telemetria. Infelizmente, o Windows em sua versão Enterprise não está disponível para compra no varejo, portanto, pode não estar disponível para você.
 
-The best version available for _retail_ purchase is Windows **Pro** as it has nearly all the features you'll want to use to secure your device, including BitLocker, Hyper-V, etc. The only thing missing is some of the most restrictive limitations on Microsoft's telemetry, unfortunately.
+A melhor versão disponível para compra no varejo é o Windows **Pro**, pois possui quase todos os recursos que você deseja usar para proteger seu dispositivo, incluindo BitLocker, Hyper-V, etc. A única coisa que falta são algumas das limitações mais restritivas da telemetria da Microsoft, infelizmente.
 
-Students and teachers may be able to obtain a Windows **Education** (equivalent to Enterprise) or **Pro Education** license (equivalent to Pro) for free, including on personal devices, from their educational institution. Many schools partner with Microsoft via OnTheHub or Microsoft Azure for Education, so you can check those sites or your school's benefits page to see if you qualify. Whether or not you are able to get these licenses depends entirely on your institution. This may be the best way for many people to obtain an Enterprise-level edition of Windows for personal use. There are no additional privacy or security risks associated with using an Education license compared to the retail versions.
+Os alunos e professores podem obter uma licença do Windows **Education** (equivalente a Enterprise) ou **Pro Education** (equivalente a Pro) gratuitamente, inclusive em dispositivos pessoais, de sua instituição de ensino. Muitas escolas e universidades fazem parceria com a Microsoft por meio do OnTheHub ou do Microsoft Azure for Education, portanto, você pode conferir se esses benefícios são aplicáveis a instituição que você estuda. O fato de você conseguir ou não obter essas licenças depende inteiramente de sua instituição. Para muitos, essa pode ser a melhor maneira de obter uma edição de nível empresarial do Windows para uso pessoal. Não há riscos adicionais à privacidade ou segurança associados ao uso de uma licença educacional em comparação com as versões de varejo.
 
-It is not recommended to use third party modified versions of Windows such as Windows AME. Since modified versions of Windows like Windows AME don't receive updates, security features and antivirus definitions in Windows Defender will fall behind the current threat landscape, opening you up to attacks, thus making you even less secure.
+Não é recomendável usar versões modificadas do Windows de terceiros, como o Windows AME. Como essas versões não-oficiais de Windows como o AME não recebem atualizações correntes do sistema e recursos de segurança como definições e filtros do Windows Defender. Essas distribuições customizadas do Windows podem ficar defasadas em relação ao cenário atual de ameaças digitais, tornando sua máquina desprotegida de ataques e invasões.
 
-## Obtaining Windows
+## Adquirindo o Windows
 
-Currently, only Windows 11 license keys are available for purchase, but these keys will work on Windows 10 as well, so you can still purchase a Windows 11 Pro key to activate a Windows 10 install.
+Atualmente, apenas licenças do Windows 11 estão disponíveis para compra, mas essas chaves (serial key) também funcionarão no Windows 10, portanto, ainda é possível comprar uma chave do Windows 11 Pro para ativar uma instalação do Windows 10.
 
-The official [Media Creation Tool](https://microsoft.com/software-download/windows11) is the best way to put a Windows installer on a USB flash drive. Third-party tools like Rufus or Etcher may unexpectedly modify the files, which could lead to boot issues or other troubles when installing.
+A ferramenta [Criação de Mídia] oficial (https://microsoft.com/software-download/windows11) é a melhor maneira de gravar um instalador do Windows em um pendrive ou cartão de memória. Ferramentas de terceiros, como o Rufus ou o Etcher, podem modificar alguns arquivos, gerando problemas de inicialização ou durante a instalação.
 
-This tool only lets you install a **Home** or **Pro** installation, as there are no publicly available downloads for Windows **Enterprise** edition. If you have an **Enterprise** license key, you can easily upgrade a **Pro** installation. To do this, install Windows **Pro** without entering a license key during setup, then enter your **Enterprise** key in the Settings app after completing the installation. Your **Pro** install will be upgraded to **Enterprise** automatically after entering a valid license key.
+Essa ferramenta só permite que você instale uma instalação **Home** ou **Pro**, pois não há downloads disponíveis publicamente para a edição **Enterprise** do Windows. Se você tiver uma chave de licença **Enterprise**, poderá facilmente migrar para a versão **Pro**. Para fazer isso, instale o Windows **Pro** sem inserir uma chave de licença durante a configuração e, em seguida, insira sua chave **Enterprise** no aplicativo Configurações após concluir a instalação. Sua instalação **Pro** será atualizada para **Enterprise** automaticamente após a inserção de uma chave de licença válida.
 
-If you are installing an **Education** license then you will typically have a private download link that will be provided alongside your license key when you obtain it from your institution's benefits portal.
+Se estiver instalando uma licença **Educação**, você normalmente receberá um link privado para download que contará com a chave de licença educaional. Geralmente o portal de benefícios da sua instituição é quem provê a chave e o link.
