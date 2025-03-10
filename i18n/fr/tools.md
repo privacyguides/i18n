@@ -174,7 +174,7 @@ Si vous recherchez une **sécurité** supplémentaire, vous devez toujours vous 
 
     ---
 
-    Proton Mail est un service d'e-mail qui met l'accent sur la confidentialité, le chiffrement, la sécurité et la facilité d'utilisation. Il existe depuis 2013. Proton AG est basée à Genève, en Suisse. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+    Proton Mail est un service d'e-mail qui met l'accent sur la confidentialité, le chiffrement, la sécurité et la facilité d'utilisation. Il existe depuis 2013. Proton AG est basée à Genève, en Suisse. Le plan Proton Free propose 500 Mo de stockage mail, que vous pouvez augmenter gratuitement à 1 Go.
 
     [Lire la critique complète :material-arrow-right-drop-circle:](email.md#proton-mail)
 
@@ -182,17 +182,17 @@ Si vous recherchez une **sécurité** supplémentaire, vous devez toujours vous 
 
     ---
 
-    Mailbox.org est un service de messagerie électronique sécurisé, sans publicité et alimenté par une énergie 100 % écologique. Il est en activité depuis 2014. Mailbox.org est basé à Berlin, en Allemagne. Accounts start with up to 2 GB storage, which can be upgraded as needed.
+    Mailbox.org est un service de messagerie électronique sécurisé, sans publicité et alimenté par une énergie 100 % écologique. Il est en activité depuis 2014. Mailbox.org est basé à Berlin, en Allemagne. Un compte commence avec 2 Go de stockage, qui peuvent être augmentés autant que nécessaire.
 
-    [Read Full Review :material-arrow-right-drop-circle:](email.md#mailboxorg)
+    [Lire la critique complète :material-arrow-right-drop-circle:](email.md#mailboxorg)
 
-- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
+- ![Logo Tuta](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji }![Logo Tuta](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
 
     ---
 
-    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta est en activité depuis 2011 et est basée à Hanovre, en Allemagne. Free accounts start with 1 GB of storage.
+    Tuta (anciennement *Tutanota*) est un service mail qui se concentre sur la sécurité et la vie privée à travers l'utilisation de chiffrement. Tuta est en activité depuis 2011 et est basée à Hanovre, en Allemagne. Les comptes gratuits commencent avec 1 Go de stockage.
 
-    [Read Full Review :material-arrow-right-drop-circle:](email.md#tuta)
+    [Lire la critique complète :material-arrow-right-drop-circle:](email.md#tuta)
 
 </div>
 
