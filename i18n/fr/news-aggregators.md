@@ -42,7 +42,7 @@ A **news aggregator** is software which aggregates digital content from online n
 
 ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ align=right }
 
-**NewsFlash** is an open-source, modern, and easy-to-use news feed reader for Linux. It can be used offline or used with services like [Nextcloud News](https://apps.nextcloud.com/apps/news) or [Inoreader](https://inoreader.com). It has a search feature and a pre-defined list of sources that you can add directly.
+**NewsFlash** is an open-source, modern, and easy-to-use news feed reader for Linux. It can be used offline or used with services like [Nextcloud News](https://apps.nextcloud.com/apps/news) or [Inoreader](https://inoreader.com). Il possède une fonction de recherche et une liste prédéfinie de sources qui peuvent être ajoutées directement.
 
 [:octicons-repo-16: Dépôt](https://gitlab.com/news-flash/news_flash_gtk){ .md-button .md-button--primary }
 [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Code source" }
