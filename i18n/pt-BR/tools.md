@@ -350,7 +350,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 ## Programas (Software)
 
-### AI Chat
+### Agente de IA
 
 <div class="grid cards" markdown>
 

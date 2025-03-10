@@ -1,48 +1,48 @@
 ---
-meta_title: "Recommended AI Chat: Private ChatGPT Alternatives - Privacy Guides"
-title: AI Chat
+meta_title: "Agentes de IA recomendados: Alternativas ao ChatGPT que protegem sua privacidade - Guia de Privacidade"
+title: Agente de IA
 icon: material/assistant
-description: Unlike OpenAI's ChatGPT and its Big Tech competitors, these AI tools run locally so your data never leaves your desktop device.
+description: Diferente do ChatGPT da empresa OpenAI e seus concorrentes, as ferramentas aqui sugeridas são executadas localmente com a finalidade de não fornecer ou dificultar a coleta de dados em seu Desktop
 cover: ai-chatbots.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+Protege contra as seguintes ameaças:
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
-- [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
+- [:material-server-network: Provedores](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-account-cash: Vigilância Capitalista](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+- [:material-close-outline: Censura](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 
-Since the release of ChatGPT in 2022, interactions with Large Language Models (LLMs) have become increasingly common. LLMs can help us write better, understand unfamiliar subjects, or answer a wide range of questions. They can statistically predict the next word based on a vast amount of data scraped from the web.
+Desde seu lançamento em 2022, o ChatGPT engajou popularmente e tornou as interações com grandes modelos de linguagem (LLMs)cada vez mais comuns. Os LLMs podem nos ajudar a escrever melhor, entender sobre assuntos desconhecidos ou responder a uma ampla gama de perguntas,  ou até mesmo prever a próxima palavra digitada baseados num grande banco de dados extraído da internet.
 
-## Privacy Concerns About LLMs
+## Preocupações em relação aos LLMs
 
-Data used to train AI models, however, includes a massive amount of publicly available data scraped from the web, which can include sensitive information like names and addresses. Cloud-based AI software often [collects your inputs](https://openai.com/policies/row-privacy-policy), meaning your chats are not private from them. This practice also introduces a risk of data breaches. Furthermore, there is a real possibility that an LLM will leak your private chat information in future conversations with other users.
+Os dados usados para treinar modelos de IA, no entanto, incluem uma enorme quantidade de dados disponíveis publicamente extraídos da Web, que eventualmente podem incluir informações confidenciais, como nomes e endereços. O software de IA baseado em nuvem geralmente [coleta suas entradas] (https://openai.com/policies/row-privacy-policy), o que significa que suas mensagens não são privados. Essa prática leva à um risco maior de vazamentos de dados. Além disso, existe a possibilidade real de um LLM vazar informações privadas de mensagens e informações coletadas em conversas futuras com outros usuários.
 
-If you are concerned about these practices, you can either refuse to use AI, or use [truly open-source models](https://proton.me/blog/how-to-build-privacy-first-ai) which publicly release and allow you to inspect their training datasets. One such model is [OLMoE](https://allenai.org/blog/olmoe-an-open-small-and-state-of-the-art-mixture-of-experts-model-c258432d0514) made by [Ai2](https://allenai.org/open-data).
+Se estiver preocupado com essas práticas, você pode se recusar a usar IA ou usar [modelos verdadeiramente de código aberto] (https://proton.me/blog/how-to-build-privacy-first-ai)Estes são lançados publicamente e permitem que você cheque e inspecione os conjuntos de dados de treinamento. Uma dessas alternativas de modelos é o [OLMoE](https://allenai.org/blog/olmoe-an-open-small-and-state-of-the-art-mixture-of-experts-model-c258432d0514) criado pela [Ai2](https://allenai.org/open-data).
 
-Alternatively, you can run AI models locally so that your data never leaves your device and is therefore never shared with third parties. As such, local models are a more private and secure alternative to cloud-based solutions and allow you to share sensitive information to the AI model without worry.
+Como alternativa, você pode executar modelos de IA localmente e seus dados nunca sairão do seu dispositivo, evitando assim que os mesmos sejam compartilhados com terceiros. Dessa forma, os modelos locais são uma alternativa privada e segura às soluções baseadas em nuvem. Além de permitir que você compartilhe informações pessoais com o modelo de IA sem preocupações.
 
-## AI Models
+## Modelos de IA
 
-### Hardware for Local AI Models
+### Especificações de Hardware para Modelos de IA de funcionamento local
 
-Local models are also fairly accessible. It's possible to run smaller models at lower speeds on as little as 8 GB of RAM. Using more powerful hardware such as a dedicated GPU with sufficient VRAM or a modern system with fast LPDDR5X memory offers the best experience.
+Os modelos locais também são bastante acessíveis. É possível executar modelos menores em velocidades mais baixas com apenas 8 GB de RAM. O uso de hardware mais avançado como uma placa de vídeo dedicada com VRAM suficiente ou um sistema moderno com memória LPDDR5X rápida oferecerá uma melhor experiência.
 
-LLMs can usually be differentiated by the number of parameters, which can vary between 1.3B to 405B for open-source models available for end users. For example, models below 6.7B parameters are only good for basic tasks like text summaries, while models between 7B and 13B are a great compromise between quality and speed. Models with advanced reasoning capabilities are generally around 70B.
+LLMs can usually be differentiated by the number of parameters, which can vary between 1.3B to 405B for open-source models available for end users. Por exemplo, modelos com parâmetros abaixo de 6,7B são bons apenas para tarefas básicas, como resumos de texto. Já modelos entre 7B e 13B são um ótimo compromisso entre qualidade e velocidade. Os modelos com recursos avançados de raciocínio geralmente ficam em torno de 70B.
 
-For consumer-grade hardware, it is generally recommended to use [quantized models](https://huggingface.co/docs/optimum/en/concept_guides/quantization) for the best balance between model quality and performance. Check out the table below for more precise information about the typical requirements for different sizes of quantized models.
+Para computadores pessoais pessoais, geralmente recomenda-se usar [modelos quantizados] (https://huggingface.co/docs/optimum/en/concept_guides/quantization) para obter o melhor equilíbrio entre a qualidade e o desempenho do modelo. Consulte a tabela abaixo para obter mais informações sobre os requisitos ideais para diferentes tamanhos de modelos.
 
-| Model Size (in Parameters) | Minimum RAM | Minimum Processor                            |
-| --------------------------------------------- | ----------- | -------------------------------------------- |
-| 7B                                            | 8 GB        | Modern CPU (AVX2 support) |
-| 13B                                           | 16 GB       | Modern CPU (AVX2 support) |
-| 70B                                           | 72 GB       | GPU with VRAM                                |
+| Tamanho do modelo (em parâmetros) | RAM mínima | Processador Mínimo                              |
+| ---------------------------------------------------- | ---------- | ----------------------------------------------- |
+| 7B                                                   | 8 GB       | CPU moderna (suporte a AVX2) |
+| 13B                                                  | 16 GB      | CPU moderna (suporte a AVX2) |
+| 70B                                                  | 72 GB      | GPU com VRAM                                    |
 
-To run AI locally, you need both an AI model and an AI client.
+Para executar a IA localmente é necessário um modelo de IA e um cliente de IA.
 
-### Choosing a Model
+### Escolhendo um Modelo
 
-There are many permissively licensed models available to download. [Hugging Face](https://huggingface.co/models) is a platform that lets you browse, research, and download models in common formats like [GGUF](https://huggingface.co/docs/hub/en/gguf). Companies that provide good open-weights models include big names like Mistral, Meta, Microsoft, and Google. However, there are also many community models and 'fine-tunes' available. As mentioned above, quantized models offer the best balance between model quality and performance for those using consumer-grade hardware.
+Há muitos modelos de código aberto ou de licença livre disponíveis para download. A [Hugging Face](https://huggingface.co/models) é uma plataforma que permite que você navegue, pesquise e faça download de modelos em formatos comuns, como [GGUF](https://huggingface.co/docs/hub/en/gguf). Empresas que fornecem bons modelos de direitos facilitados incluem grandes nomes como Mistral, Meta, Microsoft e Google. No entanto, também há muitos modelos comunitários e "ajustes" disponíveis. Conforme mencionado acima: modelos quantizados oferecem o melhor equilíbrio entre a qualidade e o desempenho do modelo para aqueles que usam um computador pessoal (equipamento de nível de consumidor).
 
 To help you choose a model that fits your needs, you can look at leaderboards and benchmarks. The most widely-used leaderboard is the community-driven [LM Arena](https://lmarena.ai). Additionally, the [OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) focuses on the performance of open-weights models on common benchmarks like [MMLU-Pro](https://arxiv.org/abs/2406.01574).  There are also specialized benchmarks which measure factors like [emotional intelligence](https://eqbench.com), ["uncensored general intelligence"](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard), and [many others](https://www.nebuly.com/blog/llm-leaderboards).
 
