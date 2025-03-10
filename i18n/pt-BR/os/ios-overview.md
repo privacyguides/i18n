@@ -4,37 +4,37 @@ icon: simple/apple
 description: iOS is a mobile operating system developed by Apple for the iPhone.
 ---
 
-**iOS** and **iPadOS** are proprietary mobile operating systems developed by Apple for their iPhone and iPad products, respectively. If you have an Apple mobile device, you can increase your privacy by disabling some built-in telemetry features, and hardening some privacy and security settings which are built in to the system.
+**iOS** e **iPadOS** são os sistemas operacionais desenvolvidos pela Apple para seus dispositivos (iPhone, iPad, iPod Touch, Apple Watch). If you have an Apple mobile device, you can increase your privacy by disabling some built-in telemetry features, and hardening some privacy and security settings which are built in to the system.
 
 ## Privacy Notes
 
-iOS devices are frequently praised by security experts for their robust data protection and adherence to modern best practices. However, the restrictiveness of Apple's ecosystem—particularly with their mobile devices—does still hamper privacy in a number of ways.
+Os aparelhos com iOS são frequentemente aclamados pelos especialistas em segurança digital por seu robusto sistema de proteção de dados. No entanto, as restrições do ecossistema da Apple, particularmente as relacionadas aos dispositivos móveis (‘smartphones’ e ‘tablets’) continuam a ameaçar a privacidade de seus usuários através de diversas maneiras.
 
-We generally consider iOS to provide better than average privacy and security protections for most people, compared to stock Android devices from any manufacturer. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android/distributions.md) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
+É comum considerar que os sistemas iOS têm sua proteção à privacidade dos usuários acima da média em comparação com sistemas Android de fábrica de qualquer marca. Entretanto, você consegue alcançar níveis de privacidade e proteção de dados com um sistema Android customizado como o GrapheneOS caso queira total independência em relação aos serviços da Apple e da Google.
 
-### Activation Lock
+### Ativação dos dispositivos
 
 All iOS devices must be checked against Apple's Activation Lock servers when they are initially set up or reset, meaning an internet connection is **required** to use an iOS device.
 
 ### Mandatory App Store
 
-The only source for apps on iOS is Apple's App Store, which requires an Apple Account to access. This means that Apple has a record of every app you install on your device, and can likely tie that information to your actual identity if you provide the App Store with a payment method.
+The only source for apps on iOS is Apple's App Store, which requires an Apple Account to access. Basicamente, a Apple mantém um registro de cada aplicativo que você instala no seu dispositivo. Essas informações podem ser atreladas a sua identidade pessoal caso você forneça um meio de pagamento à loja de aplicativos da Apple.
 
-### Invasive Telemetry
+### Telemetria Invasiva
 
-Apple has historically had problems with properly disassociating their telemetry from Apple Accounts on iOS. In [2019](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), Apple was found to transmit Siri recordings—some containing highly confidential information—to their servers for manual review by third-party contractors. Though Apple temporarily stopped that program after that practice was [widely reported on](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), the company rolled out a switch to [**opt out** of uploading conversations with Siri](https://theguardian.com/technology/2019/oct/30/apple-lets-users-opt-out-of-having-siri-conversations-recorded) a few months later in the succeeding iOS update. Moreover, in 2021, [Apple reworked Siri](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance) so that it processes voice recordings locally rather than sending it to their servers.
+A Apple historicamente passou por problemas com a desassociação de sua telemetria em relação às contas Apple e o iOS. No ano de [2019](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), a companhia esteve envolvida com situações de exposição de gravações de seu serviço 'Siri', algumas destas contendo informações altamente confidenciais–que foram encaminhadas de seus servidores para revisão manual de empresas terceirizadas. Mesmo que Apple tenha interrompido temporariamente esse programa depois que essa prática foi [amplamente divulgada](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), a empresa implementou uma opção para [**cancelar** o envio de conversas com a Siri](https://theguardian.com/technology/2019/oct/30/apple-lets-users-opt-out-of-having-siri-conversations-recorded) alguns meses depois, na atualização seguinte do sistema iOS. Além disso, em 2021, [A Apple reestruturou a Siri](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance) para processar gravações de voz localmente em vez de enviá-las aos servidores deles.
 
-More recently, Apple has been found to transmit analytics [even when analytics sharing is disabled](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) on iOS, and this data [appears](https://twitter.com/mysk_co/status/1594515229915979776) to be easily linked to unique iCloud account identifiers despite supposedly being decoupled from Apple Accounts.
+Recentemente descobriu-se que a Apple transmite dados [mesmo quando o compartilhamento de dados analíticos está desativado](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) no iOS, e esses dados [aparentam](https://twitter.com/mysk_co/status/1594515229915979776) ser facilmente vinculados a identificadores exclusivos de contas do iCloud, apesar de supostamente estarem dissociados das contas da Apple.
 
 ### Traffic Outside Active VPN Connections
 
 Apple's [privacy policy regarding VPNs](https://apple.com/legal/privacy/data/en/vpns) states:
 
-> Even when a VPN is active, some traffic that is necessary for essential system services will take place outside the VPN so that your device can function properly.
+> Mesmo que uma conexão VPN estiver ativada alguns dados de rede (fora do VPN) necessários para os serviços essenciais do sistema para que seu dispositivo funcione corretamente.
 
 ## Firefox
 
-**Note:** This guide assumes that you're running the latest version of iOS.
+**Observação:** Este guia pressupõe que você esteja rodando a versão mais recente do iOS.
 
 ### iCloud
 

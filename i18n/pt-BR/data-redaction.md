@@ -6,7 +6,7 @@ description: Use essas ferramentas para remover metadados como localização GPS
 cover: data-redaction.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protege contra a(s) seguinte(s) ameaça(s):</small>
 
 - [:material-account-search: Public Exposure](basics/common-threats.md#limiting-public-information ""){.pg-green}
 

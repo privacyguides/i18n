@@ -3,17 +3,17 @@ title: Translations
 description: A guide for website contributors on adding translations to our website.
 ---
 
-Crowdin has good documentation, and we suggest looking at their [Getting Started](https://support.crowdin.com/crowdin-intro) guide. Our site is largely written in [Markdown](https://en.wikipedia.org/wiki/Markdown), so it should be easy to contribute. This page contains some helpful pointers for translating some specific syntax you may encounter on our site.
+Crowdin has good documentation, and we suggest looking at their [Getting Started](https://support.crowdin.com/crowdin-intro) guide. Nosso site é majoritariamente escrito em [Markdown](https://en.wikipedia.org/wiki/Markdown), portanto, deve ser fácil contribuir. This page contains some helpful pointers for translating some specific syntax you may encounter on our site.
 
 Please join our localization room on Matrix ([#pg-i18n:aragon.sh](https://matrix.to/#/%23pg-i18n:aragon.sh)) if you have any additional questions, and read our [announcement blog post](https://blog.privacyguides.org/2023/02/26/i18n-announcement) for additional information about the project.
 
-Note that the English version of the site is the primary version, meaning changes occur there first. If you notice a language falling behind the English version, please help out. We cannot guarantee the accuracy of all our translations. If you have a suggestion about content specific to your region, please open an issue or pull request to our [main repository](https://github.com/privacyguides/privacyguides.org).
+Note that the English version of the site is the primary version, meaning changes occur there first. If you notice a language falling behind the English version, please help out. We cannot guarantee the accuracy of all our translations. Se você tem uma sugestão sobre conteúdo específico para sua região, por favor, abra um problema ou pull request para nosso [repositório principal](https://github.com/privacyguides/privacyguides.org).
 
 ## Translation output
 
 Translation software gets the translation quite accurate; however, you need to make sure the translated string is correct.
 
-For example:
+Exemplo:
 
 ```text
 ![Software logo](assets/img/path/to/image.svg){ align=right }

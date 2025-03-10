@@ -7,15 +7,15 @@ If you make changes to this website that involve adding new images or replacing 
 
 ## Imagens
 
-- We **prefer** SVG images, but if those do not exist we can use PNG images. Additionally, for cover images, we prefer that they are obtained from [Unsplash](https://unsplash.com) and are in the WebP format.
+- Nós **preferimos** imagens SVG, mas se elas não existirem, você pode usar imagens PNG. Além disso, para imagens de capa, preferimos que elas sejam obtidas do [Unsplash](https://unsplash.com) e estejam no formato WebP.
 
-Company logos should be square if possible, and at least 200x200px if they are PNGs (non-vector images).
+Os logotipos da empresa devem ser quadrados, se possível, e ter pelo menos 200x200px se forem PNGs (imagens não vetoriais).
 
 ## Otimização
 
 ### PNG
 
-Use the [OptiPNG](https://sourceforge.net/projects/optipng) tool to optimize PNG images:
+Use a ferramenta [OptiPNG](https://sourceforge.net/projects/optipng) para otimizar imagens PNG:
 
 ```bash
 optipng -o7 file.png
@@ -25,18 +25,18 @@ optipng -o7 file.png
 
 #### Inkscape
 
-[Scour](https://github.com/scour-project/scour) all SVG images.
+[Examine](https://github.com/scour-project/scour) todas as imagens SVG.
 
 In Inkscape:
 
-1. File > Save As...
-2. Set type to: Optimized SVG (*.svg)
+1. Arquivo > Salvar como...
+2. Definir o tipo como: SVG otimizado (*.svg)
 
-In the **Options** tab:
+Na guia **Opções**:
 
-- **Number of significant digits for coordinates** > **5**
-- [x] Turn on **Shorten color values**
-- [x] Turn on **Convert CSS attributes to XML attributes**
+- **Número de dígitos significativos para coordenadas** > **5**
+- [x] Ativar a opção **Reduzir valores de cor**
+- [x] Ative a opção **Converter atributos CSS em atributos XML**
 - [x] Turn on **Collapse groups**
 - [x] Turn on **Create groups for similar attributes**
 - [ ] Turn off **Keep editor data**
@@ -88,7 +88,7 @@ scour --set-precision=5 \
 
 ### WebP
 
-Use the [cwebp](https://developers.google.com/speed/webp/docs/using) command to convert PNG or JPEG image files to WebP format:
+Use o comando [cwebp](https://developers.google.com/speed/webp/docs/using) para converter arquivos de imagem PNG ou JPEG para o formato WebP:
 
 ```bash
 cwebp -q 70 -m 6 input_file -o output.webp
