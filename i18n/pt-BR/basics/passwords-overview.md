@@ -1,86 +1,86 @@
 ---
-title: "Introduction to Passwords"
+title: "Introdução às senhas"
 icon: 'material/form-textbox-password'
-description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
+description: Aqui estão algumas dicas e truques para que você crie senhas mais seguras e garanta a segurança de suas contas.
 ---
 
-Passwords are an essential part of our everyday digital lives. We use them to protect our accounts, our devices and our secrets. Despite often being the only thing between us and an adversary who's after our private information, not a lot of thought is put into them, which often leads to people using passwords that can be easily guessed or brute-forced.
+Senhas são um elemento essencial no dia a dia de nossas vidas digitais. Nós utilizamos as senhas para proteger nossas contas, dispositivos e dados confidenciais. Embora seja na maioria das vezes a única barreira entre nossos dados pessoais e um indivíduo mal intencionado (hacker, golpista, etc.) acabamos por não pensar muito em nossas senhas. Isso leva ao comportamento comum das pessoas em utilizar senhas que são facilmente adivinháveis ou forçadas (através de um software malicioso, por exemplo).
 
-## Best Practices
+## Práticas recomendadas
 
-### Use unique passwords for every service
+### Use **apenas uma ** senha para cada serviço.
 
-Imagine this; you sign up for an account with the same e-mail and password on multiple online services. If one of those service providers is malicious, or their service has a data breach that exposes your password in an unencrypted format, all a bad actor would have to do is try that e-mail and password combination across multiple popular services until they get a hit. It doesn't matter how strong that one password is, because they already have it.
+Imagine o seguinte: você inscreve uma conta com mesmo e-mail e senha em vários serviços online. Se um desses provedores de serviço for malicioso ou ocorrer um vazamento de dados que expõe sua senha em um formato não encriptado (protegido), tudo que um hacker/golpista precisaria era testar sua combinação de e-mail e senha em diversos serviços populares até que o mesmo consiga um acerto. Nesse caso, não interessa o o quão "forte" é uma senha, pois o hacker ou golpista já tem posse dela.
 
-This is called [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing), and it is one of the most common ways that your accounts can be compromised by bad actors. To avoid this, make sure that you never re-use your passwords.
+Isso é chamado de [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing) e é uma das maneiras mais comuns pelas quais suas contas podem ser comprometidas por agentes mal-intencionados. Para evitar essas situações é necessário certificar-se que você não **reutiliza** nenhuma senha.
 
-### Use randomly generated passwords
+### Utilize senhas geradas aleatoreamente (por ferramentas confiáveis)
 
-==You should **never** rely on yourself to come up with a good password.== We recommend using [randomly generated passwords](#passwords) or [diceware passphrases](#diceware-passphrases) with sufficient entropy to protect your accounts and devices.
+Você nunca deve confiar em si mesmo para criar uma boa senha. Nós recomendamos que você use senhas  [geradas aleatoramente](#passwords) ou com tecnologia diceware. Estas estarão providas com a entropia suficiente para proteger você, suas contas virtuais e seus dispositivos.
 
-All of our [recommended password managers](../passwords.md) include a built-in password generator that you can use.
+Todos os nossos [gerenciadores de senhas recomendados](../passwords.md) incluem um gerador de senhas integrado.
 
-### Rotating Passwords
+### Rotação de senhas
 
-You should avoid changing passwords that you have to remember (such as your password manager's master password) too often unless you have reason to believe it has been compromised, as changing it too often exposes you to the risk of forgetting it.
+Evite alterar as senhas que realmente precisa lembrar (como a senha mestra de seu gerenciador de senhas), a menos que tenha **motivos para acreditar que ela tenha sido comprometida**, pois alterá-la com muita frequência tem risco de você esquecê-la.
 
-When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multifactor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. Most password managers allow you to set an expiry date for your password to make this easier to manage.
+Ao se tratar de senhas que você não precisa lembrar (como as senhas armazenadas no gerenciador de senhas), se o seu [gerenciador de riscos](threat-modeling.md) exigir isso, recomendamos que você **examine** suas contas mais importantes (especialmente as contas que não usam autenticação multifator 2FA) e altere a senha delas a cada **dois meses**, caso tenham sido comprometidas em algum vazamento de dados que ainda não foi divulgado. A maioria dos gerenciadores de senha permite que você configure uma data de expiração para determinadas senhas, facilitando a tarefa da rotação de senhas.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Checking for data breaches</p>
+<p class="admonition-title">Verificando violações de dados</p>
 
-If your password manager lets you check for compromised passwords, make sure to do so and promptly change any password that may have been exposed in a data breach. Alternatively, you could follow [Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) with the help of a [news aggregator](../news-aggregators.md).
+Se o seu gerenciador de senhas permitir a verificação de contas e senhas comprometidas, certifique-se de fazer isso **e altere imediatamente** qualquer senha que possa ter sido exposta em um vazamento de dados. Você também pode acompanhar o feed [Have I Been Pwned's Latest Breaches](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) com a ajuda de um [agregador de notícias ou cliente RSS](../news-aggregators.md) para obter informações sobre os vazamentos de dados mais recentes.
 
 </div>
 
-## Creating strong passwords
+## Criando senhas fortes
 
-### Passwords
+### Senhas
 
-A lot of services impose certain criteria when it comes to passwords, including a minimum or maximum length, as well as which special characters, if any, can be used. You should use your password manager's built-in password generator to create passwords that are as long and complex as the service will allow by including capitalized and lowercase letters, numbers and special characters.
+Vários serviços exigem certos critérios para as senhas de suas contas. Alguns destes podem incluir um número mínimo e/ou máximo de caracteres bem como a inclusão de caracteres especiais ou capitalizados. É recomendado que se use o gerador de senhas contido em seu gerenciador de senhas de preferência. Isso permite uma maior praticidade ao gerar novas senhas que cumprem com os critérios (quantidade de caracteres, letras maiúscula e minúscula, caracteres especiais, etc.) exigidos em cada serviço.
 
-If you need a password you can memorize, we recommend a [diceware passphrase](#diceware-passphrases).
+Se você precisar de uma senha que possa memorizar, recomendamos uma [frase Diceware](#diceware-passphrases).
 
-### Diceware Passphrases
+### Frases Diceware
 
-Diceware is a method for creating passphrases which are easy to remember, but hard to guess.
+Diceware é um método de criação de senhas e palavras-passe que são fáceis de se lembrar porém difíceis de se adivinhar
 
-Diceware passphrases are a great option when you need to memorize or manually input your credentials, such as for your password manager's master password or your device's encryption password.
+As frases Diceware são boas opção quando você precisa memorizar ou inserir manualmente suas credenciais, tal como para a senha mestra do seu gerenciador de senhas ou a senha de proteção do seu dispositivo.
 
-An example of a diceware passphrase is `viewable fastness reluctant squishy seventeen shown pencil`.
+Um exemplo de uma frase secreta de dados é o `fastness reluctant squishy seventeen shown pencil`.
 
-To generate a diceware passphrase using real dice, follow these steps:
+Para gerar frases diceware usando um dado real, siga esses passos:
 
 <div class="admonition Note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Observação:</p>
 
-These instructions assume that you are using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other word lists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
+Essas instruções pressupõem que você esteja usando [a grande lista de palavras da EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) para gerar a frase secreta, o que requer cinco lançamentos de dados por palavra. Outras listas de palavras podem exigir mais ou menos rolagens por palavra e podem exigir uma quantidade diferente de palavras para obter a mesma entropia.
 
 </div>
 
-1. Roll a six-sided die five times, noting down the number after each roll.
+1. Jogue um dado de seis lados cinco vezes, anotando o número após cada jogada.
 
-2. As an example, let's say you rolled `2-5-2-6-6`. Look through the [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
+2. Por exemplo, digamos que você tenha tirado `2-5-2-6-6`. Procure na [grande lista de palavras da EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) a palavra que corresponde a `25266`.
 
-3. You will find the word `encrypt`. Write that word down.
+3. Você encontrará a palavra `encrypt (criptografar`). Anote essa palavra.
 
-4. Repeat this process until your passphrase has as many words as you need, which you should separate with a space.
+4. Repita esse processo até que a frase secreta tenha o número de palavras necessárias, separadas por um espaço.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Important</p>
+<p class="admonition-title">Importante</p>
 
-You should **not** re-roll words until you get a combination of words that appeal to you. The process should be completely random.
+Você não deve **rolar** as palavras até obter uma combinação de palavras que lhe agrade. O processo deve ser completamente aleatório.
 
 </div>
 
-If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords.
+Se você não tiver acesso a dados reais ou preferir não usá-los, poderá usar o gerador de senhas contido no programa gerenciador de senhas de sua preferência. A maioria deles tem a opção de gerar senhas de dados além das senhas comuns.
 
-We recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
+Recomendamos o uso da [lista grande de palavras da EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) para gerar suas senhas de diceware, pois ela oferece exatamente a mesma segurança que a lista original, embora contenha palavras mais fáceis de memorizar. Caso você prefira também existem [listas de palavras em diferentes idiomas](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline).
 
 <details class="note" markdown>
-<summary>Explanation of entropy and strength of diceware passphrases</summary>
+<summary>Explicação da entropia e da força das frases diceware</summary>
 
-To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
+Para demonstrar a força das frases diceware, usaremos a frasede sete palavras mencionada anteriormente`(viewable fastness reluctant squishy seventeen shown pencil`) e [a grande lista de palavras da EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) como exemplo.
 
 One metric to determine the strength of a diceware passphrase is how much entropy it has. The entropy per word in a diceware passphrase is calculated as <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mtext>WordsInList</mtext> <mo form="postfix" stretchy="false">)</mo> </mrow> </math> and the overall entropy of the passphrase is calculated as: <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>
 
@@ -100,18 +100,18 @@ On average, it takes trying 50% of all the possible combinations to guess your p
 
 To sum it up, diceware passphrases are your best option when you need something that is both easy to remember *and* exceptionally strong.
 
-## Storing Passwords
+## Guardando suas senhas
 
 ### Gerenciadores de Senhas
 
-The best way to store your passwords is by using a password manager. They allow you to store your passwords in a file or in the cloud and protect them with a single master password. That way, you will only have to remember one strong password, which lets you access the rest of them.
+A melhor maneira de guardar suas senhas é utilizando um programa gerenciador de senhas. Esse tipo de software é responsável por armazenar localmente ou em 'nuvem' as senhas que você usa em diversos serviços que tem seu acesso garantido através da senha mestre. Desta maneira, você só precisa lembrar uma senha forte, que lhe permitirá acessar ou fazer o preenchimento automático de suas demais senhas.
 
-There are many good options to choose from, both cloud-based and local. Choose one of our recommended password managers and use it to establish strong passwords across all of your accounts. We recommend securing your password manager with a [diceware passphrase](#diceware-passphrases) comprised of at least seven words.
+Existem várias opções boas quando se trata de gerenciadores de senhas, ambas opções locais e baseadas 'na nuvem'. Escolha uma de nossas recomendações de gerenciadores de senhas e utilize-os a fim de produzir senhas mais fortes para suas contas. We recommend securing your password manager with a [diceware passphrase](#diceware-passphrases) comprised of at least seven words.
 
-[List of recommended password managers](../passwords.md ""){.md-button}
+[Lista de gerenciadores de senhas recomendados.](../passwords.md ""){.md-button}
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Don't place your passwords and TOTP tokens inside the same password manager</p>
+<p class="admonition-title">Não coloque suas senhas e tokens TOTP no mesmo gerenciador de senhas</p>
 
 When using [TOTP codes as multifactor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
 
@@ -123,4 +123,4 @@ Furthermore, we do not recommend storing single-use recovery codes in your passw
 
 ### Backups
 
-You should store an [encrypted](../encryption.md) backup of your passwords on multiple storage devices or a cloud storage provider. This can help you access your passwords if something happens to your primary device or the service you are using.
+É de extrema importância armazenar backups <0>criptografados</0> de todas as suas senhas em mais de um dispositivo (pendrive, cartão de memória, etc.) ou em um provedor confiável de armazenamento em nuvem. Isso pode ajudá-lo a acessar suas senhas se algo acontecer com seu dispositivo principal ou com o serviço que você está usando.
