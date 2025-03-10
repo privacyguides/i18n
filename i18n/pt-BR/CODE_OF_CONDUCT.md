@@ -1,4 +1,4 @@
-# Código de Conduta da Comunidade
+# Se você tiver um problema em outro lugar ou um problema que os moderadores da comunidade não consigam resolver, entre em contato com <0>jonah@privacyguides.org</0> e/ou <0>dngray@privacyguides.org.</0>
 
 ** Nós nos comprometemos ** a fazer de nossa comunidade uma experiência sem assédios para todos.
 
@@ -10,44 +10,44 @@
 
 O que esperamos dos membros de nossas comunidades:
 
-1. **Do not spread misinformation**
+1. **Não espalhe desinformação **
 
-      We are creating an evidence-based educational community around information privacy and security, not an information home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive, explain in detail what is collected and how it collected. Alegações desta natureza devem ser comprovadas por provas técnicas.
+      Aqui nós estamos desenvolvendo uma comunidade educacional baseado em **evidências** sobre o universo da privacidade digital e a segurança da informação. Aqui não é um lar para teorias da conspiração.  Por exemplo, afirmar que um determinado programa de computador é malicioso ou que têm coletas de dados um caso de invasão de privacidade, explique detalhadamente o que e como esse tipo de informação é coletada. Alegações desta natureza devem ser comprovadas por provas técnicas.
 
-2. **Do not abuse our willingness to help**
+2. **Não abuse de nossa boa vontade em ajudar.**
 
-      Our community members are not free tech support. We are happy to help with specific steps for your privacy journey, if you are willing to put in effort. We are not obligated to answer endless, repetitive questions about general computer problems solvable with a simple internet search. **Do not** become a [help vampire](https://slash7.com/2006/12/22/vampires).
+      Nossa equipe e membros não são 'suporte-técnico' gratis. Estamos dispostos e felizes em ajudar a todos com passos específicos em sua jornada pela reconquista da privacidade digital, caso queira realmente fazer esse esforço. Não somos obrigados a responder a perguntas intermináveis e repetitivas sobre problemas gerais no universo da informática que podem ser resolvidos com uma simples pesquisa na Internet. Não seja uma pessoa que 'mendiga' ajuda.
 
 3. **Comporte-se de um modo positivo e construtivo**
 
-      Examples of behavior that contributes to a positive environment for our community include:
+      Exemplos de comportamentos que compactua com um ambiente positivo para nossa comunidade incluem:
 
-      - Being respectful of differing opinions, viewpoints, and experiences.
-      - Demonstrating empathy and kindness toward others.
-      - Focusing on what is best not just for us as overseers, but for the overall community.
-      - Giving and gracefully accepting constructive feedback within our community while growing and improving.
-      - Operating with a communal mindset at all times.
+      - Ser respeitoso com as opiniões, experiências e pontos de vista diferentes dos seus.
+      - Demonstrar empatia e gentileza perante aos outros companheiros.
+      - Priorizar o que é melhor não apenas para os supervisores/moderadores, mas para toda a comunidade.
+      - Dar e receber 'feedbacks' construtivos dentro da nossa comunidade conforme ela se desenvolve.
+      - Trabalhar com uma mentalidade comum à todo momento.
 
-## Unacceptable Behavior
+## Comportamentos inaceitáveis:
 
 The following behaviors are considered harassment and are unacceptable within our community:
 
 - Any other conduct which would reasonably be considered inappropriate in a professional setting.
-- Public and/or private harassment of any kind.
-- Publishing others' private information, such as a physical address and/or an email address, without their explicit permission.
-- The use of sexualized language or imagery, and sexual attention or advances of any kind.
-- Trolling, insulting and/or derogatory comments, including personal or political attacks.
+- Assédio (público ou privado) de qualquer tipo ou instância.
+- Publicar informações privadas de outras pessoas, como endereço físico e/ou endereço de e-mail, sem sua permissão explícita.
+- Uso de conteúdo sexualizado ou sexualizador de qualquer tipo ou formato.
+- Comentários de trollagem, insultos e/ou depreciativos, incluindo ataques pessoais ou políticos.
 
-## Scope
+## Escopo
 
-Our Code of Conduct applies within all project spaces, as well as when an individual is representing the Privacy Guides project in other communities.
+Nosso Código de Conduta se aplica em todos os espaços do projeto, inclusive quando indivíduo representa o projeto do Guia de Privacidade em outras comunidades.
 
-We are responsible for clarifying the standards of our community and have the right to remove or alter the comments of those participating within our community, as necessary and at our discretion.
+Somos responsáveis por esclarecer os padrões de nossa comunidade e nos resguardamos no direito de remover ou alterar os comentários dos participantes de nossa comunidade, conforme necessário e a nosso critério.
 
-## Contact
+## Contato
 
-If you observe a problem on a platform like Matrix or Reddit, please contact our moderators on that platform via chat, direct message, or any designated "Modmail" system.
+Se você notar algum problema em alguma plataforma externa como  Matrix ou Reddit por favor contate os moderadores da mesma via 'chat', ou qualquer espécie de sistema 'ModMail' designado para esse fim.
 
-If you have a problem elsewhere, or a problem that our community moderators are unable to resolve, reach out to `jonah@privacyguides.org` and/or `dngray@privacyguides.org`.
+Se você tiver um problema em outro lugar ou um problema que os moderadores da comunidade não consigam resolver, entre em contato com `jonah@privacyguides.org` e/ou `dngray@privacyguides.org.`
 
-All community leaders are obligated to respect the privacy and security of reporters for all incidents.
+Todos os líderes da comunidade são obrigados a respeitar a privacidade e a segurança de todos os que reportam seus incidentes.

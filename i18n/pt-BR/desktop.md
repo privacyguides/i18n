@@ -1,7 +1,7 @@
 ---
 title: "Computador/PC"
 icon: simple/linux
-description: Linux distributions are commonly recommended for privacy protection and software freedom.
+description: Distribuições Linux são comumente recomendadas para proteção de sua privacidade e liberdade digital.
 cover: desktop.webp
 ---
 
@@ -9,19 +9,19 @@ cover: desktop.webp
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Linux distributions are commonly recommended for privacy protection and software freedom. If you don't already use Linux, below are some distributions we suggest trying out, as well as some general privacy and security improvement tips that are applicable to many Linux distributions.
+Distribuições Linux são comumente recomendadas para proteção de sua privacidade e liberdade digital. Se você ainda não é um usuário de Linux, abaixo você pode encontrar algumas sugestões de distribuições para experimentar. Também encontrará algumas informações e recomendações de privacidade e elevação da segurança de seu dispositivo aplicáveis numa vasta gama de distribuições Linux.
 
-- [General Linux Overview :material-arrow-right-drop-circle:](os/linux-overview.md)
+- [Visão Geral do Linux  :material-arrow-right-drop-circle:](os/linux-overview.md)
 
-## Traditional Distributions
+## Distros Tradicionais
 
 ### Fedora Workstation
 
 <div class="admonition recommendation" markdown>
 
-![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
+![Logotipo do Fedora](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Workstation** is our recommended distribution for people new to Linux. Fedora generally adopts newer technologies (e.g., [Wayland](https://wayland.freedesktop.org) and [PipeWire](https://pipewire.org)) before other distributions. These new technologies often come with improvements in security, privacy, and usability in general.
+A **Fedora Workstation** é nossa distribuição recomendada para iniciantes no mundo Linux. A distribuição Fedora geralmente opta por anteceder-se na adoção de tecnologias novas por exemplo: [Wayland](https://wayland.freedesktop.org) e [PipeWire](https://pipewire.org). Essas novas tecnologias contém melhorias na segurança, na privacidade e na usabilidade geral de seus sistemas operacionais.
 
 [:octicons-home-16: Homepage](https://fedoraproject.org/workstation){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs){ .card-link title=Documentation}

@@ -1,14 +1,14 @@
 ---
 meta_title: "Privacy Respecting Web Browsers for Android and iOS - Privacy Guides"
-title: "Mobile Browsers"
+title: "Navegadores Móveis"
 icon: material/cellphone-information
-description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
+description:
 cover: mobile-browsers.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Mobile Browser Recommendations
+    name:
     url: "./"
     relatedLink: "../desktop-browsers/"
   - 
@@ -38,23 +38,23 @@ schema:
       url: "./"
   - 
     "@context": http://schema.org
-    "@type": MobileApplication
+    "@type": Aplicativo Móvel
     name: Safari
     image: /assets/img/browsers/safari.svg
     url: https://apple.com/safari
-    applicationCategory: Web Browser
+    applicationCategory: Navegador de Internet
     operatingSystem:
       - iOS
     subjectOf:
-      "@type": WebPage
+      "@type": Página da Web
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protege contra as seguintes ameaças:</small>
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. Se você precisa navegar pela internet anonimamente, você deve usar o [Tor](tor.md).
+Essa é a lista de <0>navegadores móveis</0> recomendados para o acesso padrão/não-anônimo da internet em seu smartphone ou tablet Se você precisa navegar pela internet anonimamente, você deve usar o [Tor](tor.md).
 
 ## Brave
 
@@ -64,7 +64,7 @@ These are our currently recommended **mobile web browsers** and configurations f
 
 O **Brave Browser** inclui um bloqueador de conteúdo embutido e [recursos de privacidade](https://brave.com/privacy-features/), os quais muitos são ativados por padrão.
 
-Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
+O Brave foi construído com base no projeto de navegador Chromium, seu funcionamento pode ser familiar e ter mínimos problemas de compatibilidade em websites.
 
 [:octicons-home-16: Página inicial](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Serviço Onion" }
@@ -89,15 +89,15 @@ O Navegador Tor é a única maneira de realmente navegar na Internet de forma an
 
 === "Android"
 
-    These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**.
+    Essas opções podem ser encontradas em :material-menu: → Configurações → Proteções do Brave & privacidade**.
 
 === "iOS"
 
-    These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy**.
+    Essas opções podem ser encontradas em :fontawesome-solid-ellipsis: → Configurações → Proteções do Brave & privacidade**.
 
-#### Brave shields global defaults
+#### Configuração padrão dos filtros do Brave
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+O Brave inclui algumas medidas 'anti-fingerprinting' em seu recurso [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Sugerimos que você configure essas opções [globalmente](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) em todas as páginas da web que você visita.
 
 As opções do Shields (Escudos) podem ser reduzidas de acordo com o site, conforme necessário, mas, por padrão, recomendamos configurar o seguinte:
 
@@ -148,7 +148,7 @@ As opções do Shields (Escudos) podem ser reduzidas de acordo com o site, confo
 
     </div>
 
-    1. Essa opção desabilita o JavaScript, o que interromperá muitos sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Essa opção desabilita o JavaScript, o que interromperá muitos sites. Para desbloqueá-los, você pode definir exceções por site clicando no ícone do Shields na barra de endereços e desmarcando essa configuração em *Controles avançados*.
 
 ##### Clear browsing data (Android only)
 
@@ -175,11 +175,11 @@ As opções do Shields (Escudos) podem ser reduzidas de acordo com o site, confo
 
     </div>
 
-    1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
+    1. A [implementação do Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) da Brave no Android **não faz** proxy de [solicitações de rede do Safe Browsing](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) como sua contraparte de desktop. Isso significa que o seu endereço IP pode ser descoberto (e registrado) pelo Google. Note que a Navegação segura não está disponível para dispositivos Android sem o Google Play Services.
 
 === "iOS"
 
-    - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
+    - [ ] Desmarque **Permitir análise de produtos com preservação da privacidade (P3A)**
     - [ ] Desmarque **Automaticamente enviar ping de uso diário para Brave**
 
 #### Leo
@@ -192,17 +192,17 @@ These options can be found in :material-menu: → **Settings** → **Leo**.
 
 </div>
 
-1. This option is not present in Brave's iOS app.
+1. Essa opção não está presente no aplicativo iOS do Brave.
 
-#### Search engines
+#### Mecanismo de busca
 
-These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
+Essas opções podem ser encontradas em :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
 
 - [ ] Desmarque **Mostrar sugestões de pesquisa**
 
-#### Brave Sync
+#### Sincronização do Brave
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+O [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) permite que os seus dados de navegação (histórico, marcadores, etc.) sejam acessíveis em todos os seus dispositivos sem necessidade de uma conta e protege-os com E2EE.
 
 ## Cromite (Android)
 
@@ -378,23 +378,23 @@ Safari's Private Browsing mode offers additional privacy protections. Private Br
 
 Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed in to sites. This may be an inconvenience.
 
-#### iCloud Sync
+#### Sincronização do iCloud
 
-Synchronization of Safari History, Tab Groups, iCloud Tabs and saved passwords are E2EE. However, by default, bookmarks are [not](https://support.apple.com/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://apple.com/legal/privacy/en-ww).
+A sincronização do histórico do Safari, bem como os Grupos de Abas e senhas salvas estão resguardadas por E2EE. No entanto, por padrão, os marcadores (bookmarks) [não estão](https://support.apple.com/HT202303) protegidos. A Apple pode descriptografar e acessá-los de acordo com sua [política de privacidade](https://apple.com/legal/privacy/en-ww).
 
-You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/HT212520). Go to :gear: **Settings** → **iCloud** → **Advanced Data Protection**.
+Você pode habilitar o EE2E para seus favoritos no navegador Safari ao ativar a [ Proteção Avançada de Dados](https://support.apple.com/HT212520). Acesse :gear: **Configurações** → **iCloud** → **Proteção Avançada de Dados**.
 
-- [x] Turn on **Advanced Data Protection**
+- [x] Ative **Proteção de Dados Avançados**
 
-If you use iCloud with Advanced Data Protection disabled, we also recommend setting Safari's default download location to a local folder on your device. This option can be found in :gear: **Settings** → **Apps** → **Safari** → **General** → **Downloads**.
+Se você usar o iCloud com a proteção avançada de dados, também é recomendado mudar a localização da pasta padrão de seus arquivos descarregados (downloads). Essa opção pode ser encontrada em :gear: **Settings** → **Aplicativos** → **Safari** → **Geral** → **Downloads**.
 
-## Criteria
+## Critérios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+<0>Por favor, note que não somos parceiros de nenhum dos produtos que recomendamos.</0>Em adição aos <1>nossos critérios básicos</1>, desenvolvemos um conjunto claro de requisitos para nos permitir fornecer recomendações objetivas. Sugerimos que você se familiarize com essa lista antes de escolher uma alternativa para usar e pesquise e se informe por conta própria para garantir que essa é a escolha ideal.
 
-### Minimum Requirements
+### Requisitos mínimos
 
 - Deve suportar atualizações automáticas.
-- Must receive engine updates from upstream releases quickly.
-- Must support content blocking.
+- Necessita ser provido de atualizações para novas versões constantemente.
+- É obrigatorio o suporte à bloqueio de conteúdo (indesejável).
 - Qualquer mudança necessária para tornar o navegador mais compatível com a privacidade não deve afetar negativamente a experiência do usuário.
