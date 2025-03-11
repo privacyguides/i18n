@@ -243,7 +243,7 @@ These options can be found in :material-menu: → :gear: **Settings** → **Priv
 
 - [x] Select **Always use secure connections**
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+Isso impede que você se conecte involuntariamente a um site usando HTTP em texto simples. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
 
 #### Adblock Plus settings
 
@@ -304,7 +304,7 @@ This prevents Siri from using content from Safari for Siri suggestions.
 
 - [ ] Disable **Search Engine Suggestions**
 
-This setting sends whatever you type in the address bar to the search engine set in Safari. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+This setting sends whatever you type in the address bar to the search engine set in Safari. Desativar as sugestões de pesquisa permite que você controle com mais precisão quais dados são enviados ao seu provedor de mecanismo de pesquisa.
 
 #### Profiles
 
