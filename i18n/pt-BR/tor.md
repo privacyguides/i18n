@@ -44,7 +44,7 @@ Há uma variedade de maneiras de se conectar à rede Tor a partir do seu disposi
 
 Alguns desses aplicativos são melhores do que outros, e novamente fazer uma determinação equivale ao seu modelo de ameaça. Se você é um usuário casual do Tor que não está preocupado com o ISP que coleta provas contra você, usar aplicativos como o [Orbot](#orbot) ou aplicativos do navegador móvel para acessar a rede Tor provavelmente não é problema. Aumentar o número de pessoas que usam Tor todos os dias ajuda a reduzir o mau estigma do Tor, e diminui a qualidade das "listas de usuários de Tor" que os ISPs e os governos podem compilar.
 
-Se o anonimato mais completo for fundamental para a sua situação, você deve somente **** utilizar o cliente do navegador Tor para área de trabalho, idealmente em uma configuração de [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os). Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
+Se o anonimato mais completo for fundamental para a sua situação, você deve somente **** utilizar o cliente do navegador Tor para área de trabalho, idealmente em uma configuração de [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os). Navegadores móveis com acesso à rede Tor são escolhas menos comuns (e mais rastreáveis) para o usuário final, algumas de suas configurações não passaram por testes de segurança e desanonimização.
 
 ## Navegador Tor
 

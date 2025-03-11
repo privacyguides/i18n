@@ -1,10 +1,10 @@
-# Se você tiver um problema em outro lugar ou um problema que os moderadores da comunidade não consigam resolver, entre em contato com <0>jonah@privacyguides.org</0> e/ou <0>dngray@privacyguides.org.</0>
+# Código de conduta da comunidade
 
 ** Nós nos comprometemos ** a fazer de nossa comunidade uma experiência sem assédios para todos.
 
 **Nós nos esforçamos** para criar um ambiente positivo, usando uma linguagem acolhedora e inclusiva, e respeitando os pontos de vista dos outros.
 
-** Nós não permitimos ** comportamentos inadequados ou inaceitáveis, tais como linguagem sexualizada, "trolling" e comentários ofensivos, ou que promovam a intolerância ou o assédio.
+** Nós não permitimos ** comportamentos inadequados ou inaceitáveis, tais como linguagem sexualizada, "trolagem" e comentários ofensivos, ou que promovam a intolerância ou o assédio.
 
 ## Regras da Comunidade
 
@@ -28,11 +28,11 @@ O que esperamos dos membros de nossas comunidades:
       - Dar e receber 'feedbacks' construtivos dentro da nossa comunidade conforme ela se desenvolve.
       - Trabalhar com uma mentalidade comum à todo momento.
 
-## Comportamentos inaceitáveis:
+## Comportamentos inaceitáveis
 
-The following behaviors are considered harassment and are unacceptable within our community:
+Os comportamentos citados a seguir são considerados formas de abuso e são inaceitáveis em nossa comunidade:
 
-- Any other conduct which would reasonably be considered inappropriate in a professional setting.
+- Qualquer outra forma de conduta ou comportamento considerada inapropriada para um ambiente profissional.
 - Assédio (público ou privado) de qualquer tipo ou instância.
 - Publicar informações privadas de outras pessoas, como endereço físico e/ou endereço de e-mail, sem sua permissão explícita.
 - Uso de conteúdo sexualizado ou sexualizador de qualquer tipo ou formato.
@@ -46,8 +46,8 @@ Somos responsáveis por esclarecer os padrões de nossa comunidade e nos resguar
 
 ## Contato
 
-Se você notar algum problema em alguma plataforma externa como  Matrix ou Reddit por favor contate os moderadores da mesma via 'chat', ou qualquer espécie de sistema 'ModMail' designado para esse fim.
+Se você notar algum problema em alguma plataforma externa como Matrix ou Reddit por favor contate os moderadores da mesma via 'chat', ou qualquer espécie de sistema 'ModMail' designado para esse fim.
 
-Se você tiver um problema em outro lugar ou um problema que os moderadores da comunidade não consigam resolver, entre em contato com `jonah@privacyguides.org` e/ou `dngray@privacyguides.org.`
+Se você tiver um problema em outro lugar ou um problema que os moderadores da comunidade não consigam resolver, entre em contato com `jonah@privacyguides.org` e/ou `dngray@privacyguides.org.`.
 
 Todos os líderes da comunidade são obrigados a respeitar a privacidade e a segurança de todos os que reportam seus incidentes.
