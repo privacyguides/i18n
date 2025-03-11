@@ -84,4 +84,4 @@ I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto pe
 - Apps should be open source.
 - Should have route planning for public transport.
 - Should have real-time traffic information for route planning.
-- Should support advanced features such as detailed shop/point of interest (POI) information and reviews, topographic maps, and satellite and street view images.
+- Dovrebbe supportare feature avanzate come negozi/punti di interesse (POI), informazioni e recensioni, mappe topografiche, satellitari e immagini street view.

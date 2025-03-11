@@ -20,8 +20,8 @@ Per modificare un criterio di gruppo, fare doppio clic su di esso e selezionare 
 #### Device Guard
 
 - Attiva Sicurezza Basata Sulla Virtualizzazione: **Abilitato**
-  - Livello di sicurezza della piattaforma: **Avvio sicuro e protezione DMA**
-  - Configurazione Secure Launch: **Abilitato**
+    - Livello di sicurezza della piattaforma: **Avvio sicuro e protezione DMA**
+    - Configurazione Secure Launch: **Abilitato**
 
 #### Gestione delle comunicazioni Internet
 
@@ -52,14 +52,14 @@ AutoRun e AutoPlay sono funzioni che consentono a Windows di eseguire uno script
 - Disattiva AutoPlay: **Abilitato**
 - Disabilita Autoplay per dispositivi senza volume: **Abilitato**
 - Imposta il comportamento predefinito per AutoRun: **Abilitato**
-  - Comportamento AutoRun predefinito: **Non eseguire alcun comando AutoRun**
+    - Comportamento AutoRun predefinito: **Non eseguire alcun comando AutoRun**
 
 #### Crittografia unità BitLocker
 
 Si potrebbe desiderare di ri-crittografare l'unità del sistema operativo dopo aver modificato queste impostazioni.
 
 - Scegli il metodo di crittografia dell'unità e la forza della cifratura (Windows Vista, Windows Server 2008, Windows 7): **Abilitato**
-  - Seleziona il metodo di cifratura: **AES-256**
+    - Seleziona il metodo di cifratura: **AES-256**
 
 Impostare la forza di cifratura per il criterio di Windows 7 continua ad applicare tale forza alle versioni più recenti di Windows.
 
@@ -85,12 +85,12 @@ Despite the names of these policies, this doesn't _require_ you to do anything b
 #### Raccolta dati e anteprima Builds
 
 - Permetti Dati Diagnostici: **Abilitato**
-  - Opzioni: **Invia i dati diagnostici richiesti** (edizione Pro); oppure
-  - Opzioni: **Dati diagnostici disattivati** (Edizione Enterprise o Education)
+    - Opzioni: **Invia i dati diagnostici richiesti** (edizione Pro); oppure
+    - Opzioni: **Dati diagnostici disattivati** (Edizione Enterprise o Education)
 - Limita la raccolta dei registri diagnostici: **Abilitato**
 - Limitae la raccolta di dump: **Abilitato**
 - Limita i dati diagnostici opzionali per Desktop Analytics: **Abilitato**
-  - Opzioni: **Disabilita la raccolta di Desktop Analytics**
+    - Opzioni: **Disabilita la raccolta di Desktop Analytics**
 - Non mostrare le notifiche di feedback: **Abilitato**
 
 #### File Explorer
@@ -118,7 +118,7 @@ Quest'ultima impostazione disabilita OneDrive sul sistema; assicuratevi di cambi
 - Consenti Cortana: **Disabilitato**
 - Non cercare sul web e non visualizzare i risultati web in Ricerca: **Abilitato**
 - Imposta quali informazioni sono condivise in Ricerca: **Abilitato**
-  - Tipo di informazioni: **Informazioni anonime**
+    - Tipo di informazioni: **Informazioni anonime**
 
 #### Sincronizza le impostazioni
 
@@ -132,4 +132,4 @@ Quest'ultima impostazione disabilita OneDrive sul sistema; assicuratevi di cambi
 
 - Non inviare dati aggiuntivi: **Abilitato**
 - Consenso > Configura consenso predefinito: **Abilitato**
-  - Livello di consenso: **Chiedere sempre prima di inviare i dati**
+    - Livello di consenso: **Chiedere sempre prima di inviare i dati**
