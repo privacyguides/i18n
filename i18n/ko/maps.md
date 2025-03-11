@@ -39,7 +39,7 @@ Features include cycling routes, hiking trails and walking paths, turn-by-turn n
 
 </div>
 
-Please note that Organic Maps is a simple, basic app that lacks certain features many users might expect, such as satellite images, streetview images, and real-time traffic information.
+Please note that Organic Maps is a simple, basic app that lacks certain features many users might expect, such as satellite images, street view images, and real-time traffic information.
 
 ## OsmAnd
 
@@ -64,7 +64,7 @@ Please note that Organic Maps is a simple, basic app that lacks certain features
 
 </div>
 
-Compared to Organic Maps, OsmAnd has more [features](https://wiki.openstreetmap.org/wiki/OsmAnd#Features) but is also more complicated to use. One noteworthy feature is the ability to overlay or underlay external map data, such as satellite images from Microsoft or [traffic data](https://web.archive.org/web/20211203063453/http://themm.net/public/osmand_traffic) from Google, although the latter is ignored by the automatic route planning. OsmAnd also has an optional integration of streetview images provided by [Mapillary](https://mapillary.com).
+Compared to Organic Maps, OsmAnd has more [features](https://wiki.openstreetmap.org/wiki/OsmAnd#Features) but is also more complicated to use. One noteworthy feature is the ability to overlay or underlay external map data, such as satellite images from Microsoft or [traffic data](https://web.archive.org/web/20211203063453/http://themm.net/public/osmand_traffic) from Google, although the latter is ignored by the automatic route planning. OsmAnd also has an optional integration of street view images provided by [Mapillary](https://mapillary.com).
 
 ## 평가 기준
 
@@ -84,4 +84,4 @@ Compared to Organic Maps, OsmAnd has more [features](https://wiki.openstreetmap.
 - Apps should be open source.
 - Should have route planning for public transport.
 - Should have real-time traffic information for route planning.
-- Should support advanced features such as detailed shop/point of interest (POI) information and reviews, topographic maps, and satellite and streetview images.
+- Should support advanced features such as detailed shop/point of interest (POI) information and reviews, topographic maps, and satellite and street view images.
