@@ -113,7 +113,7 @@ Isso é necessário para evitar formas avançadas de rastreamento, mas vem com o
 
 ### Mullvad Leta
 
-Mullvad Browser comes with [**Mullvad Leta**](https://leta.mullvad.net) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
+O Mullvad Browser vem com [**Mullvad Leta**](https://leta.mullvad.net) como mecanismo de pesquisa padrão, funcionando como um proxy para os resultados do Google ou do Brave (configurável na página inicial do Mullvad Leta).
 
 If you are a Mullvad VPN user, there is some risk in using services like Mullvad Leta which are offered by your VPN provider themselves. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta), which is information a VPN is typically intended to separate. Even though Mullvad collects very little information about their VPN subscribers or Leta users, you should consider a different [search engine](search-engines.md) if this risk concerns you.
 
@@ -164,7 +164,7 @@ Search suggestions send everything you type in the address bar to the default se
 
 ##### Firefox Suggest (apenas nos EUA)
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) é um recurso semelhante às sugestões de pesquisa, disponível apenas nos EUA. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
 
 - [ ] Desmarque **Sugestões de patrocinadores**
 - [ ] Desmarque **Sugestões de patrocinadores**
@@ -183,7 +183,7 @@ If you want to stay logged in to particular sites, you can allow exceptions in *
 
 - Selecione **Excluir cookies e dados do site quando o Firefox estiver fechado**
 
-This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
+Isso protege você contra cookies persistentes, mas não contra cookies adquiridos durante uma única sessão de navegação. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
 
 ##### Telemetria
 
