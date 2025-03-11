@@ -9,7 +9,7 @@ cover: news-aggregators.webp
 
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-A **news aggregator** is software which aggregates digital content from online newspapers, blogs, podcasts, and other resources to one location for easy viewing. Using one can be a great way to keep up with your favorite content.
+A **news aggregator** is software which aggregates digital content from online newspapers, blogs, podcasts, and other resources to one location for easy viewing. Usar um deles pode ser uma ótima maneira de acompanhar seu conteúdo favorito.
 
 ## Aggregator clients
 
@@ -19,13 +19,13 @@ A **news aggregator** is software which aggregates digital content from online n
 
 ![Akregator logo](assets/img/news-aggregators/akregator.svg){ align=right }
 
-**Akregator** is a news feed reader that is a part of the [KDE](https://kde.org) project. It comes with a fast search, advanced archiving functionality, and an internal browser for easy news reading.
+O **Akregator** é um leitor de feeds de notícias que faz parte do projeto [KDE](https://kde.org). It comes with a fast search, advanced archiving functionality, and an internal browser for easy news reading.
 
-[:octicons-home-16: Homepage](https://apps.kde.org/akregator){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title="Documentation" }
-[:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title="Contribute" }
+[:octicons-home-16: Página inicial](https://apps.kde.org/akregator){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Política de privacidade" }
+[:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title="Documentação" }
+[:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Código fonte" }
+[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title="Contribuir" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -42,7 +42,7 @@ A **news aggregator** is software which aggregates digital content from online n
 
 ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ align=right }
 
-**NewsFlash** is an open-source, modern, and easy-to-use news feed reader for Linux. It can be used offline or used with services like [Nextcloud News](https://apps.nextcloud.com/apps/news) or [Inoreader](https://inoreader.com). It has a search feature and a pre-defined list of sources that you can add directly.
+**NewsFlash** is an open-source, modern, and easy-to-use news feed reader for Linux. Pode ser usado off-line ou com serviços como [Nextcloud News] (https://apps.nextcloud.com/apps/news) ou [Inoreader] (https://inoreader.com). It has a search feature and a pre-defined list of sources that you can add directly.
 
 [:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk){ .md-button .md-button--primary }
 [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Source Code" }

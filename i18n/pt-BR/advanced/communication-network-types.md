@@ -44,7 +44,7 @@ Quando auto-hospedados, os membros de um servidor federado podem descobrir e se 
 - Permite maior controle sobre seus próprios dados ao usar seu próprio servidor.
 - Permite que você escolha com quem confiar seus dados, escolhendo entre vários servidores "públicos".
 - Muitas vezes permitem clientes de terceiros que podem fornecer uma experiência mais nativa, personalizada ou acessível.
-- Server software can be verified that it matches public source code, assuming you have access to the server, or you trust the person who does (e.g., a family member).
+- É possível verificar seu software de servidor para saber se ele corresponde ao código-fonte original, assumindo que você tem acesso ao servidor ou confia na pessoa que o mantém (por exemplo, um membro de sua família).
 
 **Desvantagens:**
 
@@ -60,7 +60,7 @@ Quando auto-hospedados, os membros de um servidor federado podem descobrir e se 
 
 Os mensageiros P2P se conectam a uma [ rede distribuída](https://en.wikipedia.org/wiki/Distributed_networking) de nós para retransmitir uma mensagem ao destinatário sem um servidor de terceiros.
 
-Clientes (peers) geralmente encontram um ao outro através do uso de um [sistema de processamento distribuído](https://pt.wikipedia.org/wiki/Sistema_de_processamento_distribu%C3%ADdo). Exemplos disso incluem [Distributed hash table](https://pt.wikipedia.org/wiki/Distributed_hash_table) (DHT), usado por [torrents](https://pt.wikipedia.org/wiki/BitTorrent) e [IPFS](https://pt.wikipedia.org/wiki/Sistema_de_Arquivos_Interplanet%C3%A1rio) por exemplo. Another approach is proximity based networks, where a connection is established over Wi-Fi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
+Clientes (peers) geralmente encontram um ao outro através do uso de um [sistema de processamento distribuído](https://pt.wikipedia.org/wiki/Sistema_de_processamento_distribu%C3%ADdo). Exemplos disso incluem [Distributed hash table](https://pt.wikipedia.org/wiki/Distributed_hash_table) (DHT), usado por [torrents](https://pt.wikipedia.org/wiki/BitTorrent) e [IPFS](https://pt.wikipedia.org/wiki/Sistema_de_Arquivos_Interplanet%C3%A1rio) por exemplo. Outra abordagem é redes baseadas em proximidade, onde uma conexão é estabelecida através de WiFi ou Bluetooth (por exemplo, Briar ou o protocolo de rede social [Scuttlebutt](https://scuttlebutt.nz)).
 
 Uma vez que um peer tenha encontrado uma rota para o seu contato através de qualquer um desses métodos, uma conexão direta entre eles é feita. Embora as mensagens sejam geralmente criptografadas, um observador ainda pode deduzir a localização e a identidade do remetente e do destinatário.
 
@@ -85,9 +85,9 @@ As redes P2P não usam servidores, pois os peers se comunicam diretamente entre 
 
 Um mensageiro usando [roteamento anônimo](https://doi.org/10.1007/978-1-4419-5906-5_628) oculta a identidade do remetente, do destinatário ou a evidência de que eles estão se comunicando. Idealmente, um mensageiro deve esconder todos os três.
 
-There are [many](https://doi.org/10.1145/3182658) ways to implement anonymous routing. Um dos mais famosos é o [onion routing](https://en.wikipedia.org/wiki/Onion_routing) (ou seja, [Tor](tor-overview.md)), que comunica mensagens criptografadas através de uma [rede sopbreposta](https://pt.wikipedia.org/wiki/Rede_sobreposta) virtual, que esconde a localização de cada nó, bem como o destinatário e o remetente de cada mensagem. O remetente e o destinatário nunca interagem diretamente e só se encontram através de um nó de encontro secreto para que não haja vazamento de endereços IP ou localização física. Os nós não podem descriptografar mensagens, nem o destino final; apenas o destinatário pode. Cada nó intermediário só pode descriptografar uma parte que indica para onde enviar a mensagem criptografada, até chegar ao destinatário que pode descriptografá-la totalmente, daí as "onion layers."
+Há [muitas](https://doi.org/10.1145/3182658) maneiras de implementar o roteamento anônimo. Um dos mais famosos é o [onion routing](https://en.wikipedia.org/wiki/Onion_routing) (ou seja, [Tor](tor-overview.md)), que comunica mensagens criptografadas através de uma [rede sopbreposta](https://pt.wikipedia.org/wiki/Rede_sobreposta) virtual, que esconde a localização de cada nó, bem como o destinatário e o remetente de cada mensagem. O remetente e o destinatário nunca interagem diretamente e só se encontram através de um nó de encontro secreto para que não haja vazamento de endereços IP ou localização física. Os nós não podem descriptografar mensagens, nem o destino final; apenas o destinatário pode. Cada nó intermediário só pode descriptografar uma parte que indica para onde enviar a mensagem criptografada, até chegar ao destinatário que pode descriptografá-la totalmente, daí as "onion layers."
 
-Self-hosting a node in an anonymous routing network does not provide the host with additional privacy benefits, but rather contributes to the whole network's resilience against identification attacks for everyone's benefit.
+A hospedagem de um nó em uma rede de roteamento anônimo não fornece ao hospedador benefícios adicionais de privacidade, mas contribui para a resiliência de toda a rede contra ataques de identificação para o benefício de todos.
 
 **Vantagens:**
 
