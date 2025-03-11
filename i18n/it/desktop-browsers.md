@@ -179,7 +179,7 @@ If you want to stay logged in to particular sites, you can allow exceptions in *
 
 - [x] Spunta **Elimina cookie e dati dei siti web alla chiusura di Firefox**
 
-This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
+This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. Quando e' abilitato,   puoi pulire facilmente i cookie del browser semplicemente riavviando Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
 
 ##### Telemetry
 

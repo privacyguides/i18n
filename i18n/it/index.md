@@ -1,6 +1,6 @@
 ---
 meta_title: "Privacy Guides: Independent Privacy & Security Resources"
-description: "Established in 2021, Privacy Guides is the most popular & trustworthy non-profit resource to find privacy tools and learn about protecting your digital life."
+description: "Creato nel 2021, PrivacyGuides è la risorsa non profit più popolare & affidabile per trovare tool sulla privacy e imparare come proteggere la tua vita digitale."
 template: home.html
 social:
   cards_layout: home
