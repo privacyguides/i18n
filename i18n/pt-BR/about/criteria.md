@@ -1,18 +1,18 @@
 ---
 title: Critérios Gerais
-description: Uma lista de prioridades gerais que consideramos a todo conteúdo submetido ao Guia de Privacidade
+description: Uma lista de prioridades gerais que consideramos a todo conteúdo submetido ao Guia de Privacidade.
 ---
 
-Abaixo estão algumas prioridades gerais que consideramos para todos os envios aos Guias de Privacidade. Cada categoria terá requisitos adicionais para inclusão.
+Abaixo estão algumas prioridades gerais que consideramos a todo contéudo submetido ao Guia de Privacidade. Cada categoria vai dispor de requisitos adicionais específicos para inclusão de seu conteúdo.
 
 - **Segurança**: As ferramentas devem seguir as práticas recomendadas de segurança sempre que aplicável.
 - **Disponibilidade do código-fonte**: Os projetos de código aberto geralmente são preferidos em relação a alternativas proprietárias equivalentes.
-- **Disponibilidade em várias plataformas**: Normalmente, preferimos que as recomendações sejam multiplataforma para evitar a dependência de fornecedores.
+- Preferência por oferecer suporte **multiplataforma**: Normalmente, preferimos que as recomendações de software tenham suporte à várias plataformas (Windows, iOS, Linux, Android, etc. para evitar a dependência de um sistema operacional de determinada marca ou fornecedor.
 - **Desenvolvimento ativo**: As ferramentas que recomendamos devem ser ativamente desenvolvidas. Projetos sem manutenção serão removidos na maioria dos casos.
 - **Usabilidade**: As ferramentas devem ser acessíveis à maioria dos usuários de computadores e dispositivos móveis. Não deve ser exigido um histórico excessivamente técnico.
 - **Documentação**: As ferramentas devem ter uma documentação clara e abrangente para uso.
 
-## As ferramentas devem ter transparência financeira.
+## As ferramentas devem ter **transparência financeirao**:
 
 Não ganhamos dinheiro com a recomendação de determinados produtos, tampouco usamos links de afiliados e não oferecemos consideração especial a doadores de projetos.
 
@@ -31,5 +31,5 @@ Temos esses requisitos em relação aos desenvolvedores que desejam enviar seu p
     - Quais novos problemas, se existentes, ele resolve?
     - Por que alguém deveria usá-lo em vez de outras alternativas?
 
-- Deve declarar qual é o modelo exato de ameaça em seu projeto.
-    - Deve ficar claro para os possíveis usuários o que o projeto pode oferecer e o que não pode. Num cenário ideal os desenvolvedores devem ser capazes de identificar contra quais [ameaças comuns](../basics/common-threats.md) seu projeto se protege.
+- Deve declarar qual é o modelo exato de detecção de ameaças em seu projeto.
+    - Deve ficar claro para os possíveis consumidores dos produtos/softwares que realmente o projeto pode oferecer e o que não pode. Num cenário ideal: os desenvolvedores devem ser aptos a identificar quais [ameaças comuns](../basics/common-threats.md) são cobertas/protegidas pelo seu projeto.
