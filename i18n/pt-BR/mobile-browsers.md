@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Respecting Web Browsers for Android and iOS - Privacy Guides"
+meta_title: "Navegadores da Web que protegem sua privacidade"
 title: "Navegadores Móveis"
 icon: material/cellphone-information
 description:
@@ -54,7 +54,7 @@ schema:
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Essa é a lista de <0>navegadores móveis</0> recomendados para o acesso padrão/não-anônimo da internet em seu smartphone ou tablet Se você precisa navegar pela internet anonimamente, você deve usar o [Tor](tor.md).
+Essa é a lista de <strong x-id=1>navegadores móveis</strong> recomendados para o acesso padrão/não-anônimo da internet em seu smartphone ou tablet Se você precisa navegar pela internet anonimamente, você deve usar o [Tor](tor.md).
 
 ## Brave
 
@@ -64,7 +64,7 @@ Essa é a lista de <0>navegadores móveis</0> recomendados para o acesso padrão
 
 O **Brave Browser** inclui um bloqueador de conteúdo embutido e [recursos de privacidade](https://brave.com/privacy-features/), os quais muitos são ativados por padrão.
 
-O Brave foi construído com base no projeto de navegador Chromium, seu funcionamento pode ser familiar e ter mínimos problemas de compatibilidade em websites.
+O Brave teve seu projeto embasado no navegador Chromium (fork do Google Chrome), seu funcionamento pode ser familiar e você poderá encontrar problemas mínimos de compatibilidade em alguns websites.
 
 [:octicons-home-16: Página inicial](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Serviço Onion" }
@@ -105,44 +105,44 @@ As opções do Shields (Escudos) podem ser reduzidas de acordo com o site, confo
 
     <div class="annotate" markdown>
 
-    - [x] Select **Aggressive** under *Block trackers & ads*
-    - [x] Select **Auto-redirect AMP pages**
-    - [x] Select **Auto-redirect tracking URLs**
-    - [x] Select **Require all connections to use HTTPS (strict)** under *Upgrade connections to HTTPS*
-    - \[x\] (Optional) Select **Block Scripts** (1)
-    - [x] Select **Block third-party cookies** under *Block Cookies*
-    - [x] Select **Block Fingerprinting**
-    - [x] Select **Prevent fingerprinting via language settings**
+    - [x] Selecione **Aggressive (Agressivo** ) em *Block trackers (Bloquear rastreadores) & ads (Anúncios)*
+    - [x] Selecione **Auto-redirecionamento de páginas AMP**
+    - [x] Selecione **URLs com rastreamento de redirecionamento automático**
+    - [x] Selecione **Exigir que todas as conexões usem HTTPS (estrito)** em *Atualizar conexões para HTTPS*
+    - \[x\] (Opcional) Selecione **Block Scripts** (1)
+    - [x] Selecione **Block third-party cookies (Bloquear cookies de terceiros** ) em *Block Cookies (Bloquear cookies)*
+    - [x] Selecione **Block Fingerprinting**
+    - [x] Selecione **Prevent fingerprinting (Impedir impressões digitais) por meio das configurações de idioma**
 
     <details class="warning" markdown>
-    <summary>Use default filter lists</summary>
+    <summary>Usar listas de filtros padrão</summary>
 
-    Brave allows you to select additional content filters within the **Content Filtering** menu or the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+    O Brave permite que você selecione filtros de conteúdo adicionais no menu **Content Filtering (Filtragem de conteúdo** ) ou na página interna `brave://adblock`. Não é aconselhado utilizar essa ferramenta; ao invés disso, mantenha as listas de filtro padrão. A utilização de listas complementares fará com que se destaque dos outros usuários do Brave e pode também aumentar as chances de ataque se houver uma vulnerabilidade no Brave ou uma regra maliciosa estiver presente em uma das listas que você utiliza.
 
     </details>
 
-    - [x] Select **Forget me when I close this site**
+    - [x] Selecione **Esquecer-me quando eu fechar este site**
 
     </div>
 
-    1. Essa opção desabilita o JavaScript, o que interromperá muitos sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Essa opção desabilita o JavaScript, o que interromperá muitos sites. Você pode definir exceções por site clicando no ícone do Shields na barra de endereços e desmarcando essa configuração em *Controles avançados*.
 
 === "iOS"
 
     <div class="annotate" markdown>
 
-    - [x] Select **Aggressive** under *Trackers & Ads Blocking*
-    - [x] Select **Strict** under *Upgrade Connections to HTTPS*
-    - [x] Select **Auto-Redirect AMP pages**
-    - [x] Select **Auto-Redirect Tracking URLs**
-    - \[x\] (Optional) Select **Block Scripts** (1)
-    - [x] Select **Block Fingerprinting**
-    - [x] Select **Site Tabs Closed** under *Auto Shred*
+    - [x] Selecione **Agressivo** em *Bloquear rastreadores e anúncios
+    - [x] Selecione **Strict** em *Upgrade Connections to HTTPS (Atualizar conexões para HTTPS)*
+    - [x] Selecione **Auto-Redirect AMP pages (páginas AMP de redirecionamento automático)**
+    - [x] Selecione **URLs de rastreamento de redirecionamento automático**
+    - \[x\] (Opcional) Selecione **Block Scripts** (1)
+    - [x] Selecione **Block Fingerprinting**
+    - [x] Selecione **as guias do site fechadas** em *Destruição automática*
 
     <details class="warning" markdown>
-    <summary>Use default filter lists</summary>
+    <summary>Usar listas de filtros padrão</summary>
 
-    Brave allows you to select additional content filters within the **Content Filtering** menu. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+    O Brave permite que você selecione filtros de conteúdo adicionais no menu **Content Filtering (Filtragem de conteúdo** ). Não é aconselhado utilizar essa ferramenta; ao invés disso, mantenha as listas de filtro padrão. A utilização de listas complementares fará com que se destaque dos outros usuários do Brave e pode também aumentar as chances de ataque se houver uma vulnerabilidade no Brave ou uma regra maliciosa estiver presente em uma das listas que você utiliza
 
     </details>
 
@@ -150,25 +150,25 @@ As opções do Shields (Escudos) podem ser reduzidas de acordo com o site, confo
 
     1. Essa opção desabilita o JavaScript, o que interromperá muitos sites. Para desbloqueá-los, você pode definir exceções por site clicando no ícone do Shields na barra de endereços e desmarcando essa configuração em *Controles avançados*.
 
-##### Clear browsing data (Android only)
+##### Limpar dados de navegação (somente Android)
 
-- [x] Select **Clear data on exit**
+- [x] Selecione **Limpar dados ao sair**
 
-##### Social Media Blocking (Android only)
+##### Bloqueio de mídia social (somente Android)
 
-- [ ] Uncheck all social media components
+- [ ] Desmarque todos os componentes de redes sociais
 
-#### Other privacy settings
+#### Outras configurações de privacidade
 
 === "Android"
 
     <div class="annotate" markdown>
 
-    - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-    - \[x\] (Optional) Select **No protection** under *Safe Browsing* (1)
-    - [ ] Uncheck **Allow sites to check if you have payment methods saved**
-    - [ ] Uncheck **V8 Optimizer** under *Manage V8 security*
-    - [x] Select **Close tabs on exit**
+    - [x] Selecione **Disable non-proxied UDP (Desativar UDP sem proxy** ) em [*Política de tratamento de IP WebRTC*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+    - \[x\] (Opcional) Selecione **Nenhuma proteção** em *Navegação segura* (1)
+    - [Desmarque a opção **Permitir que os sites verifiquem se você tem métodos de pagamento salvos**
+    - [Desmarque a opção **V8 Optimizer** em *Gerenciar segurança do V8*
+    - [x] Selecione **Fechar guias ao sair**
     - [ ] Desmarque **Permitir análise de produtos com preservação da privacidade (P3A)**
     - [ ] Desmarque **Automaticamente enviar relatórios de diagnóstico**
     - [ ] Desmarque **Automaticamente enviar ping de uso diário para Brave**
@@ -184,11 +184,11 @@ As opções do Shields (Escudos) podem ser reduzidas de acordo com o site, confo
 
 #### Leo
 
-These options can be found in :material-menu: → **Settings** → **Leo**.
+Essas opções podem ser encontradas em :material-menu:/ → **Settings** → **Search engines**.
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Show autocomplete suggestions in address bar** (1)
+- [ ] Desmarque **Mostrar sugestões de preenchimento automático na barra de endereços** (1)
 
 </div>
 
@@ -208,14 +208,14 @@ O [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-
 
 <div class="admonition recommendation" markdown>
 
-![Cromite logo](assets/img/browsers/cromite.svg){ align=right }
+![Logotipo da Cromite](assets/img/browsers/cromite.svg){ align=right }
 
-**Cromite** is a Chromium-based browser with built-in ad blocking, fingerprinting protections, and other [privacy and security enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the discontinued **Bromite** browser.
+**Cromite** é um navegador baseado no Chromium (fork do Chrome) com bloqueio de anúncios incorporado, proteções de impressão digital e outros [aprimoramentos de privacidade e segurança](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). É um <em>fork</em> do navegador **Bromite**.
 
-[:octicons-home-16: Homepage](https://cromite.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Source Code" }
+[:octicons-home-16: Repositório](https://cromite.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Política de Privacidade" }
+[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title=Documentação}
+[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Código-fonte" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -229,61 +229,61 @@ O [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-
 
 ### Firefox
 
-These options can be found in :material-menu: → :gear: **Settings** → **Privacy and security**.
+Essas opções podem ser encontradas em :material-menu: → **Configurações** → **Privacidade  Segurança**.
 
-#### Browsing data
+#### Dados de navegação
 
-- [x] Select **Close all open tabs on exit**
+- [x] Selecione **Fechar guias ao sair**
 
-#### Incognito mode
+#### Modo incógnito (navegação "anônima")
 
-- [x] Select **Open external links in incognito**
+- [x] Selecione **Abrir links externos no modo de navegação anônima**
 
 #### Segurança
 
-- [x] Select **Always use secure connections**
+- [x] Selecione **Sempre usar conexões seguras**
 
-Isso impede que você se conecte involuntariamente a um site usando HTTP em texto simples. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+Isso impede que você se conecte involuntariamente a um site usando HTTP em texto simples. Sites sem HTTPS são raros hoje em dia, portanto, isso deve ter pouco ou nenhum impacto na sua navegação diária.
 
-#### Adblock Plus settings
+#### Configurações do AdBlock Plus
 
-These options can be found in :material-menu: → :gear: **Settings** → **Adblock Plus settings**.
+Essas opções podem ser encontradas em :material-menu:/:gear: → **Settings** → **Search engines**.
 
-Cromite contains a customized version of Adblock Plus with EasyList enabled by default, as well as options to select more filter lists within the **Filter lists** menu.
+O Cromite contém uma versão personalizada do Adblock Plus com o EasyList ativado por padrão, bem como opções para selecionar mais listas de filtros no menu **Listas de filtros**.
 
-Using extra lists will make you stand out from other Cromite users and may also increase attack surface if a malicious rule is added to one of the lists you use.
+Utilizar listas complementares fará com que sua máquina se destaque na rede em relação aos outros usuários do Brave e pode aumentar as chances de ataque se houver uma vulnerabilidade no Brave ou uma regra maliciosa estiver presente em uma das listas que você utiliza.
 
-- \[x\] (Optional) Select **Enable anti-circumvention and snippets**
+- \[x\] (Opcional) Selecione **Enable anti-circumvention and snippets (Ativar anti-circunvenção e trechos**)
 
-This setting adds an additional Adblock Plus list that may increase the effectiveness of Cromite's content blocking. The warnings about standing out and potentially increasing attack surface apply.
+Essa configuração adiciona uma lista adicional do Adblock Plus que pode aumentar a eficácia do bloqueio de conteúdo da Cromite. Aplicam-se os avisos sobre permanência e potencialmente aumento da superfície de ataque.
 
-#### Legacy Adblock settings
+#### Configurações antigas do Adblock
 
-These options can be found in :material-menu: → :gear: **Settings** → **Legacy Adblock settings**.
+Essas opções podem ser encontradas em :material-menu:/:gear: → **Settings** → **Search engines**.
 
-- [ ] Uncheck the autoupdate setting
+- [ ] Desmarque a configuração de atualização automática
 
-This disables update checks for the unmaintained Bromite adblock filter.
+Isso desativa as verificações de atualização do filtro de bloqueio de anúncios Bromite não atualizado.
 
 ## Safari (iOS)
 
-On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Chromium engine like its counterparts on other operating systems.
+No iOS, qualquer aplicativo que possa navegar na Web está [restrito](https://developer.apple.com/app-store/review/guidelines) ao uso de uma [estrutura WebKit](https://developer.apple.com/documentation/webkit) fornecida pela Apple, portanto, um navegador como o [Brave](#brave) não usa o mesmo mecanismo utilizado no Chromium assim seus equivalentes em outros sistemas operacionais como aparelhos Android.
 
 <div class="admonition recommendation" markdown>
 
-![Safari logo](assets/img/browsers/safari.svg){ align=right }
+![Logotipo do Safari](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites, so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
+O **Safari** é o navegador padrão no iOS. Inclui [recursos de privacidade](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios), como [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), guias de Navegação Privada isoladas e independentes, proteção ao rastreamento de impressões digitais (apresentando uma versão simplificada da configuração do sistema para sites, de modo que mais dispositivos pareçam idênticos) e randomização de 'impressão digital', bem como Private Relay para aqueles com uma assinatura paga do iCloud+.
 
 [:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title="Documentation" }
+[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Política de privacidade" }
+[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title="Documentação" }
 
 </details>
 
 </div>
 
-### Recommended Safari Configuration
+### Configurações recomendadas para o Safari
 
 We would suggest installing [AdGuard](browser-extensions.md#adguard) if you want a content blocker in Safari.
 
