@@ -95,11 +95,11 @@ Proton VPN [consiglia](https://protonvpn.com/blog/wireguard) l'uso di WireGuard 
 
 #### :material-alert-outline:{ .pg-orange } Limited IPv6 Support
 
-Proton [now supports IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks) in their browser extension but only 80% of their servers are IPv6-compatible. On other platforms, the Proton VPN client will block all outgoing IPv6 traffic, so you don't have to worry about your IPv6 address being leaked, but you will not be able to connect to any IPv6-only sites, nor will you be able to connect to Proton VPN from an IPv6-only network.
+Proton [now supports IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks) in their browser extension and Linux client, but only 80% of their servers are IPv6-compatible. On other platforms, the Proton VPN client will block all outgoing IPv6 traffic, so you don't have to worry about your IPv6 address being leaked, but you will not be able to connect to any IPv6-only sites, nor will you be able to connect to Proton VPN from an IPv6-only network.
 
 #### :material-information-outline:{ .pg-info } Port Forwarding Remoto
 
-Al momento, Proton VPN supporta soltanto il [port forwarding](https://protonvpn.com/support/port-forwarding) remoto effimero, tramite NAT-PMP, con 60 secondi di tempo di noleggio. The Windows app provides an easy-to-access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup). Le applicazioni torrent supportano spesso NAT-PMP in modo nativo.
+Al momento, Proton VPN supporta soltanto il [port forwarding](https://protonvpn.com/support/port-forwarding) remoto effimero, tramite NAT-PMP, con 60 secondi di tempo di noleggio. The official Windows and Linux apps provide an easy-to-access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup). Le applicazioni torrent supportano spesso NAT-PMP in modo nativo.
 
 #### :material-information-outline:{ .pg-blue } Anti-censura
 
@@ -109,7 +109,7 @@ Unfortunately, it does not work very well in countries where sophisticated filte
 
 #### :material-check:{ .pg-green } Client Mobile
 
-Oltre a fornire file di configurazione OpenVPN standard, Proton VPN dispone di client mobile per [App Store](https://apps.apple.com/app/id1437005085), [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android) e [GitHub](https://github.com/ProtonVPN/android-app/releases) che consentono una facile connessione ai propri server.
+Proton VPN has published [App Store](https://apps.apple.com/app/id1437005085) and [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/ProtonVPN/android-app/releases).
 
 #### :material-information-outline:{ .pg-blue } Note aggiuntive
 
@@ -183,11 +183,11 @@ IVPN in precedenza supportava il port forwarding, ma ha rimosso l'opzione a [giu
 
 #### :material-check:{ .pg-green } Anti-censura
 
-IVPN has obfuscation modes using [v2ray](https://v2ray.com/en/index.html) which helps in situations where VPN protocols like OpenVPN or WireGuard are blocked. Currently, this feature is only available on Desktop and [iOS](https://ivpn.net/knowledgebase/ios/v2ray). Dispone di due modalità in cui può utilizzare [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) su connessioni QUIC o TCP. QUIC è un protocollo moderno con un migliore controllo della congestione e quindi può essere più veloce con una latenza ridotta. La modalità TCP fa apparire i dati come normale traffico HTTP.
+IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index.html) which helps in situations where VPN protocols like OpenVPN or WireGuard are blocked. Currently, this feature is only available on Desktop and [iOS](https://ivpn.net/knowledgebase/ios/v2ray). Dispone di due modalità in cui può utilizzare [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) su connessioni QUIC o TCP. QUIC è un protocollo moderno con un migliore controllo della congestione e quindi può essere più veloce con una latenza ridotta. La modalità TCP fa apparire i dati come normale traffico HTTP.
 
 #### :material-check:{ .pg-green } Client Mobile
 
-Oltre a fornire file di configurazione OpenVPN standard, IVPN dispone di client mobile per [App Store](https://apps.apple.com/app/id1193122683), [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client) e [GitHub](https://github.com/ivpn/android-app/releases) che consentono di connettersi facilmente ai propri server.
+IVPN has published [App Store](https://apps.apple.com/app/id1193122683) and [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/ivpn/android-app/releases).
 
 #### :material-information-outline:{ .pg-blue } Note aggiuntive
 

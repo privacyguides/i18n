@@ -95,11 +95,11 @@ Proton VPN [推薦](https://protonvpn.com/blog/wireguard)搭配 WireGuard 使用
 
 #### :material-alert-outline:{ .pg-orange } 有限的 IPv6 支援
 
-Proton 現在在其瀏覽器擴充套件中 [支援 IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks)，但只有 80% 的伺服器相容於 IPv6。 在其他平台上，Proton VPN 客戶端會封鎖所有 IPv6 流量，因此您不必擔心您的 IPv6 位址會被洩漏，但您將無法連線到任何僅允許使用 IPv6 訪問的網站，也無法從僅限 IPv6 的網路連線到 Proton VPN。
+Proton [now supports IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks) in their browser extension and Linux client, but only 80% of their servers are IPv6-compatible. 在其他平台上，Proton VPN 客戶端會封鎖所有 IPv6 流量，因此您不必擔心您的 IPv6 位址會被洩漏，但您將無法連線到任何僅允許使用 IPv6 訪問的網站，也無法從僅限 IPv6 的網路連線到 Proton VPN。
 
 #### :material-information-outline:{ .pg-info } 遠端端口轉發
 
-Proton VPN 目前僅支援通過 NAT-PMP 進行短暫的[遠端端口轉發](https://protonvpn.com/support/port-forwarding)，租用時間為 60 秒。 The Windows app provides an easy-to-access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup). BT 客戶端通常原生支援 NAT-PMP。
+Proton VPN 目前僅支援通過 NAT-PMP 進行短暫的[遠端端口轉發](https://protonvpn.com/support/port-forwarding)，租用時間為 60 秒。 The official Windows and Linux apps provide an easy-to-access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup). BT 客戶端通常原生支援 NAT-PMP。
 
 #### :material-information-outline:{ .pg-blue } 突破網路審查
 
@@ -109,7 +109,7 @@ Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol) 
 
 #### :material-check:{ .pg-green } 行動裝置客戶端
 
-除了提供標準 OpenVPN 設定檔外，Proton VPN 還在 [App Store](https://apps.apple.com/app/id1437005085)、[Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android) 和 [GitHub](https://github.com/ProtonVPN/android-app/releases) 提供行動裝置客戶端，以供使用者方便連接到他們的伺服器。
+Proton VPN has published [App Store](https://apps.apple.com/app/id1437005085) and [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/ProtonVPN/android-app/releases).
 
 #### :material-information-outline:{ .pg-blue } 補充說明
 
@@ -183,11 +183,11 @@ IVPN 曾支援遠端端口轉發，但在 [2023 年 6 月](https://ivpn.net/blog
 
 #### :material-check:{ .pg-green } 突破網路審查
 
-IVPN has obfuscation modes using [v2ray](https://v2ray.com/en/index.html) which helps in situations where VPN protocols like OpenVPN or WireGuard are blocked. Currently, this feature is only available on Desktop and [iOS](https://ivpn.net/knowledgebase/ios/v2ray). 可透過 QUIC 或 TCP 兩種模式連接 [VMess](https://guide.v2fly.org/en_US/basics/vmess.html)。 QUIC 是一個新的傳輸協議，具有更好的擁塞控制，因此可能速度更快，且延遲更低。 TCP 模式的數據呈現為一般的 HTTP 流量。
+IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index.html) which helps in situations where VPN protocols like OpenVPN or WireGuard are blocked. Currently, this feature is only available on Desktop and [iOS](https://ivpn.net/knowledgebase/ios/v2ray). 可透過 QUIC 或 TCP 兩種模式連接 [VMess](https://guide.v2fly.org/en_US/basics/vmess.html)。 QUIC 是一個新的傳輸協議，具有更好的擁塞控制，因此可能速度更快，且延遲更低。 TCP 模式的數據呈現為一般的 HTTP 流量。
 
 #### :material-check:{ .pg-green } 行動裝置客戶端
 
-除了提供標準 OpenVPN 設定檔外，IVPN 還在 [App Store](https://apps.apple.com/app/id1193122683)、[Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client) 和 [GitHub](https://github.com/ivpn/android-app/releases) 提供行動裝置客戶端，以供使用者方便連接到他們的伺服器。
+IVPN has published [App Store](https://apps.apple.com/app/id1193122683) and [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/ivpn/android-app/releases).
 
 #### :material-information-outline:{ .pg-blue } 補充說明
 
