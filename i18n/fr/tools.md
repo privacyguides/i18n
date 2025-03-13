@@ -138,31 +138,31 @@ Si vous recherchez une **sécurité** supplémentaire, vous devez toujours vous 
     - [x] Partial Port Forwarding Support
     - [ ] No IPv6
 
-    [Lire la revue complète :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
+    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
 
 - ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .lg .middle .twemoji } **IVPN**
 
     ---
 
-    - [x] **37+ Pays**
-    - [x] Support WireGuard
+    - [x] **37+ Countries**
+    - [x] WireGuard Support
     - [x] Monero & Cash Payments
-    - [ ] Pas de Port Forwarding
-    - [ ] Pas d'IPv6
+    - [ ] No Port Forwarding
+    - [ ] No IPv6
 
-    [Lire la revue complète :material-arrow-right-drop-circle:](vpn.md#ivpn)
+    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#ivpn)
 
-- ![Logo Mullvad](assets/img/vpn/mullvad.svg){ .lg .middle .twemoji } **Mullvad**
+- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .lg .middle .twemoji } **Mullvad**
 
     ---
 
-    - [x] **45+ Pays**
+    - [x] **49+ Countries**
     - [x] WireGuard Support
     - [x] Monero & Cash Payments
     - [ ] No Port Forwarding
     - [x] IPv6 Support
 
-    [Lire la revue complète :material-arrow-right-drop-circle:](vpn.md#ivpn)
+    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#mullvad)
 
 </div>
 

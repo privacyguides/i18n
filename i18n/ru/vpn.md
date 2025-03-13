@@ -221,12 +221,12 @@ IVPN clients support two-factor authentication. IVPN also provides "[AntiTracker
 
 </div>
 
-#### :material-check:{ .pg-green } 45 Стран
+#### :material-check:{ .pg-green } 49 Countries
 
-У Mullvad есть [серверы в 45 странах](https://mullvad.net/servers).(1) Выбрав VPN-провайдера с ближайшим к вам сервером снизит задержку исходящего интернет-трафика. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
+Mullvad has [servers in 49 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
 { .annotate }
 
-1. Последняя проверка: 06.08.2024
+1. Last checked: 2025-03-10
 
 Мы также считаем, что для безопасности закрытых ключей VPN-провайдера ему следует использовать [выделенные серверы](https://ru.wikipedia.org/wiki/%D0%92%D1%8B%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80), а не более дешевые виртуальные хостинги (которые разделены между несколькими клиентами), такие как [виртуальные частные серверы](https://ru.wikipedia.org/wiki/VPS).
 

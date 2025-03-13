@@ -221,12 +221,12 @@ IVPN clients support two-factor authentication. IVPN 有「[反追蹤](https://i
 
 </div>
 
-#### :material-check:{ .pg-green } 45 個國家
+#### :material-check:{ .pg-green } 49 Countries
 
-Mullvad 在 [45 個國家/地區設有伺服器](https://mullvad.net/servers)。(1) 選擇擁有距離您最近的伺服器之 VPN 供應商，可減少發送網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
+Mullvad has [servers in 49 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
-1. 最近檢查日期: 2024-08-06
+1. Last checked: 2025-03-10
 
 我們認為，如果 VPN 供應商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而非採用更便宜、與其他客戶共享的解決方案 (例如[虛擬伺服器](https://en.wikipedia.org/wiki/Virtual_private_server))，對其私鑰的安全性會更好。
 

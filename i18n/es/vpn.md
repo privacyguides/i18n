@@ -223,12 +223,12 @@ IVPN clients support two-factor authentication. IVPN también ofrece la función
 
 </div>
 
-#### :material-check:{ .pg-green } 45 Países
+#### :material-check:{ .pg-green } 49 Countries
 
-Mullvad tiene [servidores en 45 países](https://mullvad.net/servers).(1) Elegir un proveedor de VPN con el servidor más cercano a ti reducirá la latencia del tráfico de red que envías. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
+Mullvad has [servers in 49 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Esto se debe a que es una ruta más corta (menos saltos) hasta el destino.
 { .annotate }
 
-1. Última comprobación: 06-08-2024
+1. Last checked: 2025-03-10
 
 También pensamos que es mejor para la seguridad de las claves privadas del proveedor de VPN si utilizan [servidores dedicados](https://en.wikipedia.org/wiki/Dedicated_hosting_service), en lugar de soluciones compartidas más baratas (con otros clientes) como los [[servidores privados virtuales](https://en.wikipedia.org/wiki/Virtual_private_server).
 

@@ -221,12 +221,12 @@ O **Mullvad** é uma VPN rápida e económica, com grande foco na transparência
 
 </div>
 
-#### :material-check:{ .pg-green } 45 Countries
+#### :material-check:{ .pg-green } 49 Countries
 
-Mullvad has [servers in 45 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Isto deve-se ao facto do percurso até ao destino ser mais curto (menos saltos).
+Mullvad has [servers in 49 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Isto deve-se ao facto do percurso até ao destino ser mais curto (menos saltos).
 { .annotate }
 
-1. Last checked: 2024-08-06
+1. Last checked: 2025-03-10
 
 Também achamos que é melhor para a segurança das chaves privadas do fornecedor de VPN a utilização de servidores dedicados [](https://en.wikipedia.org/wiki/Dedicated_hosting_service), em vez de soluções partilhadas mais baratas (com outros clientes), como os servidores privados virtuais [](https://en.wikipedia.org/wiki/Virtual_private_server).
 

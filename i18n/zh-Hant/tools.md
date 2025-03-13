@@ -138,37 +138,37 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
     ---
 
-    - [x] **在 112 個國家設有伺服器**
-    - [x] 支援 WireGuard
-    - [x] 允許使用現金付款
-    - [x] 提供 有限的 連結埠轉發功能
-    - [ ] 不支援IPv6
+    - [x] **112+ Countries**
+    - [x] WireGuard Support
+    - [x] Cash Payments
+    - [x] Partial Port Forwarding Support
+    - [ ] No IPv6
 
-    [閱讀完整評論 :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
+    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
 
 - ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .lg .middle .twemoji } **IVPN**
 
     ---
 
-    - [x] **在 37 個國家設有伺服器**
-    - [x] 支援 WireGuard
-    - [x] 允許使用現金、Monero 付款
-    - [ ] 不提供連結埠轉發功能
-    - [ ] 不支援IPv6
+    - [x] **37+ Countries**
+    - [x] WireGuard Support
+    - [x] Monero & Cash Payments
+    - [ ] No Port Forwarding
+    - [ ] No IPv6
 
-    [閱讀完整評論 :material-arrow-right-drop-circle:](vpn.md#ivpn)
+    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#ivpn)
 
 - ![Mullvad logo](assets/img/vpn/mullvad.svg){ .lg .middle .twemoji } **Mullvad**
 
     ---
 
-    - [x] **在 45 個國家設有伺服器**
-    - [x] 支援 WireGuard
-    - [x] 允許使用現金、Monero 付款
-    - [ ] 不提供連結埠轉發功能
-    - [x] 支援IPv6
+    - [x] **49+ Countries**
+    - [x] WireGuard Support
+    - [x] Monero & Cash Payments
+    - [ ] No Port Forwarding
+    - [x] IPv6 Support
 
-    [閱讀完整評論 :material-arrow-right-drop-circle:](vpn.md#mullvad)
+    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#mullvad)
 
 </div>
 

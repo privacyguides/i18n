@@ -221,12 +221,12 @@ IVPN clients support two-factor authentication. IVPN also provides "[AntiTracker
 
 </div>
 
-#### :material-check:{ .pg-green } 45 Countries
+#### :material-check:{ .pg-green } 49 Countries
 
-Mullvad has [servers in 45 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Detta beror på att vägen till destinationen är kortare (färre hopp).
+Mullvad has [servers in 49 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Detta beror på att vägen till destinationen är kortare (färre hopp).
 { .annotate }
 
-1. Last checked: 2024-08-06
+1. Last checked: 2025-03-10
 
 Vi anser också att det är bättre för säkerheten för VPN-leverantörens privata nycklar om de använder [dedikerade servrar](https://en.wikipedia.org/wiki/Dedicated_hosting_service) istället för billigare delade lösningar (med andra kunder) som [virtuella privata servrar](https://en.wikipedia.org/wiki/Virtual_private_server).
 

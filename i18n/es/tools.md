@@ -138,37 +138,37 @@ Si busca más **seguridad**, asegúrese siempre de conectarse a sitios web que u
 
     ---
 
-    - [x] **112+ Países**
-    - [x] Soporte de WireGuard
-    - [x] Pagos en Efectivo
-    - [x] Soporte de Reenvío Parcial de Puertos
+    - [x] **112+ Countries**
+    - [x] WireGuard Support
+    - [x] Cash Payments
+    - [x] Partial Port Forwarding Support
     - [ ] No IPv6
 
-    [Lea la Reseña Completa :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
+    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
 
 - ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .lg .middle .twemoji } **IVPN**
 
     ---
 
-    - [x] **37+ Países**
-    - [x] Soporte de WireGuard
-    - [x] Pagos en Efectivo y Monero
-    - [ ] No Reenvío de Puertos
+    - [x] **37+ Countries**
+    - [x] WireGuard Support
+    - [x] Monero & Cash Payments
+    - [ ] No Port Forwarding
     - [ ] No IPv6
 
-    [Lea la Reseña Completa :material-arrow-right-drop-circle:](vpn.md#ivpn)
+    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#ivpn)
 
 - ![Mullvad logo](assets/img/vpn/mullvad.svg){ .lg .middle .twemoji } **Mullvad**
 
     ---
 
-    - [x] **45+ Países**
-    - [x] Soporte de WireGuard
-    - [x] Pagos en Efectivo y Monero
-    - [ ] No Reenvío de Puertos
-    - [x] Soporte de IPv6
+    - [x] **49+ Countries**
+    - [x] WireGuard Support
+    - [x] Monero & Cash Payments
+    - [ ] No Port Forwarding
+    - [x] IPv6 Support
 
-    [Lea la Reseña Completa :material-arrow-right-drop-circle:](vpn.md#ivpn)
+    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#mullvad)
 
 </div>
 
