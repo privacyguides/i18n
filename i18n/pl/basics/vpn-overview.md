@@ -1,5 +1,5 @@
 ---
-meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
+meta_title: "Jak VPN chroni twoją prywatność? Nasz przegląd VPN - Privacy Guides"
 title: VPN Overview
 icon: material/vpn
 description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
@@ -43,7 +43,7 @@ Note that a VPN does not add any security or encryption to your traffic between 
 
 VPNs can provide *some* of the same benefits Tor provides, such as hiding your IP from the websites you visit and geographically shifting your network traffic, and good VPN providers will not cooperate with e.g. legal authorities from oppressive regimes, especially if you choose a VPN provider outside your own jurisdiction.
 
-VPNs cannot encrypt data outside the connection between your device and the VPN server. VPN providers can also see and modify your traffic the same way your ISP could, so there is still a level of trust you are placing in them. And there is no way to verify a VPN provider's "no logging" policies in any way.
+VPN-y nie zaszyfrowują danych poza połączeniem pomiędzy twoim urządzeniem a serwerem VPN. VPN providers can also see and modify your traffic the same way your ISP could, so there is still a level of trust you are placing in them. Nie ma możliwości sprawdzenia polityki "bez logów" dostawcy VPN w żaden sposób.
 
 ## When isn't a VPN suitable?
 
