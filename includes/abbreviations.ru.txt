@@ -49,7 +49,7 @@
 *[ISPs]: Интернет-провайдеры
 *[JNI]: Нативный интерфейс Java
 *[KYC]: Знай своего клиента (Know Your Customer)
-*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
+*[LLaVA]: Большие языковые и зрительные помощники (мультимодальные ИИ модели)
 *[LLMs]: (англ. Large Language Models) - Большие языковые модели (например ChatGPT)
 *[LUKS]: Шифрование всего диска Linux (Linux Unified Key Setup)
 *[MAC]: Управление доступом к среде
