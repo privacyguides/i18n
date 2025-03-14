@@ -235,7 +235,7 @@ A Proteção Máxima impõe o uso de DNS sobre HTTPS, e um aviso de segurança s
 
 O [projeto Arkenfox](https://github.com/arkenfox/user.js) oferece um conjunto de opções cuidadosamente selecionadas para o Firefox. Se você [decidir](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) usar o Arkenfox, [algumas opções](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) podem ser subjetivamente rígidas e/ou fazer com que alguns sites não funcionem corretamente — algo que você pode [ajustar facilmente](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) conforme suas necessidades. Nós **recomendamos fortemente** que você leia a [wiki completa](https://github.com/arkenfox/user.js/wiki) deles. .
 
-Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
+Arkenfox é uma alternativa de software focada impedir que scripts básicos vazem seus dados ou estabaleca alguma espécie de rastreamento. Através da aleatorização do *canvas* do navegador o Arkenfox evita que esses scripts pegue as suas 'impressões digitais'. O foco deste navegador não é camuflar sua conexão através de uma gama de usuários com configurações similares, da mesma forma que o Navegador Tor ou o Mullvad. A maneira citada ainda continua sendo a melhor forma de evitar o rastreamento dos seus dados e evitar scripts consigam suas 'impressões digitais'  Lembre-se sempre que você pode usar diversos navegadores para finalidades distintas. Por exemplo, você pode usar uma combinação de navegadores como Firefox+Arkenfox para permanecer logado em sites e serviços que você utiliza frequentemente, juntamente ao uso de um navegador mais focado em privacidade (Tor, Mullvad, etc.) para navegação geralizada.
 
 ## Brave
 
@@ -279,7 +279,7 @@ Essas opções podem ser encontradas em :material-menu: → **Configurações**.
 
 #### Shields
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+O Brave inclui algumas medidas 'anti-fingerprinting', isso é, funções que protegem que suas 'impressões digitais' durante sua navegação. Em sua documentação [Shields](https://support.brave.com/hc/pt/articles/360022973471-O-que-é-Proteções-Shields) você pode encontrar algumas informações. Sugerimos que você siga essas sugestões para configurar esses parâmetros  [globalmente](https://support.brave.com/hc/pt/articles/360023646212-Como-faço-para-definir-as-configurações-globais-e-específicas-do-site-dos-Proteções) em todas as páginas da web que você visita utilizando o B.
 
 As opções do Shields (Escudos) podem ser reduzidas de acordo com o site, conforme necessário, mas, por padrão, recomendamos configurar o seguinte:
 
@@ -303,7 +303,7 @@ O Brave permite que você selecione filtros de conteúdo adicionais na página i
 
 </div>
 
-1. Essa opção desabilita o JavaScript, o que interromperá muitos sites. To fix them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+1. Essa opção desabilita o JavaScript, o que interromperá muitos sites. Para isso, você deve configurar excessões para cada site clicando no ícone de escudo <am>(Shield)</em> ao lado da barra de endereços e desticar a configuração em controles avançados.
 2. Se desejar permanecer conectado a um site específico que visita com frequência, você pode definir exceções por site clicando no ícone do Shields na barra de endereços e desmarcando essa configuração em *Controles avançados*.
 
 #### Privacidade e Segurança
@@ -333,7 +333,7 @@ Se desejar permanecer conectado a um site específico que visita com frequência
 
 ##### Tor Windows
 
-[**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser is, and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
+[**Janela privada com Tor**](https://support.brave.com/hc/pt/articles/360018121491-O-que-é-uma-janela-privada-com-conectividade-Tor) permite rotear seu tráfego pela rede Tor em janelas privadas e acessar serviços .onion, o que pode ser útil em alguns casos. No entanto, o Brave **não é  tão resistente** à impressão digital quanto o Navegador Tor, e muito menos pessoas usam o Brave com o Tor, portanto, você se destacará. Se o seu perfil ou modelo de detecção de ameaças exigir um forte anonimato, use preferencialmente o [Navegador Tor](tor.md#tor-browser).
 
 ##### Coleta de dados
 
@@ -343,7 +343,7 @@ Se desejar permanecer conectado a um site específico que visita com frequência
 
 #### Web3
 
-Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of these features, they should be disabled.
+As funcionalidades Web3 do Brave potencialmente podem acrescentar à 'impressão digital' do seu navegador e a superfície de ataque. A menos que você realmente utilize esses recursos, você deve desativa-los.
 
 - Selecione **Extensões (sem fallback)** sob *carteira Ethereum padrão*
 - Selecione **Extensões (sem fallback)** sob *Carteira Solana padrão*
@@ -354,7 +354,7 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 #### Motor de busca
 
-We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
+Recomendamos que você também desative as sugestões de busca do Brave pelos mesmo motivos que recomendamos no navegador [Firefox](#search).
 
 - [ ] Desmarque **Mostrar sugestões de pesquisa**
 
@@ -370,11 +370,11 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 #### Sincronização do Brave
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+O [Brave Sync](https://support.brave.com/hc/pt/articles/360059793111-Entendendo-a-Sincronização-do-Brave) permite que os seus dados de navegação (histórico, marcadores, favoritos, etc.) sejam acessíveis em todos os seus dispositivos sem necessidade de uma conta e protegida com E2EE.
 
 #### Recompensas Brave e Carteira
 
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**O Recompensas Brave** permite que você receba recompensas em tokens da criptomoeda Basic Attention Token (BAT) pare cumprir determinadas tarefas no Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 
 **Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 
