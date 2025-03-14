@@ -6,7 +6,7 @@ description: Обзор нескольких сетевых архитектур
 
 Существует несколько сетевых архитектур, обычно используемых для передачи сообщений между людьми. Эти сети могут предоставлять разные гарантии конфиденциальности, поэтому при принятии решения о том, какое приложение использовать, стоит учитывать вашу [модель угроз](../basics/threat-modeling.md).
 
-[Рекомендуемые мессенджеры](../real-time-communication.md ""){.md-button}
+[Recommended Instant Messengers](../real-time-communication.md ""){.md-button} [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why/ ""){.md-button}
 
 ## Централизованные сети
 

@@ -31,7 +31,7 @@ schema:
 
 **Tor** 網路是一組由志願者操作的伺服器，可讓您免費連線，並改善您的隱私權和安全性。 個人和組織還可以通過 Tor 網路與“.onion 隱藏服務”分享資訊，而不會侵犯他們的隱私。 很難阻止和追蹤 Tor 流量，因此它是一種有效的審查規避工具。
 
-[詳細的 Tor 總覽  :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
+[Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor/ ""){.md-button}
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">溫馨提示</p>

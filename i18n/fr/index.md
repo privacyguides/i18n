@@ -71,7 +71,8 @@ Essayer de protéger toutes vos données contre tout le monde, tout le temps, es
 <div markdown>
 **Privacy Guides** dispose d'une [communauté] dédiée (https://discuss.privacyguides.net) qui évalue de manière indépendante divers *outils et services de protection de la vie privée. Chacune de nos recommandations répond à un ensemble de critères stricts afin de s'assurer qu'elles apportent la plus grande valeur au plus grand nombre et qu'elles offrent le meilleur équilibre entre vie privée, sécurité et commodité. En tant que membre d'une **organisation caritative publique** à but non lucratif, Privacy Guides applique des **normes journalistiques** et des politiques strictes pour garantir que nos recommandations sont exemptes de conflits d'intérêts. Nous ne nous associons pas à des fournisseurs ou à des programmes d'affiliation susceptibles d'influencer nos évaluations et nos recommandations.
 
-[:material-heart:{.pg-red} Soutenir notre travail](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary }
+[:material-heart:{.pg-red} Support Our Work](about/donate.md){ class="md-button md-button--primary" }
+
 </div>
 
 - [x] **Recommandations sans publicité**
@@ -82,77 +83,6 @@ Essayer de protéger toutes vos données contre tout le monde, tout le temps, es
 - [x] **Confiance des lecteurs**
 
 </div>
-
-### Top 3 des fournisseurs d'emails privés
-
-<div class="grid cards" markdown>
-
--   ![Proton Mail logo](assets/img/email/protonmail.svg){ .lg .middle .twemoji loading=lazy } **Proton Mail**
-
-    ---
-
-    Proton Mail est un service d'e-mail qui met l'accent sur la confidentialité, le chiffrement, la sécurité et la facilité d'utilisation. Ils sont en activité depuis 2013. Proton AG is based in Geneva, Switzerland. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
-
-    [:octicons-arrow-right-24: Lire l'article complet](email.md#proton-mail)
-
--   ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji loading=lazy } **Mailbox.org**
-
-    ---
-
-    Mailbox.org est un service de messagerie électronique sécurisé, sans publicité et alimenté par une énergie 100% écologique. Il est en activité depuis 2014. Mailbox.org est basé à Berlin, en Allemagne. Accounts start with up to 2 GB storage, which can be upgraded as needed.
-
-    [:octicons-arrow-right-24: Read Full Review](email.md#mailboxorg)
-
--   ![Tuta logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji loading=lazy } **Tuta**
-
-    ---
-
-    Tuta(anciennement *Tutanota*) est un service de mesagerie électronique  mettant l'accent sur la sécurité et la protéction de la vie privée via l'utilisation du cryptage. Tuta est en activité depuis 2011 et est basée à Hanovre, en Allemagne. Free accounts start with 1 GB of storage.
-
-    [:octicons-arrow-right-24: Lire l'article complet](email.md#tuta)
-
-</div>
-
-<div class="grid" markdown>
-<div markdown>
-### Les meilleurs fournisseurs de VPN
-
-<div class="grid cards" markdown>
-
-- ![Logo de Proton VPN](assets/img/vpn/protonvpn.svg){ .twemoji loading=lazy } [Proton VPN](vpn.md#proton-vpn)
-- ![Logo d'IVPN](assets/img/vpn/mini/ivpn.svg){ .twemoji loading=lazy } [IVPN](vpn.md#ivpn)
-- ![Logo de Mullvad](assets/img/vpn/mullvad.svg){ .twemoji loading=lazy } [Mullvad](vpn.md#mullvad)
-
-</div>
-</div>
-
-<div markdown>
-### Services de stockage sécurisé dans le Cloud
-
-<div class="grid cards" markdown>
-
-- ![Logo de Proton Drive](assets/img/cloud/protondrive.svg){ .twemoji loading=lazy } [Proton Drive](cloud.md#proton-drive)
-- ![Logo de Tresorit](assets/img/cloud/tresorit.svg){ .twemoji loading=lazy } [Tresorit](cloud.md#tresorit)
-- ![Logo de Peergos](assets/img/cloud/peergos.svg){ .twemoji loading=lazy } [Peergos](cloud.md#peergos)
-
-</div>
-</div>
-
-<div markdown>
-### Meilleures navigateurs Web
-
-<div class="grid cards" markdown>
-
-- ![Logo de Mullvad Browser](assets/img/browsers/mullvad_browser.svg){ .twemoji loading=lazy } [Mullvad Browser](desktop-browsers.md#mullvad-browser)
-- ![Logo de Firefox](assets/img/browsers/firefox.svg){ .twemoji loading=lazy } [Firefox](desktop-browsers.md#firefox)
-- ![Logo de Brave](assets/img/browsers/brave.svg){ .twemoji loading=lazy } [Brave](desktop-browsers.md#brave)
-
-</div>
-</div>
-</div>
-
-[:material-format-list-checkbox: Plus de recoomandations d' **Outils pour la protéction de la vie privée**](tools.md){ class="md-button md-button--primary" }
-[Meilleurs Navigateurs Mobiles](mobile-browsers.md ""){.md-button} [Meilleurs Extensions pour Navigateurs](browser-extensions.md ""){.md-button} [Serveurs DNS](dns.md ""){.md-button} [Fournsseurs d'Alias pour Messagerie électrionque](email-aliasing.md ""){.md-button} [Logiciels d'Organsations de Photos](photo-management.md ""){.md-button} [Système d'Exploitation pour Ordinateurs](desktop.md ""){.md-button}
 
 ---
 
@@ -166,7 +96,7 @@ Créé en 2021 en raison de la difficulté à trouver des évaluateurs impartiau
 
 Il a été cité dans **WIRED**, **Tweakers.net**, **The New York Times** et de nombreuses autres publications comme une source fiable de connaissances en matière de protection de la vie privée et de sécurité.
 
-[:material-information: En savoir plus sur nous](about.md){ class="md-button md-button--primary" } [:material-email: S'abonner à notre Newsletter](https://blog.privacyguides.org/#/portal/signup ""){.md-button}
+[:material-information: More About Who We Are](about.md){ class="md-button" }
 
 <div class="grid" markdown>
 <div markdown>
@@ -184,6 +114,6 @@ Nous recommandons une grande variété d'**outils de confidentialité** (a.k.a. 
 
 De nombreuses personnes confondent les notions de vie privée, de sécurité et d'anonymat. Vous verrez des gens critiquer divers produits en disant qu'ils ne sont pas privés, alors qu'ils veulent dire qu'ils ne garantissent pas l'anonymat, par exemple. Sur ce site web, nous abordons ces trois sujets, mais il est important que vous compreniez la différence entre eux et quand chacun d'entre eux entre en jeu.
 
-[Vie privée vs Sécurité vs Anonymat](basics/why-privacy-matters.md#what-is-privacy){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
 </div>
 </div>

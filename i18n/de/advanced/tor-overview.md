@@ -8,6 +8,8 @@ description: Tor ist ein kostenloses, dezentralisiertes Netzwerk, das entwickelt
 
 [**Tor**](../alternative-networks.md#tor) ist ein kostenloses, dezentralisiertes Netzwerk, das entwickelt wurde, um das Internet mit so viel Privatsphäre wie möglich zu nutzen. Bei richtiger Nutzung ermöglicht das Netzwerk privates und anonymes Surfen und Kommunikation. Da der Tor-Verkehr schwer zu blockieren und zurückzuverfolgen ist, ist Tor ein effektives Werkzeug zur Zensur Umgehung.
 
+[:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor/ ""){.md-button}
+
 Tor funktioniert, indem es deinen Internetverkehr über von Freiwilligen betriebenen Server leitet, anstatt eine direkte Verbindung zu der Website herzustellen, die du besuchen willst. Dadurch wird verschleiert, woher der Datenverkehr kommt, und kein Server im Verbindungspfad ist in der Lage, den vollständigen Pfad zu sehen, woher der Datenverkehr kommt und wohin er geht, was bedeutet, dass selbst die Server, die du für die Verbindung verwendest, deiner Anonymität nichts anhaben können.
 
 [:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }

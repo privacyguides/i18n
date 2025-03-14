@@ -6,7 +6,7 @@ description: 即时信息应用程序常用的几种网络架构的概述。
 
 有几种网络架构常用于人与人之间的信息传递。 这些网络可以提供不同的隐私保证，这就是为什么在决定使用哪种应用程序时，应该考虑你的 [威胁模型](../basics/threat-modeling.md)。
 
-[推荐的即时通讯工具](../real-time-communication.md ""){.md-button}
+[Recommended Instant Messengers](../real-time-communication.md ""){.md-button} [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why/ ""){.md-button}
 
 ## 集中式网络
 

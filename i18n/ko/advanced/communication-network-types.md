@@ -6,7 +6,7 @@ description: 메신저 애플리케이션에서 보편적으로 사용되는 몇
 
 사람들 간에 메시지를 전달할 때 일반적으로 쓰이는 네트워크의 구조는 여러 유형이 있습니다. 네트워크 유형마다 프라이버시 면에서 각각 다른 장단점이 존재하므로, 어떤 유형의 애플리케이션을 사용할지는 여러분의 [위협 모델](../basics/threat-modeling.md)을 고려하여 결정하는 것이 좋습니다.
 
-[권장 메신저](../real-time-communication.md ""){.md-button}
+[Recommended Instant Messengers](../real-time-communication.md ""){.md-button} [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why/ ""){.md-button}
 
 ## 중앙 집중형 네트워크
 

@@ -12,6 +12,8 @@ description: 在数据被大量利用的现代，你的隐私从未这样重要�
 
 许多人会混淆 **隐私**、 **安全**和 **匿名** 的概念。 例如，你会看到有人批评各种产品 "不私密"，但他们的意思其实是这些产品不提供匿名性。 在本网站上，我们这三个主题都会介绍，但重要的是，你要了解它们之间的区别，以及每一个主题何时发挥作用。
 
+[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security/ ""){.md-button}
+
 <!-- markdownlint-disable-next-line -->
 **隐私**
 :
@@ -55,6 +57,8 @@ description: 在数据被大量利用的现代，你的隐私从未这样重要�
 ==在大多数应用程序中，对隐私的控制都是一种假象。==会有一个闪亮的设置界面，你可以对自己的数据做出各种选择，但很少有你真正想要的选择，比如“只用我的数据来帮助我”。 这种控制的目的是让你对自己的选择感到内疚，你“可以选择”让你使用的应用程序更私密，但你选择了不这么做。
 
 隐私是我们使用的[软件和服务](../tools.md)中应该自带的东西，你无法强行让大多数你使用应用程序变得隐私。
+
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
 
 ## 资料来源
 

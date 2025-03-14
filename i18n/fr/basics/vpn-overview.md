@@ -7,6 +7,8 @@ description: Les réseaux privés virtuels déplacent le risque de votre FAI à 
 
 Les Réseaux Privés Virtuels sont un moyen d'étendre l'extrémité de votre réseau avec une sortie située ailleurs dans le monde.
 
+[:material-movie-open-play-outline: Video: Do you need a VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn/ ""){.md-button}
+
 Normalement, un FAI peut voir le flux de trafic internet qui entre et sort de votre dispositif de terminaison de réseau (c'est-à-dire votre box/modem). Les protocoles de chiffrement tels que HTTPS sont couramment utilisés sur internet, ils se peut donc qu'ils ne soient pas en mesure de voir exactement ce que vous publiez ou lisez, mais ils peuvent avoir une idée [des domaines que vous visitez](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
 L'utilisation d'un VPN permet de dissimuler ces informations à votre FAI, en transférant la confiance que vous accordez à votre réseau vers un serveur situé ailleurs dans le monde. Par conséquent, le FAI ne voit que le fait que vous êtes connecté à un VPN et rien sur l'activité que vous lui transmettez.

@@ -13,9 +13,9 @@ cover: real-time-communication.webp
 - [:material-eye-outline: 大規模監控](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-以上是我們對加密**即時通訊軟體**的建議。
+These are our recommendations for encrypted **real-time communication**. These come in the form of many [types of communication networks](./advanced/communication-network-types.md).
 
-[通訊網路 :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
+[:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why/ ""){.md-button}
 
 ## 加密傳訊軟體
 

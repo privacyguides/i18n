@@ -31,7 +31,7 @@ schema:
 
 **Tor** is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuen en organisaties kunnen ook informatie delen via het Tor-netwerk met ".onion hidden services" zonder hun privacy in gevaar te brengen. Omdat Tor-verkeer moeilijk te blokkeren en te traceren is, is Tor een effectief middel om censuur te omzeilen.
 
-[Gedetailleerd Tor-overzicht :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
+[Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor/ ""){.md-button}
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>

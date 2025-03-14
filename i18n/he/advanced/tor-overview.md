@@ -8,6 +8,8 @@ description: Tor היא רשת מבוזרת בחינם לשימוש המיועד
 
 [**Tor**](../alternative-networks.md#tor) is a free to use, decentralized network designed for using the internet with as much privacy as possible. בשימוש נכון, הרשת מאפשרת גלישה ותקשורת פרטית ואנונימית. מכיוון שקשה לחסום ולעקוב אחר תעבורת Tor, Tor הוא כלי יעיל לעקוף צנזורה.
 
+[:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor/ ""){.md-button}
+
 Tor works by routing your internet traffic through volunteer-operated servers, instead of making a direct connection to the site you're trying to visit. זה מטשטש מהיכן מגיעה התעבורה, ואף שרת בנתיב החיבור לא מסוגל לראות את הנתיב המלא של המקום ממנו מגיעה התנועה והולכת, כלומר אפילו השרתים שבהם אתה משתמש כדי להתחבר לא יכולים לשבור את האנונימיות שלך.
 
 [:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }

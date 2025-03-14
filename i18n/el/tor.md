@@ -31,7 +31,7 @@ schema:
 
 **Το Tor** είναι μια ομάδα διακομιστών που λειτουργούν εθελοντικά και σας επιτρέπουν να συνδεθείτε δωρεάν και να βελτιώσετε την ιδιωτικότητα και την ασφάλειά σας στο Διαδίκτυο. Τα άτομα και οι οργανισμοί μπορούν επίσης να μοιράζονται πληροφορίες μέσω του δικτύου Tor με τις κρυφές υπηρεσίες ".onion" χωρίς να θέτουν σε κίνδυνο την ιδιωτικότητά τους. Επειδή η διαδικτυακή κυκλοφορία του Tor είναι δύσκολο να μπλοκαριστεί και να ανιχνευθεί, το Tor είναι ένα αποτελεσματικό εργαλείο παράκαμψης της λογοκρισίας.
 
-[Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
+[Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor/ ""){.md-button}
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Συμβουλή</p>

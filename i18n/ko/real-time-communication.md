@@ -13,9 +13,9 @@ cover: real-time-communication.webp
 - [:material-eye-outline: 대중 감시(Mass Surveillance)](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-account-cash: 감시 자본주의(Surveillance Capitalism)](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These are our recommendations for encrypted **real-time communication**.
+These are our recommendations for encrypted **real-time communication**. These come in the form of many [types of communication networks](./advanced/communication-network-types.md).
 
-[통신 네트워크 유형 :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
+[:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why/ ""){.md-button}
 
 ## 암호화 메신저
 

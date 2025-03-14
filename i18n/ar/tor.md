@@ -31,7 +31,7 @@ schema:
 
 **Tor** is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. ويمكن للأفراد والمؤسسات مشاركة المعلومات عبرها باستخدام «خدمات .onion الخفية»، وذلك دون نهك خصوصيتهم. فكون اتصالات تور صعبة الحظر والتتبع يجعل تور أداةً فعَّالةً لتجاوز الرقابة.
 
-[نظرة عامة شاملة عن تور :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button}
+[Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor/ ""){.md-button}
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>

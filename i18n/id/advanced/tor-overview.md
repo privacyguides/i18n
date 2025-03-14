@@ -8,6 +8,8 @@ description: Tor adalah jaringan terdesentralisasi yang gratis untuk digunakan, 
 
 [**Tor**](../alternative-networks.md#tor) is a free to use, decentralized network designed for using the internet with as much privacy as possible. Jika digunakan dengan benar, jaringan ini memungkinkan penjelajahan dan komunikasi secara privat dan anonim. Karena lalu lintas Tor sulit diblokir dan dilacak, Tor merupakan alat pengelabuan sensor yang efektif.
 
+[:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor/ ""){.md-button}
+
 Tor works by routing your internet traffic through volunteer-operated servers, instead of making a direct connection to the site you're trying to visit. Hal ini mengaburkan dari mana lalu lintas berasal, dan tidak ada server di jalur koneksi yang dapat melihat jalur penuh dari mana lalu lintas berasal dan pergi, yang berarti bahkan server yang Anda gunakan untuk terhubung tidak dapat merusak anonimitas Anda.
 
 [:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }

@@ -6,7 +6,7 @@ description: Une présentation de plusieurs architectures réseau couramment uti
 
 Il existe plusieurs architectures réseau couramment utilisées pour relayer des messages entre des personnes. Ces réseaux peuvent offrir des garanties différentes en matière de protection de la vie privée. C'est pourquoi il est utile de tenir compte de votre [modèle de menace](../basics/threat-modeling.md) lorsque vous décidez quelle application à utiliser.
 
-[Messageries instantanées recommandées](../real-time-communication.md ""){.md-button}
+[Recommended Instant Messengers](../real-time-communication.md ""){.md-button} [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why/ ""){.md-button}
 
 ## Réseaux Centralisés
 

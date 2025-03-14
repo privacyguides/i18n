@@ -12,6 +12,8 @@ Die Privatsphäre geht letztendlich um menschliche Informationen, und das ist wi
 
 Viele Menschen verwechseln die Begriffe zur **Privatsphäre**, **Sicherheit** und **Anonymität**. Es gibt Leute, die verschiedene Produkte als "nicht privat" kritisieren, obwohl sie in Wirklichkeit meinen, dass sie beispielsweise keine Anonymität bieten. Auf dieser Website befassen wir uns mit allen drei Themen, aber es ist wichtig, dass du den Unterschied zwischen ihnen verstehst und weißt, wann es um welches der drei Themen geht.
 
+[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security/ ""){.md-button}
+
 <!-- markdownlint-disable-next-line -->
 **Privatsphäre**
 :
@@ -55,6 +57,8 @@ Nimm zum Beispiel Einwilligungserklärungen für Cookies. Auf den verschiedenen 
 ==Kontrolle über deine Privatsphäre ist innerhalb der meisten Apps eine Illusion.== Es ist ein glänzendes Dashboard mit allen möglichen Optionen, die du in Bezug auf deine Daten treffen kannst, aber selten die Optionen, nach denen du suchst, wie z. B. „verwende meine Daten nur, um mir zu helfen“. Diese Art der Kontrolle soll dir ein schlechtes Gewissen machen, weil du die Möglichkeit hattest, die von dir genutzten Apps privater zu gestalten, und dich dagegen entschieden hast.
 
 Datenschutz ist etwas, das standardmäßig in die von uns genutzte [Software und die von uns genutzten Dienste](../tools.md) implementiert sein muss, denn man kann die meisten Anwendungen und Dienste nicht selbst auf Datenschutz trimmen.
+
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
 
 ## Quellen
 

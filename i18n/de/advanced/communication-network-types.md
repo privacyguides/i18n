@@ -6,7 +6,7 @@ description: Eine Übersicht über mehrere Netzwerkarchitekturen, die häufig vo
 
 Es gibt mehrere Netzwerkarchitekturen, die häufig verwendet werden, um Nachrichten zwischen Menschen zu übertragen. Diese Netzwerke können unterschiedliche Datenschutzgarantien bieten, weshalb es sich lohnt, bei der Entscheidung, welche App du verwenden möchtest, ihr [Bedrohungsmodell](../basics/threat-modeling.md) zu berücksichtigen.
 
-[Empfohlene Instant Messenger](../real-time-communication.md ""){.md-button}
+[Recommended Instant Messengers](../real-time-communication.md ""){.md-button} [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why/ ""){.md-button}
 
 ## Zentralisierte Netzwerke
 

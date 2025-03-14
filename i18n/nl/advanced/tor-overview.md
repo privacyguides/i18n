@@ -8,6 +8,8 @@ description: Tor is een gratis te gebruiken, gedecentraliseerd netwerk dat is on
 
 [**Tor**](../alternative-networks.md#tor) is a free to use, decentralized network designed for using the internet with as much privacy as possible. Bij correct gebruik maakt het netwerk privé en anoniem browsen en communicatie mogelijk. Omdat Tor-verkeer moeilijk te blokkeren en te traceren is, is Tor een effectief middel om censuur te omzeilen.
 
+[:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor/ ""){.md-button}
+
 Tor works by routing your internet traffic through volunteer-operated servers, instead of making a direct connection to the site you're trying to visit. Dit versluiert waar het verkeer vandaan komt, en geen enkele server in het verbindingspad kan het volledige pad zien van waar het verkeer vandaan komt en naartoe gaat, wat betekent dat zelfs de servers die je gebruikt om verbinding te maken jouw anonimiteit niet kunnen doorbreken.
 
 [:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }

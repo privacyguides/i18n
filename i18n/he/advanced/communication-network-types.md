@@ -6,7 +6,7 @@ description: סקירה כללית של מספר ארכיטקטורות רשת �
 
 ישנן מספר ארכיטקטורות רשת הנפוצות להעברת הודעות בין אנשים. רשתות אלו יכולות לספק הבטחות פרטיות שונות, וזו הסיבה שכדאי לקחת בחשבון את [מודל האיום](../basics/threat-modeling.md) שלך בעת ההחלטה באיזו אפליקציה להשתמש.
 
-[מסנג'רים (הודעות מיידיות) מומלצות](../real-time-communication.md ""){.md-button}
+[Recommended Instant Messengers](../real-time-communication.md ""){.md-button} [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why/ ""){.md-button}
 
 ## רשתות מרכזיות
 

@@ -13,9 +13,9 @@ cover: real-time-communication.webp
 - [:material-eye-outline: Surveillance de masse](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-account-cash: Capitalisme de surveillance](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These are our recommendations for encrypted **real-time communication**.
+These are our recommendations for encrypted **real-time communication**. These come in the form of many [types of communication networks](./advanced/communication-network-types.md).
 
-[Types de réseaux de communication :material-arrow-right-drop-circle:](./advanced/communication-network-types.md)
+[:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why/ ""){.md-button}
 
 ## Messageries instantanées chiffrées
 

@@ -12,6 +12,8 @@ La protection de la vie privée concerne en fin de compte des informations humai
 
 De nombreuses personnes confondent les concepts de **vie privée**, **sécurité**, et **anonymat**. Vous verrez des gens critiquer divers produits en disant qu'ils ne sont pas privés, alors qu'ils veulent dire qu'ils ne garantissent pas l'anonymat, par exemple. Sur ce site web, nous abordons ces trois sujets, mais il est important que vous compreniez la différence entre eux et quand chacun d'entre eux entre en jeu.
 
+[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security/ ""){.md-button}
+
 <!-- markdownlint-disable-next-line -->
 **Confidentialité**
 :
@@ -55,6 +57,8 @@ Prenons l'exemple des formulaires de consentement des cookies. Vous les rencontr
 ==Le contrôle de votre vie privée dans la plupart des applications sont une illusion.==. Il s'agit d'un joli tableau de bord avec toutes sortes de choix que vous pouvez faire à propos de vos données, mais rarement les choix que vous recherchez, comme "n'utiliser mes données que pour m'aider." Ce type de contrôle vise à vous faire culpabiliser de vos choix, à vous faire comprendre que vous "aviez le choix" de rendre les applications que vous utilisez plus privées, et que vous avez choisi de ne pas le faire.
 
 La protection de la vie privée doit être intégrée par défaut dans les [logiciels et services](../tools.md) que nous utilisons, car il est impossible de forcer de vous-même la plupart des applications à respecter votre vie privée.
+
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
 
 ## Sources
 

@@ -161,7 +161,7 @@ Mozilla 只為某些 Llama 和 Mistral 模型提供 llamafile，而可用的第�
 - 社群評論和使用情況統計
 - 模型檔案旁的「Safe」徽章（僅限 Hugging Face）
 - 核對 checksum（核對和）[^1]
-  - 在 Hugging Face 上，您可以按一下模型檔案，並在其下方尋找 **Copy SHA256** 按鈕，以找到雜湊值。 您應該將此 checksum 與您下載的模型檔案之 checksum 進行比對。
+    - 在 Hugging Face 上，您可以按一下模型檔案，並在其下方尋找 **Copy SHA256** 按鈕，以找到雜湊值。 您應該將此 checksum 與您下載的模型檔案之 checksum 進行比對。
 
 A downloaded model is generally safe if it satisfies all the above checks.
 

@@ -20,8 +20,8 @@ Para cambiar cualquier directiva de grupo, haz doble clic en ella y selecciona H
 #### Device Guard
 
 - Activar la Seguridad Basada en la Virtualización: \*_Habilitada_
-  - Nivel de Seguridad de la Plataforma: **Arranque Seguro y Protección de DMA**
-  - Configuración de Inicio Seguro: **Habilitada**
+    - Nivel de Seguridad de la Plataforma: **Arranque Seguro y Protección de DMA**
+    - Configuración de Inicio Seguro: **Habilitada**
 
 #### Administración de Comunicaciones de Internet
 
@@ -52,14 +52,14 @@ Reproducción Automática y Ejecución Automática son funciones que permiten a 
 - Desactivar Reproducción Automática: **Habilitada**
 - Deshabilitar Reproducción Automática para Dispositivos que no son de Volumen: **Habilitada**
 - Establece el Comportamiento Predeterminado para Ejecución Automática: **Habilitada**
-  - Comportamiento Predeterminado de Ejecución Automática: **No Ejecutar Ningún Comando de Ejecución Automática**
+    - Comportamiento Predeterminado de Ejecución Automática: **No Ejecutar Ningún Comando de Ejecución Automática**
 
 #### Cifrado de Unidad BitLocker
 
 Es posible que desees volver a cifrar la unidad del sistema operativo después de cambiar estos ajustes.
 
 - Elija Método de Cifrado e Intensidad de Cifrado de Unidad (Windows Vista, Windows Server 2008, Windows 7): **Habilitada**
-  - Seleccione el método de cifrado: **AES-256**
+    - Seleccione el método de cifrado: **AES-256**
 
 Establecer la intensidad de cifrado para la política de Windows 7 todavía aplica esa intensidad a las nuevas versiones de Windows.
 
@@ -85,12 +85,12 @@ Despite the names of these policies, this doesn't _require_ you to do anything b
 #### Recopilación de Datos y Versiones Preliminares
 
 - Permitir Datos de Diagnóstico: **Habilitada**
-  - Opciones: **Enviar Datos de Diagnóstico Necesarios** (Edición Pro); o
-  - Opciones: **Datos de Diagnóstico Desactivados** (Edición Enterprise o Education)
+    - Opciones: **Enviar Datos de Diagnóstico Necesarios** (Edición Pro); o
+    - Opciones: **Datos de Diagnóstico Desactivados** (Edición Enterprise o Education)
 - Limitar Recopilación de Registros de Diagnóstico: **Habilitada**
 - Limitarn Recopilación de Volcados: **Habilitada**
 - Limitar los Datos de Diagnóstico Opcionales para el Análisis de Escritorio: **Habilitada**
-  - Opciones: **Desactivar la Colección de Análisis de Escritorio**
+    - Opciones: **Desactivar la Colección de Análisis de Escritorio**
 - No Volver a Mostrar Notificaciones de Comentarios: **Habilitada**
 
 #### Explorador de Archivos
@@ -118,7 +118,7 @@ Este último ajuste desactiva OneDrive en tu sistema; asegúrate de cambiarlo a 
 - Permitir el Uso de Cortana: **Deshabilitada**
 - No buscar en Internet o Mostrar Resultados de Internet en Search: **Habilitada**
 - Definir Qué Información se Comparte en Search: **Habilitada**
-  - Tipo de información: **Información anónima**
+    - Tipo de información: **Información anónima**
 
 #### Sincronizar la Configuración
 
@@ -132,4 +132,4 @@ Este último ajuste desactiva OneDrive en tu sistema; asegúrate de cambiarlo a 
 
 - No Enviar Datos Adicionales: **Habilitada**
 - Consentimiento > Configurar Consentimiento Predeterminado: **Habilitada**
-  - Nivel de consentimiento: **Preguntar siempre antes de enviar datos**
+    - Nivel de consentimiento: **Preguntar siempre antes de enviar datos**

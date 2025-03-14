@@ -12,6 +12,8 @@ Privacy is ultimately about human information, and this is important because we 
 
 많은 사람들은 **프라이버시**, **보안**, **익명성**의 개념을 혼동하곤 합니다. 어떤 서비스가 익명성을 제공하지 않는다는 이유로 '프라이버시 친화적이지 않다'며 비판하는 사람도 많습니다. 본 웹사이트에서는 이 세 가지 개념을 모두 주제로 다루고 있지만, 각 개념의 차이를 정확히 알고 언제 어떤 것이 필요한지를 이해해야 합니다.
 
+[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security/ ""){.md-button}
+
 <!-- markdownlint-disable-next-line -->
 **프라이버시**
 :
@@ -55,6 +57,8 @@ All of these concepts overlap, but it is possible to have any combination of the
 ==대부분의 앱에서, 자신의 프라이버시를 통제할 수 있을 것이라는 생각은 환상에 불과합니다.== 사용자 데이터에 관한 각종 옵션이 즐비한 설정 화면은 존재하지만 "제 데이터를 제게 도움이 되는 방향으로만 사용하세요"같이 정작 우리가 원하는 옵션은 존재하지 않습니다. 이러한 통제 방식은 사용자가 자신이 사용하는 앱을 더 프라이버시를 비공개로 설정할 수 있는 '선택권'이 존재함에도 불구하고 그걸 하나하나 찾아보고 설정하지 않은 자신에게 책임이 있는 것 처럼 느끼도록 만들기 위해서 존재합니다.
 
 프라이버시는 우리가 사용하는 [소프트웨어 및 서비스](../tools.md)에 기본적으로 내장되어 있어야 하는 것입니다. 사용자 개개인의 힘만으로는 직접 수많은 앱을 프라이버시 친화적이도록 수정하는 것은 불가능합니다.
+
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
 
 ## 출처
 

@@ -71,7 +71,8 @@ Der Versuch, alle deine Daten ständig vor allen zu schützen, ist unpraktisch, 
 <div markdown>
 **Privacy Guides** hat eine engagierte [Community](https://discuss.privacyguides.net), die unabhängig verschiedene *Privacy-Tools* und -Dienste überprüft. Alle unsere Empfehlungen erfüllen eine Reihe strenger Kriterien, um sicherzustellen, dass sie den meisten Menschen den größten Nutzen bringen und das beste Gleichgewicht zwischen Privatsphäre, Sicherheit und Komfort bieten. Als Teil einer gemeinnützigen **öffentlichen Wohltätigkeitsorganisation** hat Privacy Guides strenge **journalistische Standards** und Richtlinien, um sicherzustellen, dass unsere Empfehlungen frei von Interessenkonflikten sind, und wir arbeiten nicht mit Anbietern oder Partnerprogrammen zusammen, die unsere Bewertungen und Empfehlungen beeinflussen könnten.
 
-[:material-heart:{.pg-red} Unterstütze unsere Arbeit](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary }
+[:material-heart:{.pg-red} Support Our Work](about/donate.md){ class="md-button md-button--primary" }
+
 </div>
 
 - [x] **Werbefreie Empfehlungen**
@@ -82,77 +83,6 @@ Der Versuch, alle deine Daten ständig vor allen zu schützen, ist unpraktisch, 
 - [x] **Vertraut von Lesern**
 
 </div>
-
-### Top 3 private E-Mail-Anbieter
-
-<div class="grid cards" markdown>
-
--   ![Proton Mail Logo](assets/img/email/protonmail.svg){ .lg .middle .twemoji loading=lazy } **Proton Mail**
-
-    ---
-
-    Proton Mail ist ein E-Mail-Dienst mit einem Schwerpunkt auf Datenschutz, Verschlüsselung, Sicherheit und Benutzerfreundlichkeit. Sie sind seit 2013 in Betrieb. Die Proton AG hat ihren Sitz in Genf, Schweiz. Der Proton Mail Free Tarif beinhaltet 500 MB Mailspeicher, den du kostenlos auf bis zu 1 GB erweitern kannst.
-
-    [:octicons-arrow-right-24: Lese die vollständige Review](email.md#proton-mail)
-
--   ![Mailbox.org-Logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji loading=lazy } **Mailbox.org**
-
-    ---
-
-    Mailbox.org ist ein E-Mail-Dienst, mit dem Ziel sicher und werbefrei zu sein und der mit 100% Ökostrum betrieben wird. Er wird seit 2014 betrieben. Mailbox.org hat seinen Sitz in Berlin, Deutschland. Konten beginnen mit 2 GB Speicherplatz, der nach Bedarf erweitert werden kann.
-
-    [:octicons-arrow-right-24: Lese die vollständige Review](email.md#mailboxorg)
-
--   ![Tuta-Logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji loading=lazy }![Tuta-Logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji loading=lazy } **Tuta**
-
-    ---
-
-    Tuta (ehemals *Tutanota*) ist ein E-Mail-Dienst mit einem Fokus auf Sicherheit und Datenschutz durch Verschlüsselung. Tuta ist seit 2011 in Betrieb und hat seinen Sitz in Hannover, Deutschland. Kostenlose Konten beginnen mit 1 GB Speicherplatz.
-
-    [:octicons-arrow-right-24: Lese die vollständige Review](email.md#tuta)
-
-</div>
-
-<div class="grid" markdown>
-<div markdown>
-### Beste VPN-Anbieter
-
-<div class="grid cards" markdown>
-
-- ![Proton VPN Logo](assets/img/vpn/protonvpn.svg){ .twemoji loading=lazy } [Proton VPN](vpn.md#proton-vpn)
-- ![IVPN Logo](assets/img/vpn/mini/ivpn.svg){ .twemoji loading=lazy } [IVPN](vpn.md#ivpn)
-- ![Mullvad Logo](assets/img/vpn/mullvad.svg){ .twemoji loading=lazy } [Mullvad](vpn.md#mullvad)
-
-</div>
-</div>
-
-<div markdown>
-### Sichere Cloud-Speicherdienste
-
-<div class="grid cards" markdown>
-
-- ![Proton Drive Logo](assets/img/cloud/protondrive.svg){ .twemoji loading=lazy } [Proton Drive](cloud.md#proton-drive)
-- ![Tresorit Logo](assets/img/cloud/tresorit.svg){ .twemoji loading=lazy } [Tresorit](cloud.md#tresorit)
-- ![Peergos Logo](assets/img/cloud/peergos.svg){ .twemoji loading=lazy } [Peergos](cloud.md#peergos)
-
-</div>
-</div>
-
-<div markdown>
-### Beste Web-Browser
-
-<div class="grid cards" markdown>
-
-- ![Mullvad Browser Logo](assets/img/browsers/mullvad_browser.svg){ .twemoji loading=lazy } [Mullvad Browser](desktop-browsers.md#mullvad-browser)
-- ![Firefox Logo](assets/img/browsers/firefox.svg){ .twemoji loading=lazy } [Firefox](desktop-browsers.md#firefox)
-- ![Brave Logo](assets/img/browsers/brave.svg){ .twemoji loading=lazy } [Brave](desktop-browsers.md#brave)
-
-</div>
-</div>
-</div>
-
-[:material-format-list-checkbox: Weitere empfohlene **Datenschutz-Tools**](tools.md){ class="md-button md-button--primary" }
-[Beste mobile Browser](mobile-browsers.md ""){.md-button} [Top-Browser-Erweiterungen](browser-extensions.md ""){.md-button} [DNS-Server](dns.md ""){.md-button} [E-Mail-Aliasing-Dienste](email-aliasing.md ""){.md-button} [Foto-Organisationstools](photo-management.md ""){.md-button} [PC-Betriebssysteme](desktop.md ""){.md-button}
 
 ---
 
@@ -166,7 +96,7 @@ Gegründet im Jahr 2021 aufgrund der Schwierigkeit, unvoreingenommene Rezensente
 
 Bekannt aus **WIRED**, **Tweakers.net**, **The New York Times** und vielen anderen Publikationen als zuverlässige Quelle für Datenschutz- und Sicherheitswissen.
 
-[:material-information: Mehr über uns](about.md){ class="md-button md-button--primary" } [:material-email: Abonniere unseren Newsletter](https://blog.privacyguides.org/#/portal/signup ""){.md-button}
+[:material-information: More About Who We Are](about.md){ class="md-button" }
 
 <div class="grid" markdown>
 <div markdown>
@@ -184,6 +114,6 @@ Im modernen Zeitalter der digitalen Datenausbeutung ist deine Privatsphäre noch
 
 Viele Menschen verwechseln die Begriffe Privatsphäre, Sicherheit und Anonymität. Es gibt Leute, die verschiedene Produkte als „nicht privat“ kritisieren, obwohl sie in Wirklichkeit meinen, dass sie beispielsweise keine Anonymität bieten. Auf dieser Website befassen wir uns mit allen drei Themen, aber es ist wichtig, dass du den Unterschied zwischen ihnen verstehst und weißt, wann es um welches der drei Themen geht.
 
-[Privatsphäre vs. Sicherheit vs. Anonymität](basics/why-privacy-matters.md#what-is-privacy){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
 </div>
 </div>

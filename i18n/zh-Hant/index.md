@@ -71,7 +71,8 @@ schema:
 <div markdown>
 **Privacy Guides** 有一個專門的[社群](https://discuss.privacyguides.net)，獨立審查各種*隱私工具*和服務。 我們的每項建議都符合一套嚴格的標準，以確保能為大多數人提供最大價值，並在隱私、安全性和便利性之間取得最佳平衡。 作為非營利**公共慈善機構**的一部分，Privacy Guides 有嚴格的**新聞標準**和政策，以確保我們的推薦沒有利益衝突，而且我們不與可能影響我們的評論和推薦的供應商或聯盟計劃合作。
 
-[:material-heart:{.pg-red} 支援我們的工作](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary }
+[:material-heart:{.pg-red} Support Our Work](about/donate.md){ class="md-button md-button--primary" }
+
 </div>
 
 - [x] **無廣告推薦**
@@ -82,77 +83,6 @@ schema:
 - [x] **受讀者信賴**
 
 </div>
-
-### 前三大隱私電子郵件供應商
-
-<div class="grid cards" markdown>
-
--   ![Proton Mail 標誌](assets/img/email/protonmail.svg){ .lg .middle .twemoji loading=lazy } **Proton Mail**
-
-    ---
-
-    Proton Mail 是一個注重隱私、加密、安全和易用性的電子郵件服務。 他們自 2013 年起開始營運。 Proton AG is based in Geneva, Switzerland. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
-
-    [:octicons-arrow-right-24: 閱讀完整評論](email.md#proton-mail)
-
-- ![Mailbox.org 標誌](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji loading=lazy } **Mailbox.org**
-
-    ---
-
-    Mailbox.org 是一個專注於安全、無廣告的電子郵件服務，並使用 100% 民間供電的環保能源。 他們自 2014 年起開始營運。 Mailbox.org  總部位於德國柏林。 Accounts start with up to 2 GB storage, which can be upgraded as needed.
-
-    [:octicons-arrow-right-24: 閱讀完整評論](email.md#mailboxorg)
-
-- ![Tuta 標誌](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji loading=lazy }![Tuta 標誌](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji loading=lazy } **Tuta**
-
-    ---
-
-    Tuta(之前稱為 *Tutanota*) 是一項電子郵件服務，透過使用加密技術，著重於安全與隱私。 Tuta 自 2011 年開始營運，總部位於德國漢諾威。 Free accounts start with 1 GB of storage.
-
-    [:octicons-arrow-right-24: 閱讀完整評論](email.md#tuta)
-
-</div>
-
-<div class="grid" markdown>
-<div markdown>
-### 最佳 VPN 服務
-
-<div class="grid cards" markdown>
-
-- ![Proton VPN 標誌](assets/img/vpn/protonvpn.svg){ .twemoji loading=lazy } [Proton VPN](vpn.md#proton-vpn)
-- ![IVPN 標誌](assets/img/vpn/mini/ivpn.svg){ .twemoji loading=lazy } [IVPN](vpn.md#ivpn)
-- ![Mullvad 標誌](assets/img/vpn/mullvad.svg){ .twemoji loading=lazy } [Mullvad](vpn.md#mullvad)
-
-</div>
-</div>
-
-<div markdown>
-### 安全雲端儲存服務
-
-<div class="grid cards" markdown>
-
-- ![Proton Drive 標誌](assets/img/cloud/protondrive.svg){ .twemoji loading=lazy } [Proton Drive](cloud.md#proton-drive)
-- ![Tresorit 標誌](assets/img/cloud/tresorit.svg){ .twemoji loading=lazy } [Tresorit](cloud.md#tresorit)
-- ![Peergos 標誌](assets/img/cloud/peergos.svg){ .twemoji loading=lazy } [Peergos](cloud.md#peergos)
-
-</div>
-</div>
-
-<div markdown>
-### 最佳網頁瀏覽器
-
-<div class="grid cards" markdown>
-
-- ![Mullvad 瀏覽器標誌](assets/img/browsers/mullvad_browser.svg){ .twemoji loading=lazy }[Mullvad Browser](desktop-browsers.md#mullvad-browser)
-- ![Firefox 標誌](assets/img/browsers/firefox.svg){ .twemoji loading=lazy }[Firefox](desktop-browsers.md#firefox)
-- ![Brave 標誌](assets/img/browsers/brave.svg){ .twemoji loading=lazy }[Brave](desktop-browsers.md#brave)
-
-</div>
-</div>
-</div>
-
-[:material-format-list-checkbox: 更多推薦**隱私工具**](tools.md){ class="md-button md-button--primary" }
-[最佳行動瀏覽器](mobile-browsers.md ""){.md-button} [最佳瀏覽器擴充套件](browser-extensions.md ""){.md-button} [DNS 伺服器](dns.md ""){.md-button} [Email 別名服務](email-aliasing.md ""){.md-button} [照片管理工具](photo-management.md ""){.md-button} [電腦作業系統](desktop.md ""){.md-button}
 
 ---
 
@@ -166,7 +96,7 @@ schema:
 
 在 **WIRED**、**Tweakers.net**、**《紐約時報》**及其他許多刊物中，都被視為隱私與安全知識的可靠來源。
 
-[:material-information: 更多關於我們是誰](about.md){ class="md-button md-button--primary" } [:material-email: 訂閱我們的電子報（英文版）](https://blog.privacyguides.org/#/portal/signup ""){.md-button}
+[:material-information: More About Who We Are](about.md){ class="md-button" }
 
 <div class="grid" markdown>
 <div markdown>
@@ -184,6 +114,6 @@ schema:
 
 許多人混淆了隱私權、安全性和匿名性的概念。 舉例來說，您會看到人們批評各種產品「不具隱私性」，但實際上他們的意思是不提供匿名性。 在本網站中，我們涵蓋了所有這三個主題，但重要的是您必須瞭解它們之間的差異，以及每種主題何時會發揮作用。
 
-[隱私性 vs 安全性 vs 匿名性](basics/why-privacy-matters.md#what-is-privacy){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
 </div>
 </div>

@@ -6,7 +6,7 @@ description: Ikhtisar tentang beberapa arsitektur jaringan yang biasa digunakan 
 
 Ada beberapa arsitektur jaringan yang biasa digunakan untuk menyampaikan pesan antar orang. Jaringan ini dapat memberikan jaminan privasi yang berbeda, itulah sebabnya mengapa perlu mempertimbangkan [model ancaman](../basics/threat-modeling.md) Anda ketika memutuskan aplikasi mana yang akan digunakan.
 
-[Perpesanan Instan yang Direkomendasikan](../real-time-communication.md ""){.md-button}
+[Recommended Instant Messengers](../real-time-communication.md ""){.md-button} [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why/ ""){.md-button}
 
 ## Jaringan Terpusat
 

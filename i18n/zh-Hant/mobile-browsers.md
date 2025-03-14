@@ -243,7 +243,7 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
 
 - [x] 勾選 **一律使用安全連線**
 
-這可以防止您無意間以明文 HTTP 連線到網站。 如今，僅支援 HTTP 的網站已不多見，因此這對您日常瀏覽的影響幾乎沒有影響。
+This prevents you from unintentionally connecting to a website in plain-text HTTP. 如今，僅支援 HTTP 的網站已不多見，因此這對您日常瀏覽的影響幾乎沒有影響。
 
 #### Adblock Plus settings
 
@@ -304,7 +304,7 @@ Cromite contains a customized version of Adblock Plus with EasyList enabled by d
 
 - [ ] 停用 **搜尋引擎建議**
 
-此設定會將您在網址列中輸入的內容傳送至 Safari 中設定的搜尋引擎。 停用搜尋建議可讓您更精確地控制您傳送給搜尋引擎供應商的資料。
+此設定會將您在網址列中輸入的內容傳送至 Safari 中設定的搜尋引擎。 Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
 #### 主題類別
 

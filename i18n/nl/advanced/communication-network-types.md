@@ -6,7 +6,7 @@ description: Een overzicht van verschillende netwerkarchitecturen die vaak door 
 
 Er zijn verschillende netwerkarchitecturen die gewoonlijk worden gebruikt om berichten tussen mensen door te geven. Deze netwerken kunnen verschillende privacygaranties bieden, en daarom is het de moeite waard jouw [bedreigingsmodel](../basics/threat-modeling.md) in overweging te nemen bij de beslissing welke app je gaat gebruiken.
 
-[Aanbevolen Instant Messengers](../real-time-communication.md ""){.md-button}
+[Recommended Instant Messengers](../real-time-communication.md ""){.md-button} [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why/ ""){.md-button}
 
 ## Gecentraliseerde netwerken
 

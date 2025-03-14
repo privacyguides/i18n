@@ -8,6 +8,8 @@ description: Tor - это бесплатная в использовании д�
 
 [**Tor**](../alternative-networks.md#tor) is a free to use, decentralized network designed for using the internet with as much privacy as possible. При правильном использовании сеть позволяет осуществлять частный и анонимный браузинг и общение. Поскольку трафик Tor сложно заблокировать и отследить, Tor является эффективным инструментом обхода цензуры.
 
+[:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor/ ""){.md-button}
+
 Tor works by routing your internet traffic through volunteer-operated servers, instead of making a direct connection to the site you're trying to visit. Это скрывает, откуда идет трафик, и ни один сервер на пути соединения не может увидеть полный путь того, откуда и куда идет трафик, то есть даже серверы, которые ты используешь для подключения, не могут нарушить твою анонимность.
 
 [:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }

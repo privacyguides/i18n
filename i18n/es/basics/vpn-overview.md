@@ -7,6 +7,8 @@ description: Las Redes Privadas Virtuales desplazan el riesgo de tu ISP a un ter
 
 Las Redes Privadas Virtuales son una forma de ampliar el extremo de tu red para que salga por otro lugar en el mundo.
 
+[:material-movie-open-play-outline: Video: Do you need a VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn/ ""){.md-button}
+
 Normalmente, un ISP puede ver el flujo de tráfico de Internet que entra y sale de Tu dispositivo de terminación de red (es decir, el módem). Los protocolos de cifrado como HTTPS se utilizan habitualmente en Internet, por lo que es posible que no puedan ver exactamente lo que publicas o lees, pero pueden hacerse una idea de los [dominios que solicitas](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
 El uso de una VPN oculta incluso esta información a tu ISP, al trasladar la confianza que depositas en tu red a un servidor situado en otro lugar del mundo. Como resultado, el ISP solo ve que estás conectado a una VPN y nada sobre la actividad que estás pasando a través de ella.

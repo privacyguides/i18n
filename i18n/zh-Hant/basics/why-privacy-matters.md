@@ -12,6 +12,8 @@ description: 在此數位資料被狠狠利用的時代，隱私從未如此重�
 
 許多人常把 **隱私**、 **安全**和 **匿名** 這幾個概念搞混。 例如，人們批評各種產品“不私密”，而實際上他們是指這些產品不提供匿名功能。 本網站涵蓋了這三個主題，但重要的是須了解它們之間的區別，以及每個主題何時發揮作用。
 
+[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security/ ""){.md-button}
+
 <!-- markdownlint-disable-next-line -->
 **隱私**
 :
@@ -55,6 +57,8 @@ description: 在此數位資料被狠狠利用的時代，隱私從未如此重�
 ==在大多數應用程式中控制隱私是一種幻想。== 它是一個閃亮的儀表板，您可以對自己的資料做出各種選擇，但很少有您正在尋找的選擇，比如“只使用我的資料來幫助我 ” 這種類型的控制旨在讓您對自己的選擇感到內疚，您“可以選擇”讓使用的應用程式更為私密，但您卻不這麼做。
 
 隱私需要融入到預設使用的[軟體和服務](../tools.md)，您不能將大多數應用程式變成自己的隱私。
+
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
 
 ## 來源
 

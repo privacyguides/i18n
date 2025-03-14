@@ -12,6 +12,8 @@ Privacidade é, no final das contas, sobre informações humanas, e isso é impo
 
 Muitas pessoas confundem os conceitos de **privacidade**, **segurança**, e **anonimato**. Você verá pessoas criticando vários produtos como "não privados" quando, na verdade, elas querem dizer que eles não fornecem anonimato, por exemplo. Neste site, examinamos todos esses três tópicos, mas é importante que você entenda a diferença entre eles e quando cada um entra em ação.
 
+[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security/ ""){.md-button}
+
 <!-- markdownlint-disable-next-line -->
 **Privacidade**
 :
@@ -55,6 +57,8 @@ Veja os formulários de consentimento de cookies, por exemplo. Você pode encont
 ==O controle sobre sua privacidade na maioria dos aplicativos é uma ilusão.== É um painel brilhante com todas as opções do que você pode fazer sobre seus dados, mas raramente com as opções que você está procurando, como "usar meus dados apenas para me ajudar." Esse tipo de controle tem o objetivo de fazer com que você se sinta culpado por suas escolhas, pois você "tinha a opção" de tornar os aplicativos que usa mais privados e optou por não fazê-lo.
 
 Privacidade é algo que precisa estar incluído por padrão nos [aplicativos e serviços](../tools.md) que usamos, porque você não pode fazer com que a maioria dos aplicativos seja privada por sua própria conta.
+
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
 
 ## Fontes
 

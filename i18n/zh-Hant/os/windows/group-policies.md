@@ -20,8 +20,8 @@ These settings should be set on a brand-new installation of Windows. Setting the
 #### 裝置防護
 
 - 開啟虛擬化型安全性:**啟用**
-  - 選取平台安全性層級: **安全開機及 DMA 保護**
-  - 安全啟動設定: **已啟用**
+    - 選取平台安全性層級: **安全開機及 DMA 保護**
+    - 安全啟動設定: **已啟用**
 
 #### 網際網路通訊管理
 
@@ -52,14 +52,14 @@ These settings should be set on a brand-new installation of Windows. Setting the
 - 關閉自動播放: **已啟用**
 - 不允許非磁碟區裝置的自動播放: **已啟用**
 - 設定 AutoRun 的預設行為: **已啟用**
-  - 預設 AutoRun 行為: **不執行任何 AutoRun 命令**
+    - 預設 AutoRun 行為: **不執行任何 AutoRun 命令**
 
 #### BitLocker 磁碟機加密
 
 在變更以下設定後，您可能需要重新加密作業系統磁碟機。
 
 - 選擇磁碟機加密演算法及金鑰加密強度 (Windows Vista, Windows Server 2008, Windows 7): **已啟用**
-  - 選取加密方法:**AES-256**
+    - 選取加密方法:**AES-256**
 
 即使針對 Windows 7 政策設定加密強度，此強度仍適用於較新的 Windows 版本。
 
@@ -85,12 +85,12 @@ Despite the names of these policies, this doesn't _require_ you to do anything b
 #### 資料收集與預覽組建
 
 - 允許電腦分析處理:**已啟用**
-  - 選項: **傳送必要的診斷資料** (專業版) 或是
-  - 選項: **關閉診斷資料** (企業版或教育版)
+    - 選項: **傳送必要的診斷資料** (專業版) 或是
+    - 選項: **關閉診斷資料** (企業版或教育版)
 - 限制診斷記錄檔集合: **已啟用**
 - 限制傾印集合: **已啟用**
 - 限制用於電腦分析的選擇性診斷資料: **已啟用**
-  - 選項: **停用 電腦分析 收集**
+    - 選項: **停用 電腦分析 收集**
 - 不顯示意見反應通知: **已啟用**
 
 #### 檔案總管
@@ -118,7 +118,7 @@ Despite the names of these policies, this doesn't _require_ you to do anything b
 - 允許 Cortana: **已停用**
 - 不要在[搜尋] 中搜尋網路或顯示網路搜尋結果:**已啟用**
 - 設定 [搜尋] 中可分享的資訊:**已啟用**
-  - 資訊類型:**匿名資訊**
+    - 資訊類型:**匿名資訊**
 
 #### 同步您的設定
 
@@ -132,4 +132,4 @@ Despite the names of these policies, this doesn't _require_ you to do anything b
 
 - 不要傳送其它資料:**已啟用**
 - 同意 > 設定預設同意: **已啟用**
-  - 同意層級: **傳送資料前一律詢問**
+    - 同意層級: **傳送資料前一律詢問**

@@ -8,6 +8,8 @@ description: Torは、可能な限りプライバシーを守ってインター�
 
 [**Tor**](../alternative-networks.md#tor) is a free to use, decentralized network designed for using the internet with as much privacy as possible. 適切に使用すれば、プライベートで匿名のブラウジングや通信を行うことができます。 Torトラフィックはブロックや追跡が困難であるため、Torは効果的な検閲回避ツールです。
 
+[:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor/ ""){.md-button}
+
 Tor works by routing your internet traffic through volunteer-operated servers, instead of making a direct connection to the site you're trying to visit. This obfuscates where the traffic is coming from, and no server in the connection path is able to see the full path of where the traffic is coming from and going to, meaning even the servers you are using to connect cannot break your anonymity.
 
 [:octicons-home-16:](https://torproject.org){ .card-link title=Homepage }

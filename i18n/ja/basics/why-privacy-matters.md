@@ -12,6 +12,8 @@ description: デジタルデータが搾取される現代において、あな�
 
 多くの人は、**プライバシー**、**セキュリティ**、**匿名性**の概念を混同しています。 例えば、ある製品が匿名性を提供していないという意味で「プライベートではない」と批判する人々がいます。 このウェブサイトでは、これら3つのトピックすべてを取り上げます。まず、それぞれの違いを理解しましょう。
 
+[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security/ ""){.md-button}
+
 <!-- markdownlint-disable-next-line -->
 **プライバシー**
 :
@@ -55,6 +57,8 @@ A common definition of privacy is that it is the ability to *control* who has ac
 ==Control over your privacy inside most apps is an illusion.== It's a shiny dashboard with all sorts of choices you can make about your data, but rarely the choices you're looking for, like "only use my data to help me." This type of control is meant to make you feel guilty about your choices, that you "had the choice" to make the apps you use more private, and you chose not to.
 
 Privacy is something we need to have baked into the [software and services](../tools.md) we use by default, you can't bend most apps into being private on your own.
+
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
 
 ## ソース
 
