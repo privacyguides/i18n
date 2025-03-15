@@ -374,13 +374,13 @@ O [Brave Sync](https://support.brave.com/hc/pt/articles/360059793111-Entendendo-
 
 #### Recompensas Brave e Carteira
 
-**O Recompensas Brave** permite que você receba recompensas em tokens da criptomoeda Basic Attention Token (BAT) pare cumprir determinadas tarefas no Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**O Recompensas Brave** permite que você receba recompensas em tokens da criptomoeda Basic Attention Token (BAT) pare cumprir determinadas tarefas no Brave. Ele depende de uma conta/carteira de custódia de criptomoedas com KYC (verificação de cliente) aprovado nas corretoras disponíveis. Não recomendamos o BAT como uma [criptomoeda privada](cryptocurrency.md), nem recomendamos o uso de uma [carteira de custódia](advanced/payments.md#wallet-custody), portanto, não recomendamos o uso desse recurso.
 
-**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
+A **Carteira Brave** opera localmente em seu computador, mas não suporta nenhuma criptomoeda privada, então nós desencorajamos o uso dessa ferramenta também.
 
 ## Critérios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+Por favor, note que **não somos parceiros de nenhum dos produtos que recomendamos.** Em  [nossos critérios básicos](about/criteria.md), desenvolvemos um conjunto claro de requisitos para nos permitir fornecer recomendações objetivas. É importante que você se familiarize com a lista de sugestões antes de escolher um  navegador *(browser)*dor para usar e pesquise e se informe por conta própria para garantir que essa é a escolha ideal.
 
 ### Requisitos Mínimos
 
@@ -394,7 +394,7 @@ O [Brave Sync](https://support.brave.com/hc/pt/articles/360059793111-Entendendo-
 
 ### Melhor Caso
 
-Nosso critério de melhor caso representa o que gostaríamos de ver em um projeto perfeito nessa categoria. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Nosso critério de melhor caso representa o que gostaríamos de ver em um projeto perfeito nessa categoria. As recomendações podem não incluir algumas funcionalidades. Mas aquelas que incluem podem têm uma classificação mais alta.
 
 - Deve incluir a funcionalidade integrada de bloqueio de conteúdo.
 - Deve suportar compartimentação de cookie (à la [Contêineres de Multi-Contas](https://support.mozilla.org/kb/containers)).
