@@ -105,18 +105,6 @@ schema:
   - 
     "@context": http://schema.org
     "@type": SoftwareApplication
-    name: Strongbox
-    image: /assets/img/password-management/strongbox.svg
-    url: https://strongboxsafe.com
-    applicationCategory: Password Manager
-    operatingSystem: iOS
-    subjectOf:
-      "@context": http://schema.org
-      "@type": WebPage
-      url: "./"
-  - 
-    "@context": http://schema.org
-    "@type": SoftwareApplication
     name: gopass
     image: /assets/img/password-management/gopass.svg
     url: https://gopass.pw
@@ -374,31 +362,6 @@ KeePassXC lagrar sina exportdata som [CSV](https://en.wikipedia.org/wiki/Comma-s
 </details>
 
 </div>
-
-### Strongbox (iOS & macOS)
-
-<div class="admonition recommendation" markdown>
-
-![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
-
-**Strongbox** is a native password manager for iOS and macOS. Strongbox stöder både KeePass- och Password Safe-format och kan användas tillsammans med andra lösenordshanterare, som KeePassXC, på andra plattformar än Apple-plattformar. By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier, with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
-
-[:octicons-home-16: Hemsida](https://strongboxsafe.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Integritetspolicy" }
-[:octicons-info-16:](https://strongboxsafe.com/getting-started){ .card-link title="Dokumentation" }
-[:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Källkod" }
-[:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title="Bidra" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-appstore: App Store](https://apps.apple.com/app/id897283731)
-
-</details>
-
-</div>
-
-Additionally, Strongbox offers an offline-only version: [Strongbox Zero](https://apps.apple.com/app/id1581589638). Denna version är avskalad i ett försök att minska angreppsytan.
 
 ### gopass (CLI)
 

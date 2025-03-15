@@ -105,18 +105,6 @@ schema:
   - 
     "@context": http://schema.org
     "@type": SoftwareApplication
-    name: Strongbox
-    image: /assets/img/password-management/strongbox.svg
-    url: https://strongboxsafe.com
-    applicationCategory: 비밀번호 관리자
-    operatingSystem: iOS
-    subjectOf:
-      "@context": http://schema.org
-      "@type": WebPage
-      url: "./"
-  - 
-    "@context": http://schema.org
-    "@type": SoftwareApplication
     name: gopass
     image: /assets/img/password-management/gopass.svg
     url: https://gopass.pw
@@ -374,31 +362,6 @@ KeePassXC는 데이터 내보내기 시 [CSV](https://en.wikipedia.org/wiki/Comm
 </details>
 
 </div>
-
-### Strongbox (iOS & macOS)
-
-<div class="admonition recommendation" markdown>
-
-![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
-
-**Strongbox** is a native password manager for iOS and macOS. KeePass, Password Safe 형식을 지원하므로, Apple 외 플랫폼에서는 KeePassXC 등의 다른 비밀번호 관리자와 함께 사용할 수 있습니다. By employing a [freemium model](https://strongboxsafe.com/pricing), Strongbox offers most features under its free tier, with more convenience-oriented [features](https://strongboxsafe.com/comparison)—such as biometric authentication—locked behind a subscription or perpetual license.
-
-[:octicons-home-16: Homepage](https://strongboxsafe.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://strongboxsafe.com/getting-started){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title="Contribute" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-appstore: App Store](https://apps.apple.com/app/id897283731)
-
-</details>
-
-</div>
-
-Additionally, Strongbox offers an offline-only version: [Strongbox Zero](https://apps.apple.com/app/id1581589638). 해당 버전은 공격 표면을 최소화하기 위해 만들어졌습니다.
 
 ### gopass (CLI)
 

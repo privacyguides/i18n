@@ -105,18 +105,6 @@ schema:
   - 
     "@context": http://schema.org
     "@type": SoftwareApplication
-    name: Strongbox
-    image: /assets/img/password-management/strongbox.svg
-    url: https://strongboxsafe.com
-    applicationCategory: Administrador de contraseñas
-    operatingSystem: iOS
-    subjectOf:
-      "@context": http://schema.org
-      "@type": WebPage
-      url: "./"
-  - 
-    "@context": http://schema.org
-    "@type": SoftwareApplication
     name: gopass
     image: /assets/img/password-management/gopass.svg
     url: https://gopass.pw
@@ -374,31 +362,6 @@ KeePassXC almacena sus datos de exportación como archivos [CSV](https://es.wiki
 </details>
 
 </div>
-
-### Strongbox (iOS & macOS)
-
-<div class="admonition recommendation" markdown>
-
-![Strongbox logo](assets/img/password-management/strongbox.svg){ align=right }
-
-**Strongbox** es un gestor de contraseñas nativo para iOS y macOS. Es compatible con los formatos KeePass y Password Safe, por lo que Strongbox puede utilizarse junto con otros administradores de contraseñas, como KeePassXC, en plataformas que no sean Apple. Al emplear un [modelo freemium](https://strongboxsafe.com/pricing), Strongbox ofrece la mayoría de las funciones en su nivel gratuito, mientras que las [funciones](https://strongboxsafe.com/comparison) más orientadas a la comodidad -como la autenticación biométrica- están bloqueadas tras una suscripción o licencia perpetua.
-
-[:octicons-home-16: Página Principal](https://strongboxsafe.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="Politica de Privacidad" }
-[:octicons-info-16:](https://strongboxsafe.com/getting-started){ .card-link title="Documentación" }
-[:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title="Contribuir" }
-
-<details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
-
-- [:simple-appstore: App Store](https://apps.apple.com/app/id897283731)
-
-</details>
-
-</div>
-
-Además, Strongbox ofrece una versión solo sin conexión: [Strongbox Zero](https://apps.apple.com/app/id1581589638). Esta versión tiene solo lo básico para reducir la superficie de ataque.
 
 ### gopass (CLI)
 

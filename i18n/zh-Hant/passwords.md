@@ -105,18 +105,6 @@ schema:
   - 
     "@context": http://schema.org
     "@type": SoftwareApplication
-    name: Strongbox
-    image: /assets/img/password-management/strongbox.svg
-    url: https://strongboxsafe.com
-    applicationCategory: 密碼管理器。
-    operatingSystem: iOS
-    subjectOf:
-      "@context": http://schema.org
-      "@type": 網頁
-      url: "./"
-  - 
-    "@context": http://schema.org
-    "@type": SoftwareApplication
     name: gopass
     image: /assets/img/password-management/gopass.svg
     url: https://gopass.pw
@@ -374,31 +362,6 @@ KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-
 </details>
 
 </div>
-
-### Strongbox (iOS & macOS)
-
-<div class="admonition recommendation" markdown>
-
-![Strongbox 標誌](assets/img/password-management/strongbox.svg){ align=right }
-
-**Strongbox** 是 iOS 和 macOS 的原生密碼管理器。 Strongbox 支援 KeePass 和 Password Safe 兩種格式，可在非蘋果平台上與其他密碼管理器 （如 KeePassXC）搭配使用。 透過採用 [基礎免費模式](https://strongboxsafe.com/pricing)，Strongbox 在基礎免費層級下提供大部分功能，而更多以便利為導向的 [功能](https://strongboxsafe.com/comparison)，例如生物辨識驗證，則鎖定在訂閱或永久授權。
-
-[:octicons-home-16: 首頁](https://strongboxsafe.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://strongboxsafe.com/privacy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://strongboxsafe.com/getting-started){ .card-link title="說明文件" }
-[:octicons-code-16:](https://github.com/strongbox-password-safe/Strongbox){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://github.com/strongbox-password-safe/Strongbox#supporting-development){ .card-link title="捐款" }
-
-<details class="downloads" markdown>
-<summary>下載</summary>
-
-- [:simple-appstore: App Store](https://apps.apple.com/app/id897283731)
-
-</details>
-
-</div>
-
-此外，Strongbox 還提供離線版本： [Strongbox Zero](https://apps.apple.com/app/id1581589638)。 此版本經過刪減，試圖減少攻擊面。
 
 ### gopass (CLI)
 
