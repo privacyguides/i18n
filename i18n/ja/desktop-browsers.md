@@ -329,36 +329,36 @@ Braveの[シールド](https://support.brave.com/hc/articles/360022973471-What-i
 
 ##### Torウィンドウ
 
-[**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser is, and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
+[**Tor搭載のプライベートウィンドウ**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity)を使うことで、プライベートウィンドウの通信はTorネットワークを経由し、.onionにアクセスでき、場合によっては役立つこともあります。 ただし、BraveはTor Browserよりもフィンガープリンティングに対して強く**ない**ことに加え、BraveでTorを使う人は非常に少ないため目立ってしまいます。 脅威モデルにより強い匿名性が必要な場合、[Tor Browser](tor.md#tor-browser)を使用します。
 
-##### Data Collection
+##### データ コレクション
 
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] **プライバシーを保護したプロダクト分析(P3A)を許可する**のチェックを外す
+- [ ] **毎日の使用状況のpingをBraveに自動送信する**のチェックを外す
+- [ ] **診断レポートを自動送信する**のチェックを外す
 
 #### Web3
 
-Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of these features, they should be disabled.
+BraveのWeb3機能はブラウザのフィンガープリントとアタックサーフェスを潜在的に増やす可能性があります。 これらの機能を使わないのであれば、無効化すべきです。
 
-- Select **Extensions (no fallback)** under *Default Ethereum wallet*
-- Select **Extensions (no fallback)** under *Default Solana wallet*
+- *デフォルトのEthereumウォレット*の**拡張機能（フォールバックなし）**を選択
+- *デフォルトのSolanaウォレット*の**拡張機能（フォールバックなし）**を選択
 
-#### Extensions
+#### 拡張機能
 
-- [ ] Uncheck all built-in extensions you don't use
+- [ ] 使用していないビルトインの拡張機能のチェックをすべて外す
 
-#### Search engine
+#### 検索エンジン
 
-We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
+[Firefox](#search)で同様の機能を無効にしたのと同じ理由で「検索候補を表示」を無効にすることを推奨します。
 
 - [ ] **検索候補を表示する**からチェックを外す
 
-#### System
+#### システム
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Continue running apps when Brave is closed** to disable background apps (1)
+- [ ] **Braveを閉じた際にバックグラウンドアプリの処理を続行する**のチェックを外し、バックグラウンドアプリを無効にする (1)
 
 </div>
 
@@ -366,7 +366,7 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync)により、ブラウジングデータ（履歴、ブックマークなど）をすべてのデバイスで利用可能にします。アカウントは不要でE2EE（エンドツーエンド暗号化）で保護されます。
 
 #### Brave Rewards and Wallet
 

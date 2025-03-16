@@ -252,9 +252,31 @@ Tuta doesn't offer a digital legacy feature.
 
 ## خودمیزبانی ایمیل (Self-Hosting)
 
-ادمین‌های سیستم پیشرفته ممکن است راه اندازی سرور ایمیل خود را در نظر بگیرند. سرورهای ایمیل برای ایمن نگه داشتن چیزها و قابل اعتماد بودن تحویل ایمیل نیاز به توجه و نگهداری مداوم دارند.
+ادمین‌های سیستم پیشرفته ممکن است راه اندازی سرور ایمیل خود را در نظر بگیرند. سرورهای ایمیل برای ایمن نگه داشتن چیزها و قابل اعتماد بودن تحویل ایمیل نیاز به توجه و نگهداری مداوم دارند. In addition to the "all-in-one" solutions below, we've picked out a few articles that cover a more manual approach:
 
-### راه‌حل های نرم‌افزاری ترکیبی
+- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
+- [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide) (August 2017)
+
+### Stalwart
+
+<div class="admonition recommendation" markdown>
+
+![Stalwart logo](assets/img/email/stalwart.svg){ align=right }
+
+**Stalwart** is a newer mail server written in Rust which supports JMAP in addition to the standard IMAP, POP3, and SMTP. It has a wide variety of configuration options, but it also defaults to very reasonable settings (in terms of both security and features) making it easy to use immediately. It has web-based administration with TOTP 2FA support, and it allows you to enter your public PGP key to encrypt **all** incoming messages.
+
+[:octicons-home-16: Homepage](https://stalw.art){ .md-button .md-button--primary }
+[:octicons-info-16:](https://stalw.art/docs/get-started){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/stalwartlabs){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/sponsors/stalwartlabs){ .card-link title="Contribute" }
+
+</div>
+
+Stalwart's [PGP implementation](https://stalw.art/docs/encryption/overview) is unique among our self-hosted recommendations, and allows you to operate your own mail server with zero-knowledge message storage. If you additionally configure Web Key Directory on your domain, and if you use an email client which supports PGP and Web Key Directory for outgoing mail (like Thunderbird), then this is the easiest way to get self-hosted E2EE compatibility with all [Proton Mail](#proton-mail) users.
+
+Stalwart does **not** have an integrated webmail, so you will need to use it with a [dedicated email client](email-clients.md) (or find an open-source webmail to self-host, like Nextcloud's Mail app). We use Stalwart for our own internal email at *Privacy Guides*.
+
+### Mailcow
 
 <div class="admonition recommendation" markdown>
 
@@ -269,6 +291,8 @@ Tuta doesn't offer a digital legacy feature.
 
 </div>
 
+### Mail-in-a-Box
+
 <div class="admonition recommendation" markdown>
 
 ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ align=right }
@@ -280,11 +304,6 @@ Tuta doesn't offer a digital legacy feature.
 [:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
 
 </div>
-
-برای یک رویکرد دستی‌تر، این دو مقاله را انتخاب کرده‌ایم:
-
-- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
-- [How To Run Your Own Mail Server](https://c0ffee.net/blog/mail-server-guide) (August 2017)
 
 ## معیار
 
@@ -331,7 +350,7 @@ We prefer our recommended providers to collect as little data as possible.
 
 Email servers deal with a lot of very sensitive data. We expect that providers will adopt best industry practices in order to protect their customers.
 
-**حداقل شرایط صلاحیت:**
+**Minimum to Qualify:**
 
 - Protection of webmail with 2FA, such as TOTP.
 - Zero access encryption, which builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.

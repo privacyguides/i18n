@@ -30,7 +30,7 @@ Privacy Guides 是由世界各地的志工和工作人員建立的。 All change
 
 [職位空缺 :material-arrow-right-drop-circle:](about/jobs.md)
 
-## 聯絡我們
+## :material-email-edit: Contact Us
 
 [:simple-discourse: Join the Privacy Guides forum](https://discuss.privacyguides.net){ .md-button .md-button--primary }
 
@@ -50,7 +50,7 @@ You can also use OpenPGP to contact us via email, if you feel comfortable with y
 
 If you need an alternative secure channel, please request one via any contact method including social media, and we will work with you to establish one. Please do not share any sensitive information with us before we have established an appropriately secure discussion channel.
 
-## 執行委員會
+## :material-account-tie: Executive Committee
 
 <!-- markdownlint-disable MD030 -->
 
@@ -120,7 +120,7 @@ If you need an alternative secure channel, please request one via any contact me
 
 </div>
 
-## Staff
+## :material-account-edit: Staff
 
 Our staff are paid to contribute to supplemental content at Privacy Guides, like [video production](https://www.youtube.com/@privacyguides), [news articles and tutorials](https://www.privacyguides.org/articles), and our discussion communities and social media. Most are available and paid on a full-time basis to assist the organization.
 
@@ -164,7 +164,32 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
 
 </div>
 
-## 媒體報導
+## :material-check-decagram: Social Media
+
+We have a general policy of avoiding links to centralized social media profiles and other websites outside our control. This means that in places like our website footer and other areas, we only link to platforms we fully control, such as our Mastodon and PeerTube accounts or Matrix channels.
+
+However, Privacy Guides _does_ have social media accounts on a wide variety of platforms, in the hope of reaching new users who aren't yet familiar with our content. We try to make this a "one-way street" where those accounts link to privacyguides.org, and not the other way around. However, this creates some confusion about which accounts are actually run by the Privacy Guides team. For reference, we will list all of our accounts here:
+
+<div class="grid cards" markdown>
+
+- [:simple-discourse: **Forum**](https://discuss.privacyguides.net)
+- [:simple-matrix: **Matrix Space**](https://matrix.to/#/#privacyguides:matrix.org)
+- [:simple-mastodon: **Mastodon**](https://mastodon.neat.computer/@privacyguides)
+- [:simple-peertube: **PeerTube**](https://neat.tube/c/privacyguides)
+- [:simple-bluesky: Bluesky](https://bsky.app/profile/privacyguides.org)
+- [:simple-codeberg: Codeberg](https://codeberg.org/privacyguides)
+- [:simple-github: GitHub](https://github.com/privacyguides)
+- [:simple-gitlab: GitLab](https://gitlab.com/privacyguides)
+- [:fontawesome-brands-linkedin: LinkedIn](https://linkedin.com/company/privacyguides)
+- [:simple-reddit: Reddit](https://reddit.com/r/PrivacyGuides)
+- [:simple-x: X (Twitter)](https://x.com/privacy_guides)
+- [:simple-youtube: YouTube](https://youtube.com/@privacyguides)
+
+</div>
+
+To reiterate, this is not an endorsement of any platform, and we generally discourage following us on most social media platforms.
+
+## :material-newspaper: In The Media
 
 > To find [privacy-focused alternative] apps, check out sites like Good Reports and **Privacy Guides**, which list privacy-focused apps in a variety of categories, notably including email providers (usually on paid plans) that aren’t run by the big tech companies.
 
@@ -176,7 +201,7 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
 
 Also featured on: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok), [Wirecutter](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc) [[2](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac)], [NPO Radio 1](https://nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), [Wired](https://wired.com/story/firefox-mozilla-2022), [Fast Company](https://fastcompany.com/91167564/mozilla-wants-you-to-love-firefox-again) and [404 Media](https://404media.co/privacy-service-optery-faces-backlash-after-plan-to-send-openai-user-data).
 
-## 歷史
+## :material-history: History
 
 Privacy Guides 於 2021 年 9 月推出，是 [已解散](about/privacytools.md) 的「PrivacyTools」開放原始碼教育計畫的延續。 我們意識到獨立、注重標準的產品推薦和隱私領域常識的重要性，這也是為什麼我們需要保留自 2015 年以來眾多貢獻者所創造的工作，並確保這些資訊在網路上有一個無限期的穩定歸宿。
 
@@ -186,7 +211,7 @@ Privacy Guides 於 2021 年 9 月推出，是 [已解散](about/privacytools.md)
 
 In 2023, we launched international translations of our website in [French](https://www.privacyguides.org/fr), [Hebrew](https://www.privacyguides.org/he), [Dutch](https://www.privacyguides.org/nl), and more languages, made possible by our excellent translation team on [Crowdin](https://crowdin.com/project/privacyguides). 我們計劃繼續擴大我們的服務範圍並發揚教育使命，並尋找方法更清楚地突顯現代數位時代的人們缺乏隱私意識的危險，以及科技產業安全漏洞的普遍性和危害。
 
-## 網站授權
+## :material-license: Site License
 
 <div class="admonition danger" markdown>
 

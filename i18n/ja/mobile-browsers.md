@@ -169,9 +169,9 @@ Braveの[シールド](https://support.brave.com/hc/articles/360022973471-What-i
     - [ ] Uncheck **Allow sites to check if you have payment methods saved**
     - [ ] Uncheck **V8 Optimizer** under *Manage V8 security*
     - [x] Select **Close tabs on exit**
-    - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-    - [ ] Uncheck **Automatically send diagnostic reports**
-    - [ ] Uncheck **Automatically send daily usage ping to Brave**
+    - [ ] **プライバシーを保護したプロダクト分析(P3A)を許可する**のチェックを外す
+    - [ ] **診断レポートを自動送信する**のチェックを外す
+    - [ ] **毎日の使用状況のpingをBraveに自動送信する**のチェックを外す
 
     </div>
 
@@ -180,7 +180,7 @@ Braveの[シールド](https://support.brave.com/hc/articles/360022973471-What-i
 === "iOS"
 
     - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
-    - [ ] Uncheck **Automatically send daily usage ping to Brave**
+    - [ ] **毎日の使用状況のpingをBraveに自動送信する**のチェックを外す
 
 #### Leo
 
@@ -202,7 +202,7 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync)により、ブラウジングデータ（履歴、ブックマークなど）をすべてのデバイスで利用可能にします。アカウントは不要でE2EE（エンドツーエンド暗号化）で保護されます。
 
 ## Cromite (Android)
 
