@@ -66,7 +66,7 @@ These are our currently recommended **mobile web browsers** and configurations f
 
 BraveはChromiumウェブブラウザープロジェクトに基づいて構築されているため、使い慣れた使用感があるほか、ウェブサイトの互換性問題を最小限に抑えられます。
 
-[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
+[:octicons-home-16: ウェブページ](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
@@ -97,7 +97,7 @@ BraveはChromiumウェブブラウザープロジェクトに基づいて構築�
 
 #### Brave shields global defaults
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+Braveの[シールド](https://support.brave.com/hc/articles/360022973471-What-is-Shields)にはアンチフィンガープリンティングの機能があります。 以下のオプションはアクセスするすべてのページを対象にするため、[グローバル](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)に設定することを推奨します。
 
 シールドのオプションは、必要に応じてサイトごとにダウングレードできますが、デフォルトでは以下の設定をおすすめします。
 
@@ -125,7 +125,7 @@ Brave includes some anti-fingerprinting measures in its [Shields](https://suppor
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. JavaScriptが無効となり、多くのサイトが正しく表示されなくなります。 To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 === "iOS"
 
@@ -148,7 +148,7 @@ Brave includes some anti-fingerprinting measures in its [Shields](https://suppor
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. JavaScriptが無効となり、多くのサイトが正しく表示されなくなります。 To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 ##### Clear browsing data (Android only)
 

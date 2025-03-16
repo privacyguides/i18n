@@ -2,7 +2,7 @@
 meta_title: "プライバシーを尊重したPCとMac向けウェブブラウザ - Privacy Guides"
 title: "デスクトップブラウザ"
 icon: material/laptop
-description: 標準的・非匿名のインターネットブラウジングにおいて推奨するデスクトップシステム向けプライバシー保護ブラウザ
+description: 標準的・非匿名のインターネットブラウジングにおいて推奨するデスクトップシステム向けプライバシー保護ブラウザ。
 cover: desktop-browsers.webp
 schema:
   - 
@@ -57,7 +57,7 @@ schema:
       url: "./"
 ---
 
-<small>以下の脅威から保護します</small>
+<small>以下の脅威から保護します：</small>
 
 - [:material-account-cash: 監視資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
@@ -71,10 +71,9 @@ schema:
 
 ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad Browser**は[Tor Browser](tor.md#tor-browser)からTorネットワークの機能を削除したブラウザです。 [:material-eye-outline: 監視社会](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }に対する鍵となるTor Browserのフィンガープリント対策技術をVPNの利用者に提供することを目的としています。
- Tor Projectが開発し、[Mullvad](vpn.md#mullvad)が配布しています。MullvadのVPNを使用する必要は**ありません**。
+**Mullvad Browser**は[Tor Browser](tor.md#tor-browser)からTorネットワークの機能を削除したブラウザです。 [:material-eye-outline: 監視社会](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }に対する鍵となるTor Browserのフィンガープリント対策技術をVPNの利用者に提供することを目的としています。 Tor Projectが開発し、[Mullvad](vpn.md#mullvad)が配布しています。MullvadのVPNを使用する必要は**ありません**。
 
-ons-home-16: ウェブページ](https://mullvad.net/en/browser){ .md-button .md-button--primary }
+[::octicons-home-16: ウェブページ](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title="Documentation" }
 [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
@@ -244,14 +243,14 @@ Arkenfoxはcanvasのランダム化やFirefoxの標準で利用できるフィ�
 
 BraveはChromiumウェブブラウザプロジェクトに基づいて構築されているため、使い慣れた使用感があるほか、ウェブサイトの互換性問題が最小限に抑えられます。
 
-[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
+[:octicons-home-16: ウェブページ](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>ダウンロード</summary>
 
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 - [:fontawesome-brands-windows: Windows](https://brave.com/download)
@@ -266,7 +265,7 @@ BraveはChromiumウェブブラウザプロジェクトに基づいて構築さ�
 <div class="admonition warning" markdown>
 <p class="admonition-title">注意</p>
 
-Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" to the file name in downloads from the Brave website, which is used to track which source the browser was downloaded from, for example `BRV002` in a download named `Brave-Browser-BRV002.pkg`. The installer will then ping Brave's server with the referral code at the end of the installation process. これが心配な場合は、インストーラファイルを開く前に名前を変更できます。
+どのブラウザからダウンロードされたか追跡するため、Braveのウェブサイトからダウンロードした際に「[リファラルコード](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)」がファイル名に追加されます。例えば「BRV002」をダウンロードした際のファイル名は「Brave-Browser-BRV002.pkg」となります。 インストーラーはインストールの終わりにBraveのサーバーにリファラルコードを送信します。 これが心配な場合は、インストーラファイルを開く前に名前を変更できます。
 
 </div>
 
@@ -274,61 +273,61 @@ Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%
 
 以下のオプションは :material-menu: → **設定**から変更できます。
 
-#### Shields
+#### シールド
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+Braveの[シールド](https://support.brave.com/hc/articles/360022973471-What-is-Shields)にはアンチフィンガープリンティングの機能があります。 以下のオプションはアクセスするすべてのページを対象にするため、[グローバル](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)に設定することを推奨します。
 
 シールドのオプションは、必要に応じてサイトごとにダウングレードできますが、デフォルトでは以下の設定をおすすめします。
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under *Trackers & ads blocking*
+- [x] *トラッカーと広告をブロック*の**積極的**を選択
 
 <details class="warning" markdown>
-<summary>Use default filter lists</summary>
+<summary>デフォルトのフィルターリストの使用について</summary>
 
-Brave allows you to select additional content filters within the internal `brave://adblock` page. この機能は使わず、デフォルトのフィルターの一覧のままにしておくことをお勧めします。 追加のリストを使用すると、他のBraveユーザーから目立つようになり、また、Braveの脆弱性によってリストに悪意のあるルールが追加された場合、攻撃対象となる領域が増えるおそれがあります。
+`brave://adblock` ページで追加のコンテンツフィルターを選択することができます。 この機能は使わず、デフォルトのフィルターの一覧のままにしておくことをお勧めします。 追加のリストを使用すると、他のBraveユーザーから目立つようになり、また、Braveの脆弱性によってリストに悪意のあるルールが追加された場合、攻撃対象となる領域が増えるおそれがあります。
 
 </details>
 
-- [x] Select **Strict** under *Upgrade connections to HTTPS*
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Check **Block fingerprinting**
-- [x] Select **Block third-party cookies**
-- [x] Check **Forget me when I close this site** (2)
-- [ ] Uncheck all social media components
+- [x] *接続をHTTPSにアップグレードする*の**厳格**を選択
+- [x] (オプション) **スクリプトをブロックする**を選択 (1)
+- [x] **フィンガープリンティングをブロック**を選択
+- [x] **3rdパーティクッキーをブロック**を選択
+- [x] **このサイトを閉じる際にデータを削除**を選択 (2)
+- [ ] ソーシャルメディアのブロックのすべてのチェックを外す
 
 </div>
 
-1. This option disables JavaScript, which will break a lot of sites. To fix them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
-2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+1. JavaScriptが無効となり、多くのサイトが正しく表示されなくなります。 修正するには、アドレスバーのシールドアイコンをクリックし、*高度なコントロール*からこの設定のチェックを外し、サイトごとに例外を設定します。
+2. よく見る特定のサイトでログインを維持したいのであれば、アドレスバーのシールドアイコンをクリックし、*高度なコントロール*からこの設定のチェックを外し、サイトごとに例外を設定します。
 
-#### Privacy and security
+#### プライバシーとセキュリティ
 
 <div class="annotate" markdown>
 
-- [x] Select **Don't allow sites to use the V8 optimizer** under *Security* → *Manage V8 security* (1)
-- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
-- [x] Select **Disable non-proxied UDP** under [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [x] Select **Auto-redirect AMP pages**
-- [x] Select **Auto-redirect tracking URLs**
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- [x] *セキュリティ* → *V8のセキュリティを管理する*から**サイトでのV8オプティマイザーの使用を許可しない**を選択 (1)
+- [x] *サイトとシールドの設定*から**使用していないサイトから権限を自動的に削除する**を選択
+- [x] [*WebRTC IP処理ポリシー*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)の**非プロキシUDPを無効にする**を選択
+- [ ] **プッシュメッセージングにGoogleサービスを使用**のチェックを外す
+- [x] **AMPページを自動でリダイレクト**を選択
+- [x] **自動リダイレクト追跡URL**を選択
+- [x] **言語設定に基づく、サイトのフィンガープリンティングを禁止**を選択
 
 </div>
 
-1. Disabling the V8 optimizer reduces your attack surface by disabling [*some*](https://grapheneos.social/@GrapheneOS/112708049232710156) parts of JavaScript Just-In-Time (JIT) compilation.
+1. V8オプティマイザーを無効にすることでJavaScriptの実行時(JIT)コンパイルの[*一部*](https://grapheneos.social/@GrapheneOS/112708049232710156)を無効化し、アタックサーフェスを減らすことができます。
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Sanitizing on close</p>
+<p class="admonition-title">終了時のクリーンアップ</p>
 
-- [x] Select **Delete data sites have saved to your device when you close all windows** under *Sites and Shields Settings* → *Content* → *Additional content settings* → *On-device site data*.
+- [x] *サイトとシールドの設定* → *コンテンツ* → *その他のコンテンツの設定* → *デバイス上のサイトデータ*から**すべてのウィンドウを閉じるときに、サイトによりデバイスに保存されたデータを削除する**を選択。
 
-If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
+よく見る特定のサイトのログインを維持したい場合、*動作のカスタマイズ*からサイトごとに例外を設定することができます。
 
 </div>
 
-##### Tor windows
+##### Torウィンドウ
 
 [**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser is, and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
 
