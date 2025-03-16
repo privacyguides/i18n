@@ -1,34 +1,34 @@
 ---
-title: Translations
-description: A guide for website contributors on adding translations to our website.
+title: Traduções
+description: Um guia para os tradutores do projeto.
 ---
 
-Crowdin has good documentation, and we suggest looking at their [Getting Started](https://support.crowdin.com/crowdin-intro) guide. Nosso site é majoritariamente escrito em [Markdown](https://en.wikipedia.org/wiki/Markdown), portanto, deve ser fácil contribuir. This page contains some helpful pointers for translating some specific syntax you may encounter on our site.
+A Crowdin tem uma boa documentação que pode ser encontrada na página [Guia Inicial](https://support.crowdin.com/crowdin-intro). Nosso site é majoritariamente escrito em [Markdown](https://en.wikipedia.org/wiki/Markdown), portanto, deve ser fácil contribuir. Essa página contem algumas dicas importantes para traduzir alguns termos específicos que você pode encontrar em nossas páginas.
 
-Please join our localization room on Matrix ([#pg-i18n:aragon.sh](https://matrix.to/#/%23pg-i18n:aragon.sh)) if you have any additional questions, and read our [announcement blog post](https://blog.privacyguides.org/2023/02/26/i18n-announcement) for additional information about the project.
+Entre em contato no nosso servidor na Matrix ([#pg-i18n:aragon.sh](https://matrix.to/#/%23pg-i18n:aragon.sh)) caso tenha alguma dúvida adicional e leia nossos[anúnicos no blog](https://blog.privacyguides.org/2023/02/26/i18n-announcement) para informações adicionais sobre o projeto.
 
-Note that the English version of the site is the primary version, meaning changes occur there first. If you notice a language falling behind the English version, please help out. We cannot guarantee the accuracy of all our translations. Se você tem uma sugestão sobre conteúdo específico para sua região, por favor, abra um problema ou pull request para nosso [repositório principal](https://github.com/privacyguides/privacyguides.org).
+Note que a versão em **inglês** do site é a versão principal onde provavelmente mudanças ocorrerão primeiro. Se você notar algum idioma que está 'ficando para trás' em relação à instância em inglês, por favor nos ajude. Não podemos garantir a exatidão de todas as traduções. Se você tem alguma sugestão sobre um conteúdo específico para sua região, por favor, abra um problema ou pull request para nosso [repositório principal](https://github.com/privacyguides/privacyguides.org).
 
-## Translation output
+## Saída de Tradução (automatizada)
 
-Translation software gets the translation quite accurate; however, you need to make sure the translated string is correct.
+Os *softwares* de tradução tem uma precisão consideravelmente aceitável, porém, você deve checar se as *strings* (frases e termos) foram traduzidas corretamente.
 
 Exemplo:
 
 ```text
-![Software logo](assets/img/path/to/image.svg){ align=right }
+![Shelter logo](assets/img/path/to/image.svg){ align=right }
 ```
 
-We have sometimes found that the syntax for inserting an image like above was missing the `![` or an extra space was placed between the text and the path, e.g. `](`. If a translation string is clearly not correct, we encourage you to **delete** it by pressing the trash icon [or vote](https://support.crowdin.com/enterprise/getting-started-for-volunteers/#voting-view) on which one you think sounds best. When invalid strings are deleted, they are removed from the organization's [translation memory](https://support.crowdin.com/enterprise/translation-memory), meaning that when the source string is seen again, it won't suggest the incorrect translation.
+Às vezes, descobrimos que a sintaxe para inserir uma imagem como a situação acima se dá por erros com espaços extras entre o texto e o caminho do arquivo. Se uma frase ou termo traduzido claramente não estiver correta ou em corcodância com o conteúdo original, recomendamos que você **exclua** pressionando o ícone da lixeira [ou vote](https://support.crowdin.com/enterprise/getting-started-for-volunteers/#voting-view) na que achar melhor. Quando  *strings* de caracteres inválidas são excluídas, elas também serão removidas da [memória de tradução](https://support.crowdin.com/enterprise/translation-memory) da organização, o que significa que, quando a cadeia de caracteres de origem for vista novamente, ela não sugerirá esta mesma tradução incorreta.
 
-## Punctuation
+## Pontuação
 
-For examples like the above admonitions, quotation marks, e.g.: `" "` must be used to specify string text. MkDocs will not correctly interpret other symbols i.e., `「 」` or `« »`. Other punctuation marks are fine for marking regular quotations within the text otherwise.
+Para exemplos como as advertências acima, as aspas, por exemplo: `" "` devem ser usadas para especificar o texto da string. O MkDocs não interpretará corretamente outros símbolos, ou seja, 「 `」` ou `" ".` Outros sinais de pontuação são adequados para marcar citações regulares dentro do texto.
 
-## Fullwidth alternatives and Markdown syntax
+## Alternativas de sintaxe longa e Markdown
 
-CJK writing systems tend to use alternative "fullwidth" variants of common symbols. These are different characters and cannot be used for Markdown syntax.
+Os sistemas de escrita CJK tendem a usar variantes alternativas de "largura total" de símbolos comuns. Estes são caracteres diferentes e não podem ser usados para sintaxe Markdown.
 
-- Links must use regular parenthesis i.e. `(` (Left Parenthesis U+0028) and `)` (Right Parenthesis U+0029) and not `（` (Fullwidth Left Parenthesis U+FF08) or `）` (Fullwidth Right Parenthesis U+FF09)
-- Indented quoted text must use `:` (Colon U+003A) and not `：` (Fullwidth Colon U+FF1A)
-- Pictures must use `!` (Exclamation Mark U+0021) and not `！` (Fullwidth Exclamation Mark U+FF01)
+- Os links devem usar parênteses regulares, ou seja, `(` (Parêntese esquerdo U+0028) e `)` (Parêntese direito U+0029) e não `（` (Fullwidth Left Parenthesis U+FF08) ou `）` (Fullwidth Right Parenthesis U+FF09)
+- O texto entre aspas com recuo deve usar `:` (dois pontos U+003A) e não `：` (Fullwidth Colon U+FF1A)
+- As imagens devem usar `!` (Ponto de exclamação U+0021) e não `！` (Ponto de exclamação de largura total U+FF01)
