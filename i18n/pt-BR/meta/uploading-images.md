@@ -1,15 +1,15 @@
 ---
-title: Uploading Images
-description: A guide for website contributors on uploading images in the proper format and location.
+title: Fazendo *upload* de imagens
+description: Esse é um guia para os contribuidores do site para subir imagens no padrão e caminho (pasta no diretório do site) corretos.
 ---
 
-If you make changes to this website that involve adding new images or replacing existing ones, here are a couple of general recommendations:
+Se você fizer mudanças nesse website que envolvam adicionar novos arquivos de imagem ou até substituir arquivos existentes, aqui estão algumas recomendações:
 
 ## Imagens
 
-- Nós **preferimos** imagens SVG, mas se elas não existirem, você pode usar imagens PNG. Além disso, para imagens de capa, preferimos que elas sejam obtidas do [Unsplash](https://unsplash.com) e estejam no formato WebP.
+- Nós **preferimos** imagens no formato SVG, mas se elas não existirem, você  também pode subir em PNG. Além disso, para imagens de capa, preferimos que elas sejam provenientes do serviço [Unsplash](https://unsplash.com) e que estejam no formato WebP.
 
-Os logotipos da empresa devem ser quadrados, se possível, e ter pelo menos 200x200px se forem PNGs (imagens não vetoriais).
+Os logotipos da empresa devem ser quadrados, se possível, e ter pelo menos 200x200px se forem PNGs (imagens não-vetorizadas).
 
 ## Otimização
 
@@ -25,9 +25,9 @@ optipng -o7 file.png
 
 #### Inkscape
 
-[Examine](https://github.com/scour-project/scour) todas as imagens SVG.
+[Examine](https://github.com/scour-project/scour) Todas as imagens no formato SVG.
 
-In Inkscape:
+No Inkscape:
 
 1. Arquivo > Salvar como...
 2. Definir o tipo como: SVG otimizado (*.svg)
@@ -37,39 +37,39 @@ Na guia **Opções**:
 - **Número de dígitos significativos para coordenadas** > **5**
 - [x] Ativar a opção **Reduzir valores de cor**
 - [x] Ative a opção **Converter atributos CSS em atributos XML**
-- [x] Turn on **Collapse groups**
-- [x] Turn on **Create groups for similar attributes**
-- [ ] Turn off **Keep editor data**
-- [ ] Turn off **Keep unreferenced definitions**
-- [x] Turn on **Work around renderer bugs**
+- [x] Ativar **grupos de recolhimento**
+- [Ative a opção **Criar grupos para atributos semelhantes**
+- [ ] Desativar **Manter dados do editor**
+- [Desativar **Manter definições não referenciadas**
+- [x] Ativar a opção Contornar **bugs do renderizador**
 
-In the **SVG Output** tab under **Document options**:
+Na guia **Saída SVG**, em **Opções do documento**:
 
-- [ ] Turn off **Remove the XML declaration**
-- [x] Turn on **Remove metadata**
-- [x] Turn on **Remove comments**
-- [x] Turn on **Embedded raster images**
-- [x] Turn on **Enable viewboxing**
+- [Desligar **Remover a declaração XML**
+- [x] Ativar a opção **Remover metadados**
+- [x] Ativar a opção **Remover comentários**
+- [x] Ativar **imagens raster incorporadas**
+- [x] Ative **a opção Ativar caixa de visualização**
 
-In the **SVG Output** under **Pretty-printing**:
+Na **saída SVG**, em **Pretty-printing**:
 
-- [ ] Turn off **Format output with line-breaks and indentation**
-- **Indentation characters** > Select **Space**
-- **Depth of indentation** > **1**
-- [ ] Turn off **Strip the "xml:space" attribute from the root SVG element**
+- [ ] Desativar **Formatar saída com quebras de linha, indentação e recuo**
+- **Caracteres de recuo** > Selecionar **espaço**
+- **Profundidade de indentação** > **1**
+- [ **Desativar o atributo "xml:space" do elemento SVG raiz**
 
-In the **IDs** tab:
+Na guia **IDs**:
 
-- [x] Turn on **Remove unused IDs**
-- [ ] Turn off **Shorten IDs**
-- **Prefix shortened IDs with** > `leave blank`
-- [x] Turn on **Preserve manually created IDs not ending with digits**
-- **Preserve the following IDs** > `leave blank`
-- **Preserve IDs starting with** > `leave blank`
+- [x] Ativar a opção **Remover IDs não utilizados**
+- [ ] Desativar **Encurtar IDs**
+- **Prefixar IDs abreviados com** > `deixar em branco`
+- [x] Ativar **Preservar IDs criadas manualmente que não terminam com dígitos**
+- **Preserve as seguintes IDs** > `deixar em branco`
+- **Preservar IDs que começam com** > `deixar em branco`
 
 #### CLI
 
-The same can be achieved with the [Scour](https://github.com/scour-project/scour) command:
+O mesmo pode ser feito com o comando [Scour](https://github.com/scour-project/scour):
 
 ```bash
 scour --set-precision=5 \
