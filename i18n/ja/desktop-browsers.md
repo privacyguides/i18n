@@ -110,13 +110,9 @@ Mullvad Browserは常にプライベートブラウジングモードで動作�
 
 ### Mullvad Leta
 
-Mullvad Browserは
-
-Mullvad Leta</strong>が標準の検索エンジンになっています。Mullvad LetaはGoogleもしくはBrave（Mullvad Letaのウェブページから設定可能）で検索するプロキシの役割を果たします。</p> 
+Mullvad Browserは [**Mullvad Leta**](https://leta.mullvad.net) が標準の検索エンジンになっています。Mullvad LetaはGoogleもしくはBrave（Mullvad Letaのウェブページから設定可能）で検索するプロキシの役割を果たします。
 
 もしMullvad VPNのユーザーであるなら、Mullvad LetaのようなVPNプロバイダーが提供するサービスを利用することは一定程度のリスクが生じます。 Mullvadは（VPN経由で）利用している本当のIPアドレスと（Leta経由での）検索アクティビティに理論上はアクセスできてしまいます。これらは本来VPNが分離しようとしているものです。 MullvadはMullvad VPNの利用者やMullvad Letaの利用者からはほとんど情報を収集しませんが、そのようなリスクについて懸念があるならば、別の[検索エンジン](search-engines.md)の利用を検討すべきです。
-
-
 
 ## Firefox
 
@@ -155,8 +151,6 @@ Firefoxは、Mozillaのウェブサイトからのダウンロードに固有の
 
 以下のオプションは :material-menu: → **設定**から変更できます。
 
-
-
 #### 検索
 
 - [ ] **検索候補を表示する**からチェックを外す
@@ -165,8 +159,6 @@ Firefoxは、Mozillaのウェブサイトからのダウンロードに固有の
 
 「検索候補を表示する」機能は検索をしなくても、アドレスバーに入力した文字をすべてデフォルトの検索エンジンに送信します。 「検索候補を表示する」機能を無効化することで検索エンジンに送る情報をより厳密に決めることができます。
 
-
-
 ##### Firefox Suggest (アメリカのみ)
 
 [Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest)は「検索候補を表示する」と同様の機能を提供します（アメリカのみで利用可能）。 同じ理由でFirefox suggestも無効化することを推奨します。 **アドレスバー**のヘッダーに以下のオプションが表示されない場合、この機能は提供されていないので、設定を変更する必要はありません。
@@ -174,11 +166,7 @@ Firefoxは、Mozillaのウェブサイトからのダウンロードに固有の
 - [ ] **「Firefoxからの提案」**からチェックを外す
 - [ ] **スポンサーからの提案**のチェックを外すこと
 
-
-
 #### プライバシーとセキュリティ
-
-
 
 ##### 強化型トラッキング防止機能
 
@@ -186,17 +174,13 @@ Firefoxは、Mozillaのウェブサイトからのダウンロードに固有の
 
 この機能はソーシャルメディアトラッカー、フィンガープリンティングスクリプト（*すべての*フィンガープリンティングから保護されるわけではありません）、暗号通貨マイニング、クロスサイトのトラッキングクッキーやその他トラッキングコンテンツをブロッキングし、あなたを保護します。 強化型トラッキング防止機能は一般的な多くの脅威に対応しますが、ウェブサイトのユーザビリティに与える影響を最小限に抑えるため、すべてのトラッキングをブロックするわけではありません。
 
-
-
 ##### 終了時のクリーンアップ
 
-特定のサイトのログインを維持したい場合、**Cookieとサイトデータ** →**例外を管理…**から例外を許可することができます。
+特定のサイトのログインを維持したい場合、**Cookieとサイトデータ** →**例外を管理…**から例外を許可することができます
 
 - [x] **Firefox を閉じたときに Cookie とサイトデータを削除する**にチェックをつける
 
-This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
-
-
+この機能により永続的なクッキーからは保護されますが、1回のブラウジングセッション中に取得されたクッキーからは保護されません。 有効化することでFirefoxを再起動するだけでブラウザのクッキーを簡単に削除できるようになります。 よく見る特定のサイトのログインを維持したい場合、サイトごとに例外を設定することができます。
 
 ##### テレメトリー
 
@@ -204,65 +188,51 @@ This protects you from persistent cookies, but does not protect you against cook
 - [ ] **Firefox に調査のインストールと実行を許可する**のチェックを外す
 - [ ] **Firefox があなたに代わって未送信のクラッシュレポートを送信することを許可する**のチェックを外すこと
 
-According to Mozilla's privacy policy for Firefox,
-
-
+MozillaのFirefoxプライバシーポリシーでは以下のように記載されています
 
 > Firefox は、Firefoxのバージョンと言語、デバイスのオペレーティングシステムとハードウェア構成、メモリー、クラッシュやエラーに関する基本情報、アップデート、セーフブラウジング、アクティベーションなどの自動処理の結果に関するデータを送信します。 Firefoxが私たちにデータを送信するとき、あなたのIPアドレスは一時的に私たちのサーバーログの一部として収集されます。
 
-Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt out:
+さらに、Mozillaアカウントサービスは[技術的なデータ](https://mozilla.org/privacy/mozilla-accounts)を収集します。 もし、Mozillaアカウントを利用している場合、以下のものをオプトアウトすることができます：
 
 1. [accounts.firefox.comのプロフィール設定](https://accounts.firefox.com/settings#data-collection)を開く
 2. **データの収集と使用** > **Firefoxアカウントの改善を支援する**のチェックを外す
 
+##### ウェブサイトの広告設定
 
+- [ ] **プライバシー保護された広告解析をウェブサイトに許可する**のチェックを外す
 
-##### Website Advertising Preferences
+Firefox 128から、[プライバシー保護されたアトリビューション](https://support.mozilla.org/kb/privacy-preserving-attribution)（PPA）の新たな設定が追加され、[デフォルトで有効](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2)になりました。 従来のJavaScriptベースのトラッキングの代わりにPPAにより、広告主がウェブブラウザを通じてウェブキャンペーンの効果測定ができるようになります。 ユーザーが利用するブラウザの責任の範囲外であると考えていますが、Arkenfoxではデフォルトで無効化されていることは、この機能を無効化する指針になり得ます。
 
-- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
-
-With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
-
-
-
-##### HTTPS-Only Mode
+##### HTTPS-Only モード
 
 - [x] **すべてのウィンドウで HTTPS-Only モードを有効にする**を選択する
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
-
-
+この機能により、意図せずプレーンテキストのHTTPでウェブサイトに接続することを防ぎます。 現在ではHTTPSを使用していないサイトはほとんどないため、通常のブラウジングにおいて影響が出ることはあまりありません。
 
 ##### DNS over HTTPS
 
-If you use a [DNS over HTTPS provider](dns.md):
+[DNS over HTTPSプロバイダー](dns.md)を使用している場合：
 
-- [x] Select **Max Protection** and choose a suitable provider
+- [x] **最大限の保護**にチェックを入れ、適切なプロバイダーを選択する
 
-Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
+最大限の保護を設定することで、DNS over HTTPSが常に使用されます。Firefoxが安全なDNSリゾルバに接続できない場合や、安全なDNSリゾルバがアクセスしようとしたドメインのレコードが存在しない場合、セキュリティ警告が表示されます。 接続しているネットワークによって、DNSのセキュリティが秘密裏にダウングレードされることを防ぎます。
 
+#### 同期
 
-
-#### Sync
-
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
-
-
+[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy)により、ブラウザのデータ（履歴、ブックマークなど）をE2EE（エンドツーエンド暗号化）で保護した上で、すべてのデバイスでアクセス可能となります。
 
 ### Arkenfox（高度）
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">高度なフィンガープリンティング対策にはMullvad Browserを使用してください</p>
 
-[Mullvad Browser](#mullvad-browser)は、初期設定でArkenfoxと同じフィンガープリンティング対策を行っています。なお、この機能を利用するためにMullvadのVPNを使用する必要はありません。 VPNと組み合わせることで、Mullvad BrowserはArkenfoxにはできない仕方で、より高度な追跡スクリプトを阻止することができます。 Arkenfoxには、より柔軟性があり、ログインしたままである必要があるウェブサイトに対してサイトごとの例外を許可するという利点があります。
+[Mullvad Browser](#mullvad-browser) は、初期設定でArkenfoxと同じフィンガープリンティング対策を行っています。なお、この機能を利用するためにMullvadのVPNを使用する必要はありません。 VPNと組み合わせることで、Mullvad BrowserはArkenfoxにはできない仕方で、より高度な追跡スクリプトを阻止することができます。 Arkenfoxには、より柔軟性があり、ログインしたままである必要があるウェブサイトに対してサイトごとの例外を許可するという利点があります。
 
 </div>
 
-The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
+[Arkenfox project](https://github.com/arkenfox/user.js)はFirefoxの注意深く考えられた設定を提供しています。 もし、Arkenfoxを利用[する](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not)場合、[いくつかの設定](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common])はあえて厳しくしているためウェブサイトが正常に表示されないことがあります。必要に応じ[簡単に変更](https://github.com/arkenfox/user.js/wiki/3.1-Overrides)できます。 プロジェクトの[wiki](https://github.com/arkenfox/user.js/wiki)をすべて読むことを**強く推奨**します。 Arkenfoxは[コンテナー](https://support.mozilla.org/kb/containers#w_for-advanced-users)をサポートしています。
 
-Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
-
-
+Arkenfoxはcanvasのランダム化やFirefoxの標準で利用できるフィンガープリント対策で基本的・単純なトラッキングスクリプトを防ぐことのみを目的としています。 Mulllvad BrowserやTor BrowserのようにArkenfoxユーザーを一つの集団として扱うこと（高度なフィンガープリントトラッキングスクリプトを防ぐ唯一の方法）は目的としていません。 いつも複数のブラウザを利用できることを覚えておいてください。例えば、ログインを維持したい、もしくは信用できるウェブサイトはFirefoxとArkenfoxを利用し、通常のブラウジングではMullvad Browserを利用することもできます。
 
 ## Brave
 
@@ -304,8 +274,6 @@ Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%
 
 以下のオプションは :material-menu: → **設定**から変更できます。
 
-
-
 #### Shields
 
 Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
@@ -334,8 +302,6 @@ Brave allows you to select additional content filters within the internal `brave
 
 1. This option disables JavaScript, which will break a lot of sites. To fix them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
-
-
 
 #### Privacy and security
 
@@ -366,15 +332,11 @@ If you wish to stay logged in to a particular site you visit often, you can set 
 
 [**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser is, and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
 
-
-
 ##### Data Collection
 
 - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
 - [ ] Uncheck **Automatically send daily usage ping to Brave**
 - [ ] Uncheck **Automatically send diagnostic reports**
-
-
 
 #### Web3
 
@@ -383,21 +345,15 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 - Select **Extensions (no fallback)** under *Default Ethereum wallet*
 - Select **Extensions (no fallback)** under *Default Solana wallet*
 
-
-
 #### Extensions
 
 - [ ] Uncheck all built-in extensions you don't use
-
-
 
 #### Search engine
 
 We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
 
 - [ ] **検索候補を表示する**からチェックを外す
-
-
 
 #### System
 
@@ -409,13 +365,9 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 1. このオプションはすべてのプラットフォームにあるわけではありません。
 
-
-
 #### Brave Sync
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
-
-
 
 #### Brave Rewards and Wallet
 
@@ -423,13 +375,9 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 **Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 
-
-
 ## 規準
 
 **私たちは、推薦するどのプロジェクトとも提携していません。**客観的に推薦できるよう、[標準となる規準](about/criteria.md)に加えて、一連の明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
-
-
 
 ### 最低要件
 
@@ -440,8 +388,6 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 - Any changes required to make the browser more privacy-respecting must not negatively impact user experience.
 - Must block third-party cookies by default.
 - Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
-
-
 
 ### 満たされることが望ましい基準
 
@@ -455,7 +401,4 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 - Should provide an open-source sync server implementation.
 - Should default to a [private search engine](search-engines.md).
 
-
-
-[^1]:    
-    Braveの実装は[Brave プライバシーアップデートで詳しく説明されています: プライバシーのためのネットワーク状態のパーティショニング](https://brave.com/privacy-updates/14-partitioning-network-state)
+[^1]: Braveの実装は[Brave プライバシーアップデートで詳しく説明されています: プライバシーのためのネットワーク状態のパーティショニング](https://brave.com/privacy-updates/14-partitioning-network-state)
