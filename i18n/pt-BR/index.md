@@ -71,7 +71,7 @@ Tentar proteger todos os seus dados de todo mundo o tempo todo é impraticável,
 <div markdown>
 O **Privacy Guides** tem uma [comunidade](https://discuss.privacyguides.net) dedicada que analisa independentemente vários serviços e *ferramentas de privacidade*. Cada uma de nossas recomendações obedece a um rigoroso conjunto de critérios para garantir que elas ofereçam o maior valor para a maioria das pessoas e proporcionem o melhor equilíbrio entre privacidade, segurança e conveniência. Como parte de uma **instituição pública de caridade** sem fins lucrativos, o Privacy Guides tem rígidos **padrões jornalísticos** e políticas para garantir que nossas recomendações sejam isentas de conflitos de interesse, e não fazemos parcerias com provedores ou programas afiliados que possam influenciar nossas análises e recomendações.
 
-[:material-heart:{.pg-red} Support Our Work](about/donate.md){ class="md-button md-button--primary" }
+[:material-heart:{.pg-red} Apoie nosso trabalho](about/donate.md){ class="md-button md-button--primary" }
 
 </div>
 
@@ -96,13 +96,13 @@ Criado em 2021 devido à dificuldade de encontrar avaliadores imparciais no espa
 
 Considerado pela **WIRED**, **Tweakers.net**, **The New York Times**, e muitas outras publicações como uma fonte confiável de conhecimento sobre privacidade e segurança.
 
-[:material-information: More About Who We Are](about.md){ class="md-button" }
+[:material-information: ](about.md)[ Mais sobre quem somos{](about.md) class="md-button" }
 
 <div class="grid" markdown>
 <div markdown>
 ## O que são ferramentas de privacidade?
 
-Recomendamos uma grande variedade de **ferramentas de privacidade** (a.k.a. *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can use to improve your privacy. Muitas das ferramentas que recomendamos são totalmente gratuitas e de software de código aberto, enquanto algumas são serviços comerciais disponíveis para compra. Mudar do software convencional que consome muitos dados, como o Google Chrome e o Windows, para ferramentas voltadas para a privacidade, como o [Brave](desktop-browsers.md#brave) e o [Linux](desktop.md), pode ajudar muito a controlar as informações que você compartilha com empresas e outras pessoas.
+Recomendamos uma grande variedade de **ferramentas de privacidade** (a.k.a. *aplicativos de privacidade*, *utilitários com foco em privacidade*, *softwares que protegem seus dados privacidade*) juntamente com recomendações de software e hardware que você pode adotar para melhorar sua privacidade digital. Muitas das ferramentas que recomendamos são totalmente gratuitas e de software de código aberto, enquanto algumas são serviços comerciais disponíveis para compra. Mudar do software convencional que consome muitos dados, como o Google Chrome e o Windows, para ferramentas voltadas para a privacidade, como o [Brave](desktop-browsers.md#brave) e o [Linux](desktop.md), pode ajudar muito a controlar as informações que você compartilha com empresas e outras pessoas.
 
 [:material-check-all: Nosso Critério Geral](about/criteria.md){ class="md-button" }
 </div>
@@ -114,6 +114,6 @@ Na era moderna da exploração de dados digitais, sua privacidade nunca foi tão
 
 Muitas pessoas confundem os conceitos de privacidade, segurança e anonimato. Você verá pessoas criticando vários produtos como "não privados" quando, na verdade, elas querem dizer que eles não fornecem anonimato, por exemplo. Neste site, examinamos todos esses três tópicos, mas é importante que você entenda a diferença entre eles e quando cada um entra em ação.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
+[:material-movie-open-play-outline: Vídeo: 5 Passos para melhorar sua privacidade digital](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
 </div>
 </div>

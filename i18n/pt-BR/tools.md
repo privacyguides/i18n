@@ -120,7 +120,7 @@ Para mais detalhes sobre cada projeto, porque foram escolhidos, e dicas ou truqu
 ## Top 3 Private VPN Providers
 
 <details class="danger" markdown>
-<summary>VPNs do not provide anonymity</summary>
+<summary>As VPNs não fornecem anonimato</summary>
 
 Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
 
@@ -180,7 +180,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. Eles estão em operação desde 2013. A Proton AG está sedeada em Genebra, na Suíça. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. Eles estão em operação desde 2013. A Proton AG está sedeada em Genebra, na Suíça. O plano gratuito da Proton Mail eletrônico tem 500 MB de armazenamento com a possibilidade de expansão até 1 GB
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
 
@@ -188,7 +188,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. Eles estão operando desde 2014. Mailbox.org é sediado em Berlim, Alemanha. Accounts start with up to 2 GB storage, which can be upgraded as needed.
+    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. Eles estão operando desde 2014. Mailbox.org é sediado em Berlim, Alemanha. As contas têm a o armazenamento de 2GB em seu plano inicial, que pode ser atualizado se necessário.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#mailboxorg)
 

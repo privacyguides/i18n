@@ -48,14 +48,14 @@ To help you choose a model that fits your needs, you can look at leaderboards an
 
 ## AI Chat Clients
 
-| Feature                     | [Kobold.cpp](#koboldcpp)                                      | [Ollama](#ollama-cli)                                                         | [Llamafile](#llamafile)                                                                                            |
-| --------------------------- | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| GPU Support                 | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-check:{ .pg-green }                                      |
-| Image Generation            | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-close:{ .pg-red }                                        |
-| Speech Recognition          | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-close:{ .pg-red }                                        |
-| Auto-download Models        | :material-close:{ .pg-red }   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Few models available        |
-| Custom Parameters           | :material-check:{ .pg-green } | :material-close:{ .pg-red }   | :material-check:{ .pg-green }                                      |
-| Aplicativos multiplataforma | :material-check:{ .pg-green } | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Size limitations on Windows |
+| Feature                     | [Kobold.cpp](#koboldcpp)                                    | [Ollama](#ollama-cli)                                                       | [Llamafile](#llamafile)                                                                                            |
+| --------------------------- | --------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| GPU Support                 | :material-check:                            | :material-check:                            | :material-check:                                                                   |
+| Image Generation            | :material-check:                            | :material-close:{ .pg-red } | :material-close:{ .pg-red }                                        |
+| Speech Recognition          | :material-check:                            | :material-close:{ .pg-red } | :material-close:{ .pg-red }                                        |
+| Auto-download Models        | :material-close:{ .pg-red } | :material-check:                            | :material-alert-outline:{ .pg-orange } Few models available        |
+| Custom Parameters           | :material-check:                            | :material-close:{ .pg-red } | :material-check:                                                                   |
+| Aplicativos multiplataforma | :material-check:                            | :material-check:                            | :material-alert-outline:{ .pg-orange } Size limitations on Windows |
 
 ### Kobold.cpp
 

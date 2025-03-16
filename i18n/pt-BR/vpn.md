@@ -2,7 +2,7 @@
 meta_title: "Recomendações e Comparação de Serviços VPN Privados, Sem Patrocinadores ou Anúncios — Privacy Guides"
 title: "Serviços de VPN"
 icon: material/vpn
-description: The best VPN services for protecting your privacy and security online. Find a provider here that isn't out to spy on you.
+description: Os melhore serviços de VPN para proteção de sua privacidade digital e segurança online. Encontre aqui provedores que também não vão te espionar ou coletar seus dados.
 cover: vpn.webp
 global:
   - 
@@ -10,20 +10,20 @@ global:
     - "table tbody"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protege contra as seguintes ameaças:</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: Capitalismo de Vigilância](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-If you're looking for additional *privacy* from your ISP, on a public Wi-Fi network, or while torrenting files, a **VPN** may be the solution for you.
+Se você está procurando mais **privacidade** do seu provedor de internet (ISP), ou em uma rede Wi-Fi pública, ou ao fazer arquivos do tipo torrent, uma VPN pode será a melhor solução para você, desde que você também entenda os riscos envolvidos.
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">VPNs do not provide anonymity</p>
+<p class="admonition-title">As VPNs não fornecem anonimato</p>
 
-Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+O uso de uma VPN **não** manterá seus hábitos de navegação anônimos, nem adicionará segurança ao tráfego não seguro (HTTP).
 
-If you are looking for **anonymity**, you should use the Tor Browser. If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. Uma VPN não substitui boas práticas de segurança.
+Se você está procurando por **anonimato**, você deve usar o Navegador Tor **ao invés de ** de um serviço VPN. Se você está procurando por * * segurança * * adicional, você sempre deve verificar se está se conectando a sites que usam o prefixo HTTPS. Uma VPN não substitui boas práticas de segurança.
 
-[Download Tor](https://torproject.org){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+[Baixe o Tor Browser](https://torproject.org){ .md-button .md-button--primary } [Mitos sobre o Tor Browser  FAQ](advanced/tor-overview.md){ .md-button }
 
 </div>
 
@@ -31,13 +31,13 @@ If you are looking for **anonymity**, you should use the Tor Browser. If you're 
 
 ## Provedores Recomendados
 
-Our recommended providers use encryption, support WireGuard & OpenVPN, and have a no logging policy. Leia nossa [lista completa de requisitos](#criteria) para mais informações.
+Nossas recomendações de provedores VPN usam criptografia, aceitam métodos de pagamento como Monero, suportam WireGuard & OpenVPN, e têm uma política de não registro de seus dados. Leia nossa [lista completa de requisitos](#criteria) para mais informações.
 
-| Provider              | Countries | WireGuard                     | Port Forwarding                                        | IPv6                                                       | Anonymous Payments |
-| --------------------- | --------- | ----------------------------- | ------------------------------------------------------ | ---------------------------------------------------------- | ------------------ |
-| [Proton](#proton-vpn) | 112+      | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Partial Support | :material-information-outline:{ .pg-blue } Limited Support | Dinheiro           |
-| [IVPN](#ivpn)         | 37+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-information-outline:{ .pg-blue } Outgoing Only   | Monero, Cash       |
-| [Mullvad](#mullvad)   | 45+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-check:{ .pg-green }                              | Monero, Cash       |
+| Provedore             | Páises | WireGuard                     | Redirecionamento/Encaminhamento de portas | IPv6 (protocolo IP versão 6)                                   | Pagamentos anônimos |
+| --------------------- | ------ | ----------------------------- | ----------------------------------------- | -------------------------------------------------------------- | ------------------- |
+| [Proton](#proton-vpn) | 112+   | :material-check:              | :material-alert-outline:{ .pg-orange }    | :material-information-outline:{ .pg-blue } Segurança dos Dados | Dinheiro            |
+| [IVPN](#ivpn)         | 37+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }    | :material-information-outline:{ .pg-blue } Mail apenas         | Monero, Dinheiro    |
+| [Mullvad](#mullvad)   | 45+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }    | :material-check:{ .pg-green }                                  | Monero, Dinheiro    |
 
 ### Proton VPN
 
@@ -47,37 +47,37 @@ Our recommended providers use encryption, support WireGuard & OpenVPN, and have 
 
 **Proton VPN** é um forte concorrente no espaço VPN, e estão em funcionamento desde 2016. Proton AG está sediada na Suíça e oferece um plano gratuito limitado, bem como uma opção paga com mais recursos.
 
-[:octicons-home-16: Homepage](https://protonvpn.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://protonvpn.com/support){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
+[:octicons-home-16: Página Inicial](https://protonvpn.com){ .md-button .md-button--primary }[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Política de Privacidade" }
+[:octicons-info-16:](https://protonvpn.com/support){ .card-link title=Documentação}
+[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Código Fonte" }
+[](){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
-
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1437005085)
 - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
 - [:fontawesome-brands-windows: Windows](https://protonvpn.com/download-windows)
 - [:simple-apple: macOS](https://protonvpn.com/download-macos)
 - [:simple-linux: Linux](https://protonvpn.com/support/linux-vpn-setup)
+- [ Web]()
 
 </details>
 
 </div>
 
-#### :material-check:{ .pg-green } 112 Countries
+#### :material-check:{ .pg-green } 112 Países
 
-Proton VPN has [servers in 112 countries](https://protonvpn.com/vpn-servers) or [5](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/free-vpn/server).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Isto deve-se a um caminho mais curto (menos pulos) até ao destino.
+A Proton VPN tem [servidores em 512 países](https://protonvpn.com/vpn-servers). (1) Escolher um provedor VPN com um servidor mais próximo de você reduzirá a latência do tráfego de rede que você envia. Isto deve-se a um caminho mais curto (menos pulos) até ao destino.
 { .annotate }
 
-1. Last checked: 2024-08-06
+1. Última verificação: 06-08-2024
 
 Nós também consideramos que é melhor para a segurança das chaves privadas do provedor VPN se eles usarem [servidores dedicados](https://en.wikipedia.org/wiki/Dedicated_hosting_service), em vez de soluções compartilhadas mais baratas (com outros clientes) como [servidores virtuais privados](https://pt.wikipedia.org/wiki/Servidor_virtual_privado).
 
 #### :material-check:{ .pg-green } Revisado por auditoria independente
 
-Em Janeiro de 2020, ProtonVPN foi submetida a uma auditoria independente pela SEC Consult. A SEC Consult encontrou algumas vulnerabilidades de médio e baixo risco nos aplicativos Windows, Android e iOS da Proton VPN, todos os quais foram "devidamente corrigidos" pela Proton VPN antes que os relatórios fossem publicados. Nenhum dos problemas identificados teria proporcionado acesso remoto ao seu dispositivo ou tráfego. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit). Um [certificado de segurança](https://proton.me/blog/security-audit-all-proton-apps) foi concedido para os aplicativos do Proton Mail em 9 de Novembro de 2021 pela [Securitium](https://research.securitum.com).
+Em Janeiro de 2020, ProtonVPN foi submetida a uma auditoria independente pela SEC Consult. A SEC Consult encontrou algumas vulnerabilidades de médio e baixo risco nos aplicativos Windows, Android e iOS da Proton VPN, todos os quais foram "devidamente corrigidos" pela Proton VPN antes que os relatórios fossem publicados. Nenhum dos problemas identificados teria proporcionado acesso remoto ao seu dispositivo ou tráfego. Você pode ver os relatórios individuais para cada plataforma em [protonvpn.com](https://protonvpn.com/blog/open-source). Em abril de 2022, a Proton VPN foi submetida a [outra auditoria](https://protonvpn.com/blog/no-logs-audit). Um [certificado de segurança](https://proton.me/blog/security-audit-all-proton-apps) foi concedido para os aplicativos do Proton Mail em 9 de Novembro de 2021 pela [Securitium](https://research.securitum.com).
 
 #### :material-check:{ .pg-green } Clientes de Código Aberto (Open-Source)
 
@@ -89,17 +89,17 @@ Proton VPN, além de aceitar cartões de crédito/débito, PayPal e [Bitcoin](ad
 
 #### :material-check:{ .pg-green } Suporta WireGuard
 
-Proton VPN supports the WireGuard® protocol. [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). Além disso, WireGuard pretende ser mais simples e mais eficiente.
+IVPN tem suporte ao protocolo WireGuard®️. [O WireGuard](https://wireguard.com) é um protocolo mais recente que utiliza [criptografia](https://wireguard.com/protocol) de última geração. Além disso, WireGuard pretende ser mais simples e mais eficiente.
 
-Proton VPN [recommends](https://protonvpn.com/blog/wireguard) the use of WireGuard with their service. Proton VPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
+Proton VPN [recomenda](https://protonvpn.com/blog/wireguard) o uso do WireGuard em seus serviços. A Proton VPN também oferece um gerador de configuração do WireGuard para ser usado com os [aplicativos](https://www.wireguard.com/install/) oficiais do WireGuard.
 
-#### :material-alert-outline:{ .pg-orange } Limited IPv6 Support
+#### :material-alert-outline:{ .pg-orange } Encaminhamento Remoto de Portas
 
-Proton [now supports IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks) in their browser extension and Linux client, but only 80% of their servers are IPv6-compatible. On other platforms, the Proton VPN client will block all outgoing IPv6 traffic, so you don't have to worry about your IPv6 address being leaked, but you will not be able to connect to any IPv6-only sites, nor will you be able to connect to Proton VPN from an IPv6-only network.
+O serviço de VPN da Proton [agora suporta IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks) em sua extensão de navegador e cliente Linux, mas apenas 80% de seus servidores são compatíveis com IPv6. Em outras plataformas, o cliente Proton VPN bloqueará todo o tráfego IPv6 de saída, para que você não precise se preocupar com o vazamento do seu endereço IPv6, mas não poderá se conectar a nenhum site somente IPv6, nem poderá se conectar ao Proton VPN a partir de uma rede somente IPv6.
 
-#### :material-information-outline:{ .pg-info } Remote Port Forwarding
+#### :material-information-outline:{ .pg-info } Encaminhamento Remoto de Portas
 
-Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding) via NAT-PMP, with 60 second lease times. The official Windows and Linux apps provide an easy-to-access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup). Torrent applications often support NAT-PMP natively.
+Atualmente, o Proton VPN apenas oferece suporte ao [encaminhamento de porta](https://protonvpn.com/support/port-forwarding) remota efêmera via NAT-PMP, com tempos de concessão de 60 segundos. The official Windows and Linux apps provide an easy-to-access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup). Torrent applications often support NAT-PMP natively.
 
 #### :material-information-outline:{ .pg-blue } Anti-Censorship
 
@@ -151,7 +151,7 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 IVPN has [servers in 37 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Isto deve-se a um caminho mais curto (menos pulos) até ao destino.
 { .annotate }
 
-1. Last checked: 2024-08-06
+1. Última verificação: 06-08-2024
 
 Nós também consideramos que é melhor para a segurança das chaves privadas do provedor VPN se eles usarem [servidores dedicados](https://en.wikipedia.org/wiki/Dedicated_hosting_service), em vez de soluções compartilhadas mais baratas (com outros clientes) como [servidores virtuais privados](https://pt.wikipedia.org/wiki/Servidor_virtual_privado).
 
@@ -169,7 +169,7 @@ In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **
 
 #### :material-check:{ .pg-green } Suporta WireGuard
 
-IVPN suporta o protocolo WireGuard®️. [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). Além disso, WireGuard pretende ser mais simples e mais eficiente.
+IVPN suporta o protocolo WireGuard®️. [O WireGuard](https://wireguard.com) é um protocolo mais recente que utiliza [criptografia](https://wireguard.com/protocol) de última geração. Além disso, WireGuard pretende ser mais simples e mais eficiente.
 
 IVPN [recommends](https://ivpn.net/wireguard) the use of WireGuard with their service and, as such, the protocol is the default on all of IVPN's apps. IVPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
 
@@ -244,7 +244,7 @@ Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin
 
 #### :material-check:{ .pg-green } Suporta WireGuard
 
-Mullvad suporta o protocolo WireGuard®. [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). Além disso, WireGuard pretende ser mais simples e mais eficiente.
+Mullvad suporta o protocolo WireGuard®. [O WireGuard](https://wireguard.com) é um protocolo mais recente que utiliza [criptografia](https://wireguard.com/protocol) de última geração. Além disso, WireGuard pretende ser mais simples e mais eficiente.
 
 Mullvad [recommends](https://mullvad.net/en/help/why-wireguard) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
 
