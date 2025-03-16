@@ -198,7 +198,7 @@ These options can be found in :material-menu: → **Settings** → **Leo**.
 
 These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
 
-- [ ] Uncheck **Show search suggestions**
+- [ ] **検索候補を表示する**からチェックを外す
 
 #### Brave Sync
 
@@ -304,7 +304,7 @@ This prevents Siri from using content from Safari for Siri suggestions.
 
 - [ ] Disable **Search Engine Suggestions**
 
-This setting sends whatever you type in the address bar to the search engine set in Safari. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+This setting sends whatever you type in the address bar to the search engine set in Safari. 「検索候補を表示する」機能を無効化することで検索エンジンに送る情報をより厳密に決めることができます。
 
 #### Profiles
 
