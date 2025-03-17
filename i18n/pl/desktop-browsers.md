@@ -286,7 +286,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 <details class="warning" markdown>
 <summary>Use default filter lists</summary>
 
-Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Używanie dodatkowych list sprawi, że będziesz się wyróżniał na tle innych użytkowników i może zwiększyć ryzyko ataku powierzchniowego jeśli w Brave znajduje się exploit i złośliwa reguła zostanie dodana do jednej z list, których używasz.
 
 </details>
 

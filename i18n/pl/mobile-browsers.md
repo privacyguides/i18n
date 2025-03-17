@@ -85,19 +85,19 @@ Brave is built upon the Chromium web browser project, so it should feel familiar
 
 ### Recommended Brave Configuration
 
-Tor Browser is the only way to truly browse the internet anonymously. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
+Przeglądarka Tor to jedyny sposób aby na prawdę przeglądać internet anonimowo. Kiedy używasz Braver zalecamy zmianę następujących ustawień aby chronić twoją prywatność przed niektórymi stronami, ale wszystkie przeglądarki inne niż [Przeglądarka Tor](tor.md#tor-browser) będą możliwe do śledzenia przez *kogoś* w takim czy innym zakresie.
 
 === "Android"
 
-    These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**.
+    .
 
 === "iOS"
 
     These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy**.
 
-#### Brave shields global defaults
+####
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. Zalecamy skonfigurowanie tych ustawień [globalnie](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) pomiędzy wszystkimi stronami, które odwiedzasz.
 
 Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
 
@@ -105,9 +105,9 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
     <div class="annotate" markdown>
 
-    - [x] Select **Aggressive** under *Block trackers & ads*
+    -
     - [x] Select **Auto-redirect AMP pages**
-    - [x] Select **Auto-redirect tracking URLs**
+    -
     - [x] Select **Require all connections to use HTTPS (strict)** under *Upgrade connections to HTTPS*
     - \[x\] (Optional) Select **Block Scripts** (1)
     - [x] Select **Block third-party cookies** under *Block Cookies*
@@ -117,7 +117,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     <details class="warning" markdown>
     <summary>Use default filter lists</summary>
 
-    Brave allows you to select additional content filters within the **Content Filtering** menu or the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+    Brave pozwala wybrać dodatkowe filtry treści w menu **Filtrowanie Treści** lub bezpośrednio przez stronę `brave://adblock`. We advise against using this feature; instead, keep the default filter lists. Używanie dodatkowych list sprawi, że będziesz się wyróżniał na tle innych użytkowników i może zwiększyć ryzyko ataku powierzchniowego jeśli w Brave znajduje się exploit i złośliwa reguła zostanie dodana do jednej z list, których używasz.
 
     </details>
 
@@ -125,7 +125,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Ta opcja wyłącza JavaScript, co może wywołać nie poprawne działanie niektórych witryn. Aby je naprawić, możesz ustawić wyjątki dla poszczególnych witryn klikając na ikonę Tarczy na pasku adresu i odznaczając tą opcję w *Zaawansowane sterowanie*.
 
 === "iOS"
 
@@ -142,13 +142,13 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     <details class="warning" markdown>
     <summary>Use default filter lists</summary>
 
-    Brave allows you to select additional content filters within the **Content Filtering** menu. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+    Brave pozwala na swybranie dodatkowych filtrów treści w menu **Filtrowanie Treści**. We advise against using this feature; instead, keep the default filter lists. Używanie dodatkowych list sprawi, że będziesz się wyróżniał na tle innych użytkowników i może zwiększyć ryzyko ataku powierzchniowego jeśli w Brave znajduje się exploit i złośliwa reguła zostanie dodana do jednej z list, których używasz.
 
     </details>
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. This option disables JavaScript, which will break a lot of sites. Aby je naprawić, możesz ustawić wyjątki dla poszczególnych witryn klikając na ikonę Tarczy na pasku adresu i odznaczając tą opcję w *Zaawansowane sterowanie*.
 
 ##### Clear browsing data (Android only)
 
