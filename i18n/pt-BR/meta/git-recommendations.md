@@ -1,15 +1,15 @@
 ---
-title: Git Recommendations
-description: A guide for website contributors on using Git effectively.
+title: Recomendações para o uso do Git
+description: Um guia para colaboradores de sites para contribuir efetivamente utilizando a plataforma Git.
 ---
 
-Se você fizer alterações neste site diretamente no editor da Web do GitHub.com, você não precisará se preocupar com isso. Se você estiver desenvolvendo localmente e/ou for um editor de sites de longo prazo (que provavelmente deveria estar desenvolvendo localmente!), considere estas recomendações.
+Se você alterar este site diretamente no editor da Web do GitHub.com, você não precisará se preocupar com isso. Se você estiver desenvolvendo localmente e/ou for um editor de sites de longo prazo (que provavelmente deveria estar desenvolvendo localmente!), considere estas recomendações.
 
-## Enable SSH Key Commit Signing
+## Ativar *SSH Key Commit Signing* (assinatura de submissões via SSH)
 
-You can use an existing SSH key for signing, or [create a new one](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+É possível utilizar uma chave SSH existente para assinatura ou [criar uma nova chave](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
-1. Configure your Git client to sign commits and tags by default (remove `--global` to only sign by default for this repo):
+1. Configure seu cliente Git para assinar commits e tags por padrão (remova a configuração `--global` para assinar apenas por padrão para este repositório):
 
     ```bash
     git config --global commit.gpgsign true
@@ -17,27 +17,27 @@ You can use an existing SSH key for signing, or [create a new one](https://docs.
     git config --global tag.gpgSign true
     ```
 
-2. Set your SSH key for signing in Git with the following command, substituting `/PATH/TO/.SSH/KEY.PUB` with the path to the public key you'd like to use, e.g. `/home/user/.ssh/id_ed25519.pub`:
+2. Defina sua chave SSH para assinatura no Git com o seguinte comando, substituindo `/PATH/TO/.SSH/KEY.PUB` pelo diretório/ *path* da chave pública que você deseja usar, por exemplo, `/home/user/.ssh/id_ed25519.pub`:
 
     ```bash
     git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
     ```
 
-Ensure you [add your SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) **as a Signing Key** (as opposed to or in addition to as an Authentication Key).
+Certifique-se de adicionar [sua chave SSH à sua conta do GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account) como uma chave do tipo **assinatura** (além de uma chave de autenticação).
 
-## Rebase on Git pull
+## *Rebase* no Git pull
 
-Use `git pull --rebase` instead of `git pull` when pulling in changes from GitHub to your local machine. This way your local changes will always be "on top of" the latest changes on GitHub, and you avoid merge commits (which are disallowed in this repo).
+Você deve `git pull --rebase` em vez de `git pull` ao puxar as alterações do GitHub para sua máquina local. Dessa maneira, suas alterações locais sempre estarão "no topo" das alterações mais recentes no GitHub, e você evita <en>commits</em>/submissões de *merge* mesclagem (que não são permitidos neste repositório).
 
-You can set this to be the default behavior:
+Você pode definir essa configuração comportamento padrão:
 
 ```bash
 git config --global pull.rebase true
 ```
 
-## Rebase from `main` before submitting a PR
+## *Rebase* do `código principal` antes de enviar um PR
 
-If you are working on your own branch, run these commands before submitting a PR:
+Se no caso estiver trabalhando em sua própria ramificação/*branch*, execute os seguintes comandos comandos antes de enviar um *pull request*:
 
 ```bash
 git fetch origin
