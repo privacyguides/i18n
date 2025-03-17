@@ -90,7 +90,7 @@
 *[SaaS]: Oprogramowanie jako usługa (oprogramowanie w chmurze)
 *[SoC]: System na chipie
 *[SSO]: Logowanie jednokrotne
-*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
+*[system prompt]: System prompt czatu AI to ogólne instrukcje przekazywane przez człowieka w celu wskazania, jak powinien on działać.
 *[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
 *[TCP]: Protokół sterowania transmisją
 *[TEE]: Środowisko zaufanego wykonania
