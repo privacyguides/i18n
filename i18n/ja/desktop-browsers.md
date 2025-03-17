@@ -368,11 +368,11 @@ BraveのWeb3機能はブラウザのフィンガープリントとアタック�
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync)により、ブラウジングデータ（履歴、ブックマークなど）をすべてのデバイスで利用可能にします。アカウントは不要でE2EE（エンドツーエンド暗号化）で保護されます。
 
-#### Brave Rewards and Wallet
+#### Brave Rewardsとウォレット
 
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Brave Rewards**ではBraveで特定の行動を実行することにより、ベーシックアテンショントークン(BAT)という暗号通貨を得ることができます。 プロバイダーによるカストディアルアカウントと本人確認が必要となります。 BATを[プライベートな暗号通貨](cryptocurrency.md)として推奨はせず、[カストディアルウォレット](advanced/payments.md#wallet-custody)の使用も推奨しないため、この機能の使用は推奨しません。
 
-**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
+**Brave ウォレット**はコンピューターのローカルで動作しますが、プライベートな暗号通貨をサポートしないため、この機能も推奨しません。
 
 ## 規準
 
@@ -382,22 +382,22 @@ BraveのWeb3機能はブラウザのフィンガープリントとアタック�
 
 - オープンソースのソフトウェアであること。
 - 自動アップデートに対応していること。
-- Must receive engine updates in 0-1 days from upstream release.
-- Must be available on Linux, macOS, and Windows.
-- Any changes required to make the browser more privacy-respecting must not negatively impact user experience.
-- Must block third-party cookies by default.
-- Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- アップストリームのリリースから0～1日以内にエンジンのアップデートがあること。
+- Linux、macOS、Windowsで利用可能であること。
+- ブラウザをよりプライバシー重視にするための変更が、ユーザーエクスペリエンスを損なうものではないこと。
+- デフォルトでサードパーティクッキーをブロックしていること。
+- クロスサイトトラッキングを軽減する[state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning)をサポートしていること。[^1]
 
 ### 満たされることが望ましい基準
 
 満たされることが望ましい基準には、このカテゴリーの完璧なプロジェクトに私たちが望むものを示しています。 私たちが推薦するプロジェクトは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいれば、このページで他のプロジェクトよりも上位にランクされるかもしれません。
 
-- Should include built-in content blocking functionality.
-- Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Should support Progressive Web Apps (PWAs). PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps because PWAs benefit from your browser's regular security updates.
-- Should not include add-on functionality (bloatware) that does not impact user privacy.
-- Should not collect telemetry by default.
-- Should provide an open-source sync server implementation.
-- Should default to a [private search engine](search-engines.md).
+- ビルトインのコンテンツブロック機能があること。
+- クッキーの区画化（[Multi-Account Containers](https://support.mozilla.org/kb/containers)）をサポートすること。
+- プログレッシブウェブアプリ（PWA）をサポートすること。 PWAにより、ウェブサイトをネイティブアプリのようにコンピューターにインストールすることができます。 PWAはブラウザの定期的なセキュリティアップデートでアップデートされるため、Electronベースのアプリケーションをインストールするよりもメリットがあります。
+- ユーザーのプライバシー保護に寄与しないアドオン（ブロートウェア）が含まれないこと。
+- テレメトリーをデフォルトでは収集しないこと。
+- オープンソースの同期サーバー実装を提供していること。
+- [プライベートな検索エンジン](search-engines.md)をデフォルトで設定していること。
 
 [^1]: Braveの実装は[Brave プライバシーアップデートで詳しく説明されています: プライバシーのためのネットワーク状態のパーティショニング](https://brave.com/privacy-updates/14-partitioning-network-state)
