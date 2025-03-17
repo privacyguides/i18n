@@ -2,13 +2,13 @@
 meta_title: "Privacy Respecting Web Browsers for Android and iOS - Privacy Guides"
 title: "Przeglądarki mobilne"
 icon: octicons/device-mobile-16
-description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
+description: Obecnie zalecamy te przeglądarki do standardowego/nie anonimowego przeglądania internetu na swoim smartfonie.
 cover: mobile-browsers.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Mobile Browser Recommendations
+    name: Rekomendowane Prywatne Przeglądarki Mobilne
     url: "./"
     relatedLink: "../desktop-browsers/"
   - 
@@ -134,7 +134,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     - [x] Select **Aggressive** under *Trackers & Ads Blocking*
     - [x] Select **Strict** under *Upgrade Connections to HTTPS*
     - [x] Select **Auto-Redirect AMP pages**
-    - [x] Select **Auto-Redirect Tracking URLs**
+    - [x] Zaznacz **Automatycznie przekierowuj śledzące adresy URL**
     - \[x\] (Optional) Select **Block Scripts** (1)
     - [x] Select **Block Fingerprinting**
     - [x] Select **Site Tabs Closed** under *Auto Shred*
@@ -171,7 +171,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     - [x] Select **Close tabs on exit**
     - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
     - [ ] Uncheck **Automatically send diagnostic reports**
-    - [ ] Uncheck **Automatically send daily usage ping to Brave**
+    - [] Odznacz **Automatycznie wysyłaj pingi dziennego użycia do Brave**
 
     </div>
 
@@ -218,7 +218,7 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 [:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobieranie</summary>
 
 - [:simple-android: F-Droid](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
 - [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
@@ -243,7 +243,7 @@ These options can be found in :material-menu: → :gear: **Settings** → **Priv
 
 - [x] Select **Always use secure connections**
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
 
 #### Adblock Plus settings
 
