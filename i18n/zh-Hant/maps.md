@@ -22,13 +22,13 @@ cover: maps.webp
 
 **Organic Maps** 是一款開放原始碼、社群開發的地圖顯示和衛星導航式導航應用程式，適合步行者、駕駛和自行車手使用。 此應用程式提供以 OpenStreetMap 資料為基礎的全球離線地圖，且提供尊重隱私的導航：無位置追蹤、無資料收集、無廣告。 此應用程式可完全離線使用。
 
-Features include cycling routes, hiking trails and walking paths, turn-by-turn navigation with voice guidance, and public transport route planning (only available in supported regions and cities).
+功能包括自行車路線、登山步道和步行路線、帶有語音指示的逐向導航，以及大眾運輸路線規劃（僅在受支援的地區和城市提供）。
 
-[:octicons-home-16: Homepage](https://organicmaps.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://organicmaps.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-code-16:](https://github.com/organicmaps/organicmaps){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://organicmaps.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://organicmaps.app/privacy){ .card-link title="隱私權政策" }
+[:octicons-code-16:](https://github.com/organicmaps/organicmaps){ .card-link title="原始碼" }
 
-<details class="downloads" markdown><summary>Downloads</summary>
+<details class="downloads" markdown><summary>下載</summary>
 
 - [:simple-github: GitHub](https://github.com/organicmaps/organicmaps)
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.organicmaps)
@@ -39,7 +39,7 @@ Features include cycling routes, hiking trails and walking paths, turn-by-turn n
 
 </div>
 
-Please note that Organic Maps is a simple, basic app that lacks certain features many users might expect, such as satellite images, street view images, and real-time traffic information.
+請注意，Organic Maps 是一款簡單、基本的應用程式，缺乏許多使用者可能期望的某些功能，例如衛星影像、街景服務和即時交通資訊。
 
 ## OsmAnd
 
@@ -47,14 +47,14 @@ Please note that Organic Maps is a simple, basic app that lacks certain features
 
 ![OsmAnd logo](assets/img/maps/osmand.svg){ align=right }
 
-**OsmAnd** is an offline map and navigation application based on OpenStreetMap, offering turn-by-turn navigation for walking, cycling, driving, as well as public transport. It is open-source and does not collect any user data.
+**OsmAnd** 是基於 OpenStreetMap 的離線地圖和導航應用程式，提供步行、單車、汽機車以及大眾運輸的逐向導航。 它是開放原始碼，不會收集任何使用者資料。
 
-[:octicons-home-16: Homepage](https://osmand.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://osmand.net/docs/legal/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://osmand.net/docs/intro){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/osmandapp){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://osmand.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://osmand.net/docs/legal/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://osmand.net/docs/intro){ .card-link title="說明文件" }
+[:octicons-code-16:](https://github.com/osmandapp){ .card-link title="原始碼" }
 
-<details class="downloads" markdown><summary>Downloads</summary>
+<details class="downloads" markdown><summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.osmand)
 - [:simple-android: Android](https://osmand.net/docs/versions/free-versions)
@@ -64,7 +64,7 @@ Please note that Organic Maps is a simple, basic app that lacks certain features
 
 </div>
 
-Compared to Organic Maps, OsmAnd has more [features](https://wiki.openstreetmap.org/wiki/OsmAnd#Features) but is also more complicated to use. One noteworthy feature is the ability to overlay or underlay external map data, such as satellite images from Microsoft or [traffic data](https://web.archive.org/web/20211203063453/http://themm.net/public/osmand_traffic) from Google, although the latter is ignored by the automatic route planning. OsmAnd also has an optional integration of street view images provided by [Mapillary](https://mapillary.com).
+相較於 Organic Maps，OsmAnd 有更多 [功能](https://wiki.openstreetmap.org/wiki/OsmAnd#Features)，但使用起來也更複雜。 One noteworthy feature is the ability to overlay or underlay external map data, such as satellite images from Microsoft or [traffic data](https://web.archive.org/web/20211203063453/http://themm.net/public/osmand_traffic) from Google, although the latter is ignored by the automatic route planning. OsmAnd also has an optional integration of street view images provided by [Mapillary](https://mapillary.com).
 
 ## 標準
 
@@ -74,14 +74,14 @@ Compared to Organic Maps, OsmAnd has more [features](https://wiki.openstreetmap.
 
 - 不得根據其隱私權政策收集 PII。
 - 不得要求使用者建立帳戶。
-- Must not require users to share location data. If the user opts in to sharing their location, this data must be anonymized.
-- Must retain core functionality when offline and allow users to download maps for offline use.
+- 不得要求使用者共用位置資料。 如果使用者選擇分享其位置，則必須對此資料進行匿名處理。
+- 離線時必須保留核心功能，並允許使用者下載地圖以供離線使用。
 
 ### 最佳情況
 
 最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
-- Apps should be open source.
-- Should have route planning for public transport.
-- Should have real-time traffic information for route planning.
+- 應用程式應該是開放原始碼的。
+- 應該有大眾運輸的路線規劃。
+- 應具有即時交通資訊，以便規劃路線。
 - Should support advanced features such as detailed shop/point of interest (POI) information and reviews, topographic maps, and satellite and street view images.
