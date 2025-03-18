@@ -1,8 +1,8 @@
 ---
-meta_title: Recommended Maps and Navigation Apps - Privacy Guides
-title: Maps and Navigation
+meta_title: 推薦地圖與導航應用程式 - Privacy Guides
+title: 地圖與導航
 icon: material/map
-description: Privacy-respecting map providers and navigation apps which don't build an advertising profile based on your searches and locations.
+description: 尊重隱私的地圖提供商和導航應用程式，不會根據您的搜尋和位置建立廣告檔案。
 cover: maps.webp
 ---
 
@@ -10,9 +10,9 @@ cover: maps.webp
 
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-Use a **map and navigation app** that doesn't build an advertising profile based on your searches and location history. Instead of using Google Maps, Apple Maps, or Waze, we recommend these privacy-respecting alternatives.
+使用以下 **地圖和導航應用程式**，它們不會根據您的搜尋和位置歷史記錄建立廣告檔案。 與其使用 Google Maps、Apple Maps 或 Waze，我們建議您使用這些尊重隱私的替代方案。
 
-The recommendations here either do not collect any user data or at least do not collect personally identifying information (PII) based on each service's privacy policy. There is **no guarantee** that these privacy policies are honored.
+這裡的建議項目根據其隱私權政策不收集任何使用者資料，或至少不收集 PII。 **無法保證** 這些隱私權政策有被好好落實。
 
 ## Organic Maps
 
@@ -20,7 +20,7 @@ The recommendations here either do not collect any user data or at least do not 
 
 ![Organic Maps logo](assets/img/maps/organic-maps.svg){ align=right }
 
-**Organic Maps** is an open source, community-developed map display and satnav-style navigation app for walkers, drivers, and cyclists. The app offers worldwide offline maps based on OpenStreetMap data, and navigation with privacy — no location tracking, no data collection, and no ads. The app can be used completely offline.
+**Organic Maps** 是一款開放原始碼、社群開發的地圖顯示和衛星導航式導航應用程式，適合步行者、駕駛和自行車手使用。 此應用程式提供以 OpenStreetMap 資料為基礎的全球離線地圖，且提供尊重隱私的導航：無位置追蹤、無資料收集、無廣告。 此應用程式可完全離線使用。
 
 Features include cycling routes, hiking trails and walking paths, turn-by-turn navigation with voice guidance, and public transport route planning (only available in supported regions and cities).
 
