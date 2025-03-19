@@ -6,8 +6,8 @@
 *[AVB]: Android 驗證啟動
 *[cgroups]: 對照組
 *[CLI]: 命令列介面
-*[CSV]: Comma-Separated Values (以逗號分開數值的文件)
-*[CVE]: Common Vulnerabilities and Exposures (常見漏洞和暴露)
+*[CSV]: 字元分隔值
+*[CVE]: 公共漏洞和暴露
 *[詐欺性設計模式]: 一種欺騙性的設計模式，目的在於欺騙使用者做某件事
 *[數位遺產功能]: 數位遺產是指在您去世之後，允許讓其他人存取您資料的功能。
 *[DNSSEC]: 網域名稱系統安全擴充套件
@@ -16,7 +16,7 @@
 *[DoQ]: 基於 QUIC 的 DNS 服務 (DNS over QUIC)
 *[DoH3]: 基於 HTTP/3 的 DNS 服務 (DNS over HTTP/3)
 *[DoT]: 基於 TLS 的 DNS 服務 (DNS over TLS)
-*[DPI]: 即：深度封包檢測 (Deep Packet Inspection)，是一種用於識別並封鎖具有特定特徵封包的技術
+*[DPI]: 深度封包檢測 (Deep Packet Inspection)，是一種用於識別並封鎖具有特定特徵封包的技術
 *[E2EE]: 端對端加密
 *[ECS]: EDNS 客戶端子網
 *[EEA]: 歐洲經濟區
@@ -49,7 +49,7 @@
 *[ISPs]: 網際網路服務提供商
 *[JNI]: Java 原生介面
 *[KYC]: 客戶身分審查
-*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
+*[LLaVA]: Large Language and Vision Assistant（多模態 AI 模型）
 *[LLM]: 大型語言模型（AI 模型，例如：ChatGPT）
 *[LUKS]: Linux 統一金鑰設定 (全磁碟加密)
 *[MAC]: 媒體存取控制
@@ -73,7 +73,7 @@
 *[PAM]: Linux 插入式驗證模組
 *[POP3]: 郵局協定第 3 版
 *[PGP]: 優良保密協定 (見 OpenPGP)
-*[PII]: 個人識別資訊
+*[PII]: 個人可識別資訊
 *[QNAME]: 限定名稱
 *[QUIC]: 以 UDP 為基礎的網路協定，旨在結合 UDP 的速度與 TCP 的可靠性。
 *[rate limits]: Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time.
