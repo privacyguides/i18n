@@ -43,8 +43,6 @@ Brave Search 包括獨特的功能，如[討論](https://search.brave.com/help/d
 [:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="隱私權政策" }
 [:octicons-info-16:](https://search.brave.com/help){ .card-link title=說明文件}
 
-</details>
-
 </div>
 
 請注意，如果您在登入 Premium 帳戶時使用 Brave Search，可能會讓 Brave 更容易將查詢與特定使用者相關聯。
@@ -66,8 +64,6 @@ DuckDuckGo 是 [Tor瀏覽器](tor.md#tor-browser) 的預設搜尋引擎，也是
 [:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="隱私權政策" }
 [:octicons-info-16:](https://help.duckduckgo.com){ .card-link title=說明文件}
 
-</details>
-
 </div>
 
 DuckDuckGo 提供 [另外](https://help.duckduckgo.com/features/non-javascript) 兩種版本搜尋引擎，兩者皆不需要JavaScript。 然而，這些版本缺少特色。 這些版本也可以透過 Tor 洋蔥網址各自附加[ /lite ](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite)或[/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) 的版本。
@@ -85,8 +81,6 @@ DuckDuckGo 提供 [另外](https://help.duckduckgo.com/features/non-javascript) 
 [:simple-torbrowser:](http://startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion){ .card-link title="洋蔥服務" }
 [:octicons-eye-16:](https://startpage.com/en/privacy-policy){ .card-link title="隱私權政策" }
 [:octicons-info-16:](https://support.startpage.com/hc/categories/4481917470356-Startpage-Search-Engine){ .card-link title=說明文件}
-
-</details>
 
 </div>
 
@@ -109,8 +103,6 @@ Startpage 先前限制了 VPN 和[Tor](tor.md) 用戶，但他們最近創建[�
 [:octicons-home-16: Homepage](https://searxng.org){ .md-button .md-button--primary }
 [:octicons-server-16:](https://searx.space){ .card-link title="Public Instances"}
 [:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Source Code" }
-
-</details>
 
 </div>
 

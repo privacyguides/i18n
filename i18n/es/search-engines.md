@@ -43,8 +43,6 @@ Brave Search incluye funciones exclusivas como [Discusiones](https://search.brav
 [:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Politica de Privacidad" }
 [:octicons-info-16:](https://search.brave.com/help){ .card-link title=Documentación}
 
-</details>
-
 </div>
 
 Tenga en cuenta que si utiliza Brave Search mientras está conectado a una cuenta Premium, puede que sea más fácil para Brave correlacionar las consultas con usuarios específicos.
@@ -66,8 +64,6 @@ DuckDuckGo es el motor de búsqueda predeterminado de [Tor Browser](tor.md#tor-b
 [:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Politica de Privacidad" }
 [:octicons-info-16:](https://help.duckduckgo.com){ .card-link title=Documentación}
 
-</details>
-
 </div>
 
 DuckDuckGo ofrece [otras dos versiones](https://help.duckduckgo.com/features/non-javascript) de su motor de búsqueda y ninguna de ellas requiere JavaScript. Sin embargo, estas versiones carecen de funciones. Estas versiones también pueden usarse junto con su dirección oculta Tor añadiendo [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) o [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) para la versión respectiva.
@@ -85,8 +81,6 @@ DuckDuckGo ofrece [otras dos versiones](https://help.duckduckgo.com/features/non
 [:simple-torbrowser:](http://startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion){ .card-link title="Servicio Onion" }
 [:octicons-eye-16:](https://startpage.com/en/privacy-policy){ .card-link title="Politica de Privacidad" }
 [:octicons-info-16:](https://support.startpage.com/hc/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentación}
-
-</details>
 
 </div>
 
@@ -109,8 +103,6 @@ Un [metabuscador](https://en.wikipedia.org/wiki/Metasearch_engine) agrega los re
 [:octicons-home-16: Página Principal](https://searxng.org){ .md-button .md-button--primary }
 [:octicons-server-16:](https://searx.space){ .card-link title="Instancias Públicas"}
 [:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Código Fuente" }
-
-</details>
 
 </div>
 

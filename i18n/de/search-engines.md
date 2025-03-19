@@ -43,8 +43,6 @@ Brave Search enthält einzigartige Funktionen wie [Diskussionen](https://search.
 [:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Datenschutzrichtlinie" }
 [:octicons-info-16:](https://search.brave.com/help){ .card-link title=Dokumentation}
 
-</details>
-
 </div>
 
 Note that if you use Brave Search while logged in to a Premium account, it may make it easier for Brave to correlate queries with specific users.
@@ -66,8 +64,6 @@ DuckDuckGo is the default search engine for the [Tor Browser](tor.md#tor-browser
 [:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Datenschutzrichtlinie" }
 [:octicons-info-16:](https://help.duckduckgo.com){ .card-link title=Dokumentation}
 
-</details>
-
 </div>
 
 DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-javascript) of their search engine, both of which do not require JavaScript. Allerdings fehlen diesen Versionen einige Funktionen. These versions can also be used in conjunction with their Tor hidden address by appending [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) or [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) for the respective version.
@@ -85,8 +81,6 @@ DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-
 [:simple-torbrowser:](http://startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://startpage.com/en/privacy-policy){ .card-link title="Datenschutzrichtlinie" }
 [:octicons-info-16:](https://support.startpage.com/hc/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Dokumentation}
-
-</details>
 
 </div>
 
@@ -109,8 +103,6 @@ Eine [Metasuchmaschine](https://en.wikipedia.org/wiki/Metasearch_engine) aggregi
 [:octicons-home-16: Homepage](https://searxng.org){ .md-button .md-button--primary }
 [:octicons-server-16:](https://searx.space){ .card-link title="Öffentliche Instanz"}
 [:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Quellcode" }
-
-</details>
 
 </div>
 

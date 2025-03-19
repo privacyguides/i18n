@@ -54,7 +54,7 @@ No recomendamos utilizar la [aplicación con cifrado de extremo a extremo](https
 
 ![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ align=right }
 
-**CryptPad** es una alternativa privada a las herramientas ofimáticas más populares. Todos los contenidos de este servicio web están cifrados de extremo a extremo y pueden compartirse fácilmente con otros usuarios.
+**CryptPad** es una alternativa privada a las herramientas ofimáticas más populares. Todos los contenidos de este servicio web están cifrados de extremo a extremo y pueden compartirse fácilmente con otros usuarios. [:material-star-box: Read our latest CryptPad review.](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/)
 
 [:octicons-home-16: Página Principal](https://cryptpad.fr){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE){ .card-link title="Política de Privacidad" }
