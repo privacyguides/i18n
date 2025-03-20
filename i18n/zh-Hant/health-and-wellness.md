@@ -1,8 +1,8 @@
 ---
-meta_title: Privacy Respecting Health and Wellness apps for Android and iOS - Privacy Guides
-title: Health and Wellness Apps
+meta_title: 尊重隱私的 Android 和 iOS 健康應用程式 - Privacy Guides
+title: 健康與保健
 icon: material/heart-pulse
-description: These applications are what we currently recommend for all health and fitness-related activites on your phone.
+description: 我們目前建議您在手機上使用這些應用程式來處理所有與健康相關的事務。
 cover: health-cover.webp
 ---
 
@@ -10,11 +10,11 @@ cover: health-cover.webp
 
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-Keep track of your health and fitness-related goals with these apps. Unlike their mainstream alternatives, your personal health information will be kept private.
+使用這些應用程式追蹤您的健康。 與他們替代的主流方案不同，您的個人健康資訊將被保密。
 
-## Menstrual Cycle Tracking
+## 月經週期追蹤
 
-Popular menstrual trackers like [Flo](https://techcrunch.com/2021/01/13/flo-gets-ftc-slap-for-sharing-user-data-when-it-promised-privacy) are notorious for collecting and sharing your user data. Depending on your jurisdiction, this may lead to [legal consequences](https://forbes.com/sites/abigaildubiniecki/2024/11/14/post-roe-your-period-app-data-could-be-used-against-you) affecting your reproductive autonomy.
+廣受歡迎的經期追蹤器，如： [Flo](https://techcrunch.com/2021/01/13/flo-gets-ftc-slap-for-sharing-user-data-when-it-promised-privacy)，因收集和分享您的使用者資料而臭名昭著。 Depending on your jurisdiction, this may lead to [legal consequences](https://forbes.com/sites/abigaildubiniecki/2024/11/14/post-roe-your-period-app-data-could-be-used-against-you) affecting your reproductive autonomy.
 
 ### drip.
 
