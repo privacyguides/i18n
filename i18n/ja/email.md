@@ -34,7 +34,7 @@ global:
 
 ## OpenPGP対応サービス
 
-These providers natively support OpenPGP encryption/decryption and the [Web Key Directory standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic E2EE emails. 例えば、Proton MailのユーザはMailbox.orgのユーザにE2EEメッセージを送れますし、OpenPGPで暗号化された通知を、それをサポートするインターネットサービスから受け取ることができます。
+OpenPGPによる暗号化・復号化や[Web Key Directory規格](basics/email-security.md#what-is-the-web-key-directory-standard)をネイティブサポートしているプロバイダーでは、プロバイダーに依存しないE2EE（エンドツーエンド暗号化）メールが利用可能です。 例えば、Proton MailのユーザはMailbox.orgのユーザにE2EEメッセージを送れますし、OpenPGPで暗号化された通知を、それをサポートするインターネットサービスから受け取ることができます。
 
 <div class="grid cards" markdown>
 
@@ -44,11 +44,11 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">注意</p>
 
-When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](basics/email-security.md#email-metadata-overview).
+OpenPGPのようなE2EE（エンドツーエンド暗号化）を利用しても、件名などを含むメールのヘッダーには暗号化されていないメタデータが残ります！ 詳細は [電子メールのメタデータ](basics/email-security.md#email-metadata-overview)のページにあります。
 
-OpenPGP also does not support Forward secrecy, which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+OpenPGPは前方秘匿性に対応していないため、送信者であるあなたか受信者の秘密鍵が盗まれた場合、その秘密鍵で暗号化した過去を含めたすべてのメッセージが暗号化解除可能な状態となります。 [秘密鍵を保護するには？](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 </div>
 

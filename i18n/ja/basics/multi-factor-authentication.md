@@ -135,7 +135,7 @@ The command will prevent an adversary from bypassing MFA when the computer boots
 ### Linux
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">注意</p>
 
 If the hostname of your system changes (such as due to DHCP), you would be unable to login. It is vital that you set up a proper hostname for your computer before following this guide.
 
