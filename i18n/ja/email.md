@@ -58,16 +58,16 @@ OpenPGPは前方秘匿性に対応していないため、送信者であるあ�
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** は、プライバシー、暗号化、セキュリティ、使いやすさを重視したメールサービスです。 They have been in operation since 2013. Proton AG is based in Geneva, Switzerland. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+**Proton Mail** は、プライバシー、暗号化、セキュリティ、使いやすさを重視したメールサービスです。 2013年からサービスが稼働しました。 Proton AGはスイスのジュネーブを拠点としています。 Proton Mailの無料プランのメールストレージは500MBから始まり、無料で1GBまで増やすことができます。
 
-[:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
+[:octicons-home-16: ウェブページ](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>ダウンロード</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
@@ -83,13 +83,13 @@ OpenPGPは前方秘匿性に対応していないため、送信者であるあ�
 
 無料アカウントには本文の検索ができないことや、 [推奨されるデスクトップメールクライアント](email-clients.md) (Thunderbirdなど)を使用するために必要な [Proton Mail Bridge](https://proton.me/mail/bridge) を利用できないといった制限があります。 有料アカウントにはProton Mail Bridge、追加ストレージ、カスタムドメインのサポートなどの機能が含まれています。 [Securitum](https://research.securitum.com)により2021年11月9日 [監査証明書](https://proton.me/blog/security-audit-all-proton-apps) がProton Mailアプリにおくられました。
 
-If you have the Proton Unlimited plan or any multi-user Proton plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+Proton Unlimitedプランや複数ユーザープランの場合、[SimpleLogin](email-aliasing.md#simplelogin)も無料で利用できます。
 
-Proton Mail has internal crash reports that are **not** shared with third parties. This can be disabled in the web app: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+Proton Mailのクラッシュレポートは第三者に共有**されません**。 これはウェブアプリで無効にすることができます：:gear: → **すべての設定** → **アカウント** → **セキュリティとプライバシー** → **プライバシーとデータ収集**。
 
 #### :material-check:{ .pg-green } カスタムドメインとエイリアス
 
-Proton Mailの有料会員は独自ドメインでサービスや [キャッチオール](https://proton.me/support/catch-all) アドレスを使うことができます。 Proton Mail also supports [sub-addressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
+Proton Mailの有料会員は独自ドメインでサービスや [キャッチオール](https://proton.me/support/catch-all) アドレスを使うことができます。 Proton Mailはドメインを購入したくない場合に有用な[サブアドレス](https://proton.me/support/creating-aliases)に対応しています。
 
 #### :material-check:{ .pg-green } プライベートな支払い方法
 
@@ -97,7 +97,7 @@ Proton Mailは標準的なクレジット・デビットカード、 [Bitcoin](a
 
 #### :material-check:{ .pg-green } アカウントのセキュリティ
 
-Proton Mail supports TOTP [two-factor authentication](https://proton.me/support/two-factor-authentication-2fa) and [hardware security keys](https://proton.me/support/2fa-security-key) using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
+Proton MailはFIDO2やU2Fを用いたTOTP[二要素認証](https://proton.me/support/two-factor-authentication-2fa)や[ハードウェアセキュリティキー](https://proton.me/support/2fa-security-key)に対応しています。 ハードウェアセキュリティキーを使用するには、先にTOTP二要素認証の設定が必要です。
 
 #### :material-check:{ .pg-green } データのセキュリティ
 
