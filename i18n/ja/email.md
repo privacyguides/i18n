@@ -28,7 +28,7 @@ global:
 | [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                      | :material-information-outline:{ .pg-blue } メールのみ | 現金                     |
 | [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }             | :material-check:{ .pg-green }                    | サードバーティ経由でのMonero & 現金 |
 
-上記の推奨するEメールプロバイダーに加え（もしくは代わりに）、プライバシー保護のために[Eメールエイリアスサービス](email-aliasing.md)を検討してください。 特に、スパムから実際の受信トレイを保護し、マーケティング業者によるアカウントの関連付けを防ぎ、すべての受信メールをPGPで暗号化することができます。
+上記の推奨するEメールプロバイダーに加え（もしくは代わりに）、プライバシー保護のために[Eメールエイリアスサービス](email-aliasing.md)を検討してください。 特に、スパムから実際の受信トレイを保護し、企業のマーケティング活動によるアカウントの関連付けを防ぎ、すべての受信メールをPGPで暗号化することができます。
 
 - [詳細 :material-arrow-right-drop-circle:](email-aliasing.md)
 
