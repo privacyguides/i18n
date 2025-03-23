@@ -238,24 +238,24 @@ TutaはEメールや[アドレス帳の連絡先](https://tuta.com/support#encry
 
 #### :material-information-outline:{ .pg-blue } メールの暗号化
 
-Tutaは[OpenPGPを使用していません](https://tuta.com/support/#pgp)。 Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
+Tutaは[OpenPGPを使用していません](https://tuta.com/support/#pgp)。 TutaではTuta以外からの暗号化されたEメールを受信するには[一時的なTutaメールボックス](https://tuta.com/support/#encrypted-email-external)を経由する必要があります。
 
 #### :material-information-outline:{ .pg-blue } アカウントの停止
 
-Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. 料金を払えば、停止された無料アカウントを再利用できます。
+Tutaは6ヶ月間[アクティブではないフリープランのアカウント](https://tuta.com/support#inactive-accounts)を削除します。 料金を払えば、停止された無料アカウントを再利用できます。
 
 #### :material-information-outline:{ .pg-blue } 追加機能
 
-Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
+Tutaは[非営利団体](https://tuta.com/blog/secure-email-for-non-profit)向けに無料もしくは大幅な割引価格でビジネス版Tutaを提供しています。
 
 Tutaにはデジタルレガシー機能はありません。
 
 ## セルフホストメール
 
-Advanced system administrators may consider setting up their own email server. Mail servers require attention and continuous maintenance in order to keep things secure and mail delivery reliable. In addition to the "all-in-one" solutions below, we've picked out a few articles that cover a more manual approach:
+システム管理に詳しいのであれば、自前のメールサーバーの構築を検討することも一つの手段です。 安全性とメール配信の信頼性を維持するには、メールサーバーへの注意と継続的なメンテンナンスが必要になります。 以下の「オールインワン」な方法に加え、手動で設定するための記事を取り上げました：
 
-- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
-- [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide) (August 2017)
+- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019年)
+- [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide) (2017年8月)
 
 ### Stalwart
 
@@ -263,18 +263,18 @@ Advanced system administrators may consider setting up their own email server. M
 
 ![Stalwart logo](assets/img/email/stalwart.svg){ align=right }
 
-**Stalwart** is a newer mail server written in Rust which supports JMAP in addition to the standard IMAP, POP3, and SMTP. It has a wide variety of configuration options, but it also defaults to very reasonable settings (in terms of both security and features) making it easy to use immediately. It has web-based administration with TOTP 2FA support, and it allows you to enter your public PGP key to encrypt **all** incoming messages.
+**Stalwart**はRustで書かれた新しいメールサーバーで、標準的なIMAP、POP3やSMTPに加え、JMAPにも対応しています。 様々な設定は用意されていますが、デフォルトでも（セキュリティと機能の両方で）適切な設定となっているため、すぐに使い始めることができます。 TOTP二要素認証に対応するウェブベースの管理機能があり、PGP公開鍵で**すべての**受信メッセージを暗号化することができます。
 
-[:octicons-home-16: Homepage](https://stalw.art){ .md-button .md-button--primary }
-[:octicons-info-16:](https://stalw.art/docs/get-started){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/stalwartlabs){ .card-link title="Source Code" }
+[:octicons-home-16: ウェブページ](https://stalw.art){ .md-button .md-button--primary }
+[:octicons-info-16:](https://stalw.art/docs/get-started){ .card-link title="ドキュメント" }
+[:octicons-code-16:](https://github.com/stalwartlabs){ .card-link title="ソースコード" }
 [:octicons-heart-16:](https://github.com/sponsors/stalwartlabs){ .card-link title="Contribute" }
 
 </div>
 
-Stalwart's [PGP implementation](https://stalw.art/docs/encryption/overview) is unique among our self-hosted recommendations, and allows you to operate your own mail server with zero-knowledge message storage. If you additionally configure Web Key Directory on your domain, and if you use an email client which supports PGP and Web Key Directory for outgoing mail (like Thunderbird), then this is the easiest way to get self-hosted E2EE compatibility with all [Proton Mail](#proton-mail) users.
+Stalwartの[PGP実装](https://stalw.art/docs/encryption/overview)は推奨するセルフホスティングEメールの中でもユニークで、前提知識なしにメッセージストレージのある自前のメールサーバーを運用することができます。 独自ドメインにWeb Key Directoryを設定し、送信メールがPGPとWeb Key Directoryに対応したクライアント（Thunderbirdなど）を使うことで、すべての[Proton Mail](#proton-mail)に対応するセルフホスティングE2EE互換性を最も簡単に得ることができます。
 
-Stalwart does **not** have an integrated webmail, so you will need to use it with a [dedicated email client](email-clients.md) (or find an open-source webmail to self-host, like Nextcloud's Mail app). We use Stalwart for our own internal email at *Privacy Guides*.
+Stalwartにはウェブメールが**ない**ため、[専用のEメールクライアント](email-clients.md)（もしくはNextCloudのメールアプリのようなオープンソースのウェブメールをセルフホスティングする）を使う必要があります。 *Privacy Guides*ではStalwartを内部のEメールサーバーで使用しています。
 
 ### Mailcow
 
@@ -282,11 +282,11 @@ Stalwart does **not** have an integrated webmail, so you will need to use it wit
 
 ![Mailcow logo](assets/img/email/mailcow.svg){ align=right }
 
-**Mailcow** is a more advanced mail server perfect for those with a bit more Linux experience. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
+**Mailcow** はLinuxの経験がある方に最適な、より高度なメールサーバーです。 DKIMに対応したメールサーバー、アンチウイルスやスパム監視、SOGoによるウェブメールとActiveSync、二要素認証に対応したウェブベースの管理機能など、Dockerコンテナに必要なものがすべて含まれています。
 
-[:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.mailcow.email){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
+[:octicons-home-16: ウェブページ](https://mailcow.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.mailcow.email){ .card-link title="ドキュメント" }
+[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="ソースコード" }
 [:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title="Contribute" }
 
 </div>
@@ -297,39 +297,39 @@ Stalwart does **not** have an integrated webmail, so you will need to use it wit
 
 ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ align=right }
 
-**Mail-in-a-Box** is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for people to set up their own mail server.
+**Mail-in-a-Box** はUbuntu上にメールサーバーをデプロイするための自動セットアップスクリプトです。 自前のメールサーバーを簡単に立ち上げることを目的としています。
 
-[:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
+[:octicons-home-16: ウェブページ](https://mailinabox.email){ .md-button .md-button--primary }
+[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title="ドキュメント" }
+[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="ソースコード" }
 
 </div>
 
 ## 規準
 
-**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
+**推奨するプロバイダーとは提携していないことに注意してください。**[標準的な基準](about/criteria.md)に加え、業界におけるベストプラクティスの実施や新しい技術の採用などを含む、推奨するために必要なEメールプロバイダーへの明確な要件を定めています。 Eメールプロバイダーを選ぶ前に以下のリストを理解し、どのEメールプロバイダーが適切であるかを調べ、確認してください。
 
 ### テクノロジー
 
-We regard these features as important in order to provide a safe and optimal service. You should consider whether the provider which has the features you require.
+安全で最適なサービスのために以下の機能が重要であると考えています。 要件に合致する機能がプロバイダーにあるか検討してください。
 
 **最低条件：**
 
-- Encrypts email account data at rest with zero-access encryption.
-- Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
-- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
-- Operates on owned infrastructure, i.e. not built upon third-party email service providers.
+- ゼロアクセス暗号化によりEメールアカウントのデータを暗号化していること。
+- [Mbox](https://en.wikipedia.org/wiki/Mbox)もしくは[RFC5322](https://datatracker.ietf.org/doc/rfc5322)に基づいた個別の.EMLファイルとしてエクスポートできること。
+- ユーザーの独自[ドメイン名](https://en.wikipedia.org/wiki/Domain_name)が利用できること。 プロバイダーが悪化したり、プライバシーを重視しない他の会社に買収されたりした場合に備えることができるため、カスタムドメイン名はユーザーにとって非常に重要である。
+- 自社所有のインフラで運用されていること。第三者のEメールサービスプロバイダーによるサービス提供ではないこと。
 
 **満たされることが望ましい基準：**
 
-- Encrypts all account data (Contacts, Calendars, etc.) at rest with zero-access encryption.
-- Integrated webmail E2EE/PGP encryption provided as a convenience.
-- Support for [WKD](https://wiki.gnupg.org/WKD) to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key by typing: `gpg --locate-key example_user@example.com`
-- Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email, without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
-- Availability of the email provider's services via an [onion service](https://en.wikipedia.org/wiki/.onion).
-- [Sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) support.
-- Catch-all or alias functionality for those who use their own domains.
-- Use of standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
+- ゼロアクセス暗号化により、すべてのアカウントのデータ（連絡先、カレンダーなど）が暗号化されていること。
+- 利便性のため、E2EE/PGP暗号化できるウェブメールがあること。
+- HTTP経由でのOpenPGP公開鍵の探索を改善するため、[WKD](https://wiki.gnupg.org/WKD)へ対応していること。 GnuPGでは次のスクリプトで鍵を取得できます： `gpg --locate-key example_user@example.com`
+- 外部ユーザー用の一時的なメールボックスがあること。 受信者に実際のメールのコピーを送るのではなく、暗号化されたメールを送る際に役立ちます。 通常の場合、一時的なメールボックスのメールには期限があり、自動的に削除されます。 また、受信者はOpenPGPのような暗号化を設定する必要がありません。
+- [.onionサービス](https://en.wikipedia.org/wiki/.onion)経由でEメールプロバイダーのサービスが利用できること。
+- [サブアドレス](https://en.wikipedia.org/wiki/Email_address#Sub-addressing)に対応していること。
+- 独自ドメインを利用した際、キャッチオール機能もしくはエイリアス機能があること。
+- IMAP、SMTPや[JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol)などの標準的なEメールプロトコルを使用していること。 標準的なプロトコルを採用していることで、他のプロバイダーへ変更する際にすべてのメールを簡単にダウンロードすることができます。
 
 ### プライバシー
 
@@ -337,7 +337,7 @@ We regard these features as important in order to provide a safe and optimal ser
 
 **最低条件：**
 
-- Protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
+- 送信者のIPアドレスが保護されていること。`Received`ヘッダーフィールドに表示されないようフィルタリングすることを含む。
 - ユーザー名とパスワード以外に、個人情報(PII)を必要としない。
 - プライバシーポリシーがGDPRの要件を満たしている。
 
@@ -348,7 +348,7 @@ We regard these features as important in order to provide a safe and optimal ser
 
 ### セキュリティー
 
-メールサーバーは、非常に機密性の高いデータを大量に扱います。 We expect that providers will adopt best industry practices in order to protect their customers.
+メールサーバーは、非常に機密性の高いデータを大量に扱います。 プロバイダーが顧客を保護するために業界のベストプラクティスを採用することを期待している。
 
 **最低条件：**
 
