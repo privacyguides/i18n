@@ -188,7 +188,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. 2014年から運営をされています。 Mailbox.orgはドイツのベルリンに拠点を置いています。 Accounts start with up to 2 GB storage, which can be upgraded as needed.
+    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. 2014年から運営をされています。 Mailbox.orgはドイツのベルリンに拠点を置いています。 各アカウントには最大2GBのストレージが割当てられ、必要に応じてアップグレードできます。
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#mailboxorg)
 

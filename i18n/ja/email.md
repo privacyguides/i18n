@@ -113,11 +113,11 @@ Proton MailではProtonアカウントの公開鍵をWKDからHTTP経由で公�
 
 #### :material-information-outline:{ .pg-blue } アカウントの停止
 
-有料アカウントを持っており、しかし14日を過ぎても [請求への支払いが無い](https://proton.me/support/delinquency) 場合、データにアクセスできなくなります。 30日を過ぎるとアカウントは滞納者となり、受信メールは届かなくなります。 この期間も請求は継続されます。 Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address of a deactivated account.
+有料アカウントを持っており、しかし14日を過ぎても [請求への支払いが無い](https://proton.me/support/delinquency) 場合、データにアクセスできなくなります。 30日を過ぎるとアカウントは滞納者となり、受信メールは届かなくなります。 この期間も請求は継続されます。 Protonは1年間[アクティブではないフリープランのアカウントを削除します](https://proton.me/support/inactive-accounts)。 削除されたアカウントのメールアドレスは再利用**できません**。
 
 #### :material-information-outline:{ .pg-blue } 追加機能
 
-Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
+Proton Mailの[Unlimited](https://proton.me/support/proton-plans#proton-unlimited)プランでは複数のカスタムドメイン、無制限のEメールエイリアスや500GBのストレージに加え、その他のProtonサービスを利用することができます。
 
 Proton Mailにはデジタル遺産の機能はありません。
 
@@ -127,16 +127,16 @@ Proton Mailにはデジタル遺産の機能はありません。
 
 ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
 
-**Mailbox.org** は安全、広告なし、プライベートでいることを重視した、100%エコエネルギーで運営されているメールサービスです。 2014年から運営をされています。 Mailbox.orgはドイツのベルリンに拠点を置いています。 Accounts start with up to 2 GB storage, which can be upgraded as needed.
+**Mailbox.org** は安全、広告なし、プライベートでいることを重視した、100%エコエネルギーで運営されているメールサービスです。 2014年から運営をされています。 Mailbox.orgはドイツのベルリンに拠点を置いています。 各アカウントには最大2GBのストレージが割当てられ、必要に応じてアップグレードできます。
 
-[:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Documentation" }
+[:octicons-home-16: ウェブページ](https://mailbox.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="プライバシーポリシー" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="ドキュメント" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>ダウンロード</summary>
 
-- [:octicons-browser-16: Web](https://login.mailbox.org)
+- [:octicons-browser-16: ウェブ](https://login.mailbox.org)
 
 </details>
 
