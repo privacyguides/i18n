@@ -109,7 +109,7 @@ Proton Mailはメールと [カレンダー](https://proton.me/news/protoncalend
 
 Proton Mailはwebメールに [OpenPGP暗号化を組み込んでいます。](https://proton.me/support/how-to-use-pgp) 他のProton Mailアカウントへのメールは自動的に暗号化され、OpenPGPキーによる非Proton Mailアドレスへの暗号化はアカウント設定から簡単に有効化できます。 Protonは[Web Key Directory(WKD)](https://wiki.gnupg.org/WKD)による外部の鍵の自動探索にも対応しています。 WKDを使った他のプロバイダーに送信されるEメールは自動的にOpenPGPで暗号化され、PGP公開鍵と連絡先を手動で交換する必要はありません。 また、[Proton Mailではないアドレスに送るメッセージをOpenPGPを使わずに暗号化する](https://proton.me/support/password-protected-emails)こともでき、受信者はProton Mailアカウントへのサインアップが必要ありません。
 
-Proton MailではProtonアカウントの公開鍵をWKDからHTTP経由で公開します。 これにより、Proton Mailを使っていない人でも、Proton MailアカウントのOpenPGPキーを簡単に見つけることができ、プロバイダをまたいだE2EEが可能になります。 @proton.meのようなProtonの所有するドメインのEメールアドレスにのみが対象です。 カスタムドメインを使用する場合、[WKDの設定](./basics/email-security.md#what-is-the-web-key-directory-standard)が必要になります。
+Proton MailではProtonアカウントの公開鍵をWKDからHTTP経由で公開します。 これにより、Proton Mailを使っていない人でも、Proton MailアカウントのOpenPGPキーを簡単に見つけることができ、プロバイダをまたいだE2EEが可能になります。 @proton.meのようなProtonが所有するドメインのEメールアドレスのみ対象です。 カスタムドメインを使用する場合、[WKDの設定](./basics/email-security.md#what-is-the-web-key-directory-standard)が必要になります。
 
 #### :material-information-outline:{ .pg-blue } アカウントの停止
 
@@ -195,16 +195,16 @@ Mailbox.orgの全てのプランにはデジタル遺産機能があります。
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1 GB of storage.
+**Tuta** （旧 *Tutanota*）は暗号化によるセキュリティとプライバシーを重視したメールサービスです。 Tutaは2011年に設立され、ドイツのハノーバーに拠点を置いています。 無料アカウントは1GBのストレージが利用できます。
 
-[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
+[:octicons-home-16: ウェブページ](https://tuta.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="プライバシーポリシー" }
+[:octicons-info-16:](https://tuta.com/support){ .card-link title="ドキュメント" }
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="ソースコード" }
 [:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>ダウンロード</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
@@ -212,29 +212,29 @@ Mailbox.orgの全てのプランにはデジタル遺産機能があります。
 - [:fontawesome-brands-windows: Windows](https://tuta.com/#download)
 - [:simple-apple: macOS](https://tuta.com/#download)
 - [:simple-linux: Linux](https://tuta.com/#download)
-- [:octicons-browser-16: Web](https://app.tuta.com)
+- [:octicons-browser-16: ウェブ](https://app.tuta.com)
 
 </details>
 
 </div>
 
-Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
+Tutaは[IMAPプロトコル](https://tuta.com/support#imap)やサードパーティの[メールクライアント](email-clients.md)に対応しておらず、Tutaアプリに[外部のメールアカウント](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647)を追加することもできません。 [Eメールのインポート](https://github.com/tutao/tutanota/issues/630)にも現状は対応していませんが、[変更される予定](https://tuta.com/blog/kickoff-import)です。 フォルダごとに[個別もしくは一括選択](https://tuta.com/support#generalMail)してエクスポートすることはできますが、複数のフォルダがある場合は不便な可能性があります。
 
 #### :material-check:{ .pg-green } カスタムドメインとエイリアス
 
-Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/support#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/support#plus), but you can use a [catch-all](https://tuta.com/support#settings-global) with a custom domain.
+有料のTutaアカウントではプランに応じて15もしくは30のエイリアスを利用でき、[カスタムドメイン](https://tuta.com/support#custom-domain)では無制限のエイリアスが利用できます。 Tutaでは[サブアドレス（プラスアドレス）](https://tuta.com/support#plus)は使えませんが、カスタムドメインでの[キャッチオール](https://tuta.com/support#settings-global)機能を使うことができます。
 
 #### :material-information-outline:{ .pg-blue } プライベートな支払い方法
 
-Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
+TutaはクレジットカードもしくはPaypalのみ受け付けていますが、ProxyStoreとの[提携](https://tuta.com/support/#cryptocurrency)により、[暗号通貨](cryptocurrency.md)でギフトカードを購入することができます。
 
 #### :material-check:{ .pg-green } アカウントのセキュリティ
 
-Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
+TutaはTOTPもしくはU2Fによる[二要素認証](https://tuta.com/support#2fa)に対応しています。
 
 #### :material-check:{ .pg-green } データのセキュリティ
 
-Tuta has [zero access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). This means the messages and other data stored in your account are only readable by you.
+TutaはEメールや[アドレス帳の連絡先](https://tuta.com/support#encrypted-address-book)、[カレンダー](https://tuta.com/support#calendar)の[ゼロアクセス暗号化](https://tuta.com/support#what-encrypted)に対応しています。 アカウントに保存されたメッセージやその他データはあなたにしか読むことができません。
 
 #### :material-information-outline:{ .pg-blue } メールの暗号化
 
