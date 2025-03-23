@@ -353,9 +353,9 @@ Stalwartにはウェブメールが**ない**ため、[専用のEメールクラ
 **最低条件：**
 
 - TOTPなどの二要素認証によるウェブメールの保護。
-- Zero access encryption, which builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
+- 保存データの暗号化に基づく、ゼロアクセス暗号化。 プロバイダーは保有するデータの復号鍵を持たないこと。 不正を働く従業員がアクセスしたデータを流出させたり、遠隔地の敵対者がサーバーに不正アクセスして盗んだデータを公開したりすることを防ぐことができます。
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions)のサポート。
-- No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
+- [Hardenize](https://hardenize.com)や[testssl.sh](https://testssl.sh)、[Qualys SSL Labs](https://ssllabs.com/ssltest)などのツールでプロファイリングした際にTLSエラーや脆弱性がないこと。証明書関連のエラーや[Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security))の原因となった弱いDHパラメーターを含みます。
 - A server suite preference (optional on TLSv1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
 - 有効な [MTA-STS](https://tools.ietf.org/html/rfc8461) および [TLS-RPT](https://tools.ietf.org/html/rfc8460) ポリシー。
 - 有効な[DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities)レコード。
