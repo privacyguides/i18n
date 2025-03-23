@@ -144,37 +144,37 @@ Proton Mailにはデジタル遺産の機能はありません。
 
 #### :material-check:{ .pg-green } カスタムドメインとエイリアス
 
-Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox.org also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
+Mailbox.orgでは独自ドメインを使うことができ、[キャッチオール](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name)アドレスにも対応している。 Mailbox.orgはドメインを購入したくない場合に有用な[サブアドレス](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it)にも対応しています。
 
 #### :material-check:{ .pg-green } プライベートな支払い方法
 
-Mailbox.orgは決済プロセッサBitPayがドイツでの業務を停止したために暗号通貨を受け付けていません。 However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and a couple of German-specific processors: paydirekt and Sofortüberweisung.
+Mailbox.orgは決済プロセッサBitPayがドイツでの業務を停止したために暗号通貨を受け付けていません。 郵送による現金払い、銀行口座への銀金払い、銀行振込、クレジットカード、Paypalとドイツの支払いサービスであるpaydirektとSofortüberweisungに対応しています。
 
 #### :material-check:{ .pg-green } アカウントのセキュリティ
 
-Mailbox.org supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) などのウェブ標準はまだサポートされていません。
+Mailbox.orgはウェブメールに限り、[二要素認証](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa)に対応しています。 TOTPもしくは[YubiCloud](https://yubico.com/products/services-software/yubicloud)経由の[YubiKey](https://en.wikipedia.org/wiki/YubiKey)を利用できます。 [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) などのウェブ標準はまだサポートされていません。
 
 #### :material-information-outline:{ .pg-blue } データのセキュリティ
 
-Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). 新しいメッセージを受信するとすぐにあなたの公開鍵で暗号化されます。
+Mailbox.orgでは[暗号化されたメールボックス](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox)により受信メールを暗号化することができます。 新しいメッセージを受信するとすぐにあなたの公開鍵で暗号化されます。
 
-However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. その情報については、 [スタンドアロンオプション](calendar.md) の方が適切であるかもしれません。
+ただし、Mailbox.orgが利用している[Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange)はアドレス帳やカレンダーの暗号化は[対応していません](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book)。 その情報については、 [スタンドアロンオプション](calendar.md) の方が適切であるかもしれません。
 
 #### :material-check:{ .pg-green } メールの暗号化
 
-Mailbox.org has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox.org's servers. この機能はリモートの受信者がOpenPGPを持っておらず、自分のメールボックスにあるメールのコピーを複合できない場合に便利です。
+Mailbox.orgのウェブメールは[暗号化機能が組みこまれており](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard)、OpenPGP公開鍵を持つ人へのメッセージの送信が簡単にできます。 Mailbox.orgのサーバー上で[受信者がEメールの復号化をすることもできます](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp)。 この機能はリモートの受信者がOpenPGPを持っておらず、自分のメールボックスにあるメールのコピーを複合できない場合に便利です。
 
-Mailbox.orgは [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) からHTTP経由で公開鍵を発見することもサポートしています。 これにより、Mailbox.orgを使っていない人でも、Mailbox.orgアカウントのOpenPGPキーを簡単に見つけることができ、プロバイダをまたいだE2EEが可能になります。 This only applies to email addresses ending in one of Mailbox.org's own domains, like @mailbox.org. カスタムドメインを使用する場合、[WKDの設定](./basics/email-security.md#what-is-the-web-key-directory-standard)が必要になります。
+Mailbox.orgは [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) からHTTP経由で公開鍵を発見することもサポートしています。 これにより、Mailbox.orgを使っていない人でも、Mailbox.orgアカウントのOpenPGPキーを簡単に見つけることができ、プロバイダをまたいだE2EEが可能になります。 @mailbox.orgのようなMailbox.orgが所有するドメインのEメールアドレスのみ対象です。 カスタムドメインを使用する場合、[WKDの設定](./basics/email-security.md#what-is-the-web-key-directory-standard)が必要になります。
 
 #### :material-information-outline:{ .pg-blue } アカウントの停止
 
-Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+契約が終了すると、アカウントは制限付きユーザーアカウントになります。 [30日後](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract)に取消不可能な形で削除されます。
 
 #### :material-information-outline:{ .pg-blue } 追加機能
 
-You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). However, their webmail interface cannot be accessed via their .onion service, and you may experience TLS certificate errors.
+Mailbox.orgの[.onionサービス](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org)を利用し、IMAP/SMTP経由でMailbox.orgのアカウントにアクセスできます。 ただし、.onionサービスからウェブメールにはアクセスできず、TLS証明書エラーが発生する可能性があります。
 
-All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.orgはIMAPやPOP3のような標準的なアクセスプロトコルに加え、 [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) もサポートしています。
+すべてのアカウントで[暗号化可能な](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive)制限付きクラウドストレージが利用できます。 Mailbox.orgには[@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely)というメールサーバー間の接続にTLS暗号化が必須であるエイリアスもあり、TLS暗号化がなければメッセージは全く送信できません。 Mailbox.orgはIMAPやPOP3のような標準的なアクセスプロトコルに加え、 [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) もサポートしています。
 
 Mailbox.orgの全てのプランにはデジタル遺産機能があります。 相続人が申請し、遺言書を提出することを条件に、自分のデータを相続人に渡すかどうかを選択することができます。 または、名前と住所で人を指名することもできます。
 
