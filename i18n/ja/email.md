@@ -356,23 +356,23 @@ Stalwartにはウェブメールが**ない**ため、[専用のEメールクラ
 - 保存データの暗号化に基づく、ゼロアクセス暗号化。 プロバイダーは保有するデータの復号鍵を持たないこと。 不正を働く従業員がアクセスしたデータを流出させたり、遠隔地の敵対者がサーバーに不正アクセスして盗んだデータを公開したりすることを防ぐことができます。
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions)のサポート。
 - [Hardenize](https://hardenize.com)や[testssl.sh](https://testssl.sh)、[Qualys SSL Labs](https://ssllabs.com/ssltest)などのツールでプロファイリングした際にTLSエラーや脆弱性がないこと。証明書関連のエラーや[Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security))の原因となった弱いDHパラメーターを含みます。
-- A server suite preference (optional on TLSv1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
+- サーバーの暗号スイート設定が（TLSv1.3では任意となっている）前方秘匿性と認証付き暗号に対応する強力な暗号スイートを優先していること。
 - 有効な [MTA-STS](https://tools.ietf.org/html/rfc8461) および [TLS-RPT](https://tools.ietf.org/html/rfc8460) ポリシー。
 - 有効な[DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities)レコード。
 - 有効な[SPF](https://ja.wikipedia.org/wiki/Sender_Policy_Framework)および[DKIM](https://ja.wikipedia.org/wiki/DKIM)レコード。
-- Have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. If DMARC authentication is being used, the policy must be set to `reject` or `quarantine`.
-- A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
-- [SMTPS](https://en.wikipedia.org/wiki/SMTPS) submission, assuming SMTP is used.
+- 適切な[DMARC](https://en.wikipedia.org/wiki/DMARC)レコード及びポリシーを設定している、もしくは認証に[ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain)を使用していること。 DMARC認証を使用している場合、ポリシーは`reject`か`quarantine`に設定していること。
+- サーバーの暗号スイートがTLS1.2以降であること、及び[RFC8996](https://datatracker.ietf.org/doc/rfc8996)への対応計画があること。
+- [SMTPS](https://en.wikipedia.org/wiki/SMTPS)によるメール送信。
 - 以下のようなウェブサイトのセキュリティ基準：
     - [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
-    - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
-- Must support viewing of [message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
+    - 外部のドメインから読み込む場合、[サブリソース完全性](https://en.wikipedia.org/wiki/Subresource_Integrity)があること。
+- [ヘッダー情報](https://en.wikipedia.org/wiki/Email#Message_header)の表示に対応していること。ヘッダー情報はメールがフィッシングであるか判断する重要なフォレンジック上の特徴である。
 
 **満たされることが望ましい基準：**
 
-- ハードウェア認証のサポート、つまり U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
-- [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
-- Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
+- ハードウェア認証のサポート、つまり U2Fおよび[WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online)。
+- DANEへの対応と[DNS Certification Authority Authorization（CAA）リソースレコード](https://tools.ietf.org/html/rfc6844)の設定。
+- メーリングリストに投稿する際に役立つ[RFC8617](https://tools.ietf.org/html/rfc8617) [Authenticated Received Chain（ARC）](https://en.wikipedia.org/wiki/Authenticated_Received_Chain)が実装されていること。
 - 信頼できる第三者機関によるセキュリティ監査を公表
 - バグ報奨金プログラム、協調的な脆弱性開示プロセス。
 - 以下のようなウェブサイトのセキュリティ基準：
@@ -393,23 +393,23 @@ Stalwartにはウェブメールが**ない**ため、[専用のEメールクラ
 
 ### マーケティング
 
-With the email providers we recommend, we like to see responsible marketing.
+推奨するEメールプロバイダーには責任あるマーケティングを求めます。
 
 **最低条件：**
 
-- Must self-host analytics (no Google Analytics, Adobe Analytics, etc.).
+- アナリティクスをセルフホスティングしていること（Google AnalyticsやAdobe Analyticsを使用していないこと）。
 
-Must not have any irresponsible marketing, which can include the following:
+以下のような無責任なマーケティングは行ってはなりません：
 
 - 「破れない暗号化」という主張。 暗号化は、その暗号化を破る技術が将来になって現れた際には、それがもはや秘密ではなくなってしまうかもしれないということを念頭に置いて使用されるべきものです。
-- 匿名性を100％保証するという主張。 誰かが何かを100％だと主張するとき、それは失敗の確実性が全く存在しないということを意味します。 We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
+- 匿名性を100％保証するという主張。 誰かが何かを100％だと主張するとき、それは失敗の確実性が全く存在しないということを意味します。 例えば、以下のような匿名化を簡単に解除する様々な方法があります。
 
-    - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
+    - 匿名化ソフトウェア（Tor、VPNなど）を使わずにアクセスした個人情報（メールアカウント、ハンドルネームなど）を再利用する
     - [ブラウザーのフィンガープリンティングを行うこと。](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **満たされることが望ましい基準：**
 
-- Clear and easy to read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
+- 二要素認証、メールクライアント、OpenPGPなどの設定に関する明確で読みやすいドキュメント。
 
 ### 追加機能
 
