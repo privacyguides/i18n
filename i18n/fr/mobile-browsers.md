@@ -95,7 +95,7 @@ Le navigateur Tor est le seul moyen de vraiment naviguer anonymement sur Interne
 
     These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy**.
 
-#### Brave shields global defaults
+#### Paramètres par défaut des boucliers Brave
 
 Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
