@@ -109,9 +109,9 @@ Mullvad 瀏覽器預設總是使用隱私瀏覽模式運行，這意味著您的
 
 ### Mullvad Leta
 
-Mullvad Browser comes with [**Mullvad Leta**](https://leta.mullvad.net) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
+Mullvad 瀏覽器隨附 [**Mullvad Leta**](https://leta.mullvad.net) 作為預設搜尋引擎，可代理 Google 或 Brave 搜尋結果 (可在 Mullvad Leta 首頁設定)。
 
-If you are a Mullvad VPN user, there is some risk in using services like Mullvad Leta which are offered by your VPN provider themselves. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta), which is information a VPN is typically intended to separate. Even though Mullvad collects very little information about their VPN subscribers or Leta users, you should consider a different [search engine](search-engines.md) if this risk concerns you.
+如果您是 Mullvad VPN 使用者，使用由 VPN 供應商自行提供的 Mullvad Leta 等服務會有一定風險。 這是因為理論上 Mullvad 可以存取您的真實 IP 位址 (透過他們的 VPN) 和您的搜尋活動 (透過 Leta)，而 VPN 通常是要分隔這些資訊。 儘管 Mullvad 收集其 VPN 訂戶或 Leta 使用者的資訊非常少，但如果您擔心此風險，則應考慮使用其他[搜尋引擎](search-engines.md)。
 
 ## Firefox
 
