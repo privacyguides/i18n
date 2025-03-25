@@ -42,11 +42,11 @@ schema:
     name: Safari
     image: /assets/img/browsers/safari.svg
     url: https://apple.com/safari
-    applicationCategory: Web Browser
+    applicationCategory: Navigateur Internet
     operatingSystem:
       - iOS
     subjectOf:
-      "@type": WebPage
+      "@type": Page Web
       url: "./"
 ---
 
@@ -125,7 +125,7 @@ Les options "Boucliers" peuvent être réduites par site selon les besoins, mais
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Cette option désactive JavaScript, ce qui rendra inutilisable beaucoup de sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 === "iOS"
 
