@@ -74,7 +74,7 @@ Bemerkenswerte kostenlose Funktionen:
 - [x] 1 Empfänger-Mailbox
 - [x] Automatische PGP-Verschlüsselung[^1]
 
-Wenn du dein Abonnement kündigst, stehen dir die Funktionen deines bezahlten Tarifs bis zum Ende des Abrechnungszeitraums weiterhin zur Verfügung. After the end of your current billing cycle, most paid features (including any custom domains) will be [deactivated](https://addy.io/faq/#what-happens-if-i-have-a-subscription-but-then-cancel-it), paid account settings will be reverted to their defaults, and catch-all will be enabled if it was previously disabled.
+Wenn du dein Abonnement kündigst, stehen dir die Funktionen deines bezahlten Tarifs bis zum Ende des Abrechnungszeitraums weiterhin zur Verfügung. Nach Ablauf deines aktuellen Abrechnungszeitraums werden die meisten kostenpflichtigen Funktionen (einschließlich aller benutzerdefinierten Domains) [deaktiviert](https://addy.io/faq/#what-happens-if-i-have-a-subscription-but-then-cancel-it), die Einstellungen für kostenpflichtige Konten werden auf die Standardwerte zurückgesetzt und Catch-All wird aktiviert, wenn es zuvor deaktiviert war.
 
 ### SimpleLogin
 
@@ -82,7 +82,7 @@ Wenn du dein Abonnement kündigst, stehen dir die Funktionen deines bezahlten Ta
 
 ![SimpleLogin Logo](assets/img/email-aliasing/simplelogin.svg){ align=right }
 
-**SimpleLogin** is a free service which provides email aliases on a variety of shared domain names, and optionally provides paid features like unlimited aliases and custom domains.
+**SimpleLogin** ist ein kostenloser Dienst, der E-Mail-Aliase für eine Vielzahl von gemeinsam genutzten Domainnamen bereitstellt und optional kostenpflichtige Funktionen wie unbegrenzte Aliase und benutzerdefinierte Domains bietet.
 
 [:octicons-home-16: Homepage](https://simplelogin.io/de/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://simplelogin.io/privacy){ .card-link title="Datenschutzerklärung" }
@@ -104,11 +104,11 @@ Wenn du dein Abonnement kündigst, stehen dir die Funktionen deines bezahlten Ta
 
 </div>
 
-SimpleLogin was [acquired by Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) as of April 8, 2022. If you use Proton Mail for your primary mailbox, SimpleLogin is a great choice. As both products are now owned by the same company you now only have to trust a single entity. We also expect that SimpleLogin will be more tightly integrated with Proton's offerings in the future. SimpleLogin continues to support forwarding to any email provider of your choosing. Securitum [auditierte](https://simplelogin.io/blog/security-audit) SimpleLogin Anfang 2022 und alle Probleme [wurden behoben](https://simplelogin.io/audit2022/web.pdf).
+SimpleLogin wurde [von der Proton AG übernommen](https://proton.me/news/proton-and-simplelogin-join-forces), stand 8. April 2022. Wenn du Proton Mail für deine primäre Mailbox verwendest, ist SimpleLogin eine gute Wahl. Da beide Produkte nun demselben Unternehmen gehören, musst du nur noch einer Partei vertrauen. Wir gehen außerdem davon aus, dass SimpleLogin in Zukunft enger mit den Angeboten von Proton integriert werden wird. SimpleLogin unterstützt weiterhin die Weiterleitung an einen E-Mail-Anbieter deiner Wahl. Securitum [auditierte](https://simplelogin.io/blog/security-audit) SimpleLogin Anfang 2022 und alle Probleme [wurden behoben](https://simplelogin.io/audit2022/web.pdf).
 
 Du kannst dein SimpleLogin-Konto in den Einstellungen mit deinem Proton-Konto verknüpfen. Wenn du Proton Pass Plus, Proton Unlimited oder einen anderen Proton Multi-User-Tarif hast, erhältst du SimpleLogin Premium kostenlos.
 
-You can also purchase a voucher code for SimpleLogin Premium anonymously via their official reseller, [ProxyStore](https://simplelogin.io/faq).
+Du kannst auch einen Gutscheincode für SimpleLogin Premium anonym über den offiziellen Reseller [ProxyStore](https://simplelogin.io/faq) kaufen.
 
 Bemerkenswerte kostenlose Funktionen:
 
@@ -117,10 +117,10 @@ Bemerkenswerte kostenlose Funktionen:
 - [x] 1 Empfänger-Mailbox
 - [ ] Automatische PGP-Verschlüsselung[^1] ist nur bei kostenpflichtigen Tarifen verfügbar
 
-When your subscription ends, all aliases you created will still be able to receive and send emails. However, you cannot create any new aliases that would exceed the free plan limit, nor can you add a new domain, directory, or mailbox.
+Wenn dein Abonnement endet, können alle von dir erstellten Aliase weiterhin E-Mails empfangen und versenden. Jedoch kannst du weder neue Aliase, die das Limit des kostenlosen Tarifs überschreiten, erstellen, noch neue Domains, Verzeichnisse oder Mailbox hinzufügen.
 
 ## Kriterien
 
-**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we evaluate email aliasing providers to the same standard as our regular [email provider criteria](email.md#criteria) where applicable. We suggest you familiarize yourself with this list before choosing an email service, and conduct your own research to ensure the provider you choose is the right choice for you.
+**Bitte beachte, dass wir mit keinem der von uns empfohlenen Anbieter verbunden sind.** Zusätzlich zu [unseren Standardkriterien](about/criteria.md) bewerten wir E-Mail-Alias-Anbieter nach denselben Standards wie bei unseren regulären [E-Mail-Anbieter-Kriterien](email.md#criteria), sofern anwendbar. Wir empfehlen, sich mit dieser Liste vertraut zu machen, bevor du dich für einen E-Mail-Dienst entscheidest, und deine eigenen Nachforschungen anstellst, um sicherzustellen, dass der gewählte Anbieter die richtige Wahl für dich ist.
 
 [^1]: Mit der automatischen PGP-Verschlüsselung kannst du unverschlüsselte eingehende E-Mails verschlüsseln, bevor sie an dein Postfach weitergeleitet werden, sodass dein primärer Mail-Anbieter niemals unverschlüsselte E-Mail-Inhalte sieht.

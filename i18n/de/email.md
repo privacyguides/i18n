@@ -261,20 +261,20 @@ Fortgeschrittene Systemadministratoren können die Einrichtung eines eigenen E-M
 
 <div class="admonition recommendation" markdown>
 
-![Stalwart logo](assets/img/email/stalwart.svg){ align=right }
+![Stalwart Logo](assets/img/email/stalwart.svg){ align=right }
 
-**Stalwart** is a newer mail server written in Rust which supports JMAP in addition to the standard IMAP, POP3, and SMTP. It has a wide variety of configuration options, but it also defaults to very reasonable settings (in terms of both security and features) making it easy to use immediately. It has web-based administration with TOTP 2FA support, and it allows you to enter your public PGP key to encrypt **all** incoming messages.
+**Stalwart** ist ein neuerer Mail-Server, der in Rust geschrieben ist und neben den Standards IMAP, POP3, und SMTP auch JMAP unterstützt. Es verfügt über eine Vielzahl von Konfigurationsoptionen, aber  ist auch standardmäßig auf sehr vernünftige Einstellungen (sowohl in Bezug auf Sicherheit als auch Features) gesetzt. So ist es sofort einfach zu benutzen. Es ermöglicht eine webbasierte Verwaltung mit TOTP 2FA-Unterstützung, sowie die Eingabe deines öffentlichen PGP-Schlüssels um **alle** eingehenden Nachrichten zu verschlüsseln.
 
 [:octicons-home-16: Homepage](https://stalw.art){ .md-button .md-button--primary }
-[:octicons-info-16:](https://stalw.art/docs/get-started){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/stalwartlabs){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/stalwartlabs){ .card-link title="Contribute" }
+[:octicons-info-16:](https://stalw.art/docs/get-started){ .card-link title="Dokumentation" }
+[:octicons-code-16:](https://github.com/stalwartlabs){ .card-link title="Quellcode" }
+[:octicons-heart-16:](https://github.com/sponsors/stalwartlabs){ .card-link title="Unterstützen" }
 
 </div>
 
-Stalwart's [PGP implementation](https://stalw.art/docs/encryption/overview) is unique among our self-hosted recommendations, and allows you to operate your own mail server with zero-knowledge message storage. If you additionally configure Web Key Directory on your domain, and if you use an email client which supports PGP and Web Key Directory for outgoing mail (like Thunderbird), then this is the easiest way to get self-hosted E2EE compatibility with all [Proton Mail](#proton-mail) users.
+Die [PGP-Implementierung](https://stalw.art/docs/encryption/overview) von Stalwart ist einzigartig unter den von uns empfohlenen selbst gehosteten Lösungen und ermöglicht den Betrieb deines eigenen Mailservers mit Zero-Knowledge-Nachrichtenspeicherung. Wenn du zusätzlich Web Key Directory auf deiner Domain konfigurierst und einen E-Mail-Client verwendest, der PGP und Web Key Directory für ausgehende E-Mails unterstützt (wie Thunderbird), dann ist dies der einfachste Weg, um selbst gehostete E2EE-Kompatibilität mit allen [Proton Mail-Benutzern](#proton-mail) zu erreichen.
 
-Stalwart does **not** have an integrated webmail, so you will need to use it with a [dedicated email client](email-clients.md) (or find an open-source webmail to self-host, like Nextcloud's Mail app). We use Stalwart for our own internal email at *Privacy Guides*.
+Stalwart verfügt **nicht** über integriertes Webmail, sodass du es mit einem [speziellen E-Mail-Client](email-clients.md) verwenden musst (oder ein Open-Source-Webmail zum Selbsthosten finden, wie die Mail-App von Nextcloud). Wir verwenden Stalwart für unsere eigenen internen E-Mails hier bei *Privacy Guides*.
 
 ### Mailcow
 
@@ -328,7 +328,7 @@ Wir halten diese Merkmale für wichtig, um einen sicheren und optimalen Service 
 - Unterstützung für eine temporäre Mailbox für externe Benutzer. Dies ist nützlich, wenn du eine verschlüsselte E-Mail versenden möchtest, ohne eine Kopie an den Empfänger zu senden. Diese E-Mails haben in der Regel eine begrenzte Lebensdauer und werden dann automatisch gelöscht. Sie erfordern auch nicht, dass der Empfänger eine Kryptographie wie OpenPGP konfiguriert.
 - Verfügbarkeit der Dienste des E-Mail-Anbieters über einen [onion service](https://de.wikipedia.org/wiki/.onion).
 - Unterstützung [von Unteradressen](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
-- Catch-all- oder Alias-Funktionalität für diejenigen, die ihre eigenen Domains verwenden.
+- Catch-All- oder Alias-Funktionalität für diejenigen, die ihre eigenen Domains verwenden.
 - Verwendung von Standard-E-Mail-Zugriffsprotokollen wie IMAP, SMTP oder [JMAP](https://de.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standardzugriffsprotokolle stellen sicher, dass die Kunden alle ihre E-Mails problemlos herunterladen können, sollten sie zu einem anderen Anbieter wechseln wollen.
 
 ### Datenschutz

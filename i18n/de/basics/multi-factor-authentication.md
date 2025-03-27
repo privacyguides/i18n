@@ -92,7 +92,7 @@ If a website or service supports WebAuthn for the authentication, it is highly r
 
 Wir haben folgende allgemeine Empfehlungen:
 
-### Which Method Should I Use?
+### Welche Methode sollte ich verwenden?
 
 When configuring your MFA method, keep in mind that it is only as secure as your weakest authentication method you use. This means it is important that you only use the best MFA method available. For instance, if you are already using TOTP, you should disable email and SMS MFA. If you are already using FIDO2/WebAuthn, you should not be using Yubico OTP or TOTP on your account.
 
@@ -112,7 +112,7 @@ If you have to use email for MFA, make sure that the email account itself is sec
 
 If you use SMS MFA, use a carrier who will not switch your phone number to a new SIM card without account access, or use a dedicated VoIP number from a provider with similar security to avoid a [SIM swap attack](https://en.wikipedia.org/wiki/SIM_swap_scam).
 
-[MFA tools we recommend](../multi-factor-authentication.md ""){.md-button}
+[Empfohlene MFA-Tools](../multi-factor-authentication.md ""){.md-button}
 
 ## Weitere Orte zum Einrichten von MFA
 
@@ -120,17 +120,17 @@ Die Multi-Faktor-Authentisierung sichert nicht nur deine Website-Anmeldungen, so
 
 ### macOS
 
-macOS has [native support](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) for authentication with smart cards (PIV). If you have a smart card or a hardware security key that supports the PIV interface such as the YubiKey, we recommend that you follow your smart card or hardware security vendor's documentation and set up second factor authentication for your macOS computer.
+macOS bietet [native Unterstützung](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) für die Authentisierung mit Smartcards (PIV). Wenn du eine Smartcard oder einen Hardwaresicherheitsschlüssel besitzst, der die PIV-Schnittstelle unterstützt, wie z. B. der YubiKey, empfehlen wir, die Dokumentation deines Smartcard- oder Hardwaresicherheitsanbieters zu befolgen und die Zweitfaktor-Authentisierung für deinen macOS-Computer einzurichten.
 
-Yubico have a guide [Using Your YubiKey as a Smart Card in macOS](https://support.yubico.com/hc/articles/360016649059) which can help you set up your YubiKey on macOS.
+Yubico hat eine Anleitung <0>Using Your YubiKey as a Smart Card in macOS</0>, die dir bei der Einrichtung deines YubiKey unter macOS helfen kann.
 
-After your smart card/security key is set up, we recommend running this command in the Terminal:
+Nachdem deine Smartcard/dein Sicherheitsschlüssel eingerichtet ist, empfehlen wir, diesen Befehl im Terminal auszuführen:
 
 ```text
 sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLogin -bool YES
 ```
 
-The command will prevent an adversary from bypassing MFA when the computer boots.
+Der Befehl verhindert, dass ein Angreifer die MFA beim Booten des Computers umgeht.
 
 ### Linux
 
@@ -145,7 +145,7 @@ The `pam_u2f` module on Linux can provide two-factor authentication for logging 
 
 ### Qubes OS
 
-Qubes OS has support for Challenge-Response authentication with YubiKeys. If you have a YubiKey with Challenge-Response authentication support, take a look at the Qubes OS [YubiKey documentation](https://qubes-os.org/doc/yubikey) if you want to set up MFA on Qubes OS.
+Qubes OS bietet Unterstützung für das Challenge-Response-Verfahren mittels YubiKeys. Wenn du einen YubiKey mit Challenge-Response-Authentifizierungsunterstützung hast, wirf einen Blick in die Qubes OS [YubiKey-Dokumentation](https://qubes-os.org/doc/yubikey), wenn du MFA auf Qubes OS einrichten möchten.
 
 ### SSH
 

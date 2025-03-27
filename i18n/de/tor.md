@@ -31,7 +31,7 @@ schema:
 
 Das **Tor** Netzwerk besteht aus von Freiwilligen betriebenen Servern, die es kostenlos ermöglichen, die eigene Privatsphäre und Sicherheit im Internet zu verbessern. Einzelpersonen und Organisationen können auch Informationen über das Tor-Netzwerk mit ".onion versteckten Diensten" austauschen, ohne ihre Privatsphäre zu gefährden. Da der Tor-Verkehr schwer zu blockieren und zurückzuverfolgen ist, ist Tor ein effektives Werkzeug zur Zensur Umgehung.
 
-[Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor/ ""){.md-button}
+[Detaillierte Tor-Übersicht :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor/ ""){.md-button}
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tipp</p>
@@ -58,7 +58,7 @@ Wenn du Wert auf vollständige Anonymität legst, solltest du **ausschließlich*
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
 [:octicons-info-16:](https://tb-manual.torproject.org/de/){ .card-link title=Benutzerhandbuch}
 [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Quelltext" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Mitwirken}
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Unterstützen}
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -122,7 +122,7 @@ Alle Versionen sind mit der gleichen Signatur versehen, sodass sie miteinander k
 
 </div>
 
-On iOS, Orbot has some limitations that could potentially cause crashes or leaks: iOS does not have an effective OS-level feature to block connections without a VPN like Android does, and iOS has an artificial memory limit for network extensions that makes it challenging to run Tor in Orbot without crashes. Currently, it is always safer to use Tor on a desktop computer compared to a mobile device.
+Unter iOS hat Orbot einige Einschränkungen, die zu Abstürzen oder Lecks führen können: iOS hat keine effektive Funktion auf Betriebssystemebene, um Verbindungen ohne VPN zu blockieren, wie es bei Android der Fall ist. iOS hat auch eine künstliche Speicherbegrenzung für Netzwerkerweiterungen, die es schwierig macht, Tor in Orbot ohne Abstürze zu betreiben. Derzeit ist es immer sicherer, Tor auf einem Desktop-Computer zu benutzen als auf einem mobilen Gerät.
 
 ## Onion Browser (iOS)
 
@@ -149,6 +149,6 @@ Der **Onion Browser** ist ein Open-Source-Browser, mit dem du auf iOS-Geräten a
 
 Onion Browser bietet nicht das gleiche Maß an Datenschutz wie Tor Browser auf Desktop-Plattformen. Für den gelegentlichen Gebrauch ist es eine gute Möglichkeit, auf Hidden-Services zuzugreifen, aber wenn du dir Sorgen machst, von fortgeschrittenen Gegnern verfolgt oder überwacht zu werden, solltest du dich nicht auf dieses Anonymitätstool verlassen.
 
-[Notably](https://github.com/privacyguides/privacyguides.org/issues/2929), Onion Browser does not *guarantee* all requests go through Tor. When using the built-in version of Tor, [your real IP **will** be leaked via WebRTC and audio/video streams](https://onionbrowser.com/faqs) due to limitations of WebKit. It is *safer* to use Onion Browser alongside Orbot, but this still comes with some limitations on iOS (noted in the Orbot section above).
+[Wichtig:](https://github.com/privacyguides/privacyguides.org/issues/2929) der Onion Browser *garantiert nicht*, dass alle Anfragen durch Tor gehen. Bei der Verwendung der integrierte Tor Version, [**wird** deine echte IP via WebRTC und Audio/Video-Streams geleakt werden](https://onionbrowser.com/faqs), aufgrund von Einschränkungen durch WebKit. Es ist *sicherer* den Onion Browser zusammen mit Orbot zu verwenden, aber auch das ist unter iOS mit einigen Einschränkungen verbunden (siehe den Orbot Abschnitt)
 
 [^1]: Die `IsolateDestAddr`-Einstellung wird auf der [Tor Mailingliste](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) und [Whonix's Stream Isolation Dokumentation](https://whonix.org/wiki/Stream_Isolation)diskutiert, wo beide Projekte darauf hinweisen, dass es für die meisten Leute kein guter Ansatz ist.

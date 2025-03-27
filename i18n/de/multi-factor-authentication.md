@@ -1,7 +1,7 @@
 ---
-title: "Multifactor Authentication"
+title: "Multi-Faktor-Authentisierung"
 icon: 'material/two-factor-authentication'
-description: These tools assist you with securing your internet accounts with Multifactor Authentication without sending your secrets to a third-party.
+description: Diese Tools helfen dir, deine Konten mit Multi-Faktor-Authentisierung zu sichern, ohne deine Geheimnisse an Dritte weiterzugeben.
 cover: multi-factor-authentication.webp
 ---
 
@@ -16,7 +16,7 @@ cover: multi-factor-authentication.webp
 
 </div>
 
-**Multifactor Authentication Apps** implement a security standard adopted by the Internet Engineering Task Force (IETF) called **Time-based One-time Passwords**, or **TOTP**. Bei dieser Methode teilen Websites ein Geheimnis mit dir, das von deiner Authentifizierungs-App verwendet wird, um einen sechsstelligen Code (in der Regel) auf der Grundlage der aktuellen Uhrzeit zu generieren, den du bei der Anmeldung auf der Website zur Überprüfung eingibst. Typically, these codes are regenerated every 30 seconds, and once a new code is generated the old one becomes useless. Selbst wenn ein Hacker einen sechsstelligen Code erhält, gibt es für ihn keine Möglichkeit, diesen Code umzukehren, um das ursprüngliche Geheimnis zu erfahren, oder auf andere Weise vorherzusagen, wie zukünftige Codes aussehen könnten.
+**Multi-Faktor-Authentisierung Apps** implementieren einen von der Internet Engineering Task Force (IETF) verabschiedeten Sicherheitsstandard namens **Time-based One-time Passwords** (TOTP). Bei dieser Methode teilen Websites ein Geheimnis mit dir, das von deiner Authentifizierungs-App verwendet wird, um einen sechsstelligen Code (in der Regel) auf der Grundlage der aktuellen Uhrzeit zu generieren, den du bei der Anmeldung auf der Website zur Überprüfung eingibst. Normalerweise werden diese Codes alle 30 Sekunden neu generiert, und sobald ein neuer Code generiert wurde, wird der alte unbrauchbar. Selbst wenn ein Hacker einen sechsstelligen Code erhält, gibt es für ihn keine Möglichkeit, diesen Code umzukehren, um das ursprüngliche Geheimnis zu erfahren, oder auf andere Weise vorherzusagen, wie zukünftige Codes aussehen könnten.
 
 Wir empfehlen dir dringend, mobile TOTP-Apps anstelle von Desktop-Alternativen zu verwenden, da Android und iOS eine bessere Sicherheit und App-Isolierung bieten als die meisten Desktop-Betriebssysteme.
 
@@ -26,7 +26,7 @@ Wir empfehlen dir dringend, mobile TOTP-Apps anstelle von Desktop-Alternativen z
 
 ![Ente Auth Logo](assets/img/multi-factor-authentication/ente-auth.svg){ align=right }
 
-**Ente Auth** ist eine kostenlose und quelloffene Anwendung, die TOTP-Tokens speichert und erzeugt. It can be used with an online account to back up and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. Sie kann auch offline auf einem einzigen Gerät genutzt werden, ohne dass ein Konto erforderlich ist.
+**Ente Auth** ist eine kostenlose und quelloffene Anwendung, die TOTP-Tokens speichert und erzeugt. Es kann zusammen mit einem Online-Konto verwendet werden, um deine Token auf deinen Geräten zu sichern und zu synchronisieren (und über eine Weboberfläche auf sie zuzugreifen), und zwar auf sichere, E2EE Weise. Sie kann auch offline auf einem einzigen Gerät genutzt werden, ohne dass ein Konto erforderlich ist.
 
 [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Datenschutzrichtlinie" }
