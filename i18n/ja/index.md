@@ -1,6 +1,6 @@
 ---
-meta_title: "Privacy Guides: Independent Privacy & Security Resources"
-description: "Established in 2021, Privacy Guides is the most popular & trustworthy non-profit resource to find privacy tools and learn about protecting your digital life."
+meta_title: "Privacy Guides: プライバシーとセキュリティに関する独立したリソース"
+description: "2021年に設立されたPrivacy Guidesはプライバシーツールを見つけ、デジタルライフの保護について学ぶことのできる、最もよく知られた信頼できる非営利のリソースです。"
 template: home.html
 social:
   cards_layout: Home
@@ -40,27 +40,27 @@ schema:
 <!-- markdownlint-disable -->
 <div class="grid" markdown>
 <div markdown>
-## Why should I care?
+## なぜ気にしなければならないのか？
 
-> “I have nothing to hide. Why should I care about my privacy?”
+> 「隠すものは何もありません。 なぜプライバシーについて気にしなければならないのですか？」
 
-Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
+異なる人種間の結婚や女性の参政権、言論の自由など多くの権利と同様に、プライバシーの権利は常に認められているわけではありません。 プライバシーの権利を認めない独裁国家もあります。 前世代の人々はプライバシーの権利のために戦ってきました。 ==プライバシーは人間にとって固有の人権であり、==（差別されることなく）権利を有します。
 
-You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
+プライバシーと秘密を混同してはいけません。 お手洗いでは何をするか知っていますが、それでもドアを閉めます。 秘密ではなく、プライバシーを守りたいと思っているからです。 **誰にでも**守るべきものがあります。 プライバシーは人間を人間たらしめるものです。
 
-[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button" }
+[:material-book-outline: プライバシーの重要性](basics/why-privacy-matters.md){ class="md-button" }
 </div>
 
 <div markdown>
-## What should I do?
+## 何をすべきか？
 
-> First, you need to make a plan
+> まず計画を立てましょう
 
-Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. でも、心配する必要はありません。 セキュリティはプロセスであり、事前に考えることで、あなたに合った計画を立てることができます。 Security isn't just about the *privacy tools* you use or the software you download. むしろ、あなたが直面している特有の脅威と、それらを軽減する方法を理解することから始まります。
+すべてのデータをすべての人から、常に保護することは非現実的で、コストがかかり、大変です。 でも、心配する必要はありません。 セキュリティはプロセスであり、事前に考えることで、あなたに合った計画を立てることができます。 セキュリティは使う*プライバシーツール*やダウンロードするソフトウェアだけの問題ではありません。 むしろ、あなたが直面している特有の脅威と、それらを軽減する方法を理解することから始まります。
 
-==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
+==脅威を特定して対策を決めるプロセスは**脅威モデリング**と言い、==優れたセキュリティとプライバシー計画の基礎になります。
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button" }
+[:material-book-outline: 脅威モデリングに関する詳細](basics/threat-modeling.md){ class="md-button" }
 </div>
 </div>
 
