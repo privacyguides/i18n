@@ -135,7 +135,7 @@ schema:
 
 瀏覽器和作業系統所內建的密碼管理器常常不如專用密碼管理器軟體。 內建密碼管理器的優點在於與原生軟體的良好整合，但它通常功能較少，而且缺乏獨立產品所具有的隱私和安全特點。
 
-例如，Microsoft Edge 的密碼管理器根本不提供 E2EE。 Google的密碼管理員有 [optional](https://support.google.com/accounts/answer/11350823) 個E2EE ，而 [Apple](https://support.apple.com/HT202303)預設提供E2EE。
+例如，Microsoft Edge 的密碼管理器根本不提供 E2EE。 Google的密碼管理員則 [須自行啟用](https://support.google.com/accounts/answer/11350823) E2EE，而 [Apple](https://support.apple.com/HT202303) 預設提供E2EE。
 
 </div>
 
@@ -157,7 +157,7 @@ schema:
 [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1137397744)
@@ -217,7 +217,7 @@ Bitwarden 伺服器端代碼是 [開源的](https://github.com/bitwarden/server)
 
 隨著 2022 年 4 月收購 SimpleLogin，Proton 提供了「隱藏我的電子郵件」功能，可建立 10 個別名（免費方案）或無限個別名（付費方案）。
 
-The Proton Pass mobile apps and browser extension underwent an audit performed by Cure53 throughout May and June 2023. 安全分析公司的結論為：
+Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 月接受了 Cure53 的審核。 安全分析公司的結論為：
 
 > Proton Pass 應用程式和元件在安全性方面給人留下相當正面的印象。
 
@@ -316,7 +316,7 @@ Psono 為其產品提供廣泛的說明文件。 Psono 的網路用戶端可以�
 
 ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
 
-**KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal of extending and improving it with new features and bug fixes to provide a feature-rich, cross-platform, and modern open-source password manager.
+**KeePassXC** 是 KeePassX 的社群分支，是 KeePass Password Safe 的原生跨平台移植，目標是以新功能和錯誤修正來擴充和改進它，以提供一個功能豐富、跨平台和現代化的開源密碼管理器。
 
 [:octicons-home-16: 首頁](https://keepassxc.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="隱私權政策" }
@@ -346,7 +346,7 @@ KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
 
-**KeePassDX** is a lightweight password manager for Android; it allows for editing encrypted data in a single file in KeePass format and can fill in forms securely. 應用程式的 [專業版](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) 可讓您解鎖外觀和非標準協定功能，但更重要的是，它有助於並鼓勵開發。
+**KeePassDX** 是適用於 Android 的輕量級密碼管理器；可在單一檔案中以 KeePass 格式編輯加密資料，並能以安全的方式提供自動填入功能。 應用程式的 [專業版](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) 可讓您解鎖外觀和非標準協定功能；但更重要的是，它有助於並鼓勵開發。
 
 [:octicons-home-16: 首頁](https://keepassdx.com){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="說明文件" }

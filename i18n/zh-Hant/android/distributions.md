@@ -1,5 +1,5 @@
 ---
-meta_title: The Best Android Operating Systems - Privacy Guides
+meta_title: 最佳 Android 作業系統 - Privacy Guides
 title: 替代作業系統
 description: 您可以使用這些安全且尊重隱私的替代方案來取代 Android 手機上的作業系統。
 schema:
@@ -25,13 +25,13 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 - [:material-target-account: 針對性攻擊](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 - [:material-bug-outline: 被動攻擊](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-A **custom Android-based operating system** (sometimes referred to as a **custom ROM**) can be a way to achieve a higher level of privacy and security on your device. This is in contrast to the "stock" version of Android which comes with your phone from the factory, and is often deeply integrated with Google Play Services as well as other vendor software.
+**基於 Android 的自訂作業系統** (有時也稱為 **自訂 ROM**)，可以讓您的裝置擁有更高層級的隱私與安全性。 這與出廠時隨手機附送的「原廠 (stock)」Android 形成對比，「原廠」Android 通常與 Google Play 服務及其他供應商軟體深度整合。
 
-We recommend installing GrapheneOS if you have a Google Pixel as it provides improved security hardening and additional privacy features. The reasons we don't list other operating systems or devices are as follows:
+如果您擁有 Google Pixel，我們建議您安裝 GrapheneOS，因為它提供了更高的安全性和額外的隱私功能。 我們不列出其他作業系統或裝置的原因如下：
 
-- They often have [weaker security](index.md#install-a-custom-distribution).
-- Support is frequently dropped when the maintainer loses interest or upgrades their device, which is in contrast to the predictable [support cycle](https://grapheneos.org/faq#device-lifetime) that GrapheneOS follows.
-- They generally have few or no notable privacy or security improvements that make installing them worthwhile.
+- 它們通常具有 [較弱的安全性](index.md#install-a-custom-distribution)。
+- 當維護者失去興趣或升級他們的裝置時，經常會導致支援中止，這與 GrapheneOS 所遵循的可預測 [支援週期](https://grapheneos.org/faq#device-lifetime) 形成對比。
+- 它們通常在隱私或安全性改善方面少有建樹，因此不值得安裝。
 
 ## GrapheneOS
 
