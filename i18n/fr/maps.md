@@ -64,7 +64,7 @@ Please note that Organic Maps is a simple, basic app that lacks certain features
 
 </div>
 
-Compared to Organic Maps, OsmAnd has more [features](https://wiki.openstreetmap.org/wiki/OsmAnd#Features) but is also more complicated to use. One noteworthy feature is the ability to overlay or underlay external map data, such as satellite images from Microsoft or [traffic data](https://web.archive.org/web/20211203063453/http://themm.net/public/osmand_traffic) from Google, although the latter is ignored by the automatic route planning. OsmAnd also has an optional integration of street view images provided by [Mapillary](https://mapillary.com).
+Compared to Organic Maps, OsmAnd has more [features](https://wiki.openstreetmap.org/wiki/OsmAnd#Features) but is also more complicated to use. One noteworthy feature is the ability to overlay or underlay external map data, such as satellite images from Microsoft or [traffic data](https://web.archive.org/web/20211203063453/http://themm.net/public/osmand_traffic) from Google, although the latter is ignored by the automatic route planning. OsmAnd propose une intégration optionnelle de Street View via [Mapillary](https://mapillary.com).
 
 ## Critères
 
@@ -84,4 +84,4 @@ Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet
 - Apps should be open source.
 - Should have route planning for public transport.
 - Should have real-time traffic information for route planning.
-- Should support advanced features such as detailed shop/point of interest (POI) information and reviews, topographic maps, and satellite and street view images.
+- Devrait proposer des fonctionnalités avancées comme des informations détaillées et avis sur des magasins et points d'intérêts (POI) , des cartes topographiques, des cartes satellites et Street View.

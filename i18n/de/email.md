@@ -252,7 +252,7 @@ Tuta bietet keine Funktion für deinen digitalen Nachlass.
 
 ## E-Mail Selbst Hosten
 
-Fortgeschrittene Systemadministratoren können die Einrichtung eines eigenen E-Mail-Servers in Erwägung ziehen. Mailserver erfordern Aufmerksamkeit und ständige Wartung, um die Sicherheit und die Zuverlässigkeit der Mailzustellung zu gewährleisten. In addition to the "all-in-one" solutions below, we've picked out a few articles that cover a more manual approach:
+Fortgeschrittene Systemadministratoren können die Einrichtung eines eigenen E-Mail-Servers in Erwägung ziehen. Mailserver erfordern Aufmerksamkeit und ständige Wartung, um die Sicherheit und die Zuverlässigkeit der Mailzustellung zu gewährleisten. Zusätzlich zu den unten aufgeführten "All-in-One"-Lösungen haben wir einige Artikel herausgesucht, die einen eher manuellen Ansatz behandeln:
 
 - [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
 - [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide) (August 2017)

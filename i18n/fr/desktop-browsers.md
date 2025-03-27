@@ -111,7 +111,7 @@ Ceci est nécessaire pour empêcher les formes avancées de pistage, mais se fai
 
 Mullvad Browser comes with [**Mullvad Leta**](https://leta.mullvad.net) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
 
-If you are a Mullvad VPN user, there is some risk in using services like Mullvad Leta which are offered by your VPN provider themselves. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta), which is information a VPN is typically intended to separate. Even though Mullvad collects very little information about their VPN subscribers or Leta users, you should consider a different [search engine](search-engines.md) if this risk concerns you.
+Si vous êtes un utilisateur de Mullvad VPN, il y a un certain risque à utiliser des services comme Mullvad Leta qui sont offerts par votre fournisseur VPN lui-même. Ceci est dû au fait que Mullvad a théoriquement accès à votre véritable adresse IP (via leur VPN) et à votre activité de recherche (via Leta), alors qu'un VPN est généralement censé séparer l'IP de votre activité de recherche. Même si Mullvad collecte très peu d'informations sur ses utilisateurs de son VPN ou ses utilisateurs de Leta, vous devriez envisager un autre moteur de recherche [](search-engines.md) si ce risque vous inquiète.
 
 ## Firefox
 
@@ -121,11 +121,11 @@ If you are a Mullvad VPN user, there is some risk in using services like Mullvad
 
 **Firefox** offre de solides paramètres de confidentialité, tels que la [protection renforcée contre le suivi](https://support.mozilla.org/fr/kb/protection-renforcee-contre-pistage-firefox-ordinateur), qui peut contribuer à bloquer divers [types de suivi](https://support.mozilla.org/fr/kb/protection-renforcee-contre-pistage-firefox-ordinateur#w_what-enhanced-tracking-protection-blocks).
 
-[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title="Documentation" }
-[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="Contribute" }
+[:octicons-home-16: Accueil](https://firefox.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.mozilla.org/fr/privacy/firefox/){ .card-link title="Politique de Confidentialité" }
+[:octicons-info-16:](https://support.mozilla.org/fr/products/firefox){ .card-link title="Documentation" }
+[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Code Source" }
+[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="Contribuer" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

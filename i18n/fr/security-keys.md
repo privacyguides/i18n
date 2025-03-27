@@ -1,7 +1,7 @@
 ---
-title: Security Keys
+title: Clés de sécurité
 icon: material/key-chain
-description: Secure your internet accounts with Multi-Factor Authentication without sending your secrets to a third-party.
+description: Sécurisez vos comptes avec l'authentification multifacteur sans transmettre vos clés et tokens de sécurité à une tierce-partie.
 cover: multi-factor-authentication.webp
 ---
 
