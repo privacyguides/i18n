@@ -5,7 +5,7 @@ description: These news aggregator clients let you keep up with your favorite bl
 cover: news-aggregators.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Защищает от следующих угроз:</small>
 
 - [:material-server-network: Поставщики услуг](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 

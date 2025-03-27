@@ -6,7 +6,7 @@ description: Use these tools to remove metadata like GPS location and other iden
 cover: data-redaction.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Защищает от следующих угроз:</small>
 
 - [:material-account-search: Публичная экспозиция](basics/common-threats.md#limiting-public-information ""){.pg-green}
 

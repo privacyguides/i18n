@@ -5,7 +5,7 @@ cover: financial-services.webp
 description: These services can assist you in protecting your privacy from merchants and other trackers, which is one of the biggest challenges to privacy today.
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Защищает от следующих угроз:</small>
 
 - [:material-account-cash: Капитализм слежки](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
@@ -15,7 +15,7 @@ description: These services can assist you in protecting your privacy from merch
 
 ## Услуги по маскировке платежей
 
-<small>Protects against the following threat(s):</small>
+<small>Защищает от следующих угроз:</small>
 
 - [:material-account-search: Публичная экспозиция](basics/common-threats.md#limiting-public-information ""){.pg-green}
 
@@ -75,7 +75,7 @@ MySudo's virtual cards are currently only available via their iOS app.
 
 ## Маркетплейсы подарочных карт
 
-<small>Protects against the following threat(s):</small>
+<small>Защищает от следующих угроз:</small>
 
 - [:material-eye-outline: Массовое наблюдение](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 

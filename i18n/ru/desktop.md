@@ -5,7 +5,7 @@ description: Дистрибутивы Linux часто рекомендуютс�
 cover: desktop.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Защищает от следующих угроз:</small>
 
 - [:material-account-cash: Капитализм слежки](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
@@ -187,7 +187,7 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
 
 ## Дистрибутивы для безопасности
 
-<small>Protects against the following threat(s):</small>
+<small>Защищает от следующих угроз:</small>
 
 - [:material-bug-outline: Пассивные атаки](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 

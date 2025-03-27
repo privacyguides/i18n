@@ -5,7 +5,7 @@ description: Узнайте, как конфиденциально обмени�
 cover: file-sharing.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Защищает от следующих угроз:</small>
 
 - [:material-server-network: Поставщики услуг](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
