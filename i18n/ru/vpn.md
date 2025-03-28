@@ -113,7 +113,7 @@ Proton VPN has published [App Store](https://apps.apple.com/app/id1437005085) an
 
 #### :material-information-outline:{ .pg-blue } Дополнительные замечания
 
-Proton VPN clients support two-factor authentication on all platforms. Proton VPN имеет собственные серверы и дата-центры в Швейцарии, Исландии и Швеции. They offer content blocking and known-malware blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](tor.md#tor-browser) for this purpose.
+Клиенты Proton VPN поддерживают двухфакторную аутентификацию на всех платформах. Proton VPN имеет собственные серверы и дата-центры в Швейцарии, Исландии и Швеции. They offer content blocking and known-malware blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](tor.md#tor-browser) for this purpose.
 
 ##### :material-alert-outline:{ .pg-orange } Функция Kill switch работает неисправно на компьютерах Mac на базе Intel
 
@@ -199,7 +199,7 @@ IVPN has published [App Store](https://apps.apple.com/app/id1193122683) and [Goo
 
 ![Логотип Mullvad](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** - это быстрый и недорогой VPN с серьезным акцентом на прозрачность и безопасность. Он работает с 2009 года. Mullvad is based in Sweden and offers a 14-day money-back guarantee for [payment methods](https://mullvad.net/en/help/refunds) that allow it.
+**Mullvad** - это быстрый и недорогой VPN с серьезным акцентом на прозрачность и безопасность. Он работает с 2009 года. Mullvad базируется в Швеции и предоставляет 14-дневную гарантию возврата денег для [способов оплаты](https://mullvad.net/en/help/refunds), которые это позволяют.
 
 [:octicons-home-16: Домашняя страница](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion-сайт" }
