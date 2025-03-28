@@ -64,23 +64,23 @@ schema:
 </div>
 </div>
 
-## Trustworthy Privacy Software Reviews
+## 信頼のおけるプライバシーソフトウェアのレビュー
 
 <div class="grid" markdown>
 
 <div markdown>
-**Privacy Guides** has a dedicated [community](https://discuss.privacyguides.net) independently reviewing various *privacy tools* and services. Each of our recommendations comply with a strict set of criteria to ensure they provide the most value to most people, and provide the best balance of privacy, security, and convenience. As part of a non-profit **public charity**, Privacy Guides has strict **journalistic standards** and policies to ensure our recommendations are free of conflict of interest, and we do not partner with providers or affiliate programs that could sway our reviews and recommendations.
+**Privacy Guides**には、様々な*プライバシーツール*やサービスを独自にレビューする専用の[コミュニティー](https://discuss.privacyguides.net)があります。 推奨するツール・サービスは多くの人々に多くの価値を提供し、プライバシー、セキュリティと利便性のバランスが取れていることを保証する厳格な基準に従っています。 非営利の**公共慈善団体**として、Privacy Guidesには厳格な**ジャーナリズム基準**とポリシーがあり、推奨するツール・サービスに利益相反がないことを保証しています。また、レビューや推奨とすることに影響を及ぼすことを避けるため、プロバイダーやアフェリエイトプログラムとの提携はしていません。
 
-[:material-heart:{.pg-red} Support Our Work](about/donate.md){ class="md-button md-button--primary" }
+[:material-heart:{.pg-red} 支援する](about/donate.md){ class="md-button md-button--primary" }
 
 </div>
 
-- [x] **Ad-Free Recommendations**
-- [x] **Complete Editorial Independence**
-- [x] **Non-Profit & Open Source**
-- [x] **Frequent Updates**
-- [x] **Trusted by Journalists**
-- [x] **Trusted by Readers**
+- [x] **広告なしでの推奨**
+- [x] **編集の完全な独立性**
+- [x] **非営利＆オープンソース**
+- [x] **頻繁なアップデート**
+- [x] **ジャーナリストからの信頼**
+- [x] **読者からの信頼**
 
 </div>
 
