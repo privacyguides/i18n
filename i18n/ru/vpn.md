@@ -77,7 +77,7 @@ global:
 
 #### :material-check:{ .pg-green } Независимый аудит
 
-По состоянию на январь 2020 года компания Proton VPN прошла независимый аудит от SEC Consult. SEC Consult обнаружила несколько уязвимостей среднего и низкого риска в приложениях Proton VPN для Windows, Android и iOS, все из которых Proton VPN "должным образом устранил" ещё до публикации отчетов. Ни одна из выявленных проблем не предоставила бы злоумышленнику удаленный доступ к вашему устройству или трафику. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit). [Аттестационное письмо](https://proton.me/blog/security-audit-all-proton-apps) было предоставлено для приложений Proton VPN 9 ноября 2021 года компанией [Securitum](https://research.securitum.com).
+По состоянию на январь 2020 года компания Proton VPN прошла независимый аудит от SEC Consult. SEC Consult обнаружила несколько уязвимостей среднего и низкого риска в приложениях Proton VPN для Windows, Android и iOS, все из которых Proton VPN "должным образом устранил" ещё до публикации отчетов. Ни одна из выявленных проблем не предоставила бы злоумышленнику удаленный доступ к вашему устройству или трафику. Вы можете просмотреть отдельные отчёты для каждой платформы на сайте [protonvpn.com](https://protonvpn.com/blog/open-source). В апреле 2022 года компания Proton VPN прошла [очередной аудит](https://protonvpn.com/blog/no-logs-audit). [Аттестационное письмо](https://proton.me/blog/security-audit-all-proton-apps) было предоставлено для приложений Proton VPN 9 ноября 2021 года компанией [Securitum](https://research.securitum.com).
 
 #### :material-check:{ .pg-green } Клиенты с открытым исходным кодом
 
@@ -91,25 +91,25 @@ Proton VPN предоставляет исходный код для своих 
 
 Proton VPN поддерживает протокол WireGuard®. [WireGuard](https://wireguard.com) – это более новый протокол, в использующий самую современную [криптографию](https://wireguard.com/protocol). Кроме того, WireGuard стремится быть более простым и производительным.
 
-Proton VPN [рекомендует](https://protonvpn.com/blog/wireguard) использовать WireGuard вместе со своим сервисом. Proton VPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
+Proton VPN [рекомендует](https://protonvpn.com/blog/wireguard) использовать WireGuard вместе со своим сервисом. Proton VPN также предоставляет генератор конфигураций WireGuard для использования с официальными [приложениями](https://wireguard.com/install) WireGuard.
 
 #### :material-alert-outline:{ .pg-orange } Ограниченная поддержка IPv6
 
-Proton [now supports IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks) in their browser extension and Linux client, but only 80% of their servers are IPv6-compatible. На других платформах клиент Proton VPN будет блокировать весь исходящий IPv6-трафик, так что вы можете не беспокоиться об утечке вашего IPv6-адреса, но вы не сможете подключиться ни к сайтам, работающим только на IPv6, ни к Proton VPN из сети, работающей только на IPv6.
+Proton [теперь поддерживает IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks) в своём расширении для браузера и Linux клиенте, но только 80% серверов совместимы с IPv6. На других платформах клиент Proton VPN будет блокировать весь исходящий IPv6-трафик, так что вы можете не беспокоиться об утечке вашего IPv6-адреса, но вы не сможете подключиться ни к сайтам, работающим только на IPv6, ни к Proton VPN из сети, работающей только на IPv6.
 
 #### :material-information-outline:{ .pg-info } Удалённая переадресация портов
 
-В настоящее время Proton VPN поддерживает только эфемерную удаленную [переадресацию портов](https://protonvpn.com/support/port-forwarding) через NAT-PMP с 60-секундным временем аренды. The official Windows and Linux apps provide an easy-to-access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup). Торрент приложения часто поддерживают NAT-PMP нативно.
+В настоящее время Proton VPN поддерживает только эфемерную удаленную [переадресацию портов](https://protonvpn.com/support/port-forwarding) через NAT-PMP с 60-секундным временем аренды. Официальные приложения для Windows и Linux обеспечивают к ней простой доступ, в то время как на других операционных системах вам придётся запустить собственный [NAT-PMP клиент](https://protonvpn.com/support/port-forwarding-manual-setup). Торрент приложения часто поддерживают NAT-PMP нативно.
 
 #### :material-information-outline:{ .pg-blue } Борьба с цензурой
 
-Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol) protocol which *may* help in situations where VPN protocols like OpenVPN or WireGuard are blocked with various rudimentary techniques. Stealth encapsulates the VPN tunnel in TLS session in order to look like more generic internet traffic.
+У Proton VPN есть протокол [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol), который *может* помочь в ситуациях, когда такие VPN-протоколы, как OpenVPN или WireGuard, блокируются с помощью ряда простейших приёмов. Stealth encapsulates the VPN tunnel in TLS session in order to look like more generic internet traffic.
 
 Unfortunately, it does not work very well in countries where sophisticated filters that analyze all outgoing traffic in an attempt to discover encrypted tunnels are deployed. Stealth is available on Android, iOS, Windows, and macOS, but it's not yet available on Linux.
 
 #### :material-check:{ .pg-green } Приложения для смартфонов
 
-Proton VPN has published [App Store](https://apps.apple.com/app/id1437005085) and [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/ProtonVPN/android-app/releases).
+Proton VPN has published [App Store](https://apps.apple.com/app/id1437005085) and [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. Клиент для Android также доступен на [GitHub](https://github.com/ProtonVPN/android-app/releases).
 
 #### :material-information-outline:{ .pg-blue } Дополнительные замечания
 
@@ -320,7 +320,7 @@ We require all our recommended VPN providers to provide standard configuration f
 
 ### Безопасность
 
-VPN бессмысленен, если он даже не может обеспечить адекватную безопасность. We require all our recommended providers to abide by current security standards. В идеале, они должны по умолчанию использовать более перспективные схемы шифрования. Мы также требуем, чтобы независимая третья сторона провела аудит безопасности провайдера, в идеале - в полном объеме и на повторяющейся (ежегодной) основе.
+VPN бессмысленен, если он даже не может обеспечить безопасность надлежащего уровня. Мы требуем, чтобы все рекомендуемые нами провайдеры соблюдали современные стандарты безопасности. В идеале, они должны по умолчанию использовать более перспективные схемы шифрования. Мы также требуем, чтобы независимая третья сторона провела аудит безопасности провайдера, в идеале - в полном объеме и на повторяющейся (ежегодной) основе.
 
 **Минимальные требования:**
 
