@@ -12,7 +12,7 @@ description: Ваша приватность никогда не была сто
 
 Многие люди путают **приватность**, **безопасность** и **анонимность**. Вы можете видеть, как люди называют различные продукты "не приватными", когда на самом деле они имеют в виду, что эти продукты не обеспечивают анонимность. На этом сайте мы рассматриваем все эти три темы, но важно понимать разницу между ними, и когда каждая из них вступает в игру.
 
-[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security/ ""){.md-button}
+[:material-movie-open-play-outline: Видео: Перестаньте путать приватность, анонимность и безопасность](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security/ ""){.md-button}
 
 <!-- markdownlint-disable-next-line -->
 **Приватность**
@@ -58,7 +58,7 @@ description: Ваша приватность никогда не была сто
 
 Приватность должна быть встроена по умолчанию в [программы и сервисы](../tools.md), которые мы используем, у вас нет возможности самостоятельно настроить большинство приложений на приватность.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
+[:material-movie-open-play-outline: Видео: 5 способов повысить вашу конфиденциальность {](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/) class="md-button" }
 
 ## Источники
 
