@@ -1,5 +1,5 @@
 ---
-title: Choosing Your Hardware
+title: Выбор оборудования
 icon: material/chip
 description: Software isn't all that matters; learn about the hardware tools you use every day to protect your privacy.
 ---
@@ -21,7 +21,7 @@ Some devices will have a "hardware security program", which is a collaboration b
 
 Even if you don't use these operating systems, participation in these programs may indicate that the manufacturer is following best practices when it comes to hardware security and updates.
 
-### Preinstalled OS
+### Предустановленная ОС
 
 New computers nearly always come with Windows preinstalled, unless you buy a Mac or a specialty Linux machine. It's usually a good idea to wipe the drive and install a fresh copy of your operating system of choice, even if that means just reinstalling Windows from scratch. Due to agreements between hardware vendors and shady software vendors, the default Windows install often comes preloaded with bloatware, [adware](https://bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal), or even [malware](https://zdnet.com/article/dell-poweredge-motherboards-ship-with-malware).
 
