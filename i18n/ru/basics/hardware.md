@@ -44,7 +44,7 @@ Virtual TPMs are susceptible to side-channel attacks and external TPMs, as a res
 
 </div>
 
-### Biometrics
+### Биометрия
 
 Many devices come equipped with a fingerprint reader or face recognition capabilities. These can be very convenient, but they aren't perfect and sometimes fail. Most devices will fall back to a PIN or password when this happens, meaning that the security of your devices is still only as good as your password.
 
@@ -77,7 +77,7 @@ Hardware keys are devices that use strong cryptography to authenticate you to a 
 
 [Recommended Hardware Keys :material-arrow-right-drop-circle:](../security-keys.md){ .md-button .md-button--primary } [Learn More about Hardware Keys :material-arrow-right-drop-circle:](multi-factor-authentication.md#hardware-security-keys){ .md-button }
 
-### Camera/Microphone
+### Камера/микрофон
 
 If you don't want to trust your OS's permission controls to prevent the camera from activating in the first place, you can buy camera blockers that physically prevent light from reaching the camera. You could also buy a device that doesn't have a built-in camera and use an external camera that you can unplug whenever you're done using it. Some devices come with built-in camera blockers or hardware switches that physically disconnect the camera from power.
 
@@ -110,7 +110,7 @@ The best way to prevent a targeted attack against you before a device is in your
 
 Make sure your device supports secure boot/verified boot, and you have it enabled. Try to avoid leaving your device unattended whenever possible.
 
-## Secure your Network
+## Защитите свою сеть
 
 ### Compartmentalization
 
