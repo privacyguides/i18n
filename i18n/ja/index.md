@@ -86,23 +86,23 @@ schema:
 
 ---
 
-## About Privacy Guides
+## Privacy Guidesについて
 
 ![Privacy Guides logo](assets/brand/logos/png/square/pg-yellow.png){ align=right loading=lazy }
 
-Established in 2021 due to the difficulty of finding unbiased reviewers in the VPN and privacy space, **Privacy Guides** is the most popular, trustworthy, non-profit website that provides information about protecting your *personal* data security and privacy. Our crowdsourced recommendations and reviews of **privacy tools** and our community dedicated to helping others set us apart from other blogs and content creators. The team behind this project has been researching privacy and security in the open-source space for over 5 years, originally with a now-defunct web resource that eventually became the *Privacy Guides* millions of readers trust.
+**Privacy Guides**は、VPNやプライバシースペースの公平なレビューを見つけることが難しかったことから2021年に設立されました。*個人*情報のセキュリティとプライバシーを守るための情報を発信する最もよく知られ、信頼できる非営利のウェブサイトです。 クラウドソーシングによる**プライバシーツール**の推奨とレビュー、そして人を助けることに献身的なコミュニティによって、他のブログやコンテンツ制作者とは一線を画すものとなっています。 オープンソースにおけるプライバシーやセキュリティについて5年以上研究したチームが元になっており、そのウェブサイトは今はありませんが、最終的には何百万人もの人が信頼する*Privacy Guides*となったのです。
 
-*Our website is free of advertisements and not affiliated with any of the listed providers.*
+*当サイトは広告を掲載しておらず、推奨しているプロバイダーとは提携しておりません。*
 
-As seen in **WIRED**, **Tweakers.net**, **The New York Times**, and many other publications as a reliable source for privacy and security knowledge.
+**WIRED**、**Tweakers.net**、**ニューヨーク・タイムズ**やその他多くの記事でプライバシーとセキュリティに関する信頼できる情報源として紹介されています。
 
-[:material-information: More About Who We Are](about.md){ class="md-button" }
+[:material-information: Privacy Guidesの詳細](about.md){ class="md-button" }
 
 <div class="grid" markdown>
 <div markdown>
-## What are privacy tools?
+## プライバシーツールとは？
 
-We recommend a wide variety of **privacy tools** (a.k.a. *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can use to improve your privacy. Many of the tools we recommend are completely free to use and open-source software, while some are commercial services available for purchase. Switching from mainstream data-hungry software like Google Chrome and Windows to privacy-focused tools like [Brave](desktop-browsers.md#brave) and [Linux](desktop.md) can go a long way towards controlling the information you share with companies and others.
+ソフトウェア、ハードウェアの両面で、プライバシーを改善することができる様々な**プライバシーツール**（ *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can use to improve your privacy. Many of the tools we recommend are completely free to use and open-source software, while some are commercial services available for purchase. Switching from mainstream data-hungry software like Google Chrome and Windows to privacy-focused tools like [Brave](desktop-browsers.md#brave) and [Linux](desktop.md) can go a long way towards controlling the information you share with companies and others.
 
 [:material-check-all: Our General Criteria](about/criteria.md){ class="md-button" }
 </div>
