@@ -102,18 +102,18 @@ schema:
 <div markdown>
 ## プライバシーツールとは？
 
-ソフトウェア、ハードウェアの両面で、プライバシーを改善することができる様々な**プライバシーツール**（ *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can use to improve your privacy. Many of the tools we recommend are completely free to use and open-source software, while some are commercial services available for purchase. Switching from mainstream data-hungry software like Google Chrome and Windows to privacy-focused tools like [Brave](desktop-browsers.md#brave) and [Linux](desktop.md) can go a long way towards controlling the information you share with companies and others.
+ソフトウェア、ハードウェアの両面で、プライバシーを改善することができる様々な**プライバシーツール**（ *プライバシーアプリ*、*プライバシーユーティリティー*、*プライバシーソフトウェア*ともいう）を推奨しています。 推奨するツールの多くは完全に無料で利用できるオープンソースソフトウェアですが、購入が必要な商用サービスもあります。 データ大量に抱え込むGoogle ChromeやWIndowsなどの主流のソフトウェアから、プライバシーを重視した[Brave](desktop-browsers.md#brave)や[Linux](desktop.md)などのソフトウェアに切り替えることは、企業や第三者と共有する情報をコントロールする第一歩となります。
 
-[:material-check-all: Our General Criteria](about/criteria.md){ class="md-button" }
+[:material-check-all: Privacy Guidesの汎用的な基準](about/criteria.md){ class="md-button" }
 </div>
 
 <div markdown>
-## Why does privacy matter?
+## プライバシーはなぜ重要なのか？
 
-In the modern age of digital data exploitation, your privacy has never been more critical, yet many believe it is already a lost cause. それは間違っています。 ==Your privacy is up for grabs, and you need to care about it.== Privacy is about power, and it is so important that this power ends up in the right hands.
+デジタルデータが悪用される現代において、プライバシーはかつてないほど重要になっていますが、プライバシーを守ることはできないと諦める人もいます。 それは間違っています。 ==プライバシーについて気にかけることで、誰もがプライバシーを守ることができます。==プライバシーは力であり、適切に扱うことが重要です。
 
-Many people get the concepts of privacy, security, and anonymity confused. 例えば、ある製品が匿名性を提供していないという意味で「プライベートではない」と批判する人々がいます。 このウェブサイトでは、これら3つのトピックすべてを取り上げます。まず、それぞれの違いを理解しましょう。
+プライバシー、セキュリティ、匿名性は混同されることが多いです。 例えば、ある製品が匿名性を提供していないという意味で「プライベートではない」と批判する人々がいます。 このウェブサイトでは、これら3つのトピックすべてを取り上げます。まず、それぞれの違いを理解しましょう。
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
+[:material-movie-open-play-outline: 動画：プライバシーを改善する5つのステップ](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
 </div>
 </div>
