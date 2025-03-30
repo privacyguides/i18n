@@ -24,7 +24,7 @@ description: 以下是關於如何建立最強密碼並確保帳戶安全的一�
 
 應避免經常更改必須記住的密碼（例如密碼管理器的主密碼） ，除非有理由相信它已被破壞，否則頻繁更改它往往會使您面臨忘記密碼的風險。
 
-When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multifactor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. 大多數密碼管理器可為密碼設定到期日期，以便更容易管理。
+對於您不需要記住的密碼 (例如儲存在密碼管理器內的密碼)，如果您的 [威脅模型](threat-modeling.md) 需要，我們建議您每兩個月檢查重要的帳號並變更密碼（尤其是不使用多重因素驗證的帳號），以防這些帳號在尚未公開的資料外洩事件中遭到洩露。 大多數密碼管理器可為密碼設定到期日期，以便更容易管理。
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">檢查資料洩露</p>
@@ -54,13 +54,13 @@ Diceware 是一種創建密碼短語的方法，這些密短口令易於記憶�
 <div class="admonition Note" markdown>
 <p class="admonition-title">Note "備註"</p>
 
-These instructions assume that you are using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other word lists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
+這裡的說明假設您使用 [EFF 的大型單詞列表](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) 來產生密碼短語，每個單詞需要擲五次骰子。 其他單詞列表可能每個字需要較多或較少的擲骰子次數，也可能需要不同數量的單詞來達到相同的熵。
 
 </div>
 
-1. 將1~6 骰子滾動五次，記下每次出現的數字。
+1. 將一個六面的骰子擲五次，每次擲完後記下數字。
 
-2. 例如，假設您滾動了 `2-5-2-6-6`。 Look through the [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
+2. 例如，假設您滾動了 `2-5-2-6-6`。 瀏覽 [EFF 大型單詞清單](https://eff.org/files/2016/07/18/eff_large_wordlist.txt)，找出與 `25266` 對應的單詞。
 
 3. 你會得到單詞 `encrypt`。 把這個詞寫下來。
 
