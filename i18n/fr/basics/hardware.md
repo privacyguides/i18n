@@ -1,14 +1,14 @@
 ---
-title: Choosing Your Hardware
+title: Choisissez Votre Matériel (Hardware)
 icon: material/chip
-description: Software isn't all that matters; learn about the hardware tools you use every day to protect your privacy.
+description: Il n'y a pas que les logiciels qui sont importants pour votre vie privée, le matériel que vous utiliser quotidiennement l'est aussi.
 ---
 
-When it comes to discussions about privacy, hardware is often not thought about as much as what software we use. Your hardware should be considered the foundation on which you build the rest of your privacy setup.
+Quand on parle de la protection de la vie privée, on ne réfléchit souvent pas autant au choix du matériel qu'au choix du logiciel. Vous pouvez considérer le matériel comme le pilier sur lequel vous allez construire le reste de votre setup protégeant votre vie privée.
 
-## Picking a Computer
+## Choisissez un ordinateur
 
-The internals of your devices process and store all of your digital data. It is important that all devices are supported by the manufacturer and developers by continuing to receive security updates.
+Les composants de vos appareils traitent et stockent toutes vos données digitales. Il est important que tous les appareils soient encore supportés par le fabricant et les développeurs afin de recevoir les mises à jour de sécurité.
 
 ### Hardware Security Programs
 
