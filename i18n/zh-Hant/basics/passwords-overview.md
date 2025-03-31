@@ -41,15 +41,15 @@ description: 以下是關於如何建立最強密碼並確保帳戶安全的一�
 
 若需要一個記得住的密碼，建議採用 [diceware 口令密語](#diceware-passphrases)。
 
-### Diceware 口令密語
+### 基於骰子的密碼短語
 
-Diceware 是一種創建密碼短語的方法，這些密短口令易於記憶，但很難猜測。
+您可以使用骰子來創建密碼短語，這些密碼短語易於記憶，但很難猜測。
 
-當您需要記憶或手動輸入憑證時，例如密碼管理員的主密碼或設備的加密密碼， Diceware 口令密語是個好選擇。
+當您需要記憶或手動輸入憑證時，例如密碼管理員的主密碼或設備的加密密碼， 基於骰子的密碼短語是個好選擇。
 
-舉一個 Diceware 口令密語的例子 `viewable fastness reluctant squishy seventeen shown pencil`。
+舉一個此類密碼短語的例子 `viewable fastness reluctant squishy seventeen shown pencil`。
 
-使用骰子來產生一組 diceware 口令密語，請按照以下步驟：
+如要使用骰子來產生一組密碼短語，請遵循以下步驟：
 
 <div class="admonition Note" markdown>
 <p class="admonition-title">Note "備註"</p>
@@ -64,31 +64,31 @@ Diceware 是一種創建密碼短語的方法，這些密短口令易於記憶�
 
 3. 你會得到單詞 `encrypt`。 把這個詞寫下來。
 
-4. 重複相同手續，直到您的口令密語達到足夠的單詞，請用空格分隔單詞。
+4. 重複此過程，直到您的密碼短語達到您所需的單詞數為止，請用空格分隔單詞。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">重要</p>
 
-你 **不應** 重新滾動單詞，以取得自己喜好的單詞組合。 這個過程應該是完全隨機的。
+你 **不應** 重新生成單詞，以取得自己喜好的單詞組合。 這個過程應該是完全隨機的。
 
 </div>
 
 如果您手邊沒有或不想使用真正的骰子，可利用密碼管理器內建密碼生成器，因為大多數密碼生成器除了普通密碼之外還可以選擇生成 diceware 口令密語。
 
-We recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
+我們建議使用 [EFF 的大型單詞清單](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) 來產生您的密碼短語，因為它提供與原始清單完全相同的安全性，同時包含較容易記憶的字詞。 如果您不希望您的密碼短語使用英文，也有 [不同語言的單詞列表](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline)。
 
 <details class="note" markdown>
-<summary>diceware 口令密語的熵和強度的說明</summary>
+<summary>密碼短語的熵和強度的說明</summary>
 
-To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
+為了證明密碼短語的強度，我們將使用前面提到的七個單詞所製成的密碼短語（`viewable fastness reluctant squishy seventeen shown pencil`）和 [EFF 的大型單詞列表](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) 作例子。
 
-判斷 diceware 口令密語強度的衡量標準是確定它有多少熵。 Diceware 密碼短語中每個單字的熵計算如下 <math> <mrow> <msub> <mtext>記錄(log)</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mtext>WordsInList</mtext> <mo form="postfix" stretchy="false">)</mo> </mrow> </math> 密碼短語的整體熵計算如下： <math> <mrow> <msub> <mtext>記錄(log)</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>
+判斷密碼短語強度的衡量標準是確定它有多少熵。 密碼短語中每個單詞的熵計算如下 <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mtext>列表中的單詞總數量</mtext> <mo form="postfix" stretchy="false">)</mo> </mrow> </math> 密碼短語的整體熵計算如下： <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mtext>列表中的單詞總數量</mtext> <mtext>密碼短語的單詞數量</mtext> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>
 
-因此，上述列表中的每個單字都會產生約 12.9 位元的熵（<math> <mrow> <msub> <mtext>記錄(log)</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mn>7776</mn> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>），從它衍生出的七字密碼有約 90.47 位元的熵（<math> <mrow> <msub> <mtext>記錄(log)</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mn>7776</mn> <mn>7</mn> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>).
+因此，上述列表中的每個單字都會產生約 12.9 位元的熵（<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mn>7776</mn> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>），從它衍生出的七字密碼有約 90.47 位元的熵（<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mn>7776</mn> <mn>7</mn> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>).
 
-The [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. 要計算可能的密碼短語的數量，要做的就是 <math> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> </math>，或者在我們的例子中， <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
+[EFF 的大型單詞清單](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) 包含 7776 個不重複的單詞。 要計算可能的密碼短語的數量，要做的就是 <math> <msup> <mtext>列表中的單詞總數量</mtext> <mtext>密碼短語的單詞數量</mtext> </msup> </math>，或者在我們的例子中， <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
 
-Let's put all of this in perspective: A seven word passphrase using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+讓我們從這個角度來看：使用 [EFF 的大型單詞列表](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) 的情形下，七個單詞所製成的密碼短語是 ~1,719,070,799,748,422,500,000,000,000 個可能密碼中的一個。
 
 平均而言，至少要嘗試所有可能組合的一半來猜測您的密語。 考慮到這一點，即使對手每秒能夠猜測~ 1,000,000,000,000 次，他們仍然需要~ 27,255,689 年來猜出您的密語。 即使以下情況屬實，也是如此：
 
