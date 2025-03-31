@@ -137,9 +137,9 @@ SimpleX 提供私人聊天、群組聊天和 E2EE 通話，並以 [SimpleX 訊�
 
 要在 SimpleX Chat 上加入聊天室，您必須掃描 QR 碼或使用邀請連結。 這可讓您安全驗證聯絡人，防止網路供應商的中間人攻擊。 您的資料可以匯出或匯入另一部裝置，因為沒有中央伺服器備份這些資料。
 
-You can find a full list of the privacy and security [features](https://github.com/simplex-chat/simplex-chat#privacy-and-security-technical-details-and-limitations) implemented in SimpleX Chat on the app's repository.
+您可以在應用程式的儲存庫中找到 SimpleX Chat 所有隱私與安全[功能](https://github.com/simplex-chat/simplex-chat#privacy-and-security-technical-details-and-limitations)的完整清單。
 
-SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html#simplex-cryptographic-design-review-by-trail-of-bits) and in [October 2022](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website).
+SimpleX Chat 於 [2024 年 7 月](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html#simplex-cryptographic-design-review-by-trail-of-bits)和 [2022 年 10 月](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website)進行獨立審核。
 
 ### Briar
 
@@ -167,20 +167,20 @@ SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/
 
 </div>
 
-To add a contact on Briar, you must both add each other first. You can either exchange `briar://` links or scan a contact’s QR code if they are nearby.
+若要在 Briar 上新增連絡人，需要雙方都新增對方。 您可以交換 `briar://` 連結，或是掃描聯絡人的 QR 碼（如果他們就在附近）。
 
-The client software was independently [audited](https://briarproject.org/news/2017-beta-released-security-audit), and the anonymous routing protocol uses the Tor network which has also been audited.
+用戶端軟體已經過獨立[審核](https://briarproject.org/news/2017-beta-released-security-audit)，使用 Tor 網路的匿名路由通訊協定也已經過審核。
 
-Briar has a fully [published specification](https://code.briarproject.org/briar/briar-spec).
+Briar 通訊協定是[完全公開](https://code.briarproject.org/briar/briar-spec)的。
 
-Briar supports forward secrecy[^1] by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
+Briar 使用 Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) 和 [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) 協定來支援前向保密[^1] 。
 
 ## 額外選項
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-這些通訊軟體無向前保密[^1]，雖然它們達成我們之前建議的某些需求，但不推薦將其用於長期或敏感通信。 訊息收件人之間的任何密鑰洩露都會影響* *所有* *過去通訊的機密性。
+這些通訊軟體無前向保密[^1]，雖然它們達成我們之前建議的某些需求，但不推薦將其用於長期或敏感通信。 訊息收件人之間的任何密鑰洩露都會影響過去**所有**通訊的機密性。
 
 </div>
 
@@ -192,7 +192,7 @@ Briar supports forward secrecy[^1] by using the Bramble [Handshake](https://code
 
 **Element** 是[Matrix](https://matrix.org/docs/chat_basics/matrix-for-im) 通訊協定的旗艦用戶端，該協定是安全分散式即時通訊的[開放標準](https://spec.matrix.org/latest)。
 
-在私人聊天室 (需要邀請) 共用的訊息和檔案預設為 E2EE，一對一的語音和視訊通話也是如此。
+在私人聊天室（需要邀請）共用的訊息和檔案預設為 E2EE，一對一的語音和視訊通話也是如此。
 
 [:octicons-home-16: 首頁](https://element.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://element.io/privacy){ .card-link title="隱私權政策" }
@@ -214,13 +214,13 @@ Briar supports forward secrecy[^1] by using the Bramble [Handshake](https://code
 
 </div>
 
-Profile pictures, reactions, and nicknames are not encrypted.
+個人資料圖片、反應和暱稱不會加密。
 
-With the integration of [Element Call](https://element.io/blog/we-have-lift-off-element-x-call-and-server-suite-are-ready) into Element's web app, desktop apps, and its [rewritten mobile apps](https://element.io/blog/element-x-experience-the-future-of-element), group VoIP and video calls are E2EE by default.
+隨著 [Element Call](https://element.io/blog/we-have-lift-off-element-x-call-and-server-suite-are-ready) 整合至 Element 的網頁版、電腦版及其[重寫的行動應用程式](https://element.io/blog/element-x-experience-the-future-of-element)，群組 VoIP 和視訊通話預設為 E2EE。
 
-The Matrix protocol itself [theoretically supports forward secrecy](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1], however this is [not currently supported in Element](https://github.com/vector-im/element-web/issues/7101) due to it breaking some aspects of the user experience such as key backups and shared message history.
+Matrix協議[理論上支援前向保密](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1] ，但[目前在 Element 中並不支援](https://github.com/vector-im/element-web/issues/7101) ，因為這會破壞某些方面的使用者體驗，例如金鑰備份和共享訊息歷史記錄。
 
-The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) in 2016. The specification for the Matrix protocol can be found in their [documentation](https://spec.matrix.org/latest). The [Olm cryptographic ratchet](https://matrix.org/docs/matrix-concepts/end-to-end-encryption) used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet).
+該協議於 2016 年經過獨立[審核](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last)。 Matrix 協議的規範可以在他們的 [說明文件](https://spec.matrix.org/latest) 中找到。 Matrix 使用的 [Olm cryptographic ratchet](https://matrix.org/docs/matrix-concepts/end-to-end-encryption) 是 Signal [雙棘輪演算法](https://signal.org/docs/specifications/doubleratchet) 的實作。
 
 ### Session
 
@@ -251,9 +251,9 @@ Session使用去中心化的 [Oxen Service Node Network](https://oxen.io/) 來�
 
 </div>
 
-Session allows for E2EE in one-on-one chats or closed groups which allow for up to 100 members. It is also possible to [set up](https://docs.oxen.io/oxen-docs/products-built-on-oxen/session/guides/open-group-setup) or join open groups which can host thousands of members, but messages in these open groups are **not** end-to-end encrypted between participants.
+Session 允許使用 E2EE 於一對一聊天或私人群組中，最多可容納100名成員。 也可以[建立](https://docs.oxen.io/oxen-docs/products-built-on-oxen/session/guides/open-group-setup)或加入公開群組，這些群組可以容納數千名成員，但這些開放群組的訊息在參與者之間**並非**端對端加密。
 
-Session was previously based on Signal Protocol before replacing it with their own in December 2020. Session Protocol does [not](https://getsession.org/blog/session-protocol-technical-information) support forward secrecy.[^1]
+Session 之前以 Signal Protocol 為基礎，後來在 2020 年 12 月以他們自己的通訊協定取代。 Session Protocol does [not](https://getsession.org/blog/session-protocol-technical-information) support forward secrecy.[^1]
 
 Oxen requested an independent audit for Session in March 2020. The audit [concluded](https://getsession.org/session-code-audit) in April 2021:
 
