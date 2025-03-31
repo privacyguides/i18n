@@ -13,11 +13,11 @@ cover: real-time-communication.webp
 - [:material-eye-outline: 大規模監控](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These are our recommendations for encrypted **real-time communication**. These come in the form of many [types of communication networks](./advanced/communication-network-types.md).
+這些是我們所推薦的加密 **實時通訊軟體**。 它們涵蓋了 [多種通訊網路類型](./advanced/communication-network-types.md)。
 
 [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why/ ""){.md-button}
 
-## 加密傳訊軟體
+## 加密通訊軟體
 
 這些軟體非常適合保護您的敏感通訊。
 
@@ -36,7 +36,7 @@ These are our recommendations for encrypted **real-time communication**. These c
 [:octicons-heart-16:](https://signal.org/donate){ .card-link title="捐款" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
@@ -50,7 +50,7 @@ These are our recommendations for encrypted **real-time communication**. These c
 
 </div>
 
-Signal 需要手機號碼才能註冊，但是您應該建立用戶名，以隱藏手機號碼：
+Signal 需要電話號碼才能註冊，但是您應該建立用戶名，以隱藏電話號碼：
 
 1. 在 Signal 中，打開應用程式的設定並點擊上方的帳戶個人資料。
 2. 點選**使用者名稱**，然後在「設定您的 Signal 使用者名稱」畫面上選擇**繼續**。
@@ -77,7 +77,7 @@ Signal 需要手機號碼才能註冊，但是您應該建立用戶名，以隱�
 
 ![Molly logo](assets/img/messengers/molly.svg){ align=right }
 
-**Molly** 是 Android 的替代 Signal 用戶端，可讓您使用密碼加密本機資料庫、安全地刪除未使用的 RAM 資料、透過 Tor 路由連線；除此之外，還有 [許多](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features)。 It also has usability improvements including scheduled backups, automatic locking, [UnifiedPush](https://unifiedpush.org) support, and the ability to use your Android phone as a linked device instead of the primary device for a Signal account.
+**Molly** 是 Android 的替代 Signal 用戶端，可讓您使用密碼加密本機資料庫、安全地刪除未使用的 RAM 資料、透過 Tor 路由連線；除此之外，還有 [許多](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features)。 它還改善了可用性，包括備份排程、自動鎖定、 [UnifiedPush](https://unifiedpush.org) 支援，及提供可將 Android 手機作為連結裝置，而非 Signal 帳戶主要裝置的功能。
 
 [:octicons-home-16: 首頁](https://molly.im){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="隱私權政策" }
@@ -100,11 +100,11 @@ Molly 每兩週更新一次，以包含 Signal 的最新功能和錯誤修正。
 
 請注意，您使用 Molly 是對多方的信任，因為您現在需要信任 Signal 團隊 *和* Molly 團隊 ，以提供安全且及時的更新。
 
-There is a version of Molly called **Molly-FOSS** which removes proprietary code like the Google services used by both Signal and Molly, at the expense of some features like battery-saving push notifications via Google Play Services. You can regain push notifications without Google Play Services in either version of Molly with [UnifiedPush](https://unifiedpush.org), but it requires running a separate program called [Mollysocket](https://github.com/mollyim/mollysocket) on another device to function. Mollysocket can either be self-hosted on a separate computer or server (VPS), or alternatively a public Mollysocket instance can be used ([step-by-step tutorial, in German](https://kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy)).
+Molly 有一個稱為 **Molly-FOSS** 的版本，它移除了 Signal 和 Molly 所使用的 Google 服務等專有程式碼，但卻犧牲了一些功能，例如透過 Google Play 服務來推送通知（可節省電池用量）。 無論是哪個版本的 Molly，您都可以透過 [UnifiedPush](https://unifiedpush.org) 在沒有 Google Play 服務的情況下推送通知，但這需要在另一部裝置上執行稱為 [Mollysocket](https://github.com/mollyim/mollysocket) 的獨立程式才能運作。 Mollysocket 可以自行架設在獨立的電腦或伺服器（VPS），或者使用公開 Mollysocket 實例（[逐步教學，德文](https://kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy)）。
 
-All versions of Molly provide the same security improvements.
+所有版本的 Molly 都提供相同的安全改進。
 
-Molly and Molly-FOSS support [reproducible builds](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds), meaning it's possible to confirm that the compiled APKs match the source code.
+Molly 和 Molly-FOSS 支援 [可重現構建](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds) ，這表示可以確認編譯後的 APK 與原始碼相符。
 
 ### SimpleX Chat
 
