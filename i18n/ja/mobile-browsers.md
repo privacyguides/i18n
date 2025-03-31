@@ -89,13 +89,13 @@ BraveはChromiumウェブブラウザープロジェクトに基づいて構築�
 
 === "Android"
 
-    These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**.
+    以下のオプションは:material-menu: → **設定** → **Brave Shields & プライバシー**にあります。
 
 === "iOS"
 
-    These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy**.
+    以下のオプションは :fontawesome-solid-ellipsis: → **設定** → **Shields & プライバシー**にあります。
 
-#### Brave shields global defaults
+#### Brave shields グローバルデフォルト
 
 Braveの[シールド](https://support.brave.com/hc/articles/360022973471-What-is-Shields)にはアンチフィンガープリンティングの機能があります。 以下のオプションはアクセスするすべてのページを対象にするため、[グローバル](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)に設定することを推奨します。
 
@@ -105,27 +105,27 @@ Braveの[シールド](https://support.brave.com/hc/articles/360022973471-What-i
 
     <div class="annotate" markdown>
 
-    - [x] Select **Aggressive** under *Block trackers & ads*
-    - [x] Select **Auto-redirect AMP pages**
-    - [x] Select **Auto-redirect tracking URLs**
-    - [x] Select **Require all connections to use HTTPS (strict)** under *Upgrade connections to HTTPS*
-    - \[x\] (Optional) Select **Block Scripts** (1)
-    - [x] Select **Block third-party cookies** under *Block Cookies*
-    - [x] Select **Block Fingerprinting**
-    - [x] Select **Prevent fingerprinting via language settings**
+    - [x] *トラッカーと広告をブロック*で**アグレッシブ**を選択
+    - [x] **AMPページを自動でリダイレクト**を選択
+    - [x] **自動リダイレクト追跡URL**を選択
+    - [x] *接続をHTTPSにアップグレードする*で**すべての接続にHTTPSを使用することを要求する（厳格）**を選択
+    - [x] （オプション）**スクリプトをブロックする**を選択(1)
+    - [x] *クッキーをブロック*で**3rdパーティクッキーをブロック**を選択
+    - [x] **フィンガープリントをブロック**を選択
+    - [x] **言語設定によるフィンガープリントの防止**を選択
 
     <details class="warning" markdown>
-    <summary>Use default filter lists</summary>
+    <summary>デフォルトのフィルターリストを使用する</summary>
 
-    Brave allows you to select additional content filters within the **Content Filtering** menu or the internal `brave://adblock` page. この機能は使わず、デフォルトのフィルターの一覧のままにしておくことをお勧めします。 追加のリストを使用すると、他のBraveユーザーから目立つようになり、また、Braveの脆弱性によってリストに悪意のあるルールが追加された場合、攻撃対象となる領域が増えるおそれがあります。
+    **コンテンツフィルター**メニューもしくは`brave://adblock`のページから使用するコンテンツフィルターを追加で選択することができます。 この機能は使わず、デフォルトのフィルターの一覧のままにしておくことをお勧めします。 追加のリストを使用すると、他のBraveユーザーから目立つようになり、また、Braveの脆弱性によってリストに悪意のあるルールが追加された場合、攻撃対象となる領域が増えるおそれがあります。
 
     </details>
 
-    - [x] Select **Forget me when I close this site**
+    - [x] **このサイトを閉じる際にデータを削除**を選択
 
     </div>
 
-    1. JavaScriptが無効となり、多くのサイトが正しく表示されなくなります。 To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. JavaScriptが無効となり、多くのサイトが正しく表示されなくなります。 修正するには、アドレスバーのシールドアイコンをクリックし、*詳細設定*からこの設定のチェックを外し、サイトごとに例外を設定します。
 
 === "iOS"
 
@@ -135,12 +135,12 @@ Braveの[シールド](https://support.brave.com/hc/articles/360022973471-What-i
     - [x] Select **Strict** under *Upgrade Connections to HTTPS*
     - [x] Select **Auto-Redirect AMP pages**
     - [x] Select **Auto-Redirect Tracking URLs**
-    - \[x\] (Optional) Select **Block Scripts** (1)
-    - [x] Select **Block Fingerprinting**
+    - [x] （オプション）**スクリプトをブロックする**を選択(1)
+    - [x] **フィンガープリントをブロック**を選択
     - [x] Select **Site Tabs Closed** under *Auto Shred*
 
     <details class="warning" markdown>
-    <summary>Use default filter lists</summary>
+    <summary>デフォルトのフィルターリストを使用する</summary>
 
     Brave allows you to select additional content filters within the **Content Filtering** menu. この機能は使わず、デフォルトのフィルターの一覧のままにしておくことをお勧めします。 追加のリストを使用すると、他のBraveユーザーから目立つようになり、また、Braveの脆弱性によってリストに悪意のあるルールが追加された場合、攻撃対象となる領域が増えるおそれがあります。
 
@@ -148,7 +148,7 @@ Braveの[シールド](https://support.brave.com/hc/articles/360022973471-What-i
 
     </div>
 
-    1. JavaScriptが無効となり、多くのサイトが正しく表示されなくなります。 To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. JavaScriptが無効となり、多くのサイトが正しく表示されなくなります。 修正するには、アドレスバーのシールドアイコンをクリックし、*詳細設定*からこの設定のチェックを外し、サイトごとに例外を設定します。
 
 ##### Clear browsing data (Android only)
 
