@@ -133,9 +133,9 @@ Molly 和 Molly-FOSS 支援 [可重現構建](https://github.com/mollyim/mollyim
 
 </div>
 
-SimpleX provides direct messaging, group chats, and E2EE calls secured with the [SimpleX Messaging Protocol](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md), which uses double ratchet encryption with quantum resistance. Additionally, SimpleX Chat provides metadata protection by using unidirectional ["simplex queues"](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md#simplex-queue) to deliver messages.
+SimpleX 提供私人聊天、群組聊天和 E2EE 通話，並以 [SimpleX 訊息通訊協定 (SimpleX Messaging Protocol)](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md) 加密，該協定使用有量子電腦抵抗性的雙棘輪演算法。 此外，SimpleX Chat 使用單向的 ["simplex queues"](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md#simplex-queue) 傳送訊息，以提供元資料保護。
 
-To participate in conversations on SimpleX Chat, you must scan a QR code or click an invite link. This allows you to verify a contact out-of-band, which protects against man-in-the-middle attacks by network providers. Your data can be exported and imported onto another device, as there are no central servers where this is backed up.
+要在 SimpleX Chat 上加入聊天室，您必須掃描 QR 碼或使用邀請連結。 這可讓您安全驗證聯絡人，防止網路供應商的中間人攻擊。 您的資料可以匯出或匯入另一部裝置，因為沒有中央伺服器備份這些資料。
 
 You can find a full list of the privacy and security [features](https://github.com/simplex-chat/simplex-chat#privacy-and-security-technical-details-and-limitations) implemented in SimpleX Chat on the app's repository.
 
