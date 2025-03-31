@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Respecting Web Browsers for Android and iOS - Privacy Guides"
+meta_title: "プライバシーを尊重するAndroidとiOS向けウェブブラウザ - Privacy Guides"
 title: "モバイルブラウザー"
 icon: material/cellphone-information
 description: これらのブラウザは、現在お使いの携帯電話の標準/非匿名のインターネットブラウジングに推奨されています。
@@ -50,11 +50,11 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>以下の脅威から保護します：</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: 監視資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. 匿名でインターネットを閲覧するには、[Tor](tor.md)を使用してください。
+標準的・非匿名のインターネットブラウジングにおいて推奨する**モバイルウェブブラウザ**と設定は以下の通りです。 匿名でインターネットを閲覧するには、[Tor](tor.md)を使用してください。
 
 ## Brave
 
@@ -73,7 +73,7 @@ BraveはChromiumウェブブラウザープロジェクトに基づいて構築�
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>ダウンロード</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1052879175)
