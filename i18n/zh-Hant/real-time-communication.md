@@ -253,13 +253,13 @@ Session使用去中心化的 [Oxen Service Node Network](https://oxen.io/) 來�
 
 Session 允許使用 E2EE 於一對一聊天或私人群組中，最多可容納100名成員。 也可以[建立](https://docs.oxen.io/oxen-docs/products-built-on-oxen/session/guides/open-group-setup)或加入公開群組，這些群組可以容納數千名成員，但這些開放群組的訊息在參與者之間**並非**端對端加密。
 
-Session 之前以 Signal Protocol 為基礎，後來在 2020 年 12 月以他們自己的通訊協定取代。 Session Protocol does [not](https://getsession.org/blog/session-protocol-technical-information) support forward secrecy.[^1]
+Session 之前以 Signal Protocol 為基礎，後來在 2020 年 12 月以他們自己的通訊協定取代。 Session 協議[不](https://getsession.org/blog/session-protocol-technical-information)支援前向保密[^1]。
 
-Oxen requested an independent audit for Session in March 2020. The audit [concluded](https://getsession.org/session-code-audit) in April 2021:
+2020 年 3 月 Oxen 對 Session 進行獨立審核。 該審核於 2021 年 4 月[結束](https://getsession.org/session-code-audit)：
 
-> 此應用程式的整體安全層級良好，讓注重隱私的人也能使用。
+> 此應用程式的整體安全層級良好，對注重隱私的人而言十分有用。
 
-Session has a [white paper](https://arxiv.org/pdf/2002.04609.pdf) describing the technical details of the app and protocol.
+Session 有一份[白皮書](https://arxiv.org/pdf/2002.04609.pdf)，說明應用程式和通訊協定的技術細節。
 
 ## 標準
 

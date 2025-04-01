@@ -1,5 +1,5 @@
 ---
-title: "Multifactor Authentication"
+title: "多重要素驗證"
 icon: 'material/two-factor-authentication'
 description: 多因素驗證是保護您線上帳戶的關鍵安全機制，但有些方法比其他方法更強大。
 ---

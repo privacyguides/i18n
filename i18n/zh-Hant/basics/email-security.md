@@ -29,7 +29,7 @@ description: 從許多方面來看電子郵件本質上是不安全的，這也�
 
 ### 哪些郵件客戶端支援 E2EE？
 
-電子郵件服務供應商讓您能使用標準訪問協議如 IMAP 與SMTP，以便應用[我們推薦的電子郵件客戶端軟體](../email-clients.md)。 Depending on the authentication method, this may lead to the decrease security if either the provider or the email client does not support OATH or a bridge application as [multifactor authentication](multi-factor-authentication.md) is not possible with plain password authentication.
+電子郵件服務供應商讓您能使用標準訪問協議如 IMAP 與SMTP，以便應用[我們推薦的電子郵件客戶端軟體](../email-clients.md)。 安全性則視驗證方法而定，如果提供者或電子郵件用戶端不支援 OATH 或橋接應用程式，這可能會導致安全性降低，因為在純密碼驗證環境下無法使用[多重要素驗證](multi-factor-authentication.md)。
 
 ### 我該如何保護自己的私鑰？
 
