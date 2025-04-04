@@ -110,7 +110,7 @@ We recommend [Safari](mobile-browsers.md#safari-ios) for iOS users, which unfort
 
 Additional filter lists do slow things down and may increase your attack surface, so only apply what you need. AdGuard for iOS has some premium features; however, standard Safari content blocking is free of charge.
 
-## Criteria
+## Kriter
 
 - Must not replicate built-in browser or OS functionality.
 - Must directly impact user privacy, i.e. must not simply provide information.

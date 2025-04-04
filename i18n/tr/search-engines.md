@@ -1,6 +1,6 @@
 ---
 meta_title: "Recommended Search Engines: Anonymous Google Alternatives - Privacy Guides"
-title: "Search Engines"
+title: "Arama motorları"
 icon: material/search-web
 description: Privacy-respecting search engines which don't build an advertising profile based on your searches.
 cover: search-engines.webp
@@ -10,7 +10,7 @@ global:
     - "table tbody"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Aşağıdaki tehdit(ler)e karşı koruma sağlar:</small>
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
@@ -112,18 +112,18 @@ When self-hosting, it is important that you have other people using your instanc
 
 When you are using a SearXNG instance, be sure to go read their privacy policy. Since SearXNG instances may be modified by their owners, they do not necessarily reflect their privacy policy. Some instances run as a Tor hidden service, which may grant some privacy as long as your search queries does not contain PII.
 
-## Criteria
+## Kriter
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Lütfen önerdiğimiz projelerin hiçbirine bağlı olmadığımızı unutmayın.** [standart kriterlerimize](about/criteria.md) ek olarak, objektif tavsiyelerde bulunabilmemiz için bir takım gereklilikler geliştirdik. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
 
-### Minimum Requirements
+### Minimum Gereksinimler
 
 - Must not collect PII per their privacy policy.
 - Must not require users to create an account with them.
 
-### Best-Case
+### En İyi Durum
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+En iyi durum kriterlerimiz, bu kategorideki mükemmel bir projede görmek istediklerimizi temsil etmektedir. Önerilerimiz bu işlevlerden herhangi birini veya tamamını içermeyebilir, ancak içerenler bu sayfada diğerlerinden daha üst sıralarda yer alabilir.
 
 - Should be based on open-source software.
 - Should not block Tor exit node IP addresses.

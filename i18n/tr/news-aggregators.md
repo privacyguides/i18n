@@ -1,34 +1,34 @@
 ---
-title: "News Aggregators"
+title: "Haber Toplayıcıları"
 icon: material/rss
-description: These news aggregator clients let you keep up with your favorite blogs and news sites using internet standards like RSS.
+description: Bu haber toplayıcı istemciler, RSS gibi internet standartlarını kullanarak favori bloglarınızı ve haber sitelerinizi takip etmenizi sağlar.
 cover: news-aggregators.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Aşağıdaki tehdit(ler)e karşı koruma sağlar:</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-server-network: Hizmet Sağlayıcılar](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-A **news aggregator** is software which aggregates digital content from online newspapers, blogs, podcasts, and other resources to one location for easy viewing. Using one can be a great way to keep up with your favorite content.
+**Haber toplayıcı**, çevrimiçi gazetelerden, bloglardan, podcast'lerden ve diğer kaynaklardan dijital içeriği kolay görüntüleme için tek bir yerde toplayan bir yazılımdır. Birini kullanmak, favori içeriğinizi takip etmek için harika bir yol olabilir.
 
-## Aggregator clients
+## Toplayıcı istemcileri
 
 ### Akregator
 
 <div class="admonition recommendation" markdown>
 
-![Akregator logo](assets/img/news-aggregators/akregator.svg){ align=right }
+![Akregator logosu](assets/img/news-aggregators/akregator.svg){ align=right }
 
-**Akregator** is a news feed reader that is a part of the [KDE](https://kde.org) project. It comes with a fast search, advanced archiving functionality, and an internal browser for easy news reading.
+**Akregator**, [KDE](https://kde.org) projesinin bir parçası olan bir haber akışı okuyucusudur. Hızlı arama, gelişmiş arşivleme işlevi ve kolay haber okuma için dahili bir tarayıcı ile birlikte gelir.
 
-[:octicons-home-16: Homepage](https://apps.kde.org/akregator){ .md-button .md-button--primary }
+[:octicons-home-16: Ana Sayfa](https://apps.kde.org/akregator){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title="Documentation" }
+[:octicons-info-16:](https://docs.kde.org/?application=akregator){ .card-link title=Documentation}
 [:octicons-code-16:](https://invent.kde.org/pim/akregator){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title="Contribute" }
+[:octicons-heart-16:](https://kde.org/community/donations){ .card-link title=Contribute }???
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>İndirmeler</summary>
 
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.kde.akregator)
 
@@ -40,15 +40,15 @@ A **news aggregator** is software which aggregates digital content from online n
 
 <div class="admonition recommendation" markdown>
 
-![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ align=right }
+![NewsFlash logosu](assets/img/news-aggregators/newsflash.png){ align=right }
 
-**NewsFlash** is an open-source, modern, and easy-to-use news feed reader for Linux. It can be used offline or used with services like [Nextcloud News](https://apps.nextcloud.com/apps/news) or [Inoreader](https://inoreader.com). It has a search feature and a pre-defined list of sources that you can add directly.
+**NewsFlash** Linux için açık kaynaklı, modern ve kullanımı kolay bir haber akışı okuyucusudur. Çevrimdışı kullanılabilir veya [Nextcloud News](https://apps.nextcloud.com/apps/news) veya [Inoreader](https://inoreader.com) gibi hizmetlerle birlikte kullanılabilir. Bir arama özelliğine ve doğrudan ekleyebileceğiniz önceden tanımlanmış bir kaynak listesine sahiptir.
 
 [:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk){ .md-button .md-button--primary }
-[:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Source Code" }
+[:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Kaynak Kod" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>İndirmeler</summary>
 
 - [:simple-flathub: Flathub](https://flathub.org/apps/io.gitlab.news_flash.NewsFlash)
 
@@ -60,19 +60,19 @@ A **news aggregator** is software which aggregates digital content from online n
 
 <div class="admonition recommendation" markdown>
 
-![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
+![Feeder logosu](assets/img/news-aggregators/feeder.png){ align=right }
 
-**Feeder** is a modern RSS client for Android that has many [features](https://github.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+**Feeder**, Android için birçok [özelliğe](https://github.com/spacecowboy/Feeder#features) sahip ve RSS beslemelerinin klasörleriyle iyi çalışan modern bir RSS istemcisidir. RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) ve [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed) destekler.
 
 [:octicons-repo-16: Repository](https://github.com/spacecowboy/Feeder){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title="Contribute" }
+[:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Documentation" }
+[:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title="Kaynak Kod" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
-
+<summary>İndirmeler</summary>
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play)
-- [:simple-github: GitHub](https://github.com/spacecowboy/Feeder/releases)
+- [:simple-github: Accrescent](https://github.com/spacecowboy/Feeder/releases)
+- [ GitHub)
 
 </details>
 
@@ -82,10 +82,10 @@ A **news aggregator** is software which aggregates digital content from online n
 
 <div class="admonition recommendation" markdown>
 
-![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
-![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
+![Miniflux logosu](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
+![Miniflux logosu](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
 
-**Miniflux** is a web-based news aggregator that you can self-host. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+**Miniflux** kendi kendinize barındırabileceğiniz web tabanlı bir haber toplayıcısıdır. RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) ve [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed) destekler.
 
 [:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
 [:octicons-info-16:](https://miniflux.app/docs/index){ .card-link title="Documentation" }
@@ -131,25 +131,25 @@ A **news aggregator** is software which aggregates digital content from online n
 
 </div>
 
-## Criteria
+## Kriter
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Lütfen önerdiğimiz projelerin hiçbirine bağlı olmadığımızı unutmayın.** [standart kriterlerimize](about/criteria.md) ek olarak, objektif tavsiyelerde bulunabilmemiz için bir takım gereklilikler geliştirdik. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
 
 - Must be open-source software.
-- Must operate locally, i.e. must not be a cloud service.
+- Yerel olarak çalışmalıdır, yani bir bulut hizmeti olmamalıdır.
 
-## Social Media RSS Support
+## Sosyal Medya RSS Desteği
 
-Some social media services also support RSS, although it's not often advertised.
+Bazı sosyal medya hizmetleri de RSS'yi destekler, ancak bunun reklamı pek yapılmaz.
 
 ### Reddit
 
-Reddit allows you to subscribe to Subreddits via RSS.
+Reddit, RSS aracılığıyla Subreddit'lere abone olmanızı sağlar.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example</p>
+<p class="admonition-title">Örnek</p>
 
-Replace `[SUBREDDIT]` with the Subreddit you wish to subscribe to.
+Abone olmak istediğiniz Subreddit ile `[SUBREDDIT]` ifadesini değiştirin.
 
 ```text
 https://reddit.com/r/[SUBREDDIT]/new/.rss
@@ -159,15 +159,15 @@ https://reddit.com/r/[SUBREDDIT]/new/.rss
 
 ### YouTube
 
-You can subscribe to YouTube channels without logging in and associating usage information with your Google account.
+Giriş yapmadan ve kullanım bilgilerini Google hesabınızla ilişkilendirmeden YouTube kanallarına abone olabilirsiniz.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example</p>
+<p class="admonition-title">Örnek</p>
 
-To subscribe to a YouTube channel with an RSS client, first look for its [channel code](https://support.google.com/youtube/answer/6180214). The channel code can be found on the about page of the YouTube channel you wish to subscribe to, under: **About** → **Share** → **Copy channel ID**. Replace `[CHANNEL ID]` below:
+Bir RSS istemcisi ile bir YouTube kanalına abone olmak için, önce [kanal kodunu] arayın(https://support.google.com/youtube/answer/6180214). Kanal kodu, abone olmak istediğiniz YouTube kanalının hakkında sayfasında bulunabilir: **Hakkında** → **Paylaş** → **Kanal kimliğini kopyala**. Aşağıdaki `[CHANNEL ID]`yi değiştirin:
 
-```text
-https://youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]
+``metin
+https://youtube.com/feeds/videos.xml?channel_id=[KANAL KİMLİĞİ]
 ```
 
 </div>

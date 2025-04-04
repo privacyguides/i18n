@@ -1,5 +1,5 @@
 ---
-title: Operating Systems
+title: İşletim Sistemleri
 description: An overview of our operating system-related recommendations for all major computing hardware.
 ---
 

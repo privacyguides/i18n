@@ -23,11 +23,11 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Aşağıdaki tehdit(ler)e karşı koruma sağlar:</small>
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 - [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
-- [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
+- [:material-close-outline: Sansür](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
 
 **Tor** is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective censorship circumvention tool.
 
@@ -88,58 +88,56 @@ In addition to installing Tor Browser on your computer directly, there are also 
 
 <div class="admonition recommendation" markdown>
 
-![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
+![Orbot logosu](assets/img/self-contained-networks/orbot.svg){ align=right }
 
-**Orbot** is a free Tor VPN for smartphones which routes traffic from any app on your device through the Tor network.
+**Orbot**, cihazınızdaki herhangi bir uygulamadan gelen trafiği Tor ağı üzerinden yönlendiren akıllı telefonlar için ücretsiz bir Tor VPN'dir.
 
-[:octicons-home-16: Homepage](https://orbot.app){ .md-button .md-button--primary }
+[:octicons-home-16: Ana Sayfa](https://orbot.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentation}
 [:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>İndirmeler</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1609461599)
+- [:simple-appstore: Accrescent](https://apps.apple.com/app/id1609461599)
 - [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
 
 </details>
 
 </div>
 
-We previously recommended enabling the *Isolate Destination Address* preference in Orbot settings. While this setting can theoretically improve privacy by enforcing the use of a different circuit for each IP address you connect to, it doesn't provide a practical advantage for most applications (especially web browsing), can come with a significant performance penalty, and increases the load on the Tor network. We no longer recommend adjusting this setting from its default value unless you know you need to.[^1]
+Daha önce Orbot ayarlarında *Hedef Adresi İzole Et tercihinin* etkinleştirilmesini önermiştik. Bu ayar, bağlandığınız her IP adresi için farklı bir devre kullanılmasını zorunlu kılarak teorik olarak gizliliği artırabilir, ancak çoğu uygulama (özellikle web taraması) için pratik bir avantaj sağlamaz, önemli bir performans düşüşüne neden olabilir ve Tor ağı üzerindeki yükü artırır. İhtiyacınız olduğunu bilmediğiniz sürece bu ayarın varsayılan değerinden ayarlanmasını artık önermiyoruz.[^1]
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tips for Android</p>
+<p class="admonition-title">Android için İpuçları</p>
 
-Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN kill switch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+Orbot, SOCKS veya HTTP proxy'yi destekliyorsa tek tek uygulamaları proxy'leyebilir. Ayrıca [VpnService](https://developer.android.com/reference/android/net/VpnService) kullanarak tüm ağ bağlantılarınızı proxy yapabilir ve :gear: **Ayarlar** → **Ağ ve internet** → **VPN** → :gear: → **VPN olmadan bağlantıları engelle** içindeki VPN kill switch ile kullanılabilir.
 
-Orbot is often outdated on the Guardian Project's [F-Droid repository](https://guardianproject.info/fdroid) and [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android), so consider downloading directly from the [GitHub repository](https://github.com/guardianproject/orbot/releases) instead.
+Orbot, Guardian Project'in [F-Droid repository](https://guardianproject.info/fdroid) ve [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android) sitelerinde genellikle güncel değildir, bu nedenle bunun yerine doğrudan [GitHub repository](https://github.com/guardianproject/orbot/releases) adresinden indirmeyi düşünün.
 
-All versions are signed using the same signature, so they should be compatible with each other.
+Tüm sürümler aynı imza kullanılarak imzalanmıştır, bu nedenle birbirleriyle uyumlu olmalıdırlar.
 
 </div>
 
-On iOS, Orbot has some limitations that could potentially cause crashes or leaks: iOS does not have an effective OS-level feature to block connections without a VPN like Android does, and iOS has an artificial memory limit for network extensions that makes it challenging to run Tor in Orbot without crashes. Currently, it is always safer to use Tor on a desktop computer compared to a mobile device.
+IOS'ta Orbot, çökmelere veya sızıntılara neden olabilecek bazı sınırlamalara sahiptir: iOS, Android'in yaptığı gibi VPN olmadan bağlantıları engellemek için etkili bir işletim sistemi düzeyinde özelliğe sahip değildir ve iOS'un ağ uzantıları için yapay bir bellek sınırı vardır, bu da Orbot'ta Tor'u çökmeden çalıştırmayı zorlaştırır. Şu anda Tor'u masaüstü bilgisayarda kullanmak mobil cihazda kullanmaya kıyasla her zaman daha güvenlidir.
 
 ## Onion Browser (iOS)
 
 <div class="admonition recommendation" markdown>
 
-![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
+![Onion Browser logosu](assets/img/self-contained-networks/onion_browser.svg){ align=right }
 
-**Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser). [:material-star-box: Read our latest Onion Browser review.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review/)
-
-[:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
+**Onion Browser**, iOS cihazlarda Tor ağı üzerinden anonim olarak web'de gezinmenizi sağlayan açık kaynaklı bir tarayıcıdır ve [Tor Projesi](https://support.torproject.org/glossary/onion-browser) tarafından desteklenmektedir. [:octicons-home-16: Ana Sayfa](https://cryptomator.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.cryptomator.org){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://cryptomator.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>İndirmeler</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
 
@@ -147,8 +145,8 @@ On iOS, Orbot has some limitations that could potentially cause crashes or leaks
 
 </div>
 
-Onion Browser does not provide the same levels of privacy protections as Tor Browser does on desktop platforms. For casual use it is a perfectly fine way to access hidden services, but if you're concerned about being traced or monitored by advanced adversaries you should not rely on this as an anonymity tool.
+Onion Browser, masaüstü platformlarda Tor Browser ile aynı düzeyde gizlilik koruması sağlamaz. Sıradan kullanım için gizli hizmetlere erişmenin mükemmel bir yoludur, ancak gelişmiş düşmanlar tarafından izlenmekten veya izlenmekten endişe ediyorsanız, buna bir anonimlik aracı olarak güvenmemelisiniz.
 
-[Notably](https://github.com/privacyguides/privacyguides.org/issues/2929), Onion Browser does not *guarantee* all requests go through Tor. When using the built-in version of Tor, [your real IP **will** be leaked via WebRTC and audio/video streams](https://onionbrowser.com/faqs) due to limitations of WebKit. It is *safer* to use Onion Browser alongside Orbot, but this still comes with some limitations on iOS (noted in the Orbot section above).
+[Özellikle](https://github.com/privacyguides/privacyguides.org/issues/2929), Onion Browser tüm isteklerin Tor üzerinden geçeceğini *garanti* etmez. Tor'un yerleşik sürümünü kullanırken, WebKit'in sınırlamaları nedeniyle [gerçek IP'niz WebRTC ve ses/video akışları aracılığıyla **sızdırılacaktır**](https://onionbrowser.com/faqs). Onion Browser'ı Orbot ile birlikte kullanmak *daha güvenlidir*, ancak bu yine de iOS'ta bazı sınırlamalarla birlikte gelir (yukarıdaki Orbot bölümünde belirtilmiştir).
 
-[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) and [Whonix's Stream Isolation documentation](https://whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.
+[^1]: `IsolateDestAddr` ayarı [Tor posta listesinde](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) ve [Whonix'in Stream Isolation belgelerinde](https://whonix.org/wiki/Stream_Isolation) tartışılmaktadır ve her iki proje de bunun çoğu insan için genellikle iyi bir yaklaşım olmadığını önermektedir.

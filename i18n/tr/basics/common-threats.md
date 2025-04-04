@@ -59,66 +59,66 @@ Some of these threats may be more important to you than others, depending on you
 
 Anonymity is often confused with privacy, but they're distinct concepts. While privacy is a set of choices you make about how your data is used and shared, anonymity is the complete disassociation of your online activities from your real identity.
 
-Whistleblowers and journalists, for example, can have a much more extreme threat model which requires total anonymity. That's not only hiding what they do, what data they have, and not getting hacked by malicious actors or governments, but also hiding who they are entirely. They will often sacrifice any kind of convenience if it means protecting their anonymity, privacy, or security, because their lives could depend on it. Most people don't need to go so far.
+Whistleblowers and journalists, for example, can have a much more extreme threat model which requires total anonymity. That's not only hiding what they do, what data they have, and not getting hacked by malicious actors or governments, but also hiding who they are entirely. They will often sacrifice any kind of convenience if it means protecting their anonymity, privacy, or security, because their lives could depend on it. Çoğu insanın bu kadar ileri gitmesine gerek yoktur.
 
-## Security and Privacy
+## Güvenlik ve Gizlilik
 
-<span class="pg-orange">:material-bug-outline: Passive Attacks</span>
+<span class="pg-orange">:material-bug-outline: Pasif Saldırılar</span>
 
-Security and privacy are also often confused, because you need security to obtain any semblance of privacy: Using tools—even if they're private by design—is futile if they could be easily exploited by attackers who later release your data. However, the inverse isn't necessarily true: The most secure service in the world *isn't necessarily* private. The best example of this is trusting data to Google who, given their scale, have had few security incidents by employing industry-leading security experts to secure their infrastructure. Even though Google provides very secure services, very few people would consider their data private in Google's free consumer products (Gmail, YouTube, etc.)
+Güvenlik ve gizlilik de sıklıkla birbirine karıştırılır, çünkü herhangi bir gizlilik görüntüsü elde etmek için güvenliğe ihtiyacınız vardır: Araçları kullanmak - tasarımları gereği özel olsalar bile - daha sonra verilerinizi yayınlayan saldırganlar tarafından kolayca istismar edilebileceklerse boşunadır. Ancak bunun tersi de doğru olmayabilir: Dünyanın en güvenli hizmeti *mutlaka* özel olmak zorunda değildir. Bunun en iyi örneği, ölçekleri göz önüne alındığında, altyapılarını güvence altına almak için sektör lideri güvenlik uzmanları istihdam ederek çok az güvenlik olayı yaşayan Google'a veri emanet etmektir. Google çok güvenli hizmetler sunsa da, çok az kişi Google'ın ücretsiz tüketici ürünlerinde (Gmail, YouTube, vb.) verilerinin gizli olduğunu düşünür.
 
-When it comes to application security, we generally don't (and sometimes can't) know if the software we use is malicious, or might one day become malicious. Even with the most trustworthy developers, there's generally no guarantee that their software doesn't have a serious vulnerability that could later be exploited.
+Uygulama güvenliği söz konusu olduğunda, kullandığımız yazılımın kötü amaçlı olup olmadığını veya bir gün kötü amaçlı hale gelip gelmeyeceğini genellikle bilemeyiz (ve bazen bilemeyiz). En güvenilir geliştiricilerde bile, yazılımlarının daha sonra istismar edilebilecek ciddi bir güvenlik açığına sahip olmadığının garantisi genellikle yoktur.
 
-To minimize the damage that a malicious piece of software *could* do, you should employ security by compartmentalization. For example, this could come in the form of using different computers for different jobs, using virtual machines to separate different groups of related applications, or using a secure operating system with a strong focus on application sandboxing and mandatory access control.
+Kötü niyetli bir yazılımın *verebileceği* zararı en aza indirmek için bölümlere ayırarak güvenlik sağlamalısınız. Örneğin bu, farklı işler için farklı bilgisayarlar kullanmak, farklı ilgili uygulama gruplarını ayırmak için sanal makineler kullanmak veya uygulama kum havuzu ve zorunlu erişim kontrolüne güçlü bir şekilde odaklanan güvenli bir işletim sistemi kullanmak şeklinde olabilir.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">İpucu</p>
 
-Mobile operating systems generally have better application sandboxing than desktop operating systems: Apps can't obtain root access, and require permission for access to system resources.
+Mobil işletim sistemleri genellikle masaüstü işletim sistemlerine göre daha iyi uygulama korumasına sahiptir: Uygulamalar kök erişimi elde edemez ve sistem kaynaklarına erişim için izin gerektirir.
 
-Desktop operating systems generally lag behind on proper sandboxing. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). However, these operating systems do transmit identifying information to their respective OEMs. Linux tends to not submit information to system vendors, but it has poor protection against exploits and malicious apps. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+Masaüstü işletim sistemleri genellikle uygun sandboxing konusunda geride kalmaktadır. ChromeOS, Android'e benzer sandboxing özelliklerine sahiptir ve macOS tam sistem izin kontrolüne sahiptir (ve geliştiriciler uygulamalar için sandboxing'i seçebilirler). Ancak, bu işletim sistemleri kendi OEM'lerine tanımlayıcı bilgiler iletmektedir. Linux, sistem satıcılarına bilgi göndermeme eğilimindedir, ancak istismarlara ve kötü amaçlı uygulamalara karşı zayıf bir korumaya sahiptir. Bu durum, [Qubes OS](../desktop.md#qubes-os) gibi sanal makineleri veya konteynerleri önemli ölçüde kullanan özel dağıtımlarla bir miktar hafifletilebilir.
 
 </div>
 
-## Attacks against Specific Individuals
+## Belirli Kişilere Yönelik Saldırılar
 
-<span class="pg-red">:material-target-account: Targeted Attacks</span>
+<span class="pg-red">:material-target-account: Hedefli Saldırılar</span>
 
-Targeted attacks against a specific person are more problematic to deal with. Common attacks include sending malicious documents via email, exploiting vulnerabilities (e.g. in browsers and operating systems), and physical attacks. If this is a concern for you, you should employ more advanced threat mitigation strategies.
+Belirli bir kişiye yönelik hedefli saldırılarla başa çıkmak daha sorunludur. Yaygın saldırılar arasında e-posta yoluyla kötü amaçlı belgeler gönderme, güvenlik açıklarından yararlanma (örneğin tarayıcılarda ve işletim sistemlerinde) ve fiziksel saldırılar yer alır. Bu sizin için bir endişe kaynağıysa, daha gelişmiş tehdit azaltma stratejileri kullanmalısınız.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">İpucu</p>
 
-By design, **web browsers**, **email clients**, and **office applications** typically run untrusted code, sent to you from third parties. Running multiple virtual machines—to separate applications like these from your host system, as well as each other—is one technique you can use to mitigate the chance of an exploit in these applications compromising the rest of your system. For example, technologies like Qubes OS or Microsoft Defender Application Guard on Windows provide convenient methods to do this.
+Tasarım gereği, **web tarayıcıları**, **e-posta istemcileri** ve **ofis uygulamaları** genellikle size üçüncü taraflardan gönderilen güvenilmeyen kodları çalıştırır. Bu gibi uygulamaları ana sisteminizden ve birbirlerinden ayırmak için birden fazla sanal makine çalıştırmak, bu uygulamalardaki bir açığın sisteminizin geri kalanını tehlikeye atma olasılığını azaltmak için kullanabileceğiniz bir tekniktir. Örneğin, Qubes OS veya Windows'ta Microsoft Defender Application Guard gibi teknolojiler bunu yapmak için uygun yöntemler sağlar.
 
 </div>
 
-If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). You should also make sure that your drive is encrypted, and that the operating system uses a TPM or Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) or [Element](https://developers.google.com/android/security/android-ready-se) to rate limit attempts to enter the encryption passphrase. You should avoid sharing your computer with people you don't trust, because most desktop operating systems don't encrypt data separately per-user.
+**Fiziksel saldırılardan** endişe ediyorsanız, Android, iOS, macOS veya [Windows (TPM ile)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process) gibi güvenli doğrulanmış önyükleme uygulamasına sahip bir işletim sistemi kullanmalısınız. Ayrıca sürücünüzün şifreli olduğundan ve işletim sisteminin şifreleme parolasını girme girişimlerini sınırlandırmak için bir TPM veya Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) veya [Element](https://developers.google.com/android/security/android-ready-se) kullandığından emin olmalısınız. Çoğu masaüstü işletim sistemi verileri kullanıcı başına ayrı ayrı şifrelemediği için bilgisayarınızı güvenmediğiniz kişilerle paylaşmaktan kaçınmalısınız.
 
-## Attacks against Certain Organizations
+## Belirli Kuruluşlara Yönelik Saldırılar
 
-<span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>
+<span class="pg-viridian">:material-package-variant-closed-remove: Tedarik Zinciri Saldırıları</span>
 
-Supply chain attacks are frequently a form of <span class="pg-red">:material-target-account: Targeted Attack</span> towards businesses, governments, and activists, although they can end up compromising the public at large as well.
+Tedarik zinciri saldırıları sıklıkla işletmelere, hükümetlere ve aktivistlere yönelik bir <span class="pg-red">:material-target-account: Hedefli Saldırı</span> biçimidir, ancak genel olarak kamuyu da tehlikeye atabilirler.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example</p>
+<p class="admonition-title">Örnek</p>
 
-A notable example of this occurred in 2017 when M.E.Doc, a popular accounting software in Ukraine, was infected with the *NotPetya* virus, subsequently infecting people who downloaded that software with ransomware. NotPetya itself was a ransomware attack which impacted 2000+ companies in various countries, and was based on the *EternalBlue* exploit developed by the NSA to attack Windows computers over the network.
+Bunun kayda değer bir örneği 2017 yılında Ukrayna'da popüler bir muhasebe yazılımı olan M.E.Doc'a *NotPetya* virüsünün bulaşması ve ardından bu yazılımı indiren kişilere fidye yazılımı bulaştırmasıyla ortaya çıkmıştır. NotPetya, çeşitli ülkelerdeki 2000'den fazla şirketi etkileyen bir fidye yazılımı saldırısıydı ve NSA tarafından Windows bilgisayarlara ağ üzerinden saldırmak için geliştirilen *EternalBlue* istismarına dayanıyordu.
 
 </div>
 
-There are few ways in which this type of attack might be carried out:
+Bu tür bir saldırının gerçekleştirilebileceği birkaç yol vardır:
 
-1. A contributor or employee might first work their way into a position of power within a project or organization, and then abuse that position by adding malicious code.
-2. A developer may be coerced by an outside party to add malicious code.
-3. An individual or group might identify a third party software dependency (also known as a library) and work to infiltrate it with the above two methods, knowing that it will be used by "downstream" software developers.
+1. Bir katılımcı veya çalışan önce bir proje veya kuruluş içinde güçlü bir konuma gelebilir ve daha sonra kötü amaçlı kod ekleyerek bu konumu kötüye kullanabilir.
+2. Bir geliştirici, dışarıdan bir tarafça kötü amaçlı kod eklemeye zorlanabilir.
+3. Bir kişi ya da grup, üçüncü taraf bir yazılım bağımlılığını (kütüphane olarak da bilinir) tespit edebilir ve "aşağı akış" yazılım geliştiricileri tarafından kullanılacağını bilerek yukarıdaki iki yöntemle bu bağımlılığa sızmaya çalışabilir.
 
-These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers to only use software which has a good reputation and makes an effort to reduce risk by:
+Bu tür saldırıların gerçekleştirilmesi çok fazla zaman ve hazırlık gerektirebilir ve risklidir çünkü özellikle popüler ve dışarıdan ilgi gören açık kaynaklı projelerde tespit edilebilirler. Ne yazık ki, tamamen ortadan kaldırılması çok zor olduğu için aynı zamanda en tehlikeli olanlardan biridir. Okuyucuları yalnızca iyi bir üne sahip olan ve riski azaltmak için çaba gösteren yazılımları kullanmaya teşvik ediyoruz:
 
-1. Only adopting popular software that has been around for a while. The more interest in a project, the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
-2. Finding software which releases binaries with widely-used, trusted build infrastructure platforms, as opposed to developer workstations or self-hosted servers. Some systems like GitHub Actions let you inspect the build script that runs publicly for extra confidence. This lessens the likelihood that malware on a developer's machine could infect their packages, and gives confidence that the binaries produced are in fact produced correctly.
-3. Looking for code signing on individual source code commits and releases, which creates an auditable trail of who did what. For example: Was the malicious code in the software repository? Which developer added it? Was it added during the build process?
+1. Yalnızca bir süredir piyasada olan popüler yazılımları benimseyin. Bir projeye ilgi ne kadar fazla olursa, dış tarafların kötü niyetli değişiklikleri fark etme olasılığı da o kadar artar. Kötü niyetli bir aktörün de anlamlı katkılarla toplumun güvenini kazanmak için daha fazla zaman harcaması gerekecektir.
+2. Geliştirici iş istasyonları veya kendi kendine barındırılan sunucular yerine yaygın olarak kullanılan, güvenilir derleme altyapısı platformlarıyla ikili dosyalar yayınlayan yazılımlar bulmak. GitHub Actions gibi bazı sistemler, daha fazla güven için herkese açık olarak çalışan derleme komut dosyasını incelemenize izin verir. Bu, bir geliştiricinin makinesindeki kötü amaçlı yazılımın paketlerine bulaşma olasılığını azaltır ve üretilen ikili dosyaların aslında doğru şekilde üretildiğine dair güven verir.
+3. Kimin ne yaptığına dair denetlenebilir bir iz oluşturan bireysel kaynak kodu taahhütleri ve sürümleri üzerinde kod imzalama arayışı. For example: Was the malicious code in the software repository? Which developer added it? Was it added during the build process?
 4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what each change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
 5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enabling undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
 
@@ -189,43 +189,43 @@ If you're concerned about mass surveillance programs, you can use strategies lik
 
 For many people, tracking and surveillance by private corporations is a growing concern. Pervasive ad networks, such as those operated by Google and Facebook, span the internet far beyond just the sites they control, tracking your actions along the way. Using tools like content blockers to limit network requests to their servers, and reading the privacy policies of the services you use can help you avoid many basic adversaries (although it can't completely prevent tracking).[^4]
 
-Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. You can't automatically assume your data is safe just because the service you're using doesn't fall within the typical AdTech or tracking business model. The strongest protection against corporate data collection is to encrypt or obfuscate your data whenever possible, making it difficult for different providers to correlate data with each other and build a profile on you.
+Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. You can't automatically assume your data is safe just because the service you're using doesn't fall within the typical AdTech or tracking business model. Kurumsal veri toplamaya karşı en güçlü koruma, verilerinizi mümkün olduğunca şifrelemek veya gizlemektir; böylece farklı sağlayıcıların verileri birbiriyle ilişkilendirmesi ve hakkınızda bir profil oluşturması zorlaşır.
 
-## Limiting Public Information
+## Kamu Bilgisinin Sınırlandırılması
 
-<span class="pg-green">:material-account-search: Public Exposure</span>
+<span class="pg-green">:material-account-search: Kamuya Açıklık</span>
 
-The best way to keep your data private is simply not making it public in the first place. Deleting unwanted information you find about yourself online is one of the best first steps you can take to regain your privacy.
+Verilerinizi gizli tutmanın en iyi yolu, onları ilk etapta kamuya açık hale getirmemektir. Çevrimiçi ortamda kendiniz hakkında bulduğunuz istenmeyen bilgileri silmek, gizliliğinizi yeniden kazanmak için atabileceğiniz en iyi ilk adımlardan biridir.
 
-- [View our guide on account deletion :material-arrow-right-drop-circle:](account-deletion.md)
+- [Hesap silme ile ilgili kılavuzumuzu görüntüleyin :material-arrow-right-drop-circle:](account-deletion.md)
 
-On sites where you do share information, checking the privacy settings of your account to limit how widely that data is spread is very important. For example, enable "private mode" on your accounts if given the option: This ensures that your account isn't being indexed by search engines, and that it can't be viewed without your permission.
+Bilgi paylaştığınız sitelerde, bu verilerin ne kadar geniş bir alana yayıldığını sınırlamak için hesabınızın gizlilik ayarlarını kontrol etmek çok önemlidir. Örneğin, seçenek varsa hesaplarınızda "özel modu" etkinleştirin: Bu, hesabınızın arama motorları tarafından indekslenmemesini ve izniniz olmadan görüntülenememesini sağlar.
 
-If you've already submitted your real information to sites which shouldn't have it, consider using disinformation tactics, like submitting fictitious information related to that online identity. This makes your real information indistinguishable from the false information.
+Gerçek bilgilerinizi, bu bilgilere sahip olmaması gereken sitelere zaten gönderdiyseniz, bu çevrimiçi kimlikle ilgili hayali bilgiler göndermek gibi dezenformasyon taktikleri kullanmayı düşünün. Bu, gerçek bilgilerinizi yanlış bilgilerden ayırt edilemez hale getirir.
 
-## Avoiding Censorship
+## Sansürden Kaçınma
 
-<span class="pg-blue-gray">:material-close-outline: Censorship</span>
+<span class="pg-blue-gray">:material-close-outline: Sansür</span>
 
-Censorship online can be carried out (to varying degrees) by actors including totalitarian governments, network administrators, and service providers. These efforts to control communication and restrict access to information will always be incompatible with the human right to Freedom of Expression.[^5]
+Çevrimiçi sansür, totaliter hükümetler, ağ yöneticileri ve hizmet sağlayıcıları gibi aktörler tarafından (değişen derecelerde) gerçekleştirilebilir. İletişimi kontrol etmeye ve bilgiye erişimi kısıtlamaya yönelik bu çabalar, insanın İfade Özgürlüğü hakkı ile her zaman uyumsuz olacaktır.[^5]
 
-Censorship on corporate platforms is increasingly common, as platforms like Twitter and Facebook give in to public demand, market pressures, and pressures from government agencies. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
+Twitter ve Facebook gibi platformlar kamuoyu taleplerine, piyasa baskılarına ve devlet kurumlarından gelen baskılara boyun eğdikçe kurumsal platformlarda sansür giderek yaygınlaşıyor. Hükümet baskıları, Beyaz Saray'ın kışkırtıcı bir YouTube videosunun yayından [kaldırılmasını talep](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) etmesi gibi işletmelere yönelik gizli talepler olabileceği gibi, Çin hükümetinin şirketlerden katı bir sansür rejimine uymalarını istemesi gibi açık talepler de olabilir.
 
-People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../real-time-communication.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
+Sansür tehdidinden endişe duyan insanlar bunu aşmak için [Tor](../advanced/tor-overview.md) gibi teknolojileri kullanabilir ve hesapları keyfi olarak kapatabilecek merkezi bir hesap yetkilisine sahip olmayan [Matrix](../real-time-communication.md#element) gibi sansüre dayanıklı iletişim platformlarını destekleyebilir.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">İpucu</p>
 
-While evading censorship itself can be easy, hiding the fact that you are doing it can be very problematic.
+Sansürden kaçmanın kendisi kolay olsa da, bunu yaptığınız gerçeğini gizlemek çok sorunlu olabilir.
 
-You should consider which aspects of the network your adversary can observe, and whether you have plausible deniability for your actions. For example, using [encrypted DNS](../advanced/dns-overview.md#what-is-encrypted-dns) can help you bypass rudimentary, DNS-based censorship systems, but it can't truly hide what you are visiting from your ISP. A VPN or Tor can help hide what you are visiting from network administrators, but can't hide that you're using those networks in the first place. Pluggable transports (such as Obfs4proxy, Meek, or Shadowsocks) can help you evade firewalls that block common VPN protocols or Tor, but your circumvention attempts can still be detected by methods like probing or [deep packet inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection).
+Düşmanınızın ağın hangi yönlerini gözlemleyebileceğini ve eylemleriniz için makul inkar edilebilirliğe sahip olup olmadığınızı düşünmelisiniz. Örneğin, [şifreli DNS](../advanced/dns-overview.md#what-is-encrypted-dns) kullanmak, ilkel, DNS tabanlı sansür sistemlerini atlatmanıza yardımcı olabilir, ancak ISS'nizden ziyaret ettiğiniz şeyi gerçekten gizleyemez. VPN veya Tor, ziyaret ettiğiniz ağları ağ yöneticilerinden gizlemenize yardımcı olabilir, ancak ilk etapta bu ağları kullandığınızı gizleyemez. Takılabilir aktarımlar (Obfs4proxy, Meek veya Shadowsocks gibi), yaygın VPN protokollerini veya Tor'u engelleyen güvenlik duvarlarından kaçmanıza yardımcı olabilir, ancak atlatma girişimleriniz yine de problama veya [derin paket incelemesi] (https://en.wikipedia.org/wiki/Deep_packet_inspection) gibi yöntemlerle tespit edilebilir.
 
 </div>
 
-You must always consider the risks of trying to bypass censorship, the potential consequences, and how sophisticated your adversary may be. You should be cautious with your software selection, and have a backup plan in case you are caught.
+Sansürü aşmaya çalışmanın risklerini, olası sonuçlarını ve düşmanınızın ne kadar sofistike olabileceğini her zaman göz önünde bulundurmalısınız. Yazılım seçiminizde dikkatli olmalı ve yakalanmanız durumunda bir yedek planınız olmalıdır.
 
-[^1]: Wikipedia: [*Mass Surveillance*](https://en.wikipedia.org/wiki/Mass_surveillance) and [*Surveillance*](https://en.wikipedia.org/wiki/Surveillance).
-[^2]: United States Privacy and Civil Liberties Oversight Board: [*Report on the Telephone Records Program Conducted under Section 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
-[^3]: Wikipedia: [*Surveillance capitalism*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. You should also employ other mitigation techniques.
-[^5]: United Nations: [*Universal Declaration of Human Rights*](https://un.org/en/about-us/universal-declaration-of-human-rights).
+[^1]: Wikipedia: [*Kitlesel Gözetim*](https://en.wikipedia.org/wiki/Mass_surveillance) ve [*Gözetim*](https://en.wikipedia.org/wiki/Surveillance).
+[^2]: Amerika Birleşik Devletleri Gizlilik ve Sivil Özgürlükler Gözetim Kurulu: [*Bölüm 215 Kapsamında Yürütülen Telefon Kayıtları Programına İlişkin Rapor*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
+[^3]: Wikipedia: [*Gözetim kapitalizmi*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
+[^4]: Birçok içerik engelleyici ve antivirüs programının yaptığı gibi["kötülükleri sır](https://ranum.com/security/computer_security/editorials/dumb)alamak" (veya "bildiğimiz tüm kötü şeyleri listelemek") sizi yeni ve bilinmeyen tehditlerden yeterince koruyamaz çünkü bunlar henüz filtre listesine eklenmemiştir. Diğer hafifletme tekniklerini de kullanmalısınız.
+[^5]: Birleşmiş Milletler: [*İnsan Hakları Evrensel Beyannamesi*](https://un.org/en/about-us/universal-declaration-of-human-rights).

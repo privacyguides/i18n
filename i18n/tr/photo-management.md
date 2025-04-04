@@ -1,5 +1,5 @@
 ---
-title: Photo Management
+title: Fotoğraf Yönetimi
 icon: material/image
 description: Photo management tools to keep your personal photos safe from the prying eyes of cloud storage providers and other unauthorized access.
 cover: photo-management.webp
@@ -92,11 +92,11 @@ Ente Photos underwent an [audit by Cure53](https://ente.io/blog/cryptography-aud
 
 </div>
 
-## Criteria
+## Kriter
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
 
-### Minimum Requirements
+### Minimum Gereksinimler
 
 - Cloud-hosted providers must enforce end-to-end encryption.
 - Must offer a free plan or trial period for testing.

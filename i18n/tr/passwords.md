@@ -1,22 +1,22 @@
 ---
-meta_title: "The Best Password Managers to Protect Your Privacy and Security - Privacy Guides"
-title: "Password Managers"
+meta_title: "Gizliliğinizi ve Güvenliğinizi Korumanız için En İyi Parola Yöneticileri - Privacy Guides"
+title: "Parola yöneticileri"
 icon: material/form-textbox-password
-description: Password managers allow you to securely store and manage passwords and other credentials.
+description: Parola yöneticileri, parolaları ve diğer kimlik bilgilerini güvenli bir şekilde saklayabilir ve yönetebilirsiniz.
 cover: passwords.webp
 schema:
   - 
     "@context": http://schema.org
-    "@type": WebPage
-    name: Password Manager Recommendations
+    "@type": Web Sayfası
+    name: Parola Yöneticisi Önerileri
     url: "./"
   - 
     "@context": http://schema.org
-    "@type": SoftwareApplication
+    "@type": YazılımUygulama
     name: Bitwarden
     image: /assets/img/password-management/bitwarden.svg
     url: https://bitwarden.com
-    sameAs: https://en.wikipedia.org/wiki/Bitwarden
+    sameAs: https://tr.wikipedia.org/wiki/Bitwarden
     applicationCategory: Parola Yöneticisi
     operatingSystem:
       - Windows
@@ -26,11 +26,11 @@ schema:
       - iOS
     subjectOf:
       "@context": http://schema.org
-      "@type": WebPage
+      "@type": Web Sayfası
       url: "./"
   - 
     "@context": http://schema.org
-    "@type": SoftwareApplication
+    "@type": YazılımUygulama
     name: 1Password
     image: /assets/img/password-management/1password.svg
     url: https://1password.com
@@ -44,11 +44,11 @@ schema:
       - iOS
     subjectOf:
       "@context": http://schema.org
-      "@type": WebPage
+      "@type": Web Sayfası
       url: "./"
   - 
     "@context": http://schema.org
-    "@type": SoftwareApplication
+    "@type": YazılımUygulama
     name: Proton Pass
     image: /assets/img/password-management/protonpass.svg
     url: https://proton.me/pass
@@ -58,11 +58,11 @@ schema:
       - iOS
     subjectOf:
       "@context": http://schema.org
-      "@type": WebPage
+      "@type": Web Sayfası
       url: "./"
   - 
     "@context": http://schema.org
-    "@type": SoftwareApplication
+    "@type": YazılımUygulama
     name: Psono
     image: /assets/img/password-management/psono.svg
     url: https://psono.com
@@ -72,15 +72,15 @@ schema:
       - iOS
     subjectOf:
       "@context": http://schema.org
-      "@type": WebPage
+      "@type": Web Sayfası
       url: "./"
   - 
     "@context": http://schema.org
-    "@type": SoftwareApplication
+    "@type": YazılımUygulama
     name: KeePassXC
     image: /assets/img/password-management/keepassxc.svg
     url: https://keepassxc.org
-    sameAs: https://en.wikipedia.org/wiki/KeePassXC
+    sameAs: https://tr.wikipedia.org/wiki/KeePassXC
     applicationCategory: Parola Yöneticisi
     operatingSystem:
       - Windows
@@ -88,11 +88,11 @@ schema:
       - Linux
     subjectOf:
       "@context": http://schema.org
-      "@type": WebPage
+      "@type": Web Sayfası
       url: "./"
   - 
     "@context": http://schema.org
-    "@type": SoftwareApplication
+    "@type": YazılımUygulama
     name: KeePassDX
     image: /assets/img/password-management/keepassdx.svg
     url: https://keepassdx.com
@@ -100,11 +100,11 @@ schema:
     operatingSystem: Android
     subjectOf:
       "@context": http://schema.org
-      "@type": WebPage
+      "@type": Web Sayfası
       url: "./"
   - 
     "@context": http://schema.org
-    "@type": SoftwareApplication
+    "@type": YazılımUygulama
     name: gopass
     image: /assets/img/password-management/gopass.svg
     url: https://gopass.pw
@@ -120,10 +120,10 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Aşağıdaki tehdit(ler)e karşı koruma sağlar:</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-target-account: Hedefli Saldırılar](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-bug-outline: Pasif Saldırılar](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 **Password managers** allow you to securely store and manage passwords and other credentials with the use of a master password.
@@ -229,14 +229,16 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 
 ![1Password logo](assets/img/password-management/1password.svg){ align=right }
 
-**1Password** is a password manager with a strong focus on security and ease-of-use that allows you to store passwords, passkeys, credit cards, software licenses, and any other sensitive information in a secure digital vault. Your vault is hosted on 1Password's servers for a [monthly fee](https://1password.com/sign-up). 1Password is [audited](https://support.1password.com/security-assessments) on a regular basis and provides exceptional customer support. 1Password is closed source; however, the security of the product is thoroughly documented in their [security white paper](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
+**1Password**, parolaları, geçiş anahtarlarını, kredi kartlarını, yazılım lisanslarını ve diğer hassas bilgileri güvenli bir dijital kasada saklamanıza olanak tanıyan, güvenlik ve kullanım kolaylığına odaklanan bir parola yöneticisidir. Kasanız bir [aylık ücret] karşılığında 1Password'ün sunucularında barındırılır (https://1password.com/sign-up). 1Password düzenli olarak [denetlenir](https://support.1password.com/security-assessments) ve olağanüstü müşteri desteği sağlar. 1Password kapalı kaynak kodludur; ancak ürünün güvenliği [security white paper] (https://1passwordstatic.com/files/security/1password-white-paper.pdf) adresinde ayrıntılı olarak belgelenmiştir.
 
-[:octicons-home-16: Homepage](https://1password.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.1password.com){ .card-link title="Documentation" }
+[:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
+[:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.tresorit.com/hc/en-us){ .card-link title=Documentation}
+
+" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>İndirmeler</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750)
@@ -253,25 +255,25 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 
 </div>
 
-Traditionally, 1Password has offered the best password manager user experience for people using macOS and iOS; however, it has now achieved feature parity across all platforms. 1Password's clients boast many features geared towards families and less technical people, such as an intuitive UI for ease of use and navigation, as well as advanced functionality. Notably, nearly every feature of 1Password is available within its native mobile or desktop clients.
+Geleneksel olarak 1Password, macOS ve iOS kullanan kişiler için en iyi parola yöneticisi kullanıcı deneyimini sunmuştur; ancak artık tüm platformlarda özellik eşitliğine ulaşmıştır. 1Password'ün müşterileri, kullanım ve gezinme kolaylığı için sezgisel bir kullanıcı arayüzünün yanı sıra gelişmiş işlevsellik gibi ailelere ve daha az teknik kişilere yönelik birçok özelliğe sahiptir. Özellikle, 1Password'ün neredeyse her özelliği yerel mobil veya masaüstü istemcilerinde mevcuttur.
 
-Your 1Password vault is secured with both your master password and a randomized 34-character security key to encrypt your data on their servers. This security key adds a layer of protection to your data because your data is secured with high entropy regardless of your master password. Many other password manager solutions are entirely reliant on the strength of your master password to secure your data.
+1Password kasanız hem ana parolanızla hem de sunucularında verilerinizi şifrelemek için rastgele 34 karakterli bir güvenlik anahtarıyla korunur. Bu güvenlik anahtarı verilerinize bir koruma katmanı ekler çünkü verileriniz ana parolanızdan bağımsız olarak yüksek entropi ile güvence altına alınır. Diğer birçok parola yöneticisi çözümü, verilerinizin güvenliğini sağlamak için tamamen ana parolanızın gücüne dayanır.
 
 ### Psono
 
 <div class="admonition recommendation" markdown>
 
-![Psono logo](assets/img/password-management/psono.svg){ align=right }
+![Psono logosu](assets/img/password-management/psono.svg){ align=right }
 
-**Psono** is a free and open-source password manager from Germany, with a focus on password management for teams. Psono supports secure sharing of passwords, files, bookmarks, and emails. All secrets are protected by a master password.
+**Psono**, ekipler için parola yönetimine odaklanan, Almanya'dan ücretsiz ve açık kaynaklı bir parola yöneticisidir. Psono, şifrelerin, dosyaların, yer imlerinin ve e-postaların güvenli paylaşımını destekler. Tüm sırlar bir ana şifre ile korunmaktadır.
 
-[:octicons-home-16: Homepage](https://psono.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://doc.psono.com){ .card-link title="Documentation" }
+[:octicons-home-16: Ana Sayfa](https://psono.com){ .md-button .md-button--primary }[:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://doc.psono.com){ .card-link title=Documentation}
 [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Source Code" }
+[](){ .card-link title=Contribute" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>İndirmeler</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1545581224)
@@ -283,49 +285,49 @@ Your 1Password vault is secured with both your master password and a randomized 
 
 </div>
 
-Psono provides extensive documentation for their product. The web-client for Psono can be self-hosted; alternatively, you can choose the full Community Edition or the Enterprise Edition with additional features.
+Psono, ürünleri için kapsamlı dokümantasyon sağlar. Psono için web istemcisi kendi kendine barındırılabilir; alternatif olarak, tam Topluluk Sürümünü veya ek özelliklere sahip Kurumsal Sürümü seçebilirsiniz.
 
-In April 2024, Psono added [support for passkeys](https://psono.com/blog/psono-introduces-passkeys) for the browser extension only.
+Nisan 2024'te Psono, yalnızca tarayıcı uzantısı [için geçiş anahtarları desteği](https://psono.com/blog/psono-introduces-passkeys) ekledi.
 
-### Criteria
+### Kriter
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Lütfen önerdiğimiz projelerin hiçbirine bağlı olmadığımızı unutmayın.** [standart kriterlerimize](about/criteria.md)ek olarak, objektif tavsiyelerde bulunabilmemiz için bir takım gereklilikler geliştirdik. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
 
-#### Minimum Requirements
+#### Minimum Gereksinimler
 
-- Must utilize strong, standards-based/modern E2EE.
-- Must have thoroughly documented encryption and security practices.
-- Must have a published audit from a reputable, independent third party.
-- All non-essential telemetry must be optional.
-- Must not collect more PII than is necessary for billing purposes.
+- Güçlü, standartlara dayalı/modern E2EE kullanmalıdır.
+- Kapsamlı bir şekilde belgelenmiş şifreleme ve güvenlik uygulamalarına sahip olmalıdır.
+- Saygın, bağımsız bir üçüncü tarafça yayınlanmış bir denetime sahip olmalıdır.
+- Gerekli olmayan tüm telemetri isteğe bağlı olmalıdır.
+- Faturalama amaçları için gerekenden daha fazla PII toplamamalıdır.
 
-#### Best-Case
+#### En İyi Durum
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+En iyi durum kriterlerimiz, bu kategorideki mükemmel bir projede görmek istediklerimizi temsil etmektedir. Önerilerimiz bu işlevlerden herhangi birini veya tamamını içermeyebilir, ancak içerenler bu sayfada diğerlerinden daha üst sıralarda yer alabilir.
 
-- Telemetry should be opt-in (disabled by default) or not collected at all.
-- Should be open source and reasonably self-hostable.
+- Telemetri isteğe bağlı (varsayılan olarak devre dışı) olmalı veya hiç toplanmamalıdır.
+- Açık kaynak kodlu ve makul ölçüde kendi kendine barındırılabilir olmalıdır.
 
-## Local Storage
+## Yerel depolama
 
-These options allow you to manage an encrypted password database locally.
+Bu seçenekler şifrelenmiş bir parola veritabanını yerel olarak yönetmenizi sağlar.
 
 ### KeePassXC
 
 <div class="admonition recommendation" markdown>
 
-![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
+![KeePassXC logosu](assets/img/password-management/keepassxc.svg){ align=right }
 
-**KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal of extending and improving it with new features and bug fixes to provide a feature-rich, cross-platform, and modern open-source password manager.
+**KeePassXC**, KeePass Password Safe'in yerel bir çapraz platform portu olan KeePassX'in, zengin özelliklere sahip, platformlar arası ve modern bir açık kaynaklı şifre yöneticisi sağlamak için yeni özellikler ve hata düzeltmeleriyle genişletilmesi ve iyileştirilmesi amacıyla bir topluluk çatallamasıdır.
 
-[:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
+[:octicons-home-16: Ana Sayfa](https://keepassxc.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://keepassxc.org/docs){ .card-link title="Documentation" }
+[:octicons-info-16:](https://keepassxc.org/docs){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title="Contribute" }
+[:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title=Contribute }???
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>İndirmeler</summary>
 
 - [:fontawesome-brands-windows: Windows](https://keepassxc.org/download/#windows)
 - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
@@ -338,26 +340,26 @@ These options allow you to manage an encrypted password database locally.
 
 </div>
 
-KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) files. You may encounter data loss if you import this file into another password manager. We advise you check each record manually.
+KeePassXC dışa aktarma verilerini [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) dosyaları olarak saklar. Bu dosyayı başka bir parola yöneticisine aktarırsanız veri kaybıyla karşılaşabilirsiniz. Her kaydı manuel olarak kontrol etmenizi tavsiye ederiz.
 
 ### KeePassDX (Android)
 
 <div class="admonition recommendation" markdown>
 
-![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
+![KeePassDX logosu](assets/img/password-management/keepassdx.svg){ align=right }
 
-**KeePassDX** is a lightweight password manager for Android; it allows for editing encrypted data in a single file in KeePass format and can fill in forms securely. The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) of the app allows you to unlock cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
+**KeePassDX** Android için hafif bir şifre yöneticisidir; şifrelenmiş verilerin KeePass formatında tek bir dosyada düzenlenmesine izin verir ve formları güvenli bir şekilde doldurabilir. Uygulamanın [pro sürümü](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) kozmetik içeriğin ve standart dışı protokol özelliklerinin kilidini açmanıza izin verir, ancak daha da önemlisi, gelişime yardımcı olur ve teşvik eder.
 
-[:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title="Contribute" }
+[:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="Public Instances"}
+[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title=Documentation}
+[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title="Source Code" }
+[](){ .card-link title=Contribute" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
-
+<summary>İndirmeler</summary>
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
-- [:simple-github: GitHub](https://github.com/Kunzisoft/KeePassDX/releases)
+- [:simple-github: Accrescent](https://github.com/Kunzisoft/KeePassDX/releases)
+- [ GitHub)
 
 </details>
 
@@ -367,9 +369,9 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
 <div class="admonition recommendation" markdown>
 
-![gopass logo](assets/img/password-management/gopass.svg){ align=right }
+![gopass logosu](assets/img/password-management/gopass.svg){ align=right }
 
-**gopass** is a minimal password manager for the command line written in Go. It can be used within scripting applications and works on all major desktop and server operating systems.
+**gopass** Go ile yazılmış komut satırı için minimal bir şifre yöneticisidir. Komut dosyası uygulamaları içinde kullanılabilir ve tüm büyük masaüstü ve sunucu işletim sistemlerinde çalışır.
 
 [:octicons-home-16: Homepage](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title="Documentation" }
@@ -388,8 +390,8 @@ KeePassXC stores its export data as [CSV](https://en.wikipedia.org/wiki/Comma-se
 
 </div>
 
-### Criteria
+### Kriter
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Lütfen önerdiğimiz projelerin hiçbirine bağlı olmadığımızı unutmayın.** [standart kriterlerimize](about/criteria.md) ek olarak, objektif tavsiyelerde bulunabilmemiz için bir takım gereklilikler geliştirdik. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
 
 - Must be cross-platform.

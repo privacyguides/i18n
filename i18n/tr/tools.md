@@ -1,63 +1,61 @@
 ---
-meta_title: "Ad-Free Privacy Tool/Service Recommendations - Privacy Guides"
-title: "Privacy Tools"
+meta_title: "Reklamsız Gizlilik Aracı/Servisi Önerileri - Gizlilik Kılavuzları"
+title: "Gizlilik Ayarları"
 icon: material/tools
 hide:
   - toc
-description: A complete list of the privacy tools, services, software, and hardware recommended by the Privacy Guides community.
+description: Privacy Guides topluluğu tarafından önerilen gizlilik araçları, hizmetleri, yazılımları ve donanımlarının tam listesi.
 ---
 
-If you're looking for a specific solution to something, these are the hardware and software tools we recommend in a variety of categories. Our recommended privacy tools are primarily chosen based on security features, with additional emphasis on decentralized and open-source tools. They are applicable to a variety of threat models ranging from protection against global mass surveillance programs and avoiding big tech companies to mitigating attacks, but only you can determine what will work best for your needs.
+Bir konuda belirli bir çözüm arıyorsanız, çeşitli kategorilerde önerdiğimiz donanım ve yazılım araçları bunlardır. Tavsiye edilen gizlilik araçlarımız öncelikle güvenlik özelliklerine göre seçilmiş olup, merkezi olmayan ve açık kaynaklı araçlara ek vurgu yapılmaktadır. Bunlar, küresel kitlesel gözetleme programlarına karşı korunmadan büyük teknoloji şirketlerinden kaçınmaya ve saldırıları hafifletmeye kadar çeşitli tehdit modellerine uygulanabilir, ancak ihtiyaçlarınız için neyin en iyi sonucu vereceğini yalnızca siz belirleyebilirsiniz.
 
-[VPN Providers](vpn.md ""){.md-button} [Password Managers](passwords.md ""){.md-button} [Email Providers](email.md ""){.md-button} [Browser Extensions](browser-extensions.md ""){.md-button} [DNS Servers](dns.md ""){.md-button} [Email Aliasing Services](email-aliasing.md ""){.md-button} [Photo Organization Tools](photo-management.md ""){.md-button}
+[VPN Sağlayıcıları](vpn.md ""){.md-button} [Parola Yöneticileri](passwords.md ""){.md-button} [E-posta Sağlayıcıları](email.md ""){.md-button} [Tarayıcı Uzantıları](browser-extensions.md ""){.md-button} [DNS Sunucuları](dns.md ""){.md-button} [E-posta Takma Adlandırma Hizmetleri](email-aliasing.md ""){.md-button} [Fotoğraf Düzenleme Araçları](photo-management.md ""){.md-button}
 
-If you want assistance figuring out the best privacy tools and alternative programs for your needs, start a discussion on our [forum](https://discuss.privacyguides.net) or our [Matrix](https://matrix.to/#/#privacyguides:matrix.org) community!
+İhtiyaçlarınız için en iyi gizlilik araçlarını ve alternatif programları bulma konusunda yardım istiyorsanız, [forumumuzda](https://discuss.privacyguides.net) veya [Matrix](https://matrix.to/#/#privacyguides:matrix.org) topluluğumuzda bir tartışma başlatın!
 
-For more details about each project, why they were chosen, and additional tips or tricks we recommend, click the "Learn more" link in each section, or click on the recommendation itself to be taken to that specific section of the page.
+Her proje hakkında daha fazla ayrıntı, neden seçildikleri ve önerdiğimiz ek ipuçları veya püf noktaları için, her bölümdeki "Daha fazla bilgi edinin" bağlantısını tıklayın veya sayfanın ilgili bölümüne yönlendirilmek için önerinin kendisine tıklayın.
 
 <div class="grid" markdown>
 
 <div markdown>
-- [x] **Ad-Free Recommendations**
-- [x] **Frequent Updates**
-- [x] **Trusted by Readers**
+- [x] **Reklamsız Öneriler**
+- [x] **Sık Güncellemeler**
+- [x] **Okuyucular Tarafından Güvenilen**
 </div>
 
 <div markdown>
-- [x] **Complete Editorial Independence**
-- [x] **Open-Source Contributions**
-- [x] **Trusted by Journalists**
+- [x] **Tam Editoryal Bağımsızlık**
+- [x] **Açık Kaynak Katkıları**
+- [x] **Gazeteciler Tarafından Güvenilen**
 </div>
 
 </div>
 
-## Private Web Browsers
+## Özel Web Tarayıcıları
 
 <div class="admonition recommendation" markdown>
 
-![Tor Browser logo](assets/img/browsers/tor.svg){ align=left }
+![Tor Browser logosu](assets/img/browsers/tor.svg){ align=left }
 
-**Tor Browser** (Desktop & Android) is the top choice if you need anonymity, as it provides you with access to the **Tor** network, a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective censorship circumvention tool.
+Anonimliğe ihtiyacınız varsa **Tor Browser** (Masaüstü ve Android) en iyi seçimdir, çünkü size ücretsiz olarak bağlanmanıza ve İnternet'te gizliliğinizi ve güvenliğinizi artırmanıza olanak tanıyan gönüllü olarak işletilen bir grup sunucu olan **Tor** ağına erişim sağlar. Bireyler ve kuruluşlar da gizliliklerinden ödün vermeden ".onion gizli servisleri" ile Tor ağı üzerinden bilgi paylaşımında bulunabilirler. Tor trafiğinin engellenmesi ve izlenmesi zor olduğundan, Tor etkili bir sansür atlatma aracıdır.
 
-[Read Our Full Review :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary }
+[İncelememizin Tamamını Okuyun :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary }
 
 </div>
 
 <div class="grid cards" markdown>
 
-- ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ .lg .middle .twemoji } **Mullvad Browser**
+![Mullvad Browser logosu](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-    ---
-
-    **Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed, aimed at providing Tor Browser's anti-fingerprinting browser technologies to VPN users.
+**Mullvad Browser**, [Tor Browser]'ın (tor.md#tor-browser) Tor ağ entegrasyonları kaldırılmış bir sürümüdür ve Tor Browser'ın parmak izi önleme tarayıcı teknolojilerini VPN kullanıcılarına sunmayı amaçlamaktadır.
 
     - [Read Full Review :material-arrow-right-drop-circle:](desktop-browsers.md#mullvad-browser)
 
-- ![Firefox logo](assets/img/browsers/firefox.svg){ .lg .middle .twemoji } **Firefox**
+- ![Firefox logosu](assets/img/browsers/firefox.svg){ .lg .middle .twemoji } **Firefox**
 
     ---
 
-    **Firefox** is a great Chromium alternative which provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
+    **Firefox**, çeşitli [izleme türlerini](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks) engellemeye yardımcı olabilecek [Geliştirilmiş İzleme Koruması](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop) gibi güçlü gizlilik ayarları sağlayan harika bir Chromium alternatifidir.
 
     - [Read Full Review :material-arrow-right-drop-circle:](desktop-browsers.md#firefox)
 
@@ -65,24 +63,24 @@ For more details about each project, why they were chosen, and additional tips o
 
     ---
 
-    **Brave** is a private-by-default browser based on Chromium, so it should feel familiar and have minimal website compatibility issues.
+    **Brave**, Chromium tabanlı varsayılan bir özel tarayıcıdır, bu nedenle tanıdık gelmeli ve minimum web sitesi uyumluluk sorunları olmalıdır.
 
     - [Brave Desktop Review :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
     - [Brave Mobile Review :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
 
-- ![Cromite logo](assets/img/browsers/cromite.svg){ .lg .middle .twemoji } **Cromite (Android)**
+- ![Cromite logosu](assets/img/browsers/cromite.svg){ .lg .middle .twemoji } **Cromite (Android)**
 
     ---
 
-    **Cromite** is a Chromium-based Android browser with built-in ad-blocking and [privacy enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the popular, now-discontinued Bromite browser.
+    **Cromite** yerleşik reklam engelleme ve [gizlilik geliştirmeleri](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md) içeren Chromium tabanlı bir Android tarayıcıdır. Artık kullanımdan kaldırılmış olan popüler Bromite tarayıcısının bir çatalıdır.
 
     - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
 
-- ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
+- ![Safari logosu](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
 
     ---
 
-    We recommend **Safari** due to its [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) features and default tracker blocking. It also separates your cookies in private browsing mode to prevent tracking between tabs.
+    [Parmak izi önleme](https://webkit.org/blog/15697/private-browsing-2-0) özellikleri ve varsayılan izleyici engellemesi nedeniyle **Safari**'yi öneriyoruz. Ayrıca sekmeler arasında izlemeyi önlemek için çerezlerinizi özel tarama modunda ayırır.
 
     - [Read Full Review :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 
@@ -91,25 +89,25 @@ For more details about each project, why they were chosen, and additional tips o
 <div class="grid" markdown>
 
 <div markdown>
-### Browser Extensions
+### Tarayıcı Uzantıları
 
 <div class="grid cards" markdown>
 
 - ![uBlock Origin logo](assets/img/browsers/ublock_origin.svg){ .twemoji loading=lazy } [uBlock Origin](browser-extensions.md#ublock-origin)
 - ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ .twemoji loading=lazy } [uBlock Origin Lite](browser-extensions.md#ublock-origin-lite)
-- ![AdGuard logo](assets/img/browsers/adguard.svg){ .twemoji loading=lazy } [AdGuard for iOS](browser-extensions.md#adguard)
+- ![AdGuard logosu](assets/img/browsers/adguard.svg){ .twemoji loading=lazy } [iOS için AdGuard](browser-extensions.md#adguard)
 
 </div>
 
 </div>
 
 <div markdown>
-### More Tor Network Tools
+### Daha Fazla Tor Ağı Aracı
 
 <div class="grid cards" markdown>
 
-- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Smartphone Tor Proxy)](tor.md#orbot)
-- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor for iOS)](tor.md#onion-browser-ios)
+- ![Orbot logosu](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Akıllı Telefon Tor Proxy)](tor.md#orbot)
+- ![Onion Browser logosu](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (iOS için Tor)](tor.md#onion-browser-ios)
 
 </div>
 
@@ -117,70 +115,68 @@ For more details about each project, why they were chosen, and additional tips o
 
 </div>
 
-## Top 3 Private VPN Providers
+## En İyi 3 Özel VPN Sağlayıcısı
 
 <details class="danger" markdown>
-<summary>VPNs do not provide anonymity</summary>
+<summary>"VPN'ler anonimlik sağlamaz"</summary>
 
-Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+VPN kullanmak tarama alışkanlıklarınızı anonim **tutmayacağı** gibi güvenli olmayan (HTTP) trafiğe de ek güvenlik sağlamaz.
 
-If you are looking for **anonymity**, you should use the Tor Browser.
+Eğer **anonimlik** arıyorsanız, Tor Browser'ı kullanmalısınız.
 
-If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
+Daha fazla **güvenlik** arıyorsanız, her zaman HTTPS kullanan web sitelerine bağlandığınızdan emin olmalısınız. Bir VPN, iyi güvenlik uygulamalarının yerine geçmez.
 
-[Learn more :material-arrow-right-drop-circle:](vpn.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](vpn.md)
 
 </details>
 
 <div class="grid cards" markdown>
 
-- ![Proton VPN logo](assets/img/vpn/protonvpn.svg){ .lg .middle .twemoji } **Proton VPN**
+- ![Proton VPN logosu](assets/img/vpn/protonvpn.svg){ .lg .middle .twemoji } **Proton VPN**
 
     ---
 
-    - [x] **112+ Countries**
-    - [x] WireGuard Support
-    - [x] Cash Payments
-    - [x] Partial Port Forwarding Support
-    - [ ] No IPv6
+    - [x] **112+ Ülke**
+    - [x] WireGuard Desteği
+    - [x] Nakit Ödemeler
+    - [x] Kısmi Port Yönlendirme Desteği
+    - [ ] IPv6 Yok
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
+    [Tam İncelemeyi Oku :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
 
-- ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .lg .middle .twemoji } **IVPN**
+- ![IVPN logosu](assets/img/vpn/mini/ivpn.svg){ .lg .middle .twemoji } **IVPN**
 
     ---
 
-    - [x] **37+ Countries**
-    - [x] WireGuard Support
-    - [x] Monero & Cash Payments
-    - [ ] No Port Forwarding
-    - [ ] No IPv6
+    - [x] **37+ Ülke**
+    - [x] WireGuard Desteği
+    - [x] Monero & Nakit Ödemeler
+    - [ ] Port Yönlendirme Yok
+    - [ ] IPv6 Yok
 
     [Read Full Review :material-arrow-right-drop-circle:](vpn.md#ivpn)
 
-- ![Mullvad logo](assets/img/vpn/mullvad.svg){ .lg .middle .twemoji } **Mullvad**
+- ![Mullvad logosu](assets/img/vpn/mullvad.svg){ .lg .middle .twemoji } **Mullvad**
 
     ---
 
-    - [x] **49+ Countries**
-    - [x] WireGuard Support
-    - [x] Monero & Cash Payments
-    - [ ] No Port Forwarding
-    - [x] IPv6 Support
+    - [x] **49+ Ülke**
+    - [x] WireGuard Desteği
+    - [x] Monero ve Nakit Ödemeler
+    - [ ] Port Yönlendirme Yok
+    - [x] IPv6 Desteği
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#mullvad)
+    [Tam İncelemeyi Oku :material-arrow-right-drop-circle:](vpn.md#mullvad)
 
 </div>
 
-## Top 3 Private Email Providers
+## En İyi 3 Özel Vpn Sağlayıcısı
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .lg .middle .twemoji } **Proton Mail**
+- ![Proton Mail logosu](assets/img/email/protonmail.svg){ align=right }
 
-    ---
-
-    Proton Mail is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+**Proton Mail** gizlilik, şifreleme, güvenlik ve kullanım kolaylığına odaklanan bir e-posta hizmetidir. **2013** yılından beri faaliyet göstermektedirler. Proton AG'nin merkezi İsviçre'nin Cenevre kentindedir. Proton Mail Free planı, ücretsiz olarak 1 GB'a kadar artırabileceğiniz 500 MB Posta depolama alanı ile birlikte gelir.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
 
@@ -188,7 +184,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany. Accounts start with up to 2 GB storage, which can be upgraded as needed.
+    Mailbox.org güvenli, reklamsız ve özel olarak %100 çevre dostu enerji ile çalışan bir e-posta hizmetidir. **2014** yılından beri faaliyet göstermektedirler. Mailbox.org'un merkezi Berlin, Almanya'da bulunmaktadır. Hesaplar, gerektiğinde yükseltilebilen 2 GB'a kadar depolama alanıyla başlar.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#mailboxorg)
 
@@ -196,7 +192,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1 GB of storage.
+    Tuta (eski adıyla *Tutanota*), şifreleme kullanarak güvenlik ve gizliliğe odaklanan bir e-posta hizmetidir. Tuta 2011 yılından beri faaliyet göstermektedir ve merkezi Almanya'nın Hannover kentindedir. Ücretsiz hesaplar 1 GB depolama alanı ile başlar.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#tuta)
 
@@ -205,7 +201,7 @@ If you're looking for added **security**, you should always ensure you're connec
 <div class="grid" markdown>
 
 <div markdown>
-### Email Aliasing Services
+### E-posta Takma Adlandırma Hizmetleri
 
 <div class="grid cards" markdown>
 
@@ -216,11 +212,11 @@ If you're looking for added **security**, you should always ensure you're connec
 </div>
 
 <div markdown>
-### Self-Hosting Email
+### Kendi Kendini Barındıran E-posta
 
 <div class="grid cards" markdown>
 
-- ![Stalwart logo](assets/img/email/stalwart.svg){ .twemoji loading=lazy } [Stalwart](email.md#stalwart)
+- ![Stalwart logosu](assets/img/email/stalwart.svg){ .twemoji loading=lazy } [Stalwart](email.md#stalwart)
 - ![Mailcow logo](assets/img/email/mailcow.svg){ .twemoji loading=lazy } [Mailcow](email.md#mailcow)
 - ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email.md#mail-in-a-box)
 
@@ -229,57 +225,57 @@ If you're looking for added **security**, you should always ensure you're connec
 
 </div>
 
-### Secure Email Clients
+### Güvenli E-posta İstemcileri
 
 <div class="grid cards" markdown>
 
-- ![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ .twemoji loading=lazy } [Thunderbird](email-clients.md#thunderbird)
-- ![Apple Mail logo](assets/img/email-clients/applemail.png){ .twemoji loading=lazy } [Apple Mail (macOS)](email-clients.md#apple-mail-macos)
-- ![Canary Mail logo](assets/img/email-clients/canarymail.svg){ .twemoji loading=lazy } [Canary Mail (iOS)](email-clients.md#canary-mail-ios)
+- ![Thunderbird logosu](assets/img/email-clients/thunderbird.svg){ .twemoji loading=lazy } [Thunderbird](email-clients.md#thunderbird)
+- ![Apple Mail logosu](assets/img/email-clients/applemail.png){ .twemoji loading=lazy } [Apple Mail (macOS)](email-clients.md#apple-mail-macos)
+- ![Canary Mail logosu](assets/img/email-clients/canarymail.svg){ .twemoji loading=lazy } [Canary Mail (iOS)](email-clients.md#canary-mail-ios)
 - ![FairEmail logo](assets/img/email-clients/fairemail.svg){ .twemoji loading=lazy } [FairEmail (Android)](email-clients.md#fairemail-android)
-- ![GNOME Evolution logo](assets/img/email-clients/evolution.svg){ .twemoji loading=lazy } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
+- ![GNOME Evolution logosu](assets/img/email-clients/evolution.svg){ .twemoji loading=lazy } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
 - ![Kontact logo](assets/img/email-clients/kontact.svg){ .twemoji loading=lazy } [Kontact (Linux)](email-clients.md#kontact-kde)
-- ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji loading=lazy } [Mailvelope (PGP in standard webmail)](email-clients.md#mailvelope-browser)
-- ![NeoMutt logo](assets/img/email-clients/mutt.svg){ .twemoji loading=lazy } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
+- ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji loading=lazy } [Mailvelope (standart web postasında PGP)](email-clients.md#mailvelope-browser)
+- ![NeoMutt logosu](assets/img/email-clients/mutt.svg){ .twemoji loading=lazy } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email-clients.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](email-clients.md)
 
-## More Private Service Providers
+## Daha Fazla Özel Hizmet Sağlayıcı
 
-### Cloud Storage
+### Bulut depolama
 
 <div class="grid cards" markdown>
 
-- ![Proton Drive logo](assets/img/cloud/protondrive.svg){ .twemoji loading=lazy } [Proton Drive](cloud.md#proton-drive)
+- ![Proton Drive logosu](assets/img/cloud/protondrive.svg){ .twemoji loading=lazy } [Proton Drive](cloud.md#proton-drive)
 - ![Tresorit logo](assets/img/cloud/tresorit.svg){ .twemoji loading=lazy } [Tresorit](cloud.md#tresorit)
 - ![Peergos logo](assets/img/cloud/peergos.svg){ .twemoji loading=lazy } [Peergos](cloud.md#peergos)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](cloud.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](cloud.md)
 
-### Data Removal Services
+### Veri Kaldırma Hizmetleri
 
 <div class="grid cards" markdown>
 
 - ![EasyOptOuts logo](assets/img/data-broker-removals/easyoptouts.svg){ .twemoji loading=lazy } [EasyOptOuts](data-broker-removals.md#easyoptouts-paid)
-- ![Google logo](assets/img/data-broker-removals/google.svg){ .twemoji loading=lazy } [Google *Results about you*](data-broker-removals.md#google-results-about-you-free)
+- ![Google logosu](assets/img/data-broker-removals/google.svg){ .twemoji loading=lazy } [Google *Sizinle ilgili sonuçlar*](data-broker-removals.md#google-results-about-you-free)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](data-broker-removals.md)
+[DNS hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](data-broker-removals.md)
 
 ### DNS
 
-#### DNS Providers
+#### DNS Sağlayıcıları
 
-We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers based on a variety of criteria, such as [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) and [Quad9](https://quad9.net) amongst others. We recommend for you to read our pages on DNS before choosing a provider. In many cases, using an alternative DNS provider is not recommended.
+Diğerlerinin yanı sıra [Mullvad](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) ve [Quad9](https://quad9.net) gibi çeşitli kriterlere dayalı bir dizi şifreli DNS sunucusu [öneriyoruz](dns.md#recommended-providers). Bir sağlayıcı seçmeden önce DNS ile ilgili sayfalarımızı okumanızı tavsiye ederiz. Çoğu durumda, alternatif bir DNS sağlayıcısı kullanılması önerilmez.
 
-[Learn more :material-arrow-right-drop-circle:](dns.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](dns.md)
 
-#### Encrypted DNS Proxies
+#### Şifrelenmiş DNS Proxy'leri
 
 <div class="grid cards" markdown>
 
@@ -288,22 +284,22 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
+[DNS hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
 
-#### Self-hosted Solutions
+#### Self-hosted Çözümler
 
 <div class="grid cards" markdown>
 
-- ![AdGuard Home logo](assets/img/dns/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns.md#adguard-home)
+- ![AdGuard Home logosu](assets/img/dns/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns.md#adguard-home)
 - ![Pi-hole logo](assets/img/dns/pi-hole.svg){ .twemoji loading=lazy } [Pi-hole](dns.md#pi-hole)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](dns.md#self-hosted-dns-filtering)
+[DNS hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](dns.md#self-hosted-dns-filtering)
 
-### Financial Services
+### Finansal Hizmetler
 
-#### Payment Masking Services
+#### Ödeme Maskeleme Hizmetleri
 
 <div class="grid cards" markdown>
 
@@ -312,9 +308,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
 
-#### Online Gift Card Marketplaces
+#### Çevrimiçi Hediye Kartı Pazarları
 
 <div class="grid cards" markdown>
 
@@ -322,9 +318,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](financial-services.md#gift-card-marketplaces)
 
-### Photo Management
+### Fotoğraf Yönetimi
 
 <div class="grid cards" markdown>
 
@@ -334,34 +330,34 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](photo-management.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](photo-management.md)
 
-### Search Engines
+### Arama motorları
 
 <div class="grid cards" markdown>
 
-- ![Brave Search logo](assets/img/search-engines/brave-search.svg){ .twemoji loading=lazy } [Brave Search](search-engines.md#brave-search)
+- ![Brave Search logosu](assets/img/search-engines/brave-search.svg){ .twemoji loading=lazy } [Brave Search](search-engines.md#brave-search)
 - ![DuckDuckGo logo](assets/img/search-engines/duckduckgo.svg){ .twemoji loading=lazy } [DuckDuckGo](search-engines.md#duckduckgo)
 - ![SearXNG logo](assets/img/search-engines/searxng.svg){ .twemoji loading=lazy } [SearXNG](search-engines.md#searxng)
-- ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ .twemoji loading=lazy }![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ .twemoji loading=lazy } [Startpage](search-engines.md#startpage)
+- ![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ .twemoji loading=lazy }![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ .twemoji loading=lazy } [Başlangıç sayfası](search-engines.md#startpage)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](search-engines.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](search-engines.md)
 
-## Software
+## Yazılım
 
-### AI Chat
+### AI Sohbet
 
 <div class="grid cards" markdown>
 
-- ![Kobold logo](assets/img/ai-chat/kobold.png){ .twemoji loading=lazy } [Kobold.cpp](ai-chat.md#koboldcpp)
+- ![Kobold logosu](assets/img/ai-chat/kobold.png){ .twemoji loading=lazy } [Kobold.cpp](ai-chat.md#koboldcpp)
 - ![Llamafile logo](assets/img/ai-chat/llamafile.svg){ .twemoji loading=lazy } [Llamafile](ai-chat.md#llamafile)
 - ![Ollama logo](assets/img/ai-chat/ollama.png){ .twemoji loading=lazy } [Ollama (CLI)](ai-chat.md#ollama-cli)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](ai-chat.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](ai-chat.md)
 
 ### Calendar Sync
 
@@ -372,7 +368,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](calendar.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](calendar.md)
 
 ### Cryptocurrency
 
@@ -382,9 +378,9 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](cryptocurrency.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](cryptocurrency.md)
 
-### Data and Metadata Redaction
+### Veri ve Meta Veri Redaksiyonu
 
 <div class="grid cards" markdown>
 
@@ -394,7 +390,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](data-redaction.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](data-redaction.md)
 
 ### Document Collaboration
 
@@ -405,16 +401,16 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](document-collaboration.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](document-collaboration.md)
 
 ### Encryption Software
 
 <details class="info" markdown>
-<summary>Operating System Encryption</summary>
+<summary>İşletim Sistemi Şifreleme</summary>
 
 For encrypting your OS drive, we typically recommend using the encryption tool your operating system provides, whether that is **BitLocker** on Windows, **FileVault** on macOS, or **LUKS** on Linux. These tools are included with the operating system and take advantage of hardware encryption elements such as a [secure cryptoprocessor](basics/hardware.md/#tpmsecure-cryptoprocessor).
 
-[Learn more :material-arrow-right-drop-circle:](encryption.md#operating-system-encryption)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](encryption.md#operating-system-encryption)
 
 </details>
 
@@ -430,7 +426,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](encryption.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](encryption.md)
 
 #### OpenPGP Clients
 
@@ -443,7 +439,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](encryption.md#openpgp)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](encryption.md#openpgp)
 
 ### File Sharing and Sync
 
@@ -457,7 +453,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](file-sharing.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](file-sharing.md)
 
 ### Frontends
 
@@ -474,7 +470,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](frontends.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](frontends.md)
 
 ### Health and Wellness Apps
 
@@ -489,7 +485,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](health-and-wellness.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](health-and-wellness.md)
 
 ### Language Tools
 
@@ -499,7 +495,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](language-tools.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](language-tools.md)
 
 ### Maps and Navigation Apps
 
@@ -510,7 +506,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](maps.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](maps.md)
 
 ### Multi-Factor Authentication Tools
 
@@ -523,7 +519,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](multi-factor-authentication.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](multi-factor-authentication.md)
 
 ### News Aggregators
 
@@ -538,7 +534,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](news-aggregators.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](news-aggregators.md)
 
 ### Notebooks
 
@@ -552,7 +548,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](notebooks.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](notebooks.md)
 
 ### Office Suites
 
@@ -563,7 +559,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](office-suites.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](office-suites.md)
 
 ### Password Managers
 
@@ -579,7 +575,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](passwords.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](passwords.md)
 
 ### Pastebins
 
@@ -590,37 +586,37 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](pastebins.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](pastebins.md)
 
-### Real-Time Communication
+### Gerçek Zamanlı İletişim
 
 <div class="grid cards" markdown>
 
 - ![Signal logo](assets/img/messengers/signal.svg){ .twemoji loading=lazy } [Signal](real-time-communication.md#signal)
 - ![Briar logo](assets/img/messengers/briar.svg){ .twemoji loading=lazy } [Briar](real-time-communication.md#briar)
-- ![SimpleX Chat logo](assets/img/messengers/simplex.svg){ .twemoji loading=lazy } [SimpleX Chat](real-time-communication.md#simplex-chat)
-- ![Element logo](assets/img/messengers/element.svg){ .twemoji loading=lazy } [Element](real-time-communication.md#element)
-- ![Session logo](assets/img/messengers/session.svg){ .twemoji loading=lazy } [Session](real-time-communication.md#session)
+- ![SimpleX Chat logosu](assets/img/messengers/simplex.svg){ .twemoji loading=lazy } [SimpleX Chat](real-time-communication.md#simplex-chat)
+- ![Element logo](assets/img/messengers/element.svg){ .twemoji loading=lazy } [Eleman](real-time-communication.md#element)
+- ![Oturum logosu](assets/img/messengers/session.svg){ .twemoji loading=lazy } [Oturum](real-time-communication.md#session)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](real-time-communication.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](real-time-communication.md)
 
-## Hardware
+## Donanım
 
-### Security Keys
+### Güvenlik Anahtarları
 
 <div class="grid cards" markdown>
 
-- ![Yubico logo](assets/img/security-keys/mini/yubico.svg){ .twemoji loading=lazy } [Yubico Security Key](security-keys.md#yubico-security-key)
-- ![Yubico logo](assets/img/security-keys/mini/yubico.svg){ .twemoji loading=lazy } [YubiKey](security-keys.md#yubikey)
+- ![Yubico logosu](assets/img/security-keys/mini/yubico.svg){ .twemoji loading=lazy } [Yubico Güvenlik Anahtarı](security-keys.md#yubico-security-key)
+- ![Yubico logosu](assets/img/security-keys/mini/yubico.svg){ .twemoji loading=lazy } [YubiKey](security-keys.md#yubikey)
 - ![Nitrokey](assets/img/security-keys/mini/nitrokey.svg){ .twemoji loading=lazy } [Nitrokey](security-keys.md#nitrokey)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](security-keys.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](security-keys.md)
 
-### Mobile Phones
+### Cep telefonları
 
 <div class="grid cards" markdown>
 
@@ -628,13 +624,13 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](mobile-phones.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](mobile-phones.md)
 
-## Operating Systems
+## İşletim Sistemleri
 
-### Mobile
+### Mobil
 
-#### Custom Android Operating Systems
+#### Özel Android İşletim Sistemleri
 
 <div class="grid cards" markdown>
 
@@ -642,84 +638,84 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](android/distributions.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](android/distributions.md)
 
-#### Android Apps
+#### Android Uygulamaları
 
 <div class="grid cards" markdown>
 
-- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji loading=lazy } [Shelter (Work Profiles)](android/general-apps.md#shelter)
-- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji loading=lazy }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji loading=lazy } [Secure Camera](android/general-apps.md#secure-camera)
-- ![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji loading=lazy }![Secure PDF Viewer logo](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji loading=lazy } [Secure PDF Viewer](android/general-apps.md#secure-pdf-viewer)
+- ![Shelter logo](assets/img/android/mini/shelter.svg){ .twemoji loading=lazy } [Shelter (İş Profilleri)](android/general-apps.md#shelter)
+- ![Secure Camera logo](assets/img/android/secure_camera.svg#only-light){ .twemoji loading=lazy }![Secure Camera logo](assets/img/android/secure_camera-dark.svg#only-dark){ .twemoji loading=lazy } [Güvenli Kamera](android/general-apps.md#secure-camera)
+- ![Güvenli PDF Görüntüleyici logosu](assets/img/android/secure_pdf_viewer.svg#only-light){ .twemoji loading=lazy }![Güvenli PDF Görüntüleyici logosu](assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ .twemoji loading=lazy } [Secure PDF Viewer](android/general-apps.md#secure-pdf-viewer)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](android/general-apps.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](android/general-apps.md)
 
-#### Ways to Obtain Android Apps
+#### Android Uygulamalarını Edinme Yolları
 
 <div class="grid cards" markdown>
 
-- ![Obtainium logo](assets/img/android/obtainium.svg){ .twemoji loading=lazy } [Obtainium (App Manager)](android/obtaining-apps.md#obtainium)
-- ![Aurora Store logo](assets/img/android/aurora-store.webp){ .twemoji loading=lazy } [Aurora Store (Google Play Client)](android/obtaining-apps.md#aurora-store)
+- ![Obtainium logo](assets/img/android/obtainium.svg){ .twemoji loading=lazy } [Obtainium (Uygulama Yöneticisi)](android/obtaining-apps.md#obtainium)
+- ![Aurora Store logosu](assets/img/android/aurora-store.webp){ .twemoji loading=lazy } [Aurora Store (Google Play İstemcisi)](android/obtaining-apps.md#aurora-store)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](android/obtaining-apps.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](android/obtaining-apps.md)
 
-### Desktop/PC
+### Masaüstü/PC
 
 <div class="grid cards" markdown>
 
-- ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ .twemoji loading=lazy } [Qubes OS (Xen VM Distribution)](desktop.md#qubes-os)
-- ![Fedora logo](assets/img/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Workstation](desktop.md#fedora-workstation)
-- ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji loading=lazy } [openSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
-- ![Arch logo](assets/img/linux-desktop/archlinux.svg){ .twemoji loading=lazy } [Arch Linux](desktop.md#arch-linux)
-- ![Fedora logo](assets/img/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Atomic Desktops](desktop.md#fedora-atomic-desktops)
+- ![Qubes OS logosu](assets/img/qubes/qubes_os.svg){ .twemoji loading=lazy } [Qubes OS (Xen VM Dağıtımı)](desktop.md#qubes-os)
+- ![Fedora logosu](assets/img/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Workstation](desktop.md#fedora-workstation)
+- ![openSUSE Tumbleweed logosu](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji loading=lazy } [openSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
+- ![Arch logosu](assets/img/linux-desktop/archlinux.svg){ .twemoji loading=lazy } [Arch Linux](desktop.md#arch-linux)
+- ![Fedora logosu](assets/img/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Atomic Desktops](desktop.md#fedora-atomic-desktops)
 - ![NixOS logo](assets/img/linux-desktop/nixos.svg){ .twemoji loading=lazy } [NixOS](desktop.md#nixos)
 - ![Whonix logo](assets/img/linux-desktop/whonix.svg){ .twemoji loading=lazy } [Whonix (Tor)](desktop.md#whonix)
-- ![Tails logo](assets/img/linux-desktop/tails.svg){ .twemoji loading=lazy } [Tails (Live Boot)](desktop.md#tails)
+- ![Tails logosu](assets/img/linux-desktop/tails.svg){ .twemoji loading=lazy } [Tails (Live Boot)](desktop.md#tails)
 - ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ .twemoji loading=lazy } [Kicksecure](desktop.md#kicksecure)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](desktop.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](desktop.md)
 
 ### Yönlendirici Yazılımı
 
 <div class="grid cards" markdown>
 
-- ![OpenWrt logo](assets/img/router/openwrt.svg#only-light){ .twemoji loading=lazy }![OpenWrt logo](assets/img/router/openwrt-dark.svg#only-dark){ .twemoji loading=lazy } [OpenWrt](router.md#openwrt)
+- ![OpenWrt logosu](assets/img/router/openwrt.svg#only-light){ .twemoji loading=lazy }![OpenWrt logosu](assets/img/router/openwrt-dark.svg#only-dark){ .twemoji loading=lazy } [OpenWrt](router.md#openwrt)
 - ![OPNsense logo](assets/img/router/opnsense.svg){ .twemoji loading=lazy } [OPNsense](router.md#opnsense)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](router.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](router.md)
 
-## Advanced Tools
+## Gelişmiş Araçlar
 
-These tools may provide utility for certain individuals. They provide functionality which most people do not need to worry about, and often require more in-depth technical knowledge to utilize effectively.
+Bu araçlar belirli bireyler için fayda sağlayabilir. Çoğu insanın endişelenmesine gerek olmayan işlevsellik sağlarlar ve genellikle etkili bir şekilde kullanmak için daha derinlemesine teknik bilgi gerektirirler.
 
-### Alternative Networks
+### Alternatif Ağlar
 
 <div class="grid cards" markdown>
 
-- ![I2P logo](./assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji loading=lazy } ![I2P logo](./assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji loading=lazy } [I2P](alternative-networks.md#i2p-the-invisible-internet-project)
+- ![I2P logosu](./assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji loading=lazy } ![I2P logosu](./assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji loading=lazy } [I2P](alternative-networks.md#i2p-the-invisible-internet-project)
 - ![Tor logo](./assets/img/self-contained-networks/tor.svg){ .twemoji loading=lazy } [Tor](alternative-networks.md#tor)
-- ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji loading=lazy }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji loading=lazy } [Snowflake](alternative-networks.md#snowflake)
+- ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji loading=lazy }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji loading=lazy } [Kar Tanesi](alternative-networks.md#snowflake)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](alternative-networks.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](alternative-networks.md)
 
-### Device Integrity Verification
+### Cihaz Bütünlüğü Doğrulaması
 
 <div class="grid cards" markdown>
 
-- ![MVT logo](assets/img/device-integrity/mvt.webp){ .twemoji loading=lazy } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
+- ![MVT logosu](assets/img/device-integrity/mvt.webp){ .twemoji loading=lazy } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
 - ![iMazing logo](assets/img/device-integrity/imazing.png){ .twemoji loading=lazy } [iMazing (iOS)](device-integrity.md#imazing-ios)
-- ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ .twemoji loading=lazy }![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji loading=lazy } [Auditor (Android)](device-integrity.md#auditor-android)
+- ![Denetçi logosu](assets/img/device-integrity/auditor.svg#only-light){ .twemoji loading=lazy }![Denetçi logosu](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji loading=lazy } [Denetçi (Android)](device-integrity.md#auditor-android)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](device-integrity.md)
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](device-integrity.md)

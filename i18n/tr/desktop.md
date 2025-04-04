@@ -1,11 +1,11 @@
 ---
-title: "Desktop/PC"
+title: "Masaüstü/PC"
 icon: simple/linux
 description: Linux distributions are commonly recommended for privacy protection and software freedom.
 cover: desktop.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Aşağıdaki tehdit(ler)e karşı koruma sağlar:</small>
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
@@ -187,9 +187,9 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
 
 ## Security-focused Distributions
 
-<small>Protects against the following threat(s):</small>
+<small>Aşağıdaki tehdit(ler)e karşı koruma sağlar:</small>
 
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-bug-outline: Pasif Saldırılar](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 
 ### Qubes OS
 
@@ -234,7 +234,7 @@ While we [recommend against](os/linux-overview.md#release-cycle) "perpetually ou
 
 </div>
 
-## Criteria
+## Kriter
 
 Choosing a Linux distro that is right for you will come down to a huge variety of personal preferences, and this page is **not** meant to be an exhaustive list of every viable distribution. Our Linux overview page has some advice on [choosing a distro](os/linux-overview.md#choosing-your-distribution) in more detail. The distros on *this* page do all generally follow the guidelines we covered there, and all meet these standards:
 

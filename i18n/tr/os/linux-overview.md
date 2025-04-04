@@ -1,30 +1,30 @@
 ---
-title: Linux Overview
+title: Linux'a Genel Bakış
 icon: simple/linux
-description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distribitions are created equal.
+description: Linux açık kaynaklı, gizlilik odaklı bir masaüstü işletim sistemi alternatifidir, ancak tüm dağıtımlar eşit yaratılmamıştır.
 ---
 
-**Linux** is an open-source, privacy-focused desktop operating system alternative. In the face of pervasive telemetry and other privacy-encroaching technologies in mainstream operating systems, desktop Linux has remained the clear choice for people looking for total control over their computers from the ground up.
+**Linux** açık kaynaklı, gizlilik odaklı bir masaüstü işletim sistemi alternatifidir. Yaygın telemetri ve ana akım işletim sistemlerindeki diğer gizliliği ihlal eden teknolojiler karşısında, masaüstü Linux, bilgisayarları üzerinde sıfırdan tam kontrol isteyen insanlar için açık bir seçim olmaya devam etti.
 
-Our website generally uses the term “Linux” to describe **desktop** Linux distributions. Other operating systems which also use the Linux kernel such as ChromeOS, Android, and Qubes OS are not discussed on this page.
+Web sitemizde genellikle **masaüstü** Linux dağıtımlarını tanımlamak için "Linux" terimi kullanılmaktadır. ChromeOS, Android ve Qubes OS gibi Linux çekirdeğini kullanan diğer işletim sistemleri bu sayfada ele alınmamıştır.
 
-[Our Linux Recommendations :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
+[Linux Önerilerimiz :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
 
-## Security Notes
+## Güvenlik Anahtarları
 
-There are some notable security concerns with Linux which you should be aware of. Despite these drawbacks, desktop Linux distributions are still great for most people who want to:
+Linux ile ilgili bilmeniz gereken bazı önemli güvenlik sorunları vardır. Bu dezavantajlara rağmen, masaüstü Linux dağıtımları isteyen çoğu insan için hala harikadır:
 
-- Avoid telemetry that often comes with proprietary operating systems
-- Maintain [software freedom](https://gnu.org/philosophy/free-sw.en.html#four-freedoms)
-- Use privacy-focused systems such as [Whonix](../desktop.md#whonix) or [Tails](../desktop.md#tails)
+- Genellikle tescilli işletim sistemleriyle birlikte gelen telemetriden kaçının
+- [Yazılım özgürlüğünü](https://gnu.org/philosophy/free-sw.en.html#four-freedoms) koruyun
+- [Whonix](../desktop.md#whonix) veya [Tails](../desktop.md#tails) gibi gizlilik odaklı sistemler kullanın
 
-### Open-Source Security
+### Açık Kaynak Güvenliği
 
-It is a [common misconception](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) that Linux and other open-source software are inherently secure simply because the source code is available. There is an expectation that community verification occurs regularly, but this isn’t always [the case](https://seirdy.one/posts/2022/02/02/floss-security).
+Linux ve diğer açık kaynaklı yazılımların sadece kaynak kodu mevcut olduğu için doğal olarak güvenli olduğu [yaygın](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) bir [yanılgıdır](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure). Topluluk doğrulamasının düzenli olarak yapılması yönünde bir beklenti vardır, ancak bu her zaman [böyle](https://seirdy.one/posts/2022/02/02/floss-security) değildir.
 
-In reality, distro security depends on a number of factors, such as project activity, developer experience, the level of rigor applied to code reviews, and how often attention is given to specific parts of the codebase that may go untouched for years.
+Gerçekte, dağıtım güvenliği proje etkinliği, geliştirici deneyimi, kod incelemelerine uygulanan titizlik düzeyi ve kod tabanının yıllarca dokunulmamış belirli bölümlerine ne sıklıkla dikkat edildiği gibi bir dizi faktöre bağlıdır.
 
-### Missing Security Features
+### Eksik Güvenlik Özellikleri
 
 At the moment, desktop Linux [falls behind alternatives](https://discussion.fedoraproject.org/t/fedora-strategy-2028-proposal-fedora-linux-is-as-secure-as-macos/46899/9) like macOS or Android when it comes to certain security features. We hope to see improvements in these areas in the future.
 
@@ -77,72 +77,72 @@ If you are experienced with Linux and wish to use an Arch-based distribution, we
 Additionally, we recommend **against** these two Arch derivatives specifically:
 
 - **Manjaro**: This distribution holds packages back for 2 weeks to make sure that their own changes don’t break, not to make sure that upstream is stable. When AUR packages are used, they are often built against the latest [libraries](https://en.wikipedia.org/wiki/Library_(computing)) from Arch’s repositories.
-- **Garuda**: They use [Chaotic-AUR](https://aur.chaotic.cx) which automatically and blindly compiles packages from the AUR. There is no verification process to make sure that the AUR packages don’t suffer from supply chain attacks.
+- **Garuda**: AUR'den paketleri otomatik ve kör bir şekilde derleyen [Chaotic-AUR](https://aur.chaotic.cx) kullanıyorlar. AUR paketlerinin tedarik zinciri saldırılarına maruz kalmadığından emin olmak için herhangi bir doğrulama süreci bulunmamaktadır.
 
-### Linux-libre kernel and “Libre” distributions
+### Linux-libre çekirdeği ve "Libre" dağıtımları
 
-We recommend **against** using the Linux-libre kernel, since it [removes security mitigations](https://phoronix.com/news/GNU-Linux-Libre-5.7-Released) and [suppresses kernel warnings](https://news.ycombinator.com/item?id=29674846) about vulnerable microcode.
+Linux-libre çekirdeğini **kullanmamanızı** öneririz, çünkü [güvenlik önlemlerini kaldırır](https://phoronix.com/news/GNU-Linux-Libre-5.7-Released) ve savunmasız mikro kodla ilgili [çekirdek uyarılarını bastırır](https://news.ycombinator.com/item?id=29674846).
 
-### Mandatory access control
+### Zorunlu erişim kontrolü
 
-Mandatory access control is a set of additional security controls which help to confine parts of the system such as apps and system services. The two common forms of mandatory access control found in Linux distributions are [SELinux](https://github.com/SELinuxProject) and [AppArmor](https://apparmor.net). Fedora and Tumbleweed use SELinux by default, with Tumbleweed offering an option in its installer to choose AppArmor instead.
+Zorunlu erişim denetimi, uygulamalar ve sistem hizmetleri gibi sistem parçalarının sınırlandırılmasına yardımcı olan bir dizi ek güvenlik denetimidir. Linux dağıtımlarında bulunan iki yaygın zorunlu erişim denetimi biçimi [SELinux](https://github.com/SELinuxProject) ve [AppArmor](https://apparmor.net)'dur. Fedora ve Tumbleweed varsayılan olarak SELinux kullanır, Tumbleweed bunun yerine AppArmor'u seçmek için yükleyicisinde bir seçenek sunar.
 
-SELinux on [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-getting-started) confines Linux containers, virtual machines, and service daemons by default. AppArmor is used by the snap daemon for [sandboxing](https://snapcraft.io/docs/security-sandboxing) snaps which have [strict](https://snapcraft.io/docs/snap-confinement) confinement such as [Firefox](https://snapcraft.io/firefox). There is a community effort to confine more parts of the system in Fedora with the [ConfinedUsers](https://fedoraproject.org/wiki/SIGs/ConfinedUsers) special interest group.
+[Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-getting-started) 'daki SELinux varsayılan olarak Linux konteynerlerini, sanal makineleri ve hizmet daemonlarını sınırlar. AppArmor, snap daemon tarafından [Firefox](https://snapcraft.io/firefox) gibi [katı](https://snapcraft.io/docs/snap-confinement) sınırlamalara sahip snaps'leri [sandbox](https://snapcraft.io/docs/security-sandboxing) 'lamak için kullanılır. [ConfinedUsers](https://fedoraproject.org/wiki/SIGs/ConfinedUsers) özel ilgi grubu ile Fedora'da sistemin daha fazla bölümünü sınırlandırmak için bir topluluk çabası var.
 
 ## Genel Öneriler
 
-### Drive Encryption
+### Sürücü Şifreleme
 
-Most Linux distributions have an option within its installer for enabling [LUKS](../encryption.md#linux-unified-key-setup) FDE. If this option isn’t set at installation time, you will have to back up your data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning), but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. We also suggest securely erasing your storage device:
+Çoğu Linux dağıtımının yükleyicisinde [LUKS](../encryption.md#linux-unified-key-setup) FDE'yi etkinleştirmek için bir seçenek vardır. Bu seçenek kurulum sırasında ayarlanmazsa, şifreleme [disk bölümlemesinden](https://en.wikipedia.org/wiki/Disk_partitioning) sonra, ancak [dosya sistemleri](https://en.wikipedia.org/wiki/File_system) biçimlendirilmeden önce uygulandığından verilerinizi yedeklemeniz ve yeniden kurulum yapmanız gerekecektir. Ayrıca depolama cihazınızı güvenli bir şekilde silmenizi öneririz:
 
-- [Secure Data Erasure :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/05/25/secure-data-erasure)
+- [DNS hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/05/25/secure-data-erasure)
 
-### Swap
+### Değiştir
 
-Consider using [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) instead of a traditional swap file or partition to avoid writing potentially sensitive memory data to persistent storage (and improve performance). Fedora-based distributions [use ZRAM by default](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
+Hassas olabilecek bellek verilerini kalıcı depolama alanına yazmaktan kaçınmak (ve performansı artırmak) için geleneksel bir takas dosyası veya bölümü yerine [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-generator) kullanmayı düşünün. Fedora tabanlı dağıtımlar [varsayılan olarak ZRAM kullanır](https://fedoraproject.org/wiki/Changes/SwapOnZRAM).
 
-If you require suspend-to-disk (hibernation) functionality, you will still need to use a traditional swap file or partition. Make sure that any swap space you do have on a persistent storage device is [encrypted](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) at a minimum to mitigate some of these threats.
+Diske askıya alma (hazırda bekletme) işlevine ihtiyacınız varsa, yine de geleneksel bir takas dosyası veya bölümü kullanmanız gerekecektir. Bu tehditlerin bazılarını azaltmak için kalıcı bir depolama aygıtında sahip olduğunuz takas alanının [en](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) azından [şifrelenmiş](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) olduğundan emin olun.
 
-### Proprietary Firmware (Microcode Updates)
+### Tescilli Ürün Yazılımı (Mikrokod Güncellemeleri)
 
-Some Linux distributions (such as [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre)-based or DIY distros) don’t come with the proprietary [microcode](https://en.wikipedia.org/wiki/Microcode) updates which patch critical security vulnerabilities. Some notable examples of these vulnerabilities include [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)), [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)), [SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass), [Foreshadow](https://en.wikipedia.org/wiki/Foreshadow), [MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling), [SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability)), and other [hardware vulnerabilities](https://kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html).
+Bazı Linux dağıtımları ( [Linux-libre tabanlı](https://en.wikipedia.org/wiki/Linux-libre) veya DIY dağıtımları gibi) kritik güvenlik açıklarını yamalayan tescilli [mikrokod](https://en.wikipedia.org/wiki/Microcode) güncellemeleriyle birlikte gelmez. Bu güvenlik açıklarının bazı önemli örnekleri arasında [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)), [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)), [SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass), [Foreshadow](https://en.wikipedia.org/wiki/Foreshadow), [MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling), [SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability)) ve diğer [donanım güvenlik açıkları](https://kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html) yer almaktadır.
 
-We **highly recommend** that you install microcode updates, as they contain important security patches for the CPU which can not be fully mitigated in software alone. Fedora and openSUSE both apply microcode updates by default.
+Mikrokod güncellemelerini yüklemenizi şiddetle **tavsiye** ederiz, çünkü bunlar CPU için sadece yazılımla tam olarak azaltılamayan önemli güvenlik yamaları içerir. Fedora ve openSUSE'nin her ikisi de varsayılan olarak mikrokod güncellemelerini uygular.
 
-### Updates
+### Güncellemeler
 
-Most Linux distributions will automatically install updates or remind you to do so. It is important to keep your OS up to date so that your software is patched when a vulnerability is found.
+Çoğu Linux dağıtımı güncellemeleri otomatik olarak yükler veya size bunu hatırlatır. Bir güvenlik açığı bulunduğunda yazılımınızın yamalanması için işletim sisteminizi güncel tutmanız önemlidir.
 
-Some distributions (particularly those aimed at advanced users) are more bare bones and expect you to do things yourself (e.g. Arch or Debian). These will require running the "package manager" (`apt`, `pacman`, `dnf`, etc.) manually in order to receive important security updates.
+Bazı dağıtımlar (özellikle ileri düzey kullanıcılara yönelik olanlar) daha yalındır ve işleri kendiniz yapmanızı bekler (örneğin Arch veya Debian). Bunlar, önemli güvenlik güncellemelerini almak için "paket yöneticisini"`(apt`, `pacman`, `dnf`, vb.) manuel olarak çalıştırmayı gerektirecektir.
 
-Additionally, some distributions will not download firmware updates automatically. For that, you will need to install [`fwupd`](https://wiki.archlinux.org/title/Fwupd).
+Ayrıca, bazı dağıtımlar ürün yazılımı güncellemelerini otomatik olarak indirmeyecektir. Bunun için şunları yüklemeniz gerekir [`fwupd`](https://wiki.archlinux.org/title/Fwupd).
 
-### Permission Controls
+### İzin Kontrolleri
 
-Desktop environments (DEs) that support the [Wayland](https://wayland.freedesktop.org) display protocol are [more secure](https://lwn.net/Articles/589147) than those that only support X11. However, not all DEs take full advantage of Wayland's architectural security improvements.
+[Wayland](https://wayland.freedesktop.org) görüntüleme protokolünü destekleyen masaüstü ortamları (DE'ler), yalnızca X11'i destekleyenlere göre [daha güvenlidir](https://lwn.net/Articles/589147). Ancak, tüm DE'ler Wayland'in mimari güvenlik iyileştirmelerinden tam olarak yararlanamamaktadır.
 
-For example, GNOME has a notable edge in security compared to other DEs by implementing permission controls for third-party software that tries to [capture your screen](https://gitlab.gnome.org/GNOME/gnome-shell/-/issues/3943). That is, when a third-party application attempts to capture your screen, you are prompted for your permission to share your screen with the app.
+Örneğin, GNOME, [ekranınızı yakalamaya](https://gitlab.gnome.org/GNOME/gnome-shell/-/issues/3943) çalışan üçüncü taraf yazılımlar için izin denetimleri uygulayarak diğer DE'lere kıyasla güvenlik konusunda kayda değer bir avantaja sahiptir. Yani, üçüncü taraf bir uygulama ekranınızı yakalamaya çalıştığında, ekranınızı uygulama ile paylaşmak için izniniz istenir.
 
 <figure markdown>
-  ![Screenshot permissions](../assets/img/linux/screenshot_permission.png){ width="450" }
-  <figcaption>GNOME's screenshot permission dialog</figcaption>
+  ![Ekran görüntüsü izinleri](../assets/img/linux/screenshot_permission.png){ width="450" }
+  <figcaption>GNOME'un ekran görüntüsü izin iletişim kutusu</figcaption>
 </figure>
 
-Many alternatives don't provide these same permission controls yet,[^1] while some are waiting for Wayland to implement these controls upstream.[^2]
+Birçok alternatif henüz aynı izin kontrollerini sağlamıyor,[^1] Bazıları ise Wayland'in bu kontrolleri yukarı yönde uygulamasını bekliyor.[^2]
 
-## Privacy Tweaks
+## Gizlilik Ayarları
 
-### MAC Address Randomization
+### MAC Adresi Rastgeleleştirme
 
-Many desktop Linux distributions (Fedora, openSUSE, etc.) come with [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager) to configure Ethernet and Wi-Fi settings.
+Birçok masaüstü Linux dağıtımı (Fedora, openSUSE, vb.) Ethernet ve Wi-Fi ayarlarını yapılandırmak için [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager) ile birlikte gelir.
 
-It is possible to [randomize](https://fedoramagazine.org/randomize-mac-address-nm) the [MAC address](https://en.wikipedia.org/wiki/MAC_address) when using NetworkManager. This provides a bit more privacy on Wi-Fi networks as it makes it harder to track specific devices on the network you’re connected to. It does [**not**](https://papers.mathyvanhoef.com/wisec2016.pdf) make you anonymous.
+NetworkManager kullanırken [MAC adresini](https://en.wikipedia.org/wiki/MAC_address) [rastgele ayarlamak](https://fedoramagazine.org/randomize-mac-address-nm) mümkündür. Bu, bağlı olduğunuz ağdaki belirli cihazların izlenmesini zorlaştırdığı için Wi-Fi ağlarında biraz daha fazla gizlilik sağlar. Öyle. [**değil**](https://papers.mathyvanhoef.com/wisec2016.pdf) seni anonim yapar.
 
-We recommend changing the setting to **random** instead of **stable**, as suggested in the [article](https://fedoramagazine.org/randomize-mac-address-nm).
+[Makalede](https://fedoramagazine.org/randomize-mac-address-nm) önerildiği gibi ayarı **sabit** yerine **rastgele** olarak değiştirmenizi öneririz.
 
-If you are using [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components), you will need to set [`MACAddressPolicy=random`](https://freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=) which will enable [RFC 7844 (Anonymity Profiles for DHCP Clients)](https://freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=).
+Eğer [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components) kullanıyorsanız, şunları ayarlamanız gerekecektir [`MACAddressPolicy=random`](https://freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=)[RFC 7844'ü (DHCP İstemcileri için Anonimlik Profilleri)](https://freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=) etkinleştirecektir.
 
-MAC address randomization is primarily beneficial for Wi-Fi connections. For Ethernet connections, randomizing your MAC address provides little (if any) benefit, because a network administrator can trivially identify your device by other means (such as inspecting the port you are connected to on the network switch). Randomizing Wi-Fi MAC addresses depends on support from the Wi-Fi’s firmware.
+MAC adresi rastgeleleştirme öncelikle Wi-Fi bağlantıları için faydalıdır. Ethernet bağlantıları için MAC adresinizi rastgele hale getirmek çok az fayda sağlar (eğer varsa), çünkü bir ağ yöneticisi cihazınızı başka yollarla (ağ anahtarında bağlı olduğunuz bağlantı noktasını incelemek gibi) önemsiz bir şekilde tanımlayabilir. Randomizing Wi-Fi MAC addresses depends on support from the Wi-Fi’s firmware.
 
 ### Other Identifiers
 

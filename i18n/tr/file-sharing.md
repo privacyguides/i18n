@@ -5,7 +5,7 @@ description: Discover how to privately share your files between your devices, wi
 cover: file-sharing.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Aşağıdaki tehdit(ler)e karşı koruma sağlar:</small>
 
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
@@ -82,33 +82,33 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 
 **FreedomBox**, [tek kartlı bilgisayar (SBC)](https://en.wikipedia.org/wiki/Single-board_computer) üzerinde çalıştırılmak için tasarlanmış bir işletim sistemidir. The purpose is to make it easy to set up server applications that you might want to self-host.
 
-[:octicons-home-16: Homepage](https://freedombox.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentation}
-[:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://freedomboxfoundation.org/donate){ .card-link title=Contribute }
+[:octicons-home-16: Ana Sayfa](https://freedombox.org){ .md-button .md-button--primary }[:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title="Privacy Policy" }
+[:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title=Documentation}
+[:octicons-heart-16:](https://freedomboxfoundation.org/donate){ .card-link title="Source Code" }
+[](){ .card-link title=Contribute" }
 
 </details>
 
 </div>
 
-## File Sync
+## Dosya Senkronizasyonu
 
-### Nextcloud (Client-Server)
+### Nextcloud (İstemci-Sunucu)
 
 <div class="admonition recommendation" markdown>
 
 ![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ align=right }
 
-**Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
+**Nextcloud**, kontrol ettiğiniz özel bir sunucuda kendi dosya barındırma hizmetlerinizi oluşturmak için ücretsiz ve açık kaynaklı bir istemci-sunucu yazılımı paketidir.
 
-[:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
+[:octicons-home-16: Ana Sayfa](https://nextcloud.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://nextcloud.com/support){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>İndirmeler</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
@@ -122,9 +122,9 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 </div>
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">Uyarı</p>
 
-We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss; it is highly experimental and not production quality.
+Veri kaybına yol açabileceğinden Nextcloud için [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) kullanılmasını önermiyoruz; son derece deneyseldir ve üretim kalitesinde değildir.
 
 </div>
 
@@ -132,43 +132,43 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 
 <div class="admonition recommendation" markdown>
 
-![Syncthing logo](assets/img/file-sharing-sync/syncthing.svg){ align=right }
+![Syncthing logosu](assets/img/file-sharing-sync/syncthing.svg){ align=right }
 
-**Syncthing** is an open-source peer-to-peer continuous file synchronization utility. It is used to synchronize files between two or more devices over the local network or the internet. Syncthing does not use a centralized server; it uses the [Block Exchange Protocol](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) to transfer data between devices. All data is encrypted using TLS.
+**Syncthing** açık kaynaklı bir eşler arası sürekli dosya senkronizasyon yardımcı programıdır. Dosyaları yerel ağ veya internet üzerinden iki veya daha fazla cihaz arasında senkronize etmek için kullanılır. Syncthing merkezi bir sunucu kullanmaz; cihazlar arasında veri aktarımı için [Blok Değişim Protokolü](https://docs.syncthing.net/specs/bep-v1.html#bep-v1) kullanır. Tüm veriler TLS kullanılarak şifrelenir.
 
-[:octicons-home-16: Homepage](https://syncthing.net){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.syncthing.net){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/syncthing){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://syncthing.net/donations){ .card-link title=Contribute }
+[:octicons-home-16: Ana Sayfa](https://syncthing.net){ .md-button .md-button--primary }[:octicons-info-16:](https://docs.syncthing.net){ .card-link title="Privacy Policy" }
+[:octicons-code-16:](https://github.com/syncthing){ .card-link title=Documentation}
+[:octicons-heart-16:](https://syncthing.net/donations){ .card-link title="Source Code" }
+[](){ .card-link title=Contribute" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>İndirmeler</summary>
 
 - [:fontawesome-brands-windows: Windows](https://syncthing.net/downloads)
 - [:simple-apple: macOS](https://syncthing.net/downloads)
 - [:simple-linux: Linux](https://syncthing.net/downloads)
-- [:simple-freebsd: FreeBSD](https://syncthing.net/downloads)
+- [:simple-freebsd: Web](https://syncthing.net/downloads)
 
 </details>
 
 </div>
 
-### Criteria
+### Kriter
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Lütfen önerdiğimiz projelerin hiçbirine bağlı olmadığımızı unutmayın.** [standart kriterlerimize](about/criteria.md) ek olarak, objektif tavsiyelerde bulunabilmemiz için bir takım gereklilikler geliştirdik. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
 
-#### Minimum Requirements
+#### Minimum Gereksinimler
 
-- Must not require a third-party remote/cloud server.
-- Must be open-source software.
+- Üçüncü taraf bir uzak/bulut sunucusu gerektirmemelidir.
+- Açık kaynaklı yazılım olmalıdır.
 - Linux, macOS ve Windows için istemcilere sahip olmalı veya bir web arayüzüne sahip olmalıdır.
 
-#### Best-Case
+#### En İyi Durum
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+En iyi durum kriterlerimiz, bu kategorideki mükemmel bir projede görmek istediklerimizi temsil etmektedir. Önerilerimiz bu işlevlerden herhangi birini veya tamamını içermeyebilir, ancak içerenler bu sayfada diğerlerinden daha üst sıralarda yer alabilir.
 
-- Should have mobile clients for iOS and Android which at least support document previews.
+- En azından belge önizlemelerini destekleyen iOS ve Android için mobil istemcilere sahip olmalıdır.
 - Should support photo backups from iOS and Android, and optionally support file/folder sync on Android.
 
 [^1]: Proton Drive allows you to [share files or folders](https://proton.me/support/drive-shareable-link) by generating a shareable public link or sending a unique link to a designated email address. Public links can be protected with a password, set to expire, and completely revoked, while links shared via email can have custom permissions and be similarly revoked. Per Proton Drive's [privacy policy](https://proton.me/drive/privacy-policy), file contents, file and folder names, and thumbnail previews are end-to-end encrypted.
-[^2]: With a [premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) subscription, [Bitwarden Send](https://bitwarden.com/products/send) allows you to share files and text securely with [end-to-end encryption](https://bitwarden.com/help/send-encryption). A [password](https://bitwarden.com/help/send-privacy/#send-passwords) can be required along with the Send link. Bitwarden Send also features [automatic deletion](https://bitwarden.com/help/send-lifespan).
+[^2]: With a [premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) subscription, [Bitwarden Send](https://bitwarden.com/products/send) allows you to share files and text securely with [end-to-end encryption](https://bitwarden.com/help/send-encryption). Gönder bağlantısı ile birlikte bir [şifre](https://bitwarden.com/help/send-privacy/#send-passwords) de gerekebilir. Bitwarden Send ayrıca [otomatik silme](https://bitwarden.com/help/send-lifespan) özelliğine de sahiptir.

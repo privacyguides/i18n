@@ -161,15 +161,15 @@ To check the authenticity and safety of the model, look for:
 - Community reviews and usage statistics
 - A "Safe" badge next to the model file (Hugging Face only)
 - Matching checksums[^1]
-  - On Hugging Face, you can find the hash by clicking on a model file and looking for the **Copy SHA256** button below it. You should compare this checksum with the one from the model file you downloaded.
+    - On Hugging Face, you can find the hash by clicking on a model file and looking for the **Copy SHA256** button below it. You should compare this checksum with the one from the model file you downloaded.
 
 A downloaded model is generally safe if it satisfies all the above checks.
 
-## Criteria
+## Kriter
 
 Please note we are not affiliated with any of the projects we recommend. In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project and conduct your own research to ensure it's the right choice for you.
 
-### Minimum Requirements
+### Minimum Gereksinimler
 
 - Must be open-source.
 - Must not transmit personal data, including chat data.
@@ -178,9 +178,9 @@ Please note we are not affiliated with any of the projects we recommend. In addi
 - Must support GPU-powered fast inference.
 - Must not require an internet connection.
 
-### Best-Case
+### En İyi Durum
 
-Our best-case criteria represent what we _would_ like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Our best-case criteria represent what we _would_ like to see from the perfect project in this category. Önerilerimiz bu işlevlerden herhangi birini veya tamamını içermeyebilir, ancak içerenler bu sayfada diğerlerinden daha üst sıralarda yer alabilir.
 
 - Should be easy to download and set up, e.g. with a one-click installation process.
 - Should have a built-in model downloader option.

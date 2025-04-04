@@ -1,5 +1,5 @@
 ---
-title: Mobile Phones
+title: Cep telefonları
 icon: material/cellphone-check
 description: These mobile devices provide the best hardware security support for custom Android operating systems.
 cover: android.webp
@@ -87,9 +87,9 @@ A few more tips for purchasing a Google Pixel:
   , meaning that the longer use of the device the lower cost per day.
 - If the Pixel is unavailable in your region, the [NitroPhone](https://shop.nitrokey.com/shop) can be shipped globally.
 
-## Criteria
+## Kriter
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
 
 - Must support at least one of our recommended custom operating systems.
 - Must be currently sold new in stores.

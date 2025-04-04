@@ -14,9 +14,9 @@ The options listed here are available on multiple platforms and great for creati
 
 ### Cryptomator (Cloud)
 
-<small>Protects against the following threat(s):</small>
+<small>Aşağıdaki tehdit(ler)e karşı koruma sağlar:</small>
 
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-bug-outline: Pasif Saldırılar](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 
 <div class="admonition recommendation" markdown>
 
@@ -24,114 +24,113 @@ The options listed here are available on multiple platforms and great for creati
 
 **Cryptomator** is an encryption solution designed for privately saving files to any cloud [:material-server-network: Service Provider](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }, eliminating the need to trust that they won't access your files. It allows you to create vaults that are stored on a virtual drive, the contents of which are encrypted and synced with your cloud storage provider.
 
-[:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
+[:octicons-home-16: Ana Sayfa](https://cryptomator.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.cryptomator.org){ .card-link title="Documentation" }
+[:octicons-info-16:](https://docs.cryptomator.org){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://cryptomator.org/donate){ .card-link title="Contribute" }
+[:octicons-heart-16:](https://cryptomator.org/donate){ .card-link title=Contribute }???
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+indirmeler
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1560822163)
-- [:simple-android: Android](https://cryptomator.org/android)
-- [:fontawesome-brands-windows: Windows](https://cryptomator.org/downloads)
-- [:simple-apple: macOS](https://cryptomator.org/downloads)
-- [:simple-linux: Linux](https://cryptomator.org/downloads)
-- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.cryptomator.Cryptomator)
+ - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
+ - [:simple-appstore: App Store](https://apps.apple.com/app/id944896972)
+ - [:simple-windows11: Windows](https://www.onlyoffice.com/download-desktop.aspx)
+ - [:simple-apple: macOS](https://www.onlyoffice.com/download-desktop.aspx)
+ - [:simple-linux: Linux](https://www.onlyoffice.com/download-desktop.aspx)
+ - [:simple-flathub: Flathub](https://flathub.org/apps/details/org.onlyoffice.desktopeditors)
 
 </details>
 
 </div>
 
-Cryptomator uses AES-256 encryption to encrypt both files and filenames. Cryptomator cannot encrypt metadata such as access, modification, and creation timestamps, nor the number and size of files and folders.
+Cryptomator hem dosyaları hem de dosya adlarını şifrelemek için AES-256 şifreleme kullanır. Cryptomator erişim, değişiklik ve oluşturma zaman damgaları gibi meta verileri ya da dosya ve klasörlerin sayısını ve boyutunu şifreleyemez.
 
-Cryptomator is free to use on all desktop platforms, as well as on iOS in "read only" mode. Cryptomator offers [paid](https://cryptomator.org/pricing) apps with full functionality on iOS and Android. The Android version can be purchased anonymously via [ProxyStore](https://cryptomator.org/coop/proxystore).
+Cryptomator tüm masaüstü platformlarında ve iOS'ta "salt okunur" modda ücretsiz olarak kullanılabilir. Cryptomator, iOS ve Android'de tam işlevselliğe sahip [ücretli](https://cryptomator.org/pricing) uygulamalar sunar. Android sürümü [ProxyStore](https://cryptomator.org/coop/proxystore) üzerinden anonim olarak satın alınabilir.
 
-Some Cryptomator cryptographic libraries have been [audited](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44) by Cure53. The scope of the audited libraries includes: [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) and [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). The audit did not extend to [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift), which is a library used by Cryptomator for iOS.
+Bazı Cryptomator kriptografik kütüphaneleri Cure53 tarafından [denetlenmiştir](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44). Denetlenen kütüphanelerin kapsamı şunları içerir: [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) ve [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). Denetim, iOS için Cryptomator tarafından kullanılan bir kütüphane olan [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift)'i kapsamamıştır.
 
-Cryptomator's documentation details its intended [security target](https://docs.cryptomator.org/en/latest/security/security-target), [security architecture](https://docs.cryptomator.org/en/latest/security/architecture), and [best practices](https://docs.cryptomator.org/en/latest/security/best-practices) for use in further detail.
+Cryptomator'ın dokümantasyonu, amaçlanan [güvenlik hedefini](https://docs.cryptomator.org/en/latest/security/security-target), [güvenlik mimarisini](https://docs.cryptomator.org/en/latest/security/architecture) ve kullanım için [en iyi uygulamaları](https://docs.cryptomator.org/en/latest/security/best-practices) daha ayrıntılı olarak açıklamaktadır.
 
-### Picocrypt (File)
+### Picocrypt (Dosya)
 
-<small>Protects against the following threat(s):</small>
+<small>Aşağıdaki tehdit(ler)e karşı koruma sağlar:</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-target-account: Hedefli Saldırılar](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 <div class="admonition recommendation" markdown>
 
-![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ align=right }
+![Picocrypt logosu](assets/img/encryption-software/picocrypt.svg){ align=right }
 
-**Picocrypt** is a small and simple encryption tool that provides modern encryption. Picocrypt uses the secure XChaCha20 cipher and the Argon2id key derivation function to provide a high level of security. It uses Go's standard x/crypto modules for its encryption features.
+**Picocrypt** modern şifreleme sağlayan küçük ve basit bir şifreleme aracıdır. Picocrypt, yüksek düzeyde güvenlik sağlamak için güvenli XChaCha20 şifresini ve Argon2id anahtar türetme işlevini kullanır. Şifreleme özellikleri için Go'nun standart x/crypto modüllerini kullanır.
 
 [:octicons-repo-16: Repository](https://github.com/Picocrypt/Picocrypt){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/Picocrypt/Picocrypt){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title="Contribute" }
+[:octicons-code-16:](https://github.com/Picocrypt/Picocrypt){ .card-link title="Documentation" }
+[:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title="Kaynak Kod" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
-
+<summary>İndirmeler</summary>
 - [:fontawesome-brands-windows: Windows](https://github.com/Picocrypt/Picocrypt/releases)
 - [:simple-apple: macOS](https://github.com/Picocrypt/Picocrypt/releases)
 - [:simple-linux: Linux](https://github.com/Picocrypt/Picocrypt/releases)
+- [ Web)
 
 </details>
 
 </div>
 
-Picocrypt has been [audited](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) by Radically Open Security in August 2024, and [most](https://github.com/Picocrypt/Picocrypt/issues/32#issuecomment-2329722740) of the issues found in the audit were subsequently fixed.
+Picocrypt, Ağustos 2024'te Radically Open Security tarafından [denetlenmiş](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) ve denetimde bulunan sorunların [çoğu](https://github.com/Picocrypt/Picocrypt/issues/32#issuecomment-2329722740) daha sonra düzeltilmiştir.
 
 ### VeraCrypt (Disk)
 
-<small>Protects against the following threat(s):</small>
+<small>Aşağıdaki tehdit(ler)e karşı koruma sağlar:</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-target-account: Hedefli Saldırılar](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 <div class="admonition recommendation" markdown>
 
-![VeraCrypt logo](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
-![VeraCrypt logo](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
+![VeraCrypt logosu](assets/img/encryption-software/veracrypt.svg#only-light){ align=right }
+![VeraCrypt logosu](assets/img/encryption-software/veracrypt-dark.svg#only-dark){ align=right }
 
-**VeraCrypt** is a source-available freeware utility used for on-the-fly encryption. It can create a virtual encrypted disk within a file, encrypt a partition, or encrypt the entire storage device with pre-boot authentication.
+**VeraCrypt**, anında şifreleme için kullanılan, kaynak olarak kullanılabilen ücretsiz bir yardımcı programdır. Bir dosya içinde sanal bir şifreli disk oluşturabilir, bir bölümü şifreleyebilir veya önyükleme öncesi kimlik doğrulaması ile tüm depolama aygıtını şifreleyebilir.
 
-[:octicons-home-16: Homepage](https://veracrypt.fr){ .md-button .md-button--primary }
-[:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://veracrypt.fr/code){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title="Contribute" }
+[:octicons-home-16: Homepage](https://veracrypt.fr){ .md-button .md-button--primary }[:octicons-info-16:](https://veracrypt.fr/en/Documentation.html){ .card-link title="Public Instances"}
+[:octicons-code-16:](https://veracrypt.fr/code){ .card-link title=Documentation}
+[:octicons-heart-16:](https://veracrypt.fr/en/Donation.html){ .card-link title="Source Code" }
+[](){ .card-link title=Contribute" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
-
+<summary>İndirmeler</summary>
 - [:fontawesome-brands-windows: Windows](https://veracrypt.fr/en/Downloads.html)
 - [:simple-apple: macOS](https://veracrypt.fr/en/Downloads.html)
 - [:simple-linux: Linux](https://veracrypt.fr/en/Downloads.html)
+- [ Web)
 
 </details>
 
 </div>
 
-VeraCrypt is a fork of the discontinued TrueCrypt project. According to its developers, security improvements have been implemented and issues raised by the initial TrueCrypt code audit have been addressed.
+VeraCrypt, durdurulan TrueCrypt projesinin bir çatalıdır. Geliştiricilerine göre, güvenlik iyileştirmeleri uygulanmış ve ilk TrueCrypt kod denetiminde ortaya çıkan sorunlar ele alınmıştır.
 
-When encrypting with VeraCrypt, you have the option to select from different [hash functions](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme). We suggest you **only** select [SHA-512](https://en.wikipedia.org/wiki/SHA-512) and stick to the [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) block cipher.
+VeraCrypt ile şifreleme yaparken, farklı [hash fonksiyonları](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme) arasından seçim yapma seçeneğiniz vardır. **Yalnızca** [SHA-512](https://en.wikipedia.org/wiki/SHA-512) 'yi seçmenizi ve [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) blok şifresine bağlı kalmanızı öneririz.
 
-TrueCrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), and VeraCrypt has also been [audited separately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
+TrueCrypt [birçok kez denetlenmiştir](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits) ve VeraCrypt de [ayrıca denetlenmiştir](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
 
-## Operating System Encryption
+## İşletim Sistemi Şifreleme
 
-<small>Protects against the following threat(s):</small>
+<small>Aşağıdaki tehdit(ler)e karşı koruma sağlar:</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-target-account: Hedefli Saldırılar](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
-Built-in OS encryption solutions generally leverage hardware security features such as a [secure cryptoprocessor](basics/hardware.md#tpmsecure-cryptoprocessor). Therefore, we recommend using the built-in encryption solutions for your operating system. For cross-platform encryption, we still recommend [cross-platform tools](#multi-platform) for additional flexibility and to avoid vendor lock-in.
+Yerleşik işletim sistemi şifreleme çözümleri genellikle [güvenli](basics/hardware.md#tpmsecure-cryptoprocessor) bir [kripto işlemci](basics/hardware.md#tpmsecure-cryptoprocessor) gibi donanım güvenliği özelliklerinden yararlanır. Bu nedenle, işletim sisteminiz için yerleşik şifreleme çözümlerini kullanmanızı öneririz. Platformlar arası şifreleme için, daha fazla esneklik sağlamak ve satıcı kilitlenmesini önlemek için yine de platformlar [arası araçları](#multi-platform) öneriyoruz.
 
 ### BitLocker
 
 <div class="admonition recommendation" markdown>
 
-![BitLocker logo](assets/img/encryption-software/bitlocker.png){ align=right }
+![BitLocker logosu](assets/img/encryption-software/bitlocker.png){ align=right }
 
-**BitLocker** is the full volume encryption solution bundled with Microsoft Windows that uses the Trusted Platform Module ([TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm)) for hardware-based security.
+**BitLocker**, donanım tabanlı güvenlik için Güvenilir Platform Modülünü ([TPM](https://learn.microsoft.com/windows/security/information-protection/tpm/how-windows-uses-the-tpm)) kullanan Microsoft Windows ile birlikte gelen tam birim şifreleme çözümüdür.
 
 [:octicons-info-16:](https://learn.microsoft.com/windows/security/information-protection/BitLocker/BitLocker-overview){ .card-link title="Documentation" }
 
@@ -139,20 +138,20 @@ Built-in OS encryption solutions generally leverage hardware security features s
 
 </div>
 
-BitLocker is [officially supported](https://support.microsoft.com/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838) on the Pro, Enterprise, and Education editions of Windows. It can be enabled on Home editions provided that they meet the following prerequisites.
+BitLocker, Windows'un Pro, Enterprise ve Education sürümlerinde [resmi olarak desteklenmektedir](https://support.microsoft.com/windows/turn-on-device-encryption-0c453637-bc88-5f74-5105-741561aae838). Aşağıdaki önkoşulları karşılamaları koşuluyla Ev sürümlerinde etkinleştirilebilir.
 
 <details class="example" markdown>
-<summary>Enabling BitLocker on Windows Home</summary>
+<summary>Windows Home'da BitLocker'ı Etkinleştirme</summary>
 
-To enable BitLocker on "Home" editions of Windows, you must have partitions formatted with a [GUID Partition Table](https://en.wikipedia.org/wiki/GUID_Partition_Table) and have a dedicated TPM (v1.2, 2.0+) module. You may need to [disable the non-Bitlocker "Device encryption" functionality](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (which is inferior because it sends your recovery key to Microsoft's servers) if it is enabled on your device already before following this guide.
+Windows'un "Home" sürümlerinde BitLocker'ı etkinleştirmek için [GUID Bölümleme Tablosu](https://en.wikipedia.org/wiki/GUID_Partition_Table) ile biçimlendirilmiş bölümlere ve özel bir TPM (v1.2, 2.0+) modülüne sahip olmanız gerekir. Bu kılavuzu izlemeden önce cihazınızda zaten etkinse [, Bitlocker olmayan "Cihaz şifreleme" işlevini](https://discuss.privacyguides.net/t/enabling-bitlocker-on-the-windows-11-home-edition/13303/5) (kurtarma anahtarınızı Microsoft'un sunucularına gönderdiği için daha düşüktür) devre dışı bırakmanız gerekebilir.
 
-1. Open a command prompt and check your drive's partition table format with the following command. You should see "**GPT**" listed under "Partition Style":
+1. Bir komut istemi açın ve aşağıdaki komutla sürücünüzün bölümleme tablosu biçimini kontrol edin. "Bölümleme Stili" altında**"GPT**"nin listelendiğini görmelisiniz:
 
     ```powershell
     powershell Get-Disk
     ```
 
-2. Run this command (in an admin command prompt) to check your TPM version. You should see `2.0` or `1.2` listed next to `SpecVersion`:
+2. TPM sürümünüzü kontrol etmek için bu komutu çalıştırın (bir yönetici komut isteminde). `SpecVersion`'ın yanında listelenen `2.0` veya `1.2` 'yi görmelisiniz:
 
     ```powershell
     powershell Get-WmiObject -Namespace "root/cimv2/security/microsofttpm" -Class WIN32_tpm
@@ -247,9 +246,9 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 ## Command-line
 
-<small>Protects against the following threat(s):</small>
+<small>Aşağıdaki tehdit(ler)e karşı koruma sağlar:</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-target-account: Hedefli Saldırılar](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 Tools with command-line interfaces are useful for integrating [shell scripts](https://en.wikipedia.org/wiki/Shell_script).
 
@@ -297,10 +296,10 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 
 ## OpenPGP
 
-<small>Protects against the following threat(s):</small>
+<small>Aşağıdaki tehdit(ler)e karşı koruma sağlar:</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-target-account: Hedefli Saldırılar](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-bug-outline: Pasif Saldırılar](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 OpenPGP is sometimes needed for specific tasks such as digitally signing and encrypting email. PGP has many features and is [complex](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html) as it has been around a long time. For tasks such as signing or encrypting files, we suggest the above options.
@@ -308,36 +307,35 @@ OpenPGP is sometimes needed for specific tasks such as digitally signing and enc
 When encrypting with PGP, you have the option to configure different options in your `gpg.conf` file. We recommend staying with the standard options specified in the [GnuPG user FAQ](https://gnupg.org/faq/gnupg-faq.html#new_user_gpg_conf).
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Use future defaults when generating a key</p>
+<p class="admonition-title">Bir anahtar oluştururken gelecekteki varsayılanları kullanın</p>
 
-When [generating keys](https://gnupg.org/gph/en/manual/c14.html) we suggest using the `future-default` command as this will instruct GnuPG use modern cryptography such as [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) and [Ed25519](https://ed25519.cr.yp.to):
+Anahtar üretirken](https://gnupg.org/gph/en/manual/c14.html) `future-default` komutunu kullanmanızı öneririz, çünkü bu GnuPG'ye [Curve25519](https://en.wikipedia.org/wiki/Curve25519#History) ve [Ed25519](https://ed25519.cr.yp.to) gibi modern kriptografiyi kullanması talimatını verecektir:
 
-```bash
+``bash
 gpg --quick-gen-key alice@example.com future-default
 ```
 
 </div>
 
-### GNU Privacy Guard
+### GNU Gizlilik Koruması
 
 <div class="admonition recommendation" markdown>
 
-![GNU Privacy Guard logo](assets/img/encryption-software/gnupg.svg){ align=right }
+![GNU Privacy Guard logosu](assets/img/encryption-software/gnupg.svg){ align=right }
 
-**GnuPG** is a GPL-licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with [RFC 4880](https://tools.ietf.org/html/rfc4880), which is the current IETF specification of OpenPGP. The GnuPG project has been working on an [updated draft](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh) in an attempt to modernize OpenPGP. GnuPG is a part of the Free Software Foundation's GNU software project and has received major [funding](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) from the German government.
+**GnuPG** PGP kriptografik yazılım paketine GPL lisanslı bir alternatiftir. GnuPG, OpenPGP'nin mevcut IETF spesifikasyonu olan [RFC 4880](https://tools.ietf.org/html/rfc4880) ile uyumludur. GnuPG projesi OpenPGP'yi modernize etmek amacıyla bir [güncellenmiş taslak](https://datatracker.ietf.org/doc/draft-ietf-openpgp-crypto-refresh) üzerinde çalışmaktadır. GnuPG, Özgür Yazılım Vakfı'nın GNU yazılım projesinin bir parçasıdır ve Alman hükümetinden büyük [fon](https://gnupg.org/blog/20220102-a-new-future-for-gnupg.html) almıştır.
 
-[:octicons-home-16: Homepage](https://gnupg.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title="Documentation" }
+[:octicons-home-16: Ana Sayfa](https://gnupg.org){ .md-button .md-button--primary }[:octicons-eye-16:](https://gnupg.org/privacy-policy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://gnupg.org/documentation/index.html){ .card-link title=Documentation}
 [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git){ .card-link title="Source Code" }
+[](){ .card-link title=Contribute" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
-- [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
-- [:simple-apple: macOS](https://gpgtools.org)
-- [:simple-linux: Linux](https://gnupg.org/download/index.html#binary)
+<summary>İndirmeler</summary>
+- [:simple-googleplay: Windows](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
+- [:fontawesome-brands-windows: macOS](https://gpg4win.org/download.html)
+- [:simple-apple: Linux](https://gpgtools.org)
+- [ Web)
 
 </details>
 
@@ -347,18 +345,18 @@ gpg --quick-gen-key alice@example.com future-default
 
 <div class="admonition recommendation" markdown>
 
-![GPG4win logo](assets/img/encryption-software/gpg4win.svg){ align=right }
+![GPG4win logosu](assets/img/encryption-software/gpg4win.svg){ align=right }
 
-**GPG4win** is a package for Windows from [Intevation and g10 Code](https://gpg4win.org/impressum.html). It includes [various tools](https://gpg4win.org/about.html) that can assist you in using GPG on Microsoft Windows. The project was initiated and originally [funded by](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography) Germany's Federal Office for Information Security (BSI) in 2005.
+**GPG4win** [Intevation ve g10 Code](https://gpg4win.org/impressum.html) tarafından Windows için geliştirilmiş bir pakettir. Microsoft Windows üzerinde GPG kullanmanıza yardımcı olabilecek [çeşitli araçlar](https://gpg4win.org/about.html) içerir. Proje 2005 yılında Almanya'nın Federal Bilgi Güvenliği Ofisi (BSI) tarafından başlatılmış ve başlangıçta [finanse edilmiştir](https://web.archive.org/web/20190425125223/https://joinup.ec.europa.eu/news/government-used-cryptography).
 
-[:octicons-home-16: Homepage](https://gpg4win.org){ .md-button .md-button--primary }
+[:octicons-home-16: Ana Sayfa](https://gpg4win.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://gpg4win.org/privacy-policy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://gpg4win.org/documentation.html){ .card-link title="Documentation" }
+[:octicons-info-16:](https://gpg4win.org/documentation.html){ .card-link title=Documentation}
 [:octicons-code-16:](https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gpg4win.git;a=summary){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title="Contribute" }
+[:octicons-heart-16:](https://gpg4win.org/donate.html){ .card-link title=Contribute }???
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>İndirmeler</summary>
 
 - [:fontawesome-brands-windows: Windows](https://gpg4win.org/download.html)
 
@@ -366,54 +364,54 @@ gpg --quick-gen-key alice@example.com future-default
 
 </div>
 
-### GPG Suite
+### GPG Paketi
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Notlar</p>
 
-We suggest [Canary Mail](email-clients.md#canary-mail-ios) for using PGP with email on iOS devices.
+PGP'yi iOS cihazlarda e-posta ile kullanmak için [Canary Mail](email-clients.md#canary-mail-ios) adresini öneriyoruz.
 
 </div>
 
 <div class="admonition recommendation" markdown>
 
-![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }
+![GPG Suite logosu](assets/img/encryption-software/gpgsuite.png){ align=right }
 
-**GPG Suite** provides OpenPGP support for [Apple Mail](email-clients.md#apple-mail-macos) and other email clients on macOS.
+**GPG Suite**, [Apple Mail](email-clients.md#apple-mail-macos) ve macOS üzerindeki diğer e-posta istemcileri için OpenPGP desteği sağlar.
 
-We recommend taking a look at their [First steps](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) and [Knowledge Base](https://gpgtools.tenderapp.com/kb) for support.
+Destek için [İlk adımlar](https://gpgtools.tenderapp.com/kb/how-to/first-steps-where-do-i-start-where-do-i-begin-setup-gpgtools-create-a-new-key-your-first-encrypted-email) ve [Bilgi Bankası](https://gpgtools.tenderapp.com/kb) adreslerine göz atmanızı öneririz.
 
-[:octicons-home-16: Homepage](https://gpgtools.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://gpgtools.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://gpgtools.tenderapp.com/kb){ .card-link title="Documentation" }
+[:octicons-home-16: Ana Sayfa](https://gpgtools.org){ .md-button .md-button--primary }[:octicons-eye-16:](https://gpgtools.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://gpgtools.tenderapp.com/kb){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/GPGTools){ .card-link title="Source Code" }
+[](){ .card-link title=Contribute" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>İndirmeler</summary>
 
-- [:simple-apple: macOS](https://gpgtools.org)
+- [:simple-apple: Flathub](https://gpgtools.org)
 
 </details>
 
 </div>
 
-Currently, GPG Suite does [not yet](https://gpgtools.com/sequoia) have a stable release for macOS Sonoma and later.
+Şu anda, GPG Suite'in macOS Sonoma ve sonrası için [henüz](https://gpgtools.com/sequoia) kararlı bir sürümü bulunmamaktadır.
 
 ### OpenKeychain
 
 <div class="admonition recommendation" markdown>
 
-![OpenKeychain logo](assets/img/encryption-software/openkeychain.svg){ align=right }
+![OpenKeychain logosu](assets/img/encryption-software/openkeychain.svg){ align=right }
 
-**OpenKeychain** is an implementation of GnuPG for Android. It's commonly required by mail clients such as [Thunderbird](email-clients.md#thunderbird), [FairEmail](email-clients.md#fairemail-android), and other Android apps to provide encryption support.
+**OpenKeychain** Android için bir GnuPG uygulamasıdır. Genellikle [Thunderbird](email-clients.md#thunderbird), [FairEmail](email-clients.md#fairemail-android) gibi posta istemcileri ve diğer Android uygulamaları tarafından şifreleme desteği sağlamak için gereklidir.
 
-[:octicons-home-16: Homepage](https://openkeychain.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://openkeychain.org/faq){ .card-link title="Documentation" }
+[:octicons-home-16: Ana Sayfa](https://openkeychain.org){ .md-button .md-button--primary }[:octicons-eye-16:](https://openkeychain.org/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://openkeychain.org/faq){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/open-keychain/open-keychain){ .card-link title="Source Code" }
+[](){ .card-link title=Contribute" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>İndirmeler</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain)
 
@@ -421,22 +419,22 @@ Currently, GPG Suite does [not yet](https://gpgtools.com/sequoia) have a stable 
 
 </div>
 
-Cure53 completed a [security audit](https://openkeychain.org/openkeychain-3-6) of OpenKeychain 3.6 in October 2015. The published audit and OpenKeychain's solutions to the issues raised in the audit can be found [here](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015).
+Cure53, OpenKeychain 3.6'nın [güvenlik denetimini](https://openkeychain.org/openkeychain-3-6) Ekim 2015'te tamamlamıştır. Yayınlanan denetime ve OpenKeychain'in denetimde ortaya konan sorunlara yönelik çözümlerine [buradan](https://github.com/open-keychain/open-keychain/wiki/cure53-Security-Audit-2015) ulaşabilirsiniz.
 
-## Criteria
+## Kriter
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Lütfen önerdiğimiz projelerin hiçbirine bağlı olmadığımızı unutmayın.** [standart kriterlerimize](about/criteria.md)ek olarak, objektif tavsiyelerde bulunabilmemiz için bir takım gereklilikler geliştirdik. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
 
-### Minimum Qualifications
+### Asgari Nitelikler
 
-- Cross-platform encryption apps must be open source.
-- File encryption apps must support decryption on Linux, macOS, and Windows.
-- External disk encryption apps must support decryption on Linux, macOS, and Windows.
-- Internal (OS) disk encryption apps must be cross-platform or built in to the operating system natively.
+- Platformlar arası şifreleme uygulamaları açık kaynak kodlu olmalıdır.
+- Dosya şifreleme uygulamaları Linux, macOS ve Windows'ta şifre çözmeyi desteklemelidir.
+- Harici disk şifreleme uygulamaları Linux, macOS ve Windows'ta şifre çözmeyi desteklemelidir.
+- Dahili (OS) disk şifreleme uygulamaları çapraz platformlu olmalı veya işletim sisteminde yerel olarak yerleşik olmalıdır.
 
-### Best-Case
+### En İyi Durum
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+En iyi durum kriterlerimiz, bu kategorideki mükemmel bir projede görmek istediklerimizi temsil etmektedir. Önerilerimiz bu işlevlerden herhangi birini veya tamamını içermeyebilir, ancak içerenler bu sayfada diğerlerinden daha üst sıralarda yer alabilir.
 
-- Operating System (FDE) encryption apps should utilize hardware security such as a TPM or Secure Enclave.
-- File encryption apps should have first- or third-party support for mobile platforms.
+- İşletim Sistemi (FDE) şifreleme uygulamaları TPM veya Secure Enclave gibi donanım güvenliği kullanmalıdır.
+- Dosya şifreleme uygulamaları mobil platformlar için birinci veya üçüncü taraf desteğine sahip olmalıdır.

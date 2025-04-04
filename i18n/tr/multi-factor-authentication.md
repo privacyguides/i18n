@@ -1,22 +1,22 @@
 ---
-title: "Multifactor Authentication"
+title: "Köp faktorly tanamak"
 icon: 'material/two-factor-authentication'
-description: These tools assist you with securing your internet accounts with Multifactor Authentication without sending your secrets to a third-party.
-cover: multi-factor-authentication.webp
+description: Bu araçlar, sırlarınızı üçüncü bir tarafa göndermeden internet hesaplarınızı Çok Faktörlü Kimlik Doğrulama ile güvence altına almanıza yardımcı olur.
+cover: Çok Faktörlü Kimlik Doğrulama
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Aşağıdaki tehdit(ler)e karşı koruma sağlar:</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-target-account: Hedefli Saldırılar](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Hardware Keys</p>
+<p class="admonition-title">Donanım Tuşları</p>
 
-[Hardware security key recommendations](security-keys.md) have been moved to their own category.
+[Donanım güvenlik anahtarı önerileri](security-keys.md) kendi kategorisine taşınmıştır.
 
 </div>
 
-**Multifactor Authentication Apps** implement a security standard adopted by the Internet Engineering Task Force (IETF) called **Time-based One-time Passwords**, or **TOTP**. This is a method where websites share a secret with you which is used by your authenticator app to generate a six (usually) digit code based on the current time, which you enter while logging in for the website to check. Typically, these codes are regenerated every 30 seconds, and once a new code is generated the old one becomes useless. Even if a hacker gets one six-digit code, there is no way for them to reverse that code to get the original secret or otherwise be able to predict what any future codes might be.
+**Çok Faktörlü Kimlik Doğrulama Uygulamaları**, İnternet Mühendisliği Görev Gücü (IETF) tarafından kabul edilen ve **Zaman Tabanlı Tek Kullanımlık Parolalar** veya **TOTP** olarak adlandırılan bir güvenlik standardını uygular. Bu, web sitelerinin sizinle bir sır paylaştığı ve kimlik doğrulayıcı uygulamanız tarafından web sitesinin kontrol etmesi için oturum açarken girdiğiniz geçerli saate dayalı altı (genellikle) basamaklı bir kod oluşturmak için kullanılan bir yöntemdir. Typically, these codes are regenerated every 30 seconds, and once a new code is generated the old one becomes useless. Even if a hacker gets one six-digit code, there is no way for them to reverse that code to get the original secret or otherwise be able to predict what any future codes might be.
 
 We highly recommend that you use mobile TOTP apps instead of desktop alternatives as Android and iOS have better security and app isolation than most desktop operating systems.
 
@@ -70,9 +70,9 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 </div>
 
 <!-- markdownlint-disable-next-line -->
-## Criteria
+## Kriter
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Lütfen önerdiğimiz projelerin hiçbirine bağlı olmadığımızı unutmayın.** [standart kriterlerimize](about/criteria.md) ek olarak, objektif tavsiyelerde bulunabilmemiz için bir takım gereklilikler geliştirdik. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
 
 - Source code must be publicly available.
 - Must not require internet connectivity.

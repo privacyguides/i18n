@@ -21,7 +21,7 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
 
 **Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
 
-[:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
+[:octicons-home-16: Ana Sayfa](https://nextcloud.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://nextcloud.com/support){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
@@ -44,7 +44,7 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger</p>
 
-We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss; it is highly experimental and not production quality. For this reason, we don't recommend third-party Nextcloud providers.
+Veri kaybına yol açabileceğinden Nextcloud için [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) kullanılmasını önermiyoruz; son derece deneyseldir ve üretim kalitesinde değildir. For this reason, we don't recommend third-party Nextcloud providers.
 
 </div>
 
@@ -66,11 +66,11 @@ We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_e
 
 </div>
 
-### Criteria
+### Kriter
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
 
-#### Minimum Requirements
+#### Minimum Gereksinimler
 
 In general, we define collaboration platforms as full-fledged suites which could reasonably act as a replacement to Google Drive.
 
@@ -81,9 +81,9 @@ In general, we define collaboration platforms as full-fledged suites which could
 - Must support real-time document collaboration.
 - Must support exporting documents to standard document formats (e.g. ODF).
 
-#### Best-Case
+#### En İyi Durum
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+En iyi durum kriterlerimiz, bu kategorideki mükemmel bir projede görmek istediklerimizi temsil etmektedir. Önerilerimiz bu işlevlerden herhangi birini veya tamamını içermeyebilir, ancak içerenler bu sayfada diğerlerinden daha üst sıralarda yer alabilir.
 
 - Should store files in a conventional filesystem.
 - Should support TOTP or FIDO2 multifactor authentication support, or passkey logins.

@@ -1,120 +1,120 @@
 ---
-meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
-title: VPN Overview
+meta_title: "VPN'ler Gizliliğinizi Nasıl Korur? VPN'e Genel Bakış - Privacy Guides"
+title: VPN'e Genel Bakış
 icon: material/vpn
-description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
+description: Sanal Özel Ağlar, riski İnternet Sağlayıcınızdan alıp güvendiğiniz bir üçüncü tarafa aktarır. Bunları aklınızda tutmalısınız.
 ---
 
-Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world.
+Sanal Özel Ağlar, ağınızın ucunu dünyanın başka bir yerinden çıkmak üzere genişletmenin bir yoludur.
 
-[:material-movie-open-play-outline: Video: Do you need a VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn/ ""){.md-button}
+[:material-movie-open-play-outline: Video: VPN'e ihtiyacınız var mı?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn/ ""){.md-button}
 
-Normally, an ISP can see the flow of internet traffic entering and exiting your network termination device (i.e. modem). Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+Normalde bir İSS, ağ sonlandırma cihazınıza (yani modeminize) giren ve çıkan internet trafiğinin akışını görebilir. HTTPS gibi şifreleme protokolleri internette yaygın olarak kullanılmaktadır, bu nedenle tam olarak ne gönderdiğinizi veya okuduğunuzu göremeyebilirler, ancak [talep ettiğiniz alan adları](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) hakkında bir fikir edinebilirler.
 
-Using a VPN hides even this information from your ISP, by shifting the trust you place in your network to a server somewhere else in the world. As a result, the ISP then only sees that you are connected to a VPN and nothing about the activity that you're passing through it.
+VPN kullanmak, ağınıza duyduğunuz güveni dünyanın başka bir yerindeki bir sunucuya kaydırarak bu bilgileri bile İSS'nizden gizler. Sonuç olarak, İSS yalnızca bir VPN'e bağlı olduğunuzu görür ve VPN'den geçirdiğiniz etkinlik hakkında hiçbir şey görmez.
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Notlar</p>
 
-When we refer to "Virtual Private Networks" on this website, we are usually referring to **commercial** [VPN providers](../vpn.md), who you pay a monthly fee to in exchange for routing your internet traffic securely through their public servers. There are many other forms of VPN, such as ones you host yourself or ones operated by workplaces which allow you to securely connect to internal/employee network resources, however, these VPNs are usually designed for accessing remote networks securely, rather than protecting the privacy of your internet connection.
+Bu web sitesinde "Sanal Özel Ağlar "dan bahsettiğimizde, genellikle internet trafiğinizi genel sunucuları üzerinden güvenli bir şekilde yönlendirmeleri karşılığında aylık ücret ödediğiniz **ticari** [VPN sağlayıcıları](../vpn.md) kastedilmektedir. Kendi barındırdığınız veya işyerleri tarafından işletilen ve dahili/çalışan ağ kaynaklarına güvenli bir şekilde bağlanmanızı sağlayan VPN'ler gibi başka birçok VPN türü vardır, ancak bu VPN'ler genellikle internet bağlantınızın gizliliğini korumaktan ziyade uzak ağlara güvenli bir şekilde erişmek için tasarlanmıştır.
 
 </div>
 
-## How does a VPN work?
+## VPN nasıl çalışır?
 
-VPNs encrypt your traffic between your device and a server owned by your VPN provider. From the perspective of anyone between you and the VPN server, it looks like you're connecting to the VPN server. From the perspective of anyone between the VPN server and your destination site, all they can see is the VPN server connecting to the website.
+VPN'ler, cihazınız ile VPN sağlayıcınızın sahip olduğu bir sunucu arasındaki trafiğinizi şifreler. Sizinle VPN sunucusu arasındaki herhangi birinin bakış açısından, VPN sunucusuna bağlanıyormuşsunuz gibi görünür. VPN sunucusu ile hedef siteniz arasındaki herhangi birinin bakış açısından, görebilecekleri tek şey web sitesine bağlanan VPN sunucusudur.
 
 ``` mermaid
-flowchart LR
- 763931["Your Device<div>(with VPN Client)</div>"] ===|"VPN Encryption"| 404512{"VPN Server"}
- 404512 -.-|"No VPN Encryption"| 593753(("The Internet<div>(Your Destination)</div>"))
- subgraph 763931["Your Device<div>(with VPN Client)</div>"]
+akış şeması LR
+ 763931["Cihazınız<div>(VPN İstemcisi ile)</div>"] ===|"VPN Şifreleme"| 404512{"VPN Sunucusu"}
+ 404512 -.-|"VPN Şifrelemesi Yok"| 593753(("İnternet<div>(Hedefiniz)</div>"))
+ subgraph 763931["Cihazınız<div>(VPN İstemcisi ile)</div>"]
  end
 ```
 
-Note that a VPN does not add any security or encryption to your traffic between the VPN server and your destination on the internet. To access a website securely you **must** still ensure HTTPS is in use regardless of whether you use a VPN.
+VPN'in, VPN sunucusu ile internetteki hedefiniz arasındaki trafiğinize herhangi bir güvenlik veya şifreleme eklemediğini unutmayın. Bir web sitesine güvenli bir şekilde erişmek için VPN kullanıp kullanmadığınızdan bağımsız olarak HTTPS'nin kullanımda olduğundan emin **olmalısınız**.
 
-## Should I use a VPN?
+## VPN kullanmalı mıyım?
 
-**Yes**, almost certainly. A VPN has many advantages, including:
+**Evet**, neredeyse kesinlikle. VPN'in aşağıdakiler de dahil olmak üzere birçok avantajı vardır:
 
-1. Hiding your traffic from **only** your Internet Service Provider.
-1. Hiding your downloads (such as torrents) from your ISP and anti-piracy organizations.
-1. Hiding your IP from third-party websites and services, helping you blend in and preventing IP based tracking.
-1. Allowing you to bypass geo-restrictions on certain content.
+1. Trafiğinizi **yalnızca** İnternet Servis Sağlayıcınızdan gizlemek.
+1. İndirmelerinizi (torrentler gibi) İSS'nizden ve korsanla mücadele kuruluşlarından gizlemek.
+1. IP'nizi üçüncü taraf web sitelerinden ve hizmetlerinden gizleyerek uyum sağlamanıza yardımcı olur ve IP tabanlı izlemeyi önler.
+1. Belirli içerikler üzerindeki coğrafi kısıtlamaları aşmanıza olanak tanır.
 
-VPNs can provide *some* of the same benefits Tor provides, such as hiding your IP from the websites you visit and geographically shifting your network traffic, and good VPN providers will not cooperate with e.g. legal authorities from oppressive regimes, especially if you choose a VPN provider outside your own jurisdiction.
+VPN'ler, ziyaret ettiğiniz web sitelerinden IP'nizi gizlemek ve ağ trafiğinizi coğrafi olarak kaydırmak gibi Tor'un sağladığı faydaların *bazılarını* sağlayabilir ve iyi VPN sağlayıcıları, özellikle kendi yargı alanınızın dışında bir VPN sağlayıcısı seçerseniz, örneğin baskıcı rejimlerden yasal yetkililerle işbirliği yapmayacaktır.
 
-VPNs cannot encrypt data outside the connection between your device and the VPN server. VPN providers can also see and modify your traffic the same way your ISP could, so there is still a level of trust you are placing in them. And there is no way to verify a VPN provider's "no logging" policies in any way.
+VPN'ler, cihazınız ile VPN sunucusu arasındaki bağlantı dışındaki verileri şifreleyemez. VPN sağlayıcıları da trafiğinizi İSS'nizin görebildiği gibi görebilir ve değiştirebilir, bu nedenle onlara hala bir güven düzeyi vardır. Ve bir VPN sağlayıcısının "kayıt tutmama" politikalarını hiçbir şekilde doğrulamanın bir yolu yoktur.
 
-## When isn't a VPN suitable?
+## VPN ne zaman uygun değildir?
 
-Using a VPN in cases where you're using your [real-life or well-known identity](common-misconceptions.md#complicated-is-better) online is unlikely to be useful. Doing so may trigger spam and fraud detection systems, such as if you were to log into your bank's website.
+[Gerçek hayattaki veya tanınmış kimliğinizi](common-misconceptions.md#complicated-is-better) çevrimiçi olarak kullandığınız durumlarda VPN kullanmanın yararlı olması pek olası değildir. Bunu yapmak, bankanızın web sitesine giriş yapmanız gibi spam ve dolandırıcılık tespit sistemlerini tetikleyebilir.
 
-It's important to remember that a VPN will not provide you with absolute anonymity, because the VPN provider itself will still see your real IP address, destination website information, and often has a money trail that can be linked directly back to you. You can't rely on "no logging" policies to protect your data from anyone who is able to protect. If you need complete safety from the network itself, consider using [Tor](../advanced/tor-overview.md) in addition to or instead of a VPN.
+Bir VPN'in size mutlak anonimlik sağlamayacağını unutmamak önemlidir, çünkü VPN sağlayıcısının kendisi gerçek IP adresinizi, hedef web sitesi bilgilerinizi görmeye devam edecektir ve genellikle doğrudan size geri bağlanabilecek bir para izine sahiptir. Verilerinizi koruyabilecek kişilerden korumak için "kayıt tutmama" politikalarına güvenemezsiniz. Ağın kendisinden tam bir güvenliğe ihtiyacınız varsa, VPN'e ek olarak veya VPN yerine [Tor](../advanced/tor-overview.md) kullanmayı düşünün.
 
-You also should not trust a VPN to secure your connection to an unencrypted, HTTP destination. In order to keep what you actually do on the websites you visit private and secure, you must use HTTPS. This will keep your passwords, session tokens, and queries safe from the VPN provider and other potential adversaries in between the VPN server and your destination. You should enable HTTPS-only mode in your browser (if it's supported) to mitigate attacks which try to downgrade your connection from HTTPS to HTTP.
+Ayrıca, şifrelenmemiş bir HTTP hedefine olan bağlantınızı güvence altına almak için bir VPN'e güvenmemelisiniz. Ziyaret ettiğiniz web sitelerinde gerçekte yaptıklarınızı gizli ve güvenli tutmak için HTTPS kullanmanız gerekir. Bu, şifrelerinizi, oturum belirteçlerinizi ve sorgularınızı VPN sağlayıcısından ve VPN sunucusu ile hedefiniz arasındaki diğer potansiyel düşmanlardan koruyacaktır. Bağlantınızı HTTPS'den HTTP'ye düşürmeye çalışan saldırıları azaltmak için tarayıcınızda yalnızca HTTPS modunu etkinleştirmelisiniz (destekleniyorsa).
 
-## Should I use encrypted DNS with a VPN?
+## VPN ile şifrelenmiş DNS kullanmalı mıyım?
 
-Unless your VPN provider hosts the encrypted DNS servers themselves, **probably not**. Using DOH/DOT (or any other form of encrypted DNS) with third-party servers will simply add more entities to trust. Your VPN provider can still see which websites you visit based on the IP addresses and other methods. All this being said, there may be some advantages to enabling encrypted DNS in order to enable other security features in your browser, such as ECH. Browser technologies which are reliant on in-browser encrypted DNS are relatively new and not yet widespread, so whether they are relevant to you in particular is an exercise we will leave to you to research independently.
+VPN sağlayıcınız şifrelenmiş DNS sunucularını kendisi barındırmıyorsa, **muhtemelen hayır**. Üçüncü taraf sunucularla DOH/DOT (veya başka bir şifreli DNS biçimi) kullanmak, güvenilecek daha fazla varlık ekleyecektir. VPN sağlayıcınız, IP adreslerine ve diğer yöntemlere dayanarak hangi web sitelerini ziyaret ettiğinizi yine de görebilir. Tüm bunlarla birlikte, tarayıcınızda ECH gibi diğer güvenlik özelliklerini etkinleştirmek için şifrelenmiş DNS'yi etkinleştirmenin bazı avantajları olabilir. Tarayıcı içi şifrelenmiş DNS'e dayanan tarayıcı teknolojileri nispeten yenidir ve henüz yaygın değildir, bu nedenle özellikle sizinle ilgili olup olmadıkları, bağımsız olarak araştırmanız için size bırakacağımız bir egzersizdir.
 
-Another common reason encrypted DNS is recommended is that it prevents DNS spoofing. However, your browser should already be checking for [TLS certificates](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) with **HTTPS** and warn you about it. If you are not using **HTTPS**, then an adversary can still just modify anything other than your DNS queries and the end result will be little different.
+Şifrelenmiş DNS'in önerilmesinin bir diğer yaygın nedeni de DNS sahtekarlığını önlemesidir. Ancak, tarayıcınızın **HTTPS** ile [TLS sertifikalarını](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) zaten kontrol ediyor olması ve sizi bu konuda uyarması gerekir. **HTTPS** kullanmıyorsanız, bir saldırgan DNS sorgularınız dışında herhangi bir şeyi değiştirebilir ve sonuç çok az farklı olacaktır.
 
-## Should I use Tor *and* a VPN?
+## Tor *ve* VPN kullanmalı mıyım?
 
-Maybe, Tor is not necessarily suitable for everybody in the first place. Consider your [threat model](threat-modeling.md), because if your adversary is not capable of extracting information from your VPN provider, using a VPN alone may provide enough protection.
+Belki de Tor ilk etapta herkes için uygun olmayabilir. [Tehdit modelinizi](threat-modeling.md) göz önünde bulundurun, çünkü düşmanınız VPN sağlayıcınızdan bilgi alma yeteneğine sahip değilse, VPN kullanmak tek başına yeterli koruma sağlayabilir.
 
-If you do use Tor then you are *probably* best off connecting to the Tor network via a commercial VPN provider. However, this is a complex subject which we've written more about on our [Tor overview](../advanced/tor-overview.md) page.
+Tor kullanıyorsanız, Tor ağına ticari bir VPN sağlayıcısı aracılığıyla bağlanmanız *muhtemelen* en iyisidir. Ancak bu, [Tor'a genel bakış](../advanced/tor-overview.md) sayfamızda daha fazla yazdığımız karmaşık bir konudur.
 
-## Should I access Tor through VPN providers that provide "Tor nodes"?
+## Tor'a "Tor düğümleri" sağlayan VPN sağlayıcıları üzerinden mi erişmeliyim?
 
-You should not use that feature: The primary advantage of using Tor is that you do not trust your VPN provider, which is negated when you use Tor nodes hosted by your VPN instead of connecting directly to Tor from your computer.
+Bu özelliği kullanmamalısınız: Tor kullanmanın birincil avantajı, VPN sağlayıcınıza güvenmemenizdir; bilgisayarınızdan doğrudan Tor'a bağlanmak yerine VPN'iniz tarafından barındırılan Tor düğümlerini kullandığınızda bu avantaj ortadan kalkar.
 
-Currently, Tor only supports the TCP protocol. UDP (used by [WebRTC](https://en.wikipedia.org/wiki/WebRTC), [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3), and other protocols), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol), and other packets will be dropped. To compensate for this, VPN providers typically will route all non-TCP packets through their VPN server (your first hop). This is the case with [ProtonVPN](https://protonvpn.com/support/tor-vpn). Additionally, when using this Tor over VPN setup, you do not have control over other important Tor features such as [Isolated Destination Address](https://whonix.org/wiki/Stream_Isolation) (using a different Tor circuit for every domain you visit).
+Şu anda Tor yalnızca TCP protokolünü desteklemektedir. UDP ( [WebRTC](https://en.wikipedia.org/wiki/WebRTC), [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) ve diğer protokoller tarafından kullanılır), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) ve diğer paketler düşürülecektir. Bunu telafi etmek için VPN sağlayıcıları genellikle TCP olmayan tüm paketleri VPN sunucuları (ilk atlama noktanız) üzerinden yönlendirir. [ProtonVPN](https://protonvpn.com/support/tor-vpn)'de durum budur. Ayrıca, bu Tor over VPN kurulumunu kullanırken, [İzole Hedef Adresi](https://whonix.org/wiki/Stream_Isolation) (ziyaret ettiğiniz her alan için farklı bir Tor devresi kullanma) gibi diğer önemli Tor özellikleri üzerinde kontrol sahibi olmazsınız.
 
-The feature should be viewed as a *convenient* way to access hidden services on Tor, not to stay anonymous. For proper anonymity, use the actual [Tor Browser](../tor.md).
+Bu özellik, anonim kalmak için değil, Tor'daki gizli hizmetlere erişmek için *uygun* bir yol olarak görülmelidir. Uygun anonimlik için gerçek [Tor Tarayıcısını](../tor.md) kullanın.
 
-## Commercial VPN Ownership
+## Ticari VPN Sahipliği
 
-Most VPN services are owned by the same [few companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies). These shady companies run lots of smaller VPN services to create the illusion that you have more choice than you actually do and to maximize profit. Typically, these providers that feed into their shell company have terrible privacy policies and shouldn't be trusted with your internet traffic. You should be very strict about which provider you decide to use.
+Çoğu VPN hizmeti aynı [birkaç şirkete](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies) aittir. Bu karanlık şirketler, gerçekte sahip olduğunuzdan daha fazla seçeneğiniz olduğu yanılsamasını yaratmak ve kârı en üst düzeye çıkarmak için çok sayıda küçük VPN hizmeti işletmektedir. Genellikle, paravan şirketlerini besleyen bu sağlayıcılar korkunç gizlilik politikalarına sahiptir ve internet trafiğiniz konusunda güvenilmemelidir. Hangi sağlayıcıyı kullanmaya karar verdiğiniz konusunda çok katı olmalısınız.
 
-You should also be wary that many VPN review sites are merely advertising vehicles open to the highest bidder. ==Privacy Guides does not make money from recommending external products, and never uses affiliate programs.==
+Ayrıca, birçok VPN inceleme sitesinin yalnızca en yüksek teklifi verene açık reklam araçları olduğu konusunda dikkatli olmalısınız. ==Gizlilik Kılavuzları harici ürünleri tavsiye ederek para kazanmaz ve asla satış ortaklığı programları kullanmaz.==
 
-[Our VPN Recommendations](../vpn.md ""){.md-button}
+[VPN Önerilerimiz](../vpn.md ""){.md-button}
 
-## Modern VPN Alternatives
+## Modern VPN Alternatifleri
 
-Recently, some attempts have been made by various organizations to address some issues which centralized VPNs have. These technologies are relatively new, but worth keeping an eye on as the field develops.
+Son zamanlarda, merkezi VPN'lerin sahip olduğu bazı sorunları ele almak için çeşitli kuruluşlar tarafından bazı girişimlerde bulunulmuştur. Bu teknolojiler nispeten yenidir, ancak alan geliştikçe göz önünde bulundurulmaya değerdir.
 
-### Multi-Party Relays
+### Çok Taraflı Röleler
 
-Multi-Party Relays (MPRs) use multiple nodes owned by different parties, such that no individual party knows both who you are and what you're connecting to. This is the basic idea behind Tor, but now there are some paid services that try to emulate this model.
+Çok Taraflı Aktarıcılar (MPR'ler) farklı taraflara ait birden fazla düğüm kullanır, böylece hiçbir taraf hem kim olduğunuzu hem de neye bağlandığınızı bilmez. Tor'un arkasındaki temel fikir budur, ancak şimdi bu modeli taklit etmeye çalışan bazı ücretli hizmetler var.
 
-MPRs seek to solve a problem inherent to VPNs: the fact that you must trust them completely. They accomplish this goal by segmenting the responsibilities between two or more different companies. For example, Apple's iCloud+ Private Relay routes your traffic through two servers:
+MPR'ler VPN'lerin doğasında olan bir sorunu çözmeye çalışır: onlara tamamen güvenmeniz gerektiği gerçeği. Bu hedefe, sorumlulukları iki veya daha fazla farklı şirket arasında bölümlere ayırarak ulaşırlar. Örneğin, Apple'ın iCloud+ Özel Aktarımı trafiğinizi iki sunucu üzerinden yönlendirir:
 
-1. Firstly, a server operated by Apple.
+1. İlk olarak, Apple tarafından işletilen bir sunucu.
 
-    This server is able to see your device's IP when you connect to it, and has knowledge of your payment information and Apple ID tied to your iCloud subscription. However, it is unable to see what website you are connecting to.
+    Bu sunucu, bağlandığınızda aygıtınızın IP'sini görebilir ve iCloud aboneliğinize bağlı ödeme bilgileriniz ve Apple Kimliğiniz hakkında bilgi sahibidir. Ancak, hangi web sitesine bağlandığınızı göremez.
 
-2. Secondly, a server operated by a partner CDN, such as Cloudflare or Fastly.
+2. İkinci olarak, Cloudflare veya Fastly gibi ortak bir CDN tarafından işletilen bir sunucu.
 
-    This server actually makes the connection to your destination website, but has no knowledge of your device. The only IP address it knows about is Apple's server's.
+    Bu sunucu aslında hedef web sitenize bağlantıyı yapar, ancak cihazınız hakkında hiçbir bilgisi yoktur. Bildiği tek IP adresi Apple'ın sunucusudur.
 
-Other MPRs run by different companies like Google or INVISV operate in a very similar manner. This protection by segmentation only exists if you trust the two companies to not collude with each other to deanonymize you.
+Google veya INVISV gibi farklı şirketler tarafından işletilen diğer MPR'ler de benzer şekilde çalışmaktadır. Segmentasyon yoluyla sağlanan bu koruma, yalnızca iki şirketin sizi anonimleştirmek için birbirleriyle işbirliği yapmayacaklarına güveniyorsanız mevcuttur.
 
-### Decentralized VPNs
+### Merkezi Olmayan VPN'ler
 
-Another attempt at solving the issues with centralized VPN services are dVPNs. These are based on blockchain technology and claim to eliminate trust in a single party by distributing the nodes across lots of different people. However, many times a dVPN will default to a single node, meaning you need to trust that node completely, just like a traditional VPN. Unlike a traditional VPN, this one node that can see all your traffic is a random person instead of your VPN provider that can be audited and has legal responsibilities to uphold their privacy policy. Multi-hop is needed to solve this, but that comes with a stability and performance cost.
+Merkezi VPN hizmetleriyle ilgili sorunları çözmeye yönelik bir başka girişim de dVPN'lerdir. Bunlar blok zinciri teknolojisine dayanır ve düğümleri birçok farklı kişiye dağıtarak tek bir tarafa olan güveni ortadan kaldırdığını iddia eder. Ancak, çoğu zaman bir dVPN varsayılan olarak tek bir düğüm kullanır, bu da tıpkı geleneksel VPN'lerde olduğu gibi bu düğüme tamamen güvenmeniz gerektiği anlamına gelir. Geleneksel bir VPN'den farklı olarak, tüm trafiğinizi görebilen bu tek düğüm, denetlenebilen ve gizlilik politikalarını sürdürmek için yasal sorumlulukları olan VPN sağlayıcınız yerine rastgele bir kişidir. Bunu çözmek için çoklu atlama gereklidir, ancak bu bir kararlılık ve performans maliyeti ile birlikte gelir.
 
-Another consideration is legal liability. The exit node will need to deal with legal problems from misuse of the network, an issue that the Tor network has contended with for its entire existence. This discourages regular people from running nodes and makes it more attractive for a malicious actor with lots of resources to host one. This is a big problem if the service is single-node, as the potentially malicious exit node can see who you are and what you're connecting to.
+Bir diğer husus ise yasal sorumluluktur. Çıkış düğümünün, Tor ağının tüm varlığı boyunca mücadele ettiği bir konu olan, ağın kötüye kullanımından kaynaklanan yasal sorunlarla başa çıkması gerekecektir. Bu, sıradan insanları düğüm çalıştırmaktan caydırır ve çok fazla kaynağa sahip kötü niyetli bir aktör için düğüm barındırmayı daha cazip hale getirir. Hizmet tek düğümlü ise bu büyük bir sorundur, çünkü potansiyel olarak kötü niyetli çıkış düğümü kim olduğunuzu ve neye bağlandığınızı görebilir.
 
-Many dVPNs are used to push a cryptocurrency rather than to make the best service. They also tend to be smaller networks with fewer nodes, making them more vulnerable to [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack).
+Birçok dVPN, en iyi hizmeti vermekten ziyade bir kripto para birimini zorlamak için kullanılır. Ayrıca daha az düğüme sahip daha küçük ağlar olma eğilimindedirler, bu da onları [Sybil saldırılarına](https://en.wikipedia.org/wiki/Sybil_attack) karşı daha savunmasız hale getirir.
 
-## Related VPN Information
+## İlgili VPN Bilgileri
 
-- [The Trouble with VPN and Privacy Review Sites](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites)
-- [Free VPN App Investigation](https://top10vpn.com/research/free-vpn-investigations/ownership)
-- [Hidden VPN owners unveiled: 101 VPN products run by just 23 companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies)
-- [This Chinese company is secretly behind 24 popular apps seeking dangerous permissions](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions)
-- [VPN - a Very Precarious Narrative](https://overengineer.dev/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert
+- [VPN ve Gizlilik İnceleme Siteleriyle İlgili Sorun](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites)
+- [Ücretsiz VPN Uygulaması Araştırması](https://top10vpn.com/research/free-vpn-investigations/ownership)
+- [Gizli VPN sahipleri ortaya çıktı: Sadece 23 şirket tarafından işletilen 101 VPN ürünü](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies)
+- [Tehlikeli izinler isteyen 24 popüler uygulamanın arkasında gizlice bu Çinli şirket var](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions)
+- [VPN -](https://overengineer.dev/blog/2019/04/08/very-precarious-narrative.html) Dennis Schubert tarafından yazılan [Çok Tehlikeli Bir Anlatı](https://overengineer.dev/blog/2019/04/08/very-precarious-narrative.html)

@@ -199,7 +199,7 @@ If you think that a bridge can aid in defending against fingerprinting or other 
 
 It is [possible](https://discuss.privacyguides.net/t/clarify-tors-weaknesses-with-respect-to-observability/3676/16) that the [WebTunnel](https://forum.torproject.org/t/tor-relays-announcement-webtunnel-a-new-pluggable-transport-for-bridges-now-available-for-deployment/8180) pluggable transport currently being trialed may mitigate some of these concerns. We will continue to keep an eye on that technology as it develops.
 
-## Additional Resources
+## Ek Kaynaklar
 
 - [Tor Browser User Manual](https://tb-manual.torproject.org)
 - [How Tor Works - Computerphile](https://youtube.com/watch?v=QRYzre4bf7I) <small>(YouTube)</small>

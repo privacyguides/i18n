@@ -1,14 +1,14 @@
 ---
-title: "Qubes Overview"
+title: "Qubes Genel Bakış"
 icon: simple/qubesos
-description: Qubes is an operating system built around isolating apps within *qubes* (formerly "VMs") for heightened security.
+description: Qubes, yüksek güvenlik için uygulamaları *qubes* (eski adıyla "VM'ler") içinde izole etmek üzerine kurulu bir işletim sistemidir.
 ---
 
-[**Qubes OS**](../desktop.md#qubes-os) is an open-source operating system which uses the [Xen](https://en.wikipedia.org/wiki/Xen) hypervisor to provide strong security for desktop computing through isolated *qubes*, (which are Virtual Machines). You can assign each *qube* a level of trust based on its purpose. Qubes OS provides security by using isolation. It only permits actions on a per-case basis and therefore is the opposite of [badness enumeration](https://ranum.com/security/computer_security/editorials/dumb).
+[**Qubes İşletim Sistemi**](../desktop.md#qubes-os) izole edilmiş *küpler*(Sanal Makineler) aracılığıyla masaüstü bilgisayarlar için güçlü güvenlik sağlamak üzere [Xen](https://en.wikipedia.org/wiki/Xen) hipervizörünü kullanan açık kaynaklı bir işletim sistemidir. Her bir *küpe* amacına göre bir güven düzeyi atayabilirsiniz. Qubes OS izolasyon kullanarak güvenlik sağlar. Yalnızca vaka bazında eylemlere izin verir ve bu nedenle [kötülük numar](https://ranum.com/security/computer_security/editorials/dumb)alandırmanın tam tersidir.
 
-## How does Qubes OS work?
+## Qubes OS nasıl çalışır?
 
-Qubes uses [compartmentalization](https://qubes-os.org/intro) to keep the system secure. Qubes are created from templates, the defaults being for Fedora, Debian and [Whonix](../desktop.md#whonix). Qubes OS also allows you to create once-use [disposable](https://qubes-os.org/doc/how-to-use-disposables) *qubes*.
+Qubes, sistemi güvende tutmak için [bölümlere ayırma](https://qubes-os.org/intro) özelliğini kullanır. Qubes şablonlardan oluşturulur, varsayılanlar Fedora, Debian ve [Whonix](../desktop.md#whonix) içindir. Qubes OS ayrıca bir kez kullanılabilen [tek](https://qubes-os.org/doc/how-to-use-disposables) kullanımlık *küpler* oluşturmanıza da olanak tanır.
 
 <details class="note" markdown>
 <summary>The term <em>qubes</em> is gradually being updated to avoid referring to them as "virtual machines".</summary>
@@ -63,19 +63,19 @@ After [creating a new ProxyVM](https://forum.qubes-os.org/t/configuring-a-proxyv
 
 Your qubes should be configured in a manner similar to this:
 
-| Qube name       | Qube description                                                                                    | NetVM           |
-| --------------- | --------------------------------------------------------------------------------------------------- | --------------- |
-| sys-net         | *Your default network qube (pre-installed)*                                                         | *n/a*           |
-| sys-firewall    | *Your default firewall qube (pre-installed)*                                                        | sys-net         |
-| ==sys-proxyvm== | The VPN ProxyVM you [created](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) | sys-firewall    |
-| sys-whonix      | Your Whonix Gateway VM                                                                              | ==sys-proxyvm== |
-| anon-whonix     | Your Whonix Workstation VM                                                                          | sys-whonix      |
+| Qube name       | Qube description                                                                                   | NetVM           |
+| --------------- | -------------------------------------------------------------------------------------------------- | --------------- |
+| sys-net         | *Your default network qube (pre-installed)*                                                        | *n/a*           |
+| sys-firewall    | *Your default firewall qube (pre-installed)*                                                       | sys-net         |
+| ==sys-proxyvm== | [Oluşturduğunuz](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) VPN ProxyVM | sys-firewall    |
+| sys-whonix      | Whonix Gateway VM'niz                                                                              | ==sys-proxyvm== |
+| anon-whonix     | Whonix Workstation VM'niz                                                                          | sys-whonix      |
 
-## Additional Resources
+## Ek Kaynaklar
 
-For additional information we encourage you to consult the extensive Qubes OS documentation pages located on the [Qubes OS Website](https://qubes-os.org/doc). Offline copies can be downloaded from the Qubes OS [documentation repository](https://github.com/QubesOS/qubes-doc).
+Daha fazla bilgi için Qubes OS [Web Sitesinde](https://qubes-os.org/doc) bulunan kapsamlı Qubes OS dokümantasyon sayfalarına başvurmanızı öneririz. Çevrimdışı kopyalar Qubes OS [dokümantasyon deposundan](https://github.com/QubesOS/qubes-doc) indirilebilir.
 
-- [Arguably the world's most secure operating system](https://opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard) (Open Technology Fund)
-- [Software compartmentalization vs. physical separation](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf) (J. Rutkowska)
-- [Partitioning my digital life into security domains](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html) (J. Rutkowska)
-- [Related Articles](https://qubes-os.org/news/categories/#articles) (Qubes OS)
+- [Tartışmasız dünyanın en güvenli işletim sistemi](https://opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard) (Open Technology Fund)
+- [Yazılım bölümlendirmesi ve fiziksel ayırma](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf) (J. Rutkowska)
+- [Dijital hayatımı güvenlik alanlarına bölmek](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html) (J. Rutkowska)
+- [İlgili Makaleler](https://qubes-os.org/news/categories/#articles) (Qubes OS)

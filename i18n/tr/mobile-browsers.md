@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Respecting Web Browsers for Android and iOS - Privacy Guides"
+meta_title: "PC ve Mac için Mahremiyete Saygı Gösteren Web Tarayıcıları - Privacy Guides"
 title: "Mobil Tarayıcılar"
 icon: material/cellphone-information
 description: Bu tarayıcılar telefonunuzda yaptığınız standart internet taraması için önerdiğimiz tarayıcılardır.
@@ -38,23 +38,23 @@ schema:
       url: "./"
   - 
     "@context": http://schema.org
-    "@type": MobileApplication
+    "@type": MobilUygulama
     name: Safari
     image: /assets/img/browsers/safari.svg
     url: https://apple.com/safari
-    applicationCategory: Web Browser
+    applicationCategory: Web Tarayıcısı
     operatingSystem:
       - iOS
     subjectOf:
-      "@type": WebPage
+      "@type": Web Sayfası
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Aşağıdaki tehdit(ler)e karşı koruma sağlar:</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: Gözetim Kapitalizmi](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. İnternette anonim olarak gezinmeniz gerekiyorsa, bunun yerine [Tor](tor.md) kullanmalısınız.
+Bunlar, standart/anonim olmayan internet taraması için şu anda önerilen mobil internet tarayıcıları ve yapılandırmalarıdır. İnternette anonim olarak gezinmeniz gerekiyorsa, bunun yerine [Tor](tor.md) kullanmalısınız.
 
 ## Brave
 
@@ -62,70 +62,70 @@ These are our currently recommended **mobile web browsers** and configurations f
 
 ![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
-**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
+**Brave Browser** yerleşik bir içerik engelleyici ve [gizlilik özellikleri] (https://brave.com/privacy-features) içerir ve bunların çoğu varsayılan olarak etkindir.
 
 Brave, Chromium web tarayıcısı projesi üzerine inşa edilmiştir, bu nedenle kullanımı daha tanıdıktır ve olabildiğince az web sitesi uyumluluğu yaşarsınız.
 
-[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
+[:octicons-home-16: Ana Sayfa](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }???
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>İndirmeler</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1052879175)
+- [:simple-appstore: Accrescent](https://apps.apple.com/app/id1052879175)
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 
 </details>
 
 </div>
 
-### Recommended Brave Configuration
+### Önerilen Yapılandırma
 
-Tor Browser, internette gerçekten anonim olarak gezinmenin tek yoludur. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
+Tor Browser, internette gerçekten anonim olarak gezinmenin tek yoludur. Brave kullandığınızda, gizliliğinizi belirli taraflardan korumak için aşağıdaki ayarları değiştirmenizi öneririz, ancak [Tor Browser](tor.md#tor-browser) dışındaki tüm tarayıcılar bir şekilde *birileri* tarafından izlenebilir olacaktır.
 
 === "Android"
 
-    These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**.
+    Bu seçenekler :material-menu: → **Ayarlar** → **Brave Shields & gizlilik** bölümünde bulunabilir.
 
 === "iOS"
 
-    These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy**.
+    Bu seçenekler :fontawesome-solid-ellipsis: → **Ayarlar** → **Brave Shields & gizlilik** bölümünde bulunabilir.
 
-#### Brave shields global defaults
+#### Brave küresel varsayılanları korur
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+Brave, [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) özelliğinde bazı parmak izi önleme tedbirleri içeriyor. Bu seçenekleri ziyaret ettiğiniz tüm sayfalarda [global olarak](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) yapılandırmanızı öneririz.
 
-Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
+Shields'in seçenekleri gerektiğinde site bazında düşürülebilir, ancak varsayılan olarak aşağıdakileri ayarlamanızı öneririz:
 
 === "Android"
 
     <div class="annotate" markdown>
 
-    - [x] Select **Aggressive** under *Block trackers & ads*
-    - [x] Select **Auto-redirect AMP pages**
-    - [x] Select **Auto-redirect tracking URLs**
-    - [x] Select **Require all connections to use HTTPS (strict)** under *Upgrade connections to HTTPS*
-    - \[x\] (Optional) Select **Block Scripts** (1)
-    - [x] Select **Block third-party cookies** under *Block Cookies*
-    - [x] Select **Block Fingerprinting**
-    - [x] Select **Prevent fingerprinting via language settings**
+    - [x] *İzleyicileri engelle & reklamlar* altında **Agresif** 'i seçin
+    - [x] **AMP sayfalarını otomatik yönlendir'**i seçin
+    - [x] **AMP sayfalarını otomatik yönlendir'**i seçin
+    - [x] *Bağlantıları HTTPS'ye yükselt* altında **Tüm** *bağlantıların HTTPS* **kullanmasını iste (katı)** seçeneğini belirleyin
+    - \[x\] (İsteğe Bağlı) **Blok Komut Dosyalarını** Seçin (1)
+    - [x] *Çerezleri* **Engelle** altında **Üçüncü taraf çerezlerini engelle** 'yi seçin
+    - [x] **Blok Parmak İzini Seçi**n
+    - [x] **Dil ayarları aracılığıyla parmak izini engelle** öğesini seçin
 
     <details class="warning" markdown>
-    <summary>Use default filter lists</summary>
+    <summary>Varsayılan filtre listelerini kullanma</summary>
 
-    Brave allows you to select additional content filters within the **Content Filtering** menu or the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+    Brave, **İçerik Filtreleme** menüsünden veya dahili `brave://adblock` sayfasından ek içerik filtreleri seçmenize olanak tanır. Bu özelliği kullanmamanızı tavsiye ederiz; bunun yerine varsayılan filtre listelerini saklayın. Ekstra listeler kullanmak sizi diğer Brave kullanıcılarından farklı kılar ve ayrıca Brave'de bir açık varsa ve kullandığınız listelerden birine kötü amaçlı bir kural eklenirse saldırı yüzeyini artırabilir.
 
     </details>
 
-    - [x] Select **Forget me when I close this site**
+    - [x] **Bu siteyi kapattığımda beni unut'u** seçin
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Bu seçenek, birçok siteyi bozacak olan JavaScript'i devre dışı bırakır. Bunları kırmak için, adres çubuğundaki Kalkan simgesine dokunarak ve *Gelişmiş kontroller* altında bu ayarın işaretini kaldırarak site bazında istisnalar ayarlayabilirsiniz.
 
 === "iOS"
 
@@ -135,20 +135,20 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     - [x] Select **Strict** under *Upgrade Connections to HTTPS*
     - [x] Select **Auto-Redirect AMP pages**
     - [x] Select **Auto-Redirect Tracking URLs**
-    - \[x\] (Optional) Select **Block Scripts** (1)
-    - [x] Select **Block Fingerprinting**
+    - \[x\] (İsteğe Bağlı) **Blok Komut Dosyalarını** Seçin (1)
+    - [x] **Blok Parmak İzini Seçi**n
     - [x] Select **Site Tabs Closed** under *Auto Shred*
 
     <details class="warning" markdown>
-    <summary>Use default filter lists</summary>
+    <summary>Varsayılan filtre listelerini kullanma</summary>
 
-    Brave allows you to select additional content filters within the **Content Filtering** menu. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+    Brave allows you to select additional content filters within the **Content Filtering** menu. Bu özelliği kullanmamanızı tavsiye ederiz; bunun yerine varsayılan filtre listelerini saklayın. Ekstra listeler kullanmak sizi diğer Brave kullanıcılarından farklı kılar ve ayrıca Brave'de bir açık varsa ve kullandığınız listelerden birine kötü amaçlı bir kural eklenirse saldırı yüzeyini artırabilir.
 
     </details>
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. This option disables JavaScript, which will break a lot of sites. Bunları kırmak için, adres çubuğundaki Kalkan simgesine dokunarak ve *Gelişmiş kontroller* altında bu ayarın işaretini kaldırarak site bazında istisnalar ayarlayabilirsiniz.
 
 ##### Clear browsing data (Android only)
 
@@ -156,7 +156,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 ##### Social Media Blocking (Android only)
 
-- [ ] Uncheck all social media components
+- [ ] Tüm sosyal medya bileşenlerinin işaretini kaldırın
 
 #### Other privacy settings
 
@@ -202,7 +202,7 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync), tarama verilerinizin (geçmiş, yer imleri vb.) bir hesap gerektirmeden tüm cihazlarınızda erişilebilir olmasını sağlar ve E2EE ile korur.
 
 ## Cromite (Android)
 
@@ -253,100 +253,100 @@ Cromite contains a customized version of Adblock Plus with EasyList enabled by d
 
 Using extra lists will make you stand out from other Cromite users and may also increase attack surface if a malicious rule is added to one of the lists you use.
 
-- \[x\] (Optional) Select **Enable anti-circumvention and snippets**
+- \[x\] (İsteğe bağlı) **Çevreleme önleme ve snippet'leri etkinleştir'i** seçin
 
-This setting adds an additional Adblock Plus list that may increase the effectiveness of Cromite's content blocking. The warnings about standing out and potentially increasing attack surface apply.
+Bu ayar, Cromite'ın içerik engellemesinin etkinliğini artırabilecek ek bir Adblock Plus listesi ekler. Öne çıkma ve potansiyel olarak saldırı yüzeyini artırma konusundaki uyarılar geçerlidir.
 
-#### Legacy Adblock settings
+#### Eski Adblock ayarları
 
-These options can be found in :material-menu: → :gear: **Settings** → **Legacy Adblock settings**.
+Bu seçenekler :material-menu: → :gear: **Ayarlar** → **Eski Adblock ayarları** bölümünde bulunabilir.
 
-- [ ] Uncheck the autoupdate setting
+- [ ] Otomatik güncelleme ayarının işaretini kaldırın
 
-This disables update checks for the unmaintained Bromite adblock filter.
+Bu, bakımı yapılmamış Bromite adblock filtresi için güncelleme denetimlerini devre dışı bırakır.
 
 ## Safari (iOS)
 
-On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Chromium engine like its counterparts on other operating systems.
+iOS'ta, web'de gezinebilen herhangi bir uygulama Apple tarafından sağlanan [WebKit çerçevesini](https://developer.apple.com/documentation/webkit) kullanmakla [sınırlıdır](https://developer.apple.com/app-store/review/guidelines), bu nedenle [Brave](#brave) gibi bir tarayıcı diğer işletim sistemlerindeki benzerleri gibi Chromium motorunu kullanmaz.
 
 <div class="admonition recommendation" markdown>
 
-![Safari logo](assets/img/browsers/safari.svg){ align=right }
+![Safari logosu](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites, so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
+iOS'ta varsayılan tarayıcı **Safari**'dir. Akıllı İzleme Önleme](https://webkit.org/blog/7675/intelligent-tracking-prevention), yalıtılmış ve geçici Özel Tarama sekmeleri, parmak izi koruması (web sitelerine sistem yapılandırmasının basitleştirilmiş bir sürümünü sunarak daha fazla cihazın aynı görünmesini sağlar) ve parmak izi randomizasyonu gibi [gizlilik özellikleri](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) ve ücretli iCloud+ aboneliği olanlar için Özel Aktarım içerir.
 
-[:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title="Documentation" }
+[:octicons-home-16: Ana Sayfa](https://apple.com/safari){ .md-button .md-button--primary }[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title=Documentation}
+[](){ .card-link title="Source Code" }
+[](){ .card-link title=Contribute" }
 
 </details>
 
 </div>
 
-### Recommended Safari Configuration
+### Önerilen Yapılandırma
 
-We would suggest installing [AdGuard](browser-extensions.md#adguard) if you want a content blocker in Safari.
+Safari'de bir içerik engelleyici istiyorsanız [AdGuard](browser-extensions.md#adguard) 'ı yüklemenizi öneririz.
 
-The following privacy/security-related options can be found in :gear: **Settings** → **Apps** → **Safari**.
+Gizlilik/güvenlikle ilgili aşağıdaki seçenekler :gear: **Ayarlar** → **Uygulamalar** → **Safari** bölümünde bulunabilir.
 
-#### Allow Safari to Access
+#### Safari'nin Erişimine İzin Ver
 
-Under **Siri**:
+**Siri**'nin altında:
 
-- [ ] Disable **Learn from this App**
-- [ ] Disable **Show in App**
-- [ ] Disable **Show on Home Screen**
-- [ ] Disable **Suggest App**
+- [ ] **Bu Uygulamadan Öğrenmeyi** Devre Dışı Bırak
+- [ ] **Uygulamada Göster'i** Devre Dışı Bırak
+- [ ] **Ana Ekranda Göster'i** Devre Dışı Bırak
+- [ ] **Uygulamada Göster'i** Devre Dışı Bırak
 
-This prevents Siri from using content from Safari for Siri suggestions.
+Bu, Siri'nin Siri önerileri için Safari'deki içeriği kullanmasını engeller.
 
-#### Search
+#### Ara
 
-- [ ] Disable **Search Engine Suggestions**
+- [ ] **Arama Motoru Önerilerini** Devre Dışı Bırak
 
-This setting sends whatever you type in the address bar to the search engine set in Safari. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+Bu ayar, adres çubuğuna yazdığınız her şeyi Safari'de ayarlanan arama motoruna gönderir. Arama önerilerini devre dışı bırakmak, arama motoru sağlayıcınıza hangi verileri gönderdiğinizi daha hassas bir şekilde kontrol etmenizi sağlar.
 
-#### Profiles
+#### Profiller
 
-Safari allows you to separate your browsing with different profiles. All of your cookies, history, and website data are separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
+Safari, gezintinizi farklı profillerle ayırmanıza olanak tanır. Tüm çerezleriniz, geçmişiniz ve web sitesi verileriniz her profil için ayrıdır. Alışveriş, İş veya Okul gibi farklı amaçlar için farklı profiller kullanmalısınız.
 
 #### Gizlilik & Güvenlik
 
-- [x] Enable **Prevent Cross-Site Tracking**
+- [x] **Siteler Arası İzlemeyi Eng**ellemeyi Etkinleştir
 
-This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but does not block all tracking avenues because it is designed to not interfere with website usability.
+Bu, WebKit'in [Akıllı İzleme Korumasını](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp) etkinleştirir. Bu özellik, izleyicileri durdurmak için cihaz üzerinde makine öğrenimini kullanarak istenmeyen izlemeye karşı korunmaya yardımcı olur. ITP birçok yaygın tehdide karşı koruma sağlar, ancak web sitesinin kullanılabilirliğine müdahale etmemek için tasarlandığından tüm izleme yollarını engellemez.
 
-- [x] Enable **Require Face ID/Touch ID to Unlock Private Browsing**
+- [x] **Özel Tarama Kilidini Açmak için Face ID/Touch ID Gerektir**' **i** Etkinleştir
 
-This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
+Bu ayar, kullanılmadığında özel sekmelerinizi biyometrik/PIN arkasında kilitlemenizi sağlar.
 
-- [ ] Disable **Fraudulent Website Warning**
+- [ ] **Sahte Web Sitesi Uyarısını** Devre Dışı Bırak
 
-This setting uses Google Safe Browsing (or Tencent Safe Browsing for users in mainland China or Hong Kong) to protect you while you browse. As such, your IP address may be logged by your Safe Browsing provider. Disabling this setting will disable this logging, but you might be more vulnerable to known phishing sites.
+Bu ayar, gezinirken sizi korumak için Google Safe Browsing (veya Çin anakarası veya Hong Kong'daki kullanıcılar için Tencent Safe Browsing) kullanır. Bu nedenle, IP adresiniz Güvenli Tarama sağlayıcınız tarafından kaydedilebilir. Bu ayarın devre dışı bırakılması bu günlüğü devre dışı bırakacaktır, ancak bilinen kimlik avı sitelerine karşı daha savunmasız olabilirsiniz.
 
-- [x] Enable **Not Secure Connection Warning**
+- [x] **Güvenli Değil Bağlantı Uyarısını** Etkinleştir
 
-This setting shows a warning screen if your connection to a website isn't using HTTPS. Safari will automatically try to upgrade the site to HTTPS, so you should only see this when there is no HTTPS connection available.
+Bu ayar, bir web sitesine bağlantınız HTTPS kullanmıyorsa bir uyarı ekranı gösterir. Safari siteyi otomatik olarak HTTPS'ye yükseltmeye çalışacağından, bunu yalnızca HTTPS bağlantısı olmadığında görmeniz gerekir.
 
-- [ ] Disable **Highlights**
+- [ ] **Önemli Noktaları** Devre Dışı Bırak
 
-Apple's privacy policy for Safari states:
+Apple'ın Safari için gizlilik politikası şu şekildedir:
 
-> When visiting a webpage, Safari may send information calculated from the webpage address to Apple over OHTTP to determine if relevant highlights are available.
+> Safari, bir web sayfasını ziyaret ederken ilgili önemli noktaların mevcut olup olmadığını belirlemek için web sayfası adresinden hesaplanan bilgileri OHTTP üzerinden Apple'a gönderebilir.
 
-#### Settings for Websites
+#### Web Siteleri için Ayarlar
 
-Under **Camera**
+**Kamera** Altında
 
-- [x] Select **Ask**
+- [x] **Sor'**u seçin
 
-Under **Microphone**
+**Mikrofon** Altında
 
-- [x] Select **Ask**
+- [x] **Sor'**u seçin
 
 Under **Location**
 
-- [x] Select **Ask**
+- [x] **Sor'**u seçin
 
 These settings ensure that websites can only access your camera, microphone, or location after you explicitly grant them access.
 
@@ -356,23 +356,23 @@ These options can be found in :gear: **Settings** → **Apps** → **Safari** �
 
 ##### Fingerprinting Mitigations
 
-The **Advanced Tracking and Fingerprinting Protection** setting will randomize certain values so that it's more difficult to fingerprint you:
+**Gelişmiş İzleme ve Parmak İzi Koruması** ayarı belirli değerleri rastgele hale getirerek parmak izinizi almanın daha zor olmasını sağlar:
 
-- [x] Select **All Browsing** or **Private Browsing**
+- [x] **Tüm Tarama**  veya **Özel Tarama**'yı seçin
 
 ##### Privacy Preserving Ad Measurement
 
-- [ ] Disable **Privacy Preserving Ad Measurement**
+- [ ] **Gizliliği Koruyan Reklam Ölçümünü** Devre Dışı Bırak
 
 Ad click measurement has traditionally used tracking technology that infringes on user privacy. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
 
-The feature has little privacy concerns on its own, so while you can choose to leave it on, we consider the fact that it's automatically disabled in Private Browsing to be an indicator for disabling the feature.
+Bu özelliğin kendi başına çok az gizlilik endişesi vardır, bu nedenle açık bırakmayı seçebilseniz de, Özel Tarama'da otomatik olarak devre dışı bırakılmasının özelliği devre dışı bırakmak için bir gösterge olduğunu düşünüyoruz.
 
 #### Always-on Private Browsing
 
 Open Safari and tap the Tabs button, located in the bottom right. Then, expand the :material-format-list-bulleted: Tab Groups list.
 
-- [x] Select **Private**
+- [x] **Özel**'i seçin
 
 Safari's Private Browsing mode offers additional privacy protections. Private Browsing uses a new [ephemeral](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) session for each tab, meaning tabs are isolated from one another. There are other smaller privacy benefits with Private Browsing too, such as not sending a webpage’s address to Apple when using Safari's translation feature.
 
@@ -380,21 +380,21 @@ Do note that Private Browsing does not save cookies and website data, so it won'
 
 #### iCloud Sync
 
-Synchronization of Safari History, Tab Groups, iCloud Tabs and saved passwords are E2EE. However, by default, bookmarks are [not](https://support.apple.com/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://apple.com/legal/privacy/en-ww).
+Safari Geçmişi, Sekme Grupları, iCloud Sekmeleri ve kayıtlı parolaların senkronizasyonu E2EE'dir. However, by default, bookmarks are [not](https://support.apple.com/HT202303). Apple, [gizlilik politikasına](https://support.apple.com/HT212520) uygun olarak bunların şifresini çözebilir ve bunlara erişebilir.
 
-You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/HT212520). Go to :gear: **Settings** → **iCloud** → **Advanced Data Protection**.
+**Gelişmiş Veri Koruması**'nı etkinleştirerek Safari yer işaretleriniz ve indirmeleriniz için E2EE'yi etkinleştirebilirsiniz. Go to :gear: **Settings** → **iCloud** → **Advanced Data Protection**.
 
 - [x] Turn on **Advanced Data Protection**
 
 If you use iCloud with Advanced Data Protection disabled, we also recommend setting Safari's default download location to a local folder on your device. This option can be found in :gear: **Settings** → **Apps** → **Safari** → **General** → **Downloads**.
 
-## Criteria
+## Kriter
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Lütfen önerdiğimiz projelerin hiçbirine bağlı olmadığımızı unutmayın.** [standart kriterlerimize](about/criteria.md) ek olarak, objektif tavsiyelerde bulunabilmemiz için bir takım gereklilikler geliştirdik. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
 
-### Minimum Requirements
+### Minimum Gereksinimler
 
 - Must support automatic updates.
 - Must receive engine updates from upstream releases quickly.
-- Must support content blocking.
-- Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
+- İçerik engellemeyi desteklemelidir.
+- Tarayıcıyı gizliliğe daha saygılı hale getirmek için gereken herhangi bir değişiklik kullanıcı deneyimini olumsuz etkilememelidir.

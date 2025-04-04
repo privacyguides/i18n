@@ -1,5 +1,5 @@
 ---
-title: "Multifactor Authentication"
+title: "Köp faktorly tanamak"
 icon: 'material/two-factor-authentication'
 description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
 ---

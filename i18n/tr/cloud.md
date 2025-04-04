@@ -6,9 +6,9 @@ description: Many cloud storage providers require your trust that they will not 
 cover: cloud.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Aşağıdaki tehdit(ler)e karşı koruma sağlar:</small>
 
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-bug-outline: Pasif Saldırılar](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 Many **cloud storage providers** require your full trust that they will not look at your files. Aşağıda listelenen alternatifler güvenli uçtan uca şifreleme uygulayarak güven ihtiyacını ortadan kaldırır.
@@ -121,11 +121,11 @@ Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November
 
 An Android app is not available, but it is [in the works](https://discuss.privacyguides.net/t/peergos-private-storage-sharing-social-media-and-application-platform/11825/25). The current workaround is to use the mobile [PWA](https://peergos.net) instead.
 
-## Criteria
+## Kriter
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Lütfen önerdiğimiz projelerin hiçbirine bağlı olmadığımızı unutmayın.** [standart kriterlerimize](about/criteria.md) ek olarak, objektif tavsiyelerde bulunabilmemiz için bir takım gereklilikler geliştirdik. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
 
-### Minimum Requirements
+### Minimum Gereksinimler
 
 - Must enforce end-to-end encryption.
 - Must offer a free plan or trial period for testing.
@@ -133,9 +133,9 @@ An Android app is not available, but it is [in the works](https://discuss.privac
 - Must offer a web interface which supports basic file management functionality.
 - Must allow for easy exports of all files/documents.
 
-### Best-Case
+### En İyi Durum
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+En iyi durum kriterlerimiz, bu kategorideki mükemmel bir projede görmek istediklerimizi temsil etmektedir. Önerilerimiz bu işlevlerden herhangi birini veya tamamını içermeyebilir, ancak içerenler bu sayfada diğerlerinden daha üst sıralarda yer alabilir.
 
 - Clients should be open source.
 - Clients should be audited in their entirety by an independent third-party.

@@ -57,7 +57,7 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Aşağıdaki tehdit(ler)e karşı koruma sağlar:</small>
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
@@ -202,7 +202,7 @@ Additionally, the Mozilla Accounts service collects [some technical data](https:
 
 With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
 
-##### HTTPS-Only Mode
+##### Yalnızca HTTPS Modu
 
 - [x] Select **Enable HTTPS-Only Mode in all windows**
 
@@ -277,7 +277,7 @@ These options can be found in :material-menu: → **Settings**.
 
 Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
-Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
+Shields'in seçenekleri gerektiğinde site bazında düşürülebilir, ancak varsayılan olarak aşağıdakileri ayarlamanızı öneririz:
 
 <div class="annotate" markdown>
 
@@ -286,7 +286,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 <details class="warning" markdown>
 <summary>Use default filter lists</summary>
 
-Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+Brave allows you to select additional content filters within the internal `brave://adblock` page. Bu özelliği kullanmamanızı tavsiye ederiz; bunun yerine varsayılan filtre listelerini saklayın. Ekstra listeler kullanmak sizi diğer Brave kullanıcılarından farklı kılar ve ayrıca Brave'de bir açık varsa ve kullandığınız listelerden birine kötü amaçlı bir kural eklenirse saldırı yüzeyini artırabilir.
 
 </details>
 
@@ -374,11 +374,11 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 **Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 
-## Criteria
+## Kriter
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Lütfen önerdiğimiz projelerin hiçbirine bağlı olmadığımızı unutmayın.** [standart kriterlerimize](about/criteria.md) ek olarak, objektif tavsiyelerde bulunabilmemiz için bir takım gereklilikler geliştirdik. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
 
-### Minimum Requirements
+### Minimum Gereksinimler
 
 - Must be open-source software.
 - Must support automatic updates.
@@ -388,9 +388,9 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 - Must block third-party cookies by default.
 - Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
 
-### Best-Case
+### En İyi Durum
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+En iyi durum kriterlerimiz, bu kategorideki mükemmel bir projede görmek istediklerimizi temsil etmektedir. Önerilerimiz bu işlevlerden herhangi birini veya tamamını içermeyebilir, ancak içerenler bu sayfada diğerlerinden daha üst sıralarda yer alabilir.
 
 - Should include built-in content blocking functionality.
 - Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
