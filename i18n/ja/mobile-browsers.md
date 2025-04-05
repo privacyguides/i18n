@@ -164,39 +164,39 @@ Braveの[シールド](https://support.brave.com/hc/articles/360022973471-What-i
 
     <div class="annotate" markdown>
 
-    - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-    - \[x\] (Optional) Select **No protection** under *Safe Browsing* (1)
-    - [ ] Uncheck **Allow sites to check if you have payment methods saved**
-    - [ ] Uncheck **V8 Optimizer** under *Manage V8 security*
-    - [x] Select **Close tabs on exit**
+    - [x] [*WebRTC IP処理ポリシー*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)で**非プロキシUDPを無効にする**を選択
+    - [x] （オプション）*セーフ ブラウジング*で**保護なし**を選択 (1)
+    - [ ] **お支払い方法を保存しているかどうかの確認をサイトに許可する**のチェックを外す
+    - [ ] *V8のセキュリティを管理する*で**V8オプティマイザー**のチェックを外す
+    - [x] **終了時にタブを閉じる**を選択
     - [ ] **プライバシーを保護したプロダクト分析(P3A)を許可する**のチェックを外す
     - [ ] **診断レポートを自動送信する**のチェックを外す
     - [ ] **毎日の使用状況のpingをBraveに自動送信する**のチェックを外す
 
     </div>
 
-    1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
+    1. Android版Braveの[セーフブラウジングの実装](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave)はデスクトップ版のように[セーフブラウジングネットワークリクエスト](https://developers.google.com/safe-browsing/v4/update-api#checking-urls)を経由**しません**。 GoogleがあなたのIPアドレスを見る（記録する）可能性があります。 Google Playサービスを利用していないAndroid端末ではセーフブラウジングは利用できません。
 
 === "iOS"
 
-    - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
+    - [ ] **プライバシーを保護したプロダクト分析(P3A)を許可する**のチェックを外す
     - [ ] **毎日の使用状況のpingをBraveに自動送信する**のチェックを外す
 
 #### Leo
 
-These options can be found in :material-menu: → **Settings** → **Leo**.
+以下のオプションは:material-menu:→ **設定** → **Leo**から変更できます。
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Show autocomplete suggestions in address bar** (1)
+- [ ] **アドレスバー入力中に自動でサイト候補を表示**のチェックを外す (1)
 
 </div>
 
-1. This option is not present in Brave's iOS app.
+1. このオプションはiOS版Braveにはありません。
 
-#### Search engines
+#### 検索エンジン
 
-These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
+以下のオプションは、:material-menu:/:fontawesome-solid-ellipsis: → **設定** → **検索エンジン**にあります。
 
 - [ ] **検索候補を表示する**からチェックを外す
 
@@ -204,21 +204,21 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync)により、ブラウジングデータ（履歴、ブックマークなど）をすべてのデバイスで利用可能にします。アカウントは不要でE2EE（エンドツーエンド暗号化）で保護されます。
 
-## Cromite (Android)
+## Cromite(Android)
 
 <div class="admonition recommendation" markdown>
 
 ![Cromite logo](assets/img/browsers/cromite.svg){ align=right }
 
-**Cromite** is a Chromium-based browser with built-in ad blocking, fingerprinting protections, and other [privacy and security enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the discontinued **Bromite** browser.
+**Cromite**はビルトインの広告ブロック、フィンガープリンティングの保護や[プライバシーとセキュリティが強化](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md)されたChromiumベースのブラウザです。 更新停止となった**Bromite**ブラウザーのフォークです。
 
-[:octicons-home-16: Homepage](https://cromite.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Source Code" }
+[:octicons-home-16: ウェブページ](https://cromite.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="プライバシーポリシー" }
+[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="ドキュメント" }
+[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="ソースコード" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>ダウンロード</summary>
 
 - [:simple-android: F-Droid](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
 - [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
@@ -229,41 +229,41 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 
 ### 推奨する設定
 
-These options can be found in :material-menu: → :gear: **Settings** → **Privacy and security**.
+以下のオプションは:material-menu: → :gear: **設定** → **プライバシーとセキュリティ**にあります。
 
 #### Browsing data
 
-- [x] Select **Close all open tabs on exit**
+- [x] **Close all open tabs on exit**を選択
 
-#### Incognito mode
+#### シークレットモード
 
-- [x] Select **Open external links in incognito**
+- [x] **Open external links in incognito**を選択
 
 #### セキュリティー
 
-- [x] Select **Always use secure connections**
+- [x] **常に安全な接続を使用する**を選択
 
-この機能により、意図せずプレーンテキストのHTTPでウェブサイトに接続することを防ぎます。 HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+この機能により、意図せずプレーンテキストのHTTPでウェブサイトに接続することを防ぎます。 現在ではHTTPはほとんど使用されていないため、通常のブラウジングにおいて影響がでることはほとんどありません。
 
 #### Adblock Plus settings
 
-These options can be found in :material-menu: → :gear: **Settings** → **Adblock Plus settings**.
+以下のオプションは:material-menu: → :gear: **設定** → **Adblock Plus settings**にあります。
 
-Cromite contains a customized version of Adblock Plus with EasyList enabled by default, as well as options to select more filter lists within the **Filter lists** menu.
+Cromiteには標準でEasyListを有効にしたカスタマイズされたAdblock Plusがあり、**Filter lists**メニューから追加のフィルターリストを選択することもできます。
 
-Using extra lists will make you stand out from other Cromite users and may also increase attack surface if a malicious rule is added to one of the lists you use.
+追加のリストを使用した場合、他のCromiteユーザーよりも目立つようになり、追加したルールに悪意のあるルールが追加された場合に、アタックサーフェスが増える可能性があります。
 
-- \[x\] (Optional) Select **Enable anti-circumvention and snippets**
+- [x] （任意）**Enable anti-circumvention and snippets**を選択
 
-This setting adds an additional Adblock Plus list that may increase the effectiveness of Cromite's content blocking. The warnings about standing out and potentially increasing attack surface apply.
+追加のAdblock Plusのリストが使用され、Cromiteのコンテンツブロックがより効果的になる可能性があります。 ただし、潜在的なアタックサーフェスが増える可能性はあります。
 
 #### Legacy Adblock settings
 
-These options can be found in :material-menu: → :gear: **Settings** → **Legacy Adblock settings**.
+以下のオプションは:material-menu: → :gear: **設定** → **Legacy Adblock settings**にあります。
 
-- [ ] Uncheck the autoupdate setting
+- [ ] Autoupdate settingのチェックを外す
 
-This disables update checks for the unmaintained Bromite adblock filter.
+Bromiteの更新されていない広告フィルタへのアップデートを無効にします。
 
 ## Safari (iOS)
 
