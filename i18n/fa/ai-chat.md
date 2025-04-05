@@ -161,7 +161,7 @@ To check the authenticity and safety of the model, look for:
 - Community reviews and usage statistics
 - A "Safe" badge next to the model file (Hugging Face only)
 - Matching checksums[^1]
-  - On Hugging Face, you can find the hash by clicking on a model file and looking for the **Copy SHA256** button below it. You should compare this checksum with the one from the model file you downloaded.
+    - On Hugging Face, you can find the hash by clicking on a model file and looking for the **Copy SHA256** button below it. You should compare this checksum with the one from the model file you downloaded.
 
 A downloaded model is generally safe if it satisfies all the above checks.
 

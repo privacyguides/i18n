@@ -1,8 +1,8 @@
 ---
-meta_title: "Tor Browser and Network: Anonymous Web Browsing - Privacy Guides"
+meta_title: "مرورگر و شبکه Tor: گشت‌وگذار ناشناس در اینترنت - راهنمای حریم خصوصی"
 title: "Tor Browser"
 icon: simple/torbrowser
-description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
+description: با استفاده از شبکه Tor، یک شبکه امن که سانسور را دور می‌زند، فعالیت‌های اینترنتی خود را از چشم‌های کنجکاو محافظت کنید.
 cover: tor.webp
 schema:
   - 
@@ -23,24 +23,24 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>در برابر تهدیدات زیر محافظت می‌کند:</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
-- [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
-- [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
+- [:material-account-cash: سرمایه‌داری نظارتی](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-eye-outline: نظارت جمعی](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+- [:material-close-outline: سانسور](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
 
 **Tor** is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individuals and organizations can also share information over the Tor network with ".onion hidden services" without compromising their privacy. Because Tor traffic is difficult to block and trace, Tor is an effective censorship circumvention tool.
 
-[Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor/ ""){.md-button}
+[مشاهده جزئیات کامل Tor :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: ویدیو: چرا به Tor نیاز دارید](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor/ ""){.md-button}
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">نکته</p>
 
 Before connecting to Tor, please ensure you've read our [overview](advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](vpn.md), but you have to do so **properly** to avoid decreasing your anonymity.
 
 </div>
 
-There are a variety of ways to connect to the Tor network from your device, the most commonly used being the **Tor Browser**, a fork of Firefox designed for [:material-incognito: anonymous](basics/common-threats.md#anonymity-vs-privacy ""){.pg-purple} browsing for desktop computers and Android.
+راه‌های مختلفی برای اتصال به شبکه Tor از دستگاه شما وجود دارد که رایج‌ترین آن **مرورگر Tor** است، یک انشعاب از فایرفاکس که برای [:material-incognito: گشت‌وگذار ناشناس](basics/common-threats.md#anonymity-vs-privacy ""){.pg-purple} در رایانه‌های رومیزی و اندروید طراحی شده است.
 
 Some of these apps are better than others, and again making a determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
 
@@ -61,20 +61,20 @@ If more complete anonymity is paramount to your situation, you should **only** b
 [:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>دانلود</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
-- [:simple-android: Android](https://torproject.org/download/#android)
-- [:fontawesome-brands-windows: Windows](https://torproject.org/download)
-- [:simple-apple: macOS](https://torproject.org/download)
-- [:simple-linux: Linux](https://torproject.org/download)
+- [:simple-googleplay: گوگل پلی](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
+- [:simple-android: اندروید](https://torproject.org/download/#android)
+- [:fontawesome-brands-windows: ویندوز](https://torproject.org/download)
+- [:simple-apple: مک‌اواس](https://torproject.org/download)
+- [:simple-linux: لینوکس](https://torproject.org/download)
 
 </details>
 
 </div>
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">هشدار</p>
 
 You should **never** install any additional extensions on Tor Browser or edit `about:config` settings, including the ones we suggest for Firefox. Browser extensions and non-standard settings make you stand out from others on the Tor network, thus making your browser easier to [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
 
@@ -82,7 +82,7 @@ You should **never** install any additional extensions on Tor Browser or edit `a
 
 The Tor Browser is designed to prevent fingerprinting, or identifying you based on your browser configuration. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings).
 
-In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
+علاوه بر نصب مستقیم مرورگر Tor روی رایانه شما، سیستم‌عامل‌هایی نیز وجود دارند که به طور خاص برای اتصال به شبکه Tor طراحی شده‌اند، مانند [Whonix](desktop.md#whonix) روی [Qubes OS](desktop.md#qubes-os)، که امنیت و محافظت‌های بیشتری نسبت به مرورگر Tor به تنهایی ارائه می‌دهند.
 
 ## Orbot
 
@@ -99,20 +99,20 @@ In addition to installing Tor Browser on your computer directly, there are also 
 [:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>دانلود</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1609461599)
-- [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
+- [:simple-googleplay: گوگل پلی](https://play.google.com/store/apps/details?id=org.torproject.android)
+- [:simple-appstore: اپ استور](https://apps.apple.com/app/id1609461599)
+- [:simple-github: گیت‌هاب](https://github.com/guardianproject/orbot/releases)
 
 </details>
 
 </div>
 
-We previously recommended enabling the *Isolate Destination Address* preference in Orbot settings. While this setting can theoretically improve privacy by enforcing the use of a different circuit for each IP address you connect to, it doesn't provide a practical advantage for most applications (especially web browsing), can come with a significant performance penalty, and increases the load on the Tor network. We no longer recommend adjusting this setting from its default value unless you know you need to.[^1]
+ما قبلاً توصیه می‌کردیم که ترجیح *جدا کردن آدرس مقصد* را در تنظیمات Orbot فعال کنید. اگرچه این تنظیم از نظر تئوری می‌تواند با اجبار به استفاده از مدارهای مختلف برای هر آدرس IP که به آن متصل می‌شوید، حریم خصوصی را بهبود بخشد، اما برای اکثر برنامه‌های کاربردی (به ویژه مرورگری اینترنت) مزیت عملی محسوسی ندارد، ممکن است باعث کاهش محسوس عملکرد شود و بار اضافی بر شبکه Tor تحمیل کند. ما دیگر تغییر این تنظیم از مقدار پیش‌فرض آن را توصیه نمی‌کنیم، مگر اینکه مطمئن باشید به آن نیاز دارید.[^1]
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tips for Android</p>
+<p class="admonition-title">نکات برای اندروید</p>
 
 Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN kill switch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
 
@@ -139,9 +139,9 @@ On iOS, Orbot has some limitations that could potentially cause crashes or leaks
 [:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>دانلود</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
+- [:simple-appstore: اپ استور](https://apps.apple.com/app/id519296448)
 
 </details>
 
@@ -151,4 +151,4 @@ Onion Browser does not provide the same levels of privacy protections as Tor Bro
 
 [Notably](https://github.com/privacyguides/privacyguides.org/issues/2929), Onion Browser does not *guarantee* all requests go through Tor. When using the built-in version of Tor, [your real IP **will** be leaked via WebRTC and audio/video streams](https://onionbrowser.com/faqs) due to limitations of WebKit. It is *safer* to use Onion Browser alongside Orbot, but this still comes with some limitations on iOS (noted in the Orbot section above).
 
-[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) and [Whonix's Stream Isolation documentation](https://whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.
+[^1]: تنظیم `IsolateDestAddr` در [لیست پستی Tor](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) و [مستندات Stream Isolation در Whonix](https://whonix.org/wiki/Stream_Isolation) مورد بحث قرار گرفته است، جایی که هر دو پروژه پیشنهاد می‌کنند که این روش معمولاً برای اکثر افراد مناسب نیست.

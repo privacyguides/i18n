@@ -304,7 +304,7 @@ This prevents Siri from using content from Safari for Siri suggestions.
 
 - [ ] Disable **Search Engine Suggestions**
 
-This setting sends whatever you type in the address bar to the search engine set in Safari. غیرفعال کردن پیشنهادهای جستجو به شما اجازه می‌دهد که با دقت بیشتری کنترل کنید که چه داده‌هایی را به ارائه‌دهنده موتور جستجو ارسال می‌کنید.
+This setting sends whatever you type in the address bar to the search engine set in Safari. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
 #### Profiles
 
