@@ -131,18 +131,18 @@ Braveの[シールド](https://support.brave.com/hc/articles/360022973471-What-i
 
     <div class="annotate" markdown>
 
-    - [x] Select **Aggressive** under *Trackers & Ads Blocking*
-    - [x] Select **Strict** under *Upgrade Connections to HTTPS*
-    - [x] Select **Auto-Redirect AMP pages**
-    - [x] Select **Auto-Redirect Tracking URLs**
+    - [x] *トラッカーと広告をブロック*で**アグレッシブ**を選択
+    - [x] *接続をHTTPSにアップグレードする*で**厳格**を選択
+    - [x] **AMPページを自動でリダイレクト**を選択
+    - [x] **自動リダイレクト追跡URL**を選択
     - [x] （オプション）**スクリプトをブロックする**を選択(1)
     - [x] **フィンガープリントをブロック**を選択
-    - [x] Select **Site Tabs Closed** under *Auto Shred*
+    - [x] *自動シュレッダー*で**閉じたタブ**を選択
 
     <details class="warning" markdown>
     <summary>デフォルトのフィルターリストを使用する</summary>
 
-    Brave allows you to select additional content filters within the **Content Filtering** menu. この機能は使わず、デフォルトのフィルターの一覧のままにしておくことをお勧めします。 追加のリストを使用すると、他のBraveユーザーから目立つようになり、また、Braveの脆弱性によってリストに悪意のあるルールが追加された場合、攻撃対象となる領域が増えるおそれがあります。
+    **コンテンツフィルター**メニューから使用するコンテンツフィルターを追加で選択することができます。 この機能は使わず、デフォルトのフィルターの一覧のままにしておくことをお勧めします。 追加のリストを使用すると、他のBraveユーザーから目立つようになり、また、Braveの脆弱性によってリストに悪意のあるルールが追加された場合、攻撃対象となる領域が増えるおそれがあります。
 
     </details>
 
@@ -150,15 +150,15 @@ Braveの[シールド](https://support.brave.com/hc/articles/360022973471-What-i
 
     1. JavaScriptが無効となり、多くのサイトが正しく表示されなくなります。 修正するには、アドレスバーのシールドアイコンをクリックし、*詳細設定*からこの設定のチェックを外し、サイトごとに例外を設定します。
 
-##### Clear browsing data (Android only)
+##### 閲覧履歴データの削除（Androidのみ）
 
-- [x] Select **Clear data on exit**
+- [x] **終了時にデータをクリア**を選択
 
-##### Social Media Blocking (Android only)
+##### ソーシャルメディアのブロック（Androidのみ）
 
 - [ ] すべてのソーシャルメディアコンポーネントのチェックを外すこと
 
-#### Other privacy settings
+#### その他のプライバシー設定
 
 === "Android"
 
