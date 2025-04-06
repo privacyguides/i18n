@@ -77,7 +77,7 @@ Proton VPNは[112カ国にサーバーを設置しています](https://protonvp
 
 #### :material-check:{ .pg-green } 独立監査済み
 
-2020年1月時点で、Proton VPNはSEC Consultによる独立監査を受けました。 SEC ConsultはProton VPNのWindows、Android、iOSアプリに中、低リスクの脆弱性を発見しましたが、これらすべてはProton VPNによって報告書が公表される前に「適切に修正」されました。 確認された問題はいずれも攻撃者がデバイスやトラフィックへリモートアクセスを可能にするものではありませんでした。 You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit). 2021年11月9日に[Securitum](https://research.securitum.com)から [監査証明書](https://proton.me/blog/security-audit-all-proton-apps) がProton VPNアプリに対して提供されました。
+2020年1月時点で、Proton VPNはSEC Consultによる独立監査を受けました。 SEC ConsultはProton VPNのWindows、Android、iOSアプリに中、低リスクの脆弱性を発見しましたが、これらすべてはProton VPNによって報告書が公表される前に「適切に修正」されました。 確認された問題はいずれも攻撃者がデバイスやトラフィックへリモートアクセスを可能にするものではありませんでした。 [protonvpn.com](https://protonvpn.com/blog/open-source)で各プラットフォーム個別のレポートを見ることができます。 2022年4月にProton VPNは[別の監査](https://protonvpn.com/blog/no-logs-audit)を受けました。 2021年11月9日に[Securitum](https://research.securitum.com)から [監査証明書](https://proton.me/blog/security-audit-all-proton-apps) がProton VPNアプリに対して提供されました。
 
 #### :material-check:{ .pg-green } オープンソースクライアント
 
@@ -89,35 +89,35 @@ Proton VPNはクレジットおよびデビットカード、PayPal、そして[
 
 #### :material-check:{ .pg-green } WireGuard対応
 
-Proton VPN supports the WireGuard® protocol. [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). 加えて、WireGuardはよりシンプルかつより高性能であることを目指しています。
+Proton VPNはWireGuard®プロトコルに対応しています。 [Wireguard](https://wireguard.com)は最先端の[暗号化技術](https://wireguard.com/protocol)を用いた新しいプロトコルです。 加えて、WireGuardはよりシンプルかつより高性能であることを目指しています。
 
-Proton VPN [recommends](https://protonvpn.com/blog/wireguard) the use of WireGuard with their service. Proton VPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
+Proton VPNはWireGuardを用いることを[推奨](https://protonvpn.com/blog/wireguard)しています。 また、Proton VPNでは公式のWireGuard[アプリ](https://wireguard.com/install)で使用するWireGuard設定を作成できます。
 
-#### :material-alert-outline:{ .pg-orange } Limited IPv6 Support
+#### :material-alert-outline:{ .pg-orange } IPv6の対応は制限あり
 
-Proton [now supports IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks) in their browser extension and Linux client, but only 80% of their servers are IPv6-compatible. On other platforms, the Proton VPN client will block all outgoing IPv6 traffic, so you don't have to worry about your IPv6 address being leaked, but you will not be able to connect to any IPv6-only sites, nor will you be able to connect to Proton VPN from an IPv6-only network.
+Protonはブラウザの拡張機能とLinux向けクライアントで[現在、IPv6に対応しています](https://protonvpn.com/support/prevent-ipv6-vpn-leaks)が、IPv6に対応したサーバーは80%のみです。 他のプラットフォームではProtonVPNクライアントはすべてのIPv6のアウトバウンドトラフィックをブロックするため、使用しているIPv6アドレスが漏れる心配はありませんが、IPv6専用のサイトには接続できず、IPv6専用ネットワークからProtonVPNに接続することもできません。
 
-#### :material-information-outline:{ .pg-info } Remote Port Forwarding
+#### :material-information-outline:{ .pg-info } リモートポートフォワーディング
 
-Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding) via NAT-PMP, with 60 second lease times. The official Windows and Linux apps provide an easy-to-access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup). Torrentアプリは多くの場合NAT-PMPをネイティブサポートしています。
+Proton VPNでは、NAT-PMP経由の60秒でリリースされる一時的なリモート[ポートフォワーディング](https://protonvpn.com/support/port-forwarding)のみ対応しています。 公式のWindows・Linuxアプリでは簡単に設定することができますが、他のOSでは[NAT-PMPクライアント](https://protonvpn.com/support/port-forwarding-manual-setup)を自分で実行する必要があります。 Torrentアプリは多くの場合NAT-PMPをネイティブサポートしています。
 
-#### :material-information-outline:{ .pg-blue } Anti-Censorship
+#### :material-information-outline:{ .pg-blue } 検閲への対抗
 
-Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol) protocol which *may* help in situations where VPN protocols like OpenVPN or WireGuard are blocked with various rudimentary techniques. Stealth encapsulates the VPN tunnel in TLS session in order to look like more generic internet traffic.
+Proton VPNにはOpenVPNもしくはWireGuardのようなVPNプロトコルを様々な初歩的な技術でブロックすることを防ぐ*可能性のある *[Stealth](https://protonvpn.com/blog/stealth-vpn-protocol)プロトコルがあります。 StealthではTLSセッションにおけるVPNトンネルをカプセル化し、他の通常のインターネットトラフィックのように見せかけます。
 
-Unfortunately, it does not work very well in countries where sophisticated filters that analyze all outgoing traffic in an attempt to discover encrypted tunnels are deployed. Stealth is available on Android, iOS, Windows, and macOS, but it's not yet available on Linux.
+残念ながら、暗号化されたトンネルを見つけるためにすべてのアウトバウンドトラフィックを分析するような、より高度なフィルタを使う国ではあまり有効ではありません。 StealthはAndroid、iOS、WindowsとmacOSで利用可能ですが、Linuxではまだ利用できません。
 
 #### :material-check:{ .pg-green } モバイルクライアント
 
-Proton VPN has published [App Store](https://apps.apple.com/app/id1437005085) and [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/ProtonVPN/android-app/releases).
+Proton VPNは[App Store](https://apps.apple.com/app/id1437005085)と[Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)でクライアントをダウンロードでき、どちらもWireGuard接続を手動で設定する必要がなく、使いやすいインターフェースがあります。 Android向けのクライアントは[GitHub](https://github.com/ProtonVPN/android-app/releases)でも公開されています。
 
-#### :material-information-outline:{ .pg-blue } Additional Notes
+#### :material-information-outline:{ .pg-blue } 追記事項
 
-Proton VPN clients support two-factor authentication on all platforms. Proton VPNはスイス、アイスランド、スウェーデンに独自のサーバーとデータセンターを持っています。 They offer content blocking and known-malware blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](tor.md#tor-browser) for this purpose.
+Proton VPNクライアントはすべてのプラットフォームで二要素認証に対応しています。 Proton VPNはスイス、アイスランド、スウェーデンに独自のサーバーとデータセンターを持っています。 DNSサービスで広告ブロックと既知のマルウェアブロックをしています。 また、Proton VPNにはonionサイトに簡単に接続することのできるTorサーバーがありますが、[公式のTor Browser](tor.md#tor-browser)の使用を強く推奨します。
 
-##### :material-alert-outline:{ .pg-orange } Kill switch feature is broken on Intel-based Macs
+##### :material-alert-outline:{ .pg-orange } キルスイッチ機能はIntelベースのMacでは正常に機能しない
 
-System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch) on Intel-based Macs when using the VPN kill switch. この機能が必要で、Intelチップセットを搭載したMacを使用している場合は別のVPNサービスの利用を検討する必要があります。
+VPNキルスイッチを使っている際、システムクラッシュが[発生する可能性があります](https://protonvpn.com/support/macos-t2-chip-kill-switch)。 この機能が必要で、Intelチップセットを搭載したMacを使用している場合は別のVPNサービスの利用を検討する必要があります。
 
 ### IVPN
 
@@ -125,15 +125,15 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 
 ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
 
-**IVPN**はプレミアムVPNプロバイダの一つで、2009年から運営されています。 IVPN is based in Gibraltar and does not offer a free trial.
+**IVPN**はプレミアムVPNプロバイダの一つで、2009年から運営されています。 IVPNはジブラルタルに拠点があり、無料トライアルはありません。
 
-[:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
+[:octicons-home-16: ウェブページ](https://ivpn.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="プライバシーポリシー" }
+[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title=ドキュメント}
+[:octicons-code-16:](https://github.com/ivpn){ .card-link title="ソースコード" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>ダウンロード</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
 - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
@@ -146,7 +146,7 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 
 </div>
 
-#### :material-check:{ .pg-green } 37 Countries
+#### :material-check:{ .pg-green } 37カ国
 
 IVPN has [servers in 37 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. これは目的地までのルートが短い(ホップが少ない) ことによります。
 { .annotate }
@@ -169,7 +169,7 @@ In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **
 
 #### :material-check:{ .pg-green } WireGuard対応
 
-IVPNはWireGuard®️プロトコルをサポートしています。 [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). 加えて、WireGuardはよりシンプルかつより高性能であることを目指しています。
+IVPNはWireGuard®️プロトコルをサポートしています。 [Wireguard](https://wireguard.com)は最先端の[暗号化技術](https://wireguard.com/protocol)を用いた新しいプロトコルです。 加えて、WireGuardはよりシンプルかつより高性能であることを目指しています。
 
 IVPN [recommends](https://ivpn.net/wireguard) the use of WireGuard with their service and, as such, the protocol is the default on all of IVPN's apps. IVPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
 
@@ -244,7 +244,7 @@ Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin
 
 #### :material-check:{ .pg-green } WireGuard対応
 
-MullvadはWireGuard®️プロトコルをサポートしています。 [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). 加えて、WireGuardはよりシンプルかつより高性能であることを目指しています。
+MullvadはWireGuard®️プロトコルをサポートしています。 [Wireguard](https://wireguard.com)は最先端の[暗号化技術](https://wireguard.com/protocol)を用いた新しいプロトコルです。 加えて、WireGuardはよりシンプルかつより高性能であることを目指しています。
 
 Mullvad [recommends](https://mullvad.net/en/help/why-wireguard) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
 
