@@ -282,27 +282,27 @@ VPNプロバイダーを利用すると、特定の状況下ではより良い�
 
 </div>
 
-**私たちは、推奨するいずれのプロバイダーとも提携していません。 This allows us to provide completely objective recommendations.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any VPN provider wishing to be recommended, including strong encryption, independent security audits, modern technology, and more. プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
+**私たちは、推奨するいずれのプロバイダーとも提携していません。 このために完全に客観的に推奨することができます。**さらに[標準的な基準](about/criteria.md)に加え、強力な暗号化、独立したセキュリティ監査、新しい技術などを含む、推奨するために必要なVPNプロバイダーへの明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
 
 ### テクノロジー
 
-We require all our recommended VPN providers to provide standard configuration files which can be used in a generic, open-source client. **If** a VPN provides their own custom client, we require a kill switch to block network data leaks when disconnected.
+VPNプロバイダーには一般的なオープンソースのクライアントで使用するための標準的な設定ファイルを提供することを求めています。 **仮に**VPNプロバイダーが独自のカスタムクライアントを用いる場合、切断時にネットワークデータの漏えいをふせぐためのキルスイッチが必要です。
 
 **最低条件：**
 
-- Support for strong protocols such as WireGuard.
-- Kill switch built in to clients.
-- Multi-hop support. Multi-hopping is important to keep data private in case of a single node compromise.
-- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what the program is actually doing.
-- Censorship resistance features designed to bypass firewalls without DPI.
+- WireGuardのような強力なプロトコルへの対応。
+- クライアントにビルトインのキルスイッチがあること。
+- マルチホップへの対応。 マルチホップは単一のノードがセキュリティ侵害を受けた際、データのプライベートを保護するために重要です。
+- VPNクライアントを提供する場合、一般的にビルトインされているVPNソフトウェアのように[オープンソース](https://en.wikipedia.org/wiki/Open_source)であること。 [ソースコード](https://en.wikipedia.org/wiki/Source_code)が公開されることでプログラムの実際の挙動についてのより高い透明性が得られると考えています。
+- 検閲に対抗するため、DPIを受けることなくファイヤーウォールを回避する機能。
 
 **満たされることが望ましい基準：**
 
-- Kill switch with highly configurable options (enable/disable on certain networks, on boot, etc.)
+- 高度な設定（特定のネットワークや起動時の有効・無効）が可能なキルスイッチがあること
 - 使いやすいVPNクライアントであること。
-- [IPv6](https://en.wikipedia.org/wiki/IPv6) support. サーバーがIPv6経由の着信接続を許可し、IPv6アドレスでホストされているサービスにアクセスできることが望ましい。
+- [IPv6](https://en.wikipedia.org/wiki/IPv6)への対応。 サーバーがIPv6経由の着信接続を許可し、IPv6アドレスでホストされているサービスにアクセスできることが望ましい。
 - [リモートポート転送](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding)機能が備わっていること。リモートポート転送機能は、P2P（[Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)）ファイル共有ソフトウェアを使用していたり、サーバー（Mumbleなど）をホストしていたりする際に接続を確立することを支援するものです。
-- Obfuscation technology which camouflages the true nature of internet traffic, designed to circumvent advanced internet censorship methods like DPI.
+- DPIのような高度なインターネット検閲を回避するための、インターネットトラフィックの正体を偽装する難読化技術。
 
 ### プライバシー
 
@@ -316,27 +316,27 @@ We require all our recommended VPN providers to provide standard configuration f
 **満たされることが望ましい基準：**
 
 - 複数の[匿名支払いオプション](advanced/payments.md)に対応していること。
-- No personal information accepted (auto-generated username, no email required, etc.).
+- 個人情報が不要なこと（ユーザー名の自動生成・Eメール不要など）。
 
 ### セキュリティー
 
-A VPN is pointless if it can't even provide adequate security. We require all our recommended providers to abide by current security standards. Ideally, they would use more future-proof encryption schemes by default. We also require an independent third-party to audit the provider's security, ideally in a very comprehensive manner and on a repeated (yearly) basis.
+十分なセキュリティがなければ、VPNは意味がありません。 推奨するためには現行のセキュリティ基準を遵守する必要があります。 理想的には、将来を見越した暗号化方法をデフォルトで使用することが望ましいです。 また、プロバイダーのセキュリティに対して独立した第三者による監査があり、理想的には包括的な監査で、繰り返し（毎年）行われている必要もあります。
 
 **最低条件：**
 
 - 強力な暗号化スキーム: SHA-256認証、RSA-2048以上のハンドシェイク、AES-256-GCMまたはAES-256-CBCによるデータ暗号化を使用したOpenVPN
 - 前方秘匿性があること。
 - 信頼できる第三者機関によるセキュリティ監査を公表
-- VPN servers that use full-disk encryption or are RAM-only.
+- ディスク全体が暗号化されている、もしくはRAMのみのVPNサーバー。
 
 **満たされることが望ましい基準：**
 
 - 強力な暗号化：RSA-4096
-- Optional quantum-resistant encryption.
+- オプションで耐量子暗号があること。
 - 前方秘匿性があること。
 - 信頼できる第三者機関による包括的な公開セキュリティ監査。
 - バグ報奨金プログラム、協調的な脆弱性開示プロセス。
-- RAM-only VPN servers.
+- RAMのみのVPNサーバー。
 
 ### 信頼
 
@@ -345,7 +345,7 @@ A VPN is pointless if it can't even provide adequate security. We require all ou
 **最低条件：**
 
 - 公的なリーダーシップまたはオーナーシップ。
-- Company based in a jurisdiction where it cannot be forced to do secret logging.
+- プロバイダーが拠点を置く国では秘密裏にロギングすることを強制する権限がないこと。
 
 **満たされることが望ましい基準：**
 
@@ -358,7 +358,7 @@ A VPN is pointless if it can't even provide adequate security. We require all ou
 
 **最低条件：**
 
-- Must self-host analytics (i.e., no Google Analytics).
+- セルフホストのアナリティクスであること（Google Analyticsなどは不可）。
 
 無責任なマーケティングを行わないこと。
 
@@ -377,4 +377,4 @@ A VPN is pointless if it can't even provide adequate security. We require all ou
 
 ### 追加機能
 
-厳密な要件ではありませんが、推奨するサービスプロバイダーを決定する際に考慮した要素がいくつかあります。 These include content blocking functionality, warrant canaries, excellent customer support, the number of allowed simultaneous connections, etc.
+厳密な要件ではありませんが、推奨するサービスプロバイダーを決定する際に考慮した要素がいくつかあります。 広告ブロック、令状のカナリア、優れたカスタマーサポート、可能な同時接続数などが含まれます。
