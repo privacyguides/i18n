@@ -267,25 +267,25 @@ Bromiteの更新されていない広告フィルタへのアップデートを�
 
 ## Safari (iOS)
 
-On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Chromium engine like its counterparts on other operating systems.
+iOSではウェブブラウザの機能があるアプリはAppleが提供する[WebKitフレームワーク](https://developer.apple.com/documentation/webkit)のみに[限られています](https://developer.apple.com/app-store/review/guidelines)。そのため、[Brave](#brave)のような他のOS版ではChromiumエンジンが使われているようなものでもChromiumエンジンは使われていません。
 
 <div class="admonition recommendation" markdown>
 
 ![Safari logo](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites, so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
+**Safari**はiOSのデフォルトブラウザです。 It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites, so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
 
-[:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title="Documentation" }
+[:octicons-home-16: ウェブページ](https://apple.com/safari){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="プライバシーポリシー" }
+[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title="ドキュメント" }
 
 </details>
 
 </div>
 
-### Recommended Safari Configuration
+### 推奨するSafariの設定
 
-We would suggest installing [AdGuard](browser-extensions.md#adguard) if you want a content blocker in Safari.
+Safariでコンテンツブロックを使いたい場合、[AdGuard](browser-extensions.md#adguard)をインストールすることを推奨します。
 
 The following privacy/security-related options can be found in :gear: **Settings** → **Apps** → **Safari**.
 

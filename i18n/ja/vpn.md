@@ -2,7 +2,7 @@
 meta_title: "プライベートVPNサービスの推奨事項と比較、スポンサーや広告なし - Privacy Guides"
 title: "VPNサービス"
 icon: material/vpn
-description: The best VPN services for protecting your privacy and security online. Find a provider here that isn't out to spy on you.
+description: オンラインでのプライバシーとセキュリティを保護するための最良のVPNサービス。 ひそかにあなたを監視することがないVPNサービスプロバイダーを挙げています。
 cover: vpn.webp
 global:
   - 
@@ -10,14 +10,14 @@ global:
     - "table tbody"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>以下の脅威から保護します：</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: 監視資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-If you're looking for additional *privacy* from your ISP, on a public Wi-Fi network, or while torrenting files, a **VPN** may be the solution for you.
+ISPや公衆Wi-Fiから*プライバシー*をさらに保護したい場合やP2Pソフトを使う際にそうしたい場合、**VPN**を使うことは良い方法になります。
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">VPNs do not provide anonymity</p>
+<p class="admonition-title">VPNでは匿名性を確保することはできません</p>
 
 Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
 
