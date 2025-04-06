@@ -148,7 +148,7 @@ VPNキルスイッチを使っている際、システムクラッシュが[発�
 
 #### :material-check:{ .pg-green } 37カ国
 
-IVPN has [servers in 37 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. これは目的地までのルートが短い(ホップが少ない) ことによります。
+IVPNは[37カ国にサーバー](https://ivpn.net/status)を設置しています。(1) VPNプロバイダーの最も近いサーバーを選ぶことで、ネットワークトラフィックのレイテンシーを小さくすることができます。 これは目的地までのルートが短い(ホップが少ない) ことによります。
 { .annotate }
 
 1. 最終確認：2024-08-06
@@ -157,41 +157,41 @@ IVPN has [servers in 37 countries](https://ivpn.net/status).(1) Picking a VPN pr
 
 #### :material-check:{ .pg-green } 独立監査済み
 
-IVPN has had multiple [independent audits](https://ivpn.net/en/blog/tags/audit) since 2019 and has publicly announced their commitment to [annual security audits](https://ivpn.net/blog/ivpn-apps-security-audit-concluded).
+IVPNは2019年から複数の[独立した監査](https://ivpn.net/en/blog/tags/audit)を受けており、[1年ごとのセキュリティ監査](https://ivpn.net/blog/ivpn-apps-security-audit-concluded)を受けることを公表しています。
 
 #### :material-check:{ .pg-green } オープンソースクライアント
 
-As of February 2020 [IVPN applications are now open source](https://ivpn.net/blog/ivpn-applications-are-now-open-source). Source code can be obtained from their [GitHub organization](https://github.com/ivpn).
+2020年2月時点で[IVPNのアプリケーションはオープンソースとなっています](https://ivpn.net/blog/ivpn-applications-are-now-open-source)。 ソースコードは[GitHub](https://github.com/ivpn)から入手できます。
 
 #### :material-check:{ .pg-green } 現金とMoneroが利用可能
 
-In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **Monero** and **cash/local currency** (on annual plans) as anonymous forms of payment. Prepaid cards with redeem codes are [also available](https://ivpn.net/knowledgebase/billing/voucher-cards-faq).
+IVPNはクレジット・デビットカードやPayPalでの支払いに加え、匿名での支払い手段としてBitcoinや**Monero**と**現金・現地通貨**での支払い（年間プランの場合）を受け付けています。 引き換えコード付きプリペイドカードも[利用可能](https://ivpn.net/knowledgebase/billing/voucher-cards-faq)です。
 
 #### :material-check:{ .pg-green } WireGuard対応
 
 IVPNはWireGuard®️プロトコルをサポートしています。 [Wireguard](https://wireguard.com)は最先端の[暗号化技術](https://wireguard.com/protocol)を用いた新しいプロトコルです。 加えて、WireGuardはよりシンプルかつより高性能であることを目指しています。
 
-IVPN [recommends](https://ivpn.net/wireguard) the use of WireGuard with their service and, as such, the protocol is the default on all of IVPN's apps. IVPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
+IVPNはWireGuardの使用を[推奨](https://ivpn.net/wireguard)しており、IVPNのすべてのアプリケーションでデフォルトとなっています。 また、公式のWireGuard[アプリ](https://wireguard.com/install)で使用するWireGuard設定を作成できます。
 
-#### :material-information-outline:{ .pg-blue } IPv6 Support
+#### :material-information-outline:{ .pg-blue } IPv6の対応
 
-IVPN allows you to [connect to services using IPv6](https://ivpn.net/knowledgebase/general/do-you-support-ipv6) but doesn't allow you to connect from a device using an IPv6 address.
+IVPNでは[IPv6を使用するサービスへの接続](https://ivpn.net/knowledgebase/general/do-you-support-ipv6)はできますが、IPv6を使用するデバイスからの接続はできません。
 
 #### :material-alert-outline:{ .pg-orange } リモートポートフォワーディング
 
-IVPN previously supported port forwarding, but removed the option in [June 2023](https://ivpn.net/blog/gradual-removal-of-port-forwarding). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
+IVPNでは以前、ポートフォワーディングに対応していましたが、[2023年6月](https://ivpn.net/blog/gradual-removal-of-port-forwarding)にオプションを削除しました。 この機能の削除により、特にトレント・クライアントなどのピア・ツー・ピアアプリケーションには悪影響を及ぼす可能性があります。
 
-#### :material-check:{ .pg-green } Anti-Censorship
+#### :material-check:{ .pg-green } 検閲への対抗
 
-IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index.html) which helps in situations where VPN protocols like OpenVPN or WireGuard are blocked. Currently, this feature is only available on Desktop and [iOS](https://ivpn.net/knowledgebase/ios/v2ray). It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) over QUIC or TCP connections. QUIC is a modern protocol with better congestion control and therefore may be faster with reduced latency. The TCP mode makes your data appear as regular HTTP traffic.
+IVPNには[V2Ray](https://v2ray.com/en/index.html)を用いた難読化モードがあり、OpenVPNやWireGuardなどのVPNプロトコルがブロックされている状況で役立ちます。 現在、この機能はデスクトップと[iOS](https://ivpn.net/knowledgebase/ios/v2ray)でのみ利用可能です。 QUICもしくはTCPで[VMess](https://guide.v2fly.org/en_US/basics/vmess.html)を使用する2つのモードがあります。 QUICは輻輳制御がより優れているモダンなプロトコルで高速化・レイテンシーの低下が期待できます。 TCPではデータは通常のHTTPトラフィックとして扱われます。
 
 #### :material-check:{ .pg-green } モバイルクライアント
 
-IVPN has published [App Store](https://apps.apple.com/app/id1193122683) and [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/ivpn/android-app/releases).
+IVPNは[App Store](https://apps.apple.com/app/id1193122683)と[Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)でクライアントをダウンロードでき、どちらもWireGuard接続を手動で設定する必要がなく、使いやすいインターフェースがあります。 Android向けクライアントは[GitHub](https://github.com/ivpn/android-app/releases)でも公開されています。
 
-#### :material-information-outline:{ .pg-blue } Additional Notes
+#### :material-information-outline:{ .pg-blue } 追記事項
 
-IVPN clients support two-factor authentication. IVPN also provides "[AntiTracker](https://ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
+IVPNのクライアントは二要素認証に対応しています。 また、[AntiTracker](https://ivpn.net/antitracker)機能により、広告ネットワークやトラッカーをネットワークレベルでブロックすることができます。
 
 ### Mullvad
 
@@ -199,16 +199,16 @@ IVPN clients support two-factor authentication. IVPN also provides "[AntiTracker
 
 ![Mullvad ロゴ](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad**は、透明性とセキュリティに重点を置いた、高速で安価なVPNです。 They have been in operation since 2009. Mullvad is based in Sweden and offers a 14-day money-back guarantee for [payment methods](https://mullvad.net/en/help/refunds) that allow it.
+**Mullvad**は、透明性とセキュリティに重点を置いた、高速で安価なVPNです。 2009年からサービスが稼働しました。 Mullvadはスウェーデンに拠点を置き、[支払い](https://mullvad.net/en/help/refunds)には14日間の返金保証があります。
 
-[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
+[:octicons-home-16: ウェブページ](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="プライバシーポリシー" }
+[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title=ドキュメント}
+[:octicons-code-16:](https://github.com/mullvad){ .card-link title="ソースコード" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>ダウンロード</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1488466513)
@@ -221,62 +221,62 @@ IVPN clients support two-factor authentication. IVPN also provides "[AntiTracker
 
 </div>
 
-#### :material-check:{ .pg-green } 49 Countries
+#### :material-check:{ .pg-green } 49カ国
 
-Mullvad has [servers in 49 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. これは目的地までのルートが短い(ホップが少ない) ことによります。
+Mullvadは[49カ国にサーバー](https://mullvad.net/servers)を設置しています。(1) VPNプロバイダーの最も近いサーバーを選ぶことで、ネットワークトラフィックのレイテンシーを小さくすることができます。 これは目的地までのルートが短い(ホップが少ない) ことによります。
 { .annotate }
 
-1. Last checked: 2025-03-10
+1. 最終確認：2025-03-10
 
 また、VPNプロバイダの秘密鍵のセキュリティを考えると、できれば[バーチャルプライベートサーバー](https://en.wikipedia.org/wiki/Virtual_private_server)のような安価な(他の顧客との)共有ソリューションではなく[専用サーバー](https://en.wikipedia.org/wiki/Dedicated_hosting_service)を使用したほうがいいと考えています。
 
 #### :material-check:{ .pg-green } 独立監査済み
 
-Mullvad has had multiple [independent audits](https://mullvad.net/en/blog/tag/audits) and has publicly announced their endeavors to conduct [annual audits](https://mullvad.net/en/blog/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) of their apps and infrastructure.
+Mullvadは複数の[独立した監査](https://mullvad.net/en/blog/tag/audits)を受けており、アプリとインフラの[年次監査](https://mullvad.net/en/blog/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit)の実施を公表しています。
 
 #### :material-check:{ .pg-green } オープンソースクライアント
 
-Mullvad provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/mullvad/mullvadvpn-app).
+Mullvadはデスクトップおよびモバイルクライアントのソースコードを[GitHub](https://github.com/mullvad/mullvadvpn-app)で公開しています。
 
 #### :material-check:{ .pg-green } 現金とMoneroが利用可能
 
-Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. Prepaid cards with redeem codes are also available. Mullvad also accepts Swish and bank wire transfers, as well as a few European payment systems.
+Mullvadはクレジット・デビットカードやPayPalでの支払いに加え、匿名での支払手段としてBitcoin、Bitcoin Cash、**Monero**と**現金・現地通貨**での支払いを受け付けています。 引き換えコード付きのプリペイドカードも利用可能です。 また、Swishや銀行振込、いくつかのヨーロッパの支払いシステムにも対応しています。
 
 #### :material-check:{ .pg-green } WireGuard対応
 
 MullvadはWireGuard®️プロトコルをサポートしています。 [Wireguard](https://wireguard.com)は最先端の[暗号化技術](https://wireguard.com/protocol)を用いた新しいプロトコルです。 加えて、WireGuardはよりシンプルかつより高性能であることを目指しています。
 
-Mullvad [recommends](https://mullvad.net/en/help/why-wireguard) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
+MullvadはWireGuardを用いることを[推奨](https://mullvad.net/en/help/why-wireguard)しています。 Android、iOS、macOSとLinuxアプリではデフォルトもしくは利用できる唯一のプロトコルですが、WindowsではWireGuardを[手動で有効にする](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app)必要があります。 また、公式のWireGuard[アプリ](https://wireguard.com/install)で使用するWireGuard設定を作成できます。
 
 #### :material-check:{ .pg-green } IPv6のサポート
 
-Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support) and connect from a device using an IPv6 address.
+Mullvadでは[IPv6でホストされているサービスへのアクセス](https://mullvad.net/en/blog/2014/9/15/ipv6-support)ができ、IPv6アドレスを使用しているデバイスからのアクセスもできます。
 
 #### :material-alert-outline:{ .pg-orange } リモートポートフォワーディング
 
-Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
+Mullvadでは以前、ポートフォワーディングに対応していましたが、[2023年3月](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports)にオプションを削除しました。 この機能の削除により、特にトレント・クライアントなどのピア・ツー・ピアアプリケーションには悪影響を及ぼす可能性があります。
 
-#### :material-check:{ .pg-green } Anti-Censorship
+#### :material-check:{ .pg-green } 検閲への対抗
 
-Mullvad offers several features to help bypass censorship and access the internet freely:
+Mullvadには検閲を回避し、自由にインターネットにアクセスするための機能があります：
 
-- **Obfuscation modes**: Mullvad has two built-in obfuscation modes: "UDP-over-TCP" and ["WireGuard over Shadowsocks"](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard). These modes disguise your VPN traffic as regular web traffic, making it harder for censors to detect and block. Supposedly, China has to use a [new method to disrupt Shadowsocks-routed traffic](https://gfw.report/publications/usenixsecurity23/en).
-- **Advanced obfuscation with Shadowsocks and v2ray**: For more advanced users, Mullvad provides a guide on how to use the [Shadowsocks with v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) plugin with Mullvad clients. This setup provides an additional layer of obfuscation and encryption.
-- **Custom server IPs**: To counter IP-blocking, you can request custom server IPs from Mullvad's support team. Once you receive the custom IPs, you can input the text file in the "Server IP override" settings, which will override the chosen server IP addresses with ones that aren't known to the censor.
-- **Bridges and proxies**: Mullvad also allows you to use bridges or proxies to reach their API (needed for authentication), which can help bypass censorship attempts that block access to the API itself.
+- **難読化モード**：「UDP-over-TCP」と[「WireGuard over Shadowsocks」](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard)の2つのモードがあります。 VPNトラフィックを通常のウェブトラフィックに偽装し、検閲当局による検出とブロックを困難にします。 おそらく、中国は[Shadowsocks経由のトラフィックを妨害するために新しい方法](https://gfw.report/publications/usenixsecurity23/en)を使う必要があります。
+- **Shadowsocksとv2rayによる高度な難読化**：高度なユーザーのためにMullvadクライアント上で[Shadowsocksをv2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray)プラグインと使うための方法を公開しています。 設定することで、難読化と暗号化レイヤーが追加されます。
+- **カスタムサーバーIP**：IPブロックに対抗するため、MullvadのサポートチームにカスタムサーバーIPをリクエストできます。 カスタムIPを受取り、「Server IP override」の設定でテキストファイルを入力します。検閲当局に知られていない選択したサーバーのIPアドレスで上書きします。
+- **ブリッジおよびプロキシ**：Mullvadでは（認証に必要な）APIにアクセスするためのブリッジやプロキシを利用できます。APIへのアクセスをブロックする検閲を回避することができます。
 
 #### :material-check:{ .pg-green } モバイルクライアント
 
-Mullvad has published [App Store](https://apps.apple.com/app/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
+Mullvadは[App Store](https://apps.apple.com/app/id1488466513)と[Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)でクライアントをダウンロードでき、どちらもWireGuard接続を手動で設定する必要がなく、使いやすいインターフェースがあります。 Android向けクライアントは[GitHub](https://github.com/mullvad/mullvadvpn-app/releases)でも公開されています。
 
-#### :material-information-outline:{ .pg-blue } Additional Notes
+#### :material-information-outline:{ .pg-blue } 追記事項
 
-Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers). They also provide the option to enable Defense Against AI-guided Traffic Analysis ([DAITA](https://mullvad.net/en/blog/daita-defense-against-ai-guided-traffic-analysis)) in their apps. DAITA protects against the threat of advanced traffic analysis which can be used to connect patterns in VPN traffic with specific websites.
+Mullvadはノードごとに[所有もしくはレンタル](https://mullvad.net/en/servers)しているかに関して非常に透明性が高いです。 また、アプリではDefense Against AI-guided Traffic Analysis ([DAITA](https://mullvad.net/en/blog/daita-defense-against-ai-guided-traffic-analysis)) を使うこともできます。 DAITAはVPNトラフィックのパターンと特定のウェブサイトを関連付ける高度なトラフィック分析の脅威から保護します。
 
 ## 規準
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">警告</p>
 
 VPNプロバイダーを利用すると、特定の状況下ではより良いプライバシーが得られますが、VPNプロバイダーは匿名性を与えるものではないことに注意が必要です。 VPNは違法行為のためのツールではありません。 「ログなし」ポリシーに依存しないでください。
 
