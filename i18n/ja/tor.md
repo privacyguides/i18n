@@ -2,7 +2,7 @@
 meta_title: "Tor Browserとネットワーク: 匿名のウェブブラウジング - Privacy Guides"
 title: "Tor Browser"
 icon: simple/torbrowser
-description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
+description: 検閲を回避するセキュアなネットワークであるTorネットワークにより、詮索からインターネットブラウジングを保護する。
 cover: tor.webp
 schema:
   - 
@@ -23,15 +23,15 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>以下の脅威から保護します：</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
-- [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+- [:material-account-cash: 監視資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-eye-outline: 監視社会](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-close-outline: 検閲](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
 
-**Tor** is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. 個人や組織は、プライバシーを損なうことなく、Torネットワーク上で「.onion 秘匿サービス」による情報共有が可能です。 Torトラフィックはブロックや追跡が困難であるため、Torは効果的な検閲回避ツールです。
+**Tor**はボランティアによるサーバー群で、無償で接続が可能であり、インターネット上のプライバシーとセキュリティを向上させることができます。 個人や組織は、プライバシーを損なうことなく、Torネットワーク上で「.onion 秘匿サービス」による情報共有が可能です。 Torトラフィックはブロックや追跡が困難であるため、Torは効果的な検閲回避ツールです。
 
-[Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor/ ""){.md-button}
+[Torの概要 :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: 動画：Torが必要な理由](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor/ ""){.md-button}
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
