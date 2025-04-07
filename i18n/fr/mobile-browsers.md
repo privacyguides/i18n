@@ -89,7 +89,7 @@ Le navigateur Tor est le seul moyen de vraiment naviguer anonymement sur Interne
 
 === "Android"
 
-    These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**.
+    Ces options se trouvent dans :material-menu: → **Paramètres** → **Boucliers Brave et confidentialité**.
 
 === "iOS"
 
