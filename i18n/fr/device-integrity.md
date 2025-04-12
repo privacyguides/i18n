@@ -69,7 +69,8 @@ Ces outils peuvent déclencher des faux positifs. Si l'un de ces outils détecte
 
 <div class="admonition recommendation" markdown>
 
-![Logo MVT](assets/img/device-integrity/mvt.webp){ align=right }
+![MVT logo](assets/img/device-integrity/mvt.webp#only-light){ align=right }
+![MVT logo](assets/img/device-integrity/mvt-dark.png#only-dark){ align=right }
 
 Le **Mobile Verification Toolkit** (**MVT**) est une collection d'utilitaires qui simplifie et automatise le processus d'analyse des appareils mobiles à la recherche de traces potentielles de ciblage ou d'infection par des campagnes connues de logiciels espions. MVT was developed by Amnesty International and released in 2021 in the context of the [Pegasus Project](https://forbiddenstories.org/about-the-pegasus-project).
 

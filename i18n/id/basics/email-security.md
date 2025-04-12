@@ -2,10 +2,10 @@
 meta_title: "Mengapa Surel Bukan Pilihan Terbaik untuk Privasi dan Keamanan - Privacy Guides"
 title: Keamanan Surel
 icon: material/email
-description: Surel pada dasarnya tidak aman dalam banyak hal, dan ini adalah beberapa alasan mengapa surel bukanlah pilihan utama kami untuk komunikasi yang aman.
+description: Email is insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
 ---
 
-Surel adalah bentuk komunikasi yang tidak aman secara bawaan. Anda bisa meningkatkan keamanan surel Anda dengan alat seperti OpenPGP, yang menambahkan Enkripsi End-to-End pada pesan Anda, tetapi OpenPGP masih memiliki sejumlah kekurangan dibandingkan dengan enkripsi pada aplikasi perpesanan lainnya, dan beberapa data surel tidak pernah bisa dienkripsi secara inheren karena bagaimana surel dirancang.
+Surel adalah bentuk komunikasi yang tidak aman secara bawaan. You can improve your email security with tools such as OpenPGP, which add End-to-End Encryption to your messages, but OpenPGP still has a number of drawbacks compared to encryption in other messaging applications.
 
 Akibatnya, surel paling baik digunakan untuk menerima surel transaksional (pemberitahuan, surel verifikasi, pengaturan ulang kata sandi, dll.) dari layanan yang Anda daftarkan secara daring, bukan untuk berkomunikasi dengan orang lain.
 
@@ -13,9 +13,9 @@ Akibatnya, surel paling baik digunakan untuk menerima surel transaksional (pembe
 
 Cara standar untuk menambahkan E2EE ke surel antara penyedia surel yang berbeda adalah dengan menggunakan OpenPGP. Ada beberapa implementasi yang berbeda dari standar OpenPGP, yang paling umum adalah [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) dan [OpenPGP.js](https://openpgpjs.org).
 
-Ada standar lain yang populer di kalangan bisnis yang disebut [S/MIME](https://en.wikipedia.org/wiki/S/MIME), namun standar ini membutuhkan sertifikat yang dikeluarkan dari [Certificate Authority](https://en.wikipedia.org/wiki/Certificate_authority) (tidak semua dari mereka mengeluarkan sertifikat S/MIME). It has support in [Google Workplace](https://support.google.com/a/topic/9061730) and [Outlook for Web or Exchange Server 2016, 2019](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
-
 Bahkan jika Anda menggunakan OpenPGP, ini tidak mendukung [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), yang berarti jika kunci privat Anda atau penerima dicuri, semua pesan sebelumnya yang dienkripsi dengan kunci tersebut akan terekspos. Inilah sebabnya mengapa kami merekomendasikan [instant messenger](../real-time-communication.md) yang menerapkan kerahasiaan ke depan melalui email untuk komunikasi orang-ke-orang bila memungkinkan.
+
+There is another standard which is popular with business called [S/MIME](https://en.wikipedia.org/wiki/S/MIME), however, it requires a certificate issued from a [Certificate Authority](https://en.wikipedia.org/wiki/Certificate_authority) (not all of them issue S/MIME certificates, and often a yearly payment is required). In some cases it is more usable than PGP because it has support in popular/mainstream email applications like Apple Mail, [Google Workplace](https://support.google.com/a/topic/9061730), and [Outlook](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480). However, S/MIME does not solve the issue of lack of forward secrecy, and isn't particularly more secure than PGP.
 
 ## Apa itu standar Direktori Kunci Web?
 
@@ -49,4 +49,4 @@ Metadata email dilindungi dari pengamat luar dengan [Opportunistic TLS](https://
 
 ### Mengapa Metadata tidak bisa menjadi E2EE?
 
-Email metadata is crucial to the most basic functionality of email (where it came from, and where it has to go). E2EE pada awalnya tidak dibangun ke dalam protokol email, melainkan membutuhkan perangkat lunak tambahan seperti OpenPGP. Karena pesan OpenPGP masih harus bekerja dengan penyedia email tradisional, ia tidak dapat mengenkripsi metadata email, hanya isi pesan itu sendiri. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, the subject lines, when you're emailing, etc.
+Email metadata is crucial to the most basic functionality of email (where it came from, and where it has to go). E2EE pada awalnya tidak dibangun ke dalam protokol email, melainkan membutuhkan perangkat lunak tambahan seperti OpenPGP. Because OpenPGP messages still have to work with traditional email providers, it cannot encrypt some of this email metadata required for identifying the parties communicating. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, when you're emailing, etc.

@@ -2,10 +2,10 @@
 meta_title: "Почему электронная почта не является лучшим выбором для конфиденциальности и безопасности - Privacy Guides"
 title: Безопасность электронной почты
 icon: material/email
-description: Электронная почта по своей природе небезопасна во многих отношениях, и вот некоторые из причин, по которым она не является нашим лучшим выбором для безопасных коммуникаций.
+description: Email is insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
 ---
 
-Электронная почта по умолчанию является небезопасной формой коммуникации. Вы можете повысить безопасность электронной почты с помощью таких инструментов, как OpenPGP, которые добавляют сквозное шифрование в ваши сообщения, но OpenPGP все еще имеет ряд недостатков по сравнению с шифрованием в других приложениях для обмена сообщениями, а некоторые данные электронной почты никогда не могут быть зашифрованы по своей сути из-за того, как устроена электронная почта.
+Электронная почта по умолчанию является небезопасной формой коммуникации. You can improve your email security with tools such as OpenPGP, which add End-to-End Encryption to your messages, but OpenPGP still has a number of drawbacks compared to encryption in other messaging applications.
 
 Таким образом, электронную почту лучше всего использовать для получения транзакционных писем (например, уведомлений, писем для проверки, сброса пароля и т.д.) от сайтов, в которых у вас есть аккаунт, а не для общения с другими людьми.
 
@@ -13,9 +13,9 @@ description: Электронная почта по своей природе н
 
 Стандартным способом добавления E2EE в электронные письма между различными поставщиками услуг электронной почты является использование OpenPGP. Существуют различные реализации стандарта OpenPGP, наиболее распространенными из которых являются [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) и [OpenPGP.js](https://openpgpjs.org).
 
-Существует еще один стандарт, популярный в бизнесе, который называется [S/MIME](https://en.wikipedia.org/wiki/S/MIME), однако для его использования требуется сертификат, выданный [центром сертификации](https://ru.wikipedia.org/wiki/%D0%A6%D0%B5%D0%BD%D1%82%D1%80_%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8) (не все из них выдают сертификаты S/MIME). Он поддерживается в [Google Workplace](https://support.google.com/a/topic/9061730) и [Outlook for Web или Exchange Server 2016, 2019](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
-
 Даже если вы используете OpenPGP, он не поддерживает [прямую секретность](https://ru.wikipedia.org/wiki/Perfect_forward_secrecy), что означает, что если ваш закрытый ключ или закрытый ключ получателя когда-либо будет украден, все предыдущие сообщения, зашифрованные с его помощью, могут быть расшифрованы. Именно поэтому мы рекомендуем использовать для общения между людьми [мессенджеры](../real-time-communication.md), которые обеспечивают прямую секретность, а не электронную почту.
+
+There is another standard which is popular with business called [S/MIME](https://en.wikipedia.org/wiki/S/MIME), however, it requires a certificate issued from a [Certificate Authority](https://en.wikipedia.org/wiki/Certificate_authority) (not all of them issue S/MIME certificates, and often a yearly payment is required). In some cases it is more usable than PGP because it has support in popular/mainstream email applications like Apple Mail, [Google Workplace](https://support.google.com/a/topic/9061730), and [Outlook](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480). However, S/MIME does not solve the issue of lack of forward secrecy, and isn't particularly more secure than PGP.
 
 ## Что такое стандарт Web Key Directory?
 
@@ -49,4 +49,4 @@ It is advantageous for the decryption to occur on the smart card to avoid possib
 
 ### Почему метаданные не могут быть E2EE?
 
-Метаданные электронной почты имеют решающее значение для самой базовой функциональности электронной почты (откуда она пришла и куда должна отправиться). E2EE изначально не был встроен в почтовые протоколы, вместо этого потребовалось дополнительное программное обеспечение, такое как OpenPGP. Поскольку сообщения OpenPGP по-прежнему должны работать с традиционными почтовыми провайдерами, он не может шифровать метаданные электронной почты, только само тело сообщения. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, the subject lines, when you're emailing, etc.
+Метаданные электронной почты имеют решающее значение для самой базовой функциональности электронной почты (откуда она пришла и куда должна отправиться). E2EE изначально не был встроен в почтовые протоколы, вместо этого потребовалось дополнительное программное обеспечение, такое как OpenPGP. Because OpenPGP messages still have to work with traditional email providers, it cannot encrypt some of this email metadata required for identifying the parties communicating. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, when you're emailing, etc.

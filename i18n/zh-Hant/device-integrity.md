@@ -69,7 +69,8 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 <div class="admonition recommendation" markdown>
 
-![MVT logo](assets/img/device-integrity/mvt.webp){ align=right }
+![MVT logo](assets/img/device-integrity/mvt.webp#only-light){ align=right }
+![MVT logo](assets/img/device-integrity/mvt-dark.png#only-dark){ align=right }
 
 **Mobile Verification Toolkit** (**MVT**) 是一組實用程式，可簡化和自動化掃描行動裝置的過程，尋找已知間諜軟體活動的潛在目標或感染痕跡。 MVT 由國際特赦組織開發，於 2021 年在 [飛馬計畫（Pegasus Project）](https://forbiddenstories.org/about-the-pegasus-project/) 的背景下發布。
 

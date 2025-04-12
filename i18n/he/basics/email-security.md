@@ -2,10 +2,10 @@
 meta_title: "מדוע אימייל אינו הבחירה הטובה ביותר לפרטיות ואבטחה - Privacy Guides"
 title: אבטחת אימייל
 icon: material/email
-description: אימייל הוא מטבעו לא מאובטח במובנים רבים, ואלה חלק מהסיבות שהוא לא הבחירה המובילה שלנו לתקשורת מאובטחת.
+description: Email is insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
 ---
 
-אימייל הוא צורת תקשורת לא מאובטחת כברירת מחדל. אתה יכול לשפר את אבטחת האימייל שלך עם כלים כגון OpenPGP, שמוסיפים הצפנה מקצה לקצה להודעות שלך, אך ל-OpenPGP עדיין יש מספר חסרונות בהשוואה להצפנה ביישומי הודעות אחרים, וחלק מנתוני הדוא"ל לעולם אינם יכולים להיות מוצפנים מטבעם. לאופן עיצוב האימייל.
+אימייל הוא צורת תקשורת לא מאובטחת כברירת מחדל. You can improve your email security with tools such as OpenPGP, which add End-to-End Encryption to your messages, but OpenPGP still has a number of drawbacks compared to encryption in other messaging applications.
 
 כתוצאה מכך, האימייל משמש בצורה הטובה ביותר לקבלת הודעות אימייל עסקאות (כמו התראות, אימייל אימות, איפוסי סיסמה וכו') מהשירותים שאליהם אתה נרשם באופן מקוון, לא לתקשורת עם אחרים.
 
@@ -13,9 +13,9 @@ description: אימייל הוא מטבעו לא מאובטח במובנים ר�
 
 הדרך הסטנדרטית להוסיף E2EE למיילים בין ספקי אימייל שונים היא באמצעות OpenPGP. ישנם יישומים שונים של תקן OpenPGP, הנפוצים ביותר הם [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) ו- [OpenPGP.js](https://openpgpjs.org).
 
-קיים תקן נוסף שפופולרי בקרב עסקים בשם [S/MIME](https://en.wikipedia.org/wiki/S/MIME), עם זאת, הוא דורש אישור שהונפקו מ[>רשות האישורים](https://en.wikipedia.org/wiki/Certificate_authority) (לא כולן מנפיקות אישורי S/MIME). It has support in [Google Workplace](https://support.google.com/a/topic/9061730) and [Outlook for Web or Exchange Server 2016, 2019](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
-
 גם אם אתה משתמש ב - OpenPGP, הוא אינו תומך בסודיות [קדימה](https://en.wikipedia.org/wiki/Forward_secrecy), כלומר אם המפתח הפרטי שלך או של הנמען ייגנב אי פעם, כל ההודעות הקודמות שהוצפנו איתו ייחשפו. זו הסיבה שאנו ממליצים על [מסנג'רים מיידיים](../real-time-communication.md) אשר מיישמים סודיות קדימה על פני דואר אלקטרוני עבור הודעות פנים אל פנים במידת האפשר.
+
+There is another standard which is popular with business called [S/MIME](https://en.wikipedia.org/wiki/S/MIME), however, it requires a certificate issued from a [Certificate Authority](https://en.wikipedia.org/wiki/Certificate_authority) (not all of them issue S/MIME certificates, and often a yearly payment is required). In some cases it is more usable than PGP because it has support in popular/mainstream email applications like Apple Mail, [Google Workplace](https://support.google.com/a/topic/9061730), and [Outlook](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480). However, S/MIME does not solve the issue of lack of forward secrecy, and isn't particularly more secure than PGP.
 
 ## What is the Web Key Directory standard?
 
@@ -49,4 +49,4 @@ It is advantageous for the decryption to occur on the smart card to avoid possib
 
 ### למה מטא נתונים לא יכולים להיות E2EE?
 
-מטא נתונים של דואר אלקטרוני חיוניים לפונקציונליות הבסיסית ביותר של דואר אלקטרוני (מהיכן הוא הגיע ולאן הוא צריך ללכת). E2EE לא היה מובנה בפרוטוקולי הדואר האלקטרוני במקור, ובמקום זאת נדרש לתוכנת הרחבה כמו OpenPGP. מכיוון שהודעות OpenPGP עדיין צריכות לעבוד עם ספקי דואר אלקטרוני מסורתיים, הן אינן יכולות להצפין מטה - נתונים של דואר אלקטרוני, אלא רק את גוף ההודעה עצמו. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, the subject lines, when you're emailing, etc.
+מטא נתונים של דואר אלקטרוני חיוניים לפונקציונליות הבסיסית ביותר של דואר אלקטרוני (מהיכן הוא הגיע ולאן הוא צריך ללכת). E2EE לא היה מובנה בפרוטוקולי הדואר האלקטרוני במקור, ובמקום זאת נדרש לתוכנת הרחבה כמו OpenPGP. Because OpenPGP messages still have to work with traditional email providers, it cannot encrypt some of this email metadata required for identifying the parties communicating. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, when you're emailing, etc.

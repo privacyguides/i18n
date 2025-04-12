@@ -607,6 +607,16 @@ Para cifrar su unidad de SO, normalmente recomendamos utilizar la herramienta de
 
 [Más información :material-arrow-right-drop-circle:](real-time-communication.md)
 
+### Social Networks
+
+<div class="grid cards" markdown>
+
+- ![Mastodon logo](assets/img/social-networks/mastodon.svg){ .twemoji loading=lazy } [Mastodon](social-networks.md#mastodon)
+
+</div>
+
+[Más información :material-arrow-right-drop-circle:](social-networks.md)
+
 ## Hardware
 
 ### Llaves de seguridad
@@ -718,7 +728,7 @@ Estas herramientas pueden ser útiles para determinadas personas. Proporcionan f
 
 <div class="grid cards" markdown>
 
-- ![MVT logo](assets/img/device-integrity/mvt.webp){ .twemoji loading=lazy } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
+- ![MVT logo](assets/img/device-integrity/mvt.webp#only-light){ .twemoji loading=lazy }![MVT logo](assets/img/device-integrity/mvt-dark.png#only-dark){ .twemoji loading=lazy } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
 - ![iMazing logo](assets/img/device-integrity/imazing.png){ .twemoji loading=lazy } [iMazing (iOS)](device-integrity.md#imazing-ios)
 - ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ .twemoji loading=lazy }![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji loading=lazy } [Auditor (Android)](device-integrity.md#auditor-android)
 

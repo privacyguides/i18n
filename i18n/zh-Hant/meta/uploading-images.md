@@ -88,8 +88,8 @@ scour --set-precision=5 \
 
 ### WebP
 
-使用 [cwebp](https://developers.google.com/speed/webp/docs/using) 指令將 PNG 或 JPEG 影像檔案轉換成 WebP 格式：
+Use the [`cwebp`](https://developers.google.com/speed/webp/docs/using) command to convert PNG or JPEG image files to WebP format:
 
 ```bash
-cwebp -q 70 -m 6 input_file -o output.webp
+cwebp -m 6 input_file -o output.webp
 ```

@@ -602,6 +602,16 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 [Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](real-time-communication.md)
 
+### Social Networks
+
+<div class="grid cards" markdown>
+
+- ![Mastodon logo](assets/img/social-networks/mastodon.svg){ .twemoji loading=lazy } [Mastodon](social-networks.md#mastodon)
+
+</div>
+
+[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](social-networks.md)
+
 ## Donanım
 
 ### Güvenlik Anahtarları
@@ -713,9 +723,9 @@ Bu araçlar belirli bireyler için fayda sağlayabilir. Çoğu insanın endişel
 
 <div class="grid cards" markdown>
 
-- ![MVT logosu](assets/img/device-integrity/mvt.webp){ .twemoji loading=lazy } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
+- ![MVT logo](assets/img/device-integrity/mvt.webp#only-light){ .twemoji loading=lazy }![MVT logo](assets/img/device-integrity/mvt-dark.png#only-dark){ .twemoji loading=lazy } [Mobile Verification Toolkit](device-integrity.md#mobile-verification-toolkit)
 - ![iMazing logo](assets/img/device-integrity/imazing.png){ .twemoji loading=lazy } [iMazing (iOS)](device-integrity.md#imazing-ios)
-- ![Denetçi logosu](assets/img/device-integrity/auditor.svg#only-light){ .twemoji loading=lazy }![Denetçi logosu](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji loading=lazy } [Denetçi (Android)](device-integrity.md#auditor-android)
+- ![Auditor logo](assets/img/device-integrity/auditor.svg#only-light){ .twemoji loading=lazy }![Auditor logo](assets/img/device-integrity/auditor-dark.svg#only-dark){ .twemoji loading=lazy } [Auditor (Android)](device-integrity.md#auditor-android)
 
 </div>
 

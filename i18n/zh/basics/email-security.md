@@ -2,10 +2,10 @@
 meta_title: "为什么电子邮件不是隐私和安全的最佳选择 - 隐私指南"
 title: 电子邮件安全
 icon: material/email
-description: 电子邮件在许多方面本身就不安全，以下是它不是我们安全通信首选的部分原因。
+description: Email is insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
 ---
 
-电子邮件在默认情况下是一种不安全的通信形式。 你可以用OpenPGP等工具来提高你的电子邮件的安全性，这些工具为你的邮件增加了端对端加密功能，但OpenPGP与其他消息应用程序的加密相比，仍有一些缺点，而且由于电子邮件的设计方式，一些电子邮件数据永远无法得到固有的加密。
+电子邮件在默认情况下是一种不安全的通信形式。 You can improve your email security with tools such as OpenPGP, which add End-to-End Encryption to your messages, but OpenPGP still has a number of drawbacks compared to encryption in other messaging applications.
 
 因此，电子邮件最好用于接收来自你在线注册的服务的交易性邮件（如通知、验证邮件、密码重置等），而不是用于与他人交流。
 
@@ -13,9 +13,9 @@ description: 电子邮件在许多方面本身就不安全，以下是它不是�
 
 在不同的电邮供应商之间为电子邮件添加端到端加密的标准方法是使用OpenPGP。 OpenPGP标准有不同的实现方式，最常见的是 [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) 和 [OpenPGP.js](https://openpgpjs.org)。
 
-有另一种标准受到商业界的欢迎，称为 [S/MIME](https://en.wikipedia.org/wiki/S/MIME)，然而，它需要一个由 [证书颁发机构](https://en.wikipedia.org/wiki/Certificate_authority) （不是所有的证书颁发机构都颁发S/MIME证书）颁发的证书。 It has support in [Google Workplace](https://support.google.com/a/topic/9061730) and [Outlook for Web or Exchange Server 2016, 2019](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
-
 即使你使用OpenPGP，它也不支持 [前向加密](https://en.wikipedia.org/wiki/Forward_secrecy)，这意味着如果你或收件人的私钥被盗，所有在之前使用它加密的信息都将被暴露。 这就是为什么我们推荐 [即时通讯工具](../real-time-communication.md) ，比起电子邮件，它尽可能更好地在人与人之间的通信中实现前向保密性。
+
+There is another standard which is popular with business called [S/MIME](https://en.wikipedia.org/wiki/S/MIME), however, it requires a certificate issued from a [Certificate Authority](https://en.wikipedia.org/wiki/Certificate_authority) (not all of them issue S/MIME certificates, and often a yearly payment is required). In some cases it is more usable than PGP because it has support in popular/mainstream email applications like Apple Mail, [Google Workplace](https://support.google.com/a/topic/9061730), and [Outlook](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480). However, S/MIME does not solve the issue of lack of forward secrecy, and isn't particularly more secure than PGP.
 
 ## 什么是网络密钥目录标准？
 
@@ -49,4 +49,4 @@ It is advantageous for the decryption to occur on the smart card to avoid possib
 
 ### 为什么元数据不能被端到端加密？
 
-电子邮件元数据对于电子邮件最基本的功能（它从哪里来，又要到哪里去）至关重要。 E2EE最初没有内置于电子邮件协议中，而是需要像OpenPGP这样的附加软件。 因为OpenPGP信息仍然要与传统的电子邮件供应商合作，它不能对电子邮件元数据进行加密，只能对信息主体本身进行加密。 That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, the subject lines, when you're emailing, etc.
+电子邮件元数据对于电子邮件最基本的功能（它从哪里来，又要到哪里去）至关重要。 E2EE最初没有内置于电子邮件协议中，而是需要像OpenPGP这样的附加软件。 Because OpenPGP messages still have to work with traditional email providers, it cannot encrypt some of this email metadata required for identifying the parties communicating. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, when you're emailing, etc.

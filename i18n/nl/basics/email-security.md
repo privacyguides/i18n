@@ -2,10 +2,10 @@
 meta_title: "Waarom e-mail niet de beste keuze is voor privacy en veiligheid - Privacy Guides"
 title: Email beveiliging
 icon: material/email
-description: E-mail is op vele manieren inherent onveilig, en dit zijn enkele van de redenen waarom het niet onze eerste keuze is voor veilige communicatie.
+description: Email is insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
 ---
 
-E-mail is standaard een onveilige vorm van communicatie. Je kunt je e-mailbeveiliging verbeteren met tools als OpenPGP, die end-to-end encryptie toevoegen aan je berichten, maar OpenPGP heeft nog steeds een aantal nadelen in vergelijking met encryptie in andere berichtentoepassingen, en sommige e-mailgegevens kunnen nooit inherent worden versleuteld als gevolg van de manier waarop e-mail is ontworpen.
+E-mail is standaard een onveilige vorm van communicatie. You can improve your email security with tools such as OpenPGP, which add End-to-End Encryption to your messages, but OpenPGP still has a number of drawbacks compared to encryption in other messaging applications.
 
 Als gevolg hiervan wordt e-mail het beste gebruikt voor het ontvangen van transactionele e-mails (zoals meldingen, verificatie-e-mails, wachtwoordresets, enz.) van de services waarvoor je je online aanmeldt, niet voor het communiceren met anderen.
 
@@ -13,9 +13,9 @@ Als gevolg hiervan wordt e-mail het beste gebruikt voor het ontvangen van transa
 
 De standaardmanier om E2EE toe te voegen aan e-mails tussen verschillende e-mailproviders is door OpenPGP te gebruiken. Er zijn verschillende implementaties van de OpenPGP-standaard, waarvan [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) en [OpenPGP.js](https://openpgpjs.org)de meest voorkomende zijn.
 
-Er is een andere standaard die populair is bij bedrijven, [S/MIME](https://en.wikipedia.org/wiki/S/MIME), maar deze vereist een certificaat dat is afgegeven door een [Certificate Authority](https://en.wikipedia.org/wiki/Certificate_authority) (niet alle instanties geven S/MIME-certificaten af). It has support in [Google Workplace](https://support.google.com/a/topic/9061730) and [Outlook for Web or Exchange Server 2016, 2019](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
-
 Zelfs als je OpenPGP gebruikt, biedt het geen ondersteuning voor [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), wat betekent dat als jouw privésleutel of die van de ontvanger ooit wordt gestolen, alle eerdere berichten die ermee zijn versleuteld, openbaar worden. Daarom bevelen wij [instant messengers](../real-time-communication.md) aan, die indien mogelijk forward secrecy implementeren in plaats van e-mail voor communicatie van persoon tot persoon.
+
+There is another standard which is popular with business called [S/MIME](https://en.wikipedia.org/wiki/S/MIME), however, it requires a certificate issued from a [Certificate Authority](https://en.wikipedia.org/wiki/Certificate_authority) (not all of them issue S/MIME certificates, and often a yearly payment is required). In some cases it is more usable than PGP because it has support in popular/mainstream email applications like Apple Mail, [Google Workplace](https://support.google.com/a/topic/9061730), and [Outlook](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480). However, S/MIME does not solve the issue of lack of forward secrecy, and isn't particularly more secure than PGP.
 
 ## What is the Web Key Directory standard?
 
@@ -49,4 +49,4 @@ E-mail metadata wordt beschermd tegen externe waarnemers met [Opportunistic TLS]
 
 ### Waarom kan metadata niet E2EE zijn?
 
-E-mail metadata is van cruciaal belang voor de meest elementaire functionaliteit van e-mail (waar het vandaan komt, en waar het naartoe moet). E2EE was oorspronkelijk niet in de e-mailprotocollen ingebouwd; in plaats daarvan was extra software zoals OpenPGP nodig. Omdat OpenPGP-berichten nog steeds met traditionele e-mailproviders moeten werken, kan het niet de metagegevens van e-mail versleutelen, alleen de inhoud van het bericht zelf. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, the subject lines, when you're emailing, etc.
+E-mail metadata is van cruciaal belang voor de meest elementaire functionaliteit van e-mail (waar het vandaan komt, en waar het naartoe moet). E2EE was oorspronkelijk niet in de e-mailprotocollen ingebouwd; in plaats daarvan was extra software zoals OpenPGP nodig. Because OpenPGP messages still have to work with traditional email providers, it cannot encrypt some of this email metadata required for identifying the parties communicating. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, when you're emailing, etc.

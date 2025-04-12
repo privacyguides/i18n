@@ -94,32 +94,35 @@ Tresorit 已獲得多項獨立安全稽核：
 
 ![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
 
-**Peergos** 是去中心化協定的儲存、社交媒體和應用程式開源平台。 其提供安全且私密的空間，用戶可以在其中儲存、分享和查看照片、影片、文件等。 Peergos 透過抗量子端對端加密來保護檔案，並確保有關檔案所有資料保持私密。 它建構在 [IPFS (星際檔案系統)](https://ipfs.tech) 之上，是一個點對點的架構，可防止 [:material-close-outline: 審查](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } 。
+**Peergos** 是去中心化協定的儲存、社交媒體和應用程式開源平台。 其提供安全且私密的空間，用戶可以在其中儲存、分享和查看照片、影片、文件等。 Peergos 透過抗量子端對端加密來保護檔案，並確保有關檔案所有資料保持私密。
 
-[:octicons-home-16: 首頁](https://peergos.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://peergos.net/privacy.html){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://book.peergos.org){ .card-link title="說明文件" }
-[:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="原始碼" }
+[:octicons-home-16: Homepage](https://peergos.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://peergos.net/privacy.html){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://book.peergos.org){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/peergos/peergos#support){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
-- [:octicons-globe-16: 網頁版](https://peergos.net)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=peergos.android)
+- [:simple-github: GitHub](https://github.com/Peergos/web-ui/releases)
 - [:fontawesome-brands-windows: Windows](https://github.com/Peergos/web-ui/releases)
 - [:simple-apple: macOS](https://github.com/Peergos/web-ui/releases)
 - [:simple-linux: Linux](https://github.com/Peergos/web-ui/releases)
+- [:octicons-browser-16: Web](https://peergos.net)
 
 </details>
 
 </div>
 
-Peergos 主要是網頁應用程式，但您可以自行託管伺服器，將其作為遠端 Peergos 帳戶的本機快取，或作為獨立的儲存伺服器，省去註冊遠端帳戶和訂閱的麻煩。 Peergos 伺服器是 `.jar` 檔案，這表示您必須將 Java 17+ 執行環境（[OpenJDK 下載](https://azul.com/downloads)）安裝在電腦上以使其正常工作。
+Peergos is built on top of the [InterPlanetary File System (IPFS)](https://ipfs.tech), a peer-to-peer architecture that protects against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}.
 
-透過註冊帳戶在其付費託管服務上運行本機版本的 Peergos ，用戶可在不依賴 DNS 或 TLS 憑證授權單位的情況下存取 Peergos 儲存，並將資料副本備份到其雲端。 無論運行他們的桌面伺服器還是僅使用他們的託管 Web 介面，使用者體驗都應該是相同的。
+Peergos is primarily a web app, but you can self-host the server either as a local cache for your remote Peergos account, or as a standalone storage server which negates the need to register for a remote account and subscription. The Peergos server is a `.jar` file, which means the Java 17+ Runtime Environment ([OpenJDK download](https://azul.com/downloads)) should be installed on your machine to get it working.
+
+Running a local version of Peergos alongside a registered account on their paid, hosted service allows you to access your Peergos storage without any reliance on DNS or TLS certificate authorities, and keep a copy of your data backed up to their cloud. The user experience should be the same whether you run their desktop server or just use their hosted web interface.
 
 Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November 2024 by Radically Open Security and all issues were fixed. They were previously [audited](https://cure53.de/pentest-report_peergos.pdf) by Cure53 in June 2019, and all found issues were subsequently fixed.
-
-An Android app is not available, but it is [in the works](https://discuss.privacyguides.net/t/peergos-private-storage-sharing-social-media-and-application-platform/11825/25). 目前的解決方法是改用移動平台 [PWA](https://peergos.net)。
 
 ## 標準
 

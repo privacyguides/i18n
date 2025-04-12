@@ -3,7 +3,7 @@ meta_title: 尊重隱私的 Android 和 iOS 健康應用程式 - Privacy Guides
 title: 健康與保健
 icon: material/heart-pulse
 description: 我們目前建議您在手機上使用這些應用程式來處理所有與健康相關的事務。
-cover: health-cover.webp
+cover: health.webp
 ---
 
 <small>防護下列威脅：</small>

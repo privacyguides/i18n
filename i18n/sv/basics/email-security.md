@@ -2,10 +2,10 @@
 meta_title: "Why Email Isn't the Best Choice for Privacy and Security - Privacy Guides"
 title: E-postsäkerhet
 icon: material/email
-description: Email is inherently insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
+description: Email is insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
 ---
 
-E-post är som standard en osäker kommunikationsform. Du kan förbättra din e-postsäkerhet med verktyg som OpenPGP, som lägger till End-to-End-kryptering till dina meddelanden, men OpenPGP har fortfarande ett antal nackdelar jämfört med kryptering i andra meddelandeprogram, och vissa e-postdata kan aldrig krypteras av naturliga skäl på grund av hur e-post är utformad.
+E-post är som standard en osäker kommunikationsform. You can improve your email security with tools such as OpenPGP, which add End-to-End Encryption to your messages, but OpenPGP still has a number of drawbacks compared to encryption in other messaging applications.
 
 E-post används därför bäst för att ta emot transaktionsmeddelanden (t. ex. meddelanden, verifieringsmeddelanden, lösenordsåterställning osv.) från de tjänster du registrerar dig för online, inte för att kommunicera med andra.
 
@@ -13,9 +13,9 @@ E-post används därför bäst för att ta emot transaktionsmeddelanden (t. ex. 
 
 Standardmetoden för att lägga till E2EE i e-postmeddelanden mellan olika e-postleverantörer är att använda OpenPGP. Det finns olika implementeringar av OpenPGP-standarden, de vanligaste är [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) och [OpenPGP.js](https://openpgpjs.org).
 
-Det finns en annan standard som är populär bland företag och som heter [S/MIME](https://en.wikipedia.org/wiki/S/MIME), men den kräver ett certifikat som utfärdats av en [Certifikatmyndighet](https://en.wikipedia.org/wiki/Certificate_authority) (alla utfärdar inte S/MIME-certifikat). It has support in [Google Workplace](https://support.google.com/a/topic/9061730) and [Outlook for Web or Exchange Server 2016, 2019](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
-
 Även om du använder OpenPGP har det inte stöd för [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), vilket innebär att om antingen din eller mottagarens privata nyckel någonsin stjäls kommer alla tidigare meddelanden som krypterats med den att avslöjas. Det är därför vi rekommenderar [snabbmeddelanden](../real-time-communication.md) som implementerar vidarebefordran av sekretess via e-post för person-till-person-kommunikation när det är möjligt.
+
+There is another standard which is popular with business called [S/MIME](https://en.wikipedia.org/wiki/S/MIME), however, it requires a certificate issued from a [Certificate Authority](https://en.wikipedia.org/wiki/Certificate_authority) (not all of them issue S/MIME certificates, and often a yearly payment is required). In some cases it is more usable than PGP because it has support in popular/mainstream email applications like Apple Mail, [Google Workplace](https://support.google.com/a/topic/9061730), and [Outlook](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480). However, S/MIME does not solve the issue of lack of forward secrecy, and isn't particularly more secure than PGP.
 
 ## What is the Web Key Directory standard?
 
@@ -49,4 +49,4 @@ E-postmetadata skyddas från utomstående observatörer med [Opportunistic TLS](
 
 ### Varför kan metadata inte vara E2EE?
 
-Metadata för e-post är avgörande för e-postens mest grundläggande funktionalitet (varifrån den kom och vart den ska ta vägen). E2EE var ursprungligen inte inbyggt i e-postprotokollen, utan krävde istället tilläggsprogram som OpenPGP. Eftersom OpenPGP-meddelanden fortfarande måste fungera med traditionella e-postleverantörer kan de inte kryptera metadata, utan endast själva meddelandet. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, the subject lines, when you're emailing, etc.
+Metadata för e-post är avgörande för e-postens mest grundläggande funktionalitet (varifrån den kom och vart den ska ta vägen). E2EE var ursprungligen inte inbyggt i e-postprotokollen, utan krävde istället tilläggsprogram som OpenPGP. Because OpenPGP messages still have to work with traditional email providers, it cannot encrypt some of this email metadata required for identifying the parties communicating. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, when you're emailing, etc.

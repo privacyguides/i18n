@@ -2,10 +2,10 @@
 meta_title: "E-posta, Gizlilik ve Güvenlik için Neden En İyi Seçenek Değildir - Privacy Guides"
 title: E-posta Güvenliği
 icon: material/email
-description: Email is inherently insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
+description: Email is insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
 ---
 
-E-posta varsayılan olarak güvensiz bir iletişim şeklidir. Mesajlarınıza Uçtan Uca Şifreleme ekleyen OpenPGP gibi araçlarla e-posta güvenliğinizi artırabilirsiniz, ancak OpenPGP'nin diğer mesajlaşma uygulamalarındaki şifrelemeye kıyasla hala bir takım dezavantajları vardır ve e-postanın tasarlanma şekli nedeniyle bazı e-posta verileri hiçbir zaman doğal olarak şifrelenemez.
+E-posta varsayılan olarak güvensiz bir iletişim şeklidir. You can improve your email security with tools such as OpenPGP, which add End-to-End Encryption to your messages, but OpenPGP still has a number of drawbacks compared to encryption in other messaging applications.
 
 Sonuç olarak e-posta, başkalarıyla iletişim kurmak için değil, çevrimiçi olarak kaydolduğunuz hizmetlerden işlem e-postaları (bildirimler, doğrulama e-postaları, parola sıfırlama vb. gibi) almak için en iyi şekilde kullanılır.
 
@@ -13,9 +13,9 @@ Sonuç olarak e-posta, başkalarıyla iletişim kurmak için değil, çevrimiçi
 
 Farklı e-posta sağlayıcıları arasındaki e-postalara uçtan uca şifreleme eklemenin standart yolu OpenPGP kullanmaktır. OpenPGP standardının farklı uygulamaları vardır, en yaygın olanları [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) ve [OpenPGP.js](https://openpgpjs.org).
 
-İş dünyasında popüler olan [S/MIME](https://en.wikipedia.org/wiki/S/MIME)adında başka bir standart daha vardır, ancak bir [Sertifika Yetkilisi](https://en.wikipedia.org/wiki/Certificate_authority) tarafından verilen bir sertifika gerektirir (hepsi S/MIME sertifikası vermez). It has support in [Google Workplace](https://support.google.com/a/topic/9061730) and [Outlook for Web or Exchange Server 2016, 2019](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
-
 Even if you use OpenPGP, it does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. Bu nedenle, mümkün olduğunca kişiden kişiye iletişim için e-posta yerine ileri gizlilik uygulayan [anlık mesajlaşma programlarını](../real-time-communication.md) öneriyoruz.
+
+There is another standard which is popular with business called [S/MIME](https://en.wikipedia.org/wiki/S/MIME), however, it requires a certificate issued from a [Certificate Authority](https://en.wikipedia.org/wiki/Certificate_authority) (not all of them issue S/MIME certificates, and often a yearly payment is required). In some cases it is more usable than PGP because it has support in popular/mainstream email applications like Apple Mail, [Google Workplace](https://support.google.com/a/topic/9061730), and [Outlook](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480). However, S/MIME does not solve the issue of lack of forward secrecy, and isn't particularly more secure than PGP.
 
 ## What is the Web Key Directory standard?
 
@@ -49,4 +49,4 @@ Email metadata is protected from outside observers with [Opportunistic TLS](http
 
 ### Why Can't Metadata be E2EE?
 
-Email metadata is crucial to the most basic functionality of email (where it came from, and where it has to go). E2EE was not built into the email protocols originally, instead requiring add-on software like OpenPGP. Because OpenPGP messages still have to work with traditional email providers, it cannot encrypt email metadata, only the message body itself. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, the subject lines, when you're emailing, etc.
+Email metadata is crucial to the most basic functionality of email (where it came from, and where it has to go). E2EE was not built into the email protocols originally, instead requiring add-on software like OpenPGP. Because OpenPGP messages still have to work with traditional email providers, it cannot encrypt some of this email metadata required for identifying the parties communicating. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, when you're emailing, etc.

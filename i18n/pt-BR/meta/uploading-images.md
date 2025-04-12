@@ -88,8 +88,8 @@ scour --set-precision=5 \
 
 ### WebP
 
-Use o comando [cwebp](https://developers.google.com/speed/webp/docs/using) para converter arquivos de imagem PNG ou JPEG para o formato WebP:
+Use the [`cwebp`](https://developers.google.com/speed/webp/docs/using) command to convert PNG or JPEG image files to WebP format:
 
 ```bash
-cwebp -q 70 -m 6 input_file -o output.webp
+cwebp -m 6 input_file -o output.webp
 ```

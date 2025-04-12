@@ -2,10 +2,10 @@
 meta_title: "Perché l'Email Non È la Scelta Migliore per Privacy e Sicurezza - Privacy Guides"
 title: Sicurezza dell'Email
 icon: material/email
-description: L'email è intrinsecamente non sicura in molti modi; ecco alcune delle motivazioni per cui non è la nostra scelta principale per le comunicazioni sicure.
+description: Email is insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
 ---
 
-L'email è una forma non sicura di comunicazione di default. Puoi migliorare la sicurezza della tua email con strumenti come OpenPGP, che aggiunge la Crittografia End-to-End ai tuoi messaggi; tuttavia, OpenPGP, presenta ancora numerosi svantaggi rispetto alla crittografia su altre applicazioni di messaggistica e, alcuni dati email, non possono mai essere intrinsecamente crittografati, a causa della progettazione dell'email.
+L'email è una forma non sicura di comunicazione di default. You can improve your email security with tools such as OpenPGP, which add End-to-End Encryption to your messages, but OpenPGP still has a number of drawbacks compared to encryption in other messaging applications.
 
 Di conseguenza, l'email è utilizzata meglio per ricevere email di transazione (quali notifiche, email di verifica, ripristini di password, etc.) dai servizi cui ti iscrivi online, non per comunicare con gli altri.
 
@@ -13,9 +13,9 @@ Di conseguenza, l'email è utilizzata meglio per ricevere email di transazione (
 
 Il metodo standard per aggiungere l'E2EE alle email tra diversi fornitori email è utilizzando OpenPGP. Esistono svariate implementazioni dello standard OpenPGP; le più comuni sono [GnuPG](https://en.wikipedia.org/wiki/GNU_Privacy_Guard) e [OpenPGP.js](https://openpgpjs.org).
 
-Esiste un altro standard popolare tra le aziende, detto [S/MIME](https://en.wikipedia.org/wiki/S/MIME), tuttavia, richiede un certificato emesso da un'[Autorità di Certificazione](https://en.wikipedia.org/wiki/Certificate_authority) (non tutte emettono certificati S/MIME). È supportato da [Google Workplace](https://support.google.com/a/topic/9061730) e [Outlook sul Web o Exchange Server 2016 e 2019](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480).
-
 Anche se utilizzi OpenPGP, non supporta la [segretezza in avanti](https://en.wikipedia.org/wiki/Forward_secrecy), il che significa che se la chiave privata tua o del destinatario viene rubata, tutti i messaggi precedentemente crittografati saranno esposti. Ecco perché consigliamo la [messaggistica istantanea](../real-time-communication.md), che implementa la segretezza in avanti via email, per le comunicazioni personali, quando possibile.
+
+There is another standard which is popular with business called [S/MIME](https://en.wikipedia.org/wiki/S/MIME), however, it requires a certificate issued from a [Certificate Authority](https://en.wikipedia.org/wiki/Certificate_authority) (not all of them issue S/MIME certificates, and often a yearly payment is required). In some cases it is more usable than PGP because it has support in popular/mainstream email applications like Apple Mail, [Google Workplace](https://support.google.com/a/topic/9061730), and [Outlook](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480). However, S/MIME does not solve the issue of lack of forward secrecy, and isn't particularly more secure than PGP.
 
 ## Che cos'è lo standard Web Key Directory?
 
@@ -49,4 +49,4 @@ I metadati dell'email sono protetti dagli osservatori esterni con il [TLS opport
 
 ### Perché i metadati non possono essere E2EE?
 
-I metadati dell'email sono fondamentali per le funzionalità di base dell'email (da dove proviene e dove deve andare). Originariamente, l'E2EE non è stata integrata nei protocolli email, richiedendo piuttosto dei software aggiuntivi, come OpenPGP. Poiché i messaggi di OpenPGP devono continuare a funzionare con i fornitori email tradizionali, esso non può crittografare i metadati email, ma soltanto il corpo del messaggio. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, the subject lines, when you're emailing, etc.
+I metadati dell'email sono fondamentali per le funzionalità di base dell'email (da dove proviene e dove deve andare). Originariamente, l'E2EE non è stata integrata nei protocolli email, richiedendo piuttosto dei software aggiuntivi, come OpenPGP. Because OpenPGP messages still have to work with traditional email providers, it cannot encrypt some of this email metadata required for identifying the parties communicating. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, when you're emailing, etc.
