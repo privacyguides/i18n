@@ -82,7 +82,7 @@ Firefoxでおすすめされているものを含め、Tor Browserに追加の�
 
 Tor Browserはフィンガープリントを防止するよう設計されており、不用意にブラウザの設定を変更するとあなたは特定されやすくなってしまいます。 そのため、デフォルトの[セキュリティレベル](https://tb-manual.torproject.org/security-settings)を調整する以外の変更は**行うべきではありません**。
 
-In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
+Tor Browserを直接コンピューターにインストールするだけではなく、[Qubes OS](desktop.md#qubes-os)上の[Whonix](desktop.md#whonix)のようにTorネットワークに接続するためのOSもあり、Tor Browser単体で使うよりもよりセキュリティを強化することができます。
 
 ## Orbot
 
@@ -90,16 +90,16 @@ In addition to installing Tor Browser on your computer directly, there are also 
 
 ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
 
-**Orbot** is a free Tor VPN for smartphones which routes traffic from any app on your device through the Tor network.
+**Orbot**はスマートフォン用の無償のTor VPNで、アプリの通信をTorネットワーク経由にすることができます。
 
-[:octicons-home-16: Homepage](https://orbot.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentation}
-[:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
+[:octicons-home-16: ウェブページ](https://orbot.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="プライバシーポリシー" }
+[:octicons-info-16:](https://orbot.app/faqs){ .card-link title=ドキュメント}
+[:octicons-code-16:](https://orbot.app/code){ .card-link title="ソースコード" }
+[:octicons-heart-16:](https://orbot.app/donate){ .card-link title=貢献 }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>ダウンロード</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1609461599)
@@ -109,20 +109,20 @@ In addition to installing Tor Browser on your computer directly, there are also 
 
 </div>
 
-We previously recommended enabling the *Isolate Destination Address* preference in Orbot settings. While this setting can theoretically improve privacy by enforcing the use of a different circuit for each IP address you connect to, it doesn't provide a practical advantage for most applications (especially web browsing), can come with a significant performance penalty, and increases the load on the Tor network. We no longer recommend adjusting this setting from its default value unless you know you need to.[^1]
+以前はOrbotの*宛先アドレスの分離*の設定を有効にすることを推奨していました。 この設定で接続ごとに異なるIPアドレスを使用することになり、論理的にはプライバシーを改善することができます。ただし、多くのアプリケーションでは（特にウェブブラウジング）実用上の利点はなく、パフォーマンスが著しく低下し、Torネットワークに負荷をかけるだけです。 必要がある場合を除き、この設定をデフォルトから変更することは推奨しません。[^1]
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tips for Android</p>
+<p class="admonition-title">Android向けのヒント</p>
 
-Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN kill switch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+OrbotはSOCKSもしくはHTTPのプロキシに対応している個別のアプリケーションのプロキシの役割を果たします。 [VpnService](https://developer.android.com/reference/android/net/VpnService)を使うことで、すべてのネットワーク接続をプロキシ経由にすることができ、VPNキルスイッチにすることができます :gear: **設定** → **ネットワークとインターネット** → **VPN** → :gear: → **VPN以外の接続のブロック**。
 
-Orbot is often outdated on the Guardian Project's [F-Droid repository](https://guardianproject.info/fdroid) and [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android), so consider downloading directly from the [GitHub repository](https://github.com/guardianproject/orbot/releases) instead.
+Guardian Projectの[F-Droidリポジトリ](https://guardianproject.info/fdroid) や [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)のOrbotは古いことが多いため、[GitHubリポジトリ](https://github.com/guardianproject/orbot/releases)から直接ダウンロードすることを検討してください。
 
-All versions are signed using the same signature, so they should be compatible with each other.
+どのリポジトリでも同じ署名を使っているため、互換性があります。
 
 </div>
 
-On iOS, Orbot has some limitations that could potentially cause crashes or leaks: iOS does not have an effective OS-level feature to block connections without a VPN like Android does, and iOS has an artificial memory limit for network extensions that makes it challenging to run Tor in Orbot without crashes. Currently, it is always safer to use Tor on a desktop computer compared to a mobile device.
+iOS版のOrbotは潜在的にアプリがクラッシュするか情報がリークしてしまう可能性があります。iOSではAndroidのようにOSレベルでVPN以外の接続をブロックするような機能はなく、ネットワーク拡張機能にメモリ制限があるためTorをアプリクラッシュなしに実行することは難しいためです。 現状、デスクトップコンピューターでTorを使う方がモバイルでTorを使うよりも常に安全です。
 
 ## Onion Browser (iOS)
 
@@ -130,16 +130,16 @@ On iOS, Orbot has some limitations that could potentially cause crashes or leaks
 
 ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
 
-**Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser). [:material-star-box: Read our latest Onion Browser review.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review/)
+**Onion Browser**はiOS上でTorネットワークを経由し匿名でウェブブラウジングすることができるオープンソースのブラウザで、[Tor Project](https://support.torproject.org/glossary/onion-browser)が支持しています。 [:material-star-box: Onion Browserの最新レビュー](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review/)
 
-[:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribute }
+[:octicons-home-16: ウェブページ](https://onionbrowser.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="プライバシーポリシー" }
+[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=ドキュメント}
+[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="ソースコード" }
+[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=貢献 }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>ダウンロード</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
 
@@ -147,8 +147,8 @@ On iOS, Orbot has some limitations that could potentially cause crashes or leaks
 
 </div>
 
-Onion Browser does not provide the same levels of privacy protections as Tor Browser does on desktop platforms. For casual use it is a perfectly fine way to access hidden services, but if you're concerned about being traced or monitored by advanced adversaries you should not rely on this as an anonymity tool.
+Onion Browserはデスクトップ版のTor Browserと同じレベルでプライバシーを保護することはできません。 Onion Serviceへアクセスするカジュアルな利用には適していますが、高度な追跡や監視を警戒する場合、匿名化ツールとして利用するべきではありません。
 
-[Notably](https://github.com/privacyguides/privacyguides.org/issues/2929), Onion Browser does not *guarantee* all requests go through Tor. When using the built-in version of Tor, [your real IP **will** be leaked via WebRTC and audio/video streams](https://onionbrowser.com/faqs) due to limitations of WebKit. It is *safer* to use Onion Browser alongside Orbot, but this still comes with some limitations on iOS (noted in the Orbot section above).
+[特に](https://github.com/privacyguides/privacyguides.org/issues/2929)、Onion Browserはすべての接続がTorを経由することを*保証*していません。 ビルトインのTorを使う場合、Webkitの制約のために[実際のIPアドレスがWebRTCやオーディオ・ビデオストリーム経由でリークする**可能性があります**](https://onionbrowser.com/faqs)。 Onion BrowserとOrbotを併用することでより*安全*になりますが、iOS上での制約は残ります（上記Orbotのセクションを参照）。
 
-[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) and [Whonix's Stream Isolation documentation](https://whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.
+[^1]: `IsolateDestAddr`は[Torのメーリングリスト](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html)や[WhonixのStream Isolationドキュメント](https://whonix.org/wiki/Stream_Isolation)で議論されており、どちらにおいても、よいアプローチではないとされています。
