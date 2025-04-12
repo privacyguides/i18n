@@ -2,42 +2,42 @@
 *[ADB]: Android 디버그 브리지
 *[AOSP]: Android 오픈소스 프로젝트
 *[ATA]: 고급 기술 결합(Advanced Technology Attachment)
-*[공격 표면]: 시스템에 무단으로 진입할 수 있는 총 경로의 수
+*[공격 표면]: The total number of possible entry points for unauthorized access to a system.
 *[AVB]: Android 자체 검사 부팅
 *[cgroups]: Control Groups
 *[CLI]: 명령어 인터페이스
 *[CSV]: Comma-Separated Values
 *[CVE]: 공통 보안 취약점 및 노출(Common Vulnerabilities and Exposures)
-*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
-*[디지털 유산 상속 기능]: 디지털 유산(Digital Legacy) 상속 기능은 사용자가 사망했을 때 사망자의 데이터에 접근 가능한 사람을 지정할 수 있는 기능을 말합니다.
+*[dark pattern]: A deceptive design pattern intended to trick a user into taking certain actions.
+*[digital legacy]: A feature that allows you to give other people access to your data when you die.
 *[DNSSEC]: DNS Security Extensions
 *[DNS]: 도메인 네임 시스템
 *[DoH]: DNS over HTTPS
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
-*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
+*[DPI]: Deep Packet Inspection
 *[E2EE]: 종단 간 암호화(End-to-End Encryption/Encrypted)
 *[ECS]: EDNS 클라이언트 서브넷
 *[EEA]: 유럽 경제 지역
-*[엔트로피]: 예측하기 어려운 정도를 표현하는 척도
+*[엔트로피]: A measurement of how unpredictable something is.
 *[EOL]: 지원 종료 (End-of-Life)
 *[Exif]: 교환 이미지 파일 형식(Exchangeable image file format)
 *[FCM]: Firebase 클라우드 메시징
 *[FDE]: 전체 디스크 암호화
 *[FIDO]: Fast IDentity Online
 *[FS]: 순방향 비밀성
-*[포크]: 기존 프로젝트를 복사한 뒤 독립적으로 개발하여 만들어진 새로운 소프트웨어 프로젝트
+*[포크]: A new software project created by copying an existing project and adding to it independently.
 *[GDPR]: 유럽 연합 일반 데이터 보호 규칙(General Data Protection Regulation)
 *[GPG]: GNU Privacy Guard (PGP 구현체)
 *[GPS]: Global Positioning System
 *[GUI]: 그래픽 사용자 인터페이스
 *[GnuPG]: GNU Privacy Guard (PGP 구현체)
 *[HDD]: Hard Disk Drive
-*[HOTP]: HMAC (해시 기반 메세지 인증 코드) 기반 일회용 비밀번호
+*[HOTP]: HMAC (Hash-based Message Authentication Code)-based One-Time Password
 *[HTTPS]: 하이퍼텍스트 보안 전송 프로토콜
 *[HTTP]: 하이퍼텍스트 전송 프로토콜
-*[하이퍼바이저]: CPU 자원을 여러 운영 체제 사이에 분배하는 컴퓨터 소프트웨어, 펌웨어, 하드웨어
+*[하이퍼바이저]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems.
 *[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: 인터넷 메시지 접속 프로토콜(Internet Message Access Protocol)
 *[IMEI]: 국제 이동 단말기 식별 번호(International Mobile Equipment Identity)
@@ -49,22 +49,19 @@
 *[ISPs]: 인터넷 서비스 제공자 (Internet service providers)
 *[JNI]: Java Native Interface
 *[KYC]: 고객 확인 제도
-*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-*[LLMs]: Large Language Models (AI models such as ChatGPT)
-*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
+*[LUKS]: Linux Unified Key Setup (full disk encryption)
 *[MAC]: Media Access Control
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: 이동 장비 식별 번호(Mobile Equipment Identifier)
 *[MFA]: 다중 인증
-*[NVMe]: Nonvolatile Memory Express
-*[NAT]: 네트워크 주소 변환
-*[NAT-PMP]: NAT 포트 매핑 프로토콜
+*[NVMe]: Non-Volatile Memory Express
+*[NAT]: Network Address Translation
+*[NAT-PMP]: NAT (Network Address Translation) Port Mapping Protocol
 *[NTP]: 네트워크 타임 프로토콜(Network Time Protocol)
 *[OCI]: Open Container Initiative
 *[OCSP]: 온라인 인증서 상태 프로토콜(Online Certificate Status Protocol)
 *[OEM]: 주문자 상표 부착 생산
 *[OEMs]: 주문자 상표 부착 생산
-*[open-weights]: An open weights-model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
 *[OS]: 운영 체제
 *[OTP]: 일회용 비밀번호
 *[OTPs]: 일회용 비밀번호
@@ -72,12 +69,12 @@
 *[P2P]: Peer-to-Peer
 *[PAM]: 장착형 인증 모듈
 *[POP3]: Post Office Protocol 3
-*[PGP]: Pretty Good Privacy (OpenPGP 참조)
+*[PGP]: Pretty Good Privacy
 *[PII]: 개인 식별 정보(Personally Identifiable Information)
 *[QNAME]: Qualified Name
-*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
+*[QUIC]: A network protocol that is based on UDP, but aims to combine the speed of UDP with the reliability of TCP.
 *[rate limits]: Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time.
-*[롤링 릴리스]: 정해진 주기가 아닌, 빈번히 릴리스되는 업데이트
+*[롤링 릴리스]: Updates which are released frequently rather than at set intervals.
 *[RSS]: Really Simple Syndication
 *[SELinux]: 보안 강화 리눅스(Security-Enhanced Linux)
 *[SIM]: 가입자 식별 모듈(Subscriber Identity Module)
@@ -86,12 +83,10 @@
 *[SNI]: 서버 이름 표시(Server Name Indication)
 *[SSD]: Solid-State Drive
 *[SSH]: 보안 셸(Secure Shell)
-*[SUID]: Set Owner User ID
+*[SUID]: Set User Identity
 *[SaaS]: 서비스형 소프트웨어 (클라우드 기반 소프트웨어)
 *[SoC]: System on Chip
 *[SSO]: Single Sign-On
-*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
-*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
 *[TCP]: 전송 제어 프로토콜
 *[TEE]: 신뢰 실행 환경(Trusted Execution Environment)
 *[TLS]: 전송 계층 보안
@@ -107,3 +102,5 @@
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Extensible Messaging and Presence Protocol
 *[PWA]: 프로그레시브 웹 앱
+*[PWAs]: Progressive Web Apps
+*[WKD]: Web Key Directory

@@ -34,7 +34,7 @@ Além de (ou ao invés de) um provedor de e-mail recomendado aqui, você pode co
 
 ## Serviços Compatíveis com OpenPGP
 
-Esses provedores suportam nativamente criptografia/descriptografia OpenPGP e o padrão [do Diretório de Chaves Web](basics/email-security.md#what-is-the-web-key-directory-standard), permitindo e-mails independentes E2EE do provedor. Por exemplo, um usuário do Proton Mail pode mandar uma mensagem E2E para um usuário de Mailbox.org, ou você pode receber notificações criptografadas por OpenPGP de serviços de internet que suportam isso.
+These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic E2EE emails. Por exemplo, um usuário do Proton Mail pode mandar uma mensagem E2E para um usuário de Mailbox.org, ou você pode receber notificações criptografadas por OpenPGP de serviços de internet que suportam isso.
 
 <div class="grid cards" markdown>
 
@@ -107,7 +107,7 @@ Certas informações armazenadas no [Proton Contacts](https://proton.me/support/
 
 #### :material-check:{ .pg-green } Criptografia do Email
 
-Proton Mail [tem criptografia OpenPGP integrada](https://proton.me/support/how-to-use-pgp) em seu webmail. E-mails para outras contas do Proton Mail são criptografados automaticamente, e criptografia para endereços não-Proton Mail com uma chave OpenPGP pode ser facilmente ativada nas configurações da sua conta. O Proton também oferece suporte à descoberta automática de chaves externas com o [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Isso significa que os e-mails enviados a outros provedores que usam o WKD também serão criptografados automaticamente com o OpenPGP, sem a necessidade de trocar manualmente chaves PGP públicas com seus contatos. Eles também permitem que você [criptografe mensagens para endereços não-Proton Mail](https://proton.me/support/password-protected-emails) sem a necessidade de eles se cadastrarem com uma conta Proton Mail ou usar programas como OpenPGP.
+Proton Mail [tem criptografia OpenPGP integrada](https://proton.me/support/how-to-use-pgp) em seu webmail. E-mails para outras contas do Proton Mail são criptografados automaticamente, e criptografia para endereços não-Proton Mail com uma chave OpenPGP pode ser facilmente ativada nas configurações da sua conta. Proton also supports automatic external key discovery with WKD. Isso significa que os e-mails enviados a outros provedores que usam o WKD também serão criptografados automaticamente com o OpenPGP, sem a necessidade de trocar manualmente chaves PGP públicas com seus contatos. Eles também permitem que você [criptografe mensagens para endereços não-Proton Mail](https://proton.me/support/password-protected-emails) sem a necessidade de eles se cadastrarem com uma conta Proton Mail ou usar programas como OpenPGP.
 
 O Proton Mail também publica as chaves públicas das contas Proton via HTTP a partir de seu WKD. Isso permite que as pessoas que não usam o Proton Mail encontrem as chaves OpenPGP de contas Proton Mail facilmente, para criptografia ponta-a-ponta (E2EE) entre provedores. Isso só se aplica aos endereços de e-mail que terminam em um dos domínios da própria ProtonMail, como @proton.me. Se você usar um domínio personalizado, deverá [configurar o WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separadamente.
 
@@ -164,7 +164,7 @@ No entanto, [o Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), a pla
 
 Mailbox.org tem [criptografia integrada](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) em seu webmail, o que simplifica o envio de mensagens para pessoas com chaves OpenPGP públicas. Eles também permitem que [destinatários remotos descriptografem um e-mail](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) nos servidores do Mailbox.org. Esse recurso é útil quando o destinatário remoto não tem OpenPGP e não pode descriptografar uma cópia do e-mail em sua própria caixa de correio.
 
-Mailbox.org também suporta a descoberta de chaves públicas via HTTP a partir do seu [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Isso permite que pessoas fora do Mailbox.org encontrem as chaves OpenPGP de contas Mailbox.org facilmente, para criptografia ponta-a-ponta (E2EE) entre provedores. Isso só se aplica aos endereços de e-mail que terminam em um dos domínios da própria Mailbox, como @mailbox.org. Se você usar um domínio personalizado, deverá [configurar o WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separadamente.
+Mailbox.org also supports the discovery of public keys via HTTP from their WKD. Isso permite que pessoas fora do Mailbox.org encontrem as chaves OpenPGP de contas Mailbox.org facilmente, para criptografia ponta-a-ponta (E2EE) entre provedores. Isso só se aplica aos endereços de e-mail que terminam em um dos domínios da própria Mailbox, como @mailbox.org. Se você usar um domínio personalizado, deverá [configurar o WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separadamente.
 
 #### :material-information-outline:{ .pg-blue } Rescisão da Conta
 
@@ -323,7 +323,7 @@ Consideramos esses recursos importantes para fornecer um serviço seguro e otimi
 
 - Criptografa todos os dados da conta (contatos, calendários, etc.) em repouso com criptografia de acesso zero.
 - Criptografia E2EE/PGP integrada de webmail fornecido como conveniência.
-- Suporte ao [WKD](https://wiki.gnupg.org/WKD) para permitir a descoberta aprimorada de chaves OpenPGP públicas via HTTP. Usuários do GnuPG podem obter uma chave digitando: `gpg --locate-key example_user@example.com`
+- Support for WKD to allow improved discovery of public OpenPGP keys via HTTP. Usuários do GnuPG podem obter uma chave digitando: `gpg --locate-key example_user@example.com`
 - Suporte para uma caixa de correio temporária para usuários externos. Isso é útil quando você deseja enviar um e-mail criptografado sem enviar uma cópia real para o seu destinatário. Estes e-mails geralmente têm um tempo de vida limitado e depois são automaticamente excluídos. Eles também não exigem que o destinatário configure nenhuma criptografia, como o OpenPGP.
 - Disponibilidade do site do provedor de serviços de e-mail em um [serviço onion](https://en.wikipedia.org/wiki/.onion).
 - Suporte a [subendereçamento](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).

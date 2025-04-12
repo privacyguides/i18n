@@ -34,7 +34,7 @@ Además de (o en lugar de) un proveedor de correo electrónico recomendado aquí
 
 ## Servicios Compatibles con OpenPGP
 
-Estos proveedores soportan de manera nativa el cifrado/descifrado de OpenPGP y el [estándar de Directorio de Clave Web](basics/email-security.md#what-is-the-web-key-directory-standard), permitiendo que los correos electrónicos cifrados de extremo a extremo sean independientes del proveedor. Por ejemplo, un usuario de Proton Mail podría enviar un mensaje E2EE a un usuario de Mailbox.org, o podrías recibir notificaciones encriptadas con OpenPGP desde servicios de Internet que lo soporten.
+These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic E2EE emails. Por ejemplo, un usuario de Proton Mail podría enviar un mensaje E2EE a un usuario de Mailbox.org, o podrías recibir notificaciones encriptadas con OpenPGP desde servicios de Internet que lo soporten.
 
 <div class="grid cards" markdown>
 
@@ -107,7 +107,7 @@ Cierta información almacenada en [Proton Contacts](https://proton.me/support/pr
 
 #### :material-check:{ .pg-green } Encriptación de Correo Electrónico
 
-Proton Mail ha [integrado la encriptación OpenPGP](https://proton.me/support/how-to-use-pgp) en su webmail. Los correos electrónicos a otras cuentas de Proton Mail se encriptan automáticamente, y la encriptación a direcciones que no sean de Proton Mail con una clave OpenPGP pueden ser habilitados fácilmente en la configuración de tu cuenta. Proton también soporta el descubrimiento automático de claves externas con [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Esto significa que los correos electrónicos enviados a otros proveedores que utilicen WKD también se cifrarán automáticamente con OpenPGP, sin necesidad de intercambiar manualmente claves PGP públicas con tus contactos. Estas también te permiten [cifrar los mensajes enviados a cuentas no pertenecientes a Proton](https://proton.me/support/password-protected-emails), sin la necesidad de que el receptor utilice OpenPGP o se registre en Proton Mail.
+Proton Mail ha [integrado la encriptación OpenPGP](https://proton.me/support/how-to-use-pgp) en su webmail. Los correos electrónicos a otras cuentas de Proton Mail se encriptan automáticamente, y la encriptación a direcciones que no sean de Proton Mail con una clave OpenPGP pueden ser habilitados fácilmente en la configuración de tu cuenta. Proton also supports automatic external key discovery with WKD. Esto significa que los correos electrónicos enviados a otros proveedores que utilicen WKD también se cifrarán automáticamente con OpenPGP, sin necesidad de intercambiar manualmente claves PGP públicas con tus contactos. Estas también te permiten [cifrar los mensajes enviados a cuentas no pertenecientes a Proton](https://proton.me/support/password-protected-emails), sin la necesidad de que el receptor utilice OpenPGP o se registre en Proton Mail.
 
 Proton Mail también publica las direcciones públicas de las cuentas a través de HTTP desde su WKD. Esto permite las personas quienes no utilizan Proton Mail a encontrar fácilmente las claves OpenPGP de las cuentas de Proton Mail, para E2EE entre proveedores. Esto solo aplica para las direcciones de correo electrónico que terminen en uno de los dominios de Proton, como @proton.me. Si utilizas un dominio personalizado, debes [configurar WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) por separado.
 
@@ -164,7 +164,7 @@ Sin embargo, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), la pla
 
 Mailbox.org tiene [encriptación integrada](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) en su correo web, lo que simplifica el envío de mensajes a personas con claves públicas OpenPGP. También permiten [a destinatarios remotos descifrar un correo electrónico](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) en los servidores de Mailbox.org. Esta característica es útil cuando el destinatario remoto no tiene OpenPGP y no puede descifrar una copia del correo electrónico en su propio buzón de correo.
 
-Mailbox.org también admite el descubrimiento de claves públicas a través de HTTP desde su [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD). Esto permite que personas afuera de Mailbox.org encuentren fácilmente las claves OpenPGP de las cuentas de Mailbox.org, para E2EE entre proveedores. Esto solo aplica para las direcciones de correo electrónico que terminan en un dominio de Mailbox.org, como @mailbox.org. Si utilizas un dominio personalizado, debes [configurar WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) por separado.
+Mailbox.org also supports the discovery of public keys via HTTP from their WKD. Esto permite que personas afuera de Mailbox.org encuentren fácilmente las claves OpenPGP de las cuentas de Mailbox.org, para E2EE entre proveedores. Esto solo aplica para las direcciones de correo electrónico que terminan en un dominio de Mailbox.org, como @mailbox.org. Si utilizas un dominio personalizado, debes [configurar WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) por separado.
 
 #### :material-information-outline:{ .pg-blue } Cancelación de Cuenta
 
@@ -323,7 +323,7 @@ Consideramos que estas características son importantes para ofrecer un servicio
 
 - Cifra todos los datos de la cuenta (contactos, calendarios, etc.) en reposo con cifrado de acceso cero.
 - Cifrado integrado de correo web E2EE/PGP proporcionado como una conveniencia.
-- Compatibilidad con [WKD](https://wiki.gnupg.org/WKD) para permitir un mejor descubrimiento de claves OpenPGP públicas a través de HTTP. Los usuarios de GnuPG pueden obtener una clave escribiendo: `gpg --locate-key usuario_ejemplo@ejemplo.com`
+- Support for WKD to allow improved discovery of public OpenPGP keys via HTTP. Los usuarios de GnuPG pueden obtener una clave escribiendo: `gpg --locate-key usuario_ejemplo@ejemplo.com`
 - Soporte para un buzón temporal para usuarios externos. Esto es útil cuando quieres enviar un correo electrónico encriptado, sin enviar una copia real a tu destinatario. Estos correos electrónicos suelen tener una vida útil limitada y luego se eliminan automáticamente. Tampoco requieren que el destinatario configure ninguna criptografía como OpenPGP.
 - Disponibilidad de los servicios del proveedor de correo electrónico a través de un [ servicio onion](https://en.wikipedia.org/wiki/.onion).
 - Soporte de [subdireccionamiento](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).

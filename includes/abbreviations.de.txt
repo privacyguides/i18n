@@ -2,42 +2,42 @@
 *[ADB]: Android Debugging Brücke
 *[AOSP]: Android Open-Source Projekt
 *[ATA]: AT Attachment (Standard für die parallele Verbindung von Laufwerken)
-*[attack surface]: Die Gesamtzahl der möglichen Einstiegspunkte für einen unbefugten Zugriff auf ein System
+*[attack surface]: The total number of possible entry points for unauthorized access to a system.
 *[AVB]: Android Verified Boot
 *[cgroups]: Control Groups. Ein Bestandteil des Linux-Kernels, welcher Resourcennutzung isoliert und begrenzt.
 *[CLI]: Kommandozeilen-Schnittstelle
 *[CSV]: Kommagetrennte Werte
 *[CVE]: Häufige Schwachstellen und Gefährdungen
-*[dark pattern]: Ein trügerisches Designmuster, das einen Benutzer dazu verleiten soll, etwas zu tun
-*[digitaler Nachlass]: Funktionen, die es ermöglichen nach dem eigenen Tod anderen Menschen Zugang zu Daten zu gewähren
+*[dark pattern]: A deceptive design pattern intended to trick a user into taking certain actions.
+*[digital legacy]: A feature that allows you to give other people access to your data when you die.
 *[DNSSEC]: Domänennamensystem-Sicherheitserweiterungen
 *[DNS]: Domänennamensystem
 *[DoH]: DNS über HTTPS
 *[DoQ]: DNS über QUIC
 *[DoH3]: DNS über HTTP/3
 *[DoT]: DNS über TLS
-*[DPI]: Deep Packet Inspection identifiziert und blockiert Pakete mit bestimmter Nutzlast
+*[DPI]: Deep Packet Inspection
 *[E2EE]: Ende-zu-Ende-Verschlüsselung/Verschlüsselt
 *[ECS]: EDNS Client Subnetz
 *[EWR]: Europäischer Wirtschaftsraum
-*[Entropie]: Ein Maß dafür, wie unvorhersehbar etwas ist
+*[Entropie]: A measurement of how unpredictable something is.
 *[EOL]: Ende des Produktlebens- oder Support-Zyklus. Gemeint ist häufig das Ende der Unterstützung mit Sicherheitsupdates.
 *[Exif]: Austauschbares Bilddateiformat
 *[FCM]: Firebase-Cloud-Nachrichtendienst
 *[FDE]: vollständige Festplattenverschlüsselung
 *[FIDO]: Fast IDentity Online
 *[FS]: Forward Secrecy (vorwärts gerichtete Geheimhaltung)
-*[fork]: Ein neues Softwareprojekt, das durch Kopieren eines bestehenden Projekts und das unabhängige Hinzufügen erstellt wird
+*[fork]: A new software project created by copying an existing project and adding to it independently.
 *[DSGVO]: Datenschutzverordnung
 *[GPG]: GNU Privacy Guard (PGP-Implementierung)
 *[GPS]: Globales Positionsbestimmungssystem
 *[GUI]: Grafische Benutzeroberfläche
 *[GnuPG]: GNU Privacy Guard (PGP-Implementierung)
 *[HDD]: Festplattenlaufwerk
-*[HOTP]: HMAC (Hash-based Message Authentication Code) basiertes Einmal-Passwort
+*[HOTP]: HMAC (Hash-based Message Authentication Code)-based One-Time Password
 *[HTTPS]: sicheres Hypertext-Übertragungsprotokoll
 *[HTTP]: Hypertext-Übertragungsprotokoll
-*[Hypervisor]: Computer Software, -Firmware oder -Hardware welche die Ressourcen eines CPUs auf mehrere Betriebssysteme aufteilt
+*[Hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems.
 *[ICCID]: Integrierter Schaltkreiskarten-Identifikator
 *[IMAP]: Internet Message Access Protocol
 *[IMEI]: International Mobile Equipment Identity
@@ -49,22 +49,19 @@
 *[ISPs]: Internetdienstanbieter
 *[JNI]: Native Java-Schnittstelle
 *[KYC]: Know Your Customer
-*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-*[LLMs]: Large Language Models (Sprach-KI-Modelle wie ChatGPT)
-*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
+*[LUKS]: Linux Unified Key Setup (full disk encryption)
 *[MAC]: Media Access Control
 *[MDAG]: Microsoft Defender Anwendungsschutz
 *[MEID]: Mobile Equipment Identifier
 *[MFA]: Multi-Faktor-Authentifizierung
-*[NVMe]: Nonvolatile Memory Express
-*[NAT]: Übersetzung von Netzwerkadressen
-*[NAT-PMP]: NAT Port Mapping Protokoll
+*[NVMe]: Non-Volatile Memory Express
+*[NAT]: Network Address Translation
+*[NAT-PMP]: NAT (Network Address Translation) Port Mapping Protocol
 *[NTP]: Netzwerk-Zeitprotokoll
 *[OCI]: Open Container Initiative
 *[OCSP]: Online Certificate Status Protocol
 *[OEM]: Original Equipment Manufacturer
 *[OEMs]: Original Equipment Manufacturers
-*[open-weights]: An open weights-model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
 *[OS]: Betriebssystem
 *[OTP]: Einmalpasswort
 *[OTPs]: Einmalpasswörter
@@ -72,12 +69,12 @@
 *[P2P]: Peer-to-Peer
 *[PAM]: Linux Pluggable Authentication Modules
 *[POP3]: Post Office Protocol 3
-*[PGP]: Pretty Good Privacy (siehe OpenPGP)
+*[PGP]: Pretty Good Privacy
 *[PII]: Personenbezogene Daten
 *[QNAME]: Qualified Name
-*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
+*[QUIC]: A network protocol that is based on UDP, but aims to combine the speed of UDP with the reliability of TCP.
 *[rate limits]: Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time.
-*[rolling release]: Updates, die häufig und nicht nur in bestimmten Abständen veröffentlicht werden
+*[rolling release]: Updates which are released frequently rather than at set intervals.
 *[RSS]: Really Simple Syndication
 *[SELinux]: Security-Enhanced Linux
 *[SIM]: Subscriber Identity Module
@@ -86,12 +83,10 @@
 *[SNI]: Server Name Indication
 *[SSD]: Solid-State Drive
 *[SSH]: Secure Shell
-*[SUID]: Set Owner User ID
+*[SUID]: Set User Identity
 *[SaaS]: Software as a Service (cloud software)
 *[SoC]: System on Chip
-*[SSO]: Single sign-on
-*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
-*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
+*[SSO]: Single Sign-On
 *[TCP]: Transmission Control Protocol
 *[TEE]: Trusted Execution Environment
 *[TLS]: Transport Layer Security
@@ -107,3 +102,5 @@
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Extensible Messaging and Presence Protocol
 *[PWA]: Progressive Web App
+*[PWAs]: Progressive Web Apps
+*[WKD]: Web Key Directory

@@ -2,42 +2,42 @@
 *[ADB]: Felsökning av Android
 *[AOSP]: Android Open Source-projekt
 *[ATA]: Avancerad teknikbilaga
-*[attackyta]: Det totala antalet möjliga ingångspunkter för obehörig åtkomst till ett system
+*[attackyta]: The total number of possible entry points for unauthorized access to a system.
 *[AVB]: Android verifierad uppstart
 *[cgroups]: Kontrollgrupper
 *[CLI]: Kommandoradsgränssnitt
 *[CSV]: Kommaseparerade värden
 *[CVE]: Vanliga sårbarheter och exponeringar
-*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
-*[funktion för digitalt arv]: Digitalt arv avser funktioner som gör att du kan ge andra personer tillgång till dina uppgifter när du dör
+*[dark pattern]: A deceptive design pattern intended to trick a user into taking certain actions.
+*[digital legacy]: A feature that allows you to give other people access to your data when you die.
 *[DNSSEC]: Säkerhetstillägg för domännamnssystem
 *[DNS]: Domännamnssystem
 *[DoH]: DNS över HTTPS
 *[DoQ]: DNS över QUIC
 *[DoH3]: DNS över HTTPS
 *[DoT]: DNS över TLS
-*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
+*[DPI]: Deep Packet Inspection
 *[E2EE]: End-to-End-kryptering/krypterad
 *[ECS]: EDNS Client Subnet
 *[EEA]: Europeiska ekonomiska samarbetsområdet
-*[entropy]: Ett mått på hur oförutsägbart något är
+*[entropy]: A measurement of how unpredictable something is.
 *[EOL]: Slutet av livslängden
 *[Exif]: Utbytbart bildfilformat
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: Fullständig diskkryptering
 *[FIDO]: Snabb IDentitet online
 *[FS]: Forward Secrecy
-*[fork]: Ett nytt programvaruprojekt som skapas genom att ett befintligt projekt kopieras och kompletteras självständigt
+*[fork]: A new software project created by copying an existing project and adding to it independently.
 *[GDPR]: Allmän dataskyddsförordning
 *[GPG]: GNU Privacy Guard (PGP-implementering)
 *[GPS]: Globalt positioneringssystem
 *[GUI]: Grafiskt användargränssnitt
 *[GnuPG]: GNU Privacy Guard (PGP-implementering)
 *[HDD]: Hårddisk
-*[HOTP]: HMAC-baserat engångslösenord (Hash-based Message Authentication Code)
+*[HOTP]: HMAC (Hash-based Message Authentication Code)-based One-Time Password
 *[HTTPS]: Hypertext Transfer Protocol Säkert
 *[HTTP]: Hypertextöverföringsprotokoll
-*[hypervisor]: Datorprogramvara, firmware eller hårdvara som delar upp en processors resurser mellan flera operativsystem
+*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems.
 *[ICCID]: Identifierare för integrerat kretskort
 *[IMAP]: Protokoll för åtkomst till Internetmeddelanden
 *[IMEI]: Internationell identitet för mobil utrustning
@@ -49,22 +49,19 @@
 *[ISPs]: Internetleverantör
 *[JNI]: Java inbyggt gränssnitt
 *[KYC]: Know Your Customer
-*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-*[LLMs]: Large Language Models (AI models such as ChatGPT)
-*[LUKS]: Linux Unified Key Setup (Full-Disk Kryptering)
+*[LUKS]: Linux Unified Key Setup (full disk encryption)
 *[MAC]: Medieåtkomstkontroll
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Identifiering av mobil utrustning
 *[MFA]: Multi-Faktor Autentisering
-*[NVMe]: Icke-flyktigt minne Express
-*[NAT]: Network address translation
-*[NAT-PMP]: NAT Port Mapping Protocol
+*[NVMe]: Non-Volatile Memory Express
+*[NAT]: Network Address Translation
+*[NAT-PMP]: NAT (Network Address Translation) Port Mapping Protocol
 *[NTP]: Nätverkstidsprotokoll
 *[OCI]: Initiativ för öppna behållare
 *[OCSP]: Certifikatstatus online
 *[OEM]: Originalutrustningstillverkare
 *[OEMs]: Originalutrustningstillverkare
-*[open-weights]: An open weights-model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
 *[OS]: Operativsystem
 *[OTP]: Engångslösenord
 *[OTPs]: Engångslösenord
@@ -72,12 +69,12 @@
 *[P2P]: Peer-To-Peer
 *[PAM]: Linux Pluggable autentiseringsmoduler
 *[POP3]: Postkontorets protokoll 3
-*[PGP]: Pretty Good Privacy (se OpenPGP)
+*[PGP]: Pretty Good Privacy
 *[PII]: Personligt identifierbar information
 *[QNAME]: Kvalificerat namn
-*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
+*[QUIC]: A network protocol that is based on UDP, but aims to combine the speed of UDP with the reliability of TCP.
 *[rate limits]: Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time.
-*[rullande utgåva]: Uppdateringar som släpps ofta i stället för med fasta intervaller
+*[rullande utgåva]: Updates which are released frequently rather than at set intervals.
 *[RSS]: Riktigt enkel syndikering
 *[SELinux]: Linux med förbättrad säkerhet
 *[SIM]: Modul för abonnentidentitet
@@ -86,12 +83,10 @@
 *[SNI]: Serverns namnindikering
 *[SSD]: Ssd-disk
 *[SSH]: Säkert skal
-*[SUID]: Ange ägarens användar-ID
+*[SUID]: Set User Identity
 *[SaaS]: Programvara som tjänst (molnprogramvara)
 *[SoC]: System på chip
-*[SSO]: Single sign-on
-*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
-*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
+*[SSO]: Single Sign-On
 *[TCP]: Protokoll för överföringskontroll
 *[TEE]: Miljö för tillförlitlig utförande
 *[TLS]: Säkerhet för transportlager
@@ -107,3 +102,5 @@
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Utökningsbart meddelande- och närvaroprotokoll
 *[PWA]: Progressiv webbapp
+*[PWAs]: Progressive Web Apps
+*[WKD]: Web Key Directory

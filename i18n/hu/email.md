@@ -34,7 +34,7 @@ Az itt ajánlott email szolgáltatók mellett (vagy helyett) érdemes megfontoln
 
 ## OpenPGP-kompatibilis szolgáltatások
 
-Ezek a szolgáltatók natívan támogatják az OpenPGP titkosítást/visszafejtést és a [Web Key Directory szabványt](basics/email-security.md#what-is-the-web-key-directory-standard), lehetővé téve a szolgáltatófüggetlen, végponttól-végpontig titkosított emaileket. Például egy Proton Mail felhasználó küldhet végponttól-végpontig titkosított üzenetet egy Mailbox.org felhasználónak, de fogadhatsz OpenPGP-titkosított értesítéseket olyan internetes szolgáltatásoktól is, amelyek támogatják azt.
+These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic E2EE emails. Például egy Proton Mail felhasználó küldhet végponttól-végpontig titkosított üzenetet egy Mailbox.org felhasználónak, de fogadhatsz OpenPGP-titkosított értesítéseket olyan internetes szolgáltatásoktól is, amelyek támogatják azt.
 
 <div class="grid cards" markdown>
 
@@ -107,7 +107,7 @@ A [Proton Contactsban](https://proton.me/support/proton-contacts) tárolt bizony
 
 #### :material-check:{ .pg-green } E-mail titkosítás
 
-A Proton Mail [integrálta az OpenPGP titkosítást](https://proton.me/support/how-to-use-pgp) a webmailjébe. A más Proton Mail-fiókokba küldött e-mailek automatikusan titkosítva vannak, és a nem Proton Mail-címekre küldött, OpenPGP-kulccsal rendelkező e-mailek titkosítása egyszerűen engedélyezhető a fiók beállításaiban. A Proton támogatja az automatikus külső kulcskeresést a [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) segítségével. Ez azt jelenti, hogy a WKD-t használó más szolgáltatóknak küldött e-maileket automatikusan az OpenPGP-vel is titkosítja, anélkül, hogy manuálisan kellene nyilvános PGP-kulcsokat cserélnie a kapcsolattartóival. Az [OpenPGP nélkül, nem Proton Mail címekre küldött üzeneteket titkosíthatod](https://proton.me/support/password-protected-emails), anélkül, hogy a címzetteknek Proton Mail fiókot kellene regisztrálniuk.
+A Proton Mail [integrálta az OpenPGP titkosítást](https://proton.me/support/how-to-use-pgp) a webmailjébe. A más Proton Mail-fiókokba küldött e-mailek automatikusan titkosítva vannak, és a nem Proton Mail-címekre küldött, OpenPGP-kulccsal rendelkező e-mailek titkosítása egyszerűen engedélyezhető a fiók beállításaiban. Proton also supports automatic external key discovery with WKD. Ez azt jelenti, hogy a WKD-t használó más szolgáltatóknak küldött e-maileket automatikusan az OpenPGP-vel is titkosítja, anélkül, hogy manuálisan kellene nyilvános PGP-kulcsokat cserélnie a kapcsolattartóival. Az [OpenPGP nélkül, nem Proton Mail címekre küldött üzeneteket titkosíthatod](https://proton.me/support/password-protected-emails), anélkül, hogy a címzetteknek Proton Mail fiókot kellene regisztrálniuk.
 
 A Proton Mail a Proton-fiókok nyilvános kulcsait is közzéteszi HTTP-n keresztül a WKD-ből. Ez lehetővé teszi, hogy a Proton Mailt nem használók is könnyen megtalálják a Proton Mail fiókok OpenPGP-kulcsait a szolgáltatóközi E2EE-hez. Ez csak a Proton saját domainjeire végződő e-mail címekre vonatkozik, mint például a @proton.me. Ha egyéni tartományt használsz, kézzel kell [konfigurálni a WKD-t](./basics/email-security.md#what-is-the-web-key-directory-standard).
 
@@ -164,7 +164,7 @@ A Mailbox.org által használt szoftverplatform, az [Open-Exchange](https://en.w
 
 A Mailbox.org webmailbe [beépített titkosítást](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) alkalmaz, ami leegyszerűsíti az üzenetek küldését nyilvános OpenPGP-kulcsokkal rendelkező személyeknek. Lehetővé teszik továbbá, hogy a [távoli címzettek visszafejtsenek egy e-mailt](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) a Mailbox.org szerverein. Ez a funkció akkor hasznos, ha a távoli címzett nem rendelkezik OpenPGP-vel, és nem tudja visszafejteni az e-mail másolatát a saját postafiókjában.
 
-A Mailbox.org támogatja a nyilvános kulcsok HTTP-n keresztüli keresését is a [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) segítségével. Ez lehetővé teszi, hogy a Mailbox.org-ot nem használók is könnyen megtalálják a Mailbox.org fiókok OpenPGP-kulcsait a szolgáltatóközi végponttól-végpontig terjedő titkosításhoz. Ez csak a Mailbox.org saját domainjeire végződő e-mail címekre vonatkozik, mint például a @mailbox.org. Ha egyéni tartományt használsz, kézzel kell [konfigurálni a WKD-t](./basics/email-security.md#what-is-the-web-key-directory-standard).
+Mailbox.org also supports the discovery of public keys via HTTP from their WKD. Ez lehetővé teszi, hogy a Mailbox.org-ot nem használók is könnyen megtalálják a Mailbox.org fiókok OpenPGP-kulcsait a szolgáltatóközi végponttól-végpontig terjedő titkosításhoz. Ez csak a Mailbox.org saját domainjeire végződő e-mail címekre vonatkozik, mint például a @mailbox.org. Ha egyéni tartományt használsz, kézzel kell [konfigurálni a WKD-t](./basics/email-security.md#what-is-the-web-key-directory-standard).
 
 #### :material-information-outline:{ .pg-blue } Fiók megszüntetése
 
@@ -323,7 +323,7 @@ Ezeket a funkciókat fontosnak tartjuk a biztonságos és optimális szolgáltat
 
 - Zéró hozzáférésű titkosítással titkosítja az összes fiókadatot (névjegyek, naptárak stb.).
 - Integrált webmail E2EE/PGP titkosítás, amely kényelmi funkciót biztosít.
-- A [WKD](https://wiki.gnupg.org/WKD) támogatása a nyilvános OpenPGP kulcsok HTTP-n keresztüli jobb felderítésének lehetővé tételéhez. A GnuPG felhasználók kulcsot szerezhetnek a következő paranccsal: `gpg --locate-key example_user@example.com`
+- Support for WKD to allow improved discovery of public OpenPGP keys via HTTP. A GnuPG felhasználók kulcsot szerezhetnek a következő paranccsal: `gpg --locate-key example_user@example.com`
 - Ideiglenes postafiók támogatása külső felhasználók számára. Ez akkor hasznos, ha titkosított e-mailt szeretne küldeni anélkül, hogy a címzettnek tényleges másolatot küldene. Ezek az e-mailek általában korlátozott élettartamúak, majd automatikusan törlődnek. A címzettnek nem kell semmilyen titkosítást konfigurálnia, mint az OpenPGP esetében.
 - Az emailszolgáltató weboldalának elérhetősége egy [.onion szolgáltatáson](https://en.wikipedia.org/wiki/.onion) keresztül.
 - Az [alcímzés](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) támogatása.

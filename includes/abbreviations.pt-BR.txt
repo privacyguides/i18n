@@ -2,42 +2,42 @@
 *[ADB]: Android Debug Bridge
 *[AOSP]: Projeto Open Source Android
 *[ATA]: Acessório de tecnologia avançada
-*[superfície de ataque]: O número total de pontos de entrada possíveis para o acesso não autorizado a um sistema
+*[superfície de ataque]: The total number of possible entry points for unauthorized access to a system.
 *[AVB]: Inicialização Verificada do Android
 *[cgroups]: Grupos de Controle
 *[CLI]: Interface de Linha de Comando
 *[CSV]: Valores Separados por Vírgulas
 *[CVE]: Vulnerabilidades e Exposições Comuns
-: Um padrão de design enganoso que visa induzir o usuário a fazer coisas
-Caraterística digital herdada: Legado Digital refere-se a recursos que permitem que você dê a outras pessoas acesso aos seus dados quando você morre
+: A deceptive design pattern intended to trick a user into taking certain actions.
+*[digital legacy]: A feature that allows you to give other people access to your data when you die.
 *[DNSSEC]: Extensões de Segurança do Sistema de Nomes de Domínio
 *[DNS]: Sistema de Nomes de Domínio
 *[DoH]: DNS sobre HTTPS
 *[DoQ]: DNS sobre QUIC
 *[DoH3]: DNS sobre HTTP/3
 *[DoT]: DNS sobre TLS
-*[DPI]: A "Deep Packet Inspection" ou em tradução livre: "Inspeção Profunda de Pacotes", identifica e bloqueia pacotes com cargas úteis específicas
+*[DPI]: Deep Packet Inspection
 *[E2EE]: Criptografia/Criptografia ponto-a-ponto
 *[ECS]: Sub-rede de clientes EDNS
 *[EEA]: Espaço Econômico Europeu
-*[entropy]: Uma medida de quão imprevisível algo é
+*[entropy]: A measurement of how unpredictable something is.
 *[EOL]: Fim da vida útil
 *[Exif]: Formato de arquivo de imagem intercambiável
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: Criptografia total de disco
 *[FIDO]: Fast IDentity Online
 *[FS]: Sigilo de encaminhamento
-*[fork]: Um novo projeto de software criado copiando um projeto existente e desenvolvendo ele independentemente
+*[fork]: A new software project created by copying an existing project and adding to it independently.
 *[GDPR]: Regulamento Geral de Proteção de Dados
 *[GPG]: GNU Privacy Guard (implementação do PGP)
 *[GPS]: Sistema de Posicionamento Global
 *[GUI]: Interface Gráfica do Usuário
 *[GnuPG]: GNU Privacy Guard (implementação do PGP)
 *[HDD]: Disco Rígido
-*[HOTP]: HMAC (Código de Autenticação de Mensagem Baseado em Hash) baseado em Senha Única
+*[HOTP]: HMAC (Hash-based Message Authentication Code)-based One-Time Password
 *[HTTPS]: Hypertext Transfer Protocol Secure
 *[HTTP]: Hypertext Transfer Protocol
-*[hypervisor]: Software de computador, firmware ou hardware que divide os recursos de uma CPU entre vários sistemas operacionais
+*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems.
 *[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: Protocolo de Acesso a Mensagens da Internet
 *[IMEI]: Identificação Internacional de Equipamento Móvel
@@ -49,22 +49,19 @@ Caraterística digital herdada: Legado Digital refere-se a recursos que permitem
 *[ISPs]: Provedores de Internet
 *[JNI]: Java Native Interface
 *[KYC]: Conheça seu cliente
-*[LLaVA]: Large Language and Vision Assistant (modelo de IA multimodal)
-*[LLMs]: Large Language Models (modelos de IA, como o ChatGPT)
-*[LUKS]: Linux Unified Key Setup (Criptografia total de disco)
+*[LUKS]: Linux Unified Key Setup (full disk encryption)
 *[MAC]: Controle de Acesso ao Meio
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Mobile Equipment Identifier
 *[MFA]: Autenticação de Múltiplos Fatores
-*[NVMe]: Nonvolatile Memory Express
-*[NAT]: Tradução de endereços de rede
-*[NAT-PMP]: Protocolo de mapeamento de portas NAT
+*[NVMe]: Non-Volatile Memory Express
+*[NAT]: Network Address Translation
+*[NAT-PMP]: NAT (Network Address Translation) Port Mapping Protocol
 *[NTP]: Protocolo de Tempo Rede
 *[OCI]: Iniciativa Open Container
 *[OCSP]: Protocolo de Status de Certificado Online
 *[OEM]: Fabricante do Equipamento Original
 *[OEMs]: Fabricantes de Equipamentos Originais
-*[pesos-abertos]: Um modelo de pesos abertos é um modelo de IA que qualquer pessoa pode baixar e usar, mas cujos dados de treinamento e/ou algoritmos subjacentes são proprietários.
 *[OS]: Sistema Operacional
 *[OTP]: Senha de uso único
 *[OTPs]: Senhas de uso único
@@ -72,12 +69,12 @@ Caraterística digital herdada: Legado Digital refere-se a recursos que permitem
 *[P2P]: Peer-to-Peer
 *[PAM]: Linux Pluggable Authentication Modules
 *[POP3]: Post Office Protocol 3
-*[PGP]: Pretty Good Privacy (veja OpenPGP)
+*[PGP]: Pretty Good Privacy
 *[PII]: Informações Pessoalmente Identificáveis
 *[QNAME]: Qualified Name
-*[QUIC]: Um protocolo de rede baseado no UDP, mas com o objetivo de combinar a velocidade do UDP com a confiabilidade do TCP.
+*[QUIC]: A network protocol that is based on UDP, but aims to combine the speed of UDP with the reliability of TCP.
 *[limites de taxa]: Limites de taxa são restrições que um serviço impõe ao número de vezes que um usuário pode acessar seus serviços em um período de tempo específico.
-*[rolling release]: Atualizações lançadas com frequência em vez de intervalos
+*[rolling release]: Updates which are released frequently rather than at set intervals.
 *[RSS]: Sindicação bem simples
 *[SELinux]: Segurança aprimorada do Linux
 *[SIM]: Módulo de Identidade do Assinante
@@ -86,12 +83,10 @@ Caraterística digital herdada: Legado Digital refere-se a recursos que permitem
 *[SNI]: Indicação do Nome do Servidor
 *[SSD]: Disco de Estado Sólido
 *[SSH]: Shell Seguro
-*[SUID]: Definição do ID do proprietário
+*[SUID]: Set User Identity
 *[SaaS]: Software como um Serviço (software em nuvem)
 *[SoC]: Sistema em um Chip
-*[SSO]: Login único
-*[prompt do sistema]: O prompt do sistema de um chat de IA são as instruções gerais dadas por um ser humano para orientar como ele deve operar.
-*[temperatura]: A temperatura da IA é um parâmetro usado nos modelos de IA para controlar o nível de aleatoriedade e criatividade no texto gerado.
+*[SSO]: Single Sign-On
 *[TCP]: Protocolo de Controle de Transmissão
 *[TEE]: Ambiente de Execução Confiável
 *[TLS]: Segurança da Camada de Transporte
@@ -107,3 +102,5 @@ Caraterística digital herdada: Legado Digital refere-se a recursos que permitem
 *[W3C]: Consórcio World Wide Web
 *[XMPP]: Protocolo de Mensagens e Presença Extensível
 *[PWA]: Aplicativo Web Progressivo
+*[PWAs]: Progressive Web Apps
+*[WKD]: Web Key Directory

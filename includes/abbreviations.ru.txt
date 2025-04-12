@@ -2,42 +2,42 @@
 *[ADB]: (англ. Android Debug Bridge) - Отладочный мост Android
 *[AOSP]: (англ. Android Open Source Project) - Проект с открытым исходным кодом Android
 *[ATA]: (англ. Advanced Technology Attachment) - Интерфейс подключения накопителей к компьютеру
-*[поверхность атаки]: (англ. attack surface) - Возможные уязвимые места для несанкционированного доступа к системе
+*[поверхность атаки]: The total number of possible entry points for unauthorized access to a system.
 *[AVB]: (англ. Android Verified Boot) - Проверенная загрузка Android
 *[cgroups]: (англ. Control Groups) - Контрольные группы
 *[CLI]: (англ. Command-line interface) - Интерфейс командной строки
 *[CSV]: Comma-Separated Values, формат таблиц
 *[CVE]: Common Vulnerabilities and Exposures
-*[тёмный паттерн]: (англ. dark pattern) - Обманчивый шаблон дизайна, предназначенный для того, чтобы обмануть пользователя
-*[функция цифрового наследия]: (англ. digital legacy feature) - Цифровое наследие включает в себя функции, которые позволяют передавать доступ к вашим данным другим людям после вашей смерти
+*[тёмный паттерн]: A deceptive design pattern intended to trick a user into taking certain actions.
+*[digital legacy]: A feature that allows you to give other people access to your data when you die.
 *[DNSSEC]: (англ. Domain Name System Security Extensions) - Модули безопасности службы доменных имен
 *[DNS]: (англ. Domain Name System) - Система доменных имен
 *[DoH]: DNS через HTTPS
 *[DoQ]: DNS через QUIC
 *[DoH3]: DNS через HTTP/3
 *[DoT]: DNS через TLS
-*[DPI]: (англ. Deep Packet Inspection) - Глубокая проверка пакетов анализирует наполнение пакетов и блокирует их
+*[DPI]: Deep Packet Inspection
 *[E2EE]: (англ. End-to-End Encryption) - Сквозное шифрование
 *[ECS]: Подсеть клиента EDNS
 *[ЕЭЗ]: Европейская экономическая зона
-*[энтропия]: Мера неопределенности/непредсказуемости или хаоса в системе
+*[энтропия]: A measurement of how unpredictable something is.
 *[EOL]: (англ. End-of-Life) - Конец поддержки
 *[Exif]: (англ. Exchangeable image file format) - Метаданные в фотографиях или видео
 *[FCM]: (англ. Firebase Cloud Messaging) - Сервис для отправки push-уведомлений и сообщений
 *[FDE]: (англ. Full Disk Encryption) - Полное шифрование диска
 *[FIDO]: (англ. Fast IDentity Online) - Стандарт для быстрой и безопасной аутентификации онлайн
 *[ПС]: Прямая секретность (Forward Secrecy)
-*[форк]: Новое программное обеспечение, созданное путем модификации открытого кода существующего проекта
+*[форк]: A new software project created by copying an existing project and adding to it independently.
 *[GDPR]: (англ. General Data Protection Regulation) - Это регламент ЕС, направленный на защиту персональных данных
 *[GPG]: GNU Privacy Guard (реализация PGP)
 *[GPS]: Глобальная система позиционирования
 *[GUI]: Графический пользовательский интерфейс
 *[GnuPG]: GNU Privacy Guard (реализация PGP)
 *[HDD]: Жесткий диск
-*[HOTP]: Одноразовый пароль на основе HMAC (Hash-based Message Authentication Code)
+*[HOTP]: HMAC (Hash-based Message Authentication Code)-based One-Time Password
 *[HTTPS]: Безопасный протокол передачи гипертекста
 *[HTTP]: Протокол передачи гипертекста
-*[гипервизор]: Программное обеспечение, прошивка или оборудование, которое распределяет ресурсы процессора между несколькими операционными системами
+*[гипервизор]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems.
 *[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: Протокол доступа к сообщениям в интернете
 *[IMEI]: Международная идентификация мобильного оборудования
@@ -49,22 +49,19 @@
 *[ISPs]: Интернет-провайдеры
 *[JNI]: Нативный интерфейс Java
 *[KYC]: Знай своего клиента (Know Your Customer)
-*[LLaVA]: Большие языковые и зрительные помощники (мультимодальные ИИ модели)
-*[LLMs]: (англ. Large Language Models) - Большие языковые модели (например ChatGPT)
-*[LUKS]: Шифрование всего диска Linux (Linux Unified Key Setup)
+*[LUKS]: Linux Unified Key Setup (full disk encryption)
 *[MAC]: Управление доступом к среде
 *[MDAG]: Защита приложений при помощи Microsoft Defender
 *[MEID]: Идентификатор мобильного оборудования
 *[MFA]: Многофакторная аутентификация
-*[NVMe]: Nonvolatile Memory Express
-*[NAT]: Преобразование сетевых адресов (Network address translation)
-*[NAT-PMP]: Протокол сопоставления портов NAT (NAT Port Mapping Protocol)
+*[NVMe]: Non-Volatile Memory Express
+*[NAT]: Network Address Translation
+*[NAT-PMP]: NAT (Network Address Translation) Port Mapping Protocol
 *[NTP]: Сетевой протокол времени
 *[OCI]: Инициатива, которая создаёт открытые стандарты для контейнеров
 *[OCSP]: Протокол состояния сетевого сертификата
 *[OEM]: Оригинальный производитель оборудования
 *[OEMs]: Оригинальные производители оборудования
-*[open-weights]: An open weights-model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
 *[ОС]: Операционная система
 *[OTP]: Одноразовый пароль (One-Time Password)
 *[OTPs]: Одноразовые пароли (One-Time Passwords)
@@ -72,12 +69,12 @@
 *[P2P]: Peer-to-Peer
 *[PAM]: Подключаемые модули аутентификации Linux
 *[POP3]: Протокол почтового отделения версии 3
-*[PGP]: Pretty Good Privacy (смотри OpenPGP)
+*[PGP]: Pretty Good Privacy
 *[ПД]: Персональные данные
 *[QNAME]: Квалифицированное имя элемента, атрибута или идентификатора в документе XML
-*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
+*[QUIC]: A network protocol that is based on UDP, but aims to combine the speed of UDP with the reliability of TCP.
 *[rate limits]: Ограничения на количество запросов или действий, которые можно выполнить в определенный период времени.
-*[rolling release]: Обновления, которые выходят часто, а не через определенные промежутки времени
+*[rolling release]: Updates which are released frequently rather than at set intervals.
 *[RSS]: Способ распространения лент новостей или изменений в блогах
 *[SELinux]: Linux с повышенной безопасностью
 *[SIM]: Модуль идентификации абонента
@@ -86,12 +83,10 @@
 *[SNI]: Индикация имени сервера
 *[SSD]: Твердотельный накопитель
 *[SSH]: Безопасная оболочка
-*[SUID]: Set Owner User ID
+*[SUID]: Set User Identity
 *[SaaS]: Программное обеспечение как услуга (облачное программное обеспечение)
 *[SoC]: Система на кристалле (System on Chip)
-*[SSO]: Единый вход
-*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
-*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
+*[SSO]: Single Sign-On
 *[TCP]: Протокол управления передачей данных
 *[TEE]: Доверенная среда исполнения
 *[TLS]: Протокол защиты транспортного уровня
@@ -107,3 +102,5 @@
 *[W3C]: Консорциум всемирной паутины
 *[XMPP]: Расширяемый протокол обмена сообщениями и информацией о присутствии
 *[PWA]: (англ. Progressive web app) - Прогрессивное веб-приложение
+*[PWAs]: Progressive Web Apps
+*[WKD]: Web Key Directory

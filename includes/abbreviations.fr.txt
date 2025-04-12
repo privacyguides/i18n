@@ -2,42 +2,42 @@
 *[ADB]: Pont de débogage Android
 *[AOSP]: Projet Android Open Source
 *[ATA]: Attachement de technologie avancée
-*[surface d'attaque]: Le nombre total de points d'entrée possibles pour un accès non autorisé à un système
+*[surface d'attaque]: The total number of possible entry points for unauthorized access to a system.
 *[AVB]: Démarrage Vérifié d'Android
 *[cgroups]: Groupes de contrôle
 *[CLI]: Interface de ligne de commande
 *[CSV]: Valeurs séparées par des virgules
 *[CVE]: Vulnérabilités et expositions courantes
-*[interface truquée] : Un modèle de conception trompeur destiné à inciter l'utilisateur à faire certaines choses
-*[fonctionnalité d'héritage numérique]: L'héritage numérique désigne les fonctions qui vous permettent de donner à d'autres personnes l'accès à vos données après votre décès
+*[interface truquée] : A deceptive design pattern intended to trick a user into taking certain actions.
+*[digital legacy]: A feature that allows you to give other people access to your data when you die.
 *[DNSSEC]: Extensions de sécurité du système de nom de domaine
 *[DNS]: Système de nom de domaine
 *[DoH]: DNS sur HTTPS
 *[DoQ]: DNS sur QUIC
 *[DoH3]: DNS sur HTTP/3
 *[DoT]: DNS sur TLS
-*[DPI]: L'inspection approfondie des paquets (Deep Packet Inspection) identifie et bloque les paquets contenant des charges utiles spécifiques
+*[DPI]: Deep Packet Inspection
 *[E2EE]: Chiffrement/Chiffré(e)s de bout en bout
 *[ECS]: Sous-réseau du client EDNS
 *[EEA]: Espace économique européen
-*[entropy]: Une mesure du degré d'imprévisibilité d'une chose
+*[entropy]: A measurement of how unpredictable something is.
 *[EOL]: Fin de vie
 *[Exif]: Format de fichier image échangeable
 *[FCM]: Messagerie Cloud Firebase
 *[FDE]: Chiffrement complet du disque
 *[FIDO]: Identité rapide en ligne
 *[CP]: Confidentialité persistante
-*[fork]: Un nouveau projet de logiciel créé en copiant un projet existant et en le complétant de manière indépendante
+*[fork]: A new software project created by copying an existing project and adding to it independently.
 *[RGPD]: Règlement Général sur la Protection des Données
 *[GPG]: GNU Privacy Guard (implémentation de PGP)
 *[GPS]: Système de positionnement global
 *[GUI]: Interface utilisateur graphique
 *[GnuPG]: GNU Privacy Guard (implémentation de PGP)
 *[HDD]: Disque dur
-*[HOTP]: HMAC (code d'authentification de message basé sur le hachage) basé sur un mot de passe à usage unique
+*[HOTP]: HMAC (Hash-based Message Authentication Code)-based One-Time Password
 *[HTTPS]: Protocole de transfert hypertexte sécurisé
 *[HTTP]: Protocole de transfert hypertexte
-*[superviseur]: Logiciel, micrologiciel ou matériel informatique qui répartit les ressources d'une unité centrale entre plusieurs systèmes d'exploitation
+*[superviseur]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems.
 *[ICCID]: Identificateur de carte à circuit intégré
 *[IMAP]: Protocole d'accès aux messages internet
 *[IMEI]: Identité internationale des équipements mobiles
@@ -49,22 +49,19 @@
 *[FAIs]: Fournisseurs d'accès internet
 *[JNI]: Interface native Java
 *[KYC]: Connaissance du client
-*[LLaVA]: Grand assistant linguistique et visuel (modèle d'IA multimodale)
-*[LLMs]: Grands modèles de langage (modèles d'IA tels que ChatGPT)
-*[LUKS]: Configuration de la clé unifiée Linux (chiffrement complet du disque)
+*[LUKS]: Linux Unified Key Setup (full disk encryption)
 *[MAC]: Contrôle d'accès aux médias
 *[MDAG]: Protection des applications Microsoft Defender
 *[MEID]: Identificateur d'équipement mobile
 *[MFA]: Authentification multi-facteurs
-*[NVMe]: Mémoire express non volatile
-*[NAT]: Traduction d'adresse réseau
-*[NAT-PMP]: Protocole de mappage des ports NAT
+*[NVMe]: Non-Volatile Memory Express
+*[NAT]: Network Address Translation
+*[NAT-PMP]: NAT (Network Address Translation) Port Mapping Protocol
 *[NTP]: Protocole de temps réseau
 *[OCI]: Open Container Initiative
 *[OCSP]: Protocole d'état des certificats en ligne
 *[OEM]: Fabricant d'équipement d'origine
 *[OEMs]: Fabricants d'équipement d'origine
-*[open-weights]: Un modèle de poids ouvert est un modèle IA que n'importe qui peut télécharger et utiliser, mais pour lequel les données de formation et/ou les algorithmes sous-jacents sont propriétaires.
 *[OS]: Système d'exploitation
 *[OTP]: Mot de passe à usage unique
 *[OTPs]: Mots de passe à usage unique
@@ -72,12 +69,12 @@
 *[P2P]: Pair à pair
 *[PAM]: Modules d'authentification enfichables de Linux
 *[POP3]: Protocole de bureau de poste 3
-*[PGP]: Pretty Good Privacy (voir OpenPGP)
+*[PGP]: Pretty Good Privacy
 *[DCP]: Donnée à charactère personnel
 *[QNAME]: Nom qualifié
-*[QUIC]: Un protocole réseau basé sur UDP, mais visant à combiner la vitesse d'UDP avec la fiabilité de TCP.
+*[QUIC]: A network protocol that is based on UDP, but aims to combine the speed of UDP with the reliability of TCP.
 *[limites de débit]: Les limites tarifaires sont des restrictions qu'un service impose sur le nombre de fois qu'un utilisateur peut accéder à ses services dans un délai donné.
-*[publication continue]: Mises à jour qui sont publiées fréquemment plutôt qu'à intervalles réguliers
+*[publication continue]: Updates which are released frequently rather than at set intervals.
 *[RSS]: Syndication vraiment simple
 *[SELinux]: Sécurité renforcée de Linux
 *[SIM]: Module d'identité d'abonné
@@ -86,12 +83,10 @@
 *[SNI]: Indication du nom du serveur
 *[SSD]: Disque d'état solide
 *[SSH]: Shell sécurisé
-*[SUID]: Identifiant utilisateur du propriétaire défini
+*[SUID]: Set User Identity
 *[SaaS]: Logiciel en tant que service (logiciel cloud)
 *[SoC]: Système sur puce
-*[SSO]: Authentification unique
-*[prompt système]: Le prompt système d'un chatbot correspond aux instructions générales données par un humain pour guider son fonctionnement.
-*[température]: La température de l'IA est un paramètre utilisé dans les modèles d'IA pour contrôler le niveau d'aléatoire et de créativité dans le texte généré.
+*[SSO]: Single Sign-On
 *[TCP]: Protocole de contrôle de transmission
 *[TEE]: Environnement d'exécution de confiance
 *[TLS]: Sécurité de la couche transport
@@ -107,3 +102,5 @@
 *[W3C]: Consortium World Wide Web
 *[XMPP]: Protocole extensible de messagerie et de présence
 *[PWA]: Application web progressive
+*[PWAs]: Progressive Web Apps
+*[WKD]: Web Key Directory

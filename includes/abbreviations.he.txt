@@ -2,42 +2,42 @@
 *[ADB]: Android Debug Bridge
 *[AOSP]: פרויקט קוד פתוח של אנדרואיד
 *[ATA]: Advanced Technology Attachment
-*[משטח התקפה]: The total number of possible entry points for unauthorized access to a system
+*[משטח התקפה]: The total number of possible entry points for unauthorized access to a system.
 *[AVB]: אתחול מאומת של אנדרואיד
 *[cgroups]: קבוצות בקרה
 *[CLI]: ממשק שורת הפקודה
 *[CSV]: Comma-Separated Values
 *[CVE]: פגיעויות וחשיפות נפוצות
-*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
-*[תכונה דיגיטלית מדור קודם]: Digital Legacy refers to features that allow you to give other people access to your data when you die
+*[dark pattern]: A deceptive design pattern intended to trick a user into taking certain actions.
+*[digital legacy]: A feature that allows you to give other people access to your data when you die.
 *[DNSSEC]: תוספי אבטחה של מערכת שמות דומיין
 *[DNS]: מערכת שמות מתחם
 *[DoH]: DNS דרך HTTPS
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
-*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
+*[DPI]: Deep Packet Inspection
 *[E2EE]: הצפנה מקצה לקצה/מוצפנת
 *[ECS]: EDNS Client Subnet
 *[EEA]: European Economic Area
-*[entropy]: A measurement of how unpredictable something is
+*[entropy]: A measurement of how unpredictable something is.
 *[EOL]: סוף החיים
 *[Exif]: פורמט קובץ תמונה ניתן להחלפה
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: הצפנת דיסק מלאה
 *[FIDO]: זיהוי מהיר באינטרנט
 *[FS]: Forward Secrecy
-*[fork]: פרויקט תוכנה חדש שנוצר על ידי העתקת פרויקט קיים והוספה אליו באופן עצמאי
+*[fork]: A new software project created by copying an existing project and adding to it independently.
 *[GDPR]: תקנת הגנת מידע כללית
 *[GPG]: GNU Privacy Guard (יישום PGP)
 *[GPS]: מערכת מיקום גלובלית
 *[GUI]: ממשק משתמש גרפי
 *[GnuPG]: GNU Privacy Guard (יישום PGP)
 *[HDD]: כונן קשיח
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
+*[HOTP]: HMAC (Hash-based Message Authentication Code)-based One-Time Password
 *[HTTPS]: Hypertext Transfer Protocol Secure
 *[HTTP]: Hypertext Transfer Protocol
-*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
+*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems.
 *[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: Internet Message Access Protocol
 *[IMEI]: זהות ציוד סלולרי בינלאומי
@@ -49,22 +49,19 @@
 *[ISPs]: ספקי שירותי אינטרנט
 *[JNI]: ממשק מקורי של Java
 *[KYC]: הכר את הלקוח שלך
-*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-*[LLMs]: Large Language Models (AI models such as ChatGPT)
-*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
+*[LUKS]: Linux Unified Key Setup (full disk encryption)
 *[MAC]: Media Access Control
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: מזהה ציוד נייד
 *[MFA]: אימות מרובה גורמים
-*[NVMe]: Nonvolatile Memory Express
-*[NAT]: תרגום כתובת רשת
-*[NAT-PMP]: פרוטוקול מיפוי יציאות NAT
+*[NVMe]: Non-Volatile Memory Express
+*[NAT]: Network Address Translation
+*[NAT-PMP]: NAT (Network Address Translation) Port Mapping Protocol
 *[NTP]: פרוטוקול זמן רשת
 *[OCI]: Open Container Initiative
 *[OCSP]: Online Certificate Status Protocol
 *[OEM]: Original Equipment Manufacturer
 *[OEMs]: Original Equipment Manufacturers
-*[open-weights]: An open weights-model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
 *[OS]: מערכת הפעלה
 *[OTP]: סיסמה חד - פעמית
 *[OTPs]: סיסמאות חד פעמיות
@@ -72,12 +69,12 @@
 *[P2P]: עמית-לעמית
 *[PAM]: מודולי אימות ניתנים לחיבור של לינוקס
 *[POP3]: Post Office Protocol 3
-*[PGP]: Pretty Good Privacy (see OpenPGP)
+*[PGP]: Pretty Good Privacy
 *[PII]: Personally Identifiable Information
 *[QNAME]: Qualified Name
-*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
+*[QUIC]: A network protocol that is based on UDP, but aims to combine the speed of UDP with the reliability of TCP.
 *[rate limits]: Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time.
-*[rolling release]: Updates which are released frequently rather than set intervals
+*[rolling release]: Updates which are released frequently rather than at set intervals.
 *[RSS]: סינדיקציה ממש פשוטה
 *[SELinux]: לינוקס משופרת באבטחה
 *[SIM]: מודול זהות מנוי
@@ -86,12 +83,10 @@
 *[SNI]: ציון שם השרת
 *[SSD]: Solid-State Drive
 *[SSH]: מעטפת מאובטחת
-*[SUID]: הגדר את מזהה המשתמש של הבעלים
+*[SUID]: Set User Identity
 *[SaaS]: Software as a Service (cloud software)
 *[SoC]: מערכת על שבב
-*[SSO]: כניסה יחידה
-*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
-*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
+*[SSO]: Single Sign-On
 *[TCP]: Transmission Control Protocol
 *[TEE]: Trusted Execution Environment
 *[TLS]: אבטחת שכבת תעבורה
@@ -107,3 +102,5 @@
 *[W3C]: קונסורציום האינטרנט העולמי
 *[XMPP]: Extensible Messaging and Presence Protocol
 *[PWA]: Progressive Web App
+*[PWAs]: Progressive Web Apps
+*[WKD]: Web Key Directory

@@ -19,7 +19,7 @@ description: 电子邮件在许多方面本身就不安全，以下是它不是�
 
 ## 什么是网络密钥目录标准？
 
-网络密钥目录 (WKD) 标准允许电子邮件客户端发现其他邮箱的 OpenPGP 密钥，即使是托管在不同提供商的邮箱。 支持 WKD 的电子邮件客户端会要求收件人的服务器根据电子邮件地址的域名提供密钥。 例如，如果您向 `jonah@privacyguides.org`发送电子邮件，您的电子邮件客户端会向 `privacyguides.org` 询问 Jonah 的 OpenPGP 密钥，如果 `privacyguides.org` 拥有该账户的密钥，您的邮件就会自动加密。
+The [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) standard allows email clients to discover the OpenPGP key for other mailboxes, even those hosted on a different provider. 支持 WKD 的电子邮件客户端会要求收件人的服务器根据电子邮件地址的域名提供密钥。 例如，如果您向 `jonah@privacyguides.org`发送电子邮件，您的电子邮件客户端会向 `privacyguides.org` 询问 Jonah 的 OpenPGP 密钥，如果 `privacyguides.org` 拥有该账户的密钥，您的邮件就会自动加密。
 
 除了我们推荐的 [电子邮件客户端（](../email-clients.md) ）支持 WKD 外，一些网络邮件提供商也支持 WKD。 *您自己的* 密钥是否发布到 WKD 供他人使用，取决于您的域配置。 如果您使用支持 WKD 的 [电子邮件提供商](../email.md#openpgp-compatible-services) （如 Proton Mail 或 Mailbox.org），他们可以为您在其域上发布 OpenPGP 密钥。
 

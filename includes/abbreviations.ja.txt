@@ -2,42 +2,42 @@
 *[ADB]: Android Debug Bridge
 *[AOSP]: Android オープンソース プロジェクト（Android Open Source Project）
 *[ATA]: Advanced Technology Attachment
-*[攻撃対象領域]: システムへ不正にアクセスできる可能性のある侵入口の総数。
+*[攻撃対象領域]: The total number of possible entry points for unauthorized access to a system.
 *[AVB]: 確認付きブート（Android Verified Boot）
 *[cgroups]: Control Groups
 *[CLI]: コマンドライン インターフェース
 *[CSV]: Comma-Separated Values
 *[CVE]: Common Vulnerabilities and Exposures
-*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
-*[デジタルレガシー機能]： あなたが亡くなったときに、他の人にあなたのデータへのアクセスを許可する機能。
+*[dark pattern]: A deceptive design pattern intended to trick a user into taking certain actions.
+*[digital legacy]: A feature that allows you to give other people access to your data when you die.
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: ドメインネームシステム
 *[DoH]: DNS over HTTPS
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
-*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
+*[DPI]: Deep Packet Inspection
 *[E2EE]: エンドツーエンド暗号化（End-to-End Encryption/Encrypted）
 *[ECS]: EDNSクライアントサブネット（EDNS Client Subnet）
 *[EEA]: 欧州経済領域
-*[entropy]： 予測不可能性の尺度
+*[entropy]： A measurement of how unpredictable something is.
 *[EOL]: サポート終了（End-of-Life）
 *[Exif]: 交換可能な画像ファイル形式（Exchangeable image file format）
 *[FCM]: Firebaseクラウドメッセージング
 *[FDE]: フルディスク暗号化（Full Disk Encryption）
 *[FIDO]: Fast IDentity Online
 *[FS]: 前方秘匿性（Forward Secrecy）
-*[fork]： 既存のプロジェクトをコピーし、追加することにより独立したものとして作成される新しいソフトウェアプロジェクト。
+*[fork]： A new software project created by copying an existing project and adding to it independently.
 *[GDPR]: EU一般データ保護規則（General Data Protection Regulation）
 *[GPG]: GNU Privacy Guard（PGPの実装）
 *[GPS]: 全地球測位システム（Global Positioning System）
 *[GUI]: グラフィカルユーザーインターフェース
 *[GnuPG]: GNU Privacy Guard（PGPの実装）
 *[HDD]: ハードディスクドライブ
-*[HOTP]: HMAC（ハッシュベースのメッセージ認証コード）ベースのワンタイムパスワード
+*[HOTP]: HMAC (Hash-based Message Authentication Code)-based One-Time Password
 *[HTTPS]: Hypertext Transfer Protocol Secure
 *[HTTP]: ハイパーテキスト転送プロトコル（Hypertext Transfer Protocol）
-*[hypervisor]： CPUのリソースを複数のオペレーティングシステムに分割するコンピュータソフトウェア、ファームウェア、またはハードウェア
+*[hypervisor]： Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems.
 *[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: Internet Message Access Protocol（インターネットメッセージアクセスプロトコル）
 *[IMEI]: International Mobile Equipment Identity
@@ -49,22 +49,19 @@
 *[ISPs]: インターネットサービスプロバイダー（Internet Service Providers）
 *[JNI]: Javaネイティブインターフェース
 *[KYC]: Know Your Customer
-*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-*[LLMs]: Large Language Models (AI models such as ChatGPT)
-*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
+*[LUKS]: Linux Unified Key Setup (full disk encryption)
 *[MAC]: メディア・アクセス・コントロール
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Mobile Equipment Identifier
 *[MFA]: 多要素認証（Multi-Factor Authentication）
-*[NVMe]: 不揮発性メモリーエクスプレス（Nonvolatile Memory Express）
-*[NAT]: ネットワークアドレス変換（Network address translation）
-*[NAT-PMP]: NATポートマッピングプロトコル
+*[NVMe]: Non-Volatile Memory Express
+*[NAT]: Network Address Translation
+*[NAT-PMP]: NAT (Network Address Translation) Port Mapping Protocol
 *[NTP]: ネットワークタイムプロトコル
 *[OCI]: Open Container Initiative
 *[OCSP]: オンライン証明書ステータスプロトコル（Online Certificate Status Protocol）
 *[OEM]: Original Equipment Manufacturer
 *[OEMs]: Original Equipment Manufacturers
-*[open-weights]: An open weights-model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
 *[OS]: オペレーティングシステム（Operating System）
 *[OTP]: ワンタイムパスワード
 *[OTPs]: ワンタイムパスワード
@@ -72,12 +69,12 @@
 *[P2P]: ピアツーピア
 *[PAM]: Linuxプラグイン式認証モジュール
 *[POP3]: Post Office Protocol 3（電子メール受信用プロトコル）
-*[PGP]: プリティグッドプライバシー(OpenPGPを参照)
+*[PGP]: Pretty Good Privacy
 *[PII]: 個人を特定できる情報（Personally Identifiable Information）
 *[QNAME]: Qualified Name
-*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
+*[QUIC]: A network protocol that is based on UDP, but aims to combine the speed of UDP with the reliability of TCP.
 *[rate limits]: Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time.
-*[ローリング・リリース]： Updates which are released frequently rather than set intervals
+*[ローリング・リリース]： Updates which are released frequently rather than at set intervals.
 *[RSS]: Really Simple Syndication
 *[SELinux]: Security-Enhanced Linux
 *[SIM]: 加入者識別モジュール
@@ -86,12 +83,10 @@
 *[SNI]: Server Name Indication
 *[SSD]: ソリッドステートドライブ
 *[SSH]: セキュアシェル（Secure Shell）
-*[SUID]: Set Owner User ID
+*[SUID]: Set User Identity
 *[SaaS]: サービスとしてのソフトウェア（クラウドソフトウェア、Software as a Service）
 *[SoC]: System on Chip
-*[SSO]: シングルサインオン（Single sign-on）
-*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
-*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
+*[SSO]: Single Sign-On
 *[TCP]: トランスミッション・コントロール・プロトコル（Transmission Control Protocol）
 *[TEE]: 信頼された実行環境（Trusted Execution Environment）
 *[TLS]: トランスポートレイヤーセキュリティー（Transport Layer Security）
@@ -107,3 +102,5 @@
 *[W3C]: ワールド・ワイド・ウェブ・コンソーシアム（World Wide Web Consortium）
 *[XMPP]: Extensible Messaging and Presence Protocol
 *[PWA]: プログレッシブウェブアプリ（Progressive Web App）
+*[PWAs]: Progressive Web Apps
+*[WKD]: Web Key Directory

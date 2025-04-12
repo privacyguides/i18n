@@ -2,42 +2,42 @@
 *[ADB]: Android Hata Ayıklama Köprüsü
 *[AOSP]: Android Açık Kaynak Projesi
 *[ATA]: İleri Teknoloji Eklentisi
-*[saldırı yüzeyi]: Bir sisteme yetkisiz erişim için olası giriş noktalarının toplam sayısı
+*[saldırı yüzeyi]: The total number of possible entry points for unauthorized access to a system.
 *[AVB]: Android Onaylanmış Önyükleme
 *[cgroups]: Kontrol Grupları
 *[CLI]: Komut Satırı Arayüzü
 *[CSV]: CSV Dosyası
 *[CVE]: Yaygın Zafiyetler ve Açıklar
-*[karanlık desen]: Kullanıcıyı bir şeyler yapması için kandırmayı amaçlayan aldatıcı bir tasarım modeli
-*[dijital miras özelliği]: Dijital Miras, öldüğünüzde başkalarının bilgilerinize erişmesine izin vermenizi sağlayan özelliklere denir
+*[karanlık desen]: A deceptive design pattern intended to trick a user into taking certain actions.
+*[digital legacy]: A feature that allows you to give other people access to your data when you die.
 *[DNSSEC]: Alan Adı Sistemi Güvenlik Eklentileri
 *[DNS]: Alan Adı Sistemi
 *[DoH]: HTTPS üzerinden DNS
 *[DoQ]: QUIC üzerinden DNS
 *[DoH3]: HTTP/3 üzerinden DNS
 *[DoT]: TLS üzerinden DNS
-*[DPI]: Derin Paket Denetimi, belirli yüklere sahip paketleri tanımlar ve engeller
+*[DPI]: Deep Packet Inspection
 *[E2EE]: Uçtan Uca Şifreleme/Şifreli
 *[ECS]: EDNS İstemci Alt Ağı
 *[AEA]: Avrupa Ekonomik Alanı
-*[entropi]: Bir şeyin ne kadar öngörülemez olduğunun ölçümü
+*[entropi]: A measurement of how unpredictable something is.
 *[EOL]: Kullanım Ömrü Sonu
 *[Exif]: Değişebilir görüntü dosyası biçimi
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: Tam Disk Şifreleme
 *[FIDO]: Fast IDentity Online
 *[FS]: İleriye dönük gizlilik
-*[çatal]: Mevcut bir projenin kopyalanması ve ona bağımsız olarak ekleme yapılmasıyla oluşturulan yeni bir yazılım projesi
+*[çatal]: A new software project created by copying an existing project and adding to it independently.
 *[GDPR]: Genel Veri Koruma Tüzüğü
 *[GPG]: GNU Privacy Guard (PGP uygulaması)
 *[GPS]: Küresel Konum Belirleme Sistemi
 *[GUI]: Grafik Kullanıcı Arayüzü
 *[GnuPG]: GNU Privacy Guard (PGP uygulaması)
 *[HDD]: Sabit Disk Sürücüsü
-*[HOTP]: HMAC (Karma Tabanlı Mesaj Doğrulama Kodu) Tabanlı Tek Seferlik Parola
+*[HOTP]: HMAC (Hash-based Message Authentication Code)-based One-Time Password
 *[HTTPS]: Güvenli Hiper Metin Transfer Protokolü
 *[HTTP]: Hiper Metin Transfer Protokolü
-*[hipervizör]: Bir CPU'nun kaynaklarını birden fazla işletim sistemi arasında paylaştıran bilgisayar yazılımı, bellenimi veya donanımı
+*[hipervizör]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems.
 *[ICCID]: Entegre Devre Kartı Tanımlayıcısı
 *[IMAP]: İnternet Mesaj Erişim Protokolü
 *[IMEI]: Uluslararası Mobil Cihaz Kodu
@@ -49,22 +49,19 @@
 *[İSS'ler]: İnternet Servis Sağlayıcıları
 *[JNI]: Java Yerel Arayüzü
 *[KYC]: Müşterini Tanı
-*[LLaVA]: Büyük Dil ve Görme Asistanı (multimodal yapay zeka modeli)
-*[LLMs]: Büyük Dil Modelleri (ChatGPT gibi yapay zeka modelleri)
-*[LUKS]: Linux Birleşik Anahtar Kurulumu (Tam Disk Şifreleme)
+*[LUKS]: Linux Unified Key Setup (full disk encryption)
 *[MAC]: Ortam Erişim Yönetimi
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Mobil Ekipman Tanımlayıcı
 *[MFA]: Çok Faktörlü Kimlik Doğrulama
-*[NVMe]: Uçucu Olmayan Bellek Ekspresi
-*[NAT]: Ağ Adresi Çevirisi
-*[NAT-PMP]: NAT Bağlantı Noktası Eşleme Protokolü
+*[NVMe]: Non-Volatile Memory Express
+*[NAT]: Network Address Translation
+*[NAT-PMP]: NAT (Network Address Translation) Port Mapping Protocol
 *[NTP]: Ağ Zaman Protokolü
 *[OCI]: Açık Konteyner Girişimi
 *[OCSP]: Çevrimiçi Sertifika Durum Protokolü
 *[OEM]: Orijinal Ürün Üreticisi
 *[OEM'ler]: Orijinal Ürün Üreticiler
-*[açık ağırlıklar]: Açık bir ağırlık modeli, herkesin indirip kullanabileceği, ancak temel eğitim verileri ve/veya algoritmaları tescilli olan bir yapay zeka modelidir.
 *[İS]: İşletim Sistemi
 *[OTP]: Tek Seferlik Parola
 *[OTP'ler]: Tek Seferlik Parolalar
@@ -72,12 +69,12 @@
 *[P2P]: Eşler Arası
 *[PAM]: Linux Takılabilir Kimlik Doğrulama Modülleri
 *[POP3]: Postane Protokolü 3
-*[PGP]: Pretty Good Privacy (bkz. OpenPGP)
+*[PGP]: Pretty Good Privacy
 *[PII]: Kişiyi Tanımlamak İçin Kullanılan Bilgiler
 *[QNAME]: Nitelikli Ad
-*[QUIC]: UDP tabanlı, ancak UDP'nin hızını TCP'nin güvenilirliği ile birleştirmeyi amaçlayan bir ağ protokolü.
+*[QUIC]: A network protocol that is based on UDP, but aims to combine the speed of UDP with the reliability of TCP.
 *[oran sınırları]: Ücret sınırları, bir hizmetin, bir kullanıcının belirli bir süre içinde hizmetlerine kaç kez erişebileceği konusunda getirdiği kısıtlamalardır.
-*[yuvarlanan sürüm]: Sabit aralıklar yerine sık sık yayınlanan güncellemeler
+*[yuvarlanan sürüm]: Updates which are released frequently rather than at set intervals.
 *[RSS]: Gerçekten Basit Dağıtım
 *[SELinux]: Güvenliği Geliştirilmiş Linux
 *[SIM]: Abone Kimlik Modülü
@@ -86,12 +83,10 @@
 *[SNI]: Sunucu Adı Göstergesi
 *[SSD]: Katı Hâl Sürücüsü
 *[SSH]: Güvenli Kabuk
-*[SUID]: Kayıtlı Kullanıcı Kimliği
+*[SUID]: Set User Identity
 *[SaaS]: Hizmet Olarak Yazılım (bulut yazılım)
 *[SoC]: Yongada Sistem
-*[TOA]: Tek Oturum Açma
-*[sistem istemi]: Bir yapay zeka sohbetinin sistem istemi, nasıl çalışması gerektiğine rehberlik etmesi için bir insan tarafından verilen genel talimatlardır.
-*[sıcaklık]: AI sıcaklığı, oluşturulan metindeki rastgelelik ve yaratıcılık seviyesini kontrol etmek için AI modellerinde kullanılan bir parametredir.
+*[TOA]: Single Sign-On
 *[TCP]: İletim Kontrol Protokolü
 *[TEE]: Güvenilir Yürütme Ortamı
 *[TLS]: Taşıma Katmanı Güvenliği
@@ -107,3 +102,5 @@
 *[W3C]: Dünya Çapında Ağ Konsorsiyumu
 *[XMPP]: Genişletilebilir Mesajlaşma ve Varlık Protokolü
 *[PWA]: İleri Web Uygulaması
+*[PWAs]: Progressive Web Apps
+*[WKD]: Web Key Directory

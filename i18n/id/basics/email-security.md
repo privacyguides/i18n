@@ -19,7 +19,7 @@ Bahkan jika Anda menggunakan OpenPGP, ini tidak mendukung [forward secrecy](http
 
 ## Apa itu standar Direktori Kunci Web?
 
-Standar Direktori Kunci Web (Web Key Directory; WKD) memungkinkan klien surel untuk menemukan kunci OpenPGP untuk kotak surel lain, bahkan yang di-host pada penyedia yang berbeda. Klien surel yang mendukung WKD akan meminta server penerima untuk mendapatkan kunci berdasarkan nama domain alamat surel. Sebagai contoh, jika Anda mengirim surel ke `jonah@privacyguides.org`, klien surel Anda akan meminta `privacyguides.org` untuk mendapatkan kunci OpenPGP Jonah, dan jika `privacyguides.org` memiliki kunci untuk akun tersebut, pesan Anda akan dienkripsi secara otomatis.
+The [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) standard allows email clients to discover the OpenPGP key for other mailboxes, even those hosted on a different provider. Klien surel yang mendukung WKD akan meminta server penerima untuk mendapatkan kunci berdasarkan nama domain alamat surel. Sebagai contoh, jika Anda mengirim surel ke `jonah@privacyguides.org`, klien surel Anda akan meminta `privacyguides.org` untuk mendapatkan kunci OpenPGP Jonah, dan jika `privacyguides.org` memiliki kunci untuk akun tersebut, pesan Anda akan dienkripsi secara otomatis.
 
 Selain [klien surel yang kami rekomendasikan](../email-clients.md), yang mendukung WKD, beberapa penyedia surel berabasis web juga mendukung WKD. Apakah kunci *Anda* diterbitkan ke WKD untuk digunakan orang lain tergantung pada konfigurasi domain Anda. Jika Anda menggunakan [penyedia surel](../email.md#openpgp-compatible-services) yang mendukung WKD, seperti Proton Mail atau Mailbox.org, mereka dapat mempublikasikan kunci OpenPGP Anda ke domain mereka untuk Anda.
 
