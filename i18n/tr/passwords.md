@@ -105,7 +105,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": YazılımUygulama
-    name: gopass
+    name: Gopass
     image: /assets/img/password-management/gopass.svg
     url: https://gopass.pw
     applicationCategory: Parola Yöneticisi
@@ -365,13 +365,13 @@ KeePassXC dışa aktarma verilerini [CSV](https://en.wikipedia.org/wiki/Comma-se
 
 </div>
 
-### gopass (CLI)
+### Gopass (CLI)
 
 <div class="admonition recommendation" markdown>
 
-![gopass logosu](assets/img/password-management/gopass.svg){ align=right }
+![Gopass logo](assets/img/password-management/gopass.svg){ align=right }
 
-**gopass** Go ile yazılmış komut satırı için minimal bir şifre yöneticisidir. Komut dosyası uygulamaları içinde kullanılabilir ve tüm büyük masaüstü ve sunucu işletim sistemlerinde çalışır.
+**Gopass** is a minimal password manager for the command line written in Go. Komut dosyası uygulamaları içinde kullanılabilir ve tüm büyük masaüstü ve sunucu işletim sistemlerinde çalışır.
 
 [:octicons-home-16: Homepage](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title="Documentation" }

@@ -26,7 +26,7 @@ These are our favorite public DNS resolvers based on their privacy and security 
 | [**AdGuard Public DNS**](https://adguard-dns.io/en/public-dns.html)        | Cleartext   DoH/3   DoT   DoQ   DNSCrypt | Anonymized[^1]           | Anonymized                                                     | Based on server choice. 正在使用的过滤器列表可以在这里找到。 [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) | Yes [:octicons-link-external-24:](https://adguard-dns.io/en/blog/encrypted-dns-ios-14.html)                              |
 | [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup)          | Cleartext   DoH/3   DoT                  | Anonymized[^2]           | No                                                             | Based on server choice.                                                                                             | No [:octicons-link-external-24:](https://community.cloudflare.com/t/requesting-1-1-1-1-signed-profiles-for-apple/571846) |
 | [**Control D Free DNS**](https://controld.com/free-dns)                    | Cleartext   DoH/3   DoT   DoQ            | No[^3]                   | No                                                             | Based on server choice.                                                                                             | Yes [:octicons-link-external-24:](https://docs.controld.com/docs/macos-platform)                                         |
-| [**dns0.eu**](https://dns0.eu)                                             | Cleartext   DoH/3   DoH   DoT   DoQ      | Anonymized[^4]           | Anonymized                                                     | Based on server choice.                                                                                             | Yes [:octicons-link-external-24:](https://dns0.eu/zero.dns0.eu.mobileconfig)                                             |
+| [**DNS0.eu**](https://dns0.eu)                                             | Cleartext   DoH/3   DoH   DoT   DoQ      | Anonymized[^4]           | Anonymized                                                     | Based on server choice.                                                                                             | Yes [:octicons-link-external-24:](https://dns0.eu/zero.dns0.eu.mobileconfig)                                             |
 | [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | DoH   DoT                                | No[^5]                   | No                                                             | Based on server choice. 正在使用的过滤器列表可以在这里找到。 [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    | Yes [:octicons-link-external-24:](https://mullvad.net/en/blog/profiles-to-configure-our-encrypted-dns-on-apple-devices)  |
 | [**Quad9**](https://quad9.net)                                             | Cleartext   DoH   DoT   DNSCrypt         | Anonymized[^6]           | 可选                                                             | Based on server choice, malware blocking by default.                                                                | Yes [:octicons-link-external-24:](https://quad9.net/news/blog/ios-mobile-provisioning-profiles)                          |
 
@@ -166,13 +166,13 @@ NextDNS also offers public DNS-over-HTTPS service at `https://dns.nextdns.io` an
 
 While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot with the app by [adding a WireGuard configuration](https://docs.rethinkdns.com/proxy/wireguard) or [manually configuring Orbot as a Proxy server](https://docs.rethinkdns.com/firewall/orbot), respectively.
 
-### dnscrypt-proxy
+### DNSCrypt-Proxy
 
 <div class="admonition recommendation" markdown>
 
-![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
+![DNSCrypt-Proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
 
-**dnscrypt-proxy** is a DNS proxy with support for [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
+**DNSCrypt-Proxy** is a DNS proxy with support for [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
 
 [:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentation}
@@ -216,6 +216,6 @@ Additionally, all public providers:
 [^1]: AdGuard存储其DNS服务器的汇总性能指标，即对特定服务器的完整请求数、被阻止的请求数和处理请求的速度。 他们还保留并存储了过去24小时内请求的域名数据库。 "我们需要这些信息来识别和阻止新的追踪者和威胁。" "我们还记录了这个或那个追踪器被封锁的次数。 我们需要这些信息来从我们的过滤器中删除过时的规则"。 [https://adguard-dns.io/en/privacy.html](https://adguard-dns.io/en/privacy.html)
 [^2]: Cloudflare只收集和存储发送到1.1.1.1解析器的有限DNS查询数据。 1.1.1.1解析器服务不记录个人数据，而且大部分有限的非个人识别的查询数据只存储25小时。 [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver)
 [^3]: Control D只记录具有自定义DNS配置文件的高级解析器。 自由解析器不记录数据。 [https://controld.com/privacy](https://controld.com/privacy)
-[^4]: dns0.eu collects some data for their threat intelligence feeds, to monitor for newly registered/observed/active domains and other bulk data. That data is shared with some [partners](https://docs.dns0.eu/data-feeds/introduction) for e.g. security research. They do not collect any Personally Identifiable Information. [https://dns0.eu/privacy](https://dns0.eu/privacy)
+[^4]: DNS0.eu collects some data for their threat intelligence feeds, to monitor for newly registered/observed/active domains and other bulk data. That data is shared with some [partners](https://docs.dns0.eu/data-feeds/introduction) for e.g. security research. They do not collect any Personally Identifiable Information. [https://dns0.eu/privacy](https://dns0.eu/privacy)
 [^5]: Mullvad的DNS服务对Mullvad VPN的订阅者和非订阅者都适用。 他们的隐私政策明确声称他们不会以任何方式记录DNS请求。 [https://mullvad.net/en/help/no-logging-data-policy/](https://mullvad.net/en/help/no-logging-data-policy)
 [^6]: Quad9收集了一些数据，用于威胁监测和应对。 然后，这些数据可能被重新混合和共享，例如为了安全研究的目的。 Quad9不会收集或记录IP地址或其他他们认为可以识别个人身份的数据。 [https://quad9.net/privacy/policy](https://quad9.net/privacy/policy)

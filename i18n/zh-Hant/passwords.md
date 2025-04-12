@@ -105,7 +105,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": SoftwareApplication
-    name: gopass
+    name: Gopass
     image: /assets/img/password-management/gopass.svg
     url: https://gopass.pw
     applicationCategory: 密碼管理器。
@@ -363,13 +363,13 @@ KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 </div>
 
-### gopass (CLI)
+### Gopass (CLI)
 
 <div class="admonition recommendation" markdown>
 
-![gopass 標誌](assets/img/password-management/gopass.svg){ align=right }
+![Gopass logo](assets/img/password-management/gopass.svg){ align=right }
 
-**gopass** 是用 Go 寫成的命令列極簡密碼管理器。 它可在 腳本應用程式("scripting applications") 中使用，且支援所有主要的桌面和伺服器作業系統。
+**Gopass** is a minimal password manager for the command line written in Go. 它可在 腳本應用程式("scripting applications") 中使用，且支援所有主要的桌面和伺服器作業系統。
 
 [:octicons-home-16: 首頁](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title="說明文件" }

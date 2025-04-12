@@ -14,7 +14,7 @@ cover: email-aliasing.webp
 
 <div class="grid cards" markdown>
 
-- ![addy.io logo](assets/img/email-aliasing/addy.svg){ .twemoji } [addy.io](email-aliasing.md#addyio)
+- ![Addy.io logo](assets/img/email-aliasing/addy.svg){ .twemoji } [Addy.io](email-aliasing.md#addyio)
 - ![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ .twemoji } [SimpleLogin](email-aliasing.md#simplelogin)
 
 </div>
@@ -36,13 +36,13 @@ cover: email-aliasing.webp
 
 使用別名服務代表您需要同時信任您的電子郵件供應商和您的別名供應商，讓他們處理您未加密的郵件。 有些提供商會透過自動 PGP 加密[^1] 稍微緩解這個問題，在傳送至您最終的電子信箱供應商之前，先將收到的電子郵件加密，將您需要信任的對象從兩個減少到一個。
 
-### addy.io
+### Addy.io
 
 <div class="admonition recommendation" markdown>
 
-![addy.io logo](assets/img/email-aliasing/addy.svg){ align=right }
+![Addy.io logo](assets/img/email-aliasing/addy.svg){ align=right }
 
-**addy.io** 可讓您在共用網域上免費建立 10 個網域別名，或無限制的「標準」別名。
+**Addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases.
 
 [:octicons-home-16: 首頁](https://addy.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="隱私權政策" }
@@ -62,9 +62,9 @@ cover: email-aliasing.webp
 
 </div>
 
-免費帳戶建立共用網域名(像 @addy.io) 的數量為最多10個，月付1美元則可增加到 50 個別外，月付 4美元(或年繳則以3美元計) 則無數量限制。 You can pay for these plans using [cryptocurrency](https://addy.io/help/subscribing-with-cryptocurrency) or purchase a voucher code from [ProxyStore](https://addy.io/help/voucher-codes), addy.io's official reseller.
+The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on Addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can pay for these plans using [cryptocurrency](https://addy.io/help/subscribing-with-cryptocurrency) or purchase a voucher code from [ProxyStore](https://addy.io/help/voucher-codes), Addy.io's official reseller.
 
-可建立無限的標準別名，這些別名以 @[username].addy.io 等網域或付費方案自訂網域結尾。 付費帳戶可建立無數的標準別名如尾綴為 @[username]. 或是自定域名。不過如前面提過，標準別名電郵並不利於隱私，因為只依據域名就可以簡單地把別名綁定起來。 當共用網域名服務封鎖此功能時，它就派得上用場了。 Securitum 於 2023 年 9 月 完成對 addy.io 的 [稽核](https://addy.io/blog/addy-io-passes-independent-security-audit) ，[已確認](https://addy.io/addy-io-security-audit.pdf) 沒發現任何重大漏洞。
+可建立無限的標準別名，這些別名以 @[username].addy.io 等網域或付費方案自訂網域結尾。 付費帳戶可建立無數的標準別名如尾綴為 @[username]. 或是自定域名。不過如前面提過，標準別名電郵並不利於隱私，因為只依據域名就可以簡單地把別名綁定起來。 當共用網域名服務封鎖此功能時，它就派得上用場了。 Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) Addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
 
 值得注意的免費功能：
 

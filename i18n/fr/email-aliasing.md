@@ -14,7 +14,7 @@ An **email aliasing service** allows you to easily generate a new email address 
 
 <div class="grid cards" markdown>
 
-- ![addy.io logo](assets/img/email-aliasing/addy.svg){ .twemoji } [addy.io](email-aliasing.md#addyio)
+- ![Addy.io logo](assets/img/email-aliasing/addy.svg){ .twemoji } [Addy.io](email-aliasing.md#addyio)
 - ![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ .twemoji } [SimpleLogin](email-aliasing.md#simplelogin)
 
 </div>
@@ -36,13 +36,13 @@ Our email aliasing recommendations are providers that allow you to create aliase
 
 L'utilisation d'un service d'alias nécessite de faire confiance à la fois à votre fournisseur de courrier électronique et à votre fournisseur d'alias pour vos messages non cryptés. Some providers mitigate this slightly with automatic PGP encryption[^1], which reduces the number of parties you need to trust from two to one by encrypting incoming emails before they are delivered to your final mailbox provider.
 
-### addy.io
+### Addy.io
 
 <div class="admonition recommendation" markdown>
 
-![addy.io logo](assets/img/email-aliasing/addy.svg){ align=right }
+![Addy.io logo](assets/img/email-aliasing/addy.svg){ align=right }
 
-**addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases.
+**Addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases.
 
 [:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
@@ -62,9 +62,9 @@ L'utilisation d'un service d'alias nécessite de faire confiance à la fois à v
 
 </div>
 
-Le nombre d'alias partagés (qui se terminent par un domaine partagé comme @addy.io) que vous pouvez créer est limité à 10 sur le plan gratuit d'addy.io, à 50 sur leur plan à 1 $/mois et illimité sur le plan à 4 $/mois (facturé 3 $ pour un an). You can pay for these plans using [cryptocurrency](https://addy.io/help/subscribing-with-cryptocurrency) or purchase a voucher code from [ProxyStore](https://addy.io/help/voucher-codes), addy.io's official reseller.
+The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on Addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can pay for these plans using [cryptocurrency](https://addy.io/help/subscribing-with-cryptocurrency) or purchase a voucher code from [ProxyStore](https://addy.io/help/voucher-codes), Addy.io's official reseller.
 
-Vous pouvez créer un nombre illimité d'alias standard qui se terminent par un domaine comme @[nom d'utilisateur].addy.io ou un domaine personnalisé sur les plans payants. Toutefois, comme indiqué précédemment, cela peut nuire à la protection de la vie privée, car les gens peuvent facilement relier vos alias standard en se basant uniquement sur le nom de domaine. Ils sont utiles lorsqu'un domaine partagé peut être bloqué par un service. Securitum a [audité](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io en septembre 2023 et aucune vulnérabilité importante [n'a été identifiée](https://addy.io/addy-io-security-audit.pdf).
+Vous pouvez créer un nombre illimité d'alias standard qui se terminent par un domaine comme @[nom d'utilisateur].addy.io ou un domaine personnalisé sur les plans payants. Toutefois, comme indiqué précédemment, cela peut nuire à la protection de la vie privée, car les gens peuvent facilement relier vos alias standard en se basant uniquement sur le nom de domaine. Ils sont utiles lorsqu'un domaine partagé peut être bloqué par un service. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) Addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
 
 Fonctionnalités gratuites notables :
 

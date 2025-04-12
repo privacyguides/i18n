@@ -26,7 +26,7 @@ These are our favorite public DNS resolvers based on their privacy and security 
 | [**AdGuard Public DNS**](https://adguard-dns.io/en/public-dns.html)        | Cleartext   DoH/3   DoT   DoQ   DNSCrypt | Anonymized[^1]           | Anonymized                                                     | Based on server choice. 필터 목록은 여기에서 확인할 수 있습니다. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) | Yes [:octicons-link-external-24:](https://adguard-dns.io/en/blog/encrypted-dns-ios-14.html)                              |
 | [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup)          | Cleartext   DoH/3   DoT                  | Anonymized[^2]           | 비활성화                                                           | Based on server choice.                                                                                                  | No [:octicons-link-external-24:](https://community.cloudflare.com/t/requesting-1-1-1-1-signed-profiles-for-apple/571846) |
 | [**Control D Free DNS**](https://controld.com/free-dns)                    | Cleartext   DoH/3   DoT   DoQ            | No[^3]                   | 비활성화                                                           | Based on server choice.                                                                                                  | Yes [:octicons-link-external-24:](https://docs.controld.com/docs/macos-platform)                                         |
-| [**dns0.eu**](https://dns0.eu)                                             | Cleartext   DoH/3   DoH   DoT   DoQ      | Anonymized[^4]           | Anonymized                                                     | Based on server choice.                                                                                                  | Yes [:octicons-link-external-24:](https://dns0.eu/zero.dns0.eu.mobileconfig)                                             |
+| [**DNS0.eu**](https://dns0.eu)                                             | Cleartext   DoH/3   DoH   DoT   DoQ      | Anonymized[^4]           | Anonymized                                                     | Based on server choice.                                                                                                  | Yes [:octicons-link-external-24:](https://dns0.eu/zero.dns0.eu.mobileconfig)                                             |
 | [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | DoH   DoT                                | No[^5]                   | 비활성화                                                           | Based on server choice. 필터 목록은 여기에서 확인할 수 있습니다. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    | Yes [:octicons-link-external-24:](https://mullvad.net/en/blog/profiles-to-configure-our-encrypted-dns-on-apple-devices)  |
 | [**Quad9**](https://quad9.net)                                             | Cleartext   DoH   DoT   DNSCrypt         | Anonymized[^6]           | 선택 사항                                                          | Based on server choice, malware blocking by default.                                                                     | Yes [:octicons-link-external-24:](https://quad9.net/news/blog/ios-mobile-provisioning-profiles)                          |
 
@@ -166,13 +166,13 @@ NextDNS also offers public DNS-over-HTTPS service at `https://dns.nextdns.io` an
 
 While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot with the app by [adding a WireGuard configuration](https://docs.rethinkdns.com/proxy/wireguard) or [manually configuring Orbot as a Proxy server](https://docs.rethinkdns.com/firewall/orbot), respectively.
 
-### dnscrypt-proxy
+### DNSCrypt-Proxy
 
 <div class="admonition recommendation" markdown>
 
-![dnscrypt-proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
+![DNSCrypt-Proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
 
-**dnscrypt-proxy** is a DNS proxy with support for [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
+**DNSCrypt-Proxy** is a DNS proxy with support for [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DNS-over-HTTPS](advanced/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
 
 [:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentation}
@@ -216,6 +216,6 @@ Additionally, all public providers:
 [^1]: AdGuard는 특정 서버의 완료된 요청 수, 차단된 요청 수, 요청 처리 속도 등 DNS 서버의 집계 성능 지표를 저장합니다. 또한, 지난 24시간 이내의 도메인 요청 데이터베이스를 보관 및 저장합니다. "해당 정보는 새로운 추적기 및 위협을 식별하고 차단하기 위해 필요합니다." "각 추적기가 차단된 횟수 또한 기록합니다. 이는 오래되어 불필요한 규칙을 필터에서 제거하기 위해 필요합니다." [https://adguard-dns.io/en/privacy.html](https://adguard-dns.io/en/privacy.html)
 [^2]: Cloudflare는 1.1.1.1 리졸버로 전송되는 DNS 쿼리의 제한된 데이터만 수집 및 저장합니다. 1.1.1.1 리졸버는 개인 데이터를 기록하지 않으며, 개인 식별이 불가능하도록 제한된 쿼리 데이터는 대부분 25시간 동안만 저장됩니다. [https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver)
 [^3]: Control D는 사용자 정의 프로필이 있는 프리미엄 리졸버에 대해서만 로그를 기록합니다. 무료 리졸버는 데이터를 기록하지 않습니다. [https://controld.com/privacy](https://controld.com/privacy)
-[^4]: dns0.eu collects some data for their threat intelligence feeds, to monitor for newly registered/observed/active domains and other bulk data. That data is shared with some [partners](https://docs.dns0.eu/data-feeds/introduction) for e.g. security research. They do not collect any Personally Identifiable Information. [https://dns0.eu/privacy](https://dns0.eu/privacy)
+[^4]: DNS0.eu collects some data for their threat intelligence feeds, to monitor for newly registered/observed/active domains and other bulk data. That data is shared with some [partners](https://docs.dns0.eu/data-feeds/introduction) for e.g. security research. They do not collect any Personally Identifiable Information. [https://dns0.eu/privacy](https://dns0.eu/privacy)
 [^5]: Mullvad DNS 서비스는 Mullvad VPN 가입자/비가입자 모두 이용 가능합니다. 프라이버시 정책 상, 어떤 방식으로든 DNS 요청을 기록하지 않는다고 명시되어 있습니다. [https://mullvad.net/en/help/no-logging-data-policy/](https://mullvad.net/en/help/no-logging-data-policy)
 [^6]: Quad9은 위협 모니터링 및 대응 목적으로 일부 데이터를 수집합니다. 해당 데이터는 보안 연구 등의 목적으로 변형 후 공유될 수 있습니다. Quad9은 개인 식별 용도로 쓰일 수 있다고 판단되는 IP 주소 및 기타 데이터를 수집하거나 기록하지 않습니다. [https://quad9.net/privacy/policy](https://quad9.net/privacy/policy)

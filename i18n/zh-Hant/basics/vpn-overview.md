@@ -51,7 +51,7 @@ VPN 無法加密裝置與 VPN 伺服器之間連線以外的資料。 VPN 服務
 
 在您使用[真實身份或知名身份](common-misconceptions.md#complicated-is-better)上網的情況下，使用 VPN 不大可能有用。 這樣做可能會觸發垃圾郵件和欺詐偵測系統，例如您正試圖登入銀行網站。
 
-重要的是請記住，VPN 不會提供絕對的匿名性，因為 VPN 提供者本身仍然會看到用戶的真實 IP 位址、目的地網站資訊，並且通常有可以直接連結回用戶的資金軌跡。 不能僅靠「不記錄」政策指望任何有能力者來保護資料。 如果需要網路本身的完全安全，請考慮使用 [Tor](../advanced/tor-overview.md) 作為 VPN 的補充或替代。
+It's important to remember that a VPN will not provide you with absolute anonymity because the VPN provider itself will still have access to your real IP address, destination website information, and often a money trail that can be linked directly back to you. "No logging" policies are merely a promise; if you need complete safety from the network itself, consider using [Tor](../advanced/tor-overview.md) in addition to or instead of a VPN.
 
 也不該信任 VPN 來保護您與未加密的 HTTP 目標的連線。 為了保持所瀏覽網站活動的私密和安全，您必須使用 HTTPS。 這將確保密碼、會話令牌和查詢免受 VPN 提供者以及 VPN 伺服器和目的地之間其他潛在對手的攻擊。 應在瀏覽器中啟用純 HTTPS 模式（如果支援），以減輕嘗試將連線從 HTTPS 降級為 HTTP 的攻擊。
 

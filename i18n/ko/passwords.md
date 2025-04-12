@@ -105,7 +105,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": SoftwareApplication
-    name: gopass
+    name: Gopass
     image: /assets/img/password-management/gopass.svg
     url: https://gopass.pw
     applicationCategory: 비밀번호 관리자
@@ -363,13 +363,13 @@ KeePassXC는 데이터 내보내기 시 [CSV](https://en.wikipedia.org/wiki/Comm
 
 </div>
 
-### gopass (CLI)
+### Gopass (CLI)
 
 <div class="admonition recommendation" markdown>
 
-![gopass logo](assets/img/password-management/gopass.svg){ align=right }
+![Gopass logo](assets/img/password-management/gopass.svg){ align=right }
 
-**gopass** is a minimal password manager for the command line written in Go. It can be used within scripting applications and works on all major desktop and server operating systems.
+**Gopass** is a minimal password manager for the command line written in Go. It can be used within scripting applications and works on all major desktop and server operating systems.
 
 [:octicons-home-16: Homepage](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title="Documentation" }

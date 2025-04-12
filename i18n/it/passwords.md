@@ -105,7 +105,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": SoftwareApplication
-    name: gopass
+    name: Gopass
     image: /assets/img/password-management/gopass.svg
     url: https://gopass.pw
     applicationCategory: Gestore di password
@@ -363,13 +363,13 @@ KeePassXC memorizza i suoi dati di esportazione come file [CSV](https://en.wikip
 
 </div>
 
-### gopass (CLI)
+### Gopass (CLI)
 
 <div class="admonition recommendation" markdown>
 
-![Logo di gopass](assets/img/password-management/gopass.svg){ align=right }
+![Gopass logo](assets/img/password-management/gopass.svg){ align=right }
 
-**gopass** è un gestore di password minimale per la riga di comando scritto in Go. It can be used within scripting applications and works on all major desktop and server operating systems.
+**Gopass** is a minimal password manager for the command line written in Go. It can be used within scripting applications and works on all major desktop and server operating systems.
 
 [:octicons-home-16: Homepage](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title="Documentation" }

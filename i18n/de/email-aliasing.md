@@ -14,7 +14,7 @@ Mit einem **E-Mail-Aliasing-Dienst** kannst du für jede Website, für die du di
 
 <div class="grid cards" markdown>
 
-- ![addy.io Logo](assets/img/email-aliasing/addy.svg){ .twemoji } [addy.io](email-aliasing.md#addyio)
+- ![Addy.io logo](assets/img/email-aliasing/addy.svg){ .twemoji } [Addy.io](email-aliasing.md#addyio)
 - ![SimpleLogin Logo](assets/img/email-aliasing/simplelogin.svg){ .twemoji } [SimpleLogin](email-aliasing.md#simplelogin)
 
 </div>
@@ -36,13 +36,13 @@ Unsere E-Mail-Aliasing-Empfehlungen beziehen sich auf Provider, die es dir ermö
 
 Die Verwendung eines Alias-Dienstes setzt voraus, dass du sowohl deinem E-Mail-Anbieter als auch deinem Alias-Anbieter deine unverschlüsselten Nachrichten anvertraust. Einige Anbieter entschärfen dieses Problem teils durch automatische PGP-Verschlüsselung[^1], bei der die Anzahl der Parteien, denen du vertrauen musst, von zwei auf eine reduziert wird, indem eingehende E-Mails verschlüsselt werden, bevor sie an deinen endgültigen Mailbox-Anbieter übermittelt werden.
 
-### addy.io
+### Addy.io
 
 <div class="admonition recommendation" markdown>
 
-![addy.io Logo](assets/img/email-aliasing/addy.svg){ align=right }
+![Addy.io logo](assets/img/email-aliasing/addy.svg){ align=right }
 
-**addy.io** lässt dich 10 Domain-Aliase auf einer gemeinsam genutzten Domain kostenlos oder unbegrenzt „Standard“-Aliase erstellen.
+**Addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases.
 
 [:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Datenschutzerklärung" }
@@ -62,9 +62,9 @@ Die Verwendung eines Alias-Dienstes setzt voraus, dass du sowohl deinem E-Mail-A
 
 </div>
 
-Die Anzahl der geteilten Aliase (die auf eine gemeinsam genutzte Domain wie @addy.io enden), die du erstellen kannst, ist beim kostenlosen Tarif von addy.io auf 10 begrenzt, beim Tarif für 1 €/Monat auf 50 und beim Tarif für 4 €/Monat (der für ein Jahr mit 3 € berechnet wird) unbegrenzt. Du kannst für diese Tarife mit [Kryptowährung](https://addy.io/help/subscribing-with-cryptocurrency) bezahlen oder einen Gutscheincode von [ProxyStore](https://addy.io/help/voucher-codes), addy.io's offiziellem Reseller, erwerben.
+The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on Addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can pay for these plans using [cryptocurrency](https://addy.io/help/subscribing-with-cryptocurrency) or purchase a voucher code from [ProxyStore](https://addy.io/help/voucher-codes), Addy.io's official reseller.
 
-Du kannst unbegrenzt viele Standard-Aliase erstellen, die auf eine Domain wie @[Benutzername].addy.io oder eine benutzerdefinierte Domain bei kostenpflichtigen Tarifen enden. Wie bereits erwähnt, kann sich dies jedoch nachteilig auf deine Privatsphäre auswirken, da andere Personen deine Standard-Aliasnamen allein aufgrund des Domainnamens trivialerweise miteinander verknüpfen können. Standard Aliase sind sinnvoll, wenn geteilte Domains von einer Website geblockt werden. Securitum [auditierte](https://addy.io/blog/addy-io-passes-independent-security-audit) addy.io im September 2023, wobei keine signifikanten Schwachstellen [identifiziert wurden](https://addy.io/addy-io-security-audit.pdf).
+Du kannst unbegrenzt viele Standard-Aliase erstellen, die auf eine Domain wie @[Benutzername].addy.io oder eine benutzerdefinierte Domain bei kostenpflichtigen Tarifen enden. Wie bereits erwähnt, kann sich dies jedoch nachteilig auf deine Privatsphäre auswirken, da andere Personen deine Standard-Aliasnamen allein aufgrund des Domainnamens trivialerweise miteinander verknüpfen können. Standard Aliase sind sinnvoll, wenn geteilte Domains von einer Website geblockt werden. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) Addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
 
 Bemerkenswerte kostenlose Funktionen:
 
