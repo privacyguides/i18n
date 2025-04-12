@@ -318,15 +318,6 @@ Brave te permite seleccionar filtros de contenido adicionales en la página inte
 
 1. Desactivar el optimizador V8 reduce tu superficie de ataque al desactivar [*algunas*](https://grapheneos.social/@GrapheneOS/112708049232710156) partes de la compilación Just-In-Time (JIT) de JavaScript.
 
-<div class="admonition tip" markdown>
-<p class="admonition-title">Desinfectar al cerrar</p>
-
-- [x] Selecciona **Eliminar los datos que los sitios guardan en tu dispositivo cuando cierras todas las ventanas** en *Configuración del sitio y de los Escudos* → *Contenido* → *Configuración de contenido adicional* → *Datos de sitios en el dispositivo*.
-
-Si deseas permanecer conectado a un sitio concreto que visitas a menudo, puedes establecer excepciones por sitio en la sección *Comportamientos personalizados*.
-
-</div>
-
 ##### Ventanas Tor
 
 [**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser is, and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).

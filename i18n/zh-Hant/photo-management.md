@@ -19,7 +19,7 @@ cover: photo-management.webp
 ![Ente logo](assets/img/photo-management/ente.svg#only-light){ align=right }
 ![Ente logo](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
 
-**Ente Photos**提供端對端加密照片備份服務，支援 iOS 和 Android 的自動備份。 其客戶端和伺服器端的程式碼都完全開源。 它也可 [自行託管](https://github.com/ente-io/ente/tree/main/server#self-hosting)。 The free plan offers 5 GB of storage as long as you use the service at least once a year.
+**Ente Photos**提供端對端加密照片備份服務，支援 iOS 和 Android 的自動備份。 其客戶端和伺服器端的程式碼都完全開源。 它也可 [自行託管](https://github.com/ente-io/ente/tree/main/server#self-hosting)。 The free plan offers 10 GB of storage as long as you use the service at least once a year.
 
 [:octicons-home-16: 首頁](https://ente.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="隱私權政策" }

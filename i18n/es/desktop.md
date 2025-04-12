@@ -214,6 +214,25 @@ Qubes OS asegura el ordenador aislando subsistemas (por ejemplo, redes, USB, etc
 
 Para más información sobre el funcionamiento de Qubes, consulta nuestra página [Qubes OS overview](os/qubes-overview.md).
 
+### Secureblue
+
+<div class="admonition recommendation" markdown>
+
+![Secureblue logo](assets/img/linux-desktop/secureblue.svg){ align=right }
+
+**Secureblue** is a security-focused operating system based on [Fedora Atomic Desktops](#fedora-atomic-desktops). It includes a number of [security features](https://secureblue.dev/features) intended to proactively defend against the exploitation of both known and unknown vulnerabilities, and ships with [Trivalent](https://github.com/secureblue/Trivalent), their hardened, Chromium-based web browser.
+
+[:octicons-home-16: Homepage](https://secureblue.dev){ .md-button .md-button--primary }
+[:octicons-info-16:](https://secureblue.dev/install){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/secureblue/secureblue){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://secureblue.dev/donate){ .card-link title="Contribute" }
+
+</div>
+
+**Trivalent** is Secureblue's hardened Chromium for desktop Linux inspired by [GrapheneOS](android/distributions.md#grapheneos)'s Vanadium browser.
+
+Secureblue also provides GrapheneOS's [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc) and enables it globally (including for Flatpaks).
+
 ### Kicksecure
 
 Aunque en la mayoría de los casos [desaconsejamos](os/linux-overview.md#release-cycle) las distribuciones "perpetuamente obsoletas" como Debian para uso de escritorio, Kicksecure es un sistema operativo basado en Debian que ha sido reforzado para ser mucho más que una instalación típica de Linux.

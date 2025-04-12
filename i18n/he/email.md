@@ -317,7 +317,6 @@ Stalwart does **not** have an integrated webmail, so you will need to use it wit
 
 - מצפין נתוני חשבון אימייל במצב מנוחה עם הצפנה ללא גישה.
 - Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
-- מאפשר למשתמשים להשתמש ב[שם דומיין](https://en.wikipedia.org/wiki/Domain_name) משלהם. שמות דומיין מותאמים אישית חשובים למשתמשים מכיוון שהם מאפשרים להם לתחזק את הסוכנות שלהם מהשירות, אם היא תהפוך לגרועה או תירכש על ידי חברה אחרת שאינה מתעדפת פרטיות.
 - פועל על תשתית בבעלות, כלומר לא בנוי על ספקי שירותי דואר אלקטרוני של צד שלישי.
 
 **המקרה הטוב ביותר:**
@@ -328,8 +327,9 @@ Stalwart does **not** have an integrated webmail, so you will need to use it wit
 - תמיכה בתיבת דואר זמנית למשתמשים חיצוניים. פעולה זו שימושית כאשר ברצונך לשלוח דוא"ל מוצפן, מבלי לשלוח עותק בפועל לנמען שלך. למיילים אלה יש בדרך כלל תוחלת חיים מוגבלת ולאחר מכן נמחקות אוטומטית. הם גם לא דורשים מהנמען להגדיר שום קריפטוגרפיה כמו OpenPGP.
 - זמינות שירותי ספק הדואר האלקטרוני באמצעות [שירות onion](https://en.wikipedia.org/wiki/.onion).
 - [Sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) support.
+- Allows users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). שמות דומיין מותאמים אישית חשובים למשתמשים מכיוון שהם מאפשרים להם לתחזק את הסוכנות שלהם מהשירות, אם היא תהפוך לגרועה או תירכש על ידי חברה אחרת שאינה מתעדפת פרטיות.
 - Catch-all or alias functionality for those who use their own domains.
-- Use of standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). פרוטוקולי גישה סטנדרטיים מבטיחים שלקוחות יכולים להוריד בקלות את כל האימייל שלהם, אם הם רוצים לעבור לספק אחר.
+- Use of standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
 
 ### פרטיות
 

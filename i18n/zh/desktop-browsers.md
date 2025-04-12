@@ -337,14 +337,7 @@ Brave allows you to select additional content filters within the internal `brave
 
 1. Disabling the V8 optimizer reduces your attack surface by disabling [*some*](https://grapheneos.social/@GrapheneOS/112708049232710156) parts of JavaScript Just-In-Time (JIT) compilation.
 
-<div class="admonition tip" markdown>
-<p class="admonition-title">Sanitizing on close</p>
 
-- [x] Select **Delete data sites have saved to your device when you close all windows** under *Sites and Shields Settings* → *Content* → *Additional content settings* → *On-device site data*.
-
-If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
-
-</div>
 
 ##### Tor windows
 

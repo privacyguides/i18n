@@ -317,7 +317,6 @@ Consideramos esses recursos importantes para fornecer um serviço seguro e otimi
 
 - Criptografa os dados da conta de e-mail em repouso com criptografia de acesso zero.
 - Função "Exportar como" para os formatos [Mbox](https://en.wikipedia.org/wiki/Mbox) ou arquivos .eml individuais no padrão [RFC5322](https://datatracker.ietf.org/doc/rfc5322).
-- Permite que os usuários usem seu próprio [nome de domínio](https://en.wikipedia.org/wiki/Domain_name). Nomes de domínio personalizados são importantes para os usuários, porque lhes permite manter sua agência a partir do serviço. Deve piorar ou ser adquirido por outra empresa que não priorize a privacidade.
 - Opera em uma infraestrutura própria, ou seja, não é baseada em provedores de serviços de e-mail de terceiros.
 
 **Melhor Caso:**
@@ -328,8 +327,9 @@ Consideramos esses recursos importantes para fornecer um serviço seguro e otimi
 - Suporte para uma caixa de correio temporária para usuários externos. Isso é útil quando você deseja enviar um e-mail criptografado sem enviar uma cópia real para o seu destinatário. Estes e-mails geralmente têm um tempo de vida limitado e depois são automaticamente excluídos. Eles também não exigem que o destinatário configure nenhuma criptografia, como o OpenPGP.
 - Disponibilidade do site do provedor de serviços de e-mail em um [serviço onion](https://en.wikipedia.org/wiki/.onion).
 - Suporte a [subendereçamento](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
-- Funcionalidade de alias ou catch-all para aqueles que usam seus próprios domínios.
-- Uso de protocolos padrão de acesso a e-mail, como IMAP, SMTP ou [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Os protocolos de acesso padrão garantem que os clientes possam baixar facilmente todos os seus e-mails, caso queiram mudar para outro provedor.
+- Allows users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Nomes de domínio personalizados são importantes para os usuários, porque lhes permite manter sua agência a partir do serviço. Deve piorar ou ser adquirido por outra empresa que não priorize a privacidade.
+- Catch-all or alias functionality for those who use their own domains.
+- Use of standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
 
 ### Privacidade
 

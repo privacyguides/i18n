@@ -317,7 +317,6 @@ Stalwartにはウェブメールが**ない**ため、[専用のEメールクラ
 
 - ゼロアクセス暗号化によりEメールアカウントのデータを暗号化していること。
 - [Mbox](https://en.wikipedia.org/wiki/Mbox)もしくは[RFC5322](https://datatracker.ietf.org/doc/rfc5322)に基づいた個別の.EMLファイルとしてエクスポートできること。
-- ユーザーの独自[ドメイン名](https://en.wikipedia.org/wiki/Domain_name)が利用できること。 プロバイダーが悪化したり、プライバシーを重視しない他の会社に買収されたりした場合に備えることができるため、カスタムドメイン名はユーザーにとって非常に重要である。
 - 自社所有のインフラで運用されていること。第三者のEメールサービスプロバイダーによるサービス提供ではないこと。
 
 **満たされることが望ましい基準：**
@@ -328,8 +327,9 @@ Stalwartにはウェブメールが**ない**ため、[専用のEメールクラ
 - 外部ユーザー用の一時的なメールボックスがあること。 受信者に実際のメールのコピーを送るのではなく、暗号化されたメールを送る際に役立ちます。 通常の場合、一時的なメールボックスのメールには期限があり、自動的に削除されます。 また、受信者はOpenPGPのような暗号化を設定する必要がありません。
 - [.onionサービス](https://en.wikipedia.org/wiki/.onion)経由でEメールプロバイダーのサービスが利用できること。
 - [サブアドレス](https://en.wikipedia.org/wiki/Email_address#Sub-addressing)に対応していること。
-- 独自ドメインを利用した際、キャッチオール機能もしくはエイリアス機能があること。
-- IMAP、SMTPや[JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol)などの標準的なEメールプロトコルを使用していること。 標準的なプロトコルを採用していることで、他のプロバイダーへ変更する際にすべてのメールを簡単にダウンロードすることができます。
+- Allows users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). プロバイダーが悪化したり、プライバシーを重視しない他の会社に買収されたりした場合に備えることができるため、カスタムドメイン名はユーザーにとって非常に重要である。
+- Catch-all or alias functionality for those who use their own domains.
+- Use of standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
 
 ### プライバシー
 

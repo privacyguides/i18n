@@ -318,15 +318,6 @@ Brave 允許您在內部網頁 brave://settings/shields/filters 內選擇額外�
 
 1. 停用 V8 最佳化工具可減少您的攻擊面。 停用[*部分*](https://grapheneos.social/@GrapheneOS/112708049232710156) JavaScript 即時 (JIT) 編譯的某些部分，從而降低您的攻擊面。
 
-<div class="admonition tip" markdown>
-<p class="admonition-title">離開時清除資料</p>
-
-- [x] 在*網站與 Shields 設定* → *內容* → *其他內容設定* → *網站在裝置端的資料* 底下選擇**在所有視窗關閉後刪除網站儲存到裝置的資料**。
-
-如果希望在經常造訪的特定網站上保持登入，可在 *自訂設定* 部分下針對各個網站設定例外。
-
-</div>
-
 ##### Tor 視窗
 
 [**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser is, and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).

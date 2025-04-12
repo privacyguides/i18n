@@ -91,7 +91,9 @@ Recientemente, varias organizaciones han intentado resolver algunos de los probl
 
 Los repetidores multiparte (MPR) utilizan varios nodos propiedad de distintas partes, de modo que ninguna sabe quién eres y a qué te conectas. Esta es la idea básica detrás de Tor, pero ahora hay algunos servicios de pago que intentan emular este modelo.
 
-Los MPR tratan de resolver un problema inherente a las VPN: el hecho de que hay que confiar plenamente en ellas. Logran este objetivo segmentando las responsabilidades entre dos o más empresas diferentes. Por ejemplo, Relay Privado de iCloud+ de Apple dirige tu tráfico a través de dos servidores:
+Los MPR tratan de resolver un problema inherente a las VPN: el hecho de que hay que confiar plenamente en ellas. Logran este objetivo segmentando las responsabilidades entre dos o más empresas diferentes.
+
+One example of a commercially available MPR is Apple's iCloud+ Private Relay, which routes your traffic through two servers:
 
 1. En primer lugar, un servidor operado por Apple.
 
@@ -101,15 +103,15 @@ Los MPR tratan de resolver un problema inherente a las VPN: el hecho de que hay 
 
     Este servidor realiza la conexión con el sitio web de destino, pero no tiene conocimiento de tu dispositivo. La única dirección IP que conoce es la del servidor de Apple.
 
-Otros MPR gestionados por empresas diferentes, como Google o INVISV, funcionan de manera muy similar. Esta protección por segmentación solo existe si confías en que las dos empresas no confabularán entre sí para desanonimizarte.
+Other MPRs run by different companies operate in a very similar manner. This protection by segmentation only exists if you trust the two companies to not collude with each other to deanonymize you.
 
 ### VPN Descentralizadas
 
-Otro intento de resolver los problemas de los servicios VPN centralizados son las dVPN. Se basan en la tecnología blockchain y pretenden eliminar la confianza en una sola parte distribuyendo los nodos entre muchas personas diferentes. Sin embargo, en muchas ocasiones una dVPN utilizará por defecto un único nodo, lo que significa que tendrás que confiar plenamente en ese nodo, al igual que en una VPN tradicional. A diferencia de una VPN tradicional, este único nodo que puede ver todo tu tráfico es una persona cualquiera en lugar de tu proveedor de VPN, que puede ser auditado y tiene responsabilidades legales para mantener su política de privacidad. Para solucionarlo se necesitan multisaltos, pero eso conlleva un coste de estabilidad y rendimiento.
+Another attempt at solving the issues with centralized VPN services are dVPNs. These are based on blockchain technology and claim to eliminate trust in a single party by distributing the nodes across lots of different people. However, many times a dVPN will default to a single node, meaning you need to trust that node completely, just like a traditional VPN. Unlike a traditional VPN, this one node that can see all your traffic is a random person instead of your VPN provider that can be audited and has legal responsibilities to uphold their privacy policy. Multi-hop is needed to solve this, but that comes with a stability and performance cost.
 
-Otra consideración es la responsabilidad legal. El nodo de salida tendrá que lidiar con problemas legales derivados del mal uso de la red, un problema con el que la red Tor ha lidiado durante toda su existencia. Esto disuade a la gente normal de ejecutar nodos y hace que sea más atractivo para un actor malicioso con muchos recursos alojar uno. Esto es un gran problema si el servicio es de un solo nodo, ya que el nodo de salida potencialmente malicioso puede ver quién eres y a qué te estás conectando.
+Another consideration is legal liability. The exit node will need to deal with legal problems from misuse of the network, an issue that the Tor network has contended with for its entire existence. This discourages regular people from running nodes and makes it more attractive for a malicious actor with lots of resources to host one. This is a big problem if the service is single-node, as the potentially malicious exit node can see who you are and what you're connecting to.
 
-Muchas dVPN se utilizan para impulsar una criptomoneda en lugar de hacer el mejor servicio. También suelen ser redes más pequeñas con menos nodos, lo que las hace más vulnerables a los [ataques de Sybil](https://en.wikipedia.org/wiki/Sybil_attack).
+Many dVPNs are used to push a cryptocurrency rather than to make the best service. They also tend to be smaller networks with fewer nodes, making them more vulnerable to [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack).
 
 ## Información Relacionada con las VPNs
 

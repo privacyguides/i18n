@@ -318,15 +318,6 @@ Brave ermöglicht die Auswahl zusätzlicher Inhaltsfilter auf der internen Seite
 
 1. Die Deaktivierung des V8-Optimierungstool verringert deine Angriffsfläche, indem [*einige*](https://grapheneos.social/@GrapheneOS/112708049232710156) Teile der JavaScript-Just-In-Time-Kompilierung (JIT) deaktiviert werden.
 
-<div class="admonition tip" markdown>
-<p class="admonition-title">Browserdaten beim Schließen löschen</p>
-
-- [x] Wähle **Websitedaten löschen, die auf deinem Gerät gespeichert wurden, wenn du alle Fenster schließt** unter *Website- und Schutzeinstellungen* → *Inhalte* → *Zusätzliche Inhaltseinstellungen* → *Websitedaten auf dem Gerät*.
-
-If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis under the *Customized behaviors* section.
-
-</div>
-
 ##### Tor-Fenster
 
 [**Privates Fenster mit Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) ermöglicht es dir, deinen Datenverkehr durch das Tor-Netzwerk im Inkognito-Fenster zu leiten und auf .onion-Dienste zuzugreifen, was in einigen Fällen nützlich sein kann. Allerdings ist Brave **nicht** so resistent gegen Fingerprinting wie der Tor-Browser und es gibt viel weniger Leute, die Brave zusammen mit Tor benutzen, sodass du auffallen wirst. Wenn dein Bedrohungsmodell starke Anonymität erfordert, benutze den [Tor Browser](tor.md#tor-browser).

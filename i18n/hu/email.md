@@ -317,7 +317,6 @@ Ezeket a funkciókat fontosnak tartjuk a biztonságos és optimális szolgáltat
 
 - Az email fiókok adatai alapértelmezetten zéró hozzáféréssel legyenek titkosítva.
 - Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
-- Lehetővé teszi a felhasználók számára, hogy saját [domainnevüket](https://en.wikipedia.org/wiki/Domain_name) használják. Az egyéni domain nevek azért fontosak a felhasználók számára, mert lehetővé teszik számukra, hogy megőrizzék a függetlenedési képességüket a szolgáltatástól, ha az rosszra fordulna, vagy ha egy másik vállalat felvásárolná, amely nem helyezi előtérbe az adatvédelmet.
 - Saját infrastruktúrán működik, azaz nem harmadik féltől származó e-mail szolgáltatóra épül.
 
 **Legjobb esetben:**
@@ -328,8 +327,9 @@ Ezeket a funkciókat fontosnak tartjuk a biztonságos és optimális szolgáltat
 - Ideiglenes postafiók támogatása külső felhasználók számára. Ez akkor hasznos, ha titkosított e-mailt szeretne küldeni anélkül, hogy a címzettnek tényleges másolatot küldene. Ezek az e-mailek általában korlátozott élettartamúak, majd automatikusan törlődnek. A címzettnek nem kell semmilyen titkosítást konfigurálnia, mint az OpenPGP esetében.
 - Az emailszolgáltató weboldalának elérhetősége egy [.onion szolgáltatáson](https://en.wikipedia.org/wiki/.onion) keresztül.
 - Az [alcímzés](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) támogatása.
+- Allows users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Az egyéni domain nevek azért fontosak a felhasználók számára, mert lehetővé teszik számukra, hogy megőrizzék a függetlenedési képességüket a szolgáltatástól, ha az rosszra fordulna, vagy ha egy másik vállalat felvásárolná, amely nem helyezi előtérbe az adatvédelmet.
 - Catch-all or alias functionality for those who use their own domains.
-- Use of standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). A szabványos hozzáférési protokollok biztosítják, hogy az ügyfelek könnyen letölthessék az összes e-mailjüket, ha másik szolgáltatóhoz szeretnének váltani.
+- Use of standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
 
 ### Adatvédelem
 

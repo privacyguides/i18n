@@ -318,15 +318,6 @@ Braveの[シールド](https://support.brave.com/hc/articles/360022973471-What-i
 
 1. V8オプティマイザーを無効にすることでJavaScriptの実行時(JIT)コンパイルの[*一部*](https://grapheneos.social/@GrapheneOS/112708049232710156)を無効化し、アタックサーフェスを減らすことができます。
 
-<div class="admonition tip" markdown>
-<p class="admonition-title">終了時のクリーンアップ</p>
-
-- [x] *サイトとシールドの設定* → *コンテンツ* → *その他のコンテンツの設定* → *デバイス上のサイトデータ*から**すべてのウィンドウを閉じるときに、サイトによりデバイスに保存されたデータを削除する**を選択。
-
-よく見る特定のサイトのログインを維持したい場合、*動作のカスタマイズ*からサイトごとに例外を設定することができます。
-
-</div>
-
 ##### Torウィンドウ
 
 [**Tor搭載のプライベートウィンドウ**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity)を使うことで、プライベートウィンドウの通信はTorネットワークを経由し、.onionにアクセスでき、場合によっては役立つこともあります。 ただし、BraveはTor Browserよりもフィンガープリンティングに対して強く**ない**ことに加え、BraveでTorを使う人は非常に少ないため目立ってしまいます。 脅威モデルにより強い匿名性が必要な場合、[Tor Browser](tor.md#tor-browser)を使用します。

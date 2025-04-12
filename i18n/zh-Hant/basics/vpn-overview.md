@@ -91,7 +91,9 @@ It's important to remember that a VPN will not provide you with absolute anonymi
 
 多方中繼 (MPR) 使用不同方的多個節點，這樣任何一方都不知道您是誰以及連接到什麼。 這是 Tor 背後的基本思想，現在有一些付費服務試圖模仿這種模式。
 
-MPR 試圖解決 VPN 固有的問題：用戶必須完全信任它們。 他們透過劃分兩個或多個不同公司間的責任來實現此目標。 例如，Apple 的 iCloud+ Private Relay 透過兩個伺服器路由流量：
+MPR 試圖解決 VPN 固有的問題：用戶必須完全信任它們。 他們透過劃分兩個或多個不同公司間的責任來實現此目標。
+
+One example of a commercially available MPR is Apple's iCloud+ Private Relay, which routes your traffic through two servers:
 
 1. 首先是 Apple 營運的伺服器。
 
@@ -101,15 +103,15 @@ MPR 試圖解決 VPN 固有的問題：用戶必須完全信任它們。 他們�
 
     該伺服器實際上會連接到您的目標網站，但不知道您的裝置。 它知道的唯一 IP 位址是 Apple 伺服器 IP 位址。
 
-其他由 Google 或 INVISV 等公司經營的 MPR 運作也非常相似。 只有當相信這兩家公司不會串通對用戶進行去匿名化時，這種分段保護才存在。
+Other MPRs run by different companies operate in a very similar manner. This protection by segmentation only exists if you trust the two companies to not collude with each other to deanonymize you.
 
 ### 去中心化 VPN
 
-解決集中式 VPN 問題的另一個嘗試是 dVPN。 它們基於區塊鏈技術，聲稱透過將節點分佈在許多不同的人身上來消除對單一方的信任。 然而，很多時候 dVPN 預設為單一節點，這意味著需要完全信任該節點，就像傳統 VPN 一樣。 與傳統的 VPN 不同，這個可看到您所有流量的節點是隨機的而不是 VPN 提供者，後者可以被審核且承擔維護其隱私權政策的法律責任。 需要多跳來解決這個問題，但會帶來穩定性和效能成本問題。
+Another attempt at solving the issues with centralized VPN services are dVPNs. These are based on blockchain technology and claim to eliminate trust in a single party by distributing the nodes across lots of different people. However, many times a dVPN will default to a single node, meaning you need to trust that node completely, just like a traditional VPN. Unlike a traditional VPN, this one node that can see all your traffic is a random person instead of your VPN provider that can be audited and has legal responsibilities to uphold their privacy policy. Multi-hop is needed to solve this, but that comes with a stability and performance cost.
 
-另一個考慮因素是法律責任。 出口節點需要處理網路濫用帶來的法律問題，這是 Tor 網路自誕生以來一直在處理的問題。 這會阻止一般人運行節點，並使擁有大量資源來託管節點的惡意行為者更具吸引力。 如果服務是單節點的，將是個大問題，因為潛在的惡意出口節點可以看到您是誰以及正在連接到什麼。
+Another consideration is legal liability. The exit node will need to deal with legal problems from misuse of the network, an issue that the Tor network has contended with for its entire existence. This discourages regular people from running nodes and makes it more attractive for a malicious actor with lots of resources to host one. This is a big problem if the service is single-node, as the potentially malicious exit node can see who you are and what you're connecting to.
 
-許多 dVPN 被用在推送加密貨幣，而不是提供最好的服務。 它們往往是節點少的小型網路，更容易受到[女巫攻擊](https://en.wikipedia.org/wiki/Sybil_attack)。
+Many dVPNs are used to push a cryptocurrency rather than to make the best service. They also tend to be smaller networks with fewer nodes, making them more vulnerable to [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack).
 
 ## VPN 相關資訊
 

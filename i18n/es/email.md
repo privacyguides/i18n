@@ -317,7 +317,6 @@ Consideramos que estas características son importantes para ofrecer un servicio
 
 - Cifra los datos de las cuentas de correo electrónico en reposo con cifrado de acceso cero.
 - Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
-- Permitir a los usuarios utilizar su propio [nombre de dominio](https://en.wikipedia.org/wiki/Domain_name). Los nombres de dominio personalizados son importantes para los usuarios porque les permiten mantener su agencia del servicio, en caso de que éste se estropee o sea adquirido por otra empresa que no dé prioridad a la privacidad.
 - Operaciones en infraestructura propia, es decir, no construidas sobre proveedores de servicios de correo electrónico de terceros.
 
 **Mejor caso:**
@@ -328,8 +327,9 @@ Consideramos que estas características son importantes para ofrecer un servicio
 - Soporte para un buzón temporal para usuarios externos. Esto es útil cuando quieres enviar un correo electrónico encriptado, sin enviar una copia real a tu destinatario. Estos correos electrónicos suelen tener una vida útil limitada y luego se eliminan automáticamente. Tampoco requieren que el destinatario configure ninguna criptografía como OpenPGP.
 - Disponibilidad de los servicios del proveedor de correo electrónico a través de un [ servicio onion](https://en.wikipedia.org/wiki/.onion).
 - Soporte de [subdireccionamiento](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
-- Funcionalidad Catch-all o alias para quienes utilizan sus propios dominios.
-- Uso de protocolos estándar de acceso al correo electrónico como IMAP, SMTP o [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Los protocolos de acceso estándar garantizan que los clientes puedan descargar fácilmente todo su correo electrónico en caso de que quieran cambiar de proveedor.
+- Allows users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Los nombres de dominio personalizados son importantes para los usuarios porque les permiten mantener su agencia del servicio, en caso de que éste se estropee o sea adquirido por otra empresa que no dé prioridad a la privacidad.
+- Catch-all or alias functionality for those who use their own domains.
+- Use of standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
 
 ### Privacidad
 

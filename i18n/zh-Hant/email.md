@@ -317,7 +317,6 @@ Stalwart does **not** have an integrated webmail, so you will need to use it wit
 
 - 使用零存取加密技術全程加密電子郵件帳戶資料。
 - Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
-- 允許使用者使用自己的[網域名稱](https://en.wikipedia.org/wiki/Domain_name)。 自定網域名稱對用戶來說很重要，因為它允許用戶在使用服務時仍維持持自我代理，以防服務變差或被另一家不優先考慮隱私的公司收購。
 - 在自有基礎設施上運作，即不建立在第三方電子郵件服務提供商之上。
 
 **最佳案例：**
@@ -328,8 +327,9 @@ Stalwart does **not** have an integrated webmail, so you will need to use it wit
 - 支援外部使用者的臨時信箱。 當您想要發送加密的電子郵件時，這非常有用，而無需將實際副本發送給您的收件人。 這些電子郵件通常具有限定時效，之後會被自動刪除。 它們也不需要收件人配置任何像OpenPGP這樣的加密技術。
 - 可提供 [onion 服務](https://en.wikipedia.org/wiki/.onion)的電子郵件服務供應商。
 - [Sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) support.
-- 為擁有自己網域的用戶提供通用位址或別名功能。
-- 使用標準的電子郵件存取通訊協定，例如 IMAP、SMTP 或 [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol)。 標準存取通訊協定可確保客戶在轉換其他供應商時，能輕鬆下載所有電子郵件。
+- Allows users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). 自定網域名稱對用戶來說很重要，因為它允許用戶在使用服務時仍維持持自我代理，以防服務變差或被另一家不優先考慮隱私的公司收購。
+- Catch-all or alias functionality for those who use their own domains.
+- Use of standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
 
 ### 隱私
 

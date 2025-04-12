@@ -322,15 +322,6 @@ O Brave permite que você selecione filtros de conteúdo adicionais na página i
 
 1. A desativação do otimizador V8 reduz sua superfície de ataque ao desativar [*algumas*](https://grapheneos.social/@GrapheneOS/112708049232710156) partes da compilação Just-In-Time (JIT) do JavaScript.
 
-<div class="admonition tip" markdown>
-<p class="admonition-title">Sanitarizando ao fechar</p>
-
-— x] Selecione **Delete os dados que os sites salvaram no seu dispositivo ao fechar todas as janelas** em *Configurações de sites e Shields* → *Conteúdo* → *Configurações adicionais de conteúdo* → *dados de sites no dispositivo*.
-
-Se desejar permanecer conectado a um site específico que visita com frequência, é possível definir exceções por site na seção *Comportamentos personalizados*.
-
-</div>
-
 ##### Tor Windows
 
 [**Janela privada com Tor**](https://support.brave.com/hc/pt/articles/360018121491-O-que-é-uma-janela-privada-com-conectividade-Tor) permite rotear seu tráfego pela rede Tor em janelas privadas e acessar serviços .onion, o que pode ser útil em alguns casos. No entanto, o Brave **não é  tão resistente** à impressão digital quanto o Navegador Tor, e muito menos pessoas usam o Brave com o Tor, portanto, você se destacará. Se o seu perfil ou modelo de detecção de ameaças exigir um forte anonimato, use preferencialmente o [Navegador Tor](tor.md#tor-browser).

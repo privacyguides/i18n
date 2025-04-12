@@ -680,6 +680,7 @@ Para cifrar su unidad de SO, normalmente recomendamos utilizar la herramienta de
 - ![NixOS logo](assets/img/linux-desktop/nixos.svg){ .twemoji loading=lazy } [NixOS](desktop.md#nixos)
 - ![Whonix logo](assets/img/linux-desktop/whonix.svg){ .twemoji loading=lazy } [Whonix (Tor)](desktop.md#whonix)
 - ![Tails logo](assets/img/linux-desktop/tails.svg){ .twemoji loading=lazy } [Tails (Live Boot)](desktop.md#tails)
+- ![Secureblue logo](assets/img/linux-desktop/secureblue.svg){ .twemoji loading=lazy } [Secureblue](desktop.md#secureblue)
 - ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ .twemoji loading=lazy } [Kicksecure](desktop.md#kicksecure)
 
 </div>

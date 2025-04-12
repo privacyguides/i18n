@@ -667,14 +667,15 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 <div class="grid cards" markdown>
 
-- ![Qubes OS logosu](assets/img/qubes/qubes_os.svg){ .twemoji loading=lazy } [Qubes OS (Xen VM Dağıtımı)](desktop.md#qubes-os)
-- ![Fedora logosu](assets/img/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Workstation](desktop.md#fedora-workstation)
-- ![openSUSE Tumbleweed logosu](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji loading=lazy } [openSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
-- ![Arch logosu](assets/img/linux-desktop/archlinux.svg){ .twemoji loading=lazy } [Arch Linux](desktop.md#arch-linux)
-- ![Fedora logosu](assets/img/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Atomic Desktops](desktop.md#fedora-atomic-desktops)
+- ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ .twemoji loading=lazy } [Qubes OS (Xen VM Distribution)](desktop.md#qubes-os)
+- ![Fedora logo](assets/img/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Workstation](desktop.md#fedora-workstation)
+- ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji loading=lazy } [openSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
+- ![Arch logo](assets/img/linux-desktop/archlinux.svg){ .twemoji loading=lazy } [Arch Linux](desktop.md#arch-linux)
+- ![Fedora logo](assets/img/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Atomic Desktops](desktop.md#fedora-atomic-desktops)
 - ![NixOS logo](assets/img/linux-desktop/nixos.svg){ .twemoji loading=lazy } [NixOS](desktop.md#nixos)
 - ![Whonix logo](assets/img/linux-desktop/whonix.svg){ .twemoji loading=lazy } [Whonix (Tor)](desktop.md#whonix)
-- ![Tails logosu](assets/img/linux-desktop/tails.svg){ .twemoji loading=lazy } [Tails (Live Boot)](desktop.md#tails)
+- ![Tails logo](assets/img/linux-desktop/tails.svg){ .twemoji loading=lazy } [Tails (Live Boot)](desktop.md#tails)
+- ![Secureblue logo](assets/img/linux-desktop/secureblue.svg){ .twemoji loading=lazy } [Secureblue](desktop.md#secureblue)
 - ![Kicksecure logo](assets/img/linux-desktop/kicksecure.svg){ .twemoji loading=lazy } [Kicksecure](desktop.md#kicksecure)
 
 </div>

@@ -91,7 +91,9 @@ Son zamanlarda, merkezi VPN'lerin sahip olduğu bazı sorunları ele almak için
 
 Çok Taraflı Aktarıcılar (MPR'ler) farklı taraflara ait birden fazla düğüm kullanır, böylece hiçbir taraf hem kim olduğunuzu hem de neye bağlandığınızı bilmez. Tor'un arkasındaki temel fikir budur, ancak şimdi bu modeli taklit etmeye çalışan bazı ücretli hizmetler var.
 
-MPR'ler VPN'lerin doğasında olan bir sorunu çözmeye çalışır: onlara tamamen güvenmeniz gerektiği gerçeği. Bu hedefe, sorumlulukları iki veya daha fazla farklı şirket arasında bölümlere ayırarak ulaşırlar. Örneğin, Apple'ın iCloud+ Özel Aktarımı trafiğinizi iki sunucu üzerinden yönlendirir:
+MPR'ler VPN'lerin doğasında olan bir sorunu çözmeye çalışır: onlara tamamen güvenmeniz gerektiği gerçeği. Bu hedefe, sorumlulukları iki veya daha fazla farklı şirket arasında bölümlere ayırarak ulaşırlar.
+
+One example of a commercially available MPR is Apple's iCloud+ Private Relay, which routes your traffic through two servers:
 
 1. İlk olarak, Apple tarafından işletilen bir sunucu.
 
@@ -101,15 +103,15 @@ MPR'ler VPN'lerin doğasında olan bir sorunu çözmeye çalışır: onlara tama
 
     Bu sunucu aslında hedef web sitenize bağlantıyı yapar, ancak cihazınız hakkında hiçbir bilgisi yoktur. Bildiği tek IP adresi Apple'ın sunucusudur.
 
-Google veya INVISV gibi farklı şirketler tarafından işletilen diğer MPR'ler de benzer şekilde çalışmaktadır. Segmentasyon yoluyla sağlanan bu koruma, yalnızca iki şirketin sizi anonimleştirmek için birbirleriyle işbirliği yapmayacaklarına güveniyorsanız mevcuttur.
+Other MPRs run by different companies operate in a very similar manner. This protection by segmentation only exists if you trust the two companies to not collude with each other to deanonymize you.
 
 ### Merkezi Olmayan VPN'ler
 
-Merkezi VPN hizmetleriyle ilgili sorunları çözmeye yönelik bir başka girişim de dVPN'lerdir. Bunlar blok zinciri teknolojisine dayanır ve düğümleri birçok farklı kişiye dağıtarak tek bir tarafa olan güveni ortadan kaldırdığını iddia eder. Ancak, çoğu zaman bir dVPN varsayılan olarak tek bir düğüm kullanır, bu da tıpkı geleneksel VPN'lerde olduğu gibi bu düğüme tamamen güvenmeniz gerektiği anlamına gelir. Geleneksel bir VPN'den farklı olarak, tüm trafiğinizi görebilen bu tek düğüm, denetlenebilen ve gizlilik politikalarını sürdürmek için yasal sorumlulukları olan VPN sağlayıcınız yerine rastgele bir kişidir. Bunu çözmek için çoklu atlama gereklidir, ancak bu bir kararlılık ve performans maliyeti ile birlikte gelir.
+Another attempt at solving the issues with centralized VPN services are dVPNs. These are based on blockchain technology and claim to eliminate trust in a single party by distributing the nodes across lots of different people. However, many times a dVPN will default to a single node, meaning you need to trust that node completely, just like a traditional VPN. Unlike a traditional VPN, this one node that can see all your traffic is a random person instead of your VPN provider that can be audited and has legal responsibilities to uphold their privacy policy. Multi-hop is needed to solve this, but that comes with a stability and performance cost.
 
-Bir diğer husus ise yasal sorumluluktur. Çıkış düğümünün, Tor ağının tüm varlığı boyunca mücadele ettiği bir konu olan, ağın kötüye kullanımından kaynaklanan yasal sorunlarla başa çıkması gerekecektir. Bu, sıradan insanları düğüm çalıştırmaktan caydırır ve çok fazla kaynağa sahip kötü niyetli bir aktör için düğüm barındırmayı daha cazip hale getirir. Hizmet tek düğümlü ise bu büyük bir sorundur, çünkü potansiyel olarak kötü niyetli çıkış düğümü kim olduğunuzu ve neye bağlandığınızı görebilir.
+Another consideration is legal liability. The exit node will need to deal with legal problems from misuse of the network, an issue that the Tor network has contended with for its entire existence. This discourages regular people from running nodes and makes it more attractive for a malicious actor with lots of resources to host one. This is a big problem if the service is single-node, as the potentially malicious exit node can see who you are and what you're connecting to.
 
-Birçok dVPN, en iyi hizmeti vermekten ziyade bir kripto para birimini zorlamak için kullanılır. Ayrıca daha az düğüme sahip daha küçük ağlar olma eğilimindedirler, bu da onları [Sybil saldırılarına](https://en.wikipedia.org/wiki/Sybil_attack) karşı daha savunmasız hale getirir.
+Many dVPNs are used to push a cryptocurrency rather than to make the best service. They also tend to be smaller networks with fewer nodes, making them more vulnerable to [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack).
 
 ## İlgili VPN Bilgileri
 
