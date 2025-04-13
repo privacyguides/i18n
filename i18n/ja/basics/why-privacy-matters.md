@@ -12,7 +12,7 @@ description: デジタルデータが搾取される現代において、あな�
 
 多くの人は、**プライバシー**、**セキュリティ**、**匿名性**の概念を混同しています。 例えば、ある製品が匿名性を提供していないという意味で「プライベートではない」と批判する人々がいます。 このウェブサイトでは、これら3つのトピックすべてを取り上げます。まず、それぞれの違いを理解しましょう。
 
-[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security/ ""){.md-button}
+[:material-movie-open-play-outline: 動画: プライバシー、匿名性、セキュリティの違い](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security/ ""){.md-button}
 
 <!-- markdownlint-disable-next-line -->
 **プライバシー**
@@ -24,21 +24,21 @@ description: デジタルデータが搾取される現代において、あな�
 **セキュリティー**
 :
 
-Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. 例えば、ウェブを閲覧する場合、HTTPS証明書がセキュリティが提供します。
+セキュリティとは使用しているアプリケーションの信頼性のことです。やりとりしている相手がそのとおりであることを確かめ、アプリケーションを安全に保つことができます。 例えば、ウェブを閲覧する場合、HTTPS証明書がセキュリティが提供します。
 :
 
-Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
+証明書により、訪れたウェブサイトと直接やりとりしていること、ネットワークへの攻撃者がウェブサイトから送信されたデータを読み取ったり変更されたりしていないことを保証します。
 
 <!-- markdownlint-disable-next-line -->
-**Anonymity**
+**匿名性**
 :
 
-匿名性とは、永続的な識別子なしに行動できる能力のことです。 You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+匿名性とは、永続的な識別子なしに行動できる能力のことです。 [Tor](../tor.md)を使うことで、インターネットを閲覧する際に、自分のIPアドレスとネットワーク接続の代わりにランダムなIPアドレスとネットワーク接続になり、オンライン上で匿名性を確保することができます。
 :
 
-**Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
+**ハンドル名の使用**は似たような考え方ですが、本当の身元と結び付けられないまま永続的な識別が可能になります。 オンライン上で`@GamerGuy12`であると知られていても、本名がわからないことはハンドル名を使用していると言えます。
 
-All of these concepts overlap, but it is possible to have any combination of these. The sweet spot for most people is when all three of these concepts overlap. However, it's trickier to achieve than many initially believe. Sometimes, you have to compromise on some of these, and that's okay too. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../tools.md) you use.
+上記の考え方は重複している部分もありますが、様々な組み合わせが可能です。 多くの人にとってのスイートスポットは、3つが重なり合うことです。 しかし、それは意外と難しいことです。 いくつかを妥協することもあるかもしれませんが、問題ありません。 **脅威モデリング**により、使う[ソフトウェアやサービス](../tools.md)に関して情報に基づいた上で決めることができます。
 
 [:material-book-outline: 脅威モデリングの詳細](threat-modeling.md ""){.md-button}
 
