@@ -44,21 +44,21 @@ description: デジタルデータが搾取される現代において、あな�
 
 ## プライバシーと秘密
 
-A common counter-argument to pro-privacy movements is the notion that one doesn't need privacy if they have **"nothing to hide."** This is a dangerous misconception, because it creates a sense that people who demand privacy must be deviant, criminal, or wrong.
+プライバシーを保護する動きに対し、**「隠すものは何もない」**のであればプライバシーは必要ない、という反論がよくあります。これは危険な誤解であり、プライバシーを要求する人は逸脱している、犯罪者である、あるいは悪い人であるという考えを生み出すことになります。
 
 ==プライバシーと秘密を混同しないでください。==私たちは浴室で何をするかを知っていますが、浴室を使うときにはドアを閉めます。 それは、秘密をではなく、プライバシーを守りたいと思っているからです。 私たちには、公開したくないと考える様々な事実（例えば、個人の健康に関する情報、性行動）があります。これは正常であり、良いことです。 プライバシーを求めるのは正当なことであり、プライバシーが私たちを人間たらしめているのです。 プライバシーとは、秘密を隠すことではなく、自分の情報に権利を与えることです。
 
-## Is Privacy About Control?
+## プライバシーとはコントロールすることか？
 
-A common definition of privacy is that it is the ability to *control* who has access to your data. This is an easy trap to fall into, in fact it is the definition of privacy we operated this website on for a long time. It sounds nice, and it appeals to many people, but in practice it just doesn't work.
+プライバシーについてのよくある定義は、自分のことについてアクセスする対象を*コントロール*できることです。 これはよくある勘違いであり、実際、長い間このウェブサイトでもプライバシーの定義としてきました。 一見よさそうですし、多くの人に受け入れられますが、実際にはうまくいきません。
 
-たとえばクッキー同意フォームを見てみましょう。 You may encounter these dozens of times per day on the various websites you visit, with a nice array of checkboxes and sliders which allow you to "curate" your preferences to exactly fit your needs. In the end, we just hit the "I Agree" button, because we just want to read the article or make a purchase. Nobody wants to complete a personal privacy audit on every single website they visit. This is an exercise in [choice architecture](https://en.wikipedia.org/wiki/Choice_architecture), designed to make you take the easy route out instead of delving into a maze of configuration options that don't need to exist in the first place.
+たとえばクッキー同意フォームを見てみましょう。 訪れるウェブサイトごとに、必要に応じて情報「収集」を許可するか正確に設定できるチェックボックスやスライダーがたくさん出てくることを、一日に何度も見ているかもしれません。 記事を読んだり、ものを買ったりしたいだけなので、結局「同意する」ボタンを押してしまいます。 訪れるウェブサイトごとに個人でプライバシー監査を行う人は誰もいません。 そもそも不必要な設定の迷宮に深入りする代わりに、楽な方法を選ぶように仕向ける[選択アーキテクチャ](https://en.wikipedia.org/wiki/Choice_architecture)の良い例です。
 
-==Control over your privacy inside most apps is an illusion.== It's a shiny dashboard with all sorts of choices you can make about your data, but rarely the choices you're looking for, like "only use my data to help me." This type of control is meant to make you feel guilty about your choices, that you "had the choice" to make the apps you use more private, and you chose not to.
+==多くのアプリではプライバシーをコントロールすることは幻想に過ぎません。==自分自身のデータについて色々と設定できるピカピカのダッシュボードはあるかもしれませんが、「自分に役立つためだけに自分のデータを使う」ようなオプションはめったにありません。 このタイプのコントロールでは、よりプライベートにできる「選択肢があった」にも関わらず、選べないよう罪悪感を抱かせるようにしています。
 
-Privacy is something we need to have baked into the [software and services](../tools.md) we use by default, you can't bend most apps into being private on your own.
+プライバシーは使用する[ソフトウェアやサービス](../tools.md)にデフォルトで組み込まれている必要があります。多くのアプリでは自分でプライベートにするよう設定することはできません。
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
+[:material-movie-open-play-outline: 動画: プライバシーを改善する5つのステップ](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
 
 ## ソース
 
