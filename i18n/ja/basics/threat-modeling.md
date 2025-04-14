@@ -35,19 +35,19 @@ description: セキュリティ、プライバシー、使いやすさのバラ�
 
 この質問に答えるには、あなたやあなたの情報を狙う可能性のある人物や組織を特定することが重要です。 =あなたの資産に脅威をあたえる人物や組織は「敵対者」です。==例えば、あなたの上司、元パートナー、ビジネス上の競争相手、政府、公共ネットワーク上のハッカーなどが敵対者になる可能性があります。
 
-*Make a list of your adversaries or those who might want to get hold of your assets. 一覧には個人、政府機関、企業が含まれる可能性があります。*
+*敵対者や財産を奪う可能性のある者のリストを作成します。 一覧には個人、政府機関、企業が含まれる可能性があります。*
 
-Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
+敵対者によりますが、このリストは脅威モデルを作った後に破棄したくなるものかもしれません。
 
 ### 守る必要がどの程度あるか？
 
 ==リスクとは、特定の資産に対する特定の脅威が実際に発生する可能性のことです。==これは、能力と密接に関連します。 携帯電話会社は、あなたのすべてのデータにアクセスする能力がありますが、あなたの個人情報をネット上に公開してあなたの評判を落とすリスクは低いでしょう。
 
-起こることと、起こる確率を区別することが重要です。 For instance, there is a threat that your building might collapse, but the risk of this happening is far greater in San Francisco (where earthquakes are common) than in Stockholm (where they are not).
+起こることと、起こる確率を区別することが重要です。 例えば、建物が倒壊する恐れに関して、（地震がよくある）サンフランシスコのほうが（地震はほぼない）ストックホルムよりもリスクははるかに大きくなります。
 
-Assessing risks is both a personal and subjective process. Many people find certain threats unacceptable, no matter the likelihood they will occur, because the mere presence of the threat is not worth the cost. In other cases, people disregard high risks because they don't view the threat as a problem.
+リスクの評価は個人的かつ主観的なプロセスです。 発生する確率に関係なく、ほんの僅かなことでも割に合わず、受け入れられないと考える脅威もあります。 一方で、脅威を問題と見なさないために高いリスクを無視することもあります。
 
-*Write down which threats you are going to take seriously, and which may be too rare or too harmless (or too difficult to combat) to worry about.*
+*どの脅威が深刻であると捉えるか、心配するほど起こり得るものではない、もしくは害はないか（あるいは対応が難しいか）を書き出してください。*
 
 ### 守れなかった場合、どんな悪影響があるか？
 
