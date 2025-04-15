@@ -368,13 +368,6 @@ gpg --quick-gen-key alice@example.com future-default
 
 ### GPG Suite
 
-<div class="admonition note" markdown>
-<p class="admonition-title">Nota</p>
-
-Sugerimos [Canary Mail](email-clients.md#canary-mail-ios) para utilizar PGP con el correo electrónico en dispositivos iOS.
-
-</div>
-
 <div class="admonition recommendation" markdown>
 
 ![GPG Suite logo](assets/img/encryption-software/gpgsuite.png){ align=right }

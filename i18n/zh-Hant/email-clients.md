@@ -111,39 +111,6 @@ When replying to someone on a mailing list in Thunderbird Mobile, the "reply" op
 
 Apple Mail 具備在背景載入遠端內容或完全封鎖遠端內容的功能，並可在 [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) 和 [iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios) 上向寄件者隱藏您的 IP 位址。
 
-### Canary Mail (iOS)
-
-<div class="admonition recommendation" markdown>
-
-![Canary Mail logo](assets/img/email-clients/canarymail.svg){ align=right }
-
-**Canary Mail** 是一款需付費的電子郵件用戶端，其設計目的是透過生物辨識應用程式鎖等安全功能，讓端對端加密無懈可擊。
-
-[:octicons-home-16: 首頁](https://canarymail.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://canarymail.io/help){ .card-link title="說明文件" }
-
-<details class="downloads" markdown>
-<summary>下載</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.canarymail.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1155470386)
-- [:fontawesome-brands-windows: Windows](https://canarymail.io/downloads.html)
-- [:simple-apple: macOS](https://apps.apple.com/app/id1236045954)
-
-</details>
-
-</div>
-
-<details class="warning" markdown>
-<summary>警告</summary>
-
-Canary Mail 最近推出了 Windows 和 Android 用戶端，不過我們認為它們不如 iOS 和 Mac 的客戶端穩定。
-
-</details>
-
-Canary Mail 是封閉原始碼的。 由於 iOS 上支援 PGP E2EE 的電子郵件用戶端選擇不多，因此我們推薦您使用。
-
 ### FairEmail (Android)
 
 <div class="admonition recommendation" markdown>

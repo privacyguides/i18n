@@ -111,39 +111,6 @@ Actualmente, GPG Suite [todavía](https://gpgtools.com/sonoma) no tiene una vers
 
 Apple Mail tiene la capacidad de cargar contenido remoto en segundo plano o bloquearlo por completo y ocultar tu dirección IP a los remitentes en [macOS](https://support.apple.com/guide/mail/mlhl03be2866/mac) e [iOS](https://support.apple.com/guide/iphone/iphf084865c7/ios).
 
-### Canary Mail (iOS)
-
-<div class="admonition recommendation" markdown>
-
-![Canary Mail logo](assets/img/email-clients/canarymail.svg){ align=right }
-
-**Canary Mail** es un cliente de correo electrónico de pago diseñado para que el cifrado de extremo a extremo sea perfecto, con funciones de seguridad como el bloqueo biométrico de aplicaciones.
-
-[:octicons-home-16: Página Principal](https://canarymail.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://canarymail.io/privacy.html){ .card-link title="Politica de Privacidad" }
-[:octicons-info-16:](https://canarymail.io/help){ .card-link title="Documentación" }
-
-<details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.canarymail.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1155470386)
-- [:fontawesome-brands-windows: Windows](https://canarymail.io/downloads.html)
-- [:simple-apple: macOS](https://apps.apple.com/app/id1236045954)
-
-</details>
-
-</div>
-
-<details class="warning" markdown>
-<summary>Advertencia</summary>
-
-Canary Mail acaba de lanzar un cliente para Windows y Android, aunque no creemos que sea tan estable como su homólogo para iOS y Mac.
-
-</details>
-
-Canary Mail es de código cerrado. Lo recomendamos debido a las pocas opciones que hay para clientes de correo electrónico en iOS que soporten PGP E2EE.
-
 ### FairEmail (Android)
 
 <div class="admonition recommendation" markdown>

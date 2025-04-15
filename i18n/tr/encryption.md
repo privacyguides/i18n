@@ -366,13 +366,6 @@ gpg --quick-gen-key alice@example.com future-default
 
 ### GPG Paketi
 
-<div class="admonition note" markdown>
-<p class="admonition-title">Notlar</p>
-
-PGP'yi iOS cihazlarda e-posta ile kullanmak için [Canary Mail](email-clients.md#canary-mail-ios) adresini öneriyoruz.
-
-</div>
-
 <div class="admonition recommendation" markdown>
 
 ![GPG Suite logosu](assets/img/encryption-software/gpgsuite.png){ align=right }
