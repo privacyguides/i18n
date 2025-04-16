@@ -15,7 +15,7 @@ Tutte queste impostazioni sono accompagnate da una spiegazione nell'editor dei C
 
 Per modificare un criterio di gruppo, fare doppio clic su di esso e selezionare Abilitato o Disabilitato nella parte superiore della finestra visualizzata, in base alle raccomandazioni riportate di seguito. Alcuni criteri di gruppo prevedono impostazioni aggiuntive che possono essere configurate; in questo caso, le impostazioni appropriate sono indicate anche di seguito.
 
-### System
+### Sistema
 
 #### Device Guard
 

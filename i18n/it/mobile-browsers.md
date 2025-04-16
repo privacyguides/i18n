@@ -97,7 +97,7 @@ Il Tor Browser è l'unico che veramente permette di navigare Internet anonimamen
 
 #### Brave shields global defaults
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+Brave include delle misure anti-fingerprinting nella sua funzione [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Suggeriamo di configurare queste opzioni [globalmente](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) in tutte le pagine che visiti.
 
 Le funzionalità di Shields possono essere ridotte per ogni sito se necessario; ciò nonostante, raccomandiamo le seguenti impostazioni:
 
@@ -125,7 +125,7 @@ Le funzionalità di Shields possono essere ridotte per ogni sito se necessario; 
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Questa opzione disabilita JavaScript, il che porterà al malfunzionamento di molti siti. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 === "iOS"
 
@@ -148,7 +148,7 @@ Le funzionalità di Shields possono essere ridotte per ogni sito se necessario; 
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Questa opzione disabilita JavaScript, il che porterà al malfunzionamento di molti siti. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 ##### Clear browsing data (Android only)
 
@@ -169,9 +169,9 @@ Le funzionalità di Shields possono essere ridotte per ogni sito se necessario; 
     - [ ] Uncheck **Allow sites to check if you have payment methods saved**
     - [ ] Uncheck **V8 Optimizer** under *Manage V8 security*
     - [x] Select **Close tabs on exit**
-    - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-    - [ ] Uncheck **Automatically send diagnostic reports**
-    - [ ] Uncheck **Automatically send daily usage ping to Brave**
+    - [ ] Deseleziona **Acconsenti all'analisi dei prodotti di tutela della privacy (P3A)**
+    - [ ] Deseleziona **Inviare automaticamente i rapporti di diagnostica**
+    - [ ] Deseleziona **Invia automaticamente un ping di utilizzo giornaliero a Brave**
 
     </div>
 
@@ -180,7 +180,7 @@ Le funzionalità di Shields possono essere ridotte per ogni sito se necessario; 
 === "iOS"
 
     - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
-    - [ ] Uncheck **Automatically send daily usage ping to Brave**
+    - [ ] Deseleziona **Invia automaticamente un ping di utilizzo giornaliero a Brave**
 
 #### Leo
 
@@ -202,7 +202,7 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) consente ai tuoi dati di navigazione (cronologia, segnalibri, ecc.) di essere accessibili su tutti i dispositivi, senza richiedere un profilo e li protegge con l'E2EE.
 
 ## Cromite (Android)
 
