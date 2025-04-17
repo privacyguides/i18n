@@ -132,7 +132,7 @@ Si vous avez un compte Google, nous vous suggérons de vous inscrire au [Program
 
 Le Programme de Protection Avancée offre une surveillance accrue des menaces et permet :
 
-- Une authentification à deux facteurs plus stricte; par exemple, seul [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **doit** être utilisé et toute autre type de double autentification tels que [SMS OTP](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) et [OAuth](https://en.wikipedia.org/wiki/OAuth) sont bloqués
+- Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](../basics/account-creation.md#sign-in-with-oauth)
 - Seul Google et les applications tierces vérifiées peuvent accéder aux données du compte
 - Une analyse des e-mails entrants sur les comptes Gmail pour détecter les tentatives de [hameçonnage](https://en.wikipedia.org/wiki/Phishing#Email_phishing)
 - Une [analyse plus stricte de la sécurité du navigateur](https://google.com/chrome/privacy/whitepaper.html#malware) avec Google Chrome
@@ -154,7 +154,9 @@ Si vous avez un appareil sous Android 10 minimum qui n'est plus supporté et que
 
 Tous les appareils sur lesquels les Google Play Services sont installés génèrent automatiquement un [identifiant publicitaire](https://support.google.com/googleplay/android-developer/answer/6048248) utilisé pour la publicité ciblée. Désactivez cette fonctionnalité pour limiter les données collectées à votre sujet.
 
-Sur les distributions Android avec [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), allez dans :gear: **Paramètres** → **Applications** → **Sandboxed Google Play** → **Paramètres Google** → **Annonces**, et sélectionnez *Supprimer l'ID publicitaire*.
+On Android distributions with [sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), go to :gear: **Settings** → **Apps** → **Sandboxed Google Play** → **Google Settings** → **All services** → **Ads**.
+
+- [x] Select **Delete advertising ID**
 
 On Android distributions with privileged Google Play Services (which includes the stock installation on most devices), the setting may be in one of several locations. Vérifiez:
 

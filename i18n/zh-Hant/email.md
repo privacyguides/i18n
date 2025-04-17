@@ -22,19 +22,19 @@ global:
 
 除此之外，我們還推薦各種基於可持續商業模式和內建安全和隱私功能的電子郵件提供商。 閱讀我們[完整的標準清單](#criteria)，瞭解更多資訊。
 
-| 供應商                         | OpenPGP / WKD                          | IMAP / SMTP                                       | 零存取加密                                             | 匿名付款方式              |
-| --------------------------- | -------------------------------------- | ------------------------------------------------- | ------------------------------------------------- | ------------------- |
-| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } 僅提供付費版 | :material-check:{ .pg-green }                     | 現金                  |
-| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                     | :material-information-outline:{ .pg-blue } 限 Mail | 現金                  |
-| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }            | :material-check:{ .pg-green }                     | 透過第三方 Monero & Cash |
+| 供應商                         | OpenPGP / WKD                          | IMAP / SMTP                                       | Zero-Access Encryption                            | Anonymous Payment Methods             |
+| --------------------------- | -------------------------------------- | ------------------------------------------------- | ------------------------------------------------- | ------------------------------------- |
+| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } 僅提供付費版 | :material-check:{ .pg-green }                     | 現金                                    |
+| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                     | :material-information-outline:{ .pg-blue } 限 Mail | 現金                                    |
+| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }            | :material-check:{ .pg-green }                     | Monero <br>Cash via third party |
 
-除（或代替）此處推薦的電子郵件提供者之外，可能還希望考慮使用專門的[電子郵件別名服務](email-aliasing.md)來保護隱私。 除此之外，這些服務有助於保護真實收件匣免受垃圾郵件的侵害，防止行銷人員關聯您的帳戶，並使用 PGP 加密所有傳入的訊息。
+In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md#recommended-providers) to protect your privacy. 除此之外，這些服務有助於保護真實收件匣免受垃圾郵件的侵害，防止行銷人員關聯您的帳戶，並使用 PGP 加密所有傳入的訊息。
 
 - [更多資訊 :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## OpenPGP 兼容服務
 
-These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic E2EE emails. 例如， Proton Mail 用戶可以向 Mailbox.org 用戶發送 E2EE 消息，或者您可以從它支援的網際網路服務接收 OpenPGP 加密通知。
+These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic end-to-end encrypted emails. 例如， Proton Mail 用戶可以向 Mailbox.org 用戶發送 E2EE 消息，或者您可以從它支援的網際網路服務接收 OpenPGP 加密通知。
 
 <div class="grid cards" markdown>
 
@@ -48,7 +48,9 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 
 當使用像 OpenPGP 這類 E2EE 技術時，電子郵件仍然會有一些元數據無法加密如主旨列。 了解更多[電子郵件元數據](basics/email-security.md#email-metadata-overview).
 
-OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被盜，以前所有用它加密的訊息都會洩露。 [[如何保護我的私鑰？](basics/email-security.md#how-do-i-protect-my-private-keys)
+OpenPGP also does not support forward secrecy, which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed.
+
+- [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 </div>
 
@@ -58,7 +60,9 @@ OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** 是一個專注於隱私、加密、安全性和易用性的電子郵件服務。 他們自 2013 年起開始營運。 Proton AG is based in Geneva, Switzerland. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+**Proton Mail** 是一個專注於隱私、加密、安全性和易用性的電子郵件服務。 他們自 2013 年起開始營運。 Proton AG is based in Geneva, Switzerland.
+
+The Proton Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
 
 [:octicons-home-16: 首頁](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="洋蔥服務" }
@@ -81,9 +85,9 @@ OpenPGP 也不支持前向保密，這意味著如果你或收件人的私鑰被
 
 </div>
 
-免費帳戶有一些功能限制，例如無法搜尋郵件正文內容，也無法無法使用 [Proton Mail Bridge](https://proton.me/mail/bridge)；後者是使用[建議的桌面郵件客戶端](email-clients.md) (例如 Thunderbird) 所需的。 付費帳戶包括 Proton Mail Bridge、額外儲存空間和自訂網域支援等功能。 Proton Mail 應用程式於 2021 年 11 月 9 日由 [Securitum](https://research.securitum.com) 提供[認證函](https://proton.me/blog/security-audit-all-proton-apps) 。
+Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g., Thunderbird). 付費帳戶包括 Proton Mail Bridge、額外儲存空間和自訂網域支援等功能。 如果您有訂閱 Proton Unlimited 或任何多使用者的 Proton 方案，您也可以免費獲得 [SimpleLogin](email-aliasing.md#simplelogin) Premium。
 
-如果您有訂閱 Proton Unlimited 或任何多使用者的 Proton 方案，您也可以免費獲得 [SimpleLogin](email-aliasing.md#simplelogin) Premium。
+Proton Mail 應用程式於 2021 年 11 月 9 日由 [Securitum](https://research.securitum.com) 提供[認證函](https://proton.me/blog/security-audit-all-proton-apps) 。
 
 Proton Mail 的內容崩潰報告**不會**對其它第三方分享。 可以在 web app 下取消，作法: :gear: → **所有設定** → **帳號** → **安全與隱私** → **隱私與資料蒐集**.
 
@@ -93,7 +97,7 @@ Proton Mail 的內容崩潰報告**不會**對其它第三方分享。 可以在
 
 #### :material-check:{ .pg-green } 私密付款方式
 
-Proton Mail 除了[支援](https://proton.me/support/payment-options)郵寄現金外，還接受信用卡/簽帳卡、[Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) 和 PayPal 付款。
+Proton Mail [accepts](https://proton.me/support/payment-options) **cash** by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments.
 
 #### :material-check:{ .pg-green } 帳號安全
 
@@ -109,7 +113,7 @@ Proton Mail 使用「[零存取加密技術](https://proton.me/blog/zero-access-
 
 Proton Mail 網頁郵件整合了 [OpenPGP 加密](https://proton.me/support/how-to-use-pgp) 。 發送到其他 Proton Mail 帳號的電子郵件會自動加密，並且可以在您的帳號設定中輕鬆啟用「使用 OpenPGP 金鑰對非 Proton Mail 位址進行加密」。 Proton also supports automatic external key discovery with WKD. 因此發送到使用 WKD 的其他供應商的電子郵件也將使用 OpenPGP 自動加密，無需與聯絡人手動交換公共 PGP 金鑰。 它可以 [加密非 Proton Mail 郵件位址的訊息](https://proton.me/support/password-protected-emails)，不必非得使用帶 OpenPGP 的 Proton Mail 帳戶。
 
-Proton Mail 也透過 HTTP 從其 WKD 發布 Proton 帳戶的公鑰。 這可讓非 Proton Mail 使用者可以輕鬆找到 Proton Mail 帳戶的 OpenPGP 金鑰，以利跨供應商進行 E2EE 。 這僅限於使用 Proton 自身網域別名 (例如 @proton.me) 的電子郵件。 如果使用自定域名，則須另行[設定 WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) 。
+Proton Mail 也透過 HTTP 從其 WKD 發布 Proton 帳戶的公鑰。 This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Proton's own domains, like `@proton.me`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
 #### :material-information-outline:{ .pg-blue } 終止帳號
 
@@ -117,17 +121,17 @@ Proton Mail 也透過 HTTP 從其 WKD 發布 Proton 帳戶的公鑰。 這可讓
 
 #### :material-information-outline:{ .pg-blue } 額外功能
 
-Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
-
-Proton Mail 不提供數字遺產功能。
+Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
 
 ### Mailbox.org
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox.org 標誌](assets/img/email/mailboxorg.svg){ align=right }
+![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
 
-**Mailbox.org** 電子郵件服務，專注於安全、無廣告和使用 100% 民間環保發電能源。 自 **2014 年** 開始運營。 Mailbox.org  總部位於德國柏林。 Accounts start with up to 2 GB storage, which can be upgraded as needed.
+**Mailbox.org** is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. 自 **2014 年** 開始運營。 Mailbox.org  總部位於德國柏林。
+
+Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
 [:octicons-home-16: 首頁](https://mailbox.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="隱私權政策" }
@@ -148,23 +152,23 @@ Mailbox.org 可使用自定域名，且支援 [catch-all](https://kb.mailbox.org
 
 #### :material-check:{ .pg-green } 私人付款方式
 
-Mailbox.org 不接受任何加密貨幣，因為他們的支付處理商 BitPay 暫停了德國業務。 However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and a couple of German-specific processors: paydirekt and Sofortüberweisung.
+Mailbox.org 不接受任何加密貨幣，因為他們的支付處理商 BitPay 暫停了德國業務。 However, they do accept **cash** by mail, **cash** payment to bank account, bank transfer, credit card, PayPal, and a couple of German-specific processors: Paydirekt and Sofortüberweisung.
 
 #### :material-check:{ .pg-green } 帳號安全
 
-Mailbox.org supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. 您可以使用 TOTP 或通過 [YubiKey](https://en.wikipedia.org/wiki/YubiKey) 來使用 [YubiCloud](https://yubico.com/products/services-software/yubicloud) 進行雙重認證. Web 標準如 [WebAuthn ](https://en.wikipedia.org/wiki/WebAuthn) 尚不支援。
+Mailbox.org supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. 您可以使用 TOTP 或通過 [YubiKey](https://en.wikipedia.org/wiki/YubiKey) 來使用 [YubiCloud](https://yubico.com/products/services-software/yubicloud) 進行雙重認證. Web standards such as [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) are not yet supported.
 
 #### :material-information-outline:{ .pg-blue } 資料安全
 
 Mailbox.org 允許使用 [加密郵箱](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox)對傳入郵件進行加密。 收到的新訊息將立即用您的公鑰加密。
 
-不迥 Mailbox.org 使用的軟體平台 [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange)[不支援](https:// kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book)通訊錄和行事曆加密。 [獨立的選項](calendar.md) 可能更適合該資訊。
+However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that data.
 
 #### :material-check:{ .pg-green } 電子郵件加密
 
 Mailbox.org 在他們的網頁郵件中 [整合了加密功能](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) ，這簡化了向具有公開OpenPGP金鑰的人發送訊息。 它們也讓遠端收件者可以在 Mailbox.org 的伺服器上[解密電子郵件](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp)。 當遠端收件人沒有 OpenPGP 無法解密自己郵箱中的電子郵件時，此功能非常有用。
 
-Mailbox.org also supports the discovery of public keys via HTTP from their WKD. 因此其它人可以輕鬆找到 Mailbox.org 帳戶的 OpenPGP 金鑰，便於跨提供者使用 E2EE。 這僅限於使用 Mailbox.org  自身網域(例如 @mailbox.org) 的電子郵件。 如果使用自定域名，則須另行[設定 WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) 。
+Mailbox.org also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox.org's own domains, like `@mailbox.org`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
 #### :material-information-outline:{ .pg-blue } 終止帳號
 
@@ -176,7 +180,7 @@ Mailbox.org also supports the discovery of public keys via HTTP from their WKD. 
 
 所有帳號都附帶有限的[可以加密](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive)雲端儲存空間 。 Mailbox.org 還提供別名 [@ secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely)，它對郵件伺服器之間的連線強制進行TLS加密，否則根本不會發送訊息。 Mailbox.org 除了支援 IMAP 和 POP3 等標準存取通訊協議外，還支援 [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) 。
 
-Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否要將任何資料傳遞給繼承人，但對方必須提出你的遺囑證明。 或者，您可以透過姓名和位址提出人選。
+Mailbox.org 所有方案都提供了數位遺產功能。 You can choose whether you want any of your data to be passed to heirs, providing that they apply and provide your testament. 或者，您可以透過姓名和位址提出人選。
 
 ## 更多供應商
 
@@ -195,7 +199,9 @@ Mailbox.org 所有方案都提供了數位遺產功能。 你可以選擇是否�
 ![Tuta 標誌](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta 標誌](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (前身為 *Tutanota*) 是一項透過使用加密技術，著重於安全性與隱私權的電子郵件服務。 Tuta 自 2011 年開始營運，總部位於德國漢諾威。 Free accounts start with 1 GB of storage.
+**Tuta** (前身為 *Tutanota*) 是一項透過使用加密技術，著重於安全性與隱私權的電子郵件服務。 Tuta 自 2011 年開始營運，總部位於德國漢諾威。
+
+Free accounts start with 1 GB of storage.
 
 [:octicons-home-16: 首頁](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="隱私權政策" }
@@ -226,7 +232,7 @@ Tuta 不支援 [ IMAP 協議](https://tuta.com/support#imap) 或使用第三方 
 
 #### :material-information-outline:{ .pg-blue } 私密付款方式
 
-Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
+Tuta only directly accepts credit cards and PayPal, however [**cryptocurrency**](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
 
 #### :material-check:{ .pg-green } 帳號安全
 
@@ -234,7 +240,7 @@ Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with eit
 
 #### :material-check:{ .pg-green } 資料安全
 
-Tuta 為郵件、 [通訊錄位址聯絡人](https://tuta.com/support#encrypted-address-book)以及[行事曆](https://tuta.com/support#calendar)提供[零存取加密](https://tuta.com/support#what-encrypted) 。 這意味著儲存在您帳戶中的訊息和其他資料只有您能讀取。
+Tuta has [zero-access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). 這意味著儲存在您帳戶中的訊息和其他資料只有您能讀取。
 
 #### :material-information-outline:{ .pg-blue } 電子郵件加密
 
@@ -247,8 +253,6 @@ Tuta [刪除六個月未登入使用的免費帳戶](https://tuta.com/support#in
 #### :material-information-outline:{ .pg-blue } 額外功能
 
 Tuta 向非營利組織提供免費 [商業版本](https://tuta.com/blog/secure-email-for-non-profit) 或大幅折扣。
-
-Tuta 不提供數位遺產功能。
 
 ## 自主託管電子郵件
 
@@ -315,52 +319,53 @@ Stalwart does **not** have an integrated webmail, so you will need to use it wit
 
 **最低合格要求：**
 
-- 使用零存取加密技術全程加密電子郵件帳戶資料。
-- Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
-- 在自有基礎設施上運作，即不建立在第三方電子郵件服務提供商之上。
-
-**最佳案例：**
-
-- 使用零存取加密帳戶全部資料（聯絡人、行事曆等）。
-- 網頁郵件整合 E2EE/PGP加密以更方便使用。
-- Support for WKD to allow improved discovery of public OpenPGP keys via HTTP. GnuPG 使用者可以透過輸入: `gpg --locate-key example_user@example.com` 取得金鑰。
-- 支援外部使用者的臨時信箱。 當您想要發送加密的電子郵件時，這非常有用，而無需將實際副本發送給您的收件人。 這些電子郵件通常具有限定時效，之後會被自動刪除。 它們也不需要收件人配置任何像OpenPGP這樣的加密技術。
-- 可提供 [onion 服務](https://en.wikipedia.org/wiki/.onion)的電子郵件服務供應商。
-- [Sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) support.
-- Allows users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). 自定網域名稱對用戶來說很重要，因為它允許用戶在使用服務時仍維持持自我代理，以防服務變差或被另一家不優先考慮隱私的公司收購。
-- Catch-all or alias functionality for those who use their own domains.
-- Use of standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
-
-### 隱私
-
-我們希望所推薦的提供商盡可能少地收集客戶資料。
-
-**最低合格要求：**
-
-- 保護寄件者的 IP 位址，包括過濾它，使其不顯示在`接收`標頭欄位中。
-- 除了使用者名稱和密碼外，不要求提供個人身份識別資訊(PII)。
-- 隱私政策符合 GDPR 之要求。
+- Must encrypt email account data at rest with zero-access encryption.
+- Must be capable of exporting emails as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
+- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). 自定網域名稱對用戶來說很重要，因為它允許用戶在使用服務時仍維持持自我代理，以防服務變差或被另一家不優先考慮隱私的公司收購。
+- Must operate on owned infrastructure, i.e. not built upon third-party email service providers.
 
 **最佳情況：**
 
-- 接受 [匿名付款選項](advanced/payments.md) （[加密貨幣](cryptocurrency.md)，現金，禮品卡等）
-- 託管在有強力法律保障隱私的司法管轄區。
+- Should encrypt all account data (contacts, calendars, etc.) at rest with zero-access encryption.
+- Should provide integrated webmail E2EE/PGP encryption as a convenience.
+- Should support WKD to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key with this command: `gpg --locate-key example_user@example.com`.
+- 支援外部使用者的臨時信箱。 This is useful when you want to send an encrypted email without sending an actual copy to your recipient. 這些電子郵件通常具有限定時效，之後會被自動刪除。 它們也不需要收件人配置任何像OpenPGP這樣的加密技術。
+- Should support [sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
+- Should allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). 自定網域名稱對用戶來說很重要，因為它允許用戶在使用服務時仍維持持自我代理，以防服務變差或被另一家不優先考慮隱私的公司收購。
+- Catch-all or alias functionality for those who use their own domains.
+- Should use standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
+- Email provider's services should be available via an [onion service](https://en.wikipedia.org/wiki/.onion).
 
-### 安全
+### 隱私
 
-電子郵件伺服器處理大量非常敏感的資料。 我們期望供應商會採用最佳的業界實務，以保護其客戶。
+我們希望所推薦的供應商收集越少資料越好。
 
 **最低合格要求：**
 
-- 使用雙重驗證 (例如 TOTP) 保護 Webmail。
-- 零存取加密，建立在靜態加密的基礎上。 提供者沒有其所持有資料的解密金鑰。 這可防止惡意員工洩露他們存取的資料，或遠端敵人透過未經授權存取伺服器來釋放他們竊取的資料。
+- Must protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
+- Must not require personally identifiable information (PII) besides a username and a password.
+- Privacy policy must meet the requirements defined by the GDPR.
+
+**最佳情況：**
+
+- Should accept [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
+- Should be hosted in a jurisdiction with strong email privacy protection laws.
+
+### 安全
+
+Email servers deal with a lot of very sensitive data. We expect that providers will adopt industry best practices in order to protect their customers.
+
+**最低合格要求：**
+
+- Protection of webmail with 2FA, such as [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
+- Zero-access encryption, which builds on encryption at rest. 提供者沒有其所持有資料的解密金鑰。 這可防止惡意員工洩露他們存取的資料，或遠端敵人透過未經授權存取伺服器來釋放他們竊取的資料。
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) 支援。
 - 使用 [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh) 或 [Qualys SSL Labs](https://ssllabs.com/ssltest) 等工具沒發現 TLS 錯誤或漏洞； 這包括與憑證相關的錯誤和弱 DH 參數，例如 [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)) 錯誤。
-- 伺服器套件偏好設定 (TLSv1.3 為選用)，適用於支援前向保密和認證加密的強密碼套件。
+- A server suite preference (optional on TLS 1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
 - 有效的 [MTA-STS](https://tools.ietf.org/html/rfc8461) 和[TLS-RPT](https://tools.ietf.org/html/rfc8460) 政策。
 - 有效 [ DANE ](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) 紀錄。
 - 有效的 [SPF ](https://en.wikipedia.org/wiki/Sender_Policy_Framework) 和 [ DKIM ](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) 記錄。
-- 擁有適當的 [DMARC ](https://en.wikipedia.org/wiki/DMARC) 記錄和原則，或使用 [ ARC ](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) 進行驗證。 如果正在使用 DMARC 驗證，則必須將原則設定為 `拒絕` 或 `隔離`。
+- Must have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. 如果正在使用 DMARC 驗證，則必須將原則設定為 `拒絕` 或 `隔離`。
 - 伺服器套件最好為 TLS 1.2或更高版本以及 [ RFC8996](https://datatracker.ietf.org/doc/rfc8996)計劃。
 - 假設使用SMTP，[SMTPS](https://en.wikipedia.org/wiki/SMTPS) 提交。
 - 網站安全標準，例如：
@@ -368,12 +373,12 @@ Stalwart does **not** have an integrated webmail, so you will need to use it wit
     - 如果從外部網域加載東西時，[子資源完整性](https://en.wikipedia.org/wiki/Subresource_Integrity) 。
 - 必須支援檢視[郵件標頭](https://en.wikipedia.org/wiki/Email#Message_header)，因為這是判斷電子郵件是否為釣魚嘗試的重要取證功能。
 
-**最佳案例：**
+**最佳情況：**
 
-- 支援硬體驗證，即 U2F 和 [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online)。
+- Should support hardware authentication, i.e. U2F 和 [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online)。
 - [DNS 憑證授權機構授權 (CAA) 資源記錄](https://tools.ietf.org/html/rfc6844) 除了 DANE 支援外。
-- [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) 的實作，這對於在郵件列表 [RFC8617](https://tools.ietf.org/html/rfc8617) 發佈文章的人很有用。
-- 由信譽良好的第三方公司公布的安全審計。
+- Should implement [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
+- Published security audits from a reputable, third-party firm.
 - 漏洞獎勵計劃和/或協調漏洞披露過程。
 - 網站安全標準，例如：
     - [內容安全策略(CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
@@ -381,36 +386,33 @@ Stalwart does **not** have an integrated webmail, so you will need to use it wit
 
 ### 信任
 
-您不會把財務資料給身份作假的人，那麼為什麼會信任讓他們來使用您的電子郵件？ 我們要求我們推薦的供應商公開其所有權或領導層級狀況。 我們也希望看到頻繁的透明度報告，特別是關於如何處理政府要求的報告。
+You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? 我們要求推薦的供應商公開其所有權或領導層級狀況。 我們也希望能夠看到經常性的透明度報告，尤其是如何處理政府要求的部份。
 
 **最低合格要求：**
 
 - 面向公眾的領導或所有權。
 
-**最佳案例：**
+**最佳情況：**
 
 - 頻繁的透明度報告。
 
 ### 行銷
 
-對於我們推薦的電子郵件供應商，我們希望看到負責任的行銷。
+With the email providers we recommend, we like to see responsible marketing.
 
 **最低合格要求：**
 
 - Must self-host analytics (no Google Analytics, Adobe Analytics, etc.).
-
-不得有任何不負責任的行銷行為，可能包括下列內容：
-
-- 聲稱「無法破解的加密」。 使用加密時應考慮到，當未來有破解技術時，加密可能就不是秘密了。
-- 保證 100% 匿名性保護。 當有人宣稱某件事是 100% 時，這表示沒有失敗的把握。 我們知道人們可以透過許多方式輕易地解除匿名，例如：
-
-    - 重複使用他們在沒有使用匿名軟體 (Tor、VPN 等) 的情況下存取的個人資訊，例如 (電子郵件帳號、獨特假名等)
-    - [瀏覽器指紋](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+- Must not have any irresponsible marketing, which can include the following:
+    - Claims of "unbreakable encryption." Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
+    - Guarantees of protecting anonymity 100%. When someone makes a claim that something is 100%, it means there is no certainty for failure. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
+        - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software such as Tor
+        - [瀏覽器指紋](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **最佳情況：**
 
-- 針對設定雙重驗證、電子郵件用戶端、OpenPGP 等任務，提供簡單好懂的說明文件。
+- Clear and easy-to-read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
 
 ### 附加功能
 
-雖然不是嚴格要求，但我們在決定推薦哪些提供商時還會考慮其他一些便利或隱私因素。
+While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.

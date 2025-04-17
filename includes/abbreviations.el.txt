@@ -2,42 +2,42 @@
 *[ADB]: Android Debug Bridge (ελληνιστί: Γέφυρα Αποσφαλμάτωσης Android)
 *[AOSP]: Έργο Ανοιχτού Κώδικα Android
 *[ATA]: Advanced Technology Attachment
-*[επιφάνεια επίθεσης]: The total number of possible entry points for unauthorized access to a system.
+*[επιφάνεια επίθεσης]: The total number of possible entry points for unauthorized access to a system
 *[AVB]: Android Verified Boot (ελληνιστί: Επαληθευμένη Εκκίνηση Android)
 *[cgroups]: Ομάδες Ελέγχου
 *[CLI]: Διεπαφή Γραμμής Εντολών (αγγλικά: Command-Line Interface)
 *[CSV]: Τιμές Διαχωρισμένες με Κόμμα
 *[CVE]: Κοινές Ευπάθειες και Εκθέσεις
-*[dark pattern]: A deceptive design pattern intended to trick a user into taking certain actions.
-*[digital legacy]: A feature that allows you to give other people access to your data when you die.
+*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
+*[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
 *[DNSSEC]: Σύστημα Ονομάτων Τομέων – Επεκτάσεις Ασφάλειας
 *[DNS]: Σύστημα Ονομάτων Τομέων
 *[DoH]: DNS over HTTPS
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
-*[DPI]: Deep Packet Inspection
+*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
 *[E2EE]: Κρυπτογράφηση/-μένο από Άκρο-σε-Άκρο
 *[ECS]: EDNS Client Subnet (Υποδίκτυο Πελάτη EDNS)
 *[EEA]: ΕΟΧ: Ευρωπαϊκός Οικονομικός Χώρος
-*[εντροπία]: A measurement of how unpredictable something is.
+*[εντροπία]: A measurement of how unpredictable something is
 *[EOL]: Τέλος Κύκλου Ζωής (αγγλικά: End-of-Life)
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: Κρυπτογράφηση Πλήρους Δίσκου (αγγλικά: Full Disk Encryption)
 *[FIDO]: Fast IDentity Online
 *[FS]: Εμπρόσθια Μυστικότητα (αγγλικά: Forward Secrecy)
-*[φορκάρισμα]: A new software project created by copying an existing project and adding to it independently.
+*[φορκάρισμα]: A new software project created by copying an existing project and adding to it independently
 *[GDPR]: ΓΚΠΔ: Γενικός Κανονισμός για την Προστασία Δεδομένων
 *[GPG]: GNU Privacy Guard (υλοποίηση του PGP)
 *[GPS]: Παγκόσμιο Σύστημα Θεσιθεσίας
 *[GUI]: Γραφικό Περιβάλλον
 *[GnuPG]: GNU Privacy Guard (υλοποίηση του PGP)
 *[HDD]: Σκληρός Δίσκος Μαγνητικής Περιστροφής
-*[HOTP]: HMAC (Hash-based Message Authentication Code)-based One-Time Password
+*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
 *[HTTPS]: Hypertext Transfer Protocol Secure (ελληνιστί: Ασφαλές Πρωτόκολλο Μεταφοράς Υπερκειμένου)
 *[HTTP]: Hypertext Transfer Protocol (ελληνιστί: Πρωτόκολλο Μεταφοράς Υπερκειμένου)
-*[υπερβλέπων]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems.
+*[υπερβλέπων]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
 *[ICCID]: Integrated Circuit Card Identifier (ελληνιστί: Ταυτοποιητικό Κάρτας Ολοκληρωμένου Κυκλώματος)
 *[IMAP]: Internet Message Access Protocol
 *[IMEI]: Διεθνής Ταυτότητα Κινητού Εξοπλισμού
@@ -49,19 +49,22 @@
 *[ISPs]: Πάροχοι Υπηρεσιών Διαδικτύου
 *[JNI]: Java Native Interface (ελληνιστί: Εγγενής Διεπαφή Java)
 *[KYC]: Μέτρα Δέουσας Επιμέλειας (νομικός όρος) ή "Συστηθείτε" (μαρκετίστικος όρος)
-*[LUKS]: Linux Unified Key Setup (full disk encryption)
+*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
+*[LLMs]: Large Language Models (AI models such as ChatGPT)
+*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
 *[MAC]: Έλεγχος Προσπέλασης Μέσου (αγγλικά: Medium Access Control)
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Ταυτοποιητικό Κινητού Εξοπλισμού
 *[MFA]: Αυθεντικοποίηση Πολλών Παραγόντων
-*[NVMe]: Non-Volatile Memory Express
-*[NAT]: Network Address Translation
-*[NAT-PMP]: NAT (Network Address Translation) Port Mapping Protocol
+*[NVMe]: Nonvolatile Memory Express
+*[NAT]: Network address translation
+*[NAT-PMP]: NAT Port Mapping Protocol
 *[NTP]: Πρωτόκολλο Δικτυακού Χρόνου
 *[OCI]: Open Container Initiative
 *[OCSP]: Online Certificate Status Protocol (ελληνιστί: Πρωτόκολλο Διαδικτυακού Πιστοποιητικού Κατάστασης)
 *[OEM]: Παραγωγός Πρωτότυπου Εξοπλισμού
 *[OEMs]: Παραγωγοί Πρωτότυπου Εξοπλισμού
+*[open-weights]: An open weights-model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
 *[ΛΣ]: Λειτουργικό Σύστημα
 *[OTP]: Κωδικός Μιας-Χρήσης
 *[OTPs]: Κωδικοί Μιας-Χρήσης
@@ -69,12 +72,12 @@
 *[P2P]: Ομότιμο
 *[PAM]: Pluggable Authentication Modules (υποσύστημα του Linux)
 *[POP3]: Post Office Protocol 3
-*[PGP]: Pretty Good Privacy
+*[PGP]: Pretty Good Privacy (see OpenPGP)
 *[PII]: Προσωπικές Ταυτοποιήσιμες Πληροφορίες (αγγλικά: Personally Identifiable Information)
 *[QNAME]: Qualified Name
-*[QUIC]: A network protocol that is based on UDP, but aims to combine the speed of UDP with the reliability of TCP.
+*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
 *[rate limits]: Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time.
-*[κυλιόμενη κυκλοφορία]: Updates which are released frequently rather than at set intervals.
+*[κυλιόμενη κυκλοφορία]: Updates which are released frequently rather than set intervals
 *[RSS]: Really Simple Syndication
 *[SELinux]: Security-Enhanced Linux
 *[SIM]: Μονάδα Ταυτότητας Συνδρομής
@@ -83,10 +86,12 @@
 *[SNI]: Server Name Indication (ελληνιστί: Ένδειξη Ονόματος Διακομιστή)
 *[SSD]: Σκληρός Δίσκος Στερεάς Κατάστασης
 *[SSH]: Secure Shell
-*[SUID]: Set User Identity
+*[SUID]: Set Owner User ID
 *[SaaS]: Λογισμικό ως Υπηρεσία ("Λογισμικό Νέφους")
 *[SoC]: System on Chip
-*[SSO]: Single Sign-On
+*[SSO]: Single sign-on
+*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
+*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
 *[TCP]: Transmission Control Protocol (ελληνιστί: Πρωτόκολλο Ελέγχου Μεταφοράς)
 *[TEE]: Trusted Execution Environment (ελληνιστί: Εμπιστευμένο Περιβάλλον Εκτέλεσης)
 *[TLS]: Transport Layer Security (ελληνιστί: Ασφάλεια Επιπέδου Μεταφοράς)

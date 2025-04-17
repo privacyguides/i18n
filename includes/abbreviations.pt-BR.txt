@@ -2,42 +2,42 @@
 *[ADB]: Android Debug Bridge
 *[AOSP]: Projeto Open Source Android
 *[ATA]: Acessório de tecnologia avançada
-*[superfície de ataque]: The total number of possible entry points for unauthorized access to a system.
+*[superfície de ataque]: The total number of possible entry points for unauthorized access to a system
 *[AVB]: Inicialização Verificada do Android
 *[cgroups]: Grupos de Controle
 *[CLI]: Interface de Linha de Comando
 *[CSV]: Valores Separados por Vírgulas
 *[CVE]: Vulnerabilidades e Exposições Comuns
-: A deceptive design pattern intended to trick a user into taking certain actions.
-*[digital legacy]: A feature that allows you to give other people access to your data when you die.
+: A deceptive design pattern intended to trick a user into doing things
+*[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
 *[DNSSEC]: Extensões de Segurança do Sistema de Nomes de Domínio
 *[DNS]: Sistema de Nomes de Domínio
 *[DoH]: DNS sobre HTTPS
 *[DoQ]: DNS sobre QUIC
 *[DoH3]: DNS sobre HTTP/3
 *[DoT]: DNS sobre TLS
-*[DPI]: Deep Packet Inspection
+*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
 *[E2EE]: Criptografia/Criptografia ponto-a-ponto
 *[ECS]: Sub-rede de clientes EDNS
 *[EEA]: Espaço Econômico Europeu
-*[entropy]: A measurement of how unpredictable something is.
+*[entropy]: A measurement of how unpredictable something is
 *[EOL]: Fim da vida útil
 *[Exif]: Formato de arquivo de imagem intercambiável
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: Criptografia total de disco
 *[FIDO]: Fast IDentity Online
 *[FS]: Sigilo de encaminhamento
-*[fork]: A new software project created by copying an existing project and adding to it independently.
+*[fork]: A new software project created by copying an existing project and adding to it independently
 *[GDPR]: Regulamento Geral de Proteção de Dados
 *[GPG]: GNU Privacy Guard (implementação do PGP)
 *[GPS]: Sistema de Posicionamento Global
 *[GUI]: Interface Gráfica do Usuário
 *[GnuPG]: GNU Privacy Guard (implementação do PGP)
 *[HDD]: Disco Rígido
-*[HOTP]: HMAC (Hash-based Message Authentication Code)-based One-Time Password
+*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
 *[HTTPS]: Hypertext Transfer Protocol Secure
 *[HTTP]: Hypertext Transfer Protocol
-*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems.
+*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
 *[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: Protocolo de Acesso a Mensagens da Internet
 *[IMEI]: Identificação Internacional de Equipamento Móvel
@@ -49,19 +49,22 @@
 *[ISPs]: Provedores de Internet
 *[JNI]: Java Native Interface
 *[KYC]: Conheça seu cliente
-*[LUKS]: Linux Unified Key Setup (full disk encryption)
+*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
+*[LLMs]: Large Language Models (AI models such as ChatGPT)
+*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
 *[MAC]: Controle de Acesso ao Meio
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Mobile Equipment Identifier
 *[MFA]: Autenticação de Múltiplos Fatores
-*[NVMe]: Non-Volatile Memory Express
-*[NAT]: Network Address Translation
-*[NAT-PMP]: NAT (Network Address Translation) Port Mapping Protocol
+*[NVMe]: Nonvolatile Memory Express
+*[NAT]: Network address translation
+*[NAT-PMP]: NAT Port Mapping Protocol
 *[NTP]: Protocolo de Tempo Rede
 *[OCI]: Iniciativa Open Container
 *[OCSP]: Protocolo de Status de Certificado Online
 *[OEM]: Fabricante do Equipamento Original
 *[OEMs]: Fabricantes de Equipamentos Originais
+*[open-weights]: An open weights-model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
 *[OS]: Sistema Operacional
 *[OTP]: Senha de uso único
 *[OTPs]: Senhas de uso único
@@ -69,12 +72,12 @@
 *[P2P]: Peer-to-Peer
 *[PAM]: Linux Pluggable Authentication Modules
 *[POP3]: Post Office Protocol 3
-*[PGP]: Pretty Good Privacy
+*[PGP]: Pretty Good Privacy (see OpenPGP)
 *[PII]: Informações Pessoalmente Identificáveis
 *[QNAME]: Qualified Name
-*[QUIC]: A network protocol that is based on UDP, but aims to combine the speed of UDP with the reliability of TCP.
+*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
 *[limites de taxa]: Limites de taxa são restrições que um serviço impõe ao número de vezes que um usuário pode acessar seus serviços em um período de tempo específico.
-*[rolling release]: Updates which are released frequently rather than at set intervals.
+*[rolling release]: Updates which are released frequently rather than set intervals
 *[RSS]: Sindicação bem simples
 *[SELinux]: Segurança aprimorada do Linux
 *[SIM]: Módulo de Identidade do Assinante
@@ -83,10 +86,12 @@
 *[SNI]: Indicação do Nome do Servidor
 *[SSD]: Disco de Estado Sólido
 *[SSH]: Shell Seguro
-*[SUID]: Set User Identity
+*[SUID]: Set Owner User ID
 *[SaaS]: Software como um Serviço (software em nuvem)
 *[SoC]: Sistema em um Chip
-*[SSO]: Single Sign-On
+*[SSO]: Single sign-on
+*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
+*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
 *[TCP]: Protocolo de Controle de Transmissão
 *[TEE]: Ambiente de Execução Confiável
 *[TLS]: Segurança da Camada de Transporte

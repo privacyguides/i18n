@@ -2,42 +2,42 @@
 *[ADB]: Android Debug Bridge
 *[AOSP]: Android Open Source Project
 *[ATA]: Advanced Technology Attachment
-*[Możliwości ataku]: The total number of possible entry points for unauthorized access to a system.
+*[Możliwości ataku]: The total number of possible entry points for unauthorized access to a system
 *[AVB]: Android Verified Boot
 *[cgroups]: Grupa kontrolna
 *[CLI]: Interfejs wiersza poleceń
 *[CSV]: Wartości rozdzielone przecinkiem
 *[CVE]: Typowe podatności i zagrożenia
-*[dark pattern]: A deceptive design pattern intended to trick a user into taking certain actions.
-*[digital legacy]: A feature that allows you to give other people access to your data when you die.
+*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
+*[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
 *[DNSSEC]: Rozszerzenie zabezpieczeń dla systemu DNS
 *[DNS]: System nazw domen
 *[DoH]: DNS przez HTTPS
 *[DoQ]: DNS przez QUIC
 *[DoH3]: DNS przez HTTP/3
 *[DoT]: DNS przez TLS
-*[DPI]: Deep Packet Inspection
+*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
 *[E2EE]: Kompleksowe szyfrowanie/szyfrowanie
 *[ECS]: Podsieć klienta EDNS
 *[EEA]: Europejski Obszar Gospodarczy
-*[entropia]: A measurement of how unpredictable something is.
+*[entropia]: A measurement of how unpredictable something is
 *[EOL]: Koniec życia
 *[Exif]: Wymienny format pliku obrazu
 *[FCM]: Wiadomości w chmurze Firebase
 *[FDE]: Pełne szyfrowanie dysku
 *[FIDO]: Szybka tożsamość online
 *[FS]: Utajnianie z wyprzedzeniem
-*[fork]: A new software project created by copying an existing project and adding to it independently.
+*[fork]: A new software project created by copying an existing project and adding to it independently
 *[RODO]: Ogólne rozporządzenie o ochronie danych
 *[GPG]: Oprogramowanie kryptograficzne PGP
 *[GPS]: Globalny system pozycjonowania
 *[GUI]: Graficzny Interfejs Użytkownika
 *[GnuPG]: Oprogramowanie kryptograficzne PGP
 *[HDD]: Dysk twardy
-*[HOTP]: HMAC (Hash-based Message Authentication Code)-based One-Time Password
+*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
 *[HTTPS]: Bezpieczny protokół przesyłania
 *[HTTP]: Podstawowy protokół przesyłania
-*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems.
+*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
 *[ICCID]: Identyfikator karty układu scalonego
 *[IMAP]: Protokół dostępu do wiadomości internetowych
 *[IMEI]: Indywidualny numer identyfikacyjny telefonu komórkowego
@@ -49,19 +49,22 @@
 *[ISPs]: Dostawcy usług internetowych
 *[JNI]: Natywny interfejs Java
 *[KYC]: Poznaj swojego klienta
-*[LUKS]: Linux Unified Key Setup (full disk encryption)
+*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
+*[LLMs]: Large Language Models (AI models such as ChatGPT)
+*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
 *[MAC]: Kontrola dostępu
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Identyfikator sprzętu mobilnego
 *[MFA]: Uwierzytelnianie wieloskładnikowe
-*[NVMe]: Non-Volatile Memory Express
-*[NAT]: Network Address Translation
-*[NAT-PMP]: NAT (Network Address Translation) Port Mapping Protocol
+*[NVMe]: Nonvolatile Memory Express
+*[NAT]: Network address translation
+*[NAT-PMP]: NAT Port Mapping Protocol
 *[NTP]: Protokół czasu sieciowego
 *[OCI]: Open Container Initiative
 *[OCSP]: Stan certyfikatu online
 *[OEM]: Producent oryginalnego sprzętu
 *[OEMs]: Producenci oryginalnego sprzętu
+*[open-weights]: An open weights-model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
 *[OS]: System operacyjny
 *[OTP]: Jednorazowe hasło
 *[OTPs]: Jednorazowe hasła
@@ -69,12 +72,12 @@
 [P2P]: Peer-to-Peer
 *[PAM]: Moduły uwierzytelniania w systemie Linux
 *[POP3]: Protokół pocztowy 3
-*[PGP]: Pretty Good Privacy
+*[PGP]: Pretty Good Privacy (see OpenPGP)
 *[PII]: Informacje umożliwiające identyfikację osoby
 *[QNAME]: Nazwa kwalifikowana
-*[QUIC]: A network protocol that is based on UDP, but aims to combine the speed of UDP with the reliability of TCP.
+*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
 *[rate limits]: Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time.
-*[rolling release]: Updates which are released frequently rather than at set intervals.
+*[rolling release]: Updates which are released frequently rather than set intervals
 *[RSS]: Really Simple Syndication
 *[SELinux]: Linux o zwiększonym bezpieczeństwie
 *[SIM]: Moduł identyfikacji abonenta
@@ -83,10 +86,12 @@
 *[SNI]: Wskazanie nazwy serwera
 *[SSD]: Dysk SSD
 *[SSH]: Bezpieczna powłoka
-*[SUID]: Set User Identity
+*[SUID]: Set Owner User ID
 *[SaaS]: Oprogramowanie jako usługa (oprogramowanie w chmurze)
 *[SoC]: System na chipie
-*[SSO]: Single Sign-On
+*[SSO]: Single sign-on
+*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
+*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
 *[TCP]: Protokół sterowania transmisją
 *[TEE]: Środowisko zaufanego wykonania
 *[TLS]: Bezpieczeństwo warstwy transportowej

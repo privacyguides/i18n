@@ -22,19 +22,19 @@ Az email gyakorlatilag elengedhetetlen bármilyen online szolgáltatás használ
 
 Minden más esetre olyan emailszolgáltatókat ajánlunk, amelyek fenntartható üzleti modelleken és beépített biztonsági, adat- és magánéletvédelmi funkciókon alapulnak. Read our [full list of criteria](#criteria) for more information.
 
-| Provider                    | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero Access Encryption                               | Anonymous Payments            |
-| --------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ----------------------------- |
-| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | Cash                          |
-| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | Cash                          |
-| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero & Cash via third-party |
+| Provider                    | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero-Access Encryption                               | Anonymous Payment Methods             |
+| --------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------- |
+| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | Cash                                  |
+| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | Cash                                  |
+| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero <br>Cash via third party |
 
-Az itt ajánlott email szolgáltatók mellett (vagy helyett) érdemes megfontolni egy dedikált [e-mail alias szolgáltatást](email-aliasing.md) is a magánélet védelme érdekében. Ezek a szolgáltatások többek között segíthetnek megvédeni a valódi potaládádat a spamektől, megakadályozhatják, hogy a marketingesek összekapcsolják a fiókjaidat, és PGP-vel titkosíthatják az összes bejövő üzenetedet.
+In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md#recommended-providers) to protect your privacy. Ezek a szolgáltatások többek között segíthetnek megvédeni a valódi potaládádat a spamektől, megakadályozhatják, hogy a marketingesek összekapcsolják a fiókjaidat, és PGP-vel titkosíthatják az összes bejövő üzenetedet.
 
 - [További információ :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## OpenPGP-kompatibilis szolgáltatások
 
-These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic E2EE emails. Például egy Proton Mail felhasználó küldhet végponttól-végpontig titkosított üzenetet egy Mailbox.org felhasználónak, de fogadhatsz OpenPGP-titkosított értesítéseket olyan internetes szolgáltatásoktól is, amelyek támogatják azt.
+These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic end-to-end encrypted emails. Például egy Proton Mail felhasználó küldhet végponttól-végpontig titkosított üzenetet egy Mailbox.org felhasználónak, de fogadhatsz OpenPGP-titkosított értesítéseket olyan internetes szolgáltatásoktól is, amelyek támogatják azt.
 
 <div class="grid cards" markdown>
 
@@ -48,7 +48,9 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 
 Az OpenPGP-hez hasonló végponttól-végpontig titkosító technológiák használata esetén az e-mail fejlécében továbbra is maradnak olyan metaadatok, amik nincsenek titkosítva, általában beleértve az üzenet tágyát is! Tudj meg többet az [e-mail metaadatokról](basics/email-security.md#email-metadata-overview).
 
-Az OpenPGP nem támogatja a Forward secrecy-t sem, ami azt jelenti, hogy ha a tőled vagy a címzettől ellopják a privát kulcsot, azzal az összes korábbi, ezzel titkosított üzenet is nyilvánosságra kerül. [Hogyan védhetem a privát kulcsaimat?](basics/email-security.md#how-do-i-protect-my-private-keys)
+OpenPGP also does not support forward secrecy, which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed.
+
+- [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 </div>
 
@@ -58,7 +60,9 @@ Az OpenPGP nem támogatja a Forward secrecy-t sem, ami azt jelenti, hogy ha a t�
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-A **Proton Mail** egy olyan e-mail szolgáltatás, amely a magánéletre, a titkosításra, a biztonságra és az egyszerű használatra helyezi a hangsúlyt. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+A **Proton Mail** egy olyan e-mail szolgáltatás, amely a magánéletre, a titkosításra, a biztonságra és az egyszerű használatra helyezi a hangsúlyt. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland.
+
+The Proton Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -81,9 +85,9 @@ A **Proton Mail** egy olyan e-mail szolgáltatás, amely a magánéletre, a titk
 
 </div>
 
-Az ingyenes fiókoknak vannak bizonyos korlátai, például nem tudnak keresni a szövegben, és nem férnek hozzá a [Proton Mail Bridge-hez](https://proton.me/mail/bridge), ami egy [ajánlott asztali e-mail kliens](email-clients.md) (pl. Thunderbird) használatához szükséges átjáró. A fizetős fiókok olyan funkciókat is tartalmaznak, mint a Proton Mail Bridge, további tárhely és egyéni domainek támogatása. A Proton Mail alkalmazást 2021. november 9-én a [Securitum](https://research.securitum.com) [tanúsította](https://proton.me/blog/security-audit-all-proton-apps).
+Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g., Thunderbird). A fizetős fiókok olyan funkciókat is tartalmaznak, mint a Proton Mail Bridge, további tárhely és egyéni domainek támogatása. If you have the Proton Unlimited plan or any multi-user Proton plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
-If you have the Proton Unlimited plan or any multi-user Proton plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+A Proton Mail alkalmazást 2021. november 9-én a [Securitum](https://research.securitum.com) [tanúsította](https://proton.me/blog/security-audit-all-proton-apps).
 
 Proton Mail has internal crash reports that are **not** shared with third parties. This can be disabled in the web app: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
 
@@ -93,7 +97,7 @@ A fizetős Proton Mail előfizetők saját domain címmel is használhatják a s
 
 #### :material-check:{ .pg-green } Privát fizetési módok
 
-A Proton Mail készpénzt is [elfogad](https://proton.me/support/payment-options) postai úton a szokásos hitelkártyás, [Bitcoin-](advanced/payments.md#other-coins-bitcoin-ethereum-etc) és PayPal-fizetési módok mellett.
+Proton Mail [accepts](https://proton.me/support/payment-options) **cash** by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments.
 
 #### :material-check:{ .pg-green } Fiók biztonsága
 
@@ -109,7 +113,7 @@ A [Proton Contactsban](https://proton.me/support/proton-contacts) tárolt bizony
 
 A Proton Mail [integrálta az OpenPGP titkosítást](https://proton.me/support/how-to-use-pgp) a webmailjébe. A más Proton Mail-fiókokba küldött e-mailek automatikusan titkosítva vannak, és a nem Proton Mail-címekre küldött, OpenPGP-kulccsal rendelkező e-mailek titkosítása egyszerűen engedélyezhető a fiók beállításaiban. Proton also supports automatic external key discovery with WKD. Ez azt jelenti, hogy a WKD-t használó más szolgáltatóknak küldött e-maileket automatikusan az OpenPGP-vel is titkosítja, anélkül, hogy manuálisan kellene nyilvános PGP-kulcsokat cserélnie a kapcsolattartóival. Az [OpenPGP nélkül, nem Proton Mail címekre küldött üzeneteket titkosíthatod](https://proton.me/support/password-protected-emails), anélkül, hogy a címzetteknek Proton Mail fiókot kellene regisztrálniuk.
 
-A Proton Mail a Proton-fiókok nyilvános kulcsait is közzéteszi HTTP-n keresztül a WKD-ből. Ez lehetővé teszi, hogy a Proton Mailt nem használók is könnyen megtalálják a Proton Mail fiókok OpenPGP-kulcsait a szolgáltatóközi E2EE-hez. Ez csak a Proton saját domainjeire végződő e-mail címekre vonatkozik, mint például a @proton.me. Ha egyéni tartományt használsz, kézzel kell [konfigurálni a WKD-t](./basics/email-security.md#what-is-the-web-key-directory-standard).
+A Proton Mail a Proton-fiókok nyilvános kulcsait is közzéteszi HTTP-n keresztül a WKD-ből. This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Proton's own domains, like `@proton.me`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
 #### :material-information-outline:{ .pg-blue } Fiók megszüntetése
 
@@ -117,9 +121,7 @@ Ha előfizetéssel rendelkezel, de 14 napon túli [fizetetlen számlád](https:/
 
 #### :material-information-outline:{ .pg-blue } További funkciók
 
-Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
-
-A Proton Mail nem kínál digitális örökség funkciót.
+Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
 
 ### Mailbox.org
 
@@ -127,7 +129,9 @@ A Proton Mail nem kínál digitális örökség funkciót.
 
 ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
 
-**A **Mailbox.org** egy olyan e-mail szolgáltatás, amelynek középpontjában a biztonság, a reklámmentesség és a 100%-ban környezetbarát energiával működő, magánhálózatról biztosított energia áll. 2014 óta működnek. A Mailbox.org székhelye Berlinben, Németországban található. Accounts start with up to 2 GB storage, which can be upgraded as needed.
+**Mailbox.org** is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. 2014 óta működnek. A Mailbox.org székhelye Berlinben, Németországban található.
+
+Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
 [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
@@ -148,23 +152,23 @@ A Mailbox.org lehetővé teszi a saját domain használatáz, és támogatja a [
 
 #### :material-check:{ .pg-green } Privát fizetési módok
 
-A Mailbox.org nem fogad el semmilyen kriptovalutát, mivel a fizetési szolgáltatójuk, a BitPay felfüggesztette működését Németországban. However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and a couple of German-specific processors: paydirekt and Sofortüberweisung.
+A Mailbox.org nem fogad el semmilyen kriptovalutát, mivel a fizetési szolgáltatójuk, a BitPay felfüggesztette működését Németországban. However, they do accept **cash** by mail, **cash** payment to bank account, bank transfer, credit card, PayPal, and a couple of German-specific processors: Paydirekt and Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Fiók biztonsága
 
-Mailbox.org supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. A TOTP vagy a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) a [YubiCloudon](https://yubico.com/products/services-software/yubicloud) keresztül használható. Az olyan webes szabványok, mint a [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn), még nem támogatottak.
+Mailbox.org supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. A TOTP vagy a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) a [YubiCloudon](https://yubico.com/products/services-software/yubicloud) keresztül használható. Web standards such as [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) are not yet supported.
 
 #### :material-information-outline:{ .pg-blue } Adatbiztonság
 
 A Mailbox.org lehetővé teszi a bejövő levelek titkosítását a [titkosított postafiók](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox) segítségével. A kapott új üzeneteket ezután azonnal titkosítja a nyilvános kulcsával.
 
-A Mailbox.org által használt szoftverplatform, az [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange) azonban [nem támogatja](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) a címjegyzék és a naptár titkosítását. Az ilyen információk tárolásához megfelelőbb lehet egy [önálló alternatíva](calendar.md).
+However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that data.
 
 #### :material-check:{ .pg-green } E-mail titkosítás
 
 A Mailbox.org webmailbe [beépített titkosítást](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) alkalmaz, ami leegyszerűsíti az üzenetek küldését nyilvános OpenPGP-kulcsokkal rendelkező személyeknek. Lehetővé teszik továbbá, hogy a [távoli címzettek visszafejtsenek egy e-mailt](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) a Mailbox.org szerverein. Ez a funkció akkor hasznos, ha a távoli címzett nem rendelkezik OpenPGP-vel, és nem tudja visszafejteni az e-mail másolatát a saját postafiókjában.
 
-Mailbox.org also supports the discovery of public keys via HTTP from their WKD. Ez lehetővé teszi, hogy a Mailbox.org-ot nem használók is könnyen megtalálják a Mailbox.org fiókok OpenPGP-kulcsait a szolgáltatóközi végponttól-végpontig terjedő titkosításhoz. Ez csak a Mailbox.org saját domainjeire végződő e-mail címekre vonatkozik, mint például a @mailbox.org. Ha egyéni tartományt használsz, kézzel kell [konfigurálni a WKD-t](./basics/email-security.md#what-is-the-web-key-directory-standard).
+Mailbox.org also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox.org's own domains, like `@mailbox.org`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
 #### :material-information-outline:{ .pg-blue } Fiók megszüntetése
 
@@ -176,7 +180,7 @@ A Mailbox.org fiók a [.onion szolgáltatásuk](https://kb.mailbox.org/en/privat
 
 Minden fiókhoz korlátozott felhőalapú tárhely tartozik, amely [titkosítható](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). A mailbox.org kínálja a [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely) aliast is, amely érvényesíti a TLS titkosítást a levelezőszerverek közötti kapcsolaton, ennek hiányában az üzenet egyáltalán nem lesz elküldve. A Mailbox.org támogatja az [Exchange ActiveSync-et](https://en.wikipedia.org/wiki/Exchange_ActiveSync) is a szabványos hozzáférési protokollok, például az IMAP és a POP3 mellett.
 
-A Mailbox.org minden előfizetési csomagban rendelkezik digitális örökség funkcióval. Elnöntheted, hogy szeretnéd-e, hogy adataid bármelyik örökösre szálljanak, feltéve, hogy ezt kérelmezed és végrendelkezésben rögzíted. Alternatívaként nevet és címet is megadhatsz egy személynek.
+A Mailbox.org minden előfizetési csomagban rendelkezik digitális örökség funkcióval. You can choose whether you want any of your data to be passed to heirs, providing that they apply and provide your testament. Alternatívaként nevet és címet is megadhatsz egy személynek.
 
 ## További szolgáltatók
 
@@ -195,7 +199,9 @@ Ezek a szolgáltatók zéró hozzáférésű titkosítással tárolják az e-mai
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1 GB of storage.
+**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany.
+
+Free accounts start with 1 GB of storage.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
@@ -226,7 +232,7 @@ Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and u
 
 #### :material-information-outline:{ .pg-blue } Privát fizetési módok
 
-Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
+Tuta only directly accepts credit cards and PayPal, however [**cryptocurrency**](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
 
 #### :material-check:{ .pg-green } Fiók biztonsága
 
@@ -234,7 +240,7 @@ Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with eit
 
 #### :material-check:{ .pg-green } Adatbiztonság
 
-Tuta has [zero access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). Ez azt jelenti, hogy a fiókodban tárolt üzeneteket és egyéb adatokhoz kizárólag te férhetsz hozzá.
+Tuta has [zero-access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). Ez azt jelenti, hogy a fiókodban tárolt üzeneteket és egyéb adatokhoz kizárólag te férhetsz hozzá.
 
 #### :material-information-outline:{ .pg-blue } E-mail titkosítás
 
@@ -247,8 +253,6 @@ Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-acco
 #### :material-information-outline:{ .pg-blue } További funkciók
 
 Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
-
-A Tuta nem kínál digitális örökség funkciót.
 
 ## Saját üzemeltetésű email
 
@@ -315,21 +319,22 @@ Ezeket a funkciókat fontosnak tartjuk a biztonságos és optimális szolgáltat
 
 **Alap Elvárások Minősítéshez:**
 
-- Az email fiókok adatai alapértelmezetten zéró hozzáféréssel legyenek titkosítva.
-- Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
-- Saját infrastruktúrán működik, azaz nem harmadik féltől származó e-mail szolgáltatóra épül.
+- Must encrypt email account data at rest with zero-access encryption.
+- Must be capable of exporting emails as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
+- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Az egyéni domain nevek azért fontosak a felhasználók számára, mert lehetővé teszik számukra, hogy megőrizzék a függetlenedési képességüket a szolgáltatástól, ha az rosszra fordulna, vagy ha egy másik vállalat felvásárolná, amely nem helyezi előtérbe az adatvédelmet.
+- Must operate on owned infrastructure, i.e. not built upon third-party email service providers.
 
 **Legjobb esetben:**
 
-- Zéró hozzáférésű titkosítással titkosítja az összes fiókadatot (névjegyek, naptárak stb.).
-- Integrált webmail E2EE/PGP titkosítás, amely kényelmi funkciót biztosít.
-- Support for WKD to allow improved discovery of public OpenPGP keys via HTTP. A GnuPG felhasználók kulcsot szerezhetnek a következő paranccsal: `gpg --locate-key example_user@example.com`
-- Ideiglenes postafiók támogatása külső felhasználók számára. Ez akkor hasznos, ha titkosított e-mailt szeretne küldeni anélkül, hogy a címzettnek tényleges másolatot küldene. Ezek az e-mailek általában korlátozott élettartamúak, majd automatikusan törlődnek. A címzettnek nem kell semmilyen titkosítást konfigurálnia, mint az OpenPGP esetében.
-- Az emailszolgáltató weboldalának elérhetősége egy [.onion szolgáltatáson](https://en.wikipedia.org/wiki/.onion) keresztül.
-- Az [alcímzés](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) támogatása.
-- Allows users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Az egyéni domain nevek azért fontosak a felhasználók számára, mert lehetővé teszik számukra, hogy megőrizzék a függetlenedési képességüket a szolgáltatástól, ha az rosszra fordulna, vagy ha egy másik vállalat felvásárolná, amely nem helyezi előtérbe az adatvédelmet.
+- Should encrypt all account data (contacts, calendars, etc.) at rest with zero-access encryption.
+- Should provide integrated webmail E2EE/PGP encryption as a convenience.
+- Should support WKD to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key with this command: `gpg --locate-key example_user@example.com`.
+- Ideiglenes postafiók támogatása külső felhasználók számára. This is useful when you want to send an encrypted email without sending an actual copy to your recipient. Ezek az e-mailek általában korlátozott élettartamúak, majd automatikusan törlődnek. A címzettnek nem kell semmilyen titkosítást konfigurálnia, mint az OpenPGP esetében.
+- Should support [sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
+- Should allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Az egyéni domain nevek azért fontosak a felhasználók számára, mert lehetővé teszik számukra, hogy megőrizzék a függetlenedési képességüket a szolgáltatástól, ha az rosszra fordulna, vagy ha egy másik vállalat felvásárolná, amely nem helyezi előtérbe az adatvédelmet.
 - Catch-all or alias functionality for those who use their own domains.
-- Use of standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
+- Should use standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
+- Email provider's services should be available via an [onion service](https://en.wikipedia.org/wiki/.onion).
 
 ### Adatvédelem
 
@@ -337,30 +342,30 @@ Jobban szeretjük, ha az általunk ajánlott szolgáltatók a lehető legkeveseb
 
 **Alap elvárások minősítéshez:**
 
-- Protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
-- A felhasználónevet és jelszót leszámítva ne kérjen személyazonosításra alkalmas adatokat (PII).
-- A GDPR által meghatározott követelményeknek megfelelő adatvédelmi politika.
+- Must protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
+- Must not require personally identifiable information (PII) besides a username and a password.
+- Privacy policy must meet the requirements defined by the GDPR.
 
 **Legjobb esetben:**
 
-- Elfogadja az [anonim fizetési lehetőségeket](advanced/payments.md)[(kriptopénz](cryptocurrency.md), készpénz, ajándékkártyák stb.)
-- Olyan joghatóságban van elhelyezve, ahol erős e-mail adatvédelmi törvények vannak érvényben.
+- Should accept [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
+- Should be hosted in a jurisdiction with strong email privacy protection laws.
 
 ### Adatbiztonság
 
-Az e-mail szerverek sok nagyon érzékeny adatot kezelnek. We expect that providers will adopt best industry practices in order to protect their customers.
+Email servers deal with a lot of very sensitive data. We expect that providers will adopt industry best practices in order to protect their customers.
 
 **Alap elvárások minősítéshez:**
 
-- A webmail védelme 2FA-val, például TOTP-vel.
-- Zero access encryption, which builds on encryption at rest. A szolgáltató nem rendelkezik a birtokában lévő adatok visszafejtési kulcsaival. Ez megakadályozza, hogy egy rosszhiszemű alkalmazott kiszivárogtassa az adatokat, amelyekhez hozzáfér, vagy egy távoli ellenfél a szerverhez való jogosulatlan hozzáféréssel kiadja az ellopott adatokat.
+- Protection of webmail with 2FA, such as [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
+- Zero-access encryption, which builds on encryption at rest. A szolgáltató nem rendelkezik a birtokában lévő adatok visszafejtési kulcsaival. Ez megakadályozza, hogy egy rosszhiszemű alkalmazott kiszivárogtassa az adatokat, amelyekhez hozzáfér, vagy egy távoli ellenfél a szerverhez való jogosulatlan hozzáféréssel kiadja az ellopott adatokat.
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) támogatás.
 - Nincsenek TLS-hibák vagy sebezhetőségek, amikor olyan eszközökkel profilozzák, mint a [Hardenize](https://hardenize.com), a [testssl.sh](https://testssl.sh) vagy a [Qualys SSL Labs](https://ssllabs.com/ssltest); ez magában foglalja a tanúsítványokkal kapcsolatos hibákat és a gyenge DH-paramétereket, például azokat, amelyek a [Logjamhoz](https://en.wikipedia.org/wiki/Logjam_(computer_security)) vezettek.
-- Kiszolgálói csomag preferencia (a TLSv1.3 esetében opcionális) az erős titkosítási csomagok számára, amelyek támogatják a továbbított titkosítást és a hitelesített titkosítást.
+- A server suite preference (optional on TLS 1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
 - Érvényes [MTA-STS](https://tools.ietf.org/html/rfc8461) és [TLS-RPT](https://tools.ietf.org/html/rfc8460) házirend.
 - Érvényes [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) rekordok.
 - Érvényes [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) és [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) rekordok.
-- Rendelkezzen megfelelő [DMARC](https://en.wikipedia.org/wiki/DMARC) rekorddal és házirenddel, vagy használjon [ARC-t](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) a hitelesítéshez. Ha DMARC-hitelesítést használ, a házirendet `elutasításra` vagy `karanténba` kell állítani.
+- Must have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. Ha DMARC-hitelesítést használ, a házirendet `elutasításra` vagy `karanténba` kell állítani.
 - A TLS 1.2 vagy újabb szervercsomag előnyben részesítése és az [RFC8996](https://datatracker.ietf.org/doc/rfc8996) tervezése.
 - [SMTPS](https://en.wikipedia.org/wiki/SMTPS) beküldés, feltéve, hogy SMTP-t használnak.
 - Weboldal biztonsági szabványok, mint például:
@@ -370,10 +375,10 @@ Az e-mail szerverek sok nagyon érzékeny adatot kezelnek. We expect that provid
 
 **Legjobb esetben:**
 
-- A hardveres hitelesítés támogatása, pl. U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
+- Should support hardware authentication, i.e. U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
 - [DNS-hitelesítésszolgáltatói engedélyezési (CAA) erőforrásrekord](https://tools.ietf.org/html/rfc6844) a DANE-támogatás mellett.
-- Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
-- Közzétett biztonsági felülvizsgálatok egy megbízható harmadik feles cégtől.
+- Should implement [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
+- Published security audits from a reputable, third-party firm.
 - Bug-bounty programok és/vagy összehangolt sebezhetőség-közzétételi folyamat.
 - Weboldal biztonsági szabványok, mint például:
     - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
@@ -381,7 +386,7 @@ Az e-mail szerverek sok nagyon érzékeny adatot kezelnek. We expect that provid
 
 ### Megbízhatóság
 
-A pénzügyeidet sem bíznád egy hamis személyazonosságú emberre, akkor miért bíznád rájuk az e-mailjeidet? Az általunk ajánlott szolgáltatóktól megköveteljük, hogy nyilvánosan nyilatkozzanak a tulajdonlásukról vagy vezetésükről. Szeretnénk továbbá gyakori átláthatósági jelentéseket látni, különösen a kormányzati kérelmek kezelésének módját illetően.
+You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? Az általunk ajánlott szolgáltatóktól elvárjuk, hogy nyilvánosak legyenek a tulajdonlásukról vagy vezetésükről. Szeretnénk továbbá gyakori átláthatósági jelentéseket látni, különösen a kormányzati kérelmek kezelésének módját illetően.
 
 **Alap elvárások minősítéshez:**
 
@@ -398,19 +403,16 @@ With the email providers we recommend, we like to see responsible marketing.
 **Alap elvárások minősítéshez:**
 
 - Must self-host analytics (no Google Analytics, Adobe Analytics, etc.).
-
-Must not have any irresponsible marketing, which can include the following:
-
-- A "feltörhetetlen titkosítás" állítása. A titkosítást úgy kell használni, hogy annak nem titkos jellege is figyelembe legyen véve a jövőben, amikor már rendelkezésre áll a feltörésére alkalmas technológia.
-- Az anonimitás 100%-os védelmének garantálása. Ha valaki azt állítja, hogy valami 100%-os, az azt jelenti, hogy nem merülhet fel meghibásodás. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
-
-    - Olyan személyes adatok újrafelhasználása (pl. e-mail fiókok, egyedi álnevek stb.), amelyekhez anonimitási szoftverek (Tor, VPN stb.) nélkül jutottak hozzá.
-    - [Böngésző ujjlenyomatolás](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+- Must not have any irresponsible marketing, which can include the following:
+    - Claims of "unbreakable encryption." Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
+    - Guarantees of protecting anonymity 100%. When someone makes a claim that something is 100%, it means there is no certainty for failure. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
+        - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software such as Tor
+        - [Böngésző fingerprintelés](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **Legjobb esetben:**
 
-- Clear and easy to read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
+- Clear and easy-to-read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
 
 ### További funkciók
 
-Bár ezek nem szigorú követelmények, más kényelmi vagy adatvédelmi tényezőket is figyelembe vettünk, amikor eldöntöttük, mely szolgáltatókat ajánljuk.
+While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.

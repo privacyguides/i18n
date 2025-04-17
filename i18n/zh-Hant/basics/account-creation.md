@@ -42,7 +42,7 @@ The Privacy Policy is how the service says they will use your data, and it is wo
 
 #### 電子郵件別名
 
-如果您不想將您的真實電子郵件地址提供給服務，您可以選擇使用別名。 我們在電子郵件服務推薦頁面上更詳細地描述了它們。 基本上，別名服務允許您生成新的電子郵件位址，將所有電子郵件轉發到您的主位址。 This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. 這些可以根據它們被發送到的別名自動過濾。
+如果您不想將您的真實電子郵件地址提供給服務，您可以選擇使用別名。 We describe them in more detail on our email services recommendation page. 基本上，別名服務允許您生成新的電子郵件位址，將所有電子郵件轉發到您的主位址。 This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. 這些可以根據它們被發送到的別名自動過濾。
 
 如果服務遭到駭客攻擊，您用於註冊的電子郵件可能會收到網路釣魚或垃圾郵件。 為每個服務使用獨特的別名可以幫助確定哪些服務被駭。
 
@@ -50,19 +50,19 @@ The Privacy Policy is how the service says they will use your data, and it is wo
 
 ### "登入方式：" (OAuth)
 
-OAuth 是一種驗證協定可在註冊服務時無須對供應商分享註冊資訊，而是利用在其它服務已有的註冊帳號來登入。 每當您在註冊表單上看到「登入方式: 使用 *提供商名稱*登入」時，它就是 OAuth。
+[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth) is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. 每當您在註冊表單上看到「登入方式: 使用 *提供商名稱*登入」時，它就是 OAuth。
 
 當您透由 OAuth 登入，它會開啟您所選的供應商登入頁面而您的帳戶即會與新帳戶連接。 我們不會分享你的密碼，但會分享一些基本資訊（你可以在登入期間要求查看）。 每次您想要登入同一個帳戶時，都需要進行此程序。
 
 主要優勢是：
 
-- **安全性**: 在儲存登入憑證時，無須信任所登入服務的安全實踐，因為它們是儲存在外部OAuth 提供者。使用 Apple 和 Google 等服務時，通常會遵循最佳安全實踐，持續審核其身份驗證系統，妥當儲存憑證（例如不會以純文字形式）。
-- **易用性**：多個帳戶由單一登入管理。
+- **Security**: You don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials because they are stored with the external OAuth provider. Common OAuth providers like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
+- **Ease-of-use**: Multiple accounts are managed by a single login.
 
 但也有一些缺陷：
 
-- **隱私**: OAuth 讓您利用已註冊的服務作登入新服務。
-- **集中化**: 如果您使用的 OAuth 帳戶被駭或是無法利用它登入，與之連結的其它帳戶也會受到影響。
+- **Privacy**: The OAuth provider you log in with will know the services you use.
+- **Centralization**: If the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
 
 OAuth 在那些服務之間深度整合情況下，可以特別有用。 我們建議將 OAuth 限制在需要的地方，用 [MFA](multi-factor-authentication.md)來保護主帳戶。
 

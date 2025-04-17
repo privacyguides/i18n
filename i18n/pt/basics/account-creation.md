@@ -42,7 +42,7 @@ Será responsável pela gestão das suas credenciais de início de sessão. Para
 
 #### Aliases de correio eletrónico
 
-Se não quiser fornecer o seu verdadeiro endereço de correio eletrónico a um serviço, tem a opção de utilizar um pseudónimo. Descrevemos los com mais pormenor na nossa página de recomendações de serviços de correio eletrónico. Essencialmente, os serviços de alias permitem-lhe gerar novos endereços de correio eletrónico que reencaminham todas as mensagens para o seu endereço principal. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. Estes podem ser filtrados automaticamente com base no pseudónimo para o qual são enviados.
+Se não quiser fornecer o seu verdadeiro endereço de correio eletrónico a um serviço, tem a opção de utilizar um pseudónimo. We describe them in more detail on our email services recommendation page. Essencialmente, os serviços de alias permitem-lhe gerar novos endereços de correio eletrónico que reencaminham todas as mensagens para o seu endereço principal. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. Estes podem ser filtrados automaticamente com base no pseudónimo para o qual são enviados.
 
 Se um serviço for comprometido, pode começar a receber mensagens eletrónicas de phishing ou spam no endereço que utilizou para se registar. A utilização de aliases únicos para cada serviço pode ajudar a identificar exatamente qual o serviço comprometido.
 
@@ -50,19 +50,19 @@ Se um serviço for comprometido, pode começar a receber mensagens eletrónicas 
 
 ### "Iniciar a sessão com..." (OAuth)
 
-A OAuth é um protocolo de autenticação que permite registar-se num serviço sem partilhar muitas informações com o fornecedor do serviço, se for caso disso, utilizando uma conta existente noutro serviço. Sempre que vir algo como "Inicie sessão com o nome do fornecedor **" num formulário de registo, normalmente utiliza o OAuth.
+[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth) is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Sempre que vir algo como "Inicie sessão com o nome do fornecedor **" num formulário de registo, normalmente utiliza o OAuth.
 
 Quando iniciar sessão com o OAuth, será aberta uma página de início de sessão com o fornecedor que escolher, e a sua conta existente e a nova conta serão ligadas. A sua palavra-passe não será partilhada, mas algumas informações básicas serão normalmente partilhadas (pode revê-las durante o pedido de início de sessão). Este processo é necessário sempre que se pretende iniciar sessão na mesma conta.
 
 As principais vantagens são:
 
-- **Security**: you don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials, because they are stored with the external OAuth provider, which when it comes to services like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
-- **Facilidade de utilização**: várias contas são geridas por um único início de sessão.
+- **Security**: You don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials because they are stored with the external OAuth provider. Common OAuth providers like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
+- **Ease-of-use**: Multiple accounts are managed by a single login.
 
 Mas há desvantagens:
 
-- **Privacidade**: o fornecedor OAuth com o qual inicia sessão conhecerá os serviços que utiliza.
-- **Centralization**: if the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
+- **Privacy**: The OAuth provider you log in with will know the services you use.
+- **Centralization**: If the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
 
 OAuth can be especially useful in those situations where you could benefit from deeper integration between services. A nossa recomendação é limitar a utilização do OAuth apenas onde for necessário e proteger sempre a conta principal com [MFA](multi-factor-authentication.md).
 

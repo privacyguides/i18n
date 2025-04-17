@@ -42,7 +42,7 @@ The Privacy Policy is how the service says they will use your data, and it is wo
 
 #### 이메일 별칭
 
-실제 이메일 주소를 서비스에 노출하지 않고자 하는 경우 이메일 별칭을 사용할 수 있습니다. (이메일 별칭 관련 자세한 내용은 이메일 서비스 권장 목록 페이지를 참고하세요.) 이메일 별칭 서비스를 사용하면 주요 이메일 주소로 모든 이메일이 전달되는 새로운 이메일 주소를 만들 수 있습니다. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. 어떤 별칭으로 보내졌는지에 따라 자동으로 분류되기 때문입니다.
+실제 이메일 주소를 서비스에 노출하지 않고자 하는 경우 이메일 별칭을 사용할 수 있습니다. We describe them in more detail on our email services recommendation page. 이메일 별칭 서비스를 사용하면 주요 이메일 주소로 모든 이메일이 전달되는 새로운 이메일 주소를 만들 수 있습니다. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. 어떤 별칭으로 보내졌는지에 따라 자동으로 분류되기 때문입니다.
 
 서비스가 해킹당할 경우, 가입한 이메일 주소로 피싱/스팸 메일이 올 수 있습니다. 서비스마다 고유한 별칭을 사용하면 어떤 서비스가 해킹당했는지 식별 가능합니다.
 
@@ -50,19 +50,19 @@ The Privacy Policy is how the service says they will use your data, and it is wo
 
 ### '~ (으)로 로그인' (OAuth)
 
-OAuth는 가입하려는 서비스 제공 업체와 많은 정보를 공유하지 않고도, 다른 서비스에서 이미 사용 중이던 기존 계정을 이용해서 서비스에 가입할 수 있는 인증 프로토콜입니다. 가입 시에 '*제공 업체* (으)로 로그인' 문구로 표시되는 방식이 OAuth를 사용하는 것입니다.
+[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth) is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. 가입 시에 '*제공 업체* (으)로 로그인' 문구로 표시되는 방식이 OAuth를 사용하는 것입니다.
 
 Oauth 로그인을 선택할 경우, OAuth 제공 업체의 로그인 페이지를 거쳐 계정이 연결됩니다. 여러분의 비밀번호는 공유되지 않지만, 보통 일부 기본 정보(로그인 과정에서 검토 가능합니다)는 공유됩니다. 이 과정은 해당 계정에 로그인할 때마다 필요합니다.
 
 주요 장점은 다음과 같습니다:
 
-- **Security**: you don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials, because they are stored with the external OAuth provider, which when it comes to services like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
-- **사용 편의성**: 하나의 로그인으로 여러 계정을 관리할 수 있습니다.
+- **Security**: You don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials because they are stored with the external OAuth provider. Common OAuth providers like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
+- **Ease-of-use**: Multiple accounts are managed by a single login.
 
 단점은 다음과 같습니다:
 
-- **프라이버시**: OAuth 제공 업체는 사용자가 어떤 서비스를 사용하는지 알 수 있습니다.
-- **Centralization**: if the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
+- **Privacy**: The OAuth provider you log in with will know the services you use.
+- **Centralization**: If the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
 
 OAuth can be especially useful in those situations where you could benefit from deeper integration between services. 되도록 OAuth는 필요한 경우에만 사용하고, 주요 계정은 [MFA](multi-factor-authentication.md)로 보호할 것을 권장드립니다.
 

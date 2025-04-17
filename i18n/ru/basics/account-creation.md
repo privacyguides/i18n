@@ -42,7 +42,7 @@ The Privacy Policy is how the service says they will use your data, and it is wo
 
 #### Псевдонимы электронной почты
 
-Если вы не хотите предоставлять сервису свой настоящий адрес электронной почты, у вас есть возможность использовать псевдоним. Более подробно мы описали их на странице рекомендаций по использованию сервисов электронной почты. По сути, службы почты позволяют создавать новые адреса электронной почты, которые пересылают все письма на ваш основной адрес. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. Они могут быть автоматически отфильтрованы на основе псевдонима, на который они отправлены.
+Если вы не хотите предоставлять сервису свой настоящий адрес электронной почты, у вас есть возможность использовать псевдоним. We describe them in more detail on our email services recommendation page. По сути, службы почты позволяют создавать новые адреса электронной почты, которые пересылают все письма на ваш основной адрес. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. Они могут быть автоматически отфильтрованы на основе псевдонима, на который они отправлены.
 
 Если сервис будет взломан, вы можете начать получать фишинговые или спамерские письма на адрес, который вы использовали при регистрации. Использование уникальных псевдонимов для каждого сервиса может помочь определить, какой именно сервис был взломан.
 
@@ -50,19 +50,19 @@ The Privacy Policy is how the service says they will use your data, and it is wo
 
 ### "Войти с помощью..." (OAuth)
 
-OAuth - это протокол аутентификации, который позволяет вам зарегистрироваться на сервисе, не передавая поставщику услуг много информации, используя вместо этого существующую учетную запись, имеющуюся у вас в другом сервисе. Если в форме регистрации вы видите что-то вроде "Войти с помощью *название сервиса*", это, как правило, использование OAuth.
+[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth) is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Если в форме регистрации вы видите что-то вроде "Войти с помощью *название сервиса*", это, как правило, использование OAuth.
 
 При входе с помощью OAuth откроется страница входа в систему с выбранным вами провайдером, а ваша существующая учетная запись и новая учетная запись будут связаны. Ваш пароль не будет передан, но некоторая основная информация обычно передается (вы можете просмотреть ее во время запроса на вход). Этот процесс необходим каждый раз, когда вы хотите войти в одну и ту же учетную запись.
 
 Основными преимуществами являются:
 
-- **Безопасность**: вам не придется доверять методам безопасности сервиса, в который вы входите, когда речь идет о хранении ваших учетных данных, поскольку они хранятся у внешнего провайдера OAuth, который, если речь идет о таких сервисах, как Apple и Google, обычно следует лучшим методам безопасности, постоянно проверяет свои системы аутентификации и не хранит учетные данные в ненадлежащем виде (например, в виде обычного текста).
-- **Простота использования**: управление несколькими учетными записями осуществляется с помощью одного логина.
+- **Security**: You don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials because they are stored with the external OAuth provider. Common OAuth providers like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
+- **Ease-of-use**: Multiple accounts are managed by a single login.
 
 Но есть и недостатки:
 
-- **Конфиденциальность**: провайдер OAuth, с помощью которого вы входите в систему, будет знать, какими услугами вы пользуетесь.
-- **Централизация**: если учётная запись, которую вы используете для OAuth, взломана, или вы не можете войти в неё, все остальные учётные записи, подключённые к ней, будут затронуты.
+- **Privacy**: The OAuth provider you log in with will know the services you use.
+- **Centralization**: If the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
 
 OAuth может быть особенно полезен в тех случаях, когда вам может быть полезна более глубокая интеграция между сервисами. Наша рекомендация - ограничить использование OAuth только там, где это необходимо, и всегда защищать основной аккаунт с помощью [МФА](multi-factor-authentication.md).
 

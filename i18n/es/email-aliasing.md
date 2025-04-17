@@ -10,7 +10,34 @@ cover: email-aliasing.webp
 - [:material-account-cash: Capitalismo de Vigilancia](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 - [:material-account-search: Exposición Pública](basics/common-threats.md#limiting-public-information){ .pg-green }
 
-Un **servicio de alias de correo electrónico** te permite generar fácilmente una nueva dirección de correo electrónico para cada sitio web en el que te registres. Los alias de correo electrónico que generas son reenviados a una dirección de correo electrónico de tu elección, ocultando tanto tu dirección "principal" de correo electrónico como la identidad de tu [proveedor de correo electrónico](email.md). El verdadero alias de correo electrónico es mejor que el direccionamiento plus, comúnmente utilizado y admitido por muchos proveedores, que permite crear alias como `su nombre+[cualquiercosaaquí]@ejemplo.com`, porque los sitios web, los anunciantes y las redes de seguimiento pueden eliminar trivialmente cualquier cosa después del signo `+`. Organizaciones como la [IAB](https://en.wikipedia.org/wiki/Interactive_Advertising_Bureau) solicitan que los anunciantes [normalicen las direcciones de correo electrónico](https://shkspr.mobi/blog/2023/01/the-iab-loves-tracking-users-but-it-hates-users-tracking-them) para poder correlacionarlas y rastrearlas, sin importar las preferencias de privacidad de los usuarios.
+Un **servicio de alias de correo electrónico** te permite generar fácilmente una nueva dirección de correo electrónico para cada sitio web en el que te registres. Los alias de correo electrónico que generas son reenviados a una dirección de correo electrónico de tu elección, ocultando tanto tu dirección "principal" de correo electrónico como la identidad de tu [proveedor de correo electrónico](email.md).
+
+Los alias de correo electrónico también pueden servir de respaldo en caso de que tu proveedor de correo electrónico cese sus operaciones. En dicho escenario, fácilmente puedes redirigir tus alias a una nueva dirección de correo electrónico. A su vez, sin embargo, estás confiando en que tu servicio de alias continúe funcionando.
+
+## Benefits
+
+Using a service which allows you to individually manage email aliases has a number of benefits over conventional mailbox management/filtering methods:
+
+### Over Plus Addressing
+
+El verdadero alias de correo electrónico es mejor que el direccionamiento plus, comúnmente utilizado y admitido por muchos proveedores, que permite crear alias como `su nombre+[cualquiercosaaquí]@ejemplo.com`, porque los sitios web, los anunciantes y las redes de seguimiento pueden eliminar trivialmente cualquier cosa después del signo `+`. Organizaciones como la [IAB](https://en.wikipedia.org/wiki/Interactive_Advertising_Bureau) solicitan que los anunciantes [normalicen las direcciones de correo electrónico](https://shkspr.mobi/blog/2023/01/the-iab-loves-tracking-users-but-it-hates-users-tracking-them) para poder correlacionarlas y rastrearlas, sin importar las preferencias de privacidad de los usuarios.
+
+### Over Catch-All Aliases
+
+Using a dedicated email aliasing service has a number of benefits over a catch-all alias on a custom domain:
+
+- Los alias se pueden activar y desactivar individualmente cuando lo necesites, evitando que los sitios web te envíen correos electrónicos al azar.
+- Las respuestas son enviadas desde la dirección del alias, ocultando tu dirección real de correo electrónico.
+
+### Over Temporary Email Services
+
+Email aliasing services also have a number of benefits over "temporary email" services:
+
+- Los alias son permanentes y pueden ser activados nuevamente si necesitas recibir algo como un reseteo de la contraseña.
+- Los correos electrónicos son enviados a tu buzón de confianza, en vez de ser almacenados por el proveedor de los alias.
+- Los servicios de correo electrónico temporal suelen tener buzones públicos a los que puede acceder cualquiera que conozca la dirección, mientras que los alias son privados para ti.
+
+## Proveedores Recomendados
 
 <div class="grid cards" markdown>
 
@@ -19,20 +46,7 @@ Un **servicio de alias de correo electrónico** te permite generar fácilmente u
 
 </div>
 
-Los alias de correo electrónico también pueden servir de respaldo en caso de que tu proveedor de correo electrónico cese sus operaciones. En dicho escenario, fácilmente puedes redirigir tus alias a una nueva dirección de correo electrónico. A su vez, sin embargo, estás confiando en que tu servicio de alias continúe funcionando.
-
-El uso de un servicio dedicado de alias de correo electrónico también tiene una cantidad de beneficios sobre un alias general en un dominio personalizado:
-
-- Los alias se pueden activar y desactivar individualmente cuando lo necesites, evitando que los sitios web te envíen correos electrónicos al azar.
-- Las respuestas son enviadas desde la dirección del alias, ocultando tu dirección real de correo electrónico.
-
-También tienen una cantidad de beneficios sobre los servicios "temporales de correo electrónico":
-
-- Los alias son permanentes y pueden ser activados nuevamente si necesitas recibir algo como un reseteo de la contraseña.
-- Los correos electrónicos son enviados a tu buzón de confianza, en vez de ser almacenados por el proveedor de los alias.
-- Los servicios de correo electrónico temporal suelen tener buzones públicos a los que puede acceder cualquiera que conozca la dirección, mientras que los alias son privados para ti.
-
-Nuestras recomendaciones de alias de correo electrónico son proveedores que te permiten crear alias en dominios que ellos controlan, así como en tu(s) propio(s) dominio(s) personalizado(s) por una módica cuota anual. Estos pueden ser autoalojados si deseas tener el máximo control. Sin embargo, usar un dominio personalizado puede tener inconvenientes relacionados con la privacidad: Si eres la única persona usando tu dominio personalizado, tus acciones pueden ser rastreadas con facilidad a través de los sitios web, simplemente con el nombre del dominio en la dirección de correo electrónico e ignorando todo lo que se encuentre antes del signo de (@).
+Nuestras recomendaciones de alias de correo electrónico son proveedores que te permiten crear alias en dominios que ellos controlan, así como en tu(s) propio(s) dominio(s) personalizado(s) por una módica cuota anual. Estos pueden ser autoalojados si deseas tener el máximo control. However, using a custom domain can have privacy-related drawbacks: If you are the only person using your custom domain, your actions can be easily tracked across websites simply by looking at the domain name in the email address and ignoring everything before the `@` symbol.
 
 Usar un servicio de alias requiere confiar tus mensajes sin encriptar a tu proveedor de correo electrónico y tu proveedor de alias. Algunos proveedores mitigan esto ligeramente con el cifrado automático PGP[^1], que reduce el número de partes en las que tienes que confiar de dos a una al cifrar los correos entrantes antes de que lleguen a tu proveedor de buzón final.
 
@@ -42,29 +56,31 @@ Usar un servicio de alias requiere confiar tus mensajes sin encriptar a tu prove
 
 ![Addy.io logo](assets/img/email-aliasing/addy.svg){ align=right }
 
-**Addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited "standard" aliases.
+**Addy.io** lets you create 10 domain aliases on a shared domain for free, or unlimited ["standard" aliases](https://addy.io/faq/#what-is-a-standard-alias).
 
-[:octicons-home-16: Página Principal](https://addy.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Politica de Privacidad" }
-[:octicons-info-16:](https://addy.io/faq){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://addy.io/donate){ .card-link title=Contribuir }
+[:octicons-home-16: Homepage](https://addy.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://addy.io/faq){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://addy.io/donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
 
-- [:simple-android: Android](https://addy.io/faq/#is-there-an-android-app)
-- [:material-apple-ios: iOS](https://addy.io/faq/#is-there-an-ios-app)
+- [:simple-googleplay: Google Play](https://addy.io/faq/#is-there-an-android-app)
+- [:simple-appstore: App Store](https://addy.io/faq/#is-there-an-ios-app)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/addy_io)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/addyio-anonymous-email-fo/iadbdpnoknmbdeolbapdackdcogdmjpe)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/iadbdpnoknmbdeolbapdackdcogdmjpe)
 
 </details>
 
 </div>
 
-The number of shared aliases (which end in a shared domain like @addy.io) that you can create is limited to 10 on Addy.io's free plan, 50 on their $1/month plan and unlimited on the $4/month plan (billed $3 for a year). You can pay for these plans using [cryptocurrency](https://addy.io/help/subscribing-with-cryptocurrency) or purchase a voucher code from [ProxyStore](https://addy.io/help/voucher-codes), Addy.io's official reseller.
+The number of shared aliases (which end in a shared domain like `@addy.io`) that you can create depends on the [plan](https://addy.io/#pricing) you are subscribed to. You can pay for these plans using [cryptocurrency](https://addy.io/help/subscribing-with-cryptocurrency) or purchase a voucher code from [ProxyStore](https://addy.io/help/voucher-codes), Addy.io's official reseller.
 
-Puedes crear un número ilimitado de alias estándar que terminen en un dominio como @[nombredeusuario].addy.io o un dominio personalizado en los planes de pago. Sin embargo, como ya se ha mencionado, esto puede ir en detrimento de la privacidad porque la gente puede relacionar trivialmente tus alias estándar basándose únicamente en el nombre de dominio. Estos son útiles cuando un dominio compartido puede estar bloqueado por un servicio. Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) Addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
+You can create unlimited standard aliases which end in a domain like `@[username].addy.io` or a custom domain on paid plans. Sin embargo, como ya se ha mencionado, esto puede ir en detrimento de la privacidad porque la gente puede relacionar trivialmente tus alias estándar basándose únicamente en el nombre de dominio. Estos son útiles cuando un dominio compartido puede estar bloqueado por un servicio.
+
+Securitum [audited](https://addy.io/blog/addy-io-passes-independent-security-audit) Addy.io in September 2023 and no significant vulnerabilities [were identified](https://addy.io/addy-io-security-audit.pdf).
 
 Funciones gratuitas destacables:
 
@@ -84,10 +100,10 @@ Si cancelas tu suscripción, disfrutarás de las características de tu plan de 
 
 **SimpleLogin** es un servicio gratuito que proporciona alias de correo electrónico en una variedad de nombres de dominio compartidos y, opcionalmente, ofrece funciones de pago como alias ilimitados y dominios personalizados.
 
-[:octicons-home-16: Página Principal](https://simplelogin.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplelogin.io/privacy){ .card-link title="Politica de Privacidad" }
-[:octicons-info-16:](https://simplelogin.io/docs){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Código Fuente" }
+[:octicons-home-16: Homepage](https://simplelogin.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://simplelogin.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://simplelogin.io/docs){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -97,18 +113,18 @@ Si cancelas tu suscripción, disfrutarás de las características de tu plan de 
 - [:simple-github: GitHub](https://github.com/simple-login/Simple-Login-Android/releases)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/simplelogin)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/dphilobhebphkdjbpfohgikllaljmgbn)
-- [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/simpleloginreceive-sen/diacfpipniklenphgljfkmhinphjlfff)
+- [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/diacfpipniklenphgljfkmhinphjlfff)
 - [:simple-safari: Safari](https://apps.apple.com/app/id6475835429)
 
 </details>
 
 </div>
 
-SimpleLogin fue [adquirido por Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) el 8 de abril de 2022. Si utilizas Proton Mail para tu buzón principal, SimpleLogin es una gran elección. Como ambos productos pertenecen ahora a la misma empresa, ahora sólo tienes que confiar en una única entidad. También esperamos que SimpleLogin se integre más estrechamente con las ofertas de Proton en el futuro. SimpleLogin sigue siendo compatible con el reenvío a cualquier proveedor de correo electrónico de tu elección. Securitum [auditó](https://simplelogin.io/blog/security-audit) SimpleLogin a principios de 2022 y todos los problemas [se solucionaron](https://simplelogin.io/audit2022/web.pdf).
+SimpleLogin fue [adquirido por Proton AG](https://proton.me/news/proton-and-simplelogin-join-forces) el 8 de abril de 2022. Si utilizas Proton Mail para tu buzón principal, SimpleLogin es una gran elección. Como ambos productos pertenecen ahora a la misma empresa, ahora sólo tienes que confiar en una única entidad. También esperamos que SimpleLogin se integre más estrechamente con las ofertas de Proton en el futuro. SimpleLogin sigue siendo compatible con el reenvío a cualquier proveedor de correo electrónico de tu elección.
 
-Puedes vincular tu cuenta SimpleLogin en la configuración con tu cuenta Proton. If you have Proton Pass Plus, Proton Unlimited, or any multi-user Proton plan, you will have SimpleLogin Premium for free.
+Puedes vincular tu cuenta SimpleLogin en la configuración con tu cuenta Proton. If you have Proton Pass Plus, Proton Unlimited, or any multi-user Proton plan, you will have SimpleLogin Premium for free. You can also purchase a voucher code for SimpleLogin Premium anonymously via their official reseller [ProxyStore](https://simplelogin.io/faq).
 
-You can also purchase a voucher code for SimpleLogin Premium anonymously via their official reseller, [ProxyStore](https://simplelogin.io/faq).
+Securitum [auditó](https://simplelogin.io/blog/security-audit) SimpleLogin a principios de 2022 y todos los problemas [se solucionaron](https://simplelogin.io/audit2022/web.pdf).
 
 Funciones gratuitas destacables:
 
@@ -121,6 +137,6 @@ Cuando finalice tu suscripción, todos los alias que hayas creado podrán seguir
 
 ## Criterios
 
-**Por favor, ten en cuenta que no estamos afiliados con ninguno de los proveedores que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), evaluamos los proveedores de correo electrónico con el mismo estándar que nuestros [criterios de proveedor de correo electrónico](email.md#criteria) donde corresponda. Sugerimos que te familiarices con esta lista antes de decidir utilizar un servicio de correo electrónico y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
+**Por favor, ten en cuenta que no estamos afiliados con ninguno de los proveedores que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), evaluamos los proveedores de correo electrónico con el mismo estándar que nuestros [criterios de proveedor de correo electrónico](email.md#criteria) donde corresponda. We suggest you familiarize yourself with this list before choosing an email aliasing service, and conduct your own research to ensure the provider you choose is the right choice for you.
 
 [^1]: El cifrado PGP automático te permite cifrar correos electrónicos entrantes no cifrados antes de que sean enviados a tu buzón de correo, asegurándote de que tu proveedor principal de buzón nunca vea contenido de correo electrónico no cifrado.

@@ -42,7 +42,7 @@ The Privacy Policy is how the service says they will use your data, and it is wo
 
 #### כינויי אימייל
 
-אם אינך רוצה לתת את כתובת האימייל האמיתית שלך לשירות, יש לך אפשרות להשתמש בכינוי. תיארנו אותם ביתר פירוט בדף ההמלצות של שירותי האימייל שלנו. בעיקרון, שירותי כינוי מאפשרים לך ליצור כתובות אימייל חדשות המעבירות את כל המיילים לכתובת הראשית שלך. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. ניתן לסנן אותם באופן אוטומטי על סמך הכינוי שאליו הם נשלחים.
+אם אינך רוצה לתת את כתובת האימייל האמיתית שלך לשירות, יש לך אפשרות להשתמש בכינוי. We describe them in more detail on our email services recommendation page. בעיקרון, שירותי כינוי מאפשרים לך ליצור כתובות אימייל חדשות המעבירות את כל המיילים לכתובת הראשית שלך. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. ניתן לסנן אותם באופן אוטומטי על סמך הכינוי שאליו הם נשלחים.
 
 אם שירות ייפרץ, ייתכן שתתחיל לקבל הודעות דיוג או דואר זבל לכתובת שבה השתמשת כדי להירשם. שימוש בכינויים ייחודיים עבור כל שירות יכול לסייע בזיהוי בדיוק איזה שירות נפרץ.
 
@@ -50,19 +50,19 @@ The Privacy Policy is how the service says they will use your data, and it is wo
 
 ### "להתחבר עם..." (OAuth)
 
-OAuth הוא פרוטוקול אימות המאפשר לך להירשם לשירות מבלי לשתף מידע רב עם ספק השירות, אם בכלל, על ידי שימוש בחשבון קיים שיש לך עם שירות אחר במקום זאת. בכל פעם שאתה רואה משהו בסגנון "היכנס עם *שם הספק*" בטופס הרשמה, זה בדרך כלל באמצעות OAuth.
+[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth) is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. בכל פעם שאתה רואה משהו בסגנון "היכנס עם *שם הספק*" בטופס הרשמה, זה בדרך כלל באמצעות OAuth.
 
 כאשר אתה נכנס עם OAuth, הוא יפתח דף התחברות עם הספק שתבחר, והחשבון הקיים והחשבון החדש שלך יחוברו. הסיסמה שלך לא תשותף, אבל בדרך כלל יש מידע בסיסי (תוכל לעיין בה במהלך בקשת ההתחברות). תהליך זה נחוץ בכל פעם שאתה רוצה להיכנס לאותו חשבון.
 
 היתרונות העיקריים הם:
 
-- **Security**: you don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials, because they are stored with the external OAuth provider, which when it comes to services like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
-- **קלות שימוש**: מספר חשבונות מנוהלים על ידי התחברות אחת.
+- **Security**: You don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials because they are stored with the external OAuth provider. Common OAuth providers like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
+- **Ease-of-use**: Multiple accounts are managed by a single login.
 
 אבל יש חסרונות:
 
-- **פרטיות**: ספק ה-OAuth שאיתו אתה מתחבר יידע באילו שירותים אתה משתמש.
-- **Centralization**: if the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
+- **Privacy**: The OAuth provider you log in with will know the services you use.
+- **Centralization**: If the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
 
 OAuth can be especially useful in those situations where you could benefit from deeper integration between services. ההמלצה שלנו היא להגביל את השימוש ב-OAuth רק למקום שבו אתה זקוק לו, ולהגן תמיד על החשבון הראשי באמצעות [MFA](multi-factor-authentication.md).
 

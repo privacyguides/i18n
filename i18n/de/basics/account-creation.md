@@ -42,7 +42,7 @@ Du bist für die Verwaltung deiner Anmeldedaten verantwortlich. Für zusätzlich
 
 #### E-Mail-Aliasse
 
-Wenn du deine echte E-Mail-Adresse nicht an einen Dienst weitergeben möchtest, hast du die Möglichkeit, einen Alias zu verwenden. Wir haben diese auf unserer Empfehlungsseite für E-Mail-Dienste näher beschrieben. Im Grunde erlauben dir Alias-Dienste neue E-Mail-Adressen zu generieren, die alle E-Mails an deine Hauptadresse weiterleiten. Dies kann dazu beitragen, die Nachverfolgung über verschiedene Dienste hinweg zu verhindern und die Marketing-E-Mails zu verwalten, die manchmal mit dem Anmeldeprozess einhergehen. Diese können automatisch anhand des Alias gefiltert werden, an den sie gesendet werden.
+Wenn du deine echte E-Mail-Adresse nicht an einen Dienst weitergeben möchtest, hast du die Möglichkeit, einen Alias zu verwenden. We describe them in more detail on our email services recommendation page. Im Grunde erlauben dir Alias-Dienste neue E-Mail-Adressen zu generieren, die alle E-Mails an deine Hauptadresse weiterleiten. Dies kann dazu beitragen, die Nachverfolgung über verschiedene Dienste hinweg zu verhindern und die Marketing-E-Mails zu verwalten, die manchmal mit dem Anmeldeprozess einhergehen. Diese können automatisch anhand des Alias gefiltert werden, an den sie gesendet werden.
 
 Sollte ein Dienst gehackt werden, erhältst du möglicherweise Phishing- oder Spam-E-Mails an die Adresse, die du für die Anmeldung verwendet hast. Die Verwendung eindeutiger Aliasnamen für jeden Dienst kann dabei helfen, genau festzustellen, welcher Dienst gehackt wurde.
 
@@ -50,19 +50,19 @@ Sollte ein Dienst gehackt werden, erhältst du möglicherweise Phishing- oder Sp
 
 ### "Anmelden mit ..." (OAuth)
 
-OAuth ist ein Authentifizierungsprotokoll, das es dir ermöglicht, dich für einen Dienst anzumelden, ohne viele Informationen an den Dienstanbieter weiterzugeben, indem du stattdessen ein bestehendes Konto bei einem anderen Dienst verwendest. Wenn du in einem Registrierungsformular etwas wie "Mit *Anbietername* anmelden" siehst, wird in der Regel OAuth verwendet.
+[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth) is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Wenn du in einem Registrierungsformular etwas wie "Mit *Anbietername* anmelden" siehst, wird in der Regel OAuth verwendet.
 
 Wenn du dich mit OAuth anmeldest, wird eine Anmeldeseite bei dem von dir gewählten Anbieter geöffnet, und dein bestehendes Konto und das neue Konto werden miteinander verbunden. Dein Passwort wird nicht weitergegeben, wohl aber einige grundlegende Informationen (die du bei der Anmeldeanfrage einsehen kannst). Dieser Vorgang ist jedes Mal erforderlich, wenn du dich bei demselben Konto anmelden möchtest.
 
 Die wichtigsten Vorteile sind:
 
-- **Sicherheit**: Du musst dich nicht auf die Sicherheitspraktiken des Dienstes verlassen, bei dem du dich anmeldest, wenn es um die Speicherung deiner Anmeldedaten geht, da diese bei einem externen OAuth-Anbieter gespeichert werden. Diese Dienste, wie Apple und Google, wenden in der Regel die besten Sicherheitspraktiken an, Authentifizierungssysteme werden kontinuierlich überprüft und Anmeldedaten nicht in unangemessener Weise (z. B. im Klartext) gespeichert.
-- **Benutzerfreundlichkeit**: Mehrere Konten werden über ein einziges Login verwaltet.
+- **Security**: You don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials because they are stored with the external OAuth provider. Common OAuth providers like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
+- **Ease-of-use**: Multiple accounts are managed by a single login.
 
 Aber es gibt auch Nachteile:
 
-- **Privatsphäre**: Der OAuth-Anbieter, bei dem du dich anmeldest, weiß, welche Dienste du nutzt.
-- **Zentralisierung**: Wenn das Konto, das du für OAuth verwendest, kompromittiert wird oder du nicht in der Lage bist, dich bei diesem anzumelden, sind alle anderen Konten, die mit dem Account verbunden sind, betroffen.
+- **Privacy**: The OAuth provider you log in with will know the services you use.
+- **Centralization**: If the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
 
 OAuth kann besonders in Situationen nützlich sein, in denen du von einer tieferen Integration zwischen Diensten profitieren kannst. Wir empfehlen, OAuth nur dort zu verwenden, wo du es brauchst, und das Hauptkonto immer mit [MFA](multi-factor-authentication.md) zu schützen.
 

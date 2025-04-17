@@ -42,7 +42,7 @@ Je bent verantwoordelijk voor het beheer van jouw inloggegevens. Voor extra beve
 
 #### E-mail aliassen
 
-Als je jouw echte e-mailadres niet aan een dienst wilt geven, kunt je een alias gebruiken. We hebben deze in meer detail beschreven op onze pagina met aanbevelingen voor e-maildiensten. Met alias diensten kunt je nieuwe e-mailadressen aanmaken die alle e-mails doorsturen naar jouw hoofdadres. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. Die kunnen automatisch worden gefilterd op basis van de alias waarnaar ze worden gestuurd.
+Als je jouw echte e-mailadres niet aan een dienst wilt geven, kunt je een alias gebruiken. We describe them in more detail on our email services recommendation page. Met alias diensten kunt je nieuwe e-mailadressen aanmaken die alle e-mails doorsturen naar jouw hoofdadres. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. Die kunnen automatisch worden gefilterd op basis van de alias waarnaar ze worden gestuurd.
 
 Als een dienst wordt gehackt, kunt je phishing- of spam-e-mails ontvangen op het adres waarmee je je hebt aangemeld. Het gebruik van unieke aliassen voor elke service kan helpen bij het identificeren van precies welke service is gehackt.
 
@@ -50,19 +50,19 @@ Als een dienst wordt gehackt, kunt je phishing- of spam-e-mails ontvangen op het
 
 ### Meld je aan met... OAuth
 
-OAuth is een authenticatieprotocol waarmee je je kan registreren voor een dienst zonder veel informatie te delen met de dienstverlener, als die er al is, door in plaats daarvan gebruik te maken van een bestaande account die je hebt bij een andere dienst. Wanneer je iets ziet in de trant van "Aanmelden met *providernaam*" op een registratieformulier, dan betreft dat meestal OAuth.
+[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth) is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Wanneer je iets ziet in de trant van "Aanmelden met *providernaam*" op een registratieformulier, dan betreft dat meestal OAuth.
 
 Wanneer je met OAuth inlogt, wordt een inlogpagina geopend met de aanbieder die je kiest, en jouw bestaande account en nieuwe account zullen worden verbonden. Jouw wachtwoord wordt niet gedeeld, maar sommige basisinformatie wel (je kunt deze bekijken tijdens het inlogverzoek). Dit proces is nodig elke keer dat je wilt inloggen op hetzelfde account.
 
 De belangrijkste voordelen zijn:
 
-- **Security**: you don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials, because they are stored with the external OAuth provider, which when it comes to services like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
-- **Gebruiksgemak**: meerdere accounts worden beheerd door één enkele login.
+- **Security**: You don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials because they are stored with the external OAuth provider. Common OAuth providers like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
+- **Ease-of-use**: Multiple accounts are managed by a single login.
 
 Maar er zijn ook nadelen:
 
-- **Privacy**: de OAuth provider waarmee je je aanmeldt kent de diensten die je gebruikt.
-- **Centralization**: if the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
+- **Privacy**: The OAuth provider you log in with will know the services you use.
+- **Centralization**: If the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
 
 OAuth can be especially useful in those situations where you could benefit from deeper integration between services. Onze aanbeveling is om OAuth alleen te gebruiken waar je het nodig hebt, en altijd de hoofdaccount te beschermen met [MFA](multi-factor-authentication.md).
 

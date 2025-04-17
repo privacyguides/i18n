@@ -42,7 +42,7 @@ Sarai responsabile della gestione delle tue credenziali di accesso. Per una magg
 
 #### Alias email
 
-Se non desideri fornire il tuo indirizzo email reale a un servizio, puoi utilizzare un alias. Li abbiamo descritti in maggiore dettaglio sulla nostra pagina di consigli dei servizi email. In breve, i servizi di alias ti consentono di generare nuovi indirizzi email, che inoltrano tutte le email al tuo indirizzo principale. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. Questi possono essere filtrati automaticamente in base all'alias a cui sono inviati.
+Se non desideri fornire il tuo indirizzo email reale a un servizio, puoi utilizzare un alias. We describe them in more detail on our email services recommendation page. In breve, i servizi di alias ti consentono di generare nuovi indirizzi email, che inoltrano tutte le email al tuo indirizzo principale. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. Questi possono essere filtrati automaticamente in base all'alias a cui sono inviati.
 
 Se un servizio dovesse essere violato, potresti iniziare a ricevere email di phishing o spam all'indirizzo utilizzato per iscriverti. Utilizzare alias univoci per ogni servizio può assisterti nell'identificare esattamente quale servizio è stato violato.
 
@@ -50,19 +50,19 @@ Se un servizio dovesse essere violato, potresti iniziare a ricevere email di phi
 
 ### "Accedi con..." (OAuth)
 
-OAuth è un protocollo d'autenticazione che ti consente di registrarti a un servizio senza condividere troppe informazioni con il fornitore del servizio, se necessarie, utilizzando un profilo esistente presso un altro servizio. Quando nel modulo di registrazione noti qualcosa di simile ad "Accedi con *nome del fornitore*", tipicamente sta utilizzando OAuth.
+[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth) is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Quando nel modulo di registrazione noti qualcosa di simile ad "Accedi con *nome del fornitore*", tipicamente sta utilizzando OAuth.
 
 Quando accedi con OAuth, si aprirà una pagina di login con il provider scelto e l'account esistente e quello nuovo verranno collegati. La tua password non sarà condivisa, a differenza di alcune informazioni essenziali (che potrai revisionare durante la richiesta d'accesso). Questo procedimento è necessario ogni volta che desideri accedere allo stesso profilo.
 
 I principali vantaggi sono:
 
-- **Sicurezza**: non devi affidarti alle pratiche di sicurezza del servizio cui ti stai connettendo quando si tratta di memorizzazione delle tue credenziali d'accesso, poiché sono memorizzate con il fornitore esterno di OAuth che, per quanto riguarda i servizi come Apple e Google, segue tipicamente le migliori pratiche di sicurezza, controlla costantemente i loro sistemi d'autenticazione e non memorizza le credenziali in modo inappropriato (come in testo semplice).
-- **Facilità d'uso**: i profili multipli sono gestiti da un unico accesso.
+- **Security**: You don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials because they are stored with the external OAuth provider. Common OAuth providers like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
+- **Ease-of-use**: Multiple accounts are managed by a single login.
 
 Ma esistono degli svantaggi:
 
-- **Privacy**: il fornitore di OAuth con cui effettui l'accesso conoscerà i servizi che utilizzi.
-- **Centralizzazione**: Se il profilo che utilizzi per OAuth è compromesso, o non riesci ad accedervi, tutti gli altri profili a esso connesso ne saranno influenzati.
+- **Privacy**: The OAuth provider you log in with will know the services you use.
+- **Centralization**: If the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
 
 OAuth può essere specialmente utile in quelle situazioni in cui potresti beneficiare dalla più profonda integrazione tra servizi. Il nostro consiglio è quello di limitare l'utilizzo di OAuth soltanto laddove necessario e di proteggere sempre il profilo principale con l'[AFM](multi-factor-authentication.md).
 

@@ -22,19 +22,19 @@ E-mail is bijna een noodzaak voor het gebruik van elke online dienst, maar wij r
 
 Voor al het andere raden wij verschillende e-mailproviders aan op basis van duurzame bedrijfsmodellen en ingebouwde beveiligings- en privacyfuncties. Lees onze [volledige lijst met criteria](#criteria) voor meer informatie.
 
-| Provider                    | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero Access Encryption                               | Anonymous Payments            |
-| --------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ----------------------------- |
-| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | Contant                       |
-| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | Contant                       |
-| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero & Cash via third-party |
+| Provider                    | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero-Access Encryption                               | Anonymous Payment Methods             |
+| --------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------- |
+| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | Contant                               |
+| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | Contant                               |
+| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero <br>Cash via third party |
 
-In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
+In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md#recommended-providers) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
 
 - [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## OpenPGP compatibele diensten
 
-These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic E2EE emails. Een Proton Mail-gebruiker zou bijvoorbeeld een E2EE-bericht kunnen sturen naar een Mailbox.org-gebruiker, of je zou OpenPGP-versleutelde meldingen kunnen ontvangen van internetdiensten die dit ondersteunen.
+These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic end-to-end encrypted emails. Een Proton Mail-gebruiker zou bijvoorbeeld een E2EE-bericht kunnen sturen naar een Mailbox.org-gebruiker, of je zou OpenPGP-versleutelde meldingen kunnen ontvangen van internetdiensten die dit ondersteunen.
 
 <div class="grid cards" markdown>
 
@@ -48,7 +48,9 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 
 When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](basics/email-security.md#email-metadata-overview).
 
-OpenPGP also does not support Forward secrecy, which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed. [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+OpenPGP also does not support forward secrecy, which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed.
+
+- [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 </div>
 
@@ -58,7 +60,9 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** is een e-maildienst met focus op privacy, encryptie, veiligheid en gebruiksgemak. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+**Proton Mail** is een e-maildienst met focus op privacy, encryptie, veiligheid en gebruiksgemak. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland.
+
+The Proton Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
@@ -81,9 +85,9 @@ OpenPGP also does not support Forward secrecy, which means if either your or the
 
 </div>
 
-Gratis accounts hebben enkele beperkingen, zoals het niet kunnen doorzoeken van bodytekst en geen toegang tot [Proton Mail Bridge](https://proton.me/mail/bridge), die nodig is om een [aanbevolen desktop e-mailclient](email-clients.md) (bv. Thunderbird) te gebruiken. Betaalde accounts bevatten functies zoals Proton Mail Bridge, extra opslagruimte en ondersteuning voor aangepaste domeinen. Een [attestatiebrief](https://proton.me/blog/security-audit-all-proton-apps) werd op 9 november 2021 verstrekt voor de apps van Proton Mail door [Securitum](https://research.securitum.com).
+Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g., Thunderbird). Betaalde accounts bevatten functies zoals Proton Mail Bridge, extra opslagruimte en ondersteuning voor aangepaste domeinen. If you have the Proton Unlimited plan or any multi-user Proton plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
 
-If you have the Proton Unlimited plan or any multi-user Proton plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+Een [attestatiebrief](https://proton.me/blog/security-audit-all-proton-apps) werd op 9 november 2021 verstrekt voor de apps van Proton Mail door [Securitum](https://research.securitum.com).
 
 Proton Mail has internal crash reports that are **not** shared with third parties. This can be disabled in the web app: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
 
@@ -93,7 +97,7 @@ Betaalde Proton Mail abonnees kunnen hun eigen domein met de dienst gebruiken of
 
 #### :material-check:{ .pg-green } Privé betaalmethoden
 
-Proton Mail [accepteert](https://proton.me/support/payment-options) contant geld per post, naast standaard creditcard/debetkaart, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), en PayPal-betalingen.
+Proton Mail [accepts](https://proton.me/support/payment-options) **cash** by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments.
 
 #### :material-check:{ .pg-green } Accountbeveiliging
 
@@ -109,7 +113,7 @@ Bepaalde informatie opgeslagen in [Proton Contacts](https://proton.me/support/pr
 
 Proton Mail heeft [OpenPGP encryptie](https://proton.me/support/how-to-use-pgp) geïntegreerd in hun webmail. E-mails naar andere Proton Mail-accounts worden automatisch versleuteld, en versleuteling naar niet-Proton Mail-adressen met een OpenPGP-sleutel kan eenvoudig worden ingeschakeld in je accountinstellingen. Proton also supports automatic external key discovery with WKD. This means that emails sent to other providers which use WKD will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
 
-Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. Hierdoor kunnen mensen die geen Proton Mail gebruiken de OpenPGP sleutels van Proton Mail accounts gemakkelijk vinden, voor cross-provider E2EE. This only applies to email addresses ending in one of Proton's own domains, like @proton.me. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Proton's own domains, like `@proton.me`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
 #### :material-information-outline:{ .pg-blue } Beëindiging van account
 
@@ -117,9 +121,7 @@ Als je een betaald account hebt en je na 14 dagen [niet je rekening hebt betaald
 
 #### :material-information-outline:{ .pg-blue } Aanvullende functionaliteit
 
-Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
-
-Proton Mail heeft geen digitale erfenis functie.
+Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
 
 ### Mailbox.org
 
@@ -127,7 +129,9 @@ Proton Mail heeft geen digitale erfenis functie.
 
 ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
 
-**Mailbox.org** is een e-maildienst gericht op veiligheid, is reclamevrij en wordt 100% mogelijk gemaakt door milieuvriendelijke energie. Ze zijn sinds 2014 in bedrijf. Mailbox.org is gevestigd in Berlijn, Duitsland. Accounts start with up to 2 GB storage, which can be upgraded as needed.
+**Mailbox.org** is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Ze zijn sinds 2014 in bedrijf. Mailbox.org is gevestigd in Berlijn, Duitsland.
+
+Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
 [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
@@ -148,23 +152,23 @@ Mailbox.org lets you use your own domain, and they support [catch-all](https://k
 
 #### :material-check:{ .pg-green } Privé betaalmethoden
 
-Mailbox.org accepteert geen Bitcoin of andere cryptocurrencies als gevolg van het feit dat hun betalingsverwerker BitPay zijn activiteiten in Duitsland heeft opgeschort. However, they do accept cash by mail, cash payment to bank account, bank transfer, credit card, PayPal and a couple of German-specific processors: paydirekt and Sofortüberweisung.
+Mailbox.org accepteert geen Bitcoin of andere cryptocurrencies als gevolg van het feit dat hun betalingsverwerker BitPay zijn activiteiten in Duitsland heeft opgeschort. However, they do accept **cash** by mail, **cash** payment to bank account, bank transfer, credit card, PayPal, and a couple of German-specific processors: Paydirekt and Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Accountbeveiliging
 
-Mailbox.org supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Webstandaarden zoals [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) worden nog niet ondersteund.
+Mailbox.org supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) are not yet supported.
 
 #### :material-information-outline:{ .pg-blue } Gegevensbeveiliging
 
 Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Nieuwe berichten die je ontvangt, worden dan onmiddellijk versleuteld met jouw openbare sleutel.
 
-However, [Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. Een [standalone optie](calendar.md) kan geschikter zijn voor die informatie.
+However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that data.
 
 #### :material-check:{ .pg-green } Email encryptie
 
 Mailbox.org has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox.org's servers. Deze functie is nuttig wanneer de ontvanger op afstand geen OpenPGP heeft en geen kopie van de e-mail in zijn eigen mailbox kan ontsleutelen.
 
-Mailbox.org also supports the discovery of public keys via HTTP from their WKD. Hierdoor kunnen mensen buiten Mailbox.org gemakkelijk de OpenPGP sleutels van Mailbox.org accounts vinden, voor cross-provider E2EE. This only applies to email addresses ending in one of Mailbox.org's own domains, like @mailbox.org. If you use a custom domain, you must [configure WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Mailbox.org also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox.org's own domains, like `@mailbox.org`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
 #### :material-information-outline:{ .pg-blue } Beëindiging van account
 
@@ -176,7 +180,7 @@ You can access your Mailbox.org account via IMAP/SMTP using their [.onion servic
 
 All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org ondersteunt ook [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) naast standaard toegangsprotocollen zoals IMAP en POP3.
 
-Mailbox.org heeft een digitale nalatenschap functie voor alle abonnementen. Je kunt kiezen of je wilt dat jouw gegevens worden doorgegeven aan jouw erfgenamen, mits zij een aanvraag indienen en jouw testament overleggen. Je kunt ook een persoon nomineren met naam en adres.
+Mailbox.org heeft een digitale nalatenschap functie voor alle abonnementen. You can choose whether you want any of your data to be passed to heirs, providing that they apply and provide your testament. Je kunt ook een persoon nomineren met naam en adres.
 
 ## Meer providers
 
@@ -195,7 +199,9 @@ Deze providers slaan je e-mails op met zero-knowledge encryptie, waardoor ze gew
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany. Free accounts start with 1 GB of storage.
+**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany.
+
+Free accounts start with 1 GB of storage.
 
 [:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
@@ -226,7 +232,7 @@ Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and u
 
 #### :material-information-outline:{ .pg-blue } Privé betaalmethodes
 
-Tuta only directly accepts credit cards and PayPal, however [cryptocurrency](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
+Tuta only directly accepts credit cards and PayPal, however [**cryptocurrency**](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
 
 #### :material-check:{ .pg-green } Accountbeveiliging
 
@@ -234,7 +240,7 @@ Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with eit
 
 #### :material-check:{ .pg-green } Gegevensbeveiliging
 
-Tuta has [zero access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). Dit betekent dat de berichten en andere gegevens die in jouw account zijn opgeslagen, alleen door je kunnen worden gelezen.
+Tuta has [zero-access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). Dit betekent dat de berichten en andere gegevens die in jouw account zijn opgeslagen, alleen door je kunnen worden gelezen.
 
 #### :material-information-outline:{ .pg-blue } Email Encryptie
 
@@ -247,8 +253,6 @@ Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-acco
 #### :material-information-outline:{ .pg-blue } extra functionaliteit
 
 Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
-
-Tuta doesn't offer a digital legacy feature.
 
 ## Onze criteria
 
@@ -315,21 +319,22 @@ Wij beschouwen deze kenmerken als belangrijk om een veilige en optimale dienst t
 
 **Minimum om in aanmerking te komen:**
 
-- Versleutelt e-mail accountgegevens in rust met zero-access encryptie.
-- Export capability as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
-- Werkt op eigen infrastructuur, d.w.z. niet gebaseerd op e-mail service providers van derden.
+- Must encrypt email account data at rest with zero-access encryption.
+- Must be capable of exporting emails as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
+- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Aangepaste domeinnamen zijn belangrijk voor gebruikers omdat ze zo hun agentschap van de dienst kunnen behouden, mocht het slecht aflopen of overgenomen worden door een ander bedrijf dat privacy niet hoog in het vaandel heeft staan.
+- Must operate on owned infrastructure, i.e. not built upon third-party email service providers.
 
 **Beste geval:**
 
-- Versleutelt alle accountgegevens (Contacten, Agenda's, etc) in rust met zero-access encryptie.
-- Geïntegreerde webmail E2EE/PGP-codering voor het gemak.
-- Support for WKD to allow improved discovery of public OpenPGP keys via HTTP. GnuPG-gebruikers kunnen een sleutel krijgen door te typen: `gpg --locate-key example_user@example.com`
-- Ondersteuning voor een tijdelijke mailbox voor externe gebruikers. Dit is handig wanneer je een versleutelde e-mail wilt verzenden, zonder een echte kopie naar jouw ontvanger te sturen. Deze e-mails hebben meestal een beperkte levensduur en worden daarna automatisch verwijderd. Zij vereisen ook niet dat de ontvanger cryptografie configureert zoals OpenPGP.
-- Beschikbaarheid van de diensten van de e-mailprovider via een [onion service](https://en.wikipedia.org/wiki/.onion).
-- [Sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing) support.
-- Allows users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Aangepaste domeinnamen zijn belangrijk voor gebruikers omdat ze zo hun agentschap van de dienst kunnen behouden, mocht het slecht aflopen of overgenomen worden door een ander bedrijf dat privacy niet hoog in het vaandel heeft staan.
+- Should encrypt all account data (contacts, calendars, etc.) at rest with zero-access encryption.
+- Should provide integrated webmail E2EE/PGP encryption as a convenience.
+- Should support WKD to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key with this command: `gpg --locate-key example_user@example.com`.
+- Ondersteuning voor een tijdelijke mailbox voor externe gebruikers. This is useful when you want to send an encrypted email without sending an actual copy to your recipient. Deze e-mails hebben meestal een beperkte levensduur en worden daarna automatisch verwijderd. Zij vereisen ook niet dat de ontvanger cryptografie configureert zoals OpenPGP.
+- Should support [sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
+- Should allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Aangepaste domeinnamen zijn belangrijk voor gebruikers omdat ze zo hun agentschap van de dienst kunnen behouden, mocht het slecht aflopen of overgenomen worden door een ander bedrijf dat privacy niet hoog in het vaandel heeft staan.
 - Catch-all or alias functionality for those who use their own domains.
-- Use of standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
+- Should use standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
+- Email provider's services should be available via an [onion service](https://en.wikipedia.org/wiki/.onion).
 
 ### Privacy
 
@@ -337,30 +342,30 @@ Wij geven er de voorkeur aan dat de door ons aanbevolen aanbieders zo weinig mog
 
 **Minimum om in aanmerking te komen:**
 
-- Protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
-- Vereisen geen persoonlijk identificeerbare informatie (PII) naast een gebruikersnaam en een wachtwoord.
-- Privacybeleid dat voldoet aan de vereisten van de GDPR.
+- Must protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
+- Must not require personally identifiable information (PII) besides a username and a password.
+- Privacy policy must meet the requirements defined by the GDPR.
 
 **Beste geval:**
 
-- Accepteert [anonieme betalingsopties](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), contant geld, cadeaukaarten, etc.)
-- Gehost in een jurisdictie met sterke wetgeving ter bescherming van de privacy van e-mails.
+- Should accept [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
+- Should be hosted in a jurisdiction with strong email privacy protection laws.
 
 ### Veiligheid
 
-Email servers verwerken veel zeer gevoelige gegevens. We expect that providers will adopt best industry practices in order to protect their customers.
+Email servers deal with a lot of very sensitive data. We expect that providers will adopt industry best practices in order to protect their customers.
 
 **Minimum om in aanmerking te komen:**
 
-- Bescherming van webmail met 2FA, zoals TOTP.
-- Zero access encryption, which builds on encryption at rest. De provider heeft geen decryptiesleutels voor de gegevens die ze hebben. Dit voorkomt dat een malafide werknemer gegevens lekt waartoe hij toegang heeft, of dat een tegenstander op afstand gegevens vrijgeeft die hij heeft gestolen door ongeoorloofde toegang tot de server te verkrijgen.
+- Protection of webmail with 2FA, such as [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
+- Zero-access encryption, which builds on encryption at rest. De provider heeft geen decryptiesleutels voor de gegevens die ze hebben. Dit voorkomt dat een malafide werknemer gegevens lekt waartoe hij toegang heeft, of dat een tegenstander op afstand gegevens vrijgeeft die hij heeft gestolen door ongeoorloofde toegang tot de server te verkrijgen.
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) ondersteuning.
 - No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
-- Een geldig [MTA-STS](https://tools.ietf.org/html/rfc8461) en [TLS-RPT](https://tools.ietf.org/html/rfc8460) beleid.
+- A server suite preference (optional on TLS 1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
 - Geldig [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) records.
 - Geldige [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) en [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) records.
 - Geldige [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) en [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) records.
-- Zorg voor een correct [DMARC](https://en.wikipedia.org/wiki/DMARC) record en beleid of gebruik [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) voor verificatie. Als DMARC-authenticatie wordt gebruikt, moet het beleid worden ingesteld op `reject` of `quarantine`.
+- Must have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. Als DMARC-authenticatie wordt gebruikt, moet het beleid worden ingesteld op `reject` of `quarantine`.
 - A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
 - [SMTPS](https://en.wikipedia.org/wiki/SMTPS) indiening, ervan uitgaande dat SMTP wordt gebruikt.
 - Beveiligingsnormen voor websites, zoals:
@@ -370,10 +375,10 @@ Email servers verwerken veel zeer gevoelige gegevens. We expect that providers w
 
 **Beste geval:**
 
-- Ondersteuning voor hardware-authenticatie, d.w.z. U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
+- Should support hardware authentication, i.e. U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
 - [DNS Certificatie Autoriteit Autorisatie (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in aanvulling op DANE ondersteuning.
-- Implementation of [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
-- Gepubliceerde veiligheidscontroles van een gerenommeerde derde partij.
+- Should implement [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
+- Published security audits from a reputable, third-party firm.
 - Programma's voor bug-bounty's en/of een gecoördineerd proces voor de openbaarmaking van kwetsbaarheden.
 - Beveiligingsnormen voor websites, zoals:
     - [Inhoud beveiligingsbeleid (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
@@ -381,7 +386,7 @@ Email servers verwerken veel zeer gevoelige gegevens. We expect that providers w
 
 ### Vertrouwen
 
-Je zou je financiën niet toevertrouwen aan iemand met een valse identiteit, dus waarom zou je hen je e-mail toevertrouwen? Wij eisen van onze aanbevolen aanbieders dat zij hun eigendom of leiderschap openbaar maken. Wij zouden ook graag zien dat regelmatig verslag wordt uitgebracht over de transparantie, met name wat betreft de wijze waarop verzoeken van de overheid worden behandeld.
+You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? Wij eisen van onze aanbevolen aanbieders dat zij hun eigendom of leiderschap openbaar maken. Wij zouden ook graag zien dat regelmatig verslag wordt uitgebracht over de transparantie, met name wat betreft de wijze waarop verzoeken van de overheid worden behandeld.
 
 **Minimum om in aanmerking te komen:**
 
@@ -398,19 +403,16 @@ With the email providers we recommend, we like to see responsible marketing.
 **Minimum om in aanmerking te komen:**
 
 - Must self-host analytics (no Google Analytics, Adobe Analytics, etc.).
-
-Must not have any irresponsible marketing, which can include the following:
-
-- Claims van "onbreekbare encryptie." Encryptie moet worden gebruikt met de bedoeling dat zij in de toekomst niet meer geheim is wanneer de technologie bestaat om haar te kraken.
-- Garanties van 100% bescherming van de anonimiteit. Wanneer iemand beweert dat iets 100% is, betekent dit dat er geen zekerheid is voor mislukking. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
-
-    - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
-    - [Browser vingerafdrukken](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+- Must not have any irresponsible marketing, which can include the following:
+    - Claims of "unbreakable encryption." Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
+    - Guarantees of protecting anonymity 100%. When someone makes a claim that something is 100%, it means there is no certainty for failure. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
+        - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software such as Tor
+        - [Browser vingerafdrukken](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **Beste geval:**
 
-- Clear and easy to read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
+- Clear and easy-to-read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
 
 ### Extra functionaliteit
 
-Hoewel het geen strikte vereisten zijn, zijn er nog enkele andere factoren met betrekking tot gemak of privacy die wij in aanmerking hebben genomen bij het bepalen van de aan te bevelen providers.
+While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.

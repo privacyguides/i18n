@@ -132,7 +132,7 @@ If you have a Google account we suggest enrolling in the [Advanced Protection Pr
 
 The Advanced Protection Program provides enhanced threat monitoring and enables:
 
-- Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](https://en.wikipedia.org/wiki/OAuth)
+- Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](../basics/account-creation.md#sign-in-with-oauth)
 - Only Google and verified third-party apps can access account data
 - Scanning of incoming emails on Gmail accounts for [phishing](https://en.wikipedia.org/wiki/Phishing#Email_phishing) attempts
 - Stricter [safe browser scanning](https://google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome
@@ -154,7 +154,9 @@ If you have an EOL device shipped with Android 10 or above and are unable to run
 
 Google Play Servicesがインストールされているすべてのデバイスは、ターゲット広告に使用される[広告 ID](https://support.google.com/googleplay/android-developer/answer/6048248)を自動的に生成します。 この機能を無効にすると、あなたについて収集されるデータを制限できます。
 
-[サンドボックス化されたGoogle Play](https://grapheneos.org/usage#sandboxed-google-play)を備えたAndroid ディストリビューションでは、:gear: **設定** → **アプリ** → **Sandboxed Google Play** → **Google Settings** → **広告**に移動し、*Delete advertising ID*を選択します。
+On Android distributions with [sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), go to :gear: **Settings** → **Apps** → **Sandboxed Google Play** → **Google Settings** → **All services** → **Ads**.
+
+- [x] Select **Delete advertising ID**
 
 On Android distributions with privileged Google Play Services (which includes the stock installation on most devices), the setting may be in one of several locations. Check
 

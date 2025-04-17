@@ -132,7 +132,7 @@ If you have a Google account we suggest enrolling in the [Advanced Protection Pr
 
 高级保护计划提供增强的威胁监控，并支持：
 
-- Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](https://en.wikipedia.org/wiki/OAuth)
+- Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](../basics/account-creation.md#sign-in-with-oauth)
 - 只有谷歌和经过验证的第三方应用程序可以访问账户数据
 - 在 Gmail 帐户上扫描收到的邮件以进行 [钓鱼](https://en.wikipedia.org/wiki/Phishing#Email_phishing) 尝试
 - Stricter [safe browser scanning](https://google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome
@@ -154,7 +154,9 @@ If you have a Google account we suggest enrolling in the [Advanced Protection Pr
 
 All devices with Google Play Services installed automatically generate an [advertising ID](https://support.google.com/googleplay/android-developer/answer/6048248) used for targeted advertising. 禁用此功能以限制收集到的关于你的数据。
 
-在带有 [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play)的安卓发行上，进入 :gear: **设置** → **应用程序** → **Sandboxed Google Play** → **谷歌设置** → **广告**，并选择 *删除广告 ID*。
+On Android distributions with [sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), go to :gear: **Settings** → **Apps** → **Sandboxed Google Play** → **Google Settings** → **All services** → **Ads**.
+
+- [x] Select **Delete advertising ID**
 
 On Android distributions with privileged Google Play Services (which includes the stock installation on most devices), the setting may be in one of several locations. 查看
 

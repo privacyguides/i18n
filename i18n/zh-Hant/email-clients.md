@@ -10,7 +10,7 @@ cover: email-clients.webp
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 - [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
-我們推薦的**電子郵件客戶端**同時支援 [OpenPGP](encryption.md#openpgp) 和比較強的驗證，例如 [Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth)。 OAuth 允許您使用[多因素驗證](basics/multi-factor-authentication.md)，以防止帳號盜用。
+The **email clients** we recommend support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](basics/account-creation.md#sign-in-with-oauth). OAuth 允許您使用[多因素驗證](basics/multi-factor-authentication.md)，以防止帳號盜用。
 
 <details class="warning" markdown>
 <summary>電子郵件不提供前向保密</summary>

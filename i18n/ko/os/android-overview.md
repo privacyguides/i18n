@@ -132,7 +132,7 @@ If you have a Google account we suggest enrolling in the [Advanced Protection Pr
 
 고급 보호 프로그램은 향상된 위협 모니터링 기능을 제공합니다.
 
-- Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](https://en.wikipedia.org/wiki/OAuth)
+- Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](../basics/account-creation.md#sign-in-with-oauth)
 - Google 및 인증된 제3자 앱만이 계정 데이터에 접근 가능
 - Google 계정의 받은 편지함에서 [피싱](https://en.wikipedia.org/wiki/Phishing#Email_phishing) 시도 스캔
 - Stricter [safe browser scanning](https://google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome
@@ -154,7 +154,9 @@ If you have a Google account we suggest enrolling in the [Advanced Protection Pr
 
 All devices with Google Play Services installed automatically generate an [advertising ID](https://support.google.com/googleplay/android-developer/answer/6048248) used for targeted advertising. 이 기능을 비활성화하여 수집되는 데이터를 제한할 수 있습니다.
 
-[Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play)가 존재하는 Android 배포판의 경우, :gear: **Settings** → **Apps** → **Sandboxed Google Play** → **Google Settings** → **Ads**, *Delete advertising ID*를 선택하세요.
+On Android distributions with [sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), go to :gear: **Settings** → **Apps** → **Sandboxed Google Play** → **Google Settings** → **All services** → **Ads**.
+
+- [x] Select **Delete advertising ID**
 
 On Android distributions with privileged Google Play Services (which includes the stock installation on most devices), the setting may be in one of several locations. 확인해보세요.
 

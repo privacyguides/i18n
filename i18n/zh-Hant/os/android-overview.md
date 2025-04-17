@@ -132,7 +132,7 @@ Android 7 及以上版本支援 VPN kill switch，無需安裝第三方應用程
 
 進階防護計劃提供強化的威脅監控，並能夠：
 
-- 更嚴格的雙重認證；例如，**必須**使用 [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online)，且不允許使用 [SMS OTP](../basics/multi-factor-authentication.md#sms-or-email-mfa)、[TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) 和 [OAuth](https://en.wikipedia.org/wiki/OAuth)。
+- Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](../basics/account-creation.md#sign-in-with-oauth)
 - 只有 Google 和經過驗證的第三方應用程式才能存取帳戶資料
 - 掃描 Gmail 帳戶收到的電子郵件，以防[釣魚嘗試](https://en.wikipedia.org/wiki/Phishing#Email_phishing)
 - 使用 Google Chrome 進行更嚴格的[安全瀏覽器掃描](https://google.com/chrome/privacy/whitepaper.html#malware)
@@ -154,7 +154,9 @@ Android 7 及以上版本支援 VPN kill switch，無需安裝第三方應用程
 
 所有安裝 Google Play 服務的裝置都會自動產生 [廣告ID](https://support.google.com/googleplay/android-developer/answer/6048248) ，用於定向廣告。 禁用此功能以限制其收集您的資料。
 
-在具有 [Sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play)的Android 版上，前往 :gear: **設定** → **應用程式** → **Sandboxed Google Play** → **Google 設定** → **廣告**，然後選擇 *刪除廣告ID*。
+On Android distributions with [sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), go to :gear: **Settings** → **Apps** → **Sandboxed Google Play** → **Google Settings** → **All services** → **Ads**.
+
+- [x] Select **Delete advertising ID**
 
 On Android distributions with privileged Google Play Services (which includes the stock installation on most devices), the setting may be in one of several locations. 查看
 

@@ -42,7 +42,7 @@ The Privacy Policy is how the service says they will use your data, and it is wo
 
 #### 邮箱别名
 
-如果你不想把你的真实电子邮件地址提供给一个服务，你可以选择使用一个别名。 我们在我们的电子邮件服务推荐页面上对它们进行了更详细的描述。 本质上，别名服务允许你生成新的电子邮件地址，将所有电子邮件转发到你的主地址。 This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. 这些可以根据它们被发送到的别名自动过滤。
+如果你不想把你的真实电子邮件地址提供给一个服务，你可以选择使用一个别名。 We describe them in more detail on our email services recommendation page. 本质上，别名服务允许你生成新的电子邮件地址，将所有电子邮件转发到你的主地址。 This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. 这些可以根据它们被发送到的别名自动过滤。
 
 如果一项服务被黑客攻击，你可能会开始收到钓鱼或垃圾邮件到你用来注册的地址。 为每项服务使用独特的别名，可以帮助准确识别什么服务被黑。
 
@@ -50,19 +50,19 @@ The Privacy Policy is how the service says they will use your data, and it is wo
 
 ### “通过……登录” (OAuth)
 
-OAuth是一种认证协议，它允许你在不与服务提供商共享太多信息的情况下（如果有的话），通过使用你在另一项服务中已有的账户来注册新服务。 每当你在注册表单上看到类似“通过*提供商名称*登录”的内容时，通常就是在使用OAuth。
+[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth) is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. 每当你在注册表单上看到类似“通过*提供商名称*登录”的内容时，通常就是在使用OAuth。
 
 当你通过OAuth登录时，它会打开一个登录页面，你选择的提供商和你现有的账户以及新账户将会被连接起来。 你的密码不会共享，但一些基本信息通常会共享（你可以在登录请求期间审查它） 每次你想登录同一个账户时，都需要这个过程。
 
 主要的优点是:
 
-- **安全性**：当涉及到存储登录凭证时，你不必信任你正在登录的服务的安全实践，因为这些凭证是存储在外部OAuth提供商那里的。对于像苹果和谷歌这样的服务来说，它们通常遵循最佳的安全实践，持续审计其认证系统，并且不会不适当地存储凭证（例如以明文形式）。
-- **易用性**：多个账户由一个登录账号管理。
+- **Security**: You don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials because they are stored with the external OAuth provider. Common OAuth providers like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
+- **Ease-of-use**: Multiple accounts are managed by a single login.
 
 但也有弊端:
 
-- **隐私**：你使用的OAuth提供商将知道你使用的服务。
-- **集中化**：如果你用于OAuth的账户被泄露，或者你无法登录该账户，所有与之连接的其他账户都会受到影响。
+- **Privacy**: The OAuth provider you log in with will know the services you use.
+- **Centralization**: If the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
 
 OAuth在需要服务之间更深入整合的情况下特别有用。 我们的建议是仅在需要时使用OAuth，并始终使用多因素认证 [MFA](multi-factor-authentication.md) 保护主账户。
 

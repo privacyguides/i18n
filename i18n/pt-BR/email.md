@@ -22,19 +22,19 @@ O "email" é praticamente uma necessidade para usar qualquer serviço “online�
 
 Para qualquer outra coisa, recomendamos uma variedade de provedores de email baseados em modelos de negócio sustentáveis e recursos de segurança e privacidade incorporados. Leia nossa [lista completa de requisitos](#criteria) para mais informações.
 
-| Provedor                    | OpenPGP / WKD                          | IMAP / SMTP                                                    | Criptografia de Acesso Zero                            | Pagamentos anônimos           |
-| --------------------------- | -------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------ | ----------------------------- |
-| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Planos pagos apenas | :material-check:{ .pg-green }                          | Dinheiro                      |
-| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                  | :material-information-outline:{ .pg-blue } Mail apenas | Dinheiro                      |
-| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                         | :material-check:{ .pg-green }                          | Monero & Cash via third-party |
+| Provedor                    | OpenPGP / WKD                          | IMAP / SMTP                                                    | Zero-Access Encryption                                 | Anonymous Payment Methods             |
+| --------------------------- | -------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------- |
+| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Planos pagos apenas | :material-check:{ .pg-green }                          | Dinheiro                              |
+| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                  | :material-information-outline:{ .pg-blue } Mail apenas | Dinheiro                              |
+| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                         | :material-check:{ .pg-green }                          | Monero <br>Cash via third party |
 
-Além de (ou ao invés de) um provedor de e-mail recomendado aqui, você pode considerar um serviço de aliasing [e-mail dedicado](email-aliasing.md) para proteger sua privacidade. Entre outras coisas, esses serviços podem ajudar a proteger sua caixa de entrada real contra spam, impedir que marketeiros correlacionem suas contas, e criptografia de todas as mensagens recebidas com PGP.
+In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md#recommended-providers) to protect your privacy. Entre outras coisas, esses serviços podem ajudar a proteger sua caixa de entrada real contra spam, impedir que marketeiros correlacionem suas contas, e criptografia de todas as mensagens recebidas com PGP.
 
 - [Saiba mais :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## Serviços Compatíveis com OpenPGP
 
-These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic E2EE emails. Por exemplo, um usuário do Proton Mail pode mandar uma mensagem E2E para um usuário de Mailbox.org, ou você pode receber notificações criptografadas por OpenPGP de serviços de internet que suportam isso.
+These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic end-to-end encrypted emails. Por exemplo, um usuário do Proton Mail pode mandar uma mensagem E2E para um usuário de Mailbox.org, ou você pode receber notificações criptografadas por OpenPGP de serviços de internet que suportam isso.
 
 <div class="grid cards" markdown>
 
@@ -48,7 +48,9 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 
 Ao usar a tecnologia E2EE, como o OpenPGP, seu e-mail ainda terá alguns metadados que não são criptografados no cabeçalho do e-mail, geralmente incluindo a linha de assunto! Leia mais sobre [metadados de e-mail](basics/email-security.md#email-metadata-overview).
 
-OpenPGP também não suporta Encaminhamento Sigiloso, isso significa que se a sua chave ou a do destinatário é alguma vez roubada, todas as mensagens anteriores encriptadas com essa chave serão expostas. [Como eu protejo minhas chaves privadas?](basics/email-security.md#how-do-i-protect-my-private-keys)
+OpenPGP also does not support forward secrecy, which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed.
+
+- [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 </div>
 
@@ -58,7 +60,9 @@ OpenPGP também não suporta Encaminhamento Sigiloso, isso significa que se a su
 
 ![logo do Proton Mail](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** é um serviço de email com foco na privacidade, criptografia, segurança, e facilidade de uso. Eles estão operando desde 2013. A Proton AG está sedeada em Genebra, na Suíça. O plano gratuito da Proton Mail eletrônico tem 500 MB de armazenamento com a possibilidade de expansão até 1 GB
+**Proton Mail** é um serviço de email com foco na privacidade, criptografia, segurança, e facilidade de uso. Eles estão operando desde 2013. A Proton AG está sedeada em Genebra, na Suíça.
+
+The Proton Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
 
 [:octicons-home-16: Página inicial](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Serviço Onion" }
@@ -81,9 +85,9 @@ OpenPGP também não suporta Encaminhamento Sigiloso, isso significa que se a su
 
 </div>
 
-Contas gratuitas têm algumas limitações, como não poderem pesquisar no corpo de texto e não ter acesso à [Ponte Proton Mail](https://proton.me/mail/bridge), o que é requerido para usar um [cliente de email desktop recomendado](email-clients.md) (ex. Thunderbird). Contas pagas incluem funcionalidades como a Ponte Proton Mail, mais armazenamento, e suporte para domínios customizados. Um [certificado de segurança](https://proton.me/blog/security-audit-all-proton-apps) foi concedido para os aplicativos do Proton Mail em 9 de Novembro de 2021 pela [Securitium](https://research.securitum.com).
+Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g., Thunderbird). Contas pagas incluem funcionalidades como a Ponte Proton Mail, mais armazenamento, e suporte para domínios customizados. Se você tem o Proton Unlimited, Bussiness, ou Visionary Plan, você também ganha o [SimpleLogin](#simplelogin) Premium de graça.
 
-Se você tem o Proton Unlimited, Bussiness, ou Visionary Plan, você também ganha o [SimpleLogin](#simplelogin) Premium de graça.
+Um [certificado de segurança](https://proton.me/blog/security-audit-all-proton-apps) foi concedido para os aplicativos do Proton Mail em 9 de Novembro de 2021 pela [Securitium](https://research.securitum.com).
 
 O Proton Mail tem relatórios internos de travamento que eles **não** compartilham com terceiros. Isso pode ser desativado no aplicativo Web: :gear: → **Todas as configurações** → **Conta** → **Segurança e privacidade** → **Privacidade e coleta de dados**.
 
@@ -93,7 +97,7 @@ Assinantes pagos do Proton Mail podem usar seu próprio domínio com o serviço 
 
 #### :material-check:{ .pg-green } Métodos de Pagamento Privados
 
-Proton Mail [aceita](https://proton.me/support/payment-options) dinheiro por correio, para além dos pagamentos normais com cartão de crédito/débito, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) e PayPal.
+Proton Mail [accepts](https://proton.me/support/payment-options) **cash** by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments.
 
 #### :material-check:{ .pg-green } Segurança da Conta
 
@@ -109,7 +113,7 @@ Certas informações armazenadas no [Proton Contacts](https://proton.me/support/
 
 Proton Mail [tem criptografia OpenPGP integrada](https://proton.me/support/how-to-use-pgp) em seu webmail. E-mails para outras contas do Proton Mail são criptografados automaticamente, e criptografia para endereços não-Proton Mail com uma chave OpenPGP pode ser facilmente ativada nas configurações da sua conta. Proton also supports automatic external key discovery with WKD. Isso significa que os e-mails enviados a outros provedores que usam o WKD também serão criptografados automaticamente com o OpenPGP, sem a necessidade de trocar manualmente chaves PGP públicas com seus contatos. Eles também permitem que você [criptografe mensagens para endereços não-Proton Mail](https://proton.me/support/password-protected-emails) sem a necessidade de eles se cadastrarem com uma conta Proton Mail ou usar programas como OpenPGP.
 
-O Proton Mail também publica as chaves públicas das contas Proton via HTTP a partir de seu WKD. Isso permite que as pessoas que não usam o Proton Mail encontrem as chaves OpenPGP de contas Proton Mail facilmente, para criptografia ponta-a-ponta (E2EE) entre provedores. Isso só se aplica aos endereços de e-mail que terminam em um dos domínios da própria ProtonMail, como @proton.me. Se você usar um domínio personalizado, deverá [configurar o WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separadamente.
+O Proton Mail também publica as chaves públicas das contas Proton via HTTP a partir de seu WKD. This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Proton's own domains, like `@proton.me`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
 #### :material-information-outline:{ .pg-blue } Rescisão da Conta
 
@@ -117,9 +121,7 @@ Se você tiver uma conta paga e sua conta [não for paga](https://proton.me/supp
 
 #### :material-information-outline:{ .pg-blue } Funcionalidades Adicionais
 
-O plano [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) do Proton Mail também garante acesso a outros serviços da Proton, além de fornecer vários domínios personalizados, *aliases* (endereços de redirecionamento) ilimitados do tipo *hide-my-email* (camufle meu endereço de email) e 500 GB de armazenamento.
-
-O Proton Mail não oferece um recurso de legado digital.
+Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
 
 ### Mailbox.org
 
@@ -127,7 +129,9 @@ O Proton Mail não oferece um recurso de legado digital.
 
 ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
 
-O **Mailbox.org** é um serviço de e-mail que se concentra em ser seguro, livre de anúncios e alimentado de forma privada por energia 100% ecológica. Eles estão operando desde 2014. Mailbox.org é sediado em Berlim, Alemanha. As contas têm a o armazenamento de 2GB em seu plano inicial, que pode ser atualizado se necessário.
+**Mailbox.org** is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Eles estão operando desde 2014. Mailbox.org é sediado em Berlim, Alemanha.
+
+Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
 [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
@@ -148,23 +152,23 @@ O Mailbox.org permite que você use seu próprio domínio e oferece suporte a en
 
 #### :material-check:{ .pg-green } Métodos de Pagamento Privados
 
-Mailbox.org não aceita nenhuma criptomoeda como resultado do seu processador de pagamentos BitPay ter suspendido as operações na Alemanha. No entanto, eles aceitam transações pelos correios, pagamento físico para bancos, transferências bancárias, transações via Papal e serviços financeiros específicos da Alemanha como Pandeireta e Sofortuberweisung.
+Mailbox.org não aceita nenhuma criptomoeda como resultado do seu processador de pagamentos BitPay ter suspendido as operações na Alemanha. However, they do accept **cash** by mail, **cash** payment to bank account, bank transfer, credit card, PayPal, and a couple of German-specific processors: Paydirekt and Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Segurança da Conta
 
-A Mailbox.org suporta autenticação em dois fatores  [(2FA)](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) apenas para o webmail. Você pode usar o TOTP ou uma [YubiKey](https://en.wikipedia.org/wiki/YubiKey) por meio do [YubiCloud](https://yubico.com/products/services-software/yubicloud). Padrões da Web como [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) ainda não são suportados.
+A Mailbox.org suporta autenticação em dois fatores  [(2FA)](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) apenas para o webmail. Você pode usar o TOTP ou uma [YubiKey](https://en.wikipedia.org/wiki/YubiKey) por meio do [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) are not yet supported.
 
 #### :material-information-outline:{ .pg-blue } Segurança dos Dados
 
 Mailbox.org permite criptografia de e-mails recebidos usando sua [caixa de correio criptografada](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Novas mensagens que você receber serão imediatamente criptografadas com a sua chave pública.
 
-No entanto, [o Open-Exchange](https://en.wikipedia.org/wiki/Open-Xchange), a plataforma de software usada pelo Mailbox.org, [não oferece suporte à](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) criptografia do seu catálogo de endereços e calendário. Uma [opção autônoma](calendar.md) pode ser mais apropriada para essas informações.
+However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that data.
 
 #### :material-check:{ .pg-green } Criptografia do Email
 
 Mailbox.org tem [criptografia integrada](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) em seu webmail, o que simplifica o envio de mensagens para pessoas com chaves OpenPGP públicas. Eles também permitem que [destinatários remotos descriptografem um e-mail](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) nos servidores do Mailbox.org. Esse recurso é útil quando o destinatário remoto não tem OpenPGP e não pode descriptografar uma cópia do e-mail em sua própria caixa de correio.
 
-Mailbox.org also supports the discovery of public keys via HTTP from their WKD. Isso permite que pessoas fora do Mailbox.org encontrem as chaves OpenPGP de contas Mailbox.org facilmente, para criptografia ponta-a-ponta (E2EE) entre provedores. Isso só se aplica aos endereços de e-mail que terminam em um dos domínios da própria Mailbox, como @mailbox.org. Se você usar um domínio personalizado, deverá [configurar o WKD](./basics/email-security.md#what-is-the-web-key-directory-standard) separadamente.
+Mailbox.org also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox.org's own domains, like `@mailbox.org`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
 #### :material-information-outline:{ .pg-blue } Rescisão da Conta
 
@@ -176,7 +180,7 @@ Você pode acessar sua conta do Mailbox.org via IMAP/SMTP usando o [ serviço .o
 
 Todas as contas vêm com armazenamento limitado na nuvem que [pode ser criptografado](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org também oferece o pseudônimo [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), que impõe a criptografia TLS na conexão entre os servidores de email, caso contrário, a mensagem não será enviada. Mailbox.org também suporta [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync), além dos protocolos de acesso padrão como IMAP e POP3.
 
-Mailbox.org tem um recurso de legado digital para todos os planos. Você pode escolher se quer que os seus dados sejam transmitidos aos seus herdeiros, desde que estes o solicitem e apresentem o seu testamento. Como alternativa, você pode nomear uma pessoa através do seu nome e endereço.
+Mailbox.org tem um recurso de legado digital para todos os planos. You can choose whether you want any of your data to be passed to heirs, providing that they apply and provide your testament. Como alternativa, você pode nomear uma pessoa através do seu nome e endereço.
 
 ## Mais Provedores
 
@@ -195,7 +199,9 @@ Estes provedores armazenam os seus e-mails com criptografia de conhecimento zero
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (anteriormente *Tutanota*) é um serviço de e-mail com foco na segurança e privacidade por meio do uso de criptografia. Tutá está em funcionamento desde 2011 e está com sede em Hanover, Alemanha. Contas gratuitas com 1GB de armazenamento.
+**Tuta** (anteriormente *Tutanota*) é um serviço de e-mail com foco na segurança e privacidade por meio do uso de criptografia. Tutá está em funcionamento desde 2011 e está com sede em Hanover, Alemanha.
+
+Free accounts start with 1 GB of storage.
 
 [:octicons-home-16: Página inicial](https://firefox.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Política de privacidade" }
@@ -226,7 +232,7 @@ Contas pagas da Tuta podem usar 15 ou 30 pseudônimos, dependendo do plano, e ps
 
 #### :material-information-outline:{ .pg-blue } Métodos de Pagamento Privados
 
-A Tuta só aceita diretamente cartões de crédito e PayPal, mas [criptomoedas](cryptocurrency.md) pode ser usada como método de pagamento para adquirir cartões-presente através de uma [parceria](https://tuta.com/support/#cryptocurrency) com a Proxystore.
+Tuta only directly accepts credit cards and PayPal, however [**cryptocurrency**](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
 
 #### :material-check:{ .pg-green } Segurança da Conta
 
@@ -234,7 +240,7 @@ Também há  suporte à [autenticação de dois fatores](https://tuta.com/suppor
 
 #### :material-check:{ .pg-green } Segurança dos Dados
 
-O Tuta tem [criptografia de acesso zero em repouso](https://tuta.com/support#what-encrypted) para seus e-mails, [contatos do catálogo de endereços](https://tuta.com/support#encrypted-address-book) e [calendários](https://tuta.com/support#calendar). Isso significa que as mensagens e outros dados armazenados em sua conta só são legíveis por você.
+Tuta has [zero-access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). Isso significa que as mensagens e outros dados armazenados em sua conta só são legíveis por você.
 
 #### :material-information-outline:{ .pg-blue } Criptografia do Email
 
@@ -247,8 +253,6 @@ A Tuta excluirá [as contas gratuitas inativas](https://tuta.com/support#inactiv
 #### :material-information-outline:{ .pg-blue } Funcionalidades Adicionais
 
 Tuta oferece a versão comercial do [Tuta para organizações sem fins lucrativos](https://tuta.com/blog/secure-email-for-non-profit) de graça ou com desconto.
-
-O Tuta não oferece um recurso de legado digital.
 
 ## Email Auto-Hospedado
 
@@ -315,21 +319,22 @@ Consideramos esses recursos importantes para fornecer um serviço seguro e otimi
 
 **Mínimo Para Qualificação:**
 
-- Criptografa os dados da conta de e-mail em repouso com criptografia de acesso zero.
-- Função "Exportar como" para os formatos [Mbox](https://en.wikipedia.org/wiki/Mbox) ou arquivos .eml individuais no padrão [RFC5322](https://datatracker.ietf.org/doc/rfc5322).
-- Opera em uma infraestrutura própria, ou seja, não é baseada em provedores de serviços de e-mail de terceiros.
+- Must encrypt email account data at rest with zero-access encryption.
+- Must be capable of exporting emails as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
+- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Nomes de domínio personalizados são importantes para os usuários, porque lhes permite manter sua agência a partir do serviço. Deve piorar ou ser adquirido por outra empresa que não priorize a privacidade.
+- Must operate on owned infrastructure, i.e. not built upon third-party email service providers.
 
 **Melhor Caso:**
 
-- Criptografa todos os dados da conta (contatos, calendários, etc.) em repouso com criptografia de acesso zero.
-- Criptografia E2EE/PGP integrada de webmail fornecido como conveniência.
-- Support for WKD to allow improved discovery of public OpenPGP keys via HTTP. Usuários do GnuPG podem obter uma chave digitando: `gpg --locate-key example_user@example.com`
-- Suporte para uma caixa de correio temporária para usuários externos. Isso é útil quando você deseja enviar um e-mail criptografado sem enviar uma cópia real para o seu destinatário. Estes e-mails geralmente têm um tempo de vida limitado e depois são automaticamente excluídos. Eles também não exigem que o destinatário configure nenhuma criptografia, como o OpenPGP.
-- Disponibilidade do site do provedor de serviços de e-mail em um [serviço onion](https://en.wikipedia.org/wiki/.onion).
-- Suporte a [subendereçamento](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
-- Allows users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Nomes de domínio personalizados são importantes para os usuários, porque lhes permite manter sua agência a partir do serviço. Deve piorar ou ser adquirido por outra empresa que não priorize a privacidade.
+- Should encrypt all account data (contacts, calendars, etc.) at rest with zero-access encryption.
+- Should provide integrated webmail E2EE/PGP encryption as a convenience.
+- Should support WKD to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key with this command: `gpg --locate-key example_user@example.com`.
+- Suporte para uma caixa de correio temporária para usuários externos. This is useful when you want to send an encrypted email without sending an actual copy to your recipient. Estes e-mails geralmente têm um tempo de vida limitado e depois são automaticamente excluídos. Eles também não exigem que o destinatário configure nenhuma criptografia, como o OpenPGP.
+- Should support [sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
+- Should allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Nomes de domínio personalizados são importantes para os usuários, porque lhes permite manter sua agência a partir do serviço. Deve piorar ou ser adquirido por outra empresa que não priorize a privacidade.
 - Catch-all or alias functionality for those who use their own domains.
-- Use of standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
+- Should use standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
+- Email provider's services should be available via an [onion service](https://en.wikipedia.org/wiki/.onion).
 
 ### Privacidade
 
@@ -337,30 +342,30 @@ Preferimos que nossos provedores recomendados coletem o mínimo possível de dad
 
 **Mínimo Para Qualificação:**
 
-- Protege o endereço IP do remetente, o que pode envolver a filtragem de sua exibição no campo de cabeçalho `Received`.
-- Não exige informações de identificação pessoal (PII) além de um nome de usuário e uma senha.
-- Política de privacidade que atende aos requisitos definidos pelo GDPR.
+- Must protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
+- Must not require personally identifiable information (PII) besides a username and a password.
+- Privacy policy must meet the requirements defined by the GDPR.
 
 **Melhor Caso:**
 
-- Aceita [opções de pagamento anônimas](advanced/payments.md) ([criptomoedas](cryptocurrency.md), dinheiro, cartões-presente, etc.)
-- Hospedado em uma jurisdição com fortes leis de proteção de privacidade de e-mail.
+- Should accept [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
+- Should be hosted in a jurisdiction with strong email privacy protection laws.
 
 ### Segurança
 
-Os servidores de e-mail lidam com uma grande quantidade de dados muito confidenciais. Esperamos que os provedores adotem as melhores práticas do setor para proteger seus clientes.
+Email servers deal with a lot of very sensitive data. We expect that providers will adopt industry best practices in order to protect their customers.
 
 **Mínimo Para Qualificação:**
 
-- Proteção do webmail com 2FA, como TOTP.
-- Criptografia de acesso zero, que se baseia na criptografia em repouso. O provedor não tem as chaves de descriptografia dos dados que possui. Isso evita que um funcionário desonesto vaze os dados aos quais tem acesso ou que um adversário remoto libere os dados que roubou ao obter acesso não autorizado ao servidor.
+- Protection of webmail with 2FA, such as [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
+- Zero-access encryption, which builds on encryption at rest. O provedor não tem as chaves de descriptografia dos dados que possui. Isso evita que um funcionário desonesto vaze os dados aos quais tem acesso ou que um adversário remoto libere os dados que roubou ao obter acesso não autorizado ao servidor.
 - Suporte a [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions).
 - Nenhum erro ou vulnerabilidade de TLS ao ser analisado por ferramentas como [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh) ou [Qualys SSL Labs](https://ssllabs.com/ssltest); isso inclui erros relacionados a certificados e parâmetros DH fracos, como os que levaram ao [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
-- Uma preferência de suite de servidor (opcional em TLSv1.3) para suites de cifragem fortes que suportam encaminhamento de sigilo e criptografia autenticada.
+- A server suite preference (optional on TLS 1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
 - Uma política válida de [MTA-STS](https://tools.ietf.org/html/rfc8461) e [TLS-RPT](https://tools.ietf.org/html/rfc8460).
 - Registros [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) válidos.
 - Registros [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) e [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) válidos.
-- Tenha um registro e uma política [DMARC](https://en.wikipedia.org/wiki/DMARC) adequados ou use o [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) para autenticação. Se a autenticação DMARC estiver sendo usada, a política deve ser definida como `rejeitar` ou `em quarentena`.
+- Must have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. Se a autenticação DMARC estiver sendo usada, a política deve ser definida como `rejeitar` ou `em quarentena`.
 - Uma preferência de suíte de servidor de TLS 1.2 ou posterior e um plano para [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
 - Envio [SMTPS](https://en.wikipedia.org/wiki/SMTPS), assumindo que o SMTP seja usado.
 - Padrões de segurança do site, como:
@@ -370,10 +375,10 @@ Os servidores de e-mail lidam com uma grande quantidade de dados muito confidenc
 
 **Melhor Caso:**
 
-- Suporte para autenticação de hardware, isto é. U2F e [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
+- Should support hardware authentication, i.e. U2F e [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
 - [Registro de recurso de autorização de autoridade de certificação (CAA) do DNS](https://tools.ietf.org/html/rfc6844), além do suporte a DANE.
-- Implementação do [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), que é útil para pessoas que postam em listas de discussão [RFC8617](https://tools.ietf.org/html/rfc8617).
-- Auditorias de segurança publicadas por uma empresa terceirizada de boa reputação.
+- Should implement [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
+- Published security audits from a reputable, third-party firm.
 - Programas de recompensa por bugs e/ou um processo coordenado de divulgação de vulnerabilidades.
 - Padrões de segurança do site, tais como:
     - [Política de segurança de conteúdo (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
@@ -381,36 +386,33 @@ Os servidores de e-mail lidam com uma grande quantidade de dados muito confidenc
 
 ### Confiança
 
-Você não confiaria suas finanças a alguém com uma identidade falsa, então por que confiar seu e-mail a essa pessoa? Exigimos que nossos provedores recomendados sejam transparentes quanto a seus proprietários ou lideranças. Também esperamos ver relatórios de transparência frequentes, especialmente com relação à forma como as solicitações do governo são tratadas.
+You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? Exigimos que nossos provedores recomendados sejam transparentes quanto a seus proprietários ou lideranças. Também esperamos ver relatórios de transparência frequentes, especialmente com relação à forma como as solicitações do governo são tratadas.
 
 **Mínimo Para Qualificação:**
 
 - Liderança ou propriedade voltada para o público.
 
-**Cenário ideal:**
+**Melhor Caso:**
 
 - Relatórios de transparência frequentes.
 
 ### Marketing
 
-Com os provedores de e-mail que recomendamos, gostamos de ver um marketing responsável.
+With the email providers we recommend, we like to see responsible marketing.
 
-**Mínimo para Qualificação:**
+**Mínimo Para Qualificação:**
 
-- Precisa precis ter um serviço de auto-hospedagem de seus dados estatísticos (sem Google Analytics, Adobe Analytics, etc. ).
-
-Não deve haver qualquer marketing irresponsável, o que pode incluir o seguinte:
-
-- Alegações de "criptografia inquebrável" A criptografia deve ser utilizada com a intenção de não ser secreta no futuro quando a tecnologia para quebra-lá existir.
-- Garantir 100% de proteção ao anonimato. Quando alguém afirma que algo é 100%, significa que não há certeza de fracasso. Sabemos que as pessoas podem facilmente se desanonimizar de várias maneiras, por exemplo:
-
-    - Reutilização de informações pessoais, por exemplo, (contas de e-mail, pseudônimos exclusivos etc.) que eles acessaram sem software de anonimato (Tor, I2P, VPN etc.)
-    - [Impressão digital do navegador](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+- Must self-host analytics (no Google Analytics, Adobe Analytics, etc.).
+- Must not have any irresponsible marketing, which can include the following:
+    - Claims of "unbreakable encryption." Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
+    - Guarantees of protecting anonymity 100%. When someone makes a claim that something is 100%, it means there is no certainty for failure. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
+        - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software such as Tor
+        - [Impressão digital do navegador](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **Melhor Caso:**
 
-- Limpar e ler facilmente a documentação de tarefas como a configuração do 2FA, clientes de e-mail, OpenPGP, etc.
+- Clear and easy-to-read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
 
 ### Funções Adicionais
 
-Embora não sejam requisitos estritos, há outros fatores de conveniência ou privacidade que analisamos ao determinar quais provedores recomendar.
+While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.

@@ -42,7 +42,7 @@ Vous serez responsable de la gestion de vos identifiants de connexion. Pour plus
 
 #### Alias d'e-mail
 
-Si vous ne voulez pas donner votre véritable adresse e-mail à un service, vous avez la possibilité d'utiliser un alias. Nous les avons décrits plus en détail sur notre page de recommandation des services d'e-mail. Essentiellement, les services d'alias vous permettent de créer de nouvelles adresses e-mail qui transmettent tous les courriers à votre adresse principale. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. Ceux-ci peuvent être filtrés automatiquement en fonction de l'alias auquel ils sont envoyés.
+Si vous ne voulez pas donner votre véritable adresse e-mail à un service, vous avez la possibilité d'utiliser un alias. We describe them in more detail on our email services recommendation page. Essentiellement, les services d'alias vous permettent de créer de nouvelles adresses e-mail qui transmettent tous les courriers à votre adresse principale. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. Ceux-ci peuvent être filtrés automatiquement en fonction de l'alias auquel ils sont envoyés.
 
 Si un service est piraté, vous pouvez commencer à recevoir des e-mails d'hameçonnage ou de spam à l'adresse que vous avez utilisée pour vous inscrire. L'utilisation d'alias uniques pour chaque service peut aider à identifier exactement quel service a été piraté.
 
@@ -50,19 +50,19 @@ Si un service est piraté, vous pouvez commencer à recevoir des e-mails d'hame�
 
 ### "Se connecter avec..." (OAuth)
 
-OAuth est un protocole d'authentification qui vous permet de vous inscrire à un service sans partager beaucoup d'informations avec le fournisseur de services, le cas échéant, en utilisant un compte existant que vous avez avec un autre service à la place. Chaque fois que vous voyez quelque chose du type "Se connecter avec *nom du fournisseur*" sur un formulaire d'inscription, c'est généralement qu'il utilise OAuth.
+[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth) is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Chaque fois que vous voyez quelque chose du type "Se connecter avec *nom du fournisseur*" sur un formulaire d'inscription, c'est généralement qu'il utilise OAuth.
 
 Lorsque vous vous connectez avec OAuth, une page de connexion s'ouvre avec le fournisseur que vous avez choisi, et votre compte existant et votre nouveau compte seront connectés. Votre mot de passe ne sera pas communiqué, mais certaines informations de base le seront généralement (vous pouvez les consulter lors de la demande de connexion). Ce processus est nécessaire chaque fois que vous voulez vous connecter au même compte.
 
 Les principaux avantages sont les suivants :
 
-- **Sécurité** : vous n'avez pas à vous fier aux pratiques de sécurité du service auquel vous vous connectez lorsqu'il s'agit de stocker vos identifiants de connexion, car ils sont stockés chez le fournisseur OAuth externe, qui, lorsqu'il s'agit de services comme Apple et Google, suit généralement les meilleures pratiques de sécurité, audite en permanence ses systèmes d'authentification et ne stocke pas les identifiants de manière inappropriée (par exemple en texte clair).
-- **Facilité d'utilisation** : plusieurs comptes sont gérés par un seul login.
+- **Security**: You don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials because they are stored with the external OAuth provider. Common OAuth providers like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
+- **Ease-of-use**: Multiple accounts are managed by a single login.
 
 Mais il y a des inconvénients :
 
-- **Vie privée** : le fournisseur OAuth avec lequel vous vous connectez connaîtra les services que vous utilisez.
-- **Centralisation** : si le compte que vous utilisez pour OAuth est compromis ou si vous n'êtes pas en mesure de vous y connecter, tous les autres comptes qui y sont connectés sont affectés.
+- **Privacy**: The OAuth provider you log in with will know the services you use.
+- **Centralization**: If the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
 
 L'OAuth peut être particulièrement utile dans les situations où vous pourriez bénéficier d'une intégration plus poussée entre les services. Nous recommandons de limiter l'utilisation d'OAuth aux seuls cas où vous en avez besoin et de toujours protéger le compte principal à l'aide de [MFA](multi-factor-authentication.md).
 

@@ -2,42 +2,42 @@
 *[ADB]: Android Debug Bridge
 *[AOSP]: Android Open Source Project
 *[ATA]: Advanced Technology Attachment
-*[attack surface]: The total number of possible entry points for unauthorized access to a system.
+*[attack surface]: The total number of possible entry points for unauthorized access to a system
 *[AVB]: Android Verified Boot
 *[cgroups]: Kelompok Kontrol
 *[CLI]: Antarmuka Baris Perintah
 *[CSV]: Nilai yang Dipisahkan dengan Koma
 *[CVE]: Common Vulnerabilities and Exposures
-*[pola gelap]: A deceptive design pattern intended to trick a user into taking certain actions.
-*[digital legacy]: A feature that allows you to give other people access to your data when you die.
+*[pola gelap]: A deceptive design pattern intended to trick a user into doing things
+*[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: Domain Name System
 *[DoH]: DNS over HTTPS
 *[DoQ]: DNS melalui QUIC
 *[DoH3]: DNS melalui HTTP/3
 *[DoT]: DNS melalui TLS
-*[DPI]: Deep Packet Inspection
+*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
 *[E2EE]: Enkripsi Ujung ke Ujung/Terenkripsi
 *[ECS]: Subnet Klien EDNS
 *[EEA]: Wilayah Ekonomi Eropa
-*[entropi]: A measurement of how unpredictable something is.
+*[entropi]: A measurement of how unpredictable something is
 *[EOL]: Akhir Masa Pakai
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: Full Disk Encryption
 *[FIDO]: Fast IDentity Online (Identitas Daring Cepat)
 *[FS]: Forward Secrecy
-*[fork]: A new software project created by copying an existing project and adding to it independently.
+*[fork]: A new software project created by copying an existing project and adding to it independently
 *[GDPR]: Peraturan Perlindungan Data Umum (Uni Eropa)
 *[GPG]: GNU Privacy Guard (implementasi PGP)
 *[GPS]: Global Positioning System
 *[GUI]: Graphical User Interface
 *[GnuPG]: GNU Privacy Guard (implementasi PGP)
 *[HDD]: Penyimpanan Hard Disk
-*[HOTP]: HMAC (Hash-based Message Authentication Code)-based One-Time Password
+*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
 *[HTTPS]: Hypertext Transfer Protocol Secure
 *[HTTP]: Protokol Transfer Hiperteks
-*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems.
+*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
 *[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: Internet Message Access Protocol
 *[IMEI]: Identitas Peralatan Seluler Internasional
@@ -49,19 +49,22 @@
 *[ISPs]: Penyedia Layanan Internet
 *[JNI]: Antarmuka Asli Java
 *[KYC]: Kenali Pelanggan Anda
-*[LUKS]: Linux Unified Key Setup (full disk encryption)
+*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
+*[LLMs]: Large Language Models (AI models such as ChatGPT)
+*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
 *[MAC]: Kontrol Akses Media
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Pengidentifikasi Peralatan Seluler
 *[MFA]: Autentikasi Multifaktor
-*[NVMe]: Non-Volatile Memory Express
-*[NAT]: Network Address Translation
-*[NAT-PMP]: NAT (Network Address Translation) Port Mapping Protocol
+*[NVMe]: Nonvolatile Memory Express
+*[NAT]: Network address translation
+*[NAT-PMP]: NAT Port Mapping Protocol
 *[NTP]: Protokol Waktu Jaringan
 *[OCI]: Inisiatif Kontainer Terbuka
 *[OCSP]: Protokol Status Sertifikat Daring
 *[OEM]: Produsen Peralatan Asli
 *[OEMs]: Produsen Peralatan Asli
+*[open-weights]: An open weights-model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
 *[OS]: Sistem Operasi
 *[OTP]: Kata Sandi Sekali Pakai
 *[OTPs]: Kata Sandi Sekali Pakai
@@ -69,12 +72,12 @@
 *[P2P]: Peer-to-Peer
 *[PAM]: Modul Otentikasi Linux yang Dapat Dicolokkan
 *[POP3]: Protokol Kantor Pos 3
-*[PGP]: Pretty Good Privacy
+*[PGP]: Pretty Good Privacy (see OpenPGP)
 *[PII]: Informasi Identifikasi Pribadi
 *[QNAME]: Nama yang Memenuhi Syarat
-*[QUIC]: A network protocol that is based on UDP, but aims to combine the speed of UDP with the reliability of TCP.
+*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
 *[rate limits]: Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time.
-*[rilis bergulir]: Updates which are released frequently rather than at set intervals.
+*[rilis bergulir]: Updates which are released frequently rather than set intervals
 *[RSS]: Really Simple Syndication
 *[SELinux]: Linux yang Ditingkatkan Keamanannya
 *[SIM]: Modul Identitas Pelanggan
@@ -83,10 +86,12 @@
 *[SNI]: Indikasi Nama Server
 *[SSD]: Solid-State Drive
 *[SSH]: Secure Shell
-*[SUID]: Set User Identity
+*[SUID]: Set Owner User ID
 *[SaaS]: Perangkat lunak sebagai layanan (perangkat lunak awan)
 *[SoC]: Sistem pada Chip
-*[SSO]: Single Sign-On
+*[SSO]: Single sign-on
+*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
+*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
 *[TCP]: Protokol Kontrol Transmisi
 *[TEE]: Lingkungan Eksekusi Terpercaya
 *[TLS]: Keamanan Lapisan Transportasi

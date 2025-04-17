@@ -132,7 +132,7 @@ Se hai un account Google, ti suggeriamo di iscriverti al [Programma di protezion
 
 Il Programma di Protezione Avanzata fornisce un migliore monitoraggio delle minacce, e consente:
 
-- Autenticazione a due fattori più rigida; ad esempio, [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **deve** essere utilizzato e non è consentito l'uso di [SMS OTP](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) e [OAuth](https://en.wikipedia.org/wiki/OAuth)
+- Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](../basics/account-creation.md#sign-in-with-oauth)
 - L'accesso ai dati del profilo soltanto a Google e alle app verificate di terze parti
 - Scansione delle email in entrata sui profili Gmail, in cerca di tentativi di [phishing](https://en.wikipedia.org/wiki/Phishing#Email_phishing)
 - Stricter [safe browser scanning](https://google.com/chrome/privacy/whitepaper.html#malware) with Google Chrome
@@ -154,7 +154,9 @@ Se possiedi un dispositivo al termine della vita, distribuito con Android 10 o s
 
 All devices with Google Play Services installed automatically generate an [advertising ID](https://support.google.com/googleplay/android-developer/answer/6048248) used for targeted advertising. Disabilita questa funzionalità per limitare i dati raccolti su di te.
 
-Sulle distribuzioni Android con [Google Play in modalità sandbox](https://grapheneos.org/usage#sandboxed-google-play), vai su :gear: **Impostazioni** → **App** → **Sandboxed Google Play** → **Impostazioni di Google** → **Pubblicità** e seleziona *Elimina ID pubblicitario*.
+On Android distributions with [sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), go to :gear: **Settings** → **Apps** → **Sandboxed Google Play** → **Google Settings** → **All services** → **Ads**.
+
+- [x] Select **Delete advertising ID**
 
 On Android distributions with privileged Google Play Services (which includes the stock installation on most devices), the setting may be in one of several locations. Controlla
 
