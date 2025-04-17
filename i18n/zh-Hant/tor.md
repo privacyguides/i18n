@@ -42,7 +42,7 @@ schema:
 
 從裝置連線到 Tor 網路的方式有多種，最常用的是 **Tor 瀏覽器** ，它是 Firefox 的分叉，專為在電腦和Android上 [:material-incognito: 匿名](basics/common-threats.md#anonymity-vs-privacy ""){.pg-purple} 瀏覽而設計
 
-其些應用程式比其他應用程式更好，但再次提醒其選用決定取決於您的威脅模型。 如果是Tor 的一般使用者，不擔心 ISP 收集針對您的證據，那麼使用[Orbot](#orbot) 等應用程式或行動瀏覽器應用程式訪用 Tor 網路可能沒問題。 越多人使用 Tor 有助於減少 Tor 的不良印記，降低 ISP 和政府可能編制的「Tor 用戶清單」內容。
+其些應用程式比其他應用程式更好，但再次提醒其選用決定取決於您的威脅模型。 If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using mobile browser apps like [Onion Browser](#onion-browser-ios) to access the Tor network is probably fine. 越多人使用 Tor 有助於減少 Tor 的不良印記，降低 ISP 和政府可能編制的「Tor 用戶清單」內容。
 
 如果更完全的匿名至關重要，則應 **僅使用** 桌面版的 Tor 客戶端應用，最好再加上[Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) 一起搭配使用。 Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
 
@@ -84,46 +84,6 @@ Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。
 
 除了直接在電腦安裝 Tor 瀏覽器外，還有專門設計用於連接到 Tor 網路的操作系統，例如 [Qubes OS 作業系統](desktop.md#qubes-os) ＋ [Whonix](desktop.md#whonix) ，它們提供比標準 Tor 瀏覽器更高的安全性和保護。
 
-## Orbot
-
-<div class="admonition recommendation" markdown>
-
-![Orbot標誌](assets/img/self-contained-networks/orbot.svg){ align=right }
-
-**Orbot** 是一款免費的Tor VPN ，適用於智慧型手機，可讓裝置上的任何應用程式流量通過 Tor 網路。
-
-[:octicons-home-16: 首頁](https://orbot.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://orbot.app/faqs){ .card-link title=文檔}
-[:octicons-code-16:](https://orbot.app/code){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://orbot.app/donate){ .card-link title=捐款 }
-
-<details class="downloads" markdown>
-<summary>下載</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1609461599)
-- [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
-
-</details>
-
-</div>
-
-我們之前建議在 Orbot 設定中啟用 *隔離目標位址* 偏好設定。 雖然從理論上講，此設定可以強制您連接不同 IP 位址使用不同的迴路來改善隱私，但它並未為大多數應用程式（特別是 Web瀏覽）提供實際優勢，可能會帶來顯著的效能拖累，增加 Tor 網路的負載。 我們不再建議您從預設值調整此設定，除非您知道需要調整。[^1]
-
-<div class="admonition tip" markdown>
-<p class="admonition-title">Android 提示</p>
-
-Orbot 可以代理個別應用程式，如果它們有支援 SOCKS 或 HTTP 代理。 It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN kill switch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
-
-Guardian Project 的[F-Droid repository](https://guardianproject.info/fdroid)和 [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android) 上Orbot 往往不是最新版，因此請考慮直接從 [GitHub repository](https://github.com/guardianproject/orbot/releases) 下載。
-
-All versions are signed using the same signature, so they should be compatible with each other.
-
-</div>
-
-On iOS, Orbot has some limitations that could potentially cause crashes or leaks: iOS does not have an effective OS-level feature to block connections without a VPN like Android does, and iOS has an artificial memory limit for network extensions that makes it challenging to run Tor in Orbot without crashes. Currently, it is always safer to use Tor on a desktop computer compared to a mobile device.
-
 ## Onion Browser (iOS)
 
 <div class="admonition recommendation" markdown>
@@ -149,6 +109,4 @@ On iOS, Orbot has some limitations that could potentially cause crashes or leaks
 
 Onion Browser 不提供與 Tor Browser 在電腦平台上相同等級的隱私保護。 對於日常使用而言，這是存取隱藏服務的絕佳方式，但如果您擔心被先進的對手追蹤或監視，則不應將其視為匿名工具。
 
-[Notably](https://github.com/privacyguides/privacyguides.org/issues/2929), Onion Browser does not *guarantee* all requests go through Tor. When using the built-in version of Tor, [your real IP **will** be leaked via WebRTC and audio/video streams](https://onionbrowser.com/faqs) due to limitations of WebKit. It is *safer* to use Onion Browser alongside Orbot, but this still comes with some limitations on iOS (noted in the Orbot section above).
-
-[^1]: `IsolateDestAddr` 設定問題已在 [Tor 郵件群組](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) 和 [Whonix's 串流隔離文檔](https://whonix.org/wiki/Stream_Isolation) 中討論過，兩項專案都認為對大多數人而言它並不是好方法。
+[Notably](https://github.com/privacyguides/privacyguides.org/issues/2929), Onion Browser does not *guarantee* all requests go through Tor. When using the built-in version of Tor, [your real IP **will** be leaked via WebRTC and audio/video streams](https://onionbrowser.com/faqs) due to limitations of WebKit. It is *safer* to use Onion Browser alongside [Orbot](alternative-networks.md#orbot), but this still comes with some limitations on iOS.

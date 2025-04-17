@@ -35,6 +35,8 @@ cover: alternative-networks.webp
 
 [Tor 瀏覽器資訊 :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary } [Tor 詳細介紹 :material-arrow-right-drop-circle:](advanced/tor-overview.md){ .md-button }
 
+You can access the Tor network using other tools; making this determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. 越多人使用 Tor 有助於減少 Tor 的不良印記，降低 ISP 和政府可能編制的「Tor 用戶清單」內容。
+
 <div class="admonition example" markdown>
 <p class="admonition-title">試用一下！</p>
 
@@ -42,12 +44,54 @@ cover: alternative-networks.webp
 
 </div>
 
+#### Orbot
+
+<div class="admonition recommendation" markdown>
+
+![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
+
+**Orbot** is a mobile application which routes traffic from any app on your device through the Tor network.
+
+[:octicons-home-16: Homepage](https://orbot.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://orbot.app/faqs){ .card-link title="Documentation" }
+[:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://orbot.app/donate){ .card-link title="Contribute" }
+
+<details class="downloads" markdown>
+<summary>下載</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1609461599)
+- [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
+- [:simple-fdroid: F-Droid](https://guardianproject.info/fdroid)
+
+</details>
+
+</div>
+
+We previously recommended enabling the _Isolate Destination Address_ preference in Orbot settings. While this setting can theoretically improve privacy by enforcing the use of a different circuit for each IP address you connect to, it doesn't provide a practical advantage for most applications (especially web browsing), can come with a significant performance penalty, and increases the load on the Tor network. We no longer recommend adjusting this setting from its default value unless you know you need to.[^1]
+
+\=== "Android"
+
+```
+Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN kill switch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+
+Orbot is often outdated on Google Play and the Guardian Project's F-Droid repository, so consider downloading directly from the GitHub repository instead. All versions are signed using the same signature, so they should be compatible with each other.
+```
+
+\=== "iOS"
+
+```
+On iOS, Orbot has some limitations that could potentially cause crashes or leaks: iOS does not have an effective OS-level feature to block connections without a VPN like Android does, and iOS has an artificial memory limit for network extensions that makes it challenging to run Tor in Orbot without crashes. Currently, it is always safer to use Tor on a desktop computer compared to a mobile device.
+```
+
 #### Snowflake
 
 <div class="admonition recommendation" markdown>
 
-![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ align=right }
-![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
+![Snowflake logo](assets/img/self-contained-networks/snowflake.svg#only-light){ align=right }
+![Snowflake logo](assets/img/self-contained-networks/snowflake-dark.svg#only-dark){ align=right }
 
 **Snowflake** 可透過瀏覽器中執行「Snowflake 代理」來向 Tor 專案捐贈頻寬。
 
@@ -110,4 +154,5 @@ Running a Snowflake proxy is low-risk, even more so than running a Tor relay or 
 
 然而，I2P 的方法也有缺點。 Tor 依賴專用的出口節點，這意味著更多的人可以在不太安全的環境中使用它，而且Tor 上確實存在的中繼可能性能更高、更穩定，因為它們通常不在長駐連接上運行。 Tor 也更關注**瀏覽器隱私**（即防指紋），並配有專用的 [Tor 瀏覽器](tor.md) 來盡可能使瀏覽活動匿名。 I2P 透過[常用網頁瀏覽器](desktop-browsers.md) 使用，雖然可以將瀏覽器設定為更保護隱私，但可能不會與其他 I2P 使用者有相同的瀏覽器指紋（沒有在這方面混在「人群」）。
 
-由於其強大的橋接網路和不同的[可插拔傳輸](https://tb-manual.torproject.org/circumvention)，Tor 更能抵抗審查。 另一方面，I2P 使用目錄伺服器進行初始連接，這些目錄伺服器是變化的/不受信任的，由志願者運行，而 Tor 使用的硬編碼/受信任的伺服器可能更容易被阻止。
+[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403) and [Whonix's Stream Isolation documentation](https://whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.
+    由於其強大的橋接網路和不同的[可插拔傳輸](https://tb-manual.torproject.org/circumvention)，Tor 更能抵抗審查。 另一方面，I2P 使用目錄伺服器進行初始連接，這些目錄伺服器是變化的/不受信任的，由志願者運行，而 Tor 使用的硬編碼/受信任的伺服器可能更容易被阻止。

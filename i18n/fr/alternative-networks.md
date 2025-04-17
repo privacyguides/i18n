@@ -35,6 +35,8 @@ Le moyen recommandé pour accéder au réseau Tor est le navigateur officiel Tor
 
 [Informations sur le navigateur Tor :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary } [Introduction détaillée à Tor :material-arrow-right-drop-circle:](advanced/tor-overview.md){ .md-button }
 
+You can access the Tor network using other tools; making this determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. L'augmentation du nombre de personnes qui utilisent Tor au quotidien permet de réduire la mauvaise image de Tor et de diminuer la qualité des "listes d'utilisateurs de Tor" que les FAIs et les gouvernements peuvent compiler.
+
 <div class="admonition example" markdown>
 <p class="admonition-title">Essayez-le!</p>
 
@@ -42,12 +44,54 @@ Vous pouvez essayer de vous connecter à _Privacy Guides_ via Tor à [xoe4vn5uwd
 
 </div>
 
+#### Orbot
+
+<div class="admonition recommendation" markdown>
+
+![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
+
+**Orbot** is a mobile application which routes traffic from any app on your device through the Tor network.
+
+[:octicons-home-16: Homepage](https://orbot.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://orbot.app/faqs){ .card-link title="Documentation" }
+[:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://orbot.app/donate){ .card-link title="Contribute" }
+
+<details class="downloads" markdown>
+<summary>Téléchargements</summary>
+
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1609461599)
+- [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
+- [:simple-fdroid: F-Droid](https://guardianproject.info/fdroid)
+
+</details>
+
+</div>
+
+We previously recommended enabling the _Isolate Destination Address_ preference in Orbot settings. While this setting can theoretically improve privacy by enforcing the use of a different circuit for each IP address you connect to, it doesn't provide a practical advantage for most applications (especially web browsing), can come with a significant performance penalty, and increases the load on the Tor network. We no longer recommend adjusting this setting from its default value unless you know you need to.[^1]
+
+\=== "Android"
+
+```
+Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN kill switch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+
+Orbot is often outdated on Google Play and the Guardian Project's F-Droid repository, so consider downloading directly from the GitHub repository instead. All versions are signed using the same signature, so they should be compatible with each other.
+```
+
+\=== "iOS"
+
+```
+On iOS, Orbot has some limitations that could potentially cause crashes or leaks: iOS does not have an effective OS-level feature to block connections without a VPN like Android does, and iOS has an artificial memory limit for network extensions that makes it challenging to run Tor in Orbot without crashes. Currently, it is always safer to use Tor on a desktop computer compared to a mobile device.
+```
+
 #### Snowflake
 
 <div class="admonition recommendation" markdown>
 
-![logo Snowflake](assets/img/browsers/snowflake.svg#only-light){ align=right }
-![logo Snowflake](assets/img/browsers/snowflake-dark.svg#only-dark){ align=right }
+![Snowflake logo](assets/img/self-contained-networks/snowflake.svg#only-light){ align=right }
+![Snowflake logo](assets/img/self-contained-networks/snowflake-dark.svg#only-dark){ align=right }
 
 **Snowflake** vous permet de donner de la bande passante au projet Tor en hébergant un "proxy Snowflake" dans votre navigateur.
 
@@ -110,4 +154,5 @@ En outre, contrairement à Tor, chaque nœud I2P relaiera par défaut le trafic 
 
 L'approche de I2P présente toutefois des inconvénients. Le fait que Tor s'appuie sur des nœuds de sortie dédiés signifie que davantage de personnes dans des environnements moins sûrs peuvent l'utiliser, et les relais qui existent sur Tor sont susceptibles d'être plus performants et plus stables, car ils ne sont généralement pas exécutés sur des connexions résidentielles. Tor est également beaucoup plus axé sur la **confidentialité du navigateur** (c'est-à-dire empêcher la capture d'empreintes numériques), avec un [Navigateur Tor](tor.md) dédié pour rendre l'activité de navigation aussi anonyme que possible. I2P est utilisé via votre [navigateur web ordinaire](desktop-browsers.md), et bien que vous puissiez configurer votre navigateur pour mieux protéger votre vie privée, vous n'aurez probablement pas la même empreinte numérique de navigateur que les autres utilisateurs de I2P (il n'y a pas de "foule" à laquelle se fondre à cet égard).
 
-Tor est susceptible de mieux résister à la censure, en raison de son solide réseau de ponts et de divers [transports enfichables] (https://tb-manual.torproject.org/circumvention). D'autre part, l'I2P utilise des serveurs d'annuaire pour la connexion initiale, qui varient, ne sont pas fiables et sont gérés par des bénévoles, alors que Tor utilise des serveurs codés en dur et fiables, qui sont probablement plus faciles à bloquer.
+[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403) and [Whonix's Stream Isolation documentation](https://whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.
+    Tor est susceptible de mieux résister à la censure, en raison de son solide réseau de ponts et de divers [transports enfichables] (https://tb-manual.torproject.org/circumvention). D'autre part, l'I2P utilise des serveurs d'annuaire pour la connexion initiale, qui varient, ne sont pas fiables et sont gérés par des bénévoles, alors que Tor utilise des serveurs codés en dur et fiables, qui sont probablement plus faciles à bloquer.

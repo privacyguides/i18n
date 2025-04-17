@@ -42,7 +42,7 @@ Torに接続する前に、Torと安全に接続する方法についての[概�
 
 Torネットワークへの接続は様々な方法がありますが、Firefoxをフォークし、デスクトップやAndroid用で[:material-incognito: 匿名](basics/common-threats.md#anonymity-vs-privacy ""){.pg-purple}ブラウジングを重視した**Tor Browser**が最も利用されています。
 
-Torネットワークに接続するアプリには長短があり、どれを使うかは脅威モデルによります。 ISPが不利な証拠を集めることについて心配しないTorのカジュアルなユーザーであれば、[Orbit](#orbot)などのモバイルブラウザからTorネットワークに接続することは良い方法です。 日常的にTorを使う人が増えることはTorのマイナスイメージをやわらげ、ISPや政府が作成しているかもしれない「Torユーザーリスト」の質を下げることになります。
+Torネットワークに接続するアプリには長短があり、どれを使うかは脅威モデルによります。 If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using mobile browser apps like [Onion Browser](#onion-browser-ios) to access the Tor network is probably fine. 日常的にTorを使う人が増えることはTorのマイナスイメージをやわらげ、ISPや政府が作成しているかもしれない「Torユーザーリスト」の質を下げることになります。
 
 完全な匿名性が最優先であるなら、デスクトップのTor Browser**のみ**を使うべきであり、[Whonix](desktop.md#whonix)と[Qubes](desktop.md#qubes-os)の構成が理想的です。 モバイルブラウザではTorはあまり使われておらず（そのためフィンガープリンティングされやすい）、匿名化解除に対して厳密にテストはされていません。
 
@@ -84,46 +84,6 @@ Tor Browserはフィンガープリントを防止するよう設計されてお
 
 Tor Browserを直接コンピューターにインストールするだけではなく、[Qubes OS](desktop.md#qubes-os)上の[Whonix](desktop.md#whonix)のようにTorネットワークに接続するためのOSもあり、Tor Browser単体で使うよりもよりセキュリティを強化することができます。
 
-## Orbot
-
-<div class="admonition recommendation" markdown>
-
-![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
-
-**Orbot**はスマートフォン用の無償のTor VPNで、アプリの通信をTorネットワーク経由にすることができます。
-
-[:octicons-home-16: ウェブページ](https://orbot.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="プライバシーポリシー" }
-[:octicons-info-16:](https://orbot.app/faqs){ .card-link title=ドキュメント}
-[:octicons-code-16:](https://orbot.app/code){ .card-link title="ソースコード" }
-[:octicons-heart-16:](https://orbot.app/donate){ .card-link title=貢献 }
-
-<details class="downloads" markdown>
-<summary>ダウンロード</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1609461599)
-- [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
-
-</details>
-
-</div>
-
-以前はOrbotの*宛先アドレスの分離*の設定を有効にすることを推奨していました。 この設定で接続ごとに異なるIPアドレスを使用することになり、論理的にはプライバシーを改善することができます。ただし、多くのアプリケーションでは（特にウェブブラウジング）実用上の利点はなく、パフォーマンスが著しく低下し、Torネットワークに負荷をかけるだけです。 必要がある場合を除き、この設定をデフォルトから変更することは推奨しません。[^1]
-
-<div class="admonition tip" markdown>
-<p class="admonition-title">Android向けのヒント</p>
-
-OrbotはSOCKSもしくはHTTPのプロキシに対応している個別のアプリケーションのプロキシの役割を果たします。 [VpnService](https://developer.android.com/reference/android/net/VpnService)を使うことで、すべてのネットワーク接続をプロキシ経由にすることができ、VPNキルスイッチにすることができます :gear: **設定** → **ネットワークとインターネット** → **VPN** → :gear: → **VPN以外の接続のブロック**。
-
-Guardian Projectの[F-Droidリポジトリ](https://guardianproject.info/fdroid) や [Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)のOrbotは古いことが多いため、[GitHubリポジトリ](https://github.com/guardianproject/orbot/releases)から直接ダウンロードすることを検討してください。
-
-どのリポジトリでも同じ署名を使っているため、互換性があります。
-
-</div>
-
-iOS版のOrbotは潜在的にアプリがクラッシュするか情報がリークしてしまう可能性があります。iOSではAndroidのようにOSレベルでVPN以外の接続をブロックするような機能はなく、ネットワーク拡張機能にメモリ制限があるためTorをアプリクラッシュなしに実行することは難しいためです。 現状、デスクトップコンピューターでTorを使う方がモバイルでTorを使うよりも常に安全です。
-
 ## Onion Browser (iOS)
 
 <div class="admonition recommendation" markdown>
@@ -149,6 +109,4 @@ iOS版のOrbotは潜在的にアプリがクラッシュするか情報がリー
 
 Onion Browserはデスクトップ版のTor Browserと同じレベルでプライバシーを保護することはできません。 Onion Serviceへアクセスするカジュアルな利用には適していますが、高度な追跡や監視を警戒する場合、匿名化ツールとして利用するべきではありません。
 
-[特に](https://github.com/privacyguides/privacyguides.org/issues/2929)、Onion Browserはすべての接続がTorを経由することを*保証*していません。 ビルトインのTorを使う場合、Webkitの制約のために[実際のIPアドレスがWebRTCやオーディオ・ビデオストリーム経由でリークする**可能性があります**](https://onionbrowser.com/faqs)。 Onion BrowserとOrbotを併用することでより*安全*になりますが、iOS上での制約は残ります（上記Orbotのセクションを参照）。
-
-[^1]: `IsolateDestAddr`は[Torのメーリングリスト](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html)や[WhonixのStream Isolationドキュメント](https://whonix.org/wiki/Stream_Isolation)で議論されており、どちらにおいても、よいアプローチではないとされています。
+[特に](https://github.com/privacyguides/privacyguides.org/issues/2929)、Onion Browserはすべての接続がTorを経由することを*保証*していません。 ビルトインのTorを使う場合、Webkitの制約のために[実際のIPアドレスがWebRTCやオーディオ・ビデオストリーム経由でリークする**可能性があります**](https://onionbrowser.com/faqs)。 It is *safer* to use Onion Browser alongside [Orbot](alternative-networks.md#orbot), but this still comes with some limitations on iOS.

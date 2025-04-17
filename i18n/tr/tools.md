@@ -106,8 +106,7 @@ Anonimliğe ihtiyacınız varsa **Tor Browser** (Masaüstü ve Android) en iyi s
 
 <div class="grid cards" markdown>
 
-- ![Orbot logosu](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Akıllı Telefon Tor Proxy)](tor.md#orbot)
-- ![Onion Browser logosu](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (iOS için Tor)](tor.md#onion-browser-ios)
+- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor for iOS)](tor.md#onion-browser-ios)
 
 </div>
 
@@ -710,9 +709,10 @@ Bu araçlar belirli bireyler için fayda sağlayabilir. Çoğu insanın endişel
 
 <div class="grid cards" markdown>
 
-- ![I2P logosu](./assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji loading=lazy } ![I2P logosu](./assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji loading=lazy } [I2P](alternative-networks.md#i2p-the-invisible-internet-project)
-- ![Tor logo](./assets/img/self-contained-networks/tor.svg){ .twemoji loading=lazy } [Tor](alternative-networks.md#tor)
-- ![Snowflake logo](assets/img/browsers/snowflake.svg#only-light){ .twemoji loading=lazy }![Snowflake logo](assets/img/browsers/snowflake-dark.svg#only-dark){ .twemoji loading=lazy } [Kar Tanesi](alternative-networks.md#snowflake)
+- ![I2P logo](assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji loading=lazy } ![I2P logo](assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji loading=lazy } [I2P](alternative-networks.md#i2p-the-invisible-internet-project)
+- ![Tor logo](assets/img/self-contained-networks/tor.svg){ .twemoji loading=lazy } [Tor](alternative-networks.md#tor)
+- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Mobile Tor Proxy)](alternative-networks.md#orbot)
+- ![Snowflake logo](assets/img/self-contained-networks/snowflake.svg#only-light){ .twemoji loading=lazy }![Snowflake logo](assets/img/self-contained-networks/snowflake-dark.svg#only-dark){ .twemoji loading=lazy } [Snowflake](alternative-networks.md#snowflake)
 
 </div>
 

@@ -188,4 +188,4 @@ Es importante señalar que Auditor solo puede detectar eficazmente cambios **des
 
 No se envía información personal identificable al servicio de certificación. Recomendamos que te registres con una cuenta anónima y actives la atestación remota para una supervisión continua.
 
-Si tu [modelo de amenaza](basics/threat-modeling.md) requiere privacidad, podrías considerar utilizar [Orbot](tor.md#orbot) o una VPN para ocultar tu dirección IP al servicio de atestación.
+If your [threat model](basics/threat-modeling.md) requires hiding your IP address from the attestation service, you could consider using [Orbot](alternative-networks.md#orbot) or a [VPN](vpn.md).

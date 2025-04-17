@@ -42,7 +42,7 @@ Before connecting to Tor, please ensure you've read our [overview](advanced/tor-
 
 There are a variety of ways to connect to the Tor network from your device, the most commonly used being the **Tor Browser**, a fork of Firefox designed for [:material-incognito: anonymous](basics/common-threats.md#anonymity-vs-privacy ""){.pg-purple} browsing for desktop computers and Android.
 
-Some of these apps are better than others, and again making a determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
+Some of these apps are better than others, and again making a determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using mobile browser apps like [Onion Browser](#onion-browser-ios) to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
 
 If more complete anonymity is paramount to your situation, you should **only** be using the desktop Tor Browser client, ideally in a [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) configuration. Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
 
@@ -84,46 +84,6 @@ Tor Browser dirancang untuk mencegah sidik jari, atau mengidentifikasi Anda berd
 
 In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
 
-## Orbot
-
-<div class="admonition recommendation" markdown>
-
-![Logo Orbot](assets/img/self-contained-networks/orbot.svg){ align=right }
-
-**Orbot** adalah VPN Tor gratis untuk ponsel pintar yang merutekan lalu lintas dari aplikasi apa pun pada perangkat Anda melalui jaringan Tor.
-
-[:octicons-home-16: Homepage](https://orbot.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://orbot.app/faqs){ .card-link title=Documentation}
-[:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://orbot.app/donate){ .card-link title=Contribute }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1609461599)
-- [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
-
-</details>
-
-</div>
-
-Kami sebelumnya merekomendasikan untuk mengaktifkan preferensi *Isolasi Alamat Tujuan* di pengaturan Orbot. Walaupun pengaturan ini secara teoritis dapat meningkatkan privasi dengan memaksakan penggunaan sirkuit yang berbeda untuk setiap alamat IP yang Anda sambungkan, pengaturan ini tidak memberikan keuntungan praktis untuk sebagian besar aplikasi (terutama penelusuran web), dapat menimbulkan dampak buruk signifikan terhadap kinerja, dan meningkatkan beban pada jaringan Tor. We no longer recommend adjusting this setting from its default value unless you know you need to.[^1]
-
-<div class="admonition tip" markdown>
-<p class="admonition-title">Tips for Android</p>
-
-Orbot dapat memproksi aplikasi individual jika aplikasi tersebut mendukung proksi SOCKS atau HTTP. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN kill switch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
-
-Orbot sering kali ketinggalan versi di [repositori F-Droid] (https://guardianproject.info/fdroid) dan [Google Play] (https://play.google.com/store/apps/details?id=org.torproject.android) milik Guardian Project, jadi pertimbangkan untuk mengunduh langsung dari [repositori GitHub] (https://github.com/guardianproject/orbot/releases).
-
-All versions are signed using the same signature, so they should be compatible with each other.
-
-</div>
-
-On iOS, Orbot has some limitations that could potentially cause crashes or leaks: iOS does not have an effective OS-level feature to block connections without a VPN like Android does, and iOS has an artificial memory limit for network extensions that makes it challenging to run Tor in Orbot without crashes. Currently, it is always safer to use Tor on a desktop computer compared to a mobile device.
-
 ## Onion Browser (iOS)
 
 <div class="admonition recommendation" markdown>
@@ -149,6 +109,4 @@ On iOS, Orbot has some limitations that could potentially cause crashes or leaks
 
 Onion Browser does not provide the same levels of privacy protections as Tor Browser does on desktop platforms. For casual use it is a perfectly fine way to access hidden services, but if you're concerned about being traced or monitored by advanced adversaries you should not rely on this as an anonymity tool.
 
-[Notably](https://github.com/privacyguides/privacyguides.org/issues/2929), Onion Browser does not *guarantee* all requests go through Tor. When using the built-in version of Tor, [your real IP **will** be leaked via WebRTC and audio/video streams](https://onionbrowser.com/faqs) due to limitations of WebKit. It is *safer* to use Onion Browser alongside Orbot, but this still comes with some limitations on iOS (noted in the Orbot section above).
-
-[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403.html) and [Whonix's Stream Isolation documentation](https://whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.
+[Notably](https://github.com/privacyguides/privacyguides.org/issues/2929), Onion Browser does not *guarantee* all requests go through Tor. When using the built-in version of Tor, [your real IP **will** be leaked via WebRTC and audio/video streams](https://onionbrowser.com/faqs) due to limitations of WebKit. It is *safer* to use Onion Browser alongside [Orbot](alternative-networks.md#orbot), but this still comes with some limitations on iOS.

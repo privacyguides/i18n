@@ -188,4 +188,4 @@ Il est important de noter que l'auditeur ne peut détecter efficacement les chan
 
 Aucune donnée à charactère personnel n'est soumise au service d'attestation. Nous vous recommandons de vous inscrire avec un compte anonyme et d'activer l'attestation à distance pour un contrôle continu.
 
-Si votre [modèle de menace](basics/threat-modeling.md) nécessite une certaine confidentialité, vous pouvez envisager d'utiliser [Orbot](tor.md#orbot) ou un VPN pour cacher votre adresse IP au service d'attestation.
+If your [threat model](basics/threat-modeling.md) requires hiding your IP address from the attestation service, you could consider using [Orbot](alternative-networks.md#orbot) or a [VPN](vpn.md).

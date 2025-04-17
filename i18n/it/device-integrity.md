@@ -188,4 +188,4 @@ Auditor esegue l'attestazione e il rilevamento delle intrusioni con **due** disp
 
 Nessuna informazione personalmente identificabile è inviata al servizio di attestazione. Ti consigliamo di iscriverti con un profilo anonimo e di abilitare l'attestazione da remoto per il monitoraggio costante.
 
-Se il tuo [modello di minaccia](basics/threat-modeling.md) richiede la privacy, potresti considerare l'utilizzo di [Orbot](tor.md#orbot) o di una VPN, per nascondere il tuo indirizzo IP dal servizio di attestazione.
+If your [threat model](basics/threat-modeling.md) requires hiding your IP address from the attestation service, you could consider using [Orbot](alternative-networks.md#orbot) or a [VPN](vpn.md).
