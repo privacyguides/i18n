@@ -16,8 +16,7 @@ Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon
 
 <div class="admonition recommendation" markdown>
 
-![Logo di Ente](assets/img/photo-management/ente.svg#only-light){ align=right }
-![Logo di Ente](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
+![Ente logo](assets/img/photo-management/ente.svg){ align=right }
 
 **Ente Photos** è un servizio di backup delle foto crittografato end-to-end che supporta i backup automatici su iOS e Android. Il loro codice è completamente open source, sia dal lato del client che del server. It is also [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting). The free plan offers 10 GB of storage as long as you use the service at least once a year.
 

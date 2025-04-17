@@ -196,7 +196,7 @@ Que uno de los procesos de una aplicación esté aislado no significa que todos 
 También puedes comprobar las aplicaciones antes de ejecutarlas ejecutando este comando en el terminal:
 
 ``` zsh
-% codesign -dvvv --entitlements - <path to your app>
+codesign -dvvv --entitlements - <path to your app>
 ```
 
 Si una aplicación está aislada, deberías ver el siguiente resultado:
@@ -216,7 +216,7 @@ El [Hardened Runtime](https://developer.apple.com/documentation/security/hardene
 Puede comprobar si una aplicación utiliza el Hardened Runtime mediante este comando:
 
 ``` zsh
-codesign --display --verbose /path/to/bundle.app
+codesign -dv <path to your app>
 ```
 
 Si el Hardened Runtime está activado, verás `flags=0x10000(runtime)`. La salida `runtime` significa que Hardened Runtime está activado. Puede haber otras señales, pero la señal de runtime es la que buscamos aquí.

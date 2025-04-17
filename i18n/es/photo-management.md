@@ -16,8 +16,7 @@ La mayoría de las soluciones de **gestión de fotografías en la nube**, como G
 
 <div class="admonition recommendation" markdown>
 
-![Ente logo](assets/img/photo-management/ente.svg#only-light){ align=right }
-![Ente logo](assets/img/photo-management/ente-dark.svg#only-dark){ align=right }
+![Ente logo](assets/img/photo-management/ente.svg){ align=right }
 
 **Ente Photos** es un servicio de copia de seguridad cifrada de fotos de extremo a extremo que admite copias de seguridad automáticas en iOS y Android. Su código es totalmente abierto, tanto en el lado del cliente como en el del servidor. También es [autoalojable](https://github.com/ente-io/ente/tree/main/server#self-hosting). The free plan offers 10 GB of storage as long as you use the service at least once a year.
 
