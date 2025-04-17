@@ -111,6 +111,15 @@ Leider funktioniert das nicht sehr gut in Ländern, in denen ausgeklügelte Filt
 
 Proton VPN has published [App Store](https://apps.apple.com/app/id1437005085) and [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/ProtonVPN/android-app/releases).
 
+<div class="admonition warning" markdown>
+<p class="admonition-title">How to opt out of sharing telemetry</p>
+
+On Android, Proton hides telemetry settings under the misleadingly labeled "**Help us fight censorship**" menu in the settings panel. On other platforms these settings can be found under the "**Usage statistics**" menu.
+
+We are noting this because while we don't necessarily recommend against sharing anonymous usage statistics with developers, it is important that these settings are easily found and clearly labeled.
+
+</div>
+
 #### :material-information-outline:{ .pg-blue } Zusätzliche Hinweise
 
 Proton VPN Clients unterstützen Zwei-Faktor-Authentisierung auf allen Plattformen. Proton VPN hat eigene Server und Rechenzentren in der Schweiz, Island und Schweden. Sie bieten mit ihrem DNS-Dienst die Blockierung von Inhalten und bekannter Malware an. Darüber hinaus bietet Proton VPN auch "Tor"-Server an, die es dir ermöglichen, sich problemlos mit Onion-Seiten zu verbinden. Wir empfehlen jedoch dringend, zu diesem Zweck [den offiziellen Tor-Browser](tor.md#tor-browser) zu verwenden.

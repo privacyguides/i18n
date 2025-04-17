@@ -111,6 +111,15 @@ Proton VPNにはOpenVPNもしくはWireGuardのようなVPNプロトコルを様
 
 Proton VPNは[App Store](https://apps.apple.com/app/id1437005085)と[Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)でクライアントをダウンロードでき、どちらもWireGuard接続を手動で設定する必要がなく、使いやすいインターフェースがあります。 Android向けのクライアントは[GitHub](https://github.com/ProtonVPN/android-app/releases)でも公開されています。
 
+<div class="admonition warning" markdown>
+<p class="admonition-title">How to opt out of sharing telemetry</p>
+
+On Android, Proton hides telemetry settings under the misleadingly labeled "**Help us fight censorship**" menu in the settings panel. On other platforms these settings can be found under the "**Usage statistics**" menu.
+
+We are noting this because while we don't necessarily recommend against sharing anonymous usage statistics with developers, it is important that these settings are easily found and clearly labeled.
+
+</div>
+
 #### :material-information-outline:{ .pg-blue } 追記事項
 
 Proton VPNクライアントはすべてのプラットフォームで二要素認証に対応しています。 Proton VPNはスイス、アイスランド、スウェーデンに独自のサーバーとデータセンターを持っています。 DNSサービスで広告ブロックと既知のマルウェアブロックをしています。 また、Proton VPNにはonionサイトに簡単に接続することのできるTorサーバーがありますが、[公式のTor Browser](tor.md#tor-browser)の使用を強く推奨します。
