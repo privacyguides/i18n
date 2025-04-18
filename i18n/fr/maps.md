@@ -24,9 +24,9 @@ The recommendations here either do not collect any user data or at least do not 
 
 Features include cycling routes, hiking trails and walking paths, turn-by-turn navigation with voice guidance, and public transport route planning (only available in supported regions and cities).
 
-[:octicons-home-16: Homepage](https://organicmaps.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://organicmaps.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-code-16:](https://git.omaps.dev/organicmaps/organicmaps){ .card-link title="Source Code" }
+:octicons-home-16: Accueil](https://organicmaps.app/fr){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://organicmaps.app/fr/privacy){ .card-link title="Politique de confidentialité" }
+[:octicons-code-16:](https://git.omaps.dev/organicmaps/organicmaps){ .card-link title="Code Source" }
 
 <details class="downloads" markdown><summary>Downloads</summary>
 
