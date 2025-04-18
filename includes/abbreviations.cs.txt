@@ -2,7 +2,7 @@
 *[ADB]: Android Debug Bridge
 *[AOSP]: Android Open Source Project
 *[ATA]: Advanced Technology Attachment
-*[attack surface]: The total number of possible entry points for unauthorized access to a system
+*[attack surface]: Nejvyšší počet možných vstupů pro neautorizovaný přístup do systému
 *[AVB]: Android Verified Boot
 *[cgroups]: Control Groups
 *[CLI]: Příkazová řádka
