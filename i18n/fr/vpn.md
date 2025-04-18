@@ -114,7 +114,7 @@ Proton VPN has published [App Store](https://apps.apple.com/app/id1437005085) an
 <div class="admonition warning" markdown>
 <p class="admonition-title">How to opt out of sharing telemetry</p>
 
-On Android, Proton hides telemetry settings under the misleadingly labeled "**Help us fight censorship**" menu in the settings panel. On other platforms these settings can be found under the "**Usage statistics**" menu.
+Sur Android, Proton cache les paramètres de télémétrie sous le label trompeur de "**Aidez-nous à combattre la censure**". On other platforms these settings can be found under the "**Usage statistics**" menu.
 
 We are noting this because while we don't necessarily recommend against sharing anonymous usage statistics with developers, it is important that these settings are easily found and clearly labeled.
 
@@ -192,7 +192,7 @@ IVPN prenait auparavant en charge la redirection de port, mais a supprimé cette
 
 #### :material-check:{ .pg-green } Anti-censure
 
-IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index.html) which helps in situations where VPN protocols like OpenVPN or WireGuard are blocked. Currently, this feature is only available on Desktop and [iOS](https://ivpn.net/knowledgebase/ios/v2ray). Elle dispose de deux modes d'utilisation de [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) via des connexions QUIC ou TCP. QUIC est un protocole moderne avec un meilleur contrôle de la congestion et peut donc être plus rapide avec une latence réduite. Le mode TCP fait apparaître vos données comme du trafic HTTP normal.
+IVPN utilise [V2Ray](https://v2ray.com/en/index.html) pour offusquer (cacher la vraie nature) le trafic internet, ce qui est utile dans les situations où OpenVPN et WireGuard sont bloqués. Currently, this feature is only available on Desktop and [iOS](https://ivpn.net/knowledgebase/ios/v2ray). Elle dispose de deux modes d'utilisation de [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) via des connexions QUIC ou TCP. QUIC est un protocole moderne avec un meilleur contrôle de la congestion et peut donc être plus rapide avec une latence réduite. Le mode TCP fait apparaître vos données comme du trafic HTTP normal.
 
 #### :material-check:{ .pg-green } Clients mobiles
 
