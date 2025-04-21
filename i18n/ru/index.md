@@ -40,27 +40,27 @@ schema:
 <!-- markdownlint-disable -->
 <div class="grid" markdown>
 <div markdown>
-## Why should I care?
+## Почему это должно меня волновать?
 
-> “I have nothing to hide. Why should I care about my privacy?”
+> «Мне нечего скрывать. Почему я должен беспокоиться о своей приватности?»
 
-Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
+Подобно праву на межрасовый брак, избирательному праву для женщин, свободе слова и многим другим правам, наше право на приватность не всегда соблюдалось. В некоторых диктатурах это всё ещё представляет проблему. Предыдущие поколения боролись за наше право на приватность. ==Приватность — это естественное право каждого человека,== и мы все без исключения должны им обладать.
 
-You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
+Не стоит путать приватность с секретностью. Все знают, что происходит в ванной, но всё равно закрывают дверь. Это потому, что мы хотим приватности, а не секретности. **Каждому** есть что скрывать. Приватность — это то, что делает нас людьми.
 
-[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button" }
+[:material-book-outline: Почему приватность имеет значение](basics/why-privacy-matters.md){ class="md-button" }
 </div>
 
 <div markdown>
-## What should I do?
+## И что мне делать?
 
-> First, you need to make a plan
+> Для начала вам нужен план
 
-Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. Но не переживайте! Безопасность — это процесс, и, думая наперёд, вы можете составить план, который подходит именно вам. Security isn't just about the *privacy tools* you use or the software you download. На самом деле безопасность начинается с понимания специфичных угроз, с которыми вы сталкиваетесь, и нахождения способов, как им противостоять.
+Пытаться постоянно защищать все свои данные ото всех - непрактично, дорого и утомительно. Но не переживайте! Безопасность — это процесс, и, думая наперёд, вы можете составить план, который подходит именно вам. Безопасность — это не только *инструменты конфиденциальности* или программное обеспечение, которыми вы пользуетесь. На самом деле безопасность начинается с понимания специфичных угроз, с которыми вы сталкиваетесь, и нахождения способов, как им противостоять.
 
-==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
+==Этот процесс выявления угроз и определения мер противодействия называется **моделированием угроз**==, и он составляет основу каждого хорошего плана безопасности и приватности.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button" }
+[:material-book-outline: Узнать больше о моделировании угроз](basics/threat-modeling.md){ class="md-button" }
 </div>
 </div>
 
@@ -71,16 +71,16 @@ Trying to protect all your data from everyone all the time is impractical, expen
 <div markdown>
 **Privacy Guides** has a dedicated [community](https://discuss.privacyguides.net) independently reviewing various *privacy tools* and services. Each of our recommendations comply with a strict set of criteria to ensure they provide the most value to most people, and provide the best balance of privacy, security, and convenience. As part of a non-profit **public charity**, Privacy Guides has strict **journalistic standards** and policies to ensure our recommendations are free of conflict of interest, and we do not partner with providers or affiliate programs that could sway our reviews and recommendations.
 
-[:material-heart:{.pg-red} Support Our Work](about/donate.md){ class="md-button md-button--primary" }
+[:material-heart:{.pg-red} Поддержите нашу работу](about/donate.md){ class="md-button md-button--primary" }
 
 </div>
 
-- [x] **Ad-Free Recommendations**
-- [x] **Complete Editorial Independence**
-- [x] **Non-Profit & Open Source**
-- [x] **Frequent Updates**
-- [x] **Trusted by Journalists**
-- [x] **Trusted by Readers**
+- [x] **Рекомендации без рекламы**
+- [x] **Полная независимость редакции**
+- [x] **Некоммерческий & с открытым исходным кодом**
+- [x] **Частые обновления**
+- [x] **Пользуется доверием журналистов**
+- [x] **Пользуется доверием читателей**
 
 </div>
 
@@ -114,6 +114,6 @@ In the modern age of digital data exploitation, your privacy has never been more
 
 Many people get the concepts of privacy, security, and anonymity confused. Вы можете видеть, как люди называют различные продукты "не приватными", когда на самом деле они имеют в виду, что эти продукты не обеспечивают анонимность. На этом сайте мы рассматриваем все эти три темы, но важно понимать разницу между ними, и когда каждая из них вступает в игру.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
+[:material-movie-open-play-outline: Видео: 5 способов повысить вашу конфиденциальность](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
 </div>
 </div>
