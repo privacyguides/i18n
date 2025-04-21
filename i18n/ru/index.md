@@ -64,12 +64,12 @@ schema:
 </div>
 </div>
 
-## Trustworthy Privacy Software Reviews
+## Надёжные обзоры ПО
 
 <div class="grid" markdown>
 
 <div markdown>
-**Privacy Guides** has a dedicated [community](https://discuss.privacyguides.net) independently reviewing various *privacy tools* and services. Each of our recommendations comply with a strict set of criteria to ensure they provide the most value to most people, and provide the best balance of privacy, security, and convenience. As part of a non-profit **public charity**, Privacy Guides has strict **journalistic standards** and policies to ensure our recommendations are free of conflict of interest, and we do not partner with providers or affiliate programs that could sway our reviews and recommendations.
+У **Privacy Guides** есть преданное [сообщество](https://discuss.privacyguides.net), проводящее независимые обзоры различных *инструментов конфиденциальности* и сервисов. Каждая из наших рекомендаций соответствует строгому набору критериев, чтобы приносить наибольшую пользу для большинства людей и обеспечивать оптимальный баланс конфиденциальности, безопасности и удобства. Являясь частью некоммерческой **общественной благотворительной организации**, Privacy Guides придерживается строгих **журналистских стандартов** и политики, чтобы гарантировать, что наши рекомендации не содержат конфликта интересов, а также мы не сотрудничаем с поставщиками или партнерскими программами, которые могли бы повлиять на наши обзоры и рекомендации.
 
 [:material-heart:{.pg-red} Поддержите нашу работу](about/donate.md){ class="md-button md-button--primary" }
 
@@ -86,21 +86,21 @@ schema:
 
 ---
 
-## About Privacy Guides
+## Что такое Privacy Guides
 
 ![Privacy Guides logo](assets/brand/logos/png/square/pg-yellow.png){ align=right loading=lazy }
 
-Established in 2021 due to the difficulty of finding unbiased reviewers in the VPN and privacy space, **Privacy Guides** is the most popular, trustworthy, non-profit website that provides information about protecting your *personal* data security and privacy. Our crowdsourced recommendations and reviews of **privacy tools** and our community dedicated to helping others set us apart from other blogs and content creators. The team behind this project has been researching privacy and security in the open-source space for over 5 years, originally with a now-defunct web resource that eventually became the *Privacy Guides* millions of readers trust.
+Основанный в 2021 году в связи с трудностями поиска беспристрастных обозревателей в сфере VPN и конфиденциальности, **Privacy Guides** является самым популярным, надёжным, некоммерческим сайтом, который предоставляет информацию о защите безопасности и конфиденциальности ваших *персональных* данных. Our crowdsourced recommendations and reviews of **privacy tools** and our community dedicated to helping others set us apart from other blogs and content creators. The team behind this project has been researching privacy and security in the open-source space for over 5 years, originally with a now-defunct web resource that eventually became the *Privacy Guides* millions of readers trust.
 
-*Our website is free of advertisements and not affiliated with any of the listed providers.*
+*Наш сайт не содержит рекламы и не связан ни с одним из перечисленных провайдеров.*
 
 As seen in **WIRED**, **Tweakers.net**, **The New York Times**, and many other publications as a reliable source for privacy and security knowledge.
 
-[:material-information: More About Who We Are](about.md){ class="md-button" }
+[:material-information: Подробнее о нас](about.md){ class="md-button" }
 
 <div class="grid" markdown>
 <div markdown>
-## What are privacy tools?
+## Что такое инструменты конфиденциальности?
 
 We recommend a wide variety of **privacy tools** (a.k.a. *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can use to improve your privacy. Many of the tools we recommend are completely free to use and open-source software, while some are commercial services available for purchase. Switching from mainstream data-hungry software like Google Chrome and Windows to privacy-focused tools like [Brave](desktop-browsers.md#brave) and [Linux](desktop.md) can go a long way towards controlling the information you share with companies and others.
 
@@ -108,7 +108,7 @@ We recommend a wide variety of **privacy tools** (a.k.a. *privacy apps*, *privac
 </div>
 
 <div markdown>
-## Why does privacy matter?
+## Почему приватность имеет значение?
 
 In the modern age of digital data exploitation, your privacy has never been more critical, yet many believe it is already a lost cause. Это не так. ==Your privacy is up for grabs, and you need to care about it.== Privacy is about power, and it is so important that this power ends up in the right hands.
 
