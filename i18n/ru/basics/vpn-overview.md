@@ -7,20 +7,20 @@ description: Virtual Private Networks shift risk away from your ISP to a third-p
 
 Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world.
 
-[:material-movie-open-play-outline: Video: Do you need a VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn/ ""){.md-button}
+[:material-movie-open-play-outline: Нужен ли вам VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn/ ""){.md-button}
 
 Normally, an ISP can see the flow of internet traffic entering and exiting your network termination device (i.e. modem). Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
 Using a VPN hides even this information from your ISP, by shifting the trust you place in your network to a server somewhere else in the world. As a result, the ISP then only sees that you are connected to a VPN and nothing about the activity that you're passing through it.
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Заметка</p>
 
 When we refer to "Virtual Private Networks" on this website, we are usually referring to **commercial** [VPN providers](../vpn.md), who you pay a monthly fee to in exchange for routing your internet traffic securely through their public servers. There are many other forms of VPN, such as ones you host yourself or ones operated by workplaces which allow you to securely connect to internal/employee network resources, however, these VPNs are usually designed for accessing remote networks securely, rather than protecting the privacy of your internet connection.
 
 </div>
 
-## How does a VPN work?
+## Как работает VPN?
 
 VPNs encrypt your traffic between your device and a server owned by your VPN provider. From the perspective of anyone between you and the VPN server, it looks like you're connecting to the VPN server. From the perspective of anyone between the VPN server and your destination site, all they can see is the VPN server connecting to the website.
 
@@ -36,7 +36,7 @@ Note that a VPN does not add any security or encryption to your traffic between 
 
 ## Следует ли мне использовать VPN?
 
-**Yes**, almost certainly. A VPN has many advantages, including:
+**Да**, почти наверняка. VPN имеет множество преимуществ, в том числе:
 
 1. Скрывать ваш трафик **только** от вашего интернет-провайдера.
 1. Скрывать ваши загрузки (например, торренты) от провайдера и антипиратских организаций.
