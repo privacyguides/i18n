@@ -148,13 +148,13 @@ Firefox добавляет уникальный [маркер загрузки](
 
 ### Рекомендуемые настройки Firefox
 
-These options can be found in :material-menu: → **Settings**.
+Эти настройки можно найти в :material-menu: → **Настройки**.
 
 #### Поиск
 
 - [ ] Отключите **Показывать поисковые предложения**
 
-Search suggestion features may not be available in your region.
+Функции поисковых предложений могут быть недоступны в вашем регионе.
 
 Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
@@ -175,7 +175,7 @@ This protects you by blocking social media trackers, fingerprinting scripts (not
 
 ##### Отчистка при закрытии
 
-If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
+Если вы хотите оставаться в системе на определенных сайтах, вы можете допустить исключения в **Куки и данные сайтов** → **Управление исключениями...**
 
 - [x] Включите **Удалять куки и данные сайтов при закрытии Firefox**
 
@@ -187,7 +187,7 @@ This protects you from persistent cookies, but does not protect you against cook
 - [ ] Отключите **Разрешить Firefox устанавливать и проводить исследования**
 - [ ] Отключите **Разрешить Firefox отправлять от вашего имени накопившиеся сообщения о его падениях**
 
-According to Mozilla's privacy policy for Firefox,
+Согласно политике конфиденциальности Mozilla для Firefox,
 
 > Firefox отправляет нам данные о версии и языке вашего Firefox; операционной системе устройства и конфигурации оборудования; памяти, основную информацию о сбоях и ошибках; результаты автоматизированных процессов, таких как обновления, безопасный просмотр и активация. Когда Firefox отправляет нам данные, ваш IP-адрес временно собирается как часть логов нашего сервера.
 
@@ -210,7 +210,7 @@ This prevents you from unintentionally connecting to a website in plain-text HTT
 
 ##### DNS через HTTPS
 
-If you use a [DNS over HTTPS provider](dns.md):
+Если вы используете [поставщика DNS через HTTPS](dns.md):
 
 - [x] Включите **Максимальная защита** и выберите подходящего поставщика
 
@@ -271,7 +271,7 @@ Brave добавляет "[реферальный код](https://github. om/bra
 
 ### Рекомендуемые настройки Brave
 
-These options can be found in :material-menu: → **Settings**.
+Эти настройки можно найти в :material-menu: → **Настройки**.
 
 #### Защита
 

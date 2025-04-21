@@ -15,23 +15,25 @@ cover: desktop.webp
 
 ## 傳統發行版
 
-### Fedora Workstation（Fedora 工作站）
+### Fedora Linux
 
 <div class="admonition recommendation" markdown>
 
 ![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Workstation** 是我們推薦給Linux新手的發行版。 Fedora 通常會比其他發行版先採用較新的技術 (例如 [Wayland](https://wayland.freedesktop.org) 和 [PipeWire](https://pipewire.org))。 這些新技術通常會在安全性、隱私性和可用性方面有所改善。
+**Fedora Linux** is our recommended desktop distribution for people new to Linux. Fedora 通常會比其他發行版先採用較新的技術 (例如 [Wayland](https://wayland.freedesktop.org) 和 [PipeWire](https://pipewire.org))。 這些新技術通常會在安全性、隱私性和可用性方面有所改善。
 
-[:octicons-home-16: 首頁](https://fedoraproject.org/workstation){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs){ .card-link title=說明文件}
-[:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title=捐款 }
+[:octicons-home-16: Homepage](https://fedoraproject.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs){ .card-link title=Documentation}
+[:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title=Contribute }
 
 </details>
 
 </div>
 
-Fedora 有一個半滾動的發布週期。 雖然像 [GNOME](https://gnome.org) 這樣的套件在下一個Fedora發布之前會被凍結，但大多數套件（包括內核）在該版的整個生命週期中都會頻繁更新。 每個 Fedora 版本支持一年，每6個月發布新版本。
+Fedora comes in two primary desktop editions, [Fedora Workstation](https://fedoraproject.org/workstation), which uses the GNOME desktop environment, and [Fedora KDE Plasma Desktop](https://fedoraproject.org/kde), which uses KDE. Historically, Fedora Workstation has been more popular and widely recommended, but KDE has been gaining in popularity and provides an experience more similar to Windows, which may make transitioning to Linux easier for some. The security and privacy benefits of both editions are very similar, so it mostly comes down to personal preference.
+
+Fedora 有一個半滾動的發布週期。 While some packages like the desktop environment are frozen until the next Fedora release, most packages (including the kernel) are updated frequently throughout the lifespan of the release. 每個 Fedora 版本支持一年，每6個月發布新版本。
 
 ### openSUSE Tumbleweed
 

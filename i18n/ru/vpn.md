@@ -45,7 +45,7 @@ global:
 
 ![Логотип Proton VPN](assets/img/vpn/protonvpn.svg){ align=right }
 
-**Proton VPN** - сильный соперник в сфере VPN, работающий с 2016 года. Proton AG базируется в Швейцарии и предлагает ограниченный бесплатный доступ, а также более функциональный премиум вариант.
+**Proton VPN** - сильный игрок в сфере VPN, работающий с 2016 года. Proton AG базируется в Швейцарии и предлагает ограниченный бесплатный доступ, а также более функциональный премиум вариант.
 
 [:octicons-home-16: Домашняя страница](https://protonvpn.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Политика конфиденциальности" }

@@ -15,15 +15,15 @@ Le distribuzioni di Linux sono comunemente consigliate per la protezione della p
 
 ## Distribuzioni tradizionali
 
-### Fedora Workstation
+### Fedora Linux
 
 <div class="admonition recommendation" markdown>
 
-![Logo Fedora](assets/img/linux-desktop/fedora.svg){ align=right }
+![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Workstation** è la nostra distribuzione consigliata per chi si avvicina per la prima volta a Linux. Fedora generally adopts newer technologies (e.g., [Wayland](https://wayland.freedesktop.org) and [PipeWire](https://pipewire.org)) before other distributions. Queste, spesso, comportano miglioramenti alla sicurezza, privacy e utilizzabilità, in generale.
+**Fedora Linux** is our recommended desktop distribution for people new to Linux. Fedora generally adopts newer technologies (e.g., [Wayland](https://wayland.freedesktop.org) and [PipeWire](https://pipewire.org)) before other distributions. Queste, spesso, comportano miglioramenti alla sicurezza, privacy e utilizzabilità, in generale.
 
-[:octicons-home-16: Homepage](https://fedoraproject.org/workstation){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://fedoraproject.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs){ .card-link title=Documentation}
 [:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title=Contribute }
 
@@ -31,7 +31,9 @@ Le distribuzioni di Linux sono comunemente consigliate per la protezione della p
 
 </div>
 
-Fedora ha un ciclo di rilascio semi continuo. While some packages like [GNOME](https://gnome.org) are frozen until the next Fedora release, most packages (including the kernel) are updated frequently throughout the lifespan of the release. Ogni versione di Fedora è supportata per un anno, con una nuova versione rilasciata ogni 6 mesi.
+Fedora comes in two primary desktop editions, [Fedora Workstation](https://fedoraproject.org/workstation), which uses the GNOME desktop environment, and [Fedora KDE Plasma Desktop](https://fedoraproject.org/kde), which uses KDE. Historically, Fedora Workstation has been more popular and widely recommended, but KDE has been gaining in popularity and provides an experience more similar to Windows, which may make transitioning to Linux easier for some. The security and privacy benefits of both editions are very similar, so it mostly comes down to personal preference.
+
+Fedora ha un ciclo di rilascio semi continuo. While some packages like the desktop environment are frozen until the next Fedora release, most packages (including the kernel) are updated frequently throughout the lifespan of the release. Ogni versione di Fedora è supportata per un anno, con una nuova versione rilasciata ogni 6 mesi.
 
 ### openSUSE Tumbleweed
 
