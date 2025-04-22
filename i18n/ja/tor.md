@@ -42,7 +42,7 @@ Torに接続する前に、Torと安全に接続する方法についての[概�
 
 Torネットワークへの接続は様々な方法がありますが、Firefoxをフォークし、デスクトップやAndroid用で[:material-incognito: 匿名](basics/common-threats.md#anonymity-vs-privacy ""){.pg-purple}ブラウジングを重視した**Tor Browser**が最も利用されています。
 
-Torネットワークに接続するアプリには長短があり、どれを使うかは脅威モデルによります。 If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using mobile browser apps like [Onion Browser](#onion-browser-ios) to access the Tor network is probably fine. 日常的にTorを使う人が増えることはTorのマイナスイメージをやわらげ、ISPや政府が作成しているかもしれない「Torユーザーリスト」の質を下げることになります。
+Torネットワークに接続するアプリには長短があり、どれを使うかは脅威モデルによります。 ISPが不利な証拠を集めることについて心配しないTorのカジュアルなユーザーであれば、[Onion Browser](#onion-browser-ios)などのモバイルブラウザからTorネットワークに接続することは良い方法です。 日常的にTorを使う人が増えることはTorのマイナスイメージをやわらげ、ISPや政府が作成しているかもしれない「Torユーザーリスト」の質を下げることになります。
 
 完全な匿名性が最優先であるなら、デスクトップのTor Browser**のみ**を使うべきであり、[Whonix](desktop.md#whonix)と[Qubes](desktop.md#qubes-os)の構成が理想的です。 モバイルブラウザではTorはあまり使われておらず（そのためフィンガープリンティングされやすい）、匿名化解除に対して厳密にテストはされていません。
 
@@ -109,4 +109,4 @@ Tor Browserを直接コンピューターにインストールするだけでは
 
 Onion Browserはデスクトップ版のTor Browserと同じレベルでプライバシーを保護することはできません。 Onion Serviceへアクセスするカジュアルな利用には適していますが、高度な追跡や監視を警戒する場合、匿名化ツールとして利用するべきではありません。
 
-[特に](https://github.com/privacyguides/privacyguides.org/issues/2929)、Onion Browserはすべての接続がTorを経由することを*保証*していません。 ビルトインのTorを使う場合、Webkitの制約のために[実際のIPアドレスがWebRTCやオーディオ・ビデオストリーム経由でリークする**可能性があります**](https://onionbrowser.com/faqs)。 It is *safer* to use Onion Browser alongside [Orbot](alternative-networks.md#orbot), but this still comes with some limitations on iOS.
+[特に](https://github.com/privacyguides/privacyguides.org/issues/2929)、Onion Browserはすべての接続がTorを経由することを*保証*していません。 ビルトインのTorを使う場合、Webkitの制約のために[実際のIPアドレスがWebRTCやオーディオ・ビデオストリーム経由でリークする**可能性があります**](https://onionbrowser.com/faqs)。 Onion Browserと[Orbot](alternative-networks.md#orbot)を併用することでより*安全*になりますが、iOS上での制約は残ります。
