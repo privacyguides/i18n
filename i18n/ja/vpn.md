@@ -112,11 +112,11 @@ Proton VPNにはOpenVPNもしくはWireGuardのようなVPNプロトコルを様
 Proton VPNは[App Store](https://apps.apple.com/app/id1437005085)と[Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)でクライアントをダウンロードでき、どちらもWireGuard接続を手動で設定する必要がなく、使いやすいインターフェースがあります。 Android向けのクライアントは[GitHub](https://github.com/ProtonVPN/android-app/releases)でも公開されています。
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">How to opt out of sharing telemetry</p>
+<p class="admonition-title">テレメトリーの共有をオプトアウトする方法</p>
 
-On Android, Proton hides telemetry settings under the misleadingly labeled "**Help us fight censorship**" menu in the settings panel. On other platforms these settings can be found under the "**Usage statistics**" menu.
+Android版では設定の「**検閲との闘いにご協力ください**」という誤解を招くような名前のメニューの中にテレメトリーの設定が隠されています。 他のプラットフォームでは設定の「**統計の使用**」のメニューの中にあります。
 
-We are noting this because while we don't necessarily recommend against sharing anonymous usage statistics with developers, it is important that these settings are easily found and clearly labeled.
+匿名の統計情報を開発者と共有することを必ずしも推奨していませんが、この設定を見つけやすく、わかりやすくなっていることが重要であるため、注意しています。
 
 </div>
 
