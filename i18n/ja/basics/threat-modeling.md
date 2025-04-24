@@ -61,17 +61,17 @@ description: セキュリティ、プライバシー、使いやすさのバラ�
 
 ### 守るためにどの程度なら苦労していいか？
 
-==There is no perfect option for security.== Not everyone has the same priorities, concerns, or access to resources. Your risk assessment will allow you to plan the right strategy for you, balancing convenience, cost, and privacy.
+==セキュリティに完璧な選択はありません。==誰もが同じ優先度や懸念があったり、リソースを持っていたりするわけではありません。 リスクアセスメントにより、利便性・コスト・プライバシーのバランスがとれた適切な戦略を立てることができます。
 
-For example, an attorney representing a client in a national security case may be willing to go to greater lengths to protect communications about that case, such as using encrypted email, than a mother who regularly emails her daughter funny cat videos.
+例えば、国家安全保障に関する事件を担当する弁護士は、娘に面白い猫の動画をメールで送る母親よりも、その事件に関する通信を保護するために、暗号化されたメールを使うなど苦労を惜しまないでしょう。
 
-*Write down what options you have available to you to help mitigate your unique threats. Note if you have any financial constraints, technical constraints, or social constraints.*
+*脅威を軽減するためにどのような選択肢があるか書き出してください。 経済的制約、技術的制約、社会的制約がある場合に注意してください。*
 
-### Try it yourself: Protecting Your Belongings
+### やってみよう：自分のものを守る
 
-These questions can apply to a wide variety of situations, online and offline. As a generic demonstration of how these questions work, let's build a plan to keep your house and possessions safe.
+オンラインでも、オフラインでも、これまでの質問は様々な状況に当てはめることができます。 例として、これまでの質問を家と所有物の安全を保つための計画を立てることに当てはめ、どのように役立つか見てみましょう。
 
-**何を守りたいか？ (Or, *what do you have that is worth protecting?*)**
+**何を守りたいか？ （もしくは*守る価値のあるものを持っているか？*）**
 :
 
 あなたの資産には、ジュエリー、電子機器、重要な文書、写真が含まれるかもしれません。
@@ -84,7 +84,7 @@ These questions can apply to a wide variety of situations, online and offline. A
 **守る必要がどの程度あるか？**
 :
 
-近所で強盗が発生したことはありますか？ ルームメイトや来客者はどのくらい信頼できますか？ What are the capabilities of your adversaries? What are the risks you should consider?
+近所で強盗が発生したことはありますか？ ルームメイトや来客者はどのくらい信頼できますか？ 敵対者の能力は？ 考慮すべきリスクは何ですか？
 
 **守れなかった場合、どんな悪影響があるか？**
 :
@@ -96,15 +96,15 @@ These questions can apply to a wide variety of situations, online and offline. A
 
 機密書類用の金庫を購入してもいいですか？ 高品質な鍵を買う余裕はありますか？ 近くの銀行の貸金庫に貴重品を保管する余裕はありますか？
 
-Only once you have asked yourself these questions will you be in a position to assess what measures to take. If your possessions are valuable, but the probability of a break-in is low, then you may not want to invest too much money in a lock. But, if the probability of a break-in is high, you'll want to get the best lock on the market and consider adding a security system.
+これらの質問に自問自答して初めて、どのような対策を取るべきか見極めることができます。 所有物が貴重であっても、侵入される可能性が低い場合、鍵にはお金をかけようと思わないでしょう。 しかし、侵入される可能性が高いのであれば、最高の鍵を手に入れ、追加のセキュリティシステムを検討することでしょう。
 
-Making a security plan will help you to understand the threats that are unique to you and to evaluate your assets, your adversaries, and your adversaries' capabilities, along with the likelihood of risks you face.
+セキュリティプランを立てることで、脅威について理解し、直面するリスクの可能性とともに、所有物、敵対者、敵対者の能力を評価することができます。
 
 ## 参考リンク
 
-For people looking to increase their privacy and security online, we've compiled a list of common threats our visitors face or goals our visitors have, to give you some inspiration and demonstrate the basis of our recommendations.
+オンライン上のプライバシーとセキュリティを向上させたい人にインスピレーションを与え、このサイトでの推奨の基礎を示すため、一般的な脅威や目標をリストにまとめました。
 
-- [Common Goals and Threats :material-arrow-right-drop-circle:](common-threats.md)
+- [一般的な目標と脅威 :material-arrow-right-drop-circle:](common-threats.md)
 
 ## ソース
 
