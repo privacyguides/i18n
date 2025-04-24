@@ -51,13 +51,13 @@ description: セキュリティ、プライバシー、使いやすさのバラ�
 
 ### 守れなかった場合、どんな悪影響があるか？
 
-敵対者があなたのデータにアクセスする方法はたくさんあります。 For example, an adversary can read your private communications as they pass through the network, or they can delete or corrupt your data.
+敵対者があなたのデータにアクセスする方法はたくさんあります。 例えば、敵対者はネットワークを経由するプライベートな通信を読み取ったり、データを破壊することができます。
 
-==The motives of adversaries differ widely, as do their tactics.== A government trying to prevent the spread of a video showing police violence may be content to simply delete or reduce the availability of that video. In contrast, a political opponent may wish to gain access to secret content and publish that content without you knowing.
+==敵対者の動機は様々で、そのため手口も変わります。==警察の乱暴さが写った動画の拡散を防ごうとする政府の場合、単に動画を削除したり、アクセスしにくくしたりするだけで十分です。 一方、政治的な対立者であれば秘密のデータにアクセスし、知らないうちに公開することを望んでいるかもしれません。
 
-Security planning involves understanding how bad the consequences could be if an adversary successfully gains access to one of your assets. To determine this, you should consider the capability of your adversary. For example, your mobile phone provider has access to all of your phone records. A hacker on an open Wi-Fi network can access your unencrypted communications. Your government might have stronger capabilities.
+セキュリティ・プランニングには、敵対者がデータにアクセスできた場合にどの程度、悪い結果となるかを理解することも含まれます。 そのためには敵対者の能力を考える必要があります。 例えば、携帯通信事業者はすべての通話記録にアクセスできます。 公衆Wi-Fiにいるハッカーは暗号化されていない通信内容にアクセスすることができます。 国であれば強大な能力を持っているでしょう。
 
-*Write down what your adversary might want to do with your private data.*
+*敵対者がプライベートなデータに対して何を望んでいるかを書き出してください。*
 
 ### 守るためにどの程度なら苦労していいか？
 
