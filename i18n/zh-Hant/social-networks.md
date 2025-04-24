@@ -1,7 +1,7 @@
 ---
-title: Social Networks
+title: 社交網路
 icon: material/account-supervisor-circle-outline
-description: Find a new social network that doesn’t pry into your data or monetize your profile.
+description: 尋找一個不會窺探您的個人資料或將其貨幣化的新社交網路。
 cover: social-networks.webp
 ---
 
@@ -10,13 +10,13 @@ cover: social-networks.webp
 - [:material-close-outline: 審查](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-These privacy-respecting **social networks** allow you to participate in online communities without giving up your personal information, like your full name, phone number, and other data commonly requested by tech companies.
+這些尊重隱私的 **社交網路** 可讓您參與線上社群，而無須透露您的個人資訊，例如：您的全名、電話號碼，以及科技公司通常要求的其他資料。
 
-A growing problem among social media platforms is censorship in two different forms. First, they often acquiesce to illegitimate censorship requests, either from malicious governments or their own internal policies.
+社交媒體平台間日益嚴重的問題是兩種不同形式的審查。 首先，他們經常默許非法的審查要求，這些要求可能來自惡意的政府，也可能來自他們自己的內部政策。
 
-Second, they often require accounts to access walled-off content that would otherwise be published freely on the open internet. This effectively censors the browsing activities of privacy-conscious users who are unable to pay the privacy cost of opening an account on these networks.
+其次，它們通常需要帳號才能存取發布在其之上的內容，而這些內容原本可以在開放的網際網路上自由發表。 這有效地審查了注重隱私的使用者的瀏覽活動，因為他們無法支付在這些服務開設帳戶的隱私成本。
 
-The social networks we recommend solve the issue of censorship by operating atop an open and decentralized social networking protocol. While it is possible for your account to be banned or silenced by an individual server, there is no central authority which can censor your account across the entire network. They also don't require an account merely to view publicly available content.
+我們推薦的社交網路透過開放且分散的社交網路協定來解決審查問題。 While it is possible for your account to be banned or silenced by an individual server, there is no central authority which can censor your account across the entire network. They also don't require an account merely to view publicly available content.
 
 You should note that **no** social networks are appropriate for private or sensitive communications. For chatting directly with others, you should use a recommended [instant messenger](real-time-communication.md) with strong end-to-end encryption, and only use direct messages on social media in order to establish a more private and secure chat platform with your contacts.
 
