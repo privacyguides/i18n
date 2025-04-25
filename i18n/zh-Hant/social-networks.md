@@ -16,9 +16,9 @@ cover: social-networks.webp
 
 其次，它們通常需要帳號才能存取發布在其之上的內容，而這些內容原本可以在開放的網際網路上自由發表。 這有效地審查了注重隱私的使用者的瀏覽活動，因為他們無法支付在這些服務開設帳戶的隱私成本。
 
-我們推薦的社交網路透過開放且分散的社交網路協定來解決審查問題。 While it is possible for your account to be banned or silenced by an individual server, there is no central authority which can censor your account across the entire network. They also don't require an account merely to view publicly available content.
+我們推薦的社交網路透過開放且分散的社交網路協定來解決審查問題。 雖然您的帳號仍有可能被個別伺服器封禁或隱藏，但沒有中央機關可以在整個網路中審查您的帳號。 檢視公開內容也不需要帳號。
 
-You should note that **no** social networks are appropriate for private or sensitive communications. For chatting directly with others, you should use a recommended [instant messenger](real-time-communication.md) with strong end-to-end encryption, and only use direct messages on social media in order to establish a more private and secure chat platform with your contacts.
+您應該注意，所有社交網路都 **不** 適合私人或敏感的通訊。 若要直接與他人聊天，您應該使用我們推薦—具有強大端對端加密功能的 [即時通訊工具](real-time-communication.md) ，並只使用社交媒體上的直接訊息，以便與聯絡人建立更私密、更安全的聊天平台。
 
 ## Mastodon
 
@@ -26,18 +26,18 @@ You should note that **no** social networks are appropriate for private or sensi
 
 ![Mastodon logo](assets/img/social-networks/mastodon.svg){ align=right }
 
-**Mastodon** is a social network based on open web protocols and free, open-source software. It uses the **:simple-activitypub: ActivityPub** protocol, which is decentralized like email: users can exist on different servers or even different platforms but still communicate with each other.
+**Mastodon** 是基於開放網路通訊協定和自由及開放原始碼軟體的社交網路。 它使用 **:simple-activitypub: ActivityPub** 通訊協定，就像電子郵件一樣是分散式的：使用者可以存在於不同的伺服器甚至不同的社交平台上，但仍然可以相互溝通。
 
-[:octicons-home-16: Homepage](https://joinmastodon.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.joinmastodon.org){ .card-link title="Documentation" }
+[:octicons-home-16: 首頁](https://joinmastodon.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.joinmastodon.org){ .card-link title="說明文件" }
 
 </div>
 
-There are many software platforms which use ActivityPub as their backend social networking protocol, meaning they can talk to servers even when they are running different software. For example, PeerTube is a video publishing software that uses ActivityPub, meaning you can follow channels on PeerTube either with another PeerTube account, _or_ with a Mastodon account because Mastodon also uses ActivityPub.
+有許多軟體平台使用 ActivityPub 作為其後端社交網路通訊協定，這意味著即使它們執行不同的軟體，也能與伺服器進行通訊。 例如，PeerTube 是使用 ActivityPub 的影片發佈軟體，這表示您可以使用另一個 PeerTube 帳戶追蹤 PeerTube 上的頻道， _或_ 使用 Mastodon 帳戶，因為 Mastodon 也使用 ActivityPub。
 
-We chose to recommend Mastodon over other ActivityPub software as your primary social media platform for these reasons:
+基於以下這些原因，我們選擇推薦 Mastodon 而非其他 ActivityPub 軟體作為您的主要社交媒體平台：
 
-1. Mastodon has a solid history of security updates. In the handful of circumstances where major security vulnerabilities have been found, they coordinate patch releases quickly and cleanly. Historically they have also backported these security patches to older feature branches. This makes it easier for less experienced server hosts who may not feel comfortable upgrading to the latest releases right away to keep their instances secure. Mastodon also has an update notification system built in to the web interface, making it much more likely for server administrators to be aware of critical security patches available for their instance.
+1. Mastodon 具有穩固的安全更新歷史。 In the handful of circumstances where major security vulnerabilities have been found, they coordinate patch releases quickly and cleanly. Historically they have also backported these security patches to older feature branches. This makes it easier for less experienced server hosts who may not feel comfortable upgrading to the latest releases right away to keep their instances secure. Mastodon also has an update notification system built in to the web interface, making it much more likely for server administrators to be aware of critical security patches available for their instance.
 
 2. Mastodon is largely usable with most content types. While it is primarily a microblogging platform, Mastodon easily handles longer posts, image posts, video posts, and most other posts you might encounter when following ActivityPub users who aren't on Mastodon. This makes your Mastodon account an ideal "central hub" for following anyone regardless of the platform they chose to use. In contrast, if you were only using a PeerTube account, you would _only_ be able to follow other video channels, for example.
 
