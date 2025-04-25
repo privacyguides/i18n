@@ -2,42 +2,42 @@
 *[ADB]: Android 偵錯橋接器
 *[AOSP]: Android 開放原始碼計畫
 *[ATA]: 高技術配置
-*[攻擊面]: The total number of possible entry points for unauthorized access to a system
+*[攻擊面]: 未經授權存取系統的可能進入點總數
 *[AVB]: Android 驗證啟動
 *[cgroups]: 對照組
 *[CLI]: 命令列介面
 *[CSV]: 字元分隔值
 *[CVE]: 公共漏洞和暴露
-*[詐欺性設計模式]: A deceptive design pattern intended to trick a user into doing things
-*[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
+*[詐欺性設計模式]: 一種欺騙性的設計模式，目的在於欺騙使用者做一些事情
+*[數位遺產功能]: 數位遺產是指在您去世之後，允許讓其他人存取您資料的功能
 *[DNSSEC]: 網域名稱系統安全擴充套件
 *[DNS]: 域名系統
 *[DoH]: 基於 HTTPS 的 DNS 服務 (DNS over HTTPS)
 *[DoQ]: 基於 QUIC 的 DNS 服務 (DNS over QUIC)
 *[DoH3]: 基於 HTTP/3 的 DNS 服務 (DNS over HTTP/3)
 *[DoT]: 基於 TLS 的 DNS 服務 (DNS over TLS)
-*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
+*[DPI]: 深度封包檢測 (Deep Packet Inspection)，是一種用於識別並封鎖具有特定特徵封包的技術
 *[E2EE]: 端對端加密
 *[ECS]: EDNS 客戶端子網
 *[EEA]: 歐洲經濟區
-*[entropy]: A measurement of how unpredictable something is
+*[entropy]: 衡量某件事物的不可預測程度
 *[EOL]: 產品壽命結束
 *[Exif]: 可交換影像檔案格式
 *[FCM]: Firebase 雲端訊息傳遞
 *[FDE]: 完整磁碟加密
 *[FIDO]: 快速線上身份驗證
 *[FS]: 前向保密
-*[分支]: A new software project created by copying an existing project and adding to it independently
+*[分支]: 從現有軟體專案複製再另外分隔出來的新獨立專案
 *[GDPR]: 一般資料保護規定 (歐盟)
 *[GPG]: GNU Privacy Guard (基於 PGP 協定)
 *[GPS]: 全球定位系統
 *[GUI]: 圖形使用者介面
 *[GnuPG]: GNU Privacy Guard (基於 PGP 協定)
 *[HDD]: 傳統硬碟 (又稱機械硬碟)
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
+*[HOTP]: 基於 HMAC (雜湊式訊息驗證碼) 的一次性密碼
 *[HTTPS]: 安全超文本傳輸協議
 *[HTTP]: 超文本傳輸協議
-*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
+*[hypervisor]: 將 CPU 資源分配給多個操作系統的電腦軟體、韌體或硬體
 *[ICCID]: 集成式迴路卡識別碼
 *[IMAP]: 網際網路訊息存取協定
 *[IMEI]: 國際行動裝置識別碼
@@ -49,22 +49,22 @@
 *[ISPs]: 網際網路服務提供商
 *[JNI]: Java 原生介面
 *[KYC]: 客戶身分審查
-*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-*[LLMs]: Large Language Models (AI models such as ChatGPT)
-*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
+*[LLaVA]: Large Language and Vision Assistant（多模態 AI 模型）
+*[LLMs]： 大型語言模型（AI 模型，例如：ChatGPT）
+*[LUKS]: Linux 統一金鑰設定 (全磁碟加密)
 *[MAC]: 媒體存取控制
 *[MDAG]: Microsoft Defender 應用程式防護
 *[MEID]: 行動裝置識別碼
 *[MFA]: 多重要素驗證
-*[NVMe]: Nonvolatile Memory Express
-*[NAT]: Network address translation
-*[NAT-PMP]: NAT Port Mapping Protocol
+*[NVMe]: 非揮發性記憶體控制規範
+*[NAT]: 網路位址轉譯
+*[NAT-PMP]: NAT 連接埠對應通訊協定
 *[NTP]: 網路時間協定
 *[OCI]: 開放容器標準
 *[OCSP]: 線上憑證狀態協定
 *[OEM]: 原始設備製造商
 *[OEMs]: 原始設備製造商
-*[open-weights]: An open weights-model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
+*[open-weights]： 開放權重模型是任何人都可以下載和使用的 AI 模型，但其基礎訓練資料和/或演算法是專屬的。
 *[OS]: 操作系統
 *[OTP]: 一次性密碼
 *[OTPs]: 一次性密碼
@@ -72,10 +72,10 @@
 *[P2P]: 點對點網路 (又稱對等式網路)
 *[PAM]: Linux 插入式驗證模組
 *[POP3]: 郵局協定第 3 版
-*[PGP]: Pretty Good Privacy (see OpenPGP)
+*[PGP]: 優良保密協定 (見 OpenPGP)
 *[PII]: 個人可識別資訊
 *[QNAME]: 限定名稱
-*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
+*[QUIC]: 以 UDP 為基礎的網路協定，旨在結合 UDP 的速度與 TCP 的可靠性。
 *[rate limits]: Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time.
 *[滾動式更新]: Updates which are released frequently rather than set intervals
 *[RSS]: 簡易資訊聚合格式
@@ -107,5 +107,5 @@
 *[W3C]: 全球資訊網協會
 *[XMPP]: 可延伸傳訊與顯示通訊協定
 *[PWA]: 漸進式網路應用程式
-*[PWAs]: Progressive Web Apps
-*[WKD]: Web Key Directory
+*[PWAs]： 漸進式網路應用程式
+*[WKD]： 網頁鑰匙目錄
