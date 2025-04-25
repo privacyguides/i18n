@@ -148,13 +148,13 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 
 ### 建議的 Firefox 設定
 
-These options can be found in :material-menu: → **Settings**.
+這些選項可以在 :material-menu: → **設定** 中找到。
 
 #### 搜尋
 
 - [ ] 取消勾選 **顯示搜尋建議**
 
-Search suggestion features may not be available in your region.
+您所在的地區可能無法使用搜尋建議功能。
 
 Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
@@ -271,7 +271,7 @@ Brave 在官網的下載的檔案名稱中新增了一個 「[推廣代碼（ref
 
 ### 建議的 Brave 設定
 
-These options can be found in :material-menu: → **Settings**.
+這些選項可以在 :material-menu: → **設定** 中找到。
 
 #### 防護
 

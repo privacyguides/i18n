@@ -41,13 +41,13 @@ cover: social-networks.webp
 
 2. 大多數內容類型可用於 Mastodon。 While it is primarily a microblogging platform, Mastodon easily handles longer posts, image posts, video posts, and most other posts you might encounter when following ActivityPub users who aren't on Mastodon. 這讓您的 Mastodon 帳戶成為追蹤任何人的理想「中央樞紐」，不論他們選擇使用何種平台。 In contrast, if you were only using a PeerTube account, you would _only_ be able to follow other video channels, for example.
 
-3. Mastodon 有相當全面的隱私權控制。 它有許多內建功能，可讓您限制是否共享資料和資料共用的方式，以下會介紹其中一些功能。 They also develop new features with privacy in mind. For example, while other ActivityPub software quickly implemented "quote posts" by merely handling links to other posts with a slightly different embed modal, Mastodon is [developing](https://blog.joinmastodon.org/2025/02/bringing-quote-posts-to-mastodon/) a quote post feature which will give you more fine-grained control when your post is quoted.
+3. Mastodon 有相當全面的隱私權控制。 它有許多內建功能，可讓您限制是否共享資料和資料共用的方式，以下會介紹其中一些功能。 他們在開發新功能時也會考慮到隱私權。 For example, while other ActivityPub software quickly implemented "quote posts" by merely handling links to other posts with a slightly different embed modal, Mastodon is [developing](https://blog.joinmastodon.org/2025/02/bringing-quote-posts-to-mastodon/) a quote post feature which will give you more fine-grained control when your post is quoted.
 
-### Choosing an Instance
+### 選擇實例
 
-To benefit the most from Mastodon, it is critical to choose a server, or "instance," which is well aligned with the type of content you want to post or read about. While censorship in Mastodon does not exist on a network level, it is very possible to experience censorship on a server level depending on your server's administrator.
+為了從 Mastodon 獲得最大的效益，選擇一個與您想要張貼或閱讀的內容類型相匹配的伺服器或「實例」是至關重要的。 雖然 Mastodon 中的審查制度不存在於網路層級，但在伺服器層級上卻很有可能遇到審查制度，這取決於您伺服器的管理員。
 
-It is critical to understand that Mastodon is not a single, unified service in the way that X (Twitter) or Facebook are. Each server is its own legal entity, with its own privacy policy, terms of use, administration team, and moderators. While many of these servers are far _less_ restrictive and more privacy-respecting than traditional social media platforms, some can be far _more_ restrictive or potentially _worse_ for your privacy. The Mastodon software does not discriminate between these administrators or place any limitations on their powers.
+必須了解的是，Mastodon 並非像 X (Twitter) 或 Facebook 一樣是單一、統一的服務。 每個伺服器都是個別的的法律實體，有自己的隱私權政策、使用條款、管理團隊和版主。 While many of these servers are far _less_ restrictive and more privacy-respecting than traditional social media platforms, some can be far _more_ restrictive or potentially _worse_ for your privacy. The Mastodon software does not discriminate between these administrators or place any limitations on their powers.
 
 We do not currently recommend any specific instances, but you may find advice within our communities. We recommend avoiding _mastodon.social_ and _mastodon.online_ because they are operated by the same company which develops Mastodon itself. From the perspective of decentralization, it is better in the long term to separate software developers and server hosts so that no one party can exert too much control over the network as a whole.
 
