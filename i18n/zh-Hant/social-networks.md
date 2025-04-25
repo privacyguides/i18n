@@ -53,9 +53,9 @@ cover: social-networks.webp
 
 如果您非常擔心現有伺服器會審查您發布的內容或您可以檢視的內容，您通常有兩個選擇：
 
-1. **Host Mastodon yourself.** This approach gives you the exact same censorship resistance as any other website you can host yourself, which is fairly high. Mastodon even [integrates with the Tor network](https://docs.joinmastodon.org/admin/optional/tor) for more extreme scenarios where even your underlying hosting provider is subject to censorship, but this may limit who can access your content to only other servers which integrate with Tor, like most other hidden services.
+1. **自己託管 Mastodon。** 這種方法可以讓您和任何其他您可以自己託管的網站一樣，具有完全相同的極高抗審查能力。 Mastodon 甚至能 [與 Tor 網路整合](https://docs.joinmastodon.org/admin/optional/tor)，以應付更極端的、甚至您的底層主機供應商也受到審查的情況，但這可能會限制誰可以存取您的內容，只能存取整合 Tor 的其他伺服器，就像其他大多數隱藏服務一樣。
 
-    Mastodon benefits greatly from a large and active self-hosting community, and its administration is comprehensively documented. While many other ActivityPub platforms can require extensive technical knowledge to run and troubleshoot, Mastodon has very stable and tested releases, and it can generally be run securely without issue by anyone who can use the Linux command line and follow [step-by-step instructions](https://docs.joinmastodon.org/admin/prerequisites).
+    Mastodon 從龐大且活躍的自助託管社群中獲益良多，其也有極其全面針對管理的說明文件。 雖然許多其他 ActivityPub 平台可能需要豐富的技術知識才能執行和排除故障，但 Mastodon 擁有非常穩定且經過測試的版本，一般來說，任何人只要會使用 Linux 命令列並遵循他們的 [逐步教學](https://docs.joinmastodon.org/admin/prerequisites)，就可以安全無虞地執行它。
 
 2. **Use a managed hosting service.** We don't have any specific recommendations, but there are a variety of Mastodon hosting services which will create a brand-new Mastodon server on your own domain (or occasionally a subdomain of their domain, but we recommend against this unless registering your own domain presents too much of a burden to your privacy).
 
@@ -65,9 +65,9 @@ cover: social-networks.webp
 
     You should look closely at your hosting provider's terms of service and acceptable use policies before registering. These are often far more broad than typical hosted instance rules, and they are far less likely to be enforced without recourse, but they can still be restrictive in undesirable ways.
 
-### Recommended Privacy Settings
+### 建議的隱私設定
 
-From Mastodon's web interface, click the **Administration** link in the right sidebar. Within the administration control panel, you'll find these sections in the left sidebar:
+From Mastodon's web interface, click the **Administration** link in the right sidebar. 在管理控制面板中，您可以在左側欄中找到這些區段：
 
 #### Public Profile
 
