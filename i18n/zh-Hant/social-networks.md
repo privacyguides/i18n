@@ -47,11 +47,11 @@ cover: social-networks.webp
 
 為了從 Mastodon 獲得最大的效益，選擇一個與您想要張貼或閱讀的內容類型相匹配的伺服器或「實例」是至關重要的。 雖然 Mastodon 中的審查制度不存在於網路層級，但在伺服器層級上卻很有可能遇到審查制度，這取決於您伺服器的管理員。
 
-必須了解的是，Mastodon 並非像 X (Twitter) 或 Facebook 一樣是單一、統一的服務。 每個伺服器都是個別的的法律實體，有自己的隱私權政策、使用條款、管理團隊和版主。 While many of these servers are far _less_ restrictive and more privacy-respecting than traditional social media platforms, some can be far _more_ restrictive or potentially _worse_ for your privacy. The Mastodon software does not discriminate between these administrators or place any limitations on their powers.
+必須了解的是，Mastodon 並非像 X (Twitter) 或 Facebook 一樣是單一、統一的服務。 每個伺服器都是個別的的法律實體，有自己的隱私權政策、使用條款、管理團隊和版主。 雖然其中許多伺服器比傳統的社交媒體平台限制 _少_ 且更尊重隱私權，但也有些可能限制更 _多_ 或 _可能_ 損害您的隱私。 Mastodon 軟體不會區分這些管理員，也不會對他們的權力施加任何限制。
 
-We do not currently recommend any specific instances, but you may find advice within our communities. We recommend avoiding _mastodon.social_ and _mastodon.online_ because they are operated by the same company which develops Mastodon itself. From the perspective of decentralization, it is better in the long term to separate software developers and server hosts so that no one party can exert too much control over the network as a whole.
+我們目前不推薦任何特定的實例，但您可以在我們的社群中找到建議。 我們建議避免使用 _mastodon.social_ 和 _mastodon.online_ ，因為它們是由開發 Mastodon 軟體本身的同一家公司所經營。 從去中心化的角度長遠來看，不要使用軟體開發者所控制的伺服器是比較好的做法，這樣就沒有任何一方可以對整個網路施加過多的控制。
 
-If you are greatly concerned about an existing server censoring your content or the content you can view, you generally have two options:
+如果您非常擔心現有伺服器會審查您發布的內容或您可以檢視的內容，您通常有兩個選擇：
 
 1. **Host Mastodon yourself.** This approach gives you the exact same censorship resistance as any other website you can host yourself, which is fairly high. Mastodon even [integrates with the Tor network](https://docs.joinmastodon.org/admin/optional/tor) for more extreme scenarios where even your underlying hosting provider is subject to censorship, but this may limit who can access your content to only other servers which integrate with Tor, like most other hidden services.
 
