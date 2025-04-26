@@ -1,10 +1,10 @@
 ---
 title: "一般的な脅威"
 icon: 'material/eye-outline'
-description: Your threat model is personal to you, but these are some of the things many visitors to this site care about.
+description: 脅威モデルは個々人によりますが、このサイトの閲覧者が気にしていることが含まれます。
 ---
 
-Broadly speaking, we categorize our recommendations into the [threats](threat-modeling.md) or goals that apply to most people. ==You may be concerned with none, one, a few, or all of these possibilities==, and the tools and services you use depend on what your goals are. You may have specific threats outside these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortcomings of the tools you choose to use, because virtually none of them will protect you from every threat.
+一般的にいえば、推奨するものは多くの人に当てはまる[脅威](threat-modeling.md)や目標に分類することができます。 ==この可能性のうち、どれも心配していないかもしれませんし、一つ、２つ以上、もしくは全てに関心があるかもしれませんが、==使うツールやサービスは目標によります。 このカテゴリ以外の脅威に関心があるかもしれませんが、問題ありません！ 重要なのは、選んだツールの利点と欠点を理解することです。なぜならすべての脅威から保護するようなものは実際ないからです。
 
 <span class="pg-purple">:material-incognito: **Anonymity**</span>
 :
