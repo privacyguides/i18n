@@ -6,50 +6,50 @@ description: 脅威モデルは個々人によりますが、このサイトの�
 
 一般的にいえば、推奨するものは多くの人に当てはまる[脅威](threat-modeling.md)や目標に分類することができます。 ==この可能性のうち、どれも心配していないかもしれませんし、一つ、２つ以上、もしくは全てに関心があるかもしれませんが、==使うツールやサービスは目標によります。 このカテゴリ以外の脅威に関心があるかもしれませんが、問題ありません！ 重要なのは、選んだツールの利点と欠点を理解することです。なぜならすべての脅威から保護するようなものは実際ないからです。
 
-<span class="pg-purple">:material-incognito: **Anonymity**</span>
+<span class="pg-purple">:material-incognito:**匿名性**</span>
 :
 
-Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
+オンライン上の活動を実際の身元から保護し、*あなたの*身元を特定しようとする人から守ります。
 
-<span class="pg-red">:material-target-account: **Targeted Attacks**</span>
+<span class="pg-red">:material-target-account:**標的型攻撃**</span>
 :
 
-Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
+*あなたの*データやデバイスを対象にアクセスしようとするハッカーや悪意のある者から守ります。
 
-<span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
+<span class="pg-viridian">:material-package-variant-closed-remove:**サプライチェーン攻撃**</span>
 :
 
-Typically, a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+典型的な<span class="pg-red">:material-target-account:標的型攻撃</span>の一つで、正常なソフトウェアに直接もしくはサードパーティの依存関係の脆弱性やエクスプトイトを伝って行われる攻撃です。
 
-<span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
+<span class="pg-orange">:material-bug-outline:**パッシブ攻撃**</span>
 :
 
-Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
+マルウェア、データ漏洩など一度に多数の人を対象に行われる攻撃から守ります。
 
-<span class="pg-teal">:material-server-network: **Service Providers**</span>
+<span class="pg-teal">:material-server-network:**サービスプロバイダー**</span>
 :
 
-Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
+サービスの提供者からデータを守ります（例えば、エンドツーエンド暗号化によって、サーバーでデータを読み取ることができなくなります）。
 
-<span class="pg-blue">:material-eye-outline: **Mass Surveillance**</span>
+<span class="pg-blue">:material-eye-outline:**監視社会**</span>
 :
 
-Protection from government agencies, organizations, websites, and services which work together to track your activities.
+政府の機関・組織・ウェブサイトや活動を追跡することに協力するサービスから守ります。
 
-<span class="pg-brown">:material-account-cash: **Surveillance Capitalism**</span>
+<span class="pg-brown">:material-account-cash:**監視資本主義**</span>
 :
 
-Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
+GoogleやFacebookのような巨大な広告ネットワークやその他多数のサードパーティのデータ収集者から守ります。
 
-<span class="pg-green">:material-account-search: **Public Exposure**</span>
+<span class="pg-green">:material-account-search:**秘密の暴露**</span>
 :
 
-Limiting the information about you that is accessible online—to search engines or the public.
+検索エンジンに対し、もしくは一般公開されている、オンライン上の情報へのアクセスに制限します。
 
-<span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
+<span class="pg-blue-gray">:material-close-outline:**検閲**</span>
 :
 
-Avoiding censored access to information or being censored yourself when speaking online.
+オンライン上で発言する際、情報や自身に対する検閲を避けます。
 
 Some of these threats may be more important to you than others, depending on your specific concerns. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> and <span class="pg-red">:material-target-account: Targeted Attacks</span>. They will likely still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. Similarly, many people may be primarily concerned with <span class="pg-green">:material-account-search: Public Exposure</span> of their personal data, but they should still be wary of security-focused issues, such as <span class="pg-orange">:material-bug-outline: Passive Attacks</span>—like malware affecting their devices.
 
