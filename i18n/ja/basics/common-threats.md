@@ -65,18 +65,18 @@ GoogleやFacebookのような巨大な広告ネットワークやその他多数
 
 <span class="pg-orange">:material-bug-outline: パッシブ攻撃</span>
 
-Security and privacy are also often confused, because you need security to obtain any semblance of privacy: Using tools—even if they're private by design—is futile if they could be easily exploited by attackers who later release your data. However, the inverse isn't necessarily true: The most secure service in the world *isn't necessarily* private. The best example of this is trusting data to Google who, given their scale, have had few security incidents by employing industry-leading security experts to secure their infrastructure. Even though Google provides very secure services, very few people would consider their data private in Google's free consumer products (Gmail, YouTube, etc.)
+セキュリティとプライバシーはよく混同されます。プライバシーを確保するにはセキュリティが必要です：たとえ設計上はプライバシーが確保されているツールを使っていても、個人のデータを公開しようとする攻撃者が簡単に攻撃できるのであれば、意味がありません。 ただし、この逆は必ずしも正しいわけではありません：世界で最もセキュアなサービスはプライバシーがある*とは限りません*。 最もよい例はGoogleにデータを託すことです。インフラを保護するために業界トップのセキュリティ専門家を雇っており、Googleの規模を考えれば、セキュリティインシデントはほとんど起きていません。 Googleのサービスは非常に安全ではありますが、Googleの一般消費者向けの無料サービス（Gmail, YouTubeなど）で自分のデータのプライバシーがあると考える人はほとんどいないでしょう。
 
-When it comes to application security, we generally don't (and sometimes can't) know if the software we use is malicious, or might one day become malicious. Even with the most trustworthy developers, there's generally no guarantee that their software doesn't have a serious vulnerability that could later be exploited.
+アプリケーションのセキュリティに関して、通常はそのソフトウェアが悪意のあるものか、あるいは悪意のあるものになるかは分かりません（知ることすらできないこともあります）。 たとえ信頼のできる開発者が関わっていたとしても、重大な脆弱性がなく、悪用されないという保証はありません。
 
-To minimize the damage that a malicious piece of software *could* do, you should employ security by compartmentalization. For example, this could come in the form of using different computers for different jobs, using virtual machines to separate different groups of related applications, or using a secure operating system with a strong focus on application sandboxing and mandatory access control.
+悪意のあるソフトウェアの影響を最小限に抑え*うる*ためには、区画化によるセキュリティを採用することです。 例えば、ジョブごとにコンピューターを使い分けたり、関連するアプリケーションのグループごとに仮想マシンを分けたり、アプリケーションのサンドボックスや強制的なアクセス制御を重視したセキュアなOSを使ったりすることが挙げられます。
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">ヒント</p>
 
-Mobile operating systems generally have better application sandboxing than desktop operating systems: Apps can't obtain root access, and require permission for access to system resources.
+一般的にモバイルOSはデスクトップOSよりもアプリケーションサンドボックス機能が優れています：アプリケーションはルートアクセスを取得できず、システムリソースへのアクセスは許可が必要です。
 
-Desktop operating systems generally lag behind on proper sandboxing. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). However, these operating systems do transmit identifying information to their respective OEMs. Linux tends to not submit information to system vendors, but it has poor protection against exploits and malicious apps. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+デスクトップOSは適切なサンドボックス化では遅れています。 ChromeOSにはAndroidと同じようなサンドボックス機能があり、macOSには完全なシステムの権限制御があります（開発者はアプリケーションのサンドボックス化を選ぶことができます）。 ただし、識別情報をOEM元に送信します。 Linuxはシステムベンダーに情報を送らないことが多いですが、エクスプロイトや悪意のあるアプリからの保護は不十分です。 [QubesOS](../desktop.md#qubes-os)のような仮想マシンやコンテナを多用する特別なディストリビューションを使えば影響は軽減されます。
 
 </div>
 
