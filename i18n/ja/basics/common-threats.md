@@ -51,15 +51,15 @@ GoogleやFacebookのような巨大な広告ネットワークやその他多数
 
 オンライン上で発言する際、情報や自身に対する検閲を避けます。
 
-Some of these threats may be more important to you than others, depending on your specific concerns. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> and <span class="pg-red">:material-target-account: Targeted Attacks</span>. They will likely still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. Similarly, many people may be primarily concerned with <span class="pg-green">:material-account-search: Public Exposure</span> of their personal data, but they should still be wary of security-focused issues, such as <span class="pg-orange">:material-bug-outline: Passive Attacks</span>—like malware affecting their devices.
+懸念によりますが、脅威の中には他よりも重要だと思うものがあるかもしれません。 例えば、貴重なもしくは重要なデータにアクセスできるソフトウェア開発者は主に<span class="pg-viridian">:material-package-variant-closed-remove:サプライチェーン攻撃</span>や<span class="pg-red">:material-target-account:標的型攻撃</span>に関心を持つかもしれません。 また、<span class="pg-blue">:material-eye-outline:監視社会</span>のプログラムに巻き込まれないよう個人のデータを守りたいと思うでしょう。 同様に、多くの人は主に個人データの<span class="pg-green">:material-account-search:秘密の暴露</span>は気にしているかもしれませんが、デバイスがマルウェアに感染するなどの<span class="pg-orange">:material-bug-outline:パッシブ攻撃</span>のようなセキュリティの問題にも注意を向ける必要があります。
 
 ## 匿名性とプライバシーの比較
 
 <span class="pg-purple">:material-incognito: 匿名性</span>
 
-匿名性はしばしばプライバシーと混同されますが、それらは異なる概念です。 While privacy is a set of choices you make about how your data is used and shared, anonymity is the complete disassociation of your online activities from your real identity.
+匿名性はしばしばプライバシーと混同されますが、それらは異なる概念です。 プライバシーは個人のデータがどのように使われ、共有されるかを選択するのに対し、匿名性は実際の身元とオンライン上での活動を完全に切り離すことです。
 
-Whistleblowers and journalists, for example, can have a much more extreme threat model which requires total anonymity. That's not only hiding what they do, what data they have, and not getting hacked by malicious actors or governments, but also hiding who they are entirely. They will often sacrifice any kind of convenience if it means protecting their anonymity, privacy, or security, because their lives could depend on it. ほとんどの人はそこまでする必要はありません。
+例えば、内部告発者やジャーナリストの脅威モデルは完全な匿名性が必要となる極端なものになるでしょう。 何をしているか、どんなデータを持っているかを隠し、悪意ある者や政府からハッキングされていないことだけではなく、誰であるかを完全に隠すことです。 命がかかっているため、匿名性、プライバシー、セキュリティを守るためであればどんな利便性も犠牲にするでしょう。 ほとんどの人はそこまでする必要はありません。
 
 ## セキュリティーとプライバシー
 
