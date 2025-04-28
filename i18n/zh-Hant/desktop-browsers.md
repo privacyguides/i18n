@@ -156,11 +156,11 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 
 您所在的地區可能無法使用搜尋建議功能。
 
-Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+搜尋建議會將您在網址列中輸入的所有內容傳送至預設搜尋引擎，無論您是否實際提交搜尋。 停用搜尋建議可讓您更精確地控制您傳送給搜尋引擎供應商的資料。
 
 ##### Firefox Suggest (僅限美國)
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) 是一項類似搜尋建議的功能，目前僅在美國提供。 我們建議停用此功能的原因與我們建議停用搜尋建議的原因相同。 If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
 
 - [ ] 取消勾選 **Suggestions from Firefox**
 - [ ] 取消勾選 **Suggestions from sponsors**
@@ -171,7 +171,7 @@ Search suggestions send everything you type in the address bar to the default se
 
 - [x] 在 加強型追蹤保護 下選擇 **嚴格**
 
-This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
+此功能可封鎖社交媒體追蹤器、指紋辨識腳本 (注意，這並不能保護您免於 *所有* 指紋辨識)、加密貨幣挖礦程式、跨網站追蹤 Cookie 以及其他追蹤內容來保護您。 加強型追蹤保護功能可保護您免於許多常見威脅，但並不會阻止所有追蹤途徑，因為它的設計考量了網站的可用性。
 
 ##### 關閉時清除資料
 
@@ -179,7 +179,7 @@ If you want to stay logged in to particular sites, you can allow exceptions in *
 
 - [x] 勾選 **關閉 Firefox 時清除 Cookie 與網站資料**
 
-This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
+這可以保護您免受持久性 Cookie 的影響，但無法防止在單一瀏覽階段中產生的 Cookie。 啟用此功能後，只要重新啟動 Firefox，就能輕鬆清除瀏覽器 cookie。 如果您希望在經常造訪的特定網站保持登入狀態，可以針對個別網站設定例外。
 
 ##### 遙測
 
@@ -187,7 +187,7 @@ This protects you from persistent cookies, but does not protect you against cook
 - [ ] 取消勾選 **允許 Firefox 安裝並進行研究**
 - [ ] 取消勾選 **允許 Firefox 以您的身分自動回報錯誤報告**
 
-According to Mozilla's privacy policy for Firefox,
+根據 Mozilla 的 Firefox 隱私權政策：
 
 > Firefox 會向 Mozilla 發送以下數據：您的 Firefox 版本和語言；操作系統和硬體配置；記憶體、關於崩潰和錯誤的基本訊息；更新、安全瀏覽和啟動等自動化流程系統的結果。 當 Firefox 向 Mozilla 發送數據時，會將您的 IP 位址作為伺服器日誌的一部份暫時收集。
 

@@ -114,11 +114,11 @@ If you used our recommended configuration settings above, you should be posting 
 
 \*\*請注意，我們與推薦的任何項目均無關。\*\*除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
-- Must be free and open source software.
-- Must use a federated protocol to communicate with other instances of the social networking software.
-- Must not have non-technical restrictions on who can be federated with.
-- Must be usable within a standard [web browser](desktop-browsers.md).
-- Must make public content accessible to visitors without an account.
-- Must allow you to limit who can follow your profile.
-- Must allow you to post content visible only to your followers.
-- Must support modern web application security standards/features (including [multifactor authentication](multi-factor-authentication.md)).
+- 必須是自由及開放原始碼軟體。
+- 必須使用聯邦式通訊協定與社交網路軟體的其他實例通訊。
+- 不得對可聯合的實例有非技術性的限制。
+- 必須可在普通的 [網路瀏覽器](desktop-browsers.md) 中使用。
+- 必須讓沒有帳號的訪客也能存取公開內容。
+- 必須允許使用者限制他人追蹤個人檔案。
+- 必須允許使用者張貼只有其追隨者可見的內容。
+- 必須支援現代網路應用程式安全標準/功能（包括 [多重要素驗證](multi-factor-authentication.md)）。

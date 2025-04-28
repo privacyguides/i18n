@@ -304,7 +304,7 @@ Cromite contains a customized version of Adblock Plus with EasyList enabled by d
 
 - [ ] 停用 **搜尋引擎建議**
 
-此設定會將您在網址列中輸入的內容傳送至 Safari 中設定的搜尋引擎。 Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+此設定會將您在網址列中輸入的內容傳送至 Safari 中設定的搜尋引擎。 停用搜尋建議可讓您更精確地控制您傳送給搜尋引擎供應商的資料。
 
 #### 主題類別
 
