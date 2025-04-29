@@ -191,41 +191,41 @@ GoogleやFacebookのような巨大な広告ネットワークやその他多数
 
 さらに、*アドテック*やトラッキング業界以外の企業であっても、[データブローカー](https://en.wikipedia.org/wiki/Information_broker)（Cambridge Analytica、ExperianやDatalogixなど）や他の事業者と共有することがあります。 利用しているサービスが典型的なアドテックやトラッキングのビジネスモデルのものではないからといって、自動的にデータが安全であると考えることはできません。 企業によるデータ収集に対する最も強力な保護方法は、可能な限りデータの暗号化や難読化をして、プロバイダーによるデータの関連付けとプロファイルの作成を難しくすることです。
 
-## Limiting Public Information
+## 公開情報の制限
 
-<span class="pg-green">:material-account-search: Public Exposure</span>
+<span class="pg-green">:material-account-search:秘密の暴露</span>
 
-The best way to keep your data private is simply not making it public in the first place. Deleting unwanted information you find about yourself online is one of the best first steps you can take to regain your privacy.
+データをプライベートに保つ最善の方法は第一に公開しないことです。 オンライン上で見つけた自身に関する不要な情報を削除することは、プライバシーを取り戻すための最善の第一歩です。
 
 - [アカウント削除に関するガイド :material-arrow-right-drop-circle: を表示](account-deletion.md)
 
-On sites where you do share information, checking the privacy settings of your account to limit how widely that data is spread is very important. For example, enable "private mode" on your accounts if given the option: This ensures that your account isn't being indexed by search engines, and that it can't be viewed without your permission.
+情報を共有するサイトでは、アカウントのプライバシー設定を確認し、データの拡散範囲を制限することが非常に重要です。 例えば、アカウントに「プライベートモード」のオプションがあれば有効にしましょう：アカウントが検索エンジンによってインデックス化されず、許可なしに閲覧されなくなります。
 
-If you've already submitted your real information to sites which shouldn't have it, consider using disinformation tactics, like submitting fictitious information related to that online identity. This makes your real information indistinguishable from the false information.
+もし本当の情報を投稿すべきではないサイトに投稿してしまっている場合、オンラインアイデンティティに関連する架空の情報を投稿するなどの偽情報戦術を検討してください。 本当の情報と偽の情報の区別をつけることができなくなります。
 
 ## 検閲の回避
 
 <span class="pg-blue-gray">:material-close-outline: 検閲</span>
 
-Censorship online can be carried out (to varying degrees) by actors including totalitarian governments, network administrators, and service providers. These efforts to control communication and restrict access to information will always be incompatible with the human right to Freedom of Expression.[^5]
+オンライン上の検閲は、全体主義的な政府、ネットワーク管理者やサービスプロバイダーなどによって（様々な度合いで）行われることがあります。 コミュニケーションを統制し、情報へのアクセスを制限することは表現の自由という人権と相容れないものです。[^5]
 
-Censorship on corporate platforms is increasingly common, as platforms like Twitter and Facebook give in to public demand, market pressures, and pressures from government agencies. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
+TwitterやFacebookのようなプラットフォームでは、世間の要求、市場による圧力や政府機関からの圧力に応じており、企業のプラットフォームにおける検閲はますます一般的になっています。 政府からの圧力は、ホワイトハウスが挑発的なYouTubeの動画に対する[削除要求](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html)をしたように企業へ秘密裏に行われることもあれば、中国政府が企業へ厳しい検閲体制の遵守を要求するように公然と行われることもあります。
 
-People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../real-time-communication.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
+検閲への脅威を懸念する人は、[Tor](../advanced/tor-overview.md)のような技術で検閲を回避し、勝手にアカウントを閉鎖できる中央集権的なアカウント権限のない[Matrix](../real-time-communication.md#element)のような検閲に強いコミュニケーションプラットフォームをサポートすることができます。
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">ヒント</p>
 
-While evading censorship itself can be easy, hiding the fact that you are doing it can be very problematic.
+検閲を回避することは簡単だとしても、検閲を回避していることを隠すことは非常に難しいです。
 
-You should consider which aspects of the network your adversary can observe, and whether you have plausible deniability for your actions. For example, using [encrypted DNS](../advanced/dns-overview.md#what-is-encrypted-dns) can help you bypass rudimentary, DNS-based censorship systems, but it can't truly hide what you are visiting from your ISP. A VPN or Tor can help hide what you are visiting from network administrators, but can't hide that you're using those networks in the first place. Pluggable transports (such as Obfs4proxy, Meek, or Shadowsocks) can help you evade firewalls that block common VPN protocols or Tor, but your circumvention attempts can still be detected by methods like probing or [deep packet inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection).
+ネットワークのどの側面を敵対者が観察できるか、行動に対してもっともらしい反証ができるか考える必要があります。 例えば、[DNS暗号化](../advanced/dns-overview.md#what-is-encrypted-dns)は初歩的なDNSベースの検閲システムを回避することはできますが、ISPからは訪れた先を本当に隠すことはできません。 VPNやTorはネットワーク管理者から閲覧先を隠すことはできますが、そもそもそのようなネットワークを使っていることを隠すことはできません。 プラグイン可能なトランスポート（Obfs4proxy、MeekやShadowsocks）はVPNプロトコルやTorをブロックする一般的なファイアウォールを回避することには役立ちますが、プロービングや[ディープ・パケット・インスペクション](https://en.wikipedia.org/wiki/Deep_packet_inspection)のような方法で、回避していることを検出される可能性があります。
 
 </div>
 
-You must always consider the risks of trying to bypass censorship, the potential consequences, and how sophisticated your adversary may be. You should be cautious with your software selection, and have a backup plan in case you are caught.
+検閲を回避しようとするリスク、潜在的な影響や敵対者がどれほどで高度であるかを常に考える必要があります。 ソフトウェアの選択には慎重になり、万が一捕まった際のバックアッププランが必要です。
 
-[^1]: Wikipedia: [*Mass Surveillance*](https://en.wikipedia.org/wiki/Mass_surveillance) and [*Surveillance*](https://en.wikipedia.org/wiki/Surveillance).
+[^1]: ウィキペディア: [*監視社会*](https://en.wikipedia.org/wiki/Mass_surveillance) と [*サーベイランス*](https://en.wikipedia.org/wiki/Surveillance).
 [^2]: United States Privacy and Civil Liberties Oversight Board: [*Report on the Telephone Records Program Conducted under Section 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
-[^3]: Wikipedia: [*Surveillance capitalism*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. You should also employ other mitigation techniques.
-[^5]: United Nations: [*Universal Declaration of Human Rights*](https://un.org/en/about-us/universal-declaration-of-human-rights).
+[^3]: ウィキペディア: [*監視資本主義*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
+[^4]: 「[悪いことを列挙すること](https://ranum.com/security/computer_security/editorials/dumb)」（あるいは既知の悪いことをすべてリストアップする）はコンテンツブロッカーやアンチウイルスソフトが行っていることですが、新しい未知の脅威はフィルターリストに追加されていないため、適切に保護することができません。 他の軽減する技術も採用する必要があります。
+[^5]: 国連: [*世界人権宣言*](https://un.org/en/about-us/universal-declaration-of-human-rights).
