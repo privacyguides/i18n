@@ -95,32 +95,32 @@ GoogleやFacebookのような巨大な広告ネットワークやその他多数
 
 **物理的攻撃**を懸念する場合、Android、iOS、macOSや[Windows(TPMあり)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process)のような安全な検証済みブート実装のあるOSを使うべきです。 またドライブの暗号化を行うとともに、OSがTPMやSecure[Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1)や[Element](https://developers.google.com/android/security/android-ready-se)で暗号化パスフレーズの入力レートを制限していることも確認してください。 ほとんどのデスクトップOSはユーザーごとに分けて暗号化することはできないため、信頼できない人とコンピューターを共用することは避けてください。
 
-## Attacks against Certain Organizations
+## 特定の組織に対する攻撃
 
-<span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>
+<span class="pg-viridian">:material-package-variant-closed-remove:サプライチェーン攻撃</span>
 
-Supply chain attacks are frequently a form of <span class="pg-red">:material-target-account: Targeted Attack</span> towards businesses, governments, and activists, although they can end up compromising the public at large as well.
+サプライチェーン攻撃は企業、政府や活動家に対する<span class="pg-red">:material-target-account:標的型攻撃</span>であることが多いですが、一般市民を対象に侵害することもあります。
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example</p>
+<p class="admonition-title">例</p>
 
-A notable example of this occurred in 2017 when M.E.Doc, a popular accounting software in Ukraine, was infected with the *NotPetya* virus, subsequently infecting people who downloaded that software with ransomware. NotPetya itself was a ransomware attack which impacted 2000+ companies in various countries, and was based on the *EternalBlue* exploit developed by the NSA to attack Windows computers over the network.
+注目すべき例は、2017年、ウクライナで普及している会計ソフトであるM.E.Docが*NotPetya*ウイルスに感染し、それをダウンロードした人がランサムウェアに感染したことが挙げられます。 NotPetya自体は2000以上もの様々な国の企業に影響を与えたランサムウェア攻撃であり、NSAの開発した、ネットワーク経由でWindowsコンピューターを攻撃する*EternalBlue*エクスプロイトに基づいていました。
 
 </div>
 
-There are few ways in which this type of attack might be carried out:
+いくつかの攻撃方法があります：
 
-1. A contributor or employee might first work their way into a position of power within a project or organization, and then abuse that position by adding malicious code.
-2. A developer may be coerced by an outside party to add malicious code.
-3. An individual or group might identify a third party software dependency (also known as a library) and work to infiltrate it with the above two methods, knowing that it will be used by "downstream" software developers.
+1. 貢献者や従業員になり、最初はプロジェクトや組織で重要な地位に付くために働き、その地位を悪用して悪意のあるコードを追加する。
+2. 開発者が外部の組織から悪意のあるコードを追加するよう強制される。
+3. 個人もしくは団体が、サードパーティのソフトウェアへの依存関係（ライブラリとも言われる）を特定し、「ダウンストリーム」のソフトウェア開発者に使われることを想定し、上記の2つの方法によりそのソフトウェアに侵入する。
 
-These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers to only use software which has a good reputation and makes an effort to reduce risk by:
+この方法は多くの時間と準備を必要とし、特にオープンソースプロジェクトで人気がある、あるいは外部の関心が高い場合、検知される可能性があります。 残念ながら完全に軽減することは難しく、最も危険性が高い攻撃方法の一つです。 評判が良く、リスクを減らそうとしているソフトウェアのみ使用することを推奨します：
 
-1. Only adopting popular software that has been around for a while. The more interest in a project, the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
-2. Finding software which releases binaries with widely-used, trusted build infrastructure platforms, as opposed to developer workstations or self-hosted servers. Some systems like GitHub Actions let you inspect the build script that runs publicly for extra confidence. This lessens the likelihood that malware on a developer's machine could infect their packages, and gives confidence that the binaries produced are in fact produced correctly.
-3. Looking for code signing on individual source code commits and releases, which creates an auditable trail of who did what. For example: Was the malicious code in the software repository? Which developer added it? Was it added during the build process?
-4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what each change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
-5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enabling undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
+1. しばらく前からある人気のあるソフトウェアだけを使う。 プロジェクトに対する関心が高いほど、悪意のある変更に対し外部から気づく可能性は高くなります。 また、悪意のある者はコミュニティからの信頼を得るため、さらに長い時間をかけて意義のある貢献をする必要があります。
+2. 開発者のワークステーションやセルフホストのサーバーではなく、広く使われている信頼できるビルドインフラストラクチャープラットフォームでリリースされているバイナリを見つける。 GitHub Actionsのようなシステムでは信頼性を高めるために公開された実行されているビルドスクリプトを検証することができます。 開発者のマシンにあるパッケージがマルウェアに感染している可能性を減らし、バイナリが実際に正しく生成されている保証が得られます。
+3. ソースコードの個別のコミットやリリースの署名を見て、誰が何をしたか監査可能な証跡を作成します。 例えば、ソフトウェアリポジトリに悪意のあるコードがあるか？ どの開発者が追加したか？ どのビルドプロセスで追加されたのか？
+4. ソースコードに各変更が何をしようとしているか説明をしている （[conventional commits](https://conventionalcommits.org)のような）意味が分かるコミットメッセージがあるか確認する。 明確なメッセージにより、プロジェクトの部外者から検証、監査、バグの発見が容易になります。
+5. プログラムのコントリビューターやメンテナーの人数に注意する。 単独の開発者の場合、外部から悪意のあるコードを追加するよう強制されたり、不注意で望ましくない動作ができてしまったりする可能性が高くなります。 「ビッグテック」が開発しているソフトウェアは、誰の質問に答えない単独の開発者よりも精査されることを意味します。
 
 ## Privacy from Service Providers
 
