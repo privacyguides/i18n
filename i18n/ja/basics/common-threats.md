@@ -181,15 +181,15 @@ GoogleやFacebookのような巨大な広告ネットワークやその他多数
 
 監視社会プログラムに懸念がある場合、オンライン上のIDを区画化したり、他のユーザーに紛れ込んだり、可能な限り単に識別情報を提供することを避けたりします。
 
-## Surveillance as a Business Model
+## ビジネスモデルとしての監視
 
-<span class="pg-brown">:material-account-cash: Surveillance Capitalism</span>
+<span class="pg-brown">:material-account-cash: 監視資本主義</span>
 
-> Surveillance capitalism is an economic system centered around the capture and commodification of personal data for the core purpose of profit-making.[^3]
+> 監視資本主義は営利目的のために個人データを収集し、商品化する経済的な仕組みのことです。[^3]
 
-For many people, tracking and surveillance by private corporations is a growing concern. Pervasive ad networks, such as those operated by Google and Facebook, span the internet far beyond just the sites they control, tracking your actions along the way. Using tools like content blockers to limit network requests to their servers, and reading the privacy policies of the services you use can help you avoid many basic adversaries (although it can't completely prevent tracking).[^4]
+多くの人にとって、民間企業による追跡と監視への懸念は大きくなっています。 GoogleやFacebookが運営するような広範な広告ネットワークは自らが管理するサイトだけではなく、インターネット中に及び、人々の行動を追跡しています。 広告ネットワークサーバーへのネットワークリクエストを制限するコンテンツブロッカーを使ったり、使っているサービスのプライバシーポリシーを読んだりすることで多くの基本的なものを避けることができます（完全に追跡を防ぐことはできません）。[^4]
 
-Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. You can't automatically assume your data is safe just because the service you're using doesn't fall within the typical AdTech or tracking business model. The strongest protection against corporate data collection is to encrypt or obfuscate your data whenever possible, making it difficult for different providers to correlate data with each other and build a profile on you.
+さらに、*アドテック*やトラッキング業界以外の企業であっても、[データブローカー](https://en.wikipedia.org/wiki/Information_broker)（Cambridge Analytica、ExperianやDatalogixなど）や他の事業者と共有することがあります。 利用しているサービスが典型的なアドテックやトラッキングのビジネスモデルのものではないからといって、自動的にデータが安全であると考えることはできません。 企業によるデータ収集に対する最も強力な保護方法は、可能な限りデータの暗号化や難読化をして、プロバイダーによるデータの関連付けとプロファイルの作成を難しくすることです。
 
 ## Limiting Public Information
 
