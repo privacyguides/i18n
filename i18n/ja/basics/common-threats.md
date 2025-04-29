@@ -80,20 +80,20 @@ GoogleやFacebookのような巨大な広告ネットワークやその他多数
 
 </div>
 
-## Attacks against Specific Individuals
+## 特定の個人に対する攻撃
 
-<span class="pg-red">:material-target-account: Targeted Attacks</span>
+<span class="pg-red">:material-target-account:標的型攻撃</span>
 
-Targeted attacks against a specific person are more problematic to deal with. Common attacks include sending malicious documents via email, exploiting vulnerabilities (e.g. in browsers and operating systems), and physical attacks. If this is a concern for you, you should employ more advanced threat mitigation strategies.
+特定の個人に対する標的型攻撃は、より対処が難しくなります。 一般的な攻撃として、メールに悪意のある文書を添付して送ることや（ブラウザやOSなどの）脆弱性の悪用、物理的な攻撃があります。 もし、懸念がある場合はより高度に脅威を緩和する戦略を取る必要があります。
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">ヒント</p>
 
-By design, **web browsers**, **email clients**, and **office applications** typically run untrusted code, sent to you from third parties. Running multiple virtual machines—to separate applications like these from your host system, as well as each other—is one technique you can use to mitigate the chance of an exploit in these applications compromising the rest of your system. For example, technologies like Qubes OS or Microsoft Defender Application Guard on Windows provide convenient methods to do this.
+**ウェブブラウザ**、**メールクライアント**や**オフィスアプリケーション**は第三者から送られてきた信頼できないコードを実行します。 ホストのシステムからアプリケーションを分離するため、複数の仮想マシンを実行することはアプリケーションからシステムの他の部分への侵害の可能性を軽減するための方法の一つです。 例えば、Qubes OSやWindowsのMicrosoft Defender Application Guardのような技術により、実現できます。
 
 </div>
 
-If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). You should also make sure that your drive is encrypted, and that the operating system uses a TPM or Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) or [Element](https://developers.google.com/android/security/android-ready-se) to rate limit attempts to enter the encryption passphrase. You should avoid sharing your computer with people you don't trust, because most desktop operating systems don't encrypt data separately per-user.
+**物理的攻撃**を懸念する場合、Android、iOS、macOSや[Windows(TPMあり)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process)のような安全な検証済みブート実装のあるOSを使うべきです。 またドライブの暗号化を行うとともに、OSがTPMやSecure[Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1)や[Element](https://developers.google.com/android/security/android-ready-se)で暗号化パスフレーズの入力レートを制限していることも確認してください。 ほとんどのデスクトップOSはユーザーごとに分けて暗号化することはできないため、信頼できない人とコンピューターを共用することは避けてください。
 
 ## Attacks against Certain Organizations
 
