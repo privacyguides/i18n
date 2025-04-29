@@ -147,39 +147,39 @@ GoogleやFacebookのような巨大な広告ネットワークやその他多数
 
 ## 大量監視プログラム
 
-<span class="pg-blue">:material-eye-outline: Mass Surveillance</span>
+<span class="pg-blue">:material-eye-outline: 監視社会</span>
 
-Mass surveillance is the intricate effort to monitor the "behavior, many activities, or information" of an entire (or substantial fraction of a) population.[^1] It often refers to government programs, such as the ones [disclosed by Edward Snowden in 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). However, it can also be carried out by corporations, either on behalf of government agencies or by their own initiative.
+監視社会は集団全体（あるいは相当部分）の「振る舞い、活動、情報」を監視するための複雑な取り組みのことです。[^1] [2013年にエドワード・スノーデンが暴露した](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present))ような政府のプログラムを指すことが多いです。 ただし、企業が政府機関に代わり、もしくは自主的に実施することもあります。
 
 <div class="admonition abstract" markdown>
 <p class="admonition-title">Atlas of Surveillance</p>
 
-If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
+監視方法や街でどのように実施されているかを知りたい場合、[電子フロンティア財団](https://eff.org)の[Atlas of Surveillance](https://atlasofsurveillance.org)を見てください。
 
-In France, you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
+フランスでは、非営利団体La Quadrature du Netが管理する[Technopolice website](https://technopolice.fr/villes) を見ることができます。
 
 </div>
 
-Governments often justify mass surveillance programs as necessary means to combat terrorism and prevent crime. However, as breaches of human rights, they're most often used to disproportionately target minority groups and political dissidents, among others.
+政府は監視社会プログラムをテロとの闘いや犯罪防止の目的で、正当化することが多いです。 ただし、マイノリティグループや政治的反体制派などを不当に標的とした人権侵害に使われることも多いのです。
 
 <div class="admonition quote" markdown>
 <p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
-In the face of Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection), intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. This kind of information, when amassed by the NSA day after day, can reveal incredibly sensitive details about people’s lives and associations, such as whether they have called a pastor, an abortion provider, an addiction counselor, or a suicide hotline.
+エドワード・スノーデンが[PRISM](https://en.wikipedia.org/wiki/PRISM)や[Upstream](https://en.wikipedia.org/wiki/Upstream_collection)といった政府のプログラムを暴露したことで、NSAが密かに何年もの間、事実上すべてのアメリカ人の通話記録（誰が誰にかけたか、いつどのぐらい通話していたか）を収集していたことを情報当局は認めました。 このような情報が日々蓄積されると、牧師、中絶を行う医師、中毒のカウンセラーや自殺ホットラインに電話したことがあるかなど、生活や交友関係の信じられないほどセンシティブな情報の詳細を明らかにすることができます。
 
 </div>
 
-Despite growing mass surveillance in the United States, the government has found that mass surveillance programs like Section 215 have had "little unique value" with respect to stopping actual crimes or terrorist plots, with efforts largely duplicating the FBI's own targeted surveillance programs.[^2]
+アメリカでは監視社会が強化されているにも関わらず、第215条のような監視社会プログラムは実際の犯罪やテロ計画を阻止することに「ほとんど独自の価値がない」とされ、FBIの標的型監視プログラムと大部分が重複しているとされています。[^2]
 
-Online, you can be tracked via a variety of methods, including but not limited to:
+オンライン上では、様々な方法で追跡することができます。以下は一例です：
 
 - あなたのIPアドレス
 - ブラウザーのクッキー
-- The data you submit to websites
-- Your browser or device fingerprint
-- Payment method correlation
+- ウェブサイトに送信するデータ
+- ブラウザやデバイスのフィンガープリント
+- 支払い方法の相関関係
 
-If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
+監視社会プログラムに懸念がある場合、オンライン上のIDを区画化したり、他のユーザーに紛れ込んだり、可能な限り単に識別情報を提供することを避けたりします。
 
 ## Surveillance as a Business Model
 
