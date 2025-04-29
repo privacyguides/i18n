@@ -9,7 +9,7 @@ cover: cloud.webp
 <small>Protects against the following threat(s):</small>
 
 - [:material-bug-outline: パッシブ攻撃](basics/common-threats.md#security-and-privacy ""){.pg-orange}
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-server-network:サービスプロバイダー](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 Many **cloud storage providers** require your full trust that they will not look at your files. 以下に示す選択肢では、安全なE2EEが実装されているため、サービス提供元を信頼する必要はありません。
 

@@ -122,28 +122,28 @@ GoogleやFacebookのような巨大な広告ネットワークやその他多数
 4. ソースコードに各変更が何をしようとしているか説明をしている （[conventional commits](https://conventionalcommits.org)のような）意味が分かるコミットメッセージがあるか確認する。 明確なメッセージにより、プロジェクトの部外者から検証、監査、バグの発見が容易になります。
 5. プログラムのコントリビューターやメンテナーの人数に注意する。 単独の開発者の場合、外部から悪意のあるコードを追加するよう強制されたり、不注意で望ましくない動作ができてしまったりする可能性が高くなります。 「ビッグテック」が開発しているソフトウェアは、誰の質問に答えない単独の開発者よりも精査されることを意味します。
 
-## Privacy from Service Providers
+## サービスプロバイダーからのプライバシー保護
 
-<span class="pg-teal">:material-server-network: Service Providers</span>
+<span class="pg-teal">:material-server-network:サービスプロバイダー</span>
 
-We live in a world where almost everything is connected to the internet. Our "private" messages, emails, and social interactions are typically stored on a server, somewhere. Generally, when you send someone a message it's stored on a server, and when your friend wants to read the message the server will show it to them.
+ほとんどすべてのものがインターネットに接続されています。 「プライベート」なメッセージ、メール、ソーシャルネットワークでのやり取りは通常、どこかのサーバーに保存されています。 一般的には、メッセージを送った際には、サーバーにメッセージが保存され、友人があなたからのメッセージを読みたいと思ったときにサーバーが表示します。
 
-The obvious problem with this is that the service provider (or a hacker who has compromised the server) can access your conversations whenever and however they want, without you ever knowing. This applies to many common services, like SMS messaging, Telegram, and Discord.
+明らかな問題点はサービスプロバイダー（もしくはサーバーに侵入したハッカー）はあなたの知らないうちに、いつでも好きなように会話にアクセスできるということです。 SMSメッセージ、TelegramやDiscordといった一般的な多くのサービスに当てはまります。
 
-Thankfully, E2EE can alleviate this issue by encrypting communications between you and your desired recipients before they are even sent to the server. The confidentiality of your messages is guaranteed, assuming the service provider doesn't have access to the private keys of either party.
+幸いにも、エンドツーエンド暗号化により、サーバーに送信する前にあなたと受信者との会話を暗号化することでこの問題を軽減することができます。 サービスプロバイダーが両者の秘密鍵にアクセスできなければメッセージの機密性は保証されます。
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note on Web-based Encryption</p>
+<p class="admonition-title">ウェブベースの暗号化に関する注意</p>
 
-In practice, the effectiveness of different E2EE implementations varies. Applications, such as [Signal](../real-time-communication.md#signal), run natively on your device, and every copy of the application is the same across different installations. If the service provider were to introduce a [backdoor](https://en.wikipedia.org/wiki/Backdoor_(computing)) in their application—in an attempt to steal your private keys—it could later be detected with [reverse engineering](https://en.wikipedia.org/wiki/Reverse_engineering).
+実際には、エンドツーエンド暗号化の実装の有効性は様々です。 [Signal](../real-time-communication.md#signal)のようなアプリケーションはデバイス上でネイティブに実行され、コピーされたアプリケーションはどのインストールでも同じになります。 もし、サービスプロバイダーが秘密鍵を盗むために[バックドア](https://en.wikipedia.org/wiki/Backdoor_(computing))をアプリケーションに仕込んだとしても、[リバースエンジニアリング](https://en.wikipedia.org/wiki/Reverse_engineering)によって検知できます。
 
-On the other hand, web-based E2EE implementations, such as Proton Mail's web app or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. A malicious server can target you and send you malicious JavaScript code to steal your encryption key (and it would be extremely hard to notice). Because the server can choose to serve different web clients to different people—even if you noticed the attack—it would be incredibly hard to prove the provider's guilt.
+一方、Proton MailのウェブアプリやBitwardenの*Web Vault*のようなウェブベースのエンドツーエンド暗号化実装は、サーバーが動的に送る暗号化を処理するJavaScriptコードに依存しています。 悪意のあるサーバーがあなたを標的にし、暗号鍵を盗むために悪意のあるJavaScriptコードを送ることもできます（そして、気づくことは非常に難しいでしょう）。 たとえ攻撃に気づいたとしても、サーバーはそれぞれに異なるウェブクライアントを送ることができるため、プロバイダーの過失を証明することは非常に難しいでしょう。
 
-Therefore, you should use native applications over web clients whenever possible.
+そのため、可能な限りウェブクライアントよりもネイティブアプリケーションを使うべきです。
 
 </div>
 
-Even with E2EE, service providers can still profile you based on **metadata**, which typically isn't protected. While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. Protection of metadata is fairly uncommon, and—if it's within your [threat model](threat-modeling.md)—you should pay close attention to the technical documentation of the software you're using to see if there's any metadata minimization or protection at all.
+エンドツーエンド暗号化でも、サービスプロバイダーは通常、保護されていない**メタデータ**に基づいてプロファイリングできます。 サービスプロバイダーはメッセージを読むことができなくとも、誰と会話しているか、メッセージをどのぐらいやり取りしているか、普段はいつやり取りしているか、といった重要なことを知ることができます。 メタデータを保護することはあまり行われていません。もし[脅威モデル](threat-modeling.md)にあるならば、使っているソフトウェアのドキュメントを読み、メタデータを最小化することができるか、もしくは保護がまったくできないか、注意を払う必要があります。
 
 ## 大量監視プログラム
 

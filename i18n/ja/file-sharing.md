@@ -7,7 +7,7 @@ cover: file-sharing.webp
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-server-network:サービスプロバイダー](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 デバイス間、友人や家族、または匿名でオンライン上でファイルをプライベートに共有する方法をご紹介します。
 
