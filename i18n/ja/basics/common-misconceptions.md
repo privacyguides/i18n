@@ -27,7 +27,7 @@ schema:
         acceptedAnswer:
           "@type": Answer
           text: |
-            Focusing solely on the privacy policies and marketing of a tool or provider can blind you to its weaknesses. When you're looking for a more private solution, you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like Cryptomator) which provides E2EE on any cloud provider. Switching to a "privacy-focused" provider (that doesn't implement E2EE) doesn't solve your problem: it just shifts trust from Google to that provider.
+            ツールのプライバシーポリシーやマーケティングだけに注目し過ぎるとその弱点が見えなくなります。 よりプライバシーを重視した解決策を探している場合、根本的な問題を見極め、技術的な解決策を見つける必要があります。 例えば、GoogleがすべてのデータにアクセスできるGoogle Driveの利用をやめたいとしましょう。 この場合の根本的な問題はエンドツーエンド暗号化がないことで、乗り換えるプロバイダーに実際にエンドツーエンド暗号化が実装されているか確認するか、どのクラウドサービスプロバイダーでもエンドツーエンド暗号化ができる（Cryptomatorのような）ツールを使用する必要があります。 （エンドツーエンド暗号化がない）「プライバシー重視」のプロバイダーに乗り換えても問題は解決しません：単にGoogleからそのプロバイダーに信頼の移行をしただけです。
       - 
         "@type": Question
         name: 脅威モデルが複雑であるべき程度
@@ -57,7 +57,7 @@ We talk about "shifting trust" a lot when discussing solutions like VPNs (which 
 
 ## "Privacy-focused solutions are inherently trustworthy"
 
-Focusing solely on the privacy policies and marketing of a tool or provider can blind you to its weaknesses. When you're looking for a more private solution, you should determine what the underlying problem is and find technical solutions to that problem. For example, you may want to avoid Google Drive, which gives Google access to all of your data. The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like [Cryptomator](../encryption.md#cryptomator-cloud)) which provides E2EE on any cloud provider. Switching to a "privacy-focused" provider (that doesn't implement E2EE) doesn't solve your problem: it just shifts trust from Google to that provider.
+ツールのプライバシーポリシーやマーケティングだけに注目し過ぎるとその弱点が見えなくなります。 よりプライバシーを重視した解決策を探している場合、根本的な問題を見極め、技術的な解決策を見つける必要があります。 例えば、GoogleがすべてのデータにアクセスできるGoogle Driveの利用をやめたいとしましょう。 The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like [Cryptomator](../encryption.md#cryptomator-cloud)) which provides E2EE on any cloud provider. （エンドツーエンド暗号化がない）「プライバシー重視」のプロバイダーに乗り換えても問題は解決しません：単にGoogleからそのプロバイダーに信頼の移行をしただけです。
 
 The privacy policies and business practices of providers you choose are very important, but should be considered secondary to technical guarantees of your privacy: You shouldn't shift trust to another provider when trusting a provider isn't a requirement at all.
 
