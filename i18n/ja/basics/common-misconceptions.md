@@ -1,7 +1,7 @@
 ---
 title: "よくある誤解"
 icon: 'material/robot-confused'
-description: Privacy isn't a straightforward topic, and it's easy to get caught up in marketing claims and other disinformation.
+description: プライバシーは単純ではないテーマであり、マーケティング上の主張や他の嘘の情報に巻き込まれやすい。
 schema:
   - 
     "@context": https://schema.org
@@ -9,18 +9,18 @@ schema:
     mainEntity:
       - 
         "@type": Question
-        name: Is open-source software inherently secure?
+        name: オープンソースソフトウェアは本質的に安全ですか？
         acceptedAnswer:
           "@type": Answer
           text: |
-            Whether the source code is available and how software is licensed does not inherently affect its security in any way. Open-source software has the potential to be more secure than proprietary software, but there is absolutely no guarantee this is the case. When you evaluate software, you should look at the reputation and security of each tool on an individual basis.
+            ソースコードが入手可能かどうかやライセンスは本質的にはソフトウェアのセキュリティに影響を与えるものではありません。 オープンソースソフトウェアはプロプラエタリソフトウェアよりも潜在的には安全ですが、絶対的な保証はありません。 ソフトウェアを評価する際には、各ツールの評価や安全性を個別に判断する必要があります。
       - 
         "@type": Question
-        name: Can shifting trust to another provider increase privacy?
+        name: 他のプロバイダーへの信頼の移行によりプライバシーは向上しますか？
         acceptedAnswer:
           "@type": Answer
           text: |
-            We talk about "shifting trust" a lot when discussing solutions like VPNs (which shift the trust you place in your ISP to the VPN provider). While this protects your browsing data from your ISP specifically, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties.
+            VPNのようなソリューション（信頼をISPからVPNプロバイダーに移す）について議論が行われる際、「信頼の移行」について話すことが多いです。 ISPからブラウジングデータは保護される一方で、VPNプロバイダーからはブラウジングデータにアクセスできます：すべての関係者に対して完全に安全を確保できるわけではありません。
       - 
         "@type": Question
         name: プライバシー重視のソリューションは本来的に信頼できますか？
