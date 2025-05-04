@@ -13,13 +13,13 @@ description: オンラインでアカウントを作成することは実際の�
 
 ## 利用規約 & プライバシーポリシー
 
-The ToS are the rules that you agree to follow when using the service. With larger services these rules are often enforced by automated systems. Sometimes these automated systems can make mistakes. For example, you may be banned or locked out of your account on some services for using a VPN or VoIP number. Appealing such bans is often difficult, and involves an automated process too, which isn't always successful. This would be one of the reasons why we wouldn't suggest using Gmail for email as an example. Email is crucial for access to other services you might have signed up for.
+利用規約はサービスを利用する際に従うことに同意するルールです。 大規模なサービスにおいては、自動化されたシステムによって実施されることが多いです。 自動化されたシステムは間違えることもあります。 例えばVPNやVoIP番号を利用すると、アカウントが停止されたり、ロックアウトされたりしまうサービスもあります。 アカウント停止に対する申請も自動化されていることがあり、難しいことが多く必ずしも成功するとは限りません。 これは例えばGmailの利用を推奨しない理由の一つです。 メールは登録している他のサービスへアクセスするために非常に重要だからです。
 
-The Privacy Policy is how the service says they will use your data, and it is worth reading so that you understand how your data will be used. A company or organization might not be legally obligated to follow everything contained in the policy (it depends on the jurisdiction). We would recommend having some idea what your local laws are and what they permit a provider to collect.
+プライバシーポリシーはサービスでデータをどのように使用するかを示したものであり、データがどのように使われるかを理解するために読む価値があります。 企業や組織はポリシーに書かれたすべての内容に従う法的義務を負わないかもしれません（司法管轄によります）。 住んでいる地域の法律やプロバイダーが何の収集を許可されているかをある程度知っておくことを推奨します。
 
-We recommend looking for particular terms such as "data collection", "data analysis", "cookies", "ads" or "3rd-party" services. Sometimes you will be able to opt out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
+「データ収集」、「データ分析」、「クッキー」、「広告」や「サードパーティ」など特定の用語を探すことを推奨します。 データ収集やデータ共有をオプトアウトすることができる場合もありますが、最初からプライバシーが尊重されているサービスを選ぶことが最も良いです。
 
-Keep in mind you're also placing your trust in the company or organization and that they will comply with their own privacy policy.
+企業や組織そのものだけではなく、企業や組織がプライバシーポリシーを遵守することも信用することになることに留意ください。
 
 ## 認証方法
 
