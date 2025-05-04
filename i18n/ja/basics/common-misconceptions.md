@@ -34,19 +34,19 @@ schema:
         acceptedAnswer:
           "@type": Answer
           text: |
-            We often see people describing privacy threat models that are overly complex. Often, these solutions include problems like many different email accounts or complicated setups with lots of moving parts and conditions. The replies are usually answers to "What is the best way to do X?"
-            Finding the "best" solution for yourself doesn't necessarily mean you are after an infallible solution with dozens of conditions—these solutions are often difficult to work with realistically. As we discussed previously, security often comes at the cost of convenience.
+            複雑すぎるプライバシーの脅威モデルを説明する人もよくいます。 多くの場合、その解決策は多くのメールアカウントを使うことや不確定要素を含む複雑なセットアップが含まれています。 これは大抵の場合、「Xを行うベストな方法は何か？」という質問に対する回答です。
+            「ベスト」な解決策をを見つけることは、必ずしも、たくさんの条件がある絶対に確実な解決策を求めるということではありません。そのようなものは実際に運用することは難しいことが多いです。 先に述べたように、セキュリティは利便性を犠牲にします。
 ---
 
-## "Open-source software is always secure" or "Proprietary software is more secure"
+## 「オープンソースソフトウェアは常に安全である」もしくは「オープンソースソフトウェアはプロプライエタリソフトウェアよりも安全である」
 
-These myths stem from a number of prejudices, but whether the source code is available and how software is licensed does not inherently affect its security in any way. ==Open-source software has the *potential* to be more secure than proprietary software, but there is absolutely no guarantee this is the case.== When you evaluate software, you should look at the reputation and security of each tool on an individual basis.
+この神話は多くの先入観から生じているものですが、ソースコードが入手可能かどうかやライセンスは本質的にセキュリティに影響を与えるものではありません。 ==オープンソースソフトウェアはプロプライエタリソフトウェアよりも*潜在的には*安全ですが、絶対的な保証はありません。==ソフトウェアを評価する際には、各ツールの評価や安全性を個別に判断する必要があります。
 
-Open-source software *can* be audited by third-parties, and is often more transparent about potential vulnerabilities than proprietary counterparts. It also allows you to review the code and disable any suspicious functionality you find yourself. However, *unless you do so*, there is no guarantee that code has ever been evaluated, especially with smaller software projects. The open development process has also sometimes been exploited to introduce new vulnerabilities known as [:material-package-variant-closed-remove: Supply Chain Attacks](common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}, which are discussed further in our [Common Threats](common-threats.md) page.[^1]
+オープンソースソフトウェアは第三者による監査が*可能*であり、プロプライエタリソフトウェアよりも潜在的な脆弱性について透明性が高いことが多いです。 またコードを確認し、疑わしい機能を自分で無効にすることもできます。 ただし、*自分でしない限り*、特に小規模なソフトウェアプロジェクトでは、コードが評価されているという保証はありません。 オープンな開発プロセスは[:material-package-variant-closed-remove:サプライチェーン攻撃](common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}のような新たな脆弱性を含めることに悪用される場合もあります。詳細は[一般的な脅威](common-threats.md)を参照してください。[^1]
 
-On the flip side, proprietary software is less transparent, but that doesn't imply that it's not secure. Major proprietary software projects can be audited internally and by third-party agencies, and independent security researchers can still find vulnerabilities with techniques like reverse engineering.
+一方で、プロプライエタリソフトウェアは透明性には欠けますが、安全ではないということではありません。 大規模なプロプライエタリソフトウェアは、内部監査や第三者機関による監査を実施することができますし、独立したセキュリティ研究者はリバースエンジニアリングなどの手法で脆弱性を発見することもできます。
 
-To avoid biased decisions, it's *vital* that you evaluate the privacy and security standards of the software you use.
+偏った判断をしないために、使っているソフトウェアのプライバシーとセキュリティの基準を評価することが*極めて重要*です。
 
 ## "Shifting trust can increase privacy"
 
@@ -63,9 +63,9 @@ The privacy policies and business practices of providers you choose are very imp
 
 ## "Complicated is better"
 
-We often see people describing privacy threat models that are overly complex. Often, these solutions include problems like multiple email accounts or complicated setups with lots of moving parts and conditions. The replies are usually answers to "What is the best way to do *X*?"
+複雑すぎるプライバシーの脅威モデルを説明する人もよくいます。 Often, these solutions include problems like multiple email accounts or complicated setups with lots of moving parts and conditions. The replies are usually answers to "What is the best way to do *X*?"
 
-Finding the "best" solution for yourself doesn't necessarily mean you are after an infallible solution with dozens of conditions—these solutions are often difficult to work with realistically. As we discussed previously, security often comes at the cost of convenience. Below, we provide some tips:
+「ベスト」な解決策をを見つけることは、必ずしも、たくさんの条件がある絶対に確実な解決策を求めるということではありません。そのようなものは実際に運用することは難しいことが多いです。 先に述べたように、セキュリティは利便性を犠牲にします。 Below, we provide some tips:
 
 1. ==Actions need to serve a particular purpose:== think about how to do what you want with the fewest actions.
 2. ==Remove human failure points:== We fail, get tired, and forget things. To maintain security, avoid relying on manual conditions and processes that you have to remember.
