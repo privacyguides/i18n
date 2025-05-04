@@ -48,28 +48,28 @@ schema:
 
 偏った判断をしないために、使っているソフトウェアのプライバシーとセキュリティの基準を評価することが*極めて重要*です。
 
-## "Shifting trust can increase privacy"
+## 「信頼の移行によりプライバシーを向上させることができる」
 
-We talk about "shifting trust" a lot when discussing solutions like VPNs (which shift the trust you place in your ISP to the VPN provider). While this protects your browsing data from your ISP *specifically*, the VPN provider you choose still has access to your browsing data: Your data isn't completely secured from all parties. This means that:
+VPNのようなソリューション（信頼をISPからVPNプロバイダーに移す）について議論が行われる際、「信頼の移行」について話すことが多いです。 *特に*ISPからブラウジングデータは保護される一方で、VPNプロバイダーからはブラウジングデータにアクセスできます：すべての関係者に対して完全に安全を確保できるわけではありません。 つまり：
 
-1. You must exercise caution when choosing a provider to shift trust to.
-2. You should still use other techniques, like E2EE, to protect your data completely. Merely distrusting one provider to trust another is not securing your data.
+1. 信頼の移行先のプロバイダーを選ぶには注意が必要である。
+2. データを完全に保護するにはエンドツーエンド暗号化のような技術を使うべきである。 単にあるプロバイダーを信頼せず、他のプロバイダーを信頼するだけではデータの安全性は確保できません。
 
-## "Privacy-focused solutions are inherently trustworthy"
+## 「プライバシー重視のソリューションは本質的に信頼できる」
 
-ツールのプライバシーポリシーやマーケティングだけに注目し過ぎるとその弱点が見えなくなります。 よりプライバシーを重視した解決策を探している場合、根本的な問題を見極め、技術的な解決策を見つける必要があります。 例えば、GoogleがすべてのデータにアクセスできるGoogle Driveの利用をやめたいとしましょう。 The underlying problem in this case is lack of E2EE, so you should make sure that the provider you switch to actually implements E2EE, or use a tool (like [Cryptomator](../encryption.md#cryptomator-cloud)) which provides E2EE on any cloud provider. （エンドツーエンド暗号化がない）「プライバシー重視」のプロバイダーに乗り換えても問題は解決しません：単にGoogleからそのプロバイダーに信頼の移行をしただけです。
+ツールのプライバシーポリシーやマーケティングだけに注目し過ぎるとその弱点が見えなくなります。 よりプライバシーを重視した解決策を探している場合、根本的な問題を見極め、技術的な解決策を見つける必要があります。 例えば、GoogleがすべてのデータにアクセスできるGoogle Driveの利用をやめたいとしましょう。 この場合の根本的な問題はエンドツーエンド暗号化がないことで、乗り換えるプロバイダーに実際にエンドツーエンド暗号化が実装されているか確認するか、どのクラウドサービスプロバイダーでもエンドツーエンド暗号化ができる（[Cryptomator](../encryption.md#cryptomator-cloud)のような）ツールを使用する必要があります。 （エンドツーエンド暗号化がない）「プライバシー重視」のプロバイダーに乗り換えても問題は解決しません：単にGoogleからそのプロバイダーに信頼の移行をしただけです。
 
-The privacy policies and business practices of providers you choose are very important, but should be considered secondary to technical guarantees of your privacy: You shouldn't shift trust to another provider when trusting a provider isn't a requirement at all.
+選んだプロバイダーのプライバシーポリシーとビジネスは非常に重要ですが、プライバシーの技術的保証に次ぐものと考える必要があります：全く要件を満たさない別のプロバイダーに信頼の移行をすべきではありません。
 
-## "Complicated is better"
+## 「複雑であるほうがよい」
 
-複雑すぎるプライバシーの脅威モデルを説明する人もよくいます。 Often, these solutions include problems like multiple email accounts or complicated setups with lots of moving parts and conditions. The replies are usually answers to "What is the best way to do *X*?"
+複雑すぎるプライバシーの脅威モデルを説明する人もよくいます。 多くの場合、その解決策は多くのメールアカウントを使うことや不確定要素を含む複雑なセットアップが含まれています。 これは大抵の場合、「*X*を行うベストな方法は何か？」という質問に対する回答です。
 
-「ベスト」な解決策をを見つけることは、必ずしも、たくさんの条件がある絶対に確実な解決策を求めるということではありません。そのようなものは実際に運用することは難しいことが多いです。 先に述べたように、セキュリティは利便性を犠牲にします。 Below, we provide some tips:
+「ベスト」な解決策をを見つけることは、必ずしも、たくさんの条件がある絶対に確実な解決策を求めるということではありません。そのようなものは実際に運用することは難しいことが多いです。 先に述べたように、セキュリティは利便性を犠牲にします。 以下にヒントを示します：
 
-1. ==Actions need to serve a particular purpose:== think about how to do what you want with the fewest actions.
-2. ==Remove human failure points:== We fail, get tired, and forget things. To maintain security, avoid relying on manual conditions and processes that you have to remember.
-3. ==Use the right level of protection for what you intend.== We often see recommendations of so-called law-enforcement or subpoena-proof solutions. These often require specialist knowledge and generally aren't what people want. There's no point in building an intricate threat model for anonymity if you can be easily deanonymized by a simple oversight.
+1. ==行動は特定の目的に合う必要がある：==最小限の行動でやりたいことがどうやったらできるか考えてください。
+2. ==人が失敗し得る箇所をなくす：==人は失敗したり、疲れたり、忘れたりします。 セキュリティを維持するために、覚えておく必要のある手動条件や手作業に頼らないようにします。
+3. ==意図したものを適切なレベルで保護すること。==いわゆる法の執行や召喚令状を防ぐソリューションの推奨がよくあります。 このようなものは通常、一般人が望むものではなく、専門的な知識を必要とします。 単純な監視によって簡単に匿名化を解除されてしまうのであれば、匿名化のために複雑な脅威モデルを作ることは意味がありません。
 
 So, how might this look?
 
