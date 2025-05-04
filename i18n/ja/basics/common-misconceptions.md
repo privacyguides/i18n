@@ -88,10 +88,10 @@ VPNのようなソリューション（信頼をISPからVPNプロバイダー�
 
 2. **未知の身元** - 未知の身元には、普段使用している固定のハンドルネームが挙げられます。 変わらないため、匿名ではありません。 オンラインコミュニティーの一員なら、他の人が知っている人格を保ちたいと思うかもしれません。 ハンドルネームは匿名ではありません。もし十分に長い期間監視すれば、ハンドルネームの持ち主の文章の書き方や興味のある一般的な話題などの詳細な情報を明らかにすることができるためです。
 
-    IPアドレスを隠すためにVPNを使うほうがいいでしょう。 金融取引は隠すことがさらに難しくなります：[Monero](../cryptocurrency.md#monero)などの匿名暗号通貨を使うことを検討してください。 オルトコインから交換することで出所を偽装することができるかもしれません。 通常、取引所では法定通貨から暗号通貨へ交換する前にKYC（本人確認手続き）が完了している必要があります。 Local meet-up options may also be a solution; however, those are often more expensive and sometimes also require KYC.
+    IPアドレスを隠すためにVPNを使うほうがいいでしょう。 金融取引は隠すことがさらに難しくなります：[Monero](../cryptocurrency.md#monero)などの匿名暗号通貨を使うことを検討してください。 オルトコインから交換することで出所を偽装することができるかもしれません。 通常、取引所では法定通貨から暗号通貨へ交換する前にKYC（本人確認手続き）が完了している必要があります。 現地での集会という選択肢もありますが、割高になることが多く、本人確認が必要になることもあります。
 
-3. **Anonymous identity** - Even with experience, anonymous identities are difficult to maintain over long periods of time. They should be short-term and short-lived identities which are rotated regularly.
+3. **匿名の身元**- 経験があっても、長期間、身元を匿名のままにすることは難しいです。 短期間および短命の身元で定期的に替える必要があります。
 
-    Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
+    Torが役に立ちます。 非同期のコミュニケーション（例：テキスト、フォーラムへの投稿、メールなど）はより匿名性を保つことができます。リアルタイムのコミュニケーションではタイピングパターンを分析できてしまいます。
 
-[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added an obfuscated backdoor into `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed.
+[^1]: 注目すべきサプライチェーン攻撃は2024年3月に発生しました。有名な圧縮ライブラリである`xz`に難読化されたバックドアが悪意のあるメンテナーによって追加されました。 このバックドア（[CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)）はSSH経由でほとんどのLinuxサーバーに未知の攻撃者がリモートアクセスできるようにするものでしたが、広くデプロイされる前に発見されました。

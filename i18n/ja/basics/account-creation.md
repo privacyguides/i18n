@@ -1,15 +1,15 @@
 ---
-meta_title: "How to Create Internet Accounts Privately - Privacy Guides"
-title: "Account Creation"
+meta_title: "プライベートなアカウントを作成する方法 - Privacy Guides"
+title: "アカウントの作成"
 icon: 'material/account-plus'
-description: Creating accounts online is practically an internet necessity, take these steps to make sure you stay private.
+description: オンラインでアカウントを作成することは実際のインターネットでは必須であり、プライベートなものであることを確認するために以下のステップに従ってください。
 ---
 
-Often people sign up for services without thinking. Maybe it's a streaming service to watch that new show everyone's talking about, or an account that gives you a discount for your favorite fast food place. Whatever the case may be, you should consider the implications for your data now and later on down the line.
+多くの場合、何も考えずにサービスへユーザー登録することがあります。 多くの人が話題にしている新番組を見るためのストリーミングサービスかもしれませんし、お気に入りのファーストフード店の割引を受けるためのアカウントかもしれません。 どのような場合でも、データが現在および将来及ぼす影響を考える必要があります。
 
-There are risks associated with every new service that you use. Data breaches; disclosure of customer information to third parties; rogue employees accessing data; all are possibilities that must be considered when giving your information out. You need to be confident that you can trust the service, which is why we don't recommend storing valuable data on anything but the most mature and battle-tested products. That usually means services which provide E2EE and have undergone a cryptographic audit. An audit increases assurance that the product was designed without glaring security issues caused by an inexperienced developer.
+新しいサービスを利用することにはリスクがあります。 データ漏洩、第三者への顧客情報の開示や不正に従業員がデータにアクセスすることの可能性については、自分の情報を提供する際に考える必要があります。 サービスを信用できるという確信が必要であり、そのため最も成熟し、実践レベルで使われている製品以外に貴重なデータを保存することは推奨しません。 多くの場合、エンドツーエンド暗号化が行われ、暗号化の監査を受けているサービスが該当します。 検査を受けることで、経験の浅い開発者によって引き起こされるセキュリティ上のひどい問題がなく製品が設計されているという保証が高まります。
 
-It can also be difficult to delete the accounts on some services. Sometimes [overwriting data](account-deletion.md#overwriting-account-information) associated with an account can be possible, but in other cases the service will keep an entire history of changes to the account.
+サービスによってはアカウントの削除が難しい場合もあります。 アカウントに関連する[データの上書き](account-deletion.md#overwriting-account-information)ができる場合もありますが、アカウントの変更履歴をすべて保持するサービスもあります。
 
 ## 利用規約 & プライバシーポリシー
 
