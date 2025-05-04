@@ -71,24 +71,24 @@ VPNのようなソリューション（信頼をISPからVPNプロバイダー�
 2. ==人が失敗し得る箇所をなくす：==人は失敗したり、疲れたり、忘れたりします。 セキュリティを維持するために、覚えておく必要のある手動条件や手作業に頼らないようにします。
 3. ==意図したものを適切なレベルで保護すること。==いわゆる法の執行や召喚令状を防ぐソリューションの推奨がよくあります。 このようなものは通常、一般人が望むものではなく、専門的な知識を必要とします。 単純な監視によって簡単に匿名化を解除されてしまうのであれば、匿名化のために複雑な脅威モデルを作ることは意味がありません。
 
-So, how might this look?
+どのようになるでしょうか？
 
-One of the clearest threat models is one where people *know who you are* and one where they do not. There will always be situations where you must declare your legal name and there are others where you don't need to.
+分かりやすい脅威モデルとして他の人が*あなたの正体を知っている*場合と知らない場合が挙げられます。 必ず本名を申告する必要がある場合もありますし、必要ない場合もあります。
 
-1. **Known identity** - A known identity is used for things where you must declare your name. There are many legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, customs declarations when importing items, or otherwise dealing with your government. These things will usually lead to credentials such as credit cards, credit rating checks, account numbers, and possibly physical addresses.
+1. **既知の身元** - 既知の身元は本名を申告しなければならない際に使われます。 法的な身分証明が必要とされる法的な文書や契約は数多くあります。 銀行口座の開設、不動産賃貸契約の締結、パスポートの取得、物品輸入時の税関申告や、その他政府とのやり取りなど多岐にわたります。 このようなものはクレジットカード、信用格付けの確認、口座番号や場合によっては物理的な住所などの信用証明につながります。
 
-    We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
+    身元がすでに他の方法で知られているため、VPNやTorを使うことは推奨しません。
 
     <div class="admonition tip" markdown>
-    <p class="admonition-title">Tip</p>
+    <p class="admonition-title">ヒント</p>
 
-    When shopping online, the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
+    オンラインショッピングの場合、[荷物受け取りロッカー](https://en.wikipedia.org/wiki/Parcel_locker)を使うことで、物理的な住所を秘密にすることができます。
 
     </div>
 
-2. **Unknown identity** - An unknown identity could be a stable pseudonym that you regularly use. It is not anonymous because it doesn't change. If you're part of an online community, you may wish to retain a persona that others know. This pseudonym isn't anonymous because—if monitored for long enough—details about the owner can reveal further information, such as the way they write, their general knowledge about topics of interest, etc.
+2. **未知の身元** - 未知の身元には、普段使用している固定のハンドルネームが挙げられます。 変わらないため、匿名ではありません。 オンラインコミュニティーの一員なら、他の人が知っている人格を保ちたいと思うかもしれません。 ハンドルネームは匿名ではありません。もし十分に長い期間監視すれば、ハンドルネームの持ち主の文章の書き方や興味のある一般的な話題などの詳細な情報を明らかにすることができるためです。
 
-    You may wish to use a VPN for this, to mask your IP address. Financial transactions are more difficult to mask: You could consider using anonymous cryptocurrencies, such as [Monero](../cryptocurrency.md#monero). Employing altcoin shifting may also help to disguise where your currency originated. Typically, exchanges require KYC (know your customer) to be completed before they'll allow you to exchange fiat currency into any kind of cryptocurrency. Local meet-up options may also be a solution; however, those are often more expensive and sometimes also require KYC.
+    IPアドレスを隠すためにVPNを使うほうがいいでしょう。 金融取引は隠すことがさらに難しくなります：[Monero](../cryptocurrency.md#monero)などの匿名暗号通貨を使うことを検討してください。 オルトコインから交換することで出所を偽装することができるかもしれません。 通常、取引所では法定通貨から暗号通貨へ交換する前にKYC（本人確認手続き）が完了している必要があります。 Local meet-up options may also be a solution; however, those are often more expensive and sometimes also require KYC.
 
 3. **Anonymous identity** - Even with experience, anonymous identities are difficult to maintain over long periods of time. They should be short-term and short-lived identities which are rotated regularly.
 
