@@ -89,7 +89,11 @@ Ha névtelenül szeretnél böngészni az interneten, használd inkább a [Tor](
 
 </div>
 
-A [Tor Browserhez](tor.md) hasonlóan a Mullvad Browser is úgy lett kialakítva, hogy megakadályozza az ujjlenyomat-képzést azáltal, hogy a böngésző ujjlenyomata megegyezik az összes többi Mullvad Browser felhasználóéval, és olyan alapértelmezett beállításokat és bővítményeket tartalmaz, amelyeket az alapértelmezett biztonsági szintek automatikusan konfigurálnak: *Alapértelmezett*, *Biztonságosabb* és *Legbiztonságosabb*. Ezért elengedhetetlen, hogy a böngészőt az alapértelmezett [biztonsági szintek](https://tb-manual.torproject.org/security-settings) beállításán kívül egyáltalán ne módosítsa. Más módosítások egyedivé tennék az ujjlenyomatot, ami meghiúsítja a böngésző használatának célját. Ha erősebben szeretné konfigurálni a böngészőjét, és az ujjlenyomatok nem jelentenek gondot az Ön számára, akkor inkább a [Firefoxot](#firefox) ajánljuk.
+Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+
+Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). When adjusting the security level, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw/), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
+
+Modifications other than adjusting this setting would make your fingerprint unique, defeating the purpose of using this browser. Ha erősebben szeretné konfigurálni a böngészőjét, és az ujjlenyomatok nem jelentenek gondot az Ön számára, akkor inkább a [Firefoxot](#firefox) ajánljuk.
 
 ### Ujjlenyomat-mentesítés
 

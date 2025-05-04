@@ -80,7 +80,7 @@ You should **never** install any additional extensions on Tor Browser or edit `a
 
 </div>
 
-The Tor Browser is designed to prevent fingerprinting, or identifying you based on your browser configuration. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings).
+The Tor Browser is designed to prevent fingerprinting, or identifying you based on your browser configuration. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings). When modifying the security level setting, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw/), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
 
 علاوه بر نصب مستقیم مرورگر Tor روی رایانه شما، سیستم‌عامل‌هایی نیز وجود دارند که به طور خاص برای اتصال به شبکه Tor طراحی شده‌اند، مانند [Whonix](desktop.md#whonix) روی [Qubes OS](desktop.md#qubes-os)، که امنیت و محافظت‌های بیشتری نسبت به مرورگر Tor به تنهایی ارائه می‌دهند.
 

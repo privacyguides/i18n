@@ -89,7 +89,11 @@ These are our currently recommended **desktop web browsers** and configurations 
 
 </div>
 
-[Tor Browser](tor.md) gibi, Mullvad Browser da tarayıcı parmak izinizi diğer tüm Mullvad Browser kullanıcılarıyla aynı hale getirerek parmak izini önlemek için tasarlanmıştır ve varsayılan güvenlik düzeyleri tarafından otomatik olarak yapılandırılan varsayılan ayarları ve eklentileri içerir: *Standart*, *Daha güvenli* ve *En güvenli*. Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). Diğer değişiklikler parmak izinizi benzersiz hale getirerek bu tarayıcıyı kullanma amacınızı ortadan kaldıracaktır. Tarayıcınızı daha fazla yapılandırmak istiyorsanız ve parmak izi sizin için bir endişe kaynağı değilse, bunun yerine [Firefox](#firefox) öneririz.
+Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+
+Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). When adjusting the security level, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw/), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
+
+Modifications other than adjusting this setting would make your fingerprint unique, defeating the purpose of using this browser. Tarayıcınızı daha fazla yapılandırmak istiyorsanız ve parmak izi sizin için bir endişe kaynağı değilse, bunun yerine [Firefox](#firefox) öneririz.
 
 ### Parmak İzi Önleme
 

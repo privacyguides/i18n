@@ -89,7 +89,11 @@ Wenn du anonym im Internet surfen möchtest, solltest du stattdessen [Tor](tor.m
 
 </div>
 
-Wie der [Tor Browser](tor.md) ist auch der Mullvad Browser so konzipiert, dass der Fingerabdruck Ihres Browsers mit dem aller anderen Mullvad Browser-Benutzer identisch ist (Anti-Fingerprinting). Dies beinhaltet die Standardeinstellungen und -erweiterungen, die automatisch durch die Standard-Sicherheitsstufen konfiguriert werden können: *Standard*, *Sicherer* und *Am Sichersten*. Daher ist es zwingend erforderlich, dass du den Browser in keiner Weise modifizierst, abgesehen von der Anpassung der [Standard-Sicherheitsstufen](https://tb-manual.torproject.org/security-settings). Andere Änderungen würden Ihren Fingerabdruck einzigartig machen und damit den Zweck dieses Browsers zunichtemachen. Wenn du deinen Browser stärker konfigurieren möchtest und Fingerprinting für dich kein Thema ist, empfehlen wir stattdessen [Firefox](#firefox).
+Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+
+Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). When adjusting the security level, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw/), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
+
+Modifications other than adjusting this setting would make your fingerprint unique, defeating the purpose of using this browser. Wenn du deinen Browser stärker konfigurieren möchtest und Fingerprinting für dich kein Thema ist, empfehlen wir stattdessen [Firefox](#firefox).
 
 ### Anti-Fingerprinting
 

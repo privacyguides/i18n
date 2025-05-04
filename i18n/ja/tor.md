@@ -80,7 +80,7 @@ Firefoxでおすすめされているものを含め、Tor Browserに追加の�
 
 </div>
 
-Tor Browserはフィンガープリントを防止するよう設計されており、不用意にブラウザの設定を変更するとあなたは特定されやすくなってしまいます。 そのため、デフォルトの[セキュリティレベル](https://tb-manual.torproject.org/security-settings)を調整する以外の変更は**行うべきではありません**。
+Tor Browserはフィンガープリントを防止するよう設計されており、不用意にブラウザの設定を変更するとあなたは特定されやすくなってしまいます。 そのため、デフォルトの[セキュリティレベル](https://tb-manual.torproject.org/security-settings)を調整する以外の変更は**行うべきではありません**。 When modifying the security level setting, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw/), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
 
 Tor Browserを直接コンピューターにインストールするだけではなく、[Qubes OS](desktop.md#qubes-os)上の[Whonix](desktop.md#whonix)のようにTorネットワークに接続するためのOSもあり、Tor Browser単体で使うよりもよりセキュリティを強化することができます。
 

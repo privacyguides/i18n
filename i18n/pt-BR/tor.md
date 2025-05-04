@@ -80,7 +80,7 @@ Você nunca deve instalar outras extensões no Navegador Tor ou editar as config
 
 </div>
 
-O Navegador Tor foi projetado para evitar a coleta de suas "impressões digitais" ou a identificação do usuário com base na configuração do navegador. Portanto, é imperativo que você **não** modifique o navegador além do padrão de níveis de segurança [](https://tb-manual.torproject.org/security-settings).
+O Navegador Tor foi projetado para evitar a coleta de suas "impressões digitais" ou a identificação do usuário com base na configuração do navegador. Portanto, é imperativo que você **não** modifique o navegador além do padrão de níveis de segurança [](https://tb-manual.torproject.org/security-settings). When modifying the security level setting, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw/), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
 
 Além de instalar o Navegador Tor diretamente no seu computador, existem também sistemas operacionais projetados especificamente para se conectar à rede Tor, como [Whonix](desktop.md#whonix) na [Qubes OS](desktop.md#qubes-os), que oferecem segurança e proteção ainda maiores do que o Navegador Tor padrão sozinho.
 

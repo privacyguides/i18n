@@ -80,7 +80,7 @@ O **Browser Tor** é a escolha certa se precisar de anonimato, uma vez que lhe d
 
 </div>
 
-O Tor foi concebido para evitar a recolha de impressões digitais, ou a sua identificação com base na configuração. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings).
+O Tor foi concebido para evitar a recolha de impressões digitais, ou a sua identificação com base na configuração. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings). When modifying the security level setting, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw/), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
 
 In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
 

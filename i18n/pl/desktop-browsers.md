@@ -89,7 +89,11 @@ Jeśli chcesz przeglądać Internet anonimowo, powinieneś użyć [Tor](tor.md).
 
 </div>
 
-Podobnie jak [Tor Browser](tor.md), przeglądarka Mullvad Browser została zaprojektowana w celu zapobiegania pozostawiania odcisku palcac w sieci poprzez uczynienie odcisku palca przeglądarki identycznym ze wszystkimi innymi użytkownikami Mullvad Browser i zawiera domyślne ustawienia i rozszerzenia, które są automatycznie konfigurowane przez domyślne poziomy bezpieczeństwa: *Standardowy*, *Bezpieczniejszy* i *Najbezpieczniejszy*. Dlatego konieczne jest, aby w ogóle nie modyfikować przeglądarki poza dostosowaniem domyślnych [poziomów bezpieczeństwa](https://tb-manual.torproject.org/security-settings). Inne modyfikacje sprawiłyby, że odcisk palca byłby unikalny, co uniemożliwiłoby prawidłowe i bezpiecznie korzystanie z tej przeglądarki. Jeśli chcesz bardziej skonfigurować swoją przeglądarkę, a fingerprinting nie jest dla Ciebie problemem, zalecamy zamiast tego [Firefox](#firefox).
+Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+
+Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). When adjusting the security level, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw/), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
+
+Modifications other than adjusting this setting would make your fingerprint unique, defeating the purpose of using this browser. Jeśli chcesz bardziej skonfigurować swoją przeglądarkę, a fingerprinting nie jest dla Ciebie problemem, zalecamy zamiast tego [Firefox](#firefox).
 
 ### Ochrona przed fingerprintingiem
 

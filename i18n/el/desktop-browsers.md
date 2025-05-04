@@ -89,7 +89,11 @@ These are our currently recommended **desktop web browsers** and configurations 
 
 </div>
 
-Παρόμοια του [Tor Browser](tor.md), ο Mullvad Browser σχεδιάστηκε να αποτρέπει την αποτύπωση καθιστώντας το ψηφιακό αποτύπωμα του περιηγητή σου πανομοιότυπο με όλων των υπόλοιπων χρηστ(ρι)ών του Mullvad Browser, και περιλαμβάνει προεπιλεγμένες ρυθμίσεις και επεκτάσεις, οι οποίες διαμορφώνονται αυτόματα από τα προεπιλεγμένα επίπεδα ασφαλείας: *Τυπικό*, *Ασφαλέστερο* και *Ασφαλέστατο*. Συνεπώς, είναι ζωτικής σημασίας να μην τροποποιήσεις τον περιηγητή πέραν της επιλογής [επιπέδου ασφαλείας](https://tb-manual.torproject.org/security-settings). Άλλες τροποποιήσεις θα κάνουν το ψηφιακό σου αποτύπωμα μοναδικό, αναιρώντας έτσι τον σκοπό χρήσης του συγκεκριμένου περιηγητή. Εάν θέλεις να ρυθμίσεις τον περιηγητή σου σε μεγαλύτερο βαθμό και η αποτύπωση δεν σε απασχολεί, τότε σου προτείνουμε το [Firefox](#firefox).
+Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+
+Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). When adjusting the security level, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw/), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
+
+Modifications other than adjusting this setting would make your fingerprint unique, defeating the purpose of using this browser. Εάν θέλεις να ρυθμίσεις τον περιηγητή σου σε μεγαλύτερο βαθμό και η αποτύπωση δεν σε απασχολεί, τότε σου προτείνουμε το [Firefox](#firefox).
 
 ### Αντι-Αποτύπωση (Anti-Fingerprinting)
 

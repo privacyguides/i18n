@@ -80,7 +80,7 @@ Vous ne devriez **jamais** installer des extensions supplémentaires sur le Navi
 
 </div>
 
-Le Navigateur Tor est conçu pour empêcher la capture d'empreintes numérique, ou l'identification en fonction de la configuration de votre navigateur. Il est donc impératif de **ne pas** modifier le navigateur au-delà des [niveaux de sécurité](https://tb-manual.torproject.org/security-settings) par défaut.
+Le Navigateur Tor est conçu pour empêcher la capture d'empreintes numérique, ou l'identification en fonction de la configuration de votre navigateur. Il est donc impératif de **ne pas** modifier le navigateur au-delà des [niveaux de sécurité](https://tb-manual.torproject.org/security-settings) par défaut. When modifying the security level setting, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw/), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
 
 Outre installer le Navigateur Tor sur votre ordinateur, il existe également des systèmes d'exploitation conçus spécifiquement pour se connecter au réseau Tor tels que [Whonix](desktop.md#whonix) sur [Qubes OS](desktop.md#qubes-os), qui offrent une sécurité et des protections encore plus importantes que le Navigateur Tor standard.
 

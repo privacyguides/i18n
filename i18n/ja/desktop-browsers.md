@@ -89,7 +89,11 @@ schema:
 
 </div>
 
-[Tor Browser](tor.md)と同様に、Mullvad Browserは、あなたのブラウザのフィンガープリントを他のすべてのMullvadユーザーと同一にすることで、フィンガープリンティングを防ぐよう設計されています。また、*Standard（標準）*、*Safer（より安全）*、*Safest（最も安全）*の3つのデフォルトのセキュリティレベルにより自動的に調整される設定と拡張機能が含まれています。 したがって、デフォルトの[セキュリティレベル](https://tb-manual.torproject.org/security-settings)を調整する以外には、ブラウザを一切変更しないことが重要です。 その他の変更を加えた場合、あなたのブラウザのフィンガープリントは一意のものとなり、このブラウザを使う意味が無くなってしまいます。 ブラウザをより詳細に設定したい場合で、フィンガープリントが重要でない場合は、代わりに[Firefox](#firefox)を推奨します。
+Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+
+Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). When adjusting the security level, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw/), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
+
+Modifications other than adjusting this setting would make your fingerprint unique, defeating the purpose of using this browser. ブラウザをより詳細に設定したい場合で、フィンガープリントが重要でない場合は、代わりに[Firefox](#firefox)を推奨します。
 
 ### フィンガープリント対策
 
