@@ -23,36 +23,36 @@ description: オンラインでアカウントを作成することは実際の�
 
 ## 認証方法
 
-There are usually multiple ways to sign up for an account, each with their own benefits and drawbacks.
+アカウントの登録には複数の方法があり、それぞれ利点と欠点があります。
 
 ### メールアドレスとパスワード
 
-The most common way to create a new account is by an email address and password. When using this method, you should use a password manager and follow [best practices](passwords-overview.md) regarding passwords.
+アカウント作成の最も一般的な方法はメールアドレスとパスワードによるものです。 この方法の場合、パスワードマネージャーを使い、パスワードに関する[ベストプラクティス](passwords-overview.md)に従ってください。
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">ヒント</p>
 
-You can use your password manager to organize other authentication methods too! Just add the new entry and fill the appropriate fields, you can add notes for things like security questions or a backup key.
+パスワードマネージャーで他の認証方法をまとめることもできます！ 新しいエントリーを追加し、適切な項目を入力し、セキュリティの質問やバックアップキーなどのメモを追加することもできます。
 
 </div>
 
-You will be responsible for managing your login credentials. For added security, you can set up [MFA](multi-factor-authentication.md) on your accounts.
+ログイン認証情報は自分で管理する必要があります。 セキュリティを強化するために、アカウントに[他要素認証](multi-factor-authentication.md)を設定することもできます。
 
 [推奨のパスワードマネージャー](../passwords.md ""){.md-button}
 
 #### 電子メールのエイリアス
 
-If you don't want to give your real email address to a service, you have the option to use an alias. We describe them in more detail on our email services recommendation page. Essentially, alias services allow you to generate new email addresses that forward all emails to your main address. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. Those can be filtered automatically based on the alias they are sent to.
+本当のメールアドレスをサービスに登録したくない場合、メールエイリアスを使う選択肢もあります。 詳細はメールサービスのページに記載しています。 基本的に、エイリアスサービスではメインのメールアドレスにすべてのメールを転送する新しいメールアドレスを作ることができます。 サービス間でのトラッキングを防ぎ、登録に伴ってついてくるマーケティングメールを処理するのに役立ちます。 送信先のエイリアスに基づいて自動的にフィルタリングすることができます。
 
-Should a service get hacked, you might start receiving phishing or spam emails to the address you used to sign up. Using unique aliases for each service can assist in identifying exactly what service was hacked.
+サービスがハッキングされた場合、登録したアドレスにフィッシングメールやスパムメールが届くかもしれません。 サービスごとに個別のエイリアスを使うことで、どのサービスがハッキングされたかを正確に特定することができます。
 
-[Recommended email aliasing services](../email-aliasing.md ""){.md-button}
+[推奨されるメールエイリアスサービス](../email-aliasing.md ""){.md-button}
 
-### "Sign in with..." (OAuth)
+### 「他のサービスでサインイン」 (OAuth)
 
-[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth) is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Whenever you see something along the lines of "Sign in with *provider name*" on a registration form, it's typically using OAuth.
+[Open Authorization(OAuth)](https://en.wikipedia.org/wiki/OAuth)はサービスプロバイダーに多くの情報を共有せずに登録できる認証プロトコルで、他のサービスの既存のアカウントを代わりに使うことができます。 登録フォームに「*プロバイダー名*でサインイン」のような表示がある場合、たいていはOAuthを使っています。
 
-When you sign in with OAuth, it will open a login page with the provider you choose, and your existing account and new account will be connected. Your password won't be shared, but some basic information typically will (you can review it during the login request). This process is needed every time you want to log in to the same account.
+OAuthでサインインすると、選択したプロバイダーのログインページが開かれ、既存のアカウントと新しいアカウントが接続されます。 パスワードは共有されませんが、基本的な情報は共有されます（ログイン要求の際に確認できます）。 このプロセスは同じアカウントにログインするたびに必要です。
 
 主な利点は以下の通りです。
 
