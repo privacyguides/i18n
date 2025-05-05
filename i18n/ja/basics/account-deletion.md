@@ -1,33 +1,33 @@
 ---
 title: "アカウントの削除"
 icon: 'material/account-remove'
-description: It's easy to accumulate a large number of internet accounts, here are some tips on how to prune your collection.
+description: インターネット上のアカウントは多くなりがちですが、整理するためのヒントについて紹介します。
 ---
 
-Over time, it can be easy to accumulate a number of online accounts, many of which you may no longer use. Deleting these unused accounts is an important step in reclaiming your privacy, as dormant accounts are vulnerable to data breaches. データ漏洩とは、サービスのセキュリティが侵害され、保護されている情報が不正行為者によって閲覧、送信、または盗まれることをいいます。 Data breaches are unfortunately all [too common](https://haveibeenpwned.com/PwnedWebsites) these days, and so practicing good digital hygiene is the best way to minimize the impact they have on your life. The goal of this guide then is to help navigate you through the irksome process of account deletion, often made difficult by [deceptive design](https://deceptive.design), for the betterment of your online presence.
+オンラインのアカウントは多くなりがちで、時間とともに使用していないものも多くなっているかもしれません。 使っていないアカウントを削除することはプライバシーを取り戻すための重要なステップです。休止中のアカウントはデータ漏洩に対して脆弱だからです。 データ漏洩とは、サービスのセキュリティが侵害され、保護されている情報が不正行為者によって閲覧、送信、または盗まれることをいいます。 残念ながらデータ漏洩は最近では[あまりにも頻繁に起きており](https://haveibeenpwned.com/PwnedWebsites)、優れたデジタルハイジーンを実践することは、生活への影響を最小限に抑える最もよい方法です。 アカウントの削除は[ダークパターン](https://deceptive.design)によって難しくなっていることが多く、このガイドの目的は面倒なアカウント削除のナビゲートをして、オンラインプレゼンスを改善することです。
 
 ## 古いアカウントを探す
 
 ### パスワードマネージャー
 
-If you have a password manager that you've used for your entire digital life, this part will be very easy. Oftentimes, they include built-in functionality for detecting if your credentials were exposed in a data breach—such as Bitwarden's [Data Breach Report](https://bitwarden.com/blog/have-you-been-pwned).
+すべてのオンライン上の活動でパスワードマネージャーを利用しているのであれば、このパートは非常に簡単です。 パスワードマネージャーにはBitwardenの[データ漏洩レポート](https://bitwarden.com/blog/have-you-been-pwned)のような認証情報がデータが漏洩したか検知する機能が組み込まれています。
 
 <figure markdown>
-  ![Bitwarden's Data Breach Report feature](../assets/img/account-deletion/exposed_passwords.png)
+  ![Bitwardenのデータ漏洩レポート](../assets/img/account-deletion/exposed_passwords.png)
 </figure>
 
-Even if you haven't explicitly used a password manager before, there's a chance you've used the one in your browser or your phone without even realizing it. For example: [Firefox Password Manager](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins), [Google Password Manager](https://passwords.google.com/intro) and [Edge Password Manager](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336).
+パスワードマネージャーを使用していない場合でも、気づかないうちにブラウザや携帯電話にあるものを使っている可能性があります。 例えば、[Firefoxのパスワードマネージャー](https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins)、[Googleパスワードマネージャー](https://passwords.google.com/intro)や[Edgeパスワードマネージャー](https://support.microsoft.com/microsoft-edge/save-or-forget-passwords-in-microsoft-edge-b4beecb0-f2a8-1ca0-f26f-9ec247a3f336)が挙げられます。
 
-Desktop platforms also often have a password manager which may help you recover passwords you've forgotten about:
+デスクトッププラットフォームにはパスワードマネージャーがあり、忘れてしまったパスワードを復元することができるかもしれません：
 
-- Windows [Credential Manager](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
-- macOS [Passwords](https://support.apple.com/HT211145)
-- iOS [Passwords](https://support.apple.com/HT211146)
-- Linux, Gnome Keyring, which can be accessed through [Seahorse](https://wiki.gnome.org/Apps/Seahorse) or [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)
+- Windowsの[資格情報マネージャー](https://support.microsoft.com/windows/accessing-credential-manager-1b5c916a-6a16-889f-8581-fc16e8165ac0)
+- macOSの[保存済みのパスワード](https://support.apple.com/HT211145)
+- iOSの[保存済みのパスワード](https://support.apple.com/HT211146)
+- Linuxの[Seahorse](https://wiki.gnome.org/Apps/Seahorse)や[KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager)でアクセスするGnome Keyring
 
 ### メール
 
-If you didn't use a password manager in the past, or you think you have accounts that were never added to your password manager, another option is to search the email account(s) that you believe you signed up on. メールクライアントで、「認証」や「ようこそ」などのキーワードを検索してみてください。 Almost every time you make an online account, the service will send a verification link or an introductory message to your email. This can be a good way to find old, forgotten accounts.
+もし過去にパスワードマネージャーを使用していないか、パスワードマネージャーに追加していないアカウントがある場合、登録したと思われるメールを探す方法もあります。 メールクライアントで、「認証」や「ようこそ」などのキーワードを検索してみてください。 オンラインアカウントを作成する際には、ほぼすべてのサービスから確認用のリンクや最初のメッセージがメールに送信されています。 忘れてしまった古いアカウントを見つけるよい方法です。
 
 ## 古いアカウントを削除
 
