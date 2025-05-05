@@ -68,7 +68,7 @@ OAuthはサービス間が統合されることで恩恵を受けられる場合
 
 OAuthを使用するサービスはOAuthプロバイダーのアカウントと同じくらい安全です。 例えば、ハードウェアキーでアカウントを保護したいが、サービスがハードウェアキーに対応していない場合でも、代わりにOAuthで使用するアカウントをハードウェアキーで保護することで、すべてのアカウントにハードウェア多要素認証を使うことができます。 OAuthプロバイダーのアカウントの認証が弱い場合は、関連付けられたアカウントのログインも弱くなってしまうことに注意してください。
 
-*Google*、*Facebook*や他のサービスでサインインする場合、*双方向*のデータ共有を許可することが多く、危険が生じます。 For example, logging in to a forum with your Twitter account could grant that forum access to do things on your Twitter account such as post, read your messages, or access other personal data. OAuth providers will typically present you with a list of things you are granting the external service access to, and you should always ensure that you read through that list and don't inadvertently grant the external service access to anything it doesn't require.
+*Google*、*Facebook*や他のサービスでサインインする場合、*双方向*のデータ共有を許可することが多く、危険が生じます。 例えば、Twitterアカウントでフォーラムにログインすると、投稿、メッセージの閲覧、個人データへのアクセスなど、Twitterアカウントで行うことへの権限がフォーラムに付与されます。 OAuthプロバイダーは外部サービスへのアクセス許可のリストを表示します。リストを読んで確認し、不用意に外部のサービスには不必要なものへアクセスを許可しないようにしてください。
 
 Malicious applications, particularly on mobile devices where the application has access to the WebView session used for logging in to the OAuth provider, can also abuse this process by hijacking your session with the OAuth provider and gaining access to your OAuth account through those means. Using the *Sign in with* option with any provider should usually be considered a matter of convenience that you only use with services you trust to not be actively malicious.
 
