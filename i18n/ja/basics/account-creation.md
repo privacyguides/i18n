@@ -70,16 +70,16 @@ OAuthを使用するサービスはOAuthプロバイダーのアカウントと�
 
 *Google*、*Facebook*や他のサービスでサインインする場合、*双方向*のデータ共有を許可することが多く、危険が生じます。 例えば、Twitterアカウントでフォーラムにログインすると、投稿、メッセージの閲覧、個人データへのアクセスなど、Twitterアカウントで行うことへの権限がフォーラムに付与されます。 OAuthプロバイダーは外部サービスへのアクセス許可のリストを表示します。リストを読んで確認し、不用意に外部のサービスには不必要なものへアクセスを許可しないようにしてください。
 
-Malicious applications, particularly on mobile devices where the application has access to the WebView session used for logging in to the OAuth provider, can also abuse this process by hijacking your session with the OAuth provider and gaining access to your OAuth account through those means. Using the *Sign in with* option with any provider should usually be considered a matter of convenience that you only use with services you trust to not be actively malicious.
+悪意のあるアプリケーション、特にOAuthプロバイダーへのログインに使っているWebViewセッションにアプリケーションからアクセスできるモバイルデバイスでは、OAuthプロバイダーへのセッションを乗っ取り、悪用することで、OAuthアカウントにアクセスできてしまいます。 どのプロバイダーでも*「他のサービスでサインイン」*を使うのは、悪意がなく信頼できるサービスだけに使える便利なものにすぎないと考える必要があります。
 
 ### 電話番号
 
-We recommend avoiding services that require a phone number for sign up. A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
+電話番号が必要なサービスへの登録は避けることを推奨します。 電話番号は複数のサービス間で利用者を特定でき、データ共有の内容によっては利用状況をトラッキングしやすくなります。電話番号は暗号化されて**いない**ことが多いため、一つのサービスが侵害された場合はなおさらです。
 
-You should avoid giving out your real phone number if you can. Some services will allow the use of VoIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
+可能であれば本当の電話番号は教えないほうが望ましいです。 VoIP番号が使用できるサービスもありますが、その場合は不正検知システムを作動させ、アカウントがロックダウンされてしまうことがよくあるため、重要なアカウントでは推奨しません。
 
-In many cases you will need to provide a number that you can receive SMS or calls from, particularly when shopping internationally, in case there is a problem with your order at border screening. It's common for services to use your number as a verification method; don't let yourself get locked out of an important account because you wanted to be clever and give a fake number!
+特に海外の通販の場合、輸出審査に問題があった場合に備えて、SMSや電話を受信できる番号を提出しなければならないことが多いです。 確認のために電話番号を使うサービスはよくあります。小利口にも偽の番号を提出して、重要なアカウントがロックされないようにしましょう！
 
 ### ユーザー名とパスワード
 
-Some services allow you to register without using an email address and only require you to set a username and password. These services may provide increased anonymity when combined with a VPN or Tor. Keep in mind that for these accounts there will most likely be **no way to recover your account** in the event you forget your username or password.
+メールアドレスなしに、ユーザー名とパスワードだけで登録できるサービスもあります。 VPNやTorと組み合わせることで匿名性を高めることができるかもしれません。 **アカウントを回復する方法がない**可能性が高いことに留意してください。
