@@ -56,19 +56,19 @@ OAuthでサインインすると、選択したプロバイダーのログイン
 
 主な利点は以下の通りです。
 
-- **Security**: You don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials because they are stored with the external OAuth provider. Common OAuth providers like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
-- **Ease-of-use**: Multiple accounts are managed by a single login.
+- **セキュリティ**：ログイン認証情報は外部のOAuthプロバイダーに保存されるため、ログイン先のサービスのセキュリティプラクティスを信頼する必要はありません。 AppleやGoogleなどの一般的なOAuthプロバイダーはベストなセキュリティプラクティスに従っており、認証システムに対する継続的な監査を行い、認証情報を不適切に（プレーンテキストなどで）保存していません。
+- **使いやすさ**：一つのログインアカウントで複数のアカウントを管理できます。
 
 しかし、以下のデメリットもあります。
 
-- **Privacy**: The OAuth provider you log in with will know the services you use.
-- **Centralization**: If the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
+- **プライバシー**：ログインするOAuthプロバイダーは利用するサービスが分かります。
+- **中央集権**：OAuthに使っているアカウントが攻撃を受けたり、ログインできなくなったりすると、接続しいるアカウントすべてに影響が及びます。
 
-OAuth can be especially useful in those situations where you could benefit from deeper integration between services. Our recommendation is to limit using OAuth to only where you need it, and always protect the main account with [MFA](multi-factor-authentication.md).
+OAuthはサービス間が統合されることで恩恵を受けられる場合には特に役に立ちます。 OAuthは必要なところだけで使うことを推奨し、メインのアカウントは[多要素認証](multi-factor-authentication.md)で必ず保護してください。
 
-All the services that use OAuth will be as secure as your underlying OAuth provider's account. For example, if you want to secure an account with a hardware key, but that service doesn't support hardware keys, you can secure the account you use with OAuth with a hardware key instead, and now you essentially have hardware MFA on all your accounts. It is worth noting though that weak authentication on your OAuth provider account means that any account tied to that login will also be weak.
+OAuthを使用するサービスはOAuthプロバイダーのアカウントと同じくらい安全です。 例えば、ハードウェアキーでアカウントを保護したいが、サービスがハードウェアキーに対応していない場合でも、代わりにOAuthで使用するアカウントをハードウェアキーで保護することで、すべてのアカウントにハードウェア多要素認証を使うことができます。 OAuthプロバイダーのアカウントの認証が弱い場合は、関連付けられたアカウントのログインも弱くなってしまうことに注意してください。
 
-There is an additional danger when using *Sign in with Google*, *Facebook*, or another service, which is that typically the OAuth process allows for *bidirectional* data sharing. For example, logging in to a forum with your Twitter account could grant that forum access to do things on your Twitter account such as post, read your messages, or access other personal data. OAuth providers will typically present you with a list of things you are granting the external service access to, and you should always ensure that you read through that list and don't inadvertently grant the external service access to anything it doesn't require.
+*Google*、*Facebook*や他のサービスでサインインする場合、*双方向*のデータ共有を許可することが多く、危険が生じます。 For example, logging in to a forum with your Twitter account could grant that forum access to do things on your Twitter account such as post, read your messages, or access other personal data. OAuth providers will typically present you with a list of things you are granting the external service access to, and you should always ensure that you read through that list and don't inadvertently grant the external service access to anything it doesn't require.
 
 Malicious applications, particularly on mobile devices where the application has access to the WebView session used for logging in to the OAuth provider, can also abuse this process by hijacking your session with the OAuth provider and gaining access to your OAuth account through those means. Using the *Sign in with* option with any provider should usually be considered a matter of convenience that you only use with services you trust to not be actively malicious.
 
