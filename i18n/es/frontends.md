@@ -89,11 +89,11 @@ ProxiTok es útil si quieres desactivar JavaScript en tu navegador, como [Tor Br
 
 Hay varias instancias públicas, con algunas que ofrecen un servicio de onion [Tor](tor.md) o un eepsite [I2P](alternative-networks.md#i2p-the-invisible-internet-project).
 
-[:octicons-home-16: Página Principal](https://invidious.io){ .md-button .md-button--primary }
-[:octicons-server-16:](https://instances.invidious.io){ .card-link title="Instancias Públicas" }
-[:octicons-info-16:](https://docs.invidious.io){ .card-link title="Documentación" }
-[:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://invidious.io/donate){ .card-link title="Contribuir" }
+[:octicons-home-16: Homepage](https://invidious.io){ .md-button .md-button--primary }
+[:octicons-server-16:](https://docs.invidious.io/instances){ .card-link title="Public Instances" }
+[:octicons-info-16:](https://docs.invidious.io){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://invidious.io/donate){ .card-link title="Contribute" }
 
 </details>
 
@@ -123,11 +123,11 @@ Invidious es útil si deseas desactivar JavaScript en tu navegador, como [Tor Br
 
 Piped requiere JavaScript para funcionar y existen varias instancias públicas.
 
-[:octicons-repo-16: Repositorio](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/TeamPiped/Piped/wiki/Instances){ .card-link title="Instancias Públicas" }
-[:octicons-info-16:](https://docs.piped.video/docs){ .card-link title="Documentación" }
-[:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title="Contribuir" }
+[:octicons-repo-16: Repository](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/TeamPiped/documentation/blob/main/content/docs/public-instances/index.md){ .card-link title="Public Instances" }
+[:octicons-info-16:](https://docs.piped.video/docs){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title="Contribute" }
 
 </details>
 

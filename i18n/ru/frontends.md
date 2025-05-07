@@ -90,7 +90,7 @@ ProxiTok is useful if you want to disable JavaScript in your browser, such as [T
 There are a number of public instances, with some that offer a [Tor](tor.md) onion service or an [I2P](alternative-networks.md#i2p-the-invisible-internet-project) eepsite.
 
 [:octicons-home-16: Homepage](https://invidious.io){ .md-button .md-button--primary }
-[:octicons-server-16:](https://instances.invidious.io){ .card-link title="Public Instances" }
+[:octicons-server-16:](https://docs.invidious.io/instances){ .card-link title="Public Instances" }
 [:octicons-info-16:](https://docs.invidious.io){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://invidious.io/donate){ .card-link title="Contribute" }
@@ -124,7 +124,7 @@ Invidious is useful if you want to disable JavaScript in your browser, such as [
 Для работы Piped требуется JavaScript, и существует множество публичных экземпляров.
 
 [:octicons-repo-16: Repository](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/TeamPiped/Piped/wiki/Instances){ .card-link title="Public Instances" }
+[:octicons-server-16:](https://github.com/TeamPiped/documentation/blob/main/content/docs/public-instances/index.md){ .card-link title="Public Instances" }
 [:octicons-info-16:](https://docs.piped.video/docs){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title="Contribute" }
