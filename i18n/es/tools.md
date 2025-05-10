@@ -595,11 +595,10 @@ Para cifrar su unidad de SO, normalmente recomendamos utilizar la herramienta de
 
 <div class="grid cards" markdown>
 
-- ![logo de Signal](assets/img/messengers/signal.svg){ .twemoji loading=lazy } [Signal](real-time-communication.md#signal)
-- ![logo de Briar](assets/img/messengers/briar.svg){ .twemoji loading=lazy } [Briar](real-time-communication.md#briar)
-- ![logo de SimpleX Chat](assets/img/messengers/simplex.svg){ .twemoji loading=lazy } [SimpleX Chat](real-time-communication.md#simplex-chat)
-- ![logo de Element](assets/img/messengers/element.svg){ .twemoji loading=lazy } [Element](real-time-communication.md#element)
-- ![logo de Session](assets/img/messengers/session.svg){ .twemoji loading=lazy } [Session](real-time-communication.md#session)
+- ![Signal logo](assets/img/messengers/signal.svg){ .twemoji loading=lazy } [Signal](real-time-communication.md#signal)
+- ![Briar logo](assets/img/messengers/briar.svg){ .twemoji loading=lazy } [Briar](real-time-communication.md#briar)
+- ![SimpleX Chat logo](assets/img/messengers/simplex.svg){ .twemoji loading=lazy } [SimpleX Chat](real-time-communication.md#simplex-chat)
+- ![Session logo](assets/img/messengers/session.svg){ .twemoji loading=lazy } [Session](real-time-communication.md#session)
 
 </div>
 
@@ -610,6 +609,7 @@ Para cifrar su unidad de SO, normalmente recomendamos utilizar la herramienta de
 <div class="grid cards" markdown>
 
 - ![Mastodon logo](assets/img/social-networks/mastodon.svg){ .twemoji loading=lazy } [Mastodon](social-networks.md#mastodon)
+- ![Element logo](assets/img/social-networks/element.svg){ .twemoji loading=lazy } [Element](social-networks.md#element)
 
 </div>
 

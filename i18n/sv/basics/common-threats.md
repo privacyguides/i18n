@@ -211,7 +211,7 @@ Censur på nätet kan utföras (i varierande grad) av aktörer som totalitära r
 
 Censur på företagsplattformar blir allt vanligare, eftersom plattformar som Twitter och Facebook ger efter för allmänhetens efterfrågan, marknadstryck och påtryckningar från myndigheter. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
 
-Människor som oroar sig för hotet om censur kan använda teknik som [Tor](../advanced/tor-overview.md) för att kringgå den och stödja censurresistenta kommunikationsplattformar som [Matrix](../real-time-communication.md#element), som inte har någon centraliserad kontoinspektion som kan stänga konton godtyckligt.
+People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../social-networks.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>

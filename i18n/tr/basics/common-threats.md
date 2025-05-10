@@ -211,7 +211,7 @@ Gerçek bilgilerinizi, bu bilgilere sahip olmaması gereken sitelere zaten gönd
 
 Twitter ve Facebook gibi platformlar kamuoyu taleplerine, piyasa baskılarına ve devlet kurumlarından gelen baskılara boyun eğdikçe kurumsal platformlarda sansür giderek yaygınlaşıyor. Hükümet baskıları, Beyaz Saray'ın kışkırtıcı bir YouTube videosunun yayından [kaldırılmasını talep](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) etmesi gibi işletmelere yönelik gizli talepler olabileceği gibi, Çin hükümetinin şirketlerden katı bir sansür rejimine uymalarını istemesi gibi açık talepler de olabilir.
 
-Sansür tehdidinden endişe duyan insanlar bunu aşmak için [Tor](../advanced/tor-overview.md) gibi teknolojileri kullanabilir ve hesapları keyfi olarak kapatabilecek merkezi bir hesap yetkilisine sahip olmayan [Matrix](../real-time-communication.md#element) gibi sansüre dayanıklı iletişim platformlarını destekleyebilir.
+People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../social-networks.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">İpucu</p>

@@ -184,44 +184,6 @@ Diese Messenger haben keine Forward Secrecy[^1], und obwohl sie bestimmte Anford
 
 </div>
 
-### Element
-
-<div class="admonition recommendation" markdown>
-
-![Element-Logo](assets/img/messengers/element.svg){ align=right }
-
-**Element** ist der Flaggschiff-Client für das [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im)-Protokoll, ein [offener Standard](https://spec.matrix.org/latest) für sichere dezentrale Echtzeitkommunikation.
-
-Nachrichten und Dateien, die in privaten Räumen (für die eine Einladung erforderlich ist) geteilt werden, sind standardmäßig E2EE, ebenso wie persönliche Sprach- und Videoanrufe.
-
-[:octicons-home-16: Homepage](https://element.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Datenschutzerklärung" }
-[:octicons-info-16:](https://element.io/help){ .card-link title="Dokumentation" }
-[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Quellcode" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1083446067)
-- [:simple-github: GitHub](https://github.com/element-hq/element-android/releases)
-- [:fontawesome-brands-windows: Windows](https://element.io/download)
-- [:simple-apple: macOS](https://element.io/download)
-- [:simple-linux: Linux](https://element.io/download)
-- [:octicons-globe-16: Web](https://app.element.io)
-
-</details>
-
-</div>
-
-Profile pictures, reactions, and nicknames are not encrypted.
-
-With the integration of [Element Call](https://element.io/blog/we-have-lift-off-element-x-call-and-server-suite-are-ready) into Element's web app, desktop apps, and its [rewritten mobile apps](https://element.io/blog/element-x-experience-the-future-of-element), group VoIP and video calls are E2EE by default.
-
-The Matrix protocol itself [theoretically supports forward secrecy](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1], however this is [not currently supported in Element](https://github.com/vector-im/element-web/issues/7101) due to it breaking some aspects of the user experience such as key backups and shared message history.
-
-The protocol was independently [audited](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) in 2016. The specification for the Matrix protocol can be found in their [documentation](https://spec.matrix.org/latest). The [Olm cryptographic ratchet](https://matrix.org/docs/matrix-concepts/end-to-end-encryption) used by Matrix is an implementation of Signal’s [Double Ratchet algorithm](https://signal.org/docs/specifications/doubleratchet).
-
 ### Session
 
 <div class="admonition recommendation" markdown>
@@ -277,12 +239,12 @@ Session has a [white paper](https://arxiv.org/pdf/2002.04609.pdf) describing the
 
 Unsere Best-Case-Kriterien stellen dar, was wir uns von einem perfekten Projekt in dieser Kategorie wünschen würden. Unsere Empfehlungen enthalten möglicherweise keine oder nicht alle dieser Merkmale, aber diejenigen, die sie enthalten, werden möglicherweise höher eingestuft als andere auf dieser Seite.
 
-- Unterstützt das Forward-Secrecy[^1]
+- Supports forward secrecy[^1]
 - Unterstützt Future Secrecy (Post-Compromise-Sicherheit)[^2]
 - Hat Open-Source-Server.
 - Dezentralisiert, d.h. [Föderiert oder P2P](advanced/communication-network-types.md).
 - Verwendet standardmäßig E2EE für alle Nachrichten.
 - Unterstützt Linux, macOS, Windows, Android und iOS.
 
-[^1]: Bei der [Forward Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) (dt.: „vorwärts gerichteten Geheimhaltung“) werden die Schlüssel sehr häufig gewechselt, so dass, wenn der aktuelle Verschlüsselungsschlüssel kompromittiert wird, nicht auch **frühere** Nachrichten offengelegt werden.
+[^1]: [Forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) is where keys are rotated very frequently, so that if the current encryption key is compromised, it does not expose **past** messages as well.
 [^2]: Future Secrecy (oder Post-Compromise Security) ist eine Funktion, bei der ein Angreifer daran gehindert wird, **zukünftige** Nachrichten zu entschlüsseln, nachdem er einen privaten Schlüssel kompromittiert hat, es sei denn, er kompromittiert auch weitere Sitzungsschlüssel in der Zukunft. Dies zwingt den Angreifer dazu, die gesamte Kommunikation zwischen den Parteien abzufangen, da er den Zugang verliert, sobald ein Schlüsselaustausch stattfindet, der nicht abgefangen wird.

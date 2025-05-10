@@ -184,44 +184,6 @@ Briar 使用 Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/
 
 </div>
 
-### Element
-
-<div class="admonition recommendation" markdown>
-
-![Element標誌](assets/img/messengers/element.svg){ align=right }
-
-**Element** 是[Matrix](https://matrix.org/docs/chat_basics/matrix-for-im) 通訊協定的旗艦用戶端，該協定是安全分散式即時通訊的[開放標準](https://spec.matrix.org/latest)。
-
-在私人聊天室（需要邀請）共用的訊息和檔案預設為 E2EE，一對一的語音和視訊通話也是如此。
-
-[:octicons-home-16: 首頁](https://element.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://element.io/privacy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://element.io/help){ .card-link title="說明文件" }
-[:octicons-code-16:](https://github.com/element-hq){ .card-link title="原始碼" }
-
-<details class="downloads" markdown>
-<summary>下載</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1083446067)
-- [:simple-github: GitHub](https://github.com/element-hq/element-android/releases)
-- [:fontawesome-brands-windows: Windows](https://element.io/download)
-- [:simple-apple: macOS](https://element.io/download)
-- [:simple-linux: Linux](https://element.io/download)
-- [:octicons-globe-16: Web](https://app.element.io)
-
-</details>
-
-</div>
-
-個人資料圖片、反應和暱稱不會加密。
-
-隨著 [Element Call](https://element.io/blog/we-have-lift-off-element-x-call-and-server-suite-are-ready) 整合至 Element 的網頁版、電腦版及其[重寫的行動應用程式](https://element.io/blog/element-x-experience-the-future-of-element)，群組 VoIP 和視訊通話預設為 E2EE。
-
-Matrix協議[理論上支援前向保密](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1] ，但[目前在 Element 中並不支援](https://github.com/vector-im/element-web/issues/7101) ，因為這會破壞某些方面的使用者體驗，例如金鑰備份和共享訊息歷史記錄。
-
-該協議於 2016 年經過獨立[審核](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last)。 Matrix 協議的規範可以在他們的 [說明文件](https://spec.matrix.org/latest) 中找到。 Matrix 使用的 [Olm cryptographic ratchet](https://matrix.org/docs/matrix-concepts/end-to-end-encryption) 是 Signal [雙棘輪演算法](https://signal.org/docs/specifications/doubleratchet) 的實作。
-
 ### Session
 
 <div class="admonition recommendation" markdown>
@@ -253,7 +215,7 @@ Session使用去中心化的 [Oxen Service Node Network](https://oxen.io/) 來�
 
 Session 允許使用 E2EE 於一對一聊天或私人群組中，最多可容納100名成員。 也可以[建立](https://docs.oxen.io/oxen-docs/products-built-on-oxen/session/guides/open-group-setup)或加入公開群組，這些群組可以容納數千名成員，但這些開放群組的訊息在參與者之間**並非**端對端加密。
 
-Session 之前以 Signal Protocol 為基礎，後來在 2020 年 12 月以他們自己的通訊協定取代。 Session 協議[不](https://getsession.org/blog/session-protocol-technical-information)支援前向保密[^1]。
+Session 之前以 Signal Protocol 為基礎，後來在 2020 年 12 月以他們自己的通訊協定取代。 Session Protocol does [not](https://getsession.org/blog/session-protocol-technical-information) support forward secrecy.[^1]
 
 2020 年 3 月 Oxen 對 Session 進行獨立審核。 該審核於 2021 年 4 月[結束](https://getsession.org/session-code-audit)：
 
@@ -277,12 +239,12 @@ Session 有一份[白皮書](https://arxiv.org/pdf/2002.04609.pdf)，說明應�
 
 最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
-- 支援前向保密[^1]
+- Supports forward secrecy[^1]
 - 支援未來保密（入侵後安全）[^2]
 - 開源伺候器。
 - 去中心化，即[聯邦式或 P2P](advanced/communication-network-types.md)。
 - 所有訊息預設為使用 E2EE。
 - 支援多平台 Linux、macOS、Windows、Android 和 iOS。
 
-[^1]: [前向保密](https://en.wikipedia.org/wiki/Forward_secrecy) 是指金鑰會非常頻繁的輪換，因此如果目前的加密金鑰被洩露，也不會暴露**過去的**訊息。
+[^1]: [Forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) is where keys are rotated very frequently, so that if the current encryption key is compromised, it does not expose **past** messages as well.
 [^2]: 未來保密（或洩漏後安全）是防止攻擊者利用洩露的私鑰解密**未來**訊息，除非攻擊者將來也能取得更多會話金鑰。 這有效地迫使攻擊者攔截各方間的所有通訊，因為一旦發生未被攔截的金鑰交換，他們就會失去訪問權限。&#160;[ &#8617;](#fnref:2){.footnote-backref}

@@ -211,7 +211,7 @@ Additionally, even companies outside the *AdTech* or tracking industry can share
 
 對企業平臺的審查越來越普遍，如Twitter 和 Facebook 等平臺屈服於公眾需求、市場和政府機構的壓力。 政府對企業的施壓可能是隱蔽的，例如白宮私下 [要求拿掉](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) 某個勯動的 Youtube 影片，或是公開者如中國政府命令企業要遵循嚴厲的審查制度。
 
-關注審查威脅的人可以使用像 [Tor](../advanced/tor-overview.md) 這樣的技術來規避它，並支援像 [Matrix](../real-time-communication.md#element)這樣的抗審查通訊平臺，該平臺沒有可以任意關閉帳戶的集中帳戶權限。
+People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../social-networks.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">溫馨提示</p>

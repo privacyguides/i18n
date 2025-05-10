@@ -211,7 +211,7 @@ Zensur im Internet kann (in unterschiedlichem Ausmaß) von Akteuren wie totalit�
 
 Zensur auf unternehmerisch Plattformen ist zunehmend häufiger anzutreffen, da Plattformen wie Twitter und Facebook auf öffentlichen Druck, Marktdruck und Druck von Regierungsbehörden reagieren. Regierungsdruck kann sich in verdeckten Anfragen an Unternehmen äußern, wie zum Beispiel die Bitte des Weißen Hauses, ein provokatives YouTube-Video [zu entfernen](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html), oder offen, wie die chinesische Regierung, die Unternehmen auffordert, einem strengen Zensurregime zu folgen.
 
-Personen, die sich Sorgen um Zensur machen, können Technologien wie [Tor](../advanced/tor-overview.md) nutzen, um diese zu umgehen, und Zensur-resistente Kommunikationsplattformen wie [Matrix](../real-time-communication.md#element) unterstützen, die keine zentralisierte Kontrollinstanz haben, die Konten willkürlich schließen kann.
+People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../social-networks.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tipp</p>

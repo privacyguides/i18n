@@ -211,7 +211,7 @@ Censuur online kan (in verschillende mate) worden uitgeoefend door actoren zoals
 
 Censuur op bedrijfsplatforms komt steeds vaker voor, nu platforms als Twitter en Facebook toegeven aan de vraag van het publiek, de druk van de markt en de druk van overheidsinstanties. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
 
-Mensen die bezorgd zijn over de dreiging van censuur kunnen technologieën als [Tor](../advanced/tor-overview.md) gebruiken om die te omzeilen, en steun verlenen aan censuurbestendige communicatieplatforms als [Matrix](../real-time-communication.md#element), dat geen gecentraliseerde accountautoriteit heeft die willekeurig accounts kan sluiten.
+People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../social-networks.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>

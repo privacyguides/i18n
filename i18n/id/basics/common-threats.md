@@ -211,7 +211,7 @@ Penyensoran secara daring bisa dilakukan (dalam berbagai tingkatan) oleh berbaga
 
 Penyensoran pada platform perusahaan semakin umum terjadi, karena platform seperti Twitter dan Facebook menyerah pada permintaan publik, tekanan pasar, dan tekanan dari lembaga pemerintah. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
 
-Orang-orang yang khawatir dengan ancaman penyensoran dapat menggunakan teknologi seperti [Tor](../advanced/tor-overview.md) untuk mengelakkannya, dan mendukung platform komunikasi yang tahan sensor seperti [Matrix](../real-time-communication.md#element), yang tidak memiliki otoritas akun terpusat yang dapat menutup akun secara sewenang-wenang.
+People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../social-networks.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>

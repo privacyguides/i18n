@@ -211,7 +211,7 @@ Additionally, even companies outside the *AdTech* or tracking industry can share
 
 צנזורה על פלטפורמות ארגוניות נפוצה יותר ויותר, שכן פלטפורמות כמו טוויטר ופייסבוק נכנעות לדרישת הציבור, לחצי השוק וללחצים של סוכנויות ממשלתיות. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
 
-אנשים המודאגים מהאיום של צנזורה יכולים להשתמש בטכנולוגיות כמו [Tor](../advanced/tor-overview.md) כדי לעקוף אותו, ולתמוך בפלטפורמות תקשורת עמידות לצנזורה כמו [Matrix](../real-time-communication.md#element), שאין לה סמכות חשבון מרכזית יכול לסגור חשבונות באופן שרירותי.
+People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../social-networks.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>

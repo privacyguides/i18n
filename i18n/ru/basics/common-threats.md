@@ -211,7 +211,7 @@ Additionally, even companies outside the *AdTech* or tracking industry can share
 
 Цензура на корпоративных платформах становится все более распространенным явлением, поскольку такие платформы, как Twitter и Facebook, поддаются общественному и рыночному давлению и давлению со стороны государственных органов. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
 
-Люди, обеспокоенные угрозой цензуры, могут использовать такие технологии, как [Tor](../advanced/tor-overview.md), чтобы обойти ее, и поддерживать устойчивые к цензуре платформы для общения, такие как [Matrix](../real-time-communication.md#element), где нет централизованного органа, который может произвольно закрыть учетные записи.
+People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../social-networks.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Совет</p>

@@ -211,7 +211,7 @@ Additionally, even companies outside the *AdTech* or tracking industry can share
 
 Twitter, Facebook 같은 플랫폼이 대중의 요구, 시장의 압력, 정부 기관의 압력에 굴복하면서, 기업 플랫폼에서의 검열은 점점 보편화되고 있습니다. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
 
-검열 위협이 우려될 경우, [Tor](../advanced/tor-overview.md) 등의 기술을 사용해 검열을 우회할 수 있으며, [Matrix](../real-time-communication.md#element) 처럼 중앙 집중식 계정 시스템이 없는(플랫폼이 독단적으로 누군가의 계정을 차단할 수 없는) 검열 방지 통신 플랫폼을 지원할 수 있습니다.
+People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../social-networks.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>

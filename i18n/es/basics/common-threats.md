@@ -211,7 +211,7 @@ La censura en las plataformas corporativas es cada vez más común, ya que plata
 
 La censura en las plataformas corporativas es cada vez más común, ya que plataformas como Twitter y Facebook ceden a la demanda del público, a las presiones del mercado y a las de los organismos gubernamentales. Las presiones gubernamentales pueden ser peticiones encubiertas a las empresas, como la de la Casa Blanca [solicitando la retirada](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) de un vídeo provocativo de YouTube, o abiertamente, como la del gobierno chino exigiendo a las empresas que se adhieran a un estricto régimen de censura.
 
-Las personas preocupadas por la amenaza de la censura pueden utilizar tecnologías como [Tor](../advanced/tor-overview.md) para eludirla, y apoyar plataformas de comunicación resistentes a la censura como [Matrix](../real-time-communication.md#element), que no tiene una autoridad de cuentas centralizada que pueda cerrar cuentas arbitrariamente.
+People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../social-networks.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Consejo</p>

@@ -211,7 +211,7 @@ La censura online è attuabile (in varie misure) da attori tra cui i governi tot
 
 La censura sulle piattaforme aziendali è sempre più comune, in quanto piattaforme come Twitter e Facebook cedono alle richieste del pubblico, alle pressioni di mercato e alle pressioni dalle agenzie governative. Le pressioni governative possono essere richieste segrete alle aziende, come la [richiesta di rimozione](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) della Casa Bianca di un video YouTube provocativo, o palesi, come il governo cinese che richiede alle aziende di aderire a un rigido regime di censura.
 
-Le persone preoccupate dalla minaccia della censura possono utilizzare tecnologie come [Tor](../advanced/tor-overview.md) per aggirarla, e supportare le piattaforme di comunicazione resistenti alla censura come [Matrix](../real-time-communication.md#element), prive di autorità centralizzata che possa chiudere arbitrariamente i profili.
+People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../social-networks.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Suggerimento</p>

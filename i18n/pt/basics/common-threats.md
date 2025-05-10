@@ -211,7 +211,7 @@ A censura online pode ser realizada (em diferentes graus) por diversos atores, i
 
 A censura nas plataformas corporativas é cada vez mais comum, uma vez que plataformas como o Twitter e o Facebook cedem à procura pública, às pressões do mercado e às pressões das agências governamentais. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
 
-As pessoas que se preocupam com a ameaça da censura podem usar tecnologias como o [Tor](../advanced/tor-overview.md) para contorná-la, e utilizar plataformas de comunicação resistentes à censura, como o [Matrix](../real-time-communication.md#element), que não tem uma autoridade de conta centralizada que pode fechar as contas arbitrariamente.
+People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../social-networks.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>

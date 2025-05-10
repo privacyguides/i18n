@@ -211,7 +211,7 @@ La censure en ligne peut être exercée (à des degrés divers) par des acteurs 
 
 La censure sur les plateformes privées est de plus en plus courante, car des plateformes comme Twitter et Facebook cèdent à la demande du public, aux pressions du marché et à celles des agences gouvernementales. Les pressions gouvernementales peuvent prendre la forme de demandes secrètes adressées aux entreprises, comme la Maison Blanche [demandant le retrait](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) d'une vidéo provocante sur YouTube, ou de demandes manifestes, comme le gouvernement chinois exigeant des entreprises qu'elles adhèrent à un régime de censure strict.
 
-Les personnes concernées par la menace de la censure peuvent utiliser des technologies comme [Tor](../advanced/tor-overview.md) pour la contourner, et soutenir des plateformes de communication résistantes à la censure comme [Matrix](../real-time-communication.md#element), qui ne dispose pas d'une autorité centralisée pouvant fermer des comptes de manière arbitraire.
+People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../social-networks.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>

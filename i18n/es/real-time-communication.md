@@ -184,44 +184,6 @@ Estos mensajeros no tienen secreto hacia adelante[^1], y aunque satisfacen ciert
 
 </div>
 
-### Element
-
-<div class="admonition recommendation" markdown>
-
-![Element logo](assets/img/messengers/element.svg){ align=right }
-
-**Element** es el cliente insignia del protocolo [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im), un [estándar abierto](https://spec.matrix.org/latest) para la comunicación segura descentralizada en tiempo real.
-
-Los mensajes y archivos compartidos en salas privadas (aquellas que requieren invitación) son por defecto E2EE, al igual que las llamadas de voz y vídeo uno a uno.
-
-[:octicons-home-16: Página Principal](https://element.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://element.io/help){ .card-link title="Documentación" }
-[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Código Fuente" }
-
-<details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1083446067)
-- [:simple-github: GitHub](https://github.com/element-hq/element-android/releases)
-- [:fontawesome-brands-windows: Windows](https://element.io/download)
-- [:simple-apple: macOS](https://element.io/download)
-- [:simple-linux: Linux](https://element.io/download)
-- [:octicons-globe-16: Web](https://app.element.io)
-
-</details>
-
-</div>
-
-Las fotos de perfil, las reacciones y los apodos no están cifrados.
-
-Con la integración de [Element Call](https://element.io/blog/we-have-lift-off-element-x-call-and-server-suite-are-ready) en la aplicación web de Element, las aplicaciones de escritorio y sus [aplicaciones móviles reescritas](https://element.io/blog/element-x-experience-the-future-of-element), las llamadas VoIP y las videollamadas en grupo son E2EE por defecto.
-
-El propio protocolo Matrix [soporta teóricamente el secreto hacia adelante](https://gitlab.matrix.org/matrix-org/olm/blob/master/docs/megolm.md#partial-forward-secrecy)[^1], sin embargo [no está soportado actualmente en Element](https://github.com/vector-im/element-web/issues/7101) debido a que rompe algunos aspectos de la experiencia del usuario como las copias de seguridad de claves y el historial de mensajes compartidos.
-
-El protocolo fue [auditado](https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last) independientemente en 2016. La especificación del protocolo Matrix puede encontrarse en su [documentación](https://spec.matrix.org/latest). El [trinquete criptográfico Olm](https://matrix.org/docs/matrix-concepts/end-to-end-encryption) utilizado por Matrix es una implementación del [algoritmo Double Ratchet](https://signal.org/docs/specifications/doubleratchet) de Signal.
-
 ### Session
 
 <div class="admonition recommendation" markdown>
@@ -253,7 +215,7 @@ Session utiliza la red descentralizada [Oxen Service Node Network](https://oxen.
 
 Session permite E2EE en chats individuales o grupos cerrados que admiten hasta 100 miembros. También es posible [crear](https://docs.oxen.io/oxen-docs/products-built-on-oxen/session/guides/open-group-setup) o unirse a grupos abiertos que pueden albergar a miles de miembros, pero los mensajes en estos grupos abiertos **no** están cifrados de extremo a extremo entre los participantes.
 
-Session se basaba anteriormente en el Protocolo Signal antes de sustituirlo por el suyo propio en diciembre de 2020. El Protocolo Session [no](https://getsession.org/blog/session-protocol-technical-information) soporta el secreto hacia adelante.[^1]
+Session se basaba anteriormente en el Protocolo Signal antes de sustituirlo por el suyo propio en diciembre de 2020. Session Protocol does [not](https://getsession.org/blog/session-protocol-technical-information) support forward secrecy.[^1]
 
 Oxen solicitó una auditoría independiente para Session en marzo de 2020. La auditoría [concluyó](https://getsession.org/session-code-audit) en abril de 2021:
 
@@ -277,12 +239,12 @@ Session has a [white paper](https://arxiv.org/pdf/2002.04609.pdf) describing the
 
 Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto perfecto en esta categoría. Es posible que nuestras recomendaciones no incluyan todas o algunas de estas funciones, pero las que sí las incluyan pueden estar mejor clasificadas que otras en esta página.
 
-- Admite el secreto hacia adelante[^1]
+- Supports forward secrecy[^1]
 - Admite el Secreto Futuro (Seguridad Poscompromiso)[^2]
 - Dispone de servidores de código abierto.
 - Descentralizado, es decir, [federado o P2P](advanced/communication-network-types.md).
 - Utiliza E2EE para todos los mensajes por defecto.
 - Compatible con Linux, macOS, Windows, Android e iOS.
 
-[^1]: [El secreto hacia adelante](https://en.wikipedia.org/wiki/Forward_secrecy) es cuando las claves se rotan con mucha frecuencia, de modo que si la clave de cifrado actual se ve comprometida, no expone también los mensajes **anteriores**.
+[^1]: [Forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) is where keys are rotated very frequently, so that if the current encryption key is compromised, it does not expose **past** messages as well.
 [^2]: El Secreto Futuro (o Seguridad Poscompromiso) es una característica que impide a un atacante descifrar mensajes **futuros** después de comprometer una clave privada, a menos que comprometa también más claves de sesión en el futuro. Esto obliga al atacante a interceptar todas las comunicaciones entre las partes, ya que pierde el acceso en cuanto se produce un intercambio de claves que no es interceptado.
