@@ -37,68 +37,68 @@ description: 強固なパスワードを作成し、アカウントを安全に�
 
 ### パスワード
 
-A lot of services impose certain criteria when it comes to passwords, including a minimum or maximum length, as well as which special characters, if any, can be used. You should use your password manager's built-in password generator to create passwords that are as long and complex as the service will allow by including capitalized and lowercase letters, numbers and special characters.
+多くのサービスでは最小・最大の長さや使用できる特殊文字などパスワードに対し、一定の基準を定めています。 パスワードマネージャーにあるパスワードジェネレーターで 大文字、小文字、数字、特殊文字を含み、サービスが許容する限り長く、複雑なパスワードを生成する必要があります。
 
-If you need a password you can memorize, we recommend a [diceware passphrase](#diceware-passphrases).
+覚えておく必要のあるパスワード必要な場合、[ダイスウェアパスフレーズ](#diceware-passphrases)を推奨します。
 
-### Diceware Passphrases
+### ダイスウェアパスフレーズ
 
-Diceware is a method for creating passphrases which are easy to remember, but hard to guess.
+ダイスウェアは覚えやすく、推測されにくいパスフレーズを作る方法です。
 
-Diceware passphrases are a great option when you need to memorize or manually input your credentials, such as for your password manager's master password or your device's encryption password.
+ダイスウェアパスフレーズはパスワードマネージャーのマスターパスワードやデバイスの暗号化パスワードなど、覚えておく必要があったり、手入力したりする認証情報に適しています。
 
-An example of a diceware passphrase is `viewable fastness reluctant squishy seventeen shown pencil`.
+ダイスウェアパスフレーズの例は`viewable fastness reluctant squishy seventeen shown pencil`です。
 
-To generate a diceware passphrase using real dice, follow these steps:
+ダイスウェアパスフレーズを作成するには実際にサイコロを使って、以下の手順に従ってください：
 
 <div class="admonition Note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">メモ</p>
 
-These instructions assume that you are using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other word lists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
+以下の手順では[EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt)を使ってパスフレーズを作成します。1つの単語につき、5回サイコロを振る必要があります。 同じエントロピーを得るために、他の単語リストでは1単語あたりのサイコロを振る回数が上下したり、単語数が異なったりすることがあります。
 
 </div>
 
-1. Roll a six-sided die five times, noting down the number after each roll.
+1. 6面体のサイコロを5回振り、数値をメモします。
 
-2. As an example, let's say you rolled `2-5-2-6-6`. Look through the [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
+2. 例として、`2-5-2-6-6`が出たとします。 [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt)から`25266`に対応する単語を探します。
 
-3. You will find the word `encrypt`. Write that word down.
+3. `encrypt`でした。 これを書き留めます。
 
-4. Repeat this process until your passphrase has as many words as you need, which you should separate with a space.
+4. スペースで区切り、パスフレーズが必要な単語数になるまで繰り返します。
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Important</p>
+<p class="admonition-title">重要</p>
 
-You should **not** re-roll words until you get a combination of words that appeal to you. The process should be completely random.
+自分がいいと思うような単語の組み合わせになるまでサイコロを振り直すことは**してはいけません**。 この手順は完全にランダムである必要があります。
 
 </div>
 
-If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords.
+もしサイコロがない、使いたくない場合、パスワードマネージャーのパスワードジェネレーターを使うことができます。多くの場合、通常のパスワードに加え、ダイスウェアパスフレーズを生成するオプションがあります。
 
-We recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
+ダイスウェアパスフレーズを作るには[EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt)を使うことを推奨します。オリジナルのリストと同じく安全で、覚えやすい単語が含まれています。 英語のパスフレーズを使いたくない場合、[他言語の単語リスト](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline)もあります。
 
 <details class="note" markdown>
-<summary>Explanation of entropy and strength of diceware passphrases</summary>
+<summary>ダイスウェアパスフレーズのエントロピーと強度の説明</summary>
 
-To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
+ダイスウェアパスフレーズの強力さを示すために、先に挙げた7単語のパスフレーズ（ `viewable fastness reluctant squishy seventeen shown pencil`）と[EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt)を例に挙げます。
 
-One metric to determine the strength of a diceware passphrase is how much entropy it has. The entropy per word in a diceware passphrase is calculated as <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mtext>WordsInList</mtext> <mo form="postfix" stretchy="false">)</mo> </mrow> </math> and the overall entropy of the passphrase is calculated as: <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>
+ダイスウェアパスフレーズの強さを測る指標の一つに、どれだけエントロピーがあるかがあります。 ダイスウェアパスフレーズの単語ごとのエントロピーを計算する方法は次の通りです <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mtext>リストの単語数</mtext> <mo form="postfix" stretchy="false">)</mo> </mrow> </math> パスフレーズ全てのエントロピーを計算する方法は次の通りです： <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mtext>リストの単語数</mtext> <mtext>フレーズの単語数</mtext> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>
 
-Therefore, each word in the aforementioned list results in ~12.9 bits of entropy (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mn>7776</mn> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>), and a seven word passphrase derived from it has ~90.47 bits of entropy (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mn>7776</mn> <mn>7</mn> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>).
+以上より、リストにある各単語は12.9ビットのエントロピー（<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mn>7776</mn> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>）、７単語のパスフレーズは90.47ビットのエントロピーがあります（<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mn>7776</mn> <mn>7</mn> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>).
 
-The [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. To calculate the amount of possible passphrases, all we have to do is <math> <msup> <mtext>WordsInList</mtext> <mtext>WordsInPhrase</mtext> </msup> </math>, or in our case, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
+[EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt)には7776個の固有の単語があります。 生成されうるパスフレーズ数を計算する方法は次の通りです <math> <msup> <mtext>リストの単語数</mtext> <mtext>フレーズの単語数</mtext> </msup> </math>今回の場合は次の通りです <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
 
-Let's put all of this in perspective: A seven word passphrase using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+以上の情報をまとめます：[EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt)を使った7単語のパスフレーズは1,719,070,799,748,422,500,000,000,000個の生成されうるパスフレーズのうちの一つです。
 
-On average, it takes trying 50% of all the possible combinations to guess your phrase. With that in mind, even if your adversary is capable of ~1,000,000,000,000 guesses per second, it would still take them ~27,255,689 years to guess your passphrase. That is the case even if the following things are true:
+パスフレーズを推測するためには、生成されうる組み合わせの平均50%を試す必要があります。 その場合、敵対者が1秒間に1,000,000,000,000回推測できたとしても、パスフレーズを推測するためには27,255,689年もかかることになります。 たとえ、以下の場合でも同じです：
 
-- Your adversary knows that you used the diceware method.
-- Your adversary knows the specific word list that you used.
-- Your adversary knows how many words your passphrase contains.
+- 敵対者はあなたがダイスウェアパスフレーズを使ったことを知っている。
+- 敵対者はあなたが使った単語リストを知っている。
+- 敵対者はパスフレーズに含まれる単語数を知っている。
 
 </details>
 
-To sum it up, diceware passphrases are your best option when you need something that is both easy to remember *and* exceptionally strong.
+以上をまとめると、ダイスウェアパスフレーズは覚えやすく、*かつ*非常に強力なものが必要な場合に最適です。
 
 ## パスワードの保存
 
