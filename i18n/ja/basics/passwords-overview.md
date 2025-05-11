@@ -1,7 +1,7 @@
 ---
-title: "Introduction to Passwords"
+title: "パスワードの概要"
 icon: 'material/form-textbox-password'
-description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
+description: 強固なパスワードを作成し、アカウントを安全に保つヒントやコツを紹介します。
 ---
 
 パスワードは、日々のデジタルライフに欠かせないものです。 私たちは、アカウント、デバイス、秘密を守るためにパスワードを使用します。 パスワードは多くの場合、敵対者から個人情報を守る唯一の要素です。にも関わらず、十分に検討されず、簡単に推測できたり、総当たりできるパスワードが使われることが多いようです。
@@ -16,20 +16,20 @@ description: These are some tips and tricks on how to create the strongest passw
 
 ### ランダムに生成されたパスワードを使う
 
-==You should **never** rely on yourself to come up with a good password.== We recommend using [randomly generated passwords](#passwords) or [diceware passphrases](#diceware-passphrases) with sufficient entropy to protect your accounts and devices.
+==自力でパスワードを考え出すことは**決して**行わないでください。==アカウントやデバイスを保護するために、十分なエントロピーがある[ランダムに生成されたパスワード](#passwords)や[ダイスウェアパスフレーズ](#diceware-passphrases)を使うことを推奨します。
 
-All of our [recommended password managers](../passwords.md) include a built-in password generator that you can use.
+推奨する[パスワードマネージャー](../passwords.md)にはパスワードジェネレーターが組み込まれており、使うことができます。
 
 ### パスワードを変更する
 
-You should avoid changing passwords that you have to remember (such as your password manager's master password) too often unless you have reason to believe it has been compromised, as changing it too often exposes you to the risk of forgetting it.
+パスワードの安全性が損なわれたと信じるに足る理由がない限り、覚えて置かなければならないパスワード（パスワードマネージャーのマスターパスワードなど）を頻繁に変更することは避けるべきです。忘れてしまうリスクがあるためです。
 
-When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multifactor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. Most password managers allow you to set an expiry date for your password to make this easier to manage.
+覚えておく必要のないパスワード（パスワードマネージャーで保存しているパスワードなど）は[脅威モデル](threat-modeling.md)に基づき、まだ公になっていないデータ漏洩が起きている場合に備え、重要なアカウント（特に多要素認証が使われていないアカウント）を確認し、2〜3ヶ月ごとに変更することを推奨します。 多くのパスワードマネージャーではパスワードの有効期限を設定できるため、管理が簡単になります。
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Checking for data breaches</p>
+<p class="admonition-title">データ漏洩の確認</p>
 
-If your password manager lets you check for compromised passwords, make sure to do so and promptly change any password that may have been exposed in a data breach. Alternatively, you could follow [Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) with the help of a [news aggregator](../news-aggregators.md).
+パスワードマネージャーで漏洩したパスワードを確認できる場合、必ず確認し、データ漏洩で流出した可能性のあるパスワードは速やかに変更してください。 もしくは[ニュースアグリゲーター](../news-aggregators.md)で[Have I Been Pwned's Latest Breaches feed](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches)をフォローすることもできます。
 
 </div>
 
