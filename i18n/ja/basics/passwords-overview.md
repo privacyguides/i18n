@@ -104,23 +104,23 @@ description: 強固なパスワードを作成し、アカウントを安全に�
 
 ### パスワードマネージャー
 
-The best way to store your passwords is by using a password manager. They allow you to store your passwords in a file or in the cloud and protect them with a single master password. That way, you will only have to remember one strong password, which lets you access the rest of them.
+パスワードを保存する最もよい方法は、パスワードマネージャーを使うことです。 パスワードをファイルやクラウド上に保存し、一つのマスターパスワードで保護することができます。 一つの強力なパスワードを覚えておくだけで全てのパスワードにアクセスすることができます。
 
-There are many good options to choose from, both cloud-based and local. Choose one of our recommended password managers and use it to establish strong passwords across all of your accounts. We recommend securing your password manager with a [diceware passphrase](#diceware-passphrases) comprised of at least seven words.
+クラウドでもローカルでも、多くのよい選択肢があります。 推奨されるパスワードマネージャーを選び、使うことで全てのアカウントに強力なパスワードを設定してください。 パスワードマネージャーには少なくとも7単語の[ダイスウェアパスフレーズ](#diceware-passphrases)で保護することを推奨します。
 
-[List of recommended password managers](../passwords.md ""){.md-button}
+[推奨するパスワードマネージャー](../passwords.md ""){.md-button}
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Don't place your passwords and TOTP tokens inside the same password manager</p>
+<p class="admonition-title">パスワードとTOTPトークンを同じパスワードマネージャーに保存しないこと</p>
 
-When using [TOTP codes as multifactor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
+[TOTPコードを多要素認証](multi-factor-authentication.md#time-based-one-time-password-totp)として使用する場合、TOTPコードは[別のアプリ](../multi-factor-authentication.md)に保存することが最もよいセキュリティプラクティスです。
 
-Storing your TOTP tokens in the same place as your passwords, while convenient, reduces the accounts to a single factor in the event that an adversary gains access to your password manager.
+TOTPトークンとパスワードを同じ場所に保存するのは便利ですが、敵対者がパスワードマネージャーにアクセスできた場合に、一要素に減ってしまいます。
 
-Furthermore, we do not recommend storing single-use recovery codes in your password manager. Those should be stored separately such as in an encrypted container on an offline storage device.
+さらに、パスワードマネージャーには1回のみ利用できるリカバリーコードを保存することは推奨しません。 暗号化されたコンテナなど、オフラインのストレージデバイスに分けて保存する必要があります。
 
 </div>
 
 ### バックアップ
 
-You should store an [encrypted](../encryption.md) backup of your passwords on multiple storage devices or a cloud storage provider. This can help you access your passwords if something happens to your primary device or the service you are using.
+パスワードの[暗号化された](../encryption.md)バックアップは、複数のストレージデバイスやクラウドストレージなどに保存する必要があります。 主に使っているデバイスやサービスに何かあった場合に、パスワードにアクセスするのに役立ちます。
