@@ -85,10 +85,10 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 
 **Control D** es un servicio DNS personalizable que permite bloquear amenazas de seguridad, contenidos no deseados y publicidad a nivel de DNS. Además de sus planes de pago, ofrecen una serie de resolvedores DNS preconfigurados que puedes utilizar gratuitamente.
 
-[:octicons-home-16: Página Principal](https://controld.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://controld.com/privacy){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://docs.controld.com/docs/getting-started){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/Control-D-Inc/ctrld){ .card-link title="Código Fuente" }
+[:octicons-home-16: Homepage](https://controld.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://controld.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.controld.com/docs/getting-started){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/Control-D-Inc/ctrld){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -112,10 +112,10 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 
  **NextDNS** es un servicio DNS personalizable que te permite bloquear amenazas de seguridad, contenidos no deseados y publicidad a nivel DNS. Ofrecen un plan gratuito totalmente funcional para uso limitado.
 
-[:octicons-home-16: Página Principal](https://nextdns.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextdns.io/privacy){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://help.nextdns.io){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/nextdns/nextdns){ .card-link title="Código Fuente" }
+[:octicons-home-16: Homepage](https://nextdns.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nextdns.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://help.nextdns.io){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/nextdns/nextdns){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -149,10 +149,10 @@ El software de proxy de DNS cifrado proporciona un proxy local para que el servi
 
 **RethinkDNS** is an open-source Android client that supports [DoH](advanced/dns-overview.md#dns-over-https-doh), [DoT](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) and DNS Proxy. También proporciona funciones adicionales, como el almacenamiento en caché de las respuestas DNS, el registro local de las consultas DNS y el uso de la aplicación como cortafuegos.
 
-[:octicons-home-16: Página Principal](https://rethinkdns.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://docs.rethinkdns.com){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Código Fuente" }
+[:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.rethinkdns.com){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Descargas</summary>
@@ -174,10 +174,10 @@ While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot
 
 **DNSCrypt-Proxy** is a DNS proxy with support for [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DoH](advanced/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
 
-[:octicons-repo-16: Repositorio](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=Contribuir }
+[:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Descargas</summary>

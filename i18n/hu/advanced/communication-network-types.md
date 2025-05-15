@@ -6,7 +6,7 @@ description: Azonnali üzenetküldő alkalmazások által gyakran használt kül
 
 Személyek közötti üzenetek továbbítására többféle hálózati architektúra használható. Ezek a hálózatok különböző magánéleti garanciákat nyújthatnak, ezért érdemes figyelembe venned a [védelmk modelledet](../basics/threat-modeling.md), amikor eldöntöd, hogy melyik alkalmazást fogod használni.
 
-[Recommended Instant Messengers](../real-time-communication.md ""){.md-button} [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why/ ""){.md-button}
+[Recommended Instant Messengers](../real-time-communication.md ""){.md-button} [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
 
 ## Központosított Hálózatok
 

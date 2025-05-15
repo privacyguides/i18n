@@ -17,12 +17,12 @@ Los [**Pastebins**](https://es.wikipedia.org/wiki/Pastebin) son servicios en lí
 
 ![PrivateBin logo](assets/img/pastebins/privatebin.svg){ align=right }
 
-**PrivateBin** es un pastebin en línea minimalista y de código abierto en el que el servidor no tiene ningún conocimiento de los datos pegados. Los datos se cifran/descifran en el navegador utilizando AES de 256 bits. Es la versión mejorada de ZeroBin.
+**PrivateBin** is a minimalist, open-source, online pastebin where the server has zero knowledge of pasted data. Los datos se cifran/descifran en el navegador utilizando AES de 256 bits. Es la versión mejorada de ZeroBin.
 
-[:octicons-home-16: Página Principal](https://privatebin.info){ .md-button .md-button--primary }
-[:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Instancias Públicas"}
-[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Código Fuente" }
+[:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
+[:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Public Instances"}
+[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
 
 </div>
 
@@ -44,16 +44,16 @@ Los [**Pastebins**](https://es.wikipedia.org/wiki/Pastebin) son servicios en lí
 
 ## Criterios
 
-**Por favor, ten en cuenta que no estamos afiliados a ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
 
 ### Requisitos Mínimos
 
 - Debe ser de código abierto.
-- Debe implementar el cifrado de extremo a extremo de "confianza cero".
+- Must implement "zero-trust" E2EE.
 - Debe admitir archivos protegidos por contraseña.
 
 ### Mejor Caso
 
 Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto perfecto en esta categoría. Es posible que nuestras recomendaciones no incluyan todas o algunas de estas funciones, pero las que sí las incluyan pueden estar mejor clasificadas que otras en esta página.
 
-- Debe tener una auditoría publicada por una tercera parte independiente y de buena reputación.
+- Should have a published audit from a reputable, independent third party.

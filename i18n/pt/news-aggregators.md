@@ -42,9 +42,9 @@ O **Akregator** é um leitor de feeds de notícias que faz parte do projeto [KDE
 
 ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ align=right }
 
-**NewsFlash** is an open-source, modern, and easy-to-use news feed reader for Linux. It can be used offline or used with services like [Nextcloud News](https://apps.nextcloud.com/apps/news) or [Inoreader](https://inoreader.com). It has a search feature and a pre-defined list of sources that you can add directly.
+**NewsFlash** is an open-source, modern, and easy-to-use news feed reader for Linux. It can be used offline or with services like [Inoreader](https://inoreader.com) or [Nextcloud News](https://apps.nextcloud.com/apps/news). It has a search feature and a pre-defined list of sources that you can add directly.
 
-[:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk){ .md-button .md-button--primary }
+[:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk#newsflash){ .md-button .md-button--primary }
 [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -62,9 +62,11 @@ O **Akregator** é um leitor de feeds de notícias que faz parte do projeto [KDE
 
 ![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
 
-**Feeder** is a modern RSS client for Android that has many [features](https://github.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+**Feeder** is a modern RSS client for Android that has many [features](https://github.com/spacecowboy/Feeder#features) and works well with folders of RSS feeds.
 
-[:octicons-repo-16: Repository](https://github.com/spacecowboy/Feeder){ .md-button .md-button--primary }
+It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+
+[:octicons-repo-16: Repository](https://github.com/spacecowboy/Feeder#readme){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title="Contribute" }
 
@@ -85,10 +87,12 @@ O **Akregator** é um leitor de feeds de notícias que faz parte do projeto [KDE
 ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
 ![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
 
-**Miniflux** is a web-based news aggregator that you can self-host. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+**Miniflux** is a web-based news aggregator that you can self-host.
+
+It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
 [:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
-[:octicons-info-16:](https://miniflux.app/docs/index){ .card-link title="Documentation" }
+[:octicons-info-16:](https://miniflux.app/docs/index#user-guide){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title="Contribute" }
 
@@ -100,7 +104,9 @@ O **Akregator** é um leitor de feeds de notícias que faz parte do projeto [KDE
 
 ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
 
-**NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. Suporta os formatos de feeds típicos, juntamente com suporte integrado para feeds do Reddit.
+**NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set.
+
+It supports conventional feed formats and includes built-in support for Reddit feeds.
 
 [:octicons-home-16: Homepage](https://netnewswire.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="Privacy Policy" }
@@ -126,7 +132,7 @@ O **Akregator** é um leitor de feeds de notícias que faz parte do projeto [KDE
 O **Newsboat** é um leitor de feeds RSS/Atom para a consola de texto. É um fork de [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter), e tem atualizações frequentes. It is very lightweight and ideal for use over [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
 
 [:octicons-home-16: Homepage](https://newsboat.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://newsboat.org/releases/2.37/docs/newsboat.html){ .card-link title="Documentation" }
+[:octicons-info-16:](https://newsboat.org/releases/2.38/docs/newsboat.html){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="Source Code" }
 
 </div>
@@ -164,7 +170,7 @@ You can subscribe to YouTube channels without logging in and associating usage i
 <div class="admonition example" markdown>
 <p class="admonition-title">Example</p>
 
-To subscribe to a YouTube channel with an RSS client, first look for its [channel code](https://support.google.com/youtube/answer/6180214). The channel code can be found on the about page of the YouTube channel you wish to subscribe to, under: **About** → **Share** → **Copy channel ID**. Replace `[CHANNEL ID]` below:
+To subscribe to a YouTube channel with an RSS client, first look for its [channel code](https://support.google.com/youtube/answer/6180214). The channel code can be found in the expanded description (i.e., the "About" section) of the YouTube channel you wish to subscribe to: **About** → **Share channel** → **Copy channel ID**. Replace `[CHANNEL ID]` below:
 
 ```text
 https://youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]

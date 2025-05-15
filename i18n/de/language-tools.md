@@ -10,7 +10,7 @@ cover: language-tools.webp
 - [:material-server-network: Diensteanbieter](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 - [:material-account-cash: Überwachungskapitalismus](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-Texte, die in Grammatik-, Rechtschreib- und Stilprüfungsprogramme sowie in Übersetzungsdienste eingegeben werden, können vertrauliche Informationen enthalten, die auf deren Servern auf unbestimmte Zeit gespeichert und an Dritte verkauft werden können. Die auf dieser Seite aufgeführten Sprachtools speichern den von dir übermittelten Text nicht auf einem Server und können selbst gehostet und offline verwendet werden, um eine maximale Kontrolle über deine Daten zu gewährleisten.
+Texte, die in Grammatik-, Rechtschreib- und Stilprüfungsprogramme sowie in Übersetzungsdienste eingegeben werden, können vertrauliche Informationen enthalten, die auf deren Servern auf unbestimmte Zeit gespeichert und an Dritte verkauft werden können. The language tools listed on this page do not store your submitted text on a server and can be self-hosted and used offline for maximum control of your data.
 
 ## LanguageTool
 
@@ -22,9 +22,9 @@ Texte, die in Grammatik-, Rechtschreib- und Stilprüfungsprogramme sowie in Übe
 **LanguageTool** ist eine mehrsprachige Grammatik-, Stil- und Rechtschreibprüfung, die mehr als 20 Sprachen unterstützt. Laut ihrer Datenschutzrichtlinie speichern sie keine Inhalte, die zur Überprüfung an ihren Dienst gesendet werden, aber für eine höhere Sicherheit ist die Software [selbst-hostbar](https://dev.languagetool.org/http-server).
 
 [:octicons-home-16: Homepage](https://languagetool.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://languagetool.org/legal/privacy){ .card-link title="Datenschutzrichtlinie" }
-[:octicons-info-16:](https://languagetooler.freshdesk.com/en/support/solutions){ .card-link title=Dokumentation}
-[:octicons-code-16:](https://github.com/languagetool-org){ .card-link title="Quellcode" }
+[:octicons-eye-16:](https://languagetool.org/legal/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://languagetooler.freshdesk.com/en/support/solutions){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/languagetool-org){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -33,7 +33,7 @@ Texte, die in Grammatik-, Rechtschreib- und Stilprüfungsprogramme sowie in Übe
 - [:fontawesome-brands-windows: Windows](https://languagetool.org/windows-desktop)
 - [:simple-apple: macOS](https://languagetool.org/mac-desktop)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/languagetool)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/grammar-and-spell-checker/oldceeleldhonbafppcapldpdifcinji)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/oldceeleldhonbafppcapldpdifcinji)
 - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/hfjadhjooeceemgojogkhlppanjkbobc)
 - [:simple-safari: Safari](https://apps.apple.com/app/id1534275760)
 

@@ -11,7 +11,7 @@ cover: cloud.webp
 - [:material-bug-outline: התקפות פסיביות](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: ספקי שירות](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-Many **cloud storage providers** require your full trust that they will not look at your files. החלופות המפורטות להלן מבטלות את הצורך באמון על ידי הטמעת E2EE מאובטחת.
+Many **cloud storage providers** require your full trust that they will not look at your files. The alternatives listed below eliminate the need for trust by implementing secure end-to-end encryption.
 
 אם חלופות אלה אינן מתאימות לצרכים שלך, אנו מציעים לך לבדוק שימוש בתוכנת הצפנה כמו [Cryptomator](encryption.md#cryptomator-cloud) עם ספק ענן אחר. שימוש ב-Cryptomator בשילוב עם **כל** ספק ענן (כולל אלה) עשוי להיות רעיון טוב כדי להפחית את הסיכון לפגמי הצפנה אצל הלקוחות המקומיים של הספק.
 
@@ -28,7 +28,9 @@ Nextcloud is [still a recommended tool](document-collaboration.md#nextcloud) for
 
 ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
 
-**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail). The initial free storage is limited to 2 GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5 GB.
+**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail).
+
+The initial free storage is limited to 2 GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5 GB.
 
 [:octicons-home-16: Homepage](https://proton.me/drive){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/drive/privacy-policy){ .card-link title="Privacy Policy" }
@@ -47,9 +49,7 @@ Nextcloud is [still a recommended tool](document-collaboration.md#nextcloud) for
 
 </div>
 
-The Proton Drive web application has been independently audited by Securitum in [2021](https://proton.me/community/open-source).
-
-Proton Drive's brand new mobile clients have not yet been publicly audited by a third party.
+The Proton Drive web application has been independently audited by Securitum in [2021](https://proton.me/community/open-source), but the brand new mobile clients have not yet been publicly audited by a third party.
 
 ## Tresorit
 
@@ -76,7 +76,7 @@ Proton Drive's brand new mobile clients have not yet been publicly audited by a 
 
 </div>
 
-Tresorit קיבלה מספר ביקורות אבטחה עצמאיות:
+Tresorit has received a number of independent security audits:
 
 - [2022](https://tresorit.com/blog/tresorit-receives-iso-27001-certification): ISO/IEC 27001:2013[^1] Compliance [Certification](https://certipedia.com/quality_marks/9108644476) by TÜV Rheinland InterCert Kft
 - [2021](https://tresorit.com/blog/fresh-penetration-testing-confirms-tresorit-security): Penetration Testing by Computest
@@ -84,7 +84,9 @@ Tresorit קיבלה מספר ביקורות אבטחה עצמאיות:
     - Computest גילתה שתי נקודות תורפה שנפתרו.
 - [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture): Penetration Testing by Ernst & Young.
     - סקירה זו ניתחה את קוד המקור המלא של Tresorit ואימתה שהיישום תואם את המושגים המתוארים ב[דף הלבן](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf) של Tresorit.
-    - ארנסט & יאנג בדק בנוסף את האינטרנט, הנייד והמחשב שולחני: "תוצאות הבדיקה לא מצאו חריגה מתביעות סודיות הנתונים של Tresorit."
+    - Ernst & Young additionally tested the web, mobile, and desktop clients. They concluded:
+
+        > Test results found no deviation from Tresorit’s data confidentiality claims.
 
 They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://efd.admin.ch/en/swiss-digital-initiative-en) which requires passing [35 criteria](https://swiss-digital-initiative.org/criteria) related to security, privacy, and reliability.
 
@@ -130,7 +132,7 @@ Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November
 
 ### דרישות מינימליות
 
-- חייב לאכוף הצפנה מקצה לקצה.
+- Must enforce E2EE.
 - יש להציע תוכנית חינם או תקופת ניסיון לבדיקה.
 - Must support TOTP or FIDO2 multifactor authentication, or passkey logins.
 - חייב להציע ממשק אינטרנט התומך בפונקציונליות ניהול קבצים בסיסית.
@@ -141,10 +143,10 @@ Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November
 הקריטריונים הטובים ביותר שלנו מייצגים את מה שהיינו רוצים לראות מהפרויקט המושלם בקטגוריה זו. ייתכן שההמלצות שלנו לא יכללו חלק מהפונקציונליות הזו או את כולה, אך אלו שכן כן עשויות לדרג גבוה יותר מאחרות בדף זה.
 
 - Clients should be open source.
-- לקוחות צריכים להיות מבוקרים במלואם על ידי צד שלישי עצמאי.
+- Clients should be audited in their entirety by an independent third party.
 - צריך להציע ללקוחות מקומיים עבור לינוקס, אנדרואיד, Windows, macOS ו - iOS.
     - לקוחות אלה צריכים להשתלב עם כלי מערכת הפעלה מקוריים עבור ספקי אחסון בענן, כגון שילוב אפליקציות קבצים ב- iOS, או פונקציונליות DocumentsProvider באנדרואיד.
-- צריך לתמוך בשיתוף קבצים קל עם משתמשים אחרים.
+- Should support easy file sharing with other users.
 - אמור להציע לפחות תצוגה מקדימה בסיסית של קובץ ופונקציונליות עריכה בממשק האינטרנט.
 
 [^1]: [ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001): תאימות 2013 מתייחסת ל[מערכת ניהול אבטחת המידע](https://en.wikipedia.org/wiki/Information_security_management) של החברה ומכסה את המכירות, הפיתוח, התחזוקה והתמיכה של שירותי הענן שלהם.

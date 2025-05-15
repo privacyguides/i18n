@@ -114,6 +114,6 @@ In the modern age of digital data exploitation, your privacy has never been more
 
 Many people get the concepts of privacy, security, and anonymity confused. Вы можете видеть, как люди называют различные продукты "не приватными", когда на самом деле они имеют в виду, что эти продукты не обеспечивают анонимность. На этом сайте мы рассматриваем все эти три темы, но важно понимать разницу между ними, и когда каждая из них вступает в игру.
 
-[:material-movie-open-play-outline: Видео: 5 способов повысить вашу конфиденциальность](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 </div>
 </div>

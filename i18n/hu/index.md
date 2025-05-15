@@ -114,6 +114,6 @@ In the modern age of digital data exploitation, your privacy has never been more
 
 Many people get the concepts of privacy, security, and anonymity confused. Láthatod, hogy emberek kritizálnak különböző termékeket, mint "nem privát", amikor valójában úgy értik, hogy nem biztosít anonimitást például. Ezen a weboldalon mindhárom témakörrel foglalkozunk, de fontos, hogy megértsd a köztük lévő különbséget, és hogy mikor melyik kerül a képbe.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 </div>
 </div>

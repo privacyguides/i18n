@@ -70,10 +70,10 @@ Shelter wird gegenüber [Insular](https://secure-system.gitlab.io/Insular) und [
 
 **Secure Camera** ist eine Kamera-App, die sich auf Datenschutz und Sicherheit konzentriert und Bilder, Videos und QR-Codes aufnehmen kann. CameraX Herstellererweiterungen (Porträt, HDR, Nachtsicht, Gesichtsretusche und Auto) sind auf unterstützten Geräten ebenfalls verfügbar.
 
-[:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
-[:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Dokumentation}
-[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Quellcode" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Spenden }
+[:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -116,9 +116,9 @@ Die Metadaten zur Bildausrichtung werden nicht gelöscht. Wenn du den Standort (
 
 [Content-Security-Policy](https://de.wikipedia.org/wiki/Content_Security_Policy) wird verwendet, um zu erzwingen, dass die JavaScript- und Styling-Eigenschaften innerhalb der WebView ausschließlich statische Inhalte sind.
 
-[:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Quellcode" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Spenden }
+[:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer#readme){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

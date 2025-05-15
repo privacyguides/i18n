@@ -12,7 +12,7 @@ description: בעידן המודרני של ניצול נתונים דיגיטל
 
 אנשים רבים מבלבלים את המושגים של פרטיות, אבטחה ואנונימיות. אנשים רבים מבלבלים את המושגים של **פרטיות**, **אבטחה** ו**אנונימיות**. אתה תראה אנשים מבקרים מוצרים שונים כ"לא פרטיים" כאשר הם באמת מתכוונים שזה לא מספק אנונימיות, למשל. באתר זה אנו מכסים את כל שלושת הנושאים הללו, אך חשוב שתבינו את ההבדל ביניהם, ומתי כל אחד מהם נכנס לפעולה.
 
-[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security/ ""){.md-button}
+[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security ""){.md-button}
 
 <!-- markdownlint-disable-next-line -->
 **פרטיות**
@@ -58,7 +58,7 @@ description: בעידן המודרני של ניצול נתונים דיגיטל
 
 פרטיות היא משהו שאנחנו צריכים להכניס ל[תוכנות ובשירותים](../tools.md) שבהם אנו משתמשים כברירת מחדל, אתה לא יכול לכופף את רוב האפליקציות להיות פרטיות בעצמך.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 
 ## מקורות
 

@@ -114,6 +114,6 @@ In the modern age of digital data exploitation, your privacy has never been more
 
 Many people get the concepts of privacy, security, and anonymity confused. 例如，你会看到有人批评各种产品 "不私密"，但他们的意思其实是这些产品不提供匿名性。 在本网站上，我们这三个主题都会介绍，但重要的是，你要了解它们之间的区别，以及每一个主题何时发挥作用。
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 </div>
 </div>

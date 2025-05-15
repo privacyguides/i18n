@@ -36,7 +36,7 @@ Ao partilhar ficheiros, certifique-se de que remove os metadados associados. Os 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2)
+- [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2#metadata-and-privacy)
 - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
 - [:simple-linux: Linux](https://pypi.org/project/mat2)
 - [:octicons-globe-16: Web](https://0xacab.org/jvoisin/mat2#web-interface)
@@ -53,10 +53,10 @@ Ao partilhar ficheiros, certifique-se de que remove os metadados associados. Os 
 
 **ExifEraser** is a modern, permissionless image metadata erasing application for Android.
 
-Pode remover dados [EXIF](https://en.wikipedia.org/wiki/Exif) para muitos formatos de arquivo e foi traduzido para [many](https://gitlab.com/juanitobananas/scrambled-exif/-/tree/master/app/src/main/res) idiomas.
+It currently supports JPEG, PNG, and WebP files.
 
-[:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title="Documentation" }
+[:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#description){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>

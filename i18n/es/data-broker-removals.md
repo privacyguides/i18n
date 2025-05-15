@@ -121,7 +121,7 @@ En nuestras pruebas, esta herramienta funcionó para eliminar de forma fiable lo
 
 ## Criterios
 
-**Por favor, ten en cuenta que no estamos afiliados a ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Te sugerimos que te familiarices con esta lista antes de elegir un servicio de eliminación de datos, y que lleves a cabo tu propia investigación para asegurarte de que es la opción adecuada para ti.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Te sugerimos que te familiarices con esta lista antes de elegir un servicio de eliminación de datos, y que lleves a cabo tu propia investigación para asegurarte de que es la opción adecuada para ti.
 
 Nuestras selecciones de servicios de eliminación se basan principalmente en pruebas profesionales independientes realizadas por terceros, como se indica en las secciones anteriores, en nuestras propias pruebas internas y en los comentarios agregados de nuestra comunidad.
 

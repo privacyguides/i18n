@@ -7,7 +7,7 @@ description: Le reti private virtuali spostano il rischio dal vostro ISP a una t
 
 Le Reti Private Virtuali sono un metodo d'estensione del termine della tua rete, affinché il traffico esca da qualche altra parte nel mondo.
 
-[:material-movie-open-play-outline: Video: Do you need a VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn/ ""){.md-button}
+[:material-movie-open-play-outline: Video: Do you need a VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
 
 Normalmente, un ISP può visualizzare il flusso di traffico Internet in entrate e in uscita dal dispositivo di terminazione della tua rete (cioè, il modem). I protocolli crittografici come HTTPS sono comunemente utilizzati su Internet, quindi, potrebbero non riuscire a vedere esattamente ciò che stai pubblicando o leggendo, ma potrebbero farsi un'idea dei [domini che richiedi](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 

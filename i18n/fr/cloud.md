@@ -11,7 +11,7 @@ cover: cloud.webp
 - [:material-bug-outline: Attaques passives](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: Fournisseurs de service](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-Many **cloud storage providers** require your full trust that they will not look at your files. Les alternatives énumérées ci-dessous éliminent le besoin de confiance en mettant en œuvre un E2EE sécurisé.
+Many **cloud storage providers** require your full trust that they will not look at your files. The alternatives listed below eliminate the need for trust by implementing secure end-to-end encryption.
 
 Si ces alternatives ne répondent pas à vos besoins, nous vous suggérons d'utiliser un logiciel de chiffrement tel que [Cryptomator](encryption.md#cryptomator-cloud) avec un autre fournisseur de cloud. L'utilisation de Cryptomator en conjonction avec **tout** fournisseur de cloud (y compris ceux-ci) peut être une bonne idée pour réduire le risque de failles de chiffrement dans les clients natifs d'un fournisseur.
 
@@ -28,7 +28,9 @@ Nextcloud is [still a recommended tool](document-collaboration.md#nextcloud) for
 
 ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
 
-**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail). The initial free storage is limited to 2 GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5 GB.
+**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail).
+
+The initial free storage is limited to 2 GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5 GB.
 
 [:octicons-home-16: Homepage](https://proton.me/drive){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/drive/privacy-policy){ .card-link title="Privacy Policy" }
@@ -47,9 +49,7 @@ Nextcloud is [still a recommended tool](document-collaboration.md#nextcloud) for
 
 </div>
 
-The Proton Drive web application has been independently audited by Securitum in [2021](https://proton.me/community/open-source).
-
-Proton Drive's brand new mobile clients have not yet been publicly audited by a third party.
+The Proton Drive web application has been independently audited by Securitum in [2021](https://proton.me/community/open-source), but the brand new mobile clients have not yet been publicly audited by a third party.
 
 ## Tresorit
 
@@ -76,7 +76,7 @@ Proton Drive's brand new mobile clients have not yet been publicly audited by a 
 
 </div>
 
-Tresorit a fait l'objet d'un certain nombre d'audits de sécurité indépendants :
+Tresorit has received a number of independent security audits:
 
 - [2022](https://tresorit.com/blog/tresorit-receives-iso-27001-certification): ISO/IEC 27001:2013[^1] Compliance [Certification](https://certipedia.com/quality_marks/9108644476) by TÜV Rheinland InterCert Kft
 - [2021](https://tresorit.com/blog/fresh-penetration-testing-confirms-tresorit-security): Penetration Testing by Computest
@@ -84,7 +84,9 @@ Tresorit a fait l'objet d'un certain nombre d'audits de sécurité indépendants
     - Computest a découvert deux vulnérabilités qui ont été résolues.
 - [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture): Penetration Testing by Ernst & Young.
     - Cette étude a analysé le code source complet de Tresorit et validé que la mise en œuvre correspond aux concepts décrits dans le [livre blanc](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf) de Tresorit.
-    - Ernst & Young a également testé les clients web, mobiles et de bureau : "Les résultats des tests n'ont révélé aucun écart par rapport aux affirmations de Tresorit en matière de confidentialité des données".
+    - Ernst & Young additionally tested the web, mobile, and desktop clients. They concluded:
+
+        > Test results found no deviation from Tresorit’s data confidentiality claims.
 
 They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://efd.admin.ch/en/swiss-digital-initiative-en) which requires passing [35 criteria](https://swiss-digital-initiative.org/criteria) related to security, privacy, and reliability.
 
@@ -130,7 +132,7 @@ Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November
 
 ### Exigences minimales
 
-- Doit imposer le chiffrement de bout en bout.
+- Must enforce E2EE.
 - Doit avoir une offre gratuite ou une période d'essai pour les tests.
 - Must support TOTP or FIDO2 multifactor authentication, or passkey logins.
 - Doit offrir une interface web prennant en charge les fonctionnalités de base de gestion des fichiers.
@@ -141,10 +143,10 @@ Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November
 Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
 - Les clients devraient être open source.
-- Les clients devraient être audités dans leur intégralité par un tiers indépendant.
+- Clients should be audited in their entirety by an independent third party.
 - Devrait offrir des clients natifs pour Linux, Android, Windows, macOS et iOS.
     - Ces clients devraient s'intégrer aux outils natifs du système d'exploitation pour les fournisseurs de stockage cloud, comme l'intégration de l'application Fichiers sur iOS, ou la fonctionnalité DocumentsProvider sur Android.
-- Devrait permettre de partager facilement des fichiers avec d'autres utilisateurs.
+- Should support easy file sharing with other users.
 - Devrait offrir au moins une fonctionnalité de base d'aperçu et d'édition de fichiers sur l'interface web.
 
 [^1]: La conformité à la norme [ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001):2013 concerne le [système de gestion de la sécurité de l'information](https://en.wikipedia.org/wiki/Information_security_management) de l'entreprise et couvre la vente, le développement, la maintenance et le soutien de ses services cloud.

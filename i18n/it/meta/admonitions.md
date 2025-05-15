@@ -3,7 +3,7 @@ title: Moniti
 description: A guide for website contributors on creating admonitions.
 ---
 
-I **moniti** (o "richiami") sono una scelta che gli scrittori possono utilizzare per includere contenuti in un articolo senza interrompere il flusso del documento.
+**Admonitions** (or "call-outs") are tools that writers can use to include side content in an article without interrupting the document flow.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Esempio di monito</p>
@@ -41,7 +41,7 @@ TESTO ALLEGATO
 </details>
 ```
 
-Il `TITOLO` deve essere specificato; se non si desidera un titolo specifico, è possibile impostarlo con lo stesso testo del `TYPE` (vedi sotto) in caso di titolo, ad esempio `Note`. Il \`TESTO ALLEGATO' deve essere formattato in Markdown.
+The `TITLE` must be specified; if you don't want a specific title you can set it to the same text as the `TYPE` (see below) in title case, e.g. `Note`. Il \`TESTO ALLEGATO' deve essere formattato in Markdown.
 
 ### Tipi regolari
 
@@ -164,17 +164,17 @@ Questo formato viene utilizzato per generare schede di raccomandazione. In parti
 ```markdown title="Recommendation Card"
 <div class="admonition recommendation" markdown>
 
-![Logo di PhotoPrism](assets/img/photo-management/photoprism.svg){ align=right }
+![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** è una piattaforma auto-ospitabile per gestire le foto. Supporta la sincronizzazione e condivisione degli album, nonché una varietà di altre [funzionalità](https://photoprism.app/features). Non include E2EE, quindi è meglio ospitarla su un server attendibile e sotto il tuo controllo.
+**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
 
-[:octicons-home-16: Pagina iniziale](https://photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Politica sulla privacy" }
-[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Codice sorgente" }
+[:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Download</summary>
+<summary>Downloads</summary>
 
 - [:simple-github: GitHub](https://github.com/photoprism)
 
@@ -189,12 +189,12 @@ Questo formato viene utilizzato per generare schede di raccomandazione. In parti
 
 ![Logo PhotoPrism](../assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** is a self-hostable platform for managing photos. Supporta la sincronizzazione e condivisione degli album, nonché una varietà di altre [funzionalità](https://photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
+**PhotoPrism** is a self-hostable platform for managing photos. Supporta la sincronizzazione e condivisione degli album, nonché una varietà di altre [funzionalità](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
 
-[:octicons-home-16: Pagina iniziale](https://photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Politica sulla privacy" }
-[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Documentazione}
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Codice sorgente" }
+[:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -209,7 +209,7 @@ Questo formato viene utilizzato per generare schede di raccomandazione. In parti
 
 #### `downloads`
 
-Si tratta di un tipo speciale di monito a scomparsa, utilizzato per generare la sezione dei link di download. Viene utilizzato solo all'interno delle schede di raccomandazione, come mostrato nell'esempio precedente.
+This is a special type of collapsible admonition which is used to generate sections containing download links. Viene utilizzato solo all'interno delle schede di raccomandazione, come mostrato nell'esempio precedente.
 
 ```markdown title="Downloads Section"
 <details class="downloads" markdown>
@@ -217,7 +217,7 @@ Si tratta di un tipo speciale di monito a scomparsa, utilizzato per generare la 
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
-- [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
+- [:simple-github: GitHub](https://github.com/ProtonMail/android-mail/releases)
 - [:fontawesome-brands-windows: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
 - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
@@ -233,7 +233,7 @@ Si tratta di un tipo speciale di monito a scomparsa, utilizzato per generare la 
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
-- [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
+- [:simple-github: GitHub](https://github.com/ProtonMail/android-mail/releases)
 - [:fontawesome-brands-windows: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
 - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
@@ -245,7 +245,7 @@ Si tratta di un tipo speciale di monito a scomparsa, utilizzato per generare la 
 
 ## Vecchio formato
 
-In tutto il sito si possono vedere alcuni moniti formattato in modo simile a questi esempi:
+Throughout the site, you may see some admonitions formatted like the following examples:
 
 ```markdown title="Admonition"
 !!! note
@@ -289,6 +289,6 @@ massa, nec semper lorem quam in massa.
 
 </div>
 
-\*\*Questo formato non verrà più utilizzato in futuro \*\*perché incompatibile con le nuove versioni del software di traduzione Crowdin. Quando si aggiunge una nuova pagina al sito, si deve utilizzare solo il formato HTML più recente.
+**This format is no longer used going forward** because it is incompatible with newer versions of our translation software at Crowdin. When adding a new page to the site, only the newer, HTML-based format should be used.
 
-Non c'è fretta di convertire i moniti con il vecchio formato in quello nuovo. Le pagine che attualmente utilizzano questa formattazione dovrebbero continuare a funzionare, ma le aggiorneremo per utilizzare il nuovo formato basato su HTML di cui sopra nel corso del tempo, man mano che continueremo ad aggiornare il sito.
+Non c'è fretta di convertire i moniti con il vecchio formato in quello nuovo. Pages currently using this formatting should continue to work, but we will be updating them to use the newer, HTML-based format above over time as we continue to update the site.

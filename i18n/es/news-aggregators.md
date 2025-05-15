@@ -42,10 +42,10 @@ Un **agregador de noticias** es un programa informático que reúne contenidos d
 
 ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ align=right }
 
-**NewsFlash** es un lector de noticias de código abierto, moderno y fácil de usar para Linux. Puede utilizarse sin conexión o con servicios como [Nextcloud News](https://apps.nextcloud.com/apps/news) o [Inoreader](https://inoreader.com). Dispone de una función de búsqueda y una lista predefinida de fuentes que puedes añadir directamente.
+**NewsFlash** es un lector de noticias de código abierto, moderno y fácil de usar para Linux. It can be used offline or with services like [Inoreader](https://inoreader.com) or [Nextcloud News](https://apps.nextcloud.com/apps/news). Dispone de una función de búsqueda y una lista predefinida de fuentes que puedes añadir directamente.
 
-[:octicons-repo-16: Repositorio](https://gitlab.com/news-flash/news_flash_gtk){ .md-button .md-button--primary }
-[:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Código Fuente" }
+[:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk#newsflash){ .md-button .md-button--primary }
+[:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -62,11 +62,13 @@ Un **agregador de noticias** es un programa informático que reúne contenidos d
 
 ![Feeder logo](assets/img/news-aggregators/feeder.png){ align=right }
 
-**Feeder** es un cliente RSS moderno para Android que tiene muchas [características](https://github.com/spacecowboy/Feeder#features) y funciona bien con carpetas de fuentes RSS. Es compatible con [RSS](https://es.wikipedia.org/wiki/RSS), [Atom](https://es.wikipedia.org/wiki/Atom_(formato_de_redifusi%C3%B3n)), [RDF](https://es.wikipedia.org/wiki/RDF/XML) y [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+**Feeder** es un cliente RSS moderno para Android que tiene muchas [características](https://github.com/spacecowboy/Feeder#features) y funciona bien con carpetas de fuentes RSS.
 
-[:octicons-repo-16: Repositorio](https://github.com/spacecowboy/Feeder){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title="Contribuir" }
+Es compatible con [RSS](https://es.wikipedia.org/wiki/RSS), [Atom](https://es.wikipedia.org/wiki/Atom_(formato_de_redifusi%C3%B3n)), [RDF](https://es.wikipedia.org/wiki/RDF/XML) y [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+
+[:octicons-repo-16: Repository](https://github.com/spacecowboy/Feeder#readme){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -85,12 +87,14 @@ Un **agregador de noticias** es un programa informático que reúne contenidos d
 ![Miniflux logo](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
 ![Miniflux logo](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
 
-**Miniflux** es un agregador de noticias basado en web que puedes alojar tú mismo. Es compatible con [RSS](https://es.wikipedia.org/wiki/RSS), [Atom](https://es.wikipedia.org/wiki/Atom_(formato_de_redifusi%C3%B3n)), [RDF](https://es.wikipedia.org/wiki/RDF/XML) y [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+**Miniflux** es un agregador de noticias basado en web que puedes alojar tú mismo.
 
-[:octicons-home-16: Página Principal](https://miniflux.app){ .md-button .md-button--primary }
-[:octicons-info-16:](https://miniflux.app/docs/index){ .card-link title="Documentación" }
-[:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title="Contribuir" }
+Es compatible con [RSS](https://es.wikipedia.org/wiki/RSS), [Atom](https://es.wikipedia.org/wiki/Atom_(formato_de_redifusi%C3%B3n)), [RDF](https://es.wikipedia.org/wiki/RDF/XML) y [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+
+[:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
+[:octicons-info-16:](https://miniflux.app/docs/index#user-guide){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title="Contribute" }
 
 </div>
 
@@ -100,7 +104,9 @@ Un **agregador de noticias** es un programa informático que reúne contenidos d
 
 ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
 
-**NetNewsWire** es un lector de fuentes gratuito y de código abierto para macOS e iOS con un diseño y un conjunto de funciones nativos. Es compatible con los formatos de fuente típicos, además incluye soporte integrado para fuentes de Reddit.
+**NetNewsWire** es un lector de fuentes gratuito y de código abierto para macOS e iOS con un diseño y un conjunto de funciones nativos.
+
+It supports conventional feed formats and includes built-in support for Reddit feeds.
 
 [:octicons-home-16: Página Principal](https://netnewswire.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="Política de Privacidad" }
@@ -125,9 +131,9 @@ Un **agregador de noticias** es un programa informático que reúne contenidos d
 
 **Newsboat** es un lector de fuentes RSS/Atom para la consola de texto. Es una bifurcación de [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter) mantenida activamente. Es muy ligero e ideal para su uso a través de [Secure Shell](https://es.wikipedia.org/wiki/Secure_Shell).
 
-[:octicons-home-16: Página Principal](https://newsboat.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://newsboat.org/releases/2.37/docs/newsboat.html){ .card-link title="Documentación" }
-[:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="Código Fuente" }
+[:octicons-home-16: Homepage](https://newsboat.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://newsboat.org/releases/2.38/docs/newsboat.html){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="Source Code" }
 
 </div>
 
@@ -164,7 +170,7 @@ Puede suscribirse a canales de YouTube sin necesidad de iniciar sesión y asocia
 <div class="admonition example" markdown>
 <p class="admonition-title">Ejemplo</p>
 
-Para suscribirse a un canal de YouTube con un cliente RSS, busque primero su [código de canal](https://support.google.com/youtube/answer/6180214). El código del canal se encuentra en la página "Acerca de" del canal de YouTube al que desea suscribirse, en: **Información** > **Compartir canal** > **Copiar ID de canal**. Sustituya `[[CHANNEL ID]` a continuación:
+Para suscribirse a un canal de YouTube con un cliente RSS, busque primero su [código de canal](https://support.google.com/youtube/answer/6180214). The channel code can be found in the expanded description (i.e., the "About" section) of the YouTube channel you wish to subscribe to: **About** → **Share channel** → **Copy channel ID**. Sustituya `[[CHANNEL ID]` a continuación:
 
 ```text
 https://youtube.com/feeds/videos.xml?channel_id=[[CHANNEL ID]

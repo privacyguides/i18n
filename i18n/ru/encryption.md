@@ -65,7 +65,7 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
 **Picocrypt** - это маленькая и простая программа, предоставляющая современное шифрование. Picocrypt использует безопасный шифр XChaCha20 и функцию формирования ключа Argon2id для обеспечения высокого уровня безопасности. Для функций шифрования он использует стандартные модули Go x/crypto.
 
-[:octicons-repo-16: Repository](https://github.com/Picocrypt/Picocrypt){ .md-button .md-button--primary }
+[:octicons-repo-16: Repository](https://github.com/Picocrypt/Picocrypt#readme){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/Picocrypt/Picocrypt){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title="Contribute" }
 
@@ -207,7 +207,7 @@ We advise against using your iCloud account for recovery; instead, you should se
 
 **LUKS** - это стандартный метод FDE для Linux. Его можно использовать для шифрования полных томов, разделов или создания зашифрованных контейнеров.
 
-[:octicons-home-16: Homepage](https://gitlab.com/cryptsetup/cryptsetup/-/blob/main/README.md){ .md-button .md-button--primary }
+[:octicons-repo-16: Repository](https://gitlab.com/cryptsetup/cryptsetup#what-the-){ .md-button .md-button--primary }
 [:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title="Documentation" }
 [:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup){ .card-link title="Source Code" }
 

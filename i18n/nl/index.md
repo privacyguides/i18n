@@ -114,6 +114,6 @@ In the modern age of digital data exploitation, your privacy has never been more
 
 Many people get the concepts of privacy, security, and anonymity confused. Je ziet mensen verschillende producten bekritiseren als "niet privé", terwijl ze eigenlijk bedoelen dat het bijvoorbeeld geen anonimiteit biedt. Op deze website behandelen we alle drie onderwerpen, maar het is belangrijk dat je het verschil begrijpt en wanneer het om verschillende zaken gaat.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 </div>
 </div>

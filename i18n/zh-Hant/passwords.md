@@ -128,14 +128,14 @@ schema:
 
 **密碼管理器**可讓您使用主密碼安全地儲存和管理密碼及其他憑證。
 
-[密碼介紹 :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
+[密碼介紹 :material-arrow-right-drop-circle:](basics/passwords-overview.md)
 
 <div class="admonition info" markdown>
 <p class="admonition-title">資訊</p>
 
 瀏覽器和作業系統所內建的密碼管理器常常不如專用密碼管理器軟體。 內建密碼管理器的優點在於與原生軟體的良好整合，但它通常功能較少，而且缺乏獨立產品所具有的隱私和安全特點。
 
-例如，Microsoft Edge 的密碼管理器根本不提供 E2EE。 Google的密碼管理員則 [須自行啟用](https://support.google.com/accounts/answer/11350823) E2EE，而 [Apple](https://support.apple.com/HT202303) 預設提供E2EE。
+For example, the password manager in Microsoft Edge doesn't offer end-to-end encryption at all. Google的密碼管理員則 [須自行啟用](https://support.google.com/accounts/answer/11350823) E2EE，而 [Apple](https://support.apple.com/HT202303) 預設提供E2EE。
 
 </div>
 
@@ -157,7 +157,7 @@ schema:
 [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1137397744)
@@ -167,15 +167,15 @@ schema:
 - [:simple-linux: Linux](https://bitwarden.com/download)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/com.bitwarden.desktop)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/bitwarden-password-manager)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/nngceckbapebfimnlniiiahkandclblb)
 - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
-- [:simple-safari: Safari](https://apps.apple.com/us/app/bitwarden/id1352778147)
+- [:simple-safari: Safari](https://apps.apple.com/app/id1352778147)
 
 </details>
 
 </div>
 
-Bitwarden 預設使用 [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) 作為其 金鑰衍生函式(KDF) 演算法。 它也提供更安全的 [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id) 作為可選方案。 您可以在 web vault 中變更帳戶的 KDF 演算法。
+Bitwarden 預設使用 [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) 作為其 金鑰衍生函式(KDF) 演算法。 它也提供更安全的 [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id) 作為可選方案。 You can change your account's KDF algorithm in the web vault:
 
 - [x] 選擇**設定 > 安全 > 金鑰 > KDF 演算法 > Argon2id**
 
@@ -201,15 +201,15 @@ Bitwarden 伺服器端代碼是 [開源的](https://github.com/bitwarden/server)
 [:octicons-code-16:](https://github.com/protonpass){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=proton.android.pass)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/proton-pass-password-manager/id6443490629)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id6443490629)
 - [:fontawesome-brands-windows: Windows](https://proton.me/pass/download)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/proton-pass)
-- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
-- [:fontawesome-brands-edge: Edge](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
-- [:octicons-browser-16: 網頁版](https://pass.proton.me)
+- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/ghmbeldphafepmbegfdlkpapadhbakde)
+- [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/gcllgfdnfnllodcaambdaknbipemelie)
+- [:octicons-browser-16: Web](https://pass.proton.me)
 
 </details>
 
@@ -229,14 +229,16 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 
 ![1Password 標誌](assets/img/password-management/1password.svg){ align=right }
 
-**1Password** 是強調安全性與易用性的密碼管理器，可讓您將密碼、金鑰、信用卡、軟體許可證以及其他任何敏感資訊儲存於安全的數位保險庫中。 您的保管庫託管在 1Password 伺服器，費用為 [每月收取](https://1password.com/sign-up/)。 1Password 定期 [接受審計](https://support.1password.com/security-assessments/) 並提供卓越的客戶支援。 1Password 是封閉原始碼；但是，產品的安全性已徹底記錄在他們的 [安全白皮書](https://1passwordstatic.com/files/security/1password-white-paper.pdf)。
+**1Password** 是強調安全性與易用性的密碼管理器，可讓您將密碼、金鑰、信用卡、軟體許可證以及其他任何敏感資訊儲存於安全的數位保險庫中。 您的保管庫託管在 1Password 伺服器，費用為 [每月收取](https://1password.com/sign-up/)。
+
+1Password 定期 [接受審計](https://support.1password.com/security-assessments/) 並提供卓越的客戶支援。 1Password 是封閉原始碼；但是，產品的安全性已徹底記錄在他們的 [安全白皮書](https://1passwordstatic.com/files/security/1password-white-paper.pdf)。
 
 [:octicons-home-16: 首頁](https://1password.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="隱私權政策" }
 [:octicons-info-16:](https://support.1password.com){ .card-link title="說明文件" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750)
@@ -244,16 +246,16 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 - [:simple-apple: macOS](https://1password.com/downloads/mac)
 - [:simple-linux: Linux](https://1password.com/downloads/linux)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/1password-x-password-manager)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
 - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/dppgmdbiimibapkepcbdbmkaabgiofem)
-- [:simple-safari: Safari](https://apps.apple.com/us/app/1password-for-safari/id1569813296)
-- [:octicons-browser-16: 網頁版](https://my.1password.com/signin)
+- [:simple-safari: Safari](https://apps.apple.com/app/id1569813296)
+- [:octicons-browser-16: Web](https://my.1password.com/signin)
 
 </details>
 
 </div>
 
-過去 1Password 僅為 macOS 和 iOS 的用戶提供最佳的密碼管理器用戶體驗，不過它現在已在所有平臺上實現了同等優秀的用戶體驗。 1Password 的用戶端擁有許多面向家庭和不熟悉技術人士的功能，例如直觀的 UI，方便使用和導覽，以及先進的功能。 值得注意的是，1Password 的幾乎所有功能都可在其原生行動或桌面用戶端中使用。
+過去 1Password 僅為 macOS 和 iOS 的用戶提供最佳的密碼管理器用戶體驗，不過它現在已在所有平臺上實現了同等優秀的用戶體驗。 1Password's clients boast many features geared towards families and less technical people, such as an intuitive UI for ease-of-use and navigation, as well as advanced functionality. 值得注意的是，1Password 的幾乎所有功能都可在其原生行動或桌面用戶端中使用。
 
 您的 1Password 儲存庫使用您的主密碼和隨機化的 34 個字元安全金鑰來保護，以加密您在其伺服器上的資料。 此安全金鑰為您的資料添加了一層保護，因為無論您的主密碼如何，資料都受到高熵保護。 許多其他密碼管理器解決方案完全依賴於您的主密碼的強度來保護您的數據。
 
@@ -271,12 +273,12 @@ Proton Pass 行動應用程式和瀏覽器擴充功能於 2023 年 5 月和 6 �
 [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1545581224)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/psono-pw-password-manager)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/eljmjmgjkbmpmfljlmklcfineebidmlo)
 - [:simple-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
 
 </details>
@@ -325,14 +327,14 @@ Psono 為其產品提供廣泛的說明文件。 Psono 的網路用戶端可以�
 [:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title="捐款" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:fontawesome-brands-windows: Windows](https://keepassxc.org/download/#windows)
 - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
 - [:simple-linux: Linux](https://keepassxc.org/download/#linux)
-- [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/oboonakemofpalcgghocfoadofidjkkk)
 
 </details>
 
@@ -346,12 +348,12 @@ KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
 
-**KeePassDX** 是適用於 Android 的輕量級密碼管理器；可在單一檔案中以 KeePass 格式編輯加密資料，並能以安全的方式提供自動填入功能。 應用程式的 [專業版](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) 可讓您解鎖外觀和非標準協定功能；但更重要的是，它有助於並鼓勵開發。
+**KeePassDX** 是適用於 Android 的輕量級密碼管理器；可在單一檔案中以 KeePass 格式編輯加密資料，並能以安全的方式提供自動填入功能。
 
-[:octicons-home-16: 首頁](https://keepassdx.com){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="說明文件" }
-[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title="捐款" }
+[:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -362,6 +364,8 @@ KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-
 </details>
 
 </div>
+
+The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) of the app allows you to unlock cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
 
 ### Gopass (CLI)
 
@@ -390,6 +394,6 @@ KeePassXC 將其匯出資料儲存為 [CSV](https://en.wikipedia.org/wiki/Comma-
 
 ### 標準
 
-**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用專案前先熟悉此清單，並自行進行研究，以確保它是適合您的選擇。
+**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 - 必須跨平台。

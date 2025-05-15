@@ -1,8 +1,8 @@
 ---
-meta_title: Privacy Respecting Health and Wellness apps for Android and iOS - Privacy Guides
-title: Health and Wellness Apps
+meta_title: Privacy-Respecting Health and Wellness apps for Android and iOS - Privacy Guides
+title: Health and Wellness
 icon: material/heart-pulse
-description: These applications are what we currently recommend for all health and fitness-related activites on your phone.
+description: These applications are what we currently recommend for all health- and fitness-related activites on your phone.
 cover: health.webp
 ---
 
@@ -99,7 +99,7 @@ These general purpose apps can do everything from counting steps and tracking sl
 
 <details class="downloads" markdown><summary>Downloads</summary>
 
-- [:simple-android: F-Droid](https://f-droid.org/packages/nodomain.freeyourgadget.gadgetbridge)
+- [:simple-fdroid: F-Droid](https://f-droid.org/packages/nodomain.freeyourgadget.gadgetbridge)
 
 </details>
 
@@ -155,7 +155,7 @@ CommonHealth is only available in the United States. Although the app itself is 
 
 ## Criterios
 
-**Por favor, ten en cuenta que no estamos afiliados a ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
 
 ### Requisitos Mínimos
 

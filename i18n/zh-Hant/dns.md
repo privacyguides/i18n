@@ -85,10 +85,10 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 
 **Control D** 可自訂的 DNS 服務，可在 DNS 層級封鎖安全性威脅、不必要的內容和廣告。 付費方案之外，他們還提供許多可免費使用的預先配置 DNS 解析器。
 
-[:octicons-home-16: 首頁](https://controld.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://controld.com/privacy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://docs.controld.com/docs/getting-started){ .card-link title=說明文件}
-[:octicons-code-16:](https://github.com/Control-D-Inc/ctrld){ .card-link title="原始碼" }
+[:octicons-home-16: Homepage](https://controld.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://controld.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.controld.com/docs/getting-started){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/Control-D-Inc/ctrld){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -112,10 +112,10 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 
 **NextDNS** 為可自訂的 DNS 服務，可在 DNS 層級封鎖安全性威脅、不必要的內容和廣告。 他們提供功能齊全的免費計劃，但使用受限。
 
-[:octicons-home-16: 首頁](https://nextdns.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextdns.io/privacy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://help.nextdns.io){ .card-link title=說明文件}
-[:octicons-code-16:](https://github.com/nextdns/nextdns){ .card-link title="原始碼" }
+[:octicons-home-16: Homepage](https://nextdns.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nextdns.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://help.nextdns.io){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/nextdns/nextdns){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -149,10 +149,10 @@ NextDNS also offers a public DoH service at `https://dns.nextdns.io` and DNS-ove
 
 **RethinkDNS** is an open-source Android client that supports [DoH](advanced/dns-overview.md#dns-over-https-doh), [DoT](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) and DNS Proxy. 它還提供附加功能，例如快取 DNS 回應、本機記錄 DNS 查詢以及使用應用程式作為防火牆。
 
-[:octicons-home-16: 首頁](https://rethinkdns.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://docs.rethinkdns.com){ .card-link title=說明文件}
-[:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="原始碼" }
+[:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://docs.rethinkdns.com){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -174,10 +174,10 @@ While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot
 
 **DNSCrypt-Proxy** is a DNS proxy with support for [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DoH](advanced/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
 
-[:octicons-repo-16: 儲存庫](https://github.com/DNSCrypt/dnscrypt-proxy){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title=說明文件}
-[:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title=捐款 }
+[:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>

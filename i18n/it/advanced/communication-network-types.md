@@ -6,7 +6,7 @@ description: Una panoramica delle diverse architetture di rete, comunemente util
 
 Esistono svariate architetture di rete, utilizzate comunemente per trasmettere messaggi tra persone. Queste reti possono fornire diverse garanzie per la privacy, per cui vale la pena considerare il tuo [modello di minaccia](../basics/threat-modeling.md), decidendo quale app utilizzare.
 
-[Recommended Instant Messengers](../real-time-communication.md ""){.md-button} [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why/ ""){.md-button}
+[Recommended Instant Messengers](../real-time-communication.md ""){.md-button} [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
 
 ## Reti Centralizzate
 

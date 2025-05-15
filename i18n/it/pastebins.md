@@ -17,11 +17,11 @@ cover: pastebins.webp
 
 ![PrivateBin logo](assets/img/pastebins/privatebin.svg){ align=right }
 
-**PrivateBin** is a minimalist, open-source online pastebin where the server has zero knowledge of pasted data. I dati sono crittografati/decrittografati nel browser utilizzando AES a 256 bit. È la versione migliorata di ZeroBin.
+**PrivateBin** is a minimalist, open-source, online pastebin where the server has zero knowledge of pasted data. I dati sono crittografati/decrittografati nel browser utilizzando AES a 256 bit. È la versione migliorata di ZeroBin.
 
 [:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
 [:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
 
 </div>
@@ -49,11 +49,11 @@ cover: pastebins.webp
 ### Requisiti minimi
 
 - Deve essere open source.
-- Deve implementare la crittografia end-to-end "a fiducia zero".
+- Must implement "zero-trust" E2EE.
 - Deve supportare i file protetti da password.
 
 ### Caso migliore
 
 I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto perfetto in questa categoria. I nostri consigli potrebbero non includere tutte o alcune di queste funzionalità, ma quelli che le includono potrebbero essere preferiti ad altri su questa pagina.
 
-- Dovrebbe disporre di un controllo pubblicato da una terza parte affidabile e indipendente.
+- Should have a published audit from a reputable, independent third party.

@@ -6,7 +6,7 @@ description: Una visión general de varias arquitecturas de red comúnmente util
 
 Existen varias arquitecturas de red utilizadas habitualmente para transmitir mensajes entre personas. Estas redes pueden ofrecer diferentes garantías de privacidad, por lo que conviene tener en cuenta tu [modelo de amenaza](../basics/threat-modeling.md) a la hora de decidir qué aplicación utilizar.
 
-[Recommended Instant Messengers](../real-time-communication.md ""){.md-button} [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why/ ""){.md-button}
+[Recommended Instant Messengers](../real-time-communication.md ""){.md-button} [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
 
 ## Redes centralizadas
 

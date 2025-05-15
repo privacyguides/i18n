@@ -32,12 +32,12 @@ cover: data-redaction.webp
 [:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
-- [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2)
+- [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2#metadata-and-privacy)
 - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
 - [:simple-linux: Linux](https://pypi.org/project/mat2)
-- [:octicons-globe-16: 網頁版](https://0xacab.org/jvoisin/mat2#web-interface)
+- [:octicons-globe-16: Web](https://0xacab.org/jvoisin/mat2#web-interface)
 
 </details>
 
@@ -51,10 +51,10 @@ cover: data-redaction.webp
 
 **ExifEraser** 是 Android 的現代無需許可的圖像中繼資料擦除應用程式。
 
-它目前支援JPEG ， PNG和WebP 檔案格式。
+It currently supports JPEG, PNG, and WebP files.
 
-[:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .card-link title="Documentation" }
+[:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#description){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>

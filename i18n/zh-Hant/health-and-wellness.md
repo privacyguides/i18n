@@ -1,8 +1,8 @@
 ---
-meta_title: 尊重隱私的 Android 和 iOS 健康應用程式 - Privacy Guides
-title: 健康與保健
+meta_title: Privacy-Respecting Health and Wellness apps for Android and iOS - Privacy Guides
+title: Health and Wellness
 icon: material/heart-pulse
-description: 我們目前建議您在手機上使用這些應用程式來處理所有與健康相關的事務。
+description: These applications are what we currently recommend for all health- and fitness-related activites on your phone.
 cover: health.webp
 ---
 
@@ -99,7 +99,7 @@ These general purpose apps can do everything from counting steps and tracking sl
 
 <details class="downloads" markdown><summary>Downloads</summary>
 
-- [:simple-android: F-Droid](https://f-droid.org/packages/nodomain.freeyourgadget.gadgetbridge)
+- [:simple-fdroid: F-Droid](https://f-droid.org/packages/nodomain.freeyourgadget.gadgetbridge)
 
 </details>
 
@@ -155,7 +155,7 @@ CommonHealth is only available in the United States. Although the app itself is 
 
 ## 標準
 
-\*\*請注意，我們與推薦的任何項目均無關。\*\*除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 ### 最低合格要求
 

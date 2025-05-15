@@ -12,7 +12,7 @@ In fin dei conti la privacy riguarda le informazioni umane, ed è importante per
 
 In molti confondono i concetti di **privacy**, **sicurezza** e **anonimato**. Vedrai persone criticare vari prodotti come "non privati", quando in realtà intendono che non forniscono, ad esempio, anonimato. Su questo sito web, copriamo tutti e tre gli argomenti, ma è importante che tu ne comprenda le differenze, nonché quando ognuno di essi entra in gioco.
 
-[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security/ ""){.md-button}
+[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security ""){.md-button}
 
 <!-- markdownlint-disable-next-line -->
 **Privacy**
@@ -58,7 +58,7 @@ Ad esempio, considera i moduli di consenso per i cookie. Potresti incontrarli do
 
 La privacy dev'essere integrata nei [software e servizi](../tools.md) che utilizziamo di default, non puoi rendere private gran parte delle app, da solo.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 
 ## Fonti
 

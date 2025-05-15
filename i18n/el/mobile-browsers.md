@@ -202,7 +202,7 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 
 #### Brave Sync
 
-Το [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) επιτρέπει στα δεδομένα περιήγησής σας (ιστορικό, σελιδοδείκτες κ. λπ.) να είναι προσβάσιμα σε όλες τις συσκευές σας χωρίς να απαιτείται λογαριασμός και τα προστατεύει με κρυπτογράφηση από άκρο σε άκρο.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
 ## Cromite (Android)
 
@@ -304,7 +304,7 @@ This prevents Siri from using content from Safari for Siri suggestions.
 
 - [ ] Disable **Search Engine Suggestions**
 
-This setting sends whatever you type in the address bar to the search engine set in Safari. Η απενεργοποίηση των προτάσεων αναζήτησης σας επιτρέπει να ελέγχετε με μεγαλύτερη ακρίβεια τα δεδομένα που στέλνετε στον πάροχο της μηχανής αναζήτησης.
+This setting sends whatever you type in the address bar to the search engine set in Safari. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
 
 #### Profiles
 

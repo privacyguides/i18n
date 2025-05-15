@@ -11,7 +11,7 @@ cover: cloud.webp
 - [:material-bug-outline: Ataques pasivos](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: Proveedores de servicios](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-Muchos **proveedores de almacenamiento en la nube** exigen que confíes plenamente en que no mirarán tus archivos. Las alternativas enumeradas a continuación eliminan la necesidad de confianza mediante la implementación de E2EE seguros.
+Muchos **proveedores de almacenamiento en la nube** exigen que confíes plenamente en que no mirarán tus archivos. The alternatives listed below eliminate the need for trust by implementing secure end-to-end encryption.
 
 Si estas alternativas no se ajustan a tus necesidades, te sugerimos que busques utilizar un software de encriptación como [Cryptomator](encryption.md#cryptomator-cloud) con otro proveedor en la nube. Utilizar Cryptomator junto con **cualquier** proveedor de la nube(incluidos estos) puede ser una buena idea para reducir el riesgo de fallos de cifrado en los clientes nativos de un proveedor.
 
@@ -28,7 +28,9 @@ Nextcloud [sigue siendo una herramienta recomendada](document-collaboration.md#n
 
 ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
 
-**Proton Drive** es un proveedor de almacenamiento cifrado en la nube del popular proveedor de correo electrónico cifrado [Proton Mail](email.md#proton-mail). The initial free storage is limited to 2 GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5 GB.
+**Proton Drive** es un proveedor de almacenamiento cifrado en la nube del popular proveedor de correo electrónico cifrado [Proton Mail](email.md#proton-mail).
+
+The initial free storage is limited to 2 GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5 GB.
 
 [:octicons-home-16: Página Principal](https://proton.me/drive){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/drive/privacy-policy){ .card-link title="Política de Privacidad" }
@@ -47,9 +49,7 @@ Nextcloud [sigue siendo una herramienta recomendada](document-collaboration.md#n
 
 </div>
 
-La aplicación web de Proton Drive ha sido auditada de forma independiente por Securitum en [2021](https://proton.me/community/open-source).
-
-Los nuevos clientes móviles de Proton Drive aún no han sido auditados públicamente por terceros.
+The Proton Drive web application has been independently audited by Securitum in [2021](https://proton.me/community/open-source), but the brand new mobile clients have not yet been publicly audited by a third party.
 
 ## Tresorit
 
@@ -76,17 +76,19 @@ Los nuevos clientes móviles de Proton Drive aún no han sido auditados pública
 
 </div>
 
-Tresorit ha recibido varias auditorías de seguridad independientes:
+Tresorit has received a number of independent security audits:
 
 - [2022](https://tresorit.com/blog/tresorit-receives-iso-27001-certification): ISO/IEC 27001:2013[^1][Certificación de](https://certipedia.com/quality_marks/9108644476) Conformidad por TÜV Rheinland InterCert Kft
 - [2021](https://tresorit.com/blog/fresh-penetration-testing-confirms-tresorit-security): Pruebas de Penetración por Computest
     - Esta revisión evaluó la seguridad del cliente web Tresorit, la aplicación Android, la aplicación Windows y la infraestructura asociada.
     - Computest descubrió dos vulnerabilidades que ya han sido resueltas.
-- [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture): Pruebas de Penetración por Ernst & Young.
+- [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture): Penetration Testing by Ernst & Young.
     - En esta revisión se analizó el código fuente completo de Tresorit y se validó que la implementación coincide con los conceptos descritos en el [libro blanco](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf) de Tresorit.
-    - Ernst & Young probó además los clientes web, móvil y de escritorio: "Los resultados de las pruebas no encontraron ninguna desviación de las afirmaciones de confidencialidad de datos de Tresorit".
+    - Ernst & Young additionally tested the web, mobile, and desktop clients. They concluded:
 
-También han recibido el Digital Trust Label, una certificación de la [Swiss Digital Initiative](https://efd.admin.ch/en/swiss-digital-initiative-en) que exige superar [35 criterios](https://swiss-digital-initiative.org/criteria) relacionados con la seguridad, la privacidad y la fiabilidad.
+        > Test results found no deviation from Tresorit’s data confidentiality claims.
+
+They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://efd.admin.ch/en/swiss-digital-initiative-en) which requires passing [35 criteria](https://swiss-digital-initiative.org/criteria) related to security, privacy, and reliability.
 
 ## Peergos
 
@@ -130,7 +132,7 @@ Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November
 
 ### Requisitos Mínimos
 
-- Debe aplicar el cifrado de extremo a extremo.
+- Must enforce E2EE.
 - Debe ofrecer un plan gratuito o un periodo de prueba.
 - Must support TOTP or FIDO2 multifactor authentication, or passkey logins.
 - Debe ofrecer una interfaz web que admita funciones básicas de gestión de archivos.
@@ -141,10 +143,10 @@ Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November
 Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto perfecto en esta categoría. Es posible que nuestras recomendaciones no incluyan todas o algunas de estas funciones, pero las que sí las incluyan pueden estar mejor clasificadas que otras en esta página.
 
 - Los clientes deben ser de código abierto.
-- Los clientes deben ser auditados en su totalidad por un tercero independiente.
+- Clients should be audited in their entirety by an independent third party.
 - Debe ofrecer clientes nativos para Linux, Android, Windows, macOS e iOS.
     - Estos clientes deben integrarse con las herramientas nativas del sistema operativo para los proveedores de almacenamiento en la nube, como la integración de la aplicación Files en iOS, o la funcionalidad DocumentsProvider en Android.
-- Debe permitir compartir archivos fácilmente con otros usuarios.
+- Should support easy file sharing with other users.
 - Debe ofrecer al menos funciones básicas de previsualización y edición de archivos en la interfaz web.
 
 [^1]: [El cumplimiento de la norma ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001):2013 se refiere al sistema de gestión de la seguridad de la información de la empresa [](https://en.wikipedia.org/wiki/Information_security_management) y abarca la venta, el desarrollo, el mantenimiento y la asistencia de sus servicios en la nube.

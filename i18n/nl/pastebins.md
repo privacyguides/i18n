@@ -17,11 +17,11 @@ cover: pastebins.webp
 
 ![PrivateBin logo](assets/img/pastebins/privatebin.svg){ align=right }
 
-**PrivateBin** is a minimalist, open-source online pastebin where the server has zero knowledge of pasted data. Gegevens worden in de browser versleuteld/ontsleuteld met 256-bit AES. Het is de verbeterde versie van ZeroBin.
+**PrivateBin** is a minimalist, open-source, online pastebin where the server has zero knowledge of pasted data. Gegevens worden in de browser versleuteld/ontsleuteld met 256-bit AES. Het is de verbeterde versie van ZeroBin.
 
 [:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
 [:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
 
 </div>
@@ -49,11 +49,11 @@ cover: pastebins.webp
 ### Minimale vereisten
 
 - Moet open source zijn.
-- End-to-end versleuteling, "zero-trust", moet worden geïmplementeerd.
+- Must implement "zero-trust" E2EE.
 - Moet wachtwoordbeveiligde bestanden ondersteunen.
 
 ### Beste geval
 
 Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte project in deze categorie. Het is mogelijk dat onze aanbevelingen geen of niet alle functies bevatten, maar degene die dat wel doen kunnen hoger gerangschikt worden dan andere op deze pagina.
 
-- Moet een gepubliceerde audit hebben van een gerenommeerde, onafhankelijke derde partij.
+- Should have a published audit from a reputable, independent third party.

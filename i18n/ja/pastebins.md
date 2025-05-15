@@ -17,11 +17,11 @@ cover: pastebins.webp
 
 ![PrivateBin logo](assets/img/pastebins/privatebin.svg){ align=right }
 
-**PrivateBin** is a minimalist, open-source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256-bit AES. PrivateBinはZeroBinの改良版です。
+**PrivateBin** is a minimalist, open-source, online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256-bit AES. PrivateBinはZeroBinの改良版です。
 
 [:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
 [:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
 
 </div>
@@ -49,11 +49,11 @@ cover: pastebins.webp
 ### 最低要件
 
 - オープンソースであること。
-- 「ゼロトラスト」のエンドツーエンド暗号化を実装すること。
+- Must implement "zero-trust" E2EE.
 - パスワードで保護されたファイルをサポートすること。
 
 ### 満たされることが望ましい基準
 
 満たされることが望ましい基準には、このカテゴリーの完璧なプロジェクトに私たちが望むものを示しています。 私たちが推薦するプロジェクトは、この機能の一部または全部を含んでいないかもしれませんが、もし含んでいれば、このページで他のプロジェクトよりも上位にランクされるかもしれません。
 
-- Should have a published audit from a reputable, independent third-party.
+- Should have a published audit from a reputable, independent third party.

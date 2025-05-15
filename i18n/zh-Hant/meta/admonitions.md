@@ -3,7 +3,7 @@ title: 提醒
 description: 網站撰稿人建立提醒的指南。
 ---
 
-**提醒**（或「補充說明」）是寫作者可以在文章中加入額外內容的選項，而不會影響文章的整體流暢度。
+**Admonitions** (or "call-outs") are tools that writers can use to include side content in an article without interrupting the document flow.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">提醒範例</p>
@@ -41,7 +41,7 @@ description: 網站撰稿人建立提醒的指南。
 </details>
 ```
 
-必須指定`TITLE`，如果不想要特定的標題，可以將其設置為與`TYPE` (請見下方) 相同的文字，並採用首字母大寫格式，例如`Note`。 `內文`必須使用 Markdown 格式。
+The `TITLE` must be specified; if you don't want a specific title you can set it to the same text as the `TYPE` (see below) in title case, e.g. `Note`. `內文`必須使用 Markdown 格式。
 
 ### 一般類型
 
@@ -166,11 +166,11 @@ description: 網站撰稿人建立提醒的指南。
 
 ![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
+**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
 
 [:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Documentation}
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -189,11 +189,11 @@ description: 網站撰稿人建立提醒的指南。
 
 ![PhotoPrism logo](../assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
+**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
 
 [:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Documentation}
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -209,7 +209,7 @@ description: 網站撰稿人建立提醒的指南。
 
 #### `downloads`
 
-這是特別的可摺疊式提醒，用來產生下載連結區塊。 只與推薦卡一起使用，如上面的範例。
+This is a special type of collapsible admonition which is used to generate sections containing download links. 只與推薦卡一起使用，如上面的範例。
 
 ```markdown title="Downloads Section"
 <details class="downloads" markdown>
@@ -217,7 +217,7 @@ description: 網站撰稿人建立提醒的指南。
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
-- [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
+- [:simple-github: GitHub](https://github.com/ProtonMail/android-mail/releases)
 - [:fontawesome-brands-windows: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
 - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
@@ -233,7 +233,7 @@ description: 網站撰稿人建立提醒的指南。
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
-- [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
+- [:simple-github: GitHub](https://github.com/ProtonMail/android-mail/releases)
 - [:fontawesome-brands-windows: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
 - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
@@ -245,7 +245,7 @@ description: 網站撰稿人建立提醒的指南。
 
 ## 舊格式
 
-在網站中，您可能會看到一些格式與以下示範例類似的提醒內容：
+Throughout the site, you may see some admonitions formatted like the following examples:
 
 ```markdown title="Admonition"
 !!! note
@@ -289,6 +289,6 @@ massa, nec semper lorem quam in massa.
 
 </div>
 
-**這個格式已不再被使用**，因為它不相容於 Crowdin 上面新版的翻譯軟體。 當您在網站上新增頁面時，只使用基於 HTML 的較新格式。
+**This format is no longer used going forward** because it is incompatible with newer versions of our translation software at Crowdin. When adding a new page to the site, only the newer, HTML-based format should be used.
 
-舊格式的提醒內容暫時不需要急著轉換成新格式。 目前使用這個格式的網頁應該會繼續運作，但隨著網站更新，我們將會持續更新至基於 HTML 的較新格式。
+舊格式的提醒內容暫時不需要急著轉換成新格式。 Pages currently using this formatting should continue to work, but we will be updating them to use the newer, HTML-based format above over time as we continue to update the site.

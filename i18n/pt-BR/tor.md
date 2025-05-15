@@ -31,7 +31,7 @@ schema:
 
 A rede **Tor** é um grupo de servidores operados por voluntários que permite que você se conecte gratuitamente para melhorar a sua privacidade e segurança na Internet. Os indivíduos e organizações também podem compartilhar informações através da rede Tor com "serviços ocultos .onion", sem comprometer sua privacidade. Como o tráfego do Tor é difícil de bloquear e rastrear, o Tor é uma ferramenta eficaz para contornar a censura.
 
-[Uma visão geral do navegador Tor :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: Video: Por que você precisa do Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor/ ""){.md-button}
+[Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Dica</p>
@@ -42,7 +42,7 @@ Antes de se conectar ao Tor, certifique-se de ler nosso [overview](advanced/tor-
 
 Há uma variedade de maneiras de se conectar à rede Tor a partir do seu dispositivo, o mais utilizado é o **Navegador Tor**, um fork do Firefox projetado para [:material-incognito: anônimo](basics/common-threats.md#anonymity-vs-privacy ""){.pg-purple} navegação para computadores de computador e Android.
 
-Alguns desses aplicativos são melhores do que outros, e novamente fazer uma determinação equivale ao seu modelo de ameaça. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using mobile browser apps like [Onion Browser](#onion-browser-ios) to access the Tor network is probably fine. Aumentar o número de pessoas que usam Tor todos os dias ajuda a reduzir o mau estigma do Tor, e diminui a qualidade das "listas de usuários de Tor" que os ISPs e os governos podem compilar.
+Some of these apps are better than others; making a determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using mobile browser apps like [Onion Browser](#onion-browser-ios) to access the Tor network is probably fine. Aumentar o número de pessoas que usam Tor todos os dias ajuda a reduzir o mau estigma do Tor, e diminui a qualidade das "listas de usuários de Tor" que os ISPs e os governos podem compilar.
 
 Se o anonimato mais completo for fundamental para a sua situação, você deve somente **** utilizar o cliente do navegador Tor para área de trabalho, idealmente em uma configuração de [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os). Navegadores móveis com acesso à rede Tor são escolhas menos comuns (e mais rastreáveis) para o usuário final, algumas de suas configurações não passaram por testes de segurança e desanimalização.
 
@@ -52,13 +52,13 @@ Se o anonimato mais completo for fundamental para a sua situação, você deve s
 
 ![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
 
-O **Navegador Tor** é a melhor opção se você quer anonimato, pois ele fornece acesso à rede Tor e pontes, e inclui configurações padrão e extensões que são configuradas automaticamente pelos níveis de segurança: *Padrão*, *Mais seguro* e *O Mais Seguro*.
+**Tor Browser** is the top choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
 
-[:octicons-home-16: Página inicial](https://torproject.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Serviço Onion }
-[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title=Documentação }
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Código Fonte" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title=Contribuir }
+[:octicons-home-16: Homepage](https://torproject.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title="Documentation" }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -80,7 +80,7 @@ Você nunca deve instalar outras extensões no Navegador Tor ou editar as config
 
 </div>
 
-O Navegador Tor foi projetado para evitar a coleta de suas "impressões digitais" ou a identificação do usuário com base na configuração do navegador. Portanto, é imperativo que você **não** modifique o navegador além do padrão de níveis de segurança [](https://tb-manual.torproject.org/security-settings). When modifying the security level setting, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw/), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
+O Navegador Tor foi projetado para evitar a coleta de suas "impressões digitais" ou a identificação do usuário com base na configuração do navegador. Portanto, é imperativo que você **não** modifique o navegador além do padrão de níveis de segurança [](https://tb-manual.torproject.org/security-settings). When modifying the security level setting, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
 
 Além de instalar o Navegador Tor diretamente no seu computador, existem também sistemas operacionais projetados especificamente para se conectar à rede Tor, como [Whonix](desktop.md#whonix) na [Qubes OS](desktop.md#qubes-os), que oferecem segurança e proteção ainda maiores do que o Navegador Tor padrão sozinho.
 
@@ -90,13 +90,15 @@ Além de instalar o Navegador Tor diretamente no seu computador, existem também
 
 ![Logotipo do navegador Onion](assets/img/self-contained-networks/onion_browser.svg){ align=right }
 
-**Onion Browser** é um navegador de código aberto que permite que você navegue na web anonimamente sobre a rede Tor em dispositivos iOS e é endossado pelo [Projeto Tor](https://support.torproject.org/glossary/onion-browser). [:material-star-box: Leia a nossa última análise do Onion Browser.](/articles/2024/09/18/onion-browser-review)
+**Onion Browser** é um navegador de código aberto que permite que você navegue na web anonimamente sobre a rede Tor em dispositivos iOS e é endossado pelo [Projeto Tor](https://support.torproject.org/glossary/onion-browser).
 
-[:octicons-home-16: Página Inicial](https://onionbrowser.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Política de Privacidade }
-[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title=Documentação}
-[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Código Fonte" }
-[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title=Contribua com o projeto }
+[:material-star-box: Read our latest Onion Browser review.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
+
+[:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

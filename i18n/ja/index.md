@@ -114,6 +114,6 @@ schema:
 
 プライバシー、セキュリティ、匿名性は混同されることが多いです。 例えば、ある製品が匿名性を提供していないという意味で「プライベートではない」と批判する人々がいます。 このウェブサイトでは、これら3つのトピックすべてを取り上げます。まず、それぞれの違いを理解しましょう。
 
-[:material-movie-open-play-outline: 動画：プライバシーを改善する5つのステップ](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 </div>
 </div>

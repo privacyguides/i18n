@@ -128,14 +128,14 @@ schema:
 
 **Passwort-Manager** ermöglichen die sichere Speicherung und Verwaltung von Passwörtern und anderen Anmeldeinformationen unter Verwendung eines Master-Passworts.
 
-[Einführung in Passwörter :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
+[Einführung in Passwörter :material-arrow-right-drop-circle:](basics/passwords-overview.md)
 
 <div class="admonition info" markdown>
 <p class="admonition-title">Info</p>
 
 Integrierte Passwortmanager in Software wie Browsern und Betriebssystemen sind manchmal nicht so gut wie spezielle Passwortmanager-Software. Der Vorteil eines integrierten Passwortmanagers ist die gute Integration in die Software, aber er ist oft sehr einfach und verfügt nicht über die Datenschutz- und Sicherheitsfunktionen, die eigenständige Angebote bieten.
 
-Der Passwort-Manager in Microsoft Edge bietet zum Beispiel überhaupt kein E2EE. Googles Passwortmanager hat [optional](https://support.google.com/accounts/answer/11350823) E2EE, und [Apples](https://support.apple.com/HT202303) bietet standardmäßig E2EE.
+For example, the password manager in Microsoft Edge doesn't offer end-to-end encryption at all. Googles Passwortmanager hat [optional](https://support.google.com/accounts/answer/11350823) E2EE, und [Apples](https://support.apple.com/HT202303) bietet standardmäßig E2EE.
 
 </div>
 
@@ -163,19 +163,19 @@ Diese Passwort-Manager synchronisieren deine Passwörter mit einem Cloud-Server,
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1137397744)
 - [:simple-github: GitHub](https://github.com/bitwarden/android/releases)
 - [:fontawesome-brands-windows: Windows](https://bitwarden.com/download)
-- [:simple-apple: macOS](https://bitwarden.com/de-de/download/)
-- [:simple-linux: Linux](https://bitwarden.com/de-de/download/)
+- [:simple-apple: macOS](https://bitwarden.com/download)
+- [:simple-linux: Linux](https://bitwarden.com/download)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/com.bitwarden.desktop)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/bitwarden-password-manager)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/nngceckbapebfimnlniiiahkandclblb)
 - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
-- [:simple-safari: Safari](https://apps.apple.com/de/app/bitwarden/id1352778147)
+- [:simple-safari: Safari](https://apps.apple.com/app/id1352778147)
 
 </details>
 
 </div>
 
-Bitwarden verwendet standardmäßig [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) als Schlüsselableitungsalgorithmus (KDF). Als Alternative bietet es auch das sicherere [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id) an. Du kannst den KDF-Algorithmus deines Kontos im Web-Tresor ändern.
+Bitwarden verwendet standardmäßig [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) als Schlüsselableitungsalgorithmus (KDF). Als Alternative bietet es auch das sicherere [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id) an. You can change your account's KDF algorithm in the web vault:
 
 - [x] Wähle **Einstellungen > Sicherheit > Schlüssel > KDF-Algorithmus > Argon2id**
 
@@ -204,11 +204,11 @@ Der serverseitige Code von Bitwarden ist [quelloffen](https://github.com/bitward
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=proton.android.pass)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/proton-pass-password-manager/id6443490629)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id6443490629)
 - [:fontawesome-brands-windows: Windows](https://proton.me/pass/download)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/proton-pass)
-- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
-- [:fontawesome-brands-edge: Edge](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
+- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/ghmbeldphafepmbegfdlkpapadhbakde)
+- [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/gcllgfdnfnllodcaambdaknbipemelie)
 - [:octicons-browser-16: Web](https://pass.proton.me)
 
 </details>
@@ -229,7 +229,9 @@ Alle Probleme wurden kurz nach dem [Bericht](https://res.cloudinary.com/dbulfrlr
 
 ![1Password Logo](assets/img/password-management/1password.svg){ align=right }
 
-**1Password** ist ein Passwortmanager mit einem starken Fokus auf Sicherheit und Benutzerfreundlichkeit, der es dir ermöglicht, Passwörter, Schlüssel, Kreditkarten, Softwarelizenzen und andere sensible Informationen in einem sicheren digitalen Tresor zu speichern. Dein Tresor wird auf den Servern von 1Password gegen eine [monatliche Gebühr] (https://1password.com/sign-up) gehostet. 1Password wird regelmäßig [geprüft] (https://support.1password.com/security-assessments) und bietet einen hervorragenden Kundensupport. 1Password ist ein Closed-Source-Produkt; die Sicherheit des Produkts ist jedoch in ihrem [Sicherheits-Whitepaper](https://1passwordstatic.com/files/security/1password-white-paper.pdf) ausführlich dokumentiert.
+**1Password** ist ein Passwortmanager mit einem starken Fokus auf Sicherheit und Benutzerfreundlichkeit, der es dir ermöglicht, Passwörter, Schlüssel, Kreditkarten, Softwarelizenzen und andere sensible Informationen in einem sicheren digitalen Tresor zu speichern. Dein Tresor wird auf den Servern von 1Password gegen eine [monatliche Gebühr] (https://1password.com/sign-up) gehostet.
+
+1Password wird regelmäßig [geprüft] (https://support.1password.com/security-assessments) und bietet einen hervorragenden Kundensupport. 1Password ist ein Closed-Source-Produkt; die Sicherheit des Produkts ist jedoch in ihrem [Sicherheits-Whitepaper](https://1passwordstatic.com/files/security/1password-white-paper.pdf) ausführlich dokumentiert.
 
 [:octicons-home-16: Homepage](https://1password.com/de){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://1password.com/de/legal/privacy){ .card-link title="Datenschutzerklärung" }
@@ -244,16 +246,16 @@ Alle Probleme wurden kurz nach dem [Bericht](https://res.cloudinary.com/dbulfrlr
 - [:simple-apple: macOS](https://1password.com/downloads/mac)
 - [:simple-linux: Linux](https://1password.com/downloads/linux)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/1password-x-password-manager)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
 - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/dppgmdbiimibapkepcbdbmkaabgiofem)
-- [:simple-safari: Safari](https://apps.apple.com/us/app/1password-for-safari/id1569813296)
+- [:simple-safari: Safari](https://apps.apple.com/app/id1569813296)
 - [:octicons-browser-16: Web](https://my.1password.com/signin)
 
 </details>
 
 </div>
 
-Traditionell bot 1Password das beste Benutzererlebnis von Passwort-Managern für Menschen, die macOS und iOS nutzen; jedoch hat es nun Funktionsparität auf allen Plattformen erreicht. Die Clients von 1Password verfügen über viele Funktionen, die sich an Familien und technisch weniger versierte Personen richten, wie z. B. eine intuitive Benutzeroberfläche für einfache Bedienung und Navigation sowie erweiterte Funktionen. Nahezu jede Funktion von 1Password ist in den nativen mobilen oder Desktop-Clients verfügbar.
+Traditionell bot 1Password das beste Benutzererlebnis von Passwort-Managern für Menschen, die macOS und iOS nutzen; jedoch hat es nun Funktionsparität auf allen Plattformen erreicht. 1Password's clients boast many features geared towards families and less technical people, such as an intuitive UI for ease-of-use and navigation, as well as advanced functionality. Nahezu jede Funktion von 1Password ist in den nativen mobilen oder Desktop-Clients verfügbar.
 
 Dein 1Password-Tresor ist sowohl mit deinem Master-Passwort als auch mit einem zufälligen 34-Zeichen-Sicherheitsschlüssel zur Verschlüsselung deiner Daten auf den Servern von 1Password gesichert. Dieser Sicherheitsschlüssel bietet einen zusätzlichen Schutz für deine Daten, da deine Daten unabhängig von deinem Master-Kennwort mit hoher Entropie gesichert sind. Viele andere Passwortmanager-Lösungen verlassen sich bei der Sicherung deiner Daten ausschließlich auf die Stärke deines Master-Passworts.
 
@@ -276,7 +278,7 @@ Dein 1Password-Tresor ist sowohl mit deinem Master-Passwort als auch mit einem z
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1545581224)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/psono-pw-password-manager)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/eljmjmgjkbmpmfljlmklcfineebidmlo)
 - [:simple-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
 
 </details>
@@ -330,9 +332,9 @@ Mit diesen Optionen kannst du eine verschlüsselte Kennwortdatenbank lokal verwa
 - [:fontawesome-brands-windows: Windows](https://keepassxc.org/download/#windows)
 - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
 - [:simple-linux: Linux](https://keepassxc.org/download/#linux)
-- [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/oboonakemofpalcgghocfoadofidjkkk)
 
 </details>
 
@@ -346,12 +348,12 @@ KeePassXC speichert seine Exportdaten als [CSV-Dateien](https://en.wikipedia.org
 
 ![KeePassDX Logo](assets/img/password-management/keepassdx.svg){ align=right }
 
-**KeePassDX** ist ein leichtgewichtiger Passwort-Manager für Android. Er ermöglicht das Bearbeiten von verschlüsselten Daten in einer einzelnen Datei im KeePass-Format und kann Formulare sicher ausfüllen. Die [Pro-Version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) der App ermöglicht es dir, kosmetische Inhalte und nicht standardmäßige Protokollfunktionen freizuschalten, aber noch wichtiger ist, dass sie die Entwicklung unterstützt und fördert.
+**KeePassDX** ist ein leichtgewichtiger Passwort-Manager für Android. Er ermöglicht das Bearbeiten von verschlüsselten Daten in einer einzelnen Datei im KeePass-Format und kann Formulare sicher ausfüllen.
 
 [:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="Dokumentation" }
-[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Quellcode" }
-[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title="Spenden" }
+[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -362,6 +364,8 @@ KeePassXC speichert seine Exportdaten als [CSV-Dateien](https://en.wikipedia.org
 </details>
 
 </div>
+
+The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) of the app allows you to unlock cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
 
 ### Gopass (CLI)
 
@@ -390,6 +394,6 @@ KeePassXC speichert seine Exportdaten als [CSV-Dateien](https://en.wikipedia.org
 
 ### Kriterien
 
-**Bitte beachte, dass wir mit keinem der Projekte, die wir empfehlen, in Verbindung stehen.** Zusätzlich zu unseren [Standardkriterien](about/criteria.md) haben wir eine Reihe klarer Anforderungen entwickelt, die es uns ermöglichen, objektive Empfehlungen zu geben. Wir empfehlen dir, dich mit der Liste vertraut zu machen, bevor du dich für ein Projekt entscheidest, und deine eigenen Recherchen anzustellen, um sicherzustellen, dass es die richtige Wahl für dich ist.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 - Muss plattformübergreifend sein.

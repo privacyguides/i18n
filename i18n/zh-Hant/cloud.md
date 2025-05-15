@@ -11,7 +11,7 @@ cover: cloud.webp
 - [:material-bug-outline: 被動攻擊](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-**許多雲端儲存提供商** 要求您完全信任他們不會查看您的檔案。 下面列出的替代方案通過實施安全的 E2EE，消除了對信任的需要。
+**許多雲端儲存提供商** 要求您完全信任他們不會查看您的檔案。 The alternatives listed below eliminate the need for trust by implementing secure end-to-end encryption.
 
 如果這些替代方案不符合您的需求，建議您考慮使用其他雲端提供商的加密軟體，例如 [Cryptomator](encryption.md#cryptomator-cloud) 。 把 Cryptomator 結合在 **任一種** 雲服務商(包含這裡推薦的) 也是好方法，可減低某服務商原生客戶端加密漏洞之風險。
 
@@ -28,7 +28,9 @@ Nextcloud [仍是](document-collaboration.md#nextcloud) 自我託管檔案管理
 
 ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
 
-**Proton Drive** 是一個加密雲端儲存提供商，由經營廣受歡迎的加密電子郵件 [Proton Mail](email.md#proton-mail) 的提供商推出。 The initial free storage is limited to 2 GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5 GB.
+**Proton Drive** 是一個加密雲端儲存提供商，由經營廣受歡迎的加密電子郵件 [Proton Mail](email.md#proton-mail) 的提供商推出。
+
+The initial free storage is limited to 2 GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5 GB.
 
 [:octicons-home-16: 首頁](https://proton.me/drive){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/drive/privacy-policy){ .card-link title="隱私權政策" }
@@ -47,9 +49,7 @@ Nextcloud [仍是](document-collaboration.md#nextcloud) 自我託管檔案管理
 
 </div>
 
-Proton Drive 網路應用程式已於 [2021](https://proton.me/community/open-source) 接受了 Securitum 獨立審核。
-
-Proton Drive 全新移動客戶端軟體尚未經過第三方公開審核。
+The Proton Drive web application has been independently audited by Securitum in [2021](https://proton.me/community/open-source), but the brand new mobile clients have not yet been publicly audited by a third party.
 
 ## Tresorit
 
@@ -76,7 +76,7 @@ Proton Drive 全新移動客戶端軟體尚未經過第三方公開審核。
 
 </div>
 
-Tresorit 已獲得多項獨立安全稽核：
+Tresorit has received a number of independent security audits:
 
 - [2022](https://tresorit.com/blog/tresorit-receives-iso-27001-certification): ISO/IEC 27001:2013[^1] Compliance [Certification](https://certipedia.com/quality_marks/9108644476) by TÜV Rheinland InterCert Kft
 - [2021](https://tresorit.com/blog/fresh-penetration-testing-confirms-tresorit-security): Penetration Testing by Computest
@@ -84,9 +84,11 @@ Tresorit 已獲得多項獨立安全稽核：
     - Computest 發現了兩個已解決的漏洞。
 - [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture): Penetration Testing by Ernst & Young.
     - 該檢測分析了 Tresorit 完整源代碼，並驗證了落實 Tresorit [白皮書](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf)中描述的概念。
-    - Ernst & Young 還測試了網路、行動和桌面客戶端： “測試結果發現沒有偏離 Tresorit 的資料機密性聲明。
+    - Ernst & Young additionally tested the web, mobile, and desktop clients. They concluded:
 
-他們還獲得了數位信任標籤（Digital Trust Label），這是 [Swiss Digital Initiative](https://efd.admin.ch/en/swiss-digital-initiative-en) 發出的認證，要求通過[35 項](https://swiss-digital-initiative.org/criteria)與安全性、隱私性和可靠性相關的標準。
+        > Test results found no deviation from Tresorit’s data confidentiality claims.
+
+They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://efd.admin.ch/en/swiss-digital-initiative-en) which requires passing [35 criteria](https://swiss-digital-initiative.org/criteria) related to security, privacy, and reliability.
 
 ## Peergos
 
@@ -126,11 +128,11 @@ Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November
 
 ## 標準
 
-**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
+**請注意，我們與推薦的任何項目均無關。**除了[我們的通用標準](about/criteria.md)外，我們還制定了一套明確的要求，以便我們能夠提供客觀的建議。 我們建議您在選擇使用項目之前先熟悉此列表，並進行自己的研究，以確保它是您的正確選擇。
 
 ### 最低合格要求
 
-- 必須執行端對端加密。
+- Must enforce E2EE.
 - 必須提供免費計劃或試用期以進行測試。
 - Must support TOTP or FIDO2 multifactor authentication, or passkey logins.
 - 必須提供支援基本檔案管理功能的網頁介面。
@@ -141,10 +143,10 @@ Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November
 最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
 - 客戶端應是開源的。
-- 客戶端軟體應由獨立的第三方進行全面審計。
+- Clients should be audited in their entirety by an independent third party.
 - 應提供 Linux、Android、Windows、macOS 和 iOS 的原生客戶端。
     - 這些用戶端應與雲端儲存供應商的原生作業系統工具整合，例如整合 iOS 的 Files app，或 Android 的 DocumentsProvider 功能。
-- 容易與其他用戶輕鬆共享文件。
+- Should support easy file sharing with other users.
 - 至少在網頁界面應提供基本的文件預覽和編輯功能。
 
 [^1]: [ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001): 2013合規性涉及公司的 [資訊安全管理系統](https://en.wikipedia.org/wiki/Information_security_management) ，涵蓋其雲端服務的銷售、開發、維護和支援。

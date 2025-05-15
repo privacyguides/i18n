@@ -114,6 +114,6 @@ In the modern age of digital data exploitation, your privacy has never been more
 
 Many people get the concepts of privacy, security, and anonymity confused. Örneğin, insanların çeşitli ürünleri "gizli olmadığı" gerekçesi ile eleştirdiğini görürsünüz, oysaki demek istedikleri anonim sağlamadıklarıdır. Bu sitede üç konuyu da ele alıyoruz, ancak bunların arasındaki farkı ve her birinin ne zaman devreye girdiğini anlamanız önemlidir.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 </div>
 </div>

@@ -11,7 +11,7 @@ cover: cloud.webp
 - [:material-bug-outline: Passieve aanvallen](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: Dienstverleners](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-Many **cloud storage providers** require your full trust that they will not look at your files. De onderstaande alternatieven elimineren de noodzaak van vertrouwen door veilige E2EE te implementeren.
+Many **cloud storage providers** require your full trust that they will not look at your files. The alternatives listed below eliminate the need for trust by implementing secure end-to-end encryption.
 
 Als deze alternatieven niet aan jouw behoeften voldoen, raden wij je aan te kijken naar het gebruik van encryptiesoftware zoals [Cryptomator](encryption.md#cryptomator-cloud) met een andere cloud provider. Het gebruik van Cryptomator in combinatie met **elke** cloud provider (inclusief deze) kan een goed idee zijn om het risico van versleutelingsfouten in de native clients van een provider te verminderen.
 
@@ -28,7 +28,9 @@ Nextcloud is [still a recommended tool](document-collaboration.md#nextcloud) for
 
 ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
 
-**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail). The initial free storage is limited to 2 GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5 GB.
+**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail).
+
+The initial free storage is limited to 2 GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5 GB.
 
 [:octicons-home-16: Homepage](https://proton.me/drive){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/drive/privacy-policy){ .card-link title="Privacy Policy" }
@@ -47,9 +49,7 @@ Nextcloud is [still a recommended tool](document-collaboration.md#nextcloud) for
 
 </div>
 
-The Proton Drive web application has been independently audited by Securitum in [2021](https://proton.me/community/open-source).
-
-Proton Drive's brand new mobile clients have not yet been publicly audited by a third party.
+The Proton Drive web application has been independently audited by Securitum in [2021](https://proton.me/community/open-source), but the brand new mobile clients have not yet been publicly audited by a third party.
 
 ## Tresorit
 
@@ -76,7 +76,7 @@ Tresorit logo](assets/img/cloud/tresorit.svg){ align=right }
 
 </div>
 
-Tresorit heeft een aantal onafhankelijke beveiligingsaudits ontvangen:
+Tresorit has received a number of independent security audits:
 
 - [2022](https://tresorit.com/blog/tresorit-receives-iso-27001-certification): ISO/IEC 27001:2013[^1] Compliance [Certification](https://certipedia.com/quality_marks/9108644476) by TÜV Rheinland InterCert Kft
 - [2021](https://tresorit.com/blog/fresh-penetration-testing-confirms-tresorit-security): Penetration Testing by Computest
@@ -84,7 +84,9 @@ Tresorit heeft een aantal onafhankelijke beveiligingsaudits ontvangen:
     - Computest ontdekte twee kwetsbaarheden die zijn opgelost.
 - [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture): Penetration Testing by Ernst & Young.
     - Deze evaluatie analyseerde de volledige broncode van Tresorit en bevestigde dat de implementatie overeenkomt met de concepten die zijn beschreven in Tresorit's [white paper](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf).
-    - Ernst & Young testte bovendien de web-, mobiele en desktopclients: "Testresultaten vonden geen afwijking van Tresorit's claims over de vertrouwelijkheid van gegevens."
+    - Ernst & Young additionally tested the web, mobile, and desktop clients. They concluded:
+
+        > Test results found no deviation from Tresorit’s data confidentiality claims.
 
 They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://efd.admin.ch/en/swiss-digital-initiative-en) which requires passing [35 criteria](https://swiss-digital-initiative.org/criteria) related to security, privacy, and reliability.
 
@@ -130,7 +132,7 @@ Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November
 
 ### Minimale vereisten
 
-- Moet end-to-end encryptie afdwingen.
+- Must enforce E2EE.
 - Moet een gratis plan of proefperiode aanbieden om te testen.
 - Must support TOTP or FIDO2 multifactor authentication, or passkey logins.
 - Moet een webinterface bieden die basisfuncties voor bestandsbeheer ondersteunt.
@@ -141,10 +143,10 @@ Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November
 Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte project in deze categorie. Het is mogelijk dat onze aanbevelingen geen of niet alle functies bevatten, maar degene die dat wel doen kunnen hoger gerangschikt worden dan andere op deze pagina.
 
 - Clients should be open source.
-- Clients moeten in hun geheel door een onafhankelijke derde partij worden gecontroleerd.
+- Clients should be audited in their entirety by an independent third party.
 - Moet native clients aanbieden voor Linux, Android, Windows, macOS en iOS.
     - Deze clients moeten integreren met native OS tools voor cloud storage providers, zoals Files app integratie op iOS, of DocumentsProvider functionaliteit op Android.
-- Moet het gemakkelijk delen van bestanden met andere gebruikers ondersteunen.
+- Should support easy file sharing with other users.
 - Moet ten minste een basisfunctionaliteit voor het bekijken en bewerken van bestanden op de webinterface bieden.
 
 [^1]: [De naleving van ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001):2013 heeft betrekking op het beheersysteem voor informatiebeveiliging van het bedrijf [](https://en.wikipedia.org/wiki/Information_security_management) en heeft betrekking op de verkoop, de ontwikkeling, het onderhoud en de ondersteuning van hun clouddiensten.

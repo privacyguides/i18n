@@ -1,7 +1,7 @@
 ---
 title: Gestione delle foto
 icon: material/image
-description: Strumenti di gestione delle foto per tenere le foto personali al sicuro da occhi indiscreti dei provider di cloud storage e da altri accessi non autorizzati.
+description: These photo management tools keep your personal photos safe from the prying eyes of cloud storage providers and other unauthorized parties.
 cover: photo-management.webp
 ---
 
@@ -18,24 +18,26 @@ Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon
 
 ![Ente logo](assets/img/photo-management/ente.svg){ align=right }
 
-**Ente Photos** è un servizio di backup delle foto crittografato end-to-end che supporta i backup automatici su iOS e Android. Il loro codice è completamente open source, sia dal lato del client che del server. It is also [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting). The free plan offers 10 GB of storage as long as you use the service at least once a year.
+**Ente Photos** è un servizio di backup delle foto crittografato end-to-end che supporta i backup automatici su iOS e Android. Their code is fully open source, both on the client side and on the server side. It is also [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting).
+
+The free plan offers 5 GB of storage as long as you use the service at least once a year.
 
 [:octicons-home-16: Homepage](https://ente.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://ente.io/faq){ .card-link title=Documentation}
+[:octicons-info-16:](https://ente.io/faq){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.photos)
-- [:simple-android: Android](https://ente.io/download)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1542026904)
 - [:simple-github: GitHub](https://github.com/ente-io/ente/releases?q=photos)
+- [:simple-android: Android](https://ente.io/download)
 - [:fontawesome-brands-windows: Windows](https://ente.io/download)
 - [:simple-apple: macOS](https://ente.io/download)
 - [:simple-linux: Linux](https://ente.io/download)
-- [:octicons-globe-16: Web](https://web.ente.io)
+- [:octicons-browser-16: Web](https://web.ente.io)
 
 </details>
 
@@ -50,18 +52,19 @@ Ente Photos underwent an [audit by Cure53](https://ente.io/blog/cryptography-aud
 ![Stingle logo](assets/img/photo-management/stingle.png#only-light){ align=right }
 ![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ align=right }
 
-**Stingle** is a gallery and camera application with built-in, end-to-end encrypted backup and sync functionality for your photos and videos. Storage starts at 1 GB for free accounts on their cloud, or you can host your own Stingle API server for total independence.
+**Stingle** is a gallery and camera application with built-in, E2EE backup and sync functionality for your photos and videos.
+
+Storage starts at 1 GB for free accounts on their cloud, or you can host your own Stingle API server for total independence.
 
 [:octicons-home-16: Homepage](https://stingle.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://stingle.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://stingle.org/faq){ .card-link title=Documentation}
+[:octicons-info-16:](https://stingle.org/faq){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/stingle){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.stingle.photos)
-- [:simple-android: Android](https://f-droid.org/en/packages/org.stingle.photos)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1582535448)
 - [:simple-github: GitHub](https://github.com/stingle/stingle-photos-android/releases)
 
@@ -83,7 +86,7 @@ Ente Photos underwent an [audit by Cure53](https://ente.io/blog/cryptography-aud
 [:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Scarica</summary>
+<summary>Downloads</summary>
 
 - [:simple-github: GitHub](https://github.com/photoprism)
 
@@ -97,7 +100,7 @@ Ente Photos underwent an [audit by Cure53](https://ente.io/blog/cryptography-aud
 
 ### Requisiti minimi
 
-- Cloud-hosted providers must enforce end-to-end encryption.
+- Cloud-hosted providers must enforce E2EE.
 - Deve offrire un piano gratuito o un periodo di prova per testarlo.
 - Must support TOTP or FIDO2 multifactor authentication, or passkey logins.
 - Deve offrire un'interfaccia web che supporti le funzionalità di base per la gestione dei file.
@@ -106,4 +109,4 @@ Ente Photos underwent an [audit by Cure53](https://ente.io/blog/cryptography-aud
 
 ### Miglior Caso
 
-- Dovrebbe disporre di un controllo pubblicato da una terza parte affidabile e indipendente.
+- Should have a published audit from a reputable, independent third party.

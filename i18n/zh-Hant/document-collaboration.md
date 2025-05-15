@@ -28,7 +28,7 @@ cover: document-collaboration.webp
 [:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
@@ -54,7 +54,7 @@ cover: document-collaboration.webp
 
 ![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ align=right }
 
-**CryptPad** 是流行辦公套件的替代方案，其設計優先考慮私密。 此網路服務上的所有內容都使用端對端加密，且可輕鬆與其他使用者分享。 [:material-star-box: Read our latest CryptPad review.](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/)
+**CryptPad** 是流行辦公套件的替代方案，其設計優先考慮私密。 此網路服務上的所有內容都使用端對端加密，且可輕鬆與其他使用者分享。 [:material-star-box: Read our latest CryptPad review.](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review)
 
 [:octicons-home-16: 首頁](https://cryptpad.fr){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE){ .card-link title="隱私權政策" }

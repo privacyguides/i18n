@@ -12,7 +12,7 @@ Mahremiyet nihayetinde insan bilgisiyle ilgilidir ve bu önemlidir çünkü insa
 
 Birçok kişi **gizlilik**, **güvenlik**ve **anonimlik** kavramlarını birbiriyle karıştırmaktadır. Örneğin, insanların çeşitli ürünleri "gizli olmadığı" gerekçesi ile eleştirdiğini görürsünüz, oysaki demek istedikleri anonim sağlamadıklarıdır. Bu sitede üç konuyu da ele alıyoruz, ancak bunların arasındaki farkı ve her birinin ne zaman devreye girdiğini anlamanız önemlidir.
 
-[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security/ ""){.md-button}
+[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security ""){.md-button}
 
 <!-- markdownlint-disable-next-line -->
 **Privacy**
@@ -58,7 +58,7 @@ Gizililiğin yaygın tanımlarından birisi verilerinize kimin erişebileceğini
 
 Privacy is something we need to have baked into the [software and services](../tools.md) we use by default, you can't bend most apps into being private on your own.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 
 ## Kaynaklar
 

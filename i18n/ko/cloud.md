@@ -11,7 +11,7 @@ cover: cloud.webp
 - [:material-bug-outline: 수동적 공격(Passive Attacks)](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: 서비스 제공자/제공 업체(Service Providers)](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-Many **cloud storage providers** require your full trust that they will not look at your files. 아래에 제시된 대안은 E2EE 보안을 구현하여 '신뢰'의 필요성을 처음부터 제거합니다.
+Many **cloud storage providers** require your full trust that they will not look at your files. The alternatives listed below eliminate the need for trust by implementing secure end-to-end encryption.
 
 이러한 대안들이 여러분의 요구에 맞지 않는 경우, 다른 클라우드 제공 업체를 [Cryptomator](encryption.md#cryptomator-cloud) 등의 암호화 소프트웨어와 함께 사용할 것을 권장합니다. **어떤** 클라우드 제공 업체든(본 목록 포함), Cryptomator를 함께 사용함으로써 제공 업체의 기본 클라이언트에서 발생할 수 있는 암호화 결함 위험성을 낮출 수 있습니다.
 
@@ -28,7 +28,9 @@ Nextcloud is [still a recommended tool](document-collaboration.md#nextcloud) for
 
 ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
 
-**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail). The initial free storage is limited to 2 GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5 GB.
+**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail).
+
+The initial free storage is limited to 2 GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5 GB.
 
 [:octicons-home-16: Homepage](https://proton.me/drive){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/drive/privacy-policy){ .card-link title="Privacy Policy" }
@@ -47,9 +49,7 @@ Nextcloud is [still a recommended tool](document-collaboration.md#nextcloud) for
 
 </div>
 
-The Proton Drive web application has been independently audited by Securitum in [2021](https://proton.me/community/open-source).
-
-Proton Drive's brand new mobile clients have not yet been publicly audited by a third party.
+The Proton Drive web application has been independently audited by Securitum in [2021](https://proton.me/community/open-source), but the brand new mobile clients have not yet been publicly audited by a third party.
 
 ## Tresorit
 
@@ -76,7 +76,7 @@ Proton Drive's brand new mobile clients have not yet been publicly audited by a 
 
 </div>
 
-Tresorit은 독립적인 보안 감사를 여러 차례 받았습니다.
+Tresorit has received a number of independent security audits:
 
 - [2022](https://tresorit.com/blog/tresorit-receives-iso-27001-certification): ISO/IEC 27001:2013[^1] Compliance [Certification](https://certipedia.com/quality_marks/9108644476) by TÜV Rheinland InterCert Kft
 - [2021](https://tresorit.com/blog/fresh-penetration-testing-confirms-tresorit-security): Penetration Testing by Computest
@@ -84,7 +84,9 @@ Tresorit은 독립적인 보안 감사를 여러 차례 받았습니다.
     - Computest는 취약점을 2개 발견했으며, 이 취약점은 해결되었습니다.
 - [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture): Penetration Testing by Ernst & Young.
     - 해당 검토에서는 Tresorit의 전체 소스 코드를 분석하여, Tresorit [백서](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf)에서 설명한 개념과 구현이 일치하는지 검증했습니다.
-    - Ernst & Young은 추가로 웹, 모바일, 데스크톱 클라이언트를 검사했습니다. "검사 결과, Tresorit이 주장하는 데이터 기밀성과 차이가 없는 것으로 나타났습니다."
+    - Ernst & Young additionally tested the web, mobile, and desktop clients. They concluded:
+
+        > Test results found no deviation from Tresorit’s data confidentiality claims.
 
 They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://efd.admin.ch/en/swiss-digital-initiative-en) which requires passing [35 criteria](https://swiss-digital-initiative.org/criteria) related to security, privacy, and reliability.
 
@@ -130,7 +132,7 @@ Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November
 
 ### 최소 요구 사항
 
-- 종단 간 암호화가 적용되어야 합니다.
+- Must enforce E2EE.
 - 테스트용 무료 요금제/체험판 기간을 제공해야 합니다.
 - Must support TOTP or FIDO2 multifactor authentication, or passkey logins.
 - 기본적인 파일 관리 기능을 지원하는 웹 인터페이스를 제공해야 합니다.
@@ -141,10 +143,10 @@ Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November
 평가 기준에서 '우대 사항'은 해당 부문에서 완벽한 프로젝트에 기대하는 바를 나타냅니다. 다음의 우대 사항에 해당하지 않더라도 권장 목록에 포함될 수 있습니다. 단, 우대 사항에 해당할수록 이 페이지의 다른 항목보다 높은 순위를 갖습니다.
 
 - Clients should be open source.
-- 클라이언트는 독립적인 제3자로부터 전체 감사를 받아야 합니다.
+- Clients should be audited in their entirety by an independent third party.
 - Linux, Android, Windows, macOS, iOS 네이티브 클라이언트를 제공해야 합니다.
     - 클라이언트는 운영체제에서 기본으로 제공하는 클라우드 스토리지 서비스용 툴과 통합되어야 합니다. 예시: iOS '파일' 앱 연동, Android DocumentsProvider 기능 등
-- 다른 사용자와의 간편한 파일 공유를 지원해야 합니다.
+- Should support easy file sharing with other users.
 - 웹 인터페이스에서 최소한 기본적인 파일 미리보기 및 편집 기능을 제공해야 합니다.
 
 [^1]: [ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001):2013 준수는 회사의 [정보 보안 관리 시스템](https://en.wikipedia.org/wiki/Information_security_management)과 연관되며 클라우드 서비스의 판매, 개발, 유지 관리 및 지원에 적용됩니다.

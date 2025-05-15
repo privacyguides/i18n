@@ -1,7 +1,7 @@
 ---
 title: "記事本"
 icon: material/notebook-edit-outline
-description: 這些加密的筆記錄應用程式可讓您跟進記錄，而無需將它們提供給第三方。
+description: These encrypted note-taking apps let you keep track of your notes without giving them to a third party.
 cover: notebooks.webp
 ---
 
@@ -11,7 +11,7 @@ cover: notebooks.webp
 
 隨時紀錄您的筆記和日記，不需提供給第三方。
 
-如果您目前使用的是 Evernote、Google Keep 或 Microsoft OneNote 等應用程式，我們建議您在這裡選擇一個支援 E2EE 的替代方案。
+If you are currently using an application like Evernote, Google Keep, or Microsoft OneNote, we suggest you pick an alternative here that supports end-to-end encryption.
 
 ## 雲端型
 
@@ -19,18 +19,20 @@ cover: notebooks.webp
 
 <div class="admonition recommendation" markdown>
 
-![Standard Notes 標誌](assets/img/notebooks/standard-notes.svg){ align=right }
+![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }
 
-**Standard Notes** 是一款簡單而私密的筆記應用程式，可隨時隨地輕鬆使用筆記功能。 它在每個平臺上都採納 E2EE ，並且其電腦版具有強大的主題和自訂編輯器功能。 它也作過 [獨立稽核](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit) 。
+**Standard Notes** is a simple and private notes app that features cross-platform sync for seamless use. 它在每個平臺上都採納 E2EE ，並且其電腦版具有強大的主題和自訂編輯器功能。
 
-[:octicons-home-16: 首頁](https://standardnotes.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://standardnotes.com/help){ .card-link title=說明文件}
-[:octicons-code-16:](https://github.com/standardnotes){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=捐款 }
+Standard Notes has also undergone multiple [independent audits](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
+
+[:octicons-home-16: Homepage](https://standardnotes.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://standardnotes.com/help){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
@@ -38,7 +40,7 @@ cover: notebooks.webp
 - [:fontawesome-brands-windows: Windows](https://standardnotes.com)
 - [:simple-apple: macOS](https://standardnotes.com)
 - [:simple-linux: Linux](https://standardnotes.com)
-- [:octicons-globe-16: 網頁版](https://app.standardnotes.com)
+- [:octicons-browser-16: Web](https://app.standardnotes.com)
 
 </details>
 
@@ -52,16 +54,18 @@ Standard Notes 已於 2024 年 4 月 10 日 [加入 Proton AG](https://standardn
 
 ![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
 
-**Notesnook** 為自由（此同言論自由之意）且開放源代碼的筆記應用，其注重隱私、容易使用。 其跨平台的 E2EE 具備強大的同步功能以便您隨時隨地都能進行記錄。 可輕鬆透過其 [官方滙入程式](https://importer.notesnook.com) 從 Evernote、OneNote 及許多類似的筆記應用來滙入資料。
+**Notesnook** is a free (as in speech), open-source, and easy-to-use E2EE note-taking app focused on user privacy.
 
-[:octicons-home-16: 首頁](https://notesnook.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://help.notesnook.com){ .card-link title=說明文件}
-[:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=捐款 }
+It features sync functionality that allows you to access your notes on multiple platforms. You can easily import your notes from Evernote, OneNote, and other apps using their [official importer](https://importer.notesnook.com).
+
+[:octicons-home-16: Homepage](https://notesnook.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://help.notesnook.com){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opencollective.com/notesnook){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.streetwriters.notesnook)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1544027013)
@@ -69,10 +73,10 @@ Standard Notes 已於 2024 年 4 月 10 日 [加入 Proton AG](https://standardn
 - [:fontawesome-brands-windows: Windows](https://notesnook.com/downloads)
 - [:simple-apple: macOS](https://notesnook.com/downloads)
 - [:simple-linux: Linux](https://notesnook.com/downloads)
-- [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
-- [:octicons-globe-16: 網頁版](https://app.notesnook.com)
 - [:simple-flathub: Flathub](https://flathub.org/apps/com.notesnook.Notesnook)
+- [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/kljhpemdlcnjohmfmkogahelkcidieaj)
+- [:octicons-browser-16: Web](https://app.notesnook.com)
 
 </details>
 
@@ -84,16 +88,18 @@ Standard Notes 已於 2024 年 4 月 10 日 [加入 Proton AG](https://standardn
 
 ![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
 
-**Joplin** 是一款自由、開放原始碼且功能完整的筆記與待辦事項應用程式，可將許多 markdown 筆記統整成筆記本與標籤。 它提供E2EE ，可以通過Nextcloud ， Dropbox等同步。 它也可以輕鬆的從 Evernote 和純文本筆記導入。
+**Joplin** is a free, open-source, and fully-featured E2EE note-taking and to-do application which can handle numerous Markdown notes organized into notebooks and tags.
 
-[:octicons-home-16: 首頁](https://joplinapp.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://joplinapp.org/help){ .card-link title=說明文件}
-[:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://joplinapp.org/donate){ .card-link title=捐款 }
+It can sync through Nextcloud, Dropbox, and more. 它也可以輕鬆的從 Evernote 和純文本筆記導入。
+
+[:octicons-home-16: Homepage](https://joplinapp.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://joplinapp.org/help){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://joplinapp.org/donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1315599797)
@@ -102,13 +108,13 @@ Standard Notes 已於 2024 年 4 月 10 日 [加入 Proton AG](https://standardn
 - [:simple-apple: macOS](https://joplinapp.org/#desktop-applications)
 - [:simple-linux: Linux](https://joplinapp.org/#desktop-applications)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/alofnhikmmkdbbbgpnglcpdollgjjfek)
 
 </details>
 
 </div>
 
-Joplin 不 [支援](https://github.com/laurent22/joplin/issues/289) 應用程式自身或個別筆記的 password/PIN 保護。 但是您的資料在傳輸與同步過程中仍會使用主金鑰加密。 2023 年 1 月起 Joplin [支援](https://github.com/laurent22/joplin/commit/f10d9f75b055d84416053fab7e35438f598753e9) Android 和 iOS 生物辨識應用鎖。
+Joplin [does not support](https://github.com/laurent22/joplin/issues/289) password/PIN protection for the application itself or individual notes and notebooks. 但是您的資料在傳輸與同步過程中仍會使用主金鑰加密。 Since January 2023, Joplin [supports biometrics app lock](https://github.com/laurent22/joplin/commit/f10d9f75b055d84416053fab7e35438f598753e9) for Android and iOS.
 
 ### Cryptee
 
@@ -117,23 +123,25 @@ Joplin 不 [支援](https://github.com/laurent22/joplin/issues/289) 應用程式
 ![Cryptee logo](./assets/img/notebooks/cryptee.svg#only-light){ align=right }
 ![Cryptee logo](./assets/img/notebooks/cryptee-dark.svg#only-dark){ align=right }
 
-**Cryptee** 是一個開源的，基於網頁的 E2EE 文件編輯器和照片儲存應用程式。 Cryptee 為漸進式網路應用程式(PWA) ，這意味著它可以在所有現代裝置上無縫工作，而無需為每個平臺提供原生應用程式。
+**Cryptee** 是一個開源的，基於網頁的 E2EE 文件編輯器和照片儲存應用程式。
 
-[:octicons-home-16: 首頁](https://crypt.ee){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://crypt.ee/privacy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://crypt.ee/help){ .card-link title=說明文件}
-[:octicons-code-16:](https://github.com/cryptee){ .card-link title="原始碼" }
+Cryptee offers 100 MB of storage for free, with paid options if you need more. Sign-up doesn't require an e-mail or other personally identifiable information.
+
+[:octicons-home-16: Homepage](https://crypt.ee){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://crypt.ee/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://crypt.ee/help){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/cryptee){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
-- [:octicons-globe-16: PWA](https://crypt.ee/download)
+- [:octicons-browser-16: Web](https://crypt.ee/download)
 
 </details>
 
 </div>
 
-Cryptee 免費提供 100MB 的儲存空間，如果需要更多容量，則另有付費選項。 註冊不需要電子郵件或其他個人身份資訊。
+Cryptee is a PWA, which means that it works seamlessly across all modern devices without requiring native apps for each respective platform.
 
 ## 本地端的記事簿
 
@@ -143,12 +151,12 @@ Cryptee 免費提供 100MB 的儲存空間，如果需要更多容量，則另�
 
 ![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
 
-**Org-mode** 是GNU Emacs的 [主要模式](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html)。 Org-mode 用於記錄筆記，維護待辦事項列表，規劃項目以及使用快速有效的純文字系統撰寫文件。 可以利用 [檔案同步](file-sharing.md#file-sync) 工具進行同步。
+**Org-mode** 是GNU Emacs的 [主要模式](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html)。 Org-mode 用於記錄筆記，維護待辦事項列表，規劃項目以及使用快速有效的純文字系統撰寫文件。 File synchronization is possible with tools like [Syncthing](file-sharing.md#syncthing-p2p).
 
-[:octicons-home-16: 首頁](https://orgmode.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=說明文件}
-[:octicons-code-16:](https://git.savannah.gnu.org/cgit/emacs/org-mode.git){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://liberapay.com/bzg){ .card-link title=捐款 }
+[:octicons-home-16: Homepage](https://orgmode.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title="Documentation" }
+[:octicons-code-16:](https://git.savannah.gnu.org/cgit/emacs/org-mode.git){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://liberapay.com/bzg){ .card-link title="Contribute" }
 
 </details>
 

@@ -3,7 +3,7 @@ title: Avertissements
 description: A guide for website contributors on creating admonitions.
 ---
 
-**Les avertissements** (ou conseils) sont un choix que les rédacteurs peuvent utiliser pour inclure un contenu annexe dans un article sans interrompre le flux du document.
+**Admonitions** (or "call-outs") are tools that writers can use to include side content in an article without interrupting the document flow.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Exemple d'avertissement</p>
@@ -41,7 +41,7 @@ TEXTE JOINT
 </details>
 ```
 
-Le `TITRE` doit être spécifié, si vous ne voulez pas de titre spécifique, vous pouvez mettre le même texte que le `TYPE` (voir ci-dessous) en majuscule, par exemple `Note`. `TEXTE JOINT` doit être formaté en Markdown.
+The `TITLE` must be specified; if you don't want a specific title you can set it to the same text as the `TYPE` (see below) in title case, e.g. `Note`. `TEXTE JOINT` doit être formaté en Markdown.
 
 ### Types ordinaires
 
@@ -166,11 +166,11 @@ Ce format est utilisé pour générer des cartes de recommandation. Il manque no
 
 ![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
+**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
 
 [:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Documentation}
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -189,15 +189,15 @@ Ce format est utilisé pour générer des cartes de recommandation. Il manque no
 
 ![logo PhotoPrism](../assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** is a self-hostable platform for managing photos. Elle prend en charge la synchronisation et le partage d'albums ainsi qu'une variété d'autres [fonctionnalités](https://photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
+**PhotoPrism** is a self-hostable platform for managing photos. Elle prend en charge la synchronisation et le partage d'albums ainsi qu'une variété d'autres [fonctionnalités](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
 
 [:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Documentation}
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Téléchargements</summary>
+<summary>Downloads</summary>
 
 - [:simple-github: GitHub](https://github.com/photoprism)
 
@@ -209,7 +209,7 @@ Ce format est utilisé pour générer des cartes de recommandation. Il manque no
 
 #### `downloads`
 
-Il s'agit d'un type spécial d'avertissement repliable, utilisé pour générer la section des liens de téléchargement. Il n'est utilisé qu'à l'intérieur des cartes de recommandation, comme le montre l'exemple ci-dessus.
+This is a special type of collapsible admonition which is used to generate sections containing download links. Il n'est utilisé qu'à l'intérieur des cartes de recommandation, comme le montre l'exemple ci-dessus.
 
 ```markdown title="Downloads Section"
 <details class="downloads" markdown>
@@ -217,7 +217,7 @@ Il s'agit d'un type spécial d'avertissement repliable, utilisé pour générer 
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
-- [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
+- [:simple-github: GitHub](https://github.com/ProtonMail/android-mail/releases)
 - [:fontawesome-brands-windows: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
 - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
@@ -229,11 +229,11 @@ Il s'agit d'un type spécial d'avertissement repliable, utilisé pour générer 
 <div class="result" markdown>
 
 <details class="downloads" markdown>
-<summary>Téléchargements</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
-- [:simple-github: GitHub](https://github.com/ProtonMail/proton-mail-android/releases)
+- [:simple-github: GitHub](https://github.com/ProtonMail/android-mail/releases)
 - [:fontawesome-brands-windows: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
 - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
@@ -245,7 +245,7 @@ Il s'agit d'un type spécial d'avertissement repliable, utilisé pour générer 
 
 ## Ancien format
 
-Tout au long du site, vous verrez peut-être des avertissements formatés de manière similaire à ces exemples :
+Throughout the site, you may see some admonitions formatted like the following examples:
 
 ```markdown title="Admonition"
 !!! note
@@ -289,6 +289,6 @@ massa, nec semper lorem quam in massa.
 
 </div>
 
-**Ce format n'est désormais plus utilisé**, car il est incompatible avec les nouvelles versions de notre logiciel de traduction chez Crowdin. Lors de l'ajout d'une nouvelle page sur le site, seul le format HTML le plus récent doit être utilisé.
+**This format is no longer used going forward** because it is incompatible with newer versions of our translation software at Crowdin. When adding a new page to the site, only the newer, HTML-based format should be used.
 
-Il n'y a pas d'urgence à convertir les avertissements de l'ancien format au nouveau format. Les pages qui utilisent actuellement ce format devraient continuer à fonctionner, mais nous les mettrons à jour pour utiliser le nouveau format HTML ci-dessus au fur et à mesure que nous continuerons à mettre le site à jour.
+Il n'y a pas d'urgence à convertir les avertissements de l'ancien format au nouveau format. Pages currently using this formatting should continue to work, but we will be updating them to use the newer, HTML-based format above over time as we continue to update the site.

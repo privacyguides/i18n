@@ -65,9 +65,9 @@ La documentación de Cryptomator detalla con más detalle su [objetivo de seguri
 
 **Picocrypt** es una herramienta de cifrado pequeña y simple que proporciona un cifrado moderno. Picocrypt utiliza el cifrado seguro XChaCha20 y la función de derivación de clave Argon2id para proporcionar un alto nivel de seguridad. Utiliza los módulos x/crypto estándar de Go para sus funciones de cifrado.
 
-[:octicons-repo-16: Repositorio](https://github.com/Picocrypt/Picocrypt){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/Picocrypt/Picocrypt){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title="Contribuir" }
+[:octicons-repo-16: Repository](https://github.com/Picocrypt/Picocrypt#readme){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/Picocrypt/Picocrypt){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -207,9 +207,9 @@ Le recomendamos que no utilice su cuenta de iCloud para la recuperación; en su 
 
 **LUKS** es el método FDE por defecto para Linux. Puede utilizarse para cifrar volúmenes completos, particiones o crear contenedores cifrados.
 
-[:octicons-home-16: Página Principal](https://gitlab.com/cryptsetup/cryptsetup/-/blob/main/README.md){ .md-button .md-button--primary }
-[:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title="Documentación" }
-[:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup){ .card-link title="Código Fuente" }
+[:octicons-repo-16: Repository](https://gitlab.com/cryptsetup/cryptsetup#what-the-){ .md-button .md-button--primary }
+[:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title="Documentation" }
+[:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup){ .card-link title="Source Code" }
 
 </details>
 

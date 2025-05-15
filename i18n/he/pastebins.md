@@ -17,11 +17,11 @@ cover: pastebins.webp
 
 ![PrivateBin logo](assets/img/pastebins/privatebin.svg){ align=right }
 
-**PrivateBin** is a minimalist, open-source online pastebin where the server has zero knowledge of pasted data. הנתונים מוצפנים/מפוענים בדפדפן באמצעות 256 סיביות AES. זוהי הגרסה המשופרת של ZeroBin.
+**PrivateBin** is a minimalist, open-source, online pastebin where the server has zero knowledge of pasted data. הנתונים מוצפנים/מפוענים בדפדפן באמצעות 256 סיביות AES. זוהי הגרסה המשופרת של ZeroBin.
 
 [:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
 [:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
 
 </div>
@@ -49,11 +49,11 @@ cover: pastebins.webp
 ### דרישות מינימליות
 
 - חייב להיות קוד פתוח.
-- חייב ליישם הצפנה "אפס אמון" מקצה לקצה.
+- Must implement "zero-trust" E2EE.
 - חייב לתמוך בקבצים המוגנים בסיסמה.
 
 ### המקרה הטוב ביותר
 
 הקריטריונים הטובים ביותר שלנו מייצגים את מה שהיינו רוצים לראות מהפרויקט המושלם בקטגוריה זו. ייתכן שההמלצות שלנו לא יכללו חלק מהפונקציונליות הזו או את כולה, אך אלו שכן כן עשויות לדרג גבוה יותר מאחרות בדף זה.
 
-- צריך לפרסם ביקורת מצד שלישי מכובד ובלתי תלוי.
+- Should have a published audit from a reputable, independent third party.

@@ -64,9 +64,9 @@ Cryptomator'ın dokümantasyonu, amaçlanan [güvenlik hedefini](https://docs.cr
 
 **Picocrypt** modern şifreleme sağlayan küçük ve basit bir şifreleme aracıdır. Picocrypt, yüksek düzeyde güvenlik sağlamak için güvenli XChaCha20 şifresini ve Argon2id anahtar türetme işlevini kullanır. Şifreleme özellikleri için Go'nun standart x/crypto modüllerini kullanır.
 
-[:octicons-repo-16: Repository](https://github.com/Picocrypt/Picocrypt){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/Picocrypt/Picocrypt){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title="Kaynak Kod" }
+[:octicons-repo-16: Repository](https://github.com/Picocrypt/Picocrypt#readme){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/Picocrypt/Picocrypt){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>İndirmeler</summary>
@@ -206,7 +206,7 @@ We advise against using your iCloud account for recovery; instead, you should se
 
 **LUKS** is the default FDE method for Linux. It can be used to encrypt full volumes, partitions, or create encrypted containers.
 
-[:octicons-home-16: Homepage](https://gitlab.com/cryptsetup/cryptsetup/-/blob/main/README.md){ .md-button .md-button--primary }
+[:octicons-repo-16: Repository](https://gitlab.com/cryptsetup/cryptsetup#what-the-){ .md-button .md-button--primary }
 [:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title="Documentation" }
 [:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup){ .card-link title="Source Code" }
 

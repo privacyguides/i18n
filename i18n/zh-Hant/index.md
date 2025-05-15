@@ -114,6 +114,6 @@ schema:
 
 許多人混淆了隱私權、安全性和匿名性的概念。 舉例來說，您會看到人們批評各種產品「不具隱私性」，但實際上他們的意思是不提供匿名性。 在本網站中，我們涵蓋了所有這三個主題，但重要的是您必須瞭解它們之間的差異，以及每種主題何時會發揮作用。
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 </div>
 </div>

@@ -11,7 +11,7 @@ cover: cloud.webp
 - [:material-bug-outline: Passiva attacker](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: Tjänsteleverantörer](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-Many **cloud storage providers** require your full trust that they will not look at your files. The alternatives listed below eliminate the need for trust by implementing secure E2EE.
+Many **cloud storage providers** require your full trust that they will not look at your files. The alternatives listed below eliminate the need for trust by implementing secure end-to-end encryption.
 
 If these alternatives do not fit your needs, we suggest you look into using encryption software like [Cryptomator](encryption.md#cryptomator-cloud) with another cloud provider. Using Cryptomator in conjunction with **any** cloud provider (including these) may be a good idea to reduce the risk of encryption flaws in a provider's native clients.
 
@@ -28,7 +28,9 @@ Nextcloud is [still a recommended tool](document-collaboration.md#nextcloud) for
 
 ![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
 
-**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail). The initial free storage is limited to 2 GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5 GB.
+**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail).
+
+The initial free storage is limited to 2 GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5 GB.
 
 [:octicons-home-16: Homepage](https://proton.me/drive){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/drive/privacy-policy){ .card-link title="Privacy Policy" }
@@ -47,9 +49,7 @@ Nextcloud is [still a recommended tool](document-collaboration.md#nextcloud) for
 
 </div>
 
-The Proton Drive web application has been independently audited by Securitum in [2021](https://proton.me/community/open-source).
-
-Proton Drive's brand new mobile clients have not yet been publicly audited by a third party.
+The Proton Drive web application has been independently audited by Securitum in [2021](https://proton.me/community/open-source), but the brand new mobile clients have not yet been publicly audited by a third party.
 
 ## Tresorit
 
@@ -84,7 +84,9 @@ Tresorit has received a number of independent security audits:
     - Computest discovered two vulnerabilities which have been resolved.
 - [2019](https://tresorit.com/blog/ernst-young-review-verifies-tresorits-security-architecture): Penetration Testing by Ernst & Young.
     - This review analyzed the full source code of Tresorit and validated that the implementation matches the concepts described in Tresorit's [white paper](https://prodfrontendcdn.azureedge.net/202208011608/tresorit-encryption-whitepaper.pdf).
-    - Ernst & Young additionally tested the web, mobile, and desktop clients: "Test results found no deviation from Tresorit’s data confidentiality claims."
+    - Ernst & Young additionally tested the web, mobile, and desktop clients. They concluded:
+
+        > Test results found no deviation from Tresorit’s data confidentiality claims.
 
 They have also received the Digital Trust Label, a certification from the [Swiss Digital Initiative](https://efd.admin.ch/en/swiss-digital-initiative-en) which requires passing [35 criteria](https://swiss-digital-initiative.org/criteria) related to security, privacy, and reliability.
 
@@ -130,7 +132,7 @@ Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November
 
 ### Minimikrav
 
-- Måste genomdriva end-to-end-kryptering.
+- Must enforce E2EE.
 - Måste erbjuda en gratis plan eller provperiod för testning.
 - Must support TOTP or FIDO2 multifactor authentication, or passkey logins.
 - Måste erbjuda ett webbgränssnitt som stöder grundläggande filhanteringsfunktioner.
@@ -141,10 +143,10 @@ Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November
 Våra kriterier för bästa fall representerar vad vi skulle vilja se av det perfekta projektet i denna kategori. Våra rekommendationer kanske inte innehåller alla eller några av dessa funktioner, men de som gör det kan vara högre rankade än andra på den här sidan.
 
 - Clients should be open source.
-- Klienterna bör granskas i sin helhet av en oberoende tredje part.
+- Clients should be audited in their entirety by an independent third party.
 - De bör erbjuda inhemska klienter för Linux, Android, Windows, macOS och iOS.
     - Dessa klienter bör integreras med operativsystemets verktyg för leverantörer av molnlagring, t. ex. integrering av Files-appen i iOS eller DocumentsProvider-funktionen i Android.
-- Det bör vara enkelt att dela filer med andra användare.
+- Should support easy file sharing with other users.
 - Bör erbjuda åtminstone grundläggande funktioner för förhandsgranskning och redigering av filer i webbgränssnittet.
 
 [^1]: [ISO/IEC 27001](https://en.wikipedia.org/wiki/ISO/IEC_27001):2013 compliance relates to the company's [information security management system](https://en.wikipedia.org/wiki/Information_security_management) and covers the sales, development, maintenance and support of their cloud services.

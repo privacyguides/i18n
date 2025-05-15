@@ -128,14 +128,14 @@ schema:
 
 **Los administradores de contraseñas** permiten almacenar y gestionar de forma segura contraseñas y otras credenciales con el uso de una contraseña maestra.
 
-[Introducción a las Contraseñas :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
+[Introducción a las Contraseñas :material-arrow-right-drop-circle:](basics/passwords-overview.md)
 
 <div class="admonition info" markdown>
 <p class="admonition-title">Detalles</p>
 
 Los administradores de contraseñas integrados en programas como navegadores y sistemas operativos a veces no son tan buenos como los programas de administración de contraseñas específicos. La ventaja de un administrador de contraseñas integrado es la buena integración con el software, pero a menudo puede ser muy simple y carecer de las funciones de privacidad y seguridad que tienen las ofertas independientes.
 
-Por ejemplo, el administrador de contraseñas de Microsoft Edge no ofrece E2EE. El gestor de contraseñas de Google tiene E2EE [opcional](https://support.google.com/accounts/answer/11350823), y [el de Apple](https://support.apple.com/HT202303) ofrece E2EE por defecto.
+For example, the password manager in Microsoft Edge doesn't offer end-to-end encryption at all. El gestor de contraseñas de Google tiene E2EE [opcional](https://support.google.com/accounts/answer/11350823), y [el de Apple](https://support.apple.com/HT202303) ofrece E2EE por defecto.
 
 </div>
 
@@ -167,15 +167,15 @@ Estos administradores de contraseñas sincronizan sus contraseñas con un servid
 - [:simple-linux: Linux](https://bitwarden.com/download)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/com.bitwarden.desktop)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/bitwarden-password-manager)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/nngceckbapebfimnlniiiahkandclblb)
 - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
-- [:simple-safari: Safari](https://apps.apple.com/us/app/bitwarden/id1352778147)
+- [:simple-safari: Safari](https://apps.apple.com/app/id1352778147)
 
 </details>
 
 </div>
 
-Bitwarden utiliza [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) como algoritmo de función de derivación de claves (KDF) por defecto. También ofrece como alternativa [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id), que es más seguro. Puede cambiar el algoritmo KDF de su cuenta en el almacén web.
+Bitwarden utiliza [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) como algoritmo de función de derivación de claves (KDF) por defecto. También ofrece como alternativa [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id), que es más seguro. You can change your account's KDF algorithm in the web vault:
 
 - [x] Seleccione **Settings > Security > Keys > KDF algorithm > Argon2id**
 
@@ -201,14 +201,14 @@ El código del lado del servidor de Bitwarden es de [código abierto](https://gi
 [:octicons-code-16:](https://github.com/protonpass){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=proton.android.pass)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/proton-pass-password-manager/id6443490629)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id6443490629)
 - [:fontawesome-brands-windows: Windows](https://proton.me/pass/download)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/proton-pass)
-- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
-- [:fontawesome-brands-edge: Edge](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
+- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/ghmbeldphafepmbegfdlkpapadhbakde)
+- [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/gcllgfdnfnllodcaambdaknbipemelie)
 - [:octicons-browser-16: Web](https://pass.proton.me)
 
 </details>
@@ -229,14 +229,16 @@ Todos los problemas se abordaron y solucionaron poco después del [informe](http
 
 ![1Password logo](assets/img/password-management/1password.svg){ align=right }
 
-**1Password** es un administrador de contraseñas con un fuerte enfoque en la seguridad y la facilidad de uso que te permite almacenar contraseñas, llaves de acceso, tarjetas de crédito, licencias de software y cualquier otra información sensible en una bóveda digital segura. Tu bóveda se aloja en los servidores de 1Password por una [cuota mensual](https://1password.com/sign-up). 1Password es [auditada](https://support.1password.com/security-assessments) con regularidad y ofrece una atención al cliente excepcional. 1Password es de código cerrado; sin embargo, la seguridad del producto está exhaustivamente documentada en su [libro blanco de seguridad](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
+**1Password** es un administrador de contraseñas con un fuerte enfoque en la seguridad y la facilidad de uso que te permite almacenar contraseñas, llaves de acceso, tarjetas de crédito, licencias de software y cualquier otra información sensible en una bóveda digital segura. Tu bóveda se aloja en los servidores de 1Password por una [cuota mensual](https://1password.com/sign-up).
+
+1Password es [auditada](https://support.1password.com/security-assessments) con regularidad y ofrece una atención al cliente excepcional. 1Password es de código cerrado; sin embargo, la seguridad del producto está exhaustivamente documentada en su [libro blanco de seguridad](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
 
 [:octicons-home-16: Página Principal](https://1password.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="Política de Privacidad" }
 [:octicons-info-16:](https://support.1password.com){ .card-link title="Documentación" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750)
@@ -244,16 +246,16 @@ Todos los problemas se abordaron y solucionaron poco después del [informe](http
 - [:simple-apple: macOS](https://1password.com/downloads/mac)
 - [:simple-linux: Linux](https://1password.com/downloads/linux)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/1password-x-password-manager)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
 - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/dppgmdbiimibapkepcbdbmkaabgiofem)
-- [:simple-safari: Safari](https://apps.apple.com/us/app/1password-for-safari/id1569813296)
+- [:simple-safari: Safari](https://apps.apple.com/app/id1569813296)
 - [:octicons-browser-16: Web](https://my.1password.com/signin)
 
 </details>
 
 </div>
 
-Tradicionalmente, 1Password ha ofrecido la mejor experiencia de usuario entre los administradores de contraseñas para las personas que utilizan macOS e iOS; sin embargo, ahora ha logrado la paridad de características en todas las plataformas. Los clientes de 1Password cuentan con muchas características orientadas a las familias y a las personas menos técnicas, como una interfaz de usuario intuitiva para facilitar el uso y la navegación, así como funcionalidades avanzadas. En particular, casi todas las funciones de 1Password están disponibles en sus clientes nativos para móvil o escritorio.
+Tradicionalmente, 1Password ha ofrecido la mejor experiencia de usuario entre los administradores de contraseñas para las personas que utilizan macOS e iOS; sin embargo, ahora ha logrado la paridad de características en todas las plataformas. 1Password's clients boast many features geared towards families and less technical people, such as an intuitive UI for ease-of-use and navigation, as well as advanced functionality. En particular, casi todas las funciones de 1Password están disponibles en sus clientes nativos para móvil o escritorio.
 
 Su bóveda de 1Password está protegida tanto con su contraseña maestra como con una clave de seguridad aleatoria de 34 caracteres para cifrar sus datos en los servidores. Esta clave de seguridad añade una capa de protección a sus datos, ya que estos están asegurados con una alta entropía independientemente de su contraseña maestra. Muchas otras soluciones de administración de contraseñas dependen totalmente de la fortaleza de su contraseña maestra para proteger sus datos.
 
@@ -271,12 +273,12 @@ Su bóveda de 1Password está protegida tanto con su contraseña maestra como co
 [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1545581224)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/psono-pw-password-manager)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/eljmjmgjkbmpmfljlmklcfineebidmlo)
 - [:simple-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
 
 </details>
@@ -325,14 +327,14 @@ Estas opciones le permiten administrar una base de datos de contraseñas cifrada
 [:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title="Contribuir" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:fontawesome-brands-windows: Windows](https://keepassxc.org/download/#windows)
 - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
 - [:simple-linux: Linux](https://keepassxc.org/download/#linux)
-- [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/oboonakemofpalcgghocfoadofidjkkk)
 
 </details>
 
@@ -346,12 +348,12 @@ KeePassXC almacena sus datos de exportación como archivos [CSV](https://es.wiki
 
 ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
 
-**KeePassDX** is a lightweight password manager for Android; it allows for editing encrypted data in a single file in KeePass format and can fill in forms securely. La [versión pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) de la aplicación permite desbloquear contenidos cosméticos y funciones de protocolo no estándar, pero lo más importante es que ayuda y fomenta el desarrollo.
+**KeePassDX** is a lightweight password manager for Android; it allows for editing encrypted data in a single file in KeePass format and can fill in forms securely.
 
-[:octicons-home-16: Página Principal](https://keepassdx.com){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="Documentación" }
-[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title="Contribuir" }
+[:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -362,6 +364,8 @@ KeePassXC almacena sus datos de exportación como archivos [CSV](https://es.wiki
 </details>
 
 </div>
+
+The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) of the app allows you to unlock cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
 
 ### Gopass (CLI)
 
@@ -390,6 +394,6 @@ KeePassXC almacena sus datos de exportación como archivos [CSV](https://es.wiki
 
 ### Criterios
 
-**Por favor, tenga en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que usted se familiarice con esta lista, antes de decidir utilizar un proyecto y realizar su propia investigación para asegurarse de que es la elección ideal para usted.
+**Por favor, ten en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
 
 - Debe ser multiplataforma.

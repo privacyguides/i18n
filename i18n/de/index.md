@@ -114,6 +114,6 @@ Im modernen Zeitalter der digitalen Datenausbeutung ist deine Privatsphäre noch
 
 Viele Menschen verwechseln die Begriffe Privatsphäre, Sicherheit und Anonymität. Es gibt Leute, die verschiedene Produkte als „nicht privat“ kritisieren, obwohl sie in Wirklichkeit meinen, dass sie beispielsweise keine Anonymität bieten. Auf dieser Website befassen wir uns mit allen drei Themen, aber es ist wichtig, dass du den Unterschied zwischen ihnen verstehst und weißt, wann es um welches der drei Themen geht.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 </div>
 </div>

@@ -70,10 +70,10 @@ O Shelter é recomendado sobre [Insular](https://secure-system.gitlab.io/Insular
 
 O **Secure Camera** é um aplicativo de câmera focado em privacidade e segurança que pode capturar imagens, vídeos e códigos QR. As extensões do fornecedor CameraX (Retrato, HDR, Visão noturna, Retoque facial e Automático) também são compatíveis com os dispositivos disponíveis.
 
-[:octicons-repo-16: Repositório](https://github.com/GrapheneOS/Camera){ .md-button .md-button--primary }
-[:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentação}
-[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Código Fonte" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribuir }
+[:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -116,9 +116,9 @@ O **Secure PDF Viewer** é um visualizador de PDF baseado em [pdf.js] (https://p
 
 A [Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) é usada para impor que o JavaScript e as propriedades de estilo dentro do WebView sejam conteúdo totalmente estático.
 
-[:octicons-repo-16: Repositório](https://github.com/GrapheneOS/PdfViewer){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Código Fonte" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribuir }
+[:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer#readme){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

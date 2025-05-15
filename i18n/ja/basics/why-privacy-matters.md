@@ -12,7 +12,7 @@ description: デジタルデータが搾取される現代において、あな�
 
 多くの人は、**プライバシー**、**セキュリティ**、**匿名性**の概念を混同しています。 例えば、ある製品が匿名性を提供していないという意味で「プライベートではない」と批判する人々がいます。 このウェブサイトでは、これら3つのトピックすべてを取り上げます。まず、それぞれの違いを理解しましょう。
 
-[:material-movie-open-play-outline: 動画: プライバシー、匿名性、セキュリティの違い](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security/ ""){.md-button}
+[:material-movie-open-play-outline: 動画: プライバシー、匿名性、セキュリティの違い](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security ""){.md-button}
 
 <!-- markdownlint-disable-next-line -->
 **プライバシー**
@@ -58,7 +58,7 @@ description: デジタルデータが搾取される現代において、あな�
 
 プライバシーは使用する[ソフトウェアやサービス](../tools.md)にデフォルトで組み込まれている必要があります。多くのアプリでは自分でプライベートにするよう設定することはできません。
 
-[:material-movie-open-play-outline: 動画: プライバシーを改善する5つのステップ](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 
 ## ソース
 

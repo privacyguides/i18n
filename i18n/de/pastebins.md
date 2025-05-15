@@ -17,12 +17,12 @@ cover: pastebins.webp
 
 ![PrivateBin Logo](assets/img/pastebins/privatebin.svg){ align=right }
 
-**PrivateBin** ist ein minimalistischer, quelloffener Online-Pastebin, bei dem der Server keine Kenntnis von den eingefügten Daten hat. Die Daten werden im Browser mit 256-Bit-AES verschlüsselt bzw. entschlüsselt. Es ist die verbesserte Version von ZeroBin.
+**PrivateBin** is a minimalist, open-source, online pastebin where the server has zero knowledge of pasted data. Die Daten werden im Browser mit 256-Bit-AES verschlüsselt bzw. entschlüsselt. Es ist die verbesserte Version von ZeroBin.
 
 [:octicons-home-16: Homepage](https://privatebin.info){ .md-button .md-button--primary }
-[:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Öffentliche Instanzen"}
-[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title=Dokumentation}
-[:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Quellcode" }
+[:octicons-server-16:](https://privatebin.info/directory){ .card-link title="Public Instances"}
+[:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/wiki/FAQ){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
 
 </div>
 
@@ -49,11 +49,11 @@ cover: pastebins.webp
 ### Mindestanforderungen
 
 - Muss Open Source sein.
-- Muss eine "zero-trust" Ende-zu-Ende-Verschlüsselung implementieren.
+- Must implement "zero-trust" E2EE.
 - Muss passwortgeschützte Dateien unterstützen.
 
 ### Im besten Fall
 
 Unsere Best-Case-Kriterien stellen dar, was wir uns von einem perfekten Projekt in dieser Kategorie wünschen würden. Unsere Empfehlungen enthalten möglicherweise keine oder nicht alle dieser Merkmale, aber diejenigen, die sie enthalten, werden möglicherweise höher eingestuft als andere auf dieser Seite.
 
-- Sollte über ein veröffentlichtes Audit von einem angesehenen, unabhängigen Dritten verfügen.
+- Should have a published audit from a reputable, independent third party.

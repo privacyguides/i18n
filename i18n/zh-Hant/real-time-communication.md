@@ -15,7 +15,7 @@ cover: real-time-communication.webp
 
 這些是我們所推薦的加密 **實時通訊軟體**。 它們涵蓋了 [多種通訊網路類型](./advanced/communication-network-types.md)。
 
-[:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why/ ""){.md-button}
+[:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
 
 ## 加密通訊軟體
 

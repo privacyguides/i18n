@@ -28,7 +28,7 @@ La mayoría de las paquetes de ofimática en línea no admiten E2EE, lo que sign
 [:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
@@ -54,7 +54,7 @@ No recomendamos utilizar la [aplicación con cifrado de extremo a extremo](https
 
 ![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ align=right }
 
-**CryptPad** es una alternativa privada a las herramientas ofimáticas más populares. Todos los contenidos de este servicio web están cifrados de extremo a extremo y pueden compartirse fácilmente con otros usuarios. [:material-star-box: Read our latest CryptPad review.](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review/)
+**CryptPad** es una alternativa privada a las herramientas ofimáticas más populares. Todos los contenidos de este servicio web están cifrados de extremo a extremo y pueden compartirse fácilmente con otros usuarios. [:material-star-box: Read our latest CryptPad review.](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review)
 
 [:octicons-home-16: Página Principal](https://cryptpad.fr){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE){ .card-link title="Política de Privacidad" }
@@ -68,7 +68,7 @@ No recomendamos utilizar la [aplicación con cifrado de extremo a extremo](https
 
 ### Criterios
 
-**Por favor, ten en cuenta que no estamos afiliados a ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
+**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
 
 #### Requisitos Mínimos
 

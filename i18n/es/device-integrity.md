@@ -78,7 +78,7 @@ Estas herramientas pueden desencadenar falsos positivos. Si alguna de estas herr
 [:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-apple: macOS](https://docs.mvt.re/en/latest/install)
 - [:simple-linux: Linux](https://docs.mvt.re/en/latest/install)
@@ -121,7 +121,7 @@ MVT te permite realizar escaneos/análisis más profundos si tu dispositivo tien
 [:octicons-info-16:](https://imazing.com/spyware-analyzer){ .card-link title=Documentación}
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:fontawesome-brands-windows: Windows](https://imazing.com/download)
 - [:simple-apple: macOS](https://imazing.com/download)
@@ -164,7 +164,7 @@ El uso de estas aplicaciones no basta para determinar que un dispositivo está "
 [:octicons-heart-16:](https://attestation.app/donate){ .card-link title="Contribuir"}
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)

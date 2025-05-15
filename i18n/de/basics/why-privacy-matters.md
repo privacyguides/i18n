@@ -12,7 +12,7 @@ Die Privatsphäre geht letztendlich um menschliche Informationen, und das ist wi
 
 Viele Menschen verwechseln die Begriffe zur **Privatsphäre**, **Sicherheit** und **Anonymität**. Es gibt Leute, die verschiedene Produkte als "nicht privat" kritisieren, obwohl sie in Wirklichkeit meinen, dass sie beispielsweise keine Anonymität bieten. Auf dieser Website befassen wir uns mit allen drei Themen, aber es ist wichtig, dass du den Unterschied zwischen ihnen verstehst und weißt, wann es um welches der drei Themen geht.
 
-[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security/ ""){.md-button}
+[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security ""){.md-button}
 
 <!-- markdownlint-disable-next-line -->
 **Privatsphäre**
@@ -58,7 +58,7 @@ Nimm zum Beispiel Einwilligungserklärungen für Cookies. Auf den verschiedenen 
 
 Datenschutz ist etwas, das standardmäßig in die von uns genutzte [Software und die von uns genutzten Dienste](../tools.md) implementiert sein muss, denn man kann die meisten Anwendungen und Dienste nicht selbst auf Datenschutz trimmen.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 
 ## Quellen
 

@@ -42,10 +42,10 @@ A **news aggregator** is software which aggregates digital content from online n
 
 ![NewsFlash logo](assets/img/news-aggregators/newsflash.png){ align=right }
 
-**NewsFlash** is an open-source, modern, and easy-to-use news feed reader for Linux. It can be used offline or used with services like [Nextcloud News](https://apps.nextcloud.com/apps/news) or [Inoreader](https://inoreader.com). Il possède une fonction de recherche et une liste prédéfinie de sources qui peuvent être ajoutées directement.
+**NewsFlash** is an open-source, modern, and easy-to-use news feed reader for Linux. It can be used offline or with services like [Inoreader](https://inoreader.com) or [Nextcloud News](https://apps.nextcloud.com/apps/news). Il possède une fonction de recherche et une liste prédéfinie de sources qui peuvent être ajoutées directement.
 
-[:octicons-repo-16: Dépôt](https://gitlab.com/news-flash/news_flash_gtk){ .md-button .md-button--primary }
-[:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Code source" }
+[:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk#newsflash){ .md-button .md-button--primary }
+[:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Téléchargements</summary>
@@ -62,9 +62,11 @@ A **news aggregator** is software which aggregates digital content from online n
 
 ![Logo de Feeder](assets/img/news-aggregators/feeder.png){ align=right }
 
-**Feeder** est un client RSS moderne sur Android qui possède de nombreuses [fonctionnalités](https://github.com/spacecowboy/Feeder#features) et fonctionne bien avec des dossiers de flux RSS. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+**Feeder** est un client RSS moderne sur Android qui possède de nombreuses [fonctionnalités](https://github.com/spacecowboy/Feeder#features) et fonctionne bien avec des dossiers de flux RSS.
 
-[:octicons-repo-16: Repository](https://github.com/spacecowboy/Feeder){ .md-button .md-button--primary }
+It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+
+[:octicons-repo-16: Repository](https://github.com/spacecowboy/Feeder#readme){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title="Contribute" }
 
@@ -85,10 +87,12 @@ A **news aggregator** is software which aggregates digital content from online n
 ![Logo de Miniflux](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
 ![Logo de Miniflux](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
 
-**Miniflux** est un agrégateur de flux en ligne que vous pouvez auto-héberger. It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
+**Miniflux** est un agrégateur de flux en ligne que vous pouvez auto-héberger.
+
+It supports [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML), and [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed).
 
 [:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
-[:octicons-info-16:](https://miniflux.app/docs/index){ .card-link title="Documentation" }
+[:octicons-info-16:](https://miniflux.app/docs/index#user-guide){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title="Contribute" }
 
@@ -100,7 +104,9 @@ A **news aggregator** is software which aggregates digital content from online n
 
 ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
 
-**NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. Il prend en charge les formats de flux habituels, ainsi que les flux Reddit.
+**NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set.
+
+It supports conventional feed formats and includes built-in support for Reddit feeds.
 
 [:octicons-home-16: Homepage](https://netnewswire.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="Privacy Policy" }
@@ -126,7 +132,7 @@ A **news aggregator** is software which aggregates digital content from online n
 **Newsboat** est un lecteur de flux RSS/Atom pour les consoles texte. C'est un fork activement maintenu de [Newsbeuter](https://fr.wikipedia.org/wiki/Newsbeuter). It is very lightweight and ideal for use over [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
 
 [:octicons-home-16: Homepage](https://newsboat.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://newsboat.org/releases/2.37/docs/newsboat.html){ .card-link title="Documentation" }
+[:octicons-info-16:](https://newsboat.org/releases/2.38/docs/newsboat.html){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="Source Code" }
 
 </div>
@@ -164,7 +170,7 @@ You can subscribe to YouTube channels without logging in and associating usage i
 <div class="admonition example" markdown>
 <p class="admonition-title">Example</p>
 
-Pour s'abonner à une chaîne YouTube avec un client RSS, cherchez d'abord son [code de chaîne](https://support.google.com/youtube/answer/6180214). The channel code can be found on the about page of the YouTube channel you wish to subscribe to, under: **About** → **Share** → **Copy channel ID**. Replace `[CHANNEL ID]` below:
+Pour s'abonner à une chaîne YouTube avec un client RSS, cherchez d'abord son [code de chaîne](https://support.google.com/youtube/answer/6180214). The channel code can be found in the expanded description (i.e., the "About" section) of the YouTube channel you wish to subscribe to: **About** → **Share channel** → **Copy channel ID**. Replace `[CHANNEL ID]` below:
 
 ```text
 https://youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]

@@ -7,7 +7,7 @@ description: Sanal Özel Ağlar, riski İnternet Sağlayıcınızdan alıp güve
 
 Sanal Özel Ağlar, ağınızın ucunu dünyanın başka bir yerinden çıkmak üzere genişletmenin bir yoludur.
 
-[:material-movie-open-play-outline: Video: VPN'e ihtiyacınız var mı?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn/ ""){.md-button}
+[:material-movie-open-play-outline: Video: VPN'e ihtiyacınız var mı?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
 
 Normalde bir İSS, ağ sonlandırma cihazınıza (yani modeminize) giren ve çıkan internet trafiğinin akışını görebilir. HTTPS gibi şifreleme protokolleri internette yaygın olarak kullanılmaktadır, bu nedenle tam olarak ne gönderdiğinizi veya okuduğunuzu göremeyebilirler, ancak [talep ettiğiniz alan adları](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) hakkında bir fikir edinebilirler.
 

@@ -7,7 +7,7 @@ description: Virtual Private Networks verschuiven het risico van je ISP naar een
 
 Virtual Private Networks zijn een manier om het einde van je netwerk uit te breiden naar een uitgang ergens anders in de wereld.
 
-[:material-movie-open-play-outline: Video: Do you need a VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn/ ""){.md-button}
+[:material-movie-open-play-outline: Video: Do you need a VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
 
 Normaal gesproken kan een ISP de stroom internetverkeer zien die je netwerkapparaat (d.w.z. modem) binnenkomt en verlaat. Versleutelingsprotocollen zoals HTTPS worden vaak gebruikt op het internet, dus ze kunnen misschien niet precies zien wat je post of leest, maar ze kunnen wel een idee krijgen van de [domeinen die je opvraagt](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 

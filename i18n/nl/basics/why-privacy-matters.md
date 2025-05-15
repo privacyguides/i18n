@@ -12,7 +12,7 @@ De privacy gaat uiteindelijk over menselijke informatie, en dat is belangrijk om
 
 Veel mensen halen de begrippen **privacy**, **veiligheid**, en **anonimiteit** door elkaar. Je ziet mensen verschillende producten bekritiseren als "niet privé", terwijl ze eigenlijk bedoelen dat het bijvoorbeeld geen anonimiteit biedt. Op deze website behandelen we alle drie onderwerpen, maar het is belangrijk dat je het verschil begrijpt en wanneer het om verschillende zaken gaat.
 
-[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security/ ""){.md-button}
+[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security ""){.md-button}
 
 <!-- markdownlint-disable-next-line -->
 **Privacy**
@@ -58,7 +58,7 @@ Neem bijvoorbeeld de cookie popups. Je kunt deze tientallen keren per dag tegenk
 
 Privacy is iets wat we standaard in [software en diensten](../tools.md) moeten ingebakken hebben je kan de meeste apps niet zelfstandig privé maken.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 
 ## Bronnen
 

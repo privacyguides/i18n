@@ -114,6 +114,6 @@ In the modern age of digital data exploitation, your privacy has never been more
 
 Many people get the concepts of privacy, security, and anonymity confused. אתה תראה אנשים מבקרים מוצרים שונים כ"לא פרטיים" כאשר הם באמת מתכוונים שזה לא מספק אנונימיות, למשל. באתר זה אנו מכסים את כל שלושת הנושאים הללו, אך חשוב שתבינו את ההבדל ביניהם, ומתי כל אחד מהם נכנס לפעולה.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 </div>
 </div>

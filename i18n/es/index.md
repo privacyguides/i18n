@@ -115,6 +115,6 @@ En la era moderna de explotación de información digital, tu privacidad nunca h
 
 Muchas personas confunden los conceptos de privacidad, seguridad y anonimato. Por ejemplo, verás a gente criticar varios productos por "no ser privados" cuando en realidad quieren decir que no proporcionan anonimato. En este sitio web tratamos estos tres temas, pero es importante que entiendas la diferencia entre ellos y cuándo entra en juego cada uno.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 </div>
 </div>

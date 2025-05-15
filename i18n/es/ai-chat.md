@@ -44,7 +44,7 @@ Para ejecutar IA localmente, se necesita tanto un modelo de IA como un cliente d
 
 Hay muchos modelos con licencia permisiva disponibles para descargar. [Hugging Face](https://huggingface.co/models) es una plataforma que te permite navegar, investigar y descargar modelos en formatos comunes como [GGUF](https://huggingface.co/docs/hub/en/gguf). Entre las empresas que ofrecen buenos modelos open-weights figuran grandes nombres como Mistral, Meta, Microsoft y Google. However, there are also many community models and [fine-tuned](https://en.wikipedia.org/wiki/Fine-tuning_\(deep_learning\)) models available. Como ya se ha mencionado, los modelos cuantificados ofrecen el mejor equilibrio entre calidad de modelo y rendimiento para quienes utilizan hardware de consumo personal.
 
-Para ayudarte a elegir un modelo que se adapte a tus necesidades, puedes consultar tablas de clasificación y puntos de referencia. La tabla de clasificación más utilizada es la de la comunidad [LM Arena](https://lmarena.ai). Además, la [OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) se centra en el rendimiento de los modelos open-weights en puntos de referencia comunes como [MMLU-Pro](https://arxiv.org/abs/2406.01574).  También existen puntos de referencia especializados que miden factores como [inteligencia emocional](https://eqbench.com), [«inteligencia general no censurada»](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard), y [muchos otros](https://www.nebuly.com/blog/llm-leaderboards).
+Para ayudarte a elegir un modelo que se adapte a tus necesidades, puedes consultar tablas de clasificación y puntos de referencia. La tabla de clasificación más utilizada es la de la comunidad [LM Arena](https://lmarena.ai). Además, la [OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) se centra en el rendimiento de los modelos open-weights en puntos de referencia comunes como [MMLU-Pro](https://arxiv.org/abs/2406.01574).  There are also specialized benchmarks which measure factors like [emotional intelligence](https://eqbench.com), ["uncensored general intelligence"](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard), and [many others](https://nebuly.com/blog/llm-leaderboards).
 
 ## Clientes de Chat IA
 
@@ -67,13 +67,13 @@ Para ayudarte a elegir un modelo que se adapte a tus necesidades, puedes consult
 
 Además de soportar una amplia gama de modelos de texto, Kobold.cpp también soporta generadores de imágenes como [Stable Diffusion](https://stability.ai/stable-image) y herramientas de reconocimiento automático de voz como [Whisper](https://github.com/ggerganov/whisper.cpp).
 
-[:octicons-home-16: Página Principal](https://github.com/LostRuins/koboldcpp){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title="Documentación" }
-[:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="Código Fuente" }
-[:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="Política de Seguridad" }
+[:octicons-repo-16: Repository](https://github.com/LostRuins/koboldcpp#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="Source Code" }
+[:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="Security Policy" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:fontawesome-brands-windows: Windows](https://github.com/LostRuins/koboldcpp/releases)
 - [:simple-apple: macOS](https://github.com/LostRuins/koboldcpp/releases)
@@ -108,7 +108,7 @@ Además de soportar una amplia gama de modelos de texto, Ollama también soporta
 [:octicons-lock-16:](https://github.com/ollama/ollama/blob/a14f76491d694b2f5a0dec6473514b7f93beeea0/SECURITY.md){ .card-link title="Política de Seguridad" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:fontawesome-brands-windows: Windows](https://ollama.com/download/windows)
 - [:simple-apple: macOS](https://ollama.com/download/mac)
@@ -124,19 +124,19 @@ Ollama simplifica el proceso de creación de un chat de IA local descargando aut
 
 <div class="admonition recommendation" markdown>
 
-![Llamafile Logo](assets/img/ai-chat/llamafile.png){align=right}
+![Llamafile Logo](assets/img/ai-chat/llamafile.webp){align=right}
 
 **Llamafile** is a lightweight, single-file executable that allows users to run LLMs locally on their own computers without any setup involved. Está [respaldado por Mozilla](https://hacks.mozilla.org/2023/11/introducing-llamafile) y disponible en Linux, macOS y Windows.
 
 Llamafile también es compatible con LLaVA. Sin embargo, no admite el reconocimiento de voz ni la generación de imágenes.
 
-[:octicons-home-16: Página Principal](https://github.com/Mozilla-Ocho/llamafile){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Mozilla-Ocho/llamafile#llamafile){ .card-link title="Documentación" }
-[:octicons-code-16:](https://github.com/Mozilla-Ocho/llamafile){ .card-link title="Código Fuente" }
-[:octicons-lock-16:](https://github.com/Mozilla-Ocho/llamafile#security){ .card-link title="Política de Seguridad" }
+[:octicons-repo-16: Repository](https://github.com/Mozilla-Ocho/llamafile#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Mozilla-Ocho/llamafile#quickstart){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/Mozilla-Ocho/llamafile){ .card-link title="Source Code" }
+[:octicons-lock-16:](https://github.com/Mozilla-Ocho/llamafile#security){ .card-link title="Security Policy" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:fontawesome-brands-windows: Windows](https://github.com/Mozilla-Ocho/llamafile#quickstart)
 - [:simple-apple: macOS](https://github.com/Mozilla-Ocho/llamafile#quickstart)

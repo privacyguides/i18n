@@ -65,7 +65,7 @@ L'utilisation d'un service d'alias nécessite de faire confiance à la fois à v
 [:octicons-heart-16:](https://addy.io/donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
-<summary>Téléchargements</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://addy.io/faq/#is-there-an-android-app)
 - [:simple-appstore: App Store](https://addy.io/faq/#is-there-an-ios-app)
@@ -106,7 +106,7 @@ If you cancel your subscription, you will still enjoy the features of your paid 
 [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Téléchargements</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.simplelogin.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1494359858)

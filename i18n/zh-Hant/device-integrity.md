@@ -78,7 +78,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 [:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-apple: macOS](https://docs.mvt.re/en/latest/install)
 - [:simple-linux: Linux](https://docs.mvt.re/en/latest/install)
@@ -122,7 +122,7 @@ MVT 對掃描 iOS 裝置「最」有用。 Android 儲存的診斷資訊非常�
 [:octicons-info-16:](https://imazing.com/spyware-analyzer){ .card-link title=說明文件}
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:fontawesome-brands-windows: Windows](https://imazing.com/download)
 - [:simple-apple: macOS](https://imazing.com/download)
@@ -165,7 +165,7 @@ iMazing 會自動並以互動方式引導完成使用 [MVT](#mobile-verification
 [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)

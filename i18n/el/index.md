@@ -114,6 +114,6 @@ In the modern age of digital data exploitation, your privacy has never been more
 
 Many people get the concepts of privacy, security, and anonymity confused. Θα ακούσεις, για παράδειγμα, άτομα να κριτικάρουν διάφορα προϊόντα ως «μη-ιδιωτικά» ενώ στην πραγματικότητα εννοούν πως αυτά δεν προσφέρουν ανωνυμία. Στον παρών ιστότοπο καλύπτουμε και τα τρία θέματα, μα είναι κρίσιμο, όπως προαναφέραμε, να θυμάσαι την εννοιολογική τους διαφορά όσο διαβάζεις τις συμβουλές μας.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 </div>
 </div>

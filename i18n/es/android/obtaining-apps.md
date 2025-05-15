@@ -19,7 +19,7 @@ Hay varias formas para obtener aplicaciones de Android de una manera privada, in
 [:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
 
@@ -48,7 +48,7 @@ Google Play Store requiere una cuenta de Google para iniciar sesión, algo poco 
 [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Código fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 

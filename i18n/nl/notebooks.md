@@ -1,7 +1,7 @@
 ---
 title: "Notitieboekjes"
 icon: material/notebook-edit-outline
-description: These encrypted note-taking apps let you keep track of your notes without giving them to a third-party.
+description: These encrypted note-taking apps let you keep track of your notes without giving them to a third party.
 cover: notebooks.webp
 ---
 
@@ -11,7 +11,7 @@ cover: notebooks.webp
 
 Keep track of your notes and journals without giving them to a third party.
 
-Als je momenteel een toepassing zoals Evernote, Google Keep of Microsoft OneNote gebruikt, raden wij je aan hier een alternatief te kiezen dat E2EE ondersteunt.
+If you are currently using an application like Evernote, Google Keep, or Microsoft OneNote, we suggest you pick an alternative here that supports end-to-end encryption.
 
 ## Cloud-gebaseerd
 
@@ -21,13 +21,15 @@ Als je momenteel een toepassing zoals Evernote, Google Keep of Microsoft OneNote
 
 ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }
 
-Standard Notes is een eenvoudige en persoonlijke notitie app die jouw notities gemakkelijk en overal beschikbaar maakt. Het biedt E2EE op elk platform, en een krachtige desktop-ervaring met thema's en aangepaste editors. Het is ook [onafhankelijk gecontroleerd](https://standardnotes.com/help/2/has-standard-notes-completed-a-third party-security-audit).
+**Standard Notes** is a simple and private notes app that features cross-platform sync for seamless use. Het biedt E2EE op elk platform, en een krachtige desktop-ervaring met thema's en aangepaste editors.
+
+Standard Notes has also undergone multiple [independent audits](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
 
 [:octicons-home-16: Homepage](https://standardnotes.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://standardnotes.com/help){ .card-link title=Documentation}
+[:octicons-info-16:](https://standardnotes.com/help){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title=Contribute }
+[:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -38,7 +40,7 @@ Standard Notes is een eenvoudige en persoonlijke notitie app die jouw notities g
 - [:fontawesome-brands-windows: Windows](https://standardnotes.com)
 - [:simple-apple: macOS](https://standardnotes.com)
 - [:simple-linux: Linux](https://standardnotes.com)
-- [:octicons-globe-16: Web](https://app.standardnotes.com)
+- [:octicons-browser-16: Web](https://app.standardnotes.com)
 
 </details>
 
@@ -52,13 +54,15 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 ![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
 
-**Notesnook** is a free (as in speech) & open-source note-taking app focused on user privacy & ease of use. Het biedt end-to-end encryptie op alle platformen met een krachtige synchronisatie om je notities onderweg te maken. You can easily import your notes from Evernote, OneNote & a lot of other apps using their [official importer](https://importer.notesnook.com).
+**Notesnook** is a free (as in speech), open-source, and easy-to-use E2EE note-taking app focused on user privacy.
+
+It features sync functionality that allows you to access your notes on multiple platforms. You can easily import your notes from Evernote, OneNote, and other apps using their [official importer](https://importer.notesnook.com).
 
 [:octicons-home-16: Homepage](https://notesnook.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.notesnook.com){ .card-link title=Documentation}
+[:octicons-info-16:](https://help.notesnook.com){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/streetwriters/notesnook/blob/master/CONTRIBUTING.md){ .card-link title=Contribute }
+[:octicons-heart-16:](https://opencollective.com/notesnook){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -69,10 +73,10 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 - [:fontawesome-brands-windows: Windows](https://notesnook.com/downloads)
 - [:simple-apple: macOS](https://notesnook.com/downloads)
 - [:simple-linux: Linux](https://notesnook.com/downloads)
-- [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/notesnook-web-clipper/kljhpemdlcnjohmfmkogahelkcidieaj)
-- [:octicons-globe-16: Web](https://app.notesnook.com)
 - [:simple-flathub: Flathub](https://flathub.org/apps/com.notesnook.Notesnook)
+- [:simple-firefoxbrowser: Firefox](https://notesnook.com/notesnook-web-clipper)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/kljhpemdlcnjohmfmkogahelkcidieaj)
+- [:octicons-browser-16: Web](https://app.notesnook.com)
 
 </details>
 
@@ -84,13 +88,15 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 
 ![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
 
-**Joplin** is a free, open-source, and fully-featured note-taking and to-do application which can handle numerous markdown notes organized into notebooks and tags. Het biedt E2EE en kan synchroniseren via Nextcloud, Dropbox, en meer. Het biedt ook een gemakkelijke import vanuit Evernote en notities in gewone tekst.
+**Joplin** is a free, open-source, and fully-featured E2EE note-taking and to-do application which can handle numerous Markdown notes organized into notebooks and tags.
+
+It can sync through Nextcloud, Dropbox, and more. Het biedt ook een gemakkelijke import vanuit Evernote en notities in gewone tekst.
 
 [:octicons-home-16: Homepage](https://joplinapp.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://joplinapp.org/help){ .card-link title=Documentation}
+[:octicons-info-16:](https://joplinapp.org/help){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://joplinapp.org/donate){ .card-link title=Contribute }
+[:octicons-heart-16:](https://joplinapp.org/donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -102,13 +108,13 @@ Standard Notes has [joined Proton AG](https://standardnotes.com/blog/joining-for
 - [:simple-apple: macOS](https://joplinapp.org/#desktop-applications)
 - [:simple-linux: Linux](https://joplinapp.org/#desktop-applications)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/joplin-web-clipper)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/joplin-web-clipper/alofnhikmmkdbbbgpnglcpdollgjjfek)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/alofnhikmmkdbbbgpnglcpdollgjjfek)
 
 </details>
 
 </div>
 
-Joplin does not [support](https://github.com/laurent22/joplin/issues/289) password/PIN protection for the application itself or individual notes and notebooks. Gegevens worden nog steeds versleuteld tijdens het transport en op de synchronisatielocatie met behulp van jouw hoofdsleutel. Since January 2023, Joplin [supports biometrics](https://github.com/laurent22/joplin/commit/f10d9f75b055d84416053fab7e35438f598753e9) app lock for Android and iOS.
+Joplin [does not support](https://github.com/laurent22/joplin/issues/289) password/PIN protection for the application itself or individual notes and notebooks. Gegevens worden nog steeds versleuteld tijdens het transport en op de synchronisatielocatie met behulp van jouw hoofdsleutel. Since January 2023, Joplin [supports biometrics app lock](https://github.com/laurent22/joplin/commit/f10d9f75b055d84416053fab7e35438f598753e9) for Android and iOS.
 
 ### Cryptee
 
@@ -117,23 +123,25 @@ Joplin does not [support](https://github.com/laurent22/joplin/issues/289) passwo
 ![Cryptee logo](./assets/img/notebooks/cryptee.svg#only-light){ align=right }
 ![Cryptee logo](./assets/img/notebooks/cryptee-dark.svg#only-dark){ align=right }
 
-**Cryptee** is een web-gebaseerde, versleutelde, veilige foto opslag service en documenten editor. Cryptee is een PWA, wat betekent dat het naadloos werkt op alle moderne apparaten zonder dat er native apps voor elk platform nodig zijn.
+**Cryptee** is een web-gebaseerde, versleutelde, veilige foto opslag service en documenten editor.
+
+Cryptee offers 100 MB of storage for free, with paid options if you need more. Sign-up doesn't require an e-mail or other personally identifiable information.
 
 [:octicons-home-16: Homepage](https://crypt.ee){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://crypt.ee/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://crypt.ee/help){ .card-link title=Documentation}
+[:octicons-info-16:](https://crypt.ee/help){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/cryptee){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:octicons-globe-16: PWA](https://crypt.ee/download)
+- [:octicons-browser-16: Web](https://crypt.ee/download)
 
 </details>
 
 </div>
 
-Cryptee offers 100 MB of storage for free, with paid options if you need more. Aanmelden vereist geen e-mail of andere persoonlijk identificeerbare informatie.
+Cryptee is a PWA, which means that it works seamlessly across all modern devices without requiring native apps for each respective platform.
 
 ## Lokale notitieblokken
 
@@ -143,12 +151,12 @@ Cryptee offers 100 MB of storage for free, with paid options if you need more. 
 
 ![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
 
-**Org-mode** is a [major mode](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode is voor het bijhouden van notities, het bijhouden van Todo lijsten, het plannen van projecten, en het schrijven van documenten met een snel en effectief plain-text systeem. Synchronisatie is mogelijk met [bestandssynchronisatie](file-sharing.md#file-sync) tools.
+**Org-mode** is a [major mode](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) for GNU Emacs. Org-mode is voor het bijhouden van notities, het bijhouden van Todo lijsten, het plannen van projecten, en het schrijven van documenten met een snel en effectief plain-text systeem. File synchronization is possible with tools like [Syncthing](file-sharing.md#syncthing-p2p).
 
 [:octicons-home-16: Homepage](https://orgmode.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title=Documentatie}
-[:octicons-code-16:](https://git.savannah.gnu.org/cgit/emacs/org-mode.git){ .card-link title="Broncode" }
-[:octicons-heart-16:](https://liberapay.com/bzg){ .card-link title=Bijdrage leveren }
+[:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title="Documentation" }
+[:octicons-code-16:](https://git.savannah.gnu.org/cgit/emacs/org-mode.git){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://liberapay.com/bzg){ .card-link title="Contribute" }
 
 </details>
 

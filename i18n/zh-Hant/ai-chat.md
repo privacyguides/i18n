@@ -44,7 +44,7 @@ LLM 通常可以透過參數的數量來區分用途，對於提供給終端使�
 
 有許多採用寬鬆式自由軟體授權條款的模型可供下載。 [Hugging Face](https://huggingface.co/models) 是一個讓您瀏覽、研究和下載常用格式模型的平台，如 [GGUF](https://huggingface.co/docs/hub/en/gguf)。 提供優質 'open-weights'模型 的公司包括 Mistral、Meta、Microsoft 和 Google 等大公司。 However, there are also many community models and [fine-tuned](https://en.wikipedia.org/wiki/Fine-tuning_\(deep_learning\)) models available. 如上所述，量化模型為使用消費級硬體的使用者提供了模型品質與效能之間的最佳平衡。
 
-為了幫助您選擇適合您的模型，您可以參考排行榜和基準。 使用最廣泛的排行榜是由社群驅動的 [LM Arena](https://lmarena.ai)。 此外，[OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) 著重於 'open-weights'模型 在一般基準上的表現，例如： [MMLU-Pro](https://arxiv.org/abs/2406.01574)。  也有一些專門的基準測量因素，例如： [情緒智力](https://eqbench.com)、[「不受限制的」一般智力](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard)，以及 [其他許多因素](https://www.nebuly.com/blog/llm-leaderboards)。
+為了幫助您選擇適合您的模型，您可以參考排行榜和基準。 使用最廣泛的排行榜是由社群驅動的 [LM Arena](https://lmarena.ai)。 此外，[OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) 著重於 'open-weights'模型 在一般基準上的表現，例如： [MMLU-Pro](https://arxiv.org/abs/2406.01574)。  There are also specialized benchmarks which measure factors like [emotional intelligence](https://eqbench.com), ["uncensored general intelligence"](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard), and [many others](https://nebuly.com/blog/llm-leaderboards).
 
 ## AI 聊天客戶端
 
@@ -67,13 +67,13 @@ LLM 通常可以透過參數的數量來區分用途，對於提供給終端使�
 
 除了支援大量的文字模型之外，Kobold.cpp 也支援圖片產生器，如： [Stable Diffusion](https://stability.ai/stable-image) ；以及自動語音辨識工具，如： [Whisper](https://github.com/ggerganov/whisper.cpp)。
 
-[:octicons-home-16: 首頁](https://github.com/LostRuins/koboldcpp){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title="說明文件" }
-[:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="原始碼" }
-[:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="安全策略" }
+[:octicons-repo-16: Repository](https://github.com/LostRuins/koboldcpp#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="Source Code" }
+[:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="Security Policy" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:fontawesome-brands-windows: Windows](https://github.com/LostRuins/koboldcpp/releases)
 - [:simple-apple: macOS](https://github.com/LostRuins/koboldcpp/releases)
@@ -108,7 +108,7 @@ Kobold.cpp 可讓您修改 AI 模型溫度和 AI 聊天的 system prompt 等參�
 [:octicons-lock-16:](https://github.com/ollama/ollama/blob/a14f76491d694b2f5a0dec6473514b7f93beeea0/SECURITY.md){ .card-link title="安全策略" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:fontawesome-brands-windows: Windows](https://ollama.com/download/windows)
 - [:simple-apple: macOS](https://ollama.com/download/mac)
@@ -124,19 +124,19 @@ Ollama 可自動下載您要使用的 AI 模型，簡化設定本地 AI 聊天�
 
 <div class="admonition recommendation" markdown>
 
-![Llamafile Logo](assets/img/ai-chat/llamafile.png){align=right}
+![Llamafile Logo](assets/img/ai-chat/llamafile.webp){align=right}
 
 **Llamafile** is a lightweight, single-file executable that allows users to run LLMs locally on their own computers without any setup involved. 它 [由 Mozilla 資助](https://hacks.mozilla.org/2023/11/introducing-llamafile)，可在 Linux、macOS 和 Windows 上使用。
 
 Llamafile 也支援 LLaVA。 但是，它不支援語音辨識及圖片生成。
 
-[:octicons-home-16: 首頁](https://github.com/Mozilla-Ocho/llamafile){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Mozilla-Ocho/llamafile#llamafile){ .card-link title="說明文件" }
-[:octicons-code-16:](https://github.com/Mozilla-Ocho/llamafile){ .card-link title="原始碼" }
-[:octicons-lock-16:](https://github.com/Mozilla-Ocho/llamafile#security){ .card-link title="安全策略" }
+[:octicons-repo-16: Repository](https://github.com/Mozilla-Ocho/llamafile#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Mozilla-Ocho/llamafile#quickstart){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/Mozilla-Ocho/llamafile){ .card-link title="Source Code" }
+[:octicons-lock-16:](https://github.com/Mozilla-Ocho/llamafile#security){ .card-link title="Security Policy" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:fontawesome-brands-windows: Windows](https://github.com/Mozilla-Ocho/llamafile#quickstart)
 - [:simple-apple: macOS](https://github.com/Mozilla-Ocho/llamafile#quickstart)

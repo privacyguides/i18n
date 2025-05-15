@@ -128,14 +128,14 @@ schema:
 
 **Password managers** allow you to securely store and manage passwords and other credentials with the use of a master password.
 
-[Introduction to Passwords :material-arrow-right-drop-circle:](./basics/passwords-overview.md)
+[Introduction to Passwords :material-arrow-right-drop-circle:](basics/passwords-overview.md)
 
 <div class="admonition info" markdown>
 <p class="admonition-title">Info</p>
 
 Tarayıcılar ve işletim sistemleri gibi yazılımlardaki yerleşik parola yöneticileri bazen özel parola yöneticisi yazılımları kadar iyi olmayabilir. The advantage of a built-in password manager is good integration with the software, but it can often be very simple and lack privacy and security features that standalone offerings have.
 
-Örneğin Microsoft Edge'in parola yöneticisi uçtan uca şifrelemeyi desteklemez. Google's password manager has [optional](https://support.google.com/accounts/answer/11350823) E2EE, and [Apple's](https://support.apple.com/HT202303) offers E2EE by default.
+For example, the password manager in Microsoft Edge doesn't offer end-to-end encryption at all. Google's password manager has [optional](https://support.google.com/accounts/answer/11350823) E2EE, and [Apple's](https://support.apple.com/HT202303) offers E2EE by default.
 
 </div>
 
@@ -167,15 +167,15 @@ Bu parola yöneticileri, tüm cihazlarınızdan kolay erişim ve cihaz kaybına 
 - [:simple-linux: Linux](https://bitwarden.com/download)
 - [:simple-flathub: Flathub](https://flathub.org/apps/details/com.bitwarden.desktop)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/bitwarden-password-manager)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/nngceckbapebfimnlniiiahkandclblb)
 - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
-- [:simple-safari: Safari](https://apps.apple.com/us/app/bitwarden/id1352778147)
+- [:simple-safari: Safari](https://apps.apple.com/app/id1352778147)
 
 </details>
 
 </div>
 
-Bitwarden uses [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) as its key derivation function (KDF) algorithm by default. It also offers [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id), which is more secure, as an alternative. You can change your account's KDF algorithm in the web vault.
+Bitwarden uses [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) as its key derivation function (KDF) algorithm by default. It also offers [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id), which is more secure, as an alternative. You can change your account's KDF algorithm in the web vault:
 
 - [x] Select **Settings > Security > Keys > KDF algorithm > Argon2id**
 
@@ -204,11 +204,11 @@ Bitwarden's server-side code is [open source](https://github.com/bitwarden/serve
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=proton.android.pass)
-- [:simple-appstore: App Store](https://apps.apple.com/us/app/proton-pass-password-manager/id6443490629)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id6443490629)
 - [:fontawesome-brands-windows: Windows](https://proton.me/pass/download)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/proton-pass)
-- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
-- [:fontawesome-brands-edge: Edge](https://chromewebstore.google.com/detail/proton-pass-free-password/ghmbeldphafepmbegfdlkpapadhbakde)
+- [:simple-googlechrome: Chrome](https://chromewebstore.google.com/detail/ghmbeldphafepmbegfdlkpapadhbakde)
+- [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/gcllgfdnfnllodcaambdaknbipemelie)
 - [:octicons-browser-16: Web](https://pass.proton.me)
 
 </details>
@@ -229,7 +229,9 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 
 ![1Password logo](assets/img/password-management/1password.svg){ align=right }
 
-**1Password**, parolaları, geçiş anahtarlarını, kredi kartlarını, yazılım lisanslarını ve diğer hassas bilgileri güvenli bir dijital kasada saklamanıza olanak tanıyan, güvenlik ve kullanım kolaylığına odaklanan bir parola yöneticisidir. Kasanız bir [aylık ücret] karşılığında 1Password'ün sunucularında barındırılır (https://1password.com/sign-up). 1Password düzenli olarak [denetlenir](https://support.1password.com/security-assessments) ve olağanüstü müşteri desteği sağlar. 1Password kapalı kaynak kodludur; ancak ürünün güvenliği [security white paper] (https://1passwordstatic.com/files/security/1password-white-paper.pdf) adresinde ayrıntılı olarak belgelenmiştir.
+**1Password**, parolaları, geçiş anahtarlarını, kredi kartlarını, yazılım lisanslarını ve diğer hassas bilgileri güvenli bir dijital kasada saklamanıza olanak tanıyan, güvenlik ve kullanım kolaylığına odaklanan bir parola yöneticisidir. Kasanız bir [aylık ücret] karşılığında 1Password'ün sunucularında barındırılır (https://1password.com/sign-up).
+
+1Password düzenli olarak [denetlenir](https://support.1password.com/security-assessments) ve olağanüstü müşteri desteği sağlar. 1Password kapalı kaynak kodludur; ancak ürünün güvenliği [security white paper] (https://1passwordstatic.com/files/security/1password-white-paper.pdf) adresinde ayrıntılı olarak belgelenmiştir.
 
 [:octicons-home-16: Homepage](https://tresorit.com/){ class="md-button md-button--primary" }
 [:octicons-eye-16:](https://tresorit.com/legal/privacy-policy){ .card-link title="Privacy Policy" }
@@ -238,7 +240,7 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 " }
 
 <details class="downloads" markdown>
-<summary>İndirmeler</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750)
@@ -246,16 +248,16 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 - [:simple-apple: macOS](https://1password.com/downloads/mac)
 - [:simple-linux: Linux](https://1password.com/downloads/linux)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/1password-x-password-manager)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
 - [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/dppgmdbiimibapkepcbdbmkaabgiofem)
-- [:simple-safari: Safari](https://apps.apple.com/us/app/1password-for-safari/id1569813296)
+- [:simple-safari: Safari](https://apps.apple.com/app/id1569813296)
 - [:octicons-browser-16: Web](https://my.1password.com/signin)
 
 </details>
 
 </div>
 
-Geleneksel olarak 1Password, macOS ve iOS kullanan kişiler için en iyi parola yöneticisi kullanıcı deneyimini sunmuştur; ancak artık tüm platformlarda özellik eşitliğine ulaşmıştır. 1Password'ün müşterileri, kullanım ve gezinme kolaylığı için sezgisel bir kullanıcı arayüzünün yanı sıra gelişmiş işlevsellik gibi ailelere ve daha az teknik kişilere yönelik birçok özelliğe sahiptir. Özellikle, 1Password'ün neredeyse her özelliği yerel mobil veya masaüstü istemcilerinde mevcuttur.
+Geleneksel olarak 1Password, macOS ve iOS kullanan kişiler için en iyi parola yöneticisi kullanıcı deneyimini sunmuştur; ancak artık tüm platformlarda özellik eşitliğine ulaşmıştır. 1Password's clients boast many features geared towards families and less technical people, such as an intuitive UI for ease-of-use and navigation, as well as advanced functionality. Özellikle, 1Password'ün neredeyse her özelliği yerel mobil veya masaüstü istemcilerinde mevcuttur.
 
 1Password kasanız hem ana parolanızla hem de sunucularında verilerinizi şifrelemek için rastgele 34 karakterli bir güvenlik anahtarıyla korunur. Bu güvenlik anahtarı verilerinize bir koruma katmanı ekler çünkü verileriniz ana parolanızdan bağımsız olarak yüksek entropi ile güvence altına alınır. Diğer birçok parola yöneticisi çözümü, verilerinizin güvenliğini sağlamak için tamamen ana parolanızın gücüne dayanır.
 
@@ -273,12 +275,12 @@ Geleneksel olarak 1Password, macOS ve iOS kullanan kişiler için en iyi parola 
 [](){ .card-link title=Contribute" }
 
 <details class="downloads" markdown>
-<summary>İndirmeler</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1545581224)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/psono-pw-password-manager)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/psonopw-password-manager/eljmjmgjkbmpmfljlmklcfineebidmlo)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/eljmjmgjkbmpmfljlmklcfineebidmlo)
 - [:simple-docker: Docker Hub](https://hub.docker.com/r/psono/psono-client)
 
 </details>
@@ -327,14 +329,14 @@ Bu seçenekler şifrelenmiş bir parola veritabanını yerel olarak yönetmenizi
 [:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title=Contribute }???
 
 <details class="downloads" markdown>
-<summary>İndirmeler</summary>
+<summary>Downloads</summary>
 
 - [:fontawesome-brands-windows: Windows](https://keepassxc.org/download/#windows)
 - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
 - [:simple-linux: Linux](https://keepassxc.org/download/#linux)
-- [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk)
+- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/oboonakemofpalcgghocfoadofidjkkk)
 
 </details>
 
@@ -348,12 +350,12 @@ KeePassXC dışa aktarma verilerini [CSV](https://en.wikipedia.org/wiki/Comma-se
 
 ![KeePassDX logosu](assets/img/password-management/keepassdx.svg){ align=right }
 
-**KeePassDX** Android için hafif bir şifre yöneticisidir; şifrelenmiş verilerin KeePass formatında tek bir dosyada düzenlenmesine izin verir ve formları güvenli bir şekilde doldurabilir. Uygulamanın [pro sürümü](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) kozmetik içeriğin ve standart dışı protokol özelliklerinin kilidini açmanıza izin verir, ancak daha da önemlisi, gelişime yardımcı olur ve teşvik eder.
+**KeePassDX** Android için hafif bir şifre yöneticisidir; şifrelenmiş verilerin KeePass formatında tek bir dosyada düzenlenmesine izin verir ve formları güvenli bir şekilde doldurabilir.
 
-[:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="Public Instances"}
-[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title=Documentation}
-[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title="Source Code" }
-[](){ .card-link title=Contribute" }
+[:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>İndirmeler</summary>
@@ -364,6 +366,8 @@ KeePassXC dışa aktarma verilerini [CSV](https://en.wikipedia.org/wiki/Comma-se
 </details>
 
 </div>
+
+The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) of the app allows you to unlock cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
 
 ### Gopass (CLI)
 

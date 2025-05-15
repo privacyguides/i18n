@@ -8,9 +8,9 @@ description: Tor es una red descentralizada y gratuita diseñada para utilizar I
 
 [**Tor**](../alternative-networks.md#tor) es una red gratuita y descentralizada diseñada para usar el Internet con la mayor privacidad posible. Si se utiliza correctamente, la red permite la navegación y las comunicaciones privadas y anónimas. Debido a que el tráfico de Tor es difícil de bloquear y rastrear, Tor es una herramienta eficaz para eludir la censura.
 
-[:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor/ ""){.md-button}
+[:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
 
-Tor funciona enrutando tu tráfico de Internet a través de servidores operados por voluntarios, en vez de realizar conexiones directas al sitio que estás tratando de visitar. Esto ofusca de dónde viene el tráfico, y ningún servidor en la ruta de conexión es capaz de ver la ruta completa de dónde viene y a dónde va el tráfico, lo que significa que incluso los servidores a los que te estás conectando no pueden romper tu anonimato.
+Tor works by routing your internet traffic through volunteer-operated servers instead of making a direct connection to the site you're trying to visit. Esto ofusca de dónde viene el tráfico, y ningún servidor en la ruta de conexión es capaz de ver la ruta completa de dónde viene y a dónde va el tráfico, lo que significa que incluso los servidores a los que te estás conectando no pueden romper tu anonimato.
 
 [:octicons-home-16:](https://torproject.org){ .card-link title=Página Principal }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Servicio Onion" }
@@ -35,13 +35,13 @@ Como ya [generalmente recomendamos](../basics/vpn-overview.md) que la gran mayor
 
 Conectarse directamente a Tor hará que tu conexión destaque ante cualquier administrador de red local o tu ISP. Detectar y correlacionar este tráfico [se ha hecho](https://edition.cnn.com/2013/12/17/justice/massachusetts-harvard-hoax) en el pasado por administradores de red para identificar y desanonimizar usuarios Tor específicos en su red. Por otra parte, conectarse a una VPN es casi siempre menos sospechoso, porque los proveedores comerciales de VPN son utilizados por los consumidores cotidianos para una variedad de tareas mundanas como eludir las restricciones geográficas, incluso en países con fuertes restricciones de Internet.
 
-Por lo tanto, debes hacer un esfuerzo para ocultar tu dirección IP **antes de** conectarte a la red Tor. Puedes hacerlo simplemente conectándote a una VPN (a través de un cliente instalado en tu ordenador) y luego accediendo a [Tor](../tor.md) de forma normal, a través de Tor Browser, por ejemplo. Esto crea una cadena de conexión como:
+Por lo tanto, debes hacer un esfuerzo para ocultar tu dirección IP **antes de** conectarte a la red Tor. You can do this by simply connecting to a VPN (through a client installed on your computer) and then accessing [Tor](../tor.md) as normal (e.g., through Tor Browser). This creates a connection chain like so:
 
 - [x] Tú → VPN → Tor → Internet
 
 Desde la perspectiva de tu ISP, parece que estás accediendo normalmente a una VPN (con la cobertura asociada que te proporciona). Desde la perspectiva de tu VPN, pueden ver que te estás conectando a la red Tor, pero nada sobre a qué sitios web estás accediendo. Desde la perspectiva de Tor, te estás conectando normalmente, pero en el improbable caso de algún tipo de compromiso de la red Tor, sólo la IP de tu VPN estaría expuesta, y tu VPN *adicionalmente* tendría que ser comprometida para desanonimizarte.
 
-Esto **no** es un consejo para eludir la censura, porque si Tor está bloqueado completamente por tu ISP, tu VPN probablemente también lo esté. Más bien, esta recomendación tiene como objetivo hacer que tu tráfico se mezcle mejor con el tráfico común de usuarios VPN, y proporcionarte un cierto nivel de negación plausible ocultando el hecho de que se está conectando a Tor a tu ISP.
+This is **not** censorship circumvention advice because if Tor is blocked entirely by your ISP, your VPN likely is as well. Más bien, esta recomendación tiene como objetivo hacer que tu tráfico se mezcle mejor con el tráfico común de usuarios VPN, y proporcionarte un cierto nivel de negación plausible ocultando el hecho de que se está conectando a Tor a tu ISP.
 
 ---
 
@@ -51,7 +51,7 @@ Nosotros **desaconsejamos encarecidamente** combinar Tor con una VPN de cualquie
 - Tú → VPN → Tor → VPN → Internet
 - Cualquier otra configuración
 
-Algunos proveedores de VPN y otras publicaciones recomendarán ocasionalmente estas **malas** configuraciones para evadir las prohibiciones de Tor (nodos de salida bloqueados por sitios web) en algunos lugares. [Normalmente](https://support.torproject.org/#about_change-paths), Tor cambia frecuentemente la ruta de tu circuito a través de la red. Cuando eliges una VPN de *destino* permanente (conectándote a un servidor VPN *después de* Tor), estás eliminando esta ventaja y perjudicando drásticamente tu anonimato.
+Some VPN providers and other publications will occasionally recommend these **bad** configurations to evade Tor bans (i.e., exit nodes being blocked by websites) in some places. [Normalmente](https://support.torproject.org/#about_change-paths), Tor cambia frecuentemente la ruta de tu circuito a través de la red. Cuando eliges una VPN de *destino* permanente (conectándote a un servidor VPN *después de* Tor), estás eliminando esta ventaja y perjudicando drásticamente tu anonimato.
 
 Es difícil establecer malas configuraciones como estas accidentalmente, porque normalmente implica establecer configuraciones proxy personalizadas dentro del Navegador Tor, o establecer configuraciones proxy personalizadas dentro de tu cliente VPN que enruta tu tráfico VPN a través de Tor Browser. Mientras evites estas configuraciones no predeterminadas, probablemente estarás bien.
 
@@ -60,7 +60,7 @@ Es difícil establecer malas configuraciones como estas accidentalmente, porque 
 <div class="admonition info" markdown>
 <p class="admonition-title">Huella Digital VPN/SSH</p>
 
-El Proyecto Tor [notes](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting) que *teóricamente* usar una VPN para ocultar las actividades Tor de tu ISP puede no ser infalible. Se ha descubierto que las VPN son vulnerables a las huellas digitales de tráfico de sitios web, en las que un adversario puede adivinar qué sitio web se está visitando, ya que todos los sitios web tienen patrones de tráfico específicos.
+El Proyecto Tor [notes](https://gitlab.torproject.org/legacy/trac/-/wikis/doc/TorPlusVPN#vpnssh-fingerprinting) que *teóricamente* usar una VPN para ocultar las actividades Tor de tu ISP puede no ser infalible. VPNs have been found to be vulnerable to website traffic fingerprinting, where an adversary can still guess what website is being visited because all websites have specific traffic patterns.
 
 Por lo tanto, no es descabellado creer que el tráfico Tor encriptado oculto por una VPN también podría ser detectado mediante métodos similares. No existen trabajos de investigación sobre este tema, y seguimos considerando que las ventajas de utilizar una VPN superan con creces estos riesgos, pero es algo a tener en cuenta.
 
@@ -68,11 +68,11 @@ Si todavía crees que los "pluggable transports" (puentes) proporcionan una prot
 
 </div>
 
-Determinar si deberías usar primero una VPN para conectarte a la red Tor requerirá algo de sentido común y conocimiento de las políticas de tu propio gobierno e ISP en relación a lo que te estás conectando. Sin embargo, de nuevo, en la mayoría de los casos será mejor que te vean conectándose a una red VPN comercial que directamente a la red Tor. Si los proveedores VPN están censurados en tu área, entonces también puedes considerar usar "pluggable transports" Tor (p.e. Snowflake o meek bridges) como alternativa, pero usar estos puentes puede levantar más sospechas que los túneles estándar WireGuard/OpenVPN.
+Determinar si deberías usar primero una VPN para conectarte a la red Tor requerirá algo de sentido común y conocimiento de las políticas de tu propio gobierno e ISP en relación a lo que te estás conectando. To reiterate, though, you will be better off being seen as connecting to a commercial VPN network than directly to the Tor network in most cases. If VPN providers are censored in your area, then you can also consider using Tor pluggable transports (e.g., Snowflake or meek bridges) as an alternative, but using these bridges may arouse more suspicion than standard WireGuard/OpenVPN tunnels.
 
 ## Qué No es Tor
 
-La red Tor no es la herramienta perfecta de protección de la privacidad en todos los casos, y tiene una serie de inconvenientes que deben ser considerados cuidadosamente. Estas cosas no deberían disuadirte de usar Tor si es apropiado para tus necesidades, pero siguen siendo cosas en las que pensar cuando decidas qué solución es la más apropiada para ti.
+The Tor network is not the perfect privacy protection tool in all cases and has a number of drawbacks which should be carefully considered. Estas cosas no deberían disuadirte de usar Tor si es apropiado para tus necesidades, pero siguen siendo cosas en las que pensar cuando decidas qué solución es la más apropiada para ti.
 
 ### Tor no es una VPN gratuita
 
@@ -80,26 +80,26 @@ El lanzamiento de la aplicación móvil *Orbot* ha llevado a mucha gente a descr
 
 A diferencia de los nodos de salida de Tor, los proveedores de VPN no suelen ser *activamente* [maliciosos](#caveats). Dado que los nodos de salida de Tor pueden ser creados por cualquiera, son puntos calientes para el registro y modificación de la red. En 2020, se documentó que muchos nodos de salida de Tor degradaban el tráfico HTTPS a HTTP para [secuestrar transacciones de criptomonedas](https://therecord.media/thousands-of-tor-exit-nodes-attacked-cryptocurrency-users-over-the-past-year). También se han observado otros ataques a nodos de salida, como la sustitución de descargas a través de canales no cifrados por malware. HTTPS mitiga estas amenazas hasta cierto punto.
 
-Como ya hemos aludido, Tor también es fácilmente identificable en la red. A diferencia de un proveedor VPN real, usar Tor te hará destacar como una persona que probablemente intenta evadir a las autoridades. En un mundo perfecto, Tor sería visto por los administradores de red y las autoridades como una herramienta con muchos usos (como se ven las VPN), pero en realidad la percepción de Tor sigue siendo mucho menos legítima que la percepción de las VPN comerciales, por lo que usar una VPN real te proporciona una negación plausible, por ejemplo, "solo la estaba usando para ver Netflix", etc.
+Como ya hemos aludido, Tor también es fácilmente identificable en la red. A diferencia de un proveedor VPN real, usar Tor te hará destacar como una persona que probablemente intenta evadir a las autoridades. In a perfect world, Tor would be seen by network administrators and authorities as a tool with many uses (like how VPNs are viewed), but in reality the perception of Tor is still far less legitimate than the perception of commercial VPNs. As such, using a real VPN provides you with plausible deniability, e.g. "I was just using it to watch Netflix," etc.
 
 ### El uso de Tor no es indetectable
 
-**Incluso si usas puentes y transportes conectables (pluggable transports),** el Proyecto Tor no proporciona herramientas para ocultar a tu ISP el hecho de que estás usando Tor. Ni siquiera el uso de "transportes conectables" ofuscados o puentes no públicos ocultan el hecho de que se está utilizando un canal de comunicaciones privado. Los transportes conectables más populares como obfs4 (que ofusca tu tráfico para que "parezca nada") y meek (que utiliza "domain fronting" para camuflar tu tráfico) pueden ser [detectados](https://hackerfactor.com/blog/index.php?/archives/889-Tor-0day-Burning-Bridges.html) con técnicas de análisis de tráfico bastante estándar. Snowflake tiene problemas similares, y puede [detectarse fácilmente](https://hackerfactor.com/blog/index.php?/archives/944-Tor-0day-Snowflake.html) incluso *antes de* que se establezca una conexión Tor.
+**Even if you use bridges and pluggable transports,** the Tor Project doesn't provide any tools to hide the fact that you are using Tor from your ISP. Ni siquiera el uso de "transportes conectables" ofuscados o puentes no públicos ocultan el hecho de que se está utilizando un canal de comunicaciones privado. Los transportes conectables más populares como obfs4 (que ofusca tu tráfico para que "parezca nada") y meek (que utiliza "domain fronting" para camuflar tu tráfico) pueden ser [detectados](https://hackerfactor.com/blog/index.php?/archives/889-Tor-0day-Burning-Bridges.html) con técnicas de análisis de tráfico bastante estándar. Snowflake tiene problemas similares, y puede [detectarse fácilmente](https://hackerfactor.com/blog/index.php?/archives/944-Tor-0day-Snowflake.html) incluso *antes de* que se establezca una conexión Tor.
 
-Existen transportes conectables distintos de estos tres, pero normalmente se basan en la seguridad a través de la oscuridad para eludir la detección. No son imposibles de detectar, solo que los utiliza tan poca gente que no merece la pena construir detectores para ellos. No se debe confiar en ellos si te están vigilando específicamente.
+Existen transportes conectables distintos de estos tres, pero normalmente se basan en la seguridad a través de la oscuridad para eludir la detección. They aren't impossible to detect—they are just used by so few people that it's not worth the effort building detectors for them. No se debe confiar en ellos si te están vigilando específicamente.
 
 Es fundamental comprender la diferencia entre eludir la censura y eludir la detección. Es más fácil lograr lo primero debido a las muchas limitaciones del mundo real sobre lo que los censores de red pueden hacer en masa, pero estas técnicas no ocultan el hecho de que tú-*específicamente* tú-estás usando Tor de una parte interesada que monitoriza tu red.
 
 ### Tor Browser no es el navegador más *seguro*
 
-El anonimato a menudo puede estar reñido con la seguridad: El anonimato de Tor requiere que cada usuario sea idéntico, lo que crea una monocultura (los mismos bugs están presentes en todos los usuarios de Tor Browser). Como regla general de ciberseguridad, las monoculturas suelen considerarse malas: La seguridad a través de la diversidad (de la que carece Tor) proporciona una segmentación natural al limitar las vulnerabilidades a grupos más pequeños, y por lo tanto suele ser deseable, pero esta diversidad también es menos buena para el anonimato.
+Anonymity can often be at odds with security: Tor's anonymity requires every user to be identical, which creates a monoculture (e.g., the same bugs are present across all Tor Browser users). Como regla general de ciberseguridad, las monoculturas suelen considerarse malas: La seguridad a través de la diversidad (de la que carece Tor) proporciona una segmentación natural al limitar las vulnerabilidades a grupos más pequeños, y por lo tanto suele ser deseable, pero esta diversidad también es menos buena para el anonimato.
 
 Adicionalmente, Tor Browser está basado en la versión de Soporte Extendido de Firefox, que solo recibe parches para vulnerabilidades consideradas *Críticas* y *Altas* (no *Medias* y *Bajas*). Esto significa que los atacantes podrían (por ejemplo):
 
 1. Buscar nuevas vulnerabilidades Críticas/Altas en las versiones nightly o beta de Firefox, luego comprobar si son explotables en Tor Browser (este periodo de vulnerabilidad puede durar semanas).
 2. Encadenar *múltiples* vulnerabilidades Medias/Bajas hasta conseguir el nivel de acceso que buscan (este periodo de vulnerabilidad puede durar meses o más).
 
-Aquellos en riesgo de vulnerabilidades del navegador deberían considerar protecciones adicionales para defenderse contra exploits de Tor Browser, tales como usar Whonix en [Qubes](../os/qubes-overview.md) para contener su navegación Tor en una MV segura y protegerse contra filtraciones.
+Those at risk of browser vulnerabilities should consider additional protections to defend against Tor Browser exploits, such as using Whonix in [Qubes](../os/qubes-overview.md) to contain your Tor browsing in a secure virtual machine and protect against leaks.
 
 ## Creación de Rutas a los Servicios Clearnet
 
@@ -137,7 +137,7 @@ El nodo de salida será elegido al azar de entre todos los nodos Tor disponibles
 
 Los "Servicios Onion" (también conocidos comúnmente como "servicios ocultos") son sitios web a los que solo se puede acceder mediante el navegador Tor. Estos sitios web tienen un nombre de dominio largo generado aleatoriamente que termina en `.onion`.
 
-Conectarse a un Servicio Onion en Tor funciona de forma muy similar a conectarse a un servicio clearnet, pero tu tráfico se enruta a través de un total de **seis nodos** antes de llegar al servidor de destino. Sin embargo, al igual que antes, solo tres de estos nodos contribuyen a *tu* anonimato, los otros tres nodos protegen el anonimato del *Servicio Onion*, ocultando la verdadera IP y la ubicación del sitio web de la misma manera que Tor Browser oculta la tuya.
+Conectarse a un Servicio Onion en Tor funciona de forma muy similar a conectarse a un servicio clearnet, pero tu tráfico se enruta a través de un total de **seis nodos** antes de llegar al servidor de destino. Just like before, however, only three of these nodes are contributing to *your* anonymity, the other three nodes protect *the Onion Service's* anonymity, hiding the website's true IP and location in the same manner that Tor Browser is hiding yours.
 
 <figure style="width:100%" markdown>
   ![Ruta de Tor que muestra tu tráfico siendo enrutado a través de tus tres nodos Tor más tres nodos Tor adicionales que ocultan la identidad del sitio web](../assets/img/how-tor-works/tor-path-hidden-service.svg#only-light)
@@ -147,15 +147,15 @@ Conectarse a un Servicio Onion en Tor funciona de forma muy similar a conectarse
 
 ## Cifrado
 
-Tor encripta cada paquete (un bloque de datos transmitidos) tres veces con las claves del nodo de salida, medio y de entrada, en ese orden.
+Tor encrypts each packet (a block of transmitted data) three times with the keys from the exit, middle, and entry node in that order.
 
 Una vez que Tor ha construido un circuito, la transmisión de datos se realiza de la siguiente manera:
 
-1. En primer lugar: cuando el paquete llega al nodo de entrada, se elimina la primera capa de cifrado. En este paquete encriptado, el nodo de entrada encontrará otro paquete encriptado con la dirección del nodo intermedio. El nodo de entrada reenviará entonces el paquete al nodo intermedio.
+1. Firstly: When the packet arrives at the entry node, the first layer of encryption is removed. En este paquete encriptado, el nodo de entrada encontrará otro paquete encriptado con la dirección del nodo intermedio. El nodo de entrada reenviará entonces el paquete al nodo intermedio.
 
-2. Segundo: cuando el nodo intermedio recibe el paquete del nodo de entrada, también elimina una capa de encriptación con su clave, y esta vez encuentra un paquete encriptado con la dirección del nodo de salida. El nodo intermedio reenviará entonces el paquete al nodo de salida.
+2. Secondly: When the middle node receives the packet from the entry node, it too will remove a layer of encryption with its key, and this time finds an encrypted packet with the exit node's address. El nodo intermedio reenviará entonces el paquete al nodo de salida.
 
-3. Por último, cuando el nodo de salida reciba su paquete, eliminará la última capa de cifrado con su clave. El nodo de salida verá la dirección de destino y reenviará el paquete a esa dirección.
+3. Lastly: When the exit node receives its packet, it will remove the last layer of encryption with its key. El nodo de salida verá la dirección de destino y reenviará el paquete a esa dirección.
 
 A continuación se presenta un diagrama alternativo que muestra el proceso. Cada nodo elimina su propia capa de encriptación, y cuando el servidor de destino devuelve los datos, el mismo proceso ocurre completamente a la inversa. Por ejemplo, el nodo de salida no sabe quién eres, pero sí sabe de qué nodo procede, por lo que añade su propia capa de encriptación y lo envía de vuelta.
 
@@ -185,7 +185,7 @@ Si deseas utilizar Tor para navegar por la web, sólo recomendamos el navegador 
 
 Los puentes Tor se promocionan comúnmente como un método alternativo para ocultar el uso de Tor a un ISP, en lugar de una VPN (como sugerimos usar si es posible). Algo a tener en cuenta es que aunque los puentes pueden proporcionar una adecuada elusión de la censura, esto es solo un beneficio *transitorio*. No te protegen adecuadamente de que tu ISP descubra que te conectaste a Tor en el *pasado* con análisis de registros históricos de tráfico.
 
-Para ilustrar este punto, considera el siguiente escenario: Te conectas a Tor a través de un puente, y tu ISP no lo detecta porque no están haciendo un análisis sofisticado de tu tráfico, por lo que las cosas están funcionando como estaba previsto. Ahora, pasan 4 meses, y la IP de tu puente se ha hecho pública. Esto es algo muy común con los puentes, se descubren y bloquean con relativa frecuencia, solo que no inmediatamente.
+Para ilustrar este punto, considera el siguiente escenario: Te conectas a Tor a través de un puente, y tu ISP no lo detecta porque no están haciendo un análisis sofisticado de tu tráfico, por lo que las cosas están funcionando como estaba previsto. Ahora, pasan 4 meses, y la IP de tu puente se ha hecho pública. This is a very common occurrence with bridges; they are discovered and blocked relatively frequently, just not immediately.
 
 Tu ISP quiere identificar a los usuarios de Tor de hace 4 meses, y con su limitado registro de metadatos pueden ver que te conectaste a una dirección IP que más tarde se reveló que era un puente Tor. Prácticamente no tienes otra excusa para estar haciendo esa conexión, así que el ISP puede decir con mucha confianza que eras un usuario de Tor en ese momento.
 
@@ -193,7 +193,7 @@ Contrasta esto con nuestro escenario recomendado, donde te conectas a Tor a trav
 
 Como es casi seguro que tu ISP no está capturando todos los datos a nivel de paquete y almacenándolos para siempre, no tienen forma de determinar a qué te has conectado con esa VPN *después de* haberlo hecho con una técnica avanzada como la inspección profunda de paquetes, y por lo tanto tienes una negación plausible.
 
-Por lo tanto, los puentes proporcionan el mayor beneficio a la hora de eludir la censura en Internet *en el momento*, pero no son un sustituto adecuado para **todos** los beneficios que puede proporcionar el uso de una VPN junto con Tor. De nuevo, este no es un consejo *en contra de* usar puentes Tor, solo deberías ser consciente de estas limitaciones mientras tomas tu decisión. En algunos casos, los puentes pueden ser la*única * opción (si todos los proveedores de VPN están bloqueados, por ejemplo), así que puedes seguir utilizándolos en esas circunstancias teniendo en cuenta esta limitación.
+Por lo tanto, los puentes proporcionan el mayor beneficio a la hora de eludir la censura en Internet *en el momento*, pero no son un sustituto adecuado para **todos** los beneficios que puede proporcionar el uso de una VPN junto con Tor. Again, this is not advice *against* using Tor bridges—you should just be aware of these limitations while making your decision. En algunos casos, los puentes pueden ser la*única * opción (si todos los proveedores de VPN están bloqueados, por ejemplo), así que puedes seguir utilizándolos en esas circunstancias teniendo en cuenta esta limitación.
 
 Si crees que un puente puede ayudarte a defenderte contra el fingerprinting (huella digital) u otros análisis avanzados de red más de lo que ya lo hace el túnel encriptado de una VPN, siempre tienes la opción de utilizar también un puente junto con una VPN. De este modo, seguirás protegido por las técnicas de ofuscación del transporte conectable, incluso si un adversario consigue algún nivel de visibilidad en tu túnel VPN. Si decides seguir este camino, te recomendamos que te conectes a un puente obfs4 detrás de tu VPN para obtener una protección óptima contra huellas digitales, en lugar de meek o Snowflake.
 
@@ -205,6 +205,6 @@ Es [posible](https://discuss.privacyguides.net/t/clarify-tors-weaknesses-with-re
 - [Cómo Funciona Tor - Computerphile](https://youtube.com/watch?v=QRYzre4bf7I) <small>(YouTube)</small>
 - [Servicios Tor Onion - Computerphile](https://youtube.com/watch?v=lVcbq_a5N9I) <small>(YouTube)</small>
 
-[^1]: El primer repetidor en tu circuito se llama "guardia de entrada" o "guardia". Es un repetidor rápido y estable que se mantiene como el primero en tu circuito durante 2-3 meses para protegerse de un ataque conocido de ruptura del anonimato. El resto de tu circuito cambia con cada nuevo sitio web que visitas, y todos juntos estos repetidores proporcionan las protecciones de privacidad completas de Tor. Para obtener más información sobre el funcionamiento de los repetidores de protección, consulta esta [entrada del blog](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) y el [documento](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) sobre los guardias de entrada. ([https://support.torproject.org/tbb/tbb-2/](https://support.torproject.org/tbb/tbb-2))
+[^1]: El primer repetidor en tu circuito se llama "guardia de entrada" o "guardia". Es un repetidor rápido y estable que se mantiene como el primero en tu circuito durante 2-3 meses para protegerse de un ataque conocido de ruptura del anonimato. El resto de tu circuito cambia con cada nuevo sitio web que visitas, y todos juntos estos repetidores proporcionan las protecciones de privacidad completas de Tor. Para obtener más información sobre el funcionamiento de los repetidores de protección, consulta esta [entrada del blog](https://blog.torproject.org/improving-tors-anonymity-changing-guard-parameters) y el [documento](https://www-users.cs.umn.edu/~hoppernj/single_guard.pdf) sobre los guardias de entrada. ([https://support.torproject.org/tbb/tbb-2](https://support.torproject.org/tbb/tbb-2))
 
-[^2]: Bandera de repetidor: una (des)calificación de los repetidores para las posiciones de los circuitos (por ejemplo, "Guardia", "Salida", "MalaSalida"), las propiedades de los circuitos (por ejemplo, "Rápido", "Estable"), o los roles (por ejemplo, "Autoridad", "HSDir"), tal y como los asignan las autoridades de los directorios y se definen con más detalle en la especificación del protocolo del directorio. ([https://metrics.torproject.org/glossary.html](https://metrics.torproject.org/glossary.html))
+[^2]: Bandera de repetidor: una (des)calificación de los repetidores para las posiciones de los circuitos (por ejemplo, "Guardia", "Salida", "MalaSalida"), las propiedades de los circuitos (por ejemplo, "Rápido", "Estable"), o los roles (por ejemplo, "Autoridad", "HSDir"), tal y como los asignan las autoridades de los directorios y se definen con más detalle en la especificación del protocolo del directorio. ([https://metrics.torproject.org/glossary.html](https://metrics.torproject.org/glossary.html#relay-flag))

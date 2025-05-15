@@ -7,7 +7,7 @@ description: Virtual Private Networks shift risk away from your ISP to a third-p
 
 רשתות וירטואליות פרטיות הן דרך להרחיב את הקצה של הרשת שלך ליציאה למקום אחר בעולם.
 
-[:material-movie-open-play-outline: Video: Do you need a VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn/ ""){.md-button}
+[:material-movie-open-play-outline: Video: Do you need a VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
 
 בדרך כלל, ספק שירותי אינטרנט יכול לראות את זרימת תעבורת האינטרנט הנכנסת ויוצאת ממכשיר סיום הרשת שלך (כלומר מודם). Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 

@@ -114,6 +114,6 @@ In the modern age of digital data exploitation, your privacy has never been more
 
 Many people get the concepts of privacy, security, and anonymity confused. Vedrai persone criticare vari prodotti come "non privati", quando in realtà intendono che non forniscono, ad esempio, anonimato. Su questo sito web, copriamo tutti e tre gli argomenti, ma è importante che tu ne comprenda le differenze, nonché quando ognuno di essi entra in gioco.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 </div>
 </div>

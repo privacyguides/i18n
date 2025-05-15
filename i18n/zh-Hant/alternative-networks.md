@@ -59,7 +59,7 @@ You can access the Tor network using other tools; making this determination come
 [:octicons-heart-16:](https://orbot.app/donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1609461599)
@@ -129,7 +129,7 @@ Running a Snowflake proxy is low-risk, even more so than running a Tor relay or 
 [:octicons-heart-16:](https://geti2p.net/en/get-involved){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.i2p.android)
 - [:simple-android: Android](https://geti2p.net/en/download#android)
@@ -154,5 +154,6 @@ Running a Snowflake proxy is low-risk, even more so than running a Tor relay or 
 
 然而，I2P 的方法也有缺點。 Tor 依賴專用的出口節點，這意味著更多的人可以在不太安全的環境中使用它，而且Tor 上確實存在的中繼可能性能更高、更穩定，因為它們通常不在長駐連接上運行。 Tor 也更關注**瀏覽器隱私**（即防指紋），並配有專用的 [Tor 瀏覽器](tor.md) 來盡可能使瀏覽活動匿名。 I2P 透過[常用網頁瀏覽器](desktop-browsers.md) 使用，雖然可以將瀏覽器設定為更保護隱私，但可能不會與其他 I2P 使用者有相同的瀏覽器指紋（沒有在這方面混在「人群」）。
 
+由於其強大的橋接網路和不同的[可插拔傳輸](https://tb-manual.torproject.org/circumvention)，Tor 更能抵抗審查。 另一方面，I2P 使用目錄伺服器進行初始連接，這些目錄伺服器是變化的/不受信任的，由志願者運行，而 Tor 使用的硬編碼/受信任的伺服器可能更容易被阻止。
+
 [^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403) and [Whonix's Stream Isolation documentation](https://whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.
-    由於其強大的橋接網路和不同的[可插拔傳輸](https://tb-manual.torproject.org/circumvention)，Tor 更能抵抗審查。 另一方面，I2P 使用目錄伺服器進行初始連接，這些目錄伺服器是變化的/不受信任的，由志願者運行，而 Tor 使用的硬編碼/受信任的伺服器可能更容易被阻止。

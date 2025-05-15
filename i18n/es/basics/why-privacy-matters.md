@@ -12,7 +12,7 @@ En última instancia, la privacidad tiene que ver con la información humana, y 
 
 Mucha gente confunde los conceptos de **privacidad**, **seguridad**, y **anonimato**. Por ejemplo, verás a gente criticar varios productos por "no ser privados" cuando en realidad quieren decir que no proporcionan anonimato. En este sitio web tratamos estos tres temas, pero es importante que entiendas la diferencia entre ellos y cuándo entra en juego cada uno.
 
-[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security/ ""){.md-button}
+[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security ""){.md-button}
 
 <!-- markdownlint-disable-next-line -->
 **Privacidad**
@@ -58,7 +58,7 @@ Por ejemplo, los formularios de consentimiento de cookies. Es posible que los en
 
 La privacidad es algo que tenemos que tener incorporado en [el software y los servicios](../tools.md) que utilizamos por defecto, no puedes hacer que la mayoría de las aplicaciones sean privadas por tu cuenta.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 
 ## Fuentes
 

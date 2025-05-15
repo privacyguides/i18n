@@ -42,10 +42,10 @@ cover: news-aggregators.webp
 
 ![NewsFlash logosu](assets/img/news-aggregators/newsflash.png){ align=right }
 
-**NewsFlash** Linux için açık kaynaklı, modern ve kullanımı kolay bir haber akışı okuyucusudur. Çevrimdışı kullanılabilir veya [Nextcloud News](https://apps.nextcloud.com/apps/news) veya [Inoreader](https://inoreader.com) gibi hizmetlerle birlikte kullanılabilir. Bir arama özelliğine ve doğrudan ekleyebileceğiniz önceden tanımlanmış bir kaynak listesine sahiptir.
+**NewsFlash** Linux için açık kaynaklı, modern ve kullanımı kolay bir haber akışı okuyucusudur. It can be used offline or with services like [Inoreader](https://inoreader.com) or [Nextcloud News](https://apps.nextcloud.com/apps/news). Bir arama özelliğine ve doğrudan ekleyebileceğiniz önceden tanımlanmış bir kaynak listesine sahiptir.
 
-[:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk){ .md-button .md-button--primary }
-[:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Kaynak Kod" }
+[:octicons-repo-16: Repository](https://gitlab.com/news-flash/news_flash_gtk#newsflash){ .md-button .md-button--primary }
+[:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>İndirmeler</summary>
@@ -62,11 +62,13 @@ cover: news-aggregators.webp
 
 ![Feeder logosu](assets/img/news-aggregators/feeder.png){ align=right }
 
-**Feeder**, Android için birçok [özelliğe](https://github.com/spacecowboy/Feeder#features) sahip ve RSS beslemelerinin klasörleriyle iyi çalışan modern bir RSS istemcisidir. RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) ve [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed) destekler.
+**Feeder**, Android için birçok [özelliğe](https://github.com/spacecowboy/Feeder#features) sahip ve RSS beslemelerinin klasörleriyle iyi çalışan modern bir RSS istemcisidir.
 
-[:octicons-repo-16: Repository](https://github.com/spacecowboy/Feeder){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title="Kaynak Kod" }
+RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) ve [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed) destekler.
+
+[:octicons-repo-16: Repository](https://github.com/spacecowboy/Feeder#readme){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/spacecowboy/Feeder){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://ko-fi.com/spacecowboy){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>İndirmeler</summary>
@@ -85,10 +87,12 @@ cover: news-aggregators.webp
 ![Miniflux logosu](assets/img/news-aggregators/miniflux.svg#only-light){ align=right }
 ![Miniflux logosu](assets/img/news-aggregators/miniflux-dark.svg#only-dark){ align=right }
 
-**Miniflux** kendi kendinize barındırabileceğiniz web tabanlı bir haber toplayıcısıdır. RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) ve [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed) destekler.
+**Miniflux** kendi kendinize barındırabileceğiniz web tabanlı bir haber toplayıcısıdır.
+
+RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard)), [RDF](https://en.wikipedia.org/wiki/RDF%2FXML) ve [JSON Feed](https://en.wikipedia.org/wiki/JSON_Feed) destekler.
 
 [:octicons-home-16: Homepage](https://miniflux.app){ .md-button .md-button--primary }
-[:octicons-info-16:](https://miniflux.app/docs/index){ .card-link title="Documentation" }
+[:octicons-info-16:](https://miniflux.app/docs/index#user-guide){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://miniflux.app/#donations){ .card-link title="Contribute" }
 
@@ -100,7 +104,9 @@ cover: news-aggregators.webp
 
 ![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
 
-**NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set. It supports the typical feed formats alongside built-in support for Reddit feeds.
+**NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set.
+
+It supports conventional feed formats and includes built-in support for Reddit feeds.
 
 [:octicons-home-16: Homepage](https://netnewswire.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="Privacy Policy" }
@@ -126,7 +132,7 @@ cover: news-aggregators.webp
 **Newsboat** is an RSS/Atom feed reader for the text console. It's an actively maintained fork of [Newsbeuter](https://en.wikipedia.org/wiki/Newsbeuter). It is very lightweight and ideal for use over [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
 
 [:octicons-home-16: Homepage](https://newsboat.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://newsboat.org/releases/2.37/docs/newsboat.html){ .card-link title="Documentation" }
+[:octicons-info-16:](https://newsboat.org/releases/2.38/docs/newsboat.html){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="Source Code" }
 
 </div>
@@ -164,7 +170,7 @@ Giriş yapmadan ve kullanım bilgilerini Google hesabınızla ilişkilendirmeden
 <div class="admonition example" markdown>
 <p class="admonition-title">Örnek</p>
 
-Bir RSS istemcisi ile bir YouTube kanalına abone olmak için, önce [kanal kodunu] arayın(https://support.google.com/youtube/answer/6180214). Kanal kodu, abone olmak istediğiniz YouTube kanalının hakkında sayfasında bulunabilir: **Hakkında** → **Paylaş** → **Kanal kimliğini kopyala**. Aşağıdaki `[CHANNEL ID]`yi değiştirin:
+Bir RSS istemcisi ile bir YouTube kanalına abone olmak için, önce [kanal kodunu] arayın(https://support.google.com/youtube/answer/6180214). The channel code can be found in the expanded description (i.e., the "About" section) of the YouTube channel you wish to subscribe to: **About** → **Share channel** → **Copy channel ID**. Aşağıdaki `[CHANNEL ID]`yi değiştirin:
 
 ``metin
 https://youtube.com/feeds/videos.xml?channel_id=[KANAL KİMLİĞİ]

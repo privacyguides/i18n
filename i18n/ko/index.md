@@ -114,6 +114,6 @@ In the modern age of digital data exploitation, your privacy has never been more
 
 Many people get the concepts of privacy, security, and anonymity confused. 어떤 서비스가 익명성을 제공하지 않는다는 이유로 '프라이버시 친화적이지 않다'며 비판하는 사람도 많습니다. 본 웹사이트에서는 이 세 가지 개념을 모두 주제로 다루고 있지만, 각 개념의 차이를 정확히 알고 언제 어떤 것이 필요한지를 이해해야 합니다.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online/){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 </div>
 </div>
