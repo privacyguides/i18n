@@ -13,15 +13,11 @@ cover: real-time-communication.webp
 - [:material-eye-outline: Surveillance de masse](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-account-cash: Capitalisme de surveillance](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These are our recommendations for encrypted **real-time communication**. These come in the form of many [types of communication networks](./advanced/communication-network-types.md).
+These recommendations for encrypted **real-time communication** are great for securing your sensitive communications. These instant messengers come in the form of many [types of communication networks](./advanced/communication-network-types.md).
 
 [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
 
-## Messageries instantanées chiffrées
-
-Ces messageries sont idéales pour sécuriser vos communications sensibles.
-
-### Signal
+## Signal
 
 <div class="admonition recommendation" markdown>
 
@@ -50,7 +46,7 @@ Ces messageries sont idéales pour sécuriser vos communications sensibles.
 
 </div>
 
-Signal demande votre numéro de téléphone pour l'enregistrement, mais vous devriez créer un nom d'utilisateur pour cacher votre numéro de téléphone à vos contacts :
+Signal requires your phone number for registration, however you should create a username to hide your phone number from your contacts:
 
 1. Dans Signal, ouvrez les paramètres de l'application et appuyez sur votre profil en haut.
 2. Appuyez sur **Nom d'utilisateur** et choisissez **Continuer** sur l'écran "Configurez votre nom d'utilisateur Signal".
@@ -59,17 +55,17 @@ Signal demande votre numéro de téléphone pour l'enregistrement, mais vous dev
 5. Sélectionnez **Numéro de téléphone**
 6. Modifiez le paramètre **Qui peut voir mon numéro** et mettre : **Personne**
 
-Vous pouvez également modifier le paramètre **Qui peut me retrouver grâce à mon numéro de téléphone** et mettre **Personne** si vous souhaitez empêcher les personnes qui possèdent déjà votre numéro de téléphone de trouver votre compte/nom d'utilisateur Signal.
+You can optionally change the **Who Can Find Me By Number** setting to **Nobody** as well, if you want to prevent people who already have your phone number from discovering your Signal account/username.
 
-La liste des contacts sur Signal est chiffrée à l'aide de votre code PIN Signal et le serveur n'y a pas accès. Votre profil est également chiffré et n'est partagé qu'avec les contacts avec lesquels vous discutez. Signal supports [private groups](https://signal.org/blog/signal-private-group-system), where the server has no record of your group memberships, group titles, group avatars, or group attributes. Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender) is enabled. L'adresse de l'expéditeur est chiffrée avec le corps du message, et seule l'adresse du destinataire est visible par le serveur. Expéditeur Scellé est uniquement activé pour les personnes de votre liste de contacts, mais peut être activé pour tous les destinataires avec le risque accru de recevoir du spam.
+Contact lists on Signal are encrypted using your Signal PIN and the server does not have access to them. Personal profiles are also encrypted and only shared with contacts you chat with. Signal supports [private groups](https://signal.org/blog/signal-private-group-system), where the server has no record of your group memberships, group titles, group avatars, or group attributes. Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender) is enabled. The sender address is encrypted along with the message body, and only the recipient address is visible to the server. Sealed Sender is only enabled for people in your contacts list, but can be enabled for all recipients with the increased risk of receiving spam.
 
-Le protocole a fait l'objet d'un [audit](https://eprint.iacr.org/2016/1013.pdf) indépendant en 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs).
+The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs).
 
-Nous avons quelques conseils supplémentaires pour configurer et renforcer votre installation Signal :
+We have some additional tips on configuring and hardening your Signal installation:
 
-[Configuration et renforcement de Signal :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening)
+[Signal Configuration and Hardening :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening)
 
-#### Molly (Android)
+### Molly (Android)
 
 If you use Android and your threat model requires protecting against [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} you may consider using this alternative app, which features a number of security and usability improvements, to access the Signal network.
 
@@ -106,7 +102,7 @@ All versions of Molly provide the same security improvements.
 
 Molly and Molly-FOSS support [reproducible builds](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds), meaning it's possible to confirm that the compiled APKs match the source code.
 
-### SimpleX Chat
+## SimpleX Chat
 
 <div class="admonition recommendation" markdown>
 
@@ -141,7 +137,7 @@ You can find a full list of the privacy and security [features](https://github.c
 
 SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html#simplex-cryptographic-design-review-by-trail-of-bits) and in [October 2022](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website).
 
-### Briar
+## Briar
 
 <div class="admonition recommendation" markdown>
 
@@ -175,76 +171,28 @@ Briar has a fully [published specification](https://code.briarproject.org/briar/
 
 Briar supports forward secrecy[^1] by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
 
-## Autres options
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">Avertissement</p>
-
-Ces messageries instantanées ne disposent pas de la confidentialité persistante[^1] et, bien qu'ils répondent à certains cas d'utilisation que nos recommandations précédentes ne permettent pas, nous ne les recommandons pas pour les communications sensibles ou long terme. Toute compromission de la clé parmi les destinataires du message affecterait la confidentialité de **toutes** les communications passées.
-
-</div>
-
-### Session
-
-<div class="admonition recommendation" markdown>
-
-![Logo de Session](assets/img/messengers/session.svg){ align=right }
-
-**Session** est une messagerie décentralisée axée sur les communications privées, sécurisées et anonymes. Session prend en charge les messages directs, les discussions de groupe et les appels vocaux.
-
-Session uses the decentralized [Oxen Service Node Network](https://oxen.io) to store and route messages. Chaque message chiffré est acheminé via trois nœuds dans le Oxen Service Node Network, ce qui rend pratiquement impossible pour les nœuds de compiler des informations significatives sur ceux qui utilisent le réseau.
-
-[:octicons-home-16: Homepage](https://getsession.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://getsession.org/faq){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/oxen-io){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1470168868)
-- [:simple-github: GitHub](https://github.com/oxen-io/session-android/releases)
-- [:fontawesome-brands-windows: Windows](https://getsession.org/download)
-- [:simple-apple: macOS](https://getsession.org/download)
-- [:simple-linux: Linux](https://getsession.org/download)
-
-</details>
-
-</div>
-
-Session allows for E2EE in one-on-one chats or closed groups which allow for up to 100 members. It is also possible to [set up](https://docs.oxen.io/oxen-docs/products-built-on-oxen/session/guides/open-group-setup) or join open groups which can host thousands of members, but messages in these open groups are **not** end-to-end encrypted between participants.
-
-Session was previously based on Signal Protocol before replacing it with their own in December 2020. Session Protocol does [not](https://getsession.org/blog/session-protocol-technical-information) support forward secrecy.[^1]
-
-Oxen requested an independent audit for Session in March 2020. The audit [concluded](https://getsession.org/session-code-audit) in April 2021:
-
-> The overall security level of this application is good and makes it usable for privacy-concerned people.
-
-Session has a [white paper](https://arxiv.org/pdf/2002.04609.pdf) describing the technical details of the app and protocol.
-
 ## Critères
 
 **Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de [nos critères de base](about/criteria.md), nous avons développé un ensemble d'exigences claires pour nous permettre de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
 
 ### Exigences minimales
 
-- Dispose de clients open-source.
-- Ne nécessite pas le partage d'identifiants personnels (numéros de téléphone ou e-mails spécifiquement) avec les contacts.
-- Utilise par défaut E2EE pour les messages privés.
-- Prend en charge E2EE pour tous les messages.
-- A fait l'objet d'un audit indépendant.
+- Must have open-source clients.
+- Must not require sharing personal identifiers (particuarly phone numbers or emails) with contacts.
+- Must use E2EE for private messages by default.
+- Must support E2EE for all messages.
+- Must support forward secrecy[^1]
+- Must have a published audit from a reputable, independent third party.
 
 ### Dans le meilleur des cas
 
 Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
-- Supports forward secrecy[^1]
-- Prend en charge la confidentialité future (sécurité post-compromission)[^2]
-- Dispose de serveurs open-source.
-- Décentralisé, c'est-à-dire [fédéré ou P2P](advanced/communication-network-types.md).
-- Utilise E2EE par défaut pour tous les messages.
-- Prend en charge Linux, macOS, Windows, Android et iOS.
+- Should support future secrecy (post-compromise security)[^2]
+- Should have open-source servers.
+- Should use a decentralized network, i.e. [federated or P2P](advanced/communication-network-types.md).
+- Should use E2EE for all messages by default.
+- Should support Linux, macOS, Windows, Android, and iOS.
 
 [^1]: [Forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) is where keys are rotated very frequently, so that if the current encryption key is compromised, it does not expose **past** messages as well.
-[^2]: La confidentialité future (ou sécurité post-compromission) est une fonction qui empêche un attaquant de déchiffrer les **futurs** messages après avoir compromis une clé privée, à moins qu'il ne compromette également d'autres clés de session futures. Cela oblige en réalité l'attaquant à intercepter toutes les communications entre les parties, puisqu'il perd l'accès dès qu'un échange de clés non intercepté se produit.
+[^2]: Future secrecy (or [post-compromise security](https://eprint.iacr.org/2016/221.pdf)) is a feature where an attacker is prevented from decrypting **future** messages after compromising a private key, unless they compromise more session keys in the future as well. This effectively forces the attacker to intercept all communication between parties since they lose access as soon as a key exchange occurs that is not intercepted.

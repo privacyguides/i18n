@@ -13,15 +13,11 @@ cover: real-time-communication.webp
 - [:material-eye-outline: 大規模監控](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-這些是我們所推薦的加密 **實時通訊軟體**。 它們涵蓋了 [多種通訊網路類型](./advanced/communication-network-types.md)。
+These recommendations for encrypted **real-time communication** are great for securing your sensitive communications. These instant messengers come in the form of many [types of communication networks](./advanced/communication-network-types.md).
 
 [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
 
-## 加密通訊軟體
-
-這些軟體非常適合保護您的敏感通訊。
-
-### Signal
+## Signal
 
 <div class="admonition recommendation" markdown>
 
@@ -50,7 +46,7 @@ cover: real-time-communication.webp
 
 </div>
 
-Signal 需要電話號碼才能註冊，但是您應該建立用戶名，以隱藏電話號碼：
+Signal requires your phone number for registration, however you should create a username to hide your phone number from your contacts:
 
 1. 在 Signal 中，打開應用程式的設定並點擊上方的帳戶個人資料。
 2. 點選**使用者名稱**，然後在「設定您的 Signal 使用者名稱」畫面上選擇**繼續**。
@@ -59,19 +55,19 @@ Signal 需要電話號碼才能註冊，但是您應該建立用戶名，以隱�
 5. 選擇**手機號碼**
 6. 將 **誰可以看到我的號碼** 設定為：**沒有人**
 
-若想防止已知您手機號碼的人找到您的 Signal 帳號或用戶名稱，也可以選擇把 **誰可以透過電話號碼找到我** 設定為 **沒有人** 。
+You can optionally change the **Who Can Find Me By Number** setting to **Nobody** as well, if you want to prevent people who already have your phone number from discovering your Signal account/username.
 
-連絡人清單會使用您的 Signal PIN 加密，而伺服器無法存取。 個人帳號也會加密，並僅與您聊天的聯絡人分享。 Signal 支援[私密 群組](https://signal.org/blog/signal-private-group-system)，伺服器不會記錄該群組成員資格、群組標題、群組頭像，或群組屬性。 當啟用 [密封發件人](https://signal.org/blog/sealed-sender) 時， Signal 的元數據會被最小化。 寄件者位址與訊息內文一起加密，伺服器只可見到收件人地址。 Sealed Sender 功能僅適用於聯絡人清單的成員，但在收訊時也可啟用以防止接收垃圾郵件增加的風險。
+Contact lists on Signal are encrypted using your Signal PIN and the server does not have access to them. Personal profiles are also encrypted and only shared with contacts you chat with. Signal supports [private groups](https://signal.org/blog/signal-private-group-system), where the server has no record of your group memberships, group titles, group avatars, or group attributes. Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender) is enabled. The sender address is encrypted along with the message body, and only the recipient address is visible to the server. Sealed Sender is only enabled for people in your contacts list, but can be enabled for all recipients with the increased risk of receiving spam.
 
-其協議在2016年獨立進行了 [審計](https://eprint.iacr.org/2016/1013.pdf) 。 Signal 協議的規範可以在他們的 [文檔](https://signal.org/docs)中找到。
+The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs).
 
-我們有一些關於配置和硬化 Signal 安裝的額外提示：
+We have some additional tips on configuring and hardening your Signal installation:
 
-[Signal 配置和硬化 :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening)
+[Signal Configuration and Hardening :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening)
 
-#### Molly (Android)
+### Molly (Android)
 
-如果您使用 Android，且您的威脅模式需要防範 [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} ，您可以考慮使用此替代應用程式存取 Signal 網路，此應用程式在安全性和可用性方面有許多改進。
+If you use Android and your threat model requires protecting against [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} you may consider using this alternative app, which features a number of security and usability improvements, to access the Signal network.
 
 <div class="admonition recommendation" markdown>
 
@@ -96,17 +92,17 @@ Signal 需要電話號碼才能註冊，但是您應該建立用戶名，以隱�
 
 </div>
 
-Molly 每兩週更新一次，以包含 Signal 的最新功能和錯誤修正。 安全問題是例外，開發團隊會儘快修補安全問題。 儘管如此，您應該注意的是，與上游相比，可能會有少許延遲，這可能會影響 [從 Signal 遷移到 Molly](https://github.com/mollyim/mollyim-android/wiki/Migrating-From-Signal#migrating-from-signal) 等動作。
+Molly is updated every two weeks to include the latest features and bug fixes from Signal. The exception is security issues, which are patched as soon as possible. That said, you should be aware that there might be a slight delay compared to upstream, which may affect actions such as [migrating from Signal to Molly](https://github.com/mollyim/mollyim-android/wiki/Migrating-From-Signal#migrating-from-signal).
 
-請注意，您使用 Molly 是對多方的信任，因為您現在需要信任 Signal 團隊 *和* Molly 團隊 ，以提供安全且及時的更新。
+Note that you are trusting multiple parties by using Molly, as you now need to trust the Signal team *and* the Molly team to deliver safe and timely updates.
 
-Molly 有一個稱為 **Molly-FOSS** 的版本，它移除了 Signal 和 Molly 所使用的 Google 服務等專有程式碼，但卻犧牲了一些功能，例如透過 Google Play 服務來推送通知（可節省電池用量）。 無論是哪個版本的 Molly，您都可以透過 [UnifiedPush](https://unifiedpush.org) 在沒有 Google Play 服務的情況下推送通知，但這需要在另一部裝置上執行稱為 [Mollysocket](https://github.com/mollyim/mollysocket) 的獨立程式才能運作。 Mollysocket 可以自行架設在獨立的電腦或伺服器（VPS），或者使用公開 Mollysocket 實例（[逐步教學，德文](https://kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy)）。
+There is a version of Molly called **Molly-FOSS** which removes proprietary code like the Google services used by both Signal and Molly, at the expense of some features like battery-saving push notifications via Google Play Services. You can regain push notifications without Google Play Services in either version of Molly with [UnifiedPush](https://unifiedpush.org), but it requires running a separate program called [Mollysocket](https://github.com/mollyim/mollysocket) on another device to function. Mollysocket can either be self-hosted on a separate computer or server (VPS), or alternatively a public Mollysocket instance can be used ([step-by-step tutorial, in German](https://kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy)).
 
-所有版本的 Molly 都提供相同的安全改進。
+All versions of Molly provide the same security improvements.
 
-Molly 和 Molly-FOSS 支援 [可重現構建](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds) ，這表示可以確認編譯後的 APK 與原始碼相符。
+Molly and Molly-FOSS support [reproducible builds](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds), meaning it's possible to confirm that the compiled APKs match the source code.
 
-### SimpleX Chat
+## SimpleX Chat
 
 <div class="admonition recommendation" markdown>
 
@@ -133,15 +129,15 @@ Molly 和 Molly-FOSS 支援 [可重現構建](https://github.com/mollyim/mollyim
 
 </div>
 
-SimpleX 提供私人聊天、群組聊天和 E2EE 通話，並以 [SimpleX 訊息通訊協定 (SimpleX Messaging Protocol)](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md) 加密，該協定使用有量子電腦抵抗性的雙棘輪演算法。 此外，SimpleX Chat 使用單向的 ["simplex queues"](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md#simplex-queue) 傳送訊息，以提供元資料保護。
+SimpleX provides direct messaging, group chats, and E2EE calls secured with the [SimpleX Messaging Protocol](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md), which uses double ratchet encryption with quantum resistance. Additionally, SimpleX Chat provides metadata protection by using unidirectional ["simplex queues"](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md#simplex-queue) to deliver messages.
 
-要在 SimpleX Chat 上加入聊天室，您必須掃描 QR 碼或使用邀請連結。 這可讓您安全驗證聯絡人，防止網路供應商的中間人攻擊。 您的資料可以匯出或匯入另一部裝置，因為沒有中央伺服器備份這些資料。
+To participate in conversations on SimpleX Chat, you must scan a QR code or click an invite link. This allows you to verify a contact out-of-band, which protects against man-in-the-middle attacks by network providers. Your data can be exported and imported onto another device, as there are no central servers where this is backed up.
 
-您可以在應用程式的儲存庫中找到 SimpleX Chat 所有隱私與安全[功能](https://github.com/simplex-chat/simplex-chat#privacy-and-security-technical-details-and-limitations)的完整清單。
+You can find a full list of the privacy and security [features](https://github.com/simplex-chat/simplex-chat#privacy-and-security-technical-details-and-limitations) implemented in SimpleX Chat on the app's repository.
 
-SimpleX Chat 於 [2024 年 7 月](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html#simplex-cryptographic-design-review-by-trail-of-bits)和 [2022 年 10 月](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website)進行獨立審核。
+SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html#simplex-cryptographic-design-review-by-trail-of-bits) and in [October 2022](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website).
 
-### Briar
+## Briar
 
 <div class="admonition recommendation" markdown>
 
@@ -167,61 +163,13 @@ SimpleX Chat 於 [2024 年 7 月](https://simplex.chat/blog/20241014-simplex-net
 
 </div>
 
-若要在 Briar 上新增連絡人，需要雙方都新增對方。 您可以交換 `briar://` 連結，或是掃描聯絡人的 QR 碼（如果他們就在附近）。
+To add a contact on Briar, you must both add each other first. You can either exchange `briar://` links or scan a contact’s QR code if they are nearby.
 
-用戶端軟體已經過獨立[審核](https://briarproject.org/news/2017-beta-released-security-audit)，使用 Tor 網路的匿名路由通訊協定也已經過審核。
+The client software was independently [audited](https://briarproject.org/news/2017-beta-released-security-audit), and the anonymous routing protocol uses the Tor network which has also been audited.
 
-Briar 通訊協定是[完全公開](https://code.briarproject.org/briar/briar-spec)的。
+Briar has a fully [published specification](https://code.briarproject.org/briar/briar-spec).
 
-Briar 使用 Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) 和 [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) 協定來支援前向保密[^1] 。
-
-## 額外選項
-
-<div class="admonition warning" markdown>
-<p class="admonition-title">警告</p>
-
-這些通訊軟體無前向保密[^1]，雖然它們達成我們之前建議的某些需求，但不推薦將其用於長期或敏感通信。 訊息收件人之間的任何密鑰洩露都會影響過去**所有**通訊的機密性。
-
-</div>
-
-### Session
-
-<div class="admonition recommendation" markdown>
-
-![Session logo](assets/img/messengers/session.svg){ align=right }
-
-**Session** 是一款分散式通訊軟體，專注於私密、安全和匿名。 Session 支援直接訊息、羣組聊天和語音通話。
-
-Session使用去中心化的 [Oxen Service Node Network](https://oxen.io/) 來儲存和路由訊息。 每條加密訊息都通過 Oxen Service Node Network 中三個節點路由，使得節點幾乎不可能編譯有意義信息給此網路的使用者。
-
-[:octicons-home-16: 首頁](https://getsession.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://getsession.org/privacy-policy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://getsession.org/faq){ .card-link title="說明文件" }
-[:octicons-code-16:](https://github.com/oxen-io){ .card-link title="原始碼" }
-
-<details class="downloads" markdown>
-<summary>下載</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=network.loki.messenger)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1470168868)
-- [:simple-github: GitHub](https://github.com/oxen-io/session-android/releases)
-- [:fontawesome-brands-windows: Windows](https://getsession.org/download)
-- [:simple-apple: macOS](https://getsession.org/download)
-- [:simple-linux: Linux](https://getsession.org/download)
-
-</details>
-
-</div>
-
-Session 允許使用 E2EE 於一對一聊天或私人群組中，最多可容納100名成員。 也可以[建立](https://docs.oxen.io/oxen-docs/products-built-on-oxen/session/guides/open-group-setup)或加入公開群組，這些群組可以容納數千名成員，但這些開放群組的訊息在參與者之間**並非**端對端加密。
-
-Session 之前以 Signal Protocol 為基礎，後來在 2020 年 12 月以他們自己的通訊協定取代。 Session Protocol does [not](https://getsession.org/blog/session-protocol-technical-information) support forward secrecy.[^1]
-
-2020 年 3 月 Oxen 對 Session 進行獨立審核。 該審核於 2021 年 4 月[結束](https://getsession.org/session-code-audit)：
-
-> 此應用程式的整體安全層級良好，對注重隱私的人而言十分有用。
-
-Session 有一份[白皮書](https://arxiv.org/pdf/2002.04609.pdf)，說明應用程式和通訊協定的技術細節。
+Briar supports forward secrecy[^1] by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
 
 ## 標準
 
@@ -229,22 +177,22 @@ Session 有一份[白皮書](https://arxiv.org/pdf/2002.04609.pdf)，說明應�
 
 ### 最低合格要求
 
-- 有開源客戶端。
-- 無需與聯絡人共用個人識別碼（特別是電話號碼或電子郵件）。
-- 私人訊息預設必須使用E2EE。
-- 支援所有訊息都可 E2EE。
-- 進行獨立審計。
+- Must have open-source clients.
+- Must not require sharing personal identifiers (particuarly phone numbers or emails) with contacts.
+- Must use E2EE for private messages by default.
+- Must support E2EE for all messages.
+- Must support forward secrecy[^1]
+- 必須由信譽良好的獨立第三方進行公開審核。
 
 ### 最佳情況
 
 最佳情況標準代表我們希望在這個類別的完美項目的應具備的特性。 推薦產品可能沒有此功能，但若有這些功能則會讓排名更為提高。
 
-- Supports forward secrecy[^1]
-- 支援未來保密（入侵後安全）[^2]
-- 開源伺候器。
-- 去中心化，即[聯邦式或 P2P](advanced/communication-network-types.md)。
-- 所有訊息預設為使用 E2EE。
-- 支援多平台 Linux、macOS、Windows、Android 和 iOS。
+- Should support future secrecy (post-compromise security)[^2]
+- Should have open-source servers.
+- Should use a decentralized network, i.e. [federated or P2P](advanced/communication-network-types.md).
+- Should use E2EE for all messages by default.
+- Should support Linux, macOS, Windows, Android, and iOS.
 
 [^1]: [Forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) is where keys are rotated very frequently, so that if the current encryption key is compromised, it does not expose **past** messages as well.
-[^2]: 未來保密（或洩漏後安全）是防止攻擊者利用洩露的私鑰解密**未來**訊息，除非攻擊者將來也能取得更多會話金鑰。 這有效地迫使攻擊者攔截各方間的所有通訊，因為一旦發生未被攔截的金鑰交換，他們就會失去訪問權限。&#160;[ &#8617;](#fnref:2){.footnote-backref}
+[^2]: Future secrecy (or [post-compromise security](https://eprint.iacr.org/2016/221.pdf)) is a feature where an attacker is prevented from decrypting **future** messages after compromising a private key, unless they compromise more session keys in the future as well. This effectively forces the attacker to intercept all communication between parties since they lose access as soon as a key exchange occurs that is not intercepted.
