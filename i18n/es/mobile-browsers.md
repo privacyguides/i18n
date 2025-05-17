@@ -97,7 +97,7 @@ Tor Browser es la única manera de navegar por Internet de forma verdaderamente 
 
 #### Valores generales predeterminados de los escudos de Brave
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+Brave incluye algunas medidas contra el fingerprinting en su función [Escudos](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Te sugerimos configurar estas opciones [globalmente](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) en todas las páginas que visites.
 
 Las opciones de los escudos pueden reducirse según las necesidades de cada sitio, pero por defecto recomendamos configurar lo siguiente:
 
@@ -202,7 +202,7 @@ Estas opciones se encuentran en :material-menu:/:fontawesome-solid-ellipsis: →
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) permite que tus datos de navegación (historial, marcadores, etc.) sean accesibles en todos tus dispositivos sin necesidad de tener una cuenta y los protege con E2EE.
 
 ## Cromite (Android)
 
@@ -243,7 +243,7 @@ Estas opciones se encuentran en :material-menu: → :gear: **Configuración** �
 
 - [x] Selecciona **Usar siempre conexiones seguras**
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. HTTP es muy poco común hoy en día, por lo que esto debería tener poco o ningún impacto en tu navegación diaria.
+Esto evita que te conectes involuntariamente a un sitio web en texto plano HTTP. HTTP es muy poco común hoy en día, por lo que esto debería tener poco o ningún impacto en tu navegación diaria.
 
 #### Adblock Plus settings
 
@@ -304,13 +304,13 @@ Esto evita que Siri utilice el contenido de Safari para las sugerencias de Siri.
 
 - [ ] Desactiva **Sugerencias del Motor de Búsqueda**
 
-Este ajuste envía todo lo que escribas en la barra de direcciones al motor de búsqueda configurado en Safari. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+Este ajuste envía todo lo que escribas en la barra de direcciones al motor de búsqueda configurado en Safari. Desactivar las sugerencias de búsqueda te permite controlar con mayor precisión qué datos envías al proveedor de tu motor de búsqueda.
 
 #### Perfiles
 
 Safari te permite separar tu navegación con diferentes perfiles. Todas tus cookies, historial y datos del sitio web están separados para cada perfil. Deberías utilizar diferentes perfiles para diferentes propósitos, por ejemplo, ir de compras, trabajar o uso escolar.
 
-#### Privacidad y seguridad
+#### Privacidad & Seguridad
 
 - [x] Activa **Evitar el seguimiento cruzado de sitios**
 

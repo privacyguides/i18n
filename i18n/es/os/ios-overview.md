@@ -165,7 +165,7 @@ Con esta opción activada, alguien podría borrar intencionadamente tu teléfono
 
 - [x] Activa **Borrar Datos**
 
-#### Privacidad y seguridad
+#### Privacidad & Seguridad
 
 **Localización** te permite utilizar funciones como Buscar y Mapas. Si no necesitas estas funciones, puedes desactivar Localización. Alternativamente, puede revisar y elegir qué aplicaciones pueden usar tu ubicación aquí. Selecciona **Localización**:
 
