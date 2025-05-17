@@ -137,7 +137,7 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
     - [x] Selecciona **URL de seguimiento de redirección automática**
     - \[x\] (Opcional) Selecciona **Bloquear Scripts** (1)
     - [x] Selecciona **Bloquear Fingerprinting**
-    - [x] Select **Site Tabs Closed** under *Auto Shred*
+    - [x] Selecciona **Pestañas Cerradas** en *Destrucción Automática*
 
     <details class="warning" markdown>
     <summary>Utiliza listas de filtros predeterminadas</summary>
@@ -167,7 +167,7 @@ Las opciones de los escudos pueden reducirse según las necesidades de cada siti
     - [x] Selecciona **Desactivar UDP sin proxy** en [*Política de gestión de IP de WebRTC*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - \[x\] (Opcional) Selecciona **Sin protección** en *Navegación segura* (1)
     - [ ] Desmarca **Permite a los sitios comprobar si tienes métodos de pago guardados**
-    - [ ] Uncheck **V8 Optimizer** under *Manage V8 security*
+    - [ ] Desmarca **Optimizador de V8** en *Gestionar la seguridad de V8*
     - [x] Selecciona **Cerrar pestañas al salir**
     - [ ] Desmarca **Permitir estadísticas del producto con preservación de la privacidad (P3A)**
     - [ ] Desmarca **Enviar informes de diagnóstico automáticamente**
@@ -212,13 +212,13 @@ Estas opciones se encuentran en :material-menu:/:fontawesome-solid-ellipsis: →
 
 **Cromite** es un navegador basado en Chromium con bloqueo de anuncios integrado, protección de huellas digitales y otras [mejoras de privacidad y seguridad](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). Es una bifurcación del navegador descatalogado **Bromite**.
 
-[:octicons-home-16: Homepage](https://cromite.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://cromite.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-android: F-Droid](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
 - [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
@@ -249,7 +249,7 @@ Esto evita que te conectes involuntariamente a un sitio web en texto plano HTTP.
 
 Estas opciones se encuentran en :material-menu: → :gear: **Configuración** → **Adblock Plus settings**.
 
-Cromite contains a customized version of Adblock Plus with EasyList enabled by default, as well as options to select more filter lists within the **Filter lists** menu.
+Cromite contiene una versión personalizada de Adblock Plus con EasyList activado por defecto, así como opciones para seleccionar más listas de filtros dentro del menú **Filter lists**.
 
 Usar listas adicionales te hará destacar de otros usuarios de Cromite y también puede aumentar la superficie de ataque si una regla maliciosa es añadida a una de las listas que usas.
 
@@ -273,7 +273,7 @@ En iOS, cualquier aplicación que pueda navegar por la web está [restringida](h
 
 ![Safari logo](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** es el navegador predeterminado en iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites, so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
+**Safari** es el navegador predeterminado en iOS. Incluye [funciones de privacidad](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) como [Prevención Inteligente de Rastreo](https://webkit.org/blog/7675/intelligent-tracking-prevention), pestañas aisladas y efímeras de Navegación Privada, protección de huellas digitales (presentando una versión simplificada de la configuración del sistema a los sitios web para que más dispositivos parezcan idénticos) y aleatorización de huellas digitales, así como Relay Privado para quienes tengan una suscripción de pago a iCloud+.
 
 [:octicons-home-16: Página Principal](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Política de Privacidad" }
