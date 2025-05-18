@@ -1,18 +1,18 @@
 ---
-meta_title: The Best Android Operating Systems - Privacy Guides
-title: Alternative Distributions
-description: You can replace the operating system on your Android phone with these secure and privacy-respecting alternatives.
+meta_title: 一番良いAndroidのオペレーティングシステム - Privacy Guides
+title: 別のディストリビューション
+description: 本記事で紹介する安全かつプライバシー重視のOSで自分のAndroidスマホのOSを置き換えることができます。
 schema:
   - "@context": http://schema.org
     "@type": WebPage
-    name: Private Android Operating Systems
+    name: プライバシー重視のAndroid OS
     url: ./
   - "@context": http://schema.org
     "@type": CreativeWork
     name: GrapheneOS
     image: /assets/img/android/grapheneos.svg
     url: https://grapheneos.org/
-    sameAs: https://en.wikipedia.org/wiki/GrapheneOS
+    sameAs: https://ja.wikipedia.org/wiki/GrapheneOS
     subjectOf:
       "@context": http://schema.org
       "@type": WebPage
