@@ -56,9 +56,9 @@ GrapheneOSでは、[サンドボックス化されたGoogle Play](https://graphe
 
 現在、GrapheneOSの[ハードウェアセキュリティ要件](https://grapheneos.org/faq#future-devices)を満たすデバイスは、[Google Pixelスマートフォン](../mobile-phones.md#google-pixel)のみです。
 
-By default, Android makes many network connections to Google to perform DNS connectivity checks, to sync with current network time, to check your network connectivity, and for many other background tasks. GrapheneOS replaces these with connections to servers operated by GrapheneOS and subject to their privacy policy. This hides information like your IP address [from Google](../basics/common-threats.md#privacy-from-service-providers), but means it is trivial for an admin on your network or ISP to see you are making connections to `grapheneos.network`, `grapheneos.org`, etc. and deduce what operating system you are using.
+デフォルトでAndroidは、DNS接続確認やネットワーク現在時刻の同期、ネットワーク接続確認など、色々なバックグラウンドタスクのために、Googleに頻繁にネットワーク接続を行います。 GrapheneOSでは、この通信先がGrapheneOSが運営するサーバーに変更されます。この通信は、GrapheneOSのプライバシーポリシーに従って管理されます。 これにより、あなたのIPアドレスなどの情報が[Googleから](../basics/common-threats.md#privacy-from-service-providers)見えなくなりますが、逆にネットワーク管理者やISPからは、あなたが`grapheneos.network`や`grapheneos.org`などに接続しているのが観測できるため、GrapheneOSを使用していることが容易に推測できてしまいます。
 
-If you want to hide information like this from an adversary on your network or ISP, you **must** use a [trusted VPN](../vpn.md) in addition to changing the connectivity check setting to **Standard (Google)**. It can be found in :gear: **Settings** → **Network & internet** → **Internet connectivity checks**. This option allows you to connect to Google's servers for connectivity checks, which, alongside the usage of a VPN, helps you blend in with a larger pool of Android devices.
+使用しているネットワークやISPに存在する敵対者からこのような情報を守りたい場合は、接続確認設定を**標準（Google）**に変更することに加えて、[信頼できるVPN](../vpn.md)を使用することが**必須**となります。 It can be found in :gear: **Settings** → **Network & internet** → **Internet connectivity checks**. This option allows you to connect to Google's servers for connectivity checks, which, alongside the usage of a VPN, helps you blend in with a larger pool of Android devices.
 
 ## 規準
 
