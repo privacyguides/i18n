@@ -18,11 +18,11 @@ OTPコードをSMSもしくはメールで受信することは、多要素認�
 
 ### プッシュ通知
 
-Push notification MFA takes the form of a message being sent to an app on your phone asking you to confirm new account logins. This method is a lot better than SMS or email, since an attacker typically wouldn't be able to get these push notifications without having an already logged-in device, which means they would need to compromise one of your other devices first.
+プッシュ通知の多要素認証は、新しいログインを確認するよう携帯電話のアプリにメッセージが送られるものです。 この方法はSMSやメールよりもはるかに優れています。攻撃者はすでにログインされたデバイスを持っていなければプッシュ通知を受け取ることはできず、まずはデバイスを攻撃する必要があります。
 
-We all make mistakes, and there is the risk that you might accept the login attempt by accident. Push notification login authorizations are typically sent to *all* your devices at once, widening the availability of the MFA code if you have many devices.
+間違いを犯す可能性はあり、誤ってログイン試行を許可してしまうリスクもあります。 プッシュ通知によるログイン認証は*全ての*デバイスに送られることが多く、複数のデバイスがある場合はより広くアクセスできるようになってしまいます。
 
-The security of push notification MFA is dependent on both the quality of the app, the server component and the trust of the developer who produces it. Installing an app may also require you to accept invasive privileges that grant access to other data on your device. An individual app also requires that you have a specific app for each service which may not require a password to open, unlike a good TOTP generator app.
+プッシュ通知多要素認証のセキュリティはアプリとサーバーコンポーネントの両方の品質、そして開発者の信頼性によります。 アプリケーションをインストールするには、デバイス上の他のデータへのアクセスを許可する必要があるかもしれません。 よいTOTP生成アプリとは異なり、開くのにパスワードを必要とせず、サービスごとにアプリが必要になることがあります。
 
 ### Time-based One-time Password (TOTP)
 
