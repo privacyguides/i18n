@@ -37,24 +37,24 @@ Google Pixelを使用している人は、セキュリティが強化され、�
 
 <div class="admonition recommendation" markdown>
 
-![GrapheneOS logo](../assets/img/android/grapheneos.svg#only-light){ align=right }
-![GrapheneOS logo](../assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
+![GrapheneOSのロゴ](../assets/img/android/grapheneos.svg#only-light){ align=right }
+![GrapheneOSのロゴ](../assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
 
 **GrapheneOS**は、プライバシーとセキュリティにおいては一番良い選択肢です。
 
-GrapheneOSでは、[セキュリティが強化（ハードニング）](https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%BC%E3%83%89%E3%83%8B%E3%83%B3%E3%82%B0)され、プライバシーが改善されています。 It has a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), network and sensor permissions, and various other [security features](https://grapheneos.org/features). GrapheneOS also comes with full firmware updates and signed builds, so verified boot is fully supported.
+GrapheneOSでは、[セキュリティが強化（ハードニング）](https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%BC%E3%83%89%E3%83%8B%E3%83%B3%E3%82%B0)され、プライバシーが改善されています。 [ハードニングされたメモリアロケータ](https://github.com/GrapheneOS/hardened_malloc)、ネットワークとセンサーの権限管理機能、その他のさまざまな[セキュリティ機能](https://grapheneos.org/features)を備えています。 さらに、ファームウェアアップデートがすべて含まれ、ビルドも署名付きのため、セキュアブートに完全対応しています。
 
-[:octicons-home-16: Homepage](https://grapheneos.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-home-16: ホームページ](https://grapheneos.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="プライバシーポリシー" }
+[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=ドキュメント}
+[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="ソースコード" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=支援 }
 
 </div>
 
-GrapheneOS supports [sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), which runs Google Play Services fully sandboxed like any other regular app. This means you can take advantage of most Google Play Services, such as push notifications, while giving you full control over their permissions and access, and while containing them to a specific [work profile](../os/android-overview.md#work-profile) or [user profile](../os/android-overview.md#user-profiles) of your choice.
+GrapheneOSでは、[サンドボックス化されたGoogle Play](https://grapheneos.org/usage#sandboxed-google-play)を使うことができます。これは、Google Playサービスを他のアプリと同じように完全にサンドボックス化して実行するものです。 サンドボックス化により、プッシュ通知などほとんどのGoogle Playサービスが利用可能でありながら、Playサービスの権限やアクセスを完全に制御することができ、また、自由に特定の[仕事用プロファイル](../os/android-overview.md#work-profile)や[ユーザープロファイル](../os/android-overview.md#user-profiles)の中に隔離することができます。
 
-[Google Pixel phones](../mobile-phones.md#google-pixel) are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#future-devices).
+現在、GrapheneOSの[ハードウェアセキュリティ要件](https://grapheneos.org/faq#future-devices)を満たすデバイスは、[Google Pixelスマートフォン](../mobile-phones.md#google-pixel)のみです。
 
 By default, Android makes many network connections to Google to perform DNS connectivity checks, to sync with current network time, to check your network connectivity, and for many other background tasks. GrapheneOS replaces these with connections to servers operated by GrapheneOS and subject to their privacy policy. This hides information like your IP address [from Google](../basics/common-threats.md#privacy-from-service-providers), but means it is trivial for an admin on your network or ISP to see you are making connections to `grapheneos.network`, `grapheneos.org`, etc. and deduce what operating system you are using.
 
