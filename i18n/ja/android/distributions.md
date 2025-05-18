@@ -20,18 +20,18 @@ schema:
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>以下の脅威から保護します：</small>
 
-- [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-target-account: 標的型攻撃](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-bug-outline: パッシブ攻撃](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-A **custom Android-based operating system** (sometimes referred to as a **custom ROM**) can be a way to achieve a higher level of privacy and security on your device. This is in contrast to the "stock" version of Android which comes with your phone from the factory, and is often deeply integrated with Google Play Services as well as other vendor software.
+**AndroidをベースにしたカスタムのOS** (**カスタムROM**と呼ばれることがあります) を自分のデバイスで使えば、プライバシーとセキュリティのレベルを高めることができます。 これは、工場出荷時に搭載される「純正」バージョンのAndroidとは異なるものです。純正バージョンでは、Google Playサービスや他ベンダーのソフトウェアが、OSと密接に連携する形で組み込まれていることが多いです。
 
-We recommend installing GrapheneOS if you have a Google Pixel as it provides improved security hardening and additional privacy features. The reasons we don't list other operating systems or devices are as follows:
+Google Pixelを使用している人は、セキュリティが強化され、追加のプライバシー機能を備えているGrapheneOSをインストールすることを推奨します。 他のOSやデバイスを紹介しない理由は以下の通りです：
 
-- They often have [weaker security](index.md#install-a-custom-distribution).
-- Support is frequently dropped when the maintainer loses interest or upgrades their device, which is in contrast to the predictable [support cycle](https://grapheneos.org/faq#device-lifetime) that GrapheneOS follows.
-- They generally have few or no notable privacy or security improvements that make installing them worthwhile.
+- [セキュリティが弱い](index.md#install-a-custom-distribution)ことが多い。
+- 開発者が興味を失ったり別にデバイスに乗り換えたりして、サポートが終わってしまうということが頻繁に起きる。対照的に、GrapheneOSの[サポート期間](https://grapheneos.org/faq#device-lifetime)はいつ終わるか予測しやすい。
+- これといったプライバシーやセキュリティの改善がほとんどなく、インストールする価値がない。
 
 ## GrapheneOS
 
@@ -40,9 +40,9 @@ We recommend installing GrapheneOS if you have a Google Pixel as it provides imp
 ![GrapheneOS logo](../assets/img/android/grapheneos.svg#only-light){ align=right }
 ![GrapheneOS logo](../assets/img/android/grapheneos-dark.svg#only-dark){ align=right }
 
-**GrapheneOS** is the best choice when it comes to privacy and security.
+**GrapheneOS**は、プライバシーとセキュリティにおいては一番良い選択肢です。
 
-GrapheneOS provides additional [security hardening](https://en.wikipedia.org/wiki/Hardening_\(computing\)) and privacy improvements. It has a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), network and sensor permissions, and various other [security features](https://grapheneos.org/features). GrapheneOS also comes with full firmware updates and signed builds, so verified boot is fully supported.
+GrapheneOSでは、[セキュリティが強化（ハードニング）](https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%BC%E3%83%89%E3%83%8B%E3%83%B3%E3%82%B0)され、プライバシーが改善されています。 It has a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), network and sensor permissions, and various other [security features](https://grapheneos.org/features). GrapheneOS also comes with full firmware updates and signed builds, so verified boot is fully supported.
 
 [:octicons-home-16: Homepage](https://grapheneos.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacy Policy" }
