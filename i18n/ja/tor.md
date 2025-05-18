@@ -31,7 +31,7 @@ schema:
 
 **Tor**はボランティアによるサーバー群で、無償で接続が可能であり、インターネット上のプライバシーとセキュリティを向上させることができます。 個人や組織は、プライバシーを損なうことなく、Torネットワーク上で「.onion 秘匿サービス」による情報共有が可能です。 Torトラフィックはブロックや追跡が困難であるため、Torは効果的な検閲回避ツールです。
 
-[Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
+[Torの概要 :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: 動画：Torが必要な理由](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">ヒント</p>
@@ -42,7 +42,7 @@ Torに接続する前に、Torと安全に接続する方法についての[概�
 
 Torネットワークへの接続は様々な方法がありますが、Firefoxをフォークし、デスクトップやAndroid用で[:material-incognito: 匿名](basics/common-threats.md#anonymity-vs-privacy ""){.pg-purple}ブラウジングを重視した**Tor Browser**が最も利用されています。
 
-Some of these apps are better than others; making a determination comes down to your threat model. ISPが不利な証拠を集めることについて心配しないTorのカジュアルなユーザーであれば、[Onion Browser](#onion-browser-ios)などのモバイルブラウザからTorネットワークに接続することは良い方法です。 日常的にTorを使う人が増えることはTorのマイナスイメージをやわらげ、ISPや政府が作成しているかもしれない「Torユーザーリスト」の質を下げることになります。
+Torネットワークに接続するアプリには長短があり、どれを使うかは脅威モデルによります。 ISPが不利な証拠を集めることについて心配しないTorのカジュアルなユーザーであれば、[Onion Browser](#onion-browser-ios)などのモバイルブラウザからTorネットワークに接続することは良い方法です。 日常的にTorを使う人が増えることはTorのマイナスイメージをやわらげ、ISPや政府が作成しているかもしれない「Torユーザーリスト」の質を下げることになります。
 
 完全な匿名性が最優先であるなら、デスクトップのTor Browser**のみ**を使うべきであり、[Whonix](desktop.md#whonix)と[Qubes](desktop.md#qubes-os)の構成が理想的です。 モバイルブラウザではTorはあまり使われておらず（そのためフィンガープリンティングされやすい）、匿名化解除に対して厳密にテストはされていません。
 
@@ -52,13 +52,13 @@ Some of these apps are better than others; making a determination comes down to 
 
 ![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
 
-**Tor Browser** is the top choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+**Tor Browser**は匿名性に重点をおいたブラウザで、Torネットワークとブリッジへアクセスできます。デフォルトの設定と拡張機能が含まれており、セキュリティのレベル*既定の保護*、*強力な保護*、*最大限の保護*を選ぶことで自動的に設定されます。
 
-[:octicons-home-16: Homepage](https://torproject.org){ .md-button .md-button--primary }
+[:octicons-home-16: ウェブページ](https://torproject.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title="Documentation" }
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title="Contribute" }
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title="ドキュメント" }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="ソースコード" }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title="貢献" }
 
 <details class="downloads" markdown>
 <summary>ダウンロード</summary>
@@ -80,7 +80,7 @@ Firefoxでおすすめされているものを含め、Tor Browserに追加の�
 
 </div>
 
-Tor Browserはフィンガープリントを防止するよう設計されており、不用意にブラウザの設定を変更するとあなたは特定されやすくなってしまいます。 そのため、デフォルトの[セキュリティレベル](https://tb-manual.torproject.org/security-settings)を調整する以外の変更は**行うべきではありません**。 セキュリティレベルを変更する際には、使い続ける前にブラウザを再起動**しなければなりません**。 Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
+Tor Browserはフィンガープリントを防止するよう設計されており、不用意にブラウザの設定を変更するとあなたは特定されやすくなってしまいます。 そのため、デフォルトの[セキュリティレベル](https://tb-manual.torproject.org/security-settings)を調整する以外の変更は**行うべきではありません**。 セキュリティレベルを変更する際には、使い続ける前にブラウザを再起動**しなければなりません**。 再起動しなければ、[セキュリティ設定は完全に適用されない可能性があり](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw)、選択した設定よりもフィンガープリンティングやエクスプロイトのリスクが高くなります。
 
 Tor Browserを直接コンピューターにインストールするだけではなく、[Qubes OS](desktop.md#qubes-os)上の[Whonix](desktop.md#whonix)のようにTorネットワークに接続するためのOSもあり、Tor Browser単体で使うよりもよりセキュリティを強化することができます。
 
@@ -92,13 +92,13 @@ Tor Browserを直接コンピューターにインストールするだけでは
 
 **Onion Browser**はiOS上でTorネットワークを経由し匿名でウェブブラウジングすることができるオープンソースのブラウザで、[Tor Project](https://support.torproject.org/glossary/onion-browser)が支持しています。
 
-[:material-star-box: Read our latest Onion Browser review.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
+[:material-star-box: Onion Browserの最新レビュー](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
 
-[:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title="Contribute" }
+[:octicons-home-16: ウェブページ](https://onionbrowser.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="プライバシーポリシー" }
+[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title="ドキュメント" }
+[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="ソースコード" }
+[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title="貢献" }
 
 <details class="downloads" markdown>
 <summary>ダウンロード</summary>

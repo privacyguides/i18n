@@ -211,7 +211,7 @@ GoogleやFacebookのような巨大な広告ネットワークやその他多数
 
 TwitterやFacebookのようなプラットフォームでは、世間の要求、市場による圧力や政府機関からの圧力に応じており、企業のプラットフォームにおける検閲はますます一般的になっています。 政府からの圧力は、ホワイトハウスが挑発的なYouTubeの動画に対する[削除要求](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html)をしたように企業へ秘密裏に行われることもあれば、中国政府が企業へ厳しい検閲体制の遵守を要求するように公然と行われることもあります。
 
-People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../social-networks.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
+検閲への脅威を懸念する人は、[Tor](../advanced/tor-overview.md)のような技術で検閲を回避し、勝手にアカウントを閉鎖できる中央集権的なアカウント権限のない[Matrix](../social-networks.md#element)のような検閲に強いコミュニケーションプラットフォームを支援することができます。
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">ヒント</p>

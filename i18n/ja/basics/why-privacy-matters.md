@@ -58,7 +58,7 @@ description: デジタルデータが搾取される現代において、あな�
 
 プライバシーは使用する[ソフトウェアやサービス](../tools.md)にデフォルトで組み込まれている必要があります。多くのアプリでは自分でプライベートにするよう設定することはできません。
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
+[:material-movie-open-play-outline: 動画：プライバシーを改善する5つのステップ](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 
 ## ソース
 

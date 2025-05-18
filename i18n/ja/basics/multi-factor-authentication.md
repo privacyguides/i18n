@@ -1,14 +1,14 @@
 ---
-title: "Multifactor Authentication"
+title: "多要素認証"
 icon: 'material/two-factor-authentication'
-description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
+description: 多要素認証はオンラインアカウントを保護するためのセキュリティの仕組みで、強力な仕組みのものもあります。
 ---
 
-**Multifactor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. The most common method is time limited codes you might receive from SMS or an app.
+**多要素認証**（**MFA**）はユーザー名（もしくはEメール）とパスワードを入力することに加え、追加の手順を必要とするセキュリティの仕組みです。 最も一般的な方法はSMSやアプリから一時的なコードを受け取るものです。
 
-Normally, if a hacker (or adversary) is able to figure out your password then they’d gain access to the account that password belongs to. An account with MFA forces the hacker to have both the password (something you *know*) and a device that you own (something you *have*), like your phone.
+通常、ハッカー（または敵対者）はパスワードが分かれば、そのアカウントにアクセスできるようになります。 ハッカーが多要素認証で保護されたアカウントにアクセスするには、パスワード（あなたが*知っている*もの)と、携帯電話のような所有しているデバイス（あなたが*持っている*もの）の両方を必要とします。
 
-MFA methods vary in security, but are based on the premise that the more difficult it is for an attacker to gain access to your MFA method, the better. Examples of MFA methods (from weakest to strongest) include SMS, Email codes, app push notifications, TOTP, Yubico OTP and FIDO.
+多要素認証のセキュリティは様々ですが、攻撃者が多要素認証の仕組みにアクセスしにくいほど、よいという前提に基づいています。 他要素認証の手法としては（弱いものから強いもの順に）SMS、メールでのコード、アプリのプッシュ通知、TOTP、Yubico OTPやFIDOが挙げられます。
 
 ## MFA Method Comparison
 
