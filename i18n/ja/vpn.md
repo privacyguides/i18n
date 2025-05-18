@@ -142,7 +142,7 @@ VPNキルスイッチを使っている際、システムクラッシュが[発�
 [:octicons-code-16:](https://github.com/ivpn){ .card-link title="ソースコード" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>ダウンロード</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1193122683)

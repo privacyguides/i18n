@@ -10,11 +10,11 @@ description: 多要素認証はオンラインアカウントを保護するた�
 
 多要素認証のセキュリティは様々ですが、攻撃者が多要素認証の仕組みにアクセスしにくいほど、よいという前提に基づいています。 他要素認証の手法としては（弱いものから強いもの順に）SMS、メールでのコード、アプリのプッシュ通知、TOTP、Yubico OTPやFIDOが挙げられます。
 
-## MFA Method Comparison
+## 多要素認証の方法の比較
 
-### SMS or Email MFA
+### SMSまたはEメール多要素認証
 
-Receiving OTP codes via SMS or email are one of the weaker ways to secure your accounts with MFA. Obtaining a code by email or SMS takes away from the "something you *have*" idea, because there are a variety of ways a hacker could [take over your phone number](https://en.wikipedia.org/wiki/SIM_swap_scam) or gain access to your email without having physical access to any of your devices at all. If an unauthorized person gained access to your email, they would be able to use that access to both reset your password and receive the authentication code, giving them full access to your account.
+OTPコードをSMSもしくはメールで受信することは、多要素認証でアカウントを保護する弱い方法です。 メールやSMSでコードを受け取ることは「あなたが*持っている*もの」という条件が損なわれてしまいます。ハッカーは[電話番号を奪う](https://en.wikipedia.org/wiki/SIM_swap_scam)ことが可能であり、デバイスに物理的にアクセスすることなくメールにはアクセス可能だからです。 不正にメールにアクセスすることができれば、パスワードをリセットしたり、認証コードを受け取ったり、あなたのアカウントにフルアクセスすることができてしまいます。
 
 ### プッシュ通知
 
