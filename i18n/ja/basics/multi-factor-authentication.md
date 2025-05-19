@@ -24,13 +24,13 @@ OTPコードをSMSもしくはメールで受信することは、多要素認�
 
 プッシュ通知多要素認証のセキュリティはアプリとサーバーコンポーネントの両方の品質、そして開発者の信頼性によります。 アプリケーションをインストールするには、デバイス上の他のデータへのアクセスを許可する必要があるかもしれません。 よいTOTP生成アプリとは異なり、開くのにパスワードを必要とせず、サービスごとにアプリが必要になることがあります。
 
-### Time-based One-time Password (TOTP)
+### タイムベースドワンタイムパスワード(TOTP)
 
-TOTPは、最も一般的なMFAの形式の一つです。 When you set up TOTP, you are generally required to scan a [QR Code](https://en.wikipedia.org/wiki/QR_code) which establishes a "[shared secret](https://en.wikipedia.org/wiki/Shared_secret)" with the service that you intend to use. The shared secret is secured inside the authenticator app's data, and is sometimes protected by a password.
+TOTPは、最も一般的なMFAの形式の一つです。 TOTPを設定する際、一般的には利用するサービスとの「[共有シークレット](https://en.wikipedia.org/wiki/Shared_secret)」を確立するため[QRコード](https://en.wikipedia.org/wiki/QR_code)をスキャンする必要があります。 共有シークレットは認証アプリのデータの中に保護され、パスワードによって保護されることもあります。
 
-The time-limited code is then derived from the shared secret and the current time. As the code is only valid for a short time, without access to the shared secret, an adversary cannot generate new codes.
+時間制限のあるコードは共有シークレットと現在時刻から生成されます。 コードは短時間のみ有効であり、共有シークレットにアクセスできなければ、敵対者は新たなコードを生成することはできません。
 
-If you have a hardware security key with TOTP support (such as a YubiKey with [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)), we recommend that you store your "shared secrets" on the hardware. Hardware such as the YubiKey was developed with the intention of making the "shared secret" difficult to extract and copy. A YubiKey is also not connected to the Internet, unlike a phone with a TOTP app.
+TOTPに対応したハードウェアセキュリティキー（[Yubico Authenticator](https://yubico.com/products/yubico-authenticator)に対応したYubiKeyなど）を持っている場合は、ハードウェアに「共有シークレット」を保存することを推奨します。 YubiKeyのようなハードウェアは「共有シークレット」の抽出やコピーが困難になることを意図して開発されています。 また、YubiKeyは携帯電話のTOTPアプリとは異なり、インターネットに接続しません。
 
 Unlike [WebAuthn](#fido-fast-identity-online), TOTP offers no protection against [phishing](https://en.wikipedia.org/wiki/Phishing) or reuse attacks. If an adversary obtains a valid code from you, they may use it as many times as they like until it expires (generally 60 seconds).
 

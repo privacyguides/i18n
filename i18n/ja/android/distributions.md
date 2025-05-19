@@ -58,7 +58,7 @@ GrapheneOSでは、[サンドボックス化されたGoogle Play](https://graphe
 
 デフォルトでAndroidは、DNS接続確認やネットワーク現在時刻の同期、ネットワーク接続確認など、色々なバックグラウンドタスクのために、Googleに頻繁にネットワーク接続を行います。 GrapheneOSでは、この通信先がGrapheneOSが運営するサーバーに変更されます。この通信は、GrapheneOSのプライバシーポリシーに従って管理されます。 これにより、あなたのIPアドレスなどの情報が[Googleから](../basics/common-threats.md#privacy-from-service-providers)見えなくなりますが、逆にネットワーク管理者やISPからは、あなたが`grapheneos.network`や`grapheneos.org`などに接続しているのが観測できるため、GrapheneOSを使用していることが容易に推測できてしまいます。
 
-使用しているネットワークやISPに存在する敵対者からこのような情報を守りたい場合は、接続確認設定を**標準（Google）**に変更することに加えて、[信頼できるVPN](../vpn.md)を使用することが**必須**となります。 It can be found in :gear: **Settings** → **Network & internet** → **Internet connectivity checks**. This option allows you to connect to Google's servers for connectivity checks, which, alongside the usage of a VPN, helps you blend in with a larger pool of Android devices.
+使用しているネットワークやISPに存在する敵対者からこのような情報を守りたい場合は、接続確認設定を**標準（Google）**に変更することに加えて、[信頼できるVPN](../vpn.md)を使用することが**必須**となります。 :gear: **設定** → **ネットワークとインターネット** → **Internet connectivity checks**で変更できます。 This option allows you to connect to Google's servers for connectivity checks, which, alongside the usage of a VPN, helps you blend in with a larger pool of Android devices.
 
 ## 規準
 
