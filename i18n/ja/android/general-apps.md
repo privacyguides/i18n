@@ -68,12 +68,12 @@ Shelterは[連絡先の検索をブロック](https://secure-system.gitlab.io/In
 ![Secure cameraのロゴ](../assets/img/android/secure_camera.svg#only-light){ align=right }
 ![Secure cameraのロゴ](../assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
 
-**Secure Camera**は、プライバシーとセキュリティを重視したカメラアプリで、画像、ビデオ、QRコードを撮影することができます。 CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
+**Secure Camera**は、プライバシーとセキュリティを重視したカメラアプリで、画像、ビデオ、QRコードを撮影することができます。 CameraXの拡張機能(ポートレートモード、HDR、夜景、顔のレタッチ、オートモード)も、デバイスが対応していれば使用できます。
 
-[:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-repo-16: レポジトリ](https://github.com/GrapheneOS/Camera#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=ドキュメント}
+[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="ソースコード" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=支援 }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
