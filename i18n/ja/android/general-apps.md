@@ -1,6 +1,6 @@
 ---
 title: General Apps
-description: The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
+description: 本記事で紹介するアプリはAndroid専用アプリで、システムの重要な機能を強化あるいは置換するものです。
 schema:
   - "@context": http://schema.org
     "@type": WebPage
@@ -24,51 +24,51 @@ schema:
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>以下の脅威から保護します：</small>
 
-- [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-bug-outline: パッシブ攻撃](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-We recommend a wide variety of Android apps throughout this site. The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
+本サイトでは様々なAndroidアプリをおすすめしています。 本記事で紹介するアプリはAndroid専用アプリで、システムの重要な機能を強化あるいは置換するものです。
 
 ### Shelter
 
-If your device is on Android 15 or greater, we recommend using the native [Private Space](../os/android-overview.md#private-space) feature instead, which provides nearly the same functionality without needing to place trust in and grant powerful permissions to a third-party app.
+Android 15以上のデバイスを使用しているのであれば、Shelterではなく、標準機能である[プライベートスペース](../os/android-overview.md#private-space)を使うことを推奨します。サードパーティを信用して強力な権限を与える必要がなく、ほぼ同様の機能が使えます。
 
 <div class="admonition recommendation" markdown>
 
-![Shelter logo](../assets/img/android/shelter.svg){ align=right }
+![Shelterのロゴ](../assets/img/android/shelter.svg){ align=right }
 
-**Shelter** is an app that helps you leverage Android's Work Profile functionality to isolate or duplicate apps on your device.
+**Shelter**は、Androidの仕事用プロファイル機能を利用して、デバイス上のアプリを隔離または複製できるアプリです。
 
-Shelter supports blocking contact search cross profiles and sharing files across profiles via the default file manager ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
+別プロファイルの連絡先を検索するのをブロックしたり、デフォルトのファイルマネージャー([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui))を使って別プロファイルとファイルを共有するのをブロックする機能があります。
 
-[:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
-[:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://patreon.com/PeterCxy){ .card-link title=Contribute }
+[:octicons-repo-16: リポジトリ](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
+[:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="ソースコード" }
+[:octicons-heart-16:](https://patreon.com/PeterCxy){ .card-link title=支援 }
 
 </div>
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">注意</p>
 
-When using Shelter, you are placing complete trust in its developer, as Shelter acts as a [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) to create the Work Profile, and it has extensive access to the data stored within the Work Profile.
+Shelterを使用することで、Shelterの開発者を完全に信頼することになります。仕事用プロファイルを作成するためにShelterは[デバイス管理者](https://developer.android.com/guide/topics/admin/device-admin?hl=ja)として実行されるため、プロファイル内の広範囲のデータにアクセスすることができます。
 
 </div>
 
-Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) and [Island](https://github.com/oasisfeng/island) as it supports [contact search blocking](https://secure-system.gitlab.io/Insular/faq.html).
+Shelterは[連絡先の検索をブロック](https://secure-system.gitlab.io/Insular/faq.html)できるため、[Insular](https://secure-system.gitlab.io/Insular)や[Island](https://github.com/oasisfeng/island)よりもおすすめです。
 
 ### Secure Camera
 
-<small>Protects against the following threat(s):</small>
+<small>以下の脅威から保護します：</small>
 
-- [:material-account-search: Public Exposure](../basics/common-threats.md#limiting-public-information){ .pg-green }
+- [:material-account-search: 秘密の暴露](../basics/common-threats.md#limiting-public-information){ .pg-green }
 
 <div class="admonition recommendation" markdown>
 
-![Secure camera logo](../assets/img/android/secure_camera.svg#only-light){ align=right }
-![Secure camera logo](../assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
+![Secure cameraのロゴ](../assets/img/android/secure_camera.svg#only-light){ align=right }
+![Secure cameraのロゴ](../assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
 
-**Secure Camera** is a camera app focused on privacy and security which can capture images, videos, and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
+**Secure Camera**は、プライバシーとセキュリティを重視したカメラアプリで、画像、ビデオ、QRコードを撮影することができます。 CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
 
 [:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
@@ -133,7 +133,7 @@ The image orientation metadata is not deleted. If you enable location (in Secure
 
 ## 規準
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
+\*\*私たちは、推薦するどのプロジェクトとも提携していません。\*\*客観的に推薦できるよう、[標準となる規準](../about/criteria.md)に加えて、一連の明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
 
 - Applications on this page must not be applicable to any other software category on the site.
 - General applications should extend or replace core system functionality.

@@ -32,35 +32,35 @@ TOTPは、最も一般的なMFAの形式の一つです。 TOTPを設定する�
 
 TOTPに対応したハードウェアセキュリティキー（[Yubico Authenticator](https://yubico.com/products/yubico-authenticator)に対応したYubiKeyなど）を持っている場合は、ハードウェアに「共有シークレット」を保存することを推奨します。 YubiKeyのようなハードウェアは「共有シークレット」の抽出やコピーが困難になることを意図して開発されています。 また、YubiKeyは携帯電話のTOTPアプリとは異なり、インターネットに接続しません。
 
-Unlike [WebAuthn](#fido-fast-identity-online), TOTP offers no protection against [phishing](https://en.wikipedia.org/wiki/Phishing) or reuse attacks. If an adversary obtains a valid code from you, they may use it as many times as they like until it expires (generally 60 seconds).
+[WebAuthn](#fido-fast-identity-online)とは異なり、TOTPは[フィッシング](https://en.wikipedia.org/wiki/Phishing)や反射攻撃からの保護はできません。 もし敵対者があなたから有効なコードを入手したら、有効期限（通常は60秒）が切れるまで何度でも使用することができます。
 
-An adversary could set up a website to imitate an official service in an attempt to trick you into giving out your username, password and current TOTP code. If the adversary then uses those recorded credentials they may be able to log into the real service and hijack the account.
+敵対者が公式サービスを似せたウェブサイトを立ち上げ、ユーザー名、パスワードと現在のTOTPコードをだまし取ろうとする可能性があります。 もし、敵対者が記録された認証情報を使えば、実際にサービスにログインし、アカウントを乗っ取ることができるかもしれません。
 
-Although not perfect, TOTP is secure enough for most people, and when [hardware security keys](../security-keys.md) are not supported [authenticator apps](../multi-factor-authentication.md) are still a good option.
+完璧ではありませんが、TOTPはほとんどの人にとって十分安全であり、[ハードウェアセキュリティーキー](../security-keys.md)が[認証アプリ](../multi-factor-authentication.md)に対応していない場合、依然としてよい選択肢です。
 
 ### ハードウェアのセキュリティキー
 
-The YubiKey stores data on a tamper-resistant solid-state chip which is [impossible to access](https://security.stackexchange.com/a/245772) non-destructively without an expensive process and a forensics laboratory.
+YubiKeyは耐タンパー性ソリッドステートチップにデータを保存しており、費用がかかる手順と法科学研究所なしには非破壊での[アクセスは不可能](https://security.stackexchange.com/a/245772)です。
 
-These keys are generally multi-function and provide a number of methods to authenticate. Below are the most common ones.
+ハードウェアセキュリティーキーは一般的に多機能であり、多くの認証方法に対応しています。 以下のものは最も一般的なものです。
 
 #### Yubico OTP
 
-Yubico OTP is an authentication protocol typically implemented in hardware security keys. When you decide to use Yubico OTP, the key will generate a public ID, private ID, and a Secret Key which is then uploaded to the Yubico OTP server.
+Yubico OTPはハードウェアセキュリティーキーに実装される認証プロトコルです。 Yubico OTPを使う場合、キーは公開ID、秘密IDと秘密鍵を生成し、Yubico OTPサーバーにアップロードします。
 
-When logging into a website, all you need to do is to physically touch the security key. The security key will emulate a keyboard and print out a one-time password into the password field.
+ウェブサイトにログインする際には、セキュリティーキーに物理的にタッチするだけで済みます。 セキュリティーキーはキーボードをエミュレートし、パスワード欄にワンタイムパスワードを入力します。
 
-The service will then forward the one-time password to the Yubico OTP server for validation. A counter is incremented both on the key and Yubico's validation server. The OTP can only be used once, and when a successful authentication occurs, the counter is increased which prevents reuse of the OTP. Yubico provides a [detailed document](https://developers.yubico.com/OTP/OTPs_Explained.html) about the process.
+検証のためにワンタイムパスワードをYubico OTPサーバーに送信します。 キーとYubico検証サーバーの両方でカウンターが増えます。 OTPは一度しか使うことはできず、認証が成功すると、OTPの再利用を防ぐためにカウンターが増えます。 Yubicoはこのプロセスの[詳細なドキュメント](https://developers.yubico.com/OTP/OTPs_Explained.html)を提供しています。
 
 <figure markdown>
   ![Yubico OTP](../assets/img/multi-factor-authentication/yubico-otp.png)
 </figure>
 
-There are some benefits and disadvantages to using Yubico OTP when compared to TOTP.
+Yubico OTPはTOTPと比べて利点と欠点があります。
 
-The Yubico validation server is a cloud based service, and you're placing trust in Yubico that they are storing data securely and not profiling you. The public ID associated with Yubico OTP is reused on every website and could be another avenue for third-parties to profile you. Like TOTP, Yubico OTP does not provide phishing resistance.
+Yubico検証サーバーはクラウドベースのサービスでありデータが安全に保存され、プロファイリングされていないとYubicoを信頼する必要があります。 Yubico OTPに関連付けられた公開IDはあらゆるウェブサイトで再利用され、第三者がプロファイリングする手段になる可能性があります。 TOTPと同じく、Yubico OTPにはフィッシング耐性はありません。
 
-If your threat model requires you to have different identities on different websites, **do not** use Yubico OTP with the same hardware security key across those websites as public ID is unique to each security key.
+それぞれのウェブサイトで異なるIDが必要となる脅威モデルの場合、公開IDは各セキュリティキーで固有であるため、そのウェブサイトに同じハードウェアセキュリティーキーでYubico OTPは使用**しないでください**。
 
 #### FIDO (Fast IDentity Online)
 

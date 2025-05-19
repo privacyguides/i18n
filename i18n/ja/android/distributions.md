@@ -58,17 +58,17 @@ GrapheneOSでは、[サンドボックス化されたGoogle Play](https://graphe
 
 デフォルトでAndroidは、DNS接続確認やネットワーク現在時刻の同期、ネットワーク接続確認など、色々なバックグラウンドタスクのために、Googleに頻繁にネットワーク接続を行います。 GrapheneOSでは、この通信先がGrapheneOSが運営するサーバーに変更されます。この通信は、GrapheneOSのプライバシーポリシーに従って管理されます。 これにより、あなたのIPアドレスなどの情報が[Googleから](../basics/common-threats.md#privacy-from-service-providers)見えなくなりますが、逆にネットワーク管理者やISPからは、あなたが`grapheneos.network`や`grapheneos.org`などに接続しているのが観測できるため、GrapheneOSを使用していることが容易に推測できてしまいます。
 
-使用しているネットワークやISPに存在する敵対者からこのような情報を守りたい場合は、接続確認設定を**標準（Google）**に変更することに加えて、[信頼できるVPN](../vpn.md)を使用することが**必須**となります。 :gear: **設定** → **ネットワークとインターネット** → **Internet connectivity checks**で変更できます。 This option allows you to connect to Google's servers for connectivity checks, which, alongside the usage of a VPN, helps you blend in with a larger pool of Android devices.
+使用しているネットワークやISPに存在する敵対者からこのような情報を守りたい場合は、接続確認設定を**Standard (Google)**に変更することに加えて、[信頼できるVPN](../vpn.md)を使用することが**必須**となります。 このオプションは :gear: **設定** → **ネットワークとインターネット** → **Internet connectivity checks**にあります。 このオプションを選ぶことで、Googleのサーバーに対して接続確認するようになり、VPNと組み合わせれば、より大きなAndroidデバイスのグループの中に紛れ込むことができます。
 
 ## 規準
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
+\*\*私たちは、推薦するどのプロジェクトとも提携していません。\*\*客観的に推薦できるよう、[標準となる規準](../about/criteria.md)に加えて、一連の明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
 
 - オープンソースのソフトウェアであること。
 - Must support bootloader locking with custom AVB key support.
-- Must receive major Android updates within 0-1 months of release.
-- Must receive Android feature updates (minor version) within 0-14 days of release.
-- Must receive regular security patches within 0-5 days of release.
-- Must **not** be "rooted" out of the box.
-- Must **not** enable Google Play Services by default.
-- Must **not** require system modification to support Google Play Services.
+- Androidのメジャーアップデートがリリースされてから１ヶ月以内に配信していること。
+- Androidのマイナーアップデートがリリースされてから14日以内に配信していること。
+- セキュリティアップデートがリリースされてから5日以内に配信していること。
+- デフォルトで「ルート化」されていないこと。
+- デフォルトでGoogle Playサービスが有効化されていないこと。
+- Google Playサービスを有効化するのに、システムへの変更を加える必要がないこと。
