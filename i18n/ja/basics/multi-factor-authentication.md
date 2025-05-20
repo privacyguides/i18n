@@ -8,7 +8,7 @@ description: 多要素認証はオンラインアカウントを保護するた�
 
 通常、ハッカー（または敵対者）はパスワードが分かれば、そのアカウントにアクセスできるようになります。 ハッカーが多要素認証で保護されたアカウントにアクセスするには、パスワード（あなたが*知っている*もの)と、携帯電話のような所有しているデバイス（あなたが*持っている*もの）の両方を必要とします。
 
-多要素認証のセキュリティは様々ですが、攻撃者が多要素認証の仕組みにアクセスしにくいほど、よいという前提に基づいています。 他要素認証の手法としては（弱いものから強いもの順に）SMS、メールでのコード、アプリのプッシュ通知、TOTP、Yubico OTPやFIDOが挙げられます。
+多要素認証のセキュリティは様々ですが、攻撃者が多要素認証の仕組みにアクセスしにくいほど、よいという前提に基づいています。 多要素認証の手法としては（弱いものから強いもの順に）SMS、メールでのコード、アプリのプッシュ通知、TOTP、Yubico OTPやFIDOが挙げられます。
 
 ## 多要素認証の方法の比較
 
@@ -64,53 +64,53 @@ Yubico検証サーバーはクラウドベースのサービスでありデー�
 
 #### FIDO (Fast IDentity Online)
 
-[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) includes a number of standards, first there was U2F and then later [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project) which includes the web standard [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
+[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance)には多くの標準規格があり、最初にU2F、後にウェブ標準の[WebAuthn](https://en.wikipedia.org/wiki/WebAuthn)を含む[FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project)が策定されました。
 
-U2F and FIDO2 refer to the [Client to Authenticator Protocol](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol), which is the protocol between the security key and the computer, such as a laptop or phone. It complements WebAuthn which is the component used to authenticate with the website (the "Relying Party") you're trying to log in on.
+U2FとFIDO2は[Client to Authenticator Protocol](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol)で、セキュリティーキーとラップトップや携帯電話のようなコンピューター間のプロトコルです。 ログインしようとしているウェブサイト（「Relaying Party」）との認証に使われているコンポーネントであるWebAuthnを補完しています。
 
-WebAuthn is the most secure and private form of second factor authentication. While the authentication experience is similar to Yubico OTP, the key does not print out a one-time password and validate with a third-party server. Instead, it uses [public key cryptography](https://en.wikipedia.org/wiki/Public-key_cryptography) for authentication.
+WebAuthnは最も安全でプライベートな二要素認証の方法です。 認証の使い勝手はYubico OTPと似ていますが、キーはワンタイムパスワードを出力せず、第三者のサーバーで検証もしません。 その代わり、認証には[公開鍵暗号](https://en.wikipedia.org/wiki/Public-key_cryptography)を用います。
 
 <figure markdown>
   ![FIDO](../assets/img/multi-factor-authentication/fido.png)
 </figure>
 
-When you create an account, the public key is sent to the service, then when you log in, the service will require you to "sign" some data with your private key. The benefit of this is that no password data is ever stored by the service, so there is nothing for an adversary to steal.
+アカウント作成時にサーバーに公開鍵を送り、ログインする際にサービス側は秘密鍵でデータに「署名」するよう要求します。 利点はサービス側にパスワードが保存されておらず、敵対者は盗むものがないことです。
 
-This presentation discusses the history of password authentication, the pitfalls (such as password reuse), and the standards for FIDO2 and [WebAuthn](https://webauthn.guide):
+以下のプレゼンテーションではパスワード認証の歴史、危険性（パスワードの再利用など）、FIDOと[WebAuthn](https://webauthn.guide)標準について説明しています：
 
 - [How FIDO2 and WebAuthn Stop Account Takeovers](https://youtu.be/aMo4ZlWznao) <small>(YouTube)</small>
 
-FIDO2 and WebAuthn have superior security and privacy properties when compared to any MFA methods.
+FIDO2とWebAuthnは他の多要素認証の方法よりも安全性とプライバシー面で優れています。
 
-Typically, for web services it is used with WebAuthn which is a part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). It uses public key authentication and is more secure than shared secrets used in Yubico OTP and TOTP methods, as it includes the origin name (usually, the domain name) during authentication. Attestation is provided to protect you from phishing attacks, as it helps you to determine that you are using the authentic service and not a fake copy.
+通常、ウェブサービスでは[W3C勧告](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC))の一部であるWebAuthnとともに使用されます。 公開鍵認証を使用し、認証時にオリジンネーム（通常はドメイン名）を含むため、Yubico OTPやTOTPで使われるような共有シークレットよりも安全です。 認証はサービスが偽物ではなく本物であることを確認するのに役立つため、フィッシング詐欺から保護します。
 
-Unlike Yubico OTP, WebAuthn does not use any public ID, so the key is **not** identifiable across different websites. It also does not use any third-party cloud server for authentication. All communication is completed between the key and the website you are logging into. FIDO also uses a counter which is incremented upon use in order to prevent session reuse and cloned keys.
+Yubico OTPとは異なり、WebAuthnは公開IDを使わないため、異なるウェブサイト間でキーを識別することが**できません**。 また、認証に第三者のクラウドサーバーを使用することもありません。 全ての通信は、キーとログインしているウェブサイト間で完結します。 また、FIDOはセッションの再利用やキーの複製を防ぐため、使用時に増やすカウンターを使っています。
 
-If a website or service supports WebAuthn for the authentication, it is highly recommended that you use it over any other form of MFA.
+ウェブサイトやサービスがWebAuthnの認証に対応している場合、他の多要素認証よりもWebAuthnを使うことを強く推奨します。
 
 ## 一般的な推奨事項
 
-We have these general recommendations:
+一般的には以下のように推奨しています：
 
-### Which Method Should I Use?
+### どの方法を使うべきか？
 
-When configuring your MFA method, keep in mind that it is only as secure as your weakest authentication method you use. This means it is important that you only use the best MFA method available. For instance, if you are already using TOTP, you should disable email and SMS MFA. If you are already using FIDO2/WebAuthn, you should not be using Yubico OTP or TOTP on your account.
+多要素認証を設定する際、使用する最も弱い認証方法と同じ安全性になってしまうことに留意してください。 つまり、利用できる最も強力な多要素認証のみを使うことが重要です。 例えば、TOTPをすでに使っている場合、メールやSMS多要素認証は無効にする必要があります。 もし、FIDO2/WebAuthnをすでに使っている場合、そのアカウントではYubico OTPやTOTPを使うべきではありません。
 
 ### バックアップ
 
-You should always have backups for your MFA method. Hardware security keys can get lost, stolen or simply stop working over time. It is recommended that you have a pair of hardware security keys with the same access to your accounts instead of just one.
+多要素認証は常にバックアップしておく必要があります。 ハードウェアセキュリティーキーは紛失したり、盗まれたり、または時間の経過とともに動かなくなったりします。 アカウントにアクセスできるハードウェアセキュリティーキーは1つだけではなく、2つ持つことを推奨します。
 
-When using TOTP with an authenticator app, be sure to back up your recovery keys or the app itself, or copy the "shared secrets" to another instance of the app on a different phone or to an encrypted container (e.g. [VeraCrypt](../encryption.md#veracrypt-disk)).
+認証アプリでTOTPを使う際、リカバリーキーやアプリ自体をバックアップするか、「共有シークレット」を他の携帯電話のアプリか暗号化されたコンテナ（[VeraCrypt](../encryption.md#veracrypt-disk)など）にコピーしてください。
 
 ### 初期設定
 
-When buying a security key, it is important that you change the default credentials, set up password protection for the key, and enable touch confirmation if your key supports it. Products such as the YubiKey have multiple interfaces with separate credentials for each one of them, so you should go over each interface and set up protection as well.
+セキュリティーキーを購入する際、デフォルトの認証情報を変更し、キーのパスワード保護を設定し、タッチ認証に対応している場合は有効にすることが重要です。 YubiKeyのような製品には複数のインターフェースがあり、個別に認証が設定されています。そのため、各インターフェースごとに調べ、保護の設定をする必要があります。
 
 ### 電子メールとSMS
 
-If you have to use email for MFA, make sure that the email account itself is secured with a proper MFA method.
+多要素認証にメールを使う必要がある場合、メールアカウント自体が適切な多要素認証で保護されていることを確認してください。
 
-If you use SMS MFA, use a carrier who will not switch your phone number to a new SIM card without account access, or use a dedicated VoIP number from a provider with similar security to avoid a [SIM swap attack](https://en.wikipedia.org/wiki/SIM_swap_scam).
+SMS多要素認証を使う場合、[SIMスワップ詐欺](https://en.wikipedia.org/wiki/SIM_swap_scam)を避けるために、アカウントにアクセスせずに電話番号を新しいSIMカードに切り替えないキャリアを使うか、同様のセキュリティがあるプロバイダーの専用のVoIP番号を使用してください。
 
 [推奨するMFAツール](../multi-factor-authentication.md ""){.md-button}
 

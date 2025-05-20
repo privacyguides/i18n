@@ -76,7 +76,7 @@ Shelterは[連絡先の検索をブロック](https://secure-system.gitlab.io/In
 [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=支援 }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>ダウンロード</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
@@ -86,42 +86,42 @@ Shelterは[連絡先の検索をブロック](https://secure-system.gitlab.io/In
 
 </div>
 
-Main privacy features include:
+主なプライバシー機能：
 
-- Auto removal of [Exif](https://en.wikipedia.org/wiki/Exif) metadata (enabled by default)
-- Use of the new [Media](https://developer.android.com/training/data-storage/shared/media) API, therefore [storage permissions](https://developer.android.com/training/data-storage) are not required
-- Microphone permission not required unless you want to record sound
+- [Exif](https://en.wikipedia.org/wiki/Exif)メタデータの自動消去(デフォルトで有効)
+- 新しく追加された[メディア](https://developer.android.com/training/data-storage/shared/media)APIを使用するため、[ストレージ権限](https://developer.android.com/training/data-storage)が不要
+- 音声を録音しない限りマイク権限が不要
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">補足</p>
 
-Metadata is not currently deleted from video files, but that is planned.
+現状、動画ファイルからはメタデータは消去されませんが、その機能は追加予定です。
 
-The image orientation metadata is not deleted. If you enable location (in Secure Camera) that **won't** be deleted either. If you want to delete that later you will need to use an external app such as [ExifEraser](../data-redaction.md#exiferaser-android).
+画像の向きのメタデータは消去されません。 Secure Cameraで位置情報を有効にすると、それも消去されません。 このデータを後から消去するには、[ExifEraser](../data-redaction.md#exiferaser-android)などの別のアプリが必要になります。
 
 </div>
 
 ### Secure PDF Viewer
 
-<small>Protects against the following threat(s):</small>
+<small>以下の脅威から保護します：</small>
 
-- [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-target-account: 標的型攻撃](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
 <div class="admonition recommendation" markdown>
 
-![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
-![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
+![Secure PDF Viewerのロゴ](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
+![Secure PDF Viewerのロゴ](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
-**Secure PDF Viewer** is a PDF viewer based on [pdf.js](https://en.wikipedia.org/wiki/PDF.js) that doesn't require any permissions. The PDF is fed into a [sandboxed](https://en.wikipedia.org/wiki/Sandbox_\(software_development\)) [WebView](https://developer.android.com/guide/webapps/webview). This means that it doesn't require permission directly to access content or files.
+**Secure PDF Viewer**は、[pdf.js](https://ja.wikipedia.org/wiki/PDF.js)をベースにしたPDFビューアで、権限が一切必要ありません。 開いたPDFは[サンドボックス化](https://ja.wikipedia.org/wiki/%E3%82%B5%E3%83%B3%E3%83%89%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9_\(%E3%82%BD%E3%83%95%E3%83%88%E3%82%A6%E3%82%A7%E3%82%A2%E9%96%8B%E7%99%BA\))された[WebView](https://developer.android.com/guide/webapps/webview)に送られます。 そのため、コンテンツやファイルに直接アクセスしに行く権限が必要ありません。
 
-[Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) is used to enforce that the JavaScript and styling properties within the WebView are entirely static content.
+[Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy)を使用することで、WebView内のJavaScriptとスタイルプロパティがすべて静的コンテンツであることを強制するようになっています。
 
-[:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer#readme){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-repo-16: リポジトリ](https://github.com/GrapheneOS/PdfViewer#readme){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="ソースコード" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=支援 }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>ダウンロード</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
@@ -135,6 +135,6 @@ The image orientation metadata is not deleted. If you enable location (in Secure
 
 \*\*私たちは、推薦するどのプロジェクトとも提携していません。\*\*客観的に推薦できるよう、[標準となる規準](../about/criteria.md)に加えて、一連の明確な要件を定めています。 プロジェクトを利用する前に、このリストをよく理解し、ご自身で調査を行って、そのプロジェクトがあなたにとって適切な選択かどうかをご確認ください。
 
-- Applications on this page must not be applicable to any other software category on the site.
+- 本サイト上の他のカテゴリに当てはまらないアプリのみ本ページに掲載する。
 - General applications should extend or replace core system functionality.
-- Applications should receive regular updates and maintenance.
+- 定期的なアップデート・メンテナンスが行われているアプリであること。
