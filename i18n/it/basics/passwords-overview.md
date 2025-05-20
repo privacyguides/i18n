@@ -1,16 +1,16 @@
 ---
-title: "Introduzione alle Password"
-icon: 'material/form-textbox-password'
+title: Introduzione alle Password
+icon: material/form-textbox-password
 description: Ecco alcuni consigli e trucchi su come creare le password più forti e mantenere sicuri i tuoi profili.
 ---
 
-Le password sono una parte essenziale delle nostre vite digitali quotidiane. Le utilizziamo per proteggere i nostri profili, dispositivi e segreti. Nonostante spesso siano la sola cosa tra di noi e un malintenzionato a caccia di informazioni private, non ci si pensa molto, portando spesso le persone a utilizzare password facili da indovinare o forzare.
+Le password sono una parte essenziale delle nostre vite digitali quotidiane. We use them to protect our accounts, our devices, and our secrets. Nonostante spesso siano la sola cosa tra di noi e un malintenzionato a caccia di informazioni private, non ci si pensa molto, portando spesso le persone a utilizzare password facili da indovinare o forzare.
 
 ## Migliori Pratiche
 
 ### Utilizza password uniche per ogni servizio
 
-Immagina questo: registri un account con la stessa email e password di numerosi servizi online. Se uno dei fornitori di tali servizi è malintenzionato, o se il servizio subisce una violazione di dati che espone la tua password in un formato non crittografato, tutto ciò che un malintenzionato dovrà fare è provare tale combinazione di email e password su numerosi servizi popolari, fino all'ottenimento di un risultato. Non importa quanto forte sia quella password, poiché, ormai, è già in suo possesso.
+Imagine this: You sign up for an account with the same e-mail and password on multiple online services. Se uno dei fornitori di tali servizi è malintenzionato, o se il servizio subisce una violazione di dati che espone la tua password in un formato non crittografato, tutto ciò che un malintenzionato dovrà fare è provare tale combinazione di email e password su numerosi servizi popolari, fino all'ottenimento di un risultato. Non importa quanto forte sia quella password, poiché, ormai, è già in suo possesso.
 
 Questo fenomeno è detto [riempimento delle credenziali](https://en.wikipedia.org/wiki/Credential_stuffing) ed è uno dei metodi più comuni di compromissione dei tuoi account, da utenti malintenzionati. Per evitarlo, assicurati di non riutilizzare mai le tue password.
 
@@ -73,9 +73,9 @@ These instructions assume that you are using [EFF's large word list](https://eff
 
 </div>
 
-Se non hai accesso a dadi reali o preferiresti non utilizzarli, puoi utilizzare il generatore di password integrato del gestore di password, poiché molti di essi offrono l'opzione di generare frasi segrete Diceware, oltre alle password regolari.
+If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords. We recommend setting the generated passphrase length to at least 6 words.
 
-We recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
+We also recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
 
 <details class="note" markdown>
 <summary>Spiegazione dell'entropia e della forza delle passphrase diceware</summary>

@@ -1,16 +1,16 @@
 ---
-title: "Introduction to Passwords"
-icon: 'material/form-textbox-password'
+title: Introduction to Passwords
+icon: material/form-textbox-password
 description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
 ---
 
-סיסמאות הן חלק חיוני מחיינו הדיגיטליים היומיומיים. אנו משתמשים בהם כדי להגן על החשבונות שלנו, המכשירים והסודות שלנו. למרות היותם לעתים קרובות הדבר היחיד בינינו לבין יריב שרודף אחרי המידע הפרטי שלנו, לא מושקעת בהם הרבה מחשבה, מה שמוביל לרוב לכך שאנשים משתמשים בסיסמאות שניתן לנחש בקלות או להכריח אותן.
+סיסמאות הן חלק חיוני מחיינו הדיגיטליים היומיומיים. We use them to protect our accounts, our devices, and our secrets. למרות היותם לעתים קרובות הדבר היחיד בינינו לבין יריב שרודף אחרי המידע הפרטי שלנו, לא מושקעת בהם הרבה מחשבה, מה שמוביל לרוב לכך שאנשים משתמשים בסיסמאות שניתן לנחש בקלות או להכריח אותן.
 
 ## שיטות עבודה מומלצות
 
 ### השתמש בסיסמאות ייחודיות לכל שירות
 
-תדמיין את זה; אתה נרשם לחשבון עם אותו אימייל וסיסמא במספר שירותים מקוונים. אם אחד מספקי השירותים האלה הוא זדוני, או שהשירות שלהם חווה פרצת מידע שחושפת את הסיסמה שלך בפורמט לא מוצפן, כל מה ששחקן גרוע יצטרך לעשות הוא לנסות את שילוב האימייל והסיסמה במספר שירותים פופולריים עד שהם מקבלים מכה. זה לא משנה כמה חזקה אותה סיסמה אחת, כי כבר יש להם אותה.
+Imagine this: You sign up for an account with the same e-mail and password on multiple online services. אם אחד מספקי השירותים האלה הוא זדוני, או שהשירות שלהם חווה פרצת מידע שחושפת את הסיסמה שלך בפורמט לא מוצפן, כל מה ששחקן גרוע יצטרך לעשות הוא לנסות את שילוב האימייל והסיסמה במספר שירותים פופולריים עד שהם מקבלים מכה. זה לא משנה כמה חזקה אותה סיסמה אחת, כי כבר יש להם אותה.
 
 זה נקרא [מילוי אישורים](https://en.wikipedia.org/wiki/Credential_stuffing), וזו אחת הדרכים הנפוצות ביותר שבהן החשבונות שלך יכולים להיפגע על ידי שחקנים גרועים. כדי להימנע מכך, ודא שלעולם לא תעשה שימוש חוזר בסיסמאות שלך.
 
@@ -73,9 +73,9 @@ These instructions assume that you are using [EFF's large word list](https://eff
 
 </div>
 
-אם אין לך גישה או תעדיף לא להשתמש בקוביות אמיתיות, תוכל להשתמש במחולל הסיסמאות המובנה של מנהל הסיסמאות שלך, שכן לרובם יש אפשרות ליצור ביטויי סיסמה של תוכנת קוביות בנוסף לסיסמאות הרגילות.
+If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords. We recommend setting the generated passphrase length to at least 6 words.
 
-We recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
+We also recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
 
 <details class="note" markdown>
 <summary>Explanation of entropy and strength of diceware passphrases</summary>

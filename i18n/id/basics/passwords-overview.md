@@ -1,16 +1,16 @@
 ---
-title: "Introduction to Passwords"
-icon: 'material/form-textbox-password'
+title: Introduction to Passwords
+icon: material/form-textbox-password
 description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
 ---
 
-Kata sandi adalah bagian penting dari kehidupan digital kita sehari-hari. Kami menggunakannya untuk melindungi akun, perangkat, dan rahasia kami. Meskipun sering kali menjadi satu-satunya hal antara kita dan musuh yang mengincar informasi pribadi kita, tidak banyak yang memikirkannya, yang sering kali membuat orang menggunakan kata sandi yang dapat dengan mudah ditebak atau dipaksakan.
+Kata sandi adalah bagian penting dari kehidupan digital kita sehari-hari. We use them to protect our accounts, our devices, and our secrets. Meskipun sering kali menjadi satu-satunya hal antara kita dan musuh yang mengincar informasi pribadi kita, tidak banyak yang memikirkannya, yang sering kali membuat orang menggunakan kata sandi yang dapat dengan mudah ditebak atau dipaksakan.
 
 ## Praktik Terbaik
 
 ### Gunakan kata sandi yang unik untuk setiap layanan
 
-Bayangkan ini; Anda mendaftar untuk akun dengan email dan kata sandi yang sama pada beberapa layanan daring. Jika salah satu dari penyedia layanan tersebut jahat, atau layanan mereka mengalami pembobolan data yang mengekspos kata sandi Anda dalam format yang tidak terenkripsi, maka yang harus dilakukan oleh pelaku kejahatan adalah mencoba kombinasi email dan kata sandi tersebut pada beberapa layanan populer hingga berhasil. Tidak masalah seberapa kuat satu kata sandi itu, karena mereka sudah memilikinya.
+Imagine this: You sign up for an account with the same e-mail and password on multiple online services. Jika salah satu dari penyedia layanan tersebut jahat, atau layanan mereka mengalami pembobolan data yang mengekspos kata sandi Anda dalam format yang tidak terenkripsi, maka yang harus dilakukan oleh pelaku kejahatan adalah mencoba kombinasi email dan kata sandi tersebut pada beberapa layanan populer hingga berhasil. Tidak masalah seberapa kuat satu kata sandi itu, karena mereka sudah memilikinya.
 
 Ini disebut [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing), dan merupakan salah satu cara paling umum akun Anda dapat disusupi oleh pihak-pihak yang tidak bertanggung jawab. To avoid this, make sure that you never re-use your passwords.
 
@@ -73,9 +73,9 @@ You should **not** re-roll words until you get a combination of words that appea
 
 </div>
 
-If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords.
+If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords. We recommend setting the generated passphrase length to at least 6 words.
 
-We recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
+We also recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
 
 <details class="note" markdown>
 <summary>Explanation of entropy and strength of diceware passphrases</summary>

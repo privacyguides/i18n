@@ -1,16 +1,16 @@
 ---
-title: "Introduction to Passwords"
-icon: 'material/form-textbox-password'
+title: Introduction to Passwords
+icon: material/form-textbox-password
 description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
 ---
 
-Пароли являются неотъемлемой частью нашей повседневной цифровой жизни. Мы используем их для защиты наших аккаунтов, девайсов и секретов. Очень часто пароли, это единственное, что защищает нас от злоумышленников, которые хотят получить нашу личную информацию или деньги. Несмотря на это, паролям не уделяют должного внимания, что часто приводит к использованию простых паролей, которые легко угадать или подобрать.
+Пароли являются неотъемлемой частью нашей повседневной цифровой жизни. We use them to protect our accounts, our devices, and our secrets. Очень часто пароли, это единственное, что защищает нас от злоумышленников, которые хотят получить нашу личную информацию или деньги. Несмотря на это, паролям не уделяют должного внимания, что часто приводит к использованию простых паролей, которые легко угадать или подобрать.
 
 ## Лучшие практики
 
 ### Используйте уникальные пароли для каждого сервиса
 
-Представьте: вы регистрируете учетную запись с одним и тем же электронным адресом и паролем на нескольких веб-сайтах. Если один из владельцев этих сайтов злоумышленник, или в его сервисе произошла утечка данных, в результате которой ваш пароль оказался в незашифрованном виде, все, что нужно сделать злоумышленнику, это попробовать комбинацию электронной почты и пароля в нескольких популярных сервисах, пока он не добьется успеха. Не имеет значения, насколько сложным является этот пароль, потому что он уже у них есть.
+Imagine this: You sign up for an account with the same e-mail and password on multiple online services. Если один из владельцев этих сайтов злоумышленник, или в его сервисе произошла утечка данных, в результате которой ваш пароль оказался в незашифрованном виде, все, что нужно сделать злоумышленнику, это попробовать комбинацию электронной почты и пароля в нескольких популярных сервисах, пока он не добьется успеха. Не имеет значения, насколько сложным является этот пароль, потому что он уже у них есть.
 
 Это называется [подстановка учетных данных](https://en.wikipedia.org/wiki/Credential_stuffing), и это один из самых распространенных способов взлома ваших учетных записей. Чтобы избежать этого, убедитесь, что вы никогда не используете свои пароли повторно.
 
@@ -73,9 +73,9 @@ These instructions assume that you are using [EFF's large word list](https://eff
 
 </div>
 
-Если у вас нет доступа к настоящим игральным костям или вы предпочитаете не использовать их, вы можете воспользоваться встроенным в менеджере паролей генератором паролей, поскольку большинство из них имеют возможность генерировать парольные фразы в дополнение к обычным паролям.
+If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords. We recommend setting the generated passphrase length to at least 6 words.
 
-We recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
+We also recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
 
 <details class="note" markdown>
 <summary>Explanation of entropy and strength of diceware passphrases</summary>

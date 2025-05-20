@@ -1,16 +1,16 @@
 ---
-title: "Introduction to Passwords"
-icon: 'material/form-textbox-password'
+title: Introduction to Passwords
+icon: material/form-textbox-password
 description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
 ---
 
-Wachtwoorden zijn een essentieel onderdeel van ons dagelijkse digitale leven. We gebruiken ze om onze accounts, onze apparaten en onze geheimen te beschermen. Hoewel ze vaak het enige zijn tussen ons en een tegenstander die uit is op onze privégegevens, wordt er niet veel aandacht aan besteed, wat er vaak toe leidt dat mensen wachtwoorden gebruiken die gemakkelijk geraden of gebruteforcet kunnen worden.
+Wachtwoorden zijn een essentieel onderdeel van ons dagelijkse digitale leven. We use them to protect our accounts, our devices, and our secrets. Hoewel ze vaak het enige zijn tussen ons en een tegenstander die uit is op onze privégegevens, wordt er niet veel aandacht aan besteed, wat er vaak toe leidt dat mensen wachtwoorden gebruiken die gemakkelijk geraden of gebruteforcet kunnen worden.
 
 ## Best practices
 
 ### Gebruik unieke wachtwoorden voor elke dienst
 
-Stel je voor: je meldt je aan voor een account met dezelfde e-mail en hetzelfde wachtwoord op meerdere online diensten. Als een van die dienstverleners kwaadwillend is, of hun dienst een datalek heeft waardoor uw wachtwoord in een onversleuteld formaat wordt vrijgegeven, hoeft een kwaadwillende alleen maar die combinatie van e-mail en wachtwoord te proberen bij meerdere populaire diensten totdat hij iets vindt. Het maakt dan niet uit hoe sterk dat ene wachtwoord is, omdat ze het al hebben.
+Imagine this: You sign up for an account with the same e-mail and password on multiple online services. Als een van die dienstverleners kwaadwillend is, of hun dienst een datalek heeft waardoor uw wachtwoord in een onversleuteld formaat wordt vrijgegeven, hoeft een kwaadwillende alleen maar die combinatie van e-mail en wachtwoord te proberen bij meerdere populaire diensten totdat hij iets vindt. Het maakt dan niet uit hoe sterk dat ene wachtwoord is, omdat ze het al hebben.
 
 Dit heet [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing), en het is een van de meest voorkomende manieren waarop jouw accounts kunnen worden gecompromitteerd door kwaadwillenden. Om dit te voorkomen, moet u ervoor zorgen dat u uw wachtwoorden nooit opnieuw gebruikt.
 
@@ -73,9 +73,9 @@ Je moet **niet** opnieuw woorden rollen totdat je een combinatie van woorden kri
 
 </div>
 
-Als je geen toegang hebt tot of liever geen echte dobbelstenen gebruikt, kunt je de ingebouwde wachtwoordgenerator van jouw wachtwoord manager gebruiken, omdat de meeste daarvan de optie hebben om naast gewone wachtwoorden ook diceware wachtwoord zinnen te genereren.
+If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords. We recommend setting the generated passphrase length to at least 6 words.
 
-We recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
+We also recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
 
 <details class="note" markdown>
 <summary>Explanation of entropy and strength of diceware passphrases</summary>

@@ -1,16 +1,16 @@
 ---
-title: "Introduction aux mots de passe"
-icon: 'material/form-textbox-password'
+title: Introduction aux mots de passe
+icon: material/form-textbox-password
 description: Voici quelques conseils et astuces pour créer des mots de passe plus forts et sécuriser vos comptes.
 ---
 
-Les mots de passe sont un élément essentiel de notre vie numérique quotidienne. Nous les utilisons pour protéger nos comptes, nos appareils et nos secrets. Bien qu'ils soient souvent la seule chose qui nous sépare d'un adversaire qui en veut à nos informations privées, ils ne font pas l'objet d'une réflexion approfondie, ce qui conduit souvent les gens à utiliser des mots de passe faciles à deviner ou à forcer.
+Les mots de passe sont un élément essentiel de notre vie numérique quotidienne. We use them to protect our accounts, our devices, and our secrets. Bien qu'ils soient souvent la seule chose qui nous sépare d'un adversaire qui en veut à nos informations privées, ils ne font pas l'objet d'une réflexion approfondie, ce qui conduit souvent les gens à utiliser des mots de passe faciles à deviner ou à forcer.
 
 ## Bonnes pratiques
 
 ### Utiliser des mots de passe uniques pour chaque service
 
-Imaginez ceci : vous vous inscrivez à un compte avec le même e-mail et le même mot de passe sur plusieurs services en ligne. Si l'un de ces fournisseurs de services est malveillant ou si son service subit une fuite de données qui expose votre mot de passe dans un format non chiffré, il suffit à un acteur malveillant d'essayer cette combinaison d'e-mail et de mot de passe sur plusieurs services populaires jusqu'à ce qu'il obtienne un résultat. La force de ce mot de passe n'a pas d'importance, car ils l'ont déjà.
+Imagine this: You sign up for an account with the same e-mail and password on multiple online services. Si l'un de ces fournisseurs de services est malveillant ou si son service subit une fuite de données qui expose votre mot de passe dans un format non chiffré, il suffit à un acteur malveillant d'essayer cette combinaison d'e-mail et de mot de passe sur plusieurs services populaires jusqu'à ce qu'il obtienne un résultat. La force de ce mot de passe n'a pas d'importance, car ils l'ont déjà.
 
 C'est ce qu'on appelle le [bourrage d'identifiants](https://en.wikipedia.org/wiki/Credential_stuffing), et c'est l'une des façons les plus courantes dont vos comptes peuvent être compromis par des cybercriminels. Pour éviter cela, assurez-vous de ne jamais réutiliser vos mots de passe.
 
@@ -73,9 +73,9 @@ Vous ne devez **pas** relancer les mots jusqu'à ce que vous obteniez une combin
 
 </div>
 
-Si vous n'avez pas accès à de vrais dés ou si vous préférez ne pas en utiliser, vous pouvez utiliser le générateur de mots de passe intégré à votre gestionnaire de mots de passe, car la plupart d'entre eux ont la possibilité de générer des phrases secrètes diceware en plus des mots de passe ordinaires.
+If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords. We recommend setting the generated passphrase length to at least 6 words.
 
-We recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
+We also recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
 
 <details class="note" markdown>
 <summary>Explication de l'entropie et de la force des phrases secrètes diceware</summary>

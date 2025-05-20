@@ -1,16 +1,16 @@
 ---
-title: "Introduction to Passwords"
-icon: 'material/form-textbox-password'
+title: Introduction to Passwords
+icon: material/form-textbox-password
 description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
 ---
 
-Паролі є важливою частиною нашого повсякденного цифрового життя. Ми використовуємо їх для захисту наших облікових записів, пристроїв і секретів. Попри те, що часто вони є єдиною перешкодою між нами та зловмисником, який хоче отримати нашу особисту інформацію, ми не замислюємося над ними, що часто призводить до того, що люди використовують паролі, які можна легко вгадати або підібрати грубим перебором.
+Паролі є важливою частиною нашого повсякденного цифрового життя. We use them to protect our accounts, our devices, and our secrets. Попри те, що часто вони є єдиною перешкодою між нами та зловмисником, який хоче отримати нашу особисту інформацію, ми не замислюємося над ними, що часто призводить до того, що люди використовують паролі, які можна легко вгадати або підібрати грубим перебором.
 
 ## Передовий досвід
 
 ### Використовуйте унікальні паролі для кожного сервісу
 
-Уявіть собі: ви реєструєте обліковий запис з однаковими електронною поштою та паролем на кількох онлайн-сервісах. Якщо один з цих постачальників послуг є зловмисником, або в його сервісі стався витік даних, який розкрив ваш пароль у незашифрованому вигляді, все, що потрібно зробити зловмиснику, - це спробувати цю комбінацію електронної пошти та пароля на інших популярних сервісах, поки він не отримає доступ. Не має значення, наскільки надійним є цей пароль, адже він вже у них є.
+Imagine this: You sign up for an account with the same e-mail and password on multiple online services. Якщо один з цих постачальників послуг є зловмисником, або в його сервісі стався витік даних, який розкрив ваш пароль у незашифрованому вигляді, все, що потрібно зробити зловмиснику, - це спробувати цю комбінацію електронної пошти та пароля на інших популярних сервісах, поки він не отримає доступ. Не має значення, наскільки надійним є цей пароль, адже він вже у них є.
 
 Це називається [підміна облікових даних](https://en.wikipedia.org/wiki/Credential_stuffing), і це один з найпоширеніших способів, за допомогою якого зловмисники можуть скомпрометувати ваші облікові записи. Щоб уникнути цього, переконайтеся, що ви ніколи не використовуєте свої паролі повторно.
 
@@ -73,9 +73,9 @@ These instructions assume that you are using [EFF's large word list](https://eff
 
 </div>
 
-Якщо у вас немає доступу до справжніх гральних кубиків або ви не хочете використовувати їх, ви можете скористатися вбудованим генератором паролів вашого менеджера паролів, оскільки більшість з них мають можливість генерувати парольні фрази на додачу до звичайних паролів.
+If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords. We recommend setting the generated passphrase length to at least 6 words.
 
-We recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
+We also recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
 
 <details class="note" markdown>
 <summary>Explanation of entropy and strength of diceware passphrases</summary>

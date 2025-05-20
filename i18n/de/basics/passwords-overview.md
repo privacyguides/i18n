@@ -1,16 +1,16 @@
 ---
-title: "Einführung in Passwörter"
-icon: 'material/form-textbox-password'
+title: Einführung in Passwörter
+icon: material/form-textbox-password
 description: Hier findest du einige Tipps und Tricks, wie du die sichersten Passwörter erstellen und deine Konten schützen kannst.
 ---
 
-Passwörter sind ein wesentlicher Bestandteil unseres täglichen digitalen Lebens. Wir nutzen sie, um unsere Konten, unsere Geräte und unsere Geheimnisse zu schützen. Obwohl sie oft das Einzige sind, was zwischen uns und Angreifenden steht, die es auf unsere privaten Daten abgesehen haben, wird nicht viel über sie nachgedacht, was oft dazu führt, dass Passwörter verwendet werden, die leicht zu erraten oder mit roher Gewalt heraus findbar sind.
+Passwörter sind ein wesentlicher Bestandteil unseres täglichen digitalen Lebens. We use them to protect our accounts, our devices, and our secrets. Obwohl sie oft das Einzige sind, was zwischen uns und Angreifenden steht, die es auf unsere privaten Daten abgesehen haben, wird nicht viel über sie nachgedacht, was oft dazu führt, dass Passwörter verwendet werden, die leicht zu erraten oder mit roher Gewalt heraus findbar sind.
 
 ## Bewährte Praktiken
 
 ### Verwendung einzigartiger Kennwörter
 
-Stell dir vor, du meldest dich mit derselben E-Mail-Adresse und demselben Passwort bei mehreren Online-Diensten an. Wenn einer dieser Dienstleister böswillig ist oder sein Dienst ein Datenleck hat, das dein Passwort in einem unverschlüsselten Format preisgibt, müsste ein Angreifer nur die E-Mail und Passwort Kombination auf mehreren beliebten Diensten ausprobieren, bis er einen Treffer landet. Es spielt keine Rolle, wie stark dieses eine Passwort ist, weil der Angreifer es bereits hat.
+Imagine this: You sign up for an account with the same e-mail and password on multiple online services. Wenn einer dieser Dienstleister böswillig ist oder sein Dienst ein Datenleck hat, das dein Passwort in einem unverschlüsselten Format preisgibt, müsste ein Angreifer nur die E-Mail und Passwort Kombination auf mehreren beliebten Diensten ausprobieren, bis er einen Treffer landet. Es spielt keine Rolle, wie stark dieses eine Passwort ist, weil der Angreifer es bereits hat.
 
 Dies wird als [Credential-Stuffing](https://en.wikipedia.org/wiki/Credential_stuffing) bezeichnet und ist eine der häufigsten Methoden, mit denen deine Konten von Angreifern kompromittiert werden können. Um das zu vermeiden, stelle sicher, dass du ein Passwort nie zweimal benutzt.
 
@@ -73,9 +73,9 @@ Du solltest die Wörter **nicht** neu rollen bis du eine Kombination von Wörter
 
 </div>
 
-Wenn du keinen Zugang zu echten Würfeln hast oder es vorziehst, diesen nicht zu verwenden, kannst du den integrierten Passwortgenerator deines Passwort-Managers verwenden, da die meisten von ihnen die Option haben, zusätzlich zu den normalen Passwörtern auch Diceware-Passphrasen zu generieren.
+If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords. We recommend setting the generated passphrase length to at least 6 words.
 
-Wir empfehlen, die [große Wortliste des EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) zu verwenden, um deine Diceware-Passphrasen zu generieren, da sie genau die gleiche Sicherheit bietet wie die ursprüngliche Liste, aber Wörter enthält, die man sich leichter merken kann. Es gibt auch [Wortlisten in verschiedenen Sprachen](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), wenn du nicht willst, dass deine Passphrase auf Englisch ist ([hier findest du die deutsche Version](https://theworld. com/~reinhold/diceware_german. txt)).
+We also recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. Es gibt auch [Wortlisten in verschiedenen Sprachen](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), wenn du nicht willst, dass deine Passphrase auf Englisch ist ([hier findest du die deutsche Version](https://theworld. com/~reinhold/diceware_german. txt)).
 
 <details class="note" markdown>
 <summary>Erläuterung von Entropie und der Stärke Diceware-Passphrasen</summary>

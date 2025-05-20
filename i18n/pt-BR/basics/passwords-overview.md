@@ -1,16 +1,16 @@
 ---
-title: "Introdução às senhas"
-icon: 'material/form-textbox-password'
+title: Introdução às senhas
+icon: material/form-textbox-password
 description: Aqui estão algumas dicas e truques para que você crie senhas mais seguras e garanta a segurança de suas contas.
 ---
 
-Senhas são um elemento essencial no dia a dia de nossas vidas digitais. Nós utilizamos as senhas para proteger nossas contas, dispositivos e dados confidenciais. Embora seja na maioria das vezes a única barreira entre nossos dados pessoais e um indivíduo mal intencionado (hacker, golpista, etc.) acabamos por não pensar muito em nossas senhas. Isso leva ao comportamento comum das pessoas em utilizar senhas que são facilmente adivinháveis ou forçadas (através de um software malicioso, por exemplo).
+Senhas são um elemento essencial no dia a dia de nossas vidas digitais. We use them to protect our accounts, our devices, and our secrets. Embora seja na maioria das vezes a única barreira entre nossos dados pessoais e um indivíduo mal intencionado (hacker, golpista, etc.) acabamos por não pensar muito em nossas senhas. Isso leva ao comportamento comum das pessoas em utilizar senhas que são facilmente adivinháveis ou forçadas (através de um software malicioso, por exemplo).
 
 ## Práticas recomendadas
 
 ### Use **apenas uma ** senha para cada serviço.
 
-Imagine o seguinte: você inscreve uma conta com mesmo e-mail e senha em vários serviços online. Se um desses provedores de serviço for malicioso ou ocorrer um vazamento de dados que expõe sua senha em um formato não encriptado (protegido), tudo que um hacker/golpista precisaria era testar sua combinação de e-mail e senha em diversos serviços populares até que o mesmo consiga um acerto. Nesse caso, não interessa o o quão "forte" é uma senha, pois o hacker ou golpista já tem posse dela.
+Imagine this: You sign up for an account with the same e-mail and password on multiple online services. Se um desses provedores de serviço for malicioso ou ocorrer um vazamento de dados que expõe sua senha em um formato não encriptado (protegido), tudo que um hacker/golpista precisaria era testar sua combinação de e-mail e senha em diversos serviços populares até que o mesmo consiga um acerto. Nesse caso, não interessa o o quão "forte" é uma senha, pois o hacker ou golpista já tem posse dela.
 
 Isso é chamado de [credential stuffing](https://en.wikipedia.org/wiki/Credential_stuffing) e é uma das maneiras mais comuns pelas quais suas contas podem ser comprometidas por agentes mal-intencionados. Para evitar essas situações é necessário certificar-se que você não **reutiliza** nenhuma senha.
 
@@ -73,9 +73,9 @@ Você não deve **rolar** as palavras até obter uma combinação de palavras qu
 
 </div>
 
-Se você não tiver acesso a dados reais ou preferir não usá-los, poderá usar o gerador de senhas contido no programa gerenciador de senhas de sua preferência. A maioria deles tem a opção de gerar senhas de dados além das senhas comuns.
+If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords. We recommend setting the generated passphrase length to at least 6 words.
 
-Recomendamos o uso da [lista grande de palavras da EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) para gerar suas senhas de diceware, pois ela oferece exatamente a mesma segurança que a lista original, embora contenha palavras mais fáceis de memorizar. Caso você prefira também existem [listas de palavras em diferentes idiomas](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline).
+We also recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. Caso você prefira também existem [listas de palavras em diferentes idiomas](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline).
 
 <details class="note" markdown>
 <summary>Explicação da entropia e da força das frases diceware</summary>

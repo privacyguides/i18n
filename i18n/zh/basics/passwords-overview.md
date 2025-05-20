@@ -1,16 +1,16 @@
 ---
-title: "Introduction to Passwords"
-icon: 'material/form-textbox-password'
+title: Introduction to Passwords
+icon: material/form-textbox-password
 description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
 ---
 
-密码是我们日常数字生活的重要组成部分。 我们用它们来保护我们的账户、我们的设备和我们的秘密。 尽管密码可能是挡在觊觎我们私人信息的对手前的唯一屏障，但人们并没有在密码上花很多心思，这往往导致使用的密码很容易被猜出或被破解。
+密码是我们日常数字生活的重要组成部分。 We use them to protect our accounts, our devices, and our secrets. 尽管密码可能是挡在觊觎我们私人信息的对手前的唯一屏障，但人们并没有在密码上花很多心思，这往往导致使用的密码很容易被猜出或被破解。
 
 ## 最佳实践
 
 ### 为每项服务使用独立的密码
 
-想象一下；你用同一个电子邮件和相同的密码在 注册了多个在线服务的账户。 只要这些服务提供商有一个是恶意的，或者他们的服务出现数据泄露，使你的密码以明文形式暴露出来，那么坏人只需要在多个流行的服务中尝试这个电子邮件和密码的组合，就能得手。 密码有多强根本不重要，因为那个密码他们已经拿到了。
+Imagine this: You sign up for an account with the same e-mail and password on multiple online services. 只要这些服务提供商有一个是恶意的，或者他们的服务出现数据泄露，使你的密码以明文形式暴露出来，那么坏人只需要在多个流行的服务中尝试这个电子邮件和密码的组合，就能得手。 密码有多强根本不重要，因为那个密码他们已经拿到了。
 
 这被称为[凭据填充](https://en.wikipedia.org/wiki/Credential_stuffing), 这也是坏人攻破你帐户的最常见方式之一。 为了避免这种情况，确保你从不复用你的密码。
 
@@ -73,9 +73,9 @@ These instructions assume that you are using [EFF's large word list](https://eff
 
 </div>
 
-如果你没有或者不愿意使用真正的骰子，你可以使用你的密码管理器的内置密码生成器，因为除了常规密码之外，大多数密码管理器都有生成骰子密码的选项。
+If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords. We recommend setting the generated passphrase length to at least 6 words.
 
-We recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
+We also recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
 
 <details class="note" markdown>
 <summary>Explanation of entropy and strength of diceware passphrases</summary>

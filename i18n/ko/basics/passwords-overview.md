@@ -1,16 +1,16 @@
 ---
-title: "Introduction to Passwords"
-icon: 'material/form-textbox-password'
+title: Introduction to Passwords
+icon: material/form-textbox-password
 description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
 ---
 
-'비밀번호'는 우리의 일상 디지털 생활에 있어서 필수적인 요소입니다. 우리는 비밀번호를 통해 계정, 기기, 개인 정보를 보호합니다. 간혹 비밀번호는 우리의 개인 정보를 노리는 공격자와 우리 사이의 유일한 방어 수단임에도 불구하고, 사람들은 비밀번호의 중요성을 심각하게 생각하지 않아 쉽게 추측되거나 무차별 대입 공격에 취약한 비밀번호를 사용하는 경우가 흔합니다.
+'비밀번호'는 우리의 일상 디지털 생활에 있어서 필수적인 요소입니다. We use them to protect our accounts, our devices, and our secrets. 간혹 비밀번호는 우리의 개인 정보를 노리는 공격자와 우리 사이의 유일한 방어 수단임에도 불구하고, 사람들은 비밀번호의 중요성을 심각하게 생각하지 않아 쉽게 추측되거나 무차별 대입 공격에 취약한 비밀번호를 사용하는 경우가 흔합니다.
 
 ## 모범 사례
 
 ### 모든 서비스마다 서로 다른 비밀번호 사용하기
 
-여러분이 여러 온라인 서비스에 똑같은 이메일, 비밀번호로 가입했다고 가정해봅시다. 서비스 제공 업체 중 하나가 악의적이거나, 해당 서비스에서 데이터 유출 사고가 발생해 비밀번호가 암호화되지 않은 형식으로 노출될 경우, 악의적인 공격자는 여러 유명 서비스에서 해당 이메일과 비밀번호 조합을 시도해 성공할 때까지 기다리기만 하면 됩니다. 비밀번호를 이미 알아낸 상태이기 때문에, 비밀번호가 얼마나 강력한지는 중요하지 않습니다.
+Imagine this: You sign up for an account with the same e-mail and password on multiple online services. 서비스 제공 업체 중 하나가 악의적이거나, 해당 서비스에서 데이터 유출 사고가 발생해 비밀번호가 암호화되지 않은 형식으로 노출될 경우, 악의적인 공격자는 여러 유명 서비스에서 해당 이메일과 비밀번호 조합을 시도해 성공할 때까지 기다리기만 하면 됩니다. 비밀번호를 이미 알아낸 상태이기 때문에, 비밀번호가 얼마나 강력한지는 중요하지 않습니다.
 
 이를 [크리덴셜 스터핑(Credential stuffing)](https://en.wikipedia.org/wiki/Credential_stuffing)이라 하며, 악의적인 공격자가 계정을 탈취하는 굉장히 흔한 방법 중 하나입니다. 이를 방지하려면 비밀번호를 재사용하지 말아야 합니다.
 
@@ -73,9 +73,9 @@ These instructions assume that you are using [EFF's large word list](https://eff
 
 </div>
 
-실물 주사위가 없거나 사용하고 싶지 않은 경우, 비밀번호 관리자에 내장된 비밀번호 생성기를 사용하면 됩니다. 대부분의 비밀번호 관리자는 일반적인 패스워드 방식뿐만 아니라 다이스웨어 패스프레이즈도 지원합니다.
+If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords. We recommend setting the generated passphrase length to at least 6 words.
 
-We recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
+We also recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
 
 <details class="note" markdown>
 <summary>Explanation of entropy and strength of diceware passphrases</summary>
