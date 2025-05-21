@@ -70,13 +70,13 @@ Shelter 支援阻止跨配置檔案的聯絡人搜尋以及透過預設檔案管
 
 **Secure Camera** 是一款專注於隱私和安全的相機應用程式，可以拍攝影像、影片及掃描QR碼。 可用設備還支援 CameraX 供應商擴充（肖像、HDR、夜視、臉部修飾和自動）。
 
-[:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-repo-16: 儲存庫](https://github.com/GrapheneOS/Camera#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
@@ -116,12 +116,12 @@ Shelter 支援阻止跨配置檔案的聯絡人搜尋以及透過預設檔案管
 
 [內容安全策略](https://zh.wikipedia.org/wiki/%E5%86%85%E5%AE%B9%E5%AE%89%E5%85%A8%E7%AD%96%E7%95%A5) 用於強制 WebView 中的 JavaScript 和樣式屬性完全是靜態內容。
 
-[:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer#readme){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-repo-16: 儲存庫](https://github.com/GrapheneOS/PdfViewer#readme){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
