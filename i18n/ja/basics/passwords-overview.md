@@ -4,13 +4,13 @@ icon: material/form-textbox-password
 description: 強固なパスワードを作成し、アカウントを安全に保つヒントやコツを紹介します。
 ---
 
-パスワードは、日々のデジタルライフに欠かせないものです。 We use them to protect our accounts, our devices, and our secrets. パスワードは多くの場合、敵対者から個人情報を守る唯一の要素です。にも関わらず、十分に検討されず、簡単に推測できたり、総当たりできるパスワードが使われることが多いようです。
+パスワードは、日々のデジタルライフに欠かせないものです。 パスワードによりアカウント、デバイス、秘密を保護します。 パスワードは多くの場合、敵対者から個人情報を守る唯一の要素です。にも関わらず、十分に検討されず、簡単に推測できたり、総当たりできるパスワードが使われることが多いようです。
 
 ## ベストプラクティス
 
 ### 各サービスで異なるパスワードを使う
 
-Imagine this: You sign up for an account with the same e-mail and password on multiple online services. もし、いずれかのサービス提供者が悪意を持っていたり、サービスが情報漏洩を起こしてパスワードが暗号化されていない状態で公開された場合、悪意ある者は他の人気あるサービスでそのメールアドレスとパスワードの組み合わせでログインを試すことができます。 そのパスワードがどれだけ強固でも、悪意ある者に漏洩した場合は安全性を担保できません。
+複数のオンラインサービスで、同じメールアドレスとパスワードを使ってアカウントを登録した場合を想像してください。 もし、いずれかのサービス提供者が悪意を持っていたり、サービスが情報漏洩を起こしてパスワードが暗号化されていない状態で公開された場合、悪意ある者は他の人気あるサービスでそのメールアドレスとパスワードの組み合わせでログインを試すことができます。 そのパスワードがどれだけ強固でも、悪意ある者に漏洩した場合は安全性を担保できません。
 
 これは、[クレデンシャルスタッフィング攻撃](https://en.wikipedia.org/wiki/Credential_stuffing)と呼ばれ、悪意ある者がアカウントを侵害するために用いる、よくある攻撃の一つです。 この攻撃への有効な対策は、パスワードを使いまわさないことです。
 
@@ -73,9 +73,9 @@ Imagine this: You sign up for an account with the same e-mail and password on mu
 
 </div>
 
-If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords. We recommend setting the generated passphrase length to at least 6 words.
+もしサイコロがない、使いたくない場合、パスワードマネージャーのパスワードジェネレーターを使うことができます。多くの場合、通常のパスワードに加え、ダイスウェアパスフレーズを生成するオプションがあります。 生成するパスフレーズの長さは少なくとも6単語を設定することを推奨します。
 
-We also recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. 英語のパスフレーズを使いたくない場合、[他言語の単語リスト](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline)もあります。
+ダイスウェアパスフレーズを作るには[EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt)を使うことも推奨します。オリジナルのリストと同じく安全ですが、覚えやすい単語が含まれています。 英語のパスフレーズを使いたくない場合、[他言語の単語リスト](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline)もあります。
 
 <details class="note" markdown>
 <summary>ダイスウェアパスフレーズのエントロピーと強度の説明</summary>

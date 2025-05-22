@@ -114,49 +114,49 @@ SMS多要素認証を使う場合、[SIMスワップ詐欺](https://en.wikipedia
 
 [推奨するMFAツール](../multi-factor-authentication.md ""){.md-button}
 
-## More Places to Set Up MFA
+## 他のものに多要素認証を設定する
 
-Beyond just securing your website logins, multifactor authentication can be used to secure your local logins, SSH keys or even password databases as well.
+多要素認証はウェブサイトへのログインだけではなく、ローカルログイン、SSHキーやパスワードデータベースの保護にも使うことができます。
 
 ### macOS
 
-macOS has [native support](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) for authentication with smart cards (PIV). If you have a smart card or a hardware security key that supports the PIV interface such as the YubiKey, we recommend that you follow your smart card or hardware security vendor's documentation and set up second factor authentication for your macOS computer.
+macOSはスマートカード（PIV）による認証に[ネイティブ対応](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web)しています。 PIVに対応したスマートカードやYubiKeyのようなハードウェアセキュリーキーを持っている場合、ベンダーのドキュメントに従ってmacOSのコンピューターに二要素認証を設定することを推奨します。
 
-Yubico have a guide [Using Your YubiKey as a Smart Card in macOS](https://support.yubico.com/hc/articles/360016649059) which can help you set up your YubiKey on macOS.
+YubicoはmacOSでYubiKeyを設定するのに役立つガイド[Using Your YubiKey as a Smart Card in macOS](https://support.yubico.com/hc/articles/360016649059)を用意しています。
 
-After your smart card/security key is set up, we recommend running this command in the Terminal:
+スマートカードやセキュリティーキーの設定が完了したら、以下のコマンドをターミナルで実行することを推奨します：
 
 ```text
 sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLogin -bool YES
 ```
 
-The command will prevent an adversary from bypassing MFA when the computer boots.
+このコマンドにより、コンピューターを起動する際、敵対者が多要素認証を回避することを防ぎます。
 
 ### Linux
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">注意</p>
 
-If the hostname of your system changes (such as due to DHCP), you would be unable to login. It is vital that you set up a proper hostname for your computer before following this guide.
+システムのホスト名が変更（DHCPなどによる）された場合、ログインできなくなってしまいます。 以下のガイドに従う前に、適切なホスト名をコンピューターに設定することが重要です。
 
 </div>
 
-The `pam_u2f` module on Linux can provide two-factor authentication for logging in on most popular Linux distributions. If you have a hardware security key that supports U2F, you can set up MFA authentication for your login. Yubico has a guide [Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F) which should work on any distribution. The package manager commands—such as `apt-get`—and package names may however differ. This guide does **not** apply to Qubes OS.
+Linuxの`pam_u2f`モジュールにより、ほとんどのLinuxディストリビューションのログインで二要素認証を設定することができます。 U2Fに対応したハードウェアセキュリティーキーを持っている場合、ログインに多要素認証を設定することができます。 Yubicoにはガイド[Ubuntu Linux Login Guide - U2F](https://support.yubico.com/hc/articles/360016649099-Ubuntu-Linux-Login-Guide-U2F)があり、多くのディストリビューションで使えます。 ただし、`apt-get`などのパッケージマネージャーのコマンドやパッケージ名は異なる場合があります。 このガイドはQubes OSには適用**されません**。
 
 ### Qubes OS
 
-Qubes OS has support for Challenge-Response authentication with YubiKeys. If you have a YubiKey with Challenge-Response authentication support, take a look at the Qubes OS [YubiKey documentation](https://qubes-os.org/doc/yubikey) if you want to set up MFA on Qubes OS.
+Qubes OSはYubiKeyによるチャレンジレシポンス認証に対応しています。 チャレンジレスポンス認証に対応したYubiKeyを持っていて、Qubes OSに多要素認証を設定したい場合、Qubes OSの[YubiKey documentation](https://qubes-os.org/doc/yubikey)を見てください。
 
 ### SSH
 
 #### ハードウェアセキュリティ
 
-SSH MFA could be set up using multiple different authentication methods that are popular with hardware security keys. We recommend that you check out Yubico's [documentation](https://developers.yubico.com/SSH) on how to set this up.
+SSHの多要素認証はハードウェアセキュリティーキーで一般的な複数の異なる認証方法を設定することができます。 Yubicoの[ドキュメント](https://developers.yubico.com/SSH)で設定方法を確認することを推奨します。
 
 #### TOTP
 
-SSH MFA can also be set up using TOTP. DigitalOcean has provided a tutorial [How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04). Most things should be the same regardless of distribution, however the package manager commands—such as `apt-get`—and package names may differ.
+SSHの多要素認証にはTOTPを設定することもできます。 DigitalOceanのチュートリアル[How To Set Up Multi-Factor Authentication for SSH on Ubuntu 20.04](https://digitalocean.com/community/tutorials/how-to-set-up-multi-factor-authentication-for-ssh-on-ubuntu-20-04)があります。 ディストリビューションに関わらず、ほとんど同じではありますが、`apt-get`などのパッケージマネージャーのコマンドやパッケージ名は異なる可能性があります。
 
 ### KeePass（およびKeePassXC）
 
-KeePass and KeePassXC databases can be secured using HOTP or Challenge-Response as a second-factor of authentication. Yubico has provided a document for KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) and there is also one on the [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa) website.
+KeePassやKeePassXCのデータベースはHOTPやチャレンジレスポンスを二要素認証として保護することができます。 YubicoによるKeePassのためのドキュメント[Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass)があり、[KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa)のウェブサイトにもあります。
