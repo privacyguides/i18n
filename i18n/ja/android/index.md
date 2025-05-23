@@ -13,14 +13,14 @@ schema:
     name: Android
     image: /assets/img/android/android.svg
     url: https://source.android.com/
-    sameAs: https://en.wikipedia.org/wiki/Android_(operating_system)
+    sameAs: https://ja.wikipedia.org/wiki/Android_(%E3%82%AA%E3%83%9A%E3%83%AC%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0)
 ---
 
-![Android logo](../assets/img/android/android.svg){ align=right }
+![Androidのロゴ](../assets/img/android/android.svg){ align=right }
 
-The **Android Open Source Project** (AOSP) is an open-source mobile operating system led by Google which powers the majority of the world's mobile devices. Most phones sold with Android are modified to include invasive integrations and apps such as Google Play Services, so you can significantly improve your privacy on your mobile device by replacing your phone's default installation with a version of Android without these invasive features.
+**Android Open Source Project** (AOSP)とは、Googleが手動するオープンソースのモバイル用オペレーティングシステムで、世界の半分以上のモバイルデバイスに使われています。 ほとんどのAndroidスマホは、Google Playサービスのようなプライバシーを侵害する機能・アプリが追加されています。そのため、デフォルトでインストールされているAndroidを、プライバシーを脅かす機能のないバージョンで置き換えることにより、プライバシーを大きく高めることができます。
 
-[General Android Overview :material-arrow-right-drop-circle:](../os/android-overview.md){ .md-button .md-button--primary }
+[Androidの概観 :material-arrow-right-drop-circle:](../os/android-overview.md){ .md-button .md-button--primary }
 
 ## 私たちのアドバイス
 
