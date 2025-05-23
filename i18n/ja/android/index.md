@@ -1,6 +1,6 @@
 ---
 title: Android
-description: Our advice for replacing privacy-invasive default Android features with private and secure alternatives.
+description: デフォルトのAndroidにあるプライバシーを侵害する機能を、よりプライバシー性が高くて安全なもので置き換えるためのアドバイス。
 icon: simple/android
 cover: android.webp
 schema:
@@ -18,25 +18,25 @@ schema:
 
 ![Androidのロゴ](../assets/img/android/android.svg){ align=right }
 
-**Android Open Source Project** (AOSP)とは、Googleが手動するオープンソースのモバイル用オペレーティングシステムで、世界の半分以上のモバイルデバイスに使われています。 ほとんどのAndroidスマホは、Google Playサービスのようなプライバシーを侵害する機能・アプリが追加されています。そのため、デフォルトでインストールされているAndroidを、プライバシーを脅かす機能のないバージョンで置き換えることにより、プライバシーを大きく高めることができます。
+**Androidオープンソースプロジェクト** (AOSP)とは、Googleが手動するオープンソースのモバイル用オペレーティングシステムで、世界の半分以上のモバイルデバイスに使われています。 ほとんどのAndroidスマホは、Google Playサービスのようなプライバシーを侵害する機能・アプリが追加されています。そのため、デフォルトでインストールされているAndroidを、プライバシーを脅かす機能のないバージョンで置き換えることにより、プライバシーを大きく高めることができます。
 
 [Androidの概観 :material-arrow-right-drop-circle:](../os/android-overview.md){ .md-button .md-button--primary }
 
 ## 私たちのアドバイス
 
-### Replace Google Services
+### Googleのサービスを別のもので置き換える
 
-There are many methods of obtaining apps on Android while avoiding Google Play. Whenever possible, try using one of these methods before getting your apps from non-private sources:
+AndroidでGoogle Playを使わずにアプリを入手する方法はたくさんあります。 プライバシー性の低いところから入手する前に、なるべく以下の方法で入手できるか試してみましょう：
 
 [Obtaining Applications :material-arrow-right-drop-circle:](obtaining-apps.md){ .md-button }
 
-There are also many private alternatives to the apps that come pre-installed on your phone, such as the camera app. Besides the Android apps we recommend throughout this site in general, we've created a list of system utilities specific to Android which you might find useful.
+カメラアプリなど、最初からスマホにインストールされているアプリについても、世の中にはよりプライバシー性の高いものがたくさん存在します。 本サイトの各ページでおすすめしているAndroidアプリ以外にも、便利なAndroid用システムユーティリティアプリのリストを以下で公開しています。
 
 [General App Recommendations :material-arrow-right-drop-circle:](general-apps.md){ .md-button }
 
-### Install a Custom Distribution
+### カスタマイズされたディストリビューションをインストールする
 
-When you buy an Android phone, the default operating system comes bundled with apps and functionality that are not part of the Android Open Source Project. Many of these apps—even apps like the dialer which provide basic system functionality—require invasive integrations with Google Play Services, which in turn asks for privileges to access your files, contacts storage, call logs, SMS messages, location, camera, microphone, and numerous other things on your device in order for those basic system apps and many other apps to function in the first place. Frameworks like Google Play Services increase the attack surface of your device and are the source of various privacy concerns with Android.
+Androidスマホを購入すると、Androidオープンソースプロジェクトに含まれないアプリや機能がデフォルトでOSに含まれた状態になっています。 Many of these apps—even apps like the dialer which provide basic system functionality—require invasive integrations with Google Play Services, which in turn asks for privileges to access your files, contacts storage, call logs, SMS messages, location, camera, microphone, and numerous other things on your device in order for those basic system apps and many other apps to function in the first place. Frameworks like Google Play Services increase the attack surface of your device and are the source of various privacy concerns with Android.
 
 This problem could be solved by using an alternative Android distribution, commonly known as a _custom ROM_, that does not come with such invasive integration. しかし残念ながら、多くのカスタムAndroidディストリビューションは、AVBや、ロールバック保護、ファームウェア・アップデートなどの重要なセキュリティ機能をサポートしておらず、しばしばAndroidのセキュリティーモデルに違反しています。 Some distributions also ship [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) builds which expose root via [ADB](https://developer.android.com/studio/command-line/adb) and require more permissive SELinux policies to accommodate debugging features, resulting in a further increased attack surface and weakened security model.
 
