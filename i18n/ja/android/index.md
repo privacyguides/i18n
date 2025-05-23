@@ -24,7 +24,7 @@ schema:
 
 ## 私たちのアドバイス
 
-### Googleのサービスを別のもので置き換える
+### Googleのサービスを別のもので置き換えよう
 
 AndroidでGoogle Playを使わずにアプリを入手する方法はたくさんあります。 プライバシー性の低いところから入手する前に、なるべく以下の方法で入手できるか試してみましょう：
 
@@ -34,17 +34,17 @@ AndroidでGoogle Playを使わずにアプリを入手する方法はたくさ�
 
 [General App Recommendations :material-arrow-right-drop-circle:](general-apps.md){ .md-button }
 
-### カスタマイズされたディストリビューションをインストールする
+### カスタマイズされたディストリビューションをインストールしよう
 
 Androidスマホを購入すると、Androidオープンソースプロジェクトに含まれないアプリや機能がデフォルトでOSに含まれた状態になっています。 このようなアプリは、電話アプリなどシステムの基本的な機能にあたるアプリでさえも、プライバシーを侵害する形でGoogle Playサービスと連携していることが多いです。そしてGoogle Playサービスがファイル、連絡先、ストレージ、通話履歴、SMSメッセージ、位置情報、カメラ、マイクなど、デバイス上のあらゆるものにアクセスする権限を要求します。権限を与えないと、こういった基本的なシステムアプリ含め多くのアプリがそもそも動作しません。 Google Playサービスのようなフレームワークは、攻撃対象領域を広げてしまうだけでなく、Androidにおけるプライバシー上の様々な懸念の原因でもあります。
 
-This problem could be solved by using an alternative Android distribution, commonly known as a _custom ROM_, that does not come with such invasive integration. しかし残念ながら、多くのカスタムAndroidディストリビューションは、AVBや、ロールバック保護、ファームウェア・アップデートなどの重要なセキュリティ機能をサポートしておらず、しばしばAndroidのセキュリティーモデルに違反しています。 Some distributions also ship [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) builds which expose root via [ADB](https://developer.android.com/studio/command-line/adb) and require more permissive SELinux policies to accommodate debugging features, resulting in a further increased attack surface and weakened security model.
+この問題は、上記のようなプライバシーを侵害する機能のない、別のAndroidディストリビューション(_カスタムROM_と呼ばれることが多い)を使えば解決できます。 しかし残念ながら、多くのカスタムAndroidディストリビューションは、AVBや、ロールバック保護、ファームウェア・アップデートなどの重要なセキュリティ機能をサポートしておらず、しばしばAndroidのセキュリティーモデルに違反しています。 ディストリビューションによっては、[`userdebug`](https://source.android.com/setup/build/building#choose-a-target)ビルドが配布されています。このビルドでは、[ADB](https://developer.android.com/studio/command-line/adb)経由でrootにアクセスでき、さらにデバッグ機能に対応するためにSELinux ポリシーが緩められた状態になっており、結果、攻撃対象領域が増え、さらに弱いセキュリティモデルとなってしまっています。
 
-Androidのカスタムディストリビューションを選択する場合には、Androidのセキュリティーモデルが維持されていることを確認してください。 At the very least, the distribution should have production builds, support for AVB, rollback protection, timely firmware and operating system updates, and SELinux in [enforcing mode](https://source.android.com/security/selinux/concepts#enforcement_levels). All of our recommended Android distributions satisfy these criteria:
+Androidのカスタムディストリビューションを選択する場合には、Androidのセキュリティーモデルが維持されていることを確認してください。 最低限、ディストリビューションは本番用ビルドを使い、AVBやロールバック保護の対応、迅速なファームフェア・オペレーティングシステムのアップデート、SELinuxの[強制モード](https://source.android.com/security/selinux/concepts#enforcement_levels)の使用をするべきです。 以下のページで私たちが推奨しているAndroidディストリビューションはすべて、この基準を満たしています：
 
-[Recommended Distributions :material-arrow-right-drop-circle:](distributions.md){ .md-button }
+[推奨ディストリビューション :material-arrow-right-drop-circle:](distributions.md){ .md-button }
 
-### Avoid Root
+### root化を避けよう
 
 [Rooting](https://en.wikipedia.org/wiki/Rooting_\(Android\)) Android phones can decrease security significantly as it weakens the complete [Android security model](https://en.wikipedia.org/wiki/Android_\(operating_system\)#Security_and_privacy). root化によって低下したセキュリティーの脆弱性が悪用されると、プライバシーが損なわれてしまう可能性があります。 一般的な方法でroot化を行うと、ブートパーティションが直接変更されてしまうため、確認付きブートを行うことはできなくなります。 Apps that require root will also modify the system partition, meaning that Verified Boot would have to remain disabled. Having root exposed directly in the user interface also increases the attack surface of your device and may assist in [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation) vulnerabilities and SELinux policy bypasses.
 
