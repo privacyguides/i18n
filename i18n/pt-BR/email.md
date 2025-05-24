@@ -22,13 +22,13 @@ O "email" é praticamente uma necessidade para usar qualquer serviço “online�
 
 Para qualquer outra coisa, recomendamos uma variedade de provedores de email baseados em modelos de negócio sustentáveis e recursos de segurança e privacidade incorporados. Leia nossa [lista completa de requisitos](#criteria) para mais informações.
 
-| Provedor                    | OpenPGP / WKD                          | IMAP / SMTP                                                    | Zero-Access Encryption                                 | Anonymous Payment Methods             |
+| Provedor                    | OpenPGP / WKD                          | IMAP / SMTP                                                    | Zero-Access Encryption                                 | Métodos de Pagamento Anônimos         |
 | --------------------------- | -------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------- |
 | [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Planos pagos apenas | :material-check:{ .pg-green }                          | Dinheiro                              |
 | [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                  | :material-information-outline:{ .pg-blue } Mail apenas | Dinheiro                              |
 | [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                         | :material-check:{ .pg-green }                          | Monero <br>Cash via third party |
 
-In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md#recommended-providers) to protect your privacy. Entre outras coisas, esses serviços podem ajudar a proteger sua caixa de entrada real contra spam, impedir que marketeiros correlacionem suas contas, e criptografia de todas as mensagens recebidas com PGP.
+Além de (ou ao invés de) um provedor de e-mail recomendado aqui, você pode considerar um [serviço de aliasing de e-mail](email-aliasing.md#recommended-providers), para proteger sua privacidade. Entre outras coisas, esses serviços podem ajudar a proteger sua caixa de entrada real contra spam, impedir que marketeiros correlacionem suas contas, e criptografia de todas as mensagens recebidas com PGP.
 
 - [Saiba mais :material-arrow-right-drop-circle:](email-aliasing.md)
 

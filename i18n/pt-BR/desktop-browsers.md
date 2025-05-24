@@ -61,7 +61,7 @@ schema:
 
 - [:material-account-cash: Sistemas de Vigilância](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Estas são as nossas recomendações atuais ** navegadores de computador ** e configurações para navegação padrão/não anônima. Recomendamos [Mullvad Browser](#mullvad-browser) se estiver interessado em fortes proteções de privacidade e anti-fingerprinting por padrão, o [Firefox](#firefox) para navegadores de internet comuns que buscam uma boa alternativa ao Google Chrome e o [Brave](#brave) se você precisar de compatibilidade com a engine Chromium.
+Estas são as nossas recomendações atuais ** navegadores de computador ** e configurações para navegação padrão/não anônima. Recomendamos o [Mullvad Browser](#mullvad-browser) se estiver interessado em fortes proteções de privacidade e anti-fingerprinting por padrão, o [Firefox](#firefox) para usuários comuns que buscam uma boa alternativa ao Google Chrome e o [Brave](#brave) se você precisar de compatibilidade com o motor Chromium.
 
 Se você precisa navegar na internet de maneira anônima, você deveria usar o [Tor](tor.md) em vez disso. Temos algumas recomendações de configuração nessa página, mas todos os navegadores que não sejam o Tor Browser são rastreáveis por *alguém* de alguma maneira ou de outra.
 
@@ -72,8 +72,7 @@ Se você precisa navegar na internet de maneira anônima, você deveria usar o [
 ![Mullvad Browser logo]
 (assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Navegador Mullvad** é uma versão de [Negador Tor](tor.md#tor-browser) com as integrações da rede  Tor removida.
- O seu objetivo é fornecer aos utilizadores de VPN as tecnologias de navegação anti-fingerprinting do Navegador Tor, que são proteções fundamentais contra [:material-eye-outline: Vigilância em massa](basics/common-threats.md#mass-surveillance-programs){ .pg-blue } É desenvolvido pelo Projeto Tor e distribuído pela [Mullvad](vpn.md#mullvad), e **não** requer o uso da VPN da Mullvad.
+**Navegador Mullvad** é uma versão do [Navegador Tor](tor.md#tor-browser) com as integrações da rede Tor removida. O seu objetivo é fornecer aos utilizadores de VPN as tecnologias de navegação anti-fingerprinting do Navegador Tor, que são proteções fundamentais contra [:material-eye-outline: Vigilância em massa](basics/common-threats.md#mass-surveillance-programs){ .pg-blue } É desenvolvido pelo Projeto Tor e distribuído pela [Mullvad](vpn.md#mullvad), e **não** requer o uso da VPN da Mullvad.
 
 [:octicons-home-16: Página inicial](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Política de privacidade" }
@@ -93,11 +92,11 @@ Se você precisa navegar na internet de maneira anônima, você deveria usar o [
 
 </div>
 
-Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+Igual ao [Navegador Tor](tor.md), o Navegador Mullvad é feito para prevenir o rastreamento da sua identidade digital fazendo com que a identidade digital do seu navegador seja idêntica com todos os outros usuários do Mullvad. Ele também incluí configurações e extensões que são automáticamente configuradas para os níveis padrões de segurança: *Standard*, *Safer* e *Safest*.
 
-Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). When adjusting the security level, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
+Portanto, nunca se deve mudar as configurações do navegador, exceto quando se for alterar os [níveis de segurança](https://tb-manual.torproject.org/security-settings) padrões. Após ajustar o nível de segurança, você **deve** sempre reiniciar o navegador antes de continuar a usá-lo. Se não, [ as configurações de segurança talvez não sejam corretamente aplicadas](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), te colocando com um risco maior de ser rastreado ou afetado por exploits do que o esperado na configuração escolhida.
 
-Modifications other than adjusting this setting would make your fingerprint unique, defeating the purpose of using this browser. Se você preferir personalizar mais o navegador e a identificação das suas impressões digitais não é uma preocupação para você, recomendamos o [Firefox](#firefox).
+Modificar o navegador além dessa configuração faria com que sua identidade digital seja única, anulando o objetivo de usar esse navegador. Se você preferir personalizar mais o navegador e a identificação das suas impressões digitais não é uma preocupação para você, recomendamos o [Firefox](#firefox).
 
 ### Anti-impressões Digitais
 
@@ -185,9 +184,9 @@ Isso protege você ao bloquear rastreadores de mídias sociais, scripts de finge
 
 Se quiser permanecer logado em sites específicos, você pode permitir exceções em **Cookies e Dados de Sites** → **Gerenciar Exceções...**
 
-- Selecione **Excluir cookies e dados do site quando o Firefox estiver fechado**
+- [x] Selecione **Apagar cookies e dados de sites quando o Firefox for fechado**
 
-Isso protege você contra cookies persistentes, mas não contra cookies adquiridos durante uma única sessão de navegação. Quando isso está ativado, torna-se possível limpar facilmente os cookies do seu navegador simplesmente reiniciando o Firefox. Você pode definir exceções para sites específicos, caso queira permanecer conectado a um site que visita com frequência.
+Isso te protege contra cookies persistentes, mas não contra cookies adquiridos durante uma única sessão de navegação. Com isso ativado, torna-se possível limpar facilmente os cookies do seu navegador ao simplesmente reiniciar o Firefox. Você pode definir exceções para sites específicos, caso queira permanecer conectado a um site que visita com frequência.
 
 ##### Telemetria
 
