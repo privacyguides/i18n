@@ -48,9 +48,9 @@ Androidのカスタムディストリビューションを選択する場合に�
 
 Androidスマホを[root化](https://ja.wikipedia.org/wiki/Root%E5%8C%96_\(Android_OS\))すると、本来全体としてまとまっている[Androidセキュリティモデル](https://en.wikipedia.org/wiki/Android_\(operating_system\)#Security_and_privacy)を弱めることになるため、セキュリティを大幅に低下させる可能性があります。 root化によって低下したセキュリティーの脆弱性が悪用されると、プライバシーが損なわれてしまう可能性があります。 一般的な方法でroot化を行うと、ブートパーティションが直接変更されてしまうため、確認付きブートを行うことはできなくなります。 root権限が必要なアプリもシステムパーティションに変更を加えるため、確認付きブートを無効化せざるをえなくなります。 また、UI上でroot権限に直接アクセスできるようにしてしまうと、デバイスの攻撃対象領域が増加し、[権限昇格](https://en.wikipedia.org/wiki/Privilege_escalation)の脆弱性につながったり、SELinuxポリシーを回避されるおそれがあります。
 
-[hostsファイル](https://ja.wikipedia.org/wiki/Hosts)を変更するコンテンツブロッカー(AdAwayなど)や、永続的にroot権限を必要とするファイアウォール(AFWall+など)は危険であり、使用を避けるべきです。 また、このようなアプリは、各目的を達成する方法として間違っています。 For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy-enhancing services such as [Orbot](../alternative-networks.md#orbot) or a [real VPN provider](../vpn.md).
+[hostsファイル](https://ja.wikipedia.org/wiki/Hosts)を変更するコンテンツブロッカー(AdAwayなど)や、永続的にroot権限を必要とするファイアウォール(AFWall+など)は危険であり、使用を避けるべきです。 また、このようなアプリは、各目的を達成する方法として間違っています。 コンテンツブロッカーとしては、暗号化された[DNS](../dns.md)を使用するか、もしくはVPNに付随するコンテンツブロック機能を使用することを推奨します。 TrackerControlとAdAway は、非rootモードで使用すると(ローカルのループバック VPN を使用するため)VPNスロットを占有してしまうので、[Orbot](../alternative-networks.md#orbot)や[本当のVPN](../vpn.md)などのプライバシーを強化するサービスが使用できなくなります。
 
-AFWall+ works based on the [packet filtering](https://en.wikipedia.org/wiki/Firewall_\(computing\)#Packet_filter) approach and may be bypassable in some situations.
+AFWall+は、[パケットフィルター](https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2%E3%82%A6%E3%82%A9%E3%83%BC%E3%83%AB#%E3%83%91%E3%82%B1%E3%83%83%E3%83%88%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E5%9E%8B)の形で動作するため、環境によっては回避されてしまう可能性があります。
 
 We do not believe that the security sacrifices made by rooting a phone are worth the questionable privacy benefits of those apps.
 
