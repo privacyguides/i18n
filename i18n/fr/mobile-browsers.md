@@ -50,7 +50,7 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protège contre les menaces suivantes :</small>
 
 - [:material-account-cash: Capitalisme de surveillance](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
@@ -97,7 +97,7 @@ Le navigateur Tor est le seul moyen de vraiment naviguer anonymement sur Interne
 
 #### Paramètres par défaut des boucliers Brave
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+Brave inclut des mesures anti-empreintes digitales dans sa fonctionnalité [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Nous vous conseillons de configurer ces options de [manière globale](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) sur toutes les pages que vous visitez.
 
 Les options "Boucliers" peuvent être réduites par site selon les besoins, mais par défaut, nous recommandons de définir les paramètres suivants:
 
@@ -140,25 +140,25 @@ Les options "Boucliers" peuvent être réduites par site selon les besoins, mais
     - [x] Select **Site Tabs Closed** under *Auto Shred*
 
     <details class="warning" markdown>
-    <summary>Use default filter lists</summary>
+    <summary>Utiliser les listes de filtres par défaut</summary>
 
-    Brave allows you to select additional content filters within the **Content Filtering** menu. Nous vous déconseillons d'utiliser cette fonctionnalité ; conservez plutôt les listes de filtres par défaut. L'utilisation de listes supplémentaires vous distinguera des autres utilisateurs de Brave et peut également augmenter la surface d'attaque s'il y a une faille dans Brave et qu'une règle malveillante est ajoutée à l'une des listes que vous utilisez.
+    Brave vous permet de sélectionner des filtres de contenu supplémentaires dans le menu **Filtrage du contenu.**. Nous vous déconseillons d'utiliser cette fonctionnalité ; conservez plutôt les listes de filtres par défaut. L'utilisation de listes supplémentaires vous distinguera des autres utilisateurs de Brave et peut également augmenter la surface d'attaque s'il y a une faille dans Brave et qu'une règle malveillante est ajoutée à l'une des listes que vous utilisez.
 
     </details>
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Cette option désactive JavaScript, ce qui rendra inutilisable beaucoup de sites. Pour les débloquer, vous pouvez définir des exceptions par site en appuyant sur l'icône Bouclier dans la barre d'adresse et en décochant ce paramètre sous *Contrôles Avancés*.
 
-##### Clear browsing data (Android only)
+##### Effacer les données de navigation (Android uniquement)
 
 - [x] Sélectionner **Effacer les données en quittant**
 
-##### Social Media Blocking (Android only)
+##### Blocage des médias sociaux (Android uniquement)
 
 - [ ] Décochez toutes les fonctionnalités de médias sociaux
 
-#### Other privacy settings
+#### Autres paramètres de confidentialité
 
 === "Android"
 
@@ -267,7 +267,7 @@ This disables update checks for the unmaintained Bromite adblock filter.
 
 ## Safari (iOS)
 
-On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Chromium engine like its counterparts on other operating systems.
+Sur iOS, n'importe quelle application qui peut naviguer sur le Web est [restreint](https://developer.apple.com/app-store/review/guidelines) à utiliser un framework [WebKit fourni par Apple](https://developer.apple.com/documentation/webkit), donc un navigateur comme [Brave](#brave) n'utilise pas le moteur Chromium comme ses homologues sur d'autres systèmes d'exploitation.
 
 <div class="admonition recommendation" markdown>
 
@@ -304,11 +304,11 @@ This prevents Siri from using content from Safari for Siri suggestions.
 
 - [ ] Disable **Search Engine Suggestions**
 
-This setting sends whatever you type in the address bar to the search engine set in Safari. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+Ce paramètre envoie tout ce que vous tapez dans la barre d'adresse au moteur de recherche défini dans Safari. La désactivation des suggestions de recherche vous permet de contrôler plus précisément les données que vous envoyez à votre fournisseur de moteur de recherche.
 
 #### Profils
 
-Safari allows you to separate your browsing with different profiles. All of your cookies, history, and website data are separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
+Safari vous permet de séparer votre navigation en différents profils. Tous vos cookies, votre historique et les données de votre site web sont séparés pour chaque profil. Vous devriez utiliser des profils différents pour des objectifs différents, par exemple pour les achats, le travail ou l'école.
 
 #### Confidentialité & sécurité
 
@@ -322,17 +322,17 @@ This setting allows you to lock your private tabs behind biometrics/PIN when not
 
 - [ ] Disable **Fraudulent Website Warning**
 
-This setting uses Google Safe Browsing (or Tencent Safe Browsing for users in mainland China or Hong Kong) to protect you while you browse. As such, your IP address may be logged by your Safe Browsing provider. Disabling this setting will disable this logging, but you might be more vulnerable to known phishing sites.
+Ce paramètre utilise Google Safe Browsing (ou Tencent Safe Browsing pour les utilisateurs en Chine continentale ou à Hong Kong) pour vous protéger lorsque vous naviguez. Ainsi, votre adresse IP peut être enregistrée par votre fournisseur de services de navigation sécurisée. Si vous désactivez ce paramètre, la journalisation sera désactivée, mais vous risquez d'être plus vulnérable aux sites d'hameçonnage connus.
 
 - [x] Enable **Not Secure Connection Warning**
 
-This setting shows a warning screen if your connection to a website isn't using HTTPS. Safari will automatically try to upgrade the site to HTTPS, so you should only see this when there is no HTTPS connection available.
+Ce paramètre affiche un écran d'avertissement si votre connexion à un site web n'utilise pas HTTPS. Safari essaiera automatiquement de mettre à niveau le site vers HTTPS, de sorte que vous ne devriez voir ce message que lorsqu'il n'y a pas de connexion HTTPS disponible.
 
 - [ ] Disable **Highlights**
 
 Apple's privacy policy for Safari states:
 
-> When visiting a webpage, Safari may send information calculated from the webpage address to Apple over OHTTP to determine if relevant highlights are available.
+> Lors de la visite d'une page web, Safari peut envoyer des informations calculées à partir de l'adresse de la page web à Apple via OHTTP afin de déterminer si des mises en évidence pertinentes sont disponibles.
 
 #### Settings for Websites
 
@@ -374,9 +374,9 @@ Ouvrez Safari et appuyez sur le bouton Onglets, situé en bas à droite. Then, e
 
 - [x] Sélectionner **Privé**
 
-Le mode de Navigation Privée de Safari offre des protections supplémentaires en matière de confidentialité. La Navigation Privée utilise une nouvelle session [éphémère](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) pour chaque onglet, ce qui signifie que les onglets sont isolés les uns des autres. There are other smaller privacy benefits with Private Browsing too, such as not sending a webpage’s address to Apple when using Safari's translation feature.
+Le mode de Navigation Privée de Safari offre des protections supplémentaires en matière de confidentialité. La Navigation Privée utilise une nouvelle session [éphémère](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) pour chaque onglet, ce qui signifie que les onglets sont isolés les uns des autres. La navigation privée offre également d'autres avantages plus modestes en matière de protection de la vie privée, comme le fait de ne pas envoyer l'adresse d'une page web à Apple lors de l'utilisation de la fonction de traduction de Safari.
 
-Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed in to sites. Cela peut être un inconvénient.
+Notez que la navigation privée n'enregistre pas les cookies et les données des sites web, et qu'il ne sera donc pas possible de rester connecté aux sites. Cela peut être un inconvénient.
 
 #### Synchronisation iCloud
 
@@ -384,9 +384,9 @@ La synchronisation de l'Historique de Safari, des Groupes d'Onglets, des Onglets
 
 Vous pouvez activer l'E2EE pour vos favoris et vos téléchargements Safari en activant la [Protection avancée des données](https://support.apple.com/HT212520). Go to :gear: **Settings** → **iCloud** → **Advanced Data Protection**.
 
-- [x] Turn on **Advanced Data Protection**
+- [x] Activez **Protection avancée des données**
 
-If you use iCloud with Advanced Data Protection disabled, we also recommend setting Safari's default download location to a local folder on your device. This option can be found in :gear: **Settings** → **Apps** → **Safari** → **General** → **Downloads**.
+Si vous utilisez iCloud avec la Protection Avancée des Données désactivée, nous vous recommandons également de vérifier que l'emplacement de téléchargement par défaut de Safari est défini sur localement sur votre appareil. This option can be found in :gear: **Settings** → **Apps** → **Safari** → **General** → **Downloads**.
 
 ## Critères
 

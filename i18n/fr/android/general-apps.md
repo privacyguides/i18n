@@ -1,6 +1,6 @@
 ---
-title: General Apps
-description: The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
+title: Applications générales
+description: Les applications répertoriées ici sont exclusives à Android et améliorent ou remplacent les principales fonctionnalités du système.
 schema:
   - "@context": http://schema.org
     "@type": WebPage
@@ -24,23 +24,23 @@ schema:
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-<small>Protects against the following threat(s):</small>
+Protège contre les menaces suivantes :
 
 - [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-We recommend a wide variety of Android apps throughout this site. The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
+Nous recommandons une grande variété d'applications Android sur ce site. Les applications répertoriées ici sont exclusives à Android et améliorent ou remplacent les principales fonctionnalités du système.
 
 ### Shelter
 
-If your device is on Android 15 or greater, we recommend using the native [Private Space](../os/android-overview.md#private-space) feature instead, which provides nearly the same functionality without needing to place trust in and grant powerful permissions to a third-party app.
+Si votre appareil fonctionne sous Android 15 ou supérieur, nous vous recommandons d'utiliser la fonction native [Espace privé] (../os/android-overview.md#private-space), qui offre pratiquement la même fonctionnalité sans avoir à faire confiance à une application tierce et à lui accorder de puissantes autorisations.
 
 <div class="admonition recommendation" markdown>
 
 ![Shelter logo](../assets/img/android/shelter.svg){ align=right }
 
-**Shelter** is an app that helps you leverage Android's Work Profile functionality to isolate or duplicate apps on your device.
+**Shelter** est une application qui vous aide à tirer parti des fonctionnalités du profil professionnel d'Android pour isoler ou dupliquer des applications sur votre appareil.
 
-Shelter supports blocking contact search cross profiles and sharing files across profiles via the default file manager ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
+Shelter prend en charge le blocage de la recherche de contacts entre profils et le partage de fichiers entre profils via le gestionnaire de fichiers par défaut ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
 
 [:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
 [:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
@@ -51,15 +51,15 @@ Shelter supports blocking contact search cross profiles and sharing files across
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avertissement</p>
 
-When using Shelter, you are placing complete trust in its developer, as Shelter acts as a [Device Admin](https://developer.android.com/guide/topics/admin/device-admin) to create the Work Profile, and it has extensive access to the data stored within the Work Profile.
+En utilisant Shelter, vous accordez une confiance totale à son développeur, car Shelter agit en tant qu'[administrateur de l'appareil](https://developer.android.com/guide/topics/admin/device-admin) pour créer le Profil professionnel, et il a un accès étendu aux données stockées dans ce dernier.
 
 </div>
 
-Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) and [Island](https://github.com/oasisfeng/island) as it supports [contact search blocking](https://secure-system.gitlab.io/Insular/faq.html).
+Shelter est recommandé par rapport à [Insular](https://secure-system.gitlab.io/Insular) et [Island](https://github.com/oasisfeng/island) car il prend en charge le [blocage de la recherche de contact](https://secure-system.gitlab.io/Insular/faq.html).
 
 ### Secure Camera
 
-<small>Protects against the following threat(s):</small>
+<small>Protège contre la/les menaces suivantes :</small>
 
 - [:material-account-search: Public Exposure](../basics/common-threats.md#limiting-public-information){ .pg-green }
 
@@ -68,7 +68,7 @@ Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) a
 ![Secure camera logo](../assets/img/android/secure_camera.svg#only-light){ align=right }
 ![Secure camera logo](../assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
 
-**Secure Camera** is a camera app focused on privacy and security which can capture images, videos, and QR codes. CameraX vendor extensions (Portrait, HDR, Night Sight, Face Retouch, and Auto) are also supported on available devices.
+**Secure Camera** est une application de caméra axée sur la confidentialité et la sécurité qui permet de capturer des images, des vidéos et des codes QR. Les extensions du vendeur CameraX (Portrait, HDR, Night Sight, Face Retouch et Auto) sont également prises en charge sur les appareils disponibles.
 
 [:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
@@ -76,7 +76,7 @@ Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) a
 [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
@@ -86,11 +86,11 @@ Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) a
 
 </div>
 
-Main privacy features include:
+Les principales fonctionnalités de confidentialité incluent :
 
-- Auto removal of [Exif](https://en.wikipedia.org/wiki/Exif) metadata (enabled by default)
-- Use of the new [Media](https://developer.android.com/training/data-storage/shared/media) API, therefore [storage permissions](https://developer.android.com/training/data-storage) are not required
-- Microphone permission not required unless you want to record sound
+- Suppression automatique des métadonnées [Exif](https://en.wikipedia.org/wiki/Exif) (activée par défaut)
+- Utilisation de la nouvelle API [Media](https://developer.android.com/training/data-storage/shared/media), par conséquent les [autorisations de stockage](https://developer.android.com/training/data-storage) ne sont pas nécessaires
+- L'autorisation d'utiliser un microphone n'est pas nécessaire, sauf si vous souhaitez enregistrer des sons
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
@@ -103,7 +103,7 @@ The image orientation metadata is not deleted. If you enable location (in Secure
 
 ### Secure PDF Viewer
 
-<small>Protects against the following threat(s):</small>
+<small>Protège contre la/les menaces suivantes :</small>
 
 - [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
@@ -112,9 +112,9 @@ The image orientation metadata is not deleted. If you enable location (in Secure
 ![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
 ![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
-**Secure PDF Viewer** is a PDF viewer based on [pdf.js](https://en.wikipedia.org/wiki/PDF.js) that doesn't require any permissions. The PDF is fed into a [sandboxed](https://en.wikipedia.org/wiki/Sandbox_\(software_development\)) [WebView](https://developer.android.com/guide/webapps/webview). This means that it doesn't require permission directly to access content or files.
+**Secure PDF Viewer** est une visionneuse de PDF basée sur [pdf.js](https://en.wikipedia.org/wiki/PDF.js) qui ne nécessite aucune permission. Le PDF est introduit dans une [webview](https://developer.android.com/guide/webapps/webview) [sandboxed](https://en.wikipedia.org/wiki/Sandbox_\(software_development\)). Cela signifie qu'il n'a pas besoin d'autorisation directe pour accéder au contenu ou aux fichiers.
 
-[Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) is used to enforce that the JavaScript and styling properties within the WebView are entirely static content.
+[Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) est utilisé pour s'assurer que les propriétés JavaScript et de style à l'intérieur de la WebView sont entièrement statiques.
 
 [:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer#readme){ .md-button .md-button--primary }
 [:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
