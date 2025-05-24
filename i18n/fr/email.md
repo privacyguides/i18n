@@ -254,61 +254,6 @@ Tuta supprimera [les comptes gratuits inactifs](https://tuta.com/support#inactiv
 
 Tuta offre la version professionnelle de [Tuta aux organisations à but non lucratif](https://tuta.com/blog/secure-email-for-non-profit) gratuitement ou avec une forte réduction.
 
-## E-mail auto-hébergé
-
-Les administrateurs système peuvent envisager de mettre en place leur propre serveur d'e-mail. Les serveurs d'e-mail requièrent une attention et une maintenance permanente afin de garantir la sécurité et la fiabilité de la distribution des e-mails. In addition to the "all-in-one" solutions below, we've picked out a few articles that cover a more manual approach:
-
-- [Mise en place d'un serveur mail avec OpenSMTPD, Dovecot et Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
-- [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide) (August 2017)
-
-### Stalwart
-
-<div class="admonition recommendation" markdown>
-
-![Stalwart logo](assets/img/email/stalwart.svg){ align=right }
-
-**Stalwart** is a newer mail server written in Rust which supports JMAP in addition to the standard IMAP, POP3, and SMTP. It has a wide variety of configuration options, but it also defaults to very reasonable settings (in terms of both security and features) making it easy to use immediately. It has web-based administration with TOTP 2FA support, and it allows you to enter your public PGP key to encrypt **all** incoming messages.
-
-[:octicons-home-16: Homepage](https://stalw.art){ .md-button .md-button--primary }
-[:octicons-info-16:](https://stalw.art/docs/get-started){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/stalwartlabs){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/stalwartlabs){ .card-link title="Contribute" }
-
-</div>
-
-Stalwart's [PGP implementation](https://stalw.art/docs/encryption/overview) is unique among our self-hosted recommendations, and allows you to operate your own mail server with zero-knowledge message storage. If you additionally configure Web Key Directory on your domain, and if you use an email client which supports PGP and Web Key Directory for outgoing mail (like Thunderbird), then this is the easiest way to get self-hosted E2EE compatibility with all [Proton Mail](#proton-mail) users.
-
-Stalwart does **not** have an integrated webmail, so you will need to use it with a [dedicated email client](email-clients.md) (or find an open-source webmail to self-host, like Nextcloud's Mail app). We use Stalwart for our own internal email at *Privacy Guides*.
-
-### Mailcow
-
-<div class="admonition recommendation" markdown>
-
-![Logo Mailcow](assets/img/email/mailcow.svg){ align=right }
-
-**Mailcow** est un serveur d'e-mail plus avancé, parfait pour ceux qui ont un peu plus d'expérience de Linux. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
-
-[:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.mailcow.email){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title="Contribute" }
-
-</div>
-
-### Mail-in-a-Box
-
-<div class="admonition recommendation" markdown>
-
-![Logo Mail-in-a-Box](assets/img/email/mail-in-a-box.svg){ align=right }
-
-**Mail-in-a-Box** est un script de configuration automatisé pour le déploiement d'un serveur d'e-mail sur Ubuntu. Son objectif est de faciliter la mise en place de son propre serveur d'e-mail.
-
-[:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
-
-</div>
-
 ## Critères
 
 **Veuillez noter que nous ne sommes affiliés à aucun des fournisseurs que nous recommandons.** En plus de [nos critères de base](about/criteria.md), nous avons développé un ensemble d'exigences claires pour tout fournisseur d'e-mail souhaitant être recommandé, y compris la mise en place des bonnes pratiques du secteur, une technologie moderne et bien plus. Nous vous suggérons de vous familiariser avec cette liste avant de choisir un fournisseur d'e-mail, et de mener vos propres recherches pour vous assurer que le fournisseur d'e-mail que vous choisissez est le bon choix pour vous.

@@ -9,7 +9,29 @@ description: Privacy Guides topluluğu tarafından önerilen gizlilik araçları
 
 Bir konuda belirli bir çözüm arıyorsanız, çeşitli kategorilerde önerdiğimiz donanım ve yazılım araçları bunlardır. Tavsiye edilen gizlilik araçlarımız öncelikle güvenlik özelliklerine göre seçilmiş olup, merkezi olmayan ve açık kaynaklı araçlara ek vurgu yapılmaktadır. Bunlar, küresel kitlesel gözetleme programlarına karşı korunmadan büyük teknoloji şirketlerinden kaçınmaya ve saldırıları hafifletmeye kadar çeşitli tehdit modellerine uygulanabilir, ancak ihtiyaçlarınız için neyin en iyi sonucu vereceğini yalnızca siz belirleyebilirsiniz.
 
-[VPN Sağlayıcıları](vpn.md ""){.md-button} [Parola Yöneticileri](passwords.md ""){.md-button} [E-posta Sağlayıcıları](email.md ""){.md-button} [Tarayıcı Uzantıları](browser-extensions.md ""){.md-button} [DNS Sunucuları](dns.md ""){.md-button} [E-posta Takma Adlandırma Hizmetleri](email-aliasing.md ""){.md-button} [Fotoğraf Düzenleme Araçları](photo-management.md ""){.md-button}
+<div class="grid" markdown>
+
+<div markdown>
+[VPN Providers](vpn.md){ .md-button }
+[Password Managers](passwords.md){ .md-button }
+[Email Providers](email.md){ .md-button }
+[Browser Extensions](browser-extensions.md){ .md-button }
+[DNS Servers](dns.md){ .md-button }
+[Email Aliasing Services](email-aliasing.md){ .md-button }
+[Photo Organization Tools](photo-management.md){ .md-button }
+</div>
+
+</div>
+
+<div markdown>
+
+<div class="admonition info" markdown>
+
+[Self-hosting recommendations](self-hosting/index.md) have been moved to their own category.
+
+</div>
+
+</div>
 
 İhtiyaçlarınız için en iyi gizlilik araçlarını ve alternatif programları bulma konusunda yardım istiyorsanız, [forumumuzda](https://discuss.privacyguides.net) veya [Matrix](https://matrix.to/#/#privacyguides:matrix.org) topluluğumuzda bir tartışma başlatın!
 
@@ -208,18 +230,7 @@ Daha fazla **güvenlik** arıyorsanız, her zaman HTTPS kullanan web sitelerine 
 - ![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ .twemoji loading=lazy } [SimpleLogin](email-aliasing.md#simplelogin)
 
 </div>
-</div>
 
-<div markdown>
-### Kendi Kendini Barındıran E-posta
-
-<div class="grid cards" markdown>
-
-- ![Stalwart logosu](assets/img/email/stalwart.svg){ .twemoji loading=lazy } [Stalwart](email.md#stalwart)
-- ![Mailcow logo](assets/img/email/mailcow.svg){ .twemoji loading=lazy } [Mailcow](email.md#mailcow)
-- ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email.md#mail-in-a-box)
-
-</div>
 </div>
 
 </div>
@@ -412,7 +423,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </details>
 
-#### Cross-platform Tools
+#### Cross-Platform Tools
 
 <div class="grid cards" markdown>
 
@@ -476,9 +487,9 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 - ![Drip logo](assets/img/health-and-wellness/drip.png){ .twemoji loading=lazy } [Drip](health-and-wellness.md#drip)
 - ![Euki logo](assets/img/health-and-wellness/euki.svg){ .twemoji loading=lazy } [Euki](health-and-wellness.md#euki)
-- ![Apple Health logo](assets/img/health-and-wellness/apple-health.svg#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ .twemoji loading=lazy }[Apple Health](health-and-wellness.md#apple-health)
+- ![Apple Health logo](assets/img/health-and-wellness/apple-health.svg#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ .twemoji loading=lazy } [Apple Health](health-and-wellness.md#apple-health)
 - ![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge.svg#only-light){ .twemoji loading=lazy }![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge-dark.svg#only-dark){ .twemoji loading=lazy } [Gadgetbridge](health-and-wellness.md#gadgetbridge)
-- ![Apple Health logo](assets/img/health-and-wellness/apple-health.svg#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ .twemoji loading=lazy }[Apple Health Records](health-and-wellness.md#apple-health-records)
+- ![Apple Health logo](assets/img/health-and-wellness/apple-health.svg#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ .twemoji loading=lazy } [Apple Health Records](health-and-wellness.md#apple-health-records)
 - ![CommonHealth logo](assets/img/health-and-wellness/commonhealth.png){ .twemoji loading=lazy } [CommonHealth](health-and-wellness.md#commonhealth)
 
 </div>

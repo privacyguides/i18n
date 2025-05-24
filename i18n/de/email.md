@@ -254,61 +254,6 @@ Tuta [löscht inaktive kostenlose Konten](https://tuta.com/support#inactive-acco
 
 Tuta bietet die Business-Version von [Tuta für gemeinnützige Organisationen](https://tuta.com/blog/secure-email-for-non-profit) kostenlos oder mit einem starken Rabatt.
 
-## E-Mail Selbst Hosten
-
-Fortgeschrittene Systemadministratoren können die Einrichtung eines eigenen E-Mail-Servers in Erwägung ziehen. Mailserver erfordern Aufmerksamkeit und ständige Wartung, um die Sicherheit und die Zuverlässigkeit der Mailzustellung zu gewährleisten. Zusätzlich zu den unten aufgeführten "All-in-One"-Lösungen haben wir einige Artikel herausgesucht, die einen eher manuellen Ansatz behandeln:
-
-- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
-- [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide) (August 2017)
-
-### Stalwart
-
-<div class="admonition recommendation" markdown>
-
-![Stalwart Logo](assets/img/email/stalwart.svg){ align=right }
-
-**Stalwart** ist ein neuerer Mail-Server, der in Rust geschrieben ist und neben den Standards IMAP, POP3, und SMTP auch JMAP unterstützt. Es verfügt über eine Vielzahl von Konfigurationsoptionen, aber  ist auch standardmäßig auf sehr vernünftige Einstellungen (sowohl in Bezug auf Sicherheit als auch Features) gesetzt. So ist es sofort einfach zu benutzen. Es ermöglicht eine webbasierte Verwaltung mit TOTP 2FA-Unterstützung, sowie die Eingabe deines öffentlichen PGP-Schlüssels um **alle** eingehenden Nachrichten zu verschlüsseln.
-
-[:octicons-home-16: Homepage](https://stalw.art){ .md-button .md-button--primary }
-[:octicons-info-16:](https://stalw.art/docs/get-started){ .card-link title="Dokumentation" }
-[:octicons-code-16:](https://github.com/stalwartlabs){ .card-link title="Quellcode" }
-[:octicons-heart-16:](https://github.com/sponsors/stalwartlabs){ .card-link title="Unterstützen" }
-
-</div>
-
-Die [PGP-Implementierung](https://stalw.art/docs/encryption/overview) von Stalwart ist einzigartig unter den von uns empfohlenen selbst gehosteten Lösungen und ermöglicht den Betrieb deines eigenen Mailservers mit Zero-Knowledge-Nachrichtenspeicherung. Wenn du zusätzlich Web Key Directory auf deiner Domain konfigurierst und einen E-Mail-Client verwendest, der PGP und Web Key Directory für ausgehende E-Mails unterstützt (wie Thunderbird), dann ist dies der einfachste Weg, um selbst gehostete E2EE-Kompatibilität mit allen [Proton Mail-Benutzern](#proton-mail) zu erreichen.
-
-Stalwart verfügt **nicht** über integriertes Webmail, sodass du es mit einem [speziellen E-Mail-Client](email-clients.md) verwenden musst (oder ein Open-Source-Webmail zum Selbsthosten finden, wie die Mail-App von Nextcloud). Wir verwenden Stalwart für unsere eigenen internen E-Mails hier bei *Privacy Guides*.
-
-### Mailcow
-
-<div class="admonition recommendation" markdown>
-
-![Mailcow-Logo](assets/img/email/mailcow.svg){ align=right }
-
-**Mailcow** ist ein fortgeschrittener Mailserver, perfekt für diejenigen mit ein wenig mehr Linux-Erfahrung. Es vereinigt alles, was du brauchst in einem Docker-Container: Einen Mailserver mit DKIM-Unterstützung, Virenschutz und Spam-Überwachung, Webmail und ActiveSync mit SOGo, sowie eine webbasierte Verwaltung mit 2FA-Unterstützung.
-
-[:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.mailcow.email){ .card-link title="Dokumentation" }
-[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Quellcode" }
-[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title="Mitwirken" }
-
-</div>
-
-### Mail-in-a-Box
-
-<div class="admonition recommendation" markdown>
-
-![Mail-in-a-Box-Logo](assets/img/email/mail-in-a-box.svg){ align=right }
-
-**Mail-in-a-Box** ist ein automatisches Setup-Skript für die Einrichtung eines Mailservers unter Ubuntu. Sein Ziel ist es, die Einrichtung eines eigenen Mailservers zu erleichtern.
-
-[:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title="Dokumentation" }
-[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Quellcode" }
-
-</div>
-
 ## Kriterien
 
 **Bitte beachte, dass wir mit keinem der von uns empfohlenen Anbieter verbunden sind.** Zusätzlich zu [unseren Standardkriterien](about/criteria.md)haben wir eine Reihe klarer Anforderungen für jeden E-Mail-Anbieter entwickelt, der empfohlen werden möchte, darunter die Umsetzung branchenweit bewährter Verfahren, moderne Technologien und weiteres. Wir empfehlen, sich mit dieser Liste vertraut zu machen, bevor du dich für einen E-Mail-Anbieter entscheidest, und deine eigenen Nachforschungen anzustellst, um sicherzustellen, dass der gewählte E-Mail-Anbieter die richtige Wahl für dich ist.

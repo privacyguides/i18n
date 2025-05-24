@@ -9,7 +9,29 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 如果您正在尋找特定的解決方案，這些是我們在各種類別中推薦的硬體和軟體工具。 我們推薦的隱私工具主要是基於安全功能而選擇的，並特別強調去中心化和開源工具。 它們適用於各種威脅模型，從防止全球大規模監控計劃，避免大型科技公司到減輕攻擊，但只有您才能確定哪些最適合您的需求。
 
-[VPN 供應商](vpn.md ""){.md-button} [密碼管理器](passwords.md ""){.md-button} [電子郵件供應商](email.md ""){.md-button} [瀏覽器擴充套件](browser-extensions.md ""){.md-button} [DNS 伺服器](dns.md ""){.md-button} [電子郵件別名服務](email-aliasing.md ""){.md-button} [照片管理工具](photo-management.md ""){.md-button}
+<div class="grid" markdown>
+
+<div markdown>
+[VPN Providers](vpn.md){ .md-button }
+[Password Managers](passwords.md){ .md-button }
+[Email Providers](email.md){ .md-button }
+[Browser Extensions](browser-extensions.md){ .md-button }
+[DNS Servers](dns.md){ .md-button }
+[Email Aliasing Services](email-aliasing.md){ .md-button }
+[Photo Organization Tools](photo-management.md){ .md-button }
+</div>
+
+</div>
+
+<div markdown>
+
+<div class="admonition info" markdown>
+
+[Self-hosting recommendations](self-hosting/index.md) have been moved to their own category.
+
+</div>
+
+</div>
 
 如果您需要協助，為您的需求找出最佳的隱私工具和替代方案，請在我們的 [論壇](https://discuss.privacyguides.net) 或 [matrix](https://matrix.to/#/#privacyguides:matrix.org) 社區開始討論！
 
@@ -212,18 +234,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 - ![SimpleLogin logo](assets/img/email-aliasing/simplelogin.svg){ .twemoji loading=lazy } [SimpleLogin](email-aliasing.md#simplelogin)
 
 </div>
-</div>
 
-<div markdown>
-### 自行託管電子郵件
-
-<div class="grid cards" markdown>
-
-- ![Stalwart logo](assets/img/email/stalwart.svg){ .twemoji loading=lazy } [Stalwart](email.md#stalwart)
-- ![Mailcow logo](assets/img/email/mailcow.svg){ .twemoji loading=lazy } [Mailcow](email.md#mailcow)
-- ![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email.md#mail-in-a-box)
-
-</div>
 </div>
 
 </div>
@@ -416,7 +427,7 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 </details>
 
-#### Cross-platform Tools
+#### Cross-Platform Tools
 
 <div class="grid cards" markdown>
 
@@ -480,9 +491,9 @@ For encrypting your OS drive, we typically recommend using the encryption tool y
 
 - ![Drip logo](assets/img/health-and-wellness/drip.png){ .twemoji loading=lazy } [Drip](health-and-wellness.md#drip)
 - ![Euki logo](assets/img/health-and-wellness/euki.svg){ .twemoji loading=lazy } [Euki](health-and-wellness.md#euki)
-- ![Apple Health logo](assets/img/health-and-wellness/apple-health.svg#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ .twemoji loading=lazy }[Apple Health](health-and-wellness.md#apple-health)
+- ![Apple Health logo](assets/img/health-and-wellness/apple-health.svg#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ .twemoji loading=lazy } [Apple Health](health-and-wellness.md#apple-health)
 - ![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge.svg#only-light){ .twemoji loading=lazy }![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge-dark.svg#only-dark){ .twemoji loading=lazy } [Gadgetbridge](health-and-wellness.md#gadgetbridge)
-- ![Apple Health logo](assets/img/health-and-wellness/apple-health.svg#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ .twemoji loading=lazy }[Apple Health Records](health-and-wellness.md#apple-health-records)
+- ![Apple Health logo](assets/img/health-and-wellness/apple-health.svg#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ .twemoji loading=lazy } [Apple Health Records](health-and-wellness.md#apple-health-records)
 - ![CommonHealth logo](assets/img/health-and-wellness/commonhealth.png){ .twemoji loading=lazy } [CommonHealth](health-and-wellness.md#commonhealth)
 
 </div>

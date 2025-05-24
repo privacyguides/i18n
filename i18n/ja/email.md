@@ -254,61 +254,6 @@ Tutaは6ヶ月間[アクティブではないフリープランのアカウン�
 
 Tutaは[非営利団体](https://tuta.com/blog/secure-email-for-non-profit)向けに無料もしくは大幅な割引価格でビジネス版Tutaを提供しています。
 
-## セルフホストメール
-
-システム管理に詳しいのであれば、自前のメールサーバーの構築を検討することも一つの手段です。 安全性とメール配信の信頼性を維持するには、メールサーバーへの注意と継続的なメンテンナンスが必要になります。 以下の「オールインワン」な方法に加え、手動で設定するための記事を取り上げました：
-
-- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019年)
-- [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide) (2017年8月)
-
-### Stalwart
-
-<div class="admonition recommendation" markdown>
-
-![Stalwart logo](assets/img/email/stalwart.svg){ align=right }
-
-**Stalwart**はRustで書かれた新しいメールサーバーで、標準的なIMAP、POP3やSMTPに加え、JMAPにも対応しています。 様々な設定は用意されていますが、デフォルトでも（セキュリティと機能の両方で）適切な設定となっているため、すぐに使い始めることができます。 TOTP二要素認証に対応するウェブベースの管理機能があり、PGP公開鍵で**すべての**受信メッセージを暗号化することができます。
-
-[:octicons-home-16: ウェブページ](https://stalw.art){ .md-button .md-button--primary }
-[:octicons-info-16:](https://stalw.art/docs/get-started){ .card-link title="ドキュメント" }
-[:octicons-code-16:](https://github.com/stalwartlabs){ .card-link title="ソースコード" }
-[:octicons-heart-16:](https://github.com/sponsors/stalwartlabs){ .card-link title="Contribute" }
-
-</div>
-
-Stalwartの[PGP実装](https://stalw.art/docs/encryption/overview)は推奨するセルフホスティングEメールの中でもユニークで、前提知識なしにメッセージストレージのある自前のメールサーバーを運用することができます。 独自ドメインにWeb Key Directoryを設定し、送信メールがPGPとWeb Key Directoryに対応したクライアント（Thunderbirdなど）を使うことで、すべての[Proton Mail](#proton-mail)に対応するセルフホスティングE2EE互換性を最も簡単に得ることができます。
-
-Stalwartにはウェブメールが**ない**ため、[専用のEメールクライアント](email-clients.md)（もしくはNextCloudのメールアプリのようなオープンソースのウェブメールをセルフホスティングする）を使う必要があります。 *Privacy Guides*ではStalwartを内部のEメールサーバーで使用しています。
-
-### Mailcow
-
-<div class="admonition recommendation" markdown>
-
-![Mailcow logo](assets/img/email/mailcow.svg){ align=right }
-
-**Mailcow** はLinuxの経験がある方に最適な、より高度なメールサーバーです。 DKIMに対応したメールサーバー、アンチウイルスやスパム監視、SOGoによるウェブメールとActiveSync、二要素認証に対応したウェブベースの管理機能など、Dockerコンテナに必要なものがすべて含まれています。
-
-[:octicons-home-16: ウェブページ](https://mailcow.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.mailcow.email){ .card-link title="ドキュメント" }
-[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="ソースコード" }
-[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title="Contribute" }
-
-</div>
-
-### Mail-in-a-Box
-
-<div class="admonition recommendation" markdown>
-
-![Mail-in-a-Box logo](assets/img/email/mail-in-a-box.svg){ align=right }
-
-**Mail-in-a-Box** はUbuntu上にメールサーバーをデプロイするための自動セットアップスクリプトです。 自前のメールサーバーを簡単に立ち上げることを目的としています。
-
-[:octicons-home-16: ウェブページ](https://mailinabox.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title="ドキュメント" }
-[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="ソースコード" }
-
-</div>
-
 ## 規準
 
 **推奨するプロバイダーとは提携していないことに注意してください。**[標準的な基準](about/criteria.md)に加え、業界におけるベストプラクティスの実施や新しい技術の採用などを含む、推奨するために必要なEメールプロバイダーへの明確な要件を定めています。 Eメールプロバイダーを選ぶ前に以下のリストを理解し、どのEメールプロバイダーが適切であるかを調べ、確認してください。

@@ -254,61 +254,6 @@ Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-acco
 
 Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
 
-## 자체 호스팅 이메일
-
-고급 시스템 관리자는 자체 이메일 서버를 구축하는 것도 고려할 수 있습니다. 메일 서버는 보안과 메일 전달 역할을 신뢰성 있고 안정적으로 유지하기 위해 지속적인 주의 및 유지 관리가 필요합니다. In addition to the "all-in-one" solutions below, we've picked out a few articles that cover a more manual approach:
-
-- [Setting up a mail server with OpenSMTPD, Dovecot and Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
-- [How To Run Your Own Mail Server](https://www.c0ffee.net/blog/mail-server-guide) (August 2017)
-
-### Stalwart
-
-<div class="admonition recommendation" markdown>
-
-![Stalwart logo](assets/img/email/stalwart.svg){ align=right }
-
-**Stalwart** is a newer mail server written in Rust which supports JMAP in addition to the standard IMAP, POP3, and SMTP. It has a wide variety of configuration options, but it also defaults to very reasonable settings (in terms of both security and features) making it easy to use immediately. It has web-based administration with TOTP 2FA support, and it allows you to enter your public PGP key to encrypt **all** incoming messages.
-
-[:octicons-home-16: Homepage](https://stalw.art){ .md-button .md-button--primary }
-[:octicons-info-16:](https://stalw.art/docs/get-started){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/stalwartlabs){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/stalwartlabs){ .card-link title="Contribute" }
-
-</div>
-
-Stalwart's [PGP implementation](https://stalw.art/docs/encryption/overview) is unique among our self-hosted recommendations, and allows you to operate your own mail server with zero-knowledge message storage. If you additionally configure Web Key Directory on your domain, and if you use an email client which supports PGP and Web Key Directory for outgoing mail (like Thunderbird), then this is the easiest way to get self-hosted E2EE compatibility with all [Proton Mail](#proton-mail) users.
-
-Stalwart does **not** have an integrated webmail, so you will need to use it with a [dedicated email client](email-clients.md) (or find an open-source webmail to self-host, like Nextcloud's Mail app). We use Stalwart for our own internal email at *Privacy Guides*.
-
-### Mailcow
-
-<div class="admonition recommendation" markdown>
-
-![Mailcow 로고](assets/img/email/mailcow.svg){ align=right }
-
-**Mailcow**는 Linux 사용 경험이 많은 분에게 적합한 고급 메일 서버입니다. It has everything you need in a Docker container: a mail server with DKIM support, antivirus and spam monitoring, webmail and ActiveSync with SOGo, and web-based administration with 2FA support.
-
-[:octicons-home-16: Homepage](https://mailcow.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.mailcow.email){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mailcow/mailcow-dockerized){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://servercow.de/mailcow?lang=en#sal){ .card-link title="Contribute" }
-
-</div>
-
-### Mail-in-a-Box
-
-<div class="admonition recommendation" markdown>
-
-![Mail-in-a-Box 로고](assets/img/email/mail-in-a-box.svg){ align=right }
-
-**Mail-in-a-Box**는 Ubuntu 위에 메일 서버를 배포하는 자동화 설정 스크립트입니다. 사람들이 자신만의 메일 서버를 쉽게 구축할 수 있도록 만드는 것을 목표로 하는 프로젝트입니다.
-
-[:octicons-home-16: Homepage](https://mailinabox.email){ .md-button .md-button--primary }
-[:octicons-info-16:](https://mailinabox.email/guide.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mail-in-a-box/mailinabox){ .card-link title="Source Code" }
-
-</div>
-
 ## 평가 기준
 
 **Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
