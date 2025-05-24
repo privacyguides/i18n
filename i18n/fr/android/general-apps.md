@@ -95,9 +95,9 @@ Les principales fonctionnalités de confidentialité incluent :
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-Metadata is not currently deleted from video files, but that is planned.
+Les métadonnées ne sont pour le moment pas supprimées des fichiers vidéo, mais cela est prévu.
 
-The image orientation metadata is not deleted. If you enable location (in Secure Camera) that **won't** be deleted either. If you want to delete that later you will need to use an external app such as [ExifEraser](../data-redaction.md#exiferaser-android).
+Les métadonnées d'orientation de l'image ne sont pas supprimées. Si vous activez la fonction de localisation (dans Secure Camera), elle ne **sera pas** non plus supprimée. Si vous voulez la supprimer ultérieurement, vous devrez utiliser une application externe telle que [ExifEraser](../data-redaction.md#exiferaser-android).
 
 </div>
 
@@ -135,6 +135,6 @@ The image orientation metadata is not deleted. If you enable location (in Secure
 
 **Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de [nos critères de base](../about/criteria.md), nous avons développé un ensemble d'exigences claires pour nous permettre de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
 
-- Applications on this page must not be applicable to any other software category on the site.
-- General applications should extend or replace core system functionality.
-- Applications should receive regular updates and maintenance.
+- Les applications de cette page ne doivent pas être applicables à une autre catégorie de logiciels sur le site.
+- Les applications générales doivent étendre ou remplacer les fonctionnalités de base du système.
+- Les applications doivent être régulièrement mises à jour et maintenues.
