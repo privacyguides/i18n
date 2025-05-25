@@ -64,7 +64,7 @@ Contact lists on Signal are encrypted using your Signal PIN and the server does 
 
 Signal supports [private groups](https://signal.org/blog/signal-private-group-system), where the server has no record of your group memberships, group titles, group avatars, or group attributes. Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender) is enabled. The sender address is encrypted along with the message body, and only the recipient address is visible to the server. Sealed Sender is only enabled for people in your contacts list, but can be enabled for all recipients with the increased risk of receiving spam.
 
-The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs).
+The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. Specifikaci protokolu Signal najdete v jeho [dokumentaci](https://signal.org/docs).
 
 ### Molly (Android)
 
