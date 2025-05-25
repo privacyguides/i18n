@@ -15,11 +15,11 @@ description: ソフトウェアだけが全てではありません。プライ�
 「ハードウェアセキュリティプログラム」のあるデバイスもあります。ハードウェアを設計する際のベストプラクティスや推奨に関するベンダー間の協力によって成り立っています。例えば以下のものが挙げられます：
 
 - [WindowsのセキュアコアPC](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) は、マイクロソフトによって定められた高いセキュリティ基準を満たすものです。 Windowsのユーザーだけではなく、 他のOSのユーザーも[DMA保護](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) やMicrosoftの証明書を完全に信用しないようにする機能を利用することができます。
-- [Android Ready SE](https://developers.google.com/android/security/android-ready-se) is a collaboration between vendors to ensure their devices follow [best practices](https://source.android.com/docs/security/best-practices/hardware) and include tamper resistant hardware backed storage for things like encryption keys.
-- macOS running on an Apple SoC takes advantage of [hardware security](../os/macos-overview.md#hardware-security) which may not be available with third party operating systems.
-- [ChromeOS security](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper) is at its best when running on a Chromebook as it is able to make use of available hardware features such as the [hardware root-of-trust](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper/#hardware-root-of-trust-and-verified-boot).
+- [Android Ready SE](https://developers.google.com/android/security/android-ready-se) はデバイスが[ベストプラクティス](https://source.android.com/docs/security/best-practices/hardware)に従い、暗号化キーなどのために耐タンパ性のあるストレージが含まれていることを保証するベンダー間の協力によるものです。
+- Apple SoC上で動作するmacOSは他のOSでは利用できない[ハードウェアセキュリティ](../os/macos-overview.md#hardware-security)を活用しています。
+- [ChromeOSのセキュリティ](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper)はChromebook上で実行する際に[hardware root-of-trust](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper/#hardware-root-of-trust-and-verified-boot)のようなハードウェアの機能を使うことができるため、最も強力なものとなります。
 
-Even if you don't use these operating systems, participation in these programs may indicate that the manufacturer is following best practices when it comes to hardware security and updates.
+上記のOSを使っていなくても、プログラムに参加しているメーカーはハードウェアセキュリティやアップデートに関するベストプラクティスに従っていることを示している可能性があります。
 
 ### Preinstalled OS
 
