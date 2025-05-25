@@ -1,20 +1,20 @@
 ---
-title: Choosing Your Hardware
+title: ハードウェアを選ぶ
 icon: material/chip
-description: Software isn't all that matters; learn about the hardware tools you use every day to protect your privacy.
+description: ソフトウェアだけが全てではありません。プライバシーを守るために日常的に使うハードウェアのツールについて学びましょう。
 ---
 
-When it comes to discussions about privacy, hardware is often not thought about as much as what software we use. Your hardware should be considered the foundation on which you build the rest of your privacy setup.
+プライバシーについて議論する際、ハードウェアはソフトウェアほど考慮されていないことが多いです。 ハードウェアはプライバシーを設定するもう一つの基礎であると考えるべきです。
 
-## Picking a Computer
+## コンピューターを選ぶ
 
-The internals of your devices process and store all of your digital data. It is important that all devices are supported by the manufacturer and developers by continuing to receive security updates.
+デバイスの内部では全てのデジタルデータを処理し、保存しています。 デバイスはメーカーや開発者によってセキュリティアップデートを受け続けることができるようサポートされていることが重要です。
 
-### Hardware Security Programs
+### ハードウェアセキュリティプログラム
 
-Some devices will have a "hardware security program", which is a collaboration between vendors on best practices and recommendations when designing hardware, for example:
+「ハードウェアセキュリティプログラム」のあるデバイスもあります。ハードウェアを設計する際のベストプラクティスや推奨に関するベンダー間の協力によって成り立っています。例えば以下のものが挙げられます：
 
-- [Windows Secured-core PCs](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) meet a higher security criteria specified by Microsoft. These protections aren't only applicable to Windows users; Users of other operating systems can still take advantage of features like [DMA protection](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) and the ability to completely distrust Microsoft certificates.
+- [WindowsのセキュアコアPC](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) は、マイクロソフトによって定められた高いセキュリティ基準を満たすものです。 Windowsのユーザーだけではなく、 他のOSのユーザーも[DMA保護](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) やMicrosoftの証明書を完全に信用しないようにする機能を利用することができます。
 - [Android Ready SE](https://developers.google.com/android/security/android-ready-se) is a collaboration between vendors to ensure their devices follow [best practices](https://source.android.com/docs/security/best-practices/hardware) and include tamper resistant hardware backed storage for things like encryption keys.
 - macOS running on an Apple SoC takes advantage of [hardware security](../os/macos-overview.md#hardware-security) which may not be available with third party operating systems.
 - [ChromeOS security](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper) is at its best when running on a Chromebook as it is able to make use of available hardware features such as the [hardware root-of-trust](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper/#hardware-root-of-trust-and-verified-boot).
