@@ -21,17 +21,17 @@ description: ソフトウェアだけが全てではありません。プライ�
 
 上記のOSを使っていなくても、プログラムに参加しているメーカーはハードウェアセキュリティやアップデートに関するベストプラクティスに従っていることを示している可能性があります。
 
-### Preinstalled OS
+### プリインストールOS
 
-New computers nearly always come with Windows preinstalled, unless you buy a Mac or a specialty Linux machine. It's usually a good idea to wipe the drive and install a fresh copy of your operating system of choice, even if that means just reinstalling Windows from scratch. Due to agreements between hardware vendors and shady software vendors, the default Windows install often comes preloaded with bloatware, [adware](https://bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal), or even [malware](https://zdnet.com/article/dell-poweredge-motherboards-ship-with-malware).
+Macや特別なLinuxマシンを買わない限り、新しいコンピューターにはほとんどの場合、Windowsがプリインストールされています。 ドライブを消去し、選んだOSを新たにインストールすること（Windowsを再インストールすることも）はよい考えです。 ハードウェアベンダーと怪しいソフトウェアベンダーとの契約により、デフォルトのWindowsにはあらかじめロードするように設定されたブロートウェア、[アドウェア](https://bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal)や[マルウェア](https://zdnet.com/article/dell-poweredge-motherboards-ship-with-malware)があることが多いです。
 
 ### ファームウェアの更新
 
-Hardware often has security issues that are discovered and patched through firmware updates for your hardware.
+ハードウェアにはセキュリティ上の問題が発見されることがあり、ファームウェアアップデートによりパッチが適用されます。
 
-Almost every component of your computer requires firmware to operate, from your motherboard to your storage devices. It is ideal for all the components of your device to be fully supported. Apple devices, Chromebooks, most Android phones, and Microsoft Surface devices will handle firmware updates for you as long as the device is supported.
+マザーボードからストレージデバイスに至るまで、コンピューターのほぼ全てのコンポーネントは動作するのにファームウェアが必要です。 全てのコンポーネントが完全にサポートされていることが理想的です。 Appleのデバイス、Chromebook、ほとんどのAndroid端末、Microsoft Surfaceはデバイスがサポートされている限り、ファームウェアアップデートがあります。
 
-If you build your own PC, you may need to manually update your motherboard's firmware by downloading it from your OEM's website. If you use Linux, consider using the built-in [`fwupd`](https://fwupd.org) tool that will let you check for and apply any firmware updates available for your motherboard.
+自作PCの場合は、マザーボードのファームウェアはOEMのウェブサイトからダウンロードし、手動でアップデートする必要があるかもしれません。 Linuxの場合、ビルトインの[`pwupd`](https://fwupd.org)を使い、マザーボードで利用可能なファームウェアアップデートを確認、適用することを検討してください。
 
 ### TPM/Secure Cryptoprocessor
 
