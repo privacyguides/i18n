@@ -33,14 +33,14 @@ Macや特別なLinuxマシンを買わない限り、新しいコンピュータ
 
 自作PCの場合は、マザーボードのファームウェアはOEMのウェブサイトからダウンロードし、手動でアップデートする必要があるかもしれません。 Linuxの場合、ビルトインの[`pwupd`](https://fwupd.org)を使い、マザーボードで利用可能なファームウェアアップデートを確認、適用することを検討してください。
 
-### TPM/Secure Cryptoprocessor
+### TPM/セキュア暗号プロセッサー
 
-Most computers and phones come equipped with a TPM (or a similar secure cryptoprocessor) which safely stores your encryption keys and handles other security-related functions. If you're currently using a machine that doesn't have one of these, you might benefit from purchasing a newer computer that has this feature. Some desktop and server motherboards have a "TPM header" which can accept a small accessory board containing the TPM.
+ほとんどのコンピューターや携帯電話にはTPM（もしくは同様のセキュア暗号プロセッサー）が搭載されており、暗号鍵を安全に保存し、その他セキュリティ関連の機能を処理します。 もし、このような機能がないマシンを使っているのであれば、機能のある新しいコンピューターを購入するほうがよいでしょう。 デスクトップ・サーバーのマザーボードの中にはTPMを搭載した小型のアクセサリーボードをつけることができる「TPMヘッダー」があるものもあります。
 
 <div class="admonition Note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">メモ</p>
 
-Virtual TPMs are susceptible to side-channel attacks and external TPMs, as a result of being separate from the CPU on the motherboard, are vulnerable to [sniffing](https://pulsesecurity.co.nz/articles/TPM-sniffing) when an attacker has access to the hardware. The solution to this problem is to include the secure processor inside the CPU itself, which is the case for Apple's chips and Microsoft's [Pluton](https://microsoft.com/en-us/security/blog/2020/11/17/meet-the-microsoft-pluton-processor-the-security-chip-designed-for-the-future-of-windows-pcs).
+仮想TPMはサイドチャネル攻撃の影響を受けやすく、外部TPMは攻撃者がハードウェアにアクセスできる場合、マザーボード上のCPUから分離されているため、[スニッフィング](https://pulsesecurity.co.nz/articles/TPM-sniffing)に脆弱です。 セキュアプロセッサーをCPU自体に内蔵することが解決策であり、AppleのチップやMicrosoftの[Pluton](https://microsoft.com/en-us/security/blog/2020/11/17/meet-the-microsoft-pluton-processor-the-security-chip-designed-for-the-future-of-windows-pcs)が例として挙げられます。
 
 </div>
 
