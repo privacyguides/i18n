@@ -201,7 +201,7 @@ Si busca más **seguridad**, asegúrese siempre de conectarse a sitios web que u
 
     ---
 
-    Proton Mail es un servicio de correo electrónico centrado en la privacidad, el cifrado, la seguridad y la facilidad de uso. Ha estado en operación desde 2013. Proton AG is based in Geneva, Switzerland. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+    Proton Mail es un servicio de correo electrónico centrado en la privacidad, el cifrado, la seguridad y la facilidad de uso. Ha estado en operación desde 2013. Proton AG tiene su sede en Ginebra, Suiza. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
 
     [Lea la Reseña Completa :material-arrow-right-drop-circle:](email.md#proton-mail)
 
