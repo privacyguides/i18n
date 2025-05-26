@@ -44,22 +44,22 @@ Macや特別なLinuxマシンを買わない限り、新しいコンピュータ
 
 </div>
 
-### Biometrics
+### 生体認証
 
-Many devices come equipped with a fingerprint reader or face recognition capabilities. These can be very convenient, but they aren't perfect and sometimes fail. Most devices will fall back to a PIN or password when this happens, meaning that the security of your devices is still only as good as your password.
+多くのデバイスには指紋読取や顔認証の機能が搭載されています。 とても便利ですが、完璧ではなく、失敗することもあります。 その場合、ほとんどデバイスはPINやパスワードにフォールバックします。つまり、パスワードと同程度のセキュリティであるということです。
 
-Biometrics can prevent someone from watching you type in your password, so if shoulder-surfing is part of your threat model then biometrics are a good option.
+生体認証はパスワードの入力を見られることを防ぐことができるため、脅威モデルにショルダーサーフィンがあるなら、生体認証はよい選択肢です。
 
-Most implementations of face authentication require you to be looking at your phone and also only work from a relatively close distance, so you don't need to worry too much about someone pointing your phone at your face to unlock it without your consent. You can still disable biometrics when your phone is locked if you want. On iOS, you can hold the side button and a volume button for 3 seconds to disable Face ID on models that support it. On Android, hold the power button and press Lockdown on the menu.
+ほとんどの顔認証の実装では携帯電話を見る必要があり、比較的近い距離でのみ動作するため、誰かが同意なしに携帯電話のロックを解除するために携帯電話を向けることを心配し過ぎる必要はありません。 必要であれば、携帯電話がロックされているときに生体認証を無効にすることもできます。 iOSでは、FaceIDに対応したモデルで、サイドボタンと音量ボタンを3秒間長押しして、FaceIDを無効にできます。 Androidでは、電源ボタンを押して、メニューのロックダウンを選択します。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">注意</p>
 
-Some devices do not have the proper hardware for secure face authentication. There are two main types of face authentication: 2D and 3D. 3D face authentication makes use of a dot projector that lets the device create a 3D depth map of your face. Make sure that your device has this capability.
+デバイスによっては安全な顔認証のための適切なハードウェアがないものもあります。 顔認証には主なタイプとして2Dと3Dの二種類があります。 3D顔認証ではドットプロジェクターを使用し、顔の3D深度マップを作成します。 デバイスにこの機能があることを確認してください。
 
 </div>
 
-Android defines three [security classes](https://source.android.com/docs/security/features/biometric/measure#biometric-classes) for biometrics; you should check that your device is Class 3 before enabling biometrics.
+Androidでは生体認証の[生体認証クラス](https://source.android.com/docs/security/features/biometric/measure#biometric-classes)が定められており、生体認証を有効にする前に、デバイスがクラス3であることを確認してください。
 
 ### Device Encryption
 
