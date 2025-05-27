@@ -57,9 +57,9 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Chroni przed następującymi zagrożeniami:</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: Kapitalizm inwigilacji](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
 To są obecnie zalecane przez nas **przeglądarki internetowe** i konfiguracje dla przeglądania standardowego/nieanonimowego. Polecamy [Mullvad Browser](#mullvad-browser), jeśli koncentrujesz się na silnej ochronie prywatności i ochronie przed odciskami palców po instalacji, [Firefox](#firefox) dla standardowego przeglądania internetu jako dobra alternatywa dla Google Chrome, oraz [Brave](#brave), jeśli potrzebujesz kompatybilności z przeglądarką Chromium.
 
@@ -69,14 +69,14 @@ Jeśli chcesz przeglądać Internet anonimowo, powinieneś użyć [Tor](tor.md).
 
 <div class="admonition recommendation" markdown>
 
-![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
+![Logo przeglądarki Mullvad](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Jest on rozwijany przez Tor Project i dystrybuowany przez [Mullvad](vpn.md#mullvad) i **nie** wymaga korzystania z VPN Mullvad.
+**Przeglądarka Mullvad** to wersja [przeglądarki Tor](tor.md#tor-browser) z usuniętymi integracjami sieci Tor. Jego celem jest zapewnienie użytkownikom VPN technologii ograniczających pobieranie odcisku przeglądarki (tzw. fingerprinting), które stanowią kluczową ochronę przed [:material-eye-outline: masową inwigilacją](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Jest on rozwijany przez Tor Project i dystrybuowany przez [Mullvad](vpn.md#mullvad) i **nie** wymaga korzystania z VPN Mullvad.
 
-[:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title="Documentation" }
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
+[:octicons-home-16: Strona główna](https://mullvad.net/pl/browser){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mullvad.net/pl/help/privacy-policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://mullvad.net/pl/help/tag/mullvad-browser){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -89,11 +89,11 @@ Jeśli chcesz przeglądać Internet anonimowo, powinieneś użyć [Tor](tor.md).
 
 </div>
 
-Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+Podobnie jak [Tor Browser](tor.md), przeglądarka Mullvad została zaprojektowana tak, aby zapobiegać pobieraniu odcisku przeglądarki, czyniąc odcisk identycznym z innymi użytkownikami przeglądarki Mullvad. Zawiera on domyślne ustawienia i rozszerzenia, które są automatycznie konfigurowane według domyślnych poziomów bezpieczeństwa: *Standardowy*, *Bezpieczniejszy* i *Najbezpieczniejszy*.
 
-Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). When adjusting the security level, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
+Dlatego niezwykle ważne jest, aby nie wprowadzać żadnych zmian w przeglądarce poza dostosowaniem domyślnych [poziomów bezpieczeństwa](https://tb-manual.torproject.org/security-settings). Przy zmianie poziomu bezpieczeństwa **musisz** zawsze ponownie uruchomić przeglądarkę, zanim zaczniesz z niej dalej korzystać. W przeciwnym razie [ustawienia bezpieczeństwa mogą nie zostać w pełni zastosowane](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), co narazi Cię na większe ryzyko pobierania odcisków przeglądarki i ataków, niż wynikałoby to z wybranego poziomu bezpieczeństwa.
 
-Modifications other than adjusting this setting would make your fingerprint unique, defeating the purpose of using this browser. Jeśli chcesz bardziej skonfigurować swoją przeglądarkę, a fingerprinting nie jest dla Ciebie problemem, zalecamy zamiast tego [Firefox](#firefox).
+Wprowadzanie jakichkolwiek innych zmian poza dostosowaniem tego ustawienia sprawi, że odcisk przeglądarki stanie się unikalny, co uniemożliwiłoby prawidłowe i bezpiecznie korzystanie z tej przeglądarki. Jeśli chcesz bardziej skonfigurować swoją przeglądarkę, a fingerprinting nie jest dla Ciebie problemem, zalecamy zamiast tego [Firefox](#firefox).
 
 ### Ochrona przed fingerprintingiem
 
@@ -113,9 +113,9 @@ Jest to wymagane, aby zapobiec zaawansowanym formom śledzenia, ale odbywa się 
 
 ### Mullvad Leta
 
-Mullvad Browser comes with [**Mullvad Leta**](https://leta.mullvad.net) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
+Przeglądarka Mullvad domyślnie korzysta z [**Mullvad Leta**](https://leta.mullvad.net) jako wyszukiwarki, która działa jako proxy do wyników wyszukiwania Google lub Brave (do wyboru na stronie głównej Mullvad Leta).
 
-If you are a Mullvad VPN user, there is some risk in using services like Mullvad Leta which are offered by your VPN provider themselves. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta), which is information a VPN is typically intended to separate. Even though Mullvad collects very little information about their VPN subscribers or Leta users, you should consider a different [search engine](search-engines.md) if this risk concerns you.
+Jeśli jesteś użytkownikiem Mullvad VPN, korzystanie z usług takich jak Mullvad Leta, oferowanych bezpośrednio przez samego dostawcę VPN, wiąże się z pewnym ryzykiem. Dzieje się tak, ponieważ Mullvad teoretycznie ma dostęp zarówno do prawdziwego adresu IP (poprzez VPN), jak i do aktywności wyszukiwania (poprzez Leta) - czyli do informacji, które VPN z założenia powinien od siebie oddzielać. Nawet jeśli Mullvad gromadzi bardzo mało informacji o swoich użytkownikach VPN czy Leta, powinieneś rozważyć użycie innej [wyszukiwarki](search-engines.md), jeśli to ryzyko budzi Twój niepokój.
 
 ## Firefox
 
@@ -125,11 +125,11 @@ If you are a Mullvad VPN user, there is some risk in using services like Mullvad
 
 **Firefox** zapewnia silne ustawienia prywatności, takie jak [wzmocniona ochrona przed śledzeniem](https://support.mozilla.org/pl/kb/wzmocniona-ochrona-przed-sledzeniem-firefox-desktop), które mogą pomóc zablokować różne [rodzaje śledzenia](https://support.mozilla.org/pl/kb/wzmocniona-ochrona-przed-sledzeniem-firefox-desktop#w_co-blokuje-wzmocniona-ochrona-przed-sledzeniem).
 
-[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title="Documentation" }
-[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="Contribute" }
+[:octicons-home-16: Strona główna](https://firefox.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="Przyczyń się" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -152,19 +152,19 @@ Firefox zawiera unikalny [token pobierania](https://bugzilla.mozilla.org/show_bu
 
 ### Zalecana konfiguracja przeglądarki Firefox
 
-These options can be found in :material-menu: → **Settings**.
+Te opcje znajdziesz w :material-menu: → **Ustawienia**.
 
 #### Wyszukiwarka
 
-- [ ] Odznacz **Pokaż sugestie wyszukiwania**
+- [ ] Odznacz **Podpowiedzi wyszukiwania**
 
-Search suggestion features may not be available in your region.
+Funkcje podpowiedzi wyszukiwania mogą nie być dostępne w Twoim regionie.
 
-Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+Podpowiedzi wyszukiwania przesyłają wszystko, co wpisujesz w pasku adresu, do domyślnej wyszukiwarki, niezależnie od tego, czy faktycznie zatwierdzisz wyszukiwanie. Wyłączenie podpowiedzi wyszukiwania pozwala bardziej precyzyjnie kontrolować dane wysyłane do dostawcy wyszukiwarki.
 
 ##### Firefox Suggest (tylko USA)
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) to funkcja podobna do podpowiedzi wyszukiwania, która jest dostępna tylko w Stanach Zjednoczonych. Zalecamy wyłączenie tej funkcji z tego samego powodu, dla którego rekomendujemy wyłączenie podpowiedzi wyszukiwania. Jeśli nie widzisz tych opcji pod **paskiem adresu strony**, nie masz tej funkcjonalności i możesz zignorować te zmiany.
 
 - [ ] Odznacz **Sugestie z Firefox**
 - [ ] Usuń zaznaczenie **Sugestie od sponsorów**
@@ -175,15 +175,15 @@ Search suggestions send everything you type in the address bar to the default se
 
 - [x] Wybierz **Ścisła** ochrona przed śledzeniem
 
-This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
+Chroni to użytkownika poprzez blokowanie modułów śledzących w mediach społecznościowych, skryptów służących do identyfikacji przeglądarki (należy pamiętać, że nie chroni to przed *wszystkimi* odciskami palców), koparek kryptowalut, ciasteczek śledzących różne witryny i niektórych innych treści śledzących. Ochrona przed śledzeniem chroni przed wieloma powszechnymi zagrożeniami, jednak nie blokuje wszystkich metod śledzenia, ponieważ została zaprojektowana tak, by mieć minimalny lub zerowy wpływ na użyteczność stron.
 
 ##### Wyczyść po zamknięciu
 
-If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
+Jeśli chcesz pozostać zalogowany na wybranych stronach, możesz zezwolić na wyjątki w **Pliki cookie i dane witryn** → **Zarządzaj wyjątkami...**
 
 - [x] Zaznacz **Usuń pliki cookie i dane witryn po zamknięciu przeglądarki Firefox**
 
-This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
+Chroni to użytkownika przed trwałymi ciasteczkami, ale nie chroni przed ciasteczkami pozyskanymi podczas jednej sesji przeglądania. Po włączeniu tej opcji możliwe jest łatwe wyczyszczenie ciasteczek przeglądarki poprzez ponowne uruchomienie Firefoksa. Możesz ustawiać wyjątki dla poszczególnych stron, jeśli chcesz pozostać zalogowany na konkretnej stronie, którą często odwiedzasz.
 
 ##### Telemetria
 
@@ -191,70 +191,70 @@ This protects you from persistent cookies, but does not protect you against cook
 - [ ] Usuń zaznaczenie **Zezwalaj przeglądarce Firefox na instalowanie i uruchamianie badań**
 - [ ] Usuń zaznaczenie **Zezwalaj przeglądarce Firefox na wysyłanie raportów o awariach w Twoim imieniu**
 
-According to Mozilla's privacy policy for Firefox,
+Zgodnie z polityką prywatności Firefoksa opracowaną przez Mozillę,
 
 > Firefox wysyła o nas dane o wersji i języku Firefoksa, systemie operacyjnym urządzeniach i konfiguracji sprzętowej, pamięci, podstawowe informacje o awariach i błędach oraz wynikach zautomatyzowanych procesów, takich jak aktualizacje, bezpieczne przeglądanie i aktywacja. Gdy przeglądarka Firefox wysyła nasze dane, adres IP użytkownika jest tymczasowo gromadzony w dziennikach serwera.
 
-Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt out:
+Ponadto usługa Mozilla Accounts gromadzi [pewne dane techniczne](https://mozilla.org/privacy/mozilla-accounts). Jeśli korzystasz z konta Firefox, możesz z tego zrezygnować:
 
 1. Otwórz ustawienia profilu [na accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Usuń zaznaczenie **Gromadzenie i wykorzystywanie danych** > **Pomóż ulepszyć konta Firefox**
 
-##### Website Advertising Preferences
+##### Preferencje dotyczące reklam na witrynach
 
-- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
+- [ ] Odznacz **Zezwalanie witrynom na przeprowadzanie pomiarów reklam przy zachowaniu prywatności**
 
-With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
+Wraz z wydaniem Firefoksa 128 dodano nowe ustawienie dotyczące [atrybucji z zachowaniem prywatności](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA), które jest [włączone domyślnie](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA pozwala reklamodawcom mierzyć skuteczność kampanii internetowych za pomocą danej przeglądarki, zamiast wykorzystywać do tego tradycyjne śledzenie oparte na JavaScript. Uważamy, że takie działanie wykracza poza zakres obowiązków przeglądarki, a fakt, że funkcja ta jest domyślnie wyłączona w Arkenfox, jest dodatkowym argumentem za jej wyłączeniem.
 
-##### HTTPS-Only Mode
+##### Tryb używania wyłącznie protokołu HTTPS
 
-- [x] Select **Enable HTTPS-Only Mode in all windows**
+- [x] Zaznacz **Włącz we wszystkich oknach**
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+To zapobiega nieumyślnemu połączeniu się ze stroną przez niezabezpieczony protokół HTTP. Obecnie strony bez HTTPS są rzadkością, więc ta opcja nie powinna mieć żadnego wpływu na codzienne przeglądanie internetu.
 
 ##### DNS przez HTTPS
 
-If you use a [DNS over HTTPS provider](dns.md):
+Jeśli korzystasz z [dostawcy DNS poprzez HTTPS](dns.md):
 
 - [x] Wybierz opcję **Maksymalna ochrona** i wybierz odpowiedniego dostawcę
 
-Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
+Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. To uniemożliwia sieci, z którą jesteś połączony, potajemne obniżenie poziomu bezpieczeństwa DNS.
 
 #### Synchronizacja
 
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
+[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) umożliwia dostęp do danych przeglądania (historii, zakładek itd.) na wszystkich urządzeniach i chroni je za pomocą E2EE.
 
 ### Arkenfox (zaawansowany)
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Korzystaj z przeglądarki Mullvad Browser do zaawansowanej ochrony przed odciskami palców</p>
 
-[Mullvad Browser](#mullvad-browser) provides the same anti-fingerprinting protections as Arkenfox out of the box, and does not require the use of Mullvad's VPN to benefit from these protections. Coupled with a VPN, Mullvad Browser can thwart more advanced tracking scripts which Arkenfox cannot. Arkenfox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
+[Przeglądarka Mullvad](#mullvad-browser) oferuje takie same zabezpieczenia przed identyfikacją przeglądarki jak Arkenfox już po instalacji i nie wymaga korzystania z VPN Mullvad, aby z nich korzystać. W połączeniu z VPN, przeglądarka Mullvad może zablokować bardziej zaawansowane skrypty śledzące, z którymi Arkenfox sobie nie poradzi. Arkenfox ma jednak tę przewagę, że jest znacznie bardziej elastyczny i pozwala na dodawanie wyjątków dla stron, na których chcesz pozostać zalogowany.
 
 </div>
 
-The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
+[Projekt Arkenfox](https://github.com/arkenfox/user.js) dostarcza zestaw starannie przemyślanych opcji dla Firefoksa. Jeśli [zdecydujesz się](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) korzystać z Arkenfox, [niektóre ustawienia](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) są subiektywnie restrykcyjne i/lub mogą powodować, że niektóre strony nie będą działać poprawnie — możesz je [łatwo zmienić](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) według własnych potrzeb. **Zdecydowanie zalecamy** przeczytanie całej ich [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox włącza także obsługę [kontenerów](https://support.mozilla.org/kb/containers#w_for-advanced-users).
 
-Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
+Arkenfox ma na celu jedynie blokowanie podstawowych lub prostych skryptów śledzących, korzystając z losowego generowania zawartości elementów graficznych (tzw. canvas) oraz wbudowanych ustawień Firefoksa ograniczających możliwość identyfikacji przeglądarki użytkownika. Nie ma jednak na celu upodobnienia przeglądarki do dużej grupy innych użytkowników Arkenfox, tak jak robi to przeglądarka Mullvad czy przeglądarka Tor — a to jedyny sposób na zablokowanie zaawansowanych technik śledzenia odciskiem przeglądarki. Pamiętaj, że zawsze możesz korzystać z kilku przeglądarek. Na przykład, możesz używać Firefoksa z Arkenfox do tych kilku stron, na których musisz być zalogowany lub którym ufasz, a do ogólnego przeglądania internetu — przeglądarki Mullvad.
 
 ## Brave
 
 <div class="admonition recommendation annotate" markdown>
 
-![Brave logo](assets/img/browsers/brave.svg){ align=right }
+![Logo Brave](assets/img/browsers/brave.svg){ align=right }
 
-**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
+**Przeglądarka Brave** zawiera wbudowany bloker treści oraz [funkcje prywatności](https://brave.com/privacy-features), z których wiele jest domyślnie włączonych.
 
-Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
+Brave jest oparty na projekcie przeglądarki Chromium, więc powinien wyglądać znajomo i nie sprawiać problemów z kompatybilnością na większości stron internetowych.
 
-[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+[:octicons-home-16: Strona główna](https://brave.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Usługa Onion" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pliki do pobrania</summary>
 
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 - [:fontawesome-brands-windows: Windows](https://brave.com/download)
@@ -267,64 +267,64 @@ Brave is built upon the Chromium web browser project, so it should feel familiar
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Ostrzeżenie</p>
 
-Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" to the file name in downloads from the Brave website, which is used to track which source the browser was downloaded from, for example `BRV002` in a download named `Brave-Browser-BRV002.pkg`. The installer will then ping Brave's server with the referral code at the end of the installation process. If you're concerned about this, you can rename the installer file before opening it.
+Brave dodaje "[kod polecenia](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" do nazwy pliku podczas pobierania z oficjalnej strony Brave. Kod ten służy do śledzenia, z jakiego źródła przeglądarka została pobrana, na przykład `BRV002` w pliku o nazwie `Brave-Browser-BRV002.pkg`. Instalator po zakończeniu procesu instalacji wysyła kod polecenia na serwer Brave. Jeśli Cię to niepokoi, możesz przed uruchomieniem zmienić nazwę pliku instalacyjnego.
 
 </div>
 
-### Recommended Brave Configuration
+### Zalecana konfiguracja przeglądarki Brave
 
-These options can be found in :material-menu: → **Settings**.
+Te opcje znajdziesz w :material-menu: → **Ustawienia**.
 
-#### Shields
+#### Tarcze
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+Brave posiada pewne zabezpieczenia przed identyfikacją przeglądarki w ramach funkcji [Tarcze](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Zalecamy skonfigurowanie tych opcji [globalnie](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) – dla wszystkich odwiedzanych stron.
 
-Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
+Ustawienia tarczy można w razie potrzeby obniżać dla wybranych stron, ale domyślnie zalecamy następujące ustawienia:
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under *Trackers & ads blocking*
+- [x] Wybierz **Agresywnie** w sekcji *Zablokuj skrypty śledzące i reklamy*
 
 <details class="warning" markdown>
-<summary>Use default filter lists</summary>
+<summary>Używaj domyślnych list filtrów</summary>
 
-Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Używanie dodatkowych list sprawi, że będziesz się wyróżniał na tle innych użytkowników i może zwiększyć ryzyko ataku powierzchniowego jeśli w Brave znajduje się exploit i złośliwa reguła zostanie dodana do jednej z list, których używasz.
+Brave pozwala wybrać dodatkowe filtry treści na wewnętrznej stronie `brave://adblock`. Odradzamy korzystanie z tej funkcji; zamiast tego pozostaw domyślne listy filtrów. Używanie dodatkowych list sprawi, że będziesz się wyróżniał na tle innych użytkowników i może zwiększyć ryzyko ataku powierzchniowego, jeśli w Brave znajduje się luka i złośliwa reguła zostanie dodana do jednej z list, których używasz.
 
 </details>
 
-- [x] Select **Strict** under *Upgrade connections to HTTPS*
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Check **Block fingerprinting**
-- [x] Select **Block third-party cookies**
-- [x] Check **Forget me when I close this site** (2)
-- [ ] Uncheck all social media components
+- [x] Wybierz **Ścisłe** w sekcji *Aktualizacje HTTPS*
+- [x] (Opcjonalnie) Zaznacz **Zablokuj skrypty** (1)
+- [x] Zaznacz **Zablokuj zdejmowanie odcisków palca**
+- [x] Wybierz **Blokuj pliki cookie innych firm**
+- [x] Zaznacz **Zapomnij po zamknięciu tej strony** (2)
+- [ ] Odznacz wszystkie komponenty mediów społecznościowych
 
 </div>
 
-1. This option disables JavaScript, which will break a lot of sites. To fix them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
-2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+1. Ta opcja wyłącza JavaScript, co sprawi, że wiele stron przestanie działać poprawnie. Aby przywrócić ich działanie, możesz dodać wyjątki dla konkretnych stron, klikając ikonę tarczy w pasku adresu i odznaczając tę opcję w sekcji *Zaawansowane sterowanie*.
+2. Jeśli chcesz pozostać zalogowany na wybranej stronie, którą odwiedzasz często, również możesz dodać wyjątek w ten sam sposób — klikając ikonę tarczy i odznaczając ustawienie w sekcji *Zaawansowane sterowanie*.
 
-#### Privacy and security
+#### Prywatność i bezpieczeństwo
 
 <div class="annotate" markdown>
 
-- [x] Select **Don't allow sites to use the V8 optimizer** under *Security* → *Manage V8 security* (1)
-- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
-- [x] Select **Disable non-proxied UDP** under [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [x] Select **Auto-redirect AMP pages**
-- [x] Select **Auto-redirect tracking URLs**
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+* [x] Wybierz **Nie zezwalaj witrynom na korzystanie z optymalizatora V8** w sekcji *Bezpieczeństwo* → *Zarządzaj zabezpieczeniami V8* (1)
+* [x] Wybierz **Automatycznie usuwaj uprawnienia nieużywanych witryn** w *Ustawienia stron i tarcz*
+* [x] Wybierz **Wyłącz UDP bez proxy** w [*Zasady obsługi IP WebRTC IP*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+* [ ] Odznacz **Użyj usług Google do wiadomości typu push**
+* [x] Wybierz **Automatyczne przekierowywanie stron AMP**
+* [x] Wybierz **Automatycznie przekierowuj śledzące adresy URL**
+* [x] Wybierz **Zablokuj zdejmowanie odcisków palców na podstawie moich preferencji językowych**
 
 </div>
 
-1. Disabling the V8 optimizer reduces your attack surface by disabling [*some*](https://grapheneos.social/@GrapheneOS/112708049232710156) parts of JavaScript Just-In-Time (JIT) compilation.
+1. Wyłączenie optymalizatora V8 zmniejsza powierzchnię ataku, wyłączając [*niektóre*](https://grapheneos.social/@GrapheneOS/112708049232710156) elementy kompilacji JavaScript Just-In-Time (JIT).
 
 ##### Tor windows
 
-[**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser is, and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
+[**Prywatne okno z Torem**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) umożliwia kierowanie ruchu przez sieć Tor w oknach prywatnych oraz dostęp do usług .onion, co w niektórych przypadkach może być przydatne. Jednak Brave **nie** zapewnia takiej ochrony przed identyfikacją przeglądarki jak Tor, a znacznie mniej osób korzysta z Brave w trybie Tor — przez co łatwiej się wyróżnisz. Jeśli Twój model zagrożeń wymaga silnej anonimowości, używaj [przeglądarki Tor](tor.md#tor-browser).
 
 ##### Data Collection
 
@@ -347,7 +347,7 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
 
-- [ ] Odznacz **Pokaż sugestie wyszukiwania**
+- [ ] Odznacz **Podpowiedzi wyszukiwania**
 
 #### System
 

@@ -60,17 +60,17 @@ These are our currently recommended **mobile web browsers** and configurations f
 
 <div class="admonition recommendation" markdown>
 
-![Brave logo](assets/img/browsers/brave.svg){ align=right }
+![Logo Brave](assets/img/browsers/brave.svg){ align=right }
 
-**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
+**Przeglądarka Brave** zawiera wbudowany bloker treści oraz [funkcje prywatności](https://brave.com/privacy-features), z których wiele jest domyślnie włączonych.
 
 Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
 
-[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+[:octicons-home-16: Strona główna](https://brave.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Usługa Onion" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -83,7 +83,7 @@ Brave is built upon the Chromium web browser project, so it should feel familiar
 
 </div>
 
-### Recommended Brave Configuration
+### Zalecana konfiguracja przeglądarki Brave
 
 Przeglądarka Tor to jedyny sposób aby na prawdę przeglądać internet anonimowo. Kiedy używasz Braver zalecamy zmianę następujących ustawień aby chronić twoją prywatność przed niektórymi stronami, ale wszystkie przeglądarki inne niż [Przeglądarka Tor](tor.md#tor-browser) będą możliwe do śledzenia przez *kogoś* w takim czy innym zakresie.
 
@@ -97,7 +97,7 @@ Przeglądarka Tor to jedyny sposób aby na prawdę przeglądać internet anonimo
 
 ####
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. Zalecamy skonfigurowanie tych ustawień [globalnie](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) pomiędzy wszystkimi stronami, które odwiedzasz.
+Brave posiada pewne zabezpieczenia przed identyfikacją przeglądarki w ramach funkcji [Tarcze](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Zalecamy skonfigurowanie tych ustawień [globalnie](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) pomiędzy wszystkimi stronami, które odwiedzasz.
 
 Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
 
@@ -148,7 +148,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. Aby je naprawić, możesz ustawić wyjątki dla poszczególnych witryn klikając na ikonę Tarczy na pasku adresu i odznaczając tą opcję w *Zaawansowane sterowanie*.
+    1. Ta opcja wyłącza JavaScript, co sprawi, że wiele stron przestanie działać poprawnie. Aby je naprawić, możesz ustawić wyjątki dla poszczególnych witryn klikając na ikonę Tarczy na pasku adresu i odznaczając tą opcję w *Zaawansowane sterowanie*.
 
 ##### Clear browsing data (Android only)
 
@@ -198,7 +198,7 @@ These options can be found in :material-menu: → **Settings** → **Leo**.
 
 These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
 
-- [ ] Odznacz **Pokaż sugestie wyszukiwania**
+- [ ] Odznacz **Podpowiedzi wyszukiwania**
 
 #### Brave Sync
 
@@ -304,7 +304,7 @@ This prevents Siri from using content from Safari for Siri suggestions.
 
 - [ ] Disable **Search Engine Suggestions**
 
-This setting sends whatever you type in the address bar to the search engine set in Safari. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+This setting sends whatever you type in the address bar to the search engine set in Safari. Wyłączenie podpowiedzi wyszukiwania pozwala bardziej precyzyjnie kontrolować dane wysyłane do dostawcy wyszukiwarki.
 
 #### Profiles
 
