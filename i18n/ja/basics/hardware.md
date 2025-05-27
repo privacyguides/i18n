@@ -61,11 +61,11 @@ Macや特別なLinuxマシンを買わない限り、新しいコンピュータ
 
 Androidでは生体認証の[生体認証クラス](https://source.android.com/docs/security/features/biometric/measure#biometric-classes)が定められており、生体認証を有効にする前に、デバイスがクラス3であることを確認してください。
 
-### Device Encryption
+### デバイスの暗号化
 
-If your device is [encrypted](../encryption.md), your data is most secure when your device is completely powered off (as opposed to merely asleep), i.e. before you've entered your encryption key or lock screen password for the first time. On phones, this state of higher security is referred to as "Before First Unlock" (BFU), and "After First Unlock" (AFU) once you enter the correct password after a reboot/power-on. AFU is considerably less secure against digital forensics toolkits and other exploits, compared to BFU. Therefore, if you are concerned about an attacker with physical access to your device, you should turn it off fully whenever you aren't using it.
+デバイスが[暗号化](../encryption.md)されている場合、最初に暗号化鍵やロックスクリーンのパスワードを入力する前、（単にスリープ状態になっているのではなく）完全に電源がオフになっているときにデータは最も安全な状態です。 携帯電話では、セキュリティが高い状態を「Before First Unlock」（BFU）と呼び、再起動・電源オン後に正しいパスワードを入力した状態を「After First Unlock」（AFU）と呼びます。 AFUはBFUに比べ、デジタルフォレンジックツールやその他の攻撃に対してかなり安全性が低くなります。 そのため、敵対者によるデバイスへの物理的なアクセスを懸念する場合、使っていないときは完全に電源を切る必要があります。
 
-This may be impractical, so consider whether it's worth it, but in either case even AFU mode is effective against most threats, given you are using a strong encryption key.
+現実的ではないかもしれないため、その価値があるか検討してください。いずれにせよ、強力な暗号鍵を使っていれば、AFUでも多くの脅威には有効です。
 
 ## External Hardware
 
