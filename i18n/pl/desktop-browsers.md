@@ -322,30 +322,30 @@ Brave pozwala wybrać dodatkowe filtry treści na wewnętrznej stronie `brave://
 
 1. Wyłączenie optymalizatora V8 zmniejsza powierzchnię ataku, wyłączając [*niektóre*](https://grapheneos.social/@GrapheneOS/112708049232710156) elementy kompilacji JavaScript Just-In-Time (JIT).
 
-##### Tor windows
+##### Okna w Tor
 
 [**Prywatne okno z Torem**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) umożliwia kierowanie ruchu przez sieć Tor w oknach prywatnych oraz dostęp do usług .onion, co w niektórych przypadkach może być przydatne. Jednak Brave **nie** zapewnia takiej ochrony przed identyfikacją przeglądarki jak Tor, a znacznie mniej osób korzysta z Brave w trybie Tor — przez co łatwiej się wyróżnisz. Jeśli Twój model zagrożeń wymaga silnej anonimowości, używaj [przeglądarki Tor](tor.md#tor-browser).
 
-##### Data Collection
+##### Gromadzenie danych
 
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Odznacz **Zezwól na zastosowanie analizy produktów z zachowaniem prywatności (P3A)**
+- [ ] Odznacz **Automatycznie wysyłaj pingi dziennego użycia do Brave**
+- [ ] Odznacz **Automatycznie wysyłaj raporty diagnostyczne**
 
-#### Web3
+#### Sieć Web3
 
-Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of these features, they should be disabled.
+Funkcje Web3 w Brave mogą potencjalnie zwiększać unikalność Twojej przeglądarki oraz powierzchnię ataku. Jeśli nie korzystasz z żadnej z tych funkcji, powinieneś je wyłączyć.
 
-- Select **Extensions (no fallback)** under *Default Ethereum wallet*
-- Select **Extensions (no fallback)** under *Default Solana wallet*
+- Wybierz **Rozszerzenia (bez kopii zapasowej)** w sekcji *Domyślny portfel Ethereum*
+- Wybierz **Rozszerzenia (bez kopii zapasowej)** w sekcji *Domyślny portfel Solana*
 
-#### Extensions
+#### Rozszerzenia
 
-- [ ] Uncheck all built-in extensions you don't use
+- [ ] Odznacz wszystkie wbudowane rozszerzenia, z których nie korzystasz
 
-#### Search engine
+#### Wyszukiwarka
 
-We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
+Zalecamy wyłączenie podpowiedzi wyszukiwania w Brave z tego samego powodu, dla którego zalecamy wyłączenie tej funkcji w [Firefoksie](#search).
 
 - [ ] Odznacz **Podpowiedzi wyszukiwania**
 
@@ -353,35 +353,35 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Continue running apps when Brave is closed** to disable background apps (1)
+- [ ] Odznacz **Kontynuuj działanie aplikacji w tle po zamknięciu Brave**, aby wyłączyć aplikacje działające w tle (1)
 
 </div>
 
-1. This option is not present on all platforms.
+1. Ta opcja nie jest dostępna na wszystkich platformach.
 
-#### Brave Sync
+#### Synchronizacja
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) umożliwia dostęp do danych przeglądania (historii, zakładek itd.) na wszystkich urządzeniach bez potrzeby zakładania konta i chroni je za pomocą E2EE.
 
-#### Brave Rewards and Wallet
+#### Nagrody i Portfel Brave
 
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Nagrody Brave** pozwalają otrzymywać kryptowalutę Basic Attention Token (BAT) za wykonywanie określonych działań w przeglądarce Brave. Wymaga założenia konta powierniczego oraz weryfikacji tożsamości (KYC) u wybranych dostawców usług. Nie polecamy BAT jako [prywatnej kryptowaluty](cryptocurrency.md) ani korzystania z [portfela powierniczego](advanced/payments.md#wallet-custody), odradzamy używanie tej funkcji.
 
-**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
+**Portfel Brave** działa lokalnie na Twoim komputerze, ale nie obsługuje żadnych prywatnych kryptowalut, dlatego również odradzamy korzystanie z tej funkcji.
 
 ## Kryteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Zwróć uwagę, że nie jesteśmy powiązani z żadnym z polecanych przez nas projektów.** Oprócz [naszych standardowych kryteriów](about/criteria.md) opracowaliśmy również jasny zestaw wymagań, który pozwala nam przedstawiać obiektywne rekomendacje. Zalecamy zapoznanie się z tą listą przed wyborem projektu oraz przeprowadzenie własnych badań, by upewnić się, że jest to odpowiedni wybór dla Ciebie.
 
 ### Wymagania minimalne
 
-- Must be open-source software.
-- Must support automatic updates.
-- Must receive engine updates in 0-1 days from upstream release.
-- Must be available on Linux, macOS, and Windows.
-- Any changes required to make the browser more privacy-respecting must not negatively impact user experience.
-- Must block third-party cookies by default.
-- Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- Musi być otwartym oprogramowaniem.
+- Musi obsługiwać automatyczne aktualizacje.
+- Musi otrzymywać aktualizacje silnika w ciągu 0-1 dnia od oficjalnego wydania.
+- Musi być dostępne na Linuksa, macOS i Windows.
+- Wszelkie zmiany mające na celu zwiększenie prywatności nie mogą negatywnie wpływać na doświadczenie użytkownika.
+- Musi domyślnie blokować ciasteczka stron trzecich.
+- Musi obsługiwać [partycjonowanie stanu](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning), aby ograniczać śledzenie między stronami.[^1]
 
 ### Best-Case
 

@@ -169,8 +169,8 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     - [ ] Uncheck **Allow sites to check if you have payment methods saved**
     - [ ] Uncheck **V8 Optimizer** under *Manage V8 security*
     - [x] Select **Close tabs on exit**
-    - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-    - [ ] Uncheck **Automatically send diagnostic reports**
+    - [ ] Odznacz **Zezwól na zastosowanie analizy produktów z zachowaniem prywatności (P3A)**
+    - [ ] Odznacz **Automatycznie wysyłaj raporty diagnostyczne**
     - [] Odznacz **Automatycznie wysyłaj pingi dziennego użycia do Brave**
 
     </div>
@@ -180,7 +180,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 === "iOS"
 
     - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
-    - [ ] Uncheck **Automatically send daily usage ping to Brave**
+    - [ ] Odznacz **Automatycznie wysyłaj pingi dziennego użycia do Brave**
 
 #### Leo
 
@@ -202,7 +202,7 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) umożliwia dostęp do danych przeglądania (historii, zakładek itd.) na wszystkich urządzeniach bez potrzeby zakładania konta i chroni je za pomocą E2EE.
 
 ## Cromite (Android)
 
