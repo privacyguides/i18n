@@ -383,16 +383,16 @@ Zalecamy wyłączenie podpowiedzi wyszukiwania w Brave z tego samego powodu, dla
 - Musi domyślnie blokować ciasteczka stron trzecich.
 - Musi obsługiwać [partycjonowanie stanu](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning), aby ograniczać śledzenie między stronami.[^1]
 
-### Best-Case
+### Najlepszy scenariusz
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Nasze kryteria najlepszego scenariusza określają, czego oczekiwalibyśmy od idealnego projektu w tej kategorii. Nie wszystkie nasze rekomendacje muszą spełniać wszystkie te wymagania, jednak te, które je spełniają, mogą być oceniane wyżej od pozostałych na tej stronie.
 
-- Should include built-in content blocking functionality.
-- Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Should support Progressive Web Apps (PWAs). PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps because PWAs benefit from your browser's regular security updates.
-- Should not include add-on functionality (bloatware) that does not impact user privacy.
-- Should not collect telemetry by default.
-- Should provide an open-source sync server implementation.
-- Should default to a [private search engine](search-engines.md).
+- Powinien mieć wbudowaną funkcję blokowania treści.
+- Powinien obsługiwać izolację ciasteczek (na wzór [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
+- Powinien obsługiwać progresywne aplikacje internetowe (PWA). PWA umożliwiają instalowanie wybranych stron internetowych tak, jakby były natywnymi aplikacjami na komputerze. To rozwiązanie ma przewagę nad instalowaniem aplikacji opartych na Electronie, ponieważ PWA korzystają z regularnych aktualizacji bezpieczeństwa przeglądarki.
+- Nie powinien zawierać dodatkowych funkcji (bloatware), które nie wpływają na prywatność użytkownika.
+- Nie powinien domyślnie zbierać danych telemetrycznych.
+- Powinien udostępniać otwartoźródłową implementację serwera synchronizacji.
+- Domyślnie powinien korzystać z [prywatnej wyszukiwarki](search-engines.md).
 
-[^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).
+[^1]: Implementacja Brave została opisana szczegółowo w [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).
