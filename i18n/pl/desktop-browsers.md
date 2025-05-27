@@ -79,11 +79,11 @@ Jeśli chcesz przeglądać Internet anonimowo, powinieneś użyć [Tor](tor.md).
 [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pliki do pobrania</summary>
 
-- [:fontawesome-brands-windows: Windows](https://mullvad.net/en/download/browser/windows)
-- [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
-- [:simple-linux: Linux](https://mullvad.net/en/download/browser/linux)
+- [:fontawesome-brands-windows: Windows](https://mullvad.net/pl/download/browser/windows)
+- [:simple-apple: macOS](https://mullvad.net/pl/download/browser/macos)
+- [:simple-linux: Linux](https://mullvad.net/pl/download/browser/linux)
 
 </details>
 
@@ -132,7 +132,7 @@ Jeśli jesteś użytkownikiem Mullvad VPN, korzystanie z usług takich jak Mullv
 [:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="Przyczyń się" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pliki do pobrania</summary>
 
 - [:fontawesome-brands-windows: Windows](https://mozilla.org/firefox/windows)
 - [:simple-apple: macOS](https://mozilla.org/firefox/mac)
@@ -167,7 +167,7 @@ Podpowiedzi wyszukiwania przesyłają wszystko, co wpisujesz w pasku adresu, do 
 [Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) to funkcja podobna do podpowiedzi wyszukiwania, która jest dostępna tylko w Stanach Zjednoczonych. Zalecamy wyłączenie tej funkcji z tego samego powodu, dla którego rekomendujemy wyłączenie podpowiedzi wyszukiwania. Jeśli nie widzisz tych opcji pod **paskiem adresu strony**, nie masz tej funkcjonalności i możesz zignorować te zmiany.
 
 - [ ] Odznacz **Sugestie z Firefox**
-- [ ] Usuń zaznaczenie **Sugestie od sponsorów**
+- [ ] Odznacz **Sugestie od sponsorów**
 
 #### Prywatność i bezpieczeństwo
 
@@ -187,9 +187,9 @@ Chroni to użytkownika przed trwałymi ciasteczkami, ale nie chroni przed ciaste
 
 ##### Telemetria
 
-- [ ] Usuń zaznaczenie **Zezwalaj przeglądarce Firefox na wysyłanie danych technicznych i dotyczących interakcji do Mozilla**
-- [ ] Usuń zaznaczenie **Zezwalaj przeglądarce Firefox na instalowanie i uruchamianie badań**
-- [ ] Usuń zaznaczenie **Zezwalaj przeglądarce Firefox na wysyłanie raportów o awariach w Twoim imieniu**
+- [ ] Odznacz **Wysyłanie danych technicznych i o interakcjach do Mozilli**
+- [ ] Odznacz **Instalowanie i przeprowadzanie badań**
+- [ ] Odznacz **Automatyczne wysyłanie zgłoszeń awarii**
 
 Zgodnie z polityką prywatności Firefoksa opracowaną przez Mozillę,
 
@@ -198,7 +198,7 @@ Zgodnie z polityką prywatności Firefoksa opracowaną przez Mozillę,
 Ponadto usługa Mozilla Accounts gromadzi [pewne dane techniczne](https://mozilla.org/privacy/mozilla-accounts). Jeśli korzystasz z konta Firefox, możesz z tego zrezygnować:
 
 1. Otwórz ustawienia profilu [na accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
-2. Usuń zaznaczenie **Gromadzenie i wykorzystywanie danych** > **Pomóż ulepszyć konta Firefox**
+2. Odznacz **Gromadzenie i wykorzystywanie danych** > **Pomóż ulepszyć konta Firefox**
 
 ##### Preferencje dotyczące reklam na witrynach
 
@@ -212,13 +212,13 @@ Wraz z wydaniem Firefoksa 128 dodano nowe ustawienie dotyczące [atrybucji z zac
 
 To zapobiega nieumyślnemu połączeniu się ze stroną przez niezabezpieczony protokół HTTP. Obecnie strony bez HTTPS są rzadkością, więc ta opcja nie powinna mieć żadnego wpływu na codzienne przeglądanie internetu.
 
-##### DNS przez HTTPS
+##### DNS poprzez HTTPS
 
 Jeśli korzystasz z [dostawcy DNS poprzez HTTPS](dns.md):
 
 - [x] Wybierz opcję **Maksymalna ochrona** i wybierz odpowiedniego dostawcę
 
-Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. To uniemożliwia sieci, z którą jesteś połączony, potajemne obniżenie poziomu bezpieczeństwa DNS.
+Maksymalna ochrona wymusza korzystanie z DNS poprzez HTTPS, a jeśli Firefox nie może połączyć się z bezpiecznym resolverem DNS lub jeśli ten poinformuje, że nie istnieją rekordy dla domeny, do której próbujesz uzyskać dostęp, pojawi się ostrzeżenie o bezpieczeństwie. To uniemożliwia sieci, z którą jesteś połączony, potajemne obniżenie poziomu bezpieczeństwa DNS.
 
 #### Synchronizacja
 
@@ -227,7 +227,7 @@ Max Protection enforces the use of DNS over HTTPS, and a security warning will s
 ### Arkenfox (zaawansowany)
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Korzystaj z przeglądarki Mullvad Browser do zaawansowanej ochrony przed odciskami palców</p>
+<p class="admonition-title">Korzystaj z przeglądarki Mullvad do zaawansowanej ochrony przed odciskami palców</p>
 
 [Przeglądarka Mullvad](#mullvad-browser) oferuje takie same zabezpieczenia przed identyfikacją przeglądarki jak Arkenfox już po instalacji i nie wymaga korzystania z VPN Mullvad, aby z nich korzystać. W połączeniu z VPN, przeglądarka Mullvad może zablokować bardziej zaawansowane skrypty śledzące, z którymi Arkenfox sobie nie poradzi. Arkenfox ma jednak tę przewagę, że jest znacznie bardziej elastyczny i pozwala na dodawanie wyjątków dla stron, na których chcesz pozostać zalogowany.
 
