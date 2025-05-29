@@ -5,7 +5,7 @@ icon: 'material/account-plus'
 description: Crear cuentas en línea es prácticamente una necesidad en Internet, sigue estos pasos para asegurarte de mantener tu privacidad.
 ---
 
-A menudo la gente se inscribe en servicios sin pensar. Maybe it's a streaming service to watch that new show everyone's talking about, or an account that gives you a discount for your favorite fast food place. Sea cual sea el caso, debes tener en cuenta las implicaciones que tednrá para tus datos ahora y más adelante.
+A menudo la gente se inscribe en servicios sin pensar. Tal vez sea un servicio de streaming para ver esa nueva serie de la que todo el mundo habla, o una cuenta que te da un descuento para tu sitio favorito de comida rápida. Sea cual sea el caso, debes tener en cuenta las implicaciones que tednrá para tus datos ahora y más adelante.
 
 Hay riesgos asociados con cada nuevo servicio que utilices. Las filtraciones de datos, la revelación de información de clientes a terceros o el acceso a datos por parte de empleados deshonestos son posibilidades que deben tenerse en cuenta a la hora de facilitar tu información. Tienes que estar seguro de que puedes confiar en el servicio, por eso no recomendamos almacenar datos valiosos en nada, excepto en los productos más maduros y que han sido puestos profundamente a prueba. Por lo general, se trata de servicios que ofrecen E2EE y han sido sometidos a una auditoría criptográfica. Una auditoría aumenta las garantías de que el producto se diseñó sin problemas de seguridad notorios causados por un desarrollador inexperto.
 
@@ -13,11 +13,11 @@ También puede ser difícil eliminar las cuentas en algunos servicios. En ocasio
 
 ## Términos del servicio y Política de privacidad
 
-Los ToS (Términos del Servicio) son las normas que usted se compromete a respetar al utilizar el servicio. En los servicios más grandes, estas normas suelen aplicarse mediante sistemas automatizados. A veces, estos sistemas automatizados pueden cometer errores. For example, you may be banned or locked out of your account on some services for using a VPN or VoIP number. Recurrir estos bloqueos suele ser difícil, y además implica un proceso automatizado que no siempre funciona bien. Esta es una de las razones por las que no sugerimos utilizar Gmail para el correo electrónico, por ejemplo. El correo electrónico es crucial para acceder a otros servicios a los que estés inscrito.
+Los ToS (Términos de Servicio) son las normas que te comprometes a seguir cuando utilizas el servicio. En los servicios más grandes, estas normas suelen aplicarse mediante sistemas automatizados. A veces, estos sistemas automatizados pueden cometer errores. Por ejemplo, es posible que te veten o te cierren la cuenta en algunos servicios por utilizar una VPN o un número VoIP. Recurrir estos bloqueos suele ser difícil, y además implica un proceso automatizado que no siempre funciona bien. Esta es una de las razones por las que no sugerimos utilizar Gmail para el correo electrónico, por ejemplo. El correo electrónico es crucial para acceder a otros servicios a los que estés inscrito.
 
-The Privacy Policy is how the service says they will use your data, and it is worth reading so that you understand how your data will be used. Una empresa u organización puede no estar legalmente obligada a seguir todo lo que contiene la política (depende de la jurisdicción). Te recomendamos que tengas una idea de cuál es tu legislación local y qué le permite recopilar a un proveedor.
+La Política de Privacidad es la forma en que el servicio dice que utilizará tus datos y vale la pena leerla para que entiendas cómo se utilizarán tus datos. Una empresa u organización puede no estar legalmente obligada a seguir todo lo que contiene la política (depende de la jurisdicción). Te recomendamos que tengas una idea de cuál es tu legislación local y qué le permite recopilar a un proveedor.
 
-Te recomendamos que busques términos concretos como "recopilación de datos", "análisis de datos", "cookies", "anuncios" o servicios de "terceros". Sometimes you will be able to opt out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
+Te recomendamos que busques términos concretos como «recopilación de datos», «análisis de datos», «cookies», «anuncios» o servicios de «terceros». A veces podrás optar por no participar en la recopilación de datos o no compartirlos, pero lo mejor es elegir un servicio que respete tu privacidad desde el principio.
 
 Ten en cuenta que también estás depositando tu confianza en la empresa u organización y en que cumplirán su propia política de privacidad.
 
@@ -36,15 +36,15 @@ La manera más común de crear una nueva cuenta es utilizando una dirección de 
 
 </div>
 
-Usted es responsable de gestionar sus credenciales de ingreso. Para mayor seguridad, se puede configurar la [autenticación multifactor](multi-factor-authentication.md) en las cuentas.
+Tú serás responsable de gestionar tus credenciales de acceso. Para mayor seguridad, se puede configurar la [autenticación multifactor](multi-factor-authentication.md) en las cuentas.
 
 [Gestores de contraseñas recomendados](../passwords.md ""){.md-button}
 
 #### Alias de correo electrónico
 
-Si no se quiere utilizar una dirección real de correo electrónico en un servicio, se cuenta con la opción de utilizar un alias. We describe them in more detail on our email services recommendation page. Básicamente, los servicios de alias permiten generar nuevas direcciones de correo que reenvían todos los correos a la dirección principal. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. Estos pueden ser filtrados automáticamente basándose en el alias al que son enviados.
+Si no se quiere utilizar una dirección real de correo electrónico en un servicio, se cuenta con la opción de utilizar un alias. Los describimos con más detalle en nuestra página de recomendaciones de servicios de correo electrónico. Básicamente, los servicios de alias permiten generar nuevas direcciones de correo que reenvían todos los correos a la dirección principal. Esto puede ayudar a prevenir el rastreo a través de múltiples servicios y ayudar a gestionar los correos de mercadeo que algunas veces vienen con el proceso de registro. Estos pueden ser filtrados automáticamente basándose en el alias al que son enviados.
 
-Si un servicio es hackeado, puede que usted comience a recibir correos engañosos o basura en la dirección que utilizó para registrarse. Al utilizar un único alias para cada servicio, se puede identificar cual servicio fue hackeado.
+Si un servicio es hackeado, podrías empezar a recibir correos electrónicos de phishing o spam en la dirección que utilizaste para registrarte. Al utilizar un único alias para cada servicio, se puede identificar cuál servicio fue hackeado.
 
 [Servicios recomendados de alias de correo electrónico](../email-aliasing.md ""){.md-button}
 
