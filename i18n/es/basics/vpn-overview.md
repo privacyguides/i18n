@@ -7,9 +7,9 @@ description: Las Redes Privadas Virtuales desplazan el riesgo de tu ISP a un ter
 
 Las Redes Privadas Virtuales son una forma de ampliar el extremo de tu red para que salga por otro lugar en el mundo.
 
-[:material-movie-open-play-outline: Video: Do you need a VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
+[:material-movie-open-play-outline: Vídeo: ¿Necesitas una VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
 
-Normalmente, un ISP puede ver el flujo de tráfico de Internet que entra y sale de Tu dispositivo de terminación de red (es decir, el módem). Los protocolos de cifrado como HTTPS se utilizan habitualmente en Internet, por lo que es posible que no puedan ver exactamente lo que publicas o lees, pero pueden hacerse una idea de los [dominios que solicitas](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+Normalmente, un ISP puede ver el flujo de tráfico de Internet que entra y sale de tu dispositivo de terminación de red (es decir, el módem). Los protocolos de cifrado como HTTPS se utilizan habitualmente en Internet, por lo que es posible que no puedan ver exactamente lo que publicas o lees, pero pueden hacerse una idea de los [dominios que solicitas](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
 El uso de una VPN oculta incluso esta información a tu ISP, al trasladar la confianza que depositas en tu red a un servidor situado en otro lugar del mundo. Como resultado, el ISP solo ve que estás conectado a una VPN y nada sobre la actividad que estás pasando a través de ella.
 
@@ -34,7 +34,7 @@ flowchart LR
 
 Ten en cuenta que una VPN no añade ningún tipo de seguridad o cifrado a tu tráfico entre el servidor VPN y tu destino en Internet. Para acceder a un sitio web de forma segura **debes** asegurarte de que HTTPS está en uso, independientemente de si utilizas una VPN.
 
-## ¿Yo debería usar una VPN?
+## ¿Debería usar una VPN?
 
 **Sí**, casi seguro. Una VPN tiene muchas ventajas, entre ellas:
 
@@ -51,7 +51,7 @@ Las VPN no pueden cifrar datos fuera de la conexión entre tu dispositivo y el s
 
 Usar una VPN en casos en los que estás usando tu [identidad real o conocida](common-misconceptions.md#complicated-is-better) en línea es poco probable que sea útil. Si lo haces, puedes activar sistemas de detección de spam y fraude, por ejemplo si te conectas al sitio web de tu banco.
 
-It's important to remember that a VPN will not provide you with absolute anonymity because the VPN provider itself will still have access to your real IP address, destination website information, and often a money trail that can be linked directly back to you. "No logging" policies are merely a promise; if you need complete safety from the network itself, consider using [Tor](../advanced/tor-overview.md) in addition to or instead of a VPN.
+Es importante recordar que una VPN no te proporcionará un anonimato absoluto porque el propio proveedor de VPN seguirá teniendo acceso a tu dirección IP real, a la información del sitio web de destino y, a menudo, a un rastro de dinero que puede vincularse directamente contigo. Las políticas de "no registro" no son más que una promesa; si necesitas seguridad completa de la propia red, considera usar [Tor](../advanced/tor-overview.md) además o en lugar de una VPN.
 
 Tampoco deberías confiar en una VPN para asegurar tu conexión a un destino HTTP sin cifrar. Para mantener la privacidad y seguridad de lo que haces en los sitios web que visitas, debes utilizar HTTPS. Esto mantendrá tus contraseñas, tokens de sesión y consultas a salvo del proveedor de VPN y otros posibles adversarios entre el servidor VPN y tu destino. Deberías activar el modo sólo HTTPS en tu navegador (si es compatible) para mitigar los ataques que intentan degradar tu conexión de HTTPS a HTTP.
 
@@ -93,7 +93,7 @@ Los repetidores multiparte (MPR) utilizan varios nodos propiedad de distintas pa
 
 Los MPR tratan de resolver un problema inherente a las VPN: el hecho de que hay que confiar plenamente en ellas. Logran este objetivo segmentando las responsabilidades entre dos o más empresas diferentes.
 
-One example of a commercially available MPR is Apple's iCloud+ Private Relay, which routes your traffic through two servers:
+Un ejemplo de MPR comercial es el Relay Privado de iCloud+ de Apple, que dirige el tráfico a través de dos servidores:
 
 1. En primer lugar, un servidor operado por Apple.
 
@@ -103,15 +103,15 @@ One example of a commercially available MPR is Apple's iCloud+ Private Relay, wh
 
     Este servidor realiza la conexión con el sitio web de destino, pero no tiene conocimiento de tu dispositivo. La única dirección IP que conoce es la del servidor de Apple.
 
-Other MPRs run by different companies operate in a very similar manner. This protection by segmentation only exists if you trust the two companies to not collude with each other to deanonymize you.
+Otros MPR gestionados por diferentes empresas operan de forma muy similar. Esta protección por segmentación solo existe si confías en que las dos empresas no confabularán entre sí para desanonimizarte.
 
 ### VPN Descentralizadas
 
-Another attempt at solving the issues with centralized VPN services are dVPNs. These are based on blockchain technology and claim to eliminate trust in a single party by distributing the nodes across lots of different people. However, many times a dVPN will default to a single node, meaning you need to trust that node completely, just like a traditional VPN. Unlike a traditional VPN, this one node that can see all your traffic is a random person instead of your VPN provider that can be audited and has legal responsibilities to uphold their privacy policy. Multi-hop is needed to solve this, but that comes with a stability and performance cost.
+Otro intento de resolver los problemas de los servicios VPN centralizados son las dVPN. Se basan en la tecnología blockchain y afirman eliminar la confianza en una sola parte distribuyendo los nodos entre muchas personas diferentes. Sin embargo, en muchas ocasiones una dVPN utilizará por defecto un único nodo, lo que significa que tendrás que confiar plenamente en ese nodo, al igual que en una VPN tradicional. A diferencia de una VPN tradicional, este único nodo que puede ver todo tu tráfico es una persona cualquiera en lugar de tu proveedor de VPN, que puede ser auditada y tiene responsabilidades legales para mantener su política de privacidad. Para solucionarlo se necesitan multisaltos, pero eso conlleva un coste de estabilidad y rendimiento.
 
-Another consideration is legal liability. The exit node will need to deal with legal problems from misuse of the network, an issue that the Tor network has contended with for its entire existence. This discourages regular people from running nodes and makes it more attractive for a malicious actor with lots of resources to host one. This is a big problem if the service is single-node, as the potentially malicious exit node can see who you are and what you're connecting to.
+Otra consideración es la responsabilidad legal. El nodo de salida tendrá que lidiar con problemas legales derivados del mal uso de la red, un problema con el que la red Tor ha lidiado durante toda su existencia. Esto disuade a la gente normal de ejecutar nodos y hace que sea más atractivo para un actor malicioso con muchos recursos alojar uno. Esto es un gran problema si el servicio es de un solo nodo, ya que el nodo de salida potencialmente malicioso puede ver quién eres y a qué te estás conectando.
 
-Many dVPNs are used to push a cryptocurrency rather than to make the best service. They also tend to be smaller networks with fewer nodes, making them more vulnerable to [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack).
+Muchas dVPN se utilizan para impulsar una criptomoneda en lugar de hacer el mejor servicio. También suelen ser redes más pequeñas con menos nodos, lo que las hace más vulnerables a los [ataques de Sybil](https://en.wikipedia.org/wiki/Sybil_attack).
 
 ## Información Relacionada con las VPNs
 
