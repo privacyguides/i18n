@@ -4,17 +4,17 @@ icon: material/form-textbox-password
 description: Estos son algunos consejos y trucos para crear contraseñas más seguras y mantener a salvo tus cuentas.
 ---
 
-Las contraseñas son una parte esencial de nuestra vida digital cotidiana. We use them to protect our accounts, our devices, and our secrets. A pesar de ser a menudo lo único que nos separa de un adversario que busca nuestra información privada, no se piensa mucho en ellas, lo que a menudo lleva a la gente a utilizar contraseñas que pueden ser fácilmente adivinadas o forzadas.
+Las contraseñas son una parte esencial de nuestra vida digital cotidiana. Las utilizamos para proteger nuestras cuentas, nuestros dispositivos y nuestros secretos. A pesar de ser a menudo lo único que nos separa de un adversario que busca nuestra información privada, no se piensa mucho en ellas, lo que a menudo lleva a la gente a utilizar contraseñas que pueden ser fácilmente adivinadas o forzadas.
 
 ## Buenas prácticas
 
-### Utilice contraseñas únicas para cada servicio
+### Utiliza contraseñas únicas para cada servicio
 
-Imagine this: You sign up for an account with the same e-mail and password on multiple online services. Si alguno de esos proveedores de servicios es malicioso, o su servicio tiene una filtración de datos que expone tu contraseña en un formato sin encriptar, todo lo que los malos actores deben hacer es probar esa combinación de correo electrónico y contraseña, a través de múltiples servicios populares hasta obtener un resultado. No importa lo fuerte que sea esa contraseña, porque ya la tienen.
+Imagina esto: te registras para obtener una cuenta con el mismo correo electrónico y contraseña en varios servicios en línea. Si alguno de esos proveedores de servicios es malicioso, o su servicio tiene una filtración de datos que expone tu contraseña en un formato sin encriptar, todo lo que los malos actores deben hacer es probar esa combinación de correo electrónico y contraseña, a través de múltiples servicios populares hasta obtener un resultado. No importa lo fuerte que sea esa contraseña, porque ya la tienen.
 
-Esto es llamado [suplantación de identidad](https://en.wikipedia.org/wiki/Credential_stuffing), y es una de las formas comunes en que las cuentas son comprometidas por malos actores. Para evitar esto, asegúrate de que nunca reutilices tus contraseñas.
+Esto es llamado [relleno de credenciales](https://en.wikipedia.org/wiki/Credential_stuffing), y es una de las formas comunes en que las cuentas son comprometidas por malos actores. Para evitar esto, asegúrate de que nunca reutilices tus contraseñas.
 
-### Utilizar contraseñas generadas aleatoriamente
+### Utiliza contraseñas generadas aleatoriamente
 
 ==**Nunca** debes confiar en ti mismo para inventar una buena contraseña.== Recomendamos utilizar [contraseñas generadas aleatoriamente](#passwords) o [frases de contraseña](#diceware-passphrases) con suficiente entropía para proteger tus cuentas y dispositivos.
 
@@ -24,12 +24,12 @@ Todos nuestros [gestores recomendados de contraseñas](../passwords.md) incluyen
 
 Debes evitar cambiar frecuentemente las contraseñas que debes recordar (como la contraseña maestra de tu gestor de contraseñas), a menos que tengas alguna razón para creer que ha sido comprometida, porque cambiarla con mucha frecuencia te expone al riesgo de olvidarla.
 
-When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multifactor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. La mayoría de los gestores de contraseñas permiten fijar una fecha de caducidad para facilitar su gestión.
+Cuando se trata de contraseñas que no tienes que recordar (como las contraseñas almacenadas en tu gestor de contraseñas), si tu [modelo de amenazas](threat-modeling.md) lo requiere, recomendamos revisar las cuentas importantes (especialmente las cuentas que no utilizan autenticación multifactor) y cambiar sus contraseñas cada dos meses, en caso de que se hayan visto comprometidas en una filtración de datos que aún no se haya hecho pública. La mayoría de los gestores de contraseñas permiten fijar una fecha de caducidad para facilitar su gestión.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Comprobación de las violaciones de datos</p>
 
-Si su gestor de contraseñas te permite comprobar si hay contraseñas comprometidas, asegúrate de hacerlo y cambia inmediatamente cualquier contraseña que pueda haber quedado expuesta en una filtración de datos. Alternativamente, podrías seguir el [feed de Últimos Alcances de Pwned](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) con la ayuda de un [agregador de noticias](../news-aggregators.md).
+Si tu gestor de contraseñas te permite comprobar si hay contraseñas comprometidas, asegúrate de hacerlo y cambia inmediatamente cualquier contraseña que pueda haber quedado expuesta en una filtración de datos. Alternativamente, podrías seguir la [fuente web las Últimas Filtraciones de Have I Been Pwned](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) con la ayuda de un [agregador de noticias](../news-aggregators.md).
 
 </div>
 
@@ -47,22 +47,22 @@ Diceware es un método para crear contraseñas fáciles de recordar, pero difíc
 
 Las frases de contraseña Diceware son una gran opción cuando necesitas memorizar o introducir manualmente tus credenciales, como para la contraseña maestra de tu gestor de contraseñas o la contraseña de cifrado de tu dispositivo.
 
-Un ejemplo de una frase de contraseña de diceware es `lápiz blando diecisiete resistente a la solidez visible`.
+Un ejemplo de una frase de contraseña de diceware es `viewable fastness reluctant squishy seventeen shown pencil`.
 
 Para generar una frase de contraseña diceware utilizando dados reales, sigue estos pasos:
 
 <div class="admonition Note" markdown>
 <p class="admonition-title">Nota</p>
 
-These instructions assume that you are using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other word lists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
+Estas instrucciones asumen que estás usando [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) para generar la frase de contraseña, que requiere cinco tiradas de dados por palabra. Otras listas de palabras pueden requerir más o menos tiradas por palabra, y pueden necesitar una cantidad diferente de palabras para lograr la misma entropía.
 
 </div>
 
 1. Tira un dado de seis caras cinco veces y anota el número después de cada tirada.
 
-2. Por ejemplo, digamos que sacas `2-5-2-6-6`. Look through the [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) for the word that corresponds to `25266`.
+2. Por ejemplo, digamos que sacas `2-5-2-6-6`. Busca en la [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) la palabra que corresponde a `25266`.
 
-3. Encontrarás la palabra `encriptar`. Escribe esa palabra.
+3. Encontrarás la palabra `encrypt`. Escribe esa palabra.
 
 4. Repite este proceso hasta que tu frase de contraseña tenga tantas palabras como necesites, que deberás separar con un espacio.
 
@@ -73,27 +73,27 @@ These instructions assume that you are using [EFF's large word list](https://eff
 
 </div>
 
-If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords. We recommend setting the generated passphrase length to at least 6 words.
+Si no tienes acceso a dados reales o prefieres no utilizarlos, puedes utilizar el generador de contraseñas integrado en tu gestor de contraseñas, ya que la mayoría de ellos tienen la opción de generar frases de contraseña diceware además de contraseñas normales. Recomendamos establecer la longitud de la frase de contraseña generada en, al menos, 6 palabras.
 
-We also recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. There are also [word lists in different languages](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), if you do not want your passphrase to be in English.
+También recomendamos utilizar [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) para generar tus frases de contraseña diceware, ya que ofrece exactamente la misma seguridad que la lista original, aunque contiene palabras más fáciles de memorizar. También hay [listas de palabras en diferentes idiomas](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline), si no quieres que tu frase de contraseña esté en inglés.
 
 <details class="note" markdown>
 <summary>Explicación de la entropía y la fuerza de las frases de contraseña diceware</summary>
 
-To demonstrate how strong diceware passphrases are, we'll use the aforementioned seven word passphrase (`viewable fastness reluctant squishy seventeen shown pencil`) and [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) as an example.
+Para demostrar lo fuertes que son las frases de contraseña de diceware, utilizaremos la frase de contraseña de siete palabras antes mencionada`(viewable fastness reluctant squishy seventeen shown pencil`) y [la gran lista de palabras de EFF](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) como ejemplo.
 
 Una métrica para determinar la fuerza de una frase de contraseña diceware es cuánta entropía tiene. La entropía por palabra en una frase de contraseña diceware se calcula como <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mtext>PalabrasEnLista</mtext> <mo form="postfix" stretchy="false">)</mo> </mrow> </math> y la entropía global de la frase de contraseña se calcula como: <math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mtext>PalabrasEnLista</mtext> <mtext>PalabrasEnFrase</mtext> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>
 
 Por tanto, cada palabra de la lista mencionada genera ~12,9 bits de entropía (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <mn>7776</mn> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>), y una frase de contraseña de siete palabras derivada de ella tiene ~90,47 bits de entropía (<math> <mrow> <msub> <mtext>log</mtext> <mn>2</mn> </msub> <mo form="prefix" stretchy="false">(</mo> <msup> <mn>7776</mn> <mn>7</mn> </msup> <mo form="postfix" stretchy="false">)</mo> </mrow> </math>).
 
-The [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contains 7776 unique words. Para calcular la cantidad de posibles frases de contraseña, todo lo que tenemos que hacer es <math> <msup> <mtext>PalabrasEnLista</mtext> <mtext>PalabrasEnFrase</mtext> </msup> </math>o en nuestro caso, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
+La [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) contiene 7776 palabras únicas. Para calcular la cantidad de posibles frases de contraseña, todo lo que tenemos que hacer es <math> <msup> <mtext>PalabrasEnLista</mtext> <mtext>PalabrasEnFrase</mtext> </msup> </math>o en nuestro caso, <math><msup><mn>7776</mn><mn>7</mn></msup></math>.
 
-Let's put all of this in perspective: A seven word passphrase using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) is one of ~1,719,070,799,748,422,500,000,000,000 possible passphrases.
+Pongamos todo esto en perspectiva: una frase de siete palabras utilizando la [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) es una de las ~1.719.070.799.748.422.500.000.000.000 frases posibles.
 
 Por término medio, se necesita probar el 50% de todas las combinaciones posibles para adivinar su frase. Teniendo esto en cuenta, incluso si tu adversario es capaz de realizar ~1.000.000.000.000 de intentos por segundo, aún tardaría ~27.255.689 años en adivinar tu frase de contraseña. Esto es así incluso si las siguientes cosas son ciertas:
 
 - Tu adversario sabe que has utilizado el método diceware.
-- Your adversary knows the specific word list that you used.
+- Tu adversario conoce la lista específica de palabras que utilizaste.
 - Tu adversario sabe cuántas palabras contiene tu frase de contraseña.
 
 </details>
@@ -113,7 +113,7 @@ Hay muchas buenas opciones para elegir, tanto basadas en la nube como locales. E
 <div class="admonition warning" markdown>
 <p class="admonition-title">No coloques tus contraseñas y tokens TOTP en el mismo gestor de contraseñas</p>
 
-When using [TOTP codes as multifactor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
+Cuando utilices [códigos TOTP como autenticación multifactor](multi-factor-authentication.md#time-based-one-time-password-totp), la mejor práctica de seguridad es mantener tus códigos TOTP en una [aplicación separada](../multi-factor-authentication.md).
 
 Almacenar tus tokens TOTP en el mismo lugar que tus contraseñas, aunque cómodo, reduce las cuentas a un único factor en caso de que un adversario acceda a tu gestor de contraseñas.
 

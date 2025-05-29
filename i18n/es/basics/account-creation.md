@@ -50,19 +50,19 @@ Si un servicio es hackeado, podrías empezar a recibir correos electrónicos de 
 
 ### "Iniciar sesión con..." (OAuth)
 
-[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth) is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Cuando veas algo parecido a "Iniciar sesión con *nombre del proveedor*" en un formulario de registro, normalmente está utilizando OAuth.
+[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth) es un protocolo de autenticación que te permite registrarte en un servicio sin compartir mucha información con el proveedor del servicio, o incluso nada de información, utilizando en su lugar una cuenta existente que tengas con otro servicio. Cuando veas algo parecido a "Iniciar sesión con *nombre del proveedor*" en un formulario de registro, normalmente está utilizando OAuth.
 
 Cuando inicies sesión con OAuth, se abrirá una página de inicio de sesión con el proveedor que elijas, y tu cuenta existente y la nueva estarán conectadas. Tu contraseña no se compartirá, pero sí algunos datos básicos (puedes revisarlos durante la solicitud de acceso). Este proceso es necesario cada vez que quieres iniciar sesión en la misma cuenta.
 
 Las principales ventajas son:
 
-- **Security**: You don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials because they are stored with the external OAuth provider. Common OAuth providers like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
-- **Ease-of-use**: Multiple accounts are managed by a single login.
+- **Seguridad**: no tienes que confiar en las prácticas de seguridad del servicio al que te conectas cuando se trata de almacenar tus credenciales de inicio de sesión, ya que se almacenan con el proveedor externo de OAuth. Los proveedores habituales de OAuth, como Apple y Google, suelen seguir las mejores prácticas de seguridad, auditan continuamente sus sistemas de autenticación y no almacenan credenciales de forma inapropiada (como en texto plano).
+- **Facilidad de uso**: varias cuentas se gestionan con un solo inicio de sesión.
 
 Pero hay desventajas:
 
-- **Privacy**: The OAuth provider you log in with will know the services you use.
-- **Centralization**: If the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
+- **Privacidad**: el proveedor de OAuth con el que inicies sesión conocerá los servicios que utilizas.
+- **Centralización**: si la cuenta que utilizas para OAuth se ve comprometida, o no eres capaz de iniciar sesión en ella, todas las demás cuentas conectadas a ella se verán afectadas.
 
 OAuth puede ser especialmente útil en aquellas situaciones en las que podrías beneficiarte de una integración más profunda entre servicios. Nuestra recomendación es limitar el uso de OAuth solamente donde lo necesites, y proteger siempre la cuenta principal con [MFA](multi-factor-authentication.md).
 
@@ -76,10 +76,10 @@ Las aplicaciones maliciosas, especialmente en dispositivos móviles en los que l
 
 Recomendamos evitar los servicios que exigen un número de teléfono para darse de alta. Un número de teléfono puede identificarte a través de múltiples servicios y, dependiendo de los acuerdos de intercambio de datos, esto hará que tu uso sea más fácil de rastrear, especialmente si uno de esos servicios es violado, ya que el número de teléfono a menudo **no** está cifrado.
 
-Si puedes, evita dar tu número de teléfono real. Some services will allow the use of VoIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
+Si puedes, evita dar tu número de teléfono real. Algunos servicios permiten el uso de números VoIP, pero a menudo activan los sistemas de detección de fraude y provocan el bloqueo de la cuenta, por lo que no lo recomendamos para cuentas importantes.
 
 En muchos casos, tendrás que facilitar un número desde el que puedas recibir SMS o llamadas, sobre todo cuando hagas compras internacionales, por si hay algún problema con tu pedido en el control fronterizo. Es habitual que los servicios utilicen tu número como método de verificación; ¡no dejes que te bloqueen una cuenta importante por haber querido pasarte de listo y dar un número falso!
 
 ### Nombre de usuario y contraseña
 
-Algunos servicios permiten registrarse sin utilizar una dirección de correo electrónico y sólo exigen que establezcas un nombre de usuario y una contraseña. Estos servicios pueden proporcionar un mayor anonimato cuando se combinan con una VPN o Tor. Ten en cuenta que para estas cuentas lo más probable es que no haya **ninguna forma de recuperar tu cuenta** en caso de que olvides tu nombre de usuario o contraseña.
+Algunos servicios te permiten registrarte sin utilizar una dirección de correo electrónico y solo te exigen que establezcas un nombre de usuario y una contraseña. Estos servicios pueden proporcionar un mayor anonimato cuando se combinan con una VPN o Tor. Ten en cuenta que para estas cuentas lo más probable es que no haya **ninguna forma de recuperar tu cuenta** en caso de que olvides tu nombre de usuario o contraseña.

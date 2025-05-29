@@ -55,7 +55,7 @@ La mayoría de las implementaciones de autenticación facial requieren que esté
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-Algunos dispositivos no disponen del hardware adecuado para la autenticación facial segura. There are two main types of face authentication: 2D and 3D. La autenticación facial 3D utiliza un proyector de puntos que permite al dispositivo crear un mapa de profundidad 3D de tu cara. Asegúrate de que tu dispositivo dispone de esta capacidad.
+Algunos dispositivos no disponen del hardware adecuado para la autenticación facial segura. Hay dos tipos principales de autenticación facial: 2D y 3D. La autenticación facial 3D utiliza un proyector de puntos que permite al dispositivo crear un mapa de profundidad 3D de tu cara. Asegúrate de que tu dispositivo dispone de esta capacidad.
 
 </div>
 
@@ -102,9 +102,9 @@ Un dispositivo de hombre muerto impide que una máquina funcione sin la presenci
 
 Algunos portátiles son capaces de [detectar](https://support.microsoft.com/en-us/windows/managing-presence-sensing-settings-in-windows-11-82285c93-440c-4e15-9081-c9e38c1290bb) cuándo estás presente y pueden bloquearse automáticamente cuando no estás sentado frente a la pantalla. Deberías comprobar la configuración de tu sistema operativo para ver si tu ordenador admite esta función.
 
-You can also get cables, like [BusKill](https://buskill.in), that will lock or wipe your computer when the cable is disconnected.
+También puedes conseguir cables, como [BusKill](https://buskill.in), que bloquearán o borrarán tu ordenador cuando se desconecte el cable.
 
-### Anti-Interdicción/Ataque Evil Maid
+### Anti-Interdicción/Ataque de Doncella Malvada
 
 La mejor manera de prevenir un ataque dirigido contra ti antes de que un dispositivo esté en tu posesión es comprarlo en una tienda física, en lugar de encargarlo a domicilio.
 
