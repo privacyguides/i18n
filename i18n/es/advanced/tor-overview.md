@@ -8,9 +8,9 @@ description: Tor es una red descentralizada y gratuita diseñada para utilizar I
 
 [**Tor**](../alternative-networks.md#tor) es una red gratuita y descentralizada diseñada para usar el Internet con la mayor privacidad posible. Si se utiliza correctamente, la red permite la navegación y las comunicaciones privadas y anónimas. Debido a que el tráfico de Tor es difícil de bloquear y rastrear, Tor es una herramienta eficaz para eludir la censura.
 
-[:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
+[:material-movie-open-play-outline: Por qué necesitas Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
 
-Tor works by routing your internet traffic through volunteer-operated servers instead of making a direct connection to the site you're trying to visit. Esto ofusca de dónde viene el tráfico, y ningún servidor en la ruta de conexión es capaz de ver la ruta completa de dónde viene y a dónde va el tráfico, lo que significa que incluso los servidores a los que te estás conectando no pueden romper tu anonimato.
+Tor funciona enrutando tu tráfico de Internet a través de servidores operados por voluntarios en lugar de establecer una conexión directa con el sitio que intentas visitar. Esto ofusca de dónde viene el tráfico, y ningún servidor en la ruta de conexión es capaz de ver la ruta completa de dónde viene y a dónde va el tráfico, lo que significa que incluso los servidores a los que te estás conectando no pueden romper tu anonimato.
 
 [:octicons-home-16:](https://torproject.org){ .card-link title=Página Principal }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Servicio Onion" }

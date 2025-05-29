@@ -6,7 +6,7 @@ description: Una visión general de varias arquitecturas de red comúnmente util
 
 Existen varias arquitecturas de red utilizadas habitualmente para transmitir mensajes entre personas. Estas redes pueden ofrecer diferentes garantías de privacidad, por lo que conviene tener en cuenta tu [modelo de amenaza](../basics/threat-modeling.md) a la hora de decidir qué aplicación utilizar.
 
-[Recommended Instant Messengers](../real-time-communication.md ""){.md-button} [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
+[Servicios de Mensajería Instantánea Recomendados](../real-time-communication.md ""){.md-button} [:material-movie-open-play-outline: Vídeo: Es hora de dejar de usar los SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
 
 ## Redes centralizadas
 
@@ -44,7 +44,7 @@ Cuando autoalojados, miembros de un servidor federado pueden descubrir y comunic
 - Permite un mayor control sobre tus propios datos cuando administras tu propio servidor.
 - Te permite elegir en quién confiar tus datos eligiendo entre varios servidores "públicos".
 - A menudo permite los clientes de terceros que pueden ofrecer una experiencia más nativa, personalizada o accesible.
-- Server software can be verified that it matches public source code, assuming you have access to the server, or you trust the person who does (e.g., a family member).
+- Se puede verificar que el software del servidor coincide con el código fuente público, suponiendo que se tiene acceso al servidor o que se confía en la persona que lo tiene (por ejemplo, un familiar).
 
 **Desventajas:**
 
@@ -60,7 +60,7 @@ Cuando autoalojados, miembros de un servidor federado pueden descubrir y comunic
 
 Los servicios de mensajería P2P se conectan a una [red distribuida](https://es.wikipedia.org/wiki/Red_distribuida) de nodos para transmitir un mensaje al destinatario sin necesidad de un servidor externo.
 
-Los clientes (pares) usualmente se encuentran entre sí mediante el uso de una red de [computación distribuida](https://en.wikipedia.org/wiki/Distributed_computing). Ejemplos de esto incluyen la [Tabla de hash distribuida](https://es.wikipedia.org/wiki/Tabla_de_hash_distribuida) (DHT), usada por [torrents](https://es.wikipedia.org/wiki/BitTorrent) y [IPFS](https://es.wikipedia.org/wiki/Sistema_de_archivos_interplanetario) por ejemplo. Another approach is proximity based networks, where a connection is established over Wi-Fi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
+Los clientes (pares) usualmente se encuentran entre sí mediante el uso de una red de [computación distribuida](https://en.wikipedia.org/wiki/Distributed_computing). Ejemplos de esto incluyen la [Tabla de hash distribuida](https://es.wikipedia.org/wiki/Tabla_de_hash_distribuida) (DHT), usada por [torrents](https://es.wikipedia.org/wiki/BitTorrent) y [IPFS](https://es.wikipedia.org/wiki/Sistema_de_archivos_interplanetario) por ejemplo. Otro enfoque son las redes basadas en la proximidad, en las que se establece una conexión a través de Wi-Fi o Bluetooth (por ejemplo, Briar o el protocolo de red social [Scuttlebutt](https://scuttlebutt.nz)).
 
 Una vez que un par ha encontrado una ruta a su contacto a través de cualquiera de estos métodos, se establece una conexión directa entre ellos. Aunque los mensajes suelen estar encriptados, un observador puede deducir la ubicación y la identidad del remitente y del destinatario.
 
@@ -85,9 +85,9 @@ Las redes P2P no utilizan servidores, ya que los pares se comunican directamente
 
 Un servicio de mensajería que utilice [enrutamiento anónimo](https://doi.org/10.1007/978-1-4419-5906-5_628) oculta la identidad del emisor, del receptor o la evidencia de que se han comunicado. Idealmente, un servicio de mensajería debería ocultar los tres.
 
-There are [many](https://doi.org/10.1145/3182658) ways to implement anonymous routing. Una de las más famosas es el [enrutamiento cebolla](https://es.wikipedia.org/wiki/Encaminamiento_cebolla) (es decir, [Tor](tor-overview.md)), que comunica mensajes cifrados a través de una red [superpuesta virtual](https://es.wikipedia.org/wiki/Red_superpuesta) que oculta la ubicación de cada nodo, así como el destinatario y el remitente de cada mensaje. El remitente y el destinatario nunca interactúan directamente y solo se reúnen a través de un nodo de encuentro secreto para que no haya filtración de direcciones IP ni de la ubicación física. Los nodos no pueden descifrar los mensajes, ni el destino final; solo el destinatario puede hacerlo. Cada nodo intermediario solo puede desencriptar una parte que indica a dónde enviar el mensaje aún encriptado a continuación, hasta que llega al destinatario que puede desencriptarlo completamente, de ahí las "capas de cebolla."
+Hay [muchas](https://doi.org/10.1145/3182658) formas de implementar el enrutamiento anónimo. Una de las más famosas es el [enrutamiento cebolla](https://es.wikipedia.org/wiki/Encaminamiento_cebolla) (es decir, [Tor](tor-overview.md)), que comunica mensajes cifrados a través de una red [superpuesta virtual](https://es.wikipedia.org/wiki/Red_superpuesta) que oculta la ubicación de cada nodo, así como el destinatario y el remitente de cada mensaje. El remitente y el destinatario nunca interactúan directamente y solo se reúnen a través de un nodo de encuentro secreto para que no haya filtración de direcciones IP ni de la ubicación física. Los nodos no pueden descifrar los mensajes, ni el destino final; solo el destinatario puede hacerlo. Cada nodo intermediario solo puede desencriptar una parte que indica a dónde enviar el mensaje aún encriptado a continuación, hasta que llega al destinatario que puede desencriptarlo completamente, de ahí las "capas de cebolla."
 
-Self-hosting a node in an anonymous routing network does not provide the host with additional privacy benefits, but rather contributes to the whole network's resilience against identification attacks for everyone's benefit.
+El autoalojamiento de un nodo en una red de enrutamiento anónimo no proporciona al anfitrión ventajas adicionales en materia de privacidad, sino que contribuye a la resiliencia de toda la red frente a los ataques de identificación en beneficio de todos.
 
 **Ventajas:**
 
