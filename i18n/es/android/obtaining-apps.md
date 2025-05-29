@@ -19,7 +19,7 @@ Hay varias formas para obtener aplicaciones de Android de una manera privada, in
 [:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
 
@@ -48,7 +48,7 @@ Google Play Store requiere una cuenta de Google para iniciar sesión, algo poco 
 [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="Código fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
@@ -122,6 +122,6 @@ Los repositorios [F-Droid](https://f-droid.org/es/packages) e [IzzyOnDroid](http
 <div class="admonition note" markdown>
 <p class="admonition-title">F-Droid Basic</p>
 
-In some rare cases, the developer of an app will only distribute it through F-Droid ([Gadgetbridge](../health-and-wellness.md#gadgetbridge) is one example of this). Si realmente necesitas una aplicación como esa, te recomendamos que utilices el nuevo cliente [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) en lugar de la aplicación F-Droid original para obtenerla. F-Droid Basic soporta actualizaciones automáticas en segundo plano sin extensión privilegiada o root, y tiene un conjunto de características reducidas (limitando la superficie de ataque).
+En algunos casos excepcionales, el desarrollador de una aplicación solo la distribuirá a través de F-Droid ([Gadgetbridge](../health-and-wellness.md#gadgetbridge) es un ejemplo de ello). Si realmente necesitas una aplicación como esa, te recomendamos que utilices el nuevo cliente [F-Droid Basic](https://f-droid.org/en/packages/org.fdroid.basic) en lugar de la aplicación F-Droid original para obtenerla. F-Droid Basic soporta actualizaciones automáticas en segundo plano sin extensión privilegiada o root, y tiene un conjunto de características reducidas (limitando la superficie de ataque).
 
 </div>

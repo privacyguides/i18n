@@ -70,13 +70,13 @@ Se recomienda Shelter en lugar de [Insular](https://secure-system.gitlab.io/Insu
 
 **Secure Camera** es una aplicación de cámara centrada en la privacidad y la seguridad que puede capturar imágenes, vídeos y códigos QR. Las extensiones del proveedor CameraX (Retrato, HDR, Vista Nocturna, Retoque Facial y Automático) también son compatibles en los dispositivos disponibles.
 
-[:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-repo-16: Repositorio](https://github.com/GrapheneOS/Camera#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
@@ -95,7 +95,7 @@ Entre las principales características de privacidad se incluyen:
 <div class="admonition note" markdown>
 <p class="admonition-title">Nota</p>
 
-Metadata is not currently deleted from video files, but that is planned.
+Actualmente no se eliminan los metadatos de los archivos de vídeo, pero está previsto hacerlo.
 
 Los metadatos de orientación de la imagen no se borran. Si activas la localización (en Secure Camera) eso **tampoco** se borrará. Si quieres borrarlo más tarde tendrás que usar una aplicación externa como [ExifEraser](../data-redaction.md#exiferaser-android).
 
@@ -116,12 +116,12 @@ Los metadatos de orientación de la imagen no se borran. Si activas la localizac
 
 [Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) se utiliza para reforzar que las propiedades JavaScript y de estilo dentro del WebView sean enteramente contenido estático.
 
-[:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer#readme){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-repo-16: Repositorio](https://github.com/GrapheneOS/PdfViewer#readme){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)
