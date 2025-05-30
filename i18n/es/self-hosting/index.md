@@ -1,19 +1,19 @@
 ---
-title: Self-Hosting
-meta_title: Self-Hosted Software and Services - Privacy Guides
-description: For our more technical readers, self-hosted software and services can provide additional privacy assurances since you have maximum control over your data.
+title: Autoalojamiento
+meta_title: Software y Servicios Autoalojados - Privacy Guides
+description: Para nuestros lectores más técnicos, el software y los servicios autoalojados pueden proporcionar garantías adicionales de privacidad, ya que tienes el máximo control sobre tus datos.
 cover: router.webp
 ---
 
 <small>Protege contra la(s) siguiente(s) amenaza(s):</small>
 
-- [:material-server-network: Service Providers](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-server-network: Proveedores de Servicios](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-Using **self-hosted software and services** can be a way to achieve a higher level of privacy through digital sovereignty, particularly independence from cloud servers controlled by product developers or vendors. By self-hosting, we mean hosting applications and data on your own hardware.
+El uso de **software y servicios autoalojados** puede ser una forma de lograr un mayor nivel de privacidad a través de la soberanía digital, en particular la independencia de los servidores en la nube controlados por desarrolladores o vendedores de productos. Por autoalojamiento, nos referimos al alojamiento de aplicaciones y datos en tu propio hardware.
 
-Self-hosting your own solutions requires advanced technical knowledge and a deep understanding of the associated risks. By becoming the host for yourself and possibly others, you take on responsibilities you might not otherwise have. Self-hosting privacy software improperly can leave you worse off than using e.g. an end-to-end encrypted service provider, so it is best avoided if you are not already comfortable doing so.
+El autoalojamiento de tus propias soluciones requiere conocimientos técnicos avanzados y una profunda comprensión de los riesgos asociados. Al convertirte en anfitrión de ti mismo y, posiblemente, de otros, asumes responsabilidades que de otro modo no tendrías. El autoalojamiento inadecuado de software de privacidad puede dejarte en peor situación que, por ejemplo, el uso de un proveedor de servicios cifrados de extremo a extremo, por lo que es mejor evitarlo si aún no te sientes cómodo haciéndolo.
 
-## :material-email: Email Servers
+## :material-email: Servidores de Correo Electrónico
 
 <div class="grid cards" markdown>
 
@@ -23,7 +23,7 @@ Self-hosting your own solutions requires advanced technical knowledge and a deep
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email-servers.md)
+[Más información :material-arrow-right-drop-circle:](email-servers.md)
 
 ## :material-account-supervisor-circle-outline: Social Networks
 

@@ -10,9 +10,9 @@ En general, nuestro sitio web utiliza el término "Linux" para describir las dis
 
 [Nuestras recomendaciones de Linux: :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
 
-## Security Notes
+## Notas de Seguridad
 
-There are some notable security concerns with Linux which you should be aware of. A pesar de estos inconvenientes, las distribuciones Linux de escritorio siguen siendo estupendas para la mayoría de la gente que desea:
+Linux presenta algunos problemas de seguridad importantes que deberías conocer. A pesar de estos inconvenientes, las distribuciones Linux de escritorio siguen siendo estupendas para la mayoría de la gente que desea:
 
 - Evitar la telemetría que, regularmente, viene con los sistemas operativos propietarios
 - Mantener la [libertad de software](https://gnu.org/philosophy/free-sw.en.html#four-freedoms)
@@ -32,7 +32,7 @@ Por el momento, Linux de escritorio [está por detrás de alternativas](https://
 
 - **Un aislamiento fuerte** para aplicaciones en Linux que es muy deficiente, incluso con aplicaciones en contenedores como Flatpaks o soluciones de aislamiento como Firejail. Flatpak es la utilidad de aislamiento de procesos más prometedora para Linux hasta el momento, pero sigue siendo deficiente en muchas áreas y permite [defaults inseguros](https://flatkill.org/2020) que permiten a la mayoría de las aplicaciones eludir trivialmente su aislamiento de procesos.
 
-Además, Linux se queda atrás en la implementación de [mitigaciones de exploits](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) que ahora son estándar en otros sistemas operativos, como Protección de Código Arbitrario en Windows o Tiempo de Ejecución Reforzado en macOS. Además, la mayoría de los programas Linux y el propio Linux están codificados en lenguajes poco seguros para la memoria. Los fallos de corrupción de memoria son responsables de la [mayoría de las vulnerabilidades](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code) corregidas y a las que se asigna un CVE. While this is also true for Windows and macOS, they are quickly making progress on adopting memory-safe languages such as Rust and Swift, respectively.
+Además, Linux se queda atrás en la implementación de [mitigaciones de exploits](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) que ahora son estándar en otros sistemas operativos, como Protección de Código Arbitrario en Windows o Tiempo de Ejecución Reforzado en macOS. Además, la mayoría de los programas Linux y el propio Linux están codificados en lenguajes poco seguros para la memoria. Los fallos de corrupción de memoria son responsables de la [mayoría de las vulnerabilidades](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code) corregidas y a las que se asigna un CVE. Aunque esto también es cierto para Windows y macOS, están avanzando rápidamente en la adopción de lenguajes seguros para la memoria como Rust y Swift, respectivamente.
 
 ## Elegir tu distribución
 
@@ -52,11 +52,11 @@ No creemos que retener paquetes y aplicar parches provisionales sea una buena id
 
 Tradicionalmente, las distribuciones Linux se actualizan mediante la actualización secuencial de los paquetes deseados. Las actualizaciones tradicionales, como las utilizadas en las distribuciones basadas en Fedora, Arch Linux y Debian, pueden ser menos fiables si se produce un error durante la actualización.
 
-Distros which use atomic updates, on the other hand, apply updates in full or not at all. En una distribución atómica, si se produce un error durante la actualización (tal vez debido a un fallo de alimentación), no se modifica nada en el sistema.
+En cambio, las distribuciones que utilizan actualizaciones atómicas las aplican en su totalidad o no las aplican en absoluto. En una distribución atómica, si se produce un error durante la actualización (tal vez debido a un fallo de alimentación), no se modifica nada en el sistema.
 
 El método de actualización atómica puede lograr la fiabilidad con este modelo y se utiliza para [distribuciones](../desktop.md#atomic-distributions) como Silverblue y NixOS. [Adam Šamalik](https://twitter.com/adsamalik) brinda una presentación sobre cómo `rpm-ostree` funciona con Silverblue:
 
-- [Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalík](https://youtu.be/-hpV5l-gJnQ) <small>(YouTube)</small>
+- [Probemos Fedora Silverblue: ¡un sistema operativo de escritorio inmutable! - Adam Šamalík](https://youtu.be/-hpV5l-gJnQ) <small>(YouTube)</small>
 
 ### Distribuciones "enfocadas en la seguridad"
 
@@ -85,7 +85,7 @@ Recomendamos **no** utilizar el kernel Linux-libre, ya que [elimina las mitigaci
 
 ### Control de acceso obligatorio
 
-El control de acceso obligatorio es un conjunto de controles de seguridad adicionales que ayudan a confinar partes del sistema como aplicaciones y servicios del sistema. Las dos formas comunes de control de acceso obligatorio que se encuentran en las distribuciones de Linux son [SELinux](https://github.com/SELinuxProject) y [AppArmor](https://apparmor.net). Fedora and Tumbleweed use SELinux by default, with Tumbleweed offering an option in its installer to choose AppArmor instead.
+El control de acceso obligatorio es un conjunto de controles de seguridad adicionales que ayudan a confinar partes del sistema como aplicaciones y servicios del sistema. Las dos formas comunes de control de acceso obligatorio que se encuentran en las distribuciones de Linux son [SELinux](https://github.com/SELinuxProject) y [AppArmor](https://apparmor.net). Fedora y Tumbleweed utilizan SELinux por defecto, y Tumbleweed ofrece una opción en su instalador para elegir AppArmor en su lugar.
 
 SELinux en [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-getting-started) limita los contenedores Linux, las máquinas virtuales y los demonios de servicio de forma predeterminada. AppArmor es utilizado por el demonio snap para los snaps de[aislamiento](https://snapcraft.io/docs/security-sandboxing) que tienen confinamiento [estricto](https://snapcraft.io/docs/snap-confinement) como [Firefox](https://snapcraft.io/firefox). Existe un esfuerzo de la comunidad para confinar más partes del sistema en Fedora con el grupo de interés especial [ConfinedUsers](https://fedoraproject.org/wiki/SIGs/ConfinedUsers).
 
@@ -93,7 +93,7 @@ SELinux en [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-gett
 
 ### Cifrado de Unidad
 
-La mayoría de las distribuciones de Linux tienen una opción dentro de su instalador para habilitar [LUKS](../encryption.md#linux-unified-key-setup) FDE. If this option isn’t set at installation time, you will have to back up your data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning), but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. También te sugerimos que borres de forma segura tu dispositivo de almacenamiento:
+La mayoría de las distribuciones de Linux tienen una opción dentro de su instalador para habilitar [LUKS](../encryption.md#linux-unified-key-setup) FDE. Si esta opción no se configura en el momento de la instalación, tendrás que hacer una copia de seguridad de tus datos y volver a instalarla, ya que el cifrado se aplica después de [particionar el disco](https://en.wikipedia.org/wiki/Disk_partitioning), pero antes de formatear [los sistemas de archivos](https://en.wikipedia.org/wiki/File_system). También te sugerimos que borres de forma segura tu dispositivo de almacenamiento:
 
 - [Borrado Seguro de Datos :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/05/25/secure-data-erasure)
 
@@ -156,7 +156,7 @@ Hay otros identificadores del sistema con los que conviene tener cuidado. Deber�
 
 El Proyecto Fedora [cuenta](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting) cuántos sistemas únicos acceden a sus réplicas utilizando una variable [`countme`](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting#Detailed_Description) en lugar de un ID único. Fedora hace esto para determinar la carga y aprovisionar mejores servidores para las actualizaciones cuando sea necesario.
 
-Esta [opción](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) está actualmente desactivada por defecto. Recomendamos añadir `countme=false` en `/etc/dnf/dnf.conf` por si se habilita en el futuro. On systems that use `rpm-ostree` such as Silverblue, the `countme` option is disabled by masking the [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems) timer.
+Esta [opción](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) está actualmente desactivada por defecto. Recomendamos añadir `countme=false` en `/etc/dnf/dnf.conf` por si se habilita en el futuro. En sistemas que utilizan `rpm-ostree` como Silverblue, la opción `countme` se desactiva enmascarando el temporizador [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems).
 
 openSUSE también utiliza un [ID único](https://en.opensuse.org/openSUSE:Statistics) para contar los sistemas, que puede desactivarse vaciando el archivo `/var/lib/zypp/AnonymousUniqueId`.
 

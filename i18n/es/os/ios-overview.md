@@ -105,7 +105,7 @@ Es importante instalar con frecuencia **Actualizaciones de Software** para obten
 - [x] Activa **Instalar Actualizaciones de iOS**
 - [x] Activa **Respuestas de Seguridad y Archivos del Sistema**
 
-**AirDrop** is commonly used to easily share files, but it represents a significant privacy risk. The AirDrop protocol constantly broadcasts your personal information to your surroundings, with [very weak](https://usenix.org/system/files/sec21-heinrich.pdf) security protections. Your identity can easily be discovered by attackers even with limited resources, and the Chinese government has [openly acknowledged](https://arstechnica.com/security/2024/01/hackers-can-id-unique-apple-airdrop-users-chinese-authorities-claim-to-do-just-that) using such techniques to identify AirDrop users in public since 2022.
+**AirDrop** se utiliza habitualmente para compartir archivos con facilidad, pero representa un importante riesgo para la privacidad. El protocolo AirDrop transmite constantemente tu información personal a tu entorno, con protecciones de seguridad [muy débiles](https://usenix.org/system/files/sec21-heinrich.pdf). Tu identidad puede ser descubierta fácilmente por los atacantes, incluso con recursos limitados, y el gobierno chino ha [reconocido abiertamente](https://arstechnica.com/security/2024/01/hackers-can-id-unique-apple-airdrop-users-chinese-authorities-claim-to-do-just-that) el uso de tales técnicas para identificar a los usuarios de AirDrop en público desde 2022.
 
 - [x] Selecciona **AirDrop** → **Recepción Desactivada**
 
@@ -125,7 +125,7 @@ Si no quieres que nadie pueda controlar tu teléfono con Siri cuando está bloqu
 
 #### Face ID/Touch ID y Código
 
-Establecer una contraseña segura en tu teléfono es el paso más importante que puedes dar para la seguridad física del dispositivo. You'll have to make trade-offs here between security and convenience: A longer password will be annoying to type in every time, but a shorter password or PIN will be easier to guess. Configurar Face ID o Touch ID junto con una contraseña segura puede ser un buen compromiso entre usabilidad y seguridad.
+Establecer una contraseña segura en tu teléfono es el paso más importante que puedes dar para la seguridad física del dispositivo. Tendrás que elegir entre seguridad y comodidad: una contraseña más larga será molesta de escribir cada vez, pero una contraseña más corta o un PIN serán más fáciles de adivinar. Configurar Face ID o Touch ID junto con una contraseña segura puede ser un buen compromiso entre usabilidad y seguridad.
 
 Selecciona **Activar Código** o **Cambiar Código**→ **Opciones de Código**→ **Código Alfanumérico Personalizado**. Asegúrate de crear una [contraseña segura](../basics/passwords-overview.md).
 
@@ -133,7 +133,7 @@ Si deseas utilizar Face ID o Touch ID, puedes seguir adelante y configurarlo aho
 
 Si utilizas datos biométricos, debes saber cómo desactivarlos rápidamente en caso de emergencia. Si mantienes pulsado el botón lateral o de encendido y *o* el botón de volumen hasta que veas el control deslizante para Apagar, se desactivará la biometría y tendrás que introducir el código para desbloquear. El código también será necesario después de reiniciar el dispositivo.
 
-En algunos dispositivos antiguos, puede que tengas que pulsar el botón de encendido cinco veces para desactivar la biometría en su lugar, o para los dispositivos con Touch ID, puede que solo tengas que mantener pulsado el botón de encendido y nada más. Make sure you try this in advance, so you know which method works for your device.
+En algunos dispositivos antiguos, puede que tengas que pulsar el botón de encendido cinco veces para desactivar la biometría en su lugar, o para los dispositivos con Touch ID, puede que solo tengas que mantener pulsado el botón de encendido y nada más. Asegúrate de probarlo con antelación para saber qué método funciona en tu dispositivo.
 
 **Protección en Caso de Robo** añade seguridad adicional destinada a proteger tus datos personales si te roban el dispositivo mientras está desbloqueado. Si utilizas la biometría y la función Buscar Mi Dispositivo en la configuración de tu Cuenta de Apple, te recomendamos que actives esta nueva protección:
 
@@ -247,7 +247,7 @@ Del mismo modo, en lugar de permitir que una aplicación acceda a todos los cont
 
 iOS ofrece la posibilidad de bloquear la mayoría de las aplicaciones con Touch ID/Face ID o tu código, lo que puede ser útil para proteger contenido sensible en aplicaciones que no ofrecen esta opción. Puedes bloquear una aplicación pulsando prolongadamente sobre ella y seleccionando **Requerir Face ID/Touch ID**. Cualquier aplicación bloqueada de este modo requiere autenticación biométrica cada vez que se abre o se accede a su contenido en otras aplicaciones. Además, no se mostrarán las vistas previas de las notificaciones de las aplicaciones bloqueadas.
 
-Además de bloquear las aplicaciones tras los datos biométricos, también puedes ocultarlas para que no aparezcan en la pantalla de inicio, la biblioteca de aplicaciones, la lista de aplicaciones en **Ajustes**, etc. Aunque ocultar aplicaciones puede ser útil en situaciones en las que tienes que entregar tu teléfono desbloqueado a otra persona, la ocultación que proporciona la función no es absoluta, ya que una aplicación oculta sigue siendo visible en algunos lugares, como la lista de uso de la batería. Moreover, one notable trade off of hiding an app is that you will not receive any of its notifications.
+Además de bloquear las aplicaciones tras los datos biométricos, también puedes ocultarlas para que no aparezcan en la pantalla de inicio, la biblioteca de aplicaciones, la lista de aplicaciones en **Ajustes**, etc. Aunque ocultar aplicaciones puede ser útil en situaciones en las que tienes que entregar tu teléfono desbloqueado a otra persona, la ocultación que proporciona la función no es absoluta, ya que una aplicación oculta sigue siendo visible en algunos lugares, como la lista de uso de la batería. Además, una desventaja notable de ocultar una aplicación es que no recibirás ninguna de sus notificaciones.
 
 Puedes ocultar una aplicación pulsando prolongadamente sobre ella y seleccionando **Requerir Face ID/Touch**→**Ocultar y Requerir Face ID/Touch ID**. Ten en cuenta que las aplicaciones de Apple preinstaladas, así como el navegador web y la aplicación de correo electrónico predeterminados, no se pueden ocultar. Las aplicaciones ocultas residen en una carpeta **Oculta** en la parte inferior de la biblioteca de aplicaciones, que puede desbloquearse utilizando datos biométricos. Esta carpeta aparece en la Biblioteca de Aplicaciones tanto si has ocultado aplicaciones como si no, lo que te proporciona un grado de negación plausible.
 
@@ -260,7 +260,7 @@ Si tu dispositivo lo admite, puedes utilizar la función [Limpiar](https://suppo
 - Abre la aplicación **Fotos** y toca la foto que hayas seleccionado para editarla
 - Pulsa :material-tune: (en la parte inferior de la pantalla)
 - Pulsa el botón **Limpiar**
-- Dibuja un círculo alrededor de lo que quieras ocultar. Faces will be pixelated, and it will attempt to delete anything else.
+- Dibuja un círculo alrededor de lo que quieras ocultar. Las caras se pixelarán y se intentará borrar todo lo demás.
 
 Nuestra advertencia [en contra de difuminar el texto](../data-redaction.md) también se aplica aquí, por lo que recomendamos en su lugar añadir una forma negra con una opacidad del 100% sobre ello. Además de ocultar texto, también puedes tachar cualquier cara u objeto con la aplicación **Fotos**.
 
