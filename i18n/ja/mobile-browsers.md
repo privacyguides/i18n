@@ -273,7 +273,7 @@ iOSではウェブブラウザの機能があるアプリはAppleが提供する
 
 ![Safari logo](assets/img/browsers/safari.svg){ align=right }
 
-**Safari**はiOSのデフォルトブラウザです。 It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites, so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
+**Safari**はiOSのデフォルトブラウザです。 Safariには、インテリジェント・トラッキング防止機能(https://webkit.org/blog/7675/intelligent-tracking-prevention)、隔離された一時的なタブであるプライベートブラウズタブ、フィンガープリント保護（ウェブサイトに対してシステム構成の簡易版を提示することで、より多くのデバイスが同じに見えるようにする）、フィンガープリントのランダム化などの[プライバシー機能](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios)があります。有料のiCloud+サブスクリプション利用者にはプライベートリレーという機能も含まれます。
 
 [:octicons-home-16: ウェブページ](https://apple.com/safari){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="プライバシーポリシー" }
@@ -287,24 +287,24 @@ iOSではウェブブラウザの機能があるアプリはAppleが提供する
 
 Safariでコンテンツブロックを使いたい場合、[AdGuard](browser-extensions.md#adguard)をインストールすることを推奨します。
 
-The following privacy/security-related options can be found in :gear: **Settings** → **Apps** → **Safari**.
+以下のプライバシー・セキュリティ関連のオプションは、 :gear: **設定**→**アプリ**→**Safari**にあります。
 
-#### Allow Safari to Access
+#### Safariにアクセスを許可
 
-Under **Siri**:
+**Siri**：
 
-- [ ] Disable **Learn from this App**
-- [ ] Disable **Show in App**
-- [ ] Disable **Show on Home Screen**
+- [ ] **このアプリから学習**を無効化
+- [ ] **アプリに表示**を無効化
+- [ ] **ホーム画面に表示**を無効化
 - [ ] Disable **Suggest App**
 
-This prevents Siri from using content from Safari for Siri suggestions.
+これにより、SiriがSafari内のコンテンツを使って提案できなくなります。
 
 #### 検索
 
 - [ ] Disable **Search Engine Suggestions**
 
-This setting sends whatever you type in the address bar to the search engine set in Safari. 「検索候補を表示する」機能を無効化することで検索エンジンに送る情報をより厳密に決めることができます。
+この設定がONだと、アドレスバーに入力した内容がすべてSafariに設定された検索エンジンに送られてしまいます。 「検索候補を表示する」機能を無効化することで検索エンジンに送る情報をより厳密に決めることができます。
 
 #### Profiles
 
