@@ -3,13 +3,13 @@ title: Configuración de las Directivas de Grupo
 description: Una guía rápida para configurar las Directivas de Grupo para que Windows respete un poco más la privacidad.
 ---
 
-Outside modifying the registry itself, the **Local Group Policy Editor** is the most powerful way to change many aspects of your system without installing third-party tools. Para cambiar estos ajustes se requiere la [Edición Pro](index.md#windows-editions) o superior.
+Aparte de modificar el propio registro, el **Editor de Directivas de Grupo Local** es la forma más potente de cambiar muchos aspectos del sistema sin necesidad de instalar herramientas de terceros. Para cambiar estos ajustes se requiere la [Edición Pro](index.md#windows-editions) o superior.
 
-These settings should be set on a brand-new installation of Windows. Setting them on your existing installation should work, but may introduce unpredictable behavior and is done at your own risk.
+Estos ajustes deben establecerse en una instalación de Windows completamente nueva. Configurarlos en tu instalación existente debería funcionar, pero podría introducir comportamientos impredecibles y lo haces bajo tu propia responsabilidad.
 
 Todas estas configuraciones tienen una explicación adjunta en el Editor de Directivas de Grupo que explica exactamente lo que hacen, normalmente con gran detalle. Por favor, presta atención a esas descripciones cuando hagas cambios, para que sepas exactamente lo que estamos recomendando aquí. También hemos explicado algunas de nuestras opciones aquí siempre que la explicación incluida con Windows sea inadecuada.
 
-## Planitllas Administrativas
+## Plantillas Administrativas
 
 Puedes encontrar esta configuración abriendo `gpedit.msc` y navegando a **Directiva Equipo Local** > **Configuración del Equipo** > **Plantillas Administrativas** en la barra lateral izquierda. Los encabezados de esta página corresponden a carpetas/subcarpetas dentro de Plantillas Administrativas, y las viñetas corresponden a directivas individuales.
 
@@ -68,7 +68,7 @@ Establecer la intensidad de cifrado para la política de Windows 7 todavía apli
 - Requiere Autenticación Adicional al Iniciar: **Habilitada**
 - Permitir los PIN Mejorados para el Inicio: **Habilitada**
 
-Despite the names of these policies, this doesn't _require_ you to do anything by default, but it will unlock the _option_ to have a more complex setup (such as requiring a PIN at startup in addition to the TPM) in the BitLocker setup wizard.
+A pesar de los nombres de estas directivas, esto no _requiere_ que hagas nada por defecto, pero desbloqueará la _opción_ de tener una configuración más compleja (como requerir un PIN al inicio además del TPM) en el asistente de configuración de BitLocker.
 
 #### Contenido de la Nube
 

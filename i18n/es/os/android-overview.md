@@ -84,7 +84,7 @@ Si una aplicación es principalmente un servicio basado en web, el seguimiento p
 <div class="admonition note" markdown>
 <p class="admonition-title">Nota</p>
 
-Las aplicaciones que respetan la privacidad como [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest) pueden mostrar algunos rastreadores como [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49). Esta biblioteca incluye [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) que puede proporcionar [notificaciones push](https://es.wikipedia.org/wiki/Tecnología_push) en las aplicaciones. Este [es el caso](https://fosstodon.org/@bitwarden/109636825700482007) con Bitwarden. That doesn't mean that Bitwarden is using all the analytics features that are provided by Google Firebase Analytics.
+Las aplicaciones que respetan la privacidad como [Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest) pueden mostrar algunos rastreadores como [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49). Esta biblioteca incluye [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) que puede proporcionar [notificaciones push](https://es.wikipedia.org/wiki/Tecnología_push) en las aplicaciones. Este [es el caso](https://fosstodon.org/@bitwarden/109636825700482007) con Bitwarden. Esto no significa que Bitwarden utilice todas las funciones analíticas que proporciona Google Firebase Analytics.
 
 </div>
 
@@ -114,7 +114,7 @@ Al igual que los perfiles de usuario, un espacio privado se cifra utilizando su 
 
 A diferencia de los perfiles de trabajo, el Espacio Privado es una función nativa de Android que no requiere una aplicación de terceros para gestionarlo. Por esta razón, generalmente recomendamos utilizar un espacio privado en lugar de un perfil de trabajo, aunque puedes utilizar un perfil de trabajo junto con un espacio privado.
 
-### VPN kill switch
+### «Kill switch» de una VPN
 
 Android 7 y superiores admiten un interruptor de corte de VPN (VPN kill switch), y está disponible sin necesidad de instalar aplicaciones de terceros. Esta función puede evitar fugas si la VPN está desconectada. Se puede encontrar en :gear: **Ajustes** → **Red e internet** → **VPN** → :gear: → **Bloquear conexiones sin VPN**.
 
