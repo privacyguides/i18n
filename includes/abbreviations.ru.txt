@@ -9,7 +9,7 @@
 *[CSV]: Comma-Separated Values, формат таблиц
 *[CVE]: Common Vulnerabilities and Exposures
 *[тёмный паттерн]: A deceptive design pattern intended to trick a user into doing things
-*[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
+Функция "цифрового наследия": Термин "цифровое наследие" подразумевает под собой набор функций, который позволяет вам регулировать права доступа других людей к вашей информации после того, как вы умрете
 *[DNSSEC]: (англ. Domain Name System Security Extensions) - Модули безопасности службы доменных имен
 *[DNS]: (англ. Domain Name System) - Система доменных имен
 *[DoH]: DNS через HTTPS

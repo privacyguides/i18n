@@ -52,16 +52,16 @@ Androidスマホを[root化](https://ja.wikipedia.org/wiki/Root%E5%8C%96_\(Andro
 
 AFWall+は、[パケットフィルター](https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2%E3%82%A6%E3%82%A9%E3%83%BC%E3%83%AB#%E3%83%91%E3%82%B1%E3%83%83%E3%83%88%E3%83%95%E3%82%A3%E3%83%AB%E3%82%BF%E5%9E%8B)の形で動作するため、環境によっては回避されてしまう可能性があります。
 
-We do not believe that the security sacrifices made by rooting a phone are worth the questionable privacy benefits of those apps.
+このようなアプリがもたらすプライバシー上の利点は疑わしく、root化によってセキュリティを犠牲にしてまで使用する価値はないとは私たちは考えています。
 
-### Install Updates Regularly
+### 定期的にアップデートしよう
 
-It's important to not use an [end-of-life](https://endoflife.date/android) version of Android. Newer versions of Android receive not only security updates for the operating system but also important privacy enhancing updates too.
+[サポート終了(EOL)](https://endoflife.date/android)となったバージョンのAndroidは使用しないようにすることが大切です。 最近のバージョンは、OSのセキュリティアップデートだけでなく、プライバシーを強化する重要なアップデートも配信されます。
 
-For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. System apps are only provided by the OEM or Android distribution.
+例えば、[Android 10以前](https://developer.android.com/about/versions/10/privacy/changes)では、[`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE)権限を持つアプリは、[IMEI](https://ja.wikipedia.org/wiki/International_Mobile_Equipment_Identity)や[MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier)、SIMカードの[IMSI](https://ja.wikipedia.org/wiki/International_Mobile_Subscriber_Identity)といった、スマホ固有のシリアル番号(機微な情報)にアクセスすることができました。現在は、システムアプリしかアクセスできません。 システムアプリは、必ずOEMまたはAndroidディストリビューションに付属する形で提供されます。
 
-### Use Built-in Sharing Features
+### 内蔵の共有機能を使おう
 
-Androidに内蔵された共有機能を使えば、多くのアプリにメディアへのアクセス許可を与える必要がなくなります。 多くのアプリでは、メディアをアップロードするためにファイルを「共有」することができます。
+Androidに内蔵された共有機能を使えば、いろいろなアプリにメディアへのアクセス許可を与える必要がなくなります。 多くのアプリでは、メディアをアップロードするためにファイルを「共有」することができます。
 
 例えば、Discordに写真を投稿したい場合は、Discordにメディアや写真へのフルアクセスを許可する代わりに、ファイルマネージャーやギャラリーを開いて、その写真を Discord アプリと共有できます。

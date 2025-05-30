@@ -1,6 +1,6 @@
 ---
-title: Git Recommendations
-description: A guide for website contributors on using Git effectively.
+title: Рекомендации по использованию Git
+description: Руководство для волонтеров, как правильно использовать Git.
 ---
 
 Если вы вносите изменения на этом сайте непосредственно в веб-редакторе GitHub.com, вам не стоит беспокоиться об этом. Если вы разрабатываете локально и/или являетесь долгосрочным редактором веб-сайта (который, вероятно, должен разрабатывать локально!), примите во внимание эти рекомендации.
@@ -17,7 +17,7 @@ description: A guide for website contributors on using Git effectively.
     git config --global tag.gpgSign true
     ```
 
-2. Set your SSH key for signing in Git with the following command, substituting `/PATH/TO/.SSH/KEY.PUB` with the path to the public key you'd like to use, e.g. `/home/user/.ssh/id_ed25519.pub`:
+2. Настровайте ваш SSH ключ для входа в Git с помощью следующей команды, заменив `/PATH/TO/.SSH/KEY.PUB` с путем к публичному ключу, который вы бы хотели использовать, например `/home/user/.ssh/id_ed25519.pub`:
 
     ```bash
     git config --global user.signingkey /PATH/TO/.SSH/KEY.PUB
