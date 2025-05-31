@@ -28,7 +28,7 @@ Esto significa que un atacante deberá volver a infectar tu dispositivo con regu
 Si cualquiera de las siguientes herramientas indican un potencial compromiso de parte de programas espías como Pegasus, Predator o KingsPawn, te recomendamos contactar:
 
 - Si eres un defensor de los derechos humanos, periodista o perteneces a una organización de la sociedad civil: [Laboratorio de Seguridad de Amnistía Internacional](https://securitylab.amnesty.org/contact-us)
-- If a business or government device is compromised: the appropriate security liaison at your enterprise, department, or agency
+- Si un dispositivo empresarial o gubernamental se ve comprometido: el intermediario de seguridad apropiado en tu empresa, departamento o agencia
 - Cuerpos locales de seguridad
 
 **No somos capaces de ayudarte directamente más allá de esto.** Estamos encantados de discutir tu situación o circunstancia en específico y revisar tus resultados en nuestros espacios [comunitarios](https://discuss.privacyguides.net), pero es poco probable que podamos ayudarte más allá de lo escrito en esta página.
@@ -130,7 +130,7 @@ MVT te permite realizar escaneos/análisis más profundos si tu dispositivo tien
 
 </div>
 
-iMazing automatiza y te guía de forma interactiva a través del proceso de uso de [MVT](#mobile-verification-toolkit) para escanear tu dispositivo en busca de indicadores de compromiso de acceso público publicados por varios investigadores de amenazas. All the information and warnings which apply to MVT apply to this tool as well, so we suggest you also familiarize yourself with the notes on MVT in the sections above.
+iMazing automatiza y te guía de forma interactiva a través del proceso de uso de [MVT](#mobile-verification-toolkit) para escanear tu dispositivo en busca de indicadores de compromiso de acceso público publicados por varios investigadores de amenazas. Toda la información y advertencias que se aplican a MVT se aplican también a esta herramienta, por lo que sugerimos que te familiarices también con las notas sobre MVT de las secciones anteriores.
 
 ## Verificación en el Dispositivo
 
@@ -188,4 +188,4 @@ Es importante señalar que Auditor solo puede detectar eficazmente cambios **des
 
 No se envía información personal identificable al servicio de certificación. Recomendamos que te registres con una cuenta anónima y actives la atestación remota para una supervisión continua.
 
-If your [threat model](basics/threat-modeling.md) requires hiding your IP address from the attestation service, you could consider using [Orbot](alternative-networks.md#orbot) or a [VPN](vpn.md).
+Si tu [modelo de amenaza] (basics/threat-modeling.md) requiere ocultar tu dirección IP del servicio de atestación, podrías considerar usar [Orbot](alternative-networks.md#orbot) o [VPN](vpn.md).

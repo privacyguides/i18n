@@ -10,7 +10,7 @@ cover: email-clients.webp
 - [:material-server-network: Proveedores de servicios](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 - [:material-target-account: Ataques dirigidos](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
-The **email clients** we recommend support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](basics/account-creation.md#sign-in-with-oauth). OAuth te permite utilizar [la autenticación multifactor](basics/multi-factor-authentication.md) para evitar el robo de cuentas.
+Los **clientes de correo electrónico** que recomendamos admiten [OpenPGP](encryption.md#openpgp) y autenticación fuerte, tal como [Open Authorization (OAuth)](basics/account-creation.md#sign-in-with-oauth). OAuth te permite utilizar [la autenticación multifactor](basics/multi-factor-authentication.md) para evitar el robo de cuentas.
 
 <details class="warning" markdown>
 <summary>El correo electrónico no proporciona secreto hacia adelante</summary>

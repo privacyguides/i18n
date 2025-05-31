@@ -32,7 +32,7 @@ No se debe **nunca** utilizar el desenfoque para eliminar [texto en imágenes](h
 [:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2#metadata-and-privacy)
 - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
@@ -51,11 +51,11 @@ No se debe **nunca** utilizar el desenfoque para eliminar [texto en imágenes](h
 
 **ExifEraser** es una moderna aplicación de borrado de metadatos de imagen sin permisos para Android.
 
-It currently supports JPEG, PNG, and WebP files.
+Actualmente admite archivos JPEG, PNG y WebP.
 
-[:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#description){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Source Code" }
+[:octicons-repo-16: Repositorio](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#description){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
