@@ -23,13 +23,13 @@ OpenPGPを使ったとしても、[前方秘匿性](https://ja.wikipedia.org/wik
 
 [推奨Eメールクライアント](../email-clients.md)はWKDに対応していますが、他にも、一部のWebメールプロバイダーがWKDに対応しています。 *自分の*鍵がWKDで公開されているかどうかは、ドメインの設定に依存します。 もしProton MailやMailbox.orgのようなWKD対応の[Eメールプロバイダー](../email.md#openpgp-compatible-services)を使用しているなら、OpenPGP鍵を公開してくれる機能があります。
 
-カスタムドメインを使用している場合は、WKDを別途設定する必要があります。 自分が管理しているドメインであれば、Eメールプロバイダーに関わらずWKDを設定できます。 One easy way to do this is to use the "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" feature from the `keys.openpgp.org` server: Set a CNAME record on the `openpgpkey` subdomain of your domain pointed to `wkd.keys.openpgp.org`, then upload your key to [keys.openpgp.org](https://keys.openpgp.org). Alternatively, you can [self-host WKD on your own web server](https://wiki.gnupg.org/WKDHosting).
+カスタムドメインを使用している場合は、WKDを別途設定する必要があります。 自分が管理しているドメインであれば、Eメールプロバイダーに関わらずWKDを設定できます。 簡単に設定するには、`keys.openpgp.org`サーバーの「[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)」機能を使うという手があります。具体的には、自分のドメインの`openpgpkey`サブドメインのCNAMEレコードを`wkd.keys.openpgp.org`に向けて、 [keys.openpgp.org](https://keys.openpgp.org)に自分の鍵をアップロードすればOKです。 もしくは、[WKDを自分のウェブサーバーでホストする](https://wiki.gnupg.org/WKDHosting)こともできます。
 
-If you use a shared domain from a provider which doesn't support WKD, like `@gmail.com`, you won't be able to share your OpenPGP key with others via this method.
+もしWKDに非対応、かつドメイン共有型のプロバイダーを使っている場合(`@gmail.com`など)は、上記の方法ではOpenPGP鍵を共有することはできません。
 
-### What Email Clients Support E2EE?
+### E2E暗号化に対応しているEメールクライアントは？
 
-Email providers which allow you to use standard access protocols like IMAP and SMTP can be used with any of the [email clients we recommend](../email-clients.md). Depending on the authentication method, this may lead to decreased security if either the provider or the email client does not support [OAuth](account-creation.md#sign-in-with-oauth) or a bridge application as [multifactor authentication](multi-factor-authentication.md) is not possible with plain password authentication.
+IMAPやSMPTなどの標準的なプロトコルに対応しているEメールプロバイダーであれば、[推奨Eメールクライアント](../email-clients.md)のどれを使用しても問題ありません。 Depending on the authentication method, this may lead to decreased security if either the provider or the email client does not support [OAuth](account-creation.md#sign-in-with-oauth) or a bridge application as [multifactor authentication](multi-factor-authentication.md) is not possible with plain password authentication.
 
 ### How Do I Protect My Private Keys?
 
