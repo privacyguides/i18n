@@ -13,14 +13,14 @@ schema:
     name: Android
     image: /assets/img/android/android.svg
     url: https://source.android.com/
-    sameAs: https://en.wikipedia.org/wiki/Android_(operating_system)
+    sameAs: https://fr.wikipedia.org/wiki/Android
 ---
 
 ![Android logo](../assets/img/android/android.svg){ align=right }
 
 The **Android Open Source Project** (AOSP) is an open-source mobile operating system led by Google which powers the majority of the world's mobile devices. La plupart des téléphones vendu avec Android sont modifiés pour inclure des intégrations et applications invasives de la vie privée comme les Services Google Play, ainsi vous pouvez significativement améliorer votre confidentialité sur votre appareil mobile en remplaçant l'installation par défaut de votre téléphone avec une version d'android sans fonctionnalité intrusive.
 
-[General Android Overview :material-arrow-right-drop-circle:](../os/android-overview.md){ .md-button .md-button--primary }
+[Vue d'ensemble d'Android :material-arrow-right-drop-circle:](../os/android-overview.md){ .md-button .md-button--primary }
 
 ## Nos conseils
 
