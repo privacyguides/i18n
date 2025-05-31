@@ -5,25 +5,25 @@ icon: material/email
 description: Eメールは安全でない点がいくつもあります。本記事では、安全な連絡手段としてEメールを推奨しない理由を紹介します。
 ---
 
-Eメールは、普通に使用すると、コミュニケーション手段として安全ではありません。 You can improve your email security with tools such as OpenPGP, which add end-to-end encryption to your messages, but OpenPGP still has a number of drawbacks compared to encryption in other messaging applications.
+Eメールは、普通に使用すると、コミュニケーション手段として安全ではありません。 Eメールにエンドツーエンド暗号化を施すOpenPGPのようなツールを使用することで、Eメールのセキュリティを向上させることはできますが、他のメッセージアプリケーションにおける暗号化と比較すると、OpenPGPには様々な欠点があります。
 
-As a result, email is best used for receiving transactional emails (like notifications, verification emails, password resets, etc.) from the services you sign up for online, not for communicating with others.
+そのため、Eメールは、人とのコミュニケーション手段ではなく、登録したオンラインサービスからのトランザクションメール（通知メールや確認メール、パスワードリセットなど）を受け取る手段として使うのが最適です。
 
 ## 電子メールの暗号化の概要
 
-The standard way to add E2EE to emails between different email providers is by using OpenPGP. There are different implementations of the OpenPGP standard, the most common being [GnuPG](../encryption.md#gnu-privacy-guard) and [OpenPGP.js](https://openpgpjs.org).
+２つの異なるEメールプロバイダー間で送られるEメールをE2E暗号化する標準的な方法はOpenPGPです。 OpenPGPの標準を実装したものにはいろいろなものがありますが、一番一般的なのが[GnuPG](../encryption.md#gnu-privacy-guard)と[OpenPGP.js](https://openpgpjs.org)です。
 
-Even if you use OpenPGP, it does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed. This is why we recommend [instant messengers](../real-time-communication.md) which implement forward secrecy over email for person-to-person communications whenever possible.
+OpenPGPを使ったとしても、[前方秘匿性](https://ja.wikipedia.org/wiki/Forward_secrecy)がないため、もし送受信者のどちらかの秘密鍵が盗まれると、その鍵で暗号化された過去のメッセージがすべて復号できてしまいます。 このため、人対人の連絡手段としては、Eメールよりも、前方秘匿性のある[インスタントメッセンジャー](../real-time-communication.md)を推奨します。
 
-There is another standard which is popular with business called [S/MIME](https://en.wikipedia.org/wiki/S/MIME), however it requires a certificate issued from a [Certificate Authority](https://en.wikipedia.org/wiki/Certificate_authority) (not all of them issue S/MIME certificates, and often a yearly payment is required). In some cases it is more usable than PGP because it has support in popular/mainstream email applications like Apple Mail, [Google Workplace](https://support.google.com/a/topic/9061730), and [Outlook](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480). However, S/MIME does not solve the issue of lack of forward secrecy, and isn't particularly more secure than PGP.
+他にも、ビジネスでよく使われている規格として[S/MIME](https://ja.wikipedia.org/wiki/S/MIME)がありますが、使用するには[認証局](https://ja.wikipedia.org/wiki/%E8%AA%8D%E8%A8%BC%E5%B1%80)から発行された証明書が必要です（すべての認証局がS/MIME証明書を発行しているわけではないですし、発行のため年会費を払う必要がある場合が多いです）。 S/MIMEの方がPGPよりも使い勝手いい場合もあります。Appleのメールアプリ、[Google Workplace](https://support.google.com/a/topic/9061730)、[Outlook](https://support.office.com/article/encrypt-messages-by-using-s-mime-in-outlook-on-the-web-878c79fc-7088-4b39-966f-14512658f480)などの広く使われているEメールアプリケーションが、S/MIMEに対応しています。 しかし、PGPと同じくS/MIMEは前方秘匿性がなく、PGPと比較しても安全性が特に高いわけではありません。
 
-## What is the Web Key Directory standard?
+## Web Key Directory規格とは？
 
-The [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) standard allows email clients to discover the OpenPGP key for other mailboxes, even those hosted on a different provider. Email clients which support WKD will ask the recipient's server for a key based on the email address' domain name. For example, if you emailed `jonah@privacyguides.org`, your email client would ask `privacyguides.org` for Jonah's OpenPGP key, and if `privacyguides.org` has a key for that account, your message would be automatically encrypted.
+[Web Key Directory (WKD)](https://wiki.gnupg.org/WKD)規格とは、異なるプロバイダーでホストされている他のメールボックスのOpenPGP鍵をEメールクライアントから取得できるようにする仕組みです。 EメールクライアントがWKDに対応していれば、宛先のアドレスのドメインに基づいて、宛先のサーバーに鍵を要求します。 例えば、`jonah@privacyguides.org`にメールを送る場合、クライアントが`privacyguides.org`に対してJonahのOpenPGP鍵を要求し、もし`privacyguides.org`がそのアカウントの鍵を持っていれば、自動的にメールが暗号化されます。
 
-In addition to the [email clients we recommend](../email-clients.md) which support WKD, some webmail providers also support WKD. Whether *your own* key is published to WKD for others to use depends on your domain configuration. If you use an [email provider](../email.md#openpgp-compatible-services) which supports WKD, such as Proton Mail or Mailbox.org, they can publish your OpenPGP key on their domain for you.
+[推奨Eメールクライアント](../email-clients.md)はWKDに対応していますが、他にも、一部のWebメールプロバイダーがWKDに対応しています。 *自分の*鍵がWKDで公開されているかどうかは、ドメインの設定に依存します。 もしProton MailやMailbox.orgのようなWKD対応の[Eメールプロバイダー](../email.md#openpgp-compatible-services)を使用しているなら、OpenPGP鍵を公開してくれる機能があります。
 
-If you use your own custom domain, you will need to configure WKD separately. If you control your domain name, you can set up WKD regardless of your email provider. One easy way to do this is to use the "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" feature from the `keys.openpgp.org` server: Set a CNAME record on the `openpgpkey` subdomain of your domain pointed to `wkd.keys.openpgp.org`, then upload your key to [keys.openpgp.org](https://keys.openpgp.org). Alternatively, you can [self-host WKD on your own web server](https://wiki.gnupg.org/WKDHosting).
+カスタムドメインを使用している場合は、WKDを別途設定する必要があります。 自分が管理しているドメインであれば、Eメールプロバイダーに関わらずWKDを設定できます。 One easy way to do this is to use the "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" feature from the `keys.openpgp.org` server: Set a CNAME record on the `openpgpkey` subdomain of your domain pointed to `wkd.keys.openpgp.org`, then upload your key to [keys.openpgp.org](https://keys.openpgp.org). Alternatively, you can [self-host WKD on your own web server](https://wiki.gnupg.org/WKDHosting).
 
 If you use a shared domain from a provider which doesn't support WKD, like `@gmail.com`, you won't be able to share your OpenPGP key with others via this method.
 
