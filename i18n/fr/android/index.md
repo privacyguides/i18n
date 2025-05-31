@@ -1,12 +1,12 @@
 ---
 title: Android
-description: Our advice for replacing privacy-invasive default Android features with private and secure alternatives.
+description: Notre conseil pour remplacer les fonctionnalités par défaut d'Android qui sont invasives de la vie privée.
 icon: simple/android
 cover: android.webp
 schema:
   - "@context": http://schema.org
     "@type": WebPage
-    name: Android Recommendations
+    name: Recommandations pour Android
     url: ./
   - "@context": http://schema.org
     "@type": CreativeWork
@@ -18,17 +18,17 @@ schema:
 
 ![Android logo](../assets/img/android/android.svg){ align=right }
 
-The **Android Open Source Project** (AOSP) is an open-source mobile operating system led by Google which powers the majority of the world's mobile devices. Most phones sold with Android are modified to include invasive integrations and apps such as Google Play Services, so you can significantly improve your privacy on your mobile device by replacing your phone's default installation with a version of Android without these invasive features.
+The **Android Open Source Project** (AOSP) is an open-source mobile operating system led by Google which powers the majority of the world's mobile devices. La plupart des téléphones vendu avec Android sont modifiés pour inclure des intégrations et applications invasives de la vie privée comme les Services Google Play, ainsi vous pouvez significativement améliorer votre confidentialité sur votre appareil mobile en remplaçant l'installation par défaut de votre téléphone avec une version d'android sans fonctionnalité intrusive.
 
 [General Android Overview :material-arrow-right-drop-circle:](../os/android-overview.md){ .md-button .md-button--primary }
 
 ## Nos conseils
 
-### Replace Google Services
+### Remplacez les Services Google
 
-There are many methods of obtaining apps on Android while avoiding Google Play. Whenever possible, try using one of these methods before getting your apps from non-private sources:
+Il y a de nombreuses méthodes pour obtenir des applications tout en évitant d'utiliser Google Play. Dès que c'est possible, essayez d'utiliser une de ces méthodes avant d'installer vos applications depuis une source non confidentielle :
 
-[Obtaining Applications :material-arrow-right-drop-circle:](obtaining-apps.md){ .md-button }
+[Obtenir des applications :material-arrow-right-drop-circle:](obtaining-apps.md){ .md-button }
 
 There are also many private alternatives to the apps that come pre-installed on your phone, such as the camera app. Besides the Android apps we recommend throughout this site in general, we've created a list of system utilities specific to Android which you might find useful.
 
@@ -48,19 +48,19 @@ Idéalement, lorsque vous choisissez une distribution Android, vous devez vous a
 
 [Rooting](https://en.wikipedia.org/wiki/Rooting_\(Android\)) Android phones can decrease security significantly as it weakens the complete [Android security model](https://en.wikipedia.org/wiki/Android_\(operating_system\)#Security_and_privacy). Cela peut nuire à la protection de la vie privée en cas d'exploitation facilitée par la diminution de la sécurité. Les méthodes courantes de rootage impliquent une modification directe de la partition de démarrage, ce qui rend impossible l'exécution du Démarrage Vérifié. Apps that require root will also modify the system partition, meaning that Verified Boot would have to remain disabled. Having root exposed directly in the user interface also increases the attack surface of your device and may assist in [privilege escalation](https://en.wikipedia.org/wiki/Privilege_escalation) vulnerabilities and SELinux policy bypasses.
 
-Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_\(file\)) (like AdAway) and firewalls which require root access persistently (like AFWall+) are dangerous and should not be used. Ils ne sont pas non plus la bonne façon de résoudre les problèmes auxquels ils sont destinés. For content blocking, we suggest encrypted [DNS](../dns.md) or content blocking functionality provided by a VPN instead. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy-enhancing services such as [Orbot](../alternative-networks.md#orbot) or a [real VPN provider](../vpn.md).
+Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hosts_\(file\)) (like AdAway) and firewalls which require root access persistently (like AFWall+) are dangerous and should not be used. Ils ne sont pas non plus la bonne façon de résoudre les problèmes auxquels ils sont destinés. Pour bloquer du contenu, nous suggérons un [DNS](../dns.md) chiffré ou un VPN avec une fonctionnalité de blocage de contenu. TrackerControl and AdAway in non-root mode will take up the VPN slot (by using a local loopback VPN), preventing you from using privacy-enhancing services such as [Orbot](../alternative-networks.md#orbot) or a [real VPN provider](../vpn.md).
 
 AFWall+ works based on the [packet filtering](https://en.wikipedia.org/wiki/Firewall_\(computing\)#Packet_filter) approach and may be bypassable in some situations.
 
 Nous ne pensons pas que les sacrifices de sécurité en rootant un smartphone valent les avantages discutables de ces applications en matière de vie privée.
 
-### Install Updates Regularly
+### Installez les mises à jour régulièrement
 
-It's important to not use an [end-of-life](https://endoflife.date/android) version of Android. Newer versions of Android receive not only security updates for the operating system but also important privacy enhancing updates too.
+Il est important de ne pas utiliser une version d'Android en [fin de vie](https://endoflife.date/android). Les versions plus récentes d'Android reçoivent non seulement des mises à jour de sécurité pour le système d'exploitation, mais aussi d'importantes améliorations de la confidentialité.
 
-For example, [prior to Android 10](https://developer.android.com/about/versions/10/privacy/changes) any apps with the [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) permission could access sensitive and unique serial numbers of your phone such as [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), or your SIM card's [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); whereas now they must be system apps to do so. Les applications système sont uniquement fournies par le fabricant ou la distribution Android.
+Par exemple, [avant Android 10](https://developer.android.com/about/versions/10/privacy/changes) n'importe quelle application avec l'autorisation [`READ_PHONE_STATE`](https://developer.android.com/reference/android/Manifest.permission#READ_PHONE_STATE) pouvait accéder aux numéros de séries sensible et unique de votre téléphone comme le [IMEI](https://en.wikipedia.org/wiki/International_Mobile_Equipment_Identity), [MEID](https://en.wikipedia.org/wiki/Mobile_equipment_identifier), ou vos cartes SIM [IMSI](https://en.wikipedia.org/wiki/International_mobile_subscriber_identity); alors qu'aujoud'hui il faut être une application système pour le faire. Les applications système sont uniquement fournies par le fabricant ou la distribution Android.
 
-### Use Built-in Sharing Features
+### Utilisez les fonctionnalités de partage intégrées
 
 Vous pouvez éviter de donner à de nombreuses applications l'autorisation d'accéder à vos médias grâce aux fonctions de partage intégrées d'Android. De nombreuses applications vous permettent de "partager" un fichier avec elles pour l'envoi de médias.
 
