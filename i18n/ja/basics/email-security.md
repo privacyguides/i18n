@@ -1,11 +1,11 @@
 ---
-meta_title: "Why Email Isn't the Best Choice for Privacy and Security - Privacy Guides"
+meta_title: "Eメールがプライバシーやセキュリティの観点で最良でない理由 - Privacy Guides"
 title: Eメールのセキュリティー
 icon: material/email
-description: Email is insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
+description: Eメールは安全でない点がいくつもあります。本記事では、安全な連絡手段としてEメールを推奨しない理由を紹介します。
 ---
 
-Email is an insecure form of communication by default. You can improve your email security with tools such as OpenPGP, which add end-to-end encryption to your messages, but OpenPGP still has a number of drawbacks compared to encryption in other messaging applications.
+Eメールは、普通に使用すると、コミュニケーション手段として安全ではありません。 You can improve your email security with tools such as OpenPGP, which add end-to-end encryption to your messages, but OpenPGP still has a number of drawbacks compared to encryption in other messaging applications.
 
 As a result, email is best used for receiving transactional emails (like notifications, verification emails, password resets, etc.) from the services you sign up for online, not for communicating with others.
 
