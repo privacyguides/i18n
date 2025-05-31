@@ -27,7 +27,7 @@ El texto introducido en los correctores gramaticales, ortográficos y de estilo,
 [:octicons-code-16:](https://github.com/languagetool-org){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1534275760)
 - [:fontawesome-brands-windows: Windows](https://languagetool.org/windows-desktop)

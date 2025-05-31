@@ -28,7 +28,7 @@ The free plan offers 5 GB of storage as long as you use the service at least on
 [:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.photos)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1542026904)
@@ -62,7 +62,7 @@ Storage starts at 1 GB for free accounts on their cloud, or you can host your o
 [:octicons-code-16:](https://github.com/stingle){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.stingle.photos)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1582535448)
@@ -86,7 +86,7 @@ Storage starts at 1 GB for free accounts on their cloud, or you can host your o
 [:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-github: GitHub](https://github.com/photoprism)
 

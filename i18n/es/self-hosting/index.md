@@ -25,9 +25,9 @@ El autoalojamiento de tus propias soluciones requiere conocimientos técnicos av
 
 [Más información :material-arrow-right-drop-circle:](email-servers.md)
 
-## :material-account-supervisor-circle-outline: Social Networks
+## :material-account-supervisor-circle-outline: Redes Sociales
 
-Self-hosting your own instance of a social network software can help circumvent potential [censorship on a server level](../social-networks.md#censorship-resistance) by a public server's administrator or admin team.
+El autoalojamiento de tu propia instancia de un software de red social puede ayudarte a eludir la posible [censura a nivel de servidor](../social-networks.md#censorship-resistance) por parte del administrador o el equipo de administración de un servidor público.
 
 ### Mastodon
 
@@ -35,16 +35,16 @@ Self-hosting your own instance of a social network software can help circumvent 
 
 ![Mastodon logo](../assets/img/social-networks/mastodon.svg){ align=right }
 
-**Mastodon** is a social network based on open web protocols and free, open-source software. It uses the decentralized **:simple-activitypub: ActivityPub** protocol.
+**Mastodon** es una red social basada en protocolos web abiertos y software libre de código abierto. Utiliza el protocolo descentralizado **:simple-activitypub: ActivityPub**.
 
-[:octicons-home-16:](https://joinmastodon.org){ .card-link title="Homepage" }
-[:octicons-info-16:](https://docs.joinmastodon.org/admin/prerequisites){ .card-link title="Admin Documentation" }
+[:octicons-home-16:](https://joinmastodon.org){ .card-link title="Página Principal" }
+[:octicons-info-16:](https://docs.joinmastodon.org/admin/prerequisites){ .card-link title="Documentación de Administración" }
 
 </div>
 
-Mastodon [integrates with the Tor network](https://docs.joinmastodon.org/admin/optional/tor) for more extreme scenarios where even your underlying hosting provider is subject to censorship, but this may limit who can access your content to only other servers which integrate with Tor (like most other hidden services).
+Mastodon [se integra con la red Tor](https://docs.joinmastodon.org/admin/optional/tor) para escenarios más extremos donde incluso tu proveedor de alojamiento subyacente está sujeto a censura, pero esto podría limitar quién puede acceder a tu contenido a solo otros servidores que se integran con Tor (como la mayoría de los otros servicios ocultos).
 
-Mastodon benefits greatly from a large and active self-hosting community, and its administration is comprehensively documented. While many other ActivityPub platforms can require extensive technical knowledge to run and troubleshoot, Mastodon has very stable and tested releases, and it can generally be run securely without issue by anyone who can use the Linux command line and follow step-by-step instructions.
+Mastodon se beneficia enormemente de una comunidad de autoalojamiento grande y activa, y su administración está ampliamente documentada. Mientras que muchas otras plataformas ActivityPub pueden requerir amplios conocimientos técnicos para ejecutarlas y solucionar problemas, Mastodon tiene versiones muy estables y probadas, y por lo general puede ejecutarse de forma segura sin problemas por cualquier persona que pueda utilizar la línea de comandos de Linux y seguir las instrucciones paso a paso.
 
 ### Element
 
@@ -52,17 +52,17 @@ Mastodon benefits greatly from a large and active self-hosting community, and it
 
 ![Element logo](../assets/img/social-networks/element.svg){ align=right }
 
-**Element** is the flagship client for the **:simple-matrix: Matrix** protocol, an open standard that enables decentralized communication by way of federated chat rooms.
+**Element** es el cliente estrella del protocolo **:simple-matrix: Matrix**, un estándar abierto que permite la comunicación descentralizada mediante salas de chat federadas.
 
-[:octicons-home-16:](https://element.io){ .card-link title="Homepage" }
-[:octicons-info-16:](https://element-hq.github.io/synapse/latest){ .card-link title="Admin Documentation" }
-[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
+[:octicons-home-16:](https://element.io){ .card-link title="Página Principal" }
+[:octicons-info-16:](https://element-hq.github.io/synapse/latest){ .card-link title="Documentación de Administración" }
+[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Código Fuente" }
 
 </div>
 
-## :material-flip-to-front: Frontends
+## :material-flip-to-front: Interfaces de usuario
 
-Self-hosting your own instance of a web-based frontend can help you circumvent rate limits that you may encounter on high-traffic, public instances. It is important that you have other people using your instance as well in order for you to blend in. Debes tener cuidado con dónde y cómo alojas, ya que el uso de otras personas estará vinculado a tu alojamiento.
+El autoalojamiento de tu propia instancia de una interfaz de usuario basada en web puede ayudarte a eludir los límites de tarifa que puedes encontrar en instancias públicas con mucho tráfico. Es importante que otras personas utilicen también tu instancia para que puedas pasar desapercibido. Debes tener cuidado con dónde y cómo alojas, ya que el uso de otras personas estará vinculado a tu alojamiento.
 
 <div class="grid cards" markdown>
 
@@ -70,36 +70,36 @@ Self-hosting your own instance of a web-based frontend can help you circumvent r
 
     ---
 
-    [:octicons-info-16:](https://github.com/redlib-org/redlib#deployment){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Source Code" }
+    [:octicons-info-16:](https://github.com/redlib-org/redlib#deployment){ .card-link title="Documentación de Administrador" }
+    [:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Código Fuente" }
 
 - ![ProxiTok logo](../assets/img/frontends/proxitok.svg){ .lg .middle .twemoji } [**ProxiTok (TikTok)**](../frontends.md#proxitok)
 
     ---
 
-    [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki/Self-hosting){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Source Code" }
+    [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki/Self-hosting){ .card-link title="Documentación de Administrador" }
+    [:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Código Fuente" }
 
 - ![Invidious logo](../assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](../assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [**Invidious (YouTube)**](../frontends.md#invidious)
 
     ---
 
-    [:octicons-home-16:](https://invidious.io){ .card-link title="Homepage" }
-    [:octicons-info-16:](https://docs.invidious.io/installation){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Source Code" }
+    [:octicons-home-16:](https://invidious.io){ .card-link title="Página Principal" }
+    [:octicons-info-16:](https://docs.invidious.io/installation){ .card-link title="Documentación de Administrador" }
+    [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Código Fuente" }
 
 - ![Piped logo](../assets/img/frontends/piped.svg){ .twemoji } [**Piped (YouTube)**](../frontends.md#piped)
 
     ---
 
-    [:octicons-info-16:](https://docs.piped.video/docs/self-hosting){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
+    [:octicons-info-16:](https://docs.piped.video/docs/self-hosting){ .card-link title="Documentación de Administrador" }
+    [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Código Fuente" }
 
 </div>
 
-## More Tools...
+## Más Herramientas...
 
-Tool recommendations in other categories of the website also provide a self-hosted option, so you could consider this if you are confident in your ability to host the software after reading their documentation.
+Las recomendaciones de herramientas en otras categorías del sitio web también ofrecen una opción de autoalojamiento, por lo que podrías considerarla si confías en tu capacidad para alojar el software después de leer su documentación.
 
 <div class="grid cards" markdown>
 
@@ -107,64 +107,64 @@ Tool recommendations in other categories of the website also provide a self-host
 
     ---
 
-    [:octicons-home-16:](https://addy.io){ .card-link title="Homepage" }
-    [:octicons-info-16:](https://addy.io/self-hosting){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Source Code" }
+    [:octicons-home-16:](https://addy.io){ .card-link title="Página Principal" }
+    [:octicons-info-16:](https://addy.io/self-hosting){ .card-link title="Documentación de Administrador" }
+    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Código Fuente" }
 
 - ![SimpleLogin logo](../assets/img/email-aliasing/simplelogin.svg){ .twemoji } [**SimpleLogin**](../email-aliasing.md#simplelogin)
 
     ---
 
-    [:octicons-home-16:](https://addy.io){ .card-link title="Homepage" }
-    [:octicons-info-16:](https://github.com/simple-login/app#prerequisites){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Source Code" }
+    [:octicons-home-16:](https://addy.io){ .card-link title="Página Principal" }
+    [:octicons-info-16:](https://github.com/simple-login/app#prerequisites){ .card-link title="Documentación de Administrador" }
+    [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Código Fuente" }
 
 - ![CryptPad logo](../assets/img/document-collaboration/cryptpad.svg){ .twemoji } [**CryptPad**](../document-collaboration.md#cryptpad)
 
     ---
 
-    [:octicons-home-16:](https://cryptpad.fr){ .card-link title="Homepage" }
-    [:octicons-info-16:](https://docs.cryptpad.org/en/admin_guide/index.html){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
+    [:octicons-home-16:](https://cryptpad.fr){ .card-link title="Página Principal" }
+    [:octicons-info-16:](https://docs.cryptpad.org/en/admin_guide/index.html){ .card-link title="Documentación de Administrador" }
+    [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Código Fuente" }
 
 - ![Miniflux logo](../assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](../assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [**Miniflux**](../news-aggregators.md#miniflux)
 
     ---
 
-    [:octicons-home-16:](https://miniflux.app){ .card-link title="Homepage" }
-    [:octicons-info-16:](https://miniflux.app/docs/index.html#administration-guide){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Source Code" }
+    [:octicons-home-16:](https://miniflux.app){ .card-link title="Página Principal" }
+    [:octicons-info-16:](https://miniflux.app/docs/index.html#administration-guide){ .card-link title="Documentación de Administrador" }
+    [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Código Fuente" }
 
 - ![Standard Notes logo](../assets/img/notebooks/standard-notes.svg){ .twemoji } [**Standard Notes**](../notebooks.md#standard-notes)
 
     ---
 
-    [:octicons-home-16:](https://standardnotes.com){ .card-link title="Homepage" }
-    [:octicons-info-16:](https://standardnotes.com/help/47/can-i-self-host-standard-notes){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Source Code" }
+    [:octicons-home-16:](https://standardnotes.com){ .card-link title="Página Principal" }
+    [:octicons-info-16:](https://standardnotes.com/help/47/can-i-self-host-standard-notes){ .card-link title="Documentación de Administrador" }
+    [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Código Fuente" }
 
 - ![PrivateBin logo](../assets/img/pastebins/privatebin.svg){ .twemoji } [**PrivateBin**](../pastebins.md#privatebin)
 
     ---
 
-    [:octicons-home-16:](https://privatebin.info){ .card-link title="Homepage" }
-    [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/blob/master/doc/Installation.md){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Source Code" }
+    [:octicons-home-16:](https://privatebin.info){ .card-link title="Página Principal" }
+    [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/blob/master/doc/Installation.md){ .card-link title="Documentación de Administrador" }
+    [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Código Fuente" }
 
 - ![Paaster logo](../assets/img/pastebins/paaster.svg){ .twemoji } [**Paaster**](../pastebins.md#paaster)
 
     ---
 
-    [:octicons-home-16:](https://paaster.io){ .card-link title="Homepage" }
-    [:octicons-info-16:](https://github.com/WardPearce/paaster#deployment){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/WardPearce/paaster){ .card-link title="Source Code" }
+    [:octicons-home-16:](https://paaster.io){ .card-link title="Página Principal" }
+    [:octicons-info-16:](https://github.com/WardPearce/paaster#deployment){ .card-link title="Documentación de Administrador" }
+    [:octicons-code-16:](https://github.com/WardPearce/paaster){ .card-link title="Código Fuente" }
 
 - ![SimpleX Chat logo](../assets/img/messengers/simplex.svg){ .twemoji } [**SimpleX Chat**](../real-time-communication.md#simplex-chat)
 
     ---
 
-    [:octicons-home-16:](https://simplex.chat){ .card-link title="Homepage" }
-    [:octicons-info-16:](https://simplex.chat/docs/server.html){ .card-link title="Admin Documentation" }
-    [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
+    [:octicons-home-16:](https://simplex.chat){ .card-link title="Página Principal" }
+    [:octicons-info-16:](https://simplex.chat/docs/server.html){ .card-link title="Documentación de Administrador" }
+    [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Código Fuente" }
 
 </div>

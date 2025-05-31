@@ -26,7 +26,7 @@ Elige una **suite de ofimática** que no requiera iniciar sesión para acceder a
 [:octicons-heart-16:](https://libreoffice.org/donate){ .card-link title=Contribuir }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://libreoffice.org/download/android-and-ios)
 - [:simple-appstore: App Store](https://libreoffice.org/download/android-and-ios)
@@ -53,7 +53,7 @@ Elige una **suite de ofimática** que no requiera iniciar sesión para acceder a
 :octicons-code-16:{ .card-link title="Código fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id944896972)

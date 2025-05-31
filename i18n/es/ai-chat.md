@@ -12,7 +12,7 @@ cover: ai-chatbots.webp
 - [:material-account-cash: Capitalismo de Vigilancia](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 - [:material-close-outline: Censura](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 
-The use of **AI chat**, also known as Large Language Models (LLMs), has become increasingly common since the release of ChatGPT in 2022. Los LLM pueden ayudarnos a escribir mejor, a comprender temas desconocidos o a responder a una amplia gama de preguntas. They work by statistically predicting the next word in their responses based on a vast amount of data scraped from the web.
+El uso de **chats IA**, también conocidos como Modelos Extensos de Lenguaje (LLM), se ha hecho cada vez más común desde el lanzamiento de ChatGPT en 2022. Los LLM pueden ayudarnos a escribir mejor, a comprender temas desconocidos o a responder a una amplia gama de preguntas. Funcionan prediciendo estadísticamente la siguiente palabra en tus respuestas basándose en una gran cantidad de datos extraídos de la web.
 
 ## Preocupaciones por la Privacidad de los LLM
 
@@ -26,7 +26,7 @@ Alternativamente, puedes ejecutar modelos de IA localmente para que tus datos nu
 
 ### Hardware para Modelos Locales de IA
 
-Los modelos locales también son bastante accesibles. It's possible to run smaller models at lower speeds on as little as 8 GB of RAM. Utilizar un hardware más potente, como una GPU dedicada con suficiente VRAM o un sistema moderno con memoria LPDDR5X rápida, ofrece la mejor experiencia.
+Los modelos locales también son bastante accesibles. Es posible ejecutar modelos más pequeños a velocidades inferiores con tan solo 8 GB de RAM. Utilizar un hardware más potente, como una GPU dedicada con suficiente VRAM o un sistema moderno con memoria LPDDR5X rápida, ofrece la mejor experiencia.
 
 Los LLM suelen diferenciarse por el número de parámetros, que pueden variar entre 1,3B y 405B para los modelos de código abierto disponibles para los usuarios finales. Por ejemplo, los modelos con parámetros inferiores a 6,7B sólo son buenos para tareas básicas como resúmenes de texto, mientras que los modelos entre 7B y 13B son un gran compromiso entre calidad y velocidad. Los modelos con capacidades de razonamiento avanzadas suelen rondar los 70B.
 
@@ -42,9 +42,9 @@ Para ejecutar IA localmente, se necesita tanto un modelo de IA como un cliente d
 
 ### Elegir un Modelo
 
-Hay muchos modelos con licencia permisiva disponibles para descargar. [Hugging Face](https://huggingface.co/models) es una plataforma que te permite navegar, investigar y descargar modelos en formatos comunes como [GGUF](https://huggingface.co/docs/hub/en/gguf). Entre las empresas que ofrecen buenos modelos open-weights figuran grandes nombres como Mistral, Meta, Microsoft y Google. However, there are also many community models and [fine-tuned](https://en.wikipedia.org/wiki/Fine-tuning_\(deep_learning\)) models available. Como ya se ha mencionado, los modelos cuantificados ofrecen el mejor equilibrio entre calidad de modelo y rendimiento para quienes utilizan hardware de consumo personal.
+Hay muchos modelos con licencia permisiva disponibles para descargar. [Hugging Face](https://huggingface.co/models) es una plataforma que te permite navegar, investigar y descargar modelos en formatos comunes como [GGUF](https://huggingface.co/docs/hub/en/gguf). Entre las empresas que ofrecen buenos modelos open-weights figuran grandes nombres como Mistral, Meta, Microsoft y Google. Sin embargo, también existen muchos modelos comunitarios y modelos de [ajuste fino](https://es.wikipedia.org/wiki/Ajuste_fino_\(aprendizaje_profundo\)). Como ya se ha mencionado, los modelos cuantificados ofrecen el mejor equilibrio entre calidad de modelo y rendimiento para quienes utilizan hardware de consumo personal.
 
-Para ayudarte a elegir un modelo que se adapte a tus necesidades, puedes consultar tablas de clasificación y puntos de referencia. La tabla de clasificación más utilizada es la de la comunidad [LM Arena](https://lmarena.ai). Además, la [OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) se centra en el rendimiento de los modelos open-weights en puntos de referencia comunes como [MMLU-Pro](https://arxiv.org/abs/2406.01574).  There are also specialized benchmarks which measure factors like [emotional intelligence](https://eqbench.com), ["uncensored general intelligence"](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard), and [many others](https://nebuly.com/blog/llm-leaderboards).
+Para ayudarte a elegir un modelo que se adapte a tus necesidades, puedes consultar tablas de clasificación y puntos de referencia. La tabla de clasificación más utilizada es la de la comunidad [LM Arena](https://lmarena.ai). Además, la [OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) se centra en el rendimiento de los modelos open-weights en puntos de referencia comunes como [MMLU-Pro](https://arxiv.org/abs/2406.01574).  También existen puntos de referencia especializados que miden factores como [inteligencia emocional](https://eqbench.com), [«inteligencia general no censurada»](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard), y [muchos otros](https://nebuly.com/blog/llm-leaderboards).
 
 ## Clientes de Chat IA
 
@@ -63,17 +63,17 @@ Para ayudarte a elegir un modelo que se adapte a tus necesidades, puedes consult
 
 ![Kobold.cpp Logo](assets/img/ai-chat/kobold.png){align=right}
 
-**Kobold.cpp** is an AI client that runs locally on your Windows, Mac, or Linux computer. Es una opción excelente si lo que buscas es una gran personalización y ajuste, por ejemplo para juegos de rol.
+**Kobold.cpp** es un cliente de IA que se ejecuta localmente en tu ordenador Windows, Mac o Linux. Es una opción excelente si lo que buscas es una gran personalización y ajuste, por ejemplo para juegos de rol.
 
 Además de soportar una amplia gama de modelos de texto, Kobold.cpp también soporta generadores de imágenes como [Stable Diffusion](https://stability.ai/stable-image) y herramientas de reconocimiento automático de voz como [Whisper](https://github.com/ggerganov/whisper.cpp).
 
-[:octicons-repo-16: Repository](https://github.com/LostRuins/koboldcpp#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="Source Code" }
-[:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="Security Policy" }
+[:octicons-repo-16: Repositorio](https://github.com/LostRuins/koboldcpp#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/LostRuins/koboldcpp/wiki){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="Código Fuente" }
+[:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="Política de Seguridad" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:fontawesome-brands-windows: Windows](https://github.com/LostRuins/koboldcpp/releases)
 - [:simple-apple: macOS](https://github.com/LostRuins/koboldcpp/releases)
@@ -98,7 +98,7 @@ Kobold.cpp te permite modificar parámetros como la temperatura del modelo de IA
 
 ![Ollama Logo](assets/img/ai-chat/ollama.png){align=right}
 
-**Ollama** is a command-line AI assistant that is available on macOS, Linux, and Windows. Ollama es una gran elección si buscas un cliente de IA fácil de usar, ampliamente compatible y rápido gracias a su uso de la inferencia y otras técnicas. Tampoco requiere ninguna configuración manual.
+**Ollama** es un asistente de IA de línea de comandos disponible en macOS, Linux y Windows. Ollama es una gran elección si buscas un cliente de IA fácil de usar, ampliamente compatible y rápido gracias a su uso de la inferencia y otras técnicas. Tampoco requiere ninguna configuración manual.
 
 Además de soportar una amplia gama de modelos de texto, Ollama también soporta modelos [LLaVA](https://github.com/haotian-liu/LLaVA) y tiene soporte experimental para las [capacidades vision de Llama] (https://huggingface.co/blog/llama32#what-is-llama-32-vision) de Meta.
 
@@ -108,7 +108,7 @@ Además de soportar una amplia gama de modelos de texto, Ollama también soporta
 [:octicons-lock-16:](https://github.com/ollama/ollama/blob/a14f76491d694b2f5a0dec6473514b7f93beeea0/SECURITY.md){ .card-link title="Política de Seguridad" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:fontawesome-brands-windows: Windows](https://ollama.com/download/windows)
 - [:simple-apple: macOS](https://ollama.com/download/mac)
@@ -126,17 +126,17 @@ Ollama simplifica el proceso de creación de un chat de IA local descargando aut
 
 ![Llamafile Logo](assets/img/ai-chat/llamafile.webp){align=right}
 
-**Llamafile** is a lightweight, single-file executable that allows users to run LLMs locally on their own computers without any setup involved. Está [respaldado por Mozilla](https://hacks.mozilla.org/2023/11/introducing-llamafile) y disponible en Linux, macOS y Windows.
+**Llamafile** es un ejecutable ligero de un solo archivo que permite a los usuarios ejecutar LLM localmente en sus propios ordenadores sin necesidad de configuración. Está [respaldado por Mozilla](https://hacks.mozilla.org/2023/11/introducing-llamafile) y disponible en Linux, macOS y Windows.
 
 Llamafile también es compatible con LLaVA. Sin embargo, no admite el reconocimiento de voz ni la generación de imágenes.
 
-[:octicons-repo-16: Repository](https://github.com/Mozilla-Ocho/llamafile#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Mozilla-Ocho/llamafile#quickstart){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Mozilla-Ocho/llamafile){ .card-link title="Source Code" }
-[:octicons-lock-16:](https://github.com/Mozilla-Ocho/llamafile#security){ .card-link title="Security Policy" }
+[:octicons-repo-16: Repositorio](https://github.com/Mozilla-Ocho/llamafile#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Mozilla-Ocho/llamafile#quickstart){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/Mozilla-Ocho/llamafile){ .card-link title="Código Fuente" }
+[:octicons-lock-16:](https://github.com/Mozilla-Ocho/llamafile#security){ .card-link title="Política de Seguridad" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:fontawesome-brands-windows: Windows](https://github.com/Mozilla-Ocho/llamafile#quickstart)
 - [:simple-apple: macOS](https://github.com/Mozilla-Ocho/llamafile#quickstart)
@@ -146,7 +146,7 @@ Llamafile también es compatible con LLaVA. Sin embargo, no admite el reconocimi
 
 </div>
 
-Mozilla ha puesto a disposición llamafiles solo para algunos modelos de Llama y Mistral, mientras que hay pocos llamafiles de terceros disponibles. Moreover, Windows limits `.exe` files to 4 GB, and most models are larger than that.
+Mozilla ha puesto a disposición llamafiles solo para algunos modelos de Llama y Mistral, mientras que hay pocos llamafiles de terceros disponibles. Además, Windows limita los archivos `.exe` a 4 GB, y la mayoría de los modelos superan ese tamaño.
 
 Para evitar estos problemas, puedes [cargar weights externos](https://github.com/Mozilla-Ocho/llamafile#using-llamafile-with-external-weights).
 
@@ -165,7 +165,7 @@ Para comprobar la autenticidad y seguridad del modelo, busca:
 - Checksums coincidentes[^1]
     - En Hugging Face, puedes encontrar el hash haciendo clic en un archivo de modelo y buscando el botón **Copy SHA256** debajo de él. Debes comparar esta checksum con la del fichero modelo que has descargado.
 
-A downloaded model is generally safe if it satisfies all the above checks.
+Por lo general, un modelo descargado es seguro si satisface todas las comprobaciones anteriores.
 
 ## Criterios
 
@@ -177,22 +177,22 @@ Por favor, ten en cuenta que no estamos afiliados a ninguno de los proyectos que
 - No debe transmitir datos personales, incluidos los del chat.
 - Debe ser multiplataforma.
 - No debe requerir GPU.
-- Must support GPU-powered, fast inference.
+- Debe permitir la inferencia rápida en la GPU.
 - No debe requerir conexión a Internet.
 
 ### Mejor Caso
 
 Nuestros criterios para el mejor de los casos representan lo que nos _gustaría_ ver en el proyecto perfecto de esta categoría. Es posible que nuestras recomendaciones no incluyan todas o algunas de estas funciones, pero las que sí las incluyan pueden estar mejor clasificadas que otras en esta página.
 
-- Should be easy to download and set up, e.g. with a one-click installation process.
+- Debería ser fácil de descargar y configurar, por ejemplo, con un proceso de instalación de un solo clic.
 - Debería tener una opción de descarga de modelos integrada.
 - El usuario debería poder modificar los parámetros de la LLM, como su prompt de sistema o su temperatura.
 
-\*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-\*[LLM]: Large Language Model (AI model such as ChatGPT)
-\*[LLMs]: Large Language Models (AI models such as ChatGPT)
-\*[open-weights models]: AI models that anyone can download and use, but the underlying training data and/or algorithms for them are proprietary.
-\*[system prompt]: The general instructions given by a human to guide how an AI chat should operate.
-\*[temperature]: A parameter used in AI models to control the level of randomness and creativity in the generated text.
+\*[LLaVA]: Asistente de Lenguaje y Visión de Gran Tamaño (modelo de IA multimodal)
+\*[LLM]: Modelo Extenso de Lenguaje (Modelo de IA como ChatGPT)
+\*[LLMs]: Modelos Extensos de Lenguaje (Modelo de IA como ChatGPT)
+\*[modelos open-weights]: Modelos de IA que cualquiera puede descargar y utilizar, pero cuyos datos de entrenamiento y/o algoritmos subyacentes están patentados.
+\*[prompt del sistema]: Las instrucciones generales dadas por un humano para guiar cómo debe operar un chat de IA.
+\*[temperatura]: Parámetro utilizado en los modelos de IA para controlar el nivel de aleatoriedad y creatividad del texto generado.
 
 [^1]: La checksum de un archivo es un tipo de huella digital antimanipulación. Un desarrollador suele proporcionar una checksum en un archivo de texto que puede descargarse por separado, o en la propia página de descarga. Verificar que la checksum del archivo descargado coincide con la proporcionada por el desarrollador ayuda a garantizar que el archivo es auténtico y no ha sido manipulado durante el transporte. Puedes utilizar comandos como `sha256sum` en Linux y macOS, o `certutil -hashfile file SHA256` en Windows para generar la checksum del archivo descargado.

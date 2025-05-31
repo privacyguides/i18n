@@ -24,33 +24,33 @@ schema:
 [:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Página Principal }
 [:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Código Fuente" }
 
-Privacy Guides está elaborada por voluntarios y miembros del personal de todo el mundo. All changes to our recommendations and resources are reviewed by at least two trusted individuals, and we work diligently to ensure our content is updated as quickly as possible to adapt to the ever-changing cybersecurity threat landscape.
+Privacy Guides está elaborada por voluntarios y miembros del personal de todo el mundo. Todos los cambios en nuestras recomendaciones y recursos son revisados por al menos dos personas de confianza, y trabajamos con diligencia para garantizar que nuestro contenido se actualice lo más rápidamente posible para adaptarse al panorama siempre cambiante de las amenazas a la ciberseguridad.
 
 Además de nuestro equipo central, [muchas otras personas](about/contributors.md) han contribuido al proyecto. ¡Tú también puedes contribuir! Somos de código abierto en GitHub y aceptamos sugerencias de traducciones en [Crowdin](https://crowdin.com/project/privacyguides).
 
 [Ofertas de Empleo :material-arrow-right-drop-circle:](about/jobs.md)
 
-## :material-email-edit: Contact Us
+## :material-email-edit: Contacta con nosotros
 
-[:simple-discourse: Join the Privacy Guides forum](https://discuss.privacyguides.net){ .md-button .md-button--primary }
+[:simple-discourse: Únete al foro de Privacy Guides](https://discuss.privacyguides.net){ .md-button .md-button--primary }
 
-The best way to get individual help is from our community on Discourse. If you notice an issue with our website, please open a discussion in the [Site Development](https://discuss.privacyguides.net/c/site-development/7) category on our forum. If you have a question about anything we cover, please ask it in the [Questions](https://discuss.privacyguides.net/c/privacy/questions/8) category on our forum.
+La mejor forma de obtener ayuda individual es a través de nuestra comunidad en Discourse. Si detectas algún problema en nuestro sitio web, abre un debate en la categoría [Site Development](https://discuss.privacyguides.net/c/site-development/7) de nuestro foro. Si tienes alguna pregunta sobre cualquier tema que tratemos, hazla en la categoría [Questions](https://discuss.privacyguides.net/c/privacy/questions/8) de nuestro foro.
 
 ![Signal contact QR code](assets/img/layout/signal-contact-qr.png){ align=right }
 
-Have a tip for us, or need to share some sensitive information? The best way to get in touch with us securely is via `@privacyguides.01` on Signal. This group account is monitored by [Jonah](https://discuss.privacyguides.net/u/jonah), [Niek](https://discuss.privacyguides.net/u/niek-de-wilde), [Em](https://discuss.privacyguides.net/u/ematprivacyguides), and [Jordan](https://discuss.privacyguides.net/u/jordan).
+¿Tienes algún consejo o necesitas compartir información sensible? La mejor manera de ponerte en contacto con nosotros de forma segura es a través de `@privacyguides.01` en Signal. Esta cuenta de grupo está supervisada por [Jonah](https://discuss.privacyguides.net/u/jonah), [Niek](https://discuss.privacyguides.net/u/niek-de-wilde), [Em](https://discuss.privacyguides.net/u/ematprivacyguides), y [Jordan](https://discuss.privacyguides.net/u/jordan).
 
-[:simple-signal: Chat on Signal](https://signal.me/#eu/zg9xcrIv5w-EtXt2FmTJgfWv01LmyTed8rpr7RDv35Mizq8ISZ9NJLmYtzsxI0Z4){ .md-button }
+[:simple-signal: Chat en Signal](https://signal.me/#eu/zg9xcrIv5w-EtXt2FmTJgfWv01LmyTed8rpr7RDv35Mizq8ISZ9NJLmYtzsxI0Z4){ .md-button }
 
-You may also email the entire team at <team@privacyguides.org>. This is a shared inbox that could be read by any team member, so please consider what sensitive information you share via email accordingly.
+También puedes enviar un correo electrónico a todo el equipo en <team@privacyguides.org>. Esta es una bandeja de entrada compartida que puede ser leída por cualquier miembro del equipo, así que por favor considera qué información sensible compartes a través del correo electrónico.
 
-We will do our best to respond to all queries within 3 business days, but please understand we are unable to provide individualized advice to everyone who asks. If you have a question about privacy, you will receive a much more detailed and timely response from the Privacy Guides community by [asking on our forum](https://discuss.privacyguides.net/c/privacy/questions/8).
+Haremos todo lo posible por responder a todas las consultas en un plazo de 3 días laborables, pero comprende que no podemos ofrecer asesoramiento individualizado a todos los que nos lo piden. Si tienes alguna pregunta sobre privacidad, recibirás una respuesta mucho más detallada y oportuna de la comunidad de Privacy Guides [preguntando en nuestro foro](https://discuss.privacyguides.net/c/privacy/questions/8).
 
-You can also use OpenPGP to contact us via email, if you feel comfortable with your client's security settings. You can discover the PGP keys of our team members using WKD if your client supports it. If it doesn't, or you don't know what that means, you can also find the public key for any Privacy Guides email account by searching on [keys.openpgp.org](https://keys.openpgp.org). We do not have PGP for the shared team inbox, only individual mailboxes which can be found in our team directory below.
+También puedes utilizar OpenPGP para ponerte en contacto con nosotros por correo electrónico, si te sientes cómodo con la configuración de seguridad de tu cliente. Puedes descubrir las claves PGP de los miembros de nuestro equipo utilizando WKD si tu cliente lo soporta. Si no es así, o si no sabes lo que significa, también puedes encontrar la clave pública de cualquier cuenta de correo electrónico de Privacy Guides buscando en [keys.openpgp.org](https://keys.openpgp.org). No tenemos PGP para la bandeja de entrada compartida del equipo, solo buzones individuales que se pueden encontrar en nuestro directorio de equipo a continuación.
 
-If you need an alternative secure channel, please request one via any contact method including social media, and we will work with you to establish one. Please do not share any sensitive information with us before we have established an appropriately secure discussion channel.
+Si necesitas un canal seguro alternativo, solicítalo a través de cualquier método de contacto, incluyendo las redes sociales, y trabajaremos contigo para establecer uno. Por favor, no compartas ninguna información sensible con nosotros antes de que hayamos establecido un canal de discusión adecuadamente seguro.
 
-## :material-account-tie: Executive Committee
+## :material-account-tie: Comité Ejecutivo
 
 <!-- markdownlint-disable MD030 -->
 
@@ -120,9 +120,9 @@ El comité ejecutivo del proyecto está conformado por cinco voluntarios encarga
 
 </div>
 
-## :material-account-edit: Staff
+## :material-account-edit: Personal
 
-Our staff are paid to contribute to supplemental content at Privacy Guides, like [video production](https://www.youtube.com/@privacyguides), [news articles and tutorials](https://www.privacyguides.org/articles), and our discussion communities and social media. La mayoría están disponibles y son remunerados a tiempo completo para ayudar a la organización.
+Nuestro personal recibe una remuneración por contribuir a los contenidos complementarios de Privacy Guides, como [producción de vídeos](https://www.youtube.com/@privacyguides), [artículos de noticias y tutoriales](https://www.privacyguides.org/articles), y nuestras comunidades de debate y redes sociales. La mayoría están disponibles y son remunerados a tiempo completo para ayudar a la organización.
 
 <div class="grid cards" markdown>
 
@@ -164,16 +164,16 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
 
 </div>
 
-## :material-check-decagram: Social Media
+## :material-check-decagram: Redes Sociales
 
-We have a general policy of avoiding links to centralized social media profiles and other websites outside our control. This means that in places like our website footer and other areas, we only link to platforms we fully control, such as our Mastodon and PeerTube accounts or Matrix channels.
+Tenemos la política general de evitar enlaces a perfiles de redes sociales centralizadas y otros sitios web fuera de nuestro control. Esto significa que en lugares como el pie de página de nuestro sitio web y otras áreas, solo enlazamos a plataformas que controlamos totalmente, como nuestras cuentas de Mastodon y PeerTube o los canales de Matrix.
 
-However, Privacy Guides _does_ have social media accounts on a wide variety of platforms, in the hope of reaching new users who aren't yet familiar with our content. We try to make this a "one-way street" where those accounts link to privacyguides.org, and not the other way around. However, this creates some confusion about which accounts are actually run by the Privacy Guides team. For reference, we will list all of our accounts here:
+Sin embargo, Privacy Guides _tiene_ cuentas de redes sociales en una amplia variedad de plataformas, con la esperanza de llegar a nuevos usuarios que aún no están familiarizados con nuestro contenido. Intentamos que sea una «calle de sentido único» en la que esas cuentas enlacen con privacyguides.org, y no al revés. Sin embargo, esto crea cierta confusión sobre qué cuentas gestiona realmente el equipo de Privacy Guides. Como referencia, enumeraremos aquí todas nuestras cuentas:
 
 <div class="grid cards" markdown>
 
-- [:simple-discourse: **Forum**](https://discuss.privacyguides.net)
-- [:simple-matrix: **Matrix Space**](https://matrix.to/#/#privacyguides:matrix.org)
+- [:simple-discourse: **Foro**](https://discuss.privacyguides.net)
+- [:simple-matrix: **Espacio Matrix**](https://matrix.to/#/#privacyguides:matrix.org)
 - [:simple-mastodon: **Mastodon**](https://mastodon.neat.computer/@privacyguides)
 - [:simple-peertube: **PeerTube**](https://neat.tube/c/privacyguides)
 - [:simple-bluesky: Bluesky](https://bsky.app/profile/privacyguides.org)
@@ -187,9 +187,9 @@ However, Privacy Guides _does_ have social media accounts on a wide variety of p
 
 </div>
 
-To reiterate, this is not an endorsement of any platform, and we generally discourage following us on most social media platforms.
+Reiteramos que esto no significa que apoyemos ninguna plataforma y, en general, desaconsejamos seguirnos en la mayoría de las redes sociales.
 
-## :material-newspaper: In The Media
+## :material-newspaper: En los Medios de Comunicación
 
 > Para encontrar aplicaciones [alternativas centradas en la privacidad], consulta sitios como Good Reports y **Privacy Guides**, que enumeran aplicaciones centradas en la privacidad en diversas categorías, entre las que destacan los proveedores de correo electrónico (normalmente con planes de pago) que no están gestionados por las grandes empresas tecnológicas.
 
@@ -201,7 +201,7 @@ To reiterate, this is not an endorsement of any platform, and we generally disco
 
 También en: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok), [Wirecutter](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc) [[2](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac)], [NPO Radio 1](https://nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), [Wired](https://wired.com/story/firefox-mozilla-2022), [Fast Company](https://fastcompany.com/91167564/mozilla-wants-you-to-love-firefox-again) y [404 Media](https://404media.co/privacy-service-optery-faces-backlash-after-plan-to-send-openai-user-data).
 
-## :material-history: History
+## :material-history: Historia
 
 Privacy Guides se lanzó en septiembre de 2021 como continuación del proyecto educativo de código abierto [desaparecido](about/privacytools.md) "PrivacyTools". Reconocimos la importancia de las recomendaciones de productos independientes y centradas en criterios, así como del conocimiento general en el espacio de la privacidad, razón por la cual necesitábamos preservar el trabajo que habían creado tantos colaboradores desde 2015 y asegurarnos de que la información tuviera un hogar estable en la web de forma indefinida.
 
@@ -211,7 +211,7 @@ Además, lanzamos nuestro nuevo foro de debate en [discuss.privacyguides.net](ht
 
 En 2023, lanzamos traducciones internacionales de nuestro sitio web en [francés](https://www.privacyguides.org/fr), [hebreo](https://www.privacyguides.org/he), [neerlandés](https://www.privacyguides.org/nl) y más idiomas, gracias a nuestro excelente equipo de traducción en [Crowdin](https://crowdin.com/project/privacyguides). Tenemos previsto seguir adelante con nuestra misión de divulgación y educación, y buscar formas de poner de relieve con mayor claridad los peligros de la falta de concienciación sobre la privacidad en la era digital moderna, así como la prevalencia y los perjuicios de las brechas de seguridad en todo el sector tecnológico.
 
-## :material-license: Site License
+## :material-license: Licencia del Sitio
 
 <div class="admonition danger" markdown>
 
