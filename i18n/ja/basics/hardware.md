@@ -67,34 +67,34 @@ Androidでは生体認証の[生体認証クラス](https://source.android.com/d
 
 現実的ではないかもしれないため、その価値があるか検討してください。いずれにせよ、強力な暗号鍵を使っていれば、AFUでも多くの脅威には有効です。
 
-## External Hardware
+## 外付けのハードウェア
 
-Some threats can't be protected against by your internal components alone. Many of these options are highly situational; please evaluate if they are really necessary for your threat model.
+内部コンポーネントだけでは対抗できない脅威もあります。 状況によるところが大きいため、脅威モデルに本当に必要であるか評価してください。
 
 ### ハードウェアセキュリティ
 
-Hardware keys are devices that use strong cryptography to authenticate you to a device or account. The idea is that because they can not be copied, you can use them to secure accounts in such a way that they can only be accessed with physical possession of the key, eliminating many remote attacks.
+ハードウェアキーは強力な暗号技術を使って、デバイスやアカウントの認証を行うデバイスです。 ハードウェアキーはコピーできず、物理的に所持している場合にのみアクセスできる方法でアカウントを保護するため、多くのリモート攻撃を排除できます。
 
-[Recommended Hardware Keys :material-arrow-right-drop-circle:](../security-keys.md){ .md-button .md-button--primary } [Learn More about Hardware Keys :material-arrow-right-drop-circle:](multi-factor-authentication.md#hardware-security-keys){ .md-button }
+[推奨するハードウェアキー :material-arrow-right-drop-circle:](../security-keys.md){ .md-button .md-button--primary } [ハードウェアキーの詳細 :material-arrow-right-drop-circle:](multi-factor-authentication.md#hardware-security-keys){ .md-button }
 
-### Camera/Microphone
+### カメラ/マイク
 
-If you don't want to trust your OS's permission controls to prevent the camera from activating in the first place, you can buy camera blockers that physically prevent light from reaching the camera. You could also buy a device that doesn't have a built-in camera and use an external camera that you can unplug whenever you're done using it. Some devices come with built-in camera blockers or hardware switches that physically disconnect the camera from power.
+OSの権限管理をそもそも信用しない場合、物理的にカメラに光が届かないようにカメラブロックを購入することも一つの方法です。 また、カメラが内蔵されていないデバイスを購入し、使っていないときには取り外すことができる外付けのカメラを使うことも一つの方法です。 カメラブロッカー付きのものやカメラを電源から物理的に切り離すハードウェアスイッチのあるカメラもあります。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">注意</p>
 
-You should only buy covers that fit your laptop and won't cause damage when you close the lid. Covering the camera will interfere with automatic brightness and face authentication features.
+ノートパソコンに合っていて、蓋を閉めたときにダメージを与えないカメラカバーを買うようにしてください。 カメラを覆うと、明るさの自動調整や顔認証機能の妨げになります。
 
 </div>
 
-For microphone access, in most cases you will need to trust your OS's built-in permission controls. Alternatively, buy a device that doesn't have a built-in microphone and use an external microphone that you can unplug when you're done using it. Some devices, like a [MacBook or an iPad](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web), feature a hardware disconnect for the microphone when you close the lid.
+マイクのアクセスについては、多くの場合、OSの権限管理を信用する必要があります。 もしくはマイクが内蔵されていないデバイスを購入し、使っていないときには外すことができる外付けのマイクを使ってください。 [MacBookやiPad](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web)のように蓋をしめるとマイクがハードウェア的に切断されるデバイスもあります。
 
-Many computers have a BIOS option to disable the camera and microphone. When disabled there, the hardware won't even appear as a device on a booted system.
+多くのコンピューターにはカメラやマイクを無効にするオプションがBIOSにあります。 無効にすると、起動したシステム上にデバイスとして表示されなくなります。
 
-### Privacy Screens
+### プライバシースクリーン
 
-Privacy screens are a film you can put over your normal screen so that the screen is only visible from a certain angle. These are good if your threat model includes others peeking at your screen, but it is not foolproof as anyone could just move to a different viewing angle and see what's on your screen.
+プライバシースクリーンはスクリーン上にフィルムを貼り、ある角度でのみスクリーンが見えるようにするものです。 脅威モデルにスクリーンを覗き見することがある場合はよいですが、誰でも視野角を変えるだけでスクリーンを見ることができるため、確実なものではありません。
 
 ### Dead Man's Switches
 
