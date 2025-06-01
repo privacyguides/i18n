@@ -56,11 +56,11 @@ De este modo se establece un horario para volver a revisar cada sitio web aproxi
 
 Una vez que te hayas dado de baja de todos estos sitios por primera vez, lo mejor es esperar una o dos semanas para que las solicitudes se propaguen a todos sus sitios. A continuación, puedes empezar a buscar y darte de baja de los sitios restantes que encuentres. Puede ser una buena idea utilizar un rastreador web como la herramienta [Google's _Results about you_](#google-results-about-you-free) para ayudar a encontrar cualquier dato que permanezca en Internet.
 
-Por lo demás, la periodista especializada en privacidad Yael Grauer ha elaborado una excelente lista de sitios de comerciantes de datos con enlaces directos a sus herramientas de búsqueda y páginas de exclusión voluntaria. You can take some time to go through each site to determine whether they have your information, and remove it:
+Por lo demás, la periodista especializada en privacidad Yael Grauer ha elaborado una excelente lista de sitios de comerciantes de datos con enlaces directos a sus herramientas de búsqueda y páginas de exclusión voluntaria. Puedes dedicar algún tiempo a revisar cada sitio para determinar si tienen tu información y eliminarla:
 
 [:simple-github: Enorme Lista de Exclusión de Comerciantes de Datos](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List){ .md-button }
 
-Si no utilizas un escáner automático para encontrar resultados sobre ti, considera la posibilidad de establecer un recordatorio para volver a realizar este proceso cada 3, 6 o 12 meses, en función de tu nivel de riesgo y de la cantidad de datos personales que tengas ahí fuera. Unfortunately, it is common for your data to re-appear over time or show up on brand-new people search sites even after you opt out.
+Si no utilizas un escáner automático para encontrar resultados sobre ti, considera la posibilidad de establecer un recordatorio para volver a realizar este proceso cada 3, 6 o 12 meses, en función de tu nivel de riesgo y de la cantidad de datos personales que tengas ahí fuera. Desafortunadamente, es habitual que tus datos reaparezcan con el tiempo o aparezcan en nuevos sitios de búsqueda de personas incluso después de haberte dado de baja.
 
 ## EasyOptOuts <small>de Pago</small>
 
@@ -77,7 +77,7 @@ Si no utilizas un escáner automático para encontrar resultados sobre ti, consi
 
 Algunos sitios web compatibles con EasyOptOuts pueden consultarse públicamente. En esos casos, EasyOptOuts realizará una búsqueda y solo enviará una solicitud de exclusión voluntaria si tus datos personales ya se han encontrado, para evitar enviar tus datos en una solicitud de exclusión voluntaria a sitios que aún no los tenían. Sin embargo, admiten algunos sitios en los que no se pueden realizar búsquedas públicas, y en esos casos tus datos les serán enviados en una solicitud de exclusión voluntaria a pesar de todo, en caso de que tú estés en sus bases de datos privadas.
 
-Our [testing](https://www.privacyguides.org/articles/2025/02/03/easyoptouts-review) indicates that EasyOptOuts provides the best value out of any data removal service we've tested, with a very affordable price and high effectiveness. Independent [findings from Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) also indicate that EasyOptOuts is one of the top performing data removal services.
+Nuestras [pruebas](https://www.privacyguides.org/articles/2025/02/03/easyoptouts-review) indican que EasyOptOuts ofrece la mejor relación calidad-precio de todos los servicios de eliminación de datos que hemos probado, con un precio muy asequible y una alta efectividad. Los [resultados independientes de Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) también indican que EasyOptOuts es uno de los servicios de eliminación de datos con mejores resultados.
 
 <div class="admonition failure" markdown>
 <p class="admonition-title">Sitios de alta prioridad no compatibles con EasyOptOuts</p>
@@ -121,12 +121,12 @@ En nuestras pruebas, esta herramienta funcionó para eliminar de forma fiable lo
 
 ## Criterios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Te sugerimos que te familiarices con esta lista antes de elegir un servicio de eliminación de datos, y que lleves a cabo tu propia investigación para asegurarte de que es la opción adecuada para ti.
+**Por favor, ten en cuenta que no estamos afiliados a ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Te sugerimos que te familiarices con esta lista antes de elegir un servicio de eliminación de datos, y que lleves a cabo tu propia investigación para asegurarte de que es la opción adecuada para ti.
 
 Nuestras selecciones de servicios de eliminación se basan principalmente en pruebas profesionales independientes realizadas por terceros, como se indica en las secciones anteriores, en nuestras propias pruebas internas y en los comentarios agregados de nuestra comunidad.
 
-- Must not be a white labeled service or reseller of another provider.
+- No debe ser un servicio de marca blanca ni un revendedor de otro proveedor.
 - No debe estar afiliado a la industria de la comercialización de datos ni comprar publicidad en sitios de búsqueda de personas.
 - Solo debe utilizar tus datos personales para excluirte de bases de datos de comerciantes y sitios de búsqueda de personas.
 
-[^1]: Si _estás_ amenazado inmediatamente por acosadores u otras amenazas, deberías considerar seriamente una herramienta automatizada como [EasyOptOuts](#easyoptouts-paid), al menos para la "purga" inicial. Cuando las cosas sean más manejables en el futuro podrás volver al proceso manual. Of course, in a dangerous situation your first priority should always be to seek professional help [from police](https://onlineharassmentfieldmanual.pen.org/involving-law-enforcement) or others before tackling it on your own.
+[^1]: Si _estás_ amenazado inmediatamente por acosadores u otras amenazas, deberías considerar seriamente una herramienta automatizada como [EasyOptOuts](#easyoptouts-paid), al menos para la "purga" inicial. Cuando las cosas sean más manejables en el futuro podrás volver al proceso manual. Por supuesto, en una situación de peligro tu primera prioridad debe ser siempre buscar ayuda profesional [de la policía](https://onlineharassmentfieldmanual.pen.org/involving-law-enforcement) u otras personas antes de afrontarla por tu cuenta.

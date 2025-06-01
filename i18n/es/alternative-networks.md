@@ -35,7 +35,7 @@ La manera recomendada de acceder a la red Tor es por medio del Navegador Tor, qu
 
 [Información del Navegador Tor :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary } [Revisión detallada de Tor :material-arrow-right-drop-circle:](advanced/tor-overview.md){ .md-button }
 
-You can access the Tor network using other tools; making this determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. Aumentar el número de personas que usan Tor a diario ayuda a reducir el mal estigma de Tor, y disminuye la calidad de las "listas de usuarios de Tor" que los ISP y los gobiernos pueden compilar.
+Puedes acceder a la red Tor utilizando otras herramientas; tomar esta decisión depende de tu modelo de amenaza. Si eres un usuario ocasional de Tor y no te preocupa que tu ISP recopile pruebas contra ti, usar aplicaciones como [Orbot](#orbot) o aplicaciones de navegador móvil para acceder a la red Tor probablemente esté bien. Aumentar el número de personas que usan Tor a diario ayuda a reducir el mal estigma de Tor, y disminuye la calidad de las "listas de usuarios de Tor" que los ISP y los gobiernos pueden compilar.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">¡Pruébalo!</p>
@@ -50,13 +50,13 @@ Puedes acceder a _Privacy Guides_ a través de tor en [xoe4vn5uwdztif6goazfbmogh
 
 ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
 
-**Orbot** is a mobile application which routes traffic from any app on your device through the Tor network.
+**Orbot** es una aplicación móvil que enruta el tráfico de cualquier aplicación en tu dispositivo a través de la red Tor.
 
-[:octicons-home-16: Homepage](https://orbot.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://orbot.app/faqs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://orbot.app/donate){ .card-link title="Contribute" }
+[:octicons-home-16: Página Principal](https://orbot.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Politica de Privacidad" }
+[:octicons-info-16:](https://orbot.app/faqs){ .card-link title="Documentación" }
+[:octicons-code-16:](https://orbot.app/code){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://orbot.app/donate){ .card-link title="Contribuir" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -70,20 +70,20 @@ Puedes acceder a _Privacy Guides_ a través de tor en [xoe4vn5uwdztif6goazfbmogh
 
 </div>
 
-We previously recommended enabling the _Isolate Destination Address_ preference in Orbot settings. While this setting can theoretically improve privacy by enforcing the use of a different circuit for each IP address you connect to, it doesn't provide a practical advantage for most applications (especially web browsing), can come with a significant performance penalty, and increases the load on the Tor network. We no longer recommend adjusting this setting from its default value unless you know you need to.[^1]
+Anteriormente recomendamos activar la preferencia _Aislar Direcciones de Destino_ en los ajustes de Orbot. Aunque esta configuración puede mejorar teóricamente la privacidad forzando el uso de un circuito diferente para cada dirección IP a la que te conectes, no proporciona una ventaja práctica para la mayoría de las aplicaciones (especialmente navegación web), puede conllevar una penalización significativa del rendimiento, y aumenta la carga en la red Tor. Ya no recomendamos modificar el valor predeterminado de este ajuste, a menos que estés seguro de que lo necesitas.[^1]
 
 \=== "Android"
 
 ```
-Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN kill switch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+Orbot puede hacer de proxy para aplicaciones individuales si son compatibles con SOCKS o proxy HTTP. También puede hacer de proxy para todas tus conexiones de red utilizando [VpnService] (https://developer.android.com/reference/android/net/VpnService) y se puede utilizar con el kill switch VPN en :gear: **Ajustes** → **Red e Internet** → **VPN** → :gear: → **Bloquear conexiones sin VPN**.
 
-Orbot is often outdated on Google Play and the Guardian Project's F-Droid repository, so consider downloading directly from the GitHub repository instead. All versions are signed using the same signature, so they should be compatible with each other.
+Orbot suele estar desactualizado en Google Play y en el repositorio F-Droid de Guardian Project, así que considera descargarlo directamente del repositorio de GitHub en su lugar. Todas las versiones están firmadas usando la misma firma, por lo que deberían ser compatibles entre sí.
 ```
 
 \=== "iOS"
 
 ```
-On iOS, Orbot has some limitations that could potentially cause crashes or leaks: iOS does not have an effective OS-level feature to block connections without a VPN like Android does, and iOS has an artificial memory limit for network extensions that makes it challenging to run Tor in Orbot without crashes. Currently, it is always safer to use Tor on a desktop computer compared to a mobile device.
+En iOS, Orbot tiene algunas limitaciones que posiblemente podrían causar cuelgues o filtraciones: iOS no tiene una característica efectiva a nivel de sistema operativo para bloquear conexiones sin una VPN como hace Android, e iOS tiene un límite de memoria artificial para extensiones de red que hace que sea un reto ejecutar Tor en Orbot sin cuelgues. Actualmente, siempre es más seguro usar Tor en un ordenador de sobremesa que en un dispositivo móvil.
 ```
 
 #### Snowflake
@@ -112,7 +112,7 @@ Puedes activar Snowflake en tu navegador al abrirlo en otra pestaña y activar e
 
 Snowflake no aumenta tu privacidad de ninguna manera, ni se utiliza para conectar con la red Tor desde tu navegador personal. Sin embargo, si tu conexión a Internet no está censurada, deberías considerar ejecutarlo para ayudar a mejorar la privacidad de las personas en redes censuradas. No es necesasrio preocuparte sobre cuales páginas acceden las personas a través de tu proxy—su dirección IP visible coincidirá con su nodo de salida de Tor, no el tuyo.
 
-Running a Snowflake proxy is low-risk, even more so than running a Tor relay or bridge which are already not particularly risky endeavors. Sin embargo, el tráfico de proxy pasa a través de tu red, lo que puede impactar de varias maneras, especialmente si el tráfico de tu red es limitado. Asegúrate de comprender [cómo funciona Snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) antes de tomar la decisión de ejecutar un proxy.
+Ejecutar un proxy Snowflake tiene poco riesgo, incluso menos que ejecutar un relé Tor o un puente, que de por sí no son actividades especialmente arriesgadas. Sin embargo, el tráfico de proxy pasa a través de tu red, lo que puede impactar de varias maneras, especialmente si el tráfico de tu red es limitado. Asegúrate de comprender [cómo funciona Snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) antes de tomar la decisión de ejecutar un proxy.
 
 ### I2P (El Proyecto de Internet Invisible)
 
@@ -121,7 +121,7 @@ Running a Snowflake proxy is low-risk, even more so than running a Tor relay or 
 ![logo de I2P](assets/img/self-contained-networks/i2p.svg#only-light){ align=right }
 ![logo de I2P](assets/img/self-contained-networks/i2p-dark.svg#only-dark){ align=right }
 
-**I2P** is a network layer which encrypts your connections and routes them via a network of computers distributed around the world. Está enfocada principalmente en crear una red alternativa que protege la privacidad, en vez de anonimizar las conexiones regulares a Internet.
+**I2P** es una capa de red que cifra tus conexiones y las enruta a través de una red de ordenadores distribuidos por todo el mundo. Está enfocada principalmente en crear una red alternativa que protege la privacidad, en vez de anonimizar las conexiones regulares a Internet.
 
 [:octicons-home-16: Página principal](https://geti2p.net/en){ .md-button .md-button--primary }
 [:octicons-info-16:](https://geti2p.net/en/about/software){ .card-link title=Documentación }
@@ -150,10 +150,10 @@ Puedes tratar de conectarte a _Privacy Guides_ a través de I2P en [privacyguide
 
 </div>
 
-Además, a diferencia de Tor, cada nodo de I2P retransmite el tráfico para otros usuarios por defecto, en vez de depender de voluntarios dedicados a la retransmisión para ejecutar los nodos. Hay aproximadamente [10,000](https://metrics.torproject.org/networksize.html) repetidores y puentes en la red Tor, comparador a los ~50,000 en I2P, significando que hay potenciamente más formas de enrutar tu tráfico para maximizar el anonimato. I2P also tends to be more performant than Tor, although this is likely a side effect of Tor being more focused on regular "clearnet" internet traffic and thus using more bottle necked exit nodes. El rendimiento del servicio oculto es, por lo general, considerado mucho mejor en I2P a comparación de Tor. Mientras la ejecución de aplicaciones como BitTorrent es complicado en Tor (y puede impactar masivamente el rendimiento de la red Tor), es muy fácil y eficiente en I2P.
+Además, a diferencia de Tor, cada nodo de I2P retransmite el tráfico para otros usuarios por defecto, en vez de depender de voluntarios dedicados a la retransmisión para ejecutar los nodos. Hay aproximadamente [10,000](https://metrics.torproject.org/networksize.html) repetidores y puentes en la red Tor, comparador a los ~50,000 en I2P, significando que hay potenciamente más formas de enrutar tu tráfico para maximizar el anonimato. I2P también tiende a ser más eficiente que Tor, aunque esto es probablemente un efecto secundario de que Tor está más centrado en el tráfico regular de Internet «superficial» y por lo tanto utiliza más nodos de salida con cuellos de botella. El rendimiento del servicio oculto es, por lo general, considerado mucho mejor en I2P a comparación de Tor. Mientras la ejecución de aplicaciones como BitTorrent es complicado en Tor (y puede impactar masivamente el rendimiento de la red Tor), es muy fácil y eficiente en I2P.
 
 Sin embargo, I2P presenta sus desventajas. La dependencia de Tor en nodos de salida dedicados significa que más personas en entornos menos seguros pueden usarlo, y los repetidores que existen en Tor son probablemente más eficientes y estables, porque generalmente no son ejecutados en conexiones residenciales. Tor también está más enfocado en la **privacidad del navegador** (ej: protección ante las huellas dactilares), con un [Navegador Tor](tor.md) dedicado para anonimizar la actividad de navegación lo máximo posible. I2P es usado a través de tu [navegador regular de Internet](desktop-browsers.md) y mientras puedes configurar tu navegador para que proteja mejor tu privacidad, probablemente tu navegador no tiene la misma huella dactilar que otros usuarios de I2P (no hay una "multitud" para camuflarte).
 
 Es probable que Tor sea más resistente a la censura, debido a su robusta red de puentes y diversos [transportes conectables](https://tb-manual.torproject.org/circumvention). Por otro lado, I2P usa servidores de directorio para la conexión inicial, que pueden ser variables/no fiables y ejecutados por voluntarios, a comparación de los codificados/fiables que Tor usa y probablemente son más fáciles de bloquear.
 
-[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403) and [Whonix's Stream Isolation documentation](https://whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.
+[^1]: El ajuste `IsolateDestAddr` se discute en la [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403) y [documentación de Stream Isolation de Whonix](https://whonix.org/wiki/Stream_Isolation), donde ambos proyectos sugieren que no suele ser un buen enfoque para la mayoría de la gente.
