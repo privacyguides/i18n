@@ -47,7 +47,7 @@ Las opciones listadas aquí están disponibles en múltiples plataformas y son g
 
 Cryptomator utiliza el cifrado AES-256 para cifrar tanto los archivos como los nombres de los archivos. Cryptomator no puede cifrar metadatos como las marcas de la fecha de acceso, modificación y creación, ni el número y tamaño de los archivos y carpetas.
 
-Cryptomator is free to use on all desktop platforms, as well as on iOS in "read only" mode. Cryptomator offers [paid](https://cryptomator.org/pricing) apps with full functionality on iOS and Android. The Android version can be purchased anonymously via [ProxyStore](https://cryptomator.org/coop/proxystore).
+Cryptomator es de uso gratuito en todas las plataformas de escritorio, así como en iOS en modo "solo lectura". Cryptomator ofrece aplicaciones de [pago](https://cryptomator.org/pricing) con funcionalidad completa en iOS y Android. La versión para Android puede adquirirse de forma anónima a través de [ProxyStore](https://cryptomator.org/coop/proxystore).
 
 Algunas bibliotecas criptográficas de Cryptomator han sido [auditadas](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44) por Cure53. El alcance de las bibliotecas auditadas incluye: [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) y [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). La auditoría no se extendió a [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift), que es una biblioteca utilizada por Cryptomator para iOS.
 
@@ -65,9 +65,9 @@ La documentación de Cryptomator detalla con más detalle su [objetivo de seguri
 
 **Picocrypt** es una herramienta de cifrado pequeña y simple que proporciona un cifrado moderno. Picocrypt utiliza el cifrado seguro XChaCha20 y la función de derivación de clave Argon2id para proporcionar un alto nivel de seguridad. Utiliza los módulos x/crypto estándar de Go para sus funciones de cifrado.
 
-[:octicons-repo-16: Repository](https://github.com/Picocrypt/Picocrypt#readme){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/Picocrypt/Picocrypt){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title="Contribute" }
+[:octicons-repo-16: Repositorio](https://github.com/Picocrypt/Picocrypt#readme){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/Picocrypt/Picocrypt){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title="Contribuir" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -115,7 +115,7 @@ VeraCrypt es una bifurcación del proyecto TrueCrypt ya descontinuado. Según su
 
 Al cifrar con VeraCrypt, tiene la opción de seleccionar entre diferentes [funciones hash](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme). Le sugerimos **únicamente** seleccionar [SHA-512](https://en.wikipedia.org/wiki/SHA-512) y seleccionar el [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) como cifrado de bloque.
 
-TrueCrypt has been [audited a number of times](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), and VeraCrypt has also been [audited separately](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
+TrueCrypt ha sido [auditada varias veces](https://en.wikipedia.org/wiki/TrueCrypt#Security_audits), y VeraCrypt también ha sido [auditada por separado](https://en.wikipedia.org/wiki/VeraCrypt#VeraCrypt_audit).
 
 ## Cifrado del Sistema Operativo
 
@@ -189,7 +189,7 @@ Para habilitar BitLocker en las ediciones "Home" de Windows, debe tener particio
 
 ![FileVault logo](assets/img/encryption-software/filevault.png){ align=right }
 
-**FileVault** es la solución de cifrado de volúmenes sobre la marcha integrada en macOS. FileVault takes advantage of the [hardware security capabilities](os/macos-overview.md#hardware-security) present on an Apple Silicon SoC or T2 Security Chip.
+**FileVault** es la solución de cifrado de volúmenes sobre la marcha integrada en macOS. FileVault aprovecha las [capacidades de seguridad de hardware](os/macos-overview.md#hardware-security) presentes en un Apple Silicon SoC o T2 Security Chip.
 
 [:octicons-info-16:](https://support.apple.com/guide/mac-help/encrypt-mac-data-with-filevault-mh11785/mac){ .card-link title="Documentación" }
 
@@ -207,9 +207,9 @@ Le recomendamos que no utilice su cuenta de iCloud para la recuperación; en su 
 
 **LUKS** es el método FDE por defecto para Linux. Puede utilizarse para cifrar volúmenes completos, particiones o crear contenedores cifrados.
 
-[:octicons-repo-16: Repository](https://gitlab.com/cryptsetup/cryptsetup#what-the-){ .md-button .md-button--primary }
-[:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title="Documentation" }
-[:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup){ .card-link title="Source Code" }
+[:octicons-repo-16: Repositorio](https://gitlab.com/cryptsetup/cryptsetup#what-the-){ .md-button .md-button--primary }
+[:octicons-info-16:](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/home){ .card-link title="Documentación" }
+[:octicons-code-16:](https://gitlab.com/cryptsetup/cryptsetup){ .card-link title="Código Fuente" }
 
 </details>
 

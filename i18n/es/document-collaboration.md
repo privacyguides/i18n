@@ -68,7 +68,7 @@ No recomendamos utilizar la [aplicación con cifrado de extremo a extremo](https
 
 ### Criterios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
+**Por favor, ten en cuenta que no estamos afiliados a ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
 
 #### Requisitos Mínimos
 
@@ -85,5 +85,5 @@ En general, definimos las plataformas de colaboración como paquetes completos q
 
 Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto perfecto en esta categoría. Es posible que nuestras recomendaciones no incluyan todas o algunas de estas funciones, pero las que sí las incluyan pueden estar mejor clasificadas que otras en esta página.
 
-- Debe almacenar los archivos en un sistema de archivos convencional.
-- Should support TOTP or FIDO2 multifactor authentication support, or passkey logins.
+- Debería almacenar los archivos en un sistema de archivos convencional.
+- Debería ser compatible con la autenticación multifactor TOTP o FIDO2, o con los inicios de sesión con clave de acceso.
