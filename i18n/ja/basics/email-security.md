@@ -39,14 +39,14 @@ IMAPやSMPTなどの標準的なプロトコルに対応しているEメール�
 
 ## 電子メールのメタデータの概要
 
-Email metadata is stored in the [message header](https://en.wikipedia.org/wiki/Email#Message_header) of the email message and includes some visible headers that you may have seen such as `To`, `From`, `Cc`, `Date`, and `Subject`. There are also a number of hidden headers included by many email clients and providers that can reveal information about your account.
+メールのメタデータは[ヘッダー](https://ja.wikipedia.org/wiki/%E9%9B%BB%E5%AD%90%E3%83%A1%E3%83%BC%E3%83%AB#%E3%83%98%E3%83%83%E3%83%80%E3%83%BC%E6%83%85%E5%A0%B1)に含まれています。`To`、`From`、`Cc`、`Date`、`Subject`のようなヘッダーは表示されるので、あなたも見たことがあるかもしれません。 他にも、Eメールクライアントやプロバイダーによって付加される隠れたヘッダーがあり、これがあなたのアカウントに関する情報を漏らしてしまう可能性があります。
 
 Client software may use email metadata to show who a message is from and what time it was received. Servers may use it to determine where an email message must be sent, among [other purposes](https://en.wikipedia.org/wiki/Email#Message_header) which are not always transparent.
 
-### 誰が電子メールのメタデータを見ることができますか？
+### 電子メールのメタデータは誰から見えるか？
 
 Email metadata is protected from outside observers with [opportunistic TLS](https://en.wikipedia.org/wiki/Opportunistic_TLS), but it is still able to be seen by your email client software (or webmail) and any servers relaying the message from you to any recipients including your email provider. Sometimes email servers will also use third-party services to protect against spam, which generally also have access to your messages.
 
-### メタデータをE2EEにできない理由
+### メタデータをE2E暗号化できないのはなぜ？
 
 Email metadata is crucial to the most basic functionality of email (where it came from, and where it has to go). E2EE was not built into standard email protocols originally, instead requiring add-on software like OpenPGP. Because OpenPGP messages still have to work with traditional email providers, it cannot encrypt some of this email metadata required for identifying the parties communicating. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, when you're emailing, etc.
