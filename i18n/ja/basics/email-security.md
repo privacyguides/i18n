@@ -29,7 +29,7 @@ OpenPGPを使ったとしても、[前方秘匿性](https://ja.wikipedia.org/wik
 
 ### E2E暗号化に対応しているEメールクライアントは？
 
-IMAPやSMPTなどの標準的なプロトコルに対応しているEメールプロバイダーであれば、[推奨Eメールクライアント](../email-clients.md)のどれを使用しても問題ありません。 Depending on the authentication method, this may lead to decreased security if either the provider or the email client does not support [OAuth](account-creation.md#sign-in-with-oauth) or a bridge application as [multifactor authentication](multi-factor-authentication.md) is not possible with plain password authentication.
+IMAPやSMPTなどの標準的なプロトコルに対応しているEメールプロバイダーであれば、[推奨Eメールクライアント](../email-clients.md)のどれを使用しても問題ありません。 認証方式によっては、セキュリティの低下に繋がってしまいます。プロバイダーもしくはクライアントが[OAuth](account-creation.md#sign-in-with-oauth)やブリッジアプリケーションに対応していない場合、通常のパスワード認証となるため、[多段階認証](multi-factor-authentication.md)が使用できません。
 
 ### How Do I Protect My Private Keys?
 
