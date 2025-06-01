@@ -31,11 +31,11 @@ OpenPGPを使ったとしても、[前方秘匿性](https://ja.wikipedia.org/wik
 
 IMAPやSMPTなどの標準的なプロトコルに対応しているEメールプロバイダーであれば、[推奨Eメールクライアント](../email-clients.md)のどれを使用しても問題ありません。 認証方式によっては、セキュリティの低下に繋がってしまいます。プロバイダーもしくはクライアントが[OAuth](account-creation.md#sign-in-with-oauth)やブリッジアプリケーションに対応していない場合、通常のパスワード認証となるため、[多段階認証](multi-factor-authentication.md)が使用できません。
 
-### How Do I Protect My Private Keys?
+### 秘密鍵を保護するには？
 
-A smart card (such as a [YubiKey](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) or [Nitrokey](../security-keys.md#nitrokey)) works by receiving an encrypted email message from a device (phone, tablet, computer, etc.) running an email/webmail client. The message is then decrypted by the smart card and the decrypted content is sent back to the device.
+スマートカード（[YubiKeyや](https://support.yubico.com/hc/articles/360013790259-Using-Your-YubiKey-with-OpenPGP) [Nitrokey](../security-keys.md#nitrokey)など）は、以下のように動作します。まず、EメールクライアントもしくはWebメールクライアントを実行しているデバイス（スマホ、タブレット、コンピュータなど）が、暗号化されたメールをスマートカードに送ります。 そしてスマートカードがメールを復号化し、デバイスに送り返します。
 
-It is advantageous for the decryption to occur on the smart card to avoid possibly exposing your private key to a compromised device.
+復号化をスマートカード上で行うことで、デバイスが感染したとしても秘密鍵が漏れるのを防ぐことができるという利点があります。
 
 ## 電子メールのメタデータの概要
 
