@@ -98,7 +98,7 @@ Apple no proporciona una interfaz nativa para crear perfiles DNS encriptados. [S
 
 #### Linux
 
-`systemd-resolved`, que muchas distribuciones Linux utilizan para realizar sus búsquedas DNS, todavía no [soporta DoH](https://github.com/systemd/systemd/issues/8639). Si quieres usar DoH, necesitarás instalar un proxy como [dnscrypt-proxy](../dns.md#dnscrypt-proxy) y [configurarlo](https://wiki.archlinux.org/title/Dnscrypt-proxy) para tomar todas las consultas DNS de tu sistema de resolución y reenviarlas sobre HTTPS.
+`systemd-resolved`, que muchas distribuciones Linux utilizan para realizar sus búsquedas DNS, todavía no [soporta DoH](https://github.com/systemd/systemd/issues/8639). Si quieres usar DoH, necesitarás instalar un proxy como [dnscrypt-proxy](../dns.md#dnscrypt-proxy) y [configurarlo](https://wiki.archlinux.org/title/Dnscrypt-proxy) para tomar todas las consultas DNS del solucionador de tu sistema y reenviarlas sobre HTTPS.
 
 ## ¿Qué puede ver un tercero?
 
@@ -311,7 +311,7 @@ DNSSEC implementa una política de firma digital jerárquica en todas las capas 
 
 ## ¿Qué es la minimización de QNAME?
 
-Un QNAME es un "nombre cualificado", por ejemplo `discuss.privacyguides.net`. Anteriormente, al resolver un nombre de dominio, el resolvedor de DNS le solicitaba a cada servidor en la cadena brindar toda la información sobre la consulta completa. En el siguiente ejemplo, la solicitud para encontrar la dirección IP para `discuss.privacyguides.org` es solicitada a cada proveedor de servidor DNS:
+Un QNAME es un "nombre cualificado", por ejemplo `discuss.privacyguides.net`. Anteriormente, al resolver un nombre de dominio, el solucionador de DNS le solicitaba a cada servidor en la cadena brindar toda la información sobre la consulta completa. En el siguiente ejemplo, la solicitud para encontrar la dirección IP para `discuss.privacyguides.org` es solicitada a cada proveedor de servidor DNS:
 
 | Servidor                   | Pregunta realizada                           | Respuesta                                          |
 | -------------------------- | -------------------------------------------- | -------------------------------------------------- |
@@ -319,7 +319,7 @@ Un QNAME es un "nombre cualificado", por ejemplo `discuss.privacyguides.net`. An
 | Servidor de .net           | ¿Cuál es la IP de discuss.privacyguides.net? | No sé, pregúntale al servidor de Privacy Guides... |
 | Servidor de Privacy Guides | ¿Cuál es la IP de discuss.privacyguides.net? | 5.161.195.190!                                     |
 
-Con la "minimización de QNAME", el resolvedor DNS ahora solo pregunta por la información necesaria para encontrar el siguiente servidor en la cadena. En este ejemplo, al servidor raíz solo se le pregunta por la información necesaria para encontrar el respecrivo servidor para el dominio .net, sin siquiera conocer el dominio completo que se está tratando de visitar:
+Con la "minimización de QNAME", el solucionador DNS ahora solo pregunta por la información necesaria para encontrar el siguiente servidor en la cadena. En este ejemplo, al servidor raíz solo se le pregunta por la información necesaria para encontrar el respecrivo servidor para el dominio .net, sin siquiera conocer el dominio completo que se está tratando de visitar:
 
 | Servidor                   | Pregunta realizada                                   | Respuesta                                   |
 | -------------------------- | ---------------------------------------------------- | ------------------------------------------- |
@@ -332,7 +332,7 @@ Aunque este proceso puede ser ligeramente menos eficiente, en este ejemplo ni  l
 
 ## ¿Qué es la Subred del Cliente EDNS (ECS)?
 
-La [Subred de Cliente EDNS](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) es un método para que un resolvedor DNS recursivo especifique una [subred](https://es.wikipedia.org/wiki/Subred) para el [host o cliente](https://es.wikipedia.org/wiki/Cliente_(inform%C3%A1tica)) que está realizando la consulta DNS.
+La [Subred de Cliente EDNS](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) es un método para que un solucionador DNS recursivo especifique una [subred](https://es.wikipedia.org/wiki/Subred) para el [host o cliente](https://es.wikipedia.org/wiki/Cliente_(inform%C3%A1tica)) que está realizando la consulta DNS.
 
 Su objetivo es "acelerar" la entrega de datos dando al cliente una respuesta que pertenece a un servidor que está cerca de él, como una [red de distribución de contenidos](https://es.wikipedia.org/wiki/Red_de_distribuci%C3%B3n_de_contenidos), que se utilizan a menudo en la transmisión de vídeo y el servicio de aplicaciones web de JavaScript.
 
@@ -344,7 +344,7 @@ Si tienes `dig` instalado, puedes comprobar si tu proveedor de DNS proporciona i
 dig +nocmd -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
 ```
 
-Ten en cuenta que este comando se pondrá en contacto con Google para realizar la prueba y te devolverá tu IP, así como la información de subred del cliente EDNS. Si quieres probar otro resolvedor DNS puedes especificar su IP, para probar `9.9.9.11` por ejemplo:
+Ten en cuenta que este comando se pondrá en contacto con Google para realizar la prueba y te devolverá tu IP, así como la información de subred del cliente EDNS. Si quieres probar otro solucionador DNS puedes especificar su IP, para probar `9.9.9.11` por ejemplo:
 
 ```bash
 dig +nocmd @9.9.9.11 -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats

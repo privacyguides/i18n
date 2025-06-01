@@ -1,7 +1,7 @@
 ---
-title: "Servidores DNS"
+title: "Solucionadores DNS"
 icon: material/dns
-description: We recommend choosing these encrypted DNS providers to replace your ISP's default configuration.
+description: Te recomendamos que elijas estos proveedores de DNS cifrado para sustituir la configuración predeterminada de tu ISP.
 cover: dns.webp
 global:
   - 
@@ -19,16 +19,16 @@ Un DNS cifrado con servidores de terceros solo debe utilizarse para evitar el [b
 
 ## Proveedores Recomendados
 
-Estos son nuestros resolvedores de DNS públicos favoritos en función de sus características de privacidad y seguridad, y de su rendimiento en todo el mundo. Some of these services offer basic DNS-level blocking of malware or trackers depending on the server you choose, but if you want to be able to see and customize what is blocked, you should use a dedicated DNS filtering product instead.
+Estos son nuestros solucionadores de DNS públicos favoritos en función de sus características de privacidad y seguridad, y de su rendimiento en todo el mundo. Algunos de estos servicios ofrecen un bloqueo básico a nivel de DNS de malware o rastreadores en función del servidor que elijas, pero si quieres poder ver y personalizar lo que se bloquea, deberías utilizar en su lugar un producto de filtrado DNS dedicado.
 
-| Proveedor de DNS                                                           | Protocolos                                                               | Logs / Política de Privacidad | [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) | Filtrado                                                                                                                                                            | Perfil de Apple firmado                                                                                                                                                                                                     |
-| -------------------------------------------------------------------------- | ------------------------------------------------------------------------ | ----------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**AdGuard Public DNS**](https://adguard-dns.io/en/public-dns.html)        | Cleartext <br>DoH/3 <br>DoT <br>DoQ <br>DNSCrypt | Anónimo[^1]                   | Anónimo                                                        | Basado en la elección del servidor. La lista de filtros utilizada se puede encontrar aquí. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) | Sí [:octicons-link-external-24:](https://adguard-dns.io/en/blog/encrypted-dns-ios-14.html)                                                                                                                                  |
-| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup)          | Cleartext <br>DoH/3 <br>DoT                                  | Anonymized[^2]                | No                                                             | Basado en la elección del servidor.                                                                                                                                 | No [:octicons-link-external-24:](https://community.cloudflare.com/t/requesting-1-1-1-1-signed-profiles-for-apple/571846)                                                                                                    |
-| [**Control D Free DNS**](https://controld.com/free-dns)                    | Cleartext <br>DoH/3 <br>DoT <br>DoQ                    | No[^3]                        | No                                                             | Basado en la elección del servidor.                                                                                                                                 | Yes <br>[:simple-apple: iOS](https://docs.controld.com/docs/ios-platform) <br>[:material-apple-finder: macOS](https://docs.controld.com/docs/macos-platform#manual-setup-profile)                               |
-| [**DNS0.eu**](https://dns0.eu)                                             | Cleartext <br>DoH/3 <br>DoH <br>DoT <br>DoQ      | Anonymized[^4]                | Anónimo                                                        | Basado en la elección del servidor.                                                                                                                                 | Sí [:octicons-link-external-24:](https://dns0.eu/zero.dns0.eu.mobileconfig)                                                                                                                                                 |
-| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | DoH <br>DoT                                                        | No[^5]                        | No                                                             | Basado en la elección del servidor. La lista de filtros utilizada se puede encontrar aquí. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    | Yes [:octicons-link-external-24:](https://github.com/mullvad/encrypted-dns-profiles)                                                                                                                                        |
-| [**Quad9**](https://quad9.net)                                             | Cleartext <br>DoH <br>DoT <br>DNSCrypt                 | Anonymized[^6]                | Opcional                                                       | Basado en la elección del servidor. Malware blocking is included by default.                                                                                        | Yes <br>[:simple-apple: iOS](https://docs.quad9.net/Setup_Guides/iOS/iOS_14_and_later_(Encrypted)) <br>[:material-apple-finder: macOS](https://docs.quad9.net/Setup_Guides/MacOS/Big_Sur_and_later_(Encrypted)) |
+| Proveedor de DNS                                                           | Protocolos                                                                    | Logs / Política de Privacidad | [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) | Filtrado                                                                                                                                                            | Perfil de Apple firmado                                                                                                                                                                                                    |
+| -------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ----------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**AdGuard Public DNS**](https://adguard-dns.io/en/public-dns.html)        | Texto en claro <br>DoH/3 <br>DoT <br>DoQ <br>DNSCrypt | Anónimo[^1]                   | Anónimo                                                        | Basado en la elección del servidor. La lista de filtros utilizada se puede encontrar aquí. [:octicons-link-external-24:](https://github.com/AdguardTeam/AdGuardDNS) | Sí [:octicons-link-external-24:](https://adguard-dns.io/en/blog/encrypted-dns-ios-14.html)                                                                                                                                 |
+| [**Cloudflare**](https://developers.cloudflare.com/1.1.1.1/setup)          | Texto en claro <br>DoH/3 <br>DoT                                  | Anónimo[^2]                   | No                                                             | Basado en la elección del servidor.                                                                                                                                 | No [:octicons-link-external-24:](https://community.cloudflare.com/t/requesting-1-1-1-1-signed-profiles-for-apple/571846)                                                                                                   |
+| [**Control D Free DNS**](https://controld.com/free-dns)                    | Texto en claro <br>DoH/3 <br>DoT <br>DoQ                    | No[^3]                        | No                                                             | Basado en la elección del servidor.                                                                                                                                 | Sí <br>[:simple-apple: iOS](https://docs.controld.com/docs/ios-platform) <br>[:material-apple-finder: macOS](https://docs.controld.com/docs/macos-platform#manual-setup-profile)                               |
+| [**DNS0.eu**](https://dns0.eu)                                             | Texto en claro <br>DoH/3 <br>DoH <br>DoT <br>DoQ      | Anónimo[^4]                   | Anónimo                                                        | Basado en la elección del servidor.                                                                                                                                 | Sí [:octicons-link-external-24:](https://dns0.eu/zero.dns0.eu.mobileconfig)                                                                                                                                                |
+| [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | DoH <br>DoT                                                             | No[^5]                        | No                                                             | Basado en la elección del servidor. La lista de filtros utilizada se puede encontrar aquí. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)    | Sí [:octicons-link-external-24:](https://github.com/mullvad/encrypted-dns-profiles)                                                                                                                                        |
+| [**Quad9**](https://quad9.net)                                             | Texto en claro <br>DoH <br>DoT <br>DNSCrypt                 | Anónimo[^6]                   | Opcional                                                       | Basado en la elección del servidor. El bloqueo de malware está incluido por defecto.                                                                                | Sí <br>[:simple-apple: iOS](https://docs.quad9.net/Setup_Guides/iOS/iOS_14_and_later_(Encrypted)) <br>[:material-apple-finder: macOS](https://docs.quad9.net/Setup_Guides/MacOS/Big_Sur_and_later_(Encrypted)) |
 
 ## Servidor DNS autoalojado
 
@@ -75,7 +75,7 @@ AdGuard Home cuenta con una interfaz web pulida para ver información y gestiona
 
 ## Filtrado DNS basado en la nube
 
-These DNS filtering solutions offer a web dashboard where you can customize the block lists to your exact needs, similarly to a Pi-hole. Estos servicios suelen ser más fáciles de instalar y configurar que los autoalojados, como los anterioriores, y pueden utilizarse más fácilmente en múltiples redes (las soluciones autoalojadas suelen estar restringidas a su red doméstica/local, a menos que se establezca una configuración más avanzada).
+Estas soluciones de filtrado DNS ofrecen un panel web en el que puedes personalizar las listas de bloqueo según tus necesidades exactas, de forma similar a un Pi-hole. Estos servicios suelen ser más fáciles de instalar y configurar que los autoalojados, como los anterioriores, y pueden utilizarse más fácilmente en múltiples redes (las soluciones autoalojadas suelen estar restringidas a su red doméstica/local, a menos que se establezca una configuración más avanzada).
 
 ### Control D
 
@@ -83,15 +83,15 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 
 ![Control D logo](assets/img/dns/control-d.svg){ align=right }
 
-**Control D** es un servicio DNS personalizable que permite bloquear amenazas de seguridad, contenidos no deseados y publicidad a nivel de DNS. Además de sus planes de pago, ofrecen una serie de resolvedores DNS preconfigurados que puedes utilizar gratuitamente.
+**Control D** es un servicio DNS personalizable que permite bloquear amenazas de seguridad, contenidos no deseados y publicidad a nivel de DNS. Además de sus planes de pago, ofrecen una serie de solucionadores DNS preconfigurados que puedes utilizar gratuitamente.
 
-[:octicons-home-16: Homepage](https://controld.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://controld.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.controld.com/docs/getting-started){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Control-D-Inc/ctrld){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://controld.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://controld.com/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://docs.controld.com/docs/getting-started){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/Control-D-Inc/ctrld){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.controld.setuputility)
 - [:simple-appstore: App Store](https://apps.apple.com/app/1518799460)
@@ -112,13 +112,13 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 
  **NextDNS** es un servicio DNS personalizable que te permite bloquear amenazas de seguridad, contenidos no deseados y publicidad a nivel DNS. Ofrecen un plan gratuito totalmente funcional para uso limitado.
 
-[:octicons-home-16: Homepage](https://nextdns.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextdns.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.nextdns.io){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/nextdns/nextdns){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://nextdns.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nextdns.io/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://help.nextdns.io){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/nextdns/nextdns){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/nextdns/id1463342498)
 - [:simple-github: GitHub](https://github.com/nextdns/nextdns/releases)
@@ -132,13 +132,13 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 
 Cuando se utiliza con una cuenta, NextDNS habilitará las funciones de información y registro de forma predeterminada (ya que algunas funciones lo requieren). Puedes elegir los tiempos de retención y las ubicaciones de almacenamiento de los registros que desees conservar.
 
-NextDNS's free plan is fully functional, but should not be relied upon for security or other critical filtering applications, because after 300,000 DNS queries in a month all filtering, logging, and other account-based functionality are disabled. It can still be used as a regular DNS provider after that point, so your devices will continue to function and make secure queries via DNS-over-HTTPS (DoH), just without your filter lists.
+El plan gratuito de NextDNS es totalmente funcional, pero no se debe confiar en él para aplicaciones de seguridad u otras aplicaciones de filtrado críticas, ya que después de 300.000 consultas DNS en un mes se desactivan todas las funciones de filtrado, registro y otras funciones basadas en la cuenta. Se puede seguir utilizando como un proveedor DNS normal después de ese punto, por lo que tus dispositivos seguirán funcionando y haciendo consultas seguras a través de DNS sobre HTTPS (DoH), solo que sin tus listas de filtros.
 
-NextDNS also offers a public DoH service at `https://dns.nextdns.io` and DNS-over-TLS/QUIC (DoT/DoQ) at `dns.nextdns.io`, which are available by default in Firefox and Chromium, and subject to their default, no-logging [privacy policy](https://nextdns.io/privacy).
+NextDNS también ofrece un servicio DoH público en `https://dns.nextdns.io` y DNS sobre TLS/QUIC (DoT/DoQ) en `dns.nextdns.io`, que están disponibles por defecto en Firefox y Chromium, y sujetos a su [política de privacidad](https://nextdns.io/privacy) por defecto, sin registro.
 
 ## Proxies DNS Cifrados
 
-El software de proxy de DNS cifrado proporciona un proxy local para que el servidor DNS [no cifrado](advanced/dns-overview.md#unencrypted-dns) lo reenvíe. Normalmente, se utiliza en plataformas que no soportan [DNS cifrado](advanced/dns-overview.md#what-is-encrypted-dns) de forma nativa.
+El software de proxy de DNS cifrado proporciona un proxy local para que el solucionador DNS [no cifrado](advanced/dns-overview.md#unencrypted-dns) lo reenvíe. Normalmente, se utiliza en plataformas que no soportan [DNS cifrado](advanced/dns-overview.md#what-is-encrypted-dns) de forma nativa.
 
 ### RethinkDNS
 
@@ -147,12 +147,12 @@ El software de proxy de DNS cifrado proporciona un proxy local para que el servi
 ![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
 ![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
 
-**RethinkDNS** is an open-source Android client that supports [DoH](advanced/dns-overview.md#dns-over-https-doh), [DoT](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) and DNS Proxy. También proporciona funciones adicionales, como el almacenamiento en caché de las respuestas DNS, el registro local de las consultas DNS y el uso de la aplicación como cortafuegos.
+**RethinkDNS** es un cliente Android de código abierto que soporta [DoH](advanced/dns-overview.md#dns-over-https-doh), [DoT](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) y Proxy DNS. También proporciona funciones adicionales, como el almacenamiento en caché de las respuestas DNS, el registro local de las consultas DNS y el uso de la aplicación como cortafuegos.
 
-[:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://docs.rethinkdns.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://rethinkdns.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://docs.rethinkdns.com){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
 <summary>Descargas</summary>
@@ -164,7 +164,7 @@ El software de proxy de DNS cifrado proporciona un proxy local para que el servi
 
 </div>
 
-While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot with the app by [adding a WireGuard configuration](https://docs.rethinkdns.com/proxy/wireguard) or [manually configuring Orbot as a Proxy server](https://docs.rethinkdns.com/firewall/orbot), respectively.
+Aunque RethinkDNS ocupa el espacio VPN de Android, puedes seguir utilizando una VPN u Orbot con la aplicación [añadiendo una configuración de WireGuard](https://docs.rethinkdns.com/proxy/wireguard) o [configurando manualmente Orbot como servidor Proxy](https://docs.rethinkdns.com/firewall/orbot), respectivamente.
 
 ### DNSCrypt-Proxy
 
@@ -172,12 +172,12 @@ While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot
 
 ![DNSCrypt-Proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
 
-**DNSCrypt-Proxy** is a DNS proxy with support for [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DoH](advanced/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
+**DNSCrypt-Proxy** es un proxy DNS compatible con [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DoH](advanced/dns-overview.md#dns-over-https-doh), y [DNS Anónimo](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
 
-[:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title="Contribute" }
+[:octicons-repo-16: Repositorio](https://github.com/DNSCrypt/dnscrypt-proxy#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title="Contribuir " }
 
 <details class="downloads" markdown>
 <summary>Descargas</summary>
@@ -201,30 +201,30 @@ La función de DNS anónimo [no](advanced/dns-overview.md#por-que-no-deberia-uti
 
 **Ten en cuenta que no estamos afiliados con ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten proporcionar recomendaciones objetivas. Te sugerimos que te familiarices con esta lista antes de elegir usar un proyecto, y que lleves a cabo tu propia investigación para asegurarte de que es la elección correcta para ti.
 
-All DNS products...
+Todos los productos DNS...
 
-- Must support [DNSSEC](advanced/dns-overview.md#what-is-dnssec).
-- Must support [QNAME Minimization](advanced/dns-overview.md#what-is-qname-minimization).
-- Must anonymize [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) or disable it by default.
+- Deben admitir [DNSSEC](advanced/dns-overview.md#what-is-dnssec).
+- Debe admitir la [Minimización de QNAME](advanced/dns-overview.md#what-is-qname-minimization).
+- Deben anonimizar [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) o desactivarlo por defecto.
 
-Additionally, all public providers...
+Además, todos los proveedores públicos...
 
-- Must not log any personal data to disk.
-    - As noted in the footnotes, some providers collect query information for purposes like security research, but in that case the data must not be associated with any PII such as IP address, etc.
-- Should support [anycast](https://en.wikipedia.org/wiki/Anycast) or geo-steering.
+- No deben registrar datos personales en el disco.
+    - Como se indica en las notas a pie de página, algunos proveedores recopilan información de consulta con fines como la investigación de seguridad, pero en ese caso los datos no deben asociarse a ninguna PII, como la dirección IP, etc.
+- Deberían admitir [anycast](https://en.wikipedia.org/wiki/Anycast) o geo-steering.
 
-[^1]: AdGuard almacena métricas de rendimiento agregadas de sus servidores DNS, es decir, el número de solicitudes completas a un servidor en particular, el número de solicitudes bloqueadas, y la velocidad de procesamiento de solicitudes. They also keep and store the database of domains requested within the last 24 hours.
+[^1]: AdGuard almacena métricas de rendimiento agregadas de sus servidores DNS, es decir, el número de solicitudes completas a un servidor en particular, el número de solicitudes bloqueadas, y la velocidad de procesamiento de solicitudes. También guarda y almacena la base de datos de dominios solicitados en las últimas 24 horas.
 
-    > We need this information to identify and block new trackers and threats. We also log how many times this or that tracker has been blocked. We need this information to remove outdated rules from our filters.
+    > Necesitamos esta información para identificar y bloquear nuevos rastreadores y amenazas. También registramos cuántas veces se ha bloqueado tal o cual rastreador. Necesitamos esta información para eliminar reglas obsoletas de nuestros filtros.
 
-    AdGuard DNS: [*Privacy Policy*](https://adguard-dns.io/en/privacy.html) [^2]: Cloudflare collects and stores only the limited DNS query data that is sent to the 1.1.1.1 resolver. The 1.1.1.1 resolver service does not log personal data, and the bulk of the limited non-personally identifiable query data is stored only for 25 hours.
+    AdGuard DNS: [*Política de Privacidad*](https://adguard-dns.io/en/privacy.html) [^2]: Cloudflare recopila y almacena únicamente los datos de consulta DNS limitados que se envían al solucionador 1.1.1.1. El servicio de resolución 1.1.1.1 no registra datos personales, y el grueso de los limitados datos de consulta no identificables personalmente se almacena solo durante 25 horas.
 
-    1.1.1.1 Public DNS Resolver: [*Cloudflare’s commitment to privacy*](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver) [^3]: Control D only logs specific account data for Premium resolvers with custom DNS profiles. Free resolvers do not retain any data.
+    1.1.1.1 Solucionador de DNS Público: [*El compromiso de Cloudflare con la privacidad*](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver) [^3]: Control D solo registra datos específicos de la cuenta para los solucionadores Premium con perfiles DNS personalizados. Los solucionadores gratuitos no conservan ningún dato.
 
-    Control D: [*Privacy Policy*](https://controld.com/privacy) [^4]: DNS0.eu collects some data for their threat intelligence feeds to monitor for newly registered/observed/active domains and other bulk data. Esos datos se comparten con algunos [socios](https://docs.dns0.eu/data-feeds/introduction) para, por ejemplo, investigaciones de seguridad. They do not collect any personally identifiable information.
+    Control D: [*Política de Privacidad*](https://controld.com/privacy) [^4]: DNS0.eu recoge algunos datos para sus fuentes de inteligencia de amenazas para monitorizar dominios recién registrados/observados/activos y otros datos masivos. Esos datos se comparten con algunos [socios](https://docs.dns0.eu/data-feeds/introduction) para, por ejemplo, investigaciones de seguridad. No recopilan información personal identificable.
 
-    DNS0.eu: [*Privacy Policy*](https://dns0.eu/privacy) [^5]: Mullvad's DNS service is available to both subscribers and non-subscribers of Mullvad VPN. Su política de privacidad afirma explícitamente que no registran solicitudes DNS de ninguna manera.
+    DNS0.eu: [*Política de Privacidad*](https://dns0.eu/privacy) [^5]: El servicio DNS de Mullvad está disponible tanto para suscriptores como para no suscriptores de Mullvad VPN. Su política de privacidad afirma explícitamente que no registran solicitudes DNS de ninguna manera.
 
-    Mullvad: [*No-logging of user activity policy*](https://mullvad.net/en/help/no-logging-data-policy) [^6]: Quad9 collects some data for the purposes of threat monitoring and response. That data may then be remixed and shared for purposes like furthering their security research. Quad9 no colecciona ni registra direcciones IP ni otros datos que consideren personalmente identificables.
+    Mullvad: [*Política de no registro de la actividad de los usuarios*](https://mullvad.net/en/help/no-logging-data-policy) [^6]: Quad9 recopila algunos datos con fines de supervisión y respuesta ante amenazas. Esos datos pueden remezclarse y compartirse con fines como el fomento de sus investigaciones de seguridad. Quad9 no colecciona ni registra direcciones IP ni otros datos que consideren personalmente identificables.
 
-    Quad9: [*Data and Privacy Policy*](https://quad9.net/privacy/policy)
+    Quad9: [*Política de Datos y Privacidad*](https://quad9.net/privacy/policy)
