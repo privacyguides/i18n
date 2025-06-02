@@ -96,19 +96,19 @@ OSの権限管理をそもそも信用しない場合、物理的にカメラに
 
 プライバシースクリーンはスクリーン上にフィルムを貼り、ある角度でのみスクリーンが見えるようにするものです。 脅威モデルにスクリーンを覗き見することがある場合はよいですが、誰でも視野角を変えるだけでスクリーンを見ることができるため、確実なものではありません。
 
-### Dead Man's Switches
+### デッドマンスイッチ
 
-A dead man's switch stops a piece of machinery from operating without the presence of a human operator. These were originally designed as a safety measure, but the same concept can be applied to an electronic device to lock it when you're not present.
+デッドマンスイッチは人間の操作なしに機械の動作を停止させるものです。 もとは安全対策が目的のものですが、不在時に電子機器をロックすることにも当てはめることができます。
 
-Some laptops are able to [detect](https://support.microsoft.com/en-us/windows/managing-presence-sensing-settings-in-windows-11-82285c93-440c-4e15-9081-c9e38c1290bb) when you're present and can lock automatically when you aren't sitting in front of the screen. You should check the settings in your OS to see if your computer supports this feature.
+スクリーンの前に座っていないときに、自動的にロックがかかるよう[検知](https://support.microsoft.com/en-us/windows/managing-presence-sensing-settings-in-windows-11-82285c93-440c-4e15-9081-c9e38c1290bb)するノートパソコンもあります。 コンピューターがこの機能に対応しているか、OSの設定を確認してください。
 
-You can also get cables, like [BusKill](https://buskill.in), that will lock or wipe your computer when the cable is disconnected.
+[BusKill](https://buskill.in)のようなケーブルが切断されたときにコンピューターをロックまたは消去するケーブルもあります。
 
-### Anti-Interdiction/Evil Maid Attack
+### アンチインターディクション・悪意あるメイド攻撃
 
-The best way to prevent a targeted attack against you before a device is in your possession is to purchase a device in a physical store, rather than ordering it to your address.
+手元にデバイスが届く前の標的型攻撃を防ぐ最善の方法は、送り届けてもらうのではなく、実店舗でデバイスを購入することです。
 
-Make sure your device supports secure boot/verified boot, and you have it enabled. Try to avoid leaving your device unattended whenever possible.
+デバイスがセキュアブート・ベリファイドブートに対応しているか確認し、有効にしてください。 可能な限り、デバイスを放置しないようにしてください。
 
 ## Secure your Network
 
