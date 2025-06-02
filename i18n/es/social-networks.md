@@ -125,7 +125,7 @@ If you used our recommended configuration settings above, you should be posting 
 [:octicons-info-16:](https://element.io/help){ .card-link title="Documentación" }
 [:octicons-code-16:](https://github.com/element-hq){ .card-link title="Código Fuente" }
 
-<details class="downloads" markdown><summary>Downloads</summary>
+<details class="downloads" markdown><summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1083446067)

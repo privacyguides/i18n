@@ -28,7 +28,7 @@ Features include cycling routes, hiking trails and walking paths, turn-by-turn n
 [:octicons-eye-16:](https://organicmaps.app/privacy){ .card-link title="Privacy Policy" }
 [:octicons-code-16:](https://git.omaps.dev/organicmaps/organicmaps){ .card-link title="Source Code" }
 
-<details class="downloads" markdown><summary>Downloads</summary>
+<details class="downloads" markdown><summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.organicmaps)
 - [:simple-appstore: App Store](https://apps.apple.com/app/organic-maps/id1567437057)
@@ -54,7 +54,7 @@ Please note that Organic Maps is a simple, basic app that lacks certain features
 [:octicons-info-16:](https://osmand.net/docs/intro){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/osmandapp){ .card-link title="Source Code" }
 
-<details class="downloads" markdown><summary>Downloads</summary>
+<details class="downloads" markdown><summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.osmand)
 - [:simple-android: Android](https://osmand.net/docs/versions/free-versions)
