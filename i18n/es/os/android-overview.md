@@ -128,7 +128,7 @@ Si estás utilizando un dispositivo con servicios de Google, ya sea con el siste
 
 ### Programa de Protección Avanzada
 
-Si tienes una cuenta de Google sugerimos que te inscribas en el [Programa de Protección Avanzada](https://landing.google.com/advancedprotection). Está disponible sin costo a cualquiera que tenga dos o más llaves de seguridad de hardware con soporte para [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online). Como alternativa, puedes utilizar [passkeys](https://fidoalliance.org/passkeys).
+Si tienes una cuenta de Google sugerimos que te inscribas en el [Programa de Protección Avanzada](https://landing.google.com/advancedprotection). Está disponible sin costo a cualquiera que tenga dos o más llaves de seguridad físicas con soporte para [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online). Como alternativa, puedes utilizar [passkeys](https://fidoalliance.org/passkeys).
 
 El Programa de Protección Avanzada proporciona una supervisión de amenazas mejorada y permite:
 

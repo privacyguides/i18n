@@ -30,7 +30,7 @@ El TOTP es una de las formas más comunes de MFA disponibles. Cuando se configur
 
 El código de tiempo limitado se deriva entonces del secreto compartido y de la hora actual. Como el código solo es válido durante un corto periodo de tiempo, sin acceso al secreto compartido, un adversario no puede generar nuevos códigos.
 
-Si tienes una llave de seguridad de hardware con soporte para TOTP (como una YubiKey con [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)), recomendamos que almacenes tus "secretos compartidos" en el hardware. El hardware como el YubiKey se desarrolló con la intención de que el "secreto compartido" fuera difícil de extraer y copiar. Una YubiKey tampoco está conectada al Internet, a diferencia de un teléfono con una aplicación TOTP.
+Si tienes una llave de seguridad física con soporte para TOTP (como una YubiKey con [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)), recomendamos que almacenes tus "secretos compartidos" en el hardware. El hardware como el YubiKey se desarrolló con la intención de que el "secreto compartido" fuera difícil de extraer y copiar. Una YubiKey tampoco está conectada al Internet, a diferencia de un teléfono con una aplicación TOTP.
 
 A diferencia de [WebAuthn](#fido-fast-identity-online), TOTP no ofrece protección contra [Phishing](https://es.wikipedia.org/wiki/Phishing) o ataques de reutilización. Si un adversario obtiene un código válido de ti, puede utilizarlo tantas veces como quiera hasta que caduque (generalmente 60 segundos).
 
@@ -38,7 +38,7 @@ Un adversario podría crear un sitio web para imitar un servicio oficial en un i
 
 Aunque no es perfecto, TOTP es lo suficientemente seguro para la mayoría de la gente, y cuando [las claves de seguridad de hardware](../security-keys.md) no son compatibles [las aplicaciones de autenticación](../multi-factor-authentication.md) siguen siendo una buena opción.
 
-### Llaves de seguridad de hardware
+### Llaves de seguridad físicas
 
 La YubiKey almacena los datos en un chip de estado sólido resistente a las manipulaciones, al que es [imposible acceder](https://security.stackexchange.com/a/245772) de forma no destructiva sin un costoso proceso y un laboratorio forense.
 
@@ -46,7 +46,7 @@ Estas claves suelen ser multifuncionales y ofrecen varios métodos de autenticac
 
 #### Yubico OTP
 
-Yubico OTP es un protocolo de autenticación típicamente implementado en llaves de seguridad de hardware. Cuando decidas utilizar Yubico OTP, la clave generará un ID público, un ID privado y una clave secreta que se cargará en el servidor Yubico OTP.
+Yubico OTP es un protocolo de autenticación típicamente implementado en llaves de seguridad físicas. Cuando decidas utilizar Yubico OTP, la clave generará un ID público, un ID privado y una clave secreta que se cargará en el servidor Yubico OTP.
 
 Para entrar en un sitio web, basta con tocar físicamente la clave de seguridad. La llave de seguridad emulará un teclado e imprimirá una contraseña de un solo uso en el campo de la contraseña.
 
@@ -98,7 +98,7 @@ Al configurar tu método MFA, ten en cuenta que es tan seguro como el método de
 
 ### Copias de seguridad
 
-Siempre debes tener copias de seguridad de tu método MFA. Las llaves de seguridad de hardware pueden perderse, ser robadas o simplemente dejar de funcionar con el tiempo. Se recomienda tener un par de llaves de seguridad de hardware con el mismo acceso a tus cuentas en lugar de una sola.
+Siempre debes tener copias de seguridad de tu método MFA. Las llaves de seguridad físicas pueden perderse, ser robadas o simplemente dejar de funcionar con el tiempo. Se recomienda tener un par de llaves de seguridad físicas con el mismo acceso a tus cuentas en lugar de una sola.
 
 Cuando utilices TOTP con una aplicación de autenticación, asegúrate de hacer una copia de seguridad de tus claves de recuperación o de la propia aplicación, o copia los «secretos compartidos» en otra instancia de la aplicación en un teléfono diferente o en un contenedor cifrado (por ejemplo, [VeraCrypt](../encryption.md#veracrypt-disk)).
 
@@ -120,7 +120,7 @@ Además de proteger los inicios de sesión en sitios web, la autenticación mult
 
 ### macOS
 
-macOS tiene [soporte nativo](https://support.apple.com/es-es/guide/deployment/depd0b888248/web) para la autenticación con tarjetas inteligentes (PIV). Si tienes una tarjeta inteligente o una llave de seguridad de hardware compatible con la interfaz PIV, como YubiKey, te recomendamos que sigas la documentación de tu tarjeta inteligente o de tu proveedor de seguridad de hardware y configures la autenticación de segundo factor para tu ordenador macOS.
+macOS tiene [soporte nativo](https://support.apple.com/es-es/guide/deployment/depd0b888248/web) para la autenticación con tarjetas inteligentes (PIV). Si tienes una tarjeta inteligente o una llave de seguridad física compatible con la interfaz PIV, como YubiKey, te recomendamos que sigas la documentación de tu tarjeta inteligente o de tu proveedor de seguridad de hardware y configures la autenticación de segundo factor para tu ordenador macOS.
 
 Yubico tiene una guía [Uso de tu YubiKey como una Tarjeta Inteligente en macOS](https://support.yubico.com/hc/articles/360016649059) que puede ayudarte a configurar tu YubiKey en macOS.
 

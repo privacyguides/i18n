@@ -12,13 +12,13 @@ Si está buscando una solución específica para algo, estas son las herramienta
 <div class="grid" markdown>
 
 <div markdown>
-[VPN Providers](vpn.md){ .md-button }
-[Password Managers](passwords.md){ .md-button }
-[Email Providers](email.md){ .md-button }
-[Browser Extensions](browser-extensions.md){ .md-button }
-[DNS Servers](dns.md){ .md-button }
-[Email Aliasing Services](email-aliasing.md){ .md-button }
-[Photo Organization Tools](photo-management.md){ .md-button }
+[Proveedores de VPN](vpn.md){ .md-button }
+[Administradores de Contraseñas](passwords.md){ .md-button }
+[Proveedores de Correo Electrónico](email.md){ .md-button }
+[Extensiones de Navegador](browser-extensions.md){ .md-button }
+[Servidores DNS](dns.md){ .md-button }
+[Servicios de Alias de Correo Electrónico](email-aliasing.md){ .md-button }
+[Herramientas de Organización de Fotografías](photo-management.md){ .md-button }
 </div>
 
 </div>
@@ -27,7 +27,7 @@ Si está buscando una solución específica para algo, estas son las herramienta
 
 <div class="admonition info" markdown>
 
-[Self-hosting recommendations](self-hosting/index.md) have been moved to their own category.
+Las [recomendaciones de autoalojamiento](self-hosting/index.md) se han trasladado a su propia categoría.
 
 </div>
 
@@ -130,7 +130,7 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
 <div class="grid cards" markdown>
 
-- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor for iOS)](tor.md#onion-browser-ios)
+- ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ .twemoji loading=lazy } [Onion Browser (Tor para iOS)](tor.md#onion-browser-ios)
 
 </div>
 
@@ -159,37 +159,37 @@ Si busca más **seguridad**, asegúrese siempre de conectarse a sitios web que u
 
     ---
 
-    - [x] **112+ Countries**
-    - [x] WireGuard Support
-    - [x] Cash Payments
-    - [x] Partial Port Forwarding Support
+    - [x] **112+ Países**
+    - [x] Soporte de WireGuard
+    - [x] Pagos en Efectivo
+    - [x] Soporte de Reenvío Parcial de Puertos
     - [ ] No IPv6
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
+    [Lea la Reseña Completa :material-arrow-right-drop-circle:](vpn.md#proton-vpn)
 
 - ![IVPN logo](assets/img/vpn/mini/ivpn.svg){ .lg .middle .twemoji } **IVPN**
 
     ---
 
-    - [x] **37+ Countries**
-    - [x] WireGuard Support
-    - [x] Monero & Cash Payments
-    - [ ] No Port Forwarding
+    - [x] **37+ Países**
+    - [x] Soporte de WireGuard
+    - [x] Pagos en Efectivo y Monero
+    - [ ] No Reenvío de Puertos
     - [ ] No IPv6
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#ivpn)
+    [Lea la Reseña Completa :material-arrow-right-drop-circle:](vpn.md#ivpn)
 
 - ![Mullvad logo](assets/img/vpn/mullvad.svg){ .lg .middle .twemoji } **Mullvad**
 
     ---
 
-    - [x] **49+ Countries**
-    - [x] WireGuard Support
-    - [x] Monero & Cash Payments
-    - [ ] No Port Forwarding
-    - [x] IPv6 Support
+    - [x] **49+ Países**
+    - [x] Soporte de WireGuard
+    - [x] Pagos en Efectivo y Monero
+    - [ ] No Reenvío de Puertos
+    - [x] Soporte de IPv6
 
-    [Read Full Review :material-arrow-right-drop-circle:](vpn.md#mullvad)
+    [Lea la Reseña Completa :material-arrow-right-drop-circle:](vpn.md#mullvad)
 
 </div>
 
@@ -201,7 +201,7 @@ Si busca más **seguridad**, asegúrese siempre de conectarse a sitios web que u
 
     ---
 
-    Proton Mail es un servicio de correo electrónico centrado en la privacidad, el cifrado, la seguridad y la facilidad de uso. Ha estado en operación desde 2013. Proton AG tiene su sede en Ginebra, Suiza. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+    Proton Mail es un servicio de correo electrónico centrado en la privacidad, el cifrado, la seguridad y la facilidad de uso. Ha estado en operación desde 2013. Proton AG tiene su sede en Ginebra, Suiza. El plan Proton Mail Free viene con 500 MB de almacenamiento de correo, que puedes aumentar hasta 1 GB de forma gratuita.
 
     [Lea la Reseña Completa :material-arrow-right-drop-circle:](email.md#proton-mail)
 
@@ -210,7 +210,7 @@ Si busca más **seguridad**, asegúrese siempre de conectarse a sitios web que u
     ---
 
     Mailbox.org es un servicio de correo electrónico centrado en la seguridad, sin publicidad y alimentado de forma privada con energía 100% ecológica.
-. Han estado en operación desde 2014. Mailbox.org tiene su sede en Berlín, Alemania. Accounts start with up to 2 GB storage, which can be upgraded as needed.
+. Han estado en operación desde 2014. Mailbox.org tiene su sede en Berlín, Alemania. Las cuentas empiezan con hasta 2 GB de almacenamiento, que pueden ampliarse según sea necesario.
 
     [Lea la Reseña Completa :material-arrow-right-drop-circle:](email.md#mailboxorg)
 
@@ -218,7 +218,7 @@ Si busca más **seguridad**, asegúrese siempre de conectarse a sitios web que u
 
     ---
 
-    Tuta (antes *Tutanota*) es un servicio de correo electrónico centrado en la seguridad y la privacidad mediante el uso de cifrado. Tuta lleva funcionando desde 2011 y tiene su sede en Hannover, Alemania. Free accounts start with 1 GB of storage.
+    Tuta (antes *Tutanota*) es un servicio de correo electrónico centrado en la seguridad y la privacidad mediante el uso de cifrado. Tuta lleva funcionando desde 2011 y tiene su sede en Hannover, Alemania. Las cuentas gratuitas comienzan con 1 GB de almacenamiento.
 
     [Lea la Reseña Completa :material-arrow-right-drop-circle:](email.md#tuta)
 
@@ -249,7 +249,7 @@ Si busca más **seguridad**, asegúrese siempre de conectarse a sitios web que u
 - ![FairEmail logo](assets/img/email-clients/fairemail.svg){ .twemoji loading=lazy } [FairEmail (Android)](email-clients.md#fairemail-android)
 - ![GNOME Evolution logo](assets/img/email-clients/evolution.svg){ .twemoji loading=lazy } [GNOME Evolution (Linux)](email-clients.md#gnome-evolution-gnome)
 - ![Kontact logo](assets/img/email-clients/kontact.svg){ .twemoji loading=lazy } [Kontact (Linux)](email-clients.md#kontact-kde)
-- ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji loading=lazy } [Mailvelope (PGP in standard webmail)](email-clients.md#mailvelope-browser)
+- ![Mailvelope logo](assets/img/email-clients/mailvelope.svg){ .twemoji loading=lazy } [Mailvelope (PGP en correo web estándar)](email-clients.md#mailvelope-browser)
 - ![NeoMutt logo](assets/img/email-clients/mutt.svg){ .twemoji loading=lazy } [NeoMutt (CLI)](email-clients.md#neomutt-cli)
 
 </div>
@@ -428,7 +428,7 @@ Para cifrar su unidad de SO, normalmente recomendamos utilizar la herramienta de
 
 </details>
 
-#### Cross-Platform Tools
+#### Herramientas Multiplataforma
 
 <div class="grid cards" markdown>
 
@@ -486,15 +486,15 @@ Para cifrar su unidad de SO, normalmente recomendamos utilizar la herramienta de
 
 [Más información :material-arrow-right-drop-circle:](frontends.md)
 
-### Health and Wellness Apps
+### Aplicaciones de Salud y Bienestar
 
 <div class="grid cards" markdown>
 
 - ![Drip logo](assets/img/health-and-wellness/drip.png){ .twemoji loading=lazy } [Drip](health-and-wellness.md#drip)
 - ![Euki logo](assets/img/health-and-wellness/euki.svg){ .twemoji loading=lazy } [Euki](health-and-wellness.md#euki)
-- ![Apple Health logo](assets/img/health-and-wellness/apple-health.svg#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ .twemoji loading=lazy } [Apple Health](health-and-wellness.md#apple-health)
+- ![Apple Health logo](assets/img/health-and-wellness/apple-health.svg#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ .twemoji loading=lazy } [Salud de Apple](health-and-wellness.md#apple-health)
 - ![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge.svg#only-light){ .twemoji loading=lazy }![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge-dark.svg#only-dark){ .twemoji loading=lazy } [Gadgetbridge](health-and-wellness.md#gadgetbridge)
-- ![Apple Health logo](assets/img/health-and-wellness/apple-health.svg#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ .twemoji loading=lazy } [Apple Health Records](health-and-wellness.md#apple-health-records)
+- ![Apple Health logo](assets/img/health-and-wellness/apple-health.svg#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ .twemoji loading=lazy } [Historial Clínico de Apple](health-and-wellness.md#apple-health-records)
 - ![CommonHealth logo](assets/img/health-and-wellness/commonhealth.png){ .twemoji loading=lazy } [CommonHealth](health-and-wellness.md#commonhealth)
 
 </div>
@@ -511,7 +511,7 @@ Para cifrar su unidad de SO, normalmente recomendamos utilizar la herramienta de
 
 [Más información :material-arrow-right-drop-circle:](language-tools.md)
 
-### Maps and Navigation Apps
+### Aplicaciones de Mapas y Navegación
 
 <div class="grid cards" markdown>
 
@@ -614,7 +614,7 @@ Para cifrar su unidad de SO, normalmente recomendamos utilizar la herramienta de
 
 [Más información :material-arrow-right-drop-circle:](real-time-communication.md)
 
-### Social Networks
+### Redes Sociales
 
 <div class="grid cards" markdown>
 
@@ -690,7 +690,7 @@ Para cifrar su unidad de SO, normalmente recomendamos utilizar la herramienta de
 
 <div class="grid cards" markdown>
 
-- ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ .twemoji loading=lazy } [Qubes OS (Xen VM Distribution)](desktop.md#qubes-os)
+- ![Qubes OS logo](assets/img/qubes/qubes_os.svg){ .twemoji loading=lazy } [Qubes OS (Distribución MV Xen)](desktop.md#qubes-os)
 - ![Fedora logo](assets/img/linux-desktop/fedora.svg){ .twemoji loading=lazy } [Fedora Linux](desktop.md#fedora-linux)
 - ![openSUSE Tumbleweed logo](assets/img/linux-desktop/opensuse-tumbleweed.svg){ .twemoji loading=lazy } [openSUSE Tumbleweed](desktop.md#opensuse-tumbleweed)
 - ![Arch logo](assets/img/linux-desktop/archlinux.svg){ .twemoji loading=lazy } [Arch Linux](desktop.md#arch-linux)
@@ -726,7 +726,7 @@ Estas herramientas pueden ser útiles para determinadas personas. Proporcionan f
 
 - ![I2P logo](assets/img/self-contained-networks/i2p.svg#only-light){ .twemoji loading=lazy } ![I2P logo](assets/img/self-contained-networks/i2p-dark.svg#only-dark){ .twemoji loading=lazy } [I2P](alternative-networks.md#i2p-the-invisible-internet-project)
 - ![Tor logo](assets/img/self-contained-networks/tor.svg){ .twemoji loading=lazy } [Tor](alternative-networks.md#tor)
-- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Mobile Tor Proxy)](alternative-networks.md#orbot)
+- ![Orbot logo](assets/img/self-contained-networks/orbot.svg){ .twemoji loading=lazy } [Orbot (Proxy Tor Móvil)](alternative-networks.md#orbot)
 - ![Snowflake logo](assets/img/self-contained-networks/snowflake.svg#only-light){ .twemoji loading=lazy }![Snowflake logo](assets/img/self-contained-networks/snowflake-dark.svg#only-dark){ .twemoji loading=lazy } [Snowflake](alternative-networks.md#snowflake)
 
 </div>

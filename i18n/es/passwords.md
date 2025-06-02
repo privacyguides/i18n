@@ -177,7 +177,7 @@ Estos administradores de contraseñas sincronizan sus contraseñas con un servid
 
 Bitwarden utiliza [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) como algoritmo de función de derivación de claves (KDF) por defecto. También ofrece como alternativa [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id), que es más seguro. Puede cambiar el algoritmo KDF de su cuenta en el almacén web:
 
-- [x] Seleccione **Settings > Security > Keys > KDF algorithm > Argon2id**
+- [x] Seleccione **Configuración > Seguridad > Claves > Algoritmo KDF > Argon2id**
 
 El código del lado del servidor de Bitwarden es de [código abierto](https://github.com/bitwarden/server), por lo que si no desea utilizar la nube de Bitwarden, puede alojar fácilmente su propio servidor de sincronización Bitwarden.
 
@@ -201,7 +201,7 @@ El código del lado del servidor de Bitwarden es de [código abierto](https://gi
 [:octicons-code-16:](https://github.com/protonpass){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=proton.android.pass)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id6443490629)
@@ -217,7 +217,7 @@ El código del lado del servidor de Bitwarden es de [código abierto](https://gi
 
 Con la adquisición de SimpleLogin en abril de 2022, Proton ha ofrecido una función de "ocultar mi correo electrónico" que permite crear 10 alias (plan gratuito) o alias ilimitados (planes de pago).
 
-The Proton Pass mobile apps and browser extension underwent an audit performed by Cure53 throughout May and June 2023. La empresa de análisis de seguridad concluyó:
+Las aplicaciones móviles y la extensión de navegador de Proton Pass se sometieron a una auditoría realizada por Cure53 a lo largo de mayo y junio de 2023. La empresa de análisis de seguridad concluyó:
 
 > Las aplicaciones y componentes de Proton Pass dejan una impresión bastante positiva en términos de seguridad.
 
@@ -238,7 +238,7 @@ Todos los problemas se abordaron y solucionaron poco después del [informe](http
 [:octicons-info-16:](https://support.1password.com){ .card-link title="Documentación" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750)
@@ -255,7 +255,7 @@ Todos los problemas se abordaron y solucionaron poco después del [informe](http
 
 </div>
 
-Tradicionalmente, 1Password ha ofrecido la mejor experiencia de usuario entre los administradores de contraseñas para las personas que utilizan macOS e iOS; sin embargo, ahora ha logrado la paridad de características en todas las plataformas. 1Password's clients boast many features geared towards families and less technical people, such as an intuitive UI for ease-of-use and navigation, as well as advanced functionality. En particular, casi todas las funciones de 1Password están disponibles en sus clientes nativos para móvil o escritorio.
+Tradicionalmente, 1Password ha ofrecido la mejor experiencia de usuario entre los administradores de contraseñas para las personas que utilizan macOS e iOS; sin embargo, ahora ha logrado la paridad de características en todas las plataformas. Los clientes de 1Password cuentan con muchas características orientadas a las familias y a las personas menos técnicas, como una interfaz de usuario intuitiva para facilitar el uso y la navegación, así como funciones avanzadas. En particular, casi todas las funciones de 1Password están disponibles en sus clientes nativos para móvil o escritorio.
 
 Su bóveda de 1Password está protegida tanto con su contraseña maestra como con una clave de seguridad aleatoria de 34 caracteres para cifrar sus datos en los servidores. Esta clave de seguridad añade una capa de protección a sus datos, ya que estos están asegurados con una alta entropía independientemente de su contraseña maestra. Muchas otras soluciones de administración de contraseñas dependen totalmente de la fortaleza de su contraseña maestra para proteger sus datos.
 
@@ -273,7 +273,7 @@ Su bóveda de 1Password está protegida tanto con su contraseña maestra como co
 [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1545581224)
@@ -318,7 +318,7 @@ Estas opciones le permiten administrar una base de datos de contraseñas cifrada
 
 ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
 
-**KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal of extending and improving it with new features and bug fixes to provide a feature-rich, cross-platform, and modern open-source password manager.
+**KeePassXC** es una bifurcación comunitaria de KeePassX, un port nativo multiplataforma de KeePass Password Safe, con el objetivo de extenderlo y mejorarlo con nuevas características y correcciones de errores para proporcionar un administrador de contraseñas de código abierto rico en características, multiplataforma y moderno.
 
 [:octicons-home-16: Página Principal](https://keepassxc.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Política de Privacidad" }
@@ -327,7 +327,7 @@ Estas opciones le permiten administrar una base de datos de contraseñas cifrada
 [:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title="Contribuir" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:fontawesome-brands-windows: Windows](https://keepassxc.org/download/#windows)
 - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
@@ -348,12 +348,12 @@ KeePassXC almacena sus datos de exportación como archivos [CSV](https://es.wiki
 
 ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
 
-**KeePassDX** is a lightweight password manager for Android; it allows for editing encrypted data in a single file in KeePass format and can fill in forms securely.
+**KeePassDX** es un administrador de contraseñas ligero para Android; permite editar datos encriptados en un único archivo en formato KeePass y puede rellenar formularios de forma segura.
 
-[:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title="Contribute" }
+[:octicons-home-16: Página Principal](https://keepassdx.com){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title="Contribuir" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -365,7 +365,7 @@ KeePassXC almacena sus datos de exportación como archivos [CSV](https://es.wiki
 
 </div>
 
-The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) of the app allows you to unlock cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
+La [versión pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) de la aplicación permite desbloquear contenidos cosméticos y funciones de protocolo no estándar, pero lo más importante es que ayuda y fomenta el desarrollo.
 
 ### Gopass (CLI)
 
@@ -373,7 +373,7 @@ The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.ke
 
 ![Gopass logo](assets/img/password-management/gopass.svg){ align=right }
 
-**Gopass** is a minimal password manager for the command line written in Go. Puede utilizarse dentro de aplicaciones de scripting y funciona en los principales sistemas operativos de escritorio y servidor.
+**Gopass** es un administrador de contraseñas para línea de comandos escrito en Go. Puede utilizarse dentro de aplicaciones de scripting y funciona en los principales sistemas operativos de escritorio y servidor.
 
 [:octicons-home-16: Página Principal](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title="Documentación" }
