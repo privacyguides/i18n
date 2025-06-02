@@ -110,15 +110,15 @@ OSの権限管理をそもそも信用しない場合、物理的にカメラに
 
 デバイスがセキュアブート・ベリファイドブートに対応しているか確認し、有効にしてください。 可能な限り、デバイスを放置しないようにしてください。
 
-## Secure your Network
+## ネットワークの保護
 
-### Compartmentalization
+### 区画化
 
-Many solutions exist that allow you to separate what you're doing on a computer, such as virtual machines and sandboxing. However, the best compartmentalization is physical separation. This is useful especially for situations where certain software requires you to bypass security features in your OS, such as with anti-cheat software bundled with many games.
+仮想化やサンドボックスなど、コンピューター上で行えることを分離する方法は数多くあります。 ただし、最もよい区画化は物理的に分けてしまうことです。 多くのゲームに含まれているアンチチートソフトウェアのようなOSのセキュリティ機能を回避するソフトウェアがある場合に特に有効です。
 
-For gaming, it may be useful to designate one machine as your "gaming" machine and only use it for that one task. Keep it on a separate VLAN. This may require the use of a managed switch and a router that supports segregated networks.
+ゲームの場合、一つのマシンを「ゲーミング」マシンとして、ゲームのみ行うのがよいでしょう。 VLANで分離してください。 そのためには分離されたネットワークに対応したマネージドスイッチやルーターが必要になる場合があります。
 
-Most consumer routers allow you to do this by enabling a separate "guest" network that can't talk to your main network. All untrusted devices can go here, including IoT devices like your smart fridge, thermostat, TV, etc.
+多くの一般消費者向けルーターでは、メインのネットワークとは通信できない別の「ゲスト」ネットワークを有効にすることで実現できます。 スマート冷蔵庫・温度自動調整機・テレビなどの信頼できないデバイスはここに配置します。
 
 ### Minimalism
 
