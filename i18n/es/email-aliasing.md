@@ -59,7 +59,7 @@ Usar un servicio de alias requiere confiar tus mensajes sin encriptar a tu prove
 **Addy.io** te permite crear 10 alias de dominio en un dominio compartido de forma gratuita, o ilimitados [alias «estándar»](https://addy.io/faq/#what-is-a-standard-alias).
 
 [:octicons-home-16: Página Principal](https://addy.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Politica de Privacidad" }
+[:octicons-eye-16:](https://addy.io/privacy){ .card-link title="Política de Privacidad" }
 [:octicons-info-16:](https://addy.io/faq){ .card-link title="Documentación" }
 [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Código Fuente" }
 [:octicons-heart-16:](https://addy.io/donate){ .card-link title="Contribuir" }

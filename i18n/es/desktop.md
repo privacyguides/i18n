@@ -203,7 +203,7 @@ Tails está diseñado para formatearse por completo después de cada reinicio. E
 
 [:octicons-home-16: Página Principal](https://qubes-os.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Servicio Onion" }
-[:octicons-eye-16:](https://qubes-os.org/privacy){ .card-link title="Politica de Privacidad" }
+[:octicons-eye-16:](https://qubes-os.org/privacy){ .card-link title="Política de Privacidad" }
 [:octicons-info-16:](https://qubes-os.org/doc){ .card-link title="Documentación " }
 [:octicons-code-16:](https://github.com/QubesOS){ .card-link title="Código Fuente" }
 [:octicons-heart-16:](https://qubes-os.org/donate){ .card-link title="Contribuir" }
@@ -246,7 +246,7 @@ Aunque en la mayoría de los casos [desaconsejamos](os/linux-overview.md#release
 **Kicksecure** -en términos muy simplificados- es un conjunto de scripts, configuraciones y paquetes que reducen sustancialmente la superficie de ataque de Debian. Cubre muchas recomendaciones de privacidad y seguridad por defecto. También sirve de sistema operativo base para [Whonix](#whonix).
 
 [:octicons-home-16: Página Principal](https://kicksecure.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://kicksecure.com/wiki/Privacy_Policy){ .card-link title="Politica de Privacidad" }
+[:octicons-eye-16:](https://kicksecure.com/wiki/Privacy_Policy){ .card-link title="Política de Privacidad" }
 [:octicons-info-16:](https://kicksecure.com/wiki/Documentation){ .card-link title="Documentación" }
 [:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Código Fuente" }
 [:octicons-heart-16:](https://kicksecure.com/wiki/Donate){ .card-link title="Contribuir" }

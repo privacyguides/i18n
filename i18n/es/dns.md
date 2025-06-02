@@ -65,7 +65,7 @@ Pi-hole está diseñado para alojarse en una Raspberry Pi, pero no se limita a d
 AdGuard Home cuenta con una interfaz web pulida para ver información y gestionar el contenido bloqueado.
 
 [:octicons-home-16: Página Principal](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="Politica de privacidad" }
+[:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="Política de privacidad" }
 [:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=Documentación}
 [:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="Código fuente" }inicio
 

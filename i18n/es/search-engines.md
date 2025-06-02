@@ -40,7 +40,7 @@ Brave Search incluye funciones exclusivas como [Discusiones](https://search.brav
 
 [:octicons-home-16: Página Principal](https://search.brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Servicio Onion" }
-[:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Politica de Privacidad" }
+[:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Política de Privacidad" }
 [:octicons-info-16:](https://search.brave.com/help){ .card-link title=Documentación}
 
 </div>
@@ -61,7 +61,7 @@ DuckDuckGo es el motor de búsqueda predeterminado de [Tor Browser](tor.md#tor-b
 
 [:octicons-home-16: Página Principal](https://duckduckgo.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Servicio Onion" }
-[:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Politica de Privacidad" }
+[:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Política de Privacidad" }
 [:octicons-info-16:](https://help.duckduckgo.com){ .card-link title=Documentación}
 
 </div>
@@ -79,7 +79,7 @@ DuckDuckGo ofrece [otras dos versiones](https://help.duckduckgo.com/features/non
 
 [:octicons-home-16: Página Principal](https://startpage.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion){ .card-link title="Servicio Onion" }
-[:octicons-eye-16:](https://startpage.com/en/privacy-policy){ .card-link title="Politica de Privacidad" }
+[:octicons-eye-16:](https://startpage.com/en/privacy-policy){ .card-link title="Política de Privacidad" }
 [:octicons-info-16:](https://support.startpage.com/hc/categories/4481917470356-Startpage-Search-Engine){ .card-link title=Documentación}
 
 </div>
@@ -119,7 +119,7 @@ Cuando utilice una instancia de SearXNG, asegúrese de leer su política de priv
 ### Requisitos Mínimos
 
 - No debe recopilar IIP según su política de privacidad.
-- No deben exigir a los usuarios que creen una cuenta con ellos.
+- No debe exigir a los usuarios que creen una cuenta con ellos.
 
 ### Mejor Caso
 

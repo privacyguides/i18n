@@ -501,7 +501,7 @@ Para cifrar su unidad de SO, normalmente recomendamos utilizar la herramienta de
 
 [Más información :material-arrow-right-drop-circle:](health-and-wellness.md)
 
-### Herramientas de Idiomas
+### Herramientas Lingüísticas
 
 <div class="grid cards" markdown>
 

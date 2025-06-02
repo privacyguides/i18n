@@ -1,7 +1,7 @@
 ---
 title: "Blocs de Notas"
 icon: material/notebook-edit-outline
-description: These encrypted note-taking apps let you keep track of your notes without giving them to a third party.
+description: Estas aplicaciones encriptadas para tomar notas te permiten hacer un seguimiento de tus apuntes sin cedérselos a terceros.
 cover: notebooks.webp
 ---
 
@@ -9,9 +9,9 @@ cover: notebooks.webp
 
 - [:material-server-network: Proveedores de servicios](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-Keep track of your notes and journals without giving them to a third party.
+Mantén el control de tus notas y diarios sin dárselos a un tercero.
 
-If you are currently using an application like Evernote, Google Keep, or Microsoft OneNote, we suggest you pick an alternative here that supports end-to-end encryption.
+Si actualmente utilizas una aplicación como Evernote, Google Keep o Microsoft OneNote, te sugerimos que elijas una alternativa de aquí que admita el cifrado de extremo a extremo.
 
 ## Basado en la nube
 
@@ -21,18 +21,18 @@ If you are currently using an application like Evernote, Google Keep, or Microso
 
 ![Standard Notes logo](assets/img/notebooks/standard-notes.svg){ align=right }
 
-**Standard Notes** is a simple and private notes app that features cross-platform sync for seamless use. Ofrece E2EE en todas las plataformas y una potente experiencia de escritorio con temas y editores personalizados.
+**Standard Notes** es una aplicación de notas simple y privada que cuenta con sincronización multiplataforma para un uso constante. Ofrece E2EE en todas las plataformas y una potente experiencia de escritorio con temas y editores personalizados.
 
-Standard Notes has also undergone multiple [independent audits](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
+Además, Standard Notes se ha sometido a múltiples [auditorías independientes](https://standardnotes.com/help/2/has-standard-notes-completed-a-third-party-security-audit).
 
-[:octicons-home-16: Homepage](https://standardnotes.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://standardnotes.com/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title="Contribute" }
+[:octicons-home-16: Página Principal](https://standardnotes.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://standardnotes.com/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://standardnotes.com/help){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://standardnotes.com/donate){ .card-link title="Contribuir" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.standardnotes)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1285392450)
@@ -54,18 +54,18 @@ Standard Notes [se ha unido a Proton AG](https://standardnotes.com/blog/joining-
 
 ![Notesnook logo](assets/img/notebooks/notesnook.svg){ align=right }
 
-**Notesnook** is a free (as in speech), open-source, and easy-to-use E2EE note-taking app focused on user privacy.
+**Notesnook** es una aplicación para tomar notas E2EE gratuita (como en el habla), de código abierto y fácil de usar, centrada en la privacidad del usuario.
 
-It features sync functionality that allows you to access your notes on multiple platforms. You can easily import your notes from Evernote, OneNote, and other apps using their [official importer](https://importer.notesnook.com).
+Cuenta con una función de sincronización que te permite acceder a tus notas en múltiples plataformas. Puedes importar fácilmente tus notas desde Evernote, OneNote y otras aplicaciones utilizando su [importador oficial](https://importer.notesnook.com).
 
-[:octicons-home-16: Homepage](https://notesnook.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.notesnook.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/notesnook){ .card-link title="Contribute" }
+[:octicons-home-16: Página Principal](https://notesnook.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://notesnook.com/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://help.notesnook.com){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/streetwriters/notesnook){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://opencollective.com/notesnook){ .card-link title="Contribuir" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.streetwriters.notesnook)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1544027013)
@@ -88,18 +88,18 @@ It features sync functionality that allows you to access your notes on multiple 
 
 ![Joplin logo](assets/img/notebooks/joplin.svg){ align=right }
 
-**Joplin** is a free, open-source, and fully-featured E2EE note-taking and to-do application which can handle numerous Markdown notes organized into notebooks and tags.
+**Joplin** es una aplicación E2EE gratuita de código abierto multifunción para tomar notas y hacer tareas que puede manejar numerosas notas Markdown organizadas en blocs de notas y etiquetas.
 
-It can sync through Nextcloud, Dropbox, and more. También ofrece una fácil importación desde Evernote y notas en texto plano.
+Puede sincronizarse a través de Nextcloud, Dropbox, etc. También ofrece una fácil importación desde Evernote y notas en texto plano.
 
-[:octicons-home-16: Homepage](https://joplinapp.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://joplinapp.org/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://joplinapp.org/donate){ .card-link title="Contribute" }
+[:octicons-home-16: Página Principal](https://joplinapp.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://joplinapp.org/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://joplinapp.org/help){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/laurent22/joplin){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://joplinapp.org/donate){ .card-link title="Contribuir" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.cozic.joplin)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1315599797)
@@ -114,7 +114,7 @@ It can sync through Nextcloud, Dropbox, and more. También ofrece una fácil imp
 
 </div>
 
-Joplin [does not support](https://github.com/laurent22/joplin/issues/289) password/PIN protection for the application itself or individual notes and notebooks. Sin embargo, tus datos están encriptados en tránsito y en la ubicación de sincronización utilizando tu clave maestra. Since January 2023, Joplin [supports biometrics app lock](https://github.com/laurent22/joplin/commit/f10d9f75b055d84416053fab7e35438f598753e9) for Android and iOS.
+Joplin [no admite](https://github.com/laurent22/joplin/issues/289) la protección mediante contraseña/PIN de la propia aplicación ni de las notas y blocs de notas individuales. Sin embargo, tus datos están encriptados en tránsito y en la ubicación de sincronización utilizando tu clave maestra. Desde enero de 2023, Joplin [admite el bloqueo biométrico de aplicaciones](https://github.com/laurent22/joplin/commit/f10d9f75b055d84416053fab7e35438f598753e9) en Android e iOS.
 
 ### Cryptee
 
@@ -125,15 +125,15 @@ Joplin [does not support](https://github.com/laurent22/joplin/issues/289) passwo
 
 **Cryptee** es un editor de documentos E2EE de código abierto basado en web y una aplicación de almacenamiento de fotos.
 
-Cryptee offers 100 MB of storage for free, with paid options if you need more. Sign-up doesn't require an e-mail or other personally identifiable information.
+Cryptee ofrece 100 MB de almacenamiento gratuito, con opciones de pago si necesitas más. El registro no requiere un correo electrónico ni otra información personal identificable.
 
-[:octicons-home-16: Homepage](https://crypt.ee){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://crypt.ee/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://crypt.ee/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/cryptee){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://crypt.ee){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://crypt.ee/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://crypt.ee/help){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/cryptee){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:octicons-browser-16: Web](https://crypt.ee/download)
 
@@ -141,7 +141,7 @@ Cryptee offers 100 MB of storage for free, with paid options if you need more. 
 
 </div>
 
-Cryptee is a PWA, which means that it works seamlessly across all modern devices without requiring native apps for each respective platform.
+Cryptee es una PWA, lo que significa que funciona perfectamente en todos los dispositivos modernos sin necesidad de aplicaciones nativas para cada plataforma.
 
 ## Blocs de Notas Locales
 
@@ -151,12 +151,12 @@ Cryptee is a PWA, which means that it works seamlessly across all modern devices
 
 ![Org-mode logo](assets/img/notebooks/org-mode.svg){ align=right }
 
-**Org-mode** es un [modo principal](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) para GNU Emacs. Org-mode sirve para tomar notas, mantener listas de tareas pendientes, planificar proyectos y crear documentos con un sistema de texto plano rápido y eficaz. File synchronization is possible with tools like [Syncthing](file-sharing.md#syncthing-p2p).
+**Org-mode** es un [modo principal](https://gnu.org/software/emacs/manual/html_node/elisp/Major-Modes.html) para GNU Emacs. Org-mode sirve para tomar notas, mantener listas de tareas pendientes, planificar proyectos y crear documentos con un sistema de texto plano rápido y eficaz. La sincronización de archivos es posible con herramientas como [Syncthing](file-sharing.md#syncthing-p2p).
 
-[:octicons-home-16: Homepage](https://orgmode.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://git.savannah.gnu.org/cgit/emacs/org-mode.git){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://liberapay.com/bzg){ .card-link title="Contribute" }
+[:octicons-home-16: Página Principal](https://orgmode.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://orgmode.org/manuals.html){ .card-link title="Documentación" }
+[:octicons-code-16:](https://git.savannah.gnu.org/cgit/emacs/org-mode.git){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://liberapay.com/bzg){ .card-link title="Contribuir" }
 
 </details>
 

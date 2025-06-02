@@ -120,7 +120,7 @@ Apple Mail tiene la capacidad de cargar contenido remoto en segundo plano o bloq
 **FairEmail** es una aplicación de correo electrónico mínima y de código abierto que utiliza estándares abiertos (IMAP, SMTP, OpenPGP) y minimiza el uso de datos y batería.
 
 [:octicons-home-16: Página Principal](https://email.faircode.eu){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Politica de Privacidad" }
+[:octicons-eye-16:](https://github.com/M66B/FairEmail/blob/master/PRIVACY.md){ .card-link title="Política de Privacidad" }
 [:octicons-info-16:](https://github.com/M66B/FairEmail/blob/master/FAQ.md){ .card-link title="Documentación" }
 [:octicons-code-16:](https://github.com/M66B/FairEmail){ .card-link title="Código Fuente" }
 [:octicons-heart-16:](https://email.faircode.eu/donate){ .card-link title="Contribuir" }

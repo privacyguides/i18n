@@ -107,19 +107,19 @@ Estas aplicaciones de uso general pueden hacer de todo, desde contar los pasos y
 
 Las funciones de la aplicación Gadgetbridge incluyen, entre otras: recuento de pasos, seguimiento del sueño, control de la frecuencia cardíaca, etc.
 
-Make sure to review the smartwatch [compatibility list](https://gadgetbridge.org/gadgets) before purchasing a device. Some devices require you to download the vendor's app and connect the smartwatch to their servers prior to installing Gadgetbridge.
+Asegúrate de revisar la [lista de compatibilidad](https://gadgetbridge.org/gadgets) de smartwatch antes de comprar un dispositivo. Algunos dispositivos requieren que descargues la aplicación del proveedor y conectes el smartwatch a sus servidores antes de instalar Gadgetbridge.
 
-## Health Records
+## Registros Sanitarios
 
-These apps help you collect and manage personal health data and share it with health providers, organizations, and other apps.
+Estas aplicaciones te ayudan a recopilar y gestionar datos de tu salud y a compartirlos con proveedores sanitarios, organizaciones y otras aplicaciones.
 
-### Apple Health Records
+### Historial Clínico de Apple
 
 <div class="admonition recommendation" markdown>
 
 ![Apple logo](assets/img/health-and-wellness/apple-health.svg#only-light){ align=right }![Apple logo](assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ align=right }
 
-**Apple Health Records** is a built-in feature within [Apple Health](#apple-health) that allows you to view, store, and share your health records. It shares the security and privacy features of Apple Health.
+**Historial Clínico de Apple** es una función integrada en [Salud de Apple](#apple-health) que te permite ver, almacenar y compartir tus historiales médicos. Comparte las características de seguridad y privacidad de Salud de Apple.
 
 [:octicons-home-16: Página Principal](https://apple.com/health){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/consumer-health-personal-data/en-ww){ .card-link title="Política de Privacidad" }
@@ -138,10 +138,10 @@ These apps help you collect and manage personal health data and share it with he
 
 ![CommonHealth logo](assets/img/health-and-wellness/commonhealth.png){ align=right }
 
-**CommonHealth** is a privacy-respecting Android app that allows people to access their electronic health records and securely share it to providers. All health data is stored on your device and can be protected with a passcode or biometric authentication.
+**CommonHealth** es una aplicación para Android que respeta la privacidad y permite a las personas acceder a sus historiales médicos electrónicos y compartirlos de forma segura con los proveedores. Todos los datos sanitarios se almacenan en tu dispositivo y pueden protegerse con un código de acceso o autenticación biométrica.
 
-[:octicons-home-16: Homepage](https://commonhealth.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://commonhealth.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Página Principal](https://commonhealth.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://commonhealth.org/privacy){ .card-link title="Política de Privacidad" }
 
 <details class="downloads" markdown><summary>Downloads "Descargas"</summary>
 
@@ -151,7 +151,7 @@ These apps help you collect and manage personal health data and share it with he
 
 </div>
 
-CommonHealth is only available in the United States. Although the app itself is closed source, the [developer SDK is open source](https://github.com/the-commons-project).
+CommonHealth solo está disponible en Estados Unidos. Aunque la aplicación en sí es de código cerrado, el [SDK del desarrollador es de código abierto](https://github.com/the-commons-project).
 
 ## Criterios
 

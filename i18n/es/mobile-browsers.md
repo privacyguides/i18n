@@ -68,7 +68,7 @@ Brave se basa en el proyecto de navegador web Chromium, por lo que debería resu
 
 [:octicons-home-16: Página Principal](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Servicio Onion" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Politica de Privacidad" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Política de Privacidad" }
 [:octicons-info-16:](https://support.brave.com){ .card-link title="Documentación" }
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Código Fuente" }
 

@@ -126,7 +126,7 @@ Si eres usuario de Mullvad VPN, existe cierto riesgo al utilizar servicios que o
 **Firefox** brinda una configuración fuerte de privacidad como la [Protección de Rastreo Mejorada](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), que puede ayudar con el bloqueo de varios [tipos de rastreadores](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
 
 [:octicons-home-16: Página Principal](https://firefox.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Politica de Privacidad" }
+[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Política de Privacidad" }
 [:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title="Documentación" }
 [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Código Fuente" }
 [:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="Contribuir" }
@@ -249,7 +249,7 @@ Brave se basa en el proyecto de navegador web Chromium, por lo que debería resu
 
 [:octicons-home-16: Página Principal](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Servicio Onion" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Politica de Privacidad" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Política de Privacidad" }
 [:octicons-info-16:](https://support.brave.com){ .card-link title="Documentación" }
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Código Fuente" }
 

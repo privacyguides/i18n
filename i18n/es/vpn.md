@@ -215,7 +215,7 @@ Los clientes de IVPN soportan la autenticación de doble factor. IVPN también o
 
 [:octicons-home-16: Página Principal](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Servicio Onion" }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Politica de Privacidad" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Política de Privacidad" }
 [:octicons-info-16:](https://mullvad.net/en/help){ .card-link title=Documentación}
 [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Código Fuente" }
 

@@ -1,8 +1,8 @@
 ---
-meta_title: Recommended Maps and Navigation Apps - Privacy Guides
-title: Maps and Navigation
+meta_title: Aplicaciones de Mapas y Navegación Recomendadas - Privacy Guides
+title: Mapas y Navegación
 icon: material/map
-description: Privacy-respecting map providers and navigation apps which don't build an advertising profile based on your searches and locations.
+description: Proveedores de mapas y aplicaciones de navegación que respetan la privacidad y no crean un perfil publicitario basado en tus búsquedas y ubicaciones.
 cover: maps.webp
 ---
 
@@ -10,9 +10,9 @@ cover: maps.webp
 
 - [:material-account-cash: Capitalismo de Vigilancia](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-Use a **map and navigation app** that doesn't build an advertising profile based on your searches and location history. Instead of using Google Maps, Apple Maps, or Waze, we recommend these privacy-respecting alternatives.
+Utiliza una **aplicación de mapas y navegación** que no construya un perfil publicitario basado en tus búsquedas e historial de localización. En lugar de utilizar Google Maps, Mapas de Apple o Waze, te recomendamos estas alternativas que respetan la privacidad.
 
-The recommendations here either do not collect any user data or at least do not collect personally identifying information (PII) based on each service's privacy policy. There is **no guarantee** that these privacy policies are honored.
+Estas recomendaciones no recogen datos de los usuarios o, al menos, no recogen información de identificación personal (PII) según la política de privacidad de cada servicio. No existe **ninguna garantía** de que se respeten estas políticas de privacidad.
 
 ## Organic Maps
 
@@ -20,13 +20,13 @@ The recommendations here either do not collect any user data or at least do not 
 
 ![Organic Maps logo](assets/img/maps/organic-maps.svg){ align=right }
 
-**Organic Maps** is an open-source, community-developed map display and satnav-style navigation app for walkers, drivers, and cyclists. The app offers worldwide, offline maps based on OpenStreetMap data, and navigation with privacy — no location tracking, no data collection, and no ads. The app can be used completely offline.
+**Organic Maps** es una aplicación de código abierto, desarrollada por la comunidad, que permite visualizar mapas y ofrece navegación tipo satélite para peatones, conductores y ciclistas. La aplicación ofrece mapas de todo el mundo sin conexión, basados en datos de OpenStreetMap, y navegación con privacidad: sin seguimiento de la ubicación, sin recopilación de datos y sin anuncios. La aplicación puede utilizarse sin conexión.
 
-Features include cycling routes, hiking trails and walking paths, turn-by-turn navigation with voice guidance, and public transport route planning (only available in supported regions and cities).
+Entre sus funciones se incluyen rutas de ciclismo, rutas de senderismo y senderos, navegación giro a giro guiada por voz y planificación de rutas de transporte público (solo disponible en ciertas regiones y ciudades).
 
-[:octicons-home-16: Homepage](https://organicmaps.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://organicmaps.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-code-16:](https://git.omaps.dev/organicmaps/organicmaps){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://organicmaps.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://organicmaps.app/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-code-16:](https://git.omaps.dev/organicmaps/organicmaps){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown><summary>Downloads "Descargas"</summary>
 
@@ -39,7 +39,7 @@ Features include cycling routes, hiking trails and walking paths, turn-by-turn n
 
 </div>
 
-Please note that Organic Maps is a simple, basic app that lacks certain features many users might expect, such as satellite images, street view images, and real-time traffic information.
+Por favor, ten en cuenta que Organic Maps es una aplicación simple y básica que carece de ciertas características que muchos usuarios podrían esperar, como imágenes satelitales, imágenes de la calle e información del tráfico en tiempo real.
 
 ## OsmAnd
 
@@ -47,12 +47,12 @@ Please note that Organic Maps is a simple, basic app that lacks certain features
 
 ![OsmAnd logo](assets/img/maps/osmand.svg){ align=right }
 
-**OsmAnd** is an offline map and navigation application based on OpenStreetMap that offers turn-by-turn navigation for walking, cycling, driving, as well as public transport. It is open source and does not collect any user data.
+**OsmAnd** es una aplicación de navegación y mapa sin conexión basada en OpenStreetMap que ofrece navegación giro a giro para caminar, ir en bicicleta, conducir e ir en transporte público. Es de código abierto y no recopila ningún dato del usuario.
 
-[:octicons-home-16: Homepage](https://osmand.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://osmand.net/docs/legal/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://osmand.net/docs/intro){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/osmandapp){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://osmand.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://osmand.net/docs/legal/privacy-policy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://osmand.net/docs/intro){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/osmandapp){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown><summary>Downloads "Descargas"</summary>
 
@@ -64,26 +64,26 @@ Please note that Organic Maps is a simple, basic app that lacks certain features
 
 </div>
 
-OsmAnd allows you to overlay or underlay external map data, such as satellite images from Microsoft or [traffic data](https://themm.net/public/osmand_traffic) from Google, although the latter is ignored by the automatic route planning. OsmAnd also has an optional integration of street view images provided by [Mapillary](https://mapillary.com).
+OsmAnd te permite superponer o subyacer datos del mapa externo, como imágenes de satélite de Microsoft o [datos del tráfico](https://themm.net/public/osmand_traffic) de Google, aunque este último es ignorado por la planificación automática de rutas. OsmAnd también dispone de una integración opcional de imágenes de vista de calles proporcionadas por [Mapillary](https://mapillary.com).
 
-You can find a detailed overview of OsmAnd's supported [features](https://wiki.openstreetmap.org/wiki/OsmAnd#Features) on the OpenStreet Map Wiki.
+Puedes encontrar una descripción detallada de las [características] compatibles con OsmAnd(https://wiki.openstreetmap.org/wiki/OsmAnd#Features) en la Wiki de OpenStreet Map.
 
 ## Criterios
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
+**Por favor, ten en cuenta que no estamos afiliados a ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
 
 ### Requisitos Mínimos
 
 - No debe recopilar IIP según su política de privacidad.
-- No deben exigir a los usuarios que creen una cuenta con ellos.
-- Must not require users to share location data. If the user opts in to sharing their location, this data must be anonymized.
-- Must retain core functionality when offline and allow users to download maps for offline use.
+- No debe exigir a los usuarios que creen una cuenta con ellos.
+- No debe exigir a los usuarios que compartan sus datos de localización. Si el usuario opta por compartir su ubicación, estos datos deben ser anónimos.
+- Debe mantener la funcionalidad básica cuando no esté conectado y permitir a los usuarios descargar mapas para su uso sin conexión.
 
 ### Mejor Caso
 
 Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto perfecto en esta categoría. Es posible que nuestras recomendaciones no incluyan todas o algunas de estas funciones, pero las que sí las incluyan pueden estar mejor clasificadas que otras en esta página.
 
-- Apps should be open source.
-- Should have route planning for public transport.
-- Should have real-time traffic information for route planning.
-- Should support advanced features such as detailed shop/point of interest (POI) information and reviews, topographic maps, and satellite and street view images.
+- Las aplicaciones deberían ser de código abierto.
+- Debería disponer de planificación de rutas para el transporte público.
+- Debería disponer de información sobre el tráfico en tiempo real para planificar la ruta.
+- Debería admitir funciones avanzadas, como información detallada y reseñas de tiendas/puntos de interés (POI), mapas topográficos e imágenes de satélite y vistas de calles.

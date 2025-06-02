@@ -224,7 +224,7 @@ Por defecto, Yattee bloquea todos los anuncios de YouTube. Además, Yattee se in
 Tu lista de suscripciones y tus listas de reproducción se guardan localmente en tu dispositivo Android.
 
 [:octicons-home-16: Página Principal](https://libretube.dev){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/libre-tube/LibreTube/blob/master/PRIVACY_POLICY.md){ .card-link title="Politica de Privacidad" }
+[:octicons-eye-16:](https://github.com/libre-tube/LibreTube/blob/master/PRIVACY_POLICY.md){ .card-link title="Política de Privacidad" }
 [:octicons-info-16:](https://libretube.dev/#faq){ .card-link title="Documentación" }
 [:octicons-code-16:](https://github.com/libre-tube/LibreTube){ .card-link title="Código Fuente" }
 [:octicons-heart-16:](https://github.com/libre-tube/LibreTube#donate){ .card-link title="Contribuir" }

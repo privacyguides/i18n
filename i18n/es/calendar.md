@@ -24,7 +24,7 @@ cover: calendar.webp
 Las funciones de calendarios múltiples y uso compartido ampliado están limitadas a los suscriptores de pago.
 
 [:octicons-home-16: Página Principal](https://tuta.com/calendar){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Politica de Privacidad" }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Política de Privacidad" }
 [:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentación" }
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Código Fuente" }
 [:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribuir " }

@@ -53,7 +53,7 @@ Puedes acceder a _Privacy Guides_ a través de tor en [xoe4vn5uwdztif6goazfbmogh
 **Orbot** es una aplicación móvil que enruta el tráfico de cualquier aplicación en tu dispositivo a través de la red Tor.
 
 [:octicons-home-16: Página Principal](https://orbot.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Politica de Privacidad" }
+[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Política de Privacidad" }
 [:octicons-info-16:](https://orbot.app/faqs){ .card-link title="Documentación" }
 [:octicons-code-16:](https://orbot.app/code){ .card-link title="Código Fuente" }
 [:octicons-heart-16:](https://orbot.app/donate){ .card-link title="Contribuir" }

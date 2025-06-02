@@ -135,7 +135,7 @@ schema:
 
 Los administradores de contraseñas integrados en programas como navegadores y sistemas operativos a veces no son tan buenos como los programas de administración de contraseñas específicos. La ventaja de un administrador de contraseñas integrado es la buena integración con el software, pero a menudo puede ser muy simple y carecer de las funciones de privacidad y seguridad que tienen las ofertas independientes.
 
-For example, the password manager in Microsoft Edge doesn't offer end-to-end encryption at all. El gestor de contraseñas de Google tiene E2EE [opcional](https://support.google.com/accounts/answer/11350823), y [el de Apple](https://support.apple.com/HT202303) ofrece E2EE por defecto.
+Por ejemplo, el administrador de contraseñas de Microsoft Edge no ofrece ningún tipo de cifrado de extremo a extremo. El gestor de contraseñas de Google tiene E2EE [opcional](https://support.google.com/accounts/answer/11350823), y [el de Apple](https://support.apple.com/HT202303) ofrece E2EE por defecto.
 
 </div>
 
@@ -157,7 +157,7 @@ Estos administradores de contraseñas sincronizan sus contraseñas con un servid
 [:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1137397744)
@@ -175,7 +175,7 @@ Estos administradores de contraseñas sincronizan sus contraseñas con un servid
 
 </div>
 
-Bitwarden utiliza [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) como algoritmo de función de derivación de claves (KDF) por defecto. También ofrece como alternativa [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id), que es más seguro. You can change your account's KDF algorithm in the web vault:
+Bitwarden utiliza [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) como algoritmo de función de derivación de claves (KDF) por defecto. También ofrece como alternativa [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id), que es más seguro. Puede cambiar el algoritmo KDF de su cuenta en el almacén web:
 
 - [x] Seleccione **Settings > Security > Keys > KDF algorithm > Argon2id**
 
@@ -321,7 +321,7 @@ Estas opciones le permiten administrar una base de datos de contraseñas cifrada
 **KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal of extending and improving it with new features and bug fixes to provide a feature-rich, cross-platform, and modern open-source password manager.
 
 [:octicons-home-16: Página Principal](https://keepassxc.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Politica de Privacidad" }
+[:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Política de Privacidad" }
 [:octicons-info-16:](https://keepassxc.org/docs){ .card-link title="Documentación" }
 [:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Código Fuente" }
 [:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title="Contribuir" }
