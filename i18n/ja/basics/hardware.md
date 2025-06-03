@@ -133,14 +133,14 @@ OSの権限管理をそもそも信用しない場合、物理的にカメラに
 <div class="admonition Note" markdown>
 <p class="admonition-title">メモ</p>
 
-A lot of routers come with storage to put your files on so you can access them from any computer on your network. We recommend you don't use networking devices for things other than networking. In the event your router was compromised, your files would also be compromised.
+多くのルーターにはネットワーク上のどのコンピューターからもファイルにアクセスできるように、ファイルを保存するストレージがついています。 ネットワーク機器をネットワーク以外に使うことは推奨しません。 ルーターが侵害された場合、ファイルも侵害されてしまいます。
 
 </div>
 
-The most important thing to think about with routers is keeping them up-to-date. Many modern routers will automatically install updates, but many others won't. You should check on your router's settings page for this option. That page can usually be accessed by typing `192.168.1.1` or `192.168.0.1` into the URL bar of any browser assuming you're on the same network. You can also check in the network settings of your OS for "router" or "gateway".
+ルーターで最も重要なことは常に最新の状態を保つことです。 最近のルーターは自動的にアップデートをインストールしますが、そうでないものもあります。 このオプションについてはルーターの設定ページで確認してください。 同じネットワーク上にあると仮定して、通常は`192.168.1.1`や`192.168.0.1`とブラウザーのURLバーに入力してアクセスできます。 OSのネットワーク設定で「ルーター」や「ゲートウェイ」を確認することもできます。
 
-If your router does not support automatic updates, you will need to go to the manufacturer's site to download the updates and apply them manually.
+もしルーターが自動アップデートに対応していない場合、メーカーのサイトでアップデートをダウンロードし、手動で適用する必要があります。
 
-Many consumer-grade routers aren't supported for very long. If your router isn't supported by the manufacturer anymore, you can check if it's supported by [FOSS firmware](../router.md). You can also buy routers that come with FOSS firmware installed by default; these tend to be supported longer than most routers.
+多くの一般消費者向けルーターは非常に長い期間サポートがあるわけではありません。 もしメーカーがすでにサポートしていない場合は、[FOSSファームウェア](../router.md)に対応しているか確認してください。 FOSSファームウェアがデフォルトでインストールされているルーターを購入することもできます。通常のルーターよりも長くサポートされることが多いです。
 
-Some ISPs provide a combined router/modem. It can be beneficial for security to purchase a separate router and set your ISP router/modem into modem-only mode. This way, even when your ISP-provided router is no longer getting updates, you can still get security updates and patches. It also means any problems that affect your modem won't affect your router and vice versa.
+ルーターとモデムが一体化したものを提供するISPもあります。 別のルーターを購入し、ISPのルーター一体型モデムをモデムモードに設定することは、セキュリティ上有効です。 ISPが提供するルーターがアップデートされなくなったとしても、セキュリティアップデートやパッチを受けることができます。 また、モデムに影響する問題はルーターに影響を与えず、逆の場合も同じです。
