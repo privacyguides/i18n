@@ -289,7 +289,7 @@ Preferimos que nuestros proveedores recomendados recojan la menor cantidad de da
 
 - Debe proteger la dirección IP del remitente, lo que puede implicar filtrarla para que no aparezca en el campo de cabecera `Recibido`.
 - No debe requerir información personal identificable (PII) aparte de un nombre de usuario y una contraseña.
-- La política de privacidad debe cumplir los requisitos definidos por el GDPR.
+- La política de privacidad debe cumplir los requisitos definidos por el RGPD.
 
 **Mejor Caso:**
 

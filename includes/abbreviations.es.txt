@@ -19,7 +19,7 @@
 *[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
 *[E2EE]: Cifrado/Encriptación de Extremo a Extremo
 *[ECS]: Subred de Cliente EDNS
-*[EEA]: Espacio Económico Europeo
+*[EEE]: Espacio Económico Europeo
 *[entropy]: A measurement of how unpredictable something is
 *[EOL]: Fin de Vida
 *[Exif]: Formato de archivo de imagen intercambiable

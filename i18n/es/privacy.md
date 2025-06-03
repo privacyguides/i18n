@@ -15,7 +15,7 @@ Como proyecto, ponemos a disposición del público:
 
 Este aviso de privacidad cubre todos los proyectos de Privacy Guides autorizados y gestionados por el comité ejecutivo de MAGIC Privacy Guides Fund.
 
-Please note that when you make a donation to us on [donate.magicgrants.org](https://donate.magicgrants.org/privacyguides), MAGIC Grants has published a [separate privacy policy](https://donate.magicgrants.org/privacy) covering that platform.
+Por favor, ten en cuenta que cuando haces una donación en [donate.magicgrants.org](https://donate.magicgrants.org/privacyguides), MAGIC Grants han publicado una [política de privacidad independiente](https://donate.magicgrants.org/privacy) que cubre esa plataforma.
 
 ## ¿Cómo recopila Privacy Guides datos sobre mí?
 
@@ -54,154 +54,154 @@ Por lo general, almacenamos la información anterior solo durante unas semanas. 
 
 Privacy Guides almacena estadísticas agregadas mientras alojamos nuestros sitios web, pero esas estadísticas no contienen datos que puedan identificarte personalmente.
 
-### Privacy Guides collects account data
+### Privacy Guides recopila datos de las cuentas
 
-Many features on our forum or other account-based services require an account. For example, you are required to have an account in order to post and reply to topics.
+Muchas funciones de nuestro foro u otros servicios basados en cuentas requieren una cuenta. Por ejemplo, es necesario tener una cuenta para publicar y responder a los temas.
 
-To sign up for an account, Privacy Guides requires your email address, a username, and a password.
+Para crear una cuenta, Privacy Guides necesita tu dirección de correo electrónico, un nombre de usuario y una contraseña.
 
-We use this account data in order to identify you on the website, and to create pages specific to you, such as your profile page. We publish your account data to your public profile in accordance to your profile's configuration.
+Utilizamos estos datos de la cuenta para identificarte en el sitio web y para crear páginas específicas para ti, como la página de tu perfil. Publicamos los datos de tu cuenta en tu perfil público de acuerdo con la configuración de tu perfil.
 
-Privacy Guides uses your email address to:
+Privacy Guides utiliza tu dirección de correo electrónico para:
 
-- Notify you about posts and other activity on our website.
-- Reset your password and help keep your account secure.
-- Contact you in special circumstances related to your account.
-- Contact you about legal requests, like DMCA takedown requests.
+- Notificarte sobre publicaciones y otras actividades en nuestro sitio web.
+- Restablecer tu contraseña y ayudar a mantener la seguridad de tu cuenta.
+- Ponernos en contacto contigo en circunstancias especiales relacionadas con tu cuenta.
+- Ponernos en contacto contigo en relación con solicitudes legales, como las solicitudes de eliminación de datos de la DMCA.
 
-You may optionally provide additional details about your account, like your name, a short biography, your location, or your birthday, on the profile settings page for your account. Privacy Guides makes that information available to others who have access to the forum. You don’t have to provide this additional information, and you can erase it at any time.
+En la página de configuración del perfil de tu cuenta puedes proporcionar opcionalmente detalles adicionales sobre ella, como tu nombre, una breve biografía, tu ubicación o tu cumpleaños. Privacy Guides pone esa información a disposición de otras personas que tengan acceso al foro. No tienes por qué facilitar esta información adicional, y puedes borrarla en cualquier momento.
 
-Privacy Guides stores this account data as long as your account remains open.
+Privacy Guides almacena estos datos de la cuenta mientras tu cuenta permanezca abierta.
 
-### Privacy Guides collects data about posts and other activity on our forum
+### Privacy Guides recopila datos sobre las publicaciones y otras actividades en nuestro foro
 
-Privacy Guides collects the content of your posts, plus data about bookmarks, likes, and links you follow in order to share that data with others, through the forum. We also publish this activity to the public.
+Privacy Guides recopila el contenido de tus publicaciones, además de datos sobre favoritos, «me gusta» y enlaces que sigues para compartir esos datos con otros, a través del foro. También hacemos pública esta actividad.
 
-Privacy Guides also collects data about private messages that you send through the forum. Privacy Guides makes private messages available to senders and their recipients, and also to forum moderators and administrators.
+Privacy Guides también recopila datos sobre los mensajes privados que envías a través del foro. Privacy Guides hace que los mensajes privados estén disponibles para los remitentes y sus destinatarios, y también para los moderadores y administradores del foro.
 
-Privacy Guides stores your posts and other activity as long as your account remains open.
+Privacy Guides almacena tus publicaciones y demás actividad mientras tu cuenta permanezca abierta.
 
-### Privacy Guides collects data you give to sign up for mailing lists and announcements
+### Privacy Guides recopila los datos que facilitas para suscribirte a listas de correo y anuncios
 
-When you fill out and submit a web form to sign up for mailing lists or announcements, Privacy Guides collects the information you put in the form, such as your e-mail address.
+Cuando rellenas y envías un formulario web para suscribirte a listas de correo o anuncios, Privacy Guides recopila la información que introduces en el formulario, como tu dirección de correo electrónico.
 
-Privacy Guides stores this information until you unsubscribe from the mailing list.
+Privacy Guides almacena esta información hasta que usted te des de baja de la lista de correo.
 
-### Privacy Guides does not collect sensitive personal information
+### Privacy Guides no recopila información personal sensible
 
-Privacy Guides does not intentionally collect sensitive personal information, such as government identification numbers, information on racial or ethnic origin, political opinions, genetic data, biometric data, health data, or any of the special categories of personal data specified by the GDPR.
+Privacy Guides no recopila intencionadamente información personal sensible, como números de identificación gubernamentales, información sobre origen racial o étnico, opiniones políticas, datos genéticos, datos biométricos, datos sanitarios o cualquiera de las categorías especiales de datos personales especificadas por el RGPD.
 
-### Privacy Guides collects data about open source contributors
+### Privacy Guides recopila datos sobre quienes contribuyen al código abierto
 
-Contributors to Privacy Guides' website may be asked to provide identifying and contact information such as your name and email address.
+Es posible que se pida a los colaboradores del sitio web de Privacy Guides que faciliten información de identificación y contacto, como su nombre y dirección de correo electrónico.
 
-Privacy Guides uses this information to maintain the integrity of our website, software, and license agreements, both our own licenses and the license between Privacy Guides and our contributors. Privacy Guides stores this information for as long as your contributions are incorporated into our open source software, including this website.
+Privacy Guides utiliza esta información para mantener la integridad de nuestro sitio web, software y acuerdos de licencia, tanto para nuestras propias licencias como para la licencia entre Privacy Guides y nuestros colaboradores. Privacy Guides almacena esta información mientras tus contribuciones se incorporan a nuestro software de código abierto, incluido este sitio web.
 
-### Privacy Guides collects data when you donate to us
+### Privacy Guides recopila datos cuando nos haces una donación
 
-When you donate to us on GitHub Sponsors, we collect your GitHub username and profile picture. Your payment information is also collected by our subprocessors GitHub and Stripe in order to facilitate the transaction.
+Cuando nos haces una donación en GitHub Sponsors, recopilamos tu nombre de usuario de GitHub y tu foto de perfil. Tu información de pago también es recopilada por nuestros subprocesadores GitHub y Stripe con el fin de facilitar la transacción.
 
-If you choose to make your donation public during or after the checkout process on GitHub, Privacy Guides will share your username and profile picture on our websites for the purposes of fulfilling your request. You may revoke this consent at any time, and we will no longer share your donation status publicly. It may take until the next website release for your data to be removed from public visibility.
+Si decides hacer pública tu donación durante o después del proceso de pago en GitHub, Privacy Guides compartirá tu nombre de usuario y foto de perfil en nuestros sitios web con el fin de satisfacer tu solicitud. Puedes revocar este consentimiento en cualquier momento, y dejaremos de compartir públicamente el estado de tu donación. Es posible que tus datos no sean eliminados del dominio público hasta la próxima actualización del sitio web.
 
-When you donate to us on [donate.magicgrants.org](https://donate.magicgrants.org/privacyguides), a [separate privacy policy](https://donate.magicgrants.org/privacy) applies as noted at the beginning of this document.
+Cuando nos donas en [donate.magicgrants.org](https://donate.magicgrants.org/privacyguides), se aplica una [política de privacidad separada](https://donate.magicgrants.org/privacy) como se indica al principio de este documento.
 
-However, if you optionally link your `donate.magicgrants.org` account to your Privacy Guides forum account, our forum collects some personal data which is covered by this notice: namely your forum username and whether you have an active membership.
+Sin embargo, si opcionalmente vinculas tu cuenta de `donate.magicgrants.org` a tu cuenta del foro de Privacy Guides, nuestro foro recopilará algunos datos personales que están cubiertos por este aviso: en concreto, tu nombre de usuario del foro y si tienes una membresía activa.
 
-We process that information in order to grant you special perks on the forum. Additionally, if you choose to make this status public by setting a members-only title or flair, we will share the status of your active membership on our websites.
+Procesamos esa información para concederte ventajas especiales en el foro. Además, si decides hacer público este estado estableciendo un título o estilo exclusivo para miembros, compartiremos el estado de tu afiliación activa en nuestros sitios web.
 
-This information is stored for as long as your membership is active, or until you unlink your forum and MAGIC Grants donation accounts in your profile settings. It may take until the next website release for your data to be fully removed from public visibility.
+Esta información se almacena mientras tu afiliación esté activa o hasta que desvincules tus cuentas del foro y de donaciones de MAGIC Grants en la configuración de tu perfil. Es posible que tus datos no sean eliminados completamente del dominio público hasta la próxima actualización del sitio web.
 
-### Privacy Guides collects data when you contact us
+### Privacy Guides recopila datos cuando te pones en contacto con nosotros
 
-When you contact Privacy Guides via email, Signal, or any of our other contact methods, we collect the information you submit to us, and any identifying information associated with the account you use to contact us. For example, when you contact us via Signal we will collect your Signal profile information. When you contact us via email we will collect your email address, name, and mail server IP address.
+Cuando te pones en contacto con Privacy Guides a través de correo electrónico, Signal o cualquiera de nuestros otros métodos de contacto, recopilamos la información que nos envías y cualquier dato identificativo asociado a la cuenta que utilices para ponerte en contacto con nosotros. Por ejemplo, cuando te pongas en contacto con nosotros a través de Signal, recopilaremos la información de tu perfil de Signal. Cuando te pongas en contacto con nosotros por correo electrónico, recopilaremos tu dirección de correo electrónico, nombre y dirección IP del servidor de correo.
 
-In this case we limit the processing of any personal data you provide us to what is strictly necessary to communicate with you and organize our messages.
+En este caso, limitamos el tratamiento de los datos personales que nos proporciones a lo estrictamente necesario para comunicarnos contigo y organizar nuestros mensajes.
 
-Privacy Guides stores this data for as long as we are in contact with you, or for up to 1 year after your last contact with us. You have the right to request all data related to your private communication with us be deleted at any time, and we will generally do so within 7 days.
+Privacy Guides almacena estos datos mientras estemos en contacto contigo, o hasta 1 año después de tu último contacto con nosotros. Tienes derecho a solicitar en cualquier momento que se supriman todos los datos relacionados con tu comunicación privada con nosotros y, generalmente, lo haremos en un plazo de 7 días.
 
-### The Privacy Guides website stores local data
+### El sitio web de Privacy Guides almacena datos locales
 
-Our website uses Local Storage in your browser to store your color scheme preference. This data is only used by client-side JavaScript to change the color scheme of this website according to your preference.
+Nuestro sitio web utiliza Local Storage en tu navegador para almacenar tu preferencia del esquema de colores. Estos datos solo son utilizados por JavaScript del lado del cliente para cambiar el esquema de colores de este sitio web según tus preferencias.
 
-Our website also uses Session Storage to cache the current version number of this website and the number of stars/forks of our GitHub repository. This data is fetched once per session from GitHub, and is only used by client-side JavaScript to display that information at the top of each page.
+Nuestro sitio web también utiliza Session Storage para almacenar en caché el número de versión actual de este sitio web y el número de estrellas/bifurcaciones de nuestro repositorio de GitHub. Estos datos se obtienen de GitHub una vez por sesión y solo los utiliza JavaScript del lado del cliente para mostrar esa información en la parte superior de cada página.
 
-No locally stored data on this website is transmitted to Privacy Guides, and it can not be used to identify you.
+Ningún dato almacenado localmente en este sitio web se transmite a Privacy Guides y no puede utilizarse para identificarte.
 
-### The Privacy Guides forum uses cookies
+### El foro de Privacy Guides utiliza cookies
 
-Our forum is built on Discourse, which uses the following cookies:
+Nuestro foro se basa en Discourse, que utiliza las siguientes cookies:
 
-| Name                                                          | Essential | Expires        | Purpose                                                                                                                   |
-| ------------------------------------------------------------- | --------- | -------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| email                                                         | Yes       | Session        | remembers your e-mail as you create an account                                                                            |
-| destination_url                          | Yes       | Session        | helps redirect you to your requested page after logging in                                                                |
-| sso_destination_url | Yes       | Session        | helps redirect you to your request page after single sign on                                                              |
-| sso_payload                              | Yes       | Session        | used during SSO authentication when two-factor authentication is enabled                                                  |
-| authentication_data                      | Yes       | Next Page View | temporarily stores user information during login flows                                                                    |
-| theme_ids                                | Yes       | 1 year         | remembers your theme personalization if you don’t tick “Make this my default theme on all my devices”                     |
-| color_scheme_id     | Yes       | 1 year         | remembers your color personalization if you don’t tick “Set default color scheme(s) on all my devices” |
-| dark_scheme_id      | Yes       | 1 year         | remembers your color personalization if you don’t tick “Set default color scheme(s) on all my devices” |
-| cn                                                            | Yes       | Session        | temporarily stores notification read state                                                                                |
-| _bypass_cache       | Yes       | Session        | allows the server-side cache to be bypassed during login flows                                                            |
-| _t                                       | Yes       | 1440 Hours     | remembers who you are when you log in                                                                                     |
-| _forum_session      | Yes       | Session        | associates an ID, and other security-related information, with your browsing session                                      |
-| dosp                                                          | Yes       | Next Page View | enables client denial of service protection, a security protection                                                        |
-| text_size                                | Yes       | 1 year         | remembers default text size when a user wants to change it on only one device                                             |
-| cookietest                                                    | Yes       | Session        | checks if cookies are enabled when authentication fails                                                                   |
-| __profilin          | No        | Session        | used by software developers to bypass rack-mini-profiler                                                                  |
+| Nombre                                                        | Esencial | Expira                       | Propósito                                                                                                                                                                     |
+| ------------------------------------------------------------- | -------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| email                                                         | Sí       | Sesión                       | recuerda tu correo electrónico al crear una cuenta                                                                                                                            |
+| destination_url                          | Sí       | Sesión                       | ayuda a redirigirte a la página solicitada después de iniciar sesión                                                                                                          |
+| sso_destination_url | Sí       | Sesión                       | ayuda a redirigirte a la página solicitada tras el inicio de sesión único                                                                                                     |
+| sso_payload                              | Sí       | Sesión                       | utilizada durante la autenticación SSO cuando la autenticación de dos factores está activada                                                                                  |
+| authentication_data                      | Sí       | Vista de la Página Siguiente | almacena temporalmente la información del usuario durante los flujos de inicio de sesión                                                                                      |
+| theme_ids                                | Sí       | 1 año                        | recuerda tu personalización del tema si no marcas "Hacer que este sea mi tema predeterminado en todos mis dispositivos"                                                       |
+| color_scheme_id     | Sí       | 1 año                        | recuerda tu personalización de colores si no marcas "Establecer combinación(es) de colores predeterminada(s) en todos mis dispositivos" |
+| dark_scheme_id      | Sí       | 1 año                        | recuerda tu personalización de colores si no marcas "Establecer combinación(es) de colores predeterminada(s) en todos mis dispositivos" |
+| cn                                                            | Sí       | Sesión                       | almacena temporalmente el estado de lectura de la notificación                                                                                                                |
+| _bypass_cache       | Sí       | Sesión                       | permite eludir la caché del lado del servidor durante los flujos de inicio de sesión                                                                                          |
+| _t                                       | Sí       | 1440 Horas                   | recuerda quién eres cuando inicias sesión                                                                                                                                     |
+| _forum_session      | Sí       | Sesión                       | asocia un ID y otra información relacionada con la seguridad a tu sesión de navegación                                                                                        |
+| dosp                                                          | Sí       | Vista de la Página Siguiente | habilita la protección contra la denegación de servicio del cliente, una protección de seguridad                                                                              |
+| text_size                                | Sí       | 1 año                        | recuerda el tamaño de texto predeterminado cuando un usuario desea cambiarlo en un solo dispositivo                                                                           |
+| cookietest                                                    | Sí       | Sesión                       | comprueba si las cookies están habilitadas cuando falla la autenticación                                                                                                      |
+| __profilin          | No       | Sesión                       | utilizado por los desarrolladores de software para eludir rack-mini-profiler                                                                                                  |
 
-Your web browser can show you the cookies you have for any website and help you manage them.
+Tu navegador web puede mostrarte las cookies que tienes de cualquier sitio web y ayudarte a gestionarlas.
 
-### Privacy Guides makes regular backups of all data
+### Privacy Guides realiza copias de seguridad periódicas de todos los datos
 
-Privacy Guides keeps automated backups of **all** data it collects. These backups are stored for up to 30 days. Any time you delete personal data from our websites, a copy may be retained in backup archives until those archives are pruned.
+Privacy Guides mantiene copias de seguridad automatizadas de **todos** los datos que recopila. Estas copias de seguridad se almacenan durante un máximo de 30 días. Cada vez que elimines datos personales de nuestros sitios web, es posible que se conserve una copia en los archivos de copia de seguridad hasta que se eliminen dichos archivos.
 
-## Does Privacy Guides use personal information for marketing purposes?
+## ¿Utiliza Privacy Guides información personal con fines de mercadotecnia?
 
-Privacy Guides may use personal data about our users in order to directly promote our own resources, such as for sharing new resources or when fundraising. We also use the information you give us when signing up for our mailing lists and announcements to send those messages.
+Privacy Guides puede utilizar datos personales de nuestros usuarios para promocionar directamente nuestros propios recursos, por ejemplo, para compartir nuevos recursos o para recaudar fondos. También utilizamos la información que nos facilitas al inscribirte en nuestras listas de correo y anuncios para enviar esos mensajes.
 
-You can always opt out of marketing communications from us, and you have the right to object to any processing of your information for marketing purposes.
+Siempre puedes optar por no recibir nuestras comunicaciones comerciales y tienes derecho a oponerte a cualquier tratamiento de tu información con fines comerciales.
 
-Privacy Guides never provides or sells your data to third-parties for marketing purposes.
+Privacy Guides nunca proporciona ni vende tus datos a terceros con fines de mercadotecnia.
 
-## How can I make choices about data collection?
+## ¿Cómo puedo tomar decisiones sobre la recopilación de datos?
 
-Your account on our websites has a settings page which provides you with options about how your data is used.
+Tu cuenta en nuestros sitios web tiene una página de configuración que te ofrece opciones sobre cómo se utilizan tus datos.
 
-Most web browsers let you make choices about whether to accept cookies, for specific websites or more generally.
+La mayoría de los navegadores web te permiten elegir si aceptas o no las cookies para sitios web específicos o de forma más general.
 
-Privacy Guides does not respond to the (now deprecated) [Do Not Track HTTP header](https://en.wikipedia.org/wiki/Do_Not_Track).
+Privacy Guides no responde al (ahora obsoleto) [Encabezado HTTP Do Not Track](https://en.wikipedia.org/wiki/Do_Not_Track).
 
-## Where does Privacy Guides store data about me?
+## ¿Dónde almacena Privacy Guides mis datos?
 
-Most data is hosted by [Triplebit](https://www.triplebit.org) web services in the United States.
+La mayoría de los datos están alojados en los servicios web de [Triplebit](https://www.triplebit.org) en Estados Unidos.
 
-Some publicly accessible data may be hosted by Content Delivery Networks with servers in other jurisdictions. For example, your profile picture may be stored on multiple servers around the world in order to improve the performance for visitors to our website.
+Algunos datos de acceso público pueden estar alojados en Redes de Distribución de Contenidos con servidores en otras jurisdicciones. Por ejemplo, tu foto de perfil puede almacenarse en varios servidores de todo el mundo con el fin de mejorar el rendimiento para los visitantes de nuestro sitio web.
 
-## Does Privacy Guides comply with the EU General Data Protection Regulation?
+## ¿Cumple Privacy Guides el Reglamento General de Protección de Datos de la UE?
 
-Privacy Guides respects rights under the European Union’s General Data Protection Regulation (GDPR). Information that GDPR requires Privacy Guides to give can be found throughout this privacy notice, including information on the rights of data subjects.
+Privacy Guides respeta los derechos contemplados en el Reglamento General de Protección de Datos (RGPD) de la Unión Europea. La información que el RGPD exige que Privacy Guides proporcione se puede encontrar a lo largo de este aviso de privacidad, incluyendo la información sobre los derechos de los interesados.
 
-### What are my rights under the GDPR?
+### ¿Cuáles son mis derechos en virtud del RGPD?
 
-The GDPR provides you with the following rights with respect to personal information about you that we collect or process:
+El RGPD te proporciona los siguientes derechos con respecto a la información personal sobre ti que recopilamos o procesamos:
 
-- the right to [access](#where-can-i-access-data-about-me) your personal data
-- the right to [rectification](#how-can-i-change-or-erase-data-about-me) of inaccurate or incomplete personal data
-- the right to [erasure](#how-can-i-change-or-erase-data-about-me) of your personal data
-- the right to [data portability](#where-can-i-access-data-about-me)
-- the right to restrict the processing of your personal data
-- the right to object to certain processing of your information, including [automated decision-making](#does-privacy-guides-make-automated-decisions-based-on-my-data) and [direct marketing](#does-privacy-guides-use-personal-information-for-marketing-purposes)
-- the right to lodge a complaint with a supervisory authority
+- el derecho a [acceder](#where-can-i-access-data-about-me) a tus datos personales
+- el derecho a la [rectificación](#how-can-i-change-or-erase-data-about-me) de los datos personales inexactos o incompletos
+- el derecho a [eliminar](#how-can-i-change-or-erase-data-about-me) tus datos personales
+- el derecho a la [portabilidad de los datos](#where-can-i-access-data-about-me)
+- el derecho a restringir el tratamiento de tus datos personales
+- el derecho a oponerte a determinados tratamientos de tu información, incluyendo la [toma de decisiones automatizada](#does-privacy-guides-make-automated-decisions-based-on-my-data) y la [mercadotecnia directa](#does-privacy-guides-use-personal-information-for-marketing-purposes)
+- el derecho a presentar una reclamación ante una autoridad supervisora
 
-Information about how to exercise these rights is provided throughout this notice and linked above. We try to make exercising all of these rights easy to do on your own through your account settings, but for more complicated inquiries the best option will be to [contact](#how-can-i-contact-privacy-guides-about-privacy) us.
+La información sobre cómo ejercer estos derechos se facilita a lo largo de este aviso y en los enlaces anteriores. Intentamos que el ejercicio de todos estos derechos sea fácil de hacer por ti mismo a través de la configuración de tu cuenta, pero para consultas más complicadas la mejor opción será [ponerse en contacto](#how-can-i-contact-privacy-guides-about-privacy) con nosotros.
 
-### What is the lawful basis for data collection and processing?
+### ¿Cuál es la base jurídica para la recopilación y el tratamiento de datos?
 
-Privacy Guides generally processes your data using 3 of the 6 lawful bases for processing set out in Article 6 of the GDPR:
+En general, Privacy Guides procesa tus datos utilizando 3 de las 6 bases legales para el procesamiento establecidas en el Artículo 6 del RGPD:
 
-- **Consent**: When you give us clear consent for us to process your personal data. This consent can be easily withdrawn at any time in your account settings, or you may always contact us for assistance with privacy-related matters.
-- **Contract**: When you give us your personal data in order to participate on services we operate according to our terms of service, or when we require personal data in order to take steps prior to entering a contract or to fulfill a contract.
+- **Consentimiento**: Cuando nos das tu consentimiento claro para que tratemos tus datos personales. Este consentimiento puede retirarse fácilmente en cualquier momento en la configuración de tu cuenta, o siempre puedes ponerte en contacto con nosotros para obtener ayuda sobre cuestiones relacionadas con la privacidad.
+- **Contrato**: Cuando nos proporcionas tus datos personales para participar en los servicios que operamos de acuerdo con nuestras condiciones de servicio, o cuando requerimos datos personales con el fin de tomar medidas antes de firmar un contrato o hacer un contrato.
 - **Legitimate interest**: When we process your personal data for fraud prevention, network and information security, or other reasons where the processing is required for our own legitimate interests or for those of a third party we work with.
 
 The lawful basis for our processing determines what rights are available to you under the GDPR. This table may be used as a reference:
