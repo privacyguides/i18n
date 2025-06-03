@@ -120,18 +120,18 @@ OSの権限管理をそもそも信用しない場合、物理的にカメラに
 
 多くの一般消費者向けルーターでは、メインのネットワークとは通信できない別の「ゲスト」ネットワークを有効にすることで実現できます。 スマート冷蔵庫・温度自動調整機・テレビなどの信頼できないデバイスはここに配置します。
 
-### Minimalism
+### ミニマリズム
 
-As the saying goes, "less is more". The fewer devices you have connected to your network, the less potential attack surface you'll have and the less work it will be to make sure they all stay up-to-date.
+ことわざにもあるように、「少ないことは多いこと」です。 ネットワークに接続するデバイスが少なければ、潜在的なアタックサーフェスは小さくなり、全てのデバイスを最新に保つ作業も少なくなります。
 
-You may find it useful to go around your home and make a list of every connected device you have to help you keep track.
+家中を周り、接続されている全てのデバイスのリストを作ることは整理するのに役立つかもしれません。
 
-### Routers
+### ルーター
 
-Your router handles all your network traffic and acts as your first line of defense between you and the open internet.
+ルーターは全てのネットワークトラフィックを処理し、インターネットとの間の最前線の防衛線の役割を果たします。
 
 <div class="admonition Note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">メモ</p>
 
 A lot of routers come with storage to put your files on so you can access them from any computer on your network. We recommend you don't use networking devices for things other than networking. In the event your router was compromised, your files would also be compromised.
 
