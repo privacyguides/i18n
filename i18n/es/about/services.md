@@ -23,7 +23,7 @@ Ejecutamos una serie de servicios web para probar las características y promove
 ## Matrix
 
 - Enlace: [matrix.privacyguides.org](https://matrix.privacyguides.org)
-- Disponibilidad: Solo con Invitación. El acceso puede concederse previa solicitud a los miembros del equipo de Guías de Privacidad, moderadores de Matrix, administradores de comunidades de Matrix de terceros, operadores de bots de Matrix y otras personas que necesiten una presencia fiable en Matrix.
+- Disponibilidad: Solo con Invitación. El acceso puede concederse previa solicitud a los miembros del equipo de Privacy Guides, moderadores de Matrix, administradores de comunidades de Matrix de terceros, operadores de bots de Matrix y otras personas que necesiten una presencia fiable en Matrix.
 - Código fuente: [github.com/spantaleev/matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy)
 
 ## SearXNG
