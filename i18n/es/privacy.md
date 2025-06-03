@@ -1,58 +1,58 @@
 ---
-title: Privacy Policy
-description: We do not sell or share your data with any third-parties.
+title: Política de Privacidad
+description: No vendemos ni compartimos tus datos con terceros.
 ---
 
-## What is Privacy Guides?
+## ¿Qué es Privacy Guides?
 
-Privacy Guides is a community project operated by a number of active contributors. The public list of team members can be found on our forum. Privacy Guides is legally administered by MAGIC Grants, a 501(c)(3) public charity acting as our fiscal host.
+Privacy Guides es un proyecto comunitario gestionado por una serie de colaboradores activos. La lista pública de miembros del equipo puede consultarse en nuestro foro. Privacy GuidesPrivacy Guides está administrada legalmente por MAGIC Grants, una organización benéfica pública 501(c)(3) que actúa como nuestro anfitrión fiscal.
 
-As a project, we make available to the public:
+Como proyecto, ponemos a disposición del público:
 
-- [privacyguides.org](https://www.privacyguides.org), this website
-- [discuss.privacyguides.net](https://discuss.privacyguides.net), our community forum
-- [code.privacyguides.dev](https://code.privacyguides.dev), public source code repositories
+- [privacyguides.org](https://www.privacyguides.org), este sitio web
+- [discuss.privacyguides.net](https://discuss.privacyguides.net), nuestro foro comunitario
+- [code.privacyguides.dev](https://code.privacyguides.dev), repositorios públicos de código fuente
 
-This privacy notice covers all Privacy Guides projects authorized and operated by the MAGIC Privacy Guides Fund executive committee.
+Este aviso de privacidad cubre todos los proyectos de Privacy Guides autorizados y gestionados por el comité ejecutivo de MAGIC Privacy Guides Fund.
 
 Please note that when you make a donation to us on [donate.magicgrants.org](https://donate.magicgrants.org/privacyguides), MAGIC Grants has published a [separate privacy policy](https://donate.magicgrants.org/privacy) covering that platform.
 
-## How does Privacy Guides collect data about me?
+## ¿Cómo recopila Privacy Guides datos sobre mí?
 
-Privacy Guides collects data about you:
+Privacy Guides recopila datos sobre ti:
 
-- When you visit our websites
-- When you create and use an account on our websites
-- When you post, send private messages, and otherwise participate in a community that Privacy Guides hosts
-- When you sign up for a mailing list, email notifications, or announcements
-- When you make a donation to us on GitHub Sponsors
-- When you become a donating member and link your MAGIC Grants account to your Privacy Guides forum account
-- When you contribute to our website or other open-source projects
-- When you contact us
+- Cuando visitas nuestros sitios web
+- Cuando creas y usas una cuenta en nuestros sitios web
+- Cuando publicas, envías mensajes privados y participas de cualquier otra forma en una comunidad que Privacy Guides aloja
+- Cuando te suscribes a una lista de correo, notificaciones por correo electrónico o anuncios
+- Cuando nos haces una donación en GitHub Sponsors
+- Cuando te conviertes en miembro donante y vinculas tu cuenta de MAGIC Grants a tu cuenta del foro de Privacy Guides
+- Cuando contribuyes a nuestro sitio web u otros proyectos de código abierto
+- Cuando nos contactas
 
-Privacy Guides does not buy or receive data about you from data brokers.
+Privacy Guides no compra ni recibe datos sobre ti de intermediarios de datos.
 
-## Does Privacy Guides sell my personal information?
+## ¿Privacy Guides vende mis datos personales?
 
-No. Privacy Guides does not sell personal information. Additionally, Privacy Guides does not share personal information with third parties for the purpose of advertising.
+No. Privacy Guides no vende información personal. Además, Privacy Guides no comparte información personal con terceros con fines publicitarios.
 
-## What personal information does Privacy Guides collect, and why?
+## ¿Qué información personal recopila Privacy Guides y por qué?
 
-### Privacy Guides collects information about visits to its websites
+### Privacy Guides recopila información sobre las visitas a sus sitios web
 
-When you visit one of our websites, whether you have an account or not, we use server logs and other methods to collect data about what pages you visit and when.
+Cuando visitas uno de nuestros sitios web, tanto si tienes una cuenta como si no, utilizamos registros del servidor y otros métodos para recopilar datos sobre qué páginas visitas y cuándo.
 
-We use this data to:
+Utilizamos estos datos para:
 
-- Optimize our websites, so they are quick and easy to use.
-- Diagnose and debug technical errors.
-- Defend our websites from abuse and technical attacks.
-- Compile statistics on page/topic popularity.
-- Compile statistics on the type of browser and devices our visitors use.
+- Optimizar nuestros sitios web para que sean rápidos y fáciles de usar.
+- Diagnosticar y depurar errores técnicos.
+- Defender nuestros sitios web de abusos y ataques técnicos.
+- Recopilar estadísticas sobre la popularidad de las páginas/temas.
+- Recopilar estadísticas sobre el tipo de navegador y dispositivos que utilizan nuestros visitantes.
 
-We generally store the above information for just a few weeks. In special circumstances, such as during an ongoing technical attack or a subsequent investigation, we may preserve some log data longer for analysis.
+Por lo general, almacenamos la información anterior solo durante unas semanas. En circunstancias especiales, como durante un ataque técnico en curso o una investigación posterior, podemos conservar algunos datos de registro durante más tiempo para su análisis.
 
-Privacy Guides stores aggregated statistics for as long as we host our websites, but those statistics do not contain data identifiable to you personally.
+Privacy Guides almacena estadísticas agregadas mientras alojamos nuestros sitios web, pero esas estadísticas no contienen datos que puedan identificarte personalmente.
 
 ### Privacy Guides collects account data
 
