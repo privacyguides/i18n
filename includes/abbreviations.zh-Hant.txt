@@ -11,7 +11,7 @@
 *[詐欺性設計模式]: 一種欺騙性的設計模式，目的在於欺騙使用者做一些事情
 *[數位遺產功能]: 數位遺產是指在您去世之後，允許讓其他人存取您資料的功能
 *[DNSSEC]: 網域名稱系統安全擴充套件
-*[DNS]: 域名系統
+*[DNS]: 網域名稱系統
 *[DoH]: 基於 HTTPS 的 DNS 服務 (DNS over HTTPS)
 *[DoQ]: 基於 QUIC 的 DNS 服務 (DNS over QUIC)
 *[DoH3]: 基於 HTTP/3 的 DNS 服務 (DNS over HTTP/3)
@@ -64,7 +64,7 @@
 *[OCSP]: 線上憑證狀態協定
 *[OEM]: 原始設備製造商
 *[OEMs]: 原始設備製造商
-*[open-weights]： 開放權重模型是任何人都可以下載和使用的 AI 模型，但其基礎訓練資料和/或演算法是專屬的。
+*[open-weights]： 開放權重模型是任何人都可以下載和使用的 AI 模型，但其基礎訓練資料和/或演算法是專有的。
 *[OS]: 操作系統
 *[OTP]: 一次性密碼
 *[OTPs]: 一次性密碼
@@ -76,8 +76,8 @@
 *[PII]: 個人可識別資訊
 *[QNAME]: 限定名稱
 *[QUIC]: 以 UDP 為基礎的網路協定，旨在結合 UDP 的速度與 TCP 的可靠性。
-*[rate limits]: Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time.
-*[滾動式更新]: Updates which are released frequently rather than set intervals
+*[速率限制]: 速率限制是服務對使用者在指定時間內存取其服務的次數所施加的限制。
+*[滾動式更新]: 頻繁更新而非固定間隔更新
 *[RSS]: 簡易資訊聚合格式
 *[SELinux]: 安全增強型 Linux
 *[SIM]: 使用者身分模組

@@ -22,11 +22,11 @@ global:
 
 除此之外，我們還推薦各種基於可持續商業模式和內建安全和隱私功能的電子郵件提供商。 閱讀我們[完整的標準清單](#criteria)，瞭解更多資訊。
 
-| 供應商                         | OpenPGP / WKD                          | IMAP / SMTP                                       | Zero-Access Encryption                            | Anonymous Payment Methods             |
-| --------------------------- | -------------------------------------- | ------------------------------------------------- | ------------------------------------------------- | ------------------------------------- |
-| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } 僅提供付費版 | :material-check:{ .pg-green }                     | 現金                                    |
-| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                     | :material-information-outline:{ .pg-blue } 限 Mail | 現金                                    |
-| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }            | :material-check:{ .pg-green }                     | Monero <br>Cash via third party |
+| 供應商                         | OpenPGP / WKD                          | IMAP / SMTP                                       | 零存取加密                                             | 匿名付款方式                       |
+| --------------------------- | -------------------------------------- | ------------------------------------------------- | ------------------------------------------------- | ---------------------------- |
+| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } 僅提供付費版 | :material-check:{ .pg-green }                     | 現金                           |
+| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                     | :material-information-outline:{ .pg-blue } 限 Mail | 現金                           |
+| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }            | :material-check:{ .pg-green }                     | 透過第三方支付 Monero<br> 或現金 |
 
 In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md#recommended-providers) to protect your privacy. 除此之外，這些服務有助於保護真實收件匣免受垃圾郵件的侵害，防止行銷人員關聯您的帳戶，並使用 PGP 加密所有傳入的訊息。
 
@@ -34,7 +34,7 @@ In addition to (or instead of) an email provider recommended here, you may wish 
 
 ## OpenPGP 兼容服務
 
-These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic end-to-end encrypted emails. 例如， Proton Mail 用戶可以向 Mailbox.org 用戶發送 E2EE 消息，或者您可以從它支援的網際網路服務接收 OpenPGP 加密通知。
+這些供應商原生支援 OpenPGP 加密/解密 和 [Web Key Directory (WKD) 標準](basics/email-security.md#what-is-the-web-key-directory-standard)，可提供跨供應商 E2EE 的電子郵件。 例如， Proton Mail 用戶可以向 Mailbox.org 用戶發送 E2EE 消息，或者您可以從它支援的網際網路服務接收 OpenPGP 加密通知。
 
 <div class="grid cards" markdown>
 

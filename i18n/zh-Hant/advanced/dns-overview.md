@@ -4,7 +4,7 @@ icon: material/dns
 description: 網域名稱系統是“網際網路電話簿” ，可幫助瀏覽器找到它正在尋找的網站。
 ---
 
-The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is the 'phone book of the Internet'. DNS 將網域名稱轉換為 IP 位址，以便瀏覽器和其他服務可以通過分散的伺服器網路載入網路資源。
+[Domain Name System (DNS)](https://en.wikipedia.org/wiki/Domain_Name_System) 被稱為是「網際網路的電話簿」。 DNS 將網域名稱轉換為 IP 位址，以便瀏覽器和其他服務可以通過分散的伺服器網路載入網路資源。
 
 ## 什麼是 DNS？
 
