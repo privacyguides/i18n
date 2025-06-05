@@ -34,7 +34,7 @@ In addition to (or instead of) an email provider recommended here, you may wish 
 
 ## OpenPGP 兼容服務
 
-這些供應商原生支援 OpenPGP 加密/解密 和 [Web Key Directory (WKD) 標準](basics/email-security.md#what-is-the-web-key-directory-standard)，可提供跨供應商 E2EE 的電子郵件。 例如， Proton Mail 用戶可以向 Mailbox.org 用戶發送 E2EE 消息，或者您可以從它支援的網際網路服務接收 OpenPGP 加密通知。
+這些供應商原生支援 OpenPGP 加/解密 和 [WKD 標準](basics/email-security.md#what-is-the-web-key-directory-standard)，可提供跨供應商 E2EE 的電子郵件。 例如， Proton Mail 用戶可以向 Mailbox.org 用戶發送 E2EE 消息，或者您可以從它支援的網際網路服務接收 OpenPGP 加密通知。
 
 <div class="grid cards" markdown>
 
@@ -48,9 +48,9 @@ In addition to (or instead of) an email provider recommended here, you may wish 
 
 當使用像 OpenPGP 這類 E2EE 技術時，電子郵件仍然會有一些元數據無法加密如主旨列。 了解更多[電子郵件元數據](basics/email-security.md#email-metadata-overview).
 
-OpenPGP also does not support forward secrecy, which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed.
+OpenPGP 也不支援前向保密 (forward secrecy)，這表示如果您或訊息接收者的私鑰被竊，則之前使用該金鑰加密的所有訊息都會曝光。
 
-- [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+- [如何保護我的私鑰？](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 </div>
 
@@ -60,9 +60,9 @@ OpenPGP also does not support forward secrecy, which means if the private key of
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** 是一個專注於隱私、加密、安全性和易用性的電子郵件服務。 他們自 2013 年起開始營運。 Proton AG is based in Geneva, Switzerland.
+**Proton Mail** 是一個專注於隱私、加密、安全性和易用性的電子郵件服務。 他們自 2013 年起開始營運。 Proton AG 的總部位於瑞士日內瓦。
 
-The Proton Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+Proton 免費方案提供 500 MB 的郵件儲存空間，您可以免費增加至 1 GB。
 
 [:octicons-home-16: 首頁](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="洋蔥服務" }
@@ -85,7 +85,7 @@ The Proton Free plan comes with 500 MB of Mail storage, which you can increase u
 
 </div>
 
-Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g., Thunderbird). 付費帳戶包括 Proton Mail Bridge、額外儲存空間和自訂網域支援等功能。 如果您有訂閱 Proton Unlimited 或任何多使用者的 Proton 方案，您也可以免費獲得 [SimpleLogin](email-aliasing.md#simplelogin) Premium。
+免費帳戶有一些功能限制，例如無法搜尋郵件正文內容，也無法使用 [Proton Mail Bridge](https://proton.me/mail/bridge)；後者是使用 [建議的桌面郵件客戶端](email-clients.md) （例如 Thunderbird） 所需的。 付費帳戶包括 Proton Mail Bridge、額外儲存空間和自訂網域支援等功能。 如果您有訂閱 Proton Unlimited 或任何多使用者的 Proton 方案，您也可以免費獲得 [SimpleLogin](email-aliasing.md#simplelogin) Premium。
 
 Proton Mail 應用程式於 2021 年 11 月 9 日由 [Securitum](https://research.securitum.com) 提供[認證函](https://proton.me/blog/security-audit-all-proton-apps) 。
 
@@ -97,11 +97,11 @@ Proton Mail 的內容崩潰報告**不會**對其它第三方分享。 可以在
 
 #### :material-check:{ .pg-green } 私密付款方式
 
-Proton Mail [accepts](https://proton.me/support/payment-options) **cash** by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments.
+Proton Mail 除了 [支援](https://proton.me/support/payment-options) 郵寄**現金**外，還接受信用卡/簽帳金融卡、[比特幣](advanced/payments.md#other-coins-bitcoin-ethereum-etc) 和 PayPal 付款。
 
 #### :material-check:{ .pg-green } 帳號安全
 
-Proton Mail supports TOTP [two-factor authentication](https://proton.me/support/two-factor-authentication-2fa) and [hardware security keys](https://proton.me/support/2fa-security-key) using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
+Proton Mail 支援使用 TOTP 作為 [雙重要素驗證](https://proton.me/support/two-factor-authentication-2fa)，以及使用 FIDO2 或 U2F 標準的[硬體安全金鑰](https://proton.me/support/2fa-security-key)。 使用硬體安全金鑰需要先設定 TOTP 雙重要素驗證。
 
 #### :material-check:{ .pg-green } 資料安全
 
@@ -111,9 +111,9 @@ Proton Mail 使用「[零存取加密技術](https://proton.me/blog/zero-access-
 
 #### :material-check:{ .pg-green } 電子郵件加密
 
-Proton Mail 網頁郵件整合了 [OpenPGP 加密](https://proton.me/support/how-to-use-pgp) 。 發送到其他 Proton Mail 帳號的電子郵件會自動加密，並且可以在您的帳號設定中輕鬆啟用「使用 OpenPGP 金鑰對非 Proton Mail 位址進行加密」。 Proton also supports automatic external key discovery with WKD. 因此發送到使用 WKD 的其他供應商的電子郵件也將使用 OpenPGP 自動加密，無需與聯絡人手動交換公共 PGP 金鑰。 它可以 [加密非 Proton Mail 郵件位址的訊息](https://proton.me/support/password-protected-emails)，不必非得使用帶 OpenPGP 的 Proton Mail 帳戶。
+Proton Mail 網頁郵件整合了 [OpenPGP 加密](https://proton.me/support/how-to-use-pgp) 。 發送到其他 Proton Mail 帳號的電子郵件會自動加密，並且可以在您的帳號設定中輕鬆啟用「使用 OpenPGP 金鑰對非 Proton Mail 位址進行加密」。 Proton 也支援使用 WKD 自動獲取外部金鑰。 因此發送到其他同樣使用 WKD 的供應商的電子郵件也將使用 OpenPGP 自動加密，無需與聯絡人手動交換 PGP 公鑰。 它們也允許您[在沒有 OpenPGP 的情況下，為寄給非 Proton Mail 郵箱的郵件加密](https://proton.me/support/password-protected-emails)，而不需要他們註冊 Proton Mail 帳戶。
 
-Proton Mail 也透過 HTTP 從其 WKD 發布 Proton 帳戶的公鑰。 This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Proton's own domains, like `@proton.me`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Proton Mail 也透過 HTTP 從其 WKD 發布 Proton 帳戶的公鑰。 這可讓不使用 Proton Mail 的人輕鬆找到 Proton Mail 帳號的 OpenPGP 金鑰，以進行跨供應商 E2EE。 這只適用於以 Proton 自家網域結尾的電子郵件地址，例如：`@proton.me`。 如果使用自訂網域，則必須另行[設定 WKD](basics/email-security.md#what-is-the-web-key-directory-standard)。
 
 #### :material-information-outline:{ .pg-blue } 終止帳號
 
@@ -121,7 +121,7 @@ Proton Mail 也透過 HTTP 從其 WKD 發布 Proton 帳戶的公鑰。 This allo
 
 #### :material-information-outline:{ .pg-blue } 額外功能
 
-Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
+Proton Mail 的[Unlimited](https://proton.me/support/proton-plans#proton-unlimited)計劃除了提供多個自訂網域、無限的電子郵件別名和 500 GB 儲存空間外，還可使用其他 Proton 服務。
 
 ### Mailbox.org
 
@@ -129,7 +129,7 @@ Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimite
 
 ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
 
-**Mailbox.org** is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. 自 **2014 年** 開始運營。 Mailbox.org  總部位於德國柏林。
+**Mailbox.org**是一個專注於安全、無廣告、100% 採用環保能源的電子郵件服務。 自 **2014 年** 開始運營。 Mailbox.org  總部位於德國柏林。
 
 Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
@@ -168,7 +168,7 @@ However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the softwar
 
 Mailbox.org 在他們的網頁郵件中 [整合了加密功能](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) ，這簡化了向具有公開OpenPGP金鑰的人發送訊息。 它們也讓遠端收件者可以在 Mailbox.org 的伺服器上[解密電子郵件](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp)。 當遠端收件人沒有 OpenPGP 無法解密自己郵箱中的電子郵件時，此功能非常有用。
 
-Mailbox.org also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox.org's own domains, like `@mailbox.org`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Mailbox.org also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox.org's own domains, like `@mailbox.org`. 如果使用自訂網域，則必須另行[設定 WKD](basics/email-security.md#what-is-the-web-key-directory-standard)。
 
 #### :material-information-outline:{ .pg-blue } 終止帳號
 

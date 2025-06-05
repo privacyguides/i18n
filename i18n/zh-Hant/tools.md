@@ -201,7 +201,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
     ---
 
-    Proton Mail 是一個注重隱私、加密、安全和易用性的電子郵件服務。 他們自 2013 年起開始營運。 Proton AG is based in Geneva, Switzerland. The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+    Proton Mail 是一個注重隱私、加密、安全和易用性的電子郵件服務。 他們自 2013 年起開始營運。 Proton AG 的總部位於瑞士日內瓦。 The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
 
     [閱讀我們的完整評論 :material-arrow-right-drop-circle:](email.md#proton-mail)
 
