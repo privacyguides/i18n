@@ -1,22 +1,22 @@
 ---
-meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
-title: VPN Overview
+meta_title: "VPNはどのようにプライバシーを保護するのか？ VPNの概要 - Privacy Guides"
+title: VPNの概要
 icon: material/vpn
-description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
+description: バーチャルプライベートネットワークはISPから信頼する第三者へリスクを移行します。 このことに留意してください。
 ---
 
-Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world.
+バーチャルプライベートネットワークはネットワークの末端を世界のどこか別の場所に拡張する方法です。
 
-[:material-movie-open-play-outline: Video: Do you need a VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
+[:material-movie-open-play-outline: 動画：VPNは必要か？](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
 
-Normally, an ISP can see the flow of internet traffic entering and exiting your network termination device (i.e. modem). Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+通常、ISPはネットワーク終端装置（モデムなど）に出入りするインターネットトラフィックの流れを見ることができます。 HTTPSのような暗号化プロトコルはインターネット上で一般的に使われているため、ISPは投稿や閲覧内容を正確に見ることはできませんが、[要求するドメイン](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns)は見ることができます。
 
-Using a VPN hides even this information from your ISP, by shifting the trust you place in your network to a server somewhere else in the world. As a result, the ISP then only sees that you are connected to a VPN and nothing about the activity that you're passing through it.
+VPNにより、このような情報もISPから隠すことができ、ネットワークへの信頼を世界のどこかのサーバーに移行することになります。 その結果、ISPはVPNに接続しているということだけがわかり、VPN経由でのアクティビティについては分かりません。
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">メモ</p>
 
-When we refer to "Virtual Private Networks" on this website, we are usually referring to **commercial** [VPN providers](../vpn.md), who you pay a monthly fee to in exchange for routing your internet traffic securely through their public servers. There are many other forms of VPN, such as ones you host yourself or ones operated by workplaces which allow you to securely connect to internal/employee network resources, however, these VPNs are usually designed for accessing remote networks securely, rather than protecting the privacy of your internet connection.
+Privacy Guidesでは「VPN」は**商用**の[VPNプロバイダー](../vpn.md)のことを指します。インターネットトラフィックをVPNプロバイダーのパブリックサーバー経由で安全にルーティングしてもらい、月額料金を支払います。 VPNにはセルフホスティングしたり職場が運用するなど、内部や従業員のネットワークリソースに安全に接続できるようにするものもあります。このようなVPNはインターネット接続のプライバシーを保護するというよりも、リモートネットワークに安全にアクセスすることが目的です。
 
 </div>
 
