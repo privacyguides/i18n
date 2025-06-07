@@ -117,7 +117,7 @@ Proton Mail 也透過 HTTP 從其 WKD 發布 Proton 帳戶的公鑰。 這可讓
 
 #### :material-information-outline:{ .pg-blue } 終止帳號
 
-若您的付費帳戶逾期 14 天[未付款](https://proton.me/support/delinquency)，您將無法讀取自己的資料。 30 天後，您的帳戶將標記為欠費狀態，無法再收取郵件。 在此期間，我們會繼續向你收費。 Proton 會[刪除六個月未登入使用的免費帳戶](https://proton.me/support/inactive-accounts) 。 **不能**重複使用已停用帳號的電子郵件位址。
+若您的付費帳戶逾期 14 天[未付款](https://proton.me/support/delinquency)，您將無法讀取自己的資料。 30 天後，您的帳戶將標記為欠費狀態，無法再收取郵件。 在此期間，您將繼續收到帳單。 Proton 會[刪除六個月未登入使用的免費帳戶](https://proton.me/support/inactive-accounts) 。 **不能**重複使用已停用帳號的電子郵件位址。
 
 #### :material-information-outline:{ .pg-blue } 額外功能
 
@@ -131,11 +131,11 @@ Proton Mail 的[Unlimited](https://proton.me/support/proton-plans#proton-unlimit
 
 **Mailbox.org**是一個專注於安全、無廣告、100% 採用環保能源的電子郵件服務。 自 **2014 年** 開始運營。 Mailbox.org  總部位於德國柏林。
 
-Accounts start with up to 2 GB storage, which can be upgraded as needed.
+帳戶一開始最多只有 2 GB 儲存空間，可視需要升級。
 
 [:octicons-home-16: 首頁](https://mailbox.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="文檔" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="說明文件" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -152,17 +152,17 @@ Mailbox.org 可使用自定域名，且支援 [catch-all](https://kb.mailbox.org
 
 #### :material-check:{ .pg-green } 私人付款方式
 
-Mailbox.org 不接受任何加密貨幣，因為他們的支付處理商 BitPay 暫停了德國業務。 However, they do accept **cash** by mail, **cash** payment to bank account, bank transfer, credit card, PayPal, and a couple of German-specific processors: Paydirekt and Sofortüberweisung.
+Mailbox.org 不接受任何加密貨幣，因為他們的支付處理商 BitPay 暫停了德國業務。 不過，他們接受郵寄**現金**、使用**現金**支付至銀行帳戶、銀行轉帳、信用卡、PayPal，以及幾家德國特定的處理商：Paydirekt 和 Sofortüberweisung。
 
 #### :material-check:{ .pg-green } 帳號安全
 
-Mailbox.org supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. 您可以使用 TOTP 或通過 [YubiKey](https://en.wikipedia.org/wiki/YubiKey) 來使用 [YubiCloud](https://yubico.com/products/services-software/yubicloud) 進行雙重認證. Web standards such as [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) are not yet supported.
+Mailbox.org 僅對其網頁郵件提供[雙重要素驗證](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa)。 您可以使用 TOTP 或通過 [YubiKey](https://en.wikipedia.org/wiki/YubiKey) 來使用 [YubiCloud](https://yubico.com/products/services-software/yubicloud) 進行雙重認證. Web 標準如[WebAuthn ](basics/multi-factor-authentication.md#fido-fast-identity-online)等尚不支援。
 
 #### :material-information-outline:{ .pg-blue } 資料安全
 
 Mailbox.org 允許使用 [加密郵箱](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox)對傳入郵件進行加密。 收到的新訊息將立即用您的公鑰加密。
 
-However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that data.
+不過，Mailbox.org 所使用的軟體平台[Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange)，[並不支援](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book)對您的通訊錄和行事曆進行加密。 [獨立的選項](calendar.md) 可能更適合此類資料。
 
 #### :material-check:{ .pg-green } 電子郵件加密
 
