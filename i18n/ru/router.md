@@ -10,7 +10,7 @@ cover: router.webp
 - [:material-account-cash: Капитализм слежки](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 - [:material-bug-outline: Пассивные атаки](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 
-Below are a few alternative operating systems that can be used on routers, Wi-Fi access points, etc.
+Под этим пунктом вы можете найти альтернативные операционные системы, которые могут быть установлены на роутерах, Wi-Fi точках и т. д.
 
 ## OpenWrt
 
@@ -19,7 +19,7 @@ Below are a few alternative operating systems that can be used on routers, Wi-Fi
 ![Логотип OpenWrt](/assets/img/router/openwrt.svg#only-light){ align=right }
 ![Логотип OpenWrt](/assets/img/router/openwrt-dark.svg#only-dark){ align=right }
 
-**OpenWrt** - это операционная система, основанная на ядре Linux, используемая в основном на встраиваемых устройствах для маршрутизации сетевого трафика. Основными компонентами являются ядро Linux, util-linux, uClibc и BusyBox. All the components have been optimized for home routers.
+**OpenWrt** - это операционная система, основанная на ядре Linux, используемая в основном на встраиваемых устройствах для маршрутизации сетевого трафика. Основными компонентами являются ядро Linux, util-linux, uClibc и BusyBox. Все компоненты были оптимизированы для домашних роутеров.
 
 [:octicons-home-16: Домашняя страница](https://openwrt.org/ru){ .md-button .md-button--primary }
 [:octicons-info-16:](https://openwrt.org/ru/docs/start){ .card-link title=Документация}
