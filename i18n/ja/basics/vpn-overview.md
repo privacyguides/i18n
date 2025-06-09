@@ -36,16 +36,16 @@ VPNはVPNサーバーとインターネット上の目的のサイト間のト�
 
 ## VPNを使うべきですか？
 
-**Yes**, almost certainly. VPNには、次のような多くの利点があります。
+ほぼ確実に**そうすべきです**。 VPNには、次のような多くの利点があります。
 
 1. インターネットサービスプロバイダ**のみ**からトラフィックを隠します。
-1. Hiding your downloads (such as torrents) from your ISP and anti-piracy organizations.
-1. Hiding your IP from third-party websites and services, helping you blend in and preventing IP based tracking.
+1. ISPや海賊版対策組織からダウンロード（トレントなど）を隠す。
+1. 第三者のウェブサイトやサービスからIPを隠す。 混ぜ合わせることで、IPベースのトラッキングを防ぎます。
 1. 特定のコンテンツの地理的制限の解除が行える。
 
-VPNs can provide *some* of the same benefits Tor provides, such as hiding your IP from the websites you visit and geographically shifting your network traffic, and good VPN providers will not cooperate with e.g. legal authorities from oppressive regimes, especially if you choose a VPN provider outside your own jurisdiction.
+VPNは地理的にネットワークトラフィックを移動させるなどTorと同じような利点*も*あります。また、特に司法管轄外のVPNプロバイダーを選んだ場合、優れたVPNプロバイダーは例えば抑圧的な政権の司法当局に協力しないでしょう。
 
-VPNs cannot encrypt data outside the connection between your device and the VPN server. VPN providers can also see and modify your traffic the same way your ISP could, so there is still a level of trust you are placing in them. And there is no way to verify a VPN provider's "no logging" policies in any way.
+VPNはデバイスとVPNサーバー間以外の接続は暗号化できません。 ISPが行っているようにVPNプロバイダーはトラフィックを見たり変更したりできるため、VPNプロバイダーを信頼していることに変わりありません。 また、VPNプロバイダーの「ノーログ」ポリシーを確認する方法は一切ありません。
 
 ## VPNが適していない場合
 
