@@ -22,17 +22,17 @@ Privacy Guidesでは「VPN」は**商用**の[VPNプロバイダー](../vpn.md)�
 
 ## VPNの仕組み
 
-VPNは、あなたのデバイスとVPNプロバイダーが所有するサーバー間のトラフィックを暗号化します。 From the perspective of anyone between you and the VPN server, it looks like you're connecting to the VPN server. From the perspective of anyone between the VPN server and your destination site, all they can see is the VPN server connecting to the website.
+VPNは、あなたのデバイスとVPNプロバイダーが所有するサーバー間のトラフィックを暗号化します。 あなたとVPNサーバーの間にいる人から見ると、あなたがVPNサーバーにアクセスしているように見えます。 VPNサーバーと目的のサイトにいる人から見ると、VPNサーバーがそのウェブサイトにアクセスしているようにしか見えません。
 
 ``` mermaid
 flowchart LR
- 763931["Your Device<div>(with VPN Client)</div>"] ===|"VPN Encryption"| 404512{"VPN Server"}
- 404512 -.-|"No VPN Encryption"| 593753(("The Internet<div>(Your Destination)</div>"))
- subgraph 763931["Your Device<div>(with VPN Client)</div>"]
+ 763931["デバイス<div>（VPNクライアントあり）</div>"] ===|"VPN暗号化"| 404512{"VPNサーバー"}
+ 404512 -.-|"VPN暗号化なし"| 593753(("インターネット<div>（目的のサイト）</div>"))
+ subgraph 763931["デバイス<div>（VPNクライアントあり）</div>"]
  end
 ```
 
-Note that a VPN does not add any security or encryption to your traffic between the VPN server and your destination on the internet. To access a website securely you **must** still ensure HTTPS is in use regardless of whether you use a VPN.
+VPNはVPNサーバーとインターネット上の目的のサイト間のトラフィックに対し、セキュリティを強化せず、暗号化しないことに注意してください。 ウェブサイトに安全にアクセスするには、VPNの使用にかかわらず、HTTPSが使われていることを確認する**必要があります**。
 
 ## VPNを使うべきですか？
 
