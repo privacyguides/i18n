@@ -72,7 +72,7 @@ Se você precisa navegar na internet de maneira anônima, você deveria usar o [
 ![Mullvad Browser logo]
 (assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Navegador Mullvad** é uma versão do [Navegador Tor](tor.md#tor-browser) com as integrações da rede Tor removida. O seu objetivo é fornecer aos utilizadores de VPN as tecnologias de navegação anti-fingerprinting do Navegador Tor, que são proteções fundamentais contra [:material-eye-outline: Vigilância em massa](basics/common-threats.md#mass-surveillance-programs){ .pg-blue } É desenvolvido pelo Projeto Tor e distribuído pela [Mullvad](vpn.md#mullvad), e **não** requer o uso da VPN da Mullvad.
+O **Mullvad** é uma versão do [Tor](tor.md#tor-browser) com as integrações da rede Tor removida. O seu objetivo é fornecer aos utilizadores de VPN as tecnologias de navegação anti-fingerprinting do Navegador Tor, que são proteções fundamentais contra [:material-eye-outline: Vigilância em massa](basics/common-threats.md#mass-surveillance-programs){ .pg-blue } É desenvolvido pelo Projeto Tor e distribuído pela [Mullvad](vpn.md#mullvad), e **não** requer o uso da VPN da Mullvad.
 
 [:octicons-home-16: Página inicial](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Política de privacidade" }
@@ -92,9 +92,9 @@ Se você precisa navegar na internet de maneira anônima, você deveria usar o [
 
 </div>
 
-Igual ao [Navegador Tor](tor.md), o Navegador Mullvad é feito para prevenir o rastreamento da sua identidade digital fazendo com que a identidade digital do seu navegador seja idêntica com todos os outros usuários do Mullvad. Ele também incluí configurações e extensões que são automáticamente configuradas para os níveis padrões de segurança: *Standard*, *Safer* e *Safest*.
+Como o [Tor](tor.md), o Mullvad é feito para prevenir o rastreamento da sua identidade digital fazendo com que a identidade digital do seu navegador seja idêntica a todos os outros usuários do Mullvad. Ele também inclui configurações e extensões que são automaticamente configuradas para os níveis padrões de segurança: *Standard*, *Safer* e *Safest*.
 
-Portanto, nunca se deve mudar as configurações do navegador, exceto quando se for alterar os [níveis de segurança](https://tb-manual.torproject.org/security-settings) padrões. Após ajustar o nível de segurança, você **deve** sempre reiniciar o navegador antes de continuar a usá-lo. Se não, [ as configurações de segurança talvez não sejam corretamente aplicadas](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), te colocando com um risco maior de ser rastreado ou afetado por exploits do que o esperado na configuração escolhida.
+Portanto, nunca se deve mudar as configurações do navegador, exceto quando se for alterar os [níveis de segurança](https://tb-manual.torproject.org/security-settings) padrão. Ao ajustar o nível de segurança, você **deve** sempre reiniciar o navegador antes de continuar a usá-lo. Caso contrário, [as configurações de segurança poderão não ser totalmente aplicadas](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), colocando-o em um risco maior de exposição da sua identidade digital e exploits do que o esperado com base na configuração escolhida.
 
 Modificar o navegador além dessa configuração faria com que sua identidade digital seja única, anulando o objetivo de usar esse navegador. Se você preferir personalizar mais o navegador e a identificação das suas impressões digitais não é uma preocupação para você, recomendamos o [Firefox](#firefox).
 
@@ -356,7 +356,7 @@ Recomendamos que você também desative as sugestões de busca do Brave pelos me
 
 <div class="annotate" markdown>
 
-- [ ] Desmarque **Continuar executando os aplicativos em segundo plano quando o Brave for fechado** para desativar os aplicativos em segundo plano (1)
+- [ ] Uncheck **Continue running background apps when Brave is closed** to disable background apps (1)
 
 </div>
 

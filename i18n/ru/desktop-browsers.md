@@ -353,7 +353,7 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 <div class="annotate" markdown>
 
-- [ ] Отключите **Продолжить выполнение фоновых приложений после закрытия Brave**, чтобы отключить фоновые приложения (1)
+- [ ] Uncheck **Continue running background apps when Brave is closed** to disable background apps (1)
 
 </div>
 

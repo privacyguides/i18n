@@ -37,7 +37,7 @@ Nuestros proveedores recomendados usan cifrado, soportan Wireguard & OpenVPN, ad
 | --------------------- | ------ | ----------------------------- | ------------------------------------------------------ | ---------------------------------------------------------------- | ---------------- |
 | [Proton](#proton-vpn) | 112+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Soporte Parcial | :material-information-outline:{ .pg-blue } Soporte Limitado      | Efectivo         |
 | [IVPN](#ivpn)         | 37+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-information-outline:{ .pg-blue } Sólo tráfico saliente | Monero, efectivo |
-| [Mullvad](#mullvad)   | 45+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-check:{ .pg-green }                                    | Monero, efectivo |
+| [Mullvad](#mullvad)   | 49+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-check:{ .pg-green }                                    | Monero, efectivo |
 
 ### Proton VPN
 

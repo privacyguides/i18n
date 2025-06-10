@@ -353,7 +353,7 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 <div class="annotate" markdown>
 
-- [ ] Αποεπιλέξτε την επιλογή **Να συνεχίζεται η εκτέλεση εφαρμογών παρασκηνίου όταν το Brave είναι κλειστό** για να απενεργοποιήσετε τις εφαρμογές παρασκηνίου (1)
+- [ ] Uncheck **Continue running background apps when Brave is closed** to disable background apps (1)
 
 </div>
 

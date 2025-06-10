@@ -37,7 +37,7 @@ Privacy Guides 권장 제공 업체는 암호화 사용, WireGuard & OpenVPN 지
 | --------------------- | ---- | ----------------------------- | ------------------------------------------------------ | ---------------------------------------------------------- | ------- |
 | [Proton](#proton-vpn) | 112+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Partial Support | :material-information-outline:{ .pg-blue } Limited Support | 현금      |
 | [IVPN](#ivpn)         | 37+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-information-outline:{ .pg-blue } Outgoing Only   | 모네로, 현금 |
-| [Mullvad](#mullvad)   | 45+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-check:{ .pg-green }                              | 모네로, 현금 |
+| [Mullvad](#mullvad)   | 49+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-check:{ .pg-green }                              | 모네로, 현금 |
 
 ### Proton VPN
 

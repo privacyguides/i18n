@@ -37,7 +37,7 @@ I nostri provider consigliati utilizzano la crittografia, supportano WireGuard &
 | --------------------- | ----- | ----------------------------- | ------------------------------------------------------ | ---------------------------------------------------------- | ----------------- |
 | [Proton](#proton-vpn) | 112+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Partial Support | :material-information-outline:{ .pg-blue } Limited Support | Contanti          |
 | [IVPN](#ivpn)         | 37+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-information-outline:{ .pg-blue } Solo in uscita  | Monero, contanti  |
-| [Mullvad](#mullvad)   | 45+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-check:{ .pg-green }                              | Monero, contanti  |
+| [Mullvad](#mullvad)   | 49+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-check:{ .pg-green }                              | Monero, contanti  |
 
 ### Proton VPN
 

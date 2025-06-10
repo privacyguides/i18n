@@ -37,7 +37,7 @@ Nossas recomendações de provedores VPN usam criptografia, aceitam métodos de 
 | --------------------- | ------ | ----------------------------- | ----------------------------------------- | -------------------------------------------------------------- | ------------------- |
 | [Proton](#proton-vpn) | 112+   | :material-check:              | :material-alert-outline:{ .pg-orange }    | :material-information-outline:{ .pg-blue } Segurança dos Dados | Dinheiro            |
 | [IVPN](#ivpn)         | 37+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }    | :material-information-outline:{ .pg-blue } Mail apenas         | Monero, Dinheiro    |
-| [Mullvad](#mullvad)   | 45+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }    | :material-check:{ .pg-green }                                  | Monero, Dinheiro    |
+| [Mullvad](#mullvad)   | 49+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }    | :material-check:{ .pg-green }                                  | Monero, Dinheiro    |
 
 ### Proton VPN
 

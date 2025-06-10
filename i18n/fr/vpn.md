@@ -37,7 +37,7 @@ Les fournisseurs que nous recommandons utilisent le chiffrement, acceptent Moner
 | --------------------- | ---- | ----------------------------- | ------------------------------------------------------ | ------------------------------------------------------------ | ---------------------- |
 | [Proton](#proton-vpn) | 112+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Partial Support | :material-information-outline:{ .pg-blue } Limited Support   | Argent liquide         |
 | [IVPN](#ivpn)         | 37+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-information-outline:{ .pg-blue } Sortant seulement | Monero, argent liquide |
-| [Mullvad](#mullvad)   | 45+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-check:{ .pg-green }                                | Monero, argent liquide |
+| [Mullvad](#mullvad)   | 49+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-check:{ .pg-green }                                | Monero, argent liquide |
 
 ### Proton VPN
 

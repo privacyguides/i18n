@@ -353,7 +353,7 @@ Recomendamos desactivar las sugerencias de búsqueda en Brave por la misma razó
 
 <div class="annotate" markdown>
 
-- [ ] Desmarca **Seguir ejecutando aplicaciones en segundo plano al cerrar Brave** para desactivar las aplicaciones en segundo plano (1)
+- [ ] Uncheck **Continue running background apps when Brave is closed** to disable background apps (1)
 
 </div>
 

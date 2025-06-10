@@ -353,7 +353,7 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 <div class="annotate" markdown>
 
-- [ ] 取消勾選 **在 Brave 關閉時繼續執行背景應用程式** 以停用背景應用程式 (1)
+- [ ] Uncheck **Continue running background apps when Brave is closed** to disable background apps (1)
 
 </div>
 

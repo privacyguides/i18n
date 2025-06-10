@@ -37,7 +37,7 @@ Die von uns empfohlenen Anbieter verwenden Verschlüsselung, unterstützen WireG
 | --------------------- | ------ | ----------------------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------- | ----------------- |
 | [Proton](#proton-vpn) | 112+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Teilweise unterstützt | :material-information-outline:{ .pg-blue } Eingeschränkte Unterstützung | Bargeld           |
 | [IVPN](#ivpn)         | 37+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                       | :material-information-outline:{ .pg-blue } Nur ausgehend                | Monero, Bargeld   |
-| [Mullvad](#mullvad)   | 45+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                       | :material-check:{ .pg-green }                                           | Monero, Bargeld   |
+| [Mullvad](#mullvad)   | 49+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                       | :material-check:{ .pg-green }                                           | Monero, Bargeld   |
 
 ### Proton VPN
 

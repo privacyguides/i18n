@@ -353,7 +353,7 @@ Zalecamy wyłączenie podpowiedzi wyszukiwania w Brave z tego samego powodu, dla
 
 <div class="annotate" markdown>
 
-- [ ] Odznacz **Kontynuuj działanie aplikacji w tle po zamknięciu Brave**, aby wyłączyć aplikacje działające w tle (1)
+- [ ] Uncheck **Continue running background apps when Brave is closed** to disable background apps (1)
 
 </div>
 

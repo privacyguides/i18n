@@ -353,7 +353,7 @@ Wir empfehlen die Deaktivierung von Suchvorschlägen in Brave aus demselben Grun
 
 <div class="annotate" markdown>
 
-- [ ] Deaktiviere **Apps weiter im Hintergrund ausführen, wenn Brave geschlossen wird** um Hintergrundapps zu deaktivieren (1)
+- [ ] Uncheck **Continue running background apps when Brave is closed** to disable background apps (1)
 
 </div>
 

@@ -37,7 +37,7 @@ global:
 | --------------------- | ---- | ----------------------------- | ------------------------------------------- | ------------------------------------------------- | --------- |
 | [Proton](#proton-vpn) | 112+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } 部分支援 | :material-information-outline:{ .pg-blue } 有限支援   | 現金        |
 | [IVPN](#ivpn)         | 37+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-information-outline:{ .pg-blue } 僅限連出流量 | Monero、現金 |
-| [Mullvad](#mullvad)   | 45+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-check:{ .pg-green }                     | Monero、現金 |
+| [Mullvad](#mullvad)   | 49+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-check:{ .pg-green }                     | Monero、現金 |
 
 ### Proton VPN
 

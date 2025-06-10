@@ -37,7 +37,7 @@ Våra rekommenderade tjänster är krypterade, stödjer WireGuard & OpenVPN och 
 | --------------------- | ------ | ----------------------------- | ------------------------------------------------------ | ---------------------------------------------------------- | ------------------- |
 | [Proton](#proton-vpn) | 112+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Partial Support | :material-information-outline:{ .pg-blue } Limited Support | Kontant             |
 | [IVPN](#ivpn)         | 37+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-information-outline:{ .pg-blue } Outgoing Only   | Monero, kontant     |
-| [Mullvad](#mullvad)   | 45+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-check:{ .pg-green }                              | Monero, kontant     |
+| [Mullvad](#mullvad)   | 49+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-check:{ .pg-green }                              | Monero, kontant     |
 
 ### Proton VPN
 
