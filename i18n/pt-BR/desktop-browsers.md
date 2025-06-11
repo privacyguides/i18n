@@ -98,7 +98,7 @@ Portanto, nunca se deve mudar as configurações do navegador, exceto quando se 
 
 Modificar o navegador além dessa configuração faria com que sua identidade digital seja única, anulando o objetivo de usar esse navegador. Se você preferir personalizar mais o navegador e a identificação das suas impressões digitais não é uma preocupação para você, recomendamos o [Firefox](#firefox).
 
-### Anti-impressões Digitais
+### Anti-Fingerprinting
 
 **Sem** utilizar uma [VPN](vpn.md), o Mullvad Browser garante as mesmas proteções contra [ingênuos scripts de impressão digital](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting), assim como os outros navegadores tipo o Firefox + [Arkenfox](#arkenfox-advanced) e o [Brave](#brave). O Mullvad Broowser oferece proteções fora da caixa, as custas de algumas flexibilidades e conveniências que outros navegadores privados podem oferecer.
 
