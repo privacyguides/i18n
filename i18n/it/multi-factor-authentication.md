@@ -1,5 +1,5 @@
 ---
-title: "Multifactor Authentication"
+title: "Autenticazione a più fattori"
 icon: 'material/two-factor-authentication'
 description: These tools assist you with securing your internet accounts with Multifactor Authentication without sending your secrets to a third-party.
 cover: multi-factor-authentication.webp

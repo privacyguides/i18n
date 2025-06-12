@@ -1,5 +1,5 @@
 ---
-title: "Multifactor Authentication"
+title: "Autenticazione a più fattori"
 icon: 'material/two-factor-authentication'
 description: L'AFM è un meccaanismo di sicurezza fondamentale per proteggere i tuoi profili online, ma alcuni metodi sono più efficaci di altri.
 ---

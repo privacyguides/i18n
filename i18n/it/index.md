@@ -1,6 +1,6 @@
 ---
-meta_title: "Privacy Guides: Independent Privacy & Security Resources"
-description: "Creato nel 2021, PrivacyGuides è la risorsa non profit più popolare & affidabile per trovare tool sulla privacy e imparare come proteggere la tua vita digitale."
+meta_title: "Privacy Guides: le tue risorse indipendenti per Privacy e Sicurezza"
+description: "Creato nel 2021, PrivacyGuides è la risorsa non profit più popolare e affidabile per trovare strumenti sulla privacy e imparare come proteggere la tua vita digitale."
 template: home.html
 social:
   cards_layout: home
@@ -40,47 +40,47 @@ schema:
 <!-- markdownlint-disable -->
 <div class="grid" markdown>
 <div markdown>
-## Why should I care?
+##Perché dovrebbe importarmi?
 
-> “I have nothing to hide. Why should I care about my privacy?”
+> "Io non ho nulla da nascondere. Perché dovrei preoccuparmi della mia privacy?"
 
-Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
+Come per il matrimonio interrazziale, il suffragio femminile, il diritto di parola e molti altri il nostro diritto alla privacy non è sempre stato rispettato. In molte dittature non lo è ancora. Le generazioni prima della nostra hanno lottato per il nostro diritto alla privacy. ==La privacy è un diritto umano, intrinseco in tutti noi,== e tutti ne abbiamo diritto (senza discriminazioni).
 
-You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
+Non bisogna confondere privacy con la segretezza. Sappiamo cosa succede in un bagno, ma chiudi la porta lo stesso. Questo è perché vuoi privacy, non segretezza. **Tutti** hanno qualcosa da proteggere. La privacy è quello che ci rende umani.
 
-[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button" }
+[:material-book-outline: Perchè la privacy è importante](basics/why-privacy-matters.md){ class="md-button" }
 </div>
 
 <div markdown>
-## What should I do?
+## Cosa dovrei fare?
 
-> First, you need to make a plan
+> Innanzitutto devi avere un piano
 
-Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. Ma non preoccuparti! La sicurezza è un processo e, pensando in anticipo, puoi mettere a punto un piano adatto a te. Security isn't just about the *privacy tools* you use or the software you download. Piuttosto, parte dalla comprensione delle minacce uniche che affronti e di come puoi mitigarle.
+Voler proteggere tutti i tuoi dati da tutti e in ogni momento non è pratico, costa ed è estenuante. Ma non preoccuparti! La sicurezza è un processo e, pensando in anticipo, puoi mettere a punto un piano adatto a te. La sicurezza non è data solamente gli *strumenti per la privacy* che usi o il software che scarichi. Piuttosto, parte dalla comprensione delle minacce uniche che affronti e di come puoi mitigarle.
 
-==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
+==Questo processo di identificare le minacce e definire delle contromisure è chiamato **modellazione delle minacce**==, e questo costituisce la base di un buon piano per sicurezza e privacy.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button" }
+[:material-book-outline: Scopri di più sulla modellazione delle minacce ](basics/threat-modeling.md){ class="md-button" }
 </div>
 </div>
 
-## Trustworthy Privacy Software Reviews
+## Recensioni affidabili di software per la privacy
 
 <div class="grid" markdown>
 
 <div markdown>
-**Privacy Guides** has a dedicated [community](https://discuss.privacyguides.net) independently reviewing various *privacy tools* and services. Each of our recommendations comply with a strict set of criteria to ensure they provide the most value to most people, and provide the best balance of privacy, security, and convenience. As part of a non-profit **public charity**, Privacy Guides has strict **journalistic standards** and policies to ensure our recommendations are free of conflict of interest, and we do not partner with providers or affiliate programs that could sway our reviews and recommendations.
+**Privacy Guides** ha una [community](https://discuss.privacyguides.net) dedicata che recensisce in modo indipendente vari strumenti e servizi privati. Ognuna delle nostre raccomandazioni rispetta una serie di criteri rigorosi per assicurare che forniscano valore alla maggior parte delle persone e che forniscano il miglior bilancio tra privacy, sicurezza e comodità. Dato che è parte di una **organizzazione benefica** senza scopo di lucro, Privacy Guides segue dei rigorosi **standard giornalistici** e delle politiche per assicurarci che le nostre raccomandazioni siano senza conflitti di interessi, inoltre non abbiamo accordi con i fornitori o programmi di affiliazione che possono influenzare le nostre recensioni e raccomandazioni.
 
-[:material-heart:{.pg-red} Support Our Work](about/donate.md){ class="md-button md-button--primary" }
+[:material-heart:{.pg-red} Sostieni il Nostro Lavoro](about/donate.md){ class="md-button md-button--primary" }
 
 </div>
 
-- [x] **Ad-Free Recommendations**
-- [x] **Complete Editorial Independence**
-- [x] **Non-Profit & Open Source**
-- [x] **Frequent Updates**
-- [x] **Trusted by Journalists**
-- [x] **Trusted by Readers**
+- [x] **Raccomandazioni Senza Annunci**
+- [x] **Indipendenza Editoriale Completa**
+- [x] **Non Profit e Open Source**
+- [x] **Aggiornamenti Frequenti**
+- [x] **Scelto dai Giornalisti**
+- [x] **Scelto dai Lettori**
 
 </div>
 
