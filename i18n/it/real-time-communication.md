@@ -2,18 +2,18 @@
 meta_title: "Le migliori app di messaggistica istantanea private - Privacy Guides"
 title: Comunicazione in tempo reale
 icon: material/chat-processing
-description: Encrypted messengers like Signal and SimpleX keep your sensitive communications secure from prying eyes.
+description: Applicazioni di messaggistica crittografate come Signal e SimpleX mantengono le tue conversazioni sensibili al riparo da occhi indiscreti.
 cover: real-time-communication.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protegge dalle seguenti minacce:</small>
 
 - [:material-bug-outline: Attacchi Passivi](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: Fornitori di Servizi](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 - [:material-eye-outline: Sorveglianza di massa](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-account-cash: Capitalismo di sorveglianza](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These recommendations for encrypted **real-time communication** are great for securing your sensitive communications. These instant messengers come in the form of many [types of communication networks](advanced/communication-network-types.md).
+Queste raccomandazioni per **comunicazioni in tempo reale** crittografate sono ottime per proteggere le tue conversazioni sensibili. Queste applicazioni di messaggistica istantanea comprendono vari [tipi di rete di comunicazione](advanced/communication-network-types.md).
 
 [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
 
@@ -23,13 +23,7 @@ These recommendations for encrypted **real-time communication** are great for se
 
 ![Logo di Signal](assets/img/messengers/signal.svg){ align=right }
 
-**Signal** è un'app per dispositivi mobili sviluppata da Signal Messenger LLC. The app provides instant messaging and calls secured with the Signal protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
-
-[:octicons-home-16: Homepage](https://signal.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.signal.org){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://signal.org/donate){ .card-link title="Contribute" }
+**Signal** è un'app per dispositivi mobili sviluppata da Signal Messenger LLC. L'applicazione fornisce messaggistica istantanea e chiamate protette con il protocollo Signal, un protocollo di crittografia estremamente sicuro che supporta la segretezza in avanti[^1] e la sicurezza post compromesso.[^2]
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -46,25 +40,25 @@ These recommendations for encrypted **real-time communication** are great for se
 
 </div>
 
-Signal requires your phone number for registration, however you should create a username to hide your phone number from your contacts:
+Signal richiede il tuo numero di telefono al momento della registrazione, però dovresti creare un nome utente per nascondere il tuo numero di telefono dai tuoi contatti:
 
 1. In Signal, apri le impostazioni dell'app e tocca il profilo del tuo account in alto.
-2. Tocca **Username** e scegli **Continua** nella schermata "Imposta il tuo username Signal".
-3. Inserisci un username. Your username will always be paired with a unique set of digits to keep your username unique and prevent people from guessing it. For example if you enter "John" your username might end up being `@john.35`. By default, only 2 digits are paired with your username when you create it, but you can add more digits until you reach the username length limit (32 characters).
+2. Tocca **Nome utente** e scegli **Continua** nella schermata "Imposta il tuo nome utente Signal".
+3. Inserisci un nome utente. Il tuo nome utente è sempre abbinato a un'unica serie di cifre per mantenere il tuo nome utente unico ed evitare che le persone lo indovinino.  Per esempio se inserisci "John" il tuo nome utente potrebbe essere `@john.35`. Per impostazione predefinita solo 2 cifre sono abbinate al tuo nome utente quando lo crei, ma ne puoi aggiungere altre fino a che non raggiungi la lunghezza limite per il nome utente (32 caratteri).
 4. Torna alla pagina delle impostazioni principali dell'app e seleziona **Privacy**.
-5. Select **Phone Number**.
-6. Change the **Who Can See My Number** setting to **Nobody**.
-7. (Optional) Change the **Who Can Find Me By Number** setting to **Nobody** as well, if you want to prevent people who already have your phone number from discovering your Signal account/username
+5. Seleziona **Numero di telefono**.
+6. Metti l'impostazione **Chi può vedere il mio numero di telefono** su **Nessuno**.
+7. (Opzionale) Cambia anche l'impostazione **Chi può trovarmi tramite il mio numero** su **Nessuno**  se vuoi evitare che persone che hanno il tuo numero di telefono scoprano il tuo account/nome utente Signal
 
-We have some additional tips on configuring and hardening your Signal installation:
+Abbiamo alcuni consigli aggiuntivi su come rendere più sicura la tua applicazione Signal:
 
-[Signal Configuration and Hardening :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening)
+[Signal configurazione e messa in sicurezza :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening)
 
-Contact lists on Signal are encrypted using your Signal PIN and the server does not have access to them. Personal profiles are also encrypted and only shared with contacts you chat with.
+Su Signal le liste dei contatti sono crittografate con il tuo PIN di Signal e il server non ne ha accesso. Anche i profili personali sono crittografati e sono condivisi solamente con i contatti con cui chatti.
 
-Signal supports [private groups](https://signal.org/blog/signal-private-group-system), where the server has no record of your group memberships, group titles, group avatars, or group attributes. Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender) is enabled. The sender address is encrypted along with the message body, and only the recipient address is visible to the server. Sealed Sender is only enabled for people in your contacts list, but can be enabled for all recipients with the increased risk of receiving spam.
+Signal supporta i [gruppi privati](https://signal.org/blog/signal-private-group-system), il server non ha accesso alle informazioni dei gruppi tra cui: chi appartiene al gruppo, il nome, l'avatar o le caratteristiche del gruppo. Signal ha dei metadati minimi quando il [Mittente Sigillato](https://signal.org/blog/sealed-sender)  è abilitato. L'indirizzo del mittente è crittografato con il testo del messaggio e solamente l'indirizzo del destinatario è visibile al server. Il Mittente Sigillato è abilitato solamente per le persone nella tua lista dei contatti, ma lo puoi abilitare per tutti i destinatari con un maggior rischio di ricevere spam.
 
-The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs).
+Il protocollo è stato indipendentemente  [revisionato](https://eprint.iacr.org/2016/1013.pdf) nel 2016. Le specifiche del protocollo Signal possono essere trovate nella [documentazione](https://signal.org/docs).
 
 ### Molly (Android)
 
@@ -174,23 +168,60 @@ The client software was independently [audited](https://briarproject.org/news/20
 
 ### Requisiti minimi
 
-- Must have open-source clients.
-- Must not require sharing personal identifiers (particularly phone numbers or emails) with contacts.
-- Must use E2EE for private messages by default.
-- Must support E2EE for all messages.
-- Must support forward secrecy[^1]
-- Must have a published audit from a reputable, independent third party.
+- Deve avere i client Open Source.
+- Non deve richiedere la condivisione di identificativi personali (in particolare numero di telefono o email) con i contatti.
+- Deve usare E2EE per i messaggi personali di default.
+- Deve supportare E2EE per tutti i messaggi.
+- Deve supportare la segretezza in avanti<sup id="fnref2:1"><a href="#fn:1" class="footnote-ref">2</sup></li> 
+  
+  <li>
+    Deve avere una revisione pubblicata da una terza parte indipendente e rispettabile.
+  </li></ul>
 
-### Caso migliore
+<h3 spaces-before="0">
+  Caso migliore
+</h3>
 
-I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto perfetto in questa categoria. I nostri consigli potrebbero non includere tutte o alcune di queste funzionalità, ma quelli che le includono potrebbero essere preferiti ad altri su questa pagina.
+<p spaces-before="0">
+  I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto perfetto in questa categoria. I nostri consigli potrebbero non includere tutte o alcune di queste funzionalità, ma quelli che le includono potrebbero essere preferiti ad altri su questa pagina.
+</p>
 
-- Should support future secrecy (post-compromise security)[^2]
-- Should have open-source servers.
-- Should use a decentralized network, i.e. [federated or P2P](advanced/communication-network-types.md).
-- Should use E2EE for all messages by default.
-- Should support Linux, macOS, Windows, Android, and iOS.
-[^3]: You may refer to this step-by-step tutorial in German on how to set up UnifiedPush as the notification provider for Molly: [https://kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy](https://kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy).
-
-[^1]: [Forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) is where keys are rotated very frequently, so that if the current encryption key is compromised, it does not expose **past** messages as well.
-[^2]: Future secrecy (or [post-compromise security](https://eprint.iacr.org/2016/221.pdf)) is a feature where an attacker is prevented from decrypting **future** messages after compromising a private key, unless they compromise more session keys in the future as well. This effectively forces the attacker to intercept all communication between parties since they lose access as soon as a key exchange occurs that is not intercepted.
+<ul>
+  <li>
+    Dovrebbe supportare la segretezza futura (sicurezza post compromesso)<sup id="fnref:2"><a href="#fn:2" class="footnote-ref">3</sup></li> 
+    
+    <li>
+      Dovrebbe avere i server Open Source.
+    </li>
+    
+    <li>
+      Dovrebbe utilizzare una rete decentralizzata: <a href="advanced/communication-network-types.md">federata o P2P</a>.
+    </li>
+    
+    <li>
+      Dovrebbe usare E2EE per tutti i messaggi di default.
+    </li>
+    
+    <li>
+      Dovrebbe supportare Linux, macOS, Windows, Android e iOS.
+    </li></ul> 
+    
+    <footnotes>
+      <fn name="3" spaces-before="0">
+        <p spaces-before="0">
+          You may refer to this step-by-step tutorial in German on how to set up UnifiedPush as the notification provider for Molly: <a href="https://kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy">https://kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy</a>.
+        </p>
+      </fn>
+      
+      <fn name="1" spaces-before="0">
+        <p spaces-before="0">
+          <a href="https://en.wikipedia.org/wiki/Forward_secrecy">Segretezza in avanti</a> è quando le chiavi sono ruotate molto frequentemente, in questo modo anche se la chiave crittografica attuale viene compromessa questo non espone anche messaggi <strong x-id="1">passati</strong>.
+        </p>
+      </fn>
+      
+      <fn name="2" spaces-before="0">
+        <p spaces-before="0">
+          La segretezza futura ( o <a href="https://eprint.iacr.org/2016/221.pdf">sicurezza post compromesso</a>) è una funzione dove a un malintenzionato viene impedito di decriptare messaggi <strong x-id="1">futuri</strong> dopo aver compromesso una chiave privata, a meno che non comprometta altre chiavi di sessione in futuro. Questo forza efficacemente il malintenzionato a intercettare tutta la comunicazione tra le persone dato che ne perde l'accesso non appena avviene uno scambio di chiave non intercettato.
+        </p>
+      </fn>
+    </footnotes>
