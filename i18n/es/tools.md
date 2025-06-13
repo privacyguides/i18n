@@ -96,7 +96,7 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 
     ---
 
-    **Cromite** es un navegador para Android basado en Chromium con bloqueo de anuncios y [mejoras de privacidad integradas](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). Se trata de una bifurcación del popular navegador Bromite, ya descontinuado.
+    **Cromite** es un navegador para Android basado en Chromium con bloqueo de anuncios y [mejoras de privacidad integradas](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). Es una bifurcación del navegador popular **Bromite**, actualmente descatalogado.
 
     - [Lea la Reseña Completa :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
 

@@ -2,7 +2,7 @@
 *[ADB]: Puente de Depura de Android
 *[AOSP]: Android Open Source Project
 *[ATA]: Adjunto de Tecnología Avanzada
-*[superficie de ataque]: The total number of possible entry points for unauthorized access to a system
+*[superficie de ataque]: La cantidad total de posibles puntos de entrada para acceso no autorizado a un sistema
 *[AVB]: Inicio Verificado de Android
 *[cgroups]: Grupos de Control
 *[CLI]: Interfaz de Línea de Comando

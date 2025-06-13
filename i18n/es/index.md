@@ -111,7 +111,7 @@ Recomendamos una amplia variedad de **herramientas de privacidad** (también con
 <div markdown>
 ## ¿Por qué la privacidad importa?
 
-En la era moderna de explotación de información digital, tu privacidad nunca ha sido más crítica, sin embargo, muchos creen que es una causa perdida. No lo es. ==Tu privacidad está en juego y debes preocuparte por ella.==La privacidad es poder y es muy importante que ese poder termine en las manos correctas.
+En la era moderna de explotación de información digital, tu privacidad nunca ha sido más crítica, sin embargo, muchos creen que es una causa perdida. No lo es. ==Tu privacidad está en juego y debes preocuparte por ella.== La privacidad es poder y es muy importante que ese poder termine en las manos correctas.
 
 Muchas personas confunden los conceptos de privacidad, seguridad y anonimato. Por ejemplo, verás a gente criticar varios productos por "no ser privados" cuando en realidad quieren decir que no proporcionan anonimato. En este sitio web tratamos estos tres temas, pero es importante que entiendas la diferencia entre ellos y cuándo entra en juego cada uno.
 
