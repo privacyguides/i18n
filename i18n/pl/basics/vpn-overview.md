@@ -1,20 +1,20 @@
 ---
 meta_title: "Jak VPN chroni twoją prywatność? Nasz przegląd VPN - Privacy Guides"
-title: VPN Overview
+title: Omówienie sieci VPN
 icon: material/vpn
-description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
+description: Wirtualne sieci prywatne przenoszą ryzyko z dostawcy usług internetowych na stronę trzecią, której ufasz. Należy mieć to na uwadze.
 ---
 
-Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world.
+Wirtualne sieci prywatne to sposób na przedłużenie końca twojej sieci do wyjścia w innym miejscu na świecie.
 
-[:material-movie-open-play-outline: Video: Do you need a VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
+[:material-movie-open-play-outline: Wideo: Czy potrzebujesz sieci VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
 
-Normally, an ISP can see the flow of internet traffic entering and exiting your network termination device (i.e. modem). Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+Zwykle dostawca usług internetowych może zobaczyć przepływ ruchu internetowego przychodzącego i wychodzącego z twojego urządzenia końcowego (tj. modem). Protokoły szyfrowania, takie jak HTTPS, są powszechnie używane w internecie, więc usługodawcy mogą nie być w stanie zobaczyć dokładnie tego, co publikujesz lub czytasz, ale mogą mieć pojęcie o [domenach, które żądasz](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
-Using a VPN hides even this information from your ISP, by shifting the trust you place in your network to a server somewhere else in the world. As a result, the ISP then only sees that you are connected to a VPN and nothing about the activity that you're passing through it.
+Korzystanie z sieci VPN ukrywa nawet te informacje przed twoim dostawcą usług internetowych, przekazując zaufanie, które umieszczasz w swoją sieć na serwer gdzieś indziej na świecie. W rezultacie dostawca usług internetowych widzi tylko, że jesteś podłączony do sieci VPN i nic nie wie o aktywności, którą przez nią przekazujesz.
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Uwaga</p>
 
 When we refer to "Virtual Private Networks" on this website, we are usually referring to **commercial** [VPN providers](../vpn.md), who you pay a monthly fee to in exchange for routing your internet traffic securely through their public servers. There are many other forms of VPN, such as ones you host yourself or ones operated by workplaces which allow you to securely connect to internal/employee network resources, however, these VPNs are usually designed for accessing remote networks securely, rather than protecting the privacy of your internet connection.
 
