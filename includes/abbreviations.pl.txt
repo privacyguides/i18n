@@ -10,18 +10,18 @@
 *[CVE]: Typowe podatności i zagrożenia
 *[ciemne wzorce]: Zwodniczy wzorzec projektowy mający na celu nakłonienie użytkownika do zrobienia czegoś wbrew jego interesowi
 *[cyfrowe dziedziczenie]: Dziedzictwo cyfrowe odnosi się do rozwiązań, które pozwalają przekazać innym osobom dostęp do twoich danych po śmierci
-*[DNSSEC]: Rozszerzenie zabezpieczeń dla systemu DNS
+*[DNSSEC]: Rozszerzenie systemu DNS mające na celu zwiększenie jego bezpieczeństwa
 *[DNS]: System nazw domen
 *[DoH]: DNS przez HTTPS
 *[DoQ]: DNS przez QUIC
 *[DoH3]: DNS przez HTTP/3
 *[DoT]: DNS przez TLS
 *[DPI]: Głęboka inspekcja pakietów identyfikuje i blokuje pakiety o określonej zawartości
-*[E2EE]: Kompleksowe szyfrowanie/szyfrowanie
+*[E2EE]: Szyfrowanie od końca do końca/Zaszyfrowane
 *[ECS]: Podsieć klienta EDNS
 *[EEA]: Europejski Obszar Gospodarczy
 *[entropia]: Miara tego, jak bardzo coś jest nieprzewidywalne
-*[EOL]: Koniec życia
+*[EOL]: Koniec okresu użytkowania
 *[Exif]: Wymienny format pliku obrazu
 *[FCM]: Wiadomości w chmurze Firebase
 *[FDE]: Pełne szyfrowanie dysku
