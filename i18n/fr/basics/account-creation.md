@@ -5,7 +5,7 @@ icon: 'material/account-plus'
 description: La création de comptes en ligne est pratiquement une nécessité sur internet, prenez ces mesures pour vous assurer de rester privé.
 ---
 
-Souvent, les gens s'inscrivent à des services sans réfléchir. Maybe it's a streaming service to watch that new show everyone's talking about, or an account that gives you a discount for your favorite fast food place. Quoi qu'il en soit, vous devez tenir compte des implications pour vos données, maintenant et plus tard.
+Souvent, les gens s'inscrivent à des services sans réfléchir. Il s'agit peut-être d'un service de streaming pour regarder ce nouveau film dont tout le monde parle, ou un compte qui vous donne accès à une réduction dans votre fast-food préféré. Quoi qu'il en soit, vous devez tenir compte des implications pour vos données, maintenant et plus tard.
 
 Chaque nouveau service que vous utilisez comporte des risques. Les fuites de données, la divulgation d'informations sur les clients à des tiers, l'accès à des données par des employés véreux sont autant de possibilités qui doivent être envisagées avant de founir vos informations. Vous devez être sûr que vous pouvez faire confiance au service, c'est pourquoi nous ne recommandons pas de stocker des données précieuses sur autre chose que les produits les plus matures et les plus éprouvés. Il s'agit généralement de services qui fournissent E2EE et qui ont fait l'objet d'un audit cryptographique. Un audit renforce l'assurance que le produit a été conçu sans problèmes de sécurité flagrants causés par un développeur inexpérimenté.
 
@@ -13,11 +13,11 @@ Il peut également être difficile de supprimer les comptes sur certains service
 
 ## Conditions Générales d'Utilisation & Politique de Confidentialité
 
-Les CGU sont les règles que vous acceptez de suivre lorsque vous utilisez le service. Dans les grands services, ces règles sont souvent appliquées par des systèmes automatisés. Parfois, ces systèmes automatisés peuvent faire des erreurs. For example, you may be banned or locked out of your account on some services for using a VPN or VoIP number. Il est souvent difficile de faire appel de ces interdictions, et cela implique également une procédure automatisée, qui n'aboutit pas toujours. C'est l'une des raisons pour lesquelles nous ne suggérons pas d'utiliser Gmail pour la messagerie électronique, par exemple. L'e-mail est essentiel pour accéder à d'autres services auxquels vous avez peut-être souscrit.
+Les CGU sont les règles que vous acceptez de suivre lorsque vous utilisez le service. Dans les grands services, ces règles sont souvent appliquées par des systèmes automatisés. Parfois, ces systèmes automatisés peuvent faire des erreurs. Par exemple, l'utilisation d'un VPN ou d'un numéro VoIP peut entraîner l'interdiction ou le blocage de votre compte sur certains services. Il est souvent difficile de faire appel de ces interdictions, et cela implique également une procédure automatisée, qui n'aboutit pas toujours. C'est l'une des raisons pour lesquelles nous ne suggérons pas d'utiliser Gmail pour la messagerie électronique, par exemple. L'e-mail est essentiel pour accéder à d'autres services auxquels vous avez peut-être souscrit.
 
-The Privacy Policy is how the service says they will use your data, and it is worth reading so that you understand how your data will be used. Une entreprise ou une organisation peut ne pas être légalement obligée de suivre tout ce qui est contenu dans la politique (cela dépend de la juridiction). Nous vous recommandons d'avoir une idée de la législation locale et de ce qu'elle autorise un prestataire à collecter.
+La Politique de confidentialité indique comment le service dit qu'il va utiliser vos données. Elle mérite d'être lue pour que vous compreniez comment vos données seront utilisées. Une entreprise ou une organisation peut ne pas être légalement obligée de suivre tout ce qui est contenu dans la politique (cela dépend de la juridiction). Nous vous recommandons d'avoir une idée de la législation locale et de ce qu'elle autorise un prestataire à collecter.
 
-Nous vous recommandons de rechercher des termes particuliers tels que "collecte de données", "analyse de données", "cookies", "annonces", "publicité" ou services "tiers". Sometimes you will be able to opt out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
+Nous vous recommandons de rechercher des termes particuliers tels que "collecte de données", "analyse de données", "cookies", "annonces", "publicité" ou services "tiers". Parfois, vous aurez la possibilité de refuser la collecte ou le partage de vos données, mais il est préférable de choisir un service qui respecte votre vie privée dès le début.
 
 Vous faites également confiance à l'entreprise ou à l'organisation pour se conformer à sa propre politique de confidentialité.
 
@@ -42,7 +42,7 @@ Vous serez responsable de la gestion de vos identifiants de connexion. Pour plus
 
 #### Alias d'e-mail
 
-Si vous ne voulez pas donner votre véritable adresse e-mail à un service, vous avez la possibilité d'utiliser un alias. We describe them in more detail on our email services recommendation page. Essentiellement, les services d'alias vous permettent de créer de nouvelles adresses e-mail qui transmettent tous les courriers à votre adresse principale. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. Ceux-ci peuvent être filtrés automatiquement en fonction de l'alias auquel ils sont envoyés.
+Si vous ne voulez pas donner votre véritable adresse e-mail à un service, vous avez la possibilité d'utiliser un alias. Nous les décrivons plus en détail sur notre page de recommandations des services d'e-mails. Essentiellement, les services d'alias vous permettent de créer de nouvelles adresses e-mail qui transmettent tous les courriers à votre adresse principale. Ceci peut aider à éviter le pistage entre les services et à mieux gérer les e-mails promotionnels qui viennent parfois avec le processus d'inscription. Ceux-ci peuvent être filtrés automatiquement en fonction de l'alias auquel ils sont envoyés.
 
 Si un service est piraté, vous pouvez commencer à recevoir des e-mails d'hameçonnage ou de spam à l'adresse que vous avez utilisée pour vous inscrire. L'utilisation d'alias uniques pour chaque service peut aider à identifier exactement quel service a été piraté.
 
@@ -56,13 +56,13 @@ Lorsque vous vous connectez avec OAuth, une page de connexion s'ouvre avec le fo
 
 Les principaux avantages sont les suivants :
 
-- **Security**: You don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials because they are stored with the external OAuth provider. Common OAuth providers like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
-- **Ease-of-use**: Multiple accounts are managed by a single login.
+- **Sécurité**: Vous n'avez pas à vous fier aux pratiques de sécurité du service auquel vous vous connectez lorsqu'il s'agit de stocker vos identifiants de connexion, car ils sont stockés chez le fournisseur OAuth externe. Common OAuth providers like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
+- **Facilité d'utilisation** : Plusieurs comptes sont gérés par un unique identifiant.
 
 Mais il y a des inconvénients :
 
-- **Privacy**: The OAuth provider you log in with will know the services you use.
-- **Centralization**: If the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
+- **Confidentialité**: le fournisseur OAuth avec lequel vous vous connectez connaîtra les services que vous utilisez.
+- **Centralisation**: si le compte que vous utilisez pour OAuth est compromis ou si vous n'êtes pas en mesure de vous y connecter, tous les autres comptes qui y sont connectés sont affectés.
 
 L'OAuth peut être particulièrement utile dans les situations où vous pourriez bénéficier d'une intégration plus poussée entre les services. Nous recommandons de limiter l'utilisation d'OAuth aux seuls cas où vous en avez besoin et de toujours protéger le compte principal à l'aide de [MFA](multi-factor-authentication.md).
 
@@ -74,9 +74,9 @@ Des applications malveillantes, en particulier sur les appareils mobiles où l'a
 
 ### Numéro de téléphone
 
-Nous vous recommandons d'éviter les services qui exigent un numéro de téléphone pour l'inscription. A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
+Nous vous recommandons d'éviter les services qui exigent un numéro de téléphone pour l'inscription. Un numéro de téléphone peut vous identifier auprès de plusieurs services et, en fonction des accords de partage de données, cela rentra votre navigation plus facile à suivre, en particulier si l'un de ces services a une fuite, car le numéro de téléphone est souvent **non** chiffré.
 
-Vous devriez éviter de donner votre vrai numéro de téléphone si vous le pouvez. Some services will allow the use of VoIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
+Vous devriez éviter de donner votre vrai numéro de téléphone si vous le pouvez. Certains services autorisent l'utilisation de numéros VoIP, mais ceux-ci déclenchent souvent des systèmes de détection des fraudes, ce qui entraîne le blocage du compte ; nous ne recommandons donc pas cette solution pour les comptes importants.
 
 Dans de nombreux cas, vous devrez fournir un numéro à partir duquel vous pourrez recevoir des SMS ou des appels, en particulier lorsque vous effectuez des achats à l'étranger, au cas où votre commande rencontrerait un problème lors du contrôle aux frontières. Il est courant que les services utilisent votre numéro comme méthode de vérification ; ne vous faites pas bloquer un compte important parce que vous avez voulu être malin et donner un faux numéro !
 

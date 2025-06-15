@@ -1,5 +1,5 @@
 ---
-title: "Pourquoi la confidentialité est importante"
+title: "Pourquoi la vie privée est importante"
 icon: 'material/shield-account'
 description: À l'ère moderne de l'exploitation des données numériques, la protection de votre vie privée n'a jamais été aussi cruciale, et pourtant beaucoup pensent qu'elle est déjà une cause perdue. Ce n'est pas le cas.
 ---
@@ -12,7 +12,7 @@ La protection de la vie privée concerne en fin de compte des informations humai
 
 De nombreuses personnes confondent les concepts de **vie privée**, **sécurité**, et **anonymat**. Vous verrez des gens critiquer divers produits en disant qu'ils ne sont pas privés, alors qu'ils veulent dire qu'ils ne garantissent pas l'anonymat, par exemple. Sur ce site web, nous abordons ces trois sujets, mais il est important que vous compreniez la différence entre eux et quand chacun d'entre eux entre en jeu.
 
-[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security ""){.md-button}
+[:material-movie-open-play-outline: Vidéo : Arrêtez de confondre Confidentialité, Anonymat, et Sécurité](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security ""){.md-button}
 
 <!-- markdownlint-disable-next-line -->
 **Confidentialité**

@@ -66,16 +66,16 @@ Le navigateur **Brave** comprend un bloqueur de contenu intégré et des [foncti
 
 Brave est basé sur le projet de navigateur Web Chromium. Il devrait donc vous être familier et présenter un minimum de problèmes de compatibilité avec les sites Web.
 
-[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://brave.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Service Onion" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Code source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
+- [:simple-googleplay: Google Play Store](https://play.google.com/store/apps/details?id=com.brave.browser)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1052879175)
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 
@@ -93,7 +93,7 @@ Le navigateur Tor est le seul moyen de vraiment naviguer anonymement sur Interne
 
 === "iOS"
 
-    These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy**.
+    Ces paramètres se trouvent dans :fontawesome-solid-ellipsis: → **Paramètres** → **Boucliers & Confidentialité**.
 
 #### Paramètres par défaut des boucliers Brave
 
@@ -109,13 +109,13 @@ Les options "Boucliers" peuvent être réduites par site selon les besoins, mais
     - [x] Select **Auto-redirect AMP pages**
     - [x] Select **Auto-redirect tracking URLs**
     - [x] Select **Require all connections to use HTTPS (strict)** under *Upgrade connections to HTTPS*
-    - \[x\] (Optional) Select **Block Scripts** (1)
-    - [x] Select **Block third-party cookies** under *Block Cookies*
-    - [x] Select **Block Fingerprinting**
-    - [x] Select **Prevent fingerprinting via language settings**
+    - \[x\] (Facultatif) Sélectionnez **Bloquer les scripts** (1)
+    - [x] Sélectionnez **Bloquer les cookies tiers** sous *Bloquer les cookies*
+    - [x] Cochez **Bloquer la prise d'empreinte digitale**
+    - [x] Sélectionnez **Empêcher la prise d'empreintes digitales via les paramètres de langue**
 
     <details class="warning" markdown>
-    <summary>Use default filter lists</summary>
+    <summary>Utilisez les listes de filtrage par défaut</summary>
 
     Brave allows you to select additional content filters within the **Content Filtering** menu or the internal `brave://adblock` page. Nous vous déconseillons d'utiliser cette fonctionnalité ; conservez plutôt les listes de filtres par défaut. L'utilisation de listes supplémentaires vous distinguera des autres utilisateurs de Brave et peut également augmenter la surface d'attaque s'il y a une faille dans Brave et qu'une règle malveillante est ajoutée à l'une des listes que vous utilisez.
 
@@ -135,8 +135,8 @@ Les options "Boucliers" peuvent être réduites par site selon les besoins, mais
     - [x] Select **Strict** under *Upgrade Connections to HTTPS*
     - [x] Select **Auto-Redirect AMP pages**
     - [x] Select **Auto-Redirect Tracking URLs**
-    - \[x\] (Optional) Select **Block Scripts** (1)
-    - [x] Select **Block Fingerprinting**
+    - \[x\] (Facultatif) Sélectionnez **Bloquer les scripts** (1)
+    - [x] Cochez **Bloquer la prise d'empreinte digitale**
     - [x] Select **Site Tabs Closed** under *Auto Shred*
 
     <details class="warning" markdown>
