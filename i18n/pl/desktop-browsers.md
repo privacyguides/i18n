@@ -57,13 +57,13 @@ schema:
       url: "./"
 ---
 
-<small>Chroni przed następującymi zagrożeniami:</small>
+<small>Chroni przed następującym zagrożeniem(ami):</small>
 
 - [:material-account-cash: Kapitalizm inwigilacji](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-To są obecnie zalecane przez nas **przeglądarki internetowe** i konfiguracje dla przeglądania standardowego/nieanonimowego. Polecamy [Mullvad Browser](#mullvad-browser), jeśli koncentrujesz się na silnej ochronie prywatności i ochronie przed odciskami palców po instalacji, [Firefox](#firefox) dla standardowego przeglądania internetu jako dobra alternatywa dla Google Chrome, oraz [Brave](#brave), jeśli potrzebujesz kompatybilności z przeglądarką Chromium.
+To są obecnie zalecane przez nas **przeglądarki internetowe** i konfiguracje dla przeglądania standardowego/nieanonimowego. Polecamy [Mullvad Browser](#mullvad-browser), jeśli koncentrujesz się na silnej ochronie prywatności i ochronie przed odciskami palców bez konieczności konfiguracji, [Firefox](#firefox) dla standardowego przeglądania internetu służąca jako dobra alternatywa dla Google Chrome, oraz [Brave](#brave), jeśli potrzebujesz kompatybilności z przeglądarkami opartymi na silniku Chromium.
 
-Jeśli chcesz przeglądać Internet anonimowo, powinieneś użyć [Tor](tor.md). Na tej stronie przedstawiamy pewne zalecenia dotyczące konfiguracji, ale wszystkie przeglądarki inne niż Tor Browser będą w taki czy inny sposób śledzone przez *kogoś*.
+Jeśli chcesz przeglądać Internet anonimowo, powinieneś użyć sieci [Tor](tor.md). Na tej stronie przedstawiamy pewne zalecenia dotyczące konfiguracji, ale wszystkie przeglądarki inne niż Tor Browser będą w taki czy inny sposób możliwe do zidentyfikowania przez *innych*.
 
 ## Przeglądarka Mullvad
 
@@ -71,7 +71,7 @@ Jeśli chcesz przeglądać Internet anonimowo, powinieneś użyć [Tor](tor.md).
 
 ![Logo przeglądarki Mullvad](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Przeglądarka Mullvad** to wersja [przeglądarki Tor](tor.md#tor-browser) z usuniętymi integracjami sieci Tor. Jego celem jest zapewnienie użytkownikom VPN technologii ograniczających pobieranie odcisku przeglądarki (tzw. fingerprinting), które stanowią kluczową ochronę przed [:material-eye-outline: masową inwigilacją](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Jest on rozwijany przez Tor Project i dystrybuowany przez [Mullvad](vpn.md#mullvad) i **nie** wymaga korzystania z VPN Mullvad.
+**Przeglądarka Mullvad** to wersja [przeglądarki Tor](tor.md#tor-browser) z usuniętymi integracjami sieci Tor. Jej celem jest zapewnienie użytkownikom VPN technologii ograniczających pobieranie odcisku przeglądarki (tzw. fingerprinting), które stanowią kluczową ochronę przed [:material-eye-outline: masową inwigilacją](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Jest rozwijany przez Tor Project i dystrybuowany przez [Mullvad](vpn.md#mullvad) i **nie** wymaga korzystania z sieci VPN od Mullvad.
 
 [:octicons-home-16: Strona główna](https://mullvad.net/pl/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/pl/help/privacy-policy){ .card-link title="Polityka prywatności" }
@@ -93,17 +93,17 @@ Podobnie jak [Tor Browser](tor.md), przeglądarka Mullvad została zaprojektowan
 
 Dlatego niezwykle ważne jest, aby nie wprowadzać żadnych zmian w przeglądarce poza dostosowaniem domyślnych [poziomów bezpieczeństwa](https://tb-manual.torproject.org/security-settings). Przy zmianie poziomu bezpieczeństwa **musisz** zawsze ponownie uruchomić przeglądarkę, zanim zaczniesz z niej dalej korzystać. W przeciwnym razie [ustawienia bezpieczeństwa mogą nie zostać w pełni zastosowane](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), co narazi Cię na większe ryzyko pobierania odcisków przeglądarki i ataków, niż wynikałoby to z wybranego poziomu bezpieczeństwa.
 
-Wprowadzanie jakichkolwiek innych zmian poza dostosowaniem tego ustawienia sprawi, że odcisk przeglądarki stanie się unikalny, co uniemożliwiłoby prawidłowe i bezpiecznie korzystanie z tej przeglądarki. Jeśli chcesz bardziej skonfigurować swoją przeglądarkę, a fingerprinting nie jest dla Ciebie problemem, zalecamy zamiast tego [Firefox](#firefox).
+Wprowadzanie jakichkolwiek innych zmian poza dostosowaniem tego ustawienia sprawi, że odcisk przeglądarki stanie się unikalny, co uczyniłoby bezcelowym prawidłowe i bezpiecznie korzystanie z tej przeglądarki. Jeśli chcesz bardziej skonfigurować swoją przeglądarkę, a fingerprinting nie jest dla Ciebie problemem, zalecamy zamiast tego przeglądarki [Firefox](#firefox).
 
 ### Ochrona przed fingerprintingiem
 
-**Bez** korzystania z [VPN](vpn.md), przeglądarka Mullvad zapewnia taką samą ochronę przed [naiwnymi skryptami fingerprintingu](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) jak inne prywatne przeglądarki, takie jak Firefox+[Arkenfox](#arkenfox-advanced) lub [Brave](#brave). Przeglądarka Mullvad zapewnia te zabezpieczenia po instalacji, kosztem pewnej elastyczności i wygody, które mogą zapewnić inne prywatne przeglądarki.
+**Bez** korzystania z [VPN](vpn.md), przeglądarka Mullvad zapewnia taką samą ochronę przed [naiwnymi skryptami fingerprintingu](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) jak inne prywatne przeglądarki, takie jak Firefox+[Arkenfox](#arkenfox-advanced) lub [Brave](#brave). Przeglądarka Mullvad zapewnia te zabezpieczenia od razu po instalacji, kosztem pewnej elastyczności i wygody, które mogą zapewnić inne prywatne przeglądarki.
 
-== Aby uzyskać najsilniejszą ochronę przed odciskami palców, zalecamy korzystanie z Mullvad Browser w połączeniu **z** VPN==, niezależnie od tego, czy jest to Mullvad, czy inny zalecany dostawca VPN. Korzystając z VPN z Mullvad Browser, będziesz współdzielić odcisk palca i pulę adresów IP z wieloma innymi użytkownikami, dając ci "tłum", w który możesz się wtopić. Ta strategia jest jedynym sposobem na udaremnienie zaawansowanych skryptów śledzących i jest to ta sama technika anty-fingerprint, którą stosuje przeglądarka Tor.
+== Aby uzyskać najsilniejszą ochronę przed odciskami palców, zalecamy korzystanie z Mullvad Browser w połączeniu **z** VPN==, niezależnie od tego, czy jest to Mullvad, czy inny zalecany dostawca VPN. Korzystając z VPN i Mullvad Browser, będziesz współdzielić odcisk palca i pulę adresów IP z wieloma innymi użytkownikami, dając ci "tłum", w który możesz się wtopić. Ta strategia jest jedynym sposobem na udaremnienie zaawansowanych skryptów śledzących i jest to ta sama technika anty-fingerprint, którą stosuje przeglądarka Tor.
 
 Należy pamiętać, że chociaż można korzystać z Mullvad Browser z dowolnym dostawcą VPN, inne osoby w tej sieci VPN muszą również korzystać z Mullvad Browser, aby ten "tłum" mógł istnieć, co jest bardziej prawdopodobne w przypadku Mullvad VPN w porównaniu z innymi dostawcami, szczególnie tak blisko uruchomienia Mullvad Browser. Mullvad Browser nie ma wbudowanej łączności VPN, ani nie sprawdza, czy korzystasz z VPN przed przeglądaniem; połączenie VPN musi być skonfigurowane i zarządzane osobno.
 
-Przeglądarka Mullvad Browser jest dostarczana z preinstalowanymi rozszerzeniami przeglądarki *uBlock Origin* i *NoScript*. Chociaż zazwyczaj odradzamy dodawanie *dodatkowych* [rozszerzeń przeglądarki](browser-extensions.md), te rozszerzenia, które są fabrycznie zainstalowane z przeglądarką, **nie** powinny być usuwane ani konfigurowane poza ich domyślnymi wartościami, ponieważ spowodowałoby to zauważalne odróżnienie odcisku palca przeglądarki od innych użytkowników Mullvad Browser. </em> Przeglądarka jest również dostarczana z preinstalowanym rozszerzeniem przeglądarki Mullvad, które *można bezpiecznie usunąć bez wpływu na odcisk palca przeglądarki, ale można je również bezpiecznie pozostawić, nawet jeśli nie korzystasz z Mullvad VPN.</p>
+Przeglądarka Mullvad Browser jest dostarczana z preinstalowanymi rozszerzeniami przeglądarki *uBlock Origin* i *NoScript*. Chociaż zazwyczaj odradzamy dodawanie *dodatkowych* [rozszerzeń przeglądarki](browser-extensions.md), te rozszerzenia, które są preinstalowane z przeglądarką, **nie** powinny być usuwane ani konfigurowane poza ich domyślnymi wartościami, ponieważ spowodowałoby to zauważalne odróżnienie odcisku palca przeglądarki od innych użytkowników Mullvad Browser. Przeglądarka jest również dostarczana z preinstalowanym rozszerzeniem przeglądarki Mullvad, które *można* bezpiecznie usunąć bez wpływu na odcisk palca przeglądarki, ale można je również bezpiecznie pozostawić, nawet jeśli nie korzystasz z Mullvad VPN.
 
 ### Tryb prywatny przeglądarki
 
@@ -353,7 +353,7 @@ Zalecamy wyłączenie podpowiedzi wyszukiwania w Brave z tego samego powodu, dla
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Continue running background apps when Brave is closed** to disable background apps (1)
+- [ ] Odznacz **Kontynuuj działanie aplikacji w tle po zamknięciu Brave**, aby wyłączyć aplikacje działające w tle (1)
 
 </div>
 

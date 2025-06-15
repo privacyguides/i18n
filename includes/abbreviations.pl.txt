@@ -29,14 +29,14 @@
 *[FS]: Utajnianie z wyprzedzeniem
 *[fork]: Nowy projekt oprogramowania utworzony poprzez skopiowanie istniejącego projektu i rozwijany niezależnie
 *[RODO]: Ogólne rozporządzenie o ochronie danych
-*[GPG]: Oprogramowanie kryptograficzne PGP
+*[GPG]: GNU Privacy Guard (Implementacja PGP)
 *[GPS]: Globalny system pozycjonowania
 *[GUI]: Graficzny Interfejs Użytkownika
-*[GnuPG]: Oprogramowanie kryptograficzne PGP
+*[GnuPG]: GNU Privacy Guard (Implementacja PGP)
 *[HDD]: Dysk twardy
 *[HOTP]: Jednorazowe hasło oparte na kodzie uwierzytelniania wiadomości (HMAC)
-*[HTTPS]: Bezpieczny protokół przesyłania
-*[HTTP]: Podstawowy protokół przesyłania
+*[HTTPS]: Protokół HTTP chroniony przy pomocy szyfrowania protokołu TLS
+*[HTTP]: Protokół komunikacyjny używany do przesyłania danych między klientem a serwerem w sieci WWW
 *[hypervisor]: Oprogramowanie komputerowe, sprzętowe lub sprzęt komputerowy, który dzieli zasoby procesora między wiele systemów operacyjnych
 *[ICCID]: Identyfikator karty układu scalonego
 *[IMAP]: Protokół dostępu do wiadomości internetowych

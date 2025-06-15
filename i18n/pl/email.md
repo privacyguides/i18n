@@ -1,52 +1,52 @@
 ---
-meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
-title: "Email Services"
+meta_title: "Zalecenia dotyczące szyfrowanej, prywatnej poczty e-mail - Privacy Guides"
+title: "Usługi poczty elektronicznej"
 icon: material/email
-description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
+description: Ci dostawcy poczty e-mail oferują świetne miejsce do bezpiecznego przechowywania wiadomości e-mail, a wielu z nich oferuje interoperacyjne szyfrowanie OpenPGP z innymi dostawcami.
 cover: email.webp
 global:
   - 
-    - randomize-element
-    - "table tbody"
+    - element losowy
+    - "tabela tbody"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Chroni przed następującym zagrożeniem(ami):</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-server-network: Usługodawcy](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-Email is practically a necessity for using any online service, however we do not recommend it for person-to-person conversations. Rather than using email to contact other people, consider using an instant messaging medium that supports forward secrecy.
+Poczta e-mail jest praktycznie niezbędna do korzystania z dowolnej usługi online, jednak nie zalecamy jej do rozmów osobistych. Zamiast korzystać z poczty e-mail do kontaktowania się z innymi osobami, warto rozważyć użycie komunikatora internetowego, który obsługuje przekazywanie poufnych informacji.
 
-[Recommended Instant Messengers](real-time-communication.md ""){.md-button}
+[Zalecane komunikatory internetowe](real-time-communication.md ""){.md-button}
 
 ## Rekomendowani dostawcy
 
-For everything else, we recommend a variety of email providers based on sustainable business models and built-in security and privacy features. Read our [full list of criteria](#criteria) for more information.
+W pozostałych przypadkach polecamy różnych dostawców poczty e-mail w oparciu o zrównoważone modele biznesowe oraz wbudowane funkcje bezpieczeństwa i prywatności. Przeczytaj naszą [pełną listę kryteriów](#criteria), aby uzyskać więcej informacji.
 
-| Provider                    | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero-Access Encryption                               | Anonymous Payment Methods             |
-| --------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------- |
-| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | Cash                                  |
-| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | Cash                                  |
-| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero <br>Cash via third party |
+| Dostawca                    | OpenPGP / WKD                          | IMAP /SMTP                                                    | Zero-Access Encryption                                  | Anonimowe metody płatności                                |
+| --------------------------- | -------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------- | --------------------------------------------------------- |
+| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Tylko płatne plany | :material-check:{ .pg-green }                           | Gotówka                                                   |
+| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                 | :material-information-outline:{ .pg-blue } Tylko poczta | Gotówka                                                   |
+| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                        | :material-check:{ .pg-green }                           | Monero <br>Gotówka za pośrednictwem strony trzeciej |
 
-In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md#recommended-providers) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
+Oprócz (lub zamiast) zalecanego tutaj dostawcy poczty e-mail, możesz rozważyć dedykowaną [usługę aliasingu poczty e-mail](email-aliasing.md#recommended-providers), aby chronić swoją prywatność. Usługi te mogą między innymi pomóc chronić twoją prawdziwą skrzynkę odbiorczą przed spamem, uniemożliwić marketingowcom korelację twoich kont i zaszyfrować wszystkie wiadomości przychodzące przy użyciu PGP.
 
-- [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
+- [Więcej informacji :material-arrow-right-drop-circle:](email-aliasing.md)
 
-## OpenPGP Compatible Services
+## Usługi kompatybilne z OpenPGP
 
 These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic end-to-end encrypted emails. For example, a Proton Mail user could send an E2EE message to a Mailbox.org user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
-- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+- ![Logo Proton Mail](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
+- ![Logo Mailbox.org](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
 
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Ostrzeżenie</p>
 
-When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](basics/email-security.md#email-metadata-overview).
+Podczas korzystania z technologii E2EE, takiej jak OpenPGP, wiadomość e-mail nadal będzie zawierać pewne metadane, które nie są zaszyfrowane w nagłówku wiadomości e-mail, w tym zazwyczaj wiersz tematu! Dowiedz się więcej o [metadanych e-maili](basics/email-security.md#email-metadata-overview).
 
 OpenPGP also does not support forward secrecy, which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed.
 
