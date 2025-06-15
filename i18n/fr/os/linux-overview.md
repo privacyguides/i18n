@@ -1,7 +1,7 @@
 ---
-title: Linux Overview
+title: Aperçu de Linux
 icon: simple/linux
-description: Linux is an open-source, privacy-focused desktop operating system alternative, but not all distribitions are created equal.
+description: Linux est un système d'exploitation de bureau alternatif open-source, axé sur la protection de la vie privée, mais toutes les distributions ne sont pas égales.
 ---
 
 **Linux** est un système d'exploitation de bureau alternatif, open-source et axé sur la protection de la vie privée. Face à l'omniprésence de la télémétrie et d'autres technologies portant atteinte à la vie privée dans les systèmes d'exploitation grand public, Linux est resté le choix le plus évident pour les personnes désireuses de contrôler totalement leur ordinateur de zéro.
@@ -10,7 +10,7 @@ Notre site web utilise généralement le terme "Linux" pour décrire les distrib
 
 [Nos recommandations Linux :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
 
-## Security Notes
+## Remarque de sécurité
 
 There are some notable security concerns with Linux which you should be aware of. Malgré ces inconvénients, les distributions Linux de bureau restent excellentes pour la plupart des personnes qui souhaitent :
 

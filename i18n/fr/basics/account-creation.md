@@ -50,13 +50,13 @@ Si un service est piraté, vous pouvez commencer à recevoir des e-mails d'hame�
 
 ### "Se connecter avec..." (OAuth)
 
-[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth) is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Chaque fois que vous voyez quelque chose du type "Se connecter avec *nom du fournisseur*" sur un formulaire d'inscription, c'est généralement qu'il utilise OAuth.
+[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth) est un protocole d'authentification qui vous permet de vous inscrire à un service sans partager beaucoup d'informations avec le fournisseur de services, le cas échéant, en utilisant à la place un compte existant que vous possédez auprès d'un autre service. Chaque fois que vous voyez quelque chose du type "Se connecter avec *nom du fournisseur*" sur un formulaire d'inscription, c'est généralement qu'il utilise OAuth.
 
 Lorsque vous vous connectez avec OAuth, une page de connexion s'ouvre avec le fournisseur que vous avez choisi, et votre compte existant et votre nouveau compte seront connectés. Votre mot de passe ne sera pas communiqué, mais certaines informations de base le seront généralement (vous pouvez les consulter lors de la demande de connexion). Ce processus est nécessaire chaque fois que vous voulez vous connecter au même compte.
 
 Les principaux avantages sont les suivants :
 
-- **Sécurité**: Vous n'avez pas à vous fier aux pratiques de sécurité du service auquel vous vous connectez lorsqu'il s'agit de stocker vos identifiants de connexion, car ils sont stockés chez le fournisseur OAuth externe. Common OAuth providers like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
+- **Sécurité**: Vous n'avez pas à vous fier aux pratiques de sécurité du service auquel vous vous connectez lorsqu'il s'agit de stocker vos identifiants de connexion, car ils sont stockés chez le fournisseur OAuth externe. Les fournisseurs OAuth courants, comme Apple et Google, respectent généralement les meilleures pratiques de sécurité, vérifient en permanence leurs systèmes d'authentification et ne stockent pas les informations d'identification de manière inappropriée (en texte clair, par exemple).
 - **Facilité d'utilisation** : Plusieurs comptes sont gérés par un unique identifiant.
 
 Mais il y a des inconvénients :
