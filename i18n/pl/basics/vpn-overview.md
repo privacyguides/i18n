@@ -1,5 +1,5 @@
 ---
-meta_title: "Jak VPN chroni twoją prywatność? Nasz przegląd VPN - Privacy Guides"
+meta_title: "Jak VPN chroni twoją prywatność? Nasze omówienie sieci VPN - Privacy Guides"
 title: Omówienie sieci VPN
 icon: material/vpn
 description: Wirtualne sieci prywatne przenoszą ryzyko z dostawcy usług internetowych na stronę trzecią, której ufasz. Należy mieć to na uwadze.
@@ -9,7 +9,7 @@ Wirtualne sieci prywatne to sposób na przedłużenie końca twojej sieci do wyj
 
 [:material-movie-open-play-outline: Wideo: Czy potrzebujesz sieci VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
 
-Zwykle dostawca usług internetowych może zobaczyć przepływ ruchu internetowego przychodzącego i wychodzącego z twojego urządzenia końcowego (tj. modem). Protokoły szyfrowania, takie jak HTTPS, są powszechnie używane w internecie, więc usługodawcy mogą nie być w stanie zobaczyć dokładnie tego, co publikujesz lub czytasz, ale mogą mieć pojęcie o [domenach, które żądasz](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+Zwykle dostawca usług internetowych może zobaczyć przepływ ruchu internetowego przychodzącego i wychodzącego z twojego punktu zakończenia sieci (tj. modem). Protokoły szyfrowania, takie jak HTTPS, są powszechnie używane w internecie, więc usługodawcy mogą nie być w stanie zobaczyć dokładnie tego, co publikujesz lub czytasz, ale mogą mieć pojęcie o [domenach, które żądasz](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
 Korzystanie z sieci VPN ukrywa nawet te informacje przed twoim dostawcą usług internetowych, przekazując zaufanie, które umieszczasz w swoją sieć na serwer gdzieś indziej na świecie. W rezultacie dostawca usług internetowych widzi tylko, że jesteś podłączony do sieci VPN i nic nie wie o aktywności, którą przez nią przekazujesz.
 

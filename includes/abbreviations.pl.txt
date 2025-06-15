@@ -22,12 +22,12 @@
 *[EEA]: Europejski Obszar Gospodarczy
 *[entropia]: Miara tego, jak bardzo coś jest nieprzewidywalne
 *[EOL]: Koniec okresu użytkowania
-*[Exif]: Wymienny format pliku obrazu
-*[FCM]: Wiadomości w chmurze Firebase
+*[Exif]: Standard metadanych dla plików z obrazkami
+*[FCM]: Firebase Cloud Messaging
 *[FDE]: Pełne szyfrowanie dysku
-*[FIDO]: Szybka tożsamość online
+*[FIDO]: Fast IDentity Online
 *[FS]: Utajnianie z wyprzedzeniem
-*[fork]: Nowy projekt oprogramowania utworzony poprzez skopiowanie istniejącego projektu i jego niezależny rozwój
+*[fork]: Nowy projekt oprogramowania utworzony poprzez skopiowanie istniejącego projektu i rozwijany niezależnie
 *[RODO]: Ogólne rozporządzenie o ochronie danych
 *[GPG]: Oprogramowanie kryptograficzne PGP
 *[GPS]: Globalny system pozycjonowania
