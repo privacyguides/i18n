@@ -58,7 +58,7 @@ Prenons l'exemple des formulaires de consentement des cookies. Vous les rencontr
 
 La protection de la vie privée doit être intégrée par défaut dans les [logiciels et services](../tools.md) que nous utilisons, car il est impossible de forcer de vous-même la plupart des applications à respecter votre vie privée.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
+[:material-movie-open-play-outline: Vidéo : 5 étapes pour améliorer votre vie privée](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 
 ## Sources
 
