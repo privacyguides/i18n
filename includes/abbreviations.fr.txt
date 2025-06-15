@@ -37,7 +37,7 @@
 *[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
 *[HTTPS]: Protocole de transfert hypertexte sécurisé
 *[HTTP]: Protocole de transfert hypertexte
-*[superviseur]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
+*[superviseur]: Logiciel, micrologiciel ou matériel informatique qui répartit les ressources d'une unité centrale entre plusieurs systèmes d'exploitation
 *[ICCID]: Identificateur de carte à circuit intégré
 *[IMAP]: Protocole d'accès aux messages internet
 *[IMEI]: Identité internationale des équipements mobiles

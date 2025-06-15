@@ -4,7 +4,7 @@ icon: 'material/eye-outline'
 description: Votre modèle de menace vous est personnel, mais ce sont là quelques-unes des questions qui préoccupent de nombreux visiteurs de ce site.
 ---
 
-Pour faire simple, nous classons nos recommandations dans ces catégories générales de [menaces](threat-modeling.md) ou d'objectifs qui s'appliquent à la plupart des gens. ==Vous pouvez vous sentir concerné par une, plusieurs, toutes, ou bien aucune de ces possibilités==. Les outils et les services que vous utilisez dépendent également de vos objectifs. You may have specific threats outside these categories as well, which is perfectly fine! L'important est de bien comprendre les avantages et les inconvénients des outils que vous choisissez d'utiliser, car pratiquement aucun d'entre eux ne vous protégera contre toutes les menaces possibles.
+Pour faire simple, nous classons nos recommandations dans ces catégories générales de [menaces](threat-modeling.md) ou d'objectifs qui s'appliquent à la plupart des gens. ==Vous pouvez vous sentir concerné par une, plusieurs, toutes, ou bien aucune de ces possibilités==. Les outils et les services que vous utilisez dépendent également de vos objectifs. Il est possible que vous ayez des menaces spécifiques ne rentrant dans aucune de ces catégories, ce qui est tout à fait normal ! L'important est de bien comprendre les avantages et les inconvénients des outils que vous choisissez d'utiliser, car pratiquement aucun d'entre eux ne vous protégera contre toutes les menaces possibles.
 
 <span class="pg-purple">:material-incognito: **Anonymity**</span>
 :

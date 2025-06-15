@@ -13,7 +13,7 @@ Découvrez comment partager vos fichiers en toute confidentialité entre vos app
 
 ## Partage de fichiers
 
-If you already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarden](passwords.md#bitwarden) Premium[^2] subscription, consider using the file sharing capabilities that they each offer, both of which use end-to-end encryption. Otherwise, the standalone options listed here ensure that the files you share are not read by a remote server.
+Si vous utilisez déjà [Proton Drive](cloud.md#proton-drive)[^1] ou que vous disposez d'un abonnement à [Bitwarden](passwords.md#bitwarden) Premium[^2], envisagez d'utiliser les fonctionnalités de partage de fichiers qu'ils offrent, tous deux utilisant le cryptage de bout en bout. Otherwise, the standalone options listed here ensure that the files you share are not read by a remote server.
 
 ### Send
 
@@ -53,7 +53,7 @@ ffsend upload --host https://send.vis.ee/ FICHIER
 [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Code source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:fontawesome-brands-windows: Windows](https://onionshare.org/#download)
 - [:simple-apple: macOS](https://onionshare.org/#download)
