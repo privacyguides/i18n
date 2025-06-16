@@ -169,9 +169,9 @@ Les options "Boucliers" peuvent être réduites par site selon les besoins, mais
     - [ ] Uncheck **Allow sites to check if you have payment methods saved**
     - [ ] Uncheck **V8 Optimizer** under *Manage V8 security*
     - [x] Select **Close tabs on exit**
-    - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-    - [ ] Uncheck **Automatically send diagnostic reports**
-    - [ ] Uncheck **Automatically send daily usage ping to Brave**
+    - [ ] Décochez **Autoriser l'analyse de produits respectueuse de la vie privée (P3A)**
+    - [Décocher l'**option Envoyer automatiquement les rapports de diagnostic**
+    - [ ] Décochez **Envoyer automatiquement un signal d'utilisation quotidienne à Brave**
 
     </div>
 
@@ -180,7 +180,7 @@ Les options "Boucliers" peuvent être réduites par site selon les besoins, mais
 === "iOS"
 
     - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
-    - [ ] Uncheck **Automatically send daily usage ping to Brave**
+    - [ ] Décochez **Envoyer automatiquement un signal d'utilisation quotidienne à Brave**
 
 #### Leo
 
@@ -202,7 +202,7 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+La [Synchronisation Brave](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) permet à vos données de navigation (historique, favoris, etc.) d'être accessibles sur tous vos appareils sans nécessiter de compte et les protège avec E2EE.
 
 ## Cromite (Android)
 
@@ -243,7 +243,7 @@ These options can be found in :material-menu: → :gear: **Settings** → **Priv
 
 - [x] Select **Always use secure connections**
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+Cela vous empêche de vous connecter involontairement à un site Web en "clair" HTTP. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
 
 #### Adblock Plus settings
 

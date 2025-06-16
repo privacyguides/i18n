@@ -210,19 +210,19 @@ Avec la sortie de Firefox 128, un nouveau paramètre pour l'[attribution respect
 
 - [x] Sélectionnez **Activer le mode HTTPS uniquement dans toutes les fenêtres**
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+Cela vous empêche de vous connecter involontairement à un site Web en "clair" HTTP. Les sites sans HTTPS sont rares de nos jours. Cela ne devrait donc avoir que peu ou pas d'impact sur votre navigation quotidienne.
 
 ##### DNS sur HTTPS
 
-If you use a [DNS over HTTPS provider](dns.md):
+Si vous utilisez un [fournisseur de DNS via HTTPS](dns.md) :
 
 - [x] Sélectionnez **Protection maximale** et choisissez un fournisseur approprié
 
-Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
+Protection maximale impose l'utilisation de DNS via HTTPS, et un avertissement de sécurité s'affichera si Firefox ne peut pas se connecter à votre résolveur DNS sécurisé, ou si votre résolveur DNS sécurisé indique que les enregistrements pour le domaine auquel vous essayez d'accéder n'existent pas. Cela empêche le réseau auquel vous êtes connecté de dégrader secrètement votre sécurité DNS.
 
 #### Synchronisation
 
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
+[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) permet à vos données de navigation (historique, signets, etc.) d'être accessibles sur tous vos appareils et les protège avec du chiffrement de bout en bout.
 
 ### Arkenfox (avancé)
 
@@ -233,9 +233,9 @@ Le [Navigateur Mullvad](#mullvad-browser) offre les mêmes protections contre la
 
 </div>
 
-The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
+Le [projet Arkenfox](https://github.com/arkenfox/user.js) propose un ensemble d'options soigneusement étudiées pour Firefox. Si vous [décidez](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) d'utiliser Arkenfox, quelques [options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) sont subjectivement strictes et/ou peuvent empêcher certains sites web de fonctionner correctement. Vous pouvez [facilement les modifier](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) pour les adapter à vos besoins. Nous vous **recommandons vivement** de lire l'intégralité de leur [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox permet également la prise en charge des [conteneurs](https://support.mozilla.org/kb/containers#w_for-advanced-users).
 
-Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
+Arkenfox vise uniquement à contrecarrer les scripts de pistage basiques ou naïfs grâce aux paramètres de configuration de randomisation du canevas et de la résistance aux empreintes numérique intégrée à Firefox. Il ne vise pas à faire en sorte que votre navigateur se fonde dans une foule d'autres utilisateurs d'Arkenfox, comme le font le Navigateur Mullvad ou le Navigateur Tor, ce qui est le seul moyen de contrecarrer les scripts avancés de pistage des empreintes numérique. Pour rappel, vous pouvez toujours utiliser plusieurs navigateurs internet. Par exemple, vous pourriez utiliser Firefox+Arkenfox pour les sites sur lesquels vous voudriez rester connecté ou en lesquels vous avez confiance, et utiliser Mullvad Browser pour la navigation standard.
 
 ## Brave
 
@@ -249,12 +249,12 @@ Brave est basé sur le projet de navigateur Web Chromium. Il devrait donc vous �
 
 [:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Code source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 - [:fontawesome-brands-windows: Windows](https://brave.com/download)
@@ -277,15 +277,15 @@ Brave ajoute un "[code d'affiliation](https://github.com/brave/brave-browser/wik
 
 Ces options sont disponibles sur :material-menu: → **Paramètres**.
 
-#### Shields
+#### Boucliers (Shields)
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+Brave inclut des mesures anti-empreintes digitales dans sa fonctionnalité [Boucliers (Shields)](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Nous vous conseillons de configurer ces options de [manière globale](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) sur toutes les pages que vous visitez.
 
 Les options "Boucliers" peuvent être réduites par site selon les besoins, mais par défaut, nous recommandons de définir les paramètres suivants:
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under *Trackers & ads blocking*
+- [x] Sélectionnez **Agressif** dans *Blocage des traceurs et des publicités*.
 
 <details class="warning" markdown>
 <summary>Utiliser les listes de filtres par défaut</summary>
@@ -294,19 +294,19 @@ Brave vous permet de sélectionner des filtres de contenu supplémentaires dans 
 
 </details>
 
-- [x] Select **Strict** under *Upgrade connections to HTTPS*
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Check **Block fingerprinting**
-- [x] Select **Block third-party cookies**
-- [x] Check **Forget me when I close this site** (2)
-- [ ] Uncheck all social media components
+- [x] Sélectionnez **Strict** sous *Mettre les connexions à HTTPS*
+- [x] (Facultatif) Sélectionnez **Bloquer les scripts** (1)
+- [x] Cochez **Bloquer les empreintes digitales**
+- [x] Sélectionnez **Bloquer les cookies tiers**
+- [x] Cochez **M'oublier quand je ferme ce site** (2)
+- [ ] Décochez tous les composants de médias sociaux.
 
 </div>
 
-1. This option disables JavaScript, which will break a lot of sites. To fix them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
-2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+1. Cette option désactive JavaScript, ce qui rendra inutilisable beaucoup de sites. Pour y remédier, vous pouvez définir des exceptions par site en cliquant sur l'icône du bouclier dans la barre d'adresse et en décochant ce paramètre dans la section *Contrôles avancés.*
+2. Si vous souhaitez rester connecté à un site particulier que vous visitez souvent, vous pouvez définir des exceptions pour chaque site en cliquant sur l'icône du bouclier dans la barre d'adresse et en décochant ce paramètre sous *Contrôles avancés*.
 
-#### Privacy and security
+#### Vie privée et sécurité
 
 <div class="annotate" markdown>
 
@@ -314,32 +314,32 @@ Brave vous permet de sélectionner des filtres de contenu supplémentaires dans 
 
 </div>
 
-1. Disabling the V8 optimizer reduces your attack surface by disabling [*some*](https://grapheneos.social/@GrapheneOS/112708049232710156) parts of JavaScript Just-In-Time (JIT) compilation.
+1. La désactivation de l'optimiseur V8 réduit votre surface d'attaque en désactivant [*certaines*](https://grapheneos.social/@GrapheneOS/112708049232710156) parties de la compilation Just-In-Time (JIT) de JavaScript.
 
-##### Tor windows
+##### Fenêtres Tor
 
-[**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser is, and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
+[**Fenêtre privée avec Tor (Private Window with Tor)**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) vous permet d'acheminer votre trafic via le réseau Tor dans les fenêtres privées et d'accéder aux services .onion, ce qui peut s'avérer utile dans certains cas. Cependant, Brave **n'est pas** aussi résistant aux empreintes digitales que le navigateur Tor, et beaucoup moins de personnes utilisent Brave avec Tor. Si votre modèle de menace exige un fort anonymat, utilisez le [navigateur Tor.](tor.md#tor-browser)
 
-##### Data Collection
+##### Collecte de données
 
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Décochez **Autoriser l'analyse de produits respectueuse de la vie privée (P3A)**
+- [ ] Décochez **Envoyer automatiquement un signal d'utilisation quotidienne à Brave**
+- [Décocher l'**option Envoyer automatiquement les rapports de diagnostic**
 
 #### Web3
 
-Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of these features, they should be disabled.
+Les fonctionnalités Web3 de Brave peuvent potentiellement ajouter à l'empreinte numérique de votre navigateur et à la surface d'attaque. À moins que vous n'utilisiez l'une de ces fonctions, elles devraient être désactivées.
 
-- Select **Extensions (no fallback)** under *Default Ethereum wallet*
-- Select **Extensions (no fallback)** under *Default Solana wallet*
+- Sélectionnez **Extensions (no fallback)** sous *Portefeuille Ethereum par défaut*
+- Sélectionnez **Extensions (no fallback)** sous *Default Solana wallet (portefeuille Solana par défaut)*
 
 #### Extensions
 
-- [ ] Uncheck all built-in extensions you don't use
+- [ ] Décochez toutes les extensions intégrées que vous n'utilisez pas
 
-#### Search engine
+#### Moteur de recherche
 
-We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
+Nous recommandons de désactiver les suggestions de recherche dans Brave pour la même raison que nous recommandons de désactiver cette fonctionnalité dans [Firefox](#search).
 
 - [ ] Décochez **Afficher les suggestions de recherche**
 
@@ -347,21 +347,21 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Continue running background apps when Brave is closed** to disable background apps (1)
+- Décocher **Continuer l'exécution des applications en arrière-plan lorsque Brave est fermé** pour désactiver les applications en arrière-plan (1)
 
 </div>
 
 1. Cette option n'est pas présente sur toutes les plateformes.
 
-#### Brave Sync
+#### Synchronisation Brave (Brave Sync)
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+La [Synchronisation Brave](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) permet à vos données de navigation (historique, favoris, etc.) d'être accessibles sur tous vos appareils sans nécessiter de compte et les protège avec E2EE.
 
-#### Brave Rewards and Wallet
+#### Récompenses (Brave Rewards) et portefeuille Brave (Wallet)
 
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Brave Rewards** vous permet de recevoir de la crypto-monnaie Basic Attention Token (BAT) en effectuant certaines actions au sein de Brave. Elles s'appuient sur un compte dépositaire et sur la KYC d'un certain nombre de fournisseurs. Nous ne recommandons pas le BAT en tant que [crypto-monnaie privée](cryptocurrency.md), ni l'utilisation d'un [portefeuille de garde](advanced/payments.md#wallet-custody), et nous décourageons donc l'utilisation de cette fonctionnalité.
 
-**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
+Le **Portefeuille Brave** fonctionne localement sur votre ordinateur, mais ne prend pas en charge les crypto-monnaies privées, nous vous déconseillons donc d'utiliser cette fonctionnalité.
 
 ## Critères
 
@@ -375,7 +375,7 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 - Doit être disponible sur Linux, macOS et Windows.
 - Les modifications nécessaires pour rendre le navigateur plus respectueux de la vie privée ne devraient pas avoir d'impact négatif sur l'expérience des utilisateurs.
 - Bloque les cookies tiers par défaut.
-- Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- Doit prendre en charge le [partitionnement des états](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) afin d'atténuer le suivi intersites.[^1]
 
 ### Dans le meilleur des cas
 
@@ -383,7 +383,7 @@ Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet
 
 - Doit inclure une fonctionnalité intégrée de blocage du contenu.
 - Supporte la compartimentation des cookies (à la [Account Containers](https://support.mozilla.org/kb/containers)).
-- Should support Progressive Web Apps (PWAs). Les PWAs vous permettent d'installer certains sites web comme s'il s'agissait d'applications natives sur votre ordinateur. This can have advantages over installing Electron-based apps because PWAs benefit from your browser's regular security updates.
+- Doit prendre en charge les applications Web progressives (PWA). Les PWAs vous permettent d'installer certains sites web comme s'il s'agissait d'applications natives sur votre ordinateur. Cela peut présenter des avantages par rapport à l'installation d'applications basées sur Electron, car vous bénéficiez des mises à jour de sécurité régulières de votre navigateur.
 - Ne comprend pas de fonctionnalités supplémentaires (bloatwares) qui n'ont pas d'incidence sur la vie privée des utilisateurs.
 - Ne devrait pas collecter de télémétrie par défaut.
 - Devrait fournir une implémentation de serveur de synchronisation open-source.

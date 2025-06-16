@@ -71,7 +71,7 @@ Essayer de protéger toutes vos données contre tout le monde, tout le temps, es
 <div markdown>
 **Privacy Guides** dispose d'une [communauté] dédiée (https://discuss.privacyguides.net) qui évalue de manière indépendante divers *outils et services de protection de la vie privée. Chacune de nos recommandations répond à un ensemble de critères stricts afin de s'assurer qu'elles apportent la plus grande valeur au plus grand nombre et qu'elles offrent le meilleur équilibre entre vie privée, sécurité et commodité. En tant que membre d'une **organisation caritative publique** à but non lucratif, Privacy Guides applique des **normes journalistiques** et des politiques strictes pour garantir que nos recommandations sont exemptes de conflits d'intérêts. Nous ne nous associons pas à des fournisseurs ou à des programmes d'affiliation susceptibles d'influencer nos évaluations et nos recommandations.
 
-[:material-heart:{.pg-red} Support Our Work](about/donate.md){ class="md-button md-button--primary" }
+[:material-heart:{.pg-red} Soutenez notre travail](about/donate.md){ class="md-button md-button--primary" }
 
 </div>
 
@@ -96,13 +96,13 @@ Créé en 2021 en raison de la difficulté à trouver des évaluateurs impartiau
 
 Il a été cité dans **WIRED**, **Tweakers.net**, **The New York Times** et de nombreuses autres publications comme une source fiable de connaissances en matière de protection de la vie privée et de sécurité.
 
-[:material-information: More About Who We Are](about.md){ class="md-button" }
+[:material-information: ](about.md)[ En savoir plus sur qui nous sommes{](about.md) class="md-button" }
 
 <div class="grid" markdown>
 <div markdown>
 ## Qu'est-ce qu'un outil de protection de la vie privée ?
 
-Nous recommandons une grande variété d'**outils de confidentialité** (a.k.a. *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can use to improve your privacy. La plupart des outils que nous recommandons sont entièrement gratuits et constituent des logiciels libres, tandis que d'autres sont des services commerciaux disponibles à l'achat. Passer d'un logiciel grand public gourmand en données comme Google Chrome et Windows à des outils axés sur la protection de la vie privée comme [Brave](desktop-browsers.md#brave) et [Linux](desktop.md) peut grandement contribuer à contrôler les informations que vous partagez avec les entreprises et d'autres personnes.
+Nous recommandons une grande variété d'**outils de confidentialité** (a.k.a. *applications*, *utilitaires*, et *logiciels* de protection de la vie privée) couvrant les logiciels et le matériel que vous pouvez utiliser pour améliorer votre protection de la vie privée. La plupart des outils que nous recommandons sont entièrement gratuits et constituent des logiciels libres, tandis que d'autres sont des services commerciaux disponibles à l'achat. Passer d'un logiciel grand public gourmand en données comme Google Chrome et Windows à des outils axés sur la protection de la vie privée comme [Brave](desktop-browsers.md#brave) et [Linux](desktop.md) peut grandement contribuer à contrôler les informations que vous partagez avec les entreprises et d'autres personnes.
 
 [:material-check-all: Nos critères généraux](about/criteria.md){ class="md-button" }
 </div>
@@ -114,6 +114,6 @@ Nous recommandons une grande variété d'**outils de confidentialité** (a.k.a. 
 
 De nombreuses personnes confondent les notions de vie privée, de sécurité et d'anonymat. Vous verrez des gens critiquer divers produits en disant qu'ils ne sont pas privés, alors qu'ils veulent dire qu'ils ne garantissent pas l'anonymat, par exemple. Sur ce site web, nous abordons ces trois sujets, mais il est important que vous compreniez la différence entre eux et quand chacun d'entre eux entre en jeu.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
+[:material-movie-open-play-outline: Vidéo : 5 étapes pour améliorer votre vie privée](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 </div>
 </div>
