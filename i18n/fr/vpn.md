@@ -2,7 +2,7 @@
 meta_title: "Recommandations et comparaison de services VPN privés, sans sponsors ni publicités - Privacy Guides"
 title: "Services VPN"
 icon: material/vpn
-description: The best VPN services for protecting your privacy and security online. Find a provider here that isn't out to spy on you.
+description: Les meilleurs services VPN pour protéger votre vie privée et votre sécurité en ligne. Trouvez ici un fournisseur qui n'est pas là pour espionner.
 cover: vpn.webp
 global:
   - 
@@ -10,11 +10,11 @@ global:
     - "table tbody"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protège contre les menaces suivantes :</small>
 
 - [:material-account-cash: Capitalisme de surveillance](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-If you're looking for additional *privacy* from your ISP, on a public Wi-Fi network, or while torrenting files, a **VPN** may be the solution for you.
+Si vous recherchez à protéger votre *vie privée* vis-à-vis de votre FAI, sur un réseau Wi-Fi public ou lorsque vous téléchargez des fichiers en torrent, un **VPN** peut être la solution pour vous.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Les VPN ne peuvent pas fournir d'anonymat</p>
@@ -33,11 +33,11 @@ Si vous recherchez l'**anonymat**, vous devriez utiliser le Navigateur Tor. Si v
 
 Les fournisseurs que nous recommandons utilisent le chiffrement, acceptent Monero, prennent en charge WireGuard & OpenVPN, et ont une politique de non-journalisation. Lisez notre \[liste complète de critères\](#criteres) pour plus d'informations.
 
-| Fournisseur           | Pays | WireGuard                     | Redirection de port                                    | IPv6                                                         | Paiements anonymes     |
-| --------------------- | ---- | ----------------------------- | ------------------------------------------------------ | ------------------------------------------------------------ | ---------------------- |
-| [Proton](#proton-vpn) | 112+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Partial Support | :material-information-outline:{ .pg-blue } Limited Support   | Argent liquide         |
-| [IVPN](#ivpn)         | 37+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-information-outline:{ .pg-blue } Sortant seulement | Monero, argent liquide |
-| [Mullvad](#mullvad)   | 49+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-check:{ .pg-green }                                | Monero, argent liquide |
+| Fournisseur           | Pays | WireGuard                     | Redirection de port                                               | IPv6                                                               | Paiements anonymes     |
+| --------------------- | ---- | ----------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------ | ---------------------- |
+| [Proton](#proton-vpn) | 112+ | :material-check:{ .pg-green } | :material-alert-outline: { .pg-orange } Prise en charge partielle | :material-information-outline:{ .pg-blue } Prise en charge limitée | Argent liquide         |
+| [IVPN](#ivpn)         | 37+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                            | :material-information-outline:{ .pg-blue } Sortant seulement       | Monero, argent liquide |
+| [Mullvad](#mullvad)   | 49+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                            | :material-check:{ .pg-green }                                      | Monero, argent liquide |
 
 ### Proton VPN
 
@@ -53,9 +53,9 @@ Les fournisseurs que nous recommandons utilisent le chiffrement, acceptent Moner
 [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Code source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
+- [:simple-googleplay: Play Store](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1437005085)
 - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
 - [:fontawesome-brands-windows: Windows](https://protonvpn.com/download-windows)
@@ -66,7 +66,7 @@ Les fournisseurs que nous recommandons utilisent le chiffrement, acceptent Moner
 
 </div>
 
-#### :material-check:{ .pg-green } 112 Countries
+#### :material-check:{ .pg-green } 112 pays
 
 Proton VPN has [servers in 112 countries](https://protonvpn.com/vpn-servers) or [5](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/free-vpn/server).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Cela est dû à un itinéraire plus court (moins de sauts) vers la destination.
 { .annotate }

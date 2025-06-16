@@ -74,12 +74,12 @@ Si vous avez besoin de naviguer anonymement sur Internet, vous devriez plutôt u
 Le **navigateur Mullvad** est une version du [navigateur Tor](tor.md#tor-browser) avec les intégrations au réseau Tor supprimées. Il vise à fournir aux utilisateurs de VPN les technologies d'anti-capture d'empreintes numériques du Navigateur Tor, qui sont des protections clés contre la [:material-eye-outline: surveillance de masse](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Il est développé par le projet Tor et distribué par [Mullvad](vpn.md#mullvad), et n'exige **pas** l'utilisation du VPN de Mullvad.
 
 [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title="Documentation" }
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title= "Code source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:fontawesome-brands-windows: Windows](https://mullvad.net/en/download/browser/windows)
 - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
@@ -89,11 +89,11 @@ Le **navigateur Mullvad** est une version du [navigateur Tor](tor.md#tor-browser
 
 </div>
 
-Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+Comme le [Navigateur Tor](tor.md), le Navigateur Mullvad est conçu pour empêcher la capture d'empreintes numériques en rendant l'empreinte numérique de votre navigateur identique à celle de tous les autres utilisateurs du Navigateur Mullvad, et il inclut des paramètres par défaut et des extensions qui sont automatiquement configurés par les niveaux de sécurité par défaut : *Standard*, *Safer* et *Safest*.
 
-Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). When adjusting the security level, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
+Il est donc impératif de ne pas modifier le navigateur mis à part l'ajustement des [niveaux de sécurité](https://tb-manual.torproject.org/security-settings) par défaut. Lorsque vous réglez le niveau de sécurité, vous **devez** toujours redémarrer le navigateur avant de continuer à l'utiliser. Dans le cas contraire, [les paramètres de sécurité peuvent ne pas être entièrement appliqués](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), ce qui vous expose à un risque plus élevé de captures d'empreinte et de vulnérabilités que vous ne l'auriez imaginé sur la base des paramètres choisis.
 
-Modifications other than adjusting this setting would make your fingerprint unique, defeating the purpose of using this browser. Si vous souhaitez configurer votre navigateur de manière plus poussée et que la capture d'empreintes numériques ne vous préoccupe pas, nous vous recommandons plutôt [Firefox](#firefox).
+Toute modification autre que le réglage de ce paramètre rendrait votre empreinte digitale unique, ce qui irait à l'encontre de l'objectif poursuivi par l'utilisation de ce navigateur. Si vous souhaitez configurer votre navigateur de manière plus poussée et que la capture d'empreintes numériques ne vous préoccupe pas, nous vous recommandons plutôt [Firefox](#firefox).
 
 ### Système anti-capture d'empreintes numériques
 
@@ -113,7 +113,7 @@ Ceci est nécessaire pour empêcher les formes avancées de pistage, mais se fai
 
 ### Mullvad Leta
 
-Mullvad Browser comes with [**Mullvad Leta**](https://leta.mullvad.net) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
+Le navigateur Mullvad est livré avec [**Mullvad Leta**](https://leta.mullvad.net) comme moteur de recherche par défaut, qui fonctionne comme un proxy vers les résultats de recherche de Google ou de Brave (configurable sur la page d'accueil de Mullvad Leta).
 
 Si vous êtes un utilisateur de Mullvad VPN, il y a un certain risque à utiliser des services comme Mullvad Leta qui sont offerts par votre fournisseur VPN lui-même. Ceci est dû au fait que Mullvad a théoriquement accès à votre véritable adresse IP (via leur VPN) et à votre activité de recherche (via Leta), alors qu'un VPN est généralement censé séparer l'IP de votre activité de recherche. Même si Mullvad collecte très peu d'informations sur ses utilisateurs de son VPN ou ses utilisateurs de Leta, vous devriez envisager un autre moteur de recherche [](search-engines.md) si ce risque vous inquiète.
 
@@ -132,7 +132,7 @@ Si vous êtes un utilisateur de Mullvad VPN, il y a un certain risque à utilise
 [:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="Contribuer" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:fontawesome-brands-windows: Windows](https://mozilla.org/firefox/windows)
 - [:simple-apple: macOS](https://mozilla.org/firefox/mac)
@@ -152,19 +152,19 @@ Firefox inclut un [jeton de téléchargement](https://bugzilla.mozilla.org/show_
 
 ### Configuration recommandée pour Firefox
 
-These options can be found in :material-menu: → **Settings**.
+Ces options sont disponibles sur :material-menu: → **Paramètres**.
 
 #### Recherche
 
 - [ ] Décochez **Afficher les suggestions de recherche**
 
-Search suggestion features may not be available in your region.
+Les fonctionnalités de suggestion de recherche peuvent ne pas être disponibles dans votre région.
 
-Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+Les suggestions de recherche envoient tout ce que vous tapez dans la barre d'adresse au moteur de recherche par défaut, que vous lanciez ou non une recherche. La désactivation des suggestions de recherche vous permet de contrôler plus précisément les données que vous envoyez à votre fournisseur de moteur de recherche.
 
 ##### Suggestions Firefox (États-Unis uniquement)
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) est une fonction similaire aux suggestions de recherche qui n'est disponible qu'aux États-Unis. Nous recommandons de les désactiver pour la même raison que nous recommandons de désactiver les suggestions de recherche. Si vous ne voyez pas ces options dans l'en-tête de la **barre d'adresse**, c'est que vous n'avez pas la nouvelle expérience et que vous pouvez ignorer ces changements.
 
 - [ ] Décochez **Suggestions de Firefox**
 - [ ] Décochez **Suggestions des sponsors**
@@ -175,27 +175,27 @@ Search suggestions send everything you type in the address bar to the default se
 
 - [x] Sélectionnez **Stricte** Protection renforcée contre le pistage
 
-This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
+Cela vous protège en bloquant les traceurs de réseaux sociaux, les scripts de capture d'empreinte (notez que cela ne vous protège pas de *toutes* les captures d'empreinte), les cryptomineurs, les cookies de suivi intersites et certains autres contenus de suivi. La PRP protège de nombreuses menaces courantes, mais ne bloque pas tous les moyens de suivi, car il est conçu pour avoir un impact minimal, voire nul, sur l'utilisation du site.
 
 ##### Supprimer à la fermeture
 
-If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
+Si vous voulez rester connecté à des sites en particulier, vous pouvez autoriser des exceptions dans **Cookies et données de site** → **Gérer les exceptions....**
 
 - [x] Cochez **Supprimer les cookies et les données du site lorsque Firefox est fermé**
 
-This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
+Cela vous protège contre les cookies persistants, mais ne vous protège pas contre les cookies acquis au cours d'une même session de navigation. Lorsque cette option est activée, il devient possible de nettoyer facilement les cookies de votre navigateur en redémarrant simplement Firefox. Vous pouvez définir des exceptions par site, si vous souhaitez rester connecté à un site précis que vous visitez souvent.
 
-##### Telemetry
+##### Télémétrie
 
 - [ ] Décochez **Autoriser Firefox à envoyer des données techniques et d'interaction à Mozilla**
 - [ ] Décochez **Autoriser Firefox à installer et à exécuter des études**
 - [ ] Décochez **Permettre à Firefox d'envoyer en votre nom les rapports de plantage**
 
-According to Mozilla's privacy policy for Firefox,
+Selon la politique de confidentialité de Mozilla pour Firefox,
 
 > Firefox nous envoie des données sur la version et la langue de votre Firefox ; le système d'exploitation de l'appareil et la configuration matérielle ; la mémoire, les informations de base sur les plantages et les erreurs; les résultats de processus automatisés tels que les mises à jour, la navigation sécurisée et l'activation de notre système. Lorsque Firefox nous envoie des données, votre adresse IP est temporairement collectée dans les journaux de notre serveur.
 
-Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt out:
+De plus, le service Mozilla Accounts collecte [certaines données techniques](https://mozilla.org/privacy/mozilla-accounts). Si vous utilisez un compte Mozilla, vous pouvez le refuser :
 
 1. Ouvrez les [paramètres de votre profil sur accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Décochez **Collecte et utilisation de données** > **Aidez à améliorer les comptes Firefox**
@@ -204,7 +204,7 @@ Additionally, the Mozilla Accounts service collects [some technical data](https:
 
 - [ ] Décocher **Autoriser les sites web à effectuer des mesures publicitaires en respectant la vie privée**
 
-With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
+Avec la sortie de Firefox 128, un nouveau paramètre pour l'[attribution respectueuse de la vie privée](https://support.mozilla.org/kb/privacy-preserving-attribution) (privacy-preserving attribution, PPA) a été ajouté et est [activé par défaut](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). La PPA permet aux annonceurs d'utiliser votre navigateur web pour mesurer l'efficacité des campagnes web, au lieu d'utiliser un suivi traditionnel basé sur JavaScript. Nous considérons que ce comportement n'entre pas dans le cadre des responsabilités d'un agent utilisateur, et le fait qu'il soit désactivé par défaut dans Arkenfox est un indicateur supplémentaire en faveur de la désactivation de cette fonctionnalité.
 
 ##### Mode HTTPS uniquement
 
@@ -275,7 +275,7 @@ Brave ajoute un "[code d'affiliation](https://github.com/brave/brave-browser/wik
 
 ### Configuration recommandée pour Brave
 
-These options can be found in :material-menu: → **Settings**.
+Ces options sont disponibles sur :material-menu: → **Paramètres**.
 
 #### Shields
 

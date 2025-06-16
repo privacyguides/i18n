@@ -1,5 +1,5 @@
 ---
-title: Intégrité de l'appareil
+title: "Intégrité de l'appareil"
 icon: material/security
 description: Ces outils peuvent être utilisés pour vérifier que vos appareils ne sont pas compromis.
 cover: device-integrity.webp

@@ -1,11 +1,11 @@
 ---
-title: Applications générales
+title: "Applications générales"
 description: Les applications répertoriées ici sont exclusives à Android et améliorent ou remplacent les principales fonctionnalités du système.
 schema:
   - "@context": http://schema.org
     "@type": WebPage
     name: General Android Apps
-    url: ./
+    url: "./"
   - "@context": http://schema.org
     "@type": MobileApplication
     name: Shelter

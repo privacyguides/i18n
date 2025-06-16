@@ -1,5 +1,5 @@
 ---
-title: Réseaux alternatifs
+title: "Réseaux alternatifs"
 icon: material/vector-polygon
 description: Ces outils vous permettent d'accéder à des réseaux autres que le World Wide Web.
 cover: alternative-networks.webp

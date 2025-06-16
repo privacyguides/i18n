@@ -2,14 +2,14 @@
 *[ADB]: Pont de débogage Android
 *[AOSP]: Projet Android Open Source
 *[ATA]: Attachement de technologie avancée
-*[surface d'attaque]: The total number of possible entry points for unauthorized access to a system
+*[surface d'attaque]: Le nombre total de points d'entrée possibles pour un accès non autorisé à un système
 *[AVB]: Démarrage Vérifié d'Android
 *[cgroups]: Groupes de contrôle
 *[CLI]: Interface de ligne de commande
 *[CSV]: Valeurs séparées par des virgules
 *[CVE]: Vulnérabilités et expositions courantes
-*[interface truquée] : A deceptive design pattern intended to trick a user into doing things
-*[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
+*[interface truquée] : Un modèle de conception trompeur destiné à inciter l'utilisateur à réaliser certaines actions
+*[Fonctionnalité d'héritage numérique] : L'héritage numérique fait référence aux fonctions qui vous permettent de donner à d'autres personnes l'accès à vos données après votre décès.
 *[DNSSEC]: Extensions de sécurité du système de nom de domaine
 *[DNS]: Système de nom de domaine
 *[DoH]: DNS sur HTTPS
@@ -20,7 +20,7 @@
 *[E2EE]: Chiffrement/Chiffré(e)s de bout en bout
 *[ECS]: Sous-réseau du client EDNS
 *[EEA]: Espace économique européen
-*[entropy]: A measurement of how unpredictable something is
+*[entropy]: Une mesure du degré d'imprévisibilité d'une chose
 *[EOL]: Fin de vie
 *[Exif]: Format de fichier image échangeable
 *[FCM]: Messagerie Cloud Firebase
@@ -50,7 +50,7 @@
 *[JNI]: Interface native Java
 *[KYC]: Connaissance du client
 *[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-*[LLMs]: Large Language Models (AI models such as ChatGPT)
+*[LLMs] : Grands modèles de langage (modèles d'IA tels que ChatGPT)
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
 *[MAC]: Contrôle d'accès aux médias
 *[MDAG]: Protection des applications Microsoft Defender

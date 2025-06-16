@@ -1,5 +1,5 @@
 ---
-title: Alias de courrier électronique
+title: "Alias de courrier électronique"
 icon: material/email-lock
 description: Un service d'alias d'adresses électroniques vous permet de générer facilement une nouvelle adresse électronique pour chaque site web auquel vous vous inscrivez.
 cover: email-aliasing.webp

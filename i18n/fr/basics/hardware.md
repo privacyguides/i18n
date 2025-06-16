@@ -1,6 +1,6 @@
 ---
-title: Choisissez Votre Matériel (Hardware)
-icon: material/chip
+title: "Choisissez Votre Matériel (Hardware)"
+icon: 'material/chip'
 description: Il n'y a pas que les logiciels qui sont importants pour votre vie privée, le matériel que vous utiliser quotidiennement l'est aussi.
 ---
 
