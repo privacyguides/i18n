@@ -68,10 +68,10 @@ Les fournisseurs que nous recommandons utilisent le chiffrement, acceptent Moner
 
 #### :material-check:{ .pg-green } 112 pays
 
-Proton VPN has [servers in 112 countries](https://protonvpn.com/vpn-servers) or [5](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/free-vpn/server).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Cela est dû à un itinéraire plus court (moins de sauts) vers la destination.
+Proton VPN a des [serveurs dans 112 pays](https://protonvpn.com/vpn-servers) ou [5](https://protonvpn.com/support/how-to-create-free-vpn-account) si vous utilisez leur [offre gratuite](https://protonvpn.com/free-vpn/server). (1) Choisir un VPN avec un serveur proche de chez vous peut réduire la latence du trafic réseau que vous envoyez. Cela est dû à un itinéraire plus court (moins de sauts) vers la destination.
 { .annotate }
 
-1. Last checked: 2024-08-06
+1. Dernière vérification : 06 août 2024
 
 Nous pensons également qu'il est préférable pour la sécurité des clés privées du fournisseur VPN d'utiliser des [serveurs dédiés](https://fr.wikipedia.org/wiki/Serveur_d%C3%A9di%C3%A9), plutôt que des solutions partagées (avec d'autres clients) moins chères telles que les [serveurs privés virtuels](https://fr.wikipedia.org/wiki/Serveur_d%C3%A9di%C3%A9_virtuel).
 
@@ -89,13 +89,13 @@ Proton VPN, en plus d'accepter les cartes de crédit/débit, PayPal, et [le Bitc
 
 #### :material-check:{ .pg-green } Prise en charge de WireGuard
 
-Proton VPN supports the WireGuard® protocol. [WireGuard](https://wireguard.com) est un protocole plus récent qui utilise une [cryptographie](https://wireguard.com/protocol) de pointe. De plus, WireGuard vise à être plus simple et plus performant.
+Proton VPN supporte le protocole WireGuard®. [WireGuard](https://wireguard.com) est un protocole plus récent qui utilise une [cryptographie](https://wireguard.com/protocol) de pointe. De plus, WireGuard vise à être plus simple et plus performant.
 
-Proton VPN [recommande](https://protonvpn.com/blog/wireguard) l'utilisation de WireGuard avec leur service. Proton VPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
+Proton VPN [recommande](https://protonvpn.com/blog/wireguard) l'utilisation de WireGuard avec leur service. Proton VPN offre également un générateur de configuration WireGuard à utiliser avec les [applications officielles WireGuard](https://wireguard.com/install).
 
-#### :material-alert-outline:{ .pg-orange } Limited IPv6 Support
+#### :material-alert-outline:{ .pg-orange } Prise en charge limitée de l'IPv6
 
-Proton [now supports IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks) in their browser extension and Linux client, but only 80% of their servers are IPv6-compatible. On other platforms, the Proton VPN client will block all outgoing IPv6 traffic, so you don't have to worry about your IPv6 address being leaked, but you will not be able to connect to any IPv6-only sites, nor will you be able to connect to Proton VPN from an IPv6-only network.
+Proton [supporte désormais l'IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks) dans leur extension de navigateur et leur client Linux, mais seul 80% de leurs serveurs sont compatibles IPv6. Les applications Proton VPN bloqueront tout le trafic IPv6 sortant, de sorte que vous n'aurez pas à vous soucier de la fuite de votre adresse IPv6, mais vous ne pourrez pas vous connecter à des sites exclusivement IPv6, et vous ne pourrez pas vous connecter à Proton VPN à partir d'un réseau exclusivement IPv6.
 
 #### :material-information-outline:{ .pg-info } Redirection de port
 
@@ -105,7 +105,7 @@ Proton VPN ne prend actuellement en charge que la [redirection de port](https://
 
 Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol) protocol which *may* help in situations where VPN protocols like OpenVPN or WireGuard are blocked with various rudimentary techniques. Stealth encapsule le tunnel VPN dans une session TLS afin de donner l'impression d'un trafic internet plus générique.
 
-Unfortunately, it does not work very well in countries where sophisticated filters that analyze all outgoing traffic in an attempt to discover encrypted tunnels are deployed. Stealth is available on Android, iOS, Windows, and macOS, but it's not yet available on Linux.
+Malheureusement, il ne fonctionne pas très bien dans des pays où des filtres sophistiqués analysant tout le trafic sortant sont déployés, pour tenter de découvrir les tunnels chiffrés. Stealth is available on Android, iOS, Windows, and macOS, but it's not yet available on Linux.
 
 #### :material-check:{ .pg-green } Clients mobiles
 
@@ -161,7 +161,7 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 IVPN a des [serveurs dans 37 pays](https://ivpn.net/status).(1) Choisir un fournisseur VPN avec un serveur le plus proche de vous réduira la latence du trafic réseau que vous envoyez. Cela s'explique par un itinéraire plus court (moins de sauts) jusqu'à la destination.
 { .annotate }
 
-1. Last checked: 2024-08-06
+1. Dernière vérification : 06 août 2024
 
 Nous pensons également qu'il est préférable pour la sécurité des clés privées du fournisseur VPN d'utiliser des [serveurs dédiés](https://fr.wikipedia.org/wiki/Serveur_d%C3%A9di%C3%A9), plutôt que des solutions partagées (avec d'autres clients) moins chères telles que les [serveurs privés virtuels](https://fr.wikipedia.org/wiki/Serveur_d%C3%A9di%C3%A9_virtuel).
 
