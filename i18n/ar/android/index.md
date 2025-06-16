@@ -1,13 +1,13 @@
 ---
-title: Android
+title: "Android"
 description: Our advice for replacing privacy-invasive default Android features with private and secure alternatives.
-icon: simple/android
+icon: 'simple/android'
 cover: android.webp
 schema:
   - "@context": http://schema.org
     "@type": WebPage
     name: Android Recommendations
-    url: ./
+    url: "./"
   - "@context": http://schema.org
     "@type": CreativeWork
     name: Android
