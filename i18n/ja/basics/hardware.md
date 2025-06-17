@@ -1,6 +1,6 @@
 ---
-title: ハードウェアを選ぶ
-icon: material/chip
+title: "ハードウェアを選ぶ"
+icon: 'material/chip'
 description: ソフトウェアだけが全てではありません。プライバシーを守るために日常的に使うハードウェアのツールについて学びましょう。
 ---
 

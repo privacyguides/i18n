@@ -1,11 +1,11 @@
 ---
-title: General Apps
+title: "General Apps"
 description: 本記事で紹介するアプリはAndroid専用アプリで、システムの重要な機能を強化あるいは置換するものです。
 schema:
   - "@context": http://schema.org
     "@type": WebPage
     name: General Android Apps
-    url: ./
+    url: "./"
   - "@context": http://schema.org
     "@type": MobileApplication
     name: Shelter

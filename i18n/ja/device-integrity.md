@@ -1,5 +1,5 @@
 ---
-title: Device Integrity
+title: "Device Integrity"
 icon: material/security
 description: These tools can be used to check your devices for compromise.
 cover: device-integrity.webp

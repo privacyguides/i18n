@@ -1,12 +1,12 @@
 ---
-meta_title: 一番良いAndroidのオペレーティングシステム - Privacy Guides
-title: 別のディストリビューション
+meta_title: "一番良いAndroidのオペレーティングシステム - Privacy Guides"
+title: "別のディストリビューション"
 description: 本記事で紹介する安全かつプライバシー重視のOSで自分のAndroidスマホのOSを置き換えることができます。
 schema:
   - "@context": http://schema.org
     "@type": WebPage
     name: プライバシー重視のAndroid OS
-    url: ./
+    url: "./"
   - "@context": http://schema.org
     "@type": CreativeWork
     name: GrapheneOS
@@ -16,7 +16,7 @@ schema:
     subjectOf:
       "@context": http://schema.org
       "@type": WebPage
-      url: ./
+      url: "./"
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 

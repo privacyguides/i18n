@@ -1,13 +1,13 @@
 ---
-title: Android
+title: "Android"
 description: デフォルトのAndroidにあるプライバシーを侵害する機能を、よりプライバシー性が高くて安全なもので置き換えるためのアドバイス。
-icon: simple/android
+icon: 'simple/android'
 cover: android.webp
 schema:
   - "@context": http://schema.org
     "@type": WebPage
     name: Android Recommendations
-    url: ./
+    url: "./"
   - "@context": http://schema.org
     "@type": CreativeWork
     name: Android
