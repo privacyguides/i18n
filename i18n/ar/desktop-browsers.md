@@ -322,7 +322,7 @@ Firefox يوفّر إعدادات قوية لحماية الخصوصية، مث�
 
 ##### Tor windows
 
-[**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser is, and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
+[**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity). ومع ذلك، فإن متصفح Brave **ليس** مقاوما لتتبع البصمة بنفس مستوى متصفح Tor، كما أن عدد مستخدمي Brave مع Tor أقل بكثير، مما يجعلك مميزًا ويسهل تتبعك. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
 
 ##### Data Collection
 
