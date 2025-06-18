@@ -100,21 +100,21 @@ schema:
 
 ==للحصول على أقوى حماية ضد تتبّع البصمة، نوصي باستخدام متصفح Mullvad **إلى جانب** VPN==، سواء كان Mullvad أو أحد مزوّدي VPN الآخرين الذين نوصي بهم.  باستخدام VPN مع متصفح Mullvad، يصبح متصفحك وعنوان الـ IP مُشابهين لعدد كبير من المستخدمين، مما يساعدك على الاختفاء ضمن "الزحام" ويقلّل من فرص تتبّعك.  هذه الطريقة هي الوسيلة الوحيدة لتفادي أدوات التتبع المتقدمة، وهي نفس التقنية التي يعتمدها متصفح Tor لمنع التتبع.
 
-Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers, particularly this close to the launch of Mullvad Browser. Mullvad Browser does not have built-in VPN connectivity, nor does it check whether you are using a VPN before browsing; your VPN connection has to be configured and managed separately.
+يرجى ملاحظة أنه رغم إمكانية استخدام متصفح Mullvad مع أي مزوّد VPN، إلا أن وجود "مجموعة" من المستخدمين لتختلط بها يعتمد على أن مستخدمين آخرين على نفس الـVPN يستخدمون أيضًا متصفح Mullvad. وهذا الأمر يُرجّح أن يحدث مع Mullvad VPN أكثر من غيره من المزوّدين، خصوصًا في الفترة القريبة من إطلاق المتصفح. متصفح Mullvad لا يحتوي على VPN مدمج، ولا يتحقّق من أنك تستخدم VPN قبل بدء التصفّح، لذلك يجب إعداد اتصال الـVPN وتشغيله بشكل منفصل.
 
-Mullvad Browser comes with the *uBlock Origin* and *NoScript* browser extensions pre-installed. While we typically discourage adding *additional* [browser extensions](browser-extensions.md), these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without impacting your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
+ يأتي متصفح Mullvad مزودا مسبقا بإضافتي *uBlock Origin* و*NoScript* لمتصفح الويب. رغم أننا عادةً لا ننصح بإضافة *إضافات جديدة* إلى [المتصفح](browser-extensions.md)، إلا أن الإضافات المثبّتة مسبقًا مع متصفح Mullvad يجب **عدم** حذفها أو تعديل إعداداتها الافتراضية، لأن القيام بذلك قد يجعل بصمة متصفحك مختلفة بوضوح عن باقي مستخدمي Mullvad Browser. يأتي المتصفح أيضا مزوّدا مسبقا بإضافة Mullvad Browser Extension، والتي *يمكنك* إزالتها بأمان دون أن يؤثر ذلك على بصمة المتصفح، إذا رغبت بذلك. كما أنه لا بأس في الاحتفاظ بها حتى إذا كنت لا تستخدم Mullvad VPN.
 
-### Private Browsing Mode
+### الوضع الخفي
 
-Mullvad Browser operates in permanent private browsing mode, meaning your history, cookies, and other site data will always be cleared every time the browser is closed. Your bookmarks, browser settings, and extension settings will still be preserved.
+يعمل متصفح Mullvad في وضع التصفح الخفي بشكل دائم، أي أن سجل التصفح والكوكيز وبيانات المواقع الأخرى يتم مسحها تلقائيًا في كل مرة تغلق فيها المتصفح. سيتم الاحتفاظ بالمواقع المحفوظة (Bookmarks) وإعدادات المتصفح وإعدادات الإضافات، ولن تُحذف.
 
-This is required to prevent advanced forms of tracking, but does come at the cost of convenience and some Firefox features, such as Multi-Account Containers. Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise don't work properly in Mullvad Browser, and Mullvad Browser for general browsing.
+هذا الإجراء ضروري لمنع أساليب التتبع المتقدمة، لكنه يأتي على حساب بعض جوانب الراحة وبعض ميزات Firefox، مثل ميزة الحاويات متعددة الحسابات (Multi-Account Containers). تذكر أنه يمكنك دائما استخدام أكثر من متصفح. على سبيل المثال، يمكنك استخدام Firefox مع Arkenfox لتصفح بعض المواقع التي تحتاج إلى البقاء مسجّلًا فيها أو لا تعمل بشكل جيد مع متصفح Mullvad، واستخدام Mullvad Browser للتصفّح العام.
 
 ### Mullvad Leta
 
-Mullvad Browser comes with [**Mullvad Leta**](https://leta.mullvad.net) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
+يأتي متصفح Mullvad مزوّدًا بمحرك البحث [**Mullvad Leta**](https://leta.mullvad.net) كخيار افتراضي، وهو يعمل كوسيط (proxy) لعرض نتائج البحث من Google أو Brave، ويمكنك اختيار المحرك الذي تفضّله من الصفحة الرئيسية لـ Mullvad Leta
 
-If you are a Mullvad VPN user, there is some risk in using services like Mullvad Leta which are offered by your VPN provider themselves. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta), which is information a VPN is typically intended to separate. Even though Mullvad collects very little information about their VPN subscribers or Leta users, you should consider a different [search engine](search-engines.md) if this risk concerns you.
+إذا كنت من مستخدمي Mullvad VPN، فهناك قدر من المخاطرة في استخدام خدمات مثل Mullvad Leta، لأنها تُقدم من نفس مزوّد خدمة الـVPN الذي تستخدمه. وذلك لأن Mullvad يمكنها نظريا الوصول إلى عنوان IP الحقيقي الخاص بك (من خلال خدمة الـVPN)، وكذلك إلى نشاطك في البحث (عبر Leta)، وهي معلومات يُفترض أن تظل منفصلة عن بعضها عند استخدام VPN. رغم أن Mullvad لا تجمع إلا القليل جدًا من المعلومات عن مستخدمي خدمة VPN أو Leta، فإنه من الأفضل التفكير في استخدام [محرك بحث آخر](search-engines.md) إذا كانت هذه المخاطرة تثير قلقك.
 
 ## Firefox
 
@@ -122,17 +122,16 @@ If you are a Mullvad VPN user, there is some risk in using services like Mullvad
 
 ![Firefox logo](assets/img/browsers/firefox.svg){ align=right }
 
-**Firefox** provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
+Firefox يوفّر إعدادات قوية لحماية الخصوصية، مثل [الحماية المحسّنة من التتبع (Enhanced Tracking Protection)](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop)، والتي تساعد على حجب أنواع مختلفة من [أساليب التتبع](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
 
-[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title="Documentation" }
+[:octicons-home-16: الصفحة الرئيسية](https://firefox.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="سياسية الخصوصية" }
+[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title="الشرح التفصيلي" }
 [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="Contribute" }
+[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="المساهمة" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
-
+<summary>التنزيلات</summary>
 - [:fontawesome-brands-windows: Windows](https://mozilla.org/firefox/windows)
 - [:simple-apple: macOS](https://mozilla.org/firefox/mac)
 - [:simple-linux: Linux](https://mozilla.org/firefox/linux)
@@ -143,65 +142,65 @@ If you are a Mullvad VPN user, there is some risk in using services like Mullvad
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">تنبيه</p>
 
-Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+عند تحميل Firefox من موقع Mozilla، يتم تضمين [رمز فريد](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) في الملف، ويرسل المتصفح هذا الرمز تلقائيًا من خلال خاصية القياس عن بُعد أو إرسال بيانات الاستخدام (Telemetry). الرمز لا يُضمَّن في النسخ التي تُحمّل من رابط إصدارات [Mozilla على FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
 </div>
 
-### Recommended Firefox Configuration
+### إعدادات Firefox الموصى بها
 
-These options can be found in :material-menu: → **Settings**.
+توجد هذه الخيارات ضمن :material-menu: → **الإعدادات**.
 
-#### Search
+#### بحث
 
-- [ ] Uncheck **Show search suggestions**
+- [ ] أزل التحديد عن **عرض اقتراحات البحث**
 
-Search suggestion features may not be available in your region.
+قد لا تكون ميزة اقتراحات البحث متوفّرة في منطقتك.
 
-Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+اقتراحات البحث ترسل كل ما تكتبه في شريط العنوان إلى محرك البحث الافتراضي، سواء ضغطت على Enter ونفّذت البحث أو لا. عند تعطيل اقتراحات البحث، يمكنك التحكم بشكل أفضل في المعلومات التي يراها محرك البحث.
 
-##### Firefox Suggest (US only)
+##### Firefox Suggest (متاح في الولايات المتحدة فقط)
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) هي ميزة مشابهة لاقتراحات البحث، لكنها متوفرة فقط في الولايات المتحدة. نوصي بإيقاف هذه الميزة لنفس السبب الذي نوصي فيه بإيقاف اقتراحات البحث. إذا لم تظهر لك هذه الخيارات ضمن **شريط العنوان (Address Bar)**، فهذا يعني أنك لا تملك التجربة الجديدة ويمكنك تجاهل هذه التغييرات.
 
-- [ ] Uncheck **Suggestions from Firefox**
-- [ ] Uncheck **Suggestions from sponsors**
+- [ ] أزل التحديد عن **الاقتراحات من Firefox**
+- [ ] أزل التحديد عن **اقتراحات من الرعاة**
 
-#### Privacy & Security
+#### الخصوصية والأمان
 
-##### Enhanced Tracking Protection
+##### حماية التتبع المتقدّمة
 
-- [x] Select **Strict** Enhanced Tracking Protection
+- فعِّل مستوى **الحماية الصارمة** في خيار حماية التتبع المتقدّمة (Enhanced Tracking Protection)
 
-This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
+يوفّر لك هذا الإعداد الحماية من أدوات تتبّع وسائل التواصل الاجتماعي، وسكربتات بصمة المتصفح (مع ملاحظة أنه لا يحميك من *كل* أنواع التتبّع بالبصمة)، وبرمجيات التعدين الخفي (cryptominers)، وملفات تعريف الارتباط (الكوكيز) التي تتبعك عبر المواقع، وبعض أنواع المحتوى التتبّعي الأخرى. حماية التتبع المتقدّمة (ETP) توفّر حماية من العديد من التهديدات الشائعة، لكنها لا تمنع جميع أساليب التتبع، لأنها مصمّمة لتعمل دون التأثير على قابلية استخدام المواقع أو التسبّب في مشاكل أثناء التصفح.
 
-##### Sanitize on Close
+##### مسح البيانات عند الإغلاق
 
-If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
+إذا كنت ترغب في البقاء مسجّل الدخول في مواقع معيّنة، يمكنك إضافة استثناءات من خلال **ملفات تعريف الارتباط وبيانات المواقع (Cookies and Site Data)** ← **إدارة الاستثناءات (Manage Exceptions)**
 
-- [x] Check **Delete cookies and site data when Firefox is closed**
+- [x] فعِّل خيار **حذف الكوكيز وبيانات المواقع (Delete cookies and site data) عند إغلاق Firefox**
 
-This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
+هذا الإعداد يوفّر لك الحماية من الكوكيز الدائمة، لكنه لا يحميك من الكوكيز التي يتم الحصول عليها خلال جلسة التصفح نفسها. عند تفعيل هذا الخيار، يمكنك بسهولة مسح الكوكيز الخاصة بالمتصفح بمجرد إعادة تشغيل Firefox. إذا كنت تزور موقعا بشكل متكرر وتريد البقاء مسجّل الدخول فيه، يمكنك إضافة استثناء خاص له.
 
-##### Telemetry
+##### إرسال بيانات الاستخدام
 
-- [ ] Uncheck **Allow Firefox to send technical and interaction data to Mozilla**
-- [ ] Uncheck **Allow Firefox to install and run studies**
-- [ ] Uncheck **Allow Firefox to send backlogged crash reports on your behalf**
+- [ ] أزل التحديد عن **السماح لـ Firefox بإرسال البيانات الفنية وبيانات التفاعل إلى Mozilla**
+- [ ] قم بإيقاف خيار **السماح لـ Firefox بتجربة ميزات تجريبية (دراسات)**
+- وفقا لسياسة الخصوصية الخاصة بـ Firefox من Mozilla،
 
-According to Mozilla's privacy policy for Firefox,
+وفقا لسياسة الخصوصية الخاصة بـ Firefox من Mozilla،
 
-> Firefox sends data about your Firefox version and language; device operating system and hardware configuration; memory, basic information about crashes and errors; outcome of automated processes like updates, safebrowsing, and activation to us. When Firefox sends data to us, your IP address is temporarily collected as part of our server logs.
+> يرسل Firefox بيانات تتعلّق بإصدار المتصفح واللغة المستخدمة، ونظام تشغيل الجهاز ومواصفات الجهاز، والذاكرة، ومعلومات أساسية حول الأعطال والأخطاء، بالإضافة إلى نتائج العمليات التلقائية مثل التحديثات، والحماية من المواقع الضارة، وتفعيل المنتج، إلى Mozilla. عند إرسال Firefox للبيانات، يتم تسجيل عنوان IP مؤقتا في سجلات خوادمنا.
 
-Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt out:
+بالإضافة إلى ذلك، تقوم خدمة حسابات Mozilla (Mozilla Accounts service) بجمع [بعض البيانات التقنية](https://mozilla.org/privacy/mozilla-accounts). إذا كنت تملك حسابًا لدى Mozilla، يمكنك تعطيل هذه الميزة أو رفض المشاركة من خلال الإعدادات:
 
-1. Open your [profile settings on accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
-2. Uncheck **Data Collection and Use** > **Help improve Firefox Accounts**
+1. افتح [إعدادات ملفك الشخصي على accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
+2. أزل التحديد عن **جمع البيانات واستخدامها (Data Collection and Use)** ← **المساعدة في تحسين حسابات (Help improve Firefox Accounts) Firefox**
 
-##### Website Advertising Preferences
+##### تفضيلات الإعلانات في المواقع
 
-- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
+- [ ] أزل التحديد عن **السماح للمواقع بقياس الإعلانات بطريقة تحافظ على الخصوصية (privacy-preserving ad measuremen)**
 
 With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
 
@@ -274,7 +273,7 @@ Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%
 
 ### Recommended Brave Configuration
 
-These options can be found in :material-menu: → **Settings**.
+توجد هذه الخيارات ضمن :material-menu: → **الإعدادات**.
 
 #### Shields
 
@@ -346,7 +345,7 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
 
-- [ ] Uncheck **Show search suggestions**
+- [ ] أزل التحديد عن **عرض اقتراحات البحث**
 
 #### System
 
