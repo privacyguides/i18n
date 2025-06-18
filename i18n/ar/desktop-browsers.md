@@ -233,7 +233,7 @@ Firefox يوفّر إعدادات قوية لحماية الخصوصية، مث�
 
 مشروع [Arkenfox](https://github.com/arkenfox/user.js) يقدّم إعدادات محسّنة ومختارة بعناية لتعزيز الخصوصية في متصفح Firefox. إذا [قررت](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) استخدام Arkenfox، فبعض [الإعدادات](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) قد تكون صارمة من وجهة نظر البعض، وقد تتسبب في عدم عمل بعض المواقع بشكل صحيح — لكن يمكنك [تعديلها بسهولة](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) لتناسب احتياجاتك.  ننصحك **بشدة** بتصفّح كامل محتوى [صفحة الويكي الخاصة بهم](https://github.com/arkenfox/user.js/wiki). يدعم Arkenfox كذلك ميزة [الحاويات](https://support.mozilla.org/kb/containers#w_for-advanced-users) في Firefox.
 
-يركز Arkenfox على منع أساليب التتبع البسيطة، من خلال ميزة "عشوائية الرسم" (canvas randomization) — وهي تقنية تغيّر طريقة عرض الصور داخل صفحات الويب بشكل طفيف، بحيث يصعب على المواقع استخدام تلك الرسومات كوسيلة لتتبّعك — بالإضافة إلى إعدادات Firefox المدمجة لمقاومة تتبّع البصمة. على عكس Mullvad وTor، لا يسعى Arkenfox لجعل متصفحك يشبه متصفحات الآخرين، وهي الطريقة الوحيدة تقريبا لمنع التتبع المتقدم ببصمة المتصفح. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
+يركز Arkenfox على منع أساليب التتبع البسيطة، من خلال ميزة "عشوائية الرسم" (canvas randomization) — وهي تقنية تغيّر طريقة عرض الصور داخل صفحات الويب بشكل طفيف، بحيث يصعب على المواقع استخدام تلك الرسومات كوسيلة لتتبّعك — بالإضافة إلى إعدادات Firefox المدمجة لمقاومة تتبّع البصمة. على عكس Mullvad وTor، لا يسعى Arkenfox لجعل متصفحك يشبه متصفحات الآخرين، وهي الطريقة الوحيدة تقريبا لمنع التتبع المتقدم ببصمة المتصفح. تذكر أنه يمكنك دائمًا استخدام أكثر من متصفح. على سبيل المثال، يمكنك استخدام Firefox مع Arkenfox لبعض المواقع التي تثق بها أو تحتاج إلى البقاء مسجل الدخول فيها، واستخدام متصفح Mullvad لباقي استخداماتك اليومية.
 
 ## Brave
 
@@ -241,18 +241,18 @@ Firefox يوفّر إعدادات قوية لحماية الخصوصية، مث�
 
 ![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
-**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
+يحتوي متصفح Brave على مانع مدمج للإعلانات والتتبع، بالإضافة إلى [ميزات خصوصية عديدة](https://brave.com/privacy-features)، يتم تفعيل الكثير منها بشكل تلقائي.
 
-Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
+بما أن Brave مبني على متصفح Chromium، فستجده مألوفًا وسهل الاستخدام، ويعمل بسلاسة مع أغلب المواقع.
 
-[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
+[:octicons-home-16: الصفحة الرئيسية](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="سياسية الخصوصية" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title="الشرح التفصيلي" }
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>التنزيلات</summary>
 
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 - [:fontawesome-brands-windows: Windows](https://brave.com/download)
@@ -267,37 +267,37 @@ Brave is built upon the Chromium web browser project, so it should feel familiar
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" to the file name in downloads from the Brave website, which is used to track which source the browser was downloaded from, for example `BRV002` in a download named `Brave-Browser-BRV002.pkg`. The installer will then ping Brave's server with the referral code at the end of the installation process. If you're concerned about this, you can rename the installer file before opening it.
+يُضيف Brave ما يُعرف بـ [رمز إحالة (referral code)](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes) إلى اسم ملف التنزيل من موقع Brave الرسمي، ويُستخدم هذا الرمز لتتبع المصدر الذي تم تحميل المتصفح منه، مثل الرمز BRV002 في ملف باسم Brave-Browser-BRV002.pkg. يقوم برنامج التثبيت بعد ذلك بإرسال طلب إلى خادم Brave يتضمن رمز الإحالة، وذلك في نهاية عملية التثبيت. ننصحك، إذا كنت تشعر بالقلق من ذلك، أن تقوم بإعادة تسمية ملف التثبيت قبل فتحه، لتجنّب إرسال رمز الإحالة تلقائيًا إلى خوادم Brave.
 
 </div>
 
-### Recommended Brave Configuration
+### إعدادات Brave الموصى بها
 
 توجد هذه الخيارات ضمن :material-menu: → **الإعدادات**.
 
 #### Shields
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+يتضمّن Brave بعض وسائل الحماية من تتبّع البصمة ضمن ميزة [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) الخاصة به. من الأفضل تهيئة هذه الإعدادات [على مستوى جميع المواقع](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)، بدلاً من تعديلها لكل موقع على حدة.
 
-Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
+إذا لزم الأمر، يمكنك تخفيف إعدادات Shields لمواقع معينة، لكننا نوصي بتفعيل الإعدادات التالية كإعداد افتراضي:
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under *Trackers & ads blocking*
+اختر Aggressive (المستوى الشديد) في Trackers & ads blocking لحظر التتبع والإعلانات بفعالية أكبر
 
 <details class="warning" markdown>
 <summary>Use default filter lists</summary>
 
-Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+يمكنك في Brave تفعيل فلاتر حظر إضافية عبر الصفحة brave://adblock. لا نوصي باستخدام هذه الخاصية، من الأفضل الاكتفاء بالقوائم الافتراضية. استخدام قوائم تصفية إضافية قد يجعل متصفحك مختلفا عن باقي مستخدمي Brave، مما يزيد من احتمالية تتبّعك. كما أنه قد يعرّضك لمخاطر أمنية أكبر، إذا وُجدت ثغرة في Brave وتم إدخال قاعدة ضارة إلى إحدى تلك القوائم.
 
 </details>
 
-- [x] Select **Strict** under *Upgrade connections to HTTPS*
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Check **Block fingerprinting**
-- [x] Select **Block third-party cookies**
-- [x] Check **Forget me when I close this site** (2)
-- [ ] Uncheck all social media components
+- [x] اختر **Strict** ضمن *Upgrade connections to HTTPS*
+- [x] (إختياري) اختر **Block Scripts** (1)
+- [x] فعل **Block fingerprinting**
+- [x] اختر **Block third-party cookies**
+- [x] فعل **Forget me when I close this site** (2)
+- [] أزل التحديد عن جميع مكونات وسائل التواصل الاجتماعي
 
 </div>
 

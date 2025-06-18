@@ -62,14 +62,14 @@ These are our currently recommended **mobile web browsers** and configurations f
 
 ![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
-**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
+يحتوي متصفح Brave على مانع مدمج للإعلانات والتتبع، بالإضافة إلى [ميزات خصوصية عديدة](https://brave.com/privacy-features)، يتم تفعيل الكثير منها بشكل تلقائي.
 
 Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
 
-[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
+[:octicons-home-16: الصفحة الرئيسية](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="سياسية الخصوصية" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title="الشرح التفصيلي" }
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -83,7 +83,7 @@ Brave is built upon the Chromium web browser project, so it should feel familiar
 
 </div>
 
-### Recommended Brave Configuration
+### إعدادات Brave الموصى بها
 
 Tor Browser is the only way to truly browse the internet anonymously. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
 
@@ -97,7 +97,7 @@ Tor Browser is the only way to truly browse the internet anonymously. When you u
 
 #### Brave shields global defaults
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+يتضمّن Brave بعض وسائل الحماية من تتبّع البصمة ضمن ميزة [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) الخاصة به. من الأفضل تهيئة هذه الإعدادات [على مستوى جميع المواقع](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)، بدلاً من تعديلها لكل موقع على حدة.
 
 Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
 
