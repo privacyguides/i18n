@@ -212,28 +212,28 @@ Firefox يوفّر إعدادات قوية لحماية الخصوصية، مث�
 
 ##### DNS over HTTPS
 
-If you use a [DNS over HTTPS provider](dns.md):
+إذا كنت تستخدم [ خدمة DNS over HTTPS ](dns.md):
 
-- [x] Select **Max Protection** and choose a suitable provider
+- [x] فعِّل **أقصى حماية** واختر مزوّد DNS يناسبك
 
-Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
+عند تفعيل "أقصى حماية"، يستخدم Firefox فقط خدمة DNS المشفّرة (DNS over HTTPS). وإذا لم يتمكّن من الاتصال بها، أو إذا قالت الخدمة إن الموقع الذي تحاول الوصول إليه غير موجود، فسيعرض المتصفح رسالة تحذير لحمايتك. هذا الخيار يمنع الشبكة (مثل الواي فاي الذي تتصل به) من التلاعب أو تقليل مستوى حماية خدمة DNS دون أن تعرف، وهو ما قد يعرّض خصوصيتك للخطر.
 
-#### Sync
+#### المزامنة
 
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
+[فايرفوكس سينك (Firefox Sync)](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) تُمكنك من الوصول إلى بيانات التصفُّح الخاصة بك (مثل السجلّ، والإشارات المرجعيّة (Bookmarks)، وغيرهما) من جميع أجهزتك، وتَقوم بحمايتها من خلال التشفير التام بين الطرفين (E2EE).
 
-### Arkenfox (advanced)
+### Arkenfox (متقدم)
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Use Mullvad Browser for advanced anti-fingerprinting</p>
+<p class="admonition-title">متصفح Mullvad يوفر حماية قوية ضد التتبع ببصمة المتصفح (anti-fingerprinting)</p>
 
-[Mullvad Browser](#mullvad-browser) provides the same anti-fingerprinting protections as Arkenfox out of the box, and does not require the use of Mullvad's VPN to benefit from these protections. Coupled with a VPN, Mullvad Browser can thwart more advanced tracking scripts which Arkenfox cannot. Arkenfox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
+يوفر متصفح Mullvad نفس مستوى الحماية من تتبع البصمة الذي يقدمه Arkenfox مباشرة دون الحاجة إلى إعدادات إضافية، كما لا يتطلّب استخدام خدمة Mullvad VPN للاستفادة من هذه الحماية. عند استخدامه مع VPN، يمكن لمتصفح Mullvad التصدي لأساليب التتبع المتقدمة التي لا يستطيع Arkenfox التعامل معها. يبقى Arkenfox خيارا أكثر مرونة، حيث يمكنك تخصيص إعداداته وإضافة استثناءات لمواقع تحتاج تسجيل الدخول الدائم إليها.
 
 </div>
 
-The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
+مشروع [Arkenfox](https://github.com/arkenfox/user.js) يقدّم إعدادات محسّنة ومختارة بعناية لتعزيز الخصوصية في متصفح Firefox. إذا [قررت](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) استخدام Arkenfox، فبعض [الإعدادات](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) قد تكون صارمة من وجهة نظر البعض، وقد تتسبب في عدم عمل بعض المواقع بشكل صحيح — لكن يمكنك [تعديلها بسهولة](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) لتناسب احتياجاتك.  ننصحك **بشدة** بتصفّح كامل محتوى [صفحة الويكي الخاصة بهم](https://github.com/arkenfox/user.js/wiki). يدعم Arkenfox كذلك ميزة [الحاويات](https://support.mozilla.org/kb/containers#w_for-advanced-users) في Firefox.
 
-Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
+يركز Arkenfox على منع أساليب التتبع البسيطة، من خلال ميزة "عشوائية الرسم" (canvas randomization) — وهي تقنية تغيّر طريقة عرض الصور داخل صفحات الويب بشكل طفيف، بحيث يصعب على المواقع استخدام تلك الرسومات كوسيلة لتتبّعك — بالإضافة إلى إعدادات Firefox المدمجة لمقاومة تتبّع البصمة. على عكس Mullvad وTor، لا يسعى Arkenfox لجعل متصفحك يشبه متصفحات الآخرين، وهي الطريقة الوحيدة تقريبا لمنع التتبع المتقدم ببصمة المتصفح. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
 
 ## Brave
 
