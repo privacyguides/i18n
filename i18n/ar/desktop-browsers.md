@@ -202,13 +202,13 @@ Firefox يوفّر إعدادات قوية لحماية الخصوصية، مث�
 
 - [ ] أزل التحديد عن **السماح للمواقع بقياس الإعلانات بطريقة تحافظ على الخصوصية (privacy-preserving ad measuremen)**
 
-With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
+مع إصدار Firefox 128، تمت إضافة ميزة جديدة تتعلق بـ[الإسناد المحافظ على الخصوصية](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA)، وقد تم [تفعيله افتراضيًا](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). تسمح PPA للمعلنين بقياس نجاح الإعلانات مباشرة من خلال المتصفح، دون الحاجة إلى أدوات التتبع التقليدية المبنية على JavaScript. نرى أن هذا السلوك لا يندرج بشكل مباشر ضمن المهام الأساسية لمتصفح المستخدم، كما أن تعطيله افتراضيًا في Arkenfox يشير إلى أنه من المناسب إبقاء هذه الميزة غير مفعّلة.
 
-##### HTTPS-Only Mode
+##### وضع HTTPS فقط
 
-- [x] Select **Enable HTTPS-Only Mode in all windows**
+- فعّل **وضع HTTPS فقط لجميع النوافذ (windows)**
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+يساعد هذا في منعك من فتح مواقع لا تستخدم اتصالا مشفّرا (HTTP) عن طريق الخطأ. المواقع التي لا تدعم HTTPS أصبحت نادرة في الوقت الحالي، لذا فإن تفعيل هذا الخيار لن يؤثر كثيرًا — أو قد لا يؤثر إطلاقًا — على تصفحك اليومي.
 
 ##### DNS over HTTPS
 
