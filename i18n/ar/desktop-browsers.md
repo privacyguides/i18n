@@ -2,13 +2,13 @@
 meta_title: "متصفحات ويب تحترم الخصوصية للحاسوب الشخصي والماك - Privacy Guides"
 title: "متصفحات الحاسوب المكتبي"
 icon: material/laptop
-description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
+description: هذه المتصفحات التي تحمي الخصوصية هي ما نوصي به حاليا لتصفّح الإنترنت العادي (غير المجهول) على أجهزة الكمبيوتر.
 cover: desktop-browsers.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Desktop Browser Recommendations
+    name: ترشيحات لمتصفحات تحافظ على الخصوصية (للكمبيوتر)
     url: "./"
     relatedLink: "../mobile-browsers/"
   - 
@@ -31,7 +31,7 @@ schema:
     name: Firefox
     image: /assets/img/browsers/firefox.svg
     url: https://firefox.com
-    sameAs: https://en.wikipedia.org/wiki/Firefox
+    sameAs: https://ar.wikipedia.org/wiki/%D9%81%D9%8A%D8%B1%D9%81%D9%83%D8%B3
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
@@ -46,7 +46,7 @@ schema:
     name: Brave
     image: /assets/img/browsers/brave.svg
     url: https://brave.com
-    sameAs: https://en.wikipedia.org/wiki/Brave_(web_browser)
+    sameAs: https://ar.wikipedia.org/wiki/%D8%A8%D8%B1%D9%8A%D9%81_(%D9%85%D8%AA%D8%B5%D9%81%D8%AD_%D9%88%D9%8A%D8%A8)
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
@@ -57,29 +57,28 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>يوفّر حماية ضد المخاطر التالية:</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: الاقتصاد القائم على تتبع المستخدمين](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. We recommend [Mullvad Browser](#mullvad-browser) if you are focused on strong privacy protections and anti-fingerprinting out of the box, [Firefox](#firefox) for casual internet browsers looking for a good alternative to Google Chrome, and [Brave](#brave) if you need Chromium browser compatibility.
+هذه هي متصفحات الويب المخصصة **لأجهزة الكمبيوتر المكتبي**، والإعدادات التي نوصي بها حاليًا لتصفح الإنترنت العادي (غير المجهول). نوصي باستخدام [متصفح Mullvad](#mullvad-browser) إذا كنت تهتم بالحصول على حماية قوية للخصوصية وإخفاء بصمة الجهاز (anti-fingerprinting) من اللحظة الأولى، و**[Firefox](#firefox)** لمن يتصفح الإنترنت بشكل عادي ويبحث عن بديل جيد لمتصفح Google Chrome، و**[Brave](#brave)** إذا كنت بحاجة إلى التوافق مع المتصفحات المبنية على Chromium.
 
-If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. We make some configuration recommendations on this page, but all browsers other than Tor Browser will be traceable by *somebody* in some manner or another.
+إذا كنت بحاجة إلى تصفّح الإنترنت بشكل مجهول، فعليك استخدام [Tor](tor.md) بدلًا من ذلك. نقدم في هذه الصفحة بعض التوصيات الخاصة بالإعدادات، لكن يجب أن تعلم أن جميع المتصفحات — باستثناء متصفح Tor — يمكن تتبعها من قِبل *جهة ما* بطريقة أو بأخرى.
 
-## Mullvad Browser
+## متصفح Mullvad
 
 <div class="admonition recommendation" markdown>
 
 ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
+متصفح Mullvad مبني على [متصفح Tor](tor.md#tor-browser)، لكن بدون الاتصال بشبكة Tor. يهدف هذا المتصفح إلى توفير تقنيات متصفح Tor الخاصة بـ <strong>إخفاء بصمة الجهاز</strong> لمستخدمي الـVPN، وهي من وسائل الحماية الأساسية ضد [:material-eye-outline: مراقبة الجمهور (Mass Surveillance)](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. يُطور هذا المتصفح من قِبل مشروع Tor، ويُوزع بواسطة [Mullvad](vpn.md#mullvad)، **ولا** يتطلب استخدام خدمة Mullvad VPN.
 
-**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
-
-[:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title="Documentation" }
+[:octicons-home-16: الصفحة الرئيسية](https://mullvad.net/en/browser){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="سياسة الخصوصية" }
+[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title="الشرح التفصيلي" }
 [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>تحميل</summary>
 
 - [:fontawesome-brands-windows: Windows](https://mullvad.net/en/download/browser/windows)
 - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
@@ -89,17 +88,17 @@ If you need to browse the internet anonymously, you should use [Tor](tor.md) ins
 
 </div>
 
-Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+مثل [متصفح Tor](tor.md)، صُمم متصفح Mullvad **لإخفاء بصمة الجهاز**، وذلك بجعل بصمة متصفحك متطابقة مع جميع مستخدمي Mullvad Browser. ويشمل إعدادات افتراضية وإضافات يتم ضبطها تلقائيا وفق مستويات الأمان المدمجة: *العادي*، *الأكثر أمانًا*، و*الأعلى أمانًا*.
 
-Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). When adjusting the security level, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
+لذلك، من الضروري عدم تعديل المتصفح بأي شكل من الأشكال، باستثناء تغيير [مستويات الأمان الافتراضية (security levels)](https://tb-manual.torproject.org/security-settings) فقط. عند تغيير مستوى الأمان (security level)، **يجب** دائمًا إعادة تشغيل المتصفح قبل متابعة استخدامه. وإلا، فقد لا تُطبَّق [إعدادات الأمان بشكل كامل](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw)، مما قد يعرّضك لخطر التتبع واستغلال الثغرات، مقارنة بما تتوقعه من مستوى الأمان الذي اخترته.
 
-Modifications other than adjusting this setting would make your fingerprint unique, defeating the purpose of using this browser. If you want to configure your browser more heavily and fingerprinting is not a concern for you, we recommend [Firefox](#firefox) instead.
+تعديل أي شيء غير مستوى الأمان يجعل متصفحك مختلفًا عن الآخرين، وهذا يلغـي فائدة استخدامه لحماية الخصوصية. إذا كنت تفضل تعديل إعدادات المتصفح بحرية، ولا تمانع إمكانية التتبع، فننصحك باستخدام [Firefox](#firefox) بدلًا منه.
 
-### Anti-Fingerprinting
+### إخفاء بصمة الجهاز
 
-**Without** using a [VPN](vpn.md), Mullvad Browser provides the same protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) as other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad Browser provides these protections out of the box, at the expense of some flexibility and convenience that other private browsers can provide.
+**حتى بدون** استخدام [VPN](vpn.md)، يوفر متصفح Mullvad نفس مستوى الحماية من [سكربتات التتبع البسيطة (بصمة المتصفح)](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting)، تمامًا مثل المتصفحات الأخرى مثل Firefox مع [Arkenfox](#arkenfox-advanced) أو [Brave](#brave). متصفح Mullvad يوفر هذه الحماية تلقائيا، لكن ذلك يأتي على حساب بعض المرونة والراحة التي قد توفّرها المتصفحات الأخرى.
 
-==For the strongest anti-fingerprinting protection, we recommend using Mullvad Browser in conjunction **with** a VPN==, whether that is Mullvad or another recommended VPN provider. When using a VPN with Mullvad Browser, you will share a fingerprint and a pool of IP addresses with many other users, giving you a "crowd" to blend in with. This strategy is the only way to thwart advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
+==للحصول على أقوى حماية ضد تتبّع البصمة، نوصي باستخدام متصفح Mullvad **إلى جانب** VPN==، سواء كان Mullvad أو أحد مزوّدي VPN الآخرين الذين نوصي بهم.  باستخدام VPN مع متصفح Mullvad، يصبح متصفحك وعنوان الـ IP مُشابهين لعدد كبير من المستخدمين، مما يساعدك على الاختفاء ضمن "الزحام" ويقلّل من فرص تتبّعك.  هذه الطريقة هي الوسيلة الوحيدة لتفادي أدوات التتبع المتقدمة، وهي نفس التقنية التي يعتمدها متصفح Tor لمنع التتبع.
 
 Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers, particularly this close to the launch of Mullvad Browser. Mullvad Browser does not have built-in VPN connectivity, nor does it check whether you are using a VPN before browsing; your VPN connection has to be configured and managed separately.
 
