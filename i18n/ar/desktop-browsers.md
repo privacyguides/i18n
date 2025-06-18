@@ -301,24 +301,24 @@ Firefox يوفّر إعدادات قوية لحماية الخصوصية، مث�
 
 </div>
 
-1. This option disables JavaScript, which will break a lot of sites. To fix them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
-2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+1. هذا الخيار يعطل JavaScript، مما قد يؤدي إلى تعطل العديد من المواقع أو عدم عملها بشكل صحيح. لإصلاح ذلك، يمكنك إضافة استثناءات لكل موقع على حدة، وذلك بالضغط على أيقونة الدرع (Shield) في شريط العنوان (Adress bar)، ثم إلغاء تفعيل هذا الخيار من قسم *Advanced controls*.
+2. إذا كنت ترغب في البقاء مسجل الدخول في موقع معين تزوره باستمرار، يمكنك إضافة استثناء خاص لهذا الموقع بالضغط على أيقونة الدرع (Shield) في شريط العنوان (Adress bar)، ثم إلغاء تفعيل هذا الخيار من قسم *Advanced controls*.
 
 #### Privacy and security
 
 <div class="annotate" markdown>
 
-- [x] Select **Don't allow sites to use the V8 optimizer** under *Security* → *Manage V8 security* (1)
-- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
-- [x] Select **Disable non-proxied UDP** under [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [x] Select **Auto-redirect AMP pages**
-- [x] Select **Auto-redirect tracking URLs**
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- [x] اختر **Don't allow sites to use the V8 optimizer** ضمن *Security *← *Manage V8 security* (1)
+- [x] اختر **Automatically remove permissions from unused sites** ضمن *Sites and Shields Settings*
+- [x] اختر **Disable non-proxied UDP** ضمن [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [] أزل التحديد عن **Use Google services for push messaging**
+- [x] اختر **Auto-redirect AMP pages**
+- [x] اختر **Auto-redirect tracking URLs**
+- [x] اختر **Prevent sites from fingerprinting me based on my language preferences**
 
 </div>
 
-1. Disabling the V8 optimizer reduces your attack surface by disabling [*some*](https://grapheneos.social/@GrapheneOS/112708049232710156) parts of JavaScript Just-In-Time (JIT) compilation.
+1. عند تعطيل V8 optimizer، يتم تقليل فرص استغلال الثغرات الأمنية عن طريق إيقاف [*بعض*](https://grapheneos.social/@GrapheneOS/112708049232710156) أجزاء JavaScript Just-In-Time (JIT) compilation.
 
 ##### Tor windows
 
