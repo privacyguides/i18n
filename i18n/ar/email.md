@@ -44,7 +44,7 @@ global:
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">تنوية</p>
 
 عند استخدام تقنيات التشفير التام بين الطرفين (E2EE) مثل OpenPGP، سيظل هناك بعض البيانات الوصفية (metadata) غير مشفرة في رأس الرسالة، وغالبا ما يشمل ذلك سطر العنوان (subject)! اقرأ المزيد عن [بيانات البريد الإلكتروني الوصفية (metadata)](basics/email-security.md#email-metadata-overview).
 
@@ -97,11 +97,11 @@ global:
 
 #### :material-check:{ .pg-green } سُبُل الدفع الخاصَّة
 
-Proton Mail [accepts](https://proton.me/support/payment-options) **cash** by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments.
+يقبل Proton Mail [الدفع](https://proton.me/support/payment-options) **نقدًا عبر البريد** (عن طريق إرسال المبلغ ورقيًا إلى عنوانهم البريدي)، بالإضافة إلى وسائل الدفع المعتادة مثل بطاقات الـ credit/debit، [البيتكوين](advanced/payments.md#other-coins-bitcoin-ethereum-etc)، وPayPal.
 
 #### :material-check:{ .pg-green } أمن الحساب
 
-Proton Mail supports TOTP [two-factor authentication](https://proton.me/support/two-factor-authentication-2fa) and [hardware security keys](https://proton.me/support/2fa-security-key) using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
+يدعم Proton Mail المصادقة الثنائية (TOTP) [two-factor authentication](https://proton.me/support/two-factor-authentication-2fa)، بالإضافة إلى [مفاتيح أمان مادية (hardware security keys)](https://proton.me/support/2fa-security-key) تعمل وفقًا لمعايير FIDO2 أو U2F، مثل مفاتيح YubiKey أو SoloKey. يتطلب استخدام الـ hardware security key تفعيل المصادقة الثنائية (TOTP) أولًا.
 
 #### :material-check:{ .pg-green } أمن البيانات
 
@@ -111,9 +111,9 @@ Proton Mail supports TOTP [two-factor authentication](https://proton.me/support/
 
 #### :material-check:{ .pg-green } تعمية البريد الإلكتروني
 
-عند بريد بروتون [دعم مدمج لتعمية أوبن‌بي‌جي‌بي](https://proton.me/support/how-to-use-pgp) في صفحة البريد. تعمَّى الرسائل المرسلة لحسابات بريد بروتون الأخرى تلقائيًّا، ولك تمكين تعمية أوبن‌بي‌جي‌بي لعناوين البريد خارج بروتون في إعدادات حسابك. Proton also supports automatic external key discovery with WKD. This means that emails sent to other providers which use WKD will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
+عند بريد بروتون [دعم مدمج لتعمية أوبن‌بي‌جي‌بي](https://proton.me/support/how-to-use-pgp) في صفحة البريد. تعمَّى الرسائل المرسلة لحسابات بريد بروتون الأخرى تلقائيًّا، ولك تمكين تعمية أوبن‌بي‌جي‌بي لعناوين البريد خارج بروتون في إعدادات حسابك. يدعم Proton أيضا ميزة البحث التلقائي عن المفاتيح العامة (public keys) الخاصة بمستلمي البريد باستخدام معيار WKD (Web Key Directory). هذا يعني أنك تستطيع إرسال رسائل مشفرة تلقائيا إلى مستخدمين في خدمات بريد أخرى تدعم WKD، دون الحاجة لمشاركة مفاتيح التشفير يدويا مع أي شخص. يتيح لك Proton أيضا [تشفير الرسائل المرسلة إلى عناوين بريد خارجية (غير Proton Mail) بدون استخدام OpenPGP](https://proton.me/support/password-protected-emails)، ودون أن يحتاج المستلم إلى إنشاء حساب في Proton Mail. يتم ذلك من خلال حماية الرسالة بكلمة مرور تختارها أنت، وتشاركها مع المستلم بطريقة آمنة.
 
-Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Proton's own domains, like `@proton.me`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+ينشر Proton Mail أيضا الـ public keys لحساباته عبر بروتوكول HTTP من خلال نظام WKD (Web Key Directory)، مما يسهّل على الآخرين العثور على مفاتيح التشفير الخاصة بك عند إرسال رسائل مشفّرة إليك. This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Proton's own domains, like `@proton.me`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
 #### :material-information-outline:{ .pg-blue } إنهاء الحسابات
 

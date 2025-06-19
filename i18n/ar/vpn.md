@@ -1,8 +1,8 @@
 ---
-meta_title: "Private VPN Service Recommendations and Comparison, No Sponsors or Ads - Privacy Guides"
-title: "خِدْمَات شبكة خاصة افتراضية"
+meta_title: "توصيات ومقارنة بين خِدْمَات الشبكات الخاصة الافتراضية، دون رعاة أو إعلانات - Privacy Guides"
+title: "خدمات الشبكات الخاصة الافتراضية"
 icon: material/vpn
-description: The best VPN services for protecting your privacy and security online. Find a provider here that isn't out to spy on you.
+description: أفضل خدمات الشبكات الخاصة الافتراضية لحماية خصوصيتك وأمانك على الإنترنت. Find a provider here that isn't out to spy on you.
 cover: vpn.webp
 global:
   - 
