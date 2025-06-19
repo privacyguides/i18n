@@ -255,7 +255,7 @@ All issues were addressed and fixed shortly after the [report](https://res.cloud
 
 </div>
 
-Traditionally, 1Password has offered the best password manager user experience for people using macOS and iOS; however, it has now achieved feature parity across all platforms. 1Password's clients boast many features geared towards families and less technical people, such as an intuitive UI for ease-of-use and navigation, as well as advanced functionality. Notably, nearly every feature of 1Password is available within its native mobile or desktop clients.
+Traditionnellement, 1Password offrait une meilleure expérience utilisateur en matière de gestion de mots de passe pour les personnes utilisant macOS et iOS ; cependant, il propose désormais les mêmes fonctionnalités sur toutes les plateformes. Les clients 1Password disposent de nombreuses fonctionnalités destinées aux familles et aux personnes moins techniques comme une interface utilisateur intuitive pour faciliter l'utilisation et la navigation, ainsi que des fonctionnalités avancées. Notamment, presque toutes les fonctionnalités de 1Password sont disponibles dans ses clients de bureau ou mobiles natifs.
 
 Votre coffre-fort 1Password est sécurisé à la fois par votre mot de passe principal et par une clé de sécurité aléatoire de 34 caractères pour chiffrer vos données sur leurs serveurs. Cette clé de sécurité ajoute une couche de protection à vos données, car celles-ci sont sécurisées par une entropie élevée, indépendamment de votre mot de passe principal. De nombreuses autres solutions de gestion des mots de passe dépendent entièrement de la force de votre mot de passe principal pour sécuriser vos données.
 
@@ -267,13 +267,13 @@ Votre coffre-fort 1Password est sécurisé à la fois par votre mot de passe pri
 
 **Psono** est un gestionnaire de mots de passe gratuit et open source d'Allemagne, avec un accent sur la gestion des mots de passe pour les équipes. Il peut être [auto-hébergé](#password-management-servers). Psono prend en charge le partage sécurisé de mots de passe, de fichiers, de signets et d'e-mails.
 
-[:octicons-home-16: Homepage](https://psono.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://doc.psono.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Source Code" }
+[:octicons-home-16: Page d'accueil](https://psono.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Politique de confidentialité" }
+[:octicons-info-16:](https://doc.psono.com){ .card-link title="Documentation"}
+[:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1545581224)
@@ -287,7 +287,7 @@ Votre coffre-fort 1Password est sécurisé à la fois par votre mot de passe pri
 
 Psono fournit une documentation complète pour son produit. Le client web de Psono peut être hébergé par vous-même ; vous pouvez également choisir l'édition Community complète ou l'édition Enterprise avec des fonctionnalités supplémentaires.
 
-In April 2024, Psono added [support for passkeys](https://psono.com/blog/psono-introduces-passkeys) for the browser extension only.
+En avril 2024, Psono a ajouté la [prise en charge des passkeys](https://psono.com/blog/psono-introduces-passkeys) pour l'extension navigateur uniquement.
 
 ### Critères
 
@@ -297,7 +297,7 @@ In April 2024, Psono added [support for passkeys](https://psono.com/blog/psono-i
 
 - Doit utiliser un système E2EE solide, basé sur des normes et moderne.
 - Doit avoir des pratiques de chiffrement et de sécurité soigneusement documentées.
-- Must have a published audit from a reputable, independent third party.
+- Doit disposer d'un audit publié par une tierce partie indépendante et réputée.
 - Toute télémétrie non essentielle doit être facultative.
 - Ne doit pas collecter plus de DPI que nécessaire à des fins de facturation.
 
@@ -316,47 +316,47 @@ Ces options vous permettent de gérer une base de données de mots de passe chif
 
 <div class="admonition recommendation" markdown>
 
-![KeePassXC logo](assets/img/password-management/keepassxc.svg){ align=right }
+![Logo KeePassXC](assets/img/password-management/keepassxc.svg){ align=right }
 
-**KeePassXC** is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal of extending and improving it with new features and bug fixes to provide a feature-rich, cross-platform, and modern open-source password manager.
+**KeePassXC** est un fork communautaire de KeePassX, un portage natif multiplateforme de KeePass Password Safe, dans le but de l'étendre et de l'améliorer avec de nouvelles fonctionnalités et des corrections de bugs afin de fournir un gestionnaire de mots de passe open-source riche en fonctionnalités, multiplateforme et moderne.
 
-[:octicons-home-16: Homepage](https://keepassxc.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://keepassxc.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://keepassxc.org/privacy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://keepassxc.org/docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title="Contribute" }
+[:octicons-code-16:](https://github.com/keepassxreboot/keepassxc){ .card-link title="Code source" }
+[:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title="Contribuer" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
-- [:fontawesome-brands-windows: Windows](https://keepassxc.org/download/#windows)
-- [:simple-apple: macOS](https://keepassxc.org/download/#mac)
-- [:simple-linux: Linux](https://keepassxc.org/download/#linux)
-- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
-- [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
-- [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/oboonakemofpalcgghocfoadofidjkkk)
+    - [:fontawesome-brands-windows: Windows](https://keepassxc.org/download/#windows)
+    - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
+    - [:simple-linux: Linux](https://keepassxc.org/download/#linux)
+    - [:simple-flathub: Flatpak](https://flathub.org/apps/details/org.keepassxc.KeePassXC)
+    - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/keepassxc-browser)
+    - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/oboonakemofpalcgghocfoadofidjkkk)
 
 </details>
 
 </div>
 
-KeePassXC stocke ses données d'exportation sous forme de fichiers [CSV](https://en.wikipedia.org/wiki/Comma-separated_values). You may encounter data loss if you import this file into another password manager. Nous vous conseillons de vérifier chaque entrée manuellement.
+KeePassXC stocke ses données d'exportation sous forme de fichiers [CSV](https://en.wikipedia.org/wiki/Comma-separated_values). Vous pourriez perdre des données si vous importez ce fichier dans un autre gestionnaire de mots de passe. Nous vous conseillons de vérifier chaque entrée manuellement.
 
 ### KeePassDX (Android)
 
 <div class="admonition recommendation" markdown>
 
-![KeePassDX logo](assets/img/password-management/keepassdx.svg){ align=right }
+![Logo KeePassDX](assets/img/password-management/keepassdx.svg){ align=right }
 
-**KeePassDX** is a lightweight password manager for Android; it allows for editing encrypted data in a single file in KeePass format and can fill in forms securely.
+**KeePassDX** est un gestionnaire de mots de passe léger pour Android ; il permet de modifier des données chiffrées dans un seul fichier au format KeePass et de remplir les formulaires de manière sécurisée.
 
-[:octicons-home-16: Homepage](https://keepassdx.com){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title="Contribute" }
+[:octicons-home-16: Page d'accueil](https://keepassdx.com){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Kunzisoft/KeePassDX/wiki){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/Kunzisoft/KeePassDX){ .card-link title="Code source" }
+[:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
 - [:simple-github: GitHub](https://github.com/Kunzisoft/KeePassDX/releases)
@@ -365,23 +365,23 @@ KeePassXC stocke ses données d'exportation sous forme de fichiers [CSV](https:/
 
 </div>
 
-The [pro version](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) of the app allows you to unlock cosmetic content and non-standard protocol features, but more importantly, it helps and encourages development.
+La [version pro](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.pro) de l'application permet de débloquer du contenu cosmétique et des fonctions de protocole non standard, mais surtout, elle aide et encourage le développement.
 
 ### Gopass (CLI)
 
 <div class="admonition recommendation" markdown>
 
-![Gopass logo](assets/img/password-management/gopass.svg){ align=right }
+![Logo Gopass](assets/img/password-management/gopass.svg){ align=right }
 
-**Gopass** is a minimal password manager for the command line written in Go. It can be used within scripting applications and works on all major desktop and server operating systems.
+**Gopass** est un gestionnaire de mot de passe minimal pour la ligne de commande écrit en Go. Il peut être utilisé dans les applications de scripting et fonctionne sur tous les principaux systèmes d'exploitation de bureau et de serveur.
 
 [:octicons-home-16: Homepage](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title="Contribute" }
+[:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Code source" }
+[:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title="Contribuer" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:fontawesome-brands-windows: Windows](https://gopass.pw/#install-windows)
 - [:simple-apple: macOS](https://gopass.pw/#install-macos)

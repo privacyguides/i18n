@@ -5,7 +5,7 @@ icon: 'material/target-account'
 description: Trouver le bon équilibre entre la sécurité, la confidentialité et la commodité est l'une des premières et plus difficiles tâches que vous aurez à accomplir dans votre parcours pour regagner votre vie privée en ligne.
 ---
 
-Trouver le bon équilibre entre la sécurité, la confidentialité et la commodité est l'une des premières et plus difficiles tâches que vous aurez à accomplir dans votre parcours pour regagner votre vie privée en ligne. Tout est une histoire de compromis : plus quelque chose est sécurisé, plus il est limité ou peu pratique, etc. Souvent, les gens trouvent que le problème avec les outils qui leurs sont recommandés est qu'ils sont trop difficiles à utiliser !
+Trouver le bon équilibre entre la sécurité, la confidentialité et la commodité est l'une des premières et plus difficiles tâches que vous aurez à accomplir dans votre parcours pour regagner votre vie privée en ligne. Tout est une histoire de compromis : plus quelque chose est sécurisé, plus il est limité ou peu pratique, etc. Souvent, les gens trouvent que le problème avec les outils qui leur sont recommandés est qu'ils sont trop difficiles à utiliser !
 
 Si vous vouliez utiliser les outils les **plus** sécurisés actuellement disponibles, vous devriez sacrifier *beaucoup* de commodité. Et même dans ce cas, ==rien n'est jamais totalement sécurisé.== On parle de sécurité **élevée**, mais jamais de sécurité **totale**. C'est pourquoi les modèles de menace sont importants.
 
@@ -35,7 +35,7 @@ Un "actif" est quelque chose que vous valorisez et que vous voulez protéger. Da
 
 Pour répondre à cette question, il est important d'identifier qui pourrait vouloir vous cibler, vous ou vos informations. ==Une personne ou une entité qui représente une menace pour vos actifs est un “adversaire.”== Des exemples d'adversaires potentiels sont votre patron, votre ancien partenaire, une entreprise concurrentielle, votre gouvernement ou un pirate informatique sur un réseau public.
 
-*Make a list of your adversaries or those who might want to get hold of your assets. Votre liste peut comprendre des particuliers, une agence gouvernementale ou des sociétés.*
+*Dressez une liste de vos adversaires ou de ceux qui pourraient vouloir s'emparer de vos biens. Votre liste peut comprendre des particuliers, une agence gouvernementale ou des sociétés.*
 
 En fonction de l'identité de vos adversaires, vous souhaiterez peut-être détruire cette liste une fois que vous avez terminé l'élaboration de votre modèle de menace.
 

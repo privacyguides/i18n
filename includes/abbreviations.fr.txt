@@ -8,15 +8,15 @@
 *[CLI]: Interface de ligne de commande
 *[CSV]: Valeurs séparées par des virgules
 *[CVE]: Vulnérabilités et expositions courantes
-*[interface truquée] : Un modèle de conception trompeur destiné à inciter l'utilisateur à réaliser certaines actions
-*[Fonctionnalité d'héritage numérique] : L'héritage numérique fait référence aux fonctions qui vous permettent de donner à d'autres personnes l'accès à vos données après votre décès.
+*[interface truquée] : Un modèle de conception trompeur destiné à inciter l'utilisateur à faire certaines choses
+*[fonctionnalité d'héritage numérique] : L'héritage numérique désigne les fonctions qui vous permettent de donner à d'autres personnes l'accès à vos données après votre décès
 *[DNSSEC]: Extensions de sécurité du système de nom de domaine
 *[DNS]: Système de nom de domaine
 *[DoH]: DNS sur HTTPS
 *[DoQ]: DNS sur QUIC
 *[DoH3]: DNS sur HTTP/3
 *[DoT]: DNS sur TLS
-*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
+*[DPI]: L'inspection approfondie des paquets (Deep Packet Inspection) identifie et bloque les paquets contenant des charges utiles spécifiques
 *[E2EE]: Chiffrement/Chiffré(e)s de bout en bout
 *[ECS]: Sous-réseau du client EDNS
 *[EEA]: Espace économique européen
@@ -27,14 +27,14 @@
 *[FDE]: Chiffrement complet du disque
 *[FIDO]: Identité rapide en ligne
 *[CP]: Confidentialité persistante
-*[fork]: A new software project created by copying an existing project and adding to it independently
+*[fork]: Un nouveau projet de logiciel créé en copiant un projet existant et en le complétant de manière indépendante
 *[RGPD]: Règlement Général sur la Protection des Données
 *[GPG]: GNU Privacy Guard (implémentation de PGP)
 *[GPS]: Système de positionnement global
 *[GUI]: Interface utilisateur graphique
 *[GnuPG]: GNU Privacy Guard (implémentation de PGP)
 *[HDD]: Disque dur
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
+*[HOTP]: Mot de passe à usage unique basé sur un HMAC (code d'authentification de message basé sur le hachage) 
 *[HTTPS]: Protocole de transfert hypertexte sécurisé
 *[HTTP]: Protocole de transfert hypertexte
 *[superviseur]: Logiciel, micrologiciel ou matériel informatique qui répartit les ressources d'une unité centrale entre plusieurs systèmes d'exploitation

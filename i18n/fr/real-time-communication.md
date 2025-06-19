@@ -179,7 +179,7 @@ The client software was independently [audited](https://briarproject.org/news/20
 - Must use E2EE for private messages by default.
 - Must support E2EE for all messages.
 - Must support forward secrecy[^1]
-- Must have a published audit from a reputable, independent third party.
+- Doit disposer d'un audit publié par une tierce partie indépendante et réputée.
 
 ### Dans le meilleur des cas
 

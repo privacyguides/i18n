@@ -6,50 +6,50 @@ description: Votre modèle de menace vous est personnel, mais ce sont là quelqu
 
 Pour faire simple, nous classons nos recommandations dans ces catégories générales de [menaces](threat-modeling.md) ou d'objectifs qui s'appliquent à la plupart des gens. ==Vous pouvez vous sentir concerné par une, plusieurs, toutes, ou bien aucune de ces possibilités==. Les outils et les services que vous utilisez dépendent également de vos objectifs. Il est possible que vous ayez des menaces spécifiques ne rentrant dans aucune de ces catégories, ce qui est tout à fait normal ! L'important est de bien comprendre les avantages et les inconvénients des outils que vous choisissez d'utiliser, car pratiquement aucun d'entre eux ne vous protégera contre toutes les menaces possibles.
 
-<span class="pg-purple">:material-incognito: **Anonymity**</span>
+<span class="pg-purple">:material-incognito: **Anonymat**</span>
 :
 
-Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
+Dissocier votre activité en ligne par rapport à votre identité réelle, vous protégeant ainsi des personnes qui tentent de découvrir spécifiquement *votre* identité.
 
-<span class="pg-red">:material-target-account: **Targeted Attacks**</span>
+<span class="pg-red">:material-target-account: **Attaques ciblées**</span>
 :
 
 Être protégé contre les hackers ou autres entités malveillantes qui essaient d'accéder spécifiquement à *vos* données ou à vos appareils.
 
-<span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
+<span class="pg-viridian">:material-package-variant-closed-remove: **Attaques de la chaîne d'approvisionnement**</span>
 :
 
-Typically, a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+Il s'agit généralement d'une forme d'<span class="pg-red">:material-target-account: Attaque Ciblée</span> centrée sur une vulnérabilité ou un exploit introduit dans un logiciel par ailleurs satisfaisant, soit directement, soit par l'intermédiaire d'une dépendance d'une tierce partie.
 
-<span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
+<span class="pg-orange">:material-bug-outline: **Attaques passives**</span>
 :
 
-Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
+Être protégé contre les logiciels malveillants, les fuites de données et d'autres attaques dirigées contre de nombreuses personnes à la fois.
 
-<span class="pg-teal">:material-server-network: **Service Providers**</span>
+<span class="pg-teal">:material-server-network: **Fournisseurs de services**</span>
 :
 
-Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
+Protéger vos données des fournisseurs de services (par exemple avec E2EE, qui rend vos données illisibles pour le serveur).
 
-<span class="pg-blue">:material-eye-outline: **Mass Surveillance**</span>
+<span class="pg-blue">:material-eye-outline: **Surveillance de masse**</span>
 :
 
-Protection from government agencies, organizations, websites, and services which work together to track your activities.
+Protection contre les agences gouvernementales, les organisations, les sites web et les services qui travaillent ensemble pour suivre vos activités.
 
-<span class="pg-brown">:material-account-cash: **Surveillance Capitalism**</span>
+<span class="pg-brown">:material-account-cash: **Capitalisme de surveillance**</span>
 :
 
-Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
+Se protéger des grands réseaux publicitaires, comme Google et Facebook, ainsi que d'une myriade d'autres collecteurs de données tiers.
 
-<span class="pg-green">:material-account-search: **Public Exposure**</span>
+<span class="pg-green">:material-account-search: **Exposition publique**</span>
 :
 
-Limiting the information about you that is accessible online—to search engines or the public.
+Limiter les informations vous concernant qui sont accessibles en ligne, aux moteurs de recherche ou au public.
 
-<span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
+<span class="pg-blue-gray">:material-close-outline: **Censure**</span>
 :
 
-Avoiding censored access to information or being censored yourself when speaking online.
+Éviter l'accès censuré à l'information ou d'être censuré vous-même lorsque vous vous exprimez en ligne.
 
 Certaines de ces menaces peuvent peser plus que d'autres en fonction de vos préoccupations. Par exemple, un développeur de logiciels ayant accès à des données précieuses ou critiques peut être principalement concerné par les <span class="pg-viridian">:material-package-variant-closed-remove: attaques de la chaîne d'approvisionnement</span> et les <span class="pg-red">:material-target-account: attaques ciblées</span>. Il voudra probablement tout de même protéger ses données personnelles pour éviter qu'elles ne soient englobées dans des programmes de <span class="pg-blue">:material-eye-outline: surveillance de masse</span>. De même, une « personne lambda » peut être principalement concernée par l'<span class="pg-green">:material-account-search: Exposition Publique</span> de ses données personnelles, mais devrait tout de même se méfier des problèmes de sécurité tels que les <span class="pg-orange">:material-bug-outline: Attaques Passives</span> comme les logiciels malveillants affectant ses appareils.
 
@@ -69,7 +69,7 @@ La sécurité et la vie privée sont souvent confondues, car vous avez besoin de
 
 En matière de sécurité des applications, nous ne savons généralement pas (et parfois ne pouvons pas) savoir si le logiciel que nous utilisons est malveillant, ou pourrait un jour le devenir. Même avec les développeurs les plus dignes de confiance, il n'y a généralement aucune garantie que leur logiciel ne présente pas une vulnérabilité grave qui pourrait être exploitée ultérieurement.
 
-Pour minimiser les dommages potentiels qu'un logiciel malveillant peut causer, vous devez employer la sécurité par compartimentation. Il peut s'agir d'utiliser des ordinateurs différents pour des tâches différentes, d'utiliser des machines virtuelles pour séparer différents groupes d'applications connexes ou d'utiliser un système d'exploitation sécurisé mettant l'accent sur le principe de [sandboxing](https://fr.wikipedia.org/wiki/Sandbox_(s%C3%A9curit%C3%A9_informatique)) (ou « bac à sable » en français) des applications et du [mandatory access control](https://fr.wikipedia.org/wiki/Contr%C3%B4le_d'acc%C3%A8s_obligatoire) (ou « Contrôle d'accès obligatoire » en français).
+Pour minimiser les dommages potentiels qu'un logiciel malveillant *pourrait* causer, vous devez employer la sécurité par compartimentation. Il peut s'agir, par exemple, d'utiliser des ordinateurs différents pour des tâches différentes, d'utiliser des machines virtuelles pour séparer différents groupes d'applications connexes, ou d'utiliser un système d'exploitation sécurisé mettant l'accent sur le sandboxing des applications et le contrôle d'accès obligatoire.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
@@ -80,7 +80,7 @@ Les systèmes d'exploitation de bureau sont généralement à la traîne en ce q
 
 </div>
 
-## Attacks against Specific Individuals
+## Attaques contre des individus spécifiques
 
 <span class="pg-red">:material-target-account: Attaques ciblées</span>
 
@@ -95,7 +95,7 @@ Les attaques ciblées contre une personne spécifique sont plus difficiles à g�
 
 Si vous êtes préoccupé par les **attaques physiques**, vous devriez utiliser un système d'exploitation doté d'une implémentation sécurisée de démarrage vérifié, comme Android, iOS, macOS ou [Windows (avec TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). Vous devriez également vous assurer que votre disque est chiffré et que le système d'exploitation utilise un TPM, une [Enclave sécurisée](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) ou un [Element sécurisé](https://developers.google.com/android/security/android-ready-se) pour limiter le taux de tentatives de saisie de la phrase de passe. Vous devriez éviter de partager votre ordinateur avec des personnes en qui vous n'avez pas confiance, car la plupart des systèmes d'exploitation de bureau ne chiffrent pas les données séparément par utilisateur.
 
-## Attacks against Certain Organizations
+## Attaques contre certaines organisations
 
 <span class="pg-viridian">:material-package-variant-closed-remove: Attaques de la chaîne d'approvisionnement</span>
 
@@ -110,19 +110,19 @@ Un exemple notable s'est produit en 2017 lorsque M.E.Doc, un logiciel de comptab
 
 Ce type d'attaque peut être mené de plusieurs manières :
 
-1. A contributor or employee might first work their way into a position of power within a project or organization, and then abuse that position by adding malicious code.
+1. Un collaborateur ou un employé peut d'abord se frayer un chemin jusqu'à une position de pouvoir au sein d'un projet ou d'une organisation, puis abuser de cette position en ajoutant un code malveillant.
 2. Un développeur peut être contraint par un tiers d'ajouter un code malveillant.
 3. Un individu ou un groupe peut identifier une dépendance logicielle tierce (également connue sous le nom de bibliothèque) et s'efforcer de l'infiltrer à l'aide des deux méthodes susmentionnées, en sachant qu'elle sera utilisée par les développeurs de logiciels "en aval".
 
-Ces types d'attaques peuvent nécessiter beaucoup de temps et de préparation et sont risquées car elles peuvent être détectées, en particulier dans les projets open source s'ils sont populaires et s'ils suscitent un intérêt extérieur. Malheureusement, ce sont aussi parmi les plus dangereuses, car il est très difficile de les atténuer complètement. We would encourage readers to only use software which has a good reputation and makes an effort to reduce risk by:
+Ces types d'attaques peuvent nécessiter beaucoup de temps et de préparation et sont risquées car elles peuvent être détectées, en particulier dans les projets open source s'ils sont populaires et s'ils suscitent un intérêt extérieur. Malheureusement, ce sont aussi parmi les plus dangereuses, car il est très difficile de les atténuer complètement. Nous encourageons les lecteurs à n'utiliser que des logiciels qui ont une bonne réputation et qui s'efforcent de réduire les risques en :
 
-1. N'adoptant que des logiciels populaires qui existent depuis un certain temps. The more interest in a project, the greater likelihood that external parties will notice malicious changes. Un acteur malveillant devra également consacrer plus de temps à gagner la confiance de la communauté par des contributions significatives.
+1. N'adoptant que des logiciels populaires qui existent depuis un certain temps. Plus l'intérêt pour un projet est grand, plus il y a de chances que des parties externes remarquent les changements malveillants. Un acteur malveillant devra également consacrer plus de temps à gagner la confiance de la communauté par des contributions significatives.
 2. Trouvant des logiciels qui publient des binaires avec des plates-formes d'infrastructure de construction fiables et largement utilisées, par opposition aux stations de travail des développeurs ou aux serveurs auto-hébergés. Certains systèmes comme GitHub Actions vous permettent d'inspecter le script de construction qui s'exécute publiquement pour plus de confiance. Cela réduit la probabilité qu'un logiciel malveillant présent sur la machine d'un développeur puisse infecter ses paquets, et permet de s'assurer que les binaires produits sont bien produits correctement.
 3. Recherchant la signature de code sur les commits individuels et les versions du code source, ce qui crée une trace vérifiable de qui a fait quoi. Par exemple : le code malveillant se trouvait-il dans le dépôt du logiciel ? Quel développeur l'a ajouté ? A-t-il été ajouté au cours du processus de construction ?
-4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what each change is supposed to accomplish. Des messages clairs peuvent faciliter la vérification, l'audit et la détection des bugs pour les personnes extérieures au projet.
-5. Notant le nombre de contributeurs ou de mainteneurs d'un programme. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enabling undesirable behavior. Cela pourrait bien signifier que les logiciels développés par les "Géants du Web" font l'objet d'un examen plus approfondi que ceux d'un développeur isolé qui n'a de comptes à rendre à personne.
+4. Vérifiant si le code source comporte des messages de commit significatifs (tels que les [commits conventionnels](https://conventionalcommits.org)) qui expliquent ce que la modification est censée accomplir. Des messages clairs peuvent faciliter la vérification, l'audit et la détection des bugs pour les personnes extérieures au projet.
+5. Notant le nombre de contributeurs ou de mainteneurs d'un programme. Un développeur isolé peut être plus susceptible d'être contraint d'ajouter un code malveillant par un tiers, ou d'activer par négligence un comportement indésirable. Cela pourrait bien signifier que les logiciels développés par les "Géants du Web" font l'objet d'un examen plus approfondi que ceux d'un développeur isolé qui n'a de comptes à rendre à personne.
 
-## Privacy from Service Providers
+## Protection de ses données des fournisseurs de services
 
 <span class="pg-teal">:material-server-network: Fournisseurs de service</span>
 
@@ -137,13 +137,13 @@ Heureusement, le chiffrement de bout en bout peut atténuer ce problème en rend
 
 Dans la pratique, l'efficacité des différentes mises en œuvre du chiffrement de bout en bout varie. Des applications telles que [Signal](../real-time-communication.md#signal) s'exécutent nativement sur votre appareil, et chaque copie de l'application est la même sur différentes installations. Si le fournisseur de services venait à ouvrir une porte dérobée dans son application pour tenter de voler vos clés privées, cela pourrait être détecté ultérieurement par rétro-ingénierie.
 
-On the other hand, web-based E2EE implementations, such as Proton Mail's web app or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. Un serveur malveillant pourrait cibler une personne spécifique et lui envoyer un code JavaScript malveillant pour voler sa clé de chiffrement, et il serait extrêmement difficile pour l'utilisateur de s'en rendre compte. Même si cette personne s'aperçoit de la tentative de vol de sa clé, il serait incroyablement difficile de prouver que c'est le fournisseur qui tente de le faire, car le serveur peut choisir de servir différents clients web à différentes personnes.
+D'autre part, les implémentations E2EE basées sur le web, telles que l'application web de Proton Mail ou *Web Vault* de Bitwarden, s'appuient sur le serveur qui sert dynamiquement le code JavaScript au navigateur pour gérer la cryptographie. Un serveur malveillant peut vous cibler et vous envoyer un code JavaScript malveillant pour voler votre clé de chiffrement (et il serait extrêmement difficile de le remarquer). Même si cette personne s'aperçoit de la tentative de vol de sa clé, il serait incroyablement difficile de prouver que c'est le fournisseur qui tente de le faire, car le serveur peut choisir de servir différents clients web à différentes personnes.
 
 Par conséquent, lorsque vous comptez sur le chiffrement de bout en bout, vous devriez choisir d'utiliser des applications natives plutôt que des clients web, dans la mesure du possible.
 
 </div>
 
-Même avec le chiffrement de bout en bout, les fournisseurs de services peuvent toujours vous profiler sur la base des **métadonnées**, qui ne sont généralement pas protégées. While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. La protection des métadonnées est assez rare, et vous devriez prêter une attention particulière à la documentation technique du logiciel que vous utilisez pour voir s'il y a une minimisation ou une protection des métadonnées, si cela vous préoccupe.
+Même avec le chiffrement de bout en bout, les fournisseurs de services peuvent toujours vous profiler sur la base des **métadonnées**, qui ne sont généralement pas protégées. Si le fournisseur de services ne peut pas lire vos messages, il peut néanmoins observer des éléments importants, tels que les personnes à qui vous parlez, la fréquence des messages que vous leur envoyez et les moments où vous êtes généralement actif. La protection des métadonnées est assez rare, et vous devriez prêter une attention particulière à la documentation technique du logiciel que vous utilisez pour voir s'il y a une minimisation ou une protection des métadonnées, si cela vous préoccupe.
 
 ## Programmes de surveillance de masse
 
@@ -156,22 +156,22 @@ La surveillance de masse est un effort visant à surveiller le "comportement, de
 
 Si vous souhaitez en savoir plus sur les méthodes de surveillance et la manière dont elles sont mises en œuvre dans votre ville, vous pouvez également consulter l'[Atlas de la surveillance](https://atlasofsurveillance.org/) de l'[Electronic Frontier Foundation](https://eff.org/).
 
-In France, you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
+En France, vous pouvez consulter le [site Technopolice](https://technopolice.fr/villes) tenu par l'association à but non lucratif La Quadrature du Net.
 
 </div>
 
-Les gouvernements justifient souvent les programmes de surveillance de masse comme des moyens nécessaires pour combattre le terrorisme et prévenir la criminalité. However, as breaches of human rights, they're most often used to disproportionately target minority groups and political dissidents, among others.
+Les gouvernements justifient souvent les programmes de surveillance de masse comme des moyens nécessaires pour combattre le terrorisme et prévenir la criminalité. Toutefois, en tant que violations des droits de l'homme, elles sont le plus souvent utilisées pour cibler de manière disproportionnée les groupes minoritaires et les dissidents politiques, entre autres.
 
 <div class="admonition quote" markdown>
 <p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
 
-Face aux révélations d'Edward Snowden sur des programmes gouvernementaux tels que [PRISM](https://fr.wikipedia.org/wiki/PRISM_(programme_de_surveillance)) et [Upstream](https://fr.wikipedia.org/wiki/Upstream_collection), les responsables des services de renseignement ont également admis que la NSA collectait secrètement des enregistrements sur pratiquement tous les appels téléphoniques des Américains — qui appelle qui ; quand et pendant combien de temps. Ce type d'informations, lorsqu'il est amassé par la NSA quotidiennement, peut révéler des détails terriblement sensibles sur la vie des gens en associant ces données : s'ils ont appelé un pasteur, une clinique d'avortement, un centre d'addiction ou une ligne d'assistance contre le suicide par exemple.
+Après les révélations d'Edward Snowden sur des programmes gouvernementaux tels que [PRISM](https://en.wikipedia.org/wiki/PRISM) et [Upstream](https://en.wikipedia.org/wiki/Upstream_collection), les responsables du renseignement ont également admis que la NSA collectait secrètement depuis des années des enregistrements sur pratiquement tous les appels téléphoniques des Américains - qui appelle qui, quand ces appels sont effectués et combien de temps ils durent. Ce type d'informations, lorsqu'il est amassé par la NSA quotidiennement, peut révéler des détails terriblement sensibles sur la vie des gens en associant ces données : s'ils ont appelé un pasteur, une clinique d'avortement, un centre d'addiction ou une ligne d'assistance contre le suicide par exemple.
 
 </div>
 
 Malgré la surveillance de masse croissante aux États-Unis, le gouvernement a constaté que les programmes de surveillance de masse comme la section 215 ont eu "peu de valeur unique" en ce qui concerne l'arrêt de crimes réels ou de complots terroristes, les efforts faisant largement double emploi avec les programmes de surveillance ciblée du FBI.[^2]
 
-Online, you can be tracked via a variety of methods, including but not limited to:
+En ligne, vous pouvez être suivi par une grande variété de méthodes, y compris, mais pas que, par :
 
 - Votre adresse IP
 - Les cookies de votre navigateur
@@ -181,7 +181,7 @@ Online, you can be tracked via a variety of methods, including but not limited t
 
 Si vous êtes préoccupé par les programmes de surveillance de masse, vous pouvez utiliser des stratégies comme cloisonner vos identités virtuelles, vous fondre dans la masse des utilisateurs, ou, dans la mesure du possible, simplement éviter de renseigner des informations qui pourraient permettre de vous identifier.
 
-## Surveillance as a Business Model
+## La surveillance comme modèle économique
 
 <span class="pg-brown">:material-account-cash: Capitalisme de surveillance</span>
 
@@ -189,7 +189,7 @@ Si vous êtes préoccupé par les programmes de surveillance de masse, vous pouv
 
 Pour de nombreuses personnes, le pistage et la surveillance par des sociétés privées constituent une préoccupation croissante. Les réseaux publicitaires omniprésents, tels que ceux exploités par Google et Facebook, s'étendent sur internet bien au-delà des sites qu'ils contrôlent et suivent vos actions tout le long de votre navigation. L'utilisation d'outils tels que des bloqueurs de contenu pour limiter les requêtes du réseau vers leurs serveurs, et la lecture des politiques de confidentialité des services que vous utilisez peuvent vous aider à éviter de nombreux adversaires de base (bien que cela ne puisse pas empêcher complètement le pistage).[^4]
 
-Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. Vous ne pouvez pas automatiquement supposer que vos données sont en sécurité simplement parce que le service que vous utilisez n'a pas un modèle économique typique de l'AdTech ou du pistage. La meilleure protection contre la collecte de données par les entreprises est de chiffrer ou d'obscurcir vos données dans la mesure du possible, afin qu'il soit plus difficile pour les différents fournisseurs de corréler les données entre elles et d'établir un profil sur vous.
+En outre, même les entreprises n'appartenant pas au secteur de l'*AdTech* ou du suivi peuvent partager vos informations avec des [courtiers en données](https://en.wikipedia.org/wiki/Information_broker) (tels que Cambridge Analytica, Experian ou Datalogix) ou d'autres parties. Vous ne pouvez pas automatiquement supposer que vos données sont en sécurité simplement parce que le service que vous utilisez n'a pas un modèle économique typique de l'AdTech ou du pistage. La meilleure protection contre la collecte de données par les entreprises est de chiffrer ou d'obscurcir vos données dans la mesure du possible, afin qu'il soit plus difficile pour les différents fournisseurs de corréler les données entre elles et d'établir un profil sur vous.
 
 ## Limiter l'information publique
 
@@ -211,7 +211,7 @@ La censure en ligne peut être exercée (à des degrés divers) par des acteurs 
 
 La censure sur les plateformes privées est de plus en plus courante, car des plateformes comme Twitter et Facebook cèdent à la demande du public, aux pressions du marché et à celles des agences gouvernementales. Les pressions gouvernementales peuvent prendre la forme de demandes secrètes adressées aux entreprises, comme la Maison Blanche [demandant le retrait](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) d'une vidéo provocante sur YouTube, ou de demandes manifestes, comme le gouvernement chinois exigeant des entreprises qu'elles adhèrent à un régime de censure strict.
 
-People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../social-networks.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
+Les personnes préoccupées par la menace de la censure peuvent utiliser des technologies comme [Tor](../advanced/tor-overview.md) pour la contourner et soutenir des plateformes de communication résistantes à la censure comme [Matrix](../social-networks.md#element), qui ne dispose pas d'une autorité de compte centralisée pouvant fermer des comptes de manière arbitraire.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>

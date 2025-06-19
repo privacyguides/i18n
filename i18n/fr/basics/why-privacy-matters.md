@@ -12,7 +12,7 @@ La protection de la vie privée concerne en fin de compte des informations humai
 
 De nombreuses personnes confondent les concepts de **vie privée**, **sécurité**, et **anonymat**. Vous verrez des gens critiquer divers produits en disant qu'ils ne sont pas privés, alors qu'ils veulent dire qu'ils ne garantissent pas l'anonymat, par exemple. Sur ce site web, nous abordons ces trois sujets, mais il est important que vous compreniez la différence entre eux et quand chacun d'entre eux entre en jeu.
 
-[:material-movie-open-play-outline: Vidéo : Arrêtez de confondre Confidentialité, Anonymat, et Sécurité](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security ""){.md-button}
+[:material-movie-open-play-outline: Vidéo : Ne plus confondre vie privée, anonymat et sécurité](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security ""){.md-button}
 
 <!-- markdownlint-disable-next-line -->
 **Confidentialité**

@@ -5,7 +5,7 @@ description: Découvrez comment partager vos fichiers en toute confidentialité 
 cover: file-sharing.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protège contre les menaces suivantes :</small>
 
 - [:material-server-network: Fournisseurs de service](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
@@ -13,7 +13,7 @@ Découvrez comment partager vos fichiers en toute confidentialité entre vos app
 
 ## Partage de fichiers
 
-Si vous utilisez déjà [Proton Drive](cloud.md#proton-drive)[^1] ou que vous disposez d'un abonnement à [Bitwarden](passwords.md#bitwarden) Premium[^2], envisagez d'utiliser les fonctionnalités de partage de fichiers qu'ils offrent, tous deux utilisant le cryptage de bout en bout. Otherwise, the standalone options listed here ensure that the files you share are not read by a remote server.
+Si vous utilisez déjà [Proton Drive](cloud.md#proton-drive)[^1] ou que vous disposez d'un abonnement à [Bitwarden](passwords.md#bitwarden) Premium[^2], envisagez d'utiliser les fonctionnalités de partage de fichiers qu'ils offrent, tous deux utilisant le cryptage de bout en bout. Sinon, les options autonomes listées ici s'assurent que les fichiers que vous partagez ne sont pas lus par un serveur distant.
 
 ### Send
 
@@ -43,9 +43,9 @@ ffsend upload --host https://send.vis.ee/ FICHIER
 
 <div class="admonition recommendation" markdown>
 
-![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ align=right }
+![Logo OnionShare](assets/img/file-sharing-sync/onionshare.svg){ align=right }
 
-**OnionShare** is an open-source tool that lets you securely and [:material-incognito: anonymously](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } share a file of any size. Il fonctionne en démarrant un serveur web accessible en tant que service oignon Tor, avec une URL non devinable que vous pouvez partager avec les destinataires pour télécharger ou envoyer des fichiers.
+**OnionShare** est un outil open-source qui vous permet de partager en toute sécurité et [:material-incognito: anonymement](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } un fichier de n'importe quelle taille. Il fonctionne en démarrant un serveur web accessible en tant que service oignon Tor, avec une URL non devinable que vous pouvez partager avec les destinataires pour télécharger ou envoyer des fichiers.
 
 [:octicons-home-16: Page d'accueil](https://onionshare.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Service onion" }
