@@ -202,7 +202,7 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+تتيح لك [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) مزامنة بيانات التصفح الخاصة بك (مثل السجل، والإشارات المرجعية (Bookmarks)، وغيرها) والوصول إليها من جميع أجهزتك، دون الحاجة إلى إنشاء حساب، مع حمايتها باستخدام التشفير التام بين الطرفين (E2EE).
 
 ## Cromite (Android)
 

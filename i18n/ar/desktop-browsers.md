@@ -351,43 +351,43 @@ Firefox يوفّر إعدادات قوية لحماية الخصوصية، مث�
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Continue running background apps when Brave is closed** to disable background apps (1)
+أزل التحديد عن Continue running background apps when Brave is closed لتعطيل تشغيل التطبيقات في الخلفية (1)
 
 </div>
 
-1. This option is not present on all platforms.
+1. قد لا يظهر هذا الخيار في بعض الأنظمة.
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+تتيح لك [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) مزامنة بيانات التصفح الخاصة بك (مثل السجل، والإشارات المرجعية (Bookmarks)، وغيرها) والوصول إليها من جميع أجهزتك، دون الحاجة إلى إنشاء حساب، مع حمايتها باستخدام التشفير التام بين الطرفين (E2EE).
 
 #### Brave Rewards and Wallet
 
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+تتيح لك **Brave Rewards** كسب عملة BAT (Basic Attention Token) الرقمية مقابل القيام ببعض الأنشطة داخل متصفح Brave، مثل مشاهدة الإعلانات أو دعم المواقع التي تزورها. تعتمد هذه الميزة على حساب تتم إدارته من قبل جهة خارجية (وليس من طرفك مباشرة)، كما تتطلّب التحقق من هويتك (إجراءات اعرف عميلك – KYC) من خلال عدد محدود من المزوّدين. لا نوصي باستخدام BAT كعملة رقمية خاصة، كما لا نوصي باستخدام [custodial wallet](advanced/payments.md#wallet-custody)، لذلك نُفضل تجنب هذه الميزة.
 
-**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
+تعمل **Brave Wallet** محليا (Locally) على جهازك، لكنها لا تدعم أي عملات رقمية تركّز على الخصوصية، لذلك لا ننصح باستخدام هذه الميزة أيضا.
 
-## Criteria
+## المعايير
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**نود أن نوضح أننا لا نتبع أيًّا من المشاريع التي نوصي بها.** نحن نعتمد على [معايير واضحة](about/criteria.md) ومجموعة شروط محددة تساعدنا في تقديم توصيات محايدة وموضوعية. قبل استخدام أي مشروع، تأكد من مراجعة هذه القائمة بعناية، وخصص بعض الوقت لإجراء بحثك الشخصي، فاختيارك الصحيح يبدأ من وعيك وفهمك لما تستخدمه.
 
-### Minimum Requirements
+### الحد الأدنى من المتطلبات
 
-- Must be open-source software.
-- Must support automatic updates.
-- Must receive engine updates in 0-1 days from upstream release.
-- Must be available on Linux, macOS, and Windows.
-- Any changes required to make the browser more privacy-respecting must not negatively impact user experience.
-- Must block third-party cookies by default.
-- Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- يجب أن يكون البرنامج مفتوح المصدر (open-source software).
+- يشترط أن يكون البرنامج قادرا على التحديث تلقائيا دون تدخل يدوي.
+- يشترط أن يتلقى البرنامج تحديثات المحرك خلال 0–1 يوم من إصدارها من المشروع الأصلي (المصدر الرسمي للتطوير – upstream).
+- يجب أن يكون متاحا على أنظمة Linux وmacOS وWindows.
+- أي تغييرات تُجري لتحسين الخصوصية يجب ألا تضر بسهولة أو راحة استخدام المتصفح.
+- يشترط حظر كوكيز الطرف الثالث (third-party cookies) تلقائيًا دون تدخل المستخدم.
+- يجب أن يدعم [تجزئة الحالة (state partitioning)](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning)، وهي تقنية تفصل بيانات كل موقع عن الآخر للحد من التتبع بين المواقع.[^1]
 
-### Best-Case
+### أحسن الاحتمالات
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+تمثل معاييرنا في أحسن الاحتمالات التصور المثالي لما ينبغي أن يقدمه المشروع الأفضل ضمن هذه الفئة. ليست جميع توصياتنا مُلزمة بتوفير كل هذه الميزات، لكن المشاريع التي تتوافق معها بشكل أكبر قد تُصنف في مرتبة أعلى، لأنها تقترب أكثر من المعايير التي نعتبرها نموذجا لأفضل مستوى ممكن.
 
-- Should include built-in content blocking functionality.
-- Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Should support Progressive Web Apps (PWAs). PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps because PWAs benefit from your browser's regular security updates.
+- يُفضل أن يحتوي على ميزة مدمجة لحظر المحتوى (مثل الإعلانات وأدوات التتبع).
+- ينبغي أن يوفر دعما لفصل الكوكيز بين المواقع المختلفة، كما هو الحال في ميزة [Multi-Account Containers](https://support.mozilla.org/kb/containers).
+- يُفضل أن يدعم تطبيقات الويب القابلة للتثبيت (Progressive Web Apps)، وهي تطبيقات يمكن تشغيلها من المتصفح وتعمل وكأنها تطبيقات مستقلة على الجهاز، مثل تطبيقات الهاتف أو سطح المكتب (PC). تمكنك تطبيقات الويب القابلة للتثبيت (PWAs) من استخدام بعض المواقع كما لو كانت برامج مستقلة مثبتة على حاسوبك، دون الحاجة إلى فتح المتصفح في كل مرة. يعتبر استخدام PWAs خيارا أكثر أمانا من بعض التطبيقات المبنية على Electron، لأنها تعتمد على متصفحك وتستفيد من تحديثاته الأمنية المستمرة.
 - Should not include add-on functionality (bloatware) that does not impact user privacy.
 - Should not collect telemetry by default.
 - Should provide an open-source sync server implementation.
