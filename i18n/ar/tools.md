@@ -141,7 +141,7 @@ For more details about each project, why they were chosen, and additional tips o
 ## Top 3 Private VPN Providers
 
 <details class="danger" markdown>
-<summary>VPNs do not provide anonymity</summary>
+<summary>لا تحميك الشبكات الخاصة الافتراضية من التعرف على هويتك</summary>
 
 Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
 

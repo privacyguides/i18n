@@ -2,7 +2,7 @@
 meta_title: "توصيات ومقارنة بين خِدْمَات الشبكات الخاصة الافتراضية، دون رعاة أو إعلانات - Privacy Guides"
 title: "خدمات الشبكات الخاصة الافتراضية"
 icon: material/vpn
-description: أفضل خدمات الشبكات الخاصة الافتراضية لحماية خصوصيتك وأمانك على الإنترنت. Find a provider here that isn't out to spy on you.
+description: أفضل خدمات الشبكات الخاصة الافتراضية لحماية خصوصيتك وأمانك على الإنترنت. اعثر هنا على مزود خدمة لا يريد التجسس عليك.
 cover: vpn.webp
 global:
   - 
@@ -10,20 +10,20 @@ global:
     - "table tbody"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>يوفر الحماية من التهديدات التالية:</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: رأسمالية المراقبة](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-If you're looking for additional *privacy* from your ISP, on a public Wi-Fi network, or while torrenting files, a **VPN** may be the solution for you.
+إذا كنت تبحث عن *خصوصية* إضافية من مزود خدمة الإنترنت الخاص بك، أو على شبكة Wi-Fi عامة، أو في أثناء تحميل ملفات تورنت، فقد تكون **الشبكة الافتراضية الخاصة** هي الحل المناسب لك.
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">VPNs do not provide anonymity</p>
+<p class="admonition-title">لا تحميك الشبكات الخاصة الافتراضية من التعرف على هويتك</p>
 
-Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+**لن يؤدي** استخدام شبكة خاصة افتراضية إلى إبقاء عاداتك التصفحية مجهولة الهُوِيَّة، ولن يضيف حماية إلى الاتصالات التي تستخدم ميثاق نَقْل النُصوصٍ التَرابُطيَّة (HTTP) الغير آمن.
 
-If you are looking for **anonymity**, you should use the Tor Browser. If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
+إذا كنت تبحث عن **عدم الكشف عن هويتك**، فعليك استخدام متصفح Tor. إذا كنت تبحث عن **أمان** إضافي، يجب التأكد من الاتصال بمواقع الويب باستخدام ميثاق نَقْل النُصوصٍ التَرابُطيَّة الآمن (HTTPS). الشبكات الخاصة الافتراضية ليست بديلاً للممارسات الأمنية الجيدة.
 
-[Download Tor](https://torproject.org){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+[نزّل Tor](https://torproject.org){ .md-button .md-button--primary } [خرافات وأسئلة شائعة خاصة بـ Tor](advanced/tor-overview.md){ .md-button }
 
 </div>
 
@@ -31,29 +31,29 @@ If you are looking for **anonymity**, you should use the Tor Browser. If you're 
 
 ## موفِّرو الخدمة الموصى بهم
 
-Our recommended providers use encryption, support WireGuard & OpenVPN, and have a no logging policy. للمزيد من المعلومات، اطلع على [قائمة المعايير](#criteria).
+يستخدم مزودو الخدمات الذين نوصي بهم التشفير، ويدعمون WireGuard & OpenVPN، ولديهم سياسة عدم تسجيل الاتصالات. للمزيد من المعلومات، اطلع على [قائمة المعايير](#criteria).
 
-| Provider              | Countries | WireGuard                     | Port Forwarding                                        | IPv6                                                       | Anonymous Payments |
-| --------------------- | --------- | ----------------------------- | ------------------------------------------------------ | ---------------------------------------------------------- | ------------------ |
-| [Proton](#proton-vpn) | 112+      | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Partial Support | :material-information-outline:{ .pg-blue } Limited Support | Cash               |
-| [IVPN](#ivpn)         | 37+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-information-outline:{ .pg-blue } Outgoing Only   | Monero, Cash       |
-| [ملفاد](#mullvad)     | 49+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-check:{ .pg-green }                              | Monero, Cash       |
+| مزوّد                 | البُلدان | WireGuard                     | إعادة توجيه المنفذ (Port Forwarding)                | IPv6                                                     | المدفوعات المخفيّة |
+| --------------------- | -------- | ----------------------------- | --------------------------------------------------- | -------------------------------------------------------- | ------------------ |
+| [Proton](#proton-vpn) | 112+     | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } الدعم الجزئي | :material-information-outline:{ .pg-blue } الدعم المحدود | نقداً              |
+| [IVPN](#ivpn)         | 37+      | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }              | :material-information-outline:{ .pg-blue } الصادر فقط    | Monero, نقداً      |
+| [ملفاد](#mullvad)     | 49+      | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }              | :material-check:{ .pg-green }                            | Monero, نقداً      |
 
-### Proton VPN
+### الشبكات الخاصة الافتراضية من Proton
 
 <div class="admonition recommendation" markdown>
 
-![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
+![شعار الشبكات الخاصة الافتراضية من Proton] (assets/img/vpn/protonvpn.svg){ align=right }
 
-**Proton VPN** is a strong contender in the VPN space, and they have been in operation since 2016. Proton AG is based in Switzerland and offers a limited free tier, as well as a more featured premium option.
+**الشبكات الخاصة الافتراضية من Proton** هي منافس قوي في مجال الشبكات الخاصة الافتراضية، وهي تعمل منذ عام 2016. يقع مقر شركة Proton AG في سويسرا وتقدم فئة مجانية محدودة، بالإضافة إلى خِيار مميز أكثر.
 
-[:octicons-home-16: Homepage](https://protonvpn.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://protonvpn.com/support){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
+[:octicons-home-16: صفحتهم](https://protonvpn.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="سياسة الخصوصية" }
+[:octicons-info-16:](https://protonvpn.com/support){ .card-link title=التوثيق}
+[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="النص المصدري" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>التنزيلات</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1437005085)
@@ -66,9 +66,9 @@ Our recommended providers use encryption, support WireGuard & OpenVPN, and have 
 
 </div>
 
-#### :material-check:{ .pg-green } 112 Countries
+#### :material-check:{ .pg-green } 112 دولة
 
-Proton VPN has [servers in 112 countries](https://protonvpn.com/vpn-servers) or [5](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/free-vpn/server).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
+لدى Proton VPN [خوادم في 112 دولة](https://protonvpn.com/vpn-servers) أو [5](https://protonvpn.com/support/how-to-create-free-vpn-account) إذا كنت تستخدم [خطتهم المجانية](https://protonvpn.com/free-vpn/server).(1) اختيار مزود VPN مع خادم أقرب خادم إليك سيقلل من زمن انتقال حركة مرور الشبكة التي ترسلها. This is because of a shorter route (fewer hops) to the destination.
 { .annotate }
 
 1. Last checked: 2024-08-06

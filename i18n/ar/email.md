@@ -113,15 +113,15 @@ global:
 
 عند بريد بروتون [دعم مدمج لتعمية أوبن‌بي‌جي‌بي](https://proton.me/support/how-to-use-pgp) في صفحة البريد. تعمَّى الرسائل المرسلة لحسابات بريد بروتون الأخرى تلقائيًّا، ولك تمكين تعمية أوبن‌بي‌جي‌بي لعناوين البريد خارج بروتون في إعدادات حسابك. يدعم Proton أيضا ميزة البحث التلقائي عن المفاتيح العامة (public keys) الخاصة بمستلمي البريد باستخدام معيار WKD (Web Key Directory). هذا يعني أنك تستطيع إرسال رسائل مشفرة تلقائيا إلى مستخدمين في خدمات بريد أخرى تدعم WKD، دون الحاجة لمشاركة مفاتيح التشفير يدويا مع أي شخص. يتيح لك Proton أيضا [تشفير الرسائل المرسلة إلى عناوين بريد خارجية (غير Proton Mail) بدون استخدام OpenPGP](https://proton.me/support/password-protected-emails)، ودون أن يحتاج المستلم إلى إنشاء حساب في Proton Mail. يتم ذلك من خلال حماية الرسالة بكلمة مرور تختارها أنت، وتشاركها مع المستلم بطريقة آمنة.
 
-ينشر Proton Mail أيضا الـ public keys لحساباته عبر بروتوكول HTTP من خلال نظام WKD (Web Key Directory)، مما يسهّل على الآخرين العثور على مفاتيح التشفير الخاصة بك عند إرسال رسائل مشفّرة إليك. This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Proton's own domains, like `@proton.me`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+ينشر Proton Mail أيضا الـ public keys لحساباته عبر بروتوكول HTTP من خلال نظام WKD (Web Key Directory)، مما يسهّل على الآخرين العثور على مفاتيح التشفير الخاصة بك عند إرسال رسائل مشفّرة إليك. وبفضل هذه الميزة، يمكن لأي شخص يستخدم خدمة بريد مختلفة العثور على مفتاح التشفير الخاص بك في Proton Mail بسهولة، وإرسال رسائل مشفّرة إليك دون خطوات معقّدة، باستخدام التشفير التام بين الطرفين (E2EE). ينطبق هذا فقط على عناوين البريد التي تنتهي بأحد نطاقات Proton الخاصة، مثل `@proton.me`. إذا كنت تستخدم نطاقا مخصصًا (أي عنوان بريد إلكتروني ينتهي باسم نطاقك الخاص بدلًا من ‎@proton.me)، فستحتاج إلى [إعداد WKD](basics/email-security.md#what-is-the-web-key-directory-standard) يدويا بشكل منفصل.
 
 #### :material-information-outline:{ .pg-blue } إنهاء الحسابات
 
-إن كان عندك حساب مدفوع [ولم تدفع الفاتورة](https://proton.me/support/delinquency) ١٤ يومًا فلن تستطيع الوصول لبياناتك. وبعد ثلاثين يوم يصبح حسابك خاملًا لا يستقبل الرسائل. وسوف يستمر إصدار الفواتير خلال هذه المدَّة. Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address of a deactivated account.
+إن كان عندك حساب مدفوع [ولم تدفع الفاتورة](https://proton.me/support/delinquency) ١٤ يومًا فلن تستطيع الوصول لبياناتك. وبعد ثلاثين يوم يصبح حسابك خاملًا لا يستقبل الرسائل. وسوف يستمر إصدار الفواتير خلال هذه المدَّة. سيقوم Proton [بحذف الحسابات المجانية غير النشطة](https://proton.me/support/inactive-accounts) بعد مرور عام من عدم استخدامها. إذا تم إلغاء تفعيل حسابك، **فلن تتمكن** من استخدام نفس عنوان البريد الإلكتروني مرة أخرى.
 
 #### :material-information-outline:{ .pg-blue } وظائف إضافية
 
-Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
+تمنحك خطة [Proton Unlimited](https://proton.me/support/proton-plans#proton-unlimited) إمكانية الوصول إلى باقي خدمات Proton، بالإضافة إلى دعم عدة نطاقات مخصصة، وإنشاء عدد غير محدود من عناوين "أخفي بريدي (hide-my-email)" (وهي عناوين مستعارة تُستخدم لحماية بريدك الحقيقي)، إلى جانب 500 جيجابايت من سعة التخزين.
 
 ### Mailbox.org
 
@@ -129,16 +129,16 @@ Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimite
 
 ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
 
-**Mailbox.org** is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. وهم يعملون منذ ٢٠١٤. ومقرُّهم في برلين في ألمانيا.
+خدمة Mailbox.org هي خدمة بريد إلكتروني تركز على الأمان، خالية من الإعلانات، وتعمل بالكامل باستخدام طاقة صديقة للبيئة بنسبة 100٪. وهم يعملون منذ ٢٠١٤. ومقرُّهم في برلين في ألمانيا.
 
-Accounts start with up to 2 GB storage, which can be upgraded as needed.
+تبدأ الحسابات بسعة تخزين تصل إلى 2 جيجابايت، ويمكن زيادتها حسب الحاجة.
 
-[:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Documentation" }
+:octicons-home-16: الصفحة الرئيسية](https://mailbox.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="سياسة الخصوصية" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="شرح تفصيلي" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>التنزيلات</summary>
 
 - [:octicons-browser-16: Web](https://login.mailbox.org)
 
@@ -148,15 +148,15 @@ Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
 #### :material-check:{ .pg-green } النطاقات المخصَّصة والكنى
 
-Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox.org also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
+تتيح لك Mailbox.org استخدام نطاقك الخاص، كما تدعم عناوين [Catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name)، وهي عناوين تستقبل أي رسالة تُرسل إلى أي اسم ضمن نطاقك، حتى لو لم يكن العنوان مُعرّفًا مسبقًا. تدعم Mailbox.org أيضا ميزة [العناوين الإضافية (sub-addressing)](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it)، وهي مفيدة إذا كنت لا ترغب في شراء نطاق خاص، حيث يمكنك إنشاء عناوين فرعية مرتبطة ببريدك الأساسي لاستخدامها لأغراض مختلفة (مثل: username+news@mailbox.org).
 
 #### :material-check:{ .pg-green } سُبُل الدفع الخاصَّة
 
-لا تقبل Mailbox.org الدفع باستخدام العملات المعمَّاة، وسبب ذلك أن معالج دفعهم، بِت‌بَي، علَّق عملياته في ألمانيا. However, they do accept **cash** by mail, **cash** payment to bank account, bank transfer, credit card, PayPal, and a couple of German-specific processors: Paydirekt and Sofortüberweisung.
+لا تقبل Mailbox.org الدفع باستخدام العملات المعمَّاة، وسبب ذلك أن معالج دفعهم، بِت‌بَي، علَّق عملياته في ألمانيا. ومع ذلك، فإنهم يقبلون الدفع **نقدًا** عبر البريد، أو **نقدًا** عبر إيداع في حساب بنكي، بالإضافة إلى التحويل البنكي، وبطاقات الائتمان، وPayPal، وعدد من وسائل الدفع الخاصة بألمانيا مثل Paydirekt وSofortüberweisung.
 
 #### :material-check:{ .pg-green } أمن الحساب
 
-Mailbox.org supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) are not yet supported.
+تدعم Mailbox.org ميزة [المصادقة الثنائية (two-factor authentication)](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa)، ولكنها متوفرة فقط عند استخدام البريد من خلال الموقع (webmail)، ولا تعمل عند استخدام تطبيقات خارجية مثل Thunderbird أو Outlook. يمكنك استخدام المصادقة الثنائية إما عبر TOTP أو من خلال [YubiKey](https://en.wikipedia.org/wiki/YubiKey) باستخدام خدمة [YubiCloud](https://yubico.com/products/services-software/yubicloud). لم يتم دعم معايير الويب مثل [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) حتى الآن، وهي تقنية حديثة تتيح تسجيل الدخول بشكل آمن بدون الحاجة إلى كلمات مرور.
 
 #### :material-information-outline:{ .pg-blue } أمن البيانات
 
@@ -168,7 +168,7 @@ However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the softwar
 
 Mailbox.org has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox.org's servers. فائدة هذا تظهر في حال كان المستقبل ليس لديه أوبن‌بي‌جي‌بي ولا يستطيع كشف تعمية نسخة من الرسالة في صندوق بريده.
 
-Mailbox.org also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox.org's own domains, like `@mailbox.org`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Mailbox.org also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox.org's own domains, like `@mailbox.org`. إذا كنت تستخدم نطاقا مخصصًا (أي عنوان بريد إلكتروني ينتهي باسم نطاقك الخاص بدلًا من ‎@proton.me)، فستحتاج إلى [إعداد WKD](basics/email-security.md#what-is-the-web-key-directory-standard) يدويا بشكل منفصل.
 
 #### :material-information-outline:{ .pg-blue } إنهاء الحسابات
 
