@@ -1,5 +1,5 @@
 ---
-meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
+meta_title: "توصيات Privacy Guides لاستخدام بريد إلكتروني مشفر يحافظ على الخصوصية"
 title: "البُرُد الإلكترونية"
 icon: material/email
 description: توفِّر الجهات المذكورة مخزنًا آمنًا لرسائلك، والكثير منهم يدعم تعمية أوبن‌بي‌جي‌بي مع جهات أخرى.
@@ -10,9 +10,9 @@ global:
     - "table tbody"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>يوفر الحماية من التهديدات التالية:</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-server-network: مزودو الخدمات](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 حتَّى ولو كان البريد الإلكتروني حاجةً لتستخدم أيَّ خدمة إنترنت فإننا لا نوصي به للتحادث. تأمَّل استخدام خدمة اتصال مباشر تدعم السرية المستقبلية لتحادث الناس بدلًا من استخدام بريد إلكتروني.
 
@@ -22,19 +22,19 @@ global:
 
 خلا ذلك فنوصي بعدد من موفِّري خدمة البريد الإلكتروني، وذلك حسب استدامة نموذجات عملهم وأمنهم ومزايا الخصوصية عندهم. للمزيد من المعلومات، اطلع على [قائمة المعايير](#criteria).
 
-| Provider                    | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero-Access Encryption                               | Anonymous Payment Methods             |
-| --------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------- |
-| [بريد بروتون](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | Cash                                  |
-| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | Cash                                  |
-| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero <br>Cash via third party |
+| مزوّد                       | OpenPGP / WKD                          | IMAP / SMTP                                               | تشفير يمنع وصول المزود إلى البيانات                   | وسائل الدفع بدون هوية                                  |
+| --------------------------- | -------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------ |
+| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } خطط مدفوعة فقط | :material-check:{ .pg-green }                         | نقداً                                                  |
+| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                             | :material-information-outline:{ .pg-blue } البريد فقط | نقداً                                                  |
+| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                    | :material-check:{ .pg-green }                         | مونيرو (Monero) <br> دفع نقدي من خلال وسيط خارجي |
 
-In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md#recommended-providers) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
+الإضافة إلى (أو بدلا من) مزود البريد الإلكتروني الموصى به هنا، قد ترغب في استخدام [خدمة مخصصة لإخفاء البريد الإلكتروني](email-aliasing.md#recommended-providers) (email aliasing) لحماية خصوصيتك. من بين فوائد هذه الخدمات أنها تساعد في حماية بريدك الحقيقي من الرسائل المزعجة، وتمنع جهات التسويق من ربط حساباتك ببعضها، كما يمكنها تشفير جميع الرسائل الواردة باستخدام PGP.
 
-- [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
+- [المزيد من المعلومات :material-arrow-right-drop-circle:](email-aliasing.md)
 
-## الخدمات الداعمة لأوبن‌بي‌جي‌بي
+## الخدمات الداعمة لـ OpenPGP
 
-These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic end-to-end encrypted emails. فمثلًا: باستطاعة مستخدم بريد بروتون إرسال رسالة معمَّاة بين الأطراف، وكون المستقبل مستخدم Mailbox.org، أو لك استقبال إشعارات معمَّاةً بأوبن‌بي‌جي‌بي من خدمات الإنترنت الداعمة له.
+تدعم هذه الخدمات بشكل مدمج تشفير وفك تشفير OpenPGP، بالإضافة إلى معيار [Web Key Directory (WKD)](basics/email-security.md#what-is-the-web-key-directory-standard)، مما يتيح إرسال واستقبال رسائل بريد إلكتروني مشفرة بالكامل من الطرف إلى الطرف، دون الاعتماد على مزود خدمة معين. فمثلًا: باستطاعة مستخدم بريد بروتون إرسال رسالة معمَّاة بين الأطراف، وكون المستقبل مستخدم Mailbox.org، أو لك استقبال إشعارات معمَّاةً بأوبن‌بي‌جي‌بي من خدمات الإنترنت الداعمة له.
 
 <div class="grid cards" markdown>
 
@@ -46,23 +46,23 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](basics/email-security.md#email-metadata-overview).
+عند استخدام تقنيات التشفير التام بين الطرفين (E2EE) مثل OpenPGP، سيظل هناك بعض البيانات الوصفية (metadata) غير مشفرة في رأس الرسالة، وغالبا ما يشمل ذلك سطر العنوان (subject)! اقرأ المزيد عن [بيانات البريد الإلكتروني الوصفية (metadata)](basics/email-security.md#email-metadata-overview).
 
-OpenPGP also does not support forward secrecy, which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed.
+لا يدعم OpenPGP خاصية (forward secrecy)، أي أنه إذا تمكن أحد من الحصول على المفتاح الخاص بك أو بمستلم الرسالة لاحقا، فسيكون بإمكانه فك تشفير جميع الرسائل القديمة التي تم إرسالها باستخدام ذلك المفتاح.
 
-- [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+- [كيف أحمي مفاتيحي الخاصة (private keys)؟](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 </div>
 
-### بريد بروتون
+### Proton Mail
 
 <div class="admonition recommendation" markdown>
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=left }
 
-**بريد بروتون** هو خدمة بُرُد إلكترونية تركِّز في الخصوصية والتعمية والأمن واليسر. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland.
+**بريد بروتون** هو خدمة بُرُد إلكترونية تركِّز في الخصوصية والتعمية والأمن واليسر. بدأت خدمتهم منذ عام 2013. تقع شركة Proton AG في جنيف، سويسرا.
 
-The Proton Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+توفر خطة Proton المجانية سعة تخزين للبريد تصل إلى 500 ميجابايت، ويمكنك زيادتها مجانا حتى 1 جيجابايت.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
