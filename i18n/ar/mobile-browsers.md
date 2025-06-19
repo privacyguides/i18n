@@ -169,9 +169,9 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     - [ ] Uncheck **Allow sites to check if you have payment methods saved**
     - [ ] Uncheck **V8 Optimizer** under *Manage V8 security*
     - [x] Select **Close tabs on exit**
-    - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-    - [ ] Uncheck **Automatically send diagnostic reports**
-    - [ ] Uncheck **Automatically send daily usage ping to Brave**
+    -  [ ] أزل التحديد عن **Allow privacy-preserving product analytics (P3A)**
+    - [ ] أزل التحديد عن **Automatically send diagnostic reports**
+    - [ ] أزل التحديد عن **Automatically send daily usage ping to Brave**
 
     </div>
 
@@ -180,7 +180,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 === "iOS"
 
     - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
-    - [ ] Uncheck **Automatically send daily usage ping to Brave**
+    - [ ] أزل التحديد عن **Automatically send daily usage ping to Brave**
 
 #### Leo
 

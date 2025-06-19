@@ -265,7 +265,7 @@ Firefox يوفّر إعدادات قوية لحماية الخصوصية، مث�
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">تنوية</p>
 
 يُضيف Brave ما يُعرف بـ [رمز إحالة (referral code)](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes) إلى اسم ملف التنزيل من موقع Brave الرسمي، ويُستخدم هذا الرمز لتتبع المصدر الذي تم تحميل المتصفح منه، مثل الرمز BRV002 في ملف باسم Brave-Browser-BRV002.pkg. يقوم برنامج التثبيت بعد ذلك بإرسال طلب إلى خادم Brave يتضمن رمز الإحالة، وذلك في نهاية عملية التثبيت. ننصحك، إذا كنت تشعر بالقلق من ذلك، أن تقوم بإعادة تسمية ملف التثبيت قبل فتحه، لتجنّب إرسال رمز الإحالة تلقائيًا إلى خوادم Brave.
 
@@ -304,7 +304,7 @@ Firefox يوفّر إعدادات قوية لحماية الخصوصية، مث�
 1. هذا الخيار يعطل JavaScript، مما قد يؤدي إلى تعطل العديد من المواقع أو عدم عملها بشكل صحيح. لإصلاح ذلك، يمكنك إضافة استثناءات لكل موقع على حدة، وذلك بالضغط على أيقونة الدرع (Shield) في شريط العنوان (Adress bar)، ثم إلغاء تفعيل هذا الخيار من قسم *Advanced controls*.
 2. إذا كنت ترغب في البقاء مسجل الدخول في موقع معين تزوره باستمرار، يمكنك إضافة استثناء خاص لهذا الموقع بالضغط على أيقونة الدرع (Shield) في شريط العنوان (Adress bar)، ثم إلغاء تفعيل هذا الخيار من قسم *Advanced controls*.
 
-#### Privacy and security
+#### الخصوصية والأمان
 
 <div class="annotate" markdown>
 
@@ -322,32 +322,32 @@ Firefox يوفّر إعدادات قوية لحماية الخصوصية، مث�
 
 ##### Tor windows
 
-[**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity). ومع ذلك، فإن متصفح Brave **ليس** مقاوما لتتبع البصمة بنفس مستوى متصفح Tor، كما أن عدد مستخدمي Brave مع Tor أقل بكثير، مما يجعلك مميزًا ويسهل تتبعك. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
+[**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity). ومع ذلك، فإن متصفح Brave **ليس** مقاوما لتتبع البصمة بنفس مستوى متصفح Tor، كما أن عدد مستخدمي Brave مع Tor أقل بكثير، مما يجعلك مميزًا ويسهل تتبعك. إذا كنت بحاجة إلى إخفاء هويتك بشكل قوي، ننصح باستخدام [متصفح Tor](tor.md#tor-browser).
 
-##### Data Collection
+##### جمع البيانات
 
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
+-  [ ] أزل التحديد عن **Allow privacy-preserving product analytics (P3A)**
+- [ ] أزل التحديد عن **Automatically send daily usage ping to Brave**
+- [ ] أزل التحديد عن **Automatically send diagnostic reports**
 
 #### Web3
 
-Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of these features, they should be disabled.
+ميزات Web3 في Brave قد تجعل متصفحك أكثر تميّزًا وأسهل في التتبع، وقد تزيد من احتمالات التعرّض للهجمات. ما لم تكن تستخدم أيا من هذه الميزات، يُفضل أن تقوم بتعطيلها.
 
-- Select **Extensions (no fallback)** under *Default Ethereum wallet*
-- Select **Extensions (no fallback)** under *Default Solana wallet*
+- اختر **Extensions (no fallback)** ضمن *Default Ethereum wallet*
+- اختر **Extensions (no fallback)** ضمن *Default Solana wallet*
 
-#### Extensions
+#### الإضافات (قم بإيقاف كل الإضافات المدمجة غير الضرورية بالنسبة لك)
 
-- [ ] Uncheck all built-in extensions you don't use
+- [ ] قم بإيقاف كل الإضافات (Extensions) المدمجة غير الضرورية بالنسبة لك
 
-#### Search engine
+#### محرك بحث
 
-We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
+نوصي بإيقاف اقتراحات البحث (search suggestions) في Brave لنفس السبب الذي نوصي من أجله بإيقاف هذه الميزة في [Firefox](#search).
 
 - [ ] أزل التحديد عن **عرض اقتراحات البحث**
 
-#### System
+#### نظام
 
 <div class="annotate" markdown>
 

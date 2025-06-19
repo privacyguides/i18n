@@ -15,7 +15,7 @@ You can find these settings by opening `gpedit.msc` and navigating to **Local Co
 
 To change any group policy, double click it and select Enabled or Disabled at the top of the window that appears depending on the recommendations below. Some group policies have additional settings that can be configured, and if that's the case the appropriate settings are noted below as well.
 
-### System
+### نظام
 
 #### Device Guard
 
