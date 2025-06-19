@@ -64,14 +64,14 @@ global:
 
 توفر خطة Proton المجانية سعة تخزين للبريد تصل إلى 500 ميجابايت، ويمكنك زيادتها مجانا حتى 1 جيجابايت.
 
-[:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
+[:octicons-home-16: الصفحة الرئيسية](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Documentation" }
+[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="سياسة الخصوصية" }
+[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="لشرح التفصيلي" }
 [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>التنزيلات</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
@@ -85,15 +85,15 @@ global:
 
 </div>
 
-Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g., Thunderbird). لمن اشترك في حساب عند بريد بروتون مزايا، مثل جسر بريد بروتون ومساحة تخزين إضافية ودعم أسماء النطاق المخصَّصة. If you have the Proton Unlimited plan or any multi-user Proton plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+الحسابات المجانية لديها بعض القيود، مثل عدم القدرة على البحث داخل محتوى الرسائل، وعدم إمكانية استخدام أداة [Proton Mail Bridge](https://proton.me/mail/bridge)، التي تُستخدم لربط بريد Proton مع [برامج البريد على الكمبيوتر](email-clients.md) مثل Thunderbird. لمن اشترك في حساب عند بريد بروتون مزايا، مثل جسر بريد بروتون ومساحة تخزين إضافية ودعم أسماء النطاق المخصَّصة. إذا كنت مشتركا في خطة Proton Unlimited أو أي خطة متعددة المستخدمين من Proton، فستحصل أيضا على [SimpleLogin](email-aliasing.md#simplelogin) Premium مجانا، وهي خدمة تساعدك على إنشاء عناوين بريد إلكتروني مستعارة لحماية خصوصيتك وتجنب الرسائل المزعجة.
 
 أعطت [سكيورتم](https://research.securitum.com) [شهادةً](https://proton.me/blog/security-audit-all-proton-apps) لتطبيقات بريد بروتون في التاسع من نوفمبر عام ٢٠٢١.
 
-Proton Mail has internal crash reports that are **not** shared with third parties. This can be disabled in the web app: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+بريد Proton Mail يحتوي على تقارير أعطال داخلية (internal crash reports) **لا** تتم مشاركتها مع أي جهة خارجية. يمكنك إيقاف هذا الخيار من خلال تطبيق الويب::gear: → **جميع الإعدادات (All Settings)** → **الحساب (Account)** → **الأمان والخصوصية (Security and privacy)** → **الخصوصية وجمع البيانات (Privacy and data collection)**.
 
 #### :material-check:{ .pg-green } النطاقات المخصَّصة والكنى
 
-بإمكان مشتركي بريد بروتون استخدام أسماء نطاق من عندهم أو لهم استخدام عنوان [جامع](https://proton.me/support/catch-all). Proton Mail also supports [sub-addressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
+بإمكان مشتركي بريد بروتون استخدام أسماء نطاق من عندهم أو لهم استخدام عنوان [جامع](https://proton.me/support/catch-all). يدعم Proton Mail أيضًا ما يُعرف بـ[العناوين الإضافية](https://proton.me/support/creating-aliases) (sub-addressing)، وهي ميزة تتيح لك إنشاء عناوين فرعية مرتبطة ببريدك الأساسي دون الحاجة إلى شراء نطاق خاص. على سبيل المثال، يمكنك استخدام عنوان مثل username+shopping@proton.me لتسجيله في مواقع التسوق، وسيتم توجيه الرسائل إلى بريدك الرئيسي نفسه.
 
 #### :material-check:{ .pg-green } سُبُل الدفع الخاصَّة
 
