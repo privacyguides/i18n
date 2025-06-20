@@ -224,7 +224,7 @@ global:
 
 </div>
 
-لا يمكنك استخدام Tuta مع [تطبيقات البريد الأخرى](email-clients.md) مثل Outlook أو Thunderbird، لأنها لا تدعم [بروتوكول IMAP](https://tuta.com/support#imap). كما لا يمكنك [إضافة حسابات بريد ](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647)من خدمات أخرى داخل تطبيق Tuta – يمكنك استخدام الخدمة فقط من خلال تطبيقها أو موقعها الرسمي. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
+لا يمكنك استخدام Tuta مع [تطبيقات البريد الأخرى](email-clients.md) مثل Outlook أو Thunderbird، لأنها لا تدعم [بروتوكول IMAP](https://tuta.com/support#imap). كما لا يمكنك [إضافة حسابات بريد ](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647)من خدمات أخرى داخل تطبيق Tuta – يمكنك استخدام الخدمة فقط من خلال تطبيقها أو موقعها الرسمي. ميزة [استيراد الرسائل الإلكترونية (Email import)](https://github.com/tutao/tutanota/issues/630) غير مدعومة حاليا، لكن من المخطط [توفيرها لاحقًا](https://tuta.com/blog/kickoff-import). يمكنك تصدير الرسائل [يدويا واحدة تلو الأخرى أو دفعة لكل مجلد](https://tuta.com/support#generalMail)، لكن هذه الطريقة قد تكون مرهقة إذا كان بريدك منظما في عدد كبير من المجلدات.
 
 #### :material-check:{ .pg-green } النطاقات المخصَّصة والكنى
 
