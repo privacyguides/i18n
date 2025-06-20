@@ -228,55 +228,55 @@ global:
 
 #### :material-check:{ .pg-green } النطاقات المخصَّصة والكنى
 
-Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/support#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/support#plus), but you can use a [catch-all](https://tuta.com/support#settings-global) with a custom domain.
+يمكن لمستخدمي الخطط المدفوعة في Tuta إنشاء 15 أو 30 عنوانا مستعارا (alias) حسب الخطة المختارة، مع إمكانية إنشاء عدد غير محدود من العناوين المستعارة عند استخدام [نطاق مخصص](https://tuta.com/support#custom-domain). لا تدعم Tuta ميزة [العناوين الفرعية](https://tuta.com/support#plus) (sub-addressing) مثل استخدام عنوان من نوع username+shopping@tuta.com، ولكن إذا كنت تستخدم نطاقك الخاص، يمكنك تفعيل ميزة [catch-all](https://tuta.com/support#settings-global)، التي تتيح استقبال جميع الرسائل الموجّهة إلى أي عنوان ضمن نطاقك (مثل أي_اسم@yourdomain.com) داخل بريدك الرئيسي.
 
 #### :material-information-outline:{ .pg-blue } سُبُل الدفع الخاصَّة
 
-Tuta only directly accepts credit cards and PayPal, however [**cryptocurrency**](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
+تدعم Tuta الدفع المباشر عبر بطاقات الائتمان وPayPal فقط، ولكن يمكن استخدام [**العملات الرقمية**](cryptocurrency.md) لشراء بطاقات هدايا من خلال شراكتهم مع [ProxyStore](https://tuta.com/support/#cryptocurrency).
 
 #### :material-check:{ .pg-green } أمن الحساب
 
-Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
+تدعم Tuta ميزة [المصادقة الثنائية](https://tuta.com/support#2fa) باستخدام إما رموز TOTP (مثل تطبيق Authy أو Google Authenticator) أو مفاتيح أمان U2F (مثل YubiKey).
 
 #### :material-check:{ .pg-green } أمن البيانات
 
-Tuta has [zero-access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). ويعني هذا أن الرسائل والبيانات المخزَّنة في حسابك لا يقرؤها إلا أنت.
+تقوم Tuta بتشفير رسائلك، [وجهات اتصالك](https://tuta.com/support#encrypted-address-book)، [وتقويمك](https://tuta.com/support#calendar) باستخدام ما يُعرف بـ ["تشفير بدون وصول" (zero-access encryption)، وهو نظام يضمن أن لا أحد—حتى فريق Tuta نفسه—يمكنه الوصول إلى محتوى بياناتك، مما يعني أن البيانات لا يمكن قراءتها إلا من قبلك أنت فقط.](https://tuta.com/support#what-encrypted). ويعني هذا أن الرسائل والبيانات المخزَّنة في حسابك لا يقرؤها إلا أنت.
 
-#### :material-information-outline:{ .pg-blue } Email Encryption
+#### :material-information-outline:{ .pg-blue } تشفير البريد الإلكتروني
 
-Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
+لا تستخدم Tuta بروتوكول [OpenPGP](https://tuta.com/support/#pgp). لا يمكن لحسابات Tuta استقبال رسائل مشفرة من بريد إلكتروني خارجي (غير تابع لـ Tuta)، إلا إذا تم إرسال الرسالة من خلال [صندوق Tuta المؤقت (temporary Tuta mailbox)](https://tuta.com/support/#encrypted-email-external).
 
 #### :material-information-outline:{ .pg-blue } إنهاء الحسابات
 
-Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. ولك إعادة استخدام حساب ألغي تفعليه إن دفعت.
+ستقوم Tuta بـ[حذف الحسابات المجانية غير النشطة](https://tuta.com/support#inactive-accounts) بعد مرور ستة أشهر. ولك إعادة استخدام حساب ألغي تفعليه إن دفعت.
 
 #### :material-information-outline:{ .pg-blue } وظائف إضافية
 
-Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
+خدمة Tuta توفر النسخة المخصّصة للأعمال [للمؤسسات غير الربحية](https://tuta.com/blog/secure-email-for-non-profit) مجانا أو بسعر منخفض جدًا.
 
-## Criteria
+## المعايير
 
-**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
+**مهم: نحن لا نتبع أي شركة من الشركات التي نرشّحها.** إلى جانب [المعايير الأساسية لدينا](about/criteria.md)، وضعنا شروطًا واضحة يجب أن يلتزم بها أي مزوّد بريد إلكتروني ليتم ترشيحه، مثل استخدام أحدث التقنيات واتباع أفضل ممارسات الأمان. ننصحك بالاطلاع على هذه القائمة قبل اختيار مزود بريد إلكتروني، والقيام ببحثك الخاص للتأكد من أن الخيار الذي تختاره هو الأنسب لك.
 
-### Technology
+### تكنولوجي
 
-We regard these features as important in order to provide a safe and optimal service. You should consider whether the provider which has the features you require.
+هذه الميزات مهمة لتقديم خدمة تحمي خصوصيتك وتعمل بأفضل شكل ممكن. تأكد أن المزود يقدم الميزات التي تناسب احتياجاتك.
 
-**Minimum to Qualify:**
+**الحد الأدنى لترشيح الخدمة:**
 
-- Must encrypt email account data at rest with zero-access encryption.
-- Must be capable of exporting emails as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
-- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
-- Must operate on owned infrastructure, i.e. not built upon third-party email service providers.
+- يجب أن يتم تشفير بيانات حساب البريد الإلكتروني أثناء التخزين باستخدام تشفير يمنع حتى مزود الخدمة من الوصول إليها (تشفير بدون وصول "Zero-access encryption").
+- يجب أن يوفر إمكانية تصدير (exporting) الرسائل بصيغة [MBOX](https://en.wikipedia.org/wiki/Mbox) أو ملفات .EML فردية وفقًا لمعيار [RFC5322](https://datatracker.ietf.org/doc/rfc5322).
+- يجب أن تتيح الخدمة للمستخدمين إمكانية استخدام [اسم النطاق الخاص بهم](https://en.wikipedia.org/wiki/Domain_name). استخدام أسماء النطاقات المخصصة مهم للمستخدمين، لأنه يمنحهم استقلالية عن مزود الخدمة، في حال تدهورت الخدمة أو تم الاستحواذ عليها من قبل شركة لا تهتم بالخصوصية.
+- يجب أن تعمل الخدمة على بنية تحتية مملوكة لها بالكامل، أي دون الاعتماد على مزودي خدمات بريد إلكتروني خارجيين.
 
-**Best Case:**
+**أحسن الاحتمالات:**
 
-- Should encrypt all account data (contacts, calendars, etc.) at rest with zero-access encryption.
+- يُفضّل أن يتمّ تشفير جميع بيانات الحساب (مثل جهات الاتصال، والتقويم، وغيرها) أثناء التخزين باستخدام تشفير يمنع مزوّد الخدمة من الوصول إليها (تشفير بدون وصول "Zero-access encryption").
 - Should provide integrated webmail E2EE/PGP encryption as a convenience.
 - Should support WKD to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key with this command: `gpg --locate-key example_user@example.com`.
 - Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
 - Should support [sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
-- Should allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
+- Should allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). استخدام أسماء النطاقات المخصصة مهم للمستخدمين، لأنه يمنحهم استقلالية عن مزود الخدمة، في حال تدهورت الخدمة أو تم الاستحواذ عليها من قبل شركة لا تهتم بالخصوصية.
 - Catch-all or alias functionality for those who use their own domains.
 - Should use standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
 - Email provider's services should be available via an [onion service](https://en.wikipedia.org/wiki/.onion).
