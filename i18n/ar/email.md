@@ -18,7 +18,7 @@ global:
 
 [ما نوصي به من برامج مراسلة فورية](real-time-communication.md ""){.md-button}
 
-## موفِّرو الخدمة الموصى بهم
+## موفرو الخدمة الموصى بهم
 
 خلا ذلك فنوصي بعدد من موفِّري خدمة البريد الإلكتروني، وذلك حسب استدامة نموذجات عملهم وأمنهم ومزايا الخصوصية عندهم. للمزيد من المعلومات، اطلع على [قائمة المعايير](#criteria).
 
@@ -160,31 +160,31 @@ global:
 
 #### :material-information-outline:{ .pg-blue } أمن البيانات
 
-Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). تعمَّى الرسائل الواردة باستخدام مفتاحك العامِّ فورًا.
+تتيح Mailbox.org تشفير الرسائل الواردة باستخدام ميزة [صندوق البريد المشفر (encrypted mailbox)](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox) الخاص بها. تعمَّى الرسائل الواردة باستخدام مفتاحك العامِّ فورًا.
 
-However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that data.
+ومع أن Mailbox.org توفّر صندوق بريد مشفّر، إلا أن المنصة التي تعتمد عليها [(Open-Xchange) ](https://en.wikipedia.org/wiki/Open-Xchange)[لا تدعم](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) تشفير جهات الاتصال والتقويم، مما يعني أن هذه البيانات لا تتم حمايتها بالتشفير الكامل مثل الرسائل. إذا كنت ترغب في حماية تقويمك وجهات اتصالك بتشفير كامل، فمن الأفضل استخدام [خدمة منفصلة](calendar.md) مخصصة لذلك.
 
 #### :material-check:{ .pg-green } تعمية البريد الإلكتروني
 
-Mailbox.org has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox.org's servers. فائدة هذا تظهر في حال كان المستقبل ليس لديه أوبن‌بي‌جي‌بي ولا يستطيع كشف تعمية نسخة من الرسالة في صندوق بريده.
+توفر Mailbox.org [تشفيرا مدمجا ](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard)داخل واجهة البريد على المتصفح، ما يسهل إرسال رسائل مشفرة إلى الأشخاص الذين يستخدمون مفاتيح OpenPGP، دون الحاجة إلى إعدادات معقّدة. يمكنك إرسال رسائل مشفّرة حتى [إلى أشخاص لا يستخدمون PGP](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp)، حيث يمكنهم فك تشفير الرسالة عبر صفحة خاصة على موقع Mailbox.org، باستخدام كلمة مرور تقوم بمشاركتها معهم بشكل آمن. فائدة هذا تظهر في حال كان المستقبل ليس لديه أوبن‌بي‌جي‌بي ولا يستطيع كشف تعمية نسخة من الرسالة في صندوق بريده.
 
-Mailbox.org also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox.org's own domains, like `@mailbox.org`. إذا كنت تستخدم نطاقا مخصصًا (أي عنوان بريد إلكتروني ينتهي باسم نطاقك الخاص بدلًا من ‎@proton.me)، فستحتاج إلى [إعداد WKD](basics/email-security.md#what-is-the-web-key-directory-standard) يدويا بشكل منفصل.
+تدعم Mailbox.org أيضا العثور على الـ public keys عبر بروتوكول HTTP من خلال نظام WKD (Web Key Directory)، مما يسهل على الآخرين إرسال رسائل مشفّرة إليك دون الحاجة لتبادل المفاتيح يدويا. يساعد هذا الأشخاص الذين لا يستخدمون Mailbox.org في العثور بسهولة على مفاتيح OpenPGP الخاصة بمستخدمي Mailbox.org، مما يسهّل إرسال رسائل مشفّرة بتشفير تام بين الطرفين (E2EE) حتى بين خدمات بريد مختلفة. هذا ينطبق فقط على عناوين البريد الإلكتروني التي تنتهي بأحد نطاقات Mailbox.org، مثل `@mailbox.org`، ولا يشمل العناوين المخصصة التي تستخدم نطاقك الخاص. إذا كنت تستخدم نطاقا مخصصًا (أي عنوان بريد إلكتروني ينتهي باسم نطاقك الخاص بدلًا من ‎@proton.me)، فستحتاج إلى [إعداد WKD](basics/email-security.md#what-is-the-web-key-directory-standard) يدويا بشكل منفصل.
 
 #### :material-information-outline:{ .pg-blue } إنهاء الحسابات
 
-Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+سيتم تحويل حسابك إلى حساب محدود الصلاحيات عند انتهاء الاشتراك. سيتم حذف الحساب بشكل نهائي ولا يمكن استعادته بعد [30 يومًا](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract) من انتهاء الاشتراك.
 
 #### :material-information-outline:{ .pg-blue } وظائف إضافية
 
-You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). However, their webmail interface cannot be accessed via their .onion service, and you may experience TLS certificate errors.
+يمكنك الوصول إلى حسابك في Mailbox.org عبر IMAP/SMTP باستخدام [خدمة ‎.onion الخاصة بهم](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org)، وذلك من خلال شبكة Tor لتأمين الاتصال وإخفاء الهوية. واجهة البريد على الموقع لا تعمل بالكامل عند الدخول عبر شبكة Tor باستخدام عنوان ‎.onion، وقد تظهر رسائل تحذير تتعلّق بشهادة الأمان عند محاولة الاتصال.
 
-All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. تدعم Mailbox.org [إكستشينج-أكتف‌سنك](https://en.wikipedia.org/wiki/Exchange_ActiveSync)، وكذلك تدعم معايير الوصول القياسية مثل IMAP و POP3.
+تأتي جميع الحسابات بسعة تخزين سحابي محدودة، ويمكنك [تشفير الملفات](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive) داخلها مباشرة من خلال واجهة Mailbox.org لحماية خصوصيتك، دون الحاجة إلى أدوات خارجية. توفر Mailbox.org عنوانا خاصا وهو [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely)، يمكنك استخدامه بدلًا من عنوانك العادي إذا كنت تريد إرسال الرسائل فقط عندما يكون الاتصال بين خوادم البريد مشفّرا بالكامل (TLS). وإذا لم يكن التشفير متاحا، فلن تُرسل الرسالة حفاظا على الأمان. تدعم Mailbox.org [إكستشينج-أكتف‌سنك](https://en.wikipedia.org/wiki/Exchange_ActiveSync)، وكذلك تدعم معايير الوصول القياسية مثل IMAP و POP3.
 
-عند Mailbox.org ميزة الإرث الرقميِّ لكلِّ الاشتراكات. You can choose whether you want any of your data to be passed to heirs, providing that they apply and provide your testament. غير ذلك فيمكنك ترشيح شخص باسمه وعنوانه.
+عند Mailbox.org ميزة الإرث الرقميِّ لكلِّ الاشتراكات. يمكنك اختيار ما إذا كنت ترغب في تمرير أي من بياناتك إلى الورثة، بشرط أن يتقدموا بطلب رسمي ويُقدموا وصيتك القانونية. غير ذلك فيمكنك ترشيح شخص باسمه وعنوانه.
 
 ## مقدِّموا خدمة آخرون
 
-يخزِّن مقدمِّو الخدمة هؤلاء بُرُدك معمَّاةً تعمية دون معرفة، وهذا جاعلهم خيارات جيِّدةً لتخزِّنها فيها. However, they don't support interoperable encryption standards for E2EE communications between different providers.
+يخزِّن مقدمِّو الخدمة هؤلاء بُرُدك معمَّاةً تعمية دون معرفة، وهذا جاعلهم خيارات جيِّدةً لتخزِّنها فيها. لكنهم لا يدعمون التشفير التام بين الطرفين (E2EE) عند إرسال الرسائل إلى مستخدمين في خدمات بريد إلكتروني أخرى.
 
 <div class="grid cards" markdown>
 
@@ -199,18 +199,18 @@ All accounts come with limited cloud storage that [can be encrypted](https://kb.
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany.
+خدمة Tuta (التي كانت تُعرف سابقا باسم Tutanota) هي خدمة بريد إلكتروني تركز على الأمان والخصوصية من خلال استخدام التشفير. تعمل Tuta منذ عام 2011، وتتخذ من هانوفر في ألمانيا مقرا لها.
 
-Free accounts start with 1 GB of storage.
+تبدأ الحسابات المجانية بسعة تخزين تبلغ 1 جيجابايت.
 
-[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
+[:octicons-home-16: الصفحة الرئيسية](https://tuta.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="سياسة الخصوصية" }
+[:octicons-info-16:](https://tuta.com/support){ .card-link title="الشروحات التفصيلية" }
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title="المساهمة" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>التنزيلات</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
@@ -224,7 +224,7 @@ Free accounts start with 1 GB of storage.
 
 </div>
 
-Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
+لا يمكنك استخدام Tuta مع [تطبيقات البريد الأخرى](email-clients.md) مثل Outlook أو Thunderbird، لأنها لا تدعم [بروتوكول IMAP](https://tuta.com/support#imap). كما لا يمكنك [إضافة حسابات بريد ](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647)من خدمات أخرى داخل تطبيق Tuta – يمكنك استخدام الخدمة فقط من خلال تطبيقها أو موقعها الرسمي. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
 
 #### :material-check:{ .pg-green } النطاقات المخصَّصة والكنى
 
