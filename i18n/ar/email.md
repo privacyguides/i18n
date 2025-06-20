@@ -272,13 +272,13 @@ global:
 **أحسن الاحتمالات:**
 
 - يُفضّل أن يتمّ تشفير جميع بيانات الحساب (مثل جهات الاتصال، والتقويم، وغيرها) أثناء التخزين باستخدام تشفير يمنع مزوّد الخدمة من الوصول إليها (تشفير بدون وصول "Zero-access encryption").
-- Should provide integrated webmail E2EE/PGP encryption as a convenience.
-- Should support WKD to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key with this command: `gpg --locate-key example_user@example.com`.
-- Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
-- Should support [sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
-- Should allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). استخدام أسماء النطاقات المخصصة مهم للمستخدمين، لأنه يمنحهم استقلالية عن مزود الخدمة، في حال تدهورت الخدمة أو تم الاستحواذ عليها من قبل شركة لا تهتم بالخصوصية.
-- Catch-all or alias functionality for those who use their own domains.
-- Should use standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
+- يُستحسن أن يكون التشفير القوي (مثل E2EE أو PGP) مدمجا داخل موقع البريد نفسه، حتى يتمكّن المستخدم من إرسال رسائل آمنة بسهولة.
+- يُفضل أن تدعم الخدمة ميزة WKD لتسهيل العثور على مفاتيح OpenPGP العامة عبر بروتوكول HTTP. إذا كانت خدمة البريد تدعم ميزة WKD، يمكن لمستخدمي GnuPG الحصول على مفتاح التشفير العام لأي عنوان بريد باستخدام الأمر: `gpg --locate-key example_user@example.com`.
+- إمكانية إرسال رسائل مشفرة إلى مستلمين ليس لديهم حساب، عبر صندوق بريد مؤقّت وآمن. تكون هذه الميزة مفيدة عندما تريد إرسال رسالة مشفّرة دون إرسال نسخة فعلية إلى بريد المستلم، بل يطّلع عليها من خلال رابط آمن. عادةً ما تبقى هذه الرسائل متاحة لفترة قصيرة فقط، ثم تُحذف تلقائيًا من الصندوق المؤقّت. ولا يحتاج المستلم إلى إعداد أي أدوات تشفير معقدة مثل OpenPGP لقراءة الرسالة.
+- يُفضل أن تدعم الخدمة ميزة [العناوين الفرعية (sub-addressing)](https://en.wikipedia.org/wiki/Email_address#Sub-addressing)، والتي تتيح للمستخدم إضافة علامات مميّزة إلى بريده الإلكتروني (مثل username+shopping@example.com) لتنظيم الرسائل أو تصفيتها بسهولة.
+- يجب أن تتيح الخدمة للمستخدمين إمكانية استخدام [اسم النطاق الخاص بهم](https://en.wikipedia.org/wiki/Domain_name)، مثل example.com، بدلاً من الاعتماد فقط على نطاق الخدمة (مثل user@tuta.com). هذه الميزة تمنح المستخدم تحكمًا أكبر في هويته الرقمية، وتُسهّل عليه نقل بريده إلى خدمة أخرى في المستقبل دون تغيير عنوانه. استخدام أسماء النطاقات المخصصة مهم للمستخدمين، لأنه يمنحهم استقلالية عن مزود الخدمة، في حال تدهورت الخدمة أو تم الاستحواذ عليها من قبل شركة لا تهتم بالخصوصية.
+- دعم ميزة "Catch-all" أو "الأسماء المستعارة" (alias) للمستخدمين الذين يستخدمون نطاقهم الخاص.
+- يُفضل أن تدعم الخدمة بروتوكولات الوصول إلى البريد الإلكتروني المعتمدة مثل IMAP وSMTP أو [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol)، وذلك حتى يتمكن المستخدم من استخدام تطبيقات البريد المختلفة لإرسال واستقبال الرسائل بسهولة. هذه البروتوكولات تتيح ربط البريد بخدمات أو تطبيقات خارجية بطريقة مرنة وآمنة. تضمن بروتوكولات الوصول القياسية (Standard access protocols) أن يتمكن المستخدمون من تنزيل كل رسائل بريدهم بسهولة، إذا قرروا الانتقال إلى مزود خدمة آخر.
 - Email provider's services should be available via an [onion service](https://en.wikipedia.org/wiki/.onion).
 
 ### Privacy
