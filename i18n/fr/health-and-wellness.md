@@ -1,20 +1,20 @@
 ---
 meta_title: "Privacy-Respecting Health and Wellness apps for Android and iOS - Privacy Guides"
-title: "Health and Wellness"
+title: "Santé et Bien-être"
 icon: material/heart-pulse
-description: These applications are what we currently recommend for all health- and fitness-related activites on your phone.
+description: Ces applications sont celles que nous recommandons actuellement pour toutes les activités liées à la santé et à la forme physique sur votre téléphone.
 cover: health.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protège contre la menace suivante :</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-server-network: Fournisseurs de services](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-Keep track of your health and fitness-related goals with these apps. Unlike their mainstream alternatives, your personal health information will be kept private.
+Gardez une trace de vos objectifs en matière de santé et de condition physique avec ces applications. Contrairement à leurs alternatives traditionnelles, vos informations personnelles en matière de santé resteront confidentielles.
 
-## Menstrual Cycle Tracking
+## Suivi des cycles menstruels
 
-Popular menstrual trackers like [Flo](https://techcrunch.com/2021/01/13/flo-gets-ftc-slap-for-sharing-user-data-when-it-promised-privacy) are notorious for collecting and sharing your user data. Selon la juridiction où vous vivez, cela peut menez à des [conséquences légales](https://forbes.com/sites/abigaildubiniecki/2024/11/14/post-roe-your-period-app-data-could-be-used-against-you) qui affectent votre santé et autonomie reproductive.
+Les traqueurs menstruels populaires tels que [Flo](https://techcrunch.com/2021/01/13/flo-gets-ftc-slap-for-sharing-user-data-when-it-promised-privacy) sont connus pour collecter et partager vos données d'utilisateurs. Selon la juridiction où vous vivez, cela peut menez à des [conséquences légales](https://forbes.com/sites/abigaildubiniecki/2024/11/14/post-roe-your-period-app-data-could-be-used-against-you) qui affectent votre santé et autonomie reproductive.
 
 ### Drip
 
