@@ -22,7 +22,7 @@ Poczta e-mail jest praktycznie niezbędna do korzystania z dowolnej usługi onli
 
 W pozostałych przypadkach polecamy różnych dostawców poczty e-mail w oparciu o zrównoważone modele biznesowe oraz wbudowane funkcje bezpieczeństwa i prywatności. Przeczytaj naszą [pełną listę kryteriów](#criteria), aby uzyskać więcej informacji.
 
-| Dostawca                    | OpenPGP / WKD                          | IMAP /SMTP                                                    | Zero-Access Encryption                                  | Anonimowe metody płatności                                |
+| Dostawca                    | OpenPGP / WKD                          | IMAP /SMTP                                                    | Szyfrowanie po stronie klienta                          | Anonimowe metody płatności                                |
 | --------------------------- | -------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------- | --------------------------------------------------------- |
 | [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Tylko płatne plany | :material-check:{ .pg-green }                           | Gotówka                                                   |
 | [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                 | :material-information-outline:{ .pg-blue } Tylko poczta | Gotówka                                                   |
@@ -34,7 +34,7 @@ Oprócz (lub zamiast) zalecanego tutaj dostawcy poczty e-mail, możesz rozważy�
 
 ## Usługi kompatybilne z OpenPGP
 
-These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic end-to-end encrypted emails. For example, a Proton Mail user could send an E2EE message to a Mailbox.org user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
+Dostawcy ci natywnie obsługują szyfrowanie/deszyfrowanie OpenPGP i standard [Web Key Directory (WKD)](basics/email-security.md#what-is-the-web-key-directory-standard), umożliwiając niezależne od dostawcy kompleksowe szyfrowanie wiadomości e-mail. Na przykład, użytkownik Proton Mail może wysłać wiadomość E2EE do użytkownika Mailbox.org lub możesz otrzymywać zaszyfrowane powiadomienia OpenPGP z usług internetowych, które je obsługują.
 
 <div class="grid cards" markdown>
 
@@ -48,9 +48,9 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 
 Podczas korzystania z technologii E2EE, takiej jak OpenPGP, wiadomość e-mail nadal będzie zawierać pewne metadane, które nie są zaszyfrowane w nagłówku wiadomości e-mail, w tym zazwyczaj wiersz tematu! Dowiedz się więcej o [metadanych e-maili](basics/email-security.md#email-metadata-overview).
 
-OpenPGP also does not support forward secrecy, which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed.
+OpenPGP nie obsługuje również funkcji forward secrecy, co oznacza, że jeśli klucz prywatny użytkownika lub odbiorcy wiadomości zostanie kiedykolwiek skradziony, wszystkie poprzednie wiadomości zaszyfrowane za jego pomocą zostaną ujawnione.
 
-- [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+- [Jak chronić swoje klucze prywatne?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 </div>
 
@@ -58,11 +58,11 @@ OpenPGP also does not support forward secrecy, which means if the private key of
 
 <div class="admonition recommendation" markdown>
 
-![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
+![Logo Proton Mail](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland.
+**Proton Mail** to usługa poczty elektronicznej skupiająca się na prywatności, szyfrowaniu, bezpieczeństwie i łatwości użytkowania. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland.
 
-The Proton Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+Plan Proton Free obejmuje 500 MB pamięci pocztowej, którą możesz bezpłatnie zwiększyć do 1 GB.
 
 [:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }

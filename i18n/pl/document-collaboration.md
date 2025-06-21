@@ -1,5 +1,5 @@
 ---
-title: Document Collaboration
+title: "Document Collaboration"
 icon: material/account-group
 description: Most online office suites do not support E2EE, meaning the cloud provider has access to everything you do.
 cover: document-collaboration.webp
