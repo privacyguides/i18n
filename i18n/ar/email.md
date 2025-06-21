@@ -279,37 +279,37 @@ global:
 - يجب أن تتيح الخدمة للمستخدمين إمكانية استخدام [اسم النطاق الخاص بهم](https://en.wikipedia.org/wiki/Domain_name)، مثل example.com، بدلاً من الاعتماد فقط على نطاق الخدمة (مثل user@tuta.com). هذه الميزة تمنح المستخدم تحكمًا أكبر في هويته الرقمية، وتُسهّل عليه نقل بريده إلى خدمة أخرى في المستقبل دون تغيير عنوانه. استخدام أسماء النطاقات المخصصة مهم للمستخدمين، لأنه يمنحهم استقلالية عن مزود الخدمة، في حال تدهورت الخدمة أو تم الاستحواذ عليها من قبل شركة لا تهتم بالخصوصية.
 - دعم ميزة "Catch-all" أو "الأسماء المستعارة" (alias) للمستخدمين الذين يستخدمون نطاقهم الخاص.
 - يُفضل أن تدعم الخدمة بروتوكولات الوصول إلى البريد الإلكتروني المعتمدة مثل IMAP وSMTP أو [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol)، وذلك حتى يتمكن المستخدم من استخدام تطبيقات البريد المختلفة لإرسال واستقبال الرسائل بسهولة. هذه البروتوكولات تتيح ربط البريد بخدمات أو تطبيقات خارجية بطريقة مرنة وآمنة. تضمن بروتوكولات الوصول القياسية (Standard access protocols) أن يتمكن المستخدمون من تنزيل كل رسائل بريدهم بسهولة، إذا قرروا الانتقال إلى مزود خدمة آخر.
-- Email provider's services should be available via an [onion service](https://en.wikipedia.org/wiki/.onion).
+- يُفضل أن تكون خدمات مزود البريد الإلكتروني متاحة من خلال [خدمة .onion](https://en.wikipedia.org/wiki/.onion)، وذلك لتوفير طبقة إضافية من الخصوصية وإخفاء الهوية عند الوصول إلى البريد، خاصة في البيئات التي تُقيد فيها حرية الوصول إلى الإنترنت.
 
-### Privacy
+### الخصوصية
 
-We prefer our recommended providers to collect as little data as possible.
+نُفضل أن يجمع مزودو البريد الذين نوصي بهم أقل قدر ممكن من البيانات عن المستخدمين.
 
-**Minimum to Qualify:**
+**أقل المتطلبات لترشيح الخدمة:**
 
-- Must protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
-- Must not require personally identifiable information (PII) besides a username and a password.
-- Privacy policy must meet the requirements defined by the GDPR.
+- يجب أن تحمي الخدمة عنوان IP الخاص بالمرسِل، وذلك مثلا عبر إزالته أو حجبه من معلومات الرسالة التقنية (مثل حقل `Received`) التي يمكن أن تكشف عن موقع المرسِل أو جهازه.
+- يجب أن تتيح الخدمة إنشاء حساب باستخدام اسم مستخدم وكلمة مرور فقط، دون الحاجة إلى تقديم معلومات شخصية مثل الاسم أو رقم الهاتف (PII).
+- يجب أن تكون سياسة الخصوصية متوافقة مع متطلبات اللائحة العامة لحماية البيانات (GDPR)، والتي تضمن الشفافية في كيفية جمع البيانات واستخدامها.
 
-**Best Case:**
+**أحسن الاحتمالات:**
 
-- Should accept [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
-- Should be hosted in a jurisdiction with strong email privacy protection laws.
+- يُفضل أن تدعم الخدمة [خيارات الدفع المجهولة](advanced/payments.md) مثل [العملات الرقمية](cryptocurrency.md)، أو الدفع نقدًا، أو باستخدام بطاقات الهدايا، وذلك لحماية هوية المستخدم عند الاشتراك
+- يُفضل أن تكون الخدمة مستضافة في دولة تُطبق قوانين صارمة تحمي خصوصية البريد الإلكتروني.
 
-### Security
+### الأمان
 
-Email servers deal with a lot of very sensitive data. We expect that providers will adopt industry best practices in order to protect their customers.
+خوادم البريد الإلكتروني تخزن وتُمرر بيانات شخصية مهمة، مثل الرسائل الخاصة والمرفقات، مما يجعل حمايتها أمرا ضروريا. من المهم أن يتبع مزودو الخدمة أعلى معايير الأمان المتعارف عليها، لضمان حماية بيانات المستخدمين وخصوصيتهم.
 
-**Minimum to Qualify:**
+**أقل المتطلبات لترشيح الخدمة:**
 
-- Protection of webmail with 2FA, such as [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
-- Zero-access encryption, which builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
-- [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) support.
-- No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
-- A server suite preference (optional on TLS 1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
-- A valid [MTA-STS](https://tools.ietf.org/html/rfc8461) and [TLS-RPT](https://tools.ietf.org/html/rfc8460) policy.
-- Valid [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) records.
-- Valid [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) records.
+- تأمين واجهة البريد عبر المتصفح (Webmail) باستخدام المصادقة الثنائية (2FA)، مثل [رموز TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp) المؤقتة.
+- تشفير بدون وصول (Zero-access encryption)، وهو امتداد لتشفير البيانات أثناء التخزين (encryption at rest)، ويضمن أن حتى مزود الخدمة لا يمكنه الوصول إلى محتوى بياناتك، لأنه لا يمتلك مفاتيح فك التشفير. مزود الخدمة لا يمتلك مفاتيح فك التشفير الخاصة بالبيانات التي يحتفظ بها. هذا يمنع أي موظف سيئ النية من تسريب البيانات التي يمكنه الوصول إليها، أو أي جهة خارجية من كشف البيانات حتى لو تمكّنت من اختراق الخادم، لأن البيانات تكون مشفرة ولا يمكن قراءتها دون المفاتيح.
+- دعم [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions)، وهي تقنية تهدف إلى حماية نظام أسماء النطاقات (DNS) من التلاعب، من خلال التحقق من أن البيانات المستلمة من خوادم DNS أصلية ولم يتم تعديلها.
+- ألا تظهر أي أخطاء أو ثغرات في بروتوكول TLS عند فحص الخدمة باستخدام أدوات مثل [Hardenize](https://hardenize.com)، أو [testssl.sh](https://testssl.sh)، أو [Qualys SSL Labs](https://ssllabs.com/ssltest). ويشمل ذلك خلو الخدمة من أخطاء في الشهادات الأمنية أو استخدام معايير تشفير ضعيفة (مثل مفاتيح DH غير الآمنة) والتي تسببت سابقا في ثغرات أمنية مثل [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
+- يفضّل أن يستخدم الخادم مجموعات تشفير قوية (cipher suites) تُعطي أولوية للأمان، وتدعم خصائص مثل forward secrecy والتشفير الموثوق (authenticated encryption).
+- يجب أن تطبق الخدمة سياسة [MTA-STS](https://tools.ietf.org/html/rfc8461) و[TLS-RPT](https://tools.ietf.org/html/rfc8460) بشكل صحيح، لضمان تشفير الرسائل بين الخوادم، واكتشاف أي مشاكل أو محاولات لاعتراض الاتصال.
+- يجب أن تدعم الخدمة سجلات [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities)الصالحة، وهي وسيلة لتعزيز أمان البريد الإلكتروني عبر التأكد من صحة الشهادات المستخدمة في التشفير، وتقليل خطر التلاعب أو التصيّد.
+- يجب أن تدعم الخدمة سجلات [SPF ](https://en.wikipedia.org/wiki/Sender_Policy_Framework)و[DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) بشكل صحيح، لحماية البريد من التزييف والانتحال، وضمان أن الرسائل لم يتم التلاعب بها أثناء الإرسال.
 - Must have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. If DMARC authentication is being used, the policy must be set to `reject` or `quarantine`.
 - A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
 - [SMTPS](https://en.wikipedia.org/wiki/SMTPS) submission, assuming SMTP is used.
