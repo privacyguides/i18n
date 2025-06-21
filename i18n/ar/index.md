@@ -1,6 +1,6 @@
 ---
-meta_title: "Privacy Guides: Independent Privacy & Security Resources"
-description: "Established in 2021, Privacy Guides is the most popular & trustworthy non-profit resource to find privacy tools and learn about protecting your digital life."
+meta_title: "Privacy Guides: مصادر مستقلة للخصوصية والأمان"
+description: "موقع Privacy Guides، التي أُطلقت عام 2021، تُعد من أكثر المصادر المستقلة موثوقية وشعبية لتعلّم حماية الخصوصية واكتشاف أدوات تحمي بياناتك الرقمية."
 template: home.html
 social:
   cards_layout: home
@@ -40,38 +40,38 @@ schema:
 <!-- markdownlint-disable -->
 <div class="grid" markdown>
 <div markdown>
-## Why should I care?
+## لماذا يهمني هذا؟
 
-> “I have nothing to hide. Why should I care about my privacy?”
+> "ليس لدي ما أخفيه. لماذا يجب أن أهتم بخصوصيتي؟"
 
-Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
+تماما مثل حق الزواج بين الأعراق، وحق المرأة في التصويت، وحرية التعبير، وغيرها من الحقوق، فإن حقنا في الخصوصية لم يكن دائما محترما أو مضمونا. وفي عدد من الأنظمة الديكتاتورية، لا يزال هذا الحق غير مُعترف به حتى اليوم. أجيال قبلنا ناضلت من أجل أن نحصل على حقنا في الخصوصية. ==الخصوصية حق من حقوق الإنسان==، متأصل في كل فرد.
 
-You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
+الخصوصية لا تعني السرية — بل تعني حقك في التحكم بما تشاركه ومع من. نحن نعلم جميعا ما يحدث في الحمام، ومع ذلك تُغلق الباب. ليس لأنك تخفي شيئا، بل لأنك ببساطة تطالب بحقك في الخصوصية. **الجميع** لديه ما يحتاج إلى حمايته — حتى لو لم يدرك ذلك. الخصوصية من السمات الأساسية لإنسانيتنا.
 
-[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button" }
+[:material-book-outline: لماذا الخصوصية مهمة](basics/why-privacy-matters.md){ class="md-button" }
 </div>
 
 <div markdown>
-## What should I do?
+ماذا يجب أن أفعل؟
 
-> First, you need to make a plan
+> قبل كل شيء، ضع خطة واضحة.
 
-Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. لكن لا تقلق! الأمان هو إجراء، من خلال التفكير مسبقًا، يمكنك وضع خطة تناسبك. Security isn't just about the *privacy tools* you use or the software you download. بدلاً من ذلك، يبدأ الأمر بفهم التهديدات الفريدة التي تواجهك، وكيف يمكنك التخفيف منها.
+السعي لحماية كل بياناتك من الجميع طوال الوقت ليس واقعيًا — فهو مُرهق، ومكلف، وغير فعّال. لكن لا تقلق! الأمان هو إجراء، من خلال التفكير مسبقًا، يمكنك وضع خطة تناسبك. الأمان لا يعني فقط استخدام أدوات الخصوصية أو تثبيت برامج حماية — بل هو أيضا طريقة تفكير وسلوك يومي. بدلاً من ذلك، يبدأ الأمر بفهم التهديدات الفريدة التي تواجهك، وكيف يمكنك التخفيف منها.
 
-==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
+==هذه العملية التي تسمى **"نمذجة التهديدات" أو threat modeling**== تعني أن تحدد المخاطر والتهديدات المحتملة التي قد تواجه بياناتك أو خصوصيتك، ثم تخطط لكيفية الحماية منها.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button" }
+[:material-book-outline: تعرف على المزيد حول نمذجة التهديدات] (basics/threat-modeling.md){ class="md-button"}
 </div>
 </div>
 
-## Trustworthy Privacy Software Reviews
+## تقييمات موثوقة لبرامج حماية الخصوصية
 
 <div class="grid" markdown>
 
 <div markdown>
-**Privacy Guides** has a dedicated [community](https://discuss.privacyguides.net) independently reviewing various *privacy tools* and services. Each of our recommendations comply with a strict set of criteria to ensure they provide the most value to most people, and provide the best balance of privacy, security, and convenience. As part of a non-profit **public charity**, Privacy Guides has strict **journalistic standards** and policies to ensure our recommendations are free of conflict of interest, and we do not partner with providers or affiliate programs that could sway our reviews and recommendations.
+يوجد لدى **Privacy Guides** [مجتمع](https://discuss.privacyguides.net) نشط ومستقل يُقيم ويُراجع العديد من أدوات الخصوصية والخدمات بشكل موضوعي. نحرص في توصياتنا على اختيار الخدمات التي تستوفي معايير دقيقة، لتقديم أفضل مزيج من الخصوصية، الأمان، والراحة لمعظم المستخدمين. بصفتها منظمة خيرية عامة غير ربحية، تلتزم Privacy Guides بمعايير صحفية صارمة وسياسات واضحة لضمان أن توصياتنا خالية من تضارب المصالح. ولا نتعاون مع مزودي خدمات أو برامج شركاء قد تؤثر على مراجعاتنا وتوصياتنا.
 
-[:material-heart:{.pg-red} Support Our Work](about/donate.md){ class="md-button md-button--primary" }
+[:material-heart:{.pg-red} دعم عملنا] (about/donate.md) { class="md-button md-button md-button--primary"}
 
 </div>
 

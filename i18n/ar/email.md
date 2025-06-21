@@ -105,13 +105,13 @@ global:
 
 #### :material-check:{ .pg-green } أمن البيانات
 
-عند بريد بروتون [تعمية دون أيِّ وصول](https://proton.me/blog/zero-access-encryption) لبُرُدك الإلكترونية [وتقويماتك](https://proton.me/news/protoncalendar-security-model). لا يمكن لأحد الوصول للبيانات المعمَّاة دون أيِّ وصول سواك.
+عند بريد بروتون [تعمية دون أيِّ وصول](https://proton.me/blog/zero-access-encryption) لبُرُدك الإلكترونية [وتقويماتك](https://proton.me/news/protoncalendar-security-model). البيانات المحمية بتشفير بدون وصول (zero-access encryption) لا يمكن لأي أحد الوصول إليها سوى أنت.
 
-بعض المعلومات المخزَّنة في [متراسلي بروتون](https://proton.me/support/proton-contacts) ليست مؤمَّنةً بتعمية دون أيِّ وصول، كالأسماء المعروضة وعناوين البُرُد الإلكترونية. تُعلَّم حقول المتراسلين الداعمة للتعمية دون أيِّ وصول بعلامة قفل، كأرقام الجوالات.
+ليست كل البيانات في Proton Contacts مشفّرة بالكامل؛ فمثلاً، الـ display names وعناوين البريد تظل قابلة للوصول من قِبل مزود الخدمة لأنها لا تخضع لتشفير بدون وصول. الحقول في جهات الاتصال التي تدعم التشفير بدون وصول — مثل أرقام الهاتف — يتم تمييزها بأيقونة قفل.
 
-#### :material-check:{ .pg-green } تعمية البريد الإلكتروني
+#### :material-check:{ .pg-green } تشفير البريد الإلكتروني
 
-عند بريد بروتون [دعم مدمج لتعمية أوبن‌بي‌جي‌بي](https://proton.me/support/how-to-use-pgp) في صفحة البريد. تعمَّى الرسائل المرسلة لحسابات بريد بروتون الأخرى تلقائيًّا، ولك تمكين تعمية أوبن‌بي‌جي‌بي لعناوين البريد خارج بروتون في إعدادات حسابك. يدعم Proton أيضا ميزة البحث التلقائي عن المفاتيح العامة (public keys) الخاصة بمستلمي البريد باستخدام معيار WKD (Web Key Directory). هذا يعني أنك تستطيع إرسال رسائل مشفرة تلقائيا إلى مستخدمين في خدمات بريد أخرى تدعم WKD، دون الحاجة لمشاركة مفاتيح التشفير يدويا مع أي شخص. يتيح لك Proton أيضا [تشفير الرسائل المرسلة إلى عناوين بريد خارجية (غير Proton Mail) بدون استخدام OpenPGP](https://proton.me/support/password-protected-emails)، ودون أن يحتاج المستلم إلى إنشاء حساب في Proton Mail. يتم ذلك من خلال حماية الرسالة بكلمة مرور تختارها أنت، وتشاركها مع المستلم بطريقة آمنة.
+يحتوي Proton Mail على [دعم مدمج لتشفير OpenPGP](https://proton.me/support/how-to-use-pgp) داخل واجهة البريد على الويب، مما يسهّل إرسال واستقبال رسائل مشفّرة دون الحاجة إلى إعدادات خارجية. يتم تشفير الرسائل المرسلة إلى حسابات Proton Mail الأخرى تلقائيا. كما يمكن تفعيل التشفير عند إرسال رسائل إلى عناوين خارجية تدعم OpenPGP بسهولة من خلال إعدادات الحساب. يدعم Proton أيضا ميزة البحث التلقائي عن المفاتيح العامة (public keys) الخاصة بمستلمي البريد باستخدام معيار WKD (Web Key Directory). هذا يعني أنك تستطيع إرسال رسائل مشفرة تلقائيا إلى مستخدمين في خدمات بريد أخرى تدعم WKD، دون الحاجة لمشاركة مفاتيح التشفير يدويا مع أي شخص. يتيح لك Proton أيضا [تشفير الرسائل المرسلة إلى عناوين بريد خارجية (غير Proton Mail) بدون استخدام OpenPGP](https://proton.me/support/password-protected-emails)، ودون أن يحتاج المستلم إلى إنشاء حساب في Proton Mail. يتم ذلك من خلال حماية الرسالة بكلمة مرور تختارها أنت، وتشاركها مع المستلم بطريقة آمنة.
 
 ينشر Proton Mail أيضا الـ public keys لحساباته عبر بروتوكول HTTP من خلال نظام WKD (Web Key Directory)، مما يسهّل على الآخرين العثور على مفاتيح التشفير الخاصة بك عند إرسال رسائل مشفّرة إليك. وبفضل هذه الميزة، يمكن لأي شخص يستخدم خدمة بريد مختلفة العثور على مفتاح التشفير الخاص بك في Proton Mail بسهولة، وإرسال رسائل مشفّرة إليك دون خطوات معقّدة، باستخدام التشفير التام بين الطرفين (E2EE). ينطبق هذا فقط على عناوين البريد التي تنتهي بأحد نطاقات Proton الخاصة، مثل `@proton.me`. إذا كنت تستخدم نطاقا مخصصًا (أي عنوان بريد إلكتروني ينتهي باسم نطاقك الخاص بدلًا من ‎@proton.me)، فستحتاج إلى [إعداد WKD](basics/email-security.md#what-is-the-web-key-directory-standard) يدويا بشكل منفصل.
 
@@ -150,9 +150,9 @@ global:
 
 تتيح لك Mailbox.org استخدام نطاقك الخاص، كما تدعم عناوين [Catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name)، وهي عناوين تستقبل أي رسالة تُرسل إلى أي اسم ضمن نطاقك، حتى لو لم يكن العنوان مُعرّفًا مسبقًا. تدعم Mailbox.org أيضا ميزة [العناوين الإضافية (sub-addressing)](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it)، وهي مفيدة إذا كنت لا ترغب في شراء نطاق خاص، حيث يمكنك إنشاء عناوين فرعية مرتبطة ببريدك الأساسي لاستخدامها لأغراض مختلفة (مثل: username+news@mailbox.org).
 
-#### :material-check:{ .pg-green } سُبُل الدفع الخاصَّة
+#### :material-check:{ .pg-green } وسائل الدفع الخاصة
 
-لا تقبل Mailbox.org الدفع باستخدام العملات المعمَّاة، وسبب ذلك أن معالج دفعهم، بِت‌بَي، علَّق عملياته في ألمانيا. ومع ذلك، فإنهم يقبلون الدفع **نقدًا** عبر البريد، أو **نقدًا** عبر إيداع في حساب بنكي، بالإضافة إلى التحويل البنكي، وبطاقات الائتمان، وPayPal، وعدد من وسائل الدفع الخاصة بألمانيا مثل Paydirekt وSofortüberweisung.
+خدمة Mailbox.org لا تقبل العملات الرقمية حاليا بسبب توقف مزود الدفع BitPay عن العمل في ألمانيا. ومع ذلك، فإنهم يقبلون الدفع **نقدًا** عبر البريد، أو **نقدًا** عبر إيداع في حساب بنكي، بالإضافة إلى التحويل البنكي، وبطاقات الائتمان، وPayPal، وعدد من وسائل الدفع الخاصة بألمانيا مثل Paydirekt وSofortüberweisung.
 
 #### :material-check:{ .pg-green } أمن الحساب
 
@@ -164,7 +164,7 @@ global:
 
 ومع أن Mailbox.org توفّر صندوق بريد مشفّر، إلا أن المنصة التي تعتمد عليها [(Open-Xchange) ](https://en.wikipedia.org/wiki/Open-Xchange)[لا تدعم](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) تشفير جهات الاتصال والتقويم، مما يعني أن هذه البيانات لا تتم حمايتها بالتشفير الكامل مثل الرسائل. إذا كنت ترغب في حماية تقويمك وجهات اتصالك بتشفير كامل، فمن الأفضل استخدام [خدمة منفصلة](calendar.md) مخصصة لذلك.
 
-#### :material-check:{ .pg-green } تعمية البريد الإلكتروني
+#### :material-check:{ .pg-green } تشفير البريد الإلكتروني
 
 توفر Mailbox.org [تشفيرا مدمجا ](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard)داخل واجهة البريد على المتصفح، ما يسهل إرسال رسائل مشفرة إلى الأشخاص الذين يستخدمون مفاتيح OpenPGP، دون الحاجة إلى إعدادات معقّدة. يمكنك إرسال رسائل مشفّرة حتى [إلى أشخاص لا يستخدمون PGP](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp)، حيث يمكنهم فك تشفير الرسالة عبر صفحة خاصة على موقع Mailbox.org، باستخدام كلمة مرور تقوم بمشاركتها معهم بشكل آمن. فائدة هذا تظهر في حال كان المستقبل ليس لديه أوبن‌بي‌جي‌بي ولا يستطيع كشف تعمية نسخة من الرسالة في صندوق بريده.
 
@@ -310,54 +310,54 @@ global:
 - يجب أن تطبق الخدمة سياسة [MTA-STS](https://tools.ietf.org/html/rfc8461) و[TLS-RPT](https://tools.ietf.org/html/rfc8460) بشكل صحيح، لضمان تشفير الرسائل بين الخوادم، واكتشاف أي مشاكل أو محاولات لاعتراض الاتصال.
 - يجب أن تدعم الخدمة سجلات [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities)الصالحة، وهي وسيلة لتعزيز أمان البريد الإلكتروني عبر التأكد من صحة الشهادات المستخدمة في التشفير، وتقليل خطر التلاعب أو التصيّد.
 - يجب أن تدعم الخدمة سجلات [SPF ](https://en.wikipedia.org/wiki/Sender_Policy_Framework)و[DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) بشكل صحيح، لحماية البريد من التزييف والانتحال، وضمان أن الرسائل لم يتم التلاعب بها أثناء الإرسال.
-- Must have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. If DMARC authentication is being used, the policy must be set to `reject` or `quarantine`.
-- A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
-- [SMTPS](https://en.wikipedia.org/wiki/SMTPS) submission, assuming SMTP is used.
-- Website security standards such as:
-    - [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
-    - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
-- Must support viewing of [message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
+- يجب أن تلتزم الخدمة بسياسة [DMARC](https://en.wikipedia.org/wiki/DMARC) فعالة لمنع انتحال البريد الإلكتروني، أو أن تستخدم [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) للتحقق من موثوقية الرسائل في حال إعادة توجيهها. إذا كانت خدمة البريد تستخدم مصادقة DMARC (DMARC authentication)، فيجب أن تكون السياسة مهيأة على `reject` (رفض) أو `quarantine` (عزل)، وذلك لضمان التعامل الصارم مع الرسائل غير الموثوقة ومنع انتحال الهوية.
+- يُفضل أن تَستخدم الخدمة بروتوكول TLS 1.2 أو إصدارا أحدث، وأن تضع خطة للتوافق مع [RFC8996](https://datatracker.ietf.org/doc/rfc8996)، وهو المعيار الذي ينص على إيقاف استخدام الإصدارات القديمة والضعيفة من TLS مثل 1.0 و1.1، بهدف تحسين الأمان.
+- دعم إرسال البريد عبر [SMTPS](https://en.wikipedia.org/wiki/SMTPS) (نسخة مشفرة من بروتوكول SMTP)، وذلك في حال استخدام SMTP.
+- معايير أمان المواقع الإلكترونية مثل:
+    - [سياسة النقل (Transpoort) الآمن الصارم عبر HTTPS](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
+    - دعم ميزة [Subresource Integrity (SRI)](https://en.wikipedia.org/wiki/Subresource_Integrity) عند تحميل ملفات من نطاقات خارجية (external domains)، وهي آلية تتيح التحقق من أن الملفات لم يتم التلاعب بها أثناء تحميلها من مصادر خارجية، مما يعزز أمان الموقع.
+- يجب أن تتيح الخدمة عرض الـ [Message Headers](https://en.wikipedia.org/wiki/Email#Message_header) ، لأنها تعد ميزة أساسية في تحليل البريد الإلكتروني، وتساعد في الكشف عن محاولات التصيّد أو التزوير من خلال تتبع مصدر الرسالة والمسارات التي مرت بها.
 
-**Best Case:**
+**أحسن الاحتمالات:**
 
-- Should support hardware authentication, i.e. U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
-- [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
-- Should implement [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
-- Published security audits from a reputable, third-party firm.
-- Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
-- Website security standards such as:
-    - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
+- يُفضل أن تدعم الخدمة المصادقة باستخدام أجهزة مادية (hardware authentication)، مثل: U2F و[WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
+- يجب أن تدعم الخدمة [سجل CAA في DNS](https://tools.ietf.org/html/rfc6844)، إلى جانب دعم DANE، لحماية النطاق من الشهادات المزوّرة أو غير المصرح بها.
+- يُفضّل أن تدعم الخدمة ميزة [ARC (سلسلة الاستلام الموثقة)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain)، وهي مفيدة خصوصا للمستخدمين الذين يرسلون رسائل إلى القوائم البريدية (mailing lists)، حيث تُمكن من الحفاظ على معلومات المصادقة عند إعادة توجيه الرسائل، وذلك وفقًا لمعيار [RFC8617](https://tools.ietf.org/html/rfc8617).
+- يُستحسن أن تنشر الخدمة نتائج تدقيق أمني أجراه طرف ثالث موثوق، لإثبات التزامها بأعلى معايير الأمان والشفافية.
+- برامج مكافآت الإبلاغ عن الثغرات (Bug Bounty)، أو وجود آلية منظمة للإفصاح عن الثغرات الأمنية والتعامل معها بشكل مسؤول.
+- معايير أمان المواقع الإلكترونية مثل:
+    - [سياسة أمان المحتوى (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
     - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163)
 
-### Trust
+### الثقة
 
-You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
+لن تثق بأموالك مع شخص يستخدم هوية مزيفة، فلماذا تثق ببريدك الإلكتروني؟ يجب أن يكون مزودو الخدمة الذين نرشحهم شفافين بشأن من يملك ويدير الخدمة، لأن الثقة تبدأ من الوضوح. نرغب في أن تُصدر الخدمة تقارير شفافية دورية توضح عدد ونوع الطلبات الحكومية التي تتلقاها، وكيف تتعامل معها، لضمان الوضوح والثقة.
 
-**Minimum to Qualify:**
+**الحد الأدنى لترشيح الخدمة:**
 
-- Public-facing leadership or ownership.
+- فريق إداري أو مالك معروف ومُعلن بشكل علني.
 
-**Best Case:**
+**أحسن الاحتمالات:**
 
-- Frequent transparency reports.
+- تقارير شفافية دورية.
 
-### Marketing
+### التسويق
 
-With the email providers we recommend, we like to see responsible marketing.
+نحرص على أن يتبع مزودو البريد الذين نرشحهم أساليب تسويقية مسؤولة، لا تضلل المستخدمين ولا تبالغ في وعود الخصوصية.
 
-**Minimum to Qualify:**
+**الحد الأدنى لترشيح الخدمة:**
 
-- Must self-host analytics (no Google Analytics, Adobe Analytics, etc.).
-- Must not have any irresponsible marketing, which can include the following:
-    - Claims of "unbreakable encryption." Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
-    - Guarantees of protecting anonymity 100%. When someone makes a claim that something is 100%, it means there is no certainty for failure. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
-        - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software such as Tor
-        - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+- يجب أن تستضيف الخدمة أدوات التحليلات الخاصة بها داخليًا (دون استخدام أدوات خارجية مثل Google Analytics أو Adobe Analytics، ألخ.).
+- يجب ألا تستخدم الخدمة أي أساليب تسويقية غير مسؤولة، والتي قد تشمل ما يلي:
+    - ادعاءات بأن "التشفير غير قابل للاختراق". يجب استخدام التشفير مع الأخذ في الاعتبار أن سريته قد لا تدوم في المستقبل، خاصة مع تطور التقنيات التي قد تُمكن من كسره.
+    - ضمانات بحماية الهوية بشكل كامل بنسبة 100٪. عندما يدعي أحدهم أن شيئا ما مضمون بنسبة 100٪، فهذا يعني ضمنا أنه لا يمكن أن يفشل أبدا — وهو أمر غير واقعي. نعلم أن المستخدمين قد يفصحون عن هويتهم دون قصد بطرق متعددة، مثلا.:
+        - إعادة استخدام بيانات شخصية (مثل البريد أو الاسم المستعار) سبق استخدامها بدون أدوات إخفاء الهوية مثل Tor، مما يسهل الربط بين الهوية الحقيقية والنشاط
+        - [بصمة المتصفح](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
-**Best Case:**
+**أحسن الاحتمالات:**
 
-- Clear and easy-to-read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
+- توثيق واضح وسهل القراءة لخطوات مثل إعداد المصادقة الثنائية (2FA)، وتوصيل البريد الإلكتروني ببرامج خارجية، واستخدام OpenPGP، وغيرها.
 
-### Additional Functionality
+### ميزات إضافية
 
-While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.
+رغم أن هذه ليست شروطا أساسية، إلا أننا أخذنا بعين الاعتبار بعض الجوانب الإضافية التي تسهم في تحسين الخصوصية أو سهولة الاستخدام عند تقييم مزودي البريد الإلكتروني الذين نوصي بهم.
