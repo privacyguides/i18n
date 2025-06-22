@@ -107,16 +107,16 @@ AppleのiCloud+のプライベートリレーは市販のMRPsの一つであり�
 
 ### 分散型VPN
 
-Another attempt at solving the issues with centralized VPN services are dVPNs. These are based on blockchain technology and claim to eliminate trust in a single party by distributing the nodes across lots of different people. However, many times a dVPN will default to a single node, meaning you need to trust that node completely, just like a traditional VPN. Unlike a traditional VPN, this one node that can see all your traffic is a random person instead of your VPN provider that can be audited and has legal responsibilities to uphold their privacy policy. Multi-hop is needed to solve this, but that comes with a stability and performance cost.
+中央集権型VPNサービスの問題点を解決するもう一つの試みは分散型VPNです。 ブロックチェーン技術に基づいており、ノードを多くの人々に分散させることで単一の当事者への信頼を排除すると主張されています。 ただし、多くの場合、分散型VPNは単一ノードがデフォルトに設定されているため、従来のVPNと同様にノードを完全に信頼する必要があります。 従来のVPNとは異なり、トラフィックをすべて見ることができるノードは、監査を受けプライバシーポリシーを守る法的責任のあるVPNプロバイダーではなく、ランダムに選ばれた人です。 マルチホップがその解決策ですが、安定性とパフォーマンスのコストが生じます。
 
-Another consideration is legal liability. The exit node will need to deal with legal problems from misuse of the network, an issue that the Tor network has contended with for its entire existence. This discourages regular people from running nodes and makes it more attractive for a malicious actor with lots of resources to host one. This is a big problem if the service is single-node, as the potentially malicious exit node can see who you are and what you're connecting to.
+もう一つ考慮すべき点は法的責任です。 出口ノードはネットワークの悪用による法的責任に対処する必要があり、Torネットワークがずっと対処している問題です。 このため、一般の人々にとってはノードを運営することを思いとどまらせ、リソースのある悪意ある者にとってはノードをホスティングすることはより魅力的なものとなります。 サービスがシングルノードの場合、潜在的に悪意のある出口ノードは誰が何に接続しているか知ることになり、大きな問題です。
 
-Many dVPNs are used to push a cryptocurrency rather than to make the best service. They also tend to be smaller networks with fewer nodes, making them more vulnerable to [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack).
+多くの分散型VPNは最高のサービスを提供するためではなく、暗号通貨を売り込むために使われています。 また、ノード数が少ない小規模なネットワークになりがちで、[シビル攻撃](https://en.wikipedia.org/wiki/Sybil_attack)に対してより脆弱になります。
 
-## Related VPN Information
+## 関連するVPNの情報
 
 - [VPNとプライバシーレビューサイトの問題点](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites)
 - [無料VPNアプリの調査](https://top10vpn.com/research/free-vpn-investigations/ownership)
-- [Hidden VPN owners unveiled: 101 VPN products run by just 23 companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies)
-- [This Chinese company is secretly behind 24 popular apps seeking dangerous permissions](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions)
-- [VPN - a Very Precarious Narrative](https://overengineer.dev/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert
+- [VPNの隠れた所有者が明らかに：101のVPN製品はわずか23の企業によって運営されている](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies)
+- [危険な権限を求める人気のアプリ24個は中国企業が背後に存在する](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions)
+- [VPN - 非常にいいかげんなナラティブ](https://overengineer.dev/blog/2019/04/08/very-precarious-narrative.html)by Dennis Schubert
