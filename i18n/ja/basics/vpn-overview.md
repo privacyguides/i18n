@@ -87,23 +87,23 @@ VPNプロバイダーが暗号化DNSサーバーをホストしていない限�
 
 最近では、中央集権的なVPNが抱える問題に対処するために、様々な組織によって試みがなされています。 このような技術は比較的新しいものですが、分野が発展するにつれて注目する価値があります。
 
-### Multi-Party Relays
+### マルチパーティリレー
 
-Multi-Party Relays (MPRs) use multiple nodes owned by different parties, such that no individual party knows both who you are and what you're connecting to. This is the basic idea behind Tor, but now there are some paid services that try to emulate this model.
+マルチパーティリレー(MPRs)は異なる当事者（パーティ）が所有する複数のノードを使うため、個別の当事者は誰が何に接続しているか知ることはできません。 Torの基本的な考え方ですが、このモデルを模倣しようとする有料のサービスもあります。
 
-MPRs seek to solve a problem inherent to VPNs: the fact that you must trust them completely. They accomplish this goal by segmenting the responsibilities between two or more different companies.
+MRPsはVPNを完全に信頼しなければならないというVPNに元からある問題を解決しようとしています。 ２つ以上の会社間で責任を細分化することで達成できます。
 
-One example of a commercially available MPR is Apple's iCloud+ Private Relay, which routes your traffic through two servers:
+AppleのiCloud+のプライベートリレーは市販のMRPsの一つであり、２つのサーバー経由でトラフィックをルーティングします：
 
-1. Firstly, a server operated by Apple.
+1. 1つ目はAppleが運営するサーバーです。
 
-    This server is able to see your device's IP when you connect to it, and has knowledge of your payment information and Apple ID tied to your iCloud subscription. However, it is unable to see what website you are connecting to.
+    接続された際にデバイスのIPを見ることができます。また、iCloudのサブスクリプションに紐づけられた支払い情報とApple IDを知っています。 ただし、接続先のウェブサイトは確認できません。
 
-2. Secondly, a server operated by a partner CDN, such as Cloudflare or Fastly.
+2. ２つ目はCloudflareやFastlyのようなパートナーCDNが運営するサーバーです。
 
-    This server actually makes the connection to your destination website, but has no knowledge of your device. The only IP address it knows about is Apple's server's.
+    このサーバーは接続する訪問先のウェブサイトはわかりますが、デバイスについては知りません。 AppleのサーバーのIPアドレスのみ知っています。
 
-Other MPRs run by different companies operate in a very similar manner. This protection by segmentation only exists if you trust the two companies to not collude with each other to deanonymize you.
+別の会社が運営するMRPsも似たような方法です。 細分化による保護は２つの会社が匿名化を解除するよう結託しないことを信頼する必要があります。
 
 ### 分散型VPN
 
