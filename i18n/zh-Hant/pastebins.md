@@ -1,5 +1,5 @@
 ---
-title: Pastebins
+title: "Pastebins"
 icon: material/content-paste
 description: 這些工具可讓您完全控制您分享給其他方的任何貼上資料。
 cover: pastebins.webp

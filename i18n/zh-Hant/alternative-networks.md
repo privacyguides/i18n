@@ -1,5 +1,5 @@
 ---
-title: 替代網路
+title: "替代網路"
 icon: material/vector-polygon
 description: 這些工具可存取萬維網以外的網路。
 cover: alternative-networks.webp

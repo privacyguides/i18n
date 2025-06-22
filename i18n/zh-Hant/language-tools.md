@@ -1,5 +1,5 @@
 ---
-title: 語言工具
+title: "語言工具"
 icon: material/alphabetical-variant
 description: 這些語言工具不會將您輸入的文字傳送至伺服器，可以離線或自行架設伺服器來使用。
 cover: language-tools.webp

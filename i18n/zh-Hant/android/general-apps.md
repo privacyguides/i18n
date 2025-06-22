@@ -1,11 +1,11 @@
 ---
-title: 常規應用程式
+title: "常規應用程式"
 description: 此處列出的應用程式是 Android 獨有的，專門增強或替換了關鍵系統功能。
 schema:
   - "@context": http://schema.org
     "@type": 網頁
     name: 常規 Android 應用程式
-    url: ./
+    url: "./"
   - "@context": http://schema.org
     "@type": MobileApplication
     name: Shelter

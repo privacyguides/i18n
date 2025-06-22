@@ -168,7 +168,7 @@ Mailbox.org 允許使用 [加密郵箱](https://kb.mailbox.org/en/private/e-mail
 
 Mailbox.org 在他們的網頁郵件中 [整合了加密功能](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) ，這簡化了向具有公開OpenPGP金鑰的人發送訊息。 它們也讓遠端收件者可以在 Mailbox.org 的伺服器上[解密電子郵件](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp)。 當遠端收件人沒有 OpenPGP 無法解密自己郵箱中的電子郵件時，此功能非常有用。
 
-Mailbox.org also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox.org's own domains, like `@mailbox.org`. 如果使用自訂網域，則必須另行[設定 WKD](basics/email-security.md#what-is-the-web-key-directory-standard)。
+Mailbox.org 也支援透過 HTTP 從其 WKD 發現公共金鑰。 這可讓非 Mailbox 使用者輕鬆找到 Mailbox 帳戶的 OpenPGP 金鑰，以進行跨供應商 E2EE。 這只適用於以 Mailbox.org 自身網域結尾的電子郵件地址，例如：`@mailbox.org`。 如果使用自訂網域，則必須另行[設定 WKD](basics/email-security.md#what-is-the-web-key-directory-standard)。
 
 #### :material-information-outline:{ .pg-blue } 終止帳號
 
@@ -176,11 +176,11 @@ Mailbox.org also supports the discovery of public keys via HTTP from their WKD. 
 
 #### :material-information-outline:{ .pg-blue } 額外功能
 
-可利用他們的[洋蔥服務](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org)與 IMAP/SMTP 協議來訪問 Mailbox.org 帳戶。 However, their webmail interface cannot be accessed via their .onion service, and you may experience TLS certificate errors.
+可利用他們的[洋蔥服務](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org)與 IMAP/SMTP 協議來訪問 Mailbox.org 帳戶。 不過，他們的網頁郵件介面無法透過其 .onion 服務存取，而且您可能會遇到 TLS 憑證錯誤。
 
 所有帳號都附帶有限的[可以加密](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive)雲端儲存空間 。 Mailbox.org 還提供別名 [@ secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely)，它對郵件伺服器之間的連線強制進行TLS加密，否則根本不會發送訊息。 Mailbox.org 除了支援 IMAP 和 POP3 等標準存取通訊協議外，還支援 [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) 。
 
-Mailbox.org 所有方案都提供了數位遺產功能。 You can choose whether you want any of your data to be passed to heirs, providing that they apply and provide your testament. 或者，您可以透過姓名和位址提出人選。
+Mailbox.org 所有方案都提供了數位遺產功能。 只要繼承人提出申請並提供您的遺囑即可獲得你選擇要傳給他們的資料。 或者，您可以透過姓名和位址提出人選。
 
 ## 更多供應商
 
@@ -201,7 +201,7 @@ Mailbox.org 所有方案都提供了數位遺產功能。 You can choose whether
 
 **Tuta** (前身為 *Tutanota*) 是一項透過使用加密技術，著重於安全性與隱私權的電子郵件服務。 Tuta 自 2011 年開始營運，總部位於德國漢諾威。
 
-Free accounts start with 1 GB of storage.
+免費帳戶的起始儲存容量為 1 GB。
 
 [:octicons-home-16: 首頁](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="隱私權政策" }
@@ -232,15 +232,15 @@ Tuta 不支援 [ IMAP 協議](https://tuta.com/support#imap) 或使用第三方 
 
 #### :material-information-outline:{ .pg-blue } 私密付款方式
 
-Tuta only directly accepts credit cards and PayPal, however [**cryptocurrency**](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
+Tuta 僅接受信用卡和 PayPal ，但 [**加密貨幣**](cryptocurrency.md) 可用於通過其[合作伙伴](https://tuta.com/support/#cryptocurrency) Proxystore 購買禮品卡。
 
 #### :material-check:{ .pg-green } 帳號安全
 
-Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
+Tuta 支援 TOTP 或 U2F 的[雙重認證](https://tuta.com/support#2fa)。
 
 #### :material-check:{ .pg-green } 資料安全
 
-Tuta has [zero-access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). 這意味著儲存在您帳戶中的訊息和其他資料只有您能讀取。
+Tuta 對您的電子郵件、[通訊錄聯絡人](https://tuta.com/support#encrypted-address-book)和[行事曆](https://tuta.com/support#calendar) [進行零存取加密](https://tuta.com/support#what-encrypted)。 這意味著儲存在您帳戶中的訊息和其他資料只有您能讀取。
 
 #### :material-information-outline:{ .pg-blue } 電子郵件加密
 
@@ -264,9 +264,9 @@ Tuta 向非營利組織提供免費 [商業版本](https://tuta.com/blog/secure-
 
 **最低合格要求：**
 
-- Must encrypt email account data at rest with zero-access encryption.
-- Must be capable of exporting emails as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
-- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). 自定網域名稱對用戶來說很重要，因為它允許用戶在使用服務時仍維持持自我代理，以防服務變差或被另一家不優先考慮隱私的公司收購。
+- 必須使用零存取加密技術加密電子郵件帳戶資料。
+- 必須能夠以 [Mbox](https://en.wikipedia.org/wiki/Mbox) 或符合 [RFC5322](https://datatracker.ietf.org/doc/rfc5322) 標準的個別 .EML 匯出電子郵件。
+- 允許使用者使用自己的[網域名稱](https://en.wikipedia.org/wiki/Domain_name)。 自定網域名稱對用戶來說很重要，因為它允許用戶在使用服務時仍維持持自我代理，以防服務變差或被另一家不優先考慮隱私的公司收購。
 - Must operate on owned infrastructure, i.e. not built upon third-party email service providers.
 
 **最佳情況：**

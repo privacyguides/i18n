@@ -1,6 +1,6 @@
 ---
-meta_title: 推薦地圖與導航應用程式 - Privacy Guides
-title: 地圖與導航
+meta_title: "推薦地圖與導航應用程式 - Privacy Guides"
+title: "地圖與導航"
 icon: material/map
 description: 尊重隱私的地圖提供商和導航應用程式，不會根據您的搜尋和位置建立廣告檔案。
 cover: maps.webp

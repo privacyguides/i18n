@@ -1,5 +1,5 @@
 ---
-title: 電子郵件別名
+title: "電子郵件別名"
 icon: material/email-lock
 description: 電子郵件別名服務可輕鬆地替每次網站註冊生成一個新的電子郵件地址。
 cover: email-aliasing.webp

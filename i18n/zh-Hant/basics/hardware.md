@@ -1,6 +1,6 @@
 ---
-title: 選擇您的硬體
-icon: material/chip
+title: "選擇您的硬體"
+icon: 'material/chip'
 description: 隱私保護不能僅聚焦於軟體方面；了解您每天使用的硬體，以保護您的隱私。
 ---
 

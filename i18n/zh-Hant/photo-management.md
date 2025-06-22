@@ -1,5 +1,5 @@
 ---
-title: 照片管理
+title: "照片管理"
 icon: material/image
 description: These photo management tools keep your personal photos safe from the prying eyes of cloud storage providers and other unauthorized parties.
 cover: photo-management.webp

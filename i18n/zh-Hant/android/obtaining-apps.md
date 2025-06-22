@@ -1,5 +1,5 @@
 ---
-title: 應用程式獲取途徑
+title: "應用程式獲取途徑"
 description: 我們建議您使用這些方法取得 Android 上的應用程式，它們不需 Google Play 服務。
 ---
 

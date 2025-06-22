@@ -1,5 +1,5 @@
 ---
-title: 辦公軟體套件
+title: "辦公軟體套件"
 icon: material/file-edit-outline
 description: 這些辦公軟體套件提供完整的功能，無需帳號且可離線使用。
 cover: office-suites.webp
@@ -48,9 +48,9 @@ cover: office-suites.webp
 **OnlyOffice** 是一套以雲端為基礎的免費開放原始碼辦公軟體套件，具有廣泛的功能，包括與 Nextcloud 整合。
 
 [:octicons-home-16: 首頁](https://onlyoffice.com){ .md-button .md-button--primary }
-:octicons-eye-16:{ .card-link title="隱私權政策" }
-:octicons-info-16:{ .card-link title=說明文件}
-:octicons-code-16:{ .card-link title="原始碼" }
+[:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=說明文件}
+[:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

@@ -1,12 +1,12 @@
 ---
-meta_title: 最佳 Android 作業系統 - Privacy Guides
-title: 替代作業系統
+meta_title: "最佳 Android 作業系統 - Privacy Guides"
+title: "替代作業系統"
 description: 您可以使用這些安全且尊重隱私的替代方案來取代 Android 手機上的作業系統。
 schema:
   - "@context": http://schema.org
     "@type": 網頁
     name: 尊重隱私的 Android 作業系統
-    url: ./
+    url: "./"
   - "@context": http://schema.org
     "@type": CreativeWork
     name: GrapheneOS
@@ -16,7 +16,7 @@ schema:
     subjectOf:
       "@context": http://schema.org
       "@type": 網頁
-      url: ./
+      url: "./"
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 

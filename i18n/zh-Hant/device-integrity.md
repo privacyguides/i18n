@@ -1,5 +1,5 @@
 ---
-title: 設備一致完整
+title: "設備一致完整"
 icon: material/security
 description: 這些工具可用於檢查裝置是否受到攻擊。
 cover: device-integrity.webp
