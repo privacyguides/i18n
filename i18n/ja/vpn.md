@@ -37,7 +37,7 @@ VPNを使用しても、ブラウジング傾向を匿名化したり、安全�
 | --------------------- | ------------ | ----------------------------- | ------------------------------------------- | ---------------------------------------------------------- | --------- |
 | [Proton](#proton-vpn) | 112以上        | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } 一部対応 | :material-information-outline:{ .pg-blue } 制限あり            | 現金        |
 | [IVPN](#ivpn)         | 37以上         | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-information-outline:{ .pg-blue } アウトバウンドトラフィックのみ | Monero、現金 |
-| [Mullvad](#mullvad)   | 49+          | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-check:{ .pg-green }                              | Monero、現金 |
+| [Mullvad](#mullvad)   | 49以上         | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-check:{ .pg-green }                              | Monero、現金 |
 
 ### Proton VPN
 
