@@ -61,31 +61,31 @@ VPNプロバイダーが暗号化DNSサーバーをホストしていない限�
 
 暗号化DNSが推奨されるもう一つのよくある理由はDNSスプーフィングを防ぐことです。 しかし、ブラウザは既に**HTTPS**で[TLS証明書](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates)を確認し、警告しているはずです。 **HTTPS**を使用していない場合、敵対者はDNSクエリ以外を変更することだけしかできず、結果はほとんど変わりません。
 
-## Should I use Tor *and* a VPN?
+## Tor*と*VPNを使うべきですか？
 
-Maybe, Tor is not necessarily suitable for everybody in the first place. Consider your [threat model](threat-modeling.md), because if your adversary is not capable of extracting information from your VPN provider, using a VPN alone may provide enough protection.
+そもそもTorはすべての人に必ずしも適していないかもしれません。 [脅威モデル](threat-modeling.md)を考慮してください。もし敵対者がVPNプロバイダーから情報を取得する能力がなければ、VPNを使うだけで十分な保護が得られる可能性があるからです。
 
-If you do use Tor then you are *probably* best off connecting to the Tor network via a commercial VPN provider. However, this is a complex subject which we've written more about on our [Tor overview](../advanced/tor-overview.md) page.
+もしTorを使うのであれば、商用VPNプロバイダー経由でTorネットワークにアクセスするのが*おそらく*最善の方法でしょう。 しかし、これは複雑な問題であり、[Torの概要](../advanced/tor-overview.md)のページで詳細を説明しています。
 
-## Should I access Tor through VPN providers that provide "Tor nodes"?
+## VPNプロバイダーの「Torノード」からTorにアクセスするべきですか？
 
-You should not use that feature: The primary advantage of using Tor is that you do not trust your VPN provider, which is negated when you use Tor nodes hosted by your VPN instead of connecting directly to Tor from your computer.
+このような機能は使うべきではありません。Torを使う主な利点はVPNプロバイダーを信用していないことであり、コンピューターからTorに直接接続する代わりにVPNプロバイダーがホストするTorノードを使う場合、この利点は失われてしまいます。
 
-現在、TorはTCPプロトコルのみをサポートしています。 UDP (used by [WebRTC](https://en.wikipedia.org/wiki/WebRTC), [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3), and other protocols), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol), and other packets will be dropped. To compensate for this, VPN providers typically will route all non-TCP packets through their VPN server (your first hop). This is the case with [ProtonVPN](https://protonvpn.com/support/tor-vpn). Additionally, when using this Tor over VPN setup, you do not have control over other important Tor features such as [Isolated Destination Address](https://whonix.org/wiki/Stream_Isolation) (using a different Tor circuit for every domain you visit).
+現在、TorはTCPプロトコルのみをサポートしています。 UDP（[WebRTC](https://en.wikipedia.org/wiki/WebRTC)や[HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3)などのプロトコル）や[ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol)などのその他のパケットは捨てられてしまいます。 これを補うために、VPNプロバイダーは通常、TCP以外のパケットをすべてVPNサーバー（ファーストホップ）を経由するようにルーティングします。 [ProtonVPN](https://protonvpn.com/support/tor-vpn)が該当します。 さらに、VPN経由でのTorを使う場合、[Isolated Destination Address](https://whonix.org/wiki/Stream_Isolation)（訪問するドメインごとに異なるTor回線を使う）などTorの重要な機能を制御することはできません。
 
-The feature should be viewed as a *convenient* way to access hidden services on Tor, not to stay anonymous. For proper anonymity, use the actual [Tor Browser](../tor.md).
+このような機能は匿名性を保つためではなく、Torからアクセスできないサービスへアクセスするための*便利な*方法としてとらえるべきです。 適切に匿名性を確保するためには実際に[Tor Browser](../tor.md)を使うべきです。
 
-## Commercial VPN Ownership
+## 商用VPNの所有権
 
-Most VPN services are owned by the same [few companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies). These shady companies run lots of smaller VPN services to create the illusion that you have more choice than you actually do and to maximize profit. Typically, these providers that feed into their shell company have terrible privacy policies and shouldn't be trusted with your internet traffic. You should be very strict about which provider you decide to use.
+ほとんどのVPNサービスは同じ[数社](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies)が所有しています。 こうした怪しげな企業は小規模なVPNサービスを多数運用することで、実際よりも多くの選択肢があるように錯覚させ、利益を最大化しています。 一般的に、怪しげな会社が運営するVPNプロバイダーのプライバシーポリシーはひどく、インターネットトラフィックを任せるべきではありません。 どのプロバイダーを利用するかは厳密に決める必要があります。
 
-You should also be wary that many VPN review sites are merely advertising vehicles open to the highest bidder. ==Privacy Guides does not make money from recommending external products, and never uses affiliate programs.==
+また、VPNのレビューサイトは最高額入札者の単なる広告であることにも注意する必要があります。 ==Privacy Guidesは推奨するプロダクトから収益を得ておらず、アフィリエイトプログラムも利用していません。==
 
 [推奨されるVPN](../vpn.md ""){.md-button}
 
-## Modern VPN Alternatives
+## VPNのモダンな代替手段
 
-Recently, some attempts have been made by various organizations to address some issues which centralized VPNs have. These technologies are relatively new, but worth keeping an eye on as the field develops.
+最近では、中央集権的なVPNが抱える問題に対処するために、様々な組織によって試みがなされています。 このような技術は比較的新しいものですが、分野が発展するにつれて注目する価値があります。
 
 ### Multi-Party Relays
 

@@ -5,7 +5,7 @@ description: We do not sell or share your data with any third-parties.
 
 ## What is Privacy Guides?
 
-Privacy Guides is a community project operated by a number of active contributors. The public list of team members can be found on our forum. Privacy Guides is legally administered by MAGIC Grants, a 501(c)(3) public charity acting as our fiscal host.
+Privacy Guides is a community project operated by a number of active contributors. The public list of team members [can be found on our forum](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all). Privacy Guides is legally administered by [MAGIC Grants](https://magicgrants.org), a 501(c)(3) public charity acting as our fiscal host.
 
 As a project, we make available to the public:
 
@@ -230,7 +230,7 @@ Currently:
 
 - Privacy Guides [processes personal data on servers outside the European Union](#where-does-privacy-guides-store-data-about-me).
 - Privacy Guides uses [subprocessors](#subprocessors-used-by-privacy-guides) with personnel and computers outside the European Union.
-- Privacy Guides has personnel in the United States, Australia, and other non-EU countries without EU adequacy decisions under GDPR. These people need access to forum personal data in order to keep forums running, address security concerns, respond to privacy-related requests from users, field technical support requests, and otherwise assist users.
+- Privacy Guides has [personnel](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all) in the United States, Australia, and other non-EU countries without EU adequacy decisions under GDPR. These people need access to forum personal data in order to keep forums running, address security concerns, respond to privacy-related requests from users, field technical support requests, and otherwise assist users.
 - Privacy Guides is very likely subject to section 702 of the Foreign Intelligence Surveillance Act in the United States, a law that the European Court of Justice has found inadequately protects the rights and freedoms of data subjects.
 - Privacy Guides has never received any order or request for personal data under FISA 702 or any similar national security or surveillance law of any other country. Privacy Guides is not subject to any court order or legal obligation that would prevent it from disclosing the existence or non-existence of such an order or request.
 - Privacy Guides has a policy for how we will respond to those orders and requests, in case we ever receive one. Privacy Guides will suspend processing, notify any affected user, minimize disclosure, and resist disclosure of personal data, all as the law allows.
