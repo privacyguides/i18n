@@ -28,7 +28,7 @@ global:
 | [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                     | :material-information-outline:{ .pg-blue } 限 Mail | 現金                           |
 | [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }            | :material-check:{ .pg-green }                     | 透過第三方支付 Monero<br> 或現金 |
 
-In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md#recommended-providers) to protect your privacy. 除此之外，這些服務有助於保護真實收件匣免受垃圾郵件的侵害，防止行銷人員關聯您的帳戶，並使用 PGP 加密所有傳入的訊息。
+除了這裡建議的電子郵件供應商及他們的替代品之外，您也可以考慮使用專用的[電子郵件別名服務](email-aliasing.md#recommended-providers)來保護您的隱私。 除此之外，這些服務有助於保護真實收件匣免受垃圾郵件的侵害，防止行銷人員關聯您的帳戶，並使用 PGP 加密所有傳入的訊息。
 
 - [更多資訊 :material-arrow-right-drop-circle:](email-aliasing.md)
 
@@ -266,20 +266,20 @@ Tuta 向非營利組織提供免費 [商業版本](https://tuta.com/blog/secure-
 
 - 必須使用零存取加密技術加密電子郵件帳戶資料。
 - 必須能夠以 [Mbox](https://en.wikipedia.org/wiki/Mbox) 或符合 [RFC5322](https://datatracker.ietf.org/doc/rfc5322) 標準的個別 .EML 匯出電子郵件。
-- 允許使用者使用自己的[網域名稱](https://en.wikipedia.org/wiki/Domain_name)。 自定網域名稱對用戶來說很重要，因為它允許用戶在使用服務時仍維持持自我代理，以防服務變差或被另一家不優先考慮隱私的公司收購。
-- Must operate on owned infrastructure, i.e. not built upon third-party email service providers.
+- 允許使用者使用自己的[網域名稱](https://en.wikipedia.org/wiki/Domain_name)。 自定網域名稱對用戶來說很重要，因為它允許用戶在使用服務時仍能維持自我代理，以防服務變差或被另一家不優先考慮隱私的公司收購。
+- 必須在自有的基礎架構上運作，即不建基於第三方電子郵件服務供應商。
 
 **最佳情況：**
 
-- Should encrypt all account data (contacts, calendars, etc.) at rest with zero-access encryption.
-- Should provide integrated webmail E2EE/PGP encryption as a convenience.
-- Should support WKD to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key with this command: `gpg --locate-key example_user@example.com`.
-- 支援外部使用者的臨時信箱。 This is useful when you want to send an encrypted email without sending an actual copy to your recipient. 這些電子郵件通常具有限定時效，之後會被自動刪除。 它們也不需要收件人配置任何像OpenPGP這樣的加密技術。
-- Should support [sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
-- Should allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). 自定網域名稱對用戶來說很重要，因為它允許用戶在使用服務時仍維持持自我代理，以防服務變差或被另一家不優先考慮隱私的公司收購。
-- Catch-all or alias functionality for those who use their own domains.
-- Should use standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
-- Email provider's services should be available via an [onion service](https://en.wikipedia.org/wiki/.onion).
+- 應使用零存取加密技術加密所有帳戶資料 (聯絡人、行事曆等)。
+- 應提供整合式網頁郵件 E2EE/PGP 加密功能，方便用戶使用。
+- 應支援 WKD，以便透過 HTTP 改善公共 OpenPGP 金鑰的發現。 GnuPG 使用者可以使用下列指令取得金鑰：`gpg --locate-key example_user@example.com`。
+- 支援外部使用者的臨時信箱。 當您要傳送加密的電子郵件，但又不想傳送實際副本給收件人時，這個功能就很有用。 這些電子郵件通常具有限定時效，之後會被自動刪除。 它們也不需要收件人配置任何像OpenPGP這樣的加密技術。
+- 應支援 [sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing)。
+- 應允許使用者使用自己的[網域名稱](https://en.wikipedia.org/wiki/Domain_name)。 自定網域名稱對用戶來說很重要，因為它允許用戶在使用服務時仍能維持自我代理，以防服務變差或被另一家不優先考慮隱私的公司收購。
+- 為那些使用自己網域的人提供Catch-all或別名功能。
+- 應使用標準的電子郵件存取通訊協定，例如：IMAP、SMTP 或 [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol)。 標準存取通訊協定可確保客戶在轉換其他供應商時，能輕鬆下載所有電子郵件。
+- 電子郵件供應商的服務應可透過[洋蔥服務](https://en.wikipedia.org/wiki/.onion)提供。
 
 ### 隱私
 
@@ -287,30 +287,30 @@ Tuta 向非營利組織提供免費 [商業版本](https://tuta.com/blog/secure-
 
 **最低合格要求：**
 
-- Must protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
-- Must not require personally identifiable information (PII) besides a username and a password.
-- Privacy policy must meet the requirements defined by the GDPR.
+- 必須保護寄件者的 IP 位址，這可能需要過濾它，使其不會顯示在 `Received` 標頭欄位中。
+- 除了使用者名稱和密碼外，不得要求提供個人識別資訊 (PII)。
+- 隱私權政策必須符合 GDPR 定義的要求。
 
 **最佳情況：**
 
-- Should accept [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
-- Should be hosted in a jurisdiction with strong email privacy protection laws.
+- 應接受[匿名付款方式](advanced/payments.md)（[加密貨幣](cryptocurrency.md)、現金、禮品卡等）
+- 應託管於具有強大電子郵件隱私權保護法律的司法管轄區。
 
 ### 安全
 
-Email servers deal with a lot of very sensitive data. We expect that providers will adopt industry best practices in order to protect their customers.
+電子郵件伺服器處理大量非常敏感的資料。 我們期望供應商會採用業界最佳實務，以保護其客戶。
 
 **最低合格要求：**
 
-- Protection of webmail with 2FA, such as [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
-- Zero-access encryption, which builds on encryption at rest. 提供者沒有其所持有資料的解密金鑰。 這可防止惡意員工洩露他們存取的資料，或遠端敵人透過未經授權存取伺服器來釋放他們竊取的資料。
+- 使用 2FA（例如：[TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp)）保護網頁郵件。
+- 建基於靜態加密之上的零存取加密。 提供者沒有其所持有資料的解密金鑰。 這可防止惡意員工洩露他們存取的資料，或遠端敵人透過未經授權存取伺服器來釋放他們竊取的資料。
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) 支援。
 - 使用 [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh) 或 [Qualys SSL Labs](https://ssllabs.com/ssltest) 等工具沒發現 TLS 錯誤或漏洞； 這包括與憑證相關的錯誤和弱 DH 參數，例如 [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)) 錯誤。
-- A server suite preference (optional on TLS 1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
+- 伺服器套件偏好設定（TLS 1.3 為選用）適用於支援前向保密和認證加密的強密碼套件。
 - 有效的 [MTA-STS](https://tools.ietf.org/html/rfc8461) 和[TLS-RPT](https://tools.ietf.org/html/rfc8460) 政策。
-- 有效 [ DANE ](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) 紀錄。
+- 有效 [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) 紀錄。
 - 有效的 [SPF ](https://en.wikipedia.org/wiki/Sender_Policy_Framework) 和 [ DKIM ](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) 記錄。
-- Must have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. 如果正在使用 DMARC 驗證，則必須將原則設定為 `拒絕` 或 `隔離`。
+- 必須有適當的 [DMARC](https://en.wikipedia.org/wiki/DMARC) 記錄和政策，或使用 [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) 進行驗證。 如果正在使用 DMARC 驗證，則必須將原則設定為 `拒絕` 或 `隔離`。
 - 伺服器套件最好為 TLS 1.2或更高版本以及 [ RFC8996](https://datatracker.ietf.org/doc/rfc8996)計劃。
 - 假設使用SMTP，[SMTPS](https://en.wikipedia.org/wiki/SMTPS) 提交。
 - 網站安全標準，例如：
@@ -320,18 +320,18 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
 
 **最佳情況：**
 
-- Should support hardware authentication, i.e. U2F 和 [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online)。
+- 應支援硬體驗證，即： U2F 和 [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online)。
 - [DNS 憑證授權機構授權 (CAA) 資源記錄](https://tools.ietf.org/html/rfc6844) 除了 DANE 支援外。
-- Should implement [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
-- Published security audits from a reputable, third-party firm.
-- 漏洞獎勵計劃和/或協調漏洞披露過程。
+- 應該實作 [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain)，這對於在郵件列表 [RFC8617](https://tools.ietf.org/html/rfc8617) 發布文章的人很有用。
+- 由信譽良好的第三方公司公布的安全稽核。
+- 漏洞獎勵計劃 和/或 負責任的披露。
 - 網站安全標準，例如：
     - [內容安全策略(CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
     - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163)
 
 ### 信任
 
-You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? 我們要求推薦的供應商公開其所有權或領導層級狀況。 我們也希望能夠看到經常性的透明度報告，尤其是如何處理政府要求的部份。
+您不會把財務資料交給身份作假的人，那麼為什麼會信任讓他們來使用您的電子郵件？ 我們要求推薦的供應商公開其所有權或領導層級狀況。 我們也希望能夠看到經常性的透明度報告，尤其是如何處理政府要求的部份。
 
 **最低合格要求：**
 
@@ -343,21 +343,21 @@ You wouldn't trust your finances to someone with a fake identity, so why trust t
 
 ### 行銷
 
-With the email providers we recommend, we like to see responsible marketing.
+對於我們推薦的電子郵件供應商，我們希望看到負責任的行銷。
 
 **最低合格要求：**
 
-- Must self-host analytics (no Google Analytics, Adobe Analytics, etc.).
-- Must not have any irresponsible marketing, which can include the following:
-    - Claims of "unbreakable encryption." Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
-    - Guarantees of protecting anonymity 100%. When someone makes a claim that something is 100%, it means there is no certainty for failure. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
-        - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software such as Tor
+- 必須自行託管分析服務（不使用 Google Analytics、Adobe Analytics 等）。
+- 不得有任何不負責任的行銷行為，可能包括下列內容：
+    - 聲稱「無法破解的加密」。 使用加密時應考慮到，當未來有破解技術時，被加密的資料可能就不是秘密了。
+    - 保證 100% 匿名性保護。 當有人宣稱某件事是 100% 時，這表示不可能失敗。 我們知道人們可以透過許多方式輕易地去匿名化，例如：
+        - 重複使用他們在沒有使用 Tor 等匿名軟體的情況下存取的個人資訊（例如：電子郵件帳號、獨特假名 等）
         - [瀏覽器指紋](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **最佳情況：**
 
-- Clear and easy-to-read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
+- 針對設定 2FA、電子郵件用戶端、OpenPGP 等任務，提供清晰易讀的說明文件。
 
 ### 附加功能
 
-While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.
+雖然不是嚴格的要求，但我們在決定推薦哪些提供商時，也會考慮其他一些便利性或隱私性因素。
