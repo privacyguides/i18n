@@ -1,6 +1,6 @@
 ---
-title: Eligiendo Tu Hardware
-icon: material/chip
+title: "Eligiendo Tu Hardware"
+icon: 'material/chip'
 description: El software no es lo único importante; aprende sobre las herramientas de hardware que puedes utilizar a diario para proteger tu privacidad.
 ---
 

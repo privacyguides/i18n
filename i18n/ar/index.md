@@ -75,45 +75,46 @@ schema:
 
 </div>
 
-- [x] **Ad-Free Recommendations**
-- [x] **Complete Editorial Independence**
-- [x] **Non-Profit & Open Source**
-- [x] **Frequent Updates**
-- [x] **Trusted by Journalists**
-- [x] **Trusted by Readers**
+- [x] **توصيات بدون محتوى إعلاني**
+- [x] **استقلالية تحريرية كاملة**
+- [x] **منظمة غير ربحية ومفتوحة المصدر**
+- [x] **تحديثات متكررة**
+- [x] **موثوقة من قبل الصحفيين**
+- [x] **موثوقة من قبل القرّاء**
 
 </div>
 
 ---
 
-## About Privacy Guides
+## نبذة عن Privacy Guides
 
 ![Privacy Guides logo](assets/brand/logos/png/square/pg-yellow.png){ align=right loading=lazy }
 
-Established in 2021 due to the difficulty of finding unbiased reviewers in the VPN and privacy space, **Privacy Guides** is the most popular, trustworthy, non-profit website that provides information about protecting your *personal* data security and privacy. Our crowdsourced recommendations and reviews of **privacy tools** and our community dedicated to helping others set us apart from other blogs and content creators. The team behind this project has been researching privacy and security in the open-source space for over 5 years, originally with a now-defunct web resource that eventually became the *Privacy Guides* millions of readers trust.
+تأسس موقع **Privacy Guides** في 2021 بسبب قلة المصادر المستقلة في مجال الخصوصية و الـ VPN، ويُعتبر اليوم الموقع الأشهر والأكثر موثوقية لتقديم نصائح حماية بياناتك *الشخصية* وأمانك الرقمي. ما يجعلنا مختلفين هو توصياتنا ومراجعاتنا التي يساهم فيها الجميع **لأدوات الخصوصية**، ودعم مجتمعنا النشط الذي يساعد المستخدمين على حماية خصوصيتهم. الفريق المسؤول عن هذا المشروع يعمل في مجال البحث حول الخصوصية والأمان في برامج المصادر المفتوحة (open-source) لأكثر من 5 سنوات، بدأ بموقع إلكتروني سابق لم يعد موجودا، والذي تطور فيما بعد ليصبح *Privacy Guides* الذي يثق به ملايين القراء اليوم.
 
-*Our website is free of advertisements and not affiliated with any of the listed providers.*
+*نحن لا نعرض إعلانات على موقعنا، ولا نرتبط بأي شركة أو مزود خدمة من المدرجين في توصياتنا.*
 
-As seen in **WIRED**, **Tweakers.net**, **The New York Times**, and many other publications as a reliable source for privacy and security knowledge.
+تم ذكرنا كمصدر موثوق للمعلومات عن الخصوصية والأمان في العديد من المنشورات، منها **WIRED**، و**Tweakers.net**، و**The New York Times**.
 
-[:material-information: More About Who We Are](about.md){ class="md-button" }
+[:material-information:تعرف علينا أكثر](about.md){ class="md-button" }
 
 <div class="grid" markdown>
 <div markdown>
-## What are privacy tools?
+## ما المقصود بأدوات الخصوصية؟
 
-We recommend a wide variety of **privacy tools** (a.k.a. *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can use to improve your privacy. Many of the tools we recommend are completely free to use and open-source software, while some are commercial services available for purchase. Switching from mainstream data-hungry software like Google Chrome and Windows to privacy-focused tools like [Brave](desktop-browsers.md#brave) and [Linux](desktop.md) can go a long way towards controlling the information you share with companies and others.
+نوصي بمجموعة واسعة من أدوات الخصوصية (المعروفة أيضا بـ *تطبيقات الخصوصية*، *أدوات الخصوصية*، *برامج الخصوصية*) التي تشمل برامج وأجهزة يمكنك استخدامها لتعزيز خصوصيتك. معظم الأدوات التي نرشحها مجانية ومفتوحة المصدر، وهناك أيضا خدمات تجارية يمكن شراؤها حسب الحاجة. استبدال البرامج الشائعة التي تجمع بيانات كثيرة مثل Google Chrome وWindows بأدوات تهتم بالخصوصية مثل [Brave](desktop-browsers.md#brave) و[Linux](desktop.md) يمنحك سيطرة أفضل على معلوماتك الشخصية.
 
-[:material-check-all: Our General Criteria](about/criteria.md){ class="md-button" }
+[:material-check-all:المعايير الأساسية لدينا](about/criteria.md){ class="md-button" }
 </div>
 
 <div markdown>
-## Why does privacy matter?
+## لماذا يجب أن نهتم بالخصوصية؟
 
-In the modern age of digital data exploitation, your privacy has never been more critical, yet many believe it is already a lost cause. It is not. ==Your privacy is up for grabs, and you need to care about it.== Privacy is about power, and it is so important that this power ends up in the right hands.
+في زمن انتشار استغلال البيانات الرقمية، لا تزال الخصوصية أمرا حيويا، رغم أن الكثيرين يظنون أن الحفاظ عليها أصبح مستحيلا. هذا ليس صحيحا. ==خصوصيتك معرضة للخطر، ومن الضروري أن تهتم بها.==
+الخصوصية تتعلق بالسلطة، وهي مهمة جدًا بحيث يجب أن تكون هذه السلطة في الأيادي الصحيحة.
 
-Many people get the concepts of privacy, security, and anonymity confused. You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
+يُخطئ الكثيرون في التفرقة بين الخصوصية، الأمان، وإخفاء الهوية. سترى أحيانا أشخاصا ينتقدون منتجات مختلفة بأنها "لا تحافظ على الخصوصية"، بينما يقصدون في الواقع أنها لا توفر الهوية المجهولة، على سبيل المثال. في هذا الموقع، نغطي جميع هذه المواضيع الثلاثة، لكن من المهم أن تفهم الفرق بينها، ومتى يُطبق كل مفهوم منها.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
+[:material-movie-open-play-outline: فيديو: 5 خطوات لتحسين خصوصيتك](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 </div>
 </div>

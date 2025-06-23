@@ -1,5 +1,5 @@
 ---
-title: Colaboración en Documentos
+title: "Colaboración en Documentos"
 icon: material/account-group
 description: La mayoría de las paquetes de ofimática en línea no admiten E2EE, lo que significa que el proveedor de la nube tiene acceso a todo lo que haces.
 cover: document-collaboration.webp

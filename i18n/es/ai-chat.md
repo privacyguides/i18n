@@ -1,6 +1,6 @@
 ---
 meta_title: "Chat IA Recomendado: Alternativas Privadas a ChatGPT - Privacy Guides"
-title: Chat IA
+title: "Chat IA"
 icon: material/assistant
 description: A diferencia de ChatGPT de OpenAI y sus competidores de los gigantes tecnológicos, estas herramientas de IA se ejecutan localmente, por lo que tus datos nunca salen de tu dispositivo de escritorio.
 cover: ai-chatbots.webp

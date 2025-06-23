@@ -1,5 +1,5 @@
 ---
-title: Teléfonos celulares
+title: "Teléfonos celulares"
 icon: material/cellphone-check
 description: Estos dispositivos móviles ofrecen el mejor soporte de seguridad de hardware para sistemas operativos Android personalizados.
 cover: android.webp
@@ -7,7 +7,7 @@ schema:
   - "@context": http://schema.org
     "@type": WebPage
     name: Recomendaciones de teléfonos celulares
-    url: ./
+    url: "./"
   - "@context": http://schema.org
     "@type": Product
     name: Pixel

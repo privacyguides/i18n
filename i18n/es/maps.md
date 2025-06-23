@@ -1,6 +1,6 @@
 ---
-meta_title: Aplicaciones de Mapas y Navegación Recomendadas - Privacy Guides
-title: Mapas y Navegación
+meta_title: "Aplicaciones de Mapas y Navegación Recomendadas - Privacy Guides"
+title: "Mapas y Navegación"
 icon: material/map
 description: Proveedores de mapas y aplicaciones de navegación que respetan la privacidad y no crean un perfil publicitario basado en tus búsquedas y ubicaciones.
 cover: maps.webp

@@ -1,7 +1,7 @@
 ---
 title: Redes Sociales
 icon: material/account-supervisor-circle-outline
-description: Find a new social network that doesn’t pry into your data or monetize your profile.
+description: Encuentra una nueva red social que no husmee en tus datos ni monetice tu perfil.
 cover: social-networks.webp
 ---
 
@@ -10,23 +10,23 @@ cover: social-networks.webp
 - [:material-close-outline: Censura](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 - [:material-account-cash: Capitalismo de Vigilancia](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-These privacy-respecting **social networks** allow you to participate in online communities without giving up your personal information like your full name, phone number, and other data commonly requested by tech companies.
+Estas **redes sociales** respetuosas con la privacidad te permiten participar en comunidades online sin tener que dar tu información personal, como tu nombre completo, número de teléfono y otros datos que suelen pedir las empresas tecnológicas.
 
-A growing problem among social media platforms is censorship in two different forms. First, they often acquiesce to illegitimate censorship requests, either from malicious governments or their own internal policies. Second, they often require accounts to access walled-off content that would otherwise be published freely on the open internet; this effectively censors the browsing activities of privacy-conscious users who are unable to pay the privacy cost of opening an account on these networks.
+Un problema creciente entre las plataformas de redes sociales es la censura en dos formas diferentes. En primer lugar, a menudo acceden a peticiones de censura ilegítimas, ya sea de gobiernos malintencionados o de sus propias políticas internas. En segundo lugar, a menudo exigen cuentas para acceder a contenidos amurallados que de otro modo se publicarían libremente en la Internet abierta; esto censura las actividades de navegación de los usuarios preocupados por su privacidad que no pueden pagar el coste de privacidad que supone abrir una cuenta en estas redes.
 
-The social networks we recommend solve the issue of censorship by operating atop an open and decentralized social networking protocol. They also don't require an account merely to view publicly available content.
+Las redes sociales que recomendamos resuelven el problema de la censura al funcionar con un protocolo de red social abierto y descentralizado. Tampoco requieren una cuenta para solamente ver los contenidos disponibles públicamente.
 
-You should note that **no** social networks are appropriate for private or sensitive communications. For chatting directly with others, you should use a recommended [instant messenger](real-time-communication.md) with strong end-to-end encryption, and only use direct messages on social media in order to establish a more private and secure chat platform with your contacts.
+Deberías tener en cuenta que **ninguna** red social es apropiada para comunicaciones privadas o sensibles. Para chatear directamente con otras personas, deberías utilizar un [servicio de mensajería instantánea] recomendado(real-time-communication.md) con un cifrado fuerte de extremo a extremo, y solo utilizar mensajes directos en las redes sociales para establecer una plataforma de chat más privada y segura con tus contactos.
 
-## Decentralization
+## Descentralización
 
-Decentralized social networks are built on an architecture that is fundamentally different than mainstream social media platforms, yet quite similar to the underlying structure of email. Instead of opening an account under a single, unified service like you would for Facebook or Discord, you instead choose an independent, public server to join. The server you join can communicate with and discover other servers; this aspect of decentralization is also known as _federation_.
+Las redes sociales descentralizadas se basan en una arquitectura fundamentalmente diferente a la de las principales plataformas de redes sociales, aunque bastante similar a la estructura subyacente del correo electrónico. En lugar de abrir una cuenta en un servicio único y unificado, como harías en Facebook o Discord, eliges un servidor público independiente al que unirte. El servidor al que te unes puede comunicarse con otros servidores y descubrirlos; este aspecto de la descentralización también se conoce como _federación_.
 
-A significant benefit of this decentralized model is that there is no central authority which can censor your account across the entire network, though it is possible for your account to be banned or silenced by an individual server.
+Una ventaja importante de este modelo descentralizado es que no existe una autoridad central que pueda censurar tu cuenta en toda la red, aunque es posible que un servidor individual la bloquee o silencie.
 
-A caveat of this decentralized model is that each server is its own legal entity, with its own privacy policy, terms of use, administration team, and moderators. While many of these servers are far _less_ restrictive and more privacy-respecting than traditional social media platforms, some can be far _more_ restrictive or potentially _worse_ for your privacy. Typically, the software on which the social network runs does not discriminate between these administrators or place any limitations on their powers.
+Una limitación de este modelo descentralizado es que cada servidor es su propia entidad legal, con su propia política de privacidad, condiciones de uso, equipo de administración y moderadores. Aunque muchos de estos servidores son mucho _menos_ restrictivos y respetan más la privacidad que las plataformas tradicionales de redes sociales, algunos pueden ser mucho _más_ restrictivos o potencialmente _peores_ para tu privacidad. Normalmente, el software sobre el que funciona la red social no discrimina entre estos administradores ni impone limitaciones a sus poderes.
 
-## Censorship Resistance
+## Resistencia a la Censura
 
 While censorship in decentralized social networks does not exist on a network level, it is very possible to experience censorship on a server level depending on a server's administrator. Administrators have the power to _defederate_ from other servers, which leads to limiting the content you can view and the people you can interact with.
 
@@ -191,11 +191,11 @@ With this setting enabled, unverified users (i.e., those who have not used the *
 
 **Por favor, ten en cuenta que no estamos afiliados a ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
 
-- Must be free and open-source software.
-- Must use a federated protocol to communicate with other instances of the social networking software.
-- Must not have non-technical restrictions on who can be federated with.
-- Must be usable within a standard [web browser](desktop-browsers.md).
-- Must make public content accessible to visitors without an account.
-- Must allow you to limit who can follow your profile.
-- Must allow you to post content visible only to your followers.
-- Must support modern web application security standards/features (including [multifactor authentication](multi-factor-authentication.md)).
+- Debe ser software libre y de código abierto.
+- Debe utilizar un protocolo federado para comunicarse con otras instancias del software de red social.
+- No debe tener restricciones no técnicas sobre con quién puede estar federada.
+- Debe poder utilizarse en un [navegador web] estándar (desktop-browsers.md).
+- Debe hacer que los contenidos públicos sean accesibles a los visitantes sin cuenta.
+- Debe permitirte limitar quién puede seguir tu perfil.
+- Debe permitirte publicar contenidos visibles solo para tus seguidores.
+- Debe ser compatible con los modernos estándares/características de seguridad de las aplicaciones web (incluida la [autenticación multifactor](multi-factor-authentication.md)).

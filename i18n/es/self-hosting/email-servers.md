@@ -1,6 +1,6 @@
 ---
 title: Servidores de Correo Electrónico
-meta_title: Correo Electrónico Autoalojado - Privacy Guides
+meta_title: "Correo Electrónico Autoalojado - Privacy Guides"
 icon: material/email
 description: Para nuestros lectores más técnicos, el autoalojamiento de tu propio correo electrónico puede proporcionar garantías adicionales de privacidad al tener el máximo control sobre tus datos.
 cover: email.webp

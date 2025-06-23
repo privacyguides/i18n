@@ -1,5 +1,5 @@
 ---
-title: Suites de ofimática
+title: "Suites de ofimática"
 icon: material/file-edit-outline
 description: Estas suites de ofimática ofrecen todas sus funcionalidades sin una cuenta y pueden ser utilizadas sin conexión.
 cover: office-suites.webp
@@ -48,9 +48,9 @@ Elige una **suite de ofimática** que no requiera iniciar sesión para acceder a
 **OnlyOffice** es una suite ofimática gratuita, basada en la nube y de código abierto, con amplias funcionalidades, incluyendo la integración con Nextcloud.
 
 [:octicons-home-16: Página principal](https://onlyoffice.com){ .md-button .md-button--primary }
-:octicons-eye-16:{ .card-link title="Política de privacidad" }
-:octicons-info-16:{ .card-link title=Documentación}
-:octicons-code-16:{ .card-link title="Código fuente" }
+[:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Política de privacidad" }
+[:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentación}
+[:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Código fuente" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>

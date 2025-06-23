@@ -1,5 +1,5 @@
 ---
-title: Herramientas Lingüísticas
+title: "Herramientas Lingüísticas"
 icon: material/alphabetical-variant
 description: Estas herramientas lingüísticas no envían el texto introducido a un servidor y pueden utilizarse sin conexión y de forma autoalojada.
 cover: language-tools.webp

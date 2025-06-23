@@ -1,6 +1,6 @@
 ---
 title: Autoalojamiento
-meta_title: Software y Servicios Autoalojados - Privacy Guides
+meta_title: "Software y Servicios Autoalojados - Privacy Guides"
 description: Para nuestros lectores más técnicos, el software y los servicios autoalojados pueden proporcionar garantías adicionales de privacidad, ya que tienes el máximo control sobre tus datos.
 cover: router.webp
 ---

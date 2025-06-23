@@ -1,5 +1,5 @@
 ---
-title: Obtener Aplicaciones
+title: "Obtener Aplicaciones"
 description: Recomendamos estos métodos para obtener aplicaciones en Android sin interactuar con los Servicios de Google Play.
 ---
 

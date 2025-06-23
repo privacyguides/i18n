@@ -1,5 +1,5 @@
 ---
-title: Llaves de seguridad
+title: "Llaves de seguridad"
 icon: material/key-chain
 description: Estas llaves de seguridad proporcionan una forma de autenticación inmune al phishing para las cuentas que lo admiten.
 cover: multi-factor-authentication.webp

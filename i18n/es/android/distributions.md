@@ -1,12 +1,12 @@
 ---
-meta_title: Los Mejores Sistemas Operativos Android - Privacy Guides
-title: Distribuciones alternativas
+meta_title: "Los Mejores Sistemas Operativos Android - Privacy Guides"
+title: "Distribuciones alternativas"
 description: Puedes reemplazar el sistema operativo en tu teléfono Android por estas alternativas seguras y respetuosas con la privacidad.
 schema:
   - "@context": http://schema.org
     "@type": WebPage
     name: Private Android Operating Systems
-    url: ./
+    url: "./"
   - "@context": http://schema.org
     "@type": CreativeWork
     name: GrapheneOS
@@ -16,7 +16,7 @@ schema:
     subjectOf:
       "@context": http://schema.org
       "@type": WebPage
-      url: ./
+      url: "./"
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 

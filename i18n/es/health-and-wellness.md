@@ -1,6 +1,6 @@
 ---
-meta_title: Aplicaciones de Salud y Bienestar para Android e iOS que Respetan la Privacidad - Privacy Guides
-title: Salud y Bienestar
+meta_title: "Aplicaciones de Salud y Bienestar para Android e iOS que Respetan la Privacidad - Privacy Guides"
+title: "Salud y Bienestar"
 icon: material/heart-pulse
 description: Estas aplicaciones son las que recomendamos actualmente para todas las actividades relacionadas con la salud y el ejercicio físico en tu teléfono.
 cover: health.webp

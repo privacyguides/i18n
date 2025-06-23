@@ -1,5 +1,5 @@
 ---
-title: Redes Alternativas
+title: "Redes Alternativas"
 icon: material/vector-polygon
 description: Estas herramientas te permiten acceder a redes distintas a la World Wide Web.
 cover: alternative-networks.webp

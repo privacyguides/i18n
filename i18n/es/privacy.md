@@ -1,11 +1,11 @@
 ---
-title: Política de Privacidad
+title: "Política de Privacidad"
 description: No vendemos ni compartimos tus datos con terceros.
 ---
 
 ## ¿Qué es Privacy Guides?
 
-Privacy Guides es un proyecto comunitario gestionado por una serie de colaboradores activos. La lista pública de miembros del equipo puede consultarse en nuestro foro. Privacy GuidesPrivacy Guides está administrada legalmente por MAGIC Grants, una organización benéfica pública 501(c)(3) que actúa como nuestro anfitrión fiscal.
+Privacy Guides es un proyecto comunitario gestionado por una serie de colaboradores activos. La lista pública de miembros del equipo [puede consultarse en nuestro foro](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all). Privacy GuidesPrivacy Guides está administrada legalmente por [MAGIC Grants](https://magicgrants.org), una organización benéfica pública 501(c)(3) que actúa como nuestro anfitrión fiscal.
 
 Como proyecto, ponemos a disposición del público:
 
@@ -230,7 +230,7 @@ Actualmente:
 
 - Privacy Guides [procesa datos personales en servidores fuera de la Unión Europea](#where-does-privacy-guides-store-data-about-me).
 - Privacy Guides utiliza [subprocesadores](#subprocessors-used-by-privacy-guides) con personal y ordenadores fuera de la Unión Europea.
-- Privacy Guides cuenta con personal en Estados Unidos, Australia y otros países no pertenecientes a la UE sin decisiones de adecuación de la UE en virtud del RGPD. Estas personas necesitan acceder a los datos personales de los foros para mantenerlos en funcionamiento, resolver problemas de seguridad, responder a peticiones de los usuarios relacionadas con la privacidad, atender solicitudes de asistencia técnica y ayudar a los usuarios de cualquier otra forma.
+- Privacy Guides cuenta con [personal](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all) en Estados Unidos, Australia y otros países no pertenecientes a la UE sin decisiones de adecuación de la UE en virtud del RGPD. Estas personas necesitan acceder a los datos personales de los foros para mantenerlos en funcionamiento, resolver problemas de seguridad, responder a peticiones de los usuarios relacionadas con la privacidad, atender solicitudes de asistencia técnica y ayudar a los usuarios de cualquier otra forma.
 - Es muy probable que Privacy Guides esté sujeta a la sección 702 de la Ley de Vigilancia de la Inteligencia Extranjera en Estados Unidos, una ley que el Tribunal de Justicia de las Comunidades Europeas ha considerado que no protege adecuadamente los derechos y libertades de los interesados.
 - Privacy Guides nunca ha recibido ninguna orden o solicitud de datos personales en virtud de la ley FISA 702 ni de ninguna ley similar de seguridad o de vigilancia nacional de ningún otro país. Privacy Guides no está sujeta a ninguna orden judicial u obligación legal que le impida revelar la existencia o inexistencia de dicha orden o solicitud.
 - Privacy Guides tiene una política sobre cómo responderemos a esas órdenes y solicitudes, en caso de que alguna vez recibamos alguna. Privacy Guides suspenderá el tratamiento, notificará a cualquier usuario afectado, minimizará la divulgación y se opondrá a la divulgación de datos personales, todo ello según lo permita la ley.

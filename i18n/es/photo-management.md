@@ -1,5 +1,5 @@
 ---
-title: Gestión de Fotografías
+title: "Gestión de Fotografías"
 icon: material/image
 description: Estas herramientas de gestión de fotografías mantienen tus fotos personales a salvo de las miradas indiscretas de los proveedores de almacenamiento en la nube y otras partes no autorizadas.
 cover: photo-management.webp

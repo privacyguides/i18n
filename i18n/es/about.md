@@ -1,5 +1,5 @@
 ---
-title: Sobre Privacy Guides
+title: "Sobre Privacy Guides"
 description: Privacy Guides es un sitio web socialmente motivado que proporciona información para proteger la seguridad y privacidad de tus datos.
 schema:
   "@context": https://schema.org
@@ -24,7 +24,7 @@ schema:
 [:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Página Principal }
 [:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Código Fuente" }
 
-Privacy Guides está elaborada por voluntarios y miembros del personal de todo el mundo. Todos los cambios en nuestras recomendaciones y recursos son revisados por al menos dos personas de confianza, y trabajamos con diligencia para garantizar que nuestro contenido se actualice lo más rápidamente posible para adaptarse al panorama siempre cambiante de las amenazas a la ciberseguridad.
+Privacy Guides está elaborada por voluntarios y miembros del personal de todo el mundo. Todos los cambios en nuestras recomendaciones y recursos son revisados por al menos dos personas [de confianza](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all), y trabajamos con diligencia para garantizar que nuestro contenido se actualice lo más rápidamente posible para adaptarse al panorama siempre cambiante de las amenazas a la ciberseguridad.
 
 Además de nuestro equipo central, [muchas otras personas](about/contributors.md) han contribuido al proyecto. ¡Tú también puedes contribuir! Somos de código abierto en GitHub y aceptamos sugerencias de traducciones en [Crowdin](https://crowdin.com/project/privacyguides).
 
@@ -42,7 +42,7 @@ La mejor forma de obtener ayuda individual es a través de nuestra comunidad en 
 
 [:simple-signal: Chat en Signal](https://signal.me/#eu/zg9xcrIv5w-EtXt2FmTJgfWv01LmyTed8rpr7RDv35Mizq8ISZ9NJLmYtzsxI0Z4){ .md-button }
 
-También puedes enviar un correo electrónico a todo el equipo en <team@privacyguides.org>. Esta es una bandeja de entrada compartida que puede ser leída por cualquier miembro del equipo, así que por favor considera qué información sensible compartes a través del correo electrónico.
+También puedes enviar un correo electrónico a todo el equipo en <team@privacyguides.org>. Esta es una bandeja de entrada compartida que puede ser leída por cualquier [miembro del equipo](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all), así que por favor considera qué información sensible compartes a través del correo electrónico.
 
 Haremos todo lo posible por responder a todas las consultas en un plazo de 3 días laborables, pero comprende que no podemos ofrecer asesoramiento individualizado a todos los que nos lo piden. Si tienes alguna pregunta sobre privacidad, recibirás una respuesta mucho más detallada y oportuna de la comunidad de Privacy Guides [preguntando en nuestro foro](https://discuss.privacyguides.net/c/privacy/questions/8).
 
