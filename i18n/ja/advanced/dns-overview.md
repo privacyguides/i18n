@@ -4,7 +4,7 @@ icon: material/dns
 description: ドメインネームシステム（DNS）は「インターネットの電話帳」であり、ブラウザが探しているウェブサイトを見つけるのに役立ちます。
 ---
 
-The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is the 'phone book of the Internet'. DNS translates domain names to IP addresses so browsers and other services can load Internet resources, through a decentralized network of servers.
+[ドメイン・ネーム・システム](https://en.wikipedia.org/wiki/Domain_Name_System)は「インターネットの電話帳」です。 DNSはドメイン名をIPアドレスに変換しており、分散化されたサーバーのネットワークを通じ、ブラウザやその他のサービスはインターネットリソースをロードできるようになります。
 
 ## DNSとは？
 
