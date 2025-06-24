@@ -10,21 +10,21 @@ description: ドメインネームシステム（DNS）は「インターネッ�
 
 ウェブサイトにアクセスすると、数値のアドレスが返されます。 たとえば、 `privacyguides.org`にアクセスすると、アドレス `192.98.54.105` が返されます。
 
-DNSはインターネットの[初期](https://en.wikipedia.org/wiki/Domain_Name_System#History)から存在しています。 DNSサーバーとの間で行われるDNSリクエストは、一般的には暗号化**されていません**。 In a residential setting, a customer is given servers by the ISP via [DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol).
+DNSはインターネットの[初期](https://en.wikipedia.org/wiki/Domain_Name_System#History)から存在しています。 DNSサーバーとの間で行われるDNSリクエストは、一般的には暗号化**されていません**。 住宅向けの設定では、[DHCP](https://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol)経由でISPからサーバーが既定されます。
 
 暗号化されていないDNSリクエストは、転送中簡単に**監視し**、**変更**することができます。 世界のいくつかの地域では、ISPは原始的な[DNSフィルタリング](https://en.wikipedia.org/wiki/DNS_blocking)を行うよう命じられています。 ブロックされているドメインのIPアドレスをリクエストすると、サーバーは応答しないか、別のIPアドレスで応答することがあります。 DNSプロトコルは暗号化されていないため、ISPは（またはどのネットワークオペレーターも） [ディープ・パケット・インスペクション](https://en.wikipedia.org/wiki/Deep_packet_inspection)によって 、リクエストを監視できます。 ISPは、どのDNSサーバーが使われているかに関係なく、共通の特徴に基づいてリクエストをブロックすることもできます。
 
-Below, we discuss and provide a tutorial to prove what an outside observer may see using regular unencrypted DNS and [encrypted DNS](#what-is-encrypted-dns).
+以下では通常の暗号化されていないDNSと[暗号化DNS](#what-is-encrypted-dns)を用いて、外部の観察者が何を見ることができるかを説明します。
 
 ### 暗号化されていないDNS
 
-1. Using [`tshark`](https://wireshark.org/docs/man-pages/tshark.html) (part of the [Wireshark](https://en.wikipedia.org/wiki/Wireshark) project) we can monitor and record internet packet flow. This command records packets that meet the rules specified:
+1. [`tshark`](https://wireshark.org/docs/man-pages/tshark.html)（[Wireshark](https://en.wikipedia.org/wiki/Wireshark)プロジェクトの一部）を使い、インターネットのパケットフローを監視、記録します。 このコマンドは指定されたルールに合致するパケットを記録します：
 
     ```bash
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
     ```
 
-2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, macOS, etc.) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. Software such as web browsers do these lookups automatically, unless they are configured to use encrypted DNS.
+2. [`dig`](https://en.wikipedia.org/wiki/Dig_(command))（Linux、macOSなど）や[`nslookup`](https://en.wikipedia.org/wiki/Nslookup)（Windows）を使ってDNSルックアップを両方のサーバーに送ります。 ウェブブラウザなどのソフトウェアは暗号化DNSの使用が設定されていない限り、自動的にルックアップを行います。
 
     === "LinuxとmacOS"
 
@@ -39,7 +39,7 @@ Below, we discuss and provide a tutorial to prove what an outside observer may s
         nslookup privacyguides.org 8.8.8.8
         ```
 
-3. Next, we want to [analyze](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
+3. 次に結果を[分析](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs)します：
 
     === "Wireshark"
 
@@ -53,7 +53,7 @@ Below, we discuss and provide a tutorial to prove what an outside observer may s
         tshark -r /tmp/dns.pcap
         ```
 
-If you run the Wireshark command above, the top pane shows the "[frames](https://en.wikipedia.org/wiki/Ethernet_frame)", and the bottom pane shows all the data about the selected frame. Enterprise filtering and monitoring solutions (such as those purchased by governments) can do the process automatically, without human interaction, and can aggregate those frames to produce statistical data useful to the network observer.
+上記のWiresharkのコマンドを実行すると、上のペインは[フレーム](https://en.wikipedia.org/wiki/Ethernet_frame)が表示され、下のペインには選択したフレームに関するすべてのデータが表示されます。 企業向けフィルタリング・監視ソリューション（政府機関が購入するようなもの）は人手を介さずこの手順を自動的に行い、フレームを集約し、ネットワーク監視者にとって有用な統計データを作成することができます。
 
 | 番号 | 時間       | 参照元       | 宛先        | プロトコル | 長さ  | 詳細                                                                     |
 | -- | -------- | --------- | --------- | ----- | --- | ---------------------------------------------------------------------- |
@@ -62,7 +62,7 @@ If you run the Wireshark command above, the top pane shows the "[frames](https:/
 | 3  | 1.682109 | 192.0.2.1 | 8.8.8.8   | DNS   | 104 | Standard query 0xf1a9 A privacyguides.org OPT                          |
 | 4  | 2.154698 | 8.8.8.8   | 192.0.2.1 | DNS   | 108 | Standard query response 0xf1a9 A privacyguides.org A 198.98.54.105 OPT |
 
-An observer could modify any of these packets.
+監視者はこれらのパケットをいずれも変更することができます。
 
 ## 「暗号化されたDNS」とは？
 
