@@ -80,7 +80,7 @@ Some of these apps are better than others; making a determination comes down to 
 
 </div>
 
-Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。 因此， **不應** 修改瀏覽器超出預設 [安全級別](https://tb-manual.torproject.org/security-settings)。 When modifying the security level setting, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
+Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。 因此， **不應** 修改瀏覽器超出預設 [安全級別](https://tb-manual.torproject.org/security-settings)。 When modifying the security level setting, you **must** always restart the browser before continuing to use it. 否則，[安全設定可能無法完全套用](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw)，使您遭受指紋辨識和漏洞利用的風險比您對所選設定的預期還要高。
 
 除了直接在電腦安裝 Tor 瀏覽器外，還有專門設計用於連接到 Tor 網路的操作系統，例如 [Qubes OS 作業系統](desktop.md#qubes-os) ＋ [Whonix](desktop.md#whonix) ，它們提供比標準 Tor 瀏覽器更高的安全性和保護。
 

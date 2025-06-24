@@ -91,7 +91,7 @@ schema:
 
 Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
 
-Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). When adjusting the security level, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
+因此，除了調整預設的[安全層級](https://tb-manual.torproject.org/security-settings)外，請絕對不要對瀏覽器進行任何修改。 調整安全層級後，您**必須**重新啟動瀏覽器，才能繼續使用。 否則，[安全設定可能無法完全套用](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw)，使您遭受指紋辨識和漏洞利用的風險比您對所選設定的預期還要高。
 
 Modifications other than adjusting this setting would make your fingerprint unique, defeating the purpose of using this browser. 如果您希望更深入地調整瀏覽器設定，且您不擔心瀏覽器指紋被識別，我們推薦使用 [Firefox](#firefox)。
 
