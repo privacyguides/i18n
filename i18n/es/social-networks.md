@@ -28,17 +28,17 @@ Una limitación de este modelo descentralizado es que cada servidor es su propia
 
 ## Resistencia a la Censura
 
-While censorship in decentralized social networks does not exist on a network level, it is very possible to experience censorship on a server level depending on a server's administrator. Administrators have the power to _defederate_ from other servers, which leads to limiting the content you can view and the people you can interact with.
+Mientras que la censura en las redes sociales descentralizadas no existe a nivel de red, es muy posible experimentar censura a nivel de servidor dependiendo del administrador del mismo. Los administradores tienen el poder de _defederarse_ de otros servidores, lo que lleva a limitar el contenido que puedes ver y la gente con la que puedes interactuar.
 
-If you are greatly concerned about an existing server censoring your content, the content available to you, or other servers, you generally have two options:
+Si te preocupa mucho que un servidor existente censure tu contenido, el contenido disponible para ti u otros servidores, generalmente tienes dos opciones:
 
-1. **Host the social network software yourself.** This approach gives you the exact same censorship resistance as any other website you can host yourself, which is fairly high.
+1. **Aloja tú mismo el software de la red social.** Este enfoque te da exactamente la misma resistencia a la censura que cualquier otro sitio web que puedas alojar tú mismo, la cual es bastante alta.
 
-2. **Use a managed hosting service.** We don't have any specific recommendations, but there are a variety of hosting services which will create a brand-new server on your own domain (or occasionally a subdomain of their domain, but we recommend against this unless registering your own domain presents too much of a burden to your privacy).
+2. **Utiliza un servicio de alojamiento gestionado.** No tenemos recomendaciones específicas, pero hay una gran variedad de servicios de alojamiento que crearán un servidor completamente nuevo en tu propio dominio (u ocasionalmente un subdominio de su dominio, pero no lo recomendamos a menos que registrar tu propio dominio suponga una carga demasiado grande para tu privacidad).
 
-    Typically, hosting providers will handle the _technical_ side of your server, but completely leave the _moderation_ side up to you. This often represents a better approach than self-hosting for most people because you can benefit from greater control over your own server without worrying about technical problems or unpatched security vulnerabilities.
+    Normalmente, los proveedores de alojamiento se encargan de la parte _técnica_ de tu servidor, pero dejan completamente en tus manos la _moderación_. Esto suele ser mejor que el autoalojamiento para la mayoría de la gente, ya que puedes beneficiarte de un mayor control sobre tu propio servidor sin preocuparte por problemas técnicos o vulnerabilidades de seguridad sin parchear.
 
-    You should look closely at your hosting provider's terms of service and acceptable use policies before registering. These are often far more broad than typical hosted server rules, and they are far less likely to be enforced without recourse, but they can still be restrictive in undesirable ways.
+    Antes de registrarte, deberías leer atentamente las condiciones de servicio y la política de uso aceptable de tu proveedor de alojamiento. Suelen ser mucho más amplias que las normas típicas de los servidores alojados, y es mucho menos probable que se apliquen sin recurso, pero aún así pueden ser restrictivas de formas no deseadas.
 
 ## Mastodon
 
