@@ -51,20 +51,20 @@
 *[KYC]: Conoce a Tu Cliente
 *[LLaVA]: Asistente de Visión y Lenguaje de Gran Tamaño (modelo de IA multimodal)
 *[LLMs]: Grandes Modelos Lingüísticos (modelos de IA como ChatGPT)
-*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
+*[LUKS]: Configuración de Clave Unificada Linux (Cifrado de Disco Completo)
 *[MAC]: Control de Acceso a los Medios
 *[MDAG]: Protección de aplicaciones de Microsoft Defender
 *[MEID]: Identificador de Equipo Móvil
 *[MFA]: Autenticación de Múltiples Factores
-*[NVMe]: Nonvolatile Memory Express
-*[NAT]: Network address translation
-*[NAT-PMP]: NAT Port Mapping Protocol
+*[NVMe]: Memoria No Volátil Express
+*[NAT]: Traducción de direcciones de red
+*[NAT-PMP]: NAT Protocolo de Asignación de Puertos
 *[NTP]: Protocolo de Tiempo de Red
 *[OCI]: Iniciativa de Contenedor Abierto
 *[OCSP]: Protocolo del Estado del Certificado de Línea
 *[OEM]: Fabricante Original de Equipo
 *[OEMs]: Fabricantes Originales de Equipos
-*[open-weights]: An open weights-model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
+*[open-weights]: Un modelo open-weight es un modelo de IA que cualquiera puede descargar y utilizar, pero cuyos datos de entrenamiento y/o algoritmos subyacentes son propiedad de la empresa.
 *[OS]: Sistema Operativo
 *[OTP]: Contraseña de Un Solo Uso
 *[OTPs]: Contraseña de Un Solo Uso
@@ -72,12 +72,12 @@
 *[P2P]: Peer-to-Peer
 *[PAM]: Módulos de Autenticación Conectables a Linux
 *[POP3]: Post Office Protocol 3
-*[PGP]: Pretty Good Privacy (see OpenPGP)
+*[PGP]: Privacidad Bastante Buena (véase OpenPGP)
 *[PII]: Información Personalmente Identificable
 *[QNAME]: Nombre Cualificado
-*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
+*[QUIC]: Un protocolo de red basado en UDP, pero que pretende combinar la velocidad de UDP con la fiabilidad de TCP.
 *[límites de tarifa]: Los límites de tarifa son restricciones que un servicio impone al número de veces que un usuario puede acceder a sus servicios en un periodo de tiempo determinado.
-*[liberación progresiva]: Updates which are released frequently rather than set intervals
+*[liberación progresiva]: Actualizaciones que se publican frecuentemente en lugar de en intervalos establecidos
 *[RSS]: Sindicación Realmente Sencilla
 *[SELinux]: Linux con Seguridad Mejorada
 *[SIM]: Módulo de Identidad del Suscriptor
@@ -86,12 +86,12 @@
 *[SNI]: Indicación del Nombre de Servidor
 *[SSD]: Unidad de Disco Duro de Estado Sólido
 *[SSH]: Shell Seguro
-*[SUID]: Set Owner User ID
+*[SUID]: Establecer ID de Usuario Propietario
 *[SaaS]: Software como servicio (software en la nube)
 *[SoC]: Sistema en chip
-*[SSO]: Single sign-on
-*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
-*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
+*[SSO]: Inicio de sesión único
+*[prompt del sistema]: El prompt del sistema de un chat de IA son las instrucciones generales dadas por un humano para indicar cómo debe funcionar.
+*[temperatura]: La temperatura de la IA es un parámetro utilizado en los modelos de IA para controlar el nivel de aleatoriedad y creatividad del texto generado.
 *[TCP]: Protocolo de Control de Transmisión
 *[TEE]: Entorno de Ejecución de Confianza
 *[TLS]: Seguridad de la Capa de Transporte
@@ -107,5 +107,5 @@
 *[W3C]: Consorcio World Wide Web
 *[XMPP]: Protocolo Extensible de Mensajería y Presencia
 *[PWA]: Aplicación Web Progresiva
-*[PWAs]: Progressive Web Apps
-*[WKD]: Web Key Directory
+*[PWAs]: Aplicaciones Web Progresivas
+*[WKD]: Directorio de Claves Web
