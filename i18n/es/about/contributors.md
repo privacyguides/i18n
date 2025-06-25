@@ -7,7 +7,7 @@ description: Una lista completa de colaboradores que, colectivamente, han tenido
 
 <!-- Do NOT manually edit this file, please add yourself to the .all-contributorsrc file instead. See our GitHub Issues for more details -->
 
-Este proyecto sigue la especificación de [todos los colaboradores](https://github.com/all-contributors/all-contributors). Contributions of **any** kind are welcome to be added to [this list](https://github.com/privacyguides/privacyguides.org/blob/main/.all-contributorsrc), including contributions to Privacy Guides outside this repo, and contributions that aren't content related (like sharing ideas for Privacy Guides, promoting the project, answering questions on the forum, etc.).
+Este proyecto sigue la especificación de [todos los colaboradores](https://github.com/all-contributors/all-contributors). Las contribuciones de **cualquier** tipo son bienvenidas para ser agregadas a [esta lista](https://github.com/privacyguides/privacyguides.org/blob/main/.all-contributorsrc), incluyendo las colaboraciones a Privacy Guides fuera de este repositorio y las contribuciones que no están relacionadas con el contenido (como compartir ideas para Privacy Guides, promocionar el proyecto, responder preguntas en el foro, etc.).
 
 | Emoji | Tipo         | Descripción                                                                                                                                                 |
 | ----- | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |

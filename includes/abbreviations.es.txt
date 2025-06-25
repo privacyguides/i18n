@@ -8,36 +8,36 @@
 *[CLI]: Interfaz de Línea de Comando
 *[CSV]: Valores Separados por Coma
 *[CVE]: Vulnerabilidades y Exposiciones Comunes
-*[patrón oscuro]: A deceptive design pattern intended to trick a user into doing things
-*[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
+*[patrón oscuro]: Un patrón de diseño engañoso destinado a inducir a un usuario a hacer cosas
+*[función de legado digital]: Legado Digital se refiere a funciones que te permiten darle a otras personas acceso a tus datos cuando fallezcas
 *[DNSSEC]: Extensiones de Seguridad del Sistema de Nombres de Dominio
 *[DNS]: Sistema de Nombre de Dominio
 *[DoH]: DNS sobre HTTPS
 *[DoQ]: DNS sobre QUIC
 *[DoH3]: DNS sobre HTTP/3
 *[DoT]: DNS sobre TLS
-*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
+*[DPI]: La Inspección Profunda de Paquetes identifica y bloquea los paquetes con cargas útiles específicas
 *[E2EE]: Cifrado/Encriptación de Extremo a Extremo
 *[ECS]: Subred de Cliente EDNS
 *[EEE]: Espacio Económico Europeo
-*[entropy]: A measurement of how unpredictable something is
+*[entropy]: Una medida de lo impredecible que es algo
 *[EOL]: Fin de Vida
 *[Exif]: Formato de archivo de imagen intercambiable
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: Encriptación de Disco Completo
 *[FIDO]: Fast IDentity Online
 *[FS]: Secreto Hacia Adelante
-*[fork]: A new software project created by copying an existing project and adding to it independently
+*[fork]: Un nuevo proyecto de software creado copiando un proyecto existente y agregándolo de forma independiente
 *[GDPR]: Reglamento General de Protección de Datos
 *[GPG]: GNU Privacy Guard (implementación de PGP)
 *[GPS]: Sistema de Posicionamiento Global
 *[GUI]: Interfaz Gráfica de Usuario
 *[GnuPG]: GNU Privacy Guard (implementación de PGP)
 *[HDD]: Unidad de Disco Duro
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
+*[HOTP]: HMAC (Código de Autenticación de Mensaje Basado en Hash) basado en contraseña de un solo uso
 *[HTTPS]: Protocolo de Transferencia de Hipertexto Seguro
 *[HTTP]: Protocolo de Transferencia de Hipertexto
-*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
+*[hypervisor]: Software, firmware o hardware informático que reparte los recursos de una CPU entre varios sistemas operativos
 *[ICCID]: Identificador de Tarjeta de Circuito Integrado
 *[IMAP]: Protocolo de Acceso a Mensajes de Internet
 *[IMEI]: Identidad Internacional de Equipos Móviles
@@ -49,8 +49,8 @@
 *[ISPs]: Proveedores de Servicio de Internet
 *[JNI]: Interfaz nativa de Java
 *[KYC]: Conoce a Tu Cliente
-*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-*[LLMs]: Large Language Models (AI models such as ChatGPT)
+*[LLaVA]: Asistente de Visión y Lenguaje de Gran Tamaño (modelo de IA multimodal)
+*[LLMs]: Grandes Modelos Lingüísticos (modelos de IA como ChatGPT)
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
 *[MAC]: Control de Acceso a los Medios
 *[MDAG]: Protección de aplicaciones de Microsoft Defender

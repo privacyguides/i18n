@@ -69,48 +69,48 @@ Para beneficiarse al máximo de Mastodon, es fundamental elegir un servidor, o u
 
 ### Ajustes de Privacidad Recomendados
 
-From Mastodon's web interface, click the **Administration** link in the right sidebar. Within the administration control panel, you'll find these sections in the left sidebar:
+Desde la interfaz web de Mastodon, haz clic en el enlace **Preferencias** de la barra lateral derecha. Dentro del panel de control de administración, encontrarás estas secciones en la barra lateral izquierda:
 
-#### Public Profile
+#### Perfil Público
 
-There are a number of privacy controls under the **privacy and reach** tab here. Most notably, pay attention to these:
+Hay una serie de controles de privacidad en la pestaña **privacidad y alcance**. Sobre todo, presta atención a estos:
 
-- [ ] **Automatically accept new followers**: You should consider unchecking this box to have a private profile. This will allow you to review who can follow your account before accepting them.
+- [ ] **Aceptar automáticamente nuevos seguidores**: Deberías considerar desmarcar esta casilla para tener un perfil privado. Esto te permitirá revisar quién puede seguir tu cuenta antes de aceptarlos.
 
-    In contrast to most social media platforms, if you have a private profile you still have the _option_ to publish posts which are publicly visible to non-followers and can still be boosted by non-followers. Therefore, unchecking this box is the only way to have the _choice_ to publish to either the entire world or a select group of people.
+    A diferencia de la mayoría de las plataformas de redes sociales, si tienes un perfil privado todavía tienes la _opción_ de publicar mensajes que son visibles públicamente para los que no te siguen y que pueden ser impulsados por los que no te siguen. Por lo tanto, desmarcar esta casilla es la única manera de tener la _opción_ de publicar para todo el mundo o para un grupo selecto de personas.
 
-- [ ] **Show follows and followers on profile**: You should uncheck this box to hide your social graph from the public. It is fairly uncommon for the list of people you follow to have some genuine benefit to others, but that information can present a risk to you.
+- [ ] **Mostrar seguidos y seguidores en el perfil**: Deberías desmarcar esta casilla para ocultar tu gráfico social al público. Es bastante infrecuente que la lista de personas a las que sigues tenga algún beneficio genuino para los demás, pero esa información puede suponer un riesgo para ti.
 
-- [ ] **Display from which app you sent a post**: You should uncheck this box to prevent revealing information about your personal computing setup to others unnecessarily.
+- [ ] **Mostrar desde qué aplicación enviaste una publicación**: Deberías desmarcar esta casilla para evitar revelar información sobre tu configuración informática personal a otras personas innecesariamente.
 
-The other privacy controls on this page should be read through, but we would stress that they are **not** technical controls—they are merely requests that you make to others. For example, if you choose to hide your profile from search engines on this page, **nothing** is actually stopping a search engine from reading your profile. You are merely requesting search engine indexes not publish your content to their users.
+Conviene leer los demás controles de privacidad de esta página, pero insistimos en que **no** son controles técnicos, sino meras peticiones que haces a los demás. Por ejemplo, si eliges ocultar tu perfil de los buscadores en esta página, **nada** impide realmente que un buscador lea tu perfil. Simplemente estás solicitando a los índices de los buscadores que no muestren tu contenido a sus usuarios.
 
-You will likely still wish to make these requests because they can practically reduce your digital footprint. However, they should not be _relied_ upon. The only effective way to hide your posts from search engines and others is to post with non-public (followers only) visibility settings _and_ limit who can follow your account.
+Es probable que con todo esto sigas deseando hacer estas solicitudes porque prácticamente pueden reducir tu huella digital. Sin embargo, no se debe _depender_ de ellos. La única forma eficaz de ocultar tus publicaciones a los buscadores y a otras personas es publicar con una configuración de visibilidad no pública (solo para seguidores) _y_ limitar quién puede seguir tu cuenta.
 
-#### Preferences
+#### Preferencias
 
-You should change your **posting privacy** setting from public to: **Followers-only - Only show to followers**.
+Deberías cambiar la configuración de tu **privacidad de publicaciones** de pública a: **Solo seguidores - Solo mostrar a tus seguidores**.
 
-Note that this only changes your default settings to prevent accidental over-sharing. You can always adjust your visibility level when composing a new post.
+Ten en cuenta que esto solo cambia la configuración predeterminada para evitar que se comparta más de la cuenta accidentalmente. Siempre puedes ajustar tu nivel de visibilidad al redactar una nueva publicación.
 
-#### Automated post deletion
+#### Eliminación automática de publicaciones
 
-- [x] Check the **Automatically delete old posts** box.
+- [x] Marca la casilla **Borrar automáticamente publicaciones antiguas**.
 
-The default settings here are fine, and will delete any posts you make after 2 weeks, unless you favorite (star) them. This gives you an easy way to control which posts stick around forever, and which ones are only ephemeral. Many settings about how long and when posts are kept can be adjusted here to suit your own needs, however.
+La configuración predeterminada aquí está bien, y borrará cualquier publicación que hagas después de 2 semanas, a menos que lo marques como favorito (estrella). Esto te permite controlar fácilmente qué publicaciones permanecen para siempre y cuáles son efímeras. Sin embargo, aquí se pueden ajustar muchos parámetros sobre cuánto tiempo y cuándo se guardan las publicaciones para adaptarlos a tus propias necesidades.
 
-It is very rare for social media posts older than a few weeks to be read or relevant to others. These older posts are often ignored because they are challenging to deal with in bulk, but they can build a fairly comprehensive profile about you over time. You should always strive to publish content ephemerally by default, and only keep posts around for longer than that very intentionally.
+Es muy raro que las publicaciones en las redes sociales con más de unas semanas de antigüedad sean leídas o relevantes para los demás. A menudo se ignoran estas publicaciones antiguas porque son difíciles de tratar en masa, pero con el tiempo pueden crear un perfil bastante completo sobre ti. Siempre debes esforzarte por publicar contenido de forma efímera por defecto, y solo mantener las publicaciones durante más tiempo de forma muy intencionada.
 
-### Posting Content
+### Publicar Contenido
 
-When publishing a new post, you will have the option to choose from one of these visibility settings:
+Al realizar una nueva publicación, tendrás la opción de elegir una de estas opciones de visibilidad:
 
-- **Public**, which publishes your content to anyone on the internet.
-- **Quiet public**, which you should consider equivalent to publicly posting! This is not a technical guarantee, but merely a request you are making to other servers to hide your post from some feeds.
-- **Followers**, which publishes your content only to your followers. If you did not follow our recommendation of restricting your followers, you should consider this equivalent to publicly posting!
-- **Specific people**, which only shares the post with people who are specifically mentioned within the post. This is Mastodon's version of direct messages, but should never be relied on for private communications as we covered earlier since Mastodon has no E2EE.
+- **Pública**, que muestra tu contenido a cualquier persona en Internet.
+- **Pública silenciosa**, ¡lo que debería considerar equivalente a hacerla pública! Esto no es una garantía técnica, sino simplemente una petición que estás haciendo a otros servidores para ocultar tu publicación de algunas fuentes.
+- **Seguidores**, que muestra tu contenido solo a tus seguidores. Si no has seguido nuestra recomendación de restringir tus seguidores, ¡deberías considerar que esto equivale a hacerla pública!
+- **Personas específicas**, que solo comparte la publicación con las personas que se mencionan específicamente en la publicación. Esta es la versión de Mastodon de los mensajes directos, pero nunca se debe confiar en ellos para las comunicaciones privadas, ya que como hemos cubierto anteriormente, Mastodon no tiene E2EE.
 
-If you used our recommended configuration settings above, you should be posting to **Followers** by default, and only posting to **Public** on an intentional and case-by-case basis.
+Si has utilizado nuestros ajustes de configuración recomendados arriba, deberías publicar en **Seguidores** por defecto, y solo publicar en **Público** de forma intencionada y en casos determinados.
 
 ## Element
 
@@ -177,15 +177,15 @@ Como usuario final en un servidor doméstico público, puedes considerar desmarc
 
 ##### Sesiones
 
-- [ ] (Optional) Uncheck **Record the client name, version, and url to recognize sessions for easily in session manager**
+- [ ] (Opcional) Desmarca **Registrar el nombre del cliente, la versión y URL para reconocer de forma más fácil las sesiones en el gestor**
 
-Unchecking this option may make it more diffcult to discern your active sessions if you logged in to your Matrix account on multiple devices.
+Desmarcar esta opción puede hacer más difícil discernir tus sesiones activas si has iniciado sesión en tu cuenta de Matrix en varios dispositivos.
 
 #### Cifrado
 
-- [x] (Optional) Check **In encrypted rooms, only send messages to verified users**
+- [x] (Opcional) Activa **In encrypted rooms, only send messages to verified users**
 
-With this setting enabled, unverified users (i.e., those who have not used the **Verify User** function) and unverified devices of verified users will not receive your messages in a room with encryption enabled. This may limit the messages you can view and the people you can interact with.
+Con esta opción activada, los usuarios no verificados (es decir, aquellos que no hayan utilizado la función **Verificar Usuario**) y los dispositivos no verificados de usuarios verificados no recibirán tus mensajes en una sala con el cifrado activado. Esto puede limitar los mensajes que puedes ver y las personas con las que puedes interactuar.
 
 ## Criterios
 
