@@ -38,7 +38,7 @@ Si te preocupa mucho que un servidor existente censure tu contenido, el contenid
 
     Normalmente, los proveedores de alojamiento se encargan de la parte _técnica_ de tu servidor, pero dejan completamente en tus manos la _moderación_. Esto suele ser mejor que el autoalojamiento para la mayoría de la gente, ya que puedes beneficiarte de un mayor control sobre tu propio servidor sin preocuparte por problemas técnicos o vulnerabilidades de seguridad sin parchear.
 
-    Antes de registrarte, deberías leer atentamente las condiciones de servicio y la política de uso aceptable de tu proveedor de alojamiento. Suelen ser mucho más amplias que las normas típicas de los servidores alojados, y es mucho menos probable que se apliquen sin recurso, pero aún así pueden ser restrictivas de formas no deseadas.
+    Antes de registrarte, deberías leer atentamente las condiciones de servicio y la política de uso aceptable de tu proveedor de alojamiento. Suelen ser mucho más amplias que las normas típicas de los servidores alojados, y es mucho menos probable que se apliquen sin recurso, pero aun así pueden ser restrictivas de formas no deseadas.
 
 ## Mastodon
 
@@ -46,28 +46,28 @@ Si te preocupa mucho que un servidor existente censure tu contenido, el contenid
 
 ![Mastodon logo](assets/img/social-networks/mastodon.svg){ align=right }
 
-**Mastodon** is a social network based on open web protocols and free, open-source software. It uses the **:simple-activitypub: ActivityPub** protocol, which is decentralized like email: Users can exist on different servers or even different platforms but still communicate with each other.
+**Mastodon** es una red social basada en protocolos web abiertos y software libre de código abierto. Utiliza el protocolo **:simple-activitypub: ActivityPub**, que está descentralizado como el correo electrónico: los usuarios pueden estar en distintos servidores o incluso plataformas, pero seguir comunicándose entre sí.
 
-[:octicons-home-16: Homepage](https://joinmastodon.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.joinmastodon.org){ .card-link title="Documentation" }
+[:octicons-home-16: Página Principal](https://joinmastodon.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.joinmastodon.org){ .card-link title="Documentación" }
 
 </div>
 
-There are many software platforms which use ActivityPub as their backend social networking protocol, meaning they can talk to servers even when they are running different software. For example, PeerTube is a video publishing software that uses ActivityPub, meaning you can follow channels on PeerTube either with another PeerTube account, _or_ with a Mastodon account because Mastodon also uses ActivityPub.
+Hay muchas plataformas de software que utilizan ActivityPub como su protocolo de red social backend, lo que significa que pueden hablar con los servidores incluso cuando están ejecutando un software diferente. Por ejemplo, PeerTube es un software de publicación de vídeo que utiliza ActivityPub, lo que significa que puedes seguir canales en PeerTube con otra cuenta de PeerTube, _o_ con una cuenta de Mastodon porque Mastodon también utiliza ActivityPub.
 
-We chose to recommend Mastodon over other ActivityPub software as your primary social media platform for these reasons:
+Decidimos recomendar Mastodon sobre otro software ActivityPub como tu principal plataforma de redes sociales por estas razones:
 
-1. Mastodon has a solid history of security updates. In the handful of circumstances where major security vulnerabilities have been found, they coordinate patch releases quickly and cleanly. Historically they have also backported these security patches to older feature branches. This makes it easier for less experienced server hosts who may not feel comfortable upgrading to the latest releases right away to keep their instances secure. Mastodon also has an update notification system built in to the web interface, making it much more likely for server administrators to be aware of critical security patches available for their instance.
+1. Mastodon tiene un sólido historial de actualizaciones de seguridad. En las varias circunstancias en las que se han encontrado vulnerabilidades de seguridad importantes, han coordinado la publicación de parches de forma rápida y limpia. Históricamente, también han aplicado estos parches de seguridad a ramas más antiguas. Esto facilita la tarea de los anfitriones de servidores con menos experiencia que no se sientan cómodos actualizando a las últimas versiones de inmediato para mantener la seguridad de sus instancias. Mastodon también cuenta con un sistema de notificación de actualizaciones integrado en la interfaz web, lo que hace mucho más probable que los administradores de servidores estén al tanto de los parches de seguridad críticos disponibles para su instancia.
 
-2. Mastodon is largely usable with most content types. While it is primarily a microblogging platform, Mastodon easily handles longer posts, image posts, video posts, and most other posts you might encounter when following ActivityPub users who aren't on Mastodon. This makes your Mastodon account an ideal "central hub" for following anyone regardless of the platform they chose to use. In contrast, if you were only using a PeerTube account, you would _only_ be able to follow other video channels, for example.
+2. Mastodon es ampliamente utilizable con la mayoría de los tipos de contenido. Aunque es principalmente una plataforma de microblogging, Mastodon maneja fácilmente publicaciones más largas, publicaciones de imágenes, publicaciones de vídeo y la mayoría de las otras publicaciones que puedes encontrar cuando sigues a usuarios de ActivityPub que no están en Mastodon. Esto convierte tu cuenta de Mastodon en un "eje central" ideal para seguir a cualquier persona, independientemente de la plataforma que elija utilizar. En cambio, si solo utilizaras una cuenta de PeerTube, _solo_ podrías seguir otros canales de vídeo, por ejemplo.
 
-3. Mastodon has fairly comprehensive privacy controls. It has many built-in features which allow you to limit how and when your data is shared, some of which we'll cover below. They also develop new features with privacy in mind. For example, while other ActivityPub software quickly implemented "quote posts" by merely handling links to other posts with a slightly different embed modal, Mastodon is [developing](https://blog.joinmastodon.org/2025/02/bringing-quote-posts-to-mastodon) a quote post feature which will give you more fine-grained control when your post is quoted.
+3. Mastodon tiene controles de privacidad bastante completos. Tiene muchas funciones integradas que te permiten limitar cómo y cuándo se comparten tus datos, algunas de las cuales veremos a continuación. También desarrollan nuevas funciones pensando en la privacidad. Por ejemplo, mientras que otros programas con ActivityPub han implementado rápidamente las "publicaciones citadas" limitándose a gestionar los enlaces a otras publicaciones con un modo de incrustación ligeramente diferente, Mastodon está [desarrollando](https://blog.joinmastodon.org/2025/02/bringing-quote-posts-to-mastodon) una función de publicación citada que te proporcionará un control más preciso cuando se cite tu publicación.
 
-### Choosing an Instance
+### Elegir una Instancia
 
-To benefit the most from Mastodon, it is critical to choose a server, or "instance," which is well aligned with the type of content you want to post or read about. We do not currently recommend any specific instances, but you may find advice within our communities. We recommend avoiding _mastodon.social_ and _mastodon.online_ because they are operated by the same company which develops Mastodon itself. From the perspective of decentralization, it is better in the long term to separate software developers and server hosts so that no one party can exert too much control over the network as a whole.
+Para beneficiarse al máximo de Mastodon, es fundamental elegir un servidor, o una "instancia", que esté bien alineado con el tipo de contenido que deseas publicar o leer. Actualmente no recomendamos ninguna instancia específica, pero puedes encontrar asesoramiento en nuestras comunidades. Recomendamos evitar _mastodon.social_ y _mastodon.online_ porque están operados por la misma empresa que desarrolla el propio Mastodon. Desde el punto de vista de la descentralización, es mejor a largo plazo separar a los desarrolladores de software y los servidores anfitriones para que ninguna de las partes pueda ejercer demasiado control sobre la red en su conjunto.
 
-### Recommended Privacy Settings
+### Ajustes de Privacidad Recomendados
 
 From Mastodon's web interface, click the **Administration** link in the right sidebar. Within the administration control panel, you'll find these sections in the left sidebar:
 
@@ -118,7 +118,7 @@ If you used our recommended configuration settings above, you should be posting 
 
 ![Element logo](assets/img/social-networks/element.svg){ align=right }
 
-**Element** is the flagship client for the **:simple-matrix: [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im)** protocol, an [open standard](https://spec.matrix.org/latest) that enables decentralized communication by way of federated chat rooms. Users can exist on different homeservers but still communicate with each other.
+**Element** es el cliente insignia del protocolo **:simple-matrix: [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im)**, un [estándar abierto](https://spec.matrix.org/latest) que permite la comunicación descentralizada mediante salas de chat federadas. Los usuarios pueden existir en diferentes servidores domésticos y seguir comunicándose entre sí.
 
 [:octicons-home-16: Página Principal](https://element.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://element.io/privacy){ .card-link title="Política de Privacidad" }
@@ -139,43 +139,43 @@ If you used our recommended configuration settings above, you should be posting 
 
 </div>
 
-### Choosing a Homeserver
+### Elegir un Servidor Doméstico
 
-To benefit the most from Matrix, it is critical to choose a homeserver which is well aligned with the subject(s) you want to chat about. We do not currently recommend any specific homeservers, but you may find advice within our communities or third-party resources like [_joinmatrix.org_](https://servers.joinmatrix.org). We recommend avoiding _matrix.org_ because they are operated by the same company which develops Matrix itself. From the perspective of decentralization, it is better in the long term to separate software developers and server hosts so that no one party can exert too much control over the network as a whole.
+Para sacar el máximo provecho de Matrix, es fundamental elegir un servidor doméstico que esté bien alineado con el tema o los temas sobre los que se quiere charlar. Actualmente no recomendamos ningún servidor doméstico específico, pero puedes encontrar recomendaciones en nuestras comunidades o en recursos de terceros como [_joinmatrix.org_](https://servers.joinmatrix.org). Recomendamos evitar _matrix.org_ porque está gestionado por la misma empresa que desarrolla el propio Matrix. Desde el punto de vista de la descentralización, es mejor a largo plazo separar a los desarrolladores de software y los servidores anfitriones para que ninguna de las partes pueda ejercer demasiado control sobre la red en su conjunto.
 
-### Recommended Privacy Settings
+### Ajustes de Privacidad Recomendados
 
-From Element's web or desktop app, go to :gear: → **All settings** to find these sections:
+Desde la aplicación web o de escritorio de Element, ve a :gear: → **Más ajustes** para encontrar estas secciones:
 
-#### Sessions
+#### Sesiones
 
-By default, when you log in to Element on a new device, the session name will be automatically populated with the Matrix client and platform you used for login. This information may be visible to other users depending on the Matrix client they use.
+Por defecto, al iniciar sesión en Element en un nuevo dispositivo, el nombre de sesión se rellenará automáticamente con el cliente de Matrix y la plataforma que utilizaste para iniciar sesión. Esta información puede ser visible para otros usuarios dependiendo del cliente Matrix que utilicen.
 
-To prevent revealing information about your personal device to others unnecessarily, consider emptying the session name; this will change the session name to the randomly generated alphanumeric Session ID instead.
+Para evitar revelar información sobre tu dispositivo personal a otros innecesariamente, considera vaciar el nombre de sesión; esto cambiará el nombre de sesión al ID de sesión alfanumérico generado aleatoriamente en su lugar.
 
-#### Preferences
+#### Opciones
 
-- [ ] Uncheck **Send read receipts**
-- [ ] Uncheck **Send typing notifications**
+- [ ] Desmarca **Enviar acuses de recibo**
+- [ ] Desmarca **Enviar notificaciones de tecleo**
 
-You should uncheck these options to reduce the exposure of metadata to other users when chatting in a public room.
+Deberías desmarcar estas opciones para reducir la exposición de metadatos a otros usuarios cuando chateas en una sala pública.
 
-#### Voice & Video
+#### Voz y Vídeo
 
-- [ ] Uncheck **Allow Peer-to-Peer for 1:1 calls**
-- [ ] Uncheck **Allow fallback call assist server (turn.matrix.org)**
+- [ ] Desmarca **Permitir llamadas directas 1-a-1 (peer-to-peer)**
+- [ ] Desmarca **Allow fallback call assist server (turn.matrix.org)**
 
-If you do decide to use Element for one-to-one communication, we recommend unchecking these settings to prevent the exposure of your IP address to the other party.
+Si decides utilizar Element para la comunicación uno a uno, te recomendamos que desmarques estas opciones para evitar que tu dirección IP quede expuesta a la otra parte.
 
-#### Security & Privacy
+#### Seguridad y Privacidad
 
-##### Manage integrations (scalar.vector.im)
+##### Gestor de integraciones (scalar.vector.im)
 
-A Matrix integration manager connects Matrix to third-party services such as bots, bridges, and other enhancements. Element collects information to provide these services to those using an integration manager; you can review its detailed [Privacy Notice](https://element.io/integration-manager-privacy-notice) for the exact information Element collects and the ways it uses such information.
+Un gestor de integraciones de Matrix conecta Matrix a servicios de terceros como bots, puentes y otras mejoras. Element recopila información para prestar estos servicios a quienes utilizan un gestor de integraciones; puedes consultar su [Aviso de Privacidad](https://element.io/integration-manager-privacy-notice) detallado para conocer la información exacta que Element recopila y el modo en que utiliza dicha información.
 
-As an end user on a public homeserver, you can consider unchecking the **Enable the integration manager** option, which does not affect the visibility of bots or other third-party services. As a homeserver administrator, consider whether the additional parties with which you share your data are worth the extra functionality.
+Como usuario final en un servidor doméstico público, puedes considerar desmarcar la opción **Enable the integration manager**, que no afecta a la visibilidad de los bots u otros servicios de terceros. Como administrador de un servidor doméstico, considera si las partes adicionales con las que compartes tus datos merecen la funcionalidad adicional.
 
-##### Sessions
+##### Sesiones
 
 - [ ] (Optional) Uncheck **Record the client name, version, and url to recognize sessions for easily in session manager**
 
