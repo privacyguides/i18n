@@ -1,27 +1,27 @@
 ---
-title: Commenting on PRs
-description: A guide on participating in Pull Request discussions.
+title: Comentar en los PR
+description: Una guía para participar en las discusiones de Pull Request.
 ---
 
-Please refrain from using the general **Add a comment** box in GitHub PRs when leaving a comment or performing a review.
+Por favor, abstente de utilizar la casilla general **Añadir un comentario** en los PR de GitHub cuando dejes un comentario o realices una revisión.
 
-![Do not use the general "Add a comment" box in GitHub](../assets/img/meta/pr-avoid-general-comments.png)
+![No utilices la casilla general «Añadir un comentario» de GitHub](../assets/img/meta/pr-avoid-general-comments.png)
 
-Comments that are left like this are not _threaded_, which makes it difficult to keep track of multiple conversations.
+Los comentarios que se dejan así no se _hilvanan_, lo que dificulta el seguimiento de múltiples conversaciones.
 
-Comments that are instead left in the manner described below will have a built-in reply box to keep conversations in a single thread. These comments can also be marked as resolved afterwards, so that discussion can be tracked more easily.
+Los comentarios que se dejen de la manera descrita a continuación tendrán un cuadro de respuesta incorporado para mantener las conversaciones en un solo hilo. Estos comentarios también pueden marcarse posteriormente como resueltos, de modo que se pueda hacer un seguimiento de la discusión más fácilmente.
 
-![A screenshot of a comment in GitHub which has a built-in "reply" box, highlighted in orange.](../assets/img/meta/pr-threaded-comment.png)
+![Captura de pantalla de un comentario en GitHub con un cuadro de respuesta integrado, resaltado en naranja](../assets/img/meta/pr-threaded-comment.png)
 
-## Commenting
+## Comentar
 
-To start a threaded comment, you should leave all comments under the :octicons-file-diff-16: **Files changed** tab in a PR.
+Para iniciar un comentario hilvanado, debes dejar todos los comentarios en la pestaña :octicons-file-diff-16: **Archivos modificados** en un PR.
 
-![Screenshot of the tabs for a pull request. The "Files changed" tab is outlined in dark orange.](https://docs.github.com/assets/cb-23571/mw-1440/images/help/pull_requests/pull-request-tabs-changed-files.webp)
+![Captura de pantalla de las pestañas para un pull request. La pestaña "Archivos modificados" aparece en naranja oscuro](https://docs.github.com/assets/cb-23571/mw-1440/images/help/pull_requests/pull-request-tabs-changed-files.webp)
 
-To leave a _general_ comment on a PR, click the :octicons-comment-16: comment icon to the right of a file:
+Para dejar un comentario _general_ en un PR, haz clic en el icono de comentario :octicons-comment-16: situado a la derecha de un archivo:
 
-![Screenshot of an image file on the "Files changed" page of a pull request. To the right of the file, a comment icon is outlined in orange.](https://docs.github.com/assets/cb-73771/mw-1440/images/help/pull_requests/pull-request-comment-on-file.webp)
+![Captura de pantalla de un archivo de imagen en la página "Archivos modificados" de una solicitud de extracción. A la derecha del archivo, aparece un icono de comentario en naranja](https://docs.github.com/assets/cb-73771/mw-1440/images/help/pull_requests/pull-request-comment-on-file.webp)
 
 If the PR has multiple files changed, comment on the primary or most relevant file changed, or comment on the first file if you can't decide.
 

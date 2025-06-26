@@ -1,58 +1,58 @@
 ---
-title: Donation Acceptance Policy
-description: Privacy Guides aspires to obtain funding from a wide variety of sources to reduce our dependency on any single donor. Please consider donating!
+title: Política de Aceptación de Donaciones
+description: Privacy Guides aspira a obtener financiación de una amplia variedad de fuentes para reducir nuestra dependencia de un único donante. ¡Por favor, considera donar!
 ---
 
-Privacy Guides takes the ethical responsibility of making unbiased recommendations on its website very seriously.
+Privacy Guides se toma muy en serio la responsabilidad ética de hacer recomendaciones imparciales en su sitio web.
 
-Privacy Guides aspires to obtain funding from a wide variety of sources to reduce our dependency on any single donor. Please consider [donating](donate.md)!
+Privacy Guides aspira a obtener financiación de una amplia variedad de fuentes para reducir nuestra dependencia de un único donante. ¡Por favor, considera [donar](donate.md)!
 
-## What we **can** accept
+## Lo que **podemos** aceptar
 
-In the course of our regular fundraising activities...
+En el curso de nuestras actividades habituales de recaudación de fondos...
 
-- Donations and other forms of support will generally be accepted from individuals, corporations, foundations, or other entities, without limitations.
-    - This includes cash, cash equivalents (checks, money orders, credit/debit card payments), and cryptocurrency.
-- Gifts of Real Property, Personal Property, or Securities may only be accepted upon approval of the MAGIC Grants board of directors.
+- En general, se aceptarán donaciones y otras formas de ayuda de particulares, empresas, fundaciones u otras entidades, sin limitaciones.
+    - Esto incluye efectivo, equivalentes de efectivo (cheques, giros postales, pagos con tarjeta de crédito/débito) y criptomonedas.
+- Solo se aceptarán donaciones de bienes inmuebles, propiedad privada o valores financieros previa aprobación del Consejo de Administración de MAGIC Grants.
 
-Privacy Guides will only accept such gifts that are legal and consistent with our policies. Gifts must not interfere with Privacy Guides' mission, purpose, and procedures.
+Privacy Guides solo aceptará regalos que sean legales y coherentes con nuestras políticas. Los regalos no deben interferir con la misión, el propósito y los procedimientos de Privacy Guides.
 
-## Things we do **not** do
+## Cosas que **no** hacemos
 
-- Accept sponsorships.
-- Offer to recommend a product or service in exchange for a donation or other incentive.
-- Threaten to remove a recommendation for a product or service unless we receive a donation or other incentive.
-- Offer to expedite a review of a product or service in exchange for a donation or other incentive.
-- Write sponsored content or feature sponsored components in our content.
+- Aceptar patrocinios.
+- Ofertas para recomendar un producto o servicio a cambio de una donación u otro incentivo.
+- Amenazas para retirar una recomendación de un producto o servicio a menos que recibamos una donación u otro incentivo.
+- Ofertas para acelerar la revisión de un producto o servicio a cambio de una donación u otro incentivo.
+- Escribir contenidos patrocinados o incluir componentes patrocinados en nuestros contenidos.
 
-## Things we **may** do
+## Cosas que **podríamos** hacer
 
-- Accept donations from privacy-related companies and non-profits.
-- Apply for grant programs.
-- Accept free versions of software or hardware to test and review, while being mindful of possible differences in versions that could differ from a regular customer experience. ([More details](executive-policy.md#ep1-freely-provided-product-samples))
-- Accept discounted versions of software or hardware that assist our operations (for example, discounted software costs made available to non-profits).
+- Aceptar donaciones de empresas y organizaciones sin ánimo de lucro relacionadas con la privacidad.
+- Solicitar programas de subvenciones.
+- Aceptar versiones gratuitas de software o hardware para probarlas y revisarlas, teniendo en cuenta las posibles diferencias en las versiones que podrían diferir de la experiencia de un cliente habitual. ([Más detalles](executive-policy.md#ep1-freely-provided-product-samples))
+- Aceptar versiones con descuento de software o hardware que ayuden a nuestras operaciones (por ejemplo, costes de software con descuento puestos a disposición de organizaciones sin ánimo de lucro).
 
-## Restrictions on gifts
+## Restricciones de los regalos
 
-Privacy Guides accepts unrestricted gifts, and we appreciate the flexibility to apply your gift to our programs where they are most needed.
+Privacy Guides acepta regalos sin restricciones, y apreciamos la flexibilidad de aplicar tu regalo a nuestros programas donde más se necesitan.
 
-We also accept and appreciate gifts for specified programs or purposes, provided that such gifts are consistent with our program's stated mission, purpose, and priority. Privacy Guides will not accept gifts which are too restrictive in purpose.
+También aceptamos y agradecemos los regalos para programas o fines específicos, siempre que tales regalos sean coherentes con la misión, el propósito y la prioridad declarados de nuestro programa. Privacy Guides no aceptarán regalos cuya finalidad sea demasiado restrictiva.
 
-Examples of gifts which are too restrictive include:
+Algunos ejemplos de regalos demasiado restrictivos son:
 
-- Those which fund the research and review of a specific product category or specific product.
-- Those which violate our existing policies.
-- Those which are too difficult for us to administer.
-- Those that are for purposes outside our general mission.
+- Los que financian la investigación y revisión de una categoría específica de productos o de un producto concreto.
+- Los que infrinjan nuestras políticas vigentes.
+- Los que nos resultan demasiado difíciles de administrar.
+- Los que tienen fines ajenos a nuestra misión general.
 
-An example of an acceptable restriction could be a gift towards funding our [video](https://www.privacyguides.org/videos) production, or hosting our website and forum.
+Un ejemplo de restricción aceptable podría ser un regalo destiando a financiar la producción de nuestro [vídeo](https://www.privacyguides.org/videos), o el alojamiento de nuestra página web y nuestro foro.
 
-Final decisions on the restrictive nature of a gift and its acceptance or refusal will be made by our executive committee.
+La decisión final sobre el carácter restrictivo de un regalo y su aceptación o rechazo corresponderá a nuestro comité ejecutivo.
 
-## Additional terms
+## Términos adicionales
 
-Privacy Guides generally does not pay "finder's fees" or commissions to third parties in connection with any gift to Privacy Guides. We may, however, pay commissions and fees to properly negotiate and receive assets when appropriate.
+Por lo general, Privacy Guides no paga "honorarios de intermediario" ni comisiones a terceros en relación con ningún regalo a Privacy Guides. No obstante, podríamos pagar comisiones y honorarios para negociar y recibir adecuadamente los activos cuando proceda.
 
-No officer, committee member, employee, or other agent of Privacy Guides will be compensated in a manner which is dependent on the size or nature of gifts made to Privacy Guides by any person. If we engage with legal, accounting, or other professionals, their fees and expenses will be determined by the time they spend engaged with our work, and not by reference to any particular gift in connection to their retainer.
+Ningún directivo, miembro del comité, empleado u otro agente de Privacy Guides será remunerado de manera que dependa del volumen o la naturaleza de los regalos que cualquier persona haga a Privacy Guides. Si contratamos a profesionales jurídicos, contables o de otro tipo, sus honorarios y gastos vendrán determinados por el tiempo que dediquen a nuestro trabajo, y no por referencia a ningún regalo concreto en relación con su contratación.
 
-Privacy Guides always follows the MAGIC Grants Gift Acceptance Policy, available on their website: <https://magicgrants.org/about/documentation/>
+Privacy Guides sigue siempre la Política de Aceptación de Regalos de MAGIC Grants, disponible en su sitio web: <https://magicgrants.org/about/documentation/>

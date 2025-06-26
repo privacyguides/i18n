@@ -17,12 +17,12 @@ MAGIC Grants es nuestro anfitrión fiscal, y su plataforma de donaciones persona
 
 ## Fundaciones y Organizaciones
 
-=== "Current Supporters"
+=== «Sustentadores Actuales»
 
-    Thank you to these organizations who significantly support Privacy Guides. (1)
+    Gracias a estas organizaciones que apoyan significativamente Privacy Guides. (1)
     { .annotate }
 
-    1. Please contact <info@magicgrants.org> to inquire about giving. Privacy Guides reserves the right to rescind the membership of those who are unaligned with our mission or organization at any time. Organizational members have no ability to influence what content is recommended on the Privacy Guides website. Learn more about our [donation acceptance policy](donation-acceptance-policy.md).
+    1. Por favor, ponte en contacto con <info@magicgrants.org> para solicitar información sobre las donaciones. Privacy Guides se reserva el derecho de rescindir en cualquier momento la afiliación de aquellos que no estén alineados con nuestra misión u organización. Los miembros de la organización no tienen capacidad para influir en los contenidos que se recomiendan en el sitio web de Privacy Guides. Obtén más información sobre nuestra [política de aceptación de donaciones](donation-acceptance-policy.md).
 
     <div class="mdx-specialthanks" markdown>
 
@@ -34,18 +34,18 @@ MAGIC Grants es nuestro anfitrión fiscal, y su plataforma de donaciones persona
 
     </div>
 
-=== "Past Supporters"
+=== "Antiguos Sustentadores"
 
-    Thank you to these organizations who have substantially supported our project in the past.
+    Gracias a estas organizaciones que han apoyado sustancialmente nuestro proyecto en el pasado.
 
     - [Safing](https://safing.io){ rel=nofollow target=_blank }: 2019 – 2021
 
-## Active Members
+## Miembros Activos
 
-Privacy Guides would not be possible without these individuals who generously donate on a monthly or yearly basis. (1)
+Privacy Guides no sería posible sin estas personas que generosamente hacen donaciones mensuales o anuales. (1)
 { .annotate }
 
-1. If you [become a member](https://donate.magicgrants.org/privacyguides/membership) and [link your donation](https://discuss.privacyguides.net/t/getting-your-member-flair-on-the-forum/25453) to your forum account, you're automatically added here with a link to your profile and avatar to show your support for Privacy Guides. If you don't make your membership public on the forum, you'll be a silent +1. You can change your visibility any time. This chart is updated upon each website release.
+1. Si [te haces miembro](https://donate.magicgrants.org/privacyguides/membership) y [vinculas tu donación](https://discuss.privacyguides.net/t/getting-your-member-flair-on-the-forum/25453) a tu cuenta del foro, se te añadirá automáticamente aquí con un enlace a tu perfil y avatar para mostrar tu apoyo a las Privacy Guides. Si no haces pública tu afiliación en el foro, serás un +1 silencioso. Puedes cambiar tu visibilidad en cualquier momento. Este gráfico se actualiza en cada versión de la página web.
 
 <div class="mdx-donors" data-mdx-component="donors">
 <div class="mdx-donors__list">
@@ -55,7 +55,7 @@ Privacy Guides would not be possible without these individuals who generously do
 
 <small markdown>
 
-This is a list of our **active** [members](https://donate.magicgrants.org/privacyguides/membership), plus donors on GitHub, who have chosen to make their donation public. Hundreds more have donated in the past or privately, and their support is hugely appreciated as well.
+Esta es una lista de nuestros [miembros](https://donate.magicgrants.org/privacyguides/membership) **activos**, además de los donantes en GitHub, que han decidido hacer pública su donación. Cientos más han hecho donaciones en el pasado o a título privado, y su apoyo también es enormemente apreciado.
 
 </small>
 
@@ -64,7 +64,7 @@ This is a list of our **active** [members](https://donate.magicgrants.org/privac
 </h2>
 
 <p spaces-before="0">
-  You can support us and share your passion for privacy by buying our merchandise from HelloTux.
+  Puedes apoyarnos y compartir tu pasión por la privacidad comprando nuestros productos en HelloTux.
 </p>
 
 <p spaces-before="0">
@@ -80,55 +80,55 @@ This is a list of our **active** [members](https://donate.magicgrants.org/privac
 </p>
 
 <h2 spaces-before="0">
-  FAQ
+  Preguntas Frecuentes (FAQ)
 </h2>
 
 <h3 spaces-before="0">
-  What is an organizational membership?
+  ¿Qué es una afiliación organizativa?
 </h3>
 
 <p spaces-before="0">
-  Organizational membership to Privacy Guides is open to any company, private foundation, or organization that donates at least $5,000 per year. While Privacy Guides does not endorse private companies or their products, we're grateful for their contributions. Your donation may be tax-deductible, and we will provide you with a receipt.
+  La afiliación organizativa a Privacy Guides está abierta a cualquier empresa, fundación privada u organización que done al menos 5.000 $ al año. Aunque Privacy Guides no respalda a empresas privadas ni sus productos, agradecemos sus contribuciones. Tu donación puede ser deducible de impuestos y te proporcionaremos un recibo.
 </p>
 
 <p spaces-before="0">
-  You can become an organizational member by reaching out to <a href="mailto:info@magicgrants.org" x-nc="1">info@magicgrants.org</a> for more information.
+  Para más información sobre cómo hacerte miembro organizativo, dirígete a <a href="mailto:info@magicgrants.org" x-nc="1">info@magicgrants.org</a>.
 </p>
 
 <h3 spaces-before="0">
-  How are organizational members recognized?
+  ¿Cómo se reconoce a los miembros organizativos?
 </h3>
 
 <p spaces-before="0">
-  Organizational members that choose to be recognized publicly are included in our organizational members section (above), and occasionally at other opportunities where appropriate. Organizational member links include the <code>rel="nofollow"</code> attribute: We adopted this policy to screen out potential abuse of our program and site to raise the rank of third parties in search algorithms. Unfortunately, this is a growing problem for nonprofits. This was a complex decision since we know many of the sincere supporters behind these companies, but we decided that it was the best choice for us.
+  Los miembros organizativos que deciden ser reconocidos públicamente se incluyen en nuestra sección de miembros organizativos (arriba), y ocasionalmente en otras oportunidades en las que resulte apropiado. Los enlaces de miembros organizativos incluyen el atributo <code>rel="nofollow"</code>: Adoptamos esta política para filtrar posibles abusos de nuestro programa y sitio con el fin de elevar el rango de terceros en los algoritmos de búsqueda. Por desgracia, se trata de un problema cada vez mayor para las organizaciones sin ánimo de lucro. Fue una decisión compleja, ya que conocemos a muchos de los partidarios sinceros que hay detrás de estas empresas, pero decidimos que era la mejor opción para nosotros.
 </p>
 
 <p spaces-before="0">
-  Organizational members have no ability to influence what content is recommended on the Privacy Guides website. Learn more about our <a href="donation-acceptance-policy.md">donation acceptance policy</a>.
+  Los miembros de la organización no tienen capacidad para influir en los contenidos que se recomiendan en el sitio web de Privacy Guides. Obtén más información sobre nuestra <a href="donation-acceptance-policy.md">política de aceptación de donaciones</a>.
 </p>
 
 <h3 spaces-before="0">
-  What is an active membership?
+  ¿Qué es una afiliación activa?
 </h3>
 
 <p spaces-before="0">
-  Your monthly or yearly membership sustains Privacy Guides's services and public activism for privacy and cybersecurity year round. If you become a member, we will recognize your support here on our website, our community forum, and occasionally in other areas like our videos if you choose to make your membership publicly known.
+  Tu afiliación mensual o anual sustenta los servicios de Privacy Guides y su activismo público en favor de la privacidad y la ciberseguridad durante todo el año. Si te haces miembro, reconoceremos tu apoyo aquí, en nuestro sitio web, en nuestro foro comunitario y, ocasionalmente, en otras áreas como nuestros vídeos si decides dar a conocer públicamente tu afiliación.
 </p>
 
 <p spaces-before="0">
-  Our membership program is brand new, and we are still exploring other ways that we can share a token of our appreciation with you, while maintaining sustainable and ethical boundaries. Stay tuned!
+  Nuestro programa de afiliación es totalmente nuevo, y seguimos explorando otras formas de compartir contigo una muestra de nuestro agradecimiento, manteniendo al mismo tiempo unos límites sostenibles y éticos. ¡Mantente atento!
 </p>
 
 <h3 spaces-before="0">
-  How does Privacy Guides use donations?
+  ¿Cómo utiliza Privacy Guides las donaciones?
 </h3>
 
 <p spaces-before="0">
-  Privacy Guides lleva más de 5 años esforzándose sin descanso por mantenerse al día en el mundo de la ciberseguridad y la privacidad, y por promover los beneficios de la privacidad en general. This is a <strong x-id="1">non-profit, community-driven</strong> project that would not be possible without the generous support of all our <a href="contributors.md">contributors</a>, in addition to our regularly donating members above.
+  Privacy Guides lleva más de 5 años esforzándose sin descanso por mantenerse al día en el mundo de la ciberseguridad y la privacidad, y por promover los beneficios de la privacidad en general. Se trata de un proyecto <strong x-id="1">comunitario sin ánimo de lucro</strong> que no sería posible sin el generoso apoyo de todos nuestros <a href="contributors.md">contribuyentes</a>, además de los miembros que donan regularmente.
 </p>
 
 <p spaces-before="0">
-  Your donation go to a <a href="https://magicgrants.org/funds/privacy_guides">dedicated fund</a> within <a href="https://magicgrants.org">MAGIC Grants</a>, a 501(c)(3) organization and our fiscal host. Los fondos <strong x-id="1">solo</strong> se utilizarán específicamente para este proyecto.
+  Tu donación irá a un <a href="https://magicgrants.org/funds/privacy_guides">fondo dedicado</a> dentro de <a href="https://magicgrants.org">MAGIC Grants</a>, una organización 501(c)(3) y nuestro anfitrión fiscal. Los fondos <strong x-id="1">solo</strong> se utilizarán específicamente para este proyecto.
 </p>
 
 <p spaces-before="0">
@@ -146,17 +146,17 @@ This is a list of our **active** [members](https://donate.magicgrants.org/privac
   
   <dd>
     <p spaces-before="0">
-      We have journalists, writers, and video creators on payroll to review products and create more educational content on a regular basis. This is a significant expense, and we are only able to create our quantity of content with your support.
+      Tenemos periodistas, escritores y creadores de vídeo en nómina para revisar productos y crear más contenidos educativos de forma regular. Se trata de un gasto importante, y solo podemos crear esta cantidad de contenidos con tu apoyo.
     </p>
   </dd>
   
   <dt>
-    <strong x-id="1">Web Hosting and Infrastructure</strong>
+    <strong x-id="1">Alojamiento Web e Infraestructura</strong>
   </dt>
   
   <dd>
     <p spaces-before="0">
-      Traffic to this website uses hundreds of gigabytes of data per month; we use a variety of service providers to keep up with this traffic.
+      El tráfico de este sitio web utiliza cientos de gigabytes de datos al mes; utilizamos diversos proveedores de servicios para mantener este tráfico.
     </p>
   </dd>
   
@@ -186,5 +186,5 @@ This is a list of our **active** [members](https://donate.magicgrants.org/privac
 </p>
 
 <p spaces-before="0">
-  We strictly <strong x-id="1">do not</strong> use donations to support political campaigns/candidates or attempt to influence legislation. Earnings will <strong x-id="1">not</strong> inure to the benefit of any private shareholder or individual.
+  <strong x-id="1">No</strong> utilizamos las donaciones para apoyar campañas o candidatos políticos ni intentamos influir en la legislación. Los beneficios <strong x-id="1">no</strong> beneficiarán a ningún accionista privado o particular.
 </p>

@@ -3,7 +3,7 @@ title: Advertencias
 description: Una guía para colaboradores del sitio web sobre la creación de advertencias.
 ---
 
-**Admonitions** (or "call-outs") are tools that writers can use to include side content in an article without interrupting the document flow.
+**Las advertencias** (o «llamadas de atención») son herramientas que los redactores pueden utilizar para incluir contenidos secundarios en un artículo sin interrumpir el flujo del documento.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Ejemplo de Advertencia</p>
@@ -41,7 +41,7 @@ TEXTO INCLUIDO
 </details>
 ```
 
-The `TITLE` must be specified; if you don't want a specific title you can set it to the same text as the `TYPE` (see below) in title case, e.g. `Note`. El "TEXTO INCLUIDO" debe tener formato Markdown.
+Debe especificarse el `TÍTULO`, si no deseas un título específico puedes establecerlo con el mismo texto que el `TIPO` (véase más abajo) en el caso del título, por ejemplo, `Nota`. El "TEXTO INCLUIDO" debe tener formato Markdown.
 
 ### Tipos habituales
 
@@ -166,15 +166,15 @@ Este formato se utiliza para generar tarjetas de recomendación. En particular, 
 
 ![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
+**PhotoPrism** es una plataforma autoalojable para la gestión de fotos. Admite la sincronización y compartición de álbumes, así como una variedad de otras [características](https://www.photoprism.app/features). No incluye E2EE, por lo que es mejor alojarlo en un servidor en el que confíes y que esté bajo tu control.
 
-[:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-github: GitHub](https://github.com/photoprism)
 
@@ -189,12 +189,12 @@ Este formato se utiliza para generar tarjetas de recomendación. En particular, 
 
 ![PhotoPrism logo](../assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** es una plataforma autoalojable para la gestión de fotos. Permite sincronizar y compartir álbumes y tiene otras muchas [funciones](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
+**PhotoPrism** es una plataforma autoalojable para la gestión de fotos. Permite sincronizar y compartir álbumes y tiene otras muchas [funciones](https://photoprism.app/features). No incluye cifrado de extremo a extremo, por lo que es mejor alojarlo en un servidor en el que confíes y que esté bajo tu control.
 
-[:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -209,11 +209,11 @@ Este formato se utiliza para generar tarjetas de recomendación. En particular, 
 
 #### `downloads`
 
-This is a special type of collapsible admonition which is used to generate sections containing download links. Solo se utiliza dentro de las tarjetas de recomendación, como se muestra en el ejemplo anterior.
+Se trata de un tipo especial de advertencia colapsable que se utiliza para generar secciones que contienen enlaces de descarga. Solo se utiliza dentro de las tarjetas de recomendación, como se muestra en el ejemplo anterior.
 
 ```markdown title="Downloads Section"
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
@@ -245,7 +245,7 @@ This is a special type of collapsible admonition which is used to generate secti
 
 ## Old Format
 
-Throughout the site, you may see some admonitions formatted like the following examples:
+A lo largo del sitio, es posible que veas algunas advertencias con el formato de los siguientes ejemplos:
 
 ```markdown title="Admonition"
 !!! nota
@@ -289,6 +289,6 @@ massa, nec semper lorem quam in massa.
 
 </div>
 
-**This format is no longer used going forward** because it is incompatible with newer versions of our translation software at Crowdin. When adding a new page to the site, only the newer, HTML-based format should be used.
+**Este formato ya no se utiliza en adelante** porque es incompatible con las nuevas versiones de nuestro software de traducción en Crowdin. Al añadir una nueva página al sitio, solo debe utilizarse el nuevo formato basado en HTML.
 
-No hay prisa por convertir las advertencias con el formato antiguo al nuevo. Pages currently using this formatting should continue to work, but we will be updating them to use the newer, HTML-based format above over time as we continue to update the site.
+No hay prisa por convertir las advertencias con el formato antiguo al nuevo. Las páginas que actualmente utilizan este formato deberían seguir funcionando, pero las iremos actualizando para que utilicen el nuevo formato basado en HTML a medida que sigamos actualizando el sitio.

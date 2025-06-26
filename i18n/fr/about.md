@@ -34,7 +34,7 @@ In addition to our core team, [many other people](about/contributors.md) have ma
 
 [:simple-discourse: Join the Privacy Guides forum](https://discuss.privacyguides.net){ .md-button .md-button--primary }
 
-The best way to get individual help is from our community on Discourse. If you notice an issue with our website, please open a discussion in the [Site Development](https://discuss.privacyguides.net/c/site-development/7) category on our forum. If you have a question about anything we cover, please ask it in the [Questions](https://discuss.privacyguides.net/c/privacy/questions/8) category on our forum.
+The best way to get individual help is from our community on Discourse. Si vous voyez un problème sur notre site, veuillez lancer une discussion dans la catégorie [Site Development](https://discuss.privacyguides.net/c/site-development/7) de notre forum. If you have a question about anything we cover, please ask it in the [Questions](https://discuss.privacyguides.net/c/privacy/questions/8) category on our forum.
 
 ![Signal contact QR code](assets/img/layout/signal-contact-qr.png){ align=right }
 

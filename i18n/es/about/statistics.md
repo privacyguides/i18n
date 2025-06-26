@@ -11,7 +11,7 @@ Nosotros alojamos [Umami](https://umami.is) para crear una bonita visualización
 
 Con estas procesamos:
 
-- Your information is never shared with a third party, it stays on servers we control
+- Tu información nunca se comparte con terceros, permanece en los servidores que controlamos
 - Tus datos personales no se guardan, únicamente recopilamos datos agregados
 - No se utiliza JavaScript en el lado del cliente
 
