@@ -66,21 +66,21 @@ DNSはインターネットの[初期](https://en.wikipedia.org/wiki/Domain_Name
 
 ## 「暗号化されたDNS」とは？
 
-Encrypted DNS can refer to one of a number of protocols, the most common ones being [DNSCrypt](#dnscrypt), [DNS over TLS](#dns-over-tls-dot), and [DNS over HTTPS](#dns-over-https-doh).
+暗号化DNSにはいくつかのプロトコルがあり、最も一般的なものは[DNSCrypt](#dnscrypt)、[DNS over TLS](#dns-over-tls-dot)と[DNS over HTTPS](#dns-over-https-doh)です。
 
 ### DNSCrypt
 
-[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) was one of the first methods of encrypting DNS queries. DNSCrypt operates on port 443 and works with both the TCP or UDP transport protocols. DNSCrypt has never been submitted to the [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) nor has it gone through the [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments) process, so it has not been used widely outside a few [implementations](https://dnscrypt.info/implementations). As a result, it has been largely replaced by the more popular [DNS over HTTPS](#dns-over-https-doh).
+[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt)はDNSクエリを暗号化する初期の方法の一つでした。 DNSCryptは443ポートで動作し、TCPやUDP通信プロトコルの両方で動作します。 DNSCryptは[インターネット技術特別調査委員会（IETF）](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force)に提出されず、[リクエストフォーコメンツ（RFC）](https://en.wikipedia.org/wiki/Request_for_Comments)のプロセスも経ていないため、一部の[実装](https://dnscrypt.info/implementations)以外では広く使用されていません。 そのため、より人気のある[DNS over HTTPS](#dns-over-https-doh)に大部分が取って代わられています。
 
 ### DNS over TLS (DoT)
 
-[**DNS over TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS) is another method for encrypting DNS communication that is defined in [RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858). Support was first implemented in Android 9, iOS 14, and on Linux in [systemd-resolved](https://freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=) in version 237. Preference in the industry has been moving away from DoT to DoH in recent years, as DoT is a [complex protocol](https://dnscrypt.info/faq) and has varying compliance to the RFC across the implementations that exist. DoT also operates on a dedicated port 853 which can be blocked easily by restrictive firewalls.
+[**DNS over TLS**](https://en.wikipedia.org/wiki/DNS_over_TLS)はDNS通信を暗号化するもう一つの方法で[RFC 7858](https://datatracker.ietf.org/doc/html/rfc7858)で定められています。 Android9、iOS14、Linuxでは[systemd-resolved](https://freedesktop.org/software/systemd/man/resolved.conf.html#DNSOverTLS=)のバージョン237で初めて対応されました。 DoTは[複雑なプロトコル](https://dnscrypt.info/faq)であり、実装によってRFCへの準拠が異なるため、近年ではDoTよりもDoHが選ばれるようになっています。 また、DoTはファイアウォールで簡単にブロックできる853ポートのみで動作しています。
 
 ### DNS over HTTPS (DoH)
 
-[**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS), as defined in [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484), packages queries in the [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) protocol and provides security with HTTPS. Support was first added in web browsers such as Firefox 60 and Chrome 83.
+[**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS)は[RFC8484](https://datatracker.ietf.org/doc/html/rfc8484)で定められ、[HTTP/2](https://en.wikipedia.org/wiki/HTTP/2)プロトコルでクエリをパッケージ化し、HTTPSによるセキュリティで保護します。 ウェブブラウザではFirefox60やChrome83で初めて対応されました。
 
-Native implementation of DoH showed up in iOS 14, macOS 11, Microsoft Windows, and Android 13 (however, it won't be enabled [by default](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)). General Linux desktop support is waiting on the systemd [implementation](https://github.com/systemd/systemd/issues/8639) so [installing third-party software is still required](../dns.md#encrypted-dns-proxies).
+DoHのネイティブ実装はiOS14、macOS11、Microsoft WindowsやAndroid13（ただし、[デフォルト](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)では有効になりません）で登場しました。 一般的なLinuxデスクトップの対応はsystemdの[実装](https://github.com/systemd/systemd/issues/8639)を待っているため、[サードパーティのソフトウェアをインストールする必要がまだあります](../dns.md#encrypted-dns-proxies)。
 
 ### OSでのネイティブサポート
 
