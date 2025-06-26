@@ -23,22 +23,22 @@ Para dejar un comentario _general_ en un PR, haz clic en el icono de comentario 
 
 ![Captura de pantalla de un archivo de imagen en la página "Archivos modificados" de una solicitud de extracción. A la derecha del archivo, aparece un icono de comentario en naranja](https://docs.github.com/assets/cb-73771/mw-1440/images/help/pull_requests/pull-request-comment-on-file.webp)
 
-If the PR has multiple files changed, comment on the primary or most relevant file changed, or comment on the first file if you can't decide.
+Si el PR tiene varios archivos modificados, comenta el archivo principal o más relevante modificado, o comenta el primer archivo si no puedes decidirte.
 
-To leave a comment _on a specific line_ of a PR, hover over the line where you'd like to add a comment, and click the blue comment icon:
+Para dejar un comentario _en una línea concreta_ de un PR, pasa el ratón por encima de la línea en la que quieras añadir un comentario y haz clic en el icono azul de comentario:
 
-![Screenshot of a diff in a pull request. Next to a line number, a blue plus icon is highlighted with an orange outline.](https://docs.github.com/assets/cb-44227/mw-1440/images/help/commits/hover-comment-icon.webp)
+![Captura de pantalla de un diff en un pull request. Junto a un número de línea, se resalta un icono azul de signo más con un contorno naranja](https://docs.github.com/assets/cb-44227/mw-1440/images/help/commits/hover-comment-icon.webp)
 
-(Optionally, you can add a comment on multiple lines. You can click the line number of the first line you want to comment on and drag down to select a range of lines, then click the blue comment icon on the last line you want to comment on. Alternatively, you can click the blue comment icon next to the first line you want to comment on, then drag down to the last line you want to comment on.)
+(Opcionalmente, puedes añadir un comentario en varias líneas. Puedes hacer clic en el número de línea de la primera línea que desees comentar y arrastrar hacia abajo para seleccionar un intervalo de líneas; a continuación, haz clic en el icono azul de comentario de la última línea que desees comentar. También puedes hacer clic en el icono azul de comentario situado junto a la primera línea que desees comentar y, a continuación, arrastrar hacia abajo hasta la última línea que desees comentar).
 
-Then, type your comment and click **Add single comment**.
+A continuación, escribe tu comentario y haz clic en **Añadir comentario único**.
 
-## Reviewing
+## Revisar
 
-When performing a review, follow the same steps as above, but click **Start a review** (and subsequently, **Add a review comment**) instead of **Add single comment**.
+Cuando realices una revisión, sigue los mismos pasos que en el caso anterior, pero haz clic en **Iniciar una revisión** (y, posteriormente, en **Añadir un comentario de revisión**) en lugar de en **Añadir comentario único**.
 
-Then, click the green **Finish your review** button at the top of the page.
+A continuación, haz clic en el botón verde **Finaliza tu revisión** situado en la parte superior de la página.
 
-Do not leave any discussion comments in the _Leave a comment_ box in the review finalization pop-up. You can leave it blank, or leave a short note if it will not require any follow-up. To comment on something that will require further discussion, add a comment on a file as described above instead.
+No dejes ningún comentario de discusión en la casilla _Deja un comentario_ de la ventana emergente de finalización de la revisión. Puedes dejarlo en blanco, o dejar una nota breve si no va a requerir ningún seguimiento. Para comentar algo que requerirá más discusión, añade en su lugar un comentario en un archivo como se describe más arriba.
 
-Then, click **Submit review**.
+A continuación, haz clic en **Enviar reseña**.

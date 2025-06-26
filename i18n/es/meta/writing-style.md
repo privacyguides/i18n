@@ -64,7 +64,7 @@ Deberíamos intentar evitar las abreviaturas en la medida de lo posible, pero la
 
 ## Sé conciso
 
-> Las palabras innecesarias hacen perder el tiempo al público. Escribir bien es como conversar. Omita la información que el público no necesita saber. This can be difficult as a subject-matter expert, so it’s important to have someone look at the information from the audience’s perspective.
+> Las palabras innecesarias hacen perder el tiempo al público. Escribir bien es como conversar. Omite la información que el público no necesita saber. Esto puede resultar difícil como experto en la materia, por lo que es importante que alguien vea la información desde la perspectiva de la audiencia.
 
 Fuente: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 
