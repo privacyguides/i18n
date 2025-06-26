@@ -105,37 +105,37 @@ Les options "Boucliers" peuvent être réduites par site selon les besoins, mais
 
     <div class="annotate" markdown>
 
-    - [x] Select **Aggressive** under *Block trackers & ads*
-    - [x] Select **Auto-redirect AMP pages**
-    - [x] Select **Auto-redirect tracking URLs**
-    - [x] Select **Require all connections to use HTTPS (strict)** under *Upgrade connections to HTTPS*
-    - \[x\] (Facultatif) Sélectionnez **Bloquer les scripts** (1)
-    - [x] Sélectionnez **Bloquer les cookies tiers** sous *Bloquer les cookies*
+    - [x] Cochez **Agressif** sous *Bloquer les traqueurs et la publicité*
+    - [x] Cochez **Auto-redirection des pages AMP**
+    - [x] Cochez **Auto-redirection des URLs de pistage**
+    - [x] Cochez **Exiger que toutes les connexions utilisent HTTPS (strict)** sous *Mettre à niveau les connexions vers HTTPS*.
+    - \[x\] (Facultatif) Cochez **Bloquer les scripts** (1)
+    - [x] Cochez **Bloquer les cookies tiers** sous *Bloquer les cookies*
     - [x] Cochez **Bloquer la prise d'empreinte digitale**
     - [x] Sélectionnez **Empêcher la prise d'empreintes digitales via les paramètres de langue**
 
     <details class="warning" markdown>
     <summary>Utilisez les listes de filtrage par défaut</summary>
 
-    Brave allows you to select additional content filters within the **Content Filtering** menu or the internal `brave://adblock` page. Nous vous déconseillons d'utiliser cette fonctionnalité ; conservez plutôt les listes de filtres par défaut. L'utilisation de listes supplémentaires vous distinguera des autres utilisateurs de Brave et peut également augmenter la surface d'attaque s'il y a une faille dans Brave et qu'une règle malveillante est ajoutée à l'une des listes que vous utilisez.
+    Brave vous permet de sélectionner des filtres de contenus supplémentaires dans le menu **Filtrage de contenu** ou la page interne `brave://adblock`. Nous vous déconseillons d'utiliser cette fonctionnalité ; conservez plutôt les listes de filtres par défaut. L'utilisation de listes supplémentaires vous distinguera des autres utilisateurs de Brave et peut également augmenter la surface d'attaque s'il y a une faille dans Brave et qu'une règle malveillante est ajoutée à l'une des listes que vous utilisez.
 
     </details>
 
-    - [x] Select **Forget me when I close this site**
+    - [x] Cochez **Oubliez moi lorsque je ferme ce site**
 
     </div>
 
-    1. Cette option désactive JavaScript, ce qui rendra inutilisable beaucoup de sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Cette option désactive JavaScript, ce qui rendra inutilisable beaucoup de sites. Pour les débloquer, vous pouvez définir des exceptions par site en appuyant sur l'icône Bouclier dans la barre d'adresse et en décochant ce paramètre sous *Contrôles Avancés*.
 
 === "iOS"
 
     <div class="annotate" markdown>
 
-    - [x] Select **Aggressive** under *Trackers & Ads Blocking*
-    - [x] Select **Strict** under *Upgrade Connections to HTTPS*
-    - [x] Select **Auto-Redirect AMP pages**
-    - [x] Select **Auto-Redirect Tracking URLs**
-    - \[x\] (Facultatif) Sélectionnez **Bloquer les scripts** (1)
+    - [x] Cochez **Agressif** sous *Traqueurs & Blocage des publicités*
+    - [x] Cochez **Strict** sous *Mise à niveau des connexions vers HTTPS*
+    - [x] Cochez **Auto-redirection des pages AMP**
+    - [x] Cochez **Auto-redirection des URLs de pistage**
+    - \[x\] (Facultatif) Cochez **Bloquer les scripts** (1)
     - [x] Cochez **Bloquer la prise d'empreinte digitale**
     - [x] Select **Site Tabs Closed** under *Auto Shred*
 
@@ -165,38 +165,38 @@ Les options "Boucliers" peuvent être réduites par site selon les besoins, mais
     <div class="annotate" markdown>
 
     - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-    - \[x\] (Optional) Select **No protection** under *Safe Browsing* (1)
-    - [ ] Uncheck **Allow sites to check if you have payment methods saved**
-    - [ ] Uncheck **V8 Optimizer** under *Manage V8 security*
-    - [x] Select **Close tabs on exit**
+    - \[x\] (Facultatif) Cochez **Aucune protection** sous *Navigation sécurisée* (1)
+    - [] Décochez **Autoriser les sites à vérifier si vous avez enregistré des méthodes de paiement**
+    - [] Décochez **Optimiseur V8** sous *Gérer la sécurité de V8*
+    - [x] Cochez **Fermer les onglets en quittant**
     - [ ] Décochez **Autoriser l'analyse de produits respectueuse de la vie privée (P3A)**
     - [Décocher l'**option Envoyer automatiquement les rapports de diagnostic**
     - [ ] Décochez **Envoyer automatiquement un signal d'utilisation quotidienne à Brave**
 
     </div>
 
-    1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
+    1. [L'implémentation de Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) sur Brave pour Android **n'effectue pas** de proxy des [requêtes réseau de Safe Browsing](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) comme son homologue pour ordinateur de bureau. Cela signifie que votre adresse IP peut être vue (et enregistrée) par Google. Notez que Safe Browsing n'est pas disponible pour les appareils Android sans les services Google Play.
 
 === "iOS"
 
-    - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
+    - [ ] Décochez **Autoriser l'analyse de produits respectueuse de la vie privée (P3A)**
     - [ ] Décochez **Envoyer automatiquement un signal d'utilisation quotidienne à Brave**
 
 #### Leo
 
-These options can be found in :material-menu: → **Settings** → **Leo**.
+Ces options se trouvent dans :material-menu: → **Paramètres** → **Leo**.
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Show autocomplete suggestions in address bar** (1)
+- Décocher **Affichez les suggestions d'autocomplétions dans la barre d'adresse** (1)
 
 </div>
 
-1. This option is not present in Brave's iOS app.
+1. Cette option n'est pas disponible dans l'applications iOS de Brave.
 
-#### Search engines
+#### Moteurs de recherche
 
-These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
+Ces options se trouvent dans :material-menu:/:fontawesome-solid-ellipsis: → **Paramètres** → **Moteurs de recherches**.
 
 - [ ] Décochez **Afficher les suggestions de recherche**
 
@@ -208,19 +208,19 @@ La [Synchronisation Brave](https://support.brave.com/hc/articles/360059793111-Un
 
 <div class="admonition recommendation" markdown>
 
-![Cromite logo](assets/img/browsers/cromite.svg){ align=right }
+![logo de Cromite](assets/img/browsers/cromite.svg){ align=right }
 
-**Cromite** is a Chromium-based browser with built-in ad blocking, fingerprinting protections, and other [privacy and security enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the discontinued **Bromite** browser.
+**Cromite** est un navigateur basé sur Chromium qui intègre le blocage des publicités, des protections contre l'empreinte digitale, et d'autres [améliorations en matière de confidentialité et de sécurité](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). Il s'agit d'une version dérivée du navigateur populaire Bromite, aujourd'hui abandonné.
 
-[:octicons-home-16: Homepage](https://cromite.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://cromite.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Code source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
-- [:simple-android: F-Droid](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
+ [:simple-android: F-Droid](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
 - [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
 
 </details>
@@ -229,21 +229,21 @@ La [Synchronisation Brave](https://support.brave.com/hc/articles/360059793111-Un
 
 ### Configuration recommandée
 
-These options can be found in :material-menu: → :gear: **Settings** → **Privacy and security**.
+Ces options se trouvent dans :material-menu: -> :gear: **Paramètres** -> **Vie privée et sécurité**.
 
-#### Browsing data
+#### Données de navigation
 
-- [x] Select **Close all open tabs on exit**
+- [x] Cochez **Fermer les onglets en quittant**
 
-#### Incognito mode
+#### Mode navigation privée
 
-- [x] Select **Open external links in incognito**
+- [x] Cochez **Ouvrir les liens externes en mode navigation privée**
 
 #### Sécurité
 
-- [x] Select **Always use secure connections**
+- [x] Cochez **Toujours utiliser une connexion sécurisée**
 
-Cela vous empêche de vous connecter involontairement à un site Web en "clair" HTTP. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+Cela vous empêche de vous connecter involontairement à un site Web en "clair" HTTP. Les sites sans HTTPS sont rares de nos jours. Cela ne devrait donc avoir que peu ou pas d'impact sur votre navigation quotidienne.
 
 #### Adblock Plus settings
 
