@@ -1,21 +1,21 @@
 ---
-title: Donate
-description: The charitable mission of Privacy Guides relies on contributions from visitors like yourself. Anything you can do to support the project is hugely appreciated.
+title: Donar
+description: La misión benéfica de Privacy Guides depende de las contribuciones de visitantes como tú. Todo lo que puedas hacer para apoyar el proyecto será muy apreciado.
 ---
 
 <!-- markdownlint-disable MD036 -->
-Support our mission to defend digital rights and spread the word about mass surveillance programs and other daily privacy invasions. Puedes ayudar a los investigadores, activistas y mantenedores de Privacy Guides a crear contenidos informativos, albergar servicios digitales privados y proteger los derechos de privacidad en un momento en que el mundo más lo necesita.
+Apoya nuestra misión de defensa de los derechos digitales y difunde información sobre los programas de vigilancia masiva y otras invasiones cotidianas de la privacidad. Puedes ayudar a los investigadores, activistas y mantenedores de Privacy Guides a crear contenidos informativos, albergar servicios digitales privados y proteger los derechos de privacidad en un momento en que el mundo más lo necesita.
 
-[:material-heart:{ .pg-red } Become a Member](https://donate.magicgrants.org/privacyguides/membership){ class="md-button md-button--primary" }
-[:material-hand-coin: Make a Donation](https://donate.magicgrants.org/privacyguides/donate/privacyguides){ class="md-button md-button--primary" }
+[:material-heart:{ .pg-red } Hazte Miembro](https://donate.magicgrants.org/privacyguides/membership){ class="md-button md-button--primary" }
+[:material-hand-coin: Haz una Donación](https://donate.magicgrants.org/privacyguides/donate/privacyguides){ class="md-button md-button--primary" }
 
 <small markdown>
 
-MAGIC Grants is our fiscal host, and their custom, open-source donation platform allows you to donate to our project with **Monero**, **Litecoin (MWEB)**, **Bitcoin**, or **debit/credit card**. You can also donate using [:simple-github: GitHub Sponsors](https://github.com/sponsors/privacyguides).
+MAGIC Grants es nuestro anfitrión fiscal, y su plataforma de donaciones personalizada y de código abierto te permite donar a nuestro proyecto con **Monero**, **Litecoin (MWEB)**, **Bitcoin**, o **tarjeta de débito/crédito**. También puedes hacer una donación a través de [:simple-github: GitHub Sponsors](https://github.com/sponsors/privacyguides).
 
 </small>
 
-## Foundations & Organizations
+## Fundaciones y Organizaciones
 
 === "Current Supporters"
 

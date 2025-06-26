@@ -9,7 +9,7 @@ Pour faire simple, nous classons nos recommandations dans ces catégories géné
 <span class="pg-purple">:material-incognito: **Anonymat**</span>
 :
 
-Dissocier votre activité en ligne par rapport à votre identité réelle, vous protégeant ainsi des personnes qui tentent de découvrir spécifiquement *votre* identité.
+Dissocier votre activité en ligne par rapport à votre identité réelle, vous protégeant ainsi des personnes qui tentent de découvrir  *votre* identité en particulier.
 
 <span class="pg-red">:material-target-account: **Attaques ciblées**</span>
 :
@@ -49,7 +49,7 @@ Limiter les informations vous concernant qui sont accessibles en ligne, aux mote
 <span class="pg-blue-gray">:material-close-outline: **Censure**</span>
 :
 
-Éviter l'accès censuré à l'information ou d'être censuré vous-même lorsque vous vous exprimez en ligne.
+Éviter l'accès censuré à l'information ou d'être censuré lorsque vous vous exprimez en ligne.
 
 Certaines de ces menaces peuvent peser plus que d'autres en fonction de vos préoccupations. Par exemple, un développeur de logiciels ayant accès à des données précieuses ou critiques peut être principalement concerné par les <span class="pg-viridian">:material-package-variant-closed-remove: attaques de la chaîne d'approvisionnement</span> et les <span class="pg-red">:material-target-account: attaques ciblées</span>. Il voudra probablement tout de même protéger ses données personnelles pour éviter qu'elles ne soient englobées dans des programmes de <span class="pg-blue">:material-eye-outline: surveillance de masse</span>. De même, une « personne lambda » peut être principalement concernée par l'<span class="pg-green">:material-account-search: Exposition Publique</span> de ses données personnelles, mais devrait tout de même se méfier des problèmes de sécurité tels que les <span class="pg-orange">:material-bug-outline: Attaques Passives</span> comme les logiciels malveillants affectant ses appareils.
 
@@ -65,18 +65,18 @@ Les lanceurs d'alerte et les journalistes, par exemple, peuvent avoir un modèle
 
 <span class="pg-orange">:material-bug-outline: Attaques passives</span>
 
-La sécurité et la vie privée sont souvent confondues, car vous avez besoin de sécurité pour obtenir tout semblant de vie privée. Utiliser des outils qui semblent respecter votre vie privée est futile s'ils peuvent facilement être exploités par des attaquants pour publier vos données plus tard. Cependant, l'inverse n'est pas nécessairement vrai ; le service le plus sécurisé au monde *ne respecte pas nécessairement* votre vie privée. Le meilleur exemple est de confier des données à Google qui, compte tenu de leur envergure, ont connu un minimum d'incidents de sécurité grâce à l'emploi d'experts en sécurité de premier plan pour sécuriser leur infrastructure. Même si Google fournit un service très sécurisé, rares sont ceux qui considèrent que leurs données restent privées en utilisant leurs outils gratuits (Gmail, YouTube, etc).
+La sécurité et la vie privée sont souvent confondues, car vous avez besoin de sécurité pour obtenir tout semblant de vie privée. Utiliser des outils qui semblent respecter votre vie privée est futile s'ils peuvent facilement être exploités par des attaquants qui publieront vos données. Cependant, l'inverse n'est pas nécessairement vrai ; le service le plus sécurisé au monde *ne respecte pas nécessairement* votre vie privée. Le meilleur exemple est de confier des données à Google qui, compte tenu de leur envergure, ont connu un minimum d'incidents de sécurité grâce à l'emploi d'experts en sécurité de premier plan pour sécuriser leur infrastructure. Même si Google fournit un service très sécurisé, rares sont ceux qui considèrent que leurs données restent privées en utilisant leurs outils gratuits (Gmail, YouTube, etc).
 
 En matière de sécurité des applications, nous ne savons généralement pas (et parfois ne pouvons pas) savoir si le logiciel que nous utilisons est malveillant, ou pourrait un jour le devenir. Même avec les développeurs les plus dignes de confiance, il n'y a généralement aucune garantie que leur logiciel ne présente pas une vulnérabilité grave qui pourrait être exploitée ultérieurement.
 
 Pour minimiser les dommages potentiels qu'un logiciel malveillant *pourrait* causer, vous devez employer la sécurité par compartimentation. Il peut s'agir, par exemple, d'utiliser des ordinateurs différents pour des tâches différentes, d'utiliser des machines virtuelles pour séparer différents groupes d'applications connexes, ou d'utiliser un système d'exploitation sécurisé mettant l'accent sur le sandboxing des applications et le contrôle d'accès obligatoire.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">Conseil</p>
 
 Les systèmes d'exploitation mobiles sont généralement plus sûrs que les systèmes d'exploitation de bureau en ce qui concerne le sandboxing des applications.
 
-Les systèmes d'exploitation de bureau sont généralement à la traîne en ce qui concerne le sandboxing. ChromeOS dispose de capacités de sandboxing similaires à celles d'Android, et macOS dispose d'un contrôle complet des autorisations système (et les développeurs peuvent opter pour le sandboxing pour les applications). Cependant, ces systèmes d'exploitation transmettent des informations d'identification à leurs constructeurs respectifs. Linux a tendance à ne pas soumettre d'informations aux fournisseurs de systèmes, mais il a une mauvaise protection contre les exploits et les applications malveillantes. Ce problème peut être quelque peu atténué avec des distributions spécialisées qui font un usage intensif des machines virtuelles ou des conteneurs, comme [Qubes OS](../desktop.md#qubes-os).
+Les systèmes d'exploitation de bureau sont généralement à la traîne en ce qui concerne l'isolation l'isolation des applications. ChromeOS dispose de capacités d'isolation similaires à celles d'Android, et macOS dispose d'un contrôle complet des autorisations système (et les développeurs peuvent opter pour l'isolation pour les applications). Cependant, ces systèmes d'exploitation transmettent des informations d'identification à leurs constructeurs respectifs. Linux a tendance à ne pas soumettre d'informations aux fournisseurs de systèmes, mais il a une mauvaise protection contre les exploits et les applications malveillantes. Ce problème peut être quelque peu atténué avec des distributions spécialisées qui font un usage intensif des machines virtuelles ou des conteneurs, comme [Qubes OS](../desktop.md#qubes-os).
 
 </div>
 

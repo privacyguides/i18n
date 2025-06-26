@@ -1,5 +1,5 @@
 ---
-title: "About Privacy Guides"
+title: "À propos de Privacy Guides"
 description: Privacy Guides is a socially motivated website that provides information for protecting your data security and privacy.
 schema:
   "@context": https://schema.org
@@ -30,7 +30,7 @@ In addition to our core team, [many other people](about/contributors.md) have ma
 
 [Job Openings :material-arrow-right-drop-circle:](about/jobs.md)
 
-## :material-email-edit: Contact Us
+## :material-email-edit: Contact
 
 [:simple-discourse: Join the Privacy Guides forum](https://discuss.privacyguides.net){ .md-button .md-button--primary }
 
@@ -38,7 +38,7 @@ The best way to get individual help is from our community on Discourse. If you n
 
 ![Signal contact QR code](assets/img/layout/signal-contact-qr.png){ align=right }
 
-Have a tip for us, or need to share some sensitive information? The best way to get in touch with us securely is via `@privacyguides.01` on Signal. This group account is monitored by [Jonah](https://discuss.privacyguides.net/u/jonah), [Niek](https://discuss.privacyguides.net/u/niek-de-wilde), [Em](https://discuss.privacyguides.net/u/ematprivacyguides), and [Jordan](https://discuss.privacyguides.net/u/jordan).
+Have a tip for us, or need to share some sensitive information? . This group account is monitored by [Jonah](https://discuss.privacyguides.net/u/jonah), [Niek](https://discuss.privacyguides.net/u/niek-de-wilde), [Em](https://discuss.privacyguides.net/u/ematprivacyguides), and [Jordan](https://discuss.privacyguides.net/u/jordan).
 
 [:simple-signal: Chat on Signal](https://signal.me/#eu/zg9xcrIv5w-EtXt2FmTJgfWv01LmyTed8rpr7RDv35Mizq8ISZ9NJLmYtzsxI0Z4){ .md-button }
 
