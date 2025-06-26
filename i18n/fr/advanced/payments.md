@@ -1,36 +1,36 @@
 ---
 title: Paiements privés
 icon: material/hand-coin
-description: Your buying habits are the holy grail of ad targeting, but you still have plenty of options when it comes to making payments privately.
+description: Vos habitudes d'achat sont le Saint-Graal du ciblage publicitaire, mais vous avez encore beaucoup d'options lorsqu'il s'agit d'effectuer des paiements en privé.
 ---
 
-Data about your buying habits is considered the holy grail of ad targeting: your purchases can leak a veritable treasure trove of data about you. Malheureusement, le système financier actuel est, de par sa conception, hostile à la protection de la vie privée, car il permet aux banques, aux autres entreprises et aux gouvernements de retracer facilement les transactions. Néanmoins, vous disposez de nombreuses options pour effectuer des paiements de façon privée.
+Ce n'est pas pour rien que les données relatives à vos habitudes d'achat sont considérées comme le Saint-Graal du ciblage publicitaire : vos achats peuvent constituer un véritable trésor de données vous concernant. Malheureusement, le système financier actuel est, de par sa conception, hostile à la protection de la vie privée, car il permet aux banques, aux autres entreprises et aux gouvernements de retracer facilement les transactions. Néanmoins, vous disposez de nombreuses options pour effectuer des paiements de façon privée.
 
 ## Argent liquide
 
-Pendant des siècles, **l'argent liquide** a été la principale forme de paiement privé. Cash has excellent privacy properties in most cases, is widely accepted in most countries, and is **fungible**, meaning it is non-unique and completely interchangeable.
+Pendant des siècles, **l'argent liquide** a été la principale forme de paiement privé. Dans la plupart des cas, l'argent liquide présente d'excellentes caractéristiques de confidentialité, est largement accepté dans la plupart des pays et est **fongible**, ce qui signifie qu'il n'est pas unique et qu'il est totalement interchangeable.
 
-Les lois sur les paiements en espèces varient d'un pays à l'autre. Aux États-Unis, les paiements en espèces supérieurs à 10 000 dollars doivent faire l'objet d'une déclaration spéciale auprès de l'IRS sur le [formulaire 8300](https://irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). L'entreprise destinataire est tenue de vérifier l'identité du bénéficiaire (nom, adresse, profession, date de naissance et numéro de sécurité sociale ou autre numéro fiscal), à quelques exceptions près. Regulated exchanges, banks, and money services businesses must collect an ID for transactions exceeding $3,000. Cash contains serial numbers to assist law enforcement in targeted investigations.
+Les lois sur les paiements en espèces varient d'un pays à l'autre. Aux États-Unis, les paiements en espèces supérieurs à 10 000 dollars doivent faire l'objet d'une déclaration spéciale auprès de l'IRS sur le [formulaire 8300](https://irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). L'entreprise destinataire est tenue de vérifier l'identité du bénéficiaire (nom, adresse, profession, date de naissance et numéro de sécurité sociale ou autre numéro fiscal), à quelques exceptions près. Les bourses réglementées, les banques et les entreprises de services monétaires doivent demander une pièce d'identité pour les transactions supérieures à 3 000 dollars. L'argent liquide contient des numéros de série qui aident les services de police à mener des enquêtes ciblées.
 
-Despite the above, cash is typically the best option when available.
+En dépit de ce qui précède, l'argent liquide est généralement la meilleure option lorsqu'il est disponible.
 
 ## Cartes prépayées & cartes-cadeaux
 
-You can easily purchase gift cards and prepaid cards at most grocery stores and convenience stores with cash. Les cartes-cadeaux ne sont généralement pas payantes, mais les cartes prépayées le sont souvent. Il convient donc d'être attentif à ces frais et aux dates d'expiration. Some stores may ask to see your ID at checkout in an effort to reduce fraud.
+Il est relativement simple d'acheter des cartes-cadeaux et des cartes prépayées dans la plupart des magasins d'alimentation et des commerces de proximité avec de l'argent liquide. Les cartes-cadeaux ne sont généralement pas payantes, mais les cartes prépayées le sont souvent. Il convient donc d'être attentif à ces frais et aux dates d'expiration. Certains magasins peuvent demander à voir votre pièce d'identité à la caisse afin de réduire les fraudes.
 
 Les cartes-cadeaux sont généralement assorties d'une limite de 200 $ par carte, mais certaines offrent des limites allant jusqu'à 2 000 $ par carte. Les cartes prépayées (comme Visa ou Mastercard) ont généralement pour limite 1000 € par carte.
 
 Les cartes-cadeaux ont l'inconvénient d'être soumises aux politiques des commerçants, qui peuvent avoir des conditions et des restrictions terribles. Par exemple, certains commerçants n'acceptent pas exclusivement les paiements par carte-cadeau ou peuvent annuler la valeur de la carte s'ils considèrent que vous êtes un utilisateur à haut risque. Une fois que vous disposez d'un crédit commercial, le commerçant exerce un contrôle important sur ce crédit.
 
-Prepaid cards usually don’t allow cash withdrawals from ATMs or “peer-to-peer” payments in Venmo and similar apps.
+Les cartes prépayées ne permettent pas de retirer de l'argent dans les DABs ni d'effectuer des paiements "pair à pair" avec Venmo et d'autres applications similaires.
 
-Pour la plupart des gens, l'argent liquide reste la meilleure option pour les achats en personne. Gift cards are often sold at a discount, which make them attractive. Les cartes prépayées peuvent être utiles dans les endroits qui n'acceptent pas d'argent liquide. Les cartes-cadeaux et les cartes prépayées sont plus faciles à utiliser en ligne que l'argent liquide, et elles sont plus faciles à acquérir avec des crypto-monnaies qu'avec de l'argent liquide.
+Pour la plupart des gens, l'argent liquide reste la meilleure option pour les achats en personne. Les cartes cadeaux sont souvent vendues à prix réduit, ce qui les rend attractives. Les cartes prépayées peuvent être utiles dans les endroits qui n'acceptent pas d'argent liquide. Les cartes-cadeaux et les cartes prépayées sont plus faciles à utiliser en ligne que l'argent liquide, et elles sont plus faciles à acquérir avec des crypto-monnaies qu'avec de l'argent liquide.
 
 ### Marchés en ligne
 
-Si vous avez des [crypto-monnaies](../cryptocurrency.md), vous pouvez acheter des cartes-cadeaux sur une place de marché de cartes-cadeaux en ligne. Some of these services offer high limits (with ID verification), but they usually allow basic, low-limit accounts with just an email address. Expect limits under $10,000 for basic accounts and significantly higher limits for ID verified accounts (if offered).
+Si vous avez des [crypto-monnaies](../cryptocurrency.md), vous pouvez acheter des cartes-cadeaux sur une place de marché de cartes-cadeaux en ligne. Certains de ces services offrent des limites élevées (avec vérification de l'identité), mais ils permettent généralement d'ouvrir des comptes de base à faible limite avec une simple adresse électronique. Attendez-vous à des limites en dessous de 10 000€ pour des comptes basiques, et à des limites bien plus hautes pour des comptes dont l'identité a été vérifiée (si possible).
 
-Lorsque vous achetez des cartes-cadeaux en ligne, vous bénéficiez généralement d'une légère réduction. Les cartes prépayées sont généralement vendues en ligne à leur valeur nominale ou moyennant des frais. If you buy prepaid cards and gift cards with cryptocurrencies, you should strongly prefer to pay with Monero which provides strong privacy (more on this below). Payer une carte-cadeau avec une méthode de paiement traçable annule les avantages qu'une carte-cadeau peut offrir lorsqu'elle est achetée en espèces ou en Monero.
+Lorsque vous achetez des cartes-cadeaux en ligne, vous bénéficiez généralement d'une légère réduction. Les cartes prépayées sont généralement vendues en ligne à leur valeur nominale ou moyennant des frais. Si vous achetez des cartes prépayées et des cartes-cadeaux avec des cryptomonnaies, vous devriez fortement préférer payer avec du Monero qui offre une grande confidentialité (plus d'informations à ce sujet ci-dessous). Payer une carte-cadeau avec une méthode de paiement traçable annule les avantages qu'une carte-cadeau peut offrir lorsqu'elle est achetée en espèces ou en Monero.
 
 - [Places de marché de cartes-cadeaux en ligne :material-arrow-right-drop-circle:](../financial-services.md#gift-card-marketplaces)
 
@@ -44,7 +44,7 @@ Ce sont généralement de bonnes options pour les paiements récurrents/abonneme
 
 ## Crypto-monnaie
 
-Les crypto-monnaies sont une forme numérique de monnaie conçue pour fonctionner sans autorités centrales telles qu'un gouvernement ou une banque. While *some* cryptocurrency projects can allow you to make private transactions online, many use a transparent blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly. C'est pourquoi nous ne recommandons généralement pas d'utiliser les crypto-monnaies comme réserve de valeur à long terme. Si vous décidez d'utiliser des crypto-monnaies en ligne, assurez-vous au préalable de bien comprendre les aspects liés à la protection de la vie privée et n'investissez que des montants qu'il ne serait pas désastreux de perdre.
+Les crypto-monnaies sont une forme numérique de monnaie conçue pour fonctionner sans autorités centrales telles qu'un gouvernement ou une banque. Bien que *certaines* cryptomonnaies vous permettent d'effectuer des transactions privées en ligne, beaucoup d'entre elles utilisent une chaîne de blocs publique qui ne garantit pas la confidentialité des transactions. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly. C'est pourquoi nous ne recommandons généralement pas d'utiliser les crypto-monnaies comme réserve de valeur à long terme. Si vous décidez d'utiliser des crypto-monnaies en ligne, assurez-vous au préalable de bien comprendre les aspects liés à la protection de la vie privée et n'investissez que des montants qu'il ne serait pas désastreux de perdre.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger</p>
