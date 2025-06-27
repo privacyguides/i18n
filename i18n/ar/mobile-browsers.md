@@ -85,118 +85,118 @@ schema:
 
 ### إعدادات Brave الموصى بها
 
-Tor Browser is the only way to truly browse the internet anonymously. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
+متصفح Tor هو الوسيلة الوحيدة التي تتيح لك تصفح الإنترنت دون الكشف عن هويتك فعليا. عند استخدام متصفح Brave، نوصي بتغيير الإعدادات التالية لحماية خصوصيتك من أطراف معينة، لكن جميع المتصفحات الأخرى، باستثناء [متصفح Tor](tor.md#tor-browser)، يمكن تتبعها من قِبل *شخص ما* بطريقة أو بأخرى.
 
-=== "Android"
+=== "أندرويد"
 
-    These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**.
+    يمكن العثور على هذه الخيارات في :material-menu: → **Settings**→ **Brave Shields & privacy**.
 
 === "iOS"
 
-    These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy**.
+    يمكن العثور على هذه الخيارات في :fontawesome-solid-ellipsis: → **Settings**→ **Shields & Privacy**.
 
-#### Brave shields global defaults
+#### الإعدادات الافتراضية لـ Brave shields
 
 يتضمّن Brave بعض وسائل الحماية من تتبّع البصمة ضمن ميزة [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) الخاصة به. من الأفضل تهيئة هذه الإعدادات [على مستوى جميع المواقع](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)، بدلاً من تعديلها لكل موقع على حدة.
 
-Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
+يمكنك تعديل إعدادات الـ (Shields) لكل موقع على حدة حسب ما تحتاج، لكن بشكل عام ننصحك باستخدام الإعدادات التالية كبداية:
 
-=== "Android"
+=== "أندرويد"
 
     <div class="annotate" markdown>
 
-    - [x] Select **Aggressive** under *Block trackers & ads*
-    - [x] Select **Auto-redirect AMP pages**
-    - [x] Select **Auto-redirect tracking URLs**
-    - [x] Select **Require all connections to use HTTPS (strict)** under *Upgrade connections to HTTPS*
-    - \[x\] (Optional) Select **Block Scripts** (1)
-    - [x] Select **Block third-party cookies** under *Block Cookies*
-    - [x] Select **Block Fingerprinting**
-    - [x] Select **Prevent fingerprinting via language settings**
+    - [x] اختر **Aggressive** تحت خيار *Block trackers & ads*
+    - [x] اختر **Auto-redirect AMP pages **
+    - [x] اختر **Auto-redirect tracking URLs**
+    - [x] اختر **Require all connections to use HTTPS (strict)** تحت خيار *Upgrade connections to HTTPS*
+    - \[x\] (اختياري) اختر **Block Scripts** (1)
+    - [x] اختر **Block third-party cookies** تحت خيار *Block Cookies*
+    - [x] اختر **Block Fingerprinting**
+    - [x] اختر **Prevent fingerprinting via language settings**
 
     <details class="warning" markdown>
-    <summary>Use default filter lists</summary>
+    <summary>استخدم قوائم الحجب الجاهزة (default filter lists)</summary>
 
-    Brave allows you to select additional content filters within the **Content Filtering** menu or the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+    يتيح لك متصفح Brave اختيار قوائم حجب محتوى إضافية من خلال قائمة **Content Filtering** أو صفحة الإعدادات`brave://adblock`. ننصح بعدم استخدام هذه الميزة، وبدلا من ذلك، حافظ على قوائم الحجب الافتراضية. استخدام قوائم تصفية إضافية قد يجعل متصفحك مختلفا عن باقي مستخدمي Brave، مما يزيد من احتمالية تتبّعك. كما أنه قد يعرّضك لمخاطر أمنية أكبر، إذا وُجدت ثغرة في Brave وتم إدخال قاعدة ضارة إلى إحدى تلك القوائم.
 
     </details>
 
-    - [x] Select **Forget me when I close this site**
+    - [x] اختر **Forget me when I close this site**
 
     </div>
 
-    1. هذا الخيار يعطل JavaScript، مما قد يؤدي إلى تعطل العديد من المواقع أو عدم عملها بشكل صحيح. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. هذا الخيار يعطل JavaScript، مما قد يؤدي إلى تعطل العديد من المواقع أو عدم عملها بشكل صحيح. لإصلاح ذلك، يمكنك إضافة استثناءات لكل موقع على حدة، وذلك بالضغط على أيقونة الدرع (Shield) في شريط العنوان (Adress bar)، ثم إلغاء تفعيل هذا الخيار من قسم *Advanced controls*.
 
 === "iOS"
 
     <div class="annotate" markdown>
 
-    - [x] Select **Aggressive** under *Trackers & Ads Blocking*
-    - [x] Select **Strict** under *Upgrade Connections to HTTPS*
-    - [x] Select **Auto-Redirect AMP pages**
-    - [x] Select **Auto-Redirect Tracking URLs**
-    - \[x\] (Optional) Select **Block Scripts** (1)
-    - [x] Select **Block Fingerprinting**
-    - [x] Select **Site Tabs Closed** under *Auto Shred*
+    - [x] اختر **Aggressive** تحت خيار *Trackers & Ads Blocking*
+    - [x] اختر **Strict** تخت خيار *Upgrade Connections to HTTPS*
+    - [x] اختر **Auto-Redirect AMP pages**
+    - [x] اختر **Auto-Redirect Tracking URLs**
+    - \[x\] (اختياري) اختر **Block Scripts** (1)
+    - [x] اختر **Block Fingerprinting**
+    - [x] اختر **Site Tabs Closed** تحت خيار *Auto Shred*
 
     <details class="warning" markdown>
-    <summary>Use default filter lists</summary>
+    <summary>استخدم قوائم الحجب الجاهزة (default filter lists)</summary>
 
-    Brave allows you to select additional content filters within the **Content Filtering** menu. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+    يتيح لك متصفح Brave اختيار قوائم حجب محتوى إضافية من خلال قائمة **Content Filtering**. ننصح بعدم استخدام هذه الميزة، وبدلا من ذلك، حافظ على قوائم الحجب الافتراضية. استخدام قوائم تصفية إضافية قد يجعل متصفحك مختلفا عن باقي مستخدمي Brave، مما يزيد من احتمالية تتبّعك. كما أنه قد يعرّضك لمخاطر أمنية أكبر، إذا وُجدت ثغرة في Brave وتم إدخال قاعدة ضارة إلى إحدى تلك القوائم.
 
     </details>
 
     </div>
 
-    1. هذا الخيار يعطل JavaScript، مما قد يؤدي إلى تعطل العديد من المواقع أو عدم عملها بشكل صحيح. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. هذا الخيار يعطل JavaScript، مما قد يؤدي إلى تعطل العديد من المواقع أو عدم عملها بشكل صحيح. لإصلاح ذلك، يمكنك إضافة استثناءات لكل موقع على حدة، وذلك بالضغط على أيقونة الدرع (Shield) في شريط العنوان (Adress bar)، ثم إلغاء تفعيل هذا الخيار من قسم *Advanced controls*.
 
-##### Clear browsing data (Android only)
+##### مسح بيانات التصفح (لأجهزة أندرويد فقط)
 
-- [x] Select **Clear data on exit**
+- [x] اختر **Clear data on exit**
 
-##### Social Media Blocking (Android only)
+##### حجب وسائل التواصل الاجتماعي (لأجهزة أندرويد فقط)
 
-- [ ] Uncheck all social media components
+- [ ] ألغِ تفعيل جميع مكونات وسائل التواصل الاجتماعي
 
-#### Other privacy settings
+#### إعدادات إضافية للخصوصية
 
-=== "Android"
+=== "أندرويد"
 
     <div class="annotate" markdown>
 
-    - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-    - \[x\] (Optional) Select **No protection** under *Safe Browsing* (1)
-    - [ ] Uncheck **Allow sites to check if you have payment methods saved**
-    - [ ] Uncheck **V8 Optimizer** under *Manage V8 security*
-    - [x] Select **Close tabs on exit**
+    - [x] اختر **Disable non-proxied UDP** تحت خيار [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+    - \[x\] (إختياري) اختر **No protection** تحت خيار *Safe Browsing*  (1)
+    - [ ] أزل التحديد عن **Allow sites to check if you have payment methods saved**
+    - [ ] أزل التحديد عن **V8 Optimize** تحت خيار *Manage V8 security*
+    - [x] اختر **Close tabs on exit**
     -  [ ] أزل التحديد عن **Allow privacy-preserving product analytics (P3A)**
     - [ ] أزل التحديد عن **Automatically send diagnostic reports**
     - [ ] أزل التحديد عن **Automatically send daily usage ping to Brave**
 
     </div>
 
-    1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
+    1. في نسخة أندرويد من Brave، ميزة ["التصفح الآمن"](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) **لا تستخدم** بروكسي لإخفاء هويتك عند [التحقق من الروابط](https://developers.google.com/safe-browsing/v4/update-api#checking-urls)، بعكس نسخة الـ Desktop التي توفر هذا المستوى من الخصوصية. أي أن Google قد ترى عنوان IP الخاص بك وتقوم بتسجيله عند استخدام هذه الميزة. ميزة "التصفح الآمن" لا تعمل على أجهزة أندرويد التي لا تحتوي على خدمات Google Play.
 
 === "iOS"
 
-    - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
+    -  [ ] أزل التحديد عن **Allow Privacy-Preserving Product Analytics (P3A)**
     - [ ] أزل التحديد عن **Automatically send daily usage ping to Brave**
 
 #### Leo
 
-These options can be found in :material-menu: → **Settings** → **Leo**.
+يمكن العثور على هذه الخيارات في :material-menu: → **Settings** → **Leo**.
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Show autocomplete suggestions in address bar** (1)
+- [ ] أزل التحديد عن *Show autocomplete suggestions in address bar** (1)
 
 </div>
 
-1. This option is not present in Brave's iOS app.
+1. هذا الخيار غير متوفر في تطبيق Brave على iOS.
 
-#### Search engines
+#### محركات البحث
 
-These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
+يمكن العثور على هذه الخيارات في :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
 
 - [ ] أزل التحديد عن **عرض اقتراحات البحث**
 
@@ -210,7 +210,7 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 
 ![Cromite logo](assets/img/browsers/cromite.svg){ align=right }
 
-**Cromite** is a Chromium-based browser with built-in ad blocking, fingerprinting protections, and other [privacy and security enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the discontinued **Bromite** browser.
+Cromite هو متصفح مبني على Chromium ويأتي مزودا بمانع إعلانات مدمج، وحماية من بصمة المتصفح (وهي تقنية تُستخدم لتتبعك عبر الإنترنت بناء على خصائص جهازك ومتصفحك)، بالإضافة إلى تحسينات أخرى في [الخصوصية والأمان](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the discontinued **Bromite** browser.
 
 [:octicons-home-16: Homepage](https://cromite.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
