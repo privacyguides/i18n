@@ -1,14 +1,14 @@
 ---
-meta_title: "Privacy Respecting Web Browsers for Android and iOS - Privacy Guides"
-title: "Mobile Browsers"
+meta_title: "متصفحات ويب تركز على الخصوصية لأنظمة أندرويد وiOS – Privacy Guides"
+title: "متصفحات الهواتف"
 icon: material/cellphone-information
-description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
+description: المتصفحات التالية هي خياراتنا الموصى بها لتصفح الإنترنت بشكل عادي وغير مجهول على الهواتف المحمولة.
 cover: mobile-browsers.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Mobile Browser Recommendations
+    name: توصيات لمتصفحات الهواتف التي تحافظ على الخصوصية
     url: "./"
     relatedLink: "../desktop-browsers/"
   - 
@@ -32,7 +32,7 @@ schema:
     url: https://cromite.org
     applicationCategory: Web Browser
     operatingSystem:
-      - Android
+      - أندرويد
     subjectOf:
       "@type": WebPage
       url: "./"
@@ -42,7 +42,7 @@ schema:
     name: Safari
     image: /assets/img/browsers/safari.svg
     url: https://apple.com/safari
-    applicationCategory: Web Browser
+    applicationCategory: المتصفح
     operatingSystem:
       - iOS
     subjectOf:
@@ -50,11 +50,11 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>يُوفر الحماية من التهديدات التالية:</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: رأسمالية المراقبة](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. If you need to browse the internet anonymously, you should use [Tor](tor.md) instead.
+هذه هي **متصفحات الويب للهواتف الذكية** والإعدادات التي نوصي بها حاليا لتصفح الإنترنت العادي (غير المجهول). إذا كنت بحاجة إلى تصفّح الإنترنت بشكل مجهول، فعليك استخدام [Tor](tor.md) بدلًا من ذلك.
 
 ## Brave
 
@@ -64,7 +64,7 @@ These are our currently recommended **mobile web browsers** and configurations f
 
 يحتوي متصفح Brave على مانع مدمج للإعلانات والتتبع، بالإضافة إلى [ميزات خصوصية عديدة](https://brave.com/privacy-features)، يتم تفعيل الكثير منها بشكل تلقائي.
 
-Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
+بما أن Brave مبني على متصفح Chromium، فستجده مألوفًا وسهل الاستخدام، ويعمل بسلاسة مع أغلب المواقع.
 
 [:octicons-home-16: الصفحة الرئيسية](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
@@ -73,7 +73,7 @@ Brave is built upon the Chromium web browser project, so it should feel familiar
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>التنزيلات</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1052879175)
