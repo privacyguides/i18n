@@ -210,15 +210,15 @@ schema:
 
 ![Cromite logo](assets/img/browsers/cromite.svg){ align=right }
 
-Cromite هو متصفح مبني على Chromium ويأتي مزودا بمانع إعلانات مدمج، وحماية من بصمة المتصفح (وهي تقنية تُستخدم لتتبعك عبر الإنترنت بناء على خصائص جهازك ومتصفحك)، بالإضافة إلى تحسينات أخرى في [الخصوصية والأمان](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the discontinued **Bromite** browser.
+Cromite هو متصفح مبني على Chromium ويأتي مزودا بمانع إعلانات مدمج، وحماية من بصمة المتصفح (وهي تقنية تُستخدم لتتبعك عبر الإنترنت بناء على خصائص جهازك ومتصفحك)، بالإضافة إلى تحسينات أخرى في [الخصوصية والأمان](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). هو مشروع فرعي (fork) من متصفح Bromite، الذي لم يعد قيد التطوير.
 
-[:octicons-home-16: Homepage](https://cromite.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Documentation" }
+[:octicons-home-16: الصفحة الرئيسية](https://cromite.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="سياسة الخصوصية" }
+[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="الشروحات التفصيلية" }
 [:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>التنزيلات</summary>
 
 - [:simple-android: F-Droid](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
 - [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
@@ -227,35 +227,35 @@ Cromite هو متصفح مبني على Chromium ويأتي مزودا بمان�
 
 </div>
 
-### Recommended Configuration
+### الإعدادات الموصى بها
 
-These options can be found in :material-menu: → :gear: **Settings** → **Privacy and security**.
+يمكن العثور على هذه الخيارات في :material-menu: → :gear: **Settings** → **Privacy and security**.
 
-#### Browsing data
+#### بيانات التصفح
 
-- [x] Select **Close all open tabs on exit**
+- [x] اختر **Close all open tabs on exit**
 
-#### Incognito mode
+#### وضع التصفح الخفي
 
-- [x] Select **Open external links in incognito**
+- [x] اختر **Open external links in incognito**
 
-#### Security
+#### الأمان
 
-- [x] Select **Always use secure connections**
+- [x] اختر **Always use secure connections**
 
-يساعد هذا في منعك من فتح مواقع لا تستخدم اتصالا مشفّرا (HTTP) عن طريق الخطأ. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+يساعد هذا في منعك من فتح مواقع لا تستخدم اتصالا مشفّرا (HTTP) عن طريق الخطأ. المواقع التي لا تدعم HTTPS أصبحت نادرة في الوقت الحالي، لذا فإن تفعيل هذا الخيار لن يؤثر كثيرًا — أو قد لا يؤثر إطلاقًا — على تصفحك اليومي.
 
-#### Adblock Plus settings
+#### إعدادات Adblock Plus
 
-These options can be found in :material-menu: → :gear: **Settings** → **Adblock Plus settings**.
+يمكن العثور على هذه الخيارات في :material-menu: → :gear: **Settings** → **Adblock Plus settings**.
 
-Cromite contains a customized version of Adblock Plus with EasyList enabled by default, as well as options to select more filter lists within the **Filter lists** menu.
+يحتوي متصفح Cromite على نسخة مُعدلة من Adblock Plus، مع تفعيل EasyList تلقائيا، بالإضافة إلى إمكانية اختيار قوائم تصفية إضافية من خلال قائمة **Filter lists**.
 
-Using extra lists will make you stand out from other Cromite users and may also increase attack surface if a malicious rule is added to one of the lists you use.
+استخدام قوائم إضافية قد يجعلك تبرز بين مستخدمي Cromite الآخرين، وقد يزيد من خطر التعرض لهجمات إذا تم إدخال قاعدة خبيثة في إحدى القوائم التي تستخدمها.
 
-- \[x\] (Optional) Select **Enable anti-circumvention and snippets**
+- \[x\] (اختياري) اختر **Enable anti-circumvention and snippets**
 
-This setting adds an additional Adblock Plus list that may increase the effectiveness of Cromite's content blocking. The warnings about standing out and potentially increasing attack surface apply.
+يُضيف هذا الخيار قائمة إضافية في Adblock Plus قد تُحسن من فعالية حجب المحتوى في متصفح Cromite. The warnings about standing out and potentially increasing attack surface apply.
 
 #### Legacy Adblock settings
 
