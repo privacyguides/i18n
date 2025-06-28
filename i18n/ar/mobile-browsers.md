@@ -287,38 +287,38 @@ Cromite هو متصفح مبني على Chromium ويأتي مزودا بمان�
 
 إذا كنت تريد حجب الإعلانات أو المحتوى المزعج في Safari، فننصحك بتثبيت [AdGuard](browser-extensions.md#adguard).
 
-The following privacy/security-related options can be found in :gear: **Settings** → **Apps** → **Safari**.
+يمكن العثور على خيارات الخصوصية والأمان التالية في :gear: **Settings** → **Apps** → **Safari**.
 
-#### Allow Safari to Access
+#### السماح لـ Safari بالوصول إلى
 
-Under **Siri**:
+ضمن **Siri**:
 
-- [ ] Disable **Learn from this App**
-- [ ] Disable **Show in App**
-- [ ] Disable **Show on Home Screen**
-- [ ] Disable **Suggest App**
+- [ ] أوقف ميزة **Learn from this App**
+- [ ] أوقف ميزة **Show in App**
+- [ ] أوقف ميزة **Show on Home Screen**
+- [ ] أوقف ميزة **Suggest App**
 
-This prevents Siri from using content from Safari for Siri suggestions.
+عند تعطيل هذا الخيار لن يستخدم Siri سجل التصفح أو نشاطك في Safari لتقديم اقتراحات أو تذكيرات.
 
 #### بحث
 
-- [ ] Disable **Search Engine Suggestions**
+- [ ] أوقف ميزة **Search Engine Suggestions**
 
-This setting sends whatever you type in the address bar to the search engine set in Safari. عند تعطيل اقتراحات البحث، يمكنك التحكم بشكل أفضل في المعلومات التي يراها محرك البحث.
+عند تفعيل هذا الخيار، يتم إرسال كلمات البحث التي تكتبها في شريط العنوان إلى محرك البحث الذي اخترته في Safari مما قد يؤثر على خصوصيتك. عند تعطيل اقتراحات البحث، يمكنك التحكم بشكل أفضل في المعلومات التي يراها محرك البحث.
 
-#### Profiles
+#### الملفات الشخصية
 
-Safari allows you to separate your browsing with different profiles. All of your cookies, history, and website data are separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
+يوفر Safari ميزة إنشاء ملفات شخصية متعددة، بحيث يمكنك فصل التصفح الشخصي عن العمل أو أي استخدام آخر. جميع ملفات تعريف الارتباط (الكوكيز)، وسجل التصفح، وبيانات المواقع تكون منفصلة لكل ملف شخصي. استخدم ملفا شخصيا منفصلا لكل غرض — مثلا: واحد للتسوق، وآخر للعمل، وآخر للدراسة — لتحسين الخصوصية وتنظيم التصفح.
 
 #### الخصوصية والأمان
 
 - [x] Enable **Prevent Cross-Site Tracking**
 
-This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but does not block all tracking avenues because it is designed to not interfere with website usability.
+هذا الخيار يقوم بتفعيل ميزة ["منع التتبع الذكي" (ITP) ](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp)في WebKit، والتي تساعد على تقليل قدرة المواقع على تتبعك عبر الإنترنت. تعمل هذه الميزة على منع التتبع من خلال الذكاء الاصطناعي الموجود على جهازك، دون إرسال بياناتك للخوادم، ما يعزز الخصوصية. تمنحك ITP (منع التتبع الذكي) حماية جيدة من معظم أساليب التتبع المنتشرة، لكنها لا تغلق جميع الطرق بالكامل، وذلك لتفادي تعطيل تجربة المستخدم على المواقع.
 
-- [x] Enable **Require Face ID/Touch ID to Unlock Private Browsing**
+- [x] شغل ميزة **اRequire Face ID/Touch ID to Unlock Private Browsing**
 
-This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
+يتيح لك هذا الخيار حماية التصفح الخاص ببصمة الإصبع، أو الوجه، أو رقم سري، حتى لا يتمكن أحد من الوصول إليه أثناء عدم استخدامك للجهاز.
 
 - [ ] Disable **Fraudulent Website Warning**
 
@@ -392,9 +392,9 @@ If you use iCloud with Advanced Data Protection disabled, we also recommend sett
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-### Minimum Requirements
+### الحد الأدنى من المتطلبات
 
-- Must support automatic updates.
-- Must receive engine updates from upstream releases quickly.
-- Must support content blocking.
-- Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
+- يشترط أن يكون البرنامج قادرا على التحديث تلقائيا دون تدخل يدوي.
+- يجب أن يتم تحديث محرك المتصفح بسرعة فور صدور تحديثات من المصدر الرئيسي، لضمان الأمان والأداء.
+- من الضروري أن يوفر المتصفح ميزة حظر الإعلانات والمحتوى المزعج.
+- أي تغييرات تُجري لتحسين الخصوصية يجب ألا تضر بسهولة أو راحة استخدام المتصفح.

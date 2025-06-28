@@ -1,6 +1,6 @@
 ---
 meta_title: "Tor Browser and Network: Anonymous Web Browsing - Privacy Guides"
-title: "متصفِّح تور"
+title: "متصفح Tor"
 icon: simple/torbrowser
 description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
 cover: tor.webp
