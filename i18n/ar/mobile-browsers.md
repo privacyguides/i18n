@@ -255,37 +255,37 @@ Cromite هو متصفح مبني على Chromium ويأتي مزودا بمان�
 
 - \[x\] (اختياري) اختر **Enable anti-circumvention and snippets**
 
-يُضيف هذا الخيار قائمة إضافية في Adblock Plus قد تُحسن من فعالية حجب المحتوى في متصفح Cromite. The warnings about standing out and potentially increasing attack surface apply.
+يُضيف هذا الخيار قائمة إضافية في Adblock Plus قد تُحسن من فعالية حجب المحتوى في متصفح Cromite. تنطبق هنا نفس التحذيرات بخصوص التميز عن بقية المستخدمين وزيادة احتمال التعرض لهجمات.
 
-#### Legacy Adblock settings
+#### إعدادات Adblock (الإصدار القديم)
 
-These options can be found in :material-menu: → :gear: **Settings** → **Legacy Adblock settings**.
+يمكن العثور على هذه الخيارات في :material-menu: → :gear: **Settings** → **Legacy Adblock settings**.
 
-- [ ] Uncheck the autoupdate setting
+- [] ألغ تفعيل خيار التحديث التلقائي (autoupdate setting)
 
-This disables update checks for the unmaintained Bromite adblock filter.
+هذا الخيار يوقف البحث عن تحديثات لقائمة فلاتر الإعلانات (adblock filter) التابعة لـ Bromite، لأنها لم تعد مدعومة أو محدثة.
 
 ## Safari (iOS)
 
-On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Chromium engine like its counterparts on other operating systems.
+على نظام iOS، أي تطبيق يتيح تصفح الويب يكون [مقيدا](https://developer.apple.com/app-store/review/guidelines) باستخدام [WebKit framework](https://developer.apple.com/documentation/webkit) المقدم من Apple، لذلك فإن متصفح مثل [Brave](#brave) لا يستخدم محرك Chromium كما يفعل على أنظمة التشغيل الأخرى.
 
 <div class="admonition recommendation" markdown>
 
 ![Safari logo](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites, so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
+في أجهزة iOS، يكون Safari هو المتصفح الأساسي المُثبت مسبقا. يتضمن Safari مجموعة من [ميزات الخصوصية](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios)، مثل [منع التتبع الذكي (Intelligent Tracking Prevention)](https://webkit.org/blog/7675/intelligent-tracking-prevention)، وعرض الصفحات في علامات تبويب (tabs) خاصة مؤقتة ومعزولة عن نشاط التصفح العادي، وحماية من بصمة المتصفح (وهي تقنية تستخدمها بعض المواقع للتعرف على جهازك من خلال خصائصه الفنية حتى بدون ملفات تعريف الارتباط "Cookies")، عن طريق إظهار إعدادات نظام موحدة لجعل الأجهزة تبدو متشابهة، إضافة إلى توليد بصمة عشوائية ( fingerprint randomization) للمزيد من الحماية، وميزة Private Relay المتوفرة فقط لمشتركي iCloud+ المدفوعين، والتي تُخفي عنوان Ip وتشفر حركة التصفح.
 
-[:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title="Documentation" }
+[:octicons-home-16: التنزيلات](https://apple.com/safari){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="سياسية الخصوصية" }
+[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title="الشرح التفصيلي" }
 
 </details>
 
 </div>
 
-### Recommended Safari Configuration
+### إعدادات Safari الموصى بها
 
-We would suggest installing [AdGuard](browser-extensions.md#adguard) if you want a content blocker in Safari.
+إذا كنت تريد حجب الإعلانات أو المحتوى المزعج في Safari، فننصحك بتثبيت [AdGuard](browser-extensions.md#adguard).
 
 The following privacy/security-related options can be found in :gear: **Settings** → **Apps** → **Safari**.
 
