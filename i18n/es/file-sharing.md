@@ -21,7 +21,7 @@ Si ya utiliza [Proton Drive](cloud.md#proton-drive)[^1] o tiene una suscripción
 
 ![Send logo](assets/img/file-sharing-sync/send.svg){ align=right }
 
-**Send** es una bifurcación del descontinuado servicio Firefox Send de Mozilla que le permite enviar archivos a otros con un enlace. Los archivos son encriptados en su dispositivo, lo que no permite que sean leídos por el servidor y, opcionalmente, también pueden protegerse por una contraseña. El responsable de mantener Send alberga una [instancia pública](https://send.vis.ee). Puede usitlizar otras instancias públicas o puede hospedar Send usted mismo.
+**Send** es una bifurcación del descontinuado servicio Firefox Send de Mozilla que le permite enviar archivos a otros con un enlace. Los archivos son encriptados en su dispositivo, lo que no permite que sean leídos por el servidor y, opcionalmente, también pueden protegerse por una contraseña. El responsable de mantener Send alberga una [instancia pública](https://send.vis.ee). Puede utilizar otras instancias públicas o puede alojar Send usted mismo.
 
 [:octicons-home-16: Página principal](https://send.vis.ee){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
