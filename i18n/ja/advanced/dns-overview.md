@@ -90,19 +90,19 @@ Android 9以降ではDNS over TLSをサポートしています。 設定は以�
 
 #### Appleデバイス
 
-The latest versions of iOS, iPadOS, tvOS, and macOS, support both DoT and DoH. Both protocols are supported natively via [configuration profiles](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web) or through the [DNS Settings API](https://developer.apple.com/documentation/networkextension/dns_settings).
+最新バージョンのiOS、iPadOS、tvOS、macOSはDoTとDoHのどちらにも対応しています。 [構成プロファイル](https://support.apple.com/guide/security/configuration-profile-enforcement-secf6fb9f053/web)もしくは[DNS設定API](https://developer.apple.com/documentation/networkextension/dns_settings)でどちらのプロトコルもネイティブ対応しています。
 
-After installation of either a configuration profile or an app that uses the DNS Settings API, the DNS configuration can be selected. If a VPN is active, resolution within the VPN tunnel will use the VPN's DNS settings and not your system-wide settings.
+構成プロファイルまたはDNS設定APIを使ったアプリをインストールした後、DNS設定を選択することができます。 VPNが有効な場合、VPNトンネル内での名前解決にはVPNのDNS設定が使われ、システム全体の設定は使われません。
 
-Apple does not provide a native interface for creating encrypted DNS profiles. [Secure DNS profile creator](https://dns.notjakob.com/tool.html) is an unofficial tool for creating your own encrypted DNS profiles, however they will not be signed. Signed profiles are preferred; signing validates a profile's origin and helps to ensure the integrity of the profiles. A green "Verified" label is given to signed configuration profiles. For more information on code signing, see [About Code Signing](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html).
+Appleは暗号化DNSプロファイルを作成するためのネイティブインターフェースを提供していません。 [Secure DNS profile creator](https://dns.notjakob.com/tool.html)は暗号化DNSプロファイルを作成するための非公式のツールですが、署名はされません。 署名されたプロファイルが推奨されます。署名はプロファイルの発信元を検証し、整合性を確かめるのに役立ちます。 署名された構成プロファイルは緑色の「検証済み」ラベルがつけられます。 コード署名の詳細については[About Code Signing](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html)を参照してください。
 
 #### Linux
 
-`systemd-resolved`, which many Linux distributions use to do their DNS lookups, doesn't yet [support DoH](https://github.com/systemd/systemd/issues/8639). If you want to use DoH, you'll need to install a proxy like [dnscrypt-proxy](../dns.md#dnscrypt-proxy) and [configure it](https://wiki.archlinux.org/title/Dnscrypt-proxy) to take all the DNS queries from your system resolver and forward them over HTTPS.
+多くのLinuxディストリビューションがDNSルックアップに使用している`systemd-resolved`はまだ[DoHに対応](https://github.com/systemd/systemd/issues/8639)していません。 DoHを使いたい場合、[dnscrypt-proxy](../dns.md#dnscrypt-proxy)のようなプロキシをインストールし、システムリゾルバからのすべてのDNSクエリを受け取り、HTTPS経由で転送するように[設定する](https://wiki.archlinux.org/title/Dnscrypt-proxy)必要があります。
 
-## What can an outside party see?
+## 外部からは何が見えるのか？
 
-In this example we will record what happens when we make a DoH request:
+この例では、DoHリクエストを行った際に何が起きているか記録します：
 
 1. まず、 `tshark`を起動：
 
@@ -110,21 +110,21 @@ In this example we will record what happens when we make a DoH request:
     tshark -w /tmp/dns_doh.pcap -f "tcp port https and host 1.1.1.1"
     ```
 
-2. Second, make a request with `curl`:
+2. 次に、`curl`でリクエストをします：
 
     ```bash
     curl -vI --doh-url https://1.1.1.1/dns-query https://privacyguides.org
     ```
 
-3. After making the request, we can stop the packet capture with <kbd>CTRL</kbd> + <kbd>C</kbd>.
+3. リクエストした後、<kbd>CTRL</kbd>+<kbd>C</kbd>でパケットキャプチャを終了します。
 
-4. Analyze the results in Wireshark:
+4. Wiresharkで結果を分析します：
 
     ```bash
     wireshark -r /tmp/dns_doh.pcap
     ```
 
-We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) and [TLS handshake](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) that occurs with any encrypted connection. When looking at the "application data" packets that follow, none of them contain the domain we requested or the IP address returned.
+暗号化された接続で発生する[コネクション確立](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment)と[TLSハンドシェイク](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake)を見ることができます。 その後の「アプリケーションデータ」パケットにはリクエストしたドメインや返されたIPアドレスは含まれていません。
 
 ## Why **shouldn't** I use encrypted DNS?
 
