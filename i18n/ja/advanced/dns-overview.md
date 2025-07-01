@@ -126,11 +126,11 @@ Appleは暗号化DNSプロファイルを作成するためのネイティブイ
 
 暗号化された接続で発生する[コネクション確立](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment)と[TLSハンドシェイク](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake)を見ることができます。 その後の「アプリケーションデータ」パケットにはリクエストしたドメインや返されたIPアドレスは含まれていません。
 
-## Why **shouldn't** I use encrypted DNS?
+## なぜ暗号化DNSを使う**べきではない**のか？
 
-In locations where there is internet filtering (or censorship), visiting forbidden resources may have its own consequences which you should consider in your [threat model](../basics/threat-modeling.md). We do **not** suggest the use of encrypted DNS for this purpose. Use [Tor](../advanced/tor-overview.md) or a [VPN](../vpn.md) instead. If you're using a VPN, you should use your VPN's DNS servers. When using a VPN, you are already trusting them with all your network activity.
+インターネットフィルタリング（もしくは検閲）が行われている場所で、禁止されている情報源にアクセスするために、[脅威モデル](../basics/threat-modeling.md)に基づいて考慮すべきことになる可能性はあります。 この目的のために暗号化DNSをつかうことは推奨**しません**。 代わりに[Tor](../advanced/tor-overview.md)や[VPN](../vpn.md)を使ってください。 VPNを使っているのであれば、VPNのDNSサーバーを使う必要があります。 VPNを使うことは、ネットワークアクティビティのすべてをVPNに任せることになります。
 
-When we do a DNS lookup, it's generally because we want to access a resource. Below, we will discuss some of the methods that may disclose your browsing activities even when using encrypted DNS:
+DNSルックアップをする際、一般的には情報源にアクセスするためです。 以下では暗号化DNSを使ったとしてもブラウジングのアクティビティが開示される可能性のある方法について説明します：
 
 ### IPアドレス
 
