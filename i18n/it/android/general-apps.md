@@ -1,11 +1,11 @@
 ---
-title: General Apps
+title: "General Apps"
 description: The apps listed here are Android-exclusive and specifically enhance or replace key system functionality.
 schema:
   - "@context": http://schema.org
     "@type": WebPage
     name: General Android Apps
-    url: ./
+    url: "./"
   - "@context": http://schema.org
     "@type": MobileApplication
     name: Shelter

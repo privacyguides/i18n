@@ -1,5 +1,5 @@
 ---
-title: Chiavi di Sicurezza
+title: "Chiavi di Sicurezza"
 icon: material/key-chain
 description: These security keys provide a form of phishing-immune authentication for accounts that support it.
 cover: multi-factor-authentication.webp
