@@ -134,7 +134,7 @@ Peergos was [audited](https://peergos.org/posts/security-audit-2024) in November
 
 - Must enforce E2EE.
 - Deve offrire un piano gratuito o un periodo di prova per testarlo.
-- Must support TOTP or FIDO2 multifactor authentication, or passkey logins.
+- Deve supportare TOTP o FIDO2 per l'autenticazione a fattori multipli, oppure il login con le passkey.
 - Deve offrire un'interfaccia web che supporti le funzionalità di base per la gestione dei file.
 - Deve consentire un'esportazione facile di tutti i file/documenti.
 

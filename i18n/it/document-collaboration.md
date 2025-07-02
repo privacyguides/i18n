@@ -27,8 +27,7 @@ Most online office suites do not support E2EE, meaning the cloud provider has ac
 [:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Codice Sorgente" }
 [:octicons-heart-16:](https://nextcloud.com/it/contribute/){ .card-link title=Contribuisci }
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
+<details class="downloads" markdown><0>Scarica</0>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
@@ -68,7 +67,7 @@ Sconsigliamo di utilizzare l'[App E2EE](https://apps.nextcloud.com/apps/end_to_e
 
 ### Criteri
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
+**Ti preghiamo di notare che non siamo affiliati con alcun progetto che consigliamo.** Oltre ai nostri [criteri standard](about/criteria.md), abbiamo sviluppato un chiaro insieme di requisiti per consentirci di fornire dei consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
 
 #### Requisiti minimi
 

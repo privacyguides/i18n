@@ -75,8 +75,7 @@ Shelter is recommended over [Insular](https://secure-system.gitlab.io/Insular) a
 [:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
+<details class="downloads" markdown><0>Scarica</0>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.camera.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/Camera/releases)
@@ -120,8 +119,7 @@ The image orientation metadata is not deleted. If you enable location (in Secure
 [:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
+<details class="downloads" markdown><0>Scarica</0>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)

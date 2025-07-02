@@ -72,8 +72,7 @@ In addition to supporting a large range of text models, Kobold.cpp also supports
 [:octicons-code-16:](https://github.com/LostRuins/koboldcpp){ .card-link title="Source Code" }
 [:octicons-lock-16:](https://github.com/LostRuins/koboldcpp/blob/2f3597c29abea8b6da28f21e714b6b24a5aca79b/SECURITY.md){ .card-link title="Security Policy" }
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
+<details class="downloads" markdown><0>Scarica</0>
 
 - [:fontawesome-brands-windows: Windows](https://github.com/LostRuins/koboldcpp/releases)
 - [:simple-apple: macOS](https://github.com/LostRuins/koboldcpp/releases)
@@ -107,8 +106,7 @@ In addition to supporting a wide range of text models, Ollama also supports [LLa
 [:octicons-code-16:](https://github.com/ollama/ollama){ .card-link title="Source Code" }
 [:octicons-lock-16:](https://github.com/ollama/ollama/blob/a14f76491d694b2f5a0dec6473514b7f93beeea0/SECURITY.md){ .card-link title="Security Policy" }
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
+<details class="downloads" markdown><0>Scarica</0>
 
 - [:fontawesome-brands-windows: Windows](https://ollama.com/download/windows)
 - [:simple-apple: macOS](https://ollama.com/download/mac)
@@ -135,8 +133,7 @@ Llamafile also supports LLaVA. However, it doesn't support speech recognition or
 [:octicons-code-16:](https://github.com/Mozilla-Ocho/llamafile){ .card-link title="Source Code" }
 [:octicons-lock-16:](https://github.com/Mozilla-Ocho/llamafile#security){ .card-link title="Security Policy" }
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
+<details class="downloads" markdown><0>Scarica</0>
 
 - [:fontawesome-brands-windows: Windows](https://github.com/Mozilla-Ocho/llamafile#quickstart)
 - [:simple-apple: macOS](https://github.com/Mozilla-Ocho/llamafile#quickstart)

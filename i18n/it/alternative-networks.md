@@ -58,8 +58,7 @@ You can try connecting to _Privacy Guides_ via Tor at [xoe4vn5uwdztif6goazfbmogh
 [:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://orbot.app/donate){ .card-link title="Contribute" }
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
+<details class="downloads" markdown><0>Scarica</0>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1609461599)
@@ -128,8 +127,7 @@ Running a Snowflake proxy is low-risk, even more so than running a Tor relay or 
 [:octicons-code-16:](https://github.com/i2p/i2p.i2p){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://geti2p.net/en/get-involved){ .card-link title=Contribute }
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
+<details class="downloads" markdown><0>Scarica</0>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.i2p.android)
 - [:simple-android: Android](https://geti2p.net/it/download#android)

@@ -30,8 +30,7 @@ Don't install extensions which you don't immediately have a need for, or ones th
 [:octicons-info-16:](https://github.com/gorhill/uBlock/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/gorhill/uBlock){ .card-link title="Source Code" }
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
+<details class="downloads" markdown><0>Scarica</0>
 
 - [:simple-firefoxbrowser: Firefox](https://addons.mozilla.org/firefox/addon/ublock-origin)
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)
@@ -67,8 +66,7 @@ uBlock Origin also has a "Lite" version of their extension, which offers a very 
 [:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Source Code" }
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
+<details class="downloads" markdown><0>Scarica</0>
 
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
 
@@ -99,8 +97,7 @@ We recommend [Safari](mobile-browsers.md#safari-ios) for iOS users, which unfort
 [:octicons-info-16:](https://kb.adguard.com/ios){ .card-link title=Documentazione}
 [:octicons-code-16:](https://github.com/AdguardTeam/AdguardForiOS){ .card-link title="Codice sorgente" }
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
+<details class="downloads" markdown><0>Scarica</0>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1047223162)
 

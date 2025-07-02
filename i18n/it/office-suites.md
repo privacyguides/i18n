@@ -25,8 +25,7 @@ Choose an **office suite** that does not require logging in to an account to acc
 [:octicons-code-16:](https://libreoffice.org/about-us/source-code){ .card-link title="Source Code" }
 [:octicons-heart-16:](https://libreoffice.org/donate){ .card-link title=Contribute }
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
+<details class="downloads" markdown><0>Scarica</0>
 
 - [:simple-googleplay: Google Play](https://libreoffice.org/download/android-and-ios)
 - [:simple-appstore: App Store](https://libreoffice.org/download/android-and-ios)
@@ -52,8 +51,7 @@ Choose an **office suite** that does not require logging in to an account to acc
 [:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentation}
 [:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Source Code" }
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
+<details class="downloads" markdown><0>Scarica</0>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id944896972)
@@ -68,7 +66,7 @@ Choose an **office suite** that does not require logging in to an account to acc
 
 ## Criteri
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
+**Ti preghiamo di notare che non siamo affiliati con alcun progetto che consigliamo.** Oltre ai nostri [criteri standard](about/criteria.md), abbiamo sviluppato un chiaro insieme di requisiti per consentirci di fornire dei consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
 
 - Deve essere multipiattaforma.
 - Deve essere un software open source.

@@ -6,7 +6,7 @@ description: Applicazioni di mappe e navigazione che rispettano la tua privacy e
 cover: maps.webp
 ---
 
-<0>Protezione dalla seguente minaccia:</0>
+<small>Protezione dalle seguenti minacce:</small>
 
 - [:material-account-cash: Capitalismo della sorveglianza](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
@@ -18,7 +18,7 @@ I consigli qui proposti non raccolgono o nessun dato degli utenti o, quanto meno
 
 <div class="admonition recommendation" markdown>
 
-![Organic Maps logo](assets/img/maps/organic-maps.svg){ align=right }
+![Logo di Organic Maps](assets/img/maps/organic-maps.svg){ align=right }
 
 **Organic Maps** è un'applicazione open-source, sviluppata dalla comunità per mappe e navigazione, per escursionisti, automobilisti e ciclisti. L'app offre mappe offline di tutto il mondo basate su dati di OpenStreetMap e navigazione privata — nessun tracciamento della posizione, nessuna raccolta di dati e nessun annuncio. L'app può essere utilizzata completamente offline.
 
@@ -45,16 +45,16 @@ Tieni presente che Organic Maps è un'app semplice e di base che non include alc
 
 <div class="admonition recommendation" markdown>
 
-![OsmAnd logo](assets/img/maps/osmand.svg){ align=right }
+![Logo di OsmAnd](assets/img/maps/osmand.svg){ align=right }
 
-**OsmAnd** is an offline map and navigation application based on OpenStreetMap that offers turn-by-turn navigation for walking, cycling, driving, as well as public transport. It is open source and does not collect any user data.
+**OsmAnd** è un'applicazione di mappe offline e navigazione basata su OpenStreetMap che offre navigazione passo-passo per camminare, andare in bici, guidare e per il trasporto pubblico. È open source e non raccoglie nessun dato personale.
 
 [:octicons-home-16: Homepage](https://osmand.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://osmand.net/docs/legal/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://osmand.net/docs/intro){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/osmandapp){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://osmand.net/docs/legal/privacy-policy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://osmand.net/docs/intro){ .card-link title="Documentazione" }
+[:octicons-code-16:](https://github.com/osmandapp){ .card-link title="Codice Sorgente" }
 
-<details class="downloads" markdown><summary>Downloads</summary>
+<details class="downloads" markdown><summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.osmand)
 - [:simple-android: Android](https://osmand.net/docs/versions/free-versions)
@@ -70,7 +70,7 @@ You can find a detailed overview of OsmAnd's supported [features](https://wiki.o
 
 ## Criteri
 
-**Ti preghiamo di notare che non siamo affiliati con alcun progetto consigliato.** Oltre ai nostri [criteri standard](about/criteria.md), abbiamo sviluppato una serie chiara di requisiti per consentirci di fornire consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
+**Ti preghiamo di notare che non siamo affiliati con alcun progetto che consigliamo.** Oltre ai nostri [criteri standard](about/criteria.md), abbiamo sviluppato un chiaro insieme di requisiti per consentirci di fornire dei consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
 
 ### Requisiti minimi
 

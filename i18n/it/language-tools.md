@@ -26,8 +26,7 @@ Text inputted to grammar, spelling, and style checkers, as well as translation s
 [:octicons-info-16:](https://languagetooler.freshdesk.com/en/support/solutions){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/languagetool-org){ .card-link title="Source Code" }
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
+<details class="downloads" markdown><0>Scarica</0>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1534275760)
 - [:fontawesome-brands-windows: Windows](https://languagetool.org/windows-desktop)
@@ -45,7 +44,7 @@ LanguageTool offers integration with a variety of [office suites](https://langua
 
 ## Criteri
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
+**Ti preghiamo di notare che non siamo affiliati con alcun progetto che consigliamo.** Oltre ai nostri [criteri standard](about/criteria.md), abbiamo sviluppato un chiaro insieme di requisiti per consentirci di fornire dei consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
 
 - Deve essere open source.
 - Must be possible to self-host.

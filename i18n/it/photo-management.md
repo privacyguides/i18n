@@ -1,34 +1,33 @@
 ---
 title: "Gestione delle foto"
 icon: material/image
-description: These photo management tools keep your personal photos safe from the prying eyes of cloud storage providers and other unauthorized parties.
+description: Questi strumenti per la gestione delle foto tengono le tue foto personali al riparo dagli occhi indiscreti dei fornitori di servizi di archiviazione su cloud e di altre parti non autorizzate.
 cover: photo-management.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protezione dalle seguenti minacce:</small>
 
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-bug-outline: Attacchi Passivi](basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-server-network: Fornitori di Servizi ](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-Most cloud **photo management solutions** like Google Photos, Flickr, and Amazon Photos don't secure your photos against being accessed by the cloud storage provider themselves. Queste opzioni mantengono le foto personali private, consentendo di condividerle solo con i familiari e le persone fidate.
+La maggior parte delle **soluzioni di gestione delle foto** come Google Foto, Flickr e Amazon Foto non proteggono l'accesso alle tue foto da parte degli stessi fornitori di archiviazione cloud. Queste opzioni mantengono le foto personali private, consentendo di condividerle solo con i familiari e le persone fidate.
 
-## Ente Photos
+## Ente Foto
 
 <div class="admonition recommendation" markdown>
 
-![Ente logo](assets/img/photo-management/ente.svg){ align=right }
+![Logo di Ente](assets/img/photo-management/ente.svg){ align=right }
 
-**Ente Photos** è un servizio di backup delle foto crittografato end-to-end che supporta i backup automatici su iOS e Android. Their code is fully open source, both on the client side and on the server side. It is also [self-hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting).
+**Ente Foto** è un servizio di backup delle foto crittografato end-to-end che supporta i backup automatici su iOS e Android. Il codice sorgente è completamente open source, sia lato client che lato server. È anche [self hostable](https://github.com/ente-io/ente/tree/main/server#self-hosting).
 
-The free plan offers 5 GB of storage as long as you use the service at least once a year.
+Il piano gratuito offre 5 GB di spazio di archiviazione a condizione che tu utilizzi il servizio almeno una volta all'anno.
 
 [:octicons-home-16: Homepage](https://ente.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://ente.io/faq){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://ente.io/faq){ .card-link title="Documentazione" }
+[:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Codice Sorgente" }
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
+<details class="downloads" markdown><0>Scarica</0>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.photos)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1542026904)
@@ -43,26 +42,25 @@ The free plan offers 5 GB of storage as long as you use the service at least on
 
 </div>
 
-Ente Photos underwent an [audit by Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
+Ente Foto è stata sottoposta a una revisione da parte di [Cure53](https://ente.io/blog/cryptography-audit) nel marzo 2023 e da parte di [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) nell'aprile 2023.
 
 ## Stingle
 
 <div class="admonition recommendation" markdown>
 
-![Stingle logo](assets/img/photo-management/stingle.png#only-light){ align=right }
-![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ align=right }
+![Logo di Stingle](assets/img/photo-management/stingle.png#only-light){ align=right }
+![Logo di Stingle](assets/img/photo-management/stingle-dark.png#only-dark){ align=right }
 
 **Stingle** is a gallery and camera application with built-in, E2EE backup and sync functionality for your photos and videos.
 
 Storage starts at 1 GB for free accounts on their cloud, or you can host your own Stingle API server for total independence.
 
 [:octicons-home-16: Homepage](https://stingle.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://stingle.org/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://stingle.org/faq){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/stingle){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://stingle.org/privacy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://stingle.org/faq){ .card-link title="Documentazione" }
+[:octicons-code-16:](https://github.com/stingle){ .card-link title="Codice Sorgente" }
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
+<details class="downloads" markdown><0>Scarica</0>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.stingle.photos)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1582535448)
@@ -76,17 +74,16 @@ Storage starts at 1 GB for free accounts on their cloud, or you can host your o
 
 <div class="admonition recommendation" markdown>
 
-![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ align=right }
+![Logo di PhotoPrism](assets/img/photo-management/photoprism.svg){ align=right }
 
 **PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
 
 [:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Documentazione}
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Codice Sorgente" }
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
+<details class="downloads" markdown><0>Scarica</0>
 
 - [:simple-github: GitHub](https://github.com/photoprism)
 
@@ -96,17 +93,17 @@ Storage starts at 1 GB for free accounts on their cloud, or you can host your o
 
 ## Criteri
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
+**Ti preghiamo di notare che non siamo affiliati con alcun progetto che consigliamo.** Oltre ai nostri [criteri standard](about/criteria.md), abbiamo sviluppato un chiaro insieme di requisiti per consentirci di fornire dei consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
 
 ### Requisiti minimi
 
-- Cloud-hosted providers must enforce E2EE.
+- I servizi ospitati sul cloud devono avere la crittografia end-to-end (E2EE)
 - Deve offrire un piano gratuito o un periodo di prova per testarlo.
-- Must support TOTP or FIDO2 multifactor authentication, or passkey logins.
+- Deve supportare TOTP o FIDO2 per l'autenticazione a fattori multipli, oppure il login con le passkey.
 - Deve offrire un'interfaccia web che supporti le funzionalità di base per la gestione dei file.
 - Deve consentire un'esportazione facile di tutti i file/documenti.
 - Deve essere open source.
 
 ### Miglior Caso
 
-- Should have a published audit from a reputable, independent third party.
+- Dovrebbe avere una recensione (audit) pubblicata da una terza parte rispettabile e indipendente.
