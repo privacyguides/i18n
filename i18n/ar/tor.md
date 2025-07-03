@@ -27,7 +27,7 @@ schema:
 
 - [:material-account-cash: رأسمالية المراقبة](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 - [:material-eye-outline: مراقبة الجمهور](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
-- [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
+- [:material-close-outline: الرقابة](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
 
 **Tor** عبارة عن شبكة يديرها متطوعون، تتيح لك الاتصال مجانا بالإنترنت بطريقة تحافظ على خصوصيتك وتحميك من التتبع والمراقبة. ويمكن للأفراد والمؤسسات مشاركة المعلومات عبرها باستخدام «خدمات .onion الخفية»، وذلك دون نهك خصوصيتهم. فكون اتصالات تور صعبة الحظر والتتبع يجعل تور أداةً فعَّالةً لتجاوز الرقابة.
 
@@ -84,7 +84,7 @@ schema:
 
 صمِّم متصفِّح تور لمكافحة التبصيم، أو كشف هويَّتك حسب ضبط متصفِّحك. ولهذا السبب، من المهم جدا أن **لا تغير** إعدادات متصفح Tor خارج [المستويات الأمنية المضمنة](https://tb-manual.torproject.org/security-settings)، لأن أي تعديل قد يعرضك لخطر كشف الهوية. إذا قمت بتغيير مستوى الأمان، **من الضروري** إعادة تشغيل متصفح Tor لتطبيق التغييرات بشكل صحيح قبل مواصلة التصفح. وإلا، فقد لا تُطبَّق [إعدادات الأمان بشكل كامل](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw)، مما قد يعرّضك لخطر التتبع واستغلال الثغرات، مقارنة بما تتوقعه من مستوى الأمان الذي اخترته.
 
-In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
+بالإضافة إلى إمكانية تثبيت متصفح Tor مباشرة على جهازك، هناك أيضا أنظمة تشغيل صُممت خصيصا لاستخدام شبكة Tor، مثل [Whonix](desktop.md#whonix) ضمن [Qubes OS](desktop.md#qubes-os)، والتي توفر مستوى أعلى من الأمان والحماية مقارنة باستخدام متصفح Tor فقط.
 
 ## Onion Browser (iOS)
 
@@ -92,18 +92,18 @@ In addition to installing Tor Browser on your computer directly, there are also 
 
 ![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
 
-**Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser).
+**Onion Browser** هو متصفح مفتوح المصدر يتيح لك تصفح الإنترنت بشكل مجهول عبر شبكة Tor على أجهزة iOS، وهو مدعوم رسميا من قِبل [مشروع Tor](https://support.torproject.org/glossary/onion-browser).
 
-[:material-star-box: Read our latest Onion Browser review.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
+[:material-star-box: اطّلع على آخر مراجعة قمنا بها لمتصفح Onion Browser.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
 
-[:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title="Documentation" }
+[:octicons-home-16: الصفحة الرئيسية](https://onionbrowser.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="سياسة الخصوصية" }
+[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title="الشروحات التفصيلية" }
 [:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title="Contribute" }
+[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title="المساهمة" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>التنزيلات</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
 
@@ -111,6 +111,6 @@ In addition to installing Tor Browser on your computer directly, there are also 
 
 </div>
 
-Onion Browser does not provide the same levels of privacy protections as Tor Browser does on desktop platforms. For casual use it is a perfectly fine way to access hidden services, but if you're concerned about being traced or monitored by advanced adversaries you should not rely on this as an anonymity tool.
+رغم أن متصفح Onion Browser يتيح التصفح المجهول على أجهزة iOS، إلا أنه لا يوفر نفس مستوى حماية الخصوصية الذي يقدمه متصفح Tor على أجهزة سطح المكتب (Desktop). ويعود ذلك إلى قيود نظام iOS، مثل إجبار جميع المتصفحات على استخدام محرك WebKit من Apple، مما يُقيد بعض ميزات Tor المتقدمة، ويجعل من الصعب توفير نفس درجة العزل والتخصيص الأمني (security customization) المتاحة على أنظمة مثل Linux أو Windows. للاستخدام العادي، يعتبر Onion Browser وسيلة مناسبة تماما للوصول إلى الخدمات المخفية. لكن إذا كنت قلقا بشأن التتبع أو المراقبة من جهات متقدمة، فلا يجب الاعتماد عليه كأداة لإخفاء الهوية.
 
-[Notably](https://github.com/privacyguides/privacyguides.org/issues/2929), Onion Browser does not *guarantee* all requests go through Tor. When using the built-in version of Tor, [your real IP **will** be leaked via WebRTC and audio/video streams](https://onionbrowser.com/faqs) due to limitations of WebKit. It is *safer* to use Onion Browser alongside [Orbot](alternative-networks.md#orbot), but this still comes with some limitations on iOS.
+[جدير بالانتباه](https://github.com/privacyguides/privacyguides.org/issues/2929) أن Onion Browser *لا يضمن* دائما أن يتم توجيه كل حركة الاتصال (requests) عبر Tor، مما قد يشكل خطرا على الخصوصية في بعض الحالات. انتبه: عند استخدام Tor داخل Onion Browser، قد **يتم كشف عنوان IP الحقيقي** عبر ميزات مثل WebRTC أو مكالمات الصوت والفيديو، بسبب قيود WebKit في iOS، كما هو موضح في [الأسئلة الشائعة](https://onionbrowser.com/faqs). يُعتبر استخدام Onion Browser مع [Orbot](alternative-networks.md#orbot) خيارا *أكثر أمانا*، لكنه لا يزيل تماما القيود التقنية التي يفرضها نظام iOS، مثل قيود WebKit.
