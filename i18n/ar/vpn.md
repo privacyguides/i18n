@@ -73,11 +73,11 @@ global:
 
 1. Last checked: 2024-08-06
 
-We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+استخدام [خادم مخصص](https://en.wikipedia.org/wiki/Dedicated_hosting_service) يعني أن الشركة تملك الخادم وتتحكم فيه بالكامل، مما يقلل من خطر تسريب البيانات أو تعرضها للاختراق مقارنة [بخوادم مشتركة (VPS)](https://en.wikipedia.org/wiki/Virtual_private_server) تُستخدم من عدة عملاء.
 
-#### :material-check:{ .pg-green } Independently Audited
+#### :material-check:{ .pg-green } تمت مراجعته من جهة مستقلة
 
-As of January 2020, Proton VPN has undergone an independent audit by SEC Consult. SEC Consult found some medium and low risk vulnerabilities in Proton VPN's Windows, Android, and iOS applications, all of which were "properly fixed" by Proton VPN before the reports were published. None of the issues identified would have provided an attacker remote access to your device or traffic. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit). A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton VPN's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
+في يناير 2020، أُجري تدقيق أمني مستقل لخدمة Proton VPN من قبل شركة SEC Consult المتخصصة. SEC Consult found some medium and low risk vulnerabilities in Proton VPN's Windows, Android, and iOS applications, all of which were "properly fixed" by Proton VPN before the reports were published. None of the issues identified would have provided an attacker remote access to your device or traffic. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit). A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton VPN's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
 
 #### :material-check:{ .pg-green } Open-Source Clients
 
@@ -163,9 +163,9 @@ IVPN has [servers in 37 countries](https://ivpn.net/status).(1) Picking a VPN pr
 
 1. Last checked: 2024-08-06
 
-We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+استخدام [خادم مخصص](https://en.wikipedia.org/wiki/Dedicated_hosting_service) يعني أن الشركة تملك الخادم وتتحكم فيه بالكامل، مما يقلل من خطر تسريب البيانات أو تعرضها للاختراق مقارنة [بخوادم مشتركة (VPS)](https://en.wikipedia.org/wiki/Virtual_private_server) تُستخدم من عدة عملاء.
 
-#### :material-check:{ .pg-green } Independently Audited
+#### :material-check:{ .pg-green } تمت مراجعته من جهة مستقلة
 
 IVPN has had multiple [independent audits](https://ivpn.net/en/blog/tags/audit) since 2019 and has publicly announced their commitment to [annual security audits](https://ivpn.net/blog/ivpn-apps-security-audit-concluded).
 
@@ -238,9 +238,9 @@ Mullvad has [servers in 49 countries](https://mullvad.net/servers).(1) Picking a
 
 1. Last checked: 2025-03-10
 
-We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+استخدام [خادم مخصص](https://en.wikipedia.org/wiki/Dedicated_hosting_service) يعني أن الشركة تملك الخادم وتتحكم فيه بالكامل، مما يقلل من خطر تسريب البيانات أو تعرضها للاختراق مقارنة [بخوادم مشتركة (VPS)](https://en.wikipedia.org/wiki/Virtual_private_server) تُستخدم من عدة عملاء.
 
-#### :material-check:{ .pg-green } Independently Audited
+#### :material-check:{ .pg-green } تمت مراجعته من جهة مستقلة
 
 Mullvad has had multiple [independent audits](https://mullvad.net/en/blog/tag/audits) and has publicly announced their endeavors to conduct [annual audits](https://mullvad.net/en/blog/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) of their apps and infrastructure.
 
