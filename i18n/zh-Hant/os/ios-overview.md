@@ -81,9 +81,9 @@ At the top of the **Settings** app, you'll see your name and profile picture if 
 
 #### Wi-Fi
 
-You can enable [hardware address randomization](https://support.apple.com/en-us/102509#triswitch) to protect you from tracking across Wi-Fi networks, and on the same network over time. On the network you are currently connected to, tap the :material-information: button:
+您可以啟用[硬體位址隨機化](https://support.apple.com/en-us/102509#triswitch)，以保護您不會受到跨 Wi-Fi 網路追蹤，以及在同一個網路中長時間被追蹤。 在目前連線的網路中，點選 :material-information: 按鈕：
 
-- [x] Set **Private Wi-Fi Address** to **Fixed** or **Rotating**
+- [x] 將**專用 Wi-Fi 位址**設定為**固定**或**輪替**
 
 您也可以選擇 **限制 IP 位址追蹤**。 這與 iCloud Private Relay 類似，但僅影響與“已知跟踪器”的連接。 因為它只影響與潛在惡意伺服器的連接，所以啟用此設定應該沒問題，但如果不希望*任何*流量通過 Apple 的伺服器路由，則可把它關掉。
 
@@ -99,19 +99,19 @@ Note that Bluetooth is automatically turned on after every system update.
 
 預設情況中，您的 iPhone 裝置名稱將包含您的名字，所連接的網路中的其它人都可以看到該名稱。 所以應該將其更改為更一般的名稱，例如“iPhone”。 Select **About** → **Name** and enter the device name you prefer.
 
-經常安裝 **軟體更新** 以獲得最新的安全修復非常重要。 您可以啟用 **自動更新** ，以保持手機最新，而無需不斷檢查更新。 Select **Software Update** → **Automatic Updates**:
+經常安裝 **軟體更新** 以獲得最新的安全修復非常重要。 您可以啟用 **自動更新** ，以保持手機最新，而無需不斷檢查更新。 選擇**軟體更新**→**自動更新**：
 
-- [x] 打開 **下載 iOS 更新**
-- [x] 打開 **安裝 iOS 更新**
-- [x] 打開 **安全應變 & 系統檔**
+- [x] 打開 **（自動下載類別）iOS 更新項目**
+- [x] 打開 **（自動安裝類別） iOS 更新項目**
+- [x] 打開 **安全回應與系統檔案**
 
 **AirDrop** is commonly used to easily share files, but it represents a significant privacy risk. The AirDrop protocol constantly broadcasts your personal information to your surroundings, with [very weak](https://usenix.org/system/files/sec21-heinrich.pdf) security protections. Your identity can easily be discovered by attackers even with limited resources, and the Chinese government has [openly acknowledged](https://arstechnica.com/security/2024/01/hackers-can-id-unique-apple-airdrop-users-chinese-authorities-claim-to-do-just-that) using such techniques to identify AirDrop users in public since 2022.
 
-- [x] Select **AirDrop** → **Receiving Off**
+- [x] 選取 **AirDrop**→**關閉接收**
 
-**AirPlay** 可讓您將內容從 iPhone 無縫串流到電視； 然而，您可能並不會想要一直維持這樣。 Select **AirPlay & Continuity** → **Automatically AirPlay**:
+**AirPlay** 可讓您將內容從 iPhone 無縫串流到電視； 然而，您可能並不會想要一直維持這樣。 選擇 **AirPlay 與接續互通**→**自動 AirPlay**：
 
-- [x] 選擇 **絕不** 或 **詢問**
+- [x] 選擇 **永不** 或 **詢問**
 
 **背景 App 重新整理**可將應用程式在不使用時刷新其內容。 這可能會導致它們建立不必要的連接。 Turning this off can also save battery life, but may affect an app's ability to receive updated information, particularly weather and messaging apps.
 
@@ -127,7 +127,7 @@ Note that Bluetooth is automatically turned on after every system update.
 
 在手機上設定強密碼是確保設備物理安全的最重要步驟。 You'll have to make trade-offs here between security and convenience: A longer password will be annoying to type in every time, but a shorter password or PIN will be easier to guess. 設定 Face ID 或 Touch ID 以及強密碼可以在可用性和安全性之間實現良好折衷。
 
-Select **Turn Passcode On** or **Change Passcode** → **Passcode Options** → **Custom Alphanumeric Code**. 確認建立[安全密碼](../basics/passwords-overview.md)。
+選擇**開啟密碼**或**更改密碼**→**密碼選項**→**自訂英數密碼**。 確認建立[安全密碼](../basics/passwords-overview.md)。
 
 如果想使用 Face ID 或 Touch ID，可以立即進行設定。 您的手機將使用之前設定的密碼作為後備密碼，以防生物識別驗證失敗。 生物識別解鎖方法主要是便利，雖然它們確實可以阻止監控攝像頭或身旁的人看到您所輸入的密碼。
 
