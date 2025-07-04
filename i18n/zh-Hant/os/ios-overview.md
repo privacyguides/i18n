@@ -56,7 +56,7 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 #### 媒體 & 購買項目
 
-At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple Account. Select that, then select **Media & Purchases** → **View Account**.
+At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple Account. 選取該項目，然後選擇**媒體與購買項目**→**檢視帳號**。
 
 - [ ] 關閉 **個人化推薦**
 
@@ -69,7 +69,7 @@ At the top of the **Settings** app, you'll see your name and profile picture if 
 
 設備有連線且遠程使用“尋找 iPhone”來定位您的設備，則位置資料不是 E2EE。 您必須決定權衡是否值得激活防盜鎖。
 
-At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple Account. 選取這項然後再選 **尋找**。 此處您可以選擇是否啟用或禁用“查找設備”功能。
+在 **設定** 應用程式的頂端，如果您登入了 Apple 帳戶，您會看到您的姓名和個人檔案圖片。 選取這項然後再選 **尋找**。 此處您可以選擇是否啟用或禁用“尋找設備”功能。
 
 ### 設定
 
@@ -191,8 +191,8 @@ iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長�
 
 如不想發送 Apple 使用資料，應該禁用該分析。 選擇 **分析與改進功能**：
 
-- [ ] 關閉**分享 iPhone 分析** 或**分享 iPhone & 觀看分析**
-- [ ] 關閉 **分享 iCloud 數據分析**
+- [ ] 關閉**分享 iPhone 分析** 或 **分享 iPhone & Watch 分析**
+- [ ] 關閉 **分享 iCloud 分析**
 - [ ] 關閉 **改善 Fitness+**
 - [ ] 關閉 **改進安全性**
 - [ ] 關閉 **改進 Siri 與聽寫**
@@ -227,7 +227,7 @@ The [color of the message bubble](https://support.apple.com/en-us/104972) in the
 
 When an app prompts you for access to your device's photo library, iOS provides you with options to limit what an app can access.
 
-Rather than allow an app to access all the photos on your device, you can allow it to only access whichever photos you choose by tapping the "Select Photos..." option in the permission dialog. You can change photo access permissions at any time by navigating to **Settings** → **Privacy & Security** → **Photos**.
+Rather than allow an app to access all the photos on your device, you can allow it to only access whichever photos you choose by tapping the "Select Photos..." option in the permission dialog. 您可以隨時瀏覽**設定**→**隱私權與安全性**→**照片**，以變更照片存取權限。
 
 ![Photo Permissions](../assets/img/ios/photo-permissions-light.png#only-light) ![Photo Permissions](../assets/img/ios/photo-permissions-dark.png#only-dark)
 
