@@ -89,13 +89,13 @@ global:
 
 #### :material-check:{ .pg-green } WireGuard Support
 
-يدعم Proton VPN بروتوكول WireGuard. [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). Additionally, WireGuard aims to be simpler and more performant.
+يدعم Proton VPN بروتوكول WireGuard. [WireGuard](https://wireguard.com) هو بروتوكول VPN جديد نسبيا، ويعتمد على [تشفير حديث ومتطور](https://wireguard.com/protocol) يوفّر أمانًا عاليا وكفاءة في الأداء. ويتميز WireGuard أيضا بتصميمه البسيط وأدائه العالي، مقارنة ببروتوكولات VPN التقليدية.
 
-Proton VPN [recommends](https://protonvpn.com/blog/wireguard) the use of WireGuard with their service. Proton VPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
+توصي Proton VPN بـ[استخدام بروتوكول WireGuard](https://protonvpn.com/blog/wireguard) مع خدمتها. توفّر Proton VPN أيضًا أداة لإنشاء إعدادات مخصصة لبروتوكول WireGuard، يمكن استخدامها مع [تطبيقات WireGuard الرسمية](https://wireguard.com/install). <br> **ملاحظة**: قد تحتاج إلى هذه الأداة إذا كنت تفضل استخدام تطبيق WireGuard الرسمي بدلا من تطبيق Proton VPN، أو إذا كنت تستخدم نظام تشغيل لا يتوفر عليه تطبيق Proton VPN مباشرة.
 
 #### :material-alert-outline:{ .pg-orange } Limited IPv6 Support
 
-Proton [now supports IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks) in their browser extension and Linux client, but only 80% of their servers are IPv6-compatible. On other platforms, the Proton VPN client will block all outgoing IPv6 traffic, so you don't have to worry about your IPv6 address being leaked, but you will not be able to connect to any IPv6-only sites, nor will you be able to connect to Proton VPN from an IPv6-only network.
+تدعم Proton حاليا ب[روتوكول IPv6 ](https://protonvpn.com/support/prevent-ipv6-vpn-leaks)في إضافة المتصفح (browser extension) ونسخة Linux، ولكن يجدر الانتباه إلى أن حوالي 20٪ من خوادمها لا تزال غير متوافقة مع هذا البروتوكول. تطبيق Proton VPN يحميك من تسريب عنوان IPv6 على معظم الأنظمة عن طريق حظر هذا النوع من الاتصال. لكن نتيجة لذلك، لن تتمكن من زيارة مواقع تعتمد على IPv6 فقط، أو الاتصال بالخدمة من شبكة لا تدعم سوى IPv6.
 
 #### :material-information-outline:{ .pg-info } Remote Port Forwarding
 
@@ -179,7 +179,7 @@ In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **
 
 #### :material-check:{ .pg-green } WireGuard Support
 
-IVPN supports the WireGuard® protocol. [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). Additionally, WireGuard aims to be simpler and more performant.
+IVPN supports the WireGuard® protocol. [WireGuard](https://wireguard.com) هو بروتوكول VPN جديد نسبيا، ويعتمد على [تشفير حديث ومتطور](https://wireguard.com/protocol) يوفّر أمانًا عاليا وكفاءة في الأداء. ويتميز WireGuard أيضا بتصميمه البسيط وأدائه العالي، مقارنة ببروتوكولات VPN التقليدية.
 
 IVPN [recommends](https://ivpn.net/wireguard) the use of WireGuard with their service and, as such, the protocol is the default on all of IVPN's apps. IVPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
 
@@ -254,7 +254,7 @@ Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin
 
 #### :material-check:{ .pg-green } WireGuard Support
 
-Mullvad supports the WireGuard® protocol. [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). Additionally, WireGuard aims to be simpler and more performant.
+Mullvad supports the WireGuard® protocol. [WireGuard](https://wireguard.com) هو بروتوكول VPN جديد نسبيا، ويعتمد على [تشفير حديث ومتطور](https://wireguard.com/protocol) يوفّر أمانًا عاليا وكفاءة في الأداء. ويتميز WireGuard أيضا بتصميمه البسيط وأدائه العالي، مقارنة ببروتوكولات VPN التقليدية.
 
 Mullvad [recommends](https://mullvad.net/en/help/why-wireguard) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
 
