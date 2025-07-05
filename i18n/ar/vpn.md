@@ -99,7 +99,7 @@ global:
 
 #### :material-information-outline:{ .pg-info } Remote Port Forwarding
 
-Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding) via NAT-PMP, with 60 second lease times. The official Windows and Linux apps provide an easy-to-access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup). Torrent applications often support NAT-PMP natively.
+تدعم Proton VPN حاليا فقط [Port Forwarding ](https://protonvpn.com/support/port-forwarding)المؤقت (ephemeral) عن بعد باستخدام بروتوكول NAT-PMP، مع مدة صلاحية قصيرة تبلغ 60 ثانية لكل منفذ. The official Windows and Linux apps provide an easy-to-access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup). Torrent applications often support NAT-PMP natively.
 
 #### :material-information-outline:{ .pg-blue } Anti-Censorship
 
