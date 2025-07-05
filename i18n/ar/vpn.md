@@ -101,9 +101,9 @@ global:
 
 تدعم Proton VPN حاليا فقط [Port Forwarding ](https://protonvpn.com/support/port-forwarding)المؤقت (ephemeral) عن بعد باستخدام بروتوكول NAT-PMP، مع مدة صلاحية قصيرة تبلغ 60 ثانية لكل منفذ. تطبيقات Proton VPN الرسمية على نظامي Windows وLinux توفّر خيار Port Forwarding بطريقة سهلة ومباشرة. أما على الأنظمة الأخرى، فستحتاج إلى تشغيل [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup) يدويا — وهو برنامج صغير يُستخدم للتواصل مع جهاز الراوتر لطلب فتح منفذ بشكل مؤقت. العديد من تطبيقات التورنت تحتوي على دعم مدمج لـ NAT-PMP، مما يتيح لها طلب فتح المنافذ تلقائيا من الراوتر أو خدمة الـ VPN دون تدخل يدوي.
 
-#### :material-information-outline:{ .pg-blue } Anti-Censorship
+#### :material-information-outline:{ .pg-blue } مقاومة الرقابة
 
-Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol) protocol which *may* help in situations where VPN protocols like OpenVPN or WireGuard are blocked with various rudimentary techniques. Stealth encapsulates the VPN tunnel in TLS session in order to look like more generic internet traffic.
+تمتلك Proton VPN بروتوكولا خاصا يُعرف باسم [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol)، والذي *قد* يساعد في تجاوز الرقابة في الحالات التي يتم فيها حظر بروتوكولات VPN التقليدية مثل OpenVPN أو WireGuard باستخدام أساليب بسيطة. بروتوكول Stealth يخفي اتصال VPN من خلال تمريره داخل TLS session (وهي نفس التقنية التي تُستخدم في تأمين مواقع الويب العادية مثل HTTPS)، مما يجعل حركة البيانات تبدو مثل أي تصفح عادي، ويساعد في تجاوز أنظمة الحجب التي تميز أو تمنع الـ VPN.
 
 Unfortunately, it does not work very well in countries where sophisticated filters that analyze all outgoing traffic in an attempt to discover encrypted tunnels are deployed. Stealth is available on Android, iOS, Windows, and macOS, but it's not yet available on Linux.
 
