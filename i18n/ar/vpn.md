@@ -77,15 +77,15 @@ global:
 
 #### :material-check:{ .pg-green } تمت مراجعته من جهة مستقلة
 
-في يناير 2020، أُجري تدقيق أمني مستقل لخدمة Proton VPN من قبل شركة SEC Consult المتخصصة. اكتشفت شركة SEC Consult بعض الثغرات الأمنية متوسطة ومنخفضة الخطورة في تطبيقات Proton VPN على أنظمة ويندوز وأندرويد وiOS، وقد قامت Proton VPN بـ"معالجتها بالشكل المناسب" قبل نشر تقارير التدقيق. None of the issues identified would have provided an attacker remote access to your device or traffic. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit). A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton VPN's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
+في يناير 2020، أُجري تدقيق أمني مستقل لخدمة Proton VPN من قبل شركة SEC Consult المتخصصة. اكتشفت شركة SEC Consult بعض الثغرات الأمنية متوسطة ومنخفضة الخطورة في تطبيقات Proton VPN على أنظمة ويندوز وأندرويد وiOS، وقد قامت Proton VPN بـ"معالجتها بالشكل المناسب" قبل نشر تقارير التدقيق. جميع الثغرات التي تم العثور عليها كانت محدودة التأثير، ولم تُمكن أي جهة من الوصول عن بُعد إلى جهازك أو اعتراض حركة الإنترنت الخاصة بك. لقراءة تقارير التدقيق لكل نظام تشغيل على حدة، تفضل بزيارة [protonvpn.com](https://protonvpn.com/blog/open-source). أجرت Proton VPN [تدقيقا جديدًا](https://protonvpn.com/blog/no-logs-audit) في أبريل 2022 لتعزيز الشفافية والثقة. في 9 نوفمبر 2021، أصدرت شركة [Securitum](https://research.securitum.com) [شهادة إثبات](https://research.securitum.com) تؤكد نتائج تدقيق أمني أُجري لتطبيقات Proton VPN.
 
-#### :material-check:{ .pg-green } Open-Source Clients
+#### :material-check:{ .pg-green } العملاء الذين يستخدمون برامج مفتوحة المصدر
 
-Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
+تنشر Proton VPN الـ Source code لتطبيقاتها (على الحاسوب والهاتف) بشكل علني ضمن [منظمتها على GitHub](https://github.com/ProtonVPN)، مما يتيح للمجتمع مراجعتها والتأكد من أمانها.
 
-#### :material-check:{ .pg-green } Accepts Cash
+#### :material-check:{ .pg-green } يقبل الدفع نقدا
 
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
+إلى جانب قبول بطاقات الـ credit/debit وPayPal، و[البيتكوين](advanced/payments.md#other-coins-bitcoin-ethereum-etc)، تقبل Proton VPN أيضا **الدفع نقدًا** كوسيلة دفع مجهولة الهوية.
 
 #### :material-check:{ .pg-green } WireGuard Support
 
@@ -169,7 +169,7 @@ IVPN has [servers in 37 countries](https://ivpn.net/status).(1) Picking a VPN pr
 
 IVPN has had multiple [independent audits](https://ivpn.net/en/blog/tags/audit) since 2019 and has publicly announced their commitment to [annual security audits](https://ivpn.net/blog/ivpn-apps-security-audit-concluded).
 
-#### :material-check:{ .pg-green } Open-Source Clients
+#### :material-check:{ .pg-green } العملاء الذين يستخدمون برامج مفتوحة المصدر
 
 As of February 2020 [IVPN applications are now open source](https://ivpn.net/blog/ivpn-applications-are-now-open-source). Source code can be obtained from their [GitHub organization](https://github.com/ivpn).
 
@@ -244,7 +244,7 @@ Mullvad has [servers in 49 countries](https://mullvad.net/servers).(1) Picking a
 
 Mullvad has had multiple [independent audits](https://mullvad.net/en/blog/tag/audits) and has publicly announced their endeavors to conduct [annual audits](https://mullvad.net/en/blog/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) of their apps and infrastructure.
 
-#### :material-check:{ .pg-green } Open-Source Clients
+#### :material-check:{ .pg-green } العملاء الذين يستخدمون برامج مفتوحة المصدر
 
 Mullvad provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/mullvad/mullvadvpn-app).
 
