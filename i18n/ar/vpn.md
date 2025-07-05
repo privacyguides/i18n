@@ -77,7 +77,7 @@ global:
 
 #### :material-check:{ .pg-green } تمت مراجعته من جهة مستقلة
 
-في يناير 2020، أُجري تدقيق أمني مستقل لخدمة Proton VPN من قبل شركة SEC Consult المتخصصة. SEC Consult found some medium and low risk vulnerabilities in Proton VPN's Windows, Android, and iOS applications, all of which were "properly fixed" by Proton VPN before the reports were published. None of the issues identified would have provided an attacker remote access to your device or traffic. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit). A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton VPN's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
+في يناير 2020، أُجري تدقيق أمني مستقل لخدمة Proton VPN من قبل شركة SEC Consult المتخصصة. اكتشفت شركة SEC Consult بعض الثغرات الأمنية متوسطة ومنخفضة الخطورة في تطبيقات Proton VPN على أنظمة ويندوز وأندرويد وiOS، وقد قامت Proton VPN بـ"معالجتها بالشكل المناسب" قبل نشر تقارير التدقيق. None of the issues identified would have provided an attacker remote access to your device or traffic. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit). A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton VPN's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
 
 #### :material-check:{ .pg-green } Open-Source Clients
 
