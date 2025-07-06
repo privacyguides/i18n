@@ -245,23 +245,23 @@ Ces options se trouvent dans :material-menu: -> :gear: **Paramètres** -> **Vie 
 
 Cela vous empêche de vous connecter involontairement à un site Web en "clair" HTTP. Les sites sans HTTPS sont rares de nos jours. Cela ne devrait donc avoir que peu ou pas d'impact sur votre navigation quotidienne.
 
-#### Adblock Plus settings
+#### Paramètres d'Adblock Plus
 
-These options can be found in :material-menu: → :gear: **Settings** → **Adblock Plus settings**.
+Ces options se trouvent dans :material-menu: → :gear:**Paramètres** → **Paramètres d'Adblock Plus**.
 
-Cromite contains a customized version of Adblock Plus with EasyList enabled by default, as well as options to select more filter lists within the **Filter lists** menu.
+Cromite inclus une version personnalisée d'Adblock Plus avec EasyList activé par défaut, ainsi que des options pour sélectionner d'autres listes de filtres dans le menu **Listes de filtres**.
 
-Using extra lists will make you stand out from other Cromite users and may also increase attack surface if a malicious rule is added to one of the lists you use.
+L'utilisation de listes supplémentaires vous distinguera des autres utilisateurs de Brave et peut également augmenter la surface d'attaque s'il y a une faille dans Brave et qu'une règle malveillante est ajoutée à l'une des listes que vous utilisez.
 
-- \[x\] (Optional) Select **Enable anti-circumvention and snippets**
+- \[x\] (Facultatif) Sélectionnez **Activer l'anti-contournement et les snippets**
 
-This setting adds an additional Adblock Plus list that may increase the effectiveness of Cromite's content blocking. The warnings about standing out and potentially increasing attack surface apply.
+Ce paramètre ajoute une liste Adblock Plus supplémentaire qui peut augmenter l'efficacité du blocage de contenu de Cromite. Les mises en garde concernant le fait de se démarquer et d'augmenter potentiellement la surface d'attaque s'appliquent.
 
 #### Legacy Adblock settings
 
 These options can be found in :material-menu: → :gear: **Settings** → **Legacy Adblock settings**.
 
-- [ ] Uncheck the autoupdate setting
+- [ ] Décocher le paramètre de mise à jour automatique
 
 This disables update checks for the unmaintained Bromite adblock filter.
 
