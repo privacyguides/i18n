@@ -1,11 +1,11 @@
 ---
-title: Базовые приложения
+title: "Базовые приложения"
 description: Приложения, упомянутые здесь, разработаны исключительно для Android и ориентированы на улучшение или замену основных функций операционной системы.
 schema:
   - "@context": http://schema.org
     "@type": WebPage
     name: General Android Apps
-    url: ./
+    url: "./"
   - "@context": http://schema.org
     "@type": MobileApplication
     name: Shelter

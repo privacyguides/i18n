@@ -58,7 +58,7 @@ description: Ваша приватность никогда не была сто
 
 Приватность должна быть встроена по умолчанию в [программы и сервисы](../tools.md), которые мы используем, у вас нет возможности самостоятельно настроить большинство приложений на приватность.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
+[:material-movie-open-play-outline: Видео: 5 способов повысить вашу конфиденциальность](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 
 ## Источники
 

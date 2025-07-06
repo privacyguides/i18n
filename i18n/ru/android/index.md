@@ -1,13 +1,13 @@
 ---
-title: Android
+title: "Android"
 description: Our advice for replacing privacy-invasive default Android features with private and secure alternatives.
-icon: simple/android
+icon: 'simple/android'
 cover: android.webp
 schema:
   - "@context": http://schema.org
     "@type": WebPage
     name: Android Recommendations
-    url: ./
+    url: "./"
   - "@context": http://schema.org
     "@type": CreativeWork
     name: Android
@@ -38,7 +38,7 @@ There are also many private alternatives to the apps that come pre-installed on 
 
 When you buy an Android phone, the default operating system comes bundled with apps and functionality that are not part of the Android Open Source Project. Many of these apps—even apps like the dialer which provide basic system functionality—require invasive integrations with Google Play Services, which in turn asks for privileges to access your files, contacts storage, call logs, SMS messages, location, camera, microphone, and numerous other things on your device in order for those basic system apps and many other apps to function in the first place. Frameworks like Google Play Services increase the attack surface of your device and are the source of various privacy concerns with Android.
 
-This problem could be solved by using an alternative Android distribution, commonly known as a _custom ROM_, that does not come with such invasive integration. К сожалению, многие кастомные дистрибутивы Android часто нарушают модель безопасности Android, не поддерживая критические функции безопасности, такие как AVB, защита rollback, обновления прошивки и так далее. Some distributions also ship [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) builds which expose root via [ADB](https://developer.android.com/studio/command-line/adb) and require more permissive SELinux policies to accommodate debugging features, resulting in a further increased attack surface and weakened security model.
+This problem could be solved by using an alternative Android distribution, commonly known as a _custom ROM_, that does not come with such invasive integration. К сожалению, многие кастомные дистрибутивы Android часто нарушают модель безопасности Android, не поддерживая критические функции безопасности, такие как AVB, защита rollback, обновления прошивки и так далее. Some distributions also ship [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) builds which expose root via [ADB](https://developer.android.com/studio/command-line/adb) and require [more permissive](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux policies to accommodate debugging features, resulting in a further increased attack surface and weakened security model.
 
 В идеале, при выборе кастомного дистрибутива Android, вы должны убедиться, что он поддерживает модель безопасности Android. At the very least, the distribution should have production builds, support for AVB, rollback protection, timely firmware and operating system updates, and SELinux in [enforcing mode](https://source.android.com/security/selinux/concepts#enforcement_levels). All of our recommended Android distributions satisfy these criteria:
 

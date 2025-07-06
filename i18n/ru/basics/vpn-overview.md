@@ -5,16 +5,16 @@ icon: material/vpn
 description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
 ---
 
-Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world.
+Виртуальные частные сети позволяют перенести выход вашей сети в любую точку мира.
 
 [:material-movie-open-play-outline: Нужен ли вам VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
 
-Normally, an ISP can see the flow of internet traffic entering and exiting your network termination device (i.e. modem). Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+Обычно провайдер может видеть поток интернет-трафика, входящего и выходящего сетевого устройства (т.е. модема). В интернете широко используются протоколы шифрования, такие как HTTPS, поэтому интернет-провайдеры не могут видеть, что именно Вы публикуете или читаете, но они могут получить представление о [посещаемых вами доменах](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
-Using a VPN hides even this information from your ISP, by shifting the trust you place in your network to a server somewhere else in the world. As a result, the ISP then only sees that you are connected to a VPN and nothing about the activity that you're passing through it.
+VPN скрывает даже эту информацию от Вашего провайдера, перенося точку выхода на сервер в другой точке мира. В результате провайдер видит только то, что Вы подключены к VPN, и не знает, что Вы делаете через VPN.
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Заметка</p>
+<p class="admonition-title">Примечание</p>
 
 When we refer to "Virtual Private Networks" on this website, we are usually referring to **commercial** [VPN providers](../vpn.md), who you pay a monthly fee to in exchange for routing your internet traffic securely through their public servers. There are many other forms of VPN, such as ones you host yourself or ones operated by workplaces which allow you to securely connect to internal/employee network resources, however, these VPNs are usually designed for accessing remote networks securely, rather than protecting the privacy of your internet connection.
 
@@ -26,9 +26,9 @@ VPNs encrypt your traffic between your device and a server owned by your VPN pro
 
 ``` mermaid
 flowchart LR
- 763931["Your Device<div>(with VPN Client)</div>"] ===|"VPN Encryption"| 404512{"VPN Server"}
- 404512 -.-|"No VPN Encryption"| 593753(("The Internet<div>(Your Destination)</div>"))
- subgraph 763931["Your Device<div>(with VPN Client)</div>"]
+ 763931["Ваше устройство<div>(клиент VPN)</div>"] ===|"Шифрование VPN"| 404512{"Сервер VPN"}
+ 404512 -.-|"Без шифрования VPN"| 593753(("Интернет<div>(Пункт назначения)</div>"))
+ subgraph 763931["Ваше устройство<div>(Клиент VPN)</div>"]
  end
 ```
 
@@ -36,12 +36,12 @@ Note that a VPN does not add any security or encryption to your traffic between 
 
 ## Следует ли мне использовать VPN?
 
-**Да**, почти наверняка. VPN имеет множество преимуществ, в том числе:
+**Да**, почти наверняка. VPN позволяет:
 
 1. Скрывать ваш трафик **только** от вашего интернет-провайдера.
 1. Скрывать ваши загрузки (например, торренты) от провайдера и антипиратских организаций.
-1. Hiding your IP from third-party websites and services, helping you blend in and preventing IP based tracking.
-1. Allowing you to bypass geo-restrictions on certain content.
+1. Скрывать ваш IP от сторонних веб-сайтов и служб, маскируясь и предотвращая отслеживание по IP.
+1. Обходить гео-ограничения на определённый контент.
 
 VPNs can provide *some* of the same benefits Tor provides, such as hiding your IP from the websites you visit and geographically shifting your network traffic, and good VPN providers will not cooperate with e.g. legal authorities from oppressive regimes, especially if you choose a VPN provider outside your own jurisdiction.
 
