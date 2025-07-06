@@ -47,7 +47,7 @@ VPNs can provide *some* of the same benefits Tor provides, such as hiding your I
 
 VPNs cannot encrypt data outside the connection between your device and the VPN server. VPN providers can also see and modify your traffic the same way your ISP could, so there is still a level of trust you are placing in them. И нет никакого способа проверить политику VPN-провайдера "без ведения логов".
 
-## When isn't a VPN suitable?
+## Когда не стоит использовать VPN?
 
 Using a VPN in cases where you're using your [real-life or well-known identity](common-misconceptions.md#complicated-is-better) online is unlikely to be useful. Это может привести к срабатыванию систем обнаружения спама и мошенничества, например, если вы зашли на сайт своего банка.
 
