@@ -5,7 +5,7 @@ description: Scopri come condividere privatamente i tuoi file tra i tuoi disposi
 cover: file-sharing.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protezione dalle seguenti minacce:</small>
 
 - [:material-server-network: Fornitori di Servizi](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
@@ -13,7 +13,7 @@ Scopri come condividere privatamente i tuoi file tra i tuoi dispositivi, con i t
 
 ## Condivisione di file
 
-If you already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarden](passwords.md#bitwarden) Premium[^2] subscription, consider using the file sharing capabilities that they each offer, both of which use end-to-end encryption. Otherwise, the standalone options listed here ensure that the files you share are not read by a remote server.
+Se già utilizzi [Proton Drive](cloud.md#proton-drive)[^1] oppure hai un abbonamento premium a [Bitwarden](passwords.md#bitwarden)[^2] consigliamo di utilizzare le funzionalità di condivisione che questi offrono, entrambi usano la crittografia end-to-end. Altrimenti le applicazioni autonome qui elencate garantiscono che i file che condividi non vengano letti da un server remoto.
 
 ### Send
 
@@ -43,9 +43,9 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 <div class="admonition recommendation" markdown>
 
-![OnionShare logo](assets/img/file-sharing-sync/onionshare.svg){ align=right }
+![Logo di OnionShare](assets/img/file-sharing-sync/onionshare.svg){ align=right }
 
-**OnionShare** is an open-source tool that lets you securely and [:material-incognito: anonymously](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } share a file of any size. Funziona avviando un server web accessibile come servizio Tor onion, con un URL inesplicabile che si può condividere con i destinatari per scaricare o inviare file.
+**OnionShare** è uno strumento open-source che ti consente di condividere file di ogni dimensione in modo sicuro e [:material-incognito: anonimo](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }. Funziona avviando un server web accessibile come servizio Tor onion, con un URL inesplicabile che si può condividere con i destinatari per scaricare o inviare file.
 
 [:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Servizio Onion" }
@@ -53,7 +53,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:fontawesome-brands-windows: Windows](https://onionshare.org/#download)
 - [:simple-apple: macOS](https://onionshare.org/#download)
@@ -64,7 +64,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 </div>
 
-OnionShare provides the option to connect via [Tor bridges](https://docs.onionshare.org/2.6.2/en/tor.html#automatic-censorship-circumvention) to circumvent [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}.
+OnionShare offre la possibilità di connettersi tramite i [Ponti Tor](https://docs.onionshare.org/2.6.2/en/tor.html#automatic-censorship-circumvention) per aggirare la [:material-close-outline: Censura](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}.
 
 ### Criteri
 
@@ -97,9 +97,9 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 
 <div class="admonition recommendation" markdown>
 
-![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ align=right }
+![Logo di Nextcloud](assets/img/document-collaboration/nextcloud.svg){ align=right }
 
-**Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
+**Nextcloud** è una suite di software libero e open source sia lato client che lato server per creare il tuo servizio di archiviazione file su un server che controlli.
 
 [:octicons-home-16: Pagina Principale](https://nextcloud.com/it/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://nextcloud.com/it/privacy/){ .card-link title="Politica sulla Privacy" }
@@ -108,7 +108,7 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 [:octicons-heart-16:](https://nextcloud.com/it/contribute/){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
@@ -142,7 +142,7 @@ Sconsigliamo di utilizzare l'[App E2EE](https://apps.nextcloud.com/apps/end_to_e
 [:octicons-heart-16:](https://syncthing.net/donations){ .card-link title=Contribuisci }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Scarica</summary>
 
 - [:fontawesome-brands-windows: Windows](https://syncthing.net/downloads)
 - [:simple-apple: macOS](https://syncthing.net/downloads)
@@ -167,8 +167,8 @@ Sconsigliamo di utilizzare l'[App E2EE](https://apps.nextcloud.com/apps/end_to_e
 
 I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto perfetto in questa categoria. I nostri consigli potrebbero non includere tutte o alcune di queste funzionalità, ma quelli che le includono potrebbero essere preferiti ad altri su questa pagina.
 
-- Should have mobile clients for iOS and Android which at least support document previews.
-- Should support photo backups from iOS and Android, and optionally support file/folder sync on Android.
+- Dovrebbe avere client mobile per iOS e Android che supporta almeno le anteprime dei documenti.
+- Dovrebbe supportare il backup delle foto da iOS e Android e opzionalmente supportare la sincronizzazione di file/cartelle su Android.
 
-[^1]: Proton Drive allows you to [share files or folders](https://proton.me/support/drive-shareable-link) by generating a shareable public link or sending a unique link to a designated email address. Public links can be protected with a password, set to expire, and completely revoked, while links shared via email can have custom permissions and be similarly revoked. Per Proton Drive's [privacy policy](https://proton.me/drive/privacy-policy), file contents, file and folder names, and thumbnail previews are end-to-end encrypted.
-[^2]: With a [premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) subscription, [Bitwarden Send](https://bitwarden.com/products/send) allows you to share files and text securely with [end-to-end encryption](https://bitwarden.com/help/send-encryption). A [password](https://bitwarden.com/help/send-privacy/#send-passwords) can be required along with the Send link. Bitwarden Send also features [automatic deletion](https://bitwarden.com/help/send-lifespan).
+[^1]: Proton Drive ti consente di [condividere file e cartelle](https://proton.me/support/drive-shareable-link) generando un link pubblico condivisibile o inviando un link unico ad un indirizzo email specifico. I link pubblici possono essere protetti con una password, impostati per scadere e possono essere completamente revocati, mentre i link condivisi via email possono avere autorizzazioni personalizzate e possono essere anch'essi revocati. Secondo l'[informativa sulla privacy](https://proton.me/drive/privacy-policy) di Proton Drive il contenuto dei file, il nome dei file e delle cartelle e le anteprime sono crittografate end-to-end.
+[^2]: Con un abbonamento [premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) [Bitwarden Send](https://bitwarden.com/products/send) ti consente di condividere file e testi in modo sicuro con la [crittografia end-to-end](https://bitwarden.com/help/send-encryption). Può essere richiesta una [password](https://bitwarden.com/help/send-privacy/#send-passwords) insieme al link di Send. Bitwarden Send dispone inoltre della [cancellazione automatica](https://bitwarden.com/help/send-lifespan).
