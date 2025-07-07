@@ -6,7 +6,7 @@ description: Una panoramica delle diverse architetture di rete, comunemente util
 
 Esistono svariate architetture di rete, utilizzate comunemente per trasmettere messaggi tra persone. Queste reti possono fornire diverse garanzie per la privacy, per cui vale la pena considerare il tuo [modello di minaccia](../basics/threat-modeling.md), decidendo quale app utilizzare.
 
-[Recommended Instant Messengers](../real-time-communication.md ""){.md-button} [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
+[App di Messaggistica Istantanea Consigliate](../real-time-communication.md ""){.md-button}[:material-movie-open-play-outline: Video: È ora di smettere di usare gli SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
 
 ## Reti Centralizzate
 
@@ -44,7 +44,7 @@ Quando ospitati autonomamente, i membri di un server federato possono scoprire e
 - Consente un maggiore controllo sui propri dati, gestendo il proprio server.
 - Ti consente di scegliere a chi affidare i tuoi dati, scegliendo tra svariati server "pubblici".
 - Consente spesso i client di terze parti, che possono fornire un'esperienza più nativa, personalizzata o accessibile.
-- Server software can be verified that it matches public source code, assuming you have access to the server, or you trust the person who does (e.g., a family member).
+- È possibile verificare che il software del server corrisponda al codice sorgente pubblico, assumendo che tu abbia accesso al server o che ti fidi di chi lo possiede (ad esempio, un familiare).
 
 **Svantaggi:**
 
@@ -60,9 +60,9 @@ Quando ospitati autonomamente, i membri di un server federato possono scoprire e
 
 La messaggistica P2P si connette a una [rete distribuita](https://en.wikipedia.org/wiki/Distributed_networking) di noti per trasmettere un messaggio al destinatario, senza un server di terze parti.
 
-I client (pari), solitamente, si trovano utilizzando una rete di [calcolo distribuita](https://en.wikipedia.org/wiki/Distributed_computing). Esempi di ciò includono le [Tabelle di Hash Distribuite](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), utilizzate ad esempio dai [torrent](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) e da [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System). Another approach is proximity based networks, where a connection is established over Wi-Fi or Bluetooth (for example, Briar or the [Scuttlebutt](https://scuttlebutt.nz) social network protocol).
+I client (pari), solitamente, si trovano utilizzando una rete di [calcolo distribuita](https://en.wikipedia.org/wiki/Distributed_computing). Esempi di ciò includono le [Tabelle di Hash Distribuite](https://en.wikipedia.org/wiki/Distributed_hash_table) (DHT), utilizzate ad esempio dai [torrent](https://en.wikipedia.org/wiki/BitTorrent_(protocol)) e da [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System). Un altro approccio sono le reti basate sulla prossimità, nelle quali una connessione è stabilita via Wi-Fi o Bluetooth (per esempio Briar o il protocollo [Scuttlebutt](https://scuttlebutt.nz) per i social network).
 
-Una volta che un paro ha trovato un percorso al suo contatto tramite uno di questi metodi, una connessione diretta tra di essi è creata. Sebbene i messaggi siano solitamente crittografati, un osservatore potrà comunque dedurre la posizione e l'identità del mittente e del destinatario.
+Una volta che un pari ha trovato un percorso al suo contatto tramite uno di questi metodi, una connessione diretta tra di essi è creata. Sebbene i messaggi siano solitamente crittografati, un osservatore potrà comunque dedurre la posizione e l'identità del mittente e del destinatario.
 
 Le reti P2P non utilizzano i server, poiché i pari comunicano direttamente tra loro e, dunque, non sono ospitabili autonomamente. Tuttavia, alcuni servizi aggiuntivi potrebbero affidarsi ai server centralizzati, come la scoperta dell'utente o la trasmissione di messaggi offline, che possono trarre vantaggio dal hosting autonomo.
 
@@ -85,9 +85,9 @@ Le reti P2P non utilizzano i server, poiché i pari comunicano direttamente tra 
 
 La messaggistica che utilizza l'[instradamento anonimo](https://doi.org/10.1007/978-1-4419-5906-5_628) nasconde l'identità del mittente, del destinatario o le prove che stessero comunicando. Idealmente, un servizio di messaggistica dovrebbe nascondere tutte e tre le cose.
 
-There are [many](https://doi.org/10.1145/3182658) ways to implement anonymous routing. Uno dei più famosi è l'[instradamento onion](https://en.wikipedia.org/wiki/Onion_routing) (cioè, [Tor](tor-overview.md)), che comunic i messaggi crittografati attraverso una [rete di copertura](https://en.wikipedia.org/wiki/Overlay_network), che nasconde la posizione di ogni nodo, oltre che il mittente e destinatario di ogni messaggio. Il mittente e il destinatario non interagiscono mai direttamente e si incontrano esclusivamente tramite un nodo di incontro segreto, così che non si verifichi alcuna fuga di indirizzi IP, o di posizioni fisiche. I nodi non possono decrittografare i messaggi, né la destinazione finale; soltanto il destinatario può farlo. Ogni nodo intermedio può decrittografare soltanto una parte, che indica dove inviare il messaggio ancora crittografato, finché non raggiunge il destinatario, che può decrittografarlo interamente, da cui gli "strati a cipolla."
+Esistono [molti](https://doi.org/10.1145/3182658) modi per implementare il routing anonimo. Uno dei più famosi è l'[instradamento onion](https://en.wikipedia.org/wiki/Onion_routing) (cioè, [Tor](tor-overview.md)), che comunic i messaggi crittografati attraverso una [rete di copertura](https://en.wikipedia.org/wiki/Overlay_network), che nasconde la posizione di ogni nodo, oltre che il mittente e destinatario di ogni messaggio. Il mittente e il destinatario non interagiscono mai direttamente e si incontrano esclusivamente tramite un nodo di incontro segreto, così che non si verifichi alcuna fuga di indirizzi IP, o di posizioni fisiche. I nodi non possono decrittografare i messaggi, né la destinazione finale; soltanto il destinatario può farlo. Ogni nodo intermedio può decrittografare soltanto una parte, che indica dove inviare il messaggio ancora crittografato, finché non raggiunge il destinatario, che può decrittografarlo interamente, da cui gli "strati a cipolla."
 
-Self-hosting a node in an anonymous routing network does not provide the host with additional privacy benefits, but rather contributes to the whole network's resilience against identification attacks for everyone's benefit.
+Il self-hosting di un nodo in una rete di routing anonimo non fornisce benefici aggiuntivi per la privacy di chi lo ospita, piuttosto contribuisce alla resilienza dell'intera rete contro attacchi di identificazione, a vantaggio di tutti.
 
 **Vantaggi:**
 

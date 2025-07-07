@@ -51,9 +51,9 @@ Ente Foto è stata sottoposta a una revisione da parte di [Cure53](https://ente.
 ![Logo di Stingle](assets/img/photo-management/stingle.png#only-light){ align=right }
 ![Logo di Stingle](assets/img/photo-management/stingle-dark.png#only-dark){ align=right }
 
-**Stingle** is a gallery and camera application with built-in, E2EE backup and sync functionality for your photos and videos.
+**Stingle** è un'applicazione con fotocamera e galleria che integra funzionalità di backup e sincronizzazione E2EE per le tue foto e i tuoi video.
 
-Storage starts at 1 GB for free accounts on their cloud, or you can host your own Stingle API server for total independence.
+Lo spazio di archiviazione parte da 1 GB per gli account gratuiti sul loro cloud, oppure puoi ospitare il tuo server API Stingle per una totale indipendenza.
 
 [:octicons-home-16: Homepage](https://stingle.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://stingle.org/privacy){ .card-link title="Informativa sulla Privacy" }
@@ -76,7 +76,7 @@ Storage starts at 1 GB for free accounts on their cloud, or you can host your o
 
 ![Logo di PhotoPrism](assets/img/photo-management/photoprism.svg){ align=right }
 
-**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include E2EE, so it's best hosted on a server that you trust and is under your control.
+**PhotoPrism** è una piattaforma self-hostable per la gestione delle foto. Supporta la sincronizzazione e la condivisione degli album e molte altre [funzioni](https://photoprism.app/features). Non include E2EE, quindi è preferibile che venga ospitato su un server di cui ti fidi e che è sotto il tuo controllo.
 
 [:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Informativa sulla Privacy" }

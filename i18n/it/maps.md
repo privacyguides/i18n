@@ -64,9 +64,9 @@ Tieni presente che Organic Maps è un'app semplice e di base che non include alc
 
 </div>
 
-OsmAnd allows you to overlay or underlay external map data, such as satellite images from Microsoft or [traffic data](https://themm.net/public/osmand_traffic) from Google, although the latter is ignored by the automatic route planning. OsmAnd also has an optional integration of street view images provided by [Mapillary](https://mapillary.com).
+OsmAnd consente di sovrapporre dati cartografici esterni, come le immagini satellitari di Microsoft o [dati sul traffico](https://themm.net/public/osmand_traffic) di Google, anche  se questi ultimi vengono ignorati dalla pianificazione automatica del percorso. OsmAnd dispone anche di un'integrazione opzionale per vedere immagini di vista stradale fornite [Mapillary](https://mapillary.com).
 
-You can find a detailed overview of OsmAnd's supported [features](https://wiki.openstreetmap.org/wiki/OsmAnd#Features) on the OpenStreet Map Wiki.
+Puoi trovare un elenco dettagliato delle [funzioni](https://wiki.openstreetmap.org/wiki/OsmAnd#Features) supportate da OsmAnd sulla Wiki di OpenStreetMap.
 
 ## Criteri
 
