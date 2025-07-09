@@ -105,11 +105,11 @@ global:
 
 تمتلك Proton VPN بروتوكولا خاصا يُعرف باسم [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol)، والذي *قد* يساعد في تجاوز الرقابة في الحالات التي يتم فيها حظر بروتوكولات VPN التقليدية مثل OpenVPN أو WireGuard باستخدام أساليب بسيطة. بروتوكول Stealth يخفي اتصال VPN من خلال تمريره داخل TLS session (وهي نفس التقنية التي تُستخدم في تأمين مواقع الويب العادية مثل HTTPS)، مما يجعل حركة البيانات تبدو مثل أي تصفح عادي، ويساعد في تجاوز أنظمة الحجب التي تميز أو تمنع الـ VPN.
 
-Unfortunately, it does not work very well in countries where sophisticated filters that analyze all outgoing traffic in an attempt to discover encrypted tunnels are deployed. Stealth is available on Android, iOS, Windows, and macOS, but it's not yet available on Linux.
+لكن للأسف، في الدول التي تعتمد تقنيات مراقبة وتحليل متطورة لاكتشاف أي نوع من الاتصالات المشفّرة (مثل الـ VPN)، فإن بروتوكول Stealth لا يكون فعالا بشكل كبير. بروتوكول Stealth متاح على أنظمة أندرويد وiOS وويندوز وmacOS، لكنه غير متوفر بعد على نظام Linux.
 
-#### :material-check:{ .pg-green } Mobile Clients
+#### :material-check:{ .pg-green } عملاء الهاتف المحمول
 
-Proton VPN has published [App Store](https://apps.apple.com/app/id1437005085) and [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/ProtonVPN/android-app/releases).
+توفر Proton VPN تطبيقات رسمية على متجر [App Store](https://apps.apple.com/app/id1437005085) و[Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)، بواجهة استخدام سهلة، فلا تحتاج إلى إعداد اتصال WireGuard يدويا. يتوفر تطبيق Proton VPN لأجهزة أندرويد أيضا على [GitHub](https://github.com/ProtonVPN/android-app/releases).
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">How to opt out of sharing telemetry</p>
@@ -195,7 +195,7 @@ IVPN previously supported port forwarding, but removed the option in [June 2023]
 
 IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index.html) which helps in situations where VPN protocols like OpenVPN or WireGuard are blocked. Currently, this feature is only available on Desktop and [iOS](https://ivpn.net/knowledgebase/ios/v2ray). It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) over QUIC or TCP connections. QUIC is a modern protocol with better congestion control and therefore may be faster with reduced latency. The TCP mode makes your data appear as regular HTTP traffic.
 
-#### :material-check:{ .pg-green } Mobile Clients
+#### :material-check:{ .pg-green } عملاء الهاتف المحمول
 
 IVPN has published [App Store](https://apps.apple.com/app/id1193122683) and [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/ivpn/android-app/releases).
 
@@ -275,7 +275,7 @@ Mullvad offers several features to help bypass censorship and access the interne
 - **Custom server IPs**: To counter IP-blocking, you can request custom server IPs from Mullvad's support team. Once you receive the custom IPs, you can input the text file in the "Server IP override" settings, which will override the chosen server IP addresses with ones that aren't known to the censor.
 - **Bridges and proxies**: Mullvad also allows you to use bridges or proxies to reach their API (needed for authentication), which can help bypass censorship attempts that block access to the API itself.
 
-#### :material-check:{ .pg-green } Mobile Clients
+#### :material-check:{ .pg-green } عملاء الهاتف المحمول
 
 Mullvad has published [App Store](https://apps.apple.com/app/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
 
