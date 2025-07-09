@@ -112,21 +112,21 @@ global:
 توفر Proton VPN تطبيقات رسمية على متجر [App Store](https://apps.apple.com/app/id1437005085) و[Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)، بواجهة استخدام سهلة، فلا تحتاج إلى إعداد اتصال WireGuard يدويا. يتوفر تطبيق Proton VPN لأجهزة أندرويد أيضا على [GitHub](https://github.com/ProtonVPN/android-app/releases).
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">How to opt out of sharing telemetry</p>
+<p class="admonition-title">كيفية إيقاف مشاركة بيانات التتبع</p>
 
-On Android, Proton hides telemetry settings under the misleadingly labeled "**Help us fight censorship**" menu in the settings panel. On other platforms these settings can be found under the "**Usage statistics**" menu.
+في أندرويد، تخفي Proton إعدادات التتبع (telemetry) تحت خيار يحمل اسما مضللا وهو "**ساعدنا في مكافحة الرقابة**" داخل لوحة الإعدادات. في الأنظمة الأخرى، يمكن العثور على هذه الإعدادات تحت قائمة "**Usage statistics**".
 
-We are noting this because while we don't necessarily recommend against sharing anonymous usage statistics with developers, it is important that these settings are easily found and clearly labeled.
+نحن نلفت الانتباه إلى هذه النقطة لأنه، رغم أننا لا نعارض بالضرورة مشاركة إحصاءات الاستخدام المجهولة مع المطورين، من المهم أن تكون هذه الإعدادات واضحة وسهلة الوصول.
 
 </div>
 
-#### :material-information-outline:{ .pg-blue } Additional Notes
+#### :material-information-outline:{ .pg-blue } ملاحظات إضافية
 
-Proton VPN clients support two-factor authentication on all platforms. Proton VPN has their own servers and datacenters in Switzerland, Iceland and Sweden. They offer content blocking and known-malware blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](tor.md#tor-browser) for this purpose.
+تدعم تطبيقات Proton VPN المصادقة الثنائية (2FA) على جميع المنصات. Proton VPN تمتلك خوادم ومراكز بيانات خاصة بها في سويسرا وآيسلندا والسويد. يوفرون خدمة حجب المحتوى والمواقع المعروفة بأنها تحتوي على برمجيات خبيثة، وذلك من خلال الـ (DNS) الخاص بهم. بالإضافة إلى ذلك، توفر Proton VPN خوادم "Tor" مخصصة، تتيح لك الاتصال بسهولة بمواقع.onion. ومع ذلك، نوصي بشدة باستخدام [متصفح Tor](tor.md#tor-browser) الرسمي لهذا الغرض لضمان أعلى مستوى من الخصوصية.
 
-##### :material-alert-outline:{ .pg-orange } Kill switch feature is broken on Intel-based Macs
+##### :material-alert-outline:{ .pg-orange }
 
-System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch) on Intel-based Macs when using the VPN kill switch. If you require this feature, and you are using a Mac with Intel chipset, you should consider using another VPN service.
+ميزة Kill Switch [لا تعمل بشكل صحيح](https://protonvpn.com/support/macos-t2-chip-kill-switch) على أجهزة Mac المزودة بمعالجات Intel. إذا كنت تحتاج إلى هذه الميزة، وتستخدم جهاز Mac بمعالج Intel، فمن الأفضل أن تفكر في استخدام خدمة VPN أخرى تدعم ميزة Kill Switch بشكل موثوق على هذا النوع من الأجهزة.
 
 ### IVPN
 
@@ -134,15 +134,15 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 
 ![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
 
-**IVPN** is another premium VPN provider, and they have been in operation since 2009. IVPN is based in Gibraltar and does not offer a free trial.
+**IVPN** هو مزود VPN مميز آخر، وقد بدأ تشغيله منذ عام 2009. شركة IVPN مقرها في جبل طارق، ولا توفر فترة تجريبية مجانية لاختبار الخدمة.
 
-[:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title=Documentation}
+[:octicons-home-16: الصفحة الرئيسية](https://ivpn.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="سياسة الخصوصية" }
+[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title=الشروحات التفصيلية}
 [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>التنزيلات</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1193122683)
@@ -156,12 +156,12 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 
 </div>
 
-#### :material-check:{ .pg-green } 37 Countries
+#### :material-check:{ .pg-green } 37 دولة
 
-IVPN has [servers in 37 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
+تمتلك IVPN [خوادم في 37 دولة](https://ivpn.net/status).(1) اختيار مزود VPN يحتوي على خادم قريب من موقعك الجغرافي يساعد في تقليل زمن الاستجابة (Latency) لحركة البيانات التي ترسلها عبر الشبكة. وذلك لأن المسار إلى الوجهة سيكون أقصر (أي عدد أقل من التمريرات أو "hops")، مما يؤدي إلى تقليل التأخير وتحسين سرعة الاتصال.
 { .annotate }
 
-1. Last checked: 2024-08-06
+1. تاريخ آخر تحقق: 6 أغسطس 2024
 
 استخدام [خادم مخصص](https://en.wikipedia.org/wiki/Dedicated_hosting_service) يعني أن الشركة تملك الخادم وتتحكم فيه بالكامل، مما يقلل من خطر تسريب البيانات أو تعرضها للاختراق مقارنة [بخوادم مشتركة (VPS)](https://en.wikipedia.org/wiki/Virtual_private_server) تُستخدم من عدة عملاء.
 
