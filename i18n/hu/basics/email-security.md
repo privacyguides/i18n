@@ -5,13 +5,13 @@ icon: material/email
 description: Email is insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
 ---
 
-Email is an insecure form of communication by default. You can improve your email security with tools such as OpenPGP, which add end-to-end encryption to your messages, but OpenPGP still has a number of drawbacks compared to encryption in other messaging applications.
+Az e-mail alapértelmezetten nem biztonságos kommunikációs forma. Az e-mailek biztonságát javíthatod olyan eszközökkel, mint az OpenPGP, amely végpontok közötti titkosítást ad az üzeneteidhez, bár az OpenPGP-nek is vannak hátrányai más üzenetküldő alkalmazások titkosításához képest.
 
-As a result, email is best used for receiving transactional emails (like notifications, verification emails, password resets, etc.) from the services you sign up for online, not for communicating with others.
+Ezért az e-mailt leginkább tranzakciós üzenetek fogadására érdemes használni (például értesítések, megerősítő e-mailek, jelszó-visszaállítások stb.), nem pedig személyes kommunikációra.
 
-## Email Encryption Overview
+## E-mail titkosítási áttekintés
 
-The standard way to add E2EE to emails between different email providers is by using OpenPGP. There are different implementations of the OpenPGP standard, the most common being [GnuPG](../encryption.md#gnu-privacy-guard) and [OpenPGP.js](https://openpgpjs.org).
+A különböző e-mail szolgáltatók közötti e-mailekhez a végpontok közötti titkosítás szabványos módja az OpenPGP használata. Az OpenPGP szabványnak többféle megvalósítása létezik, a legelterjedtebbek a [GnuPG](../encryption.md#gnu-privacy-guard) és az [OpenPGP.js](https://openpgpjs.org).
 
 Even if you use OpenPGP, it does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed. This is why we recommend [instant messengers](../real-time-communication.md) which implement forward secrecy over email for person-to-person communications whenever possible.
 
