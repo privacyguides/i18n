@@ -6,11 +6,11 @@ description: Ci dostawcy poczty e-mail oferują świetne miejsce do bezpiecznego
 cover: email.webp
 global:
   - 
-    - element losowy
-    - "tabela tbody"
+    - randomize-element
+    - "table tbody"
 ---
 
-<small>Chroni przed następującym zagrożeniem(ami):</small>
+<small>Chroni przed następującymi zagrożeniami:</small>
 
 - [:material-server-network: Usługodawcy](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
@@ -60,18 +60,18 @@ OpenPGP nie obsługuje również funkcji forward secrecy, co oznacza, że jeśli
 
 ![Logo Proton Mail](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** to usługa poczty elektronicznej skupiająca się na prywatności, szyfrowaniu, bezpieczeństwie i łatwości użytkowania. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland.
+**Proton Mail** to usługa poczty elektronicznej skupiająca się na prywatności, szyfrowaniu, bezpieczeństwie i łatwości użytkowania. Działają od 2013 roku. Proton AG ma siedzibę w Genewie, w Szwajcarii.
 
 Plan Proton Free obejmuje 500 MB pamięci pocztowej, którą możesz bezpłatnie zwiększyć do 1 GB.
 
-[:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
+[:octicons-home-16: Strona główna](https://proton.me/mail){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Usługa Onion" }
+[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pliki do pobrania</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
@@ -79,7 +79,7 @@ Plan Proton Free obejmuje 500 MB pamięci pocztowej, którą możesz bezpłatnie
 - [:fontawesome-brands-windows: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
 - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
-- [:octicons-browser-16: Web](https://mail.proton.me)
+- [:octicons-browser-16: Przeglądarka](https://mail.proton.me)
 
 </details>
 
