@@ -171,17 +171,17 @@ global:
 
 #### :material-check:{ .pg-green } العملاء الذين يستخدمون برامج مفتوحة المصدر
 
-بدءًا من فبراير 2020، [أصبحت تطبيقات IVPN مفتوحة المصدر](https://ivpn.net/blog/ivpn-applications-are-now-open-source)، مما يسمح لأي شخص بمراجعة الكود والتأكد من مستوى الأمان والخصوصية الذي توفره الخدمة. Source code can be obtained from their [GitHub organization](https://github.com/ivpn).
+بدءًا من فبراير 2020، [أصبحت تطبيقات IVPN مفتوحة المصدر](https://ivpn.net/blog/ivpn-applications-are-now-open-source)، مما يسمح لأي شخص بمراجعة الكود والتأكد من مستوى الأمان والخصوصية الذي توفره الخدمة. يمكن الحصول على الشيفرة المصدرية لتطبيقات IVPN من [منظمة GitHub](https://github.com/ivpn) الخاصة بهم، ما يتيح للمستخدمين والخبراء مراجعتها بحرية.
 
-#### :material-check:{ .pg-green } Accepts Cash and Monero
+#### :material-check:{ .pg-green } تقبل الدفع بوسائل خاصة مثل النقود وعملة مونيرو (Monero)
 
-In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **Monero** and **cash/local currency** (on annual plans) as anonymous forms of payment. Prepaid cards with redeem codes are [also available](https://ivpn.net/knowledgebase/billing/voucher-cards-faq).
+بالإضافة إلى قبول بطاقات الـ credit/debit وPayPal، تقبل IVPN الدفع باستخدام البيتكوين (Bitcoin) **ومونيرو (Monero)** **والنقد (cash)** كخيارات دفع مجهولة الهوية، وذلك عند الاشتراك في الخطط السنوية. البطاقات الـ Prepaid التي تحتوي على رموز تفعيل (redeem codes) متوفرة أيضا، [ويمكن استخدامها كوسيلة دفع](https://ivpn.net/knowledgebase/billing/voucher-cards-faq).
 
 #### :material-check:{ .pg-green } WireGuard Support
 
-IVPN supports the WireGuard® protocol. [WireGuard](https://wireguard.com) هو بروتوكول VPN جديد نسبيا، ويعتمد على [تشفير حديث ومتطور](https://wireguard.com/protocol) يوفّر أمانًا عاليا وكفاءة في الأداء. ويتميز WireGuard أيضا بتصميمه البسيط وأدائه العالي، مقارنة ببروتوكولات VPN التقليدية.
+تدعم خدمة IVPN بروتوكول WireGuard®، وهو بروتوكول حديث يتميز بالبساطة، والأداء العالي، واستخدام تقنيات تشفير متقدمة. [WireGuard](https://wireguard.com) هو بروتوكول VPN جديد نسبيا، ويعتمد على [تشفير حديث ومتطور](https://wireguard.com/protocol) يوفّر أمانًا عاليا وكفاءة في الأداء. ويتميز WireGuard أيضا بتصميمه البسيط وأدائه العالي، مقارنة ببروتوكولات VPN التقليدية.
 
-IVPN [recommends](https://ivpn.net/wireguard) the use of WireGuard with their service and, as such, the protocol is the default on all of IVPN's apps. IVPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
+[توصي ](https://ivpn.net/wireguard)IVPN باستخدام بروتوكول WireGuard مع خدمتها، ولذلك فهو مفعّل بشكل افتراضي في جميع تطبيقات IVPN. IVPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
 
 #### :material-information-outline:{ .pg-blue } IPv6 Support
 
@@ -248,7 +248,7 @@ Mullvad has had multiple [independent audits](https://mullvad.net/en/blog/tag/au
 
 Mullvad provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/mullvad/mullvadvpn-app).
 
-#### :material-check:{ .pg-green } Accepts Cash and Monero
+#### :material-check:{ .pg-green } تقبل الدفع بوسائل خاصة مثل النقود وعملة مونيرو (Monero)
 
 Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. Prepaid cards with redeem codes are also available. Mullvad also accepts Swish and bank wire transfers, as well as a few European payment systems.
 
