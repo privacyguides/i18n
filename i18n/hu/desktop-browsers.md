@@ -2,7 +2,7 @@
 meta_title: "Magánéletet védő webböngészők PC-re és Mac-re – Privacy Guides"
 title: "Asztali böngészők"
 icon: material/laptop
-description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
+description: Jelenleg ezeket az adatvédelmi böngészőket ajánljuk az asztali rendszereken történő normál/nem anonim internetböngészéshez.
 cover: desktop-browsers.webp
 schema:
   - 
@@ -61,7 +61,7 @@ schema:
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. A [Mullvad Böngészőt](#mullvad-browser) ajánljuk, ha kiemelten fontos számodra az erős adatvédelem és az alapértelmezett ujjlenyomat-védelem, a [Firefox](#firefox)-ot azoknak ajánljuk, akik jó alternatívát keresnek a Google Chrome-hoz, és csak hétköznapi internetezők. A [Brave](#brave)-et pedig akkor, ha szükséged van a Chromium böngésző kompatibilitására.
+Ezek az általunk jelenleg ajánlott **asztali webböngészők** és konfigurációk a hétköznapi, nem anonim böngészéshez. A [Mullvad Böngészőt](#mullvad-browser) ajánljuk, ha kiemelten fontos számodra az erős adatvédelem és az alapértelmezett ujjlenyomat-védelem, a [Firefox](#firefox)-ot azoknak ajánljuk, akik jó alternatívát keresnek a Google Chrome-hoz, és csak hétköznapi internetezők. A [Brave](#brave)-et pedig akkor, ha szükséged van a Chromium böngésző kompatibilitására.
 
 Ha névtelenül szeretnél böngészni az interneten, használd inkább a [Tor](tor.md) szolgáltatást. Ezen az oldalon teszünk néhány konfigurációs ajánlást, de a Tor Böngésző kivételével minden más böngésző *lekövehtető* valamilyen módon.
 

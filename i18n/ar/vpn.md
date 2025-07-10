@@ -167,11 +167,11 @@ global:
 
 #### :material-check:{ .pg-green } تمت مراجعته من جهة مستقلة
 
-IVPN has had multiple [independent audits](https://ivpn.net/en/blog/tags/audit) since 2019 and has publicly announced their commitment to [annual security audits](https://ivpn.net/blog/ivpn-apps-security-audit-concluded).
+أجرت IVPN عدة [مراجعات أمان مستقلة](https://ivpn.net/en/blog/tags/audit) منذ عام 2019، وقد أعلنت بشكل علني التزامها بإجراء م[راجعات أمنية سنوية](https://ivpn.net/blog/ivpn-apps-security-audit-concluded) لتعزيز موثوقيتها وشفافيتها.
 
 #### :material-check:{ .pg-green } العملاء الذين يستخدمون برامج مفتوحة المصدر
 
-As of February 2020 [IVPN applications are now open source](https://ivpn.net/blog/ivpn-applications-are-now-open-source). Source code can be obtained from their [GitHub organization](https://github.com/ivpn).
+بدءًا من فبراير 2020، [أصبحت تطبيقات IVPN مفتوحة المصدر](https://ivpn.net/blog/ivpn-applications-are-now-open-source)، مما يسمح لأي شخص بمراجعة الكود والتأكد من مستوى الأمان والخصوصية الذي توفره الخدمة. Source code can be obtained from their [GitHub organization](https://github.com/ivpn).
 
 #### :material-check:{ .pg-green } Accepts Cash and Monero
 

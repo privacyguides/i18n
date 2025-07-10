@@ -1,11 +1,11 @@
 ---
-meta_title: "Why Email Isn't the Best Choice for Privacy and Security - Privacy Guides"
-title: Email Security
+meta_title: "Miért nem az e-mail a legjobb választás az adatvédelem és a biztonság szempontjából - Privacy Guides"
+title: Email biztonság
 icon: material/email
-description: Email is insecure in many ways, and these are some of the reasons it isn't our top choice for secure communications.
+description: Az e-mail sok szempontból nem biztonságos, és többek között ez az oka annak, hogy nem ez a legmegfelelőbb választás a biztonságos kommunikációhoz.
 ---
 
-Az e-mail alapértelmezetten nem biztonságos kommunikációs forma. Az e-mailek biztonságát javíthatod olyan eszközökkel, mint az OpenPGP, amely végpontok közötti titkosítást ad az üzeneteidhez, bár az OpenPGP-nek is vannak hátrányai más üzenetküldő alkalmazások titkosításához képest.
+Az e-mail alapértelmezetten nem biztonságos kommunikációs forma. Az e-mailjeid biztonságát javíthatod olyan eszközökkel, mint az OpenPGP, amely végpontok közötti titkosítást ad az üzeneteidhez, bár mint mindennek, az OpenPGP-nek is vannak hátrányai más üzenetküldő alkalmazások titkosításához képest.
 
 Ezért az e-mailt leginkább tranzakciós üzenetek fogadására érdemes használni (például értesítések, megerősítő e-mailek, jelszó-visszaállítások stb.), nem pedig személyes kommunikációra.
 
@@ -39,14 +39,14 @@ Ez azért előnyös, mert a visszafejtés az intelligens kártyán történik, �
 
 ## E-mail metaadatok áttekintése
 
-Az e-mail metaadatok az e-mail [üzenet fejlécében](https://en.wikipedia.org/wiki/Email#Message_header) vannak tárolva, és tartalmaznak néhány látható fejlécet is, amelyeket ismerhetsz, mint például a `címzett`, a `küldő`, a `másolati címzettek`, a `dátum` és a `tárgy`. Sok e-mailes alkalmazás és szolgáltató olyan rejtett fejléceket is alkalmaz, amelyek számos adatot elárulhatnak a fiókoddal kapcsolatban.
+Az e-mail metaadatok az [üzenet fejlécében](https://en.wikipedia.org/wiki/Email#Message_header) vannak tárolva, és tartalmaznak néhány látható fejlécet is, amelyeket ismerhetsz, mint például a `címzett`, a `küldő`, a `másolati címzettek`, a `dátum` és a `tárgy`. Sok e-mailes alkalmazás és szolgáltató olyan rejtett fejléceket is alkalmaz, amelyek számos adatot elárulhatnak a fiókoddal kapcsolatban.
 
 Az ügyfélszoftverek az e-mail metaadatokat használhatják arra, hogy megmutassák, kitől és mikor érkezett az üzenet. A szerverek az e-mail metaadatait felhasználhatják annak meghatározására, hogy hová kell továbbítani az üzenetet, valamint [más célokra](https://en.wikipedia.org/wiki/Email#Message_header) is, amelyek nem mindig átláthatók.
 
 ### Ki láthatja az e-mail metaadatokat?
 
-Email metadata is protected from outside observers with [opportunistic TLS](https://en.wikipedia.org/wiki/Opportunistic_TLS), but it is still able to be seen by your email client software (or webmail) and any servers relaying the message from you to any recipients including your email provider. Sometimes email servers will also use third-party services to protect against spam, which generally also have access to your messages.
+Az e-mailek metaadatait ugyan védi a [TLS titkosítás](https://en.wikipedia.org/wiki/Opportunistic_TLS) a kívülállóktól, de az e-mail programod (vagy webes felületed), illetve az üzenetet továbbító szerverek – köztük a szolgáltatód – továbbra is látják ezeket. Néha az e-mail szerverek külső cégeket is bevonnak a spamek elleni védekezésbe, és általában ezek a szolgáltatók is hozzáférhetnek az üzeneteidhez.
 
-### Why Can't Metadata be E2EE?
+### Miért nem lehet a metaadatokat végpontok közötti titkosítással védeni?
 
-Email metadata is crucial to the most basic functionality of email (where it came from, and where it has to go). E2EE was not built into standard email protocols originally, instead requiring add-on software like OpenPGP. Because OpenPGP messages still have to work with traditional email providers, it cannot encrypt some of this email metadata required for identifying the parties communicating. That means that even when using OpenPGP, outside observers can see lots of information about your messages, such as whom you're emailing, when you're emailing, etc.
+A metaadatok nélkül nem működne az e-mail – ezek mondják meg, ki küldte és kinek szól. A teljes titkosítás eredetileg nem volt beépítve a szabványos e-mail protokollokba, ehelyett olyan kiegészítő szoftverek használata vált szükségessé, mint az OpenPGP. Mivel az OpenPGP-vel titkosított üzeneteknek továbbra is működniük kell a hagyományos e-mail szolgáltatókkal, nem tudják titkosítani azokat a metaadatokat, amelyek szükségesek a kommunikáló felek azonosításához. Vagyis még ha titkosítod is az üzenetet OpenPGP-vel, sok információ akkor is látható marad, például az, hogy kinek írtál, mikor, és hasonlók.
