@@ -197,11 +197,11 @@ global:
 
 #### :material-check:{ .pg-green } عملاء الهاتف المحمول
 
-IVPN has published [App Store](https://apps.apple.com/app/id1193122683) and [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/ivpn/android-app/releases).
+توفر IVPN تطبيقات رسمية على متجر [App Store](https://apps.apple.com/app/id1193122683) و[Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)، وتتميز هذه التطبيقات بواجهة استخدام سهلة، مما يُغنيك عن إعداد اتصال WireGuard يدويا. يتوفر تطبيق IVPN لأندرويد أيضا على [GitHub](https://github.com/ivpn/android-app/releases).
 
-#### :material-information-outline:{ .pg-blue } Additional Notes
+#### :material-information-outline:{ .pg-blue } ملاحظات إضافية
 
-IVPN clients support two-factor authentication. IVPN also provides "[AntiTracker](https://ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
+تطبيقات IVPN تدعم المصادقة الثنائية (two-factor authentication). توفر IVPN ميزة تعرف باسم "حاجب التتبع ([AntiTracker](https://ivpn.net/antitracker))"، وهي تقوم بحظر أدوات التتبع والإعلانات المزعجة مباشرة من خلال الاتصال بالإنترنت نفسه – أي أن الحظر يتم من خلال اتصال الشبكة، وليس فقط داخل المتصفح – قبل أن تصل إلى المتصفح أو التطبيقات.
 
 ### ملفاد
 
@@ -209,16 +209,16 @@ IVPN clients support two-factor authentication. IVPN also provides "[AntiTracker
 
 ![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. They have been in operation since 2009. Mullvad is based in Sweden and offers a 14-day money-back guarantee for [payment methods](https://mullvad.net/en/help/refunds) that allow it.
+Mullvad هو خدمة VPN سريعة ومنخفضة التكلفة، تركز بشكل جاد على الشفافية والأمان. تعمل Mullvad منذ عام 2009. يقع مقر Mullvad في السويد، وتقدم ضمان استرداد لمدة 14 يوما على [طرق الدفع](https://mullvad.net/en/help/refunds) التي تسمح بذلك.
 
-[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
+[:octicons-home-16: الصفحة الرئيسية](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title=Documentation}
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="سياسة الخصوصية" }
+[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title=الشروحات التفصيلية}
 [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>التنزيلات</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1488466513)
@@ -231,55 +231,55 @@ IVPN clients support two-factor authentication. IVPN also provides "[AntiTracker
 
 </div>
 
-#### :material-check:{ .pg-green } 49 Countries
+#### :material-check:{ .pg-green } 49 دولة
 
-Mullvad has [servers in 49 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
+تمتلك Mullvad [خوادم في 49 دولة](https://mullvad.net/servers).(1) اختيارك لخدمة VPN توفر خادما قريبا من موقعك الجغرافي يساعد على تقليل زمن التأخير (latency) في حركة البيانات التي ترسلها عبر الشبكة. ويعود ذلك إلى أن المسار بينك وبين الوجهة يكون أقصر، أي أن البيانات تمر عبر عدد أقل من الـ (hops).
 { .annotate }
 
-1. Last checked: 2025-03-10
+1. آخر مراجعة: 10 مارس 2025
 
 استخدام [خادم مخصص](https://en.wikipedia.org/wiki/Dedicated_hosting_service) يعني أن الشركة تملك الخادم وتتحكم فيه بالكامل، مما يقلل من خطر تسريب البيانات أو تعرضها للاختراق مقارنة [بخوادم مشتركة (VPS)](https://en.wikipedia.org/wiki/Virtual_private_server) تُستخدم من عدة عملاء.
 
 #### :material-check:{ .pg-green } تمت مراجعته من جهة مستقلة
 
-Mullvad has had multiple [independent audits](https://mullvad.net/en/blog/tag/audits) and has publicly announced their endeavors to conduct [annual audits](https://mullvad.net/en/blog/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) of their apps and infrastructure.
+خضعت Mullvad لعدة [مراجعات أمنية مستقلة](https://mullvad.net/en/blog/tag/audits)، وأعلنت بشكل علني عن سعيها لإجراء [مراجعات سنوية](https://mullvad.net/en/blog/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) لتطبيقاتها وبنيتها التحتية.
 
 #### :material-check:{ .pg-green } العملاء الذين يستخدمون برامج مفتوحة المصدر
 
-Mullvad provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/mullvad/mullvadvpn-app).
+تُوفر Mullvad الـ (source code) لتطبيقاتها على الحاسوب والهاتف عبر [منظمتها على GitHub](https://github.com/mullvad/mullvadvpn-app).
 
 #### :material-check:{ .pg-green } تقبل الدفع بوسائل خاصة مثل النقود وعملة مونيرو (Monero)
 
-Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. Prepaid cards with redeem codes are also available. Mullvad also accepts Swish and bank wire transfers, as well as a few European payment systems.
+بالإضافة إلى قبول بطاقات الـ credit/debit وPayPal، تقبل Mullvad أيضا البيتكوين، وبيتكوين كاش، و**Monero**، و**النقد** كطرق دفع مجهولة الهوية. تتوفر أيضا بطاقات شحن مسبقة الدفع (Prepaid) تحتوي على رموز يمكن استخدامها لتفعيل الخدمة، وغالبا ما تباع عبر موزعين أو متاجر طرف ثالث. تقبل Mullvad أيضا الدفع عبر تطبيق Swish والتحويل البنكي المباشر، بالإضافة إلى بعض أنظمة الدفع الأوروبية الأخرى.
 
 #### :material-check:{ .pg-green } WireGuard Support
 
-Mullvad supports the WireGuard® protocol. [WireGuard](https://wireguard.com) هو بروتوكول VPN جديد نسبيا، ويعتمد على [تشفير حديث ومتطور](https://wireguard.com/protocol) يوفّر أمانًا عاليا وكفاءة في الأداء. ويتميز WireGuard أيضا بتصميمه البسيط وأدائه العالي، مقارنة ببروتوكولات VPN التقليدية.
+تدعم Mullvad بروتوكول WireGuard®. [WireGuard](https://wireguard.com) هو بروتوكول VPN جديد نسبيا، ويعتمد على [تشفير حديث ومتطور](https://wireguard.com/protocol) يوفّر أمانًا عاليا وكفاءة في الأداء. ويتميز WireGuard أيضا بتصميمه البسيط وأدائه العالي، مقارنة ببروتوكولات VPN التقليدية.
 
-Mullvad [recommends](https://mullvad.net/en/help/why-wireguard) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
+[توصي ](https://mullvad.net/en/help/why-wireguard)Mullvad باستخدام بروتوكول WireGuard مع خدمتها. يُعد WireGuard البروتوكول الافتراضي – أو الوحيد – في تطبيقات Mullvad على أنظمة Android وiOS وmacOS وLinux، أما على Windows، فيجب [تفعيله يدويا](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app). توفر Mullvad أيضا مولد إعدادات WireGuard لاستخدامه مع [تطبيقات ](https://wireguard.com/install)WireGuard الرسمية.
 
-#### :material-check:{ .pg-green } IPv6 Support
+#### :material-check:{ .pg-green } دعم لـ IPv6
 
-Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support) and connect from a device using an IPv6 address.
+تتيح لك Mullvad الوصول إلى الخدمات التي [تعمل عبر بروتوكول IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support)، وكذلك الاتصال من جهاز يستخدم عنوان IPv6.
 
 #### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
 
-Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports). غياب هذه الميزة قد يؤثر سلبا على بعض التطبيقات، خصوصا تلك التي تعتمد على الاتصال (P2P) مثل برامج التورنت.
+كانت Mullvad تدعم ميزة الـ (Port Forwarding) في السابق، لكنها أزالت هذا الخيار في [مايو 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports). غياب هذه الميزة قد يؤثر سلبا على بعض التطبيقات، خصوصا تلك التي تعتمد على الاتصال (P2P) مثل برامج التورنت.
 
 #### :material-check:{ .pg-green } مقاومة الرقابة
 
-Mullvad offers several features to help bypass censorship and access the internet freely:
+توفر Mullvad عددا من الميزات التي تساعد على تجاوز الرقابة والوصول الحر إلى الإنترنت:
 
-- **Obfuscation modes**: Mullvad has two built-in obfuscation modes: "UDP-over-TCP" and ["WireGuard over Shadowsocks"](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard). These modes disguise your VPN traffic as regular web traffic, making it harder for censors to detect and block. Supposedly, China has to use a [new method to disrupt Shadowsocks-routed traffic](https://gfw.report/publications/usenixsecurity23/en).
-- **Advanced obfuscation with Shadowsocks and v2ray**: For more advanced users, Mullvad provides a guide on how to use the [Shadowsocks with v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) plugin with Mullvad clients. This setup provides an additional layer of obfuscation and encryption.
-- **Custom server IPs**: To counter IP-blocking, you can request custom server IPs from Mullvad's support team. Once you receive the custom IPs, you can input the text file in the "Server IP override" settings, which will override the chosen server IP addresses with ones that aren't known to the censor.
+- الـ **Obfuscation modes**: توفر Mullvad وضعين مدمجين للتمويه (obfuscation): UDP-over-TCP و[WireGuard over Shadowsocks](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard). تعمل هذه الأوضاع (modes) على إخفاء حركة VPN الخاصة بك لتبدو كأنها حركة ويب عادية، مما يجعل من الصعب على أنظمة الرقابة اكتشافها أو حظرها. يُقال إن الصين أصبحت تحتاج إلى أسلوب جديد لتعطيل حركة البيانات التي تمر عبر [Shadowsocks](https://gfw.report/publications/usenixsecurity23/en).
+- **الـ Advanced obfuscation (التموية المتقدم) بإستخدام Shadowsocks and v2ray**: للمستخدمين المتقدمين، توفر Mullvad دليلا لشرح كيفية استخدام إضافة Shadowsocks مع v2ray مع تطبيقات Mullvad. يوفر هذا الإعداد طبقة إضافية من التمويه والتشفير، مما يعزز القدرة على تجاوز الرقابة والحفاظ على الخصوصية.
+- **Custom server IPs**: إذا كانت هناك محاولات لحجب VPN من خلال منع الوصول إلى عناوين الـ IP المعروفة، يمكنك التواصل مع دعم Mullvad وطلب عناوين خوادم مخصصة تساعدك على تجاوز هذا الحجب. Once you receive the custom IPs, you can input the text file in the "Server IP override" settings, which will override the chosen server IP addresses with ones that aren't known to the censor.
 - **Bridges and proxies**: Mullvad also allows you to use bridges or proxies to reach their API (needed for authentication), which can help bypass censorship attempts that block access to the API itself.
 
 #### :material-check:{ .pg-green } عملاء الهاتف المحمول
 
 Mullvad has published [App Store](https://apps.apple.com/app/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
 
-#### :material-information-outline:{ .pg-blue } Additional Notes
+#### :material-information-outline:{ .pg-blue } ملاحظات إضافية
 
 Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers). They also provide the option to enable Defense Against AI-guided Traffic Analysis ([DAITA](https://mullvad.net/en/blog/daita-defense-against-ai-guided-traffic-analysis)) in their apps. DAITA protects against the threat of advanced traffic analysis which can be used to connect patterns in VPN traffic with specific websites.
 
