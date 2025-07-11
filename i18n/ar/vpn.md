@@ -181,19 +181,19 @@ global:
 
 تدعم خدمة IVPN بروتوكول WireGuard®، وهو بروتوكول حديث يتميز بالبساطة، والأداء العالي، واستخدام تقنيات تشفير متقدمة. [WireGuard](https://wireguard.com) هو بروتوكول VPN جديد نسبيا، ويعتمد على [تشفير حديث ومتطور](https://wireguard.com/protocol) يوفّر أمانًا عاليا وكفاءة في الأداء. ويتميز WireGuard أيضا بتصميمه البسيط وأدائه العالي، مقارنة ببروتوكولات VPN التقليدية.
 
-[توصي ](https://ivpn.net/wireguard)IVPN باستخدام بروتوكول WireGuard مع خدمتها، ولذلك فهو مفعّل بشكل افتراضي في جميع تطبيقات IVPN. IVPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
+[توصي ](https://ivpn.net/wireguard)IVPN باستخدام بروتوكول WireGuard مع خدمتها، ولذلك فهو مفعّل بشكل افتراضي في جميع تطبيقات IVPN. كما توفر IVPN أيضا أداة لتوليد إعدادات WireGuard لاستخدامها مع ت[طبيقات WireGuard الرسمية](https://wireguard.com/install).
 
-#### :material-information-outline:{ .pg-blue } IPv6 Support
+#### :material-information-outline:{ .pg-blue } دعم لـ IPv6
 
-IVPN allows you to [connect to services using IPv6](https://ivpn.net/knowledgebase/general/do-you-support-ipv6) but doesn't allow you to connect from a device using an IPv6 address.
+تتيح لك IVPN [الاتصال بالخدمات التي تستخدم بروتوكول IPv6](https://ivpn.net/knowledgebase/general/do-you-support-ipv6)، ولكنها لا تسمح بالاتصال من جهاز يستخدم عنوان IPv6.
 
 #### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
 
-IVPN previously supported port forwarding, but removed the option in [June 2023](https://ivpn.net/blog/gradual-removal-of-port-forwarding). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
+كانت IVPN تدعم ميزة الـ (Port Forwarding) سابقا، لكنها أزالت هذه الخاصية في [يونيو 2023](https://ivpn.net/blog/gradual-removal-of-port-forwarding). غياب هذه الميزة قد يؤثر سلبا على بعض التطبيقات، خصوصا تلك التي تعتمد على الاتصال (P2P) مثل برامج التورنت.
 
-#### :material-check:{ .pg-green } Anti-Censorship
+#### :material-check:{ .pg-green } مقاومة الرقابة
 
-IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index.html) which helps in situations where VPN protocols like OpenVPN or WireGuard are blocked. Currently, this feature is only available on Desktop and [iOS](https://ivpn.net/knowledgebase/ios/v2ray). It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) over QUIC or TCP connections. QUIC is a modern protocol with better congestion control and therefore may be faster with reduced latency. The TCP mode makes your data appear as regular HTTP traffic.
+يقدم IVPN الـ (obfuscation modes) باستخدام [V2Ray](https://v2ray.com/en/index.html)، وهي مفيدة في الحالات التي يتم فيها حظر بروتوكولات VPN مثل OpenVPN أو WireGuard. حالياً، هذه الميزة متاحة فقط على أجهزة سطح المكتب (Desktop) ونظام [iOS](https://ivpn.net/knowledgebase/ios/v2ray). يوفر خيارين للتشغيل، حيث يمكنه استخدام بروتوكول [VMess ](https://guide.v2fly.org/en_US/basics/vmess.html)عبر اتصالات QUIC أو TCP. بروتوكول QUIC حديث ويُحسن طريقة انتقال البيانات، مما يساعد في زيادة السرعة وتقليل التأخير (latency) أثناء التصفح. في وضع TCP، يتم تغليف بياناتك لتبدو وكأنها بيانات تصفح عادية (HTTP)، مما يساعد في تجاوز الرقابة أو الحظر في بعض الشبكات.
 
 #### :material-check:{ .pg-green } عملاء الهاتف المحمول
 
@@ -264,9 +264,9 @@ Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/bl
 
 #### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
 
-Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
+Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports). غياب هذه الميزة قد يؤثر سلبا على بعض التطبيقات، خصوصا تلك التي تعتمد على الاتصال (P2P) مثل برامج التورنت.
 
-#### :material-check:{ .pg-green } Anti-Censorship
+#### :material-check:{ .pg-green } مقاومة الرقابة
 
 Mullvad offers several features to help bypass censorship and access the internet freely:
 
