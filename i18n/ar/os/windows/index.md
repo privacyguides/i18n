@@ -1,45 +1,53 @@
 ---
-title: Windows Overview
-icon: material/microsoft-windows
-description: Microsoft Windows is a common operating system which is extremely non-private out of the box. Our guide covers making some improvements to your computer without replacing your OS.
+title: نظرة عامة على Windows
+icon: مواد متعلقة بنظام Microsoft Windows
+description: Microsoft Windows هو نظام تشغيل شائع، لكنه يفتقر إلى الخصوصية بشكل كبير في إعداداته الافتراضية. يقدم هذا الشرح خطوات لتحسين مستوى الخصوصية في جهازك دون الحاجة إلى تغيير نظام التشغيل.
 ---
 
-**Microsoft Windows** is a common OS shipped with many PCs by default. The following guides aim to provide some ways to improve privacy and reduce the default telemetry and data stored by disabling some unnecessary features. Over time, Microsoft adds features to the OS which can sometimes rely on cloud-based services. These features will often require certain types of [optional data](https://privacy.microsoft.com/data-collection-windows) that is sometimes sent to remote servers for processing.
+**Microsoft Windows** هو نظام تشغيل شائع، ويأتي مُثبتا مسبقا على العديد من أجهزة الحاسوب بشكل افتراضي. الخطوات التالية تهدف إلى تحسين الخصوصية وتقليل جمع البيانات التلقائي والمعلومات التي يُخزنها النظام، من خلال تعطيل بعض الميزات غير الضرورية. مع مرور الوقت، تضيف Microsoft ميزات جديدة إلى نظام التشغيل، والتي تعتمد أحيانا على خدمات سحابية (cloud-based services). بعض هذه الميزات تعتمد على جمع [بيانات إضافية](https://privacy.microsoft.com/data-collection-windows) من جهازك،
+وغالبا ما يتم إرسال هذه البيانات إلى خوادم مايكروسوفت عبر الإنترنت لمعالجتها هناك.
 
-One of the newest examples was called **Recall**, a part of the Copilot AI feature set. Recall periodically screenshots anything you've seen on your PC in order to show it to you at a later date. These "helpful" features create considerable metadata which can be forensically analyzed. In most cases browsing history is sufficient and this feature can be safely disabled. The main concerns with Recall was that the data is stored in a local database that is decrypted when your device is powered on, meaning it is an easy target for hackers if the device ever becomes infected with malware. Recall will not redact sensitive information like copied passwords or financial information from the database, but it does protect against making screenshots of any copyrighted content protected by digital rights management (DRM) systems.
+من أحدث الأمثلة على ذلك ميزة تُسمى Recall، وهي جزء من مجموعة ميزات الذكاء الاصطناعي Copilot. ميزة Recall تقوم بتصوير الشاشة تلقائيا على فترات منتظمة، لتسجل كل ما تراه أو تستخدمه على جهازك، بحيث يمكنك البحث فيه أو استرجاعه لاحقا. هذه الميزات "المفيدة" تقوم بإنشاء كمية كبيرة من الـ (Metadata)، والتي يمكن تحليلها لاحقا لأغراض التحقيق الجنائي الرقمي. في أغلب الحالات، يُعتبر سجل التصفح العادي كافيا،
+ويمكن تعطيل ميزة Recall دون أي ضرر أو تأثير على استخدام الجهاز. المشكلة الرئيسية في ميزة Recall هي أن كل المعلومات التي تحفظها تُخزَن داخل الجهاز نفسه، وتكون غير مشفَرة بمجرد تشغيل الجهاز، وهذا يعني أنه لو أصيب جهازك بفيروس أو برنامج تجسس، يمكن بسهولة سرقة هذه المعلومات. ميزة Recall لا تقوم بإخفاء المعلومات الحساسة مثل كلمات المرور المنسوخة أو البيانات المالية من قاعدة البيانات، لكنها في المقابل تمنع تصوير المحتوى المحمي بحقوق النشر باستخدام تقنيات الحماية (DRM).
 
-Unfortunately, this feature was added without too much thought about the privacy implications of having such a feature enabled by default (which it now [no longer is](https://wired.com/story/microsoft-recall-off-default-security-concerns)). It is not an isolated example, however. Another example was Microsoft automatically [enabling folder backups to OneDrive](https://neowin.net/news/windows-11-is-now-automatically-enabling-onedrive-folder-backup-without-asking-permission) on new Windows 11 installations without asking for permission.
+للأسف، تمت إضافة هذه الميزة دون التفكير الكافي في آثارها على الخصوصية، خاصة وأنها كانت مفعلة بشكل افتراضي. (وهو ما لم يعد الحال عليه الآنhttps://wired.com/story/microsoft-recall-off-default-security-concerns، بعد أن قررت مايكروسوفت إيقاف تفعيلها افتراضيا بسبب المخاوف الأمنية). لكن هذه الميزة ليست حالة استثنائية. (أي أنها ليست المثال الوحيد على ميزات تفتقر إلى الخصوصية). مثال آخر هو أن Microsoft قامت تلقائيا بتفعيل ميزة [النسخ الاحتياطي للمجلدات إلى OneDrive](https://neowin.net/news/windows-11-is-now-automatically-enabling-onedrive-folder-backup-without-asking-permission) في بعض تثبيتات Windows 11 الجديدة، دون طلب إذن من المستخدم.
 
-You can enhance your privacy and security on Windows without downloading any third-party tools with these guides:
+يمكنك تعزيز خصوصيتك وأمانك على نظام Windows دون الحاجة إلى تحميل أي أدوات خارجية، وذلك من خلال الخطوات التالية:
 
-- Initial Installation (coming soon)
+- تهيئة Windows بعد التثبيت (سيتم توفيره قريبا)
 - [Group Policy Settings](group-policies.md)
-- Privacy Settings (coming soon)
-- Application Sandboxing (coming soon)
-- Security Hardening (coming soon)
+- إعدادات الخصوصية (قريبا)
+- عزل التطبيقات "Application Sandboxing" (قريبا)
+- تشديد إعدادات الأمان (سيتم توفيره قريبا)
 
 <div class="admonition example" markdown>
-<p class="admonition-title">This section is new</p>
+<p class="admonition-title">هذا القسم جديد</p>
 
-This section is a work in progress, because it takes considerably more time and effort to make a Windows installation more privacy-friendly than other operating systems.
+هذا القسم لا يزال قيد العمل، لأن جعل نظام Windows أكثر احتراما للخصوصية يتطلب وقتا وجهدا أكبر مقارنة بأنظمة التشغيل الأخرى.
 
 </div>
 
-## Privacy Notes
+## ملاحظات حول الخصوصية
 
-Microsoft Windows, particularly those versions aimed at consumers like the **Home** version often don't prioritize privacy-friendly features by [default](https://theguardian.com/technology/2015/jul/31/windows-10-microsoft-faces-criticism-over-privacy-default-settings). As a result we often see more [data collection](https://en.wikipedia.org/wiki/Criticism_of_Microsoft#Telemetry_and_data_collection) than necessary, without any real warnings that this is the default behavior. In an attempt to compete with Google in the advertising space, [Cortana](https://en.wikipedia.org/wiki/Cortana_\(virtual_assistant\)) has included unique identifiers such as an "advertising ID" in order to correlate usage and assist advertisers in targeted advertising.  At launch, telemetry could not be disabled in non-enterprise editions of Windows 10. It still cannot be disabled, but Microsoft added the ability to [reduce](https://extremetech.com/computing/243079-upcoming-windows-update-reduces-spying-microsoft-still-mum-data-collects) the data that is sent to them.
+نظام Microsoft Windows – وخاصة الإصدارات الموجهة للمستخدمين العاديين مثل نسخة Home – غالبا ما لا تعطي الأولوية لخيارات تحافظ على الخصوصية [بشكل افتراضي](https://theguardian.com/technology/2015/jul/31/windows-10-microsoft-faces-criticism-over-privacy-default-settings). ونتيجة لذلك، نشهد غالبا [جمعا للبيانات](https://en.wikipedia.org/wiki/Criticism_of_Microsoft#Telemetry_and_data_collection) أكثر مما هو ضروري، وذلك دون أي تنبيه واضح بأن هذا هو السلوك الافتراضي للنظام. في محاولة من مايكروسوفت لمنافسة Google في مجال الإعلانات،
+قامت بإدخال ميزات في [Cortana](https://en.wikipedia.org/wiki/Cortana_(virtual_assistant) مثل الـ (Advertising ID)، وذلك بهدف تتبع الاستخدام ومساعدة المعلنين في تقديم إعلانات موجهة.  عند إطلاق Windows 10، لم يكن من الممكن إيقاف جمع البيانات التلقائي (Telemetry) في الإصدارات المخصصة للمستخدمين العاديين،
+مثل نسخة Home وPro، بل كان ذلك متاحا فقط في الإصدارات الموجهة للشركات (Enterprise). وحتى الآن، لا يمكن إيقاف جمع البيانات بالكامل، لكن مايكروسوفت أضافت خيارا يسمح [بتقليل](https://extremetech.com/computing/243079-upcoming-windows-update-reduces-spying-microsoft-still-mum-data-collects) كمية البيانات التي يتم إرسالها إليها.
 
-With Windows 11 there are a number of restrictions or defaults such as:
+في نظام Windows 11، هناك عدد من القيود أو الإعدادات الافتراضية التي قد تؤثر على الخصوصية، مثل:
 
-- Requiring the use of a Microsoft account instead of a local account.
-- Making it more difficult to find local account options for Windows **Pro** and **Enterprise**.
-- Enabling all data collection options by default, requiring users to "opt out".
-- Heavily integrating Microsoft services like Bing, OneDrive, and Teams in ways which are difficult to remove and presented as the only option to users.
-- Setting the default browser always to Edge, or reverting to Edge if it's changed.
-- Adding cloud-based AI features to many areas in Windows and various Microsoft Apps.
-- Unnecessarily storing sensitive data. Even data which is stored locally and not sent to Microsoft is still a target for hackers or malware on your device.
+- إجبار المستخدم على استخدام حساب Microsoft بدلا من إنشاء Local account.
+- جعل خيارات إنشاء Local account أكثر صعوبة في الإصدارات **Pro \*\* و**Enterprise\*\*من Windows، مما يوجه المستخدمين نحو استخدام حساب Microsoft.
+- تفعيل جميع خيارات جمع البيانات بشكل افتراضي، مما يجبر المستخدم على إيقافها يدويا (opt out) إذا أراد حماية خصوصيته.
+- دمج خدمات Microsoft مثل Bing وOneDrive وTeams بعمق داخل النظام،
+  بطريقة يصعب إزالتها، وغالبا ما تُعرض للمستخدم على أنها الخيار الوحيد المتاح.
+- يقوم Windows بتعيين Microsoft Edge كالمتصفح الأساسي تلقائيا،
+  وحتى إذا غير المستخدم المتصفح الافتراضي (مثل Chrome أو Firefox)،
+  قد يعيد النظام استخدام Edge من جديد بدون إذن أو تنبيه واضح.
+- إضافة ميزات ذكاء اصطناعي تعتمد على الـ cloud إلى العديد من أجزاء نظام Windows وتطبيقات Microsoft المختلفة.
+- تخزين بيانات حساسة دون حاجة حقيقية لذلك. حتى البيانات التي يتم تخزينها على جهازك فقط ولا تُرسل إلى Microsoft،
+  تبقى معرضة للخطر إذا أصيب جهازك بفيروس أو برنامج تجسس.
 
-Microsoft often uses the automatic updates feature to add new functionality to your device and make changes that collect your data and are enabled by default. Some [privacy features](https://blogs.windows.com/windows-insider/2023/11/16/previewing-changes-in-windows-to-comply-with-the-digital-markets-act-in-the-european-economic-area) such as the option to _opt out_ of syncing an online Microsoft account with Windows, require you to select a country in the EEA (European Economic Area) during installation. It can be changed to your real country after Windows is installed.
+كثيرا ما تستخدم Microsoft ميزة التحديثات التلقائية لإضافة وظائف (features) جديدة إلى جهازك، وأحيانا لإجراء تعديلات تجمع بياناتك وتكون مفعلة بشكل افتراضي دون تنبيه واضح. Some [privacy features](https://blogs.windows.com/windows-insider/2023/11/16/previewing-changes-in-windows-to-comply-with-the-digital-markets-act-in-the-european-economic-area) such as the option to _opt out_ of syncing an online Microsoft account with Windows, require you to select a country in the EEA (European Economic Area) during installation. It can be changed to your real country after Windows is installed.
 
 ## Windows Editions
 

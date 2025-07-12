@@ -272,27 +272,29 @@ Mullvad هو خدمة VPN سريعة ومنخفضة التكلفة، تركز ب
 
 - الـ **Obfuscation modes**: توفر Mullvad وضعين مدمجين للتمويه (obfuscation): UDP-over-TCP و[WireGuard over Shadowsocks](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard). تعمل هذه الأوضاع (modes) على إخفاء حركة VPN الخاصة بك لتبدو كأنها حركة ويب عادية، مما يجعل من الصعب على أنظمة الرقابة اكتشافها أو حظرها. يُقال إن الصين أصبحت تحتاج إلى أسلوب جديد لتعطيل حركة البيانات التي تمر عبر [Shadowsocks](https://gfw.report/publications/usenixsecurity23/en).
 - **الـ Advanced obfuscation (التموية المتقدم) بإستخدام Shadowsocks and v2ray**: للمستخدمين المتقدمين، توفر Mullvad دليلا لشرح كيفية استخدام إضافة Shadowsocks مع v2ray مع تطبيقات Mullvad. يوفر هذا الإعداد طبقة إضافية من التمويه والتشفير، مما يعزز القدرة على تجاوز الرقابة والحفاظ على الخصوصية.
-- **Custom server IPs**: إذا كانت هناك محاولات لحجب VPN من خلال منع الوصول إلى عناوين الـ IP المعروفة، يمكنك التواصل مع دعم Mullvad وطلب عناوين خوادم مخصصة تساعدك على تجاوز هذا الحجب. Once you receive the custom IPs, you can input the text file in the "Server IP override" settings, which will override the chosen server IP addresses with ones that aren't known to the censor.
-- **Bridges and proxies**: Mullvad also allows you to use bridges or proxies to reach their API (needed for authentication), which can help bypass censorship attempts that block access to the API itself.
+- **Custom server IPs**: إذا كانت هناك محاولات لحجب VPN من خلال منع الوصول إلى عناوين الـ IP المعروفة، يمكنك التواصل مع دعم Mullvad وطلب عناوين خوادم مخصصة تساعدك على تجاوز هذا الحجب. بعد أن تستلم الـ custom IPs من فريق دعم Mullvad، يمكنك تحميلها في إعداد موجود داخل التطبيق يُسمى "Server IP override". هذا الإعداد يسمح لك باستخدام عناوين جديدة غير معروفة لأنظمة الحجب، بدلا من العناوين العادية التي قد تكون محجوبة.
+- **الـ Bridges وProxies**: تتيح Mullvad استخدام Bridges أو Proxies للوصول إلى الـ API الخاصة بها (اللازمة لتسجيل الدخول)، مما يساعد في تجاوز محاولات الرقابة التي تحاول حجب الوصول إلى الـAPI نفسه.
 
 #### :material-check:{ .pg-green } عملاء الهاتف المحمول
 
-Mullvad has published [App Store](https://apps.apple.com/app/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
+نشرت Mullvad تطبيقاتها الرسمية على [App Store ](https://apps.apple.com/app/id1488466513)و[Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)، وتوفر هذه التطبيقات واجهة سهلة الاستخدام، تغنيك عن إعداد اتصال WireGuard يدويا. يتوفر تطبيق Mullvad لأندرويد أيضا على [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
 
 #### :material-information-outline:{ .pg-blue } ملاحظات إضافية
 
-Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers). They also provide the option to enable Defense Against AI-guided Traffic Analysis ([DAITA](https://mullvad.net/en/blog/daita-defense-against-ai-guided-traffic-analysis)) in their apps. DAITA protects against the threat of advanced traffic analysis which can be used to connect patterns in VPN traffic with specific websites.
+تُظهر Mullvad قدرا كبيرا من الشفافية بشأن الخوادم التي [تملكها أو تستأجرها](https://mullvad.net/en/servers). كما توفر Mullvad خيار تفعيل ميزة الحماية من تحليل الحركة باستخدام الذكاء الاصطناعي ([DAITA](https://mullvad.net/en/blog/daita-defense-against-ai-guided-traffic-analysis)) داخل تطبيقاتها، وهي تهدف إلى منع أنظمة الذكاء الاصطناعي من تحليل أنماط حركة الإنترنت لتحديد نشاطك أو هويتك. تحمي ميزة DAITA من نوع متقدم من المراقبة يُعرف بتحليل حركة البيانات، والذي يمكن استخدامه لمحاولة تحديد المواقع التي تزورها من خلال مراقبة نمط استخدامك للـVPN، حتى لو لم يُعرف محتوى ما ترسله أو تستقبله.
 
-## Criteria
+## المعايير
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">خطر</p>
 
-It is important to note that using a VPN provider will not make you anonymous, but it will give you better privacy in certain situations. A VPN is not a tool for illegal activities. Don't rely on a "no log" policy.
+من المهم أن تعلم أن استخدام خدمة VPN لا يجعلك مجهول الهوية بالكامل،
+لكنه يمنحك مستوى أفضل من الخصوصية في مواقف معينة. يجب عدم استخدام خدمات VPN في أنشطة مخالفة للقانون. لا تعتمد فقط على سياسة "No Log"،
+(فقد لا يمكن التأكد من التزام الخدمة بهذه السياسة ما لم تخضع لمراجعات مستقلة ومحايدة).
 
 </div>
 
-**Please note we are not affiliated with any of the providers we recommend. This allows us to provide completely objective recommendations.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any VPN provider wishing to be recommended, including strong encryption, independent security audits, modern technology, and more. We suggest you familiarize yourself with this list before choosing a VPN provider, and conduct your own research to ensure the VPN provider you choose is as trustworthy as possible.
+**يرجى ملاحظة أننا لسنا مرتبطين بأي من الخدمات التي نوصي بها. وهذا ما يتيح لنا تقديم توصيات محايدة تماما.** بالإضافة إلى[ المعايير العامة ](about/criteria.md)التي نعتمدها، قمنا بوضع مجموعة واضحة من المتطلبات لأي خدمة VPN ترغب في أن نوصي بها، وتشمل: تشفير قوي، مراجعات أمنية مستقلة، استخدام تقنيات حديثة، وغيرها من المعايير الصارمة. We suggest you familiarize yourself with this list before choosing a VPN provider, and conduct your own research to ensure the VPN provider you choose is as trustworthy as possible.
 
 ### Technology
 
@@ -306,7 +308,7 @@ We require all our recommended VPN providers to provide standard configuration f
 - If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what the program is actually doing.
 - Censorship resistance features designed to bypass firewalls without DPI.
 
-**Best Case:**
+**أحسن الاحتمالات:**
 
 - Kill switch with highly configurable options (enable/disable on certain networks, on boot, etc.)
 - Easy-to-use VPN clients
@@ -323,7 +325,7 @@ We prefer our recommended providers to collect as little data as possible. Not c
 - [Anonymous cryptocurrency](cryptocurrency.md) **or** cash payment option.
 - No personal information required to register: Only username, password, and email at most.
 
-**Best Case:**
+**أحسن الاحتمالات:**
 
 - Accepts multiple [anonymous payment options](advanced/payments.md).
 - No personal information accepted (auto-generated username, no email required, etc.).
@@ -339,7 +341,7 @@ A VPN is pointless if it can't even provide adequate security. We require all ou
 - Published security audits from a reputable third-party firm.
 - VPN servers that use full-disk encryption or are RAM-only.
 
-**Best Case:**
+**أحسن الاحتمالات:**
 
 - Strongest Encryption: RSA-4096.
 - Optional quantum-resistant encryption.
@@ -350,41 +352,41 @@ A VPN is pointless if it can't even provide adequate security. We require all ou
 
 ### Trust
 
-You wouldn't trust your finances to someone with a fake identity, so why trust them with your internet data? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
+You wouldn't trust your finances to someone with a fake identity, so why trust them with your internet data? We require our recommended providers to be public about their ownership or leadership. كما نفضل أن تنشر الخدمة تقارير شفافية بشكل منتظم، خصوصا فيما يتعلق بكيفية تعاملها مع طلبات الجهات الحكومية.
 
-**Minimum to Qualify:**
+**الحد الأدنى لترشيح الخدمة:**
 
-- Public-facing leadership or ownership.
-- Company based in a jurisdiction where it cannot be forced to do secret logging.
+- فريق إداري أو مالك معروف ومُعلن بشكل علني.
+- أن تكون الشركة مقرها في دولة لا يمكن إلزامها قانونيا بمراقبة المستخدمين أو الاحتفاظ بسجلات سرية.
 
-**Best Case:**
+**أحسن الاحتمالات:**
 
-- Public-facing leadership.
-- Frequent transparency reports.
+- إدارة معلنة.
+- تقارير شفافية دورية.
 
-### Marketing
+### التسويق
 
-With the VPN providers we recommend we like to see responsible marketing.
+بالنسبة لخدمات الـVPN التي نوصي بها، نُفضل أن تعتمد أسلوبا تسويقيا صادقا وواضحا. (أي أن لا تبالغ في الوعود، ولا تروج لمفاهيم مضللة مثل "الخصوصية المطلقة" أو "إخفاء الهوية بالكامل").
 
-**Minimum to Qualify:**
+**الحد الأدنى لترشيح الخدمة:**
 
-- Must self-host analytics (i.e., no Google Analytics).
+- يجب أن تُدير الخدمة أدوات التحليل الخاصة بها بنفسها، دون الاعتماد على خدمات خارجية مثل Google Analytics.
 
-Must not have any marketing which is irresponsible:
+يشترط ألا تحتوي المواد التسويقية على معلومات مضللة أو وعود مبالغ فيها:
 
-- Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know people can quite easily deanonymize themselves in a number of ways, e.g.:
-    - Reusing personal information (e.g., email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
-    - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
-- Claim that a single circuit VPN is "more anonymous" than Tor, which is a circuit of three or more hops that regularly changes.
-- Use responsible language: i.e., it is okay to say that a VPN is "disconnected" or "not connected", however claiming that someone is "exposed", "vulnerable" or "compromised" is needless use of alarming language that may be incorrect. For example, that person might simply be on another VPN provider's service or using Tor.
+- ضمانات بحماية الهوية بشكل كامل بنسبة 100٪. عندما يدعي أحدهم أن شيئا ما مضمون بنسبة 100٪، فهذا يعني ضمنا أنه لا يمكن أن يفشل أبدا — وهو أمر غير واقعي. نعلم أن المستخدمين قد يفصحون عن هويتهم دون قصد بطرق متعددة، مثلا.:
+    - إعادة استخدام بيانات شخصية (مثل البريد أو الاسم المستعار) سبق استخدامها بدون أدوات إخفاء الهوية مثل Tor، مما يسهل الربط بين الهوية الحقيقية والنشاط.)
+    - [بصمة المتصفح](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+- يُعتبر من التسويق المضلل أن تدعي خدمة VPN أن اتصالها العادي (الذي يمر عبر خادم واحد فقط) يمنح "مجهولية أكثر" من شبكة Tor، لأن Tor يستخدم مسارا مكوّنا من ثلاث خوادم أو أكثر، ويتغير بشكل منتظم لزيادة الخصوصية.
+- استخدام لغة متزنة: من المقبول أن تقول إن اتصال الـVPN "مقطوع" أو "غير متصل"، لكن استخدام تعبيرات مثل "أنت مكشوف"، أو "في خطر"، أو "تم اختراقك" هو تهويل غير ضروري، وقد يكون غير دقيق. فمثلا، قد يكون ذلك الشخص ببساطة يستخدم خدمة VPN أخرى، أو متصلا عبر شبكة Tor.
 
-**Best Case:**
+**أحسن الاحتمالات:**
 
-Responsible marketing that is both educational and useful to the consumer could include:
+أسلوب تسويقي مسؤول يجمع بين التوعية والفائدة للمستخدم يمكن أن يتضمن:
 
-- An accurate comparison to when [Tor](tor.md) should be used instead.
-- Availability of the VPN provider's website over a [.onion service](https://en.wikipedia.org/wiki/.onion)
+- مقارنة دقيقة توضح متى يكون من الأفضل استخدام شبكة [Tor](tor.md) بدلا من VPN.
+- توفر موقع خدمة الـVPN عبر [نطاق.onion](https://en.wikipedia.org/wiki/.onion) (لتمكين الوصول إليه من خلال شبكة Tor عند الحاجة إلى خصوصية أعلى)
 
-### Additional Functionality
+### ميزات إضافية
 
-While not strictly requirements, there are some factors we looked into when determining which providers to recommend. These include content blocking functionality, warrant canaries, excellent customer support, the number of allowed simultaneous connections, etc.
+رغم أن هذه الأمور ليست شروطا إلزامية، إلا أننا أخذناها بعين الاعتبار عند تقييم مزودي خدمات الـVPN الذين نوصي بهم. وتشمل هذه العوامل: إمكانية حظر المحتوى، ووجود إشعارات قانونية تحذيرية (Warrant Canaries)، ودعم فني ممتاز، وعدد الاتصالات المتزامنة (simultaneous connections) المسموح بها، وغيرها.
