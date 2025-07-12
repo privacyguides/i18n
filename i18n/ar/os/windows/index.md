@@ -47,26 +47,37 @@ description: Microsoft Windows هو نظام تشغيل شائع، لكنه يف
 - تخزين بيانات حساسة دون حاجة حقيقية لذلك. حتى البيانات التي يتم تخزينها على جهازك فقط ولا تُرسل إلى Microsoft،
   تبقى معرضة للخطر إذا أصيب جهازك بفيروس أو برنامج تجسس.
 
-كثيرا ما تستخدم Microsoft ميزة التحديثات التلقائية لإضافة وظائف (features) جديدة إلى جهازك، وأحيانا لإجراء تعديلات تجمع بياناتك وتكون مفعلة بشكل افتراضي دون تنبيه واضح. Some [privacy features](https://blogs.windows.com/windows-insider/2023/11/16/previewing-changes-in-windows-to-comply-with-the-digital-markets-act-in-the-european-economic-area) such as the option to _opt out_ of syncing an online Microsoft account with Windows, require you to select a country in the EEA (European Economic Area) during installation. It can be changed to your real country after Windows is installed.
+كثيرا ما تستخدم Microsoft ميزة التحديثات التلقائية لإضافة وظائف (features) جديدة إلى جهازك، وأحيانا لإجراء تعديلات تجمع بياناتك وتكون مفعلة بشكل افتراضي دون تنبيه واضح. بعض [ميزات الخصوصية](https://blogs.windows.com/windows-insider/2023/11/16/previewing-changes-in-windows-to-comply-with-the-digital-markets-act-in-the-european-economic-area) — مثل إلغاء ربط حساب Microsoft من Windows وعدم مزامنته تلقائيا — لا تظهر للمستخدم إلا إذا اختار دولة أوروبية (من داخل المنطقة الاقتصادية الأوروبية EEA) أثناء تثبيت النظام. بعد انتهاء تثبيت Windows، يمكنك تغيير الدولة إلى بلدك الحقيقي بشكل طبيعي.
 
-## Windows Editions
+## إصدارات Windows
 
-Many critical privacy and security features are unfortunately locked away behind higher-cost editions of Windows, instead of being available in Windows **Home**. Some features missing from **Home** include BitLocker Drive Encryption, Hyper-V, and Windows Sandbox. In our Windows guides we will cover how to use all of these features appropriately, so having a premium edition of Windows will be necessary.
+للأسف، العديد من ميزات الخصوصية والأمان المهمة لا تتوفر في النسخة العادية (**Home**) من نظام Windows، وإنما تكون محصورة في إصدارات أعلى وأكثر تكلفة مثل (Pro أو Enterprise). من الميزات التي لا تتوفر في نسخة **Home** من Windows:
+BitLocker وHyper-V وWindows Sandbox. سنشرح في خطواتنا القادمة كيفية استخدام كل هذه الميزات بطريقة صحيحة،
+ولكنك ستحتاج إلى نسخة متقدمة من نظام Windows (مثل إصدار Pro أو Enterprise) حتى تتمكّن من استخدامها.
 
-Windows **Enterprise** provides the most flexibility when it comes to configuring privacy and security settings built in to Windows. For example, they are the only editions that allow you to enable the highest level of restrictions on data sent to Microsoft via telemetry tools. Unfortunately, Enterprise is not available for retail purchase, so it may not be available to you.
+تُوفر نسخة Windows **Enterprise** أكبر قدر من المرونة في التحكم في إعدادات الخصوصية والأمان المتاحة داخل نظام Windows. على سبيل المثال، إصدارات Enterprise هي الوحيدة التي تسمح لك بتفعيل أعلى مستوى من القيود على البيانات التي تُرسل إلى Microsoft من خلال أدوات جمع البيانات التلقائية (Telemetry). للأسف، نسخة Enterprise لا تُباع بشكل مباشر للمستخدم العادي، ولذلك قد يكون من الصعب عليك الحصول عليها.
 
-The best version available for _retail_ purchase is Windows **Pro** as it has nearly all the features you'll want to use to secure your device, including BitLocker, Hyper-V, etc. The only thing missing is some of the most restrictive limitations on Microsoft's telemetry, unfortunately.
+أفضل نسخة متاحة للشراء **المباشر** للمستخدم هي نسخة Windows **Pro**،
+لأنها تحتوي على معظم الميزات التي ستحتاجها لتأمين جهازك وحماية خصوصيتك، مثل: تشفير الأقراص (BitLocker) و(Hyper-V) وغيرها من الميزات المهمة. للأسف، الشيء الوحيد الذي تفتقده نسخة Pro هو القدرة على فرض القيود الأكثر صرامة على جمع البيانات التلقائي (Telemetry) من قِبل Microsoft.
 
-Students and teachers may be able to obtain a Windows **Education** (equivalent to Enterprise) or **Pro Education** license (equivalent to Pro) for free, including on personal devices, from their educational institution. Many schools partner with Microsoft via OnTheHub or Microsoft Azure for Education, so you can check those sites or your school's benefits page to see if you qualify. Whether or not you are able to get these licenses depends entirely on your institution. This may be the best way for many people to obtain an Enterprise-level edition of Windows for personal use. There are no additional privacy or security risks associated with using an Education license compared to the retail versions.
+قد يستطيع الطلاب والمعلمون الحصول على ترخيص مجاني لنسخة Windows **Education** (المكافئة لنسخة Enterprise) أو نسخة **Pro Education** (المكافئة لنسخة Pro)، من خلال مؤسستهم التعليمية، ويشمل ذلك أجهزتهم الشخصية أيضًا. العديد من المدارس والجامعات لديها شراكة مع Microsoft عبر منصات مثل OnTheHub أو Microsoft Azure للتعليم، لذا يمكنك مراجعة هذه المواقع، أو صفحة المزايا على موقع مدرستك أو جامعتك، لمعرفة ما إذا كنت مؤهلا للحصول على نسخة مجانية من Windows. إمكانية حصولك على هذه التراخيص تعتمد بشكل كامل على مؤسستك التعليمية. وقد تكون هذه الطريقة أفضل خيار للكثيرين للحصول على نسخة من Windows بمستوى Enterprise للاستخدام الشخصي. لا توجد أي مخاطر إضافية على الخصوصية أو الأمان عند استخدام ترخيص Education،
+مقارنة بالإصدارات التجارية (Retail) من Windows.
 
-It is not recommended to use third party modified versions of Windows such as Windows AME. Since modified versions of Windows like Windows AME don't receive updates, security features and antivirus definitions in Windows Defender will fall behind the current threat landscape, opening you up to attacks, thus making you even less secure.
+لا يُنصح باستخدام إصدارات معدّلة من Windows من جهات خارجية، مثل Windows AME. بما أن الإصدارات المعدلة من Windows – مثل Windows AME – لا تتلقى تحديثات رسمية، فإن ميزات الأمان وتحديثات برنامج الحماية Windows Defender لن تبقى محدثة، مما يجعلك أكثر عرضة للهجمات ويُقلل من مستوى الأمان في جهازك.
 
-## Obtaining Windows
+## الحصول على Windows
 
-Currently, only Windows 11 license keys are available for purchase, but these keys will work on Windows 10 as well, so you can still purchase a Windows 11 Pro key to activate a Windows 10 install.
+حاليا، الـ license keys المتوفرة للشراء هي خاصة بـ Windows 11 فقط،
+لكن يمكنك استخدام هذه الـ license keys لتفعيل نسخة Windows 10 أيضا،
+لذلك لا يزال بإمكانك شراء الـ license keys لـ Windows 11 Pro وتفعيل تثبيت Windows 10 به.
 
-The official [Media Creation Tool](https://microsoft.com/software-download/windows11) is the best way to put a Windows installer on a USB flash drive. Third-party tools like Rufus or Etcher may unexpectedly modify the files, which could lead to boot issues or other troubles when installing.
+أسهل وأفضل طريقة لوضع نسخة تثبيت Windows على فلاشة USB
+هي باستخدام أداة مايكروسوفت الرسمية:
+[Media Creation Tool](https://microsoft.com/software-download/windows11). بعض الأدوات الخارجية مثل Rufus أو Etcher قد تقوم بتعديل ملفات التثبيت بطريقة غير متوقعة، مما قد يؤدي إلى مشاكل في إقلاع الجهاز (boot issues) أو أخطاء أثناء التثبيت.
 
-This tool only lets you install a **Home** or **Pro** installation, as there are no publicly available downloads for Windows **Enterprise** edition. If you have an **Enterprise** license key, you can easily upgrade a **Pro** installation. To do this, install Windows **Pro** without entering a license key during setup, then enter your **Enterprise** key in the Settings app after completing the installation. Your **Pro** install will be upgraded to **Enterprise** automatically after entering a valid license key.
+تتيح لك هذه الأداة تثبيت نسختي **Home** أو **Pro** فقط،
+لأن نسخة **Enterprise** لا يمكن تحميلها مباشرة من موقع مايكروسوفت. إذا كان لديك الـ license key لـ **Enterprise**، يمكنك ترقية نسخة Windows **Pro** إلى Enterprise بسهولة دون الحاجة لإعادة التثبيت. لتنفيذ ذلك: قم بتثبيت نسخة Windows **Pro** بدون إدخال الـ license key أثناء التثبيت،
+ثم بعد الانتهاء من التثبيت، ادخل الـ license key لـ **Enterprise** داخل تطبيق الإعدادات (Settings) ليتم الترقية تلقائيا. بمجرد إدخال license key الخاص بنسخة **Enterprise**،
+سيتم ترقية نسخة Windows **Pro**تلقائيا إلى **Enterprise** دون الحاجة إلى إعادة التثبيت.
 
-If you are installing an **Education** license then you will typically have a private download link that will be provided alongside your license key when you obtain it from your institution's benefits portal.
+إذا كنت ستثبت نسخة Windows **Education**، فعادة ستحصل على رابط تحميل خاص مع license key عندما تطلب النسخة من الـ institution's benefits portal.
