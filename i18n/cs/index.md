@@ -44,23 +44,23 @@ schema:
 
 > „Nemám co skrývat. Proč by mě mělo zajímat moje soukromí?“
 
-Stejně jako právo na manželství stejnopohlavních párů, volební právo žen, svoboda slova a spoustu dalších, naše právo na soukromí nebylo vždy uznávané. Ve spoustě diktaturách není doteď. Generace před námi bojovaly za právo mít vlastní soukromí. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
+Stejně jako právo na manželství stejnopohlavních párů, volební právo žen, svoboda slova a spoustu dalších, naše právo na soukromí nebylo vždy uznávané. Ve spoustě diktaturách není doteď. Generace před námi bojovaly za právo mít vlastní soukromí. ==Soukromí je lidské právo, vlastní každému z nás,== které nám náleží (bez diskriminace).
 
-You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
+Neměli byste si ale plést soukromí s utajováním. Všichni víme, co se děje na záchodě, ale i tak chcete mít zavřené dveře. A to proto, že chcete soukromí, ne utajování. **Každý** má něco, co chce chránit. Soukromí je něco, co nás dělá lidmi.
 
-[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button" }
+[:material-book-outline: Proč na soukromí záleží](basics/why-privacy-matters.md){ class="md-button" }
 </div>
 
 <div markdown>
-## What should I do?
+## Co bych měl(a) dělat?
 
-> First, you need to make a plan
+> Nejdřív potřebujete plán
 
-Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. Ale nebojte se! Security is a process, and, by thinking ahead, you can put together a plan that's right for you. Security isn't just about the *privacy tools* you use or the software you download. Vše začíná tím, že pochopíte, jakým hrozbám čelíte a jak je můžete zmírnit.
+Snažit se ochránit všechny svoje data před všemi a po celou dobu je nepraktické, drahé a vyčerpávající. Ale nebojte se! Bezpečnost je proces, a s trochou předvídání můžete vymyslet plán, který vám bude vyhovovat. Bezpečnost není jen o *nástrojích na ochranu soukromí*, které používáte, nebo o softwaru, který stahujete. Spíš začíná tím, že pochopíte, jakým hrozbám čelíte, a jak je můžete zmírnit.
 
-==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
+==Tomuto procesu identifikování hrozeb a hledání protiopatření se říká **threat modeling**== a tvoří základ každého dobrého plánu.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button" }
+[:material-book-outline: Zjistěte více o threat modelingu](basics/threat-modeling.md){ class="md-button" }
 </div>
 </div>
 
