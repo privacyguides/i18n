@@ -27,7 +27,7 @@ Mucha gente confunde los conceptos de **privacidad**, **seguridad**, y **anonima
 La seguridad es la capacidad de confiar en las aplicaciones que utilizas -que las partes implicadas sean quienes dicen ser- y mantenerlas seguras. En el contexto de la navegación por Internet, por ejemplo, la seguridad puede ser proporcionada por certificados HTTPS.
 :
 
-Los certificados demuestran que estás hablando directamente con el sitio web que visitas y evitan que los atacantes de su ted lean o modifiquen los datos enviados al sitio web o desde él.
+Los certificados demuestran que estás hablando directamente con el sitio web que visitas y evitan que los atacantes de tu red lean o modifiquen los datos enviados al sitio web o desde él.
 
 <!-- markdownlint-disable-next-line -->
 **Anonimato**
