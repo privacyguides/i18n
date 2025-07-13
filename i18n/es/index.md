@@ -44,7 +44,7 @@ schema:
 
 > "No tengo nada que ocultar. ¿Por qué debería preocuparme por mi privacidad?"
 
-Al igual que el derecho al matrimonio interracial, el sufragio femenino, la libertad de expresión y muchos otros, nuestro derecho a la privacidad no siempre ha sido respetado. En varias dictaduras, sigue sin estarlo. Las generaciones anteriores lucharon por nuestro derecho a la privacidad. ==La privacidad es un derecho humano, inherente a todos de nosotros,== al que tenemos derecho (sin discriminación).
+Al igual que el derecho al matrimonio interracial, el sufragio femenino, la libertad de expresión y muchos otros, nuestro derecho a la privacidad no siempre ha sido respetado. En varias dictaduras, sigue sin estarlo. Las generaciones anteriores lucharon por nuestro derecho a la privacidad. ==La privacidad es un derecho humano, inherente a todos nosotros,== al que tenemos derecho (sin discriminación).
 
 No deberías confundir privacidad con secretismo. Sabemos lo que sucede en el baño, pero todavía puedes cerrar la puerta. Eso es porque quieres privacidad, no secretismo. **Todos** tienen algo que proteger. La privacidad es algo que nos hace humanos.
 

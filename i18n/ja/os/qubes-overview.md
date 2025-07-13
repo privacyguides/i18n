@@ -4,23 +4,23 @@ icon: simple/qubesos
 description: Qubesは、アプリケーションをqubes（以前は「VMs」と呼ばれていた）内で隔離することに基づいて構築されたオペレーティングシステムで、セキュリティを強化しています。
 ---
 
-[**Qubes OS**](../desktop.md#qubes-os) is an open-source operating system which uses the [Xen](https://en.wikipedia.org/wiki/Xen) hypervisor to provide strong security for desktop computing through isolated *qubes*, (which are Virtual Machines). You can assign each *qube* a level of trust based on its purpose. Qubes OS provides security by using isolation. It only permits actions on a per-case basis and therefore is the opposite of [badness enumeration](https://ranum.com/security/computer_security/editorials/dumb).
+[**Qubes OS**](../desktop.md#qubes-os) は [Xen](https://en.wikipedia.org/wiki/Xen) ハイパーバイザーを使用し、隔離された *qubes*, (仮想マシン)を通じてデスクトップコンピューティングの強力なセキュリティを提供するオープンソースのオペレーティングシステムです。 各 *qube* に、その目的に基づいて信頼レベルを割り当てることができます。 Qubes OSは、アイソレーションを使用することでセキュリティを提供します。 ケースごとにアクションを許可するだけであり、[badness enumeration](https://ranum.com/security/computer_security/editorials/dumb)の反対です。
 
 ## Qubes OSの仕組み
 
-Qubes uses [compartmentalization](https://qubes-os.org/intro) to keep the system secure. Qubes are created from templates, the defaults being for Fedora, Debian and [Whonix](../desktop.md#whonix). Qubes OS also allows you to create once-use [disposable](https://qubes-os.org/doc/how-to-use-disposables) *qubes*.
+Qubesは、システムのセキュリティを維持するために [区画化](https://qubes-os.org/intro) を行っています。 Qubeはテンプレートから作成され、デフォルトはFedora、Debian、および [Whonix](../desktop.md#whonix)です。 Qubes OSは、一度だけ使用する [使い捨て](https://qubes-os.org/doc/how-to-use-disposables) の *qube*を作成することも可能です。
 
 <details class="note" markdown>
-<summary>The term <em>qubes</em> is gradually being updated to avoid referring to them as "virtual machines".</summary>
+<summary><em>qube</em>という用語は、それらを「仮想マシン」と呼ぶことを避けるために徐々に更新されています。</summary>
 
-Some of the information here and on the Qubes OS documentation may contain conflicting language as the "appVM" term is gradually being changed to "qube". Qubes are not entire virtual machines, but maintain similar functionalities to VMs.
+ここおよびQubes OSのドキュメントにある情報の一部は、「appVM」という用語が徐々に「qube」に変更されているため、矛盾する表現を含む場合があります。 Qubesは完全な仮想マシンではありませんが、VMと類似の機能を維持しています。
 
 </details>
 
 ![Qubesのアーキテクチャー](../assets/img/qubes/qubes-trust-level-architecture.png)
-<figcaption>Qubes Architecture, Credit: What is Qubes OS Intro</figcaption>
+<figcaption>Qubeアーキテクチャ、クレジット: Qubes OSイントロ</figcaption>
 
-Each qube has a [colored border](https://qubes-os.org/screenshots) that can help you keep track of the domain in which it runs. You could, for example, use a specific color for your banking browser, while using a different color for a general untrusted browser.
+各qubeには、実行されているドメインを把握するのに役立つ [色のついた枠線](https://qubes-os.org/screenshots) があります。 You could, for example, use a specific color for your banking browser, while using a different color for a general untrusted browser.
 
 ![Colored border](../assets/img/qubes/r4.0-xfce-three-domains-at-work.png)
 <figcaption>Qubes window borders, Credit: Qubes Screenshots</figcaption>
