@@ -2,13 +2,13 @@
 *[ADB]: Android Debug Bridge
 *[AOSP]: Android Open Source Project
 *[ATA]: Advanced Technology Attachment
-*[attack surface]: Nejvyšší počet možných vstupů pro neautorizovaný přístup do systému
+*[prostor pro útok]: Nejvyšší počet možných vstupů pro neautorizovaný přístup do systému
 *[AVB]: Android Verified Boot
 *[cgroups]: Control Groups
-*[CLI]: Příkazová řádka
-*[CSV]: Hodnoty oddělené čárkou
-*[CVE]: Common Vulnerabilities and Exposures
-*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
+*[CLI]: Příkazová řádka (Command Line Interface)
+*[CSV]: Comma-Separated Values (hodnoty oddělené čárkou)
+*[CVE]: Běžné zranitelnosti a expozice (Common Vulnerabilities and Exposures)
+*[dark pattern]: Klamavý design, který má uživatele nekale přimět k nějaké akci
 *[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: Systém doménových jmen
@@ -17,21 +17,21 @@
 *[DoH3]: DNS přes HTTP/3
 *[DoT]: DNS přes TLS
 *[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
-*[E2EE]: End-to-End Encryption/Encrypted
+*[E2EE]: Koncové šifrování (End-to-End Encryption/Encrypted)
 *[ECS]: EDNS Client Subnet
-*[EEA]: European Economic Area
-*[entropy]: A measurement of how unpredictable something is
-*[EOL]: End-of-Life
+*[EEA]: Evropský hospodářský prostor
+*[entropy]: Měřítko toho, jak nepředvídatelná daná věc je
+*[EOL]: End-of-Life (konec podpory)
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
-*[FDE]: Full Disk Encryption
+*[FDE]: Šifrování celého disku (Full Disk Encryption)
 *[FIDO]: Fast IDentity Online
 *[FS]: Forward Secrecy
 *[fork]: A new software project created by copying an existing project and adding to it independently
-*[GDPR]: General Data Protection Regulation
+*[GDPR]: Obecné nařízení o ochraně osobních údajů (General Data Protection Regulation)
 *[GPG]: GNU Privacy Guard (implementace PGP)
 *[GPS]: Global Positioning System
-*[GUI]: Graphical User Interface
+*[GUI]: Grafické uživatelské rozhraní (Graphical User Interface)
 *[GnuPG]: GNU Privacy Guard (implementace PGP)
 *[HDD]: Hard Disk Drive
 *[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
@@ -101,11 +101,11 @@
 *[U2F]: Univerzální druhý faktor
 *[UEFI]: Unified Extensible Firmware Interface
 *[UDP]: User Datagram Protocol
-*[VPN]: Virtuální privátní síť
-*[VLAN]: Virtual Local Area Network
-*[VoIP]: Hlas přes IP (internetový protokol)
+*[VPN]: Virtual Private Network (virtuální privátní síť)
+*[VLAN]: Virtual Local Area Network (virtuální lokální síť)
+*[VoIP]: Voice over IP (hlas přes IP, internetový protokol)
 *[W3C]: Konsorcium World Wide Web
-*[XMPP]: Rozšiřitelný protokol pro posílání zpráv a zjištění stavu
-*[PWA]: Progresivní Webové Aplikace
-*[PWAs]: Progressive Web Apps
+*[XMPP]: Extensible Messaging and Presence Protocol (rozšiřitelný protokol pro posílání zpráv a zjištění stavu)
+*[PWA]: Progresivní Webová Aplikace
+*[PWAs]: Progresivní webové aplikace
 *[WKD]: Web Key Directory
