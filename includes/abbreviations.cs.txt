@@ -35,8 +35,8 @@
 *[GnuPG]: GNU Privacy Guard (implementace PGP)
 *[HDD]: Hard Disk Drive
 *[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
-*[HTTPS]: Hypertext Transfer Protocol Secure
-*[HTTP]: Hypertext Transfer Protocol
+*[HTTPS]: Hypertextový zabezpečený přenosový protokol (HyperText Transfer Protocol Secure)
+*[HTTP]: Hypertextový přenosový protokol (HyperText Transfer Protocol)
 *[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
 *[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: Internet Message Access Protocol
@@ -45,8 +45,8 @@
 *[IP]: Internetový protokol
 *[IPv4]: Internetový protokol verze 4
 *[IPv6]: Internetový protokol verze 6
-*[ISP]: Poskytovatel internetových služeb
-*[ISPs]: Internet Service Providers
+*[ISP]: Poskytovatel internetových služeb (Internet Service Provider)
+*[ISPs]: Poskytovatelé internetových služeb (Internet Service Providers)
 *[JNI]: Nativní rozhraní Java
 *[KYC]: Know Your Customer
 *[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
@@ -65,7 +65,7 @@
 *[OEM]: Original Equipment Manufacturer
 *[OEMs]: Original Equipment Manufacturers
 *[open-weights]: An open weights-model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
-*[OS]: Operating System
+*[OS]: Operační systém (Operating System)
 *[OTP]: Jednorázové heslo
 *[OTPs]: One-Time Passwords
 *[OpenPGP]: Open-source implementation of Pretty Good Privacy (PGP)
@@ -84,14 +84,14 @@
 *[SMS]: Služba krátkých textových zpráv (standardní textové zprávy)
 *[SMTP]: Simple Mail Transfer Protocol
 *[SNI]: Označení názvu serveru
-*[SSD]: Polovodičový disk
+*[SSD]: Polovodičový disk (Solid-State Drive)
 *[SSH]: Secure Shell
 *[SUID]: Set Owner User ID
 *[SaaS]: Software as a Service (cloud software)
-*[SoC]: Systém na čipu
-*[SSO]: Single sign-on
-*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
-*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
+*[SoC]: Systém na čipu (System on Chip)
+*[SSO]: Jednotné přihlašování (Single Sign-On)
+*[systémový prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
+*[teplota]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
 *[TCP]: Transmission Control Protocol
 *[TEE]: Trusted Execution Environment
 *[TLS]: Transport Layer Security

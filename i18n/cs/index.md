@@ -1,6 +1,6 @@
 ---
-meta_title: "Privacy Guides: Independent Privacy & Security Resources"
-description: "Established in 2021, Privacy Guides is the most popular & trustworthy non-profit resource to find privacy tools and learn about protecting your digital life."
+meta_title: "Privacy Guides: Nezávislý zdroj informací o soukromí a bezpečnosti"
+description: "Privacy Guides, založené v roce 2021, jsou nejpopulárnějším a nejdůvěryhodnějším neziskovým zdrojem pro hledání nástrojů na ochranu soukromí a učení se, jak lépe chránit svůj digitální život."
 template: home.html
 social:
   cards_layout: home
@@ -40,11 +40,11 @@ schema:
 <!-- markdownlint-disable -->
 <div class="grid" markdown>
 <div markdown>
-## Why should I care?
+## Proč by mě to mělo zajímat?
 
-> “I have nothing to hide. Why should I care about my privacy?”
+> „Nemám co skrývat. Proč by mě mělo zajímat moje soukromí?“
 
-Much like the right to interracial marriage, woman's suffrage, freedom of speech, and many others, our right to privacy hasn't always been upheld. In several dictatorships, it still isn't. Generations before ours fought for our right to privacy. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
+Stejně jako právo na manželství stejnopohlavních párů, volební právo žen, svoboda slova a spoustu dalších, naše právo na soukromí nebylo vždy uznávané. Ve spoustě diktaturách není doteď. Generace před námi bojovaly za právo mít vlastní soukromí. ==Privacy is a human right, inherent to all of us,== that we are entitled to (without discrimination).
 
 You shouldn't confuse privacy with secrecy. We know what happens in the bathroom, but you still close the door. That's because you want privacy, not secrecy. **Everyone** has something to protect. Privacy is something that makes us human.
 
@@ -88,7 +88,7 @@ Trying to protect all your data from everyone all the time is impractical, expen
 
 ## About Privacy Guides
 
-![Privacy Guides logo](assets/brand/logos/png/square/pg-yellow.png){ align=right loading=lazy }
+![logo Privacy Guides](assets/brand/logos/png/square/pg-yellow.png){ align=right loading=lazy }
 
 Established in 2021 due to the difficulty of finding unbiased reviewers in the VPN and privacy space, **Privacy Guides** is the most popular, trustworthy, non-profit website that provides information about protecting your *personal* data security and privacy. Our crowdsourced recommendations and reviews of **privacy tools** and our community dedicated to helping others set us apart from other blogs and content creators. The team behind this project has been researching privacy and security in the open-source space for over 5 years, originally with a now-defunct web resource that eventually became the *Privacy Guides* millions of readers trust.
 

@@ -2,7 +2,7 @@
 meta_title: "Webové prohlížeče respektující soukromí pro PC a Mac - Privacy Guides"
 title: "Prohlížeče pro počítače"
 icon: material/laptop
-description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
+description: Momentálně doporučujeme tyto prohlížeče, které respektují soukromí, pro standardní, neanonymní prohlížení na počítačích.
 cover: desktop-browsers.webp
 schema:
   - 
@@ -57,26 +57,26 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Chrání před těmito hrozbami:</small>
 
-- [:material-account-cash: Kapitalismus sledování](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: Kapitalismus dohledu](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Toto jsou naše aktuálně doporučené **webové prohlížeče pro počítače** a konfigurace pro standardní/neanonymní používání. Doporučujeme prohlížeč [Mullvad](#mullvad-browser), pokud vám záleží na silné ochraně soukromí a ochraně proti otisku prohlížeče hned po instalaci, [Firefox](#firefox) pro nenáročné, kteří hledají dobrou alternativu ke Google Chromu a [Brave](#brave), pokud potřebujete kompatibilní Chromium prohlížeč.
+Toto jsou naše aktuálně doporučované **webové prohlížeče pro počítače** a konfigurace pro standardní/neanonymní používání. Doporučujeme prohlížeč [Mullvad](#mullvad-browser), pokud vám záleží na silné ochraně soukromí a ochraně proti otisku prohlížeče hned po instalaci, [Firefox](#firefox) pro nenáročné, kteří hledají dobrou alternativu ke Google Chromu a [Brave](#brave), pokud potřebujete kompatibilní Chromium prohlížeč.
 
-Pokud potřebujete procházet internet anonymně, měli byste místo toho použít [Tor](tor.md). Na této stránce uvádíme některá konfigurační doporučení, ale všechny prohlížeče kromě prohlížeče Tor budou tak či onak *nějakým* způsobem dohledatelné.
+Pokud potřebujete procházet internet anonymně, měli byste místo toho použít [Tor](tor.md). Na této stránce uvádíme některá konfigurační doporučení, ale všechny prohlížeče, kromě prohlížeče Tor, budou tak či onak umožňovat, aby vás *někdo* sledoval.
 
-## Prohlížeč Mullvad
+## Mullvad Browser
 
 <div class="admonition recommendation" markdown>
 
 ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad Browser** je verze [Tor prohlížeče ](tor.md#tor-browser) s odstraněnou integrací sítě Tor. Cílem je poskytnout uživatelům VPN technologie prohlížeče Tor Browser proti otiskům prstů, které jsou klíčovou ochranou proti [:material-eye-outline: masovému sledování](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Je vyvinut projektem Tor a distribuován společností [Mullvad](vpn.md#mullvad) a **nevyžaduje** používání sítě VPN Mullvad.
+**Mullvad Browser** je verze [Tor Browseru](tor.md#tor-browser) s odstraněnou integrací sítě Tor. Cílem je poskytnout uživatelům VPN ochranu proti otiskům prstů převzatou z Tor Browseru, které jsou klíčovou ochranou proti [:material-eye-outline: masovému sledování](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Je vyvíjený projektem Tor a distribuovaný společností [Mullvad](vpn.md#mullvad), ale **nevyžaduje** používání Mullvad VPN.
 
-[:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title="Documentation" }
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
+[:octicons-home-16: Hlavní stránka](https://mullvad.net/en/browser){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Ochrana osobních údajů" }
+[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title="Dokumentace" }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Zdrojový kód" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -89,9 +89,9 @@ Pokud potřebujete procházet internet anonymně, měli byste místo toho použ�
 
 </div>
 
-Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+Stejně jako [Tor Browser](tor.md) je Mullvad Browser vytvořený tak, aby zabraňoval vytváření jedinečných otisků tím, že otisk vašeho prohlížeče se ztotožňuje s otisky všech ostatních Mullvad Browser uživatelů, včetně výchozích nastavení a rozšíření, které se automaticky konfigurují pomocí výchozích bezpečnostních úrovní: *Standard*, *Safer* and *Safest*.
 
-Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). When adjusting the security level, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
+Proto je nutné, abyste nepřenastavovali prohlížeč mimo už vytvořené [úrovně zabezpečení](https://tb-manual.torproject.org/security-settings). Pokud jste změnili úrovně zabezpečení, **musíte** vždy restartovat prohlížeč předtím, než ho budete znovu používat. V opačném případě se [nastavení zabezpečení nemusí plně projevit](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), což vás dělá více náchylnými na pořízení jedinečných otisků a zranitelnosti, které byste nečekali v závislosti na vámi zvoleném nastavení.
 
 Modifications other than adjusting this setting would make your fingerprint unique, defeating the purpose of using this browser. If you want to configure your browser more heavily and fingerprinting is not a concern for you, we recommend [Firefox](#firefox) instead.
 
