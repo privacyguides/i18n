@@ -88,7 +88,7 @@ Snažit se ochránit všechny svoje data před všemi a po celou dobu je neprakt
 
 ## O Privacy Guides
 
-![logo Privacy Guides](assets/brand/logos/png/square/pg-yellow.png){ align=right loading=lazy }
+![Logo Privacy Guides](assets/brand/logos/png/square/pg-yellow.png){ align=right loading=lazy }
 
 **Privacy Guides**, založena v roce 2021 kvůli náročné dohledatelnosti nezávislých kritiků v oblasti VPN a soukromí, je tou nejpopulárnější a nejdůvěryhodnější neziskovou webovou stránkou, která poskytuje informace v oblasti *osobní* bezpečnosti dat a soukromí. Od ostatních blogů a tvůrců nás odlišují naše crowdsourcovaná doporučení a recenze **nástrojů zaměrených na soukromí**, a také naše komunita, která si navzájem pomáhá. Tým za tímto projektem zkoumá soukromí a bezpečnost v open-source oblasti už přes 5 let, původne v rámci nyní už nefunkčního webu, ze kterého postupem času vzniklo *Privacy Guides*, kterému věří miliony čtenářů.
 
@@ -102,18 +102,18 @@ Dle **WIRED**, **Tweakers.net**, **The New York Times** a spoustě dalších, kd
 <div markdown>
 ## Co jsou nástroje zaměřené na soukromí?
 
-Doporučujeme širokou škálu **nástrojů zaměřených na soukromí**, sahajících od softwaru po hardware, které můžete využít pro to, abyste zlepšili své soukromí. Many of the tools we recommend are completely free to use and open-source software, while some are commercial services available for purchase. Switching from mainstream data-hungry software like Google Chrome and Windows to privacy-focused tools like [Brave](desktop-browsers.md#brave) and [Linux](desktop.md) can go a long way towards controlling the information you share with companies and others.
+Doporučujeme širokou škálu **nástrojů zaměřených na soukromí**, sahajících od softwaru po hardware, které můžete využít pro to, abyste zlepšili své soukromí. Spoustu nástrojů, které doporučujeme, jsou zcela zdarma a s otevřeným kódem, zatímco jiné jsou komerční služby, za které je nutné platit. Přechod z nejpopulárnějšího nenažraného softwaru jako je Google Chrome nebo Windows, k nástrojům zaměřených na soukromí jako je [Brave](desktop-browsers.md#brave) a [Linux](desktop.md), může výrazně přispět ke kontrole nad informacemi, které sdílíte s firmami a jinými subjekty.
 
-[:material-check-all: Our General Criteria](about/criteria.md){ class="md-button" }
+[:material-check-all: Naše obecná kritéria](about/criteria.md){ class="md-button" }
 </div>
 
 <div markdown>
-## Why does privacy matter?
+## Proč je soukromí důležité?
 
-In the modern age of digital data exploitation, your privacy has never been more critical, yet many believe it is already a lost cause. Není. ==Your privacy is up for grabs, and you need to care about it.== Privacy is about power, and it is so important that this power ends up in the right hands.
+V dnešní době, kdy je zneužívání digitálních dat běžné, vaše soukromí nebylo nikdy tak cenné, jako právě dnes. A i přesto většina lidí věří, že se o něho nemá smysl snažit. Není to pravda. ==Vaše soukromí je ostatním na dosah, a vy byste se o něho měli začít zajímat.== Soukromí je záležitostí moci, a je důležité, aby tato moc skončila ve správných rukách.
 
-Many people get the concepts of privacy, security, and anonymity confused. You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
+Hodně lidí si ale plete pojmy, jako je „soukromí“, „bezpečnost“ a „anonymita“. Můžete se setkat s tím, že lidé kritizují různé produkty, protože „neposkytují soukromí“, i když jim ve skutečnosti vadí, že neposkytují anonymitu. Na tomto webu se věnujeme všem třem, ale je potřeba si vyjasnit rozdíl mezi nimi, a kdy každý z nich dává smysl.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 kroků pro zlepšení svého soukromí](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 </div>
 </div>
