@@ -64,45 +64,45 @@ Snažit se ochránit všechny svoje data před všemi a po celou dobu je neprakt
 </div>
 </div>
 
-## Trustworthy Privacy Software Reviews
+## Recenze důvěryhodného softwaru na ochranu soukromí
 
 <div class="grid" markdown>
 
 <div markdown>
-**Privacy Guides** has a dedicated [community](https://discuss.privacyguides.net) independently reviewing various *privacy tools* and services. Each of our recommendations comply with a strict set of criteria to ensure they provide the most value to most people, and provide the best balance of privacy, security, and convenience. As part of a non-profit **public charity**, Privacy Guides has strict **journalistic standards** and policies to ensure our recommendations are free of conflict of interest, and we do not partner with providers or affiliate programs that could sway our reviews and recommendations.
+**Privacy Guides** má dedikovanou [komunitu](https://discuss.privacyguides.net), která nezávisle ověřuje různé *nástroje a služby* zaměřené na soukromí. Každé naše doporučení podléhá přísným kritériím, které zajišťují, že budou užitečné co nejvíce lidem, a zároveň půjde o nejlepší balanc mezi soukromím, bezpečností a pohodlím. V rámci veřejného neziskového zájmu má Privacy Guides přísné **žurnalistické standardy** a zásady, aby bylo zajištěno, že veškerá doporučení nepodléhají střetu zájmů. Nespolupracujeme s poskytovateli a affiliate programy, které by mohly naše recenze a doporučení ovlivňovat.
 
-[:material-heart:{.pg-red} Support Our Work](about/donate.md){ class="md-button md-button--primary" }
+[:material-heart:{.pg-red} Podpořte naši práci](about/donate.md){ class="md-button md-button--primary" }
 
 </div>
 
-- [x] **Ad-Free Recommendations**
-- [x] **Complete Editorial Independence**
-- [x] **Non-Profit & Open Source**
-- [x] **Frequent Updates**
-- [x] **Trusted by Journalists**
-- [x] **Trusted by Readers**
+- [x] **Doporučení bez reklam**
+- [x] **Úplná nezávislost redakce**
+- [x] **Neziskové, s otevřeným zdrojovým kódem**
+- [x] **Časté aktualizace**
+- [x] **S důverou novinářů**
+- [x] **S důvěrou čtenářů**
 
 </div>
 
 ---
 
-## About Privacy Guides
+## O Privacy Guides
 
 ![logo Privacy Guides](assets/brand/logos/png/square/pg-yellow.png){ align=right loading=lazy }
 
-Established in 2021 due to the difficulty of finding unbiased reviewers in the VPN and privacy space, **Privacy Guides** is the most popular, trustworthy, non-profit website that provides information about protecting your *personal* data security and privacy. Our crowdsourced recommendations and reviews of **privacy tools** and our community dedicated to helping others set us apart from other blogs and content creators. The team behind this project has been researching privacy and security in the open-source space for over 5 years, originally with a now-defunct web resource that eventually became the *Privacy Guides* millions of readers trust.
+**Privacy Guides**, založena v roce 2021 kvůli náročné dohledatelnosti nezávislých kritiků v oblasti VPN a soukromí, je tou nejpopulárnější a nejdůvěryhodnější neziskovou webovou stránkou, která poskytuje informace v oblasti *osobní* bezpečnosti dat a soukromí. Od ostatních blogů a tvůrců nás odlišují naše crowdsourcovaná doporučení a recenze **nástrojů zaměrených na soukromí**, a také naše komunita, která si navzájem pomáhá. Tým za tímto projektem zkoumá soukromí a bezpečnost v open-source oblasti už přes 5 let, původne v rámci nyní už nefunkčního webu, ze kterého postupem času vzniklo *Privacy Guides*, kterému věří miliony čtenářů.
 
-*Our website is free of advertisements and not affiliated with any of the listed providers.*
+*Náš web neobsahuje reklamy a nespolupracuje s žádným z níže zmíněných poskytovatelů.*
 
-As seen in **WIRED**, **Tweakers.net**, **The New York Times**, and many other publications as a reliable source for privacy and security knowledge.
+Dle **WIRED**, **Tweakers.net**, **The New York Times** a spoustě dalších, kde se ukázal jako spolehlivý zdroj informací o soukromí a bezpečnosti.
 
-[:material-information: More About Who We Are](about.md){ class="md-button" }
+[:material-information: Více o tom, kdo jsme](about.md){ class="md-button" }
 
 <div class="grid" markdown>
 <div markdown>
-## What are privacy tools?
+## Co jsou nástroje zaměřené na soukromí?
 
-We recommend a wide variety of **privacy tools** (a.k.a. *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can use to improve your privacy. Many of the tools we recommend are completely free to use and open-source software, while some are commercial services available for purchase. Switching from mainstream data-hungry software like Google Chrome and Windows to privacy-focused tools like [Brave](desktop-browsers.md#brave) and [Linux](desktop.md) can go a long way towards controlling the information you share with companies and others.
+Doporučujeme širokou škálu **nástrojů zaměřených na soukromí**, sahajících od softwaru po hardware, které můžete využít pro to, abyste zlepšili své soukromí. Many of the tools we recommend are completely free to use and open-source software, while some are commercial services available for purchase. Switching from mainstream data-hungry software like Google Chrome and Windows to privacy-focused tools like [Brave](desktop-browsers.md#brave) and [Linux](desktop.md) can go a long way towards controlling the information you share with companies and others.
 
 [:material-check-all: Our General Criteria](about/criteria.md){ class="md-button" }
 </div>
