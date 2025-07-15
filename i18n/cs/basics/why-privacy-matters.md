@@ -50,18 +50,18 @@ Všechny tyto vlastnosti se překrývají, ale je možné z nich vyrobit jakouko
 
 ## Je ochrana soukromí o kontrole?
 
-Běžná definice soukromí je ta, že *máte kontrolu* nad tím, kdo má přístup k vašim datům. This is an easy trap to fall into, in fact it is the definition of privacy we operated this website on for a long time. It sounds nice, and it appeals to many people, but in practice it just doesn't work.
+Běžná definice soukromí je ta, že *máte kontrolu* nad tím, kdo má přístup k vašim datům. Je snadné se chytnout do téhle pasti, hlavně proto, že jsme s touto definicí soukromí pracovali dlouhou dobu. Zní dobře a spoustu lidem dává smysl, ale v praxi vůbec nic neznamená.
 
-Take cookie consent forms, for example. You may encounter these dozens of times per day on the various websites you visit, with a nice array of checkboxes and sliders which allow you to "curate" your preferences to exactly fit your needs. In the end, we just hit the "I Agree" button, because we just want to read the article or make a purchase. Nobody wants to complete a personal privacy audit on every single website they visit. This is an exercise in [choice architecture](https://en.wikipedia.org/wiki/Choice_architecture), designed to make you take the easy route out instead of delving into a maze of configuration options that don't need to exist in the first place.
+Jako příklad si můžeme uvést např. souhlas s cookies. Za dobu, kdy brouzdáte na různých stránkách, jich potkáte tucet. Mají krásně seřazená zaškrtávací políčka a slidery, díky kterým můžete „upravovat“ nastavení tak, aby odpovídalo vašim preferencím. Nakonec ale stejně klikneme na tlačítko „Povolit vše“, protože se akorát chceme podívat na nějaký článek, nebo si něco koupit. Nikomu se nechce dělat bezpečnostní audit na každé stránce, kterou navštíví. Je to cvičení z oblasti [architektury výběru](https://en.wikipedia.org/wiki/Choice_architecture), vytvořené tak, aby vás přiměla jít cestou nejmenšího odporu, namísto toho, abyste se brodili v moři možností nastavení, které tam v prvé řadě ani nemusí být.
 
-==Control over your privacy inside most apps is an illusion.== It's a shiny dashboard with all sorts of choices you can make about your data, but rarely the choices you're looking for, like "only use my data to help me." This type of control is meant to make you feel guilty about your choices, that you "had the choice" to make the apps you use more private, and you chose not to.
+==Kontrola nad svým soukromím je ve většině aplikací jen iluze.== Je tam sice blištivé menu s různými typy rozhodnutí, které můžete o svých datech udělat, ale jen výjimečně tam jsou taková, která hledáte, jako je např. „používejte má data jen pro to, abyste mi pomohli“. Tento typ kontroly ve vás má vyvolat stud kvůli vašim rozhodnutím. Má vás přesvědčit, že jste „měli možnost“ zařídit, aby aplikace více respektovaly vaše soukromí, ale rozhodli jste se pro opak.
 
-Privacy is something we need to have baked into the [software and services](../tools.md) we use by default, you can't bend most apps into being private on your own.
+Respekt k soukromí je něco, co potřebujeme v každém [softwaru a službě](../tools.md) a měla by to být samozřejmost. Většinu aplikací totiž sami nepřinutíte, aby ho respektovaly.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 kroků pro zlepšení svého soukromí](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 
-## Sources
+## Zdroje
 
-- [Why Privacy Matters](https://amazon.com/dp/0190939044) (2021) by Neil Richards
-- [The New Oil: Why Privacy & Security Matter](https://thenewoil.org/en/guides/prologue/why)
-- [@Thorin-Oakenpants on Anonymity vs Privacy vs Security](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452)
+- [Why Privacy Matters (Proč na soukromí záleží)](https://amazon.com/dp/0190939044) od Neila Richardse (anglicky, 2021)
+- [The New Oil: Why Privacy & Security Matter (Proč na soukromí a bezpečnosti záleží)](https://thenewoil.org/en/guides/prologue/why)
+- [@Thorin-Oakenpants – Anonymity vs Privacy vs Security (Anonymita vs soukromí vs bezpečnost)](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452)
