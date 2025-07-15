@@ -6,22 +6,22 @@ description: V moderní době zneužívání digitálních dat nebylo vaše souk
 
 V moderní době zneužívání digitálních dat nebylo vaše soukromí nikdy tak důležité, a přesto se mnozí domnívají, že je to již ztracená věc. Není. ==Vaše soukromí je k mání== a vy se o něj musíte starat. Soukromí je o moci a je tak důležité, aby tato moc skončila ve správných rukou.
 
-Privacy is ultimately about human information, and this is important because we know that human information confers power over human beings. If we care about our ability to be authentic, fulfilled, and free humans, we have to care about the rules that apply to information about us. So much of our modern society is structured around **information**. When you shop online, read the news, look something up, vote, seek directions, or really anything else, you are relying on information. If we live in an information society, our information matters, and therefore privacy matters.
+Soukromí se týká hlavně informací o lidech. To je důležité mít na paměti, protože víme, že informace o lidech ostatním umožňují mít nad nimi moc. Pokud nám záleží na tom, abychom byli autentičtí, naplnění a svobodní lidé, musíme se zajímat o pravidla, kterým podléhají informace o nás. Tolik aspektů moderní společnosti je organizováno kolem **informací**. Když nakupujete online, čtete zprávy, něco hledáte, volíte, hledáte cestu někam nebo vesměs cokoliv jiného, spoléháte se na informace. Pokud žijeme v informační společnosti, na našich informacích, a tím pádem i na našem soukromí, záleží.
 
 ## Co je to soukromí?
 
-Many people get the concepts of **privacy**, **security**, and **anonymity** confused. You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
+Hodně lidí si plete pojmy: **„soukromí“**, **„bezpečnost“** a **„anonymita“**. Můžete se setkat s tím, že lidé kritizují různé produkty, protože „neposkytují soukromí“, i když jim ve skutečnosti vadí, že neposkytují anonymitu. Na tomto webu se věnujeme všem třem, ale je potřeba si vyjasnit rozdíl mezi nimi, a kdy každý z nich dává smysl.
 
 [:material-movie-open-play-outline: Video: Přestaňte zaměňovat soukromí, anonymitu a bezpečnost](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security ""){.md-button}
 
 <!-- markdownlint-disable-next-line -->
-**Privacy**
+**Soukromí**
 :
 
-==Privacy is the assurance that your data is only seen by the parties you intend to view it.== In the context of an instant messenger, for example, end-to-end encryption provides privacy by keeping your message visible only to yourself and the recipient.
+==Soukromí je jistota, že vaše data mohou ostatní vidět jen v případě, že to vy dovolíte.== Například v rámci chatovacích aplikací vám poskytuje koncové (E2EE) šifrování soukromí tím, že zprávy si můžete zobrazit jen vy a příjemce.
 
 <!-- markdownlint-disable-next-line -->
-**Security**
+**Bezpečnost**
 :
 
 Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
