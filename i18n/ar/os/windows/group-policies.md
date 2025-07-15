@@ -1,11 +1,11 @@
 ---
-title: Group Policy Settings
+title: إعدادات الـ Group Policy
 description: A quick guide to configuring Group Policy to make Windows a bit more privacy respecting.
 ---
 
-Outside modifying the registry itself, the **Local Group Policy Editor** is the most powerful way to change many aspects of your system without installing third-party tools. Changing these settings requires [Pro Edition](index.md#windows-editions) or better.
+بعيدا عن تعديل الـ Registry نفسه، يُعد الـ **Local Group Policy Editor** أقوى وسيلة مضمنة لتغيير العديد من جوانب نظامك دون تثبيت أي أدوات طرف ثالث (third-party tools). يتطلب تغيير هذه الإعدادات نسخة [Pro Edition](index.md#windows-editions) أو إصدار أعلى.
 
-These settings should be set on a brand-new installation of Windows. Setting them on your existing installation should work, but may introduce unpredictable behavior and is done at your own risk.
+يُستحسن ضبط هذه الإعدادات على نسخة (installation) جديدة تماما لنظام  Windows. Setting them on your existing installation should work, but may introduce unpredictable behavior and is done at your own risk.
 
 All of these settings have an explanation attached to them in the Group Policy editor which explains exactly what they do, usually in great detail. Please pay attention to those descriptions as you make changes, so you know exactly what we are recommending here. We've also explained some of our choices below whenever the explanation included with Windows is inadequate.
 
