@@ -24,33 +24,33 @@ Hodně lidí si plete pojmy: **„soukromí“**, **„bezpečnost“** a **„a
 **Bezpečnost**
 :
 
-Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
+Bezpečnost je schopnost věřit aplikacím, které používáte – že zúčastnění jsou opravdu těmi, za které se vydávají – a zároveň udržuje tyto aplikace v bezpečí. V rámci prohlížení webu je bezpečnost zajišťována např. HTTPS certifikáty.
 :
 
-Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
+Certifikáty slouží jako důkaz, že komunikujete přímo se stránkou, kterou jste navštívili, a znemožňuje potenciálním útočníkům čtení nebo změnu dat, které posíláte nebo přijímáte od webové stránky.
 
 <!-- markdownlint-disable-next-line -->
-**Anonymity**
+**Anonymita**
 :
 
-Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+Anonymita je schopnost jednat bez toho, aby k vám byl přiřazený nějaký trvalý identifikátor. Toho můžete docílit online např. [Torem](../tor.md), který vám umožňuje prohlížet internet za pomoci náhodných IP adres a internetových spojení, aniž byste museli odhalovat svoji.
 :
 
-**Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
+**Pseudonymita** je podobný koncept, ale jde o schopnost mít trvalý identifikátor, který ale není vázaný přímo k vaší pravé identitě. Pokud vás všichni online znají jako `@Pařan12`, ale vaše pravé jméno neznají, jedná se o pseudonym.
 
-All of these concepts overlap, but it is possible to have any combination of these. The sweet spot for most people is when all three of these concepts overlap. However, it's trickier to achieve than many initially believe. Sometimes, you have to compromise on some of these, and that's okay too. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../tools.md) you use.
+Všechny tyto vlastnosti se překrývají, ale je možné z nich vyrobit jakoukoli kombinaci. Pro většinu lidí je „libovka“, když se všechny tři vlastnosti překrývají. Na druhou stranu, skloubit je dohromady je ale ošemetnější, než by si hodně lidí ze začátku myslelo. Někdy ale musíte dělat kompromisy, a i to je v pořádku. V tom případě nastupuje na scénu **threat modeling**, který vám umožňuje dělat informovaná rozhodnutí o tom, který [software a služby](../tools.md) budete používat.
 
-[:material-book-outline: Learn More About Threat Modeling](threat-modeling.md ""){.md-button}
+[:material-book-outline: Zjistěte více o threat modelingu](threat-modeling.md ""){.md-button}
 
-## Privacy vs. Secrecy
+## Soukromí vs utajování
 
-A common counter-argument to pro-privacy movements is the notion that one doesn't need privacy if they have **"nothing to hide."** This is a dangerous misconception, because it creates a sense that people who demand privacy must be deviant, criminal, or wrong.
+Častým protiargumentem proti hnutím bojujícím za soukromí je dojem o tom, že člověk nepotřebuje soukromí, pokud **„nemá co tajit“**. Jedná se ale o nebezpečný předpoklad, protože naznačuje, že lidé, kteří si chtějí zachovávat soukromí, musí být kriminálníci, úchylové, nebo jsou vadní jiným způsobem.
 
-==You shouldn't confuse privacy with secrecy.== We know what happens in the bathroom, but you still close the door. A to proto, že chcete soukromí, ne utajování. There are always certain facts about us—say, personal health information, or sexual behavior—that we wouldn't want the whole world to know, and that's okay. The need for privacy is legitimate, and that's what makes us human. Privacy is about empowering your rights over your own information, not about hiding secrets.
+==Neměli byste zaměňovat soukromí za tajnůstkářství.== Všichni víme, co se děje na záchodě, ale i tak si na něm raději zavřete dveře. Ne proto, že potřebujete něco tajit, ale protože chcete soukromí. Vždy máme něco – třeba údaje o svém zdravotním stavu nebo sexuálních chování – které nepotřebujeme sdílet se světem. A víte co? To je v pořádku. Potřeba soukromí je legitimní, a nedělá nás o nic méně lidmi. Soukromí je o tom, abyste měli své informace pod kontrolou, ne abyste schovávali tajemství.
 
-## Is Privacy About Control?
+## Je ochrana soukromí o kontrole?
 
-A common definition of privacy is that it is the ability to *control* who has access to your data. This is an easy trap to fall into, in fact it is the definition of privacy we operated this website on for a long time. It sounds nice, and it appeals to many people, but in practice it just doesn't work.
+Běžná definice soukromí je ta, že *máte kontrolu* nad tím, kdo má přístup k vašim datům. This is an easy trap to fall into, in fact it is the definition of privacy we operated this website on for a long time. It sounds nice, and it appeals to many people, but in practice it just doesn't work.
 
 Take cookie consent forms, for example. You may encounter these dozens of times per day on the various websites you visit, with a nice array of checkboxes and sliders which allow you to "curate" your preferences to exactly fit your needs. In the end, we just hit the "I Agree" button, because we just want to read the article or make a purchase. Nobody wants to complete a personal privacy audit on every single website they visit. This is an exercise in [choice architecture](https://en.wikipedia.org/wiki/Choice_architecture), designed to make you take the easy route out instead of delving into a maze of configuration options that don't need to exist in the first place.
 
