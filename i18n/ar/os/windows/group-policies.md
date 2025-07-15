@@ -1,74 +1,76 @@
 ---
 title: إعدادات الـ Group Policy
-description: A quick guide to configuring Group Policy to make Windows a bit more privacy respecting.
+description: دليل سريع لتهيئة إعدادات Group Policy لجعل Windows أكثر احتراما لخصوصيتك.
 ---
 
 بعيدا عن تعديل الـ Registry نفسه، يُعد الـ **Local Group Policy Editor** أقوى وسيلة مضمنة لتغيير العديد من جوانب نظامك دون تثبيت أي أدوات طرف ثالث (third-party tools). يتطلب تغيير هذه الإعدادات نسخة [Pro Edition](index.md#windows-editions) أو إصدار أعلى.
 
-يُستحسن ضبط هذه الإعدادات على نسخة (installation) جديدة تماما لنظام  Windows. Setting them on your existing installation should work, but may introduce unpredictable behavior and is done at your own risk.
+يُستحسن ضبط هذه الإعدادات على نسخة (installation) جديدة تماما لنظام  Windows. يمكن تطبيق هذه الإعدادات على نسخة Windows الحالية، ولكن قد ينتج عن ذلك سلوك غير متوقع، ويتم ذلك على مسؤوليتك الخاصة.
 
-All of these settings have an explanation attached to them in the Group Policy editor which explains exactly what they do, usually in great detail. Please pay attention to those descriptions as you make changes, so you know exactly what we are recommending here. We've also explained some of our choices below whenever the explanation included with Windows is inadequate.
+يوجد مع كل إعداد في group policy editor شرح مُرفق يوضح بدقة وظيفته، وعادة ما يكون هذا الشرح تفصيليا. يرجى الانتباه إلى الشروحات المرفقة أثناء إجراء التغييرات، حتى تعرف بالضبط ما نوصي به هنا. لقد شرحنا أيضا بعض اختياراتنا أدناه عندما يكون الشرح المُرفق مع Windows غير كاف.
 
 ## Administrative Templates
 
-You can find these settings by opening `gpedit.msc` and navigating to **Local Computer Policy** > **Computer Configuration** > **Administrative Templates** in the left sidebar. The headers on this page correspond to folders/subfolders within Administrative Templates, and the bullet points correspond to individual policies.
+يمكنك العثور على هذه الإعدادات بفتح gpedit.msc والانتقال إلى **Local Computer Policy** > **Computer Configuration** > **Administrative Templates** في الشريط الجانبي الأيسر (the left sidebar). العناوين في هذه الصفحة تمثل الـ الـ folders و subfolders ضمن الـ Administrative Templates، بينما تمثل الـ  bullet points السياسات الفردية (السياسات الفردية هنا تعني كل “Policy” مستقلة ضمن الـ Administrative Templates، يمكنك ضبطها "تمكينها أو تعطيلها أو تعديل إعداداتها" بشكل منفرد.).
 
-To change any group policy, double click it and select Enabled or Disabled at the top of the window that appears depending on the recommendations below. Some group policies have additional settings that can be configured, and if that's the case the appropriate settings are noted below as well.
+لتغيير أي إعداد في Group Policy، انقر عليه نقرا مزدوجا واختر Enabled أو Disabled من أعلى النافذة التي تظهر، وذلك حسب التوصيات أدناه. قد تحتوي بعض سياسات الـ Group Policy على إعدادات إضافية قابلة للتعديل، وإذا توافرت مثل هذه الإعدادات فسنوضح أدناه الخيارات الملائمة التي نوصي بها.
 
 ### نظام
 
 #### Device Guard
 
-- Turn On Virtualization Based Security: **Enabled**
-    - Platform Security Level: **Secure Boot and DMA Protection**
-    - Secure Launch Configuration: **Enabled**
+- يجب ضبط إعداد “Turn On Virtualization Based Security” على **Enabled**
+    - اضبط خيار Platform Security Level على **Secure Boot and DMA Protection**
+    - اضبط إعداد Secure Launch Configuration على **Enabled**
 
 #### Internet Communication Management
 
-- Turn off Windows Customer Experience Improvement Program: **Enabled**
-- Turn off Windows Error Reporting: **Enabled**
-- Turn off the Windows Messenger Customer Experience Improvement Program: **Enabled**
+- اضبط إعداد Turn off Windows Customer Experience Improvement Program على **Enabled**
+- اضبط إعداد Turn off Windows Error Reporting على **Enabled**
+- اضبط إعداد Turn off the Windows Messenger Customer Experience Improvement Program على **Enabled**
 
-Note that disabling the Windows Customer Experience Improvement Program also disables some other tracking features that can be individually controlled with Group Policy as well. We don't list them all here or disable them because this setting covers that.
+يرجى ملاحظة أن تعطيل Windows Customer Experience Improvement Program يؤدي أيضا إلى تعطيل بعض ميزات التتبع الأخرى، والتي يمكن التحكم بها بشكل منفصل من خلال Group Policy أيضا. لا نحتاج إلى ذكر أو تعطيل كل ميزة تتبع بشكل منفصل، لأن تعطيل Windows Customer Experience Improvement Program يؤدي تلقائيا إلى إيقاف هذه الميزات.
 
 #### OS Policies
 
-- Allow Clipboard History: **Disabled**
-- Allow Clipboard synchronization across devices: **Disabled**
-- Enables Activity Feed: **Disabled**
-- Allow publishing of User Activities: **Disabled**
-- Allow upload of User Activities: **Disabled**
+- اضبط إعداد Allow Clipboard History على **Disabled**
+- اضبط إعداد Allow Clipboard synchronization across devices على **Disabled**
+- اضبط إعداد Enables Activity Feed على **Disabled**
+- اضبط إعداد Allow publishing of User Activities على **Disabled**
+- اضبط إعداد Allow upload of User Activities على **Disabled**
 
 #### User Profiles
 
-- Turn off the advertising ID: **Enabled**
+- اضبط إعداد Turn off the advertising ID على **Enabled**
 
 ### Windows Components
 
 #### AutoPlay Policies
 
-AutoRun and AutoPlay are features which allow Windows to run a script or perform some other task when a device is connected, sometimes avoiding security measures that involve user consent. This could allow untrusted devices to run malicious code without your knowledge. It's a security best practice to disable these features, and simply open files on your external disks manually.
+تُعد AutoRun و AutoPlay ميزتان في Windows تقومان بتشغيل شيء تلقائيا (مثل برنامج أو ملف) عند توصيل جهاز خارجي مثل فلاشة USB.المشكلة أن هذا التشغيل التلقائي قد يتجاوز بعض خطوات الأمان، لأنه لا يطلب إذن المستخدم أولًا. لذلك يُفضل إيقاف هذه الميزات لتعزيز الخصوصية والحماية. قد يسمح ذلك للأجهزة غير الموثوقة بتشغيل تعليمات خبيثة (malicious code) دون علمك. لأجل حماية جهازك، يُنصح بأن توقف ميزتي AutoRun وAutoPlay،
+وأن تقوم أنت بنفسك بفتح الملفات من الفلاشة أو القرص الخارجي، بدل أن يفتحها Windows تلقائيا دون إذنك.
 
-- Turn off AutoPlay: **Enabled**
-- Disallow Autoplay for nonvolume devices: **Enabled**
-- Set the default behavior for AutoRun: **Enabled**
-    - Default AutoRun Behavior: **Do not execute any AutoRun commands**
+- اضبط إعداد Turn off AutoPlay على **Enabled**
+- اضبط إعداد Disallow Autoplay for nonvolume devices على **Enabled**
+- اضبط إعداد Set the default behavior for AutoRun على **Enabled**
+    - اضبط خيار Default AutoRun Behavior على **Do not execute any AutoRun commands**
 
 #### BitLocker Drive Encryption
 
-You may wish to re-encrypt your operating system drive after changing these settings.
+قد ترغب في إعادة تشفير الـ operating system drive بعد تغيير هذه الإعدادات.
 
-- Choose drive encryption method and cipher strength (Windows Vista, Windows Server 2008, Windows 7): **Enabled**
-    - Select the encryption method: **AES-256**
+- اضبط إعداد Choose drive encryption method and cipher strength (Windows Vista, Windows Server 2008, Windows 7) على **Enabled**
+    - اضبط خيار Select the encryption method على **AES-256**
 
-Setting the cipher strength for the Windows 7 policy still applies that strength to newer versions of Windows.
+تحديدك لـ Aes-256 في سياسة Windows 7 سيجعل النظام يستخدم Aes-256 حتى في النسخ الأحدث.
 
 ##### Operating System Drives
 
-- Require additional authentication at startup: **Enabled**
-- Allow enhanced PINs for startup: **Enabled**
+- اضبط إعداد Require additional authentication at startup على **Enabled**
+- اضبط إعداد Allow enhanced PINs for startup على **Enabled**
 
-Despite the names of these policies, this doesn't _require_ you to do anything by default, but it will unlock the _option_ to have a more complex setup (such as requiring a PIN at startup in addition to the TPM) in the BitLocker setup wizard.
+هذه السياسات لا **تجبرك** على استخدام PIN أو إعدادات معينة.
+لكن لما تفعلها، يظهر لك **خيار**جديد أثناء إعداد BitLocker يسمح لك باختيار حماية إضافية، مثل إنك تطلب PIN عند تشغيل الجهاز، مع الاعتماد على TPM.
 
 #### Cloud Content
 
