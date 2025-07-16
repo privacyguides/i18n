@@ -15,7 +15,7 @@ cover: real-time-communication.webp
 
 These recommendations for encrypted **real-time communication** are great for securing your sensitive communications. These instant messengers come in the form of many [types of communication networks](advanced/communication-network-types.md).
 
-[:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
+[:material-movie-open-play-outline: Видео: Пора прекратить использовать СМС](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
 
 ## Signal
 
@@ -23,13 +23,13 @@ These recommendations for encrypted **real-time communication** are great for se
 
 ![Signal logo](assets/img/messengers/signal.svg){ align=right }
 
-**Signal** - мобильное приложение, разработанное Signal Messenger LLC. The app provides instant messaging and calls secured with the Signal protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
+**Signal** — мобильное приложение, разработанное Signal Messenger LLC. Приложение обеспечивает обмен мгновенными сообщениями и звонками, защищенными протоколом Signal — чрезвычайно надежным протоколом шифрования, который поддерживает прямую секретность[^1] и защиту после компрометации.[^2]
 
-[:octicons-home-16: Homepage](https://signal.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.signal.org){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://signal.org/donate){ .card-link title="Contribute" }
+[:octicons-home-16: Главная](https://signal.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Политика конфиденциальности"}
+[:octicons-info-16:](https://support.signal.org){ .card-link title="Документация" }
+[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Исходный код" }
+[:octicons-heart-16:](https://signal.org/donate){ .card-link title="Поддержать" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -46,9 +46,9 @@ These recommendations for encrypted **real-time communication** are great for se
 
 </div>
 
-Signal requires your phone number for registration, however you should create a username to hide your phone number from your contacts:
+Для регистрации Signal требует номер телефона, однако Вам следует создать имя пользователя, чтобы скрыть свой номер телефона от контактов:
 
-1. In Signal, open the app's settings and tap your account profile at the top.
+1. Откройте настройки приложения и нажмите на Ваш профиль вверху.
 2. Tap **Username** and choose **Continue** on the "Set up your Signal username" screen.
 3. Enter a username. Your username will always be paired with a unique set of digits to keep your username unique and prevent people from guessing it. For example if you enter "John" your username might end up being `@john.35`. By default, only 2 digits are paired with your username when you create it, but you can add more digits until you reach the username length limit (32 characters).
 4. Go back to the main app settings page and select **Privacy**.
@@ -162,11 +162,11 @@ SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/
 
 </div>
 
-To add a contact on Briar, you must both add each other first. You can either exchange `briar://` links or scan a contact’s QR code if they are nearby.
+Чтобы добавить контакт в Briar, вы должны сначала добавить друг друга. Вы можете либо обменяться ссылками `briar://`, либо отсканировать QR-код контакта, если он находится поблизости.
 
 Briar has a fully [published specification](https://code.briarproject.org/briar/briar-spec). Briar supports forward secrecy[^1] by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
 
-The client software was independently [audited](https://briarproject.org/news/2017-beta-released-security-audit), and the anonymous routing protocol uses the Tor network which has also been audited.
+Клиентское ПО прошло независимый [аудит](https://briarproject.org/news/2017-beta-released-security-audit); протокол анонимной маршрутизации использует сеть Tor, который также был проверен в прошлом.
 
 ## Критерии
 
