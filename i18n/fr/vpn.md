@@ -270,7 +270,7 @@ Mullvad prenait auparavant en charge la redirection de port, mais a supprimé ce
 
 Mullvad offers several features to help bypass censorship and access the internet freely:
 
-- **Obfuscation modes**: Mullvad has two built-in obfuscation modes: "UDP-over-TCP" and ["WireGuard over Shadowsocks"](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard). These modes disguise your VPN traffic as regular web traffic, making it harder for censors to detect and block. Supposedly, China has to use a [new method to disrupt Shadowsocks-routed traffic](https://gfw.report/publications/usenixsecurity23/en).
+- **Mode d'offuscation**: Mullvad propose deux modes d'offuscation intégrés : "UDP-sur-TCP" et ["Wireguard sur Shadowsocks](https://mullvad.net/fr/blog/introducing-shadowsocks-obfuscation-for-wireguard). These modes disguise your VPN traffic as regular web traffic, making it harder for censors to detect and block. Supposedly, China has to use a [new method to disrupt Shadowsocks-routed traffic](https://gfw.report/publications/usenixsecurity23/en).
 - **Advanced obfuscation with Shadowsocks and v2ray**: For more advanced users, Mullvad provides a guide on how to use the [Shadowsocks with v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) plugin with Mullvad clients. This setup provides an additional layer of obfuscation and encryption.
 - **Custom server IPs**: To counter IP-blocking, you can request custom server IPs from Mullvad's support team. Once you receive the custom IPs, you can input the text file in the "Server IP override" settings, which will override the chosen server IP addresses with ones that aren't known to the censor.
 - **Bridges and proxies**: Mullvad also allows you to use bridges or proxies to reach their API (needed for authentication), which can help bypass censorship attempts that block access to the API itself.
@@ -296,7 +296,7 @@ Il est important de noter que l'utilisation d'un fournisseur VPN ne vous rendra 
 
 ### Technologie
 
-We require all our recommended VPN providers to provide standard configuration files which can be used in a generic, open-source client. **If** a VPN provides their own custom client, we require a kill switch to block network data leaks when disconnected.
+Nous demandons à tous les fournisseurs de VPN que nous recommandons de fournir des fichiers de configuration standard qui peuvent être utilisés dans un client générique à code source ouvert. **If** a VPN provides their own custom client, we require a kill switch to block network data leaks when disconnected.
 
 **Minimum pour se qualifier :**
 
@@ -310,7 +310,7 @@ We require all our recommended VPN providers to provide standard configuration f
 
 - Kill switch with highly configurable options (enable/disable on certain networks, on boot, etc.)
 - Clients VPN faciles à utiliser
-- [IPv6](https://en.wikipedia.org/wiki/IPv6) support. Nous nous attendons à ce que les serveurs autorisent les connexions entrantes via IPv6 et vous permettent d'accéder aux services hébergés sur des adresses IPv6.
+- Prise en charge de l'[IPV6](https://fr.wikipedia.org/wiki/IPv6). Nous nous attendons à ce que les serveurs autorisent les connexions entrantes via IPv6 et vous permettent d'accéder aux services hébergés sur des adresses IPv6.
 - La capacité de [transfert de port à distance](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) aide à créer des connexions lors de l'utilisation de logiciels de partage de fichiers P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) ou de l'hébergement d'un serveur (par exemple, Mumble).
 - Obfuscation technology which camouflages the true nature of internet traffic, designed to circumvent advanced internet censorship methods like DPI.
 
@@ -337,7 +337,7 @@ Un VPN est inutile s'il ne peut même pas fournir une sécurité adéquate. We r
 - Schémas de chiffrement forts : OpenVPN avec authentification SHA-256 ; poignée de main RSA-2048 ou mieux ; chiffrement des données AES-256-GCM ou AES-256-CBC.
 - Confidentialité persistante.
 - Des audits de sécurité publiés par une société tierce réputée.
-- VPN servers that use full-disk encryption or are RAM-only.
+- Les serveurs VPN qui utilisent le chiffrement du disque complet ou qui sont uniquement en mémoire vive.
 
 **Dans le meilleur des cas :**
 
