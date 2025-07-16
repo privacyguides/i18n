@@ -1,5 +1,5 @@
 ---
-meta_title: "Navigateurs web respectueux de la vie privée pour PC et Mac - Privacy Guides"
+meta_title: "Navigateurs web respectueux de la vie privée pour PC et Mac - Privacy"
 title: "Navigateurs de bureau"
 icon: material/laptop
 description: Ces navigateurs respectueux de la vie privée sont ceux que nous recommandons actuellement pour la navigation internet standard/non-anonyme sur les ordinateurs de bureau.
@@ -89,7 +89,7 @@ Le **navigateur Mullvad** est une version du [navigateur Tor](tor.md#tor-browser
 
 </div>
 
-Comme le [Navigateur Tor](tor.md), le Navigateur Mullvad est conçu pour empêcher la capture d'empreintes numériques en rendant l'empreinte numérique de votre navigateur identique à celle de tous les autres utilisateurs du Navigateur Mullvad, et il inclut des paramètres par défaut et des extensions qui sont automatiquement configurés par les niveaux de sécurité par défaut : *Standard*, *Safer* et *Safest*.
+A l'instar du [Navigateur Tor](tor.md), le Navigateur Mullvad est conçu pour empêcher la capture d'empreintes numériques (le "fingerprinting") en rendant l'empreinte numérique de votre navigateur identique à celle de tous les autres utilisateurs du Navigateur Mullvad, et il inclut des paramètres par défaut et des extensions qui sont automatiquement configurés par les niveaux de sécurité du navigateur : *Normal*, *Plus sûr* et *Le plus sûr*.
 
 Il est donc impératif de ne pas modifier le navigateur mis à part l'ajustement des [niveaux de sécurité](https://tb-manual.torproject.org/security-settings) par défaut. Lorsque vous réglez le niveau de sécurité, vous **devez** toujours redémarrer le navigateur avant de continuer à l'utiliser. Dans le cas contraire, [les paramètres de sécurité peuvent ne pas être entièrement appliqués](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), ce qui vous expose à un risque plus élevé de captures d'empreinte et de vulnérabilités que vous ne l'auriez imaginé sur la base des paramètres choisis.
 
