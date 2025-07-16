@@ -103,13 +103,13 @@ Proton VPN ne prend actuellement en charge que la [redirection de port](https://
 
 #### :material-information-outline:{ .pg-blue } Anti-censure
 
-Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol) protocol which *may* help in situations where VPN protocols like OpenVPN or WireGuard are blocked with various rudimentary techniques. Stealth encapsule le tunnel VPN dans une session TLS afin de donner l'impression d'un trafic internet plus générique.
+Proton VPN propose son propre protocole nommé [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol) qui *peut* aider dans certaines situations où les protocoles VPN comme OpenVPN ou WireGuard sont bloqués avec diverses techniques rudimentaires. Stealth encapsule le tunnel VPN dans une session TLS afin de donner l'impression d'un trafic internet plus générique.
 
-Malheureusement, il ne fonctionne pas très bien dans des pays où des filtres sophistiqués analysant tout le trafic sortant sont déployés, pour tenter de découvrir les tunnels chiffrés. Stealth is available on Android, iOS, Windows, and macOS, but it's not yet available on Linux.
+Malheureusement, il ne fonctionne pas très bien dans des pays où des filtres sophistiqués analysant tout le trafic sortant sont déployés, pour tenter de découvrir les tunnels chiffrés. Le protocole Stealth est disponible sur Android, iOS, Windows et macOS, mais n'est pas encore disponible sur Linux.
 
 #### :material-check:{ .pg-green } Clients mobiles
 
-Proton VPN has published [App Store](https://apps.apple.com/app/id1437005085) and [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/ProtonVPN/android-app/releases).
+Proton VPN propose son client mobile sur l'[App Store](https://apps.apple.com/fr/app/id1437005085) et sur le [Google Play Store](https://play.google.com/store/apps/details?id=ch.protonvpn.android), doté d'une interface conviviale qui ne nécessite pas une configuration manuelle de votre connexion WireGuard. La version Android du client est également disponible sur [GitHub](https://github.com/ProtonVPN/android-app/releases).
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">How to opt out of sharing telemetry</p>
@@ -145,7 +145,7 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 <summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1193122683)
+- [:simple-appstore: App Store](https://apps.apple.com/fr/app/id1193122683)
 - [:octicons-moon-16: Accrescent](https://accrescent.app/app/net.ivpn.client)
 - [:simple-github: GitHub](https://github.com/ivpn/android-app/releases)
 - [:fontawesome-brands-windows: Windows](https://ivpn.net/apps-windows)
@@ -193,11 +193,11 @@ IVPN prenait auparavant en charge la redirection de port, mais a supprimé cette
 
 #### :material-check:{ .pg-green } Anti-censure
 
-IVPN utilise [V2Ray](https://v2ray.com/en/index.html) pour offusquer (cacher la vraie nature) le trafic internet, ce qui est utile dans les situations où OpenVPN et WireGuard sont bloqués. Currently, this feature is only available on Desktop and [iOS](https://ivpn.net/knowledgebase/ios/v2ray). Elle dispose de deux modes d'utilisation de [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) via des connexions QUIC ou TCP. QUIC est un protocole moderne avec un meilleur contrôle de la congestion et peut donc être plus rapide avec une latence réduite. Le mode TCP fait apparaître vos données comme du trafic HTTP normal.
+IVPN utilise [V2Ray](https://v2ray.com/en/index.html) pour offusquer (cacher la vraie nature) le trafic internet, ce qui est utile dans les situations où OpenVPN et WireGuard sont bloqués. Pour le moment, cette fonctionnalité est disponible uniquement sur PC et sur [iOS](https://ivpn.net/knowledgebase/ios/v2ray). Elle dispose de deux modes d'utilisation de [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) via des connexions QUIC ou TCP. QUIC est un protocole moderne avec un meilleur contrôle de la congestion et peut donc être plus rapide avec une latence réduite. Le mode TCP fait apparaître vos données comme du trafic HTTP normal.
 
 #### :material-check:{ .pg-green } Clients mobiles
 
-IVPN has published [App Store](https://apps.apple.com/app/id1193122683) and [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/ivpn/android-app/releases).
+IVPN propose son client mobile sur l'[App Store](https://apps.apple.com/fr/app/id1193122683) et sur le [Google Play Store](https://play.google.com/store/apps/details?id=net.ivpn.client), doté d'une interface conviviale qui ne nécessite pas une configuration manuelle de votre connexion WireGuard. The Android client is also available on [GitHub](https://github.com/ivpn/android-app/releases).
 
 #### :material-information-outline:{ .pg-blue } Notes supplémentaires
 

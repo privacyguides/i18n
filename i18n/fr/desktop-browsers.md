@@ -1,6 +1,6 @@
 ---
 meta_title: "Navigateurs web respectueux de la vie privée pour PC et Mac - Privacy"
-title: "Navigateurs de bureau"
+title: "Navigateurs de Bureau"
 icon: material/laptop
 description: Ces navigateurs respectueux de la vie privée sont ceux que nous recommandons actuellement pour la navigation internet standard/non-anonyme sur les ordinateurs de bureau.
 cover: desktop-browsers.webp
@@ -8,7 +8,7 @@ schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Recommandations de navigateurs de bureau privés
+    name: Recommandations de Navigateurs de Bureau Privés
     url: "./"
     relatedLink: "../mobile-browsers/"
   - 
@@ -61,7 +61,7 @@ schema:
 
 - [:material-account-cash: Capitalisme de surveillance](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Voici les **navigateurs internet** et configurations actuellement recommandés pour la navigation standard/non-anonyme. Nous recommandons [Mullvad Browser](#mullvad-browser) si vous recherchez des protections solides de la vie privée et une protection contre la capture des empreintes numériques, [Firefox](#firefox) pour les internautes occasionnels qui recherchent une bonne alternative à Google Chrome, et [Brave](#brave) si vous avez besoin d'une compatibilité avec le navigateur Chromium.
+Voici les **navigateurs internet** et configurations actuellement recommandés pour la navigation standard/non-anonyme. Nous recommandons le [Navigateur Mullvad](#mullvad-browser) si vous recherchez des protections solides de la vie privée et une protection contre la capture des empreintes numériques, [Firefox](#firefox) pour les internautes occasionnels qui recherchent une bonne alternative à Google Chrome, et [Brave](#brave) si vous avez besoin d'une compatibilité avec le navigateur Chromium.
 
 Si vous avez besoin de naviguer anonymement sur Internet, vous devriez plutôt utiliser [Tor](tor.md). Nous faisons quelques recommandations de configuration sur cette page, mais tous les navigateurs autres que Tor Browser seront traçables par *quelqu'un* d'une manière ou d'une autre.
 
@@ -71,7 +71,7 @@ Si vous avez besoin de naviguer anonymement sur Internet, vous devriez plutôt u
 
 ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-Le **navigateur Mullvad** est une version du [navigateur Tor](tor.md#tor-browser) avec les intégrations au réseau Tor supprimées. Il vise à fournir aux utilisateurs de VPN les technologies d'anti-capture d'empreintes numériques du Navigateur Tor, qui sont des protections clés contre la [:material-eye-outline: surveillance de masse](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Il est développé par le projet Tor et distribué par [Mullvad](vpn.md#mullvad), et n'exige **pas** l'utilisation du VPN de Mullvad.
+Le **navigateur Mullvad** est une version de [navigateur Tor](tor.md#tor-browser) avec les intégrations au réseau Tor supprimées. Il vise à fournir aux utilisateurs de VPN les technologies d'anti-capture d'empreintes numériques du Navigateur Tor, qui sont des protections clés contre la [:material-eye-outline: surveillance de masse](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Il est développé par le projet Tor et distribué par [Mullvad](vpn.md#mullvad), et n'exige **pas** l'utilisation du VPN de Mullvad.
 
 [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Politique de confidentialité" }
