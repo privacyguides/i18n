@@ -142,7 +142,7 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Code source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
 - [:simple-appstore: App Store](https://apps.apple.com/fr/app/id1193122683)
