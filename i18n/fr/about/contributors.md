@@ -1,22 +1,22 @@
 ---
-title: Contributors
+title: Contributeurs
 hide:
   - toc
-description: A complete list of contributors who have collectively made an enormous impact on the Privacy Guides project.
+description: Une liste complète des contributeurs qui, collectivement, ont eu un impact énorme sur le projet Privacy Guides.
 ---
 
 <!-- Do NOT manually edit this file, please add yourself to the .all-contributorsrc file instead. See our GitHub Issues for more details -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of **any** kind are welcome to be added to [this list](https://github.com/privacyguides/privacyguides.org/blob/main/.all-contributorsrc), including contributions to Privacy Guides outside this repo, and contributions that aren't content related (like sharing ideas for Privacy Guides, promoting the project, answering questions on the forum, etc.).
+Ce projet suit le standard ["all-contributors"](https://github.com/all-contributors/all-contributors). Les contributions de **toutes** sortes sont les bienvenues pour être ajoutées à [cette liste](https://github.com/privacyguides/privacyguides.org/blob/main/.all-contributorsrc), y compris les contributions au projet Privacy Guides en dehors de ce repo, et les contributions qui ne sont pas liées au contenu (comme le partage d'idées pour le projet Privacy Guides, la mise en avant du projet, les réponses aux questions sur le forum, etc.).
 
-| Emoji | Type          | Description                                                                                                                                     |
-| ----- | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| 📖    | `doc`         | A contributor to the content on [privacyguides.org](https://www.privacyguides.org/en).                          |
-| 👀    | `review`      | Someone who has taken the time to review [pull requests](https://github.com/privacyguides/privacyguides.org/pulls) to the site. |
-| 📝    | `blog`        | Someone who has written a [blog](https://blog.privacyguides.org) post for us.                                                   |
-| 💬    | `question`    | Someone who has been helpful when answering questions on our [forum](https://discuss.privacyguides.net) or Matrix channels.     |
-| 🌍    | `translation` | Someone who has contributed on [Crowdin](https://crowdin.com/project/privacyguides).                                            |
+| Émoji | Type       | Description                                                                                                                                           |
+| ----- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 📖    | `doc`      | Un contributeur au contenu de [privacyguides.org](https://www.privacyguides.org/fr).                                  |
+| 👀    | `review`   | Quelqu'un qui a pris le temps d'examiner les ["pull requests"](https://github.com/privacyguides/privacyguides.org/pulls) sur le site. |
+| 📝    | `blog`     | Quelqu'un qui a écrit un article de [blog](https://blog.privacyguides.org) pour nous.                                                 |
+| 💬    | `question` | Quelqu'un qui a été utile en répondant à des questions sur notre [forum](https://discuss.privacyguides.net) ou sur les canaux Matrix. |
+| 🌍    | traduction | Quelqu'un qui a contribué à la traduction sur [Crowdin](https://crowdin.com/project/privacyguides).                                   |
 
-A huge thank you from Privacy Guides to the following wonderful people ([full emoji key](https://allcontributors.org/docs/en/emoji-key)). We also especially thank our dedicated community moderation team on Matrix and our forum: _Austin Huang_, _namazso_, _hik_, _riley_, and _Valynor_.
+Les guides de la protection de la vie privée remercient chaleureusement les personnes suivantes ([full emoji key](https://allcontributors.org/docs/en/emoji-key)). Nous tenons également à remercier tout particulièrement notre équipe de modération communautaire dévouée sur Matrix et notre forum : _Austin Huang_, _namazso_, _hik_, _riley_ et _Valynor_.
 
 \--8<-- "includes/contributors.md"
