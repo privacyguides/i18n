@@ -1,5 +1,5 @@
 ---
-title: "Office Suites"
+title: "Офисные пакеты"
 icon: material/file-edit-outline
 description: These office suites offer their full functionality without an account and can be used offline.
 cover: office-suites.webp

@@ -56,11 +56,11 @@ cover: real-time-communication.webp
 6. Измените **Кто может видеть мой номер** на **Никто**.
 7. (Необязательно) Измените **Кто может найти меня по номеру** на **Никто**, если Вы хотите, чтобы люди, у которых уже есть Ваш номер телефона, не смогли обнаружить Вашу учетную запись/имя пользователя Signal.
 
-We have some additional tips on configuring and hardening your Signal installation:
+У нас есть несколько дополнительных советов по настройке и улучшению безопасности Signal:
 
-[Signal Configuration and Hardening :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening)
+[Настройка и улучшение безопасности Signal :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening)
 
-Contact lists on Signal are encrypted using your Signal PIN and the server does not have access to them. Personal profiles are also encrypted and only shared with contacts you chat with.
+В Signal списки контактов шифруются с помощью Вашего Signal PIN-кода, и сервер не имеет к ним доступа. Личные профили также шифруются и передаются только тем контактам, с которыми Вы переписываетесь.
 
 Signal supports [private groups](https://signal.org/blog/signal-private-group-system), where the server has no record of your group memberships, group titles, group avatars, or group attributes. Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender) is enabled. The sender address is encrypted along with the message body, and only the recipient address is visible to the server. Sealed Sender is only enabled for people in your contacts list, but can be enabled for all recipients with the increased risk of receiving spam.
 
@@ -109,10 +109,10 @@ Both versions of Molly provide the same security improvements and support [repro
 
 **SimpleX Chat** is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
-[:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplex.chat/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://simplex.chat/docs/simplex.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
+[:octicons-home-16: Главная](https://simplex.chat){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://simplex.chat/privacy){ .card-link title="Политика конфиденциальности" }
+[:octicons-info-16:](https://simplex.chat/docs/simplex.html){ .card-link title="Документация" }
+[:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Исходный код" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -144,11 +144,11 @@ SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/
 
 **Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the [Tor network](alternative-networks.md#tor), making it an effective tool at circumventing [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar также может передавать сообщения через Wi-Fi или Bluetooth, если получатель находится в непосредственной близости. Режим локальной сети Briar может быть полезен, когда Вы не имеете доступа к Интернету.
 
-[:octicons-home-16: Homepage](https://briarproject.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title="Documentation" }
-[:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://code.briarproject.org/briar/briar#donate){ .card-link title="Contribute" }
+[:octicons-home-16: Главная](https://briarproject.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Политика конфиденциальности" }
+[:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title="Документация" }
+[:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Исходный код" }
+[:octicons-heart-16:](https://code.briarproject.org/briar/briar#donate){ .card-link title="Поддержать" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -174,22 +174,22 @@ Briar has a fully [published specification](https://code.briarproject.org/briar/
 
 ### Минимальные требования к сервисам
 
-- Must have open-source clients.
-- Must not require sharing personal identifiers (particularly phone numbers or emails) with contacts.
-- Must use E2EE for private messages by default.
-- Must support E2EE for all messages.
-- Must support forward secrecy[^1]
-- Must have a published audit from a reputable, independent third party.
+- Должны иметь приложения с открытым исходным кодом.
+- Не должны требовать передачи контактам личных идентификаторов (особенно номера телефона или адреса электронной почты).
+- Должны по умолчанию использовать E2EE для личных сообщений.
+- Должны поддерживать E2EE для всех сообщений.
+- Должны поддерживать прямую секретность[^1].
+- Должны иметь опубликованный аудит от авторитетной, независимой сторонней организации.
 
 ### В лучшем случае
 
 Эти критерии представляют собой то, что мы хотели бы видеть от идеального проекта в этой категории. Наши рекомендации могут не соответствовать всем или нескольким из этих критериев, но проекты, которые им соответствуют, расположены выше остальных.
 
-- Should support future secrecy (post-compromise security)[^2]
-- Should have open-source servers.
-- Should use a decentralized network, i.e. [federated or P2P](advanced/communication-network-types.md).
-- Should use E2EE for all messages by default.
-- Should support Linux, macOS, Windows, Android, and iOS.
+- Должны поддерживать будущую секретность (защиту после компрометации) [^2].
+- Должны иметь серверы с открытым исходным кодом.
+- Должны использовать децентрализованную сеть, т.е. [федеративную или P2P](advanced/communication-network-types.md).
+- Должны по умолчанию использовать E2EE для всех сообщений.
+- Должны поддерживать Linux, macOS, Windows, Android и iOS.
 [^3]: You may refer to this step-by-step tutorial in German on how to set up UnifiedPush as the notification provider for Molly: [https://kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy](https://kuketz-blog.de/messenger-wechsel-von-signal-zu-molly-unifiedpush-mollysocket-ntfy).
 
 [^1]: [Forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy) is where keys are rotated very frequently, so that if the current encryption key is compromised, it does not expose **past** messages as well.
