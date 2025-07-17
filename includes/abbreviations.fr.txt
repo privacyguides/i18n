@@ -64,7 +64,7 @@
 *[OCSP]: Protocole d'état des certificats en ligne
 *[OEM]: Fabricant d'équipement d'origine
 *[OEMs]: Fabricants d'équipement d'origine
-*[open-weights]: An open weights-model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
+*[open-weights]: Un modèle à poids ouverts est un modèle d’IA que tout le monde peut télécharger et utiliser, mais dont les données d'entraînement et/ou les algorithmes sous-jacents restent propriétaires.
 *[OS]: Système d'exploitation
 *[OTP]: Mot de passe à usage unique
 *[OTPs]: Mots de passe à usage unique
@@ -72,12 +72,12 @@
 *[P2P]: Pair à pair
 *[PAM]: Modules d'authentification enfichables de Linux
 *[POP3]: Protocole de bureau de poste 3
-*[PGP]: Pretty Good Privacy (see OpenPGP)
+*[PGP]: Pretty Good Privacy (voir la norme OpenPGP) : un logiciel de chiffrement permettant de sécuriser des e-mails et des fichiers. Il repose sur la cryptographie à clé publique.
 *[DCP]: Donnée à charactère personnel
 *[QNAME]: Nom qualifié
-*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
+*[QUIC]: Un protocole réseau basé sur l'UDP, mais conçu pour combiner la rapidité d'UDP avec la fiabilité du TCP.
 *[limites de débit]: Les limites tarifaires sont des restrictions qu'un service impose sur le nombre de fois qu'un utilisateur peut accéder à ses services dans un délai donné.
-*[publication continue]: Updates which are released frequently rather than set intervals
+*[publication continue]: Mises à jour publiées de manière continue, plutôt qu'à intervalles fixes.
 *[RSS]: Syndication vraiment simple
 *[SELinux]: Sécurité renforcée de Linux
 *[SIM]: Module d'identité d'abonné
@@ -86,12 +86,12 @@
 *[SNI]: Indication du nom du serveur
 *[SSD]: Disque d'état solide
 *[SSH]: Shell sécurisé
-*[SUID]: Set Owner User ID
+*[SUID]: Définir l’utilisateur propriétaire
 *[SaaS]: Logiciel en tant que service (logiciel cloud)
 *[SoC]: Système sur puce
-*[SSO]: Single sign-on
-*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
-*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
+*[SSO]: Authentification unique
+*[instructions système]: Les instructions système d’un modèle d’IA sont des directives générales données par un humain pour définir le comportement ou le format des réponses attendues.
+*[température]: La "température" de l'IA est un paramètre utilisé dans les modèles d'IA pour contrôler le niveau d'aléatoire et de créativité dans le texte généré.
 *[TCP]: Protocole de contrôle de transmission
 *[TEE]: Environnement d'exécution de confiance
 *[TLS]: Sécurité de la couche transport
@@ -107,5 +107,5 @@
 *[W3C]: Consortium World Wide Web
 *[XMPP]: Protocole extensible de messagerie et de présence
 *[PWA]: Application web progressive
-*[PWAs]: Progressive Web Apps
-*[WKD]: Web Key Directory
+*[PWAs]: Applications Web progressives
+*[WKD]: Annuaire de clés publiques Web
