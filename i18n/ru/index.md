@@ -94,7 +94,7 @@ schema:
 
 *Наш сайт не содержит рекламы и не связан ни с одним из перечисленных провайдеров.*
 
-As seen in **WIRED**, **Tweakers.net**, **The New York Times**, and many other publications as a reliable source for privacy and security knowledge.
+Как отмечают **WIRED**, **Tweakers.net**, **The New York Times** и многие другие издания, это надежный источник знаний о конфиденциальности и безопасности.
 
 [:material-information: Подробнее о нас](about.md){ class="md-button" }
 
@@ -102,18 +102,18 @@ As seen in **WIRED**, **Tweakers.net**, **The New York Times**, and many other p
 <div markdown>
 ## Что такое инструменты конфиденциальности?
 
-We recommend a wide variety of **privacy tools** (a.k.a. *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can use to improve your privacy. Many of the tools we recommend are completely free to use and open-source software, while some are commercial services available for purchase. Switching from mainstream data-hungry software like Google Chrome and Windows to privacy-focused tools like [Brave](desktop-browsers.md#brave) and [Linux](desktop.md) can go a long way towards controlling the information you share with companies and others.
+We recommend a wide variety of **privacy tools** (a.k.a. *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can use to improve your privacy. Многие из рекомендуемых нами инструментов совершенно бесплатны для использования и имеют открытый исходный код, но в то же время некоторые являются коммерческими сервисами, которые можно приобрести. Переход от популярного ПО, жадного до данных, такого как Google Chrome и Windows, к инструментам, ориентированным на конфиденциальность, таким как [Brave](desktop-browsers.md#brave) и [Linux](desktop.md), может значительно улучшить контроль над информацией, которой Вы делитесь с компаниями и другими лицами.
 
-[:material-check-all: Our General Criteria](about/criteria.md){ class="md-button" }
+[:material-check-all: Наши общие критерии](about/criteria.md){ class="md-button" }
 </div>
 
 <div markdown>
 ## Почему приватность имеет значение?
 
-In the modern age of digital data exploitation, your privacy has never been more critical, yet many believe it is already a lost cause. Это не так. ==Your privacy is up for grabs, and you need to care about it.== Privacy is about power, and it is so important that this power ends up in the right hands.
+В современную эпоху использования цифровых данных Ваша конфиденциальность как никогда важна, но многие считают, что она уже безнадежно потеряна. Это не так. == Ваша конфиденциальность находится под угрозой, и Вам нужно позаботиться о ней.== Конфиденциальность — это власть; очень важно, чтобы эта власть оказалась в правильных руках.
 
-Many people get the concepts of privacy, security, and anonymity confused. Вы можете видеть, как люди называют различные продукты "не приватными", когда на самом деле они имеют в виду, что эти продукты не обеспечивают анонимность. На этом сайте мы рассматриваем все эти три темы, но важно понимать разницу между ними, и когда каждая из них вступает в игру.
+Многие люди путают понятия конфиденциальности, безопасности и анонимности. Вы можете видеть, как люди называют различные продукты "не приватными", когда на самом деле они имеют в виду, что эти продукты не обеспечивают анонимность. На этом сайте мы рассматриваем все эти три темы, но важно понимать разницу между ними, и когда каждая из них вступает в игру.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
+[:material-movie-open-play-outline: Видео: 5 способов улучшить Вашу конфиденциальность](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 </div>
 </div>

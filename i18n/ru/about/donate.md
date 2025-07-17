@@ -1,5 +1,5 @@
 ---
-title: Donate
+title: Пожертвовать
 description: The charitable mission of Privacy Guides relies on contributions from visitors like yourself. Anything you can do to support the project is hugely appreciated.
 ---
 
@@ -60,7 +60,7 @@ This is a list of our **active** [members](https://donate.magicgrants.org/privac
 </small>
 
 <h2 spaces-before="0">
-  Merchandise
+  Мерч
 </h2>
 
 <p spaces-before="0">
@@ -80,7 +80,7 @@ This is a list of our **active** [members](https://donate.magicgrants.org/privac
 </p>
 
 <h2 spaces-before="0">
-  FAQ
+  ЧаВо
 </h2>
 
 <h3 spaces-before="0">

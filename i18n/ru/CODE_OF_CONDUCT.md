@@ -10,11 +10,11 @@
 
 Что мы ожидаем от участников наших сообществ:
 
-1. **Do not spread misinformation**
+1. **Не распространяйте дезинформацию**
 
       We are creating an evidence-based educational community around information privacy and security, not an information home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive, explain in detail what is collected and how it collected. Заявления такого рода должны быть подкреплены техническими доказательствами.
 
-2. **Do not abuse our willingness to help**
+2. **Не злоупотребляйте нашей готовностью помочь**
 
       Our community members are not free tech support. We are happy to help with specific steps for your privacy journey, if you are willing to put in effort. We are not obligated to answer endless, repetitive questions about general computer problems solvable with a simple internet search. **Do not** become a [help vampire](https://slash7.com/2006/12/22/vampires).
 
@@ -28,7 +28,7 @@
       - Giving and gracefully accepting constructive feedback within our community while growing and improving.
       - Operating with a communal mindset at all times.
 
-## Unacceptable Behavior
+## Неприемлемое поведение
 
 Следующие виды поведения считаются харасментом и являются неприемлемыми в нашем сообществе:
 
