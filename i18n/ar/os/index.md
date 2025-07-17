@@ -1,21 +1,21 @@
 ---
-title: Operating Systems
-description: An overview of our operating system-related recommendations for all major computing hardware.
+title: أنظمة التشغيل
+description: نُقدم هنا ملخصا لتوصياتنا الخاصة بأنظمة التشغيل، والتي تناسب مختلف أنواع أجهزة الحاسوب المشهورة.
 ---
 
-We publish configuration guides for the major operating systems, because you can generally improve the amount of data that is collected about you on any option, especially if you use privacy tools like our [recommended web browsers](../desktop-browsers.md) in place of native tools where appropriate. However, some operating systems will be more privacy-respecting inherently, and it will be much harder to achieve an equivalent level of privacy on other choices.
+ننشر شروحات تهيئة لأنظمة التشغيل الرئيسية، لأن بإمكانك غالبا تقليل كمية البيانات التي يتم جمعها عنك مهما كان النظام الذي تستخدمه، خصوصا إذا اعتمدت أدوات خصوصية مثل [متصفحات الويب التي نوصي بها](../desktop-browsers.md) بدلا من الأدوات الافتراضية كلما أمكن ذلك. مع ذلك، بعض أنظمة التشغيل تُعتبر أكثر احتراما للخصوصية بطبيعتها، وسيكون من الصعب جدا الوصول إلى نفس مستوى الخصوصية عند استخدام أنظمة أخرى.
 
-- [Recommended Linux Distros :material-arrow-right-drop-circle:](../desktop.md)
-- [Recommended Android Distros :material-arrow-right-drop-circle:](../android/distributions.md)
+- [توزيعات لينكس الموصى بها :material-arrow-right-drop-circle:](../desktop.md)
+- [توزيعات أندرويد الموصى بها :material-arrow-right-drop-circle:](../android/distributions.md)
 
-The articles marked with a :material-star: are our more mature articles.
+المقالات التي تحمل علامة :material-star: هي المقالات الأكثر اكتمالا ونضجا لدينا.
 
-## Mobile Operating Systems
+## أنظمة تشغيل الأجهزة المحمولة
 
 - [Android Overview](android-overview.md) :material-star:
 - [iOS Overview](ios-overview.md)
 
-## Desktop Operating Systems
+## أنظمة تشغيل الـ Desktop
 
 - [Linux Overview](linux-overview.md) :material-star:
 - [macOS Overview](macos-overview.md)

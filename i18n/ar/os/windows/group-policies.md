@@ -88,50 +88,50 @@ description: دليل سريع لتهيئة إعدادات Group Policy لج
 
 - Allow Diagnostic Data: **Enabled**
     - خيار الـ: **Send required diagnostic data** (في إصدار Pro)؛ أو
-    - Options: **Diagnostic data off** (Enterprise or Education Edition)
-- Limit Diagnostic Log Collection: **Enabled**
-- Limit Dump Collection: **Enabled**
-- Limit optional diagnostic data for Desktop Analytics: **Enabled**
-    - Options: **Disable Desktop Analytics collection**
-- Do not show feedback notifications: **Enabled**
+    - خيار الـ: Diagnostic data off (في إصدار Enterprise أو Education)
+- اضبط إعداد Limit Diagnostic Log Collection على **Enabled**
+- اضبط إعداد Limit Dump Collection على **Enabled**
+- اضبط إعداد Limit optional diagnostic data for Desktop Analytics على **Enabled**
+    - الخيار: **Disable Desktop Analytics collection**
+- اضبط إعداد Do not show feedback notifications على **Enabled**
 
 #### File Explorer
 
-- Turn off account-based insights, recent, favorite, and recommended files in File Explorer: **Enabled**
+- اضبط إعداد Turn off account-based insights, recent, favorite, and recommended files in File Explorer على **Enabled**
 
 #### MDM
 
-- Disable MDM Enrollment: **Enabled**
+- اضبط إعداد Disable MDM Enrollment على **Enabled**
 
 #### OneDrive
 
-- Save documents to OneDrive by default: **Disabled**
-- Prevent OneDrive from generating network traffic until the user signs in to OneDrive: **Enabled**
-- Prevent the usage of OneDrive for file storage: **Enabled**
+- اضبط إعداد Save documents to OneDrive by default على **Disabled**
+- اضبط إعداد Prevent OneDrive from generating network traffic until the user signs in to OneDrive على **Enabled**
+- اضبط إعداد Prevent the usage of OneDrive for file storage على **Enabled**
 
-This last setting disables OneDrive on your system; make sure to change it to **Disabled** if you use OneDrive.
+هذا الإعداد الأخير يؤدي إلى تعطيل OneDrive بالكامل على نظامك؛ لذا تأكد من ضبطه على **Disabled** إذا كنت تستخدم OneDrive.
 
 #### Push To Install
 
-- Turn off Push To Install service: **Enabled**
+- اضبط إعداد Turn off Push To Install service على **Enabled**
 
 #### بحث
 
-- Allow Cortana: **Disabled**
-- Don't search the web or display web results in Search: **Enabled**
-- Set what information is shared in Search: **Enabled**
-    - Type of information: **Anonymous info**
+- اضبط إعداد Allow Cortana على **Disabled**
+- اضبط إعداد Don't search the web or display web results in Search على **Enabled**
+- اضبط إعداد Set what information is shared in Search على **Enabled**
+    - اضبط خيار Type of information على **Anonymous info**
 
 #### Sync your settings
 
-- Do not sync: **Enabled**
+- اضبط إعداد Do not sync على **Enabled**
 
 #### Text input
 
-- Improve inking and typing recognition: **Disabled**
+- اضبط إعداد Improve inking and typing recognition على **Disabled**
 
 #### Windows Error Reporting
 
-- Do not send additional data: **Enabled**
-- Consent > Configure Default consent: **Enabled**
-    - Consent level: **Always ask before sending data**
+- اضبط إعداد Do not send additional data على **Enabled**
+- اضبط الإعداد Consent > Configure Default consent على **Enabled**
+    - اضبط خيار Consent level على **Always ask before sending data**
