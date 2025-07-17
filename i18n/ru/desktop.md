@@ -63,9 +63,9 @@ Tumbleweed следует модели плавающего релиза, ког
 
 **Arch Linux** is a lightweight, do-it-yourself (DIY) distribution, meaning that you only get what you install. Более подробную информацию можно найти на их сайте [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions).
 
-[:octicons-home-16: Homepage](https://archlinux.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://wiki.archlinux.org){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://archlinux.org/donate){ .card-link title="Contribute" }
+[:octicons-home-16: Главная](https://archlinux.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://wiki.archlinux.org){ .card-link title="Документация"}
+[:octicons-heart-16:](https://archlinux.org/donate){ .card-link title="Поддержать" }
 
 </details>
 
