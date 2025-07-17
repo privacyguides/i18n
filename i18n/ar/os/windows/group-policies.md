@@ -77,17 +77,17 @@ description: دليل سريع لتهيئة إعدادات Group Policy لج
 - اضبط إعداد Turn off cloud optimized content على **Enabled**
 - اضبط إعداد Turn off cloud consumer account state content على **Enabled**
 - اضبط إعداد Do not show Windows tips على **Enabled**
-- Turn off Microsoft consumer experiences: **Enabled**
+- اضبط إعداد Turn off Microsoft consumer experiences على **Enabled**
 
 #### Credential User Interface
 
-- Require trusted path for credential entry: **Enabled**
-- Prevent the use of security questions for local accounts: **Enabled**
+- اضبط إعداد Require trusted path for credential entry على **Enabled**
+- اضبط إعداد Prevent the use of security questions for local accounts على **Enabled**
 
 #### Data Collection and Preview Builds
 
 - Allow Diagnostic Data: **Enabled**
-    - Options: **Send required diagnostic data** (Pro Edition); or
+    - خيار الـ: **Send required diagnostic data** (في إصدار Pro)؛ أو
     - Options: **Diagnostic data off** (Enterprise or Education Edition)
 - Limit Diagnostic Log Collection: **Enabled**
 - Limit Dump Collection: **Enabled**
