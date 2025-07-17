@@ -9,42 +9,42 @@ En général, les [directives fédérales américaines en matière de langage cl
 
 ## Écrire pour notre public
 
-Privacy Guides s'adresse principalement à une [audience](https://plainlanguage.gov/guidelines/audience) adulte qui utilise la technologie. Ne simplifiez pas le contenu comme si vous vous adressiez à une classe d'école primaire, mais n'abusez pas d'une terminologie compliquée concernant des concepts que l'utilisateur moyen d'un ordinateur ne connaît pas.
+Privacy Guides s'adresse principalement à une [audience](https://plainlanguage.gov/guidelines/audience) adulte qui utilise la technologie. Ne simplifiez pas le contenu comme si vous vous adressiez à une classe de collégiens, mais n'abusez pas d'une terminologie compliquée concernant des concepts que l'utilisateur moyen d'un ordinateur ne connaît pas.
 
-### N'aborder que ce que les gens veulent savoir
+### Ne traitez que ce que les gens veulent savoir
 
 Les gens n'ont pas besoin d'articles trop complexes et peu pertinents pour eux. Déterminez ce que vous voulez que les gens accomplissent en écrivant un article, et n'incluez que ces détails.
 
-> Expliquez à votre public pourquoi le contenu est important pour lui. Dites : "Si vous voulez une bourse de recherche, voici ce que vous devez faire." Ou, "Si vous voulez exploiter une mine de charbon sur le domaine public, voici ce qu'il faut savoir." Ou, "Si vous prévoyez un voyage au Rwanda, lisez ça d'abord."
+> Expliquez à votre public pourquoi le contenu est important pour lui. Dites : "Si vous voulez une bourse de recherche, voici ce que vous devez faire." Ou, "Si vous voulez exploiter une mine de charbon sur le domaine public, voici ce qu'il faut savoir." Ou, "Si vous prévoyez un voyage au Rwanda, lisez ceci d'abord."
 
-### S'adresser directement aux gens
+### Adressez-vous directement aux gens
 
 Nous écrivons *pour* une grande variété de personnes, mais nous écrivons *à* la personne qui le lit. Utilisez le "vous" pour vous adresser directement au lecteur.
 
-> Plus que toute autre technique, l'utilisation du "vous" attire les utilisateurs vers l'information et la rend pertinente pour eux.
+> Plus que toute autre technique, l'utilisation du vouvoiement attire les utilisateurs vers l'information et la rend pertinente pour eux.
 > 
-> Lorsque vous utilisez le "vous" pour vous adresser aux utilisateurs, ceux-ci sont plus susceptibles de comprendre quelle est leur responsabilité.
+> Lorsque vous utilisez le vouvoiement pour vous adresser aux utilisateurs, ceux-ci sont plus susceptibles de comprendre quelle est leur responsabilité.
 
 Source : [plainlanguage.gov](https://plainlanguage.gov/guidelines/audience/address-the-user)
 
-### Évitez les "utilisateurs"
+### Évitez le terme "les utilisateurs"
 
-Évitez d'appeler les gens "utilisateurs", en faveur de "personnes", ou d'une description plus spécifique du groupe de personnes pour lequel vous écrivez.
+Évitez d'appeler les gens « utilisateurs », et préférez le terme « personnes » ou une description plus spécifique du groupe de personnes pour lequel vous écrivez.
 
-## Organiser le contenu
+## Organisez le contenu
 
-L'organisation est clé. Le contenu doit aller de l'information la plus importante à l'information la moins importante, et utiliser les en-têtes autant que nécessaire pour séparer logiquement les différentes idées.
+L'organisation est clé. Les contenus doivent être organisés par ordre décroissant d'importance et les en-têtes doivent être utilisés autant que nécessaire pour séparer logiquement les différentes idées.
 
-- Limitez le document à environ cinq ou six sections. Les documents longs devraient probablement être divisés en pages séparées.
-- Marquez les idées importantes avec **du gras** ou *de l'italique*.
+- Limitez le document à cinq ou six section(s) environ. Les documents longs devraient probablement être divisés en pages séparées.
+- Marquez les idées importantes avec du texte** en gras** ou *en italique*.
 
 Source : [plainlanguage.gov](https://plainlanguage.gov/guidelines/design)
 
-### Commencez par une phrase sujet
+### Commencez par une phrase thématique
 
-> Si vous indiquez à votre lecteur le sujet qu'il va lire, il est moins susceptible de devoir relire votre paragraphe. Les titres sont utiles, mais ils ne suffisent pas. Établissez un contexte pour votre public avant de lui fournir les détails.
+> Si vous indiquez en préambule à votre lecteur ce qu'il va lire, il y a moins de chances qu'il doive relire votre paragraphe. Les titres et sont utiles, mais ils ne suffisent pas. Établissez un contexte pour votre public avant de lui fournir les détails.
 > 
-> Nous écrivons souvent de la même manière que nous pensons, en mettant nos prémisses en premier et ensuite notre conclusion. C'est peut-être la façon naturelle de développer des pensées, mais nous nous retrouvons avec la phrase sujet à la fin du paragraphe. Déplacez-la au début et laissez les utilisateurs savoir où vous allez. N'obligez pas les lecteurs à retenir un grand nombre d'informations dans leur tête avant d'en venir au fait.
+> Nous écrivons souvent de la même manière que nous raisonnons, en commençant par les prémisses et en terminant par la conclusion. C'est peut-être la façon naturelle de développer des idées, mais nous nous retrouvons avec la question principale à la fin du paragraphe. Mettez-la au premier plan et indiquez aux utilisateurs où vous voulez en venir. N'obligez pas les lecteurs à retenir un grand nombre d'informations avant d'en venir au fait.
 
 Source : [plainlanguage.gov](https://plainlanguage.gov/guidelines/organize/have-a-topic-sentence)
 
@@ -52,11 +52,11 @@ Source : [plainlanguage.gov](https://plainlanguage.gov/guidelines/organize/have-
 
 > Les mots sont importants. Ils constituent les éléments de base de la communication écrite et orale. Ne compliquez pas les choses en utilisant du jargon, des termes techniques ou des abréviations que les gens ne comprendront pas.
 
-Nous devrions essayer d'éviter les abréviations dans la mesure du possible, mais la technologie est pleine d'abréviations. En général, il faut épeler l'abréviation/acronyme la première fois qu'elle est utilisée sur une page, et l'ajouter au fichier du glossaire des abréviations lorsqu'elle est utilisée à plusieurs reprises.
+Nous devrions essayer d'éviter les abréviations dans la mesure du possible, mais la technologie est pleine d'abréviations. En général, épeler l'abréviation/acronyme la première fois qu'elle est utilisée sur une page, et l'ajouter au fichier du glossaire des abréviations lorsqu'elle est utilisée de façon répétée.
 
-> Kathy McGinty propose des instructions ironiques pour étoffer vos phrases simples et directes :
+> Kathy McGinty propose des instructions humoristiques pour étoffer vos phrases simples et directes :
 > 
-> > On ne peut échapper au fait qu'il est considéré comme très important de noter qu'un certain nombre d'études disponibles applicables ont ipso facto généralement identifié le fait que des emplois nocturnes supplémentaires appropriés pourraient généralement empêcher les adolescents mineurs de circuler sur les voies publiques pendant les heures de nuit, y compris, mais sans s'y limiter, avant minuit les soirs de semaine et/ou 2 heures du matin. Les week-ends.
+> > On ne peut échapper au fait qu'il est considéré comme très important de noter qu'un certain nombre d'études applicables disponibles ont ipso facto généralement identifié le fait qu'un emploi nocturne approprié supplémentaire pourrait généralement maintenir les adolescents juvéniles à l'écart des voies de circulation pendant les heures de nuit, y compris, mais sans s'y limiter, la période précédant minuit les nuits de semaine et/ou 2 heures du matin les week-ends.
 > 
 > Et l'original, en utilisant des mots plus forts et plus simples :
 > 
