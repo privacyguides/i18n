@@ -1,5 +1,5 @@
 ---
-meta_title: "The Best Private Instant Messengers - Privacy Guides"
+meta_title: "Лучшие приватные мессенджеры - Privacy Guides"
 title: Мессенджеры
 icon: material/chat-processing
 description: Encrypted messengers like Signal and SimpleX keep your sensitive communications secure from prying eyes.
@@ -13,7 +13,7 @@ cover: real-time-communication.webp
 - [:material-eye-outline: Массовое наблюдение](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-account-cash: Капитализм слежки](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These recommendations for encrypted **real-time communication** are great for securing your sensitive communications. These instant messengers come in the form of many [types of communication networks](advanced/communication-network-types.md).
+Эти рекомендации по шифрованию **связи в режиме реального времени** отлично подходят для защиты конфиденциальных сообщений. Эти мессенджеры представлены в виде множества [типов коммуникационных сетей](advanced/communication-network-types.md).
 
 [:material-movie-open-play-outline: Видео: Пора прекратить использовать СМС](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
 
@@ -49,12 +49,12 @@ These recommendations for encrypted **real-time communication** are great for se
 Для регистрации Signal требует номер телефона, однако Вам следует создать имя пользователя, чтобы скрыть свой номер телефона от контактов:
 
 1. Откройте настройки приложения и нажмите на Ваш профиль вверху.
-2. Tap **Username** and choose **Continue** on the "Set up your Signal username" screen.
-3. Enter a username. Your username will always be paired with a unique set of digits to keep your username unique and prevent people from guessing it. For example if you enter "John" your username might end up being `@john.35`. By default, only 2 digits are paired with your username when you create it, but you can add more digits until you reach the username length limit (32 characters).
-4. Go back to the main app settings page and select **Privacy**.
-5. Select **Phone Number**.
-6. Change the **Who Can See My Number** setting to **Nobody**.
-7. (Optional) Change the **Who Can Find Me By Number** setting to **Nobody** as well, if you want to prevent people who already have your phone number from discovering your Signal account/username
+2. Нажмите **Имя пользователя** и выберите **Продолжить** на экране "Настройка имени пользователя Signal".
+3. Введите имя пользователя. Ваше имя пользователя всегда будет сопровождаться уникальным набором цифр, чтобы сохранить уникальность Вашего имени и предотвратить возможность угадать его. Например, если Вы введете "John", Ваше имя пользователя в итоге может стать `@john.35`. По умолчанию при создании имени пользователя к нему добавляются только 2 цифры, но Вы можете добавить больше, пока не достигнете максимальной длины имени пользователя (32 символа).
+4. Вернитесь на главную страницу настроек и нажмите **Конфиденциальность**.
+5. Нажмите **Номер телефона**.
+6. Измените **Кто может видеть мой номер** на **Никто**.
+7. (Необязательно) Измените **Кто может найти меня по номеру** на **Никто**, если Вы хотите, чтобы люди, у которых уже есть Ваш номер телефона, не смогли обнаружить Вашу учетную запись/имя пользователя Signal.
 
 We have some additional tips on configuring and hardening your Signal installation:
 

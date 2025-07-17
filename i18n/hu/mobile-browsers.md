@@ -1,14 +1,14 @@
 ---
-meta_title: "Privacy Respecting Web Browsers for Android and iOS - Privacy Guides"
-title: "Mobile Browsers"
+meta_title: "Magánéletet védő webböngészők Android és iOS rendszerekre - Privacy Guides"
+title: "Mobil böngészők"
 icon: material/cellphone-information
-description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
+description: Jelenleg ezeket az adatvédelmi böngészőket ajánljuk a mobil rendszereken történő normál/nem anonim internetböngészéshez.
 cover: mobile-browsers.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Mobile Browser Recommendations
+    name: Privát mobil böngésző ajánlások
     url: "./"
     relatedLink: "../desktop-browsers/"
   - 
