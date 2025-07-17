@@ -59,7 +59,7 @@ schema:
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: سرمایه‌داری نظارتی](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
 These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. اگر شما دنبال حفاظت قوی از حریم خصوصی و anti-fingerprinting هستید ما به شما مرورگر، [Mullvad Browser](#mullvad-browser) را توصیه می‌کنیم، [Firefox](#firefox) را برای کاربران عادی اینترنتی که به دنبال جایگزین مناسبی برای Google Chrome هستند پیشنهاد می‌کنیم و [Brave](#brave) در صورتی نیاز به سازگاری با مرورگر Chromium دارید.
 

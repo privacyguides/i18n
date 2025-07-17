@@ -1,231 +1,234 @@
 ---
-title: "Common Threats"
+title: "تهدیدات رایج"
 icon: 'material/eye-outline'
-description: Your threat model is personal to you, but these are some of the things many visitors to this site care about.
+description: مدل تهدید شما شخصی است، اما اینها برخی از مواردی هستند که بسیاری از بازدیدکنندگان این سایت به آنها اهمیت می‌دهند.
 ---
 
-Broadly speaking, we categorize our recommendations into the [threats](threat-modeling.md) or goals that apply to most people. ==You may be concerned with none, one, a few, or all of these possibilities==, and the tools and services you use depend on what your goals are. You may have specific threats outside these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortcomings of the tools you choose to use, because virtually none of them will protect you from every threat.
+به طور کلی، ما توصیه‌های خود را به [تهدیدات](threat-modeling.md) یا اهدافی که برای اکثر مردم اعمال می‌شود، دسته‌بندی می‌کنیم. شما ممکن است نگران هیچ‌یک، یکی، چندتا یا همه این امکانات باشید و ابزارها و خدماتی که استفاده می‌کنید بستگی به اهداف شما دارد. شما ممکن است تهدیدات خاصی خارج از این دسته‌ها نیز داشته باشید که کاملاً طبیعی است! قسمت مهم این است که درک کنید ابزارهایی که انتخاب می‌کنید چه مزایا و معایبی دارند، زیرا عملاً هیچ‌کدام از آن‌ها شما را از هر تهدیدی محافظت نخواهند کرد.
 
-<span class="pg-purple">:material-incognito: **Anonymity**</span>
+<span class="pg-purple">:material-incognito: **ناشناس بودن**</span>
 :
 
-Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
+پوشش دادن فعالیت آنلاین شما از هویت واقعی‌تان، شما را از افرادی که سعی دارند *هویت* شما را به‌طور خاص کشف کنند، محافظت می‌کند.
 
-<span class="pg-red">:material-target-account: **Targeted Attacks**</span>
+<span class="pg-red">:material-target-account: **حملات هدفمند**</span>
 :
 
-Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
+محافظت از خود در برابر هکرها یا سایر بازیگران مخرب که سعی دارند به *داده‌ها* یا دستگاه‌های شما به‌طور خاص دسترسی پیدا کنند.
 
-<span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
+<span class="pg-viridian">:material-package-variant-closed-remove: **حملات زنجیره تأمین**</span>
 :
 
-Typically, a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+به طور معمول، نوعی از <span class="pg-red">:material-target-account: حمله هدفمند</span> که بر روی یک آسیب‌پذیری یا بهره‌برداری که به نرم‌افزار خوب دیگری به‌طور مستقیم یا از طریق وابستگی از یک طرف سوم معرفی شده، متمرکز است.
 
-<span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
+<span class="pg-orange">:material-bug-outline: **حملات غیرفعال**</span>
 :
 
-Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
+محافظت در برابر چیزهایی مانند بدافزار، نقض داده‌ها و سایر حملاتی که به طور همزمان علیه بسیاری از افراد انجام می‌شود.
 
-<span class="pg-teal">:material-server-network: **Service Providers**</span>
+<span class="pg-teal">:material-server-network: **ارائه‌دهندگان خدمات**</span>
 :
 
-Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
+محافظت از داده‌های شما در برابر ارائه‌دهندگان خدمات (به عنوان مثال با استفاده از E2EE، که داده‌های شما را برای سرور غیرقابل خواندن می‌کند).
 
-<span class="pg-blue">:material-eye-outline: **Mass Surveillance**</span>
+<span class="pg-blue">:material-eye-outline: **نظارت جمعی**</span>
 :
 
-Protection from government agencies, organizations, websites, and services which work together to track your activities.
+حفاظت در برابر نهادهای دولتی، سازمان‌ها، وب‌سایت‌ها و خدماتی که با هم کار می‌کنند تا فعالیت‌های شما را ردیابی کنند.
 
-<span class="pg-brown">:material-account-cash: **Surveillance Capitalism**</span>
+<span class="pg-brown">:material-account-cash: **سرمایه‌داری نظارتی**</span>
 :
 
-Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
+خود را از شبکه‌های تبلیغاتی بزرگ، مانند گوگل و فیسبوک، و همچنین تعداد زیادی از جمع‌آوری‌کنندگان داده‌های شخص ثالث محافظت کنید.
 
-<span class="pg-green">:material-account-search: **Public Exposure**</span>
+<span class="pg-green">:material-account-search: **معرض عمومی**</span>
 :
 
-Limiting the information about you that is accessible online—to search engines or the public.
+محدود کردن اطلاعاتی که درباره شما به صورت آنلاین در دسترس است—به موتورهای جستجو یا عموم.
 
-<span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
+<span class="pg-blue-gray">:material-close-outline: **سانسور**</span>
 :
 
-Avoiding censored access to information or being censored yourself when speaking online.
+اجتناب از دسترسی سانسور شده به اطلاعات یا سانسور شدن خودتان هنگام صحبت کردن آنلاین.
 
-Some of these threats may be more important to you than others, depending on your specific concerns. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> and <span class="pg-red">:material-target-account: Targeted Attacks</span>. They will likely still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. Similarly, many people may be primarily concerned with <span class="pg-green">:material-account-search: Public Exposure</span> of their personal data, but they should still be wary of security-focused issues, such as <span class="pg-orange">:material-bug-outline: Passive Attacks</span>—like malware affecting their devices.
+برخی از این تهدیدات ممکن است برای شما مهم‌تر از دیگران باشند، بسته به نگرانی‌های خاص شما. به عنوان مثال، یک توسعه‌دهنده نرم‌افزار که به داده‌های ارزشمند یا حیاتی دسترسی دارد ممکن است عمدتاً نگران <span class="pg-viridian">:material-package-variant-closed-remove: حملات زنجیره تأمین</span> و <span class="pg-red">:material-target-account: حملات هدفمند</span> باشد. آنها احتمالاً هنوز می‌خواهند از داده‌های شخصی خود در برابر جمع‌آوری در برنامه‌های <span class="pg-blue">:material-eye-outline: نظارت جمعی</span> محافظت کنند. به طور مشابه، بسیاری از مردم ممکن است به طور عمده نگران <span class="pg-green">:material-account-search: افشای عمومی</span> داده‌های شخصی خود باشند، اما باید همچنان نسبت به مسائل امنیتی، مانند <span class="pg-orange">:material-bug-outline: حملات غیرفعال</span>—مانند بدافزارهایی که بر روی دستگاه‌هایشان تأثیر می‌گذارند، محتاط باشند.
 
-## Anonymity vs. Privacy
+## ناشناسی در مقابل حریم خصوصی
 
-<span class="pg-purple">:material-incognito: Anonymity</span>
+<span class="pg-purple">:material-incognito: ناشناسی</span>
 
-Anonymity is often confused with privacy, but they're distinct concepts. While privacy is a set of choices you make about how your data is used and shared, anonymity is the complete disassociation of your online activities from your real identity.
+ناشناس بودن اغلب با حریم خصوصی اشتباه گرفته می‌شود، اما این دو مفهوم متمایز هستند. در حالی که حریم خصوصی مجموعه‌ای از انتخاب‌هایی است که شما درباره‌ی نحوه‌ی استفاده و اشتراک‌گذاری داده‌هایتان انجام می‌دهید، ناشناس بودن به معنای جدایی کامل فعالیت‌های آنلاین شما از هویت واقعی‌تان است.
 
-Whistleblowers and journalists, for example, can have a much more extreme threat model which requires total anonymity. That's not only hiding what they do, what data they have, and not getting hacked by malicious actors or governments, but also hiding who they are entirely. They will often sacrifice any kind of convenience if it means protecting their anonymity, privacy, or security, because their lives could depend on it. Most people don't need to go so far.
+به عنوان مثال، افشاگران و خبرنگاران می‌توانند مدل تهدید بسیار شدیدتری داشته باشند که نیاز به ناشناسی کامل دارد. این تنها پنهان کردن آنچه که انجام می‌دهند، داده‌هایی که دارند و جلوگیری از هک شدن توسط بازیگران یا دولت‌های مخرب نیست، بلکه همچنین پنهان کردن هویت کامل آن‌ها است. آنها اغلب هر نوع راحتی را فدای حفظ ناشناسی، حریم خصوصی یا امنیت خود می‌کنند، زیرا زندگی‌شان ممکن است به آن بستگی داشته باشد. بیشتر مردم نیازی به رفتن به این دور دست‌ها ندارند.
 
-## Security and Privacy
+## امنیت و حریم خصوصی
 
-<span class="pg-orange">:material-bug-outline: Passive Attacks</span>
+<span class="pg-orange">:material-bug-outline: حملات غیرفعال</span>
 
-Security and privacy are also often confused, because you need security to obtain any semblance of privacy: Using tools—even if they're private by design—is futile if they could be easily exploited by attackers who later release your data. However, the inverse isn't necessarily true: The most secure service in the world *isn't necessarily* private. The best example of this is trusting data to Google who, given their scale, have had few security incidents by employing industry-leading security experts to secure their infrastructure. Even though Google provides very secure services, very few people would consider their data private in Google's free consumer products (Gmail, YouTube, etc.)
+امنیت و حریم خصوصی اغلب با هم اشتباه گرفته می‌شوند، زیرا برای به دست آوردن هر نوع حریم خصوصی به امنیت نیاز دارید: استفاده از ابزارها - حتی اگر به طور خاص برای حفظ حریم خصوصی طراحی شده باشند - بی‌فایده است اگر به راحتی توسط مهاجمان مورد سوءاستفاده قرار گیرند که بعداً داده‌های شما را منتشر می‌کنند. با این حال، معکوس آن لزوماً درست نیست: امن‌ترین سرویس در جهان *لزومن* خصوصی نیست. بهترین مثال برای این موضوع اعتماد به داده‌ها به گوگل است که با توجه به مقیاس خود، با استخدام کارشناسان امنیتی پیشرو در صنعت، حوادث امنیتی کمی را تجربه کرده‌اند تا زیرساخت‌های خود را ایمن کنند. با وجود اینکه گوگل خدمات بسیار امنی ارائه می‌دهد، تعداد بسیار کمی از افراد داده‌های خود را در محصولات رایگان مصرف‌کننده گوگل (جیمیل، یوتیوب و غیره) خصوصی می‌دانند.
 
-When it comes to application security, we generally don't (and sometimes can't) know if the software we use is malicious, or might one day become malicious. Even with the most trustworthy developers, there's generally no guarantee that their software doesn't have a serious vulnerability that could later be exploited.
+زمانی که صحبت از امنیت برنامه‌ها به میان می‌آید، به طور کلی ما نمی‌دانیم (و گاهی اوقات نمی‌توانیم بدانیم) که آیا نرم‌افزاری که استفاده می‌کنیم مخرب است یا ممکن است روزی مخرب شود. حتی با معتبرترین توسعه‌دهندگان، معمولاً هیچ تضمینی وجود ندارد که نرم‌افزار آنها دارای یک آسیب‌پذیری جدی نباشد که ممکن است بعداً مورد سوءاستفاده قرار گیرد.
 
-To minimize the damage that a malicious piece of software *could* do, you should employ security by compartmentalization. For example, this could come in the form of using different computers for different jobs, using virtual machines to separate different groups of related applications, or using a secure operating system with a strong focus on application sandboxing and mandatory access control.
+برای کاهش آسیب‌هایی که یک نرم‌افزار مخرب *می‌تواند* ایجاد کند، باید از امنیت به روش جداسازی استفاده کنید. به عنوان مثال، این می‌تواند به صورت استفاده از کامپیوترهای مختلف برای مشاغل مختلف، استفاده از ماشین‌های مجازی برای جداسازی گروه‌های مختلف از برنامه‌های مرتبط، یا استفاده از یک سیستم‌عامل امن با تمرکز قوی بر روی جداسازی برنامه‌ها و کنترل دسترسی اجباری باشد.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">نکته</p>
 
-Mobile operating systems generally have better application sandboxing than desktop operating systems: Apps can't obtain root access, and require permission for access to system resources.
+سیستم‌عامل‌های موبایل به‌طور کلی دارای جداسازی بهتری برای برنامه‌ها نسبت به سیستم‌عامل‌های دسکتاپ هستند: برنامه‌ها نمی‌توانند به دسترسی ریشه دست یابند و برای دسترسی به منابع سیستم به مجوز نیاز دارند.
 
-Desktop operating systems generally lag behind on proper sandboxing. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). However, these operating systems do transmit identifying information to their respective OEMs. Linux tends to not submit information to system vendors, but it has poor protection against exploits and malicious apps. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+سیستم‌عامل‌های دسکتاپ به طور کلی در زمینه‌ی جداسازی مناسب عقب‌تر هستند. ChromeOS دارای قابلیت‌های مشابهی برای sandboxing با Android است و macOS کنترل کامل مجوزهای سیستم را دارد (و توسعه‌دهندگان می‌توانند برای برنامه‌ها به sandboxing بپیوندند). با این حال، این سیستم‌عامل‌ها اطلاعات شناسایی را به OEMهای مربوطه خود منتقل می‌کنند. لینوکس تمایل دارد که اطلاعاتی به فروشندگان سیستم ارسال نکند، اما در برابر بهره‌برداری‌ها و برنامه‌های مخرب حفاظت ضعیفی دارد. این موضوع تا حدی با توزیع‌های تخصصی که از ماشین‌های مجازی یا کانتینرها به طور قابل توجهی استفاده می‌کنند، مانند [Qubes OS](../desktop.md#qubes-os) قابل کاهش است.
 
 </div>
 
-## Attacks against Specific Individuals
+## حملات علیه افراد خاص
 
-<span class="pg-red">:material-target-account: Targeted Attacks</span>
+<span class="pg-red">:material-target-account: حملات هدفمند</span>
 
-Targeted attacks against a specific person are more problematic to deal with. Common attacks include sending malicious documents via email, exploiting vulnerabilities (e.g. in browsers and operating systems), and physical attacks. If this is a concern for you, you should employ more advanced threat mitigation strategies.
+حملات هدفمند علیه یک شخص خاص مشکلات بیشتری برای مقابله ایجاد می‌کند. حملات رایج شامل ارسال اسناد مخرب از طریق ایمیل، بهره‌برداری از آسیب‌پذیری‌ها (مانند در مرورگرها و سیستم‌های عامل) و حملات فیزیکی است. اگر این موضوع برای شما نگران‌کننده است، باید از استراتژی‌های پیشرفته‌تری برای کاهش تهدیدات استفاده کنید.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">نکته</p>
 
-By design, **web browsers**, **email clients**, and **office applications** typically run untrusted code, sent to you from third parties. Running multiple virtual machines—to separate applications like these from your host system, as well as each other—is one technique you can use to mitigate the chance of an exploit in these applications compromising the rest of your system. For example, technologies like Qubes OS or Microsoft Defender Application Guard on Windows provide convenient methods to do this.
+به‌طور پیش‌فرض، **مرورگرهای وب**، **کلاینت‌های ایمیل** و **برنامه‌های اداری** معمولاً کدهای غیرمعتبر را اجرا می‌کنند که از طرف‌های سوم برای شما ارسال می‌شوند. اجرای چندین ماشین مجازی—برای جدا کردن برنامه‌هایی مانند این‌ها از سیستم میزبان شما و همچنین از یکدیگر—یک تکنیک است که می‌توانید از آن برای کاهش احتمال نفوذ یک آسیب‌پذیری در این برنامه‌ها به بقیه سیستم خود استفاده کنید. به عنوان مثال، فناوری‌هایی مانند Qubes OS یا Microsoft Defender Application Guard در ویندوز روش‌های راحتی برای انجام این کار ارائه می‌دهند.
 
 </div>
 
-If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). You should also make sure that your drive is encrypted, and that the operating system uses a TPM or Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) or [Element](https://developers.google.com/android/security/android-ready-se) to rate limit attempts to enter the encryption passphrase. You should avoid sharing your computer with people you don't trust, because most desktop operating systems don't encrypt data separately per-user.
+اگر نگران **حملات فیزیکی** هستید، باید از یک سیستم‌عامل با پیاده‌سازی بوت امن و تأیید شده استفاده کنید، مانند اندروید، iOS، macOS یا [ویندوز (با TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). شما همچنین باید اطمینان حاصل کنید که درایو شما رمزگذاری شده است و سیستم عامل از یک TPM یا [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) یا [Element](https://developers.google.com/android/security/android-ready-se) برای محدود کردن تعداد تلاش‌ها برای وارد کردن عبارت عبور رمزگذاری استفاده می‌کند. شما باید از به اشتراک گذاشتن کامپیوتر خود با افرادی که به آنها اعتماد ندارید، خودداری کنید، زیرا بیشتر سیستم‌عامل‌های دسکتاپ داده‌ها را به‌طور جداگانه برای هر کاربر رمزگذاری نمی‌کنند.
 
-## Attacks against Certain Organizations
+## حملات علیه سازمان‌های خاص
 
-<span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>
+<span class="pg-viridian">:material-package-variant-closed-remove: حملات زنجیره تأمین</span>
 
-Supply chain attacks are frequently a form of <span class="pg-red">:material-target-account: Targeted Attack</span> towards businesses, governments, and activists, although they can end up compromising the public at large as well.
+حملات زنجیره تأمین به طور مکرر نوعی <span class="pg-red">:material-target-account: حمله هدفمند</span> به سمت کسب‌وکارها، دولت‌ها و فعالان هستند، اگرچه ممکن است در نهایت به خطر انداختن عموم مردم نیز منجر شوند.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example</p>
+<p class="admonition-title">مثال
 
-A notable example of this occurred in 2017 when M.E.Doc, a popular accounting software in Ukraine, was infected with the *NotPetya* virus, subsequently infecting people who downloaded that software with ransomware. NotPetya itself was a ransomware attack which impacted 2000+ companies in various countries, and was based on the *EternalBlue* exploit developed by the NSA to attack Windows computers over the network.
+متن پاراگراف
+XPath: /div[4]/p</p>
+
+یک مثال قابل توجه از این موضوع در سال ۲۰۱۷ رخ داد زمانی که M.E.Doc، یک نرم‌افزار حسابداری محبوب در اوکراین، به ویروس *NotPetya* آلوده شد و در نتیجه افرادی که آن نرم‌افزار را دانلود کردند، به باج‌افزار آلوده شدند. NotPetya خود یک حمله باج‌افزاری بود که بیش از ۲۰۰۰ شرکت در کشورهای مختلف را تحت تأثیر قرار داد و بر اساس آسیب‌پذیری *EternalBlue* توسعه‌یافته توسط NSA برای حمله به کامپیوترهای ویندوز از طریق شبکه بود.
 
 </div>
 
-There are few ways in which this type of attack might be carried out:
+چندین روش وجود دارد که این نوع حمله ممکن است انجام شود:
 
-1. A contributor or employee might first work their way into a position of power within a project or organization, and then abuse that position by adding malicious code.
-2. A developer may be coerced by an outside party to add malicious code.
-3. An individual or group might identify a third party software dependency (also known as a library) and work to infiltrate it with the above two methods, knowing that it will be used by "downstream" software developers.
+1. یک مشارکت‌کننده یا کارمند ممکن است ابتدا به یک موقعیت قدرت در یک پروژه یا سازمان دست یابد و سپس از آن موقعیت سوءاستفاده کرده و کد مخرب اضافه کند.
+2. یک توسعه‌دهنده ممکن است توسط یک طرف خارجی مجبور شود کد مخرب اضافه کند.
+3. یک فرد یا گروه ممکن است یک وابستگی نرم‌افزاری شخص ثالث (که به آن کتابخانه نیز گفته می‌شود) را شناسایی کرده و با استفاده از دو روش فوق به نفوذ به آن بپردازد، با این علم که توسط توسعه‌دهندگان نرم‌افزار "پایین‌دست" استفاده خواهد شد.
 
-These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers to only use software which has a good reputation and makes an effort to reduce risk by:
+این نوع حملات می‌تواند به زمان و آمادگی زیادی برای انجام نیاز داشته باشد و خطرناک است زیرا ممکن است شناسایی شوند، به ویژه در پروژه‌های متن‌باز اگر محبوب باشند و مورد توجه خارجی قرار گیرند. متأسفانه آن‌ها همچنین یکی از خطرناک‌ترین‌ها هستند زیرا به‌طور کامل کاهش دادن آن‌ها بسیار دشوار است. ما از خوانندگان می‌خواهیم که فقط از نرم‌افزاری استفاده کنند که شهرت خوبی دارد و تلاشی برای کاهش ریسک انجام می‌دهد با:
 
-1. Only adopting popular software that has been around for a while. The more interest in a project, the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
-2. Finding software which releases binaries with widely-used, trusted build infrastructure platforms, as opposed to developer workstations or self-hosted servers. Some systems like GitHub Actions let you inspect the build script that runs publicly for extra confidence. This lessens the likelihood that malware on a developer's machine could infect their packages, and gives confidence that the binaries produced are in fact produced correctly.
-3. Looking for code signing on individual source code commits and releases, which creates an auditable trail of who did what. For example: Was the malicious code in the software repository? Which developer added it? Was it added during the build process?
-4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what each change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
-5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enabling undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
+1. فقط استفاده از نرم‌افزارهای محبوبی که مدتی است وجود دارند. هر چه علاقه به یک پروژه بیشتر باشد، احتمال بیشتری وجود دارد که طرف‌های خارجی تغییرات مخرب را متوجه شوند. یک بازیگر مخرب همچنین نیاز دارد زمان بیشتری را برای جلب اعتماد جامعه با مشارکت‌های معنادار صرف کند.
+2. یافتن نرم‌افزاری که باینری‌هایی را با پلتفرم‌های زیرساخت ساخت معتبر و پرکاربرد منتشر کند، به جای ایستگاه‌های کاری توسعه‌دهنده یا سرورهای خودمیزبان. برخی سیستم‌ها مانند GitHub Actions به شما اجازه می‌دهند تا اسکریپت ساختی را که به‌طور عمومی اجرا می‌شود، بررسی کنید تا اطمینان بیشتری حاصل کنید. این احتمال را کاهش می‌دهد که بدافزار موجود در دستگاه یک توسعه‌دهنده بتواند بسته‌های آن‌ها را آلوده کند و اطمینان می‌دهد که باینری‌های تولید شده در واقع به درستی تولید شده‌اند.
+3. به دنبال امضای کد بر روی هر یک از کامیت‌های کد منبع و نسخه‌ها هستیم که یک مسیر قابل حسابرسی از اینکه چه کسی چه کاری انجام داده است، ایجاد می‌کند. به عنوان مثال: آیا کد مخرب در مخزن نرم‌افزار وجود داشت؟ کدام توسعه‌دهنده آن را اضافه کرد؟ آیا در حین فرآیند ساخت اضافه شد؟
+4. بررسی اینکه آیا کد منبع دارای پیام‌های کامیت معنادار (مانند [کامیت‌های متعارف](https://conventionalcommits.org)) است که توضیح می‌دهد هر تغییر چه هدفی را دنبال می‌کند. پیام‌های واضح می‌توانند به افراد خارج از پروژه کمک کنند تا تأیید، حسابرسی و یافتن اشکالات را آسان‌تر کنند.
+5. توجه به تعداد مشارکت‌کنندگان یا نگهدارندگان یک برنامه. یک توسعه‌دهنده تنها ممکن است بیشتر در معرض فشاری برای افزودن کد مخرب توسط یک طرف خارجی قرار گیرد، یا به طور غیرعمدی رفتارهای نامطلوب را فعال کند. این ممکن است به این معنا باشد که نرم‌افزاری که توسط "شرکت‌های بزرگ فناوری" توسعه یافته، بیشتر تحت نظارت قرار دارد تا یک توسعه‌دهنده تنها که به هیچ‌کس پاسخگو نیست.
 
-## Privacy from Service Providers
+## حریم خصوصی از ارائه‌دهندگان خدمات
 
-<span class="pg-teal">:material-server-network: Service Providers</span>
+<span class="pg-teal">:material-server-network: ارائه‌دهندگان خدمات</span>
 
-We live in a world where almost everything is connected to the internet. Our "private" messages, emails, and social interactions are typically stored on a server, somewhere. Generally, when you send someone a message it's stored on a server, and when your friend wants to read the message the server will show it to them.
+ما در دنیایی زندگی می‌کنیم که تقریباً همه چیز به اینترنت متصل است. پیام‌های "خصوصی" ما، ایمیل‌ها و تعاملات اجتماعی معمولاً در یک سرور، جایی ذخیره می‌شوند. به طور کلی، زمانی که شما پیامی به کسی ارسال می‌کنید، این پیام در یک سرور ذخیره می‌شود و زمانی که دوست شما می‌خواهد پیام را بخواند، سرور آن را به او نمایش می‌دهد.
 
-The obvious problem with this is that the service provider (or a hacker who has compromised the server) can access your conversations whenever and however they want, without you ever knowing. This applies to many common services, like SMS messaging, Telegram, and Discord.
+مشکل واضح این است که ارائه‌دهنده خدمات (یا هکری که به سرور نفوذ کرده است) می‌تواند به مکالمات شما در هر زمان و به هر نحوی که بخواهد دسترسی پیدا کند، بدون اینکه شما هرگز متوجه شوید. این موضوع شامل بسیاری از خدمات رایج می‌شود، مانند پیام‌رسانی SMS، تلگرام و دیسکورد.
 
-Thankfully, E2EE can alleviate this issue by encrypting communications between you and your desired recipients before they are even sent to the server. The confidentiality of your messages is guaranteed, assuming the service provider doesn't have access to the private keys of either party.
+خوشبختانه، E2EE می‌تواند این مشکل را با رمزنگاری ارتباطات بین شما و گیرندگان مورد نظر شما قبل از ارسال به سرور برطرف کند. محرمانگی پیام‌های شما تضمین شده است، به شرطی که ارائه‌دهنده خدمات به کلیدهای خصوصی هیچ‌یک از طرفین دسترسی نداشته باشد.
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note on Web-based Encryption</p>
+<p class="admonition-title">یادداشت در مورد رمزنگاری مبتنی بر وب</p>
 
-In practice, the effectiveness of different E2EE implementations varies. Applications, such as [Signal](../real-time-communication.md#signal), run natively on your device, and every copy of the application is the same across different installations. If the service provider were to introduce a [backdoor](https://en.wikipedia.org/wiki/Backdoor_(computing)) in their application—in an attempt to steal your private keys—it could later be detected with [reverse engineering](https://en.wikipedia.org/wiki/Reverse_engineering).
+در عمل، کارایی پیاده‌سازی‌های مختلف E2EE متفاوت است. برنامه‌هایی مانند [Signal](../real-time-communication.md#signal) به‌طور بومی بر روی دستگاه شما اجرا می‌شوند و هر نسخه از برنامه در نصب‌های مختلف یکسان است. اگر ارائه‌دهنده خدمات بخواهد یک [در پشتی](https://en.wikipedia.org/wiki/Backdoor_(computing)) در برنامه خود معرفی کند—در تلاشی برای دزدیدن کلیدهای خصوصی شما—این موضوع می‌تواند بعداً با [مهندسی معکوس](https://en.wikipedia.org/wiki/Reverse_engineering) شناسایی شود.
 
-On the other hand, web-based E2EE implementations, such as Proton Mail's web app or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. A malicious server can target you and send you malicious JavaScript code to steal your encryption key (and it would be extremely hard to notice). Because the server can choose to serve different web clients to different people—even if you noticed the attack—it would be incredibly hard to prove the provider's guilt.
+از سوی دیگر، پیاده‌سازی‌های E2EE مبتنی بر وب، مانند برنامه وب Proton Mail یا *Web Vault* Bitwarden، به سرور متکی هستند که به‌طور پویا کد JavaScript را به مرورگر ارسال می‌کند تا رمزنگاری را مدیریت کند. یک سرور مخرب می‌تواند شما را هدف قرار دهد و کد جاوا اسکریپت مخربی برای سرقت کلید رمزنگاری شما ارسال کند (و تشخیص آن بسیار سخت خواهد بود). زیرا سرور می‌تواند انتخاب کند که به مشتریان وب مختلف، افراد مختلفی را سرویس دهد—حتی اگر شما حمله را متوجه شده باشید—اثبات گناه کار بودن ارائه‌دهنده بسیار دشوار خواهد بود.
 
-Therefore, you should use native applications over web clients whenever possible.
+بنابراین، شما باید در هر زمان ممکن از برنامه‌های بومی به جای کلاینت‌های وب استفاده کنید.
 
 </div>
 
-Even with E2EE, service providers can still profile you based on **metadata**, which typically isn't protected. While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. Protection of metadata is fairly uncommon, and—if it's within your [threat model](threat-modeling.md)—you should pay close attention to the technical documentation of the software you're using to see if there's any metadata minimization or protection at all.
+حتی با وجود **رمزگذاری انتها به انتها**، ارائه‌دهندگان خدمات هنوز می‌توانند شما را بر اساس متاداده پروفایل کنند، که معمولاً محافظت نمی‌شود. در حالی که ارائه‌دهنده خدمات نمی‌تواند پیام‌های شما را بخواند، اما هنوز می‌تواند چیزهای مهمی را مشاهده کند، مانند اینکه با چه کسی صحبت می‌کنید، چند بار به آن‌ها پیام می‌دهید و معمولاً چه زمانی فعال هستید. حفاظت از متاداده نسبتاً نادر است و اگر این موضوع در [مدل تهدید](threat-modeling.md) شما قرار دارد، باید به مستندات فنی نرم‌افزاری که استفاده می‌کنید توجه زیادی داشته باشید تا ببینید آیا هیچ گونه کاهش یا حفاظتی برای متاداده وجود دارد یا خیر.
 
-## Mass Surveillance Programs
+## برنامه‌های نظارت جمعی
 
-<span class="pg-blue">:material-eye-outline: Mass Surveillance</span>
+<span class="pg-blue">:material-eye-outline: نظارت جمعی</span>
 
-Mass surveillance is the intricate effort to monitor the "behavior, many activities, or information" of an entire (or substantial fraction of a) population.[^1] It often refers to government programs, such as the ones [disclosed by Edward Snowden in 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). However, it can also be carried out by corporations, either on behalf of government agencies or by their own initiative.
+نظارت جمعی تلاش پیچیده‌ای است برای نظارت بر "رفتار، بسیاری از فعالیت‌ها یا اطلاعات" یک جمعیت کامل (یا بخش قابل توجهی از آن).[^1] این اصطلاح اغلب به برنامه‌های دولتی اشاره دارد، مانند برنامه‌هایی که [ادوارد اسنودن در سال ۲۰۱۳ فاش کرد](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). با این حال، این کار می‌تواند توسط شرکت‌ها نیز انجام شود، چه به نمایندگی از نهادهای دولتی و چه به ابتکار خودشان.
 
 <div class="admonition abstract" markdown>
-<p class="admonition-title">Atlas of Surveillance</p>
+<p class="admonition-title">اطلس نظارت</p>
 
-If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
+اگر می‌خواهید بیشتر درباره روش‌های نظارت و چگونگی اجرای آن‌ها در شهر خود بیاموزید، می‌توانید نگاهی به [نقشه نظارت](https://atlasofsurveillance.org) توسط [بنیاد مرزهای الکترونیکی](https://eff.org) بیندازید.
 
-In France, you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
+در فرانسه، می‌توانید نگاهی به [وب‌سایت تکنوپولیس](https://technopolice.fr/villes) که توسط انجمن غیرانتفاعی لا کادراتور دو نت نگهداری می‌شود، بیندازید.
 
 </div>
 
-Governments often justify mass surveillance programs as necessary means to combat terrorism and prevent crime. However, as breaches of human rights, they're most often used to disproportionately target minority groups and political dissidents, among others.
+دولت‌ها اغلب برنامه‌های نظارت جمعی را به عنوان وسایل ضروری برای مبارزه با تروریسم و جلوگیری از جرم توجیه می‌کنند. با این حال، به عنوان نقض حقوق بشر، اغلب برای هدف قرار دادن نامتناسب گروه‌های اقلیت و مخالفان سیاسی و دیگران استفاده می‌شوند.
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
+<p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">درس حریم خصوصی ۱۱ سپتامبر: نظارت جمعی راه پیش رو نیست</a></em></p>
 
-In the face of Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection), intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. This kind of information, when amassed by the NSA day after day, can reveal incredibly sensitive details about people’s lives and associations, such as whether they have called a pastor, an abortion provider, an addiction counselor, or a suicide hotline.
+در مواجهه با افشاگری‌های ادوارد اسنودن درباره برنامه‌های دولتی مانند [PRISM](https://en.wikipedia.org/wiki/PRISM) و [Upstream](https://en.wikipedia.org/wiki/Upstream_collection)، مقامات اطلاعاتی همچنین اعتراف کردند که NSA به مدت سال‌ها به‌طور مخفیانه سوابق مربوط به تقریباً هر تماس تلفنی آمریکایی — اینکه چه کسی با چه کسی تماس می‌گیرد، چه زمانی این تماس‌ها انجام می‌شود و مدت زمان آن‌ها چقدر است — را جمع‌آوری کرده است. این نوع اطلاعات، زمانی که به طور روزانه توسط NSA جمع‌آوری می‌شود، می‌تواند جزئیات بسیار حساسی درباره زندگی‌ها و ارتباطات افراد فاش کند، مانند اینکه آیا آنها با یک کشیش، یک ارائه‌دهنده سقط جنین، یک مشاور اعتیاد یا یک خط تلفن خودکشی تماس گرفته‌اند.
 
 </div>
 
-Despite growing mass surveillance in the United States, the government has found that mass surveillance programs like Section 215 have had "little unique value" with respect to stopping actual crimes or terrorist plots, with efforts largely duplicating the FBI's own targeted surveillance programs.[^2]
+با وجود افزایش نظارت جمعی در ایالات متحده، دولت متوجه شده است که برنامه‌های نظارت جمعی مانند بخش ۲۱۵ "ارزش منحصر به فرد کمی" در جلوگیری از جرایم واقعی یا طرح‌های تروریستی داشته‌اند و تلاش‌ها عمدتاً تکرار برنامه‌های نظارت هدفمند خود FBI بوده است.[^2]
 
-Online, you can be tracked via a variety of methods, including but not limited to:
+به صورت آنلاین، شما می‌توانید از طریق روش‌های مختلفی ردیابی شوید، از جمله اما نه محدود به:
 
-- Your IP address
-- Browser cookies
-- The data you submit to websites
-- Your browser or device fingerprint
-- Payment method correlation
+- آدرس IP شما
+- کوکی‌های مرورگر
+- داده‌هایی که شما به وب‌سایت‌ها ارسال می‌کنید
+- اثر انگشت مرورگر یا دستگاه شما
+- همبستگی روش پرداخت
 
-If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
+اگر نگران برنامه‌های نظارت جمعی هستید، می‌توانید از استراتژی‌هایی مانند تقسیم‌بندی هویت‌های آنلاین خود، مخلوط شدن با سایر کاربران یا، هر زمان که ممکن است، به سادگی اجتناب از ارائه اطلاعات شناسایی استفاده کنید.
 
-## Surveillance as a Business Model
+## نظارت به عنوان یک مدل کسب و کار
 
-<span class="pg-brown">:material-account-cash: Surveillance Capitalism</span>
+<span class="pg-brown">:material-account-cash: سرمایه‌داری نظارتی</span>
 
-> Surveillance capitalism is an economic system centered around the capture and commodification of personal data for the core purpose of profit-making.[^3]
+> سرمایه‌داری نظارتی یک سیستم اقتصادی است که بر پایه‌ی ضبط و کالایی‌سازی داده‌های شخصی برای هدف اصلی کسب سود متمرکز است.[^3]
 
-For many people, tracking and surveillance by private corporations is a growing concern. Pervasive ad networks, such as those operated by Google and Facebook, span the internet far beyond just the sites they control, tracking your actions along the way. Using tools like content blockers to limit network requests to their servers, and reading the privacy policies of the services you use can help you avoid many basic adversaries (although it can't completely prevent tracking).[^4]
+برای بسیاری از مردم، ردیابی و نظارت توسط شرکت‌های خصوصی یک نگرانی رو به رشد است. شبکه‌های تبلیغاتی فراگیر، مانند آن‌هایی که توسط گوگل و فیس‌بوک اداره می‌شوند، اینترنت را فراتر از سایت‌هایی که کنترل می‌کنند، پوشش می‌دهند و در طول مسیر، اقدامات شما را ردیابی می‌کنند. استفاده از ابزارهایی مانند مسدودکننده‌های محتوا برای محدود کردن درخواست‌های شبکه به سرورهای آنها و خواندن سیاست‌های حریم خصوصی خدماتی که استفاده می‌کنید می‌تواند به شما کمک کند تا از بسیاری از دشمنان پایه‌ای جلوگیری کنید (اگرچه نمی‌تواند به‌طور کامل از ردیابی جلوگیری کند).[^4]
 
-Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. You can't automatically assume your data is safe just because the service you're using doesn't fall within the typical AdTech or tracking business model. The strongest protection against corporate data collection is to encrypt or obfuscate your data whenever possible, making it difficult for different providers to correlate data with each other and build a profile on you.
+علاوه بر این، حتی شرکت‌های خارج از صنعت *AdTech* یا ردیابی می‌توانند اطلاعات شما را با [کارگزاران داده](https://en.wikipedia.org/wiki/Information_broker) (مانند Cambridge Analytica، Experian یا Datalogix) یا سایر طرف‌ها به اشتراک بگذارند. شما نمی‌توانید به‌طور خودکار فرض کنید که داده‌های شما ایمن هستند فقط به این دلیل که سرویسی که استفاده می‌کنید در مدل کسب‌وکار معمولی AdTech یا ردیابی قرار نمی‌گیرد. قوی‌ترین حفاظت در برابر جمع‌آوری داده‌های شرکتی این است که هر زمان ممکن است داده‌های خود را رمزگذاری یا مخفی کنید، به طوری که برای ارائه‌دهندگان مختلف دشوار باشد که داده‌ها را با یکدیگر مرتبط کنند و پروفایلی از شما بسازند.
 
-## Limiting Public Information
+## محدود کردن اطلاعات عمومی
 
-<span class="pg-green">:material-account-search: Public Exposure</span>
+<span class="pg-green">:material-account-search: افشای عمومی</span>
 
-The best way to keep your data private is simply not making it public in the first place. Deleting unwanted information you find about yourself online is one of the best first steps you can take to regain your privacy.
+بهترین راه برای حفظ حریم خصوصی داده‌های شما این است که در ابتدا آن‌ها را عمومی نکنید. حذف اطلاعات ناخواسته‌ای که درباره خودتان به صورت آنلاین پیدا می‌کنید، یکی از بهترین قدم‌های اولیه‌ای است که می‌توانید برای بازپس‌گیری حریم خصوصی‌تان بردارید.
 
-- [View our guide on account deletion :material-arrow-right-drop-circle:](account-deletion.md)
+- [راهنمای ما را در مورد حذف حساب کاربری مشاهده کنید :material-arrow-right-drop-circle:](account-deletion.md)
 
-On sites where you do share information, checking the privacy settings of your account to limit how widely that data is spread is very important. For example, enable "private mode" on your accounts if given the option: This ensures that your account isn't being indexed by search engines, and that it can't be viewed without your permission.
+در سایت‌هایی که اطلاعات خود را به اشتراک می‌گذارید، بررسی تنظیمات حریم خصوصی حساب کاربری‌تان برای محدود کردن میزان انتشار آن داده‌ها بسیار مهم است. به عنوان مثال، اگر گزینه‌ای برای آن وجود دارد، "حالت خصوصی" را در حساب‌های خود فعال کنید: این اطمینان می‌دهد که حساب شما توسط موتورهای جستجو ایندکس نمی‌شود و بدون اجازه شما قابل مشاهده نیست.
 
-If you've already submitted your real information to sites which shouldn't have it, consider using disinformation tactics, like submitting fictitious information related to that online identity. This makes your real information indistinguishable from the false information.
+اگر قبلاً اطلاعات واقعی خود را به سایت‌هایی که نباید آن را داشته باشند ارسال کرده‌اید، در نظر داشته باشید که از تاکتیک‌های اطلاعات نادرست استفاده کنید، مانند ارسال اطلاعات خیالی مرتبط با آن هویت آنلاین. این باعث می‌شود که اطلاعات واقعی شما از اطلاعات نادرست غیرقابل تشخیص باشد.
 
-## Avoiding Censorship
+## اجتناب از سانسور
 
-<span class="pg-blue-gray">:material-close-outline: Censorship</span>
+<span class="pg-blue-gray">:material-close-outline: سانسور</span>
 
-Censorship online can be carried out (to varying degrees) by actors including totalitarian governments, network administrators, and service providers. These efforts to control communication and restrict access to information will always be incompatible with the human right to Freedom of Expression.[^5]
+سانسور آنلاین می‌تواند (به درجات مختلف) توسط بازیگران شامل دولت‌های توتالیتر، مدیران شبکه و ارائه‌دهندگان خدمات انجام شود. این تلاش‌ها برای کنترل ارتباطات و محدود کردن دسترسی به اطلاعات همیشه با حق بشر برای آزادی بیان ناسازگار خواهد بود.[^5]
 
-Censorship on corporate platforms is increasingly common, as platforms like Twitter and Facebook give in to public demand, market pressures, and pressures from government agencies. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
+سانسور در پلتفرم‌های شرکتی به طور فزاینده‌ای رایج شده است، زیرا پلتفرم‌هایی مانند توییتر و فیس‌بوک به تقاضای عمومی، فشارهای بازار و فشارهای نهادهای دولتی تن می‌دهند. فشارهای دولتی می‌تواند درخواست‌های پنهانی از کسب‌وکارها باشد، مانند [درخواست کاخ سفید برای حذف](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) یک ویدیو تحریک‌آمیز در یوتیوب، یا آشکار، مانند الزام دولت چین به شرکت‌ها برای رعایت یک رژیم سختگیرانه سانسور.
 
-People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../social-networks.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
+افرادی که نگران تهدید سانسور هستند می‌توانند از فناوری‌هایی مانند [Tor](../advanced/tor-overview.md) برای دور زدن آن استفاده کنند و از پلتفرم‌های ارتباطی مقاوم در برابر سانسور مانند [Matrix](../social-networks.md#element) که هیچ مرجع حساب مرکزی ندارد که بتواند به‌طور دلخواه حساب‌ها را ببندد، حمایت کنند.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">نکته</p>
 
-While evading censorship itself can be easy, hiding the fact that you are doing it can be very problematic.
+در حالی که فرار از سانسور خود می‌تواند آسان باشد، پنهان کردن این واقعیت که شما در حال انجام آن هستید می‌تواند بسیار مشکل‌ساز باشد.
 
-You should consider which aspects of the network your adversary can observe, and whether you have plausible deniability for your actions. For example, using [encrypted DNS](../advanced/dns-overview.md#what-is-encrypted-dns) can help you bypass rudimentary, DNS-based censorship systems, but it can't truly hide what you are visiting from your ISP. A VPN or Tor can help hide what you are visiting from network administrators, but can't hide that you're using those networks in the first place. Pluggable transports (such as Obfs4proxy, Meek, or Shadowsocks) can help you evade firewalls that block common VPN protocols or Tor, but your circumvention attempts can still be detected by methods like probing or [deep packet inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection).
+شما باید در نظر بگیرید که کدام جنبه‌های شبکه را دشمن شما می‌تواند مشاهده کند و آیا برای اقدامات خود توجیه قابل قبولی دارید یا خیر. به عنوان مثال، استفاده از [DNS رمزگذاری شده](../advanced/dns-overview.md#what-is-encrypted-dns) می‌تواند به شما کمک کند تا از سیستم‌های سانسور ابتدایی مبتنی بر DNS عبور کنید، اما نمی‌تواند واقعاً آنچه را که شما بازدید می‌کنید از ISP شما پنهان کند. یک VPN یا Tor می‌تواند کمک کند تا آنچه را که بازدید می‌کنید از مدیران شبکه پنهان کند، اما نمی‌تواند پنهان کند که شما در وهله اول از آن شبکه‌ها استفاده می‌کنید. ترانسپورت‌های قابل اتصال (مانند Obfs4proxy، Meek یا Shadowsocks) می‌توانند به شما کمک کنند تا از دیوارهای آتش که پروتکل‌های رایج VPN یا Tor را مسدود می‌کنند، عبور کنید، اما تلاش‌های شما برای دور زدن همچنان می‌تواند با روش‌هایی مانند پروبینگ یا [بازرسی عمیق بسته](https://en.wikipedia.org/wiki/Deep_packet_inspection) شناسایی شود.
 
 </div>
 
-You must always consider the risks of trying to bypass censorship, the potential consequences, and how sophisticated your adversary may be. You should be cautious with your software selection, and have a backup plan in case you are caught.
+شما باید همیشه خطرات تلاش برای دور زدن سانسور، عواقب بالقوه و اینکه دشمن شما چقدر می‌تواند پیشرفته باشد را در نظر بگیرید. شما باید در انتخاب نرم‌افزار خود احتیاط کنید و یک برنامه پشتیبان در صورت گرفتار شدن داشته باشید.
 
-[^1]: Wikipedia: [*Mass Surveillance*](https://en.wikipedia.org/wiki/Mass_surveillance) and [*Surveillance*](https://en.wikipedia.org/wiki/Surveillance).
-[^2]: United States Privacy and Civil Liberties Oversight Board: [*Report on the Telephone Records Program Conducted under Section 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
-[^3]: Wikipedia: [*Surveillance capitalism*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. You should also employ other mitigation techniques.
-[^5]: United Nations: [*Universal Declaration of Human Rights*](https://un.org/en/about-us/universal-declaration-of-human-rights).
+[^1]: ویکی‌پدیا: [*نظارت جمعی*](https://en.wikipedia.org/wiki/Mass_surveillance) و [*نظارت*](https://en.wikipedia.org/wiki/Surveillance).
+[^2]: هیئت نظارت بر حریم خصوصی و آزادی‌های مدنی ایالات متحده: [*گزارش برنامه سوابق تلفنی انجام شده تحت بخش ۲۱۵*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
+[^3]: ویکی‌پدیا: [*سرمایه‌داری نظارتی*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
+[^4]: "[شمارش بدی‌ها](https://ranum.com/security/computer_security/editorials/dumb)" (یا "فهرست کردن تمام چیزهای بدی که می‌شناسیم")، همان‌طور که بسیاری از مسدودکننده‌های محتوا و برنامه‌های آنتی‌ویروس انجام می‌دهند، به‌طور کافی شما را در برابر تهدیدات جدید و ناشناخته محافظت نمی‌کند زیرا هنوز به لیست فیلتر اضافه نشده‌اند. شما همچنین باید از تکنیک‌های کاهش دیگری استفاده کنید.
+[^5]: سازمان ملل متحد: [*اعلامیه جهانی حقوق بشر*](https://un.org/en/about-us/universal-declaration-of-human-rights).

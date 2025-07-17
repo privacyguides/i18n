@@ -8,8 +8,8 @@ cover: cryptocurrency.webp
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
-- [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
+- [:material-eye-outline: نظارت جمعی](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+- [:material-close-outline: سانسور](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
 
 Making payments online is one of the biggest challenges to privacy. These cryptocurrencies provide transaction privacy by default (something which is **not** guaranteed by the majority of cryptocurrencies), provided you have a strong understanding of how to make private payments effectively. We strongly encourage you first read our payments overview article before making any purchases:
 

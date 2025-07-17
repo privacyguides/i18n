@@ -7,7 +7,7 @@ cover: desktop.webp
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: سرمایه‌داری نظارتی](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
 Linux distributions are commonly recommended for privacy protection and software freedom. If you don't already use Linux, below are some distributions we suggest trying out, as well as some general privacy and security improvement tips that are applicable to many Linux distributions.
 
@@ -191,7 +191,7 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-bug-outline: حملات غیرفعال](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 
 ### Qubes OS
 

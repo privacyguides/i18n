@@ -7,7 +7,7 @@ description: These services can assist you in protecting your privacy from merch
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: سرمایه‌داری نظارتی](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
 Making payments online is one of the biggest challenges to privacy. These services can assist you in protecting your privacy from merchants and other trackers, provided you have a strong understanding of how to make private payments effectively. We strongly encourage you first read our payments overview article before making any purchases:
 
@@ -17,7 +17,7 @@ Making payments online is one of the biggest challenges to privacy. These servic
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-account-search: Public Exposure](basics/common-threats.md#limiting-public-information ""){.pg-green}
+- [:material-account-search: افشای عمومی](basics/common-threats.md#limiting-public-information ""){.pg-green}
 
 There are a number of services which provide "virtual debit cards" which you can use with online merchants without revealing your actual banking or billing information in most cases. It's important to note that these financial services are **not** anonymous and are subject to "Know Your Customer" (KYC) laws and may require your ID or other identifying information. These services are primarily useful for protecting you from merchant data breaches, less sophisticated tracking or purchase correlation by marketing agencies, and online data theft; and **not** for making a purchase completely anonymously.
 
@@ -77,7 +77,7 @@ MySudo's virtual cards are currently only available via their iOS app.
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+- [:material-eye-outline: نظارت جمعی](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 
 These services allow you to purchase gift cards for a variety of merchants online with [cryptocurrency](cryptocurrency.md). Some of these services offer ID verification options for higher limits, but they also allow accounts with just an email address. Basic limits typically start at $5,000-10,000 a day for basic accounts, with significantly higher limits for ID verified accounts (if offered).
 

@@ -16,7 +16,7 @@ The options listed here are available on multiple platforms and great for creati
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-bug-outline: حملات غیرفعال](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 
 <div class="admonition recommendation" markdown>
 
@@ -57,7 +57,7 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-target-account: حملات هدفمند](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 <div class="admonition recommendation" markdown>
 
@@ -86,7 +86,7 @@ Picocrypt has been [audited](https://github.com/Picocrypt/storage/blob/main/Pico
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-target-account: حملات هدفمند](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 <div class="admonition recommendation" markdown>
 
@@ -121,7 +121,7 @@ TrueCrypt has been [audited a number of times](https://en.wikipedia.org/wiki/Tru
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-target-account: حملات هدفمند](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 Built-in OS encryption solutions generally leverage hardware security features such as a [secure cryptoprocessor](basics/hardware.md#tpmsecure-cryptoprocessor). Therefore, we recommend using the built-in encryption solutions for your operating system. For cross-platform encryption, we still recommend [cross-platform tools](#multi-platform) for additional flexibility and to avoid vendor lock-in.
 
@@ -249,7 +249,7 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-target-account: حملات هدفمند](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
 Tools with command-line interfaces are useful for integrating [shell scripts](https://en.wikipedia.org/wiki/Shell_script).
 
@@ -299,9 +299,9 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy ""){.pg-orange}
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-target-account: حملات هدفمند](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-bug-outline: حملات غیرفعال](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-server-network: ارائه‌دهندگان خدمات](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 OpenPGP is sometimes needed for specific tasks such as digitally signing and encrypting email. PGP has many features and is [complex](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html) as it has been around a long time. For tasks such as signing or encrypting files, we suggest the above options.
 

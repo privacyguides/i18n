@@ -8,7 +8,7 @@ cover: data-redaction.webp
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-account-search: Public Exposure](basics/common-threats.md#limiting-public-information ""){.pg-green}
+- [:material-account-search: افشای عمومی](basics/common-threats.md#limiting-public-information ""){.pg-green}
 
 When sharing files, be sure to remove associated metadata. Image files commonly include [Exif](https://en.wikipedia.org/wiki/Exif) data. Photos sometimes even include GPS coordinates in the file metadata.
 

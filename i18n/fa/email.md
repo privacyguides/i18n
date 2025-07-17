@@ -12,7 +12,7 @@ global:
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-server-network: ارائه‌دهندگان خدمات](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 ایمیل عملاً برای استفاده از هر سرویس آنلاین ضروری است، اما ما آن را برای مکالمات فرد به فرد توصیه نمی کنیم. به جای استفاده از ایمیل برای تماس با افراد دیگر، از یک پیام‌رسان استفاده کنید که از محرمانگی رو به جلو (forward secrecy) پشتیبانی می‌کند.
 
@@ -20,9 +20,9 @@ global:
 
 ## Recommended Providers
 
-برای هر چیز دیگری، ما انواع ارائه دهندگان ایمیل را بر اساس مدل‌های تجاری پایدار و ویژگی‌های امنیتی و حریم خصوصی توصیه می‌کنیم. Read our [full list of criteria](#criteria) for more information.
+برای هر چیز دیگری، ما انواع ارائه دهندگان ایمیل را بر اساس مدل‌های تجاری پایدار و ویژگی‌های امنیتی و حریم خصوصی توصیه می‌کنیم. برای اطلاعات بیشتر، [فهرست کامل معیارها](#criteria) را بخوانید.
 
-| Provider                    | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero-Access Encryption                               | Anonymous Payment Methods             |
+| ارائه‌دهنده                 | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero-Access Encryption                               | Anonymous Payment Methods             |
 | --------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------- |
 | [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | Cash                                  |
 | [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | Cash                                  |
@@ -269,7 +269,7 @@ We regard these features as important in order to provide a safe and optimal ser
 - Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
 - Must operate on owned infrastructure, i.e. not built upon third-party email service providers.
 
-**Best Case:**
+**بهترین حالت:**
 
 - Should encrypt all account data (contacts, calendars, etc.) at rest with zero-access encryption.
 - Should provide integrated webmail E2EE/PGP encryption as a convenience.
@@ -283,24 +283,24 @@ We regard these features as important in order to provide a safe and optimal ser
 
 ### حریم خصوصی
 
-We prefer our recommended providers to collect as little data as possible.
+ما ترجیح می‌دهیم ارائه‌دهندگان پیشنهادی ما تا حد امکان داده‌های کمی جمع‌آوری کنند.
 
-**Minimum to Qualify:**
+**حداقل شرایط لازم:**
 
 - Must protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
 - Must not require personally identifiable information (PII) besides a username and a password.
 - Privacy policy must meet the requirements defined by the GDPR.
 
-**Best Case:**
+**بهترین حالت:**
 
 - Should accept [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
 - Should be hosted in a jurisdiction with strong email privacy protection laws.
 
-### Security
+### امنیت
 
 Email servers deal with a lot of very sensitive data. We expect that providers will adopt industry best practices in order to protect their customers.
 
-**Minimum to Qualify:**
+**حداقل شرایط لازم:**
 
 - Protection of webmail with 2FA, such as [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
 - Zero-access encryption, which builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
@@ -318,26 +318,26 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
     - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
 - Must support viewing of [message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
 
-**Best Case:**
+**بهترین حالت:**
 
 - Should support hardware authentication, i.e. U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
 - [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
 - Should implement [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
 - Published security audits from a reputable, third-party firm.
-- Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
+- برنامه‌های باگ‌بانتی و/یا فرایند هماهنگ افشای آسیب‌پذیری.
 - Website security standards such as:
     - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
     - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163)
 
 ### اعتماد
 
-You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
+You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? ما از ارائه‌دهندگان پیشنهادی خود می‌خواهیم که مالکیت یا رهبری خود را به‌صورت عمومی اعلام کنند. ما همچنین مایلیم گزارش‌های شفافیت مکرر، به‌ویژه در مورد نحوه رسیدگی به درخواست‌های دولت، مشاهده کنیم.
 
-**Minimum to Qualify:**
+**حداقل شرایط لازم:**
 
 - رهبری یا مالکیت قابل رویت توسط عموم.
 
-**Best Case:**
+**بهترین حالت:**
 
 - گزارش‌های شفافیت متناوب.
 
@@ -345,16 +345,16 @@ You wouldn't trust your finances to someone with a fake identity, so why trust t
 
 With the email providers we recommend, we like to see responsible marketing.
 
-**Minimum to Qualify:**
+**حداقل شرایط لازم:**
 
 - Must self-host analytics (no Google Analytics, Adobe Analytics, etc.).
 - Must not have any irresponsible marketing, which can include the following:
     - Claims of "unbreakable encryption." Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
     - Guarantees of protecting anonymity 100%. When someone makes a claim that something is 100%, it means there is no certainty for failure. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
         - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software such as Tor
-        - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+        - [اثر انگشت مرورگر](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
-**Best Case:**
+**بهترین حالت:**
 
 - Clear and easy-to-read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
 
