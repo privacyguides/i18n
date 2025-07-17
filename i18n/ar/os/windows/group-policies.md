@@ -74,9 +74,9 @@ description: دليل سريع لتهيئة إعدادات Group Policy لج
 
 #### Cloud Content
 
-- Turn off cloud optimized content: **Enabled**
-- Turn off cloud consumer account state content: **Enabled**
-- Do not show Windows tips: **Enabled**
+- اضبط إعداد Turn off cloud optimized content على **Enabled**
+- اضبط إعداد Turn off cloud consumer account state content على **Enabled**
+- اضبط إعداد Do not show Windows tips على **Enabled**
 - Turn off Microsoft consumer experiences: **Enabled**
 
 #### Credential User Interface
