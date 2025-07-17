@@ -49,16 +49,16 @@
 *[FAIs]: Fournisseurs d'accès internet
 *[JNI]: Interface native Java
 *[KYC]: Connaissance du client
-*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
+*[LLaVA]: Assistant linguistique et visuel à grande échelle (modèle d'IA multimodal
 *[LLMs] : Grands modèles de langage (modèles d'IA tels que ChatGPT)
-*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
+*[LUKS]: Système de chiffrement complet de disque sous Linux, avec gestion sécurisée des clés.
 *[MAC]: Contrôle d'accès aux médias
 *[MDAG]: Protection des applications Microsoft Defender
 *[MEID]: Identificateur d'équipement mobile
 *[MFA]: Authentification multi-facteurs
-*[NVMe]: Nonvolatile Memory Express
-*[NAT]: Network address translation
-*[NAT-PMP]: NAT Port Mapping Protocol
+*[NVMe]: Mémoire non-volatile Express
+*[NAT]: Traduction d’adresses réseau
+*[NAT-PMP]: Protocole de redirection de port
 *[NTP]: Protocole de temps réseau
 *[OCI]: Open Container Initiative
 *[OCSP]: Protocole d'état des certificats en ligne
