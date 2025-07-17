@@ -1,21 +1,21 @@
 ---
-title: Writing Style
-description: Our official writing style handbook for website contributors.
+title: Style rédactionnel
+description: Notre guide officiel de rédaction pour les contributeurs du site web.
 ---
 
 Privacy Guides est rédigé en anglais américain, et vous devez vous référer aux directives de [style APA](https://apastyle.apa.org/style-grammar-guidelines/grammar) en cas de doute.
 
-En général, les [directives fédérales américaines en matière de langage clair](https://plainlanguage.gov/guidelines) fournissent un bon aperçu de la manière d'écrire de façon claire et concise. Nous soulignons ci-dessous quelques notes importantes de ces directives.
+En général, les [directives fédérales américaines en matière de langage clair](https://plainlanguage.gov/guidelines) fournissent un bon aperçu de la manière de rédiger de façon claire et concise. Nous soulignons ci-dessous quelques extraits importants de ces directives.
 
 ## Écrire pour notre public
 
-Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily adults who use technology. Ne simplifiez pas le contenu comme si vous vous adressiez à une classe d'école primaire, mais n'abusez pas d'une terminologie compliquée concernant des concepts que l'utilisateur moyen d'un ordinateur ne connaît pas.
+Privacy Guides s'adresse principalement à une [audience](https://plainlanguage.gov/guidelines/audience) adulte qui utilise la technologie. Ne simplifiez pas le contenu comme si vous vous adressiez à une classe d'école primaire, mais n'abusez pas d'une terminologie compliquée concernant des concepts que l'utilisateur moyen d'un ordinateur ne connaît pas.
 
 ### N'aborder que ce que les gens veulent savoir
 
 Les gens n'ont pas besoin d'articles trop complexes et peu pertinents pour eux. Déterminez ce que vous voulez que les gens accomplissent en écrivant un article, et n'incluez que ces détails.
 
-> Expliquez à votre public pourquoi le contenu est important pour lui. Dites : "Si vous voulez une bourse de recherche, voici ce que vous devez faire." Ou, "Si vous voulez exploiter le charbon fédéral, voici ce que vous devez savoir." Ou, "Si vous prévoyez un voyage au Rwanda, lisez ça d'abord."
+> Expliquez à votre public pourquoi le contenu est important pour lui. Dites : "Si vous voulez une bourse de recherche, voici ce que vous devez faire." Ou, "Si vous voulez exploiter une mine de charbon sur le domaine public, voici ce qu'il faut savoir." Ou, "Si vous prévoyez un voyage au Rwanda, lisez ça d'abord."
 
 ### S'adresser directement aux gens
 
@@ -64,7 +64,7 @@ Nous devrions essayer d'éviter les abréviations dans la mesure du possible, ma
 
 ## Soyez concis
 
-> Les mots inutiles font perdre du temps à votre public. Une bonne écriture est comme une conversation. Omettez les informations que le public n'a pas besoin de connaître. This can be difficult as a subject-matter expert, so it’s important to have someone look at the information from the audience’s perspective.
+> Les mots inutiles font perdre du temps à votre public. Une bonne écriture est comme une conversation. Omettez les informations que le public n'a pas besoin de connaître. Cela peut être difficile en tant que spécialiste du sujet, c'est pourquoi il est important de faire appel à un tiers pour examiner les informations du point de vue du public.
 
 Source : [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
 

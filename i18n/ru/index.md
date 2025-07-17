@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Guides: Independent Privacy & Security Resources"
+meta_title: "Privacy Guides: Независимые ресурсы по конфиденциальности и безопасности"
 description: "Established in 2021, Privacy Guides is the most popular & trustworthy non-profit resource to find privacy tools and learn about protecting your digital life."
 template: home.html
 social:
@@ -102,7 +102,7 @@ schema:
 <div markdown>
 ## Что такое инструменты конфиденциальности?
 
-We recommend a wide variety of **privacy tools** (a.k.a. *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can use to improve your privacy. Многие из рекомендуемых нами инструментов совершенно бесплатны для использования и имеют открытый исходный код, но в то же время некоторые являются коммерческими сервисами, которые можно приобрести. Переход от популярного ПО, жадного до данных, такого как Google Chrome и Windows, к инструментам, ориентированным на конфиденциальность, таким как [Brave](desktop-browsers.md#brave) и [Linux](desktop.md), может значительно улучшить контроль над информацией, которой Вы делитесь с компаниями и другими лицами.
+Мы рекомендуем широкий выбор **инструментов конфиденциальности** (они же приложения, утилиты, программное обеспечение для конфиденциальности), включающий в себя программное обеспечение и оборудование, которые Вы можете использовать, чтобы улучшить свою конфиденциальность. Многие из рекомендуемых нами инструментов совершенно бесплатны для использования и имеют открытый исходный код, но в то же время некоторые являются коммерческими сервисами, которые можно приобрести. Переход от популярного ПО, жадного до данных, такого как Google Chrome и Windows, к инструментам, ориентированным на конфиденциальность, таким как [Brave](desktop-browsers.md#brave) и [Linux](desktop.md), может значительно улучшить контроль над информацией, которой Вы делитесь с компаниями и другими лицами.
 
 [:material-check-all: Наши общие критерии](about/criteria.md){ class="md-button" }
 </div>
