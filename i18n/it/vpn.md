@@ -2,7 +2,7 @@
 meta_title: "Consigli e confronto sui servizi VPN privati, senza sponsor o pubblicità - Privacy Guides"
 title: "Servizi VPN"
 icon: material/vpn
-description: The best VPN services for protecting your privacy and security online. Find a provider here that isn't out to spy on you.
+description: I migliori servizi VPN per proteggere la tua privacy e sicurezza online. Find a provider here that isn't out to spy on you.
 cover: vpn.webp
 global:
   - 
@@ -10,11 +10,11 @@ global:
     - "table tbody"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protegge dalle seguenti minacce:</small>
 
 - [:material-account-cash: Capitalismo di sorveglianza](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-If you're looking for additional *privacy* from your ISP, on a public Wi-Fi network, or while torrenting files, a **VPN** may be the solution for you.
+Se stai cercando una maggiore *privacy* dal tuo ISP, su una rete Wi-Fi pubblica o durante il torrenting dei file, una **VPN** potrebbe essere la soluzione che fa per te.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Le VPN non forniscono l'anonimato</p>
@@ -33,11 +33,11 @@ Se cerchi l'**anonimato**, dovresti usare Tor Browser. Se stai cercando maggiore
 
 I nostri provider consigliati utilizzano la crittografia, supportano WireGuard & OpenVPN e hanno una politica no-log. Leggi il nostro \[elenco completo di criteri\](#criteri) per ulteriori informazioni.
 
-| Provider              | Paesi | WireGuard                     | Port Forwarding                                        | IPv6                                                       | Pagamenti anonimi |
-| --------------------- | ----- | ----------------------------- | ------------------------------------------------------ | ---------------------------------------------------------- | ----------------- |
-| [Proton](#proton-vpn) | 112+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Partial Support | :material-information-outline:{ .pg-blue } Limited Support | Contanti          |
-| [IVPN](#ivpn)         | 37+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-information-outline:{ .pg-blue } Solo in uscita  | Monero, contanti  |
-| [Mullvad](#mullvad)   | 49+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-check:{ .pg-green }                              | Monero, contanti  |
+| Provider              | Paesi | WireGuard                     | Port Forwarding                                          | IPv6                                                         | Pagamenti anonimi |
+| --------------------- | ----- | ----------------------------- | -------------------------------------------------------- | ------------------------------------------------------------ | ----------------- |
+| [Proton](#proton-vpn) | 112+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Supporto Parziale | :material-information-outline:{ .pg-blue } Supporto Limitato | Contanti          |
+| [IVPN](#ivpn)         | 37+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                   | :material-information-outline:{ .pg-blue } Solo in uscita    | Monero, contanti  |
+| [Mullvad](#mullvad)   | 49+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                   | :material-check:{ .pg-green }                                | Monero, contanti  |
 
 ### Proton VPN
 
@@ -66,12 +66,12 @@ I nostri provider consigliati utilizzano la crittografia, supportano WireGuard &
 
 </div>
 
-#### :material-check:{ .pg-green } 112 Countries
+#### :material-check:{ .pg-green } 112 Paesi
 
-Proton VPN has [servers in 112 countries](https://protonvpn.com/vpn-servers) or [5](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/free-vpn/server).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Questo per un percorso più breve (meno 'salti'), verso la destinazione.
+Proton VPN ha [server in 112 Paesi](https://protonvpn.com/vpn-servers) o in [5](https://protonvpn.com/support/how-to-create-free-vpn-account) se utilizzi il [piano gratuito](https://protonvpn.com/free-vpn/server).(1) Scegliere un provider VPN con un server il più vicino possibile a te ridurrà la latenza del traffico di rete inviato. Questo per un percorso più breve (meno 'salti'), verso la destinazione.
 { .annotate }
 
-1. Last checked: 2024-08-06
+1. Ultimo controllo: 06/08/2024
 
 Riteniamo inoltre che sia meglio per la sicurezza delle chiavi private del provider VPN utilizzare [server dedicati](https://en.wikipedia.org/wiki/Dedicated_hosting_service), invece di soluzioni condivise più economiche (con altri clienti) come [server privati virtuali](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -89,13 +89,13 @@ Proton VPN, oltre ad accettare carte di credito/debito, PayPal e [Bitcoin](advan
 
 #### :material-check:{ .pg-green } Supporto WireGuard
 
-Proton VPN supports the WireGuard® protocol. [WireGuard](https://wireguard.com) è un protocollo più recente che utilizza una [crittografia](https://wireguard.com/protocol) all'avanguardia. Inoltre, WireGuard mira ad essere più semplice e performante.
+Proton VPN supporta il protocollo WireGuard®. [WireGuard](https://wireguard.com) è un protocollo più recente che utilizza una [crittografia](https://wireguard.com/protocol) all'avanguardia. Inoltre, WireGuard mira ad essere più semplice e performante.
 
 Proton VPN [consiglia](https://protonvpn.com/blog/wireguard) l'uso di WireGuard con il loro servizio. Proton VPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
 
-#### :material-alert-outline:{ .pg-orange } Limited IPv6 Support
+#### :material-alert-outline:{ .pg-orange } Supporto IPv6 Limitato
 
-Proton [now supports IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks) in their browser extension and Linux client, but only 80% of their servers are IPv6-compatible. On other platforms, the Proton VPN client will block all outgoing IPv6 traffic, so you don't have to worry about your IPv6 address being leaked, but you will not be able to connect to any IPv6-only sites, nor will you be able to connect to Proton VPN from an IPv6-only network.
+Proton [ ora supporta l'IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks) nell'estensione del browser e nel client Linux. Tuttavia, solo l'80% dei suoi server è compatibile con l'IPv6. Su altre piattaforme, il client Proton VPN bloccherà tutto il traffico IPv6 in uscita, quindi non dovrai preoccuparti che il tuo indirizzo IPv6 venga divulgato, ma non potrai connetterti a siti solo IPv6 né a Proton VPN da una rete solo IPv6.
 
 #### :material-information-outline:{ .pg-info } Port Forwarding Remoto
 
@@ -122,7 +122,7 @@ We are noting this because while we don't necessarily recommend against sharing 
 
 #### :material-information-outline:{ .pg-blue } Note aggiuntive
 
-Proton VPN clients support two-factor authentication on all platforms. Proton VPN ha i propri server e datacenter in Svizzera, Islanda e Svezia. Offrono il blocco dei contenuti e il blocco di malware noti con il loro servizio DNS. Inoltre, Proton VPN offre anche server "Tor" che ti consentono di connetterti facilmente ai siti onion, ma consigliamo comunque di utilizzare [il Tor Browser ufficiale](tor.md#tor-browser) per questo scopo.
+I client Proton VPN supportano l'autenticazione a due fattori su tutte le piattaforme. Proton VPN ha i propri server e datacenter in Svizzera, Islanda e Svezia. Offrono il blocco dei contenuti e il blocco di malware noti con il loro servizio DNS. Inoltre, Proton VPN offre anche server "Tor" che ti consentono di connetterti facilmente ai siti onion, ma consigliamo comunque di utilizzare [il Tor Browser ufficiale](tor.md#tor-browser) per questo scopo.
 
 ##### :material-alert-outline:{ .pg-orange } Kill switch feature is broken on Intel-based Macs
 
@@ -161,13 +161,13 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 IVPN ha [server in 37 paesi](https://ivpn.net/status).(1) Scegliere un fornitore VPN con un server più vicino a te ridurrà la latenza del traffico di rete che invii. Questo per un percorso più breve (meno 'salti'), verso la destinazione.
 { .annotate }
 
-1. Last checked: 2024-08-06
+1. Ultimo controllo: 06/08/2024
 
 Riteniamo inoltre che sia meglio per la sicurezza delle chiavi private del provider VPN utilizzare [server dedicati](https://en.wikipedia.org/wiki/Dedicated_hosting_service), invece di soluzioni condivise più economiche (con altri clienti) come [server privati virtuali](https://en.wikipedia.org/wiki/Virtual_private_server).
 
 #### :material-check:{ .pg-green } Controllato Indipendentemente
 
-IVPN has had multiple [independent audits](https://ivpn.net/en/blog/tags/audit) since 2019 and has publicly announced their commitment to [annual security audits](https://ivpn.net/blog/ivpn-apps-security-audit-concluded).
+IVPN ha avuto diversi [controlli indipendenti](https://ivpn.net/en/blog/tags/audit) dal 2019 e ha annunciato pubblicamente il proprio impegno a effettuare [controlli annuali sulla sicurezza](https://ivpn.net/blog/ivpn-apps-security-audit-concluded).
 
 #### :material-check:{ .pg-green } Client Open Source
 
@@ -231,12 +231,12 @@ IVPN clients support two-factor authentication. Inoltre, IVPN fornisce la funzio
 
 </div>
 
-#### :material-check:{ .pg-green } 49 Countries
+#### :material-check:{ .pg-green } 49 Paesi
 
 Mullvad has [servers in 49 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Questo per un percorso più breve (meno 'salti'), verso la destinazione.
 { .annotate }
 
-1. Last checked: 2025-03-10
+1. Ultimo controllo: 10/03/2025
 
 Riteniamo inoltre che sia meglio per la sicurezza delle chiavi private del provider VPN se utilizzano [server dedicati](https://en.wikipedia.org/wiki/Dedicated_hosting_service), invece di soluzioni condivise più economiche (con altri clienti) come [server privati virtuali](https://en.wikipedia.org/wiki/Virtual_private_server).
 

@@ -40,11 +40,11 @@ Prima di connetterti a Tor, ti preghiamo di assicurarti di aver letto la nostra 
 
 </div>
 
-There are a variety of ways to connect to the Tor network from your device, the most commonly used being the **Tor Browser**, a fork of Firefox designed for [:material-incognito: anonymous](basics/common-threats.md#anonymity-vs-privacy ""){.pg-purple} browsing for desktop computers and Android.
+Esistono diversi modi per connettersi alla rete Tor dal proprio dispositivo, il più utilizzato è il **Tor Browser**, un fork di Firefox progettato per la navigazione [:material-incognito: anonima ](basics/common-threats.md#anonymity-vs-privacy ""){.pg-purple} per computer desktop e Android.
 
 Some of these apps are better than others; making a determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using mobile browser apps like [Onion Browser](#onion-browser-ios) to access the Tor network is probably fine. Incrementare il numero di persone che utilizzano Tor su una base giornaliera, aiuta a ridurre il cattivo stigma nei confronti di Tor, e riduce la qualità degli "elenchi di utenti di Tor", che gli ISP e i governi potrebbero compilare.
 
-Se l'anonimato più completo è fondamentale per la tua situazione, dovresti utilizzare **soltanto** il client del Browser Tor per desktop, idealmente in una configurazione [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os). Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
+Se l'anonimato più completo è fondamentale per la tua situazione, dovresti utilizzare **soltanto** il client del Browser Tor per desktop, idealmente in una configurazione [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os). I browser mobile sono meno diffusi su Tor (di conseguenza, sono più facilmente rilevabili). Inoltre, altre configurazioni non sono testate in modo così rigoroso contro la de-anonimizzazione.
 
 ## Tor Browser
 
