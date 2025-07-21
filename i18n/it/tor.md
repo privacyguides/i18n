@@ -80,7 +80,7 @@ Non dovresti **mai** installare alcun'estensione aggiuntiva su Tor Browser o mod
 
 </div>
 
-Tor Browser è progettato per impedire il fingerprinting, o la tua identificazione secondo la configurazione del tuo browser. Pertanto, è imperativo **non** modificare il browser oltre i livelli di [sicurezza](https://tb-manual.torproject.org/security-settings) predefiniti. When modifying the security level setting, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
+Tor Browser è progettato per impedire il fingerprinting, o la tua identificazione secondo la configurazione del tuo browser. Pertanto, è imperativo **non** modificare il browser oltre i livelli di [sicurezza](https://tb-manual.torproject.org/security-settings) predefiniti. When modifying the security level setting, you **must** always restart the browser before continuing to use it. In caso contrario, [le impostazioni di sicurezza potrebbero non essere applicate completamente](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), esponendoti a un rischio di fingerprinting e di exploit più elevato di quello previsto in base all'impostazione da te scelta.
 
 Oltre a installare Tor Browser direttamente sul tuo computer, esistono inoltre dei sistemi operativi specificamente progettati per connettersi alla rete di Tor, come [Whonix](desktop.md#whonix) su [Qubes OS](desktop.md#qubes-os), che forniscono sicurezza e protezioni persino maggiori, rispetto al solo Tor Browser standard.
 

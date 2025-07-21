@@ -2,7 +2,7 @@
 meta_title: "Browser web che rispettano la privacy per PC e Mac - Privacy Guides"
 title: "Browser desktop"
 icon: material/laptop
-description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
+description: Questi browser per la protezione della privacy sono quelli che attualmente consigliamo per la navigazione standard/non anonima su sistemi desktop.
 cover: desktop-browsers.webp
 schema:
   - 
@@ -57,11 +57,11 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protegge dalle seguenti minacce:</small>
 
 - [:material-account-cash: Capitalismo di sorveglianza](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. Consigliamo [Mullvad Browser](#mullvad-browser) se sei interessato a una forte protezione della privacy e all'anti-fingerprinting pronti all'uso, [Firefox](#firefox) per i navigatori occasionali di Internet alla ricerca di una buona alternativa a Google Chrome e [Brave](#brave), se necessiti della compatibilità del browser con Chromium.
+Questi sono i **browser desktop** e le configurazioni attualmente consigliati per la navigazione standard/non anonima. Consigliamo [Mullvad Browser](#mullvad-browser) se sei interessato a una forte protezione della privacy e all'anti-fingerprinting pronti all'uso, [Firefox](#firefox) per i navigatori occasionali di Internet alla ricerca di una buona alternativa a Google Chrome e [Brave](#brave), se necessiti della compatibilità del browser con Chromium.
 
 Invece, se necessiti di navigare anonimamente su Internet, dovresti utilizzare [Tor](tor.md). In questa pagina forniamo alcune raccomandazioni sulla configurazione, ma tutti i browser diversi da Tor Browser saranno rintracciabili da *qualcuno* in un modo o nell'altro.
 
@@ -69,17 +69,17 @@ Invece, se necessiti di navigare anonimamente su Internet, dovresti utilizzare [
 
 <div class="admonition recommendation" markdown>
 
-![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
+![Logo di Mullvad Browser](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Sviluppato dal Tor Project e distribuito da [Mullvad](vpn.md#mullvad), **non** richiede l'utilizzo della VPN di Mullvad.
+**Mullvad Browser** è una versione del [Tor Browser](tor.md#tor-browser) con le integrazioni della rete Tor rimosse. L'obiettivo è quello di fornire agli utenti di VPN le tecnologie anti-fingerprinting del Tor Browser, che sono protezioni fondamentali contro la [:material-eye-outline: Sorveglianza di Massa](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Sviluppato dal Tor Project e distribuito da [Mullvad](vpn.md#mullvad), **non** richiede l'utilizzo della VPN di Mullvad.
 
-[:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title="Documentation" }
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
+[:octicons-home-16: Pagina Principale](https://mullvad.net/en/browser){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title="Documentazione" }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Codice Sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Download</summary>
 
 - [:fontawesome-brands-windows: Windows](https://mullvad.net/en/download/browser/windows)
 - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
@@ -89,11 +89,11 @@ Invece, se necessiti di navigare anonimamente su Internet, dovresti utilizzare [
 
 </div>
 
-Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+Come [Tor Browser](tor.md), Mullvad Browser è progettato per prevenire il fingerprinting rendendo l'impronta digitale del browser identica a quella di tutti gli altri utenti di Mullvad Browser e include impostazioni ed estensioni predefinite che vengono configurate automaticamente dai livelli di sicurezza predefiniti: *Standard*, *Sicuro* e *il più sicuro*.
 
-Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). When adjusting the security level, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
+Pertanto, è assolutamente necessario non modificare il browser al di fuori della regolazione dei [livelli di sicurezza](https://tb-manual.torproject.org/security-settings) predefiniti. Quando regoli il livello di sicurezza, è sempre **necessario** riavviare il browser prima di continuare a utilizzarlo. In caso contrario, [le impostazioni di sicurezza potrebbero non essere applicate completamente](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), esponendoti a un rischio di fingerprinting e di exploit più elevato di quello previsto in base all'impostazione da te scelta.
 
-Modifications other than adjusting this setting would make your fingerprint unique, defeating the purpose of using this browser. Se desideri configurare il tuo browser in modo più completo e il fingerprinting non ti preoccupa, consigliamo invece [Firefox](#firefox).
+Modifiche diverse dalla regolazione di questa impostazione renderebbero la tua impronta digitale unica, vanificando lo scopo dell'utilizzo di questo browser. Se desideri configurare il tuo browser in modo più completo e il fingerprinting non ti preoccupa, consigliamo invece [Firefox](#firefox).
 
 ### Anti-Fingerprinting
 
@@ -113,9 +113,9 @@ Ciò è necessario per impedire forme avanzate di tracciamento, a costo della co
 
 ### Mullvad Leta
 
-Mullvad Browser comes with [**Mullvad Leta**](https://leta.mullvad.net) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
+Il Mullvad Browser viene fornito con [**Mullvad Leta**](https://leta.mullvad.net) come motore di ricerca predefinito, che funziona come proxy dei risultati di ricerca di Google o Brave (configurabile sulla pagina principale di Mullvad Leta).
 
-If you are a Mullvad VPN user, there is some risk in using services like Mullvad Leta which are offered by your VPN provider themselves. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta), which is information a VPN is typically intended to separate. Even though Mullvad collects very little information about their VPN subscribers or Leta users, you should consider a different [search engine](search-engines.md) if this risk concerns you.
+Se sei un utente di Mullvad VPN, c'è qualche rischio nell'utilizzare servizi come Mullvad Leta, offerti dallo stesso fornitore VPN. Questo perché Mullvad ha teoricamente accesso al tuo vero indirizzo IP (tramite la loro VPN) e alla tua attività di ricerca (tramite Leta), informazioni che una VPN è in genere destinata a separare. Anche se Mullvad raccoglie pochissime informazioni sugli abbonati alla VPN o sugli utenti di Leta, dovresti considerare un altro [motore di ricerca](search-engines.md) se questo rischio ti preoccupa.
 
 ## Firefox
 
@@ -125,14 +125,14 @@ If you are a Mullvad VPN user, there is some risk in using services like Mullvad
 
 **Firefox** offre robuste impostazioni di privacy, come la [protezione antitracciamento avanzata](https://support.mozilla.org/it/kb/protezione-antitracciamento-avanzata-firefox-desktop), che aiuta a bloccare varie [tipologie di tracciamento](https://support.mozilla.org/it/kb/protezione-antitracciamento-avanzata-firefox-desktop#w_che-cosa-viene-bloccato-con-la-protezione-antitracciamento-avanzata).
 
-[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title="Documentation" }
-[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="Contribute" }
+[:octicons-home-16: Pagina Principale](https://firefox.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title="Documentazione }
+[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="Contribuisci" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Download</summary>
 
 - [:fontawesome-brands-windows: Windows](https://mozilla.org/firefox/windows)
 - [:simple-apple: macOS](https://mozilla.org/firefox/mac)
@@ -152,15 +152,15 @@ Firefox include un [download token](https://bugzilla.mozilla.org/show_bug.cgi?id
 
 ### Configurazione consigliata di Firefox
 
-These options can be found in :material-menu: → **Settings**.
+Queste opzioni possono essere trovate in :material-menu: → **Impostazioni**.
 
 #### Ricerca
 
 - [ ] Disabilita **Visualizza suggerimenti di ricerca**
 
-Search suggestion features may not be available in your region.
+Le funzionalità di suggerimento di ricerca potrebbero non essere disponibili nella tua zona.
 
-Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+I suggerimenti di ricerca inviano tutto ciò che digiti nella barra degli indirizzi al motore di ricerca predefinito, anche se non effettui la ricerca. Disabilitare i suggerimenti di ricerca ti consente di controllare con maggiore precisione i dati inviati al fornitore del motore di ricerca.
 
 ##### Firefox Suggest (solo USA)
 
@@ -175,17 +175,17 @@ Search suggestions send everything you type in the address bar to the default se
 
 - [x] Seleziona Protezione antitracciamento avanzata **Restrittiva**
 
-This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
+Questo ti protegge bloccando i tracker dei social media, gli script di fingerprinting (nota che questo non ti protegge da *tutti* i fingerprinting), i cryptominer, i cookie intersito traccianti e altri contenuti di tracking. La Protezione antitracciamento avanzata protegge da molte minacce comuni, ma non blocca tutte le modalità di tracciamento perché è progettata per avere un impatto minimo o nullo sull'usabilità del sito.
 
 ##### Eliminazione alla Chiusura
 
-If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
+Se desideri rimanere connesso a determinati siti, puoi consentire le eccezioni in **Cookie e dati dei siti web** → **Gestisci eccezioni...**
 
 - [x] Spunta **Elimina cookie e dati dei siti web alla chiusura di Firefox**
 
-This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. Quando e' abilitato,   puoi pulire facilmente i cookie del browser semplicemente riavviando Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
+Ciò ti protegge dai cookie persistenti, ma non da quelli acquisiti durante ogni sessione di navigazione. Quando e' abilitato,   puoi pulire facilmente i cookie del browser semplicemente riavviando Firefox. Puoi impostare eccezioni per ogni sito, se desideri rimanere connesso a un particolare sito che visiti spesso.
 
-##### Telemetry
+##### Telemetria
 
 - [ ] Rimuovi la spunta da **Consenti a Firefox di inviare a Mozilla dati tecnici e relativi all’interazione con il browser**
 - [ ] Rimuovi la spunta da **Consenti a Firefox di installare e condurre studi**
@@ -254,7 +254,7 @@ Brave è basato sul progetto del browser web di Chromium, quindi, dovrebbe risul
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Download</summary>
 
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 - [:fontawesome-brands-windows: Windows](https://brave.com/download)
@@ -275,7 +275,7 @@ Brave aggiunge un "[codice di riferimento](https://github.com/brave/brave-browse
 
 ### Configurazione consigliata di Brave
 
-These options can be found in :material-menu: → **Settings**.
+Queste opzioni possono essere trovate in :material-menu: → **Impostazioni**.
 
 #### Shields
 
