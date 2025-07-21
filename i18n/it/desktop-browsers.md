@@ -164,7 +164,7 @@ I suggerimenti di ricerca inviano tutto ciò che digiti nella barra degli indiri
 
 ##### Firefox Suggest (solo USA)
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) è una funzionalità simile ai suggerimenti di ricerca, disponibile solo negli Stati Uniti. Consigliamo di disattivarla per lo stesso motivo per cui consigliamo di disattivare i suggerimenti di ricerca. Se non vedi queste opzioni sotto l'intestazione della **Barra degli indirizzi**, significa che non hai la nuova esperienza e puoi ignorare queste modifiche.
 
 - [ ] Deselezionare i **suggerimenti da Firefox**
 - [ ] Rimuovi la spunta da **Suggestions from sponsors**
@@ -191,38 +191,38 @@ Ciò ti protegge dai cookie persistenti, ma non da quelli acquisiti durante ogni
 - [ ] Rimuovi la spunta da **Consenti a Firefox di installare e condurre studi**
 - [ ] Rimuovi la spunta da **Consenti a Firefox di inviare segnalazioni di arresto anomalo in sospeso**
 
-According to Mozilla's privacy policy for Firefox,
+Secondo la politica sulla privacy di Mozilla, Firefox:
 
 > Firefox ci invia i dati sulla tua versione e lingua di Firefox; sistema operativo del dispositivo e configurazione hardware; memoria, informazioni essenziali su arresti anomali ed errori; risultati di processi automatizzati quali aggiornamenti, navigazione sicura e attivazione. Quando Firefox ci invia i dati, il tuo indirizzo IP è raccolto temporaneamente come parte dei registri del nostro server.
 
-Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt out:
+Inoltre, il servizio Mozilla Accounts raccoglie [alcuni dati tecnici](https://mozilla.org/privacy/mozilla-accounts). Se utilizzi un account Mozilla, puoi disattivare:
 
 1. Apri le [impostazioni del tuo profilo su accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Deseleziona ** Raccolta e utilizzo dati ** > **Aiutaci a migliorare gli ⁨account Firefox⁩**
 
-##### Website Advertising Preferences
+##### Impostazioni per le pubblicità nei siti web
 
-- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
+- [ ] Rimuovi la spunta da **Permetti ai siti web di effettuare misurazioni pubblicitarie nel rispetto della privacy**
 
-With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
+Con il rilascio di Firefox 128, è stata aggiunta una nuova impostazione per [l'attribuzione nel rispetto della privacy](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA), [attivata di default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). La PPA consente agli inserzionisti di utilizzare il tuo browser web per misurare l'efficacia delle campagne web, invece di utilizzare il tradizionale tracciamento basato su JavaScript. Riteniamo che questo comportamento non rientri nell'ambito delle responsabilità di un user agent e il fatto che sia disabilitato di default in Arkenfox è un ulteriore indicatore per disabilitare questa funzione.
 
-##### HTTPS-Only Mode
+##### Modalità solo HTTPS
 
 - [x] Seleziona **Attiva in tutte le finestre**
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+Ciò previene che ti connetta involontariamente a un sito web in HTTP semplice. I siti privi di HTTPS sono ormai poco diffusi, quindi l'impatto sulla tua navigazione quotidiana dovrebbe essere minimo o nullo.
 
-##### DNS over HTTPS
+##### DNS su HTTPS
 
-If you use a [DNS over HTTPS provider](dns.md):
+Se utilizzi un [fornitore DNS su HTTPS](dns.md):
 
 - [x] Seleziona **Protezione massima** e scegli un fornitore adatto
 
-Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
+La protezione massima impone l'uso del DNS su HTTPS e viene visualizzato un avviso di sicurezza se Firefox non riesce a connettersi al tuo risolutore DNS sicuro o se il tuo risolutore DNS sicuro dice che i record per il dominio a cui stai cercando di accedere non esistono. Questo impedisce alla rete a cui si è sei connesso di declassare segretamente la tua sicurezza DNS.
 
-#### Sync
+#### Sincronizzazione
 
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
+[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) permette ai dati di navigazione (cronologia, segnalibri, ecc.) di essere accessibili su tutti i tuoi dispositivi e li protegge con l'E2EE.
 
 ### Arkenfox (avanzato)
 
@@ -233,9 +233,9 @@ Max Protection enforces the use of DNS over HTTPS, and a security warning will s
 
 </div>
 
-The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
+Il [progetto Arkenfox](https://github.com/arkenfox/user.js) offre una serie di opzioni attentamente valutate per Firefox. Se [decidi](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) di utilizzare Arkenfox, [alcune opzioni](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) sono soggettivamente rigide e/o potrebbero causare il malfunzionamento di alcuni siti web, ma puoi [facilmente modificarle](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) secondo le tue necessità. Ti **consigliamo vivamente** di leggere la loro [wiki](https://github.com/arkenfox/user.js/wiki) completa. Arkenfox consente anche il supporto [dei container](https://support.mozilla.org/kb/containers#w_for-advanced-users).
 
-Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Ricordati che puoi sempre utilizzare più browser, ad esempio, potresti considerare di utilizzare Firefox+Arkenfox per alcuni siti cui desideri rimanere connesso o di cui ti fidi, e Mullvad Browser per la navigazione generale.
+Arkenfox mira solo a contrastare gli script di tracciamento semplici attraverso la randomizzazione del canvas e le impostazioni di configurazione della resistenza al fingerprinting integrate in Firefox. Non mira a far sì che il tuo browser si confonda con una grande folla di altri utenti Arkenfox, come fanno Mullvad Browser o Tor Browser, che è l'unico modo per contrastare gli script avanzati di tracciamento fingerprinting avanzati. Ricordati che puoi sempre utilizzare più browser, ad esempio, potresti considerare di utilizzare Firefox+Arkenfox per alcuni siti cui desideri rimanere connesso o di cui ti fidi, e Mullvad Browser per la navigazione generale.
 
 ## Brave
 
@@ -377,7 +377,7 @@ Si consiglia di disabilitare i suggerimenti di ricerca in Brave per lo stesso mo
 
 - Deve essere un software open source.
 - Deve supportare gli aggiornamenti automatici.
-- Must receive engine updates in 0-1 days from upstream release.
+- Deve ricevere gli aggiornamenti del motore di rendering in 0-1 giorni dal rilascio a monte.
 - Deve essere disponibile su Linux, macOS e Windows.
 - Qualsiasi modifica necessaria per rendere il browser più rispettoso della privacy non dovrebbe influenzare negativamente l'esperienza degli utenti.
 - Deve bloccare i cookie di terze parti di default.

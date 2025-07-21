@@ -243,7 +243,7 @@ These options can be found in :material-menu: → :gear: **Settings** → **Priv
 
 - [x] Select **Always use secure connections**
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+Ciò previene che ti connetta involontariamente a un sito web in HTTP semplice. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
 
 #### Adblock Plus settings
 
