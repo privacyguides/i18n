@@ -86,7 +86,7 @@ Voler proteggere tutti i tuoi dati da tutti e in ogni momento non è pratico, co
 
 ---
 
-## About Privacy Guides
+## Informazioni su Privacy Guides
 
 ![Privacy Guides logo](assets/brand/logos/png/square/pg-yellow.png){ align=right loading=lazy }
 

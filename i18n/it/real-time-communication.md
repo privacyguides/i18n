@@ -23,7 +23,13 @@ Queste raccomandazioni per **comunicazioni in tempo reale** crittografate sono o
 
 ![Logo di Signal](assets/img/messengers/signal.svg){ align=right }
 
-**Signal** è un'app per dispositivi mobili sviluppata da Signal Messenger LLC. L'applicazione fornisce messaggistica istantanea e chiamate protette con il protocollo Signal, un protocollo di crittografia estremamente sicuro che supporta la segretezza in avanti[^1] e la sicurezza post compromesso.[^2]
+**Signal** è un'app per dispositivi mobili sviluppata da Signal Messenger LLC. L'applicazione fornisce messaggistica istantanea e chiamate protette con il protocollo Signal, un protocollo di crittografia estremamente sicuro che supporta la segretezza in avanti[^1] e la sicurezza post compromissione.[^2]
+
+[:octicons-home-16: Pagina Principale](https://signal.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://support.signal.org){ .card-link title="Documentazione" }
+[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://signal.org/donate){ .card-link title="Contribuisci" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

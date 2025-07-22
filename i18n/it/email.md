@@ -10,7 +10,7 @@ global:
     - "tabella tbody"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protegge dalle seguenti minacce:</small>
 
 - [:material-server-network: Fornitori di Servizi](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
@@ -22,19 +22,19 @@ L'email è praticamente una necessità per utilizzare qualsiasi servizio online,
 
 Per tutto il resto, consigliamo una varietà di provider di posta elettronica basati su modelli di business sostenibile e funzioni di sicurezza integrate. Leggi il nostro [elenco completo di criteri](#criteria) per ulteriori informazioni.
 
-| Provider                    | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero-Access Encryption                               | Anonymous Payment Methods             |
-| --------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------- |
-| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Solo a pgamento | :material-check:{ .pg-green }                        | Contanti                              |
-| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Solo mail | Contanti                              |
-| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero <br>Cash via third party |
+| Provider                    | OpenPGP / WKD                          | IMAP / SMTP                                                | Crittografia ad accesso zero                         | Metodi di pagamento anonimi             |
+| --------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | --------------------------------------- |
+| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Solo a pgamento | :material-check:{ .pg-green }                        | Contanti                                |
+| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Solo mail | Contanti                                |
+| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero <br>Contanti tramite terzi |
 
-In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md#recommended-providers) to protect your privacy. Tra le altre cose, questi servizi possono aiutare a proteggere la vostra casella di posta reale dallo spam, a impedire ai marketer di correlare i vostri account e a criptare tutti i messaggi in arrivo con PGP.
+Oltre a (o al posto di) un fornitore di posta elettronica consigliato qui, potresti prendere in considerazione un [servizio di aliasing e-mail](email-aliasing.md#recommended-providers) dedicato per proteggere la tua privacy. Tra le altre cose, questi servizi possono aiutare a proteggere la vostra casella di posta reale dallo spam, a impedire ai marketer di correlare i vostri account e a criptare tutti i messaggi in arrivo con PGP.
 
 - [Maggiori informazioni :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## Servizi compatibili con OpenPGP
 
-These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic end-to-end encrypted emails. Ad esempio, un utente di Proton Mail potrebbe inviare un messaggio E2EE a un utente Mailbox.org, o potresti ricevere notifiche crittografate in OpenPGP dai servizi Internet che le supportano.
+Questi fornitori supportano in modo nativo la crittografia/decrittografia OpenPGP e lo [standard Web Key Directory (WKD)](basics/email-security.md#what-is-the-web-key-directory-standard), consentendo d'inviare e-mail crittografate end-to-end indipendentemente dal fornitore scelto. Ad esempio, un utente di Proton Mail potrebbe inviare un messaggio E2EE a un utente Mailbox.org, o potresti ricevere notifiche crittografate in OpenPGP dai servizi Internet che le supportano.
 
 <div class="grid cards" markdown>
 
@@ -50,7 +50,7 @@ Quando si utilizza una tecnologia E2EE come OpenPGP, la tua e-mail presenta anco
 
 OpenPGP also does not support forward secrecy, which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed.
 
-- [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+- [Come proteggo le mie chiavi private?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 </div>
 
@@ -64,14 +64,14 @@ OpenPGP also does not support forward secrecy, which means if the private key of
 
 The Proton Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
 
-[:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
+[:octicons-home-16: Pagina Principale](https://proton.me/mail){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Servizio Onion"}
+[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Documentazione" }
+[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Codice Sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Download</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
