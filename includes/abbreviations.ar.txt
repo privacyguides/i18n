@@ -5,48 +5,48 @@
 *[attack surface]: The total number of possible entry points for unauthorized access to a system
 *[AVB]: Android Verified Boot
 *[cgroups]: Control Groups
-*[CLI]: Command Line Interface
+*[CLI]: واجهة سطر الأوامر
 *[CSV]: Comma-Separated Values
 *[CVE]: Common Vulnerabilities and Exposures
 *[dark pattern]: A deceptive design pattern intended to trick a user into doing things
-*[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
+*[digital legacy feature]: يشير الإرث الرقمي إلى الميزات التي تسمح لك بمنح أشخاص آخرين إمكانية الوصول إلى بياناتك عند وفاتك
 *[DNSSEC]: Domain Name System Security Extensions
-*[DNS]: Domain Name System
+*[DNS]: نظام اسم النطاق
 *[DoH]: DNS over HTTPS
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
 *[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
-*[E2EE]: End-to-End Encryption/Encrypted
+*[E2EE]: التشفير من طرف إلى طرف/ مشفر
 *[ECS]: EDNS Client Subnet
-*[EEA]: European Economic Area
-*[entropy]: A measurement of how unpredictable something is
-*[EOL]: End-of-Life
+*[EEA]: المنطقة الاقتصادية الأوروبية
+*[entropy]: قياس مدى عدم القدرة على التنبؤ بشيء ما
+*[EOL]: نهاية دورة حياة
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
-*[FDE]: Full Disk Encryption
+*[FDE]: تشفير قرص التخزين الكامل
 *[FIDO]: Fast IDentity Online
 *[FS]: Forward Secrecy
-*[fork]: A new software project created by copying an existing project and adding to it independently
-*[GDPR]: General Data Protection Regulation
+*[fork]: مشروع برمجي جديد تم إنشاؤه عن طريق نسخ مشروع موجود وإضافته إليه بشكل مستقل
+*[GDPR]: اللائحة العامة لحماية البيانات
 *[GPG]: GNU Privacy Guard (PGP implementation)
-*[GPS]: Global Positioning System
-*[GUI]: Graphical User Interface
+*[GPS]: نظام تحديد المواقع العالمي
+*[GUI]: واجهة المستخدم الرسومية
 *[GnuPG]: GNU Privacy Guard (PGP implementation)
-*[HDD]: Hard Disk Drive
+*[HDD]: محرك القرص الصُلْب
 *[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
-*[HTTPS]: Hypertext Transfer Protocol Secure
-*[HTTP]: Hypertext Transfer Protocol
-*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
+*[HTTPS]: قواعد نقل النص التشعبي الآمن
+*[HTTP]: قواعد نقل النص التشعبي
+*[hypervisor]: برنامَج حاسوب أو برنامَج ثابت أو أجهزة تقسم موارد وحدة المعالجة المركزية بين أنظمة تشغيل متعددة
 *[ICCID]: Integrated Circuit Card Identifier
-*[IMAP]: Internet Message Access Protocol
+*[IMAP]: قواعد الوصول إلى الرسائل عبر الإنترنت
 *[IMEI]: International Mobile Equipment Identity
 *[IMSI]: International Mobile Subscriber Identity
 *[IP]: Internet Protocol
 *[IPv4]: Internet Protocol version 4
 *[IPv6]: Internet Protocol version 6
 *[ISP]: Internet Service Provider
-*[ISPs]: Internet Service Providers
+*[ISPs]: مزودي خدمة الإنترنت
 *[JNI]: Java Native Interface
 *[KYC]: Know Your Customer
 *[LLaVA]: Large Language and Vision Assistant (multimodal AI model)

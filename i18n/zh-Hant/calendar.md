@@ -1,5 +1,5 @@
 ---
-title: "行事曆同步"
+title: 行事曆同步
 icon: material/calendar
 description: 行事曆包含一些您最敏感的資料，使用實現靜態加密的產品。
 cover: calendar.webp
@@ -10,7 +10,7 @@ cover: calendar.webp
 - [:material-bug-outline: 被動攻擊](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: 服務提供商](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-**行事曆** 包含一些您最敏感的資料；請使用採納 E2EE 的產品，以防止供應商在您未存取時讀取這些資料。
+**Calendars** contain some of your most sensitive data; use products that implement end-to-end encryption at rest to prevent a provider from reading them.
 
 ## Tuta
 
@@ -19,26 +19,27 @@ cover: calendar.webp
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tutanota** 在其支援的平臺上提供免費和加密的日曆。 Features include: automatic E2EE of all data, sharing features, import/export functionality, multifactor authentication, and [more](https://tuta.com/calendar-app-comparison).
+**Tutanota** 在其支援的平臺上提供免費和加密的日曆。 Features include automatic E2EE of all data, sharing features, import/export functionality, multifactor authentication, and [more](https://tuta.com/calendar-app-comparison).
 
-多個行事曆和擴展共享功能僅限於付費訂閱者。
+Multiple calendars and extended sharing functionality are limited to paid subscribers.
 
-[:octicons-home-16: 首頁](https://tuta.com/calendar){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title="說明文件" }
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title="捐款" }
+[:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://tuta.com/community#donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
-<summary>下載</summary>
+<summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.calendar)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id6657977811)
+- [:simple-github: GitHub](https://github.com/tutao/tutanota/releases?q=Calendar)
 - [:fontawesome-brands-windows: Windows](https://tuta.com/blog/desktop-clients)
 - [:simple-apple: macOS](https://tuta.com/blog/desktop-clients)
 - [:simple-linux: Linux](https://tuta.com/blog/desktop-clients)
 - [:simple-flathub: Flathub](https://flathub.org/apps/com.tutanota.Tutanota)
-- [:octicons-browser-16: 網頁版](https://app.tuta.com)
+- [:octicons-browser-16: Web](https://app.tuta.com)
 
 </details>
 
@@ -50,7 +51,9 @@ cover: calendar.webp
 
 ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
 
-**Proton Calendar** 是 Proton 會員可透過網路或行動客戶端使用的加密行事曆服務。 功能包括：所有資料自動 E2EE 、共享、匯入/匯出等等[眾多功能](https://proton.me/support/proton-calendar-guide). 免費會員可以使用 3 個行事曆，付費訂閱者最多可創建 25 個行事曆。 擴展共享功能也僅限於付費訂閱者。
+**Proton Calendar** 是 Proton 會員可透過網路或行動客戶端使用的加密行事曆服務。 Features include automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide).
+
+Those on the free tier have access to 3 calendars, whereas paid subscribers can create up to 25 calendars. 擴展共享功能也僅限於付費訂閱者。
 
 [:octicons-home-16: 首頁](https://proton.me/calendar){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/calendar/privacy-policy){ .card-link title="隱私權政策" }

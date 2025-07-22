@@ -1,5 +1,5 @@
 ---
-title: "캘린더 동기화"
+title: 캘린더 동기화
 icon: material/calendar
 description: Calendars contain some of your most sensitive data; use products that implement encryption at rest.
 cover: calendar.webp
@@ -10,7 +10,7 @@ cover: calendar.webp
 - [:material-bug-outline: 수동적 공격(Passive Attacks)](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: 서비스 제공자/제공 업체(Service Providers)](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-**Calendars** contain some of your most sensitive data; use products that implement E2EE at rest to prevent a provider from reading them.
+**Calendars** contain some of your most sensitive data; use products that implement end-to-end encryption at rest to prevent a provider from reading them.
 
 ## Tuta
 
@@ -19,21 +19,22 @@ cover: calendar.webp
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** offers a free and encrypted calendar across their supported platforms. Features include: automatic E2EE of all data, sharing features, import/export functionality, multifactor authentication, and [more](https://tuta.com/calendar-app-comparison).
+**Tuta** offers a free and encrypted calendar across their supported platforms. Features include automatic E2EE of all data, sharing features, import/export functionality, multifactor authentication, and [more](https://tuta.com/calendar-app-comparison).
 
-여러 캘린더 및 확장된 공유 기능은 유료 구독자 전용입니다.
+Multiple calendars and extended sharing functionality are limited to paid subscribers.
 
 [:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
+[:octicons-heart-16:](https://tuta.com/community#donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.calendar)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id6657977811)
+- [:simple-github: GitHub](https://github.com/tutao/tutanota/releases?q=Calendar)
 - [:fontawesome-brands-windows: Windows](https://tuta.com/blog/desktop-clients)
 - [:simple-apple: macOS](https://tuta.com/blog/desktop-clients)
 - [:simple-linux: Linux](https://tuta.com/blog/desktop-clients)
@@ -50,7 +51,9 @@ cover: calendar.webp
 
 ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
 
-**Proton Calendar**는 Proton 회원이라면 웹/모바일 클라이언트에서 사용 가능한 암호화 캘린더 서비스입니다. 모든 데이터 자동 E2EE, 공유 기능, 가져오기/내보내기 기능을 포함한 [다양한 기능](https://proton.me/support/proton-calendar-guide)이 있습니다. Those on the free tier gain access to 3 calendars, whereas paid subscribers can create up to 25 calendars. 확장된 공유 기능은 유료 플랜 사용자 전용입니다.
+**Proton Calendar**는 Proton 회원이라면 웹/모바일 클라이언트에서 사용 가능한 암호화 캘린더 서비스입니다. Features include automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide).
+
+Those on the free tier have access to 3 calendars, whereas paid subscribers can create up to 25 calendars. 확장된 공유 기능은 유료 플랜 사용자 전용입니다.
 
 [:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/calendar/privacy-policy){ .card-link title="Privacy Policy" }

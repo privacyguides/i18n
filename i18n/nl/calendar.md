@@ -1,5 +1,5 @@
 ---
-title: "Agendasynchronisatie"
+title: Agendasynchronisatie
 icon: material/calendar
 description: Agenda's bevatten een aantal van je meest gevoelige gegevens; gebruik producten die jouw afspraken versleutelen.
 cover: calendar.webp
@@ -10,7 +10,7 @@ cover: calendar.webp
 - [:material-bug-outline: Passieve aanvallen](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: Dienstverleners](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-**Agenda's** bevatten een aantal van je meest gevoelige gegevens; gebruik producten die E2EE implementeren om te voorkomen dat een provider ze kan lezen.
+**Calendars** contain some of your most sensitive data; use products that implement end-to-end encryption at rest to prevent a provider from reading them.
 
 ## Tuta
 
@@ -19,21 +19,22 @@ cover: calendar.webp
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** offers a free and encrypted calendar across their supported platforms. Features include: automatic E2EE of all data, sharing features, import/export functionality, multifactor authentication, and [more](https://tuta.com/calendar-app-comparison).
+**Tuta** offers a free and encrypted calendar across their supported platforms. Features include automatic E2EE of all data, sharing features, import/export functionality, multifactor authentication, and [more](https://tuta.com/calendar-app-comparison).
 
-Meerdere kalenders en uitgebreide functionaliteit voor delen zijn beperkt tot betalende abonnees.
+Multiple calendars and extended sharing functionality are limited to paid subscribers.
 
 [:octicons-home-16: Homepage](https://tuta.com/calendar){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
+[:octicons-heart-16:](https://tuta.com/community#donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.calendar)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id6657977811)
+- [:simple-github: GitHub](https://github.com/tutao/tutanota/releases?q=Calendar)
 - [:fontawesome-brands-windows: Windows](https://tuta.com/blog/desktop-clients)
 - [:simple-apple: macOS](https://tuta.com/blog/desktop-clients)
 - [:simple-linux: Linux](https://tuta.com/blog/desktop-clients)
@@ -50,7 +51,9 @@ Meerdere kalenders en uitgebreide functionaliteit voor delen zijn beperkt tot be
 
 ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
 
-**Proton Calendar** is een versleutelde kalenderdienst die beschikbaar is voor Proton-leden via web- of mobiele clients. Functies zijn onder meer: automatische E2EE van alle gegevens, functies voor delen, import/export-functionaliteit, en [more](https://proton.me/support/proton-calendar-guide). Those on the free tier gain access to 3 calendars, whereas paid subscribers can create up to 25 calendars. De uitgebreide functionaliteit voor delen is ook beperkt tot betaalde abonnees.
+**Proton Calendar** is een versleutelde kalenderdienst die beschikbaar is voor Proton-leden via web- of mobiele clients. Features include automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide).
+
+Those on the free tier have access to 3 calendars, whereas paid subscribers can create up to 25 calendars. De uitgebreide functionaliteit voor delen is ook beperkt tot betaalde abonnees.
 
 [:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/calendar/privacy-policy){ .card-link title="Privacy Policy" }
