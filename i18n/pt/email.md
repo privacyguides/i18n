@@ -260,7 +260,7 @@ Tuta offers the business version of [Tuta to non-profit organizations](https://t
 
 ### Tecnologia
 
-Consideramos que estas características são importantes para podermos prestar um serviço seguro e otimizado. Deve garantir que o fornecedor tem as características de que necessita.
+Consideramos que estas características são importantes para podermos prestar um serviço seguro e otimizado. You should consider whether the provider has the features you require.
 
 **Mínimos de qualificação:**
 

@@ -260,7 +260,7 @@ Tuta offre la versione business di [Tuta alle organizzazioni non profit](https:/
 
 ### Tecnologia
 
-Consideriamo queste funzionalità come importanti per poter fornire un servizio sicuro e ottimale. Dovresti considerare se il fornitore ha le funzionalità di cui necessiti.
+Consideriamo queste funzionalità come importanti per poter fornire un servizio sicuro e ottimale. You should consider whether the provider has the features you require.
 
 **Requisiti minimi:**
 

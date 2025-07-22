@@ -260,7 +260,7 @@ Tuta offers the business version of [Tuta to non-profit organizations](https://t
 
 ### טכנולוגיה
 
-אנו רואים בתכונות אלה חשיבות על מנת לספק שירות בטוח ומיטבי. אתה צריך לשקול אם לספק יש לו את התכונות שאתה צריך.
+אנו רואים בתכונות אלה חשיבות על מנת לספק שירות בטוח ומיטבי. You should consider whether the provider has the features you require.
 
 **מינימום כדי לעמוד בדרישות:**
 

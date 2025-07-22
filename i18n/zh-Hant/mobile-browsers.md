@@ -78,6 +78,7 @@ Brave 基於 Chromium 瀏覽器專案構建，因此使用起來應該會感到�
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1052879175)
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
+- [:simple-fdroid: F-Droid](https://brave-browser-apk-release.s3.brave.com/fdroid/repo/index.html)
 
 </details>
 

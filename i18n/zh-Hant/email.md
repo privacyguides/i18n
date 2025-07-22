@@ -260,7 +260,7 @@ Tuta 向非營利組織提供免費 [商業版本](https://tuta.com/blog/secure-
 
 ### 技術
 
-我們認為這些功能很重要，以便提供安全和最佳的服務。 您應該考慮提供商是否具有您需要的功能。
+我們認為這些功能很重要，以便提供安全和最佳的服務。 You should consider whether the provider has the features you require.
 
 **最低合格要求：**
 

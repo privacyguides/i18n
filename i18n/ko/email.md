@@ -260,7 +260,7 @@ Tuta offers the business version of [Tuta to non-profit organizations](https://t
 
 ### 기술
 
-안전하고 최적화된 서비스를 제공하기 위해서는 이러한 기능이 중요하다고 판단했습니다. 제공 업체가 여러분에게 필요한 기능을 갖추고 있는지 살펴봐야 합니다.
+안전하고 최적화된 서비스를 제공하기 위해서는 이러한 기능이 중요하다고 판단했습니다. You should consider whether the provider has the features you require.
 
 **최소 요구 사항:**
 

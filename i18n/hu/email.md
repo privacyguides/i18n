@@ -260,7 +260,7 @@ Tuta offers the business version of [Tuta to non-profit organizations](https://t
 
 ### Technológia
 
-Ezeket a funkciókat fontosnak tartjuk a biztonságos és optimális szolgáltatás nyújtása érdekében. Meg kell vizsgálnod, hogy az adott szolgáltató rendelkezik-e az általad igényelt funkciókkal.
+Ezeket a funkciókat fontosnak tartjuk a biztonságos és optimális szolgáltatás nyújtása érdekében. You should consider whether the provider has the features you require.
 
 **Alap Elvárások Minősítéshez:**
 

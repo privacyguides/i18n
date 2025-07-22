@@ -1,5 +1,5 @@
 ---
-title: "Gestión de Fotografías"
+title: Gestión de Fotografías
 icon: material/image
 description: Estas herramientas de gestión de fotografías mantienen tus fotos personales a salvo de las miradas indiscretas de los proveedores de almacenamiento en la nube y otras partes no autorizadas.
 cover: photo-management.webp
@@ -20,7 +20,7 @@ La mayoría de las soluciones de **gestión de fotografías en la nube**, como G
 
 **Ente Photos** es un servicio de copia de seguridad cifrada de fotos de extremo a extremo que admite copias de seguridad automáticas en iOS y Android. Su código está totalmente abierto, tanto en el lado del cliente como en el del servidor. También es [autoalojable](https://github.com/ente-io/ente/tree/main/server#self-hosting).
 
-El plan gratuito ofrece 5 GB de almacenamiento siempre que utilices el servicio al menos una vez al año.
+The free plan offers 10 GB of storage as long as you use the service at least once a year.
 
 [:octicons-home-16: Página Principal](https://ente.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Política de Privacidad" }
@@ -43,34 +43,7 @@ El plan gratuito ofrece 5 GB de almacenamiento siempre que utilices el servicio 
 
 </div>
 
-Ente Photos se sometió a una [auditoría por Cure53](https://ente.io/blog/cryptography-audit) en marzo de 2023 y por [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) en abril de 2023.
-
-## Stingle
-
-<div class="admonition recommendation" markdown>
-
-![Stingle logo](assets/img/photo-management/stingle.png#only-light){ align=right }
-![Stingle logo](assets/img/photo-management/stingle-dark.png#only-dark){ align=right }
-
-**Stingle** es una aplicación de galería y cámara con funciones integradas de copia de seguridad E2EE y sincronización para tus fotos y vídeos.
-
-El almacenamiento comienza en 1 GB para cuentas gratuitas en su nube, o puedes alojar tu propio servidor Stingle API para una independencia total.
-
-[:octicons-home-16: Página Principal](https://stingle.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://stingle.org/privacy){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://stingle.org/faq){ .card-link title="Documentación" }
-[:octicons-code-16:](https://github.com/stingle){ .card-link title="Código Fuente" }
-
-<details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.stingle.photos)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1582535448)
-- [:simple-github: GitHub](https://github.com/stingle/stingle-photos-android/releases)
-
-</details>
-
-</div>
+Ente Photos underwent an audit by [Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
 
 ## PhotoPrism
 

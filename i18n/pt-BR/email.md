@@ -260,7 +260,7 @@ Tuta oferece a versão comercial do [Tuta para organizações sem fins lucrativo
 
 ### Tecnologia
 
-Consideramos esses recursos importantes para fornecer um serviço seguro e otimizado. Você deve considerar se o provedor tem os recursos de que você precisa.
+Consideramos esses recursos importantes para fornecer um serviço seguro e otimizado. You should consider whether the provider has the features you require.
 
 **Mínimo Para Qualificação:**
 

@@ -260,7 +260,7 @@ Tuta offers the business version of [Tuta to non-profit organizations](https://t
 
 ### Technologie
 
-Wij beschouwen deze kenmerken als belangrijk om een veilige en optimale dienst te kunnen verlenen. Je zou moeten nagaan of de provider de functies heeft die je nodig hebt.
+Wij beschouwen deze kenmerken als belangrijk om een veilige en optimale dienst te kunnen verlenen. You should consider whether the provider has the features you require.
 
 **Minimum om in aanmerking te komen:**
 

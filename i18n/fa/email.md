@@ -260,7 +260,7 @@ Tuta offers the business version of [Tuta to non-profit organizations](https://t
 
 ### فناوری
 
-We regard these features as important in order to provide a safe and optimal service. You should consider whether the provider which has the features you require.
+We regard these features as important in order to provide a safe and optimal service. You should consider whether the provider has the features you require.
 
 **حداقل شرایط صلاحیت:**
 

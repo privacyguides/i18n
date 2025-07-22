@@ -1,6 +1,6 @@
 ---
 meta_title: "App raccomandate di mappe e navigazione - Privacy Guides"
-title: "Mappe e Navigazione"
+title: Mappe e Navigazione
 icon: material/map
 description: Applicazioni di mappe e navigazione che rispettano la tua privacy e non costruiscono un profilo pubblicitario basato sulle tue ricerche e posizioni.
 cover: maps.webp
@@ -12,7 +12,7 @@ cover: maps.webp
 
 Usa un'**app di mappe e navigazione** che non costruisce un profilo pubblicitario basato sulla cronologia delle tue ricerche e posizioni. Invece di utilizzare Google Maps, Apple Maps o Waze noi consigliamo queste alternative rispettose della privacy.
 
-I consigli qui proposti non raccolgono o nessun dato degli utenti o, quanto meno, non raccolgono informazioni d'identificazione personale (PII) sulla base dell'informatica sulla privacy di ciascun servizio. **Non c'è garanzia** che queste informative sulla privacy siano rispettate.
+The recommendations here do not collect personally identifying information (PII) based on each application's privacy policy. **Non c'è garanzia** che queste informative sulla privacy siano rispettate.
 
 ## Organic Maps
 
@@ -47,7 +47,7 @@ Tieni presente che Organic Maps è un'app semplice e di base che non include alc
 
 ![Logo di OsmAnd](assets/img/maps/osmand.svg){ align=right }
 
-**OsmAnd** è un'applicazione di mappe offline e navigazione basata su OpenStreetMap che offre navigazione passo-passo per camminare, andare in bici, guidare e per il trasporto pubblico. È open source e non raccoglie nessun dato personale.
+**OsmAnd** is an open-source, offline map and navigation application based on OpenStreetMap that offers turn-by-turn navigation for walking, cycling, driving, as well as public transport. Puoi trovare un elenco dettagliato delle [funzioni](https://wiki.openstreetmap.org/wiki/OsmAnd#Features) supportate da OsmAnd sulla Wiki di OpenStreetMap.
 
 [:octicons-home-16: Homepage](https://osmand.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://osmand.net/docs/legal/privacy-policy){ .card-link title="Informativa sulla Privacy" }
@@ -57,16 +57,29 @@ Tieni presente che Organic Maps è un'app semplice e di base che non include alc
 <details class="downloads" markdown><summary>Scarica</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.osmand)
-- [:simple-android: Android](https://osmand.net/docs/versions/free-versions)
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/id934850257)
+- [:simple-android: Android](https://osmand.net/docs/versions/free-versions)
 
 </details>
 
 </div>
 
-OsmAnd consente di sovrapporre dati cartografici esterni, come le immagini satellitari di Microsoft o [dati sul traffico](https://themm.net/public/osmand_traffic) di Google, anche  se questi ultimi vengono ignorati dalla pianificazione automatica del percorso. OsmAnd dispone anche di un'integrazione opzionale per vedere immagini di vista stradale fornite [Mapillary](https://mapillary.com).
+<div class="admonition warning" markdown>
+<p class="admonition-title">Unique User Identifier</p>
 
-Puoi trovare un elenco dettagliato delle [funzioni](https://wiki.openstreetmap.org/wiki/OsmAnd#Features) supportate da OsmAnd sulla Wiki di OpenStreetMap.
+OsmAnd generates a [unique user identifier (UUID)](https://osmand.net/docs/legal/terms-of-use/#6-unique-user-indentifier) for each app install that rotates every three months and is used for internal reports and statistics. The UUID is also sent to OsmAnd's servers when downloading maps. On Android, there is a setting that controls whether the UUID is sent with each download request. From the home screen, go to :material-menu: → :gear: **Settings** → :gear: **OsmAnd settings** → :material-web: **Identifiers**.
+
+- [ ] Uncheck **Send Unique User Identifier (UUID)**
+
+This setting is not available on the iOS app.
+
+</div>
+
+The app also includes a setting for sharing anonymous data about your downloaded maps and the features you use. This setting is disabled by default on Android, but enabled by default on iOS. To disable it in the iOS app, tap the :material-menu: on the home screen to find the :gear: **Settings** menu. Select that, then select :gear: **OsmAnd settings**.
+
+- [ ] Uncheck **Send anonymous data**
+
+OsmAnd consente di sovrapporre dati cartografici esterni, come le immagini satellitari di Microsoft o [dati sul traffico](https://themm.net/public/osmand_traffic) di Google, anche  se questi ultimi vengono ignorati dalla pianificazione automatica del percorso. OsmAnd dispone anche di un'integrazione opzionale per vedere immagini di vista stradale fornite [Mapillary](https://mapillary.com).
 
 ## Criteri
 

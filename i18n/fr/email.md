@@ -260,7 +260,7 @@ Tuta offre la version professionnelle de [Tuta aux organisations à but non lucr
 
 ### Technologie
 
-Nous considérons ces caractéristiques comme importantes afin de fournir un service sûr et optimal. Vous devez vous demander si le fournisseur possède les caractéristiques dont vous avez besoin.
+Nous considérons ces caractéristiques comme importantes afin de fournir un service sûr et optimal. You should consider whether the provider has the features you require.
 
 **Minimum pour se qualifier :**
 

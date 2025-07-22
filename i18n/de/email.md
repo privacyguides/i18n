@@ -260,7 +260,7 @@ Tuta bietet die Business-Version von [Tuta für gemeinnützige Organisationen](h
 
 ### Technologien
 
-Wir halten diese Merkmale für wichtig, um einen sicheren und optimalen Service zu bieten. Du solltest prüfen, ob der Anbieter über die von dir gewünschten Funktionen verfügt.
+Wir halten diese Merkmale für wichtig, um einen sicheren und optimalen Service zu bieten. You should consider whether the provider has the features you require.
 
 **Mindestvoraussetzung um sich zu qualifizieren:**
 
