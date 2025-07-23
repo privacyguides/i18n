@@ -215,7 +215,7 @@ In 2023, we launched international translations of our website in [French](https
 
 <div class="admonition danger" markdown>
 
-The following is a human-readable summary of (and not a substitute for) the [license](https://github.com/privacyguides/privacyguides.org/blob/main/README.md#license).
+以下是人類可讀的 [授權](https://github.com/privacyguides/privacyguides.org/blob/main/README.md#license) 摘要 (而非替代摘要)。
 
 </div>
 

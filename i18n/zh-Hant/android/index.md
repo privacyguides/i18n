@@ -46,9 +46,9 @@ schema:
 
 ### 避免 Root
 
-[Rooting](https://zh.wikipedia.org/zh-tw/Root_%28Android%29) Android 手機會大幅降低安全性，因為它會削弱完整的 [Android 安全模型](https://en.wikipedia.org/wiki/Android_\(operating_system\)#Security_and_privacy) 。 如果有人利用降低的安全性來進行攻擊，這可能會威脅到您的隱私。 常見的 root 方法涉及直接篡改開機分割區，以至於造成無法成功執行驗證啟動。 需要 root 的應用程式也會修改系統磁碟分割，這意味著 Verified Boot 必須維持停用。 在使用者介面中直接暴露 root 也會增加裝置的攻擊面，並可能有助於 [特權提升](https://zh.wikipedia.org/zh-tw/%E7%89%B9%E6%9D%83%E6%8F%90%E5%8D%87) 漏洞和繞過 SELinux 政策。
+[Rooting](https://zh.wikipedia.org/zh-HK/Root_%28Android%29) Android 手機會大幅降低安全性，因為它會削弱完整的 [Android 安全模型](https://en.wikipedia.org/wiki/Android_\(operating_system\)#Security_and_privacy) 。 如果有人利用降低的安全性來進行攻擊，這可能會威脅到您的隱私。 常見的 root 方法涉及直接篡改開機分割區，以至於造成無法成功執行驗證啟動。 需要 root 的應用程式也會修改系統磁碟分割，這意味著 Verified Boot 必須維持停用。 在使用者介面中直接暴露 root 也會增加裝置的攻擊面，並可能有助於 [特權提升](https://zh.wikipedia.org/zh-HK/%E7%89%B9%E6%9D%83%E6%8F%90%E5%8D%87) 漏洞和繞過 SELinux 政策。
 
-修改 [hosts 檔案](https://zh.wikipedia.org/zh-tw/Hosts%E6%96%87%E4%BB%B6) 的內容封鎖程式（
+修改 [hosts 檔案](https://zh.wikipedia.org/zh-HK/Hosts%E6%96%87%E4%BB%B6) 的內容封鎖程式（
 如 AdAway）和需要 root 存取權限的防火牆（如 AFWall+）是危險的，不應該使用。 它們也不是解決預期目的的正確方法。 對於內容阻擋，我們建議使用加密 [DNS](../dns.md) ，或改用 VPN 提供的內容封鎖功能。 TrackerControl 和 AdAway 在非 root 模式下會佔用 VPN 插槽（透過使用本機環回 VPN），使您無法使用 [Orbot](../alternative-networks.md#orbot) 或 [VPN](../vpn.md) 等增強隱私的服務。
 
 AFWall+ 以 [封包過濾](https://en.wikipedia.org/wiki/Firewall_\(computing\)#Packet_filter) 方式運作，在某些情況下可能會被繞過。

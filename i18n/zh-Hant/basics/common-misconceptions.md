@@ -82,7 +82,7 @@ schema:
     <div class="admonition tip" markdown>
     <p class="admonition-title">溫馨提示</p>
 
-    線上購物時，使用[自助取件櫃](https://zh.wikipedia.org/zh-tw/%E6%99%BA%E8%83%BD%E5%BF%AB%E9%81%9E%E6%AB%83)有助於隱藏您的所在地址。
+    線上購物時，使用[自助取件櫃](https://zh.wikipedia.org/zh-HK/%E6%99%BA%E8%83%BD%E5%BF%AB%E9%81%9E%E6%AB%83)有助於隱藏您的所在地址。
 
     </div>
 

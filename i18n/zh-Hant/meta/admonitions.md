@@ -68,7 +68,7 @@ The `TITLE` must be specified; if you don't want a specific title you can set it
 #### `info`
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Info</p>
+<p class="admonition-title">資訊</p>
 
 雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層
 
@@ -104,7 +104,7 @@ The `TITLE` must be specified; if you don't want a specific title you can set it
 #### `warning`
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">警告</p>
 
 雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層
 
@@ -122,7 +122,7 @@ The `TITLE` must be specified; if you don't want a specific title you can set it
 #### `danger`
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">Danger "危險"</p>
 
 雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層
 
@@ -260,7 +260,7 @@ Throughout the site, you may see some admonitions formatted like the following e
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層 Nulla et euismod
 nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
 massa, nec semper lorem quam in massa.
 
@@ -281,7 +281,7 @@ massa, nec semper lorem quam in massa.
 <details class="example" markdown>
 <summary>Custom Title</summary>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+雙因素身份驗證 端對端加密 虛擬私人網路 雜湊函數 數位簽章 公鑰加密 防火牆 安全殼層 Nulla et euismod
 nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
 massa, nec semper lorem quam in massa.
 

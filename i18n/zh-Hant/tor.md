@@ -12,9 +12,9 @@ schema:
     image: /assets/img/browsers/tor.svg
     url: https://torproject.org
     sameAs: https://zh.wikipedia.org/wiki/Tor
-    applicationCategory: 網頁瀏覽器
+    applicationCategory: Web Browser
     operatingSystem:
-      - Windows 作業系統
+      - Windows
       - macOS
       - Linux
       - Android

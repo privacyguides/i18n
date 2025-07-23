@@ -7,7 +7,7 @@ cover: desktop-browsers.webp
 schema:
   - 
     "@context": http://schema.org
-    "@type": 網頁
+    "@type": WebPage
     name: 推薦的隱私桌面瀏覽器
     url: "./"
     relatedLink: "../mobile-browsers/"
@@ -19,11 +19,11 @@ schema:
     url: https://mullvad.net/zh-hant/browser
     applicationCategory: Web Browser
     operatingSystem:
-      - Windows 作業系統
+      - Windows
       - macOS
       - Linux
     subjectOf:
-      "@type": 網頁
+      "@type": WebPage
       url: "./"
   - 
     "@context": http://schema.org
@@ -31,14 +31,14 @@ schema:
     name: Firefox
     image: /assets/img/browsers/firefox.svg
     url: https://firefox.com
-    sameAs: https://zh.wikipedia.org/zh-tw/Mozilla_Firefox
+    sameAs: https://zh.wikipedia.org/zh-HK/Mozilla_Firefox
     applicationCategory: Web Browser
     operatingSystem:
-      - Windows 作業系統
+      - Windows
       - macOS
       - Linux
     subjectOf:
-      "@type": 網頁
+      "@type": WebPage
       url: "./"
   - 
     "@context": http://schema.org
@@ -46,14 +46,14 @@ schema:
     name: Brave
     image: /assets/img/browsers/brave.svg
     url: https://brave.com
-    sameAs: https://zh.wikipedia.org/zh-tw/Brave%E6%B5%8F%E8%A7%88%E5%99%A8
+    sameAs: https://zh.wikipedia.org/zh-HK/Brave%E6%B5%8F%E8%A7%88%E5%99%A8
     applicationCategory: Web Browser
     operatingSystem:
-      - Windows 作業系統
+      - Windows
       - macOS
       - Linux
     subjectOf:
-      "@type": 網頁
+      "@type": WebPage
       url: "./"
 ---
 
@@ -123,7 +123,7 @@ Mullvad 瀏覽器隨附 [**Mullvad Leta**](https://leta.mullvad.net) 作為預�
 
 ![Firefox 標誌](assets/img/browsers/firefox.svg){ align=right }
 
-**Firefox** 提供強大的隱私設定，例如 [加強型追蹤保護功能](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop)，可以幫助阻擋各種[類型的追蹤](https://support.mozilla.org/zh-TW/kb/enhanced-tracking-protection-firefox-desktop#w_jia-qiang-xing-zhui-zong-bao-hu-gong-neng-hui-feng-suo-shi-mo)。
+**Firefox** 提供強大的隱私設定，例如 [加強型追蹤保護功能](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop)，可以幫助阻擋各種[類型的追蹤](https://support.mozilla.org/zh-HK/kb/enhanced-tracking-protection-firefox-desktop#w_jia-qiang-xing-zhui-zong-bao-hu-gong-neng-hui-feng-suo-shi-mo)。
 
 [:octicons-home-16: 首頁](https://firefox.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="隱私權政策" }

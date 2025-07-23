@@ -7,7 +7,7 @@ cover: mobile-browsers.webp
 schema:
   - 
     "@context": http://schema.org
-    "@type": 網頁
+    "@type": WebPage
     name: 推薦的隱私行動瀏覽器
     url: "./"
     relatedLink: "../desktop-browsers/"
@@ -22,7 +22,7 @@ schema:
       - Android
       - iOS
     subjectOf:
-      "@type": 網頁
+      "@type": WebPage
       url: "./"
   - 
     "@context": http://schema.org
@@ -34,7 +34,7 @@ schema:
     operatingSystem:
       - Android
     subjectOf:
-      "@type": 網頁
+      "@type": WebPage
       url: "./"
   - 
     "@context": http://schema.org
@@ -277,8 +277,8 @@ Cromite contains a customized version of Adblock Plus with EasyList enabled by d
 **Safari** 是 iOS 的預設瀏覽器。 It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites, so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
 
 [:octicons-home-16: 首頁](https://www.apple.com/tw/safari/){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://www.apple.com/tw/legal/privacy/data/zh-tw/safari/){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://support.apple.com/zh-tw/guide/iphone/iph1fbef4daa/ios){ .card-link title="說明文件" }
+[:octicons-eye-16:](https://www.apple.com/tw/legal/privacy/data/zh-HK/safari/){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://support.apple.com/zh-HK/guide/iphone/iph1fbef4daa/ios){ .card-link title="說明文件" }
 
 </details>
 

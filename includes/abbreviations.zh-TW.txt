@@ -1,0 +1,111 @@
+*[2FA]: 雙重要素驗證
+*[ADB]: Android 偵錯橋接器
+*[AOSP]: Android 開放原始碼計畫
+*[ATA]: 高技術配置
+*[攻擊面]: 未經授權存取系統的可能進入點總數
+*[AVB]: Android 驗證啟動
+*[cgroups]: 對照組
+*[CLI]: 命令列介面
+*[CSV]: 字元分隔值
+*[CVE]: 公共漏洞和暴露
+*[詐欺性設計模式]: 一種欺騙性的設計模式，目的在於欺騙使用者做一些事情
+*[數位遺產功能]: 數位遺產是指在您去世之後，允許讓其他人存取您資料的功能
+*[DNSSEC]: 網域名稱系統安全擴充套件
+*[DNS]: 網域名稱系統
+*[DoH]: 基於 HTTPS 的 DNS 服務 (DNS over HTTPS)
+*[DoQ]: 基於 QUIC 的 DNS 服務 (DNS over QUIC)
+*[DoH3]: 基於 HTTP/3 的 DNS 服務 (DNS over HTTP/3)
+*[DoT]: 基於 TLS 的 DNS 服務 (DNS over TLS)
+*[DPI]: 深度封包檢測 (Deep Packet Inspection)，是一種用於識別並封鎖具有特定特徵封包的技術
+*[E2EE]: 端對端加密
+*[ECS]: EDNS 客戶端子網
+*[EEA]: 歐洲經濟區
+*[entropy]: 衡量某件事物的不可預測程度
+*[EOL]: 產品壽命結束
+*[Exif]: 可交換影像檔案格式
+*[FCM]: Firebase 雲端訊息傳遞
+*[FDE]: 完整磁碟加密
+*[FIDO]: 快速線上身份驗證
+*[FS]: 前向保密
+*[分支]: 從現有軟體專案複製再另外分隔出來的新獨立專案
+*[GDPR]: 一般資料保護規定 (歐盟)
+*[GPG]: GNU Privacy Guard (基於 PGP 協定)
+*[GPS]: 全球定位系統
+*[GUI]: 圖形使用者介面
+*[GnuPG]: GNU Privacy Guard (基於 PGP 協定)
+*[HDD]: 傳統硬碟 (又稱機械硬碟)
+*[HOTP]: 基於 HMAC (雜湊式訊息驗證碼) 的一次性密碼
+*[HTTPS]: 安全超文本傳輸協議
+*[HTTP]: 超文本傳輸協議
+*[hypervisor]: 將 CPU 資源分配給多個操作系統的電腦軟體、韌體或硬體
+*[ICCID]: 集成式迴路卡識別碼
+*[IMAP]: 網際網路訊息存取協定
+*[IMEI]: 國際行動裝置識別碼
+*[IMSI]: 國際移動使用者辨識碼
+*[IP]: 網際網路協定
+*[IPv4]: 網際網路通訊協定第 4 版
+*[IPv6]: 網際網路通訊協定第 6 版
+*[ISP]: 網際網路服務提供商
+*[ISPs]: 網際網路服務提供商
+*[JNI]: Java 原生介面
+*[KYC]: 客戶身分審查
+*[LLaVA]: Large Language and Vision Assistant（多模態 AI 模型）
+*[LLMs]： 大型語言模型（AI 模型，例如：ChatGPT）
+*[LUKS]: Linux 統一金鑰設定 (全磁碟加密)
+*[MAC]: 媒體存取控制
+*[MDAG]: Microsoft Defender 應用程式防護
+*[MEID]: 行動裝置識別碼
+*[MFA]: 多重要素驗證
+*[NVMe]: 非揮發性記憶體控制規範
+*[NAT]: 網路位址轉譯
+*[NAT-PMP]: NAT 連接埠對應通訊協定
+*[NTP]: 網路時間協定
+*[OCI]: 開放容器標準
+*[OCSP]: 線上憑證狀態協定
+*[OEM]: 原始設備製造商
+*[OEMs]: 原始設備製造商
+*[open-weights]： 開放權重模型是任何人都可以下載和使用的 AI 模型，但其基礎訓練資料和/或演算法是專有的。
+*[OS]: 操作系統
+*[OTP]: 一次性密碼
+*[OTPs]: 一次性密碼
+*[OpenPGP]: 優良保密協定 (PGP) 的開放原始碼實作
+*[P2P]: 點對點網路 (又稱對等式網路)
+*[PAM]: Linux 插入式驗證模組
+*[POP3]: 郵局協定第 3 版
+*[PGP]: 優良保密協定 (見 OpenPGP)
+*[PII]: 個人可識別資訊
+*[QNAME]: 限定名稱
+*[QUIC]: 以 UDP 為基礎的網路協定，旨在結合 UDP 的速度與 TCP 的可靠性。
+*[速率限制]: 速率限制是服務對使用者在指定時間內存取其服務的次數所施加的限制。
+*[滾動式更新]: 頻繁更新而非固定間隔更新
+*[RSS]: 簡易資訊聚合格式
+*[SELinux]: 安全增強型 Linux
+*[SIM]: 使用者身分模組
+*[SMS]: 標準文字訊息服務
+*[SMTP]: 簡易郵件傳輸通訊協定
+*[SNI]: 伺服器名稱指示
+*[SSD]: 固態硬碟
+*[SSH]: 安全殼層
+*[SUID]: Set Owner User ID
+*[SaaS]: 軟體即服務 (雲端軟體)
+*[SoC]: 系統晶片
+*[SSO]: Single sign-on
+*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
+*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
+*[TCP]: 傳輸控制通訊協定
+*[TEE]: 受信任執行環境
+*[TLS]: 傳輸層安全性
+*[ToS]: 服務條款
+*[TOTP]: 基於時間的一次性密碼演算法
+*[TPM]: 信賴平台模組
+*[U2F]: 通用第二因素
+*[UEFI]: 統一可延伸韌體介面
+*[UDP]: 用戶資料圖報協議
+*[VPN]: 虛擬私人網路
+*[VLAN]: 虛擬區域網路
+*[VoIP]: 網路電話 (Voice over IP)
+*[W3C]: 全球資訊網協會
+*[XMPP]: 可延伸傳訊與顯示通訊協定
+*[PWA]: 漸進式網路應用程式
+*[PWAs]： 漸進式網路應用程式
+*[WKD]： 網路金鑰目錄 (Web Key Directory)
