@@ -40,20 +40,20 @@
 *[hypervisor]: برنامَج حاسوب أو برنامَج ثابت أو أجهزة تقسم موارد وحدة المعالجة المركزية بين أنظمة تشغيل متعددة
 *[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: قواعد الوصول إلى الرسائل عبر الإنترنت
-*[IMEI]: International Mobile Equipment Identity
+*[IMEI]: الهُوِيَّة الدولية للأجهزة المتنقلة
 *[IMSI]: International Mobile Subscriber Identity
 *[IP]: Internet Protocol
 *[IPv4]: Internet Protocol version 4
-*[IPv6]: Internet Protocol version 6
+*[IPv6]: قواعد الإنترنت الإصدار 6
 *[ISP]: Internet Service Provider
 *[ISPs]: مزودي خدمة الإنترنت
 *[JNI]: Java Native Interface
 *[KYC]: Know Your Customer
 *[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-*[LLMs]: Large Language Models (AI models such as ChatGPT)
+*[LLMs]: نموذجات اللغة الكبيرة (نموذجات الذكاء الاصطناعي مثل شات جي بي تي)
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
-*[MAC]: Media Access Control
-*[MDAG]: Microsoft Defender Application Guard
+*[MAC]: التحكم بالنفاذ للوسط
+*[MDAG]: حماية التطبيقات عبر جدار حماية مايكروسوفت
 *[MEID]: Mobile Equipment Identifier
 *[MFA]: Multi-Factor Authentication
 *[NVMe]: Nonvolatile Memory Express
