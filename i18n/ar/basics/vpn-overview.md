@@ -83,19 +83,19 @@ Most VPN services are owned by the same [few companies](https://vpnpro.com/blog/
 
 [توصياتنا بشأن الشبكات الخاصة الافتراضية](../vpn.md ""){.md-button}
 
-## Modern VPN Alternatives
+## بدائل شبكات خاصة افتراضية حديثة
 
-Recently, some attempts have been made by various organizations to address some issues which centralized VPNs have. These technologies are relatively new, but worth keeping an eye on as the field develops.
+قامت العديد من المنظمات في الآونة الأخيرة بمحاولات لمعالجة بعض المشكلات التي تواجهها الشبكات الخاصة الافتراضية المركزية. تعتبر هذه التقنيات جديدة نسبياً، ولكنها تستحق المتابعة مع تطور المجال.
 
-### Multi-Party Relays
+### ترحيلات متعددة الأطراف
 
-Multi-Party Relays (MPRs) use multiple nodes owned by different parties, such that no individual party knows both who you are and what you're connecting to. This is the basic idea behind Tor, but now there are some paid services that try to emulate this model.
+تستخدم تقنية الترحيل متعددة الأطراف (MPRs) عُقَداً متعددة مملوكة لأطراف مختلفة، بحيث لا يعرف أي طرف مَنْ أنت وما الذي تتصل به. هذه هي الفكرة الأساسية وراء شبكة Tor، ولكن هناك الآن بعض الخِدْمَات المدفوعة التي تحاول محاكاة هذا النموذج.
 
-MPRs seek to solve a problem inherent to VPNs: the fact that you must trust them completely. They accomplish this goal by segmenting the responsibilities between two or more different companies.
+تسعى عُقد الترحيل هذه إلى حل مشكلة متأصلة في الشبكات الخاصة الافتراضية وهي حقيقة أنه يجب عليك الثقة بهذه الشبكات الافتراضية بشكل كامل. تحقق هذه الاعتمادات الهدف عبر تقسيم المسؤوليات بين شركتين مختلفتين أو أكثر.
 
-One example of a commercially available MPR is Apple's iCloud+ Private Relay, which routes your traffic through two servers:
+من الأمثلة على MPR المتوفرة تجارياً هو iCloud+ Private Relay من شركة أبل الذي يوجه حركة المرور الخاصة بك عبر خادمين:
 
-1. Firstly, a server operated by Apple.
+1. الأول هو خادم تديره شركة آبل.
 
     This server is able to see your device's IP when you connect to it, and has knowledge of your payment information and Apple ID tied to your iCloud subscription. However, it is unable to see what website you are connecting to.
 
