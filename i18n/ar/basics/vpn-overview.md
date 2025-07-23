@@ -59,29 +59,29 @@ Using a VPN in cases where you're using your [real-life or well-known identity](
 
 Unless your VPN provider hosts the encrypted DNS servers themselves, **probably not**. إن استخدام DoH/DOT (أو أي شكل آخر من أشكال نظام أسماء النطاقات المشفر) مع خوادم خارجية سيضيف ببساطة المزيد من الكيانات التي بحاجة أن تثق بها. لا يزال بإمكان مزود الشبكة الخاصة الافتراضية الخاص بك معرفة مواقع الويب التي تزورها بناءً على عناوين IP وطرق أخرى. بعد كل هذا، قد تكون هناك بعض المزايا لتمكين نظام أسماء النطاقات المشفر من أجل تمكين ميزات الأمان الأخرى في متصفحك، مثل: ECH. إن تقنيات المتصفح الداخلية التي تعتمد على نظام أسماء النطاقات المشفر جديدة نسبياً وغير منتشرة على نطاق واسع حتى الآن، لذا سواء إذا كانت ذات صلة بك على وجه الخصوص فهي مهمة سنتركها لك للبحث فيها بشكل مستقل.
 
-Another common reason encrypted DNS is recommended is that it prevents DNS spoofing. However, your browser should already be checking for [TLS certificates](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) with **HTTPS** and warn you about it. If you are not using **HTTPS**, then an adversary can still just modify anything other than your DNS queries and the end result will be little different.
+سبب شائع آخر لتوصية استخدام نظام أسماء نطاقات مشفر هو أنه يمنع انتحال النظام. However, your browser should already be checking for [TLS certificates](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) with **HTTPS** and warn you about it. If you are not using **HTTPS**, then an adversary can still just modify anything other than your DNS queries and the end result will be little different.
 
 ## Should I use Tor *and* a VPN?
 
-Maybe, Tor is not necessarily suitable for everybody in the first place. Consider your [threat model](threat-modeling.md), because if your adversary is not capable of extracting information from your VPN provider, using a VPN alone may provide enough protection.
+ربما شبكة Tor ليست مناسبة للجميع في المقام الأول. Consider your [threat model](threat-modeling.md), because if your adversary is not capable of extracting information from your VPN provider, using a VPN alone may provide enough protection.
 
 If you do use Tor then you are *probably* best off connecting to the Tor network via a commercial VPN provider. However, this is a complex subject which we've written more about on our [Tor overview](../advanced/tor-overview.md) page.
 
-## Should I access Tor through VPN providers that provide "Tor nodes"?
+## هل يجب عليّ الوصول إلى شبكة Tor بواسطة موفري شبكات خاصة افتراضية الذين يوفرون "عقد Tor"؟
 
-You should not use that feature: The primary advantage of using Tor is that you do not trust your VPN provider, which is negated when you use Tor nodes hosted by your VPN instead of connecting directly to Tor from your computer.
+لا يجب عليك استخدام هذه الميزة: الميزة الأساسية لاستخدام شبكة Tor هي أنك لا تثق بمزود الشبكة الخاصة الافتراضية الخاص بك، وهو ما ينفي عندما تستخدم عقد شبكة Tor المستضافة بواسطة هذه الشبكة الافتراضية بدلاً من الاتصال مباشرة بشبكة Tor من جهاز الكمبيوتر الخاص بك.
 
-Currently, Tor only supports the TCP protocol. UDP (used by [WebRTC](https://en.wikipedia.org/wiki/WebRTC), [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3), and other protocols), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol), and other packets will be dropped. To compensate for this, VPN providers typically will route all non-TCP packets through their VPN server (your first hop). This is the case with [ProtonVPN](https://protonvpn.com/support/tor-vpn). Additionally, when using this Tor over VPN setup, you do not have control over other important Tor features such as [Isolated Destination Address](https://whonix.org/wiki/Stream_Isolation) (using a different Tor circuit for every domain you visit).
+تدعم شبكة Tor حالياً فقط TCP. UDP (used by [WebRTC](https://en.wikipedia.org/wiki/WebRTC), [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3), and other protocols), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol), and other packets will be dropped. يقوم مزودو الشبكة الخاصة الافتراضية عادةً للتعويض عن ذلك بتوجيه جميع الحزم غير التابعة لـ TCP عبر خادم شبكتهم الخاصة الافتراضية (قفزتك الأولى). This is the case with [ProtonVPN](https://protonvpn.com/support/tor-vpn). Additionally, when using this Tor over VPN setup, you do not have control over other important Tor features such as [Isolated Destination Address](https://whonix.org/wiki/Stream_Isolation) (using a different Tor circuit for every domain you visit).
 
 The feature should be viewed as a *convenient* way to access hidden services on Tor, not to stay anonymous. For proper anonymity, use the actual [Tor Browser](../tor.md).
 
-## Commercial VPN Ownership
+## ملكية الشبكة الخاصة الافتراضية التجارية
 
-Most VPN services are owned by the same [few companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies). These shady companies run lots of smaller VPN services to create the illusion that you have more choice than you actually do and to maximize profit. Typically, these providers that feed into their shell company have terrible privacy policies and shouldn't be trusted with your internet traffic. You should be very strict about which provider you decide to use.
+Most VPN services are owned by the same [few companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies). تدير هذه الشركات المشبوهة الكثير من خِدْمَات الشبكات الخاصة الافتراضية الأصغر حجماً لخلق الوهم بأن لديك خيارات أكثر مما لديك فعلاً ولتعظيم الربح. عادةً، يكون لدى هؤلاء المزودين الذين يغذّون شركتهم الوهمية سياسات خصوصية سيئة للغاية ولا ينبغي الوثوق بهم فيما يتعلق بحركة المرور على الإنترنت الخاصة بك. يجب أن تكون صارماً للغاية بشأن مقدم الخدمة الذي تقرر استخدامه.
 
-You should also be wary that many VPN review sites are merely advertising vehicles open to the highest bidder. ==Privacy Guides does not make money from recommending external products, and never uses affiliate programs.==
+يجب عليك أيضاً أن تكون حذراً من أن العديد من مواقع مراجعة الشبكات الخاصة الافتراضية هي مجرد حملات إعلانية لأعلى المستويات. ==Privacy Guides does not make money from recommending external products, and never uses affiliate programs.==
 
-[Our VPN Recommendations](../vpn.md ""){.md-button}
+[توصياتنا بشأن الشبكات الخاصة الافتراضية](../vpn.md ""){.md-button}
 
 ## Modern VPN Alternatives
 
