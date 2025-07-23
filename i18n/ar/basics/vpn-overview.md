@@ -97,13 +97,13 @@ Most VPN services are owned by the same [few companies](https://vpnpro.com/blog/
 
 1. الأول هو خادم تديره شركة آبل.
 
-    This server is able to see your device's IP when you connect to it, and has knowledge of your payment information and Apple ID tied to your iCloud subscription. However, it is unable to see what website you are connecting to.
+    يتمكن هذا الخادم من رؤية عنوان IP الخاص بجهازك عند الاتصال به، ولديه معرفة بمعلومات الدفع الخاصة بك ومُعرّف أبل المرتبط باشتراكك في iCloud. ومع ذلك، فهو غير قادر على رؤية الموقع الذي تتصل به.
 
-2. Secondly, a server operated by a partner CDN, such as Cloudflare or Fastly.
+2. أما الخادم الثاني يتم تشغيله بواسطة شبكة توصيل المحتوى CDN شريكة، مثل Cloudflare أو Fastly.
 
-    This server actually makes the connection to your destination website, but has no knowledge of your device. The only IP address it knows about is Apple's server's.
+    يقوم هذا الخادم في الواقع بإجراء الاتصال بموقع الويب الخاص بك، ولكنه لا يملك أي معرفة بجهازك. عنوان IP الوحيد الذي يعرفه هو عنوان خادم أبل.
 
-Other MPRs run by different companies operate in a very similar manner. This protection by segmentation only exists if you trust the two companies to not collude with each other to deanonymize you.
+تعمل العُقد الأخرى بواسطة شركات أخرى تديرها بطريقة مماثلة للغاية. لا تتحقق هذه الحماية عبر التجزئة إلا إذا كنت تثق في أن الشركتين لن تتواطآ مع بعضهما البعض في إخفاء هويتك.
 
 ### Decentralized VPNs
 
