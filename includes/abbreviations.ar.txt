@@ -101,11 +101,11 @@
 *[U2F]: Universal 2nd Factor
 *[UEFI]: Unified Extensible Firmware Interface
 *[UDP]: User Datagram Protocol
-*[VPN]: Virtual Private Network
+*[VPN]: شبكة افتراضية خاصة
 *[VLAN]: الشبكة المحلية الافتراضية
 *[VoIP]: Voice over IP (Internet Protocol)
 *[W3C]: رابطة الشبكة العالمية
 *[XMPP]: Extensible Messaging and Presence Protocol
-*[PWA]: Progressive Web App
+*[PWA]: تطبيق ويب تقدمي
 *[PWAs]: تطبيقات الويب التقدمية
 *[WKD]: Web Key Directory

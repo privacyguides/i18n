@@ -22,7 +22,7 @@ description: تعمل الشبكات الخاصة الافتراضية على ت
 
 ## كيف تعمل الشبكة الافتراضية الخاصة؟
 
-VPNs encrypt your traffic between your device and a server owned by your VPN provider. From the perspective of anyone between you and the VPN server, it looks like you're connecting to the VPN server. From the perspective of anyone between the VPN server and your destination site, all they can see is the VPN server connecting to the website.
+تقوم الشبكات الخاصة الافتراضية بتشفير حركة المرور بين جهازك وخادم مملوك من قِبَل مزودي هذه الشبكات لك. من وجهة نظر أي شخص يكون بينك وبين خادم الشبكات الخاصة الافتراضية، فإنه يبدو له الأمر كما لو كنت متصلاً بخادم هذه الشبكات. من وجهة نظر أي شخص يكون بين خادم الشبكات الخاصة الافتراضية والموقع النهائي، كُل ما يمكن رؤيته هو خادم هذه الشبكات متصلاً بموقع الويب.
 
 ``` mermaid
 flowchart LR
@@ -32,28 +32,28 @@ flowchart LR
  end
 ```
 
-Note that a VPN does not add any security or encryption to your traffic between the VPN server and your destination on the internet. To access a website securely you **must** still ensure HTTPS is in use regardless of whether you use a VPN.
+لاحظ أن الشبكات الخاصة الافتراضية لا تضيف أي أمان أو تشفير إلى حركة المرور بين خادم هذه الشبكات والموقع النهائي على الإنترنت. To access a website securely you **must** still ensure HTTPS is in use regardless of whether you use a VPN.
 
-## Should I use a VPN?
+## هل يجب عليَّ استخدام شبكة خاصة افتراضية؟
 
-**Yes**, almost certainly. A VPN has many advantages, including:
+**Yes**, almost certainly. تتمتع الشبكة الخاصة الافتراضية بالعديد من المزايا، بما في ذلك:
 
 1. Hiding your traffic from **only** your Internet Service Provider.
-1. Hiding your downloads (such as torrents) from your ISP and anti-piracy organizations.
-1. Hiding your IP from third-party websites and services, helping you blend in and preventing IP based tracking.
-1. Allowing you to bypass geo-restrictions on certain content.
+1. إخفاء التنزيلات الخاصة بك (مثل التورنت) عن مزود خدمة الإنترنت والمنظمات المناهضة للقرصنة.
+1. يساعدك إخفاء عنوان IP الخاص بك عن مواقع الويب والخدمات التابعة لجهات خارجية على التخفي ومنع التتبع القائم على عنوان IP.
+1. يتيح لك تجاوز القيود الجغرافية على محتوى معين.
 
 VPNs can provide *some* of the same benefits Tor provides, such as hiding your IP from the websites you visit and geographically shifting your network traffic, and good VPN providers will not cooperate with e.g. legal authorities from oppressive regimes, especially if you choose a VPN provider outside your own jurisdiction.
 
-VPNs cannot encrypt data outside the connection between your device and the VPN server. VPN providers can also see and modify your traffic the same way your ISP could, so there is still a level of trust you are placing in them. And there is no way to verify a VPN provider's "no logging" policies in any way.
+لا يمكن للشبكات الخاصة الافتراضية تشفير البيانات خارج الاتصال بين جهازك وخادم هذه الشبكات. يمكن لمزودي الشبكات الخاصة الافتراضية أيضاً رؤية حركة المرور الخاصة بك وتعديلها بنفس الطريقة التي يمكن أن يقوم بها مزود خدمة الإنترنت الخاص، لذلك لا يزال هناك مستوى من الثقة التي تضعها فيهم. ولا توجد طريقة بأي شَكلٍ من الأشكال للتحقق من سياسات "تسجيل البيانات" أو "التعقب" الخاصة مزود الشبكة الخاصة الافتراضية.
 
-## When isn't a VPN suitable?
+## متى لا تكون الشبكات الخاصة الافتراضية مناسبة؟
 
-Using a VPN in cases where you're using your [real-life or well-known identity](common-misconceptions.md#complicated-is-better) online is unlikely to be useful. Doing so may trigger spam and fraud detection systems, such as if you were to log into your bank's website.
+Using a VPN in cases where you're using your [real-life or well-known identity](common-misconceptions.md#complicated-is-better) online is unlikely to be useful. قد يؤدي القيام بذلك إلى تشغيل أنظمة اكتشاف البريد العشوائي والاحتيال، مثلما إذا كنت ستسجل الدخول إلى موقع الويب الخاص بالبنك الذي تتعامل معه.
 
-It's important to remember that a VPN will not provide you with absolute anonymity because the VPN provider itself will still have access to your real IP address, destination website information, and often a money trail that can be linked directly back to you. "No logging" policies are merely a promise; if you need complete safety from the network itself, consider using [Tor](../advanced/tor-overview.md) in addition to or instead of a VPN.
+من المهم أن تتذكر أن الشبكات الخاصة الافتراضية لن توفر لك إخفاء هُوِيَّة مطلق لأن مزود هذه الشبكات نفسه سيظل لديه إمكانية الوصول إلى عنوان IP الحقيقي الخاص بك، ومعلومات الموقع النهائي، وغالباً أيضاً إلى مساراً مالياً يمكن ربطه بك مباشرةً. "No logging" policies are merely a promise; if you need complete safety from the network itself, consider using [Tor](../advanced/tor-overview.md) in addition to or instead of a VPN.
 
-You also should not trust a VPN to secure your connection to an unencrypted, HTTP destination. In order to keep what you actually do on the websites you visit private and secure, you must use HTTPS. This will keep your passwords, session tokens, and queries safe from the VPN provider and other potential adversaries in between the VPN server and your destination. You should enable HTTPS-only mode in your browser (if it's supported) to mitigate attacks which try to downgrade your connection from HTTPS to HTTP.
+يجب أيضاً ألّا تثق في الشبكة الخاصة الافتراضية لتأمين اتصالك بوجهة HTTP غير مشفرة. In order to keep what you actually do on the websites you visit private and secure, you must use HTTPS. This will keep your passwords, session tokens, and queries safe from the VPN provider and other potential adversaries in between the VPN server and your destination. You should enable HTTPS-only mode in your browser (if it's supported) to mitigate attacks which try to downgrade your connection from HTTPS to HTTP.
 
 ## Should I use encrypted DNS with a VPN?
 
