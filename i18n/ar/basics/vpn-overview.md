@@ -1,26 +1,26 @@
 ---
-meta_title: "How Do VPNs Protect Your Privacy? Our VPN Overview - Privacy Guides"
-title: VPN Overview
+meta_title: "كيف تحمي الشبكات الافتراضية الخاصة خصوصيتك؟ مراجعتنا حول الشبكة الافتراضية الخاصة - دليل الخصوصية"
+title: مراجعة حول الشبكة الافتراضية الخاصة
 icon: material/vpn
-description: Virtual Private Networks shift risk away from your ISP to a third-party you trust. You should keep these things in mind.
+description: تعمل الشبكات الخاصة الافتراضية على تحويل المخاطر بعيدًا عن مزود خدمة الإنترنت الخاص بك إلى جهة خارجية تثق بها. ينبغي لك أن تبقي هذه الأمور في ذهنك.
 ---
 
-Virtual Private Networks are a way of extending the end of your network to exit somewhere else in the world.
+الشبكات الخاصة الافتراضية هي طريقة لتوسيع نهاية شبكتك للخروج في مكان آخر في العالم.
 
 [:material-movie-open-play-outline: Video: Do you need a VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
 
-Normally, an ISP can see the flow of internet traffic entering and exiting your network termination device (i.e. modem). Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
+في العادة، يستطيع مزود خدمة الإنترنت رؤية تدفق حركة الإنترنت الداخلة والخارجة من جهاز إنهاء الشبكة (أي المودم). Encryption protocols such as HTTPS are commonly used on the internet, so they may not be able to see exactly what you're posting or reading, but they can get an idea of the [domains you request](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
-Using a VPN hides even this information from your ISP, by shifting the trust you place in your network to a server somewhere else in the world. As a result, the ISP then only sees that you are connected to a VPN and nothing about the activity that you're passing through it.
+يؤدي استخدام الشبكة الخاصة الافتراضية إلى إخفاء هذه المعلومات عن مزود خدمة الإنترنت الخاص بك، وذلك عن طريق تحويل الثقة التي تضعها في شبكتك إلى خادم في مكان آخر من العالم. ونتيجة لذلك، يرى مزود خدمة الإنترنت فقط أنك متصل بشبكة خاصة افتراضية ولا يرى أي شيء عن النشاط الذي تقوم به عبرها.
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">ملاحظة</p>
 
-When we refer to "Virtual Private Networks" on this website, we are usually referring to **commercial** [VPN providers](../vpn.md), who you pay a monthly fee to in exchange for routing your internet traffic securely through their public servers. There are many other forms of VPN, such as ones you host yourself or ones operated by workplaces which allow you to securely connect to internal/employee network resources, however, these VPNs are usually designed for accessing remote networks securely, rather than protecting the privacy of your internet connection.
+عندما نشير إلى "الشبكات الخاصة الافتراضية" على هذا الموقع، فإننا نشير عادةً إلى المزودين **التجاريين** لخدمات الشبكة الافتراضية الخاصة (../vpn.md)، الذين تدفع لهم رسوماً شهرية مقابل توجيه حركة المرور على الإنترنت بشكل آمن عبر خوادمهم العامة. هناك العديد من الأشكال الأخرى للشبكات الخاصة الافتراضية، مثل تلك التي تستضيفها بنفسك أو تلك التي يتم تشغيلها بواسطة أماكن العمل والتي تسمح لك بالاتصال بشكل آمن بموارد الشبكة الداخلية/الخاصة بالموظفين، ومع ذلك، عادةً ما يتم تصميم الشبكات الخاصة الافتراضية هذه للوصول إلى الشبكات البعيدة بشكل آمن، بدلاً من حماية خصوصية اتصالك بالإنترنت.
 
 </div>
 
-## How does a VPN work?
+## كيف تعمل الشبكة الافتراضية الخاصة؟
 
 VPNs encrypt your traffic between your device and a server owned by your VPN provider. From the perspective of anyone between you and the VPN server, it looks like you're connecting to the VPN server. From the perspective of anyone between the VPN server and your destination site, all they can see is the VPN server connecting to the website.
 

@@ -2,7 +2,7 @@
 *[ADB]: Android Debug Bridge
 *[AOSP]: مشروع أندرويد مفتوح المصدر
 *[ATA]: Advanced Technology Attachment
-*[attack surface]: The total number of possible entry points for unauthorized access to a system
+*[attack surface]: العدد الإجمالي لنقاط الدخول المحتملة للوصول غير المصرح به إلى النظام
 *[AVB]: Android Verified Boot
 *[cgroups]: Control Groups
 *[CLI]: واجهة سطر الأوامر
@@ -10,13 +10,13 @@
 *[CVE]: Common Vulnerabilities and Exposures
 *[dark pattern]: A deceptive design pattern intended to trick a user into doing things
 *[digital legacy feature]: يشير الإرث الرقمي إلى الميزات التي تسمح لك بمنح أشخاص آخرين إمكانية الوصول إلى بياناتك عند وفاتك
-*[DNSSEC]: Domain Name System Security Extensions
+*[DNSSEC]: امتدادات أمن نظام أسماء النطاقات
 *[DNS]: نظام اسم النطاق
 *[DoH]: DNS over HTTPS
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
-*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
+*[DPI]: تعمل مِيزة فحص الحُزْمَة العميقة على تحديد الحُزْمَة التي تحتوي على حمولات محددة وحظرها
 *[E2EE]: التشفير من طرف إلى طرف/ مشفر
 *[ECS]: EDNS Client Subnet
 *[EEA]: المنطقة الاقتصادية الأوروبية
@@ -41,17 +41,17 @@
 *[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: قواعد الوصول إلى الرسائل عبر الإنترنت
 *[IMEI]: الهُوِيَّة الدولية للأجهزة المتنقلة
-*[IMSI]: International Mobile Subscriber Identity
+*[IMSI]: الهُوِيَّة الدولية لمشترك الجوال
 *[IP]: Internet Protocol
 *[IPv4]: Internet Protocol version 4
 *[IPv6]: قواعد الإنترنت الإصدار 6
-*[ISP]: Internet Service Provider
+*[ISP]: مزود خدمة الإنترنت
 *[ISPs]: مزودي خدمة الإنترنت
 *[JNI]: Java Native Interface
-*[KYC]: Know Your Customer
+*[KYC]: اعرف عميلك
 *[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
 *[LLMs]: نموذجات اللغة الكبيرة (نموذجات الذكاء الاصطناعي مثل شات جي بي تي)
-*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
+*[LUKS]: إعداد مفتاح لينكس الموحد (تشفير القرص بالكامل)
 *[MAC]: التحكم بالنفاذ للوسط
 *[MDAG]: حماية التطبيقات عبر جدار حماية مايكروسوفت
 *[MEID]: Mobile Equipment Identifier
@@ -59,53 +59,53 @@
 *[NVMe]: Nonvolatile Memory Express
 *[NAT]: Network address translation
 *[NAT-PMP]: NAT Port Mapping Protocol
-*[NTP]: Network Time Protocol
+*[NTP]: قواعد وقت الشبكة
 *[OCI]: Open Container Initiative
-*[OCSP]: Online Certificate Status Protocol
+*[OCSP]: قواعد حالة الشهادة عبر الإنترنت
 *[OEM]: Original Equipment Manufacturer
-*[OEMs]: Original Equipment Manufacturers
-*[open-weights]: An open weights-model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
-*[OS]: Operating System
-*[OTP]: One-Time Password
-*[OTPs]: One-Time Passwords
+*[OEMs]: الشركات المصنعة للمعدات الأصلية
+*[open-weights]: نموذج الأوزان المفتوح هو نموذج ذكاء اصطناعي يمكن لأي شخص تنزيله واستخدامه، ولكن بيانات التدريب الأساسية و/أو الخوارزميات الخاصة به هي اِحتِكارِيّ.
+*[OS]: نظام التشغيل
+*[OTP]: كلمة المرور لمرة واحدة
+*[OTPs]: كلمات مرور لمرة واحدة
 *[OpenPGP]: Open-source implementation of Pretty Good Privacy (PGP)
-*[P2P]: Peer-to-Peer
+*[P2P]: النظير للنظير
 *[PAM]: Linux Pluggable Authentication Modules
 *[POP3]: Post Office Protocol 3
-*[PGP]: Pretty Good Privacy (see OpenPGP)
+*[PGP]: خصوصية جيدة جداً (انظر إلى OpenPGP)
 *[PII]: Personally Identifiable Information
 *[QNAME]: Qualified Name
-*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
-*[rate limits]: Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time.
-*[rolling release]: Updates which are released frequently rather than set intervals
-*[RSS]: Really Simple Syndication
-*[SELinux]: Security-Enhanced Linux
-*[SIM]: Subscriber Identity Module
-*[SMS]: Short Message Service (standard text messaging)
-*[SMTP]: Simple Mail Transfer Protocol
+*[QUIC]: قواعد شبكة تعتمد على UDP، لكنا تهدف إلى الجمع بين سرعة UDP وموثوقية TCP.
+*[rate limits]: معدل الوصول هي القيود التي تفرضها الخدمة على عدد المرات التي يمكن للمستخدم الوصول فيها إلى خدماتها خلال مدّة زمنية محددة.
+*[rolling release]: التحديثات التي يتم إصدارها بشكل متكرر بدلاً من فترات زمنية محددة
+*[RSS]: تلقيم مبسط جداً
+*[SELinux]: لينكس المحسن أمنياً
+*[SIM]: وحدة تعريف المشترك
+*[SMS]: خدمة الرسائل القصيرة (الرسائل النصية القياسية)
+*[SMTP]: قواعد نقل البريد البسيط
 *[SNI]: Server Name Indication
-*[SSD]: Solid-State Drive
-*[SSH]: Secure Shell
+*[SSD]: محرك الأقراص ذو الحالة الصلبة
+*[SSH]: قواعد النقل الآمن
 *[SUID]: Set Owner User ID
-*[SaaS]: Software as a Service (cloud software)
+*[SaaS]: البرمجيات كخدمة (برمجيات سحابية)
 *[SoC]: System on Chip
-*[SSO]: Single sign-on
-*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
-*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
+*[SSO]: تسجيل الدخول الأحادي
+*[system prompt]: إن موجه نظام الدردشة بالذكاء الاصطناعي هو التعليمات العامة التي يقدمها الإنسان لتوجيهه حول كيفية تشغيله.
+*[temperature]: درجة حرارة الذكاء الاصطناعي هي مُعامل يُستخدم في نموذجات الذكاء الاصطناعي للتحكم في مستوى العشوائية والإبداع في النص الناتج.
 *[TCP]: Transmission Control Protocol
 *[TEE]: Trusted Execution Environment
 *[TLS]: Transport Layer Security
 *[ToS]: Terms of Service
-*[TOTP]: Time-based One-Time Password
-*[TPM]: Trusted Platform Module
+*[TOTP]: كلمة المرور الصالحة لمرة واحدة المستندة إلى الوقت
+*[TPM]: الوحدة النمطية للنظام الأساسي الموثوق به
 *[U2F]: Universal 2nd Factor
 *[UEFI]: Unified Extensible Firmware Interface
 *[UDP]: User Datagram Protocol
 *[VPN]: Virtual Private Network
-*[VLAN]: Virtual Local Area Network
+*[VLAN]: الشبكة المحلية الافتراضية
 *[VoIP]: Voice over IP (Internet Protocol)
-*[W3C]: World Wide Web Consortium
+*[W3C]: رابطة الشبكة العالمية
 *[XMPP]: Extensible Messaging and Presence Protocol
 *[PWA]: Progressive Web App
-*[PWAs]: Progressive Web Apps
+*[PWAs]: تطبيقات الويب التقدمية
 *[WKD]: Web Key Directory
