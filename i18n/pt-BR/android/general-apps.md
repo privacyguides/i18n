@@ -1,11 +1,11 @@
 ---
-title: Aplicativos Gerais
+title: "Aplicativos Gerais"
 description: Os aplicativos listados aqui são exclusivos do Android e melhoram ou substituem as principais funcionalidades do sistema.
 schema:
   - "@context": http://schema.org
     "@type": WebPage
     name: Aplicativos gerais para Android
-    url: ./
+    url: "./"
   - "@context": http://schema.org
     "@type": MobileApplication
     name: Shelter

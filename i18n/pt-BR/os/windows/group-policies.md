@@ -132,4 +132,4 @@ This last setting disables OneDrive on your system; make sure to change it to **
 
 - Do not send additional data: **Enabled**
 - Consent > Configure Default consent: **Enabled**
-    - Consent level: **Always ask before sending data**
+    - Nível de consentimento: **Sempre pergunte antes de enviar dados**

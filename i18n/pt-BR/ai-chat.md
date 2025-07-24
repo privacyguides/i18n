@@ -1,6 +1,6 @@
 ---
 meta_title: "Agentes de IA recomendados: Alternativas ao ChatGPT que protegem sua privacidade - Guia de Privacidade"
-title: Agente de IA
+title: "Agente de IA"
 icon: material/assistant
 description: Diferente do ChatGPT da empresa OpenAI e seus concorrentes, as ferramentas aqui sugeridas são executadas localmente com a finalidade de não fornecer ou dificultar a coleta de dados em seu Desktop
 cover: ai-chatbots.webp
