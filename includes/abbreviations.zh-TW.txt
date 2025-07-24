@@ -86,12 +86,12 @@
 *[SNI]: 伺服器名稱指示
 *[SSD]: 固態硬碟
 *[SSH]: 安全殼層
-*[SUID]: Set Owner User ID
+*[SUID]: 設定擁有者使用者 ID
 *[SaaS]: 軟體即服務 (雲端軟體)
 *[SoC]: 系統晶片
-*[SSO]: Single sign-on
-*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
-*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
+*[SSO]: 單一登入
+*[system prompt]: 系統級提示詞 (system prompt)，是 AI 聊天中人類給予的全局指示，用以指導它應該如何運作。
+*[temperature]: AI 溫度是 AI 模型中使用的參數，用來控制產生文字的隨機性和創意程度。
 *[TCP]: 傳輸控制通訊協定
 *[TEE]: 受信任執行環境
 *[TLS]: 傳輸層安全性
