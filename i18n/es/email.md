@@ -260,7 +260,7 @@ Tuta ofrece una versión empresarial para [organizaciones sin fines de lucro](ht
 
 ### Tecnología
 
-Consideramos que estas características son importantes para ofrecer un servicio seguro y óptimo. You should consider whether the provider has the features you require.
+Consideramos que estas características son importantes para ofrecer un servicio seguro y óptimo. Deberías considerar si el proveedor tiene las características que necesitas.
 
 **Mínimo para calificar:**
 

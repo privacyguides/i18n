@@ -18,7 +18,7 @@ Si está buscando una solución específica para algo, estas son las herramienta
 [Extensiones de Navegador](browser-extensions.md){ .md-button }
 [Servidores DNS](dns.md){ .md-button }
 [Servicios de Alias de Correo Electrónico](email-aliasing.md){ .md-button }
-[Herramientas de Organización de Fotografías](photo-management.md){ .md-button }
+[Herramientas de Gestión de Fotografías](photo-management.md){ .md-button }
 </div>
 
 </div>

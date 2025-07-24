@@ -20,7 +20,7 @@ La mayoría de las soluciones de **gestión de fotografías en la nube**, como G
 
 **Ente Photos** es un servicio de copia de seguridad cifrada de fotos de extremo a extremo que admite copias de seguridad automáticas en iOS y Android. Su código está totalmente abierto, tanto en el lado del cliente como en el del servidor. También es [autoalojable](https://github.com/ente-io/ente/tree/main/server#self-hosting).
 
-The free plan offers 10 GB of storage as long as you use the service at least once a year.
+El plan gratuito ofrece 10 GB de almacenamiento siempre que utilices el servicio al menos una vez al año.
 
 [:octicons-home-16: Página Principal](https://ente.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Política de Privacidad" }
@@ -43,7 +43,7 @@ The free plan offers 10 GB of storage as long as you use the service at least o
 
 </div>
 
-Ente Photos underwent an audit by [Cure53](https://ente.io/blog/cryptography-audit) in March 2023 and by [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) in April 2023.
+Ente Photos se sometió a una auditoría por parte de [Cure53](https://ente.io/blog/cryptography-audit) en marzo de 2023 y por parte de [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) en abril de 2023.
 
 ## PhotoPrism
 
