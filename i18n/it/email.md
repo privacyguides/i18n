@@ -133,9 +133,9 @@ Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimite
 
 Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
-[:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Documentation" }
+[:octicons-home-16: Pagina Principale](https://mailbox.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Documentazione" }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
