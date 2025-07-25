@@ -111,22 +111,22 @@ Le funzionalità di Shields possono essere ridotte per ogni sito se necessario; 
     - [x] Seleziona **URL di tracciamento di reindirizzamento automatico**
     - [x] Seleziona **Richiedi a tutte le connessioni di utilizzare HTTPS (rigido)** in *Aggiorna le connessioni a HTTPS*
     - \[x\] (Opzionale) Seleziona **Blocca gli Script** (1)
-    - [x] Select **Block third-party cookies** under *Block Cookies*
-    - [x] Select **Block Fingerprinting**
-    - [x] Select **Prevent fingerprinting via language settings**
+    - [x] Seleziona **Blocca cookie di terze parti** in *Blocca i cookie*
+    - [x] Seleziona **Blocca le impronte digitali**
+    - [x] Seleziona **Impedisci il fingerprinting tramite le impostazioni della lingua**
 
     <details class="warning" markdown>
-    <summary>Use default filter lists</summary>
+    <summary>Usa gli elenchi di filtri predefiniti</summary>
 
-    Brave allows you to select additional content filters within the **Content Filtering** menu or the internal `brave://adblock` page. Sconsigliamo di utilizzare questa funzionalità; piuttosto, mantieni gli elenchi di filtri predefiniti. Utilizzare ulteriori elenchi ti distinguerà dagli altri utenti di Brave e potrebbe inoltre incrementare la superficie di attacco, se è presente un exploit su Brave e una regola dannosa viene aggiunta a uno degli elenchi che utilizzi.
+    Brave ti consente di selezionare ulteriori filtri per i contenuti all'interno del menu **Applicazione di filtri ai contenuti** o della pagina `brave://adblock`. Sconsigliamo di utilizzare questa funzionalità; piuttosto, mantieni gli elenchi di filtri predefiniti. Utilizzare ulteriori elenchi ti distinguerà dagli altri utenti di Brave e potrebbe inoltre incrementare la superficie di attacco, se è presente un exploit su Brave e una regola dannosa viene aggiunta a uno degli elenchi che utilizzi.
 
     </details>
 
-    - [x] Select **Forget me when I close this site**
+    - [x] Seleziona **Dimenticami quando chiudo questo sito**
 
     </div>
 
-    1. Questa opzione disabilita JavaScript, il che porterà al malfunzionamento di molti siti. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Questa opzione disabilita JavaScript, il che porterà al malfunzionamento di molti siti. Per far funzionare normalmente un sito, puoi impostare le eccezioni per ogni sito toccando l'icona dello scudo nella barra degli indirizzi e deselezionando l'impostazione in *Controlli avanzati*.
 
 === "iOS"
 
@@ -137,11 +137,11 @@ Le funzionalità di Shields possono essere ridotte per ogni sito se necessario; 
     - [x] Select **Auto-Redirect AMP pages**
     - [x] Select **Auto-Redirect Tracking URLs**
     - \[x\] (Opzionale) Seleziona **Blocca gli Script** (1)
-    - [x] Select **Block Fingerprinting**
+    - [x] Seleziona **Blocca le impronte digitali**
     - [x] Select **Site Tabs Closed** under *Auto Shred*
 
     <details class="warning" markdown>
-    <summary>Use default filter lists</summary>
+    <summary>Usa gli elenchi di filtri predefiniti</summary>
 
     Brave allows you to select additional content filters within the **Content Filtering** menu. Sconsigliamo di utilizzare questa funzionalità; piuttosto, mantieni gli elenchi di filtri predefiniti. Utilizzare ulteriori elenchi ti distinguerà dagli altri utenti di Brave e potrebbe inoltre incrementare la superficie di attacco, se è presente un exploit su Brave e una regola dannosa viene aggiunta a uno degli elenchi che utilizzi.
 
@@ -149,7 +149,7 @@ Le funzionalità di Shields possono essere ridotte per ogni sito se necessario; 
 
     </div>
 
-    1. Questa opzione disabilita JavaScript, il che porterà al malfunzionamento di molti siti. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Questa opzione disabilita JavaScript, il che porterà al malfunzionamento di molti siti. Per far funzionare normalmente un sito, puoi impostare le eccezioni per ogni sito toccando l'icona dello scudo nella barra degli indirizzi e deselezionando l'impostazione in *Controlli avanzati*.
 
 ##### Clear browsing data (Android only)
 
@@ -159,17 +159,17 @@ Le funzionalità di Shields possono essere ridotte per ogni sito se necessario; 
 
 - [ ] Rimuovi la spunta da tutti i componenti social
 
-#### Other privacy settings
+#### Altre impostazioni sulla privacy
 
 === "Android"
 
     <div class="annotate" markdown>
 
-    - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-    - \[x\] (Optional) Select **No protection** under *Safe Browsing* (1)
-    - [ ] Uncheck **Allow sites to check if you have payment methods saved**
-    - [ ] Uncheck **V8 Optimizer** under *Manage V8 security*
-    - [x] Select **Close tabs on exit**
+    - [x] Seleziona **Disabilita UDP senza proxy** in [*Gestione politica IP WebRTC*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+    - \[x\] (Opzionale) Seleziona **Nessuna protezione** in *Navigazione sicura* (1)
+    - [ ] Rimuovi la spunta da **Consenti ai siti di controllare se hai metodi di pagamento salvati**
+    - [ ] Rimuovi la spunta da **Sicurezza e ottimizzazione di JavaScript** in *Sicurezza e ottimizzazione di JavaScript*
+    - [x] Seleziona **Chiudi le schede quando esci**
     - [ ] Deseleziona **Acconsenti all'analisi dei prodotti di tutela della privacy (P3A)**
     - [ ] Deseleziona **Inviare automaticamente i rapporti di diagnostica**
     - [ ] Deseleziona **Invia automaticamente un ping di utilizzo giornaliero a Brave**
@@ -195,9 +195,9 @@ These options can be found in :material-menu: → **Settings** → **Leo**.
 
 1. This option is not present in Brave's iOS app.
 
-#### Search engines
+#### Motori di ricerca
 
-These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
+Queste opzioni si trovano in :material-menu:/:fontawesome-solid-ellipsis: → **Impostazioni** → **Motori di ricerca**.
 
 - [ ] Disabilita **Visualizza suggerimenti di ricerca**
 
@@ -209,9 +209,9 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 
 <div class="admonition recommendation" markdown>
 
-![Cromite logo](assets/img/browsers/cromite.svg){ align=right }
+![Logo di Cromite](assets/img/browsers/cromite.svg){ align=right }
 
-**Cromite** is a Chromium-based browser with built-in ad blocking, fingerprinting protections, and other [privacy and security enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the discontinued **Bromite** browser.
+**Cromite** è un browser basato su Chromium con blocco degli annunci pubblicitari integrato, protezione delle impronte digitali e altri [miglioramenti della privacy e della sicurezza](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the discontinued **Bromite** browser.
 
 [:octicons-home-16: Homepage](https://cromite.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
@@ -219,7 +219,7 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 [:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Download</summary>
 
 - [:simple-android: F-Droid](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
 - [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
