@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Respecting Web Browsers for Android and iOS - Privacy Guides"
+meta_title: "Browser web che rispettano la privacy per Android e iOS- Privacy Guides"
 title: "Browser mobile"
 icon: material/cellphone-information
 description: Questi sono i browser consigliati al momento per la navigazione standard/non anonima sul tuo telefono.
@@ -42,7 +42,7 @@ schema:
     name: Safari
     image: /assets/img/browsers/safari.svg
     url: https://www.apple.com/it/safari/
-    applicationCategory: Web Browser
+    applicationCategory: Browser Web
     operatingSystem:
       - iOS
     subjectOf:
@@ -50,11 +50,11 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protegge dalle seguenti minacce:</small>
 
 - [:material-account-cash: Capitalismo di sorveglianza](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. Se hai bisogno di navigare in Internet in modo anonimo, dovresti invece usare [Tor](tor.md).
+Questi sono al momento i **browser mobile** e le configurazioni da noi consigliati per la navigazione standard/non anonima in rete. Se hai bisogno di navigare in Internet in modo anonimo, dovresti invece usare [Tor](tor.md).
 
 ## Brave
 
@@ -73,7 +73,7 @@ Brave si basa sul progetto del browser web di Chromium, quindi, dovrebbe sembrar
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Codice sorgente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Download</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1052879175)
@@ -90,7 +90,7 @@ Il Tor Browser è l'unico che veramente permette di navigare Internet anonimamen
 
 === "Android"
 
-    These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**.
+    Queste opzioni si trovano in :material-menu: → **Impostazioni** → **Protezioni Brave e privacy**.
 
 === "iOS"
 
@@ -106,11 +106,11 @@ Le funzionalità di Shields possono essere ridotte per ogni sito se necessario; 
 
     <div class="annotate" markdown>
 
-    - [x] Select **Aggressive** under *Block trackers & ads*
-    - [x] Select **Auto-redirect AMP pages**
-    - [x] Select **Auto-redirect tracking URLs**
-    - [x] Select **Require all connections to use HTTPS (strict)** under *Upgrade connections to HTTPS*
-    - \[x\] (Optional) Select **Block Scripts** (1)
+    - [x] Seleziona **aggressivo** in *Blocca tracker e annunci*
+    - [x] Seleziona **Reindirizzamento automatico pagine AMP**
+    - [x] Seleziona **URL di tracciamento di reindirizzamento automatico**
+    - [x] Seleziona **Richiedi a tutte le connessioni di utilizzare HTTPS (rigido)** in *Aggiorna le connessioni a HTTPS*
+    - \[x\] (Opzionale) Seleziona **Blocca gli Script** (1)
     - [x] Select **Block third-party cookies** under *Block Cookies*
     - [x] Select **Block Fingerprinting**
     - [x] Select **Prevent fingerprinting via language settings**
@@ -136,7 +136,7 @@ Le funzionalità di Shields possono essere ridotte per ogni sito se necessario; 
     - [x] Select **Strict** under *Upgrade Connections to HTTPS*
     - [x] Select **Auto-Redirect AMP pages**
     - [x] Select **Auto-Redirect Tracking URLs**
-    - \[x\] (Optional) Select **Block Scripts** (1)
+    - \[x\] (Opzionale) Seleziona **Blocca gli Script** (1)
     - [x] Select **Block Fingerprinting**
     - [x] Select **Site Tabs Closed** under *Auto Shred*
 
