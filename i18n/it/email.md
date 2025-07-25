@@ -60,7 +60,7 @@ OpenPGP also does not support forward secrecy, which means if the private key of
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** è un servizio di posta elettronica incentrato su privacy, crittografia, sicurezza e facilità d'uso. They have been in operation since 2013. Proton AG ha sede a Ginevra, in Svizzera.
+**Proton Mail** è un servizio di posta elettronica incentrato su privacy, crittografia, sicurezza e facilità d'uso. Sono operativi dal 2013. Proton AG ha sede a Ginevra, in Svizzera.
 
 Il piano Proton Free viene fornito con 500 MB di spazio di archiviazione per l'email, che può essere aumentato gratuitamente fino a 1 GB.
 
@@ -101,7 +101,7 @@ Proton Mail [accetta](https://proton.me/support/payment-options) **contanti** pe
 
 #### :material-check:{ .pg-green } Sicurezza dell'account
 
-Proton Mail supporta [l'autenticazione a due fattori](https://proton.me/support/two-factor-authentication-2fa) TOTP e le [chiavi di sicurezza hardware](https://proton.me/support/2fa-security-key) utilizzando gli standard FIDO2 o U2F. The use of a hardware security key requires setting up TOTP two-factor authentication first.
+Proton Mail supporta [l'autenticazione a due fattori](https://proton.me/support/two-factor-authentication-2fa) TOTP e le [chiavi di sicurezza hardware](https://proton.me/support/2fa-security-key) utilizzando gli standard FIDO2 o U2F. Per poter utilizzare una chiave di sicurezza hardware bisogna prima attivare l'autenticazione a due fattori tramite TOTP.
 
 #### :material-check:{ .pg-green } Sicurezza dei dati
 
