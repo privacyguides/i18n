@@ -46,7 +46,7 @@ schema:
 
 Stejně jako právo na manželství stejnopohlavních párů, volební právo žen, svoboda slova a spoustu dalších, naše právo na soukromí nebylo vždy uznávané. Ve spoustě diktaturách není doteď. Generace před námi bojovaly za právo mít vlastní soukromí. ==Soukromí je lidské právo, vlastní každému z nás,== které nám náleží (bez diskriminace).
 
-Neměli byste si ale plést soukromí s utajováním. Všichni víme, co se děje na záchodě, ale i tak chcete mít zavřené dveře. That's because you want privacy, not secrecy. **Každý** má něco, co chce chránit. Soukromí je něco, co nás dělá lidmi.
+Neměli byste si ale plést soukromí s utajováním. Všichni víme, co se děje na záchodě, ale i tak chcete mít zavřené dveře. Ne proto, že potřebujete něco tajit, ale protože chcete soukromí. **Každý** má něco, co chce chránit. Soukromí je něco, co nás dělá lidmi.
 
 [:material-book-outline: Proč na soukromí záleží](basics/why-privacy-matters.md){ class="md-button" }
 </div>

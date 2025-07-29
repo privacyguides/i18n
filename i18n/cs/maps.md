@@ -67,11 +67,11 @@ Please note that Organic Maps is a simple, basic app that lacks certain features
 <div class="admonition warning" markdown>
 <p class="admonition-title">Unique User Identifier</p>
 
-OsmAnd generates a [unique user identifier (UUID)](https://osmand.net/docs/legal/terms-of-use/#6-unique-user-indentifier) for each app install that rotates every three months and is used for internal reports and statistics. The UUID is also sent to OsmAnd's servers when downloading maps. On Android, there is a setting that controls whether the UUID is sent with each download request. From the home screen, go to :material-menu: → :gear: **Settings** → :gear: **OsmAnd settings** → :material-web: **Identifiers**.
+OsmAnd generates a [unique user identifier (UUID)](https://osmand.net/docs/legal/terms-of-use/#6-unique-user-indentifier) for each app install that rotates every three months and is used for internal reports and statistics. The UUID is also sent to OsmAnd's servers when downloading maps. On Android, there is a setting that controls whether the UUID is sent with each download request. Na hlavní obrazovce klikněte na :material-menu: → :gear: **Nastavení** → :gear: **Nastavení OsmAnd** → :material-web: **Identifikátory**.
 
-- [ ] Uncheck **Send Unique User Identifier (UUID)**
+- [ ] Odznačte **Odeslání jedinečného identifikátoru uživatele (UUID)**
 
-This setting is not available on the iOS app.
+Tato možnost není v iOS aplikaci k dispozici.
 
 </div>
 

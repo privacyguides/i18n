@@ -1,37 +1,37 @@
 ---
-meta_title: "Threat Modeling: The First Step on Your Privacy Journey - Privacy Guides"
-title: "Threat Modeling"
+meta_title: "Threat modeling: První krok na vaší cestě za soukromím - Privacy Guides"
+title: "Threat modeling"
 icon: 'material/target-account'
-description: Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey.
+description: Vyvážení bezpečnosti, soukromí a použitelnosti je jedna z prvních a nejobtížnějších úloh, kterým musíte čelit v průběhu vaší cesty.
 ---
 
-Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey. Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, etc. Often, people find that the problem with the tools they see recommended is that they're just too hard to start using!
+Vyvážení bezpečnosti, soukromí a použitelnosti je jedna z prvních a nejobtížnějších úloh, kterým musíte čelit v průběhu vaší cesty. Všechno je o kompromisu: V zásadě platí, že čím bezpečnější něco je, tím více je to restriktivní a nepohodlné. Často lidé zjišťují, že nástroje, které jim jsou doporučené, jsou až příliš těžké na to, aby je začali používat.
 
-If you wanted to use the **most** secure tools available, you'd have to sacrifice *a lot* of usability. And, even then, ==nothing is ever fully secure.== There's **high** security, but never **full** security. That's why threat models are important.
+Pokud chcete ten **nejbezpečnější** nástroj, který existuje, musíte obětovat *spoustu* užitečnosti. A i tak, ==nic není 100% bezpečné navždy.== Je možné dosáhnout **vysoké** bezpečnosti, ale ne **úplné** bezpečnosti. Proto jsou threat modely důležité.
 
-**So, what are these threat models, anyway?**
+**Ale, co to vůbec threat modely jsou?**
 
-==A threat model is a list of the most probable threats to your security and privacy endeavors.== Since it's impossible to protect yourself against **every** attack(er), you should focus on the **most probable** threats. In computer security, a threat is an event that could undermine your efforts to stay private and secure.
+==Threat model je seznam těch nejpravděpodobnějších hrozeb ve vztahu k vaší bezpečnosti a soukromí.== Vzhledem k tomu, že je nemožné se chránit vůči **každému** útoku nebo útočníkovi, měli byste se soustředit na ty **nejvíce pravděpodobné** hrozby. V oblasti počítačové bezpečnosti je hrozba událost, která by mohla zmařit vaši snahu ochránit si své soukromí a bezpečnost.
 
-Focusing on the threats that matter to you narrows down your thinking about the protection you need, so you can choose the tools that are right for the job.
+Zaměření se na hrozby podstatné pro vás zúží oblast, ve které se potřebujete chránit, abyste si mohli vybrat nástroje, které nejlépe odpovídají vašemu účelu.
 
-## Creating Your Threat Model
+## Vytváření vašeho threat modelu
 
-To identify what could happen to the things you value and determine from whom you need to protect them, you should answer these five questions:
+Abyste si mohli ujasnit, co se může stát věcem, na kterých vám záleží, a před kým je musíte chránit, potřebujete si odpovědět na následujících 5 otázek:
 
-1. What do I want to protect?
-2. Who do I want to protect it from?
-3. How likely is it that I will need to protect it?
-4. How bad are the consequences if I fail?
-5. How much trouble am I willing to go through to try to prevent potential consequences?
+1. Co chci chránit?
+2. Před kým to chci chránit?
+3. Jak moc je pravděpodobné, že to budu potřebovat chránit?
+4. Jak vážné budou následky, pokud v tom selžu?
+5. Kolik úsilí můžu (nebo chci) vynaložit na předejití možným následkům?
 
-### What do I want to protect?
+### Co chci chránit?
 
-An “asset” is something you value and want to protect. In the context of digital security, ==an asset is usually some kind of information.== For example, your emails, contact lists, instant messages, location, and files are all possible assets. Your devices themselves may also be assets.
+„Majetek“ je něco, čeho si ceníte a chcete to chránit. V kontextu digitální bezpečnosti to znamená, že ==majetek je nějaký typ informace.== Např. vaše e-maily, kontakty, zprávy, poloha atd. jsou vaším potenciálním majetkem. Vaše zařízení samotná mohou být taky majektem.
 
-*Make a list of your assets: data that you keep, where it's kept, who has access to it, and what stops others from accessing it.*
+*Vytvořte si seznam vašeho majetku: data, která uchováváte, kde je uchováváte, kdo k nim má přístup, a co ostatním brání v tom, aby se k nim dostali.*
 
-### Who do I want to protect it from?
+### Před kým to chci chránit?
 
 To answer this question, it's important to identify who might want to target you or your information. ==A person or entity that poses a threat to your assets is an “adversary”.== Examples of potential adversaries are your boss, your former partner, your business competition, your government, or a hacker on a public network.
 
@@ -39,7 +39,7 @@ To answer this question, it's important to identify who might want to target you
 
 Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
 
-### How likely is it that I will need to protect it?
+### Jak moc je pravděpodobné, že to budu potřebovat chránit?
 
 ==Risk is the likelihood that a particular threat against a particular asset will actually occur.== It goes hand-in-hand with capability. While your mobile phone provider has the capability to access all of your data, the risk of them posting your private data online to harm your reputation is low.
 
@@ -49,7 +49,7 @@ Assessing risks is both a personal and subjective process. Many people find cert
 
 *Write down which threats you are going to take seriously, and which may be too rare or too harmless (or too difficult to combat) to worry about.*
 
-### How bad are the consequences if I fail?
+### Jak vážné budou následky, pokud v tom selžu?
 
 There are many ways that an adversary could gain access to your data. For example, an adversary can read your private communications as they pass through the network, or they can delete or corrupt your data.
 
@@ -59,7 +59,7 @@ Security planning involves understanding how bad the consequences could be if an
 
 *Write down what your adversary might want to do with your private data.*
 
-### How much trouble am I willing to go through to try to prevent potential consequences?
+### Kolik úsilí můžu (nebo chci) vynaložit na předejití možným následkům?
 
 ==There is no perfect option for security.== Not everyone has the same priorities, concerns, or access to resources. Your risk assessment will allow you to plan the right strategy for you, balancing convenience, cost, and privacy.
 
