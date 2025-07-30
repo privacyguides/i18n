@@ -1,6 +1,6 @@
 ---
 meta_title: "متصفحات ويب تركز على الخصوصية لأنظمة أندرويد وiOS – Privacy Guides"
-title: "متصفحات الهواتف"
+title: متصفحات الهواتف
 icon: material/cellphone-information
 description: المتصفحات التالية هي خياراتنا الموصى بها لتصفح الإنترنت بشكل عادي وغير مجهول على الهواتف المحمولة.
 cover: mobile-browsers.webp
@@ -168,7 +168,7 @@ schema:
     - [x] اختر **Disable non-proxied UDP** تحت خيار [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - \[x\] (إختياري) اختر **No protection** تحت خيار *Safe Browsing*  (1)
     - [ ] أزل التحديد عن **Allow sites to check if you have payment methods saved**
-    - [ ] أزل التحديد عن **V8 Optimize** تحت خيار *Manage V8 security*
+    - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
     - [x] اختر **Close tabs on exit**
     -  [ ] أزل التحديد عن **Allow privacy-preserving product analytics (P3A)**
     - [ ] أزل التحديد عن **Automatically send diagnostic reports**

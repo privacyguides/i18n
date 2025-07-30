@@ -148,7 +148,7 @@ Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) with
 
 **FreeTube** - это бесплатное настольное приложение с открытым исходным кодом для [YouTube](https://youtube.com). FreeTube extracts data from YouTube using its built-in API based on [YouTube.js](https://github.com/LuanRT/YouTube.js) or the [Invidious](#invidious) API. You can configure either as the default, with the other serving as a fallback.
 
-Когда вы используете FreeTube, ваш список подписок и плейлисты сохранены локально на вашем устройстве.
+When using FreeTube, your subscription list, playlists, watch history and search history are saved locally on your device.
 
 [:octicons-home-16: Homepage](https://freetubeapp.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="Privacy Policy" }

@@ -1,6 +1,6 @@
 ---
 meta_title: "Privacy Respecting Web Browsers for Android and iOS - Privacy Guides"
-title: "דפדפני אינטרנט לנייד"
+title: דפדפני אינטרנט לנייד
 icon: material/cellphone-information
 description: דפדפנים אלו הם מה שאנו ממליצים כיום עבור גלישה רגילה/לא אנונימית באינטרנט בטלפון שלך.
 cover: mobile-browsers.webp
@@ -168,7 +168,7 @@ Brave includes some anti-fingerprinting measures in its [Shields](https://suppor
     - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - \[x\] (Optional) Select **No protection** under *Safe Browsing* (1)
     - [ ] Uncheck **Allow sites to check if you have payment methods saved**
-    - [ ] Uncheck **V8 Optimizer** under *Manage V8 security*
+    - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
     - [x] Select **Close tabs on exit**
     - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
     - [ ] Uncheck **Automatically send diagnostic reports**

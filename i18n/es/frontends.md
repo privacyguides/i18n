@@ -148,7 +148,7 @@ Piped es útil si desea utilizar [SponsorBlock](https://sponsor.ajay.app) sin in
 
 **FreeTube** es una aplicación de escritorio gratuita y de código abierto para [YouTube](https://youtube.com). FreeTube extrae datos de YouTube utilizando su API integrada basada en [YouTube.js](https://github.com/LuanRT/YouTube.js) o la API [Invidious](#invidious). Puede configurar cualquiera de los dos como predeterminado y el otro como alternativa.
 
-Al usar FreeTube, su lista de suscripciones y sus listas de reproducción se guardan localmente en su dispositivo.
+When using FreeTube, your subscription list, playlists, watch history and search history are saved locally on your device.
 
 [:octicons-home-16: Página Principal](https://freetubeapp.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="Política de Privacidad" }

@@ -1,6 +1,6 @@
 ---
 meta_title: "Datenschutzfreundliche Webbrowser für Android und iOS - Privacy Guides"
-title: "Mobile Browser"
+title: Mobile Browser
 icon: material/cellphone-information
 description: Wir empfehlen aktuell diese mobilen Browser für normales bzw. nicht anonymes Surfen im Internet.
 cover: mobile-browsers.webp
@@ -168,7 +168,7 @@ Die Optionen im Schutz-Menü können je nach Bedarf für jede Website herunterge
     - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - \[x\] (Optional) Select **No protection** under *Safe Browsing* (1)
     - [ ] Uncheck **Allow sites to check if you have payment methods saved**
-    - [ ] Uncheck **V8 Optimizer** under *Manage V8 security*
+    - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
     - [x] Select **Close tabs on exit**
     - [ ] Deaktiviere **Erlaubt Produktanalyse, die den Datenschutz respektiert (P3A)**
     - [ ] Deaktiviere **Automatisch Diagnoseberichte senden**

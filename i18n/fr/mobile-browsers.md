@@ -1,6 +1,6 @@
 ---
 meta_title: "Navigateurs Internet pour Android et iOS qui respectent votre vie privée - Privacy Guides"
-title: "Navigateurs mobiles"
+title: Navigateurs mobiles
 icon: material/cellphone-information
 description: Ces navigateurs sont ceux que nous recommandons actuellement pour la navigation internet standard/non anonyme sur votre téléphone.
 cover: mobile-browsers.webp
@@ -168,7 +168,7 @@ Les options "Boucliers" peuvent être réduites par site selon les besoins, mais
     - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - \[x\] (Facultatif) Cochez **Aucune protection** sous *Navigation sécurisée* (1)
     - [] Décochez **Autoriser les sites à vérifier si vous avez enregistré des méthodes de paiement**
-    - [] Décochez **Optimiseur V8** sous *Gérer la sécurité de V8*
+    - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
     - [x] Cochez **Fermer les onglets en quittant**
     - [ ] Décochez **Autoriser l'analyse de produits respectueuse de la vie privée (P3A)**
     - [Décocher l'**option Envoyer automatiquement les rapports de diagnostic**

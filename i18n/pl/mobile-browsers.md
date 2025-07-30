@@ -1,6 +1,6 @@
 ---
 meta_title: "Privacy Respecting Web Browsers for Android and iOS - Privacy Guides"
-title: "Przeglądarki mobilne"
+title: Przeglądarki mobilne
 icon: octicons/device-mobile-16
 description: Obecnie zalecamy te przeglądarki do standardowego/nie anonimowego przeglądania internetu na swoim smartfonie.
 cover: mobile-browsers.webp
@@ -168,7 +168,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - \[x\] (Optional) Select **No protection** under *Safe Browsing* (1)
     - [ ] Uncheck **Allow sites to check if you have payment methods saved**
-    - [ ] Uncheck **V8 Optimizer** under *Manage V8 security*
+    - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
     - [x] Select **Close tabs on exit**
     - [ ] Odznacz **Zezwól na zastosowanie analizy produktów z zachowaniem prywatności (P3A)**
     - [ ] Odznacz **Automatycznie wysyłaj raporty diagnostyczne**

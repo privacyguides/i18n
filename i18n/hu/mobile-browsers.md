@@ -1,6 +1,6 @@
 ---
 meta_title: "Magánéletet védő webböngészők Android és iOS rendszerekre - Privacy Guides"
-title: "Mobil böngészők"
+title: Mobil böngészők
 icon: material/cellphone-information
 description: Jelenleg ezeket az adatvédelmi böngészőket ajánljuk a mobil rendszereken történő normál/nem anonim internetböngészéshez.
 cover: mobile-browsers.webp
@@ -168,7 +168,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - \[x\] (Optional) Select **No protection** under *Safe Browsing* (1)
     - [ ] Uncheck **Allow sites to check if you have payment methods saved**
-    - [ ] Uncheck **V8 Optimizer** under *Manage V8 security*
+    - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
     - [x] Select **Close tabs on exit**
     - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
     - [ ] Uncheck **Automatically send diagnostic reports**

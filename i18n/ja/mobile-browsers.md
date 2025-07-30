@@ -1,6 +1,6 @@
 ---
 meta_title: "プライバシーを尊重するAndroidとiOS向けウェブブラウザ - Privacy Guides"
-title: "モバイルブラウザー"
+title: モバイルブラウザー
 icon: material/cellphone-information
 description: これらのブラウザは、現在お使いの携帯電話の標準/非匿名のインターネットブラウジングに推奨されています。
 cover: mobile-browsers.webp
@@ -168,7 +168,7 @@ Braveの[シールド](https://support.brave.com/hc/articles/360022973471-What-i
     - [x] [*WebRTC IP処理ポリシー*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)で**非プロキシUDPを無効にする**を選択
     - [x] （オプション）*セーフ ブラウジング*で**保護なし**を選択 (1)
     - [ ] **お支払い方法を保存しているかどうかの確認をサイトに許可する**のチェックを外す
-    - [ ] *V8のセキュリティを管理する*で**V8オプティマイザー**のチェックを外す
+    - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
     - [x] **終了時にタブを閉じる**を選択
     - [ ] **プライバシーを保護したプロダクト分析(P3A)を許可する**のチェックを外す
     - [ ] **診断レポートを自動送信する**のチェックを外す

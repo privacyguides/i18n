@@ -1,6 +1,6 @@
 ---
 meta_title: "Browser web che rispettano la privacy per Android e iOS- Privacy Guides"
-title: "Browser mobile"
+title: Browser mobile
 icon: material/cellphone-information
 description: Questi sono i browser consigliati al momento per la navigazione standard/non anonima sul tuo telefono.
 cover: mobile-browsers.webp
@@ -168,7 +168,7 @@ Le funzionalità di Shields possono essere ridotte per ogni sito se necessario; 
     - [x] Seleziona **Disabilita UDP senza proxy** in [*Gestione politica IP WebRTC*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - \[x\] (Opzionale) Seleziona **Nessuna protezione** in *Navigazione sicura* (1)
     - [ ] Rimuovi la spunta da **Consenti ai siti di controllare se hai metodi di pagamento salvati**
-    - [ ] Rimuovi la spunta da **Sicurezza e ottimizzazione di JavaScript** in *Sicurezza e ottimizzazione di JavaScript*
+    - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
     - [x] Seleziona **Chiudi le schede quando esci**
     - [ ] Deseleziona **Acconsenti all'analisi dei prodotti di tutela della privacy (P3A)**
     - [ ] Deseleziona **Inviare automaticamente i rapporti di diagnostica**

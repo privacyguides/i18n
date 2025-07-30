@@ -1,6 +1,6 @@
 ---
 meta_title: "尊重隱私的 Android 和 iOS 網路瀏覽器 - Privacy Guides"
-title: "行動瀏覽器"
+title: 行動瀏覽器
 icon: material/cellphone-information
 description: 我們目前推薦的這些瀏覽器適合在手機上進行標準/非匿名的網路瀏覽。
 cover: mobile-browsers.webp
@@ -168,7 +168,7 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
     - [x] 將 [*WebRTC IP 處理政策*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc) 設定為 **停用非代理 UDP**
     - [x] （可選） 將 *安全瀏覽* 設定為 **無防護** (1)
     - [ ] 取消勾選 **允許網站檢查是否有已儲存的付款方式**
-    - [ ] Uncheck **V8 Optimizer** under *Manage V8 security*
+    - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
     - [x] 勾選 **退出時關閉分頁**
     - [ ] 取消勾選 **允許保護私隱的產品分析 (P3A)**
     - [ ] 取消勾選 **自動傳送診斷報告**

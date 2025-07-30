@@ -1,6 +1,6 @@
 ---
 meta_title: "Navegadores da Web que protegem sua privacidade"
-title: "Navegadores Móveis"
+title: Navegadores Móveis
 icon: material/cellphone-information
 description:
 cover: mobile-browsers.webp
@@ -168,7 +168,7 @@ As opções do Shields (Escudos) podem ser reduzidas de acordo com o site, confo
     - [x] Selecione **Disable non-proxied UDP (Desativar UDP sem proxy** ) em [*Política de tratamento de IP WebRTC*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - \[x\] (Opcional) Selecione **Nenhuma proteção** em *Navegação segura* (1)
     - [Desmarque a opção **Permitir que os sites verifiquem se você tem métodos de pagamento salvos**
-    - [Desmarque a opção **V8 Optimizer** em *Gerenciar segurança do V8*
+    - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
     - [x] Selecione **Fechar guias ao sair**
     - [ ] Desmarque **Permitir análise de produtos com preservação da privacidade (P3A)**
     - [ ] Desmarque **Automaticamente enviar relatórios de diagnóstico**

@@ -148,7 +148,7 @@ Piped 需要 JavaScript 才能運行，它有許多公共伺服器。
 
 **FreeTube** 是 [YouTube](https://youtube.com)的免費開源桌面應用程式。 FreeTube 使用其基於 [YouTube.js](https://github.com/LuanRT/YouTube.js) 或 [Invidious](#invidious) API 的內建 API 從 YouTube 擷取資料。 您可以將其中一個設定為預設，另一個則作為備用。
 
-使用 FreeTube 時，訂閱清單和播放列表會在本地儲存在 本地裝置上。
+When using FreeTube, your subscription list, playlists, watch history and search history are saved locally on your device.
 
 [:octicons-home-16: 首頁](https://freetubeapp.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="隱私權政策" }
