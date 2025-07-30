@@ -33,15 +33,15 @@ Abyste si mohli ujasnit, co se může stát věcem, na kterých vám záleží, 
 
 ### Před kým to chci chránit?
 
-To answer this question, it's important to identify who might want to target you or your information. ==A person or entity that poses a threat to your assets is an “adversary”.== Examples of potential adversaries are your boss, your former partner, your business competition, your government, or a hacker on a public network.
+Abyste dokázali na tuto otázku odpovědět, je důležité identifikovat, kdo by mohl chtít cílit na vás nebo vaše informace. ==Člověk nebo subjekt, který je hrozbou pro váš majetek, je „nepřítel“.== Potenciální nepřátelé mohou být např. váš šéf, ex-partner(ka), vaši konkurenti, vaše vláda, nebo taky hacker na veřejné síti.
 
-*Make a list of your adversaries or those who might want to get hold of your assets. Your list may include individuals, a government agency, or corporations.*
+*Udělejte si seznam vašich nepřátel, nebo obecně těch, kdo by měl zájem na tom, získat váš majetek. Takový seznam může obsahovat jak jednotlivce, tak i vládní úřady nebo korporace.*
 
-Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
+V závislosti na tom, kdo jsou vaši nepřátelé, případně můžete tento seznam zničit po tom, co si ujasníte svůj threat model.
 
 ### Jak moc je pravděpodobné, že to budu potřebovat chránit?
 
-==Risk is the likelihood that a particular threat against a particular asset will actually occur.== It goes hand-in-hand with capability. While your mobile phone provider has the capability to access all of your data, the risk of them posting your private data online to harm your reputation is low.
+==Riziko označuje pravděpodobnost, že k ohrožení majetku některou hrozbou skutečně dojde.== Jde to ruku v ruce se schopnostmi. While your mobile phone provider has the capability to access all of your data, the risk of them posting your private data online to harm your reputation is low.
 
 It is important to distinguish between what might happen and the probability it may happen. For instance, there is a threat that your building might collapse, but the risk of this happening is far greater in San Francisco (where earthquakes are common) than in Stockholm (where they are not).
 
