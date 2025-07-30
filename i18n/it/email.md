@@ -85,7 +85,7 @@ Il piano Proton Free viene fornito con 500 MB di spazio di archiviazione per l'e
 
 </div>
 
-Gli account gratuiti presentano alcune limitazioni, come l'impossibilità di effettuare ricerche nel testo del corpo delle email e l'impossibilità di accedere a [Proton Mail Bridge](https://proton.me/mail/bridge), necessario per utilizzare un [client di posta elettronica desktop consigliato](email-clients.md) (ad esempio, Thunderbird). I profili a pagamento includono funzionalità come Proton Mail Bridge, archiviazione aggiuntiva e supporto ai domini personalizzati. If you have the Proton Unlimited plan or any multi-user Proton plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+Gli account gratuiti presentano alcune limitazioni, come l'impossibilità di effettuare ricerche nel testo del corpo delle email e l'impossibilità di accedere a [Proton Mail Bridge](https://proton.me/mail/bridge), necessario per utilizzare un [client di posta elettronica desktop consigliato](email-clients.md) (ad esempio, Thunderbird). I profili a pagamento includono funzionalità come Proton Mail Bridge, archiviazione aggiuntiva e supporto ai domini personalizzati. Se hai un piano Proton Unlimited o un piano Proton per più utenti, avrai anche [SimpleLogin](email-aliasing.md#simplelogin) Premium gratis.
 
 Una [lettera di attestazione](https://proton.me/blog/security-audit-all-proton-apps) è stata fornita per le applicazioni di Proton Mail il 9 novembre 2021 da [Securitum](https://research.securitum.com).
 
@@ -127,9 +127,9 @@ Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimite
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
+![Logo di Mailbox.org](assets/img/email/mailboxorg.svg){ align=right }
 
-**Mailbox.org** is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Sono operativi dal 2014. Mailbox.org ha sede a Berlino, in Germania.
+**Mailbox.org** è un servizio di posta elettronica che si concentra sulla sicurezza, sull'assenza di pubblicità e sull'utilizzo di energia ecologica al 100%. Sono operativi dal 2014. Mailbox.org ha sede a Berlino, in Germania.
 
 Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
@@ -196,21 +196,21 @@ Questi fornitori memorizzano le tue email con la crittografia a conoscenza zero,
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
-![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![Logo di Tuta](assets/img/email/tuta.svg#only-light){ align=right }
+![Logo di Tuta](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany.
+**Tuta** (precedentemente *Tutanota*) è un servizio di posta elettronica incentrato sulla sicurezza e sulla privacy attraverso l'uso della crittografia. Tuta è operativo dal 2011 e ha sede ad Hannover, in Germania.
 
-Free accounts start with 1 GB of storage.
+Gli account gratuiti partono con 1 GB di spazio di archiviazione.
 
-[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
+[:octicons-home-16: Pagina Principale](https://tuta.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Politica sulla Privacy" }
+[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentazione" }
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribuisci" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Download</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
@@ -232,11 +232,11 @@ Gli account Tuta a pagamento possono utilizzare 15 o 30 alias a seconda del pian
 
 #### :material-information-outline:{ .pg-blue } Metodi di pagamento privati
 
-Tuta only directly accepts credit cards and PayPal, however [**cryptocurrency**](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
+Tuta accetta direttamente solo carte di credito e PayPal, tuttavia le [**criptovalute**](cryptocurrency.md) possono essere utilizzate per acquistare carte regalo grazie alla [collaborazione](https://tuta.com/support/#cryptocurrency) con ProxyStore.
 
 #### :material-check:{ .pg-green } Sicurezza dell'account
 
-Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
+Tuta supporta l'[autenticazione a due fattori](https://tuta.com/support#2fa) tramite TOTP o U2F.
 
 #### :material-check:{ .pg-green } Sicurezza dei dati
 

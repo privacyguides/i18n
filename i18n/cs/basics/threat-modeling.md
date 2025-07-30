@@ -33,72 +33,72 @@ Abyste si mohli ujasnit, co se může stát věcem, na kterých vám záleží, 
 
 ### Před kým to chci chránit?
 
-Abyste dokázali na tuto otázku odpovědět, je důležité identifikovat, kdo by mohl chtít cílit na vás nebo vaše informace. ==Člověk nebo subjekt, který je hrozbou pro váš majetek, je „nepřítel“.== Potenciální nepřátelé mohou být např. váš šéf, ex-partner(ka), vaši konkurenti, vaše vláda, nebo taky hacker na veřejné síti.
+Abyste dokázali na tuto otázku odpovědět, je důležité identifikovat, kdo by mohl chtít cílit na vás nebo vaše informace. ==Člověk nebo subjekt, který je hrozbou pro váš majetek, je „útočník“.== Potenciální útočníci mohou být např. váš šéf, ex-partner(ka), vaši konkurenti, vaše vláda, nebo taky hacker na veřejné síti.
 
-*Udělejte si seznam vašich nepřátel, nebo obecně těch, kdo by měl zájem na tom, získat váš majetek. Takový seznam může obsahovat jak jednotlivce, tak i vládní úřady nebo korporace.*
+*Udělejte si seznam útočníků, nebo obecně těch, kdo by měl zájem na tom, získat váš majetek. Takový seznam může obsahovat jak jednotlivce, tak i vládní úřady nebo korporace.*
 
-V závislosti na tom, kdo jsou vaši nepřátelé, případně můžete tento seznam zničit po tom, co si ujasníte svůj threat model.
+V závislosti na tom, kdo jsou potenciální útočníci, můžete tento seznam zničit po tom, co si ujasníte svůj threat model.
 
 ### Jak moc je pravděpodobné, že to budu potřebovat chránit?
 
-==Riziko označuje pravděpodobnost, že k ohrožení majetku některou hrozbou skutečně dojde.== Jde to ruku v ruce se schopnostmi. While your mobile phone provider has the capability to access all of your data, the risk of them posting your private data online to harm your reputation is low.
+==Riziko označuje pravděpodobnost, že k ohrožení majetku některou hrozbou skutečně dojde.== Jde to ruku v ruce se schopnostmi. Zatímco váš mobilní operátor má přístup k veškerým vašim datům, je malé riziko toho, že by je zveřejnil online proto, aby poškodil vaši pověst.
 
-It is important to distinguish between what might happen and the probability it may happen. For instance, there is a threat that your building might collapse, but the risk of this happening is far greater in San Francisco (where earthquakes are common) than in Stockholm (where they are not).
+Je důležité rozlišovat mezi tím, co se může stát, a s jakou pravděpodobností se to může stát. Například existuje hrozba, že se zřítí budova, ve které jste, ale takové riziko je mnohem větší v San Francisku (kde jsou zemětřesení běžná) než ve Stockholmu (kde nejsou).
 
-Assessing risks is both a personal and subjective process. Many people find certain threats unacceptable, no matter the likelihood they will occur, because the mere presence of the threat is not worth the cost. In other cases, people disregard high risks because they don't view the threat as a problem.
+Vyhodnocování rizik je jak osobním, tak i subjektivním procesem. Mnoho lidí považuje některé hrozby za nepřijatelné, bez ohledu na pravděpodobnost, s jakou se mohou stát, protože už jen samotná existence hrozby jim připadá, oproti možným nákladům na odvrácení, jako nepřípustná. V jiných případech ale lidé neberou ohled na vysoká rizika, protože nepovažují možné hrozby za problém, který se jich dotýká.
 
-*Write down which threats you are going to take seriously, and which may be too rare or too harmless (or too difficult to combat) to worry about.*
+*Zapište si, které hrozby berete vážně, a které mohou být až moc vzácné nebo neškodné, případně moc náročné na potírání, abyste se jimi zabývali.*
 
 ### Jak vážné budou následky, pokud v tom selžu?
 
-There are many ways that an adversary could gain access to your data. For example, an adversary can read your private communications as they pass through the network, or they can delete or corrupt your data.
+Existuje mnoho způsobů, jak se mohou útočníci dostat k vašim datům. Například, útočník může číst vaši soukromou komunikaci, zatímco putuje po síti, nebo mohou vymazat nebo poškodit vaše data.
 
-==The motives of adversaries differ widely, as do their tactics.== A government trying to prevent the spread of a video showing police violence may be content to simply delete or reduce the availability of that video. In contrast, a political opponent may wish to gain access to secret content and publish that content without you knowing.
+==Motivy útočnííků se velmi liší, stejně jako jejich postupy.== Vláda se může pokusit omezit šíření videa, které vyobrazuje policejní brutalitu tak, že ho jednoduše smaže nebo omezí jeho dostupnost. Nebo naopak, politický odpůrce by mohl chtít získat přístup k vašemu tajnému obsahu a zveřejnit ho bez vašeho vědomí.
 
-Security planning involves understanding how bad the consequences could be if an adversary successfully gains access to one of your assets. To determine this, you should consider the capability of your adversary. For example, your mobile phone provider has access to all of your phone records. A hacker on an open Wi-Fi network can access your unencrypted communications. Your government might have stronger capabilities.
+Plánování zabezpečení v sobě zahrnuje pochopení toho, jak špatné mohou být následky, pokud by útočník opravdu získal přístup k některému z vašeho majetku. K tomu je důležité zvážit možnosti a schopnosti útočníka. Váš operátor má například přístup ke všem vašim záznamům o provedených hovorech. Hacker na otevřené Wi-Fi síti může mít přístup k vaší nešifrované komunikaci. A vaše vláda může mít ještě větší možnosti.
 
-*Write down what your adversary might want to do with your private data.*
+*Zapište si, co by mohli útočníci s vašimi soukromými údaji udělat.*
 
 ### Kolik úsilí můžu (nebo chci) vynaložit na předejití možným následkům?
 
-==There is no perfect option for security.== Not everyone has the same priorities, concerns, or access to resources. Your risk assessment will allow you to plan the right strategy for you, balancing convenience, cost, and privacy.
+==Neexistuje dokonalé zabezpečení.== Ne každý má stejné priority, obavy, nebo přístup k různým zdrojům. Vaše vyhodnocení rizik vám dovolí si zvolit strategii na míru, která bude vyvažovat pohodlí, náklady i soukromí.
 
-For example, an attorney representing a client in a national security case may be willing to go to greater lengths to protect communications about that case, such as using encrypted email, than a mother who regularly emails her daughter funny cat videos.
+Advokát zastupující klienta v otázce národní bezpečnosti může chtít vynaložit více úsilí na to, aby ochránil informace o případu. Může k tomu použít např. šifrovaný e-mail. Jinak ale bude uvažovat matka, která posílá své dceři e-mailem videa s vtipnými kočkami.
 
-*Write down what options you have available to you to help mitigate your unique threats. Note if you have any financial constraints, technical constraints, or social constraints.*
+*Zapište si, jaké možnosti máte k dispozici, se kterými můžete zmírnit rizika u svých jedinečných hrozeb. Všímejte si, jestli jste omezeni v otázce finančních, technických nebo společenských zdrojů.*
 
-### Try it yourself: Protecting Your Belongings
+### Zkuste si to: Chraňte svůj majetek
 
-These questions can apply to a wide variety of situations, online and offline. As a generic demonstration of how these questions work, let's build a plan to keep your house and possessions safe.
+Tyto otázky se mohou vztahovat na širokou škálu situací, a to jak on-line, tak i off-line. Pro názornou ukázku toho, jak s nimi pracovat, si pojďme sestavit plán, který udrží náš dům a majetek v bezpečí.
 
-**What do you want to protect? (Or, *what do you have that is worth protecting?*)**
+**Co chcete chránit? (Nebo, *co všechno máte a stojí to za ochranu?*)**
 :
 
-Your assets might include jewelry, electronics, important documents, or photos.
+Váš majetek může zahrnovat šperky, elektroniku, důležité dokumenty, nebo také fotky.
 
-**Who do you want to protect it from?**
+**Před kým je chcete chránit?**
 :
 
-Your adversaries might include burglars, roommates, or guests.
+Mezi útočníky se mohou řadit zloději, spolubydlící, nebo návštěvnící.
 
-**How likely is it that you will need to protect it?**
+**Jak moc je pravděpodobné, že to budete potřebovat chránit?**
 :
 
-Does your neighborhood have a history of burglaries? How trustworthy are your roommates or guests? What are the capabilities of your adversaries? What are the risks you should consider?
+Má vaše sousedství historii vloupání? Jak důvěryhodní jsou vaši spolubydlící nebo hosté? Jaké jsou schopnosti možných útočníků? Která rizika byste měli zohlednit?
 
-**How bad are the consequences if you fail?**
+**Jak vážné budou následky, pokud selžete?**
 :
 
-Do you have anything in your house that you cannot replace? Do you have the time or money to replace those things? Do you have insurance that covers goods stolen from your home?
+Máte v domě něco, co je nenahraditelné? Máte čas nebo peníze na to, abyste mohli věci nahradit? Máte sjednané pojištění, které vám ukradené věci pokryje?
 
-**How much trouble are you willing to go through to prevent these consequences?**
+**Kolik úsilí jste ochotni vynaložit na to, abyste předešli těmto následkům?**
 :
 
-Are you willing to buy a safe for sensitive documents? Can you afford to buy a high-quality lock? Do you have time to open a security box at your local bank and keep your valuables there?
+Jste ochotni koupit si trezor, ve kterém budete uchovávat citlivé dokumenty? Můžete si dovolit pořídit kvalitní zámek? Máte čas si zřidit bezpečnostní schránku ve vaší bance, ve které si uložíte vaše cennosti?
 
-Only once you have asked yourself these questions will you be in a position to assess what measures to take. If your possessions are valuable, but the probability of a break-in is low, then you may not want to invest too much money in a lock. But, if the probability of a break-in is high, you'll want to get the best lock on the market and consider adding a security system.
+Teprve až si odpovíte na tyto otázky, budete moci posoudit, která opatření máte přijmout. Pokud je váš majetek cenný, ale je jen málo pravděpodobné, že by se k vám někdo vloupal, možná nebudete chtít investovat do drahého zámku. Pokud je ale riziko vloupání velké, budete si chtít pořídit ten nejlepší zámek na trhu, a k němu ještě i bezpečnostní systém.
 
-Making a security plan will help you to understand the threats that are unique to you and to evaluate your assets, your adversaries, and your adversaries' capabilities, along with the likelihood of risks you face.
+Vytvoření zabezpečovacího plánu vám pomůže ujasnit si hrozby, které jsou relevantní pro vás, a zvážit faktory, jako je váš majetek, možní útočníci, jejich schopnosti, spolu s pravděpodobností rizik, kterým čelíte.
 
 ## Further Reading
 
