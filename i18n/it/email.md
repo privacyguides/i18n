@@ -240,7 +240,7 @@ Tuta supporta l'[autenticazione a due fattori](https://tuta.com/support#2fa) tra
 
 #### :material-check:{ .pg-green } Sicurezza dei dati
 
-Tuta has [zero-access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). Ciò significa che messaggi e altri dati memorizzati nel tuo profilo, sono leggibili soltanto da te.
+Tuta dispone di una [crittografia ad accesso zero a riposo](https://tuta.com/support#what-encrypted) per le email, i [contatti della rubrica](https://tuta.com/support#encrypted-address-book) e i [calendari](https://tuta.com/support#calendar). Ciò significa che messaggi e altri dati memorizzati nel tuo profilo, sono leggibili soltanto da te.
 
 #### :material-information-outline:{ .pg-blue } Crittografia Email
 
@@ -260,7 +260,7 @@ Tuta offre la versione business di [Tuta alle organizzazioni non profit](https:/
 
 ### Tecnologia
 
-Consideriamo queste funzionalità come importanti per poter fornire un servizio sicuro e ottimale. You should consider whether the provider has the features you require.
+Consideriamo queste funzionalità come importanti per poter fornire un servizio sicuro e ottimale. Dovresti valutare se il fornitore ha le caratteristiche da te richieste.
 
 **Requisiti minimi:**
 

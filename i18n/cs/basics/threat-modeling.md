@@ -100,12 +100,12 @@ Teprve až si odpovíte na tyto otázky, budete moci posoudit, která opatření
 
 Vytvoření zabezpečovacího plánu vám pomůže ujasnit si hrozby, které jsou relevantní pro vás, a zvážit faktory, jako je váš majetek, možní útočníci, jejich schopnosti, spolu s pravděpodobností rizik, kterým čelíte.
 
-## Further Reading
+## Přečtěte si také
 
-For people looking to increase their privacy and security online, we've compiled a list of common threats our visitors face or goals our visitors have, to give you some inspiration and demonstrate the basis of our recommendations.
+Sestavili jsme seznam běžných hrozeb pro lidi, kteří chtějí zvýšit svoje soukromí a bezpečnost on-line, kterým naši čtenáři čelí, a také cíle, které mají, abychom vám dodali inspiraci a předvedli vám naše základní doporučení.
 
-- [Common Goals and Threats :material-arrow-right-drop-circle:](common-threats.md)
+- [Běžné cíle a hrozby :material-arrow-right-drop-circle:](common-threats.md)
 
-## Sources
+## Zdroje
 
-- [EFF Surveillance Self Defense: Your Security Plan](https://ssd.eff.org/en/module/your-security-plan)
+- [EFF o sebeobraně proti sledování: Váš bezpečnostní plán (v angličtině)](https://ssd.eff.org/en/module/your-security-plan)
