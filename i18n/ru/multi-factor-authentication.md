@@ -1,7 +1,7 @@
 ---
-title: "Multifactor Authentication"
+title: "Многофакторная аутентификация"
 icon: 'material/two-factor-authentication'
-description: These tools assist you with securing your internet accounts with Multifactor Authentication without sending your secrets to a third-party.
+description: Эти инструменты помогут вам защитить ваши учетные записи в интернете с помощью многофакторной аутентификации без передачи ваших секретов третьим лицам.
 cover: multi-factor-authentication.webp
 ---
 
@@ -16,7 +16,7 @@ cover: multi-factor-authentication.webp
 
 </div>
 
-**Multifactor Authentication Apps** implement a security standard adopted by the Internet Engineering Task Force (IETF) called **Time-based One-time Passwords**, or **TOTP**. При этом методе веб-сайты делятся с вами секретом, который вносится в приложение аутентификации. Затем приложение генерирует шестизначные коды, основанные на текущем времени, которые вы вводите при входе на сайт для проверки. Typically, these codes are regenerated every 30 seconds, and once a new code is generated the old one becomes useless. Даже если хакер получит один шестизначный код, у него не будет возможности анализировать этот код, чтобы получить исходный секрет, или каким-либо другим способом предсказать, какими могут быть будущие коды.
+**Приложения многофакторной аутентификации** реализуют стандарт безопасности, принятый рабочей группой инженеров интернета (IETF), который называется **Time-based One-time Passwords** или **TOTP**. При этом методе веб-сайты делятся с вами секретом, который вносится в приложение аутентификации. Затем приложение генерирует шестизначные коды, основанные на текущем времени, которые вы вводите при входе на сайт для проверки. Обычно эти коды обновляются каждые 30 секунд, и как только генерируется новый код, старый становится бесполезным. Даже если хакер получит один шестизначный код, у него не будет возможности анализировать этот код, чтобы получить исходный секрет, или каким-либо другим способом предсказать, какими могут быть будущие коды.
 
 Мы настоятельно рекомендуем вам использовать мобильные приложения TOTP вместо настольных альтернатив, поскольку Android и iOS имеют лучшую безопасность и изоляцию приложений, чем большинство настольных операционных систем.
 
@@ -28,10 +28,10 @@ cover: multi-factor-authentication.webp
 
 **Ente Auth** is a free and open-source app which stores and generates TOTP tokens. It can be used with an online account to back up and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
 
-[:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.ente.io/auth){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Source Code" }
+[:octicons-home-16: Главная](https://ente.io/auth){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Политика конфиденциальности" }
+[:octicons-info-16:](https://help.ente.io/auth){ .card-link title=Документация}
+[:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Исходный код" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
