@@ -35,7 +35,7 @@ Primero deberías buscar tu información en estos sitios y enviar una solicitud 
 - Dataveria ([Buscar](https://dataveria.com), [Darse de baja](https://dataveria.com/ng/control/privacy))
 - InfoTracer ([Buscar](https://infotracer.com), [Darse de baja](https://infotracer.com/optout))
 - Intelius ([Buscar](https://intelius.com), [Darse de baja(https://suppression.peopleconnect.us/login))
-- PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/ccpa_optout/do_not_sell))
+- PeekYou ([Buscar](https://peekyou.com), [Darse de baja](https://peekyou.com/about/contact/ccpa_optout/do_not_sell))
 - PublicDataUSA ([Buscar](https://publicdatausa.com), [Darse de baja](https://publicdatausa.com/remove.php))
 - Radaris ([Buscar](https://radaris.com), [Darse de baja](https://radaris.com/page/how-to-remove))
 - Spokeo ([Buscar](https://spokeo.com/search), [Darse de baja](https://spokeo.com/optout))
@@ -85,7 +85,7 @@ Nuestras [pruebas](https://www.privacyguides.org/articles/2025/02/03/easyoptouts
 EasyOptOuts no cubre los siguientes sitios que consideramos de "alta prioridad", por lo que deberías excluirte manualmente:
 
 - Intelius ([Buscar](https://intelius.com), [Darse de baja(https://suppression.peopleconnect.us/login))
-- PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/ccpa_optout/do_not_sell))
+- PeekYou ([Buscar](https://peekyou.com), [Darse de baja](https://peekyou.com/about/contact/ccpa_optout/do_not_sell))
 
 </div>
 
