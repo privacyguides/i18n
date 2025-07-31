@@ -41,11 +41,11 @@ IMAPやSMPTなどの標準的なプロトコルに対応しているEメール�
 
 メールのメタデータは[ヘッダー](https://ja.wikipedia.org/wiki/%E9%9B%BB%E5%AD%90%E3%83%A1%E3%83%BC%E3%83%AB#%E3%83%98%E3%83%83%E3%83%80%E3%83%BC%E6%83%85%E5%A0%B1)に含まれています。`To`、`From`、`Cc`、`Date`、`Subject`のようなヘッダーは表示されるので、あなたも見たことがあるかもしれません。 他にも、Eメールクライアントやプロバイダーによって付加される隠れたヘッダーがあり、これがあなたのアカウントに関する情報を漏らしてしまう可能性があります。
 
-Client software may use email metadata to show who a message is from and what time it was received. Servers may use it to determine where an email message must be sent, among [other purposes](https://en.wikipedia.org/wiki/Email#Message_header) which are not always transparent.
+クライアントはメールのメタデータに基づいて送信者や受信日時を表示することがあります。 サーバーは、メタデータを使ってメールの送信先を判定したり、[他の用途](https://en.wikipedia.org/wiki/Email#Message_header)にも使用することがあります。
 
-### 電子メールのメタデータは誰から見えるか？
+### メールのメタデータは誰から見える？
 
-Email metadata is protected from outside observers with [opportunistic TLS](https://en.wikipedia.org/wiki/Opportunistic_TLS), but it is still able to be seen by your email client software (or webmail) and any servers relaying the message from you to any recipients including your email provider. Sometimes email servers will also use third-party services to protect against spam, which generally also have access to your messages.
+メールのメタデータは、[STARTTLS](https://ja.wikipedia.org/wiki/STARTTLS)によって外部から見えないように保護されますが、クライアントソフトウェア（またはウェブメール）や、メールプロバイダ、メッセージを中継するサーバーからは、見ることができます。 メールサーバーは、スパム防止のために外部のサービスを利用することもあり、そのサービスにもメールの内容が通常見えます。
 
 ### メタデータをE2E暗号化できないのはなぜ？
 
