@@ -109,7 +109,7 @@ Les options "Boucliers" peuvent être réduites par site selon les besoins, mais
     - [x] Cochez **Agressif** sous *Bloquer les traqueurs et la publicité*
     - [x] Cochez **Auto-redirection des pages AMP**
     - [x] Cochez **Auto-redirection des URLs de pistage**
-    - [x] Cochez **Exiger que toutes les connexions utilisent HTTPS (strict)** sous *Mettre à niveau les connexions vers HTTPS*.
+    - [x] Cochez **Exiger que toutes les connexions utilisent HTTPS (strict)** sous *Mettre à niveau les connexions vers HTTPS*
     - \[x\] (Facultatif) Cochez **Bloquer les scripts** (1)
     - [x] Cochez **Bloquer les cookies tiers** sous *Bloquer les cookies*
     - [x] Cochez **Bloquer la prise d'empreinte digitale**

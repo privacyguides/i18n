@@ -46,7 +46,7 @@ Brave Search è il motore di ricerca predefinito di [Brave Browser](desktop-brow
 
 </div>
 
-If you use Brave Search while logged in to a Premium account, there is a risk of Brave correlating search queries with your account.
+Se utilizzi Brave Search mentre sei connesso a un account Premium, c'è il rischio che Brave metta in relazione le query di ricerca con il tuo account.
 
 Ti consigliamo di disabilitare le [Statistiche di utilizzo anonime](https://search.brave.com/help/usage-metrics), in quanto sono abilitate per impostazione predefinita e possono essere disabilitate nelle impostazioni.
 
@@ -100,34 +100,36 @@ Mullvad Leta è stato [revisionato](https://mullvad.net/en/blog/security-audit-o
 <div class="admonition recommendation" markdown>
 
 ![Logo di Startpage](assets/img/search-engines/startpage.svg#only-light){ align=right }
-![Logo di Startpage](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right } One of Startpage's unique features is the [Anonymous View](https://startpage.com/en/anonymous-view), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. A differenza di quanto suggerito dal nome, non ci si dovrebbe affidare a tale funzionalità per l'anonimato. Se cerchi l'anonimato, piuttosto, utilizza il [Tor Browser](tor.md#tor-browser).
+![Logo di Startpage](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
 
-[:octicons-home-16: Homepage](https://startpage.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.startpage.com/hc/categories/4481917470356-Startpage-Search-Engine){ .card-link title="Documentation" }
+**Startpage** è un motore di ricerca privato. Una delle funzionalità uniche di Startpage è la [Visualizzazione Anonima](https://startpage.com/en/anonymous-view), che si sforza per standardizzare l'attività degli utenti, per renderne più difficile l'identificazione univoca. La funzione può essere utile per nascondere [alcune](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) proprietà della rete e del browser. A differenza di quanto suggerito dal nome, non ci si dovrebbe affidare a tale funzionalità per l'anonimato. Se cerchi l'anonimato, piuttosto, utilizza il [Tor Browser](tor.md#tor-browser).
+
+[:octicons-home-16: Pagina Principale](https://startpage.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion){ .card-link title="Servizio Onion" }
+[:octicons-eye-16:](https://startpage.com/en/privacy-policy){ . ard-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://support.startpage.com/hc/categories/4481917470356-Startpage-Search-Engine){ .card-link title="Documentazione" }
 
 </div>
 
-L'azionista di maggioranza di Startpage è System1, un'azienda di tecnologie inserzionistiche. Non crediamo che ciò sia un problema, dato che seguono una [politica sull privacy](https://system1.com/terms/privacy-policy) distintamente separata. The Privacy Guides team reached out to Startpage [back in 2020](https://blog.privacyguides.org/2020/05/03/relisting-startpage) to clear up any concerns with System1's sizeable investment into the service, and we were satisfied with the answers we received.
+L'azionista di maggioranza di Startpage è System1, un'azienda di tecnologie inserzionistiche. Non crediamo che ciò sia un problema, dato che seguono una [politica sull privacy](https://system1.com/terms/privacy-policy) distintamente separata. Il team di Privacy Guides ha contattato Startpage [nel 2020](https://blog.privacyguides.org/2020/05/03/relisting-startpage) per chiarire le preoccupazioni riguardo al considerevole investimento nel servizio da parte di System1, e siamo soddisfatti delle risposte che abbiamo ricevuto.
 
-Startpage previously placed limitations on VPN and [Tor](tor.md) users, but they recently created an [official](https://support.startpage.com/hc/en-us/articles/24786602537364-Startpage-s-Tor-onion-service) Tor hidden service, and as of April 2024 we have no longer noticed extra roadblocks for Tor or [VPN](vpn.md) users.
+In precedenza Startpage poneva limitazioni agli utenti con VPN e [Tor](tor.md), ma di recente ha creato un servizio nascosto [ufficiale](https://support.startpage.com/hc/en-us/articles/24786602537364-Startpage-s-Tor-onion-service) di Tor e da aprile 2024 non abbiamo più notato ulteriori blocchi per gli utenti di Tor o [VPN](vpn.md).
 
-## Metasearch Engines
+## Motori di meta-ricerca
 
-A [metasearch engine](https://en.wikipedia.org/wiki/Metasearch_engine) aggregates the results of other search engines, such as the ones recommended above, while not storing any information itself.
+Un [motore di meta-ricerca](https://en.wikipedia.org/wiki/Metasearch_engine) aggrega i risultati di altri motori di ricerca, come quelli raccomandati sopra, senza memorizzare alcuna informazione.
 
 ### SearXNG
 
 <div class="admonition recommendation" markdown>
 
-![SearXNG logo](assets/img/search-engines/searxng.svg){ align=right }
+![Logo di SearXNG](assets/img/search-engines/searxng.svg){ align=right }
 
-**SearXNG** is an open-source, self-hostable, metasearch engine. È un fork attivamente mantenuto di [SearX](https://github.com/searx/searx).
+**SearXNG** è un motore di meta-ricerca open source e self-hostable. È un fork attivamente mantenuto di [SearX](https://github.com/searx/searx).
 
-[:octicons-home-16: Homepage](https://searxng.org){ .md-button .md-button--primary }
-[:octicons-server-16:](https://searx.space){ .card-link title="Public Instances" }
-[:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Source Code" }
+[:octicons-home-16: Pagina Principale](https://searxng.org){ .md-button .md-button--primary }
+[:octicons-server-16:](https://searx.space){ .card-link title="Istanze Pubbliche" }
+[:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Codice Sorgente" }
 
 </div>
 
@@ -143,8 +145,8 @@ Utilizzando un'istanza di SearXNG, assicurati di leggere la loro politica sulla 
 
 ### Requisiti minimi
 
-- Must not collect PII per their privacy policy.
-- Must not require users to create an account with them.
+- Non deve raccogliere informazioni d'identificazione personale (PII) secondo l'informativa sulla privacy.
+- Non deve richiedere la creazione di un account da parte degli utenti.
 
 ### Miglior Caso
 
@@ -153,12 +155,12 @@ I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto pe
 - Dovrebbe basarsi su software open source.
 - Non dovrebbe bloccare gli indirizzi IP del nodo d'uscita di Tor.
 
-[^1]: Brave Search collects aggregated usage metrics, which includes the OS and the user agent. However, they do not collect PII. To serve [anonymous local results](https://search.brave.com/help/anonymous-local-results), IP addresses are temporarily processed, but are not retained.
+[^1]: Brave Search raccoglie statistiche di utilizzo aggregate, le quali includono il sistema operativo e l'user agent. Tuttavia, non raccolgono PII. Per fornire[risultati locali anonimi](https://search.brave.com/help/anonymous-local-results), gli indirizzi IP vengono temporaneamente elaborati, ma non vengono conservati.
 
-    Brave Search: [*Brave Search privacy notice*](https://search.brave.com/help/privacy-policy) [^2]: DuckDuckGo **does** log your searches for product improvement purposes, but not your IP address or any other PII.
+    Brave Search: [*Informativa sulla privacy di Brave Search*](https://search.brave.com/help/privacy-policy) [^2]: DuckDuckGo **registra** le tue ricerche per migliorare il prodotto ma non il tuo indirizzo IP o altre PII.
 
-    DuckDuckGo Privacy Policy: [*We don't track you.*](https://duckduckgo.com/privacy) [^3]: Mullvad Leta logs your searches and stores them hashed with a secret in a RAM-based cache. The cache is removed after it reaches 30 days in age, or when the server-side Leta application is restarted. They do not collect any PII.
+    Informativa sulla privacy di DuckDuckGo: [*Non ti tracciamo.*](https://duckduckgo.com/privacy) [^3]: Mullvad Leta registra le tue ricerche e le memorizza in una cache basata sulla RAM sotto forma di hash. La cache viene rimossa quando raggiunge i 30 giorni di età o quando l'applicazione Leta lato server viene riavviata. Non raccolgono alcuna PII.
 
-    Terms of Service: [*Service Usage*](https://leta.mullvad.net/terms-of-service) [^4]: Startpage logs details such as operating system, user agent, and language. They do not log your IP address, search queries, or other PII.
+    Termini di servizio: [*Utilizzo del servizio*](https://leta.mullvad.net/terms-of-service) [^4]: Startpage registra dettagli quali il sistema operativo, l'user agent e la lingua. Non registrano l'indirizzo IP, le query di ricerca o altre PII.
 
-    Our Privacy Policy: [*How we have implemented truly anonymous analytics*](https://startpage.com/en/privacy-policy#section-4)
+    La nostra informativa sulla privacy: [*Come abbiamo implementato le statistiche di utilizzo veramente anonime*](https://startpage.com/en/privacy-policy#section-4)

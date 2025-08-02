@@ -12,16 +12,16 @@ Les composants de vos appareils traitent et stockent toutes vos données digital
 
 ### Hardware Security Programs
 
-Some devices will have a "hardware security program", which is a collaboration between vendors on best practices and recommendations when designing hardware, for example:
+Certains appareils disposent d'un "programme de sécurité du matériel", issu d'une collaboration entre les fournisseurs sur les bonnes pratiques et les recommandations lors de la conception du matériel, par exemple :
 
-- [Windows Secured-core PCs](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) meet a higher security criteria specified by Microsoft. These protections aren't only applicable to Windows users; Users of other operating systems can still take advantage of features like [DMA protection](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) and the ability to completely distrust Microsoft certificates.
-- [Android Ready SE](https://developers.google.com/android/security/android-ready-se) is a collaboration between vendors to ensure their devices follow [best practices](https://source.android.com/docs/security/best-practices/hardware) and include tamper resistant hardware backed storage for things like encryption keys.
-- macOS running on an Apple SoC takes advantage of [hardware security](../os/macos-overview.md#hardware-security) which may not be available with third party operating systems.
-- [ChromeOS security](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper) is at its best when running on a Chromebook as it is able to make use of available hardware features such as the [hardware root-of-trust](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper/#hardware-root-of-trust-and-verified-boot).
+- [les PCs Windows Secured-core](https://learn.microsoft.com/en-us/windows-hardware/design/device-experiences/oem-highly-secure-11) répondent à des critères de sécurité plus élevés spécifiés par Microsoft. Ces protections ne s'appliquent pas qu'aux utilisateurs de Windows ; les utilisateurs d'autres systèmes d'exploitation peuvent toujours bénéficier de fonctionnalités comme la [protection DMA](https://learn.microsoft.com/en-us/windows/security/information-protection/kernel-dma-protection-for-thunderbolt) and la possiblité de toujours se méfier des certificats Microsoft.
+- [Android Ready SE](https://developers.google.com/android/security/android-ready-se) est le résultat de la collaboration entre fournisseurs pour s'assurer que leurs appareils respectents les [bonnes pratiques](https://source.android.com/docs/security/best-practices/hardware) et incluent un stockage matériel résistants aux manipulations pour des éléments tels que les clés de chiffrement.
+- Lorsque macOS fonctionne sur un SoC Apple, il tire parti de la [sécurité matérielle](../os/macos-overview.md#hardware-security), qui peut ne pas être disponible pour d'autre systèmes d'exploitation.
+- La [sécurité de ChromeOS](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper) est la plus optimale lorsqu'il est exécuté sur un Chromebook, car il peut utiliser certaines fonctionnalités matérielles comme le [hardware root-of-trust](https://chromium.org/chromium-os/developer-library/reference/security/security-whitepaper/#hardware-root-of-trust-and-verified-boot).
 
-Even if you don't use these operating systems, participation in these programs may indicate that the manufacturer is following best practices when it comes to hardware security and updates.
+Même si vous n'utilisez pas ces systèmes d'exploitation, la participation à ces programmes peut indiquer que le fabricant met en place des bonnes pratiques en termes de matériel et de mises à jour.
 
-### Preinstalled OS
+### Système d'exploitation préinstallé
 
 New computers nearly always come with Windows preinstalled, unless you buy a Mac or a specialty Linux machine. It's usually a good idea to wipe the drive and install a fresh copy of your operating system of choice, even if that means just reinstalling Windows from scratch. Due to agreements between hardware vendors and shady software vendors, the default Windows install often comes preloaded with bloatware, [adware](https://bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal), or even [malware](https://zdnet.com/article/dell-poweredge-motherboards-ship-with-malware).
 
