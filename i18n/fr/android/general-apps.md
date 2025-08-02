@@ -4,29 +4,29 @@ description: Les applications répertoriées ici sont exclusives à Android et a
 schema:
   - "@context": http://schema.org
     "@type": WebPage
-    name: General Android Apps
+    name: Applications Android génériques
     url: "./"
   - "@context": http://schema.org
-    "@type": MobileApplication
+    "@type": ApplicationMobile
     name: Shelter
-    applicationCategory: Utilities
+    applicationCategory: Utilitaire
     operatingSystem: Android
   - "@context": http://schema.org
-    "@type": MobileApplication
+    "@type": ApplicationMobile
     name: Secure Camera
-    applicationCategory: Utilities
+    applicationCategory: Utilitaire
     operatingSystem: Android
   - "@context": http://schema.org
-    "@type": MobileApplication
+    "@type": ApplicationMobile
     name: Secure PDF Viewer
-    applicationCategory: Utilities
+    applicationCategory: Utilitaire
     operatingSystem: Android
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
-Protège contre les menaces suivantes :
+<small>Protège contre les menaces suivantes :</small>
 
-- [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-bug-outline: Attaques passives](../basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 Nous recommandons une grande variété d'applications Android sur ce site. Les applications répertoriées ici sont exclusives à Android et améliorent ou remplacent les principales fonctionnalités du système.
 
@@ -42,9 +42,9 @@ Si votre appareil fonctionne sous Android 15 ou supérieur, nous vous recommando
 
 Shelter prend en charge le blocage de la recherche de contacts entre profils et le partage de fichiers entre profils via le gestionnaire de fichiers par défaut ([DocumentsUI](https://source.android.com/devices/architecture/modular-system/documentsui)).
 
-[:octicons-repo-16: Repository](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
-[:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://patreon.com/PeterCxy){ .card-link title=Contribute }
+[:octicons-repo-16: Répertoire](https://gitea.angry.im/PeterCxy/Shelter#shelter){ .md-button .md-button--primary }
+[:octicons-code-16:](https://gitea.angry.im/PeterCxy/Shelter){ .card-link title="Code Source" }
+[:octicons-heart-16:](https://patreon.com/PeterCxy){ .card-link title=Contribuer }
 
 </div>
 
@@ -55,25 +55,25 @@ En utilisant Shelter, vous accordez une confiance totale à son développeur, ca
 
 </div>
 
-Shelter est recommandé par rapport à [Insular](https://secure-system.gitlab.io/Insular) et [Island](https://github.com/oasisfeng/island) car il prend en charge le [blocage de la recherche de contact](https://secure-system.gitlab.io/Insular/faq.html).
+Shelter est recommandé par rapport à [Insular](https://secure-system.gitlab.io/Insular) et [Island](https://github.com/oasisfeng/island) car il permet le [blocage de la recherche de contact](https://secure-system.gitlab.io/Insular/faq.html).
 
 ### Secure Camera
 
-<small>Protège contre la/les menaces suivantes :</small>
+<small>Protège contre la(les) menace(s) suivante(s)</small>
 
-- [:material-account-search: Public Exposure](../basics/common-threats.md#limiting-public-information){ .pg-green }
+- [:material-account-search: Exposition Publique](../basics/common-threats.md#limiting-public-information){ .pg-green }
 
 <div class="admonition recommendation" markdown>
 
-![Secure camera logo](../assets/img/android/secure_camera.svg#only-light){ align=right }
-![Secure camera logo](../assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
+![logo de Secure camera](../assets/img/android/secure_camera.svg#only-light){ align=right }
+![logo de Secure camera](../assets/img/android/secure_camera-dark.svg#only-dark){ align=right }
 
 **Secure Camera** est une application de caméra axée sur la confidentialité et la sécurité qui permet de capturer des images, des vidéos et des codes QR. Les extensions du vendeur CameraX (Portrait, HDR, Night Sight, Face Retouch et Auto) sont également prises en charge sur les appareils disponibles.
 
-[:octicons-repo-16: Repository](https://github.com/GrapheneOS/Camera#readme){ .md-button .md-button--primary }
+[:octicons-repo-16: Répertoire](https://github.com/GrapheneOS/Camera#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://grapheneos.org/usage#camera){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-code-16:](https://github.com/GrapheneOS/Camera){ .card-link title="Code Source" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contrribuer }
 
 <details class="downloads" markdown>
 <summary>Téléchargements</summary>
@@ -90,7 +90,7 @@ Les principales fonctionnalités de confidentialité incluent :
 
 - Suppression automatique des métadonnées [Exif](https://en.wikipedia.org/wiki/Exif) (activée par défaut)
 - Utilisation de la nouvelle API [Media](https://developer.android.com/training/data-storage/shared/media), par conséquent les [autorisations de stockage](https://developer.android.com/training/data-storage) ne sont pas nécessaires
-- L'autorisation d'utiliser un microphone n'est pas nécessaire, sauf si vous souhaitez enregistrer des sons
+- L'autorisation d'utiliser un microphone n'est pas nécessaire, sauf si vous souhaitez enregistrer du son
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
@@ -103,25 +103,25 @@ Les métadonnées d'orientation de l'image ne sont pas supprimées. Si vous acti
 
 ### Secure PDF Viewer
 
-<small>Protège contre la/les menaces suivantes :</small>
+<small>Protège contre la(les) menace(s) suivante(s) :</small>
 
-- [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-target-account: Attaques ciblées](../basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
 <div class="admonition recommendation" markdown>
 
-![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
-![Secure PDF Viewer logo](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
+![logo de Secure PDF Viewer](../assets/img/android/secure_pdf_viewer.svg#only-light){ align=right }
+![logo de Secure PDF Viewer](../assets/img/android/secure_pdf_viewer-dark.svg#only-dark){ align=right }
 
-**Secure PDF Viewer** est une visionneuse de PDF basée sur [pdf.js](https://en.wikipedia.org/wiki/PDF.js) qui ne nécessite aucune permission. Le PDF est introduit dans une [webview](https://developer.android.com/guide/webapps/webview) [sandboxed](https://en.wikipedia.org/wiki/Sandbox_\(software_development\)). Cela signifie qu'il n'a pas besoin d'autorisation directe pour accéder au contenu ou aux fichiers.
+**Secure PDF Viewer** est une visionneuse de PDF basée sur [pdf.js](https://en.wikipedia.org/wiki/PDF.js) qui ne nécessite aucune permission. Le PDF est introduit dans une [webview](https://developer.android.com/guide/webapps/webview) [sandboxée](https://en.wikipedia.org/wiki/Sandbox_\(software_development\)). Cela signifie qu'il n'a pas besoin d'autorisation directe pour accéder au contenu ou aux fichiers.
 
 [Content-Security-Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) est utilisé pour s'assurer que les propriétés JavaScript et de style à l'intérieur de la WebView sont entièrement statiques.
 
-[:octicons-repo-16: Repository](https://github.com/GrapheneOS/PdfViewer#readme){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-repo-16: Répertoire](https://github.com/GrapheneOS/PdfViewer#readme){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/GrapheneOS/PdfViewer){ .card-link title="Code Source" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.grapheneos.pdfviewer.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/PdfViewer/releases)

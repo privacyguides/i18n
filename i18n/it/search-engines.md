@@ -1,8 +1,8 @@
 ---
-meta_title: "Recommended Search Engines: Anonymous Alternatives to Google - Privacy Guides"
+meta_title: "Motori di Ricerca Consigliati: Alternative Anonime a Google - Privacy Guides"
 title: Motori di ricerca
 icon: material/search-web
-description: Use privacy-respecting search engines which don't build an advertising profile based on your searches.
+description: Usa motori di ricerca che rispettano la privacy e che non costruiscono un profilo pubblicitario secondo le tue ricerche.
 cover: search-engines.webp
 global:
   - 
@@ -25,9 +25,9 @@ Considera l'utilizzo di una [VPN](vpn.md) o di [Tor](tor.md), se il tuo modello 
 | Provider                      | Indice di Ricerca                                                                                                                                                           | Servizio Nascosto Tor         | Logging / Informativa sulla privacy | Paese di Esercizio    |
 | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | ----------------------------------- | --------------------- |
 | [Brave Search](#brave-search) | [Indipendente](https://brave.com/search-independence)                                                                                                                       | :material-check:{ .pg-green } | Anonimizzato[^1]                    | Stati Uniti d'America |
-| [DuckDuckGo](#duckduckgo)     | [Bing](https://help.duckduckgo.com/results/sources)                                                                                                                         | :material-check:{ .pg-green } | Anonymized[^2]                      | Stati Uniti d'America |
-| [Mullvad Leta](#mullvad-leta) | [Brave and Google](https://leta.mullvad.net/faq#what-can-leta-do)                                                                                                           | :material-check:{ .pg-green } | Anonymized[^3]                      | Sweden                |
-| [Startpage](#startpage)       | [Google e Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) | :material-check:{ .pg-green } | Anonymized[^4]                      | Paesi Bassi           |
+| [DuckDuckGo](#duckduckgo)     | [Bing](https://help.duckduckgo.com/results/sources)                                                                                                                         | :material-check:{ .pg-green } | Anonimizzato[^2]                    | Stati Uniti d'America |
+| [Mullvad Leta](#mullvad-leta) | [Brave e Google](https://leta.mullvad.net/faq#what-can-leta-do)                                                                                                             | :material-check:{ .pg-green } | Anonimizzato[^3]                    | Svezia                |
+| [Startpage](#startpage)       | [Google e Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) | :material-check:{ .pg-green } | Anonimizzato[^4]                    | Paesi Bassi           |
 
 ### Brave Search
 
@@ -35,14 +35,14 @@ Considera l'utilizzo di una [VPN](vpn.md) o di [Tor](tor.md), se il tuo modello 
 
 ![Logo di Brave Search](assets/img/search-engines/brave-search.svg){ align=right }
 
-**Brave Search** è un motore di ricerca sviluppato da Brave. It includes unique features such as [Discussions](https://search.brave.com/help/discussions), which highlights conversation-focused results such as forum posts.
+**Brave Search** è un motore di ricerca sviluppato da Brave. Include funzionalità uniche come le [Discussioni](https://search.brave.com/help/discussions), che evidenziano i risultati basati sulle conversazioni, come i post dei forum.
 
-Brave Search is the default search engine for the [Brave Browser](desktop-browsers.md#brave).
+Brave Search è il motore di ricerca predefinito di [Brave Browser](desktop-browsers.md#brave).
 
-[:octicons-home-16: Homepage](https://search.brave.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://search.brave.com/help){ .card-link title="Documentation" }
+[:octicons-home-16: Pagina Principale](https://search.brave.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Servizio Onion" }
+[:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://search.brave.com/help){ .card-link title="Documentazione"}
 
 </div>
 
@@ -56,53 +56,51 @@ Ti consigliamo di disabilitare le [Statistiche di utilizzo anonime](https://sear
 
 ![Logo di DuckDuckGo](assets/img/search-engines/duckduckgo.svg){ align=right }
 
-**DuckDuckGo** è uno dei motori di ricerca privati più popolari. Notable DuckDuckGo search features include [bangs](https://duckduckgo.com/bang) and a variety of [instant answers](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features). The search engine uses numerous [sources](https://help.duckduckgo.com/results/sources) other than Bing for instant answers and other non-primary results.
+**DuckDuckGo** è uno dei motori di ricerca privati più popolari. Alcune funzioni di ricerca di DuckDuckGo degne di nota sono i [bangs](https://duckduckgo.com/bang) e molte [risposte istantanee](https://help.duckduckgo.com/duckduckgo-help-pages/features/instant-answers-and-other-features). Il motore di ricerca utilizza numerose [fonti](https://help.duckduckgo.com/results/sources) oltre a Bing per le risposte istantanee e altri risultati secondari.
 
-DuckDuckGo is the default search engine for the [Tor Browser](tor.md#tor-browser) and is one of the few available options on Apple’s [Safari](mobile-browsers.md#safari-ios) browser.
+DuckDuckGo è il motore di ricerca predefinito del [Tor Browser](tor.md#tor-browser) ed è una delle poche opzioni disponibili sul browser [Safari](mobile-browsers.md#safari-ios) di Apple.
 
-[:octicons-home-16: Homepage](https://duckduckgo.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.duckduckgo.com){ .card-link title="Documentation" }
+[:octicons-home-16: Pagina Principale](https://duckduckgo.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Servizio Onion" }
+[:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://help.duckduckgo.com){ .card-link title="Documentazione"}
 
 </div>
 
-DuckDuckGo offers two [other versions](https://help.duckduckgo.com/features/non-javascript) of their search engine, both of which do not require JavaScript. Tuttavia, queste versioni mancano di funzionalità. These versions can also be used in conjunction with their Tor hidden address by appending [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) or [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) for the respective version.
+DuckDuckGo offre [altre due versioni](https://help.duckduckgo.com/features/non-javascript) del loro motore di ricerca, entrambe le quali non richiedono JavaScript. Tuttavia, queste versioni mancano di funzionalità. Queste versioni possono anche essere utilizzate in combinazione con il loro indirizzo Tor nascosto aggiungendo [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) o [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) per la rispettiva versione.
 
 ### Mullvad Leta
 
 <div class="admonition recommendation" markdown>
 
-![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
+![Logo di Mullvad](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad Leta** is a search engine developed by Mullvad. It uses a [shared cache](https://leta.mullvad.net/faq#what-is-cached-search) to fetch search results and limit calls to the search APIs it uses.
+**Mullvad Leta** è un motore di ricerca sviluppato da Mullvad. Utilizza una [cache condivisa](https://leta.mullvad.net/faq#what-is-cached-search) per recuperare i risultati della ricerca e limitare le chiamate alle API di ricerca utilizzate.
 
-Mullvad Leta currently only provides text search results. It is the default search engine for the [Mullvad Browser](desktop-browsers.md#mullvad-browser).
+Mullvad Leta attualmente fornisce solo risultati di ricerca testuali. È il motore di ricerca predefinito del [Mullvad Browser](desktop-browsers.md#mullvad-browser).
 
-[:octicons-home-16: Homepage](https://leta.mullvad.net){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://uxngojcovdcyrmwkmkltyy2q7enzzvgv7vlqac64f2vl6hcrrqtlskqd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://leta.mullvad.net/terms-of-service){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://leta.mullvad.net/faq){ .card-link title="Documentation" }
+[:octicons-home-16: Pagina Principale](https://leta.mullvad.net){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://uxngojcovdcyrmwkmkltyy2q7enzzvgv7vlqac64f2vl6hcrrqtlskqd.onion){ .card-link title="Servizio Onion" }
+[:octicons-eye-16:](https://leta.mullvad.net/terms-of-service){ . ard-link title="Informativa sulla Privacy" }
+[:octicons-info-16:](https://leta.mullvad.net/faq){ .card-link title="Documentazione" }
 
 </div>
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Suggerimento</p>
 
-Mullvad Leta is useful if you want to disable JavaScript in your browser, such as [Mullvad Browser](desktop-browsers.md#mullvad-browser) on the Safest security level.
+Mullvad Leta è utile se vuoi disabilitare JavaScript nel tuo browser, come [Mullvad Browser](desktop-browsers.md#mullvad-browser) nel suo livello di sicurezza più elevato.
 
 </div>
 
-Mullvad Leta was [audited](https://mullvad.net/en/blog/security-audit-of-our-letamullvadnet-search-service) by Assured AB in March 2023. All issues were addressed and fixed shortly after the [report](https://assured.se/publications/Assured_Mullvad_Leta_pentest_report_2023.pdf).
+Mullvad Leta è stato [revisionato](https://mullvad.net/en/blog/security-audit-of-our-letamullvadnet-search-service) da Assured AB nel marzo 2023. Tutti i problemi sono stati affrontati e risolti poco dopo il [report](https://assured.se/publications/Assured_Mullvad_Leta_pentest_report_2023.pdf).
 
 ### Startpage
 
 <div class="admonition recommendation" markdown>
 
-![Startpage logo](assets/img/search-engines/startpage.svg#only-light){ align=right }
-![Startpage logo](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right }
-
-**Startpage** is a private search engine. One of Startpage's unique features is the [Anonymous View](https://startpage.com/en/anonymous-view), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. A differenza di quanto suggerito dal nome, non ci si dovrebbe affidare a tale funzionalità per l'anonimato. Se cerchi l'anonimato, piuttosto, utilizza il [Tor Browser](tor.md#tor-browser).
+![Logo di Startpage](assets/img/search-engines/startpage.svg#only-light){ align=right }
+![Logo di Startpage](assets/img/search-engines/startpage-dark.svg#only-dark){ align=right } One of Startpage's unique features is the [Anonymous View](https://startpage.com/en/anonymous-view), which puts forth efforts to standardize user activity to make it more difficult to be uniquely identified. The feature can be useful for hiding [some](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) network and browser properties. A differenza di quanto suggerito dal nome, non ci si dovrebbe affidare a tale funzionalità per l'anonimato. Se cerchi l'anonimato, piuttosto, utilizza il [Tor Browser](tor.md#tor-browser).
 
 [:octicons-home-16: Homepage](https://startpage.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion){ .card-link title="Onion Service" }

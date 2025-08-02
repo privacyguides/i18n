@@ -1,29 +1,29 @@
-*[2FA]: Authentification à deux facteurs
-*[ADB]: Pont de débogage Android
-*[AOSP]: Projet Android Open Source
-*[ATA]: Attachement de technologie avancée
-*[surface d'attaque]: Le nombre total de points d'entrée possibles pour un accès non autorisé à un système
-*[AVB]: Démarrage Vérifié d'Android
-*[cgroups]: Groupes de contrôle
-*[CLI]: Interface de ligne de commande
-*[CSV]: Valeurs séparées par des virgules
-*[CVE]: Vulnérabilités et expositions courantes
+*[2FA] : Authentification à deux facteurs
+*[ADB] : Pont de débogage Android
+*[AOSP] : Projet Android Open Source
+*[ATA] : Attachement de technologie avancée
+*[surface d'attaque] : Le nombre total de points d'entrée possibles pour un accès non autorisé à un système
+*[AVB] : Démarrage Vérifié d'Android
+*[cgroups] : Groupes de contrôle
+*[CLI] : Interface de ligne de commande
+*[CSV] : Valeurs séparées par des virgules
+*[CVE] : Vulnérabilités et expositions courantes
 *[interface truquée] : Un modèle de conception trompeur destiné à inciter l'utilisateur à faire certaines choses
 *[fonctionnalité d'héritage numérique] : L'héritage numérique désigne les fonctions qui vous permettent de donner à d'autres personnes l'accès à vos données après votre décès
-*[DNSSEC]: Extensions de sécurité du système de nom de domaine
-*[DNS]: Système de nom de domaine
-*[DoH]: DNS sur HTTPS
-*[DoQ]: DNS sur QUIC
-*[DoH3]: DNS sur HTTP/3
-*[DoT]: DNS sur TLS
-*[DPI]: L'inspection approfondie des paquets (Deep Packet Inspection) identifie et bloque les paquets contenant des charges utiles spécifiques
+*[DNSSEC] : Extensions de sécurité du système de nom de domaine
+*[DNS] : Système de nom de domaine
+*[DoH] : DNS sur HTTPS
+*[DoQ] : DNS sur QUIC
+*[DoH3] : DNS sur HTTP/3
+*[DoT] : DNS sur TLS
+*[DPI] : L'inspection profonde de paquets (Deep Packet Inspection) identifie et bloque les paquets contenant des charges utiles spécifiques
 *[E2EE]: Chiffrement/Chiffré(e)s de bout en bout
-*[ECS]: Sous-réseau du client EDNS
-*[EEA]: Espace économique européen
-*[entropy]: Une mesure du degré d'imprévisibilité d'une chose
-*[EOL]: Fin de vie
-*[Exif]: Format de fichier image échangeable
-*[FCM]: Messagerie Cloud Firebase
+*[ECS] : Sous-réseau du client EDNS
+*[EEA] : Espace économique européen
+*[entropie] : Une mesure du degré d'imprévisibilité d'une chose
+*[EOL] : Fin de vie
+*[Exif] : Format de fichier image échangeable
+*[FCM] : Messagerie en nuage Firebase
 *[FDE]: Chiffrement complet du disque
 *[FIDO]: Identité rapide en ligne
 *[CP]: Confidentialité persistante
