@@ -268,7 +268,7 @@ Cromite هو متصفح مبني على Chromium ويأتي مزودا بمان�
 
 ## Safari (iOS)
 
-على نظام iOS، أي تطبيق يتيح تصفح الويب يكون [مقيدا](https://developer.apple.com/app-store/review/guidelines) باستخدام [WebKit framework](https://developer.apple.com/documentation/webkit) المقدم من Apple، لذلك فإن متصفح مثل [Brave](#brave) لا يستخدم محرك Chromium كما يفعل على أنظمة التشغيل الأخرى.
+On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Blink engine (the core component of Chromium) like its counterparts on other operating systems.
 
 <div class="admonition recommendation" markdown>
 

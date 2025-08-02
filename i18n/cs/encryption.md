@@ -16,7 +16,7 @@ The options listed here are available on multiple platforms and great for creati
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-bug-outline: Pasivní útoky](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 
 <div class="admonition recommendation" markdown>
 
@@ -300,7 +300,7 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 <small>Protects against the following threat(s):</small>
 
 - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-bug-outline: Pasivní útoky](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 OpenPGP is sometimes needed for specific tasks such as digitally signing and encrypting email. PGP has many features and is [complex](https://latacora.micro.blog/2019/07/16/the-pgp-problem.html) as it has been around a long time. For tasks such as signing or encrypting files, we suggest the above options.

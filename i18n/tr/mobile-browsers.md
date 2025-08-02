@@ -268,7 +268,7 @@ Bu, bakımı yapılmamış Bromite adblock filtresi için güncelleme denetimler
 
 ## Safari (iOS)
 
-iOS'ta, web'de gezinebilen herhangi bir uygulama Apple tarafından sağlanan [WebKit çerçevesini](https://developer.apple.com/documentation/webkit) kullanmakla [sınırlıdır](https://developer.apple.com/app-store/review/guidelines), bu nedenle [Brave](#brave) gibi bir tarayıcı diğer işletim sistemlerindeki benzerleri gibi Chromium motorunu kullanmaz.
+On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Blink engine (the core component of Chromium) like its counterparts on other operating systems.
 
 <div class="admonition recommendation" markdown>
 

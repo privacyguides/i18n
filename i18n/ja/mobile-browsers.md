@@ -268,7 +268,7 @@ Bromiteの更新されていない広告フィルタへのアップデートを�
 
 ## Safari (iOS)
 
-iOSではウェブブラウザの機能があるアプリはAppleが提供する[WebKitフレームワーク](https://developer.apple.com/documentation/webkit)のみに[限られています](https://developer.apple.com/app-store/review/guidelines)。そのため、[Brave](#brave)のような他のOS版ではChromiumエンジンが使われているようなものでもChromiumエンジンは使われていません。
+On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Blink engine (the core component of Chromium) like its counterparts on other operating systems.
 
 <div class="admonition recommendation" markdown>
 

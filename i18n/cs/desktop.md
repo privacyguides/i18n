@@ -191,7 +191,7 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-bug-outline: Pasivní útoky](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 
 ### Qubes OS
 

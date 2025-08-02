@@ -7,7 +7,7 @@ cover: calendar.webp
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-bug-outline: Pasivní útoky](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 **Kalendáře** obsahují nekterá vaše citlivá data; používejte služby, které využívají E2EE šifrování pro uložená data, abyste zabránili poskytovali služby v jejich čtení.

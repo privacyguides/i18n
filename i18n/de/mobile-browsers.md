@@ -268,7 +268,7 @@ This disables update checks for the unmaintained Bromite adblock filter.
 
 ## Safari (iOS)
 
-Unter iOS ist jede App, die im Internet surfen kann, [beschränkt](https://developer.apple.com/app-store/review/guidelines) auf das von Apple bereitgestellte [WebKit-Framework](https://developer.apple.com/documentation/webkit). Ein Browser wie [Brave](#brave) verwendet also nicht die Chromium-Engine wie seine Pendants auf anderen Betriebssystemen.
+On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Blink engine (the core component of Chromium) like its counterparts on other operating systems.
 
 <div class="admonition recommendation" markdown>
 

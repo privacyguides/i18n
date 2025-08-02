@@ -51,32 +51,32 @@ Omezení informací, které jsou o vás dostupné online – ať už vyhledáva�
 
 Vyhýbání se cenzurovanému přístupu k informacím nebo vlivu cenzury při vyjadřování se on-line.
 
-Některé z těchto hrozeb mohou být pro vás důležitější než jiné, v závislosti na vašich konkrétních zájmech. Například, softwarový vývojář s přístupem k cenným nebo kritickým datům se může zajímat převážně o <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain útoky</span> a <span class="pg-red">:material-target-account: cílené útoky</span>. Pravděpodobně ale také budou chtít chránit svá osobní data před tím, aby byly zachyceny pomocí programů pro <span class="pg-blue">:material-eye-outline: hromadné sledování</span>. Similarly, many people may be primarily concerned with <span class="pg-green">:material-account-search: Public Exposure</span> of their personal data, but they should still be wary of security-focused issues, such as <span class="pg-orange">:material-bug-outline: Passive Attacks</span>—like malware affecting their devices.
+Některé z těchto hrozeb mohou být pro vás důležitější než jiné, v závislosti na vašich konkrétních zájmech. Například, softwarový vývojář s přístupem k cenným nebo kritickým datům se může zajímat převážně o <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain útoky</span> a <span class="pg-red">:material-target-account: cílené útoky</span>. Pravděpodobně ale také budou chtít chránit svá osobní data před tím, aby byly zachyceny pomocí programů pro <span class="pg-blue">:material-eye-outline: hromadné sledování</span>. Mnoho lidí se taky mohou obávat o to, že jejich osobní data budou <span class="pg-green">:material-account-search: vystaveny veřejnosti</span>, ale i tak by se měli mít na pozoru před problémy v rámci bezpečnosti, jako jsou třeba <span class="pg-orange">:material-bug-outline: pasivní útoky</span>, které mohou mít podobu malwaru, který napadl jejich zařízení.
 
-## Anonymity vs. Privacy
+## Anonymita vs soukromí
 
-<span class="pg-purple">:material-incognito: Anonymity</span>
+<span class="pg-purple">:material-incognito: Anonymita</span>
 
-Anonymity is often confused with privacy, but they're distinct concepts. While privacy is a set of choices you make about how your data is used and shared, anonymity is the complete disassociation of your online activities from your real identity.
+Anonymita se často zaměňuje za soukromí, ale jde o odlišné pojmy. Zatímco soukromí definují rozhodnutí, jak svá data používáte a sdílíte, anonymita je úplné oddělení vaší on-line aktivity od skutečné identity.
 
-Whistleblowers and journalists, for example, can have a much more extreme threat model which requires total anonymity. That's not only hiding what they do, what data they have, and not getting hacked by malicious actors or governments, but also hiding who they are entirely. They will often sacrifice any kind of convenience if it means protecting their anonymity, privacy, or security, because their lives could depend on it. Most people don't need to go so far.
+Například informátoři a novináři mohou mít mnohem extrémnější threat model, který vyžaduje naprostou anonymitu. Takže nejen že skrývají, co dělají, jaká data mají, a snaží se nepodlehnout útokům škodlivých aktérů nebo vlád, ale zároveň kompletně skrývají, kdo jsou. Často obětují jakékoliv pohodlí, pokud to znamená, že tím ochrání svoji anonymitu, soukromí nebo bezpečnost, protože na tom mohou záviset jejich životy. Většina lidí ale tak daleko zacházet nemusí.
 
-## Security and Privacy
+## Bezpečnost a soukromí
 
-<span class="pg-orange">:material-bug-outline: Passive Attacks</span>
+<span class="pg-orange">:material-bug-outline: Pasivní útoky</span>
 
-Security and privacy are also often confused, because you need security to obtain any semblance of privacy: Using tools—even if they're private by design—is futile if they could be easily exploited by attackers who later release your data. However, the inverse isn't necessarily true: The most secure service in the world *isn't necessarily* private. The best example of this is trusting data to Google who, given their scale, have had few security incidents by employing industry-leading security experts to secure their infrastructure. Even though Google provides very secure services, very few people would consider their data private in Google's free consumer products (Gmail, YouTube, etc.)
+Bezpečnost a soukromí jsou často zaměňovány, protože potřebujete zabezpečení k tomu, abyste dosáhli jakékoliv podoby soukromí: Používání nástrojů – i kdyby respektovaly soukromí už v základě – je zbytečné, pokud mohou být jednoduše zneužité útočníky, kteří později vaše data zveřejní. Nemusí ale vždy platit opak: Ty nejbezpečnější služby na světe *nejsou nutně* soukromé. Nejlepším příkladem je svěření svých dat Googlu, který měl, vzhledem ke své velikosti, jen pár bezpečnostních incidentů, jelikož k zabezpečení své infrastruktury zaměstnává špičkové bezpečnostní experty. Ale i když Google poskytuje velmi bezpečné služby, jen málokdo by řekl o datech v bezplatných spotřebitelských Google službách (Gmail, Youtube apod.), že jsou v soukromí.
 
-When it comes to application security, we generally don't (and sometimes can't) know if the software we use is malicious, or might one day become malicious. Even with the most trustworthy developers, there's generally no guarantee that their software doesn't have a serious vulnerability that could later be exploited.
+Co se týče bezpečnosti aplikací, obvykle nevíme (a často ani nemůžeme vědět), jestli je software, který používáme, škodlivý, nebo jestli se jednoho dne škodlivým stane. Ani s těmi nejdůvěryhodnějšími vývojáři se nepojí žádná záruka, že jejich software neobsahuje vážnou zranitelnost, která by mohla být později zneužita.
 
-To minimize the damage that a malicious piece of software *could* do, you should employ security by compartmentalization. For example, this could come in the form of using different computers for different jobs, using virtual machines to separate different groups of related applications, or using a secure operating system with a strong focus on application sandboxing and mandatory access control.
+Abyste minimalizovali škody, které by *mohl* škodlivý software způsobit, měli byste využívat zabezpečování pomocí rozdělování. To může mít podobu používání různých počítačů pro různé úlohy, používání virtuální strojů pro oddělení různých druhů aplikací, nebo používání bezpečných operačních systémů se silným důrazem na sandboxing aplikací a mandatorní řízení přístupů.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
 
-Mobile operating systems generally have better application sandboxing than desktop operating systems: Apps can't obtain root access, and require permission for access to system resources.
+Mobilní operační systémy mají obecně lepší sandboxing aplikací než desktopové operační systému: Aplikace nemohou získat root přístup, ale potřebují oprávnění pro přístup ke zdrojům systému.
 
-Desktop operating systems generally lag behind on proper sandboxing. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). However, these operating systems do transmit identifying information to their respective OEMs. Linux tends to not submit information to system vendors, but it has poor protection against exploits and malicious apps. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+Desktopové operační systémy obecně zaostávají za náležitou implementací sandboxingu. ChromeOS má podobné možnosti sandboxingu jako Android a macOS má kompletní systém pro řízení oprávnění (a vývojáři se mohou rozhodnout sandboxing pro své aplikace povolit). Tyto operační systémy ale přenášejí informace použitelné k identifikaci jejich původním výrobcům. Linux tends to not submit information to system vendors, but it has poor protection against exploits and malicious apps. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
 
 </div>
 

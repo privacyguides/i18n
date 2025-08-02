@@ -268,7 +268,7 @@ Isso desativa as verificações de atualização do filtro de bloqueio de anúnc
 
 ## Safari (iOS)
 
-No iOS, qualquer aplicativo que possa navegar na Web está [restrito](https://developer.apple.com/app-store/review/guidelines) ao uso de uma [estrutura WebKit](https://developer.apple.com/documentation/webkit) fornecida pela Apple, portanto, um navegador como o [Brave](#brave) não usa o mesmo mecanismo utilizado no Chromium assim seus equivalentes em outros sistemas operacionais como aparelhos Android.
+On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Blink engine (the core component of Chromium) like its counterparts on other operating systems.
 
 <div class="admonition recommendation" markdown>
 

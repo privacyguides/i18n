@@ -268,7 +268,7 @@ Cromite contains a customized version of Adblock Plus with EasyList enabled by d
 
 ## Safari (iOS)
 
-在 iOS 上，任何可以瀏覽網頁的應用程式都[只能](https://developer.apple.com/app-store/review/guidelines)使用 Apple 提供的 [WebKit 框架](https://developer.apple.com/documentation/webkit)，因此 [Brave](#brave) 這類瀏覽器無法像其他作業系統一樣使用 Chromium 引擎。
+On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Blink engine (the core component of Chromium) like its counterparts on other operating systems.
 
 <div class="admonition recommendation" markdown>
 

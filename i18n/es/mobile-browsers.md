@@ -268,7 +268,7 @@ Esto desactiva las comprobaciones de actualización para el filtro adblock Bromi
 
 ## Safari (iOS)
 
-En iOS, cualquier aplicación que pueda navegar por la web está [restringida](https://developer.apple.com/app-store/review/guidelines) a utilizar un [framework WebKit](https://developer.apple.com/documentation/webkit) proporcionado por Apple, por lo que un navegador como [Brave](#brave) no utiliza el motor Chromium como sus homólogos en otros sistemas operativos.
+On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Blink engine (the core component of Chromium) like its counterparts on other operating systems.
 
 <div class="admonition recommendation" markdown>
 
