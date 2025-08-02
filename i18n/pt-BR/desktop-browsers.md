@@ -1,6 +1,6 @@
 ---
 meta_title: "Navegadores de Internet que Respeitam a Privacidade para PC e Mac — Privacy Guides"
-title: "Navegadores Desktop"
+title: Navegadores Desktop
 icon: material/laptop
 description: Estes navegadores com foco em privacidade são o que recomendamos atualmente para a navegação normal/não anônima na Internet em computadores de uso doméstico.
 cover: desktop-browsers.webp
@@ -116,9 +116,9 @@ Isso é necessário para evitar formas avançadas de rastreamento, mas vem com o
 
 ### Mullvad Leta
 
-O Mullvad Browser vem com [**Mullvad Leta**](https://leta.mullvad.net) como mecanismo de pesquisa padrão, funcionando como um proxy para os resultados do Google ou do Brave (configurável na página inicial do Mullvad Leta).
+Mullvad Browser comes with [**Mullvad Leta**](search-engines.md#mullvad-leta) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
 
-Se você é usuário do Mullvad VPN, existe algum risco em usar serviços como o Mullvad Leta, que são oferecidos pelo próprio provedor de VPN. Isso ocorre porque, teoricamente, a Mullvad tem acesso ao seu endereço IP real (por meio da VPN) e à sua atividade de pesquisa (por meio do Leta), informações que uma VPN normalmente deveria manter separadas. Mesmo que a Mullvad colete pouquíssimas informações sobre seus assinantes de VPN ou usuários do Leta, você deve considerar um [mecanismo de pesquisa](search-engines.md) diferente se esse risco for uma preocupação para você.
+Se você é usuário do Mullvad VPN, existe algum risco em usar serviços como o Mullvad Leta, que são oferecidos pelo próprio provedor de VPN. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta); the latter is information a VPN is typically intended to separate. Mesmo que a Mullvad colete pouquíssimas informações sobre seus assinantes de VPN ou usuários do Leta, você deve considerar um [mecanismo de pesquisa](search-engines.md) diferente se esse risco for uma preocupação para você.
 
 ## Firefox
 

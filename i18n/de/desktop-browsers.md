@@ -1,6 +1,6 @@
 ---
 meta_title: "Datenschutzfreundliche Webbrowser für PC und Mac - Privacy Guides"
-title: "Desktop Browser"
+title: Desktop Browser
 icon: material/laptop
 description: Diese datenschutzfreundlichen Browser empfehlen wir derzeit für das normale/nicht anonyme Surfen auf Desktop-Systemen.
 cover: desktop-browsers.webp
@@ -113,9 +113,9 @@ Dies ist erforderlich, um fortgeschrittene Formen der Nachverfolgung zu verhinde
 
 ### Mullvad Leta
 
-Mullvad Browser kommt mit [**Mullvad Leta**](https://leta.mullvad.net) als Standard-Suchmaschine, die als Proxy für die Suchergebnisse von Google oder Brave fungiert (konfigurierbar auf der Mullvad Leta Homepage).
+Mullvad Browser comes with [**Mullvad Leta**](search-engines.md#mullvad-leta) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
 
-Wenn du Mullvad VPN-Nutzer bist, besteht ein gewisses Risiko, Dienste wie Mullvad Leta zu nutzen, die von deinem VPN-Provider selbst angeboten werden. Dies liegt daran, dass Mullvad theoretisch Zugriff auf deine wahre IP-Adresse (über ihr VPN) und deine Suchaktivität (via Leta) hat, Informationen, die ein VPN typischerweise trennen soll. Auch wenn Mullvad nur sehr wenige Informationen über seine VPN-Abonnenten oder Leta-Nutzer sammelt, solltest du eine andere [Suchmaschine](search-engines.md) in Betracht ziehen, wenn du dieses Risiko fürchtest.
+Wenn du Mullvad VPN-Nutzer bist, besteht ein gewisses Risiko, Dienste wie Mullvad Leta zu nutzen, die von deinem VPN-Provider selbst angeboten werden. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta); the latter is information a VPN is typically intended to separate. Auch wenn Mullvad nur sehr wenige Informationen über seine VPN-Abonnenten oder Leta-Nutzer sammelt, solltest du eine andere [Suchmaschine](search-engines.md) in Betracht ziehen, wenn du dieses Risiko fürchtest.
 
 ## Firefox
 

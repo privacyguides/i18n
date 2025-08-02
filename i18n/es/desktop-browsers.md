@@ -1,6 +1,6 @@
 ---
 meta_title: "Navegadores Web para PC y Mac que Respetan la Privacidad - Privacy Guides"
-title: "Navegadores de Escritorio"
+title: Navegadores de Escritorio
 icon: material/laptop
 description: Estos navegadores que protegen la privacidad son los que recomendamos actualmente para la navegación estándar/no anónima por Internet en computadoras de escritorio.
 cover: desktop-browsers.webp
@@ -113,9 +113,9 @@ Esto es necesario para evitar formas avanzadas de rastreo, pero a costa de la co
 
 ### Mullvad Leta
 
-Mullvad Browser viene con [**Mullvad Leta**](https://leta.mullvad.net) como motor de búsqueda predeterminado, que funciona como un proxy de los resultados de búsqueda de Google o Brave (configurable en la página de inicio de Mullvad Leta).
+Mullvad Browser comes with [**Mullvad Leta**](search-engines.md#mullvad-leta) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
 
-Si eres usuario de Mullvad VPN, existe cierto riesgo al utilizar servicios que ofrece tu propio proveedor de VPN, como Mullvad Leta. Esto se debe a que Mullvad teóricamente tiene acceso a tu verdadera dirección IP (a través de su VPN) y a tu actividad de búsqueda (a través de Leta), que es la información que una VPN normalmente pretende separar. Aunque Mullvad recoge muy poca información sobre sus suscriptores de VPN o usuarios de Leta, deberías considerar un [motor de búsqueda](search-engines.md) diferente si este riesgo te preocupa.
+Si eres usuario de Mullvad VPN, existe cierto riesgo al utilizar servicios que ofrece tu propio proveedor de VPN, como Mullvad Leta. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta); the latter is information a VPN is typically intended to separate. Aunque Mullvad recoge muy poca información sobre sus suscriptores de VPN o usuarios de Leta, deberías considerar un [motor de búsqueda](search-engines.md) diferente si este riesgo te preocupa.
 
 ## Firefox
 

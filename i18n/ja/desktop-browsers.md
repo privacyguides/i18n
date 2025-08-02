@@ -1,6 +1,6 @@
 ---
 meta_title: "プライバシーを尊重したPCとMac向けウェブブラウザ - Privacy Guides"
-title: "デスクトップブラウザ"
+title: デスクトップブラウザ
 icon: material/laptop
 description: 標準的・非匿名のインターネットブラウジングにおいて推奨するデスクトップシステム向けプライバシー保護ブラウザ。
 cover: desktop-browsers.webp
@@ -113,9 +113,9 @@ Mullvad Browserは常にプライベートブラウジングモードで動作�
 
 ### Mullvad Leta
 
-Mullvad Browserは [**Mullvad Leta**](https://leta.mullvad.net) が標準の検索エンジンになっています。Mullvad LetaはGoogleもしくはBrave（Mullvad Letaのウェブページから設定可能）で検索するプロキシの役割を果たします。
+Mullvad Browser comes with [**Mullvad Leta**](search-engines.md#mullvad-leta) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
 
-もしMullvad VPNのユーザーであるなら、Mullvad LetaのようなVPNプロバイダーが提供するサービスを利用することは一定程度のリスクが生じます。 Mullvadは（VPN経由で）利用している本当のIPアドレスと（Leta経由での）検索アクティビティに理論上はアクセスできてしまいます。これらは本来VPNが分離しようとしているものです。 MullvadはMullvad VPNの利用者やMullvad Letaの利用者からはほとんど情報を収集しませんが、そのようなリスクについて懸念があるならば、別の[検索エンジン](search-engines.md)の利用を検討すべきです。
+もしMullvad VPNのユーザーであるなら、Mullvad LetaのようなVPNプロバイダーが提供するサービスを利用することは一定程度のリスクが生じます。 This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta); the latter is information a VPN is typically intended to separate. MullvadはMullvad VPNの利用者やMullvad Letaの利用者からはほとんど情報を収集しませんが、そのようなリスクについて懸念があるならば、別の[検索エンジン](search-engines.md)の利用を検討すべきです。
 
 ## Firefox
 

@@ -1,6 +1,6 @@
 ---
 meta_title: "Przeglądarki internetowe na PC i Mac respektujące prywatność - Privacy Guides"
-title: "Przeglądarki desktopowe"
+title: Przeglądarki desktopowe
 icon: material/laptop
 description: Te przeglądarki chroniące prywatność są obecnie zalecane do standardowego / nieanonimowego przeglądania Internetu na komputerach stacjonarnych.
 cover: desktop-browsers.webp
@@ -113,9 +113,9 @@ Jest to wymagane, aby zapobiec zaawansowanym formom śledzenia, ale odbywa się 
 
 ### Mullvad Leta
 
-Przeglądarka Mullvad domyślnie korzysta z [**Mullvad Leta**](https://leta.mullvad.net) jako wyszukiwarki, która działa jako proxy do wyników wyszukiwania Google lub Brave (do wyboru na stronie głównej Mullvad Leta).
+Mullvad Browser comes with [**Mullvad Leta**](search-engines.md#mullvad-leta) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
 
-Jeśli jesteś użytkownikiem Mullvad VPN, korzystanie z usług takich jak Mullvad Leta, oferowanych bezpośrednio przez samego dostawcę VPN, wiąże się z pewnym ryzykiem. Dzieje się tak, ponieważ Mullvad teoretycznie ma dostęp zarówno do prawdziwego adresu IP (poprzez VPN), jak i do aktywności wyszukiwania (poprzez Leta) - czyli do informacji, które VPN z założenia powinien od siebie oddzielać. Nawet jeśli Mullvad gromadzi bardzo mało informacji o swoich użytkownikach VPN czy Leta, powinieneś rozważyć użycie innej [wyszukiwarki](search-engines.md), jeśli to ryzyko budzi Twój niepokój.
+Jeśli jesteś użytkownikiem Mullvad VPN, korzystanie z usług takich jak Mullvad Leta, oferowanych bezpośrednio przez samego dostawcę VPN, wiąże się z pewnym ryzykiem. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta); the latter is information a VPN is typically intended to separate. Nawet jeśli Mullvad gromadzi bardzo mało informacji o swoich użytkownikach VPN czy Leta, powinieneś rozważyć użycie innej [wyszukiwarki](search-engines.md), jeśli to ryzyko budzi Twój niepokój.
 
 ## Firefox
 

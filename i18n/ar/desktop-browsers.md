@@ -1,6 +1,6 @@
 ---
 meta_title: "متصفحات ويب تحترم الخصوصية للحاسوب الشخصي والماك - Privacy Guides"
-title: "متصفحات الحاسوب المكتبي"
+title: متصفحات الحاسوب المكتبي
 icon: material/laptop
 description: هذه المتصفحات التي تحمي الخصوصية هي ما نوصي به حاليا لتصفّح الإنترنت العادي (غير المجهول) على أجهزة الكمبيوتر.
 cover: desktop-browsers.webp
@@ -112,9 +112,9 @@ schema:
 
 ### Mullvad Leta
 
-يأتي متصفح Mullvad مزوّدًا بمحرك البحث [**Mullvad Leta**](https://leta.mullvad.net) كخيار افتراضي، وهو يعمل كوسيط (proxy) لعرض نتائج البحث من Google أو Brave، ويمكنك اختيار المحرك الذي تفضّله من الصفحة الرئيسية لـ Mullvad Leta
+Mullvad Browser comes with [**Mullvad Leta**](search-engines.md#mullvad-leta) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
 
-إذا كنت من مستخدمي Mullvad VPN، فهناك قدر من المخاطرة في استخدام خدمات مثل Mullvad Leta، لأنها تُقدم من نفس مزوّد خدمة الـVPN الذي تستخدمه. وذلك لأن Mullvad يمكنها نظريا الوصول إلى عنوان IP الحقيقي الخاص بك (من خلال خدمة الـVPN)، وكذلك إلى نشاطك في البحث (عبر Leta)، وهي معلومات يُفترض أن تظل منفصلة عن بعضها عند استخدام VPN. رغم أن Mullvad لا تجمع إلا القليل جدًا من المعلومات عن مستخدمي خدمة VPN أو Leta، فإنه من الأفضل التفكير في استخدام [محرك بحث آخر](search-engines.md) إذا كانت هذه المخاطرة تثير قلقك.
+إذا كنت من مستخدمي Mullvad VPN، فهناك قدر من المخاطرة في استخدام خدمات مثل Mullvad Leta، لأنها تُقدم من نفس مزوّد خدمة الـVPN الذي تستخدمه. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta); the latter is information a VPN is typically intended to separate. رغم أن Mullvad لا تجمع إلا القليل جدًا من المعلومات عن مستخدمي خدمة VPN أو Leta، فإنه من الأفضل التفكير في استخدام [محرك بحث آخر](search-engines.md) إذا كانت هذه المخاطرة تثير قلقك.
 
 ## Firefox
 
