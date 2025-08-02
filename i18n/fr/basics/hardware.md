@@ -10,7 +10,7 @@ Quand on parle de la protection de la vie privée, on ne réfléchit souvent pas
 
 Les composants de vos appareils traitent et stockent toutes vos données digitales. Il est important que tous les appareils soient encore supportés par le fabricant et les développeurs afin de recevoir les mises à jour de sécurité.
 
-### Hardware Security Programs
+### Programmes de sécurité du matériel
 
 Certains appareils disposent d'un "programme de sécurité du matériel", issu d'une collaboration entre les fournisseurs sur les bonnes pratiques et les recommandations lors de la conception du matériel, par exemple :
 
@@ -23,45 +23,45 @@ Même si vous n'utilisez pas ces systèmes d'exploitation, la participation à c
 
 ### Système d'exploitation préinstallé
 
-New computers nearly always come with Windows preinstalled, unless you buy a Mac or a specialty Linux machine. It's usually a good idea to wipe the drive and install a fresh copy of your operating system of choice, even if that means just reinstalling Windows from scratch. Due to agreements between hardware vendors and shady software vendors, the default Windows install often comes preloaded with bloatware, [adware](https://bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal), or even [malware](https://zdnet.com/article/dell-poweredge-motherboards-ship-with-malware).
+Les ordinateurs neufs sont presque toujours livrés avec Windows, à moins d'acheter un Mac ou une machine Linux spécialisée. Il est généralement conseillé d'effacer entièrement le disque et d'installer une nouvelle copie du système d'exploitation de votre choix, même si cela signifie réinstaller Windows à partir de zéro. En raison d'accords entre les fournisseurs hardware et des éditeurs de logiciels douteux, l'installation par défaut de Windows est souvent préchargée de bloatware, [adware](https://bleepingcomputer.com/news/technology/lenovo-gets-a-slap-on-the-wrist-for-superfish-adware-scandal), voire de [malware](https://zdnet.com/article/dell-poweredge-motherboards-ship-with-malware).
 
-### Mises à jour du micrologiciel
+### Mises à jour du micrologiciel (firmware)
 
-Hardware often has security issues that are discovered and patched through firmware updates for your hardware.
+Le hardware présente souvent des problèmes de sécurité qui sont découverts et corrigés par des mises à jour du firmware de votre matériel.
 
-Almost every component of your computer requires firmware to operate, from your motherboard to your storage devices. It is ideal for all the components of your device to be fully supported. Apple devices, Chromebooks, most Android phones, and Microsoft Surface devices will handle firmware updates for you as long as the device is supported.
+Presque tous les composants de votre ordinateur ont besoin d'un firmware pour fonctionner, de la carte mère aux périphériques de stockage. L'idéal est que tous les composants de votre appareil soient entièrement pris en charge. Les appareils Apple, les Chromebooks, la plupart des téléphones Android et les appareils Microsoft Surface gèrent les mises à jour du firmware pour vous tant que l'appareil est pris en charge.
 
-If you build your own PC, you may need to manually update your motherboard's firmware by downloading it from your OEM's website. If you use Linux, consider using the built-in [`fwupd`](https://fwupd.org) tool that will let you check for and apply any firmware updates available for your motherboard.
+Si vous construisez votre propre PC, il se peut que vous deviez mettre à jour manuellement le firmware de votre carte mère en le téléchargeant directement à partir du site du fabricant d'origine. Si vous utilisez Linux, envisagez l'utilisation de l'outil intégré [`fwupd`](https://fwupd.org) qui vous permettra de vérifier et d'appliquer les mise à jour du firmware de votre carte mère.
 
-### TPM/Secure Cryptoprocessor
+### TPM/Cryptoprocesseur sécurisé
 
-Most computers and phones come equipped with a TPM (or a similar secure cryptoprocessor) which safely stores your encryption keys and handles other security-related functions. If you're currently using a machine that doesn't have one of these, you might benefit from purchasing a newer computer that has this feature. Some desktop and server motherboards have a "TPM header" which can accept a small accessory board containing the TPM.
+La plupart des ordinateurs et des téléphones sont équipés d'un TPM (ou d'un cryptoprocesseur sécurisé similaire) qui stocke en toute sécurité vos clés de chiffrement et gère d'autres fonctions liées à la sécurité. Si vous utilisez actuellement un appareil qui n'en est pas équipé, il peut être intéressant d'aquérir un nouvel ordinateur disposant de cette fonctionnalité. Certaines cartes mères d'ordinateurs de bureau et de serveurs sont dotées d'un "en-tête TPM" qui peut accueillir une petite carte accessoire contenant le TPM.
 
 <div class="admonition Note" markdown>
 <p class="admonition-title">Note</p>
 
-Virtual TPMs are susceptible to side-channel attacks and external TPMs, as a result of being separate from the CPU on the motherboard, are vulnerable to [sniffing](https://pulsesecurity.co.nz/articles/TPM-sniffing) when an attacker has access to the hardware. The solution to this problem is to include the secure processor inside the CPU itself, which is the case for Apple's chips and Microsoft's [Pluton](https://microsoft.com/en-us/security/blog/2020/11/17/meet-the-microsoft-pluton-processor-the-security-chip-designed-for-the-future-of-windows-pcs).
+Les TPM virtuels sont vulnérables aux attaques par canal auxiliaire et les TPM externe, du fait qu'ils soient séparés de la CPU sur la carte mère, sont vulnérable au [sniffing](https://pulsesecurity.co.nz/articles/TPM-sniffing) lorsqu'un attaquant a accès au hardware. La solution à ce problème consiste à inclure le processeur sécurisé dans la CPU elle-même, comme c'est le cas pour les puces d'Apple et le [Pluton](https://microsoft.com/en-us/security/blog/2020/11/17/meet-the-microsoft-pluton-processor-the-security-chip-designed-for-the-future-of-windows-pcs) de Microsoft.
 
 </div>
 
-### Biometrics
+### Biométrie
 
-Many devices come equipped with a fingerprint reader or face recognition capabilities. These can be very convenient, but they aren't perfect and sometimes fail. Most devices will fall back to a PIN or password when this happens, meaning that the security of your devices is still only as good as your password.
+Beaucoup d'appareil sont équipés de lecteur d'empreinte digitale ou de fonctions de reconnaissance faciale. Ces fonctions peuvent être très pratiques mais ne sont pas parfait et sont parfois susceptibles de ne pas fonctionner. Laplupart des appareils proposent un PIN ou un mot de passe lorsque cela se produit, ce qui signifie que la sécurité de l'appareil est toujours finalement conditionnée par le mot de passe.
 
-Biometrics can prevent someone from watching you type in your password, so if shoulder-surfing is part of your threat model then biometrics are a good option.
+L'utilisation de fonction de biométrie peut empêcher quelqu'un de vous regarder taper votre mot de passe, si le "shoulder-surfing" (regarderr par dessus l'épaule) fait partie de votre modèle de menace, la biométrie peut être une bonne option.
 
-Most implementations of face authentication require you to be looking at your phone and also only work from a relatively close distance, so you don't need to worry too much about someone pointing your phone at your face to unlock it without your consent. You can still disable biometrics when your phone is locked if you want. On iOS, you can hold the side button and a volume button for 3 seconds to disable Face ID on models that support it. On Android, hold the power button and press Lockdown on the menu.
+La plupart des implémentations de l'authentification par reconnaissance faciale exigent que vous regardiez votre téléphone et ne fonctionnent qu'à une distance relativement proche, de sorte que vous n'avez pas à vous inquiéter outre mesure que quelqu'un pointe votre téléphone vers votre visage pour le déverrouiller sans votre consentement. Vous pouvez toujours désactiver les données biométriques lorsque votre téléphone est verrouillé si vous le souhaitez. Sur iOS, vous pouvez maintenir le bouton latéral et un boutton de volume pendant 3 secondes pour désactiver Face ID sur les modèles qui le permettent. Surr Android, maintenez le bouton d'alimentation et appuyez sur Verrouillage (Lockdown) dans le menu.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avertissement</p>
 
-Some devices do not have the proper hardware for secure face authentication. There are two main types of face authentication: 2D and 3D. 3D face authentication makes use of a dot projector that lets the device create a 3D depth map of your face. Make sure that your device has this capability.
+Certains appareils ne disposent pas du hardware adapté pour une utilisation sécurisé de la reconnaissance faciale. Il existe deux principales méthodes de reconnaissance faciale : 2D et 3D. L'authentification faciale en D utilise un projecteur de points qui permet à l'appareil de créée une carte de profondeur en 3D de votre visage. Vérifiez que votre appareil en soit doté.
 
 </div>
 
-Android defines three [security classes](https://source.android.com/docs/security/features/biometric/measure#biometric-classes) for biometrics; you should check that your device is Class 3 before enabling biometrics.
+Android défini trois [classes de sécurité](https://source.android.com/docs/security/features/biometric/measure#biometric-classes) pour la biométrie ; vérifiez que votre appareil est de classe 3 avant d'activer la biométrie.
 
-### Device Encryption
+### Chiffrement de l'appareil
 
 If your device is [encrypted](../encryption.md), your data is most secure when your device is completely powered off (as opposed to merely asleep), i.e. before you've entered your encryption key or lock screen password for the first time. On phones, this state of higher security is referred to as "Before First Unlock" (BFU), and "After First Unlock" (AFU) once you enter the correct password after a reboot/power-on. AFU is considerably less secure against digital forensics toolkits and other exploits, compared to BFU. Therefore, if you are concerned about an attacker with physical access to your device, you should turn it off fully whenever you aren't using it.
 

@@ -88,32 +88,32 @@ Voler proteggere tutti i tuoi dati da tutti e in ogni momento non è pratico, co
 
 ## Informazioni su Privacy Guides
 
-![Privacy Guides logo](assets/brand/logos/png/square/pg-yellow.png){ align=right loading=lazy }
+![Logo di Privacy Guides](assets/brand/logos/png/square/pg-yellow.png){ align=right loading=lazy }
 
-Established in 2021 due to the difficulty of finding unbiased reviewers in the VPN and privacy space, **Privacy Guides** is the most popular, trustworthy, non-profit website that provides information about protecting your *personal* data security and privacy. Our crowdsourced recommendations and reviews of **privacy tools** and our community dedicated to helping others set us apart from other blogs and content creators. The team behind this project has been researching privacy and security in the open-source space for over 5 years, originally with a now-defunct web resource that eventually became the *Privacy Guides* millions of readers trust.
+Fondata nel 2021 a causa della difficoltà di trovare recensori imparziali nel settore delle VPN e della privacy, **Privacy Guides** è il sito web senza scopo di lucro più popolare, affidabile che fornisce informazioni sulla protezione di sicurezza e privacy dei tuoi dati *personali*. Le nostre raccomandazioni e recensioni crowdsourced di **strumenti per la privacy** e la nostra comunità dedicata ad aiutare gli altri ci distinguono da altri blog e creatori di contenuti. Il team che sta alla base di questo progetto ha condotto ricerche sulla privacy e sulla sicurezza nello spazio open-source per oltre 5 anni, inizialmente con una risorsa web ora scomparsa che alla fine è diventata la *Privacy Guides* di cui si fidano milioni di lettori.
 
-*Our website is free of advertisements and not affiliated with any of the listed providers.*
+*Il nostro sito web è privo di pubblicità e non è affiliato con nessuno dei fornitori elencati.*
 
-As seen in **WIRED**, **Tweakers.net**, **The New York Times**, and many other publications as a reliable source for privacy and security knowledge.
+Come si vede in **WIRED**, **Tweakers.net**, **The New York Times** e molte altre pubblicazioni come una fonte affidabile sulla privacy e la sicurezza.
 
-[:material-information: More About Who We Are](about.md){ class="md-button" }
+[:material-information: ](about.md)[ Per saperne di più su chi siamo{](about.md) class="md-button" }
 
 <div class="grid" markdown>
 <div markdown>
-## What are privacy tools?
+## Quali sono gli strumenti per la privacy?
 
-We recommend a wide variety of **privacy tools** (a.k.a. *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can use to improve your privacy. Many of the tools we recommend are completely free to use and open-source software, while some are commercial services available for purchase. Switching from mainstream data-hungry software like Google Chrome and Windows to privacy-focused tools like [Brave](desktop-browsers.md#brave) and [Linux](desktop.md) can go a long way towards controlling the information you share with companies and others.
+Consigliamo una vasta gamma di **strumenti per la privacy** ( *applicazioni per la privacy*, *utility per la privacy*, *software per la privacy*) che comprendono software e hardware che puoi usare per migliorare la tua privacy. Molti degli strumenti che consigliamo sono completamente gratuiti e open-source, mentre altri sono servizi commerciali che possono essere acquistati. Passare da un software convenzionale avido di dati come Google Chrome e Windows a strumenti focalizzati sulla privacy come [Brave](desktop-browsers.md#brave) e [Linux](desktop.md) può essere un passo importante per controllare le informazioni che condividi con le aziende e altri soggetti.
 
-[:material-check-all: Our General Criteria](about/criteria.md){ class="md-button" }
+[:material-check-all: I Nostri Criteri Generali](about/criteria.md){ class="md-button" }
 </div>
 
 <div markdown>
-## Why does privacy matter?
+## Perché la privacy è importante?
 
-In the modern age of digital data exploitation, your privacy has never been more critical, yet many believe it is already a lost cause. Non è così. ==Your privacy is up for grabs, and you need to care about it.== Privacy is about power, and it is so important that this power ends up in the right hands.
+Nell'era moderna dello sfruttamento dei dati digitali, la tua privacy non è mai stata così importante, eppure molti credono che sia già una causa persa. Non è così. ==La tua privacy è in palio e devi prendertene cura.== La privacy riguarda il potere, ed è importante che questo potere finisca nelle mani giuste.
 
-Many people get the concepts of privacy, security, and anonymity confused. Vedrai persone criticare vari prodotti come "non privati", quando in realtà intendono che non forniscono, ad esempio, anonimato. Su questo sito web, copriamo tutti e tre gli argomenti, ma è importante che tu ne comprenda le differenze, nonché quando ognuno di essi entra in gioco.
+Molte persone fanno confusione tra i concetti di privacy, sicurezza e anonimato. Vedrai persone criticare vari prodotti come "non privati", quando in realtà intendono che non forniscono, ad esempio, anonimato. Su questo sito web, copriamo tutti e tre gli argomenti, ma è importante che tu ne comprenda le differenze, nonché quando ognuno di essi entra in gioco.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 passi per migliorare la tua privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 </div>
 </div>

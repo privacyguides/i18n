@@ -1,24 +1,24 @@
 ---
-title: Social Networks
+title: Social network
 icon: material/account-supervisor-circle-outline
-description: Find a new social network that doesn’t pry into your data or monetize your profile.
+description: Trova un nuovo social network che non ficchi il naso nei tuoi dati o che monetizzi il tuo profilo.
 cover: social-networks.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protezione dalle seguenti minacce:</small>
 
-- [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+- [:material-close-outline: Censura](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
+- [:material-account-cash: Capitalismo della Sorveglianza](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-These privacy-respecting **social networks** allow you to participate in online communities without giving up your personal information like your full name, phone number, and other data commonly requested by tech companies.
+Questi **social network** che rispettano la privacy ti consentono di partecipare alle comunità online senza fornire informazioni personali come nome e cognome, numero di telefono e altri dati comunemente richiesti dalle aziende tecnologiche.
 
-A growing problem among social media platforms is censorship in two different forms. First, they often acquiesce to illegitimate censorship requests, either from malicious governments or their own internal policies. Second, they often require accounts to access walled-off content that would otherwise be published freely on the open internet; this effectively censors the browsing activities of privacy-conscious users who are unable to pay the privacy cost of opening an account on these networks.
+Un problema crescente nelle piattaforme di social media è la censura, in due forme diverse. In primo luogo, spesso acconsentono a richieste di censura illegittime, sia da parte di governi malintenzionati che delle loro politiche interne. In secondo luogo, spesso richiedono account per accedere a contenuti tagliati fuori, che altrimenti verrebbero pubblicati liberamente sull'internet aperto; ciò censura di fatto le attività di navigazione degli utenti attenti alla privacy che non sono in grado di pagare il costo di apertura di un account su queste reti.
 
-The social networks we recommend solve the issue of censorship by operating atop an open and decentralized social networking protocol. They also don't require an account merely to view publicly available content.
+I social network che raccomandiamo risolvono il problema della censura operando su un protocollo di social networking aperto e decentralizzato. Essi inoltre non richiedono un account solamente per visualizzare i contenuti disponibili pubblicamente.
 
-You should note that **no** social networks are appropriate for private or sensitive communications. For chatting directly with others, you should use a recommended [instant messenger](real-time-communication.md) with strong end-to-end encryption, and only use direct messages on social media in order to establish a more private and secure chat platform with your contacts.
+Dovresti tenere in considerazione che i social network **non** sono adatti per le comunicazioni private o sensibili. Per chattare direttamente con gli altri, dovresti utilizzare uno dei [software di messaggistica istantanea](real-time-communication.md) consigliati, con una forte crittografia end-to-end e di utilizzare i messaggi diretti sui social media solamente per instaurare una chat con i tuoi contatti su una piattaforma più privata e sicura.
 
-## Decentralization
+## Decentralizzazione
 
 Decentralized social networks are built on an architecture that is fundamentally different than mainstream social media platforms, yet quite similar to the underlying structure of email. Instead of opening an account under a single, unified service like you would for Facebook or Discord, you instead choose an independent, public server to join. The server you join can communicate with and discover other servers; this aspect of decentralization is also known as _federation_.
 

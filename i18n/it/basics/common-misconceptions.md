@@ -42,7 +42,7 @@ schema:
 
 Questi miti derivano da una serie di pregiudizi, ma la disponibilità del codice sorgente e le modalità di licenza del software, non influiscono intrinsecamente sulla sua sicurezza, in alcun modo. ==I software open source hanno il *potenziale* di essere più sicuri di quelli proprietari, ma non esiste assolutamente alcuna garanzia che sia così.== Quando valuti il software, dovresti esaminare la reputazione e la sicurezza di ogni strumento, su base individuale.
 
-I software open source *possono* essere controllati da terze parti e, spesso, sono più trasparenti sulle potenziali vulnerabilità, rispetto alle controparti proprietarie. Inoltre, ti consentono di revisionare il codice e disabilitare qualsiasi funzionalità sospetta tu trovi. Tuttavia, *a meno che non lo faccia*, non esiste alcuna garanzia che il codice sia mai stato valutato, specialmente con i progetti software più piccoli. The open development process has also sometimes been exploited to introduce new vulnerabilities known as [:material-package-variant-closed-remove: Supply Chain Attacks](common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}, which are discussed further in our [Common Threats](common-threats.md) page.[^1]
+I software open source *possono* essere controllati da terze parti e, spesso, sono più trasparenti sulle potenziali vulnerabilità, rispetto alle controparti proprietarie. Inoltre, ti consentono di revisionare il codice e disabilitare qualsiasi funzionalità sospetta tu trovi. Tuttavia, *a meno che non lo faccia*, non esiste alcuna garanzia che il codice sia mai stato valutato, specialmente con i progetti software più piccoli. Il processo di sviluppo aperto è stato talvolta sfruttato per introdurre nuove vulnerabilità, note come [:material-package-variant-closed-remove: Attacchi alla Supply Chain](common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}, che sono ulteriormente discussi nella nostra pagina delle [Minacce Comuni](common-threats.md).[^1]
 
 D'altra parte, i software proprietari sono meno trasparenti, ma ciò non implica che non siano sicuri. I grandi progetti di software proprietari sono controllabili internamente e da agenzie di terze parti, e i ricercatori indipendenti sulla sicurezza possono comunque trovare vulnerabilità, con tecniche come l'ingegneria inversa.
 
@@ -63,13 +63,13 @@ Le politiche sulla privacy e le pratiche aziendali dei fornitori che scegli sono
 
 ## "Complicato è meglio"
 
-Spesso, vediamo le persone descrivere i modelli di minaccia per la privacy come eccessivamente complessi. Often, these solutions include problems like multiple email accounts or complicated setups with lots of moving parts and conditions. Solitamente, si tratta solitamente di risposte a "Qual è il metodo migliore per fare *X*?"
+Spesso, vediamo le persone descrivere i modelli di minaccia per la privacy come eccessivamente complessi. Spesso queste soluzioni includono problemi come l'uso di molteplici account di posta elettronica o di configurazioni complicate con molte parti in movimento e condizioni. Solitamente, si tratta solitamente di risposte a "Qual è il metodo migliore per fare *X*?"
 
 Trovare la soluzione "migliore" per te non significa necessariamente che ne stai cercando una infallibile con dozzine di condizioni: queste soluzioni sono spesso difficili da gestire in modo realistico. Come discusso in precedenza, la sicurezza va spesso a scapito della comodità. Di seguito, forniamo alcuni suggerimenti:
 
 1. ==Le azioni devono servire uno scopo in particolare:== pensa a come fare ciò che desideri con il minor numero possibile di azioni.
 2. ==Rimuovi i punti di fallimento umani:== Falliamo, ci stanchiamo e dimentichiamo le cose. Per mantenere la sicurezza, evita di affidarti a condizioni e procedimenti manuali che devi ricordare.
-3. ==Utilizza il giusto livello di protezione per ciò che intendi fare.== Spesso, vediamo consigli delle cosiddette soluzioni a prova di autorità o citazione in giudizio. Spesso, richiedono conoscenze specialistiche e, generalmente, non sono ciò che la gente desidera. There's no point in building an intricate threat model for anonymity if you can be easily deanonymized by a simple oversight.
+3. ==Utilizza il giusto livello di protezione per ciò che intendi fare.== Spesso, vediamo consigli delle cosiddette soluzioni a prova di autorità o citazione in giudizio. Spesso, richiedono conoscenze specialistiche e, generalmente, non sono ciò che la gente desidera. Non ha senso creare un intricato modello di minaccia per l'anonimato, se puoi essere facilmente deanonimizzato da una semplice svista.
 
 Quindi, come potrebbe apparire?
 
@@ -94,4 +94,4 @@ Uno dei modelli di minaccia più chiari è quello in cui le persone *ti conoscon
 
     L'uso di Tor può aiutare in questo senso. Vale anche la pena di notare che un maggiore anonimato è possibile attraverso la comunicazione asincrona: La comunicazione in tempo reale è vulnerabile all'analisi dei modelli di digitazione (ad es. più di un paragrafo di testo, distribuito su un forum, via e-mail, ecc.)
 
-[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added an obfuscated backdoor into `xz`, a popular compression library. La backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) era destinata a consentire a un soggetto sconosciuto l'accesso remoto alla maggior parte dei server Linux tramite SSH, ma è stata scoperta prima che fosse ampiamente diffusa.
+[^1]: Un notevole attacco alla supply chain si è verificato nel marzo 2024, quando un manutentore malintenzionato ha aggiunto una backdoor offuscata in `xz`, una popolare libreria di compressione. La backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) era destinata a consentire a un soggetto sconosciuto l'accesso remoto alla maggior parte dei server Linux tramite SSH, ma è stata scoperta prima che fosse ampiamente diffusa.
