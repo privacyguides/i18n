@@ -1,57 +1,57 @@
 ---
-title: "Common Threats"
+title: "Běžné hrozby"
 icon: 'material/eye-outline'
-description: Your threat model is personal to you, but these are some of the things many visitors to this site care about.
+description: Váš threat model je sice unikátní, ale zde jsou vypsané věci, na kterých mnoha našim návštevníkům záleží.
 ---
 
-Broadly speaking, we categorize our recommendations into the [threats](threat-modeling.md) or goals that apply to most people. ==You may be concerned with none, one, a few, or all of these possibilities==, and the tools and services you use depend on what your goals are. You may have specific threats outside these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortcomings of the tools you choose to use, because virtually none of them will protect you from every threat.
+Obecně řečeno, dělíme naše doporučení do [hrozeb](threat-modeling.md) nebo cílů, které se týkají většiny lidí. ==Možná se vás netýká ani jedna, možná jen jedna, více z nich, nebo všechny==, a vámi používané nástroje a služby se odvíjejí od toho, jaké jsou vaše cíle. Možná se vás týkají specifické hrozby, které zde nejsou uvedené, a i to je naprosto v pořádku. Důležité je porozumět výhodám a nedostatkům nástrojů, které se rozhodnete používat, protože prakticky žádný vás neochrání před každou hrozbou.
 
-<span class="pg-purple">:material-incognito: **Anonymity**</span>
+<span class="pg-purple">:material-incognito: **Anonymita**</span>
 :
 
-Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
+Oddělení vaší online aktivity od reálné identity. Ochrání vás před lidmi, kteří se snaží odhalit konkrétně *vaši* identitu.
 
-<span class="pg-red">:material-target-account: **Targeted Attacks**</span>
+<span class="pg-red">:material-target-account: **Cílené útoky**</span>
 :
 
-Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
+Ochrana proti hackerům a ostatním škodlivým aktérům, kteří se snaží dostat specificky k *vašim* datům nebo zařízením.
 
-<span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
+<span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain útoky (útoky na dodavatelský řetězec)**</span>
 :
 
-Typically, a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+Obvykle forma <span class="pg-red">:material-target-account: Cíleného útoku</span>, který spočívá v zavedení zranitelnosti nebo exploitu do jinak legitimního softwaru, ať už napřímo, nebo skrz závislost třetí strany.
 
-<span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
+<span class="pg-orange">:material-bug-outline: **Pasivní útoky**</span>
 :
 
-Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
+Ochrana před malwarem, úniky dat a ostatními útoky, který jsou vedené proti více lidem najednou.
 
-<span class="pg-teal">:material-server-network: **Service Providers**</span>
+<span class="pg-teal">:material-server-network: **Poskytovatelé služeb**</span>
 :
 
-Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
+Ochrana dat před poskytovali služeb (např. pomocí E2EE, které způsobí, že server nebude schopný data číst).
 
-<span class="pg-blue">:material-eye-outline: **Mass Surveillance**</span>
+<span class="pg-blue">:material-eye-outline: **Hromadné sledování**</span>
 :
 
-Protection from government agencies, organizations, websites, and services which work together to track your activities.
+Ochrana před vládními úřady, organizacemi, webovými stránkami a službami, které spolupracují při sledování vaší aktivity.
 
-<span class="pg-brown">:material-account-cash: **Surveillance Capitalism**</span>
+<span class="pg-brown">:material-account-cash: **Kapitalismus dohledu**</span>
 :
 
-Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
+Ochrana před velkými reklamními sítěmi, jako je např. Google nebo Meta (Facebook), a spoustě jiných sběračů dat třetích stran.
 
-<span class="pg-green">:material-account-search: **Public Exposure**</span>
+<span class="pg-green">:material-account-search: **Vystavení veřejnosti**</span>
 :
 
-Limiting the information about you that is accessible online—to search engines or the public.
+Omezení informací, které jsou o vás dostupné online – ať už vyhledávačům, nebo veřejnosti.
 
-<span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
+<span class="pg-blue-gray">:material-close-outline: **Cenzura**</span>
 :
 
-Avoiding censored access to information or being censored yourself when speaking online.
+Vyhýbání se cenzurovanému přístupu k informacím nebo vlivu cenzury při vyjadřování se on-line.
 
-Some of these threats may be more important to you than others, depending on your specific concerns. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> and <span class="pg-red">:material-target-account: Targeted Attacks</span>. They will likely still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. Similarly, many people may be primarily concerned with <span class="pg-green">:material-account-search: Public Exposure</span> of their personal data, but they should still be wary of security-focused issues, such as <span class="pg-orange">:material-bug-outline: Passive Attacks</span>—like malware affecting their devices.
+Některé z těchto hrozeb mohou být pro vás důležitější než jiné, v závislosti na vašich konkrétních zájmech. Například, softwarový vývojář s přístupem k cenným nebo kritickým datům se může zajímat převážně o <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain útoky</span> a <span class="pg-red">:material-target-account: cílené útoky</span>. Pravděpodobně ale také budou chtít chránit svá osobní data před tím, aby byly zachyceny pomocí programů pro <span class="pg-blue">:material-eye-outline: hromadné sledování</span>. Similarly, many people may be primarily concerned with <span class="pg-green">:material-account-search: Public Exposure</span> of their personal data, but they should still be wary of security-focused issues, such as <span class="pg-orange">:material-bug-outline: Passive Attacks</span>—like malware affecting their devices.
 
 ## Anonymity vs. Privacy
 
