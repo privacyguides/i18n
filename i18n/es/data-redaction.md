@@ -1,5 +1,5 @@
 ---
-meta_title: "Eliminar PII con Depuradores de Metadatos y Herramientas de Edición de Datos - Privacy Guides"
+meta_title: "Eliminar IIP con Depuradores de Metadatos y Herramientas de Edición de Datos - Privacy Guides"
 title: "Edición de Datos y Metadatos"
 icon: material/tag-remove
 description: Utiliza estas herramientas para eliminar metadatos como la ubicación GPS y otros datos identificativos de las fotos y archivos que compartas.

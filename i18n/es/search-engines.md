@@ -1,8 +1,8 @@
 ---
-meta_title: "Recommended Search Engines: Anonymous Alternatives to Google - Privacy Guides"
+meta_title: "Motores de Búsqueda Recomendados: Alternativas a Google Anónimas - Privacy Guides"
 title: Motores de Búsqueda
 icon: material/search-web
-description: Use privacy-respecting search engines which don't build an advertising profile based on your searches.
+description: Utilice motores de búsqueda que respeten la privacidad y no creen un perfil publicitario basado en sus búsquedas.
 cover: search-engines.webp
 global:
   - 
@@ -26,7 +26,7 @@ Considere usar una [VPN](vpn.md) o [Tor](tor.md) si su modelo de amenaza requier
 | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | ----------------------------- | ----------------- |
 | [Brave Search](#brave-search) | [Independiente](https://brave.com/search-independence)                                                                                                                      | :material-check:{ .pg-green } | Anónimo[^1]                   | Estados Unidos    |
 | [DuckDuckGo](#duckduckgo)     | [Bing](https://help.duckduckgo.com/results/sources)                                                                                                                         | :material-check:{ .pg-green } | Anónimo[^2]                   | Estados Unidos    |
-| [Mullvad Leta](#mullvad-leta) | [Brave and Google](https://leta.mullvad.net/faq#what-can-leta-do)                                                                                                           | :material-check:{ .pg-green } | Anonymized[^3]                | Sweden            |
+| [Mullvad Leta](#mullvad-leta) | [Brave y Google](https://leta.mullvad.net/faq#what-can-leta-do)                                                                                                             | :material-check:{ .pg-green } | Anónimo[^3]                   | Suecia            |
 | [Startpage](#startpage)       | [Google y Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) | :material-check:{ .pg-green } | Anónimo[^4]                   | Países Bajos      |
 
 ### Brave Search
@@ -35,18 +35,18 @@ Considere usar una [VPN](vpn.md) o [Tor](tor.md) si su modelo de amenaza requier
 
 ![Brave Search logo](assets/img/search-engines/brave-search.svg){ align=right }
 
-**Brave Search** es un motor de búsqueda desarrollado por Brave. It includes unique features such as [Discussions](https://search.brave.com/help/discussions), which highlights conversation-focused results such as forum posts.
+**Brave Search** es un motor de búsqueda desarrollado por Brave. Incluye funciones exclusivas como [Discussions](https://search.brave.com/help/discussions), que destaca los resultados centrados en las conversaciones, como los mensajes de los foros.
 
-Brave Search is the default search engine for the [Brave Browser](desktop-browsers.md#brave).
+Brave Search es el motor de búsqueda predeterminado de [Brave Browser](desktop-browsers.md#brave).
 
-[:octicons-home-16: Homepage](https://search.brave.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://search.brave.com/help){ .card-link title="Documentation" }
+[:octicons-home-16: Página Principal](https://search.brave.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://search.brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Servicio Onion" }
+[:octicons-eye-16:](https://search.brave.com/help/privacy-policy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://search.brave.com/help){ .card-link title="Documentación" }
 
 </div>
 
-If you use Brave Search while logged in to a Premium account, there is a risk of Brave correlating search queries with your account.
+Si utiliza Brave Search mientras está conectado a una cuenta Premium, existe el riesgo de que Brave correlacione las consultas de búsqueda con su cuenta.
 
 Le recomendamos que desactive las [Estadísticas de uso anónimas](https://search.brave.com/help/usage-metrics), ya que están activadas por defecto y pueden desactivarse en la configuración.
 
@@ -60,10 +60,10 @@ Le recomendamos que desactive las [Estadísticas de uso anónimas](https://searc
 
 DuckDuckGo es el motor de búsqueda predeterminado de [Tor Browser](tor.md#tor-browser) y es una de las pocas opciones disponibles en el navegador [Safari](mobile-browsers.md#safari-ios) de Apple.
 
-[:octicons-home-16: Homepage](https://duckduckgo.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.duckduckgo.com){ .card-link title="Documentation" }
+[:octicons-home-16: Página Principal](https://duckduckgo.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion){ .card-link title="Servicio Onion" }
+[:octicons-eye-16:](https://duckduckgo.com/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://help.duckduckgo.com){ .card-link title="Documentación" }
 
 </div>
 
@@ -75,25 +75,25 @@ DuckDuckGo ofrece [otras dos versiones](https://help.duckduckgo.com/features/non
 
 ![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad Leta** is a search engine developed by Mullvad. It uses a [shared cache](https://leta.mullvad.net/faq#what-is-cached-search) to fetch search results and limit calls to the search APIs it uses.
+**Mullvad Leta** es un motor de búsqueda desarrollado por Mullvad. Utiliza una [caché compartida](https://leta.mullvad.net/faq#what-is-cached-search) para obtener resultados de búsqueda y limitar las llamadas a las API de búsqueda que utiliza.
 
-Mullvad Leta currently only provides text search results. It is the default search engine for the [Mullvad Browser](desktop-browsers.md#mullvad-browser).
+Actualmente, Mullvad Leta solo ofrece resultados de búsqueda de texto. Es el motor de búsqueda por defecto de [Mullvad Browser](desktop-browsers.md#mullvad-browser).
 
-[:octicons-home-16: Homepage](https://leta.mullvad.net){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://uxngojcovdcyrmwkmkltyy2q7enzzvgv7vlqac64f2vl6hcrrqtlskqd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://leta.mullvad.net/terms-of-service){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://leta.mullvad.net/faq){ .card-link title="Documentation" }
+[:octicons-home-16: Página Principal](https://leta.mullvad.net){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://uxngojcovdcyrmwkmkltyy2q7enzzvgv7vlqac64f2vl6hcrrqtlskqd.onion){ .card-link title="Servicio Onion" }
+[:octicons-eye-16:](https://leta.mullvad.net/terms-of-service){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://leta.mullvad.net/faq){ .card-link title="Documentación" }
 
 </div>
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Consejo</p>
 
-Mullvad Leta is useful if you want to disable JavaScript in your browser, such as [Mullvad Browser](desktop-browsers.md#mullvad-browser) on the Safest security level.
+Mullvad Leta es útil si desea desactivar JavaScript en su navegador, como [Mullvad Browser](desktop-browsers.md#mullvad-browser) en el nivel de seguridad Máximo.
 
 </div>
 
-Mullvad Leta was [audited](https://mullvad.net/en/blog/security-audit-of-our-letamullvadnet-search-service) by Assured AB in March 2023. All issues were addressed and fixed shortly after the [report](https://assured.se/publications/Assured_Mullvad_Leta_pentest_report_2023.pdf).
+Mullvad Leta fue [auditado](https://mullvad.net/en/blog/security-audit-of-our-letamullvadnet-search-service) por Assured AB en marzo de 2023. Todos los problemas se abordaron y solucionaron poco después del [informe](https://assured.se/publications/Assured_Mullvad_Leta_pentest_report_2023.pdf).
 
 ### Startpage
 
@@ -104,10 +104,10 @@ Mullvad Leta was [audited](https://mullvad.net/en/blog/security-audit-of-our-let
 
 **Startpage** es un motor de búsqueda privado. Una de las características exclusivas de Startpage es la [Vista Anónima](https://startpage.com/en/anonymous-view), que se esfuerza por normalizar la actividad de los usuarios para dificultar su identificación exclusiva. Esta función puede ser útil para ocultar [algunas](https://support.startpage.com/hc/articles/4455540212116-The-Anonymous-View-Proxy-technical-details) propiedades de la red y el navegador. A diferencia de lo que sugiere su nombre, no se debe confiar en esta función para mantener el anonimato. Si busca anonimato, utilice [Tor Browser](tor.md#tor-browser) en su lugar.
 
-[:octicons-home-16: Homepage](https://startpage.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://startpage.com/en/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.startpage.com/hc/categories/4481917470356-Startpage-Search-Engine){ .card-link title="Documentation" }
+[:octicons-home-16: Página Principal](https://startpage.com){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion){ .card-link title="Servicio Onion" }
+[:octicons-eye-16:](https://startpage.com/en/privacy-policy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://support.startpage.com/hc/categories/4481917470356-Startpage-Search-Engine){ .card-link title="Documentación" }
 
 </div>
 
@@ -127,9 +127,9 @@ Un [metabuscador](https://en.wikipedia.org/wiki/Metasearch_engine) agrega los re
 
 **SearXNG** es un metabuscador autoalojable de código abierto. Es una bifurcación de [SearX](https://github.com/searx/searx) mantenida activamente.
 
-[:octicons-home-16: Homepage](https://searxng.org){ .md-button .md-button--primary }
-[:octicons-server-16:](https://searx.space){ .card-link title="Public Instances" }
-[:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://searxng.org){ .md-button .md-button--primary }
+[:octicons-server-16:](https://searx.space){ .card-link title="Instancias Públicas" }
+[:octicons-code-16:](https://github.com/searxng/searxng){ .card-link title="Código Fuente" }
 
 </div>
 
@@ -137,7 +137,7 @@ SearXNG es un proxy entre usted y los motores de búsqueda desde los que se agre
 
 Al autoalojarse, es importante que otras personas utilicen su instancia para que las consultas se integren. Debe tener cuidado con dónde y cómo aloja SearXNG, ya que las personas que busquen contenidos ilegales en su instancia podrían atraer la atención no deseada de las autoridades.
 
-Cuando utilice una instancia de SearXNG, asegúrese de leer su política de privacidad. Dado que las instancias de SearXNG pueden ser modificadas por sus propietarios, no reflejan necesariamente su política de privacidad. Algunas instancias se ejecutan como un servicio oculto de Tor, lo que puede garantizar cierta privacidad siempre y cuando sus consultas de búsqueda no contengan PII.
+Cuando utilice una instancia de SearXNG, asegúrese de leer su política de privacidad. Dado que las instancias de SearXNG pueden ser modificadas por sus propietarios, no reflejan necesariamente su política de privacidad. Algunas instancias se ejecutan como un servicio oculto de Tor, lo que puede garantizar cierta privacidad siempre y cuando sus consultas de búsqueda no contengan IIP.
 
 ## Criterios
 
@@ -155,12 +155,12 @@ Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto
 - Debe estar basado en software de código abierto.
 - No debería bloquear las direcciones IP del nodo de salida de Tor.
 
-[^1]: Brave Search recopila métricas de uso agregadas, que incluyen el sistema operativo y el agente de usuario. Sin embargo, no recopilan PII. Para servir [resultados locales anónimos](https://search.brave.com/help/anonymous-local-results), las direcciones IP se procesan temporalmente, pero no se conservan.
+[^1]: Brave Search recopila métricas de uso agregadas, que incluyen el sistema operativo y el agente de usuario. Sin embargo, no recopilan IIP. Para servir [resultados locales anónimos](https://search.brave.com/help/anonymous-local-results), las direcciones IP se procesan temporalmente, pero no se conservan.
 
-    Brave Search: [*Brave Search privacy notice*](https://search.brave.com/help/privacy-policy) [^2]: DuckDuckGo **does** log your searches for product improvement purposes, but not your IP address or any other PII.
+    Brave Search: [*Aviso de Privacidad de Brave Search*](https://search.brave.com/help/privacy-policy) [^2]: DuckDuckGo **registra** sus búsquedas para mejorar el producto, pero no su dirección IP ni ninguna otra IIP.
 
-    DuckDuckGo Privacy Policy: [*We don't track you.*](https://duckduckgo.com/privacy) [^3]: Mullvad Leta logs your searches and stores them hashed with a secret in a RAM-based cache. The cache is removed after it reaches 30 days in age, or when the server-side Leta application is restarted. They do not collect any PII.
+    Política de Privacidad de DuckDuckGo: [*No le rastreamos.*](https://duckduckgo.com/privacy) [^3]: Mullvad Leta registra sus búsquedas y las almacena con un hash junto con un secreto en una caché basada en RAM. La caché se elimina cuando alcanza los 30 días de antigüedad o cuando se reinicia la aplicación Leta del lado del servidor. No recogen ninguna IIP.
 
-    Terms of Service: [*Service Usage*](https://leta.mullvad.net/terms-of-service) [^4]: Startpage logs details such as operating system, user agent, and language. No registra su dirección IP, consultas de búsqueda u otra información personal.
+    Términos del Servicio: [*Uso del Servicio*](https://leta.mullvad.net/terms-of-service) [^4]: Startpage registra detalles como el sistema operativo, el agente de usuario y el idioma. No registra su dirección IP, consultas de búsqueda u otra IIP.
 
-    Our Privacy Policy: [*How we have implemented truly anonymous analytics*](https://startpage.com/en/privacy-policy#section-4)
+    Nuestra Política de Privacidad: [*Cómo hemos implementado analíticas verdaderamente anónimas*](https://startpage.com/en/privacy-policy#section-4)

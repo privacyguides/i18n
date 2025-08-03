@@ -210,7 +210,7 @@ Todos los productos DNS...
 Además, todos los proveedores públicos...
 
 - No deben registrar datos personales en el disco.
-    - Como se indica en las notas a pie de página, algunos proveedores recopilan información de consulta con fines como la investigación de seguridad, pero en ese caso los datos no deben asociarse a ninguna PII, como la dirección IP, etc.
+    - Como se indica en las notas a pie de página, algunos proveedores recopilan información de consulta con fines como la investigación de seguridad, pero en ese caso los datos no deben asociarse a ninguna IIP, como la dirección IP, etc.
 - Deberían admitir [anycast](https://en.wikipedia.org/wiki/Anycast) o geo-steering.
 
 [^1]: AdGuard almacena métricas de rendimiento agregadas de sus servidores DNS, es decir, el número de solicitudes completas a un servidor en particular, el número de solicitudes bloqueadas, y la velocidad de procesamiento de solicitudes. También guarda y almacena la base de datos de dominios solicitados en las últimas 24 horas.

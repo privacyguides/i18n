@@ -73,7 +73,7 @@
 *[PAM]: Módulos de Autenticación Conectables a Linux
 *[POP3]: Post Office Protocol 3
 *[PGP]: Privacidad Bastante Buena (véase OpenPGP)
-*[PII]: Información Personalmente Identificable
+*[IIP]: Información Personalmente Identificable
 *[QNAME]: Nombre Cualificado
 *[QUIC]: Un protocolo de red basado en UDP, pero que pretende combinar la velocidad de UDP con la fiabilidad de TCP.
 *[límites de tarifa]: Los límites de tarifa son restricciones que un servicio impone al número de veces que un usuario puede acceder a sus servicios en un periodo de tiempo determinado.
