@@ -138,29 +138,29 @@ DNSルックアップをする際、一般的には情報源にアクセスす�
 
 IPアドレスが少数のウェブサイトをホストしているサーバーにある場合にのみ有効です。 サイトが共有プラットフォーム（GitHub Pages、Cloudflare Pages、Netlify、WordPress、Bloggerなど）上でホストされている場合はあまり役に立ちません。 また、サーバーが[リバースプロキシ](https://en.wikipedia.org/wiki/Reverse_proxy)の後段にホストされている場合も役に立ちません。リバースプロキシを使うことは現代のインターネットでは一般的な方法です。
 
-### Server Name Indication (SNI)
+### サーバー名表示（SNI）
 
-Server Name Indication is typically used when an IP address hosts many websites. This could be a service like Cloudflare, or some other [Denial-of-service attack](https://en.wikipedia.org/wiki/Denial-of-service_attack) protection.
+サーバー名表示は一つのIPアドレスに多くのウェブサイトをホストしている際によく使われます。 Cloudflareのようなサービスや、[DoS攻撃](https://en.wikipedia.org/wiki/Denial-of-service_attack)対策の場合もあります。
 
-1. Start capturing again with `tshark`. We've added a filter with our IP address, so you don't capture many packets:
+1. `tshark`で再度キャプチャをします。 Privacy GuidesのIPアドレスのフィルタを追加したため、多くのパケットはキャプチャしません：
 
     ```bash
     tshark -w /tmp/pg.pcap port 443 and host 198.98.54.105
     ```
 
-2. Then we visit [https://privacyguides.org](https://privacyguides.org).
+2. [https://privacyguides.org](https://privacyguides.org)にアクセスします。
 
-3. After visiting the website, we want to stop the packet capture with <kbd>CTRL</kbd> + <kbd>C</kbd>.
+3. ウェブサイトを訪れた後、<kbd>CTRL</kbd> + <kbd>C</kbd>でパケットキャプチャを終了します。
 
-4. Next we want to analyze the results:
+4. 次に結果を分析します：
 
     ```bash
     wireshark -r /tmp/pg.pcap
     ```
 
-    We will see the connection establishment, followed by the TLS handshake for the Privacy Guides website. Around frame 5. you'll see a "Client Hello".
+    接続の確立の後、Privacy GuidesのウェブサイトのTLSハンドシェイクが表示されています。 5フレーム目のあたりにあります。 「Client Hello」があります。
 
-5. Expand the triangle &#9656; next to each field:
+5. 各フィールドの隣にある三角形&#9656;を展開します：
 
     ```text
     ▸ Transport Layer Security
@@ -170,15 +170,15 @@ Server Name Indication is typically used when an IP address hosts many websites.
             ▸ Server Name Indication extension
     ```
 
-6. We can see the SNI value which discloses the website we are visiting. The `tshark` command can give you the value directly for all packets containing a SNI value:
+6. 訪れたウェブサイトが開示しているSNIを見ることができます。 `tshark`コマンドでは、サーバー名表示を含むすべてのパケットの値を直接見ることができます：
 
     ```bash
     tshark -r /tmp/pg.pcap -Tfields -Y tls.handshake.extensions_server_name -e tls.handshake.extensions_server_name
     ```
 
-This means even if we are using "Encrypted DNS" servers, the domain will likely be disclosed through SNI. The [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3) protocol brings with it [Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello), which prevents this kind of leak.
+つまり「暗号化DNS」を使っていたとしても、SNIを通じてドメインが開示される可能性があるということです。 [TLS v1.3](https://en.wikipedia.org/wiki/Transport_Layer_Security#TLS_1.3)プロトコルはこのような漏洩を防ぐ[Encrypted Client Hello](https://blog.cloudflare.com/encrypted-client-hello)があります。
 
-Governments, in particular [China](https://zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni) and [Russia](https://zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni), have either already [started blocking](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) it or expressed a desire to do so. Recently, Russia has [started blocking foreign websites](https://github.com/net4people/bbs/issues/108) that use the [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3) standard. This is because the [QUIC](https://en.wikipedia.org/wiki/QUIC) protocol that is a part of HTTP/3 requires that `ClientHello` also be encrypted.
+各国政府、特に[中国](https://zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni)や[ロシア](https://zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni)はすでにTLS v1.3を[ブロックしている](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello)かその意向を示しています。 最近、ロシアは[HTTP/3](https://en.wikipedia.org/wiki/HTTP/3)標準を使用する[外国のウェブサイトをブロックし始めました](https://github.com/net4people/bbs/issues/108)。 HTTP/3の一部である[QUIC](https://en.wikipedia.org/wiki/QUIC)プロトコルが`ClientHello`の暗号化を必要としているためです。
 
 ### Online Certificate Status Protocol (OCSP)
 
