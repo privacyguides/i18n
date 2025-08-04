@@ -260,7 +260,7 @@ Tutaは[非営利団体](https://tuta.com/blog/secure-email-for-non-profit)向�
 
 ### テクノロジー
 
-安全で最適なサービスのために以下の機能が重要であると考えています。 You should consider whether the provider has the features you require.
+安全で最適なサービスのために以下の機能が重要であると考えています。 どのプロバイダーに必要な機能があるか検討してください。
 
 **最低条件：**
 

@@ -113,9 +113,9 @@ Mullvad Browserは常にプライベートブラウジングモードで動作�
 
 ### Mullvad Leta
 
-Mullvad Browser comes with [**Mullvad Leta**](search-engines.md#mullvad-leta) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
+Mullvad Browserでは [**Mullvad Leta**](search-engines.md#mullvad-leta) が標準の検索エンジンになっています。Mullvad LetaはGoogleもしくはBrave（Mullvad Letaのウェブページで設定可能）で検索するプロキシの役割を果たします。
 
-もしMullvad VPNのユーザーであるなら、Mullvad LetaのようなVPNプロバイダーが提供するサービスを利用することは一定程度のリスクが生じます。 This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta); the latter is information a VPN is typically intended to separate. MullvadはMullvad VPNの利用者やMullvad Letaの利用者からはほとんど情報を収集しませんが、そのようなリスクについて懸念があるならば、別の[検索エンジン](search-engines.md)の利用を検討すべきです。
+もしMullvad VPNのユーザーであるなら、Mullvad LetaのようなVPNプロバイダーが提供するサービスを利用することは一定程度のリスクが生じます。 Mullvadは（VPN経由で）利用している本当のIPアドレスと（Leta経由での）検索アクティビティに理論上はアクセスできてしまいます。後者は本来VPNが分離しようとしている情報です。 MullvadはMullvad VPNの利用者やMullvad Letaの利用者からはほとんど情報を収集しませんが、そのようなリスクについて懸念があるならば、別の[検索エンジン](search-engines.md)の利用を検討すべきです。
 
 ## Firefox
 
@@ -353,7 +353,7 @@ BraveのWeb3機能はブラウザのフィンガープリントとアタック�
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Continue running background apps when Brave is closed** to disable background apps (1)
+- [ ] **Braveを閉じた際にバックグラウンドアプリの処理を続行する**のチェックを外し、バックグラウンドアプリを無効にする (1)
 
 </div>
 

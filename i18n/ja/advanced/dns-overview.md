@@ -134,9 +134,9 @@ DNSルックアップをする際、一般的には情報源にアクセスす�
 
 ### IPアドレス
 
-The simplest way to determine browsing activity might be to look at the IP addresses your devices are accessing. For example, if the observer knows that `privacyguides.org` is at `198.98.54.105`, and your device is requesting data from `198.98.54.105`, there is a good chance you're visiting Privacy Guides.
+ブラウジングアクティビティを調べる最も単純な方法は、デバイスがアクセスしているIPアドレスを調べることです。 例えば、監視人が`privacyguides.org`のIPアドレスは`198.98.54.105`であることを知っていて、あなたのデバイスが`198.98.54.105`からのデータを要求している場合、あなたはPrivacy Guidesを見ている可能性が高いと分かります。
 
-This method is only useful when the IP address belongs to a server that only hosts few websites. It's also not very useful if the site is hosted on a shared platform (e.g. GitHub Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). It also isn't very useful if the server is hosted behind a [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy), which is very common on the modern Internet.
+IPアドレスが少数のウェブサイトをホストしているサーバーにある場合にのみ有効です。 サイトが共有プラットフォーム（GitHub Pages、Cloudflare Pages、Netlify、WordPress、Bloggerなど）上でホストされている場合はあまり役に立ちません。 また、サーバーが[リバースプロキシ](https://en.wikipedia.org/wiki/Reverse_proxy)の後段にホストされている場合も役に立ちません。リバースプロキシを使うことは現代のインターネットでは一般的な方法です。
 
 ### Server Name Indication (SNI)
 
