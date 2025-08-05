@@ -182,52 +182,52 @@ IPアドレスが少数のウェブサイトをホストしているサーバー
 
 ### Online Certificate Status Protocol (OCSP)
 
-Another way your browser can disclose your browsing activities is with the [Online Certificate Status Protocol](https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol). When visiting an HTTPS website, the browser might check to see if the website's [certificate](https://en.wikipedia.org/wiki/Public_key_certificate) has been revoked. This is generally done through the HTTP protocol, meaning it is **not** encrypted.
+ブラウザがブラウジングアクティビティを開示し得る、別の方法は[Online Certificate Status Protocol](https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol)が挙げられます。 HTTPSのウェブサイトにアクセスする際、ブラウザはウェブサイトの[証明書](https://en.wikipedia.org/wiki/Public_key_certificate)が失効していないか確認することがあります。 通常はHTTPプロトコル経由で行われ、暗号化**されていません**。
 
-The OCSP request contains the certificate "[serial number](https://en.wikipedia.org/wiki/Public_key_certificate#Common_fields)", which is unique. It is sent to the "OCSP responder" in order to check its status.
+OCSPリクエストには一意な証明書の[シリアル番号](https://en.wikipedia.org/wiki/Public_key_certificate#Common_fields)が含まれています。 その状態を確認するため「OCSPレスポンダー」に送られます。
 
-We can simulate what a browser would do using the [`openssl`](https://en.wikipedia.org/wiki/OpenSSL) command.
+ブラウザの動作を[`openssl`](https://en.wikipedia.org/wiki/OpenSSL)コマンドでシミュレートすることができます。
 
-1. Get the server certificate and use [`sed`](https://en.wikipedia.org/wiki/Sed) to keep just the important part and write it out to a file:
+1. サーバーの証明書を取得し、[`sed`](https://en.wikipedia.org/wiki/Sed)コマンドで重要な部分を残し、ファイルに書き出します：
 
     ```bash
     openssl s_client -connect privacyguides.org:443 < /dev/null 2>&1 |
         sed -n '/^-*BEGIN/,/^-*END/p' > /tmp/pg_server.cert
     ```
 
-2. 中間証明書を取得。 [Certificate Authorities (CA)](https://en.wikipedia.org/wiki/Certificate_authority) normally don't sign a certificate directly; they use what is known as an "intermediate" certificate.
+2. 中間証明書を取得。 [認証局（CA）](https://en.wikipedia.org/wiki/Certificate_authority)は通常、証明書に直接署名せず、「中間」証明書を使います。
 
     ```bash
     openssl s_client -showcerts -connect privacyguides.org:443 < /dev/null 2>&1 |
         sed -n '/^-*BEGIN/,/^-*END/p' > /tmp/pg_and_intermediate.cert
     ```
 
-3. The first certificate in `pg_and_intermediate.cert` is actually the server certificate from step 1. We can use `sed` again to delete until the first instance of END:
+3. `pg_and_intermediate.cert`の最初の証明書は実際にはStep1のサーバー証明書です。 `sed`で最初のENDまでを削除します：
 
     ```bash
     sed -n '/^-*END CERTIFICATE-*$/!d;:a n;p;ba' \
         /tmp/pg_and_intermediate.cert > /tmp/intermediate_chain.cert
     ```
 
-4. Get the OCSP responder for the server certificate:
+4. サーバー証明書のOCSPレスポンダーを取得します：
 
     ```bash
     openssl x509 -noout -ocsp_uri -in /tmp/pg_server.cert
     ```
 
-    Our certificate shows the Lets Encrypt certificate responder. If we want to see all the details of the certificate we can use:
+    Privacy Guidesの証明書はLet's Encryptの証明書レスポンダーを示しています。 証明書の詳細をすべて確認する場合、以下のコマンドを実行します：
 
     ```bash
     openssl x509 -text -noout -in /tmp/pg_server.cert
     ```
 
-5. Start the packet capture:
+5. パケットキャプチャを開始します：
 
     ```bash
     tshark -w /tmp/pg_ocsp.pcap -f "tcp port http"
     ```
 
-6. Make the OCSP request:
+6. OCSPリクエストを行います：
 
     ```bash
     openssl ocsp -issuer /tmp/intermediate_chain.cert \
@@ -236,13 +236,13 @@ We can simulate what a browser would do using the [`openssl`](https://en.wikiped
                  -url http://r3.o.lencr.org
     ```
 
-7. Open the capture:
+7. キャプチャの内容を確認します：
 
     ```bash
     wireshark -r /tmp/pg_ocsp.pcap
     ```
 
-    There will be two packets with the "OCSP" protocol: a "Request" and a "Response". For the "Request" we can see the "serial number" by expanding the triangle &#9656; next to each field:
+    「OCSP」プロトコルには「Request」と「Response」の２つのパケットがあります。 「Request」については、各フィールドの隣にある三角形&#9656;を展開することで「シリアル番号」を確認することができます：
 
     ```bash
     ▸ Online Certificate Status Protocol
@@ -253,7 +253,7 @@ We can simulate what a browser would do using the [`openssl`](https://en.wikiped
               serialNumber
     ```
 
-    For the "Response" we can also see the "serial number":
+    「Response」についても「シリアル番号」を確認することができます：
 
     ```bash
     ▸ Online Certificate Status Protocol
@@ -266,13 +266,13 @@ We can simulate what a browser would do using the [`openssl`](https://en.wikiped
                   serialNumber
     ```
 
-8. Or use `tshark` to filter the packets for the Serial Number:
+8. また、`tshark`でシリアル番号のパケットをフィルタすることもできます：
 
     ```bash
     tshark -r /tmp/pg_ocsp.pcap -Tfields -Y ocsp.serialNumber -e ocsp.serialNumber
     ```
 
-If the network observer has the public certificate, which is publicly available, they can match the serial number with that certificate and therefore determine the site you're visiting from that. The process can be automated and can associate IP addresses with serial numbers. It is also possible to check [Certificate Transparency](https://en.wikipedia.org/wiki/Certificate_Transparency) logs for the serial number.
+ネットワークの監視者が一般的に公開されているパブリック証明書を持っていれば、シリアル番号と証明書を照合することで、訪問しているサイトを特定することができます。 このプロセスは自動化することができ、IPアドレスとシリアル番号を関連付けることができます。 また、[証明書の透明性](https://en.wikipedia.org/wiki/Certificate_Transparency)のログからシリアル番号を確認することもできます。
 
 ## Should I use encrypted DNS?
 
