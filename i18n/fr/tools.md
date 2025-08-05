@@ -12,13 +12,13 @@ Si vous cherchez une solution spécifique à un problème, voici pour diverses c
 <div class="grid" markdown>
 
 <div markdown>
-[VPN Providers](vpn.md){ .md-button }
-[Password Managers](passwords.md){ .md-button }
-[Email Providers](email.md){ .md-button }
-[Browser Extensions](browser-extensions.md){ .md-button }
-[DNS Servers](dns.md){ .md-button }
-[Email Aliasing Services](email-aliasing.md){ .md-button }
-[Photo Organization Tools](photo-management.md){ .md-button }
+[Fournisseurs de VPN](vpn.md){ .md-button }
+[Gestionnaires de mots de passe](passwords.md){ .md-button }
+[Fournisseurs d'email](email.md){ .md-button }
+[Extension de navigateur](browser-extensions.md){ .md-button }
+[Serveurs DNS](dns.md){ .md-button }
+[Fournisseurs d'alias emails](email-aliasing.md){ .md-button }
+[Outils de gestion de photos](photo-management.md){ .md-button }
 </div>
 
 </div>
@@ -27,7 +27,7 @@ Si vous cherchez une solution spécifique à un problème, voici pour diverses c
 
 <div class="admonition info" markdown>
 
-[Self-hosting recommendations](self-hosting/index.md) have been moved to their own category.
+[Recommandations d'auto-hébergement](self-hosting/index.md) ont été déplacées dans leur propre catégorie.
 
 </div>
 

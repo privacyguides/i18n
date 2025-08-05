@@ -12,7 +12,7 @@ Notre site web utilise généralement le terme "Linux" pour décrire les distrib
 
 ## Remarque de sécurité
 
-There are some notable security concerns with Linux which you should be aware of. Malgré ces inconvénients, les distributions Linux de bureau restent excellentes pour la plupart des personnes qui souhaitent :
+Il y a quelques problèmes de sécurité avec Linux dont vous devriez être conscient. Malgré ces inconvénients, les distributions Linux de bureau restent excellentes pour la plupart des personnes qui souhaitent :
 
 - Éviter la télémétrie qui accompagne souvent les systèmes d'exploitation propriétaires
 - Maintenir la [liberté des logiciels](https://gnu.org/philosophy/free-sw.en.html#four-freedoms)

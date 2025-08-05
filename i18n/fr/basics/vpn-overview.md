@@ -7,7 +7,7 @@ description: Les réseaux privés virtuels déplacent le risque de votre FAI à 
 
 Les Réseaux Privés Virtuels sont un moyen d'étendre l'extrémité de votre réseau avec une sortie située ailleurs dans le monde.
 
-[:material-movie-open-play-outline: Video: Do you need a VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
+[:material-movie-open-play-outline: Vidéo : Avez-vous besoin d'un VPN ?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
 
 Normalement, un FAI peut voir le flux de trafic internet qui entre et sort de votre dispositif de terminaison de réseau (c'est-à-dire votre box/modem). Les protocoles de chiffrement tels que HTTPS sont couramment utilisés sur internet, ils se peut donc qu'ils ne soient pas en mesure de voir exactement ce que vous publiez ou lisez, mais ils peuvent avoir une idée [des domaines que vous visitez](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns).
 
@@ -51,7 +51,7 @@ Les VPN ne peuvent pas chiffrer les données en dehors de la connexion entre vot
 
 L'utilisation d'un VPN dans les cas où vous utilisez votre [identité réelle ou connue](common-misconceptions.md#complicated-is-better) en ligne ne sera probablement pas utile. Cela peut déclencher des systèmes de détection de spam et de fraude, par exemple si vous vous connectez au site web de votre banque.
 
-It's important to remember that a VPN will not provide you with absolute anonymity because the VPN provider itself will still have access to your real IP address, destination website information, and often a money trail that can be linked directly back to you. "No logging" policies are merely a promise; if you need complete safety from the network itself, consider using [Tor](../advanced/tor-overview.md) in addition to or instead of a VPN.
+Il est important de se rappeler qu'un VPN ne vous procurera pas un anonymat absolu, car le fournisseur du VPN lui-même verra toujours votre adresse IP réelle, certaines informations sur le site Web de destination, et a souvent une trace financière qui peut être remontée directement jusqu'à vous. Les politiques de "sans journaux" ne sont qu'une promesse ; si vous avez besoin d'une sécurité totale sur le réseau lui-même, envisagez d'utiliser [Tor](../advanced/tor-overview.md) en complément ou à la place d'un VPN.
 
 Vous ne devriez pas non plus faire confiance à un VPN pour sécuriser votre connexion à une destination HTTP non chiffrée. Pour que ce que vous faites sur les sites web que vous visitez reste privé et sécurisé, vous devez utiliser le protocole HTTPS. Cela conservera vos mots de passe, jetons de session, et les requêtes à l'abri du fournisseur VPN et d'autres adversaires potentiels entre le serveur VPN et votre destination. Vous devriez activer le mode HTTPS-uniquement dans votre navigateur (s'il est pris en charge) pour atténuer les attaques qui tentent de rétrograder votre connexion de HTTPS à HTTP.
 
@@ -107,11 +107,11 @@ Other MPRs run by different companies operate in a very similar manner. This pro
 
 ### VPNs décentralisés
 
-Another attempt at solving the issues with centralized VPN services are dVPNs. These are based on blockchain technology and claim to eliminate trust in a single party by distributing the nodes across lots of different people. However, many times a dVPN will default to a single node, meaning you need to trust that node completely, just like a traditional VPN. Unlike a traditional VPN, this one node that can see all your traffic is a random person instead of your VPN provider that can be audited and has legal responsibilities to uphold their privacy policy. Multi-hop is needed to solve this, but that comes with a stability and performance cost.
+Une autre tentative de résoudre les problèmes avec les VPN centralisés sont les dVPN (VPN décentralisés). Ils sont basés sur la technologie blockchain et prétendent éliminer la confiance en une seule partie en répartissant les nœuds entre un grand nombre de personnes différentes. Cependant, il arrive souvent qu'un dVPN soit attribué par défaut à un seul nœud, ce qui signifie que vous devez faire entièrement confiance à ce nœud, tout comme dans le cas d'un VPN traditionnel. Contrairement à un VPN traditionnel, ce nœud unique qui peut voir tout votre trafic est une personne aléatoire au lieu de votre fournisseur VPN qui peut être audité et a des responsabilités légales de respecter sa politique de confidentialité. Le multi-saut est nécessaire pour résoudre ce problème, mais cela est accompagné d'un coût de stabilité et de performance.
 
-Another consideration is legal liability. The exit node will need to deal with legal problems from misuse of the network, an issue that the Tor network has contended with for its entire existence. This discourages regular people from running nodes and makes it more attractive for a malicious actor with lots of resources to host one. This is a big problem if the service is single-node, as the potentially malicious exit node can see who you are and what you're connecting to.
+Une autre considération est la responsabilité juridique. Le nœud de sortie devra résoudre les problèmes légaux liés à l'utilisation abusive du réseau, un problème auquel le réseau Tor a été confronté tout au long de son existence. Cela décourage les personnes ordinaires de gérer des nœuds et rend plus attrayant l'hébergement d'un nœud par un acteur malveillant disposant de beaucoup de ressources. C'est un gros problème si le service est à nœud unique, car le nœud de sortie potentiellement malveillant peut voir qui vous êtes et à quoi vous vous connectez.
 
-Many dVPNs are used to push a cryptocurrency rather than to make the best service. They also tend to be smaller networks with fewer nodes, making them more vulnerable to [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack).
+De nombreux dVPNs sont utilisés pour pousser une crypto-monnaie plutôt que pour offrir le meilleur service. Ils ont également tendance à être des réseaux plus petits avec moins de nœuds, ce qui les rend plus vulnérables aux [attaques Sybil](https://fr.wikipedia.org/wiki/Attaque_Sybil).
 
 ## Informations VPN liées
 

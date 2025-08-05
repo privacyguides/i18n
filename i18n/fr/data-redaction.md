@@ -51,7 +51,7 @@ Vous ne devez **jamais** utiliser le flou pour expurger [du texte dans les image
 
 **ExifEraser** est une application moderne d'effacement des métadonnées d'image sans autorisation pour Android.
 
-It currently supports JPEG, PNG, and WebP files.
+Il supporte actuellement les fichiers JPEG, PNG, et WebP.
 
 [:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#description){ .card-link title="Documentation" }
