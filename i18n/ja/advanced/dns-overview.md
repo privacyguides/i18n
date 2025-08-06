@@ -274,28 +274,28 @@ OCSPリクエストには一意な証明書の[シリアル番号](https://en.wi
 
 ネットワークの監視者が一般的に公開されているパブリック証明書を持っていれば、シリアル番号と証明書を照合することで、訪問しているサイトを特定することができます。 このプロセスは自動化することができ、IPアドレスとシリアル番号を関連付けることができます。 また、[証明書の透明性](https://en.wikipedia.org/wiki/Certificate_Transparency)のログからシリアル番号を確認することもできます。
 
-## Should I use encrypted DNS?
+## 暗号化DNSを使うべきか？
 
-We made this flow chart to describe when you *should* use encrypted DNS:
+暗号化DNSを使う*べき*かというフローチャートは以下のとおりです：
 
 ``` mermaid
 graph TB
-    Start[Start] --> anonymous{Trying to be<br> anonymous?}
-    anonymous--> | Yes | tor(Use Tor)
-    anonymous --> | No | censorship{Avoiding<br> censorship?}
-    censorship --> | Yes | vpnOrTor(Use<br> VPN or Tor)
-    censorship --> | No | privacy{Want privacy<br> from ISP?}
-    privacy --> | Yes | vpnOrTor
-    privacy --> | No | obnoxious{ISP makes<br> obnoxious<br> redirects?}
-    obnoxious --> | Yes | encryptedDNS(Use<br> encrypted DNS<br> with 3rd party)
-    obnoxious --> | No | ispDNS{Does ISP support<br> encrypted DNS?}
-    ispDNS --> | Yes | useISP(Use<br> encrypted DNS<br> with ISP)
-    ispDNS --> | No | nothing(Do nothing)
+    Start[スタート] --> anonymous{匿名化する<br>必要がある？}
+    anonymous--> | はい | tor(Torを使う)
+    anonymous --> | いいえ | censorship{検閲を<br>避ける？}
+    censorship --> | はい | vpnOrTor(VPNやTor<br>を使う)
+    censorship --> | いいえ | privacy{ISPから<br>プライバシーを守りたい？}
+    privacy --> | はい | vpnOrTor
+    privacy --> | いいえ | obnoxious{ISPが不快な<br>リダイレクトをする？}
+    obnoxious --> | はい | encryptedDNS(第三者の<br>暗号化DNS<br>を使う)
+    obnoxious --> | いいえ | ispDNS{ISPが暗号化DNS<br>に対応している？}
+    ispDNS --> | はい | useISP(ISPの<br>暗号化DNS<br>を使う)
+    ispDNS --> | いいえ | nothing(何もしない)
 ```
 
-Encrypted DNS with a third party should only be used to get around redirects and basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences, or you're interested in a provider that does some rudimentary filtering.
+第三者の暗号化DNSはリダイレクトや基本的な[DNSブロッキング](https://en.wikipedia.org/wiki/DNS_blocking)を回避するため、もしくは初歩的なフィルタリングをするプロバイダに興味がある場合にのみ使うべきです。
 
-[List of recommended DNS servers](../dns.md ""){.md-button}
+[推奨するDNSサーバーのリスト](../dns.md ""){.md-button}
 
 ## DNSSECとは？
 
