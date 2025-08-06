@@ -124,7 +124,7 @@ schema:
 
 - [:material-target-account: Cílené útoky](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 - [:material-bug-outline: Pasivní útoky](basics/common-threats.md#security-and-privacy ""){.pg-orange}
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-server-network: Poskytovatelé služeb](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 **Password managers** allow you to securely store and manage passwords and other credentials with the use of a master password.
 

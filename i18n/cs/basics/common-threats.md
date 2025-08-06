@@ -114,21 +114,21 @@ Tento útok lze provést několika způsoby:
 2. Vývojář může být někým donucený, aby přidal škodlivý kód.
 3. Jednotlivec nebo skupina si mohou vyhlédnout softwarovou závislost třetí strany (známou také jako knihovna) a infiltrovat ji pomocí dvou metod zmíněných výše, jelikož bude použita vývojáři, kteří na ní staví.
 
-Tyto druhy útoků mohou vyžadovat mnoho času a příprav k tomu, aby byly uskutečněné, a jsou riskantní, protože mohou být odhalené, hlavně co se týče open source projektů, pokud jsou populární a je o ně zájem. Bohužel jsou ale taky jedny z těch nejnebezpečnějších, jelikož je velmi těžké jim zcela zabránit. Doporučujeme čtenářům, aby používali software, který má dobrou pověst a snaží se snižovat rizika tím, že:
+Tyto druhy útoků mohou vyžadovat mnoho času a příprav k tomu, aby byly uskutečněné, a jsou riskantní, protože mohou být odhalené, hlavně co se týče open source projektů, pokud jsou populární a je o ně zájem. Bohužel jsou ale taky jedny z těch nejnebezpečnějších, jelikož je velmi těžké jim zcela zabránit. Doporučujeme čtenářům, aby používali software, který má dobrou pověst, a snažili se snižovat rizika tím, že budou:
 
-1. Budou používat populární software, který už nějakou dobu existuje. Čím více je o projekt zájem, tím pravděpodobněji někdo zvenčí zaznamená škodlivé změny. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
-2. Finding software which releases binaries with widely-used, trusted build infrastructure platforms, as opposed to developer workstations or self-hosted servers. Some systems like GitHub Actions let you inspect the build script that runs publicly for extra confidence. This lessens the likelihood that malware on a developer's machine could infect their packages, and gives confidence that the binaries produced are in fact produced correctly.
-3. Looking for code signing on individual source code commits and releases, which creates an auditable trail of who did what. For example: Was the malicious code in the software repository? Which developer added it? Was it added during the build process?
-4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what each change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
-5. Noting the number of contributors or maintainers a program has. A lone developer may be more susceptible to being coerced into adding malicious code by an external party, or to negligently enabling undesirable behavior. This may very well mean software developed by "Big Tech" has more scrutiny than a lone developer who doesn't answer to anyone.
+1. Používat populární software, který už nějakou dobu existuje. Čím více je o projekt zájem, tím pravděpodobněji někdo zvenčí zaznamená škodlivé změny. Škodlivý aktér bude také muset věnovat více času tomu, aby si získal důvěru komunity pomocí kvalitních příspěvků.
+2. Hledat software, který vydává spustitelné soubory s pomocí rozšířených a důvěryhodných platforem, a ne pomocí vlastních pracovních stanic nebo serverů. Některé systémy, jako je např. GitHub Actions, vám dovolí se podívat na build skripty, které běží veřejně kvůli větší důvěryhodnosti. To snižuje pravděpodobnost, že malware na zařízení vývojáře by mohl napadnout jeho balíčky, a zároveň vám dává jistotu, že spustitelné soubory jsou správně vytvořené.
+3. Zjišťovat podpisy u jednotlivých commitů a releasů zdrojového kódu, které vytváří auditovatelný záznam o tom, kdo co udělal. Například: Byl škodlivý kód v tomto repozitáři? Který vývojář ho přidal? Byl přidán během build procesu?
+4. Kontrolovat, zda zdrojový kód obsahuje smysluplné vzkazy u commitů (např. [convential commits](https://conventionalcommits.org)), které vysvětlují, čeho má každá změna dosáhnout. Jasné vzkazy mohou usnadnit ověřování, auditování a nalézání chyb osobám, které se na projektu nepodílejí.
+5. Kontrolovat, kolik přispěvatelů a správců daný program má. Samotný vývojář může být náchylnější k donucení, aby přidal škodlivý kód, nebo k umožnění nežádoucího chování z nedbalosti. To může znamenat, že software vyvinutý "big techem" je pod větším dohledem než samotný vývojář, který se nikomu nezodpovídá.
 
-## Privacy from Service Providers
+## Ochrana soukromí před poskytovateli služeb
 
-<span class="pg-teal">:material-server-network: Service Providers</span>
+<span class="pg-teal">:material-server-network: Poskytovatelé služeb</span>
 
-We live in a world where almost everything is connected to the internet. Our "private" messages, emails, and social interactions are typically stored on a server, somewhere. Generally, when you send someone a message it's stored on a server, and when your friend wants to read the message the server will show it to them.
+Žijeme ve světe, kde je skoro vše připojené k internetu. Naše „soukromé“ zprávy, e-maily a sociální interakce jsou většinou uložené někde na serveru. Obecně platí, že když někomu pošlete zprávu, je uložena na serveru, a když si ji váš přítel chce přečíst, server mu ji zobrazí.
 
-The obvious problem with this is that the service provider (or a hacker who has compromised the server) can access your conversations whenever and however they want, without you ever knowing. This applies to many common services, like SMS messaging, Telegram, and Discord.
+Problém samozřejmě spočívá v tom, že poskytovatel služby (nebo hacker, který se nabourá do serveru) může vaše zprávy číst kdykoliv a jakkoliv chce, a to niž byste o tom věděli. To platí pro mnoho běžných služeb, jako jsou např. SMS zprávy, Telegram nebo Discord.
 
 Thankfully, E2EE can alleviate this issue by encrypting communications between you and your desired recipients before they are even sent to the server. The confidentiality of your messages is guaranteed, assuming the service provider doesn't have access to the private keys of either party.
 
