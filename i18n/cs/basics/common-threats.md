@@ -76,47 +76,47 @@ Abyste minimalizovali škody, které by *mohl* škodlivý software způsobit, m�
 
 Mobilní operační systémy mají obecně lepší sandboxing aplikací než desktopové operační systému: Aplikace nemohou získat root přístup, ale potřebují oprávnění pro přístup ke zdrojům systému.
 
-Desktopové operační systémy obecně zaostávají za náležitou implementací sandboxingu. ChromeOS má podobné možnosti sandboxingu jako Android a macOS má kompletní systém pro řízení oprávnění (a vývojáři se mohou rozhodnout sandboxing pro své aplikace povolit). Tyto operační systémy ale přenášejí informace použitelné k identifikaci jejich původním výrobcům. Linux tends to not submit information to system vendors, but it has poor protection against exploits and malicious apps. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+Desktopové operační systémy obecně zaostávají za náležitou implementací sandboxingu. ChromeOS má podobné možnosti sandboxingu jako Android a macOS má kompletní systém pro řízení oprávnění (a vývojáři se mohou rozhodnout sandboxing pro své aplikace povolit). Tyto operační systémy ale přenášejí informace použitelné k identifikaci jejich původním výrobcům. Linux má tendenci neposkytovat informace výrobci systému, ale zároveň má slabou ochranu proti exploitům a škodlivým aplikacím. Tohoto problému se dá částečně vyvarovat pomocí specializovaných distribucí, které pracují s virtuálními stroji nebo kontejnery, jako např. [Qubes OS](../desktop.md#qubes-os).
 
 </div>
 
-## Attacks against Specific Individuals
+## Útoky na konkrétní osoby
 
-<span class="pg-red">:material-target-account: Targeted Attacks</span>
+<span class="pg-red">:material-target-account: Cílené útoky</span>
 
-Targeted attacks against a specific person are more problematic to deal with. Common attacks include sending malicious documents via email, exploiting vulnerabilities (e.g. in browsers and operating systems), and physical attacks. If this is a concern for you, you should employ more advanced threat mitigation strategies.
+S cílenými útoky je už problematičtější se vypořádat. Mezi běžné útoky patří poslání škodlivého dokumentu e-mailem, zneužití zranitelností (např. v prohlížeči nebo operačním systému) a fyzické útoky. Pokud se jich obáváte, měli byste využít pokročilejší strategie pro obranu před hrozbami.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
 
-By design, **web browsers**, **email clients**, and **office applications** typically run untrusted code, sent to you from third parties. Running multiple virtual machines—to separate applications like these from your host system, as well as each other—is one technique you can use to mitigate the chance of an exploit in these applications compromising the rest of your system. For example, technologies like Qubes OS or Microsoft Defender Application Guard on Windows provide convenient methods to do this.
+**Webové prohlížeče**, **e-mailoví klienti** a **kancelářské balíky** už z podstaty věci spouští nedůvěryhodný kód, poslaný třetí stranou. Provozování více virtuálních strojů, které oddělují tyto aplikace od vaše hostitelského systému a od sebe navzájem, je jeden ze způsobů, jak můžete snížit šanci úspěšného útoku v případě, že někdo zneužije slabiny v některé z těchto aplikací a následně ohrozí zbytek vašeho systému. Technologie jako Qubes OS nebo Microsoft Defender Application Guard na Windows poskytují jednoduchou možnost, jak na to.
 
 </div>
 
-If you are concerned about **physical attacks** you should use an operating system with a secure verified boot implementation, such as Android, iOS, macOS, or [Windows (with TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). You should also make sure that your drive is encrypted, and that the operating system uses a TPM or Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) or [Element](https://developers.google.com/android/security/android-ready-se) to rate limit attempts to enter the encryption passphrase. You should avoid sharing your computer with people you don't trust, because most desktop operating systems don't encrypt data separately per-user.
+Pokud se bojíte **fyzických útoků**, měli byste používat operační systém s implementací secure verified bootu, jako např. Android, iOS, macOS nebo [Windows (s TPM)](https://learn.microsoft.com/windows/security/information-protection/secure-the-windows-10-boot-process). Měli byste se také ujistit, že jsou vaše disky zašifrované a že váš operační systém používá TPM nebo Secure [Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/1/web/1) nebo [Element](https://developers.google.com/android/security/android-ready-se), abyste omezili počet pokusů pro zadání šifrovací passphrase. Taky byste se měli vyvarovat sdílení počítače s lidmi, kterým nevěříte, protože většina desktopových operačních systémů nešifruje data na bázi uživatele.
 
-## Attacks against Certain Organizations
+## Útoky na určité organizace
 
-<span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span>
+<span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain útoky (útoky na dodavatelský řetězec)**</span>
 
-Supply chain attacks are frequently a form of <span class="pg-red">:material-target-account: Targeted Attack</span> towards businesses, governments, and activists, although they can end up compromising the public at large as well.
+Supply Chain útoky jsou častou formou <span class="pg-red">:material-target-account: cílených útoků</span> na podniky, vlády a aktivisty, i když mohou nakonec ohrozit i širokou veřejnost.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example</p>
+<p class="admonition-title">Příklad</p>
 
-A notable example of this occurred in 2017 when M.E.Doc, a popular accounting software in Ukraine, was infected with the *NotPetya* virus, subsequently infecting people who downloaded that software with ransomware. NotPetya itself was a ransomware attack which impacted 2000+ companies in various countries, and was based on the *EternalBlue* exploit developed by the NSA to attack Windows computers over the network.
+Významný příklad tohoto útoku nastal v roce 2017, kdy byl M.E.Doc, populární účetní software na Ukrajině, napadený virem *NotPetya*, který následně napadl ramsonwarem lidi, kteří si tento software stáhli. NotPetya byl ramsonwarový útok, který postihl více než 2000 společností v různých zemích, a byl založen na eploitu *EternalBlue*, který vyvinulo NSA, aby mohlo napadat počítače s Windows prostřednictvím sítě.
 
 </div>
 
-There are few ways in which this type of attack might be carried out:
+Tento útok lze provést několika způsoby:
 
-1. A contributor or employee might first work their way into a position of power within a project or organization, and then abuse that position by adding malicious code.
-2. A developer may be coerced by an outside party to add malicious code.
-3. An individual or group might identify a third party software dependency (also known as a library) and work to infiltrate it with the above two methods, knowing that it will be used by "downstream" software developers.
+1. Přispěvatel nebo zaměstnanec se může nejdříve propracovat na mocnou pozici v rámci projektu nebo organizace, a následně tuto moc zneužít, aby přidal škodlivý kód.
+2. Vývojář může být někým donucený, aby přidal škodlivý kód.
+3. Jednotlivec nebo skupina si mohou vyhlédnout softwarovou závislost třetí strany (známou také jako knihovna) a infiltrovat ji pomocí dvou metod zmíněných výše, jelikož bude použita vývojáři, kteří na ní staví.
 
-These sorts of attacks can require a lot of time and preparation to perform and are risky because they can be detected, particularly in open source projects if they are popular and have outside interest. Unfortunately they're also one of the most dangerous as they are very hard to mitigate entirely. We would encourage readers to only use software which has a good reputation and makes an effort to reduce risk by:
+Tyto druhy útoků mohou vyžadovat mnoho času a příprav k tomu, aby byly uskutečněné, a jsou riskantní, protože mohou být odhalené, hlavně co se týče open source projektů, pokud jsou populární a je o ně zájem. Bohužel jsou ale taky jedny z těch nejnebezpečnějších, jelikož je velmi těžké jim zcela zabránit. Doporučujeme čtenářům, aby používali software, který má dobrou pověst a snaží se snižovat rizika tím, že:
 
-1. Only adopting popular software that has been around for a while. The more interest in a project, the greater likelihood that external parties will notice malicious changes. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
+1. Budou používat populární software, který už nějakou dobu existuje. Čím více je o projekt zájem, tím pravděpodobněji někdo zvenčí zaznamená škodlivé změny. A malicious actor will also need to spend more time gaining community trust with meaningful contributions.
 2. Finding software which releases binaries with widely-used, trusted build infrastructure platforms, as opposed to developer workstations or self-hosted servers. Some systems like GitHub Actions let you inspect the build script that runs publicly for extra confidence. This lessens the likelihood that malware on a developer's machine could infect their packages, and gives confidence that the binaries produced are in fact produced correctly.
 3. Looking for code signing on individual source code commits and releases, which creates an auditable trail of who did what. For example: Was the malicious code in the software repository? Which developer added it? Was it added during the build process?
 4. Checking whether the source code has meaningful commit messages (such as [conventional commits](https://conventionalcommits.org)) which explain what each change is supposed to accomplish. Clear messages can make it easier for outsiders to the project to verify, audit, and find bugs.
