@@ -299,15 +299,15 @@ graph TB
 
 ## DNSSECとは？
 
-[Domain Name System Security Extensions](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) (DNSSEC) is a feature of DNS that authenticates responses to domain name lookups. It does not provide privacy protections for those lookups, but rather prevents attackers from manipulating or poisoning the responses to DNS requests.
+[DNS Security Extensions](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions)（DNSSEC）はドメイン名検索に対する応答を認証するDNSの機能です。 検索に対してプライバシー保護を行うものではなく、 攻撃者がDNSリクエストに対する応答を操作したり、ポイズニングしたりすることを防ぐものです。
 
-In other words, DNSSEC digitally signs data to help ensure its validity. In order to ensure a secure lookup, the signing occurs at every level in the DNS lookup process. As a result, all answers from DNS can be trusted.
+言い換えれば、DNSSECはデータの正当性を保証するために、データにデジタル署名を行うものです。 安全な検索を保証するため、DNSルックアップのプロセスの各レベルで署名が行われます。 その結果、DNSからのすべての応答を信頼することができます。
 
-The DNSSEC signing process is similar to someone signing a legal document with a pen; that person signs with a unique signature that no one else can create, and a court expert can look at that signature and verify that the document was signed by that person. These digital signatures ensure that data has not been tampered with.
+DNSSECの署名プロセスは法的文書にペンで署名することに似ています。ある人は他の人が作成できない固有の署名をし、裁判所の専門家はその署名を見て、文書がその人によって署名されたことを検証します。 デジタル署名はデータが改ざんされていないことを保証します。
 
-DNSSEC implements a hierarchical digital signing policy across all layers of DNS. For example, in the case of a `privacyguides.org` lookup, a root DNS server would sign a key for the `.org` nameserver, and the `.org` nameserver would then sign a key for `privacyguides.org`’s authoritative nameserver.
+DNSSECはDNSのすべてのレイヤーにわたり、階層的なデジタル署名ポリシーを実装しています。 例えば、`privacyguides.org`を検索する場合、ルートDNSサーバーは`.org`ネームサーバーの鍵に署名し、`.org`ネームサーバーは`privacyguides.org`の権威ネームサーバーの鍵に署名します。
 
-<small>Adapted from [DNS Security Extensions (DNSSEC) overview](https://cloud.google.com/dns/docs/dnssec) by Google and [DNSSEC: An Introduction](https://blog.cloudflare.com/dnssec-an-introduction) by Cloudflare, both licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).</small>
+<small>Googleの[DNS Security Extensions（DNSSEC）の概要](https://cloud.google.com/dns/docs/dnssec)およびCloudflareの[DNSSEC: An Introduction](https://blog.cloudflare.com/dnssec-an-introduction)を引用しています。両方とも[CC BY 4.0](https://creativecommons.org/licenses/by/4.0)の下でライセンスされています。</small>
 
 ## What is QNAME minimization?
 

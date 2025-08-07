@@ -130,20 +130,20 @@ Tyto druhy útoků mohou vyžadovat mnoho času a příprav k tomu, aby byly usk
 
 Problém samozřejmě spočívá v tom, že poskytovatel služby (nebo hacker, který se nabourá do serveru) může vaše zprávy číst kdykoliv a jakkoliv chce, a to niž byste o tom věděli. To platí pro mnoho běžných služeb, jako jsou např. SMS zprávy, Telegram nebo Discord.
 
-Thankfully, E2EE can alleviate this issue by encrypting communications between you and your desired recipients before they are even sent to the server. The confidentiality of your messages is guaranteed, assuming the service provider doesn't have access to the private keys of either party.
+Tento problém může naštěstí zmenšit E2EE tím, že šifruje komunikaci mezi vámi a zamýšleným příjemcem, ještě než je odeslána na server. Důvěrnost vašich zpráv je zaručena za předpokladu, že poskytovatel služby nemá přístup k soukromým klíčům ani jedné strany.
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note on Web-based Encryption</p>
+<p class="admonition-title">Poznámka k šifrování na webu</p>
 
-In practice, the effectiveness of different E2EE implementations varies. Applications, such as [Signal](../real-time-communication.md#signal), run natively on your device, and every copy of the application is the same across different installations. If the service provider were to introduce a [backdoor](https://en.wikipedia.org/wiki/Backdoor_(computing)) in their application—in an attempt to steal your private keys—it could later be detected with [reverse engineering](https://en.wikipedia.org/wiki/Reverse_engineering).
+V praxi se efektivita různých E2EE implementací liší. Aplikace jako je [Signal](../real-time-communication.md#signal) běží přímo na vašem zařízení a každá kopie aplikace je stejná napříč různými instalacemi. Pokud by poskytovatel služby zanesl [zadní vrátka](https://cs.wikipedia.org/wiki/Zadn%C3%AD_vr%C3%A1tka) do jejich aplikace – ve snaze ukrást vaše soukromé klíče – bylo by možné to zjistit pomocí [reverzního inženýrství](https://cs.wikipedia.org/wiki/Reverzn%C3%AD_in%C5%BEen%C3%BDrstv%C3%AD).
 
-On the other hand, web-based E2EE implementations, such as Proton Mail's web app or Bitwarden's *Web Vault*, rely on the server dynamically serving JavaScript code to the browser to handle cryptography. A malicious server can target you and send you malicious JavaScript code to steal your encryption key (and it would be extremely hard to notice). Because the server can choose to serve different web clients to different people—even if you noticed the attack—it would be incredibly hard to prove the provider's guilt.
+Na druhou stranu, webové implementace E2EE, např. u webové aplikace Proton Mail nebo *Web Vault* od Bitwardenu, se spoléhají na server, který dynamicky doručuje JavaScriptový kód prohlížeči, pomocí kterého pracuje s kryptografií. Škodlivý server vás může zacílit a poslat vám škodlivý JavaScriptový kód, který ukradne vaše šifrovací klíče (a bylo by velmi těžké to zaznamenat). Jelikož server může podstrčit různého klienta různým lidem, i kdybyste si útoku všimli, bylo by velmi obtížné dokázat poskytovateli jeho zavinění.
 
-Therefore, you should use native applications over web clients whenever possible.
+Proto byste měli používat nativní aplikace místo webových klientů, kdykoliv je to možné.
 
 </div>
 
-Even with E2EE, service providers can still profile you based on **metadata**, which typically isn't protected. While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. Protection of metadata is fairly uncommon, and—if it's within your [threat model](threat-modeling.md)—you should pay close attention to the technical documentation of the software you're using to see if there's any metadata minimization or protection at all.
+I v případě E2EE vás ale mohou poskytovatelé služeb profilovat na základě **metadat**, která obvykle chráněná nejsou. While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. Protection of metadata is fairly uncommon, and—if it's within your [threat model](threat-modeling.md)—you should pay close attention to the technical documentation of the software you're using to see if there's any metadata minimization or protection at all.
 
 ## Mass Surveillance Programs
 
