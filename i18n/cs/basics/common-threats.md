@@ -143,43 +143,43 @@ Proto byste měli používat nativní aplikace místo webových klientů, kdykol
 
 </div>
 
-I v případě E2EE vás ale mohou poskytovatelé služeb profilovat na základě **metadat**, která obvykle chráněná nejsou. While the service provider can't read your messages, they can still observe important things, such as whom you're talking to, how often you message them, and when you're typically active. Protection of metadata is fairly uncommon, and—if it's within your [threat model](threat-modeling.md)—you should pay close attention to the technical documentation of the software you're using to see if there's any metadata minimization or protection at all.
+I v případě E2EE vás ale mohou poskytovatelé služeb profilovat na základě **metadat**, která obvykle chráněná nejsou. A zatímco si poskytovatelé nemohou číst obsah vašich zpráv, pořád se mohou dozvědět citlivé věci, jako s kým si píšete, jak často jim píšete, a kdy jste obvykle aktivní. Ochrana metadat je poměrně neobvyklá, a – pokud je to ve vašem [threat modelu](threat-modeling.md) – měli byste věnovat velkou pozornost technické dokumentaci softwaru, který používáte, abyste zjistili, jestli produkci metadat nějakým způsobem minimalizuje nebo je chrání.
 
-## Mass Surveillance Programs
+## Programy k hromadnému sledování
 
-<span class="pg-blue">:material-eye-outline: Mass Surveillance</span>
+<span class="pg-blue">:material-eye-outline: Hromadné sledování</span>
 
-Mass surveillance is the intricate effort to monitor the "behavior, many activities, or information" of an entire (or substantial fraction of a) population.[^1] It often refers to government programs, such as the ones [disclosed by Edward Snowden in 2013](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). However, it can also be carried out by corporations, either on behalf of government agencies or by their own initiative.
+Hromadné sledování je spletitá snaha monitorovat „chování, mnoho činností nebo informace“ celé populace (nebo její podstatné části). [^1] Často se jím označují vládní programy, např. ty, které [v roce 2013 zveřejnil Edward Snowden](https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)). Mohou ho ale provádět i korporace, ať už na popud vládních úřadů nebo z vlastní iniciativy.
 
 <div class="admonition abstract" markdown>
 <p class="admonition-title">Atlas of Surveillance</p>
 
-If you want to learn more about surveillance methods and how they're implemented in your city you can also take a look at the [Atlas of Surveillance](https://atlasofsurveillance.org) by the [Electronic Frontier Foundation](https://eff.org).
+Pokud se chcete dozvědět více o metodách sledování a jak jsou implementovány ve vašem městě, můžete se podívat na [Atlas of Surveillance](https://atlasofsurveillance.org) od [Electronic Frontier Foundation](https://eff.org).
 
-In France, you can take a look at the [Technopolice website](https://technopolice.fr/villes) maintained by the non-profit association La Quadrature du Net.
+Pokud jste ve Francii, podívejte se na [stránku Technopolice](https://technopolice.fr/villes) zaštiťovanou neziskovou organizací „La Quadrature du Net“.
 
 </div>
 
-Governments often justify mass surveillance programs as necessary means to combat terrorism and prevent crime. However, as breaches of human rights, they're most often used to disproportionately target minority groups and political dissidents, among others.
+Vlády často zdůvodňují používání programů na hromadné sledování bojem proti terorismu nebo prevencí kriminality. Nejčastěji jsou ale využity pro porušování lidských práv a mimo jiné i k nepřiměřenému cílení na menšiny a politické disidenty.
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">ACLU: <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">The Privacy Lesson of 9/11: Mass Surveillance is Not the Way Forward</a></em></p>
+<p class="admonition-title">ACLU (Americký svaz pro občanské svobody): <em><a href="https://aclu.org/news/national-security/the-privacy-lesson-of-9-11-mass-surveillance-is-not-the-way-forward">Poučení z hlediska soukromí z 9. září: Hromadné sledování není cestou vpřed (anglicky)</a></em></p>
 
-In the face of Edward Snowden's disclosures of government programs such as [PRISM](https://en.wikipedia.org/wiki/PRISM) and [Upstream](https://en.wikipedia.org/wiki/Upstream_collection), intelligence officials also admitted that the NSA had for years been secretly collecting records about virtually every American’s phone calls — who’s calling whom, when those calls are made, and how long they last. This kind of information, when amassed by the NSA day after day, can reveal incredibly sensitive details about people’s lives and associations, such as whether they have called a pastor, an abortion provider, an addiction counselor, or a suicide hotline.
+V souvislosti s odhalením vládních programů jako je [PRISM](https://cs.wikipedia.org/wiki/PRISM) a [Upstream (anglicky)](https://en.wikipedia.org/wiki/Upstream_collection) Edwardem Snowdenem se představitelé zpravodajských služeb přiznaly k tomu, že NSA roky tajně shromažďovala záznamy o prakticky každém Američanovi, konkrétně záznamy telefonních hovorů, kdo komu volal, kdy se hovory uskutečnily a jak dlouho trvaly. Pokud tento typ informací NSA každý den shromažďuje, mohou odhalit neuvěřitelně citlivá data o životě lidí a jejich vztazích, např. zda volali faráři, potratové klinice, psychiatrovi nebo na linku pro sebevrahy.
 
 </div>
 
-Despite growing mass surveillance in the United States, the government has found that mass surveillance programs like Section 215 have had "little unique value" with respect to stopping actual crimes or terrorist plots, with efforts largely duplicating the FBI's own targeted surveillance programs.[^2]
+Navzdory rostoucímu hromadnému sledování v USA vláda zjistila, že programy k hromadnému sledování v souvislosti s oddílem 215 mají „jen malou jedinečnou hodnotu“, co se týče eliminace skutečných zločinů nebo teroristických spiknutí, s tím, že z většiny suplují programy k hromadnému sledování vyvíjené FBI.[^2]
 
-Online, you can be tracked via a variety of methods, including but not limited to:
+Online můžete být sledováni pomocí níže uvedených metod, ale nejen těch:
 
-- Your IP address
-- Browser cookies
-- The data you submit to websites
-- Your browser or device fingerprint
-- Payment method correlation
+- Vaší IP adresy
+- Souborů cookies z vašeho prohlížeče
+- Údajů, které vkládáte na webové stránky
+- Jedinečného otisku vašeho prohlížeče nebo zařízení
+- Korelace platebních metod
 
-If you're concerned about mass surveillance programs, you can use strategies like compartmentalizing your online identities, blending in with other users, or, whenever possible, simply avoiding giving out identifying information.
+Pokud se obáváte programů hromadného sledování, můžete využít strategie, jako je např. rozdělení vašich on-line identit, splynutí s ostatními uživateli, a taky, kdekoliv je to možné, jednoduše neposkytujte informace, které by vás mohly identifikovat.
 
 ## Surveillance as a Business Model
 
