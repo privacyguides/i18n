@@ -233,9 +233,9 @@ Firefox 在 128 版本的更新，新增了一個[尊重隱私的成效測量](h
 
 </div>
 
-[Arkenfox 專案](https://github.com/arkenfox/user.js) 為 Firefox 提供了一套經過仔細考量的設定。 If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
+[Arkenfox 專案](https://github.com/arkenfox/user.js) 為 Firefox 提供了一套經過仔細考量的設定。 如果您[決定](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not)使用 Arkenfox，有[幾個選項](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common])可能在主觀上會較為嚴格，並且/或者可能導致某些網站無法正常運作，不過您可以[輕鬆的更改](https://github.com/arkenfox/user.js/wiki/3.1-Overrides)這些選項，以滿足您的需求。 我們**強烈建議**完整閱讀其 [Wiki 頁面](https://github.com/arkenfox/user.js/wiki)。 Arkenfox 也啟用了[容器](https://support.mozilla.org/kb/containers#w_for-advanced-users)功能。
 
-Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
+Arkenfox 的目標旨在透過 Canvas 隨機化和 Firefox 內建的抗指紋設定來阻止基本或簡單的追蹤腳本。 它的目的不是讓您的瀏覽器與其他許多使用 Arkenfox 的使用者混在一起，那是 Mullvad 瀏覽器或 Tor 瀏覽器的作法，也是阻止進階指紋跟蹤腳本的唯一方法。 請記得，您可以使用多個瀏覽器。例如，您可以考慮在需要保持登入或可以信任的幾個網站使用 Firefox + Arkenfox，而在一般瀏覽時則使用 Mullvad 瀏覽器。
 
 ## Brave
 
@@ -279,7 +279,7 @@ Brave 在官網的下載的檔案名稱中新增了一個 「[推廣代碼（ref
 
 #### 防護
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+Brave 在其 [防護 (Shields)](https://support.brave.com/hc/articles/360022973471-What-is-Shields) 功能加入了一些防指紋識別措施。 我們建議在您造訪的所有網頁上[全域](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings)套用這些設定。
 
 防護功能的選項可以根據各網站需要依情況降級，但我們建議預設使用以下設定：
 
@@ -303,7 +303,7 @@ Brave 允許您在內部網頁 brave://settings/shields/filters 內選擇額外�
 
 </div>
 
-1. 此選項會停用 JavaScript，這會破壞許多網站。 To fix them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+1. 此選項會停用 JavaScript，這會破壞許多網站。 要修復這些網站，可以根據需要個別設定例外。只需點一下網址列上的 Shield 圖示，然後在 *進階控制* 下取消勾選此設定即可。
 2. 如果您希望在經常造訪的特定網站保持登入狀態，可以針對個別需要的網站設定例外。只需點一下網址列上的 Shield 圖示，然後在 *進階控制* 下取消勾選此設定即可。
 
 #### 隱私權和安全性
