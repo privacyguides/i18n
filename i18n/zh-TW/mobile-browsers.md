@@ -244,7 +244,7 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
 
 - [x] 勾選 **一律使用安全連線**
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. 如今，僅支援 HTTP 的網站已不多見，因此這對您日常瀏覽的影響幾乎沒有影響。
+這可以防止您無意間以明文 HTTP 連線到網站。 如今，僅支援 HTTP 的網站已不多見，因此這對您日常瀏覽的影響幾乎沒有影響。
 
 #### Adblock Plus settings
 

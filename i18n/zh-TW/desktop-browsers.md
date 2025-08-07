@@ -61,9 +61,9 @@ schema:
 
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-這些是我們目前推薦的**桌面瀏覽器**與其設定，適合普通或非匿名的網頁瀏覽。 如果您重視強大的隱私保護和內建的的反指紋追蹤功能，我們推薦使用 [Mullvad 瀏覽器](#mullvad-browser)；如果您在尋求 Google Chrome 替代方案的休閒用網路瀏覽器，我們推薦使用 [Firefox](#firefox)；如果您需要 Chromium 的瀏覽器相容性，我們推薦使用 [Brave](#brave)。
+這些是我們目前推薦的**桌面瀏覽器**與其設定，適合普通或非匿名的網頁瀏覽。 如果您重視強大的隱私保護和內建的的反指紋追蹤功能，我們推薦使用 [Mullvad 瀏覽器](#mullvad-browser)；如果您在尋找替代 Google Chrome 的好選擇，我們推薦使用 [Firefox](#firefox)，或者如果您需要 Chromium 的瀏覽器相容性，我們推薦使用 [Brave](#brave)。
 
-如果您需要匿名瀏覽網際網路，應該使用 [Tor](tor.md)。 我們在此頁面提供了一些設定建議，但除了 Tor 瀏覽器以外的所有瀏覽器都可能以某種方式被*某人*追蹤。
+如果您需要匿名瀏覽網際網路，則應該使用 [Tor](tor.md)。 我們在此頁面提供了一些設定建議，但除了 Tor 瀏覽器以外的所有瀏覽器都可能以某種方式被*某人*追蹤。
 
 ## Mullvad 瀏覽器
 
@@ -89,11 +89,11 @@ schema:
 
 </div>
 
-Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+與 [Tor 瀏覽器](tor.md) 一樣，Mullvad 瀏覽器的設計也是透過讓您的瀏覽器指紋與所有 Mullvad 瀏覽器使用者一致來防止指紋識別，並且它還包含根據安全等級自動調整的設定和擴充功能，分為 *標準*、*較安全* 和 *最安全* 三個等級。
 
 因此，除了調整預設的[安全層級](https://tb-manual.torproject.org/security-settings)外，請絕對不要對瀏覽器進行任何修改。 調整安全層級後，您**必須**重新啟動瀏覽器，才能繼續使用。 否則，[安全設定可能無法完全套用](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw)，使您遭受指紋辨識和漏洞利用的風險比您對所選設定的預期還要高。
 
-Modifications other than adjusting this setting would make your fingerprint unique, defeating the purpose of using this browser. 如果您希望更深入地調整瀏覽器設定，且您不擔心瀏覽器指紋被識別，我們推薦使用 [Firefox](#firefox)。
+修改其他設定將使您的指紋變得獨特，從而打破使用此瀏覽器的目的。 如果您希望更深入地調整瀏覽器設定，且您不擔心瀏覽器指紋被識別，我們推薦使用 [Firefox](#firefox)。
 
 ### 防止指紋識別
 
@@ -113,9 +113,9 @@ Mullvad 瀏覽器預設總是使用隱私瀏覽模式運行，這意味著您的
 
 ### Mullvad Leta
 
-Mullvad Browser comes with [**Mullvad Leta**](search-engines.md#mullvad-leta) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
+Mullvad 瀏覽器內建 [**Mullvad Leta**](search-engines.md#mullvad-leta) 作為預設搜尋引擎，可代理 Google 或 Brave 搜尋結果 (可在 Mullvad Leta 首頁設定)。
 
-如果您是 Mullvad VPN 使用者，使用由 VPN 供應商自行提供的 Mullvad Leta 等服務會有一定風險。 This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta); the latter is information a VPN is typically intended to separate. 儘管 Mullvad 收集其 VPN 訂戶或 Leta 使用者的資訊非常少，但如果您擔心此風險，則應考慮使用其他[搜尋引擎](search-engines.md)。
+如果您是 Mullvad VPN 使用者，使用由 VPN 供應商自行提供的 Mullvad Leta 等服務會有一定風險。 這是因為理論上 Mullvad 可以存取您實際的 IP 位址（透過他們的 VPN）和您的搜尋活動（透過 Leta）；而分隔後者的資訊通常是使用 VPN 的目。 儘管 Mullvad 收集其 VPN 訂戶或 Leta 使用者的資訊非常少，但如果您擔心此風險，則應考慮使用其他[搜尋引擎](search-engines.md)。
 
 ## Firefox
 
@@ -164,7 +164,7 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 
 ##### Firefox Suggest (僅限美國)
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) 是一項類似搜尋建議的功能，目前僅在美國提供。 我們建議停用此功能的原因與我們建議停用搜尋建議的原因相同。 If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) 是一項類似搜尋建議的功能，目前僅在美國提供。 我們建議停用此功能的原因與我們建議停用搜尋建議的原因相同。 如果您在「**網址列**」標題下沒有看到這些選項，則表示您還不能使用此功能，可以忽略這些變更。
 
 - [ ] 取消勾選 **Suggestions from Firefox**
 - [ ] 取消勾選 **Suggestions from sponsors**
@@ -179,7 +179,7 @@ Firefox 在 Mozilla 網站的下載中包含一個獨特的 [下載令牌](https
 
 ##### 關閉時清除資料
 
-If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
+如果您想在特定網站保持登入狀態，可以在 **Cookie 與網站資料** → **管理例外網站…** 中調整。
 
 - [x] 勾選 **關閉 Firefox 時清除 Cookie 與網站資料**
 
@@ -195,7 +195,7 @@ If you want to stay logged in to particular sites, you can allow exceptions in *
 
 > Firefox 會向 Mozilla 發送以下數據：您的 Firefox 版本和語言；操作系統和硬體配置；記憶體、關於崩潰和錯誤的基本訊息；更新、安全瀏覽和啟動等自動化流程系統的結果。 當 Firefox 向 Mozilla 發送數據時，會將您的 IP 位址作為伺服器日誌的一部份暫時收集。
 
-Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt out:
+此外，Mozilla 帳號服務也會收集[一些技術資料](https://mozilla.org/privacy/mozilla-accounts)。 如果您有使用 Mozilla 帳號，可以選擇退出：
 
 1. 在 [accounts.firefox.com 開啟您的個人資料設定](https://accounts.firefox.com/settings#data-collection)
 2. 取消勾選 **資料收集與使用** > **幫助我們改善 ⁨Mozilla 帳號⁩**
@@ -204,25 +204,25 @@ Additionally, the Mozilla Accounts service collects [some technical data](https:
 
 - [ ] 取消勾選 **允許網站進行能保護隱私的廣告成效測量**
 
-With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
+Firefox 在 128 版本的更新，新增了一個[尊重隱私的成效測量](https://support.mozilla.org/kb/privacy-preserving-attribution) (簡稱 PPA) 的設定，並且[預設為開啟狀態](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2)。 PPA 允許廣告商利用您的瀏覽器進行廣告成效測量，進而取代基於 JavaScript 的傳統追蹤方式。 我們認為此行為超出了使用者代理的職責範圍，而 Arkenfox 預設停用此功能的決定，也進一步表明應該停用這項功能。
 
 ##### 純 HTTPS 模式
 
 - [x] 勾選 **在所有視窗都只使用 HTTPS 連線**
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+這可以防止您無意間以明文 HTTP 連線到網站。 如今，不支援 HTTPS 的網站並不多見，因此這對您日常瀏覽網頁應該幾乎沒有影響。
 
 ##### 基於 HTTPS 的 DNS 服務 (DNS over HTTPS)
 
-If you use a [DNS over HTTPS provider](dns.md):
+如果您使用 [DNS over HTTPS 提供者](dns.md)：
 
 - [x] 選擇 **最大保護** 與合適的提供者
 
-Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
+最大保護 會強制使用 DNS over HTTPS，如果 Firefox 無法連線到您的安全 DNS 解析器，或者安全 DNS 解析器表示您嘗試存取的網域沒有記錄，則會顯示安全性警告。 這可以防止您所使用的網路暗中降低您的 DNS 安全性。
 
 #### 同步
 
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
+[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) 可讓您在所有裝置上存取瀏覽資料 (歷史記錄、書籤等)，並使用 E2EE 進行保護。
 
 ### Arkenfox (進階)
 
@@ -233,7 +233,7 @@ Max Protection enforces the use of DNS over HTTPS, and a security warning will s
 
 </div>
 
-The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
+[Arkenfox 專案](https://github.com/arkenfox/user.js) 為 Firefox 提供了一套經過仔細考量的設定。 If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
 
 Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
 
