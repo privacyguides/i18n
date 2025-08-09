@@ -211,21 +211,21 @@ Cenzurování na internetu mohou (v různé míře) provádět různé subjekty,
 
 Cenzura na platformách vlastněných korporacemi je čím dál častější, protože se platformy jako Twitter nebo Facebook podřizují tlaku veřejnosti, trhu nebo vládních úřadů. Vládní nátlak může být jak skrytý, což je případ Bílého domu, který si [vyžádá stažení](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) provokativního videa na YouTube, nebo zjevný, jako v případě čínské vlády, která od společností vyžaduje, aby se podřídily přísnému režimu cenzury.
 
-People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../social-networks.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
+Lidé obávající se hrozby cenzury mohou využít technologie, jako je [Tor](../advanced/tor-overview.md), aby se jí vyhli, a mohou podporovat komunikační platformy odolné cenzuře, jako je např. [Matrix](../social-networks.md#element), který nemá centrální autoritu nad účty, jež by je mohla svévolně rušit.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
 
-While evading censorship itself can be easy, hiding the fact that you are doing it can be very problematic.
+Zatímco vyhýbat se cenzuře samotné může být snadné, zakrýt tuhle skutečnost může být velmi problematické.
 
-You should consider which aspects of the network your adversary can observe, and whether you have plausible deniability for your actions. For example, using [encrypted DNS](../advanced/dns-overview.md#what-is-encrypted-dns) can help you bypass rudimentary, DNS-based censorship systems, but it can't truly hide what you are visiting from your ISP. A VPN or Tor can help hide what you are visiting from network administrators, but can't hide that you're using those networks in the first place. Pluggable transports (such as Obfs4proxy, Meek, or Shadowsocks) can help you evade firewalls that block common VPN protocols or Tor, but your circumvention attempts can still be detected by methods like probing or [deep packet inspection](https://en.wikipedia.org/wiki/Deep_packet_inspection).
+Měli byste zvážit, které aspekty sítě mohou útočníci kontrolovat, a jestli máte alibi pro vaše činnosti. Například použití [šifrované DNS](../advanced/dns-overview.md#what-is-encrypted-dns) vám může pomoct překonat primitivní systémy cenzury založené na DNS, ale nemůže ve skutečnosti skrýt, co navštěvujete, před vaším ISP. VPN nebo Tor vám mohou pomoci skrýt, co navštěvujete, před správci sítě, ale nemohou skrýt, že tyto sítě vůbec používáte. Propojovací transporty (jako je Obfs4proxy, Meek, nebo Shadowsocks) vám mohou pomoci obejít firewally, které blokují běžné VPN protokoly nebo Tor, ale vaše pokusy o obejití mohou být i tak detekované pomocí metod, jako je probing nebo [hloubkové inspekce paketů](https://en.wikipedia.org/wiki/Deep_packet_inspection).
 
 </div>
 
-You must always consider the risks of trying to bypass censorship, the potential consequences, and how sophisticated your adversary may be. You should be cautious with your software selection, and have a backup plan in case you are caught.
+Musíte vždy zvážit rizika spojená se snahami obejít cenzuru, možnými následky, a tím, jak důmyslní mohou být vaši protivníci. Měli byste být obezřetní při výběru softwaru a mít záložní plán v případě, že budete dopadeni.
 
-[^1]: Wikipedia: [*Mass Surveillance*](https://en.wikipedia.org/wiki/Mass_surveillance) and [*Surveillance*](https://en.wikipedia.org/wiki/Surveillance).
+[^1]: Wikipedie: [*Hromadné sledování*](https://en.wikipedia.org/wiki/Mass_surveillance) a [*sledování*](https://en.wikipedia.org/wiki/Surveillance).
 [^2]: United States Privacy and Civil Liberties Oversight Board: [*Report on the Telephone Records Program Conducted under Section 215*](https://documents.pclob.gov/prod/Documents/OversightReport/ec542143-1079-424a-84b3-acc354698560/215-Report_on_the_Telephone_Records_Program.pdf)
-[^3]: Wikipedia: [*Surveillance capitalism*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
-[^4]: "[Enumerating badness](https://ranum.com/security/computer_security/editorials/dumb)" (or, "listing all the bad things that we know about"), as many content blockers and antivirus programs do, fails to adequately protect you from new and unknown threats because they have not yet been added to the filter list. You should also employ other mitigation techniques.
-[^5]: United Nations: [*Universal Declaration of Human Rights*](https://un.org/en/about-us/universal-declaration-of-human-rights).
+[^3]: Wikipedie: [*Kapitalismus dohledu*](https://en.wikipedia.org/wiki/Surveillance_capitalism)
+[^4]: "[Vyjmenování špatností](https://ranum.com/security/computer_security/editorials/dumb)" (nebo taky "vyjmenování všech špatných věcí, o kterých víme"), které používá spoustu blokátorů obsahu a antivirových programů, vás nedostatečně chrání proti novým a neznámým hrozbám, protože zatím nebyly přidané v seznamu filtru. Měli byste používat i ostatní metody pro zmírnění následků.
+[^5]: Organizace spojených národů: [*Všeobecná deklarace lidských práv*](https://un.org/en/about-us/universal-declaration-of-human-rights).
