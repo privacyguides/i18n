@@ -181,35 +181,35 @@ Online můžete být sledováni pomocí níže uvedených metod, ale nejen těch
 
 Pokud se obáváte programů hromadného sledování, můžete využít strategie, jako je např. rozdělení vašich on-line identit, splynutí s ostatními uživateli, a taky, kdekoliv je to možné, jednoduše neposkytujte informace, které by vás mohly identifikovat.
 
-## Surveillance as a Business Model
+## Sledování jako obchodní model
 
-<span class="pg-brown">:material-account-cash: Surveillance Capitalism</span>
+<span class="pg-brown">:material-account-cash: Kapitalismus dohledu</span>
 
-> Surveillance capitalism is an economic system centered around the capture and commodification of personal data for the core purpose of profit-making.[^3]
+> Kapitalismus dohledu je ekonomický systém zaměřený na zachycování a komodifikaci osobních údajů s hlavní účelem tvorby zisku.[^3]
 
-For many people, tracking and surveillance by private corporations is a growing concern. Pervasive ad networks, such as those operated by Google and Facebook, span the internet far beyond just the sites they control, tracking your actions along the way. Using tools like content blockers to limit network requests to their servers, and reading the privacy policies of the services you use can help you avoid many basic adversaries (although it can't completely prevent tracking).[^4]
+Mnoho lidí se stále více obává sledování a dohledu ze strany soukromých korporací. Všudypřítomné reklamní sítě, např. ty provozované společností Google nebo Meta, rozšiřují jejich dosah na internetu i na stránky, které nemají pod přímou kontrolou, a to jim umožňuje vás sledovat. Používání nástrojů, jako jsou blokátory obsahu, které omezují posílání požadavků na jejich servery, a čtením pravidel o ochraně údajů služeb, které používáte, se můžete vyhnout mnoho základním útokům (i když sledování nejde zcela zabránit).[^4]
 
-Additionally, even companies outside the *AdTech* or tracking industry can share your information with [data brokers](https://en.wikipedia.org/wiki/Information_broker) (such as Cambridge Analytica, Experian, or Datalogix) or other parties. You can't automatically assume your data is safe just because the service you're using doesn't fall within the typical AdTech or tracking business model. The strongest protection against corporate data collection is to encrypt or obfuscate your data whenever possible, making it difficult for different providers to correlate data with each other and build a profile on you.
+Mimo to, i společnosti mimo *AdTech*, a sledovací odvětví obecně, mohou sdílet vaše údaje s [data brokery](https://en.wikipedia.org/wiki/Information_broker) (např. Cambridge Analytica, Experian nebo Datalogix) nebo jinými stranami. Nemůžete automaticky předpokládat, že jsou vaše data v bezpečí jen proto, že vámi používaná služba nespadá pod typický obchodní model AdTechu nebo sledování. Nejsilnější ochranou proti shromažďování dat korporacemi je tyto data zašifrovat nebo obfuskovat, kdykoliv je to možné, a tím ztížit různým poskytovatelům vzájemnou korelaci dat a vybudování vašeho profilu.
 
-## Limiting Public Information
+## Omezování informací dostupných veřejně
 
-<span class="pg-green">:material-account-search: Public Exposure</span>
+<span class="pg-green">:material-account-search: Vystavení veřejnosti</span>
 
-The best way to keep your data private is simply not making it public in the first place. Deleting unwanted information you find about yourself online is one of the best first steps you can take to regain your privacy.
+Nejlepší způsob, jak vaše data uchovat v soukromí, je o tom, v první řadě je nezveřejňovat. Odstraňování nežádoucích informací, které o sobě najdete on-line, je jeden z nejlepších prvních kroků, které můžete udělat pro to, abyste znovu získali své soukromí zpátky.
 
-- [View our guide on account deletion :material-arrow-right-drop-circle:](account-deletion.md)
+- [Podívejte se na našeho průvodce mazáním účtů :material-arrow-right-drop-circle:](account-deletion.md)
 
-On sites where you do share information, checking the privacy settings of your account to limit how widely that data is spread is very important. For example, enable "private mode" on your accounts if given the option: This ensures that your account isn't being indexed by search engines, and that it can't be viewed without your permission.
+Na webech, kde sdílíte své údaje, je důležité zkontrolovat nastavení soukromí, abyste zamezili šíření vašich údajů dál. Například můžete povolit „soukromý režim“ u účtů, které to umožňují: Tím si zajistíte, že váš účet nebude indexován vyhledávači a že jej nebude možné si prohlížet bez vašeho svolení.
 
-If you've already submitted your real information to sites which shouldn't have it, consider using disinformation tactics, like submitting fictitious information related to that online identity. This makes your real information indistinguishable from the false information.
+Pokud jste ale už sdíleli své pravé údaje se stránkami, které by je neměly mít, zvažte použití dezinformačních taktik, jako je sdílení falešných informací v souvislosti s vaší on-line identitou. Tím se skutečné informace stanou nerozeznatelnými od falešných.
 
-## Avoiding Censorship
+## Vyhýbání se cenzuře
 
-<span class="pg-blue-gray">:material-close-outline: Censorship</span>
+<span class="pg-blue-gray">:material-close-outline: Cenzura</span>
 
-Censorship online can be carried out (to varying degrees) by actors including totalitarian governments, network administrators, and service providers. These efforts to control communication and restrict access to information will always be incompatible with the human right to Freedom of Expression.[^5]
+Cenzurování na internetu mohou (v různé míře) provádět různé subjekty, např. totalitní vlády, správci sítí, nebo poskytovatelé služeb. Tyto snahy o kontrolu komunikace a omezování přístupu k informacím budou vždy neslučitelné s lidským právem na svobodu projevu.[^5]
 
-Censorship on corporate platforms is increasingly common, as platforms like Twitter and Facebook give in to public demand, market pressures, and pressures from government agencies. Government pressures can be covert requests to businesses, such as the White House [requesting the takedown](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) of a provocative YouTube video, or overt, such as the Chinese government requiring companies to adhere to a strict regime of censorship.
+Cenzura na platformách vlastněných korporacemi je čím dál častější, protože se platformy jako Twitter nebo Facebook podřizují tlaku veřejnosti, trhu nebo vládních úřadů. Vládní nátlak může být jak skrytý, což je případ Bílého domu, který si [vyžádá stažení](https://nytimes.com/2012/09/17/technology/on-the-web-a-fine-line-on-free-speech-across-globe.html) provokativního videa na YouTube, nebo zjevný, jako v případě čínské vlády, která od společností vyžaduje, aby se podřídily přísnému režimu cenzury.
 
 People concerned with the threat of censorship can use technologies like [Tor](../advanced/tor-overview.md) to circumvent it, and support censorship-resistant communication platforms like [Matrix](../social-networks.md#element), which doesn't have a centralized account authority that can close accounts arbitrarily.
 

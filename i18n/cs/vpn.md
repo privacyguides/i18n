@@ -12,7 +12,7 @@ global:
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: Kapitalismus dohledu](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
 If you're looking for additional *privacy* from your ISP, on a public Wi-Fi network, or while torrenting files, a **VPN** may be the solution for you.
 
