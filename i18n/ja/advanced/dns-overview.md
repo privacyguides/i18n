@@ -309,48 +309,48 @@ DNSSECはDNSのすべてのレイヤーにわたり、階層的なデジタル�
 
 <small>Googleの[DNS Security Extensions（DNSSEC）の概要](https://cloud.google.com/dns/docs/dnssec)およびCloudflareの[DNSSEC: An Introduction](https://blog.cloudflare.com/dnssec-an-introduction)を引用しています。両方とも[CC BY 4.0](https://creativecommons.org/licenses/by/4.0)の下でライセンスされています。</small>
 
-## What is QNAME minimization?
+## QNAME minimizationとは？
 
-A QNAME is a "qualified name", for example `discuss.privacyguides.net`. In the past, when resolving a domain name your DNS resolver would ask every server in the chain to provide any information it has about your full query. In this example below, your request to find the IP address for `discuss.privacyguides.net` gets asked of every DNS server provider:
+QNAMEは「修飾名」のことで、例えば`discuss.privacyguides.net`のようなものです。 以前はドメイン名を解決する際、DNSリゾルバーはチェーン内のすべてのサーバーに完全なクエリに関する情報を問い合わせていました。 以下の例では、`discuss.privacyguides.net`のIPアドレスを見つけるリクエストはすべてのDNSサーバープロバイダーに問い合わせをします：
 
-| サーバー                | 質問                                          | 回答                                   |
-| ------------------- | ------------------------------------------- | ------------------------------------ |
-| ルートサーバー             | What's the IP of discuss.privacyguides.net? | わかりません。.netのサーバーに聞いてみてください。          |
-| .netのサーバー           | What's the IP of discuss.privacyguides.net? | わかりません、Privacy Guidesのサーバーに聞いてください…。 |
-| Privacy Guidesのサーバー | What's the IP of discuss.privacyguides.net? | 5.161.195.190!                       |
+| サーバー                | 質問                                     | 回答                                   |
+| ------------------- | -------------------------------------- | ------------------------------------ |
+| ルートサーバー             | discuss.privacyguides.netのIPアドレスは何ですか？ | わかりません。.netのサーバーに聞いてみてください。          |
+| .netのサーバー           | discuss.privacyguides.netのIPアドレスは何ですか？ | わかりません、Privacy Guidesのサーバーに聞いてください…。 |
+| Privacy Guidesのサーバー | discuss.privacyguides.netのIPアドレスは何ですか？ | 5.161.195.190!                       |
 
-With "QNAME minimization," your DNS resolver now only asks for just enough information to find the next server in the chain. In this example, the root server is only asked for enough information to find the appropriate nameserver for the .net TLD, and so on, without ever knowing the full domain you're trying to visit:
+「QNAME minimization」によって、DNSリゾルバーはチェーンの次のサーバーを見つけるのに十分な情報のみ問い合わせます。 以下の例では、ルートサーバーは訪問先サイトの完全なドメインを知ることなく、.net TLDの適切なネームサーバーを見つけるのに十分な情報のみ問い合わせされます：
 
-| サーバー                | 質問                                                   | 回答                                |
-| ------------------- | ---------------------------------------------------- | --------------------------------- |
-| ルートサーバー             | What's the nameserver for .net?                      | *Provides .net's server*          |
-| .netのサーバー           | What's the nameserver for privacyguides.net?         | *Provides Privacy Guides' server* |
-| Privacy Guidesのサーバー | What's the nameserver for discuss.privacyguides.net? | This server!                      |
-| Privacy Guidesのサーバー | What's the IP of discuss.privacyguides.net?          | 5.161.195.190                     |
+| サーバー                | 質問                                      | 回答                         |
+| ------------------- | --------------------------------------- | -------------------------- |
+| ルートサーバー             | .netのネームサーバーは何ですか？                      | *.netのサーバー情報を提供*           |
+| .netのサーバー           | privacyguides.netのネームサーバーは何ですか？         | *Privacy Guidesのサーバー情報を提供* |
+| Privacy Guidesのサーバー | discuss.privacyguides.netのネームサーバーは何ですか？ | このサーバーです！                  |
+| Privacy Guidesのサーバー | discuss.privacyguides.netのIPアドレスは何ですか？  | 5.161.195.190              |
 
-While this process can be slightly more inefficient, in this example neither the central root nameservers nor the TLD's nameservers ever receive information about your *full* query, thus reducing the amount of information being transmitted about your browsing habits. Further technical description is defined in [RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816).
+このプロセスは少し非効率になりますが、上記の例では中央のルートネームサーバーもTLDのネームサーバーも*完全な*クエリ情報を受け取らないため、ブラウジング習慣の情報送信を減らすことができます。 技術的な説明は[RFC 7816](https://datatracker.ietf.org/doc/html/rfc7816)で定義されています。
 
-## What is EDNS Client Subnet (ECS)?
+## EDNS Client Subnet（ECS）とは？
 
-The [EDNS Client Subnet](https://en.wikipedia.org/wiki/EDNS_Client_Subnet) is a method for a recursive DNS resolver to specify a [subnetwork](https://en.wikipedia.org/wiki/Subnetwork) for the [host or client](https://en.wikipedia.org/wiki/Client_(computing)) which is making the DNS query.
+[EDNS Client Subnet](https://en.wikipedia.org/wiki/EDNS_Client_Subnet)はDNSクエリを行う[ホストもしくはクライアント](https://en.wikipedia.org/wiki/Client_(computing))の[サブネットワーク](https://en.wikipedia.org/wiki/Subnetwork)を再帰的DNSリゾルバーのために指定する方法のことです。
 
-It's intended to "speed up" delivery of data by giving the client an answer that belongs to a server that is close to them such as a [content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network), which are often used in video streaming and serving JavaScript web apps.
+[コンテンツデリバリネットワーク](https://en.wikipedia.org/wiki/Content_delivery_network)のようなクライアントに近いサーバーをクライアントに回答することで、データ配信の「高速化」を意図しています。ビデオストリーミングやJavaScriptウェブアプリの配信でよく使われています。
 
-This feature does come at a privacy cost, as it tells the DNS server some information about the client's location, generally your IP network. For example, if your IP address is `198.51.100.32` the DNS provider might share `198.51.100.0/24` with the authoritative server. Some DNS providers anonymize this data by providing another IP address which is approximately near your location.
+この機能ではDNSサーバーにクライアントの位置情報（一般的にはIPネットワーク）を伝えるため、プライバシーのコストが発生します。 例えば、IPアドレスが`198.51.100.32`の場合、DNSプロバイダーは`198.51.100.0/24`の情報を権威サーバーと共有する可能性があります。 DNSプロバイダーによっては、この情報を匿名化するため、ほぼ近くの場所の別のIPアドレスを伝えます。
 
-If you have `dig` installed you can test whether your DNS provider gives EDNS information out to DNS nameservers with the following command:
+`dig`がインストールされていれば、以下のコマンドでDNSプロバイダーがEDNS情報をDNSネームサーバーに提供しているか確認できます：
 
 ```bash
 dig +nocmd -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
 ```
 
-Note that this command will contact Google for the test, and return your IP as well as EDNS client subnet information. If you want to test another DNS resolver you can specify their IP, to test `9.9.9.11` for example:
+このコマンドはGoogleと通信し、IPアドレスとEDNSクライアントのサブネット情報が返ってくることに注意してください。 別のDNSリゾルバーで試したい場合は、そのIPを指定します。例えば`9.9.9.11`の場合は以下の通りです：
 
 ```bash
 dig +nocmd @9.9.9.11 -t txt o-o.myaddr.l.google.com +nocomments +noall +answer +stats
 ```
 
-If the results include a second edns0-client-subnet TXT record (like shown below), then your DNS server is passing along EDNS information. The IP or network shown after is the precise information which was shared with Google by your DNS provider.
+（以下のように）2番目のedns0-client-subnet TXTレコードがあれば、DNSサーバーはEDNS情報を伝えています。 後に表示されるIPやネットワークは、DNSプロバイダーがGoogleと共有した詳細な情報です。
 
 ```text
 o-o.myaddr.l.google.com. 60 IN TXT "198.51.100.32"
