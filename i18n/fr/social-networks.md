@@ -1,5 +1,5 @@
 ---
-title: Social Networks
+title: Réseaux sociaux
 icon: material/account-supervisor-circle-outline
 description: Find a new social network that doesn’t pry into your data or monetize your profile.
 cover: social-networks.webp
