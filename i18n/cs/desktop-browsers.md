@@ -121,18 +121,18 @@ Pokud jste uživatelem Mullvad VPN, existuje určité riziko při používání 
 
 <div class="admonition recommendation" markdown>
 
-![Firefox logo](assets/img/browsers/firefox.svg){ align=right }
+![logo Firefox](assets/img/browsers/firefox.svg){ align=right }
 
-**Firefox** provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
+**Firefox** poskytuje mnoho nastavení pro zachování soukromí, např. [rozšířenou ochranu proti sledování](https://support.mozilla.org/cs/kb/rozsirena-ochrana-proti-sledovani-ve-firefoxu-pro-), která může zablokovat různé [typy pokusů o sledování](https://support.mozilla.org/cs/kb/rozsirena-ochrana-proti-sledovani-ve-firefoxu-pro-#w_co-rozsirena-ochrana-proti-sledovani-blokuje).
 
-[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title="Documentation" }
-[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="Contribute" }
+[:octicons-home-16: Domovská stránka](https://www.firefox.com/cs/){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://www.mozilla.org/cs/privacy/firefox/){ .card-link title="Prohlášení o ochraně osobních údajů" }
+[:octicons-info-16:](https://support.mozilla.org/cs/){ .card-link title="Dokumentace" }
+[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Zdrojový kód" }
+[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="Přispějte" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Ke stažení</summary>
 
 - [:fontawesome-brands-windows: Windows](https://mozilla.org/firefox/windows)
 - [:simple-apple: macOS](https://mozilla.org/firefox/mac)
