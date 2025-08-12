@@ -93,29 +93,29 @@ Stejně jako [Tor Browser](tor.md) je Mullvad Browser vytvořený tak, aby zabra
 
 Proto je nutné, abyste nepřenastavovali prohlížeč mimo už vytvořené [úrovně zabezpečení](https://tb-manual.torproject.org/security-settings). Pokud jste změnili úrovně zabezpečení, **musíte** vždy restartovat prohlížeč předtím, než ho budete znovu používat. V opačném případě se [nastavení zabezpečení nemusí plně projevit](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), což vás dělá více náchylnými na pořízení jedinečných otisků a zranitelnosti, které byste nečekali v závislosti na vámi zvoleném nastavení.
 
-Úpravami mimo tyto nastavení by se váš otisk stal unikátním, a tím se minuly s účelem tohoto prohlížeče. If you want to configure your browser more heavily and fingerprinting is not a concern for you, we recommend [Firefox](#firefox) instead.
+Úpravami mimo tyto nastavení by se váš otisk stal unikátním, a tím se minuly s účelem tohoto prohlížeče. Pokud chcete mít nad konfigurací svého prohlížeče větší kontrolu a zanechávání otisků vám nevadí, doporučujeme místo toho [Firefox](#firefox).
 
-### Anti-Fingerprinting
+### Ochrana proti otiskům
 
-**Without** using a [VPN](vpn.md), Mullvad Browser provides the same protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) as other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad Browser provides these protections out of the box, at the expense of some flexibility and convenience that other private browsers can provide.
+**Bez** použití [VPN](vpn.md) poskytuje Mullvad Browser stejnou ochranu proti [naivním fingerprinting skriptům](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) jako ostatní prohlížeče zaměřené na soukromí, jako je Firefox + [Arkenfox](#arkenfox-advanced) nebo [Brave](#brave). Mullvad Browser poskytuje tuto ochranu v základu, na úkor určité flexibility a pohodlí, které mohou poskytovat jiné prohlížeče zaměřené na soukromí.
 
-==For the strongest anti-fingerprinting protection, we recommend using Mullvad Browser in conjunction **with** a VPN==, whether that is Mullvad or another recommended VPN provider. When using a VPN with Mullvad Browser, you will share a fingerprint and a pool of IP addresses with many other users, giving you a "crowd" to blend in with. This strategy is the only way to thwart advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
+==Pro nejsilnější ochranu proti zanechávání jedinečného otisku doporučujeme používat Mullvad Browser ve spojení **s** VPN==, ať už se jedná o Mullvad nebo o jiného doporučeného VPN poskytovatele. Při používání VPN s Mullvad Browserem sdílíte otisk a skupinu IP adres s mnoha dalšími uživateli, a tím se „ztrácíte v davu“. Tato strategie je jediná, která dokáže odolat pokročilým sledovacím skriptům, a je to stejná strategie, kterou používá Tor Browser.
 
-Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers, particularly this close to the launch of Mullvad Browser. Mullvad Browser does not have built-in VPN connectivity, nor does it check whether you are using a VPN before browsing; your VPN connection has to be configured and managed separately.
+Mějte na vědomí, že sice můžete používat Mullvad Browser ve spojení s jakýmkoliv VPN poskytovatelem, ale ostatní lidé používající stejnou VPN musí také používat Mullvad Browser, aby se vytvořil „dav“, a ten se pravděpodobněji vytvoří na Mullvad VPN v porovnání s ostatními poskytovateli, zejména takto brzo od uvedení Mullvad Browseru. Mullvad Browser nemá zabudované připojení k VPN a ani nekontroluje před prohlížením, jestli VPN používáte; vaše VPN připojení si musíte nastavit a spravovat mimo prohlízeč.
 
-Mullvad Browser comes with the *uBlock Origin* and *NoScript* browser extensions pre-installed. While we typically discourage adding *additional* [browser extensions](browser-extensions.md), these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without impacting your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
+Mullvad Browser má v základu předinstalovaná rozšíření *uBlock Origin* a *NoScript*. Zatímco obvykle nedoporučujeme přidávat *další* [rozšíření](browser-extensions.md), tyto předinstalovaná rozšíření byste **neměli** odstraňovat nebo měnit jejich nastavení, protože už to odlišuje váš otisk od ostatních uživatelů Mullvad Browseru. Zároveň má v základu i Mullvad Browser Extension, které *můžete* bezpečně odebrat, aniž by to mělo vliv na váš otisk v případě, že to tak chcete, ale zároveň je v pořádku si ho ponechat i v případě, že Mullvad VPN nepoužívate.
 
-### Private Browsing Mode
+### Režim soukromého prohlížení
 
-Mullvad Browser operates in permanent private browsing mode, meaning your history, cookies, and other site data will always be cleared every time the browser is closed. Your bookmarks, browser settings, and extension settings will still be preserved.
+Mullvad Browser pracuje v režimu soukromého prohlížení nepřetržitě, tzn. že vaše historie, cookies a ostatní data z webových stranek se vymažou vždy, když prohlížeč ukončíte. Vaše záložky, nastavení prohlízeče a rozšíření se ale zachovají.
 
-This is required to prevent advanced forms of tracking, but does come at the cost of convenience and some Firefox features, such as Multi-Account Containers. Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise don't work properly in Mullvad Browser, and Mullvad Browser for general browsing.
+To je potřeba pro zabránění pokročilým formám sledování, ale jde to na úkor pohodlí a některých funkcí Firefoxu, jako např. Multi-Account Containers. Nezapomeňte, že vždy můžete používat více prohlížečů. Můžete např. zvážit používání Firefoxu + Arkenfoxu pro pár stránek, kde chcete být přihlášeni nebo protože nefungují správně v Mullvad Browseru, a Mullvad Browser pro běžné prohlížení.
 
 ### Mullvad Leta
 
-Mullvad Browser comes with [**Mullvad Leta**](search-engines.md#mullvad-leta) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
+Mullvad Browser má v základu jako výchozí vyhledávač nastavený [**Mullvad Leta**](search-engines.md#mullvad-leta), který funguje jako proxy buď ke Google, nebo Brave vyhledávání (lze nastavit na domovské stránce Mullvad Leta).
 
-If you are a Mullvad VPN user, there is some risk in using services like Mullvad Leta which are offered by your VPN provider themselves. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta); the latter is information a VPN is typically intended to separate. Even though Mullvad collects very little information about their VPN subscribers or Leta users, you should consider a different [search engine](search-engines.md) if this risk concerns you.
+Pokud jste uživatelem Mullvad VPN, existuje určité riziko při používání služeb, jako je Mullvad Leta, které nabízí sám poskytovatel VPN. To proto, že Mullvad má teoreticky přístup k vaší pravé IP adrese (skrz VPN) a vaší vyhledávací aktivitě (skrz Leta); a právě k oddělení těchto dvou informací se většinou používá VPN. I přesto, že Mullvad shromažďuje jen minimum informací o svých předplatitelích VPN nebo uživatelích Lety, měli byste zvážit používání jiného [vyhledávače](search-engines.md), pokud toto riziko nemůžete podstoupit.
 
 ## Firefox
 
