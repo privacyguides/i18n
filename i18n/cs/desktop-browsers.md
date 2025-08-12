@@ -93,7 +93,7 @@ Stejně jako [Tor Browser](tor.md) je Mullvad Browser vytvořený tak, aby zabra
 
 Proto je nutné, abyste nepřenastavovali prohlížeč mimo už vytvořené [úrovně zabezpečení](https://tb-manual.torproject.org/security-settings). Pokud jste změnili úrovně zabezpečení, **musíte** vždy restartovat prohlížeč předtím, než ho budete znovu používat. V opačném případě se [nastavení zabezpečení nemusí plně projevit](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), což vás dělá více náchylnými na pořízení jedinečných otisků a zranitelnosti, které byste nečekali v závislosti na vámi zvoleném nastavení.
 
-Modifications other than adjusting this setting would make your fingerprint unique, defeating the purpose of using this browser. If you want to configure your browser more heavily and fingerprinting is not a concern for you, we recommend [Firefox](#firefox) instead.
+Úpravami mimo tyto nastavení by se váš otisk stal unikátním, a tím se minuly s účelem tohoto prohlížeče. If you want to configure your browser more heavily and fingerprinting is not a concern for you, we recommend [Firefox](#firefox) instead.
 
 ### Anti-Fingerprinting
 
