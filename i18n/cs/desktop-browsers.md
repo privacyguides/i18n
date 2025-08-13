@@ -144,40 +144,40 @@ Pokud jste uživatelem Mullvad VPN, existuje určité riziko při používání 
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Varování</p>
 
-Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+Firefox k instalačním balíčkům přidává unikátní [token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) při stažení z webu Mozilly a používá Firefox k odeslání tokenu. Token **není** obsažen ve verzích z [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
 </div>
 
-### Recommended Firefox Configuration
+### Doporučená konfigurace Firefoxu
 
-These options can be found in :material-menu: → **Settings**.
+Tyto nastavení najdete v :material-menu: → **Nastavení**.
 
-#### Search
+#### Vyhledávání
 
-- [ ] Uncheck **Show search suggestions**
+- [ ] Odškrtněte **Zobrazit návrhy našeptávače**
 
-Search suggestion features may not be available in your region.
+Funkce návrhů našeptávače nemusí být ve vaší oblasti dostupná.
 
-Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+Návrhy našeptávače odesílají všechno, co napíšete do adresního řádku, výchozímu vyhledávači, bez ohledu na to, jestli požadavek opravdu zadáte. Vypnutí našeptávače vám umožní přesněji kontrolovat, jaká data posíláte svému poskytovateli vyhledávače.
 
-##### Firefox Suggest (US only)
+##### Firefox Suggest (pouze pro USA)
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) je funkce podobná návrhům našeptávače, která je dostupná pouze v USA. Doporučujeme ji vypnout ze stejného důvodu jako našeptávač. Pokud nevidíte tyto možnosti v záhlaví **adresního řádku**, tato funkce se vás netýká a můžete tato nastavení ignorovat.
 
-- [ ] Uncheck **Suggestions from Firefox**
-- [ ] Uncheck **Suggestions from sponsors**
+- [ ] Odškrtněte **Doporučení od Firefoxu**
+- [ ] Odšrtněte **Doporučení od sponzorů**
 
-#### Privacy & Security
+#### Soukromí a zabezpečení
 
-##### Enhanced Tracking Protection
+##### Rozšířená ochrana proti sledování
 
-- [x] Select **Strict** Enhanced Tracking Protection
+- [x] Vyberte **Přísná**
 
-This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
+Toto nastavení vás chrání před trackery od sociálních sítí, fingerprinting skripty (pamatujte ale, že vás neochrání před *veškerým* sledováním na základě otisků), kryptominery, sledovacími cookies napříč weby a dalšími trackery. Ochrání vás před mnoha běžnými hrozbami, ale neochrání vás před všemi možnostmi sledování, protože je navržené tak, aby mělo minimální, nebo i žádný, dopad na použitelnost stránek.
 
-##### Sanitize on Close
+##### Vymazání při ukončení
 
 If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
 
@@ -275,7 +275,7 @@ Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%
 
 ### Recommended Brave Configuration
 
-These options can be found in :material-menu: → **Settings**.
+Tyto nastavení najdete v :material-menu: → **Nastavení**.
 
 #### Shields
 
@@ -347,7 +347,7 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
 
-- [ ] Uncheck **Show search suggestions**
+- [ ] Odškrtněte **Zobrazit návrhy našeptávače**
 
 #### System
 
