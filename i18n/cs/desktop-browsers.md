@@ -179,21 +179,21 @@ Toto nastavení vás chrání před trackery od sociálních sítí, fingerprint
 
 ##### Vymazání při ukončení
 
-If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
+Pokud chcete zůstat přihlášení na určitých stránkách, můžete jim udělit výjimku v **Cookies a data stránek** → **Výjimky…**
 
-- [x] Check **Delete cookies and site data when Firefox is closed**
+- [x] Zaškrtněte **Vymazat cookies a data stránek při zavření aplikace Firefox**
 
-This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
+Toto nastavení vás ochrání před trvalými cookies, ale neochrání vás před cookies, které získáte během jakékoliv jedné relace. Pokud je toto nastavení povolené, můžete jednoduše vyčistit vaše cookies v prohlížeči tím, že jednoduše restartujete Firefox. Taky si můžete nastavit výjimky pro každou stránku zvlášť, pokud si přejete být přihlášení na určité stránce, kterou často navštěvujete.
 
-##### Telemetry
+##### Telemetrie
 
-- [ ] Uncheck **Allow Firefox to send technical and interaction data to Mozilla**
-- [ ] Uncheck **Allow Firefox to install and run studies**
-- [ ] Uncheck **Allow Firefox to send backlogged crash reports on your behalf**
+- [ ] Odšrtněte **Odesílat technická data a data o interakcích organizaci Mozilla**
+- [ ] Odškrtněte **Instalovat a spouštět studie**
+- [ ] Odškrtněte **Automaticky odesílat hlášení o pádech**
 
-According to Mozilla's privacy policy for Firefox,
+Prohlášení o ochraně osobních údajů pro Firefox uvádí:
 
-> Firefox sends data about your Firefox version and language; device operating system and hardware configuration; memory, basic information about crashes and errors; outcome of automated processes like updates, safebrowsing, and activation to us. When Firefox sends data to us, your IP address is temporarily collected as part of our server logs.
+> Firefox nám odesílá data o vaší verzi a jazyku Firefoxu, operačním systému a hardwarové konfiguraci zařízení, paměti, základní informace o pádech a chybách, výsledcích automatizovaných procesů, jako jsou aktualizace, bezpečném prohlížení a aktivaci. Když nám Firefox posílá data, vaše IP adresa je dočasně zaznamenána jako součást našich serverových logů.
 
 Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt out:
 
