@@ -8,7 +8,7 @@ Los datos sobre tus hábitos de compra se consideran el santo grial de la estrat
 
 ## Efectivo
 
-Durante siglos, **efectivo** ha funcionado como la principal forma de pago privado. El efectivo tiene excelentes propiedades de privacidad en la mayoría de los casos, es ampliamente aceptado en la mayoría de los países y es **fungible**, lo que significa que no es único y es completamente intercambiable.
+Durante siglos, el **efectivo** ha funcionado como la principal forma de pago privado. El efectivo tiene excelentes propiedades de privacidad en la mayoría de los casos, es ampliamente aceptado en la mayoría de los países y es **fungible**, lo que significa que no es único y es completamente intercambiable.
 
 La legislación sobre pagos en efectivo varía según el país. En Estados Unidos, los pagos en efectivo superiores a 10.000 dólares deben declararse al IRS mediante el [Formulario 8300](https://irs.gov/businesses/small-businesses-self-employed/form-8300-and-reporting-cash-payments-of-over-10000). La empresa receptora está obligada a verificar el nombre, la dirección, la ocupación, la fecha de nacimiento y el número de la Seguridad Social u otro NIF del beneficiario (con algunas excepciones). Las bolsas, bancos y empresas de servicios monetarios regulados deben solicitar un documento de identidad para las transacciones superiores a 3.000 $. El efectivo contiene números de serie para ayudar a las fuerzas de seguridad en investigaciones específicas.
 
