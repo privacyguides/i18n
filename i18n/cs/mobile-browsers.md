@@ -60,9 +60,9 @@ These are our currently recommended **mobile web browsers** and configurations f
 
 <div class="admonition recommendation" markdown>
 
-![Brave logo](assets/img/browsers/brave.svg){ align=right }
+![logo Brave](assets/img/browsers/brave.svg){ align=right }
 
-**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
+**Brave Browser** obsahuje vestavěný blokátor obsahu a [funkce pro ochranu soukromí](https://brave.com/privacy-features), z nichž mnohé jsou předem povolené.
 
 Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
 

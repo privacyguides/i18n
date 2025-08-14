@@ -233,17 +233,17 @@ Maximální ochrana vynucuje používání DNS over HTTPS. Pokud se Firefox nebu
 
 </div>
 
-The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
+[Projekt Arkenfox](https://github.com/arkenfox/user.js) nabízí sadu pečlivě zvážených funkcí Firefoxu. Pokud se [rozhodnete](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) Arkenfox používat, [několik nastavení](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) může být subjektivně moc přísných anebo mohou způsobit, že webové stránky nebudou fungovat správně – můžete je ale [jednoduše upravit](https://github.com/arkenfox/user.js/wiki/3.1-Overrides), aby vyhovovaly vašim potřebám. **Velmi doporučujeme**, abyste si prošli celou jejich [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox také umožňuje podporu [kontejnerů](https://support.mozilla.org/kb/containers#w_for-advanced-users).
 
-Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
+Arkenfox se zaměřuje pouze na zabránění běžným nebo naivním sledovacím skriptům skrz randomizaci canvasu nebo skrz vestavěnou konfiguraci odolnosti proti otiskům. Jeho cílem není, aby váš prohlížeč splynul s velkým davem ostatních uživatelů Arkenfoxu tak, jako to dělá Mullvad Browser nebo Tor Browser, což je jediný způsob, jak sabotovat pokročilé skripty založené na sledování otisků. Nezapomeňte, že vždy můžete používat více prohlížečů. Můžete například zvážit používání Firefoxu + Arkenfoxu pro pár stránek, kde chcete být přihlášení nebo jim věříte, a Mullvad Browser pro běžné prohlížení.
 
 ## Brave
 
 <div class="admonition recommendation annotate" markdown>
 
-![Brave logo](assets/img/browsers/brave.svg){ align=right }
+![logo Brave](assets/img/browsers/brave.svg){ align=right }
 
-**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
+**Brave Browser** obsahuje vestavěný blokátor obsahu a [funkce pro ochranu soukromí](https://brave.com/privacy-features), z nichž mnohé jsou předem povolené.
 
 Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
 
