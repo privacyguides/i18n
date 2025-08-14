@@ -195,41 +195,41 @@ Prohlášení o ochraně osobních údajů pro Firefox uvádí:
 
 > Firefox nám odesílá data o vaší verzi a jazyku Firefoxu, operačním systému a hardwarové konfiguraci zařízení, paměti, základní informace o pádech a chybách, výsledcích automatizovaných procesů, jako jsou aktualizace, bezpečném prohlížení a aktivaci. Když nám Firefox posílá data, vaše IP adresa je dočasně zaznamenána jako součást našich serverových logů.
 
-Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt out:
+Služba Mozilla Accounts navíc shromažďuje [některé technické údaje](https://mozilla.org/privacy/mozilla-accounts). Pokud používáte Mozilla Account, můžete se odhlásit tímto postupem:
 
-1. Open your [profile settings on accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
-2. Uncheck **Data Collection and Use** > **Help improve Firefox Accounts**
+1. Otevřete svoje [nastavení profilu na „account.firefox.com“](https://accounts.firefox.com/settings#data-collection)
+2. Odškrtněte **Sběr dat a jejich použití** > **Povolte ⁨účtu Mozilla⁩ zasílat ⁨Mozille⁩ technická data a data o interakcích.**
 
-##### Website Advertising Preferences
+##### Reklamní předvolby webových stránek
 
-- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
+- [ ] Odškrtněte **Umožnit webům použití sledující reklamy, která je šetrná k soukromí**
 
-With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
+S vydáním Firefoxu 128 bylo přidáno nové nastavení pro „privacy-preserving attribution“ (PPA), které je v základu povolené. PPA dovolují inzerentům používat váš prohlížeč pro měření efektivity webových kampaní namísto toho, aby používali původní sledování pomocí JavaScriptu. Vnímáme toto chování jako mimo rámec toho, co by měl prohlížeč dělat, a skutečnost, že v Arkenfoxu je toto nastavení předem zakázané, je dalším důvodem pro zakázání této funkce.
 
-##### HTTPS-Only Mode
+##### Režim „pouze HTTPS“
 
-- [x] Select **Enable HTTPS-Only Mode in all windows**
+- [x] Zaškrtněte **Zapnout režim „pouze HTTPS“ ve všech oknech**
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+Toto nastavení zabraňuje, abyste se nechtěně připojili k webové stránce pomocí nešifrovaného HTTP. Stránky nepodporující HTTPS nejsou v dnešní době obvyklé, takže by toto nastavení mělo mít negativní vliv na vaše každodenní prohlížení.
 
-##### DNS přes HTTPS
+##### DNS over HTTPS
 
-If you use a [DNS over HTTPS provider](dns.md):
+Pokud používáte [DNS over HTTPS poskytovatele](dns.md):
 
-- [x] Select **Max Protection** and choose a suitable provider
+- [x] Zaškrtněte **Maximální ochrana** a vyberte vhodného poskytovatele
 
-Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
+Maximální ochrana vynucuje používání DNS over HTTPS. Pokud se Firefox nebude moct úspěšně připojit k zabezpečenému DNS resolveru nebo pokud resolver vrátí, že záznamy pro doménu, ke které se chcete připojit, neexistují, zobrazí se bezpečnostní varování. To zabrání síti, ke které jste připojení, aby na pozadí snížila bezpečnost DNS.
 
-#### Sync
+#### Synchronizace
 
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
+[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) vám umožňuje synchronizovat vaše data o prohlížení (historie, záložky apod.) na všech vašich zařízeních a chránit je pomocí E2EE.
 
-### Arkenfox (advanced)
+### Arkenfox (pro pokročilé)
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Use Mullvad Browser for advanced anti-fingerprinting</p>
+<p class="admonition-title">Používejte Mullvad Browser pro pokročilou ochranu proti otiskům</p>
 
-[Mullvad Browser](#mullvad-browser) provides the same anti-fingerprinting protections as Arkenfox out of the box, and does not require the use of Mullvad's VPN to benefit from these protections. Coupled with a VPN, Mullvad Browser can thwart more advanced tracking scripts which Arkenfox cannot. Arkenfox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
+[Mullvad Browser](#mullvad-browser) poskytuje stejné ochrany proti otiskům jako Arkenfox v základě, ale nevyžaduje používání Mullvad VPN, abyste mohli této ochrany využívat. Ve spojení s VPN umí Mullvad Browser sabotovat pokročilejší sledovací skripty, které Arkenfox sabotovat nedokáže. Arkenfox má také výhodu mnohem větší flexibility a umožňuje výjimky pro jednotlivé stránky, kde potřebujete zůstat přihlášení.
 
 </div>
 
