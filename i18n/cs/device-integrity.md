@@ -27,17 +27,17 @@ This means an attacker would have to regularly re-infect your device to retain a
 
 If any of the following tools indicate a potential compromise by spyware such as Pegasus, Predator, or KingsPawn, we advise that you contact:
 
-- If you are a human rights defender, journalist, or from a civil society organization: [Amnesty International's Security Lab](https://securitylab.amnesty.org/contact-us)
-- If a business or government device is compromised: the appropriate security liaison at your enterprise, department, or agency
-- Local law enforcement
+ - If you are a human rights defender, journalist, or from a civil society organization: [Amnesty International's Security Lab](https://securitylab.amnesty.org/contact-us)
+ - If a business or government device is compromised: the appropriate security liaison at your enterprise, department, or agency
+ - Local law enforcement
 
 **We are unable to help you directly beyond this.** We are happy to discuss your specific situation or circumstances and review your results in our [community](https://discuss.privacyguides.net) spaces, but it is unlikely we can assist you beyond what is written on this page.
 
 The tools on this page are only capable of detecting indicators of compromise, not removing them. If you are concerned about having been compromised, we advise that you:
 
-- Consider replacing the device completely
-- Consider changing your SIM/eSIM number
-- Not restore from a backup, because that backup may be compromised
+ - Consider replacing the device completely
+ - Consider changing your SIM/eSIM number
+ - Not restore from a backup, because that backup may be compromised
 
 These tools provide analysis based on the information they have the ability to access from your device, and publicly-accessible indicators of compromise. It is important to keep in mind two things:
 
@@ -48,7 +48,7 @@ These tools provide analysis based on the information they have the ability to a
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+ - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
 External verification tools run on your computer and scan your mobile device for forensic traces, which are helpful to identify potential compromise.
 
@@ -80,8 +80,8 @@ These tools can trigger false-positives. If any of these tools finds indicators 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-apple: macOS](https://docs.mvt.re/en/latest/install)
-- [:simple-linux: Linux](https://docs.mvt.re/en/latest/install)
+ - [:simple-apple: macOS](https://docs.mvt.re/en/latest/install)
+ - [:simple-linux: Linux](https://docs.mvt.re/en/latest/install)
 
 </details>
 
@@ -102,7 +102,7 @@ If you use iOS and are at high-risk, we have three additional suggestions for yo
 
 2. Trigger _sysdiagnose_ logs often and back them up externally. These logs can provide invaluable data to future forensic investigators if need be.
 
-    The process to do so varies by model, but you can trigger it on newer phones by holding down _Power_ + _Volume Up_ + _Volume Down_ until you feel a brief vibration. After a few minutes, the timestamped _sysdiagnose_ log will appear in **Settings** > **Privacy & Security** > **Analytics & Improvements** > **Analytics Data**.
+   The process to do so varies by model, but you can trigger it on newer phones by holding down _Power_ + _Volume Up_ + _Volume Down_ until you feel a brief vibration. After a few minutes, the timestamped _sysdiagnose_ log will appear in **Settings** > **Privacy & Security** > **Analytics & Improvements** > **Analytics Data**.
 
 3. Enable [Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode).
 
@@ -123,8 +123,8 @@ MVT allows you to perform deeper scans/analysis if your device is jailbroken. Un
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:fontawesome-brands-windows: Windows](https://imazing.com/download)
-- [:simple-apple: macOS](https://imazing.com/download)
+ - [:fontawesome-brands-windows: Windows](https://imazing.com/download)
+ - [:simple-apple: macOS](https://imazing.com/download)
 
 </details>
 
@@ -136,8 +136,8 @@ iMazing automates and interactively guides you through the process of using [MVT
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+ - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+ - [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 These are apps you can install which check your device and operating system for signs of tampering, and validate the identity of your device.
 
@@ -166,9 +166,9 @@ Using these apps is insufficient to determine that a device is "clean", and not 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
-- [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
-- [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
+ - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
+ - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
+ - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
 
 </details>
 
@@ -178,11 +178,11 @@ Auditor is not a scanning/analysis tool like some other tools on this page. Rath
 
 Auditor performs attestation and intrusion detection with **two** devices, an _auditee_ (the device being verified) and an _auditor_ (the device performing the verification). The auditor can be any Android 10+ device (or a remote web service operated by [GrapheneOS](android/distributions.md#grapheneos)), while the auditee must be a specifically [supported device](https://attestation.app/about#device-support). Auditor works by:
 
-- Using a [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) model between an _auditor_ and _auditee_, the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore) of the _Auditor_.
-- The _auditor_ can either be another instance of the Auditor app or the [Remote Attestation Service](https://attestation.app).
-- The _auditor_ records the current state and configuration of the _auditee_.
-- Should tampering with the operating system of the _auditee_ happen after the pairing is complete, the auditor will be aware of the change in the device state and configurations.
-- You will be alerted to the change.
+ - Using a [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) model between an _auditor_ and _auditee_, the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore) of the _Auditor_.
+ - The _auditor_ can either be another instance of the Auditor app or the [Remote Attestation Service](https://attestation.app).
+ - The _auditor_ records the current state and configuration of the _auditee_.
+ - Should tampering with the operating system of the _auditee_ happen after the pairing is complete, the auditor will be aware of the change in the device state and configurations.
+ - You will be alerted to the change.
 
 It is important to note that Auditor can only effectively detect changes **after** the initial pairing, not necessarily during or before due to its TOFU model. To make sure that your hardware and operating system is genuine, [perform local attestation](https://grapheneos.org/install/web#verifying-installation) immediately after the device has been installed and prior to any internet connection.
 

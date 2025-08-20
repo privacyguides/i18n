@@ -245,16 +245,16 @@ Arkenfox se zaměřuje pouze na zabránění běžným nebo naivním sledovacím
 
 **Brave Browser** obsahuje vestavěný blokátor obsahu a [funkce pro ochranu soukromí](https://brave.com/privacy-features), z nichž mnohé jsou předem povolené.
 
-Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
+Brave je postavený na prohlížeči Chromium, takže by vám měl připadat známý a měli byste s ním mít minimální problémy s kompatibilitou.
 
-[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+[:octicons-home-16: Domovská stránka](https://brave.com/cs/){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion/cs/){ .card-link title="Onion odkaz" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Zásady ochrany osobních údajů" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title="Dokumentace" }
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Zdrojový kód" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Ke stažení</summary>
 
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 - [:fontawesome-brands-windows: Windows](https://brave.com/download)
@@ -267,19 +267,19 @@ Brave is built upon the Chromium web browser project, so it should feel familiar
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Varování</p>
 
-Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" to the file name in downloads from the Brave website, which is used to track which source the browser was downloaded from, for example `BRV002` in a download named `Brave-Browser-BRV002.pkg`. The installer will then ping Brave's server with the referral code at the end of the installation process. If you're concerned about this, you can rename the installer file before opening it.
+Brave přidává „[referral kód](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)“ k názvům souborů, které stáhnete z webu Brave, který umožňuje vysledovat, odkud byl prohlížeč stáhnutý, např. `BRV002` v souboru s názvem `Brave-Browser-BRV002.pkg`. Instalátor poté pingne Brave server s tímto referral kódem na konci instalace. Pokud ale máte obavy, můžete soubor přejmenovat předtím, než instalátor otevřete.
 
 </div>
 
-### Recommended Brave Configuration
+### Doporučená konfigurace Braveu
 
 Tyto nastavení najdete v :material-menu: → **Nastavení**.
 
 #### Shields
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+Brave implementuje některá opatření proti zanechávání otisku ve své funkci [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields). We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
 
 Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
 
@@ -369,9 +369,9 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 **Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
 
-## Criteria
+## Kritéria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Upozorňujeme, že nespolupracujeme s žádným z projektů, které doporučujeme.** Kromě [našich standardních kritérií](about/criteria.md) jsme vypracovali jasný seznam požadavků, který nám umožňuje poskytovat objektivní doporučení. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 ### Minimum Requirements
 

@@ -7,8 +7,8 @@ cover: social-networks.webp
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+ - [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
+ - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
 These privacy-respecting **social networks** allow you to participate in online communities without giving up your personal information like your full name, phone number, and other data commonly requested by tech companies.
 
@@ -36,9 +36,9 @@ If you are greatly concerned about an existing server censoring your content, th
 
 2. **Use a managed hosting service.** We don't have any specific recommendations, but there are a variety of hosting services which will create a brand-new server on your own domain (or occasionally a subdomain of their domain, but we recommend against this unless registering your own domain presents too much of a burden to your privacy).
 
-    Typically, hosting providers will handle the _technical_ side of your server, but completely leave the _moderation_ side up to you. This often represents a better approach than self-hosting for most people because you can benefit from greater control over your own server without worrying about technical problems or unpatched security vulnerabilities.
+   Typically, hosting providers will handle the _technical_ side of your server, but completely leave the _moderation_ side up to you. This often represents a better approach than self-hosting for most people because you can benefit from greater control over your own server without worrying about technical problems or unpatched security vulnerabilities.
 
-    You should look closely at your hosting provider's terms of service and acceptable use policies before registering. These are often far more broad than typical hosted server rules, and they are far less likely to be enforced without recourse, but they can still be restrictive in undesirable ways.
+   You should look closely at your hosting provider's terms of service and acceptable use policies before registering. These are often far more broad than typical hosted server rules, and they are far less likely to be enforced without recourse, but they can still be restrictive in undesirable ways.
 
 ## Mastodon
 
@@ -75,13 +75,13 @@ From Mastodon's web interface, click the **Administration** link in the right si
 
 There are a number of privacy controls under the **privacy and reach** tab here. Most notably, pay attention to these:
 
-- [ ] **Automatically accept new followers**: You should consider unchecking this box to have a private profile. This will allow you to review who can follow your account before accepting them.
+ - **Automatically accept new followers**: You should consider unchecking this box to have a private profile. This will allow you to review who can follow your account before accepting them.
 
     In contrast to most social media platforms, if you have a private profile you still have the _option_ to publish posts which are publicly visible to non-followers and can still be boosted by non-followers. Therefore, unchecking this box is the only way to have the _choice_ to publish to either the entire world or a select group of people.
 
-- [ ] **Show follows and followers on profile**: You should uncheck this box to hide your social graph from the public. It is fairly uncommon for the list of people you follow to have some genuine benefit to others, but that information can present a risk to you.
+ - **Show follows and followers on profile**: You should uncheck this box to hide your social graph from the public. It is fairly uncommon for the list of people you follow to have some genuine benefit to others, but that information can present a risk to you.
 
-- [ ] **Display from which app you sent a post**: You should uncheck this box to prevent revealing information about your personal computing setup to others unnecessarily.
+ - **Display from which app you sent a post**: You should uncheck this box to prevent revealing information about your personal computing setup to others unnecessarily.
 
 The other privacy controls on this page should be read through, but we would stress that they are **not** technical controls—they are merely requests that you make to others. For example, if you choose to hide your profile from search engines on this page, **nothing** is actually stopping a search engine from reading your profile. You are merely requesting search engine indexes not publish your content to their users.
 
@@ -95,7 +95,7 @@ Note that this only changes your default settings to prevent accidental over-sha
 
 #### Automated post deletion
 
-- [x] Check the **Automatically delete old posts** box.
+ - Check the **Automatically delete old posts** box.
 
 The default settings here are fine, and will delete any posts you make after 2 weeks, unless you favorite (star) them. This gives you an easy way to control which posts stick around forever, and which ones are only ephemeral. Many settings about how long and when posts are kept can be adjusted here to suit your own needs, however.
 
@@ -105,10 +105,10 @@ It is very rare for social media posts older than a few weeks to be read or rele
 
 When publishing a new post, you will have the option to choose from one of these visibility settings:
 
-- **Public**, which publishes your content to anyone on the internet.
-- **Quiet public**, which you should consider equivalent to publicly posting! This is not a technical guarantee, but merely a request you are making to other servers to hide your post from some feeds.
-- **Followers**, which publishes your content only to your followers. If you did not follow our recommendation of restricting your followers, you should consider this equivalent to publicly posting!
-- **Specific people**, which only shares the post with people who are specifically mentioned within the post. This is Mastodon's version of direct messages, but should never be relied on for private communications as we covered earlier since Mastodon has no E2EE.
+ - **Public**, which publishes your content to anyone on the internet.
+ - **Quiet public**, which you should consider equivalent to publicly posting! This is not a technical guarantee, but merely a request you are making to other servers to hide your post from some feeds.
+ - **Followers**, which publishes your content only to your followers. If you did not follow our recommendation of restricting your followers, you should consider this equivalent to publicly posting!
+ - **Specific people**, which only shares the post with people who are specifically mentioned within the post. This is Mastodon's version of direct messages, but should never be relied on for private communications as we covered earlier since Mastodon has no E2EE.
 
 If you used our recommended configuration settings above, you should be posting to **Followers** by default, and only posting to **Public** on an intentional and case-by-case basis.
 
@@ -127,13 +127,13 @@ If you used our recommended configuration settings above, you should be posting 
 
 <details class="downloads" markdown><summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1083446067)
-- [:simple-github: GitHub](https://github.com/element-hq/element-android/releases)
-- [:fontawesome-brands-windows: Windows](https://element.io/download)
-- [:simple-apple: macOS](https://element.io/download)
-- [:simple-linux: Linux](https://element.io/download)
-- [:octicons-browser-16: Web](https://app.element.io)
+ - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
+ - [:simple-appstore: App Store](https://apps.apple.com/app/id1083446067)
+ - [:simple-github: GitHub](https://github.com/element-hq/element-android/releases)
+ - [:fontawesome-brands-windows: Windows](https://element.io/download)
+ - [:simple-apple: macOS](https://element.io/download)
+ - [:simple-linux: Linux](https://element.io/download)
+ - [:octicons-browser-16: Web](https://app.element.io)
 
 </details>
 
@@ -155,15 +155,15 @@ To prevent revealing information about your personal device to others unnecessar
 
 #### Preferences
 
-- [ ] Uncheck **Send read receipts**
-- [ ] Uncheck **Send typing notifications**
+ - Uncheck **Send read receipts**
+ - Uncheck **Send typing notifications**
 
 You should uncheck these options to reduce the exposure of metadata to other users when chatting in a public room.
 
 #### Voice & Video
 
-- [ ] Uncheck **Allow Peer-to-Peer for 1:1 calls**
-- [ ] Uncheck **Allow fallback call assist server (turn.matrix.org)**
+ - Uncheck **Allow Peer-to-Peer for 1:1 calls**
+ - Uncheck **Allow fallback call assist server (turn.matrix.org)**
 
 If you do decide to use Element for one-to-one communication, we recommend unchecking these settings to prevent the exposure of your IP address to the other party.
 
@@ -177,13 +177,13 @@ As an end user on a public homeserver, you can consider unchecking the **Enable 
 
 ##### Sessions
 
-- [ ] (Optional) Uncheck **Record the client name, version, and url to recognize sessions for easily in session manager**
+ - (Optional) Uncheck **Record the client name, version, and url to recognize sessions for easily in session manager**
 
 Unchecking this option may make it more diffcult to discern your active sessions if you logged in to your Matrix account on multiple devices.
 
 #### Encryption
 
-- [x] (Optional) Check **In encrypted rooms, only send messages to verified users**
+ - (Optional) Check **In encrypted rooms, only send messages to verified users**
 
 With this setting enabled, unverified users (i.e., those who have not used the **Verify User** function) and unverified devices of verified users will not receive your messages in a room with encryption enabled. This may limit the messages you can view and the people you can interact with.
 
@@ -191,11 +191,11 @@ With this setting enabled, unverified users (i.e., those who have not used the *
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-- Must be free and open-source software.
-- Must use a federated protocol to communicate with other instances of the social networking software.
-- Must not have non-technical restrictions on who can be federated with.
-- Must be usable within a standard [web browser](desktop-browsers.md).
-- Must make public content accessible to visitors without an account.
-- Must allow you to limit who can follow your profile.
-- Must allow you to post content visible only to your followers.
-- Must support modern web application security standards/features (including [multifactor authentication](multi-factor-authentication.md)).
+ - Must be free and open-source software.
+ - Must use a federated protocol to communicate with other instances of the social networking software.
+ - Must not have non-technical restrictions on who can be federated with.
+ - Must be usable within a standard [web browser](desktop-browsers.md).
+ - Must make public content accessible to visitors without an account.
+ - Must allow you to limit who can follow your profile.
+ - Must allow you to post content visible only to your followers.
+ - Must support modern web application security standards/features (including [multifactor authentication](multi-factor-authentication.md)).

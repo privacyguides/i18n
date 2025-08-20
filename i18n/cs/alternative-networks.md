@@ -7,9 +7,9 @@ cover: alternative-networks.webp
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
-- [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+ - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+ - [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }
+ - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
 ## Anonymizing Networks
 
@@ -61,10 +61,10 @@ You can try connecting to _Privacy Guides_ via Tor at [xoe4vn5uwdztif6goazfbmogh
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1609461599)
-- [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
-- [:simple-fdroid: F-Droid](https://guardianproject.info/fdroid)
+ - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
+ - [:simple-appstore: App Store](https://apps.apple.com/app/id1609461599)
+ - [:simple-github: GitHub](https://github.com/guardianproject/orbot/releases)
+ - [:simple-fdroid: F-Droid](https://guardianproject.info/fdroid)
 
 </details>
 
@@ -131,11 +131,11 @@ Running a Snowflake proxy is low-risk, even more so than running a Tor relay or 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.i2p.android)
-- [:simple-android: Android](https://geti2p.net/en/download#android)
-- [:fontawesome-brands-windows: Windows](https://geti2p.net/en/download#windows)
-- [:simple-apple: macOS](https://geti2p.net/en/download#mac)
-- [:simple-linux: Linux](https://geti2p.net/en/download#unix)
+ - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.i2p.android)
+ - [:simple-android: Android](https://geti2p.net/en/download#android)
+ - [:fontawesome-brands-windows: Windows](https://geti2p.net/en/download#windows)
+ - [:simple-apple: macOS](https://geti2p.net/en/download#mac)
+ - [:simple-linux: Linux](https://geti2p.net/en/download#unix)
 
 </details>
 

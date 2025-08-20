@@ -8,9 +8,9 @@ cover: ai-chatbots.webp
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
-- [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
+ - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+ - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+ - [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 
 The use of **AI chat**, also known as Large Language Models (LLMs), has become increasingly common since the release of ChatGPT in 2022. LLMs can help us write better, understand unfamiliar subjects, or answer a wide range of questions. They work by statistically predicting the next word in their responses based on a vast amount of data scraped from the web.
 
@@ -75,9 +75,9 @@ In addition to supporting a large range of text models, Kobold.cpp also supports
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:fontawesome-brands-windows: Windows](https://github.com/LostRuins/koboldcpp/releases)
-- [:simple-apple: macOS](https://github.com/LostRuins/koboldcpp/releases)
-- [:simple-linux: Linux](https://github.com/LostRuins/koboldcpp/releases)
+ - [:fontawesome-brands-windows: Windows](https://github.com/LostRuins/koboldcpp/releases)
+ - [:simple-apple: macOS](https://github.com/LostRuins/koboldcpp/releases)
+ - [:simple-linux: Linux](https://github.com/LostRuins/koboldcpp/releases)
 
 </details>
 
@@ -110,9 +110,9 @@ In addition to supporting a wide range of text models, Ollama also supports [LLa
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:fontawesome-brands-windows: Windows](https://ollama.com/download/windows)
-- [:simple-apple: macOS](https://ollama.com/download/mac)
-- [:simple-linux: Linux](https://ollama.com/download/linux)
+ - [:fontawesome-brands-windows: Windows](https://ollama.com/download/windows)
+ - [:simple-apple: macOS](https://ollama.com/download/mac)
+ - [:simple-linux: Linux](https://ollama.com/download/linux)
 
 </details>
 
@@ -138,9 +138,9 @@ Llamafile also supports LLaVA. However, it doesn't support speech recognition or
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:fontawesome-brands-windows: Windows](https://github.com/Mozilla-Ocho/llamafile#quickstart)
-- [:simple-apple: macOS](https://github.com/Mozilla-Ocho/llamafile#quickstart)
-- [:simple-linux: Linux](https://github.com/Mozilla-Ocho/llamafile#quickstart)
+ - [:fontawesome-brands-windows: Windows](https://github.com/Mozilla-Ocho/llamafile#quickstart)
+ - [:simple-apple: macOS](https://github.com/Mozilla-Ocho/llamafile#quickstart)
+ - [:simple-linux: Linux](https://github.com/Mozilla-Ocho/llamafile#quickstart)
 
 </details>
 
@@ -158,12 +158,12 @@ We recommend downloading model files from Hugging Face since it provides several
 
 To check the authenticity and safety of the model, look for:
 
-- Model cards with clear documentation
-- A verified organization badge
-- Community reviews and usage statistics
-- A "Safe" badge next to the model file (Hugging Face only)
-- Matching checksums[^1]
-    - On Hugging Face, you can find the hash by clicking on a model file and looking for the **Copy SHA256** button below it. You should compare this checksum with the one from the model file you downloaded.
+ - Model cards with clear documentation
+ - A verified organization badge
+ - Community reviews and usage statistics
+ - A "Safe" badge next to the model file (Hugging Face only)
+ - Matching checksums[^1]
+     - On Hugging Face, you can find the hash by clicking on a model file and looking for the **Copy SHA256** button below it. You should compare this checksum with the one from the model file you downloaded.
 
 A downloaded model is generally safe if it satisfies all the above checks.
 
@@ -173,20 +173,20 @@ Please note we are not affiliated with any of the projects we recommend. In addi
 
 ### Minimum Requirements
 
-- Must be open source.
-- Must not transmit personal data, including chat data.
-- Must be multi-platform.
-- Must not require a GPU.
-- Must support GPU-powered, fast inference.
-- Must not require an internet connection.
+ - Must be open source.
+ - Must not transmit personal data, including chat data.
+ - Must be multi-platform.
+ - Must not require a GPU.
+ - Must support GPU-powered, fast inference.
+ - Must not require an internet connection.
 
 ### Best-Case
 
 Our best-case criteria represent what we _would_ like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
 
-- Should be easy to download and set up, e.g. with a one-click installation process.
-- Should have a built-in model downloader option.
-- The user should be able to modify the LLM parameters, such as its system prompt or temperature.
+ - Should be easy to download and set up, e.g. with a one-click installation process.
+ - Should have a built-in model downloader option.
+ - The user should be able to modify the LLM parameters, such as its system prompt or temperature.
 
 \*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
 \*[LLM]: Large Language Model (AI model such as ChatGPT)
