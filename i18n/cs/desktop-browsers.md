@@ -216,7 +216,7 @@ Toto nastavení zabraňuje, abyste se nechtěně připojili k webové stránce p
 
 Pokud používáte [DNS over HTTPS poskytovatele](dns.md):
 
-- [x] Zaškrtněte **Maximální ochrana** a vyberte vhodného poskytovatele
+- [x] Vyberte **Maximální ochrana** a zvolte vhodného poskytovatele
 
 Maximální ochrana vynucuje používání DNS over HTTPS. Pokud se Firefox nebude moct úspěšně připojit k zabezpečenému DNS resolveru nebo pokud resolver vrátí, že záznamy pro doménu, ke které se chcete připojit, neexistují, zobrazí se bezpečnostní varování. To zabrání síti, ke které jste připojení, aby na pozadí snížila bezpečnost DNS.
 
@@ -277,73 +277,73 @@ Brave přidává „[referral kód](https://github.com/brave/brave-browser/wiki/
 
 Tyto nastavení najdete v :material-menu: → **Nastavení**.
 
-#### Shields
+#### Štíty
 
-Brave implementuje některá opatření proti zanechávání otisku ve své funkci [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields). We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+Brave implementuje některá opatření proti zanechávání otisku ve své funkci [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Doporučujeme tyto možnosti konfigurovat [globálně](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) napříč všemi stránkami, které navštěvujete.
 
-Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
+Nastavení štítů můžete pro jednotlivé weby podle potřeby snížit, ale obecně doporučujeme nastavit následující:
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under *Trackers & ads blocking*
+- [x] U *Blokování sledování & reklam* vyberte **Agresivní**
 
 <details class="warning" markdown>
-<summary>Use default filter lists</summary>
+<summary>Používejte výchozí filtr seznamy</summary>
 
-Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+Brave vám umožňuje přidávat další filtry obsahu v rámci stránky `brave://adblock`. Nedoporučujeme tuto funkci používat; místo toho používejte přednastavené filtr seznamy. Používání dalších seznamů vás odliší od ostatních uživatelů Brave a také může zvýšit plochu útoku, pokud Brave obsahuje exploit a někdo přidá škodlivé pravidlo do jednoho ze seznamů, které používáte.
 
 </details>
 
-- [x] Select **Strict** under *Upgrade connections to HTTPS*
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Check **Block fingerprinting**
-- [x] Select **Block third-party cookies**
-- [x] Check **Forget me when I close this site** (2)
-- [ ] Uncheck all social media components
+- [x] U *Upgradovat spojení k HTTPS* vyberte **Striktní**
+- [x] (Volitelně) Zaškrtněte **Blokovat skripty** (1)
+- [x] Zaškrtněte **Blokovat otisky prstů**
+- [x] Vyberte **Blokovat soubory cookie třetích stran**
+- [x] Zaškrtněte **Když zavřu tuto stránku, zapomeňte na mě.** (2)
+- [ ] Odškrtněte všechny komponenty sociálních médií
 
 </div>
 
-1. This option disables JavaScript, which will break a lot of sites. To fix them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
-2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+1. Tato možnost zakáže Javascript, což znefunkční spoustu stránek. Pro jejich znovuzprovoznění jim můžete přidělit výjimku kliknutím na ikonku Štíty ve vyhledávacím poli a odškrtnutím tohoto nastavení v *Pokročilé nastavení*.
+2. Pokud chcete zůstat přihlášení k určité stránce, kterou často navštěvujete, můžete u jednotlivých webů nastavit výjimku kliknutím na ikonku Štíty ve vyhledávacím poli a odškrtnutím tohoto nastavení v *Pokročilé nastavení*.
 
-#### Privacy and security
+#### Ochrana soukromí a zabezpečení
 
 <div class="annotate" markdown>
 
-- [x] Select **Don't allow sites to use the V8 optimizer** under *Security* → *Manage V8 security* (1)
-- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
-- [x] Select **Disable non-proxied UDP** under [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [x] Select **Auto-redirect AMP pages**
-- [x] Select **Auto-redirect tracking URLs**
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- [x] V *Zabezpečení* → *Spravovat zabezpečení modulu V8* vyberte **Nepovolovat webům používat optimalizátor V8** (1)
+- [x] V *Nastavení webů a štítů* vyberte **Automaticky odebírat oprávnění nepoužívaným webům**
+- [x] V [*Pravidla WebRTC pro zacházení s IP*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc) vyberte **Deaktivujte službu UDP bez proxy**
+- [ ] Odškrtněte **Použít pro oznámení služby Google**
+- [x] Zaškrtněte **Automaticky přesměrovávat AMP stránky**
+- [x] Zaškrtněte **Automaticky přesměrovat sledovací adresy URL**
+- [x] Zaškrtněte **Zakázat stránkám, aby získávaly můj otisk prstu na základě mých jazykových preferencí**
 
 </div>
 
-1. Disabling the V8 optimizer reduces your attack surface by disabling [*some*](https://grapheneos.social/@GrapheneOS/112708049232710156) parts of JavaScript Just-In-Time (JIT) compilation.
+1. Zakázáním optimalizátoru V8 snížíte plochu pro útoky zakázáním [*některých*](https://grapheneos.social/@GrapheneOS/112708049232710156) částí JavaScriptové Just-In-Time (JIT) kompilace.
 
-##### Tor windows
+##### Okna Tor
 
-[**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser is, and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
+[**Soukromé okno přes Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) vám umožňuje směrovat v anonymních oknech vaši aktivitu skrze síť Tor a přistupovat k .onion službám, což může být v některých případech užitečné. Brave ale **není** stejně odolný proti zanechávání otisků jako Tor Browser, a Brave s Torem používá mnohem méně lidí, takže budete vyčnívat. Pokud váš threat model vyžaduje silnou anonymitu, používejte [Tor Browser](tor.md#tor-browser).
 
-##### Data Collection
+##### Shromažďování dat
 
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Odškrtněte **Umožnit analýzu produktů se zachováním soukromí (P3A)**
+- [ ] Odškrtněte **Automatické odesílání denního pingu do služby Brave**
+- [ ] Odškrtněte **Automaticky odesílat diagnostické zprávy**
 
 #### Web3
 
-Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of these features, they should be disabled.
+Funkce Web3 může potenciálně zvýšit riziko zanechání otisku a zvětšit plochu pro útok. Pokud nepoužíváte žádnou z těchto funkcí, měly by být zakázány.
 
-- Select **Extensions (no fallback)** under *Default Ethereum wallet*
-- Select **Extensions (no fallback)** under *Default Solana wallet*
+- V *Základní peněženka Ethereum* vyberte **Rozšíření (bez náhradního řešení)**
+- V *Základní peněženka Solana* vyberte **Rozšíření (bez náhradního řešení)**
 
-#### Extensions
+#### Rozšíření
 
-- [ ] Uncheck all built-in extensions you don't use
+- [ ] Zakažte všechna vestavěná rozšíření, která nepoužíváte
 
-#### Search engine
+#### Vyhledávač
 
 We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
 

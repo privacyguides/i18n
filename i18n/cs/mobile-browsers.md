@@ -98,7 +98,7 @@ Tor Browser is the only way to truly browse the internet anonymously. When you u
 
 #### Brave shields global defaults
 
-Brave implementuje některá opatření proti zanechávání otisku ve své funkci [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields). We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+Brave implementuje některá opatření proti zanechávání otisku ve své funkci [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Doporučujeme tyto možnosti konfigurovat [globálně](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) napříč všemi stránkami, které navštěvujete.
 
 Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
 
@@ -126,7 +126,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Tato možnost zakáže Javascript, což znefunkční spoustu stránek. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 === "iOS"
 
@@ -149,7 +149,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Tato možnost zakáže Javascript, což znefunkční spoustu stránek. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 ##### Clear browsing data (Android only)
 
@@ -170,9 +170,9 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     - [ ] Uncheck **Allow sites to check if you have payment methods saved**
     - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
     - [x] Select **Close tabs on exit**
-    - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-    - [ ] Uncheck **Automatically send diagnostic reports**
-    - [ ] Uncheck **Automatically send daily usage ping to Brave**
+    - [ ] Odškrtněte **Umožnit analýzu produktů se zachováním soukromí (P3A)**
+    - [ ] Odškrtněte **Automaticky odesílat diagnostické zprávy**
+    - [ ] Odškrtněte **Automatické odesílání denního pingu do služby Brave**
 
     </div>
 
@@ -181,7 +181,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 === "iOS"
 
     - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
-    - [ ] Uncheck **Automatically send daily usage ping to Brave**
+    - [ ] Odškrtněte **Automatické odesílání denního pingu do služby Brave**
 
 #### Leo
 
