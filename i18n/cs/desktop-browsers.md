@@ -345,11 +345,11 @@ Funkce Web3 může potenciálně zvýšit riziko zanechání otisku a zvětšit 
 
 #### Vyhledávač
 
-We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
+Doporučujeme vypnout našeptávač v Brave ze stejného důvodu, jako to doporučujeme ve [Firefox](#search).
 
-- [ ] Odškrtněte **Zobrazit návrhy našeptávače**
+- [ ] Odškrtněte **Zlepšit návrhy vyhledávání**
 
-#### System
+#### Systém
 
 <div class="annotate" markdown>
 
