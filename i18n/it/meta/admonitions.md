@@ -199,7 +199,7 @@ Questo formato viene utilizzato per generare schede di raccomandazione. In parti
 <details class="downloads" markdown>
 <summary>Scarica</summary>
 
-- [:simple-github: GitHub](https://github.com/photoprism)
+ - [:simple-github: GitHub](https://github.com/photoprism)
 
 </details>
 
@@ -231,13 +231,13 @@ This is a special type of collapsible admonition which is used to generate secti
 <details class="downloads" markdown>
 <summary>Scarica</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
-- [:simple-github: GitHub](https://github.com/ProtonMail/android-mail/releases)
-- [:fontawesome-brands-windows: Windows](https://proton.me/mail/bridge#download)
-- [:simple-apple: macOS](https://proton.me/mail/bridge#download)
-- [:simple-linux: Linux](https://proton.me/mail/bridge#download)
-- [:octicons-browser-16: Web](https://mail.proton.me)
+ - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
+ - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
+ - [:simple-github: GitHub](https://github.com/ProtonMail/android-mail/releases)
+ - [:fontawesome-brands-windows: Windows](https://proton.me/mail/bridge#download)
+ - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
+ - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
+ - [:octicons-browser-16: Web](https://mail.proton.me)
 
 </details>
 

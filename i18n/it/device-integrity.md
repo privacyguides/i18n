@@ -27,17 +27,17 @@ Ciò significa che un aggressore dovrebbe reinfettare regolarmente il dispositiv
 
 Se uno dei seguenti strumenti indica una potenziale compromissione da parte di spyware come Pegasus, Predator o KingsPawn, consigliamo di contattare:
 
-- If you are a human rights defender, journalist, or from a civil society organization: [Amnesty International's Security Lab](https://securitylab.amnesty.org/contact-us)
-- If a business or government device is compromised: the appropriate security liaison at your enterprise, department, or agency
-- Forze dell'ordine locali
+ - If you are a human rights defender, journalist, or from a civil society organization: [Amnesty International's Security Lab](https://securitylab.amnesty.org/contact-us)
+ - If a business or government device is compromised: the appropriate security liaison at your enterprise, department, or agency
+ - Forze dell'ordine locali
 
 **Non possiamo aiutarti più di così in maniera diretta.** Siamo lieti di discutere della tua situazione o delle circostanze specifiche e di revisionare i tuoi risultati negli spazi della nostra [community](https://discuss.privacyguides.net), ma è improbabile che potremo aiutarti più di quanto è scritto su questa pagina.
 
 Gli strumenti su questa pagina possono esclusivamente rilevare gli indicatori di compromissione, non rimuoverli. Se temi di esser stato compromesso, ti consigliamo di:
 
-- Considerare la completa sostituzione del dispositivo
-- Considerare di cambiare il tuo numero SIM/eSIM
-- Non ripristinare da un backup, poiché, questo, potrebbe essere compromesso
+ - Considerare la completa sostituzione del dispositivo
+ - Considerare di cambiare il tuo numero SIM/eSIM
+ - Non ripristinare da un backup, poiché, questo, potrebbe essere compromesso
 
 Questi strumenti forniscono analisi basate sulle informazioni a cui possono accedere dal tuo dispositivo e sugli indicatori di compromissione accessibili pubblicamente. È importante tenere a mente due cose:
 
@@ -48,7 +48,7 @@ Questi strumenti forniscono analisi basate sulle informazioni a cui possono acce
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+ - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
 External verification tools run on your computer and scan your mobile device for forensic traces, which are helpful to identify potential compromise.
 
@@ -80,8 +80,8 @@ Il **Mobile Verification Toolkit** (**MVT**) è una raccolta di utility che semp
 <details class="downloads" markdown>
 <summary>Scarica</summary>
 
-- [:simple-apple: macOS](https://docs.mvt.re/en/latest/install)
-- [:simple-linux: Linux](https://docs.mvt.re/en/latest/install)
+ - [:simple-apple: macOS](https://docs.mvt.re/en/latest/install)
+ - [:simple-linux: Linux](https://docs.mvt.re/en/latest/install)
 
 </details>
 
@@ -102,7 +102,7 @@ Se utilizzi iOS e sei ad alto rischio, abbiamo altri tre suggerimenti per te:
 
 2. Attiva spesso i registri di _sysdiagnose_ ed eseguine il backup esternamente. Questi, possono fornire dati preziosi ai futuri investigatori forensi, se necessario.
 
-    Il procedimento per farlo varia a seconda del modello, ma puoi attivarlo sui telefoni più nuovi tenendo premuti _Accensione_ + _Volume Su_ + _Volume Giù_, finché non avverti una breve vibrazione. Dopo qualche minuto, il registro _sysdiagnose_ con data e ora, apparirà in **Impostazioni** > **Privacy e Sicurezza** > **Analisi e Miglioramenti** > **Dati Analitici**.
+   Il procedimento per farlo varia a seconda del modello, ma puoi attivarlo sui telefoni più nuovi tenendo premuti _Accensione_ + _Volume Su_ + _Volume Giù_, finché non avverti una breve vibrazione. Dopo qualche minuto, il registro _sysdiagnose_ con data e ora, apparirà in **Impostazioni** > **Privacy e Sicurezza** > **Analisi e Miglioramenti** > **Dati Analitici**.
 
 3. Abilita la [Modalità di Blocco](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode).
 
@@ -123,8 +123,8 @@ MVT ti consente di eseguire scansioni/analisi più approfondite, se il tuo dispo
 <details class="downloads" markdown>
 <summary>Scarica</summary>
 
-- [:fontawesome-brands-windows: Windows](https://imazing.com/download)
-- [:simple-apple: macOS](https://imazing.com/download)
+ - [:fontawesome-brands-windows: Windows](https://imazing.com/download)
+ - [:simple-apple: macOS](https://imazing.com/download)
 
 </details>
 
@@ -136,8 +136,8 @@ iMazing automatizza e ti guida interattivamente al procedimento di utilizzo di [
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+ - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+ - [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 Si tratta di app installabili che controllano il tuo dispositivo e il sistema operativo, in cerca di segni di manomissione, convalidandone l'identità.
 
@@ -166,9 +166,9 @@ L'utilizzo di queste app non è sufficiente per determinarre che un dispositivo 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
-- [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
-- [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
+ - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
+ - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
+ - [:material-cube-outline: GrapheneOS App Store](https://github.com/GrapheneOS/Apps/releases)
 
 </details>
 
@@ -178,11 +178,11 @@ Auditor is not a scanning/analysis tool like some other tools on this page. Rath
 
 Auditor esegue l'attestazione e il rilevamento delle intrusioni con **due** dispositivi, un **controllato** (il dispositivo da verificare) e un **controllore** (il dispositivo che esegue la verifica). The auditor can be any Android 10+ device (or a remote web service operated by [GrapheneOS](android/distributions.md#grapheneos)), while the auditee must be a specifically [supported device](https://attestation.app/about#device-support). Auditor opera:
 
-- Using a [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) model between an _auditor_ and _auditee_, the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore) of the _Auditor_.
-- Il _controllore_ può essere un'altra istanza dell'app di Auditor o il [Servizio di Attestazione da Remoto](https://attestation.app).
-- Il _controllore_ registra lo stato corrente e la configurazione del _controllato_.
-- Dovesse verificarsi la manomissione del sistema operativo del _controllato_ dopo il completamento dell'associazione, il controllore sarà a conoscenza del cambiamento nello stato e nelle configurazioni del dispositivo.
-- Riceverai un avviso del cambiamento.
+ - Using a [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) model between an _auditor_ and _auditee_, the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore) of the _Auditor_.
+ - Il _controllore_ può essere un'altra istanza dell'app di Auditor o il [Servizio di Attestazione da Remoto](https://attestation.app).
+ - Il _controllore_ registra lo stato corrente e la configurazione del _controllato_.
+ - Dovesse verificarsi la manomissione del sistema operativo del _controllato_ dopo il completamento dell'associazione, il controllore sarà a conoscenza del cambiamento nello stato e nelle configurazioni del dispositivo.
+ - Riceverai un avviso del cambiamento.
 
 È importante notare che il Controllore può effettivamente rilevare i cambiamenti soltanto **dopo** l'associazione iniziale, non necessariamente durante o prima, a causa del suo modello TOFU. Per assicurarti che il tuo hardware e sistema operativo siano autentici, [esegui l'attestazione locale](https://grapheneos.org/install/web#verifying-installation) immediatamente dopo l'installazione del dispositivo e prima di qualsiasi connessione a Internet.
 

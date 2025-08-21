@@ -7,8 +7,8 @@ cover: social-networks.webp
 
 <small>Protezione dalle seguenti minacce:</small>
 
-- [:material-close-outline: Censura](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
-- [:material-account-cash: Capitalismo della Sorveglianza](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+ - [:material-close-outline: Censura](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
+ - [:material-account-cash: Capitalismo della Sorveglianza](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
 Questi **social network** che rispettano la privacy ti consentono di partecipare alle comunità online senza fornire informazioni personali come nome e cognome, numero di telefono e altri dati comunemente richiesti dalle aziende tecnologiche.
 
@@ -20,25 +20,25 @@ Dovresti tenere in considerazione che i social network **non** sono adatti per l
 
 ## Decentralizzazione
 
-Decentralized social networks are built on an architecture that is fundamentally different than mainstream social media platforms, yet quite similar to the underlying structure of email. Instead of opening an account under a single, unified service like you would for Facebook or Discord, you instead choose an independent, public server to join. The server you join can communicate with and discover other servers; this aspect of decentralization is also known as _federation_.
+I social network decentralizzati sono costruiti su un'architettura che è fondamentalmente differente dalle piattaforme di social media mainstream, ma è molto simile alla struttura sottostante alle email. Invece di aprire un account per un singolo servizio unificato come faresti per Facebook o Discord, puoi scegliere un server pubblico e indipendente a cui unirti. Il server su cui ti unisci può comunicare e scoprire gli altri server; questo aspetto della decentralizzazione è noto anche come _federazione_.
 
-A significant benefit of this decentralized model is that there is no central authority which can censor your account across the entire network, though it is possible for your account to be banned or silenced by an individual server.
+Un beneficio significativo di questo modello decentralizzato è che non c'è un'autorità centrale che può censurare il tuo account attraverso l'intera rete, ma è possibile che il tuo account venga bannato o silenziato da un singolo server.
 
-A caveat of this decentralized model is that each server is its own legal entity, with its own privacy policy, terms of use, administration team, and moderators. While many of these servers are far _less_ restrictive and more privacy-respecting than traditional social media platforms, some can be far _more_ restrictive or potentially _worse_ for your privacy. Typically, the software on which the social network runs does not discriminate between these administrators or place any limitations on their powers.
+In questo modello decentralizzato ogni server è un'entità legale a sé stante, con una propria informativa sulla privacy, termini di utilizzo, team di amministrazione e moderatori. Mentre molti di questi server sono molto _meno_ restrittivi e più rispettosi della privacy rispetto alle piattaforme di social media tradizionali, alcuni possono essere molto _più_ restrittivi o potenzialmente _peggiori_ per la tua privacy. In genere, il software su cui si basa il social network non fa discriminazioni tra questi amministratori né pone limitazioni ai loro poteri.
 
-## Censorship Resistance
+## Resistenza alla Censura
 
-While censorship in decentralized social networks does not exist on a network level, it is very possible to experience censorship on a server level depending on a server's administrator. Administrators have the power to _defederate_ from other servers, which leads to limiting the content you can view and the people you can interact with.
+Mentre la censura nei social network decentralizzati non esiste a livello della rete, è possibile sperimentare la censura a livello del server a seconda dell'amministratore del server. Gli amministratori hanno il potere di _defederarsi_ da altri server, il che porta a limitare i contenuti che puoi visualizzare e le persone con cui puoi interagire.
 
-If you are greatly concerned about an existing server censoring your content, the content available to you, or other servers, you generally have two options:
+Se sei molto preoccupato per un server esistente che censura i tuoi contenuti, i contenuti a tua disposizione o altri server, in genere hai due opzioni:
 
-1. **Host the social network software yourself.** This approach gives you the exact same censorship resistance as any other website you can host yourself, which is fairly high.
+1. **Ospita tu stesso il software del social network.** Questo approccio ti dà esattamente la stessa resistenza alla censura che qualsiasi altro sito web che puoi ospitare tu stesso, il quale è abbastanza alto.
 
-2. **Use a managed hosting service.** We don't have any specific recommendations, but there are a variety of hosting services which will create a brand-new server on your own domain (or occasionally a subdomain of their domain, but we recommend against this unless registering your own domain presents too much of a burden to your privacy).
+2. **Usa un servizio di hosting gestito.** Non abbiamo alcuna raccomandazione specifica, ma ci sono una varietà di servizi di hosting che creeranno un server nuovo di zecca su un tuo dominio (o occasionalmente un sottodominio del loro dominio, ma non ti consigliamo questa opzione a meno che la registrazione del proprio dominio presenti un onere eccessivo per la tua privacy).
 
-    Typically, hosting providers will handle the _technical_ side of your server, but completely leave the _moderation_ side up to you. This often represents a better approach than self-hosting for most people because you can benefit from greater control over your own server without worrying about technical problems or unpatched security vulnerabilities.
+   In genere, i provider di hosting si occupano della parte _tecnica_ del tuo server, ma lasciano completamente a te la parte di _moderazione_. Per la maggior parte delle persone questo rappresenta un approccio migliore rispetto al self-hosting, in quanto si può beneficiare di un maggiore controllo sul proprio server senza preoccuparsi di problemi tecnici o vulnerabilità di sicurezza non risolte.
 
-    You should look closely at your hosting provider's terms of service and acceptable use policies before registering. These are often far more broad than typical hosted server rules, and they are far less likely to be enforced without recourse, but they can still be restrictive in undesirable ways.
+   Prima di registrarti dovresti esaminare attentamente le condizioni di servizio del tuo provider di hosting e l'informativa degli utilizzi accettabili. Queste sono spesso molto più ampie delle normali regole di server hosted e hanno molta meno probabilità di essere applicate senza ricorso, ma possono comunque essere restrittive in modi indesiderati.
 
 ## Mastodon
 
@@ -75,13 +75,13 @@ From Mastodon's web interface, click the **Administration** link in the right si
 
 There are a number of privacy controls under the **privacy and reach** tab here. Most notably, pay attention to these:
 
-- [ ] **Automatically accept new followers**: You should consider unchecking this box to have a private profile. This will allow you to review who can follow your account before accepting them.
+ - **Automatically accept new followers**: You should consider unchecking this box to have a private profile. This will allow you to review who can follow your account before accepting them.
 
     In contrast to most social media platforms, if you have a private profile you still have the _option_ to publish posts which are publicly visible to non-followers and can still be boosted by non-followers. Therefore, unchecking this box is the only way to have the _choice_ to publish to either the entire world or a select group of people.
 
-- [ ] **Show follows and followers on profile**: You should uncheck this box to hide your social graph from the public. It is fairly uncommon for the list of people you follow to have some genuine benefit to others, but that information can present a risk to you.
+ - **Show follows and followers on profile**: You should uncheck this box to hide your social graph from the public. It is fairly uncommon for the list of people you follow to have some genuine benefit to others, but that information can present a risk to you.
 
-- [ ] **Display from which app you sent a post**: You should uncheck this box to prevent revealing information about your personal computing setup to others unnecessarily.
+ - **Display from which app you sent a post**: You should uncheck this box to prevent revealing information about your personal computing setup to others unnecessarily.
 
 The other privacy controls on this page should be read through, but we would stress that they are **not** technical controls—they are merely requests that you make to others. For example, if you choose to hide your profile from search engines on this page, **nothing** is actually stopping a search engine from reading your profile. You are merely requesting search engine indexes not publish your content to their users.
 
@@ -95,7 +95,7 @@ Note that this only changes your default settings to prevent accidental over-sha
 
 #### Automated post deletion
 
-- [x] Check the **Automatically delete old posts** box.
+ - Check the **Automatically delete old posts** box.
 
 The default settings here are fine, and will delete any posts you make after 2 weeks, unless you favorite (star) them. This gives you an easy way to control which posts stick around forever, and which ones are only ephemeral. Many settings about how long and when posts are kept can be adjusted here to suit your own needs, however.
 
@@ -105,10 +105,10 @@ It is very rare for social media posts older than a few weeks to be read or rele
 
 When publishing a new post, you will have the option to choose from one of these visibility settings:
 
-- **Public**, which publishes your content to anyone on the internet.
-- **Quiet public**, which you should consider equivalent to publicly posting! This is not a technical guarantee, but merely a request you are making to other servers to hide your post from some feeds.
-- **Followers**, which publishes your content only to your followers. If you did not follow our recommendation of restricting your followers, you should consider this equivalent to publicly posting!
-- **Specific people**, which only shares the post with people who are specifically mentioned within the post. This is Mastodon's version of direct messages, but should never be relied on for private communications as we covered earlier since Mastodon has no E2EE.
+ - **Public**, which publishes your content to anyone on the internet.
+ - **Quiet public**, which you should consider equivalent to publicly posting! This is not a technical guarantee, but merely a request you are making to other servers to hide your post from some feeds.
+ - **Followers**, which publishes your content only to your followers. If you did not follow our recommendation of restricting your followers, you should consider this equivalent to publicly posting!
+ - **Specific people**, which only shares the post with people who are specifically mentioned within the post. This is Mastodon's version of direct messages, but should never be relied on for private communications as we covered earlier since Mastodon has no E2EE.
 
 If you used our recommended configuration settings above, you should be posting to **Followers** by default, and only posting to **Public** on an intentional and case-by-case basis.
 
@@ -127,13 +127,13 @@ If you used our recommended configuration settings above, you should be posting 
 
 <details class="downloads" markdown><summary>Downloads</summary>
 
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1083446067)
-- [:simple-github: GitHub](https://github.com/element-hq/element-android/releases)
-- [:fontawesome-brands-windows: Windows](https://element.io/download)
-- [:simple-apple: macOS](https://element.io/download)
-- [:simple-linux: Linux](https://element.io/download)
-- [:octicons-browser-16: Web](https://app.element.io)
+ - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
+ - [:simple-appstore: App Store](https://apps.apple.com/app/id1083446067)
+ - [:simple-github: GitHub](https://github.com/element-hq/element-android/releases)
+ - [:fontawesome-brands-windows: Windows](https://element.io/download)
+ - [:simple-apple: macOS](https://element.io/download)
+ - [:simple-linux: Linux](https://element.io/download)
+ - [:octicons-browser-16: Web](https://app.element.io)
 
 </details>
 
@@ -155,15 +155,15 @@ To prevent revealing information about your personal device to others unnecessar
 
 #### Preferences
 
-- [ ] Uncheck **Send read receipts**
-- [ ] Uncheck **Send typing notifications**
+ - Uncheck **Send read receipts**
+ - Uncheck **Send typing notifications**
 
 You should uncheck these options to reduce the exposure of metadata to other users when chatting in a public room.
 
 #### Voice & Video
 
-- [ ] Uncheck **Allow Peer-to-Peer for 1:1 calls**
-- [ ] Uncheck **Allow fallback call assist server (turn.matrix.org)**
+ - Uncheck **Allow Peer-to-Peer for 1:1 calls**
+ - Uncheck **Allow fallback call assist server (turn.matrix.org)**
 
 If you do decide to use Element for one-to-one communication, we recommend unchecking these settings to prevent the exposure of your IP address to the other party.
 
@@ -177,13 +177,13 @@ As an end user on a public homeserver, you can consider unchecking the **Enable 
 
 ##### Sessions
 
-- [ ] (Optional) Uncheck **Record the client name, version, and url to recognize sessions for easily in session manager**
+ - (Optional) Uncheck **Record the client name, version, and url to recognize sessions for easily in session manager**
 
 Unchecking this option may make it more diffcult to discern your active sessions if you logged in to your Matrix account on multiple devices.
 
 #### Crittografia
 
-- [x] (Optional) Check **In encrypted rooms, only send messages to verified users**
+ - (Optional) Check **In encrypted rooms, only send messages to verified users**
 
 With this setting enabled, unverified users (i.e., those who have not used the **Verify User** function) and unverified devices of verified users will not receive your messages in a room with encryption enabled. This may limit the messages you can view and the people you can interact with.
 
@@ -191,11 +191,11 @@ With this setting enabled, unverified users (i.e., those who have not used the *
 
 **Ti preghiamo di notare che non siamo affiliati con alcun progetto che consigliamo.** Oltre ai nostri [criteri standard](about/criteria.md), abbiamo sviluppato un chiaro insieme di requisiti per consentirci di fornire dei consigli oggettivi. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
 
-- Must be free and open-source software.
-- Must use a federated protocol to communicate with other instances of the social networking software.
-- Must not have non-technical restrictions on who can be federated with.
-- Must be usable within a standard [web browser](desktop-browsers.md).
-- Must make public content accessible to visitors without an account.
-- Must allow you to limit who can follow your profile.
-- Must allow you to post content visible only to your followers.
-- Must support modern web application security standards/features (including [multifactor authentication](multi-factor-authentication.md)).
+ - Must be free and open-source software.
+ - Must use a federated protocol to communicate with other instances of the social networking software.
+ - Must not have non-technical restrictions on who can be federated with.
+ - Must be usable within a standard [web browser](desktop-browsers.md).
+ - Must make public content accessible to visitors without an account.
+ - Must allow you to limit who can follow your profile.
+ - Must allow you to post content visible only to your followers.
+ - Must support modern web application security standards/features (including [multifactor authentication](multi-factor-authentication.md)).
