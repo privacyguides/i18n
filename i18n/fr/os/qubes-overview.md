@@ -1,5 +1,5 @@
 ---
-title: "Introduction à Qubes"
+title: "Sur Qubes"
 icon: simple/qubesos
 description: Qubes est un système d'exploitation conçu pour isoler les applications au sein de *qubes* (anciennement "VMs") afin d'améliorer la sécurité.
 ---

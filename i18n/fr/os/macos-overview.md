@@ -213,7 +213,7 @@ Si vous constatez que l'application que vous souhaitez utiliser n'est pas sandbo
 
 [L'exécution renforcée](https://developer.apple.com/documentation/security/hardened_runtime) est une forme de protection supplémentaire pour les applications qui empêche certains types d'exploitations. Il améliore la sécurité des applications contre de potentielles exploitations en désactivant certaines fonctions comme le JIT.
 
-You can check if an app uses the Hardened Runtime using this command:
+Vous pouvez vérifier si une application utilise le Hardened Runtime en utilisant cette commande :
 
 ``` zsh
 codesign -dv <path to your app>
@@ -227,18 +227,18 @@ Vous pouvez activer une colonne dans Activity Monitor appelée "Restricted", qui
 
 macOS est doté de deux formes de défense contre les logiciels malveillants :
 
-1. La protection contre le lancement de logiciels malveillants est assurée par le processus d'examen des applications de l'App Store, ou *Notarization* (fait partie de *Gatekeeper*), un processus au cours duquel les applications tierces sont analysées par Apple à la recherche de logiciels malveillants connus avant d'être autorisées à s'exécuter. Les applications doivent être signées par les développeurs à l'aide d'une clé fournie par Apple. Cela garantit que vous exécutez des logiciels provenant des vrais développeurs. Notarization also requires that developers enable the Hardened Runtime for their apps, which limits methods of exploitation.
+1. La protection contre le lancement de logiciels malveillants est assurée par le processus d'examen des applications de l'App Store, ou *Notarization* (fait partie de *Gatekeeper*), un processus au cours duquel les applications tierces sont analysées par Apple à la recherche de logiciels malveillants connus avant d'être autorisées à s'exécuter. Les applications doivent être signées par les développeurs à l'aide d'une clé fournie par Apple. Cela garantit que vous exécutez des logiciels provenant des vrais développeurs. La notarisation exige également que les développeurs activent le Hardened Runtime pour leurs applications, ce qui limite les vulnérabiltés.
 2. La protection contre les autres logiciels malveillants et la remédiation des logiciels malveillants existants sur votre système sont assurées par *XProtect*, un logiciel antivirus plus traditionnel intégré à macOS.
 
-We recommend against installing third-party antivirus software as they typically do not have the system-level access required to properly function anyway, because of Apple's limitations on third-party apps, and because granting the high levels of access they do ask for often poses an even greater security and privacy risk to your computer.
+Nous vous déconseillons d'installer des logiciels antivirus tiers, car ils n'ont généralement pas l'accès nécessaire au niveau du système pour fonctionner correctement, en raison des limitations imposées par Apple aux applications tierces, et parce que l'octroi des niveaux d'accès élevés qu'ils demandent pose souvent un risque encore plus grand pour la sécurité et la confidentialité de votre ordinateur.
 
 ##### Sauvegardes
 
-macOS comes with automatic backup software called [Time Machine](https://support.apple.com/HT201250), so you can create encrypted backups to an external drive or a network drive in the event of corrupted/deleted files.
+macOS est livré avec un logiciel de sauvegarde automatique appelé [Time Machine](https://support.apple.com/HT201250), qui vous permet de créer des sauvegardes chiffrées sur un disque externe ou un lecteur réseau en cas de fichiers corrompus/supprimés.
 
 ### Sécurité matérielle
 
-Many modern security features in macOS—such as modern Secure Boot, hardware-level exploit mitigation, OS integrity checks, and file-based encryption—rely on Apple Silicon, and Apple's newer hardware always has the [best security](https://support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1). We only encourage the use of Apple Silicon, and not older Intel-based Mac computers or Hackintoshes.
+De nombreuses fonctions de sécurité modernes de macOS - telles que le Secure Boot moderne, l'atténuation des vulnérabilité au niveau matériel, les vérifications de l'intégrité du système d'exploitation et le chiffrement des fichiers - reposent sur l'Apple Silicon, et le matériel le plus récent d'Apple est toujours doté de la [meilleure sécurité](https://support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1). Nous encourageons uniquement l'utilisation d'Apple Silicon, et non d'anciens ordinateurs Mac basés sur Intel, ou Hackintoshes.
 
 Certaines de ces fonctions de sécurité modernes sont disponibles sur les anciens ordinateurs Mac à base d'Intel équipés de la puce de sécurité T2 d'Apple, mais cette puce est susceptible d'être exploitée par *checkm8*, ce qui pourrait compromettre sa sécurité.
 
@@ -256,7 +256,7 @@ Les ordinateurs Mac peuvent être configurés pour démarrer selon trois modes d
 
 #### Enclave sécurisée
 
-The Secure Enclave is a security chip built into devices with Apple Silicon which is responsible for storing and generating encryption keys for data at rest as well as Face ID and Touch ID data. Il contient sa propre ROM d'amorçage.
+Le Secure Enclave est une puce de sécurité intégrée à des appareils avec le Apple Silicon qui est responsable du stockage et de la génération de clés de chiffrement pour les données au repos, ainsi que pour les données Face ID et Touch ID. Il contient sa propre ROM d'amorçage.
 
 Vous pouvez considérer l'Enclave sécurisée comme le centre de sécurité de votre appareil : elle dispose d'un moteur de chiffrement AES et d'un mécanisme pour stocker en toute sécurité vos clés de chiffrement, et elle est séparée du reste du système, de sorte que même si le processeur principal est compromis, elle devrait rester sûre.
 
@@ -268,7 +268,7 @@ Vos données biométriques ne quittent jamais votre appareil ; elles sont stock�
 
 #### Déconnexion matérielle du microphone
 
-All laptops with Apple Silicon or the T2 chip feature a hardware disconnect for the built-in microphone whenever the lid is closed. Cela signifie qu'il n'y a aucun moyen pour un attaquant d'écouter le microphone de votre Mac, même si le système d'exploitation est compromis.
+Tous les ordinateurs portables équipés de l'Apple Silicon ou de la puce T2 disposent d'une déconnexion matérielle du microphone intégré lorsque le couvercle est fermé. Cela signifie qu'il n'y a aucun moyen pour un attaquant d'écouter le microphone de votre Mac, même si le système d'exploitation est compromis.
 
 Notez que la caméra n'a pas de déconnexion matérielle, puisque sa vue est de toute façon obscurcie lorsque le couvercle est fermé.
 
@@ -287,7 +287,7 @@ Lorsqu'il est nécessaire d'utiliser l'un de ces processeurs, Apple travaille av
 
 #### Protections contre l'accès direct à la mémoire
 
-Apple Silicon separates each component that requires direct memory access. Par exemple, un port Thunderbolt ne peut pas accéder à la mémoire réservée au noyau.
+Apple Silicon sépare chaque composant qui nécessite un accès direct à la mémoire. Par exemple, un port Thunderbolt ne peut pas accéder à la mémoire réservée au noyau.
 
 ## Sources
 
