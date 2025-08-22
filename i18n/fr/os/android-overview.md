@@ -13,15 +13,15 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 [:octicons-info-16:](https://source.android.com/docs){ .card-link title=Documentation}
 [:octicons-code-16:](https://cs.android.com/android/platform/superproject/main){ .card-link title="Source Code" }
 
-[Our Android Advice :material-arrow-right-drop-circle:](../android/index.md ""){.md-button.md-button--primary}
+[Nos conseils sur Android :material-arrow-right-drop-circle:](../android/index.md ""){.md-button.md-button--primary}
 
 ## Protections de sécurité
 
-Key components of the Android security model include [verified boot](#verified-boot), [firmware updates](#firmware-updates), and a robust [permission system](#android-permissions). These important security features form the baseline of the minimum criteria for our [mobile phone](../mobile-phones.md) and [custom Android OS](../android/distributions.md) recommendations.
+Les éléments clés du modèle de sécurité d'Android sont le [démarrage vérifié](#verified-boot), les [mises à jour du micrologiciel](#firmware-updates) et un [système d'autorisation](#android-permissions) robuste. Ces fonctionnalités de sécurité importantes forment la ligne de base des critères minimums pour nos recommandations [de téléphone mobile](../mobile-phones.md) et [de systèmes d'exploitation Android alternatifs](../android/distributions.md).
 
 ### Démarrage vérifié
 
-[**Verified Boot**](https://source.android.com/security/verifiedboot) is an important part of the Android security model. Il fournit une protection contre les attaques de type [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack), la persistance de logiciels malveillants et garantit que les mises à jour de sécurité ne peuvent pas être rétrogradées grâce au [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
+Le [**Démarrage vérifié**](https://source.android.com/security/verifiedboot) est un élément important du modèle de sécurité d'Android. Il fournit une protection contre les attaques de type [evil maid](https://en.wikipedia.org/wiki/Evil_maid_attack), la persistance de logiciels malveillants et garantit que les mises à jour de sécurité ne peuvent pas être rétrogradées grâce au [rollback protection](https://source.android.com/security/verifiedboot/verified-boot#rollback-protection).
 
 Les versions supérieures à Android 10 ont abandonné le chiffrement complet du disque au profit d'un chiffrement plus souple [basé sur les fichiers](https://source.android.com/security/encryption/file-based). Vos données sont chiffrées à l'aide de clés de chiffrement propres à chaque utilisateur, tandis que les fichiers du système d'exploitation ne sont pas chiffrés.
 
@@ -29,13 +29,13 @@ Le Démarrage Vérifié garantit l'intégrité des fichiers du système d'exploi
 
 Malheureusement, les fabricants sont tenus de prendre en charge le Démarrage Vérifié uniquement sur leurs distributions Android d'origine. Seuls quelques fabricants OEM, tels que Google, prennent en charge l'enrolement de clés AVB personnalisées sur leurs appareils. De plus, certaines ROM dérivées d'AOSP tels que LineageOS ou /e/ OS ne prennent pas en charge le Démarrage Vérifié, même si le matériel peut le prendre en charge. Nous vous recommandons de vérifier le support de cette fonctionnalité **avant** d'acheter un nouvel appareil. Les dérivés d'AOSP qui ne prennent pas en charge le Démarrage Vérifié ne sont **pas** recommandés.
 
-De nombreux contructeurs ont également une implémentation défectueuse du Démarrage Vérifié dont vous devez être conscient au-delà de leur marketing. Par exemple, les Fairphone 3 et 4 ne sont pas sécurisés par défaut, car le [chargeur d'amorçage d'origine fait confiance à la clé de signature AVB publique](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). This breaks verified boot on a stock Fairphone device, as the system will boot alternative Android operating systems (such as /e/) [without any warning](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) about custom operating system usage.
+De nombreux contructeurs ont également une implémentation défectueuse du Démarrage Vérifié dont vous devez être conscient au-delà de leur marketing. Par exemple, les Fairphone 3 et 4 ne sont pas sécurisés par défaut, car le [chargeur d'amorçage d'origine fait confiance à la clé de signature AVB publique](https://forum.fairphone.com/t/bootloader-avb-keys-used-in-roms-for-fairphone-3-4/83448/11). Cela contourne le Démarrage Vérifié sur un appareil Fairphone d'origine, car le système démarrera des systèmes d'exploitation Android alternatifs tels que (comme /e/) [sans aucun avertissement](https://source.android.com/security/verifiedboot/boot-flow#locked-devices-with-custom-root-of-trust) sur l'utilisation d'un système d'exploitation personnalisé.
 
 ### Mises à jour du micrologiciel
 
-**Firmware updates** are critical for maintaining security and without them your device cannot be secure. Les fabriquants ont conclu des accords de prise de en charge avec leurs partenaires pour fournir les mises à jour des composants closed-source pendant une période limitée. Celles-ci sont détaillées dans les [Bulletins de Sécurité Android](https://source.android.com/security/bulletin) mensuels.
+Les **mises à jour du firmware** sont essentielles au maintien de la sécurité de votre appareil. Les fabriquants ont conclu des accords de prise de en charge avec leurs partenaires pour fournir les mises à jour des composants closed-source pendant une période limitée. Celles-ci sont détaillées dans les [Bulletins de Sécurité Android](https://source.android.com/security/bulletin) mensuels.
 
-Comme les composants du téléphone, tels que le processeur et les technologies radio, reposent sur des composants closed-source, les mises à jour doivent être fournies par leur fabricants respectifs. Par conséquent, il est important que vous achetiez un appareil qui reçoit activement des mises à jours. [Qualcomm](https://qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) support their devices for 4 years, while cheaper products often have shorter support cycles. Avec l'introduction du [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google fabrique maintenant son propre SoC et fournira un minimum de 5 ans de mises à jour. Avec l'introduction de la série Pixel 8, Google a porté cette intervalle de prise en charge à 7 ans.
+Comme les composants du téléphone, tels que le processeur et les technologies radio, reposent sur des composants closed-source, les mises à jour doivent être fournies par leur fabricants respectifs. Par conséquent, il est important que vous achetiez un appareil qui reçoit activement des mises à jours. [Qualcomm](https://qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) et [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) prennent en charge leurs appareils pendant 4 ans, alors que les produits moins chers ont souvent des prises en charge plus courts. Avec l'introduction du [Pixel 6](https://support.google.com/pixelphone/answer/4457705), Google fabrique maintenant son propre SoC et fournira un minimum de 5 ans de mises à jour. Avec l'introduction de la série Pixel 8, Google a porté cette intervalle de prise en charge à 7 ans.
 
 Les appareils qui ne sont plus pris en charge par le fabricant du SoC ne peuvent pas recevoir de mises à jour du micrologiciel de la part des fabricants ou des distributeurs. Cela signifie que les problèmes de sécurité de ces appareils ne seront pas corrigés.
 
@@ -43,9 +43,9 @@ Fairphone, par exemple, commercialise son appareil Fairphone 4 comme bénéficia
 
 ### Autorisations d'Android
 
-[**Permissions on Android**](https://developer.android.com/guide/topics/permissions/overview) grant you control over what apps are allowed to access. Google apporte régulièrement des [améliorations](https://developer.android.com/about/versions/11/privacy/permissions) sur le système d'autorisations à chaque nouvelle version d'Android. Toutes les applications que vous installez sont strictement [isolées](https://source.android.com/security/app-sandbox), il n'est donc pas nécessaire d'installer des applications antivirus.
+Les [**autorisations sur Android**](https://developer.android.com/guide/topics/permissions/overview) vous permettent de contrôler ce que les applications ont le droit d'accéder. Google apporte régulièrement des [améliorations](https://developer.android.com/about/versions/11/privacy/permissions) sur le système d'autorisations à chaque nouvelle version d'Android. Toutes les applications que vous installez sont strictement [isolées](https://source.android.com/security/app-sandbox), il n'est donc pas nécessaire d'installer des applications antivirus.
 
-Un smartphone équipé de la dernière version d'Android sera toujours plus sûr qu'un vieux smartphone équipé d'un antivirus que vous avez payé. It's better not to pay for antivirus software and to save money to buy a new smartphone such as a [Google Pixel](../mobile-phones.md#google-pixel).
+Un smartphone équipé de la dernière version d'Android sera toujours plus sûr qu'un vieux smartphone équipé d'un antivirus que vous avez payé. Il est préférable de ne pas payer pour un logiciel antivirus et d'économiser pour acheter un nouveau smartphone, comme un [Google Pixel](../mobile-phones.md#google-pixel).
 
 Android 10 :
 
@@ -66,7 +66,7 @@ Android 12 :
 
 Android 13 :
 
-- Une autorisation pour un [accès aux wifi à proximité](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). The MAC addresses of nearby Wi-Fi access points were a popular way for apps to track a user's location.
+- Une autorisation pour un [accès aux wifi à proximité](https://developer.android.com/about/versions/13/behavior-changes-13#nearby-wifi-devices-permission). Les applications utilisaient couramment les adresses MAC des points d'accès Wi-Fi situés à proximités pour suivre la localisation d'un utilisateur.
 - Des [autorisations plus granulaires pour les médias](https://developer.android.com/about/versions/13/behavior-changes-13#granular-media-permissions), ce qui signifie que vous pouvez accorder l'accès uniquement aux images, aux vidéos ou aux fichiers audio.
 - L'utilisation de capteurs en arrière-plan nécessite désormais l'autorisation [`BODY_SENSORS`](https://developer.android.com/about/versions/13/behavior-changes-13#body-sensors-background-permission).
 
@@ -84,7 +84,7 @@ Si une application est principalement un service web, le suivi peut se faire du 
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-Des applications respectueuses de la vie privée telles que [Bitwarden](https://reports.exodus-privacy.eu.org/fr/reports/com.x8bit.bitwarden/latest) peuvent afficher certains traqueurs tels que [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/fr/trackers/49). Cette bibliothèque comprend [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) qui peut fournir des [notifications push](https://fr.wikipedia.org/wiki/Server_push) dans les applications. C'est [le cas](https://fosstodon.org/@bitwarden/109636825700482007) avec Bitwarden. That doesn't mean that Bitwarden is using all the analytics features that are provided by Google Firebase Analytics.
+Des applications respectueuses de la vie privée telles que [Bitwarden](https://reports.exodus-privacy.eu.org/fr/reports/com.x8bit.bitwarden/latest) peuvent afficher certains traqueurs tels que [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/fr/trackers/49). Cette bibliothèque comprend [Firebase Cloud Messaging](https://en.wikipedia.org/wiki/Firebase_Cloud_Messaging) qui peut fournir des [notifications push](https://fr.wikipedia.org/wiki/Server_push) dans les applications. C'est [le cas](https://fosstodon.org/@bitwarden/109636825700482007) avec Bitwarden. Cela ne signifie pas que Bitwarden utilise toutes les fonctionnalités d'analyse fournies par Google Firebase Analytics.
 
 </div>
 
@@ -92,13 +92,13 @@ Des applications respectueuses de la vie privée telles que [Bitwarden](https://
 
 ### Profils utilisateurs
 
-Multiple **user profiles** can be found in :gear: **Settings** → **System** → **Users** and are the simplest way to isolate in Android.
+Les **profils d'utilisateurs** multiples se trouvent dans :gear: **Paramètres** → **Système** → **Utilisateurs** et constituent le moyen le plus simple d'isoler dans Android.
 
-With user profiles, you can impose restrictions on a specific profile, such as: making calls, using SMS, or installing apps. Chaque profil est chiffré à l'aide de sa propre clé de chiffrement et ne peut accéder aux données d'aucun autre profil. Même le propriétaire de l'appareil ne peut pas voir les données des autres profils sans connaître leur mot de passe. Les profils d'utilisateurs multiples est une méthode d'isolement plus sécurisée.
+Avec les profils d'utilisateur, vous pouvez imposer des restrictions à un profil spécifique, par exemple : passer des appels, utiliser des SMS ou installer des applications sur l'appareil. Chaque profil est chiffré à l'aide de sa propre clé de chiffrement et ne peut accéder aux données d'aucun autre profil. Même le propriétaire de l'appareil ne peut pas voir les données des autres profils sans connaître leur mot de passe. Les profils d'utilisateurs multiples est une méthode d'isolement plus sécurisée.
 
 ### Profil professionnel
 
-[**Work Profiles**](https://support.google.com/work/android/answer/6191949) are another way to isolate individual apps and may be more convenient than separate user profiles.
+Les [**Profils Professionnels**](https://support.google.com/work/android/answer/6191949) sont une autre façon d'isoler des applications de manière individuelles et peuvent s'avérer plus pratiques que des profils d'utilisateur séparés.
 
 A **device controller** app such as [Shelter](../android/general-apps.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
 

@@ -27,109 +27,109 @@ Pour modifier une stratégie de groupe, double-cliquez dessus et sélectionnez A
 
  - Désactiver le programme d'amélioration de l'expérience client de Windows : **Activé**
  - Désactiver le rapport d'erreurs de Windows : **Activé**
- - Turn off the Windows Messenger Customer Experience Improvement Program: **Enabled**
+ - Désactiver le programme d'amélioration de l'expérience client de Windows : **Activé**
 
-Note that disabling the Windows Customer Experience Improvement Program also disables some other tracking features that can be individually controlled with Group Policy as well. We don't list them all here or disable them because this setting covers that.
+Notez que la désactivation du programme d'amélioration de l'expérience client Windows désactive également d'autres fonctions de suivi qui peuvent être contrôlées individuellement à l'aide de la stratégie de groupe. Ils ne sont pas listés ici car ils sont désactivés en même temps que le programme d'amélioration de l'expérience client.
 
-#### OS Policies
+#### Politiques du système d'exploitation
 
- - Allow Clipboard History: **Disabled**
- - Allow Clipboard synchronization across devices: **Disabled**
- - Enables Activity Feed: **Disabled**
- - Allow publishing of User Activities: **Disabled**
- - Allow upload of User Activities: **Disabled**
+ - Autoriser l'historique du presse-papiers : **Désactivé**
+ - Autoriser la synchronisation du presse-papiers entre les appareils : **Désactivé**
+ - Activer le flux d'activité : **Désactivé**
+ - Autoriser la publication des activités de l'utilisateur : **Désactivé**
+ - Autoriser le téléversement des activités de l'utilisateur : **Désactivé**
 
 #### Profils utilisateurs
 
- - Turn off the advertising ID: **Enabled**
+ - Désactiver l'identifiant publicitaire : **Activé**
 
-### Windows Components
+### Composants Windows
 
-#### AutoPlay Policies
+#### Configuration d'AutoPlay
 
-AutoRun and AutoPlay are features which allow Windows to run a script or perform some other task when a device is connected, sometimes avoiding security measures that involve user consent. This could allow untrusted devices to run malicious code without your knowledge. It's a security best practice to disable these features, and simply open files on your external disks manually.
+AutoRun et AutoPlay sont des fonctions qui permettent à Windows d'exécuter un script ou une autre tâche lorsqu'un appareil est connecté, ce qui permet parfois d'éviter les mesures de sécurité qui impliquent le consentement de l'utilisateur. Cela peut permettre à des périphériques non fiables d'exécuter un code malveillant à votre insu. Il est préférable de désactiver ces fonctionnalités et d'ouvrir manuellement les fichiers sur vos disques externes.
 
- - Turn off AutoPlay: **Enabled**
- - Disallow Autoplay for nonvolume devices: **Enabled**
- - Set the default behavior for AutoRun: **Enabled**
-     - Default AutoRun Behavior: **Do not execute any AutoRun commands**
+ - Désactiver AutoPlay : **Activé**
+ - Interdire la lecture automatique pour les appareils sans volume : **Activé**
+ - Définit le comportement par défaut pour AutoRun: **Activé**
+     - Comportement de AutoRun par défaut : \*\*N'exécutez aucune commande AutoRun \*\*
 
-#### BitLocker Drive Encryption
+#### Chiffrement du disque BitLocker
 
-You may wish to re-encrypt your operating system drive after changing these settings.
+Il est préférable de chiffrer à nouveau le disque de votre système d'exploitation après avoir modifié ces paramètres.
 
- - Choose drive encryption method and cipher strength (Windows Vista, Windows Server 2008, Windows 7): **Enabled**
-     - Select the encryption method: **AES-256**
+ - Choisissez la méthode de chiffrement du lecteur et la force du chiffrement (Windows Vista, Windows Server 2008, Windows 7) : **Activé**
+     - Sélectionnez la méthode de chiffrement : **AES-256**
 
-Setting the cipher strength for the Windows 7 policy still applies that strength to newer versions of Windows.
+Le fait de définir la force de chiffrement pour la politique de Windows 7 permet de l'appliquer aux nouvelles versions de Windows.
 
-##### Operating System Drives
+##### Disques du système d'exploitation
 
- - Require additional authentication at startup: **Enabled**
- - Allow enhanced PINs for startup: **Enabled**
+ - Exiger une authentification supplémentaire au démarrage : **Activé**
+ - Autoriser les codes PIN améliorés pour le démarrage : **Activé**
 
-Despite the names of these policies, this doesn't _require_ you to do anything by default, but it will unlock the _option_ to have a more complex setup (such as requiring a PIN at startup in addition to the TPM) in the BitLocker setup wizard.
+Malgré les noms de ces réglages, cela ne vous _oblige_ pas de faire quoi que ce soit par défaut, mais débloquera l'_option_ pour avoir une configuration plus complexe (comme la nécessité d'un code PIN au démarrage en plus de la TPM) dans l'assistant de configuration de BitLocker.
 
-#### Cloud Content
+#### Contenu du Cloud
 
- - Turn off cloud optimized content: **Enabled**
- - Turn off cloud consumer account state content: **Enabled**
- - Do not show Windows tips: **Enabled**
- - Turn off Microsoft consumer experiences: **Enabled**
+ - Désactiver le contenu optimisé pour le cloud : **Activé**
+ - Désactiver le contenu de l'état du compte utilisateur cloud : **Activé**
+ - Ne pas afficher les conseils Windows : **Activé**
+ - Désactiver les expériences utilisateur de Microsoft : **Activé**
 
-#### Credential User Interface
+#### Interface utilisateur d'authentification
 
- - Require trusted path for credential entry: **Enabled**
- - Prevent the use of security questions for local accounts: **Enabled**
+ - Exiger un chemin de confiance pour l'entrée des identifiants : **Activé**
+ - Empêcher l'utilisation de questions de sécurité pour les comptes locaux : **Activé**
 
-#### Data Collection and Preview Builds
+#### Collecte de données et aperçu des compilations
 
- - Allow Diagnostic Data: **Enabled**
-     - Options: **Send required diagnostic data** (Pro Edition); or
-     - Options: **Diagnostic data off** (Enterprise or Education Edition)
- - Limit Diagnostic Log Collection: **Enabled**
- - Limit Dump Collection: **Enabled**
- - Limit optional diagnostic data for Desktop Analytics: **Enabled**
-     - Options: **Disable Desktop Analytics collection**
- - Do not show feedback notifications: **Enabled**
+ - Autoriser les données de diagnostic : **Activé**
+     - Options : **Envoyer les données de diagnostic nécessaires** (édition Pro) ; ou
+     - Options : **Données de diagnostic désactivées** (Edition Entreprise ou Education)
+ - Limiter la collecte des journaux de diagnostic : **Activé**
+ - Limiter Dump Collection : **Activé**
+ - Limiter les données de diagnostic optionnelles pour Desktop Analytics : **Activé**
+     - Options : **Désactiver la collecte de données Desktop Analytics**
+ - Ne pas afficher les notifications : **Activé**
 
-#### File Explorer
+#### Explorateur de Fichiers
 
- - Turn off account-based insights, recent, favorite, and recommended files in File Explorer: **Enabled**
+ - Désactiver les aperçus basés sur le compte, les fichiers récents, favoris et recommandés dans l'explorateur de fichiers : **Activé**
 
 #### MDM
 
- - Disable MDM Enrollment: **Enabled**
+ - Désactiver l'inscription MDM : **Activé**
 
 #### OneDrive
 
- - Save documents to OneDrive by default: **Disabled**
- - Prevent OneDrive from generating network traffic until the user signs in to OneDrive: **Enabled**
- - Prevent the usage of OneDrive for file storage: **Enabled**
+ - Enregistrer les documents sur OneDrive par défaut : **Désactivé**
+ - Empêcher OneDrive de générer du trafic jusqu'à ce que l'utilisateur se connecte à OneDrive : **Activé**
+ - Empêcher l'utilisation de OneDrive pour le stockage de fichiers : **Activé**
 
-This last setting disables OneDrive on your system; make sure to change it to **Disabled** if you use OneDrive.
+Ce dernier paramètre désactive OneDrive sur votre système ; veillez à le modifier en **Désactivé** si vous utilisez OneDrive.
 
 #### Push To Install
 
- - Turn off Push To Install service: **Enabled**
+ - Désactiver le service Push To Install : **Activé**
 
 #### Recherche
 
- - Allow Cortana: **Disabled**
- - Don't search the web or display web results in Search: **Enabled**
- - Set what information is shared in Search: **Enabled**
-     - Type of information: **Anonymous info**
+ - Autoriser Cortana : **Désactivé**
+ - Ne pas rechercher sur le Web ou afficher les résultats web dans Search : **Activé**
+ - Définissez les informations partagées dans Search : **Activé**
+     - Type d'information : **Informations anonymes**
 
-#### Sync your settings
+#### Synchroniser vos paramètres
 
- - Do not sync: **Enabled**
+ - Ne pas synchroniser : **Activé**
 
-#### Text input
+#### Saisie de texte
 
- - Improve inking and typing recognition: **Disabled**
+ - Améliorer la reconnaissance d'encre numérique et de saisie : **Désactivé**
 
-#### Windows Error Reporting
+#### Rapport d'erreurs Windows
 
- - Do not send additional data: **Enabled**
- - Consent > Configure Default consent: **Enabled**
-     - Consent level: **Always ask before sending data**
+ - Ne pas envoyer de données supplémentaires : **Activé**
+ - Consentement > Configurer Consentement par défaut : **Activé**
+     - Niveau de consentement : **Toujours demander avant d'envoyer des données**

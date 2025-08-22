@@ -353,46 +353,46 @@ Doporučujeme vypnout našeptávač v Brave ze stejného důvodu, jako to doporu
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Continue running background apps when Brave is closed** to disable background apps (1)
+- [ ] Odškrtněte **Po ukončení prohlížeče Brave nechat aplikace na pozadí spuštěné** pro vypnutí aplikací na pozadí (1)
 
 </div>
 
-1. This option is not present on all platforms.
+1. Tato možnost není k dispozici na všech platformách.
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) vám umožňuje synchronizovat vaše data o prohlížení (historie, záložky apod.) na všech zařízeních bez nutnosti mít účet a chrání je pomocí E2EE.
 
-#### Brave Rewards and Wallet
+#### Brave Rewards a Wallet
 
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Brave Rewards** vám umožňuje přijímat kryptoměnu „Basic Attention Token“ (BAT) za provádění určitých činností v Braveu. Závisí na custodiálním účtu a KYC od vybraných poskytovatelů. Nedoporučujeme BAT jako [soukromou kryptoměnu](cryptocurrency.md) ani jako [custodiální peněženku](advanced/payments.md#wallet-custody), takže odrazujeme od používání této funkce.
 
-**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
+**Brave Wallet** funguje lokálně na vašem počítači, ale nepodporuje soukromé kryptoměny, takže také nepodoručujeme používání této funkce.
 
 ## Kritéria
 
-**Upozorňujeme, že nespolupracujeme s žádným z projektů, které doporučujeme.** Kromě [našich standardních kritérií](about/criteria.md) jsme vypracovali jasný seznam požadavků, který nám umožňuje poskytovat objektivní doporučení. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Upozorňujeme, že nespolupracujeme s žádným z projektů, které doporučujeme.** Kromě [našich standardních kritérií](about/criteria.md) jsme vypracovali jasný seznam požadavků, který nám umožňuje poskytovat objektivní doporučení. Doporučujeme, abyste se seznámili s tímto seznamem před tím, než se rozhodnete některý z projektů využít, a také provedli vlastní průzkům, abyste se ujistili, že je pro vás ta správná volba.
 
-### Minimum Requirements
+### Minimální požadavky
 
-- Must be open-source software.
-- Must support automatic updates.
-- Must receive engine updates in 0-1 days from upstream release.
-- Must be available on Linux, macOS, and Windows.
-- Any changes required to make the browser more privacy-respecting must not negatively impact user experience.
-- Must block third-party cookies by default.
-- Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- Musí být open-source software.
+- Musí podporovat automatické aktualizace.
+- Musí dostávat aktualizace enginu ten samý den, nejpozději den po vydání v upstreamu.
+- Musí být dostupný na Linux, macOS a Windows.
+- Žádná změna nutná k tomu, aby prohlížeč více respektoval soukromí, nesmí negativně ovlivnit uživatelský komfort.
+- Musí blokovat cookies třetích stran v základu.
+- Musí podporovat [oddělení stavu](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning), aby se zmírnilo sledování napříč stránkami.[^1]
 
-### Best-Case
+### Oceňované funkce
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Naše kritéria pro oceňované funkce představují, co bychom chtěli vidět u perfektního projektu v této kategorii. Naše doporučení nemusí obsahovat všechny tyto funkce, ale ty, které je obsahují, mohou být na stránce umístěné výše než ostatní.
 
-- Should include built-in content blocking functionality.
-- Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Should support Progressive Web Apps (PWAs). PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps because PWAs benefit from your browser's regular security updates.
-- Should not include add-on functionality (bloatware) that does not impact user privacy.
-- Should not collect telemetry by default.
-- Should provide an open-source sync server implementation.
-- Should default to a [private search engine](search-engines.md).
+- Měly by obsahovat vestavěnou funkci blokování obsahu.
+- Měly by podporovat rozdělování cookies (např. [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
+- Měly by podporovat Progresivní Webové Aplikace (PWA). PWA vám umožňují nainstalovat si určité stránky do počítače, jako by to byly nativní aplikace. To může mít výhody oproti instalaci aplikací založených na Electronu, protože PWA využívají pravidelné bezpečnostní aktualizace vašeho prohlížeče.
+- Neměly by obsahovat doplňkové funkce (bloatware), které nemají vliv na soukromí uživatele.
+- Neměly by ve výchozím nastavení shromažďovat telemetrii.
+- Měly by poskytovat open-source implementaci synchronizačního serveru.
+- Měly by mít přednastavený [soukromý vyhledávač](search-engines.md).
 
-[^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).
+[^1]: Implementace v Brave je podrobně popsána v [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).
