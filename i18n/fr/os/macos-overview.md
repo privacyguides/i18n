@@ -122,7 +122,7 @@ Décidez si vous souhaitez des publicités personnalisées en fonction de votre 
 
 ##### FileVault
 
-On modern devices with a Secure Enclave (Apple T2 Security Chip, Apple Silicon), your data is always encrypted, but is decrypted automatically by a hardware key if your device doesn't detect it's been tampered with. Enabling [FileVault](../encryption.md#filevault) additionally requires your password to decrypt your data, greatly improving security, especially when powered off or before the first login after powering on.
+Sur les appareils modernes dotés d'une Secure Enclave (puce de sécurité T2 Apple, Apple Silicon), vos données sont toujours chiffrées, mais elles sont déchiffrées automatiquement par une clé matérielle si votre appareil ne détecte pas qu'il a été altéré. L'activation de [FileVault](../encryption.md#filevault) requiert en outre votre mot de passe pour déchiffrer vos données, ce qui améliore considérablement la sécurité, en particulier lorsque l'ordinateur est éteint ou avant la première connexion après l'allumage.
 
 Sur les anciens ordinateurs Mac à processeur Intel, FileVault est la seule forme de chiffrement de disque disponible par défaut et doit toujours être activé.
 
@@ -136,13 +136,13 @@ Le [mode Isolement](https://blog.privacyguides.org/2022/10/27/macos-ventura-priv
 
 ### Adresse MAC aléatoire
 
-macOS uses a randomized MAC address when performing Wi-Fi scans while disconnected from a network.
+macOS utilise une adresse MAC aléatoire lorsqu'il effectue des analyses Wi-Fi alors qu'il est déconnecté d'un réseau.
 
-You can set your MAC address to be randomized per network and rotate occasionally to prevent tracking between networks and on the same network over time.
+Vous pouvez configurer votre adresse MAC de manière à ce qu'elle soit aléatoire pour chaque réseau et qu'elle fasse l'objet d'une rotation occasionnelle afin d'empêcher le suivi entre les réseaux et sur le même réseau au fil du temps.
 
-Go to **System Settings** → **Network** → **Wi-Fi** → **Details** and set **Private Wi-Fi address** to either **Fixed** if you want a fixed but unique address for the network you're connected to, or **Rotating** if you want it to change over time.
+Allez dans **Paramètres Système** → **Réseaux** → **Wi-Fi** → **Détails** et réglez l'**adresse Wi-Fi privée** sur **Fixe** si vous souhaitez une adresse fixe mais unique pour le réseau auquel vous êtes connecté, ou sur **Rotation** si vous souhaitez qu'elle change au fil du temps.
 
-Consider changing your hostname as well, which is another device identifier that's broadcast on the network you're connected to. You may wish to set your hostname to something generic like "MacBook Air", "Laptop", "John's MacBook Pro", or "iPhone" in **System Settings** → **General** → **Sharing**. Certains [scripts de confidentialité](https://github.com/sunknudsen/privacy-guides/tree/master/how-to-spoof-mac-address-and-hostname-automatically-at-boot-on-macos#guide) vous permettent de générer facilement des noms d'hôtes avec des noms aléatoires.
+Envisagez également de modifier votre nom d'hôte, qui est un autre identifiant d'appareil diffusé sur le réseau auquel vous êtes connecté. Vous pouvez définir votre nom d'hôte avec quelque chose de générique comme "MacBook Air", "Laptop", "MacBook Pro de John", ou "iPhone" dans **Réglages système** → **Général** → **Partage**. Certains [scripts de confidentialité](https://github.com/sunknudsen/privacy-guides/tree/master/how-to-spoof-mac-address-and-hostname-automatically-at-boot-on-macos#guide) vous permettent de générer facilement des noms d'hôtes avec des noms aléatoires.
 
 ## Protections de sécurité
 
@@ -173,33 +173,33 @@ La protection de l'intégrité du système met en lecture seule les emplacements
 
 ##### Sandbox des applications
 
-On macOS, whether an app is sandboxed is determined by the developer when they sign it. The App Sandbox protects against vulnerabilities in the apps you run by limiting what a malicious actor can access in the event that the app is exploited. The App Sandbox *alone* can't protect against [:material-package-variant-closed-remove: Supply Chain Attacks](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian} by malicious developers. For that, sandboxing needs to be enforced by someone other than the developer themselves, as it is on the App Store.
+Sur macOS, c'est le développeur qui détermine si une application est mise en bac à sable (sandbox) lorsqu'il la signe. L'App Sandbox protège contre les vulnérabilités dans les applications que vous exécutez en limitant ce à quoi un acteur malveillant peut accéder dans le cas où l'application est exploitée. L'App Sandbox ne peut *à lui seul* protéger contre les [:material-package-variant-closed-remove: Attaques de la Chaîne d'Approvisionnement ](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian} par des développeurs malveillants. Dans ce cas de figure, le sandboxing doit être appliqué par quelqu'un d'autre que le développeur lui-même, comme c'est le cas sur l'App Store.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avertissement</p>
 
-Les logiciels téléchargés en dehors de l'App Store officiel n'ont pas besoin d'être placés en sandbox. If your threat model prioritizes defending against [:material-bug-outline: Passive Attacks](../basics/common-threats.md#security-and-privacy){ .pg-orange }, then you may want to check if the software you download outside the App Store is sandboxed, which is up to the developer to *opt in*.
+Les logiciels téléchargés en dehors de l'App Store officiel n'ont pas besoin d'être placés en sandbox. Si votre modèle de menace donne la priorité à la défense contre [:material-bug-outline: Attaques passives](../basics/common-threats.md#security-and-privacy){ .pg-orange }, vous pouvez alors vérifier si le logiciel que vous téléchargez en dehors de l'App Store est en bac à sable (sandbox), ce qui est laissé à l'appréciation du développeur.
 
 </div>
 
-You can check if an app uses the App Sandbox in a few ways:
+Vous pouvez vérifier si une application utilise l'App Sandbox de plusieurs façons :
 
-You can check if apps that are already running are sandboxed using the [Activity Monitor](https://developer.apple.com/documentation/security/protecting-user-data-with-app-sandbox#Verify-that-your-app-uses-App-Sandbox).
+Vous pouvez vérifier si les applications déjà en cours d'exécution sont placées dans un bac à sable à l'aide du [Moniteur d'Activité](https://developer.apple.com/documentation/security/protecting-user-data-with-app-sandbox#Verify-that-your-app-uses-App-Sandbox).
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avertissement</p>
 
-Just because one of an app's processes is sandboxed doesn't mean they all are.
+Attention, ce n'est pas parce que l'un des processus d'une application est sandboxé que tous le sont.
 
 </div>
 
-Alternatively, you can check apps before you run them by running this command in the terminal:
+Vous pouvez aussi vérifier les applications avant de les exécuter en lançant cette commande dans le terminal :
 
 ``` zsh
 codesign -dvvv --entitlements - <path to your app>
 ```
 
-If an app is sandboxed, you should see the following output:
+Si une application est sandboxée, vous devriez obtenir le résultat suivant :
 
 ``` zsh
     [Key] com.apple.security.app-sandbox
@@ -207,11 +207,11 @@ If an app is sandboxed, you should see the following output:
         [Bool] true
 ```
 
-If you find that the app you want to run is not sandboxed, then you may employ methods of [compartmentalization](../basics/common-threats.md#security-and-privacy) such as virtual machines or separate devices, use a similar app that is sandboxed, or choose to not use the non-sandboxed app altogether.
+Si vous constatez que l'application que vous souhaitez utiliser n'est pas sandboxée, vous pouvez utiliser des méthodes de [compartimentage](../basics/common-threats.md#security-and-privacy) telles que des machines virtuelles ou des appareils séparés, utiliser une application similaire qui est sandboxée, ou choisir de ne pas utiliser l'application.
 
-##### Hardened Runtime
+##### Hardened Runtime (exécution renforcée)
 
-The [Hardened Runtime](https://developer.apple.com/documentation/security/hardened_runtime) is an extra form of protection for apps that prevents certain classes of exploits. It improves the security of apps against exploitation by disabling certain features like JIT.
+[L'exécution renforcée](https://developer.apple.com/documentation/security/hardened_runtime) est une forme de protection supplémentaire pour les applications qui empêche certains types d'exploitations. Il améliore la sécurité des applications contre de potentielles exploitations en désactivant certaines fonctions comme le JIT.
 
 You can check if an app uses the Hardened Runtime using this command:
 
@@ -219,15 +219,15 @@ You can check if an app uses the Hardened Runtime using this command:
 codesign -dv <path to your app>
 ```
 
-If Hardened Runtime is enabled, you will see `flags=0x10000(runtime)`. The `runtime` output means Hardened Runtime is enabled. There might be other flags, but the runtime flag is what we're looking for here.
+Si l'option Hardened Runtime est activée, vous verrez `flags=0x10000(runtime)`. La sortie `runtime` signifie que Hardened Runtime est activé. Il peut y avoir d'autres indicateurs, mais c'est l'indicateur runtime qui nous intéresse ici.
 
-You can enable a column in Activity Monitor called "Restricted" which is a flag that prevents programs from injecting code via macOS's [dynamic linker](https://pewpewthespells.com/blog/blocking_code_injection_on_ios_and_os_x.html). Ideally, this should say "Yes".
+Vous pouvez activer une colonne dans Activity Monitor appelée "Restricted", qui est un drapeau empêchant les programmes d'injecter du code via l'[éditeur de liens dynamiques](https://pewpewthespells.com/blog/blocking_code_injection_on_ios_and_os_x.html) de macOS. Idéalement, la réponse devrait être "Oui".
 
 ##### Antivirus
 
 macOS est doté de deux formes de défense contre les logiciels malveillants :
 
-1. La protection contre le lancement de logiciels malveillants est assurée par le processus d'examen des applications de l'App Store, ou *Notarization* (fait partie de *Gatekeeper*), un processus au cours duquel les applications tierces sont analysées par Apple à la recherche de logiciels malveillants connus avant d'être autorisées à s'exécuter. Apps are required to be signed by the developers using a key given to them by Apple. This ensures that you are running software from the real developers. Notarization also requires that developers enable the Hardened Runtime for their apps, which limits methods of exploitation.
+1. La protection contre le lancement de logiciels malveillants est assurée par le processus d'examen des applications de l'App Store, ou *Notarization* (fait partie de *Gatekeeper*), un processus au cours duquel les applications tierces sont analysées par Apple à la recherche de logiciels malveillants connus avant d'être autorisées à s'exécuter. Les applications doivent être signées par les développeurs à l'aide d'une clé fournie par Apple. Cela garantit que vous exécutez des logiciels provenant des vrais développeurs. Notarization also requires that developers enable the Hardened Runtime for their apps, which limits methods of exploitation.
 2. La protection contre les autres logiciels malveillants et la remédiation des logiciels malveillants existants sur votre système sont assurées par *XProtect*, un logiciel antivirus plus traditionnel intégré à macOS.
 
 We recommend against installing third-party antivirus software as they typically do not have the system-level access required to properly function anyway, because of Apple's limitations on third-party apps, and because granting the high levels of access they do ask for often poses an even greater security and privacy risk to your computer.
