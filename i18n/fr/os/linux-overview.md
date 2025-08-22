@@ -1,5 +1,5 @@
 ---
-title: Aperçu de Linux
+title: Sur Linux
 icon: simple/linux
 description: Linux est un système d'exploitation de bureau alternatif open-source, axé sur la protection de la vie privée, mais toutes les distributions ne sont pas égales.
 ---
@@ -20,7 +20,7 @@ Il y a quelques problèmes de sécurité avec Linux dont vous devriez être cons
 
 ### Sécurité de l'open source
 
-It is a [common misconception](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) that Linux and other open-source software are inherently secure simply because the source code is available. On s'attend à ce que la communauté effectue des vérifications régulièrement, mais ce n'est pas toujours [le cas](https://seirdy.one/posts/2022/02/02/floss-security).
+[On croit souvent](../basics/common-misconceptions.md#open-source-software-is-always-secure-or-proprietary-software-is-more-secure) à tort que Linux et d'autres logiciels libres sont intrinsèquement sécurisés simplement parce que le code source est disponible. On s'attend à ce que la communauté effectue des vérifications régulièrement, mais ce n'est pas toujours [le cas](https://seirdy.one/posts/2022/02/02/floss-security).
 
 En réalité, la sécurité d'une distribution dépend d'un certain nombre de facteurs, tels que l'activité du projet, l'expérience des développeurs, le niveau de rigueur appliqué aux révisions de code et l'attention portée à des parties spécifiques de la base de code qui peuvent rester non touchées pendant des années.
 
@@ -30,9 +30,9 @@ En réalité, la sécurité d'une distribution dépend d'un certain nombre de fa
 
 - Le **démarrage vérifié** sur Linux n'est pas aussi robuste que les alternatives telles que le [démarrage sécurisé](https://support.apple.com/guide/security/secac71d5623/web) d'Apple ou le [démarrage vérrifié](https://source.android.com/security/verifiedboot) d'Android. Le démarrage vérifié prévient les altérations persistantes par les logiciels malveillants et les [attaques evil maid](https://en.wikipedia.org/wiki/Evil_Maid_attack), mais il est encore largement [non présent, même sur les distributions les plus avancées](https://discussion.fedoraproject.org/t/has-silverblue-achieved-verified-boot/27251/3).
 
-- Un **sandboxing solide** pour les applications sous Linux fait cruellement défaut, même avec des applications conteneurisées comme Flatpaks ou des solutions de sandboxing comme Firejail. Flatpak is the most promising sandboxing utility for Linux thus far, but is still deficient in many areas and allows for [unsafe defaults](https://flatkill.org/2020) which permit most apps to trivially bypass their sandbox.
+- Un **sandboxing solide** pour les applications sous Linux fait cruellement défaut, même avec des applications conteneurisées comme Flatpaks ou des solutions de sandboxing comme Firejail. Flatpak est l'utilitaire de sandboxing le plus prometteur pour Linux jusqu'à présent, mais il est encore déficient dans de nombreux domaines et permet [des réglages par défaut dangereux](https://flatkill.org/2020) qui permettent à la plupart des applications de contourner trivialement leur sandbox.
 
-En outre, Linux est en retard dans la mise en œuvre de [mesures d'atténuation des exploits](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) qui sont désormais standard sur d'autres systèmes d'exploitation, tels que Arbitrary Code Guard sur Windows ou Hardened Runtime sur macOS. De plus, la plupart des programmes Linux et Linux lui-même sont codés dans des langages peu sûrs pour la mémoire. Les bugs de corruption de la mémoire sont responsables de la [majorité des vulnérabilités](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code) corrigées et affectées d'un CVE. While this is also true for Windows and macOS, they are quickly making progress on adopting memory-safe languages such as Rust and Swift, respectively.
+En outre, Linux est en retard dans la mise en œuvre de [mesures d'atténuation des exploits](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) qui sont désormais standard sur d'autres systèmes d'exploitation, tels que Arbitrary Code Guard sur Windows ou Hardened Runtime sur macOS. De plus, la plupart des programmes Linux et Linux lui-même sont codés dans des langages peu sûrs pour la mémoire. Les bugs de corruption de la mémoire sont responsables de la [majorité des vulnérabilités](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code) corrigées et affectées d'un CVE. Bien que cela soit également vrai pour Windows et macOS, ces derniers progressent rapidement dans l'adoption de langages à sécurité mémoire tels que Rust et Swift, respectivement.
 
 ## Choisir sa distribution
 
@@ -42,19 +42,19 @@ Toutes les distributions Linux ne sont pas créées égales. Notre [page de reco
 
 Nous vous recommandons vivement de choisir des distributions qui restent proches des versions stables des logiciels en amont, souvent appelées distributions à publications continues. En effet, les distributions à cycle de publication gelé ne mettent souvent pas à jour les versions des paquets et prennent du retard sur les mises à jour de sécurité.
 
-Pour les distributions gelées telles que [Debian](https://debian.org/security/faq#handling), les responsables de paquets sont censés importer les correctifs pour corriger les vulnérabilités plutôt que de faire passer le logiciel à la "prochaine version" publiée par le développeur en amont. Some security fixes (particularly for less popular software) [do not](https://arxiv.org/abs/2105.14565) receive a [CVE ID](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) at all and therefore do not make it into the distribution with this patching model. Par conséquent, les correctifs de sécurité mineurs sont parfois reportés à la prochaine version majeure.
+Pour les distributions gelées telles que [Debian](https://debian.org/security/faq#handling), les responsables de paquets sont censés importer les correctifs pour corriger les vulnérabilités plutôt que de faire passer le logiciel à la "prochaine version" publiée par le développeur en amont. Certains correctifs de sécurité (en particulier pour les logiciels moins populaires) ne reçoivent [pas](https://arxiv.org/abs/2105.14565) du tout d'[ID CVE](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures) et ne sont donc pas intégrés dans la distribution avec ce modèle de correctif. Par conséquent, les correctifs de sécurité mineurs sont parfois reportés à la prochaine version majeure.
 
 Nous ne pensons pas que retenir les paquets et appliquer des correctifs provisoires soit une bonne idée, car cela s'écarte de la manière dont le développeur aurait pu vouloir que le logiciel fonctionne. [Richard Brown](https://rootco.de/aboutme) propose une présentation à ce sujet :
 
 - [Regular Releases are Wrong, Roll for your life](https://youtu.be/i8c0mg_mS7U) <small>(YouTube)</small>
 
-### Traditional vs Atomic Updates
+### Mises à jour traditionnelles vs atomiques
 
-Traditionnellement, les distributions Linux se mettent à jour en mettant séquentiellement à jour les paquets souhaités. Traditional updates such as those used in Fedora, Arch Linux, and Debian-based distributions can be less reliable if an error occurs while updating.
+Traditionnellement, les distributions Linux se mettent à jour en mettant séquentiellement à jour les paquets souhaités. Les mises à jour traditionnelles, telles que celles utilisées dans les distributions Fedora, Arch Linux et basée sur Debian, peuvent être moins fiables si une erreur se produit lors de la mise à jour.
 
-Distros which use atomic updates, on the other hand, apply updates in full or not at all. On an atomic distribution, if an error occurs while updating (perhaps due to a power failure), nothing is changed on the system.
+Les distributions qui utilisent les mises à jour atomiques, en revanche, appliquent les mises à jour dans leur intégralité ou pas du tout. Sur une distribution atomique, si une erreur se produit lors de la mise à jour (peut-être à cause d'une panne d'alimentation), rien n'est changé sur le système.
 
-The atomic update method can achieve reliability with this model and is used for [distributions](../desktop.md#atomic-distributions) like Silverblue and NixOS. [Adam Šamalík](https://twitter.com/adsamalik) provides a presentation on how `rpm-ostree` works with Silverblue:
+La méthode de mise à jour atomique permet d'atteindre un plus grande fiabilité grâce à ce modèle et est utilisée pour des [distributions](../desktop.md#atomic-distributions) telles que Silverblue et NixOS. [Adam Šamalík](https://twitter.com/adsamalik) a fait une présentation sur le fonctionnement de `rpm-ostree` avec Silverblue :
 
 - [Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalík](https://youtu.be/-hpV5l-gJnQ) <small>(YouTube)</small>
 
@@ -64,13 +64,14 @@ Il y a souvent une certaine confusion entre les distributions "axées sur la sé
 
 ### Distributions basées sur Arch Linux
 
-Arch et les distributions basées sur Arch ne sont pas recommandées pour ceux qui débutent avec Linux (quelle que soit la distribution) car elles nécessitent [une maintenance régulière du système](https://wiki.archlinux.org/title/System_maintenance). Arch n'a pas de mécanisme de mise à jour de la distribution pour les choix logiciels sous-jacents. As a result you have to stay aware with current trends and adopt technologies on your own as they supersede older practices.
+Arch et les distributions basées sur Arch ne sont pas recommandées pour ceux qui débutent avec Linux (quelle que soit la distribution) car elles nécessitent [une maintenance régulière du système](https://wiki.archlinux.org/title/System_maintenance). Arch n'a pas de mécanisme de mise à jour de la distribution pour les choix logiciels sous-jacents. Par conséquent, vous devez rester au courant des tendances actuelles et adopter vous-même les technologies au fur et à mesure qu'elles remplacent les anciennes pratiques.
 
-For a secure system, you are also expected to have sufficient Linux knowledge to properly set up security for their system such as adopting a [mandatory access control](#mandatory-access-control) system, setting up [kernel module](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security) blacklists, hardening boot parameters, manipulating [sysctl](https://en.wikipedia.org/wiki/Sysctl) parameters, and knowing what components they need such as [Polkit](https://en.wikipedia.org/wiki/Polkit).
+Pour un système sécurisé, vous êtes également censé avoir suffisamment de connaissances sur Linux pour configurer correctement la sécurité de leur système, comme adopter un [système de contrôle d'accès obligatoire](#mandatory-access-control), configurer un [ module de noyau](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security), une liste noire, renforcer les paramètres de démarrage, manipuler les paramètres [sysctl](https://en.wikipedia.org/wiki/Sysctl) et savoir quels composants sont nécessaires comme [Polkit](https://en.wikipedia.org/wiki/Polkit).
 
-Toute personne utilisant le [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **doit** être à l'aise avec l'audit des PKGBUILDs qu'elle télécharge depuis ce service. AUR packages are community-produced content and are not vetted in any way, and therefore are vulnerable to software [:material-package-variant-closed-remove: Supply Chain Attacks](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}, which has in fact happened [in the past](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository).
+Toute personne utilisant le [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **doit** être à l'aise avec l'audit des PKGBUILDs qu'elle télécharge depuis ce service. Les paquets AUR sont des contenus produits par la communauté et ne font l'objet d'aucune vérification. Ils sont donc vulnérables aux
+:material-package-variant-closed-remove: attaques de la chaîne d'approvisionnement des logiciels, ce qui s'est d'ailleurs produit [dans le passé](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository).</p> 
 
-Le AUR doit toujours être utilisé avec parcimonie, et l'on trouve souvent de nombreux mauvais conseils sur diverses pages qui incitent les gens à utiliser aveuglément [AUR helpers](https://wiki.archlinux.org/title/AUR_helpers) sans avertissement suffisant. Similar warnings apply to the use of third-party Personal Package Archives (PPAs) on Debian-based distributions or Community Projects (COPR) on Fedora.
+Le AUR doit toujours être utilisé avec parcimonie, et l'on trouve souvent de nombreux mauvais conseils sur diverses pages qui incitent les gens à utiliser aveuglément [AUR helpers](https://wiki.archlinux.org/title/AUR_helpers) sans avertissement suffisant. Des avertissements similaires s'appliquent à l'utilisation des Archives de Paquets Personnels (PPAs) conçu par de tiers sur les distributions basées sur Debian ou des Projets Communautaires (COPR) sur Fedora.
 
 Si vous avez de l'expérience avec Linux et que vous souhaitez utiliser une distribution basée sur Arch, nous recommandons généralement la version principale d'Arch Linux plutôt que l'un de ses dérivés.
 
@@ -79,23 +80,33 @@ En outre, nous ne recommandons particulièrement **pas** ces deux dérivés d'Ar
 - **Manjaro**: cette distribution bloque les mises à jour des paquets pendant 2 semaines pour s'assurer que leurs propres changements ne cassent pas, et non pas pour s'assurer que l'amont est stable. Lorsque des paquets AUR sont utilisés, ils sont souvent construits avec les dernières [bibliothèques](https://en.wikipedia.org/wiki/Library_(computing)) des dépôts d'Arch.
 - **Garuda**: ils utilisent [Chaotic-AUR](https://aur.chaotic.cx) qui compile automatiquement et aveuglément les paquets de l'AUR. Il n'existe aucun processus de vérification pour s'assurer que les paquets AUR ne souffrent pas d'attaques de la chaîne d'approvisionnement.
 
+
+
 ### Le noyau Linux-libre et les distributions "libres"
 
 Nous vous **déconseillons d'**utiliser le noyau Linux-libre, car il [supprime les mesures d'atténuation de la sécurité](https://phoronix.com/news/GNU-Linux-Libre-5.7-Released) et les [avertissements du noyau](https://news.ycombinator.com/item?id=29674846) concernant le microcode vulnérable.
 
-### Mandatory access control
 
-Mandatory access control is a set of additional security controls which help to confine parts of the system such as apps and system services. The two common forms of mandatory access control found in Linux distributions are [SELinux](https://github.com/SELinuxProject) and [AppArmor](https://apparmor.net). Fedora and Tumbleweed use SELinux by default, with Tumbleweed offering an option in its installer to choose AppArmor instead.
 
-SELinux on [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-getting-started) confines Linux containers, virtual machines, and service daemons by default. AppArmor is used by the snap daemon for [sandboxing](https://snapcraft.io/docs/security-sandboxing) snaps which have [strict](https://snapcraft.io/docs/snap-confinement) confinement such as [Firefox](https://snapcraft.io/firefox). There is a community effort to confine more parts of the system in Fedora with the [ConfinedUsers](https://fedoraproject.org/wiki/SIGs/ConfinedUsers) special interest group.
+### Contrôle d'Accès Obligatoire
+
+Le contrôle d'accès obligatoire est un ensemble de contrôles de sécurité supplémentaires qui permettent de confiner certaines parties du système, telles que les applications et les services système. Les deux formes les plus courantes de contrôle d'accès obligatoire que l'on trouve dans les distributions Linux sont [SELinux](https://github.com/SELinuxProject) et [AppArmor](https://apparmor.net). Fedora et Tumbleweed utilisent SELinux par défaut, Tumbleweed offrant une option dans son programme d'installation pour choisir AppArmor à la place.
+
+SELinux sur [Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-getting-started) confine par défaut les conteneurs Linux, les machines virtuelles et les daemons de service. AppArmor est utilisé par le daemon snap pour le [sandboxing](https://snapcraft.io/docs/security-sandboxing) des snaps qui ont un confinement [strict](https://snapcraft.io/docs/snap-confinement) comme [Firefox](https://snapcraft.io/firefox). La communauté s'efforce de confiner davantage de parties du système dans Fedora avec le groupe d'intérêt spécial [ConfinedUsers](https://fedoraproject.org/wiki/SIGs/ConfinedUsers).
+
+
 
 ## Recommandations générales
 
+
+
 ### Chiffrement de disque
 
-La plupart des distributions Linux ont une option dans leur installateur pour activer [LUKS](../encryption.md#linux-unified-key-setup) FDE. If this option isn’t set at installation time, you will have to back up your data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning), but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. Nous vous suggérons également d'effacer de façon sécurisée votre dispositif de stockage :
+La plupart des distributions Linux ont une option dans leur installateur pour activer [LUKS](../encryption.md#linux-unified-key-setup) FDE. Si cette option n'est pas définie au moment de l'installation, vous devrez sauvegarder vos données et réinstaller, car le chiffrement est appliqué après le [partitionnement du disque](https://en.wikipedia.org/wiki/Disk_partitioning), mais avant le formatage des [systèmes de fichiers](https://en.wikipedia.org/wiki/File_system). Nous vous suggérons également d'effacer de façon sécurisée votre dispositif de stockage :
 
 - [Effacement sécurisé des données :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/05/25/secure-data-erasure)
+
+
 
 ### Swap
 
@@ -103,11 +114,15 @@ Envisagez d'utiliser [ZRAM](https://wiki.archlinux.org/title/Zram#Using_zram-gen
 
 Si vous avez besoin d'une fonctionnalité de suspension sur disque (hibernation), vous devrez toujours utiliser un fichier ou une partition swap. Veillez à ce que l'espace swap que vous avez sur un périphérique de stockage persistant soit au minimum [chiffré](https://wiki.archlinux.org/title/Dm-crypt/Swap_encryption) afin d'atténuer certaines de ces menaces.
 
+
+
 ### Micrologiciel propriétaire (mises à jour du microcode)
 
 Certaines distributions Linux (telles que les distributions basées sur [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre)ou les distributions DIY) ne sont pas livrées avec les mises à jour propriétaires du [microcode](https://en.wikipedia.org/wiki/Microcode) qui corrigent les failles de sécurité critiques. Parmi les exemples notables de ces vulnérabilités figurent [Spectre](https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)), [Meltdown](https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)), [SSB](https://en.wikipedia.org/wiki/Speculative_Store_Bypass), [Foreshadow](https://en.wikipedia.org/wiki/Foreshadow), [MDS](https://en.wikipedia.org/wiki/Microarchitectural_Data_Sampling), [SWAPGS](https://en.wikipedia.org/wiki/SWAPGS_(security_vulnerability)) et d'autres [vulnérabilités matérielles](https://kernel.org/doc/html/latest/admin-guide/hw-vuln/index.html).
 
-Nous **recommandons vivement** d'installer les mises à jour du microcode, car elles contiennent d'importants correctifs de sécurité pour l'unité centrale qui ne peuvent pas être entièrement atténués par le logiciel seul. Fedora and openSUSE both apply microcode updates by default.
+Nous **recommandons vivement** d'installer les mises à jour du microcode, car elles contiennent d'importants correctifs de sécurité pour l'unité centrale qui ne peuvent pas être entièrement atténués par le logiciel seul. Fedora et openSUSE appliquent tous deux des mises à jour du microcode par défaut.
+
+
 
 ### Mises à jour
 
@@ -117,20 +132,26 @@ Certaines distributions (en particulier celles destinées aux utilisateurs avanc
 
 En outre, certaines distributions ne téléchargent pas automatiquement les mises à jour du micrologiciel. Pour cela, vous devez installer [`fwupd`](https://wiki.archlinux.org/title/Fwupd).
 
-### Permission Controls
 
-Desktop environments (DEs) that support the [Wayland](https://wayland.freedesktop.org) display protocol are [more secure](https://lwn.net/Articles/589147) than those that only support X11. However, not all DEs take full advantage of Wayland's architectural security improvements.
 
-For example, GNOME has a notable edge in security compared to other DEs by implementing permission controls for third-party software that tries to [capture your screen](https://gitlab.gnome.org/GNOME/gnome-shell/-/issues/3943). That is, when a third-party application attempts to capture your screen, you are prompted for your permission to share your screen with the app.
+### Contrôles des autorisations
+
+Les environnements de bureau (Desktop Environnements ou DE) qui prennent en charge le protocole d'affichage [Wayland](https://wayland.freedesktop.org) sont [plus sûrs](https://lwn.net/Articles/589147) que ceux qui ne prennent en charge que X11. Cependant, toutes les DE ne tirent pas pleinement parti des améliorations architecturales de Wayland en matière de sécurité.
+
+Par exemple : GNOME dispose d'un avantage notable en matière de sécurité par rapport aux autres DEs en implémentant des contrôles d'autorisations pour des logiciels tiers qui tentent de [capturer votre écran](https://gitlab.gnome.org/GNOME/gnome-shell/-/issues/3943). Ainsi, lorsqu'une application tierce tente de capturer votre écran, vous êtes invité à autoriser le partage de votre écran avec l'application.
 
 <figure markdown>
-  ![Screenshot permissions](../assets/img/linux/screenshot_permission.png){ width="450" }
-  <figcaption>GNOME's screenshot permission dialog</figcaption>
+  ![Permissions de capture d'écran](../assets/img/linux/screenshot_permission.png){ width="450" }
+  <figcaption>Dialogue de permission de capture d'écran de GNOME</figcaption>
 </figure>
 
-Many alternatives don't provide these same permission controls yet,[^1] while some are waiting for Wayland to implement these controls upstream.[^2]
+De nombreuses alternatives n'offrent pas encore ces mêmes contrôles d'autorisation,[^1] tandis que d'autres attendent que Wayland implémente ces contrôles en amont.[^2]
+
+
 
 ## Ajustements de confidentialité
+
+
 
 ### Adresse MAC aléatoire
 
@@ -144,6 +165,8 @@ Si vous utilisez [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancill
 
 La randomisation des adresses MAC est principalement bénéfique pour les connexions Wi-Fi. Pour les connexions Ethernet, la randomisation de l'adresse MAC ne présente que peu d'avantages (voire aucun), car un administrateur de réseau peut trivialement identifier votre appareil par d'autres moyens (par exemple en inspectant le port auquel vous êtes connecté sur le commutateur du réseau). Rendre aléatoire les adresses MAC Wi-Fi dépend de la prise en charge par le micrologiciel du Wi-Fi.
 
+
+
 ### Autres identifiants
 
 Il existe d'autres identifiants de système auxquels vous devez faire attention. Vous devriez y réfléchir pour voir si cela s'applique à votre [modèle de menace](../basics/threat-modeling.md) :
@@ -152,13 +175,21 @@ Il existe d'autres identifiants de système auxquels vous devez faire attention.
 - **Noms d'utilisateur :** De même, votre nom d'utilisateur est utilisé de diverses manières dans votre système. Envisagez d'utiliser des termes génériques comme "utilisateur" plutôt que votre nom réel.
 - **Identifiant machine :** Pendant l'installation, un identifiant machine unique est généré et stocké sur votre appareil. Envisagez de [le régler sur un identifiant générique](https://madaidans-insecurities.github.io/guides/linux-hardening.html#machine-id).
 
+
+
 ### Comptage des systèmes
 
 Le projet Fedora [compte](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting) le nombre de systèmes uniques qui accèdent à ses miroirs en utilisant une variable [`countme`](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting#Detailed_Description) au lieu d'un identifiant unique. Fedora fait cela pour déterminer la charge et fournir de meilleurs serveurs pour les mises à jour si nécessaire.
 
-Cette [option](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) est actuellement désactivée par défaut. Nous recommandons d'ajouter `countme=false` à `/etc/dnf/dnf.conf` juste au cas où il serait activé dans le futur. On systems that use `rpm-ostree` such as Silverblue, the `countme` option is disabled by masking the [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems) timer.
+Cette [option](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) est actuellement désactivée par défaut. Nous recommandons d'ajouter `countme=false` à `/etc/dnf/dnf.conf` juste au cas où il serait activé dans le futur. Sur les systèmes qui utilisent `rpm-ostree` tels que Silverblue, l'option `countme` est désactivée en masquant le timer [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems).
 
 openSUSE utilise également un [identifiant unique](https://en.opensuse.org/openSUSE:Statistics) pour compter les systèmes, qui peut être désactivé en vidant le fichier `/var/lib/zypp/AnonymousUniqueId`.
 
-[^1]: KDE currently has an open proposal to add controls for screen captures: <https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/issues/7>
-[^2]: Sway is waiting to add specific security controls until they "know how security as a whole is going to play out" in Wayland: <https://github.com/swaywm/sway/issues/5118#issuecomment-600054496>
+
+
+[^1]:    
+    KDE a actuellement une proposition ouverte pour ajouter des contrôles pour les captures d'écran : [:](https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/issues/7) https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/issues/7
+
+
+[^2]:    
+    Sway attend de "savoir comment la sécurité dans son ensemble va jouer" pour ajouter des contrôles de sécurité spécifiques dans Wayland : [:](https://github.com/swaywm/sway/issues/5118#issuecomment-600054496) https://github.com/swaywm/sway/issues/5118#issuecomment-600054496

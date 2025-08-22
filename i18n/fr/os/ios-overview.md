@@ -109,11 +109,11 @@ Il est important d'installer fréquemment les **mises à jour logicielles** pour
 
 - [x] Sélectionnez **AirDrop** → **Réception désactivée**
 
-**AirPlay** vous permet de diffuser de manière transparente du contenu de votre iPhone vers un téléviseur, mais vous n'en avez pas toujours besoin. Select **AirPlay & Continuity** → **Automatically AirPlay**:
+**AirPlay** vous permet de diffuser de manière transparente du contenu de votre iPhone vers un téléviseur, mais vous n'en avez pas toujours besoin. Sélectionnez **AirPlay & Continuité** → **AirPlay Automatiquement** :
 
 - [x] Sélectionnez **Jamais** ou **Demander**
 
-**Actualisation des applications en arrière-plan** permet à vos applications d'actualiser leur contenu lorsque vous ne les utilisez pas. Cela peut les amener à établir des connexions non souhaitées. Turning this off can also save battery life, but may affect an app's ability to receive updated information, particularly weather and messaging apps.
+**Actualisation des applications en arrière-plan** permet à vos applications d'actualiser leur contenu lorsque vous ne les utilisez pas. Cela peut les amener à établir des connexions non souhaitées. Désactiver cette option peut permettre d'économiser la durée de vie de la batterie, mais peut affecter la capacité d'une application à recevoir des informations à jour, en particulier les applications météo et de messagerie.
 
 Sélectionnez **Actualisation des applications en arrière-plan** et désactivez toutes les applications que vous ne souhaitez pas voir actualisées en arrière-plan. Si vous ne souhaitez pas qu'une application soit actualisée en arrière-plan, vous pouvez sélectionner à nouveau **Actualisation des applications en arrière-plan** et la **désactiver**.
 
@@ -125,21 +125,21 @@ Si vous ne voulez pas que quelqu'un puisse contrôler votre téléphone avec Sir
 
 #### Face ID/Touch ID et code
 
-Définir un mot de passe fort pour votre téléphone est la mesure la plus importante que vous puissiez prendre pour assurer la sécurité physique de votre appareil. You'll have to make trade-offs here between security and convenience: A longer password will be annoying to type in every time, but a shorter password or PIN will be easier to guess. Configurer Face ID ou Touch ID avec un mot de passe fort peut être un bon compromis entre convivialité et sécurité.
+Définir un mot de passe fort pour votre téléphone est la mesure la plus importante que vous puissiez prendre pour assurer la sécurité physique de votre appareil. Vous devrez faire des compromis entre la sécurité et la commodité : un mot de passe plus long sera fastidieux à saisir à chaque fois, mais un mot de passe ou un code PIN plus court sera plus facile à deviner. Configurer Face ID ou Touch ID avec un mot de passe fort peut être un bon compromis entre convivialité et sécurité.
 
-Select **Turn Passcode On** or **Change Passcode** → **Passcode Options** → **Custom Alphanumeric Code**. Veillez à créer un [mot de passe sûr](../basics/passwords-overview.md).
+Sélectionnez **Activer le code d'accès** ou **Modifier le code d'accès**  **Options du code d'accès**  **Code alphanumérique personnalisé**. Veillez à créer un [mot de passe sûr](../basics/passwords-overview.md).
 
 Si vous souhaitez utiliser Face ID ou Touch ID, vous pouvez le configurer maintenant. Votre téléphone utilisera le mot de passe que vous avez défini précédemment comme solution de secours en cas d'échec de la vérification biométrique. Les méthodes de déverrouillage biométrique existent principalement pour la commodité, même si elles empêchent les caméras de surveillance ou les personnes de vous regarder saisir votre code d'accès par-dessus votre épaule.
 
 Si vous utilisez les déverouillages biométriques, vous devez savoir comment les désactiver rapidement en cas d'urgence. Maintenir enfoncé le bouton latéral ou le bouton d'alimentation et *l'un* des boutons de volume jusqu'à ce que vous voyiez le curseur Glisser pour éteindre désactivera la biométrie, exigeant votre code d'accès pour déverrouiller. Votre code d'accès sera également requis après le redémarrage de l'appareil.
 
-On some older devices, you may have to press the power button five times to disable biometrics instead, or for devices with Touch ID, you may just have to hold down the power button and nothing else. Make sure you try this in advance, so you know which method works for your device.
+Sur certains appareils plus anciens, vous devrez peut-être appuyer cinq fois sur le bouton d'alimentation pour désactiver la biométrie ou, pour les appareils dotés de Touch ID, il vous suffira uniquement de maintenir le bouton d'alimentation enfoncé. Assurez-vous faire un essai préalable afin de savoir quelle méthode fonctionne pour votre appareil.
 
-**Stolen Device Protection** adds additional security intended to protect your personal data if your device is stolen while unlocked. If you use biometrics and the Find My Device feature in your Apple Account settings, we recommend enabling this new protection:
+**Protection en cas de vol de l’appareil** est une nouvelle fonctionnalité d'iOS  qui ajoute une sécurité supplémentaire destinée à protéger vos données personnelles si votre appareil est volé lorsqu'il est déverrouillé. Si vous utilisez la biométrie et la fonction Localiser dans vos réglages Apple ID, nous vous recommandons d'activer cette nouvelle protection :
 
 - [x] Sélectionnez **Activer la protection**
 
-After enabling Stolen Device Protection, [certain actions](https://support.apple.com/HT212510) will require biometric authentication without a password fallback (in the event that a shoulder surfer has obtained your PIN), such as using password autofill, accessing payment information, and disabling Lost Mode. It also adds a security delay to certain actions performed away from your home or another "familiar location," such as requiring a 1-hour timer to reset your Apple Account password or sign out of your Apple Account. Ce délai a pour but de vous donner le temps d'activer le mode Perdu et de sécuriser votre compte avant qu'un voleur ne puisse réinitialiser votre appareil.
+Après avoir activé la protection en cas de vol de l’appareil, [certaines actions](https://support.apple.com/HT212510) nécessiteront une authentification biométrique sans possibilité de recourir au mot de passe (dans le cas où un passant obtient votre code PIN), comme l'utilisation du remplissage des mots de passe, l'accès aux informations de paiement et la désactivation du mode Perdu. Cela ajoute également un délai de sécurité pour certaines actions effectuées en dehors de votre domicile ou d'un autre "lieu familier", comme la nécessité d'un délai d'une heure pour réinitialiser votre mot de passe Apple ID ou vous déconnecter de votre Apple ID. Ce délai a pour but de vous donner le temps d'activer le mode Perdu et de sécuriser votre compte avant qu'un voleur ne puisse réinitialiser votre appareil.
 
 **Autoriser l'accès lorsque le téléphone est verrouillé** vous offre des options pour définir ce que vous pouvez autoriser lorsque votre téléphone est verrouillé. Plus vous désactivez d'options, moins quelqu'un qui n'a pas votre mot de passe peut faire de choses, mais moins c'est pratique pour vous. Choisissez les éléments auxquels vous ne voulez pas que quelqu'un ait accès s'il met la main sur votre téléphone.
 
@@ -171,23 +171,23 @@ Les **services de localisation** vous permettent d'utiliser des fonctions telles
 
 - [ ] Désactivez **Services de localisation**
 
-A purple arrow will appear next to an app in these settings that has used your location recently, while a gray arrow indicates that your location has been accessed within the last 24 hours. If you decide to leave Location Services on, Apple will use it for System Services by default. You can review and pick which services can use your location here. However, if you don't want to submit location analytics to Apple, which they use to improve Apple Maps, you can disable this here as well. Select **System Services**:
+Une flèche violette apparaîtra à côté d'une application dans ces paramètres qui a récemment utilisé votre position alors qu'une flèche grise indique que votre emplacement a été accédé au cours des dernières 24 heures. Si vous décidez de laisser les services de localisation activés, Apple les utilisera par défaut pour les services système. Ici, vous pouvez également passer en revue et choisir les applications qui peuvent utiliser votre position. Toutefois, si vous ne souhaitez pas transmettre à Apple des données d'analyse relatives à la localisation, qui sont utilisées pour améliorer Apple Maps, vous pouvez également désactiver cette option ici. Sélectionnez **Services système**:
 
-- [ ] Turn off **iPhone Analytics**
-- [ ] Turn off **Routing & Traffic**
-- [ ] Turn off **Improve Maps**
+- [ ] Désactiver **iPhone Analytics**
+- [ ] Désactiver **Router & Trafic**
+- [ ] Désactiver **Améliorer Apple Maps**
 
 Vous pouvez décider ici d'autoriser les applications à demander à vous **suivre**. La désactivation de cette fonction empêche toutes les applications de vous suivre à l'aide de l'identifiant publicitaire de votre téléphone. Sélectionnez **Suivi** :
 
 - [ ] Désactivez **Autoriser les demandes de suivi des apps**
 
-This is disabled by default and cannot be changed for users under 18.
+Cette option est désactivée par défaut et ne peut être modifiée pour les utilisateurs de moins de 18 ans.
 
 Vous devriez désactiver **Données de capteur et d’utilisation à des fins de recherche** si vous ne souhaitez pas participer à des études. Sélectionnez **Données de capteur et d’utilisation à des fins de recherche** :
 
 - [ ] Désactivez **Collecte de données de capteur et d'utilisation**
 
-**Contrôle de sécurité** vous permet de visualiser et de révoquer rapidement certaines personnes et applications qui pourraient avoir l'autorisation d'accéder à vos données. Here you can perform an **Emergency Reset**, immediately resetting permissions for all people and apps which might have access to device resources. You can also **Manage Sharing & Access** which allows you to go through and customize who and what has access to your device and account resources.
+**Contrôle de sécurité** vous permet de visualiser et de révoquer rapidement certaines personnes et applications qui pourraient avoir l'autorisation d'accéder à vos données. Vous pouvez y effectuer une **Réinitialisation d'Urgence**, qui réinitialise immédiatement les autorisations de toutes les personnes et applications susceptibles d'avoir accès aux ressources de l'appareil. Vous pouvez également **Gérer le partage & Accès** qui vous permet de personnaliser qui et quoi a accès à votre appareil et à vos ressources de compte.
 
 Vous devriez désactiver l'analyse si vous ne souhaitez pas envoyer de données d'utilisation à Apple. Sélectionnez **Analyse et améliorations** :
 

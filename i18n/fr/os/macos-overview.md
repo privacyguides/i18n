@@ -1,12 +1,12 @@
 ---
-title: macOS Overview
+title: Sur macOS
 icon: material/apple-finder
 description: macOS est le système d'exploitation d'Apple pour ordinateurs de bureau fonctionnant avec leur propre matériel pour assurer une sécurité renforcée.
 ---
 
 **macOS** est un système d'exploitation Unix développé par Apple pour leurs ordinateurs Mac. Pour améliorer la confidentialité de macOS, il est possible de désactiver la télémétrie et renforcer les paramètres existants de confidentialité et de sécurité.
 
-Les anciens Mac à base de processeur Intel et les Hackintosh ne prennent pas en charge toutes les fonctions de sécurité offertes par macOS. To enhance data security, we recommend using a newer Mac with [Apple Silicon](https://support.apple.com/HT211814).
+Les anciens Mac à base de processeur Intel et les Hackintosh ne prennent pas en charge toutes les fonctions de sécurité offertes par macOS. Pour améliorer la sécurité des données, nous recommandons d'utiliser un Mac plus récent avec [Apple Silicon](https://support.apple.com/HT211814).
 
 ## Remarques concernant la vie privée
 
@@ -14,13 +14,13 @@ macOS pose quelques problèmes importants en matière de protection de la vie pr
 
 ### Verrouillage d'activation
 
-Brand-new Apple Silicon devices can be set up without an internet connection. Cependant, la récupération ou la réinitialisation de votre Mac **nécessitera** une connexion internet aux serveurs d'Apple pour vérifier la base de données Verrouillage d'activation des appareils perdus ou volés.
+Les nouveaux appareils Apple Silicon peuvent être configurés sans connexion internet. Cependant, la récupération ou la réinitialisation de votre Mac **nécessitera** une connexion internet aux serveurs d'Apple pour vérifier la base de données Verrouillage d'activation des appareils perdus ou volés.
 
 ### Contrôles de révocation des applications
 
 macOS effectue des contrôles en ligne lorsque vous ouvrez une application afin de vérifier si elle contient des logiciels malveillants connus et si le certificat de signature du développeur a été révoqué.
 
-Apple's OCSP service uses HTTPS encryption, so only they are able to see which apps you open. They've [posted information](https://support.apple.com/HT202491) about their logging policy for this service. They additionally [promised](http://lapcatsoftware.com/articles/2024/8/3.html) to add a mechanism for people to opt-out of this online check, but this has not been added to macOS.
+Le service OCSP d'Apple utilise le chiffrement HTTPS, de sorte que seul Apple soit en mesure de voir quelles applications vous ouvrez. Ils ont [publié des informations](https://support.apple.com/HT202491) sur leur politique de journalisation pour ce service. Ils ont également [promis](http://lapcatsoftware.com/articles/2024/8/3.html) d'ajouter un mécanisme permettant aux personnes de refuser ce contrôle en ligne, mais celui-ci n'a pas été ajouté à macOS.
 
 Bien que vous [puissiez](https://eclecticlight.co/2021/02/23/how-to-run-apps-in-private) désactiver manuellement cette vérification assez facilement, nous vous déconseillons de le faire à moins que les vérifications de révocation effectuées par macOS ne vous compromettent gravement, car elles jouent un rôle important en empêchant l'exécution d'applications compromises.
 
@@ -34,11 +34,11 @@ Si vous utilisez un deuxième compte, il n'est pas strictement nécessaire de vo
 
 ### iCloud
 
-Lorsque vous utilisez des services Apple comme iCloud, la plupart de vos informations sont stockées sur leurs serveurs et sécurisées par des clés *auxquelles Apple a accès* par défaut. This is called [Standard Data Protection](https://support.apple.com/en-us/102651) by Apple.
+Lorsque vous utilisez des services Apple comme iCloud, la plupart de vos informations sont stockées sur leurs serveurs et sécurisées par des clés *auxquelles Apple a accès* par défaut. C'est ce qu'Apple appelle la [Protection Standard des Données](https://support.apple.com/en-us/102651).
 
 Par conséquent, si vous utilisez iCloud, vous devriez [activer la**Protection avancée des données**](https://support.apple.com/HT212520). Cela permet de chiffrer la quasi-totalité de vos données iCloud à l'aide de clés stockées sur vos appareils (chiffrement de bout en bout), plutôt que sur les serveurs d'Apple, de sorte que vos données iCloud sont sécurisées en cas de fuite de données, et qu'elles sont par ailleurs cachées à Apple.
 
-If you want to be able to install apps from the App Store but don't want to enable iCloud, you can sign in to your Apple Account from the App Store instead of **System Settings**.
+Si vous souhaitez pouvoir installer des applications à partir de l'App Store mais que vous ne voulez pas activer iCloud, vous pouvez vous connecter à votre compte Apple à partir de l'App Store plutôt qu'à partir des **Réglages du Système**.
 
 ### Paramètres systèmes
 
@@ -54,9 +54,9 @@ Selon que vous utilisez **Wi-Fi** ou **Ethernet** (indiqué par un point vert et
 
 Cliquez sur le bouton "Détails" à côté du nom de votre réseau :
 
-- [x] Select **Rotating** under **Private Wi-Fi address**
+- [x] Sélectionnez **Rotation** sous **Adresse Wi-Fi privée**
 
-- [x] Check **Limit IP address tracking**
+- [x] Cochez **Limiter le pistage des adresses IP**
 
 ##### Pare-feu
 
