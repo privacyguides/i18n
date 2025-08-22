@@ -63,54 +63,54 @@ Android défini trois [classes de sécurité](https://source.android.com/docs/se
 
 ### Chiffrement de l'appareil
 
-If your device is [encrypted](../encryption.md), your data is most secure when your device is completely powered off (as opposed to merely asleep), i.e. before you've entered your encryption key or lock screen password for the first time. On phones, this state of higher security is referred to as "Before First Unlock" (BFU), and "After First Unlock" (AFU) once you enter the correct password after a reboot/power-on. AFU is considerably less secure against digital forensics toolkits and other exploits, compared to BFU. Therefore, if you are concerned about an attacker with physical access to your device, you should turn it off fully whenever you aren't using it.
+Si votre appareil est [chiffré] (../encryption.md), vos données sont mieux protégées lorsque votre appareil est complètement éteint (et non simplement endormi), c'est-à-dire avant que vous n'ayez saisi votre clé de chiffrement ou le mot de passe de l'écran de verrouillage pour la première fois. Sur les téléphones, cet état de sécurité accrue est appelé "Before First Unlock" (BFU), et "After First Unlock" (AFU) une fois que vous avez saisi le bon mot de passe après un redémarrage ou une mise sous tension. Par rapport au BFU, l'AFU est nettement moins sécurisé contre les outils de criminalistique numérique ou autres attaques. Par conséquent, si vous craignez qu'un pirate ait un accès physique à votre appareil, vous devriez l'éteindre complètement lorsque vous ne l'utilisez pas.
 
-This may be impractical, so consider whether it's worth it, but in either case even AFU mode is effective against most threats, given you are using a strong encryption key.
+Cela peut s'avérer peu pratique, il convient donc de se demander si cela en vaut la peine, mais dans tous les cas, même le mode AFU est efficace contre la plupart des menaces, à condition que vous utilisiez une clé de chiffrement forte.
 
 ## External Hardware
 
-Some threats can't be protected against by your internal components alone. Many of these options are highly situational; please evaluate if they are really necessary for your threat model.
+Les composants internes ne suffisent pas à eux seuls à se protéger contre certaines menaces. Bon nombre de ces options sont hautement situationnelles ; veuillez évaluer si elles sont vraiment nécessaires pour votre modèle de menace.
 
 ### Clés de sécurité matérielles
 
-Hardware keys are devices that use strong cryptography to authenticate you to a device or account. The idea is that because they can not be copied, you can use them to secure accounts in such a way that they can only be accessed with physical possession of the key, eliminating many remote attacks.
+Les clés matérielles sont des dispositifs qui utilisent une cryptographie forte pour vous authentifier auprès d'un appareil ou d'un compte. L'idée est que, comme elles ne peuvent pas être copiées, vous pouvez les utiliser pour sécuriser des comptes de manière à ce qu'ils ne soient accessibles qu'en cas de possession physique de la clé, ce qui élimine de nombreuses attaques à distance.
 
-[Recommended Hardware Keys :material-arrow-right-drop-circle:](../security-keys.md){ .md-button .md-button--primary } [Learn More about Hardware Keys :material-arrow-right-drop-circle:](multi-factor-authentication.md#hardware-security-keys){ .md-button }
+[Clés matérielles recommandées :material-arrow-right-drop-circle:](../security-keys.md){ .md-button .md-button--primary } [En savoir plus sur les clés matérielles :material-arrow-right-drop-circle:](multi-factor-authentication.md#hardware-security-keys){ .md-button }
 
-### Camera/Microphone
+### Caméra/Microphone
 
-If you don't want to trust your OS's permission controls to prevent the camera from activating in the first place, you can buy camera blockers that physically prevent light from reaching the camera. You could also buy a device that doesn't have a built-in camera and use an external camera that you can unplug whenever you're done using it. Some devices come with built-in camera blockers or hardware switches that physically disconnect the camera from power.
+Si vous ne voulez pas faire confiance aux contrôles d'autorisation de votre système d'exploitation pour empêcher l'activation de la caméra, vous pouvez acheter des bloqueurs de caméra qui empêchent physiquement la lumière d'atteindre la caméra. Vous pouvez également acheter un appareil qui n'a pas de caméra intégrée et utiliser une caméra externe que vous pouvez débrancher lorsque vous avez fini de l'utiliser. Certains appareils sont équipés de bloqueurs de caméra intégrés ou de commutateurs matériels qui déconnectent physiquement l'alimentation de la caméra.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avertissement</p>
 
-You should only buy covers that fit your laptop and won't cause damage when you close the lid. Covering the camera will interfere with automatic brightness and face authentication features.
+N'achetez que des caches de caméra adaptés à votre ordinateur portable et qui ne risquent pas d'être endommagées lorsque vous fermez le couvercle. Cacher la caméra interfère avec le réglage automatique de la luminosité et les fonctions de reconnaissance faciale.
 
 </div>
 
-For microphone access, in most cases you will need to trust your OS's built-in permission controls. Alternatively, buy a device that doesn't have a built-in microphone and use an external microphone that you can unplug when you're done using it. Some devices, like a [MacBook or an iPad](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web), feature a hardware disconnect for the microphone when you close the lid.
+Pour l'accès au microphone, vous devrez dans la plupart des cas vous fier aux contrôles d'autorisation intégrés à votre système d'exploitation. Vous pouvez également acheter un appareil qui n'a pas de microphone intégré et utiliser un micro externe que vous pouvez débrancher lorsque vous avez fini de l'utiliser. Certains appareils, comme [un MacBook ou un iPad](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web), sont dotés d'une déconnexion matérielle du microphone lorsque vous fermez le couvercle.
 
-Many computers have a BIOS option to disable the camera and microphone. When disabled there, the hardware won't even appear as a device on a booted system.
+De nombreux ordinateurs disposent d'une option BIOS permettant de désactiver la caméra et le microphone. Lorsqu'il est désactivé, le matériel n'apparaît même pas en tant que périphérique sur un système démarré.
 
-### Privacy Screens
+### Écrans de confidentialité
 
-Privacy screens are a film you can put over your normal screen so that the screen is only visible from a certain angle. These are good if your threat model includes others peeking at your screen, but it is not foolproof as anyone could just move to a different viewing angle and see what's on your screen.
+Les écrans de confidentialité sont des films que vous pouvez poser sur votre écran de manière à ce que celui ci ne soit visible que sous un certain angle. Ils peuvent être utiles si votre modèle de menace inclut que d'autres personnes regardent votre écran sans votre consentement, mais ils ne sont pas infaillibles car n'importe qui peut simplement changer d'angle de vue et voir ce qui s'affiche sur votre écran.
 
 ### Dead Man's Switches
 
-A dead man's switch stops a piece of machinery from operating without the presence of a human operator. These were originally designed as a safety measure, but the same concept can be applied to an electronic device to lock it when you're not present.
+Un dispositif de veille automatique empêche une machine de fonctionner sans la présence d'un opérateur humain. Ces dispositifs ont été conçus à l'origine comme une mesure de sécurité, mais le même concept peut être appliqué à un appareil électronique pour le verrouiller lorsque vous n'êtes pas présent.
 
-Some laptops are able to [detect](https://support.microsoft.com/en-us/windows/managing-presence-sensing-settings-in-windows-11-82285c93-440c-4e15-9081-c9e38c1290bb) when you're present and can lock automatically when you aren't sitting in front of the screen. You should check the settings in your OS to see if your computer supports this feature.
+Certains ordinateurs portables sont capables de [détecter votre présence] (https://support.microsoft.com/en-us/windows/managing-presence-sensing-settings-in-windows-11-82285c93-440c-4e15-9081-c9e38c1290bb) et de se verrouiller automatiquement lorsque vous n'êtes pas assis devant l'écran. Vous pouvez vérifier les paramètres de votre système d'exploitation pour voir si votre ordinateur prend en charge cette fonctionnalité.
 
-You can also get cables, like [BusKill](https://buskill.in), that will lock or wipe your computer when the cable is disconnected.
+Vous pouvez également vous procurer des câbles, comme [BusKill](https://buskill.in), qui verrouillent ou effacent votre ordinateur lorsque le câble est déconnecté.
 
 ### Anti-Interdiction/Evil Maid Attack
 
-The best way to prevent a targeted attack against you before a device is in your possession is to purchase a device in a physical store, rather than ordering it to your address.
+Le meilleur moyen d'éviter une attaque ciblée contre vous avant que l'appareil ne soit en votre possession est de l'acheter dans un magasin physique, plutôt que de le commander à votre adresse.
 
-Make sure your device supports secure boot/verified boot, and you have it enabled. Try to avoid leaving your device unattended whenever possible.
+Assurez-vous que votre appareil prend en charge le démarrage sécurisé/le démarrage vérifié et qu'il est activé. Dans la mesure du possible, évitez de laisser votre appareil sans surveillance.
 
-## Secure your Network
+## Sécurisez votre réseau
 
 ### Compartmentalization
 
