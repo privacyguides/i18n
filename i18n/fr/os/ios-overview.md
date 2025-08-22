@@ -1,5 +1,5 @@
 ---
-title: Introduction à iOS
+title: Sur iOS
 icon: simple/apple
 description: iOS est un système d'exploitation mobile développé par Apple pour l'iPhone.
 ---
@@ -8,9 +8,9 @@ description: iOS est un système d'exploitation mobile développé par Apple pou
 
 ## Remarques concernant la vie privée
 
-iOS devices are frequently praised by security experts for their robust data protection and adherence to modern best practices. Cependant, le caractère restrictif de l'écosystème d'Apple - en particulier avec ses appareils mobiles - continue d'entraver la protection de la vie privée de plusieurs manières.
+Les experts en sécurité font souvent l'éloge des appareils iOS pour leur politique protection des données et leur respect des pratiques modernes de sécurité. Cependant, le caractère restrictif de l'écosystème d'Apple - en particulier avec ses appareils mobiles - continue d'entraver la protection de la vie privée de plusieurs manières.
 
-Nous considérons généralement qu'iOS offre des protections de la vie privée et de la sécurité supérieures à la moyenne pour la plupart des gens, par rapport aux appareils Android d'origine, quel que soit le fabricant. However, you can achieve even higher standards of privacy with a [custom Android operating system](../android/distributions.md) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
+Nous considérons généralement qu'iOS offre des protections de la vie privée et de la sécurité supérieures à la moyenne pour la plupart des gens, par rapport aux appareils Android d'origine, quel que soit le fabricant. Cependant, vous pouvez atteindre des normes de confidentialité encore plus élevées avec un [système d'exploitation Android alternatif](../android/distributions.md) comme GrapheneOS, si vous voulez ou devez être complètement indépendant des services cloud d'Apple ou de Google.
 
 ### Verrouillage d'activation
 
@@ -18,23 +18,23 @@ Tous les appareils iOS doivent être vérifiés sur les serveurs de verrouillage
 
 ### App Store obligatoire
 
-The only source for apps on iOS is Apple's App Store, which requires an Apple Account to access. Cela signifie qu'Apple dispose d'un enregistrement de chaque application que vous installez sur votre appareil et qu'elle peut probablement relier ces informations à votre identité réelle si vous fournissez à l'App Store une méthode de paiement.
+La seule source d'applications sur iOS est l'App Store d'Apple, dont l'accès nécessite un identifiant Apple. Cela signifie qu'Apple dispose d'un enregistrement de chaque application que vous installez sur votre appareil et qu'elle peut probablement relier ces informations à votre identité réelle si vous fournissez à l'App Store une méthode de paiement.
 
 ### Télémétrie invasive
 
-Apple has historically had problems with properly disassociating their telemetry from Apple Accounts on iOS. In [2019](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), Apple was found to transmit Siri recordings—some containing highly confidential information—to their servers for manual review by third-party contractors. Though Apple temporarily stopped that program after that practice was [widely reported on](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), the company rolled out a switch to [**opt out** of uploading conversations with Siri](https://theguardian.com/technology/2019/oct/30/apple-lets-users-opt-out-of-having-siri-conversations-recorded) a few months later in the succeeding iOS update. Moreover, in 2021, [Apple reworked Siri](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance) so that it processes voice recordings locally rather than sending it to their servers.
+Apple a toujours eu des problèmes pour dissocier correctement ses données télémétriques des identifiants Apple sur iOS. [En 2019](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), il a été constaté qu'Apple transmettait des enregistrements Siri - dont certains contenaient des informations hautement confidentielles - à ses serveurs pour qu'ils soient examinés manuellement par des sous-traitants. Bien qu'Apple ait temporairement mis un terme à ce programme après que cette pratique ait fait l'objet d'une [large couverture médiatique](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), l'entreprise a mis en place, quelques mois plus tard, une option permettant de [**ne pas** télécharger les conversations avec Siri dans](https://theguardian.com/technology/2019/oct/30/apple-lets-users-opt-out-of-having-siri-conversations-recorded) la mise à jour suivante d'iOS. De plus, en 2021, [Apple a retravaillé Siri](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance) pour traiter les enregistrements vocaux localement plutôt que de les envoyer à leurs serveurs.
 
-More recently, Apple has been found to transmit analytics [even when analytics sharing is disabled](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) on iOS, and this data [appears](https://twitter.com/mysk_co/status/1594515229915979776) to be easily linked to unique iCloud account identifiers despite supposedly being decoupled from Apple Accounts.
+Plus récemment, il a été constaté qu'Apple [transmettait des données analytiques même lorsque le partage des données analytiques était désactivé](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) sur iOS, et ces données [semblent](https://twitter.com/mysk_co/status/1594515229915979776) être facilement reliées à des identifiants de compte iCloud uniques, bien qu'elles soient censées être anonymes.
 
-### Traffic Outside Active VPN Connections
+### Trafic en dehors des connexions VPN actives
 
-Apple's [privacy policy regarding VPNs](https://apple.com/legal/privacy/data/en/vpns) states:
+La [politique de confidentialité d'Apple concernant les VPN](https://apple.com/legal/privacy/data/en/vpns) stipule ce qui suit :
 
-> Even when a VPN is active, some traffic that is necessary for essential system services will take place outside the VPN so that your device can function properly.
+> Même lorsqu'un VPN est actif, une partie du trafic nécessaire aux services essentiels du système s'effectue en dehors du VPN afin que votre appareil puisse fonctionner correctement.
 
 ## Configuration recommandée
 
-**Note:** This guide assumes that you're running the latest version of iOS.
+**Remarque :** ce guide suppose que vous utilisez la dernière version d'iOS.
 
 ### iCloud
 
@@ -50,13 +50,13 @@ Vous pouvez également protéger vos données en limitant ce que vous synchronis
 
 Un abonnement payant à **iCloud+** (avec n'importe quelle offre de stockage iCloud) est assorti de fonctionnalités de protection de la vie privée. Bien qu'elles puissent fournir un service adéquat aux clients actuels d'iCloud, nous ne recommanderions pas l'achat d'une offre iCloud+ plutôt qu'un [VPN](../vpn.md) et qu'un [service d'alias d'e-mail indépendant](../email-aliasing.md), rien que pour ces fonctionnalités.
 
-[**Private Relay**](https://apple.com/legal/privacy/data/en/icloud-relay) is a proxy service which relays all of your Safari traffic, your DNS queries, and unencrypted traffic on your device through two servers: one owned by Apple and one owned by a third-party provider (including Akamai, Cloudflare, and Fastly). En théorie, cela devrait empêcher tout fournisseur de la chaîne, y compris Apple, d'avoir une complète visibilité sur les sites web que vous visitez lorsque vous êtes connecté. Unlike a VPN, Private Relay does not protect traffic that's already encrypted.
+[**Private Relay**](https://apple.com/legal/privacy/data/en/icloud-relay) est un service proxy qui relaie l'ensemble de votre trafic Safari, vos requêtes DNS et le trafic non chiffré sur votre appareil via deux serveurs : l'un appartenant à Apple et l'autre à un fournisseur tiers (notamment Akamai, Cloudflare et Fastly). En théorie, cela devrait empêcher tout fournisseur de la chaîne, y compris Apple, d'avoir une complète visibilité sur les sites web que vous visitez lorsque vous êtes connecté. Contrairement à un VPN, Private Relay ne protège pas le trafic déjà chiffré.
 
 **Masquer mon adresse e-mail** est le service d'alias de d'e-mail d'Apple. Vous pouvez créer un alias d'e-mail gratuitement lorsque vous faite *Se connecter avec Apple* sur un site web ou une application, ou générer un nombre illimité d'alias à la demande avec une offre iCloud+ payante. Masque mon adresse e-mail a l'avantage d'utiliser le domaine `@icloud.com` pour ses alias, ce qui peut être moins susceptible d'être bloqué par rapport à d'autres services d'alias d'email, mais n'offre pas de fonctionnalité offerte par des services indépendants tels que le chiffrement PGP automatique ou la prise en charge de plusieurs boîtes aux lettres.
 
 #### Médias & achats
 
-At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple Account. Select that, then select **Media & Purchases** → **View Account**.
+En haut de l'application **Réglages**, vous verrez votre nom et votre photo de profil si vous êtes connecté à un compte Apple. Sélectionnez-les, puis sélectionnez **Médias & Achats**  **Voir Compte**.
 
 - [ ] Désactivez **Recommandations Personnalisées**
 
@@ -64,14 +64,14 @@ At the top of the **Settings** app, you'll see your name and profile picture if 
 
 **Localiser** est un service qui vous permet de suivre vos appareils Apple et de partager votre localisation avec vos amis et votre famille. Il vous permet également d'effacer votre appareil à distance en cas de vol, empêchant ainsi un voleur d'accéder à vos données. Vos [données de localisation Localiser sont E2EE](https://apple.com/legal/privacy/data/en/find-my) lorsque :
 
-- Your location is shared with a family member or friend, and you both use iOS 17 or greater.
+- Votre position est partagée avec un membre de votre famille ou un ami, et vous utilisez tous deux iOS 17 ou une version ultérieure.
 - Votre appareil est hors ligne et est localisé par le réseau de Localiser.
 
 Vos données de localisation ne sont pas E2EE lorsque votre appareil est en ligne et que vous utilisez Localiser mon iPhone à distance pour localiser votre appareil. C'est à vous de décider si ces compromis valent les avantages antivol du verrouillage d'activation.
 
-At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple Account. Sélectionnez-les, puis selectionnez **Localiser**. Vous pouvez ici choisir d'activer ou de désactiver les fonctions de Localiser ma position.
+En haut de l'application **Réglages**, vous verrez votre nom et votre photo de profil si vous êtes connecté à un compte Apple. Sélectionnez-les, puis selectionnez **Localiser**. Vous pouvez ici choisir d'activer ou de désactiver les fonctions de Localiser ma position.
 
-### Settings
+### Paramètres
 
 De nombreux autres paramètres liés à la protection de la vie privée peuvent être trouvés dans l'application **Réglages**.
 
@@ -81,9 +81,9 @@ Activation du **mode avion** empêche votre téléphone de contacter les antenne
 
 #### Wi-Fi
 
-You can enable [hardware address randomization](https://support.apple.com/en-us/102509#triswitch) to protect you from tracking across Wi-Fi networks, and on the same network over time. On the network you are currently connected to, tap the :material-information: button:
+Vous pouvez activer la [randomisation de l'adresse matérielle](https://support.apple.com/en-us/102509#triswitch) pour vous protéger contre le suivi sur les réseaux Wi-Fi et sur le même réseau au fil du temps. Sur le réseau auquel vous êtes actuellement connecté, appuyez sur le bouton :material-information: :
 
-- [x] Set **Private Wi-Fi Address** to **Fixed** or **Rotating**
+- [x] Définir l'**adresse Wi-Fi privée** comme **Fixe** ou **Rotation**
 
 Vous avez également la possibilité de **Limiter le suivi de l'adresse IP**. Cette fonction est similaire au relais privé iCloud, mais n'affecte que les connexions aux "traqueurs connus". Étant donné qu'il n'affecte que les connexions à des serveurs potentiellement malveillants, vous pouvez probablement laisser ce paramètre activé, mais si vous ne voulez *pas* que le trafic soit acheminé via les serveurs d'Apple, vous devriez le désactiver.
 
@@ -93,21 +93,21 @@ Vous avez également la possibilité de **Limiter le suivi de l'adresse IP**. Ce
 
 - [ ] Désactivez **Bluetooth**
 
-Note that Bluetooth is automatically turned on after every system update.
+Notez que le Bluetooth est automatiquement activé après chaque mise à jour du système.
 
 #### Général
 
-Le nom d'appareil de votre iPhone contient par défaut votre prénom, qui sera visible par tous les utilisateurs des réseaux auxquels vous vous connectez. Vous devriez le remplacer par quelque chose de plus générique, comme "iPhone". Select **About** → **Name** and enter the device name you prefer.
+Le nom d'appareil de votre iPhone contient par défaut votre prénom, qui sera visible par tous les utilisateurs des réseaux auxquels vous vous connectez. Vous devriez le remplacer par quelque chose de plus générique, comme "iPhone". Sélectionnez **À propos** → **Nom** et entrez le nom que vous avez choisi.
 
-Il est important d'installer fréquemment les **mises à jour logicielles** pour bénéficier des derniers correctifs de sécurité. Vous pouvez activer les **mises à jour automatiques** pour maintenir votre téléphone à jour sans avoir à vérifier constamment. Select **Software Update** → **Automatic Updates**:
+Il est important d'installer fréquemment les **mises à jour logicielles** pour bénéficier des derniers correctifs de sécurité. Vous pouvez activer les **mises à jour automatiques** pour maintenir votre téléphone à jour sans avoir à vérifier constamment. Sélectionnez **Mise à jour logicielle**  **MAJ automatiques** :
 
 - [x] Activez **Télécharger les mises à jour d'iOS**
 - [x] Activez **Installer les mises à jour d'iOS**
 - [x] Activez **Mises à jour de sécurité et fichiers système**
 
-**AirDrop** is commonly used to easily share files, but it represents a significant privacy risk. The AirDrop protocol constantly broadcasts your personal information to your surroundings, with [very weak](https://usenix.org/system/files/sec21-heinrich.pdf) security protections. Your identity can easily be discovered by attackers even with limited resources, and the Chinese government has [openly acknowledged](https://arstechnica.com/security/2024/01/hackers-can-id-unique-apple-airdrop-users-chinese-authorities-claim-to-do-just-that) using such techniques to identify AirDrop users in public since 2022.
+**AirDrop** est couramment utilisé pour partager facilement des fichiers, mais il présente un risque important pour la vie privée. Le protocole AirDrop diffuse constamment vos informations personnelles à votre entourage, avec des protections de sécurité [très faibles](https://usenix.org/system/files/sec21-heinrich.pdf). Votre identité peut facilement être découverte par des attaquants, même avec des ressources limitées, et le gouvernement chinois a [ouvertement reconnu](https://arstechnica.com/security/2024/01/hackers-can-id-unique-apple-airdrop-users-chinese-authorities-claim-to-do-just-that) utiliser de telles techniques pour identifier les utilisateurs d'AirDrop en public depuis 2022.
 
-- [x] Select **AirDrop** → **Receiving Off**
+- [x] Sélectionnez **AirDrop** → **Réception désactivée**
 
 **AirPlay** vous permet de diffuser de manière transparente du contenu de votre iPhone vers un téléviseur, mais vous n'en avez pas toujours besoin. Select **AirPlay & Continuity** → **Automatically AirPlay**:
 
@@ -196,10 +196,10 @@ Vous devriez désactiver l'analyse si vous ne souhaitez pas envoyer de données 
 - [ ] Désactivez **Améliorer Fitness+**
 - [ ] Désactivez **Améliorer la sécurité**
 - [ ] Décochez **Améliorer Siri et Dictée**
-- [ ] Turn off **Improve Assistive Voice Features**
-- [ ] Turn off **Improve AR Location Accuracy**
+- [ ] Désactiver **Améliorer les fonctionnalités vocales**
+- [Désactiver l'option **Améliorer la précision de la localisation AR**
 
-Désactivez **Publicités personnalisées** si vous ne voulez pas de publicités ciblées. Select **Apple Advertising**:
+Désactivez **Publicités personnalisées** si vous ne voulez pas de publicités ciblées. Sélectionnez **Apple Advertising**:
 
 - [ ] Décochez **Publicités personnalisées**
 
@@ -215,61 +215,61 @@ Le [mode Isolement](https://blog.privacyguides.org/2022/10/27/macos-ventura-priv
 
 ### Appels E2EE
 
-Les appels téléphoniques normaux effectués avec l'application Téléphone par l'intermédiaire de votre opérateur ne sont pas E2EE. Both FaceTime Video and FaceTime Audio calls are E2EE. Alternatively, you can use [another app](../real-time-communication.md) like Signal for E2EE calls.
+Les appels téléphoniques normaux effectués avec l'application Téléphone par l'intermédiaire de votre opérateur ne sont pas E2EE. Les appels FaceTime Video et FaceTime Audio sont tous deux E2EE. Vous pouvez également utiliser [une autre application](../real-time-communication.md) comme Signal pour les appels E2EE.
 
 ### iMessage chiffré
 
-The [color of the message bubble](https://support.apple.com/en-us/104972) in the Messages app indicates whether your messages are E2EE or not. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates the other party is using either the outdated SMS and MMS protocols or RCS. RCS on iOS is **not** E2EE. Currently, the only way to have E2EE in Messages is for both parties to be using iMessage on Apple devices.
+La [couleur de la bulle de message](https://support.apple.com/en-us/104972) dans l'application Messages indique si vos messages sont E2EE ou non. Une bulle bleue indique que vous utilisez iMessage avec E2EE, tandis qu'une bulle verte indique qu'ils utilisent les protocoles SMS et MMS ou RCS. RCS sur iOS n'est **pas** E2EE. Actuellement, le seul moyen d'utiliser l'E2EE dans Messages est que les deux parties utilisent iMessage sur des appareils Apple.
 
-Si vous ou votre partenaire de messagerie avez activé la sauvegarde iCloud sans la protection avancée des données, la clé de chiffrement sera stockée sur les serveurs d'Apple, ce qui signifie qu'ils peuvent accéder à vos messages. Additionally, iMessage's key exchange is not as secure as alternative implementations like Signal's (which allows you to view the recipients key and verify by QR code), so it shouldn't be relied on for particularly sensitive communications.
+Si vous ou votre partenaire de messagerie avez activé la sauvegarde iCloud sans la protection avancée des données, la clé de chiffrement sera stockée sur les serveurs d'Apple, ce qui signifie qu'ils peuvent accéder à vos messages. En outre, l'échange de clés d'iMessage n'est pas aussi sécurisé que d'autres implémentations, comme Signal (qui permet de voir la clé du destinataire et de vérifier par QR code), et ne doit donc pas être utilisé pour des communications particulièrement sensibles.
 
-### Photo Permissions
+### Autorisations d'accès à la galerie
 
-When an app prompts you for access to your device's photo library, iOS provides you with options to limit what an app can access.
+Lorsqu'une application vous demande d'accéder à la galerie de votre appareil, iOS vous propose des options pour limiter cet accès.
 
-Rather than allow an app to access all the photos on your device, you can allow it to only access whichever photos you choose by tapping the "Select Photos..." option in the permission dialog. You can change photo access permissions at any time by navigating to **Settings** → **Privacy & Security** → **Photos**.
+Plutôt que d'autoriser une application à accéder à toutes les photos de votre appareil, vous pouvez lui permettre de n'accéder qu'aux photos de votre choix en appuyant sur l'option "Sélectionner les photos..." dans la boîte de dialogue d'autorisation. Vous pouvez modifier les autorisations d'accès aux photos à tout moment en accédant à **Paramètres** → **Confidentialité & Sécurité** → **Photos**.
 
-![Photo Permissions](../assets/img/ios/photo-permissions-light.png#only-light) ![Photo Permissions](../assets/img/ios/photo-permissions-dark.png#only-dark)
+![Autorisations d'accès à la galerie](../assets/img/ios/photo-permissions-light.png#only-light) ![Autorisations d'accès à la galerie](../assets/img/ios/photo-permissions-dark.png#only-dark)
 
-**Add Photos Only** is a permission that only gives an app the ability to download photos to the photo library. Not all apps which request photo library access provide this option.
+**Ajouter des photos uniquement** est une autorisation qui donne à une application la possibilité de télécharger uniquement des photos dans la galerie. Toutes les applications qui demandent l'accès à la galerie ne proposent pas cette option.
 
-![Private Access](../assets/img/ios/private-access-light.png#only-light) ![Private Access](../assets/img/ios/private-access-dark.png#only-dark)
+![Accès privé](../assets/img/ios/private-access-light.png#only-light) ![Accès privé](../assets/img/ios/private-access-dark.png#only-dark)
 
-Some apps also support **Private Access**, which functions similarly to the **Limited Access** permission. However, photos shared to apps using Private Access include their location by default. We recommend unchecking this setting if you do not [remove photo metadata](../data-redaction.md) beforehand.
+Certaines applications prennent également en charge l'**accès privé**, qui fonctionne de la même manière que l'autorisation d'**accès limité**. Cependant, les photos partagées à des applications utilisant un accès privé incluent par défaut leur localisation. Nous vous recommandons de décocher ce paramètre si vous ne supprimez pas au préalable [les métadonnées des photos](../data-redaction.md).
 
-### Contact Permissions
+### Autorisations d'accès aux contacts
 
-Similarly, rather than allow an app to access all the contacts saved on your device, you can allow it to only access whichever contacts you choose. You can change contact access permissions at any time by navigating to **Settings** → **Privacy & Security** → **Contacts**.
+De façon similaire, plutôt que d'autoriser une application à accéder à tous les contacts enregistrés sur votre appareil, vous pouvez lui permettre de n'accéder qu'aux contacts de votre choix. Vous pouvez modifier les autorisations d'accès aux contacts à tout moment en accédant à **Paramètres** → **Confidentialité & Sécurité** → **Contacts**.
 
-![Contact Permissions](../assets/img/ios/contact-permissions-light.png#only-light) ![Contact Permissions](../assets/img/ios/contact-permissions-dark.png#only-dark)
+![Autorisations d'accès aux contacts](../assets/img/ios/contact-permissions-light.png#only-light) ![Autorisations d'accès aux contacts](../assets/img/ios/contact-permissions-dark.png#only-dark)
 
-### Require Biometrics and Hide Apps
+### Exiger des données biométriques et masquer des applications
 
-iOS offers the ability to lock most apps behind Touch ID/Face ID or your passcode, which can be useful for protecting sensitive content in apps which do not provide the option themselves. You can lock an app by long-pressing on it and selecting **Require Face ID/Touch ID**. Any app locked in this way requires biometric authentication whenever opening it or accessing its contents in other apps. Also, notification previews for locked apps will not be shown.
+iOS offre la possibilité de verrouiller la plupart des applications derrière Touch ID/Face ID ou votre code d'accès, qui peut être utile pour protéger le contenu sensible dans les applications qui ne fournissent pas l'option elle-même. Vous pouvez verrouiller une application en appuyant longuement dessus et en sélectionnant **Exiger Face ID/Touch ID.**. Toute application ainsi verrouillée nécessite une authentification biométrique à chaque fois qu'elle est ouverte ou que l'on accède à son contenu depuis d'autres applications. De plus, les aperçus de notification des applications verrouillées ne s'afficheront pas.
 
-In addition to locking apps behind biometrics, you can also hide apps so that they don't appear on the Home Screen, App Library, the app list in **Settings**, etc. While hiding apps may be useful in situations where you have to hand your unlocked phone to someone else, the concealment provided by the feature is not absolute, as a hidden app is still visible in some places such as the battery usage list. Moreover, one notable trade off of hiding an app is that you will not receive any of its notifications.
+Outre le verrouillage biométrique des applications, vous pouvez également masquer des applications afin qu'elles n'apparaissent pas sur l'écran d'accueil, dans la bibliothèque d'applications, dans la liste d'applications des **Paramètres**, etc. Si masque des applications peut s'avérer utile lorsque vous devez remettre votre téléphone déverrouillé à quelqu'un d'autre, la dissimulation offerte par cette fonction n'est pas absolue, car une application masquée reste visible à certains endroits, comme dans la liste d'utilisation de la batterie. En outre, l'une des contreparties notables de cette fonctionnalité est que vous ne recevrez aucune de ses notifications.
 
-You can hide an app by long-pressing on it and selecting **Require Face ID/Touch ID** → **Hide and Require Face ID/Touch ID**. Note that pre-installed Apple apps, as well as the default web browser and email app, cannot be hidden. Hidden apps reside in a **Hidden** folder at the bottom of the App Library, which can be unlocked using biometrics. This folder appears in the App Library whether you hid any apps or not, which provides you a degree of plausible deniability.
+Vous pouvez masquer une application en appuyant longuement dessus et en sélectionnant **Exiger Face ID/Touch ID** → **Masquer et Exiger Face ID/Touch ID.** Notez que les applications Apple préinstallées, ainsi que le navigateur web et l'application de messagerie par défaut, ne peuvent pas être masquées. Les applications masquées se trouvent dans un dossier **Applications masqué** au bas de la bibliothèque d'applications, qui peut être déverrouillé à l'aide des données biométriques. Ce dossier apparaît dans la bibliothèque d'applications, que vous ayez masqué des applications ou non, ce qui vous permet, dans une certaine mesure, de nier l'existence de certaines applications.
 
-### Redacting Elements in Images
+### Effacer des éléments dans une image
 
-If you need to hide information in a photo, you can use Apple's built-in editing tools to do so.
+Si vous devez masquer des informations dans une photo, vous pouvez utiliser les outils intégrés d'Apple pour le faire.
 
-If your device supports it, you can use the [Clean Up](https://support.apple.com/en-us/121429) feature to pixelate faces or remove objects from images.
+Si votre appareil le permet, vous pouvez utiliser la fonction [Nettoyer](https://support.apple.com/en-us/121429) pour pixeliser les visages ou supprimer des objets.
 
-- Open the **Photos** app and tap the photo you have selected for redaction
-- Tap the :material-tune: (at the bottom of the screen)
-- Tap the button labeled **Clean Up**
-- Draw a circle around whatever you want to redact. Faces will be pixelated, and it will attempt to delete anything else.
+- Ouvrez l'application **Photos** et appuyez sur la photo que vous avez sélectionnée
+- Appuyez sur le :material-tune: (en bas de l'écran)
+- Appuyez sur **Nettoyer**
+- Tracez un cercle autour de ce que vous souhaitez effacer. Les visages seront pixélisés, et il tentera de supprimer quoi que ce soit d'autre.
 
-Our warning [against blurring text](../data-redaction.md) also applies here, so we recommend to instead add a black shape with 100% opacity over it. In addition to redacting text, you can also black out any face or object using the **Photos** app.
+Notre mise en garde [contre le floutage du texte](../data-redaction.md) s'applique également ici. Nous vous recommandons donc plutôt d'ajouter une forme noire avec une opacité de 100 %. En plus d'effacer du texte, vous pouvez également masquer un visage ou un objet à l'aide de l'application **Photos.**
 
-- Tap the image you have selected for redaction
-- Tap the :material-tune: (at the bottom of the screen) → markup symbol (top right) → plus icon at the bottom right
-- Select **Add Shape** and choose the square or circle
-- On the toolbar, tap the circle (left-most option) and choose black as the color for filling in the shape. You can also move the shape and increase its size as you see fit.
+- Appuyez sur l'image que vous souhaitez modifier
+- Appuyez sur :material-tune: (en bas de l'écran) → symbole de marquage (en haut à droite) → icône plus en bas à droite
+- Sélectionnez **Ajouter une forme** et choisissez le carré ou le cercle.
+- Dans la barre d'outils, appuyez sur le cercle (option la plus à gauche) et choisissez le noir comme couleur pour remplir la forme. Vous pouvez également déplacer la forme et augmenter sa taille comme vous le souhaitez.
 
-**Don't** use the highlighter to obfuscate information, as its opacity is not quite 100%.
+N'utilisez **pas** le surligneur pour obscurcir des informations, car son opacité n'est pas tout à fait de 100 %.
 
 ### Éviter le jailbreaking
 
@@ -283,4 +283,4 @@ Apple met toujours des versions bêta d'iOS à la disposition de ceux qui souhai
 
 ### Avant le premier déverrouillage
 
-If your threat model includes [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} that involve forensic tools, and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. L'état *après* un redémarrage mais *avant* le déverrouillage de votre appareil est appelé "Before First Unlock" (BFU), et lorsque votre appareil est dans cet état, il est [nettement plus difficile](https://belkasoft.com/checkm8_glossary) pour les outils de criminalistique d'exploiter des vulnérabilités pour accéder à vos données. Cet état BFU vous permet de recevoir des notifications pour les appels, les textes et les alarmes, mais la plupart des données de votre appareil sont toujours chiffrées et inaccessibles. Cela peut s'avérer peu pratique, il convient donc de se demander si ces compromis sont judicieux dans votre situation.
+Si votre modèle de menace comprend des:material-target-account: Outils d'investigation et que vous souhaitez minimiser les risques d'utilisation de failles de sécurité pour accéder à votre téléphone, vous devriez redémarrer votre appareil fréquemment. L'état *après* un redémarrage mais *avant* le déverrouillage de votre appareil est appelé "Before First Unlock" (BFU), et lorsque votre appareil est dans cet état, il est [nettement plus difficile](https://belkasoft.com/checkm8_glossary) pour les outils de criminalistique d'exploiter des vulnérabilités pour accéder à vos données. Cet état BFU vous permet de recevoir des notifications pour les appels, les textes et les alarmes, mais la plupart des données de votre appareil sont toujours chiffrées et inaccessibles. Cela peut s'avérer peu pratique, il convient donc de se demander si ces compromis sont judicieux dans votre situation.</p>

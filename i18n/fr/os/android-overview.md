@@ -1,5 +1,5 @@
 ---
-title: Introduction à Android
+title: Sur Android
 icon: simple/android
 description: Android est un système d'exploitation open source doté de solides protections de sécurité, ce qui en fait notre premier choix pour les téléphones.
 robots: nofollow, max-snippet:-1, max-image-preview:large
@@ -100,39 +100,39 @@ Avec les profils d'utilisateur, vous pouvez imposer des restrictions à un profi
 
 Les [**Profils Professionnels**](https://support.google.com/work/android/answer/6191949) sont une autre façon d'isoler des applications de manière individuelles et peuvent s'avérer plus pratiques que des profils d'utilisateur séparés.
 
-A **device controller** app such as [Shelter](../android/general-apps.md#shelter) is required to create a Work Profile without an enterprise MDM, unless you're using a custom Android OS which includes one.
+Une application de **gestionnaire d'appareil** telle que [Shelter](../android/general-apps.md#shelter) est nécessaire pour créer un profil professionnel sans MDM d'entreprise, à moins que vous n'utilisiez un système d'exploitation Android personnalisé qui en comprend une.
 
 Le profil professionnel dépend d'un gestionnaire d'appareil pour fonctionner. Les fonctionnalités telles que la *Navigation de Fichiers* et le *blocage de la recherche de contacts* ou tout autre type de fonctionnalités d'isolation doivent être implémentées par le gestionnaire. Vous devez également faire entièrement confiance à l'application de gestionnaire d'appareil, car elle a un accès total à vos données au sein du profil professionnel.
 
-This method is generally less secure than a secondary user profile; however, it does allow you the convenience of running apps in both the owner profile and work profile simultaneously.
+Cette méthode est généralement moins sécurisée qu'un profil utilisateur secondaire, mais elle vous permet d'exécuter simultanément des applications dans les profils professionnel et personnel.
 
-### Private Space
+### L'espace privé
 
-**Private Space** is a feature introduced in Android 15 that adds another way of isolating individual apps. You can set up a private space in the owner profile by navigating to :gear: **Settings** → **Security & privacy** → **Private space**. Once set up, your private space resides at the bottom of the app drawer.
+L'**espace privé** est une fonctionnalité introduite dans Android 15 qui ajoute un autre moyen d'isoler individuellement des applications. Vous pouvez configurer un espace privé dans le profil du propriétaire en accédant à :gear: **Paramètres** → **Sécurité & Confidentialité** → **Espace privé**. Une fois configuré, votre espace privé se trouve en bas du tiroir d'applications.
 
-Like user profiles, a private space is encrypted using its own encryption key, and you have the option to set up a different unlock method. Like work profiles, you can use apps from both the owner profile and private space simultaneously. Apps launched from a private space are distinguished by an icon depicting a key within a shield.
+Comme les profils d'utilisateur, un espace privé est chiffré à l'aide de sa propre clé de chiffrement, et vous avez la possibilité de configurer une méthode de déverrouillage différente. Comme pour les profils professionnels, vous pouvez utiliser simultanément les applications du profil propriétaire et de l'espace privé. Les applications lancées à partir d'un espace privé se distinguent par une icône représentant une clé dans un bouclier.
 
-Unlike work profiles, Private Space is a feature native to Android that does not require a third-party app to manage it. For this reason, we generally recommend using a private space over a work profile, though you can use a work profile alongside a private space.
+Contrairement aux profils professionnels, l'Espace Privé est une fonctionnalité native d'Android qui ne nécessite pas d'application tierce pour la gérer. C'est pourquoi nous recommandons d'utiliser un espace privé plutôt qu'un profil professionnel, bien que vous puissiez utiliser un profil professionnel en même temps qu'un espace privé.
 
-### VPN kill switch
+### Arrêt d'urgence VPN
 
 Android 7 et plus prennent en charge un arrêt d'urgence du VPN et il est disponible sans qu'il soit nécessaire d'installer des applications tierces. Cette fonction permet d'éviter les fuites si le VPN est déconnecté. Il se trouve dans :gear: **Paramètres** → **Réseau & internet** → **VPN** → :gear: → **Bloquer les connexions sans VPN**.
 
 ### Boutons à bascule globaux
 
-Les appareils Android modernes disposent de boutons à bascule permettant de désactiver les services Bluetooth et de localisation. Android 12 a introduit des boutons à bascule pour l'appareil photo et le microphone. Lorsque vous n'utilisez pas ces fonctions, nous vous recommandons de les désactiver. Apps cannot use disabled features (even if granted individual permissions) until re-enabled.
+Les appareils Android modernes disposent de boutons à bascule permettant de désactiver les services Bluetooth et de localisation. Android 12 a introduit des boutons à bascule pour l'appareil photo et le microphone. Lorsque vous n'utilisez pas ces fonctions, nous vous recommandons de les désactiver. Les applications ne peuvent pas utiliser les fonctions désactivées (même si elles ont reçu une autorisation individuelle) jusqu'à ce qu'elles soient réactivées.
 
 ## Services Google
 
-If you are using a device with Google services—whether with the stock operating system or an operating system that safely sandboxes Google Play Services like GrapheneOS—there are a number of additional changes you can make to improve your privacy. We still recommend avoiding Google services entirely, or limiting Google Play Services to a specific user/work profile by combining a device controller like *Shelter* with GrapheneOS's Sandboxed Google Play.
+Si vous utilisez un appareil doté des services Google, qu'il s'agisse de votre système d'exploitation d'origine ou d'un système d'exploitation qui intègre les services Google Play sandboxed en toute sécurité, comme GrapheneOS, vous pouvez apporter un certain nombre de modifications supplémentaires pour améliorer votre confidentialité. Nous recommandons toujours d'éviter complètement les services Google ou de limiter les services Google Play à un profil utilisateur/professionnel spécifique en combinant un contrôleur d'appareil comme *Shelter* avec le Sandboxed Google Play de GrapheneOS.
 
 ### Programme de Protection Avancé
 
-Si vous avez un compte Google, nous vous suggérons de vous inscrire au [Programme de Protection Avancée](https://landing.google.com/advancedprotection). Il est disponible gratuitement pour toute personne possédant au moins deux clés de sécurité physiques qui prennent en charge le protocole [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online). Alternatively, you can use [passkeys](https://fidoalliance.org/passkeys).
+Si vous avez un compte Google, nous vous suggérons de vous inscrire au [Programme de Protection Avancée](https://landing.google.com/advancedprotection). Il est disponible gratuitement pour toute personne possédant au moins deux clés de sécurité physiques qui prennent en charge le protocole [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online). Vous pouvez également utiliser des [clés d'accès](https://fidoalliance.org/passkeys).
 
 Le Programme de Protection Avancée offre une surveillance accrue des menaces et permet :
 
-- Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](../basics/account-creation.md#sign-in-with-oauth)
+- Une authentification à deux facteurs plus stricte ; par exemple, l'utilisation de [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **est obligatoire** et doit interdire l'utilisation de [SMS OTP](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) et [OAuth](../basics/account-creation.md#sign-in-with-oauth)
 - Seul Google et les applications tierces vérifiées peuvent accéder aux données du compte
 - Une analyse des e-mails entrants sur les comptes Gmail pour détecter les tentatives de [hameçonnage](https://en.wikipedia.org/wiki/Phishing#Email_phishing)
 - Une [analyse plus stricte de la sécurité du navigateur](https://google.com/chrome/privacy/whitepaper.html#malware) avec Google Chrome
@@ -154,16 +154,16 @@ Si vous avez un appareil sous Android 10 minimum qui n'est plus supporté et que
 
 Tous les appareils sur lesquels les Google Play Services sont installés génèrent automatiquement un [identifiant publicitaire](https://support.google.com/googleplay/android-developer/answer/6048248) utilisé pour la publicité ciblée. Désactivez cette fonctionnalité pour limiter les données collectées à votre sujet.
 
-On Android distributions with [sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), go to :gear: **Settings** → **Apps** → **Sandboxed Google Play** → **Google Settings** → **All services** → **Ads**.
+Sur les distributions Android avec [Google Play sandboxé](https://grapheneos.org/usage#sandboxed-google-play), allez à :gear: **Paramètres** → **Applications** → **Google Play sandboxé** → **Paramètres Google** → **Tous les services** → **Publicités**.
 
-- [x] Select **Delete advertising ID**
+- [x] Sélectionnez **Supprimer l'ID publicitaire**
 
-On Android distributions with privileged Google Play Services (which includes the stock installation on most devices), the setting may be in one of several locations. Vérifiez:
+Sur les distributions Android avec des services Google Play privilégiés (comme le système d'exploitation Android d'origine), le paramètre peut se trouver à différents endroits. Vérifiez:
 
 - :gear: **Paramètres** → **Google** → **Annonces**
 - :gear: **Paramètres** → **Confidentialité** → **Annonces**
 
-You will either be given the option to delete your advertising ID or to *Opt out of interest-based ads* (this varies between OEM distributions of Android). If presented with the option to delete the advertising ID, that is preferred. Si ce n'est pas le cas, veillez à refuser la personnalisation des publicités puis à réinitialiser votre identifiant publicitaire.
+Selon les distributions OEM d'Android, vous aurez la possibilité de supprimer votre identifiant publicitaire ou de *refuser les publicités basées sur les centres d'intérêt*. Il est préférable de supprimer l'identifiant publicitaire lorsque cela est possible. Si ce n'est pas le cas, veillez à refuser la personnalisation des publicités puis à réinitialiser votre identifiant publicitaire.
 
 ### SafetyNet et Play Integrity API
 

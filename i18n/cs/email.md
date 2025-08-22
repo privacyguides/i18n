@@ -1,8 +1,8 @@
 ---
-meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
-title: "Email Services"
+meta_title: "Doporučení na šifrované soukromé e-maily – Privacy Guides"
+title: "E-mailové služby"
 icon: material/email
-description: These email providers offer a great place to store your emails securely, and many offer interoperable OpenPGP encryption with other providers.
+description: Tito poskytovatelé e-mailu jsou skvělí pro bezpečné uchovávání e-mailů, a mnozí z nich nabízejí interoperabilní OpenPGP šifrování s ostatními poskytovateli.
 cover: email.webp
 global:
   - 
@@ -10,7 +10,7 @@ global:
     - "table tbody"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Chrání před těmito hrozbami:</small>
 
 - [:material-server-network: Poskytovatelé služeb](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
