@@ -1,32 +1,32 @@
 ---
-title: Group Policy Settings
-description: A quick guide to configuring Group Policy to make Windows a bit more privacy respecting.
+title: Paramètres de stratégie de groupe
+description: Un guide rapide pour configurer la stratégie de groupe afin de rendre Windows un peu plus respectueux de la vie privée.
 ---
 
-Outside modifying the registry itself, the **Local Group Policy Editor** is the most powerful way to change many aspects of your system without installing third-party tools. Changing these settings requires [Pro Edition](index.md#windows-editions) or better.
+En dehors de la modification du registre lui-même, **l'éditeur de stratégie de groupe** est le moyen le plus efficace de modifier de nombreux aspects de votre système sans installer d'outils tiers. La modification de ces paramètres nécessite [Pro Edition] (index.md#windows-editions) ou une version plus récente.
 
-These settings should be set on a brand-new installation of Windows. Setting them on your existing installation should work, but may introduce unpredictable behavior and is done at your own risk.
+Ces paramètres doivent être définis lors d'une nouvelle installation de Windows. Les paramétrer sur votre installation existante devrait fonctionner, mais peut introduire des comportements imprévisibles.
 
-All of these settings have an explanation attached to them in the Group Policy editor which explains exactly what they do, usually in great detail. Please pay attention to those descriptions as you make changes, so you know exactly what we are recommending here. We've also explained some of our choices below whenever the explanation included with Windows is inadequate.
+Tous ces paramètres sont accompagnés d'une explication dans l'éditeur de stratégie de groupe, qui explique exactement ce qu'ils font, généralement de manière très détaillée. Veuillez prêter attention à ces descriptions au fur et à mesure que vous apportez des modifications, afin que vous sachiez exactement ce que nous recommandons ici. Nous avons également expliqué certains de nos choix ci-dessous lorsque l'explication fournie avec Windows est inadéquate.
 
-## Administrative Templates
+## Modèles Administratifs
 
-You can find these settings by opening `gpedit.msc` and navigating to **Local Computer Policy** > **Computer Configuration** > **Administrative Templates** in the left sidebar. The headers on this page correspond to folders/subfolders within Administrative Templates, and the bullet points correspond to individual policies.
+Vous pouvez trouver ces paramètres en ouvrant `gpedit.msc` et en naviguant vers **Politique de l'ordinateur** > **Configuration de l'ordinateur** > **Modèles Administratifs** dans la barre latérale gauche. Les en-têtes de cette page correspondent aux dossiers/sous-dossiers dans les Modèles Administratifs, et les puce correspondent à des règles individuelles.
 
-To change any group policy, double click it and select Enabled or Disabled at the top of the window that appears depending on the recommendations below. Some group policies have additional settings that can be configured, and if that's the case the appropriate settings are noted below as well.
+Pour modifier une stratégie de groupe, double-cliquez dessus et sélectionnez Activé ou Désactivé en haut de la fenêtre qui s'affiche en fonction des recommandations ci-dessous. Certaines stratégies de groupe comportent des paramètres supplémentaires qui peuvent être configurés. Dans ce cas, les paramètres appropriés sont également indiqués ci-dessous.
 
 ### Système
 
 #### Device Guard
 
- - Turn On Virtualization Based Security: **Enabled**
-     - Platform Security Level: **Secure Boot and DMA Protection**
-     - Secure Launch Configuration: **Enabled**
+ - Activer la sécurité basée sur la virtualisation : **Activé**
+     - Niveau de sécurité de la plate-forme : **Secure Boot and DMA Protection** (démarrage sécurisé et protection DMA)
+     - Configuration du lancement sécurisé : **Activé**
 
-#### Internet Communication Management
+#### Gestion des communications Internet
 
- - Turn off Windows Customer Experience Improvement Program: **Enabled**
- - Turn off Windows Error Reporting: **Enabled**
+ - Désactiver le programme d'amélioration de l'expérience client de Windows : **Activé**
+ - Désactiver le rapport d'erreurs de Windows : **Activé**
  - Turn off the Windows Messenger Customer Experience Improvement Program: **Enabled**
 
 Note that disabling the Windows Customer Experience Improvement Program also disables some other tracking features that can be individually controlled with Group Policy as well. We don't list them all here or disable them because this setting covers that.

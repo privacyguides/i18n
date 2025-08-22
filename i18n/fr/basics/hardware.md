@@ -67,7 +67,7 @@ Si votre appareil est [chiffré] (../encryption.md), vos données sont mieux pro
 
 Cela peut s'avérer peu pratique, il convient donc de se demander si cela en vaut la peine, mais dans tous les cas, même le mode AFU est efficace contre la plupart des menaces, à condition que vous utilisiez une clé de chiffrement forte.
 
-## External Hardware
+## Périphériques externes
 
 Les composants internes ne suffisent pas à eux seuls à se protéger contre certaines menaces. Bon nombre de ces options sont hautement situationnelles ; veuillez évaluer si elles sont vraiment nécessaires pour votre modèle de menace.
 
@@ -96,7 +96,7 @@ De nombreux ordinateurs disposent d'une option BIOS permettant de désactiver la
 
 Les écrans de confidentialité sont des films que vous pouvez poser sur votre écran de manière à ce que celui ci ne soit visible que sous un certain angle. Ils peuvent être utiles si votre modèle de menace inclut que d'autres personnes regardent votre écran sans votre consentement, mais ils ne sont pas infaillibles car n'importe qui peut simplement changer d'angle de vue et voir ce qui s'affiche sur votre écran.
 
-### Dead Man's Switches
+### Dispositif de veille automatique (Dead Man's Switches)
 
 Un dispositif de veille automatique empêche une machine de fonctionner sans la présence d'un opérateur humain. Ces dispositifs ont été conçus à l'origine comme une mesure de sécurité, mais le même concept peut être appliqué à un appareil électronique pour le verrouiller lorsque vous n'êtes pas présent.
 
@@ -104,7 +104,7 @@ Certains ordinateurs portables sont capables de [détecter votre présence] (htt
 
 Vous pouvez également vous procurer des câbles, comme [BusKill](https://buskill.in), qui verrouillent ou effacent votre ordinateur lorsque le câble est déconnecté.
 
-### Anti-Interdiction/Evil Maid Attack
+### Anti-interdiction/Evil Maid Attack
 
 Le meilleur moyen d'éviter une attaque ciblée contre vous avant que l'appareil ne soit en votre possession est de l'acheter dans un magasin physique, plutôt que de le commander à votre adresse.
 
@@ -112,35 +112,35 @@ Assurez-vous que votre appareil prend en charge le démarrage sécurisé/le dém
 
 ## Sécurisez votre réseau
 
-### Compartmentalization
+### Compartimentation
 
-Many solutions exist that allow you to separate what you're doing on a computer, such as virtual machines and sandboxing. However, the best compartmentalization is physical separation. This is useful especially for situations where certain software requires you to bypass security features in your OS, such as with anti-cheat software bundled with many games.
+Il existe de nombreuses solutions qui vous permettent de séparer ce que vous faites sur un ordinateur, comme les machines virtuelles et le sandboxing. Cependant, le meilleur moyen de compartimentation est la séparation physique. Elle est particulièrement utile dans les cas où certains logiciels vous demandent de contourner les fonctionnalités de sécurité de votre système d'exploitation, comme avec des logiciels anti-triche intégrés à de nombreux jeux.
 
-For gaming, it may be useful to designate one machine as your "gaming" machine and only use it for that one task. Keep it on a separate VLAN. This may require the use of a managed switch and a router that supports segregated networks.
+Pour les jeux, il peut être utile de désigner une machine comme machine de "jeu" et de ne l'utiliser uniquement pour cette tâche. Gardez-le sur un VLAN séparé. Cela peut nécessiter l'utilisation d'un switch manageable et d'un routeur qui prend en charge les réseaux séparés.
 
-Most consumer routers allow you to do this by enabling a separate "guest" network that can't talk to your main network. All untrusted devices can go here, including IoT devices like your smart fridge, thermostat, TV, etc.
+La plupart des routeurs grand public vous permettent de le faire en activant un réseau "invité" distinct qui ne peut pas communiquer avec votre réseau principal. Vous pouvez y connecter tous vos appareils non fiables, y compris les appareils IoT comme votre réfrigérateur intelligent, votre thermostat, votre téléviseur, etc.
 
-### Minimalism
+### Minimalisme
 
-As the saying goes, "less is more". The fewer devices you have connected to your network, the less potential attack surface you'll have and the less work it will be to make sure they all stay up-to-date.
+Comme le dit l'adage, "less is more" ("moins c'est plus"). Moins vous avez d'appareils connectés à votre réseau, moins vous avez de surface d'attaque potentielle et moins il vous faudra veiller à ce qu'ils soient tous mis à jour.
 
-You may find it useful to go around your home and make a list of every connected device you have to help you keep track.
+Il peut être utile de faire le tour de votre maison et de dresser une liste de tous vos appareils connectés pour vous aider à les surveiller.
 
-### Routers
+### Routeurs
 
-Your router handles all your network traffic and acts as your first line of defense between you and the open internet.
+Votre routeur gère l'ensemble de votre trafic réseau et constitue la première ligne de défense entre vous et internet.
 
 <div class="admonition Note" markdown>
 <p class="admonition-title">Note</p>
 
-A lot of routers come with storage to put your files on so you can access them from any computer on your network. We recommend you don't use networking devices for things other than networking. In the event your router was compromised, your files would also be compromised.
+De nombreux routeurs sont équipés d'un espace de stockage pour vos fichiers afin que vous puissiez y accéder à partir de n'importe quel appareil connecté à votre réseau. Nous vous recommandons de ne pas utiliser les dispositifs de mise en réseau à d'autres fins que la mise en réseau. Dans le cas où votre routeur était compromis, vos fichiers le seraient également.
 
 </div>
 
-The most important thing to think about with routers is keeping them up-to-date. Many modern routers will automatically install updates, but many others won't. You should check on your router's settings page for this option. That page can usually be accessed by typing `192.168.1.1` or `192.168.0.1` into the URL bar of any browser assuming you're on the same network. You can also check in the network settings of your OS for "router" or "gateway".
+Il est absolument essentiel de maintenir votre routeur à jour. La plupart des routeurs modernes installent automatiquement les mises à jour, mais tous ne le font pas. Vous devez vérifier cette option sur la page des paramètres de votre routeur. Cette page est généralement accessible en tapant `192.168.1.1` ou `192.168.0.1` dans la barre URL de n'importe quel navigateur, à condition que vous soyez sur le même réseau. Vous pouvez également vérifier dans les paramètres réseau de votre système d'exploitation la présence d'un "routeur" ou "passerelle".
 
-If your router does not support automatic updates, you will need to go to the manufacturer's site to download the updates and apply them manually.
+Si votre routeur ne prend pas en charge les mises à jour automatiques, vous devrez vous rendre sur le site du fabricant pour télécharger les mises à jour et les appliquer manuellement.
 
-Many consumer-grade routers aren't supported for very long. If your router isn't supported by the manufacturer anymore, you can check if it's supported by [FOSS firmware](../router.md). You can also buy routers that come with FOSS firmware installed by default; these tend to be supported longer than most routers.
+Beaucoup routeurs grand public ne sont pas pris en charge très longtemps. Si votre routeur n'est plus pris en charge par le fabricant, vous pouvez vérifier s'il est pris en charge par [un firmware FOSS] (../router.md). Vous pouvez également acheter des routeurs dont le micrologiciel FOSS est installé par défaut ; ces routeurs sont généralement pris en charge plus longtemps que la plupart des routeurs.
 
-Some ISPs provide a combined router/modem. It can be beneficial for security to purchase a separate router and set your ISP router/modem into modem-only mode. This way, even when your ISP-provided router is no longer getting updates, you can still get security updates and patches. It also means any problems that affect your modem won't affect your router and vice versa.
+Certains FAI fournissent un routeur/modem combiné. Pour des raisons de sécurité, il peut être préférable d'acheter un routeur séparé et de mettre le routeur/modem de votre fournisseur d'accès en mode modem uniquement. De cette façon, même lorsque votre routeur fourni par votre FAI ne reçoit plus de mises à jour, vous pouvez toujours obtenir des mises à jour de sécurité et des patch. Cela signifie également que tout problème affectant votre modem n'affectera pas votre routeur et vice versa.
