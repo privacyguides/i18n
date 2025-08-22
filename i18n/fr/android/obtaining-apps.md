@@ -21,7 +21,7 @@ Il existe de nombreuses façons d'obtenir des applications Android en privé, m�
 <details class="downloads" markdown>
 <summary>Téléchargements</summary>
 
-- [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
+ - [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
 
 </details>
 
@@ -50,7 +50,7 @@ Le Google Play Store nécessite un compte Google pour se connecter, ce qui n'est
 <details class="downloads" markdown>
 <summary>Téléchargements</summary>
 
-- [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
+ - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
 </details>
 
@@ -86,26 +86,26 @@ Lorsque vous téléchargez des fichiers APK à installer manuellement, vous pouv
 
 3. Extraire l'archive téléchargée :
 
-    ```bash
-    unzip commandlinetools-*.zip
-    cd cmdline-tools
-    ./bin/sdkmanager --sdk_root=./ "build-tools;29.0.3"
-    ```
+   ```bash
+   unzip commandlinetools-*.zip
+   cd cmdline-tools
+   ./bin/sdkmanager --sdk_root=./ "build-tools;29.0.3"
+   ```
 
 4. Exécuter la commande de vérification de la signature :
 
-    ```bash
-    ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk
-    ```
+   ```bash
+   ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk
+   ```
 
 5. Les hashs qui en résultent peuvent ensuite être comparés à une autre source. Certains développeurs comme Signal [montrent les empreintes numériques] (https://signal.org/android/apk) sur leur site web.
 
-    ```bash
-    Signer #1 certificate DN: CN=GrapheneOS
-    Signer #1 certificate SHA-256 digest: 6436b155b917c2f9a9ed1d15c4993a5968ffabc94947c13f2aeee14b7b27ed59
-    Signer #1 certificate SHA-1 digest: 23e108677a2e1b1d6e6b056f3bb951df7ad5570c
-    Signer #1 certificate MD5 digest: dbbcd0cac71bd6fa2102a0297c6e0dd3
-    ```
+   ```bash
+   Signer #1 certificate DN: CN=GrapheneOS
+   Signer #1 certificate SHA-256 digest: 6436b155b917c2f9a9ed1d15c4993a5968ffabc94947c13f2aeee14b7b27ed59
+   Signer #1 certificate SHA-1 digest: 23e108677a2e1b1d6e6b056f3bb951df7ad5570c
+   Signer #1 certificate MD5 digest: dbbcd0cac71bd6fa2102a0297c6e0dd3
+   ```
 
 ## F-Droid
 
