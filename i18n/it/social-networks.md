@@ -44,24 +44,24 @@ Se sei molto preoccupato per un server esistente che censura i tuoi contenuti, i
 
 <div class="admonition recommendation" markdown>
 
-![Mastodon logo](assets/img/social-networks/mastodon.svg){ align=right }
+![Logo di Mastodon](assets/img/social-networks/mastodon.svg){ align=right }
 
-**Mastodon** is a social network based on open web protocols and free, open-source software. It uses the **:simple-activitypub: ActivityPub** protocol, which is decentralized like email: Users can exist on different servers or even different platforms but still communicate with each other.
+**Mastodon** è un social network basato su protocolli web aperti e su software libero e open source. Utilizza il protocollo **:simple-activitypub: ActivityPub** che è decentralizzato come le email: gli utenti possono esistere su server diversi o persino piattaforme diverse, ma ancora comunicare tra di loro.
 
-[:octicons-home-16: Homepage](https://joinmastodon.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://docs.joinmastodon.org){ .card-link title="Documentation" }
+[:octicons-home-16: Pagina Principale](https://joinmastodon.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://docs.joinmastodon.org){ .card-link title="Documentazione" }
 
 </div>
 
-There are many software platforms which use ActivityPub as their backend social networking protocol, meaning they can talk to servers even when they are running different software. For example, PeerTube is a video publishing software that uses ActivityPub, meaning you can follow channels on PeerTube either with another PeerTube account, _or_ with a Mastodon account because Mastodon also uses ActivityPub.
+Esistono molte piattaforme software che utilizzano ActivityPub come protocollo di backend per il social network, questo significa che possono dialogare con altri server anche quando questi eseguono software diversi. Ad esempio, PeerTube è un software di pubblicazione video che utilizza ActivityPub, il che significa che è possibile seguire i canali su PeerTube con un altro account PeerTube, _o_ con un account Mastodon, perché anche Mastodon utilizza ActivityPub.
 
-We chose to recommend Mastodon over other ActivityPub software as your primary social media platform for these reasons:
+Abbiamo scelto di consigliare Mastodon rispetto ad altri software ActivityPub come social media pricipale per questi motivi:
 
-1. Mastodon has a solid history of security updates. In the handful of circumstances where major security vulnerabilities have been found, they coordinate patch releases quickly and cleanly. Historically they have also backported these security patches to older feature branches. This makes it easier for less experienced server hosts who may not feel comfortable upgrading to the latest releases right away to keep their instances secure. Mastodon also has an update notification system built in to the web interface, making it much more likely for server administrators to be aware of critical security patches available for their instance.
+1. Mastodon ha una solida storia di aggiornamenti di sicurezza. Nelle poche circostanze in cui sono state riscontrate gravi vulnerabilità di sicurezza, coordinano il rilascio delle patch in modo rapido e pulito. Storicamente hanno riportato queste patch di sicurezza anche nelle versioni più vecchie. Questo rende più facile per gli host di server meno esperti, che potrebbero non sentirsi a proprio agio nell'aggiornare subito alle ultime versioni, mantenere le loro istanze sicure. Mastodon dispone anche di un sistema di notifica degli aggiornamenti integrato nell'interfaccia web, che rende molto più probabile che gli amministratori dei server siano a conoscenza delle patch di sicurezza critiche disponibili per la loro istanza.
 
-2. Mastodon is largely usable with most content types. While it is primarily a microblogging platform, Mastodon easily handles longer posts, image posts, video posts, and most other posts you might encounter when following ActivityPub users who aren't on Mastodon. This makes your Mastodon account an ideal "central hub" for following anyone regardless of the platform they chose to use. In contrast, if you were only using a PeerTube account, you would _only_ be able to follow other video channels, for example.
+2. Mastodon è ampiamente utilizzabile con la maggior parte dei tipi di contenuto. Pur essendo principalmente una piattaforma di microblogging, Mastodon gestisce facilmente post più lunghi, post con immagini, post con video e la maggior parte degli altri post che si possono incontrare quando si seguono utenti ActivityPub che non sono su Mastodon. Questo rende il tuo account Mastodon un "hub centrale" ideale per seguire chiunque indipendentemente dalla piattaforma che hanno scelto di utilizzare. Al contrario, se utilizzassi solo un account PeerTube, potresti _solo_ seguire altri canali video, ad esempio.
 
-3. Mastodon has fairly comprehensive privacy controls. It has many built-in features which allow you to limit how and when your data is shared, some of which we'll cover below. They also develop new features with privacy in mind. For example, while other ActivityPub software quickly implemented "quote posts" by merely handling links to other posts with a slightly different embed modal, Mastodon is [developing](https://blog.joinmastodon.org/2025/02/bringing-quote-posts-to-mastodon) a quote post feature which will give you more fine-grained control when your post is quoted.
+3. Mastodon dispone di controlli sulla privacy abbastanza completi. Ha molte funzionalità integrate che ti permettono di limitare come e quando i tuoi dati sono condivisi, alcune delle quali copriremo qui sotto. Inoltre, sviluppano le nuove funzionalità tenendo conto della privacy. Ad esempio, mentre altri software ActivityPub hanno implementato rapidamente i "post di citazione" limitandosi a gestire i link ad altri post con un modo di incorporamento leggermente diverso, Mastodon sta [sviluppando](https://blog.joinmastodon.org/2025/02/bringing-quote-posts-to-mastodon) una funzione di post di citazione che ti darà un controllo più preciso quando il tuo post viene citato.
 
 ### Choosing an Instance
 
