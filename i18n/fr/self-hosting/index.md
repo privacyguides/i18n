@@ -1,41 +1,41 @@
 ---
-title: Self-Hosting
-meta_title: "Self-Hosted Software and Services - Privacy Guides"
-description: For our more technical readers, self-hosted software and services can provide additional privacy assurances since you have maximum control over your data.
+title: Auto-Hébergement
+meta_title: "Logiciels et Services Auto-Hébergés - Privacy Guides"
+description: Pour nos lecteurs les plus expérimentés, les logiciels et les services auto-hébergés permettent de contrôler au maximum vos données afin d'avoir les meilleures garanties en termes de confidentialité.
 cover: router.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protège contre les menaces suivantes :</small>
 
 - [:material-server-network: Fournisseurs de services](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-Using **self-hosted software and services** can be a way to achieve a higher level of privacy through digital sovereignty, particularly independence from cloud servers controlled by product developers or vendors. By self-hosting, we mean hosting applications and data on your own hardware.
+Les **logiciels et services auto-hébergés** peuvent être un bon moyen d'atteindre un plus haut niveau de souveraineté numérique, en particulier en remplaçant les clouds contrôlés par des entreprises ou des développeurs. By self-hosting, we mean hosting applications and data on your own hardware.
 
-Self-hosting your own solutions requires advanced technical knowledge and a deep understanding of the associated risks. By becoming the host for yourself and possibly others, you take on responsibilities you might not otherwise have. Self-hosting privacy software improperly can leave you worse off than using e.g. an end-to-end encrypted service provider, so it is best avoided if you are not already comfortable doing so.
+L'auto-hébergement nécessite des connaissances techniques avancées et une bonne compréhension des risques associés. En devanant votre propre hébergeur, et potentiellement celui d'autres personnes, vous acceptez de prendre certaines responsabilités spécifiques. Mal utiliser des logiciels dédiés à la confidentialité en auto-hébergement implique parfois des risques plus grands qu'utiliser les services d'un tiers chiffrés de bout en bout par exemple. Il peut donc être préférable de n'y avoir recours que si vous êtes vraiment à l'aise.
 
-## :material-email: Email Servers
+## :material-email: Serveurs de messagerie (mail)
 
 <div class="grid cards" markdown>
 
-- ![Stalwart logo](../assets/img/self-hosting/stalwart.svg){ .twemoji loading=lazy } [Stalwart](email-servers.md#stalwart)
-- ![Mailcow logo](../assets/img/self-hosting/mailcow.svg){ .twemoji loading=lazy } [Mailcow](email-servers.md#mailcow)
-- ![Mail-in-a-Box logo](../assets/img/self-hosting/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email-servers.md#mail-in-a-box)
+- ![logo de Stalwart](../assets/img/self-hosting/stalwart.svg){ .twemoji loading=lazy } [Stalwart](email-servers.md#stalwart)
+- ![logo de Mailcow](../assets/img/self-hosting/mailcow.svg){ .twemoji loading=lazy } [Mailcow](email-servers.md#mailcow)
+- ![logo de Mail-in-a-Box](../assets/img/self-hosting/mail-in-a-box.svg){ .twemoji loading=lazy } [Mail-in-a-Box](email-servers.md#mail-in-a-box)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](email-servers.md)
+[En savoir plus :material-arrow-right-drop-circle:](email-servers.md)
 
-## :material-account-supervisor-circle-outline: Social Networks
+## :material-account-supervisor-circle-outline: Réseaux sociaux
 
-Self-hosting your own instance of a social network software can help circumvent potential [censorship on a server level](../social-networks.md#censorship-resistance) by a public server's administrator or admin team.
+L'auto-hébergement de vos propres instances de réseaux sociaux peut être un bon moyen de contourner une potentielle [censure au niveau serveur](../social-networks.md#censorship-resistance) d'un administrateur ou d'une équipe d'administration de serveur public.
 
 ### Mastodon
 
 <div class="admonition recommendation" markdown>
 
-![Mastodon logo](../assets/img/social-networks/mastodon.svg){ align=right }
+![Logo de Mastodon](../assets/img/social-networks/mastodon.svg){ align=right }
 
-**Mastodon** is a social network based on open web protocols and free, open-source software. It uses the decentralized **:simple-activitypub: ActivityPub** protocol.
+**Mastodon** est un réseau social basé sur un protocole web ouvert et un logiciel libre et open-source. Il utilise le protocole décentralisé **:simple-activitypub: ActivityPub**.
 
 [:octicons-home-16:](https://joinmastodon.org){ .card-link title="Homepage" }
 [:octicons-info-16:](https://docs.joinmastodon.org/admin/prerequisites){ .card-link title="Admin Documentation" }

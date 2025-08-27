@@ -303,7 +303,7 @@ Cela empêche Siri d'utiliser le contenu de Safari pour les suggestions Siri.
 
 #### Recherche
 
-- [ ] Disable **Search Engine Suggestions**
+- [ ] Désactiver **Suggestions de moteur de recherche**
 
 Ce paramètre envoie tout ce que vous tapez dans la barre d'adresse au moteur de recherche défini dans Safari. La désactivation des suggestions de recherche vous permet de contrôler plus précisément les données que vous envoyez à votre fournisseur de moteur de recherche.
 
@@ -315,47 +315,47 @@ Safari vous permet de séparer votre navigation en différents profils. Tous vos
 
 - [x] Activer **Empêcher le Pistage Intersite**
 
-This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but does not block all tracking avenues because it is designed to not interfere with website usability.
+Cela permet d'activer la fonctionnalité de WebKit [Protection Intelligente contre le Pistage](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). Cette fonctionnalité contribue à prévenir le pistage indésirable en utilisant un algorithme d'apprentissage local qui bloque les trackers. La PIS protège contre la plupart des menaces communes, néanmoins il est conçu pour avoir un impact minimal sur l'utilisation des sites et ne bloque donc pas tous les moyens de pistage.
 
-- [x] Enable **Require Face ID/Touch ID to Unlock Private Browsing**
+- [x] Activer **Exiger Face ID/Touch ID pour déverrouiller la navigation privée**
 
-This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
+Ce paramètre vous permet de verrouiller vos onglets privés derrière des données biométriques/PIN lorsque vous ne les utilisez pas.
 
-- [ ] Disable **Fraudulent Website Warning**
+- [ ] Désactiver **Avertissement de site Web frauduleux**
 
 Ce paramètre utilise Google Safe Browsing (ou Tencent Safe Browsing pour les utilisateurs en Chine continentale ou à Hong Kong) pour vous protéger lorsque vous naviguez. Ainsi, votre adresse IP peut être enregistrée par votre fournisseur de services de navigation sécurisée. Si vous désactivez ce paramètre, la journalisation sera désactivée, mais vous risquez d'être plus vulnérable aux sites d'hameçonnage connus.
 
-- [x] Enable **Not Secure Connection Warning**
+- [x] Activer **Avertissement de connexion non sécurisé**
 
 Ce paramètre affiche un écran d'avertissement si votre connexion à un site web n'utilise pas HTTPS. Safari essaiera automatiquement de mettre à niveau le site vers HTTPS, de sorte que vous ne devriez voir ce message que lorsqu'il n'y a pas de connexion HTTPS disponible.
 
-- [ ] Disable **Highlights**
+- [ ] Désactiver **Highlights**
 
-Apple's privacy policy for Safari states:
+La politique de confidentialité d'Apple pour Safari indique :
 
 > Lors de la visite d'une page web, Safari peut envoyer des informations calculées à partir de l'adresse de la page web à Apple via OHTTP afin de déterminer si des mises en évidence pertinentes sont disponibles.
 
-#### Settings for Websites
+#### Paramètres pour les sites web
 
-Under **Camera**
+Sous **Caméra**
 
-- [x] Select **Ask**
+- [x] Sélectionner **Demander**
 
-Under **Microphone**
+Sous **Microphone**
 
-- [x] Select **Ask**
+- [x] Sélectionner **Demander**
 
-Under **Location**
+Sous **Localisation**
 
-- [x] Select **Ask**
+- [x] Sélectionner **Demander**
 
-These settings ensure that websites can only access your camera, microphone, or location after you explicitly grant them access.
+Ces paramètres garantissent que les sites web ne peuvent accéder à votre appareil photo, à votre microphone ou à votre localisation que si vous leur en donnez explicitement l'accès.
 
-#### Other Privacy Settings
+#### Autres paramètres de confidentialité
 
-These options can be found in :gear: **Settings** → **Apps** → **Safari** → **Advanced**.
+Ces options sous disponibles dans :gear: **Paramètres** → **Applications** → **Safari** → **Paramètres avancés**.
 
-##### Fingerprinting Mitigations
+##### Atténuer le fingerprinting
 
 Le paramètre **Protection avancée contre le suivi et le vol des empreintes** randomise certaines valeurs afin qu'il soit plus difficile de prendre vos empreintes numérique :
 
@@ -371,7 +371,7 @@ Cette fonction ne pose que peu de problèmes de confidentialité en soi, et mêm
 
 #### Navigation Privée Permanente
 
-Ouvrez Safari et appuyez sur le bouton Onglets, situé en bas à droite. Then, expand the :material-format-list-bulleted: Tab Groups list.
+Ouvrez Safari et appuyez sur le bouton Onglets, situé en bas à droite. Ensuite, ouvrez la :material-format-list-bulleted: Liste des groupes d'onglets.
 
 - [x] Sélectionner **Privé**
 
@@ -383,11 +383,11 @@ Notez que la navigation privée n'enregistre pas les cookies et les données des
 
 La synchronisation de l'Historique de Safari, des Groupes d'Onglets, des Onglets iCloud et des mots de passe enregistrés est E2EE. Cependant, par défaut, les favoris ne le sont [pas](https://support.apple.com/HT202303). Apple peut les déchiffrer et y accéder conformément à sa [politique de confidentialité](https://apple.com/legal/privacy/en-ww).
 
-Vous pouvez activer l'E2EE pour vos favoris et vos téléchargements Safari en activant la [Protection avancée des données](https://support.apple.com/HT212520). Go to :gear: **Settings** → **iCloud** → **Advanced Data Protection**.
+Vous pouvez activer l'E2EE pour vos favoris et vos téléchargements Safari en activant la [Protection avancée des données](https://support.apple.com/HT212520). Allez dans :gear: **Paramètres** → **iCloud** → **Protection des Données Avancée**.
 
 - [x] Activez **Protection avancée des données**
 
-Si vous utilisez iCloud avec la Protection Avancée des Données désactivée, nous vous recommandons également de vérifier que l'emplacement de téléchargement par défaut de Safari est défini sur localement sur votre appareil. This option can be found in :gear: **Settings** → **Apps** → **Safari** → **General** → **Downloads**.
+Si vous utilisez iCloud avec la Protection Avancée des Données désactivée, nous vous recommandons également de vérifier que l'emplacement de téléchargement par défaut de Safari est défini sur localement sur votre appareil. Cette option se trouve dans :gear: **Paramètres** → **Applications** → **Safari** → **Général** → **Téléchargements**.
 
 ## Critères
 
