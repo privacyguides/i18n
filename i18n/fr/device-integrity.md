@@ -27,17 +27,17 @@ Cela signifie qu'un attaquant devrait régulièrement réinfecter votre appareil
 
 Si l'un des outils suivants indique une compromission potentielle par un logiciel espion tel que Pegasus, Predator ou KingsPawn, nous vous conseillons de contacter :
 
- - If you are a human rights defender, journalist, or from a civil society organization: [Amnesty International's Security Lab](https://securitylab.amnesty.org/contact-us)
- - If a business or government device is compromised: the appropriate security liaison at your enterprise, department, or agency
- - Les forces de l'ordre locales
+- If you are a human rights defender, journalist, or from a civil society organization: [Amnesty International's Security Lab](https://securitylab.amnesty.org/contact-us)
+- If a business or government device is compromised: the appropriate security liaison at your enterprise, department, or agency
+- Les forces de l'ordre locales
 
 **Nous ne sommes pas en mesure de vous aider directement au-delà de ces conseils.** Nous sommes disposés à discuter de votre situation ou de vos circonstances particulières et à examiner vos résultats dans nos espaces [communautaires](https://discuss.privacyguides.net), mais il est peu probable que nous puissions vous aider au-delà de ce qui est écrit sur cette page.
 
 Les outils présentés sur cette page sont uniquement capables de détecter les indicateurs de compromission, et non de les supprimer. Si vous craignez d'avoir été compromis, nous vous conseillons de procéder comme suit :
 
- - Envisager le remplacement complet de l'appareil
- - Envisagez de changer de numéro SIM/eSIM
- - Ne pas restaurer à partir d'une sauvegarde, car cette dernière peut être compromise
+- Envisager le remplacement complet de l'appareil
+- Envisagez de changer de numéro SIM/eSIM
+- Ne pas restaurer à partir d'une sauvegarde, car cette dernière peut être compromise
 
 Ces outils fournissent une analyse basée sur les informations auxquelles ils ont accès à partir de votre appareil et sur les indicateurs de compromission accessibles au public. Il est important de garder à l'esprit deux choses :
 
@@ -48,7 +48,7 @@ Ces outils fournissent une analyse basée sur les informations auxquelles ils on
 
 <small>Protects against the following threat(s):</small>
 
- - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
 External verification tools run on your computer and scan your mobile device for forensic traces, which are helpful to identify potential compromise.
 
@@ -80,8 +80,8 @@ Le **Mobile Verification Toolkit** (**MVT**) est une collection d'utilitaires qu
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
- - [:simple-apple: macOS](https://docs.mvt.re/en/latest/install)
- - [:simple-linux: Linux](https://docs.mvt.re/en/latest/install)
+- [:simple-apple: macOS](https://docs.mvt.re/en/latest/install)
+- [:simple-linux: Linux](https://docs.mvt.re/en/latest/install)
 
 </details>
 
@@ -123,8 +123,8 @@ MVT vous permet d'effectuer des analyses plus approfondies si votre appareil est
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
- - [:fontawesome-brands-windows: Windows](https://imazing.com/download)
- - [:simple-apple: macOS](https://imazing.com/download)
+- [:fontawesome-brands-windows: Windows](https://imazing.com/download)
+- [:simple-apple: macOS](https://imazing.com/download)
 
 </details>
 
@@ -136,8 +136,8 @@ iMazing automatise et vous guide de manière interactive tout au long du process
 
 <small>Protects against the following threat(s):</small>
 
- - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
- - [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 Il s'agit d'applications que vous pouvez installer et qui vérifient que votre appareil et votre système d'exploitation ne présentent pas de signes d'altération et qui valident l'identité de votre appareil.
 
@@ -166,9 +166,9 @@ L'utilisation de ces applications ne suffit pas à déterminer qu'un appareil es
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
- - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
- - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
- - [:material-cube-outline: Magasin d'applications de GrapheneOS](https://github.com/GrapheneOS/Apps/releases)
+- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
+- [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
+- [:material-cube-outline: Magasin d'applications de GrapheneOS](https://github.com/GrapheneOS/Apps/releases)
 
 </details>
 
@@ -178,11 +178,11 @@ Auditor is not a scanning/analysis tool like some other tools on this page. Rath
 
 Auditor effectue l'attestation et la détection d'intrusion avec **deux** appareils, un _audité_ (l'appareil vérifié) et un _auditeur_ (l'appareil effectuant la vérification). The auditor can be any Android 10+ device (or a remote web service operated by [GrapheneOS](android/distributions.md#grapheneos)), while the auditee must be a specifically [supported device](https://attestation.app/about#device-support). Auditor fonctionne comme tel :
 
- - Using a [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) model between an _auditor_ and _auditee_, the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore) of the _Auditor_.
- - L'_auditeur_ peut être une autre instance de l'application Auditor ou le [service d'attestation à distance](https://attestation.app).
- - L'_auditeur_ enregistre l'état et la configuration actuels de l'_audité_.
- - Si le système d'exploitation de l'_audité_ est altéré après l'appairage, l'auditeur sera informé de la modification de l'état et de la configuration de l'appareil.
- - Vous serez alerté de ce changement.
+- Using a [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) model between an _auditor_ and _auditee_, the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore) of the _Auditor_.
+- L'_auditeur_ peut être une autre instance de l'application Auditor ou le [service d'attestation à distance](https://attestation.app).
+- L'_auditeur_ enregistre l'état et la configuration actuels de l'_audité_.
+- Si le système d'exploitation de l'_audité_ est altéré après l'appairage, l'auditeur sera informé de la modification de l'état et de la configuration de l'appareil.
+- Vous serez alerté de ce changement.
 
 Il est important de noter que l'auditeur ne peut détecter efficacement les changements _qu'après_ l'appairage initial, et pas nécessairement pendant ou avant, en raison de son modèle TOFU. Pour vous assurer que votre matériel et votre système d'exploitation sont authentiques, [effectuez une attestation locale](https://grapheneos.org/install/web#verifying-installation) immédiatement après l'installation de l'appareil et avant toute connexion à l'internet.
 

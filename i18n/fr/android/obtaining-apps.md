@@ -21,7 +21,7 @@ Il existe de nombreuses façons d'obtenir des applications Android en privé, m�
 <details class="downloads" markdown>
 <summary>Téléchargements</summary>
 
- - [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
+- [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
 
 </details>
 
@@ -50,7 +50,7 @@ Le Google Play Store nécessite un compte Google pour se connecter, ce qui n'est
 <details class="downloads" markdown>
 <summary>Téléchargements</summary>
 
- - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
+- [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
 </details>
 

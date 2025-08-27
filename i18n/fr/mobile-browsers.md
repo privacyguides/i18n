@@ -138,7 +138,7 @@ Les options "Boucliers" peuvent être réduites par site selon les besoins, mais
     - [x] Cochez **Auto-redirection des URLs de pistage**
     - \[x\] (Facultatif) Cochez **Bloquer les scripts** (1)
     - [x] Cochez **Bloquer la prise d'empreinte digitale**
-    - [x] Select **Site Tabs Closed** under *Auto Shred*
+    - [x] Sélectionner **Onglets fermés** sous *Déchiquetage automatique*
 
     <details class="warning" markdown>
     <summary>Utiliser les listes de filtres par défaut</summary>
@@ -165,10 +165,10 @@ Les options "Boucliers" peuvent être réduites par site selon les besoins, mais
 
     <div class="annotate" markdown>
 
-    - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+    - [x] Sélectionnez **Désactiver l'UDP non proxy** dans la rubrique [*Politique de traitement IP WebRTC*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
     - \[x\] (Facultatif) Cochez **Aucune protection** sous *Navigation sécurisée* (1)
     - [] Décochez **Autoriser les sites à vérifier si vous avez enregistré des méthodes de paiement**
-    - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
+    - []Décocher **Optimisation Javascript & security** sous le paramètre du même nom
     - [x] Cochez **Fermer les onglets en quittant**
     - [ ] Décochez **Autoriser l'analyse de produits respectueuse de la vie privée (P3A)**
     - [Décocher l'**option Envoyer automatiquement les rapports de diagnostic**
@@ -258,27 +258,27 @@ L'utilisation de listes supplémentaires vous distinguera des autres utilisateur
 
 Ce paramètre ajoute une liste Adblock Plus supplémentaire qui peut augmenter l'efficacité du blocage de contenu de Cromite. Les mises en garde concernant le fait de se démarquer et d'augmenter potentiellement la surface d'attaque s'appliquent.
 
-#### Legacy Adblock settings
+#### Paramètres Adblock Plus
 
-These options can be found in :material-menu: → :gear: **Settings** → **Legacy Adblock settings**.
+Ces options se trouvent dans :material-menu: → :gear:**Paramètres** → **Paramètres d'Adblock Plus**.
 
 - [ ] Décocher le paramètre de mise à jour automatique
 
-This disables update checks for the unmaintained Bromite adblock filter.
+Ceci désactive les vérifications de mise à jour pour le filtre adblock obsolète Bromite .
 
 ## Safari (iOS)
 
-On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Blink engine (the core component of Chromium) like its counterparts on other operating systems.
+Sur iOS, n'importe quelle application qui peut naviguer sur le Web est [restreint](https://developer.apple.com/app-store/review/guidelines) à utiliser un [frameworkWebKit](https://developer.apple.com/documentation/webkit) fourni par Apple, donc un navigateur comme [Brave](#brave) n'utilise pas le moteur Blink (composant central de Chromium) comme il le ferait sur d'autres systèmes d'exploitation.
 
 <div class="admonition recommendation" markdown>
 
 ![Logo Safari](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** est le navigateur par défaut dans iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites, so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
+**Safari** est le navigateur par défaut dans iOS. Il inclut des [fonctions de confidentialité](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) telles que [la protection intelligente contre le pistage](https://webkit.org/blog/7675/intelligent-tracking-prevention/), des onglets de navigation privée isolés et éphémères, le relais privé iCloud, la protection contre le fingerprinting (en présentant aux sites web une version simplifiée de la configuration du système afin que d'avantage d'appareils soient identiques), la randomization de l'empreinte numérique (fingerprint), ainsi qu'un Relai Privé pour les abonnés iCloud+.
 
-[:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title="Documentation" }
+[:octicons-home-16: Page d'accueil](https://apple.com/safari/?lang=fr){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Politique de confidentialité" }
+[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title=Documentation" }
 
 </details>
 
@@ -286,20 +286,20 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 ### Configuration recommandée pour Safari
 
-We would suggest installing [AdGuard](browser-extensions.md#adguard) if you want a content blocker in Safari.
+Nous vous suggérons d'installer [AdGuard](browser-extensions.md#adguard) si vous voulez un bloqueur de contenu dans Safari.
 
-The following privacy/security-related options can be found in :gear: **Settings** → **Apps** → **Safari**.
+Les options suivantes relatives à la confidentialité et à la sécurité sont disponibles sur :gear: **Paramètres** → **Applications** → **Safari**.
 
-#### Allow Safari to Access
+#### Autoriser Safari à accéder
 
-Under **Siri**:
+En dessous de **Siri** :
 
-- [ ] Disable **Learn from this App**
-- [ ] Disable **Show in App**
-- [ ] Disable **Show on Home Screen**
-- [ ] Disable **Suggest App**
+- [ ] Désactiver **Apprendre à partir de cette application**
+- [ ] Désactiver **Afficher dans l'application**
+- [ ] Désactiver **Afficher sur l'écran d'accueil**
+- [ ] Désactiver **Suggérer une application**
 
-This prevents Siri from using content from Safari for Siri suggestions.
+Cela empêche Siri d'utiliser le contenu de Safari pour les suggestions Siri.
 
 #### Recherche
 
@@ -313,7 +313,7 @@ Safari vous permet de séparer votre navigation en différents profils. Tous vos
 
 #### Confidentialité & sécurité
 
-- [x] Enable **Prevent Cross-Site Tracking**
+- [x] Activer **Empêcher le Pistage Intersite**
 
 This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but does not block all tracking avenues because it is designed to not interfere with website usability.
 
