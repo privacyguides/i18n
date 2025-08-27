@@ -1,10 +1,10 @@
-*[2FA]: Dvoufaktorové ověření
+*[2FA]: Dvoufázové ověření
 *[ADB]: Android Debug Bridge
 *[AOSP]: Android Open Source Project
 *[ATA]: Advanced Technology Attachment
 *[prostor pro útok]: Nejvyšší počet možných vstupů pro neautorizovaný přístup do systému
-*[AVB]: Android Verified Boot
-*[cgroups]: Control Groups
+*[AVB]: Android Verified Boot (Ověřené zavedení systému Android)
+*[cgroups]: Kontrolní skupiny
 *[CLI]: Příkazová řádka (Command Line Interface)
 *[CSV]: Comma-Separated Values (hodnoty oddělené čárkou)
 *[CVE]: Běžné zranitelnosti a expozice (Common Vulnerabilities and Exposures)
@@ -33,8 +33,8 @@
 *[GPS]: Global Positioning System
 *[GUI]: Grafické uživatelské rozhraní (Graphical User Interface)
 *[GnuPG]: GNU Privacy Guard (implementace PGP)
-*[HDD]: Hard Disk Drive
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
+*[HDD]: Jednotka pevného disku
+*[HOTP]: Jednorázové heslo na bázi HMAC (Hash-based Message Authentication Code)
 *[HTTPS]: Hypertextový zabezpečený přenosový protokol (HyperText Transfer Protocol Secure)
 *[HTTP]: Hypertextový přenosový protokol (HyperText Transfer Protocol)
 *[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
