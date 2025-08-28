@@ -1,9 +1,9 @@
 ---
 title: "À propos de Privacy Guides"
-description: Privacy Guides is a socially motivated website that provides information for protecting your data security and privacy.
+description: Privacy guides est un projet d'engagement citoyen qui a pour vocation d'informer et de sensibiliser à la protection de vos données personnelles et à la confidentialité.
 schema:
   "@context": https://schema.org
-  "@type": Organization
+  "@type": Organisation
   "@id": https://www.privacyguides.org/
   name: Privacy Guides
   url: https://www.privacyguides.org/en/about/
@@ -16,9 +16,9 @@ schema:
     - https://mastodon.neat.computer/@privacyguides
 ---
 
-![Privacy Guides logo](assets/brand/logos/png/square/pg-yellow.png){ align=right }
+![Logo de Privacy Guides](assets/brand/logos/png/square/pg-yellow.png){ align=right }
 
-**Privacy Guides** is a socially motivated website that provides information for protecting your data security and privacy. We are a non-profit project with a mission to inform the public about the value of digital privacy, and about global government initiatives which aim to monitor your online activity. Our website is free of advertisements and not affiliated with any of the listed providers.
+**Privacy guides** est un projet d'engagement citoyen qui a pour vocation d'informer et de sensibiliser à la protection de vos données personnelles et à la confidentialité. We are a non-profit project with a mission to inform the public about the value of digital privacy, and about global government initiatives which aim to monitor your online activity. Our website is free of advertisements and not affiliated with any of the listed providers.
 
 [:material-heart:{.pg-red} Make a Donation](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary }
 [:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Homepage }
