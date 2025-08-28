@@ -4,13 +4,13 @@ icon: material/form-textbox-password
 description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
 ---
 
-Паролі є важливою частиною нашого повсякденного цифрового життя. We use them to protect our accounts, our devices, and our secrets. Попри те, що часто вони є єдиною перешкодою між нами та зловмисником, який хоче отримати нашу особисту інформацію, ми не замислюємося над ними, що часто призводить до того, що люди використовують паролі, які можна легко вгадати або підібрати грубим перебором.
+Паролі є важливою частиною нашого повсякденного цифрового життя. Ми використовуємо їй для захисту своїх обліковок, пристроїв, та секретів. Попри те, що часто вони є єдиною перешкодою між нами та зловмисником, який хоче отримати нашу особисту інформацію, ми не замислюємося над ними, що часто призводить до того, що люди використовують паролі, які можна легко вгадати або підібрати грубим перебором.
 
 ## Передовий досвід
 
 ### Використовуйте унікальні паролі для кожного сервісу
 
-Imagine this: You sign up for an account with the same e-mail and password on multiple online services. Якщо один з цих постачальників послуг є зловмисником, або в його сервісі стався витік даних, який розкрив ваш пароль у незашифрованому вигляді, все, що потрібно зробити зловмиснику, - це спробувати цю комбінацію електронної пошти та пароля на інших популярних сервісах, поки він не отримає доступ. Не має значення, наскільки надійним є цей пароль, адже він вже у них є.
+Уявіть: ви реєструєтесь на різних сайтах, використовуючи один і той ж самий email та пароль. Якщо один з цих постачальників послуг є зловмисником, або в його сервісі стався витік даних, який розкрив ваш пароль у незашифрованому вигляді, все, що потрібно зробити зловмиснику, - це спробувати цю комбінацію електронної пошти та пароля на інших популярних сервісах, поки він не отримає доступ. Не має значення, наскільки надійним є цей пароль, адже він вже у них є.
 
 Це називається [підміна облікових даних](https://en.wikipedia.org/wiki/Credential_stuffing), і це один з найпоширеніших способів, за допомогою якого зловмисники можуть скомпрометувати ваші облікові записи. Щоб уникнути цього, переконайтеся, що ви ніколи не використовуєте свої паролі повторно.
 
@@ -54,7 +54,7 @@ When it comes to passwords that you don't have to remember (such as passwords st
 <div class="admonition Note" markdown>
 <p class="admonition-title">Note</p>
 
-These instructions assume that you are using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. Other word lists may require more or less rolls per word, and may require a different amount of words to achieve the same entropy.
+These instructions assume that you are using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate the passphrase, which requires five dice rolls per word. .
 
 </div>
 
