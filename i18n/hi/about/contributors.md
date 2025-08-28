@@ -1,22 +1,22 @@
 ---
-title: Contributors
+title: योगदान कर्ता
 hide:
   - toc
-description: A complete list of contributors who have collectively made an enormous impact on the Privacy Guides project.
+description: उन योगदानकर्ताओं की पूरी सूची जिन्होंने सामूहिक रूप से गोपनीयता मार्गदर्शिका परियोजना पर बहुत बड़ा प्रभाव डाला है।
 ---
 
 <!-- Do NOT manually edit this file, please add yourself to the .all-contributorsrc file instead. See our GitHub Issues for more details -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of **any** kind are welcome to be added to [this list](https://github.com/privacyguides/privacyguides.org/blob/main/.all-contributorsrc), including contributions to Privacy Guides outside this repo, and contributions that aren't content related (like sharing ideas for Privacy Guides, promoting the project, answering questions on the forum, etc.).
+यह परियोजना [all-contributors](https://github.com/all-contributors/all-contributors) विनिर्देश का पालन करती है। **किसी भी प्रकार** के योगदान को [इस सूची](https://github.com/privacyguides/privacyguides.org/blob/main/.all-contributorsrc) में शामिल करने का स्वागत है, जिसमें इस रेपो के बाहर गोपनीयता मार्गदर्शिकाओं में योगदान और सामग्री से संबंधित नहीं योगदान (जैसे गोपनीयता मार्गदर्शिकाओं के लिए विचार साझा करना, परियोजना को बढ़ावा देना, मंच पर प्रश्नों का उत्तर देना आदि) शामिल हैं।
 
-| Emoji | Type          | Description                                                                                                                                     |
-| ----- | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| 📖    | `doc`         | A contributor to the content on [privacyguides.org](https://www.privacyguides.org/en).                          |
-| 👀    | `review`      | Someone who has taken the time to review [pull requests](https://github.com/privacyguides/privacyguides.org/pulls) to the site. |
-| 📝    | `blog`        | Someone who has written a [blog](https://blog.privacyguides.org) post for us.                                                   |
-| 💬    | `question`    | Someone who has been helpful when answering questions on our [forum](https://discuss.privacyguides.net) or Matrix channels.     |
-| 🌍    | `translation` | Someone who has contributed on [Crowdin](https://crowdin.com/project/privacyguides).                                            |
+| Emoji | प्रकार     | विवरण                                                                                                                                    |
+| ----- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| 📖    | `doc`      | [privacyguides.org](https://www.privacyguides.org/en) पर सामग्री के लिए एक योगदानकर्ता।                                  |
+| 👀    | `review`   | कोई व्यक्ति जिसने साइट पर [pull request](https://github.com/privacyguides/privacyguides.org/pulls) की समीक्षा करने के लिए समय निकाला है। |
+| 📝    | `blog`     | कोई व्यक्ति जिसने हमारे लिए [blog](https://blog.privacyguides.org) पोस्ट लिखा है।                                                        |
+| 💬    | `question` | कोई ऐसा व्यक्ति जो हमारे [फोरम](https://discuss.privacyguides.net) या मैट्रिक्स चैनलों पर प्रश्नों का उत्तर देते समय मददगार रहा हो।      |
+| 🌍    | `अनुवाद`   | कोई व्यक्ति जिसने [Crowdin](https://crowdin.com/project/privacyguides) पर योगदान दिया है।                                                |
 
-A huge thank you from Privacy Guides to the following wonderful people ([full emoji key](https://allcontributors.org/docs/en/emoji-key)). We also especially thank our dedicated community moderation team on Matrix and our forum: _Austin Huang_, _namazso_, _hik_, _riley_, and _Valynor_.
+प्राइवेसी गाइड्स की ओर से निम्नलिखित अद्भुत लोगों को बहुत-बहुत धन्यवाद ([full emoji key](https://allcontributors.org/docs/en/emoji-key))। हम मैट्रिक्स और हमारे फोरम पर हमारी समर्पित सामुदायिक मॉडरेशन टीम को भी विशेष रूप से धन्यवाद देते हैं: _Austin Huang_, _namazso_, _hik_, _riley_, और _Valynor_।
 
 \--8<-- "includes/contributors.md"

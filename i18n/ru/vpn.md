@@ -122,7 +122,7 @@ We are noting this because while we don't necessarily recommend against sharing 
 
 #### :material-information-outline:{ .pg-blue } Дополнительные замечания
 
-Клиенты Proton VPN поддерживают двухфакторную аутентификацию на всех платформах. Proton VPN имеет собственные серверы и дата-центры в Швейцарии, Исландии и Швеции. They offer content blocking and known-malware blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](tor.md#tor-browser) for this purpose.
+Клиенты Proton VPN поддерживают двухфакторную аутентификацию на всех платформах. Proton VPN имеет собственные серверы и дата-центры в Швейцарии, Исландии и Швеции. Они предлагают блокировку контента и блокировку известного вредоносного ПО с помощью своей DNS-службы. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](tor.md#tor-browser) for this purpose.
 
 ##### :material-alert-outline:{ .pg-orange } Функция Kill switch работает неисправно на компьютерах Mac на базе Intel
 

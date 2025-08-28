@@ -1,5 +1,5 @@
 ---
-title: Security Keys
+title: "Security Keys"
 icon: material/key-chain
 description: These security keys provide a form of phishing-immune authentication for accounts that support it.
 cover: multi-factor-authentication.webp

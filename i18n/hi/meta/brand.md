@@ -1,9 +1,9 @@
 ---
-title: Branding Guidelines
-description: A guide for journalists and website contributors on proper branding of the Privacy Guides wordmark and logo.
+title: ब्रांडिंग दिशानिर्देश
+description: पत्रकारों और वेबसाइट योगदानकर्ताओं के लिए गोपनीयता मार्गदर्शिका वर्डमार्क और लोगो की उचित ब्रांडिंग पर एक मार्गदर्शिका ।
 ---
 
-The name of the website is **Privacy Guides** and should **not** be changed to:
+वेबसाइट का नाम **गोपनीयता मार्गदर्शिकाएँ** है और इसे **नहीं** बदला जाना चाहिए:
 
 <div class="pg-red" markdown>
 - PrivacyGuides
@@ -12,12 +12,12 @@ The name of the website is **Privacy Guides** and should **not** be changed to:
 - PG.org
 </div>
 
-The name of the Subreddit is **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
+Subreddit का नाम **r/PrivacyGuides** या **Privacy Guides Subreddit** है।
 
-Additional branding guidelines can be found at [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
+अतिरिक्त ब्रांडिंग दिशानिर्देश [github.com/privacyguides/brand](https://github.com/privacyguides/brand) पर देखे जा सकते हैं
 
-## Trademark
+## ट्रेडमार्क चिह्न
 
-"Privacy Guides" and the shield logo are trademarks owned by Jonah Aragon, unlimited usage is granted to the Privacy Guides project.
+"Privacy Guides" और शील्ड लोगो Jonah Aragon के स्वामित्व वाले ट्रेडमार्क हैं, Privacy Guides परियोजना को असीमित उपयोग की अनुमति है।
 
-Without waiving any of its rights, Privacy Guides does not advise others on the scope of its intellectual property rights. Privacy Guides does not permit or consent to any use of its trademarks in any manner that is likely to cause confusion by implying association with or sponsorship by Privacy Guides. If you are aware of any such use, please contact Jonah Aragon at `jonah@privacyguides.org`. Consult your legal counsel if you have questions.
+अपने किसी भी अधिकार का परित्याग किए बिना, Privacy Guidesअपने बौद्धिक संपदा अधिकारों के दायरे के बारे में दूसरों को सलाह नहीं देता है। Privacy Guides अपने ट्रेडमार्क के किसी भी ऐसे उपयोग की अनुमति या सहमति नहीं देता है, जिससे Privacy Guidesके साथ जुड़ाव या प्रायोजन का आभास होने के कारण भ्रम की स्थिति पैदा होने की संभावना हो। यदि आप ऐसे किसी उपयोग के बारे में जानते हैं, तो कृपया Jonah Aragon से `jonah@privacyguides.org` पर संपर्क करें। यदि आपके कोई प्रश्न हों तो अपने कानूनी सलाहकार से परामर्श लें।

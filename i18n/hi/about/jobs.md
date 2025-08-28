@@ -1,14 +1,14 @@
 ---
-title: Job Openings
-description: Privacy Guides has a small, remote team of privacy researchers and advocates. Any open positions we may have in the future will be posted here.
+title: नौकरी की रिक्तियां
+description: प्राइवेसी गाइड्स के पास गोपनीयता शोधकर्ताओं और अधिवक्ताओं की एक छोटी, दूरस्थ टीम है। भविष्य में जो भी रिक्तियां होंगी, उन्हें यहां पोस्ट किया जाएगा।
 ---
 
-Privacy Guides has a small, remote team of privacy researchers and advocates working to further our mission of protecting free expression and promoting privacy-respecting technology. As a non-profit, we are expanding very slowly to ensure the project is sustainable in the long term. All of our team members are listed [here](https://discuss.privacyguides.net/u?group=team\&order=solutions\&period=all). Please consider [donating](https://donate.magicgrants.org/privacyguides) to support our cause.
+प्राइवेसी गाइड्स के पास गोपनीयता शोधकर्ताओं और अधिवक्ताओं की एक छोटी, दूरस्थ टीम है, जो मुक्त अभिव्यक्ति की रक्षा करने और गोपनीयता का सम्मान करने वाली प्रौद्योगिकी को बढ़ावा देने के हमारे मिशन को आगे बढ़ाने के लिए काम कर रही है। एक गैर-लाभकारी संस्था के रूप में, हम यह सुनिश्चित करने के लिए बहुत धीरे-धीरे विस्तार कर रहे हैं कि परियोजना दीर्घावधि में टिकाऊ रहे। हमारी टीम के सभी सदस्य [यहां](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all) सूचीबद्ध हैं। कृपया हमारे उद्देश्य का समर्थन करने के लिए [दान](https://donate.magicgrants.org/privacyguides) पर विचार करें।
 
-We are occasionally looking for strong journalistic writers, product reviewers, and privacy experts to help us out, and any open positions will be posted below.
+हम समय-समय पर हमारी मदद करने के लिए मजबूत पत्रकारिता लेखकों, उत्पाद समीक्षकों और गोपनीयता विशेषज्ञों की तलाश करते रहते हैं, और किसी भी खाली पद की जानकारी नीचे पोस्ट की जाएगी।
 
 ---
 
-## Open Positions
+## रिक्त पद
 
-There are no open positions at this time.
+इस समय कोई रिक्त पद नहीं है।
