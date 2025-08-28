@@ -18,13 +18,13 @@ schema:
 
 ![Logo de Privacy Guides](assets/brand/logos/png/square/pg-yellow.png){ align=right }
 
-**Privacy guides** est un projet d'engagement citoyen qui a pour vocation d'informer et de sensibiliser à la protection de vos données personnelles et à la confidentialité. We are a non-profit project with a mission to inform the public about the value of digital privacy, and about global government initiatives which aim to monitor your online activity. Our website is free of advertisements and not affiliated with any of the listed providers.
+**Privacy guides** est un projet d'engagement citoyen qui a pour vocation d'informer et de sensibiliser à la protection de vos données personnelles et à la confidentialité. La mission de ce projet à but non lucratif est de sensibiliser le public à l'importance de la confidentialité numérique, et de l'informer des tendances actuelles des gouvernements à mettre en place des mesures de surveillance de nos activités en ligne. Notre site est totalement dépourvu de publicité et nous ne sommes affiliés à aucun des outils que nous recommandons.
 
-[:material-heart:{.pg-red} Make a Donation](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary }
-[:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Homepage }
-[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
+[:material-heart:{.pg-red} Faire un Don](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary }
+[:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Page d'accueil }
+[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Code Source" }
 
-Privacy Guides is built by volunteers and staff members around the world. All changes to our recommendations and resources are reviewed by at least two [trusted](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all) individuals, and we work diligently to ensure our content is updated as quickly as possible to adapt to the ever-changing cybersecurity threat landscape.
+Privacy Guides est maintenu par ses membres de l'équipe et des bénévoles du monde entier. Tous les changements apportés à nos recommandations et nos ressources sont examinés par au moins deux [personnes de confiance](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all), et nous travaillons d'arrache-pied pour mettre à jour notre contenu le plus rapidement possible pour vous permettre de vous adapter au mieux à l'évolution constante des menaces numériques.
 
 In addition to our core team, [many other people](about/contributors.md) have made contributions to the project. You can too! We're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
 
