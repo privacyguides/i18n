@@ -98,7 +98,7 @@ Tor Browser — это единственный способ действите�
 
 #### Brave shields global defaults
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+Brave включает некоторые меры против снятия цифровых отпечатков в своей функции [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Мы предлагаем настроить эти параметры [глобально](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) для всех страниц, которые вы посещаете.
 
 Опции щитов можно понижать по мере необходимости для каждого конкретного сайта, но по умолчанию мы рекомендуем установить следующие параметры:
 
@@ -126,7 +126,7 @@ Brave includes some anti-fingerprinting measures in its [Shields](https://suppor
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Эта опция отключает JavaScript, что приведет к неработоспособности многих сайтов. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 === "iOS"
 
@@ -149,7 +149,7 @@ Brave includes some anti-fingerprinting measures in its [Shields](https://suppor
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Эта опция отключает JavaScript, что приведет к неработоспособности многих сайтов. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 ##### Clear browsing data (Android only)
 
@@ -170,9 +170,9 @@ Brave includes some anti-fingerprinting measures in its [Shields](https://suppor
     - [ ] Uncheck **Allow sites to check if you have payment methods saved**
     - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
     - [x] Select **Close tabs on exit**
-    - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-    - [ ] Uncheck **Automatically send diagnostic reports**
-    - [ ] Uncheck **Automatically send daily usage ping to Brave**
+    - Отключите **Разрешить аналитику продукта с сохранением конфиденциальности (P3A)**
+    - Отключить **Автоматически отправлять диагностические отчёты**
+    - Отключить **Автоматически отправлять ежедневный пинг использования в Brave**
 
     </div>
 
@@ -181,7 +181,7 @@ Brave includes some anti-fingerprinting measures in its [Shields](https://suppor
 === "iOS"
 
     - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
-    - [ ] Uncheck **Automatically send daily usage ping to Brave**
+    - Отключить **Автоматически отправлять ежедневный пинг использования в Brave**
 
 #### Leo
 
@@ -244,7 +244,7 @@ These options can be found in :material-menu: → :gear: **Settings** → **Priv
 
 - [x] Select **Always use secure connections**
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+Это предотвращает непреднамеренное подключение к веб-сайту по открытому протоколу HTTP. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
 
 #### Adblock Plus settings
 
@@ -305,7 +305,7 @@ This prevents Siri from using content from Safari for Siri suggestions.
 
 - [ ] Disable **Search Engine Suggestions**
 
-This setting sends whatever you type in the address bar to the search engine set in Safari. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+This setting sends whatever you type in the address bar to the search engine set in Safari. Отключение поисковых подсказок позволяет вам более точно контролировать, какие данные вы отправляете провайдеру поисковой системы.
 
 #### Profiles
 

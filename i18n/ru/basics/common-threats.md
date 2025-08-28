@@ -4,54 +4,54 @@ icon: 'material/eye-outline'
 description: Модель угрозы уникальна для каждого, но здесь описаны некоторые из тех вещей, которые волнуют многих посетителей этого сайта.
 ---
 
-В широком смысле мы разделяем наши рекомендации по категориям [угроз](threat-modeling.md) или целей, которые применимы к большинству людей. ==Вас может волновать одна, несколько, все эти возможности или они могут не волновать вас вовсе==, и инструменты и услуги, которые вы используете, зависят от ваших целей. You may have specific threats outside these categories as well, which is perfectly fine! Важно понять преимущества и недостатки выбранных вами инструментов, потому что практически ни один из них не защитит вас от всех угроз.
+В широком смысле мы разделяем наши рекомендации по категориям [угроз](threat-modeling.md) или целей, которые применимы к большинству людей. ==Вас может волновать одна, несколько, все эти возможности или они могут не волновать вас вовсе==, и инструменты и услуги, которые вы используете, зависят от ваших целей. У вас также могут быть специфические угрозы, выходящие за рамки этих категорий, и это совершенно нормально. Важно понять преимущества и недостатки выбранных вами инструментов, потому что практически ни один из них не защитит вас от всех угроз.
 
 <span class="pg-purple">:material-incognito: **Анонимность**</span>
 :
 
-Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
+Сокрытие вашей онлайн-активности от вашей реальной личности, защита от людей, которые пытаются раскрыть именно *вашу* личность.
 
 <span class="pg-red">:material-target-account: **Целенаправленные атаки**</span>
 :
 
-Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
+Защита от хакеров или других злоумышленников, которые пытаются получить доступ именно к *вашим* данным или устройствам.
 
-<span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
+<span class="pg-viridian">:material-package-variant-closed-remove: **Атаки на цепочку поставок**</span>
 :
 
-Typically, a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+Как правило, это разновидность <span class="pg-red">:material-target-account:  Целенаправленной атаки</span>, которая основана на уязвимости или эксплойте, внедрённом в изначально безопасное программное обеспечение — напрямую или через зависимость от третьей стороны.
 
 <span class="pg-orange">:material-bug-outline: **Пассивные атаки**</span>
 :
 
-Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
+Защита от вредоносного ПО, утечек данных и других атак, направленных сразу на большое количество людей.
 
 <span class="pg-teal">:material-server-network: **Поставщики услуг**</span>
 :
 
-Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
+Защита ваших данных от поставщиков услуг (например, с помощью E2EE, который делает ваши данные нечитаемыми для сервера).
 
 <span class="pg-blue">:material-eye-outline: **Массовое наблюдение**</span>
 :
 
-Protection from government agencies, organizations, websites, and services which work together to track your activities.
+Защита от правительственных агентств, организаций, веб-сайтов и сервисов, которые совместно отслеживают вашу активность.
 
 <span class="pg-brown">:material-account-cash: **Капитализм слежки**</span>
 :
 
-Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
+Защитите себя от крупных рекламных сетей, таких как Google и Facebook, а также от множества других сторонних сборщиков данных.
 
 <span class="pg-green">:material-account-search: **Публичная экспозиция**</span>
 :
 
-Limiting the information about you that is accessible online—to search engines or the public.
+Ограничение объёма информации о вас, доступной в интернете поисковым системам или широкой публике.
 
 <span class="pg-blue-gray">:material-close-outline: **Цензура**</span>
 :
 
-Avoiding censored access to information or being censored yourself when speaking online.
+Избегайте цензуры доступа к информации или цензуре при разговоре в Интернете.
 
-В зависимости от твоих конкретных ситуаций, некоторые угрозы могут быть более важные, чем другие. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> and <span class="pg-red">:material-target-account: Targeted Attacks</span>. They will likely still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. Аналогичным образом, многие люди могут быть в первую очередь обеспокоены <span class="pg-green">:material-account-search: публичной экспозицией</span> своих личных данных, но им все равно следует опасаться проблем, связанных с безопасностью, таких как <span class="pg-orange">:material-bug-outline: пассивные атаки</span> - например, вредоносных программ, воздействующих на их устройства.
+В зависимости от твоих конкретных ситуаций, некоторые угрозы могут быть более важные, чем другие. Например, разработчик программного обеспечения, имеющий доступ к ценным или критически важным данным, может в первую очередь беспокоиться об <span class="pg-viridian">:material-package-variant-closed-remove: Атаках на цепочку поставок</span> и <span class="pg-red">:material-target-account: Целенаправленных атаках</span>. При этом ему, вероятно, всё равно захочется защитить и свои личные данные от попадания в программы <span class="pg-blue">:material-eye-outline: Массового наблюдения</span>. Аналогичным образом, многие люди могут быть в первую очередь обеспокоены <span class="pg-green">:material-account-search: публичной экспозицией</span> своих личных данных, но им все равно следует опасаться проблем, связанных с безопасностью, таких как <span class="pg-orange">:material-bug-outline: пассивные атаки</span> - например, вредоносных программ, воздействующих на их устройства.
 
 ## Анонимность и Конфиденциальность
 
