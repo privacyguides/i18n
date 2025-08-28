@@ -1,6 +1,6 @@
 ---
 meta_title: "Privacy Guides: Независимые ресурсы по конфиденциальности и безопасности"
-description: "Established in 2021, Privacy Guides is the most popular & trustworthy non-profit resource to find privacy tools and learn about protecting your digital life."
+description: "Основанный в 2021 году, Privacy Guides является самым популярным и надежным некоммерческим ресурсом для поиска инструментов конфиденциальности и изучения вопросов защиты вашей цифровой жизни."
 template: home.html
 social:
   cards_layout: home
@@ -90,7 +90,7 @@ schema:
 
 ![Privacy Guides logo](assets/brand/logos/png/square/pg-yellow.png){ align=right loading=lazy }
 
-Основанный в 2021 году в связи с трудностями поиска беспристрастных обозревателей в сфере VPN и конфиденциальности, **Privacy Guides** является самым популярным, надёжным, некоммерческим сайтом, который предоставляет информацию о защите безопасности и конфиденциальности ваших *персональных* данных. Our crowdsourced recommendations and reviews of **privacy tools** and our community dedicated to helping others set us apart from other blogs and content creators. The team behind this project has been researching privacy and security in the open-source space for over 5 years, originally with a now-defunct web resource that eventually became the *Privacy Guides* millions of readers trust.
+Основанный в 2021 году в связи с трудностями поиска беспристрастных обозревателей в сфере VPN и конфиденциальности, **Privacy Guides** является самым популярным, надёжным, некоммерческим сайтом, который предоставляет информацию о защите безопасности и конфиденциальности ваших *персональных* данных. Наши рекомендации и обзоры **инструментов для обеспечения конфиденциальности** на основе краудсорсинга, а также наше сообщество, стремящееся помочь другим, отличают нас от других блогов и создателей контента. Команда, стоящая за этим проектом, занимается исследованием конфиденциальности и безопасности в пространстве открытого исходного кода уже более 5 лет, первоначально на ныне не существующем веб-ресурсе, который в итоге превратился в *Privacy Guides*, которому доверяют миллионы читателей.
 
 *Наш сайт не содержит рекламы и не связан ни с одним из перечисленных провайдеров.*
 
