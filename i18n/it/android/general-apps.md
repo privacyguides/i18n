@@ -131,7 +131,7 @@ The image orientation metadata is not deleted. If you enable location (in Secure
 
 ## Criteri
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
+**Ricorda che non siamo affiliati a nessuno dei progetti che raccomandiamo**. Oltre ai nostri [criteri standard](../about/criteria.md), abbiamo definito un insieme preciso di requisiti che ci permette di fornire raccomandazioni oggettive. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
 
 - Applications on this page must not be applicable to any other software category on the site.
 - General applications should extend or replace core system functionality.

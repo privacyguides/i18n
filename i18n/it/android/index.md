@@ -52,7 +52,7 @@ Content blockers which modify the [hosts file](https://en.wikipedia.org/wiki/Hos
 
 AFWall+ works based on the [packet filtering](https://en.wikipedia.org/wiki/Firewall_\(computing\)#Packet_filter) approach and may be bypassable in some situations.
 
-Non crediamo che i sacrifici di sicurezza effettuati dal rooting di un telefono, valgano i discutibili benefici della privacy di tali app.
+Non crediamo che i sacrifici di sicurezza effettuati dal rooting di un telefono valgano i discutibili benefici della privacy di tali app.
 
 ### Install Updates Regularly
 

@@ -58,17 +58,17 @@ Al momento, solo i [telefoni Google Pixel](../mobile-phones.md#google-pixel) sod
 
 Per impostazione predefinita, Android effettua molte connessioni di rete verso Google per verificare che il DNS funzioni correttamente, sincronizzarsi con l’orario di rete, verificare la connessione e svolgere altri compiti in background. GrapheneOS sostituisce queste connessioni con server gestiti da loro e soggetti alla loro informativa sulla privacy. Questo nasconde informazioni come il tuo indirizzo IP [a Google](../basics/common-threats.md#privacy-from-service-providers), ma rende facile per un amministratore di rete o per il provider Internet vedere che ti stai collegando a grapheneos.network, grapheneos.org, ecc., e capire quale sistema operativo stai usando.
 
-Se vuoi nascondere informazioni come queste a un attaccante presente sulla tua rete o al provider Internet, **devi** usare una [VPN affidabile](../vpn.md) oltre a impostare il controllo della connettività su **Standard (Google)**. Puoi trovarla in :gear: **Impostazioni** → **Rete e Internet** → **Internet connectivity checks**. This option allows you to connect to Google's servers for connectivity checks, which, alongside the usage of a VPN, helps you blend in with a larger pool of Android devices.
+Se vuoi nascondere informazioni come queste a un attaccante presente sulla tua rete o al provider Internet, **devi** usare una [VPN affidabile](../vpn.md) oltre a impostare il controllo della connettività su **Standard (Google)**. Puoi trovarla in :gear: **Impostazioni** → **Rete e Internet** → **Internet connectivity checks**. Questa opzione consente di collegarsi ai server di Google per i controlli di connettività e, in combinazione all’utilizzo di una VPN, aiuta a confondersi con un gruppo più grande di dispositivi Android.
 
 ## Criteri
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](../about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
+**Ricorda che non siamo affiliati a nessuno dei progetti che raccomandiamo**. Oltre ai nostri [criteri standard](../about/criteria.md), abbiamo definito un insieme preciso di requisiti che ci permette di fornire raccomandazioni oggettive. Ti suggeriamo di familiarizzare con questo elenco prima di scegliere di utilizzare un progetto e di condurre le tue ricerche per assicurarti che si tratti della scelta adatta a te.
 
 - Deve essere un software open source.
-- Must support bootloader locking with custom AVB key support.
-- Must receive major Android updates within 0-1 months of release.
-- Must receive Android feature updates (minor version) within 0-14 days of release.
-- Must receive regular security patches within 0-5 days of release.
-- Must **not** be "rooted" out of the box.
-- Must **not** enable Google Play Services by default.
-- Must **not** require system modification to support Google Play Services.
+- Deve supportare il blocco del bootloader, compatibile con chiavi AVB personalizzate.
+- Deve ricevere nuove versioni di Android entro 0-1 mesi dal loro rilascio.
+- Deve ricevere aggiornamenti delle funzionalità di Android (versioni minori) entro 0-14 giorni dalla pubblicazione.
+- Deve ricevere patch di sicurezza regolari entro 0-5 giorni dalla pubblicazione.
+- **Non** deve essere “rootato” di default.
+- **Non** deve abilitare Google Play Services di default.
+- **Non** deve richiedere modifiche al sistema per supportare Google Play Services.
