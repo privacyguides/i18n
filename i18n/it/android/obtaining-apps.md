@@ -20,7 +20,7 @@ There are many ways to obtain Android apps privately, even from the Play Store, 
 
 <details class="downloads" markdown><0>Scarica</0>
 
- - [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
+- [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
 
 </details>
 
@@ -48,7 +48,7 @@ The Google Play Store requires a Google account to log in, which is not great fo
 
 <details class="downloads" markdown><0>Scarica</0>
 
- - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
+- [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
 </details>
 
