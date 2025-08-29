@@ -57,9 +57,9 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 
 <div class="admonition recommendation" markdown>
 
-![Logo du navigateur Tor](assets/img/browsers/tor. vg){ align=left }
+![Logo du navigateur Tor](assets/img/browsers/tor.svg){ align=left }
 
-**Le navigateur Tor** (Ordinateur & Android) est le meilleur choix si vous avez besoin de l'anonymat, car il vous donne accès au réseau **Tor** un groupe de serveurs gérés par des bénévoles qui vous permettent de vous connecter gratuitement et d'améliorer votre vie privée et votre sécurité sur Internet. Les particuliers et les organisations peuvent également partager des informations sur le réseau Tor avec des "services cachés .onion" sans compromettre leur vie privée. Parce que le trafic Tor est difficile à bloquer et à tracer, Tor est un outil efficace pour contourner la censure.
+**Le navigateur Tor** (Ordinateur & Android) est le meilleur choix si vous avez besoin de l'anonymat, car il vous donne accès au réseau **Tor** un groupe de serveurs gérés par des bénévoles qui vous permettent de vous connecter gratuitement et d'améliorer votre vie privée et votre sécurité sur Internet.assets/img/browsers/tor.svg Les particuliers et les organisations peuvent également partager des informations sur le réseau Tor avec des "services cachés .onion" sans compromettre leur vie privée. Parce que le trafic Tor est difficile à bloquer et à tracer, Tor est un outil efficace pour contourner la censure.
 
 [Lire notre revue complète :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary }
 
@@ -77,7 +77,7 @@ Le **Navigateur Mullvad** est une version du [Navigateur Tor](tor.md#tor-browser
 
     - [Lire la revue complète :material-arrow-right-drop-circle:](desktop-browsers.md#firefox)
 
-- ![Logo Brave](assets/img/browsers/brave. vg){ .lg .middle .twemoji } **Navigateur Brave**
+- ![Logo Brave](assets/img/browsers/brave.svg){ .lg .middle .twemoji } **Navigateur Brave**
 
     ---
 
