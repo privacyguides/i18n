@@ -10,7 +10,7 @@ cover: email-clients.webp
 - [:material-server-network: Diensteanbieter](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 - [:material-target-account: Gezielte Angriffe](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
-Die <string x-id="1">Email Clients</strong> die wir empfehlen unterstützen [OpenPGP](encryption.md#openpgp) sowie starke Authentifizierung wie z.B. [Open Authorization (Oauth)](basics/account-creation.md#sign-in-with-oauth). OAuth lässt dich [Multi-Faktor Authentifizierung](basics/multi-factor-authentication.md) nutzen, um Kontendiebstahl zu verhindern.
+Die **Email-Clients** die wir empfehlen unterstützen [OpenPGP](encryption.md#openpgp) sowie starke Authentifizierung wie z.B. [Open Authorization (Oauth)](basics/account-creation.md#sign-in-with-oauth). OAuth lässt dich [Multi-Faktor Authentifizierung](basics/multi-factor-authentication.md) nutzen, um Kontendiebstahl zu verhindern.
 
 <details class="warning" markdown>
 <summary>Email bietet keinen Forward-Secrecy</summary>
@@ -23,7 +23,7 @@ OpenPGP unterstützt ebenfalls nicht [Forward-Secrecy](https://en.wikipedia.org/
 
 </details>
 
-## Cross-Platform
+## Plattformübergreifend
 
 ### Thunderbird
 
@@ -31,12 +31,9 @@ OpenPGP unterstützt ebenfalls nicht [Forward-Secrecy](https://en.wikipedia.org/
 
 ![Thunderbird logo](assets/img/email-clients/thunderbird.svg){ align=right }
 
-**Thunderbird** is a free, open-source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Matrix) client developed by the Thunderbird community, and previously by the Mozilla Foundation.
+**Thunderbird** ist ein kostenloser, plattformübergreifender Open-Source-Client für Email, Newsgroup, News Feed und Chat (XMPP, IRC, Matrix) der von der Thunderbird-Community und zuvor von der Mozilla Foundation entwickelt wurde.
 
-[:octicons-home-16: Homepage](https://thunderbird.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mozilla.org/privacy/thunderbird){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title="Documentation" }
-[:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Source Code" }
+[:octicons-home-16: Homepage](https://thunderbird.net){ .md-button .md-button--primary } [:octicons-eye-16:](https://mozilla.org/privacy/thunderbird){ .card-link title="Datenschutzerklärung" } [:octicons-info-16:](https://support.mozilla.org/products/thunderbird){ .card-link title="Dokumentation" } [:octicons-code-16:](https://hg.mozilla.org/comm-central){ .card-link title="Quellcode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -63,9 +60,9 @@ When replying to someone on a mailing list in Thunderbird Mobile, the "reply" op
 
 <div class="annotate" markdown>
 
-We recommend changing some of these settings to make Thunderbird Desktop a little more private.
+Wir empfehlen die Änderung dieser Einstellungen, um Thunderbird Desktop mehr Privater zu machen.
 
-These options can be found in :material-menu: → **Settings** → **Privacy & Security**.
+Diese Optionen können unter :material-menu: → **Allgemeine Einstellungen** → **Datenschutz** gefunden werden.
 
 ##### Web Content
 
