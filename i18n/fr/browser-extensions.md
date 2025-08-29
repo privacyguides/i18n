@@ -60,12 +60,12 @@ uBlock Origin possède également une version "Lite" de leur extension, qui offr
 
 ![uBlock Origin Lite logo](assets/img/browsers/ublock_origin_lite.svg){ align=right }
 
-**uBlock Origin Lite** est un bloqueur de contenu compatible avec Manifest V3. Compared to the original _uBlock Origin_, this extension does not require broad "read/modify data" permissions to function, which lowers the risk of [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange } on your browser if a malicious rule is added to a filter list.
+**uBlock Origin Lite** est un bloqueur de contenu compatible avec Manifest V3. Par rapport au _uBlock Origin_ de base, cette extension ne nécessite pas d'autorisations générales de "lecture/modification des données" pour fonctionner, ce qui réduit le risque d' [:material-bug-outline: Attaque Passive](basics/common-threats.md#security-and-privacy){ .pg-orange } sur votre navigateur si une règle malveillante est ajoutée à une liste de filtrage.
 
-[:octicons-repo-16: Repository](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/uBlockOrigin/uBOL-home/wiki/Privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-repo-16: Dépôt](https://github.com/uBlockOrigin/uBOL-home#readme){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/uBlockOrigin/uBOL-home/wiki/Privacy-policy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://github.com/uBlockOrigin/uBOL-home/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/gorhill/uBlock/tree/master/platform/mv3){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
 <summary>Téléchargements</summary>
@@ -76,17 +76,17 @@ uBlock Origin possède également une version "Lite" de leur extension, qui offr
 
 </div>
 
-We only recommend this version of uBlock Origin if you never want to make any changes to your filter lists, because it only supports a few pre-selected lists and offers no additional customization options, including the ability to select elements to block manually. These restrictions are due to limitations in Manifest V3's design.
+Nous ne recommandons cette version d'uBlock Origin que si vous ne voulez jamais apporter de modifications à vos listes de filtres, parce qu'elle ne prend en charge que quelques listes présélectionnées et n'offre aucune option de personnalisation supplémentaire, y compris la possibilité de sélectionner des éléments à bloquer manuellement. Ces restrictions sont dues à des limitations dans la conception du manifeste V3.
 
-This version offers three levels of blocking: "Basic" works without requiring any special privileges to view and modify site content, while the "Optimal" and "Complete" levels do require that broad permission, but offer a better filtering experience with additional cosmetic rules and scriptlet injections.
+Cette version offre trois niveaux de blocage : "Basique" fonctionne sans avoir besoin de privilèges spéciaux pour afficher et modifier le contenu du site, tandis que les niveaux "Optimal" et "Complet" requièrent cette large autorisation, mais offrent une meilleure expérience de filtrage avec des règles cosmétiques supplémentaires et des injections de scriptlet.
 
-If you set the default filtering mode to "Optimal" or "Complete" the extension will request read/modify access to **all** websites you visit. However, you also have the option to change the setting to "Optimal" or "Complete" on a **per-site** basis by adjusting the slider in the extension's pop-up panel on any given site. When you do so, the extension will request read/modify access to that site only. Therefore, if you want to take advantage of uBlock Origin Lite's "permission-less" configuration, you should probably leave the default setting as "Basic" and only adjust it higher on sites where that level is not adequate.
+Si vous définissez le mode de filtrage par défaut à "Optimal" ou "Complet", l'extension demandera l'accès en lecture/modification à **tous** les sites Web que vous visitez. Cependant, vous avez également la possibilité de changer le réglage à "Optimal" ou "Complet" **par site** en ajustant le curseur dans le panneau pop-up de l'extension sur un site donné. Lorsque vous le faites, l'extension ne demandera qu'un accès en lecture/modification de ce site. Par conséquent, si vous voulez profiter de la configuration "sans autorisation" d'uBlock Origin Lite, vous devriez probablement laisser le paramètre par défaut sur "Basique" et ne l'augmenter que sur les sites où ce niveau n'est pas adéquat.
 
-uBlock Origin Lite only receives block list updates whenever the extension is updated from your browser's extension marketplace, as opposed to on demand. Google a mis en place une [procédure de révision accélérée] (https://developer.chrome.com/docs/webstore/skip-review) pour les mises à jour de filtres, ce qui signifie que vous recevez toujours des mises à jour de la liste de filtres aussi souvent que uBlock Origin Lite choisit de publier une version (historiquement tous les 2 à 7 jours). Toutefois, seules les prétendues "[règles sûres](https://developer.chrome.com/docs/extensions/reference/api/declarativeNetRequest#safe_rules)" peuvent être mises à jour, ce qui peut limiter la fréquence de mise à jour des listes utilisant des techniques avancées.
+uBlock Origin Lite ne reçoit les mises à jour de la liste de blocage que lorsque l'extension est mise à jour depuis le marché des extensions de votre navigateur, et non pas sur demande. Google a mis en place une [procédure de révision accélérée] (https://developer.chrome.com/docs/webstore/skip-review) pour les mises à jour de filtres, ce qui signifie que vous recevez toujours des mises à jour de la liste de filtres aussi souvent que uBlock Origin Lite choisit de publier une version (historiquement tous les 2 à 7 jours). Toutefois, seules les prétendues "[règles sûres](https://developer.chrome.com/docs/extensions/reference/api/declarativeNetRequest#safe_rules)" peuvent être mises à jour, ce qui peut limiter la fréquence de mise à jour des listes utilisant des techniques avancées.
 
 ### AdGuard
 
-We recommend [Safari](mobile-browsers.md#safari-ios) for iOS users, which unfortunately is not supported by uBlock Origin. Luckily, AdGuard provides an adequate alternative:
+Nous recommandons [Safari](mobile-browsers.md#safari-ios) pour les utilisateurs d'iOS, qui n'est malheureusement pas pris supporté par uBlock Origin. Heureusement, AdGuard offre une alternative adéquate :
 
 <div class="admonition recommendation" markdown>
 
