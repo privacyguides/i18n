@@ -1,5 +1,5 @@
 ---
-title: E-Mail-Aliasing
+title: "E-Mail-Aliasing"
 icon: material/email-lock
 description: Mit einem E-Mail-Aliasing-Dienst kannst du für jede Website, für die du dich anmeldest, ganz einfach eine neue E-Mail-Adresse generieren.
 cover: email-aliasing.webp

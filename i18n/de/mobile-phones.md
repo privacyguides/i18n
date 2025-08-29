@@ -1,5 +1,5 @@
 ---
-title: Mobiltelefone
+title: "Mobiltelefone"
 icon: material/cellphone-check
 description: Diese mobilen Geräte bieten die beste Hardware-Sicherheitsunterstützung für benutzerdefinierte Android-Betriebssysteme.
 cover: android.webp
@@ -7,7 +7,7 @@ schema:
   - "@context": http://schema.org
     "@type": WebPage
     name: Empfehlungen für Mobiltelefone
-    url: ./
+    url: "./"
   - "@context": http://schema.org
     "@type": Product
     name: Pixel

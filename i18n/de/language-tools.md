@@ -1,5 +1,5 @@
 ---
-title: Language Tools
+title: "Language Tools"
 icon: material/alphabetical-variant
 description: Diese Sprachtools senden deinen Eingabetext nicht an einen Server und können offline und selbst gehostet verwendet werden.
 cover: language-tools.webp

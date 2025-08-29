@@ -1,6 +1,6 @@
 ---
-title: Hardware auswählen
-icon: material/chip
+title: "Hardware auswählen"
+icon: 'material/chip'
 description: Software ist nicht alles, was zählt. Informiere dich über die Hardware-Tools, die du täglich zum Schutz deiner Daten verwendest.
 ---
 

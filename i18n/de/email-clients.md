@@ -1,25 +1,25 @@
 ---
-title: "Email Clients"
+title: "Email-Clients"
 icon: material/email-open
-description: These email clients are privacy-respecting and support OpenPGP email encryption.
+description: Diese Email-Clients sind Datenschutzfreundlich und unterstützen OpenPGP Email Verschlüsselung.
 cover: email-clients.webp
 ---
 
 <small>Schützt vor der/den folgenden Bedrohung(en):</small>
 
 - [:material-server-network: Diensteanbieter](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
+- [:material-target-account: Gezielte Angriffe](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
-The **email clients** we recommend support both [OpenPGP](encryption.md#openpgp) and strong authentication such as [Open Authorization (OAuth)](basics/account-creation.md#sign-in-with-oauth). OAuth allows you to use [Multi-Factor Authentication](basics/multi-factor-authentication.md) to prevent account theft.
+Die <string x-id="1">Email Clients</strong> die wir empfehlen unterstützen [OpenPGP](encryption.md#openpgp) sowie starke Authentifizierung wie z.B. [Open Authorization (Oauth)](basics/account-creation.md#sign-in-with-oauth). OAuth lässt dich [Multi-Faktor Authentifizierung](basics/multi-factor-authentication.md) nutzen, um Kontendiebstahl zu verhindern.
 
 <details class="warning" markdown>
-<summary>Email does not provide forward secrecy</summary>
+<summary>Email bietet keinen Forward-Secrecy</summary>
 
-When using end-to-end encryption (E2EE) technology like OpenPGP, email will still have [some metadata](basics/email-security.md#email-metadata-overview) that is not encrypted in the header of the email.
+Wenn man Ende-zu-Ende-Verschlüsselung (E2EE) wie OpenPGP benutzt, werden trotzdem [manche Metadaten](basics/email-security.md#email-metadata-overview) im Email-Header nicht verschlüsselt.
 
-OpenPGP also does not support [forward secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), which means if either your or the recipient's private key is ever stolen, all previous messages encrypted with it will be exposed: [How do I protect my private keys?](basics/email-security.md) Consider using a medium that provides forward secrecy:
+OpenPGP unterstützt ebenfalls nicht [Forward-Secrecy](https://en.wikipedia.org/wiki/Forward_secrecy), das heißt, wenn der private Schlüssel von dir oder deinem Empfänger gestohlen werden, können alle Nachrichten, die mit dem Schlüssel verschlüsselt waren, preisgeben werden: [Wie beschütze ich meine private Schlüssel?](basics/email-security.md) Wende dich an einem Medium dass Forward-Secrecy unterstützt:
 
-[Real-time Communication](real-time-communication.md ""){.md-button}
+[Echtzeit Kommunikation](real-time-communication.md ""){.md-button}
 
 </details>
 

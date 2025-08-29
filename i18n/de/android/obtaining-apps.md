@@ -1,5 +1,5 @@
 ---
-title: Apps beschaffen
+title: "Apps beschaffen"
 description: We recommend these methods for obtaining applications on Android without interacting with Google Play Services.
 ---
 
@@ -86,26 +86,26 @@ Wenn du APK-Dateien herunterlädst, um sie manuell zu installieren, kannst du ih
 
 3. Entpacke das heruntergeladene Archiv:
 
-    ```bash
-    unzip commandlinetools-*.zip
-    cd cmdline-tools
-    ./bin/sdkmanager --sdk_root=./ "build-tools;29.0.3"
-    ```
+   ```bash
+   unzip commandlinetools-*.zip
+   cd cmdline-tools
+   ./bin/sdkmanager --sdk_root=./ "build-tools;29.0.3"
+   ```
 
 4. Führe den Befehl zur Signaturüberprüfung aus:
 
-    ```bash
-    ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk
-    ```
+   ```bash
+   ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk
+   ```
 
 5. Die resultierenden Hashes können dann mit einer anderen Quelle verglichen werden. Einige Entwickler wie Signal [zeigen die Fingerabdrücke](https://signal.org/android/apk) auf ihrer Website.
 
-    ```bash
-    Signer #1 certificate DN: CN=GrapheneOS
-    Signer #1 certificate SHA-256 digest: 6436b155b917c2f9a9ed1d15c4993a5968ffabc94947c13f2aeee14b7b27ed59
-    Signer #1 certificate SHA-1 digest: 23e108677a2e1b1d6e6b056f3bb951df7ad5570c
-    Signer #1 certificate MD5 digest: dbbcd0cac71bd6fa2102a0297c6e0dd3
-    ```
+   ```bash
+   Signer #1 certificate DN: CN=GrapheneOS
+   Signer #1 certificate SHA-256 digest: 6436b155b917c2f9a9ed1d15c4993a5968ffabc94947c13f2aeee14b7b27ed59
+   Signer #1 certificate SHA-1 digest: 23e108677a2e1b1d6e6b056f3bb951df7ad5570c
+   Signer #1 certificate MD5 digest: dbbcd0cac71bd6fa2102a0297c6e0dd3
+   ```
 
 ## F-Droid
 

@@ -1,5 +1,5 @@
 ---
-title: Pastebins
+title: "Pastebins"
 icon: material/content-paste
 description: Mit diesen Tools hast du die volle Kontrolle über alle Daten, die du an andere Parteien weitergibst.
 cover: pastebins.webp

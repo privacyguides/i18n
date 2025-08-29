@@ -1,12 +1,12 @@
 ---
-meta_title: Die besten Android-Betriebssysteme - Privacy Guides
-title: Alternative Distributionen
+meta_title: "Die besten Android-Betriebssysteme - Privacy Guides"
+title: "Alternative Distributionen"
 description: Du kannst das Betriebssystem deines Android-Handys mit diesen sicheren und Privatsphäre-freundlichen Alternativen ersetzen.
 schema:
   - "@context": http://schema.org
     "@type": WebPage
     name: Private Android-Betriebssysteme
-    url: ./
+    url: "./"
   - "@context": http://schema.org
     "@type": CreativeWork
     name: GrapheneOS
@@ -16,7 +16,7 @@ schema:
     subjectOf:
       "@context": http://schema.org
       "@type": WebPage
-      url: ./
+      url: "./"
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 
