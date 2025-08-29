@@ -1,7 +1,7 @@
 ---
 title: Serveurs de messagerie
 meta_title: "Email auto-hébergé - Privacy Guides"
-icon: materiel/email
+icon: material/email
 description: Pour nos lecteurs plus avancés, l'auto-hébergement de votre propre courrier électronique peut fournir des garanties supplémentaires en matière de confidentalité en vous permettant de contrôler au maximum vos données.
 cover: email.webp
 ---
