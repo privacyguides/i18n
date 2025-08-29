@@ -36,9 +36,9 @@ Si te preocupa mucho que un servidor existente censure tu contenido, el contenid
 
 2. **Utiliza un servicio de alojamiento gestionado.** No tenemos recomendaciones específicas, pero hay una gran variedad de servicios de alojamiento que crearán un servidor completamente nuevo en tu propio dominio (u ocasionalmente un subdominio de su dominio, pero no lo recomendamos a menos que registrar tu propio dominio suponga una carga demasiado grande para tu privacidad).
 
-    Normalmente, los proveedores de alojamiento se encargan de la parte _técnica_ de tu servidor, pero dejan completamente en tus manos la _moderación_. Esto suele ser mejor que el autoalojamiento para la mayoría de la gente, ya que puedes beneficiarte de un mayor control sobre tu propio servidor sin preocuparte por problemas técnicos o vulnerabilidades de seguridad sin parchear.
+   Normalmente, los proveedores de alojamiento se encargan de la parte _técnica_ de tu servidor, pero dejan completamente en tus manos la _moderación_. Esto suele ser mejor que el autoalojamiento para la mayoría de la gente, ya que puedes beneficiarte de un mayor control sobre tu propio servidor sin preocuparte por problemas técnicos o vulnerabilidades de seguridad sin parchear.
 
-    Antes de registrarte, deberías leer atentamente las condiciones de servicio y la política de uso aceptable de tu proveedor de alojamiento. Suelen ser mucho más amplias que las normas típicas de los servidores alojados, y es mucho menos probable que se apliquen sin recurso, pero aun así pueden ser restrictivas de formas no deseadas.
+   Antes de registrarte, deberías leer atentamente las condiciones de servicio y la política de uso aceptable de tu proveedor de alojamiento. Suelen ser mucho más amplias que las normas típicas de los servidores alojados, y es mucho menos probable que se apliquen sin recurso, pero aun así pueden ser restrictivas de formas no deseadas.
 
 ## Mastodon
 
@@ -77,7 +77,7 @@ Hay una serie de controles de privacidad en la pestaña **privacidad y alcance**
 
 - [ ] **Aceptar automáticamente nuevos seguidores**: Deberías considerar desmarcar esta casilla para tener un perfil privado. Esto te permitirá revisar quién puede seguir tu cuenta antes de aceptarlos.
 
-    A diferencia de la mayoría de las plataformas de redes sociales, si tienes un perfil privado todavía tienes la _opción_ de publicar mensajes que son visibles públicamente para los que no te siguen y que pueden ser impulsados por los que no te siguen. Por lo tanto, desmarcar esta casilla es la única manera de tener la _opción_ de publicar para todo el mundo o para un grupo selecto de personas.
+  A diferencia de la mayoría de las plataformas de redes sociales, si tienes un perfil privado todavía tienes la _opción_ de publicar mensajes que son visibles públicamente para los que no te siguen y que pueden ser impulsados por los que no te siguen. Por lo tanto, desmarcar esta casilla es la única manera de tener la _opción_ de publicar para todo el mundo o para un grupo selecto de personas.
 
 - [ ] **Mostrar seguidos y seguidores en el perfil**: Deberías desmarcar esta casilla para ocultar tu gráfico social al público. Es bastante infrecuente que la lista de personas a las que sigues tenga algún beneficio genuino para los demás, pero esa información puede suponer un riesgo para ti.
 

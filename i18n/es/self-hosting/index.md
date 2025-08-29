@@ -68,32 +68,32 @@ El autoalojamiento de tu propia instancia de una interfaz de usuario basada en w
 
 - ![Redlib logo](../assets/img/frontends/redlib.svg){ .lg .middle .twemoji } [**Redlib (Reddit)**](../frontends.md#redlib)
 
-    ---
+  ---
 
-    [:octicons-info-16:](https://github.com/redlib-org/redlib#deployment){ .card-link title="Documentación de Administrador" }
-    [:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Código Fuente" }
+  [:octicons-info-16:](https://github.com/redlib-org/redlib#deployment){ .card-link title="Documentación de Administrador" }
+  [:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Código Fuente" }
 
 - ![ProxiTok logo](../assets/img/frontends/proxitok.svg){ .lg .middle .twemoji } [**ProxiTok (TikTok)**](../frontends.md#proxitok)
 
-    ---
+  ---
 
-    [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki/Self-hosting){ .card-link title="Documentación de Administrador" }
-    [:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Código Fuente" }
+  [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki/Self-hosting){ .card-link title="Documentación de Administrador" }
+  [:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Código Fuente" }
 
 - ![Invidious logo](../assets/img/frontends/invidious.svg#only-light){ .twemoji }![Invidious logo](../assets/img/frontends/invidious-dark.svg#only-dark){ .twemoji } [**Invidious (YouTube)**](../frontends.md#invidious)
 
-    ---
+  ---
 
-    [:octicons-home-16:](https://invidious.io){ .card-link title="Página Principal" }
-    [:octicons-info-16:](https://docs.invidious.io/installation){ .card-link title="Documentación de Administrador" }
-    [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Código Fuente" }
+  [:octicons-home-16:](https://invidious.io){ .card-link title="Página Principal" }
+  [:octicons-info-16:](https://docs.invidious.io/installation){ .card-link title="Documentación de Administrador" }
+  [:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Código Fuente" }
 
 - ![Piped logo](../assets/img/frontends/piped.svg){ .twemoji } [**Piped (YouTube)**](../frontends.md#piped)
 
-    ---
+  ---
 
-    [:octicons-info-16:](https://docs.piped.video/docs/self-hosting){ .card-link title="Documentación de Administrador" }
-    [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Código Fuente" }
+  [:octicons-info-16:](https://docs.piped.video/docs/self-hosting){ .card-link title="Documentación de Administrador" }
+  [:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Código Fuente" }
 
 </div>
 
@@ -105,66 +105,66 @@ Las recomendaciones de herramientas en otras categorías del sitio web también 
 
 - ![Addy.io logo](../assets/img/email-aliasing/addy.svg){ .twemoji } [**Addy.io**](../email-aliasing.md#addyio)
 
-    ---
+  ---
 
-    [:octicons-home-16:](https://addy.io){ .card-link title="Página Principal" }
-    [:octicons-info-16:](https://addy.io/self-hosting){ .card-link title="Documentación de Administrador" }
-    [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Código Fuente" }
+  [:octicons-home-16:](https://addy.io){ .card-link title="Página Principal" }
+  [:octicons-info-16:](https://addy.io/self-hosting){ .card-link title="Documentación de Administrador" }
+  [:octicons-code-16:](https://github.com/anonaddy){ .card-link title="Código Fuente" }
 
 - ![SimpleLogin logo](../assets/img/email-aliasing/simplelogin.svg){ .twemoji } [**SimpleLogin**](../email-aliasing.md#simplelogin)
 
-    ---
+  ---
 
-    [:octicons-home-16:](https://addy.io){ .card-link title="Página Principal" }
-    [:octicons-info-16:](https://github.com/simple-login/app#prerequisites){ .card-link title="Documentación de Administrador" }
-    [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Código Fuente" }
+  [:octicons-home-16:](https://addy.io){ .card-link title="Página Principal" }
+  [:octicons-info-16:](https://github.com/simple-login/app#prerequisites){ .card-link title="Documentación de Administrador" }
+  [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Código Fuente" }
 
 - ![CryptPad logo](../assets/img/document-collaboration/cryptpad.svg){ .twemoji } [**CryptPad**](../document-collaboration.md#cryptpad)
 
-    ---
+  ---
 
-    [:octicons-home-16:](https://cryptpad.fr){ .card-link title="Página Principal" }
-    [:octicons-info-16:](https://docs.cryptpad.org/en/admin_guide/index.html){ .card-link title="Documentación de Administrador" }
-    [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Código Fuente" }
+  [:octicons-home-16:](https://cryptpad.fr){ .card-link title="Página Principal" }
+  [:octicons-info-16:](https://docs.cryptpad.org/en/admin_guide/index.html){ .card-link title="Documentación de Administrador" }
+  [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Código Fuente" }
 
 - ![Miniflux logo](../assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](../assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [**Miniflux**](../news-aggregators.md#miniflux)
 
-    ---
+  ---
 
-    [:octicons-home-16:](https://miniflux.app){ .card-link title="Página Principal" }
-    [:octicons-info-16:](https://miniflux.app/docs/index.html#administration-guide){ .card-link title="Documentación de Administrador" }
-    [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Código Fuente" }
+  [:octicons-home-16:](https://miniflux.app){ .card-link title="Página Principal" }
+  [:octicons-info-16:](https://miniflux.app/docs/index.html#administration-guide){ .card-link title="Documentación de Administrador" }
+  [:octicons-code-16:](https://github.com/miniflux/v2){ .card-link title="Código Fuente" }
 
 - ![Standard Notes logo](../assets/img/notebooks/standard-notes.svg){ .twemoji } [**Standard Notes**](../notebooks.md#standard-notes)
 
-    ---
+  ---
 
-    [:octicons-home-16:](https://standardnotes.com){ .card-link title="Página Principal" }
-    [:octicons-info-16:](https://standardnotes.com/help/47/can-i-self-host-standard-notes){ .card-link title="Documentación de Administrador" }
-    [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Código Fuente" }
+  [:octicons-home-16:](https://standardnotes.com){ .card-link title="Página Principal" }
+  [:octicons-info-16:](https://standardnotes.com/help/47/can-i-self-host-standard-notes){ .card-link title="Documentación de Administrador" }
+  [:octicons-code-16:](https://github.com/standardnotes){ .card-link title="Código Fuente" }
 
 - ![PrivateBin logo](../assets/img/pastebins/privatebin.svg){ .twemoji } [**PrivateBin**](../pastebins.md#privatebin)
 
-    ---
+  ---
 
-    [:octicons-home-16:](https://privatebin.info){ .card-link title="Página Principal" }
-    [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/blob/master/doc/Installation.md){ .card-link title="Documentación de Administrador" }
-    [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Código Fuente" }
+  [:octicons-home-16:](https://privatebin.info){ .card-link title="Página Principal" }
+  [:octicons-info-16:](https://github.com/PrivateBin/PrivateBin/blob/master/doc/Installation.md){ .card-link title="Documentación de Administrador" }
+  [:octicons-code-16:](https://github.com/PrivateBin/PrivateBin){ .card-link title="Código Fuente" }
 
 - ![Paaster logo](../assets/img/pastebins/paaster.svg){ .twemoji } [**Paaster**](../pastebins.md#paaster)
 
-    ---
+  ---
 
-    [:octicons-home-16:](https://paaster.io){ .card-link title="Página Principal" }
-    [:octicons-info-16:](https://github.com/WardPearce/paaster#deployment){ .card-link title="Documentación de Administrador" }
-    [:octicons-code-16:](https://github.com/WardPearce/paaster){ .card-link title="Código Fuente" }
+  [:octicons-home-16:](https://paaster.io){ .card-link title="Página Principal" }
+  [:octicons-info-16:](https://github.com/WardPearce/paaster#deployment){ .card-link title="Documentación de Administrador" }
+  [:octicons-code-16:](https://github.com/WardPearce/paaster){ .card-link title="Código Fuente" }
 
 - ![SimpleX Chat logo](../assets/img/messengers/simplex.svg){ .twemoji } [**SimpleX Chat**](../real-time-communication.md#simplex-chat)
 
-    ---
+  ---
 
-    [:octicons-home-16:](https://simplex.chat){ .card-link title="Página Principal" }
-    [:octicons-info-16:](https://simplex.chat/docs/server.html){ .card-link title="Documentación de Administrador" }
-    [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Código Fuente" }
+  [:octicons-home-16:](https://simplex.chat){ .card-link title="Página Principal" }
+  [:octicons-info-16:](https://simplex.chat/docs/server.html){ .card-link title="Documentación de Administrador" }
+  [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Código Fuente" }
 
 </div>

@@ -12,7 +12,7 @@ Privacy Guides aspira a obtener financiación de una amplia variedad de fuentes 
 En el curso de nuestras actividades habituales de recaudación de fondos...
 
 - En general, se aceptarán donaciones y otras formas de ayuda de particulares, empresas, fundaciones u otras entidades, sin limitaciones.
-    - Esto incluye efectivo, equivalentes de efectivo (cheques, giros postales, pagos con tarjeta de crédito/débito) y criptomonedas.
+  - Esto incluye efectivo, equivalentes de efectivo (cheques, giros postales, pagos con tarjeta de crédito/débito) y criptomonedas.
 - Solo se aceptarán donaciones de bienes inmuebles, propiedad privada o valores financieros previa aprobación del Consejo de Administración de MAGIC Grants.
 
 Privacy Guides solo aceptará regalos que sean legales y coherentes con nuestras políticas. Los regalos no deben interferir con la misión, el propósito y los procedimientos de Privacy Guides.

@@ -163,7 +163,7 @@ Para comprobar la autenticidad y seguridad del modelo, busca:
 - Comentarios de la comunidad y estadísticas de uso
 - Un distintivo "Seguro" junto a la ficha del modelo (solo Hugging Face)
 - Checksums coincidentes[^1]
-    - En Hugging Face, puedes encontrar el hash haciendo clic en un archivo de modelo y buscando el botón **Copy SHA256** debajo de él. Debes comparar esta checksum con la del fichero modelo que has descargado.
+  - En Hugging Face, puedes encontrar el hash haciendo clic en un archivo de modelo y buscando el botón **Copy SHA256** debajo de él. Debes comparar esta checksum con la del fichero modelo que has descargado.
 
 Por lo general, un modelo descargado es seguro si satisface todas las comprobaciones anteriores.
 
