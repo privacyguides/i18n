@@ -103,20 +103,20 @@ Proton [теперь поддерживает IPv6](https://protonvpn.com/suppor
 
 #### :material-information-outline:{ .pg-blue } Борьба с цензурой
 
-У Proton VPN есть протокол [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol), который *может* помочь в ситуациях, когда такие VPN-протоколы, как OpenVPN или WireGuard, блокируются с помощью ряда простейших приёмов. Stealth encapsulates the VPN tunnel in TLS session in order to look like more generic internet traffic.
+У Proton VPN есть протокол [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol), который *может* помочь в ситуациях, когда такие VPN-протоколы, как OpenVPN или WireGuard, блокируются с помощью ряда простейших приёмов. Stealth инкапсулирует VPN-туннель в сессию TLS, чтобы он выглядел как обычный интернет-трафик.
 
-Unfortunately, it does not work very well in countries where sophisticated filters that analyze all outgoing traffic in an attempt to discover encrypted tunnels are deployed. Stealth is available on Android, iOS, Windows, and macOS, but it's not yet available on Linux.
+К сожалению, это не очень хорошо работает в странах, где используются сложные фильтры, анализирующие весь исходящий трафик в попытке обнаружить зашифрованные туннели. Stealth доступен на Android, iOS, Windows и macOS, но пока недоступен на Linux.
 
 #### :material-check:{ .pg-green } Приложения для смартфонов
 
-Proton VPN has published [App Store](https://apps.apple.com/app/id1437005085) and [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. Клиент для Android также доступен на [GitHub](https://github.com/ProtonVPN/android-app/releases).
+Proton VPN опубликовал клиенты [App Store](https://apps.apple.com/app/id1437005085) и [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android), оба из которых поддерживают простой в использовании интерфейс, в отличие от необходимости вручную настраивать соединение WireGuard. Клиент для Android также доступен на [GitHub](https://github.com/ProtonVPN/android-app/releases).
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">How to opt out of sharing telemetry</p>
+<p class="admonition-title">Как отказаться от передачи телеметрии</p>
 
-On Android, Proton hides telemetry settings under the misleadingly labeled "**Help us fight censorship**" menu in the settings panel. On other platforms these settings can be found under the "**Usage statistics**" menu.
+На Android, Proton скрывает настройки телеметрии под вводящим в заблуждение названием "**Помогите нам бороться с цензурой**" в панели настроек. На других платформах эти настройки можно найти в меню "**Статистика использования**".
 
-We are noting this because while we don't necessarily recommend against sharing anonymous usage statistics with developers, it is important that these settings are easily found and clearly labeled.
+Мы отмечаем это, поскольку, хотя мы не обязательно выступаем против передачи анонимной статистики использования разработчикам, важно, чтобы эти настройки было легко найти, и они имели четкие обозначения.
 
 </div>
 

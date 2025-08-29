@@ -334,18 +334,18 @@ Brave позволяет выбирать дополнительные филь�
 
 #### Web3
 
-Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of these features, they should be disabled.
+Функции Web3 в Brave потенциально могут расширить ваш цифровой отпечаток браузера и увеличить поверхность атаки. Если вы не используете эти функции, их следует отключить.
 
 - Select **Extensions (no fallback)** under *Default Ethereum wallet*
 - Select **Extensions (no fallback)** under *Default Solana wallet*
 
-#### Extensions
+#### Расширения
 
-- [ ] Uncheck all built-in extensions you don't use
+- Отключите все встроенные расширения, которые вы не используете
 
 #### Поисковая система
 
-We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
+Мы рекомендуем отключить поисковые подсказки в Brave по той же причине, по которой мы рекомендуем отключать эту функцию в [Firefox](#search).
 
 - [ ] Отключите **Показывать подсказки при поиске**
 
@@ -353,7 +353,7 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Continue running background apps when Brave is closed** to disable background apps (1)
+Отключите **Continue running background apps when Brave is closed** (Продолжать работу фоновых приложений при закрытии Brave), чтобы отключить фоновые приложения (1)
 
 </div>
 
@@ -361,13 +361,13 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 #### Синхронизация Brave
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) позволяет вашим данным просмотра (истории, закладкам и т.д.) быть доступными на всех ваших устройствах без необходимости создания учетной записи и защищает их сквозным шифрованием (E2EE).
 
 #### Награды Brave и Кошелёк
 
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Brave Rewards** позволяет вам получать криптовалюту Basic Attention Token (BAT) за выполнение определенных действий в Brave. Для этого требуется кастодиальный аккаунт и прохождение процедуры KYC (идентификации клиента) у ограниченного числа провайдеров. Мы не рекомендуем BAT как [приватную криптовалюту](cryptocurrency.md), а также не рекомендуем использовать [кастодиальный кошелек](advanced/payments.md#wallet-custody), поэтому мы не советуем использовать эту функцию.
 
-**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
+**Brave Wallet** работает локально на вашем компьютере, но не поддерживает ни одну приватную криптовалюту, поэтому мы также не рекомендуем использовать эту функцию.
 
 ## Критерии
 
@@ -377,22 +377,22 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 - Должен быть с открытым исходным кодом.
 - Должен поддерживать автоматические обновления.
-- Must receive engine updates in 0-1 days from upstream release.
+- Должен получать обновления движка в течение 0-1 дней с момента выпуска исходной версии.
 - Должен быть доступен на Linux, macOS и Windows.
 - Все изменения, направленные на улучшение конфиденциальности браузера, не должны отрицательно сказываться на удобстве его использования.
 - Должен блокировать сторонние куки по умолчанию.
-- Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- Должен поддерживать [разделение состояния](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) для предотвращения межсайтового отслеживания.[^1]
 
 ### В лучшем случае
 
 Эти критерии представляют собой то, что мы хотели бы видеть от идеального проекта в этой категории. Наши рекомендации могут не соответствовать всем или нескольким из этих критериев, но проекты, которые им соответствуют, расположены выше остальных.
 
-- Should include built-in content blocking functionality.
-- Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Should support Progressive Web Apps (PWAs). PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps because PWAs benefit from your browser's regular security updates.
-- Should not include add-on functionality (bloatware) that does not impact user privacy.
-- Should not collect telemetry by default.
-- Should provide an open-source sync server implementation.
-- Should default to a [private search engine](search-engines.md).
+- Должен включать встроенную функциональность блокировки контента.
+- Должен поддерживать изоляцию файлов cookie (наподобие [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
+- Должна поддерживать прогрессивные веб-приложения (PWA). PWAs позволяют вам устанавливать определенные веб-сайты так, как если бы они были нативными приложениями на вашем компьютере. Это может иметь преимущества перед установкой приложений на базе Electron, поскольку PWA получают пользу от регулярных обновлений безопасности вашего браузера.
+- Не должен включать дополнительные функции (bloatware), которые не влияют на конфиденциальность пользователя.
+- Не должен собирать телеметрию по умолчанию.
+- Должен предоставлять реализацию сервера синхронизации с открытым исходным кодом.
+- Должен использовать [приватную поисковую систему](search-engines.md) по умолчанию.
 
-[^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).
+[^1]: Реализация в Brave подробно описана в [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state) (Обновления конфиденциальности Brave: Разделение сетевого состояния для конфиденциальности).
