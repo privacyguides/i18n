@@ -80,7 +80,7 @@ Non dovresti **mai** installare alcun'estensione aggiuntiva su Tor Browser o mod
 
 </div>
 
-Tor Browser è progettato per impedire il fingerprinting, o la tua identificazione secondo la configurazione del tuo browser. Pertanto, è imperativo **non** modificare il browser oltre i livelli di [sicurezza](https://tb-manual.torproject.org/security-settings) predefiniti. When modifying the security level setting, you **must** always restart the browser before continuing to use it. In caso contrario, [le impostazioni di sicurezza potrebbero non essere applicate completamente](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), esponendoti a un rischio di fingerprinting e di exploit più elevato di quello previsto in base all'impostazione da te scelta.
+Tor Browser è progettato per impedire il fingerprinting, o la tua identificazione secondo la configurazione del tuo browser. Pertanto, è imperativo **non** modificare il browser oltre i livelli di [sicurezza](https://tb-manual.torproject.org/security-settings) predefiniti. Quando modifichi il livello di sicurezza, **devi** sempre riavviare il browser prima di continuare a usarlo. In caso contrario, [le impostazioni di sicurezza potrebbero non essere applicate completamente](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), esponendoti a un rischio di fingerprinting e di exploit più elevato di quello previsto in base all'impostazione da te scelta.
 
 Oltre a installare Tor Browser direttamente sul tuo computer, esistono inoltre dei sistemi operativi specificamente progettati per connettersi alla rete di Tor, come [Whonix](desktop.md#whonix) su [Qubes OS](desktop.md#qubes-os), che forniscono sicurezza e protezioni persino maggiori, rispetto al solo Tor Browser standard.
 
@@ -92,13 +92,13 @@ Oltre a installare Tor Browser direttamente sul tuo computer, esistono inoltre d
 
 **Onion Browser** è un browser open-source che consente di navigare sul web in modo anonimo attraverso la rete Tor su dispositivi iOS ed è approvato dal [Tor Project](https://support.torproject.org/glossary/onion-browser).
 
-[:material-star-box: Read our latest Onion Browser review.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
+[:material-star-box: Leggi la nostra ultima recensione su Onion Browser.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
 
-[:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title="Contribute" }
+[:octicons-home-16: Pagina Principale](https://onionbrowser.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Informativa Sulla Privacy" }
+[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title="Documentazione" }
+[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title="Contribuisci" }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -109,6 +109,6 @@ Oltre a installare Tor Browser direttamente sul tuo computer, esistono inoltre d
 
 </div>
 
-Onion Browser does not provide the same levels of privacy protections as Tor Browser does on desktop platforms. For casual use it is a perfectly fine way to access hidden services, but if you're concerned about being traced or monitored by advanced adversaries you should not rely on this as an anonymity tool.
+Onion Browser non offre lo stesso livello di protezione della privacy rispetto a Tor Browser sulle piattaforme desktop. Per un uso occasionale è un modo perfettamente valido per accedere ai servizi nascosti, ma se sei preoccupato di essere tracciato o monitorato da avversari avanzati, non dovresti fare affidamento su di esso come strumento di anonimato.
 
-[Notably](https://github.com/privacyguides/privacyguides.org/issues/2929), Onion Browser does not *guarantee* all requests go through Tor. When using the built-in version of Tor, [your real IP **will** be leaked via WebRTC and audio/video streams](https://onionbrowser.com/faqs) due to limitations of WebKit. It is *safer* to use Onion Browser alongside [Orbot](alternative-networks.md#orbot), but this still comes with some limitations on iOS.
+È importante [notare](https://onionbrowser.com/faqs) che Onion Browser non **garantisce** che tutte le richieste passino attraverso Tor. Quando si utilizza la versione integrata di Tor, il tuo *vero indirizzo IP[trapelerà](alternative-networks.md#orbot) tramite WebRTC e flussi audio/video a causa delle limitazioni di WebKit. È *più sicuro* usare Onion Browser insieme a [Orbot](alternative-networks.md#orbot), ma ci sono comunque alcune limitazioni su iOS.</p>
