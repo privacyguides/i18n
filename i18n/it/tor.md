@@ -42,7 +42,7 @@ Prima di connetterti a Tor, ti preghiamo di assicurarti di aver letto la nostra 
 
 Esistono diversi modi per connettersi alla rete Tor dal proprio dispositivo, il più utilizzato è il **Tor Browser**, un fork di Firefox progettato per la navigazione [:material-incognito: anonima ](basics/common-threats.md#anonymity-vs-privacy ""){.pg-purple} per computer desktop e Android.
 
-Some of these apps are better than others; making a determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using mobile browser apps like [Onion Browser](#onion-browser-ios) to access the Tor network is probably fine. Incrementare il numero di persone che utilizzano Tor su una base giornaliera, aiuta a ridurre il cattivo stigma nei confronti di Tor, e riduce la qualità degli "elenchi di utenti di Tor", che gli ISP e i governi potrebbero compilare.
+Alcune di queste app sono migliori di altre; la scelta dipende dal tuo modello di minaccia. Se sei un utente occasionale di Tor e non ti preoccupi che il tuo provider Internet raccolga prove contro di te, probabilmente va bene utilizzare un browser per dispositivi mobili come [Onion Browser](#onion-browser-ios) per accedere alla rete Tor. Incrementare il numero di persone che utilizzano Tor su una base giornaliera, aiuta a ridurre il cattivo stigma nei confronti di Tor, e riduce la qualità degli "elenchi di utenti di Tor", che gli ISP e i governi potrebbero compilare.
 
 Se l'anonimato più completo è fondamentale per la tua situazione, dovresti utilizzare **soltanto** il client del Browser Tor per desktop, idealmente in una configurazione [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os). I browser mobile sono meno diffusi su Tor (di conseguenza, sono più facilmente rilevabili). Inoltre, altre configurazioni non sono testate in modo così rigoroso contro la de-anonimizzazione.
 
@@ -50,18 +50,18 @@ Se l'anonimato più completo è fondamentale per la tua situazione, dovresti uti
 
 <div class="admonition recommendation" markdown>
 
-![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
+![Logo di Tor Browser]assets/img/browsers/tor.svg{ align=right }
 
-**Tor Browser** is the top choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+**Tor Browser** è la scelta migliore se hai bisogno di anonimato, poiché ti consente di accedere alla rete Tor e ai bridge, e include impostazioni e estensioni predefinite configurate automaticamente dai livelli di sicurezza predefiniti: *Standard*, *Sicuro* e *Il più sicuro*.
 
-[:octicons-home-16: Homepage](https://torproject.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title="Documentation" }
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title="Contribute" }
+[:octicons-home-16: Pagina Principale](https://torproject.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Servizio Onion" }
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title="Documentazione" }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Codice Sorgente" }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title="Contribuisci" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<strong x-id="1">Scarica</strong>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
 - [:simple-android: Android](https://torproject.org/download/#android)
