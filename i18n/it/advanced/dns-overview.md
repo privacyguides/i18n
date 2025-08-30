@@ -4,7 +4,7 @@ icon: material/dns
 description: Il Sistema dei Nomi di Dominio è la "rubrica dell'Internet", aiutando il tuo browser a trovare il sito web che sta cercando.
 ---
 
-The [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System) is the 'phone book of the Internet'. Il DNS traduce i nomi di dominio in indirizzi IP, così che i browser e altri servizi possano caricare le risorse di Internet, tramite una rete decentralizzata di server.
+Il [Sistema dei Nomi di Dominio (DNS)](https://en.wikipedia.org/wiki/Domain_Name_System) è la "rubrica telefonica di Internet". Il DNS traduce i nomi di dominio in indirizzi IP, così che i browser e altri servizi possano caricare le risorse di Internet, tramite una rete decentralizzata di server.
 
 ## Cos'è il DNS?
 
@@ -24,7 +24,7 @@ Di seguito, discutiamo e forniamo un tutorial per provare ciò che un osservator
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
     ```
 
-2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, macOS, etc.) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. I software come i browser web, svolgono automaticamente tali ricerche, a meno che non siano configurati per utilizzare il DNS crittografato.
+2. Possiamo quindi utilizzare [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (su Linux, macOS, ecc.) o [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (su Windows) per inviare la richiesta DNS a entrambi i server. I software come i browser web, svolgono automaticamente tali ricerche, a meno che non siano configurati per utilizzare il DNS crittografato.
 
     === "Linux, macOS"
 
@@ -39,7 +39,7 @@ Di seguito, discutiamo e forniamo un tutorial per provare ciò che un osservator
         nslookup privacyguides.org 8.8.8.8
         ```
 
-3. Next, we want to [analyze](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
+3. Successivamente, vogliamo [analizzare](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) i risultati:
 
     === "Wireshark"
 
@@ -70,7 +70,7 @@ Il DNS cifrato può fare riferimento a uno dei diversi protocolli, i più comuni
 
 ### DNSCrypt
 
-[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) fu uno dei primi metodi per la crittografia delle richieste DNS. DNSCrypt opera sulla porta 443 e funziona con entrambi i protocolli di trasporto TCP e UDP. DNSCrypt has never been submitted to the [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) nor has it gone through the [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments) process, so it has not been used widely outside a few [implementations](https://dnscrypt.info/implementations). Di conseguenza, è stato ampiamente sostituito dal più popolare [DNS-over-HTTPS](#dns-over-https-doh).
+[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) fu uno dei primi metodi per la crittografia delle richieste DNS. DNSCrypt opera sulla porta 443 e funziona con entrambi i protocolli di trasporto TCP e UDP. DNSCrypt non è mai stato proposto all'[Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) né ha seguito il processo di [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments), quindi non è stato utilizzato molto al di fuori di alcune [implementazioni](https://dnscrypt.info/implementations). Di conseguenza, è stato ampiamente sostituito dal più popolare [DNS-over-HTTPS](#dns-over-https-doh).
 
 ### DNS-over-TLS (DoT)
 
@@ -118,7 +118,7 @@ In questo esempio registreremo cosa si verifica quando effettuiamo una richiesta
 
 3. Dopo aver effettuato la richiesta, possiamo interrompere la cattura del pacchetto con <kbd>CTRL</kbd> + <kbd>C</kbd>.
 
-4. Analyze the results in Wireshark:
+4. Analizza i risultati in Wireshark:
 
     ```bash
     wireshark -r /tmp/dns_doh.pcap
@@ -128,7 +128,7 @@ Possiamo vedere la [creazione della connessione](https://en.wikipedia.org/wiki/T
 
 ## Perché **non dovrei** utilizzare il DNS crittografato?
 
-Nei luoghi in cui esiste il filtraggio (o censura) di Internet, visitare le risorse proibite potrebbe avere delle conseguenze, che dovresti considerare nel tuo [modello di minaccia](../basics/threat-modeling.md). Noi **non** suggeriamo di utilizzare il DNS crittografato per tale scopo. Utilizza invece [Tor](../advanced/tor-overview.md) o una [VPN](../vpn.md). Se stai utilizzando una VPN, dovresti utilizzare i server DNS della tua VPN. Utilizzando una VPN, stai già affidando loro tutta la tua attività di rete.
+Nei luoghi in cui esiste il filtraggio (o censura) di Internet, visitare le risorse proibite potrebbe avere delle conseguenze, che dovresti considerare nel tuo [modello di minaccia](../basics/threat-modeling.md). [Non](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) suggeriamo di utilizzare il DNS crittografato per tale scopo. Utilizza invece [Tor](../advanced/tor-overview.md) o una [VPN](../vpn.md). Se stai utilizzando una VPN, dovresti utilizzare i server DNS della tua VPN. Utilizzando una VPN, stai già affidando loro tutta la tua attività di rete.
 
 Quando effettuiamo una ricerca DNS, generalmente è perché desideriamo accedere a una risorsa. Di seguito, discuteremo di alcuni dei metodi che potrebbero divulgare le tue attività di navigazione, anche utilizzando il DNS crittografato:
 
@@ -136,13 +136,13 @@ Quando effettuiamo una ricerca DNS, generalmente è perché desideriamo accedere
 
 Il metodo più semplice per determinare l'attività di navigazione, potrebbe essere quello di esaminare gli indirizzi IP accessibili ai tuoi dispositivi. Ad esempio, se l'osservatore sa che `privacyguides.org` si trova a `198.98.54.105` e il tuo dispositivo sta richiedendo dei dati da `198.98.54.105`, è molto probabile che tu stia visitando Privacy Guides.
 
-Questo metodo è utile soltanto quando l'indirizzo IP appartiene a un server che ospita soltanto alcuni siti web. It's also not very useful if the site is hosted on a shared platform (e.g. GitHub Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). Inoltre, non è molto utile se il server è ospitato dietro un [proxy inverso](https://en.wikipedia.org/wiki/Reverse_proxy), molto comune sull'Internet moderno.
+Questo metodo è utile soltanto quando l'indirizzo IP appartiene a un server che ospita soltanto alcuni siti web. Non è nemmeno molto utile se il sito è ospitato su una piattaforma condivisa (ad esempio, GitHub Pages, Cloudflare Pages, Netlify, WordPress, Blogger, ecc.). Inoltre, non è molto utile se il server è ospitato dietro un [proxy inverso](https://en.wikipedia.org/wiki/Reverse_proxy), molto comune sull'Internet moderno.
 
 ### Indicazione del Nome del Server (SNI)
 
-Server Name Indication is typically used when an IP address hosts many websites. Potrebbe trattarsi di un servizio come Cloudflare, o di qualche altra protezione dagli [attacchi di Denial-of-service](https://en.wikipedia.org/wiki/Denial-of-service_attack).
+L'Indicazione del Nome del Server viene solitamente utilizzata quando un indirizzo IP ospita molti siti web. Potrebbe trattarsi di un servizio come Cloudflare, o di qualche altra protezione dagli [attacchi di Denial-of-service](https://en.wikipedia.org/wiki/Denial-of-service_attack).
 
-1. Riavvia la cattura con `tshark`. We've added a filter with our IP address, so you don't capture many packets:
+1. Riavvia la cattura con `tshark`. Abbiamo aggiunto un filtro con il nostro indirizzo IP, così non catturi troppi pacchetti:
 
     ```bash
     tshark -w /tmp/pg.pcap port 443 and host 198.98.54.105
@@ -293,7 +293,7 @@ graph TB
     ispDNS --> | No | nothing(Non fare nulla)
 ```
 
-Encrypted DNS with a third party should only be used to get around redirects and basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences, or you're interested in a provider that does some rudimentary filtering.
+Il DNS criptato con un provider esterno dovrebbe essere utilizzato solo per aggirare i reindirizzamenti e il [blocco DNS](https://en.wikipedia.org/wiki/DNS_blocking) di base quando sei sicuro che non ci saranno conseguenze, o quando sei interessato a un provider che esegue un filtraggio limitato.
 
 [Elenco dei server DNS consigliati](../dns.md ""){.md-button}
 
