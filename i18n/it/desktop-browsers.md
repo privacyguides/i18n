@@ -113,9 +113,9 @@ Ciò è necessario per impedire forme avanzate di tracciamento, a costo della co
 
 ### Mullvad Leta
 
-Mullvad Browser comes with [**Mullvad Leta**](search-engines.md#mullvad-leta) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
+Mullvad Browser include [**Mullvad Leta**](search-engines.md#mullvad-leta) come motore di ricerca predefinito, che agisce da proxy per i risultati di ricerca di Google o Brave (configurabili sulla homepage di Mullvad Leta).
 
-Se sei un utente di Mullvad VPN, c'è qualche rischio nell'utilizzare servizi come Mullvad Leta, offerti dallo stesso fornitore VPN. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta); the latter is information a VPN is typically intended to separate. Anche se Mullvad raccoglie pochissime informazioni sugli abbonati alla VPN o sugli utenti di Leta, dovresti considerare un altro [motore di ricerca](search-engines.md) se questo rischio ti preoccupa.
+Se sei un utente di Mullvad VPN, c'è qualche rischio nell'utilizzare servizi come Mullvad Leta, offerti dallo stesso fornitore VPN. Questo perché Mullvad teoricamente ha accesso al tuo vero indirizzo IP (tramite la loro VPN) e alla tua attività di ricerca (tramite Leta); quest'ultima è un'informazione che una VPN di solito dovrebbe separare. Anche se Mullvad raccoglie pochissime informazioni sugli abbonati alla VPN o sugli utenti di Leta, dovresti considerare un altro [motore di ricerca](search-engines.md) se questo rischio ti preoccupa.
 
 ## Firefox
 
