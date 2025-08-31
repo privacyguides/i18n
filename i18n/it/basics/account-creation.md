@@ -5,7 +5,7 @@ icon: 'material/account-plus'
 description: La creazione di account online è praticamente una necessità di internet, adotta questi accorgimenti per assicurare di rimanere privato.
 ---
 
-Spesso le persone si iscrivono a servizi senza riflettere. Maybe it's a streaming service to watch that new show everyone's talking about, or an account that gives you a discount for your favorite fast food place. In ogni caso, dovresti considerare le implicazioni per i tuoi dati, ora e in futuro.
+Spesso le persone si iscrivono a servizi senza riflettere. Magari si tratta di un servizio di streaming per guardare quella nuova serie di cui tutti parlano, oppure di un account che ti offre uno sconto per il fast food che preferisci. In ogni caso, dovresti considerare le implicazioni per i tuoi dati, ora e in futuro.
 
 A ogni nuovo servizio che utilizzi, sono associati dei rischi. Violazioni dei dati; divulgazione di informazioni sui clienti a terze parti; dipendenti disonesti che accedono ai dati; sono tutte possibilità che devono essere considerate, fornendo le proprie informazioni. Devi essere sicuro di poterti fidare del servizio, per cui non consigliamo l'archiviazione di dati preziosi su nulla, se non sui prodotti più maturi e testati. Ciò, solitamente, preclude i servizi che forniscono E2EE e hanno subito un controllo crittografico. Un controllo incrementa la garanzia che il prodotto sia stato progettato senza problemi evidenti di sicurezza, causati da uno sviluppatore inesperto.
 
@@ -13,11 +13,11 @@ Inoltre, può essere difficile eliminare i profili, su alcuni servizi. Talvolta,
 
 ## Termini di Servizio e Politica sulla Privacy
 
-I ToS sono le regole che accetti di seguire, utilizzando il servizio. Spesso, nei servizi più grandi, tali regole sono imposte da sistemi automatizzati. Talvolta, questi sistemi automatizzati possono commettere degli errori. For example, you may be banned or locked out of your account on some services for using a VPN or VoIP number. Fare appello a tali ban è spesso difficile, e richiede anch'esso un procedimento automatizzato, che non ha sempre successo. Ad esempio, questa è una delle motivazioni per cui non suggeriamo di utilizzare Gmail per l'email. L'email è fondamentale per accedere ad altri servizi cui potresti esserti iscritto.
+I ToS sono le regole che accetti di seguire, utilizzando il servizio. Spesso, nei servizi più grandi, tali regole sono imposte da sistemi automatizzati. Talvolta, questi sistemi automatizzati possono commettere degli errori. Ad esempio, alcuni servizi possono bannarti o bloccarti l’accesso all’account se usi una VPN o un numero VoIP. Fare appello a tali ban è spesso difficile, e richiede anch'esso un procedimento automatizzato, che non ha sempre successo. Ad esempio, questa è una delle motivazioni per cui non suggeriamo di utilizzare Gmail per l'email. L'email è fondamentale per accedere ad altri servizi cui potresti esserti iscritto.
 
-The Privacy Policy is how the service says they will use your data, and it is worth reading so that you understand how your data will be used. Un'azienda od organizzazione, potrebbe non essere legalmente obbligata a seguire tutto ciò che è contenuto nella politica (a seconda della giurisdizione). Ti consigliamo di avere un'idea di quali leggi locali esistono e di ciò che consentono a un fornitore di raccogliere.
+L’Informativa sulla privacy spiega come il servizio dichiara di utilizzare i tuoi dati, ed è importante leggerla per capire in che modo verranno usati. Un'azienda od organizzazione, potrebbe non essere legalmente obbligata a seguire tutto ciò che è contenuto nella politica (a seconda della giurisdizione). Ti consigliamo di avere un'idea di quali leggi locali esistono e di ciò che consentono a un fornitore di raccogliere.
 
-Consigliamo di cercare termini particolari, quali servizi di "raccolta dei dati", "analisi dei dati", "cookie", "pubblicità/annunci" o "terze parti". Sometimes you will be able to opt out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
+Consigliamo di cercare termini particolari, quali servizi di "raccolta dei dati", "analisi dei dati", "cookie", "pubblicità/annunci" o "terze parti". A volte potrai scegliere di non permettere la raccolta dei tuoi dati o di non condividere le tue informazioni, ma è meglio scegliere un servizio che rispetti la tua privacy fin dall’inizio.
 
 Tieni a mente che stai anche riponendo la tua fiducia nell'azienda od organizzazione, affinché si conformeranno alla propria politica sulla privacy.
 
@@ -42,7 +42,7 @@ Sarai responsabile della gestione delle tue credenziali di accesso. Per una magg
 
 #### Alias email
 
-Se non desideri fornire il tuo indirizzo email reale a un servizio, puoi utilizzare un alias. We describe them in more detail on our email services recommendation page. In breve, i servizi di alias ti consentono di generare nuovi indirizzi email, che inoltrano tutte le email al tuo indirizzo principale. This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. Questi possono essere filtrati automaticamente in base all'alias a cui sono inviati.
+Se non desideri fornire il tuo indirizzo email reale a un servizio, puoi utilizzare un alias. Ne parliamo più nel dettaglio nella nostra guida dedicata ai servizi email. In breve, i servizi di alias ti consentono di generare nuovi indirizzi email, che inoltrano tutte le email al tuo indirizzo principale. Questo può aiutarti a evitare di essere tracciato tra diversi servizi e a gestire le email di marketing che a volte arrivano durante la registrazione. Questi possono essere filtrati automaticamente in base all'alias a cui sono inviati.
 
 Se un servizio dovesse essere violato, potresti iniziare a ricevere email di phishing o spam all'indirizzo utilizzato per iscriverti. Utilizzare alias univoci per ogni servizio può assisterti nell'identificare esattamente quale servizio è stato violato.
 
@@ -50,19 +50,19 @@ Se un servizio dovesse essere violato, potresti iniziare a ricevere email di phi
 
 ### "Accedi con..." (OAuth)
 
-[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth) is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. Quando nel modulo di registrazione noti qualcosa di simile ad "Accedi con *nome del fornitore*", tipicamente sta utilizzando OAuth.
+**Open Authorization (OAuth)** è un protocollo di autenticazione che ti permette di registrarti a un servizio usando un account che già possiedi su un altro servizio, condividendo solo poche informazioni o nessuna con il fornitore del servizio. Quando nel modulo di registrazione noti qualcosa di simile ad "Accedi con *nome del fornitore*", tipicamente sta utilizzando OAuth.
 
 Quando accedi con OAuth, si aprirà una pagina di login con il provider scelto e l'account esistente e quello nuovo verranno collegati. La tua password non sarà condivisa, a differenza di alcune informazioni essenziali (che potrai revisionare durante la richiesta d'accesso). Questo procedimento è necessario ogni volta che desideri accedere allo stesso profilo.
 
 I principali vantaggi sono:
 
-- **Security**: You don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials because they are stored with the external OAuth provider. Common OAuth providers like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
-- **Ease-of-use**: Multiple accounts are managed by a single login.
+- **Sicurezza**: Non devi fidarti delle misure di sicurezza del servizio a cui accedi per quanto riguarda la conservazione delle tue credenziali, perché queste sono memorizzate dal fornitore OAuth esterno. I fornitori OAuth più comuni, come Apple e Google, seguono generalmente le migliori pratiche di sicurezza, verificano continuamente i loro sistemi di autenticazione e non memorizzano le credenziali in modo non sicuro (ad esempio in testo semplice).
+- **Semplicità d’uso**: Puoi gestire più account con un unico login.
 
 Ma esistono degli svantaggi:
 
-- **Privacy**: The OAuth provider you log in with will know the services you use.
-- **Centralization**: If the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
+- **Privacy**: Il fornitore OAuth con cui effettui il login saprà quali servizi utilizzi.
+- **Centralizzazione**: Se l’account che usi per OAuth viene compromesso o non riesci ad accedervi, tutti gli altri account collegati ne saranno influenzati.
 
 OAuth può essere specialmente utile in quelle situazioni in cui potresti beneficiare dalla più profonda integrazione tra servizi. Il nostro consiglio è quello di limitare l'utilizzo di OAuth soltanto laddove necessario e di proteggere sempre il profilo principale con l'[AFM](multi-factor-authentication.md).
 
@@ -74,9 +74,9 @@ Anche le applicazioni dannose, in particolare sui dispositivi mobili in cui l'ap
 
 ### Numero telefonico
 
-Consigliamo di evitare i servizi che richiedono un numero telefonico per iscriversi. A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
+Consigliamo di evitare i servizi che richiedono un numero telefonico per iscriversi. Un numero di telefono può essere collegato ai tuoi account su più servizi e, a seconda degli accordi di condivisione dei dati, questo rende più facile tracciare le tue attività, soprattutto se uno di questi servizi viene compromesso, dato che il numero di telefono spesso **non** è crittografato.
 
-Dovresti evitare di dare il tuo vero numero di telefono, se possibile. Some services will allow the use of VoIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
+Dovresti evitare di dare il tuo vero numero di telefono, se possibile. Alcuni servizi permettono di usare numeri VoIP, ma questi spesso attivano i sistemi anti-frode, bloccando l’account. Per questo motivo, non li consigliamo per account importanti.
 
 In molti casi dovrai fornire un numero che può ricevere SMS o chiamate, in particolare facendo acquisti internazionali, nel caso in cui si verifichi un problema con il tuo ordine ai controlli doganali. È comune che i servizi utilizzino il tuo numero come metodo di verifica; non consentire di essere bloccato da un profilo importante, perché volevi essere furbo e hai inserito un numero falso!
 
