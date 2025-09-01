@@ -20,8 +20,8 @@ Pour modifier une stratégie de groupe, double-cliquez dessus et sélectionnez A
 #### Device Guard
 
 - Activer la sécurité basée sur la virtualisation : **Activé**
-     - Niveau de sécurité de la plate-forme : **Secure Boot and DMA Protection** (démarrage sécurisé et protection DMA)
-     - Configuration du lancement sécurisé : **Activé**
+  - Niveau de sécurité de la plate-forme : **Secure Boot and DMA Protection** (démarrage sécurisé et protection DMA)
+  - Configuration du lancement sécurisé : **Activé**
 
 #### Gestion des communications Internet
 
@@ -52,14 +52,14 @@ AutoRun et AutoPlay sont des fonctions qui permettent à Windows d'exécuter un 
 - Désactiver AutoPlay : **Activé**
 - Interdire la lecture automatique pour les appareils sans volume : **Activé**
 - Définit le comportement par défaut pour AutoRun: **Activé**
-     - Comportement de AutoRun par défaut : \*\*N'exécutez aucune commande AutoRun \*\*
+  - Comportement de AutoRun par défaut : \*\*N'exécutez aucune commande AutoRun \*\*
 
 #### Chiffrement du disque BitLocker
 
 Il est préférable de chiffrer à nouveau le disque de votre système d'exploitation après avoir modifié ces paramètres.
 
 - Choisissez la méthode de chiffrement du lecteur et la force du chiffrement (Windows Vista, Windows Server 2008, Windows 7) : **Activé**
-     - Sélectionnez la méthode de chiffrement : **AES-256**
+  - Sélectionnez la méthode de chiffrement : **AES-256**
 
 Le fait de définir la force de chiffrement pour la politique de Windows 7 permet de l'appliquer aux nouvelles versions de Windows.
 
@@ -85,12 +85,12 @@ Malgré les noms de ces réglages, cela ne vous _oblige_ pas de faire quoi que c
 #### Collecte de données et aperçu des compilations
 
 - Autoriser les données de diagnostic : **Activé**
-     - Options : **Envoyer les données de diagnostic nécessaires** (édition Pro) ; ou
-     - Options : **Données de diagnostic désactivées** (Edition Entreprise ou Education)
+  - Options : **Envoyer les données de diagnostic nécessaires** (édition Pro) ; ou
+  - Options : **Données de diagnostic désactivées** (Edition Entreprise ou Education)
 - Limiter la collecte des journaux de diagnostic : **Activé**
 - Limiter Dump Collection : **Activé**
 - Limiter les données de diagnostic optionnelles pour Desktop Analytics : **Activé**
-     - Options : **Désactiver la collecte de données Desktop Analytics**
+  - Options : **Désactiver la collecte de données Desktop Analytics**
 - Ne pas afficher les notifications : **Activé**
 
 #### Explorateur de Fichiers
@@ -118,7 +118,7 @@ Ce dernier paramètre désactive OneDrive sur votre système ; veillez à le mod
 - Autoriser Cortana : **Désactivé**
 - Ne pas rechercher sur le Web ou afficher les résultats web dans Search : **Activé**
 - Définissez les informations partagées dans Search : **Activé**
-     - Type d'information : **Informations anonymes**
+  - Type d'information : **Informations anonymes**
 
 #### Synchroniser vos paramètres
 
@@ -132,4 +132,4 @@ Ce dernier paramètre désactive OneDrive sur votre système ; veillez à le mod
 
 - Ne pas envoyer de données supplémentaires : **Activé**
 - Consentement > Configurer Consentement par défaut : **Activé**
-     - Niveau de consentement : **Toujours demander avant d'envoyer des données**
+  - Niveau de consentement : **Toujours demander avant d'envoyer des données**

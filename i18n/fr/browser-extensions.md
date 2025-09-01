@@ -92,7 +92,7 @@ Nous recommandons [Safari](mobile-browsers.md#safari-ios) pour les utilisateurs 
 
 ![AdGuard logo](assets/img/browsers/adguard.svg){ align=right }
 
-**AdGuard for iOS** is a free and open-source content-blocking extension for Safari that uses the native [Content Blocker API](https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
+**AdGuard pour iOS** est une extension gratuite et open-source de blocage de contenu pour Safari qui utilise l'API native [Content Blocker API] (https://developer.apple.com/documentation/safariservices/creating_a_content_blocker).
 
 [:octicons-home-16: Page d'accueil](https://adguard.com/en/adguard-ios/overview.html){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://adguard.com/privacy/ios.html){ .card-link title="Politique de confidentialité" }
@@ -115,4 +115,4 @@ Les listes de filtres supplémentaires ralentissent la navigation et peuvent aug
 - Ne doit pas dupliquer une fonctionnalité intégrée dans le navigateur ou dans le système d'exploitation.
 - Doit avoir un impact direct sur la vie privée des utilisateurs, c'est-à-dire qu'il ne doit pas simplement fournir des informations.
 
-[^1]: uBlock Origin Lite _itself_ will consume no resources, because it uses newer APIs which make the browser process the filter lists natively, instead of running JavaScript code within the extension to handle the filtering. However, this resource advantage is only [theoretical](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-\(FAQ\)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), because it's possible that standard uBlock Origin's filtering code is more efficient than your browser's native filtering code. This has not yet been benchmarked.
+[^1]: uBlock Origin Lite _lui-même_ ne consommera aucune ressource, parce qu'il utilise des APIs plus récentes qui permettent au navigateur de traiter nativement les listes de filtres, au lieu d'exécuter du code JavaScript dans l'extension pour gérer le filtrage. Cependant, cet avantage en termes de ressources n'est que [théorique](https://github.com/uBlockOrigin/uBOL-home/wiki/Frequently-asked-questions-\(FAQ\)#is-ubol-more-efficient-cpu--and-memory-wise-than-ubo), car il est possible que le code de filtrage standard de uBlock Origin soit plus efficace que le code de filtrage natif de votre navigateur. Cela n'a pas encore été évalué.
