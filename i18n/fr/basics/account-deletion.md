@@ -27,7 +27,7 @@ Les systèmes d'exploitation aussi, disposent souvent d'un gestionnaire de mots 
 
 ### Email
 
-If you didn't use a password manager in the past, or you think you have accounts that were never added to your password manager, another option is to search the email account(s) that you believe you signed up on. Sur votre client de messagerie, recherchez des mots-clés tels que "vérifier" ou "bienvenue". Presque à chaque fois que vous créez un compte en ligne, le service envoie un lien de vérification ou un message d'introduction à votre adresse électronique. Cela peut être un bon moyen de retrouver d'anciens comptes oubliés.
+Si vous n'avez pas utilisé de gestionnaire de mots de passe dans le passé ou si vous pensez avoir des comptes qui n'ont jamais été ajoutés à votre gestionnaire de mots de passe, une autre option consiste à rechercher le ou les comptes de messagerie sur lesquels vous pensez vous être inscrit. Sur votre client de messagerie, recherchez des mots-clés tels que "vérifier" ou "bienvenue". Presque à chaque fois que vous créez un compte en ligne, le service envoie un lien de vérification ou un message d'introduction à votre adresse électronique. Cela peut être un bon moyen de retrouver d'anciens comptes oubliés.
 
 ## Suppression des anciens comptes
 
