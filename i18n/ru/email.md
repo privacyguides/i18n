@@ -2,7 +2,7 @@
 meta_title: "Рекомендации по шифрованной конфиденциальной электронной почте - Privacy Guides"
 title: "Электронная почта"
 icon: material/email
-description: Эти провайдеры электронной почты предлагают отличное место для безопасного хранения ваших писем. Многие из них предлагают еще и совместимое с другими провайдерами шифрование OpenPGP.
+description: Эти провайдеры электронной почты предлагают отличное место для безопасного хранения твоих писем. Многие из них предлагают еще и совместимое с другими провайдерами шифрование OpenPGP.
 cover: email.webp
 global:
   - 
@@ -22,24 +22,24 @@ global:
 
 Для всего остального мы рекомендуем различных провайдеров электронной почты, которые базируются на устойчивых бизнес-моделях и встроенных функциях безопасности и конфиденциальности. Для получения дополнительной информации, ознакомьтесь с [полным списком критериев](#criteria).
 
-| Провайдер                   | OpenPGP / WKD                          | IMAP / SMTP                                                | Шифрование с нулевым доступом                        | Анонимные способы оплаты              |
-| --------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------- |
-| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | Наличные                              |
-| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | Наличные                              |
-| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero <br>Cash via third party |
+| Провайдер                   | OpenPGP / WKD                          | IMAP / SMTP                                                      | Шифрование с нулевым доступом                           | Анонимные способы оплаты                    |
+| --------------------------- | -------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------- |
+| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue }  Только платные планы | :material-check:{ .pg-green }                           | Наличные                                    |
+| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                    | :material-information-outline:{ .pg-blue } Только почта | Наличные                                    |
+| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                           | :material-check:{ .pg-green }                           | Monero <br>Наличные через третьих лиц |
 
-In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md#recommended-providers) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
+В дополнение к (или вместо) рекомендованному здесь провайдеру электронной почты, вы можете рассмотреть специализированный [сервис создания псевдонимов электронной почты](email-aliasing.md#recommended-providers) для защиты вашей конфиденциальности. Помимо прочего, эти сервисы могут помочь защитить ваш настоящий почтовый ящик от спама, предотвратить корреляцию ваших аккаунтов маркетологами и шифровать все входящие сообщения с помощью PGP.
 
-- [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
+- [Больше информации :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## Сервисы, поддерживающие OpenPGP
 
-These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic end-to-end encrypted emails. Например, пользователь Proton Mail может отправлять E2EE-зашифрованное сообщение пользователю Mailbox.org, или ты можешь получить OpenPGP-зашифрованное уведомление от интернет-сервисов, поддерживающих такую функцию.
+Эти провайдеры изначально поддерживают шифрование/дешифрование OpenPGP и [стандарт Web Key Directory (WKD)](basics/email-security.md#what-is-the-web-key-directory-standard), что позволяет осуществлять сквозное шифрование электронной почты независимо от провайдера. Например, пользователь Proton Mail может отправлять E2EE-зашифрованное сообщение пользователю Mailbox.org, или ты можешь получить OpenPGP-зашифрованное уведомление от интернет-сервисов, поддерживающих такую функцию.
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
-- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+- ![Логотип Proton Mail](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
+- ![Логотип Mailbox.org](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
 
 </div>
 
@@ -48,9 +48,9 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 
 Когда вы используете технологию E2EE вроде OpenPGP, электронные письма все равно содержат некоторые незашифрованные метаданные в заголовках письма, в том числе тему! Узнайте больше о [метаданных электронной почты](basics/email-security.md#email-metadata-overview).
 
-OpenPGP also does not support forward secrecy, which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed.
+OpenPGP также не поддерживает прямую секретность, поэтому если твой приватный ключ или ключ адресата будет украден, все предыдущие сообщения, зашифрованные с его помощью, будут раскрыты.
 
-- [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+- [Как я могу защитить свои приватные ключи?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 </div>
 
@@ -60,15 +60,15 @@ OpenPGP also does not support forward secrecy, which means if the private key of
 
 ![Логотип Proton Mail](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** — это сервис электронной почты, фокусирующийся на приватности, шифровании, безопасности и простоте использования. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland.
+**Proton Mail** — это сервис электронной почты, фокусирующийся на приватности, шифровании, безопасности и простоте использования. Они работают с 2013 года. Компания Proton AG базируется в Женеве, Швейцария.
 
-The Proton Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+Бесплатный план Proton включает 500 МБ хранилища для почты, которое вы можете бесплатно увеличить до 1 ГБ.
 
-[:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
+[:octicons-home-16: Главная](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Политика конфиденциальности" }
+[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Документация" }
+[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Исходный код" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -85,23 +85,23 @@ The Proton Free plan comes with 500 MB of Mail storage, which you can increase u
 
 </div>
 
-Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g., Thunderbird). Платные аккаунты включают такие функции, как Proton Mail Bridge, дополнительное хранилище и поддержку пользовательских доменов. If you have the Proton Unlimited plan or any multi-user Proton plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+Бесплатные аккаунты имеют некоторые ограничения, такие как невозможность поиска писем по седержимому и отсутствие доступа к [Proton Mail Bridge](https://proton.me/mail/bridge), который необходим для использования [рекомендуемого настольного почтового клиента](email-clients.md) (например, Thunderbird). Платные аккаунты включают такие функции, как Proton Mail Bridge, дополнительное хранилище и поддержку пользовательских доменов. Если у тебя есть план Proton Unlimited или любой многопользовательский план Proton, ты также получаешь [SimpleLogin](email-aliasing.md#simplelogin) Premium бесплатно.
 
 [Аттестационное письмо](https://proton.me/blog/security-audit-all-proton-apps) было предоставлено для приложений Proton Mail 9 ноября 2021 года компанией [Securitum](https://research.securitum.com).
 
-Proton Mail has internal crash reports that are **not** shared with third parties. This can be disabled in the web app: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+У Proton Mail есть внутренние отчеты о сбоях, которые **не** передаются третьим сторонам. Это можно отключить в веб-приложении: :gear: → **Все настройки** → **Аккаунт** → **Безопасность и конфиденциальность** → **Конфиденциальность и сбор данных**.
 
 #### :material-check:{ .pg-green } Пользовательские домены и псевдонимы
 
-Платные подписчики Proton Mail могут использовать свой собственный домен или [универсальный адрес](https://proton.me/support/catch-all). Proton Mail also supports [sub-addressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
+Платные подписчики Proton Mail могут использовать свой собственный домен или [универсальный адрес](https://proton.me/support/catch-all). Proton Mail также поддерживает [субадресацию](https://proton.me/support/creating-aliases), что полезно для тех, кто не хочет покупать домен.
 
 #### :material-check:{ .pg-green } Конфиденциальные способы оплаты
 
-Proton Mail [accepts](https://proton.me/support/payment-options) **cash** by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments.
+Proton Mail [принимает](https://proton.me/support/payment-options) **наличные** по почте в дополнение к стандартным платежам кредитными/дебетовыми картами, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) и PayPal.
 
 #### :material-check:{ .pg-green } Безопасность аккаунта
 
-Proton Mail supports TOTP [two-factor authentication](https://proton.me/support/two-factor-authentication-2fa) and [hardware security keys](https://proton.me/support/2fa-security-key) using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
+Proton Mail поддерживает [двухфакторную аутентификацию](https://proton.me/support/two-factor-authentication-2fa) TOTP и [аппаратные ключи безопасности](https://proton.me/support/2fa-security-key) с использованием стандартов FIDO2 или U2F. Использование аппаратного ключа безопасности требует предварительной настройки двухфакторной аутентификации TOTP.
 
 #### :material-check:{ .pg-green } Безопасность данных
 
@@ -111,17 +111,17 @@ Proton Mail использует [шифрование с нулевым дос�
 
 #### :material-check:{ .pg-green } Шифрование электронной почты
 
-Proton Mail [интегрировал шифрование OpenPGP](https://proton.me/support/how-to-use-pgp) в свою веб-почту. Письма, отправленные на другие аккаунты Proton Mail шифруются автоматически. Шифрование писем с помощью ключа OpenPGP на адреса, не принадлежащие Proton Mail, можно легко включить в настройках аккаунта. Proton also supports automatic external key discovery with WKD. This means that emails sent to other providers which use WKD will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
+Proton Mail [интегрировал шифрование OpenPGP](https://proton.me/support/how-to-use-pgp) в свою веб-почту. Письма, отправленные на другие аккаунты Proton Mail шифруются автоматически. Шифрование писем с помощью ключа OpenPGP на адреса, не принадлежащие Proton Mail, можно легко включить в настройках аккаунта. Proton также поддерживает автоматическое обнаружение внешних ключей с помощью WKD. Это означает, что письма, отправляемые другим провайдерам, использующим WKD, также будут автоматически шифроваться с помощью OpenPGP без необходимости вручную обмениваться публичными PGP-ключами с твоими контактами. Они также позволяют тебе [шифровать сообщения для адресов, не принадлежащих Proton Mail, без использования OpenPGP](https://proton.me/support/password-protected-emails), причем получателям не нужно регистрировать учетную запись Proton Mail.
 
-Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Proton's own domains, like `@proton.me`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Proton Mail также публикует открытые ключи аккаунтов Proton через HTTP из их WKD. Это позволяет людям, не использующим Proton Mail, легко находить OpenPGP-ключи аккаунтов Proton Mail для межпровайдерного сквозного шифрования (E2EE). Это относится только к адресам электронной почты, заканчивающимся на один из собственных доменов Proton, таких, как `@proton.me`. Если ты используешь собственный домен, тебе необходимо [настроить WKD](basics/email-security.md#what-is-the-web-key-directory-standard) отдельно.
 
 #### :material-information-outline:{ .pg-blue } Блокировка аккаунта
 
-Если у тебя платный аккаунт, и твой [счёт не оплачен](https://proton.me/support/delinquency) в течение 14 дней, то ты не сможешь получить доступ к своим данным. Через 30 дней твой аккаунт станет просроченным и не будет получать входящую почту. В течение этого периода тебе будет по-прежнему выставляться счет. Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address of a deactivated account.
+Если у тебя платный аккаунт, и твой [счёт не оплачен](https://proton.me/support/delinquency) в течение 14 дней, то ты не сможешь получить доступ к своим данным. Через 30 дней твой аккаунт станет просроченным и не будет получать входящую почту. В течение этого периода тебе будет по-прежнему выставляться счет. Proton [удаляет неактивные бесплатные аккаунты](https://proton.me/support/inactive-accounts) через один год. Ты **не можешь** повторно использовать адрес электронной почты деактивированного аккаунта.
 
 #### :material-information-outline:{ .pg-blue } Дополнительная функциональность
 
-Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
+План Proton Mail [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) также обеспечивает доступ к другим сервисам Proton в дополнение к предоставлению нескольких пользовательских доменов, неограниченного количества скрытых адресов электронной почты и 500 ГБ хранилища.
 
 ### Mailbox.org
 
@@ -168,7 +168,7 @@ However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the softwar
 
 Mailbox.org has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox.org's servers. Эта функция полезна, когда получатель не имеет OpenPGP и не может расшифровать копию письма в собственном почтовом ящике.
 
-Mailbox.org also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox.org's own domains, like `@mailbox.org`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Mailbox.org also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox.org's own domains, like `@mailbox.org`. Если ты используешь собственный домен, тебе необходимо [настроить WKD](basics/email-security.md#what-is-the-web-key-directory-standard) отдельно.
 
 #### :material-information-outline:{ .pg-blue } Блокировка аккаунта
 
