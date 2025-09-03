@@ -41,7 +41,7 @@ This key provides only basic FIDO2 functionality, but for most people that is al
 If you need any of those features, you should consider their higher-end [YubiKey](#yubikey) of products instead.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Varování</p>
 
 The firmware of Yubico's Security Keys is not updatable. If you want features in newer firmware versions, or if there is a vulnerability in the firmware version you are using, you would need to purchase a new key.
 
@@ -72,7 +72,7 @@ YubiKeys can be programmed using the [YubiKey Manager](https://yubico.com/suppor
 For models which support HOTP and TOTP, there are 2 slots in the OTP interface which could be used for HOTP and 32 slots to store TOTP secrets. These secrets are stored encrypted on the key and never exposed to the devices they are plugged into. Once a seed (shared secret) is given to the Yubico Authenticator, it will only give out the six-digit codes, but never the seed. This security model helps limit what an attacker can do if they compromise one of the devices running the Yubico Authenticator and make the YubiKey resistant to a physical attacker.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Varování</p>
 
 The firmware of YubiKey is not updatable. If you want features in newer firmware versions, or if there is a vulnerability in the firmware version you are using, you would need to purchase a new key.
 
@@ -103,14 +103,14 @@ Nitrokey models can be configured using the [Nitrokey app](https://nitrokey.com/
 For the models which support HOTP and TOTP, there are 3 slots for HOTP and 15 for TOTP. Some Nitrokeys can act as a password manager. They can store 16 different credentials and encrypt them using the same password as the OpenPGP interface.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Varování</p>
 
 While Nitrokeys do not release the HOTP/TOTP secrets to the device they are plugged into, the HOTP and TOTP storage is **not** encrypted and is vulnerable to physical attacks. If you are looking to store HOTP or TOTP secrets, we highly recommend that you use a YubiKey instead.
 
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Varování</p>
 
 Resetting the OpenPGP interface on a Nitrokey [Pro 2](https://docs.nitrokey.com/nitrokeys/pro/factory-reset) or Nitrokey [Start 2](https://docs.nitrokey.com/nitrokeys/storage/factory-reset) will also make the password database inaccessible.
 

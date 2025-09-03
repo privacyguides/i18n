@@ -14,43 +14,43 @@ global:
 
 - [:material-server-network: Poskytovatelé služeb](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-Email is practically a necessity for using any online service, however we do not recommend it for person-to-person conversations. Rather than using email to contact other people, consider using an instant messaging medium that supports forward secrecy.
+E-mail je prakticky nezbytný pro používání jakékoliv online služby, ale nedoporučujeme jej pro osobní konverzace. Namísto e-mailu zvažte možnost kontaktování pomocí chatovacích služeb, které podporují dopřednou bezpečnost.
 
-[Recommended Instant Messengers](real-time-communication.md ""){.md-button}
+[Doporučené messengery](real-time-communication.md ""){.md-button}
 
-## Recommended Providers
+## Doporučení poskytovatelé
 
-For everything else, we recommend a variety of email providers based on sustainable business models and built-in security and privacy features. Read our [full list of criteria](#criteria) for more information.
+Pro všechno ostatní doporučujeme různé e-mailové poskytovatele, kteří mají udržitelný byznys model a vestavěné funkce pro zachování bezpečnosti a soukromí. Přečtěte si náš [úplný seznam kritérií](#criteria) pro více informací.
 
-| Provider                    | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero-Access Encryption                               | Anonymous Payment Methods             |
-| --------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------- |
-| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | Cash                                  |
-| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | Cash                                  |
-| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero <br>Cash via third party |
+| Poskytovatel                | OpenPGP / WKD                          | IMAP / SMTP                                                     | Zero-Access šifrování                                  | Anonymní platební metody                               |
+| --------------------------- | -------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------ |
+| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Pouze placené tarify | :material-check:{ .pg-green }                          | Hotovost                                               |
+| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                   | :material-information-outline:{ .pg-blue } Pouze maily | Hotovost                                               |
+| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                          | :material-check:{ .pg-green }                          | Monero <br>Hotovost prostřednictvím třetí strany |
 
-In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md#recommended-providers) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
+Můžete navíc, nebo místo, zvážit používání kromě zmíněných e-mailových poskytovatelů i používání dedikované [služby pro e-mailové aliasy](email-aliasing.md#recommended-providers) pro ochranu vašeho soukromí. Tyto služby vám mimo jiné mohou pomoct chránit vaši pravou adresu před spamem, zabránit marketingovým týmům v korelování mezi jednotlivými účty a šifrovat všechny příchozí zprávy pomocí PGP.
 
-- [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
+- [Více informací](email-aliasing.md)
 
-## OpenPGP Compatible Services
+## Služby kompatibilní s OpenPGP
 
-These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic end-to-end encrypted emails. For example, a Proton Mail user could send an E2EE message to a Mailbox.org user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
+Tito poskytovatelé nativně podporují OpenPGP (de)šifrování a [standard Web Key Directory (WKD)](basics/email-security.md#what-is-the-web-key-directory-standard), který umožňuje posílání koncově šifrovaných e-mailů bez ohledu na poskytovatele. Například uživatel Proton Mailu může poslat koncově šifrovanou zprávu uživateli Mailbox.org, nebo může přijímat notifikace šifrované pomocí OpenPGP z internetových služeb, které to podporují.
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
-- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+- ![logo Proton Mail](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
+- ![logo Mailbox.org](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
 
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Varování</p>
 
-When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](basics/email-security.md#email-metadata-overview).
+I při používání E2EE technologie, jako je OpenPGP, budou vaše e-maily přesto obsahovat některá metadata, která nebudou šifrovaná v hlavičce e-mailu, obvykle včetně předmětu. Přečtěte si více o [e-mailových metadatech](basics/email-security.md#email-metadata-overview).
 
-OpenPGP also does not support forward secrecy, which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed.
+OpenPGP také nepodporuje dopřednou bezpečnost, což znamená, že pokud někdo jiný získá soukromý klíč, ať už váš, nebo protistrany, všechny vaše předchozí šifrované zprávy budou odhaleny.
 
-- [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+- [Jak mohu ochránit své soukromé klíče?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 </div>
 
