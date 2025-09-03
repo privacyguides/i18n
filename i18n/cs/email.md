@@ -58,20 +58,20 @@ OpenPGP také nepodporuje dopřednou bezpečnost, což znamená, že pokud někd
 
 <div class="admonition recommendation" markdown>
 
-![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
+![logo Proton Mail](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** is an email service with a focus on privacy, encryption, security, and ease of use. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland.
+**Proton Mail** je e-mailová služba se zaměřením na soukromí, šifrování, bezpečnost a snadné používání. Fungují od roku 2013. Proton AG sídlí v Ženevě ve Švýcarsku.
 
-The Proton Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+Tarif Proton Free obsahuje 500 MB úložiště pro e-mail, které můžete zdarma rozšířit až na 1 GB.
 
-[:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
+[:octicons-home-16: Homepage](https://proton.me/cs/mail){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion stránka" }
+[:octicons-eye-16:](https://proton.me/cs/legal/privacy){ .card-link title="Zásady ochrany osobních údajů" }
+[:octicons-info-16:](https://proton.me/support/cs/mail){ .card-link title="Podpora" }
+[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Zdrojový kód" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Ke stažení</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
@@ -85,23 +85,23 @@ The Proton Free plan comes with 500 MB of Mail storage, which you can increase u
 
 </div>
 
-Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g., Thunderbird). Paid accounts include features like Proton Mail Bridge, additional storage, and custom domain support. If you have the Proton Unlimited plan or any multi-user Proton plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+Bezplatné účty mají některá omezení, např. nemohou vyhledávat v textu zpráv nebo nemají přístup k [Proton Mail Bridge](https://proton.me/mail/bridge), který je nutný pro používání s [doporučenými desktopovými e-mailovými klienty](email-clients.md) (např. s Thunderbirdem). Placené účty zahrnují funkce, jako je např. Proton Mail Bridge, dodatečné úložiště nebo podpora vlastních domén. Pokud máte tarif Proton Unlimited nebo jakýkoliv Proton tarif pro více uživatelů, získáte také [SimpleLogin](email-aliasing.md#simplelogin) Premium zdarma.
 
-A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton Mail's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
+[Osvědčení](https://proton.me/blog/security-audit-all-proton-apps) bylo uděleno aplikacím Proton Mail 9. října 2021 firmou [Securitum](https://research.securitum.com).
 
-Proton Mail has internal crash reports that are **not** shared with third parties. This can be disabled in the web app: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+Proton Mail generuje interní hlášení o pádech, které ale **nejsou** sdílené se třetími stranami. Můžete je ve webové aplikaci zakázat následovně: :gear: → **Všechna nastavení** → **Účet** → **Bezpečnost a soukromí** → **Soukromí a sběr dat**.
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } Vlastní domény a aliasy
 
-Paid Proton Mail subscribers can use their own domain with the service or a [catch-all](https://proton.me/support/catch-all) address. Proton Mail also supports [sub-addressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
+Uživatelé placených tarifů Proton Mailu mohou používat vlastní domény se službou nebo [univerzální](https://proton.me/support/catch-all) adresu. Proton Mail také podporuje [sub-adresování](https://proton.me/support/creating-aliases), což je užitečné pro lidi, kteří si nechtějí kupovat doménu.
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### :material-check:{ .pg-green } Soukromé platební metody
 
-Proton Mail [accepts](https://proton.me/support/payment-options) **cash** by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments.
+Proton Mail kromě běžných plateb kreditní či debetní kartou [přijímá](https://proton.me/support/payment-options) také [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), PayPal a dokonce i **hotovost** zaslanou poštou.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } Zabezpečení účtu
 
-Proton Mail supports TOTP [two-factor authentication](https://proton.me/support/two-factor-authentication-2fa) and [hardware security keys](https://proton.me/support/2fa-security-key) using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
+Proton Mail podporuje [dvoufaktorové ověřování](https://proton.me/support/two-factor-authentication-2fa) pomocí TOTP a [hardwarové bezpečnostní klíče](https://proton.me/support/2fa-security-key) pomocí standardů FIDO2 a U2F. Používání hardwarových bezpečnostních klíčů nejprve vyžaduje nastavení TOTP dvoufaktorového ověření.
 
 #### :material-check:{ .pg-green } Data Security
 
@@ -146,15 +146,15 @@ Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
 </div>
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } Vlastní domény a aliasy
 
 Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox.org also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### :material-check:{ .pg-green } Soukromé platební metody
 
 Mailbox.org doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept **cash** by mail, **cash** payment to bank account, bank transfer, credit card, PayPal, and a couple of German-specific processors: Paydirekt and Sofortüberweisung.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } Zabezpečení účtu
 
 Mailbox.org supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) are not yet supported.
 
@@ -226,7 +226,7 @@ Free accounts start with 1 GB of storage.
 
 Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } Vlastní domény a aliasy
 
 Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/support#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/support#plus), but you can use a [catch-all](https://tuta.com/support#settings-global) with a custom domain.
 
@@ -234,7 +234,7 @@ Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and u
 
 Tuta only directly accepts credit cards and PayPal, however [**cryptocurrency**](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } Zabezpečení účtu
 
 Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
 
