@@ -152,7 +152,7 @@ Mailbox.org vám umožňuje používat vlastní doménu a podporuje [catch-all](
 
 #### :material-check:{ .pg-green } Soukromé platební metody
 
-Mailbox.org nepřijímá žádné kryptoměny, jelikož jejich platební brána BitPay v Německu přerušila svou činnost. However, they do accept **cash** by mail, **cash** payment to bank account, bank transfer, credit card, PayPal, and a couple of German-specific processors: Paydirekt and Sofortüberweisung.
+Mailbox.org nepřijímá žádné kryptoměny, jelikož jejich platební brána BitPay v Německu přerušila svou činnost. Přijímají ale **hotovost** poštou, **hotovostní** platba na bankovní účet, bankovní převod, kreditní karty, PayPal a pár brán specifických pro Německo: Paydirekt a Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Zabezpečení účtu
 
