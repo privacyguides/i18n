@@ -60,11 +60,11 @@ OpenPGP také nepodporuje dopřednou bezpečnost, což znamená, že pokud někd
 
 ![logo Proton Mail](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** je e-mailová služba se zaměřením na soukromí, šifrování, bezpečnost a snadné používání. Fungují od roku 2013. Proton AG sídlí v Ženevě ve Švýcarsku.
+**Proton Mail** je e-mailová služba se zaměřením na soukromí, šifrování, bezpečnost a snadné používání. Fungují od roku 2013. Proton AG sídlí ve švýcarské Ženevě.
 
 Tarif Proton Free obsahuje 500 MB úložiště pro e-mail, které můžete zdarma rozšířit až na 1 GB.
 
-[:octicons-home-16: Homepage](https://proton.me/cs/mail){ .md-button .md-button--primary }
+[:octicons-home-16: Hlavní stránka](https://proton.me/cs/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion stránka" }
 [:octicons-eye-16:](https://proton.me/cs/legal/privacy){ .card-link title="Zásady ochrany osobních údajů" }
 [:octicons-info-16:](https://proton.me/support/cs/mail){ .card-link title="Podpora" }
@@ -117,28 +117,28 @@ Proton Mail také zveřejňuje veřejné klíče Proton účtů přes HTTP z jej
 
 #### :material-information-outline:{ .pg-blue } Ukončení účtu
 
-If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. After 30 days, your account will become delinquent and won't receive incoming mail. You will continue to be billed during this period. Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address of a deactivated account.
+Pokud máte placený tarif a [nezaplatíte](https://proton.me/support/delinquency) do 14 dnů, nebudete moci přistupovat ke svým datům. Po 30 dnech se váš účet omezí a nebude přijímat příchozí e-maily. Toto období vám bude stále účtováno. Proton [odstraní neaktivní bezplatné účty](https://proton.me/support/inactive-accounts) po jednom roce. **Nemůžete** znovu použít e-mailovou adresu deaktivovaného účtu.
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } Dodatečné funkce
 
-Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
+Tarif Proton Mail [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) vám kromě několika vlastních domén, neomezených skrytých e-mailových aliasů a 500 GB úložiště navíc umožňuje přístup k prémiovým funkcím ostatních služeb Protonu.
 
 ### Mailbox.org
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
+![logo Mailbox.org](assets/img/email/mailboxorg.svg){ align=right }
 
-**Mailbox.org** is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox.org is based in Berlin, Germany.
+**Mailbox.org** je e-mailová služba zaměřená na bezpečnost, je bez reklam a je poháněná 100% ekologickou energií. Fungují od roku 2014. Mailbox.org sídlí v německém Berlíně.
 
-Accounts start with up to 2 GB storage, which can be upgraded as needed.
+Účty mají 2 GB úložiště, které může být podle potřeby rozšířeno.
 
-[:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Documentation" }
+[:octicons-home-16: Hlavní stránka](https://mailbox.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Zásady ochrany osobních údajů" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Dokumentace" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Ke stažení</summary>
 
 - [:octicons-browser-16: Web](https://login.mailbox.org)
 
@@ -148,11 +148,11 @@ Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
 #### :material-check:{ .pg-green } Vlastní domény a aliasy
 
-Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox.org also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
+Mailbox.org vám umožňuje používat vlastní doménu a podporuje [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) adresy. Mailbox.org také podporuje [sub-adresování](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), což je užitečné pro ty, kteří si nechtějí kupovat doménu.
 
 #### :material-check:{ .pg-green } Soukromé platební metody
 
-Mailbox.org doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept **cash** by mail, **cash** payment to bank account, bank transfer, credit card, PayPal, and a couple of German-specific processors: Paydirekt and Sofortüberweisung.
+Mailbox.org nepřijímá žádné kryptoměny, jelikož jejich platební brána BitPay v Německu přerušila svou činnost. However, they do accept **cash** by mail, **cash** payment to bank account, bank transfer, credit card, PayPal, and a couple of German-specific processors: Paydirekt and Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Zabezpečení účtu
 
@@ -174,7 +174,7 @@ Mailbox.org also supports the discovery of public keys via HTTP from their WKD. 
 
 Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } Dodatečné funkce
 
 You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). However, their webmail interface cannot be accessed via their .onion service, and you may experience TLS certificate errors.
 
@@ -250,7 +250,7 @@ Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can on
 
 Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } Dodatečné funkce
 
 Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
 
