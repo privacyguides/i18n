@@ -1,10 +1,10 @@
 ---
-title: "Multifactor Authentication"
+title: "Authentification Multi-Facteurs"
 icon: 'material/two-factor-authentication'
 description: MFA est un mécanisme de sécurité essentiel pour sécuriser vos comptes en ligne, mais certaines méthodes sont plus efficaces que d'autres.
 ---
 
-**Multifactor Authentication** (**MFA**) is a security mechanism that requires additional steps beyond entering your username (or email) and password. La méthode la plus courante est celle des codes à durée limitée que vous pouvez recevoir par SMS ou par une application.
+L'**Authentification Multi-Facteurs** (**MFA**) est un mécanisme de sécurité qui exige des étapes supplémentaires au-delà de la saisie du nom d'utilisateur (ou de l'email) et du mot de passe. La méthode la plus courante est celle des codes à durée limitée que vous pouvez recevoir par SMS ou par une application.
 
 Normalement, si un pirate informatique (ou un adversaire) est capable de trouver votre mot de passe, il aura alors accès au compte auquel ce mot de passe appartient. Un compte avec MFA oblige le pirate informatique à avoir à la fois le mot de passe (quelque chose que vous *connaissez*) et un appareil que vous possédez (quelque chose que vous *avez*), comme votre téléphone.
 
@@ -26,7 +26,7 @@ La sécurité de la MFA par notification push dépend à la fois de la qualité 
 
 ### Mot de passe unique basé sur le temps (TOTP)
 
-TOTP est l'une des formes les plus courantes de MFA. Lorsque vous configurez un TOTP, vous devez généralement scanner un code QR [](https://fr.wikipedia.org/wiki/Code_QR) qui établit un "[secret partagé](https://fr.wikipedia.org/wiki/Secret_partag%C3%A9)" avec le service que vous avez l'intention d'utiliser. The shared secret is secured inside the authenticator app's data, and is sometimes protected by a password.
+TOTP est l'une des formes les plus courantes de MFA. Lorsque vous configurez un TOTP, vous devez généralement scanner un code QR [](https://fr.wikipedia.org/wiki/Code_QR) qui établit un "[secret partagé](https://fr.wikipedia.org/wiki/Secret_partag%C3%A9)" avec le service que vous avez l'intention d'utiliser. Le secret partagé est sécurisé à l'intérieur des données de l'application d'authentification, et est parfois protégé par un mot de passe.
 
 Le code limité dans le temps est alors dérivé du secret partagé et de l'heure courante. Comme le code n'est valable que pour une courte période, sans accès au secret partagé, un adversaire ne peut pas générer de nouveaux codes.
 
