@@ -5,15 +5,15 @@ description: Ces outils vous permettent d'accéder à des réseaux autres que le
 cover: alternative-networks.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protège contre la(les) menace(s) suivante(s) : </small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
-- [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+- [:material-server-network: Fournisseurs de services](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-eye-outline: Surveillance de masse](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }
+- [:material-account-cash: Capitalisme de surveillance](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
 ## Réseaux d'anonymisation
 
-En ce qui concerne les réseaux d'anonymisation, nous tenons à souligner que [Tor](advanced/tor-overview.md) est notre premier choix. C'est de loin le réseau anonyme le plus utilisé, le plus étudié et le plus activement développé. Using other networks could be more likely to endanger your [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }, unless you know what you're doing.
+En ce qui concerne les réseaux d'anonymisation, nous tenons à souligner que [Tor](advanced/tor-overview.md) est notre premier choix. C'est de loin le réseau anonyme le plus utilisé, le plus étudié et le plus activement développé. L'utilisation de réseaux alternatifs sans avoir les connaissances nécessaires augmente les risques de compromettre votre [:material-incognito:Anonymat](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple }.
 
 ### Tor
 
@@ -21,7 +21,7 @@ En ce qui concerne les réseaux d'anonymisation, nous tenons à souligner que [T
 
 ![Logo Tor](assets/img/self-contained-networks/tor.svg){ align=right }
 
-Le réseau **Tor** est un groupe de serveurs gérés par des bénévoles qui vous permet de vous connecter gratuitement et d'améliorer votre confidentialité et votre sécurité sur Internet. Les particuliers et les organisations peuvent également partager des informations sur le réseau Tor avec des "services cachés .onion" sans compromettre leur vie privée. Because Tor traffic is difficult to block and trace, Tor is an effective [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray } circumvention tool.
+Le réseau **Tor** est un groupe de serveurs gérés par des bénévoles qui vous permet de vous connecter gratuitement et d'améliorer votre confidentialité et votre sécurité sur Internet. Les particuliers et les organisations peuvent également partager des informations sur le réseau Tor avec des "services cachés .onion" sans compromettre leur vie privée. Le trafic Tor étant difficile à bloquer et à tracer, Tor est un moyen efficace de contournement de la [:material-close-outline: Censure](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
 [:octicons-home-16:](https://torproject.org){ .card-link title="Page d'accueil" }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Service onion" }
@@ -35,7 +35,7 @@ Le moyen recommandé pour accéder au réseau Tor est le navigateur officiel Tor
 
 [Informations sur le navigateur Tor :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary } [Introduction détaillée à Tor :material-arrow-right-drop-circle:](advanced/tor-overview.md){ .md-button }
 
-You can access the Tor network using other tools; making this determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using apps like [Orbot](#orbot) or mobile browser apps to access the Tor network is probably fine. L'augmentation du nombre de personnes qui utilisent Tor au quotidien permet de réduire la mauvaise image de Tor et de diminuer la qualité des "listes d'utilisateurs de Tor" que les FAIs et les gouvernements peuvent compiler.
+Vous pouvez accéder au réseau Tor en utilisant d'autres outils, choisi en fonction de votre modèle de menace. Accéder au réseau Tor via des applications comme [Orbot](#orbot) ou une application de navigateur ne pose probablement pas de problème à un utilisateur de Tor occasionnel qui n'est pas inquiété par la collecte de preuve par son FAI. L'augmentation du nombre de personnes qui utilisent Tor au quotidien permet de réduire la mauvaise image de Tor et de diminuer la qualité des "listes d'utilisateurs de Tor" que les FAIs et les gouvernements peuvent compiler.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Essayez-le!</p>
@@ -48,18 +48,17 @@ Vous pouvez essayer de vous connecter à _Privacy Guides_ via Tor à [xoe4vn5uwd
 
 <div class="admonition recommendation" markdown>
 
-![Orbot logo](assets/img/self-contained-networks/orbot.svg){ align=right }
+![Logo de Orbot](assets/img/self-contained-networks/orbot.svg){ align=right }
 
-**Orbot** is a mobile application which routes traffic from any app on your device through the Tor network.
+**Orbot** est une application mobile qui permet de rediriger le trafic de n'importe quelle application sur votre appareil via le réseau Tor.
 
-[:octicons-home-16: Homepage](https://orbot.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://orbot.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://orbot.app/privacy-policy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://orbot.app/faqs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://orbot.app/code){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://orbot.app/donate){ .card-link title="Contribute" }
+[:octicons-code-16:](https://orbot.app/code){ .card-link title="Code Source" }
+[:octicons-heart-16:](https://orbot.app/donate){ .card-link title="Contribuer" }
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
+<details class="downloads" markdown><summary>Télécharger<0>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1609461599)
@@ -70,28 +69,28 @@ Vous pouvez essayer de vous connecter à _Privacy Guides_ via Tor à [xoe4vn5uwd
 
 </div>
 
-We previously recommended enabling the _Isolate Destination Address_ preference in Orbot settings. While this setting can theoretically improve privacy by enforcing the use of a different circuit for each IP address you connect to, it doesn't provide a practical advantage for most applications (especially web browsing), can come with a significant performance penalty, and increases the load on the Tor network. We no longer recommend adjusting this setting from its default value unless you know you need to.[^1]
+Nous avions recommandé d'activer l'option _Adresse de Destination Isolée_ dans les paramètres de l'application. Bien que cette option permette en théorie de renforcer la confidentialité en forçant l'utilisation d'un circuit différent pour chaque adresse IP à laquelle vous vous connectiez, cela n'a en réalité pas d'avantage pratique pour la plupart des applications (surtout la navigation internet), en plus d'impacter négativement les performances et d'augmenter la charge sur le réseau Tor. C'est pourquoi nous ne recommandons plus de changer le paramétrage par défaut de cette option, à moins que vous ne soyez sûr d'en avoir besoin.[^1]
 
 \=== "Android"
 
 ```
-Orbot can proxy individual apps if they support SOCKS or HTTP proxying. It can also proxy all your network connections using [VpnService](https://developer.android.com/reference/android/net/VpnService) and can be used with the VPN kill switch in :gear: **Settings** → **Network & internet** → **VPN** → :gear: → **Block connections without VPN**.
+Orbot peut individuellement utiliser un proxy pour les applications qui prennent en charge les proxy SOCKS ou HTTP. Elle peut également utiliser un proxy pour toutes les connexions réseaux utilisant un [Service VPN](https://developer.android.com/reference/android/net/VpnService) et bénéficier du kill switch du VPN dans :gear:**Paramètres** → **Internet et réseaux** → **VP** →:gear: → **Bloquer les connexions sans VPN**.
 
-Orbot is often outdated on Google Play and the Guardian Project's F-Droid repository, so consider downloading directly from the GitHub repository instead. All versions are signed using the same signature, so they should be compatible with each other.
+Les versions d'Orbot sont souvent obsolètes sur Google Play et le dépôt F-Droid du Guardian Project, il est donc préférable de télécharger l'application directement depuis le dépôt GitHub. Toutes les versions ont la même signature et sont donc normalement compatibles entre elles.
 ```
 
 \=== "iOS"
 
 ```
-On iOS, Orbot has some limitations that could potentially cause crashes or leaks: iOS does not have an effective OS-level feature to block connections without a VPN like Android does, and iOS has an artificial memory limit for network extensions that makes it challenging to run Tor in Orbot without crashes. Currently, it is always safer to use Tor on a desktop computer compared to a mobile device.
+Sur iOS, certaines limitations de Orbot sont parfois la cause de crash ou de fuites de données : iOS n'as pas de fonctionnalité efficace pour bloquer les connexions sans VPN au niveau du système comme sur Android. De plus, la limite artificielle de l'utilisation de la mémoire pour les extensions réseaux rend difficile l'utilisation de Tor via Orbot et cause régulièrement des crash. Actuellement, il est systématique plus sécurisé d'utiliser Tor sur un ordinateur de bureau plutôt que sur un appareil mobile.
 ```
 
 #### Snowflake
 
 <div class="admonition recommendation" markdown>
 
-![Snowflake logo](assets/img/self-contained-networks/snowflake.svg#only-light){ align=right }
-![Snowflake logo](assets/img/self-contained-networks/snowflake-dark.svg#only-dark){ align=right }
+![Logo de Snowflake](assets/img/self-contained-networks/snowflake.svg#only-light){ align=right }
+![Logo de Snowflake](assets/img/self-contained-networks/snowflake-dark.svg#only-dark){ align=right }
 
 **Snowflake** vous permet de donner de la bande passante au projet Tor en hébergant un "proxy Snowflake" dans votre navigateur.
 
@@ -112,7 +111,7 @@ Vous pouvez activer Snowflake dans votre navigateur en l'ouvrant dans un autre o
 
 Snowflake n'améliore en rien votre vie privée et n'est pas utilisé pour se connecter au réseau Tor depuis votre navigateur personnel. Toutefois, si votre connexion Internet n'est pas censurée, vous devriez envisager de l'utiliser pour aider les personnes se trouvant sur des réseaux censurés à améliorer elles-mêmes leur vie privée. Il n'y a pas besoin de s'inquiéter des sites web auxquels les gens accèdent via votre proxy - leur adresse IP de navigation visible correspondra à leur nœud de sortie Tor, pas à la vôtre.
 
-Running a Snowflake proxy is low-risk, even more so than running a Tor relay or bridge which are already not particularly risky endeavors. Toutefois, il achemine le trafic par le biais de votre réseau, ce qui peut avoir un impact à certains égards, surtout si votre réseau a une bande passante limitée. Assurez-vous de bien comprendre [le fonctionnement de Snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) avant de décider d'utiliser ou non un proxy.
+Utiliser un proxy Snowflake présente généralement peu de risques, encore moins qu'un relai Tor ou un pont, qui sont eux-mêmes Toutefois, il achemine le trafic par le biais de votre réseau, ce qui peut avoir un impact à certains égards, surtout si votre réseau a une bande passante limitée. Assurez-vous de bien comprendre [le fonctionnement de Snowflake](https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/wikis/home) avant de décider d'utiliser ou non un proxy.
 
 ### I2P (Le projet Internet invisible)
 
@@ -121,7 +120,7 @@ Running a Snowflake proxy is low-risk, even more so than running a Tor relay or 
 ![logo I2P](assets/img/self-contained-networks/i2p.svg#only-light){ align=right }
 ![logo I2P](assets/img/self-contained-networks/i2p-dark.svg#only-dark){ align=right }
 
-**I2P** is a network layer which encrypts your connections and routes them via a network of computers distributed around the world. Elle vise principalement à créer un réseau alternatif de protection de la vie privée plutôt qu'à rendre anonymes les connexions internet ordinaires.
+**I2P** est une couche réseau qui chiffre vos connexions et les achemine via un réseau d'ordinateurs installés dans le monde entier. Elle vise principalement à créer un réseau alternatif de protection de la vie privée plutôt qu'à rendre anonymes les connexions internet ordinaires.
 
 [:octicons-home-16: Page d'accueil](https://geti2p.net/en){ .md-button .md-button--primary }
 [:octicons-info-16:](https://geti2p.net/en/about/software){ .card-link title=Documentation }
@@ -129,7 +128,7 @@ Running a Snowflake proxy is low-risk, even more so than running a Tor relay or 
 [:octicons-heart-16:](https://geti2p.net/en/get-involved){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.i2p.android)
 - [:simple-android: Android](https://geti2p.net/en/download#android)
@@ -150,10 +149,10 @@ Vous pouvez essayer de vous connecter à _Privacy Guides_ via I2P à l'adresse [
 
 </div>
 
-En outre, contrairement à Tor, chaque nœud I2P relaiera par défaut le trafic pour les autres utilisateurs, au lieu de s'appuyer sur des volontaires de relais dédiés pour faire fonctionner les nœuds. Il y a environ [10 000](https://metrics.torproject.org/networksize.html) relais et ponts sur le réseau Tor contre environ 50 000 sur I2P, ce qui signifie qu'il y a potentiellement plus de façons pour votre trafic d'être acheminé afin de maximiser l'anonymat. I2P also tends to be more performant than Tor, although this is likely a side effect of Tor being more focused on regular "clearnet" internet traffic and thus using more bottle necked exit nodes. Les performances des services cachés sont généralement considérées comme bien meilleures sur I2P que sur Tor. Alors que l'exécution d'applications P2P comme BitTorrent est difficile sur Tor (et peut avoir un impact massif sur les performances du réseau Tor), elle est très facile et performante sur I2P.
+En outre, contrairement à Tor, chaque nœud I2P relaiera par défaut le trafic pour les autres utilisateurs, au lieu de s'appuyer sur des volontaires de relais dédiés pour faire fonctionner les nœuds. Il y a environ [10 000](https://metrics.torproject.org/networksize.html) relais et ponts sur le réseau Tor contre environ 50 000 sur I2P, ce qui signifie qu'il y a potentiellement plus de façons pour votre trafic d'être acheminé afin de maximiser l'anonymat. I2P a également tendance à être plus performant que Tor, bien que cela soit probablement un effet secondaire du fait que Tor s'utilise davantage pour un trafic internet "clearnet" (non-darknet), ce qui surcharge ses nœuds de sortie. Les performances des services cachés sont généralement considérées comme bien meilleures sur I2P que sur Tor. Alors que l'exécution d'applications P2P comme BitTorrent est difficile sur Tor (et peut avoir un impact massif sur les performances du réseau Tor), elle est très facile et performante sur I2P.
 
 L'approche de I2P présente toutefois des inconvénients. Le fait que Tor s'appuie sur des nœuds de sortie dédiés signifie que davantage de personnes dans des environnements moins sûrs peuvent l'utiliser, et les relais qui existent sur Tor sont susceptibles d'être plus performants et plus stables, car ils ne sont généralement pas exécutés sur des connexions résidentielles. Tor est également beaucoup plus axé sur la **confidentialité du navigateur** (c'est-à-dire empêcher la capture d'empreintes numériques), avec un [Navigateur Tor](tor.md) dédié pour rendre l'activité de navigation aussi anonyme que possible. I2P est utilisé via votre [navigateur web ordinaire](desktop-browsers.md), et bien que vous puissiez configurer votre navigateur pour mieux protéger votre vie privée, vous n'aurez probablement pas la même empreinte numérique de navigateur que les autres utilisateurs de I2P (il n'y a pas de "foule" à laquelle se fondre à cet égard).
 
 Tor est susceptible de mieux résister à la censure, en raison de son solide réseau de ponts et de divers [transports enfichables] (https://tb-manual.torproject.org/circumvention). D'autre part, l'I2P utilise des serveurs d'annuaire pour la connexion initiale, qui varient, ne sont pas fiables et sont gérés par des bénévoles, alors que Tor utilise des serveurs codés en dur et fiables, qui sont probablement plus faciles à bloquer.
 
-[^1]: The `IsolateDestAddr` setting is discussed on the [Tor mailing list](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403) and [Whonix's Stream Isolation documentation](https://whonix.org/wiki/Stream_Isolation), where both projects suggest that it is usually not a good approach for most people.
+[^1]: Le paramètre `IsolateDestAddr` est abordé dans la [mailing list de Tor](https://lists.torproject.org/pipermail/tor-talk/2012-May/024403) et la [documentation de Whonix sur l'Isolation du Flux](https://whonix.org/wiki/Stream_Isolation). Les deux projets suggèrent que ce n'est généralement pas la bonne approche pour la majorité des gens.
