@@ -103,19 +103,19 @@ Proton Mail kromě běžných plateb kreditní či debetní kartou [přijímá](
 
 Proton Mail podporuje [dvoufaktorové ověřování](https://proton.me/support/two-factor-authentication-2fa) pomocí TOTP a [hardwarové bezpečnostní klíče](https://proton.me/support/2fa-security-key) pomocí standardů FIDO2 a U2F. Používání hardwarových bezpečnostních klíčů nejprve vyžaduje nastavení TOTP dvoufaktorového ověření.
 
-#### :material-check:{ .pg-green } Data Security
+#### :material-check:{ .pg-green } Zabezpečení dat
 
-Proton Mail has [zero-access encryption](https://proton.me/blog/zero-access-encryption) at rest for your emails and [calendars](https://proton.me/news/protoncalendar-security-model). Data secured with zero-access encryption is only accessible by you.
+Proton Mail má [zero-access šifrování](https://proton.me/blog/zero-access-encryption) pro uložená data e-mailů a [kalendářů](https://proton.me/news/protoncalendar-security-model). K datům zabezpečeným zero-access šifrováním můžete přistupovat jenom vy.
 
-Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are not secured with zero-access encryption. Contact fields that support zero-access encryption, such as phone numbers, are indicated with a padlock icon.
+Určité informace uložené v [Kontaktech](https://proton.me/support/proton-contacts), např. zobrazovaná jména nebo e-mailové adresy, nejsou zabezpečené zero-access šifrováním. Pole kontaktu, která podporují zero-access šifrování, např. telefonní čísla, jsou označené ikonou zámku.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } Šifrování e-malu
 
-Proton Mail has [integrated OpenPGP encryption](https://proton.me/support/how-to-use-pgp) in their webmail. Emails to other Proton Mail accounts are encrypted automatically, and encryption to non-Proton Mail addresses with an OpenPGP key can be enabled easily in your account settings. Proton also supports automatic external key discovery with WKD. This means that emails sent to other providers which use WKD will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
+Proton Mail má [integrované OpenPGP šifrování](https://proton.me/support/how-to-use-pgp) ve svém webmailu. E-maily posílané ostatním účtům Proton Mailu jsou automaticky šifrované a šifrování na adresy mimo Proton Mail OpenPGP klíčem lze jednoduše povolit v nastavení vašeho účtu. Proton také podporuje automatické zjišťování externích klíčů pomocí WKD. To znamená, že e-maily poslané jiným poskytovatelům, kteří používají WKD, budou také automaticky šifrované pomocí OpenPGP bez nutnosti vyměňovat si veřejné OpenPGP klíče s vašimi kontakty. Také vám umožňují [šifrovat zprávy adresátům mimo Proton Mail bez OpenPGP](https://proton.me/support/password-protected-emails), aniž by si museli zakládat Proton Mail účet.
 
-Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Proton's own domains, like `@proton.me`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Proton Mail také zveřejňuje veřejné klíče Proton účtů přes HTTP z jejich WKD. To umožňuje lidem, kteří nepoužívají Proton Mail, snadno najít OpenPGP klíče Proton Mail účtů jednoduše pro E2EE mezi různými poskytovateli. To ale platí pouze pro e-mailové adresy ve vlastních doménách Protonu, např. `@proton.me`. Pokud používáte vlastní doménu, je potřeba [nastavit WKD](basics/email-security.md#what-is-the-web-key-directory-standard) zvlášť.
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } Ukončení účtu
 
 If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. After 30 days, your account will become delinquent and won't receive incoming mail. You will continue to be billed during this period. Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address of a deactivated account.
 
@@ -164,13 +164,13 @@ Mailbox.org allows for encryption of incoming mail using their [encrypted mailbo
 
 However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that data.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } Šifrování e-malu
 
 Mailbox.org has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox.org's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox.
 
-Mailbox.org also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox.org's own domains, like `@mailbox.org`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Mailbox.org also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox.org's own domains, like `@mailbox.org`. Pokud používáte vlastní doménu, je potřeba [nastavit WKD](basics/email-security.md#what-is-the-web-key-directory-standard) zvlášť.
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } Ukončení účtu
 
 Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
@@ -238,7 +238,7 @@ Tuta only directly accepts credit cards and PayPal, however [**cryptocurrency**]
 
 Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
 
-#### :material-check:{ .pg-green } Data Security
+#### :material-check:{ .pg-green } Zabezpečení dat
 
 Tuta has [zero-access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). This means the messages and other data stored in your account are only readable by you.
 
@@ -246,7 +246,7 @@ Tuta has [zero-access encryption at rest](https://tuta.com/support#what-encrypte
 
 Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } Ukončení účtu
 
 Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
 
