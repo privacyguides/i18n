@@ -26,7 +26,7 @@ schema:
 
 Privacy Guides est maintenu par ses membres de l'équipe et des bénévoles du monde entier. Tous les changements apportés à nos recommandations et nos ressources sont examinés par au moins deux [personnes de confiance](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all), et nous travaillons d'arrache-pied pour mettre à jour notre contenu le plus rapidement possible pour vous permettre de vous adapter au mieux à l'évolution constante des menaces numériques.
 
-In addition to our core team, [many other people](about/contributors.md) have made contributions to the project. You can too! We're open source on GitHub, and accepting translation suggestions on [Crowdin](https://crowdin.com/project/privacyguides).
+En plus de notre équipe principale, [de nombreuses autres personnes](about/contributors.md) ont contribué au projet. You can too! Nous sommes open source sur GitHub, et acceptons les suggestions de traduction sur [Crowdin](https://crowdin.com/project/privacyguides).
 
 [Job Openings :material-arrow-right-drop-circle:](about/jobs.md)
 

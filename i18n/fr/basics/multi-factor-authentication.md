@@ -76,13 +76,13 @@ WebAuthn est la forme la plus sûre et la plus privée d'authentification par se
 
 Lorsque vous créez un compte, la clé publique est envoyée au service, puis lorsque vous vous connectez, le service vous demande de "signer" certaines données avec votre clé privée. L'avantage de cette méthode est qu'aucune donnée de mot de passe n'est jamais stockée par le service, et qu'il n'y a donc rien qu'un adversaire puisse voler.
 
-This presentation discusses the history of password authentication, the pitfalls (such as password reuse), and the standards for FIDO2 and [WebAuthn](https://webauthn.guide):
+Cette présentation aborde l'histoire de l'authentification par mot de passe, les pièges (tels que la réutilisation du mot de passe), et les standards FIDO2 et [WebAuthn](https://webauthn.guide) :
 
-- [How FIDO2 and WebAuthn Stop Account Takeovers](https://youtu.be/aMo4ZlWznao) <small>(YouTube)</small>
+- [Comment FIDO2 et WebAuthn empêchent les prises de contrôle de comptes](https://youtu.be/aMo4ZlWznao) <small>(YouTube) (en anglais)</small>
 
 FIDO2 et WebAuthn présentent des propriétés de sécurité et de confidentialité supérieures à celles de toute autre méthode MFA.
 
-Typically, for web services it is used with WebAuthn which is a part of the [W3C recommendations](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). Il utilise l'authentification asymétrique et est plus sécurisé que les secrets partagés utilisés dans les méthodes OTP de Yubico et TOTP, car il inclut le nom d'origine (habituellement le nom de domaine) lors de l'authentification. L'attestation est fournie pour vous protéger des attaques de phishing, car elle vous aide à déterminer que vous utilisez le service authentique et non une fausse copie.
+Généralement, pour les services web, il est utilisé avec WebAuthn, qui fait partie des [recommandations du W3C](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium#W3C_recommendation_(REC)). Il utilise l'authentification asymétrique et est plus sécurisé que les secrets partagés utilisés dans les méthodes OTP de Yubico et TOTP, car il inclut le nom d'origine (habituellement le nom de domaine) lors de l'authentification. L'attestation est fournie pour vous protéger des attaques de phishing, car elle vous aide à déterminer que vous utilisez le service authentique et non une fausse copie.
 
 Contrairement à Yubico OTP, WebAuthn n'utilise pas d'identifiant public, de sorte que la clé est **non** identifiable sur différents sites web. Il n'utilise pas non plus de serveur cloud tiers pour l'authentification. Toute la communication se fait entre la clé et le site web auquel vous vous connectez. FIDO utilise également un compteur qui est incrémenté lors de l'utilisation afin d'empêcher la réutilisation de session et les clés clonées.
 
@@ -116,15 +116,15 @@ Si vous utilisez la MFA par SMS, utilisez un opérateur qui ne changera pas votr
 
 ## Plus d'endroits pour configurer MFA
 
-Beyond just securing your website logins, multifactor authentication can be used to secure your local logins, SSH keys or even password databases as well.
+Au-delà de la simple sécurisation des connexions à votre site web, l'authentification multifactorielle peut être utilisée pour sécuriser vos connexions locales, vos clés SSH ou même vos bases de données de mots de passe.
 
 ### macOS
 
-macOS dispose d'un [support natif](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) pour l'authentification par carte à puce (PIV). If you have a smart card or a hardware security key that supports the PIV interface such as the YubiKey, we recommend that you follow your smart card or hardware security vendor's documentation and set up second factor authentication for your macOS computer.
+macOS dispose d'un [support natif](https://support.apple.com/guide/deployment/intro-to-smart-card-integration-depd0b888248/web) pour l'authentification par carte à puce (PIV). Si vous avez une carte à puce ou une clé de sécurité matérielle qui prend en charge l'interface PIV telle que la YubiKey, nous vous recommandons de suivre la documentation de votre fournisseur de sécurité de carte à puce/matérielle et de configurer l'authentification à second facteur pour votre ordinateur macOS.
 
 Yubico a un guide [Utiliser votre YubiKey comme une Smart Card dans macOS](https://support.yubico.com/hc/articles/360016649059) qui peut vous aider à configurer votre YubiKey sur macOS.
 
-After your smart card/security key is set up, we recommend running this command in the Terminal:
+Une fois votre carte à puce/clé de sécurité configurée, nous vous recommandons d'exécuter cette commande dans le terminal :
 
 ```text
 sudo defaults write /Library/Preferences/com.apple.loginwindow DisableFDEAutoLogin -bool YES
@@ -159,4 +159,4 @@ La MFA par SSH peut également être configurée en utilisant TOTP. DigitalOcean
 
 ### KeePass (et KeePassXC)
 
-KeePass and KeePassXC databases can be secured using HOTP or Challenge-Response as a second-factor of authentication. Yubico a fourni un document pour KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) et il y en a également un sur le site de [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa).
+Les bases de données KeePass et KeePassXC peuvent être sécurisées en utilisant Challenge-Response ou HOTP comme second facteur d'authentification. Yubico a fourni un document pour KeePass [Using Your YubiKey with KeePass](https://support.yubico.com/hc/articles/360013779759-Using-Your-YubiKey-with-KeePass) et il y en a également un sur le site de [KeePassXC](https://keepassxc.org/docs/#faq-yubikey-2fa).

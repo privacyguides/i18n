@@ -1,5 +1,5 @@
 ---
-meta_title: "Navigateurs web respectueux de la vie privée pour PC et Mac - Privacy"
+meta_title: "Navigateurs web respectueux de la vie privée pour PC et Mac - Privacy Guides"
 title: Navigateurs de Bureau
 icon: material/laptop
 description: Ces navigateurs respectueux de la vie privée sont ceux que nous recommandons actuellement pour la navigation internet standard/non-anonyme sur les ordinateurs de bureau.

@@ -50,7 +50,7 @@ schema:
       url: "./"
 ---
 
-<small>Protège contre les menaces suivantes :</small>
+<small>Protège contre la (les) menace(s) suivante(s):</small>
 
 - [:material-account-cash: Capitalisme de surveillance](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 

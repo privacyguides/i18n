@@ -27,7 +27,7 @@ Les VPNs chiffrent votre trafic entre votre appareil et un serveur appartenant �
 ``` mermaid
 flowchart LR
  763931["Votre appareil<div>(avec client VPN)</div>"] ===|"chiffrement VPN"| 404512{"serveur VPN"}
- 404512 -.-|"pas de chiffrement VPN"| 593753((("Internet\n(votre destination)")))
+ 404512 -.-|"pas de chiffrement VPN"| 593753(("Internet\n(votre destination)"))
  subgraph 763931["Votre appareil<div>(avec client VPN)</div>"]
  end
 ```
@@ -93,7 +93,7 @@ Les relais multipartites (MPR) utilisent plusieurs nœuds appartenant à différ
 
 Les MPRs cherchent à résoudre un problème inhérent aux VPN: le fait que vous devez leur faire entièrement confiance. Elles atteignent cet objectif en segmentant les responsabilités entre deux ou plusieurs entreprises différentes.
 
-One example of a commercially available MPR is Apple's iCloud+ Private Relay, which routes your traffic through two servers:
+Un exemple de MPR disponible dans le commerce est le iCloud+ Private Relay d'Apple, qui achemine votre trafic via deux serveurs :
 
 1. Premièrement, un serveur géré par Apple.
 
@@ -103,7 +103,7 @@ One example of a commercially available MPR is Apple's iCloud+ Private Relay, wh
 
     Ce serveur établit la connexion avec votre site web de destination, mais n'a aucune connaissance de votre appareil. La seule adresse IP qu'il connaît est celle du serveur d'Apple.
 
-Other MPRs run by different companies operate in a very similar manner. This protection by segmentation only exists if you trust the two companies to not collude with each other to deanonymize you.
+D'autres MPRs gérés par différentes entreprises fonctionnent de manière très similaire. Cette protection par segmentation n'existe que si vous avez confiance dans le fait que les deux entreprises ne s'entendent pas pour vous désanonymiser.
 
 ### VPNs décentralisés
 
