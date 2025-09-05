@@ -26,23 +26,23 @@ schema:
 
 Privacy Guides est maintenu par ses membres de l'équipe et des bénévoles du monde entier. Tous les changements apportés à nos recommandations et nos ressources sont examinés par au moins deux [personnes de confiance](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all), et nous travaillons d'arrache-pied pour mettre à jour notre contenu le plus rapidement possible pour vous permettre de vous adapter au mieux à l'évolution constante des menaces numériques.
 
-En plus de notre équipe principale, [de nombreuses autres personnes](about/contributors.md) ont contribué au projet. You can too! Nous sommes open source sur GitHub, et acceptons les suggestions de traduction sur [Crowdin](https://crowdin.com/project/privacyguides).
+En plus de notre équipe principale, [de nombreuses autres personnes](about/contributors.md) ont contribué au projet. Vous aussi ! Nous sommes open source sur GitHub, et acceptons les suggestions de traduction sur [Crowdin](https://crowdin.com/project/privacyguides).
 
-[Job Openings :material-arrow-right-drop-circle:](about/jobs.md)
+[Offres d'emploi :material-arrow-right-drop-circle:](about/jobs.md)
 
 ## :material-email-edit: Contact
 
-[:simple-discourse: Join the Privacy Guides forum](https://discuss.privacyguides.net){ .md-button .md-button--primary }
+[:simple-discourse: Rejoindre le forum Privacy Guides](https://discuss.privacyguides.net){ .md-button .md-button--primary }
 
-The best way to get individual help is from our community on Discourse. Si vous voyez un problème sur notre site, veuillez lancer une discussion dans la catégorie [Site Development](https://discuss.privacyguides.net/c/site-development/7) de notre forum. If you have a question about anything we cover, please ask it in the [Questions](https://discuss.privacyguides.net/c/privacy/questions/8) category on our forum.
+Le meilleur moyen d'obtenir une aide individuelle est de s'adresser à notre communauté sur Discourse. Si vous voyez un problème sur notre site, veuillez lancer une discussion dans la catégorie [Site Development](https://discuss.privacyguides.net/c/site-development/7) de notre forum. Si vous avez une question sur l'un de nos sujets, veuillez la poser dans la catégorie [Questions](https://discuss.privacyguides.net/c/privacy/questions/8) de notre forum.
 
-![Signal contact QR code](assets/img/layout/signal-contact-qr.png){ align=right }
+![QR code contact pour Signal](assets/img/layout/signal-contact-qr.png){ align=right }
 
-Have a tip for us, or need to share some sensitive information? . This group account is monitored by [Jonah](https://discuss.privacyguides.net/u/jonah), [Niek](https://discuss.privacyguides.net/u/niek-de-wilde), [Em](https://discuss.privacyguides.net/u/ematprivacyguides), and [Jordan](https://discuss.privacyguides.net/u/jordan).
+Vous avez un conseil à nous donner ou vous souhaitez nous faire part d'une information sensible ? Le meilleur moyen de nous contacter en toute sécurité est de le faire via `@privacyguides.01` sur Signal. Ce compte de groupe est suivi par [Jonah](https://discuss.privacyguides.net/u/jonah), [Niek](https://discuss.privacyguides.net/u/niek-de-wilde), [Em](https://discuss.privacyguides.net/u/ematprivacyguides), et [Jordan](https://discuss.privacyguides.net/u/jordan).
 
-[:simple-signal: Chat on Signal](https://signal.me/#eu/zg9xcrIv5w-EtXt2FmTJgfWv01LmyTed8rpr7RDv35Mizq8ISZ9NJLmYtzsxI0Z4){ .md-button }
+[:simple-signal: Discute sur Signal](https://signal.me/#eu/zg9xcrIv5w-EtXt2FmTJgfWv01LmyTed8rpr7RDv35Mizq8ISZ9NJLmYtzsxI0Z4){ .md-button }
 
-You may also email the entire team at <team@privacyguides.org>. This is a shared inbox that could be read by any [team member](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all), so please consider what sensitive information you share via email accordingly.
+Vous pouvez également envoyer un courriel à l'ensemble de l'équipe à l'adresse suivante : <team@privacyguides.org>. This is a shared inbox that could be read by any [team member](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all), so please consider what sensitive information you share via email accordingly.
 
 We will do our best to respond to all queries within 3 business days, but please understand we are unable to provide individualized advice to everyone who asks. If you have a question about privacy, you will receive a much more detailed and timely response from the Privacy Guides community by [asking on our forum](https://discuss.privacyguides.net/c/privacy/questions/8).
 
