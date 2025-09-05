@@ -127,15 +127,17 @@ Proton Mail также публикует открытые ключи аккау
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
+![Логотип Mailbox.org](assets/img/email/mailboxorg.svg){ align=right }
 
-**Mailbox.org** is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Они работают с 2014 года. Mailbox.org базируется в Берлине, Германия.
+**Mailbox.org** — это сервис электронной почты, ориентированный на безопасность, отсутствие рекламы и работающий на 100% экологически чистой энергии.
 
-Accounts start with up to 2 GB storage, which can be upgraded as needed.
+ Они работают с 2014 года. Mailbox.org базируется в Берлине, Германия.
 
-[:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Documentation" }
+Аккаунты начинаются с объемом хранилища до 2 ГБ, который при необходимости можно увеличить.
+
+[:octicons-home-16: Главная](https://mailbox.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Политика конфиденциальности" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Документация" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -148,39 +150,39 @@ Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
 #### :material-check:{ .pg-green } Пользовательские домены и псевдонимы
 
-Mailbox.org lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox.org also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
+Mailbox.org позволяет тебе использовать собственный домен, и они поддерживают [универсальные](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) адреса. Mailbox.org также поддерживает [субадресацию](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), что полезно, если ты не хочешь покупать домен.
 
 #### :material-check:{ .pg-green } Конфиденциальные способы оплаты
 
-Mailbox.org не принимает криптовалюты в связи с тем, что их платежная система BitPay приостановила работу в Германии. However, they do accept **cash** by mail, **cash** payment to bank account, bank transfer, credit card, PayPal, and a couple of German-specific processors: Paydirekt and Sofortüberweisung.
+Mailbox.org не принимает криптовалюты в связи с тем, что их платежная система BitPay приостановила работу в Германии. Однако они принимают **наличные** по почте, **наличные** платежи на банковский счет, банковские переводы, кредитные карты, PayPal и несколько специфичных для Германии платежных систем: Paydirekt и Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Безопасность аккаунта
 
-Mailbox.org supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) are not yet supported.
+Mailbox.org поддерживает [двухфакторную аутентификацию](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa)только для своего веб клиента. Ты можешь использовать либо TOTP, либо [YubiKey](https://en.wikipedia.org/wiki/YubiKey) через [YubiCloud](https://yubico.com/products/services-software/yubicloud). Веб-стандарты, такие как [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), пока не поддерживаются.
 
 #### :material-information-outline:{ .pg-blue } Безопасность данных
 
-Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Новые сообщения, которые ты получаешь, будут немедленно зашифрованы твоим открытым ключом.
+Mailbox.org позволяет шифровать входящую почту с помощью их [зашифрованного почтового ящика](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Новые сообщения, которые ты получаешь, будут немедленно зашифрованы твоим открытым ключом.
 
-However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that data.
+Однако [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), программная платформа, используемая Mailbox.org, [не поддерживает](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) шифрование твоей адресной книги и календаря. Для таких данных может быть более подходящим [отдельное решение](calendar.md).
 
 #### :material-check:{ .pg-green } Шифрование электронной почты
 
-Mailbox.org has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox.org's servers. Эта функция полезна, когда получатель не имеет OpenPGP и не может расшифровать копию письма в собственном почтовом ящике.
+Mailbox.org имеет [встроенное шифрование](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) в своем веб-интерфейсе, что упрощает отправку сообщений людям с публичными ключами OpenPGP. Они также позволяют [удаленным получателям расшифровывать электронное письмо](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp)на серверах Mailbox.org. Эта функция полезна, когда получатель не имеет OpenPGP и не может расшифровать копию письма в собственном почтовом ящике.
 
-Mailbox.org also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox.org's own domains, like `@mailbox.org`. Если ты используешь собственный домен, тебе необходимо [настроить WKD](basics/email-security.md#what-is-the-web-key-directory-standard) отдельно.
+Mailbox.org также поддерживает обнаружение публичных ключей через HTTP из своего WKD. Это позволяет людям за пределами Mailbox.org легко находить OpenPGP-ключи аккаунтов Mailbox.org для межпровайдерного сквозного шифрования (E2EE). Это относится только к адресам электронной почты, заканчивающимся на один из собственных доменов Mailbox.org, таких как `@mailbox.org`. Если ты используешь собственный домен, тебе необходимо [настроить WKD](basics/email-security.md#what-is-the-web-key-directory-standard) отдельно.
 
 #### :material-information-outline:{ .pg-blue } Блокировка аккаунта
 
-Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Твой аккаунт будет переведен в ограниченный режим пользователя по окончании срока контракта. Он будет безвозвратно удален через [30 дней](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
 #### :material-information-outline:{ .pg-blue } Дополнительная функциональность
 
-You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). However, their webmail interface cannot be accessed via their .onion service, and you may experience TLS certificate errors.
+Ты можешь получить доступ к своему аккаунту Mailbox.org через IMAP/SMTP, используя их [.onion сервис](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). Однако веб клиент нельзя открыть через их .onion сервис, и ты можешь столкнуться с ошибками TLS-сертификата.
 
-All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org также поддерживает [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) в дополнение к стандартным протоколам доступа, таким как IMAP и POP3.
+Все аккаунты поставляются с ограниченным облачным хранилищем, которое [можно зашифровать](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org также предлагает псевдоним [secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), который обеспечивает TLS-шифрование соединения между почтовыми серверами — в противном случае сообщение вообще не будет отправлено. Mailbox.org также поддерживает [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) в дополнение к стандартным протоколам доступа, таким как IMAP и POP3.
 
-Mailbox.org имеет функцию цифрового наследия для всех тарифных планов. You can choose whether you want any of your data to be passed to heirs, providing that they apply and provide your testament. Кроме того, ты можешь назначить наследника по имени и адресу.
+Mailbox.org имеет функцию цифрового наследия для всех тарифных планов. Ты можешь выбрать, хочешь ли ты, чтобы какие-либо из твоих данных были переданы твоим наследникам, при условии, что они подадут заявление и предоставят твоё завещание. Кроме того, ты можешь назначить наследника по имени и адресу.
 
 ## Дополнительные провайдеры
 
@@ -188,7 +190,7 @@ Mailbox.org имеет функцию цифрового наследия для
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](email.md#tuta)
+- ![Логотип Tuta](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Логотип Tuta](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](email.md#tuta)
 
 </div>
 
@@ -196,21 +198,20 @@ Mailbox.org имеет функцию цифрового наследия для
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
-![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![Логотип Tuta](assets/img/email/tuta.svg#only-light){ align=right }
+![Логотип Tuta](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany.
+**Tuta** (ранее *Tutanota*) - это сервис электронной почты, в котором особое внимание уделяется безопасности и конфиденциальности благодаря использованию шифрования. Tuta работает с 2011 года и базируется в Ганновере, Германия.
 
-Free accounts start with 1 GB of storage.
+Бесплатные аккаунты начинаются с 1 ГБ хранилища.
 
-[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
+[:octicons-home-16: Главная](https://tuta.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Политики конфиденциальности" }
+[:octicons-info-16:](https://tuta.com/support){ .card-link title="Документация" }
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link 
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Скачать</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
@@ -224,15 +225,15 @@ Free accounts start with 1 GB of storage.
 
 </div>
 
-Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
+Tuta не поддерживает [протокол IMAP](https://tuta.com/support#imap) или использование сторонних [почтовых клиентов](email-clients.md), а также ты не сможешь добавить [внешние учетные записи электронной почты](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) в приложение Tuta. [Импорт электронных писем](https://github.com/tutao/tutanota/issues/630) в настоящее время также не поддерживается, хотя это [планируется изменить](https://tuta.com/blog/kickoff-import). Письма можно экспортировать [по отдельности или путем массового выбора](https://tuta.com/support#generalMail) для каждой папки, что может быть неудобно, если у тебя много папок.
 
 #### :material-check:{ .pg-green } Пользовательские домены и псевдонимы
 
-Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/support#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/support#plus), but you can use a [catch-all](https://tuta.com/support#settings-global) with a custom domain.
+Платные аккаунты Tuta могут использовать либо 15, либо 30 псевдонимов в зависимости от плана и неограниченное количество псевдонимов на [собственных доменах](https://tuta.com/support#custom-domain). Tuta не позволяет использовать [субадресацию (плюс-адреса)](https://tuta.com/support#plus), но ты можешь использовать [универсальный адрес](https://tuta.com/support#settings-global) с собственным доменом.
 
 #### :material-information-outline:{ .pg-blue } Конфиденциальные способы оплаты
 
-Tuta only directly accepts credit cards and PayPal, however [**cryptocurrency**](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
+Tuta напрямую принимает только кредитные карты и PayPal, однако [**криптовалюта**](cryptocurrency.md) может быть использована для покупки подарочных карт через их [партнерство](https://tuta.com/support/#cryptocurrency) с ProxyStore.
 
 #### :material-check:{ .pg-green } Безопасность аккаунта
 
