@@ -5,7 +5,7 @@ description: Les calendriers contiennent certaines de vos données les plus sens
 cover: calendar.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protège contre la/les menaces suivantes :</small>
 
 - [:material-bug-outline: Attaques passives](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: Fournisseurs de service](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
@@ -16,10 +16,10 @@ Les **calendriers** contiennent certaines de vos données les plus sensibles ; u
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
+![Logo Tuta](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** offers a free and encrypted calendar across their supported platforms. Les fonctionnalités comprennent l'E2EE automatique de toutes les données, des fonctions de partage, des fonctions d'importation/exportation, l'authentification multifactorielle, et [plus](https://tuta.com/calendar-app-comparison).
+**Tuta** propose un calendrier gratuit et chiffré sur toutes les plates-formes prises en charge. Les fonctionnalités comprennent l'E2EE automatique de toutes les données, des fonctions de partage, des fonctions d'importation/exportation, l'authentification multifactorielle, et [plus](https://tuta.com/calendar-app-comparison).
 
 Les calendriers multiples et la fonctionnalité de partage étendue sont réservés aux abonnés payants.
 
@@ -55,13 +55,13 @@ Les calendriers multiples et la fonctionnalité de partage étendue sont réserv
 
 Les abonnés gratuits ont accès à 3 calendriers, tandis que les abonnés payants peuvent créer jusqu'à 25 calendriers. Les fonctionnalités de partage avancées sont également limitées aux abonnés payants.
 
-[:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://proton.me/calendar/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://proton.me/calendar){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://proton.me/calendar/privacy-policy){ .card-link title="Politique de confidentialité" }
 [:octicons-info-16:](https://proton.me/support/calendar){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Code source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.calendar)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1514709943)
@@ -71,7 +71,7 @@ Les abonnés gratuits ont accès à 3 calendriers, tandis que les abonnés payan
 
 </div>
 
-Unfortunately, as of August 2024 Proton has [still](https://discuss.privacyguides.net/t/proton-calendar-is-not-open-source-mobile/14656/8) not released the source code for their mobile Calendar app on Android or iOS, and only the former has been [audited](https://proton.me/blog/security-audit-all-proton-apps). Proton Calendar's web client is open source, however, and has been [audited](https://proton.me/community/open-source).
+Malheureusement, en août 2024 Proton n'a [toujours](https://discuss.privacyguides.net/t/proton-calendar-is-not-open-source-mobile/14656/8) pas publié le code source de son application mobile Calendar sur Android ou iOS, et seul le premier a été [audité](https://proton.me/blog/security-audit-all-proton-apps). Le client web de Proton Calendar est cependant open source et a été [audité](https://proton.me/community/open-source).
 
 ## Critères
 
