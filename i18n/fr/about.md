@@ -42,9 +42,9 @@ Vous avez un conseil à nous donner ou vous souhaitez nous faire part d'une info
 
 [:simple-signal: Discute sur Signal](https://signal.me/#eu/zg9xcrIv5w-EtXt2FmTJgfWv01LmyTed8rpr7RDv35Mizq8ISZ9NJLmYtzsxI0Z4){ .md-button }
 
-Vous pouvez également envoyer un courriel à l'ensemble de l'équipe à l'adresse suivante : <team@privacyguides.org>. This is a shared inbox that could be read by any [team member](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all), so please consider what sensitive information you share via email accordingly.
+Vous pouvez également envoyer un courriel à l'ensemble de l'équipe à l'adresse suivante : <team@privacyguides.org>. Il s'agit d'une boîte de réception partagée qui peut être lue par n'importe quel [membre de l'équipe] (https://discuss.privacyguides.net/u?group=team&order=solutions&period=all), donc il faut tenir compte des informations sensibles que vous communiquez par courrier électronique.
 
-We will do our best to respond to all queries within 3 business days, but please understand we are unable to provide individualized advice to everyone who asks. If you have a question about privacy, you will receive a much more detailed and timely response from the Privacy Guides community by [asking on our forum](https://discuss.privacyguides.net/c/privacy/questions/8).
+Nous ferons de notre mieux pour répondre à toutes les questions dans un délai de 3 jours ouvrables, mais nous ne sommes pas en mesure de fournir des conseils personnalisés à toutes les personnes qui nous le demandent. Si vous avez une question sur la protection de la vie privée, vous recevrez une réponse beaucoup plus détaillée et rapide de la part de la communauté Privacy Guides en [posant votre question sur notre forum](https://discuss.privacyguides.net/c/privacy/questions/8).
 
 You can also use OpenPGP to contact us via email, if you feel comfortable with your client's security settings. You can discover the PGP keys of our team members using WKD if your client supports it. If it doesn't, or you don't know what that means, you can also find the public key for any Privacy Guides email account by searching on [keys.openpgp.org](https://keys.openpgp.org). We do not have PGP for the shared team inbox, only individual mailboxes which can be found in our team directory below.
 
