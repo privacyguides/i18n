@@ -1,13 +1,13 @@
 ---
-title: Android
+title: "Android"
 description: Our advice for replacing privacy-invasive default Android features with private and secure alternatives.
-icon: απλό/android
+icon: 'απλό/android'
 cover: android.webp
 schema:
   - "@context": http://schema.org
     "@type": WebPage
     name: Android Recommendations
-    url: ./
+    url: "./"
   - "@context": http://schema.org
     "@type": CreativeWork
     name: Android
@@ -38,7 +38,7 @@ There are also many private alternatives to the apps that come pre-installed on 
 
 Όταν αγοράζεις ένα κινητό Android, το προεπιλεγμένο λειτουργικό σύστημα συνοδεύεται από εφαρμογές και λειτουργίες που δεν αποτελούν μέρος του έργου ανοιχτού κώδικα Android. Πολλές από αυτές τις εφαρμογές—ακόμα και εφαρμογές όπως ο τηλεφωνητής που παρέχουν βασικές λειτουργίες συστήματος—απαιτούν παρεμβατικές ενσωματώσεις με τις Υπηρεσίες Google Play, οι οποίες με τη σειρά τους ζητούν προνόμια πρόσβασης στα αρχεία σου, επαφές, απογραφές κλήσεων, μηνύματα SMS, τοποθεσία, κάμερα, μικρόφωνο, όπως και σε πολλά άλλα πράγματα στη συσκευή σου, προκειμένου αυτές, όπως και πολλές άλλες μη-συστημικές εφαρμογές, να καταφέρουν να λειτουργίσουν. Πλαίσια όπως οι Υπηρεσίες Google Play αυξάνουν την επιφάνεια επίθεσης της συσκευής σου και αποτελούν πηγή ποικίλων ανησυχιών περί απορρήτου στο Android.
 
-This problem could be solved by using an alternative Android distribution, commonly known as a _custom ROM_, that does not come with such invasive integration. Δυστυχώς, πολλές προσαρμοσμένες διανομές Android συχνά παραβιάζουν το μοντέλο ασφάλειας του, καθώς δεν υποστηρίζουν κρίσιμες δικλίδες, όπως το AVB, την προστασία πισωγυρίσματος (rollback protection), ενημερώσεις υλικολογισμικού (firmware updates), και ούτω καθεξής. Some distributions also ship [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) builds which expose root via [ADB](https://developer.android.com/studio/command-line/adb) and require more permissive SELinux policies to accommodate debugging features, resulting in a further increased attack surface and weakened security model.
+This problem could be solved by using an alternative Android distribution, commonly known as a _custom ROM_, that does not come with such invasive integration. Δυστυχώς, πολλές προσαρμοσμένες διανομές Android συχνά παραβιάζουν το μοντέλο ασφάλειας του, καθώς δεν υποστηρίζουν κρίσιμες δικλίδες, όπως το AVB, την προστασία πισωγυρίσματος (rollback protection), ενημερώσεις υλικολογισμικού (firmware updates), και ούτω καθεξής. Some distributions also ship [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) builds which expose root via [ADB](https://developer.android.com/studio/command-line/adb) and require [more permissive](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux policies to accommodate debugging features, resulting in a further increased attack surface and weakened security model.
 
 Ideally, when choosing a custom Android distribution, you should make sure that it upholds the Android security model. At the very least, the distribution should have production builds, support for AVB, rollback protection, timely firmware and operating system updates, and SELinux in [enforcing mode](https://source.android.com/security/selinux/concepts#enforcement_levels). All of our recommended Android distributions satisfy these criteria:
 

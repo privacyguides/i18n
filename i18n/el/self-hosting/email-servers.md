@@ -1,6 +1,6 @@
 ---
 title: Email Servers
-meta_title: Self-Hosted Email - Privacy Guides
+meta_title: "Self-Hosted Email - Privacy Guides"
 icon: material/email
 description: For our more technical readers, self-hosting your own email can provide additional privacy assurances by having maximum control over your data.
 cover: email.webp

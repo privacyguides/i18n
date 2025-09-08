@@ -2,13 +2,13 @@
 *[ADB]: Android Debug Bridge (ελληνιστί: Γέφυρα Αποσφαλμάτωσης Android)
 *[AOSP]: Έργο Ανοιχτού Κώδικα Android
 *[ATA]: Advanced Technology Attachment
-*[επιφάνεια επίθεσης]: The total number of possible entry points for unauthorized access to a system
+*[επιφάνεια επίθεσης]: Τους συνολικούς αριθμούς των πιθανών σημείων για μην εξουσιοδοτημένη πρόσβαση στο σύστημα
 *[AVB]: Android Verified Boot (ελληνιστί: Επαληθευμένη Εκκίνηση Android)
 *[cgroups]: Ομάδες Ελέγχου
 *[CLI]: Διεπαφή Γραμμής Εντολών (αγγλικά: Command-Line Interface)
 *[CSV]: Τιμές Διαχωρισμένες με Κόμμα
 *[CVE]: Κοινές Ευπάθειες και Εκθέσεις
-*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
+*[σκοτεινό μοτίβο]: A deceptive design pattern intended to trick a user into doing things
 *[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
 *[DNSSEC]: Σύστημα Ονομάτων Τομέων – Επεκτάσεις Ασφάλειας
 *[DNS]: Σύστημα Ονομάτων Τομέων
