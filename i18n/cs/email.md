@@ -156,19 +156,19 @@ Mailbox.org nepřijímá žádné kryptoměny, jelikož jejich platební brána 
 
 #### :material-check:{ .pg-green } Zabezpečení účtu
 
-Mailbox.org supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) are not yet supported.
+Mailbox.org podporuje [dvoufaktorové ověřování](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) jen pro svůj webmail. Můžete použít buď TOTP nebo [YubiKey](https://en.wikipedia.org/wiki/YubiKey) přes [YubiCloud](https://yubico.com/products/services-software/yubicloud). Webové standardy, jako je např. [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), nejsou zatím podporovány.
 
-#### :material-information-outline:{ .pg-blue } Data Security
+#### :material-information-outline:{ .pg-blue } Zabezpečení dat
 
-Mailbox.org allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). New messages that you receive will then be immediately encrypted with your public key.
+Mailbox.org umožňuje šifrování příchozí pošty pomocí jejich [šifrovaných schránek](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Nové zprávy, které obdržíte, budou automaticky zašifrované pomocí vašeho veřejného klíče.
 
-However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that data.
+[Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), softwarová platforma používaná Mailbox.org, nicméně [nepodporuje](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) šifrování vašich kontaktů a kalendáře. Pro tato data může být vhodnější jiná, [oddělená služba](calendar.md).
 
 #### :material-check:{ .pg-green } Šifrování e-malu
 
-Mailbox.org has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox.org's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox.
+Mailbox.org má [integrované šifrování](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) v jejich webmailu, které zjednodušuje posílání zpráv lidem s veřejnými OpenPGP klíči. Také umožňuje [vzdáleným příjemcům dešifrovat e-mail](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) na serverech Mailbox.org. Tato funkce je užitečná v případě, že vzdálený příjemnce nemá OpenPGP a nemůže dešifrovat kopii e-mailu v jeho vlastní schránce.
 
-Mailbox.org also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox.org's own domains, like `@mailbox.org`. Pokud používáte vlastní doménu, je potřeba [nastavit WKD](basics/email-security.md#what-is-the-web-key-directory-standard) zvlášť.
+Mailbox.org také podporuje zjišťování veřejných klíču skrz HTTP z jejich WKD. This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox.org's own domains, like `@mailbox.org`. Pokud používáte vlastní doménu, je potřeba [nastavit WKD](basics/email-security.md#what-is-the-web-key-directory-standard) zvlášť.
 
 #### :material-information-outline:{ .pg-blue } Ukončení účtu
 
