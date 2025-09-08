@@ -168,17 +168,17 @@ Mailbox.org umožňuje šifrování příchozí pošty pomocí jejich [šifrovan
 
 Mailbox.org má [integrované šifrování](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) v jejich webmailu, které zjednodušuje posílání zpráv lidem s veřejnými OpenPGP klíči. Také umožňuje [vzdáleným příjemcům dešifrovat e-mail](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) na serverech Mailbox.org. Tato funkce je užitečná v případě, že vzdálený příjemnce nemá OpenPGP a nemůže dešifrovat kopii e-mailu v jeho vlastní schránce.
 
-Mailbox.org také podporuje zjišťování veřejných klíču skrz HTTP z jejich WKD. This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox.org's own domains, like `@mailbox.org`. Pokud používáte vlastní doménu, je potřeba [nastavit WKD](basics/email-security.md#what-is-the-web-key-directory-standard) zvlášť.
+Mailbox.org také podporuje zjišťování veřejných klíču skrz HTTP z jejich WKD. To umožňuje lidem mimo Mailbox.org najít OpenPGP klíče Mailbox.org účtů jednoduše pro E2EE mezi různými poskytovateli. To ale platí pouze pro e-mailové adresy ve vlastních doménách Mailbox.org, jako je např. `@mailbox.org`. Pokud používáte vlastní doménu, je potřeba [nastavit WKD](basics/email-security.md#what-is-the-web-key-directory-standard) zvlášť.
 
 #### :material-information-outline:{ .pg-blue } Ukončení účtu
 
-Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Váš účet bude nastaven jako omezený, jakmile skončí vaše smlouva. Následně bude nenávratně smazaný po [30 dnech](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
 #### :material-information-outline:{ .pg-blue } Dodatečné funkce
 
-You can access your Mailbox.org account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). However, their webmail interface cannot be accessed via their .onion service, and you may experience TLS certificate errors.
+Můžete přistupovat ke svému Mailbox.org účtu pomocí IMAP/SMTP skrz jejich [.onion službu](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). Přes .onion službu ale nemůžete přistupovat k jejich webmail rozhraní a může docházet k chybám s TLS certifikátem.
 
-All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
+Všechny účtu obsahují omezené cloudové úložiště, které [lze šifrovat](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
 
 Mailbox.org has a digital legacy feature for all plans. You can choose whether you want any of your data to be passed to heirs, providing that they apply and provide your testament. Alternatively, you can nominate a person by name and address.
 
