@@ -32,48 +32,48 @@ flowchart LR
  end
 ```
 
-Należy pamiętać, że VPN nie dodaje żadnych zabezpieczeń ani szyfrowania do ruchu między serwerem VPN a miejscem docelowym w Internecie. To access a website securely you **must** still ensure HTTPS is in use regardless of whether you use a VPN.
+Należy pamiętać, że VPN nie dodaje żadnych zabezpieczeń ani szyfrowania do ruchu między serwerem VPN a miejscem docelowym w Internecie. Aby uzyskać bezpieczny dostęp do strony internetowej, **należy** upewnić się, że protokół HTTPS jest używany niezależnie od tego, czy korzystasz z VPN.
 
-## Should I use a VPN?
+## Czy powinienem używać VPN?
 
-**Yes**, almost certainly. A VPN has many advantages, including:
+**Tak**, niemal pewnie. VPN ma wiele zalet, w tym:
 
-1. Hiding your traffic from **only** your Internet Service Provider.
-1. Hiding your downloads (such as torrents) from your ISP and anti-piracy organizations.
-1. Hiding your IP from third-party websites and services, helping you blend in and preventing IP based tracking.
-1. Allowing you to bypass geo-restrictions on certain content.
+1. Ukrywanie ruchu **tylko** przed dostawcą usług internetowych.
+1. Ukrywanie pobieranych plików (takich jak torrenty) przed dostawcą usług internetowych i organizacjami antypirackimi.
+1. Ukrywanie twojego adresu IP przed witrynami i usługami innych firm, pomagając wtopić się w otoczenie i zapobiegając śledzeniu opartemu na adresie IP.
+1. Umożliwia ominięcie ograniczeń geograficznych dla niektórych treści.
 
-VPNs can provide *some* of the same benefits Tor provides, such as hiding your IP from the websites you visit and geographically shifting your network traffic, and good VPN providers will not cooperate with e.g. legal authorities from oppressive regimes, especially if you choose a VPN provider outside your own jurisdiction.
+Sieci VPN mogą zapewniać *niektóre* z tych samych korzyści, które zapewnia Tor, takie jak ukrywanie adresu IP przed odwiedzanymi witrynami i geograficzne przenoszenie ruchu sieciowego, a dobrzy dostawcy VPN nie będą współpracować np. z organami prawnymi z opresyjnych reżimów, zwłaszcza jeśli wybierzesz dostawcę VPN poza własną jurysdykcją.
 
-VPN-y nie zaszyfrowują danych poza połączeniem pomiędzy twoim urządzeniem a serwerem VPN. VPN providers can also see and modify your traffic the same way your ISP could, so there is still a level of trust you are placing in them. Nie ma możliwości sprawdzenia polityki "bez logów" dostawcy VPN w żaden sposób.
+VPN-y nie zaszyfrowują danych poza połączeniem pomiędzy twoim urządzeniem a serwerem VPN. Dostawcy VPN mogą również przeglądać i modyfikować ruch w taki sam sposób, w jaki może to robić dostawca usług internetowych, więc nadal istnieje pewien poziom zaufania, jakim ich obdarzasz. Nie ma możliwości sprawdzenia polityki "bez logów" dostawcy VPN w żaden sposób.
 
-## When isn't a VPN suitable?
+## Kiedy VPN nie jest odpowiedni?
 
-Using a VPN in cases where you're using your [real-life or well-known identity](common-misconceptions.md#complicated-is-better) online is unlikely to be useful. Doing so may trigger spam and fraud detection systems, such as if you were to log into your bank's website.
+Korzystanie z VPN w przypadkach, gdy używasz swojej [prawdziwej lub dobrze znanej tożsamości](common-misconceptions.md#complicated-is-better) online, jest mało prawdopodobne. Może to spowodować uruchomienie systemów wykrywania spamu i oszustw, tak jak w przypadku logowania się na stronie internetowej banku.
 
-It's important to remember that a VPN will not provide you with absolute anonymity because the VPN provider itself will still have access to your real IP address, destination website information, and often a money trail that can be linked directly back to you. "No logging" policies are merely a promise; if you need complete safety from the network itself, consider using [Tor](../advanced/tor-overview.md) in addition to or instead of a VPN.
+Ważne jest, aby pamiętać, że VPN nie zapewni ci całkowitej anonimowości, ponieważ sam dostawca VPN nadal będzie miał dostęp do twojego prawdziwego adresu IP, informacji o stronie docelowej, a często także do śladu pieniężnego, który można bezpośrednio powiązać z tobą. Polityka „bez logów” to jedynie obietnica; jeśli potrzebujesz pełnego bezpieczeństwa z sieci, rozważ użycie [Tor](../advanced/tor-overview.md) oprócz lub zamiast VPN.
 
-You also should not trust a VPN to secure your connection to an unencrypted, HTTP destination. In order to keep what you actually do on the websites you visit private and secure, you must use HTTPS. This will keep your passwords, session tokens, and queries safe from the VPN provider and other potential adversaries in between the VPN server and your destination. You should enable HTTPS-only mode in your browser (if it's supported) to mitigate attacks which try to downgrade your connection from HTTPS to HTTP.
+Nie powinieneś również zaufać VPN, aby zabezpieczył twoje połączenie do niezaszyfrowanego celu HTTP. Aby zapewnić prywatność i bezpieczeństwo czynności wykonywanych na odwiedzanych stronach internetowych, należy korzystać z protokołu HTTPS. Dzięki temu hasła, tokeny sesji i zapytania będą bezpieczne przed dostawcą VPN i innymi potencjalnymi przeciwnikami między serwerem VPN a miejscem docelowym. Powinieneś włączyć tryb tylko HTTPS w swojej przeglądarce (jeśli jest obsługiwany), aby złagodzić ataki, które próbują obniżyć jakość połączenia z HTTPS do HTTP.
 
-## Should I use encrypted DNS with a VPN?
+## Czy powinienem używać szyfrowanego DNS z VPN?
 
-Unless your VPN provider hosts the encrypted DNS servers themselves, **probably not**. Using DOH/DOT (or any other form of encrypted DNS) with third-party servers will simply add more entities to trust. Your VPN provider can still see which websites you visit based on the IP addresses and other methods. All this being said, there may be some advantages to enabling encrypted DNS in order to enable other security features in your browser, such as ECH. Browser technologies which are reliant on in-browser encrypted DNS are relatively new and not yet widespread, so whether they are relevant to you in particular is an exercise we will leave to you to research independently.
+**Prawdopodobnie nie**, dopóki dostawca VPN sam hostuje zaszyfrowane serwery DNS. Korzystanie z DOH/DOT (lub jakiejkolwiek innej formy szyfrowanego DNS) z serwerami stron trzecich po prostu doda więcej podmiotów do zaufania. Twój dostawca VPN może nadal sprawdzać, które witryny odwiedzasz na podstawie adresów IP i innych metod. Biorąc to wszystko pod uwagę, mogą istnieć pewne korzyści z włączenia szyfrowanego DNS w celu włączenia innych funkcji bezpieczeństwa w przeglądarce, takich jak ECH. Technologie przeglądarek, które opierają się na szyfrowanym DNS w przeglądarce, są stosunkowo nowe i jeszcze nie rozpowszechnione, więc to, czy są one szczególnie istotne dla użytkownika, pozostawiamy do samodzielnego zbadania.
 
-Another common reason encrypted DNS is recommended is that it prevents DNS spoofing. However, your browser should already be checking for [TLS certificates](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) with **HTTPS** and warn you about it. If you are not using **HTTPS**, then an adversary can still just modify anything other than your DNS queries and the end result will be little different.
+Innym częstym powodem, dla którego zalecane jest szyfrowanie DNS, jest zapobieganie spoofingowi DNS. Jednak przeglądarka powinna już sprawdzać [certyfikaty TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security#Digital_certificates) z **HTTPS** i ostrzegać o tym. Jeśli nie korzystasz z **protokołu HTTPS**, przeciwnik może po prostu zmodyfikować wszystko inne niż zapytania DNS, a wynik końcowy będzie niewiele inny.
 
-## Should I use Tor *and* a VPN?
+## Czy powinienem używać Tora *i* VPN?
 
-Maybe, Tor is not necessarily suitable for everybody in the first place. Consider your [threat model](threat-modeling.md), because if your adversary is not capable of extracting information from your VPN provider, using a VPN alone may provide enough protection.
+Być może, Tor niekoniecznie jest odpowiedni dla każdego. Weź pod uwagę swój [model zagrożenia](threat-modeling.md), ponieważ jeśli przeciwnik nie jest w stanie wydobyć informacji od dostawcy VPN, samo korzystanie z VPN może zapewnić wystarczającą ochronę.
 
-If you do use Tor then you are *probably* best off connecting to the Tor network via a commercial VPN provider. However, this is a complex subject which we've written more about on our [Tor overview](../advanced/tor-overview.md) page.
+Jeśli korzystasz z sieci Tor, *prawdopodobnie* najlepiej będzie połączyć się z nią za pośrednictwem komercyjnego dostawcy VPN. Jest to jednak złożony temat, o którym napisaliśmy więcej na naszej stronie [przeglądu Tora](../advanced/tor-overview.md).
 
-## Should I access Tor through VPN providers that provide "Tor nodes"?
+## Czy powinienem uzyskiwać dostęp do sieci Tor za pośrednictwem dostawców VPN, którzy zapewniają "węzły Tor"?
 
-You should not use that feature: The primary advantage of using Tor is that you do not trust your VPN provider, which is negated when you use Tor nodes hosted by your VPN instead of connecting directly to Tor from your computer.
+Nie powinieneś używać tej funkcji: Podstawową zaletą korzystania z sieci Tor jest brak zaufania do dostawcy VPN, co jest negowane w przypadku korzystania z węzłów Tor hostowanych przez sieć VPN zamiast łączenia się bezpośrednio z siecią Tor z komputera.
 
-Currently, Tor only supports the TCP protocol. UDP (used by [WebRTC](https://en.wikipedia.org/wiki/WebRTC), [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3), and other protocols), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol), and other packets will be dropped. To compensate for this, VPN providers typically will route all non-TCP packets through their VPN server (your first hop). This is the case with [ProtonVPN](https://protonvpn.com/support/tor-vpn). Additionally, when using this Tor over VPN setup, you do not have control over other important Tor features such as [Isolated Destination Address](https://whonix.org/wiki/Stream_Isolation) (using a different Tor circuit for every domain you visit).
+Obecnie Tor obsługuje tylko protokół TCP. Pakiety UDP (używane przez [WebRTC](https://en.wikipedia.org/wiki/WebRTC), [HTTP3/QUIC](https://en.wikipedia.org/wiki/HTTP/3) i inne protokoły), [ICMP](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) i inne będą odrzucane. Aby to zrekompensować, dostawcy VPN zazwyczaj kierują wszystkie pakiety inne niż TCP przez swój serwer VPN (pierwszy przeskok). Tak właśnie jest w przypadku [ProtonVPN](https://protonvpn.com/support/tor-vpn). Dodatkowo, podczas korzystania z tej konfiguracji Tor over VPN, nie masz kontroli nad innymi ważnymi funkcjami Tor, takimi jak [Isolated Destination Address](https://whonix.org/wiki/Stream_Isolation) (używanie innego obwodu Tor dla każdej odwiedzanej domeny).
 
-The feature should be viewed as a *convenient* way to access hidden services on Tor, not to stay anonymous. For proper anonymity, use the actual [Tor Browser](../tor.md).
+Funkcja ta powinna być postrzegana jako *wygodny* sposób na dostęp do ukrytych usług w sieci Tor, a nie na zachowanie anonimowości. Dla zapewnienia właściwej anonimowości, użyj aktualnej [przeglądarki Tor](../tor.md).
 
 ## Commercial VPN Ownership
 
