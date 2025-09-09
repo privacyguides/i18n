@@ -240,7 +240,7 @@ These options can be found in :material-menu: → :gear: **Settings** → **Priv
 
 - [x] Select **Open external links in incognito**
 
-#### Security
+#### Bezpieczeństwo
 
 - [x] Select **Always use secure connections**
 

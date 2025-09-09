@@ -1,8 +1,8 @@
 ---
 meta_title: "Rekomendacje i porównanie prywatnych usług VPN, bez sponsorów i reklam - Privacy Guides"
-title: "VPN Services"
+title: "Usługi VPN"
 icon: material/vpn
-description: The best VPN services for protecting your privacy and security online. Find a provider here that isn't out to spy on you.
+description: Najlepsze usługi VPN do ochrony prywatności i bezpieczeństwa w Internecie. Znajdź tutaj dostawcę, który nie jest po to, żeby Cię szpiegować.
 cover: vpn.webp
 global:
   - 
@@ -10,48 +10,50 @@ global:
     - "table tbody"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Chroni przed następującymi zagrożeniami:</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: Kapitalizm inwigilacji](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
 Jeśli szukasz dodatkowej *prywatności* od swojego dostawcy usług internetowych, w publicznej sieci Wi-Fi lub podczas torrentowania plików, **VPN** może być rozwiązaniem dla Ciebie.
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">VPNs do not provide anonymity</p>
+<p class="admonition-title">VPN nie zapewnia anonimowości</p>
 
-Using a VPN will **not** keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+Korzystanie z VPN **nie** zachowuje anonimowość Twoich nawyków przeglądania, ani nie zwiększy bezpieczeństwa niezabezpieczonego ruchu (HTTP).
 
-If you are looking for **anonymity**, you should use the Tor Browser. If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
+Jeśli szukasz **anonimowości**, powinieneś korzystać z przeglądarki Tor. Jeśli szukasz dodatkowego **bezpieczeństwa**, powinieneś zawsze upewnić się, że łączysz się ze stronami internetowymi za pomocą HTTPS. VPN nie zastępuje dobrych praktyk w zakresie bezpieczeństwa.
 
 [Pobierz Tor](https://torproject.org){ .md-button .md-button--primary } [Mity Tor & FAQ](advanced/tor-overview.md){ .md-button }
 
 </div>
 
-[:](basics/vpn-overview.md ""){.md-button}
+[Szczegółowy przegląd VPN :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
 ## Rekomendowani dostawcy
 
-Our recommended providers use encryption, support WireGuard & OpenVPN, and have a no logging policy. Read our [full list of criteria](#criteria) for more information.
+Polecani przez nas dostawcy stosują szyfrowanie, obsługują WireGuard & OpenVPN i stosują politykę braku logów. Przeczytaj naszą [pełną listę kryteriów](#criteria), aby uzyskać więcej informacji.
 
-| Provider              | Countries | WireGuard                     | Port Forwarding                                        | IPv6                                                       | Anonymous Payments |
-| --------------------- | --------- | ----------------------------- | ------------------------------------------------------ | ---------------------------------------------------------- | ------------------ |
-| [Proton](#proton-vpn) | 112+      | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Partial Support | :material-information-outline:{ .pg-blue } Limited Support | Cash               |
-| [IVPN](#ivpn)         | 37+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-information-outline:{ .pg-blue } Outgoing Only   | Monero, Cash       |
-| [Mullvad](#mullvad)   | 49+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-check:{ .pg-green }                              | Monero, Cash       |
+| Dostawca              | Kraje | WireGuard                     | Przekazywanie portów                                      | IPv6                                                            | Anonimowe płatności |
+| --------------------- | ----- | ----------------------------- | --------------------------------------------------------- | --------------------------------------------------------------- | ------------------- |
+| [Proton](#proton-vpn) | 112+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Częściowe wsparcie | :material-information-outline:{ .pg-blue } Ograniczone wsparcie | Gotówka             |
+| [IVPN](#ivpn)         | 37+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                    | :material-information-outline:{ .pg-blue } Tylko wychodzące     | Monero, Gotówka     |
+| [Mullvad](#mullvad)   | 49+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                    | :material-check:{ .pg-green }                                   | Monero, Gotówka     |
 
 ### Proton VPN
 
 <div class="admonition recommendation" markdown>
 
-![Proton VPN logo](assets/img/vpn/protonvpn.svg){ align=right }
+![Logo Proton VPN](assets/img/vpn/protonvpn.svg){ align=right }
 
-**Proton VPN** is a strong contender in the VPN space, and they have been in operation since 2016. Proton AG is based in Switzerland and offers a limited free tier, as well as a more featured premium option.
+**Proton VPN** jest silnym konkurentem w przestrzeni VPN i działa od 2016 roku. Proton AG ma siedzibę w Szwajcarii i oferuje ograniczony bezpłatny plan, a także bardziej funkcjonalną opcję premium.
 
-
+[:octicons-home-16: Strona główna](https://protonvpn.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://protonvpn.com/support){ .card-link title="Dokumentacja"}
+[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
-
+<summary>Pobierz</summary>
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1437005085)
 - [:simple-github: GitHub](https://github.com/ProtonVPN/android-app/releases)
@@ -63,83 +65,83 @@ Our recommended providers use encryption, support WireGuard & OpenVPN, and have 
 
 </div>
 
-#### :material-check:{ .pg-green } 112 Countries
+#### :material-check:{ .pg-green } 112 Krajów
 
-Proton VPN has [servers in 112 countries](https://protonvpn.com/vpn-servers) or [5](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/free-vpn/server).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
+Proton VPN ma [serwery w 112 krajach](https://protonvpn.com/vpn-servers) lub [5](https://protonvpn.com/support/how-to-create-free-vpn-account), jeśli korzystasz z ich [bezpłatnego planu](https://protonvpn.com/free-vpn/server).(1) Wybór dostawcy VPN z serwerem znajdującym się najbliżej Ciebie zmniejszy opóźnienia w wysyłanym ruchu sieciowym. Wynika to z krótszej trasy (mniej przeskoków) do miejsca docelowego.
 { .annotate }
 
 1. Ostatnio sprawdzone: 2024-08-06
 
-We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+Uważamy również, że lepiej jest dla bezpieczeństwa kluczy prywatnych dostawcy VPN, jeśli korzysta on z [dedykowanych serwerów](https://en.wikipedia.org/wiki/Dedicated_hosting_service), zamiast tańszych rozwiązań współdzielonych (z innymi klientami), takich jak [wirtualne serwery prywatne](https://en.wikipedia.org/wiki/Virtual_private_server).
 
-#### :material-check:{ .pg-green } Independently Audited
+#### :material-check:{ .pg-green } Niezależny Audyt
 
-As of January 2020, Proton VPN has undergone an independent audit by SEC Consult. SEC Consult found some medium and low risk vulnerabilities in Proton VPN's Windows, Android, and iOS applications, all of which were "properly fixed" by Proton VPN before the reports were published. None of the issues identified would have provided an attacker remote access to your device or traffic. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit). A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton VPN's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
+W styczniu 2020 r. Proton VPN przeszedł niezależny audyt przeprowadzony przez SEC Consult. SEC Consult znalazł kilka luk średniego i niskiego ryzyka w aplikacjach Proton VPN dla systemów Windows, Android i iOS, z których wszystkie zostały "odpowiednio naprawione" przez Proton VPN przed opublikowaniem raportów. Żaden ze zidentyfikowanych błędów nie zapewniłby atakującemu zdalnego dostępu do urządzenia lub ruchu. Poszczególne raporty dla każdej platformy można wyświetlić na stronie [protonvpn.com.](https://protonvpn.com/blog/open-source) W kwietniu 2022 roku Proton VPN przeszedł [kolejny audyt](https://protonvpn.com/blog/no-logs-audit). [List atestacyjny](https://proton.me/blog/security-audit-all-proton-apps) został dostarczony dla aplikacji Proton VPN 9 listopada 2021 r. przez [Securitum](https://research.securitum.com).
 
-#### :material-check:{ .pg-green } Open-Source Clients
+#### :material-check:{ .pg-green } Klienci Open-Source
 
 Proton VPN udostępnia kod źródłowy ich aplikacji mobilnych i desktopowych na ich  [stronie GitHub](https://github.com/ProtonVPN).
 
-#### :material-check:{ .pg-green } Accepts Cash
+#### :material-check:{ .pg-green } Przyjmuje Gotówkę
 
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment.
+Proton VPN, oprócz akceptowania kart kredytowych/debetowych, PayPal i [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), akceptuje również **gotówkę/walutę lokalną** jako anonimową formę płatności.
 
-#### :material-check:{ .pg-green } WireGuard Support
+#### :material-check:{ .pg-green } Wsparcie WireGuard
 
-Proton VPN supports the WireGuard® protocol. [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). Additionally, WireGuard aims to be simpler and more performant.
+Proton VPN obsługuje protokół WireGuard®. [WireGuard](https://wireguard.com) to nowszy protokół, który wykorzystuje najnowocześniejszą [kryptografię](https://wireguard.com/protocol). Ponadto WireGuard ma być prostszy i bardziej wydajny.
 
-Proton VPN [recommends](https://protonvpn.com/blog/wireguard) the use of WireGuard with their service. Proton VPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
+Proton VPN [zaleca](https://protonvpn.com/blog/wireguard) korzystanie z WireGuard w ramach swojej usługi. Proton VPN oferuje również generator konfiguracji WireGuard do użytku z oficjalnymi aplikacjami WireGuard [](https://wireguard.com/install).
 
-#### :material-alert-outline:{ .pg-orange } Limited IPv6 Support
+#### :material-alert-outline:{ .pg-orange } Ograniczone Wsparcie IPv6
 
-Proton [now supports IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks) in their browser extension and Linux client, but only 80% of their servers are IPv6-compatible. On other platforms, the Proton VPN client will block all outgoing IPv6 traffic, so you don't have to worry about your IPv6 address being leaked, but you will not be able to connect to any IPv6-only sites, nor will you be able to connect to Proton VPN from an IPv6-only network.
+Proton [obsługuje teraz IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks) w swojej wtyczce przeglądarkowej i aplikacji Linux, ale tylko 80% ich serwerów jest kompatybilnych z IPv6. Na innych platformach klient Proton VPN zablokuje cały wychodzący ruch IPv6, więc nie musisz się martwić, że Twój adres IPv6 wycieknie, ale nie będziesz mógł połączyć się z żadnymi witrynami obsługującymi tylko IPv6, ani nie będziesz mógł połączyć się z Proton VPN z sieci obsługującej tylko IPv6.
 
-#### :material-information-outline:{ .pg-info } Remote Port Forwarding
+#### :material-information-outline:{ .pg-info } Zdalne Przekierowanie Portów
 
-Proton VPN currently only supports ephemeral remote [port forwarding](https://protonvpn.com/support/port-forwarding) via NAT-PMP, with 60 second lease times. The official Windows and Linux apps provide an easy-to-access option for it, while on other operating systems you'll need to run your own [NAT-PMP client](https://protonvpn.com/support/port-forwarding-manual-setup). Torrent applications often support NAT-PMP natively.
+Proton VPN obsługuje obecnie tylko efemeryczne zdalne [przekierowanie portów](https://protonvpn.com/support/port-forwarding) za pośrednictwem NAT-PMP,  z 60-sekundowym czasem dzierżawy. Oficjalne aplikacje dla systemów Windows i Linux zapewniają łatwy dostęp do tej opcji, podczas gdy w innych systemach operacyjnych konieczne będzie uruchomienie własnego [klienta NAT-PMP](https://protonvpn.com/support/port-forwarding-manual-setup). Aplikacje torrentowe często natywnie obsługują NAT-PMP.
 
-#### :material-information-outline:{ .pg-blue } Anti-Censorship
+#### :material-information-outline:{ .pg-blue } Anty-Cenzura
 
-Proton VPN has their [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol) protocol which *may* help in situations where VPN protocols like OpenVPN or WireGuard are blocked with various rudimentary techniques. Stealth encapsulates the VPN tunnel in TLS session in order to look like more generic internet traffic.
+Proton VPN ma swój protokół [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol), który *może* pomóc w sytuacjach, w których protokoły VPN, takie jak OpenVPN lub WireGuard, są blokowane za pomocą różnych podstawowych technik. Stealth enkapsuluje tunel VPN w sesji TLS, aby wyglądał jak bardziej zwyczajny ruch internetowy.
 
-Unfortunately, it does not work very well in countries where sophisticated filters that analyze all outgoing traffic in an attempt to discover encrypted tunnels are deployed. Stealth is available on Android, iOS, Windows, and macOS, but it's not yet available on Linux.
+Niestety, nie działa to zbyt dobrze w krajach, w których wdrożone są zaawansowane filtry analizujące cały ruch wychodzący w celu wykrycia zaszyfrowanych tuneli. Stealth jest dostępny na Androida, iOS, Windows i macOS, ale nie jest jeszcze dostępny na Linuksa.
 
-#### :material-check:{ .pg-green } Mobile Clients
+#### :material-check:{ .pg-green } Aplikacje mobilne
 
-Proton VPN has published [App Store](https://apps.apple.com/app/id1437005085) and [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/ProtonVPN/android-app/releases).
+Proton VPN opublikował klientów [App Store](https://apps.apple.com/app/id1437005085) i [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android), z których oba obsługują łatwy w użyciu interfejs, nie wymagający ręcznej konfiguracji połączenia WireGuard. Aplikacja na Androida jest również dostępna na [GitHub](https://github.com/ProtonVPN/android-app/releases).
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">How to opt out of sharing telemetry</p>
+<p class="admonition-title">Jak zrezygnować z udostępniania danych telemetrycznych</p>
 
-On Android, Proton hides telemetry settings under the misleadingly labeled "**Help us fight censorship**" menu in the settings panel. On other platforms these settings can be found under the "**Usage statistics**" menu.
+Na Androidzie Proton ukrywa ustawienia telemetrii pod myląco nazwanym menu "**Pomóż nam walczyć z cenzurą**" w panelu ustawień. Na innych platformach ustawienia te można znaleźć w menu "**Statystyki użytkowania**".
 
-We are noting this because while we don't necessarily recommend against sharing anonymous usage statistics with developers, it is important that these settings are easily found and clearly labeled.
+Zwracamy na to uwagę, ponieważ nie zalecamy udostępnianie anonimowych statystyk użytkowania deweloperom. Ważne jest, aby te ustawienia były łatwe do znalezienia i wyraźnie oznaczone.
 
 </div>
 
-#### :material-information-outline:{ .pg-blue } Additional Notes
+#### :material-information-outline:{ .pg-blue } Dodatkowe Uwagi
 
-Proton VPN clients support two-factor authentication on all platforms. Proton VPN has their own servers and datacenters in Switzerland, Iceland and Sweden. They offer content blocking and known-malware blocking with their DNS service. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](tor.md#tor-browser) for this purpose.
+Proton VPN obsługuje uwierzytelnianie dwuskładnikowe na wszystkich platformach. Proton VPN posiada własne serwery i centra danych w Szwajcarii, Islandii i Szwecji. Oferują blokowanie treści i blokowanie znanego złośliwego oprogramowania za pomocą swojej usługi DNS. Dodatkowo, Proton VPN oferuje również serwery "Tor" umożliwiające łatwe łączenie się z witrynami cebulowymi, ale nadal zdecydowanie zalecamy korzystanie z [oficjalnej przeglądarki Tor Browser](tor.md#tor-browser) do tego celu.
 
-##### :material-alert-outline:{ .pg-orange } Kill switch feature is broken on Intel-based Macs
+##### :material-alert-outline:{ .pg-orange } Funkcja Kill Switch nie działa na komputerach Mac z procesorami Intel
 
-System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-switch) on Intel-based Macs when using the VPN kill switch. If you require this feature, and you are using a Mac with Intel chipset, you should consider using another VPN service.
+Podczas korzystania z funkcji Kill Switch VPN na komputerach Mac z procesorami Intel [mogą wystąpić](https://protonvpn.com/support/macos-t2-chip-kill-switch) awarie systemu. Jeśli wymagasz tej funkcji i korzystasz z komputera Mac z chipsetem Intel, powinieneś rozważyć skorzystanie z innej usługi VPN.
 
 ### IVPN
 
 <div class="admonition recommendation" markdown>
 
-![IVPN logo](assets/img/vpn/ivpn.svg){ align=right }
+![Logo IVPN](assets/img/vpn/ivpn.svg){ align=right }
 
-**IVPN** is another premium VPN provider, and they have been in operation since 2009. IVPN is based in Gibraltar and does not offer a free trial.
+**IVPN** to kolejny dostawca VPN klasy premium, który działa od 2009 roku. IVPN ma siedzibę na Gibraltarze i nie oferuje bezpłatnego okresu próbnego.
 
-[:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
+[:octicons-home-16: Strona główna](https://ivpn.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Polityka Prywatności" }
+[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="Dokumentacja"}
+[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1193122683)
@@ -153,69 +155,69 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 
 </div>
 
-#### :material-check:{ .pg-green } 37 Countries
+#### :material-check:{ .pg-green } 37 Krajów
 
-IVPN has [servers in 37 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
+IVPN posiada [serwery w 37 krajach](https://ivpn.net/status).(1) Wybór dostawcy VPN z serwerem znajdującym się najbliżej użytkownika zmniejszy opóźnienia w przesyłanym ruchu sieciowym. Wynika to z krótszej trasy (mniej przeskoków) do miejsca docelowego.
 { .annotate }
 
 1. Ostatnio sprawdzone: 2024-08-06
 
-We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+Uważamy również, że lepiej jest dla bezpieczeństwa kluczy prywatnych dostawcy VPN, jeśli korzysta on z [dedykowanych serwerów](https://en.wikipedia.org/wiki/Dedicated_hosting_service), zamiast tańszych rozwiązań współdzielonych (z innymi klientami), takich jak [wirtualne serwery prywatne](https://en.wikipedia.org/wiki/Virtual_private_server).
 
-#### :material-check:{ .pg-green } Independently Audited
+#### :material-check:{ .pg-green } Niezależny Audyt
 
 IVPN przeszła wiele [niezależnych audytów](https://ivpn.net/en/blog/tags/audit) od 2019 roku i publicznie ogłosiła swoje zobowiązanie do [corocznych audytów bezpieczeństwa.](https://ivpn.net/blog/ivpn-apps-security-audit-concluded)
 
-#### :material-check:{ .pg-green } Open-Source Clients
+#### :material-check:{ .pg-green } Klienci Open-Source
 
-Od lutego 2020 r. [aplikacje IVPN są teraz Open-Source](https://ivpn.net/blog/ivpn-applications-are-now-open-source). Source code can be obtained from their [GitHub organization](https://github.com/ivpn).
+Od lutego 2020 r. [aplikacje IVPN są teraz Open-Source](https://ivpn.net/blog/ivpn-applications-are-now-open-source). Kod źródłowy można uzyskać z ich [organizacji GitHub](https://github.com/ivpn).
 
-#### :material-check:{ .pg-green } Accepts Cash and Monero
+#### :material-check:{ .pg-green } Akceptuje Gotówkę i Monero
 
-In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **Monero** and **cash/local currency** (on annual plans) as anonymous forms of payment. Prepaid cards with redeem codes are [also available](https://ivpn.net/knowledgebase/billing/voucher-cards-faq).
+Oprócz akceptowania kart kredytowych/debetowych i PayPal, IVPN akceptuje Bitcoin, **Monero** i **gotówkę/walutę lokalną** (w planach rocznych) jako anonimowe metody płatności. [Dostępne](https://ivpn.net/knowledgebase/billing/voucher-cards-faq) są również karty przedpłacone z kodami do realizacji.
 
-#### :material-check:{ .pg-green } WireGuard Support
+#### :material-check:{ .pg-green } Wsparcie WireGuard
 
-IVPN supports the WireGuard® protocol. [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). Additionally, WireGuard aims to be simpler and more performant.
+IVPN obsługuje protokół WireGuard®. [WireGuard](https://wireguard.com) to nowszy protokół, który wykorzystuje najnowocześniejszą [kryptografię](https://wireguard.com/protocol). Ponadto WireGuard ma być prostszy i bardziej wydajny.
 
-IVPN [recommends](https://ivpn.net/wireguard) the use of WireGuard with their service and, as such, the protocol is the default on all of IVPN's apps. IVPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
+IVPN [zaleca](https://ivpn.net/wireguard) korzystanie z WireGuard w swojej usłudze i jest domyślny we wszystkich aplikacjach IVPN. IVPN oferuje również generator konfiguracji WireGuard do użytku z oficjalnymi [aplikacjami](https://wireguard.com/install) WireGuard.
 
-#### :material-information-outline:{ .pg-blue } IPv6 Support
+#### :material-information-outline:{ .pg-blue } Wsparcie IPv6
 
-IVPN allows you to [connect to services using IPv6](https://ivpn.net/knowledgebase/general/do-you-support-ipv6) but doesn't allow you to connect from a device using an IPv6 address.
+IVPN umożliwia [łączenie się z usługami przy użyciu protokołu IPv6](https://ivpn.net/knowledgebase/general/do-you-support-ipv6), ale nie pozwala na łączenie się z urządzenia przy użyciu adresu IPv6.
 
-#### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
+#### :material-alert-outline:{ .pg-orange } Zdalne Przekierowanie Portów
 
-IVPN previously supported port forwarding, but removed the option in [June 2023](https://ivpn.net/blog/gradual-removal-of-port-forwarding). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
+IVPN wcześniej obsługiwał przekierowanie portów, ale usunął tę opcję w [czerwcu 2023](https://ivpn.net/blog/gradual-removal-of-port-forwarding) roku. Brak tej funkcji może negatywnie wpłynąć na niektóre aplikacje, zwłaszcza aplikacje peer-to-peer, takie jak klienty torrent.
 
-#### :material-check:{ .pg-green } Anti-Censorship
+#### Anty-Cenzura
 
-IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index.html) which helps in situations where VPN protocols like OpenVPN or WireGuard are blocked. Currently, this feature is only available on Desktop and [iOS](https://ivpn.net/knowledgebase/ios/v2ray). It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) over QUIC or TCP connections. QUIC is a modern protocol with better congestion control and therefore may be faster with reduced latency. The TCP mode makes your data appear as regular HTTP traffic.
+IVPN ma tryby zaciemniania przy użyciu [V2Ray](https://v2ray.com/en/index.html), które pomagają w sytuacjach, w których protokoły VPN, takie jak OpenVPN lub WireGuard, są blokowane. Obecnie funkcja ta jest dostępna tylko na komputerach stacjonarnych i [iOS](https://ivpn.net/knowledgebase/ios/v2ray). Ma dwa tryby, w których może używać [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) przez połączenia QUIC lub TCP. QUIC jest nowoczesnym protokołem z lepszą kontrolą przeciążenia, a zatem może być szybszy i mieć mniejsze opóźnienia. Tryb TCP sprawia, że dane wyglądają jak zwykły ruch HTTP.
 
-#### :material-check:{ .pg-green } Mobile Clients
+#### :material-check:{ .pg-green } Klienci Mobilni
 
-IVPN has published [App Store](https://apps.apple.com/app/id1193122683) and [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/ivpn/android-app/releases).
+IVPN opublikował klientów [App Store](https://apps.apple.com/app/id1193122683) i [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client), z których oba obsługują łatwy w użyciu interfejs, nie wymagający ręcznej konfiguracji połączenia WireGuard. Klient Android jest również dostępny na [GitHub](https://github.com/ivpn/android-app/releases).
 
-#### :material-information-outline:{ .pg-blue } Additional Notes
+#### :material-information-outline:{ .pg-blue } Dodatkowe Uwagi
 
-IVPN clients support two-factor authentication. IVPN also provides "[AntiTracker](https://ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
+Klienci IVPN obsługują uwierzytelnianie dwuskładnikowe. IVPN zapewnia również funkcję["AntiTracker](https://ivpn.net/antitracker)", która blokuje sieci reklamowe i trackery z poziomu sieci.
 
 ### Mullvad
 
 <div class="admonition recommendation" markdown>
 
-![Mullvad logo](assets/img/vpn/mullvad.svg){ align=right }
+![Logo Mullvad](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** is a fast and inexpensive VPN with a serious focus on transparency and security. They have been in operation since 2009. Mullvad is based in Sweden and offers a 14-day money-back guarantee for [payment methods](https://mullvad.net/en/help/refunds) that allow it.
+**Mullvad** to szybka i niedroga sieć VPN, która kładzie duży nacisk na przejrzystość i bezpieczeństwo. Działają od 2009 roku. Mullvad ma siedzibę w Szwecji i oferuje 14-dniową gwarancję zwrotu pieniędzy dla [metod płatności](https://mullvad.net/en/help/refunds), które na to pozwalają.
 
-[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
+[:octicons-home-16: Strona główna](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="Dokumentacja"}
+[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pliki do pobrania</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1488466513)
@@ -228,160 +230,160 @@ IVPN clients support two-factor authentication. IVPN also provides "[AntiTracker
 
 </div>
 
-#### :material-check:{ .pg-green } 49 Countries
+#### :material-check:{ .pg-green } 49 Krajów
 
-Mullvad has [servers in 49 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
+Mullvad posiada [serwery w 49 krajach](https://mullvad.net/servers).(1) Wybór dostawcy VPN z serwerem znajdującym się najbliżej użytkownika zmniejszy opóźnienia w przesyłanym ruchu sieciowym. Wynika to z krótszej trasy (mniej przeskoków) do miejsca docelowego.
 { .annotate }
 
-1. Last checked: 2025-03-10
+1. Ostatnio sprawdzone: 2025-03-10
 
-We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
+Uważamy również, że lepiej jest dla bezpieczeństwa kluczy prywatnych dostawcy VPN, jeśli korzysta on z [dedykowanych serwerów](https://en.wikipedia.org/wiki/Dedicated_hosting_service), zamiast tańszych rozwiązań współdzielonych (z innymi klientami), takich jak [wirtualne serwery prywatne](https://en.wikipedia.org/wiki/Virtual_private_server).
 
-#### :material-check:{ .pg-green } Independently Audited
+#### :material-check:{ .pg-green } Niezależny audyt
 
-Mullvad has had multiple [independent audits](https://mullvad.net/en/blog/tag/audits) and has publicly announced their endeavors to conduct [annual audits](https://mullvad.net/en/blog/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) of their apps and infrastructure.
+Mullvad przeszedł wiele [niezależnych audytów](https://mullvad.net/en/blog/tag/audits) i publicznie ogłosił, że stara się przeprowadzać [coroczne audyty](https://mullvad.net/en/blog/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) swoich aplikacji i infrastruktury.
 
-#### :material-check:{ .pg-green } Open-Source Clients
+#### :material-check:{ .pg-green } Klienci Open-Source
 
-Mullvad provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/mullvad/mullvadvpn-app).
+Mullvad udostępnia kod źródłowy swoich klientów stacjonarnych i mobilnych na ich [GitHubie.](https://github.com/mullvad/mullvadvpn-app)
 
-#### :material-check:{ .pg-green } Accepts Cash and Monero
+#### :material-check:{ .pg-green } Akceptuje Gotówkę i Monero
 
-Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. Prepaid cards with redeem codes are also available. Mullvad also accepts Swish and bank wire transfers, as well as a few European payment systems.
+Mullvad, oprócz akceptowania kart kredytowych/debetowych i PayPal, akceptuje Bitcoin, Bitcoin Cash, **Monero** i **gotówkę/walutę lokalną** jako anonimowe formy płatności. Dostępne są również karty przedpłacone z kodami do realizacji. Mullvad akceptuje również przelewy Swish i bankowe, a także kilka europejskich systemów płatności.
 
-#### :material-check:{ .pg-green } WireGuard Support
+#### :material-check:{ .pg-green } Wsparcie WireGuard
 
-Mullvad supports the WireGuard® protocol. [WireGuard](https://wireguard.com) is a newer protocol that uses state-of-the-art [cryptography](https://wireguard.com/protocol). Additionally, WireGuard aims to be simpler and more performant.
+Mullvad obsługuje protokół WireGuard®. [WireGuard](https://wireguard.com) to nowszy protokół, który wykorzystuje najnowocześniejszą [kryptografię](https://wireguard.com/protocol). Ponadto WireGuard ma być prostszy i bardziej wydajny.
 
-Mullvad [recommends](https://mullvad.net/en/help/why-wireguard) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
+Mullvad [zaleca](https://mullvad.net/en/help/why-wireguard) używanie WireGuard z ich usługą. Jest to domyślny lub jedyny protokół w aplikacjach Mullvad, iOS, macOS i Linux, ale w systemie Windows musisz [ręcznie włączyć](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app) WireGuard. Mullvad oferuje również generator konfiguracji WireGuard do użytku z oficjalnymi [aplikacjami](https://wireguard.com/install) WireGuard.
 
-#### :material-check:{ .pg-green } IPv6 Support
+#### :material-check:{ .pg-green } Wsparcie IPv6
 
-Mullvad allows you to [access services hosted on IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support) and connect from a device using an IPv6 address.
+Mullvad umożliwia [dostęp do usług hostowanych na IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support) i łączenie się z urządzenia korzystającego z adresu IPv6.
 
-#### :material-alert-outline:{ .pg-orange } Remote Port Forwarding
+#### :material-alert-outline:{ .pg-orange } Zdalne przekierowanie portów
 
-Mullvad previously supported port forwarding, but removed the option in [May 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports). Missing this feature could negatively impact certain applications, especially peer-to-peer applications like torrent clients.
+Mullvad wcześniej obsługiwał przekierowanie portów, ale usunął tę opcję w [maju 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports) roku. Brak tej funkcji może negatywnie wpłynąć na niektóre aplikacje, zwłaszcza aplikacje peer-to-peer, takie jak klienty torrent.
 
-#### :material-check:{ .pg-green } Anti-Censorship
+#### :material-check:{ .pg-green } Anty-Cenzura
 
-Mullvad offers several features to help bypass censorship and access the internet freely:
+Mullvad oferuje kilka funkcji, które pomagają ominąć cenzurę i uzyskać swobodny dostęp do Internetu:
 
-- **Obfuscation modes**: Mullvad has two built-in obfuscation modes: "UDP-over-TCP" and ["WireGuard over Shadowsocks"](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard). These modes disguise your VPN traffic as regular web traffic, making it harder for censors to detect and block. Supposedly, China has to use a [new method to disrupt Shadowsocks-routed traffic](https://gfw.report/publications/usenixsecurity23/en).
-- **Advanced obfuscation with Shadowsocks and v2ray**: For more advanced users, Mullvad provides a guide on how to use the [Shadowsocks with v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) plugin with Mullvad clients. This setup provides an additional layer of obfuscation and encryption.
-- **Custom server IPs**: To counter IP-blocking, you can request custom server IPs from Mullvad's support team. Once you receive the custom IPs, you can input the text file in the "Server IP override" settings, which will override the chosen server IP addresses with ones that aren't known to the censor.
-- **Bridges and proxies**: Mullvad also allows you to use bridges or proxies to reach their API (needed for authentication), which can help bypass censorship attempts that block access to the API itself.
+- **Tryby zaciemniania**: Mullvad posiada dwa wbudowane tryby obfuskacji: ["](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard)UDP-over-TCP" i ["WireGuard over Shadowsocks"](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard). Tryby te ukrywają ruch VPN jako zwykły ruch internetowy, utrudniając cenzorom wykrywanie i blokowanie. Podobno Chiny muszą użyć [nowej metody, aby zakłócić ruch kierowany przez Shadowsocks](https://gfw.report/publications/usenixsecurity23/en).
+- **Zaawansowane zaciemnianie za pomocą Shadowsocks i v2ray**: Dla bardziej zaawansowanych użytkowników Mullvad zapewnia przewodnik na temat korzystania z wtyczki [Shadowsocks z v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) z klientami Mullvad. Ta konfiguracja zapewnia dodatkową warstwę zaciemniania i szyfrowania.
+- **Niestandardowe adresy IP serwerów**: Aby przeciwdziałać blokowaniu adresów IP, możesz poprosić zespół pomocy technicznej Mullvad o niestandardowe adresy IP serwerów. Po otrzymaniu niestandardowych adresów IP można wprowadzić plik tekstowy w ustawieniach "Zastępowanie adresów IP serwera", co spowoduje zastąpienie wybranych adresów IP serwera adresami, które nie są znane cenzorowi.
+- **Mosty i serwery proxy**: Mullvad umożliwia również korzystanie z mostów lub serwerów proxy w celu uzyskania dostępu do interfejsu API (potrzebnego do uwierzytelniania), co może pomóc w ominięciu prób cenzury, które blokują dostęp do samego interfejsu API.
 
-#### :material-check:{ .pg-green } Mobile Clients
+#### :material-check:{ .pg-green } Klienci Mobilni
 
-Mullvad has published [App Store](https://apps.apple.com/app/id1488466513) and [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
+Mullvad opublikował klientów [App Store](https://apps.apple.com/app/id1488466513) i [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn), z których oba obsługują łatwy w użyciu interfejs, nie wymagający ręcznej konfiguracji połączenia WireGuard. Klient Android jest również dostępny na [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
 
-#### :material-information-outline:{ .pg-blue } Additional Notes
+#### :material-information-outline:{ .pg-blue } Dodatkowe Uwagi
 
-Mullvad is very transparent about which nodes they [own or rent](https://mullvad.net/en/servers). They also provide the option to enable Defense Against AI-guided Traffic Analysis ([DAITA](https://mullvad.net/en/blog/daita-defense-against-ai-guided-traffic-analysis)) in their apps. DAITA protects against the threat of advanced traffic analysis which can be used to connect patterns in VPN traffic with specific websites.
+Mullvad jest bardzo przejrzysty, jeśli chodzi o węzły, które [posiada lub wynajmuje](https://mullvad.net/en/servers). Zapewniają one również opcję włączenia w swoich aplikacjach funkcji Defense Against AI-guided Traffic Analysis[(DAITA](https://mullvad.net/en/blog/daita-defense-against-ai-guided-traffic-analysis)). DAITA chroni przed zagrożeniami związanymi z zaawansowaną analizą ruchu, która może być wykorzystywana do łączenia wzorców w ruchu VPN z określonymi stronami internetowymi.
 
-## Criteria
+## Kryteria
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">Zagrożenie</p>
 
-It is important to note that using a VPN provider will not make you anonymous, but it will give you better privacy in certain situations. A VPN is not a tool for illegal activities. Don't rely on a "no log" policy.
+Ważne jest, aby pamiętać, że korzystanie z usług dostawcy VPN nie zapewni anonimowości, ale zapewni lepszą prywatność w niektórych sytuacjach. VPN nie jest narzędziem do nielegalnych działań. Nie polegaj na polityce "no log".
 
 </div>
 
-**Please note we are not affiliated with any of the providers we recommend. This allows us to provide completely objective recommendations.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any VPN provider wishing to be recommended, including strong encryption, independent security audits, modern technology, and more. We suggest you familiarize yourself with this list before choosing a VPN provider, and conduct your own research to ensure the VPN provider you choose is as trustworthy as possible.
+**Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas dostawców. Pozwala nam to zapewnić całkowicie obiektywne rekomendacje.** Oprócz [naszych standardowych kryteriów](about/criteria.md), opracowaliśmy jasny zestaw wymagań dla każdego dostawcy VPN, który chce być rekomendowany, w tym silne szyfrowanie, niezależne audyty bezpieczeństwa, nowoczesną technologię i wiele innych. Zalecamy zapoznanie się z tą listą przed wyborem dostawcy VPN i przeprowadzenie własnych badań, aby upewnić się, że wybrany dostawca VPN jest tak godny zaufania, jak to tylko możliwe.
 
-### Technology
+### Technologia
 
-We require all our recommended VPN providers to provide standard configuration files which can be used in a generic, open-source client. **If** a VPN provides their own custom client, we require a kill switch to block network data leaks when disconnected.
+Wymagamy, aby wszyscy nasi rekomendowani dostawcy VPN dostarczali standardowe pliki konfiguracyjne, które mogą być używane w ogólnym kliencie open-source. **Jeśli** VPN udostępnia własnego klienta, wymagamy kill switch, aby zablokować wycieki danych sieciowych po rozłączeniu.
 
-**Minimum to Qualify:**
+**Minimum do zakwalifikowania się:**
 
-- Support for strong protocols such as WireGuard.
-- Kill switch built in to clients.
-- Multi-hop support. Multi-hopping is important to keep data private in case of a single node compromise.
-- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what the program is actually doing.
-- Censorship resistance features designed to bypass firewalls without DPI.
+- Obsługa silnych protokołów, takich jak WireGuard.
+- Kill Switch wbudowany w klientów.
+- Wsparcie Wielokrotnego Przeskoku. Wielokrotny Przeskok jest ważny, aby zachować prywatność danych w przypadku naruszenia bezpieczeństwa pojedynczego węzła.
+- Jeśli klienci VPN są dostarczani, powinni być [open source](https://en.wikipedia.org/wiki/Open_source), podobnie jak oprogramowanie VPN, które zazwyczaj jest w nich wbudowane. Uważamy, że dostępność [kodu źródłowego](https://en.wikipedia.org/wiki/Source_code) zapewnia większą przejrzystość tego, co program faktycznie robi.
+- Funkcje odporności na cenzurę zaprojektowane do omijania zapór sieciowych bez DPI.
 
-**Best Case:**
+**Najlepszy scenariusz:**
 
-- Kill switch with highly configurable options (enable/disable on certain networks, on boot, etc.)
-- Easy-to-use VPN clients
-- [IPv6](https://en.wikipedia.org/wiki/IPv6) support. We expect that servers will allow incoming connections via IPv6 and allow you to access services hosted on IPv6 addresses.
-- Capability of [remote port forwarding](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) assists in creating connections when using P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) file sharing software or hosting a server (e.g., Mumble).
-- Obfuscation technology which camouflages the true nature of internet traffic, designed to circumvent advanced internet censorship methods like DPI.
+- Kill Switch z wysoce konfigurowalnymi opcjami (włączanie/wyłączanie w określonych sieciach, podczas uruchamiania itp.)
+- Łatwe w użyciu klienty VPN
+- Obsługa protokołu [IPv6](https://en.wikipedia.org/wiki/IPv6). Oczekujemy, że serwery będą zezwalać na połączenia przychodzące przez IPv6 i umożliwiać dostęp do usług hostowanych na adresach IPv6.
+- Możliwość [zdalnego przekierowania portów](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) pomaga w tworzeniu połączeń podczas korzystania z oprogramowania do udostępniania plików P2P[(Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) lub hostowania serwera (np. Mumble).
+- Technologia zaciemniania, która kamufluje prawdziwą naturę ruchu internetowego, zaprojektowana w celu obejścia zaawansowanych metod cenzury internetowej, takich jak DPI.
 
-### Privacy
+### Prywatność
 
-We prefer our recommended providers to collect as little data as possible. Not collecting personal information on registration, and accepting anonymous forms of payment are required.
+Preferujemy, aby nasi rekomendowani dostawcy gromadzili jak najmniej danych. Wymagane jest nie gromadzenie danych osobowych podczas rejestracji i akceptowanie anonimowych form płatności.
 
-**Minimum to Qualify:**
+**Minimum do zakwalifikowania się:**
 
-- [Anonymous cryptocurrency](cryptocurrency.md) **or** cash payment option.
-- No personal information required to register: Only username, password, and email at most.
+- [Anonimowa kryptowaluta](cryptocurrency.md) **lub** opcja płatności gotówką.
+- Do rejestracji nie są wymagane żadne dane osobowe: Co najwyżej nazwa użytkownika, hasło i adres e-mail.
 
-**Best Case:**
+**Najlepszy scenariusz:**
 
-- Accepts multiple [anonymous payment options](advanced/payments.md).
-- No personal information accepted (auto-generated username, no email required, etc.).
+- Akceptuje wiele [anonimowych opcji płatności](advanced/payments.md).
+- Brak akceptacji danych osobowych (automatycznie generowana nazwa użytkownika, brak wymogu podania adresu e-mail itp.)
 
-### Security
+### Bezpieczeństwo
 
-A VPN is pointless if it can't even provide adequate security. We require all our recommended providers to abide by current security standards. Ideally, they would use more future-proof encryption schemes by default. We also require an independent third-party to audit the provider's security, ideally in a very comprehensive manner and on a repeated (yearly) basis.
+VPN nie ma sensu, jeśli nie może nawet zapewnić odpowiedniego bezpieczeństwa. Od wszystkich rekomendowanych przez nas dostawców wymagamy przestrzegania aktualnych standardów bezpieczeństwa. Idealnie byłoby, gdyby domyślnie używały bardziej przyszłościowych schematów szyfrowania. Wymagamy również, aby niezależna strona trzecia przeprowadziła audyt bezpieczeństwa dostawcy, najlepiej w bardzo kompleksowy sposób i w sposób powtarzalny (corocznie).
 
-**Minimum to Qualify:**
+**Minimum do zakwalifikowania się:**
 
-- Strong Encryption Schemes: OpenVPN with SHA-256 authentication; RSA-2048 or better handshake; AES-256-GCM or AES-256-CBC data encryption.
-- Forward Secrecy.
-- Published security audits from a reputable third-party firm.
-- VPN servers that use full-disk encryption or are RAM-only.
+- Silne schematy szyfrowania: OpenVPN z uwierzytelnianiem SHA-256; RSA-2048 lub lepszy handshake; szyfrowanie danych AES-256-GCM lub AES-256-CBC.
+- Utajnianie z wyprzedzeniem.
+- Opublikowane audyty bezpieczeństwa przeprowadzone przez renomowaną firmę zewnętrzną.
+- Serwery VPN wykorzystujące szyfrowanie pełnodyskowe lub tylko pamięć RAM.
 
-**Best Case:**
+**Najlepszy scenariusz:**
 
-- Strongest Encryption: RSA-4096.
-- Optional quantum-resistant encryption.
-- Forward Secrecy.
-- Comprehensive published security audits from a reputable third-party firm.
-- Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
-- RAM-only VPN servers.
+- Najsilniejsze szyfrowanie: RSA-4096.
+- Opcjonalne szyfrowanie odporne na kwanty.
+- Utajnianie z wyprzedzeniem.
+- Kompleksowe audyty bezpieczeństwa publikowane przez renomowaną firmę zewnętrzną.
+- Programy Bug-Bounty i/lub skoordynowany proces ujawniania luk w zabezpieczeniach.
+- Serwery VPN działające tylko w RAM.
 
-### Trust
+### Zaufanie
 
-You wouldn't trust your finances to someone with a fake identity, so why trust them with your internet data? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
+Nie powierzyłbyś swoich finansów komuś z fałszywą tożsamością, więc po co powierzać mu swoje dane internetowe? Wymagamy, aby rekomendowani przez nas dostawcy publicznie informowali o swojej własności lub przywództwie. Chcielibyśmy również widzieć częste raporty przejrzystości, zwłaszcza w odniesieniu do sposobu obsługi wniosków rządowych.
 
-**Minimum to Qualify:**
+**Minimum do zakwalifikowania się:**
 
-- Public-facing leadership or ownership.
-- Company based in a jurisdiction where it cannot be forced to do secret logging.
+- Publiczne przywództwo lub własność.
+- Firma z siedzibą w jurysdykcji, w której nie można jej zmusić do prowadzenia tajnych rejestrów.
 
-**Best Case:**
+**Najlepszy scenariusz:**
 
-- Public-facing leadership.
-- Frequent transparency reports.
+- Publiczne przywództwo.
+- Częste raporty przejrzystości.
 
 ### Marketing
 
-With the VPN providers we recommend we like to see responsible marketing.
+W przypadku polecanych przez nas dostawców VPN lubimy widzieć odpowiedzialny marketing.
 
-**Minimum to Qualify:**
+**Minimum do zakwalifikowania się:**
 
-- Must self-host analytics (i.e., no Google Analytics).
+- Musi samodzielnie hostować analitykę (tj. bez Google Analytics).
 
-Must not have any marketing which is irresponsible:
+Nie może mieć żadnego marketingu, który jest nie odpowiedzialny.
 
-- Making guarantees of protecting anonymity 100%. When someone makes a claim that something is 100% it means there is no certainty for failure. We know people can quite easily deanonymize themselves in a number of ways, e.g.:
-    - Reusing personal information (e.g., email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
-    - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
-- Claim that a single circuit VPN is "more anonymous" than Tor, which is a circuit of three or more hops that regularly changes.
-- Use responsible language: i.e., it is okay to say that a VPN is "disconnected" or "not connected", however claiming that someone is "exposed", "vulnerable" or "compromised" is needless use of alarming language that may be incorrect. For example, that person might simply be on another VPN provider's service or using Tor.
+- Gwarantując ochronę anonimowości w 100%. Kiedy ktoś twierdzi, że coś jest w 100%, oznacza to, że nie ma pewności co do niepowodzenia. Wiemy, że ludzie mogą dość łatwo pozbawić się anonimowości na wiele sposobów, np:
+    - Ponowne wykorzystanie danych osobowych (np. kont e-mail, unikalnych pseudonimów itp.), do których uzyskali dostęp bez oprogramowania zapewniającego anonimowość (Tor, VPN itp.).
+    - [Browser Fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+- Twierdzenie, że pojedynczy obwód VPN jest "bardziej anonimowy" niż Tor, który jest obwodem składającym się z trzech lub więcej węzłów, które regularnie się zmieniają.
+- Używaj odpowiedzialnego języka: tzn. w porządku jest powiedzieć, że VPN jest "odłączony" lub "niepodłączony", jednak twierdzenie, że ktoś jest "narażony", "podatny na ataki" lub "zagrożony" jest niepotrzebnym użyciem alarmującego języka, który może być niepoprawny. Na przykład, osoba ta może po prostu korzystać z usługi innego dostawcy VPN lub używać sieci Tor.
 
-**Best Case:**
+**Najlepszy scenariusz:**
 
-Responsible marketing that is both educational and useful to the consumer could include:
+Odpowiedzialny marketing, który jest zarówno edukacyjny, jak i użyteczny dla konsumenta, może obejmować:
 
-- An accurate comparison to when [Tor](tor.md) should be used instead.
-- Availability of the VPN provider's website over a [.onion service](https://en.wikipedia.org/wiki/.onion)
+- Dokładne porównanie, kiedy zamiast tego powinien być używany [Tor](tor.md).
+- Dostępność strony internetowej dostawcy VPN za pośrednictwem [ usługi .onion](https://en.wikipedia.org/wiki/.onion)
 
-### Additional Functionality
+### Dodatkowa funkcjonalność
 
-While not strictly requirements, there are some factors we looked into when determining which providers to recommend. These include content blocking functionality, warrant canaries, excellent customer support, the number of allowed simultaneous connections, etc.
+Chociaż nie są to ścisłe wymagania, istnieją pewne czynniki, które wzięliśmy pod uwagę przy określaniu, których dostawców polecić. Obejmują one funkcje blokowania treści, kanały ostrzegawcze, doskonałą obsługę klienta, liczbę dozwolonych jednoczesnych połączeń itp.

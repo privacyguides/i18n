@@ -258,18 +258,18 @@ Tuta offers the business version of [Tuta to non-profit organizations](https://t
 
 **Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
 
-### Technology
+### Technologia
 
 We regard these features as important in order to provide a safe and optimal service. You should consider whether the provider has the features you require.
 
-**Minimum to Qualify:**
+**Minimum do zakwalifikowania się:**
 
 - Must encrypt email account data at rest with zero-access encryption.
 - Must be capable of exporting emails as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
 - Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
 - Must operate on owned infrastructure, i.e. not built upon third-party email service providers.
 
-**Best Case:**
+**Najlepszy scenariusz:**
 
 - Should encrypt all account data (contacts, calendars, etc.) at rest with zero-access encryption.
 - Should provide integrated webmail E2EE/PGP encryption as a convenience.
@@ -281,26 +281,26 @@ We regard these features as important in order to provide a safe and optimal ser
 - Should use standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
 - Email provider's services should be available via an [onion service](https://en.wikipedia.org/wiki/.onion).
 
-### Privacy
+### Prywatność
 
-We prefer our recommended providers to collect as little data as possible.
+Preferujemy, aby nasi rekomendowani dostawcy gromadzili jak najmniej danych.
 
-**Minimum to Qualify:**
+**Minimum do zakwalifikowania się:**
 
 - Must protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
 - Must not require personally identifiable information (PII) besides a username and a password.
 - Privacy policy must meet the requirements defined by the GDPR.
 
-**Best Case:**
+**Najlepszy scenariusz:**
 
 - Should accept [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
 - Should be hosted in a jurisdiction with strong email privacy protection laws.
 
-### Security
+### Bezpieczeństwo
 
 Email servers deal with a lot of very sensitive data. We expect that providers will adopt industry best practices in order to protect their customers.
 
-**Minimum to Qualify:**
+**Minimum do zakwalifikowania się:**
 
 - Protection of webmail with 2FA, such as [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
 - Zero-access encryption, which builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
@@ -318,46 +318,46 @@ Email servers deal with a lot of very sensitive data. We expect that providers w
     - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
 - Must support viewing of [message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
 
-**Best Case:**
+**Najlepszy scenariusz:**
 
 - Should support hardware authentication, i.e. U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
 - [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
 - Should implement [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
 - Published security audits from a reputable, third-party firm.
-- Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
+- Programy Bug-Bounty i/lub skoordynowany proces ujawniania luk w zabezpieczeniach.
 - Website security standards such as:
     - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
     - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163)
 
-### Trust
+### Zaufanie
 
-You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
+You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? Wymagamy, aby rekomendowani przez nas dostawcy publicznie informowali o swojej własności lub przywództwie. Chcielibyśmy również widzieć częste raporty przejrzystości, zwłaszcza w odniesieniu do sposobu obsługi wniosków rządowych.
 
-**Minimum to Qualify:**
+**Minimum do zakwalifikowania się:**
 
-- Public-facing leadership or ownership.
+- Publiczne przywództwo lub własność.
 
-**Best Case:**
+**Najlepszy scenariusz:**
 
-- Frequent transparency reports.
+- Częste raporty przejrzystości.
 
 ### Marketing
 
 With the email providers we recommend, we like to see responsible marketing.
 
-**Minimum to Qualify:**
+**Minimum do zakwalifikowania się:**
 
 - Must self-host analytics (no Google Analytics, Adobe Analytics, etc.).
 - Must not have any irresponsible marketing, which can include the following:
     - Claims of "unbreakable encryption." Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
     - Guarantees of protecting anonymity 100%. When someone makes a claim that something is 100%, it means there is no certainty for failure. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
         - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software such as Tor
-        - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+        - [Browser Fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
-**Best Case:**
+**Najlepszy scenariusz:**
 
 - Clear and easy-to-read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
 
-### Additional Functionality
+### Dodatkowa funkcjonalność
 
 While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.

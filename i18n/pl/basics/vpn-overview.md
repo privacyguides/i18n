@@ -16,13 +16,13 @@ Korzystanie z sieci VPN ukrywa nawet te informacje przed twoim dostawcą usług 
 <div class="admonition note" markdown>
 <p class="admonition-title">Uwaga</p>
 
-When we refer to "Virtual Private Networks" on this website, we are usually referring to **commercial** [VPN providers](../vpn.md), who you pay a monthly fee to in exchange for routing your internet traffic securely through their public servers. There are many other forms of VPN, such as ones you host yourself or ones operated by workplaces which allow you to securely connect to internal/employee network resources, however, these VPNs are usually designed for accessing remote networks securely, rather than protecting the privacy of your internet connection.
+Kiedy mówimy o "wirtualnych sieciach prywatnych" na tej stronie, zwykle odnosimy się do **komercyjnych** [dostawców VPN](../vpn.md), którym użytkownik płaci miesięczną opłatę w zamian za bezpieczne kierowanie ruchu internetowego przez ich publiczne serwery. Istnieje wiele innych form VPN, takich jak te, które hostujesz samodzielnie lub te obsługiwane przez miejsca pracy, które pozwalają bezpiecznie łączyć się z wewnętrznymi / pracowniczymi zasobami sieciowymi, jednak te VPN są zwykle zaprojektowane do bezpiecznego dostępu do sieci zdalnych, a nie do ochrony prywatności połączenia internetowego.
 
 </div>
 
-## How does a VPN work?
+## Jak działa VPN?
 
-VPNs encrypt your traffic between your device and a server owned by your VPN provider. From the perspective of anyone between you and the VPN server, it looks like you're connecting to the VPN server. From the perspective of anyone between the VPN server and your destination site, all they can see is the VPN server connecting to the website.
+Sieci VPN szyfrują ruch między urządzeniem a serwerem należącym do dostawcy VPN. Z perspektywy każdego, kto znajduje się między tobą a serwerem VPN, wygląda to tak, jakbyś łączył się z serwerem VPN. Z perspektywy każdego, kto znajduje się między serwerem VPN a witryną docelową, wszystko, co widzą, to serwer VPN łączący się ze stroną internetową.
 
 ``` mermaid
 flowchart LR
@@ -32,7 +32,7 @@ flowchart LR
  end
 ```
 
-Note that a VPN does not add any security or encryption to your traffic between the VPN server and your destination on the internet. To access a website securely you **must** still ensure HTTPS is in use regardless of whether you use a VPN.
+Należy pamiętać, że VPN nie dodaje żadnych zabezpieczeń ani szyfrowania do ruchu między serwerem VPN a miejscem docelowym w Internecie. To access a website securely you **must** still ensure HTTPS is in use regardless of whether you use a VPN.
 
 ## Should I use a VPN?
 

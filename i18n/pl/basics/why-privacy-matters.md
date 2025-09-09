@@ -15,13 +15,13 @@ Many people get the concepts of **privacy**, **security**, and **anonymity** con
 [:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security ""){.md-button}
 
 <!-- markdownlint-disable-next-line -->
-**Privacy**
+**Prywatność**
 :
 
 ==Privacy is the assurance that your data is only seen by the parties you intend to view it.== In the context of an instant messenger, for example, end-to-end encryption provides privacy by keeping your message visible only to yourself and the recipient.
 
 <!-- markdownlint-disable-next-line -->
-**Security**
+**Bezpieczeństwo**
 :
 
 Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
