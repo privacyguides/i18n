@@ -1,5 +1,5 @@
 ---
-meta_title: "Private VPN Service Recommendations and Comparison, No Sponsors or Ads - Privacy Guides"
+meta_title: "Rekomendacje i porównanie prywatnych usług VPN, bez sponsorów i reklam - Privacy Guides"
 title: "VPN Services"
 icon: material/vpn
 description: The best VPN services for protecting your privacy and security online. Find a provider here that isn't out to spy on you.
@@ -14,7 +14,7 @@ global:
 
 - [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-If you're looking for additional *privacy* from your ISP, on a public Wi-Fi network, or while torrenting files, a **VPN** may be the solution for you.
+Jeśli szukasz dodatkowej *prywatności* od swojego dostawcy usług internetowych, w publicznej sieci Wi-Fi lub podczas torrentowania plików, **VPN** może być rozwiązaniem dla Ciebie.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">VPNs do not provide anonymity</p>
@@ -23,11 +23,11 @@ Using a VPN will **not** keep your browsing habits anonymous, nor will it add ad
 
 If you are looking for **anonymity**, you should use the Tor Browser. If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
 
-[Download Tor](https://torproject.org){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+[Pobierz Tor](https://torproject.org){ .md-button .md-button--primary } [Mity Tor & FAQ](advanced/tor-overview.md){ .md-button }
 
 </div>
 
-[Detailed VPN Overview :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
+[:](basics/vpn-overview.md ""){.md-button}
 
 ## Rekomendowani dostawcy
 
@@ -47,10 +47,7 @@ Our recommended providers use encryption, support WireGuard & OpenVPN, and have 
 
 **Proton VPN** is a strong contender in the VPN space, and they have been in operation since 2016. Proton AG is based in Switzerland and offers a limited free tier, as well as a more featured premium option.
 
-[:octicons-home-16: Homepage](https://protonvpn.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://protonvpn.com/support){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
+
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -71,7 +68,7 @@ Our recommended providers use encryption, support WireGuard & OpenVPN, and have 
 Proton VPN has [servers in 112 countries](https://protonvpn.com/vpn-servers) or [5](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/free-vpn/server).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
 { .annotate }
 
-1. Last checked: 2024-08-06
+1. Ostatnio sprawdzone: 2024-08-06
 
 We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -81,7 +78,7 @@ As of January 2020, Proton VPN has undergone an independent audit by SEC Consult
 
 #### :material-check:{ .pg-green } Open-Source Clients
 
-Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
+Proton VPN udostępnia kod źródłowy ich aplikacji mobilnych i desktopowych na ich  [stronie GitHub](https://github.com/ProtonVPN).
 
 #### :material-check:{ .pg-green } Accepts Cash
 
@@ -161,17 +158,17 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 IVPN has [servers in 37 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
 { .annotate }
 
-1. Last checked: 2024-08-06
+1. Ostatnio sprawdzone: 2024-08-06
 
 We also think it's better for the security of the VPN provider's private keys if they use [dedicated servers](https://en.wikipedia.org/wiki/Dedicated_hosting_service), instead of cheaper shared solutions (with other customers) such as [virtual private servers](https://en.wikipedia.org/wiki/Virtual_private_server).
 
 #### :material-check:{ .pg-green } Independently Audited
 
-IVPN has had multiple [independent audits](https://ivpn.net/en/blog/tags/audit) since 2019 and has publicly announced their commitment to [annual security audits](https://ivpn.net/blog/ivpn-apps-security-audit-concluded).
+IVPN przeszła wiele [niezależnych audytów](https://ivpn.net/en/blog/tags/audit) od 2019 roku i publicznie ogłosiła swoje zobowiązanie do [corocznych audytów bezpieczeństwa.](https://ivpn.net/blog/ivpn-apps-security-audit-concluded)
 
 #### :material-check:{ .pg-green } Open-Source Clients
 
-As of February 2020 [IVPN applications are now open source](https://ivpn.net/blog/ivpn-applications-are-now-open-source). Source code can be obtained from their [GitHub organization](https://github.com/ivpn).
+Od lutego 2020 r. [aplikacje IVPN są teraz Open-Source](https://ivpn.net/blog/ivpn-applications-are-now-open-source). Source code can be obtained from their [GitHub organization](https://github.com/ivpn).
 
 #### :material-check:{ .pg-green } Accepts Cash and Monero
 
