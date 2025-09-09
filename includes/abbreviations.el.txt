@@ -8,33 +8,33 @@
 *[CLI]: Διεπαφή Γραμμής Εντολών (αγγλικά: Command-Line Interface)
 *[CSV]: Τιμές Διαχωρισμένες με Κόμμα
 *[CVE]: Κοινές Ευπάθειες και Εκθέσεις
-*[σκοτεινό μοτίβο]: A deceptive design pattern intended to trick a user into doing things
-*[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
+*[σκοτεινό μοτίβο]: Ένα παραπλανητικό πρότυπο σχεδιασμού που αποσκοπεί στο να ξεγελάσει έναν χρήστη ώστε να κάνει πράγματα
+*[χαρακτηριστικό ψηφιακό παλαιού τύπου]: Η Ψηφιακή Κληροδοσία (αγγλικά: Digital Legacy) αναφέρεται στη δυνατότητα να δώσεις σε άλλα άτομα πρόσβαση στα δεδομένα σου όταν πεθάνεις
 *[DNSSEC]: Σύστημα Ονομάτων Τομέων – Επεκτάσεις Ασφάλειας
 *[DNS]: Σύστημα Ονομάτων Τομέων
 *[DoH]: DNS over HTTPS
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
-*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
+*[ΒΕΠ]: Η βαθιά επιθεώρηση πακέτων εντοπίζει και μπλοκάρει πακέτα με συγκεκριμένα φορτία
 *[E2EE]: Κρυπτογράφηση/-μένο από Άκρο-σε-Άκρο
 *[ECS]: EDNS Client Subnet (Υποδίκτυο Πελάτη EDNS)
 *[EEA]: ΕΟΧ: Ευρωπαϊκός Οικονομικός Χώρος
-*[εντροπία]: A measurement of how unpredictable something is
+*[εντροπία]: Μια μέτρηση του πόσο απρόβλεπτο είναι κάτι
 *[EOL]: Τέλος Κύκλου Ζωής (αγγλικά: End-of-Life)
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: Κρυπτογράφηση Πλήρους Δίσκου (αγγλικά: Full Disk Encryption)
 *[FIDO]: Fast IDentity Online
 *[FS]: Εμπρόσθια Μυστικότητα (αγγλικά: Forward Secrecy)
-*[φορκάρισμα]: A new software project created by copying an existing project and adding to it independently
+*[φορκάρισμα]: Ένα νέο έργο λογισμικού που δημιουργείται με την αντιγραφή ενός υπάρχοντος έργου και προσθέτεται ανεξάρτητα σε αυτό
 *[GDPR]: ΓΚΠΔ: Γενικός Κανονισμός για την Προστασία Δεδομένων
 *[GPG]: GNU Privacy Guard (υλοποίηση του PGP)
 *[GPS]: Παγκόσμιο Σύστημα Θεσιθεσίας
 *[GUI]: Γραφικό Περιβάλλον
 *[GnuPG]: GNU Privacy Guard (υλοποίηση του PGP)
 *[HDD]: Σκληρός Δίσκος Μαγνητικής Περιστροφής
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
+*[HOTP]: Κωδικός Μιας-Χρήσης βάσει HMAC
 *[HTTPS]: Hypertext Transfer Protocol Secure (ελληνιστί: Ασφαλές Πρωτόκολλο Μεταφοράς Υπερκειμένου)
 *[HTTP]: Hypertext Transfer Protocol (ελληνιστί: Πρωτόκολλο Μεταφοράς Υπερκειμένου)
 *[υπερβλέπων]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
@@ -49,15 +49,15 @@
 *[ISPs]: Πάροχοι Υπηρεσιών Διαδικτύου
 *[JNI]: Java Native Interface (ελληνιστί: Εγγενής Διεπαφή Java)
 *[KYC]: Μέτρα Δέουσας Επιμέλειας (νομικός όρος) ή "Συστηθείτε" (μαρκετίστικος όρος)
-*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-*[LLMs]: Large Language Models (AI models such as ChatGPT)
-*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
+*[LLaVA]: Μεγάλη Γλώσσα και Βοηθός Όρασης (πολύτροπο μοντέλο τεχνητής νοημοσύνης)
+*[LLMs]: Μεγάλα γλωσσικά μοντέλα (μοντέλα τεχνητής νοημοσύνης όπως το ChatGPT)
+*[LUKS]: Ρύθμιση Ενοποιημένου Κλειδιού Linux (Κρυπτογράφηση Πλήρες δίσκου)
 *[MAC]: Έλεγχος Προσπέλασης Μέσου (αγγλικά: Medium Access Control)
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Ταυτοποιητικό Κινητού Εξοπλισμού
 *[MFA]: Αυθεντικοποίηση Πολλών Παραγόντων
 *[NVMe]: Nonvolatile Memory Express
-*[NAT]: Network address translation
+*[NAT]: Μετάφραση διευθύνσεων δικτύου (NΑΤ)
 *[NAT-PMP]: NAT Port Mapping Protocol
 *[NTP]: Πρωτόκολλο Δικτυακού Χρόνου
 *[OCI]: Open Container Initiative
@@ -65,7 +65,7 @@
 *[OEM]: Παραγωγός Πρωτότυπου Εξοπλισμού
 *[OEMs]: Παραγωγοί Πρωτότυπου Εξοπλισμού
 *[open-weights]: An open weights-model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
-*[ΛΣ]: Λειτουργικό Σύστημα
+*[OS]: Λειτουργικό Σύστημα
 *[OTP]: Κωδικός Μιας-Χρήσης
 *[OTPs]: Κωδικοί Μιας-Χρήσης
 *[OpenPGP]: Υλοποίηση ανοιχτού κώδικα του Pretty Good Privacy (PGP)
@@ -74,35 +74,35 @@
 *[POP3]: Post Office Protocol 3
 *[PGP]: Pretty Good Privacy (see OpenPGP)
 *[PII]: Προσωπικές Ταυτοποιήσιμες Πληροφορίες (αγγλικά: Personally Identifiable Information)
-*[QNAME]: Qualified Name
+*[QNAME]: Προσδιορισμένο Όνομα
 *[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
 *[rate limits]: Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time.
 *[κυλιόμενη κυκλοφορία]: Updates which are released frequently rather than set intervals
-*[RSS]: Really Simple Syndication
+*[RSS]: Πραγματικά Απλό Syndication
 *[SELinux]: Security-Enhanced Linux
 *[SIM]: Μονάδα Ταυτότητας Συνδρομής
-*[SMS]: Τα τυπικά μηνύματα κινητής τηλεφωνίας
-*[SMTP]: Simple Mail Transfer Protocol
+*[SMS]: Υπηρεσία Σύντομων Μηνυμάτων (τυπικά μηνύματα κειμένου)
+*[SMTP]: Απλό Πρωτόκολλο Μεταφοράς Ταχυδρομείου
 *[SNI]: Server Name Indication (ελληνιστί: Ένδειξη Ονόματος Διακομιστή)
 *[SSD]: Σκληρός Δίσκος Στερεάς Κατάστασης
-*[SSH]: Secure Shell
+*[SSH]: Ασφαλής Κέλυφος
 *[SUID]: Set Owner User ID
-*[SaaS]: Λογισμικό ως Υπηρεσία ("Λογισμικό Νέφους")
+*[SaaS]: Λογισμικό ως Υπηρεσία (Λογισμικό Σύννεφου)
 *[SoC]: System on Chip
 *[SSO]: Single sign-on
 *[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
-*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
+*[θερμοκρασία]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
 *[TCP]: Transmission Control Protocol (ελληνιστί: Πρωτόκολλο Ελέγχου Μεταφοράς)
 *[TEE]: Trusted Execution Environment (ελληνιστί: Εμπιστευμένο Περιβάλλον Εκτέλεσης)
 *[TLS]: Transport Layer Security (ελληνιστί: Ασφάλεια Επιπέδου Μεταφοράς)
 *[ToS]: Όροι Παροχής Υπηρεσιών
 *[TOTP]: Χρονικός Κωδικός Μιας-Χρήσης
-*[TPM]: Trusted Platform Module
-*[U2F]: Universal 2nd Factor
+*[TPM]: Έμπιστη Μονάδα Πλατφόρμας
+*[U2F]: Γενικός 2ος Παράγοντας
 *[UEFI]: Unified Extensible Firmware Interface
 *[UDP]: User Datagram Protocol (ελληνιστί: Πρωτόκολλο Δεδομενογράμματος Χρήστοντος)
 *[VPN]: Εικονικό Ιδιωτικό Δίκτυο
-*[VLAN]: Virtual Local Area Network
+*[ΕΤΔ]: Εικονικό Τοπικό Δίκτυο
 *[VoIP]: Voice over Internet Protocol (ελληνιστί: Φωνή επί Διαδικτυακού Πρωτοκόλλου)
 *[W3C]: World Wide Web Consortium
 *[XMPP]: Extensible Messaging and Presence Protocol
