@@ -1,15 +1,15 @@
 ---
-title: Data Removal Services
+title: Services de suppression de donnée
 icon: material/database-off
-description: Our recommended methods for removing your personal information from data brokers and people search sites.
+description: Nos méthodes recommandées pour supprimer vos données personnelles des courtiers en données (data brokers) ou des sites de recherche de personnes.
 cover: data-broker-removals.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protège contre la/les menaces suivantes :</small>
 
-- [:material-account-search: Public Exposure](basics/common-threats.md#limiting-public-information){ .pg-green }
+- [:material-account-search: Exposition Publique](basics/common-threats.md#limiting-public-information){ .pg-green }
 
-"People search sites" operated by data brokers represent an immense privacy risk to the majority of Americans. For many, sensitive personal information such as your address, phone number, email, and age is a simple internet search away. While there is unfortunately no federal regulation in place to protect your data, many of these companies will remove your information from their _public_ databases upon request.
+Aux Etats-Unis, les "sites de recherches de personnes" représentent un immense risque pour la vie privée d'une grande majorité de personne. For many, sensitive personal information such as your address, phone number, email, and age is a simple internet search away. While there is unfortunately no federal regulation in place to protect your data, many of these companies will remove your information from their _public_ databases upon request.
 
 :flag_us: **Note:** Many of these tools are only available in the United States, and data brokers collecting, sharing, and selling information from public records and other resources is largely a US-centric issue. In many other regions, your data is already protected via regulations like the GDPR. We will always advocate for similarly strong privacy protections in the United States, but those affected today may still benefit from these "stop-gap" solutions.
 
