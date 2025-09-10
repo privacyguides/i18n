@@ -31,24 +31,24 @@ Commencez par vérifier que vos données sont disponibles en cherchant sur ces s
 - Advanced Background Checks ([Recherche](https://advancedbackgroundchecks.com), [Suppression](https://advancedbackgroundchecks.com/removal))
 - BeenVerified ([Recherche](https://beenverified.com/app/optout/search), [Suppression](https://beenverified.com/app/optout/address-search))
 - CheckPeople ([Recherche](https://checkpeople.com/do-not-sell-info), sélectionnez _Supprimer vos donnnées personnelles_ pour vous désinscrire)
-- ClustrMaps ([Search](https://clustrmaps.com), [Opt-Out](https://clustrmaps.com/bl/opt-out))
-- Dataveria ([Search](https://dataveria.com), [Opt-Out](https://dataveria.com/ng/control/privacy))
-- InfoTracer ([Search](https://infotracer.com), [Opt-Out](https://infotracer.com/optout))
-- Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
-- PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/ccpa_optout/do_not_sell))
-- PublicDataUSA ([Search](https://publicdatausa.com), [Opt-Out](https://publicdatausa.com/remove.php))
-- Radaris ([Search](https://radaris.com), [Opt-Out](https://radaris.com/page/how-to-remove))
-- Spokeo ([Search](https://spokeo.com/search), [Opt-Out](https://spokeo.com/optout))
-- That's Them ([Search](https://thatsthem.com), [Opt-Out](https://thatsthem.com/optout))
-- USPhonebook ([Search and Opt-Out](https://usphonebook.com/opt-out))
-- Whitepages ([Search](https://whitepages.com), [Opt-Out](https://whitepages.com/suppression_requests))
+- ClustrMaps ([Recherche](https://clustrmaps.com), [Suppression](https://clustrmaps.com/bl/opt-out))
+- Dataveria ([Recherche](https://dataveria.com), [Suppression](https://dataveria.com/ng/control/privacy))
+- InfoTracer ([Recherche](https://infotracer.com), [Suppression](https://infotracer.com/optout))
+- Intelius ([Recherche](https://intelius.com), [Suppression](https://suppression.peopleconnect.us/login))
+- PeekYou ([Recherche](https://peekyou.com), [Suppression](https://peekyou.com/about/contact/ccpa_optout/do_not_sell))
+- PublicDataUSA ([Recherche](https://publicdatausa.com), [Suppression](https://publicdatausa.com/remove.php))
+- Radaris ([Recherche](https://radaris.com), [Suppression](https://radaris.com/page/how-to-remove))
+- Spokeo ([Recherche](https://spokeo.com/search), [Suppression](https://spokeo.com/optout))
+- That's Them ([Recherche](https://thatsthem.com), [Suppression](https://thatsthem.com/optout))
+- USPhonebook ([Recherche et Suppression](https://usphonebook.com/opt-out))
+- Whitepages ([Recherche](https://whitepages.com), [Suppression](https://whitepages.com/suppression_requests))
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">A tip on opt-out strategy</p>
+<p class="admonition-title">Un conseil pour la stratégie de suppression manuelle</p>
 
-Be sure to avoid burning out or becoming overwhelmed with this process. Unless you're in immediate danger, you can take breaks and avoid doing them all at once.[^1]
+Evitez de vous épuiser ou de vous laisser déborder par ce processus. A moins d'être en danger immédiat, vous pouvez prendre des pauses et éviter de faire tous les sites en une seule fois.[^1]
 
-One strategy could be to look at a single website from the list above every week, starting from the top. Next week you move on to the following website on the list, and so on. When you reach the end of the list, you can start again from the beginning.
+Pour cela, vous pouvez par exemple consulter un seul site par semaine, en commençant par le haut de la liste. Continuer le prochain site la semaine suivante, et ainsi de suite. Lorsque vous avez atteint la fin de la liste, vous pouvez recommencer à nouveau depuis le début.
 
 This sets you up on a nice schedule to re-review each website approximately every 3-4 months, and breaks down the process into simple 5 minute tasks you can easily add to your weekly routine.
 
@@ -84,8 +84,8 @@ Our [testing](https://www.privacyguides.org/articles/2025/02/03/easyoptouts-revi
 
 EasyOptOuts does not cover the following sites we consider to be "high priority," so you should still manually opt-out of:
 
-- Intelius ([Search](https://intelius.com), [Opt-Out](https://suppression.peopleconnect.us/login))
-- PeekYou ([Search](https://peekyou.com), [Opt-Out](https://peekyou.com/about/contact/ccpa_optout/do_not_sell))
+- Intelius ([Recherche](https://intelius.com), [Suppression](https://suppression.peopleconnect.us/login))
+- PeekYou ([Recherche](https://peekyou.com), [Suppression](https://peekyou.com/about/contact/ccpa_optout/do_not_sell))
 
 </div>
 
