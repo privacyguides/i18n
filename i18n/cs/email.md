@@ -256,7 +256,7 @@ Tuta nabízí firemní verzi [Tuty pro neziskové organizace](https://tuta.com/b
 
 ## Kritéria
 
-**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
+**Upozorňujeme, že nespolupracujeme s žádným z poskytovatelů, které doporučujeme.** Kromě [našich standardních kritérií](about/criteria.md) jsme vypracovali jasný seznam požadavků pro každého e-mailového poskytovatele, který by si přál být doporučený, včetně zavedení osvědčených postupů v odvětví, moderních technologií a dalších. We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
 
 ### Technology
 

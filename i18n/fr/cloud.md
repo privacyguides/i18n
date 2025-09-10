@@ -6,19 +6,19 @@ description: De nombreux fournisseurs de stockage cloud nécessitent que vous le
 cover: cloud.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protège contre la/les menaces suivantes :</small>
 
 - [:material-bug-outline: Attaques passives](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: Fournisseurs de service](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-Many **cloud storage providers** require your full trust that they will not look at your files. The alternatives listed below eliminate the need for trust by implementing secure end-to-end encryption.
+La plupart des **fournisseurs de stockage cloud** nécessitent que vous leur fassiez entièrement confiance pour qu'ils ne regardent pas vos fichiers. Les alternatives suivantes éliminent ce besoin de confiance en proposant un chiffrement de bout en bout.
 
 Si ces alternatives ne répondent pas à vos besoins, nous vous suggérons d'utiliser un logiciel de chiffrement tel que [Cryptomator](encryption.md#cryptomator-cloud) avec un autre fournisseur de cloud. L'utilisation de Cryptomator en conjonction avec **tout** fournisseur de cloud (y compris ceux-ci) peut être une bonne idée pour réduire le risque de failles de chiffrement dans les clients natifs d'un fournisseur.
 
 <details class="admonition info" markdown>
 <summary>Vous cherchez Nextcloud ?</summary>
 
-Nextcloud is [still a recommended tool](document-collaboration.md#nextcloud) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
+Nextcloud est [toujours un outil recommandé](document-collaboration.md#nextcloud) en tant que gestionnaire de fichiers en auto-hébergement, cependant nous ne recommandons pas les fournisseurs tiers de stockage Nextcloud pour le moment car nous ne [recommandons pas](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) la fonctionnalité chiffrement en de bout en bout porposé par Nextcloud pour les utilisateurs moyens.
 
 </details>
 
@@ -26,19 +26,19 @@ Nextcloud is [still a recommended tool](document-collaboration.md#nextcloud) for
 
 <div class="admonition recommendation" markdown>
 
-![Proton Drive logo](assets/img/cloud/protondrive.svg){ align=right }
+![Logo de Proton Drive](assets/img/cloud/protondrive.svg){ align=right }
 
-**Proton Drive** is an encrypted cloud storage provider from the popular encrypted email provider [Proton Mail](email.md#proton-mail).
+**Proton Drive** est un fournisseur de stockage cloud chiffré proposé par le fournisseur de service mail chiffré [Proton Mail](email.md#proton-mail).
 
-The initial free storage is limited to 2 GB, but with the completion of [certain steps](https://proton.me/support/more-free-storage-existing-users), additional storage can be obtained up to 5 GB.
+Le stockage de base gratuit est limité à 2 GB, mais en remplissant ]certaines conditions](https://proton.me/support/more-free-storage-existing-users), cette limite peut être repoussée à 5 GB.
 
-[:octicons-home-16: Homepage](https://proton.me/drive){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://proton.me/drive/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://proton.me/drive){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://proton.me/drive/privacy-policy){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://proton.me/support/drive){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargement</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=me.proton.android.drive)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1509667851)
