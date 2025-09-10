@@ -24,15 +24,15 @@ Les recommandations formulées ici ne recueillent pas d'informations d'identific
 
 Features include cycling routes, hiking trails and walking paths, turn-by-turn navigation with voice guidance, and public transport route planning (only available in supported regions and cities).
 
-:octicons-home-16: Accueil](https://organicmaps.app/fr){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://organicmaps.app/fr/privacy){ .card-link title="Politique de confidentialité" }
-[:octicons-code-16:](https://git.omaps.dev/organicmaps/organicmaps){ .card-link title="Code Source" }
+[:octicons-home-16: Homepage](https://organicmaps.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://organicmaps.app/privacy){ .card-link title="Privacy Policy" }
+[:octicons-code-16:](https://github.com/organicmaps/organicmaps){ .card-link title="Source Code" }
 
 <details class="downloads" markdown><summary>Téléchargements</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.organicmaps)
 - [:simple-appstore: App Store](https://apps.apple.com/app/organic-maps/id1567437057)
-- [:simple-forgejo: Forgejo](https://git.omaps.dev/organicmaps/organicmaps/releases)
+- [:simple-github: GitHub](https://github.com/organicmaps/organicmaps/releases)
 - [:simple-linux: Linux](https://flathub.org/apps/app.organicmaps.desktop)
 
 </details>
