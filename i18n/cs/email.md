@@ -178,17 +178,17 @@ Váš účet bude nastaven jako omezený, jakmile skončí vaše smlouva. Násle
 
 Můžete přistupovat ke svému Mailbox.org účtu pomocí IMAP/SMTP skrz jejich [.onion službu](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). Přes .onion službu ale nemůžete přistupovat k jejich webmail rozhraní a může docházet k chybám s TLS certifikátem.
 
-Všechny účtu obsahují omezené cloudové úložiště, které [lze šifrovat](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox.org also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
+Všechny účtu obsahují omezené cloudové úložiště, které [lze šifrovat](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox také nabízí alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), který vynucuje TLS šifrování na spojení mezi poštovními servery, jinak se zpráva vůbec neodešle. Mailbox.org také podporuje [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) kromě standardních přístupových protokolů, jako je IMAP nebo POP3.
 
-Mailbox.org has a digital legacy feature for all plans. You can choose whether you want any of your data to be passed to heirs, providing that they apply and provide your testament. Alternatively, you can nominate a person by name and address.
+Mailbox.org má službu digitálního dědictví ve všech tarifech. Můžete si vybrat, která data budou poskytnuta vašim dědičům v případě, že o ně požádají a poskytnou vaši závěť. Případně můžete určit osobu podle jména a adresy.
 
-## More Providers
+## Více poskytovatelů
 
-These providers store your emails with zero-knowledge encryption, making them great options for keeping your stored emails secure. However, they don't support interoperable encryption standards for E2EE communications between different providers.
+Tito poskytovatelé ukládají vaše e-maily pomocí zero-knowledge šifrování, které je skvělou možností pro zabezpečení vašich uložených e-mailů. Nepodporují však interoperabilní šifrovací standardy pro E2EE komunikaci napříč různými poskytovateli.
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](email.md#tuta)
+- ![logo Tuta](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![logo Tuta](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](email.md#tuta)
 
 </div>
 
@@ -196,65 +196,65 @@ These providers store your emails with zero-knowledge encryption, making them gr
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
-![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![logo Tuta](assets/img/email/tuta.svg#only-light){ align=right }
+![logo Tuta](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany.
+**Tuta** (dříve *Tutanota*) je e-mailová služba se zaměřením na bezpečnost a soukromí prostřednictvím šifrování. Tuta působí od roku 2011 a sídlí v německém Hanoveru.
 
-Free accounts start with 1 GB of storage.
+Bezplatné účty zahrnují 1 GB úložiště.
 
-[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
+[:octicons-home-16: Domovská stránka](https://tuta.com/cs){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/cs/privacy){ .card-link title="Soukromí" }
+[:octicons-info-16:](https://tuta.com/cs/support){ .card-link title="Podpora" }
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Zdrojový kód" }
+[:octicons-heart-16:](https://tuta.com/cs/community){ .card-link title="Přispějte" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Ke stažení</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
 - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
-- [:fontawesome-brands-windows: Windows](https://tuta.com/#download)
-- [:simple-apple: macOS](https://tuta.com/#download)
-- [:simple-linux: Linux](https://tuta.com/#download)
+- [:fontawesome-brands-windows: Windows](https://tuta.com/cs#download)
+- [:simple-apple: macOS](https://tuta.com/cs#download)
+- [:simple-linux: Linux](https://tuta.com/cs#download)
 - [:octicons-browser-16: Web](https://app.tuta.com)
 
 </details>
 
 </div>
 
-Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
+Tuta nepodporuje [IMAP protokol](https://tuta.com/support#imap) ani používání [e-mailových klientů](email-clients.md) třetích stran, a ani nemůžete přidat [externí e-mailové účtu](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) do aplikace Tuta. V současnosti není podporován ani [import e-mailů](https://github.com/tutao/tutanota/issues/630), což se [má však změnit](https://tuta.com/blog/kickoff-import). E-maily lze exportovat [jednotlivě nebo hromadně](https://tuta.com/support#generalMail) pro jednotlivé složky, což může být nemotorné, pokud máte více složek.
 
 #### :material-check:{ .pg-green } Vlastní domény a aliasy
 
-Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/support#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/support#plus), but you can use a [catch-all](https://tuta.com/support#settings-global) with a custom domain.
+Placené Tuta účty mohou používat buď 15 nebo 30 aliasů v závislosti na jejich tarifu, a neomezené množství aliasů na [vlastních doménách](https://tuta.com/support#custom-domain). Tuta neumožňuje [sub-adresování (plusové adresy)](https://tuta.com/support#plus), ale můžete použít [univerzální](https://tuta.com/support#settings-global) adresu s vlastní doménou.
 
-#### :material-information-outline:{ .pg-blue } Private Payment Methods
+#### :material-information-outline:{ .pg-blue } Soukromé platební metody
 
-Tuta only directly accepts credit cards and PayPal, however [**cryptocurrency**](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
+Tuta přijímá pouze platební karty a PayPal. Přes [**kryptoměny**](cryptocurrency.md) lze ale zakoupit dárkové karty díky [spolupráci](https://tuta.com/support/#cryptocurrency) s ProxyStore.
 
 #### :material-check:{ .pg-green } Zabezpečení účtu
 
-Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
+Tuta podporuje [dvoufaktorové oveřování](https://tuta.com/support#2fa) pomocí TOTP nebo U2F.
 
 #### :material-check:{ .pg-green } Zabezpečení dat
 
-Tuta has [zero-access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). This means the messages and other data stored in your account are only readable by you.
+Tuta má [zero-access šifrování v klidu](https://tuta.com/support#what-encrypted) pro vaše e-maily, [kontakty v adresáři](https://tuta.com/support#encrypted-address-book) i [kalendáře](https://tuta.com/support#calendar). To znamená, že zprávy a jiná data uložená na vašem účtu můžete číst pouze vy.
 
-#### :material-information-outline:{ .pg-blue } Email Encryption
+#### :material-information-outline:{ .pg-blue } Šifrování e-mailů
 
-Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
+Tuta [nepoužívá OpenPGP](https://tuta.com/support/#pgp). Tuta účtu mohou přijímat šifrované e-maily od účtů nepocházejících od Tuty pouze tehdy, když jsou odeslány přes [dočasnou Tuta schránku](https://tuta.com/support/#encrypted-email-external).
 
 #### :material-information-outline:{ .pg-blue } Ukončení účtu
 
-Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
+Tuta [odstraní neaktivní bezplatné účty](https://tuta.com/support#inactive-accounts) po šesti měsících. Pokud zaplatíte, můžete znovu použít deaktivovaný bezplatný účet.
 
 #### :material-information-outline:{ .pg-blue } Dodatečné funkce
 
-Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
+Tuta nabízí firemní verzi [Tuty pro neziskové organizace](https://tuta.com/blog/secure-email-for-non-profit) buď zadarmo, nebo s výraznou slevou.
 
-## Criteria
+## Kritéria
 
 **Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
 
