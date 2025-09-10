@@ -9,28 +9,28 @@ cover: data-broker-removals.webp
 
 - [:material-account-search: Exposition Publique](basics/common-threats.md#limiting-public-information){ .pg-green }
 
-Aux Etats-Unis, les "sites de recherches de personnes" représentent un immense risque pour la vie privée d'une grande majorité de personne. For many, sensitive personal information such as your address, phone number, email, and age is a simple internet search away. While there is unfortunately no federal regulation in place to protect your data, many of these companies will remove your information from their _public_ databases upon request.
+Aux Etats-Unis, les "sites de recherches de personnes" représentent un immense risque pour la vie privée d'une grande majorité de personne. De nombreuses informations personnelles sensibles comme votre adresse, numéro de téléphone, adresse mail, ou votre âge peuvent facilement être accessibles d'une simple recherche internet. While there is unfortunately no federal regulation in place to protect your data, many of these companies will remove your information from their _public_ databases upon request.
 
-:flag_us: **Note:** Many of these tools are only available in the United States, and data brokers collecting, sharing, and selling information from public records and other resources is largely a US-centric issue. In many other regions, your data is already protected via regulations like the GDPR. We will always advocate for similarly strong privacy protections in the United States, but those affected today may still benefit from these "stop-gap" solutions.
+:flag_us: **Note** Une grande partie des outils suivants ne sont disponibles qu'aux Etats-Unis. La collecte, le partage, et la revente d'informations personnelles par les courtiers de données (data brokers) est un problème majoritairement spécifique aux Etats-Unis. Dans beaucoup d'autre pays, comme la France, vos données sont protégées par des règlementations comme la RGPD (Espace Européen). Nous soutiendrons toujours les initiatives similaires de protections des données aux Etats-Unis, mais les victimes actuellement peuvent toujours avoir recours à ces solutions "provisoires".
 
-Counterintuitively, removing your personal data on these sites from the internet generally requires _providing_ these companies with your personal data for them to comply with the request. Unfortunately, in most cases it is still worth doing so to minimize the amount of personal data about you which is publicly accessible.
+De manière contre-intuitive, la suppression de vos données personnelles sur ces sites nécessite parfois de _fournir_ vos données personnelles à ces entreprises pour qu'elles puissent accéder à votre demande. Malheureusement, dans la plupart des cas, cela vaut la peine de le faire pour minimiser la quantité de données personnelles vous concernant qui sont accessibles au public.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Try it out</p>
+<p class="admonition-title">Essayez</p>
 
-Use your favorite [search engine](search-engines.md) to see if your data is trivially exposed by searching for your name in quotes, plus your general location. For example, search for `"Jane Smith" Chicago IL`. In many cases, you may find your personal information makes up many of the first results. Even if results about you aren't readily available though, you may still be affected. The list of data brokers linked below will provide more places to check whether your data is in any public databases.
+Utiliser votre [moteur de recherche](search-engines.md) favori pour voir si vos données sont facilement accessible en cherchant votre nom entre guillemet et votre position approximative. Par exemple, cherchez : "Paul Martin" Paris France. Il est fréquent que vos informations personnelles figurent parmi les premiers résultats. Même si les résultats vous concernant ne sont pas immédiatement disponibles, vous pouvez quand même être concerné. Vous pouvez utiliser la liste de courtiers en données ci-dessous pour vérifier si vos données sont accessibles dans des bases de données publiques.
 
 </div>
 
-## Manual Opt-Outs <small>Free</small>
+## Désinscriptions manuelles <small>Gratuit</small>
 
-The quickest, most effective, and most private way to remove yourself from people search sites is to submit opt-out requests manually to each site. This can _seem_ like a daunting task, because there are hundreds of people search sites, but the reality is that the vast majority of these sites are operated by a small handful of companies.
+Faire une demande manuelle de suppression de données est la façon la plus simple, la plus rapide, et la plus confidentielle de supprimer vos données des sites de recherche de personne. La tâche peut _sembler_ ardue, parce qu'il y existe des centaines de sites de recherche de personne, mais en réalité ces sites sont gérés par une petite poignée d'entreprise.
 
-You should search for your information on these sites first, and submit an opt-out request if your information is found. Removing your data from these providers typically removes your data from many smaller sites at the same time.
+Commencez par vérifier que vos données sont disponibles en cherchant sur ces sites puis, dans le cas où vous trouvez vos informations, faites une demande de suppression. Retirer vos données de ces fournisseurs les retire généralement en même temps d'autres sites plus petits.
 
-- Advanced Background Checks ([Search](https://advancedbackgroundchecks.com), [Opt-Out](https://advancedbackgroundchecks.com/removal))
-- BeenVerified ([Search](https://beenverified.com/app/optout/search), [Opt-Out](https://beenverified.com/app/optout/address-search))
-- CheckPeople ([Search](https://checkpeople.com/do-not-sell-info), select _Remove Record_ to opt-out)
+- Advanced Background Checks ([Recherche](https://advancedbackgroundchecks.com), [Suppression](https://advancedbackgroundchecks.com/removal))
+- BeenVerified ([Recherche](https://beenverified.com/app/optout/search), [Suppression](https://beenverified.com/app/optout/address-search))
+- CheckPeople ([Recherche](https://checkpeople.com/do-not-sell-info), sélectionnez _Supprimer vos donnnées personnelles_ pour vous désinscrire)
 - ClustrMaps ([Search](https://clustrmaps.com), [Opt-Out](https://clustrmaps.com/bl/opt-out))
 - Dataveria ([Search](https://dataveria.com), [Opt-Out](https://dataveria.com/ng/control/privacy))
 - InfoTracer ([Search](https://infotracer.com), [Opt-Out](https://infotracer.com/optout))
