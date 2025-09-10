@@ -184,6 +184,7 @@ However, Privacy Guides _does_ have social media accounts on a wide variety of p
 - [:simple-reddit: Reddit](https://reddit.com/r/PrivacyGuides)
 - [:simple-x: X (Twitter)](https://x.com/privacy_guides)
 - [:simple-youtube: YouTube](https://youtube.com/@privacyguides)
+- [:simple-tiktok: TikTok](https://www.tiktok.com/@privacyguides)
 
 </div>
 
