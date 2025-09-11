@@ -65,20 +65,19 @@ Aplicaciones de seguimiento menstrual populares como [Flo](https://techcrunch.co
 
 Estas aplicaciones de uso general pueden hacer de todo, desde contar los pasos y controlar el sueño hasta medir los latidos del corazón.
 
-### Salud de Apple
+### Apple Fitness
 
 <div class="admonition recommendation" markdown>
 
-![Apple logo](assets/img/health-and-wellness/apple-health.svg#only-light){ align=right }![Apple logo](assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ align=right }
+![Apple Fitness logo](assets/img/health-and-wellness/apple-fitness.webp){ align=right }
 
-**Salud de Apple** es la aplicación de salud y ejercicio físico predeterminada para iOS. Salud de Apple siempre utiliza el cifrado de extremo a extremo cuando se sincroniza en varios dispositivos. Además, casi todos los datos medidos se procesan en tu dispositivo.
+**Apple Fitness** is the default fitness app for iOS. Apple Fitness always uses end-to-end encryption when syncing across multiple devices. Además, casi todos los datos medidos se procesan en tu dispositivo.
 
-[:octicons-home-16: Página Principal](https://apple.com/health){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://apple.com/legal/privacy/consumer-health-personal-data/en-ww){ .card-link title="Política de Privacidad" }
+[:octicons-eye-16:](https://apple.com/legal/privacy/consumer-health-personal-data/en-ww){ .card-link title="Privacy Policy" }
 
 <details class="downloads" markdown><summary>Downloads "Descargas"</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/app/apple-health/id1242545199)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id1208224953)
 
 </details>
 
@@ -117,9 +116,9 @@ Estas aplicaciones te ayudan a recopilar y gestionar datos de tu salud y a compa
 
 <div class="admonition recommendation" markdown>
 
-![Apple logo](assets/img/health-and-wellness/apple-health.svg#only-light){ align=right }![Apple logo](assets/img/health-and-wellness/apple-health-dark.svg#only-dark){ align=right }
+![Apple logo](assets/img/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
 
-**Historial Clínico de Apple** es una función integrada en [Salud de Apple](#apple-health) que te permite ver, almacenar y compartir tus historiales médicos. Comparte las características de seguridad y privacidad de Salud de Apple.
+**Apple Health Records** is a built-in feature within [Apple Health](https://apple.com/health) that allows you to view, store, and share your health records. It shares the security and privacy features of [Apple Fitness](#apple-fitness).
 
 [:octicons-home-16: Página Principal](https://apple.com/health){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/consumer-health-personal-data/en-ww){ .card-link title="Política de Privacidad" }
