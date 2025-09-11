@@ -86,7 +86,7 @@ Yubikey 安全金鑰的韌體不可更新。 如果您想要使用較新韌體�
   ![Nitrokey](assets/img/security-keys/nitrokey.jpg){ width="300" }
 </figure>
 
-**Nitrokey** 有能夠支援 [FIDO2 和 WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) 的安全金鑰，稱為 **Nitrokey FIDO2**。 For PGP support, you need to purchase one of their other keys such as the **Nitrokey Start**, **Nitrokey Pro 2**, or the **Nitrokey Storage 2**.
+The **Nitrokey 3A Mini** [has FIDO Authenticator Level 1 Certification](https://www.nitrokey.com/news/2024/nitrokey-3a-mini-receives-official-fido2-certification). The Nitrokey 3 Series in general has a wide range of features such as [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), Personal Identity Verification (PIV), OpenPGP, and TOTP and HOTP authentication.
 
 [:octicons-home-16: Homepage](https://nitrokey.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
@@ -96,23 +96,26 @@ Yubikey 安全金鑰的韌體不可更新。 如果您想要使用較新韌體�
 
 </div>
 
-The [comparison table](https://nitrokey.com/products/nitrokeys) shows how the different Nitrokey models compare to each other in terms of features and other specifications. **Nitrokey 3** 具有組合的功能集。
+The [comparison table](https://nitrokey.com/products/nitrokeys) shows how the different Nitrokey models compare to each other in terms of features and other specifications.
 
 Nitrokey 模式可用 [Nitrokey 應用程式](https://nitrokey.com/download) 來設定。
 
-支援 HOTP 和 TOTP 的型號，有 3 個 HOTP 插槽，15 個 TOTP 插槽。 有些 Nitrokeys 可以充當密碼管理器。 可以儲存 16 組憑證，並使用與 OpenPGP 接口相同的密碼對憑證加密。
+The Nitrokey 3 Series can act as a password manager. They can store up to 50 different entries, and each entry can contain login, password, comment and OTP.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-雖然 Nitrokeys 不會將 HOTP/TOTP 機密釋放給所插入的裝置，但HOTP 和 TOTP 儲存\* _未經加密_ \* ，容易受到物理攻擊。 如果需要儲存 HOTP 或 TOTP 這類機密，強烈建議使用Yubikey 代替。
+Excluding the Nitrokey 3, Nitrokeys with HOTP and TOTP storage do not have it encrypted, making them vulnerable to physical attacks.
 
 </div>
 
-<div class="admonition warning" markdown>
-<p class="admonition-title">警告</p>
+**Nitrokey** also has the **Nitrokey Passkey**, a lower-price security key capable of [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online). 此金鑰僅提供基本的 FIDO2 功能，但對於大多數人來說就足夠其需求。 安全金鑰系列**不具備**的功能為：
 
-Resetting the OpenPGP interface on a Nitrokey [Pro 2](https://docs.nitrokey.com/nitrokeys/pro/factory-reset) or Nitrokey [Start 2](https://docs.nitrokey.com/nitrokeys/storage/factory-reset) will also make the password database inaccessible.
+- 密碼管理器。
+- PIV
+- OpenPGP
+- Tamper-resistant smart card
+- TOTP and HOTP
 
 </div>
 
