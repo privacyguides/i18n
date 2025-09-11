@@ -1,6 +1,6 @@
 ---
 meta_title: "The Best Password Managers to Protect Your Privacy and Security - Privacy Guides"
-title: "Pengelola Kata Sandi"
+title: Pengelola Kata Sandi
 icon: material/form-textbox-password
 description: Password managers allow you to securely store and manage passwords and other credentials.
 cover: passwords.webp
@@ -177,15 +177,9 @@ Pengelola kata sandi ini menyinkronkan kata sandi Anda ke server cloud untuk kem
 
 Bitwarden uses [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) as its key derivation function (KDF) algorithm by default. It also offers [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id), which is more secure, as an alternative. You can change your account's KDF algorithm in the web vault:
 
-- [x] Select **Settings > Security > Keys > KDF algorithm > Argon2id**
+- [x] Select **Settings → Security → Keys → KDF algorithm → Argon2id**
 
 Kode sisi server Bitwarden [bersumber terbuka](https://github.com/bitwarden/server), jadi jika Anda tidak ingin menggunakan "awan" Bitwarden, Anda dapat dengan mudah meng-hos server sinkronisasi Bitwarden Anda sendiri.
-
-**Vaultwarden** is an alternative implementation of Bitwarden's sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy official service might not be ideal. Jika Anda ingin meng-host Bitwarden di server Anda sendiri, Gunakanlah Vaultwarden dan bukan kode server resmi Bitwarden.
-
-[:octicons-repo-16: Vaultwarden Repository](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title="Contribute" }
 
 ### Proton Pass
 

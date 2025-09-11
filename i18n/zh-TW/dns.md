@@ -1,5 +1,5 @@
 ---
-title: "DNS解析器"
+title: DNS解析器
 icon: material/dns
 description: We recommend choosing these encrypted DNS providers to replace your ISP's default configuration.
 cover: dns.webp
@@ -13,7 +13,7 @@ global:
 
 - [:material-account-cash: 監控資本主義](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-使用第三方伺服器的加密 DNS 只能避開基本的 [DNS 封鎖](https://en.wikipedia.org/wiki/DNS_blocking) ，當您確定不會有不良後果時。 加密的 DNS 無法為您隱藏瀏覽活動。
+Encrypted **DNS** with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. 加密的 DNS 無法為您隱藏瀏覽活動。
 
 [了解更多有關 DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
 
@@ -30,52 +30,9 @@ global:
 | [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | DoH <br>DoT                                                        | No[^5]         | 不採納                                                            | 根據伺服器的選擇。 正在使用的過濾器列表可以在這裡找到。 [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)         | Yes [:octicons-link-external-24:](https://github.com/mullvad/encrypted-dns-profiles)                                                                                                                                        |
 | [**Quad9**](https://quad9.net)                                             | Cleartext <br>DoH <br>DoT <br>DNSCrypt                 | Anonymized[^6] | 可選                                                             | 根據伺服器的選擇。 Malware blocking is included by default.                                                         | Yes <br>[:simple-apple: iOS](https://docs.quad9.net/Setup_Guides/iOS/iOS_14_and_later_(Encrypted)) <br>[:material-apple-finder: macOS](https://docs.quad9.net/Setup_Guides/MacOS/Big_Sur_and_later_(Encrypted)) |
 
-## 自行託管 DNS 過濾器
-
-在被控制平臺，自主託管 DNS 可提供有用的過濾，例如智慧電視和其他物聯網裝置，因為不需要客戶端軟體。
-
-### Pi-hole
-
-<div class="admonition recommendation" markdown>
-
-![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
-
-**Pi-hole** 是一個開源的 [DNS沉洞](https://zh.wikipedia.org/wiki/DNS%E6%B2%89%E6%B4%9E) ，它使用 [DNS 過濾](https://cloudflare.com/learning/access-management/what-is-dns-filtering/)來阻止不需要的網頁內容，例如廣告。
-
-Pi-hole 設計應用在 Raspberry Pi ，但它並不限於這種硬體。 該軟體良好的 Web 界面，可查看有用資訊和管理被阻止的內容。
-
-[:octicons-home-16: 首頁](https://pi-hole.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://pi-hole.net/privacy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://docs.pi-hole.net){ .card-link title=說明文件}
-[:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=捐款 }
-
-</details>
-
-</div>
-
-### AdGuard Home
-
-<div class="admonition recommendation" markdown>
-
-![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
-
-**AdGuard Home** 是一個開源的 [DNS沉洞](https://zh.wikipedia.org/wiki/DNS%E6%B2%89%E6%B4%9E) ，使用 [DNS 過濾](https://cloudflare.com/learning/access-management/what-is-dns-filtering/) 來封鎖不需要的網頁內容，例如廣告。
-
-AdGuard Home 提供精美的網頁介面，可查看有用資訊並管理被封鎖的內容。
-
-[:octicons-home-16: 首頁](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=說明文件}
-[:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="原始碼" }
-
-</details>
-
-</div>
-
 ## 雲端 DNS 過濾器
 
-These DNS filtering solutions offer a web dashboard where you can customize the block lists to your exact needs, similarly to a Pi-hole. 這些服務通常比上述自託管服務更容易設定和配置，並且可以更輕鬆地跨多個網路使用（自託管解決方案通常僅限於家用/區域網路，除非您進行更進階的設定）。
+These DNS filtering solutions offer a web dashboard where you can customize the block lists to your exact needs. These services can be used easily across multiple networks.
 
 ### Control D
 
@@ -83,7 +40,9 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 
 ![Control D logo](assets/img/dns/control-d.svg){ align=right }
 
-**Control D** 可自訂的 DNS 服務，可在 DNS 層級封鎖安全性威脅、不必要的內容和廣告。 付費方案之外，他們還提供許多可免費使用的預先配置 DNS 解析器。
+**Control D** 可自訂的 DNS 服務，可在 DNS 層級封鎖安全性威脅、不必要的內容和廣告。
+
+付費方案之外，他們還提供許多可免費使用的預先配置 DNS 解析器。
 
 [:octicons-home-16: Homepage](https://controld.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://controld.com/privacy){ .card-link title="Privacy Policy" }
@@ -110,7 +69,9 @@ These DNS filtering solutions offer a web dashboard where you can customize the 
 
 ![NextDNS logo](assets/img/dns/nextdns.svg){ align=right }
 
-**NextDNS** 為可自訂的 DNS 服務，可在 DNS 層級封鎖安全性威脅、不必要的內容和廣告。 他們提供功能齊全的免費計劃，但使用受限。
+**NextDNS** 為可自訂的 DNS 服務，可在 DNS 層級封鎖安全性威脅、不必要的內容和廣告。
+
+他們提供功能齊全的免費計劃，但使用受限。
 
 [:octicons-home-16: Homepage](https://nextdns.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://nextdns.io/privacy){ .card-link title="Privacy Policy" }

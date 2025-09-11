@@ -1,12 +1,12 @@
 ---
-meta_title: The Best Android Operating Systems - Privacy Guides
-title: Alternatieve Distributions
+meta_title: "The Best Android Operating Systems - Privacy Guides"
+title: "Alternatieve Distributions"
 description: Je kunt het besturingssysteem op jouw Android-telefoon vervangen door deze veilige en privacy respecterende alternatieven.
 schema:
   - "@context": http://schema.org
     "@type": WebPage
     name: Privacyvriendelijke Android-besturingssystemen
-    url: ./
+    url: "./"
   - "@context": http://schema.org
     "@type": CreativeWork
     name: GrapheneOS
@@ -16,7 +16,7 @@ schema:
     subjectOf:
       "@context": http://schema.org
       "@type": WebPage
-      url: ./
+      url: "./"
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 

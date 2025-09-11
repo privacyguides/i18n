@@ -1,6 +1,6 @@
 ---
 meta_title: "Los Mejores Administradores de Contraseñas para Proteger Tu Privacidad y Seguridad - Privacy Guides"
-title: "Administradores de Contraseñas"
+title: Administradores de Contraseñas
 icon: material/form-textbox-password
 description: Los administradores de contraseñas te permiten almacenar y administrar de forma segura contraseñas y otras credenciales.
 cover: passwords.webp
@@ -177,15 +177,9 @@ Estos administradores de contraseñas sincronizan sus contraseñas con un servid
 
 Bitwarden utiliza [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) como algoritmo de función de derivación de claves (KDF) por defecto. También ofrece como alternativa [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id), que es más seguro. Puede cambiar el algoritmo KDF de su cuenta en el almacén web:
 
-- [x] Seleccione **Configuración > Seguridad > Claves > Algoritmo KDF > Argon2id**
+- [x] Select **Settings → Security → Keys → KDF algorithm → Argon2id**
 
 El código del lado del servidor de Bitwarden es de [código abierto](https://github.com/bitwarden/server), por lo que si no desea utilizar la nube de Bitwarden, puede alojar fácilmente su propio servidor de sincronización Bitwarden.
-
-**Vaultwarden** es una implementación alternativa del servidor de sincronización de Bitwarden escrito en Rust y compatible con los clientes oficiales de Bitwarden, perfecto para el despliegue autoalojado donde la ejecución del servicio oficial de recursos pesados podría no ser ideal. Si usted está buscando autoalojar Bitwarden en su propio servidor, es casi seguro que desee utilizar Vaultwarden en lugar del código del servidor oficial de Bitwarden.
-
-[:octicons-repo-16: Repositorio Vaultwarden](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title="Documentación" }
-[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title="Contribuir" }
 
 ### Proton Pass
 

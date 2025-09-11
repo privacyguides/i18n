@@ -20,8 +20,8 @@ To change any group policy, double click it and select Enabled or Disabled at th
 #### Device Guard
 
 - Turn On Virtualization Based Security: **Enabled**
-    - Platform Security Level: **Secure Boot and DMA Protection**
-    - Secure Launch Configuration: **Enabled**
+  - Platform Security Level: **Secure Boot and DMA Protection**
+  - Secure Launch Configuration: **Enabled**
 
 #### Internet Communication Management
 
@@ -52,14 +52,14 @@ AutoRun and AutoPlay are features which allow Windows to run a script or perform
 - Turn off AutoPlay: **Enabled**
 - Disallow Autoplay for nonvolume devices: **Enabled**
 - Set the default behavior for AutoRun: **Enabled**
-    - Default AutoRun Behavior: **Do not execute any AutoRun commands**
+  - Default AutoRun Behavior: **Do not execute any AutoRun commands**
 
 #### BitLocker Drive Encryption
 
 You may wish to re-encrypt your operating system drive after changing these settings.
 
 - Choose drive encryption method and cipher strength (Windows Vista, Windows Server 2008, Windows 7): **Enabled**
-    - Select the encryption method: **AES-256**
+  - Select the encryption method: **AES-256**
 
 Setting the cipher strength for the Windows 7 policy still applies that strength to newer versions of Windows.
 
@@ -85,12 +85,12 @@ Despite the names of these policies, this doesn't _require_ you to do anything b
 #### Data Collection and Preview Builds
 
 - Allow Diagnostic Data: **Enabled**
-    - Options: **Send required diagnostic data** (Pro Edition); or
-    - Options: **Diagnostic data off** (Enterprise or Education Edition)
+  - Options: **Send required diagnostic data** (Pro Edition); or
+  - Options: **Diagnostic data off** (Enterprise or Education Edition)
 - Limit Diagnostic Log Collection: **Enabled**
 - Limit Dump Collection: **Enabled**
 - Limit optional diagnostic data for Desktop Analytics: **Enabled**
-    - Options: **Disable Desktop Analytics collection**
+  - Options: **Disable Desktop Analytics collection**
 - Do not show feedback notifications: **Enabled**
 
 #### File Explorer
@@ -118,7 +118,7 @@ This last setting disables OneDrive on your system; make sure to change it to **
 - Allow Cortana: **Disabled**
 - Don't search the web or display web results in Search: **Enabled**
 - Set what information is shared in Search: **Enabled**
-    - Type of information: **Anonymous info**
+  - Type of information: **Anonymous info**
 
 #### Sync your settings
 
@@ -132,4 +132,4 @@ This last setting disables OneDrive on your system; make sure to change it to **
 
 - Do not send additional data: **Enabled**
 - Consent > Configure Default consent: **Enabled**
-    - Nível de consentimento: **Sempre pergunte antes de enviar dados**
+  - Nível de consentimento: **Sempre pergunte antes de enviar dados**

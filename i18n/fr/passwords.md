@@ -1,6 +1,6 @@
 ---
 meta_title: "Les meilleurs gestionnaires de mots de passe pour protéger votre vie privée et votre sécurité - Privacy Guides"
-title: "Gestionnaires de mots de passe"
+title: Gestionnaires de mots de passe
 icon: material/form-textbox-password
 description: Les gestionnaires de mots de passe vous permettent de stocker et gérer en toute sécurité vos mots de passe et autres identifiants.
 cover: passwords.webp
@@ -177,15 +177,9 @@ Ces gestionnaires de mots de passe synchronisent vos mots de passe sur un serveu
 
 Bitwarden uses [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) as its key derivation function (KDF) algorithm by default. It also offers [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id), which is more secure, as an alternative. You can change your account's KDF algorithm in the web vault:
 
-- [x] Select **Settings > Security > Keys > KDF algorithm > Argon2id**
+- [x] Select **Settings → Security → Keys → KDF algorithm → Argon2id**
 
 Le code côté serveur de Bitwarden est [open source](https://github.com/bitwarden/server), donc si vous ne voulez pas utiliser le cloud Bitwarden, vous pouvez facilement héberger votre propre serveur de synchronisation Bitwarden.
-
-**Vaultwarden** is an alternative implementation of Bitwarden's sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy official service might not be ideal. Si vous cherchez à héberger Bitwarden sur votre propre serveur, vous voudrez certainement utiliser Vaultwarden plutôt que le code serveur officiel de Bitwarden.
-
-[:octicons-repo-16: Vaultwarden Repository](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title="Contribute" }
 
 ### Proton Pass
 

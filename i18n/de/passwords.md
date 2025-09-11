@@ -1,6 +1,6 @@
 ---
 meta_title: "Die besten Passwort-Manager zum Schutz deiner Privatsphäre und Sicherheit - Privacy Guides"
-title: "Passwort-Manager"
+title: Passwort-Manager
 icon: material/form-textbox-password
 description: Mit Passwortmanagern kannst du Passwörter und andere Anmeldeinformationen sicher speichern und verwalten.
 cover: passwords.webp
@@ -177,15 +177,9 @@ Diese Passwort-Manager synchronisieren deine Passwörter mit einem Cloud-Server,
 
 Bitwarden verwendet standardmäßig [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) als Schlüsselableitungsalgorithmus (KDF). Als Alternative bietet es auch das sicherere [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id) an. You can change your account's KDF algorithm in the web vault:
 
-- [x] Wähle **Einstellungen > Sicherheit > Schlüssel > KDF-Algorithmus > Argon2id**
+- [x] Select **Settings → Security → Keys → KDF algorithm → Argon2id**
 
 Der serverseitige Code von Bitwarden ist [quelloffen](https://github.com/bitwarden/server). Wenn du also nicht die Bitwarden-Cloud nutzen möchtest, kannst du problemlos deinen eigenen Bitwarden-Synchronisierungsserver hosten.
-
-**Vaultwarden** ist eine alternative Implementierung des Sync-Servers von Bitwarden, die in Rust geschrieben wurde und mit den offiziellen Bitwarden-Clients kompatibel ist. Sie eignet sich perfekt für den selbstgehosteten Einsatz, wenn der ressourcenintensive offizielle Dienst nicht ideal ist. Wenn du Bitwarden auf deinem eigenen Server hosten willst, wirst du mit ziemlicher Sicherheit lieber Vaultwarden als den offiziellen Servercode von Bitwarden verwenden wollen.
-
-[:octicons-repo-16: Vaultwarden Repository](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title="Dokumentation" }
-[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Quellcode" }
-[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title="Spenden" }
 
 ### Proton Pass
 

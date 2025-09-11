@@ -1,5 +1,5 @@
 ---
-title: "Solucionadores DNS"
+title: Solucionadores DNS
 icon: material/dns
 description: Te recomendamos que elijas estos proveedores de DNS cifrado para sustituir la configuración predeterminada de tu ISP.
 cover: dns.webp
@@ -13,7 +13,7 @@ global:
 
 - [:material-account-cash: Capitalismo de Vigilancia](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Un DNS cifrado con servidores de terceros solo debe utilizarse para evitar el [bloqueo de DNS básico](https://en.wikipedia.org/wiki/DNS_blocking) cuándo puedas estar seguro de que no habrá ningunas consecuencias. Un DNS cifrado no te ayudará a esconder ninguna de tu actividad en línea.
+Encrypted **DNS** with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. Un DNS cifrado no te ayudará a esconder ninguna de tu actividad en línea.
 
 [Aprende más sobre DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
 
@@ -30,52 +30,9 @@ Estos son nuestros solucionadores de DNS públicos favoritos en función de sus 
 | [**Mullvad**](https://mullvad.net/en/help/dns-over-https-and-dns-over-tls) | DoH <br>DoT                                                             | No[^5]                        | No                                                             | Basado en la elección del servidor. La lista de filtros utilizada se puede encontrar aquí. [:octicons-link-external-24:](https://github.com/mullvad/dns-adblock)           | Sí [:octicons-link-external-24:](https://github.com/mullvad/encrypted-dns-profiles)                                                                                                                                        |
 | [**Quad9**](https://quad9.net)                                             | Texto en claro <br>DoH <br>DoT <br>DNSCrypt                 | Anónimo[^6]                   | Opcional                                                       | Basado en la elección del servidor. El bloqueo de malware está incluido por defecto.                                                                                       | Sí <br>[:simple-apple: iOS](https://docs.quad9.net/Setup_Guides/iOS/iOS_14_and_later_(Encrypted)) <br>[:material-apple-finder: macOS](https://docs.quad9.net/Setup_Guides/MacOS/Big_Sur_and_later_(Encrypted)) |
 
-## Servidor DNS autoalojado
-
-Una solución DNS autoalojada es útil para proporcionar filtrado en plataformas controladas, como Smart TV y otros dispositivos IoT, ya que no se necesita software del lado del cliente.
-
-### Pi-hole
-
-<div class="admonition recommendation" markdown>
-
-![Pi-hole logo](assets/img/dns/pi-hole.svg){ align=right }
-
-**Pi-hole** es un [DNS-sinkhole](https://es.wikipedia.org/wiki/DNS_sinkhole) de código abierto que utiliza [filtrado DNS](https://cloudflare.com/learning/access-management/what-is-dns-filtering) para bloquear contenidos web no deseados, como la publicidad.
-
-Pi-hole está diseñado para alojarse en una Raspberry Pi, pero no se limita a dicho hardware. El software cuenta con una interfaz web fácil de usar para ver los datos y gestionar los contenidos bloqueados.
-
-[:octicons-home-16: Página Principal](https://pi-hole.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://pi-hole.net/privacy){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://docs.pi-hole.net){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/pi-hole/pi-hole){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://pi-hole.net/donate){ .card-link title=Contribuir }
-
-</details>
-
-</div>
-
-### AdGuard Home
-
-<div class="admonition recommendation" markdown>
-
-![AdGuard Home logo](assets/img/dns/adguard-home.svg){ align=right }
-
-**AdGuard Home** es un [DNS-sinkhole](https://es.wikipedia.org/wiki/DNS_sinkhole) de código abierto que utiliza [filtrado DNS](https://cloudflare.com/learning/access-management/what-is-dns-filtering) para bloquear contenidos web no deseados, como la publicidad.
-
-AdGuard Home cuenta con una interfaz web pulida para ver información y gestionar el contenido bloqueado.
-
-[:octicons-home-16: Página Principal](https://adguard.com/adguard-home/overview.html){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://adguard.com/privacy/home.html){ .card-link title="Política de privacidad" }
-[:octicons-info-16:](https://github.com/AdguardTeam/AdGuardHome/wiki){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/AdguardTeam/AdGuardHome){ .card-link title="Código fuente" }inicio
-
-</details>
-
-</div>
-
 ## Filtrado DNS basado en la nube
 
-Estas soluciones de filtrado DNS ofrecen un panel web en el que puedes personalizar las listas de bloqueo según tus necesidades exactas, de forma similar a un Pi-hole. Estos servicios suelen ser más fáciles de instalar y configurar que los autoalojados, como los anterioriores, y pueden utilizarse más fácilmente en múltiples redes (las soluciones autoalojadas suelen estar restringidas a su red doméstica/local, a menos que se establezca una configuración más avanzada).
+These DNS filtering solutions offer a web dashboard where you can customize the block lists to your exact needs. These services can be used easily across multiple networks.
 
 ### Control D
 
@@ -83,7 +40,9 @@ Estas soluciones de filtrado DNS ofrecen un panel web en el que puedes personali
 
 ![Control D logo](assets/img/dns/control-d.svg){ align=right }
 
-**Control D** es un servicio DNS personalizable que permite bloquear amenazas de seguridad, contenidos no deseados y publicidad a nivel de DNS. Además de sus planes de pago, ofrecen una serie de solucionadores DNS preconfigurados que puedes utilizar gratuitamente.
+**Control D** es un servicio DNS personalizable que permite bloquear amenazas de seguridad, contenidos no deseados y publicidad a nivel de DNS.
+
+Además de sus planes de pago, ofrecen una serie de solucionadores DNS preconfigurados que puedes utilizar gratuitamente.
 
 [:octicons-home-16: Página Principal](https://controld.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://controld.com/privacy){ .card-link title="Política de Privacidad" }
@@ -110,7 +69,9 @@ Estas soluciones de filtrado DNS ofrecen un panel web en el que puedes personali
 
 ![NextDNS logo](assets/img/dns/nextdns.svg){ align=right }
 
- **NextDNS** es un servicio DNS personalizable que te permite bloquear amenazas de seguridad, contenidos no deseados y publicidad a nivel DNS. Ofrecen un plan gratuito totalmente funcional para uso limitado.
+ **NextDNS** es un servicio DNS personalizable que te permite bloquear amenazas de seguridad, contenidos no deseados y publicidad a nivel DNS.
+
+Ofrecen un plan gratuito totalmente funcional para uso limitado.
 
 [:octicons-home-16: Página Principal](https://nextdns.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://nextdns.io/privacy){ .card-link title="Política de Privacidad" }

@@ -1,13 +1,13 @@
 ---
-title: Android
+title: "Android"
 description: Our advice for replacing privacy-invasive default Android features with private and secure alternatives.
-icon: simple/android
+icon: 'simple/android'
 cover: android.webp
 schema:
   - "@context": http://schema.org
     "@type": WebPage
     name: Android Recommendations
-    url: ./
+    url: "./"
   - "@context": http://schema.org
     "@type": CreativeWork
     name: Android
@@ -38,7 +38,7 @@ There are also many private alternatives to the apps that come pre-installed on 
 
 When you buy an Android phone, the default operating system comes bundled with apps and functionality that are not part of the Android Open Source Project. Many of these apps—even apps like the dialer which provide basic system functionality—require invasive integrations with Google Play Services, which in turn asks for privileges to access your files, contacts storage, call logs, SMS messages, location, camera, microphone, and numerous other things on your device in order for those basic system apps and many other apps to function in the first place. Frameworks like Google Play Services increase the attack surface of your device and are the source of various privacy concerns with Android.
 
-This problem could be solved by using an alternative Android distribution, commonly known as a _custom ROM_, that does not come with such invasive integration. 다만 안타깝게도, 대부분의 커스텀 Android 배포판은 AVB, 롤백 보호, 펌웨어 업데이트 등의 중요한 보안 기능을 지원하지 않음으로써 Android 보안 모델을 위반하는 경우가 많습니다. Some distributions also ship [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) builds which expose root via [ADB](https://developer.android.com/studio/command-line/adb) and require more permissive SELinux policies to accommodate debugging features, resulting in a further increased attack surface and weakened security model.
+This problem could be solved by using an alternative Android distribution, commonly known as a _custom ROM_, that does not come with such invasive integration. 다만 안타깝게도, 대부분의 커스텀 Android 배포판은 AVB, 롤백 보호, 펌웨어 업데이트 등의 중요한 보안 기능을 지원하지 않음으로써 Android 보안 모델을 위반하는 경우가 많습니다. Some distributions also ship [`userdebug`](https://source.android.com/setup/build/building#choose-a-target) builds which expose root via [ADB](https://developer.android.com/studio/command-line/adb) and require [more permissive](https://github.com/LineageOS/android_system_sepolicy/search?q=userdebug&type=code) SELinux policies to accommodate debugging features, resulting in a further increased attack surface and weakened security model.
 
 커스텀 Android 배포판을 선택할 때는 해당 배포판이 Android 보안 모델을 준수하는지 확인하는 것이 이상적입니다. At the very least, the distribution should have production builds, support for AVB, rollback protection, timely firmware and operating system updates, and SELinux in [enforcing mode](https://source.android.com/security/selinux/concepts#enforcement_levels). All of our recommended Android distributions satisfy these criteria:
 

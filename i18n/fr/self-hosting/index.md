@@ -1,7 +1,7 @@
 ---
 title: Auto-Hébergement
-meta_title: "Logiciels et Services Auto-Hébergés - Privacy Guides"
-description: Pour nos lecteurs les plus expérimentés, les logiciels et les services auto-hébergés permettent de contrôler au maximum vos données afin d'avoir les meilleures garanties en termes de confidentialité.
+meta_title: "Self-Hosting Software and Services - Privacy Guides"
+description: For our more technical readers, self-hosting software and services can provide additional privacy assurances since you have maximum control over your data.
 cover: router.webp
 ---
 
@@ -9,7 +9,7 @@ cover: router.webp
 
 - [:material-server-network: Fournisseurs de services](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-Les **logiciels et services auto-hébergés** peuvent être un bon moyen d'atteindre un plus haut niveau de souveraineté numérique, en particulier en remplaçant les clouds contrôlés par des entreprises ou des développeurs. L'auto-hébergement désigne le fait d'héberger vos applications et vos données sur votre propre hardware.
+**Self-hosting** software and services can be a way to achieve a higher level of privacy through digital sovereignty, particularly independence from cloud servers controlled by product developers or vendors. L'auto-hébergement désigne le fait d'héberger vos applications et vos données sur votre propre hardware.
 
 L'auto-hébergement nécessite des connaissances techniques avancées et une bonne compréhension des risques associés. En devanant votre propre hébergeur, et potentiellement celui d'autres personnes, vous acceptez de prendre certaines responsabilités spécifiques. Mal utiliser des logiciels dédiés à la confidentialité en auto-hébergement implique parfois des risques plus grands qu'utiliser les services d'un tiers chiffrés de bout en bout par exemple. Il peut donc être préférable de n'y avoir recours que si vous êtes vraiment à l'aise.
 
@@ -24,6 +24,35 @@ L'auto-hébergement nécessite des connaissances techniques avancées et une bon
 </div>
 
 [En savoir plus :material-arrow-right-drop-circle:](email-servers.md)
+
+## :material-dns: DNS Filtering
+
+<div class="grid cards" markdown>
+
+- ![AdGuard Home logo](../assets/img/self-hosting/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns-filtering.md#adguard-home)
+- ![Pi-Hole logo](../assets/img/self-hosting/pi-hole.svg){ .twemoji loading=lazy } [Pi-Hole](dns-filtering.md#pi-hole)
+
+</div>
+
+[Learn more :material-arrow-right-drop-circle:](dns-filtering.md)
+
+## :material-form-textbox-password: Password Management
+
+### Vaultwarden
+
+<div class="admonition recommendation" markdown>
+
+![Vaultwarden logo](../assets/img/self-hosting/vaultwarden.svg#only-light){ align=right }
+![Vaultwarden logo](../assets/img/self-hosting/vaultwarden-dark.svg#only-dark){ align=right }
+
+**Vaultwarden** is an alternative implementation of [Bitwarden](../passwords.md#bitwarden)'s sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy, [official service](https://github.com/bitwarden/server) might not be ideal.
+
+[:octicons-repo-16: Repository](https://github.com/dani-garcia/vaultwarden#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title="Contribute" }
+
+</div>
 
 ## :material-account-supervisor-circle-outline: Réseaux sociaux
 

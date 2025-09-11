@@ -1,12 +1,12 @@
 ---
-meta_title: מערכות ההפעלה הטובות ביותר של אנדרואיד - Privacy Guides
-title: הפצות אלטרנטיביות
+meta_title: "מערכות ההפעלה הטובות ביותר של אנדרואיד - Privacy Guides"
+title: "הפצות אלטרנטיביות"
 description: אתה יכול להחליף את מערכת ההפעלה בטלפון האנדרואיד שלך בחלופות מאובטחות ומכבדות פרטיות.
 schema:
   - "@context": http://schema.org
     "@type": WebPage
     name: מערכות הפעלה פרטיות לאנדרואיד
-    url: ./
+    url: "./"
   - "@context": http://schema.org
     "@type": CreativeWork
     name: GrapheneOS
@@ -16,7 +16,7 @@ schema:
     subjectOf:
       "@context": http://schema.org
       "@type": WebPage
-      url: ./
+      url: "./"
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
 

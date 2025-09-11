@@ -299,17 +299,6 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Узнать больше :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
 
-#### Решения для самостоятельного хостинга
-
-<div class="grid cards" markdown>
-
-- ![AdGuard Home logo](assets/img/dns/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns.md#adguard-home)
-- ![Pi-hole logo](assets/img/dns/pi-hole.svg){ .twemoji loading=lazy } [Pi-hole](dns.md#pi-hole)
-
-</div>
-
-[Узнать больше :material-arrow-right-drop-circle:](dns.md#self-hosted-dns-filtering)
-
 ### Финансовые услуги
 
 #### Услуги по маскировке платежей

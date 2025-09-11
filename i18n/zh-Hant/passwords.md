@@ -1,6 +1,6 @@
 ---
 meta_title: "保護您的隱私和安全的最佳密碼管理器 - Privacy Guides"
-title: "密碼管理器"
+title: 密碼管理器
 icon: material/form-textbox-password
 description: 密碼管理器可讓您安全地儲存和管理密碼及其他憑證。
 cover: passwords.webp
@@ -177,15 +177,9 @@ For example, the password manager in Microsoft Edge doesn't offer end-to-end enc
 
 Bitwarden 預設使用 [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) 作為其 金鑰衍生函式(KDF) 演算法。 它也提供更安全的 [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id) 作為可選方案。 You can change your account's KDF algorithm in the web vault:
 
-- [x] 選擇**設定 > 安全 > 金鑰 > KDF 演算法 > Argon2id**
+- [x] Select **Settings → Security → Keys → KDF algorithm → Argon2id**
 
 Bitwarden 伺服器端代碼是 [開源的](https://github.com/bitwarden/server)，因此如果不想使用 Bitwarden 雲端，可以輕鬆地託管自己的 Bitwarden 同步伺服器。
-
-**Vaultwarden** 是 Bitwarden 同步伺服器的另一種實作，以 Rust 寫成，並與官方的 Bitwarden 用戶端相容。非常適合用來自架服務，因為使用資源吃重的官方服務可能不是很理想。 如果您想在自己的伺服器上自行託管 Bitwarden，幾乎可以肯定的是，您想使用 Vaultwarden 而不是 Bitwarden 的官方伺服器程式碼。
-
-[:octicons-repo-16: Vaultwarden 儲存庫](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title="說明文件" }
-[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title="捐款" }
 
 ### Proton Pass
 

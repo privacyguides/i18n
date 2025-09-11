@@ -1,6 +1,6 @@
 ---
 meta_title: "The Best Password Managers to Protect Your Privacy and Security - Privacy Guides"
-title: "비밀번호 관리자"
+title: 비밀번호 관리자
 icon: material/form-textbox-password
 description: Password managers allow you to securely store and manage passwords and other credentials.
 cover: passwords.webp
@@ -177,15 +177,9 @@ For example, the password manager in Microsoft Edge doesn't offer end-to-end enc
 
 Bitwarden uses [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) as its key derivation function (KDF) algorithm by default. It also offers [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id), which is more secure, as an alternative. You can change your account's KDF algorithm in the web vault:
 
-- [x] Select **Settings > Security > Keys > KDF algorithm > Argon2id**
+- [x] Select **Settings → Security → Keys → KDF algorithm → Argon2id**
 
 Bitwarden's server-side code is [open source](https://github.com/bitwarden/server), so if you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden sync server.
-
-**Vaultwarden** is an alternative implementation of Bitwarden's sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy official service might not be ideal. Vaultwarden은 개인 서버에서 Bitwarden을 자체 호스팅하는 경우 공식 Bitwarden 서버 코드보다 선호됩니다.
-
-[:octicons-repo-16: Vaultwarden Repository](https://github.com/dani-garcia/vaultwarden ""){.md-button} [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title="Contribute" }
 
 ### Proton Pass
 

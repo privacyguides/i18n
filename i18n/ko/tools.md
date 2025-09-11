@@ -299,17 +299,6 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [자세히 알아보기 :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
 
-#### 자체 호스팅 솔루션
-
-<div class="grid cards" markdown>
-
-- ![AdGuard Home logo](assets/img/dns/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns.md#adguard-home)
-- ![Pi-hole logo](assets/img/dns/pi-hole.svg){ .twemoji loading=lazy } [Pi-hole](dns.md#pi-hole)
-
-</div>
-
-[자세히 알아보기 :material-arrow-right-drop-circle:](dns.md#self-hosted-dns-filtering)
-
 ### 금융 서비스
 
 #### Payment Masking Services

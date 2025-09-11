@@ -1,5 +1,5 @@
 ---
-title: השגת יישומים
+title: "השגת יישומים"
 description: אנו ממליצים על שיטות אלה להשגת יישומים באנדרואיד מבלי לקיים אינטראקציה עם שירותי גוגל משחקים.
 ---
 
@@ -86,26 +86,26 @@ If you download APK files to install manually, you can verify their signature wi
 
 3. Extract the downloaded archive:
 
-    ```bash
-    unzip commandlinetools-*.zip
-    cd cmdline-tools
-    ./bin/sdkmanager --sdk_root=./ "build-tools;29.0.3"
-    ```
+   ```bash
+   unzip commandlinetools-*.zip
+   cd cmdline-tools
+   ./bin/sdkmanager --sdk_root=./ "build-tools;29.0.3"
+   ```
 
 4. Run the signature verification command:
 
-    ```bash
-    ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk
-    ```
+   ```bash
+   ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk
+   ```
 
 5. The resulting hashes can then be compared with another source. Some developers such as Signal [show the fingerprints](https://signal.org/android/apk) on their website.
 
-    ```bash
-    Signer #1 certificate DN: CN=GrapheneOS
-    Signer #1 certificate SHA-256 digest: 6436b155b917c2f9a9ed1d15c4993a5968ffabc94947c13f2aeee14b7b27ed59
-    Signer #1 certificate SHA-1 digest: 23e108677a2e1b1d6e6b056f3bb951df7ad5570c
-    Signer #1 certificate MD5 digest: dbbcd0cac71bd6fa2102a0297c6e0dd3
-    ```
+   ```bash
+   Signer #1 certificate DN: CN=GrapheneOS
+   Signer #1 certificate SHA-256 digest: 6436b155b917c2f9a9ed1d15c4993a5968ffabc94947c13f2aeee14b7b27ed59
+   Signer #1 certificate SHA-1 digest: 23e108677a2e1b1d6e6b056f3bb951df7ad5570c
+   Signer #1 certificate MD5 digest: dbbcd0cac71bd6fa2102a0297c6e0dd3
+   ```
 
 ## F-Droid
 

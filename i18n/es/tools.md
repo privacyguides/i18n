@@ -300,17 +300,6 @@ Si busca más **seguridad**, asegúrese siempre de conectarse a sitios web que u
 
 [Más información :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
 
-#### Soluciones Autoalojadas
-
-<div class="grid cards" markdown>
-
-- ![logo de AdGuard Home](assets/img/dns/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns.md#adguard-home)
-- ![logo de Pi-hole](assets/img/dns/pi-hole.svg){ .twemoji loading=lazy } [Pi-hole](dns.md#pi-hole)
-
-</div>
-
-[Más información :material-arrow-right-drop-circle:](dns.md#self-hosted-dns-filtering)
-
 ### Servicios Financieros
 
 #### Servicios de Enmascaramiento de Pagos

@@ -1,5 +1,5 @@
 ---
-title: תקינות המכשיר
+title: "תקינות המכשיר"
 icon: material/security
 description: ניתן להשתמש בכלים אלה כדי לבדוק אם המכשירים שלך נפגעו.
 cover: device-integrity.webp
@@ -102,7 +102,7 @@ If you use iOS and are at high-risk, we have three additional suggestions for yo
 
 2. Trigger _sysdiagnose_ logs often and back them up externally. These logs can provide invaluable data to future forensic investigators if need be.
 
-    The process to do so varies by model, but you can trigger it on newer phones by holding down _Power_ + _Volume Up_ + _Volume Down_ until you feel a brief vibration. After a few minutes, the timestamped _sysdiagnose_ log will appear in **Settings** > **Privacy & Security** > **Analytics & Improvements** > **Analytics Data**.
+   The process to do so varies by model, but you can trigger it on newer phones by holding down _Power_ + _Volume Up_ + _Volume Down_ until you feel a brief vibration. After a few minutes, the timestamped _sysdiagnose_ log will appear in **Settings** > **Privacy & Security** > **Analytics & Improvements** > **Analytics Data**.
 
 3. Enable [Lockdown Mode](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode).
 

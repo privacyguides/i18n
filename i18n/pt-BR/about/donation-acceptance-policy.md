@@ -12,7 +12,7 @@ Privacy Guides aspires to obtain funding from a wide variety of sources to reduc
 In the course of our regular fundraising activities...
 
 - Donations and other forms of support will generally be accepted from individuals, corporations, foundations, or other entities, without limitations.
-    - This includes cash, cash equivalents (checks, money orders, credit/debit card payments), and cryptocurrency.
+  - This includes cash, cash equivalents (checks, money orders, credit/debit card payments), and cryptocurrency.
 - Gifts of Real Property, Personal Property, or Securities may only be accepted upon approval of the MAGIC Grants board of directors.
 
 Privacy Guides will only accept such gifts that are legal and consistent with our policies. Gifts must not interfere with Privacy Guides' mission, purpose, and procedures.

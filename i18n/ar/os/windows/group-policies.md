@@ -20,8 +20,8 @@ description: دليل سريع لتهيئة إعدادات Group Policy لج
 #### Device Guard
 
 - يجب ضبط إعداد “Turn On Virtualization Based Security” على **Enabled**
-    - اضبط خيار Platform Security Level على **Secure Boot and DMA Protection**
-    - اضبط إعداد Secure Launch Configuration على **Enabled**
+  - اضبط خيار Platform Security Level على **Secure Boot and DMA Protection**
+  - اضبط إعداد Secure Launch Configuration على **Enabled**
 
 #### Internet Communication Management
 
@@ -53,14 +53,14 @@ description: دليل سريع لتهيئة إعدادات Group Policy لج
 - اضبط إعداد Turn off AutoPlay على **Enabled**
 - اضبط إعداد Disallow Autoplay for nonvolume devices على **Enabled**
 - اضبط إعداد Set the default behavior for AutoRun على **Enabled**
-    - اضبط خيار Default AutoRun Behavior على **Do not execute any AutoRun commands**
+  - اضبط خيار Default AutoRun Behavior على **Do not execute any AutoRun commands**
 
 #### BitLocker Drive Encryption
 
 قد ترغب في إعادة تشفير الـ operating system drive بعد تغيير هذه الإعدادات.
 
 - اضبط إعداد Choose drive encryption method and cipher strength (Windows Vista, Windows Server 2008, Windows 7) على **Enabled**
-    - اضبط خيار Select the encryption method على **AES-256**
+  - اضبط خيار Select the encryption method على **AES-256**
 
 تحديدك لـ Aes-256 في سياسة Windows 7 سيجعل النظام يستخدم Aes-256 حتى في النسخ الأحدث.
 
@@ -87,12 +87,12 @@ description: دليل سريع لتهيئة إعدادات Group Policy لج
 #### Data Collection and Preview Builds
 
 - Allow Diagnostic Data: **Enabled**
-    - خيار الـ: **Send required diagnostic data** (في إصدار Pro)؛ أو
-    - خيار الـ: Diagnostic data off (في إصدار Enterprise أو Education)
+  - خيار الـ: **Send required diagnostic data** (في إصدار Pro)؛ أو
+  - خيار الـ: Diagnostic data off (في إصدار Enterprise أو Education)
 - اضبط إعداد Limit Diagnostic Log Collection على **Enabled**
 - اضبط إعداد Limit Dump Collection على **Enabled**
 - اضبط إعداد Limit optional diagnostic data for Desktop Analytics على **Enabled**
-    - الخيار: **Disable Desktop Analytics collection**
+  - الخيار: **Disable Desktop Analytics collection**
 - اضبط إعداد Do not show feedback notifications على **Enabled**
 
 #### File Explorer
@@ -120,7 +120,7 @@ description: دليل سريع لتهيئة إعدادات Group Policy لج
 - اضبط إعداد Allow Cortana على **Disabled**
 - اضبط إعداد Don't search the web or display web results in Search على **Enabled**
 - اضبط إعداد Set what information is shared in Search على **Enabled**
-    - اضبط خيار Type of information على **Anonymous info**
+  - اضبط خيار Type of information على **Anonymous info**
 
 #### Sync your settings
 
@@ -134,4 +134,4 @@ description: دليل سريع لتهيئة إعدادات Group Policy لج
 
 - اضبط إعداد Do not send additional data على **Enabled**
 - اضبط الإعداد Consent > Configure Default consent على **Enabled**
-    - اضبط خيار Consent level على **Always ask before sending data**
+  - اضبط خيار Consent level على **Always ask before sending data**

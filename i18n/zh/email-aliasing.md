@@ -1,5 +1,5 @@
 ---
-title: Email Aliasing
+title: "Email Aliasing"
 icon: material/email-lock
 description: An email aliasing service allows you to easily generate a new email address for every website you register for.
 cover: email-aliasing.webp

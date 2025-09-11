@@ -86,26 +86,26 @@ Aurora Store 不允許其匿名帳戶下載付費應用程式。 您可以選擇
 
 3. 解壓縮下載的檔案：
 
-    ```bash
-    unzip commandlinetools-*.zip
-    cd cmdline-tools
-    ./bin/sdkmanager --sdk_root=./ "build-tools;29.0.3"
-    ```
+   ```bash
+   unzip commandlinetools-*.zip
+   cd cmdline-tools
+   ./bin/sdkmanager --sdk_root=./ "build-tools;29.0.3"
+   ```
 
 4. 執行簽章驗證指令：
 
-    ```bash
-    ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk
-    ```
+   ```bash
+   ./build-tools/29.0.3/apksigner verify --print-certs ../Camera-37.apk
+   ```
 
 5. 然後可以將產生的雜湊值與另一個來源的相同應用程式進行比對。 一些開發人員（例如 Signal）也會在其網站上 [展示 fingerprints](https://signal.org/android/apk)，您可以用先前產生的雜湊值與其比對。
 
-    ```bash
-    Signer #1 certificate DN: CN=GrapheneOS
-    Signer #1 certificate SHA-256 digest: 6436b155b917c2f9a9ed1d15c4993a5968ffabc94947c13f2aeee14b7b27ed59
-    Signer #1 certificate SHA-1 digest: 23e108677a2e1b1d6e6b056f3bb951df7ad5570c
-    Signer #1 certificate MD5 digest: dbbcd0cac71bd6fa2102a0297c6e0dd3
-    ```
+   ```bash
+   Signer #1 certificate DN: CN=GrapheneOS
+   Signer #1 certificate SHA-256 digest: 6436b155b917c2f9a9ed1d15c4993a5968ffabc94947c13f2aeee14b7b27ed59
+   Signer #1 certificate SHA-1 digest: 23e108677a2e1b1d6e6b056f3bb951df7ad5570c
+   Signer #1 certificate MD5 digest: dbbcd0cac71bd6fa2102a0297c6e0dd3
+   ```
 
 ## F-Droid
 

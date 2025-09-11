@@ -299,17 +299,6 @@ Se stai cercando maggiore **sicurezza**, dovresti sempre assicurarti di connette
 
 [Scopri di più :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
 
-#### Soluzioni ospitate autonomamente
-
-<div class="grid cards" markdown>
-
-- ![Logo di AdGuard Home](assets/img/dns/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns.md#adguard-home)
-- ![Logo di Pi-hole](assets/img/dns/pi-hole.svg){ .twemoji loading=lazy } [Pi-hole](dns.md#pi-hole)
-
-</div>
-
-[Scopri di più :material-arrow-right-drop-circle:](dns.md#self-hosted-dns-filtering)
-
 ### Servizi finanziari
 
 #### Servizi di mascheramento dei pagamenti

@@ -295,17 +295,6 @@ Diğerlerinin yanı sıra [Mullvad](https://mullvad.net/en/help/dns-over-https-a
 
 [DNS hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
 
-#### Self-hosted Çözümler
-
-<div class="grid cards" markdown>
-
-- ![AdGuard Home logosu](assets/img/dns/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns.md#adguard-home)
-- ![Pi-hole logo](assets/img/dns/pi-hole.svg){ .twemoji loading=lazy } [Pi-hole](dns.md#pi-hole)
-
-</div>
-
-[DNS hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](dns.md#self-hosted-dns-filtering)
-
 ### Finansal Hizmetler
 
 #### Ödeme Maskeleme Hizmetleri
@@ -317,7 +306,7 @@ Diğerlerinin yanı sıra [Mullvad](https://mullvad.net/en/help/dns-over-https-a
 
 </div>
 
-[Dns hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
+[DNS hakkında daha fazla bilgi edinin :material-arrow-right-drop-circle:](financial-services.md#payment-masking-services)
 
 #### Çevrimiçi Hediye Kartı Pazarları
 

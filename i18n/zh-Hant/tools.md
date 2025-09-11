@@ -299,17 +299,6 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
 [了解更多 :material-arrow-right-drop-circle:](dns.md#encrypted-dns-proxies)
 
-#### 自主託管方案
-
-<div class="grid cards" markdown>
-
-- ![AdGuard Home logo](assets/img/dns/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns.md#adguard-home)
-- ![Pi-hole logo](assets/img/dns/pi-hole.svg){ .twemoji loading=lazy } [Pi-hole](dns.md#pi-hole)
-
-</div>
-
-[了解更多 :material-arrow-right-drop-circle:](dns.md#self-hosted-dns-filtering)
-
 ### 金融服務
 
 #### 付款掩蔽服務

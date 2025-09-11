@@ -1,6 +1,6 @@
 ---
 title: Servidores de Correo Electrónico
-meta_title: "Correo Electrónico Autoalojado - Privacy Guides"
+meta_title: "Self-Hosting Email - Privacy Guides"
 icon: material/email
 description: Para nuestros lectores más técnicos, el autoalojamiento de tu propio correo electrónico puede proporcionar garantías adicionales de privacidad al tener el máximo control sobre tus datos.
 cover: email.webp
@@ -10,7 +10,7 @@ cover: email.webp
 
 - [:material-server-network: Proveedores de Servicios](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-Los administradores de sistemas avanzados pueden plantearse crear su propio servidor de correo electrónico. Los servidores de correo requieren atención y un mantenimiento continuo para mantener la seguridad y la fiabilidad de la entrega del correo. Además de las soluciones «todo en uno» que aparecen a continuación, hemos seleccionado algunos artículos que cubren un enfoque más manual:
+Advanced system administrators may consider setting up their own **email server**. Los servidores de correo requieren atención y un mantenimiento continuo para mantener la seguridad y la fiabilidad de la entrega del correo. Además de las soluciones «todo en uno» que aparecen a continuación, hemos seleccionado algunos artículos que cubren un enfoque más manual:
 
 - [Configurando un servidor de correo con OpenSMTPD, Dovecot y Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (2019)
 - [Cómo Ejecutar Tu Propio Servidor de Correo](https://www.c0ffee.net/blog/mail-server-guide) (Agosto 2017)
