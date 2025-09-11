@@ -4,7 +4,7 @@ icon: material/hand-coin
 description: Your buying habits are the holy grail of ad targeting, but you still have plenty of options when it comes to making payments privately.
 ---
 
-Data about your buying habits is considered the holy grail of ad targeting: your purchases can leak a veritable treasure trove of data about you. Helaas is het huidige financiële systeem anti-privacy by design, waardoor banken, andere bedrijven en overheden transacties gemakkelijk kunnen traceren. Toch heb je tal van opties als het gaat om het maken van betalingen privé.
+Data about your buying habits is considered the holy grail of ad targeting: Your purchases can leak a veritable treasure trove of data about you. Helaas is het huidige financiële systeem anti-privacy by design, waardoor banken, andere bedrijven en overheden transacties gemakkelijk kunnen traceren. Toch heb je tal van opties als het gaat om het maken van betalingen privé.
 
 ## Contant
 
@@ -18,7 +18,7 @@ Despite the above, cash is typically the best option when available.
 
 You can easily purchase gift cards and prepaid cards at most grocery stores and convenience stores with cash. Cadeaukaarten hebben meestal geen geen kosten, maar prepaidkaarten vaak wel, dus let goed op deze kosten en vervaldata. Some stores may ask to see your ID at checkout in an effort to reduce fraud.
 
-Cadeaubonnen hebben meestal limieten tot $ 200 per kaart, maar sommige bieden limieten tot $ 2.000 per kaart. Prepaidkaarten (bijv. van Visa of Mastercard) hebben meestal limieten tot $ 1.000 per kaart.
+Cadeaubonnen hebben meestal limieten tot $ 200 per kaart, maar sommige bieden limieten tot $ 2.000 per kaart. Prepaid cards (e.g. from Visa or Mastercard) usually have limits of up to $1,000 per card.
 
 Cadeaubonnen hebben het nadeel dat ze onderworpen zijn aan het winkelbeleid, dat vreselijke voorwaarden en beperkingen kan hebben. Sommige verkopers accepteren bijvoorbeeld niet uitsluitend betaling met cadeaubonnen, of ze kunnen de waarde van de kaart annuleren als ze je als een gebruiker met een hoog risico beschouwen. Zodra je een cadeaubon hebt, heeft de winkel een sterke mate van controle over dit krediet.
 
@@ -44,7 +44,7 @@ Dit zijn meestal goede opties voor online terugkerende betalingen/abonnementen, 
 
 ## Cryptocurrency
 
-Cryptocurrencies zijn een digitale vorm van valuta die is ontworpen om te werken zonder centrale autoriteiten zoals een overheid of bank. While *some* cryptocurrency projects can allow you to make private transactions online, many use a transparent blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly. Als zodanig raden we over het algemeen niet aan om cryptocurrency te gebruiken als een lange termijn opslag van waarde. Als je besluit cryptocurrency online te gebruiken, zorg er dan voor dat je vooraf volledig op de hoogte bent van de privacy-aspecten ervan, en investeer alleen bedragen die niet rampzalig zijn om te verliezen.
+Cryptocurrencies zijn een digitale vorm van valuta die is ontworpen om te werken zonder centrale autoriteiten zoals een overheid of bank. While *some* cryptocurrency projects can allow you to make private transactions online, many use a transparent blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly. Als zodanig raden we over het algemeen niet aan om cryptocurrency te gebruiken als een lange termijn opslag van waarde. If you decide to use cryptocurrency online, make sure you have a full understanding of its privacy aspects beforehand, and only purchase amounts which would not be disastrous to lose.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Let op</p>
@@ -73,7 +73,7 @@ Anonymous transactions on a transparent blockchain are *theoretically* possible,
 
 ### Wallet Bewaring
 
-With cryptocurrency there are two forms of wallets: custodial wallets and self-custody wallets. Custodial wallets worden beheerd door gecentraliseerde bedrijven/beurzen, waar de privésleutel voor jouw wallet in handen is van dat bedrijf, en je kunt er overal bij met een gewone gebruikersnaam en wachtwoord. Self-custody wallets are wallets where you control and manage the private keys to access it. Assuming you keep your wallet's private keys secured and backed up, self-custody wallets provide greater security and censorship-resistance over custodial wallets, because your cryptocurrency can't be stolen or frozen by a company with custody over your private keys. Sleutelbewaring is vooral belangrijk als het gaat om privacy-munten: Custodial wallets geven de exploitatiemaatschappij de mogelijkheid om jouw transacties te bekijken, waardoor de privacyvoordelen van die cryptocurrencies teniet worden gedaan.
+With cryptocurrency there are two forms of wallets: custodial wallets and self-custody wallets. Custodial wallets worden beheerd door gecentraliseerde bedrijven/beurzen, waar de privésleutel voor jouw wallet in handen is van dat bedrijf, en je kunt er overal bij met een gewone gebruikersnaam en wachtwoord. Self-custody wallets are wallets where you control and manage the private keys to access it. Assuming you keep your wallet's private keys secured and backed up, self-custody wallets provide greater security and censorship resistance over custodial wallets, because your cryptocurrency can't be stolen or frozen by a company with custody over your private keys. Sleutelbewaring is vooral belangrijk als het gaat om privacy-munten: Custodial wallets geven de exploitatiemaatschappij de mogelijkheid om jouw transacties te bekijken, waardoor de privacyvoordelen van die cryptocurrencies teniet worden gedaan.
 
 ### Aankoop
 
@@ -85,7 +85,7 @@ Als je voor deze route kiest, zorg er dan voor dat je Monero koopt op andere tij
 
 ## Aanvullende overwegingen
 
-Zorg ervoor dat je privacy in gedachten houdt wanneer je een betaling in persoon doet met contanten. Beveiligingscamera 's zijn alomtegenwoordig. Overweeg het dragen van onopvallende kleding en een gezichtsmasker (zoals een chirurgisch masker of N95). Meld je niet aan voor beloningsprogramma's en geef geen andere informatie over jezelf.
+When you're making a payment in person with cash, make sure to keep your in-person privacy in mind. Beveiligingscamera 's zijn alomtegenwoordig. Overweeg het dragen van onopvallende kleding en een gezichtsmasker (zoals een chirurgisch masker of N95). Meld je niet aan voor beloningsprogramma's en geef geen andere informatie over jezelf.
 
 Bij online aankopem, gebruik dan bij voorkeur [Tor](tor-overview.md). Veel handelaren staan echter geen aankopen bij Tor toe. U kunt overwegen een [aanbevolen VPN](../vpn.md) te gebruiken (betaald met contant geld, cadeaubond, of Monero), of het doen in een koffiewinkel of bibliotheek met gratis wifi. Als je een fysiek voorwerp bestelt dat geleverd moet worden, moet je een afleveradres opgeven. Overweeg een postvak, privépostvak of werkadres te gebruiken.
 

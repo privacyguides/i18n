@@ -4,7 +4,7 @@ icon: material/hand-coin
 description: Your buying habits are the holy grail of ad targeting, but you still have plenty of options when it comes to making payments privately.
 ---
 
-Data about your buying habits is considered the holy grail of ad targeting: your purchases can leak a veritable treasure trove of data about you. Infelizmente, o atual sistema financeiro, por conceção, é anti-privacidade, o que permite a bancos, a outras empresas e aos governos rastrear facilmente as suas transações. No entanto, há muitas opções para efetuar pagamentos com privacidade.
+Data about your buying habits is considered the holy grail of ad targeting: Your purchases can leak a veritable treasure trove of data about you. Infelizmente, o atual sistema financeiro, por conceção, é anti-privacidade, o que permite a bancos, a outras empresas e aos governos rastrear facilmente as suas transações. No entanto, há muitas opções para efetuar pagamentos com privacidade.
 
 ## Dinheiro
 
@@ -18,7 +18,7 @@ Despite the above, cash is typically the best option when available.
 
 You can easily purchase gift cards and prepaid cards at most grocery stores and convenience stores with cash. Os cartões-presente geralmente não têm associada uma taxa. Não é o caso dos cartões pré-pagos, que muitas vezes têm taxas e datas de validade, o que deve suscitar a sua atenção. Some stores may ask to see your ID at checkout in an effort to reduce fraud.
 
-Os cartões-presente têm geralmente limites de 200 dólares por cartão, podendo esses limites chegar aos 2 mil dólares por cartão. Prepaid cards (e.g.: from Visa or Mastercard) usually have limits of up to $1,000 per card.
+Os cartões-presente têm geralmente limites de 200 dólares por cartão, podendo esses limites chegar aos 2 mil dólares por cartão. Prepaid cards (e.g. from Visa or Mastercard) usually have limits of up to $1,000 per card.
 
 Os cartões de oferta têm a desvantagem de estarem sujeitos às políticas do comerciante, que podem ter condições e restrições terríveis. Por exemplo, alguns comerciantes não aceitam pagamentos exclusivamente em cartões de oferta ou podem mesmo cancelar o valor do cartão, se o considerarem um utilizador de alto risco. Quando se tem crédito comercial, o comerciante tem um forte grau de controlo sobre esse crédito.
 
@@ -44,7 +44,7 @@ Estes serviços tendem a ser boas opções para pagamentos recorrentes/assinatur
 
 ## Criptomoedas
 
-As criptomoedas são uma forma digital de moeda concebida para funcionar sem autoridades centrais, como um governo ou um banco. While *some* cryptocurrency projects can allow you to make private transactions online, many use a transparent blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly. Como tal, não recomendamos a utilização de criptomoeda como uma reserva de valor a longo prazo. Se decidir utilizar criptomoedas online, certifique-se de que conhece previamente todos os aspetos da sua política de privacidade e invista apenas em montantes que não signifiquem uma perda avultada.
+As criptomoedas são uma forma digital de moeda concebida para funcionar sem autoridades centrais, como um governo ou um banco. While *some* cryptocurrency projects can allow you to make private transactions online, many use a transparent blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly. Como tal, não recomendamos a utilização de criptomoeda como uma reserva de valor a longo prazo. If you decide to use cryptocurrency online, make sure you have a full understanding of its privacy aspects beforehand, and only purchase amounts which would not be disastrous to lose.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger</p>
@@ -73,7 +73,7 @@ Anonymous transactions on a transparent blockchain are *theoretically* possible,
 
 ### Custódia da carteira
 
-With cryptocurrency there are two forms of wallets: custodial wallets and self-custody wallets. As carteiras com custódia são operadas por empresas/casas de câmbio centralizadas, onde a chave privada da sua carteira é mantida por essa empresa, e pode aceder a ela em qualquer lugar, normalmente com um nome de utilizador e uma palavra-passe. Self-custody wallets are wallets where you control and manage the private keys to access it. Assuming you keep your wallet's private keys secured and backed up, self-custody wallets provide greater security and censorship-resistance over custodial wallets, because your cryptocurrency can't be stolen or frozen by a company with custody over your private keys. A custódia de chaves é especialmente importante quando se trata de moedas orientadas para a privacidade: As carteiras de custódia concedem à empresa operadora a capacidade de ver as suas transações, negando os benefícios de privacidade dessas criptomoedas.
+With cryptocurrency there are two forms of wallets: custodial wallets and self-custody wallets. As carteiras com custódia são operadas por empresas/casas de câmbio centralizadas, onde a chave privada da sua carteira é mantida por essa empresa, e pode aceder a ela em qualquer lugar, normalmente com um nome de utilizador e uma palavra-passe. Self-custody wallets are wallets where you control and manage the private keys to access it. Assuming you keep your wallet's private keys secured and backed up, self-custody wallets provide greater security and censorship resistance over custodial wallets, because your cryptocurrency can't be stolen or frozen by a company with custody over your private keys. A custódia de chaves é especialmente importante quando se trata de moedas orientadas para a privacidade: As carteiras de custódia concedem à empresa operadora a capacidade de ver as suas transações, negando os benefícios de privacidade dessas criptomoedas.
 
 ### Aquisição
 
@@ -85,7 +85,7 @@ Se optar por esta via, certifique-se de que compra Monero em alturas diferentes 
 
 ## Considerações adicionais
 
-Quando efetuar um pagamento presencial com dinheiro, não se esqueça de ter em conta a sua privacidade presencial. As câmaras de segurança são omnipresentes. Por esse motivo, considerar o uso de vestuário não distinto e de uma máscara facial (por exemplo, uma máscara cirúrgica ou N95) pode ser uma escolha prudente. Não se inscreva em programas de prémios nem forneça quaisquer outras informações sobre si.
+When you're making a payment in person with cash, make sure to keep your in-person privacy in mind. As câmaras de segurança são omnipresentes. Por esse motivo, considerar o uso de vestuário não distinto e de uma máscara facial (por exemplo, uma máscara cirúrgica ou N95) pode ser uma escolha prudente. Não se inscreva em programas de prémios nem forneça quaisquer outras informações sobre si.
 
 Ao comprar online, o ideal é fazê-lo através do browser [Tor](tor-overview.md). No entanto, muitos comerciantes não permitem compras com o Tor. Pode considerar a utilização de uma [VPN recomendada](../vpn.md) (paga com dinheiro, cartão de oferta ou Monero), ou efetuar a compra num café ou biblioteca com Wi-Fi gratuito. Se estiver a encomendar um artigo físico que tenha de ser entregue, terá de indicar um endereço de entrega. Deve considerar a utilização de uma caixa postal, de uma caixa de correio privada ou de um endereço profissional.
 

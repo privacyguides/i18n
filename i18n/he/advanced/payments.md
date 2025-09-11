@@ -4,7 +4,7 @@ icon: material/hand-coin
 description: Your buying habits are the holy grail of ad targeting, but you still have plenty of options when it comes to making payments privately.
 ---
 
-Data about your buying habits is considered the holy grail of ad targeting: your purchases can leak a veritable treasure trove of data about you. למרבה הצער, המערכת הפיננסית הנוכחית נוגדת פרטיות בעיצובה, ומאפשרת לבנקים, לחברות אחרות ולממשלות לעקוב בקלות אחר עסקאות. עם זאת, יש לך אפשרויות רבות בכל הנוגע לביצוע תשלומים באופן פרטי.
+Data about your buying habits is considered the holy grail of ad targeting: Your purchases can leak a veritable treasure trove of data about you. למרבה הצער, המערכת הפיננסית הנוכחית נוגדת פרטיות בעיצובה, ומאפשרת לבנקים, לחברות אחרות ולממשלות לעקוב בקלות אחר עסקאות. עם זאת, יש לך אפשרויות רבות בכל הנוגע לביצוע תשלומים באופן פרטי.
 
 ## מזומן
 
@@ -18,7 +18,7 @@ Despite the above, cash is typically the best option when available.
 
 You can easily purchase gift cards and prepaid cards at most grocery stores and convenience stores with cash. בכרטיסי מתנה בדרך כלל אין עמלה, אם כי לרוב יש בכרטיסים משולמים מראש, אז שימו לב היטב לעמלות ולתאריכי התפוגה הללו. Some stores may ask to see your ID at checkout in an effort to reduce fraud.
 
-לכרטיסי מתנה יש בדרך כלל מגבלות של עד $200 לכרטיס, אבל חלקם מציעים הגבלה של עד $2,000 לכרטיס. Prepaid cards (e.g.: from Visa or Mastercard) usually have limits of up to $1,000 per card.
+לכרטיסי מתנה יש בדרך כלל מגבלות של עד $200 לכרטיס, אבל חלקם מציעים הגבלה של עד $2,000 לכרטיס. Prepaid cards (e.g. from Visa or Mastercard) usually have limits of up to $1,000 per card.
 
 לכרטיסי מתנה יש את החיסרון שהם כפופים למדיניות הסוחר, שיכולה להיות לה תנאים והגבלות איומים. לדוגמה, סוחרים מסוימים אינם מקבלים תשלום בכרטיסי מתנה באופן בלעדי, או שהם עשויים לבטל את ערך הכרטיס אם הם מחשיבים אותך כמשתמש בסיכון גבוה. ברגע שיש לך אשראי סוחר, לסוחר יש מידה חזקה של שליטה על אשראי זה.
 
@@ -44,7 +44,7 @@ Prepaid cards usually don’t allow cash withdrawals from ATMs or “peer-to-pee
 
 ## מטבעות קריפטוגרפיים
 
-מטבעות קריפטוגרפיים הם מטבע דיגיטלי שנועד לעבוד ללא רשויות מרכזיות כמו ממשלה או בנק. While *some* cryptocurrency projects can allow you to make private transactions online, many use a transparent blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly. ככזה, אנו בדרך כלל לא ממליצים להשתמש במטבעות קריפטוגרפיים כמאגר ערך לטווח ארוך. אם תחליט להשתמש במטבעות קריפטוגרפיים באינטרנט, וודא שיש לך הבנה מלאה של היבטי הפרטיות שלו מראש, והשקיע רק סכומים שלא יהיה אסון להפסיד.
+מטבעות קריפטוגרפיים הם מטבע דיגיטלי שנועד לעבוד ללא רשויות מרכזיות כמו ממשלה או בנק. While *some* cryptocurrency projects can allow you to make private transactions online, many use a transparent blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly. ככזה, אנו בדרך כלל לא ממליצים להשתמש במטבעות קריפטוגרפיים כמאגר ערך לטווח ארוך. If you decide to use cryptocurrency online, make sure you have a full understanding of its privacy aspects beforehand, and only purchase amounts which would not be disastrous to lose.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger</p>
@@ -73,7 +73,7 @@ Anonymous transactions on a transparent blockchain are *theoretically* possible,
 
 ### משמורת ארנק
 
-With cryptocurrency there are two forms of wallets: custodial wallets and self-custody wallets. ארנקי משמורת מופעלים על ידי חברות/בורסות מרכזיות, כאשר המפתח הפרטי של הארנק שלך מוחזק על ידי אותה חברה, ואתה יכול לגשת אליהם בכל מקום בדרך כלל עם שם משתמש וסיסמה רגילים. Self-custody wallets are wallets where you control and manage the private keys to access it. Assuming you keep your wallet's private keys secured and backed up, self-custody wallets provide greater security and censorship-resistance over custodial wallets, because your cryptocurrency can't be stolen or frozen by a company with custody over your private keys. שמירת מפתח חשובה במיוחד כשמדובר במטבעות פרטיות: ארנקי משמורת מעניקים לחברה המפעילה את היכולת לצפות בעסקאות שלך, מה ששולל את יתרונות הפרטיות של אותם מטבעות קריפטוגרפיים.
+With cryptocurrency there are two forms of wallets: custodial wallets and self-custody wallets. ארנקי משמורת מופעלים על ידי חברות/בורסות מרכזיות, כאשר המפתח הפרטי של הארנק שלך מוחזק על ידי אותה חברה, ואתה יכול לגשת אליהם בכל מקום בדרך כלל עם שם משתמש וסיסמה רגילים. Self-custody wallets are wallets where you control and manage the private keys to access it. Assuming you keep your wallet's private keys secured and backed up, self-custody wallets provide greater security and censorship resistance over custodial wallets, because your cryptocurrency can't be stolen or frozen by a company with custody over your private keys. שמירת מפתח חשובה במיוחד כשמדובר במטבעות פרטיות: ארנקי משמורת מעניקים לחברה המפעילה את היכולת לצפות בעסקאות שלך, מה ששולל את יתרונות הפרטיות של אותם מטבעות קריפטוגרפיים.
 
 ### רכישה
 
@@ -85,7 +85,7 @@ With cryptocurrency there are two forms of wallets: custodial wallets and self-c
 
 ## שיקולים נוספים
 
-כאשר אתה מבצע תשלום באופן אישי במזומן, הקפד לשמור על הפרטיות האישית שלך בחשבון. מצלמות אבטחה נמצאות בכל מקום. שקול ללבוש בגדים לא מובחנים ומסיכת פנים (כגון מסכה כירורגית או N95). אל תירשם לתוכניות תגמולים ואל תספק מידע אחר על עצמך.
+When you're making a payment in person with cash, make sure to keep your in-person privacy in mind. מצלמות אבטחה נמצאות בכל מקום. שקול ללבוש בגדים לא מובחנים ומסיכת פנים (כגון מסכה כירורגית או N95). אל תירשם לתוכניות תגמולים ואל תספק מידע אחר על עצמך.
 
 בעת רכישה מקוונת, באופן אידיאלי עליך לעשות זאת דרך [Tor](tor-overview.md). עם זאת, סוחרים רבים אינם מאפשרים רכישות עם Tor. אתה יכול לשקול להשתמש ב-[VPN מומלץ ](../vpn.md) (בתשלום במזומן, כרטיס מתנה או Monero), או לבצע את הרכישה מבית קפה או ספרייה עם Wi-Fi בחינם. אם אתם מזמינים פריט פיזי שצריך לשלוח, תצטרכו לספק כתובת למשלוח. כדאי לשקול שימוש בתיבת דואר, תיבת דואר פרטית או כתובת עבודה.
 

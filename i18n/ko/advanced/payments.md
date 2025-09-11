@@ -4,7 +4,7 @@ icon: material/hand-coin
 description: Your buying habits are the holy grail of ad targeting, but you still have plenty of options when it comes to making payments privately.
 ---
 
-Data about your buying habits is considered the holy grail of ad targeting: your purchases can leak a veritable treasure trove of data about you. 안타깝게도 현재 금융 시스템은 설계상 프라이버시를 보호하기 어렵기 때문에 은행, 정부 또는 타 회사가 거래를 쉽게 추적할 수 있습니다. 다행이도 프라이버시를 유지하면서 결제하는 방식이 다수 존재합니다.
+Data about your buying habits is considered the holy grail of ad targeting: Your purchases can leak a veritable treasure trove of data about you. 안타깝게도 현재 금융 시스템은 설계상 프라이버시를 보호하기 어렵기 때문에 은행, 정부 또는 타 회사가 거래를 쉽게 추적할 수 있습니다. 다행이도 프라이버시를 유지하면서 결제하는 방식이 다수 존재합니다.
 
 ## 현금
 
@@ -18,7 +18,7 @@ Despite the above, cash is typically the best option when available.
 
 You can easily purchase gift cards and prepaid cards at most grocery stores and convenience stores with cash. 기프트 카드는 대부분 수수료가 없지만, 선불 카드는 있는 경우가 많습니다. 따라서 수수료와 만료일을 잘 살펴봐야 합니다. Some stores may ask to see your ID at checkout in an effort to reduce fraud.
 
-기프트 카드는 일반적으로 카드당 최대 $200이지만, 일부 기프트 카드는 카드당 $2,000까지 제공할 수 있습니다. Prepaid cards (e.g.: from Visa or Mastercard) usually have limits of up to $1,000 per card.
+기프트 카드는 일반적으로 카드당 최대 $200이지만, 일부 기프트 카드는 카드당 $2,000까지 제공할 수 있습니다. Prepaid cards (e.g. from Visa or Mastercard) usually have limits of up to $1,000 per card.
 
 기프트 카드의 단점으로는 사용할 때 사용처의 정책이 적용된다는 점입니다. 이 정책은 매우 제한적일 수 있습니다. 예시로, 몇 판매자들은 기프트 카드로만 결제하는 것을 허용하지 않거나, 고위험군 사용자라고 판단될 경우 기프트 카드를 임의로 취소할 수 있습니다. 판매자 포인트는 해당 판매자가 강력한 제어권을 지니고 있습니다.
 
@@ -44,7 +44,7 @@ These tend to be good options for recurring/subscription payments online, while 
 
 ## 암호화폐
 
-암호화폐는 정부 혹은 은행 등의 중앙 기관 없이도 작동하도록 설계된 디지털 화폐입니다. While *some* cryptocurrency projects can allow you to make private transactions online, many use a transparent blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly. As such, we generally don't recommend using cryptocurrency as a long-term store of value. If you decide to use cryptocurrency online, make sure you have a full understanding of its privacy aspects beforehand, and only invest amounts which would not be disastrous to lose.
+암호화폐는 정부 혹은 은행 등의 중앙 기관 없이도 작동하도록 설계된 디지털 화폐입니다. While *some* cryptocurrency projects can allow you to make private transactions online, many use a transparent blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly. As such, we generally don't recommend using cryptocurrency as a long-term store of value. If you decide to use cryptocurrency online, make sure you have a full understanding of its privacy aspects beforehand, and only purchase amounts which would not be disastrous to lose.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger</p>
@@ -73,7 +73,7 @@ Anonymous transactions on a transparent blockchain are *theoretically* possible,
 
 ### 지갑 유형
 
-With cryptocurrency there are two forms of wallets: custodial wallets and self-custody wallets. 수탁형 지갑은 업체/거래소에서 중앙 집중식으로 운영하는 방식입니다. 여러분의 지갑의 개인 키는 해당 업체에서 보관하고, (일반적으로) 여러분은 사용자명과 비밀번호만 입력하면 어디서든 접근할 수 있습니다. Self-custody wallets are wallets where you control and manage the private keys to access it. Assuming you keep your wallet's private keys secured and backed up, self-custody wallets provide greater security and censorship-resistance over custodial wallets, because your cryptocurrency can't be stolen or frozen by a company with custody over your private keys. 특히나 프라이버시 코인에서는 비수탁형 지갑을 사용해야 합니다. 수탁형 지갑을 사용할 경우 운영 업체가 사용자의 거래를 볼 수 있게 되므로, 프라이버시 코인의 이점이 사라지기 때문입니다.
+With cryptocurrency there are two forms of wallets: custodial wallets and self-custody wallets. 수탁형 지갑은 업체/거래소에서 중앙 집중식으로 운영하는 방식입니다. 여러분의 지갑의 개인 키는 해당 업체에서 보관하고, (일반적으로) 여러분은 사용자명과 비밀번호만 입력하면 어디서든 접근할 수 있습니다. Self-custody wallets are wallets where you control and manage the private keys to access it. Assuming you keep your wallet's private keys secured and backed up, self-custody wallets provide greater security and censorship resistance over custodial wallets, because your cryptocurrency can't be stolen or frozen by a company with custody over your private keys. 특히나 프라이버시 코인에서는 비수탁형 지갑을 사용해야 합니다. 수탁형 지갑을 사용할 경우 운영 업체가 사용자의 거래를 볼 수 있게 되므로, 프라이버시 코인의 이점이 사라지기 때문입니다.
 
 ### Acquisition
 
@@ -85,7 +85,7 @@ If you go this route, make sure to purchase Monero at different times and in dif
 
 ## 추가 고려 사항
 
-When you're making a payment in-person with cash, make sure to keep your in-person privacy in mind. CCTV는 어디에나 존재합니다. Consider wearing non-distinct clothing and a face mask (such as a surgical mask or N95). Don’t sign up for rewards programs or provide any other information about yourself.
+When you're making a payment in person with cash, make sure to keep your in-person privacy in mind. CCTV는 어디에나 존재합니다. Consider wearing non-distinct clothing and a face mask (such as a surgical mask or N95). Don’t sign up for rewards programs or provide any other information about yourself.
 
 온라인에서 결제할 때 [Tor](tor-overview.md)를 사용하는 것이 제일 이상적입니다. 하지만 대부분 판매자들은 Tor를 통해서 구매하는 것을 허용하지 않습니다. 현금, 기프트 카드 또는 모네로로 [권장하는 VPN](../vpn.md)을 구매 후 사용하거나 카페 또는 도서관의 무료 Wi-Fi를 통해서 결제할 수 있습니다. 만약 실물 상품을 주문해야 한다면, 배송 주소를 입력해야 합니다. 이럴 경우에는 우체국 또는 개인 사서함, 아니면 회사 주소를 이용할 수 있습니다.
 

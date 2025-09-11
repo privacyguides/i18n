@@ -4,7 +4,7 @@ icon: material/hand-coin
 description: Deine Kaufgewohnheiten sind der heilige Gral des Ad-Targeting, aber du hast immer noch viele Optionen, wenn es darum geht, private Zahlungen zu tätigen.
 ---
 
-Daten über dein Kaufverhalten gelten als der heilige Gral des Ad-Targeting: Deine Einkäufe können einen wahren Schatz an Daten über dich preisgeben. Leider ist das derzeitige Finanzsystem von vornherein datenschutzfeindlich gestaltet und ermöglicht es Banken, Unternehmen und Regierungen, Transaktionen relativ einfach nachzuvollziehen. Dennoch hast du viele Möglichkeiten, wenn es darum geht, Zahlungen privat zu leisten.
+Data about your buying habits is considered the holy grail of ad targeting: Your purchases can leak a veritable treasure trove of data about you. Leider ist das derzeitige Finanzsystem von vornherein datenschutzfeindlich gestaltet und ermöglicht es Banken, Unternehmen und Regierungen, Transaktionen relativ einfach nachzuvollziehen. Dennoch hast du viele Möglichkeiten, wenn es darum geht, Zahlungen privat zu leisten.
 
 ## Bargeld
 
@@ -18,7 +18,7 @@ Trotzdem ist Bargeld in der Regel die beste Option, wenn es verfügbar ist.
 
 Du kannst relativ einfach Geschenkkarten und Prepaid-Karten in den meisten Lebensmittelgeschäften und Verbrauchermärkten mit Bargeld kaufen. Geschenkkarten sind in der Regel gebührenfrei, bei Prepaid-Karten können Gebühren anfallen, daher solltest du auf mögliche Gebühren und das Ablaufdatum achten. Einige Geschäfte verlangen an der Kasse deinen Ausweis, um Betrug zu vermeiden.
 
-ssGeschenkkarten haben in der Regel Grenzen von bis zu 200 Us-Dollar pro Karte, aber einige bieten Grenzen von bis zu 2.000 Us-Dollar pro Karte. Prepaid-Karten (z. B. von Visa oder Mastercard) haben in der Regel ein Limit von bis zu 1.000 US-Dollar pro Karte.
+ssGeschenkkarten haben in der Regel Grenzen von bis zu 200 Us-Dollar pro Karte, aber einige bieten Grenzen von bis zu 2.000 Us-Dollar pro Karte. Prepaid cards (e.g. from Visa or Mastercard) usually have limits of up to $1,000 per card.
 
 Geschenkkarten haben den Nachteil, dass sie den Richtlinien des Händlers unterliegen, die mitunter sehr schlechte Bedingungen und Einschränkungen enthalten. Einige Händler akzeptieren beispielsweise keine Zahlungen ausschließlich mit Geschenkkarten oder können den Wert der Karte stornieren, wenn sie dich als hochriskanten Nutzer betrachten. Sobald du ein Guthaben hast, hat der Händler ein hohes Maß an Kontrolle über dieses Guthaben.
 
@@ -44,7 +44,7 @@ Diese sind in der Regel eine gute Option für wiederkehrende Online-Zahlungen/Ab
 
 ## Kryptowährung
 
-Kryptowährungen sind eine digitale Form von Währung, die ohne zentrale Behörden wie eine Regierung oder eine Bank funktionieren soll. Während *einige* Kryptowährungsprojekte es dir ermöglichen, private Transaktionen online durchzuführen, verwenden viele eine transparente Blockchain, die keine Privatsphäre für Transaktionen bietet. Kryptowährungen neigen auch dazu, sehr volatil zu sein, was bedeutet, dass sich ihr Wert schnell und erheblich ändern kann. Daher raten wir generell davon ab, Kryptowährungen als langfristige Wertaufbewahrungsmittel zu verwenden. Wenn du dich dazu entschließt, Kryptowährungen online zu verwenden, solltest du dich vorher genau über die Datenschutzaspekte informieren und nur Beträge investieren, deren Verlust nicht katastrophal wäre.
+Kryptowährungen sind eine digitale Form von Währung, die ohne zentrale Behörden wie eine Regierung oder eine Bank funktionieren soll. Während *einige* Kryptowährungsprojekte es dir ermöglichen, private Transaktionen online durchzuführen, verwenden viele eine transparente Blockchain, die keine Privatsphäre für Transaktionen bietet. Kryptowährungen neigen auch dazu, sehr volatil zu sein, was bedeutet, dass sich ihr Wert schnell und erheblich ändern kann. Daher raten wir generell davon ab, Kryptowährungen als langfristige Wertaufbewahrungsmittel zu verwenden. If you decide to use cryptocurrency online, make sure you have a full understanding of its privacy aspects beforehand, and only purchase amounts which would not be disastrous to lose.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Achtung</p>
@@ -73,7 +73,7 @@ Anonyme Transaktionen auf einer transparenten Blockchain sind *theoretisch* mög
 
 ### Wallet-Verwahrung
 
-Bei Kryptowährungen gibt es zwei Arten von Wallets: Custodial und Self-Custodial Wallets. Custodial Wallets werden von zentralen Unternehmen/Börsen betrieben, bei denen der private Schlüssel für deine Wallet im Besitz dieses Unternehmens ist, und du kannst von überall aus darauf zugreifen, normalerweise mit einem normalen Benutzernamen und Passwort. Self-Custodial Wallets sind Wallets, bei denen du die privaten Schlüssel kontrollierst und verwaltest, um auf sie zuzugreifen. Unter der Voraussetzung, dass du die privaten Schlüssel deiner Wallet sicher aufbewahrst und sicherst, bieten Self-Custodial Wallets mehr Sicherheit und Widerstand gegen Zensur als Custodial Wallets, da deine Kryptowährung nicht von einem Unternehen, das deine privaten Schlüssel verwahrt, gestohlen oder eingefroren werden kann. Die Verwahrung von Schlüsseln ist besonders wichtig, wenn es um Privacy-Coins geht: Custodial Wallets gewähren der Betreibergesellschaft die Möglichkeit, deine Transaktionen einzusehen, wodurch die Datenschutzvorteile dieser Kryptowährungen zunichte gemacht werden.
+Bei Kryptowährungen gibt es zwei Arten von Wallets: Custodial und Self-Custodial Wallets. Custodial Wallets werden von zentralen Unternehmen/Börsen betrieben, bei denen der private Schlüssel für deine Wallet im Besitz dieses Unternehmens ist, und du kannst von überall aus darauf zugreifen, normalerweise mit einem normalen Benutzernamen und Passwort. Self-Custodial Wallets sind Wallets, bei denen du die privaten Schlüssel kontrollierst und verwaltest, um auf sie zuzugreifen. Assuming you keep your wallet's private keys secured and backed up, self-custody wallets provide greater security and censorship resistance over custodial wallets, because your cryptocurrency can't be stolen or frozen by a company with custody over your private keys. Die Verwahrung von Schlüsseln ist besonders wichtig, wenn es um Privacy-Coins geht: Custodial Wallets gewähren der Betreibergesellschaft die Möglichkeit, deine Transaktionen einzusehen, wodurch die Datenschutzvorteile dieser Kryptowährungen zunichte gemacht werden.
 
 ### Beschaffung
 
@@ -85,7 +85,7 @@ Wenn du diesen Weg gehst, stelle sicher, dass du Monero zu verschiedenen Zeiten 
 
 ## Zusätzliche Überlegungen
 
-Wenn du persönlich mit Bargeld bezahlst, solltest du darauf achten, dass deine Privatsphäre gewahrt bleibt. Sicherheitskameras sind allgegenwärtig. Ziehe am besten das Tragen von unauffälliger Kleidung und einer Gesichtsmaske (z. B. einer chirurgischen Maske oder N95) in Betracht. Melde dich nicht für Prämienprogramme an und gebe keine anderen Informationen über dich selbst heraus.
+When you're making a payment in person with cash, make sure to keep your in-person privacy in mind. Sicherheitskameras sind allgegenwärtig. Ziehe am besten das Tragen von unauffälliger Kleidung und einer Gesichtsmaske (z. B. einer chirurgischen Maske oder N95) in Betracht. Melde dich nicht für Prämienprogramme an und gebe keine anderen Informationen über dich selbst heraus.
 
 Beim Online-Kauf solltest du dies im Idealfall über [Tor](tor-overview.md) tun. Viele Händler erlauben jedoch keine Einkäufe über Tor. Du kannst die Verwendung eines [empfohlenen VPN](../vpn.md) in Betracht ziehen (bezahlt mit Bargeld, Geschenkgutschein oder Monero) oder den Kauf in einem Café oder einer Bibliothek mit kostenfreiem WLAN. Wenn du einen physischen Artikel bestellst, der geliefert werden muss, musst du eine Lieferadresse angeben. Du solltest in Erwägung ziehen, ein Postfach, eine private Mailbox oder eine Arbeitsadresse zu verwenden.
 

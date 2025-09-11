@@ -4,7 +4,7 @@ icon: material/hand-coin
 description: Your buying habits are the holy grail of ad targeting, but you still have plenty of options when it comes to making payments privately.
 ---
 
-Data about your buying habits is considered the holy grail of ad targeting: your purchases can leak a veritable treasure trove of data about you. К сожалению, существующая финансовая система по своей сути является антиприватной, позволяя банкам, другим компаниям и правительствам легко отслеживать транзакции. Тем не менее у вас есть много вариантов осуществлять платежи приватно.
+Data about your buying habits is considered the holy grail of ad targeting: Your purchases can leak a veritable treasure trove of data about you. К сожалению, существующая финансовая система по своей сути является антиприватной, позволяя банкам, другим компаниям и правительствам легко отслеживать транзакции. Тем не менее у вас есть много вариантов осуществлять платежи приватно.
 
 ## Наличные
 
@@ -18,7 +18,7 @@ Despite the above, cash is typically the best option when available.
 
 You can easily purchase gift cards and prepaid cards at most grocery stores and convenience stores with cash. Подарочные карты обычно не имеют комиссии, предоплаченные - часто имеют, поэтому обращайте пристальное внимание на эти комиссии и сроки действия. Some stores may ask to see your ID at checkout in an effort to reduce fraud.
 
-Подарочные карты обычно имеют лимит до 200 долларов, но некоторые предлагают лимиты до 2 000 долларов. Prepaid cards (e.g.: from Visa or Mastercard) usually have limits of up to $1,000 per card.
+Подарочные карты обычно имеют лимит до 200 долларов, но некоторые предлагают лимиты до 2 000 долларов. Prepaid cards (e.g. from Visa or Mastercard) usually have limits of up to $1,000 per card.
 
 Подарочные карты имеют тот недостаток, что они зависят от политики продавцов, которые могут иметь ужасные условия использования и ограничения. Например, некоторые продавцы не принимают оплату исключительно подарочными картами или могут аннулировать стоимость карты, если сочтут вас пользователем с высоким уровнем риска. Получив торговый кредит, торговое предприятие имеет сильную степень контроля над этим кредитом.
 
@@ -44,7 +44,7 @@ Prepaid cards usually don’t allow cash withdrawals from ATMs or “peer-to-pee
 
 ## Криптовалюта
 
-Криптовалюты - это цифровая форма валюты, разработанная для работы без центральных органов власти, таких как правительство или банк. While *some* cryptocurrency projects can allow you to make private transactions online, many use a transparent blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly. Поэтому мы обычно не рекомендуем использовать криптовалюту в качестве долгосрочного хранилища финансов. Если вы решили использовать криптовалюту для онлайн-платежей, убедитесь, что вы заранее полностью изучили аспекты ее конфиденциальности, и вкладывайте только те суммы, потеря которых не будет катастрофической.
+Криптовалюты - это цифровая форма валюты, разработанная для работы без центральных органов власти, таких как правительство или банк. While *some* cryptocurrency projects can allow you to make private transactions online, many use a transparent blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly. Поэтому мы обычно не рекомендуем использовать криптовалюту в качестве долгосрочного хранилища финансов. If you decide to use cryptocurrency online, make sure you have a full understanding of its privacy aspects beforehand, and only purchase amounts which would not be disastrous to lose.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger</p>
@@ -73,7 +73,7 @@ Anonymous transactions on a transparent blockchain are *theoretically* possible,
 
 ### Хранилище кошелька
 
-With cryptocurrency there are two forms of wallets: custodial wallets and self-custody wallets. Кастодиальные кошельки управляются централизованными компаниями/биржами, где закрытый ключ для вашего кошелька хранится в этой компании, и вы можете получить к нему доступ в любом месте, как правило, с помощью обычного имени пользователя и пароля. Self-custody wallets are wallets where you control and manage the private keys to access it. Assuming you keep your wallet's private keys secured and backed up, self-custody wallets provide greater security and censorship-resistance over custodial wallets, because your cryptocurrency can't be stolen or frozen by a company with custody over your private keys. Хранилище ключей особенно важно, когда речь идет о монетах, обеспечивающих конфиденциальность: кастодиальные кошельки дают компании возможность просматривать ваши транзакции, что сводит на нет преимущества конфиденциальности этих криптовалют.
+With cryptocurrency there are two forms of wallets: custodial wallets and self-custody wallets. Кастодиальные кошельки управляются централизованными компаниями/биржами, где закрытый ключ для вашего кошелька хранится в этой компании, и вы можете получить к нему доступ в любом месте, как правило, с помощью обычного имени пользователя и пароля. Self-custody wallets are wallets where you control and manage the private keys to access it. Assuming you keep your wallet's private keys secured and backed up, self-custody wallets provide greater security and censorship resistance over custodial wallets, because your cryptocurrency can't be stolen or frozen by a company with custody over your private keys. Хранилище ключей особенно важно, когда речь идет о монетах, обеспечивающих конфиденциальность: кастодиальные кошельки дают компании возможность просматривать ваши транзакции, что сводит на нет преимущества конфиденциальности этих криптовалют.
 
 ### Приобретение
 
@@ -85,7 +85,7 @@ With cryptocurrency there are two forms of wallets: custodial wallets and self-c
 
 ## Дополнительные замечания
 
-Когда вы совершаете платеж наличными при вашем личном присутствии, не забывайте о конфиденциальности. Камеры наблюдения распространены повсеместно. Подумайте о том, чтобы надеть непримечательную одежду и маску для лица (например, хирургическую маску или N95). Не подписывайтесь на программы вознаграждений и не предоставляйте никакой другой информации о себе.
+When you're making a payment in person with cash, make sure to keep your in-person privacy in mind. Камеры наблюдения распространены повсеместно. Подумайте о том, чтобы надеть непримечательную одежду и маску для лица (например, хирургическую маску или N95). Не подписывайтесь на программы вознаграждений и не предоставляйте никакой другой информации о себе.
 
 При покупке онлайн, в идеале, следует делать это через [Tor](tor-overview.md). Однако многие продавцы не разрешают совершать покупки с помощью Tor. Вы можете рассмотреть возможность использования [рекомендованного VPN](../vpn.md) (оплачивается наличными, подарочной картой или Monero) или совершить покупку в кофейне или библиотеке с бесплатным Wi-Fi. Если вы заказываете физический товар, который необходимо доставить, вам необходимо указать адрес доставки. Вам следует рассмотреть возможность использования почтового постамата или рабочего адреса.
 

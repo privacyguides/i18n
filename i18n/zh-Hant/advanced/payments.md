@@ -4,7 +4,7 @@ icon: material/hand-coin
 description: 您的購買習慣是用於廣告定位的絕佳資料，但在私下付款時，您仍有許多選擇。
 ---
 
-Data about your buying habits is considered the holy grail of ad targeting: your purchases can leak a veritable treasure trove of data about you. 不幸的是，目前的金融體系在設計上不利隱私，使銀行、其他公司和政府能夠輕鬆追蹤交易。 然而，在私下付款方面，您有很多選擇。
+Data about your buying habits is considered the holy grail of ad targeting: Your purchases can leak a veritable treasure trove of data about you. 不幸的是，目前的金融體系在設計上不利隱私，使銀行、其他公司和政府能夠輕鬆追蹤交易。 然而，在私下付款方面，您有很多選擇。
 
 ## 現金
 
@@ -18,7 +18,7 @@ Despite the above, cash is typically the best option when available.
 
 You can easily purchase gift cards and prepaid cards at most grocery stores and convenience stores with cash. 禮品卡通常不收取費用，但預付卡通常會收取費用，因此請留意其費用和到期日期。 Some stores may ask to see your ID at checkout in an effort to reduce fraud.
 
-禮品卡通常每張上限為 200美元，有些禮品卡上限到 2,000 美元。 預付卡（例如： Visa 或 Mastercard ）通常卡片額度為 1,000 美元。
+禮品卡通常每張上限為 200美元，有些禮品卡上限到 2,000 美元。 Prepaid cards (e.g. from Visa or Mastercard) usually have limits of up to $1,000 per card.
 
 禮品卡的缺點是受商家政策的約束，這些政策可能有糟糕的條款和限制。 例如，有些商家不接受禮品卡付款，或者對高風險用戶取消禮品卡的價值。 一旦您拿了由商家信用擔保的禮品卡，商家就會對這筆金額有強烈的控制權。
 
@@ -44,7 +44,7 @@ Prepaid cards usually don’t allow cash withdrawals from ATMs or “peer-to-pee
 
 ## 加密貨幣
 
-加密貨幣是一種數位形式的貨幣，其設計上沒有中央機構如政府或銀行即自行運作。 While *some* cryptocurrency projects can allow you to make private transactions online, many use a transparent blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly. 因此，不建議加密貨幣作為長期價值儲存。 如果決定使用加密貨幣，請確保已充分了解其隱私，且投資金額不會變成災難性損失。
+加密貨幣是一種數位形式的貨幣，其設計上沒有中央機構如政府或銀行即自行運作。 While *some* cryptocurrency projects can allow you to make private transactions online, many use a transparent blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly. 因此，不建議加密貨幣作為長期價值儲存。 If you decide to use cryptocurrency online, make sure you have a full understanding of its privacy aspects beforehand, and only purchase amounts which would not be disastrous to lose.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger "危險"</p>
@@ -73,7 +73,7 @@ Anonymous transactions on a transparent blockchain are *theoretically* possible,
 
 ### 錢包保管
 
-With cryptocurrency there are two forms of wallets: custodial wallets and self-custody wallets. 託管錢包由集中式公司/交易所運營，錢包的私鑰由該公司持有，您可以使用用戶名和密碼從任何地方存取。 Self-custody wallets are wallets where you control and manage the private keys to access it. Assuming you keep your wallet's private keys secured and backed up, self-custody wallets provide greater security and censorship-resistance over custodial wallets, because your cryptocurrency can't be stolen or frozen by a company with custody over your private keys. 金鑰保管在隱私貨幣上尤其重要：保管錢包使運營公司能夠查看您的交易，否定了這些加密貨幣的隱私優勢。
+With cryptocurrency there are two forms of wallets: custodial wallets and self-custody wallets. 託管錢包由集中式公司/交易所運營，錢包的私鑰由該公司持有，您可以使用用戶名和密碼從任何地方存取。 Self-custody wallets are wallets where you control and manage the private keys to access it. Assuming you keep your wallet's private keys secured and backed up, self-custody wallets provide greater security and censorship resistance over custodial wallets, because your cryptocurrency can't be stolen or frozen by a company with custody over your private keys. 金鑰保管在隱私貨幣上尤其重要：保管錢包使運營公司能夠查看您的交易，否定了這些加密貨幣的隱私優勢。
 
 ### 取得
 
@@ -85,7 +85,7 @@ With cryptocurrency there are two forms of wallets: custodial wallets and self-c
 
 ## 其他注意事項
 
-使用現金現場付款時，請務必謹記現場隱私。 安全攝影機無處不在。 不妨考慮穿著不顯眼的衣服和口罩（如外科口罩或N95 ）。 請勿註冊獎勵計劃或提供自己的相關資訊。
+When you're making a payment in person with cash, make sure to keep your in-person privacy in mind. 安全攝影機無處不在。 不妨考慮穿著不顯眼的衣服和口罩（如外科口罩或N95 ）。 請勿註冊獎勵計劃或提供自己的相關資訊。
 
 在網上購買時，理想情況下應該透過 [Tor](tor-overview.md)進行。 但是，許多商家不允許使用 Tor 購買。 可以考慮使用 [推薦的 VPN](../vpn.md) （使用現金、禮品卡或 Monero 支付），或利用咖啡店或圖書館免費 Wi-Fi 購買。 如果你訂購的是實體物品，則需要提供送遞地址。 您應該考慮使用郵政信箱、私人郵箱或工作地址。
 

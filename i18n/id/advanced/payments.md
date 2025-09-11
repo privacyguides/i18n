@@ -4,7 +4,7 @@ icon: material/hand-coin
 description: Your buying habits are the holy grail of ad targeting, but you still have plenty of options when it comes to making payments privately.
 ---
 
-Data about your buying habits is considered the holy grail of ad targeting: your purchases can leak a veritable treasure trove of data about you. Sayangnya, sistem keuangan saat ini dirancang antiprivasi, sehingga memungkinkan bank, perusahaan lain, dan pemerintah untuk melacak transaksi dengan mudah. Namun demikian, Anda memiliki banyak pilihan untuk melakukan pembayaran secara pribadi.
+Data about your buying habits is considered the holy grail of ad targeting: Your purchases can leak a veritable treasure trove of data about you. Sayangnya, sistem keuangan saat ini dirancang antiprivasi, sehingga memungkinkan bank, perusahaan lain, dan pemerintah untuk melacak transaksi dengan mudah. Namun demikian, Anda memiliki banyak pilihan untuk melakukan pembayaran secara pribadi.
 
 ## Uang Tunai
 
@@ -18,7 +18,7 @@ Despite the above, cash is typically the best option when available.
 
 You can easily purchase gift cards and prepaid cards at most grocery stores and convenience stores with cash. Kartu hadiah biasanya tidak dikenakan biaya, meskipun kartu prabayar sering kali dikenakan biaya, jadi perhatikan baik-baik biaya dan tanggal kedaluwarsanya. Some stores may ask to see your ID at checkout in an effort to reduce fraud.
 
-Kartu hadiah biasanya memiliki batas hingga $200 per kartu, tetapi ada juga yang menawarkan batas hingga $2.000 per kartu. Prepaid cards (e.g.: from Visa or Mastercard) usually have limits of up to $1,000 per card.
+Kartu hadiah biasanya memiliki batas hingga $200 per kartu, tetapi ada juga yang menawarkan batas hingga $2.000 per kartu. Prepaid cards (e.g. from Visa or Mastercard) usually have limits of up to $1,000 per card.
 
 Kartu hadiah memiliki sisi negatif karena tunduk pada kebijakan merchant, yang dapat memiliki persyaratan dan batasan yang buruk. Misalnya, beberapa penjual tidak menerima pembayaran dengan kartu hadiah secara eksklusif, atau mereka mungkin membatalkan nilai kartu jika mereka menganggap Anda sebagai pengguna berisiko tinggi. Setelah Anda memiliki kredit penjual, penjual memiliki tingkat kontrol yang kuat atas kredit ini.
 
@@ -44,7 +44,7 @@ Ini cenderung menjadi pilihan yang baik untuk pembayaran berulang/langganan seca
 
 ## Mata Uang Kripto
 
-Mata uang kripto adalah bentuk mata uang digital yang dirancang untuk bekerja tanpa otoritas pusat seperti pemerintah atau bank. While *some* cryptocurrency projects can allow you to make private transactions online, many use a transparent blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly. Oleh karena itu, kami umumnya tidak menyarankan penggunaan mata uang kripto sebagai penyimpan nilai jangka panjang. Jika Anda memutuskan untuk menggunakan mata uang kripto secara daring, pastikan Anda memiliki pemahaman penuh mengenai aspek privasinya terlebih dahulu, dan hanya menginvestasikan jumlah yang tidak akan menyebabkan kerugian besar.
+Mata uang kripto adalah bentuk mata uang digital yang dirancang untuk bekerja tanpa otoritas pusat seperti pemerintah atau bank. While *some* cryptocurrency projects can allow you to make private transactions online, many use a transparent blockchain which does not provide any transaction privacy. Cryptocurrencies also tend to be very volatile assets, meaning their value can change rapidly and significantly. Oleh karena itu, kami umumnya tidak menyarankan penggunaan mata uang kripto sebagai penyimpan nilai jangka panjang. If you decide to use cryptocurrency online, make sure you have a full understanding of its privacy aspects beforehand, and only purchase amounts which would not be disastrous to lose.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger</p>
@@ -73,7 +73,7 @@ Anonymous transactions on a transparent blockchain are *theoretically* possible,
 
 ### Wallet Custody
 
-With cryptocurrency there are two forms of wallets: custodial wallets and self-custody wallets. Custodial wallets are operated by centralized companies/exchanges, where the private key for your wallet is held by that company, and you can access them anywhere typically with a regular username and password. Self-custody wallets are wallets where you control and manage the private keys to access it. Assuming you keep your wallet's private keys secured and backed up, self-custody wallets provide greater security and censorship-resistance over custodial wallets, because your cryptocurrency can't be stolen or frozen by a company with custody over your private keys. Key custody is especially important when it comes to privacy coins: Custodial wallets grant the operating company the ability to view your transactions, negating the privacy benefits of those cryptocurrencies.
+With cryptocurrency there are two forms of wallets: custodial wallets and self-custody wallets. Custodial wallets are operated by centralized companies/exchanges, where the private key for your wallet is held by that company, and you can access them anywhere typically with a regular username and password. Self-custody wallets are wallets where you control and manage the private keys to access it. Assuming you keep your wallet's private keys secured and backed up, self-custody wallets provide greater security and censorship resistance over custodial wallets, because your cryptocurrency can't be stolen or frozen by a company with custody over your private keys. Key custody is especially important when it comes to privacy coins: Custodial wallets grant the operating company the ability to view your transactions, negating the privacy benefits of those cryptocurrencies.
 
 ### Acquisition
 
@@ -85,7 +85,7 @@ If you go this route, make sure to purchase Monero at different times and in dif
 
 ## Additional Considerations
 
-When you're making a payment in-person with cash, make sure to keep your in-person privacy in mind. Security cameras are ubiquitous. Consider wearing non-distinct clothing and a face mask (such as a surgical mask or N95). Don’t sign up for rewards programs or provide any other information about yourself.
+When you're making a payment in person with cash, make sure to keep your in-person privacy in mind. Security cameras are ubiquitous. Consider wearing non-distinct clothing and a face mask (such as a surgical mask or N95). Don’t sign up for rewards programs or provide any other information about yourself.
 
 When purchasing online, ideally you should do so over [Tor](tor-overview.md). However, many merchants don’t allow purchases with Tor. You can consider using a [recommended VPN](../vpn.md) (paid for with cash, gift card, or Monero), or making the purchase from a coffee shop or library with free Wi-Fi. If you are ordering a physical item that needs to be delivered, you will need to provide a delivery address. You should consider using a PO box, private mailbox, or work address.
 
