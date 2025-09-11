@@ -343,7 +343,6 @@ Egy VPN értelmetlen, ha még megfelelő biztonságot sem tud nyújtani. We requ
 
 - Legerősebb Titkosítás: RSA-4096.
 - Optional quantum-resistant encryption.
-- Forward Secrecy.
 - Széleskürű és közzétett biztonsági felülvizsgálatok egy megbízható harmadik feles cégtől.
 - Bug-bounty programok és/vagy összehangolt sebezhetőség-közzétételi folyamat.
 - RAM-only VPN servers.

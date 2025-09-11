@@ -343,7 +343,6 @@ Een VPN is zinloos als het niet eens voldoende beveiliging kan bieden. We requir
 
 - Sterkste encryptie: RSA-4096.
 - Optional quantum-resistant encryption.
-- Forward Secrecy.
 - Uitgebreide gepubliceerde veiligheidscontroles door een gerenommeerde derde partij.
 - Programma's voor bug-bounty's en/of een gecoördineerd proces voor de openbaarmaking van kwetsbaarheden.
 - RAM-only VPN servers.

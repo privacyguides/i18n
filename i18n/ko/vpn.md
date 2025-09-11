@@ -343,7 +343,6 @@ Privacy Guides이 권장하는 제공자들은 최소한의 데이터만을 수�
 
 - 가장 강력한 암호화 방식으로 RSA-4096을 지원
 - Optional quantum-resistant encryption.
-- 순방향 비밀성 제공
 - 검증된 제 3자로부터 종합적인 보안 감사 결과가 게시됨
 - 버그 바운티 프로그램 또는 체계적인 취약점 공개 프로세스가 있음
 - RAM-only VPN servers.

@@ -343,7 +343,6 @@ Un VPN est inutile s'il ne peut même pas fournir une sécurité adéquate. Nous
 
 - Chiffrement le plus fort : RSA-4096.
 - Cryptographie post-quantique optionnelle
-- Confidentialité persistante.
 - Des audits de sécurité complets publiés par une société tierce réputée.
 - Des programmes de primes aux bugs et/ou un processus coordonné de divulgation des vulnérabilités.
 - Serveurs VPN à mémoire vive uniquement.

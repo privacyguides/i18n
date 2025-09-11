@@ -343,7 +343,6 @@ Uma VPN é inútil se não proporcionar uma segurança adequada. We require all 
 
 - Encriptação máxima: RSA-4096.
 - Optional quantum-resistant encryption.
-- Forward Secrecy.
 - Auditorias de segurança exaustivas publicadas por uma empresa terceira de renome.
 - Programas de recompensa por deteção de erros e/ou processos coordenados de divulgação de vulnerabilidades.
 - RAM-only VPN servers.

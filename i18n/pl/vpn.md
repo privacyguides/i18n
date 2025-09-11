@@ -342,7 +342,6 @@ VPN nie ma sensu, jeśli nie może nawet zapewnić odpowiedniego bezpieczeństwa
 
 - Najsilniejsze szyfrowanie: RSA-4096.
 - Opcjonalne szyfrowanie odporne na kwanty.
-- Utajnianie z wyprzedzeniem.
 - Kompleksowe audyty bezpieczeństwa publikowane przez renomowaną firmę zewnętrzną.
 - Programy Bug-Bounty i/lub skoordynowany proces ujawniania luk w zabezpieczeniach.
 - Serwery VPN działające tylko w RAM.

@@ -343,7 +343,6 @@ Una VPN è inutile se non è nemmeno in grado di fornire una sicurezza adeguata.
 
 - Crittografia più forte: RSA-4096.
 - Optional quantum-resistant encryption.
-- Segretezza in Avanti.
 - Controlli di sicurezza pubblicati e completi, da uno studio di terze parti affidabile.
 - Programmi di bug-bounty e/o un processo coordinato di divulgazione delle vulnerabilità.
 - RAM-only VPN servers.

@@ -343,7 +343,6 @@ Ein VPN ist sinnlos, wenn es nicht einmal angemessene Sicherheit bieten kann. Wi
 
 - Stärkste Verschlüsselung: RSA-4096.
 - Optionale quantenresistente Verschlüsselung.
-- Forward Secrecy (vorwärts gerichtete Geheimhaltung).
 - Umfassende veröffentlichte Sicherheitsaudits durch ein angesehenes Drittunternehmen.
 - Bug-Bounty-Programme und/oder ein koordiniertes Verfahren zur Offenlegung von Sicherheitslücken.
 - VPN-Server die nur über RAM laufen.

@@ -344,7 +344,6 @@ Uma VPN é inútil se não puder fornecer nem mesmo a segurança adequada. Exigi
 
 - Criptografia Mais Forte: RSA-4096.
 - Criptografia *quantum-resistant* opcional.
-- Sigilo de encaminhamento.
 - Auditorias abrangentes de segurança publicadas por uma empresa terceirizada de boa reputação.
 - Programas de recompensa por bugs e/ou um processo coordenado de divulgação de vulnerabilidades.
 - Servidores VPN somente com RAM.

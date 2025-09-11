@@ -343,7 +343,6 @@ VPN tidak ada gunanya jika tidak bisa menyediakan keamanan yang memadai. We requ
 
 - Enkripsi terkuat: RSA-4096.
 - Optional quantum-resistant encryption.
-- Forward Secrecy.
 - Audit keamanan yang dipublikasikan secara komprehensif dari perusahaan pihak ketiga yang memiliki reputasi baik.
 - Program bug-bounty dan/atau proses pengungkapan kerentanan yang terkoordinasi.
 - RAM-only VPN servers.

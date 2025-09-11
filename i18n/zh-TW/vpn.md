@@ -343,7 +343,6 @@ We require all our recommended VPN providers to provide standard configuration f
 
 - 最強加密：RSA-4096。
 - (可選) 抗量子加密演算法。
-- 前向保密。
 - 由信譽良好的第三方公司執行公佈的全面安全審計。
 - 漏洞獎勵計劃 和/或 協調漏洞披露過程。
 - 僅使用 RAM 的 VPN 伺服器。

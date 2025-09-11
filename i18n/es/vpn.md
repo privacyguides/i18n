@@ -345,7 +345,6 @@ Una VPN no tiene sentido si ni siquiera puede proporcionar una seguridad adecuad
 
 - Cifrado más fuerte: RSA-4096.
 - Cifrado opcional de resistencia cuántica.
-- Secreto Hacia Adelante.
 - Auditorías de seguridad exhaustivas publicadas por una empresa externa de prestigio.
 - Programas de recompensa de errores y/o un proceso coordinado de divulgación de vulnerabilidades.
 - Servidores VPN solo RAM.
