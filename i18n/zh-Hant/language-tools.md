@@ -12,7 +12,9 @@ cover: language-tools.webp
 
 輸入到文法、拼寫和樣式檢查器以及翻譯服務的文字可能包含敏感資訊，這些資訊可能無限期地儲存在伺服器上，並被出售給第三方。 The language tools listed on this page do not store your submitted text on a server and can be self-hosted and used offline for maximum control of your data.
 
-## LanguageTool
+## Grammar & Spelling
+
+### LanguageTool
 
 <div class="admonition recommendation" markdown>
 
@@ -42,6 +44,26 @@ cover: language-tools.webp
 </div>
 
 LanguageTool 提供與多種 [辦公室套件](https://languagetool.org/services#text_editors) 及 [電子郵件客戶端](https://languagetool.org/services#mail_clients) 的整合。
+
+## Translation Tools
+
+### LibreTranslate
+
+<div class="admonition recommendation" markdown>
+
+![LibreTranslate logo](assets/img/language-tools/libretranslate.png){ align=right }
+
+**LibreTranslate** is a free and open-source machine translation web interface and API server. It uses [Argos Translate](https://github.com/argosopentech/argos-translate) models on the backend for translations.
+
+[:octicons-home-16: Homepage](https://libretranslate.com){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/LibreTranslate/LibreTranslate#mirrors){ .card-link title="Public Instances" }
+[:octicons-code-16:](https://github.com/LibreTranslate/LibreTranslate){ .card-link title="Source Code" }
+
+</div>
+
+You can use LibreTranslate through a number of public instances, with some that offer a [Tor](tor.md) onion service or an [I2P](alternative-networks.md#i2p-the-invisible-internet-project) eepsite. You can also host the software yourself for maximum control over the text submitted for translation.
+
+We use a self-hosted instance of LibreTranslate to automatically translate posts on our [forum](https://discuss.privacyguides.net) to multiple languages.
 
 ## 標準
 

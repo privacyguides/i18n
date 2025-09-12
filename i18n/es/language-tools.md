@@ -12,7 +12,9 @@ cover: language-tools.webp
 
 El texto introducido en los correctores gramaticales, ortográficos y de estilo, así como en los servicios de traducción, puede contener información sensible que puede ser almacenada en sus servidores por tiempo indefinido y vendida a terceros. Las herramientas lingüísticas enumeradas en esta página no almacenan el texto enviado en un servidor y pueden autoalojarse y utilizarse sin conexión para tener el máximo control de tus datos.
 
-## LanguageTool
+## Grammar & Spelling
+
+### LanguageTool
 
 <div class="admonition recommendation" markdown>
 
@@ -42,6 +44,26 @@ El texto introducido en los correctores gramaticales, ortográficos y de estilo,
 </div>
 
 LanguageTool ofrece integración con diversos [paquetes ofimáticos](https://languagetool.org/services#text_editors) y [clientes de correo electrónico](https://languagetool.org/services#mail_clients).
+
+## Translation Tools
+
+### LibreTranslate
+
+<div class="admonition recommendation" markdown>
+
+![LibreTranslate logo](assets/img/language-tools/libretranslate.png){ align=right }
+
+**LibreTranslate** is a free and open-source machine translation web interface and API server. It uses [Argos Translate](https://github.com/argosopentech/argos-translate) models on the backend for translations.
+
+[:octicons-home-16: Homepage](https://libretranslate.com){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/LibreTranslate/LibreTranslate#mirrors){ .card-link title="Public Instances" }
+[:octicons-code-16:](https://github.com/LibreTranslate/LibreTranslate){ .card-link title="Source Code" }
+
+</div>
+
+You can use LibreTranslate through a number of public instances, with some that offer a [Tor](tor.md) onion service or an [I2P](alternative-networks.md#i2p-the-invisible-internet-project) eepsite. You can also host the software yourself for maximum control over the text submitted for translation.
+
+We use a self-hosted instance of LibreTranslate to automatically translate posts on our [forum](https://discuss.privacyguides.net) to multiple languages.
 
 ## Criterios
 
