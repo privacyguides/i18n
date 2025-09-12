@@ -560,13 +560,14 @@ Pour chiffre le disque de votre système d'exploitation, nous vous recommandons 
 
 <div class="grid cards" markdown>
 
-- ![Logo de Bitwarden](assets/img/password-management/bitwarden.svg){ .twemoji loading=lazy } [Bitwarden](passwords.md#bitwarden)
-- ![Logo de Proton Pass](assets/img/password-management/protonpass.svg){ .twemoji loading=lazy } [Proton Pass](passwords.md#proton-pass)
-- ![Logo de 1Password](assets/img/password-management/1password.svg){ .twemoji loading=lazy } [1Password](passwords.md#1password)
-- ![Logo de Psono](assets/img/password-management/psono.svg){ .twemoji loading=lazy } [Psono](passwords.md#psono)
-- ![Logo de KeePassXC](assets/img/password-management/keepassxc.svg){ .twemoji loading=lazy } [KeePassXC](passwords.md#keepassxc)
-- ![Logo de KeePassDX](assets/img/password-management/keepassdx.svg){ .twemoji loading=lazy } [KeePassDX (Android)](passwords.md#keepassdx-android)
-- ![Logo de Gopass](assets/img/password-management/gopass.svg){ .twemoji loading=lazy } [Gopass (en ligne de commande)](passwords.md#gopass-cli)
+- ![Bitwarden logo](assets/img/password-management/bitwarden.svg){ .twemoji loading=lazy } [Bitwarden](passwords.md#bitwarden)
+- ![Proton Pass logo](assets/img/password-management/protonpass.svg){ .twemoji loading=lazy } [Proton Pass](passwords.md#proton-pass)
+- ![1Password logo](assets/img/password-management/1password.svg){ .twemoji loading=lazy } [1Password](passwords.md#1password)
+- ![Psono logo](assets/img/password-management/psono.svg){ .twemoji loading=lazy } [Psono](passwords.md#psono)
+- ![KeePassXC logo](assets/img/password-management/keepassxc.svg){ .twemoji loading=lazy } [KeePassXC](passwords.md#keepassxc)
+- ![KeePassDX logo](assets/img/password-management/keepassdx.svg){ .twemoji loading=lazy } [KeePassDX (Android)](passwords.md#keepassdx-android)
+- ![KeePassium logo](assets/img/password-management/keepassium.svg){ .twemoji loading=lazy } [KeePassium (iOS & macOS)](passwords.md#keepassium-ios-macos)
+- ![Gopass logo](assets/img/password-management/gopass.svg){ .twemoji loading=lazy } [Gopass (CLI)](passwords.md#gopass-cli)
 
 </div>
 

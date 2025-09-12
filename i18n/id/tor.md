@@ -29,7 +29,7 @@ schema:
 - [:material-eye-outline: Pengawasan Massal](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-close-outline: Penyensoran](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
 
-**Tor** is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individu dan organisasi juga dapat berbagi informasi melalui jaringan Tor dengan "layanan tersembunyi .onion" tanpa mengorbankan privasi mereka. Karena lalu lintas Tor sulit diblokir dan dilacak, Tor merupakan alat pengelabuan sensor yang efektif.
+**Tor** is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Individu dan organisasi juga dapat berbagi informasi melalui jaringan Tor dengan ".onion layanan tersembunyi " tanpa mengorbankan privasi mereka. Karena lalu lintas Tor sulit diblokir dan dilacak, Tor merupakan alat pengelabuan sensor yang efektif.
 
 [Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
 
@@ -74,9 +74,9 @@ If more complete anonymity is paramount to your situation, you should **only** b
 </div>
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">Bahaya</p>
 
-Anda sebaiknya **jangan pernah** memasang ekstensi tambahan apa pun pada Tor Browser atau menyunting pengaturan `about:config`, termasuk yang kami sarankan untuk Firefox. Ekstensi browser dan pengaturan nonstandar membuat Anda menonjol dari orang lain di jaringan Tor, sehingga membuat peramban Anda lebih mudah untuk [disidik jari](https://support.torproject.org/glossary/browser-fingerprinting).
+Anda sebaiknya **jangan pernah** memasang ekstensi tambahan apa pun pada Tor Browser atau menyunting pengaturan `about:config`, termasuk yang kami sarankan untuk Firefox. Ekstensi browser dan pengaturan nonstandar membuat Anda menonjol dari orang lain di jaringan Tor, sehingga membuat peramban Anda lebih mudah untuk [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
 
 </div>
 

@@ -50,14 +50,14 @@
 *[JNI]: Antarmuka Asli Java
 *[KYC]: Kenali Pelanggan Anda
 *[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-*[LLM]: Large Language Models (AI models such as ChatGPT)
+*[LLM]: Large Language Models (AI models seperti ChatGPT)
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
 *[MAC]: Kontrol Akses Media
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Pengidentifikasi Peralatan Seluler
 *[MFA]: Autentikasi Multifaktor
-*[NVMe]: Nonvolatile Memory Express
-*[NAT]: Network address translation
+*[NVMe]: Nonvolatille Memory Express
+*[NAT]: Network Address Translation
 *[NAT-PMP]: NAT Port Mapping Protocol
 *[NTP]: Protokol Waktu Jaringan
 *[OCI]: Inisiatif Kontainer Terbuka
@@ -89,7 +89,7 @@
 *[SUID]: Set Owner User ID
 *[SaaS]: Perangkat lunak sebagai layanan (perangkat lunak awan)
 *[SoC]: Sistem pada Chip
-*[SSO]: Single sign-on
+*[SSO]: Single Sign-On
 *[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
 *[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
 *[TCP]: Protokol Kontrol Transmisi

@@ -371,7 +371,7 @@ Dengan penyedia VPN yang kami rekomendasikan, kami ingin melihat pemasaran yang 
 
 Tidak boleh melakukan pemasaran yang tidak bertanggung jawab:
 
-- Menjamin perlindungan anonimitas 100%. Ketika seseorang membuat klaim bahwa sesuatu itu 100%, itu berarti tidak ada kepastian untuk gagal. Kami tahu bahwa orang dapat dengan mudah menyamarkan nama mereka dengan beberapa cara, misalnya:
+- Menjamin perlindungan anonimitas 100%. Ketika seseorang membuat klaim bahwa sesuatu itu 100%, itu berarti tidak ada kepastian untuk gagal. Kami tahu bahwa orang dapat dengan mudah menyamarkan nama mereka dengan beberapa cara, misalnya.:
     - Reusing personal information (e.g., email accounts, unique pseudonyms, etc.) that they accessed without anonymity software (Tor, VPN, etc.)
     - [Sidik jari peramban](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 - Klaim bahwa VPN sirkuit tunggal "lebih anonim" daripada Tor, yang merupakan sirkuit tiga atau lebih loncatan yang secara teratur berubah.
@@ -382,7 +382,7 @@ Tidak boleh melakukan pemasaran yang tidak bertanggung jawab:
 Pemasaran yang bertanggung jawab yang mendidik dan bermanfaat bagi konsumen dapat mencakup:
 
 - Perbandingan yang akurat dengan kapan [Tor](tor.md) harus digunakan sebagai gantinya.
-- Ketersediaan situs web penyedia VPN melalui [layanan .onion](https://id.wikipedia.org/wiki/.onion)
+- Ketersediaan situs web penyedia VPN melalui [layanan .onion](https://id.wikipedia.org/wiki/.onion).
 
 ### Fungsionalitas Tambahan
 
