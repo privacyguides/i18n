@@ -4,7 +4,7 @@ icon: material/hand-coin
 description: Tus hábitos de compra son el santo grial de la focalización publicitaria, pero tienes muchas opciones a la hora de realizar pagos de forma privada.
 ---
 
-Data about your buying habits is considered the holy grail of ad targeting: Your purchases can leak a veritable treasure trove of data about you. Desgraciadamente, el sistema financiero actual es contrario a la privacidad por su propio diseño, ya que permite a los bancos, a otras empresas y a los gobiernos rastrear fácilmente las transacciones. No obstante, tienes muchas opciones a la hora de realizar pagos de forma privada.
+Los datos sobre tus hábitos de compra se consideran el santo grial de la estrategia publicitaria: tus compras pueden revelar un auténtico caudal de información sobre ti. Desgraciadamente, el sistema financiero actual es contrario a la privacidad por su propio diseño, ya que permite a los bancos, a otras empresas y a los gobiernos rastrear fácilmente las transacciones. No obstante, tienes muchas opciones a la hora de realizar pagos de forma privada.
 
 ## Efectivo
 
@@ -18,7 +18,7 @@ A pesar de lo anterior, el efectivo suele ser la mejor opción cuando está disp
 
 Puedes comprar fácilmente tarjetas regalo y tarjetas prepago en la mayoría de los supermercados y tiendas de conveniencia con dinero en efectivo. Las tarjetas regalo no suelen tener comisión, aunque las de prepago a menudo sí, así que presta mucha atención a estas comisiones y a las fechas de caducidad. Algunas tiendas pueden pedirte el DNI en la caja para intentar reducir el fraude.
 
-Las tarjetas regalo suelen tener límites de hasta 200 $ por tarjeta, pero algunas ofrecen límites de hasta 2.000 $ por tarjeta. Prepaid cards (e.g. from Visa or Mastercard) usually have limits of up to $1,000 per card.
+Las tarjetas regalo suelen tener límites de hasta 200 $ por tarjeta, pero algunas ofrecen límites de hasta 2.000 $ por tarjeta. Las tarjetas prepago (por ejemplo, de Visa o Mastercard) normalmente tienen límites de hasta 1.000 $ por tarjeta.
 
 Las tarjetas regalo tienen el inconveniente de estar sujetas a las políticas de los comercios, que pueden tener terribles condiciones y restricciones. Por ejemplo, algunos comercios no aceptan exclusivamente el pago con tarjetas regalo, o pueden anular el valor de la tarjeta si consideran que eres un usuario de alto riesgo. Una vez que se dispone de crédito comercial, el comerciante tiene un alto grado de control sobre este crédito.
 
@@ -44,7 +44,7 @@ Estas suelen ser buenas opciones para pagos recurrentes o por suscripción en l�
 
 ## Criptomonedas
 
-Las criptomonedas son una forma digital de moneda diseñada para funcionar sin autoridades centrales como un gobierno o un banco. Aunque *algunos* proyectos de criptomoneda permiten realizar transacciones privadas en línea, muchos utilizan una blockchain transparente que no proporciona ninguna privacidad a las transacciones. Las criptomonedas también tienden a ser activos muy volátiles, lo que significa que su valor puede cambiar rápida y significativamente. Por ello, en general no recomendamos utilizar criptomonedas como depósito de valor a largo plazo. If you decide to use cryptocurrency online, make sure you have a full understanding of its privacy aspects beforehand, and only purchase amounts which would not be disastrous to lose.
+Las criptomonedas son una forma digital de moneda diseñada para funcionar sin autoridades centrales como un gobierno o un banco. Aunque *algunos* proyectos de criptomoneda permiten realizar transacciones privadas en línea, muchos utilizan una blockchain transparente que no proporciona ninguna privacidad a las transacciones. Las criptomonedas también tienden a ser activos muy volátiles, lo que significa que su valor puede cambiar rápida y significativamente. Por ello, en general no recomendamos utilizar criptomonedas como depósito de valor a largo plazo. Si decides utilizar criptomonedas en línea, asegúrate de comprender completamente sus aspectos relacionados con la privacidad antes de hacerlo y solo compra cantidades cuya pérdida no te suponga un desastre.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Peligro</p>
@@ -73,7 +73,7 @@ Las transacciones anónimas en una blockchain transparente son *teóricamente* p
 
 ### Custodia de Carteras
 
-En el caso de las criptomonedas existen dos tipos de monederos: los monederos de custodia y los monederos de autocustodia. Los monederos de custodia son gestionados por empresas o plataformas de intercambio centralizadas, en las que la clave privada de tu monedero está en manos de dicha empresa, y a los que puedes acceder desde cualquier lugar, normalmente con un nombre de usuario y una contraseña cualquiera. Los monederos de autocustodia son monederos en los que tú controlas y gestionas las claves privadas para acceder a ellos. Assuming you keep your wallet's private keys secured and backed up, self-custody wallets provide greater security and censorship resistance over custodial wallets, because your cryptocurrency can't be stolen or frozen by a company with custody over your private keys. La custodia de las claves es especialmente importante cuando se trata de monedas de privacidad: los monederos de custodia permiten a la empresa operadora ver tus transacciones, lo que anula las ventajas de privacidad de esas criptomonedas.
+En el caso de las criptomonedas existen dos tipos de monederos: los monederos de custodia y los monederos de autocustodia. Los monederos de custodia son gestionados por empresas o plataformas de intercambio centralizadas, en las que la clave privada de tu monedero está en manos de dicha empresa, y a los que puedes acceder desde cualquier lugar, normalmente con un nombre de usuario y una contraseña cualquiera. Los monederos de autocustodia son monederos en los que tú controlas y gestionas las claves privadas para acceder a ellos. Asumiendo que mantienes las claves privadas de tu monedero seguras y con copias de seguridad, los monederos de autocustodia proporcionan mayor seguridad y resistencia a la censura que los monederos de custodia, porque tus criptomonedas no pueden ser robadas o congeladas por una empresa que tenga la custodia de tus claves privadas. La custodia de las claves es especialmente importante cuando se trata de monedas de privacidad: los monederos de custodia permiten a la empresa operadora ver tus transacciones, lo que anula las ventajas de privacidad de esas criptomonedas.
 
 ### Adquisición
 
@@ -85,7 +85,7 @@ Si sigues este camino, asegúrate de comprar Monero en momentos diferentes y en 
 
 ## Consideraciones Adicionales
 
-When you're making a payment in person with cash, make sure to keep your in-person privacy in mind. Las cámaras de seguridad son omnipresentes. Considere usar ropa discreta y una mascarilla (como una mascarilla quirúrgica o una N95). No te inscribas en programas de recompensas ni facilites ninguna otra información sobre ti.
+Cuando hagas un pago en persona con efectivo, asegúrate de tener en cuenta tu privacidad en persona. Las cámaras de seguridad son omnipresentes. Considere usar ropa discreta y una mascarilla (como una mascarilla quirúrgica o una N95). No te inscribas en programas de recompensas ni facilites ninguna otra información sobre ti.
 
 Al comprar en línea, lo ideal sería que lo hicieras a través de [Tor](tor-overview.md). Sin embargo, muchos comerciantes no permiten las compras con Tor. Puedes considerar utilizar una [VPN recomendada](../vpn.md) (pagada con dinero en efectivo, tarjeta regalo o Monero), o hacer la compra desde una cafetería o biblioteca con Wi-Fi gratuito. Si vas a pedir un artículo físico que necesita ser entregado, tendrás que facilitar una dirección de entrega. Considera la posibilidad de utilizar un apartado de correos, un buzón privado o la dirección de tu trabajo.
 
