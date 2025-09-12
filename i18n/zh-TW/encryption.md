@@ -1,5 +1,5 @@
 ---
-meta_title: "推薦的加密軟體： VeraCrypt, Cryptomat, PicoCrypt 和 OpenPGP - Privacy Guides"
+meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, and OpenPGP - Privacy Guides"
 title: "加密軟體"
 icon: material/file-lock
 description: 數據加密是控制誰可以訪問它的唯一方法。 這些工具允許您加密電子郵件和任何其他檔案。
@@ -52,35 +52,6 @@ Cryptomator is free to use on all desktop platforms, as well as on iOS in "read 
 一些 Cryptomator 加密程式庫 [已被Cure53審核](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44) 。 稽核程式庫的範圍包括： [cryptolib](https://github.com/cryptomator/cryptolib)、 [cryptofs](https://github.com/cryptomator/cryptofs)、 [siv-mode](https://github.com/cryptomator/siv-mode) 和 [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor)。 審計並未包含[cryptolib-swift](https://github.com/cryptomator/cryptolib-swift)它是 Cryptomator 運用在 iOS 程式庫。
 
 Cryptomator 的文件詳細介紹它的預期[安全目標](https://docs.cryptomator.org/en/latest/security/security-target)，[安全架構](https:/ /docs.cryptomator.org/en/latest/security/architecture)和[最佳實踐](https://docs.cryptomator.org/en/latest/security/best-practices) 以供更詳細的使用。
-
-### Picocrypt (檔案)
-
-<small>防護下列威脅：</small>
-
-- [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
-
-<div class="admonition recommendation" markdown>
-
-![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ align=right }
-
-**Picocrypt** 是一個小而簡單的加密工具，提供現代加密。 Picocrypt 使用安全的 XChaCha20 密碼和 Argon2id 金鑰派生功能來提供高級別的安全性。 它使用 Go 標準x/crypto 模塊作為其加密功能。
-
-[:octicons-repo-16: Repository](https://github.com/Picocrypt/Picocrypt#readme){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/Picocrypt/Picocrypt){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title="Contribute" }
-
-<details class="downloads" markdown>
-<summary>下載</summary>
-
-- [:fontawesome-brands-windows: Windows](https://github.com/Picocrypt/Picocrypt/releases)
-- [:simple-apple: macOS](https://github.com/Picocrypt/Picocrypt/releases)
-- [:simple-linux: Linux](https://github.com/Picocrypt/Picocrypt/releases)
-
-</details>
-
-</div>
-
-Picocrypt 已於 2024 年 8 月接受 Radically Open Security 的[審核](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf)，審核中發現的[大部分](https://github.com/Picocrypt/Picocrypt/issues/32#issuecomment-2329722740)問題隨後都已修正。
 
 ### VeraCrypt（磁碟）
 

@@ -1,5 +1,5 @@
 ---
-meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt, and OpenPGP - Privacy Guides"
+meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, and OpenPGP - Privacy Guides"
 title: "Programvara för kryptering"
 icon: material/file-lock
 description: Kryptering av data är det enda sättet att kontrollera vem som har tillgång till dem. These tools allow you to encrypt your emails and any other files.
@@ -52,35 +52,6 @@ Cryptomator is free to use on all desktop platforms, as well as on iOS in "read 
 Vissa kryptografiska bibliotek från Cryptomator har granskats [av Cure53](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44). De granskade biblioteken omfattar följande: [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) och [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). Granskningen omfattade inte [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift), som är ett bibliotek som används av Cryptomator för iOS.
 
 Cryptomator's documentation details its intended [security target](https://docs.cryptomator.org/en/latest/security/security-target), [security architecture](https://docs.cryptomator.org/en/latest/security/architecture), and [best practices](https://docs.cryptomator.org/en/latest/security/best-practices) for use in further detail.
-
-### Picocrypt (Fil)
-
-<small>Protects against the following threat(s):</small>
-
-- [:material-target-account: Riktade attacker](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
-
-<div class="admonition recommendation" markdown>
-
-![Picocrypt-logotyp](assets/img/encryption-software/picocrypt.svg){ align=right }
-
-**Picocrypt** är ett litet och enkelt krypteringsverktyg som tillhandahåller modern kryptering. Picocrypt använder den säkra XChaCha20-chiffern och Argon2id-nyckelderivatfunktionen för att ge en hög säkerhetsnivå. Det använder Go standard x/crypto moduler för sina krypteringsfunktioner.
-
-[:octicons-repo-16: Repository](https://github.com/Picocrypt/Picocrypt#readme){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/Picocrypt/Picocrypt){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title="Contribute" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:fontawesome-brands-windows: Windows](https://github.com/Picocrypt/Picocrypt/releases)
-- [:simple-apple: macOS](https://github.com/Picocrypt/Picocrypt/releases)
-- [:simple-linux: Linux](https://github.com/Picocrypt/Picocrypt/releases)
-
-</details>
-
-</div>
-
-Picocrypt has been [audited](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) by Radically Open Security in August 2024, and [most](https://github.com/Picocrypt/Picocrypt/issues/32#issuecomment-2329722740) of the issues found in the audit were subsequently fixed.
 
 ### VeraCrypt (disk)
 

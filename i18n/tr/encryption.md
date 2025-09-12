@@ -1,5 +1,5 @@
 ---
-meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt, and OpenPGP - Privacy Guides"
+meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, and OpenPGP - Privacy Guides"
 title: "Encryption Software"
 icon: material/file-lock
 description: Encryption of data is the only way to control who can access it. These tools allow you to encrypt your emails and any other files.
@@ -51,35 +51,6 @@ Cryptomator tüm masaüstü platformlarında ve iOS'ta "salt okunur" modda ücre
 Bazı Cryptomator kriptografik kütüphaneleri Cure53 tarafından [denetlenmiştir](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44). Denetlenen kütüphanelerin kapsamı şunları içerir: [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) ve [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). Denetim, iOS için Cryptomator tarafından kullanılan bir kütüphane olan [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift)'i kapsamamıştır.
 
 Cryptomator'ın dokümantasyonu, amaçlanan [güvenlik hedefini](https://docs.cryptomator.org/en/latest/security/security-target), [güvenlik mimarisini](https://docs.cryptomator.org/en/latest/security/architecture) ve kullanım için [en iyi uygulamaları](https://docs.cryptomator.org/en/latest/security/best-practices) daha ayrıntılı olarak açıklamaktadır.
-
-### Picocrypt (Dosya)
-
-<small>Aşağıdaki tehdit(ler)e karşı koruma sağlar:</small>
-
-- [:material-target-account: Hedefli Saldırılar](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
-
-<div class="admonition recommendation" markdown>
-
-![Picocrypt logosu](assets/img/encryption-software/picocrypt.svg){ align=right }
-
-**Picocrypt** modern şifreleme sağlayan küçük ve basit bir şifreleme aracıdır. Picocrypt, yüksek düzeyde güvenlik sağlamak için güvenli XChaCha20 şifresini ve Argon2id anahtar türetme işlevini kullanır. Şifreleme özellikleri için Go'nun standart x/crypto modüllerini kullanır.
-
-[:octicons-repo-16: Repository](https://github.com/Picocrypt/Picocrypt#readme){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/Picocrypt/Picocrypt){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title="Contribute" }
-
-<details class="downloads" markdown>
-<summary>İndirmeler</summary>
-- [:fontawesome-brands-windows: Windows](https://github.com/Picocrypt/Picocrypt/releases)
-- [:simple-apple: macOS](https://github.com/Picocrypt/Picocrypt/releases)
-- [:simple-linux: Linux](https://github.com/Picocrypt/Picocrypt/releases)
-- [ Web)
-
-</details>
-
-</div>
-
-Picocrypt, Ağustos 2024'te Radically Open Security tarafından [denetlenmiş](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) ve denetimde bulunan sorunların [çoğu](https://github.com/Picocrypt/Picocrypt/issues/32#issuecomment-2329722740) daha sonra düzeltilmiştir.
 
 ### VeraCrypt (Disk)
 

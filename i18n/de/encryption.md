@@ -1,5 +1,5 @@
 ---
-meta_title: "Empfohlene Verschlüsselungssoftware: VeraCrypt, Cryptomator, PicoCrypt und OpenPGP - Privacy Guides"
+meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, and OpenPGP - Privacy Guides"
 title: "Verschlüsselungssoftware"
 icon: material/file-lock
 description: Die Verschlüsselung von Daten ist die einzige Möglichkeit zu kontrollieren, wer darauf zugreifen kann. Mit diesen Tools kannst du deine E-Mails und alle anderen Dateien verschlüsseln.
@@ -52,35 +52,6 @@ Cryptomator is free to use on all desktop platforms, as well as on iOS in "read 
 Einige kryptografische Bibliotheken von Cryptomator sind von Cure53 [geprüft](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44) worden. Die geprüften Bibliotheken umfasst: [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) und [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). Das Audit wurde erstreckte sich nicht auf [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift), eine Bibliothek, die von Cryptomator für iOS verwendet wird.
 
 In der Dokumentation von Cryptomator werden die angestrebten [Sicherheitsziele](https://docs.cryptomator.org/en/latest/security/security-target), die [Sicherheitsarchitektur](https://docs.cryptomator.org/en/latest/security/architecture) und die [Best Practices](https://docs.cryptomator.org/en/latest/security/best-practices) für den Einsatz im Detail beschrieben.
-
-### Picocrypt (Dateien)
-
-<small>Schützt vor der/den folgenden Bedrohung(en):</small>
-
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
-
-<div class="admonition recommendation" markdown>
-
-![Picocrypt-Logo](assets/img/verschluesselungs-software/picocrypt.svg){ align=right }
-
-**Picocrypt** ist ein kleines und simples Verschlüsselungstool, das moderne Verschlüsselung bietet. Picocrypt verwendet die sichere XChaCha20-Chiffre und die Argon2id-Schlüsselableitungsfunktion, um ein hohes Maß an Sicherheit zu gewährleisten. Es verwendet Go's Standard x/crypto Module für seine Verschlüsselungsfunktionen.
-
-[:octicons-repo-16: Repository](https://github.com/Picocrypt/Picocrypt#readme){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/Picocrypt/Picocrypt){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title="Contribute" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:fontawesome-brands-windows: Windows](https://github.com/Picocrypt/Picocrypt/releases)
-- [:simple-apple: macOS](https://github.com/Picocrypt/Picocrypt/releases)
-- [:simple-linux: Linux](https://github.com/Picocrypt/Picocrypt/releases)
-
-</details>
-
-</div>
-
-Picocrypt wurde im August 2024 von Radically Open Security [geprüft](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf), und [die meisten](https://github.com/Picocrypt/Picocrypt/issues/32#issuecomment-2329722740) der bei der Prüfung festgestellten Probleme wurden anschließend behoben.
 
 ### VeraCrypt (Festplatte)
 

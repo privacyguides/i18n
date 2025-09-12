@@ -1,5 +1,5 @@
 ---
-meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt, and OpenPGP - Privacy Guides"
+meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, and OpenPGP - Privacy Guides"
 title: "תוכנת הצפנה"
 icon: material/file-lock
 description: הצפנה של נתונים היא הדרך היחידה לשלוט מי יכול לגשת אליו. These tools allow you to encrypt your emails and any other files.
@@ -52,35 +52,6 @@ Cryptomator is free to use on all desktop platforms, as well as on iOS in "read 
 מספר ספריות קריפטוגרפיות של Cryptomator [עברו ביקורת](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44) על ידי Cure53. היקף הספריות המבוקרים כולל: [cryptolib](https://github.com/cryptomator/cryptolib), [ cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) ו-[cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). הביקורת לא התרחבה ל[cryptolib-swift](https://github.com/cryptomator/cryptolib-swift), שהיא ספרייה המשמשת את Cryptomator עבור iOS.
 
 Cryptomator's documentation details its intended [security target](https://docs.cryptomator.org/en/latest/security/security-target), [security architecture](https://docs.cryptomator.org/en/latest/security/architecture), and [best practices](https://docs.cryptomator.org/en/latest/security/best-practices) for use in further detail.
-
-### Picocrypt (קובץ)
-
-<small>Protects against the following threat(s):</small>
-
-- [:material-target-account: התקפות ממוקדות](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
-
-<div class="admonition recommendation" markdown>
-
-![Picocrypt לוגו](assets/img/encryption-software/picocrypt.svg){ align=right }
-
-**Picocrypt** הוא כלי הצפנה קטן ופשוט המספק הצפנה מודרנית. Picocrypt משתמש בצופן המאובטח XChaCha20 ובפונקציית גזירת מפתח Argon2id כדי לספק רמת אבטחה גבוהה. הוא משתמש במודולי x/crypto הסטנדרטיים של Go עבור תכונות ההצפנה שלו.
-
-[:octicons-repo-16: Repository](https://github.com/Picocrypt/Picocrypt#readme){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/Picocrypt/Picocrypt){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title="Contribute" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:fontawesome-brands-windows: Windows](https://github.com/Picocrypt/Picocrypt/releases)
-- [:simple-apple: macOS](https://github.com/Picocrypt/Picocrypt/releases)
-- [:simple-linux: Linux](https://github.com/Picocrypt/Picocrypt/releases)
-
-</details>
-
-</div>
-
-Picocrypt has been [audited](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) by Radically Open Security in August 2024, and [most](https://github.com/Picocrypt/Picocrypt/issues/32#issuecomment-2329722740) of the issues found in the audit were subsequently fixed.
 
 ### VeraCrypt (דיסק)
 

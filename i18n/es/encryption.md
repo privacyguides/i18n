@@ -1,5 +1,5 @@
 ---
-meta_title: "Software de Cifrado Recomendado:: VeraCrypt, Cryptomator, PicoCrypt, y OpenPGP - Privacy Guides"
+meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, and OpenPGP - Privacy Guides"
 title: "Software de Cifrado"
 icon: material/file-lock
 description: El cifrado de los datos es la única forma de controlar quién puede acceder a ellos. Estas herramientas le permiten cifrar sus correos electrónicos y cualquier otro archivo.
@@ -52,35 +52,6 @@ Cryptomator es de uso gratuito en todas las plataformas de escritorio, así como
 Algunas bibliotecas criptográficas de Cryptomator han sido [auditadas](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44) por Cure53. El alcance de las bibliotecas auditadas incluye: [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) y [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). La auditoría no se extendió a [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift), que es una biblioteca utilizada por Cryptomator para iOS.
 
 La documentación de Cryptomator detalla con más detalle su [objetivo de seguridad](https://docs.cryptomator.org/en/latest/security/security-target), la [arquitectura de seguridad](https://docs.cryptomator.org/en/latest/security/architecture) y las [mejores prácticas](https://docs.cryptomator.org/en/latest/security/best-practices) de uso.
-
-### Picocrypt (Archivo)
-
-<small>Protege contra la(s) siguiente(s) amenaza(s):</small>
-
-- [:material-target-account: Ataques dirigidos](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
-
-<div class="admonition recommendation" markdown>
-
-![Picocrypt logo](assets/img/encryption-software/picocrypt.svg){ align=right }
-
-**Picocrypt** es una herramienta de cifrado pequeña y simple que proporciona un cifrado moderno. Picocrypt utiliza el cifrado seguro XChaCha20 y la función de derivación de clave Argon2id para proporcionar un alto nivel de seguridad. Utiliza los módulos x/crypto estándar de Go para sus funciones de cifrado.
-
-[:octicons-repo-16: Repositorio](https://github.com/Picocrypt/Picocrypt#readme){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/Picocrypt/Picocrypt){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title="Contribuir" }
-
-<details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
-
-- [:fontawesome-brands-windows: Windows](https://github.com/Picocrypt/Picocrypt/releases)
-- [:simple-apple: macOS](https://github.com/Picocrypt/Picocrypt/releases)
-- [:simple-linux: Linux](https://github.com/Picocrypt/Picocrypt/releases)
-
-</details>
-
-</div>
-
-Picocrypt ha sido [auditado](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) por Radically Open Security en agosto de 2024, y [la mayoría](https://github.com/Picocrypt/Picocrypt/issues/32#issuecomment-2329722740) de los problemas encontrados en la auditoría fueron corregidos posteriormente.
 
 ### VeraCrypt (Disco)
 

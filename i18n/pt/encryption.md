@@ -1,5 +1,5 @@
 ---
-meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, PicoCrypt, and OpenPGP - Privacy Guides"
+meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, and OpenPGP - Privacy Guides"
 title: "Software de encriptação"
 icon: material/file-lock
 description: A encriptação de dados é a única forma de controlar quem pode acessá-los. These tools allow you to encrypt your emails and any other files.
@@ -52,45 +52,6 @@ Cryptomator is free to use on all desktop platforms, as well as on iOS in "read 
 Ao encriptar com VeraCrypt, o utilizador tem a opção de seleccionar de diferentes [funções hash](https://en.wikipedia.org/wiki/VeraCrypt#Encryption_scheme). Sugerimos aos utilizadores **apenas** seleccione [SHA-512](https://en.wikipedia.org/wiki/SHA-512) e deve ficar com o [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) cifra de bloco. The audit did not extend to [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift), which is a library used by Cryptomator for iOS.
 
 Cryptomator's documentation details its intended [security target](https://docs.cryptomator.org/en/latest/security/security-target), [security architecture](https://docs.cryptomator.org/en/latest/security/architecture), and [best practices](https://docs.cryptomator.org/en/latest/security/best-practices) for use in further detail.
-
-### Criptomador
-
-<small>Protects against the following threat(s):</small>
-
-- [:material-target-account: Ataques direcionados](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
-
-<div class="admonition recommendation" markdown>
-
-![logo do criptomator](/assets/img/encryption-software/cryptomator.svg){ align=right }
-
-**Cryptomator** facilita o carregamento de ficheiros para a nuvem num sistema de ficheiros virtual encriptado. [Visite cryptomator.org](https://cryptomator.org){ .md-button .md-button--primary } [Política de Privacidade](https://cryptomator.org/privacy){ .md-button }
-
-**Downloads***
-- [:fontawesome-brands-windows: Windows](https://cryptomator.org/downloads)
-- [:fontawesome-brands-apple: macOS](https://cryptomator.org/downloads)
-- [:fontawesome-brands-linux: Linux](https://cryptomator.org/downloads)
-- [:pg-flathub: Flatpak](https://flathub.org/apps/details/org.cryptomator.cryptomator)
-- [:fontawesome-brands-google-play: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
-- [:fontawesome-brands-android: F-Droid repo](https://cryptomator.org/android)
-- [:fontawesome-brands-app-store-ios: App Store](https://apps.apple.com/us/app/cryptomator-2/id1560822163)
-- [:fontawesome-brands-github: Source](https://github.com/cryptomator) It uses Go's standard x/crypto modules for its encryption features.
-
-[:octicons-repo-16: Repository](https://github.com/Picocrypt/Picocrypt#readme){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/Picocrypt/Picocrypt){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/picocrypt){ .card-link title="Contribute" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:fontawesome-brands-windows: Windows](https://github.com/Picocrypt/Picocrypt/releases)
-- [:simple-apple: macOS](https://github.com/Picocrypt/Picocrypt/releases)
-- [:simple-linux: Linux](https://github.com/Picocrypt/Picocrypt/releases)
-
-</details>
-
-</div>
-
-Picocrypt has been [audited](https://github.com/Picocrypt/storage/blob/main/Picocrypt.Audit.Report.pdf) by Radically Open Security in August 2024, and [most](https://github.com/Picocrypt/Picocrypt/issues/32#issuecomment-2329722740) of the issues found in the audit were subsequently fixed.
 
 ### Picocrypt
 
