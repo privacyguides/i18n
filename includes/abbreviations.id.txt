@@ -20,7 +20,7 @@
 *[E2EE]: Enkripsi Ujung ke Ujung/Terenkripsi
 *[ECS]: Subnet Klien EDNS
 *[EEA]: Wilayah Ekonomi Eropa
-*[entropi]: A measurement of how unpredictable something is
+*[entropy]: A measurement of how unpredictable something is
 *[EOL]: Akhir Masa Pakai
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
@@ -50,7 +50,7 @@
 *[JNI]: Antarmuka Asli Java
 *[KYC]: Kenali Pelanggan Anda
 *[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-*[LLMs]: Large Language Models (AI models such as ChatGPT)
+*[LLM]: Large Language Models (AI models such as ChatGPT)
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
 *[MAC]: Kontrol Akses Media
 *[MDAG]: Microsoft Defender Application Guard
