@@ -38,7 +38,7 @@ Privacy Guides 是由世界各地的志工和工作人員建立的。 All change
 
 ![Signal 連絡 QR code](assets/img/layout/signal-contact-qr.png){ align=right }
 
-您有小秘訣要告訴我們，或需要分享一些敏感資訊嗎？ 與我們安全聯繫的最佳方式是透過 Signal 上的 `@privacyguides.01` 。 這個團隊帳號由 [Jonah](https://discuss.privacyguides.net/u/jonah)、[Niek](https://discuss.privacyguides.net/u/niek-de-wilde)、[Em](https://discuss.privacyguides.net/u/ematprivacyguides) 和 [Jordan](https://discuss.privacyguides.net/u/jordan) 管理。
+您有小秘訣要告訴我們，或需要分享一些敏感資訊嗎？ 與我們安全聯繫的最佳方式是透過 Signal 上的 `@privacyguides.01` 。 This group account is monitored by [Jonah](https://discuss.privacyguides.net/u/jonah), [Niek](https://discuss.privacyguides.net/u/niek-de-wilde), [Em](https://discuss.privacyguides.net/u/em), and [Jordan](https://discuss.privacyguides.net/u/jordan).
 
 [:simple-signal: 在 Signal 上聯繫](https://signal.me/#eu/zg9xcrIv5w-EtXt2FmTJgfWv01LmyTed8rpr7RDv35Mizq8ISZ9NJLmYtzsxI0Z4){ .md-button }
 
@@ -132,7 +132,7 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
 
   :material-text-account: Journalist
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/ematprivacyguides)
+  [:material-account: Profile](https://discuss.privacyguides.net/u/em)
 
   [:material-github:](https://github.com/EmAtPrivacyGuides "GitHub")
   [:material-mastodon:](https://infosec.exchange/@Em0nM4stodon "@Em0nM4stodon@infosec.exchange"){rel=me}
