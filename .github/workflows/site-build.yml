@@ -43,7 +43,7 @@ jobs:
     needs: submodule
     strategy:
       matrix:
-        lang: [es, fr, he, it, ko, nl, pt, ru, zh-Hant]
+        lang: [es, fr, he, it, ko, nl, pt, ru, zh-Hant, zh-TW]
       fail-fast: false
     permissions:
       contents: read
