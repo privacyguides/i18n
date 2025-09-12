@@ -286,8 +286,6 @@ O **Safari** é o navegador padrão no iOS. Inclui [recursos de privacidade](htt
 
 ### Configurações recomendadas para o Safari
 
-O [AdGuard](browser-extensions.md#adguard) é o programa recomendado se você quiser um **bloqueador de conteúdo** no Safari.
-
 As seguintes opções relacionadas à privacidade/segurança podem ser encontradas em :gear: **Preferências** → **Apps** → **Safari**.
 
 #### Permitir que o Safari acesse

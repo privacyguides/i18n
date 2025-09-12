@@ -286,8 +286,6 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 ### 推奨するSafariの設定
 
-Safariでコンテンツブロックを使いたい場合、[AdGuard](browser-extensions.md#adguard)をインストールすることを推奨します。
-
 以下のプライバシー・セキュリティ関連のオプションは、 :gear: **設定**→**アプリ**→**Safari**にあります。
 
 #### Safariにアクセスを許可

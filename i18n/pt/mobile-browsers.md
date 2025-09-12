@@ -286,8 +286,6 @@ O **Safari** é o navegador predefinido no iOS. It includes [privacy features](h
 
 ### Recommended Safari Configuration
 
-We would suggest installing [AdGuard](browser-extensions.md#adguard) if you want a content blocker in Safari.
-
 The following privacy/security-related options can be found in :gear: **Settings** → **Apps** → **Safari**.
 
 #### Allow Safari to Access

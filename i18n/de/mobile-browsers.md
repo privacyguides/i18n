@@ -286,8 +286,6 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 ### Empfohlene Safari-Konfiguration
 
-Wir empfehlen die Installation von [AdGuard](browser-extensions.md#adguard), wenn du einen Content-Blocker in Safari willst.
-
 Die folgenden datenschutz- und sicherheitsrelevanten Optionen findest du unter :gear: **Einstellungen** → **Apps** → **Safari**.
 
 #### Allow Safari to Access

@@ -286,8 +286,6 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 ### 建議的 Safari 設定
 
-如果您想要在 Safari 中使用內容阻擋器，我們建議您安裝 [AdGuard](browser-extensions.md#adguard)。
-
 可以在 :gear: **設定** → **Safari** 中找到以下與隱私及安全相關的選項。
 
 #### 允許 SAFARI 取用

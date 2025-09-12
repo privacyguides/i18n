@@ -71,6 +71,8 @@ uBlock Origin possède également une version "Lite" de leur extension, qui offr
 <summary>Téléchargements</summary>
 
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
+- [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/cimighlppcgcoapaliogpjjdehbnofhn)
+- [:simple-safari: Safari](https://apps.apple.com/app/id6745342698)
 
 </details>
 

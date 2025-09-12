@@ -286,8 +286,6 @@ On iOS, any app that can browse the web is [restricted](https://developer.apple.
 
 ### إعدادات Safari الموصى بها
 
-إذا كنت تريد حجب الإعلانات أو المحتوى المزعج في Safari، فننصحك بتثبيت [AdGuard](browser-extensions.md#adguard).
-
 يمكن العثور على خيارات الخصوصية والأمان التالية في :gear: **Settings** → **Apps** → **Safari**.
 
 #### السماح لـ Safari بالوصول إلى

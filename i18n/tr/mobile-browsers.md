@@ -286,8 +286,6 @@ iOS'ta varsayılan tarayıcı **Safari**'dir. Akıllı İzleme Önleme](https://
 
 ### Önerilen Yapılandırma
 
-Safari'de bir içerik engelleyici istiyorsanız [AdGuard](browser-extensions.md#adguard) 'ı yüklemenizi öneririz.
-
 Gizlilik/güvenlikle ilgili aşağıdaki seçenekler :gear: **Ayarlar** → **Uygulamalar** → **Safari** bölümünde bulunabilir.
 
 #### Safari'nin Erişimine İzin Ver

@@ -71,6 +71,8 @@ uBlock Origin 還有一個「Lite」版本，與原始版相比，其功能集�
 <summary>下載</summary>
 
 - [:simple-googlechrome: Chrome](https://chrome.google.com/webstore/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh)
+- [:fontawesome-brands-edge: Edge](https://microsoftedge.microsoft.com/addons/detail/cimighlppcgcoapaliogpjjdehbnofhn)
+- [:simple-safari: Safari](https://apps.apple.com/app/id6745342698)
 
 </details>
 

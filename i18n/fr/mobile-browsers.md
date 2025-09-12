@@ -286,8 +286,6 @@ Sur iOS, n'importe quelle application qui peut naviguer sur le Web est [restrein
 
 ### Configuration recommandée pour Safari
 
-Nous vous suggérons d'installer [AdGuard](browser-extensions.md#adguard) si vous voulez un bloqueur de contenu dans Safari.
-
 Les options suivantes relatives à la confidentialité et à la sécurité sont disponibles sur :gear: **Paramètres** → **Applications** → **Safari**.
 
 #### Autoriser Safari à accéder
