@@ -136,9 +136,26 @@ Birçok alternatif henüz aynı izin kontrollerini sağlamıyor,[^1] Bazıları 
 
 Birçok masaüstü Linux dağıtımı (Fedora, openSUSE, vb.) Ethernet ve Wi-Fi ayarlarını yapılandırmak için [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager) ile birlikte gelir.
 
-NetworkManager kullanırken [MAC adresini](https://en.wikipedia.org/wiki/MAC_address) [rastgele ayarlamak](https://fedoramagazine.org/randomize-mac-address-nm) mümkündür. Bu, bağlı olduğunuz ağdaki belirli cihazların izlenmesini zorlaştırdığı için Wi-Fi ağlarında biraz daha fazla gizlilik sağlar. Öyle. [**değil**](https://papers.mathyvanhoef.com/wisec2016.pdf) seni anonim yapar.
+It is possible to randomize the [MAC address](https://en.wikipedia.org/wiki/MAC_address) when using NetworkManager. Bu, bağlı olduğunuz ağdaki belirli cihazların izlenmesini zorlaştırdığı için Wi-Fi ağlarında biraz daha fazla gizlilik sağlar. Öyle. [**değil**](https://papers.mathyvanhoef.com/wisec2016.pdf) seni anonim yapar.
 
-[Makalede](https://fedoramagazine.org/randomize-mac-address-nm) önerildiği gibi ayarı **sabit** yerine **rastgele** olarak değiştirmenizi öneririz.
+In the terminal, create a new file `/etc/NetworkManager/conf.d/00-macrandomize.conf` and add the following to it:
+
+```text
+[device]
+wifi.scan-rand-mac-address=yes
+
+[connection]
+wifi.cloned-mac-address=random
+ethernet.cloned-mac-address=random
+```
+
+Then, restart NetworkManager:
+
+```sh
+systemctl restart NetworkManager
+```
+
+Optionally, changing the connection parameter from `random` to `stable` will give you a random MAC address *per network*, but keep it stable for that network when you reconnect to it later. Using `random` will give you a random MAC address *per connection*. This may be desirable for networks with captive portals or where you have a static DHCP assignment, at the expense of making you more identifiable by a single network operator you connect to multiple times.
 
 Eğer [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components) kullanıyorsanız, şunları ayarlamanız gerekecektir [`MACAddressPolicy=random`](https://freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=)[RFC 7844'ü (DHCP İstemcileri için Anonimlik Profilleri)](https://freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=) etkinleştirecektir.
 

@@ -136,9 +136,26 @@ Linux 發行版，如 [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) �
 
 許多桌面 Linux 發行版（Fedora、openSUSE等）自帶 [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager) 來設定乙太網路和 Wi-Fi。
 
-對於使用 NetworkManager 的人， [隨機化](https://fedoramagazine.org/randomize-mac-address-nm) [MAC 位址](https://en.wikipedia.org/wiki/MAC_address) 是可行的。 這在Wi-Fi 上提供了更多隱私，因為這讓追踪所連網路的特定設備變得更困難。 但這 [**並不是**](https://papers.mathyvanhoef.com/wisec2016.pdf) 讓您匿名。
+It is possible to randomize the [MAC address](https://en.wikipedia.org/wiki/MAC_address) when using NetworkManager. 這在Wi-Fi 上提供了更多隱私，因為這讓追踪所連網路的特定設備變得更困難。 但這 [**並不是**](https://papers.mathyvanhoef.com/wisec2016.pdf) 讓您匿名。
 
-建議將設定更改為**隨機**，而不是**穩定**，如[這篇文章的說明](https: // fedoramagazine.org/randomize-mac-address-nm)。
+In the terminal, create a new file `/etc/NetworkManager/conf.d/00-macrandomize.conf` and add the following to it:
+
+```text
+[device]
+wifi.scan-rand-mac-address=yes
+
+[connection]
+wifi.cloned-mac-address=random
+ethernet.cloned-mac-address=random
+```
+
+Then, restart NetworkManager:
+
+```sh
+systemctl restart NetworkManager
+```
+
+Optionally, changing the connection parameter from `random` to `stable` will give you a random MAC address *per network*, but keep it stable for that network when you reconnect to it later. Using `random` will give you a random MAC address *per connection*. This may be desirable for networks with captive portals or where you have a static DHCP assignment, at the expense of making you more identifiable by a single network operator you connect to multiple times.
 
 如果使用 [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components)，則需要設定 [`MACAddressPolicy=random`](https://freedesktop. org/software /systemd/man/systemd.link.html#MACAddressPolicy=) 這將啟用[RFC 7844（DHCP 用戶端的匿名設定檔）](https://freedesktop.org/software/ systemd/man /systemd.network.html#Anonymize=)。
 
