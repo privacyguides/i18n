@@ -177,7 +177,7 @@ Estos administradores de contraseñas sincronizan sus contraseñas con un servid
 
 Bitwarden utiliza [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) como algoritmo de función de derivación de claves (KDF) por defecto. También ofrece como alternativa [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id), que es más seguro. Puede cambiar el algoritmo KDF de su cuenta en el almacén web:
 
-- [x] Select **Settings → Security → Keys → KDF algorithm → Argon2id**
+- [x] Seleccione **Configuración → Seguridad → Claves → Algoritmo KDF → Argon2id**
 
 El código del lado del servidor de Bitwarden es de [código abierto](https://github.com/bitwarden/server), por lo que si no desea utilizar la nube de Bitwarden, puede alojar fácilmente su propio servidor de sincronización Bitwarden.
 
@@ -367,18 +367,18 @@ La [versión pro](https://play.google.com/store/apps/details?id=com.kunzisoft.ke
 
 ![KeePassium logo](assets/img/password-management/keepassium.svg){ align=right }
 
-KeePassium is a commercial, open-source password manager made by KeePassium Labs that's compatible with other KeePass applications. It provides autofill support, passkey management, automatic two-way synchronization through [most cloud storage providers](https://support.keepassium.com/kb/sync), and more.
+KeePassium es un administrador de contraseñas comercial y de código abierto creado por KeePassium Labs que es compatible con otras aplicaciones KeePass. Proporciona soporte para autocompletar, gestión de claves de acceso, sincronización automática bidireccional a través de [la mayoría de proveedores de almacenamiento en la nube](https://support.keepassium.com/kb/sync), y mucho más.
 
-[:material-star-box: Read our latest KeePassium review.](https://www.privacyguides.org/articles/2025/05/13/keepassium-review)
+[:material-star-box: Lea nuestra última resseña sobre KeePassium.](https://www.privacyguides.org/articles/2025/05/13/keepassium-review)
 
-[:octicons-home-16: Homepage](https://keepassium.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://keepassium.com/privacy/app){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.keepassium.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/keepassium/KeePassium){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassium.com/donate){ .card-link title="Contribute" }
+[:octicons-home-16: Página Principal](https://keepassium.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://keepassium.com/privacy/app){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://support.keepassium.com){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/keepassium/KeePassium){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://keepassium.com/donate){ .card-link title="Contribuir" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/id1435127111)
 
@@ -386,9 +386,9 @@ KeePassium is a commercial, open-source password manager made by KeePassium Labs
 
 </div>
 
-KeePassium offers a [Premium version](https://keepassium.com/pricing) with additional features such as support for multiple databases, YubiKey support, and a password audit tool.
+KeePassium ofrece una [versión Premium](https://keepassium.com/pricing) con funciones adicionales, como compatibilidad con múltiples bases de datos, compatibilidad con YubiKey y una herramienta de auditoría de contraseñas.
 
-KeePassium's iOS app has been [audited](https://cure53.de/pentest-report_keepassium.pdf) by Cure53 in October 2024, and all [issues](https://keepassium.com/blog/2024/11/independent-security-audit-complete) found in the audit were subsequently fixed.
+La aplicación para iOS de KeePassium ha sido [auditada](https://cure53.de/pentest-report_keepassium.pdf) por Cure53 en octubre de 2024, y todos los [problemas](https://keepassium.com/blog/2024/11/independent-security-audit-complete) encontrados en la auditoría fueron subsanados posteriormente.
 
 ### Gopass (CLI)
 

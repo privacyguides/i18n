@@ -80,7 +80,7 @@ El firmware de YubiKey no es actualizable. Si quieres características en las ve
 
 <figure markdown="span">  ![Nitrokey](assets/img/security-keys/nitrokey.jpg){ width="300" }</figure>
 
-The **Nitrokey 3A Mini** [has FIDO Authenticator Level 1 Certification](https://www.nitrokey.com/news/2024/nitrokey-3a-mini-receives-official-fido2-certification). The Nitrokey 3 Series in general has a wide range of features such as [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), Personal Identity Verification (PIV), OpenPGP, and TOTP and HOTP authentication.
+La **Nitrokey 3A Mini** [tiene Certificación FIDO Authenticator de Nivel 1](https://www.nitrokey.com/news/2024/nitrokey-3a-mini-receives-official-fido2-certification). La serie Nitrokey 3 en general tiene una amplia gama de características como [Segundo Factor Universal (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 y WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), Verificación de Identidad Personal (PIV), OpenPGP, y autenticación TOTP y HOTP.
 
 [:octicons-home-16: Página Principal](https://nitrokey.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://nitrokey.com/data-privacy-policy){ .card-link title="Politica de Privacidad" }
@@ -90,26 +90,26 @@ The **Nitrokey 3A Mini** [has FIDO Authenticator Level 1 Certification](https://
 
 </div>
 
-The [comparison table](https://nitrokey.com/products/nitrokeys) shows how the different Nitrokey models compare to each other in terms of features and other specifications.
+La [tabla comparativa](https://nitrokey.com/products/nitrokeys) muestra cómo los diferentes modelos de Nitrokey se comparan entre sí en términos de características y otras especificaciones.
 
 Los modelos de Nitrokey pueden ser configurados utilizando la [aplicación de Nitrokey](https://nitrokey.com/download).
 
-The Nitrokey 3 Series can act as a password manager. They can store up to 50 different entries, and each entry can contain login, password, comment and OTP.
+La serie Nitrokey 3 puede actuar como administrador de contraseñas. Pueden almacenar hasta 50 entradas diferentes, y cada entrada puede contener nombre de usuario, contraseña, comentario y OTP.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-Excluding the Nitrokey 3, Nitrokeys with HOTP and TOTP storage do not have it encrypted, making them vulnerable to physical attacks.
+Excluyendo la Nitrokey 3, las Nitrokeys con almacenamiento HOTP y TOTP no lo tienen encriptado, haciéndolas vulnerables a ataques físicos.
 
 </div>
 
-**Nitrokey** also has the **Nitrokey Passkey**, a lower-price security key capable of [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online). Esta llave proporciona únicamente la funcionalidad básica de FIDO2, pero para la mayoría de las personas esto es todo lo que necesitan. Algunas características notables que la serie de llave de seguridad **no** incluye son:
+**Nitrokey** también tiene la **Nitrokey Passkey**, una clave de seguridad de menor precio con [FIDO2 y WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online). Esta llave proporciona únicamente la funcionalidad básica de FIDO2, pero para la mayoría de las personas esto es todo lo que necesitan. Algunas características notables que la serie de llave de seguridad **no** incluye son:
 
 - Administrador de contraseñas
 - PIV
 - OpenPGP
 - Tamper-resistant smart card
-- TOTP and HOTP
+- TOTP y HOTP
 
 </div>
 

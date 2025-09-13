@@ -1,7 +1,7 @@
 ---
 title: Autoalojamiento
-meta_title: "Self-Hosting Software and Services - Privacy Guides"
-description: For our more technical readers, self-hosting software and services can provide additional privacy assurances since you have maximum control over your data.
+meta_title: "Autoalojamiento de Software y Servicios - Privacy Guides"
+description: Para nuestros lectores más técnicos, el autoalojamiento de software y servicios puede ofrecer garantías adicionales de privacidad, ya que así tienes el máximo control de tus datos.
 cover: router.webp
 ---
 
@@ -9,7 +9,7 @@ cover: router.webp
 
 - [:material-server-network: Proveedores de Servicios](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-**Self-hosting** software and services can be a way to achieve a higher level of privacy through digital sovereignty, particularly independence from cloud servers controlled by product developers or vendors. Por autoalojamiento, nos referimos al alojamiento de aplicaciones y datos en tu propio hardware.
+El **autoalojamiento** de software y servicios puede ser una forma de lograr un mayor nivel de privacidad a través de la soberanía digital, en particular la independencia de los servidores en la nube controlados por los desarrolladores o vendedores de productos. Por autoalojamiento, nos referimos al alojamiento de aplicaciones y datos en tu propio hardware.
 
 El autoalojamiento de tus propias soluciones requiere conocimientos técnicos avanzados y una profunda comprensión de los riesgos asociados. Al convertirte en anfitrión de ti mismo y, posiblemente, de otros, asumes responsabilidades que de otro modo no tendrías. El autoalojamiento inadecuado de software de privacidad puede dejarte en peor situación que, por ejemplo, el uso de un proveedor de servicios cifrados de extremo a extremo, por lo que es mejor evitarlo si aún no te sientes cómodo haciéndolo.
 
@@ -25,7 +25,7 @@ El autoalojamiento de tus propias soluciones requiere conocimientos técnicos av
 
 [Más información :material-arrow-right-drop-circle:](email-servers.md)
 
-## :material-dns: DNS Filtering
+## :material-dns: Filtrado de DNS
 
 <div class="grid cards" markdown>
 
@@ -34,9 +34,9 @@ El autoalojamiento de tus propias soluciones requiere conocimientos técnicos av
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](dns-filtering.md)
+[Más información :material-arrow-right-drop-circle:](dns-filtering.md)
 
-## :material-form-textbox-password: Password Management
+## :material-form-textbox-password: Gestión de Contraseñas
 
 ### Vaultwarden
 
@@ -45,12 +45,12 @@ El autoalojamiento de tus propias soluciones requiere conocimientos técnicos av
 ![Vaultwarden logo](../assets/img/self-hosting/vaultwarden.svg#only-light){ align=right }
 ![Vaultwarden logo](../assets/img/self-hosting/vaultwarden-dark.svg#only-dark){ align=right }
 
-**Vaultwarden** is an alternative implementation of [Bitwarden](../passwords.md#bitwarden)'s sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy, [official service](https://github.com/bitwarden/server) might not be ideal.
+**Vaultwarden** es una implementación alternativa del servidor de sincronización de [Bitwarden](../passwords.md#bitwarden) escrita en Rust y compatible con los clientes oficiales de Bitwarden, perfecta para despliegues auto-alojados en los que ejecutar el [servicio oficial](https://github.com/bitwarden/server), que consume muchos recursos, puede no ser lo ideal.
 
-[:octicons-repo-16: Repository](https://github.com/dani-garcia/vaultwarden#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title="Contribute" }
+[:octicons-repo-16: Repositorio](https://github.com/dani-garcia/vaultwarden#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title="Contribuir" }
 
 </div>
 

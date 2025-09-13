@@ -12,7 +12,7 @@ cover: language-tools.webp
 
 El texto introducido en los correctores gramaticales, ortográficos y de estilo, así como en los servicios de traducción, puede contener información sensible que puede ser almacenada en sus servidores por tiempo indefinido y vendida a terceros. Las herramientas lingüísticas enumeradas en esta página no almacenan el texto enviado en un servidor y pueden autoalojarse y utilizarse sin conexión para tener el máximo control de tus datos.
 
-## Grammar & Spelling
+## Gramática y Ortografía
 
 ### LanguageTool
 
@@ -45,7 +45,7 @@ El texto introducido en los correctores gramaticales, ortográficos y de estilo,
 
 LanguageTool ofrece integración con diversos [paquetes ofimáticos](https://languagetool.org/services#text_editors) y [clientes de correo electrónico](https://languagetool.org/services#mail_clients).
 
-## Translation Tools
+## Herramientas de Traducción
 
 ### LibreTranslate
 
@@ -53,17 +53,17 @@ LanguageTool ofrece integración con diversos [paquetes ofimáticos](https://lan
 
 ![LibreTranslate logo](assets/img/language-tools/libretranslate.png){ align=right }
 
-**LibreTranslate** is a free and open-source machine translation web interface and API server. It uses [Argos Translate](https://github.com/argosopentech/argos-translate) models on the backend for translations.
+**LibreTranslate** es una interfaz web de traducción automática y un servidor API gratuitos y de código abierto. Utiliza modelos [Argos Translate](https://github.com/argosopentech/argos-translate) en el backend para las traducciones.
 
-[:octicons-home-16: Homepage](https://libretranslate.com){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/LibreTranslate/LibreTranslate#mirrors){ .card-link title="Public Instances" }
-[:octicons-code-16:](https://github.com/LibreTranslate/LibreTranslate){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://libretranslate.com){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/LibreTranslate/LibreTranslate#mirrors){ .card-link title="Instancias Públicas" }
+[:octicons-code-16:](https://github.com/LibreTranslate/LibreTranslate){ .card-link title="Código Fuente" }
 
 </div>
 
-You can use LibreTranslate through a number of public instances, with some that offer a [Tor](tor.md) onion service or an [I2P](alternative-networks.md#i2p-the-invisible-internet-project) eepsite. You can also host the software yourself for maximum control over the text submitted for translation.
+Puedes usar LibreTranslate a través de varias instancias públicas, algunas de las cuales ofrecen un servicio onion [Tor](tor.md) o eepsite [I2P](alternative-networks.md#i2p-the-invisible-internet-project). También puedes alojar el software tú mismo para tener el máximo control sobre el texto enviado para su traducción.
 
-We use a self-hosted instance of LibreTranslate to automatically translate posts on our [forum](https://discuss.privacyguides.net) to multiple languages.
+Utilizamos una instancia autoalojada de LibreTranslate para traducir automáticamente las publicaciones de nuestro [foro](https://discuss.privacyguides.net) a varios idiomas.
 
 ## Criterios
 

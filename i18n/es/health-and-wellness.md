@@ -71,9 +71,9 @@ Estas aplicaciones de uso general pueden hacer de todo, desde contar los pasos y
 
 ![Apple Fitness logo](assets/img/health-and-wellness/apple-fitness.webp){ align=right }
 
-**Apple Fitness** is the default fitness app for iOS. Apple Fitness always uses end-to-end encryption when syncing across multiple devices. Además, casi todos los datos medidos se procesan en tu dispositivo.
+**Apple Fitness** es la aplicación de ejercicio físico predeterminada para iOS. Apple Fitness siempre utiliza el cifrado de extremo a extremo al sincronizar varios dispositivos. Además, casi todos los datos medidos se procesan en tu dispositivo.
 
-[:octicons-eye-16:](https://apple.com/legal/privacy/consumer-health-personal-data/en-ww){ .card-link title="Privacy Policy" }
+[:octicons-eye-16:](https://apple.com/legal/privacy/consumer-health-personal-data/en-ww){ .card-link title="Política de Privacidad" }
 
 <details class="downloads" markdown><summary>Downloads "Descargas"</summary>
 
@@ -118,7 +118,7 @@ Estas aplicaciones te ayudan a recopilar y gestionar datos de tu salud y a compa
 
 ![Apple logo](assets/img/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
 
-**Apple Health Records** is a built-in feature within [Apple Health](https://apple.com/health) that allows you to view, store, and share your health records. It shares the security and privacy features of [Apple Fitness](#apple-fitness).
+**Historial Clínico de Apple** es una función integrada en [Salud de Apple](https://apple.com/health) que te permite ver, almacenar y compartir tus historiales médicos. Comparte las características de seguridad y privacidad de [Apple Fitness](#apple-fitness).
 
 [:octicons-home-16: Página Principal](https://apple.com/health){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://apple.com/legal/privacy/consumer-health-personal-data/en-ww){ .card-link title="Política de Privacidad" }

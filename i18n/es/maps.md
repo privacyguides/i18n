@@ -24,9 +24,9 @@ Estas recomendaciones no recogen información de identificación personal (IIP),
 
 Entre sus funciones se incluyen rutas de ciclismo, rutas de senderismo y senderos, navegación giro a giro guiada por voz y planificación de rutas de transporte público (solo disponible en ciertas regiones y ciudades).
 
-[:octicons-home-16: Homepage](https://organicmaps.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://organicmaps.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-code-16:](https://github.com/organicmaps/organicmaps){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://organicmaps.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://organicmaps.app/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-code-16:](https://github.com/organicmaps/organicmaps){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown><summary>Downloads "Descargas"</summary>
 

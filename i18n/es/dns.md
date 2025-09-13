@@ -13,7 +13,7 @@ global:
 
 - [:material-account-cash: Capitalismo de Vigilancia](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Encrypted **DNS** with third-party servers should only be used to get around basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences. Un DNS cifrado no te ayudará a esconder ninguna de tu actividad en línea.
+Un **DNS** cifrado con servidores de terceros solo debería utilizarse para eludir el [bloqueo de DNS](https://en.wikipedia.org/wiki/DNS_blocking) básico cuando estés seguro de que no habrá consecuencias. Un DNS cifrado no te ayudará a esconder ninguna de tu actividad en línea.
 
 [Aprende más sobre DNS :material-arrow-right-drop-circle:](advanced/dns-overview.md ""){.md-button}
 
@@ -32,7 +32,7 @@ Estos son nuestros solucionadores de DNS públicos favoritos en función de sus 
 
 ## Filtrado DNS basado en la nube
 
-These DNS filtering solutions offer a web dashboard where you can customize the block lists to your exact needs. These services can be used easily across multiple networks.
+Estas soluciones de filtrado de DNS ofrecen un panel web en el que puedes personalizar las listas de bloqueo según tus necesidades. Estos servicios pueden utilizarse fácilmente en varias redes.
 
 ### Control D
 
