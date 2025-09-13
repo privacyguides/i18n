@@ -141,7 +141,7 @@ Para obtener más información sobre cada proyecto, por qué han sido elegidos y
 ## Los 3 Mejores Proveedores Privados de VPN
 
 <details class="danger" markdown>
-<summary>Las VPNs no proporcionan anonimato</summary>
+<summary>Las VPN no proporcionan anonimato</summary>
 
 Utilizar una VPN **no** mantendrá sus hábitos de navegación en el anonimato, ni añadirá seguridad adicional al tráfico no seguro (HTTP).
 
@@ -482,7 +482,7 @@ Para cifrar su unidad de SO, normalmente recomendamos utilizar la herramienta de
 - ![Euki logo](assets/img/health-and-wellness/euki.svg){ .twemoji loading=lazy } [Euki](health-and-wellness.md#euki)
 - ![Apple Fitness logo](assets/img/health-and-wellness/apple-fitness.webp){ .twemoji loading=lazy } [Apple Fitness](health-and-wellness.md#apple-fitness)
 - ![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge.svg#only-light){ .twemoji loading=lazy }![Gadgetbridge logo](assets/img/health-and-wellness/gadgetbridge-dark.svg#only-dark){ .twemoji loading=lazy } [Gadgetbridge](health-and-wellness.md#gadgetbridge)
-- ![Apple Health logo](assets/img/health-and-wellness/apple-health.webp#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ .twemoji loading=lazy } [Apple Health Records](health-and-wellness.md#apple-health-records)
+- ![Apple Health logo](assets/img/health-and-wellness/apple-health.webp#only-light){ .twemoji loading=lazy } ![Apple Health logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ .twemoji loading=lazy } [Historial Clínico de Apple](health-and-wellness.md#apple-health-records)
 - ![CommonHealth logo](assets/img/health-and-wellness/commonhealth.png){ .twemoji loading=lazy } [CommonHealth](health-and-wellness.md#commonhealth)
 
 </div>

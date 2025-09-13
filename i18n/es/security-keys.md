@@ -108,7 +108,7 @@ Excluyendo la Nitrokey 3, las Nitrokeys con almacenamiento HOTP y TOTP no lo tie
 - Administrador de contraseñas
 - PIV
 - OpenPGP
-- Tamper-resistant smart card
+- Tarjeta inteligente a prueba de manipulaciones
 - TOTP y HOTP
 
 </div>

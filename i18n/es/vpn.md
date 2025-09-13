@@ -17,7 +17,7 @@ global:
 Si buscas *privacidad* adicional frente a tu ISP, en una red Wi-Fi pública o mientras haces torrenting de archivos, una **VPN** puede ser la solución para ti.
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Las VPNs no proporcionan anonimato</p>
+<p class="admonition-title">Las VPN no proporcionan anonimato</p>
 
 Usar una VPN **no** mantendrá tus hábitos de navegación anónimos, ni proporcionará seguridad adicional al tráfico poco seguro (HTTP).
 

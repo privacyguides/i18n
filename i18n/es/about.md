@@ -132,7 +132,7 @@ Nuestro personal recibe una remuneración por contribuir a los contenidos comple
 
   :material-text-account: Periodista
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/em)
+  [:material-account: Perfil](https://discuss.privacyguides.net/u/em)
 
   [:material-github:](https://github.com/EmAtPrivacyGuides "GitHub")
   [:material-mastodon:](https://infosec.exchange/@Em0nM4stodon "@Em0nM4stodon@infosec.exchange"){rel=me}
