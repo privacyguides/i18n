@@ -20,9 +20,9 @@ schema:
 
 **Privacy guides** est un projet d'engagement citoyen qui a pour vocation d'informer et de sensibiliser à la protection de vos données personnelles et à la confidentialité. La mission de ce projet à but non lucratif est de sensibiliser le public à l'importance de la confidentialité numérique, et de l'informer des tendances actuelles des gouvernements à mettre en place des mesures de surveillance de nos activités en ligne. Notre site est totalement dépourvu de publicité et nous ne sommes affiliés à aucun des outils que nous recommandons.
 
-[:material-heart:{.pg-red} Become a Member](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary data-portal="signup" }
-[:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Homepage }
-[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Source Code" }
+[:material-heart:{.pg-red} Devenir member](https://donate.magicgrants.org/privacyguides){ .md-button .md-button--primary data-portal="Inscription" }
+[:octicons-home-16:](https://www.privacyguides.org){ .card-link title=Page d'accueil }
+[:octicons-code-16:](https://github.com/privacyguides/privacyguides.org){ .card-link title="Code Source" }
 
 Privacy Guides est maintenu par ses membres de l'équipe et des bénévoles du monde entier. Tous les changements apportés à nos recommandations et nos ressources sont examinés par au moins deux [personnes de confiance](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all), et nous travaillons d'arrache-pied pour mettre à jour notre contenu le plus rapidement possible pour vous permettre de vous adapter au mieux à l'évolution constante des menaces numériques.
 
