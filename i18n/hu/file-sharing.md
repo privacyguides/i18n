@@ -1,5 +1,5 @@
 ---
-title: "Fájlmegosztás és Szinkronizálás"
+title: Fájlmegosztás és Szinkronizálás
 icon: material/share-variant
 description: Fedezd fel, hogyan oszthatod meg fájljaid privát módon készülékek között, barátaiddal és családtagjaiddal vagy névtelenül online.
 cover: file-sharing.webp
@@ -23,11 +23,11 @@ If you already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarde
 
 **Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. A fájlok az eszközön kerülnek titkosításra, így a szerver nem tudja azokat elolvasni, és választhatóan jelszóval is védhetők. The maintainer of Send hosts a [public instance](https://send.vis.ee). Használhatsz más nyilvános instanceket, vagy magad is üzemeltetheted a Send-et.
 
-[:octicons-home-16: Honlap](https://send.vis.ee){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Publikus Instancek"}
-[:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title=Dokumentáció}
-[:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Forráskód" }
-[:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title=Közreműködés }
+[:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
+[:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title="Contribute" }
 
 </details>
 
@@ -49,7 +49,7 @@ ffsend upload --host https://send.vis.ee/ FÁJL
 
 [:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://docs.onionshare.org){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.onionshare.org){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -74,59 +74,7 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 - Nyílt forráskódú szoftvernek kell lennie.
 - Linux, macOS és Windows kliensekkel, vagy webes felülettel kell rendelkeznie.
 
-## FreedomBox
-
-<div class="admonition recommendation" markdown>
-
-![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ align=right }
-
-A **FreedomBox** egy operációs rendszer, amelyet [single-board számítógépen (SBC)](https://en.wikipedia.org/wiki/Single-board_computer) történő futtatásra terveztek. Célja az, hogy megkönnyítse szerveralkalmazások beállítását, amelyeket esetleg magad szeretnél üzemeltetni.
-
-[:octicons-home-16: Homepage](https://freedombox.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentation}
-[:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://freedomboxfoundation.org/donate){ .card-link title=Contribute }
-
-</details>
-
-</div>
-
 ## Fájl Szinkronizálás
-
-### Nextcloud (Kliens-Szerver)
-
-<div class="admonition recommendation" markdown>
-
-![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ align=right }
-
-**Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
-
-[:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://nextcloud.com/support){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribute }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
-- [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
-- [:fontawesome-brands-windows: Windows](https://nextcloud.com/install/#install-clients)
-- [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
-- [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
-
-</details>
-
-</div>
-
-<div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
-
-Nem javasoljuk az [End-to-End titkosított applikáció](https://apps.nextcloud.com/apps/end_to_end_encryption) használatát a Nextcloudhoz, mivel adatvesztéshez vezethet; erősen kísérleti jellegű és nem gyártásra kész minőségű.
-
-</div>
 
 ### Syncthing (P2P)
 

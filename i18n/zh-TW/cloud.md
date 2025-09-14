@@ -1,6 +1,6 @@
 ---
 meta_title: "最佳私密和安全的雲端儲存服務提供商 - Privacy Guides"
-title: "雲端儲存"
+title: 雲端儲存
 icon: material/file-cloud
 description: 許多雲端儲存服務供應商需要您相信他們不會查看您的檔案。 這些都是私密替代品！
 cover: cloud.webp
@@ -18,7 +18,7 @@ cover: cloud.webp
 <details class="admonition info" markdown>
 <summary>尋找 Nextcloud?</summary>
 
-Nextcloud [仍是](document-collaboration.md#nextcloud) 自我託管檔案管理套件的推薦工具，然而我們目前不推薦第三方 Nextcloud 儲存提供商，因為我們 [不建議](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) 普通使用者使用 Nextcloud 內建的 E2EE 功能。
+For more technical readers, Nextcloud is [still a recommended tool](self-hosting/file-management.md#nextcloud) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
 
 </details>
 
@@ -96,7 +96,7 @@ They have also received the Digital Trust Label, a certification from the [Swiss
 
 ![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
 
-**Peergos** 是去中心化協定的儲存、社交媒體和應用程式開源平台。 其提供安全且私密的空間，用戶可以在其中儲存、分享和查看照片、影片、文件等。 Peergos 透過抗量子端對端加密來保護檔案，並確保有關檔案所有資料保持私密。
+**Peergos** 是去中心化協定的儲存、社交媒體和應用程式開源平台。 其提供安全且私密的空間，用戶可以在其中儲存、分享和查看照片、影片、文件等。 Peergos secures your files with quantum-resistant E2EE and ensures all data about your files remains private.
 
 [:octicons-home-16: Homepage](https://peergos.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://peergos.net/privacy.html){ .card-link title="Privacy Policy" }

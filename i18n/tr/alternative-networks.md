@@ -1,5 +1,5 @@
 ---
-title: Alternatif Ağlar
+title: "Alternatif Ağlar"
 icon: material/vector-polygon
 description: These tools allow you to access networks other than the World Wide Web.
 cover: alternative-networks.webp

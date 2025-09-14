@@ -45,28 +45,6 @@ El plan gratuito ofrece 10 GB de almacenamiento siempre que utilices el servici
 
 Ente Photos se sometió a una auditoría por parte de [Cure53](https://ente.io/blog/cryptography-audit) en marzo de 2023 y por parte de [Fallible](https://ente.io/reports/Fallible-Audit-Report-19-04-2023.pdf) en abril de 2023.
 
-## PhotoPrism
-
-<div class="admonition recommendation" markdown>
-
-![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ align=right }
-
-**PhotoPrism** es una plataforma autoalojable para la gestión de fotos. Permite sincronizar y compartir álbumes y tiene otras muchas [funciones](https://photoprism.app/features). No incluye E2EE, por lo que es mejor alojarlo en un servidor en el que confíes y que esté bajo tu control.
-
-[:octicons-home-16: Página Principal](https://photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://photoprism.app/kb){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Código Fuente" }
-
-<details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
-
-- [:simple-github: GitHub](https://github.com/photoprism)
-
-</details>
-
-</div>
-
 ## Criterios
 
 **Por favor, ten en cuenta que no estamos afiliados a ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.

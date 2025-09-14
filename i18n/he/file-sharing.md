@@ -1,5 +1,5 @@
 ---
-title: "שיתוף וסנכרון קבצים"
+title: שיתוף וסנכרון קבצים
 icon: material/share-variant
 description: גלה כיצד לשתף את הקבצים שלך באופן פרטי בין המכשירים שלך, עם החברים והמשפחה שלך, או באופן אנונימי באינטרנט.
 cover: file-sharing.webp
@@ -23,11 +23,11 @@ If you already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarde
 
 **Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. קבצים מוצפנים במכשיר שלך כך שלא ניתן לקרוא אותם על ידי השרת, והם יכולים להיות מוגנים באמצעות סיסמה. The maintainer of Send hosts a [public instance](https://send.vis.ee). אפשר להשתמש במועדים ציבוריים אחרים, או לארח לשלוח את עצמכם.
 
-[:octicons-home-16: דף הבית](https://send.vis.ee){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="מופעים ציבוריים"}
-[:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title=תיעוד}
-[:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="קוד מקור" }
-[:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title=לתרומה }
+[:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
+[:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title="Contribute" }
 
 </details>
 
@@ -49,7 +49,7 @@ ffsend upload -- host https://send.vis.ee/ FILE
 
 [:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://docs.onionshare.org){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.onionshare.org){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -74,59 +74,7 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 - חייבת להיות תוכנת קוד פתוח.
 - חייב להיות לקוחות עבור Linux, macOS ו-Windows; או בעלי ממשק אינטרנט.
 
-## FreedomBox
-
-<div class="admonition recommendation" markdown>
-
-![FreedomBox לוגו](assets/img/file-sharing-sync/freedombox.svg){ align=right }
-
-**FreedomBox** היא מערכת הפעלה המיועדת להפעלה על [מחשב עם לוח יחיד (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). המטרה היא להקל על הגדרת יישומי שרת שאולי תרצה לארח בעצמך.
-
-[:octicons-home-16: Homepage](https://freedombox.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentation}
-[:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://freedomboxfoundation.org/donate){ .card-link title=Contribute }
-
-</details>
-
-</div>
-
 ## סנכרון קבצים
-
-### Nextcloud (שרת-לקוח)
-
-<div class="admonition recommendation" markdown>
-
-![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ align=right }
-
-**Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
-
-[:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://nextcloud.com/support){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribute }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
-- [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
-- [:fontawesome-brands-windows: Windows](https://nextcloud.com/install/#install-clients)
-- [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
-- [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
-
-</details>
-
-</div>
-
-<div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
-
-אנו לא ממליצים להשתמש ב-[E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) עבור Nextcloud מכיוון שהיא עלולה להוביל לאובדן נתונים; זה מאוד ניסיוני ולא איכות ייצור.
-
-</div>
 
 ### Syncthing (P2P)
 

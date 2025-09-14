@@ -1,5 +1,5 @@
 ---
-title: "檔案共享和同步"
+title: 檔案共享和同步
 icon: material/share-variant
 description: 探索如何在裝置之間、與朋友和家人在私底下分享檔案，甚至是匿名共享。
 cover: file-sharing.webp
@@ -23,11 +23,11 @@ If you already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarde
 
 **Send** 是分支自 Mozilla 已停止的 Firefox Send服務，它允許您使用鏈接將檔案發送給其他人。 檔案在您的裝置上已加密，因此無法被伺服器讀取，並且它們也可以選擇受密碼保護。 Send 維護者有託管自己的 [公開伺服器](https://send.vis.ee)。 你可以利用其他公開伺服器，也可以自行託管 Send。
 
-[:octicons-home-16: 首頁](https://send.vis.ee){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="公開伺服器列表"}
-[:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title=說明文件}
-[:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title=捐款 }
+[:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
+[:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title="Contribute" }
 
 </details>
 
@@ -47,10 +47,10 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 **OnionShare** 是一個開放原始碼工具，可讓您安全地 [:material-incognito: 匿名](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } 分享任何大小的檔案。 它的運作方式是啟動一個網路伺服器，使其以 Tor 洋蔥服務 的方式存取，並提供一個無法猜測的 URL，您可以與收件者分享該 URL 來下載或傳送檔案。
 
-[:octicons-home-16: 首頁](https://onionshare.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="洋蔥服務" }
-[:octicons-info-16:](https://docs.onionshare.org){ .card-link title=說明文件}
-[:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="原始碼" }
+[:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
+[:octicons-info-16:](https://docs.onionshare.org){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -74,59 +74,7 @@ OnionShare 提供透過 [Tor 橋接器](https://docs.onionshare.org/2.6.2/en/tor
 - 必須是開源軟體。
 - 必須有 Linux、macOS 和 Windows 用戶端；或 Web 網頁界面。
 
-## FreedomBox
-
-<div class="admonition recommendation" markdown>
-
-![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ align=right }
-
-**FreedomBox** 是設計在[單板電腦(SBC)](https://en.wikipedia.org/wiki/Single-board_computer)上執行的作業系統。 其目的是讓設定自主託管的伺服器應用程式變得容易。
-
-[:octicons-home-16: Homepage](https://freedombox.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentation}
-[:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://freedomboxfoundation.org/donate){ .card-link title=Contribute }
-
-</details>
-
-</div>
-
 ## 文件同步
-
-### Nextcloud (客戶端-伺服器)
-
-<div class="admonition recommendation" markdown>
-
-![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ align=right }
-
-**Nextcloud** 是一套自由和開放原始碼的用戶端及伺服器軟體，可在您控制的私人伺服器上建立自己的檔案託管服務。
-
-[:octicons-home-16: 首頁](https://nextcloud.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://nextcloud.com/support){ .card-link title=說明文件}
-[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=捐款 }
-
-<details class="downloads" markdown>
-<summary>下載</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
-- [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
-- [:fontawesome-brands-windows: Windows](https://nextcloud.com/install/#install-clients)
-- [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
-- [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
-
-</details>
-
-</div>
-
-<div class="admonition danger" markdown>
-<p class="admonition-title">Danger "危險"</p>
-
-我們不建議使用 Nextcloud [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) ，因為它可能會導致資料丟失；目前它仍是高度實驗性，未達穩定品質。
-
-</div>
 
 ### Syncthing （ P2P ）
 

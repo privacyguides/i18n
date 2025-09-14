@@ -1,5 +1,5 @@
 ---
-title: Cep telefonları
+title: "Cep telefonları"
 icon: material/cellphone-check
 description: These mobile devices provide the best hardware security support for custom Android operating systems.
 cover: android.webp
@@ -7,7 +7,7 @@ schema:
   - "@context": http://schema.org
     "@type": WebPage
     name: Mobile Phone Recommendations
-    url: ./
+    url: "./"
   - "@context": http://schema.org
     "@type": Product
     name: Pixel

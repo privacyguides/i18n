@@ -1,6 +1,6 @@
 ---
 meta_title: "Los Mejores Proveedores de Almacenamiento en la Nube Privado y Seguro - Privacy Guides"
-title: "Almacenamiento en la Nube"
+title: Almacenamiento en la Nube
 icon: material/file-cloud
 description: Muchos proveedores de almacenamiento en la nube exigen que confíes plenamente en que no mirarán tus archivos. Estas son alternativas privadas.
 cover: cloud.webp
@@ -18,7 +18,7 @@ Si estas alternativas no se ajustan a tus necesidades, te sugerimos que busques 
 <details class="admonition info" markdown>
 <summary>¿Buscando Nextcloud?</summary>
 
-Nextcloud [sigue siendo una herramienta recomendada](document-collaboration.md#nextcloud) para el autoalojamiento de una suite de gestión de archivos, sin embargo no recomendamos proveedores de almacenamiento Nextcloud de terceros por el momento, porque [no recomendamos](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) la funcionalidad E2EE incorporada de Nextcloud para usuarios domésticos.
+For more technical readers, Nextcloud is [still a recommended tool](self-hosting/file-management.md#nextcloud) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
 
 </details>
 
@@ -96,7 +96,7 @@ También han recibido el Sello de Confianza Digital, una certificación de la [S
 
 ![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
 
-**Peergos** es un protocolo descentralizado y una plataforma de código abierto para almacenamiento, redes sociales y aplicaciones. Proporciona un espacio seguro y privado donde los usuarios pueden almacenar, compartir y ver sus fotos, vídeos, documentos, etc. Peergos protege tus archivos con cifrado cuántico resistente de extremo a extremo y garantiza que todos los datos sobre tus archivos permanezcan privados.
+**Peergos** es un protocolo descentralizado y una plataforma de código abierto para almacenamiento, redes sociales y aplicaciones. Proporciona un espacio seguro y privado donde los usuarios pueden almacenar, compartir y ver sus fotos, vídeos, documentos, etc. Peergos secures your files with quantum-resistant E2EE and ensures all data about your files remains private.
 
 [:octicons-home-16: Página Principal](https://peergos.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://peergos.net/privacy.html){ .card-link title="Política de Privacidad" }

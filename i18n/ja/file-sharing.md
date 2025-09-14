@@ -1,5 +1,5 @@
 ---
-title: "ファイル共有と同期"
+title: ファイル共有と同期
 icon: material/share-variant
 description: デバイス間、友人や家族、または匿名でオンライン上でファイルをプライベートに共有する方法をご紹介します。
 cover: file-sharing.webp
@@ -24,10 +24,10 @@ If you already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarde
 **Send**は、廃止されたMozilla Firefox Sendサービスのフォークで、リンクを使って他の人にファイルを送ることができます。 ファイルはサーバーから読み取れないようにデバイス上で暗号化され、オプションでパスワードで保護することもできます。 Sendのメンテナーは[公開インスタンス](https://send.vis.ee)をホストしています。 他の公開インスタンスを使うこともできますし、Sendを自分でホストすることもできます。
 
 [:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="公開インスタンス"}
-[:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title=ドキュメンテーション}
-[:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="ソースコード" }
-[:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title=貢献 }
+[:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
+[:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title="Contribute" }
 
 </details>
 
@@ -47,10 +47,10 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 **OnionShare** is an open-source tool that lets you securely and [:material-incognito: anonymously](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } share a file of any size. Torオニオン・サービスとしてアクセスできるウェブサーバーを起動し、ファイルのダウンロードまたは送信に用いられる、推測不可能なURLをファイルの受信者と共有するという形で機能します。
 
-[:octicons-home-16: ホームページ](https://onionshare.org){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://docs.onionshare.org){ .card-link title=ドキュメント}
-[:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="ソースコード" }
+[:octicons-info-16:](https://docs.onionshare.org){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -74,59 +74,7 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 - オープンソースのソフトウェアであること。
 - Linux、macOS、Windows用のクライアントがあるか、ウェブインターフェースが備わっていること。
 
-## FreedomBox
-
-<div class="admonition recommendation" markdown>
-
-![FreedomBox ロゴ](assets/img/file-sharing-sync/freedombox.svg){ align=right }
-
-**FreedomBox**は、[シングルボードコンピュータ（SBC）](https://ja.wikipedia.org/wiki/%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%83%9C%E3%83%BC%E3%83%89%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF)上で動作するように設計されたオペレーティングシステムです。 目的は、自身でホストしたいサーバーアプリケーションを簡単に立ち上げられるようにすることです。
-
-[:octicons-home-16: ホームページ](https://freedombox.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=ドキュメント}
-[:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="ソースコード" }
-[:octicons-heart-16:](https://freedomboxfoundation.org/donate){ .card-link title=貢献 }
-
-</details>
-
-</div>
-
 ## ファイル同期
-
-### Nextcloud（クライアント・サーバー間）
-
-<div class="admonition recommendation" markdown>
-
-![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ align=right }
-
-**Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
-
-[:octicons-home-16: ホームページ](https://nextcloud.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="プライバシーポリシー" }
-[:octicons-info-16:](https://nextcloud.com/support){ .card-link title=ドキュメント}
-[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="ソースコード" }
-[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=貢献}
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
-- [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
-- [:fontawesome-brands-windows: Windows](https://nextcloud.com/install/#install-clients)
-- [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
-- [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
-
-</details>
-
-</div>
-
-<div class="admonition danger" markdown>
-<p class="admonition-title">警告</p>
-
-Nextcloudでの[E2EEアプリ](https://apps.nextcloud.com/apps/end_to_end_encryption)の使用は、データ損失の可能性があるため、推奨されません。
-
-</div>
 
 ### Syncthing（P2P）
 

@@ -13,6 +13,17 @@ El **autoalojamiento** de software y servicios puede ser una forma de lograr un 
 
 El autoalojamiento de tus propias soluciones requiere conocimientos técnicos avanzados y una profunda comprensión de los riesgos asociados. Al convertirte en anfitrión de ti mismo y, posiblemente, de otros, asumes responsabilidades que de otro modo no tendrías. El autoalojamiento inadecuado de software de privacidad puede dejarte en peor situación que, por ejemplo, el uso de un proveedor de servicios cifrados de extremo a extremo, por lo que es mejor evitarlo si aún no te sientes cómodo haciéndolo.
 
+## :material-dns: Filtrado de DNS
+
+<div class="grid cards" markdown>
+
+- ![AdGuard Home logo](../assets/img/self-hosting/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns-filtering.md#adguard-home)
+- ![Pi-Hole logo](../assets/img/self-hosting/pi-hole.svg){ .twemoji loading=lazy } [Pi-Hole](dns-filtering.md#pi-hole)
+
+</div>
+
+[Más información :material-arrow-right-drop-circle:](dns-filtering.md)
+
 ## :material-email: Servidores de Correo Electrónico
 
 <div class="grid cards" markdown>
@@ -25,16 +36,17 @@ El autoalojamiento de tus propias soluciones requiere conocimientos técnicos av
 
 [Más información :material-arrow-right-drop-circle:](email-servers.md)
 
-## :material-dns: Filtrado de DNS
+## :material-file-multiple-outline: File Management
 
 <div class="grid cards" markdown>
 
-- ![AdGuard Home logo](../assets/img/self-hosting/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns-filtering.md#adguard-home)
-- ![Pi-Hole logo](../assets/img/self-hosting/pi-hole.svg){ .twemoji loading=lazy } [Pi-Hole](dns-filtering.md#pi-hole)
+- ![PhotoPrism logo](../assets/img/self-hosting/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](file-management.md#photoprism)
+- ![FreedomBox logo](../assets/img/self-hosting/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-management.md#freedombox)
+- ![Nextcloud logo](../assets/img/self-hosting/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud](file-management.md#nextcloud)
 
 </div>
 
-[Más información :material-arrow-right-drop-circle:](dns-filtering.md)
+[Learn more :material-arrow-right-drop-circle:](file-management.md)
 
 ## :material-form-textbox-password: Gestión de Contraseñas
 
@@ -132,6 +144,14 @@ Las recomendaciones de herramientas en otras categorías del sitio web también 
 
 <div class="grid cards" markdown>
 
+- ![Peergos logo](../assets/img/cloud/peergos.svg){ .twemoji } [**Peergos**](../cloud.md#peergos)
+
+  ---
+
+  [:octicons-home-16:](https://peergos.org){ .card-link title="Homepage" }
+  [:octicons-info-16:](https://github.com/peergos/peergos#usage---running-locally-to-log-in-to-another-instance){ .card-link title="Admin Documentation" }
+  [:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Source Code" }
+
 - ![Addy.io logo](../assets/img/email-aliasing/addy.svg){ .twemoji } [**Addy.io**](../email-aliasing.md#addyio)
 
   ---
@@ -148,6 +168,14 @@ Las recomendaciones de herramientas en otras categorías del sitio web también 
   [:octicons-info-16:](https://github.com/simple-login/app#prerequisites){ .card-link title="Documentación de Administrador" }
   [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Código Fuente" }
 
+- ![Ente logo](../assets/img/photo-management/ente.svg){ .twemoji } [**Ente Photos**](../photo-management.md#ente-photos)
+
+  ---
+
+  [:octicons-home-16:](https://ente.io){ .card-link title="Homepage" }
+  [:octicons-info-16:](https://help.ente.io/self-hosting){ .card-link title="Admin Documentation" }
+  [:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
+
 - ![CryptPad logo](../assets/img/document-collaboration/cryptpad.svg){ .twemoji } [**CryptPad**](../document-collaboration.md#cryptpad)
 
   ---
@@ -155,6 +183,22 @@ Las recomendaciones de herramientas en otras categorías del sitio web también 
   [:octicons-home-16:](https://cryptpad.fr){ .card-link title="Página Principal" }
   [:octicons-info-16:](https://docs.cryptpad.org/en/admin_guide/index.html){ .card-link title="Documentación de Administrador" }
   [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Código Fuente" }
+
+- ![Send logo](../assets/img/file-sharing-sync/send.svg){ .twemoji } [**Send**](../file-sharing.md#send)
+
+  ---
+
+  [:octicons-home-16:](https://send.vis.ee){ .card-link title="Homepage" }
+  [:octicons-info-16:](https://github.com/timvisee/send/blob/master/docs/deployment.md){ .card-link title="Admin Documentation" }
+  [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
+
+- ![LibreTranslate logo](../assets/img/language-tools/libretranslate.png){ .twemoji } [**LibreTranslate**](../language-tools.md#libretranslate)
+
+  ---
+
+  [:octicons-home-16:](https://libretranslate.com){ .card-link title="Homepage" }
+  [:octicons-info-16:](https://docs.libretranslate.com){ .card-link title="Admin Documentation" }
+  [:octicons-code-16:](https://github.com/LibreTranslate/LibreTranslate){ .card-link title="Source Code" }
 
 - ![Miniflux logo](../assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](../assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [**Miniflux**](../news-aggregators.md#miniflux)
 

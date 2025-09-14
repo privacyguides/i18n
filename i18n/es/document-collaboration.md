@@ -1,7 +1,7 @@
 ---
-title: "Colaboración en Documentos"
+title: Colaboración en Documentos
 icon: material/account-group
-description: La mayoría de las paquetes de ofimática en línea no admiten E2EE, lo que significa que el proveedor de la nube tiene acceso a todo lo que haces.
+description: Most online office suites do not support end-to-end encryption, meaning the cloud provider has access to everything you do.
 cover: document-collaboration.webp
 ---
 
@@ -9,70 +9,34 @@ cover: document-collaboration.webp
 
 - [:material-server-network: Proveedores de Servicios](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-La mayoría de las paquetes de ofimática en línea no admiten E2EE, lo que significa que el proveedor de la nube tiene acceso a todo lo que haces. La política de privacidad del proveedor puede proteger legalmente tus derechos, pero no establece limitaciones técnicas de acceso.
+Most online **document collaboration** platforms like Google Drive do not support end-to-end encryption, meaning the cloud provider has access to everything you do. La política de privacidad del proveedor puede proteger legalmente tus derechos, pero no establece limitaciones técnicas de acceso.
 
-## Plataformas de Colaboración
-
-### Nextcloud
-
-<div class="admonition recommendation" markdown>
-
-![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ align=right }
-
-**Nextcloud** es un conjunto de programas cliente-servidor gratuitos y de código abierto para crear tus propios servicios de alojamiento de archivos en un servidor privado que tú controlas.
-
-[:octicons-home-16: Página Principal](https://nextcloud.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://nextcloud.com/support){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribuir }
-
-<details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
-- [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
-- [:fontawesome-brands-windows: Windows](https://nextcloud.com/install/#install-clients)
-- [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
-- [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
-
-</details>
-
-</div>
-
-<div class="admonition danger" markdown>
-<p class="admonition-title">Peligro</p>
-
-No recomendamos utilizar la [aplicación con cifrado de extremo a extremo](https://apps.nextcloud.com/apps/end_to_end_encryption) para Nextcloud, porque puede causar la pérdida de datos; esta es considerada como altamente experimental y no debe utilizarse en entornos de producción. Por esta razón, no recomendamos proveedores de Nextcloud de terceros.
-
-</div>
-
-### CryptPad
+## CryptPad
 
 <div class="admonition recommendation" markdown>
 
 ![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ align=right }
 
-**CryptPad** es una alternativa privada a las herramientas ofimáticas más populares. Todos los contenidos de este servicio web están cifrados de extremo a extremo y pueden compartirse fácilmente con otros usuarios. [:material-star-box: Lee nuestra última reseña de CryptPad.](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review)
+**CryptPad** is a private-by-design alternative to popular, full-fledged office suites. All content on this web service is E2EE and can be shared with other users easily.
 
-[:octicons-home-16: Página Principal](https://cryptpad.fr){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://docs.cryptpad.fr){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title=Contribuir }
+[:material-star-box: Lee nuestra última reseña de CryptPad.](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review)
+
+[:octicons-home-16: Homepage](https://cryptpad.fr){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE){ .card-link title="Privacy Policy" }
+[:octicons-server-16:](https://cryptpad.org/instances){ .card-link title="Public Instances" }
+[:octicons-info-16:](https://docs.cryptpad.fr){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title="Contribute" }
 
 </details>
 
 </div>
 
-### Criterios
+## Criterios
 
 **Por favor, ten en cuenta que no estamos afiliados a ninguno de los proyectos que recomendamos.** Además de [nuestros criterios estándar](about/criteria.md), hemos desarrollado un conjunto claro de requisitos que nos permiten ofrecer recomendaciones objetivas. Sugerimos que te familiarices con esta lista, antes de decidir utilizar un proyecto y realizar tu propia investigación para asegurarte de que es la elección ideal para ti.
 
-#### Requisitos Mínimos
-
-En general, definimos las plataformas de colaboración como paquetes completos que razonablemente podrían actuar como sustituto de Google Drive.
+### Requisitos Mínimos
 
 - Debe ser de código abierto.
 - Debe hacer que los archivos sean accesibles a través de WebDAV a menos que sea imposible debido al E2EE.
@@ -81,7 +45,7 @@ En general, definimos las plataformas de colaboración como paquetes completos q
 - Debe permitir la colaboración documental en tiempo real.
 - Debe admitir la exportación de documentos a formatos de documento estándar (por ejemplo, ODF).
 
-#### Mejor Caso
+### Mejor Caso
 
 Nuestro criterio del mejor caso representa lo que nos gustaría ver del proyecto perfecto en esta categoría. Es posible que nuestras recomendaciones no incluyan todas o algunas de estas funciones, pero las que sí las incluyan pueden estar mejor clasificadas que otras en esta página.
 

@@ -164,7 +164,7 @@ Ce format est utilisé pour générer des cartes de recommandation. Il manque no
 ```markdown title="Recommendation Card"
 <div class="admonition recommendation" markdown>
 
-![PhotoPrism logo](assets/img/photo-management/photoprism.svg){ align=right }
+![PhotoPrism logo](assets/img/self-hosting/photoprism.svg){ align=right }
 
 **PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
 
@@ -173,13 +173,6 @@ Ce format est utilisé pour générer des cartes de recommandation. Il manque no
 [:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
 
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-github: GitHub](https://github.com/photoprism)
-
-</details>
-
 </div>
 ```
 
@@ -187,7 +180,7 @@ Ce format est utilisé pour générer des cartes de recommandation. Il manque no
 
 <div class="admonition recommendation" markdown>
 
-![logo PhotoPrism](../assets/img/photo-management/photoprism.svg){ align=right }
+![PhotoPrism logo](../assets/img/self-hosting/photoprism.svg){ align=right }
 
 **PhotoPrism** is a self-hostable platform for managing photos. Elle prend en charge la synchronisation et le partage d'albums ainsi qu'une variété d'autres [fonctionnalités](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
 
@@ -195,13 +188,6 @@ Ce format est utilisé pour générer des cartes de recommandation. Il manque no
 [:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-github: GitHub](https://github.com/photoprism)
-
-</details>
 
 </div>
 

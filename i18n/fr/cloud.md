@@ -1,6 +1,6 @@
 ---
 meta_title: "Les meilleurs services de stockage cloud privés et sécurisés - Privacy Guides"
-title: "Stockage cloud"
+title: Stockage cloud
 icon: material/file-cloud
 description: De nombreux fournisseurs de stockage cloud nécessitent que vous leur fassiez confiance pour ne pas consulter vos fichiers. Voici des alternatives privées !
 cover: cloud.webp
@@ -18,7 +18,7 @@ Si ces alternatives ne répondent pas à vos besoins, nous vous suggérons d'uti
 <details class="admonition info" markdown>
 <summary>Vous cherchez Nextcloud ?</summary>
 
-Nextcloud est [toujours un outil recommandé](document-collaboration.md#nextcloud) en tant que gestionnaire de fichiers en auto-hébergement, cependant nous ne recommandons pas les fournisseurs tiers de stockage Nextcloud pour le moment car nous ne [recommandons pas](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) la fonctionnalité chiffrement en de bout en bout porposé par Nextcloud pour les utilisateurs moyens.
+For more technical readers, Nextcloud is [still a recommended tool](self-hosting/file-management.md#nextcloud) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
 
 </details>
 
@@ -96,7 +96,7 @@ Tresorit est également certifié par le Digital Trust Label, délivrée par la 
 
 ![Logo de Peergos](assets/img/cloud/peergos.svg){ align=right }
 
-**Peergos** est un protocole décentralisé et une plateforme open-source pour le stockage, les réseaux sociaux et les applications. Peergos fournit un espace privé et sécurisé où les utilisateurs peuvent stocker, partager, et consulter leurs photos, vidéos, documents, etc. Il sécurise vos fichiers grâce à un chiffrement de bout en bout post-quantique (quantum-resistant) et garanti la confidentialité de tous vos fichiers.
+**Peergos** est un protocole décentralisé et une plateforme open-source pour le stockage, les réseaux sociaux et les applications. Peergos fournit un espace privé et sécurisé où les utilisateurs peuvent stocker, partager, et consulter leurs photos, vidéos, documents, etc. Peergos secures your files with quantum-resistant E2EE and ensures all data about your files remains private.
 
 [:octicons-home-16: Page d'Accueil](https://peergos.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://peergos.net/privacy.html){ .card-link title="Politique de Confidentialité" }

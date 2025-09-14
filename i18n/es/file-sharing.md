@@ -1,5 +1,5 @@
 ---
-title: "Compartir y sincronizar archivos"
+title: Compartir y sincronizar archivos
 icon: material/share-variant
 description: Descubra cómo puede compartir de manera privada sus archivos entre sus dispositivos, con sus amigos y familia, o de manera anónima en línea.
 cover: file-sharing.webp
@@ -23,11 +23,11 @@ Si ya utiliza [Proton Drive](cloud.md#proton-drive)[^1] o tiene una suscripción
 
 **Send** es una bifurcación del descontinuado servicio Firefox Send de Mozilla que le permite enviar archivos a otros con un enlace. Los archivos son encriptados en su dispositivo, lo que no permite que sean leídos por el servidor y, opcionalmente, también pueden protegerse por una contraseña. El responsable de mantener Send alberga una [instancia pública](https://send.vis.ee). Puede utilizar otras instancias públicas o puede alojar Send usted mismo.
 
-[:octicons-home-16: Página principal](https://send.vis.ee){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
 [:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title=Contribute }
+[:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title="Contribute" }
 
 </details>
 
@@ -47,10 +47,10 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 **OnionShare** es una herramienta de código abierto que permite compartir de forma segura y [:material-incognito: anónima](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } archivos de cualquier tamaño. Funciona iniciando un servidor web accesible como un servicio onion de Tor, con un enlace indescifrable que se puede compartir con los receptores para descargar o enviar archivos.
 
-[:octicons-home-16: Página Principal](https://onionshare.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Servicio Onion" }
-[:octicons-info-16:](https://docs.onionshare.org){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Código Fuente" }
+[:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
+[:octicons-info-16:](https://docs.onionshare.org){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>
@@ -74,59 +74,7 @@ OnionShare ofrece la opción de conectarse a través de [puentes tor](https://do
 - Debe ser un programa de código abierto.
 - Debe tener clientes para Linux, macOS y Winwos; o tener una interfaz web.
 
-## FreedomBox
-
-<div class="admonition recommendation" markdown>
-
-![FreedomBox logo](assets/img/file-sharing-sync/freedombox.svg){ align=right }
-
-**FreedomBox** es un sistema operativo diseñado para correr en una [computadora de placa única (SBC, por sus siglas en inglés)](https://en.wikipedia.org/wiki/Single-board_computer). El propósito es facilitar la configuración de aplicaciones que requieran un servidor y se puedan alojar por usted mismo.
-
-[:octicons-home-16: Página Principal](https://freedombox.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentación}
-[:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://freedomboxfoundation.org/donate){ .card-link title=Contribuir }
-
-</details>
-
-</div>
-
 ## Sincronización de archivos
-
-### Nextcloud (Cliente-Servidor)
-
-<div class="admonition recommendation" markdown>
-
-![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ align=right }
-
-**Nextcloud** es un conjunto de programas cliente-servidor gratuitos y de código abierto para crear sus propios servicios de alojamiento de archivos en un servidor privado que usted controla.
-
-[:octicons-home-16: Página Principal](https://nextcloud.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Política de Privacidad" }
-[:octicons-info-16:](https://nextcloud.com/support){ .card-link title=Documentación}
-[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Código Fuente" }
-[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribuir }
-
-<details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
-- [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
-- [:fontawesome-brands-windows: Windows](https://nextcloud.com/install/#install-clients)
-- [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
-- [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
-
-</details>
-
-</div>
-
-<div class="admonition danger" markdown>
-<p class="admonition-title">Peligro</p>
-
-No recomendamos utilizar la [aplicación con cifrado de extremo a extremo](https://apps.nextcloud.com/apps/end_to_end_encryption) para Nextcloud, porque puede causar la pérdida de datos; esta es considerada como altamente experimental y no debe utilizarse en entornos de producción.
-
-</div>
 
 ### Syncthing (P2P)
 

@@ -1,5 +1,5 @@
 ---
-title: "파일 공유 및 동기화"
+title: 파일 공유 및 동기화
 icon: material/share-variant
 description: 기기 간에, 친구 및 가족과, 혹은 익명으로 온라인 상에서 파일을 개인적으로 공유하는 방법을 알아보세요.
 cover: file-sharing.webp
@@ -23,11 +23,11 @@ If you already use [Proton Drive](cloud.md#proton-drive)[^1] or have a [Bitwarde
 
 **Send** is a fork of Mozilla's discontinued Firefox Send service which allows you to send files to others with a link. 파일은 기기에서 암호화되기 때문에 서버에서는 읽을 수 없으며, 원하는 경우 비밀번호로 보호할 수도 있습니다. The maintainer of Send hosts a [public instance](https://send.vis.ee). 다른 공개 인스턴스를 사용할 수도 있으며, 여러분이 직접 Send를 호스팅하는 것도 가능합니다.
 
-[:octicons-home-16: 홈페이지](https://send.vis.ee){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="공개 인스턴스"}
-[:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title=문서}
-[:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="소스 코드" }
-[:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title=기부 }
+[:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
+[:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title="Contribute" }
 
 </details>
 
@@ -49,7 +49,7 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 [:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://docs.onionshare.org){ .card-link title=Documentation}
+[:octicons-info-16:](https://docs.onionshare.org){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -74,59 +74,7 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 - 오픈 소스 소프트웨어여야 합니다.
 - Linux, macOS, Windows 클라이언트를 제공하거나, 웹 인터페이스가 존재해야 합니다.
 
-## FreedomBox
-
-<div class="admonition recommendation" markdown>
-
-![FreedomBox 로고](assets/img/file-sharing-sync/freedombox.svg){ align=right }
-
-**FreedomBox**는 [SBC(Single Board Computer)](https://ko.wikipedia.org/wiki/%EB%8B%A8%EC%9D%BC_%EB%B3%B4%EB%93%9C_%EC%BB%B4%ED%93%A8%ED%84%B0)에서 구동되도록 설계된 운영체제입니다. 자체 호스팅 서버 애플리케이션을 간편하게 설정할 수 있도록 하는 것이 FreedomBox의 목표입니다.
-
-[:octicons-home-16: Homepage](https://freedombox.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title=Documentation}
-[:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://freedomboxfoundation.org/donate){ .card-link title=Contribute }
-
-</details>
-
-</div>
-
 ## 파일 동기화
-
-### Nextcloud (클라이언트-서버 방식)
-
-<div class="admonition recommendation" markdown>
-
-![Nextcloud logo](assets/img/document-collaboration/nextcloud.svg){ align=right }
-
-**Nextcloud** is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control.
-
-[:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://nextcloud.com/support){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title=Contribute }
-
-<details class="downloads" markdown>
-<summary>Downloads</summary>
-
-- [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.nextcloud.client)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id1125420102)
-- [:simple-github: GitHub](https://github.com/nextcloud/android/releases)
-- [:fontawesome-brands-windows: Windows](https://nextcloud.com/install/#install-clients)
-- [:simple-apple: macOS](https://nextcloud.com/install/#install-clients)
-- [:simple-linux: Linux](https://nextcloud.com/install/#install-clients)
-
-</details>
-
-</div>
-
-<div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
-
-Privacy Guides는 Nextcloud용 [E2EE 앱](https://apps.nextcloud.com/apps/end_to_end_encryption)을 사용하는 것을 권장드리지 않습니다. 데이터 손실이 발생할 수 있고, 실험적인 성향이 강하며, 실사용할 만한 품질이 아니기 때문입니다.
-
-</div>
 
 ### Syncthing (P2P 방식)
 

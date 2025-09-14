@@ -1,5 +1,5 @@
 ---
-title: Office Suites
+title: "Office Suites"
 icon: material/file-edit-outline
 description: These office suites offer their full functionality without an account and can be used offline.
 cover: office-suites.webp
@@ -48,9 +48,9 @@ Choose an **office suite** that does not require logging in to an account to acc
 **OnlyOffice** is a cloud-based free and open-source office suite with extensive functionality, including integration with Nextcloud.
 
 [:octicons-home-16: Hemsida](https://onlyoffice.com){ .md-button .md-button--primary }
-:octicons-eye-16:{ .card-link title="Integritetspolicy" }
-:octicons-info-16:{ .card-link title=Dokumentation}
-:octicons-code-16:{ .card-link title="Källkod" }
+[:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Integritetspolicy" }
+[:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Dokumentation}
+[:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Källkod" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
