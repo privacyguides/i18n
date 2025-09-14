@@ -1,6 +1,6 @@
 ---
 meta_title: "暗号化プライベートメールのおすすめ - Privacy Guides"
-title: "メールサービス"
+title: メールサービス
 icon: material/email
 description: これらの電子メールプロバイダはメールを安全に保存するのに最適な場所で、多くは他のプロバイダと相互運用可能なOpenPGP暗号化を提供しています。
 cover: email.webp
@@ -22,11 +22,11 @@ global:
 
 それ以外にも、持続可能なビジネスモデル、組み込まれたセキュリティーとプライバシー機能に基づき、様々な電子メールプロバイダーを推奨します。 詳細については、[基準の完全なリスト](#criteria)をお読みください。
 
-| プロバイダー                      | OpenPGP / WKD                          | IMAP / SMTP                                        | ゼロアクセス暗号化                                        | 匿名での支払方法                  |
-| --------------------------- | -------------------------------------- | -------------------------------------------------- | ------------------------------------------------ | ------------------------- |
-| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } 有料プランのみ | :material-check:{ .pg-green }                    | 現金                        |
-| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                      | :material-information-outline:{ .pg-blue } メールのみ | 現金                        |
-| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }             | :material-check:{ .pg-green }                    | Monero<br>第三者経由での現金 |
+| プロバイダー                        | OpenPGP / WKD                          | IMAP / SMTP                                        | ゼロアクセス暗号化                                        | 匿名での支払方法                  |
+| ----------------------------- | -------------------------------------- | -------------------------------------------------- | ------------------------------------------------ | ------------------------- |
+| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } 有料プランのみ | :material-check:{ .pg-green }                    | 現金                        |
+| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                      | :material-information-outline:{ .pg-blue } メールのみ | 現金                        |
+| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }             | :material-check:{ .pg-green }                    | Monero<br>第三者経由での現金 |
 
 推奨するEメールプロバイダーに加え（もしくは代わりに）、プライバシー保護のために[Eメールエイリアスサービス](email-aliasing.md#recommended-providers)を検討してください。 特に、スパムから実際の受信トレイを保護し、企業のマーケティング活動によるアカウントの関連付けを防ぎ、すべての受信メールをPGPで暗号化することができます。
 
@@ -34,12 +34,12 @@ global:
 
 ## OpenPGP対応サービス
 
-OpenPGPによる暗号化・復号化や[Web Key Directory(WKD)標準](basics/email-security.md#what-is-the-web-key-directory-standard)をネイティブサポートしているプロバイダーでは、プロバイダーに依存しないエンドツーエンド暗号化メールが利用可能です。 例えば、Proton MailのユーザはMailbox.orgのユーザにE2EEメッセージを送れますし、OpenPGPで暗号化された通知を、それをサポートするインターネットサービスから受け取ることができます。
+OpenPGPによる暗号化・復号化や[Web Key Directory(WKD)標準](basics/email-security.md#what-is-the-web-key-directory-standard)をネイティブサポートしているプロバイダーでは、プロバイダーに依存しないエンドツーエンド暗号化メールが利用可能です。 For example, a Proton Mail user could send an E2EE message to a Mailbox Mail user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
-- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
+- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
 
 </div>
 
@@ -123,13 +123,13 @@ Proton MailではProtonアカウントの公開鍵をWKDからHTTP経由で公�
 
 Proton Mailの[Unlimited](https://proton.me/support/proton-plans#proton-unlimited)プランでは複数のカスタムドメイン、無制限のEメールエイリアスや500GBのストレージに加え、その他のProtonサービスを利用することができます。
 
-### Mailbox.org
+### Mailbox Mail
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
+![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
 
-**Mailbox.org**は安全性、広告がないこと、100%エコフレンドリーなエネルギーであることを重視したEメールサービスです。 2014年から運営をされています。 Mailbox.orgはドイツのベルリンに拠点を置いています。
+**Mailbox Mail** is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. 2014年から運営をされています。 Mailbox Mail is based in Berlin, Germany.
 
 各アカウントには最大2GBのストレージが割当てられ、必要に応じてアップグレードできます。
 
@@ -148,27 +148,27 @@ Proton Mailの[Unlimited](https://proton.me/support/proton-plans#proton-unlimite
 
 #### :material-check:{ .pg-green } カスタムドメインとエイリアス
 
-Mailbox.orgでは独自ドメインを使うことができ、[キャッチオール](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name)アドレスにも対応している。 Mailbox.orgはドメインを購入したくない場合に有用な[サブアドレス](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it)にも対応しています。
+Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } プライベートな支払い方法
 
-Mailbox.orgは決済プロセッサBitPayがドイツでの業務を停止したために暗号通貨を受け付けていません。 郵送による**現金払い**、銀行口座への**銀金払い**、銀行振込、クレジットカード、Paypalとドイツの支払いサービスであるPaydirektとSofortüberweisungに対応しています。
+Mailbox Mail doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. 郵送による**現金払い**、銀行口座への**銀金払い**、銀行振込、クレジットカード、Paypalとドイツの支払いサービスであるPaydirektとSofortüberweisungに対応しています。
 
 #### :material-check:{ .pg-green } アカウントのセキュリティ
 
-Mailbox.orgはウェブメールに限り、[二要素認証](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa)に対応しています。 TOTPもしくは[YubiCloud](https://yubico.com/products/services-software/yubicloud)経由の[YubiKey](https://en.wikipedia.org/wiki/YubiKey)を利用できます。 [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online)などのウェブ標準にはまだ対応していません。
+Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](security-keys.md#yubikey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online)などのウェブ標準にはまだ対応していません。
 
 #### :material-information-outline:{ .pg-blue } データのセキュリティ
 
-Mailbox.orgでは[暗号化されたメールボックス](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox)により受信メールを暗号化することができます。 新しいメッセージを受信するとすぐにあなたの公開鍵で暗号化されます。
+Mailbox Mail allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). 新しいメッセージを受信するとすぐにあなたの公開鍵で暗号化されます。
 
-ただし、Mailbox.orgが利用している[Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange)はアドレス帳やカレンダーの暗号化に[対応していません](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book)。 [カレンダーサービス](calendar.md)のほうが情報をより適切に扱えるかもしれません。
+However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. [カレンダーサービス](calendar.md)のほうが情報をより適切に扱えるかもしれません。
 
 #### :material-check:{ .pg-green } メールの暗号化
 
-Mailbox.orgのウェブメールは[暗号化機能が組みこまれており](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard)、OpenPGP公開鍵を持つ人へのメッセージの送信が簡単にできます。 Mailbox.orgのサーバー上で[受信者がEメールの復号化をすることもできます](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp)。 この機能はリモートの受信者がOpenPGPを持っておらず、自分のメールボックスにあるメールのコピーを複合できない場合に便利です。
+Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox Mail's servers. この機能はリモートの受信者がOpenPGPを持っておらず、自分のメールボックスにあるメールのコピーを複合できない場合に便利です。
 
-Mailbox.orgはWKDによりHTTP経由で公開鍵を探索することにも対応しています。 Mailbox.orgを使っていない人でもMailbox.orgのOpenPGP鍵を簡単に見つけることができ、プロバイダーをまたいだエンドツーエンド暗号化が可能になります。 `@mailbox.org`のようなMailbox.orgが小勇するドメインで終わるメールアドレスのみ対象です。 カスタムドメインを使用する場合、別途[WKDの設定](basics/email-security.md#what-is-the-web-key-directory-standard)が必要になります。
+Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. カスタムドメインを使用する場合、別途[WKDの設定](basics/email-security.md#what-is-the-web-key-directory-standard)が必要になります。
 
 #### :material-information-outline:{ .pg-blue } アカウントの停止
 
@@ -176,11 +176,11 @@ Mailbox.orgはWKDによりHTTP経由で公開鍵を探索することにも対�
 
 #### :material-information-outline:{ .pg-blue } 追加機能
 
-Mailbox.orgの[.onionサービス](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org)を利用し、IMAP/SMTP経由でMailbox.orgのアカウントにアクセスできます。 ただし、.onionサービスからウェブメールにはアクセスできず、TLS証明書エラーが発生する可能性があります。
+You can access your Mailbox Mail account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). ただし、.onionサービスからウェブメールにはアクセスできず、TLS証明書エラーが発生する可能性があります。
 
-すべてのアカウントで[暗号化可能な](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive)制限付きクラウドストレージが利用できます。 Mailbox.orgには[@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely)というメールサーバー間の接続にTLS暗号化が必須であるエイリアスもあり、TLS暗号化がなければメッセージは全く送信できません。 Mailbox.orgはIMAPやPOP3のような標準的なアクセスプロトコルに加え、 [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) もサポートしています。
+すべてのアカウントで[暗号化可能な](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive)制限付きクラウドストレージが利用できます。 Mailbox Mail also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox Mail also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
 
-Mailbox.orgの全てのプランにはデジタル遺産機能があります。 相続人が申請し、遺言状が提出されることを条件に、利用者のデータを相続人に渡すこともできます。 または、名前と住所で人を指名することもできます。
+Mailbox Mail has a digital legacy feature for all plans. 相続人が申請し、遺言状が提出されることを条件に、利用者のデータを相続人に渡すこともできます。 または、名前と住所で人を指名することもできます。
 
 ## その他のプロバイダ
 
@@ -188,7 +188,7 @@ Mailbox.orgの全てのプランにはデジタル遺産機能があります。
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](email.md#tuta)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
 
 </div>
 

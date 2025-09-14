@@ -1,6 +1,6 @@
 ---
 meta_title: "Titkosított privát e-mail ajánlások – Privacy Guides"
-title: "Email szolgáltatások"
+title: Email szolgáltatások
 icon: material/email
 description: Ezek az e-mail szolgáltatók nagyszerű helyet kínálnak az e-mailek biztonságos tárolására, és sokan kínálnak más szolgáltatókkal együttműködő OpenPGP titkosítást.
 cover: email.webp
@@ -22,11 +22,11 @@ Az email gyakorlatilag elengedhetetlen bármilyen online szolgáltatás használ
 
 Minden más esetre olyan emailszolgáltatókat ajánlunk, amelyek fenntartható üzleti modelleken és beépített biztonsági, adat- és magánéletvédelmi funkciókon alapulnak. Read our [full list of criteria](#criteria) for more information.
 
-| Provider                    | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero-Access Encryption                               | Anonymous Payment Methods             |
-| --------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------- |
-| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | Cash                                  |
-| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | Cash                                  |
-| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero <br>Cash via third party |
+| Provider                      | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero-Access Encryption                               | Anonymous Payment Methods             |
+| ----------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------- |
+| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | Cash                                  |
+| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | Cash                                  |
+| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero <br>Cash via third party |
 
 In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md#recommended-providers) to protect your privacy. Ezek a szolgáltatások többek között segíthetnek megvédeni a valódi potaládádat a spamektől, megakadályozhatják, hogy a marketingesek összekapcsolják a fiókjaidat, és PGP-vel titkosíthatják az összes bejövő üzenetedet.
 
@@ -34,12 +34,12 @@ In addition to (or instead of) an email provider recommended here, you may wish 
 
 ## OpenPGP-kompatibilis szolgáltatások
 
-These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic end-to-end encrypted emails. Például egy Proton Mail felhasználó küldhet végponttól-végpontig titkosított üzenetet egy Mailbox.org felhasználónak, de fogadhatsz OpenPGP-titkosított értesítéseket olyan internetes szolgáltatásoktól is, amelyek támogatják azt.
+These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic end-to-end encrypted emails. For example, a Proton Mail user could send an E2EE message to a Mailbox Mail user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
-- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
+- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
 
 </div>
 
@@ -123,13 +123,13 @@ Ha előfizetéssel rendelkezel, de 14 napon túli [fizetetlen számlád](https:/
 
 Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
 
-### Mailbox.org
+### Mailbox Mail
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
+![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
 
-**Mailbox.org** is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. 2014 óta működnek. A Mailbox.org székhelye Berlinben, Németországban található.
+**Mailbox Mail** is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. 2014 óta működnek. Mailbox Mail is based in Berlin, Germany.
 
 Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
@@ -148,27 +148,27 @@ Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
 #### :material-check:{ .pg-green } Egyedi domainek és álnevek
 
-A Mailbox.org lehetővé teszi a saját domain használatáz, és támogatja a [gyűjtőcímeket](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name). A Mailbox.org támogatja az [alcímzést](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it) is, ami akkor hasznos, ha nem szeretne domain-t vásárolni.
+Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } Privát fizetési módok
 
-A Mailbox.org nem fogad el semmilyen kriptovalutát, mivel a fizetési szolgáltatójuk, a BitPay felfüggesztette működését Németországban. However, they do accept **cash** by mail, **cash** payment to bank account, bank transfer, credit card, PayPal, and a couple of German-specific processors: Paydirekt and Sofortüberweisung.
+Mailbox Mail doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept **cash** by mail, **cash** payment to bank account, bank transfer, credit card, PayPal, and a couple of German-specific processors: Paydirekt and Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Fiók biztonsága
 
-Mailbox.org supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. A TOTP vagy a [YubiKey](https://en.wikipedia.org/wiki/YubiKey) a [YubiCloudon](https://yubico.com/products/services-software/yubicloud) keresztül használható. Web standards such as [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) are not yet supported.
+Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](security-keys.md#yubikey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) are not yet supported.
 
 #### :material-information-outline:{ .pg-blue } Adatbiztonság
 
-A Mailbox.org lehetővé teszi a bejövő levelek titkosítását a [titkosított postafiók](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox) segítségével. A kapott új üzeneteket ezután azonnal titkosítja a nyilvános kulcsával.
+Mailbox Mail allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). A kapott új üzeneteket ezután azonnal titkosítja a nyilvános kulcsával.
 
-However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox.org, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that data.
+However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that data.
 
 #### :material-check:{ .pg-green } E-mail titkosítás
 
-A Mailbox.org webmailbe [beépített titkosítást](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) alkalmaz, ami leegyszerűsíti az üzenetek küldését nyilvános OpenPGP-kulcsokkal rendelkező személyeknek. Lehetővé teszik továbbá, hogy a [távoli címzettek visszafejtsenek egy e-mailt](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) a Mailbox.org szerverein. Ez a funkció akkor hasznos, ha a távoli címzett nem rendelkezik OpenPGP-vel, és nem tudja visszafejteni az e-mail másolatát a saját postafiókjában.
+Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox Mail's servers. Ez a funkció akkor hasznos, ha a távoli címzett nem rendelkezik OpenPGP-vel, és nem tudja visszafejteni az e-mail másolatát a saját postafiókjában.
 
-Mailbox.org also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox.org to find the OpenPGP keys of Mailbox.org accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox.org's own domains, like `@mailbox.org`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
 
 #### :material-information-outline:{ .pg-blue } Fiók megszüntetése
 
@@ -176,11 +176,11 @@ Your account will be set to a restricted user account when your contract ends. I
 
 #### :material-information-outline:{ .pg-blue } További funkciók
 
-A Mailbox.org fiók a [.onion szolgáltatásuk](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org) segítségével IMAP/SMTP-n keresztül is elérhető. However, their webmail interface cannot be accessed via their .onion service, and you may experience TLS certificate errors.
+You can access your Mailbox Mail account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). However, their webmail interface cannot be accessed via their .onion service, and you may experience TLS certificate errors.
 
-Minden fiókhoz korlátozott felhőalapú tárhely tartozik, amely [titkosítható](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). A mailbox.org kínálja a [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely) aliast is, amely érvényesíti a TLS titkosítást a levelezőszerverek közötti kapcsolaton, ennek hiányában az üzenet egyáltalán nem lesz elküldve. A Mailbox.org támogatja az [Exchange ActiveSync-et](https://en.wikipedia.org/wiki/Exchange_ActiveSync) is a szabványos hozzáférési protokollok, például az IMAP és a POP3 mellett.
+Minden fiókhoz korlátozott felhőalapú tárhely tartozik, amely [titkosítható](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox Mail also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox Mail also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
 
-A Mailbox.org minden előfizetési csomagban rendelkezik digitális örökség funkcióval. You can choose whether you want any of your data to be passed to heirs, providing that they apply and provide your testament. Alternatívaként nevet és címet is megadhatsz egy személynek.
+Mailbox Mail has a digital legacy feature for all plans. You can choose whether you want any of your data to be passed to heirs, providing that they apply and provide your testament. Alternatívaként nevet és címet is megadhatsz egy személynek.
 
 ## További szolgáltatók
 
@@ -188,7 +188,7 @@ Ezek a szolgáltatók zéró hozzáférésű titkosítással tárolják az e-mai
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](email.md#tuta)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
 
 </div>
 

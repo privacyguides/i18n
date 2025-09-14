@@ -205,13 +205,13 @@ If you're looking for added **security**, you should always ensure you're connec
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
 
-- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji } **Mailbox.org**
+- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ .lg .middle .twemoji } **Mailbox Mail**
 
     ---
 
-    Mailbox.org is an email service with a focus on being secure, ad-free, and privately powered by 100% eco-friendly energy. 2014年から運営をされています。 Mailbox.orgはドイツのベルリンに拠点を置いています。 各アカウントには最大2GBのストレージが割当てられ、必要に応じてアップグレードできます。
+    Mailbox Mail is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. 2014年から運営をされています。 Mailbox Mail is based in Berlin, Germany. 各アカウントには最大2GBのストレージが割当てられ、必要に応じてアップグレードできます。
 
-    [Read Full Review :material-arrow-right-drop-circle:](email.md#mailboxorg)
+    [Read Full Review :material-arrow-right-drop-circle:](email.md#mailbox-mail)
 
 - ![Tuta logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
 

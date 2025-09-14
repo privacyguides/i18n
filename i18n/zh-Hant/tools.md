@@ -203,21 +203,21 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
     Proton Mail 是一個注重隱私、加密、安全和易用性的電子郵件服務。 他們自 2013 年起開始營運。 Proton AG 的總部位於瑞士日內瓦。 The Proton Mail Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
 
-    [閱讀我們的完整評論 :material-arrow-right-drop-circle:](email.md#proton-mail)
+    [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
 
-- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji } **Mailbox.org**
+- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ .lg .middle .twemoji } **Mailbox Mail**
 
     ---
 
-    Mailbox.org 是一個專注於安全、無廣告的電子郵件服務，其使用來自民營企業的 100% 環保能源。 自 **2014 年** 開始運營。 Mailbox.org  總部位於德國柏林。 Accounts start with up to 2 GB storage, which can be upgraded as needed.
+    Mailbox Mail is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. 自 **2014 年** 開始運營。 Mailbox Mail is based in Berlin, Germany. Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
-    [閱讀完整評論 :material-arrow-right-drop-circle:](email.md#mailboxorg)
+    [Read Full Review :material-arrow-right-drop-circle:](email.md#mailbox-mail)
 
 - ![Tuta logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
 
     ---
 
-    Tuta（以前稱為 *Tutanota*）是一個透過使用加密技術來專注於安全與隱私的電子郵件服務。 Tuta 自 2011 年開始營運，總部位於德國漢諾威。 Free accounts start with 1 GB of storage.
+    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta 自 2011 年開始營運，總部位於德國漢諾威。 Free accounts start with 1 GB of storage.
 
     [閱讀完整評論 :material-arrow-right-drop-circle:](email.md#tuta)
 

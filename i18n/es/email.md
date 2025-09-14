@@ -1,6 +1,6 @@
 ---
 meta_title: "Recomendaciones de Correo Electrónico Privado Cifrado - Privacy Guides"
-title: "Servicios de Correo Electrónico"
+title: Servicios de Correo Electrónico
 icon: material/email
 description: Estos proveedores de correo electrónico ofrecen un lugar estupendo para almacenar tus correos de forma segura, y muchos ofrecen encriptación OpenPGP inter operable con otros proveedores.
 cover: email.webp
@@ -22,11 +22,11 @@ El correo electrónico es prácticamente una necesidad para utilizar cualquier s
 
 Para todo lo demás, recomendamos una variedad de proveedores de correo electrónico basados en modelos sostenibles, además de características de seguridad y privacidad integradas. Lee nuestra \[lista completa de criterios\](#criterios) para más información.
 
-| Proveedor                   | OpenPGP / WKD                          | IMAP / SMTP                                                       | Cifrado de Acceso Cero                                    | Métodos de Pago Anónimos                       |
-| --------------------------- | -------------------------------------- | ----------------------------------------------------------------- | --------------------------------------------------------- | ---------------------------------------------- |
-| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Sólo en planes de pago | :material-check:{ .pg-green }                             | Efectivo                                       |
-| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                     | :material-information-outline:{ .pg-blue } Sólo el correo | Efectivo                                       |
-| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                            | :material-check:{ .pg-green }                             | Monero <br>Efectivo a través de terceros |
+| Proveedor                     | OpenPGP / WKD                          | IMAP / SMTP                                                       | Cifrado de Acceso Cero                                    | Métodos de Pago Anónimos                       |
+| ----------------------------- | -------------------------------------- | ----------------------------------------------------------------- | --------------------------------------------------------- | ---------------------------------------------- |
+| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Sólo en planes de pago | :material-check:{ .pg-green }                             | Efectivo                                       |
+| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                     | :material-information-outline:{ .pg-blue } Sólo el correo | Efectivo                                       |
+| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                            | :material-check:{ .pg-green }                             | Monero <br>Efectivo a través de terceros |
 
 Además de (o en lugar de) un proveedor de correo electrónico recomendado aquí, es posible que desees considerar un [servicio de alias de correo electrónico](email-aliasing.md#recommended-providers) dedicado para proteger tu privacidad. Entre otras cosas, estos servicios pueden ayudarte a proteger tu bandeja de entrada real del spam, evitar que los profesionales del marketing correlacionen tus cuentas y cifrar todos los mensajes entrantes con PGP.
 
@@ -34,12 +34,12 @@ Además de (o en lugar de) un proveedor de correo electrónico recomendado aquí
 
 ## Servicios Compatibles con OpenPGP
 
-Estos proveedores soportan de forma nativa el cifrado/descifrado OpenPGP y el [estándar Web Key Directory (WKD)](basics/email-security.md#what-is-the-web-key-directory-standard), lo que permite que los correos electrónicos cifrados de extremo a extremo sean independientes del proveedor. Por ejemplo, un usuario de Proton Mail podría enviar un mensaje E2EE a un usuario de Mailbox.org, o podrías recibir notificaciones encriptadas con OpenPGP desde servicios de Internet que lo soporten.
+Estos proveedores soportan de forma nativa el cifrado/descifrado OpenPGP y el [estándar Web Key Directory (WKD)](basics/email-security.md#what-is-the-web-key-directory-standard), lo que permite que los correos electrónicos cifrados de extremo a extremo sean independientes del proveedor. For example, a Proton Mail user could send an E2EE message to a Mailbox Mail user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
-- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
+- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
 
 </div>
 
@@ -123,13 +123,13 @@ Si tienes una cuenta de pago y tu factura [no esta paga](https://proton.me/suppo
 
 El plan [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) de Proton Mail también permite acceder a otros servicios de Proton, además de proporcionar múltiples dominios personalizados, alias hide-my-email ilimitados y 500 GB de almacenamiento.
 
-### Mailbox.org
+### Mailbox Mail
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
+![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
 
-**Mailbox.org** es un servicio de correo electrónico centrado en la seguridad, sin publicidad y alimentado con energía 100% ecológica. Han estado en operación desde 2014. Mailbox.org tiene su sede en Berlín, Alemania.
+**Mailbox Mail** is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Han estado en operación desde 2014. Mailbox Mail is based in Berlin, Germany.
 
 Las cuentas empiezan con hasta 2 GB de almacenamiento, que pueden ampliarse según sea necesario.
 
@@ -148,27 +148,27 @@ Las cuentas empiezan con hasta 2 GB de almacenamiento, que pueden ampliarse seg�
 
 #### :material-check:{ .pg-green } Dominios Personalizados y Alias
 
-Mailbox.org te permite utilizar tu propio dominio y admite direcciones [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name). Mailbox.org también soporta el [subdireccionamiento](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), lo que resulta útil si no desea adquirir un dominio.
+Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } Métodos Privados de Pago
 
-Mailbox.org no acepta criptomonedas debido a que su procesador de pagos BitPay suspendió sus operaciones en Alemania. Sin embargo, aceptan **efectivo** por correo, pago en **efectivo** a cuenta bancaria, transferencia bancaria, tarjeta de crédito, PayPal y un par de procesadores específicos alemanes: Paydirekt y Sofortüberweisung.
+Mailbox Mail doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. Sin embargo, aceptan **efectivo** por correo, pago en **efectivo** a cuenta bancaria, transferencia bancaria, tarjeta de crédito, PayPal y un par de procesadores específicos alemanes: Paydirekt y Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Seguridad de Cuenta
 
-Mailbox.org solo admite la [autenticación de dos factores](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) para su correo web. Puedes utilizar TOTP o una [YubiKey](https://en.wikipedia.org/wiki/YubiKey) a través de [YubiCloud](https://yubico.com/products/services-software/yubicloud). Estándares web como [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) aún no son soportados.
+Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](security-keys.md#yubikey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Estándares web como [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) aún no son soportados.
 
 #### :material-information-outline:{ .pg-blue } Seguridad de Datos
 
-Mailbox.org permite encriptación del correo entrante usando su [buzón encriptado](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Nuevos mensajes que recibas se encriptaran inmediatamente con tu clave pública.
+Mailbox Mail allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Nuevos mensajes que recibas se encriptaran inmediatamente con tu clave pública.
 
-Sin embargo, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), la plataforma de software utilizada por Mailbox.org, [no admite](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) el cifrado de tu libreta de direcciones y calendario. Una [opción independiente](calendar.md) puede ser más apropiada para esos datos.
+However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. Una [opción independiente](calendar.md) puede ser más apropiada para esos datos.
 
 #### :material-check:{ .pg-green } Encriptación de Correo Electrónico
 
-Mailbox.org tiene [encriptación integrada](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) en su correo web, lo que simplifica el envío de mensajes a personas con claves públicas OpenPGP. También permiten [a destinatarios remotos descifrar un correo electrónico](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) en los servidores de Mailbox.org. Esta característica es útil cuando el destinatario remoto no tiene OpenPGP y no puede descifrar una copia del correo electrónico en su propio buzón de correo.
+Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox Mail's servers. Esta característica es útil cuando el destinatario remoto no tiene OpenPGP y no puede descifrar una copia del correo electrónico en su propio buzón de correo.
 
-Mailbox.org también admite el descubrimiento de claves públicas a través de HTTP desde su WKD. Esto permite a personas ajenas a Mailbox.org encontrar fácilmente las claves OpenPGP de las cuentas de Mailbox.org para E2EE entre proveedores. Esto solo se aplica a las direcciones de correo electrónico que terminan en uno de los dominios propios de Mailbox.org, como `@mailbox.org`. Si usas un dominio personalizado, debes [configurar WKD](basics/email-security.md#what-is-the-web-key-directory-standard) por separado.
+Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. Si usas un dominio personalizado, debes [configurar WKD](basics/email-security.md#what-is-the-web-key-directory-standard) por separado.
 
 #### :material-information-outline:{ .pg-blue } Cancelación de Cuenta
 
@@ -176,11 +176,11 @@ Tu cuenta se convertirá en una cuenta de usuario restringida cuando tu contrato
 
 #### :material-information-outline:{ .pg-blue } Funcionalidad Adicional
 
-Puedes acceder a tu cuenta de Mailbox.org a través de IMAP/SMTP utilizando su [servicio.onion](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). Sin embargo, no se puede acceder a su interfaz de correo web a través de su servicio .onion, y es posible que se produzcan errores de certificado TLS.
+You can access your Mailbox Mail account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). Sin embargo, no se puede acceder a su interfaz de correo web a través de su servicio .onion, y es posible que se produzcan errores de certificado TLS.
 
-Todas las cuentas incluyen almacenamiento limitado en la nube que [puede cifrarse](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox.org también ofrece el alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), que impone el cifrado TLS en la conexión entre servidores de correo; de lo contrario, el mensaje no se enviará en absoluto. Mailbox.org también admite [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) además de protocolos de acceso estándar como IMAP y POP3.
+Todas las cuentas incluyen almacenamiento limitado en la nube que [puede cifrarse](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox Mail also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox Mail also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
 
-Mailbox.org tiene una función de legado digital para todos los planes. Puedes elegir si deseas que alguno de tus datos se transmita a los herederos, siempre que lo soliciten y aporten tu testamento. Alternativamente, puedes designar a una persona por su nombre y dirección.
+Mailbox Mail has a digital legacy feature for all plans. Puedes elegir si deseas que alguno de tus datos se transmita a los herederos, siempre que lo soliciten y aporten tu testamento. Alternativamente, puedes designar a una persona por su nombre y dirección.
 
 ## Más Proveedores
 
@@ -188,7 +188,7 @@ Estos proveedores almacenan tus correos electrónicos con cifrado de cero-conoci
 
 <div class="grid cards" markdown>
 
-- ![Logo de Tuta](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](email.md#tuta)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
 
 </div>
 

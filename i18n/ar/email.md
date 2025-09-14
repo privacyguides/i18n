@@ -1,6 +1,6 @@
 ---
 meta_title: "توصيات Privacy Guides لاستخدام بريد إلكتروني مشفر يحافظ على الخصوصية"
-title: "البُرُد الإلكترونية"
+title: البُرُد الإلكترونية
 icon: material/email
 description: توفِّر الجهات المذكورة مخزنًا آمنًا لرسائلك، والكثير منهم يدعم تعمية أوبن‌بي‌جي‌بي مع جهات أخرى.
 cover: email.webp
@@ -22,11 +22,11 @@ global:
 
 خلا ذلك فنوصي بعدد من موفِّري خدمة البريد الإلكتروني، وذلك حسب استدامة نموذجات عملهم وأمنهم ومزايا الخصوصية عندهم. للمزيد من المعلومات، اطلع على [قائمة المعايير](#criteria).
 
-| مزوّد                       | OpenPGP / WKD                          | IMAP / SMTP                                               | تشفير يمنع وصول المزود إلى البيانات                   | وسائل الدفع بدون هوية                                  |
-| --------------------------- | -------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------ |
-| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } خطط مدفوعة فقط | :material-check:{ .pg-green }                         | نقداً                                                  |
-| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                             | :material-information-outline:{ .pg-blue } البريد فقط | نقداً                                                  |
-| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                    | :material-check:{ .pg-green }                         | مونيرو (Monero) <br> دفع نقدي من خلال وسيط خارجي |
+| مزوّد                         | OpenPGP / WKD                          | IMAP / SMTP                                               | تشفير يمنع وصول المزود إلى البيانات                   | وسائل الدفع بدون هوية                                  |
+| ----------------------------- | -------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------ |
+| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } خطط مدفوعة فقط | :material-check:{ .pg-green }                         | نقداً                                                  |
+| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                             | :material-information-outline:{ .pg-blue } البريد فقط | نقداً                                                  |
+| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                    | :material-check:{ .pg-green }                         | مونيرو (Monero) <br> دفع نقدي من خلال وسيط خارجي |
 
 الإضافة إلى (أو بدلا من) مزود البريد الإلكتروني الموصى به هنا، قد ترغب في استخدام [خدمة مخصصة لإخفاء البريد الإلكتروني](email-aliasing.md#recommended-providers) (email aliasing) لحماية خصوصيتك. من بين فوائد هذه الخدمات أنها تساعد في حماية بريدك الحقيقي من الرسائل المزعجة، وتمنع جهات التسويق من ربط حساباتك ببعضها، كما يمكنها تشفير جميع الرسائل الواردة باستخدام PGP.
 
@@ -34,12 +34,12 @@ global:
 
 ## الخدمات الداعمة لـ OpenPGP
 
-تدعم هذه الخدمات بشكل مدمج تشفير وفك تشفير OpenPGP، بالإضافة إلى معيار [Web Key Directory (WKD)](basics/email-security.md#what-is-the-web-key-directory-standard)، مما يتيح إرسال واستقبال رسائل بريد إلكتروني مشفرة بالكامل من الطرف إلى الطرف، دون الاعتماد على مزود خدمة معين. فمثلًا: باستطاعة مستخدم بريد بروتون إرسال رسالة معمَّاة بين الأطراف، وكون المستقبل مستخدم Mailbox.org، أو لك استقبال إشعارات معمَّاةً بأوبن‌بي‌جي‌بي من خدمات الإنترنت الداعمة له.
+تدعم هذه الخدمات بشكل مدمج تشفير وفك تشفير OpenPGP، بالإضافة إلى معيار [Web Key Directory (WKD)](basics/email-security.md#what-is-the-web-key-directory-standard)، مما يتيح إرسال واستقبال رسائل بريد إلكتروني مشفرة بالكامل من الطرف إلى الطرف، دون الاعتماد على مزود خدمة معين. For example, a Proton Mail user could send an E2EE message to a Mailbox Mail user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
-- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
+- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
 
 </div>
 
@@ -123,13 +123,13 @@ global:
 
 تمنحك خطة [Proton Unlimited](https://proton.me/support/proton-plans#proton-unlimited) إمكانية الوصول إلى باقي خدمات Proton، بالإضافة إلى دعم عدة نطاقات مخصصة، وإنشاء عدد غير محدود من عناوين "أخفي بريدي (hide-my-email)" (وهي عناوين مستعارة تُستخدم لحماية بريدك الحقيقي)، إلى جانب 500 جيجابايت من سعة التخزين.
 
-### Mailbox.org
+### Mailbox Mail
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
+![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
 
-خدمة Mailbox.org هي خدمة بريد إلكتروني تركز على الأمان، خالية من الإعلانات، وتعمل بالكامل باستخدام طاقة صديقة للبيئة بنسبة 100٪. وهم يعملون منذ ٢٠١٤. ومقرُّهم في برلين في ألمانيا.
+**Mailbox Mail** is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. وهم يعملون منذ ٢٠١٤. Mailbox Mail is based in Berlin, Germany.
 
 تبدأ الحسابات بسعة تخزين تصل إلى 2 جيجابايت، ويمكن زيادتها حسب الحاجة.
 
@@ -148,27 +148,27 @@ global:
 
 #### :material-check:{ .pg-green } النطاقات المخصَّصة والكنى
 
-تتيح لك Mailbox.org استخدام نطاقك الخاص، كما تدعم عناوين [Catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name)، وهي عناوين تستقبل أي رسالة تُرسل إلى أي اسم ضمن نطاقك، حتى لو لم يكن العنوان مُعرّفًا مسبقًا. تدعم Mailbox.org أيضا ميزة [العناوين الإضافية (sub-addressing)](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it)، وهي مفيدة إذا كنت لا ترغب في شراء نطاق خاص، حيث يمكنك إنشاء عناوين فرعية مرتبطة ببريدك الأساسي لاستخدامها لأغراض مختلفة (مثل: username+news@mailbox.org).
+Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } وسائل الدفع الخاصة
 
-خدمة Mailbox.org لا تقبل العملات الرقمية حاليا بسبب توقف مزود الدفع BitPay عن العمل في ألمانيا. ومع ذلك، فإنهم يقبلون الدفع **نقدًا** عبر البريد، أو **نقدًا** عبر إيداع في حساب بنكي، بالإضافة إلى التحويل البنكي، وبطاقات الائتمان، وPayPal، وعدد من وسائل الدفع الخاصة بألمانيا مثل Paydirekt وSofortüberweisung.
+Mailbox Mail doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. ومع ذلك، فإنهم يقبلون الدفع **نقدًا** عبر البريد، أو **نقدًا** عبر إيداع في حساب بنكي، بالإضافة إلى التحويل البنكي، وبطاقات الائتمان، وPayPal، وعدد من وسائل الدفع الخاصة بألمانيا مثل Paydirekt وSofortüberweisung.
 
 #### :material-check:{ .pg-green } أمن الحساب
 
-تدعم Mailbox.org ميزة [المصادقة الثنائية (two-factor authentication)](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa)، ولكنها متوفرة فقط عند استخدام البريد من خلال الموقع (webmail)، ولا تعمل عند استخدام تطبيقات خارجية مثل Thunderbird أو Outlook. يمكنك استخدام المصادقة الثنائية إما عبر TOTP أو من خلال [YubiKey](https://en.wikipedia.org/wiki/YubiKey) باستخدام خدمة [YubiCloud](https://yubico.com/products/services-software/yubicloud). لم يتم دعم معايير الويب مثل [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) حتى الآن، وهي تقنية حديثة تتيح تسجيل الدخول بشكل آمن بدون الحاجة إلى كلمات مرور.
+Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](security-keys.md#yubikey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). لم يتم دعم معايير الويب مثل [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) حتى الآن، وهي تقنية حديثة تتيح تسجيل الدخول بشكل آمن بدون الحاجة إلى كلمات مرور.
 
 #### :material-information-outline:{ .pg-blue } أمن البيانات
 
-تتيح Mailbox.org تشفير الرسائل الواردة باستخدام ميزة [صندوق البريد المشفر (encrypted mailbox)](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox) الخاص بها. تعمَّى الرسائل الواردة باستخدام مفتاحك العامِّ فورًا.
+Mailbox Mail allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). تعمَّى الرسائل الواردة باستخدام مفتاحك العامِّ فورًا.
 
-ومع أن Mailbox.org توفّر صندوق بريد مشفّر، إلا أن المنصة التي تعتمد عليها [(Open-Xchange) ](https://en.wikipedia.org/wiki/Open-Xchange)[لا تدعم](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) تشفير جهات الاتصال والتقويم، مما يعني أن هذه البيانات لا تتم حمايتها بالتشفير الكامل مثل الرسائل. إذا كنت ترغب في حماية تقويمك وجهات اتصالك بتشفير كامل، فمن الأفضل استخدام [خدمة منفصلة](calendar.md) مخصصة لذلك.
+However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. إذا كنت ترغب في حماية تقويمك وجهات اتصالك بتشفير كامل، فمن الأفضل استخدام [خدمة منفصلة](calendar.md) مخصصة لذلك.
 
 #### :material-check:{ .pg-green } تشفير البريد الإلكتروني
 
-توفر Mailbox.org [تشفيرا مدمجا ](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard)داخل واجهة البريد على المتصفح، ما يسهل إرسال رسائل مشفرة إلى الأشخاص الذين يستخدمون مفاتيح OpenPGP، دون الحاجة إلى إعدادات معقّدة. يمكنك إرسال رسائل مشفّرة حتى [إلى أشخاص لا يستخدمون PGP](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp)، حيث يمكنهم فك تشفير الرسالة عبر صفحة خاصة على موقع Mailbox.org، باستخدام كلمة مرور تقوم بمشاركتها معهم بشكل آمن. فائدة هذا تظهر في حال كان المستقبل ليس لديه أوبن‌بي‌جي‌بي ولا يستطيع كشف تعمية نسخة من الرسالة في صندوق بريده.
+Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox Mail's servers. فائدة هذا تظهر في حال كان المستقبل ليس لديه أوبن‌بي‌جي‌بي ولا يستطيع كشف تعمية نسخة من الرسالة في صندوق بريده.
 
-تدعم Mailbox.org أيضا العثور على الـ public keys عبر بروتوكول HTTP من خلال نظام WKD (Web Key Directory)، مما يسهل على الآخرين إرسال رسائل مشفّرة إليك دون الحاجة لتبادل المفاتيح يدويا. يساعد هذا الأشخاص الذين لا يستخدمون Mailbox.org في العثور بسهولة على مفاتيح OpenPGP الخاصة بمستخدمي Mailbox.org، مما يسهّل إرسال رسائل مشفّرة بتشفير تام بين الطرفين (E2EE) حتى بين خدمات بريد مختلفة. هذا ينطبق فقط على عناوين البريد الإلكتروني التي تنتهي بأحد نطاقات Mailbox.org، مثل `@mailbox.org`، ولا يشمل العناوين المخصصة التي تستخدم نطاقك الخاص. إذا كنت تستخدم نطاقا مخصصًا (أي عنوان بريد إلكتروني ينتهي باسم نطاقك الخاص بدلًا من ‎@proton.me)، فستحتاج إلى [إعداد WKD](basics/email-security.md#what-is-the-web-key-directory-standard) يدويا بشكل منفصل.
+Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. إذا كنت تستخدم نطاقا مخصصًا (أي عنوان بريد إلكتروني ينتهي باسم نطاقك الخاص بدلًا من ‎@proton.me)، فستحتاج إلى [إعداد WKD](basics/email-security.md#what-is-the-web-key-directory-standard) يدويا بشكل منفصل.
 
 #### :material-information-outline:{ .pg-blue } إنهاء الحسابات
 
@@ -176,11 +176,11 @@ global:
 
 #### :material-information-outline:{ .pg-blue } وظائف إضافية
 
-يمكنك الوصول إلى حسابك في Mailbox.org عبر IMAP/SMTP باستخدام [خدمة ‎.onion الخاصة بهم](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org)، وذلك من خلال شبكة Tor لتأمين الاتصال وإخفاء الهوية. واجهة البريد على الموقع لا تعمل بالكامل عند الدخول عبر شبكة Tor باستخدام عنوان ‎.onion، وقد تظهر رسائل تحذير تتعلّق بشهادة الأمان عند محاولة الاتصال.
+You can access your Mailbox Mail account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). واجهة البريد على الموقع لا تعمل بالكامل عند الدخول عبر شبكة Tor باستخدام عنوان ‎.onion، وقد تظهر رسائل تحذير تتعلّق بشهادة الأمان عند محاولة الاتصال.
 
-تأتي جميع الحسابات بسعة تخزين سحابي محدودة، ويمكنك [تشفير الملفات](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive) داخلها مباشرة من خلال واجهة Mailbox.org لحماية خصوصيتك، دون الحاجة إلى أدوات خارجية. توفر Mailbox.org عنوانا خاصا وهو [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely)، يمكنك استخدامه بدلًا من عنوانك العادي إذا كنت تريد إرسال الرسائل فقط عندما يكون الاتصال بين خوادم البريد مشفّرا بالكامل (TLS). وإذا لم يكن التشفير متاحا، فلن تُرسل الرسالة حفاظا على الأمان. تدعم Mailbox.org [إكستشينج-أكتف‌سنك](https://en.wikipedia.org/wiki/Exchange_ActiveSync)، وكذلك تدعم معايير الوصول القياسية مثل IMAP و POP3.
+تأتي جميع الحسابات بسعة تخزين سحابي محدودة، ويمكنك [تشفير الملفات](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive) داخلها مباشرة من خلال واجهة Mailbox.org لحماية خصوصيتك، دون الحاجة إلى أدوات خارجية. Mailbox Mail also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox Mail also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
 
-عند Mailbox.org ميزة الإرث الرقميِّ لكلِّ الاشتراكات. يمكنك اختيار ما إذا كنت ترغب في تمرير أي من بياناتك إلى الورثة، بشرط أن يتقدموا بطلب رسمي ويُقدموا وصيتك القانونية. غير ذلك فيمكنك ترشيح شخص باسمه وعنوانه.
+Mailbox Mail has a digital legacy feature for all plans. يمكنك اختيار ما إذا كنت ترغب في تمرير أي من بياناتك إلى الورثة، بشرط أن يتقدموا بطلب رسمي ويُقدموا وصيتك القانونية. غير ذلك فيمكنك ترشيح شخص باسمه وعنوانه.
 
 ## مقدِّموا خدمة آخرون
 
@@ -188,7 +188,7 @@ global:
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](email.md#tuta)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
 
 </div>
 

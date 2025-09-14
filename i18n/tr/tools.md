@@ -201,19 +201,19 @@ Daha fazla **güvenlik** arıyorsanız, her zaman HTTPS kullanan web sitelerine 
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#proton-mail)
 
-- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .lg .middle .twemoji } **Mailbox.org**
+- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ .lg .middle .twemoji } **Mailbox Mail**
 
     ---
 
-    Mailbox.org güvenli, reklamsız ve özel olarak %100 çevre dostu enerji ile çalışan bir e-posta hizmetidir. **2014** yılından beri faaliyet göstermektedirler. Mailbox.org'un merkezi Berlin, Almanya'da bulunmaktadır. Hesaplar, gerektiğinde yükseltilebilen 2 GB'a kadar depolama alanıyla başlar.
+    Mailbox Mail is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. **2014** yılından beri faaliyet göstermektedirler. Mailbox Mail is based in Berlin, Germany. Hesaplar, gerektiğinde yükseltilebilen 2 GB'a kadar depolama alanıyla başlar.
 
-    [Read Full Review :material-arrow-right-drop-circle:](email.md#mailboxorg)
+    [Read Full Review :material-arrow-right-drop-circle:](email.md#mailbox-mail)
 
 - ![Tuta logo](assets/img/email/tuta.svg#only-light){ .lg .middle .twemoji }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .lg .middle .twemoji } **Tuta**
 
     ---
 
-    Tuta (eski adıyla *Tutanota*), şifreleme kullanarak güvenlik ve gizliliğe odaklanan bir e-posta hizmetidir. Tuta 2011 yılından beri faaliyet göstermektedir ve merkezi Almanya'nın Hannover kentindedir. Ücretsiz hesaplar 1 GB depolama alanı ile başlar.
+    Tuta (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta 2011 yılından beri faaliyet göstermektedir ve merkezi Almanya'nın Hannover kentindedir. Ücretsiz hesaplar 1 GB depolama alanı ile başlar.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#tuta)
 

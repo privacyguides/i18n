@@ -1,6 +1,6 @@
 ---
 meta_title: "加密私人電子郵件建議 - Privacy Guides"
-title: "電子郵件服務"
+title: 電子郵件服務
 icon: material/email
 description: 這些電子郵件提供商提供了一個好地方來安全的儲存您的電子郵件，也有不少能與其他供應商相互操作的 OpenPGP 加密。
 cover: email.webp
@@ -22,11 +22,11 @@ global:
 
 除此之外，我們還推薦各種基於可持續商業模式和內建安全和隱私功能的電子郵件提供商。 閱讀我們[完整的標準清單](#criteria)，瞭解更多資訊。
 
-| 供應商                         | OpenPGP / WKD                          | IMAP / SMTP                                       | 零存取加密                                             | 匿名付款方式                       |
-| --------------------------- | -------------------------------------- | ------------------------------------------------- | ------------------------------------------------- | ---------------------------- |
-| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } 僅提供付費版 | :material-check:{ .pg-green }                     | 現金                           |
-| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                     | :material-information-outline:{ .pg-blue } 限 Mail | 現金                           |
-| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }            | :material-check:{ .pg-green }                     | 透過第三方支付 Monero<br> 或現金 |
+| 供應商                           | OpenPGP / WKD                          | IMAP / SMTP                                       | 零存取加密                                             | 匿名付款方式                       |
+| ----------------------------- | -------------------------------------- | ------------------------------------------------- | ------------------------------------------------- | ---------------------------- |
+| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } 僅提供付費版 | :material-check:{ .pg-green }                     | 現金                           |
+| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                     | :material-information-outline:{ .pg-blue } 限 Mail | 現金                           |
+| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }            | :material-check:{ .pg-green }                     | 透過第三方支付 Monero<br> 或現金 |
 
 除了這裡建議的電子郵件供應商及他們的替代品之外，您也可以考慮使用專用的[電子郵件別名服務](email-aliasing.md#recommended-providers)來保護您的隱私。 除此之外，這些服務有助於保護真實收件匣免受垃圾郵件的侵害，防止行銷人員關聯您的帳戶，並使用 PGP 加密所有傳入的訊息。
 
@@ -34,12 +34,12 @@ global:
 
 ## OpenPGP 兼容服務
 
-這些供應商原生支援 OpenPGP 加/解密 和 [WKD 標準](basics/email-security.md#what-is-the-web-key-directory-standard)，可提供跨供應商 E2EE 的電子郵件。 例如， Proton Mail 用戶可以向 Mailbox.org 用戶發送 E2EE 消息，或者您可以從它支援的網際網路服務接收 OpenPGP 加密通知。
+這些供應商原生支援 OpenPGP 加/解密 和 [WKD 標準](basics/email-security.md#what-is-the-web-key-directory-standard)，可提供跨供應商 E2EE 的電子郵件。 For example, a Proton Mail user could send an E2EE message to a Mailbox Mail user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
-- ![Mailbox.org logo](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
+- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
 
 </div>
 
@@ -123,13 +123,13 @@ Proton Mail 也透過 HTTP 從其 WKD 發布 Proton 帳戶的公鑰。 這可讓
 
 Proton Mail 的[Unlimited](https://proton.me/support/proton-plans#proton-unlimited)計劃除了提供多個自訂網域、無限的電子郵件別名和 500 GB 儲存空間外，還可使用其他 Proton 服務。
 
-### Mailbox.org
+### Mailbox Mail
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox.org logo](assets/img/email/mailboxorg.svg){ align=right }
+![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
 
-**Mailbox.org**是一個專注於安全、無廣告、100% 採用環保能源的電子郵件服務。 自 **2014 年** 開始運營。 Mailbox.org  總部位於德國柏林。
+**Mailbox Mail** is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. 自 **2014 年** 開始運營。 Mailbox Mail is based in Berlin, Germany.
 
 帳戶一開始最多只有 2 GB 儲存空間，可視需要升級。
 
@@ -148,27 +148,27 @@ Proton Mail 的[Unlimited](https://proton.me/support/proton-plans#proton-unlimit
 
 #### :material-check:{ .pg-green } 自訂域名和別名
 
-Mailbox.org 可使用自定域名，且支援 [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) 位址。 Mailbox.org 也支援[子位址](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it)，如果您不想購買網域，這非常有用。
+Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } 私人付款方式
 
-Mailbox.org 不接受任何加密貨幣，因為他們的支付處理商 BitPay 暫停了德國業務。 不過，他們接受郵寄**現金**、使用**現金**支付至銀行帳戶、銀行轉帳、信用卡、PayPal，以及幾家德國特定的處理商：Paydirekt 和 Sofortüberweisung。
+Mailbox Mail doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. 不過，他們接受郵寄**現金**、使用**現金**支付至銀行帳戶、銀行轉帳、信用卡、PayPal，以及幾家德國特定的處理商：Paydirekt 和 Sofortüberweisung。
 
 #### :material-check:{ .pg-green } 帳號安全
 
-Mailbox.org 僅對其網頁郵件提供[雙重要素驗證](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa)。 您可以使用 TOTP 或通過 [YubiKey](https://en.wikipedia.org/wiki/YubiKey) 來使用 [YubiCloud](https://yubico.com/products/services-software/yubicloud) 進行雙重認證. Web 標準如[WebAuthn ](basics/multi-factor-authentication.md#fido-fast-identity-online)等尚不支援。
+Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](security-keys.md#yubikey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web 標準如[WebAuthn ](basics/multi-factor-authentication.md#fido-fast-identity-online)等尚不支援。
 
 #### :material-information-outline:{ .pg-blue } 資料安全
 
-Mailbox.org 允許使用 [加密郵箱](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox)對傳入郵件進行加密。 收到的新訊息將立即用您的公鑰加密。
+Mailbox Mail allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). 收到的新訊息將立即用您的公鑰加密。
 
-不過，Mailbox.org 所使用的軟體平台[Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange)，[並不支援](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book)對您的通訊錄和行事曆進行加密。 [獨立的選項](calendar.md) 可能更適合此類資料。
+However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. [獨立的選項](calendar.md) 可能更適合此類資料。
 
 #### :material-check:{ .pg-green } 電子郵件加密
 
-Mailbox.org 在他們的網頁郵件中 [整合了加密功能](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) ，這簡化了向具有公開OpenPGP金鑰的人發送訊息。 它們也讓遠端收件者可以在 Mailbox.org 的伺服器上[解密電子郵件](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp)。 當遠端收件人沒有 OpenPGP 無法解密自己郵箱中的電子郵件時，此功能非常有用。
+Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox Mail's servers. 當遠端收件人沒有 OpenPGP 無法解密自己郵箱中的電子郵件時，此功能非常有用。
 
-Mailbox.org 也支援透過 HTTP 從其 WKD 發現公共金鑰。 這可讓非 Mailbox 使用者輕鬆找到 Mailbox 帳戶的 OpenPGP 金鑰，以進行跨供應商 E2EE。 這只適用於以 Mailbox.org 自身網域結尾的電子郵件地址，例如：`@mailbox.org`。 如果使用自訂網域，則必須另行[設定 WKD](basics/email-security.md#what-is-the-web-key-directory-standard)。
+Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. 如果使用自訂網域，則必須另行[設定 WKD](basics/email-security.md#what-is-the-web-key-directory-standard)。
 
 #### :material-information-outline:{ .pg-blue } 終止帳號
 
@@ -176,11 +176,11 @@ Mailbox.org 也支援透過 HTTP 從其 WKD 發現公共金鑰。 這可讓非 M
 
 #### :material-information-outline:{ .pg-blue } 額外功能
 
-可利用他們的[洋蔥服務](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org)與 IMAP/SMTP 協議來訪問 Mailbox.org 帳戶。 不過，他們的網頁郵件介面無法透過其 .onion 服務存取，而且您可能會遇到 TLS 憑證錯誤。
+You can access your Mailbox Mail account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). 不過，他們的網頁郵件介面無法透過其 .onion 服務存取，而且您可能會遇到 TLS 憑證錯誤。
 
-所有帳號都附帶有限的[可以加密](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive)雲端儲存空間 。 Mailbox.org 還提供別名 [@ secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely)，它對郵件伺服器之間的連線強制進行TLS加密，否則根本不會發送訊息。 Mailbox.org 除了支援 IMAP 和 POP3 等標準存取通訊協議外，還支援 [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) 。
+所有帳號都附帶有限的[可以加密](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive)雲端儲存空間 。 Mailbox Mail also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox Mail also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
 
-Mailbox.org 所有方案都提供了數位遺產功能。 只要繼承人提出申請並提供您的遺囑即可獲得你選擇要傳給他們的資料。 或者，您可以透過姓名和位址提出人選。
+Mailbox Mail has a digital legacy feature for all plans. 只要繼承人提出申請並提供您的遺囑即可獲得你選擇要傳給他們的資料。 或者，您可以透過姓名和位址提出人選。
 
 ## 更多供應商
 
@@ -188,7 +188,7 @@ Mailbox.org 所有方案都提供了數位遺產功能。 只要繼承人提出�
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](email.md#tuta)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
 
 </div>
 

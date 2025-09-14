@@ -1,6 +1,6 @@
 ---
 meta_title: "Doporučení na šifrované soukromé e-maily – Privacy Guides"
-title: "E-mailové služby"
+title: E-mailové služby
 icon: material/email
 description: Tito poskytovatelé e-mailu jsou skvělí pro bezpečné uchovávání e-mailů, a mnozí z nich nabízejí interoperabilní OpenPGP šifrování s ostatními poskytovateli.
 cover: email.webp
@@ -22,11 +22,11 @@ E-mail je prakticky nezbytný pro používání jakékoliv online služby, ale n
 
 Pro všechno ostatní doporučujeme různé e-mailové poskytovatele, kteří mají udržitelný byznys model a vestavěné funkce pro zachování bezpečnosti a soukromí. Přečtěte si náš [úplný seznam kritérií](#criteria) pro více informací.
 
-| Poskytovatel                | OpenPGP / WKD                          | IMAP / SMTP                                                     | Zero-Access šifrování                                  | Anonymní platební metody                               |
-| --------------------------- | -------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------ |
-| [Proton Mail](#proton-mail) | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Pouze placené tarify | :material-check:{ .pg-green }                          | Hotovost                                               |
-| [Mailbox.org](#mailboxorg)  | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                   | :material-information-outline:{ .pg-blue } Pouze maily | Hotovost                                               |
-| [Tuta](#tuta)               | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                          | :material-check:{ .pg-green }                          | Monero <br>Hotovost prostřednictvím třetí strany |
+| Poskytovatel                  | OpenPGP / WKD                          | IMAP / SMTP                                                     | Zero-Access šifrování                                  | Anonymní platební metody                               |
+| ----------------------------- | -------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------ |
+| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Pouze placené tarify | :material-check:{ .pg-green }                          | Hotovost                                               |
+| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                   | :material-information-outline:{ .pg-blue } Pouze maily | Hotovost                                               |
+| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                          | :material-check:{ .pg-green }                          | Monero <br>Hotovost prostřednictvím třetí strany |
 
 Můžete navíc, nebo místo, zvážit používání kromě zmíněných e-mailových poskytovatelů i používání dedikované [služby pro e-mailové aliasy](email-aliasing.md#recommended-providers) pro ochranu vašeho soukromí. Tyto služby vám mimo jiné mohou pomoct chránit vaši pravou adresu před spamem, zabránit marketingovým týmům v korelování mezi jednotlivými účty a šifrovat všechny příchozí zprávy pomocí PGP.
 
@@ -34,12 +34,12 @@ Můžete navíc, nebo místo, zvážit používání kromě zmíněných e-mailo
 
 ## Služby kompatibilní s OpenPGP
 
-Tito poskytovatelé nativně podporují OpenPGP (de)šifrování a [standard Web Key Directory (WKD)](basics/email-security.md#what-is-the-web-key-directory-standard), který umožňuje posílání koncově šifrovaných e-mailů bez ohledu na poskytovatele. Například uživatel Proton Mailu může poslat koncově šifrovanou zprávu uživateli Mailbox.org, nebo může přijímat notifikace šifrované pomocí OpenPGP z internetových služeb, které to podporují.
+Tito poskytovatelé nativně podporují OpenPGP (de)šifrování a [standard Web Key Directory (WKD)](basics/email-security.md#what-is-the-web-key-directory-standard), který umožňuje posílání koncově šifrovaných e-mailů bez ohledu na poskytovatele. For example, a Proton Mail user could send an E2EE message to a Mailbox Mail user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
 
 <div class="grid cards" markdown>
 
-- ![logo Proton Mail](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](email.md#proton-mail)
-- ![logo Mailbox.org](assets/img/email/mailboxorg.svg){ .twemoji } [Mailbox.org](email.md#mailboxorg)
+- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
+- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
 
 </div>
 
@@ -123,13 +123,13 @@ Pokud máte placený tarif a [nezaplatíte](https://proton.me/support/delinquenc
 
 Tarif Proton Mail [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) vám kromě několika vlastních domén, neomezených skrytých e-mailových aliasů a 500 GB úložiště navíc umožňuje přístup k prémiovým funkcím ostatních služeb Protonu.
 
-### Mailbox.org
+### Mailbox Mail
 
 <div class="admonition recommendation" markdown>
 
-![logo Mailbox.org](assets/img/email/mailboxorg.svg){ align=right }
+![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
 
-**Mailbox.org** je e-mailová služba zaměřená na bezpečnost, je bez reklam a je poháněná 100% ekologickou energií. Fungují od roku 2014. Mailbox.org sídlí v německém Berlíně.
+**Mailbox Mail** is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Fungují od roku 2014. Mailbox Mail is based in Berlin, Germany.
 
 Účty mají 2 GB úložiště, které může být podle potřeby rozšířeno.
 
@@ -148,27 +148,27 @@ Tarif Proton Mail [Unlimited](https://proton.me/support/proton-plans#proton-unli
 
 #### :material-check:{ .pg-green } Vlastní domény a aliasy
 
-Mailbox.org vám umožňuje používat vlastní doménu a podporuje [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) adresy. Mailbox.org také podporuje [sub-adresování](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), což je užitečné pro ty, kteří si nechtějí kupovat doménu.
+Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
 
 #### :material-check:{ .pg-green } Soukromé platební metody
 
-Mailbox.org nepřijímá žádné kryptoměny, jelikož jejich platební brána BitPay v Německu přerušila svou činnost. Přijímají ale **hotovost** poštou, **hotovostní** platba na bankovní účet, bankovní převod, kreditní karty, PayPal a pár brán specifických pro Německo: Paydirekt a Sofortüberweisung.
+Mailbox Mail doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. Přijímají ale **hotovost** poštou, **hotovostní** platba na bankovní účet, bankovní převod, kreditní karty, PayPal a pár brán specifických pro Německo: Paydirekt a Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Zabezpečení účtu
 
-Mailbox.org podporuje [dvoufaktorové ověřování](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) jen pro svůj webmail. Můžete použít buď TOTP nebo [YubiKey](https://en.wikipedia.org/wiki/YubiKey) přes [YubiCloud](https://yubico.com/products/services-software/yubicloud). Webové standardy, jako je např. [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), nejsou zatím podporovány.
+Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](security-keys.md#yubikey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Webové standardy, jako je např. [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), nejsou zatím podporovány.
 
 #### :material-information-outline:{ .pg-blue } Zabezpečení dat
 
-Mailbox.org umožňuje šifrování příchozí pošty pomocí jejich [šifrovaných schránek](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Nové zprávy, které obdržíte, budou automaticky zašifrované pomocí vašeho veřejného klíče.
+Mailbox Mail allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Nové zprávy, které obdržíte, budou automaticky zašifrované pomocí vašeho veřejného klíče.
 
-[Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), softwarová platforma používaná Mailbox.org, nicméně [nepodporuje](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) šifrování vašich kontaktů a kalendáře. Pro tato data může být vhodnější jiná, [oddělená služba](calendar.md).
+However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. Pro tato data může být vhodnější jiná, [oddělená služba](calendar.md).
 
 #### :material-check:{ .pg-green } Šifrování e-malu
 
-Mailbox.org má [integrované šifrování](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) v jejich webmailu, které zjednodušuje posílání zpráv lidem s veřejnými OpenPGP klíči. Také umožňuje [vzdáleným příjemcům dešifrovat e-mail](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) na serverech Mailbox.org. Tato funkce je užitečná v případě, že vzdálený příjemnce nemá OpenPGP a nemůže dešifrovat kopii e-mailu v jeho vlastní schránce.
+Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox Mail's servers. Tato funkce je užitečná v případě, že vzdálený příjemnce nemá OpenPGP a nemůže dešifrovat kopii e-mailu v jeho vlastní schránce.
 
-Mailbox.org také podporuje zjišťování veřejných klíču skrz HTTP z jejich WKD. To umožňuje lidem mimo Mailbox.org najít OpenPGP klíče Mailbox.org účtů jednoduše pro E2EE mezi různými poskytovateli. To ale platí pouze pro e-mailové adresy ve vlastních doménách Mailbox.org, jako je např. `@mailbox.org`. Pokud používáte vlastní doménu, je potřeba [nastavit WKD](basics/email-security.md#what-is-the-web-key-directory-standard) zvlášť.
+Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. Pokud používáte vlastní doménu, je potřeba [nastavit WKD](basics/email-security.md#what-is-the-web-key-directory-standard) zvlášť.
 
 #### :material-information-outline:{ .pg-blue } Ukončení účtu
 
@@ -176,11 +176,11 @@ Váš účet bude nastaven jako omezený, jakmile skončí vaše smlouva. Násle
 
 #### :material-information-outline:{ .pg-blue } Dodatečné funkce
 
-Můžete přistupovat ke svému Mailbox.org účtu pomocí IMAP/SMTP skrz jejich [.onion službu](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). Přes .onion službu ale nemůžete přistupovat k jejich webmail rozhraní a může docházet k chybám s TLS certifikátem.
+You can access your Mailbox Mail account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). Přes .onion službu ale nemůžete přistupovat k jejich webmail rozhraní a může docházet k chybám s TLS certifikátem.
 
-Všechny účtu obsahují omezené cloudové úložiště, které [lze šifrovat](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox také nabízí alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), který vynucuje TLS šifrování na spojení mezi poštovními servery, jinak se zpráva vůbec neodešle. Mailbox.org také podporuje [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) kromě standardních přístupových protokolů, jako je IMAP nebo POP3.
+Všechny účtu obsahují omezené cloudové úložiště, které [lze šifrovat](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox Mail also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox Mail also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
 
-Mailbox.org má službu digitálního dědictví ve všech tarifech. Můžete si vybrat, která data budou poskytnuta vašim dědičům v případě, že o ně požádají a poskytnou vaši závěť. Případně můžete určit osobu podle jména a adresy.
+Mailbox Mail has a digital legacy feature for all plans. Můžete si vybrat, která data budou poskytnuta vašim dědičům v případě, že o ně požádají a poskytnou vaši závěť. Případně můžete určit osobu podle jména a adresy.
 
 ## Více poskytovatelů
 
@@ -188,7 +188,7 @@ Tito poskytovatelé ukládají vaše e-maily pomocí zero-knowledge šifrování
 
 <div class="grid cards" markdown>
 
-- ![logo Tuta](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![logo Tuta](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](email.md#tuta)
+- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
 
 </div>
 

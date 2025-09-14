@@ -21,7 +21,7 @@ OpenPGPを使ったとしても、[前方秘匿性](https://ja.wikipedia.org/wik
 
 [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD)規格とは、異なるプロバイダーでホストされている他のメールボックスのOpenPGP鍵をEメールクライアントから取得できるようにする仕組みです。 EメールクライアントがWKDに対応していれば、宛先のアドレスのドメインに基づいて、宛先のサーバーに鍵を要求します。 例えば、`jonah@privacyguides.org`にメールを送る場合、クライアントが`privacyguides.org`に対してJonahのOpenPGP鍵を要求し、もし`privacyguides.org`がそのアカウントの鍵を持っていれば、自動的にメールが暗号化されます。
 
-[推奨Eメールクライアント](../email-clients.md)はWKDに対応していますが、他にも、一部のWebメールプロバイダーがWKDに対応しています。 *自分の*鍵がWKDで公開されているかどうかは、ドメインの設定に依存します。 もしProton MailやMailbox.orgのようなWKD対応の[Eメールプロバイダー](../email.md#openpgp-compatible-services)を使用しているなら、OpenPGP鍵を公開してくれる機能があります。
+[推奨Eメールクライアント](../email-clients.md)はWKDに対応していますが、他にも、一部のWebメールプロバイダーがWKDに対応しています。 *自分の*鍵がWKDで公開されているかどうかは、ドメインの設定に依存します。 If you use an [email provider](../email.md#openpgp-compatible-services) which supports WKD, such as Proton Mail or Mailbox Mail, they can publish your OpenPGP key on their domain for you.
 
 カスタムドメインを使用している場合は、WKDを別途設定する必要があります。 自分が管理しているドメインであれば、Eメールプロバイダーに関わらずWKDを設定できます。 簡単に設定するには、`keys.openpgp.org`サーバーの「[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)」機能を使うという手があります。具体的には、自分のドメインの`openpgpkey`サブドメインのCNAMEレコードを`wkd.keys.openpgp.org`に向けて、 [keys.openpgp.org](https://keys.openpgp.org)に自分の鍵をアップロードすればOKです。 もしくは、[WKDを自分のウェブサーバーでホストする](https://wiki.gnupg.org/WKDHosting)こともできます。
 

@@ -21,7 +21,7 @@ There is another standard which is popular with business called [S/MIME](https:/
 
 The [Web Key Directory (WKD)](https://wiki.gnupg.org/WKD) standard allows email clients to discover the OpenPGP key for other mailboxes, even those hosted on a different provider. 支援 WKD 的電子郵件用戶端將根據電子郵件位址的網域名稱向收件者的伺服器請求金鑰。 例如，如果向`jonah@privacyguides.org` 發送電子郵件，您的電子郵件用戶端會向`privacyguides.org` 詢問Jonah 的OpenPGP 金鑰，如`privacyguides.org` 擁有該帳戶的金鑰，則您的訊息將自動加密。
 
-除了我們推薦的[電子郵件用戶端](../email-clients.md)支援 WKD外，一些網頁郵件供應商也支援 WKD。 *自己的*金鑰是否發佈到 WKD 供其他人使用取決於網域配置。 如果使用支援 WKD 的[電子郵件提供者](../email.md#openpgp-known-services)，例如 Proton Mail 或 Mailbox.org，他們可以在其網站上發布您網域名所準備的 OpenPGP 金鑰。
+除了我們推薦的[電子郵件用戶端](../email-clients.md)支援 WKD外，一些網頁郵件供應商也支援 WKD。 *自己的*金鑰是否發佈到 WKD 供其他人使用取決於網域配置。 If you use an [email provider](../email.md#openpgp-compatible-services) which supports WKD, such as Proton Mail or Mailbox Mail, they can publish your OpenPGP key on their domain for you.
 
 如果使用自訂網域，則需另外設定 WKD。 如果你可控制自定域名，則無論電子郵件提供者為何，都可以設定 WKD。 One easy way to do this is to use the "[WKD as a Service](https://keys.openpgp.org/about/usage#wkd-as-a-service)" feature from the `keys.openpgp.org` server: Set a CNAME record on the `openpgpkey` subdomain of your domain pointed to `wkd.keys.openpgp.org`, then upload your key to [keys.openpgp.org](https://keys.openpgp.org). 或者你可以 [在自己的 Web 伺服器搭建 WKD](https://wiki.gnupg.org/WKDHosting) 。
 
