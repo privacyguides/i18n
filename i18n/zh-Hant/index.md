@@ -71,7 +71,7 @@ schema:
 <div markdown>
 **Privacy Guides** 有一個專門的[社群](https://discuss.privacyguides.net)，獨立審查各種*隱私工具*和服務。 我們的每項建議都符合一套嚴格的標準，以確保能為大多數人提供最大價值，並在隱私、安全性和便利性之間取得最佳平衡。 作為非營利**公共慈善機構**的一部分，Privacy Guides 有嚴格的**新聞標準**和政策，以確保我們的推薦沒有利益衝突，而且我們不與可能影響我們的評論和推薦的供應商或聯盟計劃合作。
 
-[:material-heart:{.pg-red} Support Our Work](about/donate.md){ class="md-button md-button--primary" }
+[:material-heart:{.pg-red} Support Our Work](about/donate.md){ class="md-button md-button--primary" data-portal="signup" }
 
 </div>
 

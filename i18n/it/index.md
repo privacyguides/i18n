@@ -71,7 +71,7 @@ Voler proteggere tutti i tuoi dati da tutti e in ogni momento non è pratico, co
 <div markdown>
 **Privacy Guides** ha una [community](https://discuss.privacyguides.net) dedicata che recensisce in modo indipendente vari strumenti e servizi privati. Ognuna delle nostre raccomandazioni rispetta una serie di criteri rigorosi per assicurare che forniscano valore alla maggior parte delle persone e che forniscano il miglior bilancio tra privacy, sicurezza e comodità. Dato che è parte di una **organizzazione benefica** senza scopo di lucro, Privacy Guides segue dei rigorosi **standard giornalistici** e delle politiche per assicurarci che le nostre raccomandazioni siano senza conflitti di interessi, inoltre non abbiamo accordi con i fornitori o programmi di affiliazione che possono influenzare le nostre recensioni e raccomandazioni.
 
-[:material-heart:{.pg-red} Sostieni il Nostro Lavoro](about/donate.md){ class="md-button md-button--primary" }
+[:material-heart:{.pg-red} Support Our Work](about/donate.md){ class="md-button md-button--primary" data-portal="signup" }
 
 </div>
 

@@ -71,7 +71,7 @@ schema:
 <div markdown>
 يوجد لدى **Privacy Guides** [مجتمع](https://discuss.privacyguides.net) نشط ومستقل يُقيم ويُراجع العديد من أدوات الخصوصية والخدمات بشكل موضوعي. نحرص في توصياتنا على اختيار الخدمات التي تستوفي معايير دقيقة، لتقديم أفضل مزيج من الخصوصية، الأمان، والراحة لمعظم المستخدمين. بصفتها منظمة خيرية عامة غير ربحية، تلتزم Privacy Guides بمعايير صحفية صارمة وسياسات واضحة لضمان أن توصياتنا خالية من تضارب المصالح. ولا نتعاون مع مزودي خدمات أو برامج شركاء قد تؤثر على مراجعاتنا وتوصياتنا.
 
-[:material-heart:{.pg-red} دعم عملنا] (about/donate.md) { class="md-button md-button md-button--primary"}
+[:material-heart:{.pg-red} Support Our Work](about/donate.md){ class="md-button md-button--primary" data-portal="signup" }
 
 </div>
 

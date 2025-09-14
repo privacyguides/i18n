@@ -71,7 +71,7 @@ Essayer de protéger toutes vos données contre tout le monde, tout le temps, es
 <div markdown>
 **Privacy Guides** dispose d'une [communauté] dédiée (https://discuss.privacyguides.net) qui évalue de manière indépendante divers *outils et services de protection de la vie privée. Chacune de nos recommandations répond à un ensemble de critères stricts afin de s'assurer qu'elles apportent la plus grande valeur au plus grand nombre et qu'elles offrent le meilleur équilibre entre vie privée, sécurité et commodité. En tant que membre d'une **organisation caritative publique** à but non lucratif, Privacy Guides applique des **normes journalistiques** et des politiques strictes pour garantir que nos recommandations sont exemptes de conflits d'intérêts. Nous ne nous associons pas à des fournisseurs ou à des programmes d'affiliation susceptibles d'influencer nos évaluations et nos recommandations.
 
-[:material-heart:{.pg-red} Soutenez notre travail](about/donate.md){ class="md-button md-button--primary" }
+[:material-heart:{.pg-red} Support Our Work](about/donate.md){ class="md-button md-button--primary" data-portal="signup" }
 
 </div>
 

@@ -71,7 +71,7 @@ schema:
 <div markdown>
 **Privacy Guides**には、様々な*プライバシーツール*やサービスを独自にレビューする専用の[コミュニティー](https://discuss.privacyguides.net)があります。 推奨するツール・サービスは多くの人々に多くの価値を提供し、プライバシー、セキュリティと利便性のバランスが取れていることを保証する厳格な基準に従っています。 非営利の**公共慈善団体**として、Privacy Guidesには厳格な**ジャーナリズム基準**とポリシーがあり、推奨するツール・サービスに利益相反がないことを保証しています。また、レビューや推奨とすることに影響を及ぼすことを避けるため、プロバイダーやアフェリエイトプログラムとの提携はしていません。
 
-[:material-heart:{.pg-red} 支援する](about/donate.md){ class="md-button md-button--primary" }
+[:material-heart:{.pg-red} Support Our Work](about/donate.md){ class="md-button md-button--primary" data-portal="signup" }
 
 </div>
 

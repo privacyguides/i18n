@@ -72,7 +72,7 @@ La seguridad no consiste solo en las *herramientas de privacidad* que utilices o
 <div markdown>
 **Privacy Guides** tiene una [comunidad](https://discuss.privacyguides.net) dedicada que revisa de forma independiente varias *herramientas de privacidad* y servicios. Cada una de nuestras recomendaciones cumple un estricto conjunto de criterios para garantizar que aporten el máximo valor a la mayoría de las personas y ofrezcan el mejor equilibrio entre privacidad, seguridad y comodidad. Como parte de una **organización benéfica pública** sin ánimo de lucro, Privacy Guides aplica estrictas **normas periodísticas** y políticas para garantizar que nuestras recomendaciones estén libres de conflictos de intereses, y no nos asociamos con proveedores o programas de afiliación que puedan influir en nuestras reseñas y recomendaciones.
 
-[:material-heart:{.pg-red} Apoya Nuestro Trabajo](about/donate.md){ class="md-button md-button--primary" }
+[:material-heart:{.pg-red} Support Our Work](about/donate.md){ class="md-button md-button--primary" data-portal="signup" }
 
 </div>
 

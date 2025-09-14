@@ -71,7 +71,7 @@ Snažit se ochránit všechny svoje data před všemi a po celou dobu je neprakt
 <div markdown>
 **Privacy Guides** má dedikovanou [komunitu](https://discuss.privacyguides.net), která nezávisle ověřuje různé *nástroje a služby* zaměřené na soukromí. Každé naše doporučení podléhá přísným kritériím, které zajišťují, že budou užitečné co nejvíce lidem, a zároveň půjde o nejlepší balanc mezi soukromím, bezpečností a pohodlím. V rámci veřejného neziskového zájmu má Privacy Guides přísné **žurnalistické standardy** a zásady, aby bylo zajištěno, že veškerá doporučení nepodléhají střetu zájmů. Nespolupracujeme s poskytovateli a affiliate programy, které by mohly naše recenze a doporučení ovlivňovat.
 
-[:material-heart:{.pg-red} Podpořte naši práci](about/donate.md){ class="md-button md-button--primary" }
+[:material-heart:{.pg-red} Support Our Work](about/donate.md){ class="md-button md-button--primary" data-portal="signup" }
 
 </div>
 
