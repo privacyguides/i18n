@@ -1,14 +1,14 @@
 ---
-meta_title: "Privacy Respecting Web Browsers for PC and Mac - Privacy Guides"
-title: Desktop Browsers
+meta_title: "Веббраузери, які поважають конфіденційність, для ПК та Mac - Посібники з конфіденційності"
+title: Настільні браузери
 icon: material/laptop
-description: These privacy-protecting browsers are what we currently recommend for standard/non-anonymous internet browsing on desktop systems.
+description: Ці браузери, що захищають конфіденційність, ми наразі рекомендуємо для стандартного/неанонімного перегляду вебсторінок на настільних комп'ютерах.
 cover: desktop-browsers.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Desktop Browser Recommendations
+    name: Рекомендації щодо приватних браузерів
     url: "./"
     relatedLink: "../mobile-browsers/"
   - 
@@ -31,7 +31,7 @@ schema:
     name: Firefox
     image: /assets/img/browsers/firefox.svg
     url: https://firefox.com
-    sameAs: https://en.wikipedia.org/wiki/Firefox
+    sameAs: https://uk.wikipedia.org/wiki/Firefox
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
@@ -46,7 +46,7 @@ schema:
     name: Brave
     image: /assets/img/browsers/brave.svg
     url: https://brave.com
-    sameAs: https://en.wikipedia.org/wiki/Brave_(web_browser)
+    sameAs: https://uk.wikipedia.org/wiki/Brave_(браузер)
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
@@ -57,11 +57,11 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Захищає від наступних загроз:</small>
 
 - [:material-account-cash: Капіталізм нагляду](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These are our currently recommended **desktop web browsers** and configurations for standard/non-anonymous browsing. We recommend [Mullvad Browser](#mullvad-browser) if you are focused on strong privacy protections and anti-fingerprinting out of the box, [Firefox](#firefox) for casual internet browsers looking for a good alternative to Google Chrome, and [Brave](#brave) if you need Chromium browser compatibility.
+Це наші поточні рекомендовані **веббраузери для ПК** та конфігурації для стандартного/неанонімного перегляду. We recommend [Mullvad Browser](#mullvad-browser) if you are focused on strong privacy protections and anti-fingerprinting out of the box, [Firefox](#firefox) for casual internet browsers looking for a good alternative to Google Chrome, and [Brave](#brave) if you need Chromium browser compatibility.
 
 If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. We make some configuration recommendations on this page, but all browsers other than Tor Browser will be traceable by *somebody* in some manner or another.
 
