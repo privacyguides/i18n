@@ -310,89 +310,89 @@ Brave дозволяє вибрати додаткові фільтри вміс
 
 <div class="annotate" markdown>
 
-- [x] Select **Don't allow sites to use the V8 optimizer** under *Security* → *Manage V8 security* (1)
-- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
-- [x] Select **Disable non-proxied UDP** under [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [x] Select **Auto-redirect AMP pages**
-- [x] Select **Auto-redirect tracking URLs**
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- [x] Виберіть **Заборонити сайтам використовувати оптимізацію JavaScript** у розділі *Безпека* → *Керувати оптимізацією і захистом JavaScript* (1)
+- [x] Виберіть **Автоматично скасовувати дозволи для сайтів, які не використовуються** у розділі *Налаштування сайтів і щитів*
+- [x] Виберіть **Вимкнути UDP без проксі** у розділі [*Політика поводження з IP WebRTC*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [ ] Зніміть прапорець **Використовувати сервіси Google для push-сповіщень**
+- [x] Виберіть **Автоматично переспрямовувати сторінки AMP**
+- [x] Виберіть **Автоматично переспрямовувати URL-адреси зі стеженням**
+- [x] Виберіть **Не дозволяти сайтам зчитувати цифровий відбиток на основі моїх налаштувань мови**
 
 </div>
 
-1. Disabling the V8 optimizer reduces your attack surface by disabling [*some*](https://grapheneos.social/@GrapheneOS/112708049232710156) parts of JavaScript Just-In-Time (JIT) compilation.
+1. Вимкнення оптимізатора V8 зменшує поверхню атаки шляхом вимкнення [*деяких*](https://grapheneos.social/@GrapheneOS/112708049232710156) частин компіляції JavaScript Just-In-Time (JIT).
 
-##### Tor windows
+##### Вікна Tor
 
-[**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser is, and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
+[**Приватне вікно з Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) дозволяє маршрутизувати ваш трафік через мережу Tor у приватному вікні та отримувати доступ до сервісів .onion, що може бути корисно в деяких випадках. Однак Brave **не** настільки стійкий до цифрових відбитків, як Tor Browser, і набагато менше людей використовують Brave з Tor, тому ви будете виділятися. Якщо ваша модель загроз вимагає суворої анонімності, використовуйте [Tor браузер](tor.md#tor-browser).
 
-##### Data Collection
+##### Збір даних
 
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Зніміть прапорець **Дозволити аналітику продуктів зі збереженням конфіденційності (P3A)**
+- [ ] Зніміть прапорець **Автоматично надсилати щоденний сигнал використання Brave**
+- [ ] Зніміть прапорець **Автоматично надсилати діагностичні звіти**
 
 #### Web3
 
-Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of these features, they should be disabled.
+Функції Web3 у Brave потенційно можуть додати до вашого браузера цифрові відбитки та поверхню атаки. Якщо ви не використовуєте жодної з цих функцій, їх слід вимкнути.
 
-- Select **Extensions (no fallback)** under *Default Ethereum wallet*
-- Select **Extensions (no fallback)** under *Default Solana wallet*
+- Виберіть **Розширення (без резервного)** у розділі *Типовий гаманець Ethereum*
+- Виберіть **Розширення (без резервного)** у розділі *Типовий гаманець Solana*
 
-#### Extensions
+#### Розширення
 
-- [ ] Uncheck all built-in extensions you don't use
+- [ ] Зніміть позначку з усіх вбудованих розширень, які ви не використовуєте
 
-#### Search engine
+#### Пошукова система
 
-We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
+Ми рекомендуємо вимкнути пошукові підказки у Brave з тієї ж причини, з якої ми рекомендуємо вимкнути цю функцію у [Firefox](#search).
 
-- [ ] Зніміть прапорець **Показувати пошукові пропозиції**
+- [ ] Зніміть прапорець **Оптимізувати підказки пошуку**
 
-#### System
+#### Система
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Continue running background apps when Brave is closed** to disable background apps (1)
+- [ ] Зніміть прапорець **Продовжувати роботу фонових програм, коли Brave закрито**, щоб вимкнути фонові програми (1)
 
 </div>
 
-1. This option is not present on all platforms.
+1. Ця опція присутня не на всіх платформах.
 
-#### Brave Sync
+#### Синхронізація
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) забезпечує доступ до ваших даних браузера (історії, закладок тощо) на всіх пристроях без необхідності створення облікового запису та захищає їх за допомогою E2EE.
 
-#### Brave Rewards and Wallet
+#### Brave Винагороди та Гаманець
 
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Brave Rewards** дозволяє вам отримувати криптовалюту Basic Attention Token (BAT) за виконання певних дій у Brave. Він спирається на депозитарний рахунок і KYC від обраної кількості провайдерів. Ми не рекомендуємо BAT як [приватну криптовалюту](cryptocurrency.md), а також не рекомендуємо використовувати [гаманець](advanced/payments.md#wallet-custody) для зберігання, тому ми б не рекомендували використовувати цю функцію.
 
-**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
+**Brave Wallet** працює локально на вашому комп'ютері, але не підтримує жодних приватних криптовалют, тому ми не рекомендуємо використовувати цю функцію.
 
-## Criteria
+## Критерії
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Зверніть увагу, що ми не пов'язані з жодним з проєктів, які ми рекомендуємо.** На додачу до [наших стандартних критеріїв](about/criteria.md), ми розробили чіткий набір вимог, які дозволяють нам надавати об'єктивні рекомендації. Ми пропонуємо вам ознайомитися з цим списком перед тим, як вибрати проєкт, і провести власне дослідження, щоб переконатися, що це правильний вибір для вас.
 
-### Minimum Requirements
+### Мінімальні вимоги
 
-- Must be open-source software.
-- Must support automatic updates.
-- Must receive engine updates in 0-1 days from upstream release.
-- Must be available on Linux, macOS, and Windows.
-- Any changes required to make the browser more privacy-respecting must not negatively impact user experience.
-- Must block third-party cookies by default.
-- Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- Це має бути програмне забезпечення з відкритим вихідним кодом.
+- Має підтримувати автоматичне оновлення.
+- Повинні отримувати оновлення рушія протягом 0-1 дня з моменту випуску.
+- Має бути доступним на Linux, macOS та Windows.
+- Будь-які зміни, необхідні для того, щоб зробити браузер більш безпечним для конфіденційності, не повинні негативно впливати на роботу користувачів.
+- Має блокувати сторонні файли cookie за замовчуванням.
+- Повинен підтримувати [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) для зменшення міжсайтового відстеження.[^1]
 
-### Best-Case
+### Найкращі практики
 
-Our best-case criteria represents what we would like to see from the perfect project in this category. Our recommendations may not include any or all of this functionality, but those which do may rank higher than others on this page.
+Наші найкращі критерії втілюють те, що ми хотіли б бачити від ідеального проєкту в цій категорії. Наші рекомендації можуть не включати всі або деякі з цих функцій, але ті, що включають, можуть мати вищий рейтинг, ніж інші на цій сторінці.
 
-- Should include built-in content blocking functionality.
-- Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Should support Progressive Web Apps (PWAs). PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps because PWAs benefit from your browser's regular security updates.
-- Should not include add-on functionality (bloatware) that does not impact user privacy.
-- Should not collect telemetry by default.
-- Should provide an open-source sync server implementation.
-- Should default to a [private search engine](search-engines.md).
+- Повинен мати вбудовану функцію блокування контенту.
+- Має підтримувати розділення файлів cookie (а-ля [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
+- Повинні підтримувати прогресивні вебдодатки (PWA). PWA дозволяють встановлювати певні вебсайти так, ніби вони є звичайними програмами на вашому комп'ютері. Це може мати переваги над встановленням додатків на базі Electron, оскільки PWA отримують регулярні оновлення безпеки вашого браузера.
+- Не повинен включати додатковий функціонал (bloatware), який не впливає на конфіденційність користувача.
+- Не повинен збирати телеметрію за замовчуванням.
+- Повинен надавати реалізацію сервера синхронізації з відкритим вихідним кодом.
+- За замовчуванням має бути [приватна пошукова система](search-engines.md).
 
-[^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).
+[^1]: Реалізація Brave детально описана в [Оновлення конфіденційності Brave: Розділення мережевого стану для забезпечення конфіденційності](https://brave.com/privacy-updates/14-partitioning-network-state).
