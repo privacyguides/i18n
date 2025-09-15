@@ -156,7 +156,7 @@ Firefox включає унікальний [маркер завантаженн
 
 #### Пошук
 
-- [ ] Зніміть прапорець **Показувати пропозиції пошуку**
+- [ ] Зніміть прапорець **Показувати пошукові пропозиції**
 
 Функція підказок пошуку може бути недоступна у вашому регіоні.
 
@@ -169,33 +169,33 @@ Firefox включає унікальний [маркер завантаженн
 - [ ] Зніміть прапорець **Пропозиції від Firefox**
 - [ ] Зніміть прапорець **Пропозиції від спонсорів**
 
-#### Конфіденційність & Безпека
+#### Приватність і Безпека
 
-##### Покращений захист від відстеження
+##### Розширений захист від стеження
 
-- [x] Виберіть **Суворий** посилений захист від відстеження
+- [x] Виберіть **Надійний** захист від стеження
 
-This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
+Це захищає вас, блокуючи трекери соціальних мереж, скрипти цифрових відбитків (зверніть увагу, що це не захищає вас від *усіх* видів відбитків), криптомайнери, файли cookie для міжсайтового відстеження та деякий інший вміст для відстеження. "Надійний" захищає від багатьох поширених загроз, але не блокує всі шляхи відстеження, оскільки він розроблений таким чином, щоб мати мінімальний або нульовий вплив на зручність використання сайту.
 
-##### Sanitize on Close
+##### Дезінфікувати при закритті
 
-If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
+Якщо ви хочете залишатися в системі на певних сайтах, ви можете дозволити винятки в розділі **"Файли cookie та дані сайтів"** → **"Керувати винятками"...**
 
-- [x] Check **Delete cookies and site data when Firefox is closed**
+- [x] Позначити **Видаляти файли cookie та дані сайтів під час закриття Firefox**
 
-This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
+Це захищає вас від постійних файлів cookie, але не захищає від файлів cookie, отриманих під час одного сеансу перегляду. Якщо цю опцію увімкнено, стає можливим легко очистити файли cookie вашого браузера, просто перезапустивши Firefox. Ви можете встановити винятки для кожного сайту, якщо ви хочете залишатися в системі на певному сайті, який ви часто відвідуєте.
 
-##### Telemetry
+##### Телеметрія
 
-- [ ] Uncheck **Allow Firefox to send technical and interaction data to Mozilla**
-- [ ] Uncheck **Allow Firefox to install and run studies**
-- [ ] Uncheck **Allow Firefox to send backlogged crash reports on your behalf**
+- [ ] Зніміть прапорець **Надсилати технічні й аналітичні дані до Mozilla**
+- [ ] Зніміть прапорець **Встановлювати й запускати дослідження**
+- [ ] Зніміть прапорець **Автоматично надсилати звіти про збої**
 
-According to Mozilla's privacy policy for Firefox,
+Згідно з політикою конфіденційності Mozilla для Firefox,
 
-> Firefox sends data about your Firefox version and language; device operating system and hardware configuration; memory, basic information about crashes and errors; outcome of automated processes like updates, safebrowsing, and activation to us. When Firefox sends data to us, your IP address is temporarily collected as part of our server logs.
+> Firefox надсилає нам дані про версію та мову вашого браузера, операційну систему та конфігурацію обладнання, пам'ять, основну інформацію про збої та помилки, результати автоматизованих процесів, таких як оновлення, безпечний перегляд та активація. Коли Firefox надсилає нам дані, ваша IP-адреса тимчасово фіксується в журналах нашого сервера.
 
-Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt out:
+Крім того, сервіс Mozilla Accounts збирає [деякі технічні дані](https://mozilla.org/privacy/mozilla-accounts). Якщо ви використовуєте обліковий запис Mozilla, ви можете відмовитися:
 
 1. Open your [profile settings on accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Uncheck **Data Collection and Use** > **Help improve Firefox Accounts**
@@ -347,7 +347,7 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
 
-- [ ] Зніміть прапорець **Показувати пропозиції пошуку**
+- [ ] Зніміть прапорець **Показувати пошукові пропозиції**
 
 #### System
 

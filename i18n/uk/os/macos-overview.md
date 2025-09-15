@@ -92,7 +92,7 @@ Click the small :material-information-outline: icon next to **Automatic Updates*
 
 - [x] Check **Install Security Responses and system files**
 
-#### Конфіденційність & Безпека
+#### Приватність і Безпека
 
 Whenever an application requests a permission, it will show up here. You can decide which applications you want to allow or deny specific permissions.
 

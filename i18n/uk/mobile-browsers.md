@@ -199,7 +199,7 @@ These options can be found in :material-menu: → **Settings** → **Leo**.
 
 These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
 
-- [ ] Зніміть прапорець **Показувати пропозиції пошуку**
+- [ ] Зніміть прапорець **Показувати пошукові пропозиції**
 
 #### Brave Sync
 
@@ -309,7 +309,7 @@ This setting sends whatever you type in the address bar to the search engine set
 
 Safari allows you to separate your browsing with different profiles. All of your cookies, history, and website data are separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
 
-#### Конфіденційність & Безпека
+#### Приватність і Безпека
 
 - [x] Enable **Prevent Cross-Site Tracking**
 
