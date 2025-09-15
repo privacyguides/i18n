@@ -235,26 +235,26 @@ Firefox включає унікальний [маркер завантаженн
 
 [Проєкт Arkenfox](https://github.com/arkenfox/user.js) надає набір ретельно продуманих налаштувань для Firefox. Якщо ви [вирішите](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) використовувати Arkenfox, [деякі параметри](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) є суб'єктивно суворими та/або можуть призвести до неправильної роботи деяких вебсайтів, які ви можете [легко змінити](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) відповідно до ваших потреб. Ми **наполегливо рекомендуємо** прочитати їхню повну [вікі-сторінку](https://github.com/arkenfox/user.js/wiki). Arkenfox також забезпечує підтримку [контейнерів](https://support.mozilla.org/kb/containers#w_for-advanced-users).
 
-Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
+Arkenfox має на меті лише перешкоджати базовим або простим скриптам відстеження за допомогою рандомізації вбудованих у Firefox налаштувань захисту від відбитків. Він не має на меті змусити ваш браузер злитися з великим натовпом інших користувачів Arkenfox так само, як це роблять Mullvad Browser або Tor Browser, що є єдиним способом перешкодити просунутим скриптам відстеження цифрових відбитків. Пам'ятайте, що ви завжди можете використовувати кілька браузерів, наприклад, ви можете використовувати Firefox+Arkenfox для кількох сайтів, на яких ви хочете залишатися в системі або яким ви довіряєте, і Mullvad Browser для загального перегляду.
 
 ## Brave
 
 <div class="admonition recommendation annotate" markdown>
 
-![Brave logo](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/img/browsers/brave.svg){align=right}
 
-**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
+**Браузер Brave** має вбудований блокувальник вмісту та [функції конфіденційності](https://brave.com/privacy-features), багато з яких увімкнено за замовчуванням.
 
-Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
+Brave побудований на основі проєкту веббраузера Chromium, тому він має бути знайомим і мати мінімальні проблеми із сумісністю з вебсайтами.
 
-[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
+[:octicons-home-16: Домашня сторінка ](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Політика конфіденційності" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title="Документація" }
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Вихідний код" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Завантаження</summary>
 
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 - [:fontawesome-brands-windows: Windows](https://brave.com/download)
@@ -267,13 +267,13 @@ Brave is built upon the Chromium web browser project, so it should feel familiar
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Попередження</p>
 
-Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" to the file name in downloads from the Brave website, which is used to track which source the browser was downloaded from, for example `BRV002` in a download named `Brave-Browser-BRV002.pkg`. The installer will then ping Brave's server with the referral code at the end of the installation process. If you're concerned about this, you can rename the installer file before opening it.
+Brave додає "[реферальний код](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" до імені файлу, завантаженого з веб-сайту Brave, який використовується для відстеження джерела, з якого було завантажено браузер, наприклад, "BRV002" у завантаженні з назвою "Brave-Browser-BRV002.pkg". Наприкінці процесу встановлення інсталятор пінгує сервер Brave за допомогою реферального коду. Якщо вас це турбує, ви можете перейменувати файл інсталятора перед тим, як відкрити його.
 
 </div>
 
-### Recommended Brave Configuration
+### Рекомендовані налаштування Brave
 
 Параметри можна знайти на сторінці :material-menu: → **Налаштування**.
 

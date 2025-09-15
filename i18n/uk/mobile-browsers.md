@@ -60,17 +60,17 @@ These are our currently recommended **mobile web browsers** and configurations f
 
 <div class="admonition recommendation" markdown>
 
-![Brave logo](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/img/browsers/brave.svg){align=right}
 
-**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
+**Браузер Brave** має вбудований блокувальник вмісту та [функції конфіденційності](https://brave.com/privacy-features), багато з яких увімкнено за замовчуванням.
 
 Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
 
-[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
+[:octicons-home-16: Домашня сторінка ](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Політика конфіденційності" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title="Документація" }
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Вихідний код" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -84,7 +84,7 @@ Brave is built upon the Chromium web browser project, so it should feel familiar
 
 </div>
 
-### Recommended Brave Configuration
+### Рекомендовані налаштування Brave
 
 Tor Browser is the only way to truly browse the internet anonymously. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
 
