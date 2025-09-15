@@ -122,7 +122,7 @@ Proton VPN опубликовал клиенты [App Store](https://apps.apple.
 
 #### :material-information-outline:{ .pg-blue } Дополнительные замечания
 
-Клиенты Proton VPN поддерживают двухфакторную аутентификацию на всех платформах. Proton VPN имеет собственные серверы и дата-центры в Швейцарии, Исландии и Швеции. Они предлагают блокировку контента и блокировку известного вредоносного ПО с помощью своей DNS-службы. Additionally, Proton VPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using [the official Tor Browser](tor.md#tor-browser) for this purpose.
+Клиенты Proton VPN поддерживают двухфакторную аутентификацию на всех платформах. Proton VPN имеет собственные серверы и дата-центры в Швейцарии, Исландии и Швеции. Они предлагают блокировку контента и блокировку известного вредоносного ПО с помощью своей DNS-службы. Кроме того, Proton VPN также предлагает "Tor" серверы, позволяющие вам легко подключаться к onion-сайтам, но мы все еще настоятельно рекомендуем использовать [официальный Tor Browser](tor.md#tor-browser) для этой цели.
 
 ##### :material-alert-outline:{ .pg-orange } Функция Kill switch работает неисправно на компьютерах Mac на базе Intel
 
@@ -142,7 +142,7 @@ Proton VPN опубликовал клиенты [App Store](https://apps.apple.
 [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Исходный код" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Скачать</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1193122683)
@@ -167,7 +167,7 @@ Proton VPN опубликовал клиенты [App Store](https://apps.apple.
 
 #### :material-check:{ .pg-green } Независимый аудит
 
-IVPN has had multiple [independent audits](https://ivpn.net/en/blog/tags/audit) since 2019 and has publicly announced their commitment to [annual security audits](https://ivpn.net/blog/ivpn-apps-security-audit-concluded).
+У IVPN было несколько [независимых аудитов](https://ivpn.net/en/blog/tags/audit) с 2019 года, и они публично объявили о своей приверженности [ежегодным аудитам безопасности](https://ivpn.net/blog/ivpn-apps-security-audit-concluded).
 
 #### :material-check:{ .pg-green } Клиенты с открытым исходным кодом
 
@@ -175,13 +175,13 @@ IVPN has had multiple [independent audits](https://ivpn.net/en/blog/tags/audit) 
 
 #### :material-check:{ .pg-green } Принимает наличные и Monero
 
-In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **Monero** and **cash/local currency** (on annual plans) as anonymous forms of payment. Prepaid cards with redeem codes are [also available](https://ivpn.net/knowledgebase/billing/voucher-cards-faq).
+В дополнение к приему кредитных/дебетовых карт и PayPal, IVPN принимает Bitcoin, **Monero** и **наличные/местную валюту** (при годовых планах) в качестве анонимных форм оплаты. Предоплаченные карты с кодами для погашения [также доступны](https://ivpn.net/knowledgebase/billing/voucher-cards-faq).
 
 #### :material-check:{ .pg-green } Поддержка WireGuard
 
 IVPN поддерживает протокол WireGuard®️. [WireGuard](https://wireguard.com) – это более новый протокол, в использующий самую современную [криптографию](https://wireguard.com/protocol). Кроме того, WireGuard стремится быть более простым и производительным.
 
-IVPN [recommends](https://ivpn.net/wireguard) the use of WireGuard with their service and, as such, the protocol is the default on all of IVPN's apps. IVPN also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
+IVPN [рекомендует](https://ivpn.net/wireguard) использование WireGuard со своим сервисом, и, таким образом, этот протокол является стандартным во всех приложениях IVPN. IVPN также предлагает генератор конфигурации WireGuard для использования с официальными [приложениями](https://wireguard.com/install) WireGuard.
 
 #### :material-information-outline:{ .pg-blue } Поддержка IPv6
 
@@ -193,15 +193,15 @@ IVPN позволяет [подключаться к сервисам, испо�
 
 #### :material-check:{ .pg-green } Борьба с цензурой
 
-IVPN has obfuscation modes using [V2Ray](https://v2ray.com/en/index.html) which helps in situations where VPN protocols like OpenVPN or WireGuard are blocked. Currently, this feature is only available on Desktop and [iOS](https://ivpn.net/knowledgebase/ios/v2ray). It has two modes where it can use [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) over QUIC or TCP connections. QUIC is a modern protocol with better congestion control and therefore may be faster with reduced latency. The TCP mode makes your data appear as regular HTTP traffic.
+IVPN имеет режимы обфускации с помощью [V2Ray](https://v2ray.com/en/index.html), что помогает в ситуациях, когда VPN-протоколы, такие, как OpenVPN или WireGuard, заблокированы. В настоящее время эта функция доступна только на настольных компьютерах и [iOS](https://ivpn.net/knowledgebase/ios/v2ray). Он имеет два режима, в которых может использовать [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) через QUIC или TCP-соединения. QUIC — это современный протокол с улучшенным контролем перегрузок, поэтому он может быть быстрее и с меньшей задержкой. В режиме TCP твои данные выглядят как обычный HTTP-трафик.
 
 #### :material-check:{ .pg-green } Приложения для смартфонов
 
-IVPN has published [App Store](https://apps.apple.com/app/id1193122683) and [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client) clients, both supporting an easy-to-use interface as opposed to requiring you to manually configure your WireGuard connection. The Android client is also available on [GitHub](https://github.com/ivpn/android-app/releases).
+IVPN опубликовал клиенты в [App Store](https://apps.apple.com/app/id1193122683) и [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client) оба поддерживают простой в использовании интерфейс, в отличие от необходимости вручную настраивать соединение WireGuard. Клиент для Android также доступен на [GitHub](https://github.com/ivpn/android-app/releases).
 
 #### :material-information-outline:{ .pg-blue } Дополнительные замечания
 
-Клиенты IVPN поддерживают двухфакторную аутентификацию. IVPN also provides "[AntiTracker](https://ivpn.net/antitracker)" functionality, which blocks advertising networks and trackers from the network level.
+Клиенты IVPN поддерживают двухфакторную аутентификацию. IVPN также предоставляет функцию "[AntiTracker](https://ivpn.net/antitracker)", которая блокирует рекламу и трекеры на сетевом уровне.
 
 ### Mullvad
 
@@ -218,7 +218,7 @@ IVPN has published [App Store](https://apps.apple.com/app/id1193122683) and [Goo
 [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Исходный код" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Скачать</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1488466513)
@@ -233,16 +233,16 @@ IVPN has published [App Store](https://apps.apple.com/app/id1193122683) and [Goo
 
 #### :material-check:{ .pg-green } 49 Стран
 
-Mullvad has [servers in 49 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
+У Mullvad есть [серверы в 49 странах](https://mullvad.net/servers).(1) Выбор VPN провайдера с ближайшим к вам сервером снизит задержку при передаче трафика. Это происходит из-за более короткого маршрута (меньше промежуточных серверов) до пункта назначения.
 { .annotate }
 
-1. Last checked: 2025-03-10
+1. Последняя проверка: 2025-03-10
 
 Мы также считаем, что для безопасности закрытых ключей VPN-провайдера ему следует использовать [выделенные серверы](https://ru.wikipedia.org/wiki/%D0%92%D1%8B%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80), а не более дешевые виртуальные хостинги (которые разделены между несколькими клиентами), такие как [виртуальные частные серверы](https://ru.wikipedia.org/wiki/VPS).
 
 #### :material-check:{ .pg-green } Независимый аудит
 
-Mullvad has had multiple [independent audits](https://mullvad.net/en/blog/tag/audits) and has publicly announced their endeavors to conduct [annual audits](https://mullvad.net/en/blog/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) of their apps and infrastructure.
+У Mullvad было несколько [независимых аудитов](https://mullvad.net/en/blog/tag/audits), и они публично объявили о своих намерениях проводить [ежегодный аудит](https://mullvad.net/en/blog/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) своих приложений и инфраструктуры.
 
 #### :material-check:{ .pg-green } Клиенты с открытым исходным кодом
 
@@ -250,13 +250,13 @@ Mullvad предоставляет исходный код для своих н�
 
 #### :material-check:{ .pg-green } Принимает наличные и Monero
 
-Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. Prepaid cards with redeem codes are also available. Mullvad also accepts Swish and bank wire transfers, as well as a few European payment systems.
+Помимо приема кредитных/дебетовых карт и PayPal, Mullvad принимает Bitcoin, Bitcoin Cash, **Monero** и **наличные/местные валюты** как анонимные формы платежа. Также доступны предоплаченные карты с кодами погашения. Mullvad также принимает Swish и банковские переводы, а также несколько европейских платежных систем.
 
 #### :material-check:{ .pg-green } Поддержка WireGuard
 
 Mullvad поддерживает протокол WireGuard®. [WireGuard](https://wireguard.com) – это более новый протокол, в использующий самую современную [криптографию](https://wireguard.com/protocol). Кроме того, WireGuard стремится быть более простым и производительным.
 
-Mullvad [recommends](https://mullvad.net/en/help/why-wireguard) the use of WireGuard with their service. It is the default or only protocol on Mullvad's Android, iOS, macOS, and Linux apps, but on Windows you have to [manually enable](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app) WireGuard. Mullvad also offers a WireGuard configuration generator for use with the official WireGuard [apps](https://wireguard.com/install).
+Mullvad [рекомендует](https://mullvad.net/en/help/why-wireguard) использовать WireGuard с их сервисами. Это протокол по умолчанию или единственный протокол в приложениях Mullvad для Android, iOS, macOS и Linux, но в Windows вам нужно [вручную включить](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app) WireGuard. Mullvad также предлагает генератор конфигурации WireGuard для использования с официальными[приложениями](https://wireguard.com/install) WireGuard.
 
 #### :material-check:{ .pg-green } Поддержка IPv6
 
@@ -268,12 +268,12 @@ Mullvad позволяет [получить доступ к сервисам, �
 
 #### :material-check:{ .pg-green } Борьба с цензурой
 
-Mullvad offers several features to help bypass censorship and access the internet freely:
+Mullvad предлагает несколько функций, позволяющих обойти цензуру и получить свободный доступ в интернет:
 
-- **Obfuscation modes**: Mullvad has two built-in obfuscation modes: "UDP-over-TCP" and ["WireGuard over Shadowsocks"](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard). These modes disguise your VPN traffic as regular web traffic, making it harder for censors to detect and block. Supposedly, China has to use a [new method to disrupt Shadowsocks-routed traffic](https://gfw.report/publications/usenixsecurity23/en).
-- **Advanced obfuscation with Shadowsocks and v2ray**: For more advanced users, Mullvad provides a guide on how to use the [Shadowsocks with v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) plugin with Mullvad clients. This setup provides an additional layer of obfuscation and encryption.
-- **Custom server IPs**: To counter IP-blocking, you can request custom server IPs from Mullvad's support team. Once you receive the custom IPs, you can input the text file in the "Server IP override" settings, which will override the chosen server IP addresses with ones that aren't known to the censor.
-- **Bridges and proxies**: Mullvad also allows you to use bridges or proxies to reach their API (needed for authentication), which can help bypass censorship attempts that block access to the API itself.
+- **Режимы обфускации**: Mullvad имеет два встроенных режима обфускации: "UDP-over-TCP" и ["WireGuard over Shadowsocks"](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard). Эти режимы маскируют ваш VPN-трафик под обычный веб-трафик, что затрудняет его обнаружение и блокировку цензорами. Предположительно, Китаю приходится использовать [новый метод, чтобы нарушить маршрутизацию трафика Shadowsocks.](https://gfw.report/publications/usenixsecurity23/en)
+- **Продвинутая обфускация с помощью Shadowsocks и v2ray**: Для более опытных пользователей Mullvad предлагает руководство по использованию плагина [Shadowsocks и v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) с клиентами Mullvad. Такая настройка обеспечивает дополнительный уровень маскировки и шифрования.
+- **Пользовательские IP-адреса серверов**: Чтобы противодействовать блокировке IP, вы можете запросить пользовательские IP-адреса серверов у службы поддержки Mullvad. Получив пользовательские IP-адреса, вы можете ввести текстовый файл в настройках "Server IP override" (Переопределение IP-адреса сервера), что заменит выбранные IP-адреса серверов на те, которые не известны цензору.
+- **Мосты и прокси**: Mullvad также позволяет использовать мосты или прокси для доступа к своему API (необходимо для аутентификации), что может помочь обойти попытки цензуры, блокирующие доступ к самому API.
 
 #### :material-check:{ .pg-green } Приложения для смартфонов
 
@@ -296,19 +296,19 @@ Mullvad очень открыт в отношении того, какими у�
 
 ### Технологии
 
-We require all our recommended VPN providers to provide standard configuration files which can be used in a generic, open-source client. **If** a VPN provides their own custom client, we require a kill switch to block network data leaks when disconnected.
+Мы требуем, чтобы все наши рекомендуемые VPN-провайдеры предоставляли стандартные конфигурационные файлы, которые можно использовать в универсальном клиенте с открытым исходным кодом. **Если** VPN предоставляет свой собственный пользовательский клиент, мы требуем наличия kill switch для блокировки утечки сетевых данных при отключении.
 
 **Минимальные требования:**
 
-- Support for strong protocols such as WireGuard.
-- Kill switch built in to clients.
-- Multi-hop support. Multi-hopping is important to keep data private in case of a single node compromise.
-- If VPN clients are provided, they should be [open source](https://en.wikipedia.org/wiki/Open_source), like the VPN software they generally have built into them. We believe that [source code](https://en.wikipedia.org/wiki/Source_code) availability provides greater transparency about what the program is actually doing.
+- Поддержка надежных протоколов, таких как WireGuard.
+- Kill switch встроен в приложения.
+- Поддержка Multi-hop. Multi-hop важен для сохранения конфиденциальности данных в случае компрометации одного узла.
+- Если предоставляются VPN-клиенты, они должны быть [с открытым исходным кодом](https://en.wikipedia.org/wiki/Open_source), как и VPN-программное обеспечение, которое обычно в них встроено. Мы считаем, что доступность [исходного кода](https://en.wikipedia.org/wiki/Source_code) обеспечивает большую прозрачность относительно того, что программа на самом деле делает.
 - Функции защиты от цензуры, разработанные для обхода брандмауэров без DPI.
 
 **В лучшем случае:**
 
-- Kill switch with highly configurable options (enable/disable on certain networks, on boot, etc.)
+- Kill switch с широкими возможностями настройки (включение/выключение в определенных сетях, при включении и т.д.)
 - Простые в использовании приложения VPN
 - Поддержка [IPv6](https://en.wikipedia.org/wiki/IPv6). Мы ожидаем, что серверы будут разрешать входящие соединения через IPv6 и позволят вам получить доступ к услугам, размещенным на адресах IPv6.
 - Возможность [удаленной переадресации портов](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) помогает создавать соединения при использовании программного обеспечения для обмена файлами P2P ([Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) или хостинга сервера (например, Mumble).
@@ -326,7 +326,7 @@ We require all our recommended VPN providers to provide standard configuration f
 **В лучшем случае:**
 
 - Принимает множество [анонимных вариантов оплаты](advanced/payments.md).
-- No personal information accepted (auto-generated username, no email required, etc.).
+- Не принимается личная информация (автогенерируемое имя пользователя, не требуется электронная почта и т.д.).
 
 ### Безопасность
 
@@ -367,7 +367,7 @@ VPN бессмысленен, если он даже не может обесп�
 
 **Минимальные требования:**
 
-- Must self-host analytics (i.e., no Google Analytics).
+- Должен самостоятельно проводить аналитику (т.е. не Google Analytics).
 
 Не должно быть никакого маркетинга, который является безответственным:
 

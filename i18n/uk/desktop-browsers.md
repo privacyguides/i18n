@@ -61,17 +61,17 @@ schema:
 
 - [:material-account-cash: Капіталізм нагляду](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Це наші поточні рекомендовані **веббраузери для ПК** та конфігурації для стандартного/неанонімного перегляду. We recommend [Mullvad Browser](#mullvad-browser) if you are focused on strong privacy protections and anti-fingerprinting out of the box, [Firefox](#firefox) for casual internet browsers looking for a good alternative to Google Chrome, and [Brave](#brave) if you need Chromium browser compatibility.
+Це наші поточні рекомендовані **веббраузери для ПК** та конфігурації для стандартного/неанонімного перегляду. Ми рекомендуємо [Mullvad Browser](#mullvad-browser), якщо вам потрібен надійний захист конфіденційності та захист від цифрових відбитків "з коробки", [Firefox](#firefox) браузер для повсякденних потреб і хорошу альтернативу Google Chrome, і [Brave](#brave), якщо вам потрібна сумісність з браузером Chromium.
 
-If you need to browse the internet anonymously, you should use [Tor](tor.md) instead. We make some configuration recommendations on this page, but all browsers other than Tor Browser will be traceable by *somebody* in some manner or another.
+Якщо вам потрібно переглядати інтернет анонімно, використовуйте [Tor](tor.md). На цій сторінці ми надаємо деякі рекомендації щодо налаштування, але всі браузери, окрім Tor Browser, так чи інакше будуть відстежуватися *кимось*.
 
-## Mullvad Browser
+## Браузер Mullvad
 
 <div class="admonition recommendation" markdown>
 
-![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
+![Логотип Mullvad Browser](assets/img/browsers/mullvad_browser.svg){align=right}
 
-**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. It is developed by the Tor Project and distributed by [Mullvad](vpn.md#mullvad), and does **not** require the use of Mullvad's VPN.
+**Mullvad Browser** - це версія [Tor Browser](tor.md#tor-browser) з вилученою інтеграцією з мережею Tor. Він має на меті надати користувачам VPN засоби Tor Browser проти цифрових відбитків, які є ключовим захистом від [:material-eye-outline: масового стеження] (basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Він розроблений проєктом Tor і розповсюджується [Mullvad] (vpn.md#mullvad), і **не** вимагає використання VPN від Mullvad.
 
 [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
