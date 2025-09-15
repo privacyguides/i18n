@@ -277,36 +277,36 @@ Brave додає "[реферальний код](https://github.com/brave/brave
 
 Параметри можна знайти на сторінці :material-menu: → **Налаштування**.
 
-#### Shields
+#### Щити
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+Brave включає деякі заходи проти відбитків у функції ["Щити](https://support.brave.com/hc/articles/360022973471-What-is-Shields) ". Ми рекомендуємо налаштувати ці параметри [глобально](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) для всіх сторінок, які ви відвідуєте.
 
-Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
+Параметри екранів можуть бути зменшені для кожного сайту за необхідності, але за замовчуванням ми рекомендуємо встановити такі значення:
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under *Trackers & ads blocking*
+- [x] Виберіть **Агресивно** у розділі *Блокування стеження та реклами*
 
 <details class="warning" markdown>
-<summary>Use default filter lists</summary>
+<summary>Використовуйте списки фільтрів за замовчуванням</summary>
 
-Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+Brave дозволяє вибрати додаткові фільтри вмісту на внутрішній сторінці "brave://adblock". Ми не радимо використовувати цю функцію; натомість збережіть списки фільтрів за замовчуванням. Використання додаткових списків виділить вас серед інших користувачів Brave, а також може збільшити кількість атак, якщо в Brave є експлойт і шкідливе правило буде додано до одного зі списків, які ви використовуєте.
 
 </details>
 
-- [x] Select **Strict** under *Upgrade connections to HTTPS*
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Check **Block fingerprinting**
-- [x] Select **Block third-party cookies**
-- [x] Check **Forget me when I close this site** (2)
-- [ ] Uncheck all social media components
+- [x] Виберіть **Обов'язково** у розділі *Оновлювати з’єднання до HTTPS*
+- [x] (необов'язково) Виберіть **Блокувати скрипти** (1)
+- [x] Установіть прапорець **Блокувати зчитування цифрового відбитка**
+- [x] Виберіть **Блокувати сторонні** у *Блокувати файли cookie*
+- [x] Установіть прапорець **Забути мене, коли я закрию цей сайт** (2)
+- [x] Зніміть прапорець у всіх компонентах соціальних мереж
 
 </div>
 
-1. This option disables JavaScript, which will break a lot of sites. To fix them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
-2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+1. Ця опція вимикає JavaScript, що призведе до поломки багатьох сайтів. Щоб виправити їх, ви можете встановити винятки для кожного сайту окремо, натиснувши на іконку Щит в адресному рядку і знявши галочку з цього параметра в розділі *Розширені налаштування*.
+2. Якщо ви хочете залишатися в системі на певному сайті, який ви часто відвідуєте, ви можете встановити винятки для кожного сайту, натиснувши на іконку Щит в адресному рядку і знявши прапорець з цього параметра в розділі *Розширені налаштування*.
 
-#### Privacy and security
+#### Конфіденційність і безпека
 
 <div class="annotate" markdown>
 
