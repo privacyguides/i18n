@@ -199,7 +199,7 @@ These options can be found in :material-menu: → **Settings** → **Leo**.
 
 These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
 
-- [ ] Uncheck **Show search suggestions**
+- [ ] Зніміть прапорець **Показувати пропозиції пошуку**
 
 #### Brave Sync
 
@@ -299,17 +299,17 @@ Under **Siri**:
 
 This prevents Siri from using content from Safari for Siri suggestions.
 
-#### Search
+#### Пошук
 
 - [ ] Disable **Search Engine Suggestions**
 
-This setting sends whatever you type in the address bar to the search engine set in Safari. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+This setting sends whatever you type in the address bar to the search engine set in Safari. Вимкнення пошукових пропозицій дозволяє точніше контролювати дані які дані ви відправляєте в пошукову систему.
 
 #### Profiles
 
 Safari allows you to separate your browsing with different profiles. All of your cookies, history, and website data are separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
 
-#### Privacy & Security
+#### Конфіденційність & Безпека
 
 - [x] Enable **Prevent Cross-Site Tracking**
 

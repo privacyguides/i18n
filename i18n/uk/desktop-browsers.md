@@ -109,30 +109,30 @@ Mullvad Browser постачається з попередньо встанов�
 
 Браузер Mullvad працює в режимі постійного приватного перегляду, що означає, що ваша історія, файли cookie та інші дані сайту завжди будуть очищені при кожному закритті браузера. Ваші закладки, налаштування браузера та розширення будуть збережені.
 
-This is required to prevent advanced forms of tracking, but does come at the cost of convenience and some Firefox features, such as Multi-Account Containers. Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise don't work properly in Mullvad Browser, and Mullvad Browser for general browsing.
+Це необхідно для запобігання розширеним формам відстеження, але це відбувається за рахунок зручності та деяких функцій Firefox, таких як контейнери з декількома обліковими записами. Пам'ятайте, що ви завжди можете використовувати кілька браузерів, наприклад, ви можете використовувати Firefox+Arkenfox для кількох сайтів, на яких ви хочете залишатися в системі або які не працюють належним чином у Mullvad Browser, і Mullvad Browser для загального перегляду.
 
 ### Mullvad Leta
 
-Mullvad Browser comes with [**Mullvad Leta**](search-engines.md#mullvad-leta) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
+Mullvad Browser поставляється з [**Mullvad Leta**](search-engines.md#mullvad-leta) як пошуковою системою за замовчуванням, яка функціонує як проксі для результатів пошуку Google або Brave (налаштовується на домашній сторінці Mullvad Leta).
 
-If you are a Mullvad VPN user, there is some risk in using services like Mullvad Leta which are offered by your VPN provider themselves. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta); the latter is information a VPN is typically intended to separate. Even though Mullvad collects very little information about their VPN subscribers or Leta users, you should consider a different [search engine](search-engines.md) if this risk concerns you.
+Якщо ви користуєтеся Mullvad VPN, існує певний ризик у використанні таких сервісів, як Mullvad Leta, які пропонуються вашим провайдером VPN. Це пов'язано з тим, що Mullvad теоретично має доступ до вашої справжньої IP-адреси (через свою VPN) та вашої пошукової активності (через Leta), яка може бути тією, яку VPN має приховувати. Попри те, що Mullvad збирає дуже мало інформації про своїх VPN-підписників або користувачів Leta, вам слід розглянути можливість використання іншої [пошукової системи](search-engines.md), якщо цей ризик вас турбує.
 
 ## Firefox
 
 <div class="admonition recommendation" markdown>
 
-![Firefox logo](assets/img/browsers/firefox.svg){ align=right }
+![Firefox logo](assets/img/browsers/firefox.svg){align=right}
 
-**Firefox** provides strong privacy settings such as [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), which can help block various [types of tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
+**Firefox** надає сильні налаштування конфіденційності, такі як [Покращений захист від відстеження](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), які можуть допомогти заблокувати різні [типи відстеження](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
 
-[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title="Documentation" }
-[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
+[:octicons-home-16: Домашня сторінка ](https://firefox.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Політика конфіденційності" }
+[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title="Документація" }
+[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Вихідний код" }
 [:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Завантаження</summary>
 
 - [:fontawesome-brands-windows: Windows](https://mozilla.org/firefox/windows)
 - [:simple-apple: macOS](https://mozilla.org/firefox/mac)
@@ -144,36 +144,36 @@ If you are a Mullvad VPN user, there is some risk in using services like Mullvad
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Попередження</p>
 
-Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+Firefox включає унікальний [маркер завантаження] (https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) у завантаження з вебсайту Mozilla і використовує телеметрію у Firefox для надсилання маркера. Токен **не включено** до релізів з [Mozilla FTP] (https://ftp.mozilla.org/pub/firefox/releases/).
 
 </div>
 
-### Recommended Firefox Configuration
+### Рекомендовані налаштування Firefox
 
-These options can be found in :material-menu: → **Settings**.
+Параметри можна знайти на сторінці :material-menu: → **Налаштування**.
 
-#### Search
+#### Пошук
 
-- [ ] Uncheck **Show search suggestions**
+- [ ] Зніміть прапорець **Показувати пропозиції пошуку**
 
-Search suggestion features may not be available in your region.
+Функція підказок пошуку може бути недоступна у вашому регіоні.
 
-Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+Пошукові пропозиції надсилають усе, що ви вводите в адресному рядку, до пошукової системи за замовчуванням, незалежно від того, чи вводите ви реальний запит. Вимкнення пошукових пропозицій дозволяє точніше контролювати дані які дані ви відправляєте в пошукову систему.
 
-##### Firefox Suggest (US only)
+##### Пропозиції Firefox (лише США)
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) - це функція, схожа на пошукові пропозиції, яка доступна лише в США. Ми рекомендуємо вимкнути її з тієї ж причини, з якої ми рекомендуємо вимкнути пошукові пропозиції. Якщо ви не бачите цих опцій під заголовком **адресного рядка**, ви не маєте нового досвіду і можете проігнорувати ці зміни.
 
-- [ ] Uncheck **Suggestions from Firefox**
-- [ ] Uncheck **Suggestions from sponsors**
+- [ ] Зніміть прапорець **Пропозиції від Firefox**
+- [ ] Зніміть прапорець **Пропозиції від спонсорів**
 
-#### Privacy & Security
+#### Конфіденційність & Безпека
 
-##### Enhanced Tracking Protection
+##### Покращений захист від відстеження
 
-- [x] Select **Strict** Enhanced Tracking Protection
+- [x] Виберіть **Суворий** посилений захист від відстеження
 
 This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
 
@@ -275,7 +275,7 @@ Brave adds a "[referral code](https://github.com/brave/brave-browser/wiki/Brave%
 
 ### Recommended Brave Configuration
 
-These options can be found in :material-menu: → **Settings**.
+Параметри можна знайти на сторінці :material-menu: → **Налаштування**.
 
 #### Shields
 
@@ -347,7 +347,7 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
 
-- [ ] Uncheck **Show search suggestions**
+- [ ] Зніміть прапорець **Показувати пропозиції пошуку**
 
 #### System
 
