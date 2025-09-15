@@ -197,43 +197,43 @@ Firefox включає унікальний [маркер завантаженн
 
 Крім того, сервіс Mozilla Accounts збирає [деякі технічні дані](https://mozilla.org/privacy/mozilla-accounts). Якщо ви використовуєте обліковий запис Mozilla, ви можете відмовитися:
 
-1. Open your [profile settings on accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
-2. Uncheck **Data Collection and Use** > **Help improve Firefox Accounts**
+1. Відкрийте [налаштування свого профілю на сторінці accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
+2. [ ] Зніміть прапорець **Збір та використання даних** > **Допоможіть покращити облікові записи Firefox**
 
-##### Website Advertising Preferences
+##### Налаштування реклами для вебсайтів
 
-- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
+- [ ] Зніміть прапорець **Дозволити вебсайтам виконувати вимірювання реклами зі збереженням приватності**
 
-With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
+З виходом Firefox 128 було додано новий параметр для [атрибуції зі збереженням конфіденційності](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA), який [увімкнено за замовчуванням](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA дозволяє рекламодавцям використовувати ваш веббраузер для вимірювання ефективності вебкампаній замість традиційного відстеження на основі JavaScript. Ми вважаємо, що така поведінка виходить за рамки обов'язків агента користувача, і той факт, що в Arkenfox вона вимкнена за замовчуванням, є додатковим індикатором для вимкнення цієї функції.
 
-##### HTTPS-Only Mode
+##### HTTPS-режим
 
-- [x] Select **Enable HTTPS-Only Mode in all windows**
+- [x] Виберіть **Увімкнути HTTPS-режим у всіх вікнах**
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+Це запобігає ненавмисному з'єднанню з вебсайтом за допомогою звичайного HTTP. Сьогодні сайти без HTTPS зустрічаються рідко, тому це практично не вплине на ваш повсякденний перегляд вебсторінок.
 
-##### DNS через HTTPS (DNS over HTTPS)
+##### DNS через HTTPS
 
-If you use a [DNS over HTTPS provider](dns.md):
+Якщо ви використовуєте захист [DNS через HTTPS](dns.md):
 
-- [x] Select **Max Protection** and choose a suitable provider
+- [x] Виберіть **Максимальний захист** і виберіть відповідного постачальника
 
-Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
+Максимальний захист забезпечує використання DNS через HTTPS, і попередження про небезпеку з'явиться, якщо Firefox не може під'єднатися до вашого захищеного DNS-відповідача або якщо ваш захищений DNS-відповідач повідомляє, що записи для домену, до якого ви намагаєтеся отримати доступ, не існують. Це не дозволить мережі, до якої ви підключені, таємно знизити рівень безпеки вашого DNS.
 
-#### Sync
+#### Синхронізація
 
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
+[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) забезпечує доступ до даних браузера (історії, закладок тощо) на всіх ваших пристроях і захищає їх за допомогою E2EE.
 
-### Arkenfox (advanced)
+### Arkenfox (просунутий рівень)
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Use Mullvad Browser for advanced anti-fingerprinting</p>
+<p class="admonition-title">Використовуйте Mullvad Browser для розширеного захисту від цифрових відбитків</p>
 
-[Mullvad Browser](#mullvad-browser) provides the same anti-fingerprinting protections as Arkenfox out of the box, and does not require the use of Mullvad's VPN to benefit from these protections. Coupled with a VPN, Mullvad Browser can thwart more advanced tracking scripts which Arkenfox cannot. Arkenfox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
+[Mullvad Browser] (#mullvad-browser) забезпечує такий самий захист від відбитків, як і Arkenfox, і не вимагає використання VPN від Mullvad, щоб скористатися перевагами цього захисту. У поєднанні з VPN Mullvad Browser може перешкоджати більш просунутим скриптам стеження, чого не може зробити Arkenfox. Arkenfox все ще має перевагу в тому, що він набагато гнучкіший і дозволяє створювати винятки для сайтів, на яких вам потрібно залишатися під своїм обліковим записом.
 
 </div>
 
-The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
+[Проєкт Arkenfox](https://github.com/arkenfox/user.js) надає набір ретельно продуманих налаштувань для Firefox. Якщо ви [вирішите](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) використовувати Arkenfox, [деякі параметри](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) є суб'єктивно суворими та/або можуть призвести до неправильної роботи деяких вебсайтів, які ви можете [легко змінити](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) відповідно до ваших потреб. Ми **наполегливо рекомендуємо** прочитати їхню повну [вікі-сторінку](https://github.com/arkenfox/user.js/wiki). Arkenfox також забезпечує підтримку [контейнерів](https://support.mozilla.org/kb/containers#w_for-advanced-users).
 
 Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
 
