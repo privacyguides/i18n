@@ -73,13 +73,13 @@ schema:
 
 **Mullvad Browser** - це версія [Tor Browser](tor.md#tor-browser) з вилученою інтеграцією з мережею Tor. Він має на меті надати користувачам VPN засоби Tor Browser проти цифрових відбитків, які є ключовим захистом від [:material-eye-outline: масового стеження] (basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Він розроблений проєктом Tor і розповсюджується [Mullvad] (vpn.md#mullvad), і **не** вимагає використання VPN від Mullvad.
 
-[:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title="Documentation" }
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
+[:octicons-home-16: Домашня сторінка ](https://mullvad.net/en/browser){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Політика конфіденційності" }
+[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title="Документація" }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Вихідний код" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Завантаження</summary>
 
 - [:fontawesome-brands-windows: Windows](https://mullvad.net/en/download/browser/windows)
 - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
@@ -89,25 +89,25 @@ schema:
 
 </div>
 
-Like [Tor Browser](tor.md), Mullvad Browser is designed to prevent fingerprinting by making your browser fingerprint identical to all other Mullvad Browser users, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+Як і [Tor Browser](tor.md), Mullvad Browser розроблений для запобігання зняття цифрових відбитків, роблячи ваш відбиток ідентичним з відбитками всіх інших користувачів Mullvad Browser, і включає в себе налаштування за замовчуванням і розширення, які автоматично налаштовуються на рівні безпеки за замовчуванням: *Стандартний*, *Безпечний* та *Найбезпечніший*.
 
-Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). When adjusting the security level, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
+Тому вкрай важливо, щоб ви взагалі не змінювали браузер, окрім налаштування [рівнів безпеки](https://tb-manual.torproject.org/security-settings) за замовчуванням. При зміні рівня безпеки завжди **потрібно** перезапускати браузер, перш ніж продовжувати користуватися ним. В іншому випадку [налаштування безпеки можуть бути застосовані не в повному обсязі](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), що призведе до більшого ризику зняття відбитків та їх використання зловмисниками, ніж ви можете очікувати, виходячи з обраних налаштувань.
 
-Modifications other than adjusting this setting would make your fingerprint unique, defeating the purpose of using this browser. If you want to configure your browser more heavily and fingerprinting is not a concern for you, we recommend [Firefox](#firefox) instead.
+Будь-які зміни, окрім зміни цього параметра, зроблять ваш відбиток унікальним, що суперечить меті використання цього браузера. Якщо ви хочете налаштувати свій браузер більш детально, а відбитки браузера вас не турбують, ми рекомендуємо [Firefox](#firefox).
 
-### Anti-Fingerprinting
+### Протидія відбиткам браузера
 
-**Without** using a [VPN](vpn.md), Mullvad Browser provides the same protections against [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) as other private browsers like Firefox+[Arkenfox](#arkenfox-advanced) or [Brave](#brave). Mullvad Browser provides these protections out of the box, at the expense of some flexibility and convenience that other private browsers can provide.
+**Без** використання [VPN](vpn.md) Mullvad Browser забезпечує такий самий захист від [базових скриптів зняття відбитків браузера](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting), як і інші приватні браузери, такі як Firefox+[Arkenfox](#arkenfox-advanced) або [Brave](#brave). Mullvad Browser надає ці засоби захисту "з коробки", шляхом певної гнучкості та зручності, які можуть забезпечити й інші приватні браузери.
 
-==For the strongest anti-fingerprinting protection, we recommend using Mullvad Browser in conjunction **with** a VPN==, whether that is Mullvad or another recommended VPN provider. When using a VPN with Mullvad Browser, you will share a fingerprint and a pool of IP addresses with many other users, giving you a "crowd" to blend in with. This strategy is the only way to thwart advanced tracking scripts, and is the same anti-fingerprinting technique used by Tor Browser.
+==Для найсильнішого захисту від відбитків ми рекомендуємо використовувати Mullvad Browser у поєднанні **з** VPN, будь то Mullvad або інший рекомендований VPN-провайдер. Використовуючи VPN з Mullvad Browser, ви ділитеся відбитком браузера і пулом IP-адрес з багатьма іншими користувачами, створюючи "натовп", з яким можна змішатися. Ця стратегія - єдиний спосіб перешкодити просунутим скриптам стеження, і це той самий метод боротьби з відбитками, що використовується браузером Tor.
 
-Note that while you can use Mullvad Browser with any VPN provider, other people on that VPN must also be using Mullvad Browser for this "crowd" to exist, something which is more likely on Mullvad VPN compared to other providers, particularly this close to the launch of Mullvad Browser. Mullvad Browser does not have built-in VPN connectivity, nor does it check whether you are using a VPN before browsing; your VPN connection has to be configured and managed separately.
+Зауважте, що хоча ви можете використовувати Mullvad браузер з будь-яким VPN-провайдером, інші користувачі цього VPN також повинні використовувати Mullvad браузер, щоб існував цей "натовп", що є більш імовірним для Mullvad VPN порівняно з іншими провайдерами, особливо в цей час, коли Mullvad браузер тільки-но запущено. Mullvad Browser не має вбудованого VPN-з'єднання, а також не перевіряє, чи використовуєте ви VPN перед переглядом вебсторінок; ваше VPN-з'єднання має бути налаштоване і кероване окремо.
 
-Mullvad Browser comes with the *uBlock Origin* and *NoScript* browser extensions pre-installed. While we typically discourage adding *additional* [browser extensions](browser-extensions.md), these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. It also comes pre-installed with the Mullvad Browser Extension, which *can* be safely removed without impacting your browser fingerprint if you would like, but is also safe to keep even if you don't use Mullvad VPN.
+Mullvad Browser постачається з попередньо встановленими розширеннями *uBlock Origin* та *NoScript*. Хоча ми зазвичай не рекомендуємо додавати *додаткові* [розширення браузера](browser-extensions.md), ці розширення, які постачаються з браузером, **не** слід видаляти або налаштовувати за межами значень за замовчуванням, оскільки це може помітно відрізнити ваш браузер від інших користувачів Mullvad Browser. Він також постачається з попередньо встановленим розширенням для браузера Mullvad, яке *можна* безпечно видалити, не впливаючи на відбитки у браузері, якщо ви бажаєте, але також безпечно зберігати, навіть якщо ви не використовуєте Mullvad VPN.
 
-### Private Browsing Mode
+### Режим приватного перегляду
 
-Mullvad Browser operates in permanent private browsing mode, meaning your history, cookies, and other site data will always be cleared every time the browser is closed. Your bookmarks, browser settings, and extension settings will still be preserved.
+Браузер Mullvad працює в режимі постійного приватного перегляду, що означає, що ваша історія, файли cookie та інші дані сайту завжди будуть очищені при кожному закритті браузера. Ваші закладки, налаштування браузера та розширення будуть збережені.
 
 This is required to prevent advanced forms of tracking, but does come at the cost of convenience and some Firefox features, such as Multi-Account Containers. Remember you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise don't work properly in Mullvad Browser, and Mullvad Browser for general browsing.
 
