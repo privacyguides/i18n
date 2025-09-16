@@ -1,5 +1,5 @@
 ---
-title: "安全金鑰"
+title: 安全金鑰
 icon: material/key-chain
 description: These security keys provide a form of phishing-immune authentication for accounts that support it.
 cover: multi-factor-authentication.webp
@@ -10,7 +10,7 @@ cover: multi-factor-authentication.webp
 - [:material-target-account: 針對性攻擊](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 - [:material-bug-outline: 被動攻擊](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-實體**安全金鑰**可為線上帳戶添加強大的保護層。 與[驗證器應用程式](multi-factor-authentication.md) 相比，FIDO2 安全金鑰協定不受網路釣魚的影響，在沒持有金鑰的情況下不會受到侵害。 Many services support FIDO2/WebAuthn as a multifactor authentication option for securing your account, and some services allow you to use a security key as a strong single-factor authenticator with passwordless authentication.
+實體**安全金鑰**可為線上帳戶添加強大的保護層。 Compared to [authenticator apps](multi-factor-authentication.md), the [FIDO2](basics/multi-factor-authentication.md#fido-fast-identity-online) security key protocol is immune to phishing, and cannot be compromised without physical possession of the key itself. Many services support FIDO2/WebAuthn as a multifactor authentication option for securing your account, and some services allow you to use a security key as a strong single-factor authenticator with passwordless authentication.
 
 ## YubiKey 安全金鑰
 
@@ -20,7 +20,7 @@ cover: multi-factor-authentication.webp
   ![Security Key Series by Yubico](assets/img/security-keys/yubico-security-key.webp){ width="315" }
 </figure>
 
-The **Yubico Security Key** series is the most cost-effective hardware security key with FIDO Level 2 certification[^1]. 它支援 FIDO2/WebAuthn 和 FIDO U2F，並且可以與大多數支援安全金鑰作為第二因素的服務以及許多密碼管理器一起使用。
+The **Yubico Security Key** series is the most cost-effective hardware security key with FIDO Level 2 certification[^1]. It supports FIDO2/WebAuthn and FIDO Universal 2nd Factor (U2F), and works out of the box with most services that support a security key as a second factor, as well as many password managers.
 
 [:octicons-home-16: Homepage](https://yubico.com/products/security-key){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
@@ -35,10 +35,10 @@ The **Yubico Security Key** series is the most cost-effective hardware security 
 此金鑰僅提供基本的 FIDO2 功能，但對於大多數人來說就足夠其需求。 安全金鑰系列**不具備**的功能為：
 
 - [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)
-- CCID 智慧卡支援 (PIV-compatibile)
+- CCID Smart Card support (PIV-compatible)
 - OpenPGP
 
-如需要這些功能，則應該考慮高階版 [YubiKey](#yubikey) 產品。
+If you need any of those features, you should consider their higher-end [YubiKey](#yubikey) series instead.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
@@ -55,7 +55,7 @@ Yubico 安全金鑰的韌體不可更新。 如果您想要使用較新韌體版
   ![YubiKeys](assets/img/security-keys/yubikey.png){ width="400" }
 </figure>
 
-The **YubiKey** series from Yubico are among the most popular security keys with FIDO Level 2 Certification[^1]. The YubiKey 5 Series has a wide range of features such as [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), [Yubico OTP](basics/multi-factor-authentication.md#yubico-otp), [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), [OpenPGP](https://developers.yubico.com/PGP), and [TOTP and HOTP](https://developers.yubico.com/OATH) authentication.
+The **YubiKey** series from Yubico are among the most popular security keys with FIDO Level 2 Certification[^1]. The **YubiKey 5 Series** has a wide range of features such as FIDO2/WebAuthn and FIDO U2F, [TOTP and HOTP](https://developers.yubico.com/OATH) authentication, [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), and [OpenPGP](https://developers.yubico.com/PGP).
 
 [:octicons-home-16: Homepage](https://yubico.com/products/yubikey-5-overview){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
@@ -69,7 +69,7 @@ The [comparison table](https://yubico.com/store/compare) shows how the YubiKeys 
 
 YubiKey 可以使用 [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) 或 [YubiKey Personalization Tools](https://yubico.com/support/download/yubikey-personalization-tools) 來設定它。 若要管理 TOTP 程式碼，可用 [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)。 Yubico 所有客戶端軟體都是開源的。
 
-支援 HOTP 和 TOTP 的機型， OTP 介面中有2個插槽可用於HOTP 和32個插槽來儲存 TOTP 機密。 These secrets are stored encrypted on the key and never exposed to the devices they are plugged into. 一旦向 Yubico Authenticator 提供種子（共享祕密） ，它將只會給出六位數的代碼，但永遠不會提供種子。 此安全模型有助於限制攻擊者，即便運行 Yubico Authenticator的設備受到破壞，讓受到物理攻擊時 Yubikey 仍具抵抗力。
+For models which [support HOTP and TOTP](https://support.yubico.com/hc/articles/360013790319-How-many-accounts-can-I-register-my-YubiKey-with), the secrets are stored encrypted on the key and never exposed to the devices they are plugged into. 一旦向 Yubico Authenticator 提供種子（共享祕密） ，它將只會給出六位數的代碼，但永遠不會提供種子。 此安全模型有助於限制攻擊者，即便運行 Yubico Authenticator的設備受到破壞，讓受到物理攻擊時 Yubikey 仍具抵抗力。
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
@@ -86,7 +86,7 @@ Yubikey 安全金鑰的韌體不可更新。 如果您想要使用較新韌體�
   ![Nitrokey](assets/img/security-keys/nitrokey.jpg){ width="300" }
 </figure>
 
-The **Nitrokey 3A Mini** [has FIDO Authenticator Level 1 Certification](https://www.nitrokey.com/news/2024/nitrokey-3a-mini-receives-official-fido2-certification). The Nitrokey 3 Series in general has a wide range of features such as [Universal 2nd Factor (U2F)](https://en.wikipedia.org/wiki/Universal_2nd_Factor), [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), Personal Identity Verification (PIV), OpenPGP, and TOTP and HOTP authentication.
+**Nitrokey** has a cost-effective security key capable of FIDO2/WebAuthn and FIDO U2F called the **Nitrokey Passkey**. For support for features such as PIV, OpenPGP, and TOTP and HOTP authentication, you need to purchase one of their other keys like the **Nitrokey 3**. Currently, only the **Nitrokey 3A Mini** has [FIDO Level 1 Certification](https://nitrokey.com/news/2024/nitrokey-3a-mini-receives-official-fido2-certification).
 
 [:octicons-home-16: Homepage](https://nitrokey.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
@@ -96,26 +96,14 @@ The **Nitrokey 3A Mini** [has FIDO Authenticator Level 1 Certification](https://
 
 </div>
 
-The [comparison table](https://nitrokey.com/products/nitrokeys) shows how the different Nitrokey models compare to each other in terms of features and other specifications.
+The [comparison table](https://nitrokey.com/products/nitrokeys#:~:text=The%20Nitrokey%20Family) shows how the different Nitrokey models compare to each other in terms of features and other specifications. Refer to Nitrokey's [documentation](https://docs.nitrokey.com/nitrokeys/features) for more details about the features available on your Nitrokey.
 
 Nitrokey 模式可用 [Nitrokey 應用程式](https://nitrokey.com/download) 來設定。
-
-The Nitrokey 3 Series can act as a password manager. They can store up to 50 different entries, and each entry can contain login, password, comment and OTP.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-Excluding the Nitrokey 3, Nitrokeys with HOTP and TOTP storage do not have it encrypted, making them vulnerable to physical attacks.
-
-</div>
-
-**Nitrokey** also has the **Nitrokey Passkey**, a lower-price security key capable of [FIDO2 and WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online). 此金鑰僅提供基本的 FIDO2 功能，但對於大多數人來說就足夠其需求。 安全金鑰系列**不具備**的功能為：
-
-- 密碼管理器。
-- PIV
-- OpenPGP
-- Tamper-resistant smart card
-- TOTP and HOTP
+Excluding the Nitrokey 3, Nitrokeys which support HOTP and TOTP do not have encrypted storage, making them vulnerable to physical attacks.
 
 </div>
 

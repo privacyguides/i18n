@@ -1,6 +1,6 @@
 ---
-title: "多重要素驗證"
-icon: 'material/two-factor-authentication'
+title: 多重要素驗證
+icon: material/two-factor-authentication
 description: 多因素驗證是保護您線上帳戶的關鍵安全機制，但有些方法比其他方法更強大。
 ---
 
@@ -64,7 +64,7 @@ Yubico 驗證伺服器是雲端服務，您把信任託付給  Yubico 相信他�
 
 #### FIDO （ 快速線上身份驗證）
 
-[FIDO ](https://en.wikipedia.org/wiki/FIDO_Alliance) 包含許多標準，首先是U2F ，然後是 [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project) ，其中包括 Web 標準 [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn)。
+[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) includes a number of standards, first there was [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) and then later [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project) which includes the web standard [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
 
 U2F 和 FIDO2 指的是 [Client to Authenticator Protocol](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol)，這是安全金鑰和電腦之間的協議，例如筆記型電腦或手機。 它補充了 WebAuthn ， WebAuthn 為驗證網站登錄（ “依賴方” ）之組件。
 

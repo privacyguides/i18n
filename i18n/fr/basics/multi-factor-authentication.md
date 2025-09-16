@@ -1,6 +1,6 @@
 ---
-title: "Authentification Multi-Facteurs"
-icon: 'material/two-factor-authentication'
+title: Authentification Multi-Facteurs
+icon: material/two-factor-authentication
 description: MFA est un mécanisme de sécurité essentiel pour sécuriser vos comptes en ligne, mais certaines méthodes sont plus efficaces que d'autres.
 ---
 
@@ -64,7 +64,7 @@ Si votre modèle de menace exige que vous ayez des identités différentes sur d
 
 #### FIDO (Fast IDentity Online)
 
-[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) comprend un certain nombre de normes, d'abord l'U2F puis, plus tard, la [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project) qui comprend la norme Web [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
+[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) includes a number of standards, first there was [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) and then later [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project) which includes the web standard [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
 
 U2F et FIDO2 font référence au [Protocole client à authentificateur](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol), qui est le protocole entre la clé de sécurité et l'ordinateur, comme un ordinateur portable ou un téléphone. Il complète WebAuthn qui est le composant utilisé pour s'authentifier avec le site Web (la « partie utilisatrice ») sur lequel vous essayez de vous connecter.
 

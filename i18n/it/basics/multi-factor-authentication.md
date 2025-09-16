@@ -1,6 +1,6 @@
 ---
-title: "Autenticazione a più fattori"
-icon: 'material/two-factor-authentication'
+title: Autenticazione a più fattori
+icon: material/two-factor-authentication
 description: L'AFM è un meccaanismo di sicurezza fondamentale per proteggere i tuoi profili online, ma alcuni metodi sono più efficaci di altri.
 ---
 
@@ -64,7 +64,7 @@ Se il tuo modello di minaccia ti richiede di avere identità differenti su siti 
 
 #### FIDO (IDentità Veloce Online)
 
-[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) include numerosi standard, prima U2F e, in seguito, [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project), che include lo standard web [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
+[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) includes a number of standards, first there was [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) and then later [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project) which includes the web standard [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
 
 U2F e FIDO2 si riferiscono al [Protocollo dal Client all'Autenticatore](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol), che è il protocollo tra la chiave di sicurezza e il dispositivo, come un laptop o telefono. Complementa WebAuthn, utilizzato per autenticarsi con il sito web (la "Parte Facente Affidamento"), a cui stai provando ad accedere.
 

@@ -96,7 +96,7 @@ También han recibido el Sello de Confianza Digital, una certificación de la [S
 
 ![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
 
-**Peergos** es un protocolo descentralizado y una plataforma de código abierto para almacenamiento, redes sociales y aplicaciones. Proporciona un espacio seguro y privado donde los usuarios pueden almacenar, compartir y ver sus fotos, vídeos, documentos, etc. Peergos secures your files with quantum-resistant E2EE and ensures all data about your files remains private.
+**Peergos** es un protocolo descentralizado y una plataforma de código abierto para almacenamiento, redes sociales y aplicaciones. It provides a secure and private space where users can store, share, view and edit their photos, videos, documents, etc. Peergos secures your files with quantum-resistant E2EE and ensures all data about your files remains private.
 
 [:octicons-home-16: Página Principal](https://peergos.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://peergos.net/privacy.html){ .card-link title="Política de Privacidad" }
@@ -105,13 +105,13 @@ También han recibido el Sello de Confianza Digital, una certificación de la [S
 [:octicons-heart-16:](https://github.com/peergos/peergos#support){ .card-link title="Contribuir" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=peergos.android)
 - [:simple-github: GitHub](https://github.com/Peergos/web-ui/releases)
-- [:fontawesome-brands-windows: Windows](https://github.com/Peergos/web-ui/releases)
-- [:simple-apple: macOS](https://github.com/Peergos/web-ui/releases)
-- [:simple-linux: Linux](https://github.com/Peergos/web-ui/releases)
+- [:fontawesome-brands-windows: Windows](https://peergos.org/download#windows)
+- [:simple-apple: macOS](https://peergos.org/download#macos)
+- [:simple-linux: Linux](https://peergos.org/download#linux)
 - [:octicons-browser-16: Web](https://peergos.net)
 
 </details>
@@ -120,9 +120,7 @@ También han recibido el Sello de Confianza Digital, una certificación de la [S
 
 Peergos se basa en el [Sistema de Archivos Interplanetario (IPFS)](https://ipfs.tech), una arquitectura entre iguales que protege contra [:material-close-outline: la censura](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}.
 
-Peergos es principalmente una aplicación web, pero puedes alojar tú mismo el servidor, ya sea como caché local para tu cuenta Peergos remota o como servidor de almacenamiento independiente, lo que evita la necesidad de registrarte para obtener una cuenta y una suscripción remotas. El servidor Peergos es un archivo `.jar`, lo que significa que debes tener instalado en tu máquina Java 17+ Runtime Environmen ([descarga de OpenJDK](https://azul.com/downloads)) para que funcione.
-
-Ejecutar una versión local de Peergos junto con una cuenta registrada en su servicio alojado de pago te permite acceder a tu almacenamiento Peergos sin depender de DNS o autoridades de certificación TLS, y mantener una copia de seguridad de tus datos en su nube. La experiencia de usuario debería ser la misma tanto si ejecutas su servidor de escritorio como si utilizas su interfaz web alojada.
+Peergos has a web app, desktop apps and an Android app and you can also self-host the server. Client, server and command line interface all run from the same binary. There is a sync engine included (accessible via the desktop or android apps) for bi-directionally synchronizing a local folder with a Peergos folder, and a webdav bridge to allow other applications to access your Peergos storage.
 
 Peergos fue [auditado](https://peergos.org/posts/security-audit-2024) en noviembre de 2024 por Radically Open Security y se solucionaron todos los problemas. Anteriormente fueron [auditados](https://cure53.de/pentest-report_peergos.pdf) por Cure53 en junio de 2019, y todos los problemas encontrados se solucionaron posteriormente.
 

@@ -96,7 +96,7 @@ Tresorit est également certifié par le Digital Trust Label, délivrée par la 
 
 ![Logo de Peergos](assets/img/cloud/peergos.svg){ align=right }
 
-**Peergos** est un protocole décentralisé et une plateforme open-source pour le stockage, les réseaux sociaux et les applications. Peergos fournit un espace privé et sécurisé où les utilisateurs peuvent stocker, partager, et consulter leurs photos, vidéos, documents, etc. Peergos secures your files with quantum-resistant E2EE and ensures all data about your files remains private.
+**Peergos** est un protocole décentralisé et une plateforme open-source pour le stockage, les réseaux sociaux et les applications. It provides a secure and private space where users can store, share, view and edit their photos, videos, documents, etc. Peergos secures your files with quantum-resistant E2EE and ensures all data about your files remains private.
 
 [:octicons-home-16: Page d'Accueil](https://peergos.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://peergos.net/privacy.html){ .card-link title="Politique de Confidentialité" }
@@ -105,13 +105,13 @@ Tresorit est également certifié par le Digital Trust Label, délivrée par la 
 [:octicons-heart-16:](https://github.com/peergos/peergos#support){ .card-link title="Contribuer" }
 
 <details class="downloads" markdown>
-<summary>Téléchargement</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=peergos.android)
 - [:simple-github: GitHub](https://github.com/Peergos/web-ui/releases)
-- [:fontawesome-brands-windows: Windows](https://github.com/Peergos/web-ui/releases)
-- [:simple-apple: macOS](https://github.com/Peergos/web-ui/releases)
-- [:simple-linux: Linux](https://github.com/Peergos/web-ui/releases)
+- [:fontawesome-brands-windows: Windows](https://peergos.org/download#windows)
+- [:simple-apple: macOS](https://peergos.org/download#macos)
+- [:simple-linux: Linux](https://peergos.org/download#linux)
 - [:octicons-browser-16: Web](https://peergos.net)
 
 </details>
@@ -120,9 +120,7 @@ Tresorit est également certifié par le Digital Trust Label, délivrée par la 
 
 Peergos fonctionne avec le [système de fichier interplanétaire (InterPlanetary File System ou IPFS)](https://ipfs.tech), un protocole pair à  pair qui permet de contourner la [:material-close-outline: Censure](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}.
 
-Peergos est avant tout une application web, mais vous pouvez héberger vous-même le serveur, soit en tant que cache local pour votre compte Peergos distant, soit en tant que serveur de stockage autonome, ce qui vous évite d'avoir à vous inscrire pour un compte et payer un abonnement. Le serveur Peergos est un fichier `.jar`, ce que signifie que l'environnement d'éxecution Java 17+ ([télécharger OpenJDK](https://azul.com/downloads)) doit être installé sur votre machine pour le faire fonctionner.
-
-L'exécution d'une version locale de Peergos parallèlement à un compte enregistré sur leur service hébergé payant vous permet d'accéder à votre stockage Peergos sans dépendre d'un DNS ou des autorités de certification TLS, et de conserver une copie de vos données sauvegardées dans leur cloud. L'expérience utilisateur est à peu près la même, que vous utilisiez leur serveur de bureau ou leur interface web hébergée.
+Peergos has a web app, desktop apps and an Android app and you can also self-host the server. Client, server and command line interface all run from the same binary. There is a sync engine included (accessible via the desktop or android apps) for bi-directionally synchronizing a local folder with a Peergos folder, and a webdav bridge to allow other applications to access your Peergos storage.
 
 Peergos a été [auditionné](https://peergos.org/posts/security-audit-2024) en novembre 2024 par Radically Open Security et tous les problèmes ont été corrigés. Ils ont été précédemment [auditionnés](https://cure53.de/pentest-report_peergos.pdf) par Cure53 en juin 2019, à la suite de quoi tous les problèmes trouvés ont été résolus.
 

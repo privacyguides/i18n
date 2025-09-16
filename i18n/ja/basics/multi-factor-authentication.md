@@ -1,6 +1,6 @@
 ---
-title: "多要素認証"
-icon: 'material/two-factor-authentication'
+title: 多要素認証
+icon: material/two-factor-authentication
 description: 多要素認証はオンラインアカウントを保護するためのセキュリティの仕組みで、強力な仕組みのものもあります。
 ---
 
@@ -64,7 +64,7 @@ Yubico検証サーバーはクラウドベースのサービスでありデー�
 
 #### FIDO (Fast IDentity Online)
 
-[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance)には多くの標準規格があり、最初にU2F、後にウェブ標準の[WebAuthn](https://en.wikipedia.org/wiki/WebAuthn)を含む[FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project)が策定されました。
+[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) includes a number of standards, first there was [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) and then later [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project) which includes the web standard [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
 
 U2FとFIDO2は[Client to Authenticator Protocol](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol)で、セキュリティーキーとラップトップや携帯電話のようなコンピューター間のプロトコルです。 ログインしようとしているウェブサイト（「Relaying Party」）との認証に使われているコンポーネントであるWebAuthnを補完しています。
 

@@ -1,6 +1,6 @@
 ---
-title: "Многофакторная аутентификация"
-icon: 'material/two-factor-authentication'
+title: Многофакторная аутентификация
+icon: material/two-factor-authentication
 description: MFA - это важнейший механизм безопасности для защиты ваших учетных записей в интернете, однако некоторые методы MFA безопаснее, чем другие.
 ---
 
@@ -64,7 +64,7 @@ Yubico OTP - это протокол аутентификации, обычно 
 
 #### FIDO (Fast IDentity Online)
 
-[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) включает в себя ряд стандартов, сначала был U2F, а затем [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project), который включает в себя веб-стандарт [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
+[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) includes a number of standards, first there was [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) and then later [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project) which includes the web standard [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
 
 U2F и FIDO2 относятся к [Client to Authenticator Protocol](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol), который представляет собой протокол между ключом безопасности и компьютером, например ноутбуком или телефоном. Он дополняет WebAuthn, который является компонентом, используемым для аутентификации на сайте ("Relying Party"), на котором вы пытаетесь залогиниться.
 

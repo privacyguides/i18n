@@ -1,6 +1,6 @@
 ---
-title: "Multifactor Authentication"
-icon: 'material/two-factor-authentication'
+title: Multifactor Authentication
+icon: material/two-factor-authentication
 description: MFA is a critical security mechanism for securing your online accounts, but some methods are stronger than others.
 ---
 
@@ -64,7 +64,7 @@ Yubico验证服务器是一个基于云的服务，你需要相信Yubico在安�
 
 #### FIDO（快速在线身份认证）
 
-[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) 包括许多标准，首先是U2F，后来是 [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project) ，其中包括web标准 [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn)。
+[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) includes a number of standards, first there was [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) and then later [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project) which includes the web standard [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
 
 U2F和FIDO2指的是 [客户端到验证器协议](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol)，这是安全密钥和计算机（如笔记本电脑或手机）之间的协议。 它带有WebAuthn作为补充，WebAuthn是用来对你试图登录的网站（"信赖方"）进行认证的组件。
 

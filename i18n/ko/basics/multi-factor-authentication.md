@@ -1,6 +1,6 @@
 ---
-title: "Multifactor Authentication"
-icon: 'material/two-factor-authentication'
+title: Multifactor Authentication
+icon: material/two-factor-authentication
 description: MFA는 온라인 계정을 보호하는 데에 있어서 중요한 보안 메커니즘이지만, 방식에 따라 보안성은 달라집니다.
 ---
 
@@ -64,7 +64,7 @@ Yubico 유효성 검사 서버는 클라우드 기반 서비스입니다. 따라
 
 #### FIDO(Fast IDentity Online)
 
-[FIDO](https://ko.wikipedia.org/wiki/FIDO_%EC%96%BC%EB%9D%BC%EC%9D%B4%EC%96%B8%EC%8A%A4)에는 여러 표준이 포함되어 있습니다. U2F가 먼저 추가되었고, 이후에는 [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn) 웹 표준을 포함하는 [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project)가 추가되었습니다.
+[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) includes a number of standards, first there was [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) and then later [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project) which includes the web standard [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
 
 U2F, FIDO2는 보안 키와 컴퓨터(노트북, 스마트폰 등) 간의 프로토콜인 [CTAP(Client to Authenticator Protocol)](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol)를 포함합니다. 이는 여러분이 로그인하려는 웹사이트, 즉 신뢰 당사자(Relying Party)와 인증하는 데 쓰이는 WebAuthn을 보완합니다.
 

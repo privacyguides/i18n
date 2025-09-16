@@ -1,6 +1,6 @@
 ---
-title: "Multifactor Authentication"
-icon: 'material/two-factor-authentication'
+title: Multifactor Authentication
+icon: material/two-factor-authentication
 description: MFA הוא מנגנון אבטחה קריטי לאבטחת החשבונות המקוונים שלך, אך שיטות מסוימות חזקות יותר מאחרות.
 ---
 
@@ -64,7 +64,7 @@ Yubico OTP הוא פרוטוקול אימות המיושם בדרך כלל במ�
 
 #### FIDO (זיהוי מהיר באינטרנט)
 
-אם מודל האיומים שלך דורש ממך זהויות שונות באתרים שונים, חזק **אל תשתמש **ב- Yubico OTP עם אותו מפתח אבטחת חומרה באתרים אלה מכיוון שמזהה ציבורי הוא ייחודי לכל מפתח אבטחה.
+[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) includes a number of standards, first there was [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) and then later [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project) which includes the web standard [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
 
 U2F ו - FIDO2 מתייחסים ל - [Client to Authenticator Protocol](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol), שהוא הפרוטוקול בין מפתח האבטחה למחשב, כגון מחשב נייד או טלפון. זה משלים את WebAuthn שהוא הרכיב המשמש לאימות עם האתר ("הצד המסתמך") שאליו אתה מנסה להיכנס.
 

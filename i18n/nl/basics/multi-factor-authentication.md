@@ -1,6 +1,6 @@
 ---
-title: "Multifactor Authentication"
-icon: 'material/two-factor-authentication'
+title: Multifactor Authentication
+icon: material/two-factor-authentication
 description: MFA is een cruciaal beveiligingsmechanisme voor de beveiliging van jouw online accounts, maar sommige methoden zijn sterker dan andere.
 ---
 
@@ -76,7 +76,7 @@ Als jouw dreigingsmodel vereist dat je verschillende identiteiten op verschillen
 
 #### FIDO (Fast IDentity Online)
 
-[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) omvat een aantal normen, eerst was er U2F en later [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project) die de webnorm [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn)omvat.
+[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) includes a number of standards, first there was [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) and then later [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project) which includes the web standard [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
 
 U2F en FIDO2 verwijzen naar het [Client to Authenticator Protocol](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol), dat het protocol is tussen de beveiligingssleutel en de computer, zoals een laptop of telefoon. Het is een aanvulling op WebAuthn, de component die wordt gebruikt om je te authenticeren bij de website (de "Betrouwbare Partij") waarop je probeert in te loggen.
 
