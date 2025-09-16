@@ -38,7 +38,7 @@ Le meilleur moyen d'obtenir une aide individuelle est de s'adresser à notre com
 
 ![QR code contact pour Signal](assets/img/layout/signal-contact-qr.png){ align=right }
 
-Vous avez un conseil à nous donner ou vous souhaitez nous faire part d'une information sensible ? Le meilleur moyen de nous contacter en toute sécurité est de le faire via `@privacyguides.01` sur Signal. This group account is monitored by [Jonah](https://discuss.privacyguides.net/u/jonah), [Niek](https://discuss.privacyguides.net/u/niek-de-wilde), [Em](https://discuss.privacyguides.net/u/em), and [Jordan](https://discuss.privacyguides.net/u/jordan).
+Vous avez un conseil à nous donner ou vous souhaitez nous faire part d'une information sensible ? Le meilleur moyen de nous contacter en toute sécurité est de le faire via `@privacyguides.01` sur Signal. Ce compte est géré par [Jonah](https://discuss.privacyguides.net/u/jonah), [Niek](https://discuss.privacyguides.net/u/niek-de-wilde), [Em](https://discuss.privacyguides.net/u/em), and [Jordan](https://discuss.privacyguides.net/u/jordan).
 
 [:simple-signal: Discute sur Signal](https://signal.me/#eu/zg9xcrIv5w-EtXt2FmTJgfWv01LmyTed8rpr7RDv35Mizq8ISZ9NJLmYtzsxI0Z4){ .md-button }
 
@@ -54,7 +54,7 @@ Si vous avez besoin d'un autre canal sécurisé, veuillez en faire la demande vi
 
 <!-- markdownlint-disable MD030 -->
 
-The project executive committee consists of five volunteers charged with management of the [MAGIC Privacy Guides Fund](https://magicgrants.org/funds/privacy_guides), making most critical project-related decisions.
+Le comité exécutif du projet est composé de cinq bénévoles chargés de gérer le [Fond MAGIC Privacy Guides](https://magicgrants.org/funds/privacy_guides), et de prendre les décisions les plus importantes concernant le projet.
 
 <div class="grid cards" markdown>
 
@@ -62,7 +62,7 @@ The project executive committee consists of five volunteers charged with managem
 
   ---
 
-  :material-text-account: Founder
+  :material-text-account: Fondateur
 
   [:material-account: Profile](https://discuss.privacyguides.net/u/dngray)
 
@@ -74,9 +74,9 @@ The project executive committee consists of five volunteers charged with managem
 
   ---
 
-  :material-text-account: Founder
+  :material-text-account: Fondateur
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/freddy)
+  [:material-account: Profil](https://discuss.privacyguides.net/u/freddy)
 
   [:material-github:](https://github.com/freddy-m "GitHub")
   [:material-mastodon:](https://social.lol/@freddy "@freddy@social.lol"){rel=me}
@@ -86,9 +86,9 @@ The project executive committee consists of five volunteers charged with managem
 
   ---
 
-  :material-text-account: Founder, Director
+  :material-text-account: Fondateur, Directeur
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/jonah)
+  [:material-account: Profil](https://discuss.privacyguides.net/u/jonah)
 
   [:material-home:](https://www.jonaharagon.com "Homepage")
   [:material-github:](https://github.com/jonaharagon "GitHub")
@@ -99,9 +99,9 @@ The project executive committee consists of five volunteers charged with managem
 
   ---
 
-  :material-text-account: Founder
+  :material-text-account: Fondateur
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/Niek-de-Wilde)
+  [:material-account: Profil](https://discuss.privacyguides.net/u/Niek-de-Wilde)
 
   [:material-github:](https://github.com/blacklight447 "GitHub")
   [:material-mastodon:](https://mastodon.social/@blacklight447 "@blacklight447@mastodon.social"){rel=me}
@@ -111,9 +111,9 @@ The project executive committee consists of five volunteers charged with managem
 
   ---
 
-  :material-text-account: Founder
+  :material-text-account: Fondateur
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/olivia)
+  [:material-account: Profil](https://discuss.privacyguides.net/u/olivia)
 
   [:material-github:](https://github.com/hook9 "GitHub")
   [:material-mastodon:](https://mastodon.neat.computer/@oliviablob "@oliviablob@neat.computer"){rel=me}
