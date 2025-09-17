@@ -20,21 +20,21 @@ global:
 
 ## Рекомендовані сервіси
 
-Для всього іншого ми рекомендуємо різноманітні поштові сервіси, що базуються на стійких бізнес-моделях і мають вбудовані функції безпеки та конфіденційності. Read our [full list of criteria](#criteria) for more information.
+Для всього іншого ми рекомендуємо різноманітні поштові сервіси, що базуються на стійких бізнес-моделях і мають вбудовані функції безпеки та конфіденційності. Ознайомтеся з нашим [повним списком критеріїв](#criteria) для отримання додаткової інформації.
 
-| Provider                      | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero-Access Encryption                               | Anonymous Payment Methods             |
-| ----------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------- |
-| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | Cash                                  |
-| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | Cash                                  |
-| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero <br>Cash via third party |
+| Сервіс                        | OpenPGP / WKD                          | IMAP / SMTP                                                                 | Шифрування з нульовим доступом                          | Анонімні способи оплати                    |
+| ----------------------------- | -------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------ |
+| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Тільки в платних тарифних планах | :material-check:{ .pg-green }                           | Готівка                                    |
+| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                               | :material-information-outline:{ .pg-blue } Тільки пошта | Готівка                                    |
+| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                                      | :material-check:{ .pg-green }                           | Monero <br>Готівка через третіх осіб |
 
-In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md#recommended-providers) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
+На додаток до (або замість) рекомендованого тут сервісу електронної пошти, ви можете розглянути можливість використання спеціального [сервісу псевдонімів](email-aliasing.md#recommended-providers) для захисту вашої приватності. Серед іншого, ці сервіси можуть допомогти захистити вашу реальну поштову скриньку від спаму, не дати маркетологам зв'язати ваші акаунти, а також зашифрувати всі вхідні повідомлення за допомогою PGP.
 
-- [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
+- [Більше інформації :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## Сервіси, сумісні з OpenPGP
 
-These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic end-to-end encrypted emails. For example, a Proton Mail user could send an E2EE message to a Mailbox Mail user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
+Ці сервіси одразу підтримують шифрування/дешифрування OpenPGP і [стандарт Web Key Directory (WKD)](basics/email-security.md#what-is-the-web-key-directory-standard), що дозволяє наскрізне шифрування електронних листів незалежно від сервісу. Наприклад, користувач Proton Mail може надіслати повідомлення E2EE користувачеві Mailbox Mail, або ви можете отримувати сповіщення, зашифровані за допомогою OpenPGP, від інтернет-сервісів, які його підтримують.
 
 <div class="grid cards" markdown>
 
@@ -44,13 +44,13 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Попередження</p>
 
-When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](basics/email-security.md#email-metadata-overview).
+При використанні наскрізного шифрування (E2EE), такого як OpenPGP, ваш лист все одно буде містити деякі метадані, які не зашифровані в заголовку листа, в тому числі і рядок теми! Дізнайтеся більше про [метадані електронної пошти] (basics/email-security.md#email-metadata-overview).
 
-OpenPGP also does not support forward secrecy, which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed.
+OpenPGP також не підтримує пряму секретність, що означає, що якщо приватний ключ вас або одержувача повідомлення буде викрадено, всі попередні повідомлення, зашифровані за допомогою цього ключа, будуть відкриті.
 
-- [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+- [Як захистити свої приватні ключі?] (basics/email-security.md#how-do-i-protect-my-private-keys)
 
 </div>
 
