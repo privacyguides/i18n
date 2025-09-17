@@ -38,7 +38,7 @@ Le meilleur moyen d'obtenir une aide individuelle est de s'adresser à notre com
 
 ![QR code contact pour Signal](assets/img/layout/signal-contact-qr.png){ align=right }
 
-Vous avez un conseil à nous donner ou vous souhaitez nous faire part d'une information sensible ? Le meilleur moyen de nous contacter en toute sécurité est de le faire via `@privacyguides.01` sur Signal. Ce compte est géré par [Jonah](https://discuss.privacyguides.net/u/jonah), [Niek](https://discuss.privacyguides.net/u/niek-de-wilde), [Em](https://discuss.privacyguides.net/u/em), and [Jordan](https://discuss.privacyguides.net/u/jordan).
+Vous avez un conseil à nous donner ou vous souhaitez nous faire part d'une information sensible ? Le meilleur moyen de nous contacter en toute sécurité est de le faire via `@privacyguides.01` sur Signal. Ce compte de groupe est suivi par [Jonah](https://discuss.privacyguides.net/u/jonah), [Niek](https://discuss.privacyguides.net/u/niek-de-wilde), [Em](https://discuss.privacyguides.net/u/em), et [Jordan](https://discuss.privacyguides.net/u/jordan).
 
 [:simple-signal: Discute sur Signal](https://signal.me/#eu/zg9xcrIv5w-EtXt2FmTJgfWv01LmyTed8rpr7RDv35Mizq8ISZ9NJLmYtzsxI0Z4){ .md-button }
 
@@ -122,7 +122,7 @@ Le comité exécutif du projet est composé de cinq bénévoles chargés de gér
 
 ## :material-account-edit: Staff
 
-Our staff are paid to contribute to supplemental content at Privacy Guides, like [video production](https://www.youtube.com/@privacyguides), [news articles and tutorials](https://www.privacyguides.org/articles), and our discussion communities and social media. Most are available and paid on a full-time basis to assist the organization.
+Notre personnel est rémunéré pour contribuer au contenu supplémentaire à Privacy Guides, tel que [la production vidéo](https://www.youtube.com/@privacyguides), [les articles d'actualité et les tutoriels](https://www.privacyguides.org/articles), ainsi que nos communautés de discussion et nos réseaux sociaux. La plupart d'entre eux sont disponibles et rémunérés à temps plein pour aider l'organisation.
 
 <div class="grid cards" markdown>
 
@@ -130,9 +130,9 @@ Our staff are paid to contribute to supplemental content at Privacy Guides, like
 
   ---
 
-  :material-text-account: Journalist
+  :material-text-account: Journaliste
 
-  [:material-account: Profile](https://discuss.privacyguides.net/u/em)
+  [:material-account: Profil](https://discuss.privacyguides.net/u/em)
 
   [:material-github:](https://github.com/EmAtPrivacyGuides "GitHub")
   [:material-mastodon:](https://infosec.exchange/@Em0nM4stodon "@Em0nM4stodon@infosec.exchange"){rel=me}
