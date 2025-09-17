@@ -64,7 +64,7 @@ Si tu modelo de amenaza requiere que tengas diferentes identidades en diferentes
 
 #### FIDO (Fast IDentity Online)
 
-[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) includes a number of standards, first there was [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) and then later [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project) which includes the web standard [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
+[FIDO](https://en.wikipedia.org/wiki/FIDO_Alliance) incluye una serie de estándares, el primero fue [U2F](https://en.wikipedia.org/wiki/Universal_2nd_Factor) y más tarde [FIDO2](https://en.wikipedia.org/wiki/FIDO2_Project), que incluye el estándar web [WebAuthn](https://en.wikipedia.org/wiki/WebAuthn).
 
 U2F y FIDO2 se refieren al [Protocolo Cliente-Autenticador](https://en.wikipedia.org/wiki/Client_to_Authenticator_Protocol), que es el protocolo entre la clave de seguridad y el ordenador, como un portátil o un teléfono. Complementa a WebAuthn, que es el componente utilizado para autenticarse con el sitio web (la "parte dependiente") en el que estás intentando de iniciar sesión.
 

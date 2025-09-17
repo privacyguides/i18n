@@ -1,8 +1,8 @@
 ---
-title: File Management
-meta_title: "Self-Hosting File Management Tools - Privacy Guides"
+title: Gestión de Archivos
+meta_title: "Autoalojamiento de Herramientas de Gestión de Archivos - Privacy Guides"
 icon: material/file-multiple-outline
-description: For our more technical readers, self-hosting file management tools can provide additional privacy assurances by having maximum control over your data.
+description: Para nuestros lectores más técnicos, el autoalojamiento de las herramientas de gestión de archivos puede proporcionar garantías adicionales de privacidad al tener el máximo control sobre tus datos.
 cover: cloud.webp
 ---
 
@@ -10,7 +10,7 @@ cover: cloud.webp
 
 - [:material-server-network: Proveedores de Servicios](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-Self-hosting your own **file management** tools may be a good idea to reduce the risk of encryption flaws in a cloud provider's native clients.
+Autoalojar tus propias herramientas de **gestión de archivos** podría ser una buena idea para reducir el riesgo de errores de cifrado en los clientes nativos de un proveedor de nube.
 
 ## Gestión de Fotografías
 
@@ -20,7 +20,7 @@ Self-hosting your own **file management** tools may be a good idea to reduce the
 
 ![PhotoPrism logo](../assets/img/self-hosting/photoprism.svg){ align=right }
 
-**PhotoPrism** is a platform for managing photos. Permite sincronizar y compartir álbumes y tiene otras muchas [funciones](https://photoprism.app/features). No incluye cifrado de extremo a extremo, por lo que es mejor alojarlo en un servidor en el que confíes y que esté bajo tu control.
+**PhotoPrism** es una plataforma para la gestión de fotos. Permite sincronizar y compartir álbumes y tiene otras muchas [funciones](https://photoprism.app/features). No incluye cifrado de extremo a extremo, por lo que es mejor alojarlo en un servidor en el que confíes y que esté bajo tu control.
 
 [:octicons-home-16: Página Principal](https://photoprism.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Política de Privacidad" }
@@ -37,12 +37,12 @@ Self-hosting your own **file management** tools may be a good idea to reduce the
 
 ![FreedomBox logo](../assets/img/self-hosting/freedombox.svg){ align=right }
 
-**FreedomBox** is an operating system designed to be run on a [single-board computer (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). The purpose is to make it easy to set up server applications for use cases like sharing files.
+**FreedomBox** es un sistema operativo diseñado para ser ejecutado en un [ordenador monoplaca (SBC)](https://en.wikipedia.org/wiki/Single-board_computer). El objetivo es facilitar la configuración de aplicaciones de servidor para casos de uso como compartir archivos.
 
-[:octicons-home-16: Homepage](https://freedombox.org){ .md-button .md-button--primary }
-[:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title="Documentation" }
-[:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://freedomboxfoundation.org/donate){ .card-link title="Contribute" }
+[:octicons-home-16: Página Principal](https://freedombox.org){ .md-button .md-button--primary }
+[:octicons-info-16:](https://wiki.debian.org/FreedomBox/Manual){ .card-link title="Documentación" }
+[:octicons-code-16:](https://salsa.debian.org/freedombox-team/freedombox){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://freedomboxfoundation.org/donate){ .card-link title="Contribuir" }
 
 </div>
 
@@ -54,11 +54,11 @@ Self-hosting your own **file management** tools may be a good idea to reduce the
 
 **Nextcloud** es un conjunto de programas cliente-servidor gratuitos y de código abierto para crear tus propios servicios de alojamiento de archivos en un servidor privado que tú controlas.
 
-[:octicons-home-16: Homepage](https://nextcloud.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://nextcloud.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title="Contribute" }
+[:octicons-home-16: Página Principal](https://nextcloud.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nextcloud.com/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://nextcloud.com/support){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/nextcloud){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://nextcloud.com/contribute){ .card-link title="Contribuir" }
 
 <details class="downloads" markdown><summary>Downloads "Descargas"</summary>
 

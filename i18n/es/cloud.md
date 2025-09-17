@@ -16,9 +16,9 @@ Muchos **proveedores de almacenamiento en la nube** exigen que confíes plenamen
 Si estas alternativas no se ajustan a tus necesidades, te sugerimos que busques utilizar un software de encriptación como [Cryptomator](encryption.md#cryptomator-cloud) con otro proveedor en la nube. Utilizar Cryptomator junto con **cualquier** proveedor de la nube(incluidos estos) puede ser una buena idea para reducir el riesgo de fallos de cifrado en los clientes nativos de un proveedor.
 
 <details class="admonition info" markdown>
-<summary>¿Buscando Nextcloud?</summary>
+<summary>¿Buscas Nextcloud?</summary>
 
-For more technical readers, Nextcloud is [still a recommended tool](self-hosting/file-management.md#nextcloud) for self-hosting a file management suite, however we do not recommend third-party Nextcloud storage providers at the moment, because we do [not recommend](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) Nextcloud's built-in E2EE functionality for home users.
+Para los lectores más técnicos, Nextcloud [sigue siendo una herramienta recomendada](self-hosting/file-management.md#nextcloud) para el autoalojamiento de una suite de gestión de archivos, sin embargo, no recomendamos proveedores de almacenamiento Nextcloud de terceros por el momento, porque [no recomendamos](https://discuss.privacyguides.net/t/dont-recommend-nextcloud-e2ee/10352/29) la funcionalidad E2EE integrada de Nextcloud para usuarios domésticos.
 
 </details>
 
@@ -96,7 +96,7 @@ También han recibido el Sello de Confianza Digital, una certificación de la [S
 
 ![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
 
-**Peergos** es un protocolo descentralizado y una plataforma de código abierto para almacenamiento, redes sociales y aplicaciones. It provides a secure and private space where users can store, share, view and edit their photos, videos, documents, etc. Peergos secures your files with quantum-resistant E2EE and ensures all data about your files remains private.
+**Peergos** es un protocolo descentralizado y una plataforma de código abierto para almacenamiento, redes sociales y aplicaciones. Proporciona un espacio seguro y privado donde los usuarios pueden almacenar, compartir, ver y editar sus fotos, vídeos, documentos, etc. Peergos protege tus archivos con E2EE postcuántico y garantiza que todos los datos sobre tus archivos permanezcan privados.
 
 [:octicons-home-16: Página Principal](https://peergos.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://peergos.net/privacy.html){ .card-link title="Política de Privacidad" }
@@ -105,7 +105,7 @@ También han recibido el Sello de Confianza Digital, una certificación de la [S
 [:octicons-heart-16:](https://github.com/peergos/peergos#support){ .card-link title="Contribuir" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=peergos.android)
 - [:simple-github: GitHub](https://github.com/Peergos/web-ui/releases)
@@ -120,7 +120,7 @@ También han recibido el Sello de Confianza Digital, una certificación de la [S
 
 Peergos se basa en el [Sistema de Archivos Interplanetario (IPFS)](https://ipfs.tech), una arquitectura entre iguales que protege contra [:material-close-outline: la censura](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}.
 
-Peergos has a web app, desktop apps and an Android app and you can also self-host the server. Client, server and command line interface all run from the same binary. There is a sync engine included (accessible via the desktop or android apps) for bi-directionally synchronizing a local folder with a Peergos folder, and a webdav bridge to allow other applications to access your Peergos storage.
+Peergos tiene una aplicación web, aplicaciones de escritorio y una aplicación para Android, y también puedes autoalojar el servidor. El cliente, el servidor y la interfaz de línea de comandos se ejecutan desde el mismo binario. Hay un motor de sincronización incluido (accesible a través de las aplicaciones de escritorio o Android) para sincronizar bidireccionalmente una carpeta local con una carpeta Peergos, y un puente webdav para permitir que otras aplicaciones accedan a tu almacenamiento Peergos.
 
 Peergos fue [auditado](https://peergos.org/posts/security-audit-2024) en noviembre de 2024 por Radically Open Security y se solucionaron todos los problemas. Anteriormente fueron [auditados](https://cure53.de/pentest-report_peergos.pdf) por Cure53 en junio de 2019, y todos los problemas encontrados se solucionaron posteriormente.
 

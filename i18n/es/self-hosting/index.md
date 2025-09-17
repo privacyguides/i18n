@@ -36,7 +36,7 @@ El autoalojamiento de tus propias soluciones requiere conocimientos técnicos av
 
 [Más información :material-arrow-right-drop-circle:](email-servers.md)
 
-## :material-file-multiple-outline: File Management
+## :material-file-multiple-outline: Gestión de Archivos
 
 <div class="grid cards" markdown>
 
@@ -46,7 +46,7 @@ El autoalojamiento de tus propias soluciones requiere conocimientos técnicos av
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](file-management.md)
+[Más información :material-arrow-right-drop-circle:](file-management.md)
 
 ## :material-form-textbox-password: Gestión de Contraseñas
 
@@ -148,9 +148,9 @@ Las recomendaciones de herramientas en otras categorías del sitio web también 
 
   ---
 
-  [:octicons-home-16:](https://peergos.org){ .card-link title="Homepage" }
-  [:octicons-info-16:](https://github.com/peergos/peergos#usage---running-locally-to-log-in-to-another-instance){ .card-link title="Admin Documentation" }
-  [:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Source Code" }
+  [:octicons-home-16:](https://peergos.org){ .card-link title="Página Principal" }
+  [:octicons-info-16:](https://github.com/peergos/peergos#usage---running-locally-to-log-in-to-another-instance){ .card-link title="Documentación de Administrador" }
+  [:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Código Fuente" }
 
 - ![Addy.io logo](../assets/img/email-aliasing/addy.svg){ .twemoji } [**Addy.io**](../email-aliasing.md#addyio)
 
@@ -172,9 +172,9 @@ Las recomendaciones de herramientas en otras categorías del sitio web también 
 
   ---
 
-  [:octicons-home-16:](https://ente.io){ .card-link title="Homepage" }
-  [:octicons-info-16:](https://help.ente.io/self-hosting){ .card-link title="Admin Documentation" }
-  [:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
+  [:octicons-home-16:](https://ente.io){ .card-link title="Página Principal" }
+  [:octicons-info-16:](https://help.ente.io/self-hosting){ .card-link title="Documentación de Administrador" }
+  [:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Código Fuente" }
 
 - ![CryptPad logo](../assets/img/document-collaboration/cryptpad.svg){ .twemoji } [**CryptPad**](../document-collaboration.md#cryptpad)
 
@@ -188,17 +188,17 @@ Las recomendaciones de herramientas en otras categorías del sitio web también 
 
   ---
 
-  [:octicons-home-16:](https://send.vis.ee){ .card-link title="Homepage" }
-  [:octicons-info-16:](https://github.com/timvisee/send/blob/master/docs/deployment.md){ .card-link title="Admin Documentation" }
-  [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
+  [:octicons-home-16:](https://send.vis.ee){ .card-link title="Página Principal" }
+  [:octicons-info-16:](https://github.com/timvisee/send/blob/master/docs/deployment.md){ .card-link title="Documentación de Administrador" }
+  [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Código Fuente" }
 
 - ![LibreTranslate logo](../assets/img/language-tools/libretranslate.png){ .twemoji } [**LibreTranslate**](../language-tools.md#libretranslate)
 
   ---
 
-  [:octicons-home-16:](https://libretranslate.com){ .card-link title="Homepage" }
-  [:octicons-info-16:](https://docs.libretranslate.com){ .card-link title="Admin Documentation" }
-  [:octicons-code-16:](https://github.com/LibreTranslate/LibreTranslate){ .card-link title="Source Code" }
+  [:octicons-home-16:](https://libretranslate.com){ .card-link title="Página Principal" }
+  [:octicons-info-16:](https://docs.libretranslate.com){ .card-link title="Documentación de Administrador" }
+  [:octicons-code-16:](https://github.com/LibreTranslate/LibreTranslate){ .card-link title="Código Fuente" }
 
 - ![Miniflux logo](../assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](../assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [**Miniflux**](../news-aggregators.md#miniflux)
 
