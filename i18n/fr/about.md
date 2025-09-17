@@ -132,7 +132,7 @@ Notre personnel est rémunéré pour contribuer au contenu supplémentaire à Pr
 
   :material-text-account: Journaliste
 
-  [:material-account: Profil](https://discuss.privacyguides.net/u/em)
+  [:material-account: Profile](https://discuss.privacyguides.net/u/em)
 
   [:material-github:](https://github.com/EmAtPrivacyGuides "GitHub")
   [:material-mastodon:](https://infosec.exchange/@Em0nM4stodon "@Em0nM4stodon@infosec.exchange"){rel=me}
@@ -142,7 +142,7 @@ Notre personnel est rémunéré pour contribuer au contenu supplémentaire à Pr
 
   ---
 
-  :material-text-account: Content Producer
+  :material-text-account: Producteur de contenu
 
   [:material-account: Profile](https://discuss.privacyguides.net/u/Jordan)
 
@@ -154,7 +154,7 @@ Notre personnel est rémunéré pour contribuer au contenu supplémentaire à Pr
 
   ---
 
-  :material-text-account: Community & News Intern
+  :material-text-account: Stagiaire Communauté et Actualités
 
   [:material-account: Profile](https://discuss.privacyguides.net/u/kevpham)
 
@@ -164,16 +164,16 @@ Notre personnel est rémunéré pour contribuer au contenu supplémentaire à Pr
 
 </div>
 
-## :material-check-decagram: Social Media
+## :material-check-decagram: Réseaux sociaux
 
 We have a general policy of avoiding links to centralized social media profiles and other websites outside our control. This means that in places like our website footer and other areas, we only link to platforms we fully control, such as our Mastodon and PeerTube accounts or Matrix channels.
 
-However, Privacy Guides _does_ have social media accounts on a wide variety of platforms, in the hope of reaching new users who aren't yet familiar with our content. We try to make this a "one-way street" where those accounts link to privacyguides.org, and not the other way around. However, this creates some confusion about which accounts are actually run by the Privacy Guides team. For reference, we will list all of our accounts here:
+However, Privacy Guides _does_ have social media accounts on a wide variety of platforms, in the hope of reaching new users who aren't yet familiar with our content. We try to make this a "one-way street" where those accounts link to privacyguides.org, and not the other way around. However, this creates some confusion about which accounts are actually run by the Privacy Guides team. Pour référence, nous dressons ici la liste de tous nos comptes :
 
 <div class="grid cards" markdown>
 
 - [:simple-discourse: **Forum**](https://discuss.privacyguides.net)
-- [:simple-matrix: **Matrix Space**](https://matrix.to/#/#privacyguides:matrix.org)
+- [:simple-matrix: **Espace Matrix**](https://matrix.to/#/#privacyguides:matrix.org)
 - [:simple-mastodon: **Mastodon**](https://mastodon.neat.computer/@privacyguides)
 - [:simple-peertube: **PeerTube**](https://neat.tube/c/privacyguides)
 - [:simple-bluesky: Bluesky](https://bsky.app/profile/privacyguides.org)
@@ -190,11 +190,11 @@ However, Privacy Guides _does_ have social media accounts on a wide variety of p
 
 To reiterate, this is not an endorsement of any platform, and we generally discourage following us on most social media platforms.
 
-## :material-newspaper: In The Media
+## :material-newspaper: Dans les médias
 
-> To find [privacy-focused alternative] apps, check out sites like Good Reports and **Privacy Guides**, which list privacy-focused apps in a variety of categories, notably including email providers (usually on paid plans) that aren’t run by the big tech companies.
+> Pour trouver des applications [alternatives axées sur la protection de la vie privée], consultez des sites tels que Good Reports et **Privacy Guides**, qui répertorient les applications axées sur la protection de la vie privée dans diverses catégories, notamment les fournisseurs de courrier électronique (généralement payants) qui ne sont pas gérés par les grands géants du web.
 
-— [New York Times](https://nytimes.com/wirecutter/guides/online-security-social-media-privacy)
+- New York Times](https://nytimes.com/wirecutter/guides/online-security-social-media-privacy)
 
 > If you're looking for a new VPN, you can go to the discount code of just about any podcast. If you are looking for a **good** VPN, you need professional help. The same goes for email clients, browsers, operating systems and password managers. How do you know which of these is the best, most privacy-friendly option? For that there is **Privacy Guides**, a platform on which a number of volunteers search day in, day out for the best privacy-friendly tools to use on the internet.
 
