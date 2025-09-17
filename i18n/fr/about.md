@@ -196,13 +196,13 @@ To reiterate, this is not an endorsement of any platform, and we generally disco
 
 - New York Times](https://nytimes.com/wirecutter/guides/online-security-social-media-privacy)
 
-> If you're looking for a new VPN, you can go to the discount code of just about any podcast. If you are looking for a **good** VPN, you need professional help. The same goes for email clients, browsers, operating systems and password managers. How do you know which of these is the best, most privacy-friendly option? For that there is **Privacy Guides**, a platform on which a number of volunteers search day in, day out for the best privacy-friendly tools to use on the internet.
+> Si vous êtes à la recherche d'un nouveau VPN, vous pouvez consulter le code de réduction d'à peu près tous les podcasts. Si vous cherchez un **bon** VPN, vous avez besoin d'une aide professionnelle. Il en va de même pour les clients de messagerie, les navigateurs, les systèmes d'exploitation et les gestionnaires de mots de passe. Comment savoir laquelle de ces options est la meilleure, la plus respectueuse de la vie privée ? Pour cela, il existe **Privacy Guides**, une plateforme sur laquelle un certain nombre de bénévoles recherchent jour après jour les meilleurs outils respectueux de la vie privée à utiliser sur internet.
 
-— [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [Translated from Dutch]
+- [Tweakers.net](https://tweakers.net/reviews/10568/op-zoek-naar-privacyvriendelijke-tools-niek-de-wilde-van-privacy-guides.html) [Traduit du néerlandais]
 
-Also featured on: [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok), [Wirecutter](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc) [[2](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac)], [NPO Radio 1](https://nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), [Wired](https://wired.com/story/firefox-mozilla-2022), [Fast Company](https://fastcompany.com/91167564/mozilla-wants-you-to-love-firefox-again) and [404 Media](https://404media.co/privacy-service-optery-faces-backlash-after-plan-to-send-openai-user-data).
+Également présenté sur : [Ars Technica](https://arstechnica.com/gadgets/2022/02/is-firefox-ok), [Wirecutter](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-windows-pc) [[2](https://nytimes.com/wirecutter/guides/practical-guide-to-securing-your-mac)], [NPO Radio 1](https://nporadio1.nl/nieuws/binnenland/8eaff3a2-8b29-4f63-9b74-36d2b28b1fe1/ooit-online-eens-wat-doms-geplaatst-ga-jezelf-eens-googlen-en-kijk-dan-wat-je-tegenkomt), [Wired](https://wired.com/story/firefox-mozilla-2022), [Fast Company](https://fastcompany.com/91167564/mozilla-wants-you-to-love-firefox-again) et [404 Media](https://404media.co/privacy-service-optery-faces-backlash-after-plan-to-send-openai-user-data).
 
-## :material-history: History
+## :material-history: Histoire
 
 Privacy Guides was launched in September 2021 as a continuation of the [defunct](about/privacytools.md) "PrivacyTools" open-source educational project. We recognized the importance of independent, criteria-focused product recommendations and general knowledge in the privacy space, which is why we needed to preserve the work that had been created by so many contributors since 2015 and make sure that information had a stable home on the web indefinitely.
 
