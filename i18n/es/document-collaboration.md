@@ -1,7 +1,7 @@
 ---
 title: Colaboración en Documentos
 icon: material/account-group
-description: Most online office suites do not support end-to-end encryption, meaning the cloud provider has access to everything you do.
+description: La mayoría de los paquetes ofimáticos en línea no admiten el cifrado de extremo a extremo, lo que significa que el proveedor de servicios en la nube tiene acceso a todo lo que haces.
 cover: document-collaboration.webp
 ---
 
@@ -9,7 +9,7 @@ cover: document-collaboration.webp
 
 - [:material-server-network: Proveedores de Servicios](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-Most online **document collaboration** platforms like Google Drive do not support end-to-end encryption, meaning the cloud provider has access to everything you do. La política de privacidad del proveedor puede proteger legalmente tus derechos, pero no establece limitaciones técnicas de acceso.
+La mayoría de las plataformas de **colaboración en documentos** en línea, como Google Drive, no admiten el cifrado de extremo a extremo, lo que significa que el proveedor de servicios en la nube tiene acceso a todo lo que haces. La política de privacidad del proveedor puede proteger legalmente tus derechos, pero no establece limitaciones técnicas de acceso.
 
 ## CryptPad
 
@@ -17,16 +17,16 @@ Most online **document collaboration** platforms like Google Drive do not suppor
 
 ![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ align=right }
 
-**CryptPad** is a private-by-design alternative to popular, full-fledged office suites. All content on this web service is E2EE and can be shared with other users easily.
+**CryptPad** es una alternativa privada por diseño a los populares paquetes ofimáticos completos. Todo el contenido de este servicio web es E2EE y puede compartirse fácilmente con otros usuarios.
 
 [:material-star-box: Lee nuestra última reseña de CryptPad.](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review)
 
-[:octicons-home-16: Homepage](https://cryptpad.fr){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE){ .card-link title="Privacy Policy" }
-[:octicons-server-16:](https://cryptpad.org/instances){ .card-link title="Public Instances" }
-[:octicons-info-16:](https://docs.cryptpad.fr){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title="Contribute" }
+[:octicons-home-16: Página Principal](https://cryptpad.fr){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE){ .card-link title="Política de Privacidad" }
+[:octicons-server-16:](https://cryptpad.org/instances){ .card-link title="Instancias Públicas" }
+[:octicons-info-16:](https://docs.cryptpad.fr){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title="Contribuir" }
 
 </details>
 

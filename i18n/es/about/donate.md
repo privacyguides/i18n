@@ -7,10 +7,10 @@ description: La misión benéfica de Privacy Guides depende de las contribucione
 Apoya nuestra misión de defensa de los derechos digitales y difunde información sobre los programas de vigilancia masiva y otras invasiones cotidianas de la privacidad. Puedes ayudar a los investigadores, activistas y mantenedores de Privacy Guides a crear contenidos informativos, albergar servicios digitales privados y proteger los derechos de privacidad en un momento en que el mundo más lo necesita.
 
 <!-- markdownlint-disable-next-line -->
-[:material-heart:{ .pg-red } Become a Member](https://donate.magicgrants.org/privacyguides/membership){ class="md-button md-button--primary" data-portal="signup" }
+[:material-heart:{ .pg-red } Conviértete en Miembro](https://donate.magicgrants.org/privacyguides/membership){ class="md-button md-button--primary" data-portal="signup" }
 
-[Become a Member (Cryptocurrency)](https://donate.magicgrants.org/privacyguides/membership){ class="md-button" }
-[One-Time Donation](https://donate.magicgrants.org/privacyguides/donate/privacyguides){ class="md-button" }
+[Conviértete en Miembro (Criptomonedas)](https://donate.magicgrants.org/privacyguides/membership){ class="md-button" }
+[Donación Única](https://donate.magicgrants.org/privacyguides/donate/privacyguides){ class="md-button" }
 
 <small markdown>
 

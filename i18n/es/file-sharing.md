@@ -23,11 +23,11 @@ Si ya utiliza [Proton Drive](cloud.md#proton-drive)[^1] o tiene una suscripción
 
 **Send** es una bifurcación del descontinuado servicio Firefox Send de Mozilla que le permite enviar archivos a otros con un enlace. Los archivos son encriptados en su dispositivo, lo que no permite que sean leídos por el servidor y, opcionalmente, también pueden protegerse por una contraseña. El responsable de mantener Send alberga una [instancia pública](https://send.vis.ee). Puede utilizar otras instancias públicas o puede alojar Send usted mismo.
 
-[:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
-[:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title="Contribute" }
+[:octicons-home-16: Página Principal](https://send.vis.ee){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Instancias Públicas"}
+[:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Código Fuente" }
+[:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title="Contribuir" }
 
 </details>
 
@@ -47,10 +47,10 @@ ffsend upload --host https://send.vis.ee/ FILE
 
 **OnionShare** es una herramienta de código abierto que permite compartir de forma segura y [:material-incognito: anónima](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } archivos de cualquier tamaño. Funciona iniciando un servidor web accesible como un servicio onion de Tor, con un enlace indescifrable que se puede compartir con los receptores para descargar o enviar archivos.
 
-[:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://docs.onionshare.org){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://onionshare.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Servicio Onion" }
+[:octicons-info-16:](https://docs.onionshare.org){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
 <summary>Downloads "Descargas"</summary>

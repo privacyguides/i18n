@@ -335,29 +335,29 @@ Tuta пропонує бізнес-версію [неприбутковим ор
 
 **Мінімальний функціонал:**
 
-- Public-facing leadership or ownership.
+- Відповідальне управління чи володіння.
 
-**Best Case:**
+**Найкращі практики:**
 
-- Frequent transparency reports.
+- Часті звіти про прозорість.
 
-### Marketing
+### Маркетинг
 
-With the email providers we recommend, we like to see responsible marketing.
+Сервіси електронної пошти, яких ми рекомендуємо, дотримуються принципів відповідального маркетингу.
 
-**Minimum to Qualify:**
+**Мінімальний функціонал:**
 
-- Must self-host analytics (no Google Analytics, Adobe Analytics, etc.).
-- Must not have any irresponsible marketing, which can include the following:
-    - Claims of "unbreakable encryption." Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
-    - Guarantees of protecting anonymity 100%. When someone makes a claim that something is 100%, it means there is no certainty for failure. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
-        - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software such as Tor
-        - [Browser fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+- Повинні самостійно розміщувати аналітику (ніяких Google Analytics, Adobe Analytics і т. д.).
+- Не повинно бути безвідповідального маркетингу, який може містити наступне:
+    - Заяви про "незламне шифрування". Не можна приховувати вади шифрування якщо з'явиться технологія для його розкриття.
+    - Гарантії захисту анонімності 100%. Коли хтось заявляє, що щось працює на 100%, це означає, що немає жодних шансів на невдачу. Ми знаємо, що люди можуть досить легко деанонімізувати себе різними способами, наприклад.:
+        - Повторне використання особистої інформації, наприклад, електронної пошти, унікальних псевдонімів тощо, до якої вони отримали доступ без програмного забезпечення для забезпечення анонімності, як Tor
+        - [Цифровий відбиток браузера](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
-**Best Case:**
+**Найкращі практики:**
 
-- Clear and easy-to-read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
+- Чітка і легка для читання документація для таких завдань, як налаштування 2FA, поштових клієнтів, OpenPGP тощо.
 
-### Additional Functionality
+### Додатковий функціонал
 
-While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.
+Хоча це не є суворими вимогами, є деякі інші фактори зручності та конфіденційності, які ми враховували при виборі сервісів, яких рекомендуємо.

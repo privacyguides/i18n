@@ -41,7 +41,7 @@ TEXTO INCLUIDO
 </details>
 ```
 
-Debe especificarse el `TÍTULO`, si no deseas un título específico puedes establecerlo con el mismo texto que el `TIPO` (véase más abajo) en el caso del título, por ejemplo, `Nota`. El "TEXTO INCLUIDO" debe tener formato Markdown.
+Debe especificarse el `TÍTULO`, si no deseas un título específico puedes establecerlo con el mismo texto que el `TIPO` (véase más abajo) en el caso del título, por ejemplo, `Nota`. El «TEXTO INCLUIDO» debe tener formato Markdown.
 
 ### Tipos habituales
 
@@ -166,12 +166,12 @@ Este formato se utiliza para generar tarjetas de recomendación. En particular, 
 
 ![PhotoPrism logo](assets/img/self-hosting/photoprism.svg){ align=right }
 
-**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
+**PhotoPrism** es una plataforma autoalojable para la gestión de fotos. Admite la sincronización y compartición de álbumes, así como una variedad de otras [características](https://photoprism.app/features). No incluye cifrado de extremo a extremo, por lo que es mejor alojarlo en un servidor en el que confíes y que esté bajo tu control.
 
-[:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
+[:octicons-home-16: Página Principal](https://photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Política de Privacidad" }
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Documentación" }
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Código Fuente" }
 
 </div>
 ```
