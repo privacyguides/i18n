@@ -44,24 +44,24 @@ schema:
 
 Деякі з цих програм кращі за інші; вибір залежить від вашої моделі загроз. Якщо ви звичайний користувач Tor, який не турбується про те, що ваш провайдер збирає докази проти вас, використання додатків для мобільних браузерів, таких як [Onion Browser](#onion-browser-ios), для доступу до мережі Tor, ймовірно, є нормальним рішенням. Збільшення кількості людей, які користуються Tor на щоденній основі, допомагає зменшити негативну стигматизацію Tor і знижує якість "списків користувачів Tor", які можуть складати провайдери та уряди.
 
-Якщо повна анонімність є першочерговою у вашій ситуації, вам слід використовувати **лише** десктопний клієнт Tor Browser, в ідеалі - в поєднанні [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os). Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
+Якщо повна анонімність є першочерговою у вашій ситуації, вам слід використовувати **лише** десктопний клієнт Tor Browser, в ідеалі - в поєднанні [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os). Мобільні браузери менш поширені в Tor (і, як наслідок, більш схильні до цифрових відбитків), а інші конфігурації не проходять настільки сувору перевірку на деанонімізацію.
 
-## Tor Browser
+## Браузер Tor
 
 <div class="admonition recommendation" markdown>
 
-![Tor Browser logo](assets/img/browsers/tor.svg){ align=right }
+![Логотип Tor Browser](assets/img/browsers/tor.svg){align=right}
 
-**Tor Browser** is the top choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
+**Tor Browser** це оптимальний вибір, якщо вам потрібна анонімність, оскільки він надає доступ до мережі Tor і мостів, а також включає в себе стандартні налаштування і розширення, які автоматично налаштовуються на рівні безпеки за замовчуванням: *Стандартний*, *Безпечніший* і *Найбезпечніший*.
 
-[:octicons-home-16: Homepage](https://torproject.org){ .md-button .md-button--primary }
+[:octicons-home-16: Домашня сторінка ](https://torproject.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title="Documentation" }
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title="Документація" }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Вихідний код" }
 [:octicons-heart-16:](https://donate.torproject.org){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Завантаження</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.torproject.torbrowser)
 - [:simple-android: Android](https://torproject.org/download/#android)
@@ -74,41 +74,41 @@ schema:
 </div>
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">Небезпека</p>
 
-Ви **ніколи** не повинні встановлювати додаткові розширення для браузера Tor або змінювати налаштування `about:config`, включаючи ті, які ми рекомендуємо для Firefox. Розширення браузера і нестандартні налаштування виділяють вас серед інших користувачів мережі Tor, тим самим полегшуючи доступ до [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
+Ви **ніколи** не повинні встановлювати додаткові розширення для браузера Tor або змінювати налаштування "about:config", включаючи ті, які ми рекомендуємо для Firefox. Розширення браузера і нестандартні налаштування виділяють вас серед інших користувачів мережі Tor, тим самим полегшуючи доступ до [відбитків] (https://support.torproject.org/glossary/browser-fingerprinting).
 
 </div>
 
-Браузер Tor розроблений таким чином, щоб запобігти зняттю відбитків або ідентифікації вас на основі конфігурації вашого браузера. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings). When modifying the security level setting, you **must** always restart the browser before continuing to use it. В іншому випадку [налаштування безпеки можуть бути застосовані не в повному обсязі](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), що призведе до більшого ризику зняття відбитків та їх використання зловмисниками, ніж ви можете очікувати, виходячи з обраних налаштувань.
+Браузер Tor розроблений таким чином, щоб запобігти зняттю відбитків або ідентифікації вас на основі конфігурації вашого браузера. Тому вкрай важливо, щоб ви **не** змінювали браузер за межами стандартних [рівнів безпеки](https://tb-manual.torproject.org/security-settings). Змінюючи налаштування рівня безпеки, ви завжди **повинні** перезапустити браузер, перш ніж продовжувати користуватися ним. В іншому випадку [налаштування безпеки можуть бути застосовані не в повному обсязі](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), що призведе до більшого ризику зняття відбитків та їх використання зловмисниками, ніж ви можете очікувати, виходячи з обраних налаштувань.
 
-In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
+Окрім встановлення Tor Browser безпосередньо на ваш комп'ютер, існують також операційні системи, розроблені спеціально для підключення до мережі Tor, такі як [Whonix](desktop.md#whonix) на [Qubes OS](desktop.md#qubes-os), які забезпечують ще більшу безпеку і захист, ніж стандартний Tor Browser.
 
 ## Onion Browser (iOS)
 
 <div class="admonition recommendation" markdown>
 
-![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){ align=right }
+![Onion Browser logo](assets/img/self-contained-networks/onion_browser.svg){align=right}
 
-**Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser).
+**Onion Browser** - це браузер з відкритим вихідним кодом, який дозволяє анонімно переглядати вебсторінки через мережу Tor на пристроях iOS і схвалений [Tor Project](https://support.torproject.org/glossary/onion-browser).
 
-[:material-star-box: Read our latest Onion Browser review.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
+[:material-star-box: Читайте наш останній огляд Onion Browser.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
 
-[:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
+[:octicons-home-16: Домашня сторінка](https://onionbrowser.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Політика конфіденційності" }
+[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title="Документація" }
+[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Вихідний код" }
 [:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Завантаження</summary>
 
-- [:simple-appstore: App Store](https://apps.apple.com/app/id519296448)
+- [:simple-appstore: App Store] (https://apps.apple.com/app/id519296448)
 
 </details>
 
 </div>
 
-Onion Browser does not provide the same levels of privacy protections as Tor Browser does on desktop platforms. For casual use it is a perfectly fine way to access hidden services, but if you're concerned about being traced or monitored by advanced adversaries you should not rely on this as an anonymity tool.
+Onion Browser не забезпечує такого ж рівня захисту конфіденційності, як Tor Browser на десктопних платформах. Для повсякденного використання це чудовий спосіб отримати доступ до прихованих сервісів, але якщо ви боїтеся, що вас можуть відстежити або відстежувати просунуті зловмисники, не варто покладатися на нього як на інструмент анонімності.
 
-[Notably](https://github.com/privacyguides/privacyguides.org/issues/2929), Onion Browser does not *guarantee* all requests go through Tor. When using the built-in version of Tor, [your real IP **will** be leaked via WebRTC and audio/video streams](https://onionbrowser.com/faqs) due to limitations of WebKit. It is *safer* to use Onion Browser alongside [Orbot](alternative-networks.md#orbot), but this still comes with some limitations on iOS.
+Слід [зазначити](https://github.com/privacyguides/privacyguides.org/issues/2929), що Onion Browser не *гарантує*, що всі запити проходять через Tor. При використанні вбудованої версії Tor [ваш реальний IP **буде** витікати через WebRTC і аудіо/відео потоки](https://onionbrowser.com/faqs) через обмеження WebKit. *Безпечніше* використовувати Onion Browser разом з [Orbot](alternative-networks.md#orbot), але це все ще має деякі обмеження на iOS.
