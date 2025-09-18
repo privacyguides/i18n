@@ -58,20 +58,20 @@ OpenPGP також не підтримує пряму секретність, щ
 
 <div class="admonition recommendation" markdown>
 
-![Логотип Proton Mail](assets/img/email/protonmail.svg){ align=right }
+![Логотип Proton Mail](assets/img/email/protonmail.svg){align=right}
 
-**Proton Mail — це поштовий сервіс з акцентом на конфіденційності, шифруванні, безпеці та простоті використання. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland.
+**Proton Mail — це поштовий сервіс з акцентом на конфіденційності, шифруванні, безпеці та простоті використання. Він працює з 2013 року. Компанія Proton AG базується в Женеві, Швейцарія.
 
-The Proton Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+План Proton Free надає 500 МБ поштового сховища, яке ви можете безплатно збільшити до 1 ГБ.
 
-[:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
+[:octicons-home-16: Домашня сторінка ](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Політика конфіденційності" }
+[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Документація" }
+[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Вихідний код" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Завантаження</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
@@ -85,39 +85,39 @@ The Proton Free plan comes with 500 MB of Mail storage, which you can increase u
 
 </div>
 
-Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g., Thunderbird). Платні акаунти включають такі функції, як Proton Mail Bridge, додаткове сховище та підтримку власних доменів. If you have the Proton Unlimited plan or any multi-user Proton plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+Безплатні облікові записи мають деякі обмеження, наприклад, неможливість пошуку в основному тексті та відсутність доступу до [Proton Mail Bridge](https://proton.me/mail/bridge), який необхідний для використання [рекомендованого десктопного поштового клієнта](email-clients.md) (наприклад, Thunderbird). Платні акаунти включають такі функції, як Proton Mail Bridge, додаткове сховище та підтримку власних доменів. Якщо у вас тарифний план Proton Безліміт або будь-який інший багатокористувацький тарифний план Proton, ви також отримуєте [SimpleLogin](email-aliasing.md#simplelogin) Premium безплатно.
 
-[Атестаційний лист](https://proton.me/blog/security-audit-all-proton-apps) для додатків Proton Mail було надано 9 листопада 2021 року компанією [Securitum](https://research.securitum.com).
+[Лист про атестацію](https://proton.me/blog/security-audit-all-proton-apps) додатків Proton Mail було надано 9 листопада 2021 року компанією [Securitum](https://research.securitum.com).
 
-Proton Mail has internal crash reports that are **not** shared with third parties. This can be disabled in the web app: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+Proton Mail має внутрішні звіти про збої, які **не** передаються третім особам. Цю функцію можна вимкнути у вебдодатку: :gear: → **Всі налаштування** → **Обліковий запис** → **Безпека та конфіденційність** → **Конфіденційність та збір даних**.
 
-#### :material-check:{ .pg-green } Користувацькі домени та аліаси
+#### :material-check:{ .pg-green } Користувацькі домени та псевдоніми
 
-Абоненти оплачуваних планів Proton Mail можуть використовувати власний домен з сервісом або [всеохоплюючу](https://proton.me/support/catch-all) адресу. Proton Mail also supports [sub-addressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
+Платні абоненти Proton Mail можуть використовувати власний домен з сервісом або [загальну](https://proton.me/support/catch-all) адресу. Proton Mail також підтримує [субадресацію](https://proton.me/support/creating-aliases), що корисно для людей, які не хочуть купувати домен.
 
-#### :material-check:{ .pg-green } Конфіденційні способи оплати
+#### :material-check:{ .pg-green } Приватні способи оплати
 
-Proton Mail [accepts](https://proton.me/support/payment-options) **cash** by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments.
+Proton Mail [приймає](https://proton.me/support/payment-options) **готівку** поштою на додаток до стандартних платежів кредитною/дебетовою карткою, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) та PayPal.
 
 #### :material-check:{ .pg-green } Безпека облікового запису
 
-Proton Mail supports TOTP [two-factor authentication](https://proton.me/support/two-factor-authentication-2fa) and [hardware security keys](https://proton.me/support/2fa-security-key) using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
+Proton Mail підтримує [двофакторну автентифікацію](https://proton.me/support/two-factor-authentication-2fa) TOTP та [апаратні ключі безпеки](https://proton.me/support/2fa-security-key) за стандартами FIDO2 або U2F. Використання апаратного ключа безпеки вимагає попереднього налаштування двофакторної автентифікації TOTP.
 
 #### :material-check:{ .pg-green } Безпека даних
 
-Proton Mail має [шифрування з нульовим доступом](https://proton.me/blog/zero-access-encryption) у стані спокою для ваших електронних листів та [календарів](https://proton.me/news/protoncalendar-security-model). Дані, захищені шифруванням з нульовим доступом, доступні лише вам.
+Proton Mail має [шифрування з нульовим доступом](https://proton.me/blog/zero-access-encryption) для ваших електронних листів та [календарів](https://proton.me/news/protoncalendar-security-model). Дані, захищені шифруванням з нульовим доступом, доступні лише вам.
 
 Певна інформація, що зберігається в [Proton Contacts](https://proton.me/support/proton-contacts), наприклад, імена користувачів та адреси електронної пошти, не захищена шифруванням з нульовим доступом. Поля контактів, які підтримують шифрування з нульовим доступом, наприклад, номери телефонів, позначені значком замка.
 
 #### :material-check:{ .pg-green } Шифрування електронної пошти
 
-Proton Mail має [інтегроване OpenPGP шифрування](https://proton.me/support/how-to-use-pgp) у своїй електронній пошті. Електронні листи на інші акаунти Proton Mail шифруються автоматично, а шифрування на адреси, що не належать до Proton Mail, за допомогою ключа OpenPGP можна легко ввімкнути в налаштуваннях вашого акаунта. Proton also supports automatic external key discovery with WKD. This means that emails sent to other providers which use WKD will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
+Proton Mail має [інтегроване OpenPGP шифрування](https://proton.me/support/how-to-use-pgp) у своїй електронній пошті. Електронні листи на інші акаунти Proton Mail шифруються автоматично, а шифрування на адреси, що не належать до Proton Mail, за допомогою ключа OpenPGP можна легко ввімкнути в налаштуваннях вашого акаунта. Proton також підтримує автоматичне виявлення зовнішніх ключів за допомогою WKD. Це означає, що електронні листи, надіслані іншим сервісам, які використовують WKD, також будуть автоматично зашифровані за допомогою OpenPGP, без необхідності вручну обмінюватися відкритими ключами PGP з вашими контактами. Вони також дозволяють [шифрувати повідомлення на адреси, що не належать до Proton Mail, без використання OpenPGP](https://proton.me/support/password-protected-emails), без необхідності реєструвати обліковий запис Proton Mail.
 
-Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Proton's own domains, like `@proton.me`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Proton Mail також публікує відкриті ключі акаунтів Proton через HTTP з їхніх WKD. Це дозволяє людям, які не використовують Proton Mail, легко знайти ключі OpenPGP акаунтів Proton Mail для сервісів E2EE. Це стосується лише адрес електронної пошти, що закінчуються на один із власних доменів Proton, наприклад `@proton.me`. Якщо ви використовуєте власний домен, вам потрібно [налаштувати WKD](basics/email-security.md#what-is-the-web-key-directory-standard) окремо.
 
 #### :material-information-outline:{ .pg-blue } Деактивація облікового запису
 
-Якщо у вас платний акаунт і ваш рахунок [не сплачений](https://proton.me/support/delinquency) протягом 14 днів, ви не зможете отримати доступ до своїх даних. Через 30 днів ваш акаунт стане простроченим і не буде отримувати вхідну пошту. Протягом цього періоду ви продовжуватимете отримувати рахунки. Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address of a deactivated account.
+Якщо у вас платний акаунт і ваш рахунок [не сплачений](https://proton.me/support/delinquency) протягом 14 днів, ви не зможете отримати доступ до своїх даних. Через 30 днів ваш акаунт стане простроченим і не буде отримувати вхідну пошту. Протягом цього періоду ви продовжуватимете отримувати рахунки. Proton [видаляє неактивні безплатні акаунти](https://proton.me/support/inactive-accounts) через один рік. Ви **не можете** повторно використовувати адресу електронної пошти деактивованого акаунта.
 
 #### :material-information-outline:{ .pg-blue } Додаткова функціональність
 
@@ -146,11 +146,11 @@ Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
 </div>
 
-#### :material-check:{ .pg-green } Користувацькі домени та аліаси
+#### :material-check:{ .pg-green } Користувацькі домени та псевдоніми
 
 Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
 
-#### :material-check:{ .pg-green } Конфіденційні способи оплати
+#### :material-check:{ .pg-green } Приватні способи оплати
 
 Mailbox Mail doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept **cash** by mail, **cash** payment to bank account, bank transfer, credit card, PayPal, and a couple of German-specific processors: Paydirekt and Sofortüberweisung.
 
@@ -168,7 +168,7 @@ However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the softwar
 
 Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox Mail's servers. Ця функція корисна, коли віддалений одержувач не має OpenPGP і не може розшифрувати копію листа у власній поштовій скриньці.
 
-Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. Якщо ви використовуєте власний домен, вам потрібно [налаштувати WKD](basics/email-security.md#what-is-the-web-key-directory-standard) окремо.
 
 #### :material-information-outline:{ .pg-blue } Деактивація облікового запису
 
@@ -226,7 +226,7 @@ Free accounts start with 1 GB of storage.
 
 Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
 
-#### :material-check:{ .pg-green } Користувацькі домени та аліаси
+#### :material-check:{ .pg-green } Користувацькі домени та псевдоніми
 
 Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/support#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/support#plus), but you can use a [catch-all](https://tuta.com/support#settings-global) with a custom domain.
 
