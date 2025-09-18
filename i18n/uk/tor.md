@@ -1,8 +1,8 @@
 ---
-meta_title: "Tor Browser and Network: Anonymous Web Browsing - Privacy Guides"
+meta_title: "Tor браузер і мережа: Анонімний перегляд вебсторінок"
 title: "Tor Browser"
 icon: simple/torbrowser
-description: Protect your internet browsing from prying eyes by using the Tor network, a secure network which circumvents censorship.
+description: Захистіть свій інтернет-серфінг від сторонніх очей, використовуючи мережу Tor - безпечну мережу, яка обходить цензуру.
 cover: tor.webp
 schema:
   - 
@@ -11,7 +11,7 @@ schema:
     name: Tor Browser
     image: /assets/img/browsers/tor.svg
     url: https://torproject.org
-    sameAs: https://en.wikipedia.org/wiki/Tor_(network)
+    sameAs: https://uk.wikipedia.org/wiki/Tor
     applicationCategory: Web Browser
     operatingSystem:
       - Windows
@@ -19,32 +19,32 @@ schema:
       - Linux
       - Android
     subjectOf:
-      "@type": WebPage
+      "@type": Вебсторінка
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Захищає від наступних загроз:</small>
 
 - [:material-account-cash: Капіталізм нагляду](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
-- [:material-eye-outline: Масове спостереження](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+- [:material-eye-outline: Масове стеження](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-close-outline: Цензура](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}
 
-**Tor** is a group of volunteer-operated servers that allows you to connect for free and improve your privacy and security on the Internet. Приватні особи та організації також можуть обмінюватися інформацією через мережу Tor з "прихованими сервісами .onion" без шкоди для своєї конфіденційності. Оскільки трафік Tor важко заблокувати і відстежити, Tor є ефективним інструментом обходу цензури.
+**Tor** - це група серверів, керованих волонтерами, яка дозволяє вам підключатися безплатно і покращувати вашу конфіденційність і безпеку в Інтернеті. Приватні особи та організації також можуть обмінюватися інформацією через мережу Tor з "прихованими сервісами .onion" без шкоди для своєї конфіденційності. Оскільки трафік Tor важко заблокувати і відстежити, Tor є ефективним інструментом обходу цензури.
 
-[Detailed Tor Overview :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
+[Детальний огляд Tor :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary} [:material-movie-open-play-outline: Відео: Навіщо вам потрібен Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">Порада</p>
 
-Before connecting to Tor, please ensure you've read our [overview](advanced/tor-overview.md) on what Tor is and how to connect to it safely. We often recommend connecting to Tor through a trusted [VPN provider](vpn.md), but you have to do so **properly** to avoid decreasing your anonymity.
+Перед підключенням до Tor, будь ласка, переконайтеся, що ви прочитали наш [огляд] (advanced/tor-overview.md) про те, що таке Tor і як безпечно до нього підключатися. Ми часто рекомендуємо підключатися до Tor через надійного [VPN-провайдера] (vpn.md), але ви повинні робити це **правильно**, щоб уникнути зниження вашої анонімності.
 
 </div>
 
-There are a variety of ways to connect to the Tor network from your device, the most commonly used being the **Tor Browser**, a fork of Firefox designed for [:material-incognito: anonymous](basics/common-threats.md#anonymity-vs-privacy ""){.pg-purple} browsing for desktop computers and Android.
+Існує безліч способів під'єднатися до мережі Tor з вашого пристрою, найчастіше використовується **Tor Browser**, форк Firefox, призначений для [:material-incognito: анонімного](basics/common-threats.md#anonymity-vs-privacy ""){.pg-purple} перегляду для настільних комп'ютерів і Android.
 
-Some of these apps are better than others; making a determination comes down to your threat model. If you are a casual Tor user who is not worried about your ISP collecting evidence against you, using mobile browser apps like [Onion Browser](#onion-browser-ios) to access the Tor network is probably fine. Increasing the number of people who use Tor on an everyday basis helps reduce the bad stigma of Tor, and lowers the quality of "lists of Tor users" that ISPs and governments may compile.
+Деякі з цих програм кращі за інші; вибір залежить від вашої моделі загроз. Якщо ви звичайний користувач Tor, який не турбується про те, що ваш провайдер збирає докази проти вас, використання додатків для мобільних браузерів, таких як [Onion Browser](#onion-browser-ios), для доступу до мережі Tor, ймовірно, є нормальним рішенням. Збільшення кількості людей, які користуються Tor на щоденній основі, допомагає зменшити негативну стигматизацію Tor і знижує якість "списків користувачів Tor", які можуть складати провайдери та уряди.
 
-If more complete anonymity is paramount to your situation, you should **only** be using the desktop Tor Browser client, ideally in a [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os) configuration. Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
+Якщо повна анонімність є першочерговою у вашій ситуації, вам слід використовувати **лише** десктопний клієнт Tor Browser, в ідеалі - в поєднанні [Whonix](desktop.md#whonix) + [Qubes](desktop.md#qubes-os). Mobile browsers are less common on Tor (and more fingerprintable as a result), and other configurations are not as rigorously tested against deanonymization.
 
 ## Tor Browser
 
