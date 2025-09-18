@@ -111,36 +111,36 @@ Proton Mail має [шифрування з нульовим доступом](h
 
 #### :material-check:{ .pg-green } Шифрування електронної пошти
 
-Proton Mail має [інтегроване OpenPGP шифрування](https://proton.me/support/how-to-use-pgp) у своїй електронній пошті. Електронні листи на інші акаунти Proton Mail шифруються автоматично, а шифрування на адреси, що не належать до Proton Mail, за допомогою ключа OpenPGP можна легко ввімкнути в налаштуваннях вашого акаунта. Proton також підтримує автоматичне виявлення зовнішніх ключів за допомогою WKD. Це означає, що електронні листи, надіслані іншим сервісам, які використовують WKD, також будуть автоматично зашифровані за допомогою OpenPGP, без необхідності вручну обмінюватися відкритими ключами PGP з вашими контактами. Вони також дозволяють [шифрувати повідомлення на адреси, що не належать до Proton Mail, без використання OpenPGP](https://proton.me/support/password-protected-emails), без необхідності реєструвати обліковий запис Proton Mail.
+Proton Mail має [інтегроване OpenPGP шифрування](https://proton.me/support/how-to-use-pgp) у своїй електронній пошті. Електронні листи на інші акаунти Proton Mail шифруються автоматично, а шифрування на адреси, що не належать до Proton Mail, за допомогою ключа OpenPGP можна легко ввімкнути в налаштуваннях вашого акаунта. Proton також підтримує автоматичне виявлення зовнішніх ключів за допомогою WKD. Це означає, що електронні листи, надіслані іншим сервісам, які використовують WKD, також будуть автоматично зашифровані за допомогою OpenPGP, без необхідності вручну обмінюватися відкритими ключами PGP з вашими контактами. Сервіс також дозволяє [шифрувати повідомлення на адреси, що не належать до Proton Mail, без використання OpenPGP](https://proton.me/support/password-protected-emails), та без необхідності реєструвати обліковий запис Proton Mail.
 
 Proton Mail також публікує відкриті ключі акаунтів Proton через HTTP з їхніх WKD. Це дозволяє людям, які не використовують Proton Mail, легко знайти ключі OpenPGP акаунтів Proton Mail для сервісів E2EE. Це стосується лише адрес електронної пошти, що закінчуються на один із власних доменів Proton, наприклад `@proton.me`. Якщо ви використовуєте власний домен, вам потрібно [налаштувати WKD](basics/email-security.md#what-is-the-web-key-directory-standard) окремо.
 
-#### :material-information-outline:{ .pg-blue } Деактивація облікового запису
+#### :material-information-outline:{ .pg-blue } Видалення облікового запису
 
 Якщо у вас платний акаунт і ваш рахунок [не сплачений](https://proton.me/support/delinquency) протягом 14 днів, ви не зможете отримати доступ до своїх даних. Через 30 днів ваш акаунт стане простроченим і не буде отримувати вхідну пошту. Протягом цього періоду ви продовжуватимете отримувати рахунки. Proton [видаляє неактивні безплатні акаунти](https://proton.me/support/inactive-accounts) через один рік. Ви **не можете** повторно використовувати адресу електронної пошти деактивованого акаунта.
 
-#### :material-information-outline:{ .pg-blue } Додаткова функціональність
+#### :material-information-outline:{ .pg-blue } Додатковий функціонал
 
-Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
+[Безлімітний](https://proton.me/support/proton-plans#proton-unlimited) тарифний план Proton Mail також надає доступ до інших сервісів Proton на додаток до кількох власних доменів, необмежену кількість псевдонімів для приховування електронної пошти та 500 ГБ дискового простору.
 
 ### Mailbox Mail
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
+![Логотип Mailbox Mail](assets/img/email/mailbox-mail.svg){align=right}
 
-**Mailbox Mail** is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Вони працюють з 2014 року. Mailbox Mail is based in Berlin, Germany.
+**Mailbox Mail** - це поштовий сервіс, який працює на 100% екологічно чистій енергії, не містить реклами та є безпечним. Він працює з 2014 року. Mailbox Mail базується в Берліні, Німеччина.
 
-Accounts start with up to 2 GB storage, which can be upgraded as needed.
+Облікові записи починаються з 2 ГБ пам'яті, яку можна збільшити за потреби.
 
-[:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Documentation" }
+[:octicons-home-16: Домашня сторінка ](https://mailbox.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Політика конфіденційності" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Документація" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Завантаження</summary>
 
-- [:octicons-browser-16: Web](https://login.mailbox.org)
+- [:octicons-browser-16: Web] (https://login.mailbox.org)
 
 </details>
 
@@ -148,47 +148,47 @@ Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
 #### :material-check:{ .pg-green } Користувацькі домени та псевдоніми
 
-Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
+Mailbox Mail дозволяє використовувати власний домен і підтримує [catch-al](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) адреси. Mailbox Mail також підтримує [субадресацію](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), що корисно, якщо ви не хочете купувати домен.
 
 #### :material-check:{ .pg-green } Приватні способи оплати
 
-Mailbox Mail doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept **cash** by mail, **cash** payment to bank account, bank transfer, credit card, PayPal, and a couple of German-specific processors: Paydirekt and Sofortüberweisung.
+Mailbox Mail не приймає жодних криптовалют, оскільки їхній платіжний процесор BitPay призупинив роботу в Німеччині. Однак вони приймають **готівку поштою**, **готівку на банківський рахунок**, банківські перекази, кредитні картки, PayPal і кілька німецьких платіжних систем: Paydirekt та Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Безпека облікового запису
 
-Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](security-keys.md#yubikey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) are not yet supported.
+Mailbox Mail підтримує [двофакторну автентифікацію](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) лише для своєї вебпошти. Ви можете використовувати TOTP або [YubiKey](security-keys.md#yubikey) через [YubiCloud](https://yubico.com/products/services-software/yubicloud). Вебстандарти, такі як [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), поки що не підтримуються.
 
 #### :material-information-outline:{ .pg-blue } Безпека даних
 
-Mailbox Mail allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Нові повідомлення, які ви отримуєте, будуть негайно зашифровані вашим публічним ключем.
+Mailbox Mail дозволяє шифрувати вхідну пошту, використовуючи свою [зашифровану поштову скриньку](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Нові повідомлення, які ви отримуєте, будуть негайно зашифровані вашим публічним ключем.
 
-However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that data.
+Однак [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), програмна платформа, яку використовує Mailbox Mail, [не підтримує](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) шифрування вашої адресної книги та календаря. Для цих даних може бути більш доречною [окрема опція](calendar.md).
 
 #### :material-check:{ .pg-green } Шифрування електронної пошти
 
-Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox Mail's servers. Ця функція корисна, коли віддалений одержувач не має OpenPGP і не може розшифрувати копію листа у власній поштовій скриньці.
+Mailbox Mail [інтегрував шифрування](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) у свою вебпошту, що спрощує надсилання повідомлень людям з відкритими ключами OpenPGP. Сервіс також дозволяє [віддаленим одержувачам розшифровувати електронні](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) листи на серверах Mailbox. Ця функція корисна, коли віддалений одержувач не має OpenPGP і не може розшифрувати копію листа у власній поштовій скриньці.
 
-Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. Якщо ви використовуєте власний домен, вам потрібно [налаштувати WKD](basics/email-security.md#what-is-the-web-key-directory-standard) окремо.
+Mailbox Mail також підтримує отримання відкритих ключів через HTTP з їх WKD. Це дозволяє людям за межами Mailbox Mail легко знаходити ключі OpenPGP облікових записів Mailbox Mail для інших сервісів E2EE. Це стосується лише адрес електронної пошти, які закінчуються на один із власних доменів Mailbox, наприклад `@mailbox.org`. Якщо ви використовуєте власний домен, вам потрібно [налаштувати WKD](basics/email-security.md#what-is-the-web-key-directory-standard) окремо.
 
-#### :material-information-outline:{ .pg-blue } Деактивація облікового запису
+#### :material-information-outline:{ .pg-blue } Видалення облікового запису
 
-Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Після закінчення терміну дії контракту ваш обліковий запис буде переведено в режим обмеженого користувача. Він буде безповоротно видалений через [30 днів](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
-#### :material-information-outline:{ .pg-blue } Додаткова функціональність
+#### :material-information-outline:{ .pg-blue } Додатковий функціонал
 
-You can access your Mailbox Mail account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). However, their webmail interface cannot be accessed via their .onion service, and you may experience TLS certificate errors.
+Ви можете отримати доступ до свого облікового запису Mailbox через IMAP/SMTP за допомогою їхнього [ сервісу .onion](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). Однак їхній інтерфейс вебпошти не може бути доступний через службу .onion, і у вас можуть виникати помилки TLS сертифіката.
 
-All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox Mail also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox Mail also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
+Усі акаунти мають обмежений обсяг хмарного сховища, який [можна зашифрувати](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox Mail також пропонує псевдонім [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), який забезпечує шифрування TLS на з'єднанні між поштовими серверами, інакше повідомлення не буде надіслано взагалі. Mailbox Mail також підтримує [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) на додаток до стандартних протоколів доступу, таких як IMAP і POP3.
 
-Mailbox Mail has a digital legacy feature for all plans. You can choose whether you want any of your data to be passed to heirs, providing that they apply and provide your testament. Крім того, ви можете номінувати людину за ім'ям та адресою.
+Mailbox Mail має функцію цифрової спадщини для всіх тарифних планів. Ви можете вибрати, чи хочете ви, щоб будь-які ваші дані були передані спадкоємцям, за умови, що вони подадуть заяву та нададуть ваш заповіт. Крім того, ви можете призначити особу, вказавши її ім'я та адресу.
 
-## Більше провайдерів
+## Інші сервіси
 
-Ці провайдери зберігають ваші електронні листи за допомогою шифрування з нульовим рівнем доступу, що робить їх чудовими варіантами для захисту ваших збережених електронних листів. However, they don't support interoperable encryption standards for E2EE communications between different providers.
+Ці сервіси зберігають ваші електронні листи за допомогою шифрування з нульовим рівнем доступу, що робить їх чудовими варіантами для захисту ваших збережених електронних листів. Однак вони не підтримують сумісні стандарти шифрування для комунікацій E2EE між різними сервісами.
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
+- [Tuta logo](assets/img/email/tuta.svg#only-light){.twemoji loading=lazy}! [Tuta logo](assets/img/email/tuta-dark.svg#only-dark){.twemoji loading=lazy} [Tuta](#tuta)
 
 </div>
 
@@ -196,21 +196,21 @@ Mailbox Mail has a digital legacy feature for all plans. You can choose whether 
 
 <div class="admonition recommendation" markdown>
 
-![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
-![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
+![Tuta logo](assets/img/email/tuta.svg#only-light){align=right}
+![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){align=right}
 
-**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany.
+**Tuta** (раніше *Tutanota*) - це поштовий сервіс, що фокусується на безпеці та конфіденційності завдяки використанню шифрування. Tuta працює з 2011 року і базується в Ганновері, Німеччина.
 
-Free accounts start with 1 GB of storage.
+Безплатні акаунти починаються з 1 ГБ сховища.
 
-[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
+[:octicons-home-16: Домашня сторінка ](https://tuta.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Політика конфіденційності" }
+[:octicons-info-16:](https://tuta.com/support){ .card-link title="Документація" }
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Вихідний код" }
 [:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Завантаження</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
@@ -224,31 +224,31 @@ Free accounts start with 1 GB of storage.
 
 </div>
 
-Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
+Tuta не підтримує [протокол IMAP](https://tuta.com/support#imap) або використання сторонніх [поштових клієнтів](email-clients.md), а також ви не зможете додавати [зовнішні](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) поштові скриньки до додатка Tuta. [Імпорт електронної пошти](https://github.com/tutao/tutanota/issues/630) наразі також не підтримується, але це має бути [змінено](https://tuta.com/blog/kickoff-import). Листи можна експортувати [як окремо, так і масовим вибором](https://tuta.com/support#generalMail) за текою, що може бути незручно, якщо у вас багато тек.
 
 #### :material-check:{ .pg-green } Користувацькі домени та псевдоніми
 
-Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/support#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/support#plus), but you can use a [catch-all](https://tuta.com/support#settings-global) with a custom domain.
+Платні акаунти Tuta можуть використовувати 15 або 30 псевдонімів залежно від тарифного плану та необмежену кількість псевдонімів на [власних доменах](https://tuta.com/support#custom-domain). Tuta не підтримує [субадресацію (плюс адреси)](https://tuta.com/support#plus), але ви можете використовувати [загальну](https://tuta.com/support#settings-global) адресу з користувацьким доменом.
 
-#### :material-information-outline:{ .pg-blue } Конфіденційні способи оплати
+#### :material-information-outline:{ .pg-blue } Приватні способи оплати
 
-Tuta only directly accepts credit cards and PayPal, however [**cryptocurrency**](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
+Tuta безпосередньо приймає лише кредитні картки та PayPal, однак за [**криптовалюту**](cryptocurrency.md) можна придбати подарункові картки через [партнерство](https://tuta.com/support/#cryptocurrency) з ProxyStore.
 
 #### :material-check:{ .pg-green } Безпека облікового запису
 
-Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
+Tuta підтримує [двофакторну автентифікацію](https://tuta.com/support#2fa) за допомогою TOTP або U2F.
 
 #### :material-check:{ .pg-green } Безпека даних
 
-Tuta has [zero-access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). Це означає, що повідомлення та інші дані, які зберігаються у вашому акаунті, можете читати тільки ви.
+Tuta має [шифрування з нульовим доступом](https://tuta.com/support#what-encrypted) для ваших електронних листів, [контактів адресної книги](https://tuta.com/support#encrypted-address-book) та [календарів](https://tuta.com/support#calendar). Це означає, що повідомлення та інші дані, які зберігаються у вашому акаунті, можете читати тільки ви.
 
 #### :material-information-outline:{ .pg-blue } Шифрування електронної пошти
 
-Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
+Tuta [не використовує OpenPGP](https://tuta.com/support/#pgp). Акаунти Tuta можуть отримувати зашифровані листи від акаунтів, що не належать до Tuta, лише якщо вони надіслані через [тимчасову поштову скриньку Tuta](https://tuta.com/support/#encrypted-email-external).
 
-#### :material-information-outline:{ .pg-blue } Деактивація облікового запису
+#### :material-information-outline:{ .pg-blue } Видалення облікового запису
 
-Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. Ви можете повторно використовувати деактивований безкоштовний акаунт, якщо заплатите.
+Tuta [видаляє неактивні безплатні акаунти](https://tuta.com/support#inactive-accounts) через шість місяців. Ви можете повторно використовувати деактивований безплатний акаунт, якщо заплатите.
 
 #### :material-information-outline:{ .pg-blue } Додаткова функціональність
 
