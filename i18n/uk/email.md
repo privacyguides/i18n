@@ -250,90 +250,90 @@ Tuta [не використовує OpenPGP](https://tuta.com/support/#pgp). А�
 
 Tuta [видаляє неактивні безплатні акаунти](https://tuta.com/support#inactive-accounts) через шість місяців. Ви можете повторно використовувати деактивований безплатний акаунт, якщо заплатите.
 
-#### :material-information-outline:{ .pg-blue } Додаткова функціональність
+#### :material-information-outline:{ .pg-blue } Додатковий функціонал
 
-Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
+Tuta пропонує бізнес-версію [неприбутковим організаціям](https://tuta.com/blog/secure-email-for-non-profit) безкоштовно або зі значною знижкою.
 
 ## Критерії
 
-**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
+**Зверніть увагу, що ми не пов'язані з жодним із рекомендованих нами сервісів.** На додаток до [наших стандартних критеріїв](about/criteria.md), ми розробили чіткий набір вимог до будь-якого постачальника послуг електронної пошти, який може бути рекомендованим, включаючи впровадження найкращих практик, сучасних технологій тощо. Ми радимо вам ознайомитися з цим списком перед тим, як обирати постачальника послуг електронної пошти, і провести власне дослідження, щоб переконатися, що обраний вами сервіс є правильним вибором для вас.
 
 ### Технологія
 
-We regard these features as important in order to provide a safe and optimal service. You should consider whether the provider has the features you require.
+Ми вважаємо ці функції важливими для надання безпечного та оптимального сервісу. Вам слід подумати, чи має він ті функції, які вам потрібні.
 
-**Minimum to Qualify:**
+**Мінімальний функціонал:**
 
-- Must encrypt email account data at rest with zero-access encryption.
-- Must be capable of exporting emails as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
-- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
-- Must operate on owned infrastructure, i.e. not built upon third-party email service providers.
+- Має шифрувати дані поштового акаунта за допомогою шифрування з нульовим доступом.
+- Повинен мати можливість експортувати листи у форматі [Mbox](https://en.wikipedia.org/wiki/Mbox) або окремі файли .EML за стандартом [RFC5322](https://datatracker.ietf.org/doc/rfc5322).
+- Дозволяти користувачам використовувати власне [доменне ім'я](https://en.wikipedia.org/wiki/Domain_name). Користувацькі доменні імена важливі для користувачів, оскільки вони дозволяють їм зберегти свою суб'єктність від сервісу, якщо він стане поганим або буде придбаний іншою компанією, для якої конфіденційність не є пріоритетом.
+- Має працювати на власній інфраструктурі, тобто не на базі сторонніх постачальників послуг електронної пошти.
 
-**Best Case:**
+**Найкращі практики:**
 
-- Should encrypt all account data (contacts, calendars, etc.) at rest with zero-access encryption.
-- Should provide integrated webmail E2EE/PGP encryption as a convenience.
-- Should support WKD to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key with this command: `gpg --locate-key example_user@example.com`.
-- Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
-- Should support [sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
-- Should allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
-- Catch-all or alias functionality for those who use their own domains.
-- Should use standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
-- Email provider's services should be available via an [onion service](https://en.wikipedia.org/wiki/.onion).
+- Шифрувати всі дані акаунта (контакти, календарі тощо) за допомогою шифрування з нульовим доступом.
+- Забезпечувати інтегроване шифрування вебпошти E2EE/PGP для зручності.
+- Має підтримувати WKD для покращення знаходження відкритих ключів OpenPGP через HTTP. Користувачі GnuPG можуть отримати ключ за допомогою цієї команди: `gpg --locate-key example_user@example.com`.
+- Підтримувати тимчасову поштову скриньку для зовнішніх користувачів. Це корисно, коли ви хочете надіслати зашифрований електронний лист, не надсилаючи його копію одержувачу. Ці листи зазвичай мають обмежений термін зберігання, після чого автоматично видаляються. Вони також не вимагають від одержувача налаштування криптографії, як OpenPGP.
+- Має підтримувати [субадресацію](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
+- Дозволяти користувачам використовувати власне [доменне ім'я](https://en.wikipedia.org/wiki/Domain_name). Користувацькі доменні імена важливі для користувачів, оскільки вони дозволяють їм зберегти свою суб'єктність від сервісу, якщо він стане поганим або буде придбаний іншою компанією, для якої конфіденційність не є пріоритетом.
+- Функціональність псевдоніму для тих, хто використовує власні домени.
+- Слід використовувати стандартні протоколи доступу до електронної пошти, такі як IMAP, SMTP або [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Стандартні протоколи доступу гарантують, що клієнти зможуть легко завантажити всю свою електронну пошту, якщо захочуть перейти до іншого сервісу.
+- Послуги поштового сервісу повинні бути доступні через [onion сервіс](https://en.wikipedia.org/wiki/.onion).
 
-### Privacy
+### Приватність
 
-We prefer our recommended providers to collect as little data as possible.
+Ми вважаємо за краще, щоб рекомендовані нами сервіси збирали якомога менше даних.
 
-**Minimum to Qualify:**
+**Мінімальний функціонал:**
 
-- Must protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
-- Must not require personally identifiable information (PII) besides a username and a password.
-- Privacy policy must meet the requirements defined by the GDPR.
+- Має захищати IP-адресу відправника, що може включати фільтрацію її відображення в полі заголовка `Received`.
+- Не повинен вимагати особисту ідентифікаційну інформацію (PII), окрім імені користувача та пароля.
+- Політика конфіденційності повинна відповідати вимогам, визначеним GDPR.
 
-**Best Case:**
+**Найкращі практики:**
 
-- Should accept [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
-- Should be hosted in a jurisdiction with strong email privacy protection laws.
+- Має приймати [анонімні варіанти оплати](advanced/payments.md)[ (криптовалюта](cryptocurrency.md), готівка, подарункові картки тощо)
+- Має бути розміщений в юрисдикції з суворими законами про захист конфіденційності електронної пошти.
 
-### Security
+### Безпека
 
-Email servers deal with a lot of very sensitive data. We expect that providers will adopt industry best practices in order to protect their customers.
+Сервери електронної пошти мають справу з великою кількістю дуже чутливих даних. Ми очікуємо, що сервіси перейматимуть найкращі галузеві практики, щоб захистити своїх клієнтів.
 
-**Minimum to Qualify:**
+**Мінімальний функціонал:**
 
-- Protection of webmail with 2FA, such as [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
-- Zero-access encryption, which builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
-- [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) support.
-- No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
-- A server suite preference (optional on TLS 1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
-- A valid [MTA-STS](https://tools.ietf.org/html/rfc8461) and [TLS-RPT](https://tools.ietf.org/html/rfc8460) policy.
-- Valid [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) records.
-- Valid [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) records.
-- Must have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. If DMARC authentication is being used, the policy must be set to `reject` or `quarantine`.
-- A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
-- [SMTPS](https://en.wikipedia.org/wiki/SMTPS) submission, assuming SMTP is used.
-- Website security standards such as:
+- Захист вебпошти за допомогою 2FA, наприклад, [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
+- Шифрування з нульовим доступом. Сервіс не має ключів для розшифрування даних, які він зберігає. Це запобігає витоку даних, до яких має доступ недобросовісний працівник, або витоку даних, які вкрав віддалений зловмисник, отримавши несанкціонований доступ до сервера.
+- Підтримка [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions).
+- Відсутність помилок або вразливостей TLS при аналізі такими інструментами, як [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh) або [Qualys SSL Labs](https://ssllabs.com/ssltest); це включає помилки, пов'язані з сертифікатом, і слабкі параметри DH, такі як ті, що призвели до [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
+- Налаштування серверного набору (необов'язкове для TLS 1.3) для стійких наборів шифрів, які підтримують пряме шифрування та шифрування з автентифікацією.
+- Правильні політики [MTA-STS](https://tools.ietf.org/html/rfc8461) та [TLS-RPT](https://tools.ietf.org/html/rfc8460).
+- Дійсні записи [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities).
+- Дійсні записи [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) та [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail).
+- Повинні мати належний запис і політику [DMARC](https://en.wikipedia.org/wiki/DMARC) або використовувати [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) для автентифікації. Якщо використовується автентифікація DMARC, політика повинна бути налаштована на `відхилення` або `карантин`.
+- Налаштування серверного набору TLS 1.2 або новішої версії та план для [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
+- Надсилання [SMTPS](https://en.wikipedia.org/wiki/SMTPS), якщо використовується SMTP.
+- Стандарти безпеки вебсайтів, такі як:
     - [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
-    - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
-- Must support viewing of [message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
+    - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) при завантаженні із зовнішніх доменів.
+- Повинен підтримувати перегляд [заголовків повідомлень](https://en.wikipedia.org/wiki/Email#Message_header), оскільки це важлива функція для визначення того, чи є лист спробою фішингу.
 
-**Best Case:**
+**Найкращі практики:**
 
-- Should support hardware authentication, i.e. U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
-- [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
-- Should implement [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
-- Published security audits from a reputable, third-party firm.
-- Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
-- Website security standards such as:
+- Має підтримувати апаратну автентифікацію, тобто. U2F та [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
+- [Ресурсний запис DNS Certification Authority Authorization (CAA)](https://tools.ietf.org/html/rfc6844) на додачу до підтримки DANE.
+- Має бути реалізовано [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), що стане в пригоді людям, які пишуть до списків розсилки [RFC8617](https://tools.ietf.org/html/rfc8617).
+- Опубліковані аудити безпеки від авторитетної сторонньої фірми.
+- Програми винагород за виправлення помилок та/або скоординований процес розкриття вразливостей.
+- Стандарти безпеки вебсайтів, такі як:
     - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
     - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163)
 
-### Trust
+### Довіра
 
-You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
+Ви б не довірили свої фінанси людині з підробленою ідентичністю, тож навіщо довіряти їй свою електронну пошту? Ми вимагаємо, щоб рекомендовані нами сервіси публічно заявляли про свою приналежність або керівництво. Ми також хотіли б бачити часті звіти про прозорість, особливо щодо того, як обробляються урядові запити.
 
-**Minimum to Qualify:**
+**Мінімальний функціонал:**
 
 - Public-facing leadership or ownership.
 
