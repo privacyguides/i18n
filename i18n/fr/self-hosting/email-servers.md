@@ -1,16 +1,16 @@
 ---
 title: Serveurs de messagerie
-meta_title: "Self-Hosting Email - Privacy Guides"
+meta_title: "Auto-Héberger ses Emails - Privacy Guides"
 icon: material/email
 description: Pour nos lecteurs plus avancés, l'auto-hébergement de votre propre courrier électronique peut fournir des garanties supplémentaires en matière de confidentalité en vous permettant de contrôler au maximum vos données.
 cover: email.webp
 ---
 
-<small>Protège contre les menaces suivantes :</small>
+<small>Protège contre le type de menace suivante :</small>
 
 - [:material-server-network: Fournisseurs de services](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-Advanced system administrators may consider setting up their own **email server**. Les serveurs mail requière de une attention particulière et une maintenance continue pour garantir leur fiabilité et leur sécurité. En plus des solutions "tout-en-un" présentées ci-dessous, nous avons sélectionné quelques articles qui traitent d'une approche plus manuelle :
+Les administrateurs système avancés peuvent envisager de configurer leur propre **serveur mail**. Les serveurs mail requière de une attention particulière et une maintenance continue pour garantir leur fiabilité et leur sécurité. En plus des solutions "tout-en-un" présentées ci-dessous, nous avons sélectionné quelques articles qui traitent d'une approche plus manuelle :
 
 - [Mise en place d'un serveur de messagerie avec OpenSMTPD, Dovecot et Rspamd](https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd) (eng) (2019)
 - [Comment gérer son propre serveur de messagerie](https://www.c0ffee.net/blog/mail-server-guide) (eng) (août 2017)
