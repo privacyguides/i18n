@@ -204,9 +204,9 @@ To reiterate, this is not an endorsement of any platform, and we generally disco
 
 ## :material-history: Histoire
 
-Privacy Guides a été lancé en septembre 2021 dans le prolongement du projet éducatif open-source "PrivacyTools", aujourd'hui [disparu](about/privacytools.md). We recognized the importance of independent, criteria-focused product recommendations and general knowledge in the privacy space, which is why we needed to preserve the work that had been created by so many contributors since 2015 and make sure that information had a stable home on the web indefinitely.
+Privacy Guides a été lancé en septembre 2021 dans le prolongement du projet éducatif open-source "PrivacyTools", aujourd'hui [disparu](about/privacytools.md). Nous avons reconnu l’importance de recommandations indépendantes, axées sur des critères, et de connaissances générales dans l’environnement de la protection de la vie privée. C'est pourquoi nous avions besoin de préserver le travail qui avait été créé par tant de contributeurs depuis 2015, et être sûr que ces informations aient une place stable sur le web indéfiniment.
 
-In 2022, we completed the transition of our main website framework from Jekyll to MkDocs, using the `mkdocs-material` documentation software. This change made open-source contributions to our site significantly easier for outsiders, because instead of needing to know complicated syntax to write posts effectively, contributing is now as easy as writing a standard Markdown document.
+En 2022, nous avons achevé la transition de l'environnement de site web principal de Jekyll à MkDocs, en utilisant le logiciel de documentation `mkdocs-material`. This change made open-source contributions to our site significantly easier for outsiders, because instead of needing to know complicated syntax to write posts effectively, contributing is now as easy as writing a standard Markdown document.
 
 We additionally launched our new discussion forum at [discuss.privacyguides.net](https://discuss.privacyguides.net) as a community platform to share ideas and ask questions about our mission. This augments our existing community on Matrix, and replaced our previous GitHub Discussions platform, decreasing our reliance on proprietary discussion platforms.
 
