@@ -313,13 +313,13 @@ O Brave permite que você selecione filtros de conteúdo adicionais na página i
 
 <div class="annotate" markdown>
 
-- [x] Selecione **Não permitir que sites usem o otimizador V8** em *Segurança* → *Gerenciar segurança V8* (1)
-- [x] Selecione **Automaticamente remover permissões de sites inutilizados** em *Configurações de sites e Shields*
-- [x] Selecione **Desabilitar UDP sem proxy** em [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Desmarque **Usar serviços do Google para mensagens automáticas**
-- [x] Selecione **Autoredirecionar páginas AMP**
-- [x] Selecione **Autoredirecionar URLs de rastreamento**
-- [x] Selecione **Impedir sites de obter minha impressão digital com base nas minhas preferências de linguagem.**
+- [x] Select **Don’t allow sites to use JavaScript optimization** under *Security* → *Manage JavaScript optimization & security* (1)
+- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
+- [x] Select **Disable non-proxied UDP** under [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [ ] Uncheck **Use Google services for push messaging**
+- [x] Select **Auto-redirect AMP pages**
+- [x] Select **Auto-redirect tracking URLs**
+- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
 
 </div>
 

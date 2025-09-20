@@ -310,13 +310,13 @@ Brave дозволяє вибрати додаткові фільтри вміс
 
 <div class="annotate" markdown>
 
-- [x] Виберіть **Заборонити сайтам використовувати оптимізацію JavaScript** у розділі *Безпека* → *Керувати оптимізацією і захистом JavaScript* (1)
-- [x] Виберіть **Автоматично скасовувати дозволи для сайтів, які не використовуються** у розділі *Налаштування сайтів і щитів*
-- [x] Виберіть **Вимкнути UDP без проксі** у розділі [*Політика поводження з IP WebRTC*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Зніміть прапорець **Використовувати сервіси Google для push-сповіщень**
-- [x] Виберіть **Автоматично переспрямовувати сторінки AMP**
-- [x] Виберіть **Автоматично переспрямовувати URL-адреси зі стеженням**
-- [x] Виберіть **Не дозволяти сайтам зчитувати цифровий відбиток на основі моїх налаштувань мови**
+- [x] Select **Don’t allow sites to use JavaScript optimization** under *Security* → *Manage JavaScript optimization & security* (1)
+- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
+- [x] Select **Disable non-proxied UDP** under [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [ ] Uncheck **Use Google services for push messaging**
+- [x] Select **Auto-redirect AMP pages**
+- [x] Select **Auto-redirect tracking URLs**
+- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
 
 </div>
 

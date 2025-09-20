@@ -310,13 +310,13 @@ Braveの[シールド](https://support.brave.com/hc/articles/360022973471-What-i
 
 <div class="annotate" markdown>
 
-- [x] *セキュリティ* → *V8のセキュリティを管理する*から**サイトでのV8オプティマイザーの使用を許可しない**を選択 (1)
-- [x] *サイトとシールドの設定*から**使用していないサイトから権限を自動的に削除する**を選択
-- [x] [*WebRTC IP処理ポリシー*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)の**非プロキシUDPを無効にする**を選択
-- [ ] **プッシュメッセージングにGoogleサービスを使用**のチェックを外す
-- [x] **AMPページを自動でリダイレクト**を選択
-- [x] **自動リダイレクト追跡URL**を選択
-- [x] **言語設定に基づく、サイトのフィンガープリンティングを禁止**を選択
+- [x] Select **Don’t allow sites to use JavaScript optimization** under *Security* → *Manage JavaScript optimization & security* (1)
+- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
+- [x] Select **Disable non-proxied UDP** under [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [ ] Uncheck **Use Google services for push messaging**
+- [x] Select **Auto-redirect AMP pages**
+- [x] Select **Auto-redirect tracking URLs**
+- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
 
 </div>
 
