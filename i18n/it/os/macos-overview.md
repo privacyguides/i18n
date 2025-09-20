@@ -46,7 +46,7 @@ Esistono numerose impostazioni integrate che dovresti confermare o modificare pe
 
 #### Bluetooth
 
-- [ ] Rimuovi la spunta da **Bluetooth** (a meno che tu non lo stia utilizzando al momento)
+- [ ] Turn off **Bluetooth** (unless you are currently using it)
 
 #### Rete
 
@@ -56,23 +56,23 @@ Clicca sul pulsante dei "Dettagli" affianco al nome della tua rete:
 
 - [x] Select **Rotating** under **Private Wi-Fi address**
 
-- [x] Check **Limit IP address tracking**
+- [x] Turn on **Limit IP address tracking**
 
 ##### Firewall
 
 Il tuo firewall blocca le connessioni di rete indesiderate. Più le impostazioni del tuo firewall sono rigide, più il tuo Mac è sicuro. Tuttavia, alcuni servizi verranno bloccati. Dovresti configurare il tuo firewall affinché sia il più rigido possibile, senza i servizi di blocco che utilizzi.
 
-- [x] Spunta **Firewall**
+- [x] Turn on **Firewall**
 
 Clicca sul pulsante **Opzioni**:
 
-- [x] Spunta **Blocca tutte le connessioni in entrata**
+- [x] Turn on **Block all incoming connections**
 
 Se questa configurazione è troppo rigida, puoi tornare qui e rimuovere la spunta. Tuttavia, macOS, tipicamente, ti richiederà di consentire le connessioni in entrata per un'app, se tale app lo richiede.
 
 #### Generali
 
-Di default, il nome del tuo dispositivo sarà simile a "iMac di [tuo nome]". Poiché questo nome è trasmesso pubblicamente sulla tua rete, vorrai modificarlo a qualcosa di generico, come "Mac".
+Di default, il nome del tuo dispositivo sarà simile a "iMac di [tuo nome]". Because this name is [publicly broadcast on your network](https://support.apple.com/guide/mac-help/change-computers-local-hostname-mac-mchlp2322/26/mac/26#:~:text=The%20local%20hostname%2C%20or%20local%20network%20name%2C%20is%20displayed%20at%20the%20bottom%20of%20the%20Sharing%20settings%20window.%20It%20identifies%20your%20Mac%20to%20Bonjour%2Dcompatible%20services.), you'll want to change your device name to something generic like "Mac".
 
 Clicca su **Informazioni** e digita il nome desiderato del tuo dispositivo, nel campo **Nome**.
 
@@ -82,15 +82,37 @@ Dovresti installare automaticamente tutti gli aggiornamenti disponibili, per ass
 
 Clicca sulla piccola icona :material-information-outline:, affianco ad **Aggiornamenti Automatici**:
 
-- [x] Spunta **Controlla aggiornamenti**
+- [x] Turn on **Download new updates when available**
 
-- [x] Spunta **Scarica nuovi aggiornamenti quando disponibili**
+- [x] Turn on **Install macOS updates**
 
-- [x] Spunta **Installa aggiornamenti di macOS**
+- [x] Turn on **Install Security Responses and system files**
 
-- [x] Spunta **Installa aggiornamenti delle applicazioni dall'Apple Store**
+#### Apple Intelligence & Siri
 
-- [x] Spunta **Installa Risposte di Sicurezza e file di sistema**
+If you do not use these features on macOS, you should disable them:
+
+- [ ] Turn off **Apple Intelligence**
+- [ ] Disattiva **Siri**
+
+**[Apple Intelligence](https://apple.com/legal/privacy/data/en/intelligence-engine)** is only available if your device supports it. Apple Intelligence uses a combination of on-device processing and their [Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute) for things that take more processing power than your device can provide.
+
+To see a report of all the data sent via Apple Intelligence, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the either the last 15 minutes or 7 days, depending on what you set it for. Similar to the **App Privacy Report** which shows you the recent permissions accessed by the apps on your phone, the Apple Intelligence Report likewise shows what is being sent to Apple's servers while using Apple Intelligence.
+
+By default, ChatGPT integration is disabled. If you don't want ChatGPT integration anymore, you can navigate to **ChatGPT**:
+
+- [ ] Turn off **Use ChatGPT**
+
+You can also have it ask for confirmation every time if you leave ChatGPT integration on:
+
+- [x] Turn on **Confirm Requests**
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">Avviso</p>
+
+Any request made with ChatGPT will be sent to ChatGPT's servers, there is no on-device processing and no PCC like with Apple Intelligence.
+
+</div>
 
 #### Privacy e sicurezza
 
@@ -100,25 +122,17 @@ Ogni volta che un'applicazione richiede un'autorizzazione, apparirà qui. Puoi d
 
 Puoi consentire individualmente i servizi di posizione, per ogni app. Se non necessiti che le app utilizzino la tua posizione, disattivare interamente i servizi di posizione è l'opzione più privata.
 
-- [ ] Rimuovi la spunta da **Servizi di Posizione**
+- [ ] Disattiva i **Servizi di Posizione**
 
 ##### Analisi e Miglioramenti
 
-Decidi se desideri condividere i dati analitici con Apple e gli sviluppatori.
-
-- [ ] Rimuovi la spunta da **Condividi Analisi Mac**
-
-- [ ] Rimuovi la spunta da **Migliora Siri e Dettatura**
-
-- [ ] Rimuovi la spunta da **Condividi con gli sviluppatori dell'app**
-
-- [ ] Rimuovi la spunta da **Condividi Analisi iCloud** (visibile se sei connesso a iCloud)
+Decide whether you want to share analytics data with Apple and app developers.
 
 ##### Pubblicità di Apple
 
 Decidi se desideri annunci personalizzati secondo il tuo utilizzo.
 
-- [ ] Rimuovi la spunta da **Annunci Personalizzati**
+- [ ] Disattiva gli **Annunci Personalizzati**
 
 ##### FileVault
 
@@ -130,19 +144,19 @@ Sui vecchi computer Mac basati su Intel, FileVault è la sola forma di crittogra
 
 ##### Modalità Lockdown
 
-La [Modalità Lockdown](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) disabilita alcune funzionalità per poter migliorare la sicurezza. Some apps or features won't work the same way they do when it's off, for example, [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers) and [WASM](https://developer.mozilla.org/docs/WebAssembly) are disabled in Safari with Lockdown Mode enabled. Consigliamo di abilitare la Modalità di Lockdown e di scoprire se impatta significativamente sul tuo utilizzo: è facile convivere con molte delle modifiche che effettua.
+**[Lockdown Mode](https://support.apple.com/guide/mac-help/lock-mac-targeted-a-cyberattack-ibrw66f4e191/mac)** disables some features in order to improve security. Some apps or features won't work the same way they do when it's off. For example, Javascript Just-In-Time ([JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers)) compilation and [WebAssembly](https://developer.mozilla.org/docs/WebAssembly) are disabled in Safari with Lockdown Mode enabled. We recommend enabling Lockdown Mode and seeing whether it significantly impacts daily usage.
 
 - [x] Clicca **Attiva**
 
 ### Randomizzazione dell'indirizzo MAC
 
-macOS uses a randomized MAC address when performing Wi-Fi scans while disconnected from a network.
+macOS uses a randomized MAC address when [performing Wi-Fi scans](https://support.apple.com/guide/security/privacy-features-connecting-wireless-networks-secb9cb3140c/web) while disconnected from a network.
 
-You can set your MAC address to be randomized per network and rotate occasionally to prevent tracking between networks and on the same network over time.
+You can set your [MAC address to be randomized](https://support.apple.com/en-us/102509) per network and rotate occasionally to prevent tracking between networks and on the same network over time.
 
 Go to **System Settings** → **Network** → **Wi-Fi** → **Details** and set **Private Wi-Fi address** to either **Fixed** if you want a fixed but unique address for the network you're connected to, or **Rotating** if you want it to change over time.
 
-Consider changing your hostname as well, which is another device identifier that's broadcast on the network you're connected to. You may wish to set your hostname to something generic like "MacBook Air", "Laptop", "John's MacBook Pro", or "iPhone" in **System Settings** → **General** → **Sharing**. Alcuni [script per la privacy](https://github.com/sunknudsen/privacy-guides/tree/master/how-to-spoof-mac-address-and-hostname-automatically-at-boot-on-macos#guide) consentono di generare facilmente hostname con nomi casuali.
+Consider changing your hostname as well, which is another device identifier that's broadcast on the network you're connected to. You may wish to set your hostname to something generic like "MacBook Air", "Laptop", "John's MacBook Pro", or "iPhone" in **System Settings** → **General** → **Sharing**.
 
 ## Protezioni di Sicurezza
 
@@ -153,19 +167,19 @@ macOS utilizza la difesa approfondita, affidandosi a svariati livelli di protezi
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avviso</p>
 
-macOS ti consente di installare gli aggiornamenti beta. Questi sono instabili e potrebbero comportare un'ulteriore telemetria, essendo per scopi di test. Per questo, ti consigliamo di evitare i software in beta, in generale.
+macOS ti consente di installare gli aggiornamenti beta. These are unstable and may come with [extra telemetry](https://beta.apple.com/privacy) since they're for testing purposes. Per questo, ti consigliamo di evitare i software in beta, in generale.
 
 </div>
 
 #### Volume di Sistema Firmato
 
-i componenti di sistema di macOS sono protetti in un volume di sistema firmato di sola lettura, a significare che né tu né un malware possiate alterare importanti file di sistema.
+macOS's system components are protected in a read-only [signed system volume](https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web), meaning that neither you nor malware can alter important system files.
 
 Il volume di sistema è verificato mentre in esecuzione e qualsiasi dato non sia firmato con una firma crittografica valida da Apple, sarà rifiutato.
 
 #### Protezione dell'Integrità di Sistema
 
-macOS imposta certe limitazioni di sicurezza, che non sono sovrascrivibili. Queste, sono dette Controlli d'Accesso Obbligatori e formano la base del sandbox, controllo genitori e Protezione dell'Integrità di Sistema su macOS.
+macOS imposta certe limitazioni di sicurezza, che non sono sovrascrivibili. These are called [Mandatory Access Controls](https://support.apple.com/guide/security/system-integrity-protection-secb7ea06b49/1/web/1), and they form the basis of the sandbox, parental controls, and [System Integrity Protection](https://support.apple.com/en-us/102149) on macOS.
 
 La Protezione dell'Integrità di Sistema rende le posizioni dei file di sola lettura, per proteggere dalla modifica da parte di codice dannoso. Questa si aggiunge alla Protezione dell'Integrità del Kernel basata sul hardware, che evita che il kernel sia modificata in memoria.
 
@@ -173,7 +187,7 @@ La Protezione dell'Integrità di Sistema rende le posizioni dei file di sola let
 
 ##### Sandbox delle App
 
-On macOS, whether an app is sandboxed is determined by the developer when they sign it. The App Sandbox protects against vulnerabilities in the apps you run by limiting what a malicious actor can access in the event that the app is exploited. The App Sandbox *alone* can't protect against [:material-package-variant-closed-remove: Supply Chain Attacks](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian} by malicious developers. For that, sandboxing needs to be enforced by someone other than the developer themselves, as it is on the App Store.
+On macOS, whether an app is sandboxed is determined by the developer when they sign it. The [App Sandbox](https://developer.apple.com/documentation/xcode/configuring-the-macos-app-sandbox) protects against vulnerabilities in the apps you run by limiting what a malicious actor can access in the event that the app is exploited. The App Sandbox *alone* can't protect against [:material-package-variant-closed-remove: Supply Chain Attacks](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian} by malicious developers. For that, sandboxing needs to be enforced by someone other than the developer themselves, as it is on the [App Store](https://support.apple.com/guide/security/gatekeeper-and-runtime-protection-sec5599b66df/1/web/1#:~:text=All%20apps%20from%20the%20App%20Store%20are%20sandboxed%20to%20restrict%20access%20to%20data%20stored%20by%20other%20apps.).
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avviso</p>
@@ -225,7 +239,7 @@ You can enable a column in Activity Monitor called "Restricted" which is a flag 
 
 ##### Antivirus
 
-macOS presenta due forme di difesa dai malware:
+macOS comes with two forms of [malware defense](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/1/web/1):
 
 1. In primo luogo, la protezione dal lancio di malware è fornita dal processo di revisione dell'App Store per le applicazioni presenti su di esso, o *Notarizzazione* (parte di *Gatekeeper*), un procedimento in cui le app di terze parti sono scansionate in cerca di malware noti da Apple, prima di poter essere eseguite. Apps are required to be signed by the developers using a key given to them by Apple. This ensures that you are running software from the real developers. Notarization also requires that developers enable the Hardened Runtime for their apps, which limits methods of exploitation.
 2. La protezione da altri malware e rimedi da malware esistenti sul tuo sistema è fornita da *XProtect*, un software antivirus più tradizionale, integrato su macOS.
@@ -234,7 +248,7 @@ We recommend against installing third-party antivirus software as they typically
 
 ##### Backup
 
-macOS comes with automatic backup software called [Time Machine](https://support.apple.com/HT201250), so you can create encrypted backups to an external drive or a network drive in the event of corrupted/deleted files.
+macOS comes with automatic backup software called [Time Machine](https://support.apple.com/HT201250), so you can create [encrypted backups](https://support.apple.com/guide/mac-help/keep-your-time-machine-backup-disk-secure-mh21241/mac) to an external drive or a network drive in the event of corrupted/deleted files.
 
 ### Sicurezza Hardware
 
@@ -242,21 +256,21 @@ Many modern security features in macOS—such as modern Secure Boot, hardware-le
 
 Alcune di queste funzionalità di sicurezza moderne sono disponibili sui vecchi computer Mac con processore Intel con l'Apple T2 Security Chip, ma questo chip è suscettibile all'exploit *checkm8* che potrebbe comprometterne la sicurezza.
 
-Se utilizzi accessori Bluetooth come una tastiera, consigliamo di utilizzarne di ufficiali di Apple, poiché il loro firmware sarà automaticamente aggiornato per te da macOS. Utilizzare accessori di terze parti va bene, ma dovresti ricordarti di installarne regolarmente gli aggiornamenti del firmware.
+If you use Bluetooth accessories such as a keyboard, we recommend that you use official Apple ones as their firmware will [automatically be updated](https://support.apple.com/en-us/120303#:~:text=Firmware%20updates%20are%20automatically%20delivered%20in%20the%20background%20while%20the%20Magic%20Keyboard%20is%20actively%20paired%20to%20a%20device%20running%20macOS%2C%20iOS%2C%20iPadOS%2C%20or%20tvOS.) for you by macOS. Utilizzare accessori di terze parti va bene, ma dovresti ricordarti di installarne regolarmente gli aggiornamenti del firmware.
 
-I Sistemi su Chip di Apple mirano a minimizzare la superficie di attacco relegando le funzioni di sicurezza ad hardware dedicato con funzionalità limitate.
+Apple's SoCs focus on [minimizing attack surface](https://support.apple.com/en-vn/guide/security/secf020d1074/web#:~:text=Security%2Dfocused%20hardware%20follows%20the%20principle%20of%20supporting%20limited%20and%20discretely%20defined%20functions%20to%20minimize%20attack%20surface.) by relegating security functions to dedicated hardware with limited functionality.
 
 #### ROM di Avvio
 
-macOS impedisce la persistenza dei malware, consentendo soltanto ai software Apple ufficiali di essere eseguiti all'avvio; ciò è noto come avvio di sicurezza. I computer Mac verificano ciò con un po' di memoria di sola lettura sul Sistema su Chip, detta ROM di avvio, stabilita durante la produzione del chip.
+macOS prevents malware persistence by only allowing official Apple software to run at boot time; this is known as [secure boot](https://support.apple.com/en-vn/guide/security/secac71d5623/1/web/1). Mac computers verify this with a bit of read-only memory on the SoC called the [boot ROM](https://support.apple.com/en-vn/guide/security/aside/sec5240db956/1/web/1), which is [laid down during the manufacturing of the chip](https://support.apple.com/en-vn/guide/security/secf020d1074/1/web/1#:~:text=which%20is%20laid%20down%20during%20Apple%20SoC%20fabrication).
 
-La ROM di avvio forma la radice di fiducia del hardware. Ciò assicura che i malware non possano manomettere il processo di avvio. Quando il tuo Mac si avvia, la ROM di avvio è la prima cosa eseguita, formando il primo collegamento nella catena di fiducia.
+La ROM di avvio forma la radice di fiducia del hardware. This ensures that malware cannot tamper with the boot process, since the boot ROM is immutable. Quando il tuo Mac si avvia, la ROM di avvio è la prima cosa eseguita, formando il primo collegamento nella catena di fiducia.
 
-I computer Mac sono configurabili per avviarsi in tre modalità di sicurezza: *Sicurezza Completa*, *Sicurezza Ridotta* e *Sicurezza Permissiva*, dove la prima è l'impostazione predefinita. Idealmente, dovresti utilizzare la modalità di Sicurezza Completa ed evitare cose come le **estensioni del Kernel**, che ti forzano a ridurre la tua modalità di sicurezza. Assicurati di [verificare](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac) di star utilizzando la modalità di Sicurezza Completa.
+Mac computers can be configured to boot in [three security modes](https://support.apple.com/guide/deployment/startup-security-dep5810e849c/web#dep32fb404e1): *Full Security*, *Reduced Security*, and *Permissive Security*, with the default setting being Full Security. You should ideally be using Full Security mode and avoid things like **[kernel extensions](https://support.apple.com/guide/deployment/system-extensions-in-macos-depa5fb8376f/web#dep51e097f45)** that force you to lower your security mode. Assicurati di [verificare](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac) di star utilizzando la modalità di Sicurezza Completa.
 
 #### Secure Enclave
 
-The Secure Enclave is a security chip built into devices with Apple Silicon which is responsible for storing and generating encryption keys for data at rest as well as Face ID and Touch ID data. Contiene la propria ROM di avvio separata.
+The **[Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/web)** is a security chip built into devices with Apple Silicon which is responsible for storing and generating encryption keys for data at rest as well as Face ID and Touch ID data. It contains its own [separate boot ROM](https://support.apple.com/en-vn/guide/security/sec59b0b31ff/web#sec43006c49f).
 
 Puoi pensare a Secure Enclave come un hub di sicurezza del tuo dispositivo: include un motore crittografico AES e un meccanismo per memorizzare in sicurezza le tue chiavi crittografiche, ed è separato dal resto del sistema quindi, anche se il processore principale è compromesso, dovrebbe ancora essere sicuro.
 
@@ -264,17 +278,21 @@ Puoi pensare a Secure Enclave come un hub di sicurezza del tuo dispositivo: incl
 
 La funzionalità Touch ID di Apple ti consente di sbloccare in sicurezza i tuoi dispositivi, utilizzando fattori biometrici.
 
-I tuoi dati biometrici non abbandonano mai il tuo dispositivo; sono memorizzati soltanto nel Secure Enclave.
+Your biometric data [never leaves your device](https://www.apple.com/legal/privacy/data/en/touch-id/#:~:text=Touch%C2%A0ID%20data%20does%20not%20leave%20your%20device%2C%20and%20is%20never%20backed%20up%20to%20iCloud%20or%20anywhere%20else.); it's stored only in the Secure Enclave.
 
 #### Disconnessione del Microfono Hardware
 
-All laptops with Apple Silicon or the T2 chip feature a hardware disconnect for the built-in microphone whenever the lid is closed. Ciò significa che non vi è modo per un utente malevolo, di ascoltare dal microfono del tuo Mac, anche se il sistema operativo è compromesso.
+All laptops with Apple Silicon or the T2 chip feature a [hardware disconnect](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web) for the built-in microphone whenever the lid is closed. Ciò significa che non vi è modo per un utente malevolo, di ascoltare dal microfono del tuo Mac, anche se il sistema operativo è compromesso.
 
 Nota che la fotocamera non presenta una disconnessione hardware, poiché la sua inquadratura è comunque oscurata, alla chiusura dello schermo.
 
+#### Secure Camera Indicator
+
+The built-in camera in a Mac is designed so that the camera can't turn on without the camera indicator light [also turning on](https://support.apple.com/en-us/102177#:~:text=The%20camera%20is%20engineered%20so%20that%20it%20can’t%20activate%20without%20the%20camera%20indicator%20light%20also%20turning%20on.%20This%20is%20how%20you%20can%20tell%20if%20your%20camera%20is%20on.).
+
 #### Sicurezza del Processore Periferico
 
-I computer integrano processori differenti dalla CPU principale, che gestiscono cose come rete, grafica, gestione dei consumi, etc. Questi processori possono avere una sicurezza insufficiente ed essere compromessi, dunque, Apple prova a minimizzarne l'esigenza nel proprio hardware.
+Computers have [built-in processors](https://support.apple.com/en-vn/guide/security/seca500d4f2b/1/web/1) other than the main CPU that handle things like networking, graphics, power management, etc. Questi processori possono avere una sicurezza insufficiente ed essere compromessi, dunque, Apple prova a minimizzarne l'esigenza nel proprio hardware.
 
 Quando è necessario utilizzare uno di tali processori, Apple opera da fornitore per assicurarsi che il processore
 
@@ -287,8 +305,8 @@ Quando è necessario utilizzare uno di tali processori, Apple opera da fornitore
 
 #### Protezioni di Accesso Diretto alla Memoria
 
-Apple Silicon separates each component that requires direct memory access. Ad esempio, una porta di Thunderbolt non può accedere alla memoria designata per il Kernel.
+Apple Silicon separates each component that requires [direct memory access](https://support.apple.com/guide/security/direct-memory-access-protections-seca4960c2b5/1/web/1). Ad esempio, una porta di Thunderbolt non può accedere alla memoria designata per il Kernel.
 
-## Fonti
+#### Terminal Secure Keyboard Entry
 
-- [Sicurezza della Piattaforma di Apple](https://support.apple.com/guide/security/welcome/web)
+Enable [Secure Keyboard Entry](https://support.apple.com/guide/terminal/use-secure-keyboard-entry-trml109/mac) to prevent other apps from detecting what you type in the terminal.

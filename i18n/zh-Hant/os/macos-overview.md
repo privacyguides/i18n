@@ -46,7 +46,7 @@ Apple 的 OCSP 服務使用 HTTPS 加密，因此只有他們能夠看到您開�
 
 #### 藍牙
 
-- [ ] 取消勾選 **藍牙** (除非目前正使用中)
+- [ ] Turn off **Bluetooth** (unless you are currently using it)
 
 #### 網路
 
@@ -56,23 +56,23 @@ Apple 的 OCSP 服務使用 HTTPS 加密，因此只有他們能夠看到您開�
 
 - [x] Select **Rotating** under **Private Wi-Fi address**
 
-- [x] 檢查 **限制 IP 位址追蹤**
+- [x] Turn on **Limit IP address tracking**
 
 ##### 防火牆
 
 防火牆會阻止不必要的網路連接。 防火牆設定越嚴格，您的 Mac 就越安全。 然而某些服務可能會被封鎖。 您應該將防火牆配置得盡可能嚴格，但不會影響使用的服務。
 
-- [x] 勾選 **防火牆**
+- [x] Turn on **Firewall**
 
 點擊 **生成（Generate）** 按鈕。
 
-- [x] 勾選 **阻止所有傳入連接**
+- [x] Turn on **Block all incoming connections**
 
 如果配置過於嚴格，可以再回來取消勾選此選項。 但如果應用程式請求，macOS 通常會提示用戶允許該應用的傳入連接。
 
 #### 一般設定
 
-您的設備名稱預設為“[您的名字] 的 iMac”。 此名稱會在您的網路上公開廣播，因此需將設備名稱更改為通用名稱，例如“Mac”。
+您的設備名稱預設為“[您的名字] 的 iMac”。 Because this name is [publicly broadcast on your network](https://support.apple.com/guide/mac-help/change-computers-local-hostname-mac-mchlp2322/26/mac/26#:~:text=The%20local%20hostname%2C%20or%20local%20network%20name%2C%20is%20displayed%20at%20the%20bottom%20of%20the%20Sharing%20settings%20window.%20It%20identifies%20your%20Mac%20to%20Bonjour%2Dcompatible%20services.), you'll want to change your device name to something generic like "Mac".
 
 單擊**關於**，然後在**名稱**欄位上輸入想取的設備名稱。
 
@@ -82,15 +82,37 @@ Apple 的 OCSP 服務使用 HTTPS 加密，因此只有他們能夠看到您開�
 
 點擊 :material-information-outline: **自動更新** 旁邊的小圖標:
 
-- [x] 勾選**檢查更新**
+- [x] Turn on **Download new updates when available**
 
-- [x] 勾選**下載可用的最近更新**
+- [x] Turn on **Install macOS updates**
 
-- [x] 勾選 **安裝 macOS 更新**
+- [x] Turn on **Install Security Responses and system files**
 
-- [x] 勾選 **從 App Store 安裝應用程式更新**
+#### Apple Intelligence & Siri
 
-- [x] 勾選 **安裝安全反應和系統檔案**
+If you do not use these features on macOS, you should disable them:
+
+- [ ] Turn off **Apple Intelligence**
+- [ ] 關閉 **Siri**
+
+**[Apple Intelligence](https://apple.com/legal/privacy/data/en/intelligence-engine)** is only available if your device supports it. Apple Intelligence uses a combination of on-device processing and their [Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute) for things that take more processing power than your device can provide.
+
+To see a report of all the data sent via Apple Intelligence, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the either the last 15 minutes or 7 days, depending on what you set it for. Similar to the **App Privacy Report** which shows you the recent permissions accessed by the apps on your phone, the Apple Intelligence Report likewise shows what is being sent to Apple's servers while using Apple Intelligence.
+
+By default, ChatGPT integration is disabled. If you don't want ChatGPT integration anymore, you can navigate to **ChatGPT**:
+
+- [ ] Turn off **Use ChatGPT**
+
+You can also have it ask for confirmation every time if you leave ChatGPT integration on:
+
+- [x] Turn on **Confirm Requests**
+
+<div class="admonition warning" markdown>
+<p class="admonition-title">警告</p>
+
+Any request made with ChatGPT will be sent to ChatGPT's servers, there is no on-device processing and no PCC like with Apple Intelligence.
+
+</div>
 
 #### 隱私 & 安全
 
@@ -100,25 +122,17 @@ Apple 的 OCSP 服務使用 HTTPS 加密，因此只有他們能夠看到您開�
 
 您可以個別同意每個應用程式的定位服務權限。 如果不要應用程式使用您的位置，那麼完全關閉定位服務是最私密的選擇。
 
-- [ ] 取消勾選 **定位服務**
+- [ ] 關閉 **定位服務**
 
 ##### 資料分析 & 改進
 
-決定是否要與 Apple 和開發者共享分析資料。
-
-- [ ] 取消勾選 **分享 Mac 數據分析**
-
-- [ ] 取消勾選 **改善 Siri & 偵測**
-
-- [ ] 取消勾選 **分享給應用開發人員**
-
-- [ ] 取消勾選 **分享 iCloud Analytics** (如登入 iCloud 方可看到)
+Decide whether you want to share analytics data with Apple and app developers.
 
 ##### Apple 廣告
 
 決定是否依使用狀況個人化廣告接收。
 
-- [ ] 取消勾選 **個人化的廣告**
+- [ ] 關閉 **個人化廣告**
 
 ##### FileVault
 
@@ -130,19 +144,19 @@ On modern devices with a Secure Enclave (Apple T2 Security Chip, Apple Silicon),
 
 ##### 封閉模式
 
-[封閉模式](https://blog.privacyguides.org/2022/10/27/macos-ventura-privacy-security-updates/#lockdown-mode) 禁用某些功能以提高安全性。 某些應用程式或功能在關閉時將無法正常運作，例如 [JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in -time-jit- compilers) 和[WASM](https://developer.mozilla.org/docs/WebAssembly) 在啟用鎖定模式的Safari 中被停用。 建議啟用封閉模式看看它是否會顯著影響您的使用，它所做的許多更改都很容易接受。
+**[Lockdown Mode](https://support.apple.com/guide/mac-help/lock-mac-targeted-a-cyberattack-ibrw66f4e191/mac)** disables some features in order to improve security. Some apps or features won't work the same way they do when it's off. For example, Javascript Just-In-Time ([JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers)) compilation and [WebAssembly](https://developer.mozilla.org/docs/WebAssembly) are disabled in Safari with Lockdown Mode enabled. We recommend enabling Lockdown Mode and seeing whether it significantly impacts daily usage.
 
 - [x] 點擊 **開啟**
 
 ### MAC 位址隨機化
 
-macOS 在網路連線中斷而執行 Wi-Fi 掃描時，會使用隨機化的 MAC 位址。
+macOS uses a randomized MAC address when [performing Wi-Fi scans](https://support.apple.com/guide/security/privacy-features-connecting-wireless-networks-secb9cb3140c/web) while disconnected from a network.
 
-您可以將 MAC 位址設定為根據每個網路隨機化，並偶爾輪換，以防止在不同網路之間和同一網路中長時間追蹤。
+You can set your [MAC address to be randomized](https://support.apple.com/en-us/102509) per network and rotate occasionally to prevent tracking between networks and on the same network over time.
 
 Go to **System Settings** → **Network** → **Wi-Fi** → **Details** and set **Private Wi-Fi address** to either **Fixed** if you want a fixed but unique address for the network you're connected to, or **Rotating** if you want it to change over time.
 
-Consider changing your hostname as well, which is another device identifier that's broadcast on the network you're connected to. You may wish to set your hostname to something generic like "MacBook Air", "Laptop", "John's MacBook Pro", or "iPhone" in **System Settings** → **General** → **Sharing**. 某些[隱私權腳本](https://github.com/sunknudsen/privacy-guides/tree/master/how-to-spoof-mac-address-and-hostname-automatically-at-boot-on-macos#guide)可輕鬆產生隨機的主機名稱。
+Consider changing your hostname as well, which is another device identifier that's broadcast on the network you're connected to. You may wish to set your hostname to something generic like "MacBook Air", "Laptop", "John's MacBook Pro", or "iPhone" in **System Settings** → **General** → **Sharing**.
 
 ## 安全保護
 
@@ -153,19 +167,19 @@ macOS 通過不同屬性的多層軟體和硬體保護來進行深度防禦。 �
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
 
-macOS 可以安裝測試版更新。 但它們是不穩定的，可能帶有額外遙測，因為其用於測試目的。 因此，我們建議避免使用測試版軟體。
+macOS 可以安裝測試版更新。 These are unstable and may come with [extra telemetry](https://beta.apple.com/privacy) since they're for testing purposes. 因此，我們建議避免使用測試版軟體。
 
 </div>
 
 #### 簽署系統卷宗
 
-macOS 的系統組件受到唯讀簽署系統卷宗之保護，這意味著您和惡意軟體都無法更改重要的系統檔案。
+macOS's system components are protected in a read-only [signed system volume](https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web), meaning that neither you nor malware can alter important system files.
 
 系統卷宗在運行時會予以驗證，任何未使用 Apple 的有效加密簽名進行簽署的數據都將遭拒絕。
 
 #### 系統完整性保護
 
-macOS 設定了某些無法覆蓋的安全限制。 這些稱為強制取用控制，它們構成 macOS 上的沙盒、家長控制和系統完整性保護的基礎。
+macOS 設定了某些無法覆蓋的安全限制。 These are called [Mandatory Access Controls](https://support.apple.com/guide/security/system-integrity-protection-secb7ea06b49/1/web/1), and they form the basis of the sandbox, parental controls, and [System Integrity Protection](https://support.apple.com/en-us/102149) on macOS.
 
 系統完整保護使重要的檔案成為唯讀，以防止惡意代碼的修改。 這是基於硬體內核完整保護之上，可防止記憶體中的內核遭修改。
 
@@ -173,7 +187,7 @@ macOS 設定了某些無法覆蓋的安全限制。 這些稱為強制取用控�
 
 ##### App 沙盒
 
-On macOS, whether an app is sandboxed is determined by the developer when they sign it. The App Sandbox protects against vulnerabilities in the apps you run by limiting what a malicious actor can access in the event that the app is exploited. The App Sandbox *alone* can't protect against [:material-package-variant-closed-remove: Supply Chain Attacks](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian} by malicious developers. For that, sandboxing needs to be enforced by someone other than the developer themselves, as it is on the App Store.
+On macOS, whether an app is sandboxed is determined by the developer when they sign it. The [App Sandbox](https://developer.apple.com/documentation/xcode/configuring-the-macos-app-sandbox) protects against vulnerabilities in the apps you run by limiting what a malicious actor can access in the event that the app is exploited. The App Sandbox *alone* can't protect against [:material-package-variant-closed-remove: Supply Chain Attacks](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian} by malicious developers. For that, sandboxing needs to be enforced by someone other than the developer themselves, as it is on the [App Store](https://support.apple.com/guide/security/gatekeeper-and-runtime-protection-sec5599b66df/1/web/1#:~:text=All%20apps%20from%20the%20App%20Store%20are%20sandboxed%20to%20restrict%20access%20to%20data%20stored%20by%20other%20apps.).
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>
@@ -225,7 +239,7 @@ You can enable a column in Activity Monitor called "Restricted" which is a flag 
 
 ##### 防毒軟體
 
-macOS 提供兩種惡意軟體防禦形式：
+macOS comes with two forms of [malware defense](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/1/web/1):
 
 1. 首先，防止啟動惡意軟體是由 App Store 對 App Store 應用程式的審核流程或*公證*（*Gatekeeper* 的一部份），這是 Apple 允許運行之前掃描第三方應用程式是否存在已知惡意軟體的程式。 Apps are required to be signed by the developers using a key given to them by Apple. This ensures that you are running software from the real developers. Notarization also requires that developers enable the Hardened Runtime for their apps, which limits methods of exploitation.
 2. *XProtect* 提供針對其他惡意軟體的防護以及修復系統上現有惡意軟體，XProtect 是 macOS 內建較傳統的防病毒軟體。
@@ -234,7 +248,7 @@ We recommend against installing third-party antivirus software as they typically
 
 ##### 備份
 
-macOS comes with automatic backup software called [Time Machine](https://support.apple.com/HT201250), so you can create encrypted backups to an external drive or a network drive in the event of corrupted/deleted files.
+macOS comes with automatic backup software called [Time Machine](https://support.apple.com/HT201250), so you can create [encrypted backups](https://support.apple.com/guide/mac-help/keep-your-time-machine-backup-disk-secure-mh21241/mac) to an external drive or a network drive in the event of corrupted/deleted files.
 
 ### 硬體安全
 
@@ -242,21 +256,21 @@ Many modern security features in macOS—such as modern Secure Boot, hardware-le
 
 其中一些現代安全功能可在配備Apple T2 安全晶片的 Intel 老式Mac 電腦上使用，但該晶片容易受到*checkm8* 漏洞的攻擊，這可能會損害其安全性。
 
-若使用藍牙配件例如鍵盤等，建議最好是 Apple 官方配件，因為 macOS 會自動更新其軔體。 使用第三方配件沒問題，但應該記住定期為其更新安裝軔體。
+If you use Bluetooth accessories such as a keyboard, we recommend that you use official Apple ones as their firmware will [automatically be updated](https://support.apple.com/en-us/120303#:~:text=Firmware%20updates%20are%20automatically%20delivered%20in%20the%20background%20while%20the%20Magic%20Keyboard%20is%20actively%20paired%20to%20a%20device%20running%20macOS%2C%20iOS%2C%20iPadOS%2C%20or%20tvOS.) for you by macOS. 使用第三方配件沒問題，但應該記住定期為其更新安裝軔體。
 
-Apple SoC 專注於通過將安全功能轉移到功能有限的專用硬體以求最大限度地減少攻擊面。
+Apple's SoCs focus on [minimizing attack surface](https://support.apple.com/en-vn/guide/security/secf020d1074/web#:~:text=Security%2Dfocused%20hardware%20follows%20the%20principle%20of%20supporting%20limited%20and%20discretely%20defined%20functions%20to%20minimize%20attack%20surface.) by relegating security functions to dedicated hardware with limited functionality.
 
 #### Boot ROM
 
-macOS 通過僅允許官方 Apple 軟體在啟動時運行以防止惡意軟體持久存在； 此稱為安全開機。 Mac 電腦利用 SoaC 上稱為啟動 ROM 唯讀儲存器來驗證這一點，該儲存器是在晶片製造過程中放置​​的。
+macOS prevents malware persistence by only allowing official Apple software to run at boot time; this is known as [secure boot](https://support.apple.com/en-vn/guide/security/secac71d5623/1/web/1). Mac computers verify this with a bit of read-only memory on the SoC called the [boot ROM](https://support.apple.com/en-vn/guide/security/aside/sec5240db956/1/web/1), which is [laid down during the manufacturing of the chip](https://support.apple.com/en-vn/guide/security/secf020d1074/1/web/1#:~:text=which%20is%20laid%20down%20during%20Apple%20SoC%20fabrication).
 
-開機 ROM 構成了硬體信任根。 這確保惡意軟體無法篡改開機過程。 Mac 啟動時，開機 ROM 第一個運行，為信任鏈中的第一個環節。
+開機 ROM 構成了硬體信任根。 This ensures that malware cannot tamper with the boot process, since the boot ROM is immutable. Mac 啟動時，開機 ROM 第一個運行，為信任鏈中的第一個環節。
 
-Mac 電腦有三種安全模式啟動：*完全安全*、*降低安全性*和*許可安全*，預設的設定為完全安全。 理想情況下，您應該使用完全安全模式，並避免諸如**內核擴展**而迫使降低安全模式。 請務必[檢查](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac)使用的是完全安全模式。
+Mac computers can be configured to boot in [three security modes](https://support.apple.com/guide/deployment/startup-security-dep5810e849c/web#dep32fb404e1): *Full Security*, *Reduced Security*, and *Permissive Security*, with the default setting being Full Security. You should ideally be using Full Security mode and avoid things like **[kernel extensions](https://support.apple.com/guide/deployment/system-extensions-in-macos-depa5fb8376f/web#dep51e097f45)** that force you to lower your security mode. 請務必[檢查](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac)使用的是完全安全模式。
 
 #### 安全隔離區
 
-The Secure Enclave is a security chip built into devices with Apple Silicon which is responsible for storing and generating encryption keys for data at rest as well as Face ID and Touch ID data. 它包含自己獨立的開機 ROM。
+The **[Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/web)** is a security chip built into devices with Apple Silicon which is responsible for storing and generating encryption keys for data at rest as well as Face ID and Touch ID data. It contains its own [separate boot ROM](https://support.apple.com/en-vn/guide/security/sec59b0b31ff/web#sec43006c49f).
 
 您可以將安全隔離區想成裝置的安全中心：它具有 AES 加密引擎和安全儲存加密金鑰機制，它與系統的其餘部分分開，因此即使主處理器受到損害，也仍然保持安全。
 
@@ -264,17 +278,21 @@ The Secure Enclave is a security chip built into devices with Apple Silicon whic
 
 Apple Touch ID 功能可使用生物識別技術安全地解鎖設備。
 
-您的生物識別資料永遠不會離開您的裝置； 它僅儲存在安全隔離區。
+Your biometric data [never leaves your device](https://www.apple.com/legal/privacy/data/en/touch-id/#:~:text=Touch%C2%A0ID%20data%20does%20not%20leave%20your%20device%2C%20and%20is%20never%20backed%20up%20to%20iCloud%20or%20anywhere%20else.); it's stored only in the Secure Enclave.
 
 #### 硬體麥克風斷線
 
-All laptops with Apple Silicon or the T2 chip feature a hardware disconnect for the built-in microphone whenever the lid is closed. 這意味著即使作業系統受到破壞，攻擊者無法監聽 Mac 的麥克風。
+All laptops with Apple Silicon or the T2 chip feature a [hardware disconnect](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web) for the built-in microphone whenever the lid is closed. 這意味著即使作業系統受到破壞，攻擊者無法監聽 Mac 的麥克風。
 
 請注意，攝影機沒有硬體斷接，因為只要上蓋關閉時，其視線即會被遮擋。
 
+#### Secure Camera Indicator
+
+The built-in camera in a Mac is designed so that the camera can't turn on without the camera indicator light [also turning on](https://support.apple.com/en-us/102177#:~:text=The%20camera%20is%20engineered%20so%20that%20it%20can’t%20activate%20without%20the%20camera%20indicator%20light%20also%20turning%20on.%20This%20is%20how%20you%20can%20tell%20if%20your%20camera%20is%20on.).
+
 #### 外圍處理器安全
 
-電腦除了主 CPU 之外還有內建處理器，用於處理網路、圖形、電源管理等事務。 這些處理器可能沒有足夠的安全性且受到損害，因此蘋果試圖減少其硬體中對這類處理器的需求。
+Computers have [built-in processors](https://support.apple.com/en-vn/guide/security/seca500d4f2b/1/web/1) other than the main CPU that handle things like networking, graphics, power management, etc. 這些處理器可能沒有足夠的安全性且受到損害，因此蘋果試圖減少其硬體中對這類處理器的需求。
 
 當需要使用其中某一種處理器時，Apple 會與供應商合作，以確保該處理器
 
@@ -287,8 +305,8 @@ All laptops with Apple Silicon or the T2 chip feature a hardware disconnect for 
 
 #### 直接記憶體存取保護
 
-Apple Silicon separates each component that requires direct memory access. 例如，Thunderbolt 端口無法訪問為內核指定的記憶體。
+Apple Silicon separates each component that requires [direct memory access](https://support.apple.com/guide/security/direct-memory-access-protections-seca4960c2b5/1/web/1). 例如，Thunderbolt 端口無法訪問為內核指定的記憶體。
 
-## 來源
+#### Terminal Secure Keyboard Entry
 
-- [Apple 平台安全](https://support.apple.com/guide/security/welcome/web)
+Enable [Secure Keyboard Entry](https://support.apple.com/guide/terminal/use-secure-keyboard-entry-trml109/mac) to prevent other apps from detecting what you type in the terminal.
