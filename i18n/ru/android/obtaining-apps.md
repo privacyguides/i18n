@@ -1,6 +1,6 @@
 ---
-title: "Obtaining Applications"
-description: We recommend these methods for obtaining applications on Android without interacting with Google Play Services.
+title: "Скачивание приложений"
+description: Мы рекомендуем эти методы для скачивания приложений на Android без взаимодействия с сервисами Google Play.
 ---
 
 There are many ways to obtain Android apps privately, even from the Play Store, without interacting with Google Play Services. We recommend the following methods of obtaining applications on Android, listed in order of preference.
@@ -9,17 +9,17 @@ There are many ways to obtain Android apps privately, even from the Play Store, 
 
 <div class="admonition recommendation" markdown>
 
-![Obtainium logo](../assets/img/android/obtainium.svg){ align=right }
+![Логотип Obtainium](../assets/img/android/obtainium.svg){ align=right }
 
-**Obtainium** is an app manager which allows you to install and update apps directly from the developer's own releases page (i.e. GitHub, GitLab, the developer's website, etc.), rather than a centralized app store/repository. It supports automatic background updates on Android 12 and higher.
+**Obtainium** - это менеджер приложений, который позволяет устанавливать и обновлять приложения прямо со страницы релизов разработчика (например GitHub, GitLab, сайт разработчика и т.д.), а не централизованный магазин/репозиторий приложений. Он поддерживает автоматическое фоновое обновление приложений на Android 12 и выше.
 
-[:octicons-repo-16: Repository](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/ImranR98/Obtainium/wiki){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Contribute }
+[:octicons-repo-16: Репозиторий](https://github.com/ImranR98/Obtainium#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/ImranR98/Obtainium/wiki){ .card-link title=Документация}
+[:octicons-code-16:](https://github.com/ImranR98/Obtainium){ .card-link title="Исходный код" }
+[:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=Поддержать }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Скачать</summary>
 
 - [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
 
@@ -27,7 +27,7 @@ There are many ways to obtain Android apps privately, even from the Play Store, 
 
 </div>
 
-Obtainium allows you to download APK installer files from a wide variety of sources, and it is up to you to ensure those sources and apps are legitimate. For example, using Obtainium to install Signal from [Signal's APK landing page](https://signal.org/android/apk) should be fine, but installing from third-party APK repositories like Aptoide or APKPure may pose additional risks. The risk of installing a malicious _update_ is lower, because Android itself verifies that all app updates are signed by the same developer as the existing app on your phone before installing them.
+Obtainium позволяет загружать APK файлы из самых разных источников, и только от вас зависит, будут ли эти источники и приложения легитимными. Например, для установки Signal с [официальной страницы для скачивания APK Signal](https://signal.org/android/apk) можно безопасно использовать Obtainium. Но установка из сторонних APK-репозиториев (например Aptoide или APKPure) может нести за собой дополнительные риски. При этом риск установки вредоносного _обновления_ минимален, поскольку Android проверяет, подписаны ли все обновления приложений тем же разработчиком, что и установленное на вашем устройстве приложение, перед их установкой.
 
 ## GrapheneOS App Store
 
@@ -58,7 +58,7 @@ The Google Play Store requires a Google account to log in, which is not great fo
 
 Aurora Store does not allow you to download paid apps with their anonymous account feature. You can optionally log in with your Google account with Aurora Store to download apps you have purchased, which does give access to the list of apps you've installed to Google. However, you still benefit from not requiring the full Google Play client and Google Play Services or microG on your device.
 
-## Manually with RSS Notifications
+## Вручную с RSS-уведомлениями
 
 For apps that are released on platforms like GitHub and GitLab, you may be able to add an RSS feed to your [news aggregator](../news-aggregators.md) that will help you keep track of new releases.
 

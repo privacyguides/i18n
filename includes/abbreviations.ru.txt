@@ -12,15 +12,15 @@
 Функция "цифрового наследия": Термин "цифровое наследие" подразумевает под собой набор функций, который позволяет вам регулировать права доступа других людей к вашей информации после того, как вы умрете
 *[DNSSEC]: (англ. Domain Name System Security Extensions) - Модули безопасности службы доменных имен
 *[DNS]: (англ. Domain Name System) - Система доменных имен
-*[DoH]: DNS через HTTPS
-*[DoQ]: DNS через QUIC
-*[DoH3]: DNS через HTTP/3
-*[DoT]: DNS через TLS
-*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
+*[DoH]: (англ. DNS over HTTPS) - DNS через HTTPS
+*[DoQ]: (англ. DNS over QUIC) - DNS через QUIC
+*[DoH3]: (англ. DNS over HTTP/3) - DNS через HTTP/3
+*[DoT]: (англ. DNS over TLS) - DNS через TLS
+*[DPI]: (англ. Deep Packet Inspection) - Глубокая проверка пакетов анализирует и блокирует пакеты с определённым содержимым
 *[E2EE]: (англ. End-to-End Encryption) - Сквозное шифрование
-*[ECS]: Подсеть клиента EDNS
+*[ECS]: (англ. EDNS Client Subnet) - Подсеть клиента EDNS
 *[ЕЭЗ]: Европейская экономическая зона
-*[энтропия]: A measurement of how unpredictable something is
+*[энтропия]: Мера неопределенности или хаоса в системе
 *[EOL]: (англ. End-of-Life) - Конец поддержки
 *[Exif]: (англ. Exchangeable image file format) - Метаданные в фотографиях или видео
 *[FCM]: (англ. Firebase Cloud Messaging) - Сервис для отправки push-уведомлений и сообщений
@@ -30,7 +30,7 @@
 *[форк]: A new software project created by copying an existing project and adding to it independently
 *[GDPR]: (англ. General Data Protection Regulation) - Это регламент ЕС, направленный на защиту персональных данных
 *[GPG]: GNU Privacy Guard (реализация PGP)
-*[GPS]: Глобальная система позиционирования
+*[GPS]: (англ. Global Positioning System) - Глобальная система позиционирования
 *[GUI]: Графический пользовательский интерфейс
 *[GnuPG]: GNU Privacy Guard (реализация PGP)
 *[HDD]: Жесткий диск
@@ -50,7 +50,7 @@
 *[JNI]: Нативный интерфейс Java
 *[KYC]: Знай своего клиента (Know Your Customer)
 *[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-*[LLMs]: Large Language Models (AI models such as ChatGPT)
+*[LLMs]: (англ. Large Language Models) ИИ модели, такие как ChatGPT
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
 *[MAC]: Управление доступом к среде
 *[MDAG]: Защита приложений при помощи Microsoft Defender
@@ -83,7 +83,7 @@
 *[SIM]: Модуль идентификации абонента
 *[СМС]: Служба коротких сообщений (стандартный обмен текстовыми сообщениями)
 *[SMTP]: Простой протокол передачи почты
-*[SNI]: Индикация имени сервера
+*[SNI]: (англ. Server Name Indication) - Индикация имени сервера
 *[SSD]: Твердотельный накопитель
 *[SSH]: Безопасная оболочка
 *[SUID]: Set Owner User ID
@@ -105,7 +105,7 @@
 *[VLAN]: (англ. Virtual Local Area Network) - Виртуальная локальная сеть
 *[VoIP]: (англ. Voice over IP) - Интернет протокол передачи голоса по IP
 *[W3C]: Консорциум всемирной паутины
-*[XMPP]: Расширяемый протокол обмена сообщениями и информацией о присутствии
-*[PWA]: (англ. Progressive web app) - Прогрессивное веб-приложение
+*[XMPP]: (англ. Extensible Messaging and Presence Protocol) - Расширяемый протокол обмена сообщениями и информацией о присутствии
+*[PWA]: (англ. Progressive Web App) - Прогрессивное веб-приложение
 *[PWAs]: Progressive Web Apps
 *[WKD]: Web Key Directory

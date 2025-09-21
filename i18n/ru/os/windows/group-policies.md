@@ -3,9 +3,9 @@ title: Параметры групповой политики
 description: Краткое руководство по конфигурации групповой политики для повышения конфиденциальности в Windows.
 ---
 
-Outside modifying the registry itself, the **Local Group Policy Editor** is the most powerful way to change many aspects of your system without installing third-party tools. Для изменения этих параметров требуется версия [Pro](index.md#windows-editions) или лучше.
+Не учитывая изменения реестра, **Редактор локальной групповой политики** является одним из самых эффективных способов настроить различные параметры системы без необходимости установки сторонних программ. Для изменения этих параметров требуется версия [Pro](index.md#windows-editions) или лучше.
 
-These settings should be set on a brand-new installation of Windows. Setting them on your existing installation should work, but may introduce unpredictable behavior and is done at your own risk.
+Эти настройки следует применять на свежеустановленной Windows. Изменение этих настроек в системе, которая уже работает некоторое время, не должно вызвать проблем, однако существует риск возникновения непредсказуемых сбоев. В таком случае ответственность за изменения ложится на вас.
 
 Все эти параметры содержат пояснения в редакторе групповой политики, которые обычно очень подробно объясняют их функциональность. Пожалуйста, обращайте внимание на эти описания при внесении изменений, чтобы точно понимать, что именно мы рекомендуем. Мы также пояснили некоторые из наших решений ниже, когда объяснения, предоставленные в Windows, оказались недостаточными.
 
@@ -68,7 +68,7 @@ These settings should be set on a brand-new installation of Windows. Setting the
 - Этот параметр политики позволяет вам настроить требование дополнительной проверки подлинности при запуске: **Включено**
 - Этот параметр политики позволяет разрешить использование улучшенных ПИН-кодов при запуске компьютера: **Включено**
 
-Despite the names of these policies, this doesn't _require_ you to do anything by default, but it will unlock the _option_ to have a more complex setup (such as requiring a PIN at startup in addition to the TPM) in the BitLocker setup wizard.
+Несмотря на названия этих политик, по умолчанию они не требуют от вас чего-то, но активируют _опцию_ для более детальной настройки (например, требование ввода ПИН-кода при запуске в дополнение к TPM) в мастере настройки BitLocker.
 
 #### Содержимое облака
 
