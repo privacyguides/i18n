@@ -44,11 +44,11 @@ We recommend installing GrapheneOS if you have a Google Pixel as it provides imp
 
 GrapheneOS provides additional [security hardening](https://en.wikipedia.org/wiki/Hardening_\(computing\)) and privacy improvements. It has a [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc), network and sensor permissions, and various other [security features](https://grapheneos.org/features). GrapheneOS also comes with full firmware updates and signed builds, so verified boot is fully supported.
 
-[:octicons-home-16: Homepage](https://grapheneos.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribute }
+[:octicons-home-16: Домашняя страница](https://grapheneos.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Политика конфиденциальности" }
+[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Документация}
+[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Исходный код" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Поддержать }
 
 </div>
 

@@ -1,16 +1,16 @@
 ---
-title: Introduction to Passwords
+title: Знакомство с паролями
 icon: material/form-textbox-password
-description: These are some tips and tricks on how to create the strongest passwords and keep your accounts secure.
+description: Вот несколько рекомендаций о том, как создавать самые надежные пароли и обеспечивать безопасность своих учетных записей.
 ---
 
-Пароли являются неотъемлемой частью нашей повседневной цифровой жизни. We use them to protect our accounts, our devices, and our secrets. Очень часто пароли, это единственное, что защищает нас от злоумышленников, которые хотят получить нашу личную информацию или деньги. Несмотря на это, паролям не уделяют должного внимания, что часто приводит к использованию простых паролей, которые легко угадать или подобрать.
+Пароли являются неотъемлемой частью нашей повседневной цифровой жизни. Мы используем их для защиты наших аккаунтов, девайсов и секретов. Очень часто пароли, это единственное, что защищает нас от злоумышленников, которые хотят получить нашу личную информацию или деньги. Несмотря на это, паролям не уделяют должного внимания, что часто приводит к использованию простых паролей, которые легко угадать или подобрать.
 
 ## Лучшие практики
 
 ### Используйте уникальные пароли для каждого сервиса
 
-Imagine this: You sign up for an account with the same e-mail and password on multiple online services. Если один из владельцев этих сайтов злоумышленник, или в его сервисе произошла утечка данных, в результате которой ваш пароль оказался в незашифрованном виде, все, что нужно сделать злоумышленнику, это попробовать комбинацию электронной почты и пароля в нескольких популярных сервисах, пока он не добьется успеха. Не имеет значения, насколько сложным является этот пароль, потому что он уже у них есть.
+Представьте: вы регистрируете учетную запись с одним и тем же электронным адресом и паролем на нескольких веб-сайтах. Если один из владельцев этих сайтов злоумышленник, или в его сервисе произошла утечка данных, в результате которой ваш пароль оказался в незашифрованном виде, все, что нужно сделать злоумышленнику, это попробовать комбинацию электронной почты и пароля в нескольких популярных сервисах, пока он не добьется успеха. Не имеет значения, насколько сложным является этот пароль, потому что он уже у них есть.
 
 Это называется [подстановка учетных данных](https://en.wikipedia.org/wiki/Credential_stuffing), и это один из самых распространенных способов взлома ваших учетных записей. Чтобы избежать этого, убедитесь, что вы никогда не используете свои пароли повторно.
 
@@ -27,7 +27,7 @@ Imagine this: You sign up for an account with the same e-mail and password on mu
 When it comes to passwords that you don't have to remember (such as passwords stored inside your password manager), if your [threat model](threat-modeling.md) calls for it, we recommend going through important accounts (especially accounts that don't use multifactor authentication) and changing their password every couple of months, in case they have been compromised in a data breach that hasn't become public yet. Большинство менеджеров паролей позволяют установить срок действия пароля, чтобы облегчить отслеживание их давности.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Checking for data breaches</p>
+<p class="admonition-title">Проверка на предмет утечки данных</p>
 
 Если ваш менеджер паролей позволяет проверять скомпрометированные пароли, обязательно сделайте это и незамедлительно измените любой пароль, который мог быть раскрыт в результате утечки данных. В качестве альтернативы вы можете подписаться на [ленту последних взломов от Have I Been Pwned](https://feeds.feedburner.com/HaveIBeenPwnedLatestBreaches) с помощью [агрегатора новостей](../news-aggregators.md).
 
@@ -111,7 +111,7 @@ Let's put all of this in perspective: A seven word passphrase using [EFF's large
 [Список рекомендуемых менеджеров паролей](../passwords.md ""){.md-button}
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Don't place your passwords and TOTP tokens inside the same password manager</p>
+<p class="admonition-title">Не размещайте пароли и TOTP-токены в одном менеджере паролей</p>
 
 When using [TOTP codes as multifactor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
 
