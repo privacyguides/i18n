@@ -46,7 +46,7 @@ Hay una serie de configuraciones integradas que deberías confirmar o cambiar pa
 
 #### Bluetooth
 
-- [ ] Turn off **Bluetooth** (unless you are currently using it)
+- [ ] Desactiva **Bluetooth** (a menos que lo estés utilizando actualmente)
 
 #### Red
 
@@ -56,23 +56,23 @@ Haz clic en el botón "Detalles" junto al nombre de tu red:
 
 - [x] Selecciona **Rotatoria** en **Dirección Wi-Fi privada**
 
-- [x] Turn on **Limit IP address tracking**
+- [x] Activa **Limitar rastreo de dirección IP**
 
 ##### Firewall
 
 Tu cortafuegos bloquea conexiones de red no deseadas. Cuanto más estricta sea la configuración de tu cortafuegos, más seguro estará su Mac. Sin embargo, algunos servicios estarán bloqueados. Debes configurar tu cortafuegos para que sea lo más estricto posible sin bloquear los servicios que utilizas.
 
-- [x] Turn on **Firewall**
+- [x] Activa **Firewall**
 
 Haz clic en el botón **Opciones**:
 
-- [x] Turn on **Block all incoming connections**
+- [x] Activa **Bloquear todas las conexiones entrantes**
 
 Si esta configuración es demasiado estricta, puedes volver y desmarcarla. Sin embargo, macOS normalmente te pedirá que permitas conexiones entrantes para una aplicación si la aplicación lo solicita.
 
 #### General
 
-Por defecto, el nombre de tu dispositivo será algo así como "iMac de [tu nombre]". Because this name is [publicly broadcast on your network](https://support.apple.com/guide/mac-help/change-computers-local-hostname-mac-mchlp2322/26/mac/26#:~:text=The%20local%20hostname%2C%20or%20local%20network%20name%2C%20is%20displayed%20at%20the%20bottom%20of%20the%20Sharing%20settings%20window.%20It%20identifies%20your%20Mac%20to%20Bonjour%2Dcompatible%20services.), you'll want to change your device name to something generic like "Mac".
+Por defecto, el nombre de tu dispositivo será algo así como "iMac de [tu nombre]". Dado que este nombre se [difunde públicamente en tu red](https://support.apple.com/guide/mac-help/change-computers-local-hostname-mac-mchlp2322/26/mac/26#:~:text=The%20local%20hostname%2C%20or%20local%20network%20name%2C%20is%20displayed%20at%20the%20bottom%20of%20the%20Sharing%20settings%20window.%20It%20identifies%20your%20Mac%20to%20Bonjour%2Dcompatible%20services.), querrás cambiar el nombre de tu dispositivo por algo genérico como "Mac".
 
 Haz clic en **Acerca de** y escribe el nombre del dispositivo que desees en el campo **Nombre**.
 
@@ -82,35 +82,35 @@ Deberías instalar automáticamente todas las actualizaciones disponibles para a
 
 Haz clic en el pequeño :material-information-outline: icono situado junto a **Actualizaciones Automáticas**:
 
-- [x] Turn on **Download new updates when available**
+- [x] Activa **Descargar las actualizaciones nuevas cuando estén disponibles**
 
-- [x] Turn on **Install macOS updates**
+- [x] Activa **Instalar actualizaciones de macOS**
 
-- [x] Turn on **Install Security Responses and system files**
+- [x] Activa **Instalar respuestas de seguridad y archivos del sistema**
 
-#### Apple Intelligence & Siri
+#### Apple Intelligence y Siri
 
-If you do not use these features on macOS, you should disable them:
+Si no utilizas estas funciones en macOS, deberías desactivarlas:
 
-- [ ] Turn off **Apple Intelligence**
+- [ ] Desactiva **Apple Intelligence**
 - [ ] Desactiva **Siri**
 
-**[Apple Intelligence](https://apple.com/legal/privacy/data/en/intelligence-engine)** is only available if your device supports it. Apple Intelligence uses a combination of on-device processing and their [Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute) for things that take more processing power than your device can provide.
+**[Apple Intelligence](https://apple.com/legal/privacy/data/en/intelligence-engine)** solo está disponible en dispositivos compatibles. Apple Intelligence utiliza una combinación de procesamiento en el dispositivo y su [Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute) para cosas que requieren más potencia de procesamiento de la que puede proporcionar tu dispositivo.
 
-To see a report of all the data sent via Apple Intelligence, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the either the last 15 minutes or 7 days, depending on what you set it for. Similar to the **App Privacy Report** which shows you the recent permissions accessed by the apps on your phone, the Apple Intelligence Report likewise shows what is being sent to Apple's servers while using Apple Intelligence.
+Para ver un informe de todos los datos enviados a través de Apple Intelligence, puedes ir a **Privacidad y seguridad** → **Informe de Apple Intelligence** y pulsar **Exportar actividad** para ver la actividad de los últimos 15 minutos o 7 días, dependiendo de tu configuración. De forma similar al **Informe de privacidad de las apps**, que muestra los permisos recientes a los que han accedido las aplicaciones de tu teléfono, el Informe de Apple Intelligence también muestra lo que se envía a los servidores de Apple mientras utilizas Apple Intelligence.
 
-By default, ChatGPT integration is disabled. If you don't want ChatGPT integration anymore, you can navigate to **ChatGPT**:
+Por defecto, la integración ChatGPT está desactivada. Si ya no quieres la integración con ChatGPT, puedes ir a **ChatGPT**:
 
-- [ ] Turn off **Use ChatGPT**
+- [ ] Desactiva **Usar ChatGPT**
 
-You can also have it ask for confirmation every time if you leave ChatGPT integration on:
+También puedes hacer que te solicite una confirmación cada vez que dejes activada la integración con ChatGPT:
 
 - [x] Turn on **Confirm Requests**
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Advertencia</p>
 
-Any request made with ChatGPT will be sent to ChatGPT's servers, there is no on-device processing and no PCC like with Apple Intelligence.
+Cualquier solicitud realizada con ChatGPT será enviada a los servidores de ChatGPT, no hay procesamiento en el dispositivo ni PCC como con Apple Intelligence.
 
 </div>
 
@@ -126,7 +126,7 @@ Puedes permitir individualmente los servicios de localización por aplicación. 
 
 ##### Análisis y Mejoras
 
-Decide whether you want to share analytics data with Apple and app developers.
+Decide si quieres compartir datos analíticos con Apple y los desarrolladores de aplicaciones.
 
 ##### Publicidad de Apple
 
@@ -150,7 +150,7 @@ En los ordenadores Mac basados en Intel más antiguos, FileVault es la única fo
 
 ### Aleatorización de direcciones Mac
 
-macOS uses a randomized MAC address when [performing Wi-Fi scans](https://support.apple.com/guide/security/privacy-features-connecting-wireless-networks-secb9cb3140c/web) while disconnected from a network.
+macOS utiliza una dirección MAC aleatoria cuando [realiza escaneos Wi-Fi](https://support.apple.com/guide/security/privacy-features-connecting-wireless-networks-secb9cb3140c/web) mientras está desconectado de una red.
 
 You can set your [MAC address to be randomized](https://support.apple.com/en-us/102509) per network and rotate occasionally to prevent tracking between networks and on the same network over time.
 
