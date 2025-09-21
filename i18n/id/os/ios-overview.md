@@ -165,7 +165,7 @@ With this setting enabled, someone could intentionally wipe your phone by enteri
 
 - [x] Turn on **Erase Data**
 
-#### Privacy & Security
+#### Privasi & Keamanan
 
 **Location Services** allows you to use features like Find My and Maps. If you don't need these features, you can disable Location Services. Alternatively, you can review and pick which apps can use your location here. Select **Location Services**:
 

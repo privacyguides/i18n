@@ -114,7 +114,7 @@ Any request made with ChatGPT will be sent to ChatGPT's servers, there is no on-
 
 </div>
 
-#### Privacy & Security
+#### Privasi & Keamanan
 
 Whenever an application requests a permission, it will show up here. You can decide which applications you want to allow or deny specific permissions.
 

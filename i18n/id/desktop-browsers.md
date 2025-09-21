@@ -61,7 +61,7 @@ schema:
 
 - [:material-account-cash: Kapitalisme Pengawasan](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Berikut ini adalah **peramban web desktop** yang kami rekomendasikan saat ini dan konfigurasi untuk penjelajahan standar/non-anonim. Kami merekomendasikan [Mullvad Browser](#mullvad-browser) jika Anda berfokus pada perlindungan privasi yang kuat dan anti-fingerprinting otomatis, [Firefox](#firefox) bagi para penjelajah internet biasa yang mencari alternatif yang baik untuk Google Chrome, dan [Brave](#brave) jika Anda membutuhkan kompabilitas browser Chromium.
+Berikut ini adalah **peramban web desktop** yang kami rekomendasikan saat ini dan konfigurasi untuk penjelajahan standar/non-anonim. Kami merekomendasikan [Mullvad Browser](#mullvad-browser) jika Anda berfokus pada perlindungan privasi yang kuat dan anti-fingerprinting otomatis, [Firefox](#firefox) bagi para penjelajah internet biasa yang mencari alternatif yang baik untuk Google Chrome, dan [Brave](#brave) jika Anda membutuhkan kompatibilitas peramban Chromium.
 
 Jika Anda perlu menjelajah internet secara anonim, Anda sebaiknya menggunakan [Tor](tor.md). Kami memberikan beberapa rekomendasi konfigurasi di halaman ini, tetapi semua browser selain Tor Browser akan dapat dilacak oleh * seseorang* dengan berbagai cara.
 
@@ -71,7 +71,7 @@ Jika Anda perlu menjelajah internet secara anonim, Anda sebaiknya menggunakan [T
 
 ![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad Browser** adalah versi dari [Tor Browser](tor.md#tor-browser) dengan integrasi jaringan Tor yang telah dihilangkan. Ini bertujuan untuk menyediakan teknolog peramban anti-fingerpinting Tor Browser kepada pengguna VPN, yang merupakan perlindungan utama terhadap [:material-eye-outline: Pengawasan Massal](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. VPN ini dikembangkan oleh Tor Project dan didistribusikan oleh [Mullvad](vpn.md#mullvad), dan **tidak** memerlukan penggunaan VPN Mullvad.
+**Mullvad Browser** adalah versi dari [Tor Browser](tor.md#tor-browser) dengan integrasi jaringan Tor yang telah dihilangkan. Ini bertujuan untuk menyediakan teknolog peramban anti-fingerprinting Tor Browser kepada pengguna VPN, yang merupakan perlindungan utama terhadap [:material-eye-outline: Pengawasan Massal](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. VPN ini dikembangkan oleh Tor Project dan didistribusikan oleh [Mullvad](vpn.md#mullvad), dan **tidak** memerlukan penggunaan VPN Mullvad.
 
 [:octicons-home-16: Halaman Utama](https://mullvad.net/en/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Kebijakan Privasi" }
@@ -89,11 +89,11 @@ Jika Anda perlu menjelajah internet secara anonim, Anda sebaiknya menggunakan [T
 
 </div>
 
-Seperti [Tor Browser](tor.md), Mullvad Browser dirancang untuk mencegah fingerprintng dengan membuat fingerprintng Anda identk dengan semua pengguna Mullvad Browser lainnya, dan ini mencakup pengaturan default dan ekstensi yang secara otomatis dikonfigurasi oleh tingkat keamanan default *Standar*, *Lebih Aman* dan *Paling Aman*.
+Seperti [Tor Browser](tor.md), Mullvad Browser dirancang untuk mencegah fingerprinting dengan membuat fingerprinting Anda identik dengan semua pengguna Mullvad Browser lainnya, dan ini mencakup pengaturan default dan ekstensi yang secara otomatis dikonfigurasi oleh tingkat keamanan default *Standar*, *Lebih Aman* dan *Paling Aman*.
 
-Oleh karena itu, sangat penting bagi Anda untuk tidak memodifikasi peramban sama sekali d luar penyesuaian [tingkat keamanan](https://tb-manual.torproject.org/security-settings) default. Saat menyesuaikan tingkat keamanan, Anda **harus** selalu memulai ulang peramban sebelum melanjutkan penggunaannya. Jika tidak, [pengaturan keamanan mungkin tidak sepenuhnya diterapkan](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), sehingga Anda berada pada resiko fingerprinting dan eksploitasi yang lebih tinggi daripada yang Anda harapkan berdasarkan pengaturan yang dipilih.
+Oleh karena itu, sangat penting bagi Anda untuk tidak memodifikasi peramban sama sekali di luar penyesuaian [tingkat keamanan](https://tb-manual.torproject.org/security-settings) default. Saat menyesuaikan tingkat keamanan, Anda **harus** selalu memulai ulang peramban sebelum melanjutkan penggunaannya. Jika tidak, [pengaturan keamanan mungkin tidak sepenuhnya diterapkan](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), sehingga Anda berada pada risiko fingerprinting dan eksploitasi yang lebih tinggi daripada yang Anda harapkan berdasarkan pengaturan yang dipilih.
 
-Modifications other than adjusting this setting would make your fingerprint unique, defeating the purpose of using this browser. Jika Anda ingin merubah pengaturan browser Anda dengan sesuai dengan keinginan Anda dan fingerprint bukan menjadi masalah bagi Anda, kami sarankan untuk menggunakan [Firefox](#firefox) sebagai gantinya.
+Modifikasi selain menyesuaikan pengaturan ini akan membuat fingerprint Anda menjadi unik, sehingga mengalahkan tujuan penggunaan browser ini. Jika Anda ingin mengonfigurasi peramban Anda dengan lebih banyak dan fingerprint bukan menjadi masalah bagi Anda, kami sarankan [Firefox](#firefox) sebagai gantinya.
 
 ### Anti-Fingerprinting
 
@@ -103,7 +103,7 @@ Modifications other than adjusting this setting would make your fingerprint uniq
 
 Perlu dicatat bahwa meskipun Anda dapat menggunakan Mullvad Browser dengan penyedia VPN mana pun, orang lain dalam VPN tersebut juga harus menggunakan Mullvad Browser agar "kerumunan" ini terbentuk, hal ini lebih mungkin terjadi pada Mullvad VPN dibandingkan dengan penyedia lainnya, terutama menjelang peluncuran Mullvad Browser. Mullvad Browser tidak memiliki konektivitas VPN bawaan, dan juga tidak memeriksa apakah Anda menggunakan VPN sebelum menjelajah; koneksi VPN Anda harus dikonfigurasikan dan dikelola secara terpisah.
 
-Mullvad Browser hadir dengan *uBlock Origin* dan *NoScript* ekstensi browser yang sudah terpasang. While we typically discourage adding *additional* [browser extensions](browser-extensions.md), these extensions that come pre-installed with the browser should **not** be removed or configured outside their default values, because doing so would noticeably make your browser fingerprint distinct from other Mullvad Browser users. Browser ini juga telah terpasang dengan Ekstensi Mullvad Browser, yang *dapat* dihapus dengan aman tanpa mempengaruhi sidik jari peramban Anda jika Anda menginginkannya, tetapi juga aman untuk tetap dipertahankan bahkan jika Anda tidak menggunakan Mullvad VPN.
+Mullvad Browser hadir dengan ekstensi peramban *uBlock Origin* dan *NoScript* yang sudah diinstal sebelumnya. Meskipun kami biasanya tidak menyarankan untuk *menambahkan* [ekstensi peramban](browser-extensions.md), ekstensi yang sudah terpasang dengan peramban ini **tidak boleh** dihapus atau dikonfigurasi di luar nilai defaultnya, karena hal itu akan membuat fingerprint Anda berbeda dengan pengguna Mullvad Browser lainnya. Browser ini juga telah terpasang dengan Ekstensi Mullvad Browser, yang *dapat* dihapus dengan aman tanpa mempengaruhi fingerprint peramban Anda jika Anda menginginkannya, tetapi juga aman untuk tetap dipertahankan bahkan jika Anda tidak menggunakan Mullvad VPN.
 
 ### Mode Penjelajahan Pribadi
 
@@ -113,9 +113,9 @@ Hal ini diperlukan untuk mencegah bentuk pelacakan tingkat lanjut, tetapi harus 
 
 ### Mullvad Leta
 
-Mullvad Browser comes with [**Mullvad Leta**](search-engines.md#mullvad-leta) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
+Mullvad Browser dilengkapi dengan [**Mullvad Leta**](search-engines.md#mullvad-leta) sebagai mesin pencari default, yang berfungsi sebagai proteksi untuk hasil pencarian Google atau Brave (dapat dikonfigurasi di beranda Mullvad Leta).
 
-If you are a Mullvad VPN user, there is some risk in using services like Mullvad Leta which are offered by your VPN provider themselves. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta); the latter is information a VPN is typically intended to separate. Even though Mullvad collects very little information about their VPN subscribers or Leta users, you should consider a different [search engine](search-engines.md) if this risk concerns you.
+Jika Anda adalah pengguna VPN Mullvad, ada beberapa risiko dalam menggunakan layanan seperti Mullvad Leta yang ditawarkan oleh penyedia VPN Anda sendiri. Ini karena Mullvad secara teoritis memiliki akses ke alamat IP Anda yang sebenarnya (melalui VPN mereka) dan aktifitas pencarian Anda (melalui Leta); yang terakhir ini adalah informasi yang biasanya dimaksudkan untuk dipisahkan oleh VPN. Meskipun mullvad mengumpulkan sangat sedikit informasi tentang pelanggan VPN mereka atau pengguna Leta, Anda sebaiknya mempertimbangkan [mesin pencari](search-engines.md) yang berbeda jika risiko ini menjadi perhatian Anda.
 
 ## Firefox
 
@@ -125,14 +125,14 @@ If you are a Mullvad VPN user, there is some risk in using services like Mullvad
 
 **Firefox** menyediakan pengaturan privasi yang kuat seperti [Perlindungan Pelacakan yang Ditingkatkan](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), yang dapat membantu memblokir berbagai [jenis pelacakan](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
 
-[:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title="Documentation" }
-[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="Contribute" }
+[:octicons-home-16: Halaman Utama](https://firefox.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Kebijakan Privasi" }
+[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title="Dokumentasi }
+[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Kode Sumber }
+[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="Kontribusi" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Unduh</summary>
 
 - [:fontawesome-brands-windows: Windows](https://mozilla.org/firefox/windows)
 - [:simple-apple: macOS](https://mozilla.org/firefox/mac)
@@ -144,38 +144,38 @@ If you are a Mullvad VPN user, there is some risk in using services like Mullvad
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Peringatan</p>
 
-Firefox includes a unique [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) in downloads from Mozilla's website and uses telemetry in Firefox to send the token. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+Firefox menyertakan [token unduhan](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) unik dalam unduhan dari situs web Mozilla dan menggunakan telemetry di Firefox untuk mengirimkan token tersebut. Token ini **tidak** disertakan dalam rilis dari [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
 </div>
 
-### Recommended Firefox Configuration
+### Konfigurasi Firefox yang Direkomendasikan
 
-These options can be found in :material-menu: → **Settings**.
+Opsi ini dapat ditemukan di :material-menu: → **Pengaturan**.
 
-#### Search
+#### Cari
 
-- [ ] Uncheck **Show search suggestions**
+- [ ] Hapus centang **Tampilkan saran pencarian**
 
-Search suggestion features may not be available in your region.
+Fitur saran pencarian mungkin tidak tersedia di wilayah Anda.
 
-Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+Saran pencarian mengirimkan semua yang Anda ketik di bilah alamat ke mesin pencarian default, terlepas dari apakah Anda mengirimkan pencarian yang sebenarnya. Dengan menonaktifkan saran pencarian, Anda dapat mengontrol data yang Anda kirimkan ke penyedia mesin pencari dengan lebih tepat.
 
-##### Firefox Suggest (US only)
+##### Firefox Suggest (hanya di AS)
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) adalah fitur yang mirip dengan saran pencarian yang hanya tersedia di AS. Kami sarankan untuk menonaktifkannya karena alasan yang sama dengan menonaktifkan saran pencarian. Jika Anda tidak melihat opsi-opsi ini di bawah tajuk **Address Bar**, Anda tidak memiliki "new experience" dan dapat mengabaikan perubahan ini.
 
-- [ ] Uncheck **Suggestions from Firefox**
-- [ ] Uncheck **Suggestions from sponsors**
+- [ ] Hapus centang **Suggestions from Firefox**
+- [ ] Hapus centang **Suggestions from sponsors**
 
-#### Privacy & Security
+#### Privasi & Keamanan
 
-##### Enhanced Tracking Protection
+##### Perlindungan Pelacakan yang Ditingkatkan
 
 - [x] Select **Strict** Enhanced Tracking Protection
 
-This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
+Ini melindungi Anda dengan memblokir pelacak media sosial, skrip fingerprinting (perhatikan bahwa ini tidak melindungi Anda dari *semua* fingerprinting), cryptominers, cross-site tracking cookies, dan beberapa konten pelacakan lainnya. ETP melindungi dari banyak ancaman umum, tetapi tidak memblokir semua jalan pelacakan karena dirancang untuk memiliki dampak minimal atau bahkan tidak berdampak pada kegunaan situs.
 
 ##### Sanitize on Close
 
@@ -187,18 +187,18 @@ This protects you from persistent cookies, but does not protect you against cook
 
 ##### Telemetry
 
-- [ ] Uncheck **Allow Firefox to send technical and interaction data to Mozilla**
-- [ ] Uncheck **Allow Firefox to install and run studies**
-- [ ] Uncheck **Allow Firefox to send backlogged crash reports on your behalf**
+- [ ] Hapus centang **Allow Firefox to send technical and interaction data to Mozilla**
+- [ ] Hapus centang **Allow Firefox to install and run studies**
+- [ ] Hapus centang **Allow Firefox to send backlogged crash reports on your behalf**
 
-According to Mozilla's privacy policy for Firefox,
+Menurut kebijakan privasi Mozilla untuk Firefox,
 
-> Firefox sends data about your Firefox version and language; device operating system and hardware configuration; memory, basic information about crashes and errors; outcome of automated processes like updates, safebrowsing, and activation to us. When Firefox sends data to us, your IP address is temporarily collected as part of our server logs.
+> Firefox sends data about your Firefox version and language; device operating system and hardware configuration; memory, basic information about crashes and errors; outcome of automated processes like updates, safebrowsing, and activation to us. Ketika Firefox mengrimkan data kepada kami, alamat IP Anda dikumpulkan untuk sementara sebagai bagian dari log server kami.
 
-Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt out:
+Selain itu, layanan Akun Mozilla mengumpulkan [beberapa data teknis](https://mozilla.org/privacy/mozilla-accounts). Jika Anda menggunakan Akun Mozilla, Anda dapat memilih untuk tidak ikut serta:
 
-1. Open your [profile settings on accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
-2. Uncheck **Data Collection and Use** > **Help improve Firefox Accounts**
+1. Buka [pengaturan profil Anda di accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
+2. Hapus centang pada **Data Collection and Use**>**Help improve Firefox Accounts**
 
 ##### Website Advertising Preferences
 
@@ -275,7 +275,7 @@ Brave menambahkan "[kode rujukan](https://github.com/brave/brave-browser/wiki/Br
 
 ### Recommended Brave Configuration
 
-These options can be found in :material-menu: → **Settings**.
+Opsi ini dapat ditemukan di :material-menu: → **Pengaturan**.
 
 #### Shields
 
@@ -347,7 +347,7 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
 
-- [ ] Uncheck **Show search suggestions**
+- [ ] Hapus centang **Tampilkan saran pencarian**
 
 #### System
 
