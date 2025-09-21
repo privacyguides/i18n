@@ -260,23 +260,23 @@ Tuta nabízí firemní verzi [Tuty pro neziskové organizace](https://tuta.com/b
 
 ### Technologie
 
-Tyto funkce považujeme za důležité pro to, aby byla služba bezpečná a optimální. You should consider whether the provider has the features you require.
+Tyto funkce považujeme za důležité pro to, aby byla služba bezpečná a optimální. Měli byste brát v potaz, jestli daný poskytovatel má funkce, které potřebujete.
 
-**Minimum to Qualify:**
+**Naprosté minimum:**
 
-- Must encrypt email account data at rest with zero-access encryption.
-- Must be capable of exporting emails as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
-- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
-- Must operate on owned infrastructure, i.e. not built upon third-party email service providers.
+- Musí šifrovat data e-mailového účtu v klidu zero-access šifrováním.
+- Musí být schopen exportovat e-maily jako [Mbox](https://en.wikipedia.org/wiki/Mbox) nebo jednotlivé .EML v normě [RFC5322](https://datatracker.ietf.org/doc/rfc5322).
+- Umožňovat uživatelům používat jejich vlastní [domény](https://en.wikipedia.org/wiki/Domain_name). Vlastní domény jsou pro uživatele důležité, protože jim umožňují zachovávat nezávislost na službě, ať už z důvodu jejího úpadku nebo převzetí jinou společností, která nepovažuje soukromí za prioritu.
+- Musí fungovat na vlastní infrastruktuře, tzn. že nesmí běžet na e-mailových službách třetích stran.
 
-**Best Case:**
+**Nejlepší případ:**
 
 - Should encrypt all account data (contacts, calendars, etc.) at rest with zero-access encryption.
 - Should provide integrated webmail E2EE/PGP encryption as a convenience.
 - Should support WKD to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key with this command: `gpg --locate-key example_user@example.com`.
 - Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
 - Should support [sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
-- Should allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
+- Should allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Vlastní domény jsou pro uživatele důležité, protože jim umožňují zachovávat nezávislost na službě, ať už z důvodu jejího úpadku nebo převzetí jinou společností, která nepovažuje soukromí za prioritu.
 - Catch-all or alias functionality for those who use their own domains.
 - Should use standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
 - Email provider's services should be available via an [onion service](https://en.wikipedia.org/wiki/.onion).
