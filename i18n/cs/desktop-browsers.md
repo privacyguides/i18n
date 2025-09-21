@@ -310,13 +310,13 @@ Brave vám umožňuje přidávat další filtry obsahu v rámci stránky `brave:
 
 <div class="annotate" markdown>
 
-- [x] Select **Don’t allow sites to use JavaScript optimization** under *Security* → *Manage JavaScript optimization & security* (1)
-- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
-- [x] Select **Disable non-proxied UDP** under [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [x] Select **Auto-redirect AMP pages**
-- [x] Select **Auto-redirect tracking URLs**
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- [x] V *Zabezpečení* → *Spravovat zabezpečení modulu V8* vyberte **Nepovolovat webům používat optimalizátor V8** (1)
+- [x] V *Nastavení webů a štítů* vyberte **Automaticky odebírat oprávnění nepoužívaným webům**
+- [x] V [*Pravidla WebRTC pro zacházení s IP*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc) vyberte **Deaktivujte službu UDP bez proxy**
+- [ ] Odškrtněte **Použít pro oznámení služby Google**
+- [x] Zaškrtněte **Automaticky přesměrovávat AMP stránky**
+- [x] Zaškrtněte **Automaticky přesměrovat sledovací adresy URL**
+- [x] Zaškrtněte **Zakázat stránkám, aby získávaly můj otisk prstu na základě mých jazykových preferencí**
 
 </div>
 

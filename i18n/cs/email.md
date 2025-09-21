@@ -256,11 +256,11 @@ Tuta nabízí firemní verzi [Tuty pro neziskové organizace](https://tuta.com/b
 
 ## Kritéria
 
-**Upozorňujeme, že nespolupracujeme s žádným z poskytovatelů, které doporučujeme.** Kromě [našich standardních kritérií](about/criteria.md) jsme vypracovali jasný seznam požadavků pro každého e-mailového poskytovatele, který by si přál být doporučený, včetně zavedení osvědčených postupů v odvětví, moderních technologií a dalších. We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
+**Upozorňujeme, že nespolupracujeme s žádným z poskytovatelů, které doporučujeme.** Kromě [našich standardních kritérií](about/criteria.md) jsme vypracovali jasný seznam požadavků pro každého e-mailového poskytovatele, který by si přál být doporučený, včetně zavedení osvědčených postupů v odvětví, moderních technologií a dalších. Doporučujeme, abyste se seznámili s tímto seznamem před tím, než se rozhodnete pro některého e-mailového poskytovatele, a také se sami přesvědčili, že daný e-mailový poskytovatel je správná volba pro vás.
 
-### Technology
+### Technologie
 
-We regard these features as important in order to provide a safe and optimal service. You should consider whether the provider has the features you require.
+Tyto funkce považujeme za důležité pro to, aby byla služba bezpečná a optimální. You should consider whether the provider has the features you require.
 
 **Minimum to Qualify:**
 
