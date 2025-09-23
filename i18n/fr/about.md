@@ -166,9 +166,9 @@ Notre personnel est rémunéré pour contribuer au contenu supplémentaire à Pr
 
 ## :material-check-decagram: Réseaux sociaux
 
-Nous avons pour politique générale d'éviter les liens vers des profils de réseaux sociaux centralisés et autres sites web qui échappent à notre contrôle. This means that in places like our website footer and other areas, we only link to platforms we fully control, such as our Mastodon and PeerTube accounts or Matrix channels.
+Nous avons pour politique générale d'éviter les liens vers des profils de réseaux sociaux centralisés et autres sites web qui échappent à notre contrôle. Cela signifie que dans les endroits tels que le pied de page de notre site web et d'autres zones, nous ne mettons que des liens avec des plateformes que nous contrôlons totalement, telles que nos comptes Mastodon et PeerTube ou les chaînes Matrix.
 
-However, Privacy Guides _does_ have social media accounts on a wide variety of platforms, in the hope of reaching new users who aren't yet familiar with our content. We try to make this a "one-way street" where those accounts link to privacyguides.org, and not the other way around. However, this creates some confusion about which accounts are actually run by the Privacy Guides team. Pour référence, nous dressons ici la liste de tous nos comptes :
+Cependant, Privacy Guides possède des comptes de réseaux sociaux sur une grande variété de plateformes, dans l'espoir d'atteindre de nouveaux utilisateurs qui ne sont pas encore familiarisés avec notre contenu. Nous essayons de faire en sorte qu'il s'agisse d'une "voie à sens unique" où ces comptes renvoient à privacyguides.org, et non l'inverse. Toutefois, cela crée une certaine confusion quant aux comptes qui sont réellement gérés par l'équipe Privacy Guides. Pour référence, nous dressons ici la liste de tous nos comptes :
 
 <div class="grid cards" markdown>
 
