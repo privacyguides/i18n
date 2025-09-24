@@ -189,7 +189,7 @@ Cependant, Privacy Guides possède des comptes de réseaux sociaux sur une grand
 
 </div>
 
-To reiterate, this is not an endorsement of any platform, and we generally discourage following us on most social media platforms.
+Pour rappel, il ne s'agit pas d'un soutien à une quelconque plateforme, et nous déconseillons généralement de nous suivre sur la plupart des plateformes de réseaux sociaux.
 
 ## :material-newspaper: Dans les médias
 
@@ -207,20 +207,20 @@ To reiterate, this is not an endorsement of any platform, and we generally disco
 
 Privacy Guides a été lancé en septembre 2021 dans le prolongement du projet éducatif open-source "PrivacyTools", aujourd'hui [disparu](about/privacytools.md). Nous avons reconnu l’importance de recommandations indépendantes, axées sur des critères, et de connaissances générales dans l’environnement de la protection de la vie privée. C'est pourquoi nous avions besoin de préserver le travail qui avait été créé par tant de contributeurs depuis 2015, et être sûr que ces informations aient une place stable sur le web indéfiniment.
 
-En 2022, nous avons achevé la transition de l'environnement de site web principal de Jekyll à MkDocs, en utilisant le logiciel de documentation `mkdocs-material`. This change made open-source contributions to our site significantly easier for outsiders, because instead of needing to know complicated syntax to write posts effectively, contributing is now as easy as writing a standard Markdown document.
+En 2022, nous avons achevé la transition de l'environnement de site web principal de Jekyll à MkDocs, en utilisant le logiciel de documentation `mkdocs-material`. Ce changement a rendu les contributions open source à notre site considérablement plus facile pour les personnes extérieures, parce qu'au lieu d'avoir besoin de connaître une syntaxe complexe pour écrire des messages efficacement, contribuer est maintenant aussi simple que d'écrire un document Markdown standard.
 
-We additionally launched our new discussion forum at [discuss.privacyguides.net](https://discuss.privacyguides.net) as a community platform to share ideas and ask questions about our mission. This augments our existing community on Matrix, and replaced our previous GitHub Discussions platform, decreasing our reliance on proprietary discussion platforms.
+Nous avons également lancé notre nouveau forum de discussion sur [discuss.privacyguides.net](https://discuss.privacyguides.net) comme plateforme communautaire pour partager des idées et poser des questions sur notre mission. Cela complète notre communauté existante sur Matrix et remplace notre précédente plate-forme de Discussions GitHub, réduisant ainsi notre dépendance aux plateformes de discussion propriétaires.
 
-In 2023, we launched international translations of our website in [French](https://www.privacyguides.org/fr), [Hebrew](https://www.privacyguides.org/he), [Dutch](https://www.privacyguides.org/nl), and more languages, made possible by our excellent translation team on [Crowdin](https://crowdin.com/project/privacyguides). We plan to continue carrying forward our mission of outreach and education, and finding ways to more clearly highlight the dangers of a lack of privacy awareness in the modern digital age, and the prevalence and harms of security breaches across the technology industry.
+En 2023, nous avons lancé des traductions internationales de notre site web en [français](https://www.privacyguides.org/fr), [hébreu](https://www.privacyguides.org/he), [néerlandais](https://www.privacyguides.org/nl), et dans d'autres langues, grâce à notre excellente équipe de traduction sur [Crowdin](https://crowdin.com/project/privacyguides). Nous avons l'intention de poursuivre notre mission de sensibilisation et d'éducation, et trouver des moyens de mieux mettre en évidence les dangers d'un manque de sensibilisation à la protection de la vie privée à l'ère numérique moderne, et la prévalence et les conséquences des failles de sécurité dans l'industrie de la technologie.
 
-## :material-license: Site License
+## :material-license: Licence de site
 
 <div class="admonition danger" markdown>
 
-The following is a human-readable summary of (and not a substitute for) the [license](https://github.com/privacyguides/privacyguides.org/blob/main/README.md#license).
+Ce qui suit est un résumé (et non pas une substitution) lisible par l'homme de la [licence] (https://github.com/privacyguides/privacyguides.org/blob/main/README.md#license).
 
 </div>
 
-:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-sa: Unless otherwise noted, the original content on this website is made available under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). This means that you are free to copy and redistribute the material in any medium or format for any purpose, even commercially; as long as you give appropriate credit to `Privacy Guides (www.privacyguides.org)` and share your work under the same license.
+:fontawesome-brands-creative-commons: :fontawesome-brands-creative-commons-by: :fontawesome-brands-creative-commons-sa: Sauf indication contraire, le contenu original de ce site web est mis à disposition sous la [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/blob/main/LICENSE). Cela signifie que vous êtes libre de copier et de redistribuer le matériel sur n'importe quel support ou dans n'importe quel format, à n'importe quelle fin, même commerciale, à condition de mentionner la source `Privacy Guides (www.privacyguides.org)` et de partager votre travail sous la même licence.
 
-You may comply with these terms in any reasonable manner, but not in any way that suggests Privacy Guides endorses you or your use.
+Vous pouvez vous conformer à ces conditions de toute manière raisonnable, mais pas d'une manière qui suggérerait que Privacy Guides vous approuvent ou approuvent votre utilisation.

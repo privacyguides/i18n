@@ -157,9 +157,9 @@ De nombreuses alternatives n'offrent pas encore ces mêmes contrôles d'autorisa
 
 De nombreuses distributions Linux de bureau (Fedora, openSUSE, etc.) sont livrées avec [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager) pour configurer les paramètres Ethernet et Wi-Fi.
 
-It is possible to randomize the [MAC address](https://en.wikipedia.org/wiki/MAC_address) when using NetworkManager. Cela permet de protéger un peu plus la vie privée sur les réseaux Wi-Fi, car il est plus difficile de suivre des appareils spécifiques sur le réseau auquel vous êtes connecté. Cela ne vous rend [**pas**](https://papers.mathyvanhoef.com/wisec2016.pdf) anonyme.
+Il est possible de rendre aléatoire l'[adresse MAC](https://en.wikipedia.org/wiki/MAC_address) lors de l'utilisation de NetworkManager. Cela permet de protéger un peu plus la vie privée sur les réseaux Wi-Fi, car il est plus difficile de suivre des appareils spécifiques sur le réseau auquel vous êtes connecté. Cela ne vous rend [**pas**](https://papers.mathyvanhoef.com/wisec2016.pdf) anonyme.
 
-In the terminal, create a new file `/etc/NetworkManager/conf.d/00-macrandomize.conf` and add the following to it:
+Dans le terminal, créez un nouveau fichier `/etc/NetworkManager/conf.d/00-macrandomize.` conf et ajoutez-y ce qui suit :
 
 
 
@@ -173,7 +173,7 @@ ethernet.cloned-mac-address=random
 ```
 
 
-Then, restart NetworkManager:
+Redémarrez ensuite NetworkManager:
 
 
 
@@ -182,7 +182,7 @@ systemctl restart NetworkManager
 ```
 
 
-Optionally, changing the connection parameter from `random` to `stable` will give you a random MAC address *per network*, but keep it stable for that network when you reconnect to it later. Using `random` will give you a random MAC address *per connection*. This may be desirable for networks with captive portals or where you have a static DHCP assignment, at the expense of making you more identifiable by a single network operator you connect to multiple times.
+Optionnellement, changer le paramètre de connexion de `aléatoirement` à `stable` vous donnera une adresse MAC aléatoire *par réseau*, mais la stabilité pour ce réseau lorsque vous vous reconnectez plus tard. L'utilisation de `random` vous donnera une adresse MAC aléatoire *par connexion*. Cela peut être souhaitable pour les réseaux avec des portails captifs ou lorsque vous avez une affectation DHCP statique, au détriment de l'identification par un seul opérateur de réseau auquel vous vous connectez plusieurs fois.
 
 Si vous utilisez [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components), vous devrez définir [`MACAddressPolicy=random`](https://freedesktop.org/software/systemd/man/systemd.link.html#MACAddressPolicy=) ce qui activera la [RFC 7844 (Profils d'anonymat pour les clients DHCP)](https://freedesktop.org/software/systemd/man/systemd.network.html#Anonymize=).
 
