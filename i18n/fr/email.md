@@ -34,12 +34,12 @@ En plus (ou à la place) d'un fournisseur de courrier électronique recommandé 
 
 ## Services compatibles avec OpenPGP
 
-Ces fournisseurs prennent en charge de manière native le cryptage/décryptage OpenPGP et la [norme WKD (Web Key Directory)](basics/email-security.md#what-is-the-web-key-directory-standard), ce qui permet d'obtenir des courriels cryptés de bout en bout, indépendamment du fournisseur. For example, a Proton Mail user could send an E2EE message to a Mailbox Mail user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
+Ces fournisseurs prennent en charge de manière native le cryptage/décryptage OpenPGP et la [norme WKD (Web Key Directory)](basics/email-security.md#what-is-the-web-key-directory-standard), ce qui permet d'obtenir des courriels cryptés de bout en bout, indépendamment du fournisseur. Par exemple, un utilisateur de Proton Mail peut envoyer un message E2EE à un utilisateur de Mailbox Mail, ou vous pouvez recevoir des notifications chiffrées par OpenPGP de la part de services internet qui le supportent.
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
-- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
+- ![logo Proton Mail](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
+- ![logo Mailbox Mail](assets/img/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
 
 </div>
 
@@ -127,9 +127,9 @@ L'offre [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) de 
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
+![logo Mailbox Mail](assets/img/email/mailbox-mail.svg){ align=right }
 
-**Mailbox Mail** is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Il est en activité depuis 2014. Mailbox Mail is based in Berlin, Germany.
+**Mailbox Mail** est un service de messagerie électronique sécurisé, sans publicité et alimenté par une énergie 100 % écologique. Il est en activité depuis 2014. Mailbox Mail est basé à Berlin, en Allemagne.
 
 Un compte commence avec 2 Go de stockage, qui peuvent être augmentés autant que nécessaire.
 

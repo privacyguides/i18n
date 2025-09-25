@@ -203,7 +203,7 @@ Si vous recherchez une **sécurité** supplémentaire, vous devez toujours vous 
 
     ---
 
-    Mailbox Mail is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Il est en activité depuis 2014. Mailbox Mail is based in Berlin, Germany. Un compte commence avec 2 Go de stockage, qui peuvent être augmentés autant que nécessaire.
+    Mailbox Mail is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Il est en activité depuis 2014. Mailbox Mail est basé à Berlin, en Allemagne. Un compte commence avec 2 Go de stockage, qui peuvent être augmentés autant que nécessaire.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#mailbox-mail)
 
