@@ -119,7 +119,7 @@ Esta es una lista de nuestros [miembros](https://donate.magicgrants.org/privacyg
 </p>
 
 <p spaces-before="0">
-  Nuestro programa de afiliación es totalmente nuevo, y seguimos explorando otras formas de compartir contigo una muestra de nuestro agradecimiento, manteniendo al mismo tiempo unos límites sostenibles y éticos. ¡Mantente atento!
+  Nuestro programa de membresía es completamente nuevo y aún estamos explorando otras formas de compartir con vosotros una muestra de agradecimiento, manteniendo al mismo tiempo unos límites sostenibles y éticos. ¡Mantente atento!
 </p>
 
 <h3 spaces-before="0">
