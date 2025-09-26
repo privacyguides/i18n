@@ -113,7 +113,7 @@ This last setting disables OneDrive on your system; make sure to change it to **
 
 - Turn off Push To Install service: **Enabled**
 
-#### Cari
+#### Search
 
 - Allow Cortana: **Disabled**
 - Don't search the web or display web results in Search: **Enabled**

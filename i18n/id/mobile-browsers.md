@@ -199,7 +199,7 @@ These options can be found in :material-menu: → **Settings** → **Leo**.
 
 These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
 
-- [ ] Hapus centang **Tampilkan saran pencarian**
+- [ ] Hapus centang **Show search suggestions**
 
 #### Brave Sync
 
@@ -244,7 +244,7 @@ These options can be found in :material-menu: → :gear: **Settings** → **Priv
 
 - [x] Select **Always use secure connections**
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+Hal ini mencegah Anda secara tidak sengaja tersambung ke situs web dalam HTTP teks biasa. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
 
 #### Adblock Plus settings
 
@@ -299,7 +299,7 @@ Under **Siri**:
 
 This prevents Siri from using content from Safari for Siri suggestions.
 
-#### Cari
+#### Search
 
 - [ ] Disable **Search Engine Suggestions**
 

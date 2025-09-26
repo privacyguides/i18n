@@ -154,9 +154,9 @@ Firefox menyertakan [token unduhan](https://bugzilla.mozilla.org/show_bug.cgi?id
 
 Opsi ini dapat ditemukan di :material-menu: → **Pengaturan**.
 
-#### Cari
+#### Search
 
-- [ ] Hapus centang **Tampilkan saran pencarian**
+- [ ] Hapus centang **Show search suggestions**
 
 Fitur saran pencarian mungkin tidak tersedia di wilayah Anda.
 
@@ -173,17 +173,17 @@ Saran pencarian mengirimkan semua yang Anda ketik di bilah alamat ke mesin penca
 
 ##### Perlindungan Pelacakan yang Ditingkatkan
 
-- [x] Select **Strict** Enhanced Tracking Protection
+- [x] Pilih **Strict** Enhanced Tracking Protection
 
 Ini melindungi Anda dengan memblokir pelacak media sosial, skrip fingerprinting (perhatikan bahwa ini tidak melindungi Anda dari *semua* fingerprinting), cryptominers, cross-site tracking cookies, dan beberapa konten pelacakan lainnya. ETP melindungi dari banyak ancaman umum, tetapi tidak memblokir semua jalan pelacakan karena dirancang untuk memiliki dampak minimal atau bahkan tidak berdampak pada kegunaan situs.
 
 ##### Sanitize on Close
 
-If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
+Jika Anda ingin tetap masuk ke situs tertentu, Anda dapat mengizinkan pengecualian di **Cookies and Site Data**→**Manage Exception...**
 
-- [x] Check **Delete cookies and site data when Firefox is closed**
+- [x] Centang **Delete cookies and site data when Firefox is closed**
 
-This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
+Ini melindungi Anda dari cookie yang persisten, tetapi tidak melindungi Anda dari cookie yang diperoleh selama satu sesi penjelajahan. Ketika ini diaktifkan, Anda dapat dengan mudah membersihkan cookie peramban Anda hanya dengan memulai ulang Firefox. Anda dapat mengatur pengecualian per situs, jika Anda ingin tetap masuk ke situs tertentu yang sering Anda kunjungi.
 
 ##### Telemetry
 
@@ -200,23 +200,23 @@ Selain itu, layanan Akun Mozilla mengumpulkan [beberapa data teknis](https://moz
 1. Buka [pengaturan profil Anda di accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Hapus centang pada **Data Collection and Use**>**Help improve Firefox Accounts**
 
-##### Website Advertising Preferences
+##### Preferensi Iklan Situs Web
 
-- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
+- [ ] Hapus centang **Allow websites to perform privacy-preserving ad measurement**
 
-With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
+Dengan rilis Firefox 128, pengaturan baru untuk [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) telah ditambahkan dan [diaktifkan secara default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA memungkinkan pengiklan untuk menggunakan browser web Anda untuk mengukur efektivitas kampanye web, alih-alih menggunakan pelacakan berbasis JavaScript tradisional. Kami menganggap perilaku ini berada di luar cakupan tanggung jawab agen pengguna, dan fakta bahwa fitur ini dinonaktifkan secara default di Arkenfox merupakan indikator tambahan untuk menonaktifkan fitur ini.
 
-##### HTTPS-Only Mode
+##### Mode HTTPS-Only
 
-- [x] Select **Enable HTTPS-Only Mode in all windows**
+- [x] Pilih **Enable HTTPS-Only Mode in all windows**
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+Hal ini mencegah Anda secara tidak sengaja tersambung ke situs web dalam HTTP teks biasa. Situs-situs tanpa HTTPS sudah jarang ditemukan saat ini, jadi hal ini seharusnya hanya berdampak kecil atau bahkan tidak berdampak sama sekali pada penjelajahan Anda sehari-hari.
 
 ##### DNS over HTTPS
 
-If you use a [DNS over HTTPS provider](dns.md):
+Jika Anda menggunakan [DNS over HTTPS provider](dns.md):
 
-- [x] Select **Max Protection** and choose a suitable provider
+- [x] Pilih **Max Protection** dan pilih penyedia yang sesuai
 
 Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
 
@@ -347,7 +347,7 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
 
-- [ ] Hapus centang **Tampilkan saran pencarian**
+- [ ] Hapus centang **Show search suggestions**
 
 #### System
 
