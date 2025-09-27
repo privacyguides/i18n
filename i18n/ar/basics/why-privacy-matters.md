@@ -1,67 +1,67 @@
 ---
-title: "Why Privacy Matters"
+title: "لمَ الخصوصية هامَّة"
 icon: 'material/shield-account'
-description: In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not.
+description: في الزمن المعاصر لاستغلال البيانات الرقمية، لم تكن خصوصيتك أكثر أهمية قَطْ. ومع ذلك، لا يزال يعتقد الكثيرون أنها قضية خاسرة بالفعل. إنها ليست كذلك.
 ---
 
-In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not. ==Your privacy is up for grabs==, and you need to care about it. Privacy is about power, and it is so important that this power ends up in the right hands.
+في الزمن المعاصر لاستغلال البيانات الرقمية، لم تكن خصوصيتك أكثر أهمية قَطْ. ومع ذلك، لا يزال يعتقد الكثيرون أنها قضية خاسرة بالفعل. إنها ليست كذلك. ==خصوصيتك على المحك==، وعليك الاهتمام بها. فالخصوصية متعلقة بالسُلطة، ولذلك فإنه لَأمر بالغ الأهمية أن تقع تلك السُلطة في الأيدي المناسبة.
 
-Privacy is ultimately about human information, and this is important because we know that human information confers power over human beings. If we care about our ability to be authentic, fulfilled, and free humans, we have to care about the rules that apply to information about us. So much of our modern society is structured around **information**. When you shop online, read the news, look something up, vote, seek directions, or really anything else, you are relying on information. If we live in an information society, our information matters, and therefore privacy matters.
+تتعلق الخصوصية في نهاية المطاف بالمعلومات البشرية، وهذا هامّ لأننا نعلم أن المعلومات البشرية تمنح البشر السُلطة. إن كنا نهتم لمقدرتنا على أن نكون ذوي أصالة، وراضين، وأناسًا أحرارًا، فيجب أن نهتم بالقواعد المنطبقة على المعلومات المتعلقة بنا. يتمحور قدر كبير من مجتمعنا المعاصر حول **المعلومات**. حينما تتسوق عبر اﻹنترنت، أو تقرأ الأخبار، أو تبحث عن شيء ما، أو تبحث عن الاتجاهات، أو فعليًا أي أمر آخر فإنك تعتمد على المعلومات. فإذا كنَّا نعيش في مجتمع معلوماتي، فإن معلوماتنا هامَّة، أي أنَّ الخصوصية هامَّة.
 
-## What is Privacy?
+## ما هي الخصوصية؟
 
-Many people get the concepts of **privacy**, **security**, and **anonymity** confused. You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
+يخلط الكثيرون بين مفاهيم ** الخصوصية**، و**الأمن**، و**إخفاء الهُوية**. سترى الناس ينتقدون مُختلَف المنتجات لكونها "ليست خاصَّة" في حين أنهم فعليًا يقصدون أنها لا توفر إخفاء الهُوية. فعلى سبيل المثال. على هذا الموقع، نغطي جميع تلك المواضيع الثلاثة، ولكن من المهم أن تفهم الفرق بينها، ومتى تنطبق كل منها.
 
-[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security ""){.md-button}
-
-<!-- markdownlint-disable-next-line -->
-**Privacy**
-:
-
-==Privacy is the assurance that your data is only seen by the parties you intend to view it.== In the context of an instant messenger, for example, end-to-end encryption provides privacy by keeping your message visible only to yourself and the recipient.
+[:material-movie-open-play-outline:مقطع فيديو: كفَّ عن الخلط بين الخصوصية، وإخفاء الهُوية، والأمن](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security ""){.md-button}
 
 <!-- markdownlint-disable-next-line -->
-**Security**
+**الخصوصية**
 :
 
-Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
-:
-
-Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
+==الخصوصية هي ضمان أن بياناتك غير مرئية إلا للأطراف التي تنوي عرضها لهم.== في سياق المراسلة الفورية، مثلًا، يوفر التشفير بين الطرفين الخصوصية عن طريق إبقاء رسالتك مرئية فقط لك وللمستلم.
 
 <!-- markdownlint-disable-next-line -->
-**Anonymity**
+**الأمن**
 :
 
-Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+الأمن هو القدرة على الوثوق بالتطبيقات التي تستخدمها -أي أنَّ الأطراف المعنية هم حقًا من يدّعون- والحفاظ على سلامة تلك التطبيقات. وفي سياق تصفح الويب، مثلًا، يمكن توفير الأمن بواسطة شهادات HTTPS.
 :
 
-**Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
+تثبت الشهادات أنك تتواصل مباشرةً مع الموقع الذي تزوره، وتمنع المعتدين من قراءة أو تعديل البيانات المرسلة مِن أو إلى الموقع.
 
-All of these concepts overlap, but it is possible to have any combination of these. The sweet spot for most people is when all three of these concepts overlap. However, it's trickier to achieve than many initially believe. Sometimes, you have to compromise on some of these, and that's okay too. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../tools.md) you use.
+<!-- markdownlint-disable-next-line -->
+**إخفاء الهُوية**
+:
 
-[:material-book-outline: Learn More About Threat Modeling](threat-modeling.md ""){.md-button}
+إخفاء الهُوية هو القدرة على التصرف دون مُعرِّف ثابت. يمكنك تحقيق ذلك على الإنترنت بواسطة [تور](../tor.md) الذي يسمح لك بتصفح الإنترنت بعنوان IP عشوائي واتصال بالشبكة بدلًا من اتصالك الخاص.
+:
 
-## Privacy vs. Secrecy
+**الهُوية الزائفة** هي مفهوم مشابه، ولكنها تسمح لك بالحصول على معرِّف ثابت دون أن يرتبط بهويتك الحقيقية. إذا كان يعرفك الجميع باسم `GamerGuy12@` ولكن لا أحد يعرف اسمك الحقيقي، فتلك هُويتك الزائفة.
 
-A common counter-argument to pro-privacy movements is the notion that one doesn't need privacy if they have **"nothing to hide."** This is a dangerous misconception, because it creates a sense that people who demand privacy must be deviant, criminal, or wrong.
+تتداخل جميع هذه المفاهيم، ولكن يمكن الجمع بينها بشتى الطرق. فالنقطة المُثلَى لمعظم الناس هي حينما تتداخل المفاهيم الثلاثة جميعًا. ولكنَّ تحقيقها أكثر تعقيدًا مما يعتقد الكثيرون في البداية. فأحيانًا يجب التنازل عن بعضها، ولا بأس بذلك أيضًا. وهنا يأتي دور **نمذجة التهديدات**، مما يسمح لك باتخاذ قرارات مدروسة بشأن [البرمجيات والخدمات](../tools.md) التي تستخدمها.
 
-==You shouldn't confuse privacy with secrecy.== We know what happens in the bathroom, but you still close the door. ليس لأنك تخفي شيئا، بل لأنك ببساطة تطالب بحقك في الخصوصية. There are always certain facts about us—say, personal health information, or sexual behavior—that we wouldn't want the whole world to know, and that's okay. The need for privacy is legitimate, and that's what makes us human. Privacy is about empowering your rights over your own information, not about hiding secrets.
+[:material-book-outline: اعرف المزيد عن نمذجة التهديدات](threat-modeling.md ""){.md-button}
 
-## Is Privacy About Control?
+## الخصوصية مقابل السِّرِّيَّة
 
-A common definition of privacy is that it is the ability to *control* who has access to your data. This is an easy trap to fall into, in fact it is the definition of privacy we operated this website on for a long time. It sounds nice, and it appeals to many people, but in practice it just doesn't work.
+إن أحد الحجج الشائعة المضادة للحركات المؤيدة للخصوصية هي فكرة أن المرء ليس بحاجة إلى الخصوصية إن لم يكن لديه **"ما يخفيه".** إن ذلك سوء فهم خطير، لأنه يخلق شعورًا بأن المطالبين بالخصوصية لا بد أن يكونوا منحرفين، أو مجرمين، أو مخطئين.
 
-Take cookie consent forms, for example. You may encounter these dozens of times per day on the various websites you visit, with a nice array of checkboxes and sliders which allow you to "curate" your preferences to exactly fit your needs. In the end, we just hit the "I Agree" button, because we just want to read the article or make a purchase. Nobody wants to complete a personal privacy audit on every single website they visit. This is an exercise in [choice architecture](https://en.wikipedia.org/wiki/Choice_architecture), designed to make you take the easy route out instead of delving into a maze of configuration options that don't need to exist in the first place.
+==لا ينبغي لك أن تخلط بين الخصوصية والسِّرِّيَّة.== إننا نعرف ما يحدث في الحمَّام، ولكنك لا تزال تغلق الباب. وهذا ﻷنك تريد الخصوصية وليس السِّرِّيَّة. ليس لأنك تخفي شيئا، بل لأنك ببساطة تطالب بحقك في الخصوصية. هنالك دومًا حقائق معينة عنّا -مثلًا، المعلومات الصحية الشخصية، والسلوك الجنسي- لا نريد أن يعرفها العالَم أجمع، ولا بأس بذلك. إن الحاجة إلى الخصوصية أمر مشروع، وهذا ما يجعلنا بَشرًا. تتعلق الخصوصية بتمكين حقوقك في معلوماتك الشخصية، وليس بإخفاء الأسرار.
 
-==Control over your privacy inside most apps is an illusion.== It's a shiny dashboard with all sorts of choices you can make about your data, but rarely the choices you're looking for, like "only use my data to help me." This type of control is meant to make you feel guilty about your choices, that you "had the choice" to make the apps you use more private, and you chose not to.
+## هل تتعلق الخصوصية بالتحكم؟
 
-Privacy is something we need to have baked into the [software and services](../tools.md) we use by default, you can't bend most apps into being private on your own.
+إن أحد التعريفات الشائعة للخصوصية هو أنها القدرة على *التحكم* في من لديه وصول إلى بياناتك. إن هذا فخ يسهل الوقوع فيه. في الواقع، إنه التعريف الذي اعتمدناه على هذا الموقع لوقت طويل. إنه يبدو جيدًا، ويروق للكثير من الناس، ولكنه عمليًا غير مُجْدٍ.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
+خذ على سبيل المثال، استمارات الموافقة على ملفات تعريف الارتباط. قد تصادفها عشرات المرات يوميًا على مُختلَف المواقع التي تزورها، مع مجموعة لطيفة من خانات الاختيار وأشرطة التمرير التي تتيح لك "تنظيم" تفضيلاتك لتناسب احتياجاتك تمامًا. في النهاية، نضغط زر "أوافق" فحسب، لأننا نريد فقط قراءة المقال أو القيام بعملية شراء. فلا يريد أحد إكمال تدقيق خصوصية على كل موقع يزوره. هذا تمرين على [هيكلة الاختيارات](https://en.wikipedia.org/wiki/Choice_architecture)، مصمم لجعلك تأخذ المسار السهل بدلًا من الخوض في متاهة من خيارات الضبط لا حاجة لوجودها في المقام الأول.
 
-## Sources
+==التحكم في الخصوصية داخل معظم التطبيقات هو وهم.== إنها لوحة تحكم برّاقة تحوي كل أنواع الاختيارات التي يمكنك اتخاذها بشأن بياناتك، ولكن نادرًا ما تكون الخيارات التي تبحث عنها، مثل "استخدم بياناتي لمساعدتي فقط". يهدف هذا النوع من التحكم إلى جعلك تشعر بالذنب حيال اختياراتك، وأنَّه قد "كان لك الاختيار" لجعل التطبيق الذي تستخدمه أكثر خصوصية، وأنت اخترت ألّا تفعل.
+
+الخصوصية هي أمر نحتاجه جزءًا لا يتجزأ من [البرمجيات والخدمات](../tools.md) التي نستخدمها بشكل افتراضي، فلا يمكنك تشكيل معظم التطبيقات بحيث تصبح خاصَّة بنفسك.
+
+[:material-movie-open-play-outline: مقطع فيديو : 5 خطوات لتحسين خصوصيتك](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
+
+## المصادر
 
 - [Why Privacy Matters](https://amazon.com/dp/0190939044) (2021) by Neil Richards
 - [The New Oil: Why Privacy & Security Matter](https://thenewoil.org/en/guides/prologue/why)
-- [@Thorin-Oakenpants on Anonymity vs Privacy vs Security](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452)
+- [Thorin-Oakenpants on Anonymity vs Privacy vs Security@](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452)
