@@ -79,7 +79,7 @@ Jika Anda perlu menjelajah internet secara anonim, Anda sebaiknya menggunakan [T
 [:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Kode Sumber" }
 
 <details class="downloads" markdown>
-<summary>Unduh</summary>
+<summary>Unduhan</summary>
 
 - [:fontawesome-brands-windows: Windows](https://mullvad.net/en/download/browser/windows)
 - [:simple-apple: macOS](https://mullvad.net/en/download/browser/macos)
@@ -132,7 +132,7 @@ Jika Anda adalah pengguna VPN Mullvad, ada beberapa risiko dalam menggunakan lay
 [:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="Kontribusi" }
 
 <details class="downloads" markdown>
-<summary>Unduh</summary>
+<summary>Unduhan</summary>
 
 - [:fontawesome-brands-windows: Windows](https://mozilla.org/firefox/windows)
 - [:simple-apple: macOS](https://mozilla.org/firefox/mac)
@@ -273,64 +273,64 @@ Brave menambahkan "[kode rujukan](https://github.com/brave/brave-browser/wiki/Br
 
 </div>
 
-### Recommended Brave Configuration
+### Konfigurasi Brave yang Direkomendasikan
 
 Opsi ini dapat ditemukan di :material-menu: → **Pengaturan**.
 
 #### Shields
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+Brave menyertakan beberapa langkah anti-fingerprinting dalam fitur [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Kami menyarankan untuk mengonfigurasi opsi-opsi ini [secara global](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) di semua halaman yang Anda kunjungi.
 
-Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
+Opsi Shields dapat diturunkan pada basis per situs sesuai kebutuhan, tetapi secara default kami sarankan untuk mengatur yang berikut ini:
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under *Trackers & ads blocking*
+- [x] Pilih **Aggressive** di bawah "Trackers & and blocking"
 
 <details class="warning" markdown>
-<summary>Use default filter lists</summary>
+<summary>Gunakan daftar filter default</summary>
 
-Brave allows you to select additional content filters within the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+Brave memungkinkan Anda untuk memilih filter konten tambahan di dalam halaman `brave://adblock` internal. Kami menyarankan agar Anda tidak menggunakan fitur ini; sebagai gantinya, pertahankan daftar filter default. Menggunakan daftar tambahan akan membuat Anda terlihat berbeda dari pengguna Brave lainnya dan juga dapat meningkatkan permukaan serangan jika ada eksploitasi di Brave dan aturan berbahaya ditambahkan ke salah satu daftar yang Anda gunakan.
 
 </details>
 
-- [x] Select **Strict** under *Upgrade connections to HTTPS*
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Check **Block fingerprinting**
-- [x] Select **Block third-party cookies**
-- [x] Check **Forget me when I close this site** (2)
-- [ ] Uncheck all social media components
+- [x] Pilih **Strict** di bawah *Upgrade connections to HTTPS*
+- [x] (Opsional) Pilih **Block Scripts** (1)
+- [x] Centang **Block fingerprinting**
+- [x] Pilih **Block third-party cookies**
+- [x] Centang **Forget me when I close this site** (2)
+- [ ] Hapus centang pada semua komponen media sosial
 
 </div>
 
-1. This option disables JavaScript, which will break a lot of sites. To fix them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
-2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+1. Opsi ini menonaktifkan JavaScript, yang akan merusak banyak situs. Untuk memperbaikinya, Anda dapat mengatur pengecualian per situs dengan mengklik ikon perisai pada bilah alamat dan menghapus centang pada pengaturan ini di bawah *Advance controls*.
+2. Jika Anda ingin tetap masuk ke situs tertentu yang sering Anda kunjungi, Anda dapat mengatur pengecualian per situs dengan mengklik ikon perisai di bilah alamat dan mengahapus centang pada pengaturan ini dibawah *Advanced controls*.
 
 #### Privacy and security
 
 <div class="annotate" markdown>
 
-- [x] Select **Don’t allow sites to use JavaScript optimization** under *Security* → *Manage JavaScript optimization & security* (1)
-- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
-- [x] Select **Disable non-proxied UDP** under [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [x] Select **Auto-redirect AMP pages**
-- [x] Select **Auto-redirect tracking URLs**
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- [x] Pilih **Don’t allow sites to use JavaScript optimization** di bawah *Security* → *Manage JavaScript optimization & security* (1)
+- [x] Pilih **Automatically remove permissions from unused sites** di bawah *Sites and Shields Settings*
+- [x] Pilih **Disable non-proxied UDP** di bawah [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [ ] Hapus centang **Use Google services for push messaging**
+- [x] Pilih **Auto-redirect AMP pages**
+- [x] Pilih **Auto-redirect tracking URLs**
+- [x] Pilih **Prevent sites from fingerprinting me based on my language preferences**
 
 </div>
 
-1. Disabling the V8 optimizer reduces your attack surface by disabling [*some*](https://grapheneos.social/@GrapheneOS/112708049232710156) parts of JavaScript Just-In-Time (JIT) compilation.
+1. Menonaktifkan pengoptimal V8 mengurangi permukaan serangan Anda dengan menonaktifkan [*beberapa*](https://grapheneos.social/@GrapheneOS/112708049232710156) bagian dari kompilasi JavaScript Just-In-Time (JIT).
 
-##### Tor windows
+##### Tow windows
 
-[**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser is, and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
+[**Private window dengan Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) memungkinkan Anda untuk merutekan lalu lintas Anda melalui jaringan Tor di Private Windows dan mengakses layanan .onion, yang mungkin berguna dalam beberapa kasus. Namun, Brave **tidak** tahan terhadap fingerprinting seperti halnya Tor Browser, dan jauh lebih sedikit orang yang menggunakan Brave dengan Tor, jadi Anda akan lebih menonjol. Jika model ancaman Anda membutuhkan anonimitas yang kuat, gunakan [Tor Browser](tor.md#tor-browser).
 
 ##### Data Collection
 
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Hapus centang **Allow privacy-preserving product analytics (P3A)**
+- [ ] Hapus centang **Automatically send daily usage ping to Brave**
+- [ ] Hapus centang **Automatically send diagnostic reports**
 
 #### Web3
 

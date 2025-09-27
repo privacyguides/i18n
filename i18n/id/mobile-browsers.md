@@ -84,7 +84,7 @@ Brave dibuat berdasarkan proyek peramban web Chromium, sehingga seharusnya teras
 
 </div>
 
-### Recommended Brave Configuration
+### Konfigurasi Brave yang Direkomendasikan
 
 Tor Browser is the only way to truly browse the internet anonymously. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
 
@@ -98,7 +98,7 @@ Tor Browser is the only way to truly browse the internet anonymously. When you u
 
 #### Brave shields global defaults
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+Brave menyertakan beberapa langkah anti-fingerprinting dalam fitur [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Kami menyarankan untuk mengonfigurasi opsi-opsi ini [secara global](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) di semua halaman yang Anda kunjungi.
 
 Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
 
@@ -126,7 +126,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Opsi ini menonaktifkan JavaScript, yang akan merusak banyak situs. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 === "iOS"
 
@@ -149,7 +149,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Opsi ini menonaktifkan JavaScript, yang akan merusak banyak situs. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 ##### Clear browsing data (Android only)
 
@@ -170,9 +170,9 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     - [ ] Uncheck **Allow sites to check if you have payment methods saved**
     - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
     - [x] Select **Close tabs on exit**
-    - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-    - [ ] Uncheck **Automatically send diagnostic reports**
-    - [ ] Uncheck **Automatically send daily usage ping to Brave**
+    - [ ] Hapus centang **Allow privacy-preserving product analytics (P3A)**
+    - [ ] Hapus centang **Automatically send diagnostic reports**
+    - [ ] Hapus centang **Automatically send daily usage ping to Brave**
 
     </div>
 
@@ -181,7 +181,7 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 === "iOS"
 
     - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
-    - [ ] Uncheck **Automatically send daily usage ping to Brave**
+    - [ ] Hapus centang **Automatically send daily usage ping to Brave**
 
 #### Leo
 
