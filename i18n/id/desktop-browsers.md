@@ -193,7 +193,7 @@ Ini melindungi Anda dari cookie yang persisten, tetapi tidak melindungi Anda dar
 
 Menurut kebijakan privasi Mozilla untuk Firefox,
 
-> Firefox sends data about your Firefox version and language; device operating system and hardware configuration; memory, basic information about crashes and errors; outcome of automated processes like updates, safebrowsing, and activation to us. Ketika Firefox mengrimkan data kepada kami, alamat IP Anda dikumpulkan untuk sementara sebagai bagian dari log server kami.
+> Firefox mengrimkan data tentang versi dan bahas Firefox Anda; sistem operasi perangkat dan konfigurasi perangkat keras; memori, informasi dasar tentang kerusakan dan kesalahan; hasil dari proses otomatis seperti pembaruan, penelusuran aman, dan aktivasi kepada kami. Ketika Firefox mengrimkan data kepada kami, alamat IP Anda dikumpulkan untuk sementara sebagai bagian dari log server kami.
 
 Selain itu, layanan Akun Mozilla mengumpulkan [beberapa data teknis](https://mozilla.org/privacy/mozilla-accounts). Jika Anda menggunakan Akun Mozilla, Anda dapat memilih untuk tidak ikut serta:
 
@@ -218,24 +218,24 @@ Jika Anda menggunakan [DNS over HTTPS provider](dns.md):
 
 - [x] Pilih **Max Protection** dan pilih penyedia yang sesuai
 
-Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
+Max Protection memberlakukan penggunaan DNS over HTTPS, dan peringatan keamanan akan muncul jika Firefox tidak dapat tersambung ke secure DNS resolver Anda, atau jika secure DNS resolver Anda mengatakan bahwa catatan untuk domain yang Anda coba akses tidak ada. Ini akan menghentikan jaringan yang Anda sambungkan untuk secara diam-diam menurunkan keamanan DNS anda.
 
 #### Sync
 
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
+[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) memungkinkan data penjelajahan Anda (riwayat, penanda, dll.) dapat diakses di semua perangkat dan melindunginya dengan E2EE.
 
-### Arkenfox (advanced)
+### Arkenfox (lanjutan)
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Use Mullvad Browser for advanced anti-fingerprinting</p>
+<p class="admonition-title">Gunakan Mullvad Browser untuk anti-fingerprinting tingkat lanjut</p>
 
-[Mullvad Browser](#mullvad-browser) provides the same anti-fingerprinting protections as Arkenfox out of the box, and does not require the use of Mullvad's VPN to benefit from these protections. Coupled with a VPN, Mullvad Browser can thwart more advanced tracking scripts which Arkenfox cannot. Arkenfox still has the advantage of being much more flexible, and allowing per-site exceptions for websites which you need to stay logged in to.
+[Mullvad Browser](#mullvad-browser) menyediakan proteksi anti-fingerprinting yang sama dengan Arkenfox, dan tidak memerlukan penggunaan Mullvad VPN untuk mendapatkan manfaat dari proteksi ini. Ditambah dengan VPN, Mullvad Browser bisa menggagalkan skrip pelacakan yang lebih canggih yang tidak bisa dilakukan oleh Arkenfox. Arkenfox masih memiliki keunggulan karena jauh lebih fleksibel, dan mengizinkan pengecualian per situs untuk situs web yang harus Anda masuki.
 
 </div>
 
-The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
+[Proyek Arkenfox](https://github.com/arkenfox/user.js) menyediakan seperangkat opsi yang dipertimbangkan dengan cermat untuk Firefox. Jika Anda [memutuskan](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) untuk menggunakan Arkenfox, [beberapa opsi](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) secara subyektif sangat ketat dan/atau dapat menyebabkan beberapa situs web tidak berfungsi dengan baik—yang dapat Anda [ubah dengan mudah](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) untuk memenuhi kebutuhan Anda. Kami **sangat menyarankan untuk** membaca [wiki](https://github.com/arkenfox/user.js/wiki) lengkap mereka. Arkenfox juga memungkinkan dukungan [kontainer](https://support.mozilla.org/kb/containers#w_for-advanced-users).
 
-Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
+Arkenfox hanya bertujuan untuk menggagalkan skrip pelacakan dasar atau naif melalui pengacakan kanvas dan pengaturan konfigurasi resistensi fingerprint bawaan Firefox. Browser ini tidak bertujuan untuk membuat browser Anda berbaur dengan kerumunan besar pengguna Arkenfox lainnya dengan cara yang sama seperti yang dilakukan oleh Mullvad Browser atau Tor Browser, yang merupakan satu-satunya cara untuk menggagalkan skrip pelacakan fingerprint tingkat lanjut. Ingatlah bahwa Anda selalu dapat menggunakan beberapa browser, misalnya, Anda dapat mempertimbangkan untuk menggunakan Firefox-Arkenfox untuk beberapa situs yang Anda ingin tetap masuk atau percayai, dan Mullvad Browser untuk penjelajahan umum.
 
 ## Brave
 
@@ -243,18 +243,18 @@ Arkenfox only aims to thwart basic or naive tracking scripts through canvas rand
 
 ![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
-**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
+**Brave Browser** menyertakan pemblokir konten bawaan dan [fitur privasi](https://brave.com/privacy-features), yang sebagian besar diaktifkan secara default.
 
 Brave dibuat berdasarkan proyek peramban web Chromium, sehingga seharusnya terasa familier dan memiliki masalah kompatibilitas situs web yang minimal.
 
-[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
+[:octicons-home-16: Halaman Utama](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Kebijakan Privasi" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title="Dokumentasi" }
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Kode Sumber" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Unduhan</summary>
 
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
 - [:fontawesome-brands-windows: Windows](https://brave.com/download)

@@ -62,15 +62,15 @@ These are our currently recommended **mobile web browsers** and configurations f
 
 ![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
-**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
+**Brave Browser** menyertakan pemblokir konten bawaan dan [fitur privasi](https://brave.com/privacy-features), yang sebagian besar diaktifkan secara default.
 
 Brave dibuat berdasarkan proyek peramban web Chromium, sehingga seharusnya terasa familier dan memiliki masalah kompatibilitas situs web yang minimal.
 
-[:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
+[:octicons-home-16: Halaman Utama](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Kebijakan Privasi" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title="Dokumentasi" }
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Kode Sumber" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
