@@ -334,30 +334,30 @@ Brave memungkinkan Anda untuk memilih filter konten tambahan di dalam halaman `b
 
 #### Web3
 
-Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of these features, they should be disabled.
+Fitur Web3 Brave berpotensi manambah fingerprinting browser Anda dan permukaan serangan. Kecuali jika Anda menggunakan salah satu fitur ini, fitur-fitur tersebut harus dinonaktifkan.
 
-- Select **Extensions (no fallback)** under *Default Ethereum wallet*
-- Select **Extensions (no fallback)** under *Default Solana wallet*
+- Pilih **Extensions (no fallback)** di bawah *Default Ethereum wallet*
+- Pilih **Extensions (no fallback)** di bawah *Default Solana wallet*
 
-#### Extensions
+#### Ekstensi
 
-- [ ] Uncheck all built-in extensions you don't use
+- [ ] Hapus centang semua ekstensi bawaan yang tidak Anda gunakan
 
-#### Search engine
+#### Mesin pencari
 
-We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
+Kami menyarankan untuk menonaktifkan saran pencarian di Brave untuk alasan yang sama dengan menonaktifkan fitur ini di [Firefox](#search).
 
 - [ ] Hapus centang **Show search suggestions**
 
-#### System
+#### Sistem
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Continue running background apps when Brave is closed** to disable background apps (1)
+- [ ] Hapus centang **Continue running background apps when Brave is closed** untuk menonaktifkan aplikasi latar belakang (1)
 
 </div>
 
-1. This option is not present on all platforms.
+1. Opsi ini tidak ada pada semua platform.
 
 #### Brave Sync
 
