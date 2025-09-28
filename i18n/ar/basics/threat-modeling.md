@@ -1,65 +1,65 @@
 ---
-meta_title: "Threat Modeling: The First Step on Your Privacy Journey - Privacy Guides"
-title: "نمذَجَةُ التَّهديد"
+meta_title: "نمذَجَةُ التَّهديدات: الخطوة الأولى في رحلتك نحو الخصوصية"
+title: "نمذَجَة التَّهديدات"
 icon: 'المادة/الحساب-المستهدف'
-description: Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey.
+description: إنَّ الموازنة بين الأمن، والخصوصية، وسهولة الاستخدام هي إحدى أوّل وأصعب المهام التي سوف تواجهها في رحلتك نحو الخصوصية.
 ---
 
-Balancing security, privacy, and usability is one of the first and most difficult tasks you'll face on your privacy journey. Everything is a trade-off: The more secure something is, the more restricting or inconvenient it generally is, etc. Often, people find that the problem with the tools they see recommended is that they're just too hard to start using!
+إنَّ الموازنة بين الأمن، والخصوصية، وقابليّة الاستخدام هي إحدى أوّل وأصعب المهام التي سوف تواجهها في رحلتك نحو الخصوصية. كل شيء هو مقايضة: كلّما كان الشيء أكثر أمانًا، كلّما كان أكثر تقييدًا أو إزعاجًا بوجهٍ عام، إلخ. فغالبًا، يجد الناس أن المشكلة في الأدوات التي يَرَوْنَهَا موصًى بها أنه يصعب للغاية البَدء في استخدامها!
 
-If you wanted to use the **most** secure tools available, you'd have to sacrifice *a lot* of usability. And, even then, ==nothing is ever fully secure.== There's **high** security, but never **full** security. That's why threat models are important.
+فإذا أردت استخدام **أكثر** الأدوات المتوفرة أمانًا، فسيتعين عليك التضحية *بالكثير* من سهولة الاستخدام. وحتى عندئذٍ، ==فلا يوجد شيء آمِن تمامًا.== فهناك أمان **عالٍ**، ولكن لا يوجد أمان **كامل** قَط. ولهذا فإنّ نماذج التهديدات هامّة.
 
-**So, what are these threat models, anyway?**
+**إذن، ما نماذج التهديدات تلك بأيّ حال؟**
 
-==A threat model is a list of the most probable threats to your security and privacy endeavors.== Since it's impossible to protect yourself against **every** attack(er), you should focus on the **most probable** threats. In computer security, a threat is an event that could undermine your efforts to stay private and secure.
+==نموذج التهديدات هو قائمة بأكثر التهديدات المحتملة لمساعيك نحو الأمن والخصوصية.== ولأنه تستحيل حماية نفسك من **كلّ** اعتداء أو معتدٍ، فينبغي لك أن تركز على التهديدات **الأكبر** احتمالًا. في مجال أمن الحاسوب، التهديد هو حدث يمكن أن يقوض جهودك في الحفاظ على خصوصيتك وأمانك.
 
-Focusing on the threats that matter to you narrows down your thinking about the protection you need, so you can choose the tools that are right for the job.
+فإنّ التركيز على التهديدات التي تهمّك يضيق نطاق تفكيرك بشأن الحماية التي تحتاجها، حتى تتمكن من اختيار الأدوات المناسبة للمهمة.
 
-## Creating Your Threat Model
+## إنشاء نموذج التهديدات خاصتك
 
-To identify what could happen to the things you value and determine from whom you need to protect them, you should answer these five questions:
+لكي تحدد ما قد يحدث للأشياء القيّمة بالنسبة لك ومِمَّن تريد حمايتها، عليك الإجابة على تلك الأسئلة الخمسة:
 
-1. What do I want to protect?
-2. Who do I want to protect it from?
-3. How likely is it that I will need to protect it?
-4. How bad are the consequences if I fail?
-5. How much trouble am I willing to go through to try to prevent potential consequences?
+1. ما الذي أريد حمايته؟
+2. مِمَّن أريد حمايته؟
+3. ما مدى احتمال أن أحتاج إلى حمايته؟
+4. ما مدى سوء العواقب إذا فشلت؟
+5. كم من المتاعب أستعدُّ لخوضها لمحاولة منع العواقب المحتملة؟
 
-### What do I want to protect?
+### ما الذي أريد حمايته؟
 
-An “asset” is something you value and want to protect. In the context of digital security, ==an asset is usually some kind of information.== For example, your emails, contact lists, instant messages, location, and files are all possible assets. Your devices themselves may also be assets.
+"الأصل" هو شيء ذو قيمة لك وتريد حمايته. في سياق الأمن الرقمي، ==الأصل عادةً ما يكون صنفًا من المعلومات.== فعلى سبيل المثال، بريدك الإلكتروني، وقوائم جهات اتصالاتك، ورسائلك الفورية، وموقعك، وملفاتك كلها أصول محتملة. قد تكون أجهزتك ذاتها أصولاً كذلك.
 
-*Make a list of your assets: data that you keep, where it's kept, who has access to it, and what stops others from accessing it.*
+*فأنشئ قائمة بأصولك: البيانات التي تحتفظ بها، وأين تحتفظ بها، ومن لديه وصول إليها، وما الذي يمنع الآخرين من الوصول إليها.*
 
-### Who do I want to protect it from?
+### مِمَّن أريد حمايته؟
 
-To answer this question, it's important to identify who might want to target you or your information. ==A person or entity that poses a threat to your assets is an “adversary”.== Examples of potential adversaries are your boss, your former partner, your business competition, your government, or a hacker on a public network.
+للإجابة على هذا السؤال، من المهم تحديد من قد يرغب في استهدافك أنت أو معلوماتك. == أيّ شخص أو كيان يشكّل تهديدًا لأصولك هو "خصم". == ومن أمثلة الخصوم المحتملين هم رئيسك في العمل، أو شريكك السابق، أو منافسك في العمل، أو الحكومة، أو أحد المخترِقين على شبكة عمومية.
 
-*Make a list of your adversaries or those who might want to get hold of your assets. Your list may include individuals, a government agency, or corporations.*
+*أنشئ قائمة بخصومك أو أولئك الذين قد يرغبون في حيازة أصولك. قد تتضمن قائمتك أفراداً، أو وكالة حكومية، أو شركات.*
 
-Depending on who your adversaries are, this list might be something you want to destroy after you've finished developing your threat model.
+وتبعًا لهُوية خصومك، قد تكون هذه القائمة شيئًا تريد تدميره بعد الانتهاء من تطوير نموذج التهديدات خاصتك.
 
-### How likely is it that I will need to protect it?
+### ما مدى احتمال أن أحتاج إلى حمايته؟
 
-==Risk is the likelihood that a particular threat against a particular asset will actually occur.== It goes hand-in-hand with capability. While your mobile phone provider has the capability to access all of your data, the risk of them posting your private data online to harm your reputation is low.
+==الخطر هو احتمال أن تهديدًا ما ضد أصل معين سوف يقع فعليًا.== ويرتبط ارتباطًا وثيقًا بالقدرة. في حين أنّ مزود خدمة هاتفك المحمول لديه القدرة على الوصول إلى جميع بياناتك، إلا أن خطر نشرهم لبياناتك الخاصة على الإنترنت للإضرار بسمعتك منخفض.
 
-It is important to distinguish between what might happen and the probability it may happen. For instance, there is a threat that your building might collapse, but the risk of this happening is far greater in San Francisco (where earthquakes are common) than in Stockholm (where they are not).
+فمن المهم التمييز بين ما قد يحدث واحتمال حدوثه. على سبيل المثال، هناك تهديد بانهيار المبنى الخاص بك، ولكن خطر حدوث ذلك أكبر بكثير في سان فرانسيسكو (حيث الزلازل شائعة) من ستوكهولم (حيث الزلازل ليست شائعة).
 
-Assessing risks is both a personal and subjective process. Many people find certain threats unacceptable, no matter the likelihood they will occur, because the mere presence of the threat is not worth the cost. In other cases, people disregard high risks because they don't view the threat as a problem.
+إن تقييم المخاطر عملية شخصية وذاتية في آن واحد. فيرى الكثير من الناس أن بعض التهديدات غير مقبولة، مهما كان احتمال حدوثها، لأن مجرد وجود التهديد لا يستحق التكلفة. وفي حالات أخرى، يتجاهل الناس المخاطر العالية لأنهم لا يرون في التهديد مشكلة.
 
-*Write down which threats you are going to take seriously, and which may be too rare or too harmless (or too difficult to combat) to worry about.*
+*دوِّن التهديدات التي ستأخذها بجديّة، والتهديدات التي قد تكون نادرة جدًا أو غير مؤذية (أو تصعب جدًا مكافحتها) بحيث لا تقلق بشأنها.*
 
-### How bad are the consequences if I fail?
+### ما مدى سوء العواقب إذا فشلت؟
 
-There are many ways that an adversary could gain access to your data. For example, an adversary can read your private communications as they pass through the network, or they can delete or corrupt your data.
+هناك العديد من السُبل التي تمكن الخصم من الوصول إلى بياناتك. فعلى سبيل المثال، يمكن للخصم قراءة اتصالاتك الخاصة أثناء مرورها عبر الشبكة، أو يمكنه حذف، أو إتلاف بياناتك.
 
-==The motives of adversaries differ widely, as do their tactics.== A government trying to prevent the spread of a video showing police violence may be content to simply delete or reduce the availability of that video. In contrast, a political opponent may wish to gain access to secret content and publish that content without you knowing.
+=== تختلف دوافع الخصوم اختلافًا كبيرًا، وكذلك تكتيكاتهم. == قد تكتفي الحكومة التي تحاول منع انتشار فيديو يظهر عنف الشرطة بحذف أو الحد من توفر هذا الفيديو. في المقابل، قد يرغب الخصم السياسي في الوصول إلى محتوى سرّي ونشره دون علمك.
 
-Security planning involves understanding how bad the consequences could be if an adversary successfully gains access to one of your assets. To determine this, you should consider the capability of your adversary. For example, your mobile phone provider has access to all of your phone records. A hacker on an open Wi-Fi network can access your unencrypted communications. Your government might have stronger capabilities.
+ينطوي التخطيط الأمني على فهم مدى سوء العواقب التي يمكن أن تترتب على نجاح أحد الخصوم في الوصول إلى أحد أصولك. لتحديد ذلك، يجب عليك أخذ قدرات خصمك بعين الاعتبار. فعلى سبيل المثال، لدى مزود خدمة هاتفك المحمول وصول إلى جميع سجلات هاتفك. ويمكن لأي مخترق على شبكة Wi-Fi مفتوحة الوصول إلى اتصالاتك غير المشفرة. وقد يكون لدى حكومتك قدرات أقوى.
 
 *Write down what your adversary might want to do with your private data.*
 
-### How much trouble am I willing to go through to try to prevent potential consequences?
+### كم من المتاعب أستعدُّ لخوضها لمحاولة منع العواقب المحتملة؟
 
 ==There is no perfect option for security.== Not everyone has the same priorities, concerns, or access to resources. Your risk assessment will allow you to plan the right strategy for you, balancing convenience, cost, and privacy.
 
