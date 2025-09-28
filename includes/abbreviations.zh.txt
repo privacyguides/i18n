@@ -2,110 +2,110 @@
 *[ADB]: 安卓调试桥接器
 *[AOSP]: 安卓开源项目
 *[ATA]: 先进技术附件
-*[攻击面]: The total number of possible entry points for unauthorized access to a system
+*[攻击面]: 系统可能被未经授权访问的入口点总数
 *[AVB]: 安卓验证启动
 *[cgroups]: 控制组
 *[CLI]: 命令行界面
 *[CSV]: 逗号分隔值
 *[CVE]: 常见漏洞和风险
-*[dark pattern]: A deceptive design pattern intended to trick a user into doing things
-*[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
+*[欺骗性设计]: 一种诱导用户进行某些操作的欺骗性设计模式
+*[数字遗产功能]: 允许您在去世后授权他人访问您数据的功能
 *[DNSSEC]: 域名系统安全扩展
 *[DNS]: 域名系统
 *[DoH]: DNS over HTTPS
 *[DoQ]: DNS over QUIC
 *[DoH3]: DNS over HTTP/3
 *[DoT]: DNS over TLS
-*[DPI]: Deep Packet Inspection identifies and blocks packet with specific payloads
+*[DPI]: 深度包检测（Deep Packet Inspection）可以识别并拦截带有特定内容的数据包
 *[E2EE]: 端到端加密
 *[ECS]: EDNS 客户子网
 *[EEA]: 欧洲经济区
-*[entropy]: A measurement of how unpredictable something is
+*[entropy]: 对某事物不可预测程度的度量
 *[EOL]: 服务终止
 *[Exif]: 可交换图片文件格式
 *[FCM]: Firebase云消息
 *[FDE]: 全盘加密
 *[FIDO]: 快速在线身份认证
 *[FS]: 前向保密
-*[fork]: A new software project created by copying an existing project and adding to it independently
+*[fork]: 一个通过复制现有项目并独立添加内容而创建的新软件项目
 *[GDPR]: 通用数据保护条例（欧盟）
 *[GPG]: GNU Privacy Guard (PGP 实现)
 *[GPS]: 全球定位系统
 *[GUI]: 图形用户界面
 *[GnuPG]: GNU Privacy Guard (PGP 实现)
 *[HDD]: 机械硬盘
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
+*[HOTP]: 基于 HMAC 的一次性密码
 *[HTTPS]: 安全超文本传输协议
 *[HTTP]: 超文本传输协议
-*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
+*[hypervisor]: 将 CPU 资源分配给多个操作系统的计算机软件、固件或硬件
 *[ICCID]: 集成电路卡标识符
 *[IMAP]: 互联网消息访问协议
 *[IMEI]: 国际移动设备识别码
-*[IMSI]: International Mobile Subscriber Identity
+*[IMSI]: 国际移动用户识别码
 *[IP]: 互联网协议
 *[IPv4]: 互联网通信协议第四版
 *[IPv6]: 互联网通信协议第六版
-*[ISP]: Internet Service Provider
-*[ISPs]: Internet Service Providers
-*[JNI]: Java Native Interface
-*[KYC]: Know Your Customer
-*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-*[LLMs]: Large Language Models (AI models such as ChatGPT)
-*[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
-*[MAC]: Media Access Control
-*[MDAG]: Microsoft Defender Application Guard
-*[MEID]: Mobile Equipment Identifier
+*[ISP]: 互联网服务供应商
+*[ISPs]: 互联网服务提供商
+*[JNI]: Java原生接口
+*[KYC]: 认识你的客户（Know Your Customer）
+*[LLaVA]: Large Language and Vision Assistant（多模态AI模型）
+*[LLMs]: 大语言模型（AI模型，例如 ChatGPT）
+*[LUKS]: Linux统一密钥设置（用于全硬盘加密）
+*[MAC]: 媒体接入控制
+*[MDAG]: 微软安全应用防护
+*[MEID]: 移动设备识别码
 *[MFA]: 多因素认证
-*[NVMe]: Nonvolatile Memory Express
-*[NAT]: Network address translation
-*[NAT-PMP]: NAT Port Mapping Protocol
-*[NTP]: Network Time Protocol
-*[OCI]: Open Container Initiative
-*[OCSP]: Online Certificate Status Protocol
+*[NVMe]: 非易失性内存主机控制器接口规范
+*[NAT]: 网络地址转换
+*[NAT-PMP]: NAT端口映射协议
+*[NTP]: 网络时间协议
+*[OCI]: 开放容器计划
+*[OCSP]: 在线证书状态协议
 *[OEM]: 原始设备制造商
-*[OEMs]: Original Equipment Manufacturers
-*[open-weights]: An open weights-model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
+*[OEMs]: 原始设备制造商
+*[开源权重]: 可供大众下载和使用，但核心训练数据或算法为私有的人工智能模型
 *[OS]: 操作系统
 *[OTP]: 一次性口令
 *[OTPs]: 一次性口令
 *[OpenPGP]: 公开源码的优良隐私实现(PGP)
 *[P2P]: 点对点传输
-*[PAM]: Linux Pluggable Authentication Modules
-*[POP3]: Post Office Protocol 3
-*[PGP]: Pretty Good Privacy (see OpenPGP)
-*[PII]: Personally Identifiable Information
-*[QNAME]: Qualified Name
-*[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.
-*[rate limits]: Rate limits are restrictions that a service imposes on the number of times a user can access their services within a specified period of time.
-*[rolling release]: Updates which are released frequently rather than set intervals
-*[RSS]: Really Simple Syndication
-*[SELinux]: Security-Enhanced Linux
-*[SIM]: Subscriber Identity Module
-*[SMS]: Short Message Service (standard text messaging)
-*[SMTP]: Simple Mail Transfer Protocol
-*[SNI]: Server Name Indication
-*[SSD]: Solid-State Drive
-*[SSH]: Secure Shell
-*[SUID]: Set Owner User ID
-*[SaaS]: Software as a Service (cloud software)
-*[SoC]: System on Chip
-*[SSO]: Single sign-on
-*[system prompt]: The system prompt of an AI chat is the general instructions given by a human to guide how it should operate.
-*[temperature]: AI temperature is a parameter used in AI models to control the level of randomness and creativity in the generated text.
-*[TCP]: Transmission Control Protocol
-*[TEE]: Trusted Execution Environment
-*[TLS]: Transport Layer Security
-*[ToS]: Terms of Service
-*[TOTP]: Time-based One-Time Password
-*[TPM]: Trusted Platform Module
-*[U2F]: Universal 2nd Factor
-*[UEFI]: Unified Extensible Firmware Interface
-*[UDP]: User Datagram Protocol
-*[VPN]: Virtual Private Network
-*[VLAN]: Virtual Local Area Network
-*[VoIP]: Voice over IP (Internet Protocol)
-*[W3C]: World Wide Web Consortium
-*[XMPP]: Extensible Messaging and Presence Protocol
-*[PWA]: Progressive Web App
-*[PWAs]: Progressive Web Apps
-*[WKD]: Web Key Directory
+*[PAM]: Linux 可替换认证模块
+*[POP3]: 邮局协议三代
+*[PGP]: Pretty Good Privacy 项目（参见 OpenPGP）
+*[PII]: 个人可识别信息
+*[QNAME]: 限定名称
+*[QUIC]: 一种基于UDP，旨在将UDP的速度与TCP的可靠性相结合的网络协议
+*[速率限制]: 服务对用户在指定时间段内访问其服务的次数所施加的限制
+*[滚动发布]: 频繁发布而非定期发布的更新
+*[RSS]: 简易信息聚合（Really Simple Syndication）
+*[SELinux]: 安全增强型 Linux
+*[SIM]: 用户身份模块（Subscriber Identity Module）
+*[SMS]: 短信（Short Message Service）
+*[SMTP]: 简单邮件传输协议（Simple Mail Transfer Protocol）
+*[SNI]: 服务器名称指示（Server Name Indication）
+*[SSD]: 固态硬盘
+*[SSH]: 安全外壳协议（Secure Shell Protocol）
+*[SUID]: 设置所有者用户ID
+*[SaaS]: 软件即服务
+*[SoC]: 单片系统
+*[SSO]: 统一登录系统
+*[系统提示词]: 人类用于指导人工智能应如何运作的通用提示词
+*[温度]: 人工智能模型中用于控制生成文本的随机性和创造力水平的参数
+*[TCP]: 传输控制协议（Transmission Control Protocol）
+*[TEE]: 可信执行环境
+*[TLS]: 传输层安全性协议
+*[ToS]: 服务条款
+*[TOTP]: 基于时间的一次性密码算法
+*[TPM]: 可信平台模块
+*[U2F]: 通用第二因素
+*[UEFI]: 统一可扩展固件接口
+*[UDP]: 用户数据报协议
+*[VPN]: 虚拟专用网
+*[VLAN]: 虚拟局域网
+*[VoIP]: 基于IP的语音传输
+*[W3C]: 万维网联盟
+*[XMPP]: 可扩展消息和表示协议
+*[PWA]: 渐进式网页应用程序
+*[PWAs]: 渐进式网页应用程序
+*[WKD]: 网络密钥目录

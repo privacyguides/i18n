@@ -34,7 +34,7 @@ Oltre a (o al posto di) un fornitore di posta elettronica consigliato qui, potre
 
 ## Servizi compatibili con OpenPGP
 
-Questi fornitori supportano in modo nativo la crittografia/decrittografia OpenPGP e lo [standard Web Key Directory (WKD)](basics/email-security.md#what-is-the-web-key-directory-standard), consentendo d'inviare e-mail crittografate end-to-end indipendentemente dal fornitore scelto. For example, a Proton Mail user could send an E2EE message to a Mailbox Mail user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
+Questi fornitori supportano in modo nativo la crittografia/decrittografia OpenPGP e lo [standard Web Key Directory (WKD)](basics/email-security.md#what-is-the-web-key-directory-standard), consentendo d'inviare e-mail crittografate end-to-end indipendentemente dal fornitore scelto. Ad esempio, un utente di Proton Mail, potrebbe mandare un messaggio E2EE a un utente Mailbox, o potresti ricevere notifiche crittografate in OpenPGP dai servizi internet che lo supportano.
 
 <div class="grid cards" markdown>
 
@@ -48,7 +48,7 @@ Questi fornitori supportano in modo nativo la crittografia/decrittografia OpenPG
 
 Quando si utilizza una tecnologia E2EE come OpenPGP, la tua e-mail presenta ancora alcuni metadati non crittografati nell'intestazione dell'e-mail, tra cui generalmente l'oggetto! Per saperne di più sui [matadati delle e-mail](basics/email-security.md#email-metadata-overview).
 
-OpenPGP also does not support forward secrecy, which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed.
+Inoltre, OpenPGP non supporta la Forward Secrecy, ciò significa che se la chiave privata tua o del destinatario viene rubata, tutti i messaggi precedenti crittografati con essa, saranno esposti.
 
 - [Come proteggo le mie chiavi private?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
