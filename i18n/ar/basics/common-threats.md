@@ -1,37 +1,37 @@
 ---
-title: "Common Threats"
+title: "التهديدات الشائعة"
 icon: 'material/eye-outline'
-description: Your threat model is personal to you, but these are some of the things many visitors to this site care about.
+description: نموذج تهديداتك يخصّك شخصيًا، ولكن هذه بعض الأشياء التي تُهم الكثير من زوار هذا الموقع.
 ---
 
-Broadly speaking, we categorize our recommendations into the [threats](threat-modeling.md) or goals that apply to most people. ==You may be concerned with none, one, a few, or all of these possibilities==, and the tools and services you use depend on what your goals are. You may have specific threats outside these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortcomings of the tools you choose to use, because virtually none of them will protect you from every threat.
+بوجهٍ عام، إننا نصنف توصياتنا إلى [التهديدات](threat-modeling.md) أو الأهداف المنطبقة على معظم الناس. ==قد تولي اهتمامًا بواحدٍ من تلك الاحتمالات، أو بالقليل منها، أو بجميعها، أو قد لا تولي اهتمامًا بأيٍّ منها مطلقًا==، وتتوقف الأدوات والخدمات التي تستخدمها على أهدافك. قد تكون لديك تهديدات محددة خارج هذه الفئات كذلك، ولا بأس بهذا قَط! الجزء الهامّ هو التوصل إلى فهم للفوائد وأوجه القصور في الأدوات التي تختار استخدامها، ﻷنَّه لن تحميك أيٌّ منها تقريبًا من كلّ تهديد موجود.
 
-<span class="pg-purple">:material-incognito: **Anonymity**</span>
+<span class="pg-purple">:material-incognito: **إخفاء الهُوية**</span>
 :
 
-Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
+حجب نشاطك على الإنترنت عن هُويتك الحقيقية، حاميًا إياك من الأشخاص الذين يحاولون الكشف عن هُويتك *أنت* بالتحديد.
 
-<span class="pg-red">:material-target-account: **Targeted Attacks**</span>
+<span class="pg-red">:material-target-account: **الهجمات المستهدفة**</span>
 :
 
-Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
+الحماية من المخترقين أو العناصر الخبيثة الأخرى مِمَّن يحاولون الوصول إلى بياناتك أو أجهزتك *أنت* بالتحديد.
 
-<span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
+<span class="pg-viridian">:material-package-variant-closed-remove: **هجمات سلاسل الإمداد**</span>
 :
 
-Typically, a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+عادةً ما يكون شكلًا من أشكال <span class="pg-red">:material-target-account: الهجمات المستهدفة</span> المتمحورة حول ثغرة أمنية أو ثغرة مستغلّة تقدّم إلى برمجيات سليمة إمّا مباشرةً أو من خلال تبعيّة برمجية من طرف ثالث.
 
-<span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
+<span class="pg-orange">:material-bug-outline: **الهجمات السلبية**</span>
 :
 
-Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
+الحماية من أشياء مثل البرمجيات الخبيثة، واختراقات البيانات، وهجمات أخرى تُشن ضد العديد من الأشخاص في آنٍ واحد.
 
-<span class="pg-teal">:material-server-network: **Service Providers**</span>
+<span class="pg-teal">:material-server-network: **مزوِّدو الخِدمات**</span>
 :
 
-Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
+حماية بياناتك من مزوِّدي الخِدمات (على سبيل المثال، باستخدام التشفير بين الطرفين، الذي يجعل بياناتك غير قابلة للقراءة من قِبَل الخادم).
 
-<span class="pg-blue">:material-eye-outline: **Mass Surveillance**</span>
+<span class="pg-blue">:material-eye-outline: **المراقبة الجماعيّة**</span>
 :
 
 Protection from government agencies, organizations, websites, and services which work together to track your activities.
