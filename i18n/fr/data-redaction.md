@@ -32,7 +32,7 @@ Vous ne devez **jamais** utiliser le flou pour expurger [du texte dans les image
 [:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Téléchargements</summary>
 
 - [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2#metadata-and-privacy)
 - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
@@ -53,9 +53,9 @@ Vous ne devez **jamais** utiliser le flou pour expurger [du texte dans les image
 
 Il supporte actuellement les fichiers JPEG, PNG, et WebP.
 
-[:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .md-button .md-button--primary }
-[:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#description){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Source Code" }
+[:octicons-repo-16: Dépôt](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#description){ .card-link title=Documentation}
+[:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
 <summary>Téléchargements</summary>
