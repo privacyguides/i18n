@@ -267,7 +267,7 @@ Brave dibuat berdasarkan proyek peramban web Chromium, sehingga seharusnya teras
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Peringatan</p>
 
 Brave menambahkan "[kode rujukan](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" pada nama berkas dalam unduhan dari situs web Brave, yang digunakan untuk melacak dari sumber mana peramban tersebut diunduh, misalnya `BRV002` dalam unduhan yang bernama `Brave-Browser-BRV002.pkg`. Penginstal kemudian akan melakukan ping ke server Brave dengan kode rujukan di akhir proses instalasi. Jika Anda khawatir tentang hal ini, Anda dapat mengganti nama berkas penginstal sebelum membukanya.
 
@@ -361,13 +361,13 @@ Kami menyarankan untuk menonaktifkan saran pencarian di Brave untuk alasan yang 
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) memungkinkan data penjelajahan Anda (riwayat, penanda, dll.) dapat diakses di semua perangkat Anda tanpa memerlukan akun dan melindunginya dengan E2EE.
 
-#### Brave Rewards and Wallet
+#### Brave Rewards dan Wallet
 
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Brave Rewards** memungkinkan Anda menerima mata uang kripto Basic Attention Token (BAT) dengan melakukan tindakan tertentu di dalam Brave. Ini bergantung pada akun custodial dan KYC dari sejumlah penyedia tertentu. Kami tidak merekomendasikan BAT sebagai mata uang [private cryptocurrency](cryptocurrency.md), dan kami juga tidak merekomendasikan penggunaan [custodial wallet](advanced/payments.md#wallet-custody), jadi kami tidak menyarankan untuk menggunakan fitur ini.
 
-**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
+**Brave Wallet** beroperasi secara lokal di komputer Anda, tetapi tidak mendukung mata uang digital pribadi apa pun, jadi kami tidak menyarankan Anda untuk menggunakan fitur ini.
 
 ## Kriteria
 
@@ -376,23 +376,23 @@ Kami menyarankan untuk menonaktifkan saran pencarian di Brave untuk alasan yang 
 ### Persyaratan Minimum
 
 - Harus berupa perangkat lunak sumber terbuka.
-- Must support automatic updates.
-- Must receive engine updates in 0-1 days from upstream release.
-- Must be available on Linux, macOS, and Windows.
-- Any changes required to make the browser more privacy-respecting must not negatively impact user experience.
-- Must block third-party cookies by default.
-- Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- Harus mendukung pembaruan otomatis.
+- Harus menerima pembaruan mesin dalam 0-1 hari sejak rilis hulu.
+- Harus tersedia di Linux, macOS, dan Windows.
+- Perubahan apa pun yang diperlukan untuk membuat browser lebih menghargai privasi tidak boleh berdampak negatif pada pengalaman pengguna.
+- Harus memblokir cookie pihak ketiga secara default.
+- Harus mendukung [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) untuk mengurangi pelacakan lintas situs.[^1]
 
 ### Kasus Terbaik
 
 Kriteria kasus terbaik kami mewakili apa yang ingin kami lihat dari proyek yang sempurna dalam kategori ini. Rekomendasi kami mungkin tidak menyertakan salah satu atau semua fungsi ini, tetapi rekomendasi yang menyertakan fungsi ini mungkin memiliki peringkat yang lebih tinggi daripada yang lain di halaman ini.
 
-- Should include built-in content blocking functionality.
-- Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Should support Progressive Web Apps (PWAs). PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps because PWAs benefit from your browser's regular security updates.
-- Should not include add-on functionality (bloatware) that does not impact user privacy.
-- Should not collect telemetry by default.
-- Should provide an open-source sync server implementation.
-- Should default to a [private search engine](search-engines.md).
+- Harus menyertakan fungsionalitas pemblokiran konten bawaan.
+- Harus mendukung kompartementalisasi cookie (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
+- Harus mendukung Progressive Web Apps (PWAs). PWAs memungkinkan Anda menginstall situs web tertentu seolah-olah itu adalah aplikasi asli di komputer Anda. Hal ini dapat memberikan keuntungan dibandingkan dengan memasang aplikasi berbasis Electron karena PWA mendapat manfaat dari pembaruan keamanan regular browser Anda.
+- Tidak boleh menyertakan fungsionalitas tambahan (bloatware) yang tidak berdampak pada privasi pengguna.
+- Tidak boleh mengumpulkan telementri secara default.
+- Harus menyediakan implementasi server sinkronisasi sumber terbuka.
+- Harus default ke [private search engine](search-engines.md).
 
-[^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).
+[^1]: Implementasi Brave dirinci di [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).
