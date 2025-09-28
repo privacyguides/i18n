@@ -20,7 +20,7 @@
 *[E2EE]: Crittografia/Crittografato end-to-end
 *[ECS]: Sottorete client EDNS
 *[EEA]: Spazio economico europeo
-*[entropy]: A measurement of how unpredictable something is
+*[entropy]: Una misura dell'imprevedibilità di qualcosa
 *[EOL]: Fine del Supporto
 *[Exif]: Exchangeable image file format
 *[FCM]: Firebase Cloud Messaging
