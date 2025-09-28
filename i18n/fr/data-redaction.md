@@ -86,7 +86,7 @@ L'application offre plusieurs façons d'effacer les métadonnées des images. À
 
 ## Raccourcis (iOS & macOS)
 
-Voici un exemple de raccourci que vous pouvez télécharger pour l'utiliser comme suit :
+Sur iOS et macOS, vous pouvez supprimer les métadonnées des images sans utiliser d'application tierce en créant un [**raccourci**](https://apps.apple.com/app/id915249334) à cet effet. Voici un exemple de raccourci que vous pouvez télécharger pour l'utiliser comme suit :
 
 [:material-tag-minus: Nettoyer les métadonnées de l'image](https://icloud.com/shortcuts/fb774ddb7b5b4296871776c67ac0fff9 ""){.md-button}
 
