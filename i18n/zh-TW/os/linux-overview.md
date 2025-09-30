@@ -10,9 +10,9 @@ description: Linux 是一種開放原始碼、注重隱私的桌面作業系統�
 
 [建議的 Linux 發行版 :material-arrow-right-drop-circle:](../desktop.md ""){.md-button}
 
-## Security Notes
+## 安全注意事項
 
-There are some notable security concerns with Linux which you should be aware of. 儘管有這些缺點，對於大多數用戶，桌面 Linux 發行版還是很棒：
+Linux 有一些值得注意的安全問題，您應該注意。 儘管有這些缺點，對於大多數用戶，桌面 Linux 發行版還是很棒：
 
 - 避免商業作業系統經常出現的遙測現象
 - 維護 [軟體自由](https://gnu.org/philosophy/free-sw.en.html#four-freedoms)
@@ -32,7 +32,7 @@ There are some notable security concerns with Linux which you should be aware of
 
 - Linux 上的應用程式嚴重缺乏**強大的沙盒**，即使便使用 Flatpaks 等容器化應用程式或 Firejail 等沙盒解決方案還是不足。 Flatpak 是迄今為止最被看好的 Linux 沙盒實用工具，但它仍存在許多缺陷，且允許 [不安全的預設設定](https://flatkill.org/2020) ，這使得大多數應用程式可輕鬆繞過其沙盒。
 
-此外，Linux 在實施 [漏洞緩解措施](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) 方面落後，這些緩解措施現已成為其他操作系統的標準配置，例如 Windows 上的任意代碼防護或 macOS 上的強化運行時間。 此外，大多數 Linux 程式和 Linux 本身都是用記憶體不安全語言編寫的。 記憶體損壞錯誤是造成[大多數漏洞](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code)的原因已修復並分配了CVE。 While this is also true for Windows and macOS, they are quickly making progress on adopting memory-safe languages such as Rust and Swift, respectively.
+此外，Linux 在實施 [漏洞緩解措施](https://madaidans-insecurities.github.io/linux.html#exploit-mitigations) 方面落後，這些緩解措施現已成為其他操作系統的標準配置，例如 Windows 上的任意代碼防護或 macOS 上的強化運行時間。 此外，大多數 Linux 程式和 Linux 本身都是用記憶體不安全語言編寫的。 記憶體損壞錯誤是造成[大多數漏洞](https://msrc.microsoft.com/blog/2019/07/a-proactive-approach-to-more-secure-code)的原因已修復並分配了CVE。 雖然 Windows 和 macOS 也是如此，但它們分別在採用 Rust 和 Swift 等記憶體安全語言方面，正快速取得進展。
 
 ## 挑選發行版本
 
@@ -52,7 +52,7 @@ There are some notable security concerns with Linux which you should be aware of
 
 傳統上 Linux 發行版的更新模式是依次更新所需的軟體套件。 Fedora、Arch Linux 和其他基於 Debian 的發行版皆採納此種模式—而這種模式如果在更新時發生錯誤，其系統可靠性可能會因此降低。
 
-Distros which use atomic updates, on the other hand, apply updates in full or not at all. 在採納原子更新模式的發行版上，如果在更新時發生錯誤（也許是由於停電），系統上就不會有任何改變。
+另一方面，使用原子更新的發行版會完全套用更新或完全不套用。 在採納原子更新模式的發行版上，如果在更新時發生錯誤（也許是由於停電），系統上就不會有任何改變。
 
 因此 Silverblue 和 NixOS 等 [發行版](../desktop.md#atomic-distributions) 在這種情況下便可以依靠原子更新模式維持系統穩定性。 [Adam Šamalík](https://twitter.com/adsamalik) 介紹 `rpm-ostree` 如何與 Silverblue 搭配使用：
 
@@ -85,15 +85,15 @@ Distros which use atomic updates, on the other hand, apply updates in full or no
 
 ### 強制訪問控制
 
-強制訪問控制是一套額外的安全控制，有助於限制應用程式和系統服務等部分。 Linux 發行版本中常見的兩種強制訪問控制實作是 [SELinux](https://github.com/SELinuxProject) 和 [AppArmor](https://apparmor.net) 。 Fedora and Tumbleweed use SELinux by default, with Tumbleweed offering an option in its installer to choose AppArmor instead.
+強制訪問控制是一套額外的安全控制，有助於限制應用程式和系統服務等部分。 Linux 發行版本中常見的兩種強制訪問控制實作是 [SELinux](https://github.com/SELinuxProject) 和 [AppArmor](https://apparmor.net) 。 Fedora 和 Tumbleweed 預設使用 SELinux，而 Tumbleweed 則在其安裝程式中提供選項，讓您選擇 AppArmor。
 
-[Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-getting-started) 上的 SELinux 預設會限制 Linux軟體容器、虛擬機器和守護進程。 AppArmor 由 Snap 守護進程 用於 [沙盒化](https://snapcraft.io/docs/security-sandboxing) Snap，這些由 Snap 提供的軟體有 [嚴格](https://snapcraft.io/docs/snap-confinement) 限制，例如 [Firefox](https://snapcraft.io/firefox) 。 在 Fedora 的 [ConfinedUsers](https://fedoraproject.org/wiki/SIGs/ConfinedUsers) 特別興趣小組中，有社群致力於限制系統的更多部分。
+[Fedora](https://docs.fedoraproject.org/en-US/quick-docs/selinux-getting-started) 上的 SELinux 預設會限制 Linux 軟體容器、虛擬機器和常駐服務。 AppArmor 由 Snap 常駐服務用於 [沙盒化](https://snapcraft.io/docs/security-sandboxing) Snap，這些由 Snap 提供的軟體有 [嚴格](https://snapcraft.io/docs/snap-confinement) 限制，例如 [Firefox](https://snapcraft.io/firefox) 。 在 Fedora 的 [ConfinedUsers](https://fedoraproject.org/wiki/SIGs/ConfinedUsers) 特別興趣小組中，有社群致力於限制系統的更多部分。
 
 ## 一般性建議
 
 ### 磁碟加密
 
-大多數Linux 發行版安裝程式中都有啟用 [LUKS](../encryption.md#linux-unified-key-setup) FDE之選項。 If this option isn’t set at installation time, you will have to back up your data and re-install, as encryption is applied after [disk partitioning](https://en.wikipedia.org/wiki/Disk_partitioning), but before [file systems](https://en.wikipedia.org/wiki/File_system) are formatted. 我們還建議安全地刪除儲存設備。
+大多數Linux 發行版安裝程式中都有啟用 [LUKS](../encryption.md#linux-unified-key-setup) FDE之選項。 如果在安裝時未設定此選項，您必須備份資料並重新安裝，因為加密會在[磁碟分割之後](https://en.wikipedia.org/wiki/Disk_partitioning)、[檔案系統](https://en.wikipedia.org/wiki/File_system)格式化之前套用。 我們還建議安全地刪除儲存設備。
 
 - [安全資料清除 :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/05/25/secure-data-erasure)
 
@@ -136,9 +136,9 @@ Linux 發行版，如 [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) �
 
 許多桌面 Linux 發行版（Fedora、openSUSE等）自帶 [NetworkManager](https://en.wikipedia.org/wiki/NetworkManager) 來設定乙太網路和 Wi-Fi。
 
-It is possible to randomize the [MAC address](https://en.wikipedia.org/wiki/MAC_address) when using NetworkManager. 這在Wi-Fi 上提供了更多隱私，因為這讓追踪所連網路的特定設備變得更困難。 但這 [**並不是**](https://papers.mathyvanhoef.com/wisec2016.pdf) 讓您匿名。
+使用 NetworkManager 時，可以隨機設定[MAC 位址](https://en.wikipedia.org/wiki/MAC_address)。 這在Wi-Fi 上提供了更多隱私，因為這讓追踪所連網路的特定設備變得更困難。 但這 [**並不是**](https://papers.mathyvanhoef.com/wisec2016.pdf) 讓您匿名。
 
-In the terminal, create a new file `/etc/NetworkManager/conf.d/00-macrandomize.conf` and add the following to it:
+在終端機建立新檔案`/etc/NetworkManager/conf.d/00-macrandomize.conf`並加入下列內容：
 
 ```text
 [device]
@@ -149,13 +149,13 @@ wifi.cloned-mac-address=random
 ethernet.cloned-mac-address=random
 ```
 
-Then, restart NetworkManager:
+然後，重新啟動 NetworkManager：
 
 ```sh
 systemctl restart NetworkManager
 ```
 
-Optionally, changing the connection parameter from `random` to `stable` will give you a random MAC address *per network*, but keep it stable for that network when you reconnect to it later. Using `random` will give you a random MAC address *per connection*. This may be desirable for networks with captive portals or where you have a static DHCP assignment, at the expense of making you more identifiable by a single network operator you connect to multiple times.
+選擇性地將連線參數從 `random` 變更為 `stable`，會為*每個網路*提供一個隨機的 MAC 位址，但稍後重新連線時會保持固定。 使用 `random` 為*每次連線*提供隨機 MAC 位址。 這對於有專屬入口網站的網路或有靜態 DHCP 指派的網路來說可能是令人嚮往的，但其代價是讓您更容易被您多次連線的單一網路業者識別。
 
 如果使用 [systemd-networkd](https://en.wikipedia.org/wiki/Systemd#Ancillary_components)，則需要設定 [`MACAddressPolicy=random`](https://freedesktop. org/software /systemd/man/systemd.link.html#MACAddressPolicy=) 這將啟用[RFC 7844（DHCP 用戶端的匿名設定檔）](https://freedesktop.org/software/ systemd/man /systemd.network.html#Anonymize=)。
 
@@ -173,7 +173,7 @@ MAC 位址隨機化主要有利於 Wi-Fi 連接。 對於乙太網路連接，�
 
 Fedora 專案使用 [`countme`](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting#Detailed_Description) 變數而非獨特 ID 來 [計算](https://fedoraproject.org/wiki/Changes/DNF_Better_Counting) 多少系統訪問它的鏡像。 Fedora 這樣做是為了確定負載並在必要時提供更好的更新伺服器。
 
-這個 [選項](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) ，目前預設為關閉。 我們建議將 `countme=false` 添加到 `/etc/dnf/dnf.conf` ，以防止將來此選項被改為預設啟用。 On systems that use `rpm-ostree` such as Silverblue, the `countme` option is disabled by masking the [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems) timer.
+這個 [選項](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-both-main-and-repo) ，目前預設為關閉。 我們建議將 `countme=false` 添加到 `/etc/dnf/dnf.conf` ，以防止將來此選項被改為預設啟用。 在使用 `rpm-ostree ` 的系統上，例如 Silverblue，`countme` 選項是透過遮罩 [rpm-ostree-countme](https://fedoramagazine.org/getting-better-at-counting-rpm-ostree-based-systems) 計時器來停用的。
 
 openSUSE 則是使用[唯一的 ID](https://en.opensuse.org/openSUSE:Statistics) 來計算系統，可以通過清空`/var/lib/zypp/AnonymousUniqueId` 此檔案來禁用。
 

@@ -1,8 +1,8 @@
 ---
-title: Email Servers
-meta_title: "Self-Hosting Email - Privacy Guides"
+title: 電子郵件伺服器
+meta_title: "自行託管電子郵件 - Privacy Guides"
 icon: material/email
-description: For our more technical readers, self-hosting your own email can provide additional privacy assurances by having maximum control over your data.
+description: 對於技術性較高的讀者而言，自行託管您自己的電子郵件可以透過最大限度地控制您的資料，提供額外的隱私權保證。
 cover: email.webp
 ---
 

@@ -1,5 +1,5 @@
 ---
-meta_title: "Tor瀏覽器與網路：匿名網頁瀏覽 - Privacy Guides"
+meta_title: "Tor 瀏覽器與網路：匿名網頁瀏覽 - Privacy Guides"
 title: "Tor 瀏覽器"
 icon: simple/torbrowser
 description: 透過Tor 網路來保護您的網際網路瀏覽免受窺探， Tor 網路是一個規避審查的安全網路。
