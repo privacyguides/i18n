@@ -273,37 +273,37 @@ Tyto funkce považujeme za důležité pro to, aby byla služba bezpečná a opt
 
 - Měla by šifrovat všechna data účtu (kontakty, kalendáře atd.) v klidu pomocí zero-access šifrování.
 - Měla by pro jednoduchost poskytovat webmail s integrovaným E2EE/PGP šifrováním.
-- Měla by podporovat WKD, aby bylo možné lépe nalézat veřejné OpenPGP klíče přes HTTP. GnuPG users can get a key with this command: `gpg --locate-key example_user@example.com`.
-- Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
-- Should support [sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
-- Should allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Vlastní domény jsou pro uživatele důležité, protože jim umožňují zachovávat nezávislost na službě, ať už z důvodu jejího úpadku nebo převzetí jinou společností, která nepovažuje soukromí za prioritu.
-- Catch-all or alias functionality for those who use their own domains.
-- Should use standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
-- Email provider's services should be available via an [onion service](https://en.wikipedia.org/wiki/.onion).
+- Měla by podporovat WKD, aby bylo možné lépe nalézat veřejné OpenPGP klíče přes HTTP. Uživatelé GnuPG mohou získat klíč tímto příkazem: `gpg --locate-key uzivatel@priklad.cz`.
+- Podporuje dočasné schránky pro externí uživatele. To je užitečné, pokud chcete poslat zašifrovaný e-mail, aniž byste odeslali skutečnou kopii příjemci. Tyto e-maily mají obvykle omezenou životnost a jsou následně smazány. Také nevyžadují od příjemce nastavování jakékoliv kryptografie, např. OpenPGP.
+- Měla by podporovat [sub-adresování](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
+- Měla by umožňovat uživatelům používat jejich vlastní [domény](https://en.wikipedia.org/wiki/Domain_name). Vlastní domény jsou pro uživatele důležité, protože jim umožňují zachovávat nezávislost na službě, ať už z důvodu jejího úpadku nebo převzetí jinou společností, která nepovažuje soukromí za prioritu.
+- Funkce catch-all a aliasy pro ty, kteří chtějí používat svoje domény.
+- Měla by používat standardní protokoly pro přístup k e-mailu, jako je IMAP, SMTP nebo [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standardní přístupové protokoly zajišťují, že si zákazníci mohou snadno stáhnout všechny svoje e-maily, kdyby se rozhodli změnit poskytovatele.
+- Služby poskytovatele e-mailu by měly být dostupné přes [onion službu](https://en.wikipedia.org/wiki/.onion).
 
-### Privacy
+### Soukromí
 
-We prefer our recommended providers to collect as little data as possible.
+Preferujeme, aby námi doporučení poskytovatelé shromažďovali co nejméně dat.
 
-**Minimum to Qualify:**
+**Naprosté minimum:**
 
-- Must protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
-- Must not require personally identifiable information (PII) besides a username and a password.
-- Privacy policy must meet the requirements defined by the GDPR.
+- Musí chránit IP adresu odesílatele, což může zahrnovat její odstranění v `Received` poli v hlavičce.
+- Nesmí vyžadovat osobní údaje (personally identifiable information, PII) kromě uživatelského jména a hesla.
+- Zásady ochrany osobních údajů musí splňovat požadavky definované GDPR.
 
-**Best Case:**
+**Nejlepší případ:**
 
-- Should accept [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
-- Should be hosted in a jurisdiction with strong email privacy protection laws.
+- Měla by přijímat [anonymní platební metody](advanced/payments.md) ([kryptoměny](cryptocurrency.md), hotovost, dárkové poukazy atp.)
+- Měla by být umístěna v jurisdikci se silnou právní ochranou e-mailového soukromí.
 
-### Security
+### Bezpečnost
 
-Email servers deal with a lot of very sensitive data. We expect that providers will adopt industry best practices in order to protect their customers.
+E-mailové servery pracují s velkým množstvím citlivých dat. Očekáváme, že poskytovatelé implementují v odvětví osvědčené postupy, aby ochránili své zákazníky.
 
-**Minimum to Qualify:**
+**Naprosté minimum:**
 
-- Protection of webmail with 2FA, such as [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
-- Zero-access encryption, which builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
+- Ochrana webmailu pomocí 2FA, např. [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
+- Zero-access šifrování, které staví na šifrování v klidu. Poskytovatel nemá k dispozici dešifrovací klíče k datům, které jsou u něj uložené. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) support.
 - No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - A server suite preference (optional on TLS 1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
