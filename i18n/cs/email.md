@@ -271,9 +271,9 @@ Tyto funkce považujeme za důležité pro to, aby byla služba bezpečná a opt
 
 **Nejlepší případ:**
 
-- Should encrypt all account data (contacts, calendars, etc.) at rest with zero-access encryption.
-- Should provide integrated webmail E2EE/PGP encryption as a convenience.
-- Should support WKD to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key with this command: `gpg --locate-key example_user@example.com`.
+- Měla by šifrovat všechna data účtu (kontakty, kalendáře atd.) v klidu pomocí zero-access šifrování.
+- Měla by pro jednoduchost poskytovat webmail s integrovaným E2EE/PGP šifrováním.
+- Měla by podporovat WKD, aby bylo možné lépe nalézat veřejné OpenPGP klíče přes HTTP. GnuPG users can get a key with this command: `gpg --locate-key example_user@example.com`.
 - Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
 - Should support [sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
 - Should allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Vlastní domény jsou pro uživatele důležité, protože jim umožňují zachovávat nezávislost na službě, ať už z důvodu jejího úpadku nebo převzetí jinou společností, která nepovažuje soukromí za prioritu.
