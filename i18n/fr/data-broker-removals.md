@@ -54,30 +54,30 @@ Une telle organisation vous permet de re-vérifier chaque site web approximative
 
 </div>
 
-Après avoir supprimé vos données de tous ces sites pour la première fois, il est préférable d'attendre une ou deux semaines que les requêtes soient transmises à tous les sites secondaires. Ensuite, vous pouvez commencer à chercher et faire vos demandes de suppression sur tous les sites restants que vous pourrez trouver. It can be a good idea to use a web crawler like [Google's _Results about you_](#google-results-about-you-free) tool to help find any data that remains on the internet.
+Après avoir supprimé vos données de tous ces sites pour la première fois, il est préférable d'attendre une ou deux semaines que les requêtes soient transmises à tous les sites secondaires. Ensuite, vous pouvez commencer à chercher et faire vos demandes de suppression sur tous les sites restants que vous pourrez trouver. Pour vous aider à trouver le reste de vos données disponibles sur le web, vous pouvez utiliser un robot d'indexation (web crawler) comme [les _Résultats vous concernant_ de Google](#google-results-about-you-free).
 
-Otherwise, privacy journalist Yael Grauer has compiled an excellent list of data broker sites with direct links to their search tools and opt-out pages. You can take some time to go through each site to determine whether they have your information, and remove it:
+Par ailleurs, le journaliste spécialiste de la protection de la vie privée Yael Grauer a dressé une liste très complète de site de courtier en données, avec les liens pour faire une recherche ou pour faire directement une demande de suppression de données. Prenez le temps d'explorer chaque site pour déterminer si vos informations y sont disponibles, et pour les supprimer :
 
 [:simple-github: Big Ass Data Broker Opt-Out List](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List){ .md-button }
 
-If you don't use an automatic scanner to find results about you, consider setting a reminder to re-do this process every 3, 6, or 12 months depending on your risk level and the amount of personal data you have out there. Unfortunately, it is common for your data to re-appear over time or show up on brand-new people search sites even after you opt out.
+Si vous ne souhaitez pas utiliser de scanner automatique pour vérifier les résultats vous concernant, pensez à vous mettre un rappel tous les 3, 6 ou 12 mois, selon le niveau de risque auquel vous êtes exposé et la quantité de vos informations disponibles sur le web. Malheureusement, il arrive régulièrement que vos données personnelles réapparaissent avec le temps ou apparaissent sur de nouveaux sites de recherche de personnes, même après avoir fait les demande de suppression.
 
-## EasyOptOuts <small>Paid</small>
+## EasyOptOuts <small>Payant</small>
 
 <div class="admonition recommendation" markdown>
 
-![EasyOptOuts logo](assets/img/data-broker-removals/easyoptouts.svg){ align=right }
+![Logo de EasyOptOuts](assets/img/data-broker-removals/easyoptouts.svg){ align=right }
 
-**EasyOptOuts** is a $20/year service which will search a number of different data broker sites and automatically submit opt-out requests on your behalf. They will perform the first search and removal process immediately, and then re-run the process every 4 months in case your data shows up on new sites over time.
+**EasyOptOuts** est un service payant (20$/ans) qui va rechercher vos informations sur plusieurs sites de courtiers en données et automatiquement faire les demandes de suppression à votre place. Après l'inscription, le service lancera immédiatement le processus de recherche et de suppression, puis le relancera tous les 4 mois, au cas où vos données réapparaissent sur de nouveaux sites avec le temps.
 
-[:octicons-home-16: Homepage](https://easyoptouts.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://easyoptouts.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'acceuil](https://easyoptouts.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://easyoptouts.com/privacy){ .card-link title="Politique de confidentialité" }
 
 </div>
 
-Some websites supported by EasyOptOuts are publicly searchable. In those cases EasyOptOuts will perform a search and only submit an opt-out request if your personal data is already found, to prevent sending your data in an opt-out request to sites that didn't have it already. However, they do support some sites which are not publicly searchable, and in those cases your data will be sent to them in an opt-out request regardless, in case you are in their private databases.
+Certains sites pris en charge par EasyOptOut sont accessibles au public. Pour ces sites en particulier, EasyOptOut effectuera une recherche et ne fera une demande de suppression que si vos données personnelles sont effectivement trouvables, afin d'éviter de fournir vos données à des sites qui ne les auraient pas déjà. Cependant, EasyOptOut prend également en charge certains sites qui ne sont pas accessibles au public, dans ces cas là EasyOptOut envoit dans tous les cas une demande de suppression, au cas où vos données soient présente dans leur base de données privée.
 
-Our [testing](https://www.privacyguides.org/articles/2025/02/03/easyoptouts-review) indicates that EasyOptOuts provides the best value out of any data removal service we've tested, with a very affordable price and high effectiveness. Independent [findings from Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) also indicate that EasyOptOuts is one of the top performing data removal services.
+Our [testing](https://www.privacyguides.org/articles/2025/02/03/easyoptouts-review) indicates that EasyOptOuts provides the best value out of any data removal service we've tested, with a very affordable price and high effectiveness. Les [conclusions indépendantes de Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) suggèrent également que EasyOptOut est un des services de suppression de données les plus performants.
 
 <div class="admonition failure" markdown>
 <p class="admonition-title">High priority sites not supported by EasyOptOuts</p>
