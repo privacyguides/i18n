@@ -1,5 +1,5 @@
 ---
-title: Services de suppression de donnée
+title: Services de suppression de données
 icon: material/database-off
 description: Nos méthodes recommandées pour supprimer vos données personnelles des courtiers en données (data brokers) ou des sites de recherche de personnes.
 cover: data-broker-removals.webp
@@ -9,16 +9,16 @@ cover: data-broker-removals.webp
 
 - [:material-account-search: Exposition Publique](basics/common-threats.md#limiting-public-information){ .pg-green }
 
-Aux Etats-Unis, les "sites de recherches de personnes" représentent un immense risque pour la vie privée d'une grande majorité de personne. De nombreuses informations personnelles sensibles comme votre adresse, numéro de téléphone, adresse mail, ou votre âge peuvent facilement être accessibles d'une simple recherche internet. While there is unfortunately no federal regulation in place to protect your data, many of these companies will remove your information from their _public_ databases upon request.
+Aux Etats-Unis, les "sites de recherches de personnes" représentent un immense risque pour la vie privée d'une grande majorité de personne. De nombreuses informations personnelles sensibles comme votre adresse, numéro de téléphone, adresse mail, ou votre âge peuvent facilement être accessibles d'une simple recherche internet. Aux Etats-Unis, même si il n'existe malheureusement aucune loi fédérale permettant de protéger vos données, la plupart de ces entreprises supprimerons vos données de leur base de données _publique_ si vous leur en faites la demande. En Europe, les citoyens sont protégés par la RGPD, et en France il est possible d'avoir recours à la CNIL en cas de non respect de la RGPD par les entreprises.
 
-:flag_us: **Note** Une grande partie des outils suivants ne sont disponibles qu'aux Etats-Unis. La collecte, le partage, et la revente d'informations personnelles par les courtiers de données (data brokers) est un problème majoritairement spécifique aux Etats-Unis. Dans beaucoup d'autre pays, comme la France, vos données sont protégées par des règlementations comme la RGPD (Espace Européen). Nous soutiendrons toujours les initiatives similaires de protections des données aux Etats-Unis, mais les victimes actuellement peuvent toujours avoir recours à ces solutions "provisoires".
+:flag_us: **Note** Une grande partie des outils suivants ne sont disponibles qu'aux Etats-Unis. La collecte, le partage, et la revente d'informations personnelles par les courtiers de données (data brokers) est un problème majoritairement spécifique aux Etats-Unis. Dans beaucoup d'autre pays, comme la France, vos données sont protégées par des règlementations comme la RGPD (Espace Européen). Nous soutiendrons toujours les initiatives similaires de protections des données aux Etats-Unis, mais, à défaut de mieux, nous proposons ces solutions "provisoires".
 
 De manière contre-intuitive, la suppression de vos données personnelles sur ces sites nécessite parfois de _fournir_ vos données personnelles à ces entreprises pour qu'elles puissent accéder à votre demande. Malheureusement, dans la plupart des cas, cela vaut la peine de le faire pour minimiser la quantité de données personnelles vous concernant qui sont accessibles au public.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Essayez</p>
 
-Utiliser votre [moteur de recherche](search-engines.md) favori pour voir si vos données sont facilement accessible en cherchant votre nom entre guillemet et votre position approximative. Par exemple, cherchez : "Paul Martin" Paris France. Il est fréquent que vos informations personnelles figurent parmi les premiers résultats. Même si les résultats vous concernant ne sont pas immédiatement disponibles, vous pouvez quand même être concerné. Vous pouvez utiliser la liste de courtiers en données ci-dessous pour vérifier si vos données sont accessibles dans des bases de données publiques.
+Utiliser votre [moteur de recherche](search-engines.md) favori pour voir si vos données sont facilement accessible en cherchant votre nom entre guillemet et votre position approximative. Par exemple, cherchez `"Paul Martin" Paris France`. Il est fréquent que vos informations personnelles figurent parmi les premiers résultats. Même si les résultats vous concernant ne sont pas immédiatement disponibles, vous pouvez quand même être concerné. Vous pouvez utiliser la liste de courtiers en données ci-dessous pour vérifier si vos données sont accessibles dans des bases de données publiques.
 
 </div>
 
@@ -50,11 +50,11 @@ Evitez de vous épuiser ou de vous laisser déborder par ce processus. A moins d
 
 Pour cela, vous pouvez par exemple consulter un seul site par semaine, en commençant par le haut de la liste. Continuer le prochain site la semaine suivante, et ainsi de suite. Lorsque vous avez atteint la fin de la liste, vous pouvez recommencer à nouveau depuis le début.
 
-This sets you up on a nice schedule to re-review each website approximately every 3-4 months, and breaks down the process into simple 5 minute tasks you can easily add to your weekly routine.
+Une telle organisation vous permet de re-vérifier chaque site web approximativement tous les 3-4 mois, et divise le travail en tâches simples et rapides à intégrer à votre routine habituelle.
 
 </div>
 
-Once you have opted-out of all of these sites for the first time, it's best to wait a week or two for the requests to propagate to all their sites. Then, you can start to search and opt-out of any remaining sites you find. It can be a good idea to use a web crawler like [Google's _Results about you_](#google-results-about-you-free) tool to help find any data that remains on the internet.
+Après avoir supprimé vos données de tous ces sites pour la première fois, il est préférable d'attendre une ou deux semaines que les requêtes soient transmises à tous les sites secondaires. Ensuite, vous pouvez commencer à chercher et faire vos demandes de suppression sur tous les sites restants que vous pourrez trouver. It can be a good idea to use a web crawler like [Google's _Results about you_](#google-results-about-you-free) tool to help find any data that remains on the internet.
 
 Otherwise, privacy journalist Yael Grauer has compiled an excellent list of data broker sites with direct links to their search tools and opt-out pages. You can take some time to go through each site to determine whether they have your information, and remove it:
 
