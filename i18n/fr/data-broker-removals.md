@@ -80,23 +80,23 @@ Certains sites pris en charge par EasyOptOut sont accessibles au public. Pour ce
 Our [testing](https://www.privacyguides.org/articles/2025/02/03/easyoptouts-review) indicates that EasyOptOuts provides the best value out of any data removal service we've tested, with a very affordable price and high effectiveness. Les [conclusions indépendantes de Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) suggèrent également que EasyOptOut est un des services de suppression de données les plus performants.
 
 <div class="admonition failure" markdown>
-<p class="admonition-title">High priority sites not supported by EasyOptOuts</p>
+<p class="admonition-title">Sites prioritaires non-pris en charge par EasyOptOut</p>
 
-EasyOptOuts does not cover the following sites we consider to be "high priority," so you should still manually opt-out of:
+Certains sites que nous considérons "hautement prioritaire" ne sont pas pris en charge par EasyOptOut, vous devriez donc manuellement faire des demandes de suppression pour les sites suivants :
 
 - Intelius ([Recherche](https://intelius.com), [Suppression](https://suppression.peopleconnect.us/login))
 - PeekYou ([Recherche](https://peekyou.com), [Suppression](https://peekyou.com/about/contact/ccpa_optout/do_not_sell))
 
 </div>
 
-## Google _Results About You_ <small>Free</small>
+## _Résultats vous concernant_ de Google <small>Gratuit</small>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Google is a data collector themselves</p>
+<p class="admonition-title">Vos données sont également collectées par Google eux-mêmes</p>
 
-This method will require you to submit your personal information to Google for them to periodically monitor their search results for. Google claims to not use the information provided to this tool to "personalize your experiences" across other Google products.
+Pour la méthode suivante, vous aurez besoin de fournir vos informations personnelles à Google pour qu'ils puissent surveiller périodiquement leurs résultats de recherche. Google prétend ne pas utiliser les informations fournies dans cet outil pour "personnaliser votre expérience" sur les autres produits Google.
 
-While Google is not a data broker themselves _per se_, as they don't sell or share your data with outside parties, some may find this relationship unacceptable. You should always decide whether the benefits of this tool outweigh the drawbacks for your individual situation.
+Bien que Google ne soit pas lui-même un courtier en données _à proprement parler_, puisqu'il ne vend ni ne partage vos données à des tiers, certains trouvent ces prérequis inacceptables. You should always decide whether the benefits of this tool outweigh the drawbacks for your individual situation.
 
 </div>
 
