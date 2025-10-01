@@ -4,7 +4,7 @@ icon: material/hand-coin
 description: Vos habitudes d'achat sont le Saint-Graal du ciblage publicitaire, mais vous avez encore beaucoup d'options lorsqu'il s'agit d'effectuer des paiements en privé.
 ---
 
-Data about your buying habits is considered the holy grail of ad targeting: Your purchases can leak a veritable treasure trove of data about you. Malheureusement, le système financier actuel est, de par sa conception, hostile à la protection de la vie privée, car il permet aux banques, aux autres entreprises et aux gouvernements de retracer facilement les transactions. Néanmoins, vous disposez de nombreuses options pour effectuer des paiements de façon privée.
+Ce n'est pas pour rien que les données relatives à vos habitudes d'achat sont considérées comme le Saint-Graal du ciblage publicitaire : vos achats peuvent constituer un véritable trésor de données vous concernant. Malheureusement, le système financier actuel est, de par sa conception, hostile à la protection de la vie privée, car il permet aux banques, aux autres entreprises et aux gouvernements de retracer facilement les transactions. Néanmoins, vous disposez de nombreuses options pour effectuer des paiements de façon privée.
 
 ## Argent liquide
 
@@ -18,7 +18,7 @@ En dépit de ce qui précède, l'argent liquide est généralement la meilleure 
 
 Il est relativement simple d'acheter des cartes-cadeaux et des cartes prépayées dans la plupart des magasins d'alimentation et des commerces de proximité avec de l'argent liquide. Les cartes-cadeaux ne sont généralement pas payantes, mais les cartes prépayées le sont souvent. Il convient donc d'être attentif à ces frais et aux dates d'expiration. Certains magasins peuvent demander à voir votre pièce d'identité à la caisse afin de réduire les fraudes.
 
-Les cartes-cadeaux sont généralement assorties d'une limite de 200 $ par carte, mais certaines offrent des limites allant jusqu'à 2 000 $ par carte. Prepaid cards (e.g. from Visa or Mastercard) usually have limits of up to $1,000 per card.
+Les cartes-cadeaux sont généralement assorties d'une limite de 200 $ par carte, mais certaines offrent des limites allant jusqu'à 2 000 $ par carte. Les cartes prépayées (p.ex. Visa ou Mastercard) ont généralement pour limite $1000  par carte.
 
 Les cartes-cadeaux ont l'inconvénient d'être soumises aux politiques des commerçants, qui peuvent avoir des conditions et des restrictions terribles. Par exemple, certains commerçants n'acceptent pas exclusivement les paiements par carte-cadeau ou peuvent annuler la valeur de la carte s'ils considèrent que vous êtes un utilisateur à haut risque. Une fois que vous disposez d'un crédit commercial, le commerçant exerce un contrôle important sur ce crédit.
 
@@ -44,7 +44,7 @@ Ce sont généralement de bonnes options pour les paiements récurrents/abonneme
 
 ## Crypto-monnaie
 
-Les crypto-monnaies sont une forme numérique de monnaie conçue pour fonctionner sans autorités centrales telles qu'un gouvernement ou une banque. Bien que *certaines* cryptomonnaies vous permettent d'effectuer des transactions privées en ligne, beaucoup d'entre elles utilisent une chaîne de blocs publique qui ne garantit pas la confidentialité des transactions. Les cryptomonnaies ont également tendance à être très volatiles, ce qui signifie que leur valeur peut changer rapidement et de manière non négligeable à tout moment. C'est pourquoi nous ne recommandons généralement pas d'utiliser les crypto-monnaies comme réserve de valeur à long terme. If you decide to use cryptocurrency online, make sure you have a full understanding of its privacy aspects beforehand, and only purchase amounts which would not be disastrous to lose.
+Les crypto-monnaies sont une forme numérique de monnaie conçue pour fonctionner sans autorités centrales telles qu'un gouvernement ou une banque. Bien que *certaines* cryptomonnaies vous permettent d'effectuer des transactions privées en ligne, beaucoup d'entre elles utilisent une chaîne de blocs publique qui ne garantit pas la confidentialité des transactions. Les cryptomonnaies ont également tendance à être très volatiles, ce qui signifie que leur valeur peut changer rapidement et de manière non négligeable à tout moment. C'est pourquoi nous ne recommandons généralement pas d'utiliser les crypto-monnaies comme réserve de valeur à long terme. Si vous décidez d'utiliser des crypto-monnaies en ligne, assurez-vous au préalable de bien comprendre les aspects liés à la protection de la vie privée et n'achetez que des montants qu'il ne serait pas désastreux de perdre.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger</p>
@@ -73,7 +73,7 @@ Les transactions anonymes sur une chaîne de blocs publique sont *théoriquement
 
 ### Garde du portefeuille
 
-Il existe deux types de portefeuilles pour les crypto-monnaies : les portefeuilles dépositaires et les portefeuilles non-dépositaires. Les portefeuilles dépositaires sont gérés par des sociétés centralisées ou des centres d'échange, qui détiennent la clé privée de votre portefeuille, et vous pouvez y accéder n'importe où, en général avec un nom d'utilisateur et un mot de passe ordinaires. Les portefeuilles non dépositaires sont des portefeuilles dont vous contrôlez et gérez les clés privées permettant d'y accéder. Assuming you keep your wallet's private keys secured and backed up, self-custody wallets provide greater security and censorship resistance over custodial wallets, because your cryptocurrency can't be stolen or frozen by a company with custody over your private keys. La garde des clés est particulièrement importante lorsqu'il s'agit de crypto-monnaies privées : les portefeuilles dépositaires permettent à la société d'exploitation de consulter vos transactions, ce qui annule les avantages de ces crypto-monnaies sur la protection de la vie privée.
+Il existe deux types de portefeuilles pour les crypto-monnaies : les portefeuilles dépositaires et les portefeuilles non-dépositaires. Les portefeuilles dépositaires sont gérés par des sociétés centralisées ou des centres d'échange, qui détiennent la clé privée de votre portefeuille, et vous pouvez y accéder n'importe où, en général avec un nom d'utilisateur et un mot de passe ordinaires. Les portefeuilles non dépositaires sont des portefeuilles dont vous contrôlez et gérez les clés privées permettant d'y accéder. Si vous conservez les clés privées de votre portefeuille en toute sécurité et que vous les sauvegardez, les portefeuilles non dépositaires offrent une plus grande sécurité et une meilleure résistance à la censure que les portefeuilles dépositaires, car vos crypto-monnaies ne peuvent pas être volées ou gelées par une entreprise qui garde vos clés privées. La garde des clés est particulièrement importante lorsqu'il s'agit de crypto-monnaies privées : les portefeuilles dépositaires permettent à la société d'exploitation de consulter vos transactions, ce qui annule les avantages de ces crypto-monnaies sur la protection de la vie privée.
 
 ### Acquisition
 
@@ -85,7 +85,7 @@ Si vous optez pour cette solution, veillez à acheter des Monero à des moments 
 
 ## Autres considérations
 
-When you're making a payment in person with cash, make sure to keep your in-person privacy in mind. Les caméras de sécurité sont omniprésentes. Envisagez de porter des vêtements non distincts et un masque facial (tel qu'un masque chirurgical ou N95). Ne vous inscrivez pas à des programmes de récompense et ne fournissez pas d'autres informations vous concernant.
+Lorsque vous effectuez un paiement en personne avec de l'argent liquide, n'oubliez pas de penser à votre vie privée physique. Les caméras de sécurité sont omniprésentes. Envisagez de porter des vêtements non distincts et un masque facial (tel qu'un masque chirurgical ou N95). Ne vous inscrivez pas à des programmes de récompense et ne fournissez pas d'autres informations vous concernant.
 
 Lorsque vous achetez en ligne, l'idéal est de le faire sur [Tor](tor-overview.md). Cependant, de nombreux commerçants n'autorisent pas les achats avec Tor. Vous pouvez envisager d'utiliser un [VPN recommandé](../vpn.md) (payé en espèces, par carte-cadeau ou par Monero), ou d'effectuer l'achat dans un café ou une bibliothèque disposant d'une connexion Wi-Fi gratuite. Si vous commandez un article physique qui doit être livré, vous devrez fournir une adresse de livraison. Vous devriez envisager d'utiliser une boîte postale, une boîte aux lettres privée ou une adresse professionnelle.
 
