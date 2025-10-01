@@ -15,25 +15,25 @@ Les distributions Linux sont généralement recommandées pour la protection de 
 
 ## Distributions traditionnelles
 
-### Fedora Linux
+### Linux Fedora
 
 <div class="admonition recommendation" markdown>
 
-![Fedora logo](assets/img/linux-desktop/fedora.svg){ align=right }
+![Logo de Fedora](assets/img/linux-desktop/fedora.svg){ align=right }
 
-**Fedora Linux** is our recommended desktop distribution for people new to Linux. Fedora adapte généralement les nouvelles technologies (p. ex. [Wayland](https://wayland.freedesktop.org) et [PireWire](https://pipewire.org)) avant les autres distributions. Ces nouvelles technologies s'accompagnent souvent d'améliorations générales en matière de sécurité, de vie privée et d'ergonomie.
+Pour les personnes débutant sur Linux, nous recommandons la distribution **Fedora**. Fedora adapte généralement les nouvelles technologies (p. ex. [Wayland](https://wayland.freedesktop.org) et [PireWire](https://pipewire.org)) avant les autres distributions. Ces nouvelles technologies s'accompagnent souvent d'améliorations générales en matière de sécurité, de vie privée et d'ergonomie.
 
-[:octicons-home-16: Homepage](https://fedoraproject.org){ .md-button .md-button--primary }
+[:octicons-home-16: Page d'accueil](https://fedoraproject.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.fedoraproject.org/en-US/docs){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title="Contribute" }
+[:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title="Contribuer" }
 
 </details>
 
 </div>
 
-Fedora comes in two primary desktop editions, [Fedora Workstation](https://fedoraproject.org/workstation), which uses the GNOME desktop environment, and [Fedora KDE Plasma Desktop](https://fedoraproject.org/kde), which uses KDE. Historically, Fedora Workstation has been more popular and widely recommended, but KDE has been gaining in popularity and provides an experience more similar to Windows, which may make transitioning to Linux easier for some. The security and privacy benefits of both editions are very similar, so it mostly comes down to personal preference.
+Les deux éditions principales de Fedora sont [Fedora Workstation](https://fedoraproject.org/workstation), qui utilise l'environnement de bureau GNOME, et [Fedora KDE Plasma Desktop](https://fedoraproject.org/kde), qui utilise KDE. Fedora Workstation est historiquement l'édition la plus populaire, mais KDE gagne de plus en plus en popularité et propose une expérience plus proche de Windows, ce qui peut faciliter la transition vers Linux pour certaines personnes. Les avantages en termes de sécurité et de confidentialité des deux éditions sont très similaires, il s'agit donc avant tout de préférence personnelle.
 
-Fedora a un cycle de publication semi-continu. While some packages like the desktop environment are frozen until the next Fedora release, most packages (including the kernel) are updated frequently throughout the lifespan of the release. Chaque version de Fedora est supportée pendant un an, avec une nouvelle version publiée tous les 6 mois.
+Fedora a un cycle de publication semi-continu. Si certains paquets comme l'environnement de bureau sont bloqués jusqu'à la prochaine version de Fedora, la majorité des paquets (y compris le kernel) sont fréquemment mis à jour. Chaque version de Fedora est supportée pendant un an, avec une nouvelle version publiée tous les 6 mois.
 
 ### openSUSE Tumbleweed
 
@@ -45,9 +45,9 @@ Fedora a un cycle de publication semi-continu. While some packages like the desk
 
 openSUSE Tumbleweed utilise [Btrfs](https://en.wikipedia.org/wiki/Btrfs) and [Snapper](https://en.opensuse.org/openSUSE:Snapper_Tutorial) pour s'assurer que le système peut être restauré à une version précédente en cas de problème.
 
-[:octicons-home-16: Homepage](https://get.opensuse.org/tumbleweed){ .md-button .md-button--primary }
+[:octicons-home-16: Page d'accueil](https://get.opensuse.org/tumbleweed){ .md-button .md-button--primary }
 [:octicons-info-16:](https://doc.opensuse.org){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://shop.opensuse.org){ .card-link title="Contribute" }
+[:octicons-heart-16:](https://shop.opensuse.org){ .card-link title="Contribuer" }
 
 </details>
 
@@ -63,9 +63,9 @@ Tumbleweed suit un modèle de publication continu où chaque mise à jour est pu
 
 **Arch Linux** est une distribution légère et do-it-yourself (DIY), ce qui veut dire que vous n'obtenez que ce que vous installez. Pour plus d'informations, voir leur [FAQ](https://wiki.archlinux.org/title/Frequently_asked_questions_(Fran%C3%A7ais)).
 
-[:octicons-home-16: Homepage](https://archlinux.org){ .md-button .md-button--primary }
+[:octicons-home-16: Page d'accueil](https://archlinux.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://wiki.archlinux.org){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://archlinux.org/donate){ .card-link title="Contribute" }
+[:octicons-heart-16:](https://archlinux.org/donate){ .card-link title="Contribuer" }
 
 </details>
 
@@ -79,7 +79,7 @@ Une grande portion des [packages d'Arch Linux](https://reproducible.archlinux.or
 
 ## Distributions atomiques
 
-**Les distributions atomiques** (parfois également appelées **distributions immuables**) sont des systèmes d'exploitation qui gèrent l'installation et la mise à jour des paquets en superposant les changements à l'image de base du système, plutôt qu'en modifiant directement le système. Advantages of atomic distros include increased stability and the ability to easily roll back updates. Voir [*Mises à jour traditionnelles vs. atomiques*](os/linux-overview.md#traditional-vs-atomic-updates) pour plus d'informations.
+**Les distributions atomiques** (parfois également appelées **distributions immuables**) sont des systèmes d'exploitation qui gèrent l'installation et la mise à jour des paquets en superposant les changements à l'image de base du système, plutôt qu'en modifiant directement le système. Les distributions dites "atomiques" sont plus stables et permettent plus facilement de revenir en arrière sur les mises à jour. Voir [*Mises à jour traditionnelles vs. atomiques*](os/linux-overview.md#traditional-vs-atomic-updates) pour plus d'informations.
 
 ### Fedora Atomic Desktops
 
@@ -89,9 +89,9 @@ Une grande portion des [packages d'Arch Linux](https://reproducible.archlinux.or
 
 **Fedora Atomic Desktops** sont des variantes de Fedora qui utilisent le gestionnaire de paquets `rpm-ostree` et qui sont fortement axées sur les flux de travail conteneurisés et Flatpak pour les applications de bureau. Toutes ces variantes suivent le même calendrier de publication que Fedora Workstation, bénéficiant des mêmes mises à jour rapides et restant très proches de l'original.
 
-[:octicons-home-16: Homepage](https://fedoraproject.org/atomic-desktops){ .md-button .md-button--primary }
+[:octicons-home-16: Pafe d'accueil](https://fedoraproject.org/atomic-desktops){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.fedoraproject.org/en-US/emerging){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title="Contribute" }
+[:octicons-heart-16:](https://whatcanidoforfedora.org){ .card-link title="Contribuer" }
 
 </details>
 

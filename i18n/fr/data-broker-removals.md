@@ -77,7 +77,7 @@ Si vous ne souhaitez pas utiliser de scanner automatique pour vérifier les rés
 
 Certains sites pris en charge par EasyOptOut sont accessibles au public. Pour ces sites en particulier, EasyOptOut effectuera une recherche et ne fera une demande de suppression que si vos données personnelles sont effectivement trouvables, afin d'éviter de fournir vos données à des sites qui ne les auraient pas déjà. Cependant, EasyOptOut prend également en charge certains sites qui ne sont pas accessibles au public, dans ces cas là EasyOptOut envoit dans tous les cas une demande de suppression, au cas où vos données soient présente dans leur base de données privée.
 
-Our [testing](https://www.privacyguides.org/articles/2025/02/03/easyoptouts-review) indicates that EasyOptOuts provides the best value out of any data removal service we've tested, with a very affordable price and high effectiveness. Les [conclusions indépendantes de Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) suggèrent également que EasyOptOut est un des services de suppression de données les plus performants.
+Notre [test](https://www.privacyguides.org/articles/2025/02/03/easyoptouts-review) suggère que EasyOptOut propose le meilleur service de suppression de données de ceux que nous avons pu tester, d'une grande efficacité et à un prix très abordable. Les [conclusions indépendantes de Consumer Reports](https://discuss.privacyguides.net/t/consumer-reports-evaluating-people-search-site-removal-services/19948) suggèrent également que EasyOptOut est un des services de suppression de données les plus performants.
 
 <div class="admonition failure" markdown>
 <p class="admonition-title">Sites prioritaires non-pris en charge par EasyOptOut</p>
@@ -96,37 +96,37 @@ Certains sites que nous considérons "hautement prioritaire" ne sont pas pris en
 
 Pour la méthode suivante, vous aurez besoin de fournir vos informations personnelles à Google pour qu'ils puissent surveiller périodiquement leurs résultats de recherche. Google prétend ne pas utiliser les informations fournies dans cet outil pour "personnaliser votre expérience" sur les autres produits Google.
 
-Bien que Google ne soit pas lui-même un courtier en données _à proprement parler_, puisqu'il ne vend ni ne partage vos données à des tiers, certains trouvent ces prérequis inacceptables. You should always decide whether the benefits of this tool outweigh the drawbacks for your individual situation.
+Bien que Google ne soit pas lui-même un courtier en données _à proprement parler_, puisqu'il ne vend ni ne partage vos données à des tiers, certains trouvent inacceptable d'utiliser un outil de Google pour cet usage. Vous devriez toujours évaluer selon votre situation personnelle si les avantages d'un outil l'emportent sur les inconvénients.
 
 </div>
 
 <div class="admonition recommendation" markdown>
 
-![Google logo](assets/img/data-broker-removals/google.svg){ align=right }
+![Logo de Google](assets/img/data-broker-removals/google.svg){ align=right }
 
-**Results about you** is a free tool which helps you discover whether your personal contact information, including your home address, phone number, and email address, appears in Google search results. If any personal information is found, you can request its removal.
+**Résultats vous concernant** est un outil gratuit vous permettant de découvrir si vos informations personnelles de contact, y compris votre adresse postale, numéro de téléphone et adresse mail, apparaissent dans les résultats de recherche Google. Si des données personnelles sont trouvées, vous pouvez demander leur suppression.
 
 [:octicons-globe-16: Open Web Tool](https://myactivity.google.com/results-about-you){ .md-button .md-button--primary }
 [:octicons-info-16:](https://support.google.com/websearch/answer/12719076){ .card-link title=Documentation}
 
 </div>
 
-In many cases, a Google search is the first place a potential stalker or abuser would look to find your personal information, which could make using it a worthwhile trade-off. However, this tool does not remove your information from the discovered websites themselves, only their listings on Google. You should still consider manually opting out from the results which are discovered, or using another service which automatically opts you out from those sites directly.
+Utiliser cet outil peut potentiellement valoir le coup car, dans la plupart des cas, faire une recherche Google est le premier réflexe d'un harceleur ou d'un agresseur lorsqu'il cherche des informations vous concernant. Cependant, cet outil de vous permet pas de supprimer les informations découvertes des sites web, uniquement de l'indexation de Google. Vous devriez toujours envisager de faire manuellement des demandes de suppression pour chaque site apparaissant dans les résultats, ou utiliser un service qui effectue automatiquement ces demandes.
 
-You can add up to 3 addresses, 3 phone numbers, and 3 email addresses to your Google account to monitor for. The service is only available in select markets (initially the US and UK) to users over 18.
+L'outil vous permet de surveiller jusqu'à 3 adresses postales, 3 numéros de téléphone, et 3 adresses mail par compte Google. Ce service n'est disponible que sur certains marchés (initiallement les Etats-Unis et le Royaume Unis) et pour les utilisateurs de plus de 18 ans.
 
-When results are found, they will be available for review in this web tool. You can also optionally receive an email notification delivered to the account's Gmail address that lets you know when new results are found. You will then be able to click **Request to remove** on each discovered listing, and Google will review the request.
+Lorsque des résultats sont trouvés, ils seront disponibles à la consultation dans cet outil web. Vous pouvez également choisir de recevoir un mail de notification sur l'adresse mail du compte Google lorsque de nouveaux résultats sont découverts. Vous pourrez alors cliquer sur **Demande de suppression** (**Request to remove**) sur chacun des résultats, et Google examinera la demande.
 
-In our testing, this tool worked to reliably remove people search sites from Google search results, but was not effective against websites that showed _corporate_ filing information, even if you used your personal address to register a company, nor was it effective against social media profiles.
+Lors de notre test, cet outil a permis de supprimer de manière fiable les sites de recherche de personnes des résultats de recherche Google, mais n'était pas efficace contre les sites fournissant des informations sur les _entreprises_, même lorsqu'une adresse personnelle était utilisée pour enregistrer une entreprise. Il n'a pas non plus été efficace pour les profils de réseaux sociaux.
 
 ## Critères
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing a data removal service, and conduct your own research to ensure it's the right choice for you.
+**Nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de nos [critères standards](about/criteria.md), nous avons mis en place un ensemble d'exigences claires nous permettant de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir un service de suppression de données, et d'effectuer vos propres recherches afin de vous assurer que le service correspond à vos exigences personnelles.
 
-Our picks for removal services are primarily based on independent professional testing from third-parties as noted in the sections above, our own internal testing, and aggregated reviews from our community.
+Notre sélection de service de suppression de données est principalement basée sur des tests professionnels indépendants effectués par des tiers comme précisé dans les sections ci-dessus, ainsi que sur nos propres tests réalisés en interne et sur l'ensemble des avis de notre communauté.
 
-- Must not be a white labeled service or reseller of another provider.
-- Must not be affiliated with the data broker industry or purchase advertising on people search sites.
-- Must only use your personal data for the purposes of opting you out of data broker databases and people search sites.
+- Ne doit pas être un service "marque blanche" (white labeled service) ou un revendeur d'un autre fournisseur.
+- Ne doit pas être affilié à l'industrie de la revente de données ou acheter de la publicité sur des sites de recherche de personnes.
+- Doit utiliser vos données personnelles uniquement pour faire les demande de suppression sur les sites de courtiers en données et sur les sites de recherche de personne.
 
-[^1]: If you _are_ immediately threatened by stalkers or other threats, you should strongly consider an automated tool like [EasyOptOuts](#easyoptouts-paid), at least for the initial "purge." When things are more manageable in the future you can come back to the manual process. Of course, in a dangerous situation your first priority should always be to seek professional help [from police](https://onlineharassmentfieldmanual.pen.org/involving-law-enforcement) or others before tackling it on your own.
+[^1]: Si vous _êtes_ menacé dans l'immédiat par des harceleurs ou autres menaces, nous vous recommandons fortement d'utiliser un service automatisé comme [EasyOptOuts](#easyoptouts-paid), au moins pour une première "purge". Une fois que la situation se sera stabilisée, vous pourrez revenir à une méthode manuelle. Évidemment, dans une situation dangereuse, votre priorité doit être d'avoir recours à d'autre personne ou à [la police](https://onlineharassmentfieldmanual.pen.org/involving-law-enforcement) lorsque cela est possible avant de chercher à régler le problème par vous-même.
