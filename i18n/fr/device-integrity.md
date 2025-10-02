@@ -28,7 +28,7 @@ Cela signifie qu'un attaquant devrait régulièrement réinfecter votre appareil
 Si l'un des outils suivants indique une compromission potentielle par un logiciel espion tel que Pegasus, Predator ou KingsPawn, nous vous conseillons de contacter :
 
 - Pour un défenseur des droits de l'Homme, un journaliste, ou un membre d'une organisation de la société civile : [Le Laboratoire de Sécurité d'Amnesty International](https://securitylab.amnesty.org/contact-us)
-- If a business or government device is compromised: the appropriate security liaison at your enterprise, department, or agency
+- Si un appareil professionnel ou gouvernemental est compromis : contactez le responsable de la sécurité de votre entreprise, département, ou institution
 - Les forces de l'ordre locales
 
 **Nous ne sommes pas en mesure de vous aider directement au-delà de ces conseils.** Nous sommes disposés à discuter de votre situation ou de vos circonstances particulières et à examiner vos résultats dans nos espaces [communautaires](https://discuss.privacyguides.net), mais il est peu probable que nous puissions vous aider au-delà de ce qui est écrit sur cette page.
@@ -42,24 +42,24 @@ Les outils présentés sur cette page sont uniquement capables de détecter les 
 Ces outils fournissent une analyse basée sur les informations auxquelles ils ont accès à partir de votre appareil et sur les indicateurs de compromission accessibles au public. Il est important de garder à l'esprit deux choses :
 
 1. Les indicateurs de compromissions ne sont que cela : des _indicateurs_. Ils ne constituent pas un résultat définitif et peuvent parfois être des **faux positifs**. Si un indicateur de compromission est détecté, cela signifie que vous devez effectuer des recherches supplémentaires sur la menace _potentielle_.
-2. Les indicateurs de compromission recherchés par ces outils sont publiés par des organismes de recherche sur les menaces, mais tous les indicateurs ne sont pas mis à la disposition du public ! Cela signifie que ces outils peuvent présenter un **faux négatif**, si votre appareil est infecté par un logiciel espion qui n'est détecté par aucun des indicateurs publics. Reliable and comprehensive digital forensic support and triage require access to non-public indicators, research, and threat intelligence.
+2. Les indicateurs de compromission recherchés par ces outils sont publiés par des organismes de recherche sur les menaces, mais tous les indicateurs ne sont pas mis à la disposition du public ! Cela signifie que ces outils peuvent présenter un **faux négatif**, si votre appareil est infecté par un logiciel espion qui n'est détecté par aucun des indicateurs publics. Une prise en charge et un triage criminalistiques fiables et complets nécessite un accès à des indicateurs non-accessible au public, à des recherches et à des renseignements sur les menaces.
 
 ## Outils de vérification externes
 
-<small>Protects against the following threat(s):</small>
+<small>Protège contre les menaces suivantes :</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-target-account: Attaques Ciblées](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 
-External verification tools run on your computer and scan your mobile device for forensic traces, which are helpful to identify potential compromise.
+Les outils de vérification externe sont exécutés sur votre ordinateur et analysent votre téléphone à la recherche de traces criminalistiques, utiles pour identifier une compromission potentielle.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">Danger</p>
 
 Les indicateurs publics de compromission ne suffisent pas à déterminer qu'un appareil est "propre" et qu'il n'a pas été ciblé par un logiciel espion particulier. En se fiant uniquement aux indicateurs publics, il est possible de passer à côté de traces médico-légales récentes et de donner un faux sentiment de sécurité.
 
-Reliable and comprehensive digital forensic support and triage require access to non-public indicators, research, and threat intelligence.
+Une prise en charge et un repérage criminalistiques fiables et complets nécessite un accès à des indicateurs non accessible au public, à des recherches et à des renseignements sur les menaces.
 
-Such support is available to civil society through [Amnesty International's Security Lab](https://amnesty.org/en/tech) or [Access Now’s Digital Security Helpline](https://accessnow.org/help).
+Une telle prise en charge est possible pour la société civile auprès du [Laboratoire de Sécurité d'Amnesty International](https://amnesty.org/en/tech) ou du [Service d'Assistance sur la Sécurité Numérique d'Access Now](https://accessnow.org/help).
 
 </div>
 
@@ -72,13 +72,13 @@ Ces outils peuvent déclencher des faux positifs. Si l'un de ces outils détecte
 ![MVT logo](assets/img/device-integrity/mvt.webp#only-light){ align=right }
 ![MVT logo](assets/img/device-integrity/mvt-dark.png#only-dark){ align=right }
 
-Le **Mobile Verification Toolkit** (**MVT**) est une collection d'utilitaires qui simplifie et automatise le processus d'analyse des appareils mobiles à la recherche de traces potentielles de ciblage ou d'infection par des campagnes connues de logiciels espions. MVT was developed by Amnesty International and released in 2021 in the context of the [Pegasus Project](https://forbiddenstories.org/about-the-pegasus-project).
+Le **Mobile Verification Toolkit** (**MVT**) est une collection d'utilitaires qui simplifie et automatise le processus d'analyse des appareils mobiles à la recherche de traces potentielles de ciblage ou d'infection par des campagnes connues de logiciels espions. Amnesty International a développé et mis à disposition MTV en 2021, dans le contexte du [Projet Pegasus](https://forbiddenstories.org/about-the-pegasus-project).
 
-[:octicons-home-16: Homepage](https://mvt.re){ .md-button .md-button--primary }
-[:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="Source Code" }
+[:octicons-home-16: Page d'Accueil](https://mvt.re){ .md-button .md-button--primary }
+[:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:simple-apple: macOS](https://docs.mvt.re/en/latest/install)
 - [:simple-linux: Linux](https://docs.mvt.re/en/latest/install)
@@ -94,7 +94,7 @@ L'utilisation de MVT ne suffit pas à déterminer qu'un appareil est "propre" et
 
 </div>
 
-MVT est _plus_ utile pour scanner les appareils iOS. Android stores very little diagnostic information useful to triage potential compromises, and because of this, `mvt-android` capabilities are limited as well. Par contre, les sauvegardes iTunes iOS chiffrées fournissent un sous-ensemble suffisamment important de fichiers stockés sur l'appareil pour détecter les artefacts suspects dans de nombreux cas. Ceci étant dit, MVT fournit tout de même des outils assez utiles pour l'analyse des systèmes iOS et Android.
+MVT est _plus_ utile pour scanner les appareils iOS. Android ne conserve que très peu d'informations de diagnostic utiles au repérage de compromission potentielles, limitant également par ailleurs l'efficacité de `mvt-android`. Par contre, les sauvegardes iTunes iOS chiffrées fournissent un sous-ensemble suffisamment important de fichiers stockés sur l'appareil pour détecter les artefacts suspects dans de nombreux cas. Ceci étant dit, MVT fournit tout de même des outils assez utiles pour l'analyse des systèmes iOS et Android.
 
 Si vous utilisez iOS et que vous présentez un risque élevé, nous avons trois suggestions supplémentaires à vous faire :
 
@@ -116,12 +116,12 @@ MVT vous permet d'effectuer des analyses plus approfondies si votre appareil est
 
 **iMazing** fournit un outil gratuit d'analyse des logiciels espions pour les appareils iOS qui agit comme une interface graphique pour [MVT](#mobile-verification-toolkit). Il peut être beaucoup plus facile à utiliser que MVT, qui lui est un outil en ligne de commande conçu pour les technologues et les enquêteurs judiciaires.
 
-[:octicons-home-16: Homepage](https://imazing.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://imazing.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://imazing.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://imazing.com/privacy-policy){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://imazing.com/spyware-analyzer){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:fontawesome-brands-windows: Windows](https://imazing.com/download)
 - [:simple-apple: macOS](https://imazing.com/download)
