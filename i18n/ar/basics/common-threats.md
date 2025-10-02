@@ -34,7 +34,7 @@ description: نموذج تهديداتك يخصّك شخصيًا، ولكن هذ
 <span class="pg-blue">:material-eye-outline: **المراقبة الجماعيّة**</span>
 :
 
-Protection from government agencies, organizations, websites, and services which work together to track your activities.
+الحماية من وكالات الحكومة، ومؤسساتها، ومواقعها الإلكترونية، وخدماتها التي تعمل معًا لتعقّب أنشطتك.
 
 <span class="pg-brown">:material-account-cash: **Surveillance Capitalism**</span>
 :
