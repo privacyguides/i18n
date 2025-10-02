@@ -121,7 +121,7 @@ Lors de notre test, cet outil a permis de supprimer de manière fiable les sites
 
 ## Critères
 
-**Nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de nos [critères standards](about/criteria.md), nous avons mis en place un ensemble d'exigences claires nous permettant de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir un service de suppression de données, et d'effectuer vos propres recherches afin de vous assurer que le service correspond à vos exigences personnelles.
+**Nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de nos [critères de base](about/criteria.md), nous avons mis en place un ensemble d'exigences claires nous permettant de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir un service de suppression de données, et d'effectuer vos propres recherches afin de vous assurer que le service correspond à vos exigences personnelles.
 
 Notre sélection de service de suppression de données est principalement basée sur des tests professionnels indépendants effectués par des tiers comme précisé dans les sections ci-dessus, ainsi que sur nos propres tests réalisés en interne et sur l'ensemble des avis de notre communauté.
 

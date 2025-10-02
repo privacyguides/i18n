@@ -1,32 +1,32 @@
 ---
-title: Document Collaboration
+title: Documents Collaboratifs
 icon: material/account-group
-description: Most online office suites do not support end-to-end encryption, meaning the cloud provider has access to everything you do.
+description: La plupart des plateformes de bureautiques en ligne ne sont pas chiffrées de bout-en-bout, ce qui signifie que le fournisseur du cloud a accès à tout ce que vous faites sur ces plateformes.
 cover: document-collaboration.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protège contre les menaces suivantes :</small>
 
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
+- [:material-server-network: Fournisseurs de Services](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-Most online **document collaboration** platforms like Google Drive do not support end-to-end encryption, meaning the cloud provider has access to everything you do. The provider's privacy policy may legally protect your rights, but it does not provide technical access constraints.
+La majorité des plateformes de **documents collaboratifs** en ligne comme Google Drive ne sont pas chiffrées de bout-en-bout, ce qui signifie que le fournisseur du cloud a accès à tout ce que vous faites sur ces plateformes. La politique de confidentialité du fournisseur peut vous protéger légalement parlant, mais ne garantit aucunes contraintes techniques quand à l'accès à vos données.
 
 ## CryptPad
 
 <div class="admonition recommendation" markdown>
 
-![CryptPad logo](assets/img/document-collaboration/cryptpad.svg){ align=right }
+![Logo de CryptPad](assets/img/document-collaboration/cryptpad.svg){ align=right }
 
-**CryptPad** is a private-by-design alternative to popular, full-fledged office suites. All content on this web service is E2EE and can be shared with other users easily.
+**CryptPad** est une alternative "confidentielle par conception" aux suites bureautiques les plus répandues. Tout le contenu de ce service web est chiffré de bout-en-bout et peu facilement être partagé à d'autres utilisateurs.
 
-[:material-star-box: Read our latest CryptPad review.](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review)
+[:material-star-box: Notre dernière évaluation de CryptPad.](https://www.privacyguides.org/articles/2025/02/07/cryptpad-review)
 
-[:octicons-home-16: Homepage](https://cryptpad.fr){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE){ .card-link title="Privacy Policy" }
-[:octicons-server-16:](https://cryptpad.org/instances){ .card-link title="Public Instances" }
+[:octicons-home-16: Page d'Accueil](https://cryptpad.fr){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://cryptpad.fr/pad/#/2/pad/view/GcNjAWmK6YDB3EO2IipRZ0fUe89j43Ryqeb4fjkjehE){ .card-link title="Politique de Confidentialité" }
+[:octicons-server-16:](https://cryptpad.org/instances){ .card-link title="Instances Publiques" }
 [:octicons-info-16:](https://docs.cryptpad.fr){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title="Contribute" }
+[:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Code Source" }
+[:octicons-heart-16:](https://opencollective.com/cryptpad){ .card-link title="Contribuer" }
 
 </details>
 
@@ -34,20 +34,20 @@ Most online **document collaboration** platforms like Google Drive do not suppor
 
 ## Critères
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
+**Nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de nos [critères de base](about/criteria.md), nous avons mis en place un ensemble d'exigences claires nous permettant de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
 
 ### Exigences minimales
 
 - Doit être open-source.
-- Must make files accessible via WebDAV unless it is impossible due to E2EE.
-- Must have sync clients for Linux, macOS, and Windows.
-- Must support document and spreadsheet editing.
-- Must support real-time document collaboration.
-- Must support exporting documents to standard document formats (e.g. ODF).
+- Doit rendre les fichiers accessible via WebDAV, sauf si cela est impossible à cause du chiffrement bout-en-bout.
+- Doit posséder des clients de synchronisation pour Linux, macOS et Windows.
+- Doit prendre en charge la modification de document et de feuille de calcul.
+- Doit permettre une collaboration sur un document en temps réel.
+- Doit prendre en charge l'exportation de documents vers des formats standards (comme ODF).
 
 ### Dans le meilleur des cas
 
 Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
-- Should store files in a conventional filesystem.
-- Should support TOTP or FIDO2 multifactor authentication support, or passkey logins.
+- Devrait permettre de stocker les fichiers dans un système de fichiers conventionnel.
+- Devrait prendre en charge l'authentification multifactorielle TOTP, FIDO2, ou les connexions passkey.

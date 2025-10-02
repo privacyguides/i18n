@@ -23,11 +23,11 @@ Si vous utilisez déjà [Proton Drive](cloud.md#proton-drive)[^1] ou que vous di
 
 **Send** est un fork du service Firefox Send de Mozilla, qui a été abandonné, et qui vous permet d'envoyer des fichiers à d'autres personnes à l'aide d'un lien. Les fichiers sont chiffrés sur votre appareil afin qu'ils ne puissent pas être lus par le serveur, et ils peuvent également être protégés par un mot de passe. Le mainteneur de Send héberge une [instance publique](https://send.vis.ee). Vous pouvez utiliser d'autres instances publiques, ou vous pouvez héberger Send vous-même.
 
-[:octicons-home-16: Homepage](https://send.vis.ee){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Public Instances"}
+[:octicons-home-16: Page d'Accueil](https://send.vis.ee){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/timvisee/send-instances){ .card-link title="Instances Publiques"}
 [:octicons-info-16:](https://github.com/timvisee/send#readme){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title="Contribute" }
+[:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Code Source" }
+[:octicons-heart-16:](https://github.com/sponsors/timvisee){ .card-link title="Contribuer" }
 
 </details>
 
@@ -47,10 +47,10 @@ ffsend upload --host https://send.vis.ee/ FICHIER
 
 **OnionShare** est un outil open-source qui vous permet de partager en toute sécurité et [:material-incognito: anonymement](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } un fichier de n'importe quelle taille. Il fonctionne en démarrant un serveur web accessible en tant que service oignon Tor, avec une URL non devinable que vous pouvez partager avec les destinataires pour télécharger ou envoyer des fichiers.
 
-[:octicons-home-16: Homepage](https://onionshare.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Onion Service" }
+[:octicons-home-16: Page d'Accueil](https://onionshare.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://lldan5gahapx5k7iafb3s4ikijc4ni7gx5iywdflkba5y2ezyg6sjgyd.onion){ .card-link title="Service Onion" }
 [:octicons-info-16:](https://docs.onionshare.org){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/onionshare/onionshare){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
 <summary>Téléchargements</summary>
@@ -64,7 +64,7 @@ ffsend upload --host https://send.vis.ee/ FICHIER
 
 </div>
 
-OnionShare provides the option to connect via [Tor bridges](https://docs.onionshare.org/2.6.2/en/tor.html#automatic-censorship-circumvention) to circumvent [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}.
+OnionShare offre la possibilité de se connecter via des [ponts Tor](https://docs.onionshare.org/2.6.2/en/tor.html#automatic-censorship-circumvention) pour contourner la [:material-close-outline: Censure](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}.
 
 ### Critères
 
@@ -90,7 +90,7 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 [:octicons-heart-16:](https://syncthing.net/donations){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:fontawesome-brands-windows: Windows](https://syncthing.net/downloads)
 - [:simple-apple: macOS](https://syncthing.net/downloads)
@@ -115,8 +115,8 @@ OnionShare provides the option to connect via [Tor bridges](https://docs.onionsh
 
 Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
-- Should have mobile clients for iOS and Android which at least support document previews.
-- Should support photo backups from iOS and Android, and optionally support file/folder sync on Android.
+- Devrait avoir des clients mobiles pour iOS et Android qui prennent au moins en charge la prévisualisation de documents.
+- Devrait prendre en charge les sauvegardes de photos depuis iOS et Android, et éventuellement la synchronisation fichiers/dossiers sur Android.
 
-[^1]: Proton Drive allows you to [share files or folders](https://proton.me/support/drive-shareable-link) by generating a shareable public link or sending a unique link to a designated email address. Public links can be protected with a password, set to expire, and completely revoked, while links shared via email can have custom permissions and be similarly revoked. Per Proton Drive's [privacy policy](https://proton.me/drive/privacy-policy), file contents, file and folder names, and thumbnail previews are end-to-end encrypted.
-[^2]: With a [premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans) subscription, [Bitwarden Send](https://bitwarden.com/products/send) allows you to share files and text securely with [end-to-end encryption](https://bitwarden.com/help/send-encryption). A [password](https://bitwarden.com/help/send-privacy/#send-passwords) can be required along with the Send link. Bitwarden Send also features [automatic deletion](https://bitwarden.com/help/send-lifespan).
+[^1]: ProtonDrive permet de [partager des fichiers ou des dossiers](https://proton.me/support/drive-shareable-link) en générant un lien de partage public ou en envoyant un lien unique à une adresse mail spécifique. Les liens publics peuvent être protégés par un mot de passe, avoir une date limite, et être complètement révoqués, tandis que les liens partagés par mail permettent de personnaliser les permissions, en plus d'être révocables de la même manière. Selon la [politique de confidentialité](https://proton.me/drive/privacy-policy) de Proton Drive, le contenu des fichiers, les noms des dossiers et des fichiers et les aperçus sont chiffrés de bout-en-bout.
+[^2]: Avec un abonnement [premium](https://bitwarden.com/help/about-bitwarden-plans/#compare-personal-plans), [Bitwarden Send](https://bitwarden.com/products/send) permet de partager des fichiers et du texte de façon sécurisée avec un [chiffrement de bout-en-bout](https://bitwarden.com/help/send-encryption). Le lien d'envoi peut également être protégé par un [mot de passe](https://bitwarden.com/help/send-privacy/#send-passwords). Bitwarden Send permet également de configurer une [suppression automatique](https://bitwarden.com/help/send-lifespan).

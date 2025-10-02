@@ -2,10 +2,10 @@
 title: Services financiers
 icon: material/bank
 cover: financial-services.webp
-description: These services can assist you in protecting your privacy from merchants and other trackers, which is one of the biggest challenges to privacy today.
+description: Ces services peuvent vous aider à protéger votre vie privée des entreprises et des trackers, qui sont aujourd'hui les plus grandes menaces à la confidentialité.
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protège contre les menaces suivantes :</small>
 
 - [:material-account-cash: Capitalisme de surveillance](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
@@ -15,7 +15,7 @@ Effectuer des paiements en ligne est l'un des plus grands défis en matière de 
 
 ## Services de masquage des paiements
 
-<small>Protects against the following threat(s):</small>
+<small>Protège contre les menaces suivantes :</small>
 
 - [:material-account-search: Exposition publique](basics/common-threats.md#limiting-public-information ""){.pg-green}
 

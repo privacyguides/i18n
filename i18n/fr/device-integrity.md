@@ -69,8 +69,8 @@ Ces outils peuvent déclencher des faux positifs. Si l'un de ces outils détecte
 
 <div class="admonition recommendation" markdown>
 
-![MVT logo](assets/img/device-integrity/mvt.webp#only-light){ align=right }
-![MVT logo](assets/img/device-integrity/mvt-dark.png#only-dark){ align=right }
+![Logo de MVT](assets/img/device-integrity/mvt.webp#only-light){ align=right }
+![Logo de MVT](assets/img/device-integrity/mvt-dark.png#only-dark){ align=right }
 
 Le **Mobile Verification Toolkit** (**MVT**) est une collection d'utilitaires qui simplifie et automatise le processus d'analyse des appareils mobiles à la recherche de traces potentielles de ciblage ou d'infection par des campagnes connues de logiciels espions. Amnesty International a développé et mis à disposition MTV en 2021, dans le contexte du [Projet Pegasus](https://forbiddenstories.org/about-the-pegasus-project).
 
@@ -130,14 +130,14 @@ MVT vous permet d'effectuer des analyses plus approfondies si votre appareil est
 
 </div>
 
-iMazing automatise et vous guide de manière interactive tout au long du processus d'utilisation de [MVT](#mobile-verification-toolkit) pour analyser votre appareil à la recherche d'indicateurs de compromission accessibles au public et publiés par divers chercheurs en menaces. All the information and warnings which apply to MVT apply to this tool as well, so we suggest you also familiarize yourself with the notes on MVT in the sections above.
+iMazing automatise et vous guide de manière interactive tout au long du processus d'utilisation de [MVT](#mobile-verification-toolkit) pour analyser votre appareil à la recherche d'indicateurs de compromission accessibles au public et publiés par divers chercheurs en menaces. Toutes les informations et avertissements concernant MVT sont également applicable à cet outil, nous vous suggérons donc de consulter ci-dessus les remarques concernant MVT.
 
 ## Vérification sur l'appareil
 
-<small>Protects against the following threat(s):</small>
+<small>Protège contre les menaces suivantes :</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-target-account: Attaques Ciblées](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-bug-outline: Attaques Passives](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
 Il s'agit d'applications que vous pouvez installer et qui vérifient que votre appareil et votre système d'exploitation ne présentent pas de signes d'altération et qui valident l'identité de votre appareil.
 
@@ -164,7 +164,7 @@ L'utilisation de ces applications ne suffit pas à déterminer qu'un appareil es
 [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)
@@ -174,11 +174,11 @@ L'utilisation de ces applications ne suffit pas à déterminer qu'un appareil es
 
 </div>
 
-Auditor is not a scanning/analysis tool like some other tools on this page. Rather, it uses your device's hardware-backed keystore to allow you to verify the identity of your device and gain assurance that the operating system itself hasn't been tampered with or downgraded via verified boot. Cela fournit un contrôle d'intégrité très solide de l'appareil lui-même, mais qui ne permet pas nécessairement de vérifier si les applications utilisateur exécutées sur l'appareil sont malveillantes.
+Auditor n'est pas un outil d'analyse/de scan comme d'autres outils présentés dans cet article. Il utilise plutôt la base de données matérielle de votre appareil pour vous permettre de vérifier l'identité de votre appareil et de vous assurer que le système d'exploitation lui-même n'a pas été altéré ou dégradé par le biais d'un démarrage vérifié. Cela fournit un contrôle d'intégrité très solide de l'appareil lui-même, mais qui ne permet pas nécessairement de vérifier si les applications utilisateur exécutées sur l'appareil sont malveillantes.
 
-Auditor effectue l'attestation et la détection d'intrusion avec **deux** appareils, un _audité_ (l'appareil vérifié) et un _auditeur_ (l'appareil effectuant la vérification). The auditor can be any Android 10+ device (or a remote web service operated by [GrapheneOS](android/distributions.md#grapheneos)), while the auditee must be a specifically [supported device](https://attestation.app/about#device-support). Auditor fonctionne comme tel :
+Auditor effectue l'attestation et la détection d'intrusion avec **deux** appareils, un _audité_ (l'appareil vérifié) et un _auditeur_ (l'appareil effectuant la vérification). L'auditeur peut être n'importe quel appareil Android 10 ou + (ou un service web à distance géré par [GrapheneOS](android/distributions.md#grapheneos)), mais l'audité doit spécifiquement être un [appareil pris en charge](https://attestation.app/about#device-support). Auditor fonctionne comme tel :
 
-- Using a [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) model between an _auditor_ and _auditee_, the pair establish a private key in the [hardware-backed keystore](https://source.android.com/security/keystore) of the _Auditor_.
+- En utilisant un modèle [Trust On First Use (TOFU)](https://en.wikipedia.org/wiki/Trust_on_first_use) entre un _auditeur_ et un _audité_, établissant ainsi une clé privée dans la [base de donnée matérielle](https://source.android.com/security/keystore) de _l'Auditeur_.
 - L'_auditeur_ peut être une autre instance de l'application Auditor ou le [service d'attestation à distance](https://attestation.app).
 - L'_auditeur_ enregistre l'état et la configuration actuels de l'_audité_.
 - Si le système d'exploitation de l'_audité_ est altéré après l'appairage, l'auditeur sera informé de la modification de l'état et de la configuration de l'appareil.
@@ -188,4 +188,4 @@ Il est important de noter que l'auditeur ne peut détecter efficacement les chan
 
 Aucune donnée à charactère personnel n'est soumise au service d'attestation. Nous vous recommandons de vous inscrire avec un compte anonyme et d'activer l'attestation à distance pour un contrôle continu.
 
-If your [threat model](basics/threat-modeling.md) requires hiding your IP address from the attestation service, you could consider using [Orbot](alternative-networks.md#orbot) or a [VPN](vpn.md).
+Si votre [modèle de menace](basics/threat-modeling.md) nécessite de cacher votre adresse IP, vous pouvez utiliser [Orbot](alternative-networks.md#orbot) ou un [VPN](vpn.md).
