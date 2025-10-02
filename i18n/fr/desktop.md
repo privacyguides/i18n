@@ -101,11 +101,11 @@ Une grande portion des [packages d'Arch Linux](https://reproducible.archlinux.or
 
 Contrairement à Fedora Workstation qui utilise le gestionnaire paquet [DNF](https://docs.fedoraproject.org/en-US/quick-docs/dnf), ces systèmes d'exploitation utilisent une version alternative beaucoup plus avancée appelée [`rpm-ostree`](https://coreos.github.io/rpm-ostree). Le gestionnaire de paquets `rpm-ostree` fonctionne en téléchargeant une image de base pour le système, puis en superposant des paquets par-dessus dans une arborescence de commits semblable à [git](https://en.wikipedia.org/wiki/Git). Lorsque le système est mis à jour, une nouvelle image de base est téléchargée et les surcouches seront appliquées à cette nouvelle image.
 
-After the update is complete, you will reboot the system into the new deployment. `rpm-ostree` keeps two deployments of the system so that you can easily roll back if something breaks in the new deployment. Il est également possible d'épingler plus de déploiements selon les besoins.
+Une fois la mise à jour terminée, le système redémarrera selon le nouveau déploiement. `rpm-ostree` conserve deux déploiements du système pour pouvoir revenir en arrière en cas de problème. Il est également possible d'épingler plus de déploiements selon les besoins.
 
-[Flatpak](https://flatpak.org) is the primary package installation method on these distributions, as `rpm-ostree` is only meant to overlay packages that cannot stay inside a container on top of the base image.
+[Flatpak](https://flatpak.org) est la méthode principale d'installation des paquets sur ces distributions, car `rpm-ostree` n'est destiné qu'à superposer les paquets qui ne peuvent pas rester à l'intérieur d'un conteneur sur l'image de base.
 
-As an alternative to Flatpaks, there is the option of [Toolbx](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox) to create [Podman](https://podman.io) containers which mimic a traditional Fedora environment, a [useful feature](https://containertoolbx.org) for the discerning developer. These containers share a home directory with the host operating system.
+A la place des Flatpaks, il est possible d'utiliser [Toolbx](https://docs.fedoraproject.org/en-US/fedora-silverblue/toolbox) pour créer des conteneurs [Podman](https://podman.io) qui imitent un environnement Fedora traditionnel, une [fonctionnalité intéressante](https://containertoolbx.org) pour les développeurs avertis. Ces conteneurs partagent un répertoire personnel avec le système hôte.
 
 ### NixOS
 
@@ -115,9 +115,9 @@ As an alternative to Flatpaks, there is the option of [Toolbx](https://docs.fedo
 
 NixOS est une distribution indépendante basée sur le gestionnaire de paquets Nix avec un accent sur la reproductibilité et la fiabilité.
 
-[:octicons-home-16: Homepage](https://nixos.org){ .md-button .md-button--primary }
+[:octicons-home-16: Page d'accueil](https://nixos.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://nixos.org/learn.html){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title="Contribute" }
+[:octicons-heart-16:](https://nixos.org/donate.html){ .card-link title="Contribuer" }
 
 </details>
 
@@ -125,13 +125,13 @@ NixOS est une distribution indépendante basée sur le gestionnaire de paquets N
 
 Le gestionnaire de paquets de NixOS conserve chaque version de chaque paquet dans un dossier différent dans le **magasin Nix**. De ce fait, vous pouvez avoir différentes versions d'un même paquet installé sur votre système. Une fois que le contenu du paquet a été écrit dans le dossier, ce dernier est mis en lecture seule.
 
-NixOS also provides atomic updates. It first downloads (or builds) the packages and files for the new system generation and then switches to it. There are different ways to switch to a new generation: you can tell NixOS to activate it after reboot, or you can switch to it at runtime. Vous pouvez également *tester* la nouvelle génération en basculant sur celle-ci pendant l'exécution, mais sans la définir comme la génération actuelle du système. Si quelque chose se casse pendant le processus de mise à jour, vous pouvez simplement redémarrer et revenir automatiquement à une version fonctionnelle de votre système.
+Des mises à jour atomiques sont également disponible avec NixOS. En premier lieu NixOS télécharge (ou "build") les paquets et les fichiers pour la génération du nouveau système, puis il bascule dessus. Il existe différentes manières de basculer vers une nouvelle génération : soit au redémarrage, soit au moment de l'exécution. Vous pouvez également *tester* la nouvelle génération en basculant sur celle-ci pendant l'exécution, mais sans la définir comme la génération actuelle du système. Si quelque chose se casse pendant le processus de mise à jour, vous pouvez simplement redémarrer et revenir automatiquement à une version fonctionnelle de votre système.
 
-The Nix package manager uses a purely functional language—which is also called Nix—to define packages.
+Le gestionnaire de paquet Nix utilise un langage purement fonctionne (lui aussi appelé Nix) pour définir les paquets.
 
 [Nixpkgs](https://github.com/nixos/nixpkgs) (la source principale des paquets) sont contenus dans un seul dépôt GitHub. Vous pouvez également définir vos propres paquets dans le même langage, puis les inclure facilement dans votre configuration.
 
-Nix est un gestionnaire de paquets basé sur les sources ; s'il n'y a pas de paquet pré-construit disponible dans le cache binaire, Nix construira simplement le paquet à partir des sources en utilisant sa définition. It builds each package in a sandboxed *pure* environment, which is as independent of the host system as possible. Binaries built with this method are reproducible[^1].
+Nix est un gestionnaire de paquets basé sur les sources ; s'il n'y a pas de paquet pré-construit disponible dans le cache binaire, Nix construira simplement le paquet à partir des sources en utilisant sa définition. Chaque paquet est build dans un environnement sandboxé *pur*, qui est aussi indépendant que possible du système hôte. Les exécutables construits avec cette méthode sont reproductibles [^1].
 
 ## Distributions axées sur l'anonymat
 
@@ -141,12 +141,12 @@ Nix est un gestionnaire de paquets basé sur les sources ; s'il n'y a pas de paq
 
 ![logo Whonix](assets/img/linux-desktop/whonix.svg){ align=right }
 
-**Whonix** est basée sur [Kicksecure](#kicksecure), une version de Debian axée sur la sécurité. It aims to provide privacy, security, and [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } on the internet. Whonix est utilisé de préférence en conjonction avec [Qubes OS](#qubes-os).
+**Whonix** est basée sur [Kicksecure](#kicksecure), une version de Debian axée sur la sécurité. Le but est d'améliorer la confidentialité, la sécurité et [:material-incognito: l'Anonymité](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } sur internet. Whonix est utilisé de préférence en conjonction avec [Qubes OS](#qubes-os).
 
-[:octicons-home-16: Homepage](https://whonix.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Onion Service" }
+[:octicons-home-16: Page d'accueil](https://whonix.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Service Onion" }
 [:octicons-info-16:](https://whonix.org/wiki/Documentation){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://whonix.org/wiki/Donate){ .card-link title="Contribute" }
+[:octicons-heart-16:](https://whonix.org/wiki/Donate){ .card-link title="Contribuer" }
 
 </details>
 
