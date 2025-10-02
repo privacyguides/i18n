@@ -24,7 +24,7 @@ Il existe un certain nombre de services qui fournissent des "cartes de débit vi
 <div class="admonition tip" markdown>
 <p class="admonition-title">Vérifiez votre banque actuelle</p>
 
-De nombreuses banques et fournisseurs de cartes de crédit proposent une fonctionnalité native de carte virtuelle. Si vous en utilisez une qui offre déjà cette option, vous devriez, dans la plupart des cas, l'utiliser plutôt que de suivre les recommandations suivantes. That way, you are not trusting multiple parties with your personal information.
+De nombreuses banques et fournisseurs de cartes de crédit proposent une fonctionnalité native de carte virtuelle. Si vous en utilisez une qui offre déjà cette option, vous devriez, dans la plupart des cas, l'utiliser plutôt que de suivre les recommandations suivantes. Cela permet de ne pas avoir à confier vos informations personnelles à plusieurs tiers.
 
 </div>
 
@@ -35,7 +35,7 @@ De nombreuses banques et fournisseurs de cartes de crédit proposent une fonctio
 ![logo Privacy.com](assets/img/financial-services/privacy_com.svg#only-light){ align=right }
 ![logo Privacy.com](assets/img/financial-services/privacy_com-dark.svg#only-dark){ align=right }
 
-L'offre gratuite de **Privacy.com** vous permet de créer jusqu'à 12 cartes virtuelles par mois, de fixer des limites de dépenses pour ces cartes et de les arrêter instantanément. Their paid plans provide higher limits on the number of cards that can be created each month.
+L'offre gratuite de **Privacy.com** vous permet de créer jusqu'à 12 cartes virtuelles par mois, de fixer des limites de dépenses pour ces cartes et de les arrêter instantanément. Leur version payante permet de créer plus de cartes différentes par mois.
 
 [:octicons-home-16: Page d'accueil](https://privacy.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://privacy.com/privacy-policy){ .card-link title="Politique de confidentialité" }
@@ -45,7 +45,7 @@ L'offre gratuite de **Privacy.com** vous permet de créer jusqu'à 12 cartes vir
 
 </div>
 
-Privacy.com gives information about the merchants you purchase from to your bank by [default](https://support.privacy.com/hc/en-us/articles/360012407533-What-will-I-see-on-my-bank-statement-when-I-make-a-purchase-with-Privacy). Their "[private spend mode](https://support.privacy.com/hc/en-us/articles/26732314558487-What-is-Private-Spend-Mode)" feature hides merchant information from your bank, so your bank only sees that a purchase was made with Privacy.com, but not where that money was spent. However, that is not foolproof, and of course, Privacy.com still has knowledge about the merchants you are spending money with.
+[Par défaut](https://support.privacy.com/hc/en-us/articles/360012407533-What-will-I-see-on-my-bank-statement-when-I-make-a-purchase-with-Privacy), Privacy.com envoit à votre banque des informations sur les entreprises auprès desquelles vous effectuez vos achats. Leur fonctionnalité "[Private Spend Mode](https://support.privacy.com/hc/en-us/articles/26732314558487-What-is-Private-Spend-Mode)" cache les informations sur les entreprises à votre banque pour que celle-ci n'ai accès uniquement qu'à l'information qu'un achat a été effectué avec Privacy.com. Cependant, ce n'est pas infaillible, et bien entendu Privacy.com a accès aux informations des entreprises auprès desquelles vous effectuez vos achats.
 
 ### MySudo (États-Unis, payant)
 
@@ -75,19 +75,19 @@ Les cartes virtuelles de MySudo ne sont actuellement disponibles que via leur ap
 
 ## Marchés de cartes-cadeaux
 
-<small>Protects against the following threat(s):</small>
+<small>Protège contre les menaces suivantes :</small>
 
 - [:material-eye-outline: Surveillance de masse](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 
-Ces services vous permettent d'acheter des cartes-cadeaux pour une variété de marchands en ligne avec de la [crypto-monnaie](cryptocurrency.md). Certains de ces services proposent des options de vérification d'identité pour des limites plus élevées, mais ils permettent également d'ouvrir des comptes avec une simple adresse email. Basic limits typically start at $5,000-10,000 a day for basic accounts, with significantly higher limits for ID verified accounts (if offered).
+Ces services vous permettent d'acheter des cartes-cadeaux pour une variété de marchands en ligne avec de la [crypto-monnaie](cryptocurrency.md). Certains de ces services proposent des options de vérification d'identité pour des limites plus élevées, mais ils permettent également d'ouvrir des comptes avec une simple adresse email. Les plafonds de base sont généralement fixées à 5000 - 10000 $ par jour pour un compte classique, avec des plafonds significativement plus élevés pour des comptes dont l'identité a été vérifiée.
 
 ### Coincards
 
 <div class="admonition recommendation" markdown>
 
-![Coincards logo](assets/img/financial-services/coincards.svg){ align=right }
+![Logo de Coincards](assets/img/financial-services/coincards.svg){ align=right }
 
-**Coincards** allows you to purchase gift cards for a large variety of merchants. Their homepage has a complete listing of the various countries where their service is available.
+**Coincards** permet d'acheter des cartes cadeaux valables dans un grand nombre de magasins. Leur page d'accueil présente la liste complète des pays où leur service est disponible.
 
 [:octicons-home-16: Page d'accueil](https://coincards.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://coincards.com/privacy-policy){ .card-link title="Politique de confidentialité" }
@@ -105,8 +105,8 @@ Ces services vous permettent d'acheter des cartes-cadeaux pour une variété de 
 - Pas d'obligation d'identification.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Important notices</p>
+<p class="admonition-title">Avertissement</p>
 
-The content here is not legal or financial advice. We do not endorse or encourage illicit activities, and we do not endorse or encourage anything which violates a company's terms of service. Check with a professional to confirm that these recommendations are legal and available in your jurisdiction. [See all notices](about/notices.md).
+Le contenu présenté ici ne constitue pas un conseil juridique ou financier. Nous ne cautionnons ni n'encourageons les activités illicites, et nous ne cautionnons ni n'encourageons quoi que ce soit qui contrevienne aux conditions d'utilisations du service d'une entreprise. Vérifiez auprès d'un professionnel la conformité de ces recommandations aux règlementations en vigueur dans votre région. [Voir tous les avertissements](about/notices.md).
 
 </div>
