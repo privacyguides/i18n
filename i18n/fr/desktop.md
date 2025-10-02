@@ -131,7 +131,7 @@ Le gestionnaire de paquet Nix utilise un langage purement fonctionne (lui aussi 
 
 [Nixpkgs](https://github.com/nixos/nixpkgs) (la source principale des paquets) sont contenus dans un seul dépôt GitHub. Vous pouvez également définir vos propres paquets dans le même langage, puis les inclure facilement dans votre configuration.
 
-Nix est un gestionnaire de paquets basé sur les sources ; s'il n'y a pas de paquet pré-construit disponible dans le cache binaire, Nix construira simplement le paquet à partir des sources en utilisant sa définition. Chaque paquet est build dans un environnement sandboxé *pur*, qui est aussi indépendant que possible du système hôte. Les exécutables construits avec cette méthode sont reproductibles [^1].
+Nix est un gestionnaire de paquets basé sur les sources ; s'il n'y a pas de paquet pré-construit disponible dans le cache binaire, Nix construira simplement le paquet à partir des sources en utilisant sa définition. Chaque paquet est contruit dans un environnement sandboxé *pur*, qui est aussi indépendant que possible du système hôte. Les exécutables construits avec cette méthode sont reproductibles [^1].
 
 ## Distributions axées sur l'anonymat
 
@@ -141,7 +141,7 @@ Nix est un gestionnaire de paquets basé sur les sources ; s'il n'y a pas de paq
 
 ![logo Whonix](assets/img/linux-desktop/whonix.svg){ align=right }
 
-**Whonix** est basée sur [Kicksecure](#kicksecure), une version de Debian axée sur la sécurité. Le but est d'améliorer la confidentialité, la sécurité et [:material-incognito: l'Anonymité](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } sur internet. Whonix est utilisé de préférence en conjonction avec [Qubes OS](#qubes-os).
+**Whonix** est basée sur [Kicksecure](#kicksecure), une version de Debian axée sur la sécurité. Le but est d'améliorer la confidentialité, la sécurité et [:material-incognito: l'Anonymat](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } sur internet. Whonix est utilisé de préférence en conjonction avec [Qubes OS](#qubes-os).
 
 [:octicons-home-16: Page d'accueil](https://whonix.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://dds6qkxpwdeubwucdiaord2xgbbeyds25rbsgr73tbfpqpt4a6vjwsyd.onion){ .card-link title="Service Onion" }
@@ -154,9 +154,9 @@ Nix est un gestionnaire de paquets basé sur les sources ; s'il n'y a pas de paq
 
 Whonix est conçu pour fonctionner sous la forme de deux machines virtuelles : une "Station de travail" et une "Passerelle" Tor. Toutes les communications de la Station de travail doivent passer par la passerelle Tor. Cela signifie que même si la Station de travail est compromise par un logiciel malveillant quelconque, la véritable adresse IP reste cachée.
 
-Some of its features include Tor Stream Isolation, [keystroke anonymization](https://whonix.org/wiki/Keystroke_Deanonymization#Kloak), [encrypted swap](https://github.com/Whonix/swap-file-creator), and a hardened memory allocator. Future versions of Whonix will likely include [full system AppArmor policies](https://github.com/roddhjav/apparmor.d) and a [sandboxed app launcher](https://whonix.org/wiki/Sandbox-app-launcher) to fully confine all processes on the system.
+Parmis ses fonctionnalités, on peut retrouver Tor Stream Isolation, [l'anonymisation des dynamiques de frappe au clavier](https://whonix.org/wiki/Keystroke_Deanonymization#Kloak), [le chiffrement des fichiers swap](https://github.com/Whonix/swap-file-creator), et un allocateur de mémoire renforcé. Les futures versions de Whonix incluront probablement [des politiques système AppArmor](https://github.com/roddhjav/apparmor.d) et un [lanceur d'applications sandboxé](https://whonix.org/wiki/Sandbox-app-launcher) afin de confiner complètement tous les process du système.
 
-Whonix is best used [in conjunction with Qubes](https://whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). Nous avons un [guide recommandé](os/qubes-overview.md#connecting-to-tor-via-a-vpn) sur la configuration de Whonix en conjonction avec un VPN ProxyVM dans Qubes pour cacher vos activités Tor à votre FAI.
+Whonix est utilisé de préférence [en complément avec Qubes](https://whonix.org/wiki/Qubes/Why_use_Qubes_over_other_Virtualizers). Nous avons un [guide recommandé](os/qubes-overview.md#connecting-to-tor-via-a-vpn) sur la configuration de Whonix en conjonction avec un VPN ProxyVM dans Qubes pour cacher vos activités Tor à votre FAI.
 
 ### Tails
 
@@ -164,11 +164,11 @@ Whonix is best used [in conjunction with Qubes](https://whonix.org/wiki/Qubes/Wh
 
 ![Logo de Tails](assets/img/linux-desktop/tails.svg){ align=right }
 
-**Tails** est un système d'exploitation autonome basé sur Debian qui fait passer toutes les communications par Tor, et qui peut démarrer sur presque n'importe quel ordinateur à partir d'un DVD, d'une clé USB ou d'une installation sur carte SD. It uses [Tor](tor.md) to preserve privacy and [:material-incognito: Anonymity](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } while circumventing censorship, and it leaves no trace of itself on the computer it is used on after it is powered off.
+**Tails** est un système d'exploitation autonome basé sur Debian qui fait passer toutes les communications par Tor, et qui peut démarrer sur presque n'importe quel ordinateur à partir d'un DVD, d'une clé USB ou d'une installation sur carte SD. [Tor](tor.md) est utilisé pour renforcer la confidentialité et [:material-incognito: l'Anonymat](basics/common-threats.md#anonymity-vs-privacy){ .pg-purple } tout en contournant la censure. Tails ne laisse aucune trace sur l'ordinateur sur lequel il a été utilisé après avoir été éteint.
 
-[:octicons-home-16: Homepage](https://tails.net){ .md-button .md-button--primary }
+[:octicons-home-16: Page d'accueil](https://tails.net){ .md-button .md-button--primary }
 [:octicons-info-16:](https://tails.net/doc/index.en.html){ .card-link title="Documentation" }
-[:octicons-heart-16:](https://tails.net/donate){ .card-link title="Contribute" }
+[:octicons-heart-16:](https://tails.net/donate){ .card-link title="Contribuer" }
 
 </details>
 
@@ -181,15 +181,15 @@ Tails [n'efface pas](https://gitlab.tails.boum.org/tails/tails/-/issues/5356) la
 
 </div>
 
-Tails est excellent pour la contre-analyse en raison de son amnésie (ce qui signifie que rien n'est écrit sur le disque) ; cependant, ce n'est pas une distribution renforcée comme Whonix. Elle ne dispose pas de nombreuses fonctions d'anonymat et de sécurité comme Whonix et est mise à jour beaucoup moins souvent (seulement une fois toutes les six semaines). A Tails system that is compromised by malware may potentially bypass the transparent proxy, allowing for the user to be deanonymized.
+Tails est excellent pour la contre-analyse en raison de son amnésie (ce qui signifie que rien n'est écrit sur le disque) ; cependant, ce n'est pas une distribution renforcée comme Whonix. Elle ne dispose pas de nombreuses fonctions d'anonymat et de sécurité comme Whonix et est mise à jour beaucoup moins souvent (seulement une fois toutes les six semaines). Un système Tails compromis par un logiciel malveillant peut potentiellement contourner le proxy transparent, et ainsi désanonymiser l'utilisateur.
 
-Tails includes [uBlock Origin](browser-extensions.md#ublock-origin) in Tor Browser by default, which may potentially make it easier for adversaries to fingerprint Tails users. Les machines virtuelles [Whonix](desktop.md#whonix) sont peut-être plus étanches, mais elles ne sont pas amnésiques, ce qui signifie que les données peuvent être récupérées sur votre périphérique de stockage.
+Sur Tails, [uBlock Origin](browser-extensions.md#ublock-origin) est installé par défaut dans le navigateur Tor, ce qui peut potentiellement faciliter le fingerprinting des utilisateurs Tails Les machines virtuelles [Whonix](desktop.md#whonix) sont peut-être plus étanches, mais elles ne sont pas amnésiques, ce qui signifie que les données peuvent être récupérées sur votre périphérique de stockage.
 
-De par sa conception, Tails est censé se réinitialiser complètement après chaque redémarrage. Encrypted [persistent storage](https://tails.net/doc/persistent_storage/index.en.html) can be configured to store some data between reboots.
+De par sa conception, Tails est censé se réinitialiser complètement après chaque redémarrage. Un [stockage persistant](https://tails.net/doc/persistent_storage/index.en.html) chiffré peut être paramétré pour conserver certaines données entre les redémarrages.
 
 ## Distributions axées sur la sécurité
 
-<small>Protects against the following threat(s):</small>
+<small>Protège contre les menaces suivantes :</small>
 
 - [:material-bug-outline: Attaques passives](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 
@@ -201,18 +201,18 @@ De par sa conception, Tails est censé se réinitialiser complètement après ch
 
 **Qubes OS** est un système d'exploitation open-source conçu pour fournir une sécurité forte pour l'informatique de bureau à travers des machines virtuelles sécurisées (ou "qubes"). Qubes est basé sur Xen, le système de fenêtre X, et Linux. Il peut exécuter la plupart des applications Linux et utiliser la plupart des pilotes Linux.
 
-[:octicons-home-16: Homepage](https://qubes-os.org){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://qubes-os.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://qubes-os.org){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion){ .card-link title="Service Onion" }
+[:octicons-eye-16:](https://qubes-os.org/privacy){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://qubes-os.org/doc){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/QubesOS){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://qubes-os.org/donate){ .card-link title="Contribute" }
+[:octicons-code-16:](https://github.com/QubesOS){ .card-link title="Code Source" }
+[:octicons-heart-16:](https://qubes-os.org/donate){ .card-link title="Contribuer" }
 
 </details>
 
 </div>
 
-Qubes OS sécurise l'ordinateur en isolant les sous-systèmes (par exemple, le réseau, l'USB, etc.) et les applications dans des *qubes* distincts. Should one part of the system be compromised via an exploit in a [:material-target-account: Targeted Attack](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}, the extra isolation is likely to protect the rest of the *qubes* and the core system.
+Qubes OS sécurise l'ordinateur en isolant les sous-systèmes (par exemple, le réseau, l'USB, etc.) et les applications dans des *qubes* distincts. Si une partie du système est compromise par une [:material-target-account: Attaque Ciblée](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}, l'isolation supplémentaire protègera probablement le reste des *qubes* et le système central.
 
 Pour plus d'informations sur le fonctionnement de Qubes, lisez notre page [Introduction à Qubes](os/qubes-overview.md).
 
@@ -220,24 +220,24 @@ Pour plus d'informations sur le fonctionnement de Qubes, lisez notre page [Intro
 
 <div class="admonition recommendation" markdown>
 
-![Secureblue logo](assets/img/linux-desktop/secureblue.svg){ align=right }
+![Logo de Secureblue](assets/img/linux-desktop/secureblue.svg){ align=right }
 
-**Secureblue** is a security-focused operating system based on [Fedora Atomic Desktops](#fedora-atomic-desktops). It includes a number of [security features](https://secureblue.dev/features) intended to proactively defend against the exploitation of both known and unknown vulnerabilities, and ships with [Trivalent](https://github.com/secureblue/Trivalent), their hardened, Chromium-based web browser.
+**Secureblue** est un système d'exploitation orienté sur la sécurité basé sur les [Fedora Atomic Desktops](#fedora-atomic-desktops). Ses nombreuses [fonctionnalités de sécurité](https://secureblue.dev/features) ont pour but de défendre le système de façon proactive contre les menaces connues et inconnues et le système inclu également leur navigateur web renforcé basé sur Chromium, [Trivalent](https://github.com/secureblue/Trivalent).
 
-[:octicons-home-16: Homepage](https://secureblue.dev){ .md-button .md-button--primary }
+[:octicons-home-16: Page d'accueil](https://secureblue.dev){ .md-button .md-button--primary }
 [:octicons-info-16:](https://secureblue.dev/install){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/secureblue/secureblue){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://secureblue.dev/donate){ .card-link title="Contribute" }
+[:octicons-code-16:](https://github.com/secureblue/secureblue){ .card-link title="Code Source" }
+[:octicons-heart-16:](https://secureblue.dev/donate){ .card-link title="Contribuer" }
 
 </div>
 
-**Trivalent** is Secureblue's hardened Chromium for desktop Linux inspired by [GrapheneOS](android/distributions.md#grapheneos)'s Vanadium browser.
+**Trivalent**, le navigateur web renforcé de Secureblue, est inspiré du navigateur Vanadium, développé par [GrapheneOS](android/distributions.md#grapheneos).
 
-Secureblue also provides GrapheneOS's [hardened memory allocator](https://github.com/GrapheneOS/hardened_malloc) and enables it globally (including for Flatpaks).
+Secureblue comprend également [l'allocateur de mémoire renforcé](https://github.com/GrapheneOS/hardened_malloc) de GrapheneOS, activé au niveau global (y compris pour les Flatpaks).
 
 ### Kicksecure
 
-While we [recommend against](os/linux-overview.md#release-cycle) "perpetually outdated" distributions like Debian for desktop use in most cases, Kicksecure is a Debian-based operating system which has been hardened to be much more than a typical Linux install.
+Bien que nous recommandions généralement [d'éviter](os/linux-overview.md#release-cycle) les distributions Linux "perpétuellement obsolètes" comme Debian pour une utilisation de bureau, Kicksecure est un système d'exploitation basé sur Debian renforcé pour être bien plus qu'une installation Linux classique.
 
 <div class="admonition recommendation" markdown>
 
@@ -245,11 +245,11 @@ While we [recommend against](os/linux-overview.md#release-cycle) "perpetually ou
 
 **Kicksecure** - en termes simplifiés à l'extrême - est un ensemble de scripts, de configurations et de paquets qui réduisent considérablement la surface d'attaque de Debian. Il couvre par défaut un grand nombre de recommandations en matière de confidentialité et de durcissement. Il sert également de système d'exploitation de base pour [Whonix](#whonix).
 
-[:octicons-home-16: Homepage](https://kicksecure.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://kicksecure.com/wiki/Privacy_Policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'accueil](https://kicksecure.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://kicksecure.com/wiki/Privacy_Policy){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://kicksecure.com/wiki/Documentation){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://kicksecure.com/wiki/Donate){ .card-link title="Contribute" }
+[:octicons-code-16:](https://github.com/Kicksecure){ .card-link title="Code Source" }
+[:octicons-heart-16:](https://kicksecure.com/wiki/Donate){ .card-link title="Contribuer" }
 
 </details>
 
@@ -261,8 +261,8 @@ Le choix d'une distribution Linux qui vous convient dépend d'une grande variét
 
 - Gratuites et open source.
 - Reçoivent régulièrement des mises à jour des logiciels et du noyau.
-- Avoids X11, as its last major release was [more than a decade](https://x.org/wiki/Releases) ago.
-    - The notable exception here is Qubes, but the [isolation issues](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation) which X11 typically has are avoided by virtualization. This isolation only applies to apps *running in different qubes* (virtual machines); apps running in the *same* qube are not protected from each other.
+- Evite X11, dont la dernière version importante date de plus de [dix ans](https://x.org/wiki/Releases).
+    - Qubes est ici une exception notable, mais la virtualisation permet d'éviter les [problèmes d'isolement](https://blog.invisiblethings.org/2011/04/23/linux-security-circus-on-gui-isolation) généralement rencontrés avec X11. Cet isolement s'applique uniquement aux applications *exécutées dans différents qubes* (machines virtuelles) ; les applications exécutées dans un *même* qube ne sont pas protégées les unes des autres.
 - Prennent en charge le chiffrement complet du disque pendant l'installation.
 - Ne gêlent pas les mises à jour régulières pendant plus d'un an.
     - Nous [ne recommandons pas](os/linux-overview.md#release-cycle) les versions "Long Term Support" ou "stables" de distributions pour une utilisation de bureau.
@@ -272,4 +272,4 @@ Le choix d'une distribution Linux qui vous convient dépend d'une grande variét
 
 En outre, [nos critères standards](about/criteria.md) pour les projets recommandés s'appliquent toujours. **Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons.**
 
-[^1]: Reproducibility entails the ability to verify that packages and binaries made available to the end user match the source code, which can be useful against potential [:material-package-variant-closed-remove: Supply Chain Attacks](basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}.
+[^1]: La reproductibilité permet de vérifier que les paquets et les exécutables mis à disposition de l'utilisateur correspondent au code source, ce qui peut s'avérer utile en cas d' [:material-package-variant-closed-remove: Attaque de la Chaine d'Approvisionnement](basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}.

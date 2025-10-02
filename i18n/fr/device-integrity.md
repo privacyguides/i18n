@@ -11,7 +11,7 @@ Ces outils peuvent être utilisés pour valider l'intégrité de vos appareils m
 <div class="admonition note" markdown>
 <p class="admonition-title">Il s'agit d'un sujet avancé</p>
 
-These tools may provide utility for certain individuals. Ils offrent des fonctionnalités dont la plupart des gens n'ont pas besoin de se préoccuper, et nécessitent souvent des connaissances techniques plus approfondies pour être utilisés efficacement.
+Ces outils peuvent être utiles à certaines personnes en particulier. Ils offrent des fonctionnalités dont la plupart des gens n'ont pas besoin de se préoccuper, et nécessitent souvent des connaissances techniques plus approfondies pour être utilisés efficacement.
 
 </div>
 
@@ -27,7 +27,7 @@ Cela signifie qu'un attaquant devrait régulièrement réinfecter votre appareil
 
 Si l'un des outils suivants indique une compromission potentielle par un logiciel espion tel que Pegasus, Predator ou KingsPawn, nous vous conseillons de contacter :
 
-- If you are a human rights defender, journalist, or from a civil society organization: [Amnesty International's Security Lab](https://securitylab.amnesty.org/contact-us)
+- Pour un défenseur des droits de l'Homme, un journaliste, ou un membre d'une organisation de la société civile : [Le Laboratoire de Sécurité d'Amnesty International](https://securitylab.amnesty.org/contact-us)
 - If a business or government device is compromised: the appropriate security liaison at your enterprise, department, or agency
 - Les forces de l'ordre locales
 
