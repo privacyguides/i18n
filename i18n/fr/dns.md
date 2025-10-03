@@ -32,25 +32,25 @@ Voici nos résolveurs DNS public favoris, basés sur leur confidentialité et le
 
 ## Filtrage DNS basé sur un cloud
 
-These DNS filtering solutions offer a web dashboard where you can customize the block lists to your exact needs. These services can be used easily across multiple networks.
+Grâce à ces services de filtrage DNS, personnalisez les listes de blocage selon vos besoins via un tableau de bord web. Ils peuvent être utilisés facilement sur plusieurs réseaux.
 
 ### Control D
 
 <div class="admonition recommendation" markdown>
 
-![Control D logo](assets/img/dns/control-d.svg){ align=right }
+![Logo de Control D](assets/img/dns/control-d.svg){ align=right }
 
-**Control D** is a customizable DNS service which lets you block security threats, unwanted content, and advertisements on a DNS level.
+**Control D** est un service DNS personnalisable qui vous permet de bloquer des menaces, du contenu indésirable et les publicités au niveau DNS.
 
-In addition to their paid plans, they offer a number of preconfigured DNS resolvers you can use for free.
+En plus de leurs versions payantes, ils proposent plusieurs résolveurs DNS préconfigurés gratuits.
 
-[:octicons-home-16: Homepage](https://controld.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://controld.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://controld.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://controld.com/privacy){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://docs.controld.com/docs/getting-started){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Control-D-Inc/ctrld){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/Control-D-Inc/ctrld){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.controld.setuputility)
 - [:simple-appstore: App Store](https://apps.apple.com/app/1518799460)
@@ -67,19 +67,19 @@ In addition to their paid plans, they offer a number of preconfigured DNS resolv
 
 <div class="admonition recommendation" markdown>
 
-![NextDNS logo](assets/img/dns/nextdns.svg){ align=right }
+![Logo de NextDNS](assets/img/dns/nextdns.svg){ align=right }
 
-**NextDNS** is a customizable DNS service which lets you block security threats, unwanted content, and advertisements on a DNS level.
+**Next DNS** est un service DNS personnalisable qui vous permet de bloquer des menaces, du contenu indésirable et les publicités au niveau DNS.
 
-They offer a fully functional free plan for limited use.
+Ils proposent une version gratuite à usage limité mais totalement fonctionnelle.
 
-[:octicons-home-16: Homepage](https://nextdns.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nextdns.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://nextdns.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nextdns.io/privacy){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://help.nextdns.io){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/nextdns/nextdns){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/nextdns/nextdns){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/nextdns/id1463342498)
 - [:simple-github: GitHub](https://github.com/nextdns/nextdns/releases)
@@ -91,11 +91,11 @@ They offer a fully functional free plan for limited use.
 
 </div>
 
-When used with an account, NextDNS will enable insights and logging features by default (as some features require it). You can choose retention time and log storage location for any logs you choose to keep, or disable logs altogether.
+Lorsqu'il est utilisé avec un compte, NextDNS active par défaut les fonctionnalités d'analyse et de journalisation (requises par d'autre fonctionnalités). Vous pouvez configurer combien de temps et où sont stockés les logs que vous souhaitez conserver, ou bien les désactiver complètement.
 
-NextDNS's free plan is fully functional, but should not be relied upon for security or other critical filtering applications, because after 300,000 DNS queries in a month all filtering, logging, and other account-based functionality are disabled. It can still be used as a regular DNS provider after that point, so your devices will continue to function and make secure queries via DNS-over-HTTPS (DoH), just without your filter lists.
+La version gratuite de NextDNs est entièrement fonctionnelle, mais ne devrait pas être utilisée pour assurer la sécurité ou des opérations de filtrage critique, car le filtrage, la journalisation et toutes les autres fonctionnalités dépendantes d'un compte sont désactivées après 300 000 requêtes DNS par mois. Après cela, elle peut quand même être utilisée en tant que fournisseur DNS classique, vos appareils devraient donc continuer à fonctionner normalement en faisant des requêtes sécurisées DNS-over-HTTPS (DoH), mais sans vos listes de filtrage.
 
-NextDNS also offers a public DoH service at `https://dns.nextdns.io` and DNS-over-TLS/QUIC (DoT/DoQ) at `dns.nextdns.io`, which are available by default in Firefox and Chromium, and subject to their default, no-logging [privacy policy](https://nextdns.io/privacy).
+NextDNS fournit également un service DoH public sur `https://dns.nextdns.io` et DNS-over-TLS/QUIC (DoT/DoQ) sur `dns.nextdns.io`. Ces fonctionnalités sont disponibles par défaut dans Firefox et Chromium, et sont soumises à leur [politique de confidentialité](https://nextdns.io/privacy) par défaut, sans journalisation.
 
 ## Proxys DNS chiffrés
 
