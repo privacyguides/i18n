@@ -89,39 +89,39 @@ Akun gratis memiliki beberapa keterbatasan, seperti tidak dapat mencari teks di 
 
 [Surat pengesahan](https://proton.me/blog/security-audit-all-proton-apps) diberikan untuk aplikasi Proton Mail pada tanggal 9 November 2021 oleh [Securitum](https://research.securitum.com).
 
-Proton Mail memiliki laporan crash internal yang **tidak** dibagikan dengan pihak ketiga. This can be disabled in the web app: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+Proton Mail memiliki laporan crash internal yang **tidak** dibagikan dengan pihak ketiga. Hal ini dapat dinonaktifkan di aplikasi web: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
 
 #### :material-check:{ .pg-green } Domain dan Alias Khusus
 
-Pelanggan Proton Mail berbayar dapat menggunakan domain mereka sendiri dengan layanan ini atau alamat [yang mencakup semua](https://proton.me/support/catch-all). Proton Mail also supports [sub-addressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
+Pelanggan Proton Mail berbayar dapat menggunakan domain mereka sendiri dengan layanan ini atau alamat [catch-all](https://proton.me/support/catch-all). Proton Mail juga mendukung [sub-addressing](https://proton.me/support/creating-aliases), yang berguna bagi orang-orang yang tidak ingin membeli domain.
 
 #### :material-check:{ .pg-green } Metode Pembayaran Pribadi
 
-Proton Mail [accepts](https://proton.me/support/payment-options) **cash** by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments.
+Proton Mail [menerima](https://proton.me/support/payment-options)**tunai** melalui pos selain kartu kredit/debit standar, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), dan PayPal.
 
 #### :material-check:{ .pg-green } Keamanan Akun
 
-Proton Mail supports TOTP [two-factor authentication](https://proton.me/support/two-factor-authentication-2fa) and [hardware security keys](https://proton.me/support/2fa-security-key) using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
+Proton Mail mendukung [two-factor authentication](https://proton.me/support/two-factor-authentication-2fa) TOTP dan [kunci keamanan perangkat keras](https://proton.me/support/2fa-security-key) menggunakan standar FIDO2 atau U2F. Penggunaan kunci keamanan perangkat keras memerlukan pengaturan TOTP two-factor authentication terlebih dahulu.
 
-#### :material-check:{ .pg-green } Data Security
+#### :material-check:{ .pg-green } Keamanan Data
 
-Proton Mail has [zero-access encryption](https://proton.me/blog/zero-access-encryption) at rest for your emails and [calendars](https://proton.me/news/protoncalendar-security-model). Data secured with zero-access encryption is only accessible by you.
+Proton Mail memiliki [zero-access encryption](https://proton.me/blog/zero-access-encryption) untuk email dan [kalender](https://proton.me/news/protoncalendar-security-model) Anda. Data yang diamankan dengan zero-access encryption hanya dapat diakses oleh Anda.
 
-Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are not secured with zero-access encryption. Contact fields that support zero-access encryption, such as phone numbers, are indicated with a padlock icon.
+Informasi tertentu yang disimpan di [Proton Contacts](https://proton.me/support/proton-contacts), seperti nama tampilan dan alamat email, tidak diamankan dengan zero-access encryption. Bidang kontak yang mendukung zero-access encryption, seperti nomor telepon, ditunjukkan dengan ikon gembok.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } Enkripsi Email
 
-Proton Mail has [integrated OpenPGP encryption](https://proton.me/support/how-to-use-pgp) in their webmail. Email ke akun Proton Mail lainnya dienkripsi secara otomatis, dan enkripsi ke alamat non-Proton Mail dengan kunci OpenPGP dapat diaktifkan dengan mudah di pengaturan akun Anda. Proton also supports automatic external key discovery with WKD. This means that emails sent to other providers which use WKD will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
+Proton Mail telah [mengintegrasikan enkripsi OpenPGP](https://proton.me/support/how-to-use-pgp) di webmail mereka. Email ke akun Proton Mail lainnya dienkripsi secara otomatis, dan enkripsi ke alamat non-Proton Mail dengan kunci OpenPGP dapat diaktifkan dengan mudah di pengaturan akun Anda. Proton juga mendukung external key discovery otomatis dengan WKD. Ini berarti bahwa email yang dikirim ke penyedia lain yang menggunakan WKD akan secara otomatis dienkripsi dengan OpenPGP juga, tanpa perlu secara manual menukar kunci PGP publik dengan kontak Anda. Mereka juga memungkinkan Anda untuk [mengenkripsi pesan ke alamat non-Proton Mail tanpa OpenPGP](https://proton.me/support/password-protected-emails), tanpa perlu mendaftar untuk akun Proton Mail.
 
-Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Proton's own domains, like `@proton.me`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Proton Mail juga mempublikasikan kunci publik akun Proton melalui HTTP dari WKD mereka. Hal ini memungkinkan orang yang tidak menggunakan Proton Mail untuk menemukan kunci OpenPGP akun Proton Mail dengan mudah untuk E2EE lintas penyedia. Ini hanya berlaku untuk alamat email yang diakhiri dengan salah satu domain Proton, seperti `@proton.me`. Jika Anda menggunakan domain khusus, Anda harus [mengonfigurasi WKD](basics/email-security.md#what-is-the-web-key-directory-standard) secara terpisah.
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } Penghentian Akun
 
-If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. Setelah 30 hari, akun Anda akan menjadi tunggakan dan tidak akan menerima surat masuk. Anda akan terus ditagih selama periode ini. Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address of a deactivated account.
+Jika Anda memiliki akun berbayar dan [tagihan Anda belum dibayar](https://proton.me/support/delinquency) setelah 14 hari, Anda tidak akan dapat mengakses data Anda. Setelah 30 hari, akun Anda akan menunggak dan tidak akan menerima email masuk. Anda akan terus ditagih selama periode ini. Proton akan [menghapus akun gratis yang tidak aktif](https://proton.me/support/inactive-accounts) setelah satu tahun. Anda **tidak dapat** menggunakan kembali alamat email dari akun yang telah dinonaktifkan.
 
 #### :material-information-outline:{ .pg-blue } Fungsionalitas Tambahan
 
-Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
+Paket [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) Proton Mail juga memungkinkan akses ke layanan Proton lainnya selain menyediakan beberapa domain khusus, alias hide-my-email tanpa batas, dan penyimpanan 500 GB.
 
 ### MailBox Mail
 
@@ -129,16 +129,16 @@ Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimite
 
 ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
 
-**Mailbox Mail** is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Mereka telah beroperasi sejak 2014. Mailbox Mail is based in Berlin, Germany.
+**Mailbox Mail** adalah layanan email yang berfokus pada keamanan, bebas iklan, dan didukung oleh 100% energi ramah lingkungan. Mereka telah beroperasi sejak tahun 2014. Mailbox Mail berbasis di Berlin, Germany.
 
-Accounts start with up to 2 GB storage, which can be upgraded as needed.
+Akun dimulai dengan penyimpanan hingga 2 GB, yang dapat ditingkatkan sesuai kebutuhan.
 
-[:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Documentation" }
+[:octicons-home-16: Halaman Utama](https://mailbox.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Kebijakan Privasi" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Dokumentasi" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Unduhan</summary>
 
 - [:octicons-browser-16: Web](https://login.mailbox.org)
 
@@ -148,7 +148,7 @@ Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
 #### :material-check:{ .pg-green } Domain dan Alias Khusus
 
-Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
+Mailbox Mail memungkinkan Anda menggunakan domain Anda sendiri, dan mereka mendukung alamat [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name). Mailbox Mail juga mendukung [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), yang berguna jika Anda tidak ingin membeli domain.
 
 #### :material-check:{ .pg-green } Metode Pembayaran Pribadi
 
@@ -164,13 +164,13 @@ Mailbox Mail allows for encryption of incoming mail using their [encrypted mailb
 
 However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that data.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } Enkripsi Email
 
 Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox Mail's servers. Fitur ini berguna ketika penerima jarak jauh tidak memiliki OpenPGP dan tidak dapat mendekripsi salinan email di kotak surat mereka sendiri.
 
-Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. Jika Anda menggunakan domain khusus, Anda harus [mengonfigurasi WKD](basics/email-security.md#what-is-the-web-key-directory-standard) secara terpisah.
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } Penghentian Akun
 
 Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
@@ -238,7 +238,7 @@ Tuta only directly accepts credit cards and PayPal, however [**cryptocurrency**]
 
 Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
 
-#### :material-check:{ .pg-green } Data Security
+#### :material-check:{ .pg-green } Keamanan Data
 
 Tuta has [zero-access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). This means the messages and other data stored in your account are only readable by you.
 
@@ -246,7 +246,7 @@ Tuta has [zero-access encryption at rest](https://tuta.com/support#what-encrypte
 
 Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } Penghentian Akun
 
 Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
 
