@@ -152,23 +152,23 @@ Mailbox Mail memungkinkan Anda menggunakan domain Anda sendiri, dan mereka mendu
 
 #### :material-check:{ .pg-green } Metode Pembayaran Pribadi
 
-Mailbox Mail doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept **cash** by mail, **cash** payment to bank account, bank transfer, credit card, PayPal, and a couple of German-specific processors: Paydirekt and Sofortüberweisung.
+Mailbox Mail tidak menerima mata uang kripto apa pun karena prosesor pembayaran mereka, BitPay menangguhkan operasinya di German. Namun, mereka menerima **uang tunai** melalui pos, pembayaran **tunai** ke rekening bank, transfer bank, kartu kredit, PayPal, dan beberapa prosesor khusus German: Paydirekt dan Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Keamanan Akun
 
-Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](security-keys.md#yubikey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) are not yet supported.
+MailBox Mail mendukung [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) hanya untuk webmail mereka. Anda dapat menggunakan TOTP atau [YubiKey](security-keys.md#yubikey) melalui [YubiCloud](https://yubico.com/products/services-software/yubicloud). Standar web seperti [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) belum didukung.
 
 #### :material-information-outline:{ .pg-blue } Keamanan Data
 
-Mailbox Mail allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Pesan baru yang Anda terima akan segera dienkripsi dengan kunci publik Anda.
+Mailbox Mail memungkinkan enkripsi email masuk menggunakan [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Pesan baru yang Anda terima akan segera dienkripsi dengan kunci publik Anda.
 
-However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that data.
+Namun, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), platform perangkat lunak yang digunakan oleh Mailbox Mail, [tidak mendukung](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) enkripsi buku alamat dan kalender Anda. [Opsi mandiri](calendar.md) mungkin lebih tepat untuk data tersebut.
 
 #### :material-check:{ .pg-green } Enkripsi Email
 
-Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox Mail's servers. Fitur ini berguna ketika penerima jarak jauh tidak memiliki OpenPGP dan tidak dapat mendekripsi salinan email di kotak surat mereka sendiri.
+Mailbox Mail telah [mengintegrasikan enkripsi](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) di webmail mereka, yang menyederhanakan pengiriman pesan ke orang-orang dengan kunci OpenPGP publik. Mereka juga memungkinkan [penerimaan jarak jauh untuk mendekripsi email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) di server Mailbox Mail. Fitur ini berguna ketika penerima jarak jauh tidak memiliki OpenPGP dan tidak dapat mendekripsi salinan email di kotak surat mereka sendiri.
 
-Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. Jika Anda menggunakan domain khusus, Anda harus [mengonfigurasi WKD](basics/email-security.md#what-is-the-web-key-directory-standard) secara terpisah.
+Mailbox Mail juga mendukung discovery kunci publik melalui HTTP dari WKD mereka. Hal ini memungkinkan orang di luar Mailbox Mail untuk menemukan kunci OpenPGP dari akun Mailbox Mail dengan mudah untuk E2EE lintas penyedia. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. Jika Anda menggunakan domain khusus, Anda harus [mengonfigurasi WKD](basics/email-security.md#what-is-the-web-key-directory-standard) secara terpisah.
 
 #### :material-information-outline:{ .pg-blue } Penghentian Akun
 
@@ -203,14 +203,14 @@ These providers store your emails with zero-knowledge encryption, making them gr
 
 Free accounts start with 1 GB of storage.
 
-[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
+:octicons-home-16: Halaman Utama](https://tuta.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Kebijakan Privasi" }
+[:octicons-info-16:](https://tuta.com/support){ .card-link title="Dokumentasi" }
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Kode Sumber" }
+[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Kontribusi" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Unduhan</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
