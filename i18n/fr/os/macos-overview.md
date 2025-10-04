@@ -46,7 +46,7 @@ Il y a un certain nombre de paramètres intégrés que vous devriez confirmer ou
 
 #### Bluetooth
 
-- [ ] Turn off **Bluetooth** (unless you are currently using it)
+- [ ] Désactiver **Bluetooth** (sauf si vous l'utilisez)
 
 #### Réseau
 
@@ -56,23 +56,23 @@ Cliquez sur le bouton "Détails" à côté du nom de votre réseau :
 
 - [x] Sélectionnez **Rotation** sous **Adresse Wi-Fi privée**
 
-- [x] Turn on **Limit IP address tracking**
+- [x] Activer **Limiter le pistage des adresses IP**
 
 ##### Pare-feu
 
 Votre pare-feu bloque les connexions réseau indésirables. Plus les réglages de votre pare-feu sont stricts, plus votre Mac est sécurisé. Toutefois, certains services seront bloqués. Vous devriez configurer votre pare-feu de manière à ce qu'il soit aussi strict que possible sans bloquer les services que vous utilisez.
 
-- [x] Turn on **Firewall**
+- [x] Activer **Pare-feu**
 
 Cliquez sur le bouton **Options** :
 
-- [x] Turn on **Block all incoming connections**
+- [x] Activer **Bloquer toutes les connexions entrantes**
 
 Si cette configuration est trop stricte, vous pouvez revenir et la décocher. Toutefois, macOS vous invitera généralement à autoriser les connexions entrantes pour une application si celle-ci le demande.
 
 #### Général
 
-Par défaut, le nom de votre appareil sera quelque chose comme "iMac de [votre nom]". Because this name is [publicly broadcast on your network](https://support.apple.com/guide/mac-help/change-computers-local-hostname-mac-mchlp2322/26/mac/26#:~:text=The%20local%20hostname%2C%20or%20local%20network%20name%2C%20is%20displayed%20at%20the%20bottom%20of%20the%20Sharing%20settings%20window.%20It%20identifies%20your%20Mac%20to%20Bonjour%2Dcompatible%20services.), you'll want to change your device name to something generic like "Mac".
+Par défaut, le nom de votre appareil sera quelque chose comme "iMac de [votre nom]". Comme ce nom est [diffusé publiquement sur votre réseau](https://support.apple.com/guide/mac-help/change-computers-local-hostname-mac-mchlp2322/26/mac/26#:~:text=The%20local%20hostname%2C%20or%20local%20network%20name%2C%20is%20displayed%20at%20the%20bottom%20of%20the%20Sharing%20settings%20window.%20It%20identifies%20your%20Mac%20to%20Bonjour%2Dcompatible%20services.), vous voulez changer le nom de votre appareil en quelque chose de générique comme "Mac".
 
 Cliquez sur **A propos** et tapez le nom de votre appareil dans le champ **Nom**.
 
@@ -82,20 +82,20 @@ Vous devriez installer automatiquement toutes les mises à jour disponibles pour
 
 Cliquez sur la petite icône :material-information-outline: à côté de **Mises à jour automatiques** :
 
-- [x] Turn on **Download new updates when available**
+- [x] Activer **Télécharger les nouvelles mises à jour lorsqu'elles sont disponibles**
 
-- [x] Turn on **Install macOS updates**
+- [x] Activer **Installer les mises à jour de macOS**
 
-- [x] Turn on **Install Security Responses and system files**
+- [x] Activer **Installer les réponses de sécurité et les fichiers système**
 
 #### Apple Intelligence & Siri
 
-If you do not use these features on macOS, you should disable them:
+Si vous n'utilisez pas ces fonctionnalités sur macOS, vous devriez les désactiver :
 
-- [ ] Turn off **Apple Intelligence**
+- [Désactiver **Apple Intelligence**
 - [ ] Désactivez **Siri**
 
-**[Apple Intelligence](https://apple.com/legal/privacy/data/en/intelligence-engine)** is only available if your device supports it. Apple Intelligence uses a combination of on-device processing and their [Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute) for things that take more processing power than your device can provide.
+**[Apple Intelligence](https://apple.com/legal/privacy/data/en/intelligence-engine)** n'est disponible que si votre appareil le prend en charge. Apple Intelligence uses a combination of on-device processing and their [Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute) for things that take more processing power than your device can provide.
 
 To see a report of all the data sent via Apple Intelligence, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the either the last 15 minutes or 7 days, depending on what you set it for. Similar to the **App Privacy Report** which shows you the recent permissions accessed by the apps on your phone, the Apple Intelligence Report likewise shows what is being sent to Apple's servers while using Apple Intelligence.
 
