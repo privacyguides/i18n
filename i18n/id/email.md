@@ -1,8 +1,8 @@
 ---
-meta_title: "Encrypted Private Email Recommendations - Privacy Guides"
-title: Layanan Surel
+meta_title: "Rekomendasi Email Pribadi Terenkripsi - Privacy Guides"
+title: Layanan Email
 icon: material/email
-description: Penyedia surel ini menawarkan tempat yang baik untuk menyimpan surel Anda dengan aman, dan banyak yang menawarkan enkripsi OpenPGP yang dapat dioperasikan dengan penyedia lain.
+description: Penyedia email ini menawarkan tempat yang baik untuk menyimpan email Anda dengan aman, dan banyak yang menawarkan enkripsi OpenPGP yang dapat dioperasikan dengan penyedia lain.
 cover: email.webp
 global:
   - 
@@ -10,31 +10,31 @@ global:
     - "table tbody"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Melindungi dari ancaman(s) berikut ini:</small>
 
 - [:material-server-network: Penyedia Layanan](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-Surel bisa dibilang merupakan kebutuhan untuk menggunakan layanan daring apa pun, namun kami tidak merekomendasikannya untuk percakapan antar orang. Daripada menggunakan surel untuk menghubungi orang lain, pertimbangkan untuk menggunakan media pesan instan yang mendukung kerahasiaan penerusan.
+Email bisa dibilang merupakan kebutuhan untuk menggunakan layanan daring apa pun, namun kami tidak merekomendasikannya untuk percakapan antar orang. Daripada menggunakan email untuk menghubungi orang lain, pertimbangkan untuk menggunakan media pesan instan yang mendukung kerahasiaan penerusan.
 
-[Perpesanan Instan yang Direkomendasikan](real-time-communication.md ""){.md-button}
+[Pengirim Pesan Instan yang Direkomendasikan](real-time-communication.md ""){.md-button}
 
 ## Penyedia yang Direkomendasikan
 
-Untuk yang lainnya, kami merekomendasikan berbagai penyedia surel yang didasarkan pada model bisnis yang berkelanjutan serta fitur keamanan dan privasi bawaan. Baca [daftar lengkap kriteria kami](#criteria) untuk informasi lebih lanjut.
+Untuk yang lainnya, kami merekomendasikan berbagai penyedia surel yang didasarkan pada model bisnis yang berkelanjutan serta fitur keamanan dan privasi bawaan. Baca [daftar lengkap kriteria](#criteria) kami untuk informasi lebih lanjut.
 
-| Provider                      | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero-Access Encryption                               | Anonymous Payment Methods             |
-| ----------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------- |
-| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | Uang Tunai                            |
-| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | Uang Tunai                            |
-| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero <br>Cash via third party |
+| Penyedia                      | OpenPGP / WKD                          | IMAP / SMTP                                                     | Zero-Access Encryption                                | Metode Pembayaran Anonim                         |
+| ----------------------------- | -------------------------------------- | --------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------ |
+| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Hanya paket berbayar | :material-check:{ .pg-green }                         | Uang Tunai                                       |
+| [MailBox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                   | :material-information-outline:{ .pg-blue } Hanya mail | Uang Tunai                                       |
+| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                          | :material-check:{ .pg-green }                         | Monero <br>Uang tunai melalui pihak ketiga |
 
-In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md#recommended-providers) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
+Selain (atau sebagai pengganti) penyedia email yang direkomendasikan di sini, Anda mungkin ingin mempertimbangkan [layanan aliasing email](email-aliasing.md#recommended-providers) khusus untuk melindungi privasi Anda. Di antaranya, layanan-layanan ini dapat membantu melindungi kotak masuk asli Anda dari spam, mencegah para pemasar menghubungkan akun-akun Anda, dan mengenkripsi semua pesan yang masuk dengan PGP.
 
-- [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
+- [Informasi Lebih Lanjut :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## Layanan yang Kompatibel dengan OpenPGP
 
-These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic end-to-end encrypted emails. For example, a Proton Mail user could send an E2EE message to a Mailbox Mail user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
+Penyedia layanan ini secara native mendukung enkripsi/dekripsi OpenPGP dan [standar Web Key Directory (WKD)](basics/email-security.md#what-is-the-web-key-directory-standard), yang memungkinkan email terenkripsi ujung ke ujung yang bersifat penyedia-agnostik. Sebagai contoh, pengguna Proton Mail dapat mengirim pesan E2EE ke pengguna Mailbox Mail, atau Anda dapat mengirim notifikasi terenkripsi OpenPGP dari layanan internet yang mendukungnya.
 
 <div class="grid cards" markdown>
 
@@ -44,13 +44,13 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Peringatan</p>
 
-When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](basics/email-security.md#email-metadata-overview).
+Ketika menggunakan teknologi E2EE seperti OpenPGP, email Anda akan tetap memiliki beberapa metadata yang tidak terenkripsi di header email, umumnya termasuk baris subjek! Baca lebih lanjut tentang [metadata email](basics/email-security.md#email-metadata-overview).
 
-OpenPGP also does not support forward secrecy, which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed.
+OpenPGP juga tidak mendukung forward secrecy, yang berarti jika kunci privat Anda atau penerima pesan dicuri, semua pesan sebelumnya yang dienkripsi dengan kunci tersebut akan terekspos.
 
-- [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+- [Bagaimana cara melindungi kunci pribadi saya?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 </div>
 
@@ -58,20 +58,20 @@ OpenPGP also does not support forward secrecy, which means if the private key of
 
 <div class="admonition recommendation" markdown>
 
-![ Proton Mail logo ]( assets/img/email/protonmail.svg){ align=right }
+![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** adalah layanan surel dengan fokus pada privasi, enkripsi, keamanan, dan kemudahan penggunaan. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland.
+**Proton Mail** adalah layanan email dengan fokus pada privasi, enkripsi, keamanan, dan kemudahan penggunaan. Mereka telah beroperasi sejak tahun 2013. Proton AG berbasis di Geneva, Switzerland.
 
-The Proton Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+Paket Proton Free hadir dengan penyimpanan Mail sebesar 500 MB, yang dapat Anda tingkatkan hingga 1 GB secara gratis.
 
-[:octicons-home-16: Homepage](https://proton.me/mail){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Source Code" }
+[:octicons-home-16: Halaman Utama](https://proton.me/mail){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Layanan Onion" }
+[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Kebijakan Privasi" }
+[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Dokumentasi" }
+[:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Kode Sumber" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Unduhan</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
@@ -85,11 +85,11 @@ The Proton Free plan comes with 500 MB of Mail storage, which you can increase u
 
 </div>
 
-Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g., Thunderbird). Akun berbayar mencakup fitur-fitur seperti Proton Mail Bridge, penyimpanan tambahan, dan dukungan domain khusus. If you have the Proton Unlimited plan or any multi-user Proton plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+Akun gratis memiliki beberapa keterbatasan, seperti tidak dapat mencari teks di body email dan tidak memiliki akses ke [Proton Mail Bridge](https://proton.me/mail/bridge), yang diperlukan untuk menggunakan [klien email desktop yang direkomendasikan](email-clients.md) (misalnya Thunderbird). Akun berbayar mencakup fitur-fitur seperti Proton Mail Bridge, penyimpanan tambahan, dan dukungan domain khusus. Jika Anda memiliki paket Proton Unlimited atau paket Proton multi-user, Anda juga mendapatkan [SimpleLogin](email-aliasing.md#simplelogin) Premium secara gratis.
 
 [Surat pengesahan](https://proton.me/blog/security-audit-all-proton-apps) diberikan untuk aplikasi Proton Mail pada tanggal 9 November 2021 oleh [Securitum](https://research.securitum.com).
 
-Proton Mail has internal crash reports that are **not** shared with third parties. This can be disabled in the web app: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+Proton Mail memiliki laporan crash internal yang **tidak** dibagikan dengan pihak ketiga. This can be disabled in the web app: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
 
 #### :material-check:{ .pg-green } Domain dan Alias Khusus
 
@@ -123,7 +123,7 @@ If you have a paid account and your [bill is unpaid](https://proton.me/support/d
 
 Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
 
-### Mailbox Mail
+### MailBox Mail
 
 <div class="admonition recommendation" markdown>
 
