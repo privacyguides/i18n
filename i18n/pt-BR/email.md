@@ -34,7 +34,7 @@ Além de (ou ao invés de) um provedor de e-mail recomendado aqui, você pode co
 
 ## Serviços Compatíveis com OpenPGP
 
-These providers natively support OpenPGP encryption/decryption and the [Web Key Directory (WKD) standard](basics/email-security.md#what-is-the-web-key-directory-standard), allowing for provider-agnostic end-to-end encrypted emails. For example, a Proton Mail user could send an E2EE message to a Mailbox Mail user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
+Esses provedores suportam nativamente a criptação/decriptação do OpenPGP e o padrão do[Web Key Directory (WKD)](basics/email-security.md#what-is-the-web-key-directory-standard), possibilitando *e-mails* criptografados independente do provedor. Por exemplo, um usuário do Proton Mail pode enviar uma mensagem criptografada para um usuário do Mailbox Mail, ou você poderia receber notificações criptografadas em OpenPGP de serviços de *internet* que as suportam.
 
 <div class="grid cards" markdown>
 
@@ -48,9 +48,9 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 
 Ao usar a tecnologia E2EE, como o OpenPGP, seu e-mail ainda terá alguns metadados que não são criptografados no cabeçalho do e-mail, geralmente incluindo a linha de assunto! Leia mais sobre [metadados de e-mail](basics/email-security.md#email-metadata-overview).
 
-OpenPGP also does not support forward secrecy, which means if the private key of either you or the message recipient is ever stolen, all previous messages encrypted with it will be exposed.
+OpenPGP também não suporta segredos futuros. Ou seja, se a sua chave privada ou a do recipiente forem vazadas, todas as mensagens criptografadas com elas serão expostas.
 
-- [How do I protect my private keys?](basics/email-security.md#how-do-i-protect-my-private-keys)
+- [Como que eu protejo minhas chaves privadas? (em inglês)](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 </div>
 
@@ -62,7 +62,7 @@ OpenPGP also does not support forward secrecy, which means if the private key of
 
 **Proton Mail** é um serviço de email com foco na privacidade, criptografia, segurança, e facilidade de uso. Eles estão operando desde 2013. A Proton AG está sedeada em Genebra, na Suíça.
 
-The Proton Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
+O plano Proton Free vem com 500 MB de armazenamento para <em>e-mails</em>. Onde é possível aumentar para até 1 GB de graça.
 
 [:octicons-home-16: Página inicial](https://proton.me/mail){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Serviço Onion" }
@@ -85,7 +85,7 @@ The Proton Free plan comes with 500 MB of Mail storage, which you can increase u
 
 </div>
 
-Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g., Thunderbird). Contas pagas incluem funcionalidades como a Ponte Proton Mail, mais armazenamento, e suporte para domínios customizados. Se você tem o Proton Unlimited, Bussiness, ou Visionary Plan, você também ganha o [SimpleLogin](#simplelogin) Premium de graça.
+Contas gratuitas têm algumas limitações, como não poder pesquisar o corpo do texto e não terem acesso ao [Proton Mail Bridge](https://proton.me/mail/bridge), necessário para usar um dos [clientes de *e-mail* recomendados](email-clients.md) (por exemplo, o Thunderbird). Contas pagas incluem funcionalidades como a Ponte Proton Mail, mais armazenamento, e suporte para domínios customizados. Se você tem o Proton Unlimited, Bussiness, ou Visionary Plan, você também ganha o [SimpleLogin](#simplelogin) Premium de graça.
 
 Um [certificado de segurança](https://proton.me/blog/security-audit-all-proton-apps) foi concedido para os aplicativos do Proton Mail em 9 de Novembro de 2021 pela [Securitium](https://research.securitum.com).
 
@@ -97,7 +97,7 @@ Assinantes pagos do Proton Mail podem usar seu próprio domínio com o serviço 
 
 #### :material-check:{ .pg-green } Métodos de Pagamento Privados
 
-Proton Mail [accepts](https://proton.me/support/payment-options) **cash** by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments.
+Proton Mail [aceita](https://proton.me/support/payment-options) **dinheiro** por correio além de cartões de crédito/débito, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) e pagamentos pelo PayPal.
 
 #### :material-check:{ .pg-green } Segurança da Conta
 
@@ -111,9 +111,9 @@ Certas informações armazenadas no [Proton Contacts](https://proton.me/support/
 
 #### :material-check:{ .pg-green } Criptografia do Email
 
-Proton Mail [tem criptografia OpenPGP integrada](https://proton.me/support/how-to-use-pgp) em seu webmail. E-mails para outras contas do Proton Mail são criptografados automaticamente, e criptografia para endereços não-Proton Mail com uma chave OpenPGP pode ser facilmente ativada nas configurações da sua conta. Proton also supports automatic external key discovery with WKD. Isso significa que os e-mails enviados a outros provedores que usam o WKD também serão criptografados automaticamente com o OpenPGP, sem a necessidade de trocar manualmente chaves PGP públicas com seus contatos. Eles também permitem que você [criptografe mensagens para endereços não-Proton Mail](https://proton.me/support/password-protected-emails) sem a necessidade de eles se cadastrarem com uma conta Proton Mail ou usar programas como OpenPGP.
+Proton Mail [tem criptografia OpenPGP integrada](https://proton.me/support/how-to-use-pgp) em seu webmail. E-mails para outras contas do Proton Mail são criptografados automaticamente, e criptografia para endereços não-Proton Mail com uma chave OpenPGP pode ser facilmente ativada nas configurações da sua conta. Proton também suporta descoberta automática de chave externa com WKD. Isso significa que os e-mails enviados a outros provedores que usam o WKD também serão criptografados automaticamente com o OpenPGP, sem a necessidade de trocar manualmente chaves PGP públicas com seus contatos. Eles também permitem que você [criptografe mensagens para endereços não-Proton Mail](https://proton.me/support/password-protected-emails) sem a necessidade de eles se cadastrarem com uma conta Proton Mail ou usar programas como OpenPGP.
 
-O Proton Mail também publica as chaves públicas das contas Proton via HTTP a partir de seu WKD. This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Proton's own domains, like `@proton.me`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+O Proton Mail também publica as chaves públicas das contas Proton via HTTP a partir de seu WKD. Isso permite as pessoas que não usam Proton Mail a acharem as chaves OpenPGP de contas do Proton Mail para E2F entre provedores. Isso só se aplica a endereços de *e-mail* que terminam em um dos domínios da Proton, como `@proton.me`. Se você usa um domínio customizado, você deve [configurar o WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separadamente.
 
 #### :material-information-outline:{ .pg-blue } Rescisão da Conta
 
@@ -121,7 +121,7 @@ Se você tiver uma conta paga e sua conta [não for paga](https://proton.me/supp
 
 #### :material-information-outline:{ .pg-blue } Funcionalidades Adicionais
 
-Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
+O plano [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) do Proton Mail também permite acesso a outros serviços da Proton, além de prover domínios customizados, aliases hide-my-email infinitos e 500 GB de armazenamento.
 
 ### Mailbox Mail
 
@@ -129,9 +129,9 @@ Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimite
 
 ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
 
-**Mailbox Mail** is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Eles estão operando desde 2014. Mailbox Mail is based in Berlin, Germany.
+**Mailbox Mail** é um serviço de *e-mail* com um foco em ser seguro, livre de anúncios e energizado 100% por energia verde. Eles estão operando desde 2014. Mailbox Mail é localizado em Berlim, Alemanha.
 
-Accounts start with up to 2 GB storage, which can be upgraded as needed.
+Contas começam com até 2 GB de armazenamento, que pode ser melhorado quando preciso.
 
 [:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
@@ -148,15 +148,15 @@ Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
 #### :material-check: { .pg-green } Domínios e Pseudônimos Personalizados
 
-Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
+Mailbox Mail deixa você utilizar seu próprio domínio e eles suportam endereços [*catch-all*](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name). Mailbox Mail também suporta [sub-endereços](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), o que é útil se você não quiser comprar um domínio.
 
 #### :material-check:{ .pg-green } Métodos de Pagamento Privados
 
-Mailbox Mail doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept **cash** by mail, **cash** payment to bank account, bank transfer, credit card, PayPal, and a couple of German-specific processors: Paydirekt and Sofortüberweisung.
+Mailbox Mail não aceita nenhuma criptomoeda, pois seu processador de pagamentos, BitPay, encerrou suas operações na Alemanha. Porém, eles aceitam **dinheiro** por correio, pagamentos diretos para a conta bancária, transferência de banco, cartões de crédito, PayPal e dois processadores específicos da Alemanha: Paydirekt e Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Segurança da Conta
 
-Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](security-keys.md#yubikey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) are not yet supported.
+Mailbox Mail suporta [autenticação por dois fatores](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) apenas para o *webmail*. You can use either TOTP or a [YubiKey](security-keys.md#yubikey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) are not yet supported.
 
 #### :material-information-outline:{ .pg-blue } Segurança dos Dados
 
@@ -168,7 +168,7 @@ However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the softwar
 
 Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox Mail's servers. Esse recurso é útil quando o destinatário remoto não tem OpenPGP e não pode descriptografar uma cópia do e-mail em sua própria caixa de correio.
 
-Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. Se você usa um domínio customizado, você deve [configurar o WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separadamente.
 
 #### :material-information-outline:{ .pg-blue } Rescisão da Conta
 
