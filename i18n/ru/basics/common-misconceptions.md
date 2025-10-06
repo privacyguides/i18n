@@ -42,7 +42,7 @@ schema:
 
 Эти мифы проистекают из ряда предрассудков, однако доступность исходного кода и способ лицензирования программного обеспечения по своей сути никак не влияют на его безопасность. ==Программное обеспечение с открытым исходным кодом имеет *потенциал* быть более безопасным, чем проприетарное программное обеспечение, но нет абсолютно никаких гарантий, что это так.== Когда вы оцениваете программное обеспечение, вы должны смотреть на репутацию и безопасность каждого инструмента в отдельности.
 
-Программное обеспечение с открытым исходным кодом *может* проверяться третьими сторонами, и зачастую оно более прозрачно в отношении потенциальных уязвимостей, чем проприетарные аналоги. Оно также позволяет просматривать код и отключать любые подозрительные функции, которые вы обнаружите. Однако, *если вы не сделаете этого*, нет никакой гарантии того, что код когда-либо проверялся, особенно в небольших проектах. The open development process has also sometimes been exploited to introduce new vulnerabilities known as [:material-package-variant-closed-remove: Supply Chain Attacks](common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}, which are discussed further in our [Common Threats](common-threats.md) page.[^1]
+Программное обеспечение с открытым исходным кодом *может* проверяться третьими сторонами, и зачастую оно более прозрачно в отношении потенциальных уязвимостей, чем проприетарные аналоги. Оно также позволяет просматривать код и отключать любые подозрительные функции, которые вы обнаружите. Однако, *если вы не сделаете этого*, нет никакой гарантии того, что код когда-либо проверялся, особенно в небольших проектах. Открытый процесс разработки иногда использовался для создания новых уязвимостей, известных как [:material-package-variant-closed-remove:Атаки на цепочку поставок](common-threats.md#attacks-against-certain-organizations ""){.pg-viridian}, которые более подробно обсуждаются на странице [Распространенные угрозы](common-threats.md).[^1]
 
 С другой стороны, проприетарное программное обеспечение менее прозрачно, но это не означает, что оно небезопасно. Крупные проекты по разработке проприетарного программного обеспечения могут подвергаться внутреннему аудиту и аудиту сторонних организаций, а независимые исследователи безопасности все еще могут находить уязвимости с помощью таких методов, как реверс-инжиниринг.
 
@@ -63,35 +63,35 @@ schema:
 
 ## "Сложнее - лучше"
 
-Мы часто видим, как люди описывают слишком сложные модели угроз конфиденциальности. Often, these solutions include problems like multiple email accounts or complicated setups with lots of moving parts and conditions. Ответы, как правило, являются ответами на вопрос "Как лучшего всего сделать *X*?"
+Мы часто видим, как люди описывают слишком сложные модели угроз конфиденциальности. Часто эти решения включают такие проблемы, как множество различных учетных записей электронной почты или сложные настройки с большим количеством условий. Ответы, как правило, являются ответами на вопрос "Как лучшего всего сделать *X*?"
 
 Поиск "лучшего" решения для себя не обязательно означает, что вам нужно безошибочное решение с десятками условий - с такими решениями часто трудно работать в реальности. Как мы уже говорили ранее, безопасность часто достигается ценой удобства. Ниже мы приводим несколько советов:
 
 1. ==Действия должны служить определенной цели:== подумайте о том, как сделать то, что вы хотите, с помощью наименьшего количества действий.
 2. ==Избегание человеческого фактора:== Мы терпим неудачи, устаем и забываем. Чтобы поддерживать безопасность, не полагайтесь на ручные условия и действия, которые вы должны помнить.
-3. ==Используйте правильный уровень защиты для того, что вы задумали.== Мы часто встречаем рекомендации так называемых решений, защищенных от правоохранительных органов или судебных решений. Они часто требуют специальных знаний и, как правило, не являются тем, что нужно людям. There's no point in building an intricate threat model for anonymity if you can be easily deanonymized by a simple oversight.
+3. ==Используйте правильный уровень защиты для того, что вы задумали.== Мы часто встречаем рекомендации так называемых решений, защищенных от правоохранительных органов или судебных решений. Они часто требуют специальных знаний и, как правило, не являются тем, что нужно людям. Нет смысла строить сложную модель угроз для анонимности, если вас можно легко деанонимизировать по простой оплошности.
 
 Итак, как это может выглядеть?
 
 Одна из самых четких моделей угроз - это модель, в которой люди *знают, кто вы*, и модель, в которой они этого не знают. Всегда будут ситуации, когда вы должны объявить свое юридическое имя, а есть такие, где это не нужно.
 
-1. **Known identity** - A known identity is used for things where you must declare your name. There are many legal documents and contracts where a legal identity is required. This could range from opening a bank account, signing a property lease, obtaining a passport, customs declarations when importing items, or otherwise dealing with your government. These things will usually lead to credentials such as credit cards, credit rating checks, account numbers, and possibly physical addresses.
+1. **Известная личность** – известная личность используется в ситуациях, когда вы обязаны указать свое имя. Существует множество юридических документов и контрактов, где требуется указать личность. Это может быть открытие банковского счета, подписание договора аренды, получение паспорта, таможенные декларации при импорте товаров или любые другие взаимодействия с государственными органами. Как правило, это касается таких данных, как кредитные карты, проверка кредитного рейтинга, номера счетов и, возможно, физические адреса.
 
-    We don't suggest using a VPN or Tor for any of these things, as your identity is already known through other means.
+    Мы не советуем использовать VPN или Tor для этих целей, поскольку ваша личность уже известна с помощью других средств.
 
     <div class="admonition tip" markdown>
-    <p class="admonition-title">Tip</p>
+    <p class="admonition-title">Совет</p>
 
-    When shopping online, the use of a [parcel locker](https://en.wikipedia.org/wiki/Parcel_locker) can help keep your physical address private.
+    При совершении покупок в Интернете использование [почтомата](https://en.wikipedia.org/wiki/Parcel_locker) поможет сохранить конфиденциальность вашего физического адреса.
 
     </div>
 
-2. **Unknown identity** - An unknown identity could be a stable pseudonym that you regularly use. It is not anonymous because it doesn't change. If you're part of an online community, you may wish to retain a persona that others know. This pseudonym isn't anonymous because—if monitored for long enough—details about the owner can reveal further information, such as the way they write, their general knowledge about topics of interest, etc.
+2. **Неизвестная личность** – это может быть стабильный псевдоним, который вы регулярно используете. Она не анонимна, потому что не меняется. Если вы являетесь частью онлайн-сообщества, возможно, вам захочется сохранить личность, которую знают другие. Этот псевдоним не является анонимным, поскольку, если за ним достаточно долго наблюдать, можно получить дополнительную информацию о его владельце: манеру письма, общие знания по интересующим темам и т. д.
 
-    You may wish to use a VPN for this, to mask your IP address. Financial transactions are more difficult to mask: You could consider using anonymous cryptocurrencies, such as [Monero](../cryptocurrency.md#monero). Employing altcoin shifting may also help to disguise where your currency originated. Typically, exchanges require KYC (know your customer) to be completed before they'll allow you to exchange fiat currency into any kind of cryptocurrency. Local meet-up options may also be a solution; however, those are often more expensive and sometimes also require KYC.
+    Для этого вы можете использовать VPN, чтобы замаскировать свой IP-адрес. Финансовые операции сложнее замаскировать: Вы можете рассмотреть возможность использования анонимных криптовалют, таких как [Monero](../cryptocurrency.md#monero). Использование альткоинов также может помочь скрыть место происхождения вашей валюты. Как правило, биржи требуют пройти процедуру KYC (know your customer), прежде чем разрешить вам обменять фиатную валюту на любую криптовалюту. Варианты местных встреч также могут быть решением проблемы, однако они зачастую более дорогие и иногда требуют KYC.
 
-3. **Anonymous identity** - Even with experience, anonymous identities are difficult to maintain over long periods of time. They should be short-term and short-lived identities which are rotated regularly.
+3. **Анонимная личность** - даже при наличии опыта анонимные личности трудно поддерживать в течение длительного времени. Это должны быть краткосрочные и недолговечные личности, которые регулярно меняются.
 
-    Using Tor can help with this. It is also worth noting that greater anonymity is possible through asynchronous communication: Real-time communication is vulnerable to analysis of typing patterns (i.e. more than a paragraph of text, distributed on a forum, via email, etc.)
+    Использование Tor может помочь в этом. Стоит также отметить, что большая анонимность возможна при асинхронном общении: Общение в реальном времени уязвимо для анализа шаблонов набора текста (т.е. более чем абзац текста, распространяемый на форуме, по электронной почте и т.д.)
 
-[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added an obfuscated backdoor into `xz`, a popular compression library. The backdoor ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) was intended to give an unknown party remote access to most Linux servers via SSH, but it was discovered before it had been widely deployed.
+[^1]: Заметная атака на цепочку поставок произошла в марте 2024 года, когда злоумышленник добавил обфусцированный бэкдор в `xz`, популярную библиотеку сжатия. Бэкдор [(CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) предназначался для предоставления неизвестному лицу удаленного доступа к большинству Linux-серверов через SSH, но он был обнаружен до того, как получил широкое распространение.
