@@ -168,17 +168,17 @@ Namun, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), platform pera
 
 Mailbox Mail telah [mengintegrasikan enkripsi](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) di webmail mereka, yang menyederhanakan pengiriman pesan ke orang-orang dengan kunci OpenPGP publik. Mereka juga memungkinkan [penerimaan jarak jauh untuk mendekripsi email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) di server Mailbox Mail. Fitur ini berguna ketika penerima jarak jauh tidak memiliki OpenPGP dan tidak dapat mendekripsi salinan email di kotak surat mereka sendiri.
 
-Mailbox Mail juga mendukung discovery kunci publik melalui HTTP dari WKD mereka. Hal ini memungkinkan orang di luar Mailbox Mail untuk menemukan kunci OpenPGP dari akun Mailbox Mail dengan mudah untuk E2EE lintas penyedia. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. Jika Anda menggunakan domain khusus, Anda harus [mengonfigurasi WKD](basics/email-security.md#what-is-the-web-key-directory-standard) secara terpisah.
+Mailbox Mail juga mendukung discovery kunci publik melalui HTTP dari WKD mereka. Hal ini memungkinkan orang di luar Mailbox Mail untuk menemukan kunci OpenPGP dari akun Mailbox Mail dengan mudah untuk E2EE lintas penyedia. Ini hanya berlaku untuk alamat email yang berakhiran dengan salah satu domain Mailbox Mail sendiri, seperti `@mailbox.org`. Jika Anda menggunakan domain khusus, Anda harus [mengonfigurasi WKD](basics/email-security.md#what-is-the-web-key-directory-standard) secara terpisah.
 
 #### :material-information-outline:{ .pg-blue } Penghentian Akun
 
-Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Akun Anda diatur ke akun pengguna terbatas ketika kontrak Anda berakhir. Data ini akan dihapus secara permanen setelah [30 hari](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
 #### :material-information-outline:{ .pg-blue } Fungsionalitas Tambahan
 
-You can access your Mailbox Mail account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). However, their webmail interface cannot be accessed via their .onion service, and you may experience TLS certificate errors.
+Anda dapat mengakses akun Mailbox Mail Anda melalui IMAP/SMTP menggunakan layanan [.onion](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). Namun, antarmuka webmail mereka tidak dapat diakses melalui layanan .onion mereka, dan Anda mungkin mangalami kesalahan sertifikat TLS.
 
-All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox Mail also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox Mail also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
+Semua akun dilengkapi penyimpanan awan terbatas yang [dapat dienkripsi](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox Mail juga menawarkan alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), yang memberlakukan enkripsi TLS pada koneksi antara server email, jika tidak, pesan tidak akan terkirim sama sekali. Mailbox Mail also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
 
 Mailbox Mail has a digital legacy feature for all plans. You can choose whether you want any of your data to be passed to heirs, providing that they apply and provide your testament. Alternatively, you can nominate a person by name and address.
 
@@ -199,9 +199,9 @@ These providers store your emails with zero-knowledge encryption, making them gr
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany.
+**Tuta** (sebelumnya bernama *Tutanota*) adalah layanan email berfokus pada keamanan dan privasi melalui penggunaan enkripsi. Tuta telah beroperasi sejak tahun 2011 dan berbasis di Hanover, Germany.
 
-Free accounts start with 1 GB of storage.
+Akun gratis dimulai dengan penyimpanan 1 GB.
 
 :octicons-home-16: Halaman Utama](https://tuta.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Kebijakan Privasi" }
