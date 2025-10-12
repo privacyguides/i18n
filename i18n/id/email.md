@@ -178,13 +178,13 @@ Akun Anda diatur ke akun pengguna terbatas ketika kontrak Anda berakhir. Data in
 
 Anda dapat mengakses akun Mailbox Mail Anda melalui IMAP/SMTP menggunakan layanan [.onion](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). Namun, antarmuka webmail mereka tidak dapat diakses melalui layanan .onion mereka, dan Anda mungkin mangalami kesalahan sertifikat TLS.
 
-Semua akun dilengkapi penyimpanan awan terbatas yang [dapat dienkripsi](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox Mail juga menawarkan alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), yang memberlakukan enkripsi TLS pada koneksi antara server email, jika tidak, pesan tidak akan terkirim sama sekali. Mailbox Mail also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
+Semua akun dilengkapi penyimpanan awan terbatas yang [dapat dienkripsi](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox Mail juga menawarkan alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), yang memberlakukan enkripsi TLS pada koneksi antara server email, jika tidak, pesan tidak akan terkirim sama sekali. Mailbox Mail juga mendukung [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) selain protokol akses standar seperti IMAP dan POP3.
 
-Mailbox Mail has a digital legacy feature for all plans. You can choose whether you want any of your data to be passed to heirs, providing that they apply and provide your testament. Alternatively, you can nominate a person by name and address.
+Mailbox Mail memiliki fitur warisan digital untuk semua paket. Anda dapat memilih apakah Anda ingin data Anda diwariskan kepada ahli waris, asalkan mereka mengajukan permohonan dan memberikan surat wasiat Anda. Sebagai alternatif, Anda dapat menominasikan seseorang berdasarkan nama dan alamat.
 
 ## Penyedia Lainnya
 
-These providers store your emails with zero-knowledge encryption, making them great options for keeping your stored emails secure. However, they don't support interoperable encryption standards for E2EE communications between different providers.
+Penyedia ini menyimpan email Anda dengan zero-knowledge encryption, menjadikannya pilihan yang bagus untuk menjaga email yang tersimpan tetap aman. Namun, mereka tidak mendukung standar enkripsi yang dapat dioperasikan untuk komunikasi E2EE antara penyedia yang berbeda.
 
 <div class="grid cards" markdown>
 
@@ -224,15 +224,15 @@ Akun gratis dimulai dengan penyimpanan 1 GB.
 
 </div>
 
-Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
+Tuta tidak mendukung [protokol IMAP](https://tuta.com/support#imap) atau penggunaan [klien email](email-clients.md) pihak ketiga, dan Anda juga tidak dapat menambahkan [akun email eksternal](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) ke aplikasi Tuta. [Impor email](https://github.com/tutao/tutanota/issues/630) saat ini juga tidak didukung, meskipun hal ini [akan diubah](https://tuta.com/blog/kickoff-import). Email dapat diekspor satu per satu [atau dengan pemilihan massal](https://tuta.com/support#generalMail) per folder, yang mungkin merepotkan jika Anda memiliki banyak folder.
 
 #### :material-check:{ .pg-green } Domain dan Alias Khusus
 
-Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/support#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/support#plus), but you can use a [catch-all](https://tuta.com/support#settings-global) with a custom domain.
+Akun Tuta berbayar dapat menggunakan 15 atau 30 alias tergantung pada paket mereka dan alias tak terbatas pada [domain kustom](https://tuta.com/support#custom-domain). Tuta tidak mengizinkan [sub-addressing (plus addresses)](https://tuta.com/support#plus), tetapi Anda bisa menggunakan [catch-all](https://tuta.com/support#settings-global) dengan domain kustom.
 
-#### :material-information-outline:{ .pg-blue } Private Payment Methods
+#### :material-information-outline:{ .pg-blue } Metode Pembayaran Pribadi
 
-Tuta only directly accepts credit cards and PayPal, however [**cryptocurrency**](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
+Tuta hanya menerima kartu kredit dan PayPal secara langsung, namun [**mata uang kripto**](cryptocurrency.md) dapat digunakan untuk membeli kartu hadiah melalui [kemitraan](https://tuta.com/support/#cryptocurrency) dengan ProxyStore.
 
 #### :material-check:{ .pg-green } Keamanan Akun
 
