@@ -303,35 +303,35 @@ Server email berurusan dengan banyak data yang sangat sensitif. Kami berharap pe
 **Minimum untuk Memenuhi Syarat:**
 
 - Perlindungan webmail dengan 2FA, seperti [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
-- Zero-access encryption, yang dibangun di atas enkripsi saat tidak digunakan. Penyedia tidak memiliki kunci dekripsi untuk data yang mereka miliki. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
-- [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) support.
-- No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
-- A server suite preference (optional on TLS 1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
-- A valid [MTA-STS](https://tools.ietf.org/html/rfc8461) and [TLS-RPT](https://tools.ietf.org/html/rfc8460) policy.
-- Valid [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) records.
-- Valid [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) records.
-- Must have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. If DMARC authentication is being used, the policy must be set to `reject` or `quarantine`.
-- A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
-- [SMTPS](https://en.wikipedia.org/wiki/SMTPS) submission, assuming SMTP is used.
-- Website security standards such as:
+- Zero-access encryption, yang dibangun di atas enkripsi saat tidak digunakan. Penyedia tidak memiliki kunci dekripsi untuk data yang mereka miliki. Hal ini mencegah karyawan nakal membocorkan data yang mereka miliki atau musuh jarak jauh merilis data yang telah mereka curi dengan mendapatkan akses tidak sah ke server.
+- Dukungan [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions).
+- Tidak ada kesalahan atau kerentanan TLS saat diprofilkan oleh alat-alat seperti [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), atau [Qualys SSL Labs](https://ssllabs.com/ssltest); ini termasuk kesalahan terkait sertifikat dan parameter DH yang lemah, seperti yang menyebabkan [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
+- Preferensi rangkaian server (opsional pada TLS 1.3) untuk rangkaian sandi yang kuat yang mendukung forward secrecy dan enkripsi yang diautentikasi.
+- Kebijakan [MTA-STS](https://tools.ietf.org/html/rfc8461) dan [TLS-RPT](https://tools.ietf.org/html/rfc8460) yang masih berlaku.
+- Catatan [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) yang valid.
+- Catatan [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) dan [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) yang valid.
+- Harus memiliki catatan dan kebijakan [DMARC](https://en.wikipedia.org/wiki/DMARC) yang tepat atau menggunakan [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) untuk otentikasi. Jika autentikasi DMARC digunakan, kebijakan harus diatur untuk `reject` atau `quarantine`.
+- Preferensi paket server TLS 1.2 atau yang lebih baru dan paket untuk [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
+- Pengiriman [SMTPS](https://en.wikipedia.org/wiki/SMTPS), dengan asumsi menggunakan SMTP.
+- Standar keamanan situs web seperti:
     - [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
-    - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
-- Must support viewing of [message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
+    - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) jika memuat sesuatu dari domain eksternal.
+- Harus mendukung tampilan [message header](https://en.wikipedia.org/wiki/Email#Message_header), karena ini adalah fitur forensik yang penting untuk menentukan apakah sebuah email merupakan upaya phishing.
 
 **Kasus Terbaik:**
 
-- Should support hardware authentication, i.e. U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
-- [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
-- Should implement [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
-- Published security audits from a reputable, third-party firm.
+- Harus mendukung autentikasi perangkat keras, yaitu. E2F dan [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
+- [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) sebagai tambahan untuk dukungan DANE.
+- Harus mengimplementasikan [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), yang berguna bagi orang-orang yang mengirim ke milis [RFC8617](https://tools.ietf.org/html/rfc8617).
+- Audit keamanan yang dipublikasikan dari perusahaan pihak ketiga yang memiliki reputasi baik.
 - Program bug-bounty dan/atau proses pengungkapan kerentanan yang terkoordinasi.
-- Website security standards such as:
+- Standar keamanan situs web seperti:
     - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
     - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163)
 
 ### Kepercayaan
 
-You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? Kami mewajibkan penyedia layanan yang kami rekomendasikan untuk terbuka mengenai kepemilikan atau kepemimpinan mereka. Kami juga ingin melihat laporan transparansi yang lebih sering, terutama dalam hal bagaimana permintaan pemerintah ditangani.
+Anda tidak akan mempercayakan keuangan Anda kepada seseorang dengan identitas palsu, jadi mengapa mempercayakan email Anda kepada mereka? Kami mewajibkan penyedia layanan yang kami rekomendasikan untuk terbuka mengenai kepemilikan atau kepemimpinan mereka. Kami juga ingin melihat laporan transparansi yang lebih sering, terutama dalam hal bagaimana permintaan pemerintah ditangani.
 
 **Minimum untuk Memenuhi Syarat:**
 
@@ -343,21 +343,21 @@ You wouldn't trust your finances to someone with a fake identity, so why trust t
 
 ### Pemasaran
 
-With the email providers we recommend, we like to see responsible marketing.
+Dengan penyedia email yang kami rekomendasikan, kami ingin melihat pemasaran yang bertanggung jawab.
 
 **Minimum untuk Memenuhi Syarat:**
 
-- Must self-host analytics (no Google Analytics, Adobe Analytics, etc.).
-- Must not have any irresponsible marketing, which can include the following:
-    - Claims of "unbreakable encryption." Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
-    - Guarantees of protecting anonymity 100%. When someone makes a claim that something is 100%, it means there is no certainty for failure. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
-        - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software such as Tor
+- Harus meng-host analitik sendiri (tidak ada Google Analytics, Adobe Analytics, dll.).
+- Tidak boleh melakukan pemasaran yang tidak bertanggung jawab, yang dapat mencakup hal-hal berikut:
+    - Klaim "enkripsi yang tidak dapat dipecahkan." Enkripsi harus digunakan dengan tujuan agar tidak menjadi rahasia di masa depan ketika teknologi untuk memecahkannya sudah ada.
+    - Jaminan perlindungan enonimitas 100%. Ketika seseorang membuat klaim bahwa sesuatu adalah 100%, itu berarti bahwa tidak ada kepastian untuk kegagalan. Kami tahu bahwa orang dapat dengan mudah menghilangkan nama mereka dengan beberapa cara, misalnya.:
+        - Menggunakan kembali informasi pribadi, misalnya (akun email, nama samaran unik, dll.) yang mereka akses tanpa perangkat lunak anonimitas seperti Tor
         - [Sidik jari peramban](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **Kasus Terbaik:**
 
-- Clear and easy-to-read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
+- Dokumentasi yang jelas dan mudah dibaca untuk tugas-tugas seperti menyiapkan 2FA, klien email, OpenPGP, dll.
 
 ### Fungsionalitas Tambahan
 
-While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.
+Meskipun tidak sepenuhnya persyaratan, ada beberapa faktor kenyamanan atau privasi lain yang kami pertimbangkan ketika menentukan penyedia mana yang akan direkomendasikan.
