@@ -236,50 +236,50 @@ Tuta hanya menerima kartu kredit dan PayPal secara langsung, namun [**mata uang 
 
 #### :material-check:{ .pg-green } Keamanan Akun
 
-Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
+Tuta mendukung [two-factor authentication](https://tuta.com/support#2fa) dengan TOTP atau U2F.
 
 #### :material-check:{ .pg-green } Keamanan Data
 
-Tuta has [zero-access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). This means the messages and other data stored in your account are only readable by you.
+Tuta memiliki [zero-access encryption](https://tuta.com/support#what-encrypted) untuk email Anda, [kontak buku alamat](https://tuta.com/support#encrypted-address-book), dan [kalender](https://tuta.com/support#calendar). Ini berarti pesan dan data lain yang tersimpan di akun Anda hanya dapat dibaca oleh Anda.
 
-#### :material-information-outline:{ .pg-blue } Email Encryption
+#### :material-information-outline:{ .pg-blue } Enkripsi Email
 
-Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
+Tuta [tidak menggunakan OpenPGP](https://tuta.com/support/#pgp). Akun Tuta hanya bisa menerima email terenkripsi dari akun non-Tuta ketika dikirim melalui [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
 
 #### :material-information-outline:{ .pg-blue } Penghentian Akun
 
-Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
+Tuta akan [menghapus akun gratis yang tidak aktif](https://tuta.com/support#inactive-accounts) setelah enam bulan. Anda dapat menggunakan kembali akun gratis yang telah dinonaktifkan jika Anda membayar.
 
 #### :material-information-outline:{ .pg-blue } Fungsionalitas Tambahan
 
-Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
+Tuta menawarkan versi bisnis [Tuta untuk organisasi nirlaba](https://tuta.com/blog/secure-email-for-non-profit) secara gratis atau dengan diskon besar.
 
 ## Kriteria
 
-**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
+**Harap diperhatikan bahwa kami tidak berafiliasi dengan penyedia yang kami rekomendasikan.** Selain [kriteria standar kami](about/criteria.md), kami telah mengembangkan serangkaian persyaratan yang jelas untuk setiap penyedia email yang ingin direkomendasikan, termasuk menerapkan praktik terbaik industri, teknologi modern, dan banyak lagi. Kami sarankan Anda membiasakan diri dengan daftar ini sebelum memilih penyedia email, dan melakukan penelitian sendiri untuk memastikan penyedia email yang Anda pilih adalah pilihan yang tepat untuk Anda.
 
 ### Teknologi
 
-We regard these features as important in order to provide a safe and optimal service. You should consider whether the provider has the features you require.
+Kami menganggap fitur-fitur ini penting untuk memberikan layanan yang aman dan optimal. Anda harus mempertimbangkan apakah penyedia memiliki fitur yang Anda butuhkan.
 
 **Minimum untuk Memenuhi Syarat:**
 
-- Must encrypt email account data at rest with zero-access encryption.
-- Must be capable of exporting emails as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
-- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
-- Must operate on owned infrastructure, i.e. not built upon third-party email service providers.
+- Harus mengenkripsi data akun email saat tidak aktif dengan zero-access encryption.
+- Harus mampu mengekspor email sebagai [Mbox](https://en.wikipedia.org/wiki/Mbox) atau .EML individual dengan standar [RFC5322](https://datatracker.ietf.org/doc/rfc5322).
+- Izinkan pengguna untuk menggunakan [nama domain](https://en.wikipedia.org/wiki/Domain_name) mereka sendiri. Nama domain khusus penting bagi pengguna karena memungkinkan mereka untuk mempertahankan keagenan meraka dari layanan, jika layanan berubah menjadi buruk atau diakuisisi oleh perusahaan lain yang tidak memprioritaskan privasi.
+- Harus beroperasi pada infrastruktur milik sendiri, yaitu tidak dibangun di atas penyedia layanan email pihak ketiga.
 
 **Kasus Terbaik:**
 
-- Should encrypt all account data (contacts, calendars, etc.) at rest with zero-access encryption.
-- Should provide integrated webmail E2EE/PGP encryption as a convenience.
-- Should support WKD to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key with this command: `gpg --locate-key example_user@example.com`.
-- Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
-- Should support [sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
-- Should allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
-- Catch-all or alias functionality for those who use their own domains.
-- Should use standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
-- Email provider's services should be available via an [onion service](https://en.wikipedia.org/wiki/.onion).
+- Harus mengenkripsi semua data akun (kontak, kalender, dll.) saat tidak digunakan dengan zero-access encryption.
+- Harus menyediakan enkripsi E2EE/PGP webmail yang terintegrasi sebagai kenyamanan.
+- Harus mendukung WKD untuk memungkinkan penemuan kunci OpenPGP publik yang lebih baik melalui HTTP. Pengguna GnuPG dapat memperoleh kunci dengan perintah `gpg --locate-key example_user@example.com`.
+- Dukungan untuk temporary mailbox untuk pengguna eksternal. Ini berguna ketika Anda ingin mengirim email terenkripsi tanpa mengirimkan salinan yang sebenarnya kepada penerima. Email ini biasanya memiliki masa berlaku terbatas dan kemudian dihapus secara otomatis. Mereka juga tidak mengharuskan penerima untuk mengonfigurasi kriptografi apa pun seperti OpenPGP.
+- Harus mendukung [sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
+- Harus mengizinkan pengguna untuk menggunakan [nama domain](https://en.wikipedia.org/wiki/Domain_name) mereka sendiri. Nama domain khusus penting bagi pengguna karena memungkinkan mereka untuk mempertahankan keagenan mereka dari layanan, jika layanan berubah menjadi buruk atau diakuisisi oleh perusahaan lain yang tidak memprioritaskan privasi.
+- Fungsionalitas catch-all atau alias bagi mereka yang menggunakan domain sendiri.
+- Sebaiknya gunakan protokol akses email standar seperti IMAP, SMTP, atau [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Protokol akses standar memastikan pelanggan dapat dengan mudah mengunduh semua email mereka, jika mereka ingin beralih ke penyedia lain.
+- Layanan penyedia email harus tersedia melalui [layanan onion](https://en.wikipedia.org/wiki/.onion).
 
 ### Privasi
 
@@ -287,23 +287,23 @@ Kami lebih memilih penyedia yang kami rekomendasikan untuk mengumpulkan data ses
 
 **Minimum untuk Memenuhi Syarat:**
 
-- Must protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
-- Must not require personally identifiable information (PII) besides a username and a password.
-- Privacy policy must meet the requirements defined by the GDPR.
+- Harus melindungi alamat IP pengirim, yang dapat berupa penyaringan agar tidak ditampilkan di bidang header `Received`.
+- Tidak boleh meminta informasi identitas pribadi (PII) selain nama pengguna dan kata sandi.
+- Kebijakan privasi harus memenuhi persyaratan yang ditentukan oleh GDPR.
 
 **Kasus Terbaik:**
 
-- Should accept [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
-- Should be hosted in a jurisdiction with strong email privacy protection laws.
+- Harus menerima [opsi pembayaran anonim](advanced/payments.md) ([mata uang kripto](cryptocurrency.md), uang tunai, kartu hadiah, dll.)
+- Harus di-host di yuridiksi dengan undang-undang perlindungan privasi email yang kuat.
 
 ### Keamanan
 
-Email servers deal with a lot of very sensitive data. We expect that providers will adopt industry best practices in order to protect their customers.
+Server email berurusan dengan banyak data yang sangat sensitif. Kami berharap penyedia layanan akan mengadopsi praktik terbaik industri untuk melindungi pelanggan mereka.
 
 **Minimum untuk Memenuhi Syarat:**
 
-- Protection of webmail with 2FA, such as [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
-- Zero-access encryption, which builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
+- Perlindungan webmail dengan 2FA, seperti [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
+- Zero-access encryption, yang dibangun di atas enkripsi saat tidak digunakan. Penyedia tidak memiliki kunci dekripsi untuk data yang mereka miliki. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) support.
 - No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - A server suite preference (optional on TLS 1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
