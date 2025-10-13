@@ -10,10 +10,10 @@ cover: email-clients.webp
 - [:material-server-network: Fournisseurs de service](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 - [:material-target-account: Attaques ciblées](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
-Les **clients de messagerie** que nous recommandons prennent en charge à la fois [OpenPGP](encryption.md#openpgp) et une méthode d'authentification sécurisée telle que [Open Authorization(OAuth)](basics/account-creation.md#sign-in-with-oauth). OAuth vous permet d'utiliser [l'authentification multifactorielle](basics/multi-factor-authentication.md) pour vous prémunir contre le vol de compte.
+Les **clients de messagerie** que nous recommandons prennent en charge à la fois [OpenPGP](encryption.md#openpgp) et des méthodes d'authentification sécurisées telle que [Open Authorization(OAuth)](basics/account-creation.md#sign-in-with-oauth). OAuth vous permet d'utiliser [l'authentification multifactorielle](basics/multi-factor-authentication.md) pour vous prémunir contre le vol de compte.
 
 <details class="warning" markdown>
-<summary>L'e-mail n'assure pas la confidentialité persistante</summary>
+<summary>Un mail ne garantit pas de confidentialité persistante</summary>
 
 Même en utilisant une technologie de chiffrement de bout-en-bout (E2EE) comme OpenPGP, [certaines métadonnées](basics/email-security.md#email-metadata-overview) contenues dans l'en-tête des emails ne seront pas chiffrées.
 
@@ -210,19 +210,19 @@ Apple Mail peut charger le contenu distant en arrière-plan ou le bloquer compl�
 
 <div class="admonition recommendation" markdown>
 
-![NeoMutt logo](assets/img/email-clients/mutt.svg){ align=right }
+![Logo de NeoMutt](assets/img/email-clients/mutt.svg){ align=right }
 
-**NeoMutt** is an open-source command line email reader for Linux and BSD. It's a fork of [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client)) with added features.
+**NeoMutt** est un lecteur de mail open-source pour Linux et BSD qui fonctionne directement par ligne de commande. C'est une fork de [Mutt](https://en.wikipedia.org/wiki/Mutt_(email_client)), avec des fonctionnalités additionnelles.
 
-NeoMutt is a text-based client that has a steep learning curve. It is, however, very customizable.
+NeoMutt est un client textuel difficile à prendre en main. Il est cependant très personnalisable.
 
-[:octicons-home-16: Homepage](https://neomutt.org){ .md-button .md-button--primary }
+[:octicons-home-16: Page d'Accueil](https://neomutt.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://neomutt.org/guide){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://paypal.com/paypalme/russon){ .card-link title=Contribute }
+[:octicons-code-16:](https://github.com/neomutt/neomutt){ .card-link title="Code Source" }
+[:octicons-heart-16:](https://paypal.com/paypalme/russon){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:simple-apple: macOS](https://neomutt.org/distro)
 - [:simple-linux: Linux](https://neomutt.org/distro)
@@ -233,20 +233,20 @@ NeoMutt is a text-based client that has a steep learning curve. It is, however, 
 
 ## Critères
 
-**Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de [nos critères de base](about/criteria.md), nous avons développé un ensemble d'exigences claires pour nous permettre de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
+**Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de [nos critères de base](about/criteria.md), nous avons développé un ensemble d'exigences claires pour nous permettre de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer de faire le bon choix.
 
 ### Qualifications minimales
 
-- Apps developed for open-source operating systems must be open source.
-- Must not collect telemetry, or have an easy way to disable all telemetry.
-- Must support OpenPGP message encryption.
+- Les applications développées pour des systèmes d'exploitation open-source doivent elle-même être open-source.
+- Ne dois pas collecter de données télémétriques, ou dois donner la possibilité de les désactiver facilement.
+- Dois prendre en charge le chiffrement OpenPGP.
 
 ### Dans le meilleur des cas
 
 Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
-- Should be open source.
-- Should be cross-platform.
-- Should not collect any telemetry by default.
-- Should support OpenPGP natively, i.e. without extensions.
-- Should support storing OpenPGP encrypted emails locally.
+- Devrait être open source.
+- Devrait être multiplateforme.
+- Ne devrait collecter aucune donnée télémétrique par défaut.
+- Devrait prendre en charge OpenPGP nativement sans avoir besoin d'extensions.
+- Devrait permettre de stocker localement des mails chiffrés avec OpenPGP.
