@@ -95,11 +95,11 @@ Si vous n'utilisez pas ces fonctionnalités sur macOS, vous devriez les désacti
 - [Désactiver **Apple Intelligence**
 - [ ] Désactivez **Siri**
 
-**[Apple Intelligence](https://apple.com/legal/privacy/data/en/intelligence-engine)** n'est disponible que si votre appareil le prend en charge. Apple Intelligence uses a combination of on-device processing and their [Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute) for things that take more processing power than your device can provide.
+**[Apple Intelligence](https://apple.com/legal/privacy/data/en/intelligence-engine)** n'est disponible que si votre appareil le prend en charge. Apple Intelligence utilise une combinaison de traitement sur l'appareil et de son [Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute) pour les tâches qui nécessitent une puissance de traitement supérieure à celle que votre appareil peut fournir.
 
 To see a report of all the data sent via Apple Intelligence, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the either the last 15 minutes or 7 days, depending on what you set it for. Similar to the **App Privacy Report** which shows you the recent permissions accessed by the apps on your phone, the Apple Intelligence Report likewise shows what is being sent to Apple's servers while using Apple Intelligence.
 
-By default, ChatGPT integration is disabled. If you don't want ChatGPT integration anymore, you can navigate to **ChatGPT**:
+Par défaut, l'intégration de ChatGPT est désactivée. If you don't want ChatGPT integration anymore, you can navigate to **ChatGPT**:
 
 - [ ] Turn off **Use ChatGPT**
 
