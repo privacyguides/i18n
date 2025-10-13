@@ -99,24 +99,24 @@ NextDNS fournit également un service DoH public sur `https://dns.nextdns.io` et
 
 ## Proxys DNS chiffrés
 
-Un logiciel de proxy DNS chiffré fourni un proxy local vers lequel le résolveur [DNS non chiffré](advanced/dns-overview.md#unencrypted-dns) doit rediriger. Typically, it is used on platforms that don't natively support [encrypted DNS](advanced/dns-overview.md#what-is-encrypted-dns).
+Un logiciel de proxy DNS chiffré fourni un proxy local vers lequel le résolveur [DNS non chiffré](advanced/dns-overview.md#unencrypted-dns) doit rediriger. Généralement, ils sont utilisés sur des plateformes qui ne prennent pas nativement en charge [les DNS chiffrés](advanced/dns-overview.md#what-is-encrypted-dns).
 
 ### RethinkDNS
 
 <div class="admonition recommendation" markdown>
 
-![RethinkDNS logo](assets/img/android/rethinkdns.svg#only-light){ align=right }
-![RethinkDNS logo](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
+![Logo de RethinkDNS](assets/img/android/rethinkdns.svg#only-light){ align=right }
+![Logo de RethinkDNS](assets/img/android/rethinkdns-dark.svg#only-dark){ align=right }
 
-**RethinkDNS** is an open-source Android client that supports [DoH](advanced/dns-overview.md#dns-over-https-doh), [DoT](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) and DNS Proxy. It also provides additional functionality such as caching DNS responses, locally logging DNS queries, and using the app as a firewall.
+**RethinkDNS** est un client Android open-source qui prend en charge [DoH](advanced/dns-overview.md#dns-over-https-doh), [DoT](advanced/dns-overview.md#dns-over-tls-dot), [DNSCrypt](advanced/dns-overview.md#dnscrypt) et DNS Proxy. Il propose également d'autres fonctionnalités comme la mise en cache des réponses DNS, enregistrer localement les requêtes DNS, et la possibilité d'utiliser l'application en tant que pare-feu.
 
-[:octicons-home-16: Homepage](https://rethinkdns.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://rethinkdns.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://rethinkdns.com/privacy){ .card-link title="Politique de Confidentialité " }
 [:octicons-info-16:](https://docs.rethinkdns.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/celzero/rethink-app){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.celzero.bravedns)
 - [:simple-github: GitHub](https://github.com/celzero/rethink-app/releases)
@@ -125,23 +125,23 @@ Un logiciel de proxy DNS chiffré fourni un proxy local vers lequel le résolveu
 
 </div>
 
-While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot with the app by [adding a WireGuard configuration](https://docs.rethinkdns.com/proxy/wireguard) or [manually configuring Orbot as a Proxy server](https://docs.rethinkdns.com/firewall/orbot), respectively.
+RethinkDNS prend la place du VPN sur Android, mais vous pouvez [ajouter une configuration WireGuard](https://docs.rethinkdns.com/proxy/wireguard) pour continuer à utiliser un VPN ou [manuellement paramètrer Orbot en tant que serveur Proxy](https://docs.rethinkdns.com/firewall/orbot) pour utiliser Orbot.
 
 ### DNSCrypt-Proxy
 
 <div class="admonition recommendation" markdown>
 
-![DNSCrypt-Proxy logo](assets/img/dns/dnscrypt-proxy.svg){ align=right }
+![Logo de DNSCrypt-Proxy](assets/img/dns/dnscrypt-proxy.svg){ align=right }
 
-**DNSCrypt-Proxy** is a DNS proxy with support for [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DoH](advanced/dns-overview.md#dns-over-https-doh), and [Anonymized DNS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
+**DNSCrypt-Proxy** est un proxy DNS pouvant prendre en charge [DNSCrypt](advanced/dns-overview.md#dnscrypt), [DoH](advanced/dns-overview.md#dns-over-https-doh) et [un DNS anonymisé](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS).
 
-[:octicons-repo-16: Repository](https://github.com/DNSCrypt/dnscrypt-proxy#readme){ .md-button .md-button--primary }
+[:octicons-repo-16: Dépôt](https://github.com/DNSCrypt/dnscrypt-proxy#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/DNSCrypt/dnscrypt-proxy/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title="Contribute" }
+[:octicons-code-16:](https://github.com/DNSCrypt/dnscrypt-proxy){ .card-link title="CodeSource" }
+[:octicons-heart-16:](https://opencollective.com/dnscrypt/contribute){ .card-link title="Contribuer" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:fontawesome-brands-windows: Windows](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-Windows)
 - [:simple-apple: macOS](https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Installation-macOS)
@@ -154,7 +154,7 @@ While RethinkDNS takes up the Android VPN slot, you can still use a VPN or Orbot
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avertissement</p>
 
-The anonymized DNS feature does [not](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) anonymize other network traffic.
+La fonctionnalité d'anonymisation du DNS n'anonymise [pas](advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns) le reste du trafic réseau.
 
 </div>
 
@@ -162,23 +162,23 @@ The anonymized DNS feature does [not](advanced/dns-overview.md#why-shouldnt-i-us
 
 **Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de [nos critères de base](about/criteria.md), nous avons développé un ensemble d'exigences claires pour nous permettre de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
 
-All DNS products...
+Tous les services DNS...
 
-- Must support [DNSSEC](advanced/dns-overview.md#what-is-dnssec).
-- Must support [QNAME Minimization](advanced/dns-overview.md#what-is-qname-minimization).
-- Must anonymize [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) or disable it by default.
+- Doivent prendre en charge [DNSSEC](advanced/dns-overview.md#what-is-dnssec).
+- Doivent prendre en charge [la minimisation QNAME](advanced/dns-overview.md#what-is-qname-minimization).
+- Doivent anonymiser [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) ou le désactiver par défaut.
 
 Additionally, all public providers...
 
-- Must not log any personal data to disk.
-    - As noted in the footnotes, some providers collect query information for purposes like security research, but in that case the data must not be associated with any PII such as IP address, etc.
-- Should support [anycast](https://en.wikipedia.org/wiki/Anycast) or geo-steering.
+- Ne doit enregistrer aucunes données personnelles sur le disque.
+    - Comme précisé dans les notes de bas de page, certains fournisseurs collectent des données sur les requêtes dans certains buts précis, à des fin de recherche par exemple, mais dans ces cas là, les données ne doivent pas être associées à une IPI (Information Personnelle Identifiable, ou PII en anglais) comme une adresse IP ou autre.
+- Devrait prendre en charge [anycast](https://en.wikipedia.org/wiki/Anycast) ou le geo-steering.
 
-[^1]: AdGuard stocke des mesures de performance agrégées de ses serveurs DNS, à savoir le nombre de demandes complètes adressées à un serveur particulier, le nombre de demandes bloquées et la vitesse de traitement des demandes. They also keep and store the database of domains requested within the last 24 hours.
+[^1]: AdGuard stocke des mesures de performance agrégées de ses serveurs DNS, à savoir le nombre de demandes complètes adressées à un serveur particulier, le nombre de demandes bloquées et la vitesse de traitement des demandes. Ils conservent également la base de donnée des domaines demandés dans les dernières 24 heures.
 
-    > We need this information to identify and block new trackers and threats. We also log how many times this or that tracker has been blocked. We need this information to remove outdated rules from our filters.
+    > Nous utilisons cette information pour identifier et bloquer les nouveaux trackers et menaces. Nous enregistrons également combien de fois tel ou tel tracker a été bloqué. Nous utilisons ces informations pour supprimer les règles obsolètes de nos filtres.
 
-    AdGuard DNS: [*Privacy Policy*](https://adguard-dns.io/en/privacy.html) [^2]: Cloudflare collects and stores only the limited DNS query data that is sent to the 1.1.1.1 resolver. The 1.1.1.1 resolver service does not log personal data, and the bulk of the limited non-personally identifiable query data is stored only for 25 hours.
+    AdGuard DNS: [*Politique de confidentialité*](https://adguard-dns.io/en/privacy.html) [^2]: Cloudflare collecte et conserver uniquement les données limitées des requêtes DNS qui sont envoyées vers le résolveur 1.1.1.1 . Le service résolveurs 1.1.1.1 ne collecte aucunes données personnelles, et l'ensemble des données non personnelles des requêtes sont stockées pendant 25 heures seulement.
 
     1.1.1.1 Public DNS Resolver: [*Cloudflare’s commitment to privacy*](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver) [^3]: Control D only logs specific account data for Premium resolvers with custom DNS profiles. Free resolvers do not retain any data.
 
