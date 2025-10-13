@@ -168,7 +168,7 @@ Tous les services DNS...
 - Doivent prendre en charge [la minimisation QNAME](advanced/dns-overview.md#what-is-qname-minimization).
 - Doivent anonymiser [ECS](advanced/dns-overview.md#what-is-edns-client-subnet-ecs) ou le désactiver par défaut.
 
-Additionally, all public providers...
+De plus, tous les fournisseurs...
 
 - Ne doit enregistrer aucunes données personnelles sur le disque.
     - Comme précisé dans les notes de bas de page, certains fournisseurs collectent des données sur les requêtes dans certains buts précis, à des fin de recherche par exemple, mais dans ces cas là, les données ne doivent pas être associées à une IPI (Information Personnelle Identifiable, ou PII en anglais) comme une adresse IP ou autre.
@@ -182,10 +182,10 @@ Additionally, all public providers...
 
     Résolveur DNS public 1.1.1.1 : [*l'engagement de Cloudflare pour la confidentialité*](https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver) [^3]: Control D enregistre uniquement des données de compte spécifiques pour les résolveurs Premium avec un profil DNS customisé. Les résolveurs gratuits ne conservent aucune donnée.
 
-    [*Politique de confidentialité*](https://controld.com/privacy) de Control D : [^4]: DNS0.eu collecte uniquement certaines données pour pouvoir surveiller les domaines nouvellement enregistrés/obervés/actifs, et d'autre données en vrac. Ces données sont partagées à certains [partenaires](https://docs.dns0.eu/data-feeds/introduction) à des fin de recherche. Ils ne collectent aucune information personnelle identifiable.
+    Control D : [*Politique de confidentialité*](https://controld.com/privacy) [^4]: DNS0.eu collecte uniquement certaines données pour pouvoir surveiller les domaines nouvellement enregistrés/obervés/actifs, et d'autres données en vrac. Ces données sont partagées à certains [partenaires](https://docs.dns0.eu/data-feeds/introduction) à des fin de recherche. Ils ne collectent aucune information personnelle identifiable.
 
-    [*Politique de confidentilité de DNS0.eu:*](https://dns0.eu/privacy) [^5]: Le service DNS de Mullvad est disponible pour les abonnés et les non abonnés de Mullvad VPN. Leur politique de confidentialité affirme explicitement qu'ils n'enregistrent pas les requêtes DNS de quelque manière que ce soit.
+    [*Politique de confidentialité de DNS0.eu:*](https://dns0.eu/privacy) [^5]: Le service DNS de Mullvad est disponible pour les abonnés et les non abonnés de Mullvad VPN. Leur politique de confidentialité affirme explicitement qu'ils n'enregistrent pas les requêtes DNS de quelque manière que ce soit.
 
-    Mullvad: [*No-logging of user activity policy*](https://mullvad.net/en/help/no-logging-data-policy) [^6]: Quad9 collects some data for the purposes of threat monitoring and response. That data may then be remixed and shared for purposes like furthering their security research. Quad9 ne collecte ni n'enregistre les adresses IP ou d'autres données qu'elle juge personnellement identifiables.
+    Mullvad : [*Politique de non-enregistrement de l'activité des utilisateurs*](https://mullvad.net/en/help/no-logging-data-policy) [^6]: Quad9 collecte certaines données à des fin de surveillance et de réponse aux menaces. Ces données peuvent ensuite être remélangées et partagées à des fin de recherche sur la sécurité. Quad9 ne collecte ni n'enregistre les adresses IP ou d'autres données qu'elle juge personnellement identifiables.
 
-    Quad9: [*Data and Privacy Policy*](https://quad9.net/privacy/policy)
+    Quad9 : [*Données et Politique de Confidentialité*](https://quad9.net/privacy/policy)
