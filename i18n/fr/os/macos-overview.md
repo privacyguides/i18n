@@ -152,7 +152,7 @@ Sur les anciens ordinateurs Mac à processeur Intel, FileVault est la seule form
 
 macOS utilise une adresse MAC aléatoire lorsqu'il [effectue une recherche de Wi-Fi](https://support.apple.com/guide/security/privacy-features-connecting-wireless-networks-secb9cb3140c/web) après avoir été déconnecté d'un réseau.
 
-You can set your [MAC address to be randomized](https://support.apple.com/en-us/102509) per network and rotate occasionally to prevent tracking between networks and on the same network over time.
+Vous pouvez paramétrer votre [adresse MAC pour qu'elle soit générée aléatoirement](https://support.apple.com/en-us/102509) à chaque réseau et change régulièrement pour éviter le traçage entre les réseaux et sur le même réseau au fil du temps.
 
 Allez dans **Paramètres Système** → **Réseaux** → **Wi-Fi** → **Détails** et réglez l'**adresse Wi-Fi privée** sur **Fixe** si vous souhaitez une adresse fixe mais unique pour le réseau auquel vous êtes connecté, ou sur **Rotation** si vous souhaitez qu'elle change au fil du temps.
 
@@ -167,19 +167,19 @@ macOS utilise la défense en profondeur en s'appuyant sur plusieurs couches de p
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avertissement</p>
 
-macOS vous permet d'installer des mises à jour bêta. These are unstable and may come with [extra telemetry](https://beta.apple.com/privacy) since they're for testing purposes. Pour cette raison, nous vous recommandons d'éviter les logiciels bêta en général.
+macOS vous permet d'installer des mises à jour bêta. Ces versions sont instables et sont susceptible d'envoyer [plus de données télémétriques](https://beta.apple.com/privacy) puisqu'elles sont utilisées à des fins de test. Pour cette raison, nous vous recommandons d'éviter les logiciels bêta en général.
 
 </div>
 
 #### Volume du système signé
 
-macOS's system components are protected in a read-only [signed system volume](https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web), meaning that neither you nor malware can alter important system files.
+Les composants du système macOS sont protégés par un [volume système signé](https://support.apple.com/guide/security/signed-system-volume-security-secd698747c9/web) en lecture seule, ce qui signifie que ni vous, ni un logiciel malveillant ne peut modifier les fichiers importans du sytème.
 
 Le volume du système est vérifié en cours d'exécution et toute donnée qui n'est pas signée par une signature cryptographique valide d'Apple sera rejetée.
 
 #### Protection de l'intégrité du système
 
-macOS définit certaines restrictions de sécurité qui ne peuvent pas être contournées. These are called [Mandatory Access Controls](https://support.apple.com/guide/security/system-integrity-protection-secb7ea06b49/1/web/1), and they form the basis of the sandbox, parental controls, and [System Integrity Protection](https://support.apple.com/en-us/102149) on macOS.
+macOS définit certaines restrictions de sécurité qui ne peuvent pas être contournées. Elles sont appelés[Contrôles d'Accès Obligatoire](https://support.apple.com/guide/security/system-integrity-protection-secb7ea06b49/1/web/1), et forment la base de la sandbox, du contrôle parental et de la [Protection de l'intégrité du système](https://support.apple.com/en-us/102149) sur macOS.
 
 La protection de l'intégrité du système met en lecture seule les emplacements de fichiers critiques afin de les protéger contre toute modification par des codes malveillants. Cela s'ajoute à la protection de l'intégrité du noyau basée sur le matériel, qui empêche le noyau d'être modifié en mémoire.
 
@@ -187,7 +187,9 @@ La protection de l'intégrité du système met en lecture seule les emplacements
 
 ##### Sandbox des applications
 
-Sur macOS, c'est le développeur qui détermine si une application est mise en bac à sable (sandbox) lorsqu'il la signe. The [App Sandbox](https://developer.apple.com/documentation/xcode/configuring-the-macos-app-sandbox) protects against vulnerabilities in the apps you run by limiting what a malicious actor can access in the event that the app is exploited. L'App Sandbox ne peut *à lui seul* protéger contre les [:material-package-variant-closed-remove: Attaques de la Chaîne d'Approvisionnement ](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian} par des développeurs malveillants. For that, sandboxing needs to be enforced by someone other than the developer themselves, as it is on the [App Store](https://support.apple.com/guide/security/gatekeeper-and-runtime-protection-sec5599b66df/1/web/1#:~:text=All%20apps%20from%20the%20App%20Store%20are%20sandboxed%20to%20restrict%20access%20to%20data%20stored%20by%20other%20apps.).
+Sur macOS, c'est le développeur qui détermine si une application est mise en bac à sable (sandbox) lorsqu'il la signe. [L'App Sandbox](https://developer.apple.com/documentation/xcode/configuring-the-macos-app-sandbox) protège des vulnérabilités les applications en cours d'exécution en limitant ce à quoi pourrait accéder un acteur mal intentionné dans le cas où l'application est compromise. L'App Sandbox ne peut *à lui seul* protéger contre les [:material-package-variant-closed-remove: Attaques de la Chaîne d'Approvisionnement ](../basics/common-threats.md#attacks-against-certain-organizations ""){.pg-viridian} par des développeurs malveillants. Pour cela, il est nécessaire que le sandboxing soit mis en place par d'autres personnes que les développeurs eux-mêmes, comme c'est le cas sur
+
+l'App Store.</p>
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avertissement</p>
@@ -209,11 +211,16 @@ Attention, ce n'est pas parce que l'un des processus d'une application est sandb
 
 Vous pouvez aussi vérifier les applications avant de les exécuter en lançant cette commande dans le terminal :
 
+
+
 ``` zsh
 codesign -dvvv --entitlements - <path to your app>
 ```
 
+
 Si une application est sandboxée, vous devriez obtenir le résultat suivant :
+
+
 
 ``` zsh
     [Key] com.apple.security.app-sandbox
@@ -221,7 +228,10 @@ Si une application est sandboxée, vous devriez obtenir le résultat suivant :
         [Bool] true
 ```
 
+
 Si vous constatez que l'application que vous souhaitez utiliser n'est pas sandboxée, vous pouvez utiliser des méthodes de [compartimentage](../basics/common-threats.md#security-and-privacy) telles que des machines virtuelles ou des appareils séparés, utiliser une application similaire qui est sandboxée, ou choisir de ne pas utiliser l'application.
+
+
 
 ##### Hardened Runtime (exécution renforcée)
 
@@ -229,26 +239,35 @@ Si vous constatez que l'application que vous souhaitez utiliser n'est pas sandbo
 
 Vous pouvez vérifier si une application utilise le Hardened Runtime en utilisant cette commande :
 
+
+
 ``` zsh
 codesign -dv <path to your app>
 ```
+
 
 Si l'option Hardened Runtime est activée, vous verrez `flags=0x10000(runtime)`. La sortie `runtime` signifie que Hardened Runtime est activé. Il peut y avoir d'autres indicateurs, mais c'est l'indicateur runtime qui nous intéresse ici.
 
 Vous pouvez activer une colonne dans Activity Monitor appelée "Restricted", qui est un drapeau empêchant les programmes d'injecter du code via l'[éditeur de liens dynamiques](https://pewpewthespells.com/blog/blocking_code_injection_on_ios_and_os_x.html) de macOS. Idéalement, la réponse devrait être "Oui".
 
+
+
 ##### Antivirus
 
-macOS comes with two forms of [malware defense](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/1/web/1):
+macOS est doté de deux formes de [défense contre les logiciels malveillants](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/1/web/1) :
 
 1. La protection contre le lancement de logiciels malveillants est assurée par le processus d'examen des applications de l'App Store, ou *Notarization* (fait partie de *Gatekeeper*), un processus au cours duquel les applications tierces sont analysées par Apple à la recherche de logiciels malveillants connus avant d'être autorisées à s'exécuter. Les applications doivent être signées par les développeurs à l'aide d'une clé fournie par Apple. Cela garantit que vous exécutez des logiciels provenant des vrais développeurs. La notarisation exige également que les développeurs activent le Hardened Runtime pour leurs applications, ce qui limite les vulnérabiltés.
 2. La protection contre les autres logiciels malveillants et la remédiation des logiciels malveillants existants sur votre système sont assurées par *XProtect*, un logiciel antivirus plus traditionnel intégré à macOS.
 
 Nous vous déconseillons d'installer des logiciels antivirus tiers, car ils n'ont généralement pas l'accès nécessaire au niveau du système pour fonctionner correctement, en raison des limitations imposées par Apple aux applications tierces, et parce que l'octroi des niveaux d'accès élevés qu'ils demandent pose souvent un risque encore plus grand pour la sécurité et la confidentialité de votre ordinateur.
 
+
+
 ##### Sauvegardes
 
-macOS comes with automatic backup software called [Time Machine](https://support.apple.com/HT201250), so you can create [encrypted backups](https://support.apple.com/guide/mac-help/keep-your-time-machine-backup-disk-secure-mh21241/mac) to an external drive or a network drive in the event of corrupted/deleted files.
+L'application [Time Machine](https://support.apple.com/HT201250) installée par défaut sur macOS permet de créer des [sauvegardes automatiques chiffrées](https://support.apple.com/guide/mac-help/keep-your-time-machine-backup-disk-secure-mh21241/mac) sur un disque dur externe ou sur le réseau en cas de fichiers corrompus ou supprimés.
+
+
 
 ### Sécurité matérielle
 
@@ -256,43 +275,55 @@ De nombreuses fonctions de sécurité modernes de macOS - telles que le Secure B
 
 Certaines de ces fonctions de sécurité modernes sont disponibles sur les anciens ordinateurs Mac à base d'Intel équipés de la puce de sécurité T2 d'Apple, mais cette puce est susceptible d'être exploitée par *checkm8*, ce qui pourrait compromettre sa sécurité.
 
-If you use Bluetooth accessories such as a keyboard, we recommend that you use official Apple ones as their firmware will [automatically be updated](https://support.apple.com/en-us/120303#:~:text=Firmware%20updates%20are%20automatically%20delivered%20in%20the%20background%20while%20the%20Magic%20Keyboard%20is%20actively%20paired%20to%20a%20device%20running%20macOS%2C%20iOS%2C%20iPadOS%2C%20or%20tvOS.) for you by macOS. L'utilisation d'accessoires tiers est possible, mais il faut penser à installer régulièrement les mises à jour du micrologiciel de ces accessoires.
+Si vous utilisez des accessoires Bluetooth comme un clavier, nous vous recommandons d'utiliser ceux officiellement proposés par Apple afin de profiter de la fonctionnalité de [mises à jour automatiques](https://support.apple.com/en-us/120303#:~:text=Firmware%20updates%20are%20automatically%20delivered%20in%20the%20background%20while%20the%20Magic%20Keyboard%20is%20actively%20paired%20to%20a%20device%20running%20macOS%2C%20iOS%2C%20iPadOS%2C%20or%20tvOS.) proposée par macOS. . L'utilisation d'accessoires tiers est possible, mais il faut penser à installer régulièrement les mises à jour du micrologiciel de ces accessoires.
 
-Apple's SoCs focus on [minimizing attack surface](https://support.apple.com/en-vn/guide/security/secf020d1074/web#:~:text=Security%2Dfocused%20hardware%20follows%20the%20principle%20of%20supporting%20limited%20and%20discretely%20defined%20functions%20to%20minimize%20attack%20surface.) by relegating security functions to dedicated hardware with limited functionality.
+Les SoC d'Apple se concentrent à [minimiser la surface d'attaque](https://support.apple.com/en-vn/guide/security/secf020d1074/web#:~:text=Security%2Dfocused%20hardware%20follows%20the%20principle%20of%20supporting%20limited%20and%20discretely%20defined%20functions%20to%20minimize%20attack%20surface.) en déléguant les fonctions de sécurité à un hardware dédié en limitant ses fonctionnalités.
+
+
 
 #### ROM d'amorçage
 
-macOS prevents malware persistence by only allowing official Apple software to run at boot time; this is known as [secure boot](https://support.apple.com/en-vn/guide/security/secac71d5623/1/web/1). Mac computers verify this with a bit of read-only memory on the SoC called the [boot ROM](https://support.apple.com/en-vn/guide/security/aside/sec5240db956/1/web/1), which is [laid down during the manufacturing of the chip](https://support.apple.com/en-vn/guide/security/secf020d1074/1/web/1#:~:text=which%20is%20laid%20down%20during%20Apple%20SoC%20fabrication).
+macOS empêche la persistance des logiciels malveillants en n'autorisant uniquement les applications Apple officielles à s'exécuter durant le démarrage, on appelle ça le [démarrage sécurisé (secure boot)](https://support.apple.com/en-vn/guide/security/secac71d5623/1/web/1). Les ordinateurs Mac le vérifient grâce à une partie de la mémoire du circuit intégré configurée en lecture seule, appelée [ROM d'amorçage (Boot-ROM)](https://support.apple.com/en-vn/guide/security/aside/sec5240db956/1/web/1), qui est [mise en place lors de la fabrication de la puce](https://support.apple.com/en-vn/guide/security/secf020d1074/1/web/1#:~:text=which%20is%20laid%20down%20during%20Apple%20SoC%20fabrication).
 
-La ROM d'amorçage constitue la racine de confiance du matériel. This ensures that malware cannot tamper with the boot process, since the boot ROM is immutable. Lorsque votre Mac démarre, la ROM d'amorçage est la première chose qui s'exécute, formant le premier maillon de la chaîne de confiance.
+La ROM d'amorçage constitue la racine de confiance du matériel. Cela garantit que les logiciels malveillants ne peuvent pas altérer le processus de démarrage, car la ROM d'amorçage ne peut pas être modifiée. Lorsque votre Mac démarre, la ROM d'amorçage est la première chose qui s'exécute, formant le premier maillon de la chaîne de confiance.
 
-Mac computers can be configured to boot in [three security modes](https://support.apple.com/guide/deployment/startup-security-dep5810e849c/web#dep32fb404e1): *Full Security*, *Reduced Security*, and *Permissive Security*, with the default setting being Full Security. You should ideally be using Full Security mode and avoid things like **[kernel extensions](https://support.apple.com/guide/deployment/system-extensions-in-macos-depa5fb8376f/web#dep51e097f45)** that force you to lower your security mode. Veillez à [vérifier](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac) que vous utilisez le mode Sécurité complète.
+Les ordinateurs Mac peuvent être pramétrés pour démarrer selon [trois modes de sécurité](https://support.apple.com/guide/deployment/startup-security-dep5810e849c/web#dep32fb404e1) : *Sécurité maximale*, *Sécurité normale* et *Aucune sécurité*, l'ordinateur est règlé par défaut sur le mode Sécurité maximale. Nous vous conseillons d'utiliser la Sécurité maximale et d'éviter tout ce qui peut vous forcer à baisser le niveau de sécurité comme **[les extensions de kernel](https://support.apple.com/guide/deployment/system-extensions-in-macos-depa5fb8376f/web#dep51e097f45)**. Veillez à [vérifier](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac) que vous utilisez le mode Sécurité complète.
+
+
 
 #### Enclave sécurisée
 
-The **[Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/web)** is a security chip built into devices with Apple Silicon which is responsible for storing and generating encryption keys for data at rest as well as Face ID and Touch ID data. It contains its own [separate boot ROM](https://support.apple.com/en-vn/guide/security/sec59b0b31ff/web#sec43006c49f).
+La **[Secure Enclave](https://support.apple.com/guide/security/secure-enclave-sec59b0b31ff/web)** est une puce de sécurité intégrée aux appareils avec Apple Silicon, qui est responsable du stockage et de la génération des clés de chiffrement pour les données aux repos, ainsi que des données de Face ID et Touch ID. Elle contient sa propre [ROM d'amorçage](https://support.apple.com/en-vn/guide/security/sec59b0b31ff/web#sec43006c49f).
 
 Vous pouvez considérer l'Enclave sécurisée comme le centre de sécurité de votre appareil : elle dispose d'un moteur de chiffrement AES et d'un mécanisme pour stocker en toute sécurité vos clés de chiffrement, et elle est séparée du reste du système, de sorte que même si le processeur principal est compromis, elle devrait rester sûre.
+
+
 
 #### Touch ID
 
 La fonction Touch ID d'Apple vous permet de déverrouiller vos appareils en toute sécurité à l'aide de la biométrie.
 
-Your biometric data [never leaves your device](https://www.apple.com/legal/privacy/data/en/touch-id/#:~:text=Touch%C2%A0ID%20data%20does%20not%20leave%20your%20device%2C%20and%20is%20never%20backed%20up%20to%20iCloud%20or%20anywhere%20else.); it's stored only in the Secure Enclave.
+Vos données biométriques sont [toujours stockées en local](https://www.apple.com/legal/privacy/data/en/touch-id/#:~:text=Touch%C2%A0ID%20data%20does%20not%20leave%20your%20device%2C%20and%20is%20never%20backed%20up%20to%20iCloud%20or%20anywhere%20else.) et uniquement dans la Secure Enclave.
+
+
 
 #### Déconnexion matérielle du microphone
 
-All laptops with Apple Silicon or the T2 chip feature a [hardware disconnect](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web) for the built-in microphone whenever the lid is closed. Cela signifie qu'il n'y a aucun moyen pour un attaquant d'écouter le microphone de votre Mac, même si le système d'exploitation est compromis.
+Tous les ordinateurs portables dotés d'Apple Silicon ou de la puce T2 permettent de [déconnecter physiquement](https://support.apple.com/guide/security/hardware-microphone-disconnect-secbbd20b00b/web) le microphone intégré lorsque l'écran est rabattu. Cela signifie qu'il n'y a aucun moyen pour un attaquant d'écouter le microphone de votre Mac, même si le système d'exploitation est compromis.
 
 Notez que la caméra n'a pas de déconnexion matérielle, puisque sa vue est de toute façon obscurcie lorsque le couvercle est fermé.
 
-#### Secure Camera Indicator
 
-The built-in camera in a Mac is designed so that the camera can't turn on without the camera indicator light [also turning on](https://support.apple.com/en-us/102177#:~:text=The%20camera%20is%20engineered%20so%20that%20it%20can’t%20activate%20without%20the%20camera%20indicator%20light%20also%20turning%20on.%20This%20is%20how%20you%20can%20tell%20if%20your%20camera%20is%20on.).
+
+#### L'Indicateur de Caméra Sécurisé
+
+La caméra intégrée à un Mac est construite de sorte qu'elle ne puisse pas fonctionner sans allumer également un [indicateur lumineux](https://support.apple.com/en-us/102177#:~:text=The%20camera%20is%20engineered%20so%20that%20it%20can’t%20activate%20without%20the%20camera%20indicator%20light%20also%20turning%20on.%20This%20is%20how%20you%20can%20tell%20if%20your%20camera%20is%20on.).
+
+
 
 #### Sécurité des processeurs périphériques
 
-Computers have [built-in processors](https://support.apple.com/en-vn/guide/security/seca500d4f2b/1/web/1) other than the main CPU that handle things like networking, graphics, power management, etc. Ces processeurs peuvent avoir une sécurité insuffisante et être compromis, c'est pourquoi Apple essaie de minimiser la nécessité de ces processeurs dans son matériel.
+Les ordinateurs ont un [processeur intégré](https://support.apple.com/en-vn/guide/security/seca500d4f2b/1/web/1) autre que leur processeur principal pour gérer le réseau, les graphiques, la gestion de l'alimentation, etc. Ces processeurs peuvent avoir une sécurité insuffisante et être compromis, c'est pourquoi Apple essaie de minimiser la nécessité de ces processeurs dans son matériel.
 
 Lorsqu'il est nécessaire d'utiliser l'un de ces processeurs, Apple travaille avec le fournisseur pour s'assurer que le processeur
 
@@ -303,10 +334,14 @@ Lorsqu'il est nécessaire d'utiliser l'un de ces processeurs, Apple travaille av
 - a ses interfaces de débogage désactivées
 - est signé avec les clés cryptographiques d'Apple
 
+
+
 #### Protections contre l'accès direct à la mémoire
 
-Apple Silicon separates each component that requires [direct memory access](https://support.apple.com/guide/security/direct-memory-access-protections-seca4960c2b5/1/web/1). Par exemple, un port Thunderbolt ne peut pas accéder à la mémoire réservée au noyau.
+Apple Silicon sépare tous les composants ayant besoin d'un [accès direct à la mémoire](https://support.apple.com/guide/security/direct-memory-access-protections-seca4960c2b5/1/web/1). Par exemple, un port Thunderbolt ne peut pas accéder à la mémoire réservée au noyau.
 
-#### Terminal Secure Keyboard Entry
 
-Enable [Secure Keyboard Entry](https://support.apple.com/guide/terminal/use-secure-keyboard-entry-trml109/mac) to prevent other apps from detecting what you type in the terminal.
+
+#### Saisie clavier sécurisée dans Terminal
+
+Activez [Saisie Clavier Sécurisée](https://support.apple.com/guide/terminal/use-secure-keyboard-entry-trml109/mac) pour empêcher d'autres applications de supprimer ce que vous écrivez dans le terminal.
