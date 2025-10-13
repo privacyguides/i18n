@@ -97,20 +97,20 @@ Si vous n'utilisez pas ces fonctionnalités sur macOS, vous devriez les désacti
 
 **[Apple Intelligence](https://apple.com/legal/privacy/data/en/intelligence-engine)** n'est disponible que si votre appareil le prend en charge. Apple Intelligence utilise une combinaison de traitement sur l'appareil et de son [Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute) pour les tâches qui nécessitent une puissance de traitement supérieure à celle que votre appareil peut fournir.
 
-To see a report of all the data sent via Apple Intelligence, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the either the last 15 minutes or 7 days, depending on what you set it for. Similar to the **App Privacy Report** which shows you the recent permissions accessed by the apps on your phone, the Apple Intelligence Report likewise shows what is being sent to Apple's servers while using Apple Intelligence.
+Pour consulter un rapport de toutes les données envoyées via Apple Intelligence, allez à **Confidentialité & Sécurité** → ** Rapport Apple Intelligence** et cliquez sur **Exporter l'activité** , selon le paramètrage souhaité, vous pouvez consulter par exemple l'activité des 15 dernières minutes. Cette fonctionnalité, assez similaire au **Rapport de confidentialité des apps** qui permet de connaitre les permissions récemment utilisées par les applications sur votre téléphone, vous permet de consulter ce qui est envoyé aux serveurs d'Apple lorsque vous utilisez Apple Intelligence.
 
-Par défaut, l'intégration de ChatGPT est désactivée. If you don't want ChatGPT integration anymore, you can navigate to **ChatGPT**:
+Par défaut, l'intégration de ChatGPT est désactivée. Si vous ne souhaitez plus utiliser l'intégration ChatGPT, allez à **ChatGPT**:
 
-- [ ] Turn off **Use ChatGPT**
+- [ ] Désactivez **Utiliser ChatGPT**
 
-You can also have it ask for confirmation every time if you leave ChatGPT integration on:
+Vous pouvez également paramètrer une notification de confirmation à chaque fois que vous laissez allumée l'intégration ChatGPT :
 
-- [x] Turn on **Confirm Requests**
+- [x] Activez **Demander la Confirmation**
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avertissement</p>
 
-Any request made with ChatGPT will be sent to ChatGPT's servers, there is no on-device processing and no PCC like with Apple Intelligence.
+Chaque requête faite avec ChatGPT sera envoyé sur les serveurs de ChatGPT, rien n'est traité sur l'appareil et il n'y a pas de PCC comme avec Apple Intelligence.
 
 </div>
 
@@ -126,7 +126,7 @@ Vous pouvez autoriser les services de localisation individuellement pour chaque 
 
 ##### Statistiques & améliorations
 
-Decide whether you want to share analytics data with Apple and app developers.
+Décidez de si vous souhaitez ou non envoyer des données analytiques à Apple et aux développeurs d'applications.
 
 ##### Publicité Apple
 
@@ -144,13 +144,13 @@ Sur les anciens ordinateurs Mac à processeur Intel, FileVault est la seule form
 
 ##### Mode Isolement
 
-**[Lockdown Mode](https://support.apple.com/guide/mac-help/lock-mac-targeted-a-cyberattack-ibrw66f4e191/mac)** disables some features in order to improve security. Some apps or features won't work the same way they do when it's off. For example, Javascript Just-In-Time ([JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers)) compilation and [WebAssembly](https://developer.mozilla.org/docs/WebAssembly) are disabled in Safari with Lockdown Mode enabled. We recommend enabling Lockdown Mode and seeing whether it significantly impacts daily usage.
+**[Le mode Lockdown](https://support.apple.com/guide/mac-help/lock-mac-targeted-a-cyberattack-ibrw66f4e191/mac)** désactive certaines fonctionnalités pour améliorer la confidentialité. Certaines applications ou fonctionnalités sont susceptibles de ne pas fonctionner normalement. Par exemple, la compilation Javascript Just-In-Time ([JIT](https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers)) et [WebAssembly](https://developer.mozilla.org/docs/WebAssembly) sont désactivées dans Safari lorsque le mode Lockdown est activé. Nous vous recommandons d'activer le mode Lockdown et d'évaluer si cela impacte trop votre usage quotidien ou non.
 
 - [x] Cliquez sur **Activer**
 
 ### Adresse MAC aléatoire
 
-macOS uses a randomized MAC address when [performing Wi-Fi scans](https://support.apple.com/guide/security/privacy-features-connecting-wireless-networks-secb9cb3140c/web) while disconnected from a network.
+macOS utilise une adresse MAC aléatoire lorsqu'il [effectue une recherche de Wi-Fi](https://support.apple.com/guide/security/privacy-features-connecting-wireless-networks-secb9cb3140c/web) après avoir été déconnecté d'un réseau.
 
 You can set your [MAC address to be randomized](https://support.apple.com/en-us/102509) per network and rotate occasionally to prevent tracking between networks and on the same network over time.
 
