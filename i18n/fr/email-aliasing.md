@@ -131,12 +131,12 @@ Fonctionnalités gratuites notables :
 - [x] 10 Alias partagés
 - [x] Réponses illimitées
 - [x] 1 boîte aux lettres pour les destinataires
-- [ ] Automatic PGP Encryption[^1] is only available on paid plans
+- [ ] Le chiffrement PGP automatique [^1] est disponible uniquement sur les versions payantes
 
-When your subscription ends, all aliases you created will still be able to receive and send emails. However, you cannot create any new aliases that would exceed the free plan limit, nor can you add a new domain, directory, or mailbox.
+Tous les alias que vous avez créé restent fonctionnels après l'annulation de votre abonnement. Cependant, vous ne pourrez plus créer de nouveaux alias tant que le nombre d'alias excède la limite fixée par la version gratuite, vous ne pourrez pas non plus ajouter un nouveau nom de domaine, dossier ou boite mail.
 
 ## Critères
 
-\*\*En plus de [nos critères standards] (about/criteria.md), nous évaluons les fournisseurs d'alias d'email selon les mêmes critères que nos [critères pour les fournisseurs d'email] (email.md#criteria), le cas échéant. We suggest you familiarize yourself with this list before choosing an email aliasing service, and conduct your own research to ensure the provider you choose is the right choice for you.
+\*\*En plus de [nos critères standards] (about/criteria.md), nous évaluons les fournisseurs d'alias d'email selon les mêmes critères que nos [critères pour les fournisseurs d'email] (email.md#criteria), le cas échéant. Nous vous conseillons de prendre connaissance de l'intégralité de cette liste avant de choisir un fournisseur, et d'effectuer vos propres recherches afin de vous assurer de faire le choix qui vous correspond.
 
-[^1]: Automatic PGP encryption allows you to encrypt non-encrypted incoming emails before they are forwarded to your mailbox, making sure your primary mailbox provider never sees unencrypted email content.
+[^1]: Le chiffrement PGP automatique vous permet de chiffrer les mails entrants non chiffrés avant qu'ils ne soient transmis à votre boite mail, afin de vous assurer que votre fournisseur de boite mail n'ai jamais accès au contenu de vos emails.
