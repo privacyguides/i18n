@@ -1,37 +1,37 @@
 ---
-meta_title: "Recommended Encryption Software: VeraCrypt, Cryptomator, and OpenPGP - Privacy Guides"
+meta_title: "Logiciels de chiffrement recommandés : VeraCrypt, Cryptomator, and OpenPGP - Privacy Guides"
 title: "Logiciels de chiffrement"
 icon: material/file-lock
 description: Le chiffrement des données est le seul moyen de contrôler qui peut y accéder. Ces outils vous permettent de chiffrer vos emails et tout autre de fichier.
 cover: encryption.webp
 ---
 
-**Encryption** is the only secure way to control who can access your data. If you are currently not using encryption software for your hard disk, emails, or files, you should pick an option here.
+Le **chiffrement** est le seul moyen fiable de contrôler qui peu accéder à vos données. Voici nos recommandations de logiciel de chiffrement pour les personnes souhaitant chiffrer leur disque dur, mail ou fichiers.
 
 ## Multi-plateforme
 
-The options listed here are available on multiple platforms and great for creating encrypted backups of your data.
+Nos recommandations sont disponibles sur plusieurs plateformes et permettent de créer des sauvegardes chiffrées de toutes vos données.
 
 ### Cryptomator (Cloud)
 
-<small>Protects against the following threat(s):</small>
+<small>Protège contre les menaces suivantes :</small>
 
 - [:material-bug-outline: Attaques passives](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 
 <div class="admonition recommendation" markdown>
 
-![Cryptomator logo](assets/img/encryption-software/cryptomator.svg){ align=right }
+![Logo de Cryptomator](assets/img/encryption-software/cryptomator.svg){ align=right }
 
-**Cryptomator** is an encryption solution designed for privately saving files to any cloud [:material-server-network: Service Provider](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }, eliminating the need to trust that they won't access your files. Il vous permet de créer des coffres-forts qui sont stockés sur un disque virtuel, dont le contenu est chiffré et synchronisé avec votre fournisseur de stockage cloud.
+**Cryptomator** est une solution de chiffrement pensée pour chiffrer vos fichiers sauvegardés dans n'importe quel [:material-server-network: Fournisseur de Service](basics/common-threats.md#privacy-from-service-providers){ .pg-teal } cloud, éliminant ainsi le besoin de s'assurer qu'il n'accède pas à vos fichiers. Il vous permet de créer des coffres-forts qui sont stockés sur un disque virtuel, dont le contenu est chiffré et synchronisé avec votre fournisseur de stockage cloud.
 
-[:octicons-home-16: Homepage](https://cryptomator.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://cryptomator.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://cryptomator.org/privacy){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://docs.cryptomator.org){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://cryptomator.org/donate){ .card-link title="Contribute" }
+[:octicons-code-16:](https://github.com/cryptomator){ .card-link title="Code Source" }
+[:octicons-heart-16:](https://cryptomator.org/donate){ .card-link title="Contribuer" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.cryptomator)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1560822163)
@@ -47,7 +47,7 @@ The options listed here are available on multiple platforms and great for creati
 
 Cryptomator utilise le chiffrement AES-256 pour chiffrer les fichiers et les noms de fichiers. Cryptomator ne peut pas chiffrer certaines métadonnées telles que les dates et heures d'accès, de modification et de création, ni le nombre et la taille des fichiers et des dossiers.
 
-Cryptomator is free to use on all desktop platforms, as well as on iOS in "read only" mode. Cryptomator offers [paid](https://cryptomator.org/pricing) apps with full functionality on iOS and Android. The Android version can be purchased anonymously via [ProxyStore](https://cryptomator.org/coop/proxystore).
+Cryptomator est gratuit sur toutes les plateformes de bureau, ainsi que sur iOS en mode "lecture seule". Cryptomator offers [paid](https://cryptomator.org/pricing) apps with full functionality on iOS and Android. The Android version can be purchased anonymously via [ProxyStore](https://cryptomator.org/coop/proxystore).
 
 Certaines bibliothèques cryptographiques de Cryptomator ont été [auditées](https://community.cryptomator.org/t/has-there-been-a-security-review-audit-of-cryptomator/44) par Cure53. La portée des bibliothèques auditées comprend: [cryptolib](https://github.com/cryptomator/cryptolib), [cryptofs](https://github.com/cryptomator/cryptofs), [siv-mode](https://github.com/cryptomator/siv-mode) et [cryptomator-objc-cryptor](https://github.com/cryptomator/cryptomator-objc-cryptor). L'audit ne s'est pas étendu à [cryptolib-swift](https://github.com/cryptomator/cryptolib-swift), qui est une bibliothèque utilisée par Cryptomator pour iOS.
 
