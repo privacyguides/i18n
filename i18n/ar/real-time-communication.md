@@ -23,13 +23,13 @@ These recommendations for encrypted **real-time communication** are great for se
 
 ![Signal logo](assets/img/messengers/signal.svg){ align=right }
 
-**Signal** هو تطبيق للهواتف الذكية صممته شركة Signal Messenger LLC. The app provides instant messaging and calls secured with the Signal protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
+**Signal** هو تطبيق للهواتف الذكية صممته شركة Signal Messenger LLC. يوفر التطبيق المراسلة الفورية والمكالمات الآمنة باستخدام بروتوكول Signal، وهو بروتوكول تشفير آمن للغاية يدعم السرية التامة للأمام[^1] وحماية ما بعد الاختراق.[^2]
 
-[:octicons-home-16: Homepage](https://signal.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.signal.org){ .card-link title="Documentation" }
+[:octicons-home-16: الصفحة الرئيسية] (https://signal.org){ .md-button .md-button--primary }
+[:octicons-eye-16:] (https://signal.org/legal/#privacy-policy){ .card-link title="سياسة الخصوصية"}
+[:octicons-info-16:] (https://support.signal.org) { .card-link title="الوثائق" }
 [:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://signal.org/donate){ .card-link title="Contribute" }
+[:octicons-heart-16:](https://signal.org/donate){ .card-link title="ساهم" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
