@@ -1,19 +1,19 @@
 ---
 title: "Front-ends"
 icon: material/flip-to-front
-description: These open-source frontends for various internet services allow you to access content without JavaScript or other annoyances.
+description: Ces frontends open-source pour différents services internet vous permettent d'accéder au contenu sans JavaScript ou d'autres désagréments.
 cover: frontends.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protège contre les menaces suivantes :</small>
 
 - [:material-account-cash: Capitalisme de surveillance](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Parfois, des services tentent de vous obliger à créer un compte en bloquant l'accès au contenu par des fenêtres pop-up gênantes. Ils peuvent également ne pas fonctionner sans JavaScript activé. These frontends can allow you to circumvent these restrictions.
+Parfois, des services tentent de vous obliger à créer un compte en bloquant l'accès au contenu par des fenêtres pop-up gênantes. Ils peuvent également ne pas fonctionner sans JavaScript activé. Ces frontends vous permettent de contourner ces restrictions.
 
 Si vous choisissez d'héberger vous-même ces clients, il est important que d'autres personnes utilisent également votre instance pour que vous puissiez vous fondre dans la masse. Vous devriez faire attention à l'endroit et à la manière dont vous hébergez, car l'utilisation par d'autres personnes sera liée à votre hébergement.
 
-When you are using an instance run by someone else, make sure to read the privacy policy of that specific instance (if available). Elles peuvent être modifiées par leurs propriétaires et peuvent donc ne pas refléter la politique par défaut. Some instances have [Tor](tor.md) .onion addresses, which may grant some privacy as long as your search queries don't contain personally identifiable information.
+Lorsque vous utilisez une instance gérée par quelqu'un d'autre, veillez à lire la politique de confidentialité de cette instance spécifique (si disponible). Elles peuvent être modifiées par leurs propriétaires et peuvent donc ne pas refléter la politique par défaut. Certaines instances ont des adresses .onion [Tor](tor.md), ce qui peut vous garantir une certaine confidentialité tant que vos requêtes ne contiennent pas d'information personnellement identifiable.
 
 ## Reddit
 
@@ -21,28 +21,28 @@ When you are using an instance run by someone else, make sure to read the privac
 
 <div class="admonition recommendation" markdown>
 
-![Redlib logo](assets/img/frontends/redlib.svg){ align=right }
+![Logo de Redlib](assets/img/frontends/redlib.svg){ align=right }
 
-**Redlib** is an open-source frontend to the [Reddit](https://reddit.com) website that is also self-hostable. You can access Redlib through a number of public instances.
+**Redlib** est une frontend open-source auto-hébergeable du site web [Reddit](https://reddit.com). Vous pouvez accèder à Redlib via un certain nombre d'instances publiques.
 
-[:octicons-repo-16: Repository](https://github.com/redlib-org/redlib){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/redlib-org/redlib-instances/blob/main/instances.md){ .card-link title="Public Instances" }
+[:octicons-repo-16: Dépôt](https://github.com/redlib-org/redlib){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/redlib-org/redlib-instances/blob/main/instances.md){ .card-link title="Instances Publique" }
 [:octicons-info-16:](https://github.com/redlib-org/redlib?tab=readme-ov-file#table-of-contents){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/redlib-org/redlib){ .card-link title="Code Source" }
 
 </div>
 
 <div class="admonition note" markdown>
 <p class="admonition-title">Note</p>
 
-The [Old Reddit](https://old.reddit.com) website doesn't require as much JavaScript as the new Reddit website does, but it has recently blocked access to IP addresses reserved for public VPNs. You can use Old Reddit in conjunction with the [Tor](tor.md) Onion that was [launched in October 2022](https://forum.torproject.org/t/reddit-onion-service-launch/5305) at [https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion](https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion).
+Le site [Old Reddit](https://old.reddit.com) ne nécessite pas autant de JavaScript que le nouveau site de Reddit, mais a récemment bloqué son accès aux adresses IP réservées aux VPNs publics.  Vous pouvez utiliser Old Reddit en combinaison avec l'Onion [Tor](tor.md) sortit en [octobre 2022](https://forum.torproject.org/t/reddit-onion-service-launch/5305) ici [https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion](https://old.reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion).
 
 </div>
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
 
-Redlib is useful if you want to disable JavaScript in your browser, such as [Tor Browser](tor.md#tor-browser) on the Safest security level.
+Redilb peut être utile si vous souhaitez désactiver JavaScript dans votre navigateur, comme sur le niveau de sécurité le plus élevé du [navigateur Tor](tor.md#tor-browser).
 
 </div>
 
@@ -52,16 +52,16 @@ Redlib is useful if you want to disable JavaScript in your browser, such as [Tor
 
 <div class="admonition recommendation" markdown>
 
-![ProxiTok logo](assets/img/frontends/proxitok.svg){ align=right }
+![Logo de ProxiTok](assets/img/frontends/proxitok.svg){ align=right }
 
-**ProxiTok** is an open-source frontend to the [TikTok](https://tiktok.com) website that is also self-hostable.
+**ProxiTok**st une frontend open-source auto-hébergeable du site web [TikTok](https://tiktok.com).
 
-There are a number of public instances, with some that offer a [Tor](tor.md) onion service or an [I2P](alternative-networks.md#i2p-the-invisible-internet-project) eepsite.
+Il existe un grand nombre d'instances publiques, dont certaines avec un service onion de [Tor](tor.md) ou un eepsite [I2P](alternative-networks.md#i2p-the-invisible-internet-project).
 
-[:octicons-repo-16: Repository](https://github.com/pablouser1/ProxiTok){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/pablouser1/ProxiTok/wiki/Public-instances){ .card-link title="Public Instances" }
+[:octicons-repo-16: Dépôt](https://github.com/pablouser1/ProxiTok){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/pablouser1/ProxiTok/wiki/Public-instances){ .card-link title="Instances Publiques" }
 [:octicons-info-16:](https://github.com/pablouser1/ProxiTok/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/pablouser1/ProxiTok){ .card-link title="Code Source" }
 
 </details>
 
@@ -70,13 +70,13 @@ There are a number of public instances, with some that offer a [Tor](tor.md) oni
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
 
-ProxiTok is useful if you want to disable JavaScript in your browser, such as [Tor Browser](tor.md#tor-browser) on the Safest security level.
+ProxiTok peut être utile si vous souhaitez désactiver JavaScript dans votre navigateur, comme sur le niveau de sécurité le plus élevé du [navigateur Tor](tor.md#tor-browser).
 
 </div>
 
 ## YouTube
 
-**Note:** YouTube has gradually rolled out changes to its video player and API that have thwarted some of the methods used by third-party frontends for extracting YouTube data. If you experience reliability issues with one YouTube frontend, consider trying out another that uses a different extraction method.
+**Remarque :** YouTube a progressivement apporté des modifications à son lecteur vidéo et à son API, ce qui a permis de contrecarrer certaines méthodes utilisées par les frontends pour extraire des données de YouTube. Si vous rencontrez des problèmes de fiabilité avec une des frontends de YouTube, essayez d'en utiliser une autre qui utilise une méthode d'extraction différente.
 
 ### Invidious
 
@@ -87,13 +87,13 @@ ProxiTok is useful if you want to disable JavaScript in your browser, such as [T
 
 **Invidious** est une interface gratuite et open-source pour [YouTube](https://youtube.com) qui est également auto-hébergable.
 
-There are a number of public instances, with some that offer a [Tor](tor.md) onion service or an [I2P](alternative-networks.md#i2p-the-invisible-internet-project) eepsite.
+Il existe un grand nombre d'instances publiques, dont certaines avec un service onion de [Tor](tor.md) ou un eepsite [I2P](alternative-networks.md#i2p-the-invisible-internet-project).
 
-[:octicons-home-16: Homepage](https://invidious.io){ .md-button .md-button--primary }
-[:octicons-server-16:](https://docs.invidious.io/instances){ .card-link title="Public Instances" }
+[:octicons-home-16: Page d'Accueil](https://invidious.io){ .md-button .md-button--primary }
+[:octicons-server-16:](https://docs.invidious.io/instances){ .card-link title="Instances Publiques" }
 [:octicons-info-16:](https://docs.invidious.io){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://invidious.io/donate){ .card-link title="Contribute" }
+[:octicons-code-16:](https://github.com/iv-org/invidious){ .card-link title="Code Source" }
+[:octicons-heart-16:](https://invidious.io/donate){ .card-link title="Contribuer" }
 
 </details>
 
@@ -102,14 +102,14 @@ There are a number of public instances, with some that offer a [Tor](tor.md) oni
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avertissement</p>
 
-Invidious n'utilise pas de proxy pour les flux vidéo par défaut. Videos watched through Invidious will still make direct connections to Google's servers (e.g. `googlevideo.com`); however, some instances support video proxying—simply enable *Proxy videos* within the instances' settings or add `&local=true` to the URL.
+Invidious n'utilise pas de proxy pour les flux vidéo par défaut. Les vidéos regardées via Invidious sont quand même directement connectées aux serveurs de Google (par exemple `googlevideo.com`) ; cependant, certaines instances vous permettent d'utiliser le proxy vidéo - activez simplement *Proxy videos* dans les réglages des instances ou ajoutez `&local=true` dans l'URL.
 
 </div>
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
 
-Invidious is useful if you want to disable JavaScript in your browser, such as [Tor Browser](tor.md#tor-browser) on the Safest security level. Il n'assure pas à lui seul la protection de la vie privée, et nous ne recommandons pas de se connecter à des comptes.
+Invidious peut être utile si vous souhaitez désactiver JavaScript dans votre navigateur, comme sur le niveau de sécurité le plus élevé du [navigateur Tor](tor.md#tor-browser). Il n'assure pas à lui seul la protection de la vie privée, et nous ne recommandons pas de se connecter à des comptes.
 
 </div>
 
@@ -123,11 +123,11 @@ Invidious is useful if you want to disable JavaScript in your browser, such as [
 
 Piped nécessite JavaScript pour fonctionner et il existe un certain nombre d'instances publiques.
 
-[:octicons-repo-16: Repository](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/TeamPiped/documentation/blob/main/content/docs/public-instances/index.md){ .card-link title="Public Instances" }
+[:octicons-repo-16: Dépôt](https://github.com/TeamPiped/Piped){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/TeamPiped/documentation/blob/main/content/docs/public-instances/index.md){ .card-link title="Instances Publiques" }
 [:octicons-info-16:](https://docs.piped.video/docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title="Contribute" }
+[:octicons-code-16:](https://github.com/TeamPiped/Piped){ .card-link title="Code Source" }
+[:octicons-heart-16:](https://github.com/TeamPiped/Piped#donations){ .card-link title="Contribuer" }
 
 </details>
 
@@ -136,7 +136,7 @@ Piped nécessite JavaScript pour fonctionner et il existe un certain nombre d'in
 <div class="admonition tip" markdown>
 <p class="admonition-title">Tip</p>
 
-Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) without installing an extension. Il n'assure pas à lui seul la protection de la vie privée, et nous ne recommandons pas de se connecter à des comptes.
+Piped peut être utile si vous voulez utiliser [SponsorBlock](https://sponsor.ajay.app) sans installer d'extension. Il n'assure pas à lui seul la protection de la vie privée, et nous ne recommandons pas de se connecter à des comptes.
 
 </div>
 
@@ -146,18 +146,18 @@ Piped is useful if you want to use [SponsorBlock](https://sponsor.ajay.app) with
 
 ![Logo FreeTube](assets/img/frontends/freetube.svg){ align=right }
 
-**FreeTube** est une application de bureau gratuite et open-source pour [YouTube](https://youtube.com). FreeTube extracts data from YouTube using its built-in API based on [YouTube.js](https://github.com/LuanRT/YouTube.js) or the [Invidious](#invidious) API. You can configure either as the default, with the other serving as a fallback.
+**FreeTube** est une application de bureau gratuite et open-source pour [YouTube](https://youtube.com). FreeTube extraits les données de YouTube grâce à son API intégré basé sur [YouTube.js](https://github.com/LuanRT/YouTube.js) ou l'API de [Invidious](#invidious). Vous pouvez choisir lequel des deux utiliser par défaut, le deuxième sera utilisé en cas de problème.
 
-When using FreeTube, your subscription list, playlists, watch history and search history are saved locally on your device.
+Lorsque vous utilisez FreeTube, votre liste d'abonnement, vos playlists et votre historique de recherche et de visionnage sont sauvegardés localement sur votre appareil.
 
-[:octicons-home-16: Homepage](https://freetubeapp.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://freetubeapp.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://freetubeapp.io/privacy.php){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://docs.freetubeapp.io){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title="Contribute" }
+[:octicons-code-16:](https://github.com/FreeTubeApp/FreeTube){ .card-link title="Code Source" }
+[:octicons-heart-16:](https://liberapay.com/FreeTube){ .card-link title="Contribuer" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:fontawesome-brands-windows: Windows](https://freetubeapp.io/#download)
 - [:simple-apple: macOS](https://freetubeapp.io/#download)

@@ -1,7 +1,7 @@
 ---
 title: Auto-Hébergement
-meta_title: "Self-Hosting Software and Services - Privacy Guides"
-description: For our more technical readers, self-hosting software and services can provide additional privacy assurances since you have maximum control over your data.
+meta_title: "Logiciels et services autohébergés - Privacy Guides"
+description: Pour nos lecteurs les plus avancés, l'auto-hébergement de logiciel et de services peut donner des garanties additionnelles en termes de confidentialité en leur permettant d'avoir un contrôle maximal sur leurs données.
 cover: router.webp
 ---
 
@@ -9,20 +9,20 @@ cover: router.webp
 
 - [:material-server-network: Fournisseurs de services](../basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-**Self-hosting** software and services can be a way to achieve a higher level of privacy through digital sovereignty, particularly independence from cloud servers controlled by product developers or vendors. L'auto-hébergement désigne le fait d'héberger vos applications et vos données sur votre propre hardware.
+**Autohéberger** des logiciels et des services peut vous permettre d'atteindre des niveaux élevés de confidentialité grâce à la souveraineté numérique, en particulier par rapport aux serveurs cloud contrôlés par des entreprises ou des développeurs. L'auto-hébergement désigne le fait d'héberger vos applications et vos données sur votre propre hardware.
 
 L'auto-hébergement nécessite des connaissances techniques avancées et une bonne compréhension des risques associés. En devanant votre propre hébergeur, et potentiellement celui d'autres personnes, vous acceptez de prendre certaines responsabilités spécifiques. Mal utiliser des logiciels dédiés à la confidentialité en auto-hébergement implique parfois des risques plus grands qu'utiliser les services d'un tiers chiffrés de bout en bout par exemple. Il peut donc être préférable de n'y avoir recours que si vous êtes vraiment à l'aise.
 
-## :material-dns: DNS Filtering
+## :material-dns: Le filtrage DNS
 
 <div class="grid cards" markdown>
 
-- ![AdGuard Home logo](../assets/img/self-hosting/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns-filtering.md#adguard-home)
-- ![Pi-Hole logo](../assets/img/self-hosting/pi-hole.svg){ .twemoji loading=lazy } [Pi-Hole](dns-filtering.md#pi-hole)
+- ![Logo de AdGuard Home](../assets/img/self-hosting/adguard-home.svg){ .twemoji loading=lazy } [AdGuard Home](dns-filtering.md#adguard-home)
+- ![Logo de Pi-Hole](../assets/img/self-hosting/pi-hole.svg){ .twemoji loading=lazy } [Pi-Hole](dns-filtering.md#pi-hole)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](dns-filtering.md)
+[Pour en savoir plus :material-arrow-right-drop-circle:](dns-filtering.md)
 
 ## :material-email: Serveurs de messagerie (mail)
 
@@ -36,33 +36,33 @@ L'auto-hébergement nécessite des connaissances techniques avancées et une bon
 
 [En savoir plus :material-arrow-right-drop-circle:](email-servers.md)
 
-## :material-file-multiple-outline: File Management
+## :material-file-multiple-outline: Gestion des fichiers
 
 <div class="grid cards" markdown>
 
-- ![PhotoPrism logo](../assets/img/self-hosting/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](file-management.md#photoprism)
-- ![FreedomBox logo](../assets/img/self-hosting/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-management.md#freedombox)
-- ![Nextcloud logo](../assets/img/self-hosting/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud](file-management.md#nextcloud)
+- ![Logo de PhotoPrism](../assets/img/self-hosting/photoprism.svg){ .twemoji loading=lazy } [PhotoPrism](file-management.md#photoprism)
+- ![Logo de FreedomBox](../assets/img/self-hosting/freedombox.svg){ .twemoji loading=lazy } [FreedomBox](file-management.md#freedombox)
+- ![Logo de Nextcloud](../assets/img/self-hosting/nextcloud.svg){ .twemoji loading=lazy } [Nextcloud](file-management.md#nextcloud)
 
 </div>
 
-[Learn more :material-arrow-right-drop-circle:](file-management.md)
+[Pour en savoir plus :material-arrow-right-drop-circle:](file-management.md)
 
-## :material-form-textbox-password: Password Management
+## :material-form-textbox-password: Gestion des mots de passe
 
 ### Vaultwarden
 
 <div class="admonition recommendation" markdown>
 
-![Vaultwarden logo](../assets/img/self-hosting/vaultwarden.svg#only-light){ align=right }
-![Vaultwarden logo](../assets/img/self-hosting/vaultwarden-dark.svg#only-dark){ align=right }
+![Logo de Vaultwarden](../assets/img/self-hosting/vaultwarden.svg#only-light){ align=right }
+![Logo de Vaultwarden](../assets/img/self-hosting/vaultwarden-dark.svg#only-dark){ align=right }
 
-**Vaultwarden** is an alternative implementation of [Bitwarden](../passwords.md#bitwarden)'s sync server written in Rust and compatible with official Bitwarden clients, perfect for self-hosted deployment where running the resource-heavy, [official service](https://github.com/bitwarden/server) might not be ideal.
+**Vaultwarden** est une implémentation alternative du serveur de synchronisation de [Bitwarden](../passwords.md#bitwarden) écrit en Rust et compatible avec les clients officiels de Bitwarden, parfaitement adapté à l'auto-hébergement lorsque l'utilisation du [service officiel](https://github.com/bitwarden/server), gourmand en ressources, n'est pas idéale.
 
-[:octicons-repo-16: Repository](https://github.com/dani-garcia/vaultwarden#readme){ .md-button .md-button--primary }
+[:octicons-repo-16: Dépôt](https://github.com/dani-garcia/vaultwarden#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/dani-garcia/vaultwarden/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title="Contribute" }
+[:octicons-code-16:](https://github.com/dani-garcia/vaultwarden){ .card-link title="Code Source" }
+[:octicons-heart-16:](https://github.com/sponsors/dani-garcia){ .card-link title="Contribuer" }
 
 </div>
 
@@ -144,13 +144,13 @@ Si vous vous sentez capable d'auto-héberger des logiciels après avoir lu leur 
 
 <div class="grid cards" markdown>
 
-- ![Peergos logo](../assets/img/cloud/peergos.svg){ .twemoji } [**Peergos**](../cloud.md#peergos)
+- ![Logo de Peergos](../assets/img/cloud/peergos.svg){ .twemoji } [**Peergos**](../cloud.md#peergos)
 
   ---
 
-  [:octicons-home-16:](https://peergos.org){ .card-link title="Homepage" }
-  [:octicons-info-16:](https://github.com/peergos/peergos#usage---running-locally-to-log-in-to-another-instance){ .card-link title="Admin Documentation" }
-  [:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Source Code" }
+  [:octicons-home-16:](https://peergos.org){ .card-link title="Page d'Accueil" }
+  [:octicons-info-16:](https://github.com/peergos/peergos#usage---running-locally-to-log-in-to-another-instance){ .card-link title="Documentation Admin" }
+  [:octicons-code-16:](https://github.com/Peergos/Peergos){ .card-link title="Code Source" }
 
 - ![Logo de Addy.io](../assets/img/email-aliasing/addy.svg){ .twemoji } [**Addy.io**](../email-aliasing.md#addyio)
 
@@ -168,13 +168,13 @@ Si vous vous sentez capable d'auto-héberger des logiciels après avoir lu leur 
   [:octicons-info-16:](https://github.com/simple-login/app#prerequisites){ .card-link title="Documentation Administrateur" }
   [:octicons-code-16:](https://github.com/simple-login){ .card-link title="Code Source" }
 
-- ![Ente logo](../assets/img/photo-management/ente.svg){ .twemoji } [**Ente Photos**](../photo-management.md#ente-photos)
+- ![Logo de Ente](../assets/img/photo-management/ente.svg){ .twemoji } [**Ente Photos**](../photo-management.md#ente-photos)
 
   ---
 
-  [:octicons-home-16:](https://ente.io){ .card-link title="Homepage" }
-  [:octicons-info-16:](https://help.ente.io/self-hosting){ .card-link title="Admin Documentation" }
-  [:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
+  [:octicons-home-16:](https://ente.io){ .card-link title="Page d'Accueil" }
+  [:octicons-info-16:](https://help.ente.io/self-hosting){ .card-link title="Documentation Admin" }
+  [:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Code Source" }
 
 - ![Logo de CryptPad](../assets/img/document-collaboration/cryptpad.svg){ .twemoji } [**CryptPad**](../document-collaboration.md#cryptpad)
 
@@ -184,21 +184,21 @@ Si vous vous sentez capable d'auto-héberger des logiciels après avoir lu leur 
   [:octicons-info-16:](https://docs.cryptpad.org/en/admin_guide/index.html){ .card-link title="Documentation Administrateur" }
   [:octicons-code-16:](https://github.com/xwiki-labs/cryptpad){ .card-link title="Code Source" }
 
-- ![Send logo](../assets/img/file-sharing-sync/send.svg){ .twemoji } [**Send**](../file-sharing.md#send)
+- ![Logo de Send](../assets/img/file-sharing-sync/send.svg){ .twemoji } [**Send**](../file-sharing.md#send)
 
   ---
 
-  [:octicons-home-16:](https://send.vis.ee){ .card-link title="Homepage" }
-  [:octicons-info-16:](https://github.com/timvisee/send/blob/master/docs/deployment.md){ .card-link title="Admin Documentation" }
-  [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Source Code" }
+  [:octicons-home-16:](https://send.vis.ee){ .card-link title="Page d'Accueil" }
+  [:octicons-info-16:](https://github.com/timvisee/send/blob/master/docs/deployment.md){ .card-link title="Documentation Admin" }
+  [:octicons-code-16:](https://github.com/timvisee/send){ .card-link title="Code Source" }
 
-- ![LibreTranslate logo](../assets/img/language-tools/libretranslate.png){ .twemoji } [**LibreTranslate**](../language-tools.md#libretranslate)
+- ![Logo de LibreTranslate](../assets/img/language-tools/libretranslate.png){ .twemoji } [**LibreTranslate**](../language-tools.md#libretranslate)
 
   ---
 
-  [:octicons-home-16:](https://libretranslate.com){ .card-link title="Homepage" }
-  [:octicons-info-16:](https://docs.libretranslate.com){ .card-link title="Admin Documentation" }
-  [:octicons-code-16:](https://github.com/LibreTranslate/LibreTranslate){ .card-link title="Source Code" }
+  [:octicons-home-16:](https://libretranslate.com){ .card-link title="Page d'Accueil" }
+  [:octicons-info-16:](https://docs.libretranslate.com){ .card-link title="Documentation Admin" }
+  [:octicons-code-16:](https://github.com/LibreTranslate/LibreTranslate){ .card-link title="Code Source" }
 
 - ![Logo de Miniflux](../assets/img/news-aggregators/miniflux.svg#only-light){ .twemoji }![Miniflux logo](../assets/img/news-aggregators/miniflux-dark.svg#only-dark){ .twemoji } [**Miniflux**](../news-aggregators.md#miniflux)
 
