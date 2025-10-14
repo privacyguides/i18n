@@ -1,14 +1,14 @@
 ---
 title: ""
 icon: material/alphabetical-variant
-description: These language tools do not send your input text to a server and can be used offline and self-hosted.
+description: Ces outils linguistiques n'envoient pas le texte saisi à un serveur et peuvent être utilisés hors ligne ou être auto-hébergés.
 cover: language-tools.webp
 ---
 
 <small>Protège contre les menaces suivantes :</small>
 
 - [:material-server-network: Fournisseurs de Services](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
+- [:material-account-cash: Capitalisme de Surveillance](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
 Text inputted to grammar, spelling, and style checkers, as well as translation services, can contain sensitive information which may be stored on their servers for an indefinite amount of time and sold to third parties. The language tools listed on this page do not store your submitted text on a server and can be self-hosted and used offline for maximum control of your data.
 

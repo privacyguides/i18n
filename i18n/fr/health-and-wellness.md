@@ -1,5 +1,5 @@
 ---
-meta_title: "Application de santé et bien-être respectueuses de la vie privée pour Android et iOS - Privacy Guides"
+meta_title: "Applications de santé et bien-être respectueuses de la vie privée pour Android et iOS - Privacy Guides"
 title: "Santé et Bien-être"
 icon: material/heart-pulse
 description: Ces applications sont celles que nous recommandons actuellement pour toutes les activités liées à la santé et à la forme physique sur votre téléphone.
@@ -10,7 +10,7 @@ cover: health.webp
 
 - [:material-server-network: Fournisseurs de services](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-Gardez une trace de vos objectifs en matière de santé et de condition physique avec ces applications. Contrairement à leurs alternatives traditionnelles, vos informations personnelles en matière de santé resteront confidentielles.
+Gardez une trace de vos objectifs en matière de santé et de fitness avec ces applications. Contrairement à leurs alternatives traditionnelles, vos informations personnelles en matière de santé resteront confidentielles.
 
 ## Suivi des cycles menstruels
 
@@ -20,9 +20,9 @@ Les traqueurs menstruels populaires tels que [Flo](https://techcrunch.com/2021/0
 
 <div class="admonition recommendation" markdown>
 
-![Logo Drip](assets/img/health-and-wellness/drip.png){ align=right }
+![Logo de Drip](assets/img/health-and-wellness/drip.png){ align=right }
 
-**Drip** est un outil de suivi du cycle menstruel ouvert à tous les genres et disponible sur toutes les plateformes mobiles. Elle s'appuie sur la "méthode sympto-thermique" pour prédire l'ovulation. Toutes les données de l'utilisateur sont stockées localement sur votre appareil et peuvent être protégées par un mot de passe.
+**Drip** est un outil de suivi du cycle menstruel inclusif disponible sur toutes les plateformes mobiles. Elle s'appuie sur la "méthode sympto-thermique" pour prédire l'ovulation. Toutes les données de l'utilisateur sont stockées localement sur votre appareil et peuvent être protégées par un mot de passe.
 
 [:octicons-home-16: Page d'accueil](https://bloodyhealth.gitlab.io){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://bloodyhealth.gitlab.io/privacy-policy.html){ .card-link title="Politique de confidentialité" }
@@ -61,7 +61,7 @@ Les traqueurs menstruels populaires tels que [Flo](https://techcrunch.com/2021/0
 
 </div>
 
-## Trackers Fitness
+## Application de suivis de fitness
 
 Ces applications génériques possèdent de nombreuses fonctionnalités, du comptage de pas au suivi de sommeil, en passant par la mesure du rythme cardiaque.
 
@@ -69,11 +69,11 @@ Ces applications génériques possèdent de nombreuses fonctionnalités, du comp
 
 <div class="admonition recommendation" markdown>
 
-![Apple Fitness logo](assets/img/health-and-wellness/apple-fitness.webp){ align=right }
+![Logo de Apple Fitness](assets/img/health-and-wellness/apple-fitness.webp){ align=right }
 
-**Apple Fitness** is the default fitness app for iOS. Apple Fitness always uses end-to-end encryption when syncing across multiple devices. Additionally, almost all measured data is processed on your device.
+**Apple Fitness** est l'application de fitness par défaut sur iOS. Elle utilise toujours le chiffrement de bout-en-bout lors de la synchronisation entre appareils. De plus, toutes les données mesurées sont analysées localement.
 
-[:octicons-eye-16:](https://apple.com/legal/privacy/consumer-health-personal-data/en-ww){ .card-link title="Privacy Policy" }
+[:octicons-eye-16:](https://apple.com/legal/privacy/consumer-health-personal-data/en-ww){ .card-link title="Politique de Confidentialité" }
 
 <details class="downloads" markdown><summary>Téléchargements</summary>
 
@@ -83,18 +83,18 @@ Ces applications génériques possèdent de nombreuses fonctionnalités, du comp
 
 </div>
 
-### Gadgetbridge
+### GadgetBridge
 
 <div class="admonition recommendation" markdown>
 
 ![logo de Gadgetbridge](assets/img/health-and-wellness/gadgetbridge.svg#only-light){ align=right }![logo de Gadgetbridge](assets/img/health-and-wellness/gadgetbridge-dark.svg#only-dark){ align=right }
 
-**Gadgetbridge** is an open-source Android application which allows you to pair and manage your Bluetooth device without relying on the vendor’s application. When paired with a compatible smartwatch, it can mimic the health and wellness functionality of these watches without third-party data collection.
+**GadgetBridge** est une application Android open-source qui vous permet d'appairer et de gérer vos objets Bluetooth sans avoir besoin de l'application des fournisseurs. Associé à une montre connectée compatible, il peut imiter les fonctionnalités de santé et de bien-être de celle-ci sans collecte de données intermédiaire.
 
-[:octicons-home-16: Homepage](https://gadgetbridge.org){ .md-button .md-button--primary }
+[:octicons-home-16: Page d'Accueil](https://gadgetbridge.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://gadgetbridge.org/basics){ .card-link title="Documentation" }
-[:octicons-code-16:](https://codeberg.org/Freeyourgadget/Gadgetbridge){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://liberapay.com/Gadgetbridge/donate){ .card-link title="Contribute" }
+[:octicons-code-16:](https://codeberg.org/Freeyourgadget/Gadgetbridge){ .card-link title="Code Source" }
+[:octicons-heart-16:](https://liberapay.com/Gadgetbridge/donate){ .card-link title="Contribuer" }
 
 <details class="downloads" markdown><summary>Téléchargements</summary>
 
@@ -104,24 +104,24 @@ Ces applications génériques possèdent de nombreuses fonctionnalités, du comp
 
 </div>
 
-Gadgetbridge's app functionality includes, but is not limited to: step counting, sleep tracking, heart rate monitoring, etc.
+GadgetBridge permet entre autre de compter vos pas, faire le suivis de votre sommeil, surveiller votre rythme cardiaque, etc.
 
-Make sure to review the smartwatch [compatibility list](https://gadgetbridge.org/gadgets) before purchasing a device. Some devices require you to download the vendor's app and connect the smartwatch to their servers prior to installing Gadgetbridge.
+Assurez-vous que la montre que vous souhaitez acheter soit bien [compatible](https://gadgetbridge.org/gadgets) avec l'application. Certains objets nécessitent de télécharger leur propre application et de connecter la montre à leurs serveurs avant de pouvoir utiliser GadgetBridge.
 
-## Health Records
+## Dossier de Santé
 
-These apps help you collect and manage personal health data and share it with health providers, organizations, and other apps.
+Ces applications vous permettent de collecter et de gérer vos données personnelles de santé et de les partager avec des soignants, des organisations ou d'autres applications.
 
-### Apple Health Records
+### Dossier de santé Apple
 
 <div class="admonition recommendation" markdown>
 
-![Apple logo](assets/img/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
+![Logo de Apple](assets/img/health-and-wellness/apple-health.webp#only-light){ align=right }![Apple logo](assets/img/health-and-wellness/apple-health-dark.webp#only-dark){ align=right }
 
-**Apple Health Records** is a built-in feature within [Apple Health](https://apple.com/health) that allows you to view, store, and share your health records. It shares the security and privacy features of [Apple Fitness](#apple-fitness).
+**Le dossier de santé de Apple** est une fonctionnalité intégrée à [Apple Santé](https://apple.com/health) qui vous permet de consulter, stocker et partager vos documents de santé. Elle partage le même niveau de sécurité et de confidentialité que [Apple Fitness](#apple-fitness).
 
-[:octicons-home-16: Homepage](https://apple.com/health){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://apple.com/legal/privacy/consumer-health-personal-data/en-ww){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://apple.com/health){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/consumer-health-personal-data/en-ww){ .card-link title="Politique de Confidentialité" }
 
 <details class="downloads" markdown><summary>Téléchargements</summary>
 
@@ -131,16 +131,16 @@ These apps help you collect and manage personal health data and share it with he
 
 </div>
 
-### CommonHealth
+### CommonHealth (USA seulement)
 
 <div class="admonition recommendation" markdown>
 
-![CommonHealth logo](assets/img/health-and-wellness/commonhealth.png){ align=right }
+![Logo de CommonHealth](assets/img/health-and-wellness/commonhealth.png){ align=right }
 
-**CommonHealth** is a privacy-respecting Android app that allows people to access their electronic health records and securely share it to providers. All health data is stored on your device and can be protected with a passcode or biometric authentication.
+**CommonHealth** est une application Android respectueuse de la vie privée qui vous permet d'accéder à vos documents de santé électroniques et de les partager à vos soignants de manière sécurisée. Toutes les données de santé sont stockée sur votre appareil et peuvent être protégées par un mot de passe ou l'authentification biométrique.
 
-[:octicons-home-16: Homepage](https://commonhealth.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://commonhealth.org/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://commonhealth.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://commonhealth.org/privacy){ .card-link title="Politique de Confidentialité" }
 
 <details class="downloads" markdown><summary>Téléchargements</summary>
 
@@ -150,14 +150,14 @@ These apps help you collect and manage personal health data and share it with he
 
 </div>
 
-CommonHealth is only available in the United States. Although the app itself is closed source, the [developer SDK is open source](https://github.com/the-commons-project).
+CommonHealth est uniquement disponible aux Etats-Unis. Bien que l'application en elle-même soit propriétaire, le [kit de développement logiciel (SDK) est open-source](https://github.com/the-commons-project).
 
 ## Critères
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
+**Nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de nos [critères de base](about/criteria.md), nous avons développé un ensemble d'exigences claires pour nous permettre de faire des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
 
 ### Exigences minimales
 
-- Doit prendre en charge les mises à jour automatiques.
+- Dois prendre en charge les mises à jour automatiques.
 - Ne doit pas stocker des données non chiffrées en ligne.
-- Must function offline.
+- Dois fonctionner hors-ligne.
