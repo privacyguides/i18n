@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy-Respecting Health and Wellness apps for Android and iOS - Privacy Guides"
+meta_title: "Application de santé et bien-être respectueuses de la vie privée pour Android et iOS - Privacy Guides"
 title: "Santé et Bien-être"
 icon: material/heart-pulse
 description: Ces applications sont celles que nous recommandons actuellement pour toutes les activités liées à la santé et à la forme physique sur votre téléphone.
@@ -47,10 +47,10 @@ Les traqueurs menstruels populaires tels que [Flo](https://techcrunch.com/2021/0
 
 **Euki** est un outil de suivi du cycle menstruel soutenu par une association à but non lucratif, qui sert également de suivi des médicaments et de base de connaissances sur le bien-être sexuel. Il vous permet de programmer la suppression automatique de vos données personnelles dans l'application. Toutes les données de l'utilisateur sont stockées localement sur votre appareil et peuvent être protégées par un mot de passe.
 
-[:octicons-home-16: Homepage](https://eukiapp.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://eukiapp.org/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-code-16:](https://github.com/Euki-Inc/Euki-Android){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://every.org/euki-app){ .card-link title="Contribute" }
+[:octicons-home-16: Page d'Accueil](https://eukiapp.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://eukiapp.org/privacy-policy){ .card-link title="Politique de Confidentialité" }
+[:octicons-code-16:](https://github.com/Euki-Inc/Euki-Android){ .card-link title="Code Source" }
+[:octicons-heart-16:](https://every.org/euki-app){ .card-link title="Contribuer" }
 
 <details class="downloads" markdown><summary>Téléchargements</summary>
 
@@ -61,9 +61,9 @@ Les traqueurs menstruels populaires tels que [Flo](https://techcrunch.com/2021/0
 
 </div>
 
-## Fitness Trackers
+## Trackers Fitness
 
-These general purpose apps can do everything from counting steps and tracking sleep to measuring your heartbeat.
+Ces applications génériques possèdent de nombreuses fonctionnalités, du comptage de pas au suivi de sommeil, en passant par la mesure du rythme cardiaque.
 
 ### Apple Fitness
 

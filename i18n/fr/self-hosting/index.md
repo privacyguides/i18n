@@ -103,7 +103,7 @@ Mastodon possède une communauté d'auto-hébergement importante et active, et s
 
 ## :material-flip-to-front: Les Frontends
 
-L'auto-hébergement de votre propre instance d'un frontend web peut vous aider à contourner les limitations que vous pouvez rencontrer sur les instances publiques à fort trafic. Afin de vous fondre dans la masse, il est aussi important que d'autres personnes utilisent votre instance. Vous devriez faire attention à l'endroit et à la manière dont vous hébergez, car l'utilisation par d'autres personnes sera liée à votre hébergement.
+L'auto-hébergement de votre propre instance d'un frontend web peut vous aider à contourner les limitations que vous pouvez rencontrer sur les instances publiques à fort trafic. Afin de vous fondre dans la masse, il est aussi important que d'autres personnes utilisent votre instance. Vous devriez faire attention à l'endroit et à la manière dont vous hébergez, car l'utilisation par d'autres personnes sera liée à votre méthode d'hébergement.
 
 <div class="grid cards" markdown>
 
