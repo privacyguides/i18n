@@ -13,9 +13,9 @@ cover: real-time-communication.webp
 - [:material-eye-outline: المراقبة الشاملة](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-account-cash: رأسمالية المراقبة](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These recommendations for encrypted **real-time communication** are great for securing your sensitive communications. These instant messengers come in the form of many [types of communication networks](advanced/communication-network-types.md).
+هذه التطبيقات التي نوصي بها **للتواصل الفوري** المشفر رائعة لحماية اتصالاتك الحساسة. تختلف هذه التطبيقات باختلاف [أنواع شبكات التواصل](advanced/communication-network-types.md)
 
-[:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
+[:material-movie-open-play-outline: فيديو: آن الأوان للتوقف عن استعمال الرسائل النصية القصيرة](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
 
 ## Signal
 

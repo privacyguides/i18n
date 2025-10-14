@@ -1,7 +1,7 @@
 ---
-title: ""
+title: "Outils linguistiques"
 icon: material/alphabetical-variant
-description: Ces outils linguistiques n'envoient pas le texte saisi à un serveur et peuvent être utilisés hors ligne ou être auto-hébergés.
+description: Ces outils linguistiques n'envoient pas le texte saisi à un serveur, ils peuvent être utilisés hors ligne et être auto-hébergés.
 cover: language-tools.webp
 ---
 
@@ -10,26 +10,26 @@ cover: language-tools.webp
 - [:material-server-network: Fournisseurs de Services](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 - [:material-account-cash: Capitalisme de Surveillance](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-Text inputted to grammar, spelling, and style checkers, as well as translation services, can contain sensitive information which may be stored on their servers for an indefinite amount of time and sold to third parties. The language tools listed on this page do not store your submitted text on a server and can be self-hosted and used offline for maximum control of your data.
+Les textes passant par des correcteurs de grammaire, de style et d'orthographe, ou par des services de traduction, contiennent parfois des informations sensibles qui peuvent être stockées sur leurs serveurs indéfiniment ou être vendues à des tiers. Les outils linguistiques présentés ici ne stockent pas les textes analysés sur un serveur et peuvent être auto-hébergés et/ou utilisé hors-ligne pour vous donner un maximum de contrôle sur vos données.
 
-## Grammar & Spelling
+## Grammaire et orthographe
 
 ### LanguageTool
 
 <div class="admonition recommendation" markdown>
 
-![LanguageTool logo](assets/img/language-tools/languagetool.svg#only-light){ align=right }
-![LanguageTool logo](assets/img/language-tools/languagetool-dark.svg#only-dark){ align=right }
+![Logo de LanguageTool](assets/img/language-tools/languagetool.svg#only-light){ align=right }
+![Logo de LanguageTool](assets/img/language-tools/languagetool-dark.svg#only-dark){ align=right }
 
-**LanguageTool** is a multilingual grammar, style, and spell checker that supports more than 20 languages. According to their privacy policy, they do not store any content sent to their service for review, but for higher assurance the software is [self-hostable](https://dev.languagetool.org/http-server).
+**LanguageTool** est un correcteur de grammaire, d'orthographe et de style disponible dans plus de 20 langues différentes. D'après leur politique de confidentialité, ils ne stockent aucune donnée envoyée à leurs services, mais pour une confidentialité plus élevée, le service peut être [auto-hébergé](https://dev.languagetool.org/http-server).
 
-[:octicons-home-16: Homepage](https://languagetool.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://languagetool.org/legal/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://languagetool.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://languagetool.org/legal/privacy){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://languagetooler.freshdesk.com/en/support/solutions){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/languagetool-org){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/languagetool-org){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1534275760)
 - [:fontawesome-brands-windows: Windows](https://languagetool.org/windows-desktop)
@@ -43,31 +43,31 @@ Text inputted to grammar, spelling, and style checkers, as well as translation s
 
 </div>
 
-LanguageTool offers integration with a variety of [office suites](https://languagetool.org/services#text_editors) and [email clients](https://languagetool.org/services#mail_clients).
+LanguageTool est compatible avec plusieurs [suites de bureautique](https://languagetool.org/services#text_editors) et [client mail](https://languagetool.org/services#mail_clients).
 
-## Translation Tools
+## Outils de traduction
 
 ### LibreTranslate
 
 <div class="admonition recommendation" markdown>
 
-![LibreTranslate logo](assets/img/language-tools/libretranslate.png){ align=right }
+![Logo de LibreTranslate](assets/img/language-tools/libretranslate.png){ align=right }
 
-**LibreTranslate** is a free and open-source machine translation web interface and API server. It uses [Argos Translate](https://github.com/argosopentech/argos-translate) models on the backend for translations.
+**LibreTranslate** est un outil de traduction automatique libre et open-source sous forme d'interface web et d'un serveur API. Il utilise les modèles de [Argos Translate](https://github.com/argosopentech/argos-translate) en arrière-plan pour les traductions.
 
-[:octicons-home-16: Homepage](https://libretranslate.com){ .md-button .md-button--primary }
-[:octicons-server-16:](https://github.com/LibreTranslate/LibreTranslate#mirrors){ .card-link title="Public Instances" }
-[:octicons-code-16:](https://github.com/LibreTranslate/LibreTranslate){ .card-link title="Source Code" }
+[:octicons-home-16: Page d'Accueil](https://libretranslate.com){ .md-button .md-button--primary }
+[:octicons-server-16:](https://github.com/LibreTranslate/LibreTranslate#mirrors){ .card-link title="Instances Publiques" }
+[:octicons-code-16:](https://github.com/LibreTranslate/LibreTranslate){ .card-link title="Code Source" }
 
 </div>
 
-You can use LibreTranslate through a number of public instances, with some that offer a [Tor](tor.md) onion service or an [I2P](alternative-networks.md#i2p-the-invisible-internet-project) eepsite. You can also host the software yourself for maximum control over the text submitted for translation.
+Vous pouvez utiliser LibreTranslate via différentes instances publiques, dont certaines disposent d'un service onion [Tor](tor.md) ou d'un eepsite [I2P](alternative-networks.md#i2p-the-invisible-internet-project). Pour un maximum de contrôle, vous pouvez également auto-héberger le service.
 
-We use a self-hosted instance of LibreTranslate to automatically translate posts on our [forum](https://discuss.privacyguides.net) to multiple languages.
+Nous utilisons une instance auto-hébergée de LibreTranslate pour traduire automatiquement les posts sur notre [forum](https://discuss.privacyguides.net) en plusieurs langues.
 
 ## Critères
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
+**Nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de nos [critères de base](about/criteria.md), nous avons élaboré une liste d'exigences claire qui nous permet de proposer des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
 
-- Doit être open-source.
-- Must be possible to self-host.
+- Dois être open-source.
+- Dois pouvoir être auto-hébergé.
