@@ -1,17 +1,17 @@
 ---
 meta_title: "The Best Private Instant Messengers - Privacy Guides"
-title: Real-Time Communication
+title: التواصل الفوري
 icon: material/chat-processing
-description: Encrypted messengers like Signal and SimpleX keep your sensitive communications secure from prying eyes.
+description: تطبيقات المراسلة المشفرة مثل Signal و SimpleX تحمي اتصالاتك من المتطفلين.
 cover: real-time-communication.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small> تحميك من:</small>
 
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy ""){.pg-orange}
-- [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
-- [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-bug-outline:الهجمات الخاملة](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [شركات الاتصالات](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
+- [:material-eye-outline: المراقبة الشاملة](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
+- [:material-account-cash: رأسمالية المراقبة](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
 These recommendations for encrypted **real-time communication** are great for securing your sensitive communications. These instant messengers come in the form of many [types of communication networks](advanced/communication-network-types.md).
 
