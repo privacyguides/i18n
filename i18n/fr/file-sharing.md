@@ -111,9 +111,9 @@ OnionShare offre la possibilité de se connecter via des [ponts Tor](https://doc
 - Dois être un logiciel open source.
 - Doit avoir soit des clients pour Linux, macOS et Windows, soit une interface web.
 
-#### Dans le meilleur des cas
+#### Critères optimaux
 
-Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
+Nos critères optimaux représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de ces fonctionnalités, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
 - Devrait avoir des clients mobiles pour iOS et Android qui prennent au moins en charge la prévisualisation de documents.
 - Devrait prendre en charge les sauvegardes de photos depuis iOS et Android, et éventuellement la synchronisation fichiers/dossiers sur Android.

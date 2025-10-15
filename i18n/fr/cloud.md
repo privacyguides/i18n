@@ -136,9 +136,9 @@ Peergos a été [auditionné](https://peergos.org/posts/security-audit-2024) en 
 - Doit offrir une interface web prennant en charge les fonctionnalités de base de gestion des fichiers.
 - Doit permettre d'exporter facilement tous les fichiers/documents.
 
-### Dans le meilleur des cas
+### Critères optimaux
 
-Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
+Nos critères optimaux représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de ces fonctionnalités, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
 - Les clients devraient être open source.
 - Les clients doivent être auditionnés dans leur intégralité par un organisme indépendant.

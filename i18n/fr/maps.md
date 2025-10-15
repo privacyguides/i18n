@@ -94,7 +94,7 @@ OsmAnd vous permet de superposer des données cartographiques, par exemple des i
 
 ### Fonctionnalités idéales
 
-Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de ces fonctionnalités, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
+Nos critères optimaux représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de ces fonctionnalités, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
 - Etre open-source.
 - Possibilité de planifier des itinéraires en transport en commun.

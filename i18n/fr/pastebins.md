@@ -52,8 +52,8 @@ cover: pastebins.webp
 - Must implement "zero-trust" E2EE.
 - Doit prendre en charge les fichiers protégés par un mot de passe.
 
-### Dans le meilleur des cas
+### Critères optimaux
 
-Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
+Nos critères optimaux représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de ces fonctionnalités, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
 - Should have a published audit from a reputable, independent third party.

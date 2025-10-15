@@ -81,8 +81,8 @@ Malheureusement, en août 2024 Proton n'a [toujours](https://discuss.privacyguid
 
 - Doit synchroniser et stocker les informations avec E2EE pour s'assurer que les données ne sont pas visibles par le fournisseur de services.
 
-### Dans le meilleur des cas
+### Critères optimaux
 
-Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
+Nos critères optimaux représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de ces fonctionnalités, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
 - Doit s'intégrer aux applications natives de gestion des contacts et de calendrier du système d'exploitation, le cas échéant.

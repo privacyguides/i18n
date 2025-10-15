@@ -45,9 +45,9 @@ La majorité des plateformes de **documents collaboratifs** en ligne comme Googl
 - Doit permettre une collaboration sur un document en temps réel.
 - Doit prendre en charge l'exportation de documents vers des formats standards (comme ODF).
 
-### Dans le meilleur des cas
+### Critères optimaux
 
-Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
+Nos critères optimaux représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de ces fonctionnalités, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
 - Devrait permettre de stocker les fichiers dans un système de fichiers conventionnel.
 - Devrait prendre en charge l'authentification multifactorielle TOTP, FIDO2, ou les connexions passkey.

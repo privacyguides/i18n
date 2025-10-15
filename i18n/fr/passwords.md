@@ -2,7 +2,7 @@
 meta_title: "Les meilleurs gestionnaires de mots de passe pour protéger votre vie privée et votre sécurité - Privacy Guides"
 title: Gestionnaires de mots de passe
 icon: material/form-textbox-password
-description: Les gestionnaires de mots de passe vous permettent de stocker et gérer en toute sécurité vos mots de passe et autres identifiants.
+description: Les gestionnaires de mots de passe vous permettent de stocker et de gérer vos mots de passe et autres identifiants en toute sécurité.
 cover: passwords.webp
 schema:
   - 
@@ -62,7 +62,7 @@ schema:
       url: "./"
   - 
     "@context": http://schema.org
-    "@type": SoftwareApplication
+    "@type": ApplicationLogiciel
     name: Psono
     image: /assets/img/password-management/psono.svg
     url: https://psono.com
@@ -126,22 +126,22 @@ schema:
 - [:material-bug-outline: Attaques passives](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: Fournisseurs de service](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-Les **gestionnaires de mots de passe** vous permettent de stocker et de gérer en toute sécurité des mots de passe et autres identifiants à l'aide d'un mot de passe maître.
+Les **gestionnaires de mots de passe** vous permettent de stocker des mots de passe et autres identifiants et de les protèger avec mot de passe principal.
 
 [Introduction aux mots de passe :material-arrow-right-drop-circle:](basics/passwords-overview.md)
 
 <div class="admonition info" markdown>
 <p class="admonition-title">Info</p>
 
-Les gestionnaires de mots de passe intégrés dans des logiciels tels que les navigateurs et les systèmes d'exploitation ne sont parfois pas aussi performants que les logiciels de gestion de mots de passe dédiés. Un gestionnaire de mot de passe intégré présente l'avantage d'une bonne intégration avec le logiciel, mais il reste souvent très simple et peut manquer de fonctionnalités de confidentialité et de sécurité comparé aux autres offres.
+Les gestionnaires de mots de passe intégrés dans des logiciels tels que les navigateurs et les systèmes d'exploitation ne sont parfois pas aussi performants que les logiciels dédiés à la gestion de mots de passe. Un gestionnaire de mot de passe intégré présente l'avantage d'une bonne intégration avec le logiciel, mais il reste souvent très simple et peut manquer de fonctionnalités de confidentialité et de sécurité comparé aux autres offres.
 
 Par exemple, le gestionnaire de mot de passe de Microsoft Edge ne propose pas du tout de chiffrement de bout-en-bout. Le gestionnaire de mots de passe de Google a un chiffrement de bout en bout [optionnel](https://support.google.com/accounts/answer/11350823?hl=fr), et [celui d'Apple](https://support.apple.com/fr-fr/102651) le propose par défaut.
 
 </div>
 
-## Basé sur le cloud
+## Gestionnaires basés sur le cloud
 
-Ces gestionnaires de mots de passe synchronisent vos mots de passe sur un serveur cloud pour un accès facile à partir de tous vos appareils et une sécurité contre la perte d'appareils.
+Ces gestionnaires de mots de passe synchronisent vos mots de passe sur un serveur cloud pour un accès facile depuis tous vos appareils, ils vous permettent également de conserver et de protéger vos mots de passe en cas de perte ou de vol de votre appareil.
 
 ### Bitwarden
 
@@ -149,7 +149,7 @@ Ces gestionnaires de mots de passe synchronisent vos mots de passe sur un serveu
 
 ![Logo de Bitwarden](assets/img/password-management/bitwarden.svg){ align=right }
 
-**Bitwarden** est un gestionnaire de mots de passe et de clés de passe gratuit et open-source. Il vise à résoudre les problèmes de gestion des mots de passe pour les individus, les équipes et les organisations commerciales. Bitwarden est l'une des solutions les plus simples et les plus sûres pour stocker tous vos identifiants et mots de passe tout en les synchronisant de manière pratique entre tous vos appareils.
+**Bitwarden** est un gestionnaire de mots de passe et de passkeys libre et open-source. Il peut être utilisé par les particuliers, les collectifs ou les entreprises pour résoudre les problèmes de gestion des mots de passe. Bitwarden est l'une des solutions les plus simples et les plus sûres pour stocker tous vos identifiants et mots de passe tout en les synchronisant entre tous vos appareils.
 
 [:octicons-home-16: Page d'Accueil](https://bitwarden.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Politique de Confidentialité" }
@@ -175,7 +175,7 @@ Ces gestionnaires de mots de passe synchronisent vos mots de passe sur un serveu
 
 </div>
 
-Bitwarden utilise [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) en tant que fonction de dérivation de clef (Key Derivation Function, ou KDF) par défaut. Il vous permet également d'utiliser [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id), une alternative plus sécurisée. Vous pouvez changer l'algorithme KDF de votre compte via le coffre-fort web :
+Bitwarden utilise par défaut [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) en tant que fonction de dérivation de clef (Key Derivation Function, ou KDF). Il vous permet également d'utiliser [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id), une alternative plus sécurisée. Vous pouvez changer l'algorithme KDF de votre compte via le coffre-fort web :
 
 - [x] Sélectionnez **Réglages → Sécurité → Clefs → Algorithme KDF → Argon2id**
 
@@ -187,7 +187,7 @@ Le code côté serveur de Bitwarden est [open source](https://github.com/bitward
 
 ![Logo de Proton Pass](assets/img/password-management/protonpass.svg){ align=right }
 
-**Proton Pass** est un gestionnaire de mot de passe open-source chiffré de bout-en-bout développé par la même équipe que [Proton Mail](email.md#proton-mail). Il vous permet de stocker de façon sécurisée vos informations de connexion, de générer des alias mail uniques, il est compatible avec les passkeys.
+**Proton Pass** est un gestionnaire de mot de passe open-source chiffré de bout-en-bout développé par la même équipe que [Proton Mail](email.md#proton-mail). Il vous permet de stocker de façon sécurisée vos informations de connexion, de générer des alias mail uniques et il est compatible avec les passkeys.
 
 [:octicons-home-16: Page d'Accueil](https://proton.me/pass){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="Politique de Confidentialité" }
@@ -211,7 +211,7 @@ Le code côté serveur de Bitwarden est [open source](https://github.com/bitward
 
 En faisant l'acquisition de SimpleLogin en avril 2022, Proton offre la possibilité de créer 10 alias "cache-mon-email" pour la version gratuite et un nombre d'alias illimité pour les versions payantes.
 
-L'application mobile ainsi que l'extension de navigateur Proton Pass ont été audité par Cure53 entre mai et juin 2023. L'entreprise d'analyse de sécurité conclue :
+L'application mobile ainsi que l'extension de navigateur Proton Pass ont été auditées par Cure53 entre mai et juin 2023. L'entreprise d'analyse de sécurité conclue :
 
 > Les applications et les composants Proton Pass ont laissé une impression plutôt positive en termes de sécurité.
 
@@ -223,9 +223,9 @@ Toutes les failles détectées ont été résolues rapidement après la publicat
 
 [Logo de 1Password](assets/img/password-management/1password.svg){ align=right }
 
-**1Password** est un gestionnaire de mots de passe qui met l'accent sur la sécurité et la simplicité d'utilisation. Il vous permet de stocker vos mots de passe, cartes bancaires, passkeys, licences de logiciel et tout autre information sensible dans un coffre-fort numérique sécurisé. Vous pouvez payer des [frais mensuels](https://1password.com/sign-up) pour héberger votre coffre-fort sur les serveurs de 1Password.
+**1Password** est un gestionnaire de mots de passe qui met l'accent sur la sécurité et la simplicité d'utilisation. Il vous permet de stocker vos mots de passe, cartes bancaires, passkeys, licences de logiciel et tout autres informations sensibles dans un coffre-fort numérique sécurisé. Vous pouvez payer des [frais mensuels](https://1password.com/sign-up) pour héberger votre coffre-fort sur les serveurs de 1Password.
 
-1Password fait régulièrement l'objet [d'audits](https://support.1password.com/security-assessments) et propose un excellent service client. 1Password est closed source ; cependant, la sécurité du produit est documentée de manière approfondie dans leur [livre blanc sur la sécurité](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
+1Password fait régulièrement l'objet [d'audits](https://support.1password.com/security-assessments) et propose un excellent service client. 1Password est un logiciel propriétaire ; cependant, la sécurité du produit est documentée de manière approfondie dans leur [livre blanc sur la sécurité](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
 
 [:octicons-home-16: Page d'Accueil](https://1password.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="Politique de Confidentialité" }
@@ -249,9 +249,9 @@ Toutes les failles détectées ont été résolues rapidement après la publicat
 
 </div>
 
-Traditionnellement, 1Password offrait une meilleure expérience utilisateur en matière de gestion de mots de passe pour les personnes utilisant macOS et iOS ; cependant, il propose désormais les mêmes fonctionnalités sur toutes les plateformes. Les clients 1Password disposent de nombreuses fonctionnalités destinées aux familles et aux personnes moins techniques comme une interface utilisateur intuitive pour faciliter l'utilisation et la navigation, ainsi que des fonctionnalités avancées. Notamment, presque toutes les fonctionnalités de 1Password sont disponibles dans ses clients de bureau ou mobiles natifs.
+Traditionnellement, 1Password offrait une meilleure expérience utilisateur en matière de gestion de mots de passe pour les personnes utilisant macOS et iOS ; cependant, il propose désormais les mêmes fonctionnalités sur toutes les plateformes. 1Password propose de nombreuses fonctionnalités à destination des familles et des personnes moins à l'aise en informatique avec par exemple une interface utilisateur intuitive pour faciliter l'utilisation et la navigation, ainsi que des fonctionnalités avancées. Notamment, presque toutes les fonctionnalités de 1Password sont disponibles dans ses clients de bureau ou mobiles natifs.
 
-Votre coffre-fort 1Password est sécurisé à la fois par votre mot de passe principal et par une clé de sécurité aléatoire de 34 caractères pour chiffrer vos données sur leurs serveurs. Cette clé de sécurité ajoute une couche de protection à vos données, car celles-ci sont sécurisées par une entropie élevée, indépendamment de votre mot de passe principal. De nombreuses autres solutions de gestion des mots de passe dépendent entièrement de la force de votre mot de passe principal pour sécuriser vos données.
+Votre coffre-fort 1Password est sécurisé à la fois par votre mot de passe principal et par une clé de sécurité aléatoire de 34 caractères pour chiffrer vos données sur leurs serveurs. Cette clé de sécurité ajoute une couche de protection à vos données, car celles-ci sont sécurisées par une entropie élevée, indépendamment de votre mot de passe principal. La plupart des autres gestionnaires de mots de passe dépendent uniquement de la force de votre mot de passe principal pour sécuriser vos données.
 
 ### Psono
 
@@ -259,7 +259,7 @@ Votre coffre-fort 1Password est sécurisé à la fois par votre mot de passe pri
 
 ![Logo Psono](assets/img/password-management/psono.svg){ align=right }
 
-**Psono** est un gestionnaire de mots de passe gratuit et open source d'Allemagne, avec un accent sur la gestion des mots de passe pour les équipes. Il peut être [auto-hébergé](#password-management-servers). Psono prend en charge le partage sécurisé de mots de passe, de fichiers, de signets et d'e-mails.
+**Psono** est un gestionnaire de mots de passe libre et open source allemand, qui met l'accent sur la gestion des mots de passe pour les équipes. Psono vous permet de partager vos mots de passe, fichiers, marques page et vos mails de façon sécurisée. Tous les secrets sont protégés par un mot de passe principal.
 
 [:octicons-home-16: Page d'accueil](https://psono.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://psono.com/privacy-policy){ .card-link title="Politique de confidentialité" }
@@ -267,7 +267,7 @@ Votre coffre-fort 1Password est sécurisé à la fois par votre mot de passe pri
 [:octicons-code-16:](https://gitlab.com/psono){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
-<summary>Téléchargements</summary>
+<summary>Télécharger</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.psono.psono)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1545581224)
@@ -279,32 +279,32 @@ Votre coffre-fort 1Password est sécurisé à la fois par votre mot de passe pri
 
 </div>
 
-Psono fournit une documentation complète pour son produit. Le client web de Psono peut être hébergé par vous-même ; vous pouvez également choisir l'édition Community complète ou l'édition Enterprise avec des fonctionnalités supplémentaires.
+Psono fournit une documentation complète pour son produit. Le client web de Psono peut être autohébergé ; vous pouvez également choisir l'édition Community complète ou l'édition Enterprise avec des fonctionnalités supplémentaires.
 
 En avril 2024, Psono a ajouté la [prise en charge des passkeys](https://psono.com/blog/psono-introduces-passkeys) pour l'extension navigateur uniquement.
 
 ### Critères
 
-**Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de [nos critères de base](about/criteria.md), nous avons développé un ensemble d'exigences claires pour nous permettre de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
+**Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de [nos critères de base](about/criteria.md), nous avons développé un ensemble d'exigences clair pour nous permettre de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de faire votre choix, et de mener vos propres recherches pour vous assurer que ce choix correspond à vos besoins.
 
 #### Exigences minimales
 
-- Doit utiliser un système E2EE solide, basé sur des normes et moderne.
+- Doit utiliser un chiffrement de bout-en-bout fort basé sur des standards modernes.
 - Doit avoir des pratiques de chiffrement et de sécurité soigneusement documentées.
 - Doit disposer d'un audit publié par une tierce partie indépendante et réputée.
 - Toute télémétrie non essentielle doit être facultative.
-- Ne doit pas collecter plus de DPI que nécessaire à des fins de facturation.
+- Ne doit pas collecter plus de DPI que celles requises à des fins de facturation.
 
-#### Dans le meilleur des cas
+#### Critères optimaux
 
-Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
+Nos critères optimaux représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de ces fonctionnalités, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
 - La télémétrie devrait être optionnelle (désactivée par défaut) ou ne pas être collectée du tout.
 - Devrait être open source et raisonnablement auto-hébergeable.
 
-## Stockage local
+## Gestionnaires stockés localement
 
-Ces options vous permettent de gérer une base de données de mots de passe chiffrés localement.
+Ces options vous permettent de gérer localement une base de données de mots de passe chiffrée.
 
 ### KeePassXC
 
@@ -386,9 +386,9 @@ KeePassium est un gestionnaire de mot de passe open-source payant developpé par
 
 </div>
 
-KeePassium offers a [Premium version](https://keepassium.com/pricing) with additional features such as support for multiple databases, YubiKey support, and a password audit tool.
+La [version Premium](https://keepassium.com/pricing) de KeePassium donne accès à plus de fonctionnalités comme la prise en charge de plusieurs bases de données, la compatibilité avec YubiKey et un outil d'évaluation de sécurité pour les mots de passe.
 
-KeePassium's iOS app has been [audited](https://cure53.de/pentest-report_keepassium.pdf) by Cure53 in October 2024, and all [issues](https://keepassium.com/blog/2024/11/independent-security-audit-complete) found in the audit were subsequently fixed.
+L'application iOS de KeePassium a été [auditée](https://cure53.de/pentest-report_keepassium.pdf) en octobre 2024 par Cure53, et toutes les [failles](https://keepassium.com/blog/2024/11/independent-security-audit-complete) trouvées ont été résolues immédiatement.
 
 ### Gopass (CLI)
 

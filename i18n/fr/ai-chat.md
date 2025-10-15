@@ -180,9 +180,9 @@ Please note we are not affiliated with any of the projects we recommend. In addi
 - Must support GPU-powered, fast inference.
 - Must not require an internet connection.
 
-### Dans le meilleur des cas
+### Critères optimaux
 
-Our best-case criteria represent what we _would_ like to see from the perfect project in this category. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
+Our best-case criteria represent what we _would_ like to see from the perfect project in this category. Nos recommandations peuvent ne pas inclure tout ou partie de ces fonctionnalités, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
 - Should be easy to download and set up, e.g. with a one-click installation process.
 - Should have a built-in model downloader option.

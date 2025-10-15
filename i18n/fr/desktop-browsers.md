@@ -383,9 +383,9 @@ Le **Portefeuille Brave** fonctionne localement sur votre ordinateur, mais ne pr
 - Bloque les cookies tiers par défaut.
 - Doit prendre en charge le [partitionnement des états](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) afin d'atténuer le suivi intersites.[^1]
 
-### Dans le meilleur des cas
+### Critères optimaux
 
-Nos critères de cas idéal représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de cette fonctionnalité, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
+Nos critères optimaux représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de ces fonctionnalités, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
 - Doit inclure une fonctionnalité intégrée de blocage du contenu.
 - Supporte la compartimentation des cookies (à la [Account Containers](https://support.mozilla.org/kb/containers)).
