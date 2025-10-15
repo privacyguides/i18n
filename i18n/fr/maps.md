@@ -1,8 +1,8 @@
 ---
-meta_title: "Recommended Maps and Navigation Apps - Privacy Guides"
-title: Maps and Navigation
+meta_title: "Nos recommandations de cartes et d'applications de navigation - Privacy Guides"
+title: Cartes et Navigation
 icon: material/map
-description: Privacy-respecting map providers and navigation apps which don't build an advertising profile based on your searches and locations.
+description: Des cartes et des applications de navigation respectueuses de la vie privée qui n'utilisent pas vos données de recherche et de localisation pour établir un profil publicitaire.
 cover: maps.webp
 ---
 
@@ -10,15 +10,15 @@ cover: maps.webp
 
 - [:material-account-cash: Capitalisme de Surveillance](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-Use a **map and navigation app** that doesn't build an advertising profile based on your searches and location history. Instead of using Google Maps, Apple Maps, or Waze, we recommend these privacy-respecting alternatives.
+Utilisez **une carte et une application** de navigation respectueuses de la vie privée qui n'utilisent pas vos données de recherche et de localisation pour établir un profil publicitaire. A la place de Google Maps, Apple Maps ou Waze, nous vous recommandons ces alternatives respectueuses de la vie privée.
 
-Les recommandations formulées ici ne recueillent pas d'informations d'identification personnelle (IPI), conformément à la politique de confidentialité de chaque application. There is **no guarantee** that these privacy policies are honored.
+Les recommandations formulées ici ne recueillent pas d'informations d'identification personnelle (IPI), conformément à la politique de confidentialité de chaque application. Il n'y a cependant **aucune garantie** que ces politiques de confidentialité soient réellement respectées.
 
 ## Organic Maps
 
 <div class="admonition recommendation" markdown>
 
-![Organic Maps logo](assets/img/maps/organic-maps.svg){ align=right }
+![Logo de Organic Maps](assets/img/maps/organic-maps.svg){ align=right }
 
 **Organic Maps** is an open-source, community-developed map display and satnav-style navigation app for walkers, drivers, and cyclists. The app offers worldwide, offline maps based on OpenStreetMap data, and navigation with privacy — no location tracking, no data collection, and no ads. The app can be used completely offline.
 
