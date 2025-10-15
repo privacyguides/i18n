@@ -1,25 +1,25 @@
 ---
 title: "Téléphones portables"
 icon: material/cellphone-check
-description: These mobile devices provide the best hardware security support for custom Android operating systems.
+description: Les smartphones suivants possèdent la meilleure sécurité hardware pour les systèmes d'exploitation Android alternatifs (custom ROMs en anglais).
 cover: android.webp
 schema:
   - "@context": http://schema.org
     "@type": WebPage
-    name: Mobile Phone Recommendations
+    name: Recommandations de smartphones
     url: "./"
   - "@context": http://schema.org
-    "@type": Product
+    "@type": Article
     name: Pixel
     brand:
-      "@type": Brand
+      "@type": Marque
       name: Google
     image: /assets/img/android/google-pixel.png
     sameAs: https://en.wikipedia.org/wiki/Google_Pixel
     review:
-      "@type": Review
+      "@type": Avis
       author:
-        "@type": Organization
+        "@type": Organisation
         name: Privacy Guides
 robots: nofollow, max-snippet:-1, max-image-preview:large
 ---
@@ -27,28 +27,28 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 <small>Protège contre les menaces suivantes :</small>
 
 - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-bug-outline: Attaque passive](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-Most **mobile phones** receive short or limited windows of security updates from OEMs; after these devices reach the end of their support period, they **cannot** be considered secure as they no longer receive firmware or driver security updates.
+La plupart des fabricants d'équipement d'origine (OEM) fournissent des mises à jour de sécurité pour **smartphones** seulement sur une courte période ; une fois que ces appareils atteignent la fin de leur période de support logiciel, ils ne **peuvent plus** être considéré comme sécurisé, car ils ne reçoivent plus de mise à jour de sécurité pour leur micrologiciel ou leurs drivers (pilotes).
 
-The mobile devices listed here provide a long lifespan of guaranteed security updates and allow you to install a custom operating system without violating the Android security model.
+Les smartphones présentés ici reçoivent des mises à jour de sécurité pendant plus longtemps et vous permettent d'installer un système d'exploitation alternatif sans contrevenir au modèle de sécurité Android.
 
-[Recommended Android Distributions :material-arrow-right-drop-circle:](android/distributions.md){ .md-button .md-button--primary } [Details about Android Security :material-arrow-right-drop-circle:](os/android-overview.md#security-protections){ .md-button }
+[Recommandations de systèmes d'exploitation Android :material-arrow-right-drop-circle:](android/distributions.md){ .md-button .md-button--primary } [Détails sur la sécurité d'Android :material-arrow-right-drop-circle:](os/android-overview.md#security-protections){ .md-button }
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avertissement</p>
 
-End-of-life devices (such as GrapheneOS's "extended support" devices) do not have full security patches (firmware updates) due to the OEM discontinuing support. These devices cannot be considered completely secure regardless of installed software.
+Les appareils en fin de vie (comme les appareils à "support prolongé" de GrapheneOS) ne reçoivent pas de mise à jour complète de leur micrologiciel en raison de l'abandon de ces mises à jour par les OEM. Ces appareils ne peuvent pas être considérés comme totalement sécurisé, quel que soit le logiciel installé.
 
 </div>
 
-## Purchasing Advice
+## Conseil d'achat
 
-When purchasing a device, we recommend getting one as new as possible. The software and firmware of mobile devices are only supported for a limited time, so buying new extends that lifespan as much as possible.
+Lorsque vous achetez un appareil, nous vous recommandons d'en acheter un le plus neuf possible. Puisque le logiciel et le micrologiciel d'un appareil ne sont mis à jour que pendant une courte période, acheter un appareil neuf permet de profiter de celle-ci un maximum.
 
-Avoid buying phones from mobile network operators. These often have a **locked bootloader** and do not support [OEM unlocking](https://source.android.com/devices/bootloader/locking_unlocking). These phone variants will prevent you from installing any kind of alternative Android distribution.
+Évitez d'acheter des téléphones auprès des opérateurs de réseaux mobiles. Ces appareils ont souvent un **bootloader vérouillé** et ne permettent pas le [déverouillage OEM](https://source.android.com/devices/bootloader/locking_unlocking). Cette fonctionnalité vous empêchera totalement d'installer des versions alternatives d'Android.
 
-Be very **careful** about buying second hand phones from online marketplaces. Always check the reputation of the seller. If the device is stolen, there's a possibility of it being entered in the [IMEI database](https://gsma.com/get-involved/working-groups/terminal-steering-group/imei-database). There is also a risk involved with you being associated with the activity of the previous owner.
+Soyez particulièrement **vigilant** lorsque vous acheter un smartphone d'occasion en ligne. Vérifiez toujours la réputation du vendeur. Si l'appareil est volé, il peut être inscrit sur la [base de donnée IMEI](https://gsma.com/get-involved/working-groups/terminal-steering-group/imei-database). Dans certains cas, vous pouvez également vous retrouver associé aux agissements du précédent propriétaire.
 
 A few more tips regarding Android devices and operating system compatibility:
 
