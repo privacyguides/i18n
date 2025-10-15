@@ -20,13 +20,13 @@ Les recommandations formulées ici ne recueillent pas d'informations d'identific
 
 ![Logo de Organic Maps](assets/img/maps/organic-maps.svg){ align=right }
 
-**Organic Maps** is an open-source, community-developed map display and satnav-style navigation app for walkers, drivers, and cyclists. The app offers worldwide, offline maps based on OpenStreetMap data, and navigation with privacy — no location tracking, no data collection, and no ads. The app can be used completely offline.
+**Organic Maps** est une application open-source de navigation type GPS et de carte pour les marcheurs, cyclistes et conducteurs. L'application permet d'accéder à des cartes du monde entier basées sur les données OpenStreetMap, ainsi qu'une fonctionnalité de navigation respectueuse de la vie privée (pas de traçage de la localisation, pas de collecte de donnée, et pas de publicités). Cette application peut être utilisée hors-ligne.
 
-Features include cycling routes, hiking trails and walking paths, turn-by-turn navigation with voice guidance, and public transport route planning (only available in supported regions and cities).
+Parmi les fonctionnalités de l'application on retrouve les itinéraires cyclables, les chemins de randonnées et de promenade, la navigation tour par tour avec guidage vocal et la planification d'itinéraire en transport en communs (uniquement disponible pour certaines régions ou villes).
 
-[:octicons-home-16: Homepage](https://organicmaps.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://organicmaps.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-code-16:](https://github.com/organicmaps/organicmaps){ .card-link title="Source Code" }
+[:octicons-home-16: Page d'Accueil](https://organicmaps.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://organicmaps.app/privacy){ .card-link title="Politique de confidentialité" }
+[:octicons-code-16:](https://github.com/organicmaps/organicmaps){ .card-link title="Code Source" }
 
 <details class="downloads" markdown><summary>Téléchargements</summary>
 
@@ -39,20 +39,20 @@ Features include cycling routes, hiking trails and walking paths, turn-by-turn n
 
 </div>
 
-Please note that Organic Maps is a simple, basic app that lacks certain features many users might expect, such as satellite images, street view images, and real-time traffic information.
+Organic Maps reste une application assez basique, et ne propose pas certaines fonctionnalités avancées comme les images satellites, le street view ou les informations de traffic en temps réel.
 
 ## OsmAnd
 
 <div class="admonition recommendation" markdown>
 
-![OsmAnd logo](assets/img/maps/osmand.svg){ align=right }
+![Logo de OsmAnd](assets/img/maps/osmand.svg){ align=right }
 
-**OsmAnd** est une application de cartographie et de navigation hors ligne basée sur OpenStreetMap qui offre une navigation immersive pour la marche, le vélo, la conduite, ainsi que les transports publics. You can find a detailed overview of OsmAnd's supported [features](https://wiki.openstreetmap.org/wiki/OsmAnd#Features) on the OpenStreet Map Wiki.
+**OsmAnd** est une application de cartographie et de navigation hors ligne basée sur OpenStreetMap qui offre une navigation immersive pour la marche, le vélo, la conduite, ainsi que les transports publics. Vous pouvez trouver la liste détaillée des [fonctionnalités](https://wiki.openstreetmap.org/wiki/OsmAnd#Features) d'OsmAnd sur le wiki OpenStreetMap.
 
-[:octicons-home-16: Homepage](https://osmand.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://osmand.net/docs/legal/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://osmand.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://osmand.net/docs/legal/privacy-policy){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://osmand.net/docs/intro){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/osmandapp){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/osmandapp){ .card-link title="Code Source" }
 
 <details class="downloads" markdown><summary>Téléchargements</summary>
 
