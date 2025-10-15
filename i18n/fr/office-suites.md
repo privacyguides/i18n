@@ -9,24 +9,24 @@ cover: office-suites.webp
 
 - [:material-server-network: Fournisseurs de Services](basics/common-threats.md#privacy-from-service-providers){ .pg-teal }
 
-Choose an **office suite** that does not require logging in to an account to access its full functionality. The tools listed here can be used offline and could reasonably act as a replacement for Microsoft Office for most needs.
+Choisissez une **suite bureautique** qui ne nécessite pas de compte pour débloquer toutes les fonctionnalités. Les outils ci-dessous peuvent être utilisés hors-ligne et peuvent tout à fait remplacer Microsoft Office pour la majorité des besoins.
 
 ## LibreOffice
 
 <div class="admonition recommendation" markdown>
 
-![LibreOffice logo](assets/img/office-suites/libreoffice.svg){ align=right }
+![Logo de LibreOffice](assets/img/office-suites/libreoffice.svg){ align=right }
 
-**LibreOffice** is a free and open-source office suite with extensive functionality.
+**LibreOffice** est une suite bureautique libre et open-source dotée de nombreuse fonctionnalités.
 
-[:octicons-home-16: Homepage](https://libreoffice.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://libreoffice.org/about-us/privacy/privacy-policy-en){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://libreoffice.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://libreoffice.org/about-us/privacy/privacy-policy-en){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://documentation.libreoffice.org/en/english-documentation){ .card-link title=Documentation}
-[:octicons-code-16:](https://libreoffice.org/about-us/source-code){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://libreoffice.org/donate){ .card-link title=Contribute }
+[:octicons-code-16:](https://libreoffice.org/about-us/source-code){ .card-link title="Code Source" }
+[:octicons-heart-16:](https://libreoffice.org/donate){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:simple-googleplay: Google Play](https://libreoffice.org/download/android-and-ios)
 - [:simple-appstore: App Store](https://libreoffice.org/download/android-and-ios)
@@ -43,17 +43,17 @@ Choose an **office suite** that does not require logging in to an account to acc
 
 <div class="admonition recommendation" markdown>
 
-![OnlyOffice logo](assets/img/office-suites/onlyoffice.svg){ align=right }
+![Logo de OnlyOffice](assets/img/office-suites/onlyoffice.svg){ align=right }
 
-**OnlyOffice** is a cloud-based free and open-source office suite with extensive functionality, including integration with Nextcloud.
+**OnlyOffice** est une suite bureautique libre et open-source basée sur le cloud qui possède de nombreuses fonctionnalités, dont une intégration avec Nextcloud.
 
-[:octicons-home-16: Homepage](https://onlyoffice.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://onlyoffice.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://help.onlyoffice.com/products/files/doceditor.aspx?fileid=5048502&doc=SXhWMEVzSEYxNlVVaXJJeUVtS0kyYk14YWdXTEFUQmRWL250NllHNUFGbz0_IjUwNDg1MDIi0){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://helpcenter.onlyoffice.com/userguides.aspx){ .card-link title=Documentation}
-[:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/ONLYOFFICE){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onlyoffice.documents)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id944896972)
@@ -68,10 +68,10 @@ Choose an **office suite** that does not require logging in to an account to acc
 
 ## Critères
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
+**Nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de nos [critères de base](about/criteria.md), nous avons développé un ensemble d'exigences clair pour nous permettre de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de faire votre choix, et de mener vos propres recherches pour vous assurer que ce choix correspond à vos besoins.
 
-- Doit être multiplateforme.
+- Dois être multiplateforme.
 - Dois être un logiciel open source.
-- Must function offline.
-- Must support editing documents, spreadsheets, and slideshows.
-- Must export files to standard document formats.
+- Dois pouvoir fonctionner hors-ligne.
+- Dois permettre de modifier des documents, des feuilles de calcul et des diaporamas.
+- Dois permettre d'exporter les fichiers dans des formats de document standards.

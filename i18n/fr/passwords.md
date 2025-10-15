@@ -133,9 +133,9 @@ Les **gestionnaires de mots de passe** vous permettent de stocker et de gérer e
 <div class="admonition info" markdown>
 <p class="admonition-title">Info</p>
 
-Les gestionnaires de mots de passe intégrés dans des logiciels tels que les navigateurs et les systèmes d'exploitation ne sont parfois pas aussi performants que les logiciels de gestion de mots de passe dédiés. The advantage of a built-in password manager is good integration with the software, but it can often be very simple and lack privacy and security features that standalone offerings have.
+Les gestionnaires de mots de passe intégrés dans des logiciels tels que les navigateurs et les systèmes d'exploitation ne sont parfois pas aussi performants que les logiciels de gestion de mots de passe dédiés. Un gestionnaire de mot de passe intégré présente l'avantage d'une bonne intégration avec le logiciel, mais il reste souvent très simple et peut manquer de fonctionnalités de confidentialité et de sécurité comparé aux autres offres.
 
-For example, the password manager in Microsoft Edge doesn't offer end-to-end encryption at all. Le gestionnaire de mots de passe de Google a un chiffrement de bout en bout [optionnel](https://support.google.com/accounts/answer/11350823?hl=fr), et [celui d'Apple](https://support.apple.com/fr-fr/102651) le propose par défaut.
+Par exemple, le gestionnaire de mot de passe de Microsoft Edge ne propose pas du tout de chiffrement de bout-en-bout. Le gestionnaire de mots de passe de Google a un chiffrement de bout en bout [optionnel](https://support.google.com/accounts/answer/11350823?hl=fr), et [celui d'Apple](https://support.apple.com/fr-fr/102651) le propose par défaut.
 
 </div>
 
@@ -151,13 +151,13 @@ Ces gestionnaires de mots de passe synchronisent vos mots de passe sur un serveu
 
 **Bitwarden** est un gestionnaire de mots de passe et de clés de passe gratuit et open-source. Il vise à résoudre les problèmes de gestion des mots de passe pour les individus, les équipes et les organisations commerciales. Bitwarden est l'une des solutions les plus simples et les plus sûres pour stocker tous vos identifiants et mots de passe tout en les synchronisant de manière pratique entre tous vos appareils.
 
-[:octicons-home-16: Homepage](https://bitwarden.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://bitwarden.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://bitwarden.com/privacy){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://bitwarden.com/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/bitwarden){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1137397744)
@@ -175,9 +175,9 @@ Ces gestionnaires de mots de passe synchronisent vos mots de passe sur un serveu
 
 </div>
 
-Bitwarden uses [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) as its key derivation function (KDF) algorithm by default. It also offers [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id), which is more secure, as an alternative. You can change your account's KDF algorithm in the web vault:
+Bitwarden utilise [PBKDF2](https://bitwarden.com/help/kdf-algorithms/#pbkdf2) en tant que fonction de dérivation de clef (Key Derivation Function, ou KDF) par défaut. Il vous permet également d'utiliser [Argon2](https://bitwarden.com/help/kdf-algorithms/#argon2id), une alternative plus sécurisée. Vous pouvez changer l'algorithme KDF de votre compte via le coffre-fort web :
 
-- [x] Select **Settings → Security → Keys → KDF algorithm → Argon2id**
+- [x] Sélectionnez **Réglages → Sécurité → Clefs → Algorithme KDF → Argon2id**
 
 Le code côté serveur de Bitwarden est [open source](https://github.com/bitwarden/server), donc si vous ne voulez pas utiliser le cloud Bitwarden, vous pouvez facilement héberger votre propre serveur de synchronisation Bitwarden.
 
@@ -185,17 +185,17 @@ Le code côté serveur de Bitwarden est [open source](https://github.com/bitward
 
 <div class="admonition recommendation" markdown>
 
-![Proton Pass logo](assets/img/password-management/protonpass.svg){ align=right }
+![Logo de Proton Pass](assets/img/password-management/protonpass.svg){ align=right }
 
-**Proton Pass** is an open-source, end-to-end encrypted password manager developed by Proton, the team behind [Proton Mail](email.md#proton-mail). It securely stores your login credentials, generates unique email aliases, and supports and stores passkeys.
+**Proton Pass** est un gestionnaire de mot de passe open-source chiffré de bout-en-bout développé par la même équipe que [Proton Mail](email.md#proton-mail). Il vous permet de stocker de façon sécurisée vos informations de connexion, de générer des alias mail uniques, il est compatible avec les passkeys.
 
-[:octicons-home-16: Homepage](https://proton.me/pass){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://proton.me/pass){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://proton.me/pass/privacy-policy){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://proton.me/support/pass){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/protonpass){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/protonpass){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=proton.android.pass)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id6443490629)
@@ -209,13 +209,13 @@ Le code côté serveur de Bitwarden est [open source](https://github.com/bitward
 
 </div>
 
-With the acquisition of SimpleLogin in April 2022, Proton has offered a "hide-my-email" feature that lets you create 10 aliases (free plan) or unlimited aliases (paid plans).
+En faisant l'acquisition de SimpleLogin en avril 2022, Proton offre la possibilité de créer 10 alias "cache-mon-email" pour la version gratuite et un nombre d'alias illimité pour les versions payantes.
 
-The Proton Pass mobile apps and browser extension underwent an audit performed by Cure53 throughout May and June 2023. The security analysis company concluded:
+L'application mobile ainsi que l'extension de navigateur Proton Pass ont été audité par Cure53 entre mai et juin 2023. L'entreprise d'analyse de sécurité conclue :
 
-> Proton Pass apps and components leave a rather positive impression in terms of security.
+> Les applications et les composants Proton Pass ont laissé une impression plutôt positive en termes de sécurité.
 
-All issues were addressed and fixed shortly after the [report](https://res.cloudinary.com/dbulfrlrz/images/v1707561557/wp-pme/Cure53-proton-pass-20230717/Cure53-proton-pass-20230717.pdf).
+Toutes les failles détectées ont été résolues rapidement après la publication du [rapport](https://res.cloudinary.com/dbulfrlrz/images/v1707561557/wp-pme/Cure53-proton-pass-20230717/Cure53-proton-pass-20230717.pdf).
 
 ### 1Password
 
