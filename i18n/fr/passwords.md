@@ -120,7 +120,7 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protège contre les menaces suivantes :</small>
 
 - [:material-target-account: Attaques ciblées](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 - [:material-bug-outline: Attaques passives](basics/common-threats.md#security-and-privacy ""){.pg-orange}

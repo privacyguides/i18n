@@ -6,7 +6,7 @@ icon: material/bank-circle
 cover: cryptocurrency.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protège contre les menaces suivantes :</small>
 
 - [:material-eye-outline: Surveillance de masse](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-close-outline: Censure](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}

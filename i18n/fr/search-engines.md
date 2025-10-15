@@ -10,7 +10,7 @@ global:
     - "table tbody"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Protège contre les menaces suivantes :</small>
 
 - [:material-account-cash: Capitalisme de surveillance](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
