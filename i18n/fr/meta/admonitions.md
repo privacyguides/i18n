@@ -215,7 +215,7 @@ This is a special type of collapsible admonition which is used to generate secti
 <div class="result" markdown>
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)

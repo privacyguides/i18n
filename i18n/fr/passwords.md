@@ -310,7 +310,7 @@ Ces options vous permettent de gérer localement une base de données de mots de
 
 <div class="admonition recommendation" markdown>
 
-![Logo KeePassXC](assets/img/password-management/keepassxc.svg){ align=right }
+![Logo de KeePassXC](assets/img/password-management/keepassxc.svg){ align=right }
 
 **KeePassXC** est un fork communautaire de KeePassX, un portage natif multiplateforme de KeePass Password Safe, dans le but de l'étendre et de l'améliorer avec de nouvelles fonctionnalités et des corrections de bugs afin de fournir un gestionnaire de mots de passe open-source riche en fonctionnalités, multiplateforme et moderne.
 
@@ -321,7 +321,7 @@ Ces options vous permettent de gérer localement une base de données de mots de
 [:octicons-heart-16:](https://keepassxc.org/donate){ .card-link title="Contribuer" }
 
 <details class="downloads" markdown>
-<summary>Téléchargements</summary>
+<summary>Télécharger</summary>
 
     - [:fontawesome-brands-windows: Windows](https://keepassxc.org/download/#windows)
     - [:simple-apple: macOS](https://keepassxc.org/download/#mac)
@@ -340,7 +340,7 @@ KeePassXC stocke ses données d'exportation sous forme de fichiers [CSV](https:/
 
 <div class="admonition recommendation" markdown>
 
-![Logo KeePassDX](assets/img/password-management/keepassdx.svg){ align=right }
+![Logo de KeePassDX](assets/img/password-management/keepassdx.svg){ align=right }
 
 **KeePassDX** est un gestionnaire de mots de passe léger pour Android ; il permet de modifier des données chiffrées dans un seul fichier au format KeePass et de remplir les formulaires de manière sécurisée.
 
@@ -350,7 +350,7 @@ KeePassXC stocke ses données d'exportation sous forme de fichiers [CSV](https:/
 [:octicons-heart-16:](https://keepassdx.com/#donation){ .card-link title=Contribuer }
 
 <details class="downloads" markdown>
-<summary>Téléchargements</summary>
+<summary>Télécharger</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free)
 - [:simple-github: GitHub](https://github.com/Kunzisoft/KeePassDX/releases)
@@ -367,7 +367,7 @@ La [version pro](https://play.google.com/store/apps/details?id=com.kunzisoft.kee
 
 ![Logo de KeePassium](assets/img/password-management/keepassium.svg){ align=right }
 
-KeePassium est un gestionnaire de mot de passe open-source payant developpé par KeePassium Labs et compatible avec les autres applications KeePass. Il permet de remplir automatiquement vos identifiants, de gérer vos passkeys, il est également compatible avec la synchronisation bidirectionnelle automatique via [la plupart des fournisseurs de cloud](https://support.keepassium.com/kb/sync), et bien d'autre.
+KeePassium est un gestionnaire de mot de passe open-source payant développé par KeePassium Labs et compatible avec les autres applications KeePass. Il permet de remplir automatiquement vos identifiants, de gérer vos passkeys, il est également compatible avec la synchronisation bidirectionnelle automatique via [la plupart des fournisseurs de cloud](https://support.keepassium.com/kb/sync), et bien d'autre.
 
 [:material-star-box: Notre dernier avis de KeePassium](https://www.privacyguides.org/articles/2025/05/13/keepassium-review)
 
@@ -394,17 +394,17 @@ L'application iOS de KeePassium a été [auditée](https://cure53.de/pentest-rep
 
 <div class="admonition recommendation" markdown>
 
-![Logo Gopass](assets/img/password-management/gopass.svg){ align=right }
+![Logo de Gopass](assets/img/password-management/gopass.svg){ align=right }
 
 **Gopass** est un gestionnaire de mot de passe minimal pour la ligne de commande écrit en Go. Il peut être utilisé dans les applications de scripting et fonctionne sur tous les principaux systèmes d'exploitation de bureau et de serveur.
 
-[:octicons-home-16: Homepage](https://gopass.pw){ .md-button .md-button--primary }
+[:octicons-home-16: Page d'Accueil](https://gopass.pw){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/gopasspw/gopass/tree/master/docs){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/gopasspw/gopass){ .card-link title="Code source" }
 [:octicons-heart-16:](https://github.com/sponsors/dominikschulz){ .card-link title="Contribuer" }
 
 <details class="downloads" markdown>
-<summary>Téléchargements</summary>
+<summary>Télécharger</summary>
 
 - [:fontawesome-brands-windows: Windows](https://gopass.pw/#install-windows)
 - [:simple-apple: macOS](https://gopass.pw/#install-macos)
@@ -417,6 +417,6 @@ L'application iOS de KeePassium a été [auditée](https://cure53.de/pentest-rep
 
 ### Critères
 
-**Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de [nos critères de base](about/criteria.md), nous avons développé un ensemble d'exigences claires pour nous permettre de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
+**Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de [nos critères de base](about/criteria.md), nous avons développé un ensemble d'exigences claires pour nous permettre de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de faire votre choix, et de mener vos propres recherches pour vous assurer que celui-ci correspond bien à vos besoins.
 
 - Doit être multiplateforme.
