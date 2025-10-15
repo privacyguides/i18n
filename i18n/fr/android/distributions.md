@@ -64,7 +64,7 @@ Si vous voulez cacher ce type d'information à une personne en particulier sur v
 
 **Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de [nos critères de base](../about/criteria.md), nous avons développé un ensemble d'exigences claires pour nous permettre de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
 
-- Doit être un logiciel open source.
+- Dois être un logiciel open source.
 - Doit prendre en charge le verrouillage du chargeur d'amorçage avec prise en charge d'une clé AVB personnalisée.
 - Doit recevoir les mises à jour majeures d'Android dans le mois suivant leur sortie.
 - Doit recevoir les mises à jour des fonctionnalités d'Android (version mineure) dans les deux semaines après leur sortie.

@@ -1,7 +1,7 @@
 ---
 title: "Agrégateurs d'actualités"
 icon: material/rss
-description: Ces logiciels d'agrégation d'actualités vous permettent de suivre vos blogs et sites d'information préférés en utilisant des normes internet telles que RSS.
+description: Ces clients d'agrégation d'actualités vous permettent de suivre vos blogs et sites d'information préférés en utilisant des normes internet telles que RSS.
 cover: news-aggregators.webp
 ---
 
@@ -19,7 +19,7 @@ Un **agrégateur d'actualités** est un logiciel qui regroupe en un seul endroit
 
 ![Logo de Akregator](assets/img/news-aggregators/akregator.svg){ align=right }
 
-**Akregator** est un lecteur de flux d'actualités qui fait partie du projet [KDE](https://kde.org). Parmi ses fonctionnalités, on peut trouver la recherche rapide de contenu, un système d'archivage avancé ainsi qu'un navigateur interne pour facilement lire les actualités.
+**Akregator** est un lecteur de flux d'actualités qui fait partie du projet [KDE](https://kde.org). Parmi ses fonctionnalités, on peut retrouver la recherche rapide de contenu, un système d'archivage avancé ainsi qu'un navigateur interne pour facilement lire les actualités.
 
 [:octicons-home-16: Page d'Accueil](https://apps.kde.org/akregator){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://kde.org/privacypolicy-apps){ .card-link title="Politique de Confidentialité" }
@@ -42,7 +42,7 @@ Un **agrégateur d'actualités** est un logiciel qui regroupe en un seul endroit
 
 ![Logo de NewsFlash](assets/img/news-aggregators/newsflash.png){ align=right }
 
-**NewsFlash** est un lecteur de flux d'actualité open-source, moderne et facile d'utilisation pour Linux. Il peut être utilisé hors-ligne ou en combinaison avec des services comme [Inoreader](https://inoreader.com) ou [Nextcloud](https://apps.nextcloud.com/apps/news). Il possède une fonction de recherche et une liste prédéfinie de sources qui peuvent être ajoutées directement.
+**NewsFlash** est un lecteur de flux d'actualité pour Linux open-source, moderne et facile d'utilisation. Il peut être utilisé hors-ligne ou en combinaison avec des services comme [Inoreader](https://inoreader.com) ou [Nextcloud](https://apps.nextcloud.com/apps/news). Il possède une fonction de recherche et une liste prédéfinie de sources qui peuvent être ajoutées directement.
 
 [:octicons-repo-16: Dépôt](https://gitlab.com/news-flash/news_flash_gtk#newsflash){ .md-button .md-button--primary }
 [:octicons-code-16:](https://gitlab.com/news-flash/news_flash_gtk){ .card-link title="Code Source" }
@@ -102,19 +102,19 @@ Il est compatible avec [RSS](https://en.wikipedia.org/wiki/RSS), [Atom](https://
 
 <div class="admonition recommendation" markdown>
 
-![NetNewsWire logo](assets/img/news-aggregators/netnewswire.png){ align=right }
+![Logo de NetNewsWire](assets/img/news-aggregators/netnewswire.png){ align=right }
 
-**NetNewsWire** is a free and open-source feed reader for macOS and iOS with a focus on a native design and feature set.
+**NetNewsWire** est un lecteur de flux libre et open-source pour macOS et iOS qui porte une attention particulière à un design et un ensemble de fonctionnalités natifs.
 
-It supports conventional feed formats and includes built-in support for Reddit feeds.
+Il est compatible avec les formats de flux standards et inclus un support intégré pour les flux Reddit.
 
-[:octicons-home-16: Homepage](https://netnewswire.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://netnewswire.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://netnewswire.com/privacypolicy){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://netnewswire.com/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/Ranchero-Software/NetNewsWire){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1480640210)
 - [:simple-apple: macOS](https://netnewswire.com)
@@ -127,35 +127,35 @@ It supports conventional feed formats and includes built-in support for Reddit f
 
 <div class="admonition recommendation" markdown>
 
-![Logo Newsboat](assets/img/news-aggregators/newsboat.svg){ align=right }
+![Logo de Newsboat](assets/img/news-aggregators/newsboat.svg){ align=right }
 
-**Newsboat** est un lecteur de flux RSS/Atom pour les consoles texte. C'est un fork activement maintenu de [Newsbeuter](https://fr.wikipedia.org/wiki/Newsbeuter). It is very lightweight and ideal for use over [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
+**Newsboat** est un lecteur de flux RSS/Atom pour les consoles texte. C'est un fork activement maintenu de [Newsbeuter](https://fr.wikipedia.org/wiki/Newsbeuter). Il est extrêmement léger et parfaitement adapté à une utilisation via [Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell).
 
-[:octicons-home-16: Homepage](https://newsboat.org){ .md-button .md-button--primary }
+[:octicons-home-16: Page d'Accueil](https://newsboat.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://newsboat.org/releases/2.38/docs/newsboat.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/newsboat/newsboat){ .card-link title="Code Source" }
 
 </div>
 
 ## Critères
 
-**Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de [nos critères de base](about/criteria.md), nous avons développé un ensemble d'exigences claires pour nous permettre de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
+**Veuillez noter que nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de [nos critères de base](about/criteria.md), nous avons développé un ensemble d'exigences claires pour nous permettre de fournir des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de faire votre choix, et de mener vos propres recherches pour vous assurer que ce choix correspond bien à vos besoins.
 
-- Doit être un logiciel open source.
-- Doit fonctionner localement, c'est-à-dire qu'il ne doit pas s'agir d'un service cloud.
+- Dois être un logiciel open source.
+- Dois fonctionner localement, c'est-à-dire qu'il ne doit pas s'agir d'un service cloud.
 
-## Support RSS pour les médias sociaux
+## Support RSS pour les réseaux sociaux
 
-Some social media services also support RSS, although it's not often advertised.
+Certains réseaux sociaux utilisent également les flux RSS, mais n'en font que rarement la publicité.
 
 ### Reddit
 
-Reddit allows you to subscribe to Subreddits via RSS.
+Vous pouvez vous abonner à un subreddit via RSS.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example</p>
+<p class="admonition-title">Exemple</p>
 
-Replace `[SUBREDDIT]` with the Subreddit you wish to subscribe to.
+Remplacez `[SUBREDDIT]` par le subreddit auquel vous souhaitez vous abonner.
 
 ```text
 https://reddit.com/r/[SUBREDDIT]/new/.rss
@@ -165,12 +165,12 @@ https://reddit.com/r/[SUBREDDIT]/new/.rss
 
 ### YouTube
 
-You can subscribe to YouTube channels without logging in and associating usage information with your Google account.
+Vous pouvez vous abonner à une chaine YouTube sans vous connecter et sans associer vos données d'utilisation avec votre compte Google.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example</p>
+<p class="admonition-title">Exemple</p>
 
-Pour s'abonner à une chaîne YouTube avec un client RSS, cherchez d'abord son [code de chaîne](https://support.google.com/youtube/answer/6180214). The channel code can be found in the expanded description (i.e., the "About" section) of the YouTube channel you wish to subscribe to: **About** → **Share channel** → **Copy channel ID**. Replace `[CHANNEL ID]` below:
+Pour s'abonner à une chaîne YouTube avec un client RSS, cherchez d'abord son [code de chaîne](https://support.google.com/youtube/answer/6180214). Le code de chaîne est trouvable dans la description complète (c'est-à-dire, dans la section "A propos") de la chaîne YouTube à laquelle vous souhaitez vous abonner : **A propos** → **Partager la chaîne** → **Copier l'identifiant de chaîne**. Ci-dessous, remplacer `[CHANNEL ID]` par l'identifiant de la chaîne que vous souhaitez suivre :
 
 ```text
 https://youtube.com/feeds/videos.xml?channel_id=[CHANNEL ID]

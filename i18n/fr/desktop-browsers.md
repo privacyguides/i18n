@@ -375,7 +375,7 @@ Le **Portefeuille Brave** fonctionne localement sur votre ordinateur, mais ne pr
 
 ### Exigences minimales
 
-- Doit être un logiciel open source.
+- Dois être un logiciel open source.
 - Doit prendre en charge les mises à jour automatiques.
 - Doit recevoir les mises à jour du moteur dans un délai de 0 à 1 jour à compter de la publication en amont.
 - Doit être disponible sur Linux, macOS et Windows.
