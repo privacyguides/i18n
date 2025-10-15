@@ -50,41 +50,41 @@ Lorsque vous achetez un appareil, nous vous recommandons d'en acheter un le plus
 
 Soyez particulièrement **vigilant** lorsque vous acheter un smartphone d'occasion en ligne. Vérifiez toujours la réputation du vendeur. Si l'appareil est volé, il peut être inscrit sur la [base de donnée IMEI](https://gsma.com/get-involved/working-groups/terminal-steering-group/imei-database). Dans certains cas, vous pouvez également vous retrouver associé aux agissements du précédent propriétaire.
 
-A few more tips regarding Android devices and operating system compatibility:
+Quelques conseils supplémentaires en termes de sécurité sur Android et de compatibilité des systèmes d'exploitation :
 
-- Do not buy devices that have reached or are near their end-of-life; additional firmware updates must be provided by the manufacturer.
-- Do not buy preloaded LineageOS or /e/ OS phones or any Android phones without proper [Verified Boot](https://source.android.com/security/verifiedboot) support and firmware updates. These devices also have no way for you to check whether they've been tampered with.
-- In short, if a device is not listed here, there is probably a good reason. Check out our [forum](https://discuss.privacyguides.net) to find details!
+- N'achetez pas des appareils en fin de vie ; l'appareil doit pouvoir bénéficier des mises à jour du fabricant.
+- N'achetez pas de smartphone préinstallé avec  LineageOS ou /e/OS ou tout autre smartphone Android qui ne propose pas le [démarrage validé (ou verified boot)](https://source.android.com/security/verifiedboot)et les mises à jour micrologiciel. Ces appareils ne vous permettent pas de vous assurer de leur fiabilité.
+- En bref, si un appareil n'apparait pas sur cette liste, c'est probablement pour une bonne raison. Consultez notre [forum](https://discuss.privacyguides.net) pour plus de détails !
 
 ## Google Pixel
 
-Google Pixel phones are the **only** devices we recommend for purchase. Pixel phones have stronger hardware security than any other Android devices currently on the market, due to proper AVB support for third-party operating systems and Google's custom [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) security chips acting as the Secure Element.
+Les téléphones Google Pixel sont les **seuls** smatphones que nous vous recommandons d'acheter. Les smartphones Pixel possèdent la meilleure sécurité hardware de tous les téléphones Android actuellement sur le marché, en raison de la compatibilité de leur AVB avec les systèmes d'exploitation alternatifs et de leur puce de sécurité [Titan](https://security.googleblog.com/2021/10/pixel-6-setting-new-standard-for-mobile.html) personnalisée par Google qui sert de Composant Sécurisé (Secure Element).
 
 <div class="admonition recommendation" markdown>
 
 ![Google Pixel 6](assets/img/android/google-pixel.png){ align=right }
 
-**Google Pixel** devices are known to have good security and properly support [Verified Boot](https://source.android.com/security/verifiedboot), even when installing custom operating systems.
+Les appareils **Google Pixel** sont connus pour avoir une bonne sécurité et pour leur meilleure compatibilité avec le [Démarrage Vérifié](https://source.android.com/security/verifiedboot), même en y installant un système d'exploitation alternatif.
 
-Beginning with the **Pixel 8** and **8 Pro**, Pixel devices receive a minimum of 7 years of guaranteed security updates, ensuring a much longer lifespan compared to the 2-5 years competing OEMs typically offer.
+À partir des **Pixel 8** et **8 Pro**, les Pixels donne la garantie de recevoir des mises à jour de sécurité pendant 7 ans, leur offrant donc une meilleure durée de vie en comparaison avec les OEM concurrents dont le support logiciel est généralement compris entre 2 et 5 ans.
 
-[:material-shopping: Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
+[:material-shopping: Google Store](https://store.google.com/category/phones){ .md-button .md-button--primary }
 
 </div>
 
-Secure Elements like the Titan M2 are more limited than the processor's Trusted Execution Environment used by most other phones as they are only used for secrets storage, hardware attestation, and rate limiting, not for running "trusted" programs. Phones without a Secure Element have to use the TEE for _all_ of those functions, resulting in a larger attack surface.
+Les Composants Sécurisés comme le Titan M2 sont plus limités que les Environnements d'Exécution Sécurisés (Trusted Execution Environment, ou TEE) des processeurs utilisés par la plupart des autres smartphones ils sont utilisés uniquement pour le stockage secret, l'authentification hardware, et la limitation du débit (rate limiting), et non pour l'exécution de programmes "de confiance". Les smartphones qui ne possèdent pas de Composant Sécurisé doivent utiliser le TEE pour _toutes_ ces fonctions, laissant ainsi une surface d'attaque plus importante.
 
-Google Pixel phones use a TEE OS called Trusty which is [open source](https://source.android.com/security/trusty#whyTrusty), unlike many other phones.
+Les Pixels utilisent un système d'exploitation particulier pour le TEE appelé Trusty qui, contrairement à beaucoup d'autres téléphones, est [open source](https://source.android.com/security/trusty#whyTrusty).
 
-The installation of GrapheneOS on a Pixel phone is easy with their [web installer](https://grapheneos.org/install/web). If you don't feel comfortable doing it yourself and are willing to spend a bit of extra money, check out the [NitroPhone](https://shop.nitrokey.com/shop) as they come preloaded with GrapheneOS from the reputable [Nitrokey](https://nitrokey.com/about) company.
+L'installation de GrapheneOS sur un Pixel est très simple grâce à leur [web installer](https://grapheneos.org/install/web)(en anglais uniquement, mais des tutoriels en français sont facilement trouvables). Si vous n'êtes pas à l'aise à l'idée de le faire vous-même et si vous pouvez vous permettre de dépenser un peu plus d'argent, vous pouvez investir dans un [NitroPhone](https://shop.nitrokey.com/shop) préinstallés avec GrapheneOS, vendu par l'entreprise réputée, [Nitrokey](https://nitrokey.com/about).
 
-A few more tips for purchasing a Google Pixel:
+Quelques conseils supplémentaires :
 
-- If you're after a bargain on a Pixel device, we suggest buying an "**a**" model, just after the next flagship is released. Discounts are usually available because Google will be trying to clear their stock.
-- Consider price beating options and specials offered at physical stores.
-- Look at online community bargain sites in your country. These can alert you to good sales.
-- Google provides a list showing the [support cycle](https://support.google.com/nexus/answer/4457705) for each one of their devices. The price per day for a device can be calculated as: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext>Cost</mtext> <mrow> <mtext>End of Life Date</mtext> <mo>−</mo> <mtext>Current Date</mtext> </mrow> </mfrac> </math>
-  , meaning that the longer use of the device the lower cost per day.
+- Pour profiter d'une bonne affaire, vous pouvez essayer d'acheter un modèle "**a**" juste après la sortie d'un nouveau modèle. Google propose souvent des réductions afin de vider leurs stocks.
+- Chercher les meilleures offres ou les réductions spéciales proposées dans les magasins physiques.
+- Consultez régulièrement les sites communautaires de bonnes affaires de votre région. Ils peuvent vous informer en cas de réductions intéressantes.
+- Google fourni une liste complète du [cycle de support](https://support.google.com/nexus/answer/4457705) de chacun de leurs modèles. Le coût journalier d'un appareil peut être calculé comme suit : <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext>Coût</mtext> <mrow> <mtext>Date de fin de vie</mtext> <mo>−</mo> <mtext>Date du jour</mtext> </mrow> </mfrac> </math>
+  , ce qui signifie que plus vous pouvez utiliser votre appareil longtemps, moins le coût journalier sera élevé.
 - If the Pixel is unavailable in your region, the [NitroPhone](https://shop.nitrokey.com/shop) can be shipped globally.
 
 ## Critères
