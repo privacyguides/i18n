@@ -1,7 +1,7 @@
 ---
 title: "Suites bureautiques"
 icon: material/file-edit-outline
-description: These office suites offer their full functionality without an account and can be used offline.
+description: Ces suites bureautiques vous permettent d'avoir accès à toutes leurs fonctionnalités sans créer de compte et peuvent être utilisées hors-ligne.
 cover: office-suites.webp
 ---
 

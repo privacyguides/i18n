@@ -58,6 +58,6 @@ Ente Photos a fait l'objet d'un audit par [Cure53](https://ente.io/blog/cryptogr
 - Doit permettre d'exporter facilement tous les fichiers/documents.
 - Doit être open-source.
 
-### Dans le meilleur des cas
+### Fonctionnalités idéales
 
 - Should have a published audit from a reputable, independent third party.
