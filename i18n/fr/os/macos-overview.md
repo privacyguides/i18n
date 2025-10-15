@@ -99,7 +99,7 @@ Si vous n'utilisez pas ces fonctionnalités sur macOS, vous devriez les désacti
 
 Pour consulter un rapport de toutes les données envoyées via Apple Intelligence, allez à **Confidentialité & Sécurité** → ** Rapport Apple Intelligence** et cliquez sur **Exporter l'activité** , selon le paramètrage souhaité, vous pouvez consulter par exemple l'activité des 15 dernières minutes. Cette fonctionnalité, assez similaire au **Rapport de confidentialité des apps** qui permet de connaitre les permissions récemment utilisées par les applications sur votre téléphone, vous permet de consulter ce qui est envoyé aux serveurs d'Apple lorsque vous utilisez Apple Intelligence.
 
-Par défaut, l'intégration de ChatGPT est désactivée. Si vous ne souhaitez plus utiliser l'intégration ChatGPT, allez à **ChatGPT**:
+Par défaut, l'intégration de ChatGPT est désactivée. Si vous ne voulez plus l'intégration de ChatGPT, vous pouvez naviguer vers **ChatGPT**:
 
 - [ ] Désactivez **Utiliser ChatGPT**
 

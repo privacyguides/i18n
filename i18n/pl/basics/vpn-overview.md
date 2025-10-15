@@ -75,48 +75,48 @@ Obecnie Tor obsługuje tylko protokół TCP. Pakiety UDP (używane przez [WebRTC
 
 Funkcja ta powinna być postrzegana jako *wygodny* sposób na dostęp do ukrytych usług w sieci Tor, a nie na zachowanie anonimowości. Dla zapewnienia właściwej anonimowości, użyj aktualnej [przeglądarki Tor](../tor.md).
 
-## Commercial VPN Ownership
+## Komercyjna własność VPN
 
-Most VPN services are owned by the same [few companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies). These shady companies run lots of smaller VPN services to create the illusion that you have more choice than you actually do and to maximize profit. Typically, these providers that feed into their shell company have terrible privacy policies and shouldn't be trusted with your internet traffic. You should be very strict about which provider you decide to use.
+Większość usług VPN należy do tych samych [kilku firm](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies). Te podejrzane firmy prowadzą wiele mniejszych usług VPN, aby stworzyć iluzję, że masz większy wybór niż w rzeczywistości i zmaksymalizować zyski. Zazwyczaj ci dostawcy, którzy zasilają swoją firmę-powłokę, mają okropną politykę prywatności i nie należy im ufać w kwestii ruchu internetowego. Należy bardzo rygorystycznie podchodzić do wyboru dostawcy usług.
 
-You should also be wary that many VPN review sites are merely advertising vehicles open to the highest bidder. ==Privacy Guides does not make money from recommending external products, and never uses affiliate programs.==
+Należy również uważać, że wiele witryn z recenzjami VPN to jedynie narzędzia reklamowe otwarte na oferentów oferujących najwyższą cenę. ==Privacy Guides nie zarabia na polecaniu zewnętrznych produktów i nigdy nie korzysta z programów partnerskich.==
 
-[Our VPN Recommendations](../vpn.md ""){.md-button}
+[Nasze rekomendacje VPN](../vpn.md ""){.md-button}
 
-## Modern VPN Alternatives
+## Nowoczesne alternatywy VPN
 
-Recently, some attempts have been made by various organizations to address some issues which centralized VPNs have. These technologies are relatively new, but worth keeping an eye on as the field develops.
+Ostatnio różne organizacje podjęły próby rozwiązania niektórych problemów, z którymi borykają się scentralizowane sieci VPN. Technologie te są stosunkowo nowe, ale warto śledzić ich rozwój.
 
-### Multi-Party Relays
+### Przekaźniki wielostronne
 
-Multi-Party Relays (MPRs) use multiple nodes owned by different parties, such that no individual party knows both who you are and what you're connecting to. This is the basic idea behind Tor, but now there are some paid services that try to emulate this model.
+Przekaźniki wielostronne (MPR) wykorzystują wiele węzłów należących do różnych stron, dzięki czemu żadna ze stron nie wie, kim jesteś i z czym się łączysz. Jest to podstawowa idea stojąca za Torem, ale obecnie istnieje kilka płatnych usług, które próbują naśladować ten model.
 
-MPRs seek to solve a problem inherent to VPNs: the fact that you must trust them completely. They accomplish this goal by segmenting the responsibilities between two or more different companies.
+MPR-y starają się rozwiązać problem nieodłącznie związany z VPN-ami: fakt, że trzeba im całkowicie ufać. Osiągają ten cel poprzez podział obowiązków pomiędzy dwie lub więcej różnych firm.
 
-One example of a commercially available MPR is Apple's iCloud+ Private Relay, which routes your traffic through two servers:
+Jednym z przykładów komercyjnie dostępnego MPR jest Apple iCloud+ Private Relay, który kieruje ruch przez dwa serwery:
 
-1. Firstly, a server operated by Apple.
+1. Po pierwsze, serwer obsługiwany przez Apple.
 
-    This server is able to see your device's IP when you connect to it, and has knowledge of your payment information and Apple ID tied to your iCloud subscription. However, it is unable to see what website you are connecting to.
+    Serwer ten jest w stanie zobaczyć adres IP urządzenia podczas łączenia się z nim, a także zna informacje o płatnościach i identyfikator Apple ID powiązany z subskrypcją iCloud. Nie jest jednak w stanie sprawdzić, z jaką witryną się łączysz.
 
-2. Secondly, a server operated by a partner CDN, such as Cloudflare or Fastly.
+2. Po drugie, serwer obsługiwany przez partnerski CDN, taki jak Cloudflare lub Fastly.
 
-    This server actually makes the connection to your destination website, but has no knowledge of your device. The only IP address it knows about is Apple's server's.
+    Serwer ten faktycznie nawiązuje połączenie z witryną docelową, ale nie ma wiedzy o urządzeniu użytkownika. Jedynym adresem IP, o którym wie, jest adres serwera Apple.
 
-Other MPRs run by different companies operate in a very similar manner. This protection by segmentation only exists if you trust the two companies to not collude with each other to deanonymize you.
+Inne MPR prowadzone przez różne firmy działają w bardzo podobny sposób. Ta ochrona poprzez segmentację istnieje tylko wtedy, gdy ufasz, że obie firmy nie zmówią się ze sobą w celu deanonimizacji użytkownika.
 
-### Decentralized VPNs
+### Zdecentralizowane sieci VPN
 
-Another attempt at solving the issues with centralized VPN services are dVPNs. These are based on blockchain technology and claim to eliminate trust in a single party by distributing the nodes across lots of different people. However, many times a dVPN will default to a single node, meaning you need to trust that node completely, just like a traditional VPN. Unlike a traditional VPN, this one node that can see all your traffic is a random person instead of your VPN provider that can be audited and has legal responsibilities to uphold their privacy policy. Multi-hop is needed to solve this, but that comes with a stability and performance cost.
+Inną próbą rozwiązania problemów ze scentralizowanymi usługami VPN są sieci dVPN. Są one oparte na technologii blockchain i twierdzą, że eliminują zaufanie do jednej strony poprzez dystrybucję węzłów wśród wielu różnych osób. Jednak wiele razy dVPN domyślnie wybiera pojedynczy węzeł, co oznacza, że musisz całkowicie zaufać temu węzłowi, tak jak w przypadku tradycyjnej sieci VPN. W przeciwieństwie do tradycyjnej sieci VPN, ten jeden węzeł, który może zobaczyć cały ruch użytkownika, jest przypadkową osobą, a nie dostawcą VPN, który może zostać poddany audytowi i ma prawny obowiązek przestrzegania swojej polityki prywatności. Aby rozwiązać ten problem, potrzebny jest multi-hop, ale wiąże się to z kosztami stabilności i wydajności.
 
-Another consideration is legal liability. The exit node will need to deal with legal problems from misuse of the network, an issue that the Tor network has contended with for its entire existence. This discourages regular people from running nodes and makes it more attractive for a malicious actor with lots of resources to host one. This is a big problem if the service is single-node, as the potentially malicious exit node can see who you are and what you're connecting to.
+Inną kwestią jest odpowiedzialność prawna. Węzeł wyjściowy będzie musiał radzić sobie z problemami prawnymi wynikającymi z niewłaściwego korzystania z sieci, z czym sieć Tor borykała się przez całe swoje istnienie. Zniechęca to zwykłych ludzi do uruchamiania węzłów i sprawia, że jest to bardziej atrakcyjne dla złośliwego aktora z dużą ilością zasobów. Jest to duży problem, jeśli usługa jest jednowęzłowa, ponieważ potencjalnie złośliwy węzeł wyjściowy może zobaczyć, kim jesteś i z czym się łączysz.
 
-Many dVPNs are used to push a cryptocurrency rather than to make the best service. They also tend to be smaller networks with fewer nodes, making them more vulnerable to [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack).
+Wiele sieci dVPN jest wykorzystywanych do promowania kryptowalut, a nie do świadczenia najlepszych usług. Są to również zwykle mniejsze sieci z mniejszą liczbą węzłów, co czyni je bardziej podatnymi na [ataki Sybil](https://en.wikipedia.org/wiki/Sybil_attack).
 
-## Related VPN Information
+## Powiązane informacje o VPN
 
-- [The Trouble with VPN and Privacy Review Sites](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites)
-- [Free VPN App Investigation](https://top10vpn.com/research/free-vpn-investigations/ownership)
-- [Hidden VPN owners unveiled: 101 VPN products run by just 23 companies](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies)
-- [This Chinese company is secretly behind 24 popular apps seeking dangerous permissions](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions)
-- [VPN - a Very Precarious Narrative](https://overengineer.dev/blog/2019/04/08/very-precarious-narrative.html) by Dennis Schubert
+- [Kłopoty ze stronami z recenzjami VPN i prywatności](https://blog.privacyguides.org/2019/11/20/the-trouble-with-vpn-and-privacy-review-sites)
+- [Badanie darmowych aplikacji VPN](https://top10vpn.com/research/free-vpn-investigations/ownership)
+- [Ukryci właściciele VPN: 101 produktów VPN zarządzanych przez zaledwie 23 firmy](https://vpnpro.com/blog/hidden-vpn-owners-unveiled-97-vpns-23-companies)
+- [Ta chińska firma jest tajna za 24 popularnych aplikacjami szukającymi niebezpiecznych uprawnień](https://vpnpro.com/blog/chinese-company-secretly-behind-popular-apps-seeking-dangerous-permissions)
+- [VPN - bardzo niepewna narracja](https://overengineer.dev/blog/2019/04/08/very-precarious-narrative.html) Dennisa Schuberta
