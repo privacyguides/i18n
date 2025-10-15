@@ -1,7 +1,7 @@
 ---
-title: "Qubes Overview"
+title: "Przegląd Qubes"
 icon: simple/qubesos
-description: Qubes is an operating system built around isolating apps within *qubes* (formerly "VMs") for heightened security.
+description: Qubes to system operacyjny oparty na izolowaniu aplikacji w *qubes* (dawniej "maszynach wirtualnych") w celu zwiększenia bezpieczeństwa.
 ---
 
 [**Qubes OS**](../desktop.md#qubes-os) is an open-source operating system which uses the [Xen](https://en.wikipedia.org/wiki/Xen) hypervisor to provide strong security for desktop computing through isolated *qubes*, (which are Virtual Machines). You can assign each *qube* a level of trust based on its purpose. Qubes OS provides security by using isolation. It only permits actions on a per-case basis and therefore is the opposite of [badness enumeration](https://ranum.com/security/computer_security/editorials/dumb).
@@ -63,19 +63,19 @@ After [creating a new ProxyVM](https://forum.qubes-os.org/t/configuring-a-proxyv
 
 Your qubes should be configured in a manner similar to this:
 
-| Qube name       | Qube description                                                                                    | NetVM           |
-| --------------- | --------------------------------------------------------------------------------------------------- | --------------- |
-| sys-net         | *Your default network qube (pre-installed)*                                                         | *n/a*           |
-| sys-firewall    | *Your default firewall qube (pre-installed)*                                                        | sys-net         |
-| ==sys-proxyvm== | The VPN ProxyVM you [created](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) | sys-firewall    |
-| sys-whonix      | Your Whonix Gateway VM                                                                              | ==sys-proxyvm== |
-| anon-whonix     | Your Whonix Workstation VM                                                                          | sys-whonix      |
+| Qube name       | Opis Qube                                                                                                        | NetVM           |
+| --------------- | ---------------------------------------------------------------------------------------------------------------- | --------------- |
+| sys-net         | *Twój domyślny qube sieciowy (preinstalowany)*                                                                   | *n/a*           |
+| sys-firewall    | *Domyślna zapora sieciowa qube (preinstalowana)*                                                                 | sys-net         |
+| ==sys-proxyvm== | VPN ProxyVM, stworzona przez [użytkownika](https://forum.qubes-os.org/t/configuring-a-proxyvm-vpn-gateway/19061) | sys-firewall    |
+| sys-whonix      | Maszyna wirtualna Whonix Gateway                                                                                 | ==sys-proxyvm== |
+| anon-whonix     | Maszyna wirtualna Whonix Workstation                                                                             | sys-whonix      |
 
 ## Android
 
-For additional information we encourage you to consult the extensive Qubes OS documentation pages located on the [Qubes OS Website](https://qubes-os.org/doc). Offline copies can be downloaded from the Qubes OS [documentation repository](https://github.com/QubesOS/qubes-doc).
+Aby uzyskać dodatkowe informacje, zachęcamy Cię do zapoznania się z obszerną dokumentacją Qubes OS znajdującą się na stronie [Qubes OS](https://qubes-os.org/doc). Kopie offline można pobrać z Qubes OS [repozytorium](https://github.com/QubesOS/qubes-doc).
 
-- [Arguably the world's most secure operating system](https://opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard) (Open Technology Fund)
-- [Software compartmentalization vs. physical separation](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf) (J. Rutkowska)
-- [Partitioning my digital life into security domains](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html) (J. Rutkowska)
-- [Related Articles](https://qubes-os.org/news/categories/#articles) (Qubes OS)
+- [Prawdopodobnie najbezpieczniejszy system operacyjny na świecie](https://opentech.fund/news/qubes-os-arguably-the-worlds-most-secure-operating-system-motherboard) (Open Technology Fund)
+- [Kompartmentalizacja oprogramowania vs. separacja fizyczna](https://invisiblethingslab.com/resources/2014/Software_compartmentalization_vs_physical_separation.pdf) (J. Rutkowska)
+- [Podział mojego cyfrowego życia na domeny bezpieczeństwa](https://blog.invisiblethings.org/2011/03/13/partitioning-my-digital-life-into.html) (J. Rutkowska)
+- [Powiązane artykuły](https://qubes-os.org/news/categories/#articles) (Qubes OS)

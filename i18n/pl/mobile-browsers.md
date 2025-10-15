@@ -1,5 +1,5 @@
 ---
-meta_title: "Privacy Respecting Web Browsers for Android and iOS - Privacy Guides"
+meta_title: "Przeglądarki internetowe na Android/IOS szanujące prywatność - Privacy Guides"
 title: Przeglądarki mobilne
 icon: octicons/device-mobile-16
 description: Obecnie zalecamy te przeglądarki do standardowego/nie anonimowego przeglądania internetu na swoim smartfonie.
@@ -50,27 +50,28 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Chroni przed następującymi zagrożeniami:</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: Kapitalizm Nadzoru](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. If you need to browse the internet anonymously, you should use [Tor](tor.md) instead.
+To są obecnie zalecane przez nas **przeglądarki internetowe** oraz konfiguracje dla standardowego/nie anonimowego przeglądania internetu. Jeżeli chcesz przeglądać internet anonimowo, powinieneś użyć [Tor'a](tor.md).
 
 ## Brave
 
 <div class="admonition recommendation" markdown>
 
-![Logo Brave](assets/img/browsers/brave.svg){ align=right }
+![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
-**Przeglądarka Brave** zawiera wbudowany bloker treści oraz [funkcje prywatności](https://brave.com/privacy-features), z których wiele jest domyślnie włączonych.
+**Brave Browser** zawiera wbudowany bloker treści i [funkcje prywatności](https://brave.com/privacy-features), z których większość jest włączona domyślnie.
 
-Brave is built upon the Chromium web browser project, so it should feel familiar and have minimal website compatibility issues.
+Brave jest zbudowany na projekcie przeglądarki internetowej Chromium, 
 
 [:octicons-home-16: Strona główna](https://brave.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Usługa Onion" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Polityka prywatności" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title="Dokumentacja" }
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Kod źródłowy" }
+[:simple-torbrowser:]
+(https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -84,7 +85,7 @@ Brave is built upon the Chromium web browser project, so it should feel familiar
 
 </div>
 
-### Zalecana konfiguracja przeglądarki Brave
+### Rekomendowana Konfiguracja Brave
 
 Przeglądarka Tor to jedyny sposób aby na prawdę przeglądać internet anonimowo. Kiedy używasz Braver zalecamy zmianę następujących ustawień aby chronić twoją prywatność przed niektórymi stronami, ale wszystkie przeglądarki inne niż [Przeglądarka Tor](tor.md#tor-browser) będą możliwe do śledzenia przez *kogoś* w takim czy innym zakresie.
 
@@ -94,37 +95,37 @@ Przeglądarka Tor to jedyny sposób aby na prawdę przeglądać internet anonimo
 
 === "iOS"
 
-    These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy**.
+    Te opcje można znaleźć w :material-menu: → **Ustawienia** → **Tarcze & prywatność**.
 
 ####
 
-Brave posiada pewne zabezpieczenia przed identyfikacją przeglądarki w ramach funkcji [Tarcze](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Zalecamy skonfigurowanie tych ustawień [globalnie](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) pomiędzy wszystkimi stronami, które odwiedzasz.
+Brave zawiera funkcje zapobiegające rozpoznawaniu urządzenia w sekcji [Tarcze](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Zalecamy skonfigurowanie tych ustawień [globalnie](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) pomiędzy wszystkimi stronami, które odwiedzasz.
 
-Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
+Opcje Tarczy mogą być obniżane w zależności od potrzeb, ale domyślnie zalecamy ustawienie następujących opcji:
 
 === "Android"
 
     <div class="annotate" markdown>
 
     -
-    - [x] Select **Auto-redirect AMP pages**
-    -
-    - [x] Select **Require all connections to use HTTPS (strict)** under *Upgrade connections to HTTPS*
-    - \[x\] (Optional) Select **Block Scripts** (1)
-    - [x] Select **Block third-party cookies** under *Block Cookies*
-    - [x] Select **Block Fingerprinting**
-    - [x] Select **Prevent fingerprinting via language settings**
+    - [x] Zaznacz **Automatyczne przekierowywanie stron AMP**
+    - [x] Zaznacz **Automatycznie przekierowuj śledzące adresy URL**
+    - [x] Zaznacz **Wymagaj, aby wszystkie połączenia używały HTTPS (ścisłe)** w *Aktualizacje HTTPS*
+    - \[x\] (Opcjonalne) Zaznacz **Zablokuj skrypty**
+    - [x] Zaznacz **Blokuj pliki cookie innych firm** w *Zablokuj pliki cookies</li>
+    - [x] Zaznacz **Zablokuj rozpoznawanie urządzenia**
+    - [x] Zaznacz **Zapobiegaj pobieraniu odcisków palców za pomocą ustawień językowych**
 
     <details class="warning" markdown>
-    <summary>Use default filter lists</summary>
+    <summary>Używaj domyślnych list filtrów</summary>
 
-    Brave pozwala wybrać dodatkowe filtry treści w menu **Filtrowanie Treści** lub bezpośrednio przez stronę `brave://adblock`. We advise against using this feature; instead, keep the default filter lists. Używanie dodatkowych list sprawi, że będziesz się wyróżniał na tle innych użytkowników i może zwiększyć ryzyko ataku powierzchniowego jeśli w Brave znajduje się exploit i złośliwa reguła zostanie dodana do jednej z list, których używasz.
+    Brave pozwala wybrać dodatkowe filtry treści w menu **Filtrowanie Treści** lub bezpośrednio przez stronę `brave://adblock`. Nie zalecamy używania tej funkcji, zachowaj domyślne ustawienia list filtrów. Używanie dodatkowych list sprawi, że będziesz się wyróżniał na tle innych użytkowników i może zwiększyć ryzyko ataku powierzchniowego jeśli w Brave znajduje się exploit i złośliwa reguła zostanie dodana do jednej z list, których używasz.
 
     </details>
 
-    - [x] Select **Forget me when I close this site**
+    - [x] Zaznacz **Zapomnij po zamknięciu strony**
 
-    </div>
+    </div></ul>
 
     1. Ta opcja wyłącza JavaScript, co może wywołać nie poprawne działanie niektórych witryn. Aby je naprawić, możesz ustawić wyjątki dla poszczególnych witryn klikając na ikonę Tarczy na pasku adresu i odznaczając tą opcję w *Zaawansowane sterowanie*.
 
@@ -132,24 +133,24 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
     <div class="annotate" markdown>
 
-    - [x] Select **Aggressive** under *Trackers & Ads Blocking*
-    - [x] Select **Strict** under *Upgrade Connections to HTTPS*
-    - [x] Select **Auto-Redirect AMP pages**
+    - [x] Zaznacz **agresywnie** w *Zablokuj skrypty śledzące i reklamy*
+    - [x] Zaznacz **ścisłe** w *Aktualizacje HTTPS*
+    - [x] Zaznacz **Automatyczne przekierowywanie stron AMP**
     - [x] Zaznacz **Automatycznie przekierowuj śledzące adresy URL**
-    - \[x\] (Optional) Select **Block Scripts** (1)
-    - [x] Select **Block Fingerprinting**
+    - \[x\] (Opcjonalne) Zaznacz **Zablokuj skrypty**
+    - [x] Zaznacz **Zablokuj rozpoznawanie urządzenia**
     - [x] Select **Site Tabs Closed** under *Auto Shred*
 
     <details class="warning" markdown>
-    <summary>Use default filter lists</summary>
+    <summary>Używaj domyślnych list filtrów</summary>
 
-    Brave pozwala na swybranie dodatkowych filtrów treści w menu **Filtrowanie Treści**. We advise against using this feature; instead, keep the default filter lists. Używanie dodatkowych list sprawi, że będziesz się wyróżniał na tle innych użytkowników i może zwiększyć ryzyko ataku powierzchniowego jeśli w Brave znajduje się exploit i złośliwa reguła zostanie dodana do jednej z list, których używasz.
+    Brave pozwala na wybranie dodatkowych filtrów treści w menu **Filtrowanie Treści**. Odradzamy korzystanie z tej funkcji, zamiast tego zachowaj domyślne ustawienia listy filtrów. Korzystanie z dodatkowych list sprawi, że będziesz wyróżniać się na tle innych użytkowników Brave i również może zwiększyć powierzchnię ataku jeśli w Brave istnieje exploit i złośliwa reguła zostanie dodana do jednej z list, której używasz.
 
     </details>
 
     </div>
 
-    1. Ta opcja wyłącza JavaScript, co sprawi, że wiele stron przestanie działać poprawnie. Aby je naprawić, możesz ustawić wyjątki dla poszczególnych witryn klikając na ikonę Tarczy na pasku adresu i odznaczając tą opcję w *Zaawansowane sterowanie*.
+    1. Ta opcja wyłącza JavaScript,  Aby je naprawić, możesz ustawić wyjątki dla poszczególnych witryn klikając na ikonę Tarczy na pasku adresu i odznaczając tą opcję w *Zaawansowane sterowanie*.
 
 ##### Clear browsing data (Android only)
 
@@ -159,51 +160,51 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
 
 - [ ] Uncheck all social media components
 
-#### Other privacy settings
+#### Inne ustawienia prywatności
 
 === "Android"
 
     <div class="annotate" markdown>
 
-    - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-    - \[x\] (Optional) Select **No protection** under *Safe Browsing* (1)
-    - [ ] Uncheck **Allow sites to check if you have payment methods saved**
+    - [x] Zaznacz **Wyłącz UDP bez proxy** w [Zasady obsługi IP WebRTC IP</em>](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+    - \[x\] (Opcjonalne) Zaznacz **Brak ochrony** w *Bezpieczne przeglądanie*
+    - [] Odznacz **Zezwalaj stronom internetowym na sprawdzanie, czy masz zapisane formy płatności**
     - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
-    - [x] Select **Close tabs on exit**
-    - [ ] Odznacz **Zezwól na zastosowanie analizy produktów z zachowaniem prywatności (P3A)**
-    - [ ] Odznacz **Automatycznie wysyłaj raporty diagnostyczne**
+    - [x] Zaznacz **Zamknij karty przy wyjściu**
+    - [] Odznacz **Zezwól na zastosowanie analizy produktów z zachowaniem prywatności (P3A)**
+    - [] Odznacz **Automatycznie wysyłaj raporty diagnostyczne**
     - [] Odznacz **Automatycznie wysyłaj pingi dziennego użycia do Brave**
 
     </div>
 
-    1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
+    1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. To oznacza, że twój adres IP może być widoczny (i rejestrowany) przez Google. Należy pamiętać, że Bezpieczne Przeglądanie nie jest dostępne na urządzeniach z Androidem bez Usług Google Play.
 
 === "iOS"
 
-    - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
-    - [ ] Odznacz **Automatycznie wysyłaj pingi dziennego użycia do Brave**
+    - [] Odznacz **Zezwól na zastosowanie analizy produktów z zachowaniem prywatności (P3A)**
+    - [] Odznacz **Automatycznie wysyłaj pingi dziennego użycia do Brave**
 
 #### Leo
 
-These options can be found in :material-menu: → **Settings** → **Leo**.
+Te opcje można znaleźć w :material-menu: → **Ustawienia** → **Leo**
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Show autocomplete suggestions in address bar** (1)
+- [] Odznacz **Pokaż sugestie automatycznego uzupełniania na pasku adresu**
 
 </div>
 
-1. This option is not present in Brave's iOS app.
+1. Ta opcja jest nie dostępna w aplikacji Brave na IOS.
 
-#### Search engines
+#### Wyszukiwarki
 
-These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
+Te opcje można znaleźć w :material-menu:/:fontawesome-solid-ellipsis: → **Ustawienia** → **Wyszukiwarki**.
 
 - [ ] Odznacz **Podpowiedzi wyszukiwania**
 
-#### Brave Sync
+#### Synchronizacja
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) umożliwia dostęp do danych przeglądania (historii, zakładek itd.) na wszystkich urządzeniach bez potrzeby zakładania konta i chroni je za pomocą E2EE.
+[Synchronizacja](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) umożliwia na dostęp do danych przeglądania (historia, zakładki, itd.) na wszystkich urządzeniach wymaganego konta i chroni je za pomocą E2EE.
 
 ## Cromite (Android)
 
@@ -211,10 +212,13 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 
 ![Cromite logo](assets/img/browsers/cromite.svg){ align=right }
 
-**Cromite** is a Chromium-based browser with built-in ad blocking, fingerprinting protections, and other [privacy and security enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the discontinued **Bromite** browser.
+**Cromite** to przeglądarka oparta na Chromium z 
+ wbudowanym blokowaniem reklam, ochroną przed rozpoznaniem urządzenia, i innymi [ulepszeniami prywatności i bezpieczeństwa]
+(https://github.com/uazo/cromite/blob/master/docs/FEATURES.md).  To fork wycofanej przeglądarki **Bromite**.
 
-[:octicons-home-16: Homepage](https://cromite.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Strona główna](https://cromite.org){ .md-button .md-button--primary }
+[:octicons-eye-16:]
+(https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
 [:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Source Code" }
 
@@ -228,21 +232,21 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 
 </div>
 
-### Recommended Configuration
+### Zalecana konfiguracja
 
-These options can be found in :material-menu: → :gear: **Settings** → **Privacy and security**.
+Te opcje można znaleźć w  → :gear: **Ustawienia** → **Prywatność i bezpieczeństwo**.
 
-#### Browsing data
+#### Dane przeglądania
 
-- [x] Select **Close all open tabs on exit**
+- [x] Zaznacz **Close all open tabs on exit**
 
-#### Incognito mode
+#### Tryb Incognito
 
-- [x] Select **Open external links in incognito**
+- [x] Zaznacz **Open external links in incognito**
 
 #### Bezpieczeństwo
 
-- [x] Select **Always use secure connections**
+- [x] Zaznacz **Zawsze używaj bezpiecznych połączeń**
 
 HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
 

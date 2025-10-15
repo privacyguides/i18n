@@ -381,7 +381,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Dowiedz się więcej :hero-arrow-circle-right-fill:](cryptocurrency.md)
 
-### Data and Metadata Redaction
+### Redukcja danych i metadanych
 
 <div class="grid cards" markdown>
 

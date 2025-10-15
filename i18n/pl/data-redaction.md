@@ -1,21 +1,21 @@
 ---
-meta_title: "Remove PII with Metadata Scrubbers and Data Redaction Tools - Privacy Guides"
-title: "Data and Metadata Redaction"
+meta_title: "Usuwanie informacji osobistych za pomocą narzędzi do usuwania metadanych i redagowania danych - Privacy Guides"
+title: "Redukcja danych i metadanych"
 icon: material/tag-remove
-description: Use these tools to remove metadata like GPS location and other identifying information from photos and files you share.
+description: Użyj tych narzędzi, aby usunąć metadane, takie jak lokalizacja GPS i inne informacje identyfikujące ze zdjęć i udostępnianych plików.
 cover: data-redaction.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Chroni przed następującymi zagrożeniami:</small>
 
-- [:material-account-search: Public Exposure](basics/common-threats.md#limiting-public-information ""){.pg-green}
+- [:material-account-search: Ekspozycja publiczna](basics/common-threats.md#limiting-public-information ""){.pg-green}
 
-When sharing files, be sure to remove associated metadata. Image files commonly include [Exif](https://en.wikipedia.org/wiki/Exif) data. Photos sometimes even include GPS coordinates in the file metadata.
+Podczas udostępniania plików należy pamiętać o usunięciu powiązanych metadanych. Pliki obrazów zazwyczaj zawierają dane [Exif](https://en.wikipedia.org/wiki/Exif). Zdjęcia czasami zawierają nawet współrzędne GPS w metadanych pliku.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Ostrzeżenie</p>
 
-You should **never** use blur to redact [text in images](https://bishopfox.com/blog/unredacter-tool-never-pixelation). If you want to redact text in an image, you should draw a box over the text.
+Nie powinieneś **nigdy** używać rozmycia do ukrycia [tekstu na obrazach](https://bishopfox.com/blog/unredacter-tool-never-pixelation). Jeśli chcesz ukryć tekst na obrazie, powinieneś narysować ramkę nad tekstem.
 
 </div>
 
@@ -25,14 +25,14 @@ You should **never** use blur to redact [text in images](https://bishopfox.com/b
 
 ![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
 
-**MAT2** is free, cross-platform software which allows you to remove metadata from image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
+**MAT2** to darmowe, wieloplatformowe oprogramowanie, które umożliwia usuwanie metadanych z plików graficznych, audio, torrent i dokumentów. Dostarcza zarówno narzędzie wiersza poleceń, jak i graficzny interfejs użytkownika za pomocą rozszerzenia dla [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), domyślny menedżer plików [KDE](https://kde.org).
 
 [:octicons-repo-16: Repository](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
 [:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title="Documentation" }
 [:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pliki do pobrania</summary>
 
 - [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2#metadata-and-privacy)
 - [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
@@ -49,16 +49,16 @@ You should **never** use blur to redact [text in images](https://bishopfox.com/b
 
 ![ExifEraser logo](assets/img/data-redaction/exiferaser.svg){ align=right }
 
-**ExifEraser** is a modern, permissionless image metadata erasing application for Android.
+**ExifEraser** to nowoczesna, niewymagająca uprawnień aplikacja do usuwania metadanych obrazu dla systemu Android.
 
-It currently supports JPEG, PNG, and WebP files.
+Obecnie obsługuje pliki JPEG, PNG i WebP.
 
 [:octicons-repo-16: Repository](https://github.com/Tommy-Geenexus/exif-eraser#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/Tommy-Geenexus/exif-eraser#description){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/Tommy-Geenexus/exif-eraser){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pliki do pobrania</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.none.tom.exiferaser)
 - [:octicons-moon-16: Accrescent](https://accrescent.app/app/com.none.tom.exiferaser)

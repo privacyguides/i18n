@@ -1,6 +1,6 @@
 ---
 meta_title: "Jak VPN chroni twoją prywatność? Nasze omówienie sieci VPN - Privacy Guides"
-title: Omówienie sieci VPN
+title: Przegląd VPN
 icon: material/vpn
 description: Wirtualne sieci prywatne przenoszą ryzyko z dostawcy usług internetowych na stronę trzecią, której ufasz. Należy mieć to na uwadze.
 ---
