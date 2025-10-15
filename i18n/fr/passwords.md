@@ -367,18 +367,18 @@ La [version pro](https://play.google.com/store/apps/details?id=com.kunzisoft.kee
 
 ![Logo de KeePassium](assets/img/password-management/keepassium.svg){ align=right }
 
-KeePassium est un gestionnaire de mot de passe open-source payant developpé par KeePassium Labs et compatible avec les autres applications KeePass. It provides autofill support, passkey management, automatic two-way synchronization through [most cloud storage providers](https://support.keepassium.com/kb/sync), and more.
+KeePassium est un gestionnaire de mot de passe open-source payant developpé par KeePassium Labs et compatible avec les autres applications KeePass. Il permet de remplir automatiquement vos identifiants, de gérer vos passkeys, il est également compatible avec la synchronisation bidirectionnelle automatique via [la plupart des fournisseurs de cloud](https://support.keepassium.com/kb/sync), et bien d'autre.
 
-[:material-star-box: Read our latest KeePassium review.](https://www.privacyguides.org/articles/2025/05/13/keepassium-review)
+[:material-star-box: Notre dernier avis de KeePassium](https://www.privacyguides.org/articles/2025/05/13/keepassium-review)
 
-[:octicons-home-16: Homepage](https://keepassium.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://keepassium.com/privacy/app){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://keepassium.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://keepassium.com/privacy/app){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://support.keepassium.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/keepassium/KeePassium){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://keepassium.com/donate){ .card-link title="Contribute" }
+[:octicons-code-16:](https://github.com/keepassium/KeePassium){ .card-link title="Code Source" }
+[:octicons-heart-16:](https://keepassium.com/donate){ .card-link title="Contribuer" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/us/app/id1435127111)
 
