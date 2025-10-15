@@ -221,18 +221,18 @@ Toutes les failles détectées ont été résolues rapidement après la publicat
 
 <div class="admonition recommendation" markdown>
 
-![1Password logo](assets/img/password-management/1password.svg){ align=right }
+[Logo de 1Password](assets/img/password-management/1password.svg){ align=right }
 
-**1Password** is a password manager with a strong focus on security and ease-of-use that allows you to store passwords, passkeys, credit cards, software licenses, and any other sensitive information in a secure digital vault. Your vault is hosted on 1Password's servers for a [monthly fee](https://1password.com/sign-up).
+**1Password** est un gestionnaire de mots de passe qui met l'accent sur la sécurité et la simplicité d'utilisation. Il vous permet de stocker vos mots de passe, cartes bancaires, passkeys, licences de logiciel et tout autre information sensible dans un coffre-fort numérique sécurisé. Vous pouvez payer des [frais mensuels](https://1password.com/sign-up) pour héberger votre coffre-fort sur les serveurs de 1Password.
 
-1Password is [audited](https://support.1password.com/security-assessments) on a regular basis and provides exceptional customer support. 1Password est closed source ; cependant, la sécurité du produit est documentée de manière approfondie dans leur [livre blanc sur la sécurité](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
+1Password fait régulièrement l'objet [d'audits](https://support.1password.com/security-assessments) et propose un excellent service client. 1Password est closed source ; cependant, la sécurité du produit est documentée de manière approfondie dans leur [livre blanc sur la sécurité](https://1passwordstatic.com/files/security/1password-white-paper.pdf).
 
-[:octicons-home-16: Homepage](https://1password.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://1password.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://1password.com/legal/privacy){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://support.1password.com){ .card-link title="Documentation" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.onepassword.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1511601750)
@@ -365,9 +365,9 @@ La [version pro](https://play.google.com/store/apps/details?id=com.kunzisoft.kee
 
 <div class="admonition recommendation" markdown>
 
-![KeePassium logo](assets/img/password-management/keepassium.svg){ align=right }
+![Logo de KeePassium](assets/img/password-management/keepassium.svg){ align=right }
 
-KeePassium is a commercial, open-source password manager made by KeePassium Labs that's compatible with other KeePass applications. It provides autofill support, passkey management, automatic two-way synchronization through [most cloud storage providers](https://support.keepassium.com/kb/sync), and more.
+KeePassium est un gestionnaire de mot de passe open-source payant developpé par KeePassium Labs et compatible avec les autres applications KeePass. It provides autofill support, passkey management, automatic two-way synchronization through [most cloud storage providers](https://support.keepassium.com/kb/sync), and more.
 
 [:material-star-box: Read our latest KeePassium review.](https://www.privacyguides.org/articles/2025/05/13/keepassium-review)
 
