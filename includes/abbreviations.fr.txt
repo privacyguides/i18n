@@ -29,11 +29,11 @@
 *[CP] : Confidentialité persistante
 *[fork] : Un nouveau projet de logiciel créé en copiant un projet existant et en le complétant de manière indépendante
 *[RGPD] : Règlement Général sur la Protection des Données
-*[GPG]: GNU Privacy Guard (implémentation de PGP)
-*[GPS]: Système de positionnement global
-*[GUI]: Interface utilisateur graphique
-*[GnuPG]: GNU Privacy Guard (implémentation de PGP)
-*[HDD]: Disque dur
+*[GPG] : GNU Privacy Guard (implémentation de PGP)
+*[GPS] : Système de positionnement global
+*[GUI] : Interface utilisateur graphique
+*[GnuPG] : GNU Privacy Guard (implémentation de PGP)
+*[HDD] : Disque dur
 *[HOTP]: Mot de passe à usage unique basé sur un HMAC (code d'authentification de message basé sur le hachage) 
 *[HTTPS]: Protocole de transfert hypertexte sécurisé
 *[HTTP]: Protocole de transfert hypertexte
