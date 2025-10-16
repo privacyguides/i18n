@@ -3,7 +3,7 @@
 *[AOSP] : Projet Android Open Source
 *[ATA] : Attachement de technologie avancée
 *[surface d'attaque] : Le nombre total de points d'entrée possibles pour un accès non autorisé à un système
-*[AVB] : Démarrage Vérifié d'Android
+*[AVB] : Démarrage Validé d'Android
 *[cgroups] : Groupes de contrôle
 *[CLI] : Interface de ligne de commande
 *[CSV] : Valeurs séparées par des virgules
@@ -24,11 +24,11 @@
 *[EOL] : Fin de vie
 *[Exif] : Format de fichier image échangeable
 *[FCM] : Messagerie en nuage Firebase
-*[FDE]: Chiffrement complet du disque
-*[FIDO]: Identité rapide en ligne
-*[CP]: Confidentialité persistante
-*[fork]: Un nouveau projet de logiciel créé en copiant un projet existant et en le complétant de manière indépendante
-*[RGPD]: Règlement Général sur la Protection des Données
+*[FDE] : Chiffrement complet du disque
+*[FIDO] : Identité rapide en ligne
+*[CP] : Confidentialité persistante
+*[fork] : Un nouveau projet de logiciel créé en copiant un projet existant et en le complétant de manière indépendante
+*[RGPD] : Règlement Général sur la Protection des Données
 *[GPG]: GNU Privacy Guard (implémentation de PGP)
 *[GPS]: Système de positionnement global
 *[GUI]: Interface utilisateur graphique

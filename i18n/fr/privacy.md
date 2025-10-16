@@ -59,16 +59,16 @@ Privacy Guides conservera ces statistiques tant que nous hébergerons nos sites 
 
 ### Privacy Guides collecte des données sur les comptes
 
-Beaucoup des fonctionnalités de notre forum et de certains autres de nos services requièrent de créer un compte. For example, you are required to have an account in order to post and reply to topics.
+Beaucoup des fonctionnalités de notre forum et de certains autres de nos services requièrent de créer un compte. Vous devez par exemple créer un compte pour pouvoir poster et répondre aux sujets de discussion.
 
-To sign up for an account, Privacy Guides requires your email address, a username, and a password.
+Pour créer un compte, Privacy Guides vous demande une adresse mail, un nom d'utilisation et un mot de passe.
 
-We use this account data in order to identify you on the website, and to create pages specific to you, such as your profile page. We publish your account data to your public profile in accordance to your profile's configuration.
+Nous utilisons ces données pour vous identifier sur le site et pour créer les pages qui vont sont spécifiques, comme votre page de profil. Nous affichons les données de votre compte sur votre profil public selon les paramètres que vous avez choisi.
 
-Privacy Guides uses your email address to:
+Privacy Guides utilise votre adresse mail pour :
 
-- Notify you about posts and other activity on our website.
-- Reset your password and help keep your account secure.
+- Vous envoyer des notifications des posts et autres activités sur notre site.
+- Vous permettre que réinitialiser votre mot de passe et protéger votre compte.
 - Contact you in special circumstances related to your account.
 - Contact you about legal requests, like DMCA takedown requests.
 
@@ -128,50 +128,50 @@ This information is stored for as long as your membership is active, or until yo
 
 ### Privacy Guides collects data when you contact us
 
-When you contact Privacy Guides via email, Signal, or any of our other contact methods, we collect the information you submit to us, and any identifying information associated with the account you use to contact us. For example, when you contact us via Signal we will collect your Signal profile information. When you contact us via email we will collect your email address, name, and mail server IP address.
+When you contact Privacy Guides via email, Signal, or any of our other contact methods, we collect the information you submit to us, and any identifying information associated with the account you use to contact us. For example, when you contact us via Signal we will collect your Signal profile information. Lorsque vous nous contactez par mail, nous collectons votre adresse mail, nom et l'adresse IP du serveur mail.
 
-In this case we limit the processing of any personal data you provide us to what is strictly necessary to communicate with you and organize our messages.
+Dans ce cas nous limitons l'utilisation des données au strict nécessaire pour communiquer avec vous et organiser nos mails.
 
-Privacy Guides stores this data for as long as we are in contact with you, or for up to 1 year after your last contact with us. You have the right to request all data related to your private communication with us be deleted at any time, and we will generally do so within 7 days.
+Privacy Guides stocke ces données tant que nous sommes en contact avec vous, ou pour une durée d'un an maximum après la date des derniers échanges. Vous avez le droit de demander la suppression de toutes les données relatives à cette communication privée, et nous nous efforcerons de l'appliquer dans les 7 jours suivants la demande.
 
-### The Privacy Guides website stores local data
+### Le site Privacy Guides stocke des données locales
 
-Our website uses Local Storage in your browser to store your color scheme preference. This data is only used by client-side JavaScript to change the color scheme of this website according to your preference.
+Notre site web utilise le stockage local de votre navigateur pour stocker votre préférence de thème. Ces données sont uniquement utilisées par JavaScript côté client pour changer le thème du site web en accord avec vos préférences.
 
-Our website also uses Session Storage to cache the current version number of this website and the number of stars/forks of our GitHub repository. This data is fetched once per session from GitHub, and is only used by client-side JavaScript to display that information at the top of each page.
+Notre site web utilise également le stockage de session pour mettre en cache le numéro de version actuelle du site ainsi que le nombre d'étoiles et de forks de notre dépôt GitHub. Ces données sont extraites depuis GitHub une fois par session, et sont uniquement utilisées par JavaScript côté client pour afficher ces informations en haut de chaque page.
 
-### The Privacy Guides website uses cookies
+### Le site web Privacy Guides utilise les cookies
 
-Our website uses features from the open-source Ghost content management system to manage your membership experience, which uses the following cookies:
+Notre site web utilise le système open-source de gestion de contenu Ghost pour gérer votre inscription, qui utilise les cookies suivants :
 
-| Name                                                                        | Essential | Expires  | Purpose                                                                                                                |
-| --------------------------------------------------------------------------- | --------- | -------- | ---------------------------------------------------------------------------------------------------------------------- |
-| ghost-members-ssr                                                           | Yes       | 6 months | used to identify your membership on the website                                                                        |
-| ghost-members-ssr.sig                                       | Yes       | 6 months | used to validate your membership on the website                                                                        |
-| __stripe_sid | Yes       | 1 year   | [Stripe](#subprocessors-used-by-privacy-guides) allows online transactions without storing any credit card information |
-| __stripe_mid | Yes       | 1 year   | [Stripe](#subprocessors-used-by-privacy-guides) allows online transactions without storing any credit card information |
+| Nom                                                                         | Essentiel | Expiration | Utilisation                                                                                                                      |
+| --------------------------------------------------------------------------- | --------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| ghost-members-ssr                                                           | Oui       | 6 mois     | utilisé pour identifier votre inscription sur le site web                                                                        |
+| ghost-members-ssr.sig                                       | Oui       | 6 mois     | utilisé pour valider votre inscription au site                                                                                   |
+| __stripe_sid | Oui       | 1 an       | [Stripe](#subprocessors-used-by-privacy-guides) permet d'effectuer des transactions en ligne sans conserver de données bancaires |
+| __stripe_mid | Oui       | 1 an       | [Stripe](#subprocessors-used-by-privacy-guides) permet d'effectuer des transactions en ligne sans conserver de données bancaires |
 
-### The Privacy Guides forum uses cookies
+### Le forum Privacy Guides utilise des cookies
 
-Our forum is built on Discourse, which uses the following cookies:
+Notre forum est basé sur Discourse et utilise les cookies suivants :
 
-| Name                                                          | Essential | Expires        | Purpose                                                                                                                   |
+| Nom                                                           | Essentiel | Expiration     | Utilisation                                                                                                               |
 | ------------------------------------------------------------- | --------- | -------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| email                                                         | Yes       | Session        | remembers your e-mail as you create an account                                                                            |
-| destination_url                          | Yes       | Session        | helps redirect you to your requested page after logging in                                                                |
-| sso_destination_url | Yes       | Session        | helps redirect you to your request page after single sign on                                                              |
-| sso_payload                              | Yes       | Session        | used during SSO authentication when two-factor authentication is enabled                                                  |
-| authentication_data                      | Yes       | Next Page View | temporarily stores user information during login flows                                                                    |
-| theme_ids                                | Yes       | 1 year         | remembers your theme personalization if you don’t tick “Make this my default theme on all my devices”                     |
-| color_scheme_id     | Yes       | 1 year         | remembers your color personalization if you don’t tick “Set default color scheme(s) on all my devices” |
-| dark_scheme_id      | Yes       | 1 year         | remembers your color personalization if you don’t tick “Set default color scheme(s) on all my devices” |
-| cn                                                            | Yes       | Session        | temporarily stores notification read state                                                                                |
-| _bypass_cache       | Yes       | Session        | allows the server-side cache to be bypassed during login flows                                                            |
-| _t                                       | Yes       | 1440 Hours     | remembers who you are when you log in                                                                                     |
-| _forum_session      | Yes       | Session        | associates an ID, and other security-related information, with your browsing session                                      |
-| dosp                                                          | Yes       | Next Page View | enables client denial of service protection, a security protection                                                        |
-| text_size                                | Yes       | 1 year         | remembers default text size when a user wants to change it on only one device                                             |
-| cookietest                                                    | Yes       | Session        | checks if cookies are enabled when authentication fails                                                                   |
+| email                                                         | Oui       | Session        | permet de se souvenir de votre email pendant la création de compte                                                        |
+| destination_url                          | Oui       | Session        | permet de vous rediriger vers la page que vous avez demandé après vous être connecté                                      |
+| sso_destination_url | Oui       | Session        | permet de vous rediriger vers la page que vous avez demandé après l'inscription                                           |
+| sso_payload                              | Oui       | Session        | utilisé lors de l'authentification SSO lorsque l'authentification à deux facteur est activée                              |
+| authentication_data                      | Oui       | Next Page View | temporarily stores user information during login flows                                                                    |
+| theme_ids                                | Oui       | 1 year         | remembers your theme personalization if you don’t tick “Make this my default theme on all my devices”                     |
+| color_scheme_id     | Oui       | 1 year         | remembers your color personalization if you don’t tick “Set default color scheme(s) on all my devices” |
+| dark_scheme_id      | Oui       | 1 year         | remembers your color personalization if you don’t tick “Set default color scheme(s) on all my devices” |
+| cn                                                            | Oui       | Session        | temporarily stores notification read state                                                                                |
+| _bypass_cache       | Oui       | Session        | allows the server-side cache to be bypassed during login flows                                                            |
+| _t                                       | Oui       | 1440 Hours     | remembers who you are when you log in                                                                                     |
+| _forum_session      | Oui       | Session        | associates an ID, and other security-related information, with your browsing session                                      |
+| dosp                                                          | Oui       | Next Page View | enables client denial of service protection, a security protection                                                        |
+| text_size                                | Oui       | 1 year         | remembers default text size when a user wants to change it on only one device                                             |
+| cookietest                                                    | Oui       | Session        | checks if cookies are enabled when authentication fails                                                                   |
 | __profilin          | Non       | Session        | used by software developers to bypass rack-mini-profiler                                                                  |
 
 Your web browser can show you the cookies you have for any website and help you manage them.
@@ -204,35 +204,35 @@ Some publicly accessible data may be hosted by Content Delivery Networks with se
 
 ## Does Privacy Guides comply with the EU General Data Protection Regulation?
 
-Privacy Guides respects rights under the European Union’s General Data Protection Regulation (GDPR). Information that GDPR requires Privacy Guides to give can be found throughout this privacy notice, including information on the rights of data subjects.
+Privacy Guides respects rights under the European Union’s General Data Protection Regulation (GDPR). Les informations requises par la RGPD sont trouvables dans cette politique de confidentialité, y compris les informations concernant vos droits relatifs à vos données.
 
-### What are my rights under the GDPR?
+### Quels sont mes droits d'après la RGPD ?
 
-The GDPR provides you with the following rights with respect to personal information about you that we collect or process:
+La RGPD vous donne accès aux droits suivants en ce qui concerne les données personnelles que nous collectons et que nous utilisons :
 
-- the right to [access](#where-can-i-access-data-about-me) your personal data
-- the right to [rectification](#how-can-i-change-or-erase-data-about-me) of inaccurate or incomplete personal data
+- le droit [d'accéder](#where-can-i-access-data-about-me) à vos données personnelles
+- le droit de [rectifier](#how-can-i-change-or-erase-data-about-me) vos données personnelles erronées ou incomplètes
 - the right to [erasure](#how-can-i-change-or-erase-data-about-me) of your personal data
-- the right to [data portability](#where-can-i-access-data-about-me)
-- the right to restrict the processing of your personal data
-- the right to object to certain processing of your information, including [automated decision-making](#does-privacy-guides-make-automated-decisions-based-on-my-data) and [direct marketing](#does-privacy-guides-use-personal-information-for-marketing-purposes)
-- the right to lodge a complaint with a supervisory authority
+- le droit à la [portabilité des données](#where-can-i-access-data-about-me)
+- le droit de restreindre le traitement de vos données personnelles
+- le droit de vous opposer à certaines utilisations de vos données, comme la [prise de décision automatique](#does-privacy-guides-make-automated-decisions-based-on-my-data) et la [publicité ciblée](#does-privacy-guides-use-personal-information-for-marketing-purposes)
+- le droit de déposer une plainte auprès d'une autorité de contrôle
 
-Information about how to exercise these rights is provided throughout this notice and linked above. We try to make exercising all of these rights easy to do on your own through your account settings, but for more complicated inquiries the best option will be to [contact](#how-can-i-contact-privacy-guides-about-privacy) us.
+Pour en savoir plus sur l'exercice de ces droits, vous pouvez continuer à lire cette politique de confidentialité, et consulter les liens ci-dessus. Nous nous efforçons de faciliter l'exercice de vos droits via les paramètres de vos comptes mais nous restons disponible en cas de problème particulier via notre rubrique [contact](#how-can-i-contact-privacy-guides-about-privacy).
 
 ### What is the lawful basis for data collection and processing?
 
-Privacy Guides generally processes your data using 3 of the 6 lawful bases for processing set out in Article 6 of the GDPR:
+Privacy Guides s'appuie généralement sur 3 des 6 base juridiques indiquées dans l'Article 6 de la RGPD :
 
-- **Consent**: When you give us clear consent for us to process your personal data. This consent can be easily withdrawn at any time in your account settings, or you may always contact us for assistance with privacy-related matters.
-- **Contract**: When you give us your personal data in order to participate on services we operate according to our terms of service, or when we require personal data in order to take steps prior to entering a contract or to fulfill a contract.
-- **Legitimate interest**: When we process your personal data for fraud prevention, network and information security, or other reasons where the processing is required for our own legitimate interests or for those of a third party we work with.
+- **Consentement** : Lorsque vos nous donner l'autorisation explicite de traiter vos données. Cette autorisation peut être retirée à tout moment via les paramètres de votre compte mais vous pouvez également nous contacter pour toute question relative à la confidentialité.
+- **Contrat** : Lorsque vous nous donnez vos données personnelles dans le but d'avoir recours aux services que nous proposons en accord avec nos conditions d'utilisation, ou lorsque nous vous demandons des données personnelles préalablement à l'établissement du contrat ou dans le but de l'exécuter.
+- **Intérêt légitime** : Lorsque nous traitons vos données personnelles à des fins de prévention de la fraude, de sécurité du réseau et des informations ou toutes autres raisons qui requière le traitement de vos données pour notre intérêt légitime ou celui de nos partenaires.
 
-The lawful basis for our processing determines what rights are available to you under the GDPR. This table may be used as a reference:
+La base légale du traitement de vos données détermine quels sont les droits qui vous sont accordés par la RGPD. Voici un tableau qui peut servir de référence :
 
-| Activity                                                                                                          | Data Collected                                                                         | Lawful Basis            | Explanation                                                                                                                                                                                                      |
+| Activité                                                                                                          | Données collectées                                                                     | Base légale             | Explications                                                                                                                                                                                                     |
 | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ----------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Website visits](#privacy-guides-collects-information-about-visits-to-its-websites)                               | IP Address, User Agent, Pages Visited                                                  | **Legitimate interest** | Required for defending our website from abuse and technical attacks, diagnosing and debugging technical errors, optimizing our websites, and compiling aggregated non-personal statistics for long-term analysis |
+| [Visite du site web](#privacy-guides-collects-information-about-visits-to-its-websites)                           | Adresse IP, agent utilisateur, pages visitées                                          | **Legitimate interest** | Required for defending our website from abuse and technical attacks, diagnosing and debugging technical errors, optimizing our websites, and compiling aggregated non-personal statistics for long-term analysis |
 | [Account data](#privacy-guides-collects-account-data)                                                             | Email Address, IP Address                                                              | **Legitimate interest** | Required to defend our website against spam and abuse                                                                                                                                                            |
 | [Account data](#privacy-guides-collects-account-data)                                                             | Email Address, Username, Password                                                      | **Contract**            | Required to make our services available to you according to our terms of service                                                                                                                                 |
 | [Account data](#privacy-guides-collects-account-data)                                                             | Optional profile information (name, location, etc.) | **Consent**             | Required to publish the information you provide to your public or internal profile, according to your preferences                                                                                                |
