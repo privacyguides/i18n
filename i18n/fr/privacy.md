@@ -76,59 +76,59 @@ Si vous le souhaitez, vous pouvez ajouter des informations supplémentaires sur 
 
 Privacy Guides stocke ces données tant que votre compte n'est pas supprimé.
 
-### Privacy Guides collects data about posts and other activity
+### Privacy Guides collecte des données concernant vos posts et votre activité
 
-Privacy Guides collects the content of your posts throughout our websites, plus data about bookmarks, likes, and links you follow in order to share that data with others. We also publish this activity to the public when you request it.
+Privacy Guides collecte le contenu de vos posts sur nos sites, les données de marque page, de likes et des liens que vous suivez afin de partager ces données aux autres utilisateurs. Ces informations peuvent être rendues publiques si vous le demandez.
 
-Privacy Guides also collects data about private messages that you send through the forum. Privacy Guides makes private messages available to senders and their recipients, and also to forum moderators and administrators.
+Privacy Guides collecte également des données sur les messages privés que vous envoyez sur le forum. Privacy Guides permet que ces messages soient visibles de l'expéditeur et de leurs destinataires, ainsi que des modérateurs et des administrateurs.
 
-Privacy Guides stores your posts and other activity as long as your account remains open.
+Privacy Guides conserve vos posts et votre activité tant que votre compte n'est pas supprimé.
 
-### Privacy Guides collects data you give to sign up for mailing lists and announcements
+### Privacy Guides collecte les données que vous fournissez lorsque vous vous inscrivez aux listes mail et aux annonces
 
-When you fill out and submit a web form to sign up for mailing lists or announcements, Privacy Guides collects the information you put in the form, such as your e-mail address.
+Lorsque vous remplissez un formulaire pour vous inscrire à une liste mail ou aux annonces, Privacy Guides collecte ces informations, comme votre adresse mail.
 
-Privacy Guides stores this information until you unsubscribe from the mailing list.
+Privacy Guides conserve des informations tant que vous êtes inscrit à la liste mail.
 
-### Privacy Guides does not collect sensitive personal information
+### Privacy Guides ne collecte aucune donnée personnelle sensible
 
-Privacy Guides does not intentionally collect sensitive personal information, such as government identification numbers, information on racial or ethnic origin, political opinions, genetic data, biometric data, health data, or any of the special categories of personal data specified by the GDPR.
+Privacy Guides ne collecte pas intentionnellement des données personnelles sensibles tels des numéros d'identification gouvernementaux, des informations sur la couleur de peau ou les origines, les opinions politiques, les données génétiques, biométrique ou de santé ou tout autre catégorie de données à caractère personnel spécifiée par la RGPD.
 
-### Privacy Guides collects data about open source contributors
+### Privacy Guides collecte des données à propos des contibuteurs open-source
 
-Contributors to Privacy Guides' website may be asked to provide identifying and contact information such as your name and email address.
+Les contributeurs au site web de Privacy Guides peuvent être demandé de fournir des informations d'identification et de contact comme un nom et une adresse mail.
 
-Privacy Guides uses this information to maintain the integrity of our website, software, and license agreements, both our own licenses and the license between Privacy Guides and our contributors. Privacy Guides stores this information for as long as your contributions are incorporated into our open source software, including this website.
+Privacy Guides utilise ces informations pour protéger l'intégrité de nos sites web, logiciel, et de nos accords de licence, qu'il s'agisse de nos propres licences ou de celles convenues entre Privacy Guides et nos contributeurs. Privacy Guides conserve ces informations tant que les contributions font partie de nos projets open source, y compris ce site web.
 
-### Privacy Guides collects data when you donate to us
+### Privacy Guides collecte des données lorsque vous nous faites un don
 
-#### When you subscribe to a membership on privacyguides.org
+#### Lorsque vous souscrivez à un abonnement sur privacyguides.org
 
-When you donate to us through our [membership program](#/portal), we collect your email address. Your payment information is also collected by our payment processor Stripe in order to facilitate the transaction. You can also optionally provide your name, which is used to personalize your experience, and can be removed or changed in your [profile settings](#/portal/account/profile) at any time.
+Lorsque vous nous faites un don via notre [abonnement](#/portal), nous collectons votre adresse mail. Vos informations de paiement sont aussi collectées par notre gestionnaire de paiement Stripe afin de faciliter la transaction. Vous pouvez choisir de donner votre nom, qui est utilisé pour personnaliser votre expérience et peut être supprimé ou changé à tout moment dans les [paramètres de votre profil](#/portal/account/profile).
 
-If your membership and newsletter subscription matches an email address associated with an account on our forum, we will link your membership status to your forum account. This allows you to receive special perks on the forum, such as a members-only title or flair, and access to members-only categories.
+Si l'adresse mail utilisée lors de votre abonnement ou votre inscription à notre newsletter correspond à celle d'un compte sur notre forum, nous afficherons votre status de membre abonné sur votre compte du forum. Celà vous permet d'avoir accès à des avantages sur le forum, comme un titre ou un badge réservé aux membres, ainsi que l'accès aux catégories réservées aux membres.
 
-If the Member title or Member flair is enabled on your forum profile, Privacy Guides will share your username and profile picture on our websites for the purposes of acknowledging your donation to the project. You may revoke this consent at any time by removing the title and flair from your public profile, and we will no longer share your donation status publicly. This will not affect your access to members-only benefits. It may take until the next website release for your data to be removed from public visibility.
+Si le badge ou le titre Membre est activé sur votre profil, Privacy Guides publiera votre nom d'utilisateur et votre photo de profil sur notre site afin de reconnaitre votre soutien au projet. Vous pouvez à tout moment révoquer ce consentement en retirant le titre ou le badge de votre profil public afin que votre statut de donataire ne soit plus partagé. Cela n'affectera pas vos accès aux avantages réservés aux membres abonnés. Ces changements ne seront peut-être effectif qu'à la prochaine mise à jour du site.
 
-#### When you donate to us via GitHub Sponsors
+#### Lorsque vous nous faites un don via GitHub Sponsors
 
-When you donate to us on GitHub Sponsors, we collect your GitHub username and profile picture. Your payment information is also collected by our subprocessors GitHub and Stripe in order to facilitate the transaction.
+Lorsque vous nous faites un don sur GitHub Sponsors, nous collectons votre nom d'utilisateur et votre photo de profil GitHub. Vos informations de paiements sont collectées par nos sous-traitant GitHub et Strip afin de faciliter la transaction.
 
-If you choose to make your donation public during or after the checkout process on GitHub, Privacy Guides will share your username and profile picture on our websites for the purposes of fulfilling your request. You may revoke this consent at any time, and we will no longer share your donation status publicly. It may take until the next website release for your data to be removed from public visibility.
+Si vous choisissez de rendre public votre don pendant ou après le processus d'achat sur GitHub, Privacy Guides partagera votre nom d'utilisateur et votre photo de profil sur nos sites web afin de répondre à cette requête. Vous pouvez révoquer ce consentement à tout moment et nous ne partagerons plus votre statut de donataire publiquement. Ces changements ne seront peut-être effectif qu'à la prochaine mise à jour du site.
 
-#### When you subscribe to a membership or donate to us on donate.magicgrants.org
+#### Lorsque vous vous abonnez ou que vous nous faites un don via donate.magicgrants.org
 
-When you donate to us on [donate.magicgrants.org](https://donate.magicgrants.org/privacyguides), a [separate privacy policy](https://donate.magicgrants.org/privacy) applies as noted at the beginning of this document.
+Lorsque vous nous faites un don sur [donate.magicgrants.org](https://donate.magicgrants.org/privacyguides), une [différente politique de confidentialité](https://donate.magicgrants.org/privacy) s'applique, comme nous l'avons précisé au début de ce document.
 
-However, if you optionally link your `donate.magicgrants.org` account to your Privacy Guides forum account, our forum collects some personal data which is covered by this notice: namely your forum username and whether you have an active membership.
+Cependant, si vous souhaitez relier votre compte `donate.magicgrants.org` à votre compte du forum Privacy Guides, le forum collectera certaines données personnelles précisées dans cette notice : votre nom d'utilisateur et votre statut de membre abonné.
 
-We process that information in order to grant you special perks on the forum. Additionally, if you choose to make this status public by setting a members-only title or flair, we will share the status of your active membership on our websites. You may revoke this consent at any time by removing the title and flair from your public profile, and we will no longer share your donation status publicly. This will not affect your access to members-only benefits. It may take until the next website release for your data to be removed from public visibility.
+Nous traitons ces informations afin de vous octroyer des avantages sur le forum. De plus, si vous souhaitez rendre ce statut public via un titre ou un badge réservé aux membres abonnés, nous partagerons ce statut sur notre site. Vous pouvez à tout moment révoquer ce consentement en retirant le titre ou le badge de votre profil public afin que votre statut de donataire ne soit plus partagé. Cela n'affectera pas vos accès aux avantages réservés aux membres abonnés. Ces changements ne seront peut-être effectif qu'à la prochaine mise à jour du site.
 
-This information is stored for as long as your membership is active, or until you unlink your forum and MAGIC Grants donation accounts in your profile settings.
+Ces informations sont stockées tant que votre abonnement est en cours, ou jusqu'à ce que vous sépariez vos comptes du forum et de MAGIC Grants dans les paramètres de votre profil.
 
-### Privacy Guides collects data when you contact us
+### Privacy Guides collecte des données lorsque vous nous contactez
 
-When you contact Privacy Guides via email, Signal, or any of our other contact methods, we collect the information you submit to us, and any identifying information associated with the account you use to contact us. For example, when you contact us via Signal we will collect your Signal profile information. Lorsque vous nous contactez par mail, nous collectons votre adresse mail, nom et l'adresse IP du serveur mail.
+Lorsque vous contactez Privacy Guides par mail, Signal, ou tout autre méthode, nous collectons les informations que vous nous fournissez ainsi que toutes les informations d'identification associées au compte que vous avez utilisé pour nous contacter. Par exemple, si vous nous contactez par Signal, nous collecterons les données de votre profil Signal. Lorsque vous nous contactez par mail, nous collectons votre adresse mail, nom et l'adresse IP du serveur mail.
 
 Dans ce cas nous limitons l'utilisation des données au strict nécessaire pour communiquer avec vous et organiser nos mails.
 
