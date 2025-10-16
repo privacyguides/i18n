@@ -115,7 +115,7 @@ Ambas versiones de Molly ofrecen las mismas mejoras de seguridad y admiten [comp
 [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads "Descargas"</summary>
+<summary>Downloads</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1605771084)
@@ -123,6 +123,7 @@ Ambas versiones de Molly ofrecen las mismas mejoras de seguridad y admiten [comp
 - [:fontawesome-brands-windows: Windows](https://simplex.chat/downloads/#desktop-app)
 - [:simple-apple: macOS](https://simplex.chat/downloads/#desktop-app)
 - [:simple-linux: Linux](https://simplex.chat/downloads/#desktop-app)
+- [:simple-flathub: Flathub](https://flathub.org/en/apps/chat.simplex.simplex)
 
 </details>
 

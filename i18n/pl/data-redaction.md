@@ -25,19 +25,19 @@ Nie powinieneś **nigdy** używać rozmycia do ukrycia [tekstu na obrazach](http
 
 ![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
 
-**MAT2** to darmowe, wieloplatformowe oprogramowanie, które umożliwia usuwanie metadanych z plików graficznych, audio, torrent i dokumentów. Dostarcza zarówno narzędzie wiersza poleceń, jak i graficzny interfejs użytkownika za pomocą rozszerzenia dla [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), domyślny menedżer plików [KDE](https://kde.org).
+**MAT2** to darmowe, wieloplatformowe oprogramowanie, które umożliwia usuwanie metadanych z plików graficznych, audio, torrent i dokumentów. It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://github.com/jvoisin/mat2/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
 
-[:octicons-repo-16: Repository](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
-[:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title="Documentation" }
-[:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Source Code" }
+[:octicons-repo-16: Repository](https://github.com/jvoisin/mat2#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/jvoisin/mat2#how-to-use-mat2){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/jvoisin/mat2){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Pliki do pobrania</summary>
+<summary>Downloads</summary>
 
-- [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2#metadata-and-privacy)
-- [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
+- [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2)
+- [:simple-apple: macOS](https://github.com/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
 - [:simple-linux: Linux](https://pypi.org/project/mat2)
-- [:octicons-globe-16: Web](https://0xacab.org/jvoisin/mat2#web-interface)
+- [:octicons-browser-16: Web](https://github.com/jvoisin/mat2#web-interface)
 
 </details>
 

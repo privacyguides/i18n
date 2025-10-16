@@ -106,7 +106,7 @@ Privacy Guides utilise ces informations pour protéger l'intégrité de nos site
 
 Lorsque vous nous faites un don via notre [abonnement](#/portal), nous collectons votre adresse mail. Vos informations de paiement sont aussi collectées par notre gestionnaire de paiement Stripe afin de faciliter la transaction. Vous pouvez choisir de donner votre nom, qui est utilisé pour personnaliser votre expérience et peut être supprimé ou changé à tout moment dans les [paramètres de votre profil](#/portal/account/profile).
 
-Si l'adresse mail utilisée lors de votre abonnement ou votre inscription à notre newsletter correspond à celle d'un compte sur notre forum, nous afficherons votre status de membre abonné sur votre compte du forum. Celà vous permet d'avoir accès à des avantages sur le forum, comme un titre ou un badge réservé aux membres, ainsi que l'accès aux catégories réservées aux membres.
+Si l'adresse mail utilisée lors de votre abonnement ou votre inscription à notre newsletter correspond à celle d'un compte sur notre forum, nous afficherons votre status de membre abonné sur votre compte du forum. Cela vous permet d'avoir accès à des avantages sur le forum, comme un titre ou un badge réservé aux membres, ainsi que l'accès aux catégories réservées aux membres.
 
 Si le badge ou le titre Membre est activé sur votre profil, Privacy Guides publiera votre nom d'utilisateur et votre photo de profil sur notre site afin de reconnaitre votre soutien au projet. Vous pouvez à tout moment révoquer ce consentement en retirant le titre ou le badge de votre profil public afin que votre statut de donataire ne soit plus partagé. Cela n'affectera pas vos accès aux avantages réservés aux membres abonnés. Ces changements ne seront peut-être effectif qu'à la prochaine mise à jour du site.
 
@@ -155,56 +155,56 @@ Notre site web utilise le système open-source de gestion de contenu Ghost pour 
 
 Notre forum est basé sur Discourse et utilise les cookies suivants :
 
-| Nom                                                           | Essentiel | Expiration     | Utilisation                                                                                                               |
-| ------------------------------------------------------------- | --------- | -------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| email                                                         | Oui       | Session        | permet de se souvenir de votre email pendant la création de compte                                                        |
-| destination_url                          | Oui       | Session        | permet de vous rediriger vers la page que vous avez demandé après vous être connecté                                      |
-| sso_destination_url | Oui       | Session        | permet de vous rediriger vers la page que vous avez demandé après l'inscription                                           |
-| sso_payload                              | Oui       | Session        | utilisé lors de l'authentification SSO lorsque l'authentification à deux facteur est activée                              |
-| authentication_data                      | Oui       | Next Page View | temporarily stores user information during login flows                                                                    |
-| theme_ids                                | Oui       | 1 year         | remembers your theme personalization if you don’t tick “Make this my default theme on all my devices”                     |
-| color_scheme_id     | Oui       | 1 year         | remembers your color personalization if you don’t tick “Set default color scheme(s) on all my devices” |
-| dark_scheme_id      | Oui       | 1 year         | remembers your color personalization if you don’t tick “Set default color scheme(s) on all my devices” |
-| cn                                                            | Oui       | Session        | temporarily stores notification read state                                                                                |
-| _bypass_cache       | Oui       | Session        | allows the server-side cache to be bypassed during login flows                                                            |
-| _t                                       | Oui       | 1440 Hours     | remembers who you are when you log in                                                                                     |
-| _forum_session      | Oui       | Session        | associates an ID, and other security-related information, with your browsing session                                      |
-| dosp                                                          | Oui       | Next Page View | enables client denial of service protection, a security protection                                                        |
-| text_size                                | Oui       | 1 year         | remembers default text size when a user wants to change it on only one device                                             |
-| cookietest                                                    | Oui       | Session        | checks if cookies are enabled when authentication fails                                                                   |
-| __profilin          | Non       | Session        | used by software developers to bypass rack-mini-profiler                                                                  |
+| Nom                                                           | Essentiel | Expiration                     | Utilisation                                                                                                            |
+| ------------------------------------------------------------- | --------- | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
+| email                                                         | Oui       | Session                        | permet de se souvenir de votre email pendant la création de compte                                                     |
+| destination_url                          | Oui       | Session                        | permet de vous rediriger vers la page que vous avez demandé après vous être connecté                                   |
+| sso_destination_url | Oui       | Session                        | permet de vous rediriger vers la page que vous avez demandé après l'inscription                                        |
+| sso_payload                              | Oui       | Session                        | utilisé lors de l'authentification SSO lorsque l'authentification à deux facteur est activée                           |
+| authentication_data                      | Oui       | Prochaine consultation de page | conserve temporairement les informations de l'utilisateur pendant les flux de connexion                                |
+| theme_ids                                | Oui       | 1 an                           | se souvient de votre choix de thème si vous n'avez pas coché "En faire mon thème par défaut sur tous mes appareils"    |
+| color_scheme_id     | Oui       | 1 an                           | se souvient de votre choix de couleur si vous n'avez pas coché "En faire ma couleur par défaut sur tous mes appareils" |
+| dark_scheme_id      | Oui       | 1 an                           | se souvient de votre choix de couleur si vous n'avez pas coché "En faire ma couleur par défaut sur tous mes appareils" |
+| cn                                                            | Oui       | Session                        | conserve temporairement l'état de lecture des notifications                                                            |
+| _bypass_cache       | Oui       | Session                        | permet de contourner le cache côté serveur pendant les flux de connexion                                               |
+| _t                                       | Oui       | 1440 heures                    | se souvient de qui vous êtes lorsque vous vous connectez                                                               |
+| _forum_session      | Oui       | Session                        | associe un identifiant et autre informations relatives à la sécurité à votre session de navigation                     |
+| dosp                                                          | Oui       | Prochaine consultation de page | une fonctionnalité de sécurité qui active la protection contre le déni de service                                      |
+| text_size                                | Oui       | 1 an                           | se souvient de votre taille de texte par défaut lorsqu'un utilisateur la modifie sur seulement un appareil             |
+| cookietest                                                    | Oui       | Session                        | vérifie que les cookies soient activés lorsque l'authentification échoue                                               |
+| __profilin          | Non       | Session                        | utilisé par les les développeurs de logiciel pour contourner rack-mini-profiler                                        |
 
-Your web browser can show you the cookies you have for any website and help you manage them.
+Votre navigateur web peut vous permettre de consulter et de gérer les cookies pour n'importe quel site web.
 
-### Privacy Guides makes regular backups of all data
+### Privacy Guide effectue régulièrement des sauvegarde de toutes les données
 
-Privacy Guides keeps automated backups of **all** data it collects. These backups are stored for up to 30 days. Any time you delete personal data from our websites, a copy may be retained in backup archives until those archives are pruned.
+Privacy Guides conserve des sauvegardes automatiques de **toutes** les données collectées. Ces sauvegardes sont conservées pendant 30 jours. Lorsque vous supprimez des données personnelles de nos sites web, une copie est peut être conservée dans une archive de sauvegarde jusqu'à sa suppression.
 
-## Does Privacy Guides use personal information for marketing purposes?
+## Privacy Guides utilisent-ils les données personnelles à des fins de marketing ?
 
-Privacy Guides may use personal data about our users in order to directly promote our own resources, such as for sharing new resources or when fundraising. We also use the information you give us when signing up for our mailing lists and announcements to send those messages.
+Privacy Guides est susceptible d'utiliser les données personnelles de ces utilisateurs afin de promouvoir directement notre propre contenu, pour partager des nouvelles ressources ou pour une levée de fonds par exemple. Nous utilisons aussi les informations que vous nous fournissez lorsque vous vous inscrivez à des listes mail et à nos annonces pour pouvoir vous les envoyer.
 
-You can always opt out of marketing communications from us, and you have the right to object to any processing of your information for marketing purposes.
+Vous pouvez à tout moment refuser de recevoir des communications publicitaires de notre part, et vous avez le droit de vous opposer au traitement de vos données à des fins de promotion.
 
-Privacy Guides never provides or sells your data to third-parties for marketing purposes.
+Privacy Guides ne donne ni ne vend jamais vos données à des tiers à des fins publicitaires.
 
-## How can I make choices about data collection?
+## Comment puis-je prendre des décisions concernant la collecte de mes données ?
 
-Your account on our websites has a settings page which provides you with options about how your data is used.
+Dans les paramètre du compte de nos site web vous trouverez les options vous permettant de choisir comment seront traiter vos données.
 
-Most web browsers let you make choices about whether to accept cookies, for specific websites or more generally.
+La plupart des navigateurs vous permettent de choisir d'accepter ou non les cookies, pour des sites en particulier ou de façon plus générale.
 
-Privacy Guides does not respond to the (now deprecated) [Do Not Track HTTP header](https://en.wikipedia.org/wiki/Do_Not_Track).
+Privacy Guides ne répond pas à [l'en-tête HTTP Do Not Track] (désormais obsolète) (https://en.wikipedia.org/wiki/Do_Not_Track).
 
-## Where does Privacy Guides store data about me?
+## Où sont stockées mes données collectées par Privacy Guides ?
 
-Most data is hosted by [Triplebit](https://www.triplebit.org) web services in the United States.
+La majorité des données sont hébergées par les services web [Triplebit](https://www.triplebit.org) aux États-Unis.
 
-Some publicly accessible data may be hosted by Content Delivery Networks with servers in other jurisdictions. For example, your profile picture may be stored on multiple servers around the world in order to improve the performance for visitors to our website.
+Certaines données publiquement accessibles peuvent également être hébergée par Content Delivery Networks dans des serveurs situés dans d'autres juridictions. Par exemple, votre photo de profil peut être stockée dans plusieurs serveurs dans le monde entier afin d'améliorer les performances pour les visiteurs de notre site.
 
-## Does Privacy Guides comply with the EU General Data Protection Regulation?
+## Privacy Guides est-il conforme à la Règlementation Générale sur la Protection des Données de l'UE ?
 
-Privacy Guides respects rights under the European Union’s General Data Protection Regulation (GDPR). Les informations requises par la RGPD sont trouvables dans cette politique de confidentialité, y compris les informations concernant vos droits relatifs à vos données.
+Privacy Guides respecte les droits prévus par la Règlementation Générale sur la Protection des Données (RGPD) de l'Union Européenne. Les informations requises par la RGPD sont trouvables dans cette politique de confidentialité, y compris les informations concernant vos droits relatifs à vos données.
 
 ### Quels sont mes droits d'après la RGPD ?
 
@@ -257,27 +257,27 @@ Actuellement :
 - Privacy Guides emploie du [personnel](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all) aux Etats-Unis, en Australie et dans d'autres pays non européens sans décision d'adéquation avec l'UE en termes de RGPD. Ces personnes sont susceptibles d'avoir besoin d'accéder à vos informations personnelles du forum afin de pouvoir assurer la continuité, de répondre aux questions relatives à la confidentialité et à la sécurité, de résoudre les requêtes de support technique et tout autre tâches d'assistance aux utilisateurs.
 - Privacy Guides est vraisemblablement soumis à la section 702 de la Foreign Intelligence Surveillance Act des Etats-Unis, une loi qui est jugée comme non conforme au respect des droits et des libertés des personnes par la Cours Européenne de Justice.
 - Privacy Guides n'a jamais fait l'objet d'un ordre ou d'une demande de données personnelles selon la loi FISA 702 ou tout autre loi de surveillance ou de sécurité nationnale provenant d'un autre pays. Privacy Guides ne fait pas l'objet d'une décision de justice ou d'une obligation judiciaire lui interdisant de révéler l'existence ou la non-existence d'un tel ordre ou d'une telle demande.
-- Privacy Guides a mis en place une marche à suivre au cas où nous ferions l'objet d'un tel ordre ou d'une telle demande. Privacy Guides will suspend processing, notify any affected user, minimize disclosure, and resist disclosure of personal data, all as the law allows.
+- Privacy Guides a mis en place une marche à suivre au cas où nous ferions l'objet d'un tel ordre ou d'une telle demande. Privacy Guides cessera de traiter les données, préviendra les utilisateurs affectés, minimisera et s'opposera à la divulgation des données dans le cadre prévu par la loi.
 
-Because national security and surveillance laws may be in conflict with European data protection rules, Privacy Guides continually reassesses the practical reach of these laws to ensure our data transfers are adequately safeguarded.
+Les lois nationales sur la sécurité et la surveillance pouvant être en conflit avec les règles européennes de protection des données, Privacy Guides réévalue en permanence les implications pratiques de ces lois afin de s'assurer que nos transferts de données sont correctement protégés.
 
-## Does Privacy Guides comply with the California Consumer Privacy Act and other US state comprehensive privacy laws?
+## Privacy Guides sont-ils conformes à la California Consumer Privacy Act ou tout autre loi étasunienne relative à la confidentialité ?
 
-Privacy Guides is not a "business" for the purposes of the California Consumer Privacy Act (CCPA) or a “controller” directly subject to other US state comprehensive privacy laws.
+Privacy Guides n'est pas une "entreprise" telle que décrite dans la CCPA ni un "controller" directement sujet à d'autres lois étasuniennes relatives à la confidentialité.
 
-Privacy Guides **never** sells your personal information.
+Privacy Guide ne vend **jamais** vos données personnelles.
 
-## Where can I access data about me?
+## Où puis-je accèder aux données me concernant ?
 
-You can see your account data by visiting your profile page on any websites where we offer accounts. Your account profile will also list your posts and other activity on the website.
+Vous pouvez voir les données relatives à votre compte en consultant votre page de profil sur nos sites qui propose un service de compte. Votre profil vous permettra également de consulter vos posts et autres activités sur le site.
 
-On the forum, your [profile settings](https://discuss.privacyguides.net/my/preferences/account) include a link to download all of your activity in standard Comma Separated Values format.
+Sur le forum, vous pouvez télécharger toute votre activité en format standard Comma Separated Values (CSV) via un lien trouvable dans les [paramètres du profil](https://discuss.privacyguides.net/my/preferences/account).
 
-If you do not have an account with us but have a data access request, please [contact us](about.md).
+Si vos n'avez pas de compte mais que vous souhaitez accéder aux données vous concernant, veuillez nous [contacter](about.md).
 
-## How can I change or erase data about me?
+## Comment puis-je modifier ou supprimer des données me concernant ?
 
-You can change your account data at any time by visiting the profile settings page for your account. You also have the option to delete your profile on the settings page of your account. Utilizing this option begins the process of erasing or anonymizing Privacy Guides' records of data you provided for your account. Les administrateurs et les modérateurs du forum ont également la possibilité d'effacer et d'anonymiser les comptes.
+Vous pouvez changer les données de votre profil à tout moment dans les paramètres de votre profil. Vous pouvez aussi supprimer votre profil dans les paramètres de votre compte. Utiliser cette option déclenchera le processus de suppression ou d'anonymisation des données que vous avez fournies à Privacy Guides. Les administrateurs et les modérateurs du forum ont également la possibilité d'effacer et d'anonymiser les comptes.
 
 Vous avez la possibilité de modifier, d'anonymiser ou d'effacer vos posts. Lorsque vous les modifiez, Privacy Guides conservera toutes les versions de vos posts. Celles-ci ne sont pas publiques mais sont accessible par les modérateurs et les administrateurs du forum.
 
@@ -318,12 +318,12 @@ Privacy Guides a recours aux sous-traitants suivant et est susceptible de partag
 | [Fediverse Communications LLC](https://fediverse.us) (États-Unis) | PeerTube                                                                                     | Pour héberger les vidéos publiques produites par Privacy Guides partagées ou intégrées à ce site web.                                                             | États-Unis          | [Pour en savoir plus](https://neat.tube/about/instance)                                                                    |
 | [GitHub](https://github.com) (États-Unis)                         | Dépôts Git                                                                                   | _Pour les visiteurs de ce site_ : partager des informations avec nos visiteurs sur la version en cours, le nombre d'étoiles sur notre dépôt, etc. | États-Unis          | [Politique de Confidentialité](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)   |
 | [GitHub](https://github.com) (États-Unis)                         | Dépôts Git, tickets, Pull Requests                                                           | _Pour les contributeurs de ce site_ : héberger notre code source et nos plateformes de communication comme nos trackers de tiquets.               | États-Unis          | [Politique de Confidentialité](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)   |
-| [GitHub](https://github.com) (États-Unis)                         | [Sponsors](https://github.com/sponsors/privacyguides)                                        | For collecting payments for gifts to Privacy Guides                                                                                                                               | États-Unis          | [Politique de Confidentialité](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)   |
-| [Mailgun](https://www.mailgun.com) (USA)                          | Email Delivery                                                                               | For sending newsletters and other email messages to users                                                                                                                         | États-Unis          | [Privacy Notice](https://www.mailgun.com/privacy-policy), [GDPR Center](https://www.mailgun.com/gdpr)                      |
-| [Stripe](https://stripe.com) (USA)                                | Connect                                                                                      | Payment processing for donations                                                                                                                                                  | États-Unis          | [Privacy Notice](https://stripe.com/privacy), [GDPR Center](https://stripe.com/legal/privacy-center)                       |
-| [Triplebit](https://www.triplebit.org) (USA)                      | Object Storage                                                                               | For hosting static websites and static media content, and distributing static content                                                                                             | USA, Poland         | [Privacy Notice](https://www.triplebit.org/privacy)                                                                        |
-| [Triplebit](https://www.triplebit.org) (USA)                      | [Umami Statistics](https://stats.triplebit.net/share/S80jBc50hxr5TquS/www.privacyguides.org) | For compiling aggregated statistics of our website visitor data based on server-side visitor info submissions                                                                     | États-Unis          | [Privacy Notice](https://www.triplebit.org/privacy)                                                                        |
-| [Triplebit](https://www.triplebit.org) (USA)                      | Virtual Private Servers                                                                      | For hosting our dynamic websites, storing and processing personal data.                                                                                           | États-Unis          | [Privacy Notice](https://www.triplebit.org/privacy)                                                                        |
+| [GitHub](https://github.com) (États-Unis)                         | [Sponsors](https://github.com/sponsors/privacyguides)                                        | Pour collecter les paiements pour les cadeaux destinés à Privacy Guides                                                                                                           | États-Unis          | [Politique de Confidentialité](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)   |
+| [Mailgun](https://www.mailgun.com) (États-Unis)                   | Envoi d'emails                                                                               | Pour envoyer des newsletters et autres messages mail à nos utilisateurs                                                                                                           | États-Unis          | [Politique de Confidentialité](https://www.mailgun.com/privacy-policy), [Centre RGPD](https://www.mailgun.com/gdpr)        |
+| [Stripe](https://stripe.com) (USA)                                | Connexion                                                                                    | Traitement des paiments pour les dons                                                                                                                                             | États-Unis          | [Politique de Confidentialité](https://stripe.com/privacy), [Centre RGPD](https://stripe.com/legal/privacy-center)         |
+| [Triplebit](https://www.triplebit.org) (États-Unis)               | Stockage                                                                                     | Pour le stockage de nos sites web statiques et du contenu média statique, et pour la distribution du contenu statique                                                             | États-Unis, Pologne | [Politique de Confidentialité](https://www.triplebit.org/privacy)                                                          |
+| [Triplebit](https://www.triplebit.org) (États-Unis)               | [Umami Statistics](https://stats.triplebit.net/share/S80jBc50hxr5TquS/www.privacyguides.org) | For compiling aggregated statistics of our website visitor data based on server-side visitor info submissions                                                                     | États-Unis          | [Politique de Confidentialité](https://www.triplebit.org/privacy)                                                          |
+| [Triplebit](https://www.triplebit.org) (États-Unis)               | Virtual Private Servers                                                                      | For hosting our dynamic websites, storing and processing personal data.                                                                                           | États-Unis          | [Politique de Confidentialité](https://www.triplebit.org/privacy)                                                          |
 
 ## Does Privacy Guides delete inactive accounts?
 

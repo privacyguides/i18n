@@ -96,7 +96,9 @@ Tresorit est également certifié par le Digital Trust Label, délivrée par la 
 
 ![Logo de Peergos](assets/img/cloud/peergos.svg){ align=right }
 
-**Peergos** est un protocole décentralisé et une plateforme open-source pour le stockage, les réseaux sociaux et les applications. Avec Peergos, vous pouvez stocker, partager, consulter et modifier vos photos, vidéos, documents, etc, de façon privée et sécurisée. Le chiffrement de Peergos est un chiffrement de bout-en-bout résistant aux attaques quantiques, garantissant ainsi la confidentialité de vos données.
+**Peergos** est un protocole décentralisé et une plateforme open-source pour le stockage, les réseaux sociaux et les applications. It provides a secure and private space where users can store, share, view, and edit their photos, videos, documents, etc.
+
+Peergos secures your files with quantum-resistant E2EE and ensures all data about your files remains private. It is also [self-hostable](https://book.peergos.org/features/self).
 
 [:octicons-home-16: Page d'Accueil](https://peergos.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://peergos.net/privacy.html){ .card-link title="Politique de Confidentialité" }
@@ -120,7 +122,7 @@ Tresorit est également certifié par le Digital Trust Label, délivrée par la 
 
 Peergos fonctionne avec le [système de fichier interplanétaire (InterPlanetary File System ou IPFS)](https://ipfs.tech), un protocole pair à  pair qui permet de contourner la [:material-close-outline: Censure](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}.
 
-Peergos est disponible en tant qu'application web, applications de bureau et application Android, et vous pouvez également héberger vous-même votre serveur. Le client, le serveur, et l'interface de ligne de commande sont tous exécutés à partir du même binaire. Il est possible de synchroniser de manière bidirectionnelle un dossier local avec un dossier Peergos (accessible via l'application de bureau et l'application Android), ainsi que d'utiliser un pont WebDAV pour permettre à d'autres applications d'accèder au stockage Peergos.
+The client, server, and command line interface for Peergos all run from the same binary. Additionally, Peergos includes a [sync engine](https://book.peergos.org/features/sync) (accessible via the native apps) for bi-directionally synchronizing a local folder with a Peergos folder, and a [webdav bridge](https://book.peergos.org/features/webdav) to allow other applications to access your Peergos storage. You can refer to Peergos's documentation for a full overview of their numerous features.
 
 Peergos a été [auditionné](https://peergos.org/posts/security-audit-2024) en novembre 2024 par Radically Open Security et tous les problèmes ont été corrigés. Ils ont été précédemment [auditionnés](https://cure53.de/pentest-report_peergos.pdf) par Cure53 en juin 2019, à la suite de quoi tous les problèmes trouvés ont été résolus.
 

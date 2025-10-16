@@ -25,19 +25,19 @@ Görüntülerdeki metinleri] düzenlemek için bulanıklaştırmayı **asla** ku
 
 ![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
 
-**MAT2**, görüntü, ses, torrent ve belge dosya türlerinden meta verileri kaldırmanıza olanak tanıyan ücretsiz, platformlar arası bir yazılımdır. KDE](https://kde.org)'nin varsayılan dosya yöneticisi olan [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin) için bir uzantı aracılığıyla hem bir komut satırı aracı hem de bir grafik kullanıcı arayüzü sağlar.
+**MAT2**, görüntü, ses, torrent ve belge dosya türlerinden meta verileri kaldırmanıza olanak tanıyan ücretsiz, platformlar arası bir yazılımdır. It provides both a command line tool and a graphical user interface via an extension for [Dolphin](https://github.com/jvoisin/mat2/tree/master/dolphin), the default file manager of [KDE](https://kde.org).
 
-[:octicons-repo-16: Repository](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
-[:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title="Documentation" }
-[:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Kaynak Kod" }
+[:octicons-repo-16: Repository](https://github.com/jvoisin/mat2#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/jvoisin/mat2#how-to-use-mat2){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/jvoisin/mat2){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
-- [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2#metadata-and-privacy)
-- [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
+- [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2)
+- [:simple-apple: macOS](https://github.com/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
 - [:simple-linux: Linux](https://pypi.org/project/mat2)
-- [:octicons-globe-16: Web](https://0xacab.org/jvoisin/mat2#web-interface)
+- [:octicons-browser-16: Web](https://github.com/jvoisin/mat2#web-interface)
 
 </details>
 

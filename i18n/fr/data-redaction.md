@@ -25,19 +25,19 @@ Vous ne devez **jamais** utiliser le flou pour expurger [du texte dans les image
 
 ![MAT2 logo](assets/img/data-redaction/mat2.svg){ align=right }
 
-**MAT2** est gratuit, logiciel multi-plateforme qui vous permet de supprimer les métadonnées des types d'image, d'audio, de torrent et de fichiers de documents. Il fournit à la fois un outil en ligne de commande et une interface utilisateur graphique via une extension pour [Dolphin](https://0xacab.org/jvoisin/mat2/-/tree/master/dolphin), le gestionnaire de fichiers par défaut de [KDE](https://kde.org).
+**MAT2** est gratuit, logiciel multi-plateforme qui vous permet de supprimer les métadonnées des types d'image, d'audio, de torrent et de fichiers de documents. Il propose à la fois un outil en ligne de commande et une interface graphique grâce à une extension pour [Dolphin](https://github.com/jvoisin/mat2/tree/master/dolphin), le gestionnaire de fichiers par défaut de [KDE](https://kde.org).
 
-[:octicons-repo-16: Dépôt](https://0xacab.org/jvoisin/mat2){ .md-button .md-button--primary }
-[:octicons-info-16:](https://0xacab.org/jvoisin/mat2/-/blob/master/README.md){ .card-link title=Documentation}
-[:octicons-code-16:](https://0xacab.org/jvoisin/mat2){ .card-link title="Code Source" }
+[:octicons-repo-16: Repository](https://github.com/jvoisin/mat2#readme){ .md-button .md-button--primary }
+[:octicons-info-16:](https://github.com/jvoisin/mat2#how-to-use-mat2){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/jvoisin/mat2){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Téléchargements</summary>
+<summary>Downloads</summary>
 
-- [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2#metadata-and-privacy)
-- [:simple-apple: macOS](https://0xacab.org/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
+- [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2)
+- [:simple-apple: macOS](https://github.com/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)
 - [:simple-linux: Linux](https://pypi.org/project/mat2)
-- [:octicons-globe-16: Web](https://0xacab.org/jvoisin/mat2#web-interface)
+- [:octicons-browser-16: Web](https://github.com/jvoisin/mat2#web-interface)
 
 </details>
 
