@@ -43,23 +43,23 @@ N° Privacy Guides ne vend pas vos données personnelles. De plus, Privacy Guide
 
 ### Privacy Guides collecte les données relatives à la consultation de ses sites web
 
-When you visit one of our websites, whether you have an account or not, we use server logs and other methods to collect data about what pages you visit and when.
+Lorsque vous visitez un de nos sites web, que vous soyez connecté à un compte ou non, nous utilisons des logs serveur et autres méthodes pour collecter des données sur quelles pages vous consultez et quand.
 
-We use this data to:
+Nous utilisons ces données pour :
 
-- Optimize our websites, so they are quick and easy to use.
-- Diagnose and debug technical errors.
-- Defend our websites from abuse and technical attacks.
-- Compile statistics on page/topic popularity.
-- Compile statistics on the type of browser and devices our visitors use.
+- Optimiser nos sites web pour qu'ils soient rapides et simples à utiliser.
+- Diagnostiquer et résoudre les erreurs techniques.
+- Protéger nos sites web des abus et des attaques.
+- Établir des statistiques sur la popularité des pages/sujets.
+- Établir des statistiques sur les types de navigateurs et d'appareils utilisés par nos visiteurs.
 
-We generally store the above information for just a few weeks. In special circumstances, such as during an ongoing technical attack or a subsequent investigation, we may preserve some log data longer for analysis.
+Toutes ces informations sont ne généralement conservées que quelques semaines. Dans certaines circonstances, par exemple lors d'une attaque ou de l'enquête qui suit, nous sommes susceptibles de conserver ces données plus longtemps pour les analyser.
 
-Privacy Guides stores aggregated statistics for as long as we host our websites, but those statistics do not contain data identifiable to you personally.
+Privacy Guides conservera ces statistiques tant que nous hébergerons nos sites web, mais celles-ci ne contiennent aucune donnée personnellement identifiable.
 
-### Privacy Guides collects account data
+### Privacy Guides collecte des données sur les comptes
 
-Many features on our forum or other account-based services require an account. For example, you are required to have an account in order to post and reply to topics.
+Beaucoup des fonctionnalités de notre forum et de certains autres de nos services requièrent de créer un compte. For example, you are required to have an account in order to post and reply to topics.
 
 To sign up for an account, Privacy Guides requires your email address, a username, and a password.
 
