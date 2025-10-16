@@ -320,31 +320,31 @@ Privacy Guides a recours aux sous-traitants suivant et est susceptible de partag
 | [GitHub](https://github.com) (États-Unis)                         | Dépôts Git, tickets, Pull Requests                                                           | _Pour les contributeurs de ce site_ : héberger notre code source et nos plateformes de communication comme nos trackers de tiquets.               | États-Unis          | [Politique de Confidentialité](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)   |
 | [GitHub](https://github.com) (États-Unis)                         | [Sponsors](https://github.com/sponsors/privacyguides)                                        | Pour collecter les paiements pour les cadeaux destinés à Privacy Guides                                                                                                           | États-Unis          | [Politique de Confidentialité](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)   |
 | [Mailgun](https://www.mailgun.com) (États-Unis)                   | Envoi d'emails                                                                               | Pour envoyer des newsletters et autres messages mail à nos utilisateurs                                                                                                           | États-Unis          | [Politique de Confidentialité](https://www.mailgun.com/privacy-policy), [Centre RGPD](https://www.mailgun.com/gdpr)        |
-| [Stripe](https://stripe.com) (USA)                                | Connexion                                                                                    | Traitement des paiments pour les dons                                                                                                                                             | États-Unis          | [Politique de Confidentialité](https://stripe.com/privacy), [Centre RGPD](https://stripe.com/legal/privacy-center)         |
+| [Stripe](https://stripe.com) (États-Unis)                         | Connexion                                                                                    | Traitement des paiments pour les dons                                                                                                                                             | États-Unis          | [Politique de Confidentialité](https://stripe.com/privacy), [Centre RGPD](https://stripe.com/legal/privacy-center)         |
 | [Triplebit](https://www.triplebit.org) (États-Unis)               | Stockage                                                                                     | Pour le stockage de nos sites web statiques et du contenu média statique, et pour la distribution du contenu statique                                                             | États-Unis, Pologne | [Politique de Confidentialité](https://www.triplebit.org/privacy)                                                          |
-| [Triplebit](https://www.triplebit.org) (États-Unis)               | [Umami Statistics](https://stats.triplebit.net/share/S80jBc50hxr5TquS/www.privacyguides.org) | For compiling aggregated statistics of our website visitor data based on server-side visitor info submissions                                                                     | États-Unis          | [Politique de Confidentialité](https://www.triplebit.org/privacy)                                                          |
-| [Triplebit](https://www.triplebit.org) (États-Unis)               | Virtual Private Servers                                                                      | For hosting our dynamic websites, storing and processing personal data.                                                                                           | États-Unis          | [Politique de Confidentialité](https://www.triplebit.org/privacy)                                                          |
+| [Triplebit](https://www.triplebit.org) (États-Unis)               | [Umami Statistics](https://stats.triplebit.net/share/S80jBc50hxr5TquS/www.privacyguides.org) | Pour compiler des statistiques sur les données des visiteurs de notre site web, sur la base des informations fournies par les visiteurs au niveau du serveur                      | États-Unis          | [Politique de Confidentialité](https://www.triplebit.org/privacy)                                                          |
+| [Triplebit](https://www.triplebit.org) (États-Unis)               | Serveurs Privés Virtuels                                                                     | Pour héberger nos sites web dynamiques, ainsi que le stockage et le traitement des données personnelles.                                                          | États-Unis          | [Politique de Confidentialité](https://www.triplebit.org/privacy)                                                          |
 
-## Does Privacy Guides delete inactive accounts?
+## Est-ce que Privacy Guides supprime les comptes inactifs ?
 
-Privacy Guides deletes accounts that have no public activity when they have gone unused for 3 years. If the account has public activity, we will not delete it regardless of inactivity because your profile data is required to continue to publish your activity per your original request.
+Privacy Guides supprime les comptes inactifs depuis 3 ans. Si le compte a une activité publique, il ne sera pas supprimé, même en cas d'inactivité, car les données de votre profil sont nécessaires pour continuer à publier votre activité conformément à votre demande initiale.
 
-You can always request the deletion of your data at any time regardless of this policy.
+Vous pouvez toujours demander la suppression de vos données à tout moment.
 
-## How can I contact Privacy Guides about privacy?
+## Comment puis-je contacter Privacy Guides à propos de la confidentialité ?
 
-You can send questions, requests, and complaints via email to us at <team@privacyguides.org>. You may also use Signal or another contact method detailed [here](about.md#contact-us) to contact us more securely.
+Vous pouvez nous envoyer vos questions, requêtes et plaintes par mail à l'adresse suivante : <team@privacyguides.org> . Vous pouvez aussi nous contacter via Signal ou tout autre méthode détaillée [ici](about.md#contact-us) pour nous contacter de manière sécurisée.
 
-For complaints under GDPR more generally, you always have the option to lodge complaints with your local data protection supervisory authorities.
+Pour des plaintes en lien avec la RGPD de manière générale, vous pouvez faire un recours auprès des autorités locales de protection des données.
 
-## Where do I find out about changes?
+## Où puis-je me renseigner sur les changements de la politique de confidentialité ?
 
-This version of Privacy Guides' privacy notice took effect on September 24, 2025.
+Cette version de la politique de confidentialité de Privacy Guides a pris effet le 24 septembre 2025.
 
-Privacy Guides will post the next version here: <https://www.privacyguides.org/en/privacy/>.
+Privacy Guides publiera la prochaine version ici : <https://www.privacyguides.org/en/privacy/> .
 
-In future versions, Privacy Guides may change how it announces changes. In the meantime, Privacy Guides may update its contact information without announcing a change. Please refer to <https://www.privacyguides.org/en/privacy/> for the latest contact information at any time.
+Privacy Guides est susceptible de changer la manière d'annoncer ces changements. Dans l'intervalle, Privacy Guides peut mettre à jour ses coordonnées sans annoncer de changement. Veuillez consulter <https://www.privacyguides.org/en/privacy/> pour y trouver à tout moment les informations de contact les plus récentes.
 
-A full revision [history](https://github.com/privacyguides/privacyguides.org/commits/main/docs/privacy.md) of this page can be found on GitHub.
+Un [historique](https://github.com/privacyguides/privacyguides.org/commits/main/docs/privacy.md) complet de cette page est disponible sur GitHub.
 
-In the event that a translated copy of this document conflicts with the English copy, the English copy of this document takes precedence.
+En cas de conflit entre une version traduite du présent document et la version anglaise, c'est cette dernière qui prévaut.
