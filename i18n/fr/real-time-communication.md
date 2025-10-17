@@ -2,7 +2,7 @@
 meta_title: "Les meilleures messageries instantanées privées - Privacy Guides"
 title: Communication en temps réel
 icon: material/chat-processing
-description: Encrypted messengers like Signal and SimpleX keep your sensitive communications secure from prying eyes.
+description: Les messageries chiffrées telles que Signal et SimpleX protègent vos communications sensibles des regards indiscrets.
 cover: real-time-communication.webp
 ---
 
@@ -13,9 +13,9 @@ cover: real-time-communication.webp
 - [:material-eye-outline: Surveillance de masse](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 - [:material-account-cash: Capitalisme de surveillance](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These recommendations for encrypted **real-time communication** are great for securing your sensitive communications. These instant messengers come in the form of many [types of communication networks](advanced/communication-network-types.md).
+Ces recommandations pour une **communication** chiffrée **en temps réel** sont très utiles pour sécuriser vos communications sensibles. Ces messageries instantanées se présentent sous la forme de nombreux [types de réseaux de communication](advanced/communication-network-types.md).
 
-[:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
+[:material-movie-open-play-outline: Vidéo : Il est temps d'arrêter d'utiliser les SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
 
 ## Signal
 
