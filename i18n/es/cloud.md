@@ -96,9 +96,9 @@ También han recibido el Sello de Confianza Digital, una certificación de la [S
 
 ![Peergos logo](assets/img/cloud/peergos.svg){ align=right }
 
-**Peergos** es un protocolo descentralizado y una plataforma de código abierto para almacenamiento, redes sociales y aplicaciones. It provides a secure and private space where users can store, share, view, and edit their photos, videos, documents, etc.
+**Peergos** es un protocolo descentralizado y una plataforma de código abierto para almacenamiento, redes sociales y aplicaciones. Proporciona un espacio seguro y privado donde los usuarios pueden almacenar, compartir, ver y editar sus fotos, vídeos, documentos, etc.
 
-Peergos secures your files with quantum-resistant E2EE and ensures all data about your files remains private. It is also [self-hostable](https://book.peergos.org/features/self).
+Peergos protege tus archivos con E2EE de resistencia cuántica y garantiza que todos los datos de tus archivos sean privados. También es [autoalojable](https://book.peergos.org/features/self).
 
 [:octicons-home-16: Página Principal](https://peergos.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://peergos.net/privacy.html){ .card-link title="Política de Privacidad" }
@@ -122,7 +122,7 @@ Peergos secures your files with quantum-resistant E2EE and ensures all data abou
 
 Peergos se basa en el [Sistema de Archivos Interplanetario (IPFS)](https://ipfs.tech), una arquitectura entre iguales que protege contra [:material-close-outline: la censura](basics/common-threats.md#avoiding-censorship ""){.pg-blue-gray}.
 
-The client, server, and command line interface for Peergos all run from the same binary. Additionally, Peergos includes a [sync engine](https://book.peergos.org/features/sync) (accessible via the native apps) for bi-directionally synchronizing a local folder with a Peergos folder, and a [webdav bridge](https://book.peergos.org/features/webdav) to allow other applications to access your Peergos storage. You can refer to Peergos's documentation for a full overview of their numerous features.
+El cliente, el servidor y la interfaz de línea de comandos de Peergos se ejecutan desde el mismo binario. Además, Peergos incluye un [motor de sincronización](https://book.peergos.org/features/sync) (accesible a través de las aplicaciones nativas) para sincronizar bidireccionalmente una carpeta local con una carpeta Peergos, y un [puente webdav](https://book.peergos.org/features/webdav) para permitir que otras aplicaciones accedan a tu almacenamiento en Peergos. Puedes consultar la documentación de Peergos para obtener una descripción completa de sus numerosas funciones.
 
 Peergos fue [auditado](https://peergos.org/posts/security-audit-2024) en noviembre de 2024 por Radically Open Security y se solucionaron todos los problemas. Anteriormente fueron [auditados](https://cure53.de/pentest-report_peergos.pdf) por Cure53 en junio de 2019, y todos los problemas encontrados se solucionaron posteriormente.
 
