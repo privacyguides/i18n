@@ -115,7 +115,7 @@ Ambas versiones de Molly ofrecen las mismas mejoras de seguridad y admiten [comp
 [:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Código Fuente" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Downloads "Descargas"</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1605771084)
