@@ -68,13 +68,13 @@ Le protocole a été [audité](https://eprint.iacr.org/2016/1013.pdf) par un tie
 
 ### Molly (Android)
 
-If you use Android and your threat model requires protecting against [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} you may consider using this alternative app, which features a number of security and usability improvements, to access the Signal network.
+Si vous êtes sous Android et que votre modèle de menace vous expose à des [:material-target-account: Attaques Ciblées](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}, cette application peut vous permettre d'utiliser le réseau de Signal tout en apportant des améliorations de sécurité et d'ergonomie.
 
 <div class="admonition recommendation" markdown>
 
-![Molly logo](assets/img/messengers/molly.svg){ align=right }
+![Logo de Molly](assets/img/messengers/molly.svg){ align=right }
 
-**Molly** is an alternative Signal client for Android which allows you to encrypt the local database with a passphrase at rest, to have unused RAM data securely shredded, to route your connection via Tor, and [more](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features). It also has usability improvements including scheduled backups, automatic locking, and the ability to use your Android phone as a linked device instead of the primary device for a Signal account.
+**Molly** est un client alternatif de Signal pour Android qui vous permet de chiffrer la base de données locale avec une phrase de passe après la mise en veille afin de détruire de façon sécurisée les données de RAM non utilisées, de faire passer votre connexion par Tor, [et bien d'autres](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features). Elle permet également de programmer une sauvegarde automatique, de verrouiller l'application automatiquement et d'avoir la possibilité d'utiliser votre téléphone Android comme appareil lié plutôt que comme appareil principal pour un compte Signal.
 
 [:octicons-home-16: Homepage](https://molly.im){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
