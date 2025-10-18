@@ -128,11 +128,11 @@ Ces informations sont stockées tant que votre abonnement est en cours, ou jusqu
 
 ### Privacy Guides collecte des données lorsque vous nous contactez
 
-Lorsque vous contactez Privacy Guides par mail, Signal, ou tout autre méthode, nous collectons les informations que vous nous fournissez ainsi que toutes les informations d'identification associées au compte que vous avez utilisé pour nous contacter. Par exemple, si vous nous contactez par Signal, nous collecterons les données de votre profil Signal. Lorsque vous nous contactez par mail, nous collectons votre adresse mail, nom et l'adresse IP du serveur mail.
+Lorsque vous nous contactez par mail, Signal, ou tout autre méthode, nous collectons les informations que vous nous fournissez ainsi que toutes les informations d'identification associées au compte que vous avez utilisé pour nous contacter. Par exemple, si vous nous contactez par Signal, nous collecterons les données de votre profil Signal. Lorsque vous nous contactez par mail, nous collectons votre adresse mail, votre nom et l'adresse IP du serveur mail.
 
-Dans ce cas nous limitons l'utilisation des données au strict nécessaire pour communiquer avec vous et organiser nos mails.
+Dans ce cas nous limitons le traitement des données au strict nécessaire pour communiquer avec vous et organiser nos mails.
 
-Privacy Guides stocke ces données tant que nous sommes en contact avec vous, ou pour une durée d'un an maximum après la date des derniers échanges. Vous avez le droit de demander la suppression de toutes les données relatives à cette communication privée, et nous nous efforcerons de l'appliquer dans les 7 jours suivants la demande.
+Nous stockons ces données tant que nous sommes en contact avec vous, ou pour une durée d'un an maximum après la date des derniers échanges. Vous avez le droit de demander la suppression de toutes les données relatives à cette communication privée, et nous nous efforcerons de l'appliquer dans les 7 jours suivants la demande.
 
 ### Le site Privacy Guides stocke des données locales
 
@@ -146,8 +146,8 @@ Notre site web utilise le système open-source de gestion de contenu Ghost pour 
 
 | Nom                                                                         | Essentiel | Expiration | Utilisation                                                                                                                      |
 | --------------------------------------------------------------------------- | --------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| ghost-members-ssr                                                           | Oui       | 6 mois     | utilisé pour identifier votre inscription sur le site web                                                                        |
-| ghost-members-ssr.sig                                       | Oui       | 6 mois     | utilisé pour valider votre inscription au site                                                                                   |
+| ghost-members-ssr                                                           | Oui       | 6 mois     | utilisé pour identifier votre statut de membre sur le site web                                                                   |
+| ghost-members-ssr.sig                                       | Oui       | 6 mois     | utilisé pour valider votre statut de membre sur le site                                                                          |
 | __stripe_sid | Oui       | 1 an       | [Stripe](#subprocessors-used-by-privacy-guides) permet d'effectuer des transactions en ligne sans conserver de données bancaires |
 | __stripe_mid | Oui       | 1 an       | [Stripe](#subprocessors-used-by-privacy-guides) permet d'effectuer des transactions en ligne sans conserver de données bancaires |
 
@@ -160,7 +160,7 @@ Notre forum est basé sur Discourse et utilise les cookies suivants :
 | email                                                         | Oui       | Session                        | permet de se souvenir de votre email pendant la création de compte                                                     |
 | destination_url                          | Oui       | Session                        | permet de vous rediriger vers la page que vous avez demandé après vous être connecté                                   |
 | sso_destination_url | Oui       | Session                        | permet de vous rediriger vers la page que vous avez demandé après l'inscription                                        |
-| sso_payload                              | Oui       | Session                        | utilisé lors de l'authentification SSO lorsque l'authentification à deux facteur est activée                           |
+| sso_payload                              | Oui       | Session                        | utilisé lors de l'authentification SSO lorsque l'authentification à deux facteurs est activée                          |
 | authentication_data                      | Oui       | Prochaine consultation de page | conserve temporairement les informations de l'utilisateur pendant les flux de connexion                                |
 | theme_ids                                | Oui       | 1 an                           | se souvient de votre choix de thème si vous n'avez pas coché "En faire mon thème par défaut sur tous mes appareils"    |
 | color_scheme_id     | Oui       | 1 an                           | se souvient de votre choix de couleur si vous n'avez pas coché "En faire ma couleur par défaut sur tous mes appareils" |
@@ -168,21 +168,21 @@ Notre forum est basé sur Discourse et utilise les cookies suivants :
 | cn                                                            | Oui       | Session                        | conserve temporairement l'état de lecture des notifications                                                            |
 | _bypass_cache       | Oui       | Session                        | permet de contourner le cache côté serveur pendant les flux de connexion                                               |
 | _t                                       | Oui       | 1440 heures                    | se souvient de qui vous êtes lorsque vous vous connectez                                                               |
-| _forum_session      | Oui       | Session                        | associe un identifiant et autre informations relatives à la sécurité à votre session de navigation                     |
+| _forum_session      | Oui       | Session                        | associe à votre session de navigation un identifiant ainsi que d'autres informations relatives à la sécurité           |
 | dosp                                                          | Oui       | Prochaine consultation de page | une fonctionnalité de sécurité qui active la protection contre le déni de service                                      |
 | text_size                                | Oui       | 1 an                           | se souvient de votre taille de texte par défaut lorsqu'un utilisateur la modifie sur seulement un appareil             |
 | cookietest                                                    | Oui       | Session                        | vérifie que les cookies soient activés lorsque l'authentification échoue                                               |
-| __profilin          | Non       | Session                        | utilisé par les les développeurs de logiciel pour contourner rack-mini-profiler                                        |
+| __profilin          | Non       | Session                        | utilisé par les développeurs de logiciel pour contourner rack-mini-profiler                                            |
 
 Votre navigateur web peut vous permettre de consulter et de gérer les cookies pour n'importe quel site web.
 
-### Privacy Guide effectue régulièrement des sauvegarde de toutes les données
+### Privacy Guide effectue régulièrement des sauvegardes de toutes les données
 
-Privacy Guides conserve des sauvegardes automatiques de **toutes** les données collectées. Ces sauvegardes sont conservées pendant 30 jours. Lorsque vous supprimez des données personnelles de nos sites web, une copie est peut être conservée dans une archive de sauvegarde jusqu'à sa suppression.
+Privacy Guides conserve des sauvegardes automatiques de **toutes** les données collectées. Ces sauvegardes sont conservées pendant 30 jours. Lorsque vous supprimez des données personnelles de nos sites web, une copie est peut-être conservée dans une archive de sauvegarde jusqu'à sa suppression.
 
-## Privacy Guides utilisent-ils les données personnelles à des fins de marketing ?
+## Est-ce que Privacy Guides utilisent les données personnelles à des fins de marketing ?
 
-Privacy Guides est susceptible d'utiliser les données personnelles de ces utilisateurs afin de promouvoir directement notre propre contenu, pour partager des nouvelles ressources ou pour une levée de fonds par exemple. Nous utilisons aussi les informations que vous nous fournissez lorsque vous vous inscrivez à des listes mail et à nos annonces pour pouvoir vous les envoyer.
+Nous sommes susceptibles d'utiliser les données personnelles de nos utilisateurs afin de promouvoir directement notre propre contenu, comme partager des nouvelles ressources ou une campagne de financement. Nous utilisons aussi les informations que vous nous fournissez lorsque vous vous inscrivez à des listes mail et à nos annonces pour pouvoir vous les envoyer.
 
 Vous pouvez à tout moment refuser de recevoir des communications publicitaires de notre part, et vous avez le droit de vous opposer au traitement de vos données à des fins de promotion.
 
@@ -190,7 +190,7 @@ Privacy Guides ne donne ni ne vend jamais vos données à des tiers à des fins 
 
 ## Comment puis-je prendre des décisions concernant la collecte de mes données ?
 
-Dans les paramètre du compte de nos site web vous trouverez les options vous permettant de choisir comment seront traiter vos données.
+Dans les paramètres de votre compte de nos sites web vous trouverez les options vous permettant de choisir comment seront traitées vos données.
 
 La plupart des navigateurs vous permettent de choisir d'accepter ou non les cookies, pour des sites en particulier ou de façon plus générale.
 
@@ -200,15 +200,15 @@ Privacy Guides ne répond pas à [l'en-tête HTTP Do Not Track] (désormais obso
 
 La majorité des données sont hébergées par les services web [Triplebit](https://www.triplebit.org) aux États-Unis.
 
-Certaines données publiquement accessibles peuvent également être hébergée par Content Delivery Networks dans des serveurs situés dans d'autres juridictions. Par exemple, votre photo de profil peut être stockée dans plusieurs serveurs dans le monde entier afin d'améliorer les performances pour les visiteurs de notre site.
+Certaines données publiquement accessibles peuvent également être hébergée par des Réseaux de Diffusion de Contenu (Content Delivery Networks, ou CDN) dans des serveurs situés dans d'autres juridictions. Par exemple, votre photo de profil peut être stockée dans plusieurs serveurs dans le monde entier afin d'améliorer les performances pour les visiteurs de notre site.
 
-## Privacy Guides est-il conforme à la Règlementation Générale sur la Protection des Données de l'UE ?
+## Est-ce que Privacy Guides est conforme à la Règlementation Générale sur la Protection des Données de l'UE ?
 
 Privacy Guides respecte les droits prévus par la Règlementation Générale sur la Protection des Données (RGPD) de l'Union Européenne. Les informations requises par la RGPD sont trouvables dans cette politique de confidentialité, y compris les informations concernant vos droits relatifs à vos données.
 
 ### Quels sont mes droits d'après la RGPD ?
 
-La RGPD vous donne accès aux droits suivants en ce qui concerne les données personnelles que nous collectons et que nous utilisons :
+La RGPD vous octroie les droits suivants en ce qui concerne les données personnelles que nous collectons et que nous utilisons :
 
 - le droit [d'accéder](#where-can-i-access-data-about-me) à vos données personnelles
 - le droit de [rectifier](#how-can-i-change-or-erase-data-about-me) vos données personnelles erronées ou incomplètes
@@ -218,15 +218,15 @@ La RGPD vous donne accès aux droits suivants en ce qui concerne les données pe
 - le droit de vous opposer à certaines utilisations de vos données, comme la [prise de décision automatique](#does-privacy-guides-make-automated-decisions-based-on-my-data) et la [publicité ciblée](#does-privacy-guides-use-personal-information-for-marketing-purposes)
 - le droit de déposer une plainte auprès d'une autorité de contrôle
 
-Pour en savoir plus sur l'exercice de ces droits, vous pouvez continuer à lire cette politique de confidentialité, et consulter les liens ci-dessus. Nous nous efforçons de faciliter l'exercice de vos droits via les paramètres de vos comptes mais nous restons disponible en cas de problème particulier via notre rubrique [contact](#how-can-i-contact-privacy-guides-about-privacy).
+Pour en savoir plus sur l'exercice de ces droits, vous pouvez continuer à lire cette politique de confidentialité et consulter les liens ci-dessus. Nous nous efforçons de faciliter l'exercice de vos droits via les paramètres de vos comptes mais nous restons disponibles en cas de problème particulier via notre rubrique [contact](#how-can-i-contact-privacy-guides-about-privacy).
 
 ### Quelle est la base légale de la collecte et du traitement des données ?
 
-Privacy Guides s'appuie généralement sur 3 des 6 base juridiques indiquées dans l'Article 6 de la RGPD :
+Privacy Guides s'appuie généralement sur 3 des 6 bases juridiques indiquées dans l'Article 6 de la RGPD :
 
-- **Consentement** : Lorsque vos nous donner l'autorisation explicite de traiter vos données. Cette autorisation peut être retirée à tout moment via les paramètres de votre compte mais vous pouvez également nous contacter pour toute question relative à la confidentialité.
-- **Obligation légale** : Lorsque vous nous donnez vos données personnelles dans le but d'avoir recours aux services que nous proposons en accord avec nos conditions d'utilisation, ou lorsque nous vous demandons des données personnelles préalablement à l'établissement d'un contrat ou dans le but de l'exécuter.
-- **Intérêt légitime** : Lorsque nous traitons vos données personnelles à des fins de prévention de la fraude, de sécurité du réseau et des informations ou toutes autres raisons qui requière le traitement de vos données pour notre intérêt légitime ou celui de nos partenaires.
+- **Consentement** : Lorsque vous nous donner l'autorisation explicite de traiter vos données. Cette autorisation peut être retirée à tout moment via les paramètres de votre compte mais vous pouvez également nous contacter pour toute question relative à la confidentialité.
+- **Obligation légale** : C'est-à-dire lorsque vous nous donnez vos données personnelles dans le but d'avoir recours aux services que nous proposons en accord avec nos conditions d'utilisation, ou lorsque nous vous demandons des données personnelles préalablement à l'établissement d'un contrat ou dans le but de l'exécuter.
+- **Intérêt légitime** : Lorsque nous traitons vos données personnelles à des fins de prévention de la fraude, de sécurité du réseau et des informations ou pour toutes autres raisons qui requièrent le traitement de vos données pour notre intérêt légitime ou celui de nos partenaires.
 
 La base légale du traitement de vos données détermine quels sont les droits qui vous sont accordés par la RGPD. Voici un tableau qui peut servir de référence :
 
@@ -234,7 +234,7 @@ La base légale du traitement de vos données détermine quels sont les droits q
 | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Visite du site web](#privacy-guides-collects-information-about-visits-to-its-websites)             | Adresse IP, agent utilisateur, pages visitées                                                                               | **Intérêt légitime**  | Requis pour protéger notre site web des abus et des attaques informatiques, pour le diagnostic et la résolution de problèmes techniques, l'optimisation de nos sites web et la compilation de statistiques non personnelles pour une analyse à long terme |
 | [Données de compte](#privacy-guides-collects-account-data)                                          | Adresse mail, adresse IP                                                                                                    | **Intérêt légitime**  | Requis pour défendre notre site web contre les abus et le spam                                                                                                                                                                                            |
-| [Données de compte](#privacy-guides-collects-account-data)                                          | Adress mail, nom d'utilisateur, mot de passe                                                                                | **Obligation légale** | Requis pour vous fournir nos services selon nos conditions d'utilisation                                                                                                                                                                                  |
+| [Données de compte](#privacy-guides-collects-account-data)                                          | Adresse mail, nom d'utilisateur, mot de passe                                                                               | **Obligation légale** | Requis pour vous fournir nos services selon nos conditions d'utilisation                                                                                                                                                                                  |
 | [Données de compte](#privacy-guides-collects-account-data)                                          | Informations de profil optionnelles (nom, localisation, etc.)                            | **Consentement**      | Requis pour la publication des informations que vous souhaitez afficher sur votre profil                                                                                                                                                                  |
 | [Posts et activité](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum)      | Contenu de vos posts, données d'activité comme les marques pages, les likes et les liens que vous suivez                    | **Obligation légale** | Requis pour vous fournir nos services selon nos conditions d'utilisation                                                                                                                                                                                  |
 | [Posts et activité](#privacy-guides-collects-data-about-posts-and-other-activity-on-our-forum)      | Contenu de vos messages privés                                                                                              | **Obligation légale** | Requis pour vous fournir nos services selon nos conditions d'utilisation                                                                                                                                                                                  |
@@ -255,19 +255,19 @@ Actuellement :
 - Privacy Guides [traite des données personnelles sur des serveurs en dehors de l'Union Européenne](#where-does-privacy-guides-store-data-about-me).
 - Privacy Guides a recours à des [sous-traitants](#subprocessors-used-by-privacy-guides) ayant du personnel et des ordinateurs en dehors de l'Union Européenne.
 - Privacy Guides emploie du [personnel](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all) aux Etats-Unis, en Australie et dans d'autres pays non européens sans décision d'adéquation avec l'UE en termes de RGPD. Ces personnes sont susceptibles d'avoir besoin d'accéder à vos informations personnelles du forum afin de pouvoir assurer la continuité, de répondre aux questions relatives à la confidentialité et à la sécurité, de résoudre les requêtes de support technique et tout autre tâches d'assistance aux utilisateurs.
-- Privacy Guides est vraisemblablement soumis à la section 702 de la Foreign Intelligence Surveillance Act des Etats-Unis, une loi qui est jugée comme non conforme au respect des droits et des libertés des personnes par la Cours Européenne de Justice.
-- Privacy Guides n'a jamais fait l'objet d'un ordre ou d'une demande de données personnelles selon la loi FISA 702 ou tout autre loi de surveillance ou de sécurité nationnale provenant d'un autre pays. Privacy Guides ne fait pas l'objet d'une décision de justice ou d'une obligation judiciaire lui interdisant de révéler l'existence ou la non-existence d'un tel ordre ou d'une telle demande.
-- Privacy Guides a mis en place une marche à suivre au cas où nous ferions l'objet d'un tel ordre ou d'une telle demande. Privacy Guides cessera de traiter les données, préviendra les utilisateurs affectés, minimisera et s'opposera à la divulgation des données dans le cadre prévu par la loi.
+- Privacy Guides est vraisemblablement soumis à la section 702 de la Foreign Intelligence Surveillance Act des Etats-Unis, une loi qui est jugée comme non conforme au respect des droits et des libertés des personnes par la Cour Européenne de Justice.
+- Privacy Guides n'a jamais fait l'objet d'un ordre ou d'une demande d'accès aux données personnelles que nous collectons selon la loi FISA 702 ou tout autre loi de surveillance ou de sécurité nationale provenant d'un autre pays. Privacy Guides ne fait pas l'objet d'une décision de justice ou d'une obligation judiciaire lui interdisant de révéler l'existence ou la non-existence d'un tel ordre ou d'une telle demande.
+- Privacy Guides a mis en place une marche à suivre au cas où nous ferions l'objet d'un tel ordre ou d'une telle demande. Si le cas se présente, nous cesserons de traiter les données, préviendrons les utilisateurs affectés et nous minimiserons et s'opposerons à la divulgation des données dans le cadre prévu par la loi.
 
 Les lois nationales sur la sécurité et la surveillance pouvant être en conflit avec les règles européennes de protection des données, Privacy Guides réévalue en permanence les implications pratiques de ces lois afin de s'assurer que nos transferts de données sont correctement protégés.
 
-## Privacy Guides sont-ils conformes à la California Consumer Privacy Act ou tout autre loi étasunienne relative à la confidentialité ?
+## Est-ce que Privacy Guides est conforme à la California Consumer Privacy Act ou tout autre loi étasunienne relative à la confidentialité ?
 
 Privacy Guides n'est pas une "entreprise" telle que décrite dans la CCPA ni un "controller" directement sujet à d'autres lois étasuniennes relatives à la confidentialité.
 
 Privacy Guide ne vend **jamais** vos données personnelles.
 
-## Où puis-je accèder aux données me concernant ?
+## Où puis-je accéder aux données me concernant ?
 
 Vous pouvez voir les données relatives à votre compte en consultant votre page de profil sur nos sites qui propose un service de compte. Votre profil vous permettra également de consulter vos posts et autres activités sur le site.
 
@@ -279,19 +279,19 @@ Si vos n'avez pas de compte mais que vous souhaitez accéder aux données vous c
 
 Vous pouvez changer les données de votre profil à tout moment dans les paramètres de votre profil. Vous pouvez aussi supprimer votre profil dans les paramètres de votre compte. Utiliser cette option déclenchera le processus de suppression ou d'anonymisation des données que vous avez fournies à Privacy Guides. Les administrateurs et les modérateurs du forum ont également la possibilité d'effacer et d'anonymiser les comptes.
 
-Vous avez la possibilité de modifier, d'anonymiser ou d'effacer vos posts. Lorsque vous les modifiez, Privacy Guides conservera toutes les versions de vos posts. Celles-ci ne sont pas publiques mais sont accessible par les modérateurs et les administrateurs du forum.
+Vous avez la possibilité de modifier, d'anonymiser ou d'effacer vos posts. Lorsque vous les modifiez, Privacy Guides conservera toutes les versions de vos posts. Celles-ci ne sont pas publiques mais sont accessibles par les modérateurs et les administrateurs du forum.
 
 ## Est-ce que Privacy Guides prend des décisions automatiques basées sur mes données ?
 
-### Le forum Privacy Guides classe automatiquement les messages en tant que spam
+### Le forum Privacy Guides classe automatiquement certains messages en tant que spam
 
 Nous utilisons des données concernant vos posts et d'autres posts sur de nombreux forums pour prendre des décisions automatisées afin de déterminer si vos messages sur nos sites web sont susceptibles d'être des spams.
 
 Si vous pensez qu'un post a été bloqué ou supprimé par erreur, contactez un modérateur qui pourra prendre la décision manuellement.
 
-### Le forum Privacy Guides utilise des données concernant vos post et votre activité pour établir des niveau de confiance
+### Le forum Privacy Guides utilise des données concernant vos posts et votre activité pour établir des niveaux de confiance
 
-Nous utilisons les données à propos de vos posts et de votre activité sur le forum pour attribuer des badge et calculer le niveau de confiance de votre compte. Le niveau de confiance peut affecter la façon dont vous participez au forum, par exemple si vous pouvez publier ou non des images, et vous donnez accès à des possibilité de gestion et de modération sur le forum. Le niveau de confiance reflète ainsi la confiance que les administrateurs du forum vous accordent, et leur volonté de vous déléguer certaines fonction de gestion comme la modération.
+Nous utilisons les données à propos de vos posts et de votre activité sur le forum pour attribuer des badges et calculer le niveau de confiance de votre compte. Le niveau de confiance peut affecter la façon dont vous participez au forum, par exemple si vous pouvez publier ou non des images, et vous donnez accès à des possibilités de gestion et de modération sur le forum. Le niveau de confiance reflète ainsi la confiance que les administrateurs du forum vous accordent, et leur volonté de vous déléguer certaines fonctions de gestion comme la modération.
 
 Si vous pensez que votre niveau de confiance a été mal défini, contactez un administrateur. Ils peuvent ajuster manuellement le niveau de confiance de votre compte.
 
@@ -299,7 +299,7 @@ Si vous pensez que votre niveau de confiance a été mal défini, contactez un a
 
 Lorsque des utilisateurs signalent vos post, ceux-ci peuvent être cachés automatiquement, ou vous pouvez être automatiquement empêché de poster.
 
-Ces décisions sont ensuite passées en revue par les modérateurs, qui sont libres d'outrepasser ces décisions à leur discrétion.
+Ces décisions sont ensuite passées en revue par les modérateurs, qui sont libres de les outrepasser à leur discrétion.
 
 ## Est-ce que Privacy Guides partage des données me concernant avec des tiers ?
 
@@ -309,21 +309,21 @@ Privacy Guides partage des données concernant vos posts et votre activité à d
 
 ### Privacy Guides a recours à des sous-traitants
 
-Privacy Guides a recours aux sous-traitants suivant et est susceptible de partager avec eux des informations personnelles afin de pouvoir héberger notre site web, fournir du contenu, protéger nos services, stocker des données, proposer un service client et héberger et gérer notre site web open-source.
+Privacy Guides a recours aux sous-traitants suivants et est susceptible de partager avec eux des informations personnelles afin de pouvoir héberger notre site web, fournir du contenu, protéger nos services, stocker des données, proposer un service client et héberger et gérer notre site web open-source.
 
-| Sous-traitant                                                                        | Service                                                                                      | Utilité                                                                                                                                                                           | Traitement          | Liens                                                                                                                      |
-| ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| [Bunny.net](https://bunny.net) (Slovénie)         | [Bunny CDN](https://bunny.net/cdn)                                                           | Service de Réseau de Diffusion de Contenu pour la distribution d'images et autres ressources statiques.                                                           | Slovénie, mondial   | [Politique de Confidentialité](https://bunny.net/privacy), [Centre RGPD](https://bunny.net/gdpr)                           |
-| [Cloudflare](https://cloudflare.com) (États-Unis)                 | [Authoritative DNS](https://cloudflare.com/application-services/products/dns)                | Services de DNS récursif pour nos noms de domaine.                                                                                                                | États-Unis, mondial | [Politique de Confidentialité](https://cloudflare.com/privacypolicy), [Centre RGPD](https://cloudflare.com/trust-hub/gdpr) |
-| [Fediverse Communications LLC](https://fediverse.us) (États-Unis) | PeerTube                                                                                     | Pour héberger les vidéos publiques produites par Privacy Guides partagées ou intégrées à ce site web.                                                             | États-Unis          | [Pour en savoir plus](https://neat.tube/about/instance)                                                                    |
-| [GitHub](https://github.com) (États-Unis)                         | Dépôts Git                                                                                   | _Pour les visiteurs de ce site_ : partager des informations avec nos visiteurs sur la version en cours, le nombre d'étoiles sur notre dépôt, etc. | États-Unis          | [Politique de Confidentialité](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)   |
-| [GitHub](https://github.com) (États-Unis)                         | Dépôts Git, tickets, Pull Requests                                                           | _Pour les contributeurs de ce site_ : héberger notre code source et nos plateformes de communication comme nos trackers de tiquets.               | États-Unis          | [Politique de Confidentialité](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)   |
-| [GitHub](https://github.com) (États-Unis)                         | [Sponsors](https://github.com/sponsors/privacyguides)                                        | Pour collecter les paiements pour les cadeaux destinés à Privacy Guides                                                                                                           | États-Unis          | [Politique de Confidentialité](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)   |
-| [Mailgun](https://www.mailgun.com) (États-Unis)                   | Envoi d'emails                                                                               | Pour envoyer des newsletters et autres messages mail à nos utilisateurs                                                                                                           | États-Unis          | [Politique de Confidentialité](https://www.mailgun.com/privacy-policy), [Centre RGPD](https://www.mailgun.com/gdpr)        |
-| [Stripe](https://stripe.com) (États-Unis)                         | Connexion                                                                                    | Traitement des paiments pour les dons                                                                                                                                             | États-Unis          | [Politique de Confidentialité](https://stripe.com/privacy), [Centre RGPD](https://stripe.com/legal/privacy-center)         |
-| [Triplebit](https://www.triplebit.org) (États-Unis)               | Stockage                                                                                     | Pour le stockage de nos sites web statiques et du contenu média statique, et pour la distribution du contenu statique                                                             | États-Unis, Pologne | [Politique de Confidentialité](https://www.triplebit.org/privacy)                                                          |
-| [Triplebit](https://www.triplebit.org) (États-Unis)               | [Umami Statistics](https://stats.triplebit.net/share/S80jBc50hxr5TquS/www.privacyguides.org) | Pour compiler des statistiques sur les données des visiteurs de notre site web, sur la base des informations fournies par les visiteurs au niveau du serveur                      | États-Unis          | [Politique de Confidentialité](https://www.triplebit.org/privacy)                                                          |
-| [Triplebit](https://www.triplebit.org) (États-Unis)               | Serveurs Privés Virtuels                                                                     | Pour héberger nos sites web dynamiques, ainsi que le stockage et le traitement des données personnelles.                                                          | États-Unis          | [Politique de Confidentialité](https://www.triplebit.org/privacy)                                                          |
+| Sous-traitant                                                                        | Service                                                                                        | Utilité                                                                                                                                                                           | Traitement          | Liens                                                                                                                      |
+| ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| [Bunny.net](https://bunny.net) (Slovénie)         | [Bunny CDN](https://bunny.net/cdn)                                                             | Service de Réseau de Diffusion de Contenu pour la distribution d'images et autres ressources statiques.                                                           | Slovénie, mondial   | [Politique de Confidentialité](https://bunny.net/privacy), [Centre RGPD](https://bunny.net/gdpr)                           |
+| [Cloudflare](https://cloudflare.com) (États-Unis)                 | [DNS récursif](https://cloudflare.com/application-services/products/dns)                       | Services de DNS récursif pour nos noms de domaine.                                                                                                                | États-Unis, mondial | [Politique de Confidentialité](https://cloudflare.com/privacypolicy), [Centre RGPD](https://cloudflare.com/trust-hub/gdpr) |
+| [Fediverse Communications LLC](https://fediverse.us) (États-Unis) | PeerTube                                                                                       | Pour héberger les vidéos publiques produites par Privacy Guides partagées ou intégrées à ce site web.                                                             | États-Unis          | [Pour en savoir plus](https://neat.tube/about/instance)                                                                    |
+| [GitHub](https://github.com) (États-Unis)                         | Dépôts Git                                                                                     | _Pour les visiteurs de ce site_ : partager des informations avec nos visiteurs sur la version en cours, le nombre d'étoiles sur notre dépôt, etc. | États-Unis          | [Politique de Confidentialité](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)   |
+| [GitHub](https://github.com) (États-Unis)                         | Dépôts Git, tickets, Pull Requests                                                             | _Pour les contributeurs de ce site_ : héberger notre code source et nos plateformes de communication comme nos trackers de tickets.               | États-Unis          | [Politique de Confidentialité](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)   |
+| [GitHub](https://github.com) (États-Unis)                         | [Sponsors](https://github.com/sponsors/privacyguides)                                          | Pour collecter les paiements pour les cadeaux destinés à Privacy Guides                                                                                                           | États-Unis          | [Politique de Confidentialité](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)   |
+| [Mailgun](https://www.mailgun.com) (États-Unis)                   | Envoi d'emails                                                                                 | Pour envoyer des newsletters et autres messages mail à nos utilisateurs                                                                                                           | États-Unis          | [Politique de Confidentialité](https://www.mailgun.com/privacy-policy), [Centre RGPD](https://www.mailgun.com/gdpr)        |
+| [Stripe](https://stripe.com) (États-Unis)                         | Connexion                                                                                      | Traitement des paiements pour les dons                                                                                                                                            | États-Unis          | [Politique de Confidentialité](https://stripe.com/privacy), [Centre RGPD](https://stripe.com/legal/privacy-center)         |
+| [Triplebit](https://www.triplebit.org) (États-Unis)               | Stockage                                                                                       | Pour le stockage de nos sites web statiques et du contenu média statique, et pour la distribution du contenu statique                                                             | États-Unis, Pologne | [Politique de Confidentialité](https://www.triplebit.org/privacy)                                                          |
+| [Triplebit](https://www.triplebit.org) (États-Unis)               | [Statistiques Umami](https://stats.triplebit.net/share/S80jBc50hxr5TquS/www.privacyguides.org) | Pour compiler des statistiques sur les données des visiteurs de notre site web, sur la base des informations fournies par les visiteurs au niveau du serveur                      | États-Unis          | [Politique de Confidentialité](https://www.triplebit.org/privacy)                                                          |
+| [Triplebit](https://www.triplebit.org) (États-Unis)               | Serveurs Privés Virtuels                                                                       | Pour héberger nos sites web dynamiques, ainsi que le stockage et le traitement des données personnelles.                                                          | États-Unis          | [Politique de Confidentialité](https://www.triplebit.org/privacy)                                                          |
 
 ## Est-ce que Privacy Guides supprime les comptes inactifs ?
 
