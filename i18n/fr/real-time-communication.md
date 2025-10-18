@@ -23,16 +23,16 @@ Ces recommandations pour une **communication** chiffrée **en temps réel** sont
 
 ![Logo de Signal](assets/img/messengers/signal.svg){ align=right }
 
-**Signal** est une application mobile développée par Signal Messenger LLC. The app provides instant messaging and calls secured with the Signal protocol, an extremely secure encryption protocol which supports forward secrecy[^1] and post-compromise security.[^2]
+**Signal** est une application mobile développée par Signal Messenger LLC. L'application fournit un service de communication instantanée et d'appels sécurisés avec le protocole Signal, un chiffrement êxtremement robuste compatible avec la confidentialité persistante (forward secrecy)[^1] et la sécurité post-compromission.[^2]
 
-[:octicons-home-16: Homepage](https://signal.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://signal.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://support.signal.org){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://signal.org/donate){ .card-link title="Contribute" }
+[:octicons-code-16:](https://github.com/signalapp){ .card-link title="Code Source" }
+[:octicons-heart-16:](https://signal.org/donate){ .card-link title="Contribuer" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id874139669)
@@ -46,25 +46,25 @@ Ces recommandations pour une **communication** chiffrée **en temps réel** sont
 
 </div>
 
-Signal requires your phone number for registration, however you should create a username to hide your phone number from your contacts:
+Signal a besoin de votre numéro de téléphone pour créer un compte, vous devriez donc choisir un nom d'utilisateur afin de le cacher :
 
 1. Dans Signal, ouvrez les paramètres de l'application et appuyez sur votre profil en haut.
 2. Appuyez sur **Nom d'utilisateur** et choisissez **Continuer** sur l'écran "Configurez votre nom d'utilisateur Signal".
-3. Entrez un nom d'utilisateur. Your username will always be paired with a unique set of digits to keep your username unique and prevent people from guessing it. For example if you enter "John" your username might end up being `@john.35`. By default, only 2 digits are paired with your username when you create it, but you can add more digits until you reach the username length limit (32 characters).
+3. Entrez un nom d'utilisateur. Votre nom d'utilisateur sera toujours associé à un ensemble de chiffre afin qu'il soit unique et pour empêcher d'autres personnes de le deviner. Par exemple si vous utiliser "Jean" comme nom d'utilisateur, celui-ci pourra devenir `@Jean35`. Par défaut, seulement deux chiffres sont associés à votre nom d'utilisateur lorsque vous le créer, mais vous pouvez en ajouter si vous le souhaitez (dans la limite de 32 caractères.
 4. Retournez à la page principale des paramètres de l'application et sélectionnez **Confidentialité**.
-5. Select **Phone Number**.
-6. Change the **Who Can See My Number** setting to **Nobody**.
-7. (Optional) Change the **Who Can Find Me By Number** setting to **Nobody** as well, if you want to prevent people who already have your phone number from discovering your Signal account/username
+5. Sélectionnez **Numéro de Téléphone**.
+6. Définissez le paramètre **Qui peut voir mon numéro** sur **Personne**.
+7. (Optionnel) Si vous souhaitez que les personnes ayant déjà votre numéro de téléphone ne puissent pas l'utiliser pour vous trouver sur Signal, définissez le paramètre **Qui peut me trouver grâce à mon numéro** sur **Personne**
 
-We have some additional tips on configuring and hardening your Signal installation:
+Voici quelques conseils supplémentaires pour paramétrer votre Signal :
 
-[Signal Configuration and Hardening :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening)
+[Configuration et Renforcement de Signal :material-arrow-right-drop-circle:](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening)
 
-Contact lists on Signal are encrypted using your Signal PIN and the server does not have access to them. Personal profiles are also encrypted and only shared with contacts you chat with.
+Les listes de contacts sur Signal sont chiffrées avec votre PIN Signal et leur serveurs n'y ont pas accès. Votre profil est également chiffré et n'est partagé qu'avec les contacts avec lesquels vous discutez.
 
-Signal supports [private groups](https://signal.org/blog/signal-private-group-system), where the server has no record of your group memberships, group titles, group avatars, or group attributes. Signal has minimal metadata when [Sealed Sender](https://signal.org/blog/sealed-sender) is enabled. The sender address is encrypted along with the message body, and only the recipient address is visible to the server. Sealed Sender is only enabled for people in your contacts list, but can be enabled for all recipients with the increased risk of receiving spam.
+Signal permet de créer des [groupes privés](https://signal.org/blog/signal-private-group-system), qui permettent de ne laisser aucune trace ni des membres, ni des titres, avatars ou attributs du groupe dans leur serveur. Lorsque [Expéditeurs scellés](https://signal.org/blog/sealed-sender) est activé, Signal minimise le plus possible les métadonnées. L'adresse de l'expéditeur est chiffrée en plus du contenu du message, et seule l'adresse du destinataire est visible du serveur. L'option Expéditeurs scellés est activée uniquement pour les personnes dans votre liste de contact mais peut être activée pour tous les destinataires, bien que cela augmente le risque de recevoir du spam.
 
-The protocol was independently [audited](https://eprint.iacr.org/2016/1013.pdf) in 2016. The specification for the Signal protocol can be found in their [documentation](https://signal.org/docs).
+Le protocole a été [audité](https://eprint.iacr.org/2016/1013.pdf) par un tiers indépendant en 2016. Les spécificités du protocole Signal peuvent être trouvées dans leur [documentation](https://signal.org/docs).
 
 ### Molly (Android)
 
