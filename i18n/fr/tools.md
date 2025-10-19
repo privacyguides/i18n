@@ -27,7 +27,7 @@ Si vous cherchez une solution spécifique à un problème, voici pour diverses c
 
 <div class="admonition info" markdown>
 
-[Recommandations d'auto-hébergement](self-hosting/index.md) ont été déplacées dans leur propre catégorie.
+Les [recommandations d'auto-hébergement](self-hosting/index.md) ont été déplacées dans leur propre catégorie.
 
 </div>
 
@@ -47,7 +47,7 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 
 <div markdown>
 - [x] **Indépendance éditoriale totale**
-- [x] **Contributions de sources ouvertes**
+- [x] **Contributions open source**
 - [x] **Confiance des journalistes**
 </div>
 
@@ -59,48 +59,55 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 
 ![Logo du navigateur Tor](assets/img/browsers/tor.svg){ align=left }
 
-**Le navigateur Tor** (Ordinateur & Android) est le meilleur choix si vous avez besoin de l'anonymat, car il vous donne accès au réseau **Tor** un groupe de serveurs gérés par des bénévoles qui vous permettent de vous connecter gratuitement et d'améliorer votre vie privée et votre sécurité sur Internet.assets/img/browsers/tor.svg Les particuliers et les organisations peuvent également partager des informations sur le réseau Tor avec des "services cachés .onion" sans compromettre leur vie privée. Parce que le trafic Tor est difficile à bloquer et à tracer, Tor est un outil efficace pour contourner la censure.
+**Le navigateur Tor** (Ordinateur & Android) est le meilleur choix si vous avez besoin d'anonymat, car il vous donne accès au réseau **Tor**, un groupe de serveurs gérés par des bénévoles qui vous permettent de vous connecter gratuitement et d'améliorer votre vie privée et votre sécurité sur Internet. Les particuliers et les organisations peuvent également partager des informations sur le réseau Tor avec des "services cachés .onion" sans compromettre leur vie privée. Parce que le trafic Tor est difficile à bloquer et à tracer, Tor est un outil efficace pour contourner la censure.
 
-[Lire notre revue complète :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary }
+[Notre présentation complète :material-arrow-right-drop-circle:](tor.md){ .md-button .md-button--primary }
 
 </div>
 
 <div class="grid cards" markdown>
 
-![Logo du navigateur Mullvad](assets/img/browsers/mullvad_browser.svg){ align=right }
-
-Le **Navigateur Mullvad** est une version du [Navigateur Tor](tor.md#tor-browser) dont l'intégration au réseau Tor a été supprimée, visant à fournir les technologies de protection contre la capture des empreintes numériques du Navigateur Tor aux utilisateurs de VPN.
-
-    ![Logo Firefox](assets/img/browsers/firefox.svg){ align=right }
-
-**Firefox** offre de solides paramètres de confidentialité, tels que la [protection renforcée contre le suivi](https://support.mozilla.org/fr/kb/protection-renforcee-contre-pistage-firefox-ordinateur), qui peut contribuer à bloquer divers [types de suivi](https://support.mozilla.org/fr/kb/protection-renforcee-contre-pistage-firefox-ordinateur#w_what-enhanced-tracking-protection-blocks).
-
-    - [Lire la revue complète :material-arrow-right-drop-circle:](desktop-browsers.md#firefox)
-
-- ![Logo Brave](assets/img/browsers/brave.svg){ .lg .middle .twemoji } **Navigateur Brave**
+- ![Logo du navigateur Mullvad](assets/img/browsers/mullvad_browser.svg){ .lg .middle .twemoji }{ align=right } **Navigateur Mullvad**
 
     ---
 
-    **Brave** est un navigateur privé par défaut basé sur Chromium, il devrait donc se sentir familier et avoir un minimum de problèmes de compatibilité avec les sites web.
+    Le **Navigateur Mullvad** est une version du [Navigateur Tor](tor.md#tor-browser) dont l'intégration au réseau Tor a été supprimée, visant à fournir les technologies de protection contre le fingerprinting du Navigateur Tor aux utilisateurs de VPN.
 
-    - [Brave Desktop Review :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
-    - [Brave Mobile Review :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
+    - [Notre présentation complète :material-arrow-right-drop-circle:](desktop-browsers.md#mullvad-browser)
 
-- ![Logo Cromite](assets/img/browsers/cromite.svg){ .lg .middle .twemoji } **Cromite (Android)**
-
-    ---
-
-    **Cromite** est un navigateur Android basé sur Chromium avec blocage des publicités intégré et [améliorations de la protection de la vie privée](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). Il s'agit d'une version dérivée du navigateur populaire Bromite, aujourd'hui abandonné.
-
-    - [Lire l'avis complet :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
-
-- ![Safari logo](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
+- ![Logo de Firefox](assets/img/browsers/firefox.svg){ .lg .middle .twemoji } **Firefox**
 
     ---
 
-    Nous recommandons **Safari** en raison de ses fonctionnalités [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) et de son blocage par défaut des traceurs. Il sépare également vos cookies en mode de navigation privée pour éviter le suivi entre les onglets.
+    
+**Firefox** offre de bons paramètres de confidentialité, tels que la [protection renforcée contre le suivi](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), qui peut contribuer à bloquer divers [types de trackers](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
 
-    - [Lire notre revue complète :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
+    - [Notre présentation complète :material-arrow-right-drop-circle:](desktop-browsers.md#firefox)
+
+- ![Logo de Brave](assets/img/browsers/brave.svg){ .lg .middle .twemoji } **Navigateur Brave**
+
+    ---
+
+    **Brave** est un navigateur "privacy by default" basé sur Chromium, il devrait donc être familier et avoir peu de problèmes de compatibilité avec les sites web.
+
+    - [Présentation de Brave Desktop :material-arrow-right-drop-circle:](desktop-browsers.md#brave)
+    - [Présentation de Brave Mobile :material-arrow-right-drop-circle:](mobile-browsers.md#brave)
+
+- ![Logo de Cromite](assets/img/browsers/cromite.svg){ .lg .middle .twemoji } **Cromite (Android)**
+
+    ---
+
+    **Cromite** est un navigateur Android basé sur Chromium avec un bloqueur de publicité intégré et des [améliorations en termes de protection de la vie privée](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). Il s'agit d'une version dérivée du navigateur populaire Bromite, aujourd'hui abandonné.
+
+    - [Notre présentation complète :material-arrow-right-drop-circle:](mobile-browsers.md#cromite-android)
+
+- ![Logo de Safari](assets/img/browsers/safari.svg){ .lg .middle .twemoji } **Safari (iOS)**
+
+    ---
+
+    Nous recommandons **Safari** en raison de ses fonctionnalités [anti-fingerprinting](https://webkit.org/blog/15697/private-browsing-2-0) et de son blocage par défaut des trackers. Il sépare également vos cookies en mode de navigation privée pour éviter le suivi entre les onglets.
+
+    - [Notre présentation complète :material-arrow-right-drop-circle:](mobile-browsers.md#safari-ios)
 
 </div>
 
@@ -113,7 +120,7 @@ Le **Navigateur Mullvad** est une version du [Navigateur Tor](tor.md#tor-browser
 
 - ![Logo de uBlock Origin](assets/img/browsers/ublock_origin.svg){ .twemoji loading=lazy } [uBlock Origin](browser-extensions.md#ublock-origin)
 - ![Logo de uBlock Origin Lite](assets/img/browsers/ublock_origin_lite.svg){ .twemoji loading=lazy } [uBlock Origin Lite](browser-extensions.md#ublock-origin-lite)
-- ![Logo d'AdGuard](assets/img/browsers/adguard.svg){ .twemoji loading=lazy } [AdGuard for iOS](browser-extensions.md#adguard)
+- ![Logo d'AdGuard](assets/img/browsers/adguard.svg){ .twemoji loading=lazy } [AdGuard pour iOS](browser-extensions.md#adguard)
 
 </div>
 
@@ -211,9 +218,9 @@ Si vous recherchez une **sécurité** supplémentaire, vous devez toujours vous 
 
     ---
 
-    Tuta (anciennement *Tutanota*) est un service de messagerie électronique sécurisé et confidentiel grâce à son chiffrement. Tuta est en activité depuis 2011 et est basée à Hanovre, en Allemagne. Les comptes gratuits commencent avec 1 Go de stockage.
+    Tuta (anciennement *Tutanota*) est un service de messagerie électronique sécurisé et confidentiel grâce à son chiffrement. Tuta est en activité depuis 2011 et est basé à Hanovre, en Allemagne. Les comptes gratuits commencent avec 1 Go de stockage.
 
-    [Lire la critique complète :material-arrow-right-drop-circle:](email.md#tuta)
+    [Notre présentation complète :material-arrow-right-drop-circle:](email.md#tuta)
 
 </div>
 
@@ -249,7 +256,7 @@ Si vous recherchez une **sécurité** supplémentaire, vous devez toujours vous 
 
 [En savoir plus :material-arrow-right-drop-circle:](email-clients.md)
 
-## Fournisseurs de services privés supplémentaires
+## Autres fournisseurs de services respectueux de la vie privée
 
 ### Stockage cloud
 
@@ -300,7 +307,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 <div class="grid cards" markdown>
 
 - ![Logo de Privacy.com](assets/img/financial-services/privacy_com.svg#only-light){ .twemoji loading=lazy }![Logo de Privacy.com](assets/img/financial-services/privacy_com-dark.svg#only-dark){ .twemoji loading=lazy } [Privacy.com](financial-services.md#privacycom-us)
-- ![Logo de MySudo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji loading=lazy }![MySudo logo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji loading=lazy } [MySudo](financial-services.md#mysudo-us-paid)
+- ![Logo de MySudo](assets/img/financial-services/mysudo.svg#only-light){ .twemoji loading=lazy }![Logo de MySudo](assets/img/financial-services/mysudo-dark.svg#only-dark){ .twemoji loading=lazy } [MySudo](financial-services.md#mysudo-us-paid)
 
 </div>
 
@@ -387,7 +394,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 
 [En savoir plus :material-arrow-right-drop-circle:](data-redaction.md)
 
-### Collaboration sur les documents
+### Documents collaboratifs
 
 <div class="grid cards" markdown>
 
@@ -402,7 +409,7 @@ Nous [recommandons](dns.md#recommended-providers) un certain nombre de serveurs 
 <details class="info" markdown>
 <summary>Chiffrement du disque du système d'exploitation</summary>
 
-Pour chiffre le disque de votre système d'exploitation, nous vous recommandons généralement d'utiliser l'outil de chiffrement proposé par votre système d'exploitation, que ce soir **BitLocker** sur Windows, **FileVault** sur MacOS, ou **LUKS** sur Linux. Ces outils sont inclus dans le système d'exploitation et tirent parti des éléments de chiffrement hardware comme un [cryptoprocesseur sécurisé](basics/hardware.md/#tpmsecure-cryptoprocessor).
+Pour chiffre le disque de votre système d'exploitation, nous vous recommandons généralement d'utiliser l'outil de chiffrement proposé par votre système d'exploitation, que ce soit **BitLocker** sur Windows, **FileVault** sur MacOS, ou **LUKS** sur Linux. Ces outils sont inclus dans le système d'exploitation et tirent parti des éléments de chiffrement hardware comme un [cryptoprocesseur sécurisé](basics/hardware.md/#tpmsecure-cryptoprocessor).
 
 [En savoir plus :material-arrow-right-drop-circle:](encryption.md#operating-system-encryption)
 
@@ -446,7 +453,7 @@ Pour chiffre le disque de votre système d'exploitation, nous vous recommandons 
 
 [En savoir plus :material-arrow-right-drop-circle:](file-sharing.md)
 
-### Front-ends
+### Frontends
 
 <div class="grid cards" markdown>
 
@@ -478,7 +485,7 @@ Pour chiffre le disque de votre système d'exploitation, nous vous recommandons 
 
 [En savoir plus :material-arrow-right-drop-circle:](health-and-wellness.md)
 
-###
+### Outils linguistiques
 
 <div class="grid cards" markdown>
 
@@ -500,7 +507,7 @@ Pour chiffre le disque de votre système d'exploitation, nous vous recommandons 
 
 [En savoir plus :material-arrow-right-drop-circle:](maps.md)
 
-### Outils d'authentification multi-facteurs
+### Outils d'authentification multifactorielle
 
 **Remarque :** [Les clefs de sécurité physiques](#security-keys) possèdent désormais leur propre catégorie.
 
@@ -632,7 +639,7 @@ Pour chiffre le disque de votre système d'exploitation, nous vous recommandons 
 
 ### Mobile
 
-#### Système d'exploitation Android personnalisés
+#### Système d'exploitation Android alternatifs
 
 <div class="grid cards" markdown>
 

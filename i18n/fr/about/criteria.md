@@ -1,35 +1,35 @@
 ---
-title: General Criteria
-description: A list of general priorities we consider for all submissions to Privacy Guides.
+title: Critères généraux
+description: Une liste de priorités générales que nous prenons en compte pour toutes les propositions faites à Privacy Guides.
 ---
 
-Vous trouverez ci-dessous quelques priorités générales que nous prenons en compte pour toutes les soumissions à Privacy Guides. Chaque catégorie aura des exigences supplémentaires pour être incluse.
+Vous trouverez ci-dessous quelques priorités générales que nous prenons en compte pour toutes les propositions faites à Privacy Guides. Chaque catégorie aura des exigences supplémentaires.
 
-- **Security**: Tools should follow security best practices wherever applicable.
-- **Disponibilité des sources** : les projets open source sont généralement préférés aux solutions propriétaires équivalentes.
-- **Cross-Platform Availability**: We typically prefer recommendations to be cross-platform to avoid vendor lock-in.
-- **Active Development**: The tools that we recommend should be actively developed. Unmaintained projects will be removed in most cases.
-- **Usability**: Tools should be accessible to most computer users. An overly technical background should not be required.
+- **Sécurité** : les outils devraient toujours suivre les bonnes pratiques lorsque cela est possible.
+- **Disponibilité du code source** : les projets open source sont généralement préférés aux solutions propriétaires équivalentes.
+- **Disponibilité multiplateforme** : nous préférons généralement les recommandations multiplateformes pour éviter le verrouillage fournisseur.
+- **Développement actif**: Les outils que nous recommandons doivent être activement développés. Dans la plupart des cas, les projets non maintenus seront supprimés.
+- **Facilité d'utilisation**: Les outils doivent être accessibles à la plupart des utilisateurs d'ordinateurs. Il ne devrait pas être nécessaire d'avoir des connaissances techniques approfondies.
 - **Documentation**: les outils doivent être accompagnés d'une documentation claire et détaillée.
 
-## Divulgation financière
+## Transparence financière
 
 Nous ne gagnons pas d'argent en recommandant certains produits, nous n'utilisons pas de liens affiliés et nous n'accordons pas de considération particulière aux donateurs du projet.
 
-## Soumissions par les développeurs
+## Propositions par les développeurs
 
 Nous avons ces exigences à l'égard des développeurs qui souhaitent soumettre leur projet ou logiciel pour examen.
 
-- Must undergo our [self-submission process](https://discuss.privacyguides.net/t/about-the-project-showcase-category/114) as a way to engage with our community, address any potential concerns, and elicit any feedback that can help improve your project.
+- Si vous souhaitez nous proposer un projet, vous devez vous soumettre à notre [processus d'auto-proposition](https://discuss.privacyguides.net/t/about-the-project-showcase-category/114) afin de vous engager auprès de notre communauté, de répondre à toute préoccupation potentielle et d'obtenir tout retour d'information susceptible d'améliorer votre projet.
 
-- Vous devez indiquer votre affiliation, c'est-à-dire votre position au sein du projet soumis.
+- Vous devez être transparent sur votre affiliation, c'est-à-dire de votre position au sein du projet proposé.
 
-- Must have a security white paper if it is a project that involves the handling of sensitive information like a messenger, password manager, encrypted cloud storage, etc.
-    - Regarding third party audit status, we want to know if you have undergone one, or have requested one. Si possible, veuillez mentionner qui mènera l'audit.
+- Vous devez avoir un livre blanc sur la sécurité s'il s'agit d'un projet qui implique la manipulation d'informations sensibles comme une messagerie instantanée, un gestionnaire de mots de passe, un stockage cloud chiffré, etc.
+    - Nous souhaitons également savoir si vous avez fait l'objet ou si vous avez demandé à faire l'objet d'un audit indépendant. Si possible, veuillez mentionner qui sera responsable de l'audit.
 
 - Vous devez expliquer ce que le projet apporte en matière de respect de la vie privée.
-    - What new problem(s), if any, does it solve?
+    - Résout-il de nouveaux problèmes, et si oui, lesquels ?
     - Pourquoi devrait-on l'utiliser plutôt que d'autres solutions ?
 
-- Vous devez indiquer quel est le modèle de menace exact avec votre projet.
-    - Il doit être clair pour les utilisateurs potentiels ce que le projet peut fournir et ce qu'il ne peut pas fournir. Ideally, a developer should be able to identify what [common threat(s)](../basics/common-threats.md) their project protects against.
+- Vous devez indiquer le modèle de menace exact concerné par votre projet.
+    - Indiquez clairement aux utilisateurs ce que peut et ce que ne peut pas faire votre projet. Idéalement, vous devrez être capable d'identifier de quelle(s) [menace(s) courante(s)](../basics/common-threats.md) protège votre projet.

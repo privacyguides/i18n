@@ -199,7 +199,7 @@ Ces fournisseurs stockent vos e-mails avec un chiffrement à connaissance zéro,
 ![Logo Tuta](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (anciennement *Tutanota*) est un service de messagerie électronique qui met l'accent sur la sécurité et la confidentialité grâce à l'utilisation du cryptage. Tuta est en activité depuis 2011 et est basée à Hanovre, en Allemagne.
+**Tuta** (anciennement *Tutanota*) est un service de messagerie électronique qui met l'accent sur la sécurité et la confidentialité grâce à l'utilisation du cryptage. Tuta est en activité depuis 2011 et est basé à Hanovre, en Allemagne.
 
 Les comptes gratuits commencent avec 1 Go de stockage.
 

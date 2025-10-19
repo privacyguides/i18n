@@ -1,31 +1,31 @@
 ---
-title: Donate
-description: The charitable mission of Privacy Guides relies on contributions from visitors like yourself. Anything you can do to support the project is hugely appreciated.
+title: Faire un don
+description: La mission de Privacy Guides repose sur les contributions des visiteurs tels que vous. Tout ce que vous pouvez faire pour soutenir le projet est grandement apprécié.
 ---
 
 <!-- markdownlint-disable MD036 -->
-Support our mission to defend digital rights and spread the word about mass surveillance programs and other daily privacy invasions. You can help Privacy Guides researchers, activists, and maintainers create informative content, host private digital services, and protect privacy rights at a time when the world needs it most.
+Soutenez notre mission de défense des droits numériques et faites connaitre les menaces quotidiennes qui pèsent sur la vie privée comme les programmes de surveillance de masse. Vous pouvez aider les chercheurs, les activistes et les responsables de Privacy Guides à créer du contenu informatif, à héberger des services numériques respectueux de la vie privée et à protéger le droit à la vie privée à un moment où le monde en a le plus besoin.
 
 <!-- markdownlint-disable-next-line -->
-[:material-heart:{ .pg-red } Become a Member](https://donate.magicgrants.org/privacyguides/membership){ class="md-button md-button--primary" data-portal="signup" }
+[:material-heart:{ .pg-red }Devenez Membre](https://donate.magicgrants.org/privacyguides/membership){ class="md-button md-button--primary" data-portal="signup" }
 
-[Become a Member (Cryptocurrency)](https://donate.magicgrants.org/privacyguides/membership){ class="md-button" }
-[One-Time Donation](https://donate.magicgrants.org/privacyguides/donate/privacyguides){ class="md-button" }
+[Devenez Membre (Cryptomonnaies)](https://donate.magicgrants.org/privacyguides/membership){ class="md-button" }
+[Faire un don ponctuel](https://donate.magicgrants.org/privacyguides/donate/privacyguides){ class="md-button" }
 
 <small markdown>
 
-MAGIC Grants is our fiscal host, and their custom, open-source donation platform allows you to donate to our project with **Monero**, **Litecoin (MWEB)**, **Bitcoin**, or **debit/credit card**. You can also donate using [:simple-github: GitHub Sponsors](https://github.com/sponsors/privacyguides).
+La plateforme de dons personnalisée et open-source MAGIC Grant, notre hôte fiscal, vous permet de faire un don à notre projet par **Monero**, **Litecoin (MWEB)**, **Bitcoin**, ou **carte bancaire**. Vous pouvez également faire un don en utilisant [:simple-github: GitHub Sponsors](https://github.com/sponsors/privacyguides).
 
 </small>
 
-## Foundations & Organizations
+## Fondations & Organisations
 
-=== "Current Supporters"
+=== "Soutiens actuels"
 
-    Thank you to these organizations who significantly support Privacy Guides. (1)
+    Merci à ces organismes de soutenir Privacy Guides de façon aussi significative. (1)
     { .annotate }
 
-    1. Please contact <info@magicgrants.org> to inquire about giving. Privacy Guides reserves the right to rescind the membership of those who are unaligned with our mission or organization at any time. Organizational members have no ability to influence what content is recommended on the Privacy Guides website. Learn more about our [donation acceptance policy](donation-acceptance-policy.md).
+    1. Pour vous renseigner sur les dons, contactez <info@magicgrants.org>. Privacy Guides se réserve le droit d'annuler à tout moment l'adhésion des personnes qui ne sont pas en accord avec notre mission ou notre organisation. Les membres de l'organisation n'ont pas la possibilité d'influencer le contenu recommandé sur le site web des Guides de la protection de la vie privée. En savoir plus sur notre [politique d'acceptation des dons](donation-acceptance-policy.md).
 
     <div class="mdx-specialthanks" markdown>
 
@@ -107,7 +107,7 @@ This is a list of our **active** [members](https://donate.magicgrants.org/privac
 </p>
 
 <p spaces-before="0">
-  Organizational members have no ability to influence what content is recommended on the Privacy Guides website. Learn more about our <a href="donation-acceptance-policy.md">donation acceptance policy</a>.
+  Les membres de l'organisation n'ont pas la possibilité d'influencer le contenu recommandé sur le site web des Guides de la protection de la vie privée. En savoir plus sur notre <a href="donation-acceptance-policy.md">politique d'acceptation des dons</a>.
 </p>
 
 <h3 spaces-before="0">
