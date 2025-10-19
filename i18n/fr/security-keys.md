@@ -1,16 +1,16 @@
 ---
 title: Clés de sécurité
 icon: material/key-chain
-description: These security keys provide a form of phishing-immune authentication for accounts that support it.
+description: Ces clefs de sécurité vous permette d'ajouter une authentification immunisée contre l'hameçonnage (phishing) aux comptes qui sont compatibles.
 cover: multi-factor-authentication.webp
 ---
 
 <small>Protège contre les menaces suivantes :</small>
 
-- [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy){ .pg-orange }
+- [:material-target-account: Attaques Ciblées](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
+- [:material-bug-outline: Attaques Passives](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-A physical **security key** adds a very strong layer of protection to your online accounts. Compared to [authenticator apps](multi-factor-authentication.md), the [FIDO2](basics/multi-factor-authentication.md#fido-fast-identity-online) security key protocol is immune to phishing, and cannot be compromised without physical possession of the key itself. Many services support FIDO2/WebAuthn as a multifactor authentication option for securing your account, and some services allow you to use a security key as a strong single-factor authenticator with passwordless authentication.
+Une **clef de sécurité** physique ajoute à vos comptes une couche de protection supplémentaire robuste. Comparé aux [applications d'authentification](multi-factor-authentication.md), le protocole de la clef de sécurité [FIDO2](basics/multi-factor-authentication.md#fido-fast-identity-online) est immunisé à l'hameçonnage et ne peux pas être compromise sans posséder physiquement cette clef. Many services support FIDO2/WebAuthn as a multifactor authentication option for securing your account, and some services allow you to use a security key as a strong single-factor authenticator with passwordless authentication.
 
 ## Yubico Security Key
 
