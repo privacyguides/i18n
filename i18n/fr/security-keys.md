@@ -1,7 +1,7 @@
 ---
 title: Clés de sécurité
 icon: material/key-chain
-description: Ces clefs de sécurité vous permette d'ajouter une authentification immunisée contre l'hameçonnage (phishing) aux comptes qui sont compatibles.
+description: Ces clefs de sécurité vous permette d'ajouter aux comptes qui sont compatibles une authentification immunisée contre l'hameçonnage (phishing).
 cover: multi-factor-authentication.webp
 ---
 
@@ -10,14 +10,14 @@ cover: multi-factor-authentication.webp
 - [:material-target-account: Attaques Ciblées](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 - [:material-bug-outline: Attaques Passives](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-Une **clef de sécurité** physique ajoute à vos comptes une couche de protection supplémentaire robuste. Comparé aux [applications d'authentification](multi-factor-authentication.md), le protocole de la clef de sécurité [FIDO2](basics/multi-factor-authentication.md#fido-fast-identity-online) est immunisé à l'hameçonnage et ne peux pas être compromise sans posséder physiquement cette clef. Beaucoup de services permettent d'utiliser FIDO2/WebAuthn en tant qu'option d'authentification multifactorielle pour protéger vos comptes, et certains services vous permettent d'utiliser une clef de sécurité d'authentification robuste à seul facteur pour une authentification sans mot de passe.
+Une **clef de sécurité** physique ajoute à vos comptes une couche de protection robuste supplémentaire. Comparé aux [applications d'authentification](multi-factor-authentication.md), le protocole de la clef de sécurité [FIDO2](basics/multi-factor-authentication.md#fido-fast-identity-online) est immunisé à l'hameçonnage et ne peux pas être compromise sans posséder physiquement cette clef. Beaucoup de services permettent d'utiliser FIDO2/WebAuthn en tant qu'option d'authentification multifactorielle pour protéger vos comptes, et certains services vous permettent d'utiliser une clef de sécurité pour une authentification à seul facteur robuste sans mot de passe.
 
 ## Yubico Security Key
 
 <div class="admonition recommendation" markdown>
 
 <figure markdown="span">
-  ![Security Key Series de Yubico](assets/img/security-keys/yubico-security-key.webp){ width="315" }
+  ![Série Security Key de Yubico](assets/img/security-keys/yubico-security-key.webp){ width="315" }
 </figure>
 
 La série **Yubico Security Keys** est la clé de sécurité hardware certifiée FIDO Level 2[^1] avec le meilleur rapport qualité prix. Elle est compatible avec FIDO2/WebAuthn et FIDO Universal 2nd Factor (U2F), et fonctionne sans manipulation particulière avec la plupart des services qui permettent d'utiliser une clef de sécurité en tant que deuxième facteur, ainsi qu'avec de nombreux gestionnaires de mots de passe.
@@ -30,7 +30,7 @@ La série **Yubico Security Keys** est la clé de sécurité hardware certifiée
 
 </div>
 
-La clef possède seulement des fonctionnalités FIDO2 basique, mais cela est suffisant pour la plupart des gens.
+Ces clefs sont disponibles en format USB-C et USB-A, et les deux options ont également un support NFC pour pouvoir fonctionner avec un smartphone.
 
 La clef possède seulement des fonctionnalités FIDO2 basique, mais cela est suffisant pour la plupart des gens. Fonctionnalités notables qui ne sont **pas** incluses dans la série Security Key :
 
@@ -65,16 +65,16 @@ La série **YubiKey** de Yubico fait partie des clefs de sécurité certifiée F
 
 </div>
 
-Le [tableau comparatif](https://yubico.com/store/compare) vous permet de visualiser les différentes spécificités des produits YubiKeys et [Security Key](#yubico-security-key). Les YubiKey présentent l'avantage de proposer en une seule clef presque toutes les fonctionnalités attendues d'une clef de sécurité physique. We encourage you to take their [quiz](https://yubico.com/quiz) before purchasing in order to make sure you choose the right security key.
+Ce [tableau comparatif](https://yubico.com/store/compare) vous permet de visualiser les différentes spécificités des produits YubiKeys et [Security Key](#yubico-security-key). Les YubiKey présentent l'avantage de proposer en une seule clef presque toutes les fonctionnalités attendues d'une clef de sécurité physique. Nous vous encourageons à faire leur [questionnaire](https://yubico.com/quiz) avant de faire votre choix.
 
-YubiKeys can be programmed using the [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) or [YubiKey Personalization Tools](https://yubico.com/support/download/yubikey-personalization-tools). For managing TOTP codes, you can use the [Yubico Authenticator](https://yubico.com/products/yubico-authenticator). All of Yubico's clients are open source.
+Les YubiKeys peuvent être programmées en utilisant le [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) ou les [YubiKey Personalization Tools](https://yubico.com/support/download/yubikey-personalization-tools). Pour gérer les codes TOTP, vous pouvez utiliser le [Yubico Authenticator](https://yubico.com/products/yubico-authenticator). Tous les clients Yubico sont open source.
 
-For models which [support HOTP and TOTP](https://support.yubico.com/hc/articles/360013790319-How-many-accounts-can-I-register-my-YubiKey-with), the secrets are stored encrypted on the key and never exposed to the devices they are plugged into. Once a seed (shared secret) is given to the Yubico Authenticator, it will only give out the six-digit codes, but never the seed. This security model helps limit what an attacker can do if they compromise one of the devices running the Yubico Authenticator and make the YubiKey resistant to a physical attacker.
+Pour les modèles [qui prennent en charge HOTP et TOTP](https://support.yubico.com/hc/articles/360013790319-How-many-accounts-can-I-register-my-YubiKey-with), les secrets sont chiffrés et stockés sur la clef et ne sont jamais en contact avec les appareils dans lesquels ils sont branchés. Lorsqu'une seed (secret partagé) est partagé au Yubico Authenticator, celui-ci fournira uniquement les codes à six chiffres, mais jamais la seed. Ce modèle de sécurité contribue à limiter les possibilités d'un attaquant qui compromettrai un des appareils utilisant le Yubico Authenticator et rend la clef robuste face à un attaquant physique.
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avertissement</p>
 
-The firmware of YubiKey is not updatable. Vous devrez acheter une nouvelle clef si vous souhaitez bénéficier des fonctionnalités des versions les plus récentes, ou si une faille a été trouvée dans la version que vous possédez actuellement.
+Le micrologiciel de la YubiKey ne peut pas être mis à jour. Vous devrez acheter une nouvelle clef si vous souhaitez bénéficier des fonctionnalités des versions les plus récentes, ou si une faille a été trouvée dans la version que vous possédez actuellement.
 
 </div>
 
@@ -86,45 +86,45 @@ The firmware of YubiKey is not updatable. Vous devrez acheter une nouvelle clef 
   ![Nitrokey](assets/img/security-keys/nitrokey.jpg){ width="300" }
 </figure>
 
-**Nitrokey** has a cost-effective security key capable of FIDO2/WebAuthn and FIDO U2F called the **Nitrokey Passkey**. For support for features such as PIV, OpenPGP, and TOTP and HOTP authentication, you need to purchase one of their other keys like the **Nitrokey 3**. Currently, only the **Nitrokey 3A Mini** has [FIDO Level 1 Certification](https://nitrokey.com/news/2024/nitrokey-3a-mini-receives-official-fido2-certification).
+**Nitrokey** propose la **Nitrokey Passkey**, une clef de sécurité avec un bon rapport qualité prix, compatible avec FIDO2/WebAuthn et FIDO U2F. Si vous souhaitez bénéficier des fonctionnalités telles que la PIV, OpenPGP et l'authentification TOTP et HOTP, vous aurez besoin d'acheter une clef différente, comme la **NitroKey 3**. Actuellement, seule la **NitroKey 3A Mini** est certifiée [FIDO Level 1](https://nitrokey.com/news/2024/nitrokey-3a-mini-receives-official-fido2-certification).
 
-[:octicons-home-16: Homepage](https://nitrokey.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://nitrokey.com/data-privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://nitrokey.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://nitrokey.com/data-privacy-policy){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://docs.nitrokey.com){ .card-link title="Documentation" }
 
 </details>
 
 </div>
 
-The [comparison table](https://nitrokey.com/products/nitrokeys#:~:text=The%20Nitrokey%20Family) shows how the different Nitrokey models compare to each other in terms of features and other specifications. Refer to Nitrokey's [documentation](https://docs.nitrokey.com/nitrokeys/features) for more details about the features available on your Nitrokey.
+Ce [tableau comparatif](https://nitrokey.com/products/nitrokeys#:~:text=The%20Nitrokey%20Family) vous permet de comparer les différentes fonctionnalités et spécificités des modèles Nitrokey. Vous pouvez consulter leur [documentation](https://docs.nitrokey.com/nitrokeys/features) pour plus d'informations.
 
-Nitrokey models can be configured using the [Nitrokey app](https://nitrokey.com/download).
+Les modèles de Nitrokey peuvent être configurés en utilisant [l'application Nitrokey](https://nitrokey.com/download).
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avertissement</p>
 
-Excluding the Nitrokey 3, Nitrokeys which support HOTP and TOTP do not have encrypted storage, making them vulnerable to physical attacks.
+A l'exception de la Nitrokey 3, les Nitrokeys qui prennent en charge HOTP et TOTP n'ont pas de stockage chiffré, ce qui les rend vulnérables aux attaques physiques.
 
 </div>
 
 ## Critères
 
-**Nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de nos [critères de base](about/criteria.md), nous avons élaboré un ensemble d'exigences clair nous permettant de proposer des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
+**Nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de nos [critères de base](about/criteria.md), nous avons élaboré un ensemble d'exigences clair nous permettant de proposer des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de faire votre choix, et de mener vos propres recherches pour vous assurer que celui-ci répond bien à vos besoins.
 
 ### Exigences minimales
 
-- Must use high-quality, tamper-resistant hardware security modules.
-- Must support the latest FIDO2 specification.
-- Must not allow private key extraction.
-- Devices which cost over $35 must support handling OpenPGP and S/MIME.
+- Doit utiliser des modules de sécurités hardware de haute qualité résistants aux altérations.
+- Doit prendre en charge les dernières spécificités FIDO2.
+- Ne doit pas permettre l'extraction de la clé privée.
+- Les appareils qui coûtent plus de 35 $ doivent prendre en charge OpenPGP et S/MIME.
 
 ### Critères optimaux
 
 Nos critères optimaux représentent ce que nous aimerions voir d'un projet parfait dans cette catégorie. Nos recommandations peuvent ne pas inclure tout ou partie de ces fonctionnalités, mais celles qui l'inclus peuvent être mieux classées que les autres sur cette page.
 
-- Should be available in USB-C form factor.
-- Should be available with NFC.
-- Should support TOTP secret storage.
-- Should support secure firmware updates.
+- Devrait être disponible au format USB-C.
+- Devrait proposer le NFC.
+- Devrait proposer un stockage des secrets TOTP.
+- Devrait permettre les mises à jour de sécurité du micrologiciel.
 
-[^1]: Some governments or other organizations may require a key with Level 2 certification, but most people do not have to worry about this distinction.
+[^1]: Certaines organisations comme les gouvernements peuvent nécessiter une clef certifiée Level 2, mais la plupart des gens n'en n'ont pas l'utilité.
