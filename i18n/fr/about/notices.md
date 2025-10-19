@@ -1,6 +1,6 @@
 ---
-title: "Notices and Disclaimers"
-description: Information about our website license, acceptable use policy, and other important details.
+title: "Avis et clauses de non-responsabilité"
+description: Informations sur la licence de notre site web, la politique d'utilisation acceptable et d'autres détails importants.
 ---
 
 ## Avertissement légal
@@ -17,19 +17,19 @@ En outre, Privacy Guides ne garantit pas que ce site web sera constamment dispon
 
 <div class="admonition danger" markdown>
 
-The following is a human-readable summary of (and not a substitute for) the [license](https://github.com/privacyguides/privacyguides.org/blob/main/README.md#license).
+Ce qui suit est un résumé (et non pas une substitution) lisible par l'homme de notre [licence] (https://github.com/privacyguides/privacyguides.org/blob/main/README.md#license).
 
 </div>
 
-Unless otherwise noted, all **content** on this website is released under the [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE). This means that you can use the human-readable content on this website for your own project, as long as you give appropriate credit to [Privacy Guides](https://www.privacyguides.org) including a link where technically possible, and you release your project under the same license. You may not do so in any way that suggests Privacy Guides endorses you or your use. You **may not** use the Privacy Guides brand trademarks in your own project without express approval from this project. Les marques déposées de Privacy Guides comprennent l'appellation "Privacy Guides" ainsi que le logo de bouclier.
+Sauf indication contraire, l'ensemble du **contenu** de ce site web est mis à disposition selon les termes de la [Creative Commons Attribution-ShareAlike 4.0 International Public License](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE). Cela signifie que vous pouvez utiliser le contenu lisible par l'homme de ce site web pour votre propre projet, à condition de mentionner de manière appropriée [Privacy Guides](https://www.privacyguides.org), en incluant un lien lorsque cela est techniquement possible, et de placer votre projet sous la même licence. Vous ne pouvez pas le faire d'une manière qui suggère que Privacy Guides vous approuvent ou approuvent votre utilisation. Vous **ne pouvez pas** utiliser la marque Privacy Guides dans votre propre projet sans notre approbation expresse. Les marques déposées de Privacy Guides comprennent l'appellation "Privacy Guides" ainsi que le logo bouclier.
 
 Le **code source** sous-jacent utilisé pour générer ce site web et afficher son contenu est publié sous la [licence MIT](https://github.com/privacyguides/privacyguides.org/tree/main/LICENSE-CODE).
 
-This does not include third-party code embedded in the Privacy Guides code repository, or code where a superseding license is otherwise noted. Les exemples suivants sont notables, mais cette liste n'est pas exhaustive :
+Cela n'inclut pas le code tiers intégré dans ce dépôt, ou le code pour lequel une licence de remplacement est indiquée. Les exemples suivants sont notables, mais cette liste n'est pas exhaustive :
 
-* The [Bagnard](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard) heading font is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard/LICENSE.txt).
-* The [Public Sans](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans) font used for most text on the site is licensed under the terms detailed [here](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans/LICENSE.txt).
-* The [DM Mono](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono) font used for monospaced text on the site is licensed under the [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono/LICENSE.txt).
+* La police d'en-tête [Bagnard](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard) est sous licence [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Bagnard/LICENSE.txt).
+* La police [Public Sans](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans) utilisée pour la majorité du texte sur ce site fait l'objet d'une licence dont les termes sont détaillés [ici](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/Public%20Sans/LICENSE.txt).
+* La police [DM Mono](https://github.com/privacyguides/brand/tree/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono) utilisée pour le texte monospace sur le site est sous la licence [SIL Open Font License 1.1](https://github.com/privacyguides/brand/blob/67166ed8b641d8ac1837d0b75329e02ed4056704/fonts/DM%20Mono/LICENSE.txt).
 
 Nous estimons que les logos et autres images des `actifs` obtenus auprès de fournisseurs tiers sont soit du domaine public, soit **d'un usage raisonnable**. In a nutshell, legal [fair use doctrine](https://copyright.gov/fair-use/more-info.html) allows the use of copyrighted images in order to identify the subject for purposes of public comment. Toutefois, ces logos et autres images peuvent encore être soumis aux lois sur les marques commerciales dans une ou plusieurs juridictions. Avant d'utiliser ce contenu, veuillez vous assurer qu'il est utilisé pour identifier l'entité ou l'organisation propriétaire de la marque et que vous avez le droit de l'utiliser en vertu des lois applicables dans les circonstances de votre utilisation prévue. *Lorsque vous copiez le contenu de ce site web, vous êtes seul responsable de vous assurer que vous ne violez pas la marque ou le droit d'auteur de quelqu'un d'autre.*
 

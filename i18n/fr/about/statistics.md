@@ -1,18 +1,18 @@
 ---
-title: Traffic Statistics
-description: We self-host Umami to create a nice visualization of our traffic statistics, which are made public here.
+title: Statistiques du trafic
+description: Nous auto-hébergeons Umami afin de créer un visuel agréable de nos statistiques de trafic, que vous pouvez consulter ici.
 ---
 
 <!-- markdownlint-disable MD051 -->
 
-We self-host [Umami](https://umami.is) to create a nice visualization of our traffic statistics, which are public at the link below.
+Nous auto-hébergeons [Umami](https://umami.is) afin de créer un visuel agréable de nos statistiques de trafic, que vous pouvez consulter en cliquant sur le lien ci-dessous.
 
-[View Statistics](https://stats.triplebit.net/share/S80jBc50hxr5TquS/www.privacyguides.org){ .md-button .md-button--primary }
+[Consulter les statistiques](https://stats.triplebit.net/share/S80jBc50hxr5TquS/www.privacyguides.org){ .md-button .md-button--primary }
 
-With this process:
+Grâce à ce processus :
 
-- Your information is never shared with a third party, it stays on servers we control
-- Your personal data is never saved, we only collect data in aggregate
-- No client-side JavaScript is used
+- Vos données ne sont jamais partagées à un tiers et reste uniquement sur des serveurs que nous contrôlons
+- Vos données personnelles ne sont jamais enregistrée, nous collectons des données uniquement sous forme d'agrégat
+- Aucun JavaScrip n'est utilisé côté client
 
-Because of these facts, keep in mind our statistics may be inaccurate. It is a useful tool to compare different dates with each other and analyze overall trends, but the actual numbers may be far off from reality. In other words they're _precise_ statistics, but not _accurate_ statistics.
+Cependant, cela peut rendre nos statistiques moins fiables. C'est un outil utile pour comparer selon les jours et analyser des tendances globales, mais les nombres en eux-mêmes peuvent être assez éloignés de la réalité. En d'autres termes, se sont des statistiques _précises_ mais pas _exactes_.
