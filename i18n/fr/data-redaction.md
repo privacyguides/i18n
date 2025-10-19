@@ -1,6 +1,6 @@
 ---
 meta_title: "Supprimer les DCP à l'aide de nettoyeurs de métadonnées et d'outils de suppression des données - Privacy Guides"
-title: "Rédaction de données et de métadonnées"
+title: "Caviardage de données et de métadonnées"
 icon: material/tag-remove
 description: Utilisez ces outils pour supprimer les métadonnées telles que la localisation GPS et d'autres informations d'identification des photos et des fichiers que vous partagez.
 cover: data-redaction.webp
@@ -27,12 +27,12 @@ Vous ne devez **jamais** utiliser le flou pour expurger [du texte dans les image
 
 **MAT2** est gratuit, logiciel multi-plateforme qui vous permet de supprimer les métadonnées des types d'image, d'audio, de torrent et de fichiers de documents. Il propose à la fois un outil en ligne de commande et une interface graphique grâce à une extension pour [Dolphin](https://github.com/jvoisin/mat2/tree/master/dolphin), le gestionnaire de fichiers par défaut de [KDE](https://kde.org).
 
-[:octicons-repo-16: Repository](https://github.com/jvoisin/mat2#readme){ .md-button .md-button--primary }
+[:octicons-repo-16: Dépôt](https://github.com/jvoisin/mat2#readme){ .md-button .md-button--primary }
 [:octicons-info-16:](https://github.com/jvoisin/mat2#how-to-use-mat2){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/jvoisin/mat2){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/jvoisin/mat2){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:fontawesome-brands-windows: Windows](https://pypi.org/project/mat2)
 - [:simple-apple: macOS](https://github.com/jvoisin/mat2#requirements-setup-on-macos-os-x-using-homebrew)

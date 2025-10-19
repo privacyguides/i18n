@@ -33,7 +33,7 @@ Sans contact avec BurungHantu, nous avons décidé que le meilleur plan d'action
 
 ## Appel à l'aide de la communauté
 
-At the end of July 2021, we [informed](https://web.archive.org/web/20210729184422/https://blog.privacytools.io/the-future-of-privacytools) the PrivacyTools community of our intention to choose a new name and continue the project on a new domain, to be [chosen](https://web.archive.org/web/20210729190935/https://aragon.cloud/apps/forms/cMPxG9KyopapBbcw) on 2nd August 2022. En fin de compte, "Privacy Guides" a été sélectionné, avec le domaine `privacyguides.org` déjà détenu par Jonah pour un projet secondaire de 2020 qui n'a jamais été développé.
+A la fin de juillet 2021, nous avons [informé](https://web.archive.org/web/20210729184422/https://blog.privacytools.io/the-future-of-privacytools) la communauté de PrivacyTools de nos intentions de continuer le projet avec un nouveau nom de domaine, celui-ci a été [choisi](https://web.archive.org/web/20210729190935/https://aragon.cloud/apps/forms/cMPxG9KyopapBbcw) le 2 août 2022. En fin de compte, "Privacy Guides" a été sélectionné, avec le domaine `privacyguides.org` déjà détenu par Jonah pour un projet secondaire de 2020 qui n'a jamais été développé.
 
 ## Contrôle de r/privacytoolsIO
 
@@ -80,38 +80,38 @@ Depuis le 25 septembre 2022, nous voyons les plans de BurungHantu se dessiner su
 
 ## r/privacytoolsIO maintenant
 
-After the launch of [r/PrivacyGuides](https://reddit.com/r/privacyguides), it was impractical for u/trai_dep to continue moderating both Subreddits, and with the community on-board with the transition, r/privacytoolsIO was [made](https://reddit.com/comments/qk7qrj) a restricted sub in a post on November 1st, 2021:
+Après le lancement de [r/PrivacyGuides](https://reddit.com/r/privacyguides), il était difficile pour u/trai_dep de continuer à modérer les deux subreddit, et avec l'adhésion de la communauté à la transition, r/privacytoolsIO [est devenu](https://reddit.com/comments/qk7qrj) un sub resteint lors d'un post le 1er novembre 2021 :
 
-> [...] La croissance de ce sous-reddit a été le résultat de grands efforts, sur plusieurs années, par l'équipe PrivacyGuides.org. Et par chacun d'entre vous.
+> [...] La croissance de ce subreddit a été le résultat de grands efforts, sur plusieurs années, par l'équipe PrivacyGuides.org. Et par chacun d'entre vous.
 > 
-> Un sous-reddit représente beaucoup de travail à administrer et à modérer. Comme un jardin, il nécessite un entretien patient et des soins quotidiens. It's not a task for dilettantes or commitment-challenged people. Il ne peut pas prospérer sous la houlette d'un jardinier qui l'abandonne pendant plusieurs années, puis se présente en exigeant la récolte de cette année en guise de tribut. It's unfair to the team formed years ago. C'est injuste pour vous. [...]
+> Un subreddit représente beaucoup de travail à administrer et à modérer. Comme un jardin, il nécessite un entretien patient et des soins quotidiens. Ce n'est pas une tâche pour les dilettantes ou les personnes qui ont du mal à s'engager. Il ne peut pas prospérer sous la houlette d'un jardinier qui l'abandonne pendant plusieurs années, puis se présente en exigeant la récolte de cette année en guise de tribut. C'est injuste pour l'équipe formée il y a des années. C'est injuste pour vous. [...]
 
-Les sous-reddits n'appartiennent à personne, et ils n'appartiennent surtout pas aux détenteurs de marques. Ils appartiennent à leurs communautés, et la communauté et ses modérateurs ont pris la décision de soutenir le déplacement vers r/PrivacyGuides.
+Les subreddits n'appartiennent à personne, et ils n'appartiennent surtout pas aux détenteurs de marques. Ils appartiennent à leurs communautés, et celle-ci ainsi que ses modérateurs ont pris la décision de soutenir le déplacement vers r/PrivacyGuides.
 
-In the months since, BurungHantu has threatened and begged for returning Subreddit control to his account in [violation](https://reddit.com/r/redditrequest/wiki/top_mod_removal) of Reddit rules:
+Dans les mois qui ont suivi, BurungHantu nous a menacé et supplié de lui redonner le contrôle du subreddit à son compte, [en violation](https://reddit.com/r/redditrequest/wiki/top_mod_removal) du règlement de Reddit :
 
 > Les représailles d'un modérateur à l'égard des demandes de suppression sont interdites.
 
-Pour une communauté qui compte encore plusieurs milliers d'abonnés, nous estimons qu'il serait incroyablement irrespectueux de rendre le contrôle de cette énorme plateforme à la personne qui l'a abandonnée pendant plus d'un an et qui gère désormais un site web qui, selon nous, fournit des informations de très mauvaise qualité. Preserving the years of past discussions in that community is more important to us, and thus u/trai_dep and the rest of the Subreddit moderation team has made the decision to keep r/privacytoolsIO as-is.
+Pour une communauté qui compte encore plusieurs milliers d'abonnés, nous estimons qu'il serait incroyablement irrespectueux de rendre le contrôle de cette énorme plateforme à la personne qui l'a abandonnée pendant plus d'un an et qui gère désormais un site web qui, selon nous, fournit des informations de très mauvaise qualité. Préserver les années de discussions passées dans cette communauté est plus important pour nous, u/trai_dep et le reste de l'équipe de modération du subreddit a donc pris la décision de garder r/privacytoolsIO tel quel.
 
 ## OpenCollective maintenant
 
-Notre plateforme de collecte de fonds, OpenCollective, est une autre source de discorde. Notre position est qu'OpenCollective a été mis en place par notre équipe et géré par notre équipe pour financer les services que nous exploitons actuellement et que PrivacyTools ne fait plus. Nous avons [contacté](https://opencollective.com/privacyguides/updates/transitioning-to-privacy-guides) tous nos donateurs au sujet de notre passage à Privacy Guides, et nous avons reçu le soutien unanime de nos sponsors et de notre communauté.
+Notre plateforme de collecte de fonds, OpenCollective, est une autre source de discorde. Notre position est qu'OpenCollective a été mis en place et géré par notre équipe pour financer les services que nous exploitons actuellement et que PrivacyTools ne fait plus. Nous avons [contacté](https://opencollective.com/privacyguides/updates/transitioning-to-privacy-guides) tous nos donateurs au sujet de notre passage à Privacy Guides, et nous avons reçu le soutien unanime de nos sponsors et de notre communauté.
 
 Ainsi, les fonds dans OpenCollective appartiennent à Privacy Guides, ils ont été donnés à notre projet, et non au propriétaire d'un nom de domaine bien connu. Dans l'annonce faite aux donateurs le 17 septembre 2021, nous avons proposé un remboursement à tout donateur qui ne serait pas d'accord avec la position que nous avons adoptée, mais personne n'a accepté cette offre :
 
-> If any sponsors or backers disagree with or feel misled by these recent events and would like to request a refund given these highly unusual circumstances, please get in touch with our project admin by emailing `jonah@triplebit.net`.
+> Si quelque sponsors ou donataire est en désaccord ou se sentent induits en erreur par ces événements récents et souhaitent demander un remboursement compte tenu de ces circonstances très inhabituelles, veuillez contacter notre administrateur de projet en envoyant un e-mail à `jonah@triplebit.net`.
 
 ## Pour en savoir plus
 
-Ce sujet a fait l'objet de nombreuses discussions au sein de nos communautés à divers endroits, et il est probable que la plupart des personnes qui lisent cette page connaissent déjà les événements qui ont conduit au passage aux guides de confidentialité. Certains de nos précédents billets sur le sujet peuvent contenir des détails supplémentaires que nous avons omis ici par souci de brièveté. Ils ont été mis en lien ci-dessous dans un souci d'exhaustivité.
+Ce sujet a fait l'objet de nombreuses discussions au sein de nos communautés à divers endroits, et il est probable que la plupart des personnes qui lisent cette page connaissent déjà les événements qui ont conduit à la transition vers Privacy Guides. Certains de nos précédents billets sur le sujet peuvent contenir des détails supplémentaires que nous avons omis ici par souci de brièveté. Ils ont été mis en lien ci-dessous dans un souci d'exhaustivité.
 
-- [28 juin 2021 demande de contrôle de r/privacytoolsIO](https://reddit.com/comments/o9tllh)
+- [28 juin 2021 : demande de contrôle de r/privacytoolsIO](https://reddit.com/comments/o9tllh)
 - [27 juillet 2021 : annonce de nos intentions de déménager sur le blog PrivacyTools, écrite par l'équipe](https://web.archive.org/web/20210729184422/https://blog.privacytools.io/the-future-of-privacytools)
 - [13 septembre 2021 : annonce du début de notre transition vers Privacy Guides sur r/privacytoolsIO](https://reddit.com/pnql46)
-- [Annonce du 17 septembre 2021 sur OpenCollective par Jonah](https://opencollective.com/privacyguides/updates/transitioning-to-privacy-guides)
-- [30 septembre 2021 Fil Twitter détaillant la plupart des événements décrits sur cette page](https://twitter.com/privacy_guides/status/1443633412800225280)
-- [1er octobre 2021, publication de u/dng99 constatant un échec du sous-domaine](https://reddit.com/comments/pymthv/comment/hexwrps)
-- [2 avr 2022 réponse de u/dng99 à l'article de blog accusatoire de PrivacyTools](https://reddit.com/comments/tuo7mm/comment/i35kw5a)
-- [16 mai 2022 réponse de @TommyTran732 sur Twitter](https://twitter.com/TommyTran732/status/1526153497984618496)
-- [Sep 3, 2022 post sur le forum de Techlore par @dngray](https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)
+- [17 septembre 2021 : annonce sur OpenCollective par Jonah](https://opencollective.com/privacyguides/updates/transitioning-to-privacy-guides)
+- [30 septembre 2021 : fil Twitter détaillant la plupart des événements décrits sur cette page](https://twitter.com/privacy_guides/status/1443633412800225280)
+- [1er octobre 2021 : publication de u/dng99 constatant un échec du sous-domaine](https://reddit.com/comments/pymthv/comment/hexwrps)
+- [2 avr 2022 : réponse de u/dng99 à l'article de blog accusatoire de PrivacyTools](https://reddit.com/comments/tuo7mm/comment/i35kw5a)
+- [16 mai 2022 : réponse de @TommyTran732 sur Twitter](https://twitter.com/TommyTran732/status/1526153497984618496)
+- [Sep 3, 2022 : post sur le forum de Techlore par @dngray](https://discuss.techlore.tech/t/has-anyone-seen-this-video-wondering-your-thoughts/792/20)

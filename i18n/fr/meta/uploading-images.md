@@ -1,21 +1,21 @@
 ---
-title: Uploading Images
-description: A guide for website contributors on uploading images in the proper format and location.
+title: Téléversement d'images
+description: Un guide pour les contributeurs de notre site web pour téléverser des images dans le format et à l'emplacement appropriés.
 ---
 
-If you make changes to this website that involve adding new images or replacing existing ones, here are a couple of general recommendations:
+Si vous apportez des modifications à ce site web qui impliquent l'ajout de nouvelles images ou le remplacement d'images existantes, voici quelques recommandations générales :
 
 ## Images
 
-- We **prefer** SVG images, but if those do not exist we can use PNG images. Additionally, for cover images, we prefer that they are obtained from [Unsplash](https://unsplash.com) and are in the WebP format.
+- Nous **préférons** des images SVG, mais si celles-ci n'existent pas, nous pouvons utiliser des images PNG. En outre, pour les images de couverture, nous préférons qu'elles proviennent d'[Unsplash](https://unsplash.com) et qu'elles soient au format WebP.
 
-Company logos should be square if possible, and at least 200x200px if they are PNGs (non-vector images).
+Les logos des entreprises doivent être carrés si possible, et au moins 200x200px s'il s'agit de PNG (images non vectorielles).
 
 ## Optimisation
 
 ### PNG
 
-Use the [OptiPNG](https://sourceforge.net/projects/optipng) tool to optimize PNG images:
+Utilisez [OptiPNG](https://sourceforge.net/projects/optipng) pour optimiser l'image PNG :
 
 ```bash
 optipng -o7 file.png
@@ -29,8 +29,8 @@ optipng -o7 file.png
 
 Dans Inkscape :
 
-1. File > Save As...
-2. Set type to: Optimized SVG (*.svg)
+1. Fichier > Enregistrer sous...
+2. Définir le type à : SVG optimisé (*.svg)
 
 Dans l'onglet **Options** :
 
@@ -48,7 +48,7 @@ Dans l'onglet **Sortie SVG** sous **Options du document** :
 - [ ] Désactivez **Supprimer la déclaration XML**
 - [x] Activez **Supprimer les métadonnées**
 - [x] Activez **Supprimer les commentaires**
-- [x] Turn on **Embedded raster images**
+- [x] Activez **Images matricielles incorporées**
 - [x] Activez **Activer le viewboxing**
 
 Dans le document **Sortie SVG** sous **Pretty-printing** :
@@ -88,7 +88,7 @@ scour --set-precision=5 \
 
 ### WebP
 
-Use the [`cwebp`](https://developers.google.com/speed/webp/docs/using) command to convert PNG or JPEG image files to WebP format:
+Utilisez la commande [`cwebp`](https://developers.google.com/speed/webp/docs/using) pour convertir des fichiers images PNG ou JPEG au format WebP :
 
 ```bash
 cwebp -m 6 input_file -o output.webp

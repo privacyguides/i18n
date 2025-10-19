@@ -1,6 +1,6 @@
 ---
-title: Branding Guidelines
-description: A guide for journalists and website contributors on proper branding of the Privacy Guides wordmark and logo.
+title: Consignes relatives à la marque
+description: Un guide à l'intention des journalistes et des contributeurs de sites web sur l'utilisation correcte du mot-symbole et du logo Privacy Guides.
 ---
 
 Le nom du site web est **Privacy Guides** et ne devrait **pas** être changé en :
@@ -12,7 +12,7 @@ Le nom du site web est **Privacy Guides** et ne devrait **pas** être changé en
 - PG.org
 </div>
 
-The name of the Subreddit is **r/PrivacyGuides** or **the Privacy Guides Subreddit**.
+Le nom du subreddit est **r/PrivacyGuides** ou **the Privacy Guides Subreddit**.
 
 D'autres directives relatives à l'image de marque sont disponibles à l'adresse [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
 
