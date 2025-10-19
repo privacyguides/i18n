@@ -1,14 +1,14 @@
 ---
-title: Job Openings
-description: Privacy Guides has a small, remote team of privacy researchers and advocates. Any open positions we may have in the future will be posted here.
+title: Offres d'emploi
+description: Privacy Guides dispose d'une petite équipe en télétravail de chercheurs et de défenseurs de la vie privée. Toutes les offres d'emploi que nous pourrions avoir dans le futur seront postées ici.
 ---
 
-Privacy Guides has a small, remote team of privacy researchers and advocates working to further our mission of protecting free expression and promoting privacy-respecting technology. As a non-profit, we are expanding very slowly to ensure the project is sustainable in the long term. All of our team members are listed [here](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all). Please consider [donating](https://donate.magicgrants.org/privacyguides) to support our cause.
+Privacy Guides dispose d'une petite équipe en télétravail de chercheurs et de défenseurs de la vie privée qui travaillent à étendre notre mission de protéger la liberté d'expression et de promouvoir des technologies respectueuses de la vie privée. En tant qu'organisation à but non lucratif, nous nous agrandissons très lentement afin de rester viable sur le long terme. La liste des membres de notre équipe est disponible [ici](https://discuss.privacyguides.net/u?group=team&order=solutions&period=all). Pour nous soutenir, vous pouvez faire un [don](https://donate.magicgrants.org/privacyguides).
 
-We are occasionally looking for strong journalistic writers, product reviewers, and privacy experts to help us out, and any open positions will be posted below.
+Nous recherchons occasionnellement des rédacteurs journalistiques, des évaluateurs de produits et des experts en protection de la vie privée pour nous aider, et toutes les offres d'emploi seront affichés ci-dessous.
 
 ---
 
-## Open Positions
+## Offres d'emploi
 
-There are no open positions at this time.
+Il n'y a pas de poste à pourvoir pour le moment.

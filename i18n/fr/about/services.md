@@ -1,5 +1,5 @@
 - - -
-description: We run a number of web services to test out features and promote cool decentralized, federated, and/or open-source projects.
+description : Nous utilisons un certain nombre de services web pour tester des fonctionnalités et promouvoir des projets décentralisés, fédérés et/ou open-source.
 - - -
 
 # Services de Privacy Guides
@@ -17,13 +17,13 @@ Nous utilisons un certain nombre de services web pour tester des fonctionnalité
 ## Gitea
 
 - Domaine : [code.privacyguides.dev](https://code.privacyguides.dev)
-- Availability: Invite-Only. Access may be granted upon request to any team working on *Privacy Guides*-related development or content.
+- Disponibilité : Sur invitation uniquement. L'accès peut être accordé sur demande à toute équipe travaillant sur un développement ou un contenu en lien avec *Privacy Guides*.
 - Source : [snapcraft.io/gitea](https://snapcraft.io/gitea)
 
 ## Matrix
 
 - Domaine : [matrix.privacyguides.org](https://matrix.privacyguides.org)
-- Availability: Invite-Only. Access may be granted upon request to Privacy Guides team members, Matrix moderators, third-party Matrix community administrators, Matrix bot operators, and other individuals in need of a reliable Matrix presence.
+- Disponibilité : Sur invitation uniquement. L'accès peut être accordé sur demande aux membres de l'équipe de Privacy Guides, aux modérateurs Matrix, aux administrateurs tiers de la communauté de Matrix, aux opérateurs de bots Matrix et à d'autres personnes ayant besoin d'une présence fiable dans Matrix.
 - Source : [github.com/spantaleev/matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy)
 
 ## SearXNG
