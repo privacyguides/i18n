@@ -76,14 +76,14 @@ Si vous êtes sous Android et que votre modèle de menace vous expose à des [:m
 
 **Molly** est un client alternatif de Signal pour Android qui vous permet de chiffrer la base de données locale avec une phrase de passe après la mise en veille afin de détruire de façon sécurisée les données de RAM non utilisées, de faire passer votre connexion par Tor, [et bien d'autres](https://blog.privacyguides.org/2022/07/07/signal-configuration-and-hardening#privacy-and-security-features). Elle permet également de programmer une sauvegarde automatique, de verrouiller l'application automatiquement et d'avoir la possibilité d'utiliser votre téléphone Android comme appareil lié plutôt que comme appareil principal pour un compte Signal.
 
-[:octicons-home-16: Homepage](https://molly.im){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://molly.im){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://signal.org/legal/#privacy-policy){ .card-link title="Plitique de Confidentialité" }
 [:octicons-info-16:](https://github.com/mollyim/mollyim-android/wiki){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mollyim/mollyim-android){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://opencollective.com/mollyim){ .card-link title="Contribute" }
+[:octicons-code-16:](https://github.com/mollyim/mollyim-android){ .card-link title="Code Source" }
+[:octicons-heart-16:](https://opencollective.com/mollyim){ .card-link title="Contribuer" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:simple-fdroid: F-Droid](https://molly.im/fdroid)
 - [:octicons-moon-16: Accrescent](https://accrescent.app/app/im.molly.app)
@@ -93,29 +93,29 @@ Si vous êtes sous Android et que votre modèle de menace vous expose à des [:m
 
 </div>
 
-Molly is updated every two weeks to include the latest features and bug fixes from Signal. The exception is security issues, which are patched as soon as possible. That said, you should be aware that there might be a slight delay compared to upstream, which may affect actions such as [migrating from Signal to Molly](https://github.com/mollyim/mollyim-android/wiki/Migrating-From-Signal#migrating-from-signal).
+Molly est mise à jour toutes les deux semaines afin d'inclure les dernières fonctionnalités et les corrections de bug de Signal. Les mis à jour de sécurité sont quant à elles mise à disposition le plus vite possible. Il peut parfois il y avoir un petit délai, ce qui peut affecter certaines actions, comme la [migration de Signal à Molly](https://github.com/mollyim/mollyim-android/wiki/Migrating-From-Signal#migrating-from-signal).
 
-Note that you are trusting multiple parties by using Molly, as you now need to trust the Signal team *and* the Molly team to deliver safe and timely updates.
+Lorsque vous utilisez Molly, vous faites confiance à plusieurs intermédiaires pour vous fournir rapidement des mises à jour sécurisées, à savoir l'équipe de Signal *et* l'équipe de Molly.
 
-**Molly-FOSS** is a version of Molly which removes proprietary code like the Google services used by both Signal and Molly at the expense of some features (like battery-saving push notifications via Google Play Services). You can set up push notifications without Google Play Services in either version of Molly with [UnifiedPush](https://unifiedpush.org). Using this notification delivery method requires access to a [MollySocket](https://github.com/mollyim/mollysocket) server, but you can choose a public MollySocket instance for this.[^3]
+**Molly-FOSS** est une version de Molly qui retire tout le code propriétaire utilisé par Signal et Molly comme les services Google, au prix de certaines fonctionnalités (les notifications push économisant la batterie via les services Google Play). Vous pouvez paramétrer les notifications push sans les services Google dans les deux versions de Molly avec [UnifiedPush](https://unifiedpush.org). Cette méthode d'envoi de notifications nécessite l'accès à un serveur [MollySocket](https://github.com/mollyim/mollysocket), mais vous pouvez choisir une instance publique de MollySocket.[^3]
 
-Both versions of Molly provide the same security improvements and support [reproducible builds](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds), meaning it's possible to confirm that the compiled APKs match the source code.
+Les deux versions de Molly possèdent les mêmes améliorations de sécurité et sont compatibles avec les [builds reproductibles](https://github.com/mollyim/mollyim-android/tree/main/reproducible-builds), ce qui vous permet de confirmer que les APKs correspondent au code source.
 
 ## SimpleX Chat
 
 <div class="admonition recommendation" markdown>
 
-![SimpleX Chat logo](assets/img/messengers/simplex.svg){ align=right }
+![Logo de SimpleX Chat](assets/img/messengers/simplex.svg){ align=right }
 
-**SimpleX Chat** is an instant messenger that doesn't depend on any unique identifiers such as phone numbers or usernames. Its decentralized network makes SimpleX Chat an effective tool against [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
+**SimpleX Chat** est un service de messagerie instantanée qui ne dépend pas d'identifiant unique comme un numéro de téléphone ou un nom d'utilisateur. Son réseau décentralisé en fait un outil efficace contre la [:material-close-outline: Censure](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }.
 
-[:octicons-home-16: Homepage](https://simplex.chat){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://simplex.chat/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://simplex.chat){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://simplex.chat/privacy){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://simplex.chat/docs/simplex.html){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/simplex-chat){ .card-link title="Code Source" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=chat.simplex.app)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1605771084)
@@ -129,30 +129,30 @@ Both versions of Molly provide the same security improvements and support [repro
 
 </div>
 
-SimpleX Chat provides direct messaging, group chats, and E2EE calls secured with the [SimpleX Messaging Protocol](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md), which uses double ratchet encryption with quantum resistance. Additionally, SimpleX Chat provides metadata protection by using unidirectional ["simplex queues"](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md#simplex-queue) to deliver messages.
+SimpleX Chat permet d'envoyer des messages, de créer des conversations de groupes et de passer des appels chiffrés de bout-en-bout sécurisés avec le [Protocle SimpleX Messaging](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md), qui utilise un chiffrement à double ratchets résistant aux attaques quantiques. De plus, SimpleX protège les métadonnées en utilisant des ["simplex queues"](https://github.com/simplex-chat/simplexmq/blob/stable/protocol/simplex-messaging.md#simplex-queue) unidirectionnelles pour l'envoi des messages.
 
-To participate in conversations on SimpleX Chat, you must scan a QR code or click an invite link. This allows you to verify a contact out-of-band, which protects against man-in-the-middle attacks by network providers. Your data can be exported and imported onto another device, as there are no central servers where this is backed up.
+Pour participer à des conversations dans SimpleX Chat, vous devez scanner un QR code ou cliquer sur un lien d'invitation. Cela vous permet de vérifier un contact hors bande (out-of-band), ce qui vous protège des attaques man-in-the-middle des fournisseurs de réseaux. Vos données peuvent être exportées et importées sur un autre appareil et il n'existe aucune sauvegarde sur un serveur central.
 
-You can find a full list of the privacy and security [features](https://github.com/simplex-chat/simplex-chat#privacy-and-security-technical-details-and-limitations) implemented in SimpleX Chat in the app's repository.
+Vous pouvez trouver la liste complète des [fonctionnalités](https://github.com/simplex-chat/simplex-chat#privacy-and-security-technical-details-and-limitations) de confidentialité et de sécurité mises en place par SimpleX Chat dans le dépôt de l'application.
 
-SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html#simplex-cryptographic-design-review-by-trail-of-bits) and in [October 2022](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website).
+SimpleX Chat a été audité par un organisme indépendant en [juillet 2024](https://simplex.chat/blog/20241014-simplex-network-v6-1-security-review-better-calls-user-experience.html#simplex-cryptographic-design-review-by-trail-of-bits) et en [octobre 2022](https://simplex.chat/blog/20221108-simplex-chat-v4.2-security-audit-new-website).
 
 ## Briar
 
 <div class="admonition recommendation" markdown>
 
-![Briar logo](assets/img/messengers/briar.svg){ align=right }
+![Logo de Briar](assets/img/messengers/briar.svg){ align=right }
 
-**Briar** is an encrypted instant messenger that [connects](https://briarproject.org/how-it-works) to other clients using the [Tor network](alternative-networks.md#tor), making it an effective tool at circumventing [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar peut également se connecter par Wi-Fi ou Bluetooth lorsqu'il se trouve à proximité. Le mode de maillage local de Briar peut être utile lorsque la disponibilité d’internet pose problème.
+**Briar** est une messagerie instantanée qui [se connecte](https://briarproject.org/how-it-works) to aux autres clients en utilisant le [réseau Tor](alternative-networks.md#tor), ce qui en fait un outil efficace pour contourner la [:material-close-outline: Censure](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }. Briar peut également se connecter par Wi-Fi ou Bluetooth lorsqu'il se trouve à proximité. Le mode de maillage local de Briar peut être utile lorsque la disponibilité d’internet pose problème.
 
-[:octicons-home-16: Homepage](https://briarproject.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://briarproject.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://briarproject.org/privacy-policy){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://code.briarproject.org/briar/briar/-/wikis/home){ .card-link title="Documentation" }
-[:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://code.briarproject.org/briar/briar#donate){ .card-link title="Contribute" }
+[:octicons-code-16:](https://code.briarproject.org/briar/briar){ .card-link title="Code Source" }
+[:octicons-heart-16:](https://code.briarproject.org/briar/briar#donate){ .card-link title="Contribuer" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=org.briarproject.briar.android)
 - [:fontawesome-brands-windows: Windows](https://briarproject.org/download-briar-desktop)
@@ -163,7 +163,7 @@ SimpleX Chat was independently audited in [July 2024](https://simplex.chat/blog/
 
 </div>
 
-To add a contact on Briar, you must both add each other first. You can either exchange `briar://` links or scan a contact’s QR code if they are nearby.
+Pour ajouter un contact sur Briar, vous devez vous ajouter mutuellement. You can either exchange `briar://` links or scan a contact’s QR code if they are nearby.
 
 Briar has a fully [published specification](https://code.briarproject.org/briar/briar-spec). Briar supports forward secrecy[^1] by using the Bramble [Handshake](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BHP.md) and [Transport](https://code.briarproject.org/briar/briar-spec/blob/master/protocols/BTP.md) protocol.
 
