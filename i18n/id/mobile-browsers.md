@@ -1,14 +1,14 @@
 ---
-meta_title: "Privacy Respecting Web Browsers for Android and iOS - Privacy Guides"
+meta_title: "Peramban Web yang Menghargai Privasi untuk Android dan iOS - Privacy Guides"
 title: Peramban Seluler
 icon: material/cellphone-information
-description: These browsers are what we currently recommend for standard/non-anonymous internet browsing on your phone.
+description: Peramban-peramban inilah yang saat ini kami rekomendasikan untuk penjelajahan internet standar/non-anonim di ponsel Anda.
 cover: mobile-browsers.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Private Mobile Browser Recommendations
+    name: Rekomendasi Peramban Seluler Pribadi
     url: "./"
     relatedLink: "../desktop-browsers/"
   - 
