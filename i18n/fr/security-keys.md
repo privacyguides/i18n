@@ -10,40 +10,40 @@ cover: multi-factor-authentication.webp
 - [:material-target-account: Attaques Ciblées](basics/common-threats.md#attacks-against-specific-individuals){ .pg-red }
 - [:material-bug-outline: Attaques Passives](basics/common-threats.md#security-and-privacy){ .pg-orange }
 
-Une **clef de sécurité** physique ajoute à vos comptes une couche de protection supplémentaire robuste. Comparé aux [applications d'authentification](multi-factor-authentication.md), le protocole de la clef de sécurité [FIDO2](basics/multi-factor-authentication.md#fido-fast-identity-online) est immunisé à l'hameçonnage et ne peux pas être compromise sans posséder physiquement cette clef. Many services support FIDO2/WebAuthn as a multifactor authentication option for securing your account, and some services allow you to use a security key as a strong single-factor authenticator with passwordless authentication.
+Une **clef de sécurité** physique ajoute à vos comptes une couche de protection supplémentaire robuste. Comparé aux [applications d'authentification](multi-factor-authentication.md), le protocole de la clef de sécurité [FIDO2](basics/multi-factor-authentication.md#fido-fast-identity-online) est immunisé à l'hameçonnage et ne peux pas être compromise sans posséder physiquement cette clef. Beaucoup de services permettent d'utiliser FIDO2/WebAuthn en tant qu'option d'authentification multifactorielle pour protéger vos comptes, et certains services vous permettent d'utiliser une clef de sécurité d'authentification robuste à seul facteur pour une authentification sans mot de passe.
 
 ## Yubico Security Key
 
 <div class="admonition recommendation" markdown>
 
 <figure markdown="span">
-  ![Security Key Series by Yubico](assets/img/security-keys/yubico-security-key.webp){ width="315" }
+  ![Security Key Series de Yubico](assets/img/security-keys/yubico-security-key.webp){ width="315" }
 </figure>
 
-The **Yubico Security Key** series is the most cost-effective hardware security key with FIDO Level 2 certification[^1]. It supports FIDO2/WebAuthn and FIDO Universal 2nd Factor (U2F), and works out of the box with most services that support a security key as a second factor, as well as many password managers.
+La série **Yubico Security Keys** est la clé de sécurité hardware certifiée FIDO Level 2[^1] avec le meilleur rapport qualité prix. Elle est compatible avec FIDO2/WebAuthn et FIDO Universal 2nd Factor (U2F), et fonctionne sans manipulation particulière avec la plupart des services qui permettent d'utiliser une clef de sécurité en tant que deuxième facteur, ainsi qu'avec de nombreux gestionnaires de mots de passe.
 
-[:octicons-home-16: Homepage](https://yubico.com/products/security-key){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://yubico.com/products/security-key){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://docs.yubico.com){ .card-link title="Documentation" }
 
 </details>
 
 </div>
 
-These keys are available in both USB-C and USB-A variants, and both options support NFC for use with a mobile device as well.
+La clef possède seulement des fonctionnalités FIDO2 basique, mais cela est suffisant pour la plupart des gens.
 
-This key provides only basic FIDO2 functionality, but for most people that is all you will need. Some notable features the Security Key series does **not** have include:
+La clef possède seulement des fonctionnalités FIDO2 basique, mais cela est suffisant pour la plupart des gens. Fonctionnalités notables qui ne sont **pas** incluses dans la série Security Key :
 
-- [Yubico Authenticator](https://yubico.com/products/yubico-authenticator)
-- CCID Smart Card support (PIV-compatible)
+- [Yubico Authentificator](https://yubico.com/products/yubico-authenticator)
+- Prise en charge des cartes à puces CCID (compatible PIV)
 - OpenPGP
 
-If you need any of those features, you should consider their higher-end [YubiKey](#yubikey) series instead.
+Si vous avez besoin de ces fonctionnalités, vous devriez plutôt vous tourner vers leur série haut de gamme [YubiKey](#yubikey).
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avertissement</p>
 
-The firmware of Yubico's Security Keys is not updatable. If you want features in newer firmware versions, or if there is a vulnerability in the firmware version you are using, you would need to purchase a new key.
+Le firmware des Security Keys de Yubico ne peut pas être mis à jour. Vous devrez acheter une nouvelle clef si vous souhaitez bénéficier des fonctionnalités des versions les plus récentes, ou si une faille a été trouvée dans la version que vous possédez actuellement.
 
 </div>
 
@@ -55,17 +55,17 @@ The firmware of Yubico's Security Keys is not updatable. If you want features in
   ![YubiKeys](assets/img/security-keys/yubikey.png){ width="400" }
 </figure>
 
-The **YubiKey** series from Yubico are among the most popular security keys with FIDO Level 2 Certification[^1]. The **YubiKey 5 Series** has a wide range of features such as FIDO2/WebAuthn and FIDO U2F, [TOTP and HOTP](https://developers.yubico.com/OATH) authentication, [Personal Identity Verification (PIV)](https://developers.yubico.com/PIV), and [OpenPGP](https://developers.yubico.com/PGP).
+La série **YubiKey** de Yubico fait partie des clefs de sécurité certifiée FIDO Level 2 les plus populaires[^1]. La **YubiKey 5 Series** propose un grand nombre de fonctionnalités comme FIDO/WebAuthn et FIDO U2F, l'authentification [TOTP et HOTP](https://developers.yubico.com/OATH), la [Vérification d'Identité Personnelle (Personal Identity Verification, ou PIV)](https://developers.yubico.com/PIV) et [OpenPGP](https://developers.yubico.com/PGP).
 
-[:octicons-home-16: Homepage](https://yubico.com/products/yubikey-5-overview){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://yubico.com/products/yubikey-5-overview){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://yubico.com/support/terms-conditions/privacy-notice){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://docs.yubico.com){ .card-link title="Documentation" }
 
 </details>
 
 </div>
 
-The [comparison table](https://yubico.com/store/compare) shows how the YubiKeys compare to each other and to Yubico's [Security Key](#yubico-security-key) series in terms of features and other specifications. One of the benefits of the YubiKey series is that one key can do almost everything you could expect from a hardware security key. We encourage you to take their [quiz](https://yubico.com/quiz) before purchasing in order to make sure you choose the right security key.
+Le [tableau comparatif](https://yubico.com/store/compare) vous permet de visualiser les différentes spécificités des produits YubiKeys et [Security Key](#yubico-security-key). Les YubiKey présentent l'avantage de proposer en une seule clef presque toutes les fonctionnalités attendues d'une clef de sécurité physique. We encourage you to take their [quiz](https://yubico.com/quiz) before purchasing in order to make sure you choose the right security key.
 
 YubiKeys can be programmed using the [YubiKey Manager](https://yubico.com/support/download/yubikey-manager) or [YubiKey Personalization Tools](https://yubico.com/support/download/yubikey-personalization-tools). For managing TOTP codes, you can use the [Yubico Authenticator](https://yubico.com/products/yubico-authenticator). All of Yubico's clients are open source.
 
@@ -74,7 +74,7 @@ For models which [support HOTP and TOTP](https://support.yubico.com/hc/articles/
 <div class="admonition warning" markdown>
 <p class="admonition-title">Avertissement</p>
 
-The firmware of YubiKey is not updatable. If you want features in newer firmware versions, or if there is a vulnerability in the firmware version you are using, you would need to purchase a new key.
+The firmware of YubiKey is not updatable. Vous devrez acheter une nouvelle clef si vous souhaitez bénéficier des fonctionnalités des versions les plus récentes, ou si une faille a été trouvée dans la version que vous possédez actuellement.
 
 </div>
 

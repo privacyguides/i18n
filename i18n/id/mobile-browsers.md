@@ -50,11 +50,11 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Melindungi dari ancaman(s) berikut ini:</small>
 
 - [:material-account-cash: Kapitalisme Pengawasan](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. Jika Anda perlu menjelajah internet secara anonim, Anda sebaiknya menggunakan [Tor](tor.md) saja.
+Berikut ini adalah peramban **web seluler** yang kami rekomendasikan saat ini dan konfigurasi untuk penjelajahan internet standar/non-anonim. Jika Anda perlu menjelajah internet secara anonim, Anda sebaiknya menggunakan [Tor](tor.md) sebagai gantinya.
 
 ## Brave
 
@@ -73,7 +73,7 @@ Brave dibuat berdasarkan proyek peramban web Chromium, sehingga seharusnya teras
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Kode Sumber" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Unduhan</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1052879175)
@@ -86,39 +86,39 @@ Brave dibuat berdasarkan proyek peramban web Chromium, sehingga seharusnya teras
 
 ### Konfigurasi Brave yang Direkomendasikan
 
-Tor Browser is the only way to truly browse the internet anonymously. When you use Brave, we recommend changing the following settings to protect your privacy from certain parties, but all browsers other than the [Tor Browser](tor.md#tor-browser) will be traceable by *somebody* in some regard or another.
+Tor Browser adalah satu-satunya cara untuk benar-benar menjelajah internet secara anonim. Ketika Anda menggunakan Brave, kami sarankan untuk mengubah pengaturan berikut ini untuk melindungi privasi Anda dari pihak-pihak tertentu, tetapi semua peramban selain [Tor Browser](tor.md#tor-browser) akan dapat dilacak oleh *seseorang* dalam beberapa hal.
 
 === "Android"
 
-    These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**.
+    Opsi ini dapat ditemukan di :material-menu: → **Settings** → **Brave Shields & privacy**.
 
 === "iOS"
 
-    These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy**.
+    Opsi ini dapat ditemukan di :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy**.
 
-#### Brave shields global defaults
+#### Default global Brave Shield
 
 Brave menyertakan beberapa langkah anti-fingerprinting dalam fitur [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Kami menyarankan untuk mengonfigurasi opsi-opsi ini [secara global](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) di semua halaman yang Anda kunjungi.
 
-Shields' options can be downgraded on a per-site basis as needed, but by default we recommend setting the following:
+Opsi Shields dapat diturunkan pada basis per situs sesuai kebutuhan, tetapi secara default kami sarankan untuk mengatur yang berikut ini:
 
 === "Android"
 
     <div class="annotate" markdown>
 
-    - [x] Select **Aggressive** under *Block trackers & ads*
-    - [x] Select **Auto-redirect AMP pages**
-    - [x] Select **Auto-redirect tracking URLs**
-    - [x] Select **Require all connections to use HTTPS (strict)** under *Upgrade connections to HTTPS*
-    - \[x\] (Optional) Select **Block Scripts** (1)
-    - [x] Select **Block third-party cookies** under *Block Cookies*
-    - [x] Select **Block Fingerprinting**
-    - [x] Select **Prevent fingerprinting via language settings**
+    - [x] Pilih **Aggressive** di bawah *Block trackers & ads*
+    - [x] Pilih **Auto-redirect AMP pages**
+    - [x] Pilih **Auto-redirect tracking URLs**
+    - [x] Pilih **Require all connections to use HTTPS (strict)** di bawah *Upgrade connections to HTTPS*
+    - \[x\] (Opsional) Pilih **Block Scripts** (1)
+    - [x] Pilih **Block third-party cookies** di bawah *Block Cookies*
+    - [x] Pilih **Block Fingerprinting**
+    - [x] Pilih **Prevent fingerprinting via language settings**
 
     <details class="warning" markdown>
-    <summary>Use default filter lists</summary>
+    <summary>Menggunakan daftar filter default</summary>
 
-    Brave allows you to select additional content filters within the **Content Filtering** menu or the internal `brave://adblock` page. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+    Brave memungkinkan Anda untuk memilih filter konten tambahan di dalam menu **Content Filtering** atau halaman internal `brave://adblock`. Kami menyampaikan agar Anda tidak menggunakan fitur ini; sebagai gantinya, pertahankan daftar filter default. Menggunakan daftar tambahan akan membuat Anda terlihat berbeda dari pengguna Brave lainnya dan juga dapat meningkatkan permukaan serangan jika ada eksploitasi di Brave dan aturan berbahaya ditambahkan ke salah satu daftar yang Anda gunakan.
 
     </details>
 
@@ -136,14 +136,14 @@ Shields' options can be downgraded on a per-site basis as needed, but by default
     - [x] Select **Strict** under *Upgrade Connections to HTTPS*
     - [x] Select **Auto-Redirect AMP pages**
     - [x] Select **Auto-Redirect Tracking URLs**
-    - \[x\] (Optional) Select **Block Scripts** (1)
-    - [x] Select **Block Fingerprinting**
+    - \[x\] (Opsional) Pilih **Block Scripts** (1)
+    - [x] Pilih **Block Fingerprinting**
     - [x] Select **Site Tabs Closed** under *Auto Shred*
 
     <details class="warning" markdown>
-    <summary>Use default filter lists</summary>
+    <summary>Menggunakan daftar filter default</summary>
 
-    Brave allows you to select additional content filters within the **Content Filtering** menu. We advise against using this feature; instead, keep the default filter lists. Using extra lists will make you stand out from other Brave users and may also increase attack surface if there is an exploit in Brave and a malicious rule is added to one of the lists you use.
+    Brave allows you to select additional content filters within the **Content Filtering** menu. Kami menyampaikan agar Anda tidak menggunakan fitur ini; sebagai gantinya, pertahankan daftar filter default. Menggunakan daftar tambahan akan membuat Anda terlihat berbeda dari pengguna Brave lainnya dan juga dapat meningkatkan permukaan serangan jika ada eksploitasi di Brave dan aturan berbahaya ditambahkan ke salah satu daftar yang Anda gunakan.
 
     </details>
 
