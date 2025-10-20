@@ -105,27 +105,27 @@ Il est assez rare que des posts plus vieux que quelques semaines soient lus ou p
 
 Lorsque vous écrivez un pouet, vous aurez la possibilité de choisir parmi les paramètres de visibilité suivants :
 
-- **Public**, which publishes your content to anyone on the internet.
-- **Quiet public**, which you should consider equivalent to publicly posting! This is not a technical guarantee, but merely a request you are making to other servers to hide your post from some feeds.
-- **Followers**, which publishes your content only to your followers. If you did not follow our recommendation of restricting your followers, you should consider this equivalent to publicly posting!
-- **Specific people**, which only shares the post with people who are specifically mentioned within the post. This is Mastodon's version of direct messages, but should never be relied on for private communications as we covered earlier since Mastodon has no E2EE.
+- **Public** : visible par n'importe qui sur internet.
+- **Non-listé** : équivalent à l'option Public ! Ne représente pas une garantie technique, simplement une demande que vous faites aux autres serveurs de cacher vos pouets.
+- **Privé** : visible uniquement par vos abonnés. Si vous n'avez pas modifier vos paramètres de restriction de vos abonnés, considérez le comme équivalent à l'option Public !
+- **Direct** : visible uniquement par les personnes que vous mentionnez dans le pouet. C'est la version de Mastodon des messages privés/directs, mais vous ne devriez jamais l'utiliser pour des conversations privées ou sensibles car Mastodon ne propose pas de chiffrement de bout-en-bout, comme nous l'avons mentionné plus haut.
 
-If you used our recommended configuration settings above, you should be posting to **Followers** by default, and only posting to **Public** on an intentional and case-by-case basis.
+Si vous avez modifié vos paramètres selon nos recommandations, vos pouets devraient être réglés par défaut sur **Privé** et vous ne devriez utiliser **Public** que de façon réfléchie et intentionnelle.
 
 ## Element
 
 <div class="admonition recommendation" markdown>
 
-![Element logo](assets/img/social-networks/element.svg){ align=right }
+![Logo de Element](assets/img/social-networks/element.svg){ align=right }
 
-**Element** is the flagship client for the **:simple-matrix: [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im)** protocol, an [open standard](https://spec.matrix.org/latest) that enables decentralized communication by way of federated chat rooms. Users can exist on different homeservers but still communicate with each other.
+**Element** est le client phare du protocole **:simple-matrix: [Matrix](https://matrix.org/docs/chat_basics/matrix-for-im)**, un [format ouvert](https://spec.matrix.org/latest) qui permet une communication décentralisée grâce à des groupes de discussion fédérés. Les utilisateurs peuvent communiquer entre eux même si leurs comptes sont sur des instances (homeservers) différentes.
 
-[:octicons-home-16: Homepage](https://element.io){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://element.io){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://element.io/privacy){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://element.io/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/element-hq){ .card-link title="Code Source" }
 
-<details class="downloads" markdown><summary>Téléchargements</summary>
+<details class="downloads" markdown><summary>Télécharger</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=im.vector.app)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1083446067)
@@ -139,17 +139,17 @@ If you used our recommended configuration settings above, you should be posting 
 
 </div>
 
-### Choosing a Homeserver
+### Choisir une instance (homeserver)
 
-To benefit the most from Matrix, it is critical to choose a homeserver which is well aligned with the subject(s) you want to chat about. We do not currently recommend any specific homeservers, but you may find advice within our communities or third-party resources like [_joinmatrix.org_](https://servers.joinmatrix.org). We recommend avoiding _matrix.org_ because they are operated by the same company which develops Matrix itself. Du point de vue de la décentralisation, il est préférable au long terme de séparer les développeurs d'un logiciel et les hébergeurs de serveur afin qu'aucune des parties ne puisse exercer un trop grand contrôle sur le réseau entier.
+Afin de profiter un maximum de Matrix, il est important de choisir une instance (serveur que vous choisissez à la création de votre compte, aussi appelé "homeserver"), qui correspond aux sujets sur lesquels vous souhaitez discuter. Nous ne recommandons pas d'instance particulière pour le moment, mais vous pouvez demander conseil dans nos communautés ou utiliser des ressources comme [_joinmatrix.org_](https://servers.joinmatrix.org). Nous vous recommandons d'éviter _matrix.org_ car cette instance est contrôlée par l'équipe de développement de Matrix. Du point de vue de la décentralisation, il est préférable au long terme de séparer les développeurs d'un logiciel et les hébergeurs de serveur afin qu'aucune des parties ne puisse exercer un trop grand contrôle sur le réseau entier.
 
 ### Paramètres de confidentialité recommandés
 
-From Element's web or desktop app, go to :gear: → **All settings** to find these sections:
+Depuis l'interface web ou bureau, allez à :gear: → **Tous les paramètres** pour trouver les sections suivantes :
 
 #### Sessions
 
-By default, when you log in to Element on a new device, the session name will be automatically populated with the Matrix client and platform you used for login. This information may be visible to other users depending on the Matrix client they use.
+Par défaut, lorsque vous vous connectez à Element sur un nouvel appareil, le nom de la session sera automatiquement complété par le client Matrix et la plateforme que vous avez utilisés pour vous connecter. Cette information peut être visible par d'autres utilisateurs selon le client Matrix qu'ils utilisent.
 
 To prevent revealing information about your personal device to others unnecessarily, consider emptying the session name; this will change the session name to the randomly generated alphanumeric Session ID instead.
 
