@@ -1,67 +1,67 @@
 ---
 title: Réseaux sociaux
 icon: material/account-supervisor-circle-outline
-description: Find a new social network that doesn’t pry into your data or monetize your profile.
+description: Trouvez un nouveau réseau social qui ne fouille pas dans vos données et qui ne monétise pas votre profil.
 cover: social-networks.webp
 ---
 
 <small>Protège contre les menaces suivantes :</small>
 
-- [:material-close-outline: Censorship](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
+- [:material-close-outline: Censure](basics/common-threats.md#avoiding-censorship){ .pg-blue-gray }
 - [:material-account-cash: Capitalisme de Surveillance](basics/common-threats.md#surveillance-as-a-business-model){ .pg-brown }
 
-These privacy-respecting **social networks** allow you to participate in online communities without giving up your personal information like your full name, phone number, and other data commonly requested by tech companies.
+Ces **réseaux sociaux** respectueux de la vie privée vous permettent de participer à des communautés en ligne sans donner votre nom complet, votre numéro de téléphone ou autre informations personnelles habituellement demandées par les entreprises de la tech.
 
-A growing problem among social media platforms is censorship in two different forms. First, they often acquiesce to illegitimate censorship requests, either from malicious governments or their own internal policies. Second, they often require accounts to access walled-off content that would otherwise be published freely on the open internet; this effectively censors the browsing activities of privacy-conscious users who are unable to pay the privacy cost of opening an account on these networks.
+La censure de deux manières différentes est un problème grandissant sur les plateformes de réseaux sociaux. Premièrement, les entreprises accèdent généralement à des demandes illégitimes de censure, que ce soit de la part de gouvernements ou selon leur propres politiques internes. Deuxièmement, elles exigent généralement de créer un compte pour accéder à du contenu cloisonné qui serait normalement accessibles à tous sur l'Internet ouvert ; ces pratiques ont pour effet de censurer dans les faits les recherches des utilisateurs soucieux de leur vie privée qui ne souhaitent pas payer le prix de leur confidentialité pour créer un compte sur ces réseaux.
 
-The social networks we recommend solve the issue of censorship by operating atop an open and decentralized social networking protocol. They also don't require an account merely to view publicly available content.
+Les réseaux sociaux que nous recommandons permettent de contourner la censure en fonctionnant sur un protocole ouvert et décentralisé. Ils permettent également de visualiser le contenu public sans créer de compte.
 
-You should note that **no** social networks are appropriate for private or sensitive communications. For chatting directly with others, you should use a recommended [instant messenger](real-time-communication.md) with strong end-to-end encryption, and only use direct messages on social media in order to establish a more private and secure chat platform with your contacts.
+Gardez à l'esprit qu'**aucun** réseau social n'est adapté aux communications privées et sensibles. Pour communiquer directement avec d'autres personnes, nous vous recommandons d'utiliser un service de [messagerie instantanée](real-time-communication.md) avec un chiffrement de bout-en-bout robuste et de n'utiliser les messages privés sur les réseaux sociaux que dans le but de convenir d'une plateforme sécurisée à utiliser avec vos contacts.
 
-## Decentralization
+## Décentralisation
 
-Decentralized social networks are built on an architecture that is fundamentally different than mainstream social media platforms, yet quite similar to the underlying structure of email. Instead of opening an account under a single, unified service like you would for Facebook or Discord, you instead choose an independent, public server to join. The server you join can communicate with and discover other servers; this aspect of decentralization is also known as _federation_.
+Les réseaux sociaux décentralisés sont basés sur une architecture fondamentalement différente des réseaux sociaux conventionnels, mais assez similaire à la structure sous-jacente des emails. Au lieu de créer un compte sur un service unique comme vous le feriez pour Facebook ou Discord, vous devez à la place choisir un serveur public et indépendant à rejoindre. Le serveur que vous choisissez de rejoindre peut découvrir et communiquer avec les autres serveurs ; cet aspect de la décentralisation s'appelle la _fédération_.
 
-A significant benefit of this decentralized model is that there is no central authority which can censor your account across the entire network, though it is possible for your account to be banned or silenced by an individual server.
+Un des gros avantages de ce modèle décentralisé est qu'il n'y a aucune autorité centrale qui peut censurer votre compte sur l'entièreté du réseau, bien qu'il soit possible que votre compte soit banni ou mis en sourdine par un serveur individuel.
 
-A caveat of this decentralized model is that each server is its own legal entity, with its own privacy policy, terms of use, administration team, and moderators. While many of these servers are far _less_ restrictive and more privacy-respecting than traditional social media platforms, some can be far _more_ restrictive or potentially _worse_ for your privacy. Typically, the software on which the social network runs does not discriminate between these administrators or place any limitations on their powers.
+L'inconvénient de ce modèle décentralisé est que chaque serveur est sa propre entité, avec sa propre politique de confidentialité, ses propres conditions d'utilisation et sa propre équipe d'administration et de modérateurs. Bien que beaucoup de ces serveurs soient beaucoup _moins_ restrictifs et plus respectueux de la vie privée que les plateformes traditionnelles de réseaux sociaux, certains peuvent être _plus_ restrictifs ou potentiellement _pire_ en termes de confidentialité. Généralement, le logiciel utilisé par ces réseaux sociaux ne fait pas de différence entre ces administrateurs et ne limite pas leur pouvoirs.
 
-## Censorship Resistance
+## Résistance à la censure
 
-While censorship in decentralized social networks does not exist on a network level, it is very possible to experience censorship on a server level depending on a server's administrator. Administrators have the power to _defederate_ from other servers, which leads to limiting the content you can view and the people you can interact with.
+Bien que la censure ne soit pas présente au niveau du réseau entier pour un réseau social décentralisé, vous pouvez malgré tout en être victime au niveau du serveur, selon l'administrateur de ce serveur. Les administrateurs peuvent _défédérer_ d'autres serveurs, ce qui peut limiter le contenu que vous voyez et les personnes avec qui vous interagissez.
 
-If you are greatly concerned about an existing server censoring your content, the content available to you, or other servers, you generally have two options:
+Si vous êtes particulièrement inquiet concernant un serveur spécifique qui censure votre contenu, le contenu que vous pouvez voir, ou qui est visible aux autres serveurs, vous avez généralement deux options :
 
-1. **Host the social network software yourself.** This approach gives you the exact same censorship resistance as any other website you can host yourself, which is fairly high.
+1. **Héberger vous-même le logiciel du réseau social.** Cette approche vous donne exactement la même résistance à la censure que n'importe quel autre site web que vous hébergez vous-même, c'est-à-dire assez élevée.
 
-2. **Use a managed hosting service.** We don't have any specific recommendations, but there are a variety of hosting services which will create a brand-new server on your own domain (or occasionally a subdomain of their domain, but we recommend against this unless registering your own domain presents too much of a burden to your privacy).
+2. **Utiliser un service d'hébergement géré.** Nous n'avons pas de recommandations particulières, mais il existe un certain nombre de services d'hébergement qui vous permettent de créer un tout nouveau serveur sur votre propre nom de domaine (ou sur un sous-domaine de leur domaine, mais nous ne vous recommandons pas cette option à moins que l'enregistrement de votre propre domaine ne représente une charge trop élevée sur votre confidentialité).
 
-   Typically, hosting providers will handle the _technical_ side of your server, but completely leave the _moderation_ side up to you. This often represents a better approach than self-hosting for most people because you can benefit from greater control over your own server without worrying about technical problems or unpatched security vulnerabilities.
+   Généralement, les fournisseurs d'hébergement s'occuperont de la partie _technique_ sur serveur, mais vous laisserons totalement gérer la partie _modération_. Cela peut être une approche plus intéressante que l'auto-hébergement pour la plupart des gens puisque vous pouvez bénéficier d'un grand contrôle sur votre serveur sans vous préoccuper des problèmes techniques ou des failles de sécurité.
 
-   You should look closely at your hosting provider's terms of service and acceptable use policies before registering. These are often far more broad than typical hosted server rules, and they are far less likely to be enforced without recourse, but they can still be restrictive in undesirable ways.
+   Vous devriez consulter minutieusement les conditions d'utilisation et les politiques d'utilisation acceptable avant de choisir un fournisseur d'hébergement. Elles laissent généralement plus de possibilités qu'un serveur hébergé classique, et sont moins susceptible d'être appliquées sans une demande, mais peuvent tout de même être restrictives de manière indésirable.
 
 ## Mastodon
 
 <div class="admonition recommendation" markdown>
 
-![Mastodon logo](assets/img/social-networks/mastodon.svg){ align=right }
+![Logo de Mastodon](assets/img/social-networks/mastodon.svg){ align=right }
 
-**Mastodon** is a social network based on open web protocols and free, open-source software. It uses the **:simple-activitypub: ActivityPub** protocol, which is decentralized like email: Users can exist on different servers or even different platforms but still communicate with each other.
+**Mastodon** est un réseau social basé sur des protocoles open web et un logiciel libre et open-source. Il utilise un protocole décentralisé comme les emails, **:simple-activitypub: ActivityPub** : les utilisateurs peuvent exister sur différents serveurs ou différentes plateformes mais peuvent quand même communiquer entre eux.
 
-[:octicons-home-16: Homepage](https://joinmastodon.org){ .md-button .md-button--primary }
+[:octicons-home-16: Page d'Accueil](https://joinmastodon.org){ .md-button .md-button--primary }
 [:octicons-info-16:](https://docs.joinmastodon.org){ .card-link title="Documentation" }
 
 </div>
 
-There are many software platforms which use ActivityPub as their backend social networking protocol, meaning they can talk to servers even when they are running different software. For example, PeerTube is a video publishing software that uses ActivityPub, meaning you can follow channels on PeerTube either with another PeerTube account, _or_ with a Mastodon account because Mastodon also uses ActivityPub.
+Il existe de nombreuses plateformes logiciel qui utilisent ActivityPub en tant que protocole dorsal (backend) de réseau social, ce qui signifie qu'elles peuvent communiquer entre elles même si elles utilisent un logiciel différent. Par exemple, PeerTube est un logiciel de publication de vidéo qui utilise ActivityPub, ce qui signifie que vous pouvez suivre des chaînes PeerTube soit avec un compte PeerTube, _soit_ avec un compte Mastodon car celui-ci utilise aussi ActivityPub.
 
-We chose to recommend Mastodon over other ActivityPub software as your primary social media platform for these reasons:
+Nous avons choisi de recommander Mastodon en tant que plateforme principale de réseaux sociaux plutôt que d'autre logiciel ActivityPub pour les raisons suivantes :
 
-1. Mastodon has a solid history of security updates. In the handful of circumstances where major security vulnerabilities have been found, they coordinate patch releases quickly and cleanly. Historically they have also backported these security patches to older feature branches. This makes it easier for less experienced server hosts who may not feel comfortable upgrading to the latest releases right away to keep their instances secure. Mastodon also has an update notification system built in to the web interface, making it much more likely for server administrators to be aware of critical security patches available for their instance.
+1. Mastodon a un historique solide de mises à jour de sécurité. Dans les rares cas où des failles de sécurité majeures ont été détectées, ils ont rapidement et efficacement publié les correctifs. Historiquement, ces correctifs de sécurité ont également été rétroportés dans les branches les plus anciennes. Cela peut rendre la tâche plus facile aux hébergeurs les moins expérimentés qui peuvent ne pas être à l'aise à l'idée de mettre immédiatement à jour leurs instances. Mastodon propose également un système de notifications de mise à jour intégré à leur interface web, augmentant ainsi les chances que les administrateurs des serveurs soient au courant des correctifs de sécurité disponibles pour leurs instances.
 
-2. Mastodon is largely usable with most content types. While it is primarily a microblogging platform, Mastodon easily handles longer posts, image posts, video posts, and most other posts you might encounter when following ActivityPub users who aren't on Mastodon. This makes your Mastodon account an ideal "central hub" for following anyone regardless of the platform they chose to use. In contrast, if you were only using a PeerTube account, you would _only_ be able to follow other video channels, for example.
+2. Mastodon convient à la plupart des types de contenus. Bien que ce soit avant tout une plateforme de microblog, Mastodon prend très bien en charge les posts plus longs, les images, les vidéos et la plupart des autres posts que vous êtes susceptible de rencontrer si vous suivez des utilisateurs qui ne sont pas sur Mastodon. Grâce à cela, vous pouvez utiliser Mastodon comme "hub central" pour vos abonnements, peu importe la plateforme qu'ils utilisent. En comparaison, si vous utilisez uniquement un compte PeerTube, vous ne pourrez suivre _que_ d'autres chaines de vidéos.
 
-3. Mastodon has fairly comprehensive privacy controls. It has many built-in features which allow you to limit how and when your data is shared, some of which we'll cover below. They also develop new features with privacy in mind. For example, while other ActivityPub software quickly implemented "quote posts" by merely handling links to other posts with a slightly different embed modal, Mastodon is [developing](https://blog.joinmastodon.org/2025/02/bringing-quote-posts-to-mastodon) a quote post feature which will give you more fine-grained control when your post is quoted.
+3. Mastodon dispose de contrôles assez complets en matière de protection de la vie privée. Vous pouvez limiter comment et quand sont utilisées grâce à des fonctionnalités intégrées, dont certaines que nous allons aborder ci-dessous. They also develop new features with privacy in mind. For example, while other ActivityPub software quickly implemented "quote posts" by merely handling links to other posts with a slightly different embed modal, Mastodon is [developing](https://blog.joinmastodon.org/2025/02/bringing-quote-posts-to-mastodon) a quote post feature which will give you more fine-grained control when your post is quoted.
 
 ### Choosing an Instance
 
