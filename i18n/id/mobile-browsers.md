@@ -122,82 +122,82 @@ Opsi Shields dapat diturunkan pada basis per situs sesuai kebutuhan, tetapi seca
 
     </details>
 
-    - [x] Select **Forget me when I close this site**
+    - [x] Pilih **Forget me when I close this site**
 
     </div>
 
-    1. Opsi ini menonaktifkan JavaScript, yang akan merusak banyak situs. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Opsi ini menonaktifkan JavaScript, yang akan merusak banyak situs. Untuk membatalkannya, Anda dapat menetapkan pengecualian per situs dengan mengetuk ikon Perisai di bilah alamat dan menghapus centang pada pengaturan ini di bawah *Advanced controls*.
 
 === "iOS"
 
     <div class="annotate" markdown>
 
-    - [x] Select **Aggressive** under *Trackers & Ads Blocking*
-    - [x] Select **Strict** under *Upgrade Connections to HTTPS*
-    - [x] Select **Auto-Redirect AMP pages**
-    - [x] Select **Auto-Redirect Tracking URLs**
+    - [x] Pilih **Aggresive** di bawah *Trackers & Ads Blocking*
+    - [x] Pilih **Strict** di bawah *Upgrade Connections to HTTPS*
+    - [x] Pilih **Auto-Redirect AMP pages**
+    - [x] Pilih **Auto-Redirect Tracking URLs**
     - \[x\] (Opsional) Pilih **Block Scripts** (1)
     - [x] Pilih **Block Fingerprinting**
-    - [x] Select **Site Tabs Closed** under *Auto Shred*
+    - [x] Pilih **Site Tabs Closed** di bawah *Auto Shred*
 
     <details class="warning" markdown>
     <summary>Menggunakan daftar filter default</summary>
 
-    Brave allows you to select additional content filters within the **Content Filtering** menu. Kami menyampaikan agar Anda tidak menggunakan fitur ini; sebagai gantinya, pertahankan daftar filter default. Menggunakan daftar tambahan akan membuat Anda terlihat berbeda dari pengguna Brave lainnya dan juga dapat meningkatkan permukaan serangan jika ada eksploitasi di Brave dan aturan berbahaya ditambahkan ke salah satu daftar yang Anda gunakan.
+    Brave memungkinkan Anda untuk memilih filter konten tambahan dalam menu **Content Filtering**. Kami menyampaikan agar Anda tidak menggunakan fitur ini; sebagai gantinya, pertahankan daftar filter default. Menggunakan daftar tambahan akan membuat Anda terlihat berbeda dari pengguna Brave lainnya dan juga dapat meningkatkan permukaan serangan jika ada eksploitasi di Brave dan aturan berbahaya ditambahkan ke salah satu daftar yang Anda gunakan.
 
     </details>
 
     </div>
 
-    1. Opsi ini menonaktifkan JavaScript, yang akan merusak banyak situs. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Opsi ini menonaktifkan JavaScript, yang akan merusak banyak situs. Untuk membatalkannya, Anda dapat menetapkan pengecualian per situs dengan mengetuk ikon Perisai di bilah alamat dan menghapus centang pada pengaturan ini di bawah *Advanced controls*.
 
-##### Clear browsing data (Android only)
+##### Menghapus data penelusuran (hanya untuk Android)
 
-- [x] Select **Clear data on exit**
+- [x] Pilih **Clear data on exit**
 
-##### Social Media Blocking (Android only)
+##### Pemblokiran Media Sosial (khusus Android)
 
-- [ ] Uncheck all social media components
+- [ ] Hapus centang pada semua komponen media sosial
 
-#### Other privacy settings
+#### Pengaturan privasi lainnya
 
 === "Android"
 
     <div class="annotate" markdown>
 
-    - [x] Select **Disable non-proxied UDP** under [*WebRTC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-    - \[x\] (Optional) Select **No protection** under *Safe Browsing* (1)
-    - [ ] Uncheck **Allow sites to check if you have payment methods saved**
-    - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
-    - [x] Select **Close tabs on exit**
+    - [x] Pilih **Disable non-proxied UDP** di bawah [*WebTPC IP handling policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+    - \[x\] (Opsional) Pilih **No protection** di bawah *Safe Browsing* (1)
+    - [ ] Hapus centang **Allow sites to check if you have payment methods saved**
+    - [ ] Hapus centang **Javascript optimization & security** di bawah pengaturan dengan nama yang sama
+    - [x] Pilih **Close tabs on exit**
     - [ ] Hapus centang **Allow privacy-preserving product analytics (P3A)**
     - [ ] Hapus centang **Automatically send diagnostic reports**
     - [ ] Hapus centang **Automatically send daily usage ping to Brave**
 
     </div>
 
-    1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. This means that your IP address may be seen (and logged) by Google. Note that Safe Browsing is not available for Android devices without Google Play Services.
+    1. [Implementasi Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) Brave di Android **tidak** menggunakan proxy [permintaan jaringan Safe Browsing](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) seperti versi desktopnya. Ini berarti alamat IP Anda dapat dilihat (dan dicatat) oleh Google. Perhatikan bahwa Safe Browsing tidak tersedia untuk perangkat Android tanpa Layanan Google Play.
 
 === "iOS"
 
-    - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
+    - [ ] Hapus centang **Allow Privacy-Preserving Product Analytics (P3A)**
     - [ ] Hapus centang **Automatically send daily usage ping to Brave**
 
 #### Leo
 
-These options can be found in :material-menu: → **Settings** → **Leo**.
+Opsi ini dapat ditambahkan di :material-menu: → **Settings** → **Leo**.
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Show autocomplete suggestions in address bar** (1)
+- [ ] Hapus centang **Show autocomplete suggestions in address bar** (1)
 
 </div>
 
-1. This option is not present in Brave's iOS app.
+1. Opsi ini tidak ada di aplikasi iOS Brave.
 
-#### Search engines
+#### Mesin pencari
 
-These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
+Opsi ini dapat ditemukan di :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
 
 - [ ] Hapus centang **Show search suggestions**
 
@@ -211,7 +211,7 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 
 ![Cromite logo](assets/img/browsers/cromite.svg){ align=right }
 
-**Cromite** is a Chromium-based browser with built-in ad blocking, fingerprinting protections, and other [privacy and security enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the discontinued **Bromite** browser.
+**Cromite** adalah peramban berbasis Chromium dengan pemblokiran iklan bawaan, perlindungan fingerprinting dan [peningkatan privasi dan keamanan](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the discontinued **Bromite** browser.
 
 [:octicons-home-16: Homepage](https://cromite.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
