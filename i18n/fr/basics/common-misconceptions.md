@@ -80,7 +80,7 @@ Les modèles de menace les plus clairs sont ceux où les gens *savent qui vous �
     Nous ne suggérons pas l'utilisation d'un VPN ou de Tor pour toutes ces choses, car votre identité est déjà connue par d'autres moyens.
 
     <div class="admonition tip" markdown>
-    <p class="admonition-title">Tip</p>
+    <p class="admonition-title">Conseil</p>
 
     Lorsque vous effectuez des achats en ligne, l'utilisation d'une [consigne à colis](https://en.wikipedia.org/wiki/Parcel_locker) peut contribuer à préserver la confidentialité de votre adresse physique.
 

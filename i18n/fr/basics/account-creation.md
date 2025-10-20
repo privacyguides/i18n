@@ -30,7 +30,7 @@ Il existe généralement plusieurs façons de créer un compte, chacune ayant se
 Le moyen le plus courant de créer un nouveau compte est d'utiliser une adresse e-mail et un mot de passe. Lorsque vous utilisez cette méthode, vous devriez utiliser un gestionnaire de mots de passe et suivre les [bonnes pratiques](passwords-overview.md) concernant les mots de passe.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">Conseil</p>
 
 Vous pouvez également utiliser votre gestionnaire de mots de passe pour gérer d'autres méthodes d'authentification ! Il suffit d'ajouter la nouvelle entrée et de remplir les champs appropriés. Vous pouvez ajouter des notes pour des choses comme des questions de sécurité ou une clé de secours.
 

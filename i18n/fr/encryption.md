@@ -146,7 +146,7 @@ Pour activer BitLocker sur les éditions "Famille" de Windows, vous devez format
     ```
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">Conseil</p>
 
     Sauvegardez le fichier `BitLocker-Recovery-Key.txt` de votre ordinateur de bureau sur un périphérique de stockage distinct. La perte de ce code de récupération peut entraîner la perte de données.
 

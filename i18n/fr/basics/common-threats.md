@@ -87,7 +87,7 @@ Les systèmes d'exploitation de bureau sont généralement à la traîne en ce q
 Les attaques ciblées contre une personne spécifique sont plus difficiles à gérer. Les voies d'attaque les plus courantes sont l'envoi de documents malveillants par courrier électronique, l'exploitation de vulnérabilités dans le navigateur et les systèmes d'exploitation, et les attaques physiques. Si cela vous préoccupe, il vous sera nécessaire de recourir à des stratégies plus avancées d'atténuation des menaces.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">Conseil</p>
 
 **Les navigateurs web**, **les clients de messagerie électronique** et **les applications de bureautique** exécutent généralement volontairement, et par conception, du code non fiable qui vous est envoyé par des tiers. L'exécution de plusieurs machines virtuelles pour séparer les applications de ce type de votre système hôte ainsi que les unes des autres est une technique que vous pouvez utiliser pour éviter qu'un code d'exploitation dans ces applications ne compromette le reste de votre système. Les technologies comme Qubes OS ou Microsoft Defender Application Guard sur Windows fournissent des méthodes pratiques pour le faire de manière transparente, par exemple.
 
@@ -102,7 +102,7 @@ Si vous êtes préoccupé par les **attaques physiques**, vous devriez utiliser 
 Les attaques de la chaîne d'approvisionnement sont souvent une forme d'<span class="pg-red">:material-target-account: attaque ciblée</span> visant les entreprises, les gouvernements et les activistes, bien qu'elles puissent également compromettre le grand public.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example</p>
+<p class="admonition-title">Exemple</p>
 
 Un exemple notable s'est produit en 2017 lorsque M.E.Doc, un logiciel de comptabilité populaire en Ukraine, a été infecté par le virus *NotPetya*, infectant ensuite les personnes qui ont téléchargé ce logiciel avec un rançongiciel. NotPetya est une attaque par rançongiciel qui a touché plus de 2 000 entreprises dans différents pays. Elle est basée sur l'exploit *EternalBlue* mis au point par la NSA pour attaquer les ordinateurs Windows via le réseau.
 
@@ -214,7 +214,7 @@ La censure sur les plateformes privées est de plus en plus courante, car des pl
 Les personnes préoccupées par la menace de la censure peuvent utiliser des technologies comme [Tor](../advanced/tor-overview.md) pour la contourner et soutenir des plateformes de communication résistantes à la censure comme [Matrix](../social-networks.md#element), qui ne dispose pas d'une autorité de compte centralisée pouvant fermer des comptes de manière arbitraire.
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">Conseil</p>
 
 S'il peut être facile d'échapper à la censure en soi, cacher le fait que vous le faites peut être très problématique.
 

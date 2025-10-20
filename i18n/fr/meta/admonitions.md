@@ -1,27 +1,27 @@
 ---
-title: Avertissements
-description: A guide for website contributors on creating admonitions.
+title: Admonitions
+description: Un guide pour les contributeurs du site web sur la création d'admonitions.
 ---
 
-**Admonitions** (or "call-outs") are tools that writers can use to include side content in an article without interrupting the document flow.
+Les **admonitions** (ou "call-outs") sont des outils que les écrivains peuvent utiliser pour inclure du contenu latéral dans un article sans interrompre le flux du document.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Exemple d'avertissement</p>
+<p class="admonition-title">Exemple d'admonition</p>
 
-Ceci est un exemple d'avertissement. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+Ceci est un exemple d'admonition. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
 </div>
 
 <details class="example" markdown>
-<summary>Exemple d'avertissement repliable</summary>
+<summary>Exemple d'admonition repliable</summary>
 
-Ceci est un exemple d'avertissement repliable. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+Ceci est un exemple d'admonition repliable. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
 </details>
 
 ## Mise en forme
 
-Pour ajouter un avertissement à une page, vous pouvez utiliser le code suivant :
+Pour ajouter une admonition à une page, vous pouvez utiliser le code suivant :
 
 ```markdown title="Admonition"
 <div class="admonition TYPE" markdown>
@@ -41,7 +41,7 @@ TEXTE JOINT
 </details>
 ```
 
-The `TITLE` must be specified; if you don't want a specific title you can set it to the same text as the `TYPE` (see below) in title case, e.g. `Note`. `TEXTE JOINT` doit être formaté en Markdown.
+Le `TITRE` doit être spécifié, si vous ne voulez pas de titre spécifique, vous pouvez mettre le même texte que le `TYPE` (voir ci-dessous) en majuscule, par exemple `Note`. `TEXTE JOINT` doit être formaté en Markdown.
 
 ### Types ordinaires
 
@@ -59,7 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `abstract`
 
 <div class="admonition abstract" markdown>
-<p class="admonition-title">Abstract</p>
+<p class="admonition-title">Résumé</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -77,7 +77,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `tip`
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">Conseil</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -86,7 +86,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `success`
 
 <div class="admonition success" markdown>
-<p class="admonition-title">Success</p>
+<p class="admonition-title">Succès</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -113,7 +113,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `failure`
 
 <div class="admonition failure" markdown>
-<p class="admonition-title">Failure</p>
+<p class="admonition-title">Erreur</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -140,7 +140,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `example`
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example</p>
+<p class="admonition-title">Exemple</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -149,7 +149,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `quote`
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">Quote</p>
+<p class="admonition-title">Citation</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -164,14 +164,14 @@ Ce format est utilisé pour générer des cartes de recommandation. Il manque no
 ```markdown title="Recommendation Card"
 <div class="admonition recommendation" markdown>
 
-![PhotoPrism logo](assets/img/self-hosting/photoprism.svg){ align=right }
+![Logo de PhotoPrism](assets/img/self-hosting/photoprism.svg){ align=right }
 
-**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
+**PhotoPrism** est une plateforme auto-hébergeable de gestion de photos. Elle permet de synchroniser et partager des albums ainsi que beaucoup d'autres [fonctionnalités](https://photoprism.app/features). Il est préférable de l'héberger sur un serveur de confiance que vous contrôlez car elle ne propose pas de chiffrement de bout-en-bout.
 
-[:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Code Source" }
 
 </div>
 ```
@@ -182,12 +182,12 @@ Ce format est utilisé pour générer des cartes de recommandation. Il manque no
 
 ![Logo de PhotoPrism](../assets/img/self-hosting/photoprism.svg){ align=right }
 
-**PhotoPrism** is a self-hostable platform for managing photos. Elle prend en charge la synchronisation et le partage d'albums ainsi qu'une variété d'autres [fonctionnalités](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
+**PhotoPrism** est une plateforme auto-hébergeable de gestion de photos. Elle permet de synchroniser et partager des albums ainsi que beaucoup d'autres [fonctionnalités](https://photoprism.app/features). Il est préférable de l'héberger sur un serveur de confiance que vous contrôlez car elle ne propose pas de chiffrement de bout-en-bout.
 
-[:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
+[:octicons-home-16: Page d'Accueil](https://photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Politique de Confidentialité" }
 [:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Code Source" }
 
 </div>
 
@@ -195,11 +195,11 @@ Ce format est utilisé pour générer des cartes de recommandation. Il manque no
 
 #### `downloads`
 
-This is a special type of collapsible admonition which is used to generate sections containing download links. Il n'est utilisé qu'à l'intérieur des cartes de recommandation, comme le montre l'exemple ci-dessus.
+Il s'agit d'un type spécial d'admonition repliable qui est utilisé pour générer des sections contenant des liens de téléchargement. Il n'est utilisé qu'à l'intérieur des cartes de recommandation, comme le montre l'exemple ci-dessus.
 
 ```markdown title="Downloads Section"
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Télécharger</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
@@ -231,7 +231,7 @@ This is a special type of collapsible admonition which is used to generate secti
 
 ## Ancien format
 
-Throughout the site, you may see some admonitions formatted like the following examples:
+Dans tout le site, vous pouvez voir quelques admonitions formatées comme les exemples suivants :
 
 ```markdown title="Admonition"
 !!! note
@@ -255,7 +255,7 @@ massa, nec semper lorem quam in massa.
 </div>
 
 ```markdown title="Collapsible Admonition"
-??? example "Titre personnalisé"
+??? exemple "Titre personnalisé"
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
@@ -275,6 +275,6 @@ massa, nec semper lorem quam in massa.
 
 </div>
 
-**This format is no longer used going forward** because it is incompatible with newer versions of our translation software at Crowdin. When adding a new page to the site, only the newer, HTML-based format should be used.
+**Ce format n'est désormais plus utilisé**, car il est incompatible avec les nouvelles versions de notre logiciel de traduction chez Crowdin. Lors de l'ajout d'une nouvelle page sur le site, seul le format HTML le plus récent doit être utilisé.
 
-Il n'y a pas d'urgence à convertir les avertissements de l'ancien format au nouveau format. Pages currently using this formatting should continue to work, but we will be updating them to use the newer, HTML-based format above over time as we continue to update the site.
+Il n'y a pas d'urgence à convertir les avertissements de l'ancien format au nouveau format. Les pages qui utilisent actuellement ce format devraient continuer à fonctionner, mais nous les mettrons à jour pour utiliser le nouveau format HTML ci-dessus au fur et à mesure que nous continuerons de mettre le site à jour.

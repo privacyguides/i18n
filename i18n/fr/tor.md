@@ -34,7 +34,7 @@ schema:
 [Vue détaillée de Tor :material-arrow-right-drop-circle:](advanced/tor-overview.md ""){.md-button.md-button--primary}[:material-movie-open-play-outline: Vidéo: Pourquoi vous avez besoin de Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">Conseil</p>
 
 Avant de vous connecter à Tor, assurez-vous d'avoir lu notre [introduction](advanced/tor-overview.md) sur ce qu'est Tor et comment s'y connecter en toute sécurité. Nous recommandons souvent de se connecter à Tor via un [fournisseur VPN](vpn.md) de confiance, mais vous devez le faire **correctement** pour éviter de diminuer votre anonymat.
 

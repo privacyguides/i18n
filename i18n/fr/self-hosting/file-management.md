@@ -20,7 +20,7 @@ L'auto-hébergement d'outils de **gestion de fichiers** peut permettre de rédui
 
 ![Logo de PhotoPrism](../assets/img/self-hosting/photoprism.svg){ align=right }
 
-**PhotoPrism** est une plateforme pour gérer vos photos. Elle prend en charge la synchronisation et le partage d'albums ainsi qu'une variété d'autres [fonctionnalités](https://photoprism.app/features). Le chiffrement de bout-en-bout n'est pas inclus, il est donc préférable de l'héberger sur un serveur de confiance que vous contrôlez vous-même.
+**PhotoPrism** est une plateforme pour gérer vos photos. Elle permet de synchroniser et partager des albums ainsi que beaucoup d'autres [fonctionnalités](https://photoprism.app/features). Le chiffrement de bout-en-bout n'est pas inclus, il est donc préférable de l'héberger sur un serveur de confiance que vous contrôlez vous-même.
 
 [:octicons-home-16: Page d'Accueil](https://photoprism.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Politique de Confidentialité" }

@@ -1,14 +1,14 @@
 ---
-title: Intern (Community & News)
-description: Privacy Guides is looking for an intern to discover and promote relevant news content on our platform, and to moderate and engage with our online communities.
+title: Stagiaire (Communauté et actualités)
+description: Privacy Guides est à la recherche d'un(e) stagiaire chargé(e) de découvrir et de promouvoir des contenus d'actualité pertinents sur notre plateforme, ainsi que de modérer nos communautés en ligne et de s'engager auprès d'elles.
 ---
 
 [:material-arrow-left-drop-circle: Offres d'emploi](../jobs.md)
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Position Closed</p>
+<p class="admonition-title">Candidatures fermées</p>
 
-Thank you for your interest in this position at Privacy Guides. At this time we are no longer accepting new applications, but please follow our [job openings](../jobs.md) page to learn about future opportunities.
+Nous vous remercions de l'intérêt que vous portez à ce poste à Privacy Guides. Nous n'acceptons pas de candidatures pour le moment, mais vous pouvez suivre notre page [Offres d'emploi](../jobs.md) pour vous tenir informé des prochaines opportunités.
 
 </div>
 
@@ -16,36 +16,36 @@ Vous êtes passionné(e) de protection de la vie privée et de la sécurité num
 
 Privacy Guides est une organisation internationale à but non lucratif dédiée à la production de contenus informatifs et journalistiques objectifs de haute qualité ainsi qu'à la promotion de communautés en ligne fiables et informatives pour discuter de sujets techniques autour de l'amélioration de la protection de la vie privée et de la sécurité numérique.
 
-This role is focused on interacting with our community members and answering their questions, keeping our online communities safe and constructive, and sharing thoughtful and informative news stories from around the internet for community discussion.
+Ce rôle est centré sur l'interaction avec les membres de notre communauté et sur la réponse à leurs questions, en garantissant la sécurité et la qualité de nos communautés en ligne, et de partager des actualités d'Internet intéressantes et instructives pour animer les discussions au sein de la communauté.
 
-Responsibilities will include:
+Les responsabilités sont les suivantes :
 
-- Regularly interacting with our forum and other communities.
-- Responding to moderation complaints/flags within our communities.
-- Reading news stories from a variety of publications and generally staying up to date with the latest news in the privacy and cybersecurity space.
-- Regularly posting interesting news stories and other topics you discover in our communities for discussion.
-- Assisting our other staff and volunteers with research, writing, video production, and editing.
-- Assisting with Privacy Guides' advocacy efforts.
-- Remaining polite and fact-focused.
+- Interagir régulièrement avec notre forum et nos autres communautés.
+- Répondre aux plaintes et aux signalements au sein de nos communautés.
+- Lire des articles de presse provenant de diverses publications et se tenir généralement au courant des dernières actualités dans le domaine de la protection de la vie privée et de la sécurité numérique.
+- Publier régulièrement dans nos communautés des actualités intéressantes et d'autres sujets pertinents qui attirent votre attention pour animer les discussions.
+- Assister les autres membres du personnel et les bénévoles dans la recherche, la rédaction, la production vidéo et l'édition.
+- Contribuer aux efforts de plaidoyer de Privacy Guides.
+- Rester poli(e) et se concentrer sur les faits.
 
-No prior experience is necessary. We are looking for people passionate about privacy, cybersecurity, journalism, and community management regardless of your GPA or background.
+Aucune expérience préalable n'est nécessaire. Nous recherchons des personnes passionnées par la protection de la vie privée, la cybersécurité, le journalisme et la gestion des communautés, quel que soit leur niveau d'études ou leur parcours.
 
-The following will be assets to your application, but please submit an application even if they don't apply to you:
+Les éléments suivants seront des atouts pour votre candidature, mais n'hésitez pas à soumettre une candidature même s'ils ne vous concernent pas :
 
 - Connaissance des communautés, de la culture et de la mission de Privacy Guides.
-- Previous experience with social media management and/or journalism.
+- Expérience préalable de gestion de réseaux sociaux et/ou de journalisme.
 - Situé entre les fuseaux horaires UTC-08:00 et UTC-04:00.
 
-This is a part-time, 10-20 hour per week role depending on your availability. We can work around your schedule and other obligations.
+Il s'agit d'un poste à temps partiel, de 10 à 20 heures par semaine, en fonction de votre disponibilité. Nous pouvons nous adapter à votre emploi du temps et à vos autres obligations.
 
-This is a 6-month contract paying $15 / hour USD, with the optional opportunity for renewal or a longer-term role depending on your personal goals and the project's outcome. The specific starting and ending dates are flexible.
+Il s'agit d'un contrat de 6 mois rémunéré 15 $/heure USD, avec la possibilité d'un renouvellement ou d'un rôle à plus long terme en fonction de vos objectifs personnels et de l'issue du projet. Les dates de début et de fin sont flexibles.
 
 ---
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Position Closed</p>
+<p class="admonition-title">Candidatures fermées</p>
 
-Thank you for your interest in this position at Privacy Guides. At this time we are no longer accepting new applications, but please follow our [job openings](../jobs.md) page to learn about future opportunities.
+Nous vous remercions de l'intérêt que vous portez à ce poste à Privacy Guides. Nous n'acceptons pas de candidatures pour le moment, mais vous pouvez suivre notre page [Offres d'emploi](../jobs.md) pour vous tenir informé des prochaines opportunités.
 
 </div>
 
