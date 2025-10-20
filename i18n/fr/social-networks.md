@@ -61,49 +61,49 @@ Nous avons choisi de recommander Mastodon en tant que plateforme principale de r
 
 2. Mastodon convient à la plupart des types de contenus. Bien que ce soit avant tout une plateforme de microblog, Mastodon prend très bien en charge les posts plus longs, les images, les vidéos et la plupart des autres posts que vous êtes susceptible de rencontrer si vous suivez des utilisateurs qui ne sont pas sur Mastodon. Grâce à cela, vous pouvez utiliser Mastodon comme "hub central" pour vos abonnements, peu importe la plateforme qu'ils utilisent. En comparaison, si vous utilisez uniquement un compte PeerTube, vous ne pourrez suivre _que_ d'autres chaines de vidéos.
 
-3. Mastodon dispose de contrôles assez complets en matière de protection de la vie privée. Vous pouvez limiter comment et quand sont utilisées grâce à des fonctionnalités intégrées, dont certaines que nous allons aborder ci-dessous. They also develop new features with privacy in mind. For example, while other ActivityPub software quickly implemented "quote posts" by merely handling links to other posts with a slightly different embed modal, Mastodon is [developing](https://blog.joinmastodon.org/2025/02/bringing-quote-posts-to-mastodon) a quote post feature which will give you more fine-grained control when your post is quoted.
+3. Mastodon dispose de contrôles assez complets en matière de protection de la vie privée. Vous pouvez limiter comment et quand sont utilisées vos données grâce à des fonctionnalités intégrées, dont certaines que nous allons aborder ci-dessous. Ils développent également de nouvelles fonctionnalités en tenant compte de la protection de la vie privée. Par exemple, alors que d'autres logiciels ActivityPub ont rapidement mis en place des "citations de post" en gérant simplement les liens vers d'autres posts avec un modal d'intégration légèrement différent, Mastodon [développe](https://blog.joinmastodon.org/2025/02/bringing-quote-posts-to-mastodon) une fonction de citation de post qui vous permettra de contrôler plus précisément les citations de vos posts.
 
-### Choosing an Instance
+### Choisir une instance
 
-To benefit the most from Mastodon, it is critical to choose a server, or "instance," which is well aligned with the type of content you want to post or read about. We do not currently recommend any specific instances, but you may find advice within our communities. We recommend avoiding _mastodon.social_ and _mastodon.online_ because they are operated by the same company which develops Mastodon itself. From the perspective of decentralization, it is better in the long term to separate software developers and server hosts so that no one party can exert too much control over the network as a whole.
+Afin de bénéficier un maximum de Mastodon, il est très important de choisir un serveur, ou "instance", en lien avec le type de contenu que vous souhaitez publier ou consulter. Pour le moment nous ne recommandons pas d'instance spécifique, mais vous pouvez demander de l'aide au sein de notre communauté. Nous vous recommandons cependant d'éviter d'utiliser _mastodon.social_ ou _mastodon.online_ car ces instances sont contrôlées par la même entreprise qui développe Mastodon. Du point de vue de la décentralisation, il est préférable au long terme de séparer les développeurs d'un logiciel et les hébergeurs de serveur afin qu'aucune des parties ne puisse exercer un trop grand contrôle sur le réseau entier.
 
-### Recommended Privacy Settings
+### Paramètres de confidentialité recommandés
 
-From Mastodon's web interface, click the **Administration** link in the right sidebar. Within the administration control panel, you'll find these sections in the left sidebar:
+Depuis l'interface web de Mastodon, cliquez sur le lien **Administration** dans la barre latérale droite. Dans le panneau de contrôle de d'administration, vous trouverez ces sections dans la barre latérale gauche :
 
-#### Public Profile
+#### Profile public
 
-There are a number of privacy controls under the **privacy and reach** tab here. Most notably, pay attention to these:
+Ici, vous trouverez un certain nombre de réglages de confidentialité dans l'onglet **confidentialité et visibilité** (**privacy and reach**). Il convient notamment de prêter attention à ces éléments :
 
-- [ ] **Automatically accept new followers**: You should consider unchecking this box to have a private profile. This will allow you to review who can follow your account before accepting them.
+- [ ] **Accepter automatique de nouveaux followers**. Décochez cette case si vous souhaitez maintenir votre compte privé. Cela vous permettra de passer en revue les personnes qui souhaitent suivre votre compte avant de les accepter.
 
-  In contrast to most social media platforms, if you have a private profile you still have the _option_ to publish posts which are publicly visible to non-followers and can still be boosted by non-followers. Therefore, unchecking this box is the only way to have the _choice_ to publish to either the entire world or a select group of people.
+  Contrairement à la plupart des plateformes de réseaux sociaux, si votre profil est privé vous toujours la _possibilité_ de publier des posts (appelés _pouets_) visible publiquement par les personnes qui ne vous suivent pas et qui peuvent également être partagés par des non-abonnés. Désactiver ce paramètre est le seul moyen d'avoir le _choix_ de publier des posts visibles du monde entier ou d'un groupe de personnes choisies.
 
-- [ ] **Show follows and followers on profile**: You should uncheck this box to hide your social graph from the public. It is fairly uncommon for the list of people you follow to have some genuine benefit to others, but that information can present a risk to you.
+- [ ] **Montrer les abonnements et les abonnés sur le profil**. Décocher cette case pour cacher au public votre cercle social. Il est assez rare que la liste des personnes que vous suivez présente un intérêt réel pour les autres, mais ces informations peuvent présenter un risque pour vous.
 
-- [ ] **Display from which app you sent a post**: You should uncheck this box to prevent revealing information about your personal computing setup to others unnecessarily.
+- [ ] **Afficher l'application que vous utilisez pour envoyer un pouet**. Décochez cette case pour éviter de révéler inutilement des informations sur votre configuration informatique personnelle.
 
-The other privacy controls on this page should be read through, but we would stress that they are **not** technical controls—they are merely requests that you make to others. For example, if you choose to hide your profile from search engines on this page, **nothing** is actually stopping a search engine from reading your profile. You are merely requesting search engine indexes not publish your content to their users.
+Les autres paramètres de confidentialité sur cette page devraient être passés en revue, cependant ceux-ci ne sont **pas** des paramètres techniques mais des simples demandes. Par exemple, si vous choisissez sur cette page de cacher votre profil des moteurs de recherche, **rien** n'empêchera un moteur de recherche de lire votre profil. Vous demandez simplement aux index des moteurs de recherche de ne pas partager votre contenu à leurs utilisateurs.
 
-You will likely still wish to make these requests because they can practically reduce your digital footprint. However, they should not be _relied_ upon. The only effective way to hide your posts from search engines and others is to post with non-public (followers only) visibility settings _and_ limit who can follow your account.
+Vous devriez malgré tout faire ces demandes car elles peuvent vous aider à réduire simplement votre empreinte numérique. Cependant, vous de ne devriez pas _compter dessus_. La seule façon efficace de cacher vos pouets des moteurs de recherche est de paramètre leur visibilité sur non-public (abonnés uniquement) _et_ de limiter qui peut suivre votre compte.
 
-#### Preferences
+#### Préférences
 
-You should change your **posting privacy** setting from public to: **Followers-only - Only show to followers**.
+Vous devriez configurer vos paramètres de **confidentialité des pouets** sur : **Privé - Visible uniquement des abonnés**.
 
-Note that this only changes your default settings to prevent accidental over-sharing. You can always adjust your visibility level when composing a new post.
+Ce paramètre change uniquement vos réglages par défaut pour éviter les erreurs. Vous pouvez toujours ajuster le niveau de visibilité lorsque vous écrivez un nouveau pouet.
 
-#### Automated post deletion
+#### Suppression automatique des pouets
 
-- [x] Check the **Automatically delete old posts** box.
+- [x] Cochez la case **Supprimer automatiquement les vieux pouets**.
 
-The default settings here are fine, and will delete any posts you make after 2 weeks, unless you favorite (star) them. This gives you an easy way to control which posts stick around forever, and which ones are only ephemeral. Many settings about how long and when posts are kept can be adjusted here to suit your own needs, however.
+Les paramètres par défaut de cette option sont correctes, les pouets que vous publiez seront supprimés après 2 semaines, à mois que vous ne les mettiez en favoris (étoile). Cela vous permet de contrôler facilement quels posts sont permanents ou éphémères. De nombreux paramètres concernant la durée et le moment de conservation des messages peuvent toutefois être ajustés ici pour répondre à vos propres besoins.
 
-It is very rare for social media posts older than a few weeks to be read or relevant to others. These older posts are often ignored because they are challenging to deal with in bulk, but they can build a fairly comprehensive profile about you over time. You should always strive to publish content ephemerally by default, and only keep posts around for longer than that very intentionally.
+Il est assez rare que des posts plus vieux que quelques semaines soient lus ou pertinents. Ces anciens messages sont souvent ignorés parce qu'ils sont difficiles à traiter en masse, mais ils peuvent constituer un profil assez complet sur vous au fil du temps. Vous devriez toujours vous efforcer de publier du contenu éphémère par défaut, et ne conserver les articles plus longtemps que de manière très intentionnelle.
 
-### Posting Content
+### Poster du contenu
 
-When publishing a new post, you will have the option to choose from one of these visibility settings:
+Lorsque vous écrivez un pouet, vous aurez la possibilité de choisir parmi les paramètres de visibilité suivants :
 
 - **Public**, which publishes your content to anyone on the internet.
 - **Quiet public**, which you should consider equivalent to publicly posting! This is not a technical guarantee, but merely a request you are making to other servers to hide your post from some feeds.
@@ -141,9 +141,9 @@ If you used our recommended configuration settings above, you should be posting 
 
 ### Choosing a Homeserver
 
-To benefit the most from Matrix, it is critical to choose a homeserver which is well aligned with the subject(s) you want to chat about. We do not currently recommend any specific homeservers, but you may find advice within our communities or third-party resources like [_joinmatrix.org_](https://servers.joinmatrix.org). We recommend avoiding _matrix.org_ because they are operated by the same company which develops Matrix itself. From the perspective of decentralization, it is better in the long term to separate software developers and server hosts so that no one party can exert too much control over the network as a whole.
+To benefit the most from Matrix, it is critical to choose a homeserver which is well aligned with the subject(s) you want to chat about. We do not currently recommend any specific homeservers, but you may find advice within our communities or third-party resources like [_joinmatrix.org_](https://servers.joinmatrix.org). We recommend avoiding _matrix.org_ because they are operated by the same company which develops Matrix itself. Du point de vue de la décentralisation, il est préférable au long terme de séparer les développeurs d'un logiciel et les hébergeurs de serveur afin qu'aucune des parties ne puisse exercer un trop grand contrôle sur le réseau entier.
 
-### Recommended Privacy Settings
+### Paramètres de confidentialité recommandés
 
 From Element's web or desktop app, go to :gear: → **All settings** to find these sections:
 
@@ -153,9 +153,9 @@ By default, when you log in to Element on a new device, the session name will be
 
 To prevent revealing information about your personal device to others unnecessarily, consider emptying the session name; this will change the session name to the randomly generated alphanumeric Session ID instead.
 
-#### Preferences
+#### Préférences
 
-- [ ] Uncheck **Send read receipts**
+- [ ] Décochez **Envoyer des accusés de réception**
 - [ ] Uncheck **Send typing notifications**
 
 You should uncheck these options to reduce the exposure of metadata to other users when chatting in a public room.
@@ -189,7 +189,7 @@ With this setting enabled, unverified users (i.e., those who have not used the *
 
 ## Critères
 
-**Nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de nos [critères de base](about/criteria.md), nous avons élaboré un ensemble d'exigences clair nous permettant de proposer des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de choisir d'utiliser un projet, et de mener vos propres recherches pour vous assurer que c'est le bon choix pour vous.
+**Nous ne sommes affiliés à aucun des projets que nous recommandons.** En plus de nos [critères de base](about/criteria.md), nous avons élaboré un ensemble d'exigences clair nous permettant de proposer des recommandations objectives. Nous vous suggérons de vous familiariser avec cette liste avant de faire votre choix, et de mener vos propres recherches pour vous assurer que celui-ci correspond bien à vos besoins.
 
 - Must be free and open-source software.
 - Must use a federated protocol to communicate with other instances of the social networking software.
