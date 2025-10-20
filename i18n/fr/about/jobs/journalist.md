@@ -1,63 +1,63 @@
 ---
-title: Journalist
-description: Privacy Guides is looking for a determined and focused journalist to research and write stories from the privacy and cybersecurity space on a regular basis.
+title: Journaliste
+description: Privacy Guides est à la recherche d'un(e) journaliste motivé(e) et attentif(ve) pour effectuer des recherches et rédiger régulièrement des articles sur la protection de la vie privée et la sécurité numérique.
 ---
 
-[:material-arrow-left-drop-circle: Job Openings](../jobs.md)
+[:material-arrow-left-drop-circle: Offres d'emploi](../jobs.md)
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Position Closed</p>
+<p class="admonition-title">Candidatures fermées</p>
 
-Thank you for your interest in this position at Privacy Guides. At this time we are no longer accepting new applications, but please follow our [job openings](../jobs.md) page to learn about future opportunities.
+Nous vous remercions de l'intérêt que vous portez à ce poste à Privacy Guides. Nous n'acceptons pas de candidatures pour le moment, mais vous pouvez suivre notre page [Offres d'emploi](../jobs.md) pour vous tenir informé des prochaines opportunités.
 
 </div>
 
-Are you passionate about privacy and cybersecurity?
+Vous êtes passionné(e) de protection de la vie privée et de la sécurité numérique ?
 
-Privacy Guides is an international nonprofit dedicated to producing top-tier, unbiased educational content and journalism, and to fostering safe and informative online communities to discuss technical topics around improving personal privacy and cybersecurity.
+Privacy Guides est une organisation internationale à but non lucratif dédiée à la production de contenus informatifs et journalistiques objectifs de haute qualité ainsi qu'à la promotion de communautés en ligne fiables et informatives pour discuter de sujets techniques autour de l'amélioration de la protection de la vie privée et de la sécurité numérique.
 
-We are looking for a determined and focused journalist to join our team. As a reporter for our organization, you will conduct research, interview sources, and write engaging stories in the field of consumer privacy and cybersecurity.
+Nous sommes à la recherche d'un(e) journaliste motivé(e) et attentif(ve) pour rejoindre notre équipe. En tant que journaliste pour notre organisation, vous effectuerez des recherches, interrogerez des sources et rédigerez des articles captivants dans le domaine de la protection de la vie privée des consommateurs et de la sécurité numérique.
 
-Our ideal candidate is committed to combating misinformation and clearly communicating stories on a timely basis, and dedicated to producing top-tier, unbiased journalism.
+Notre candidat(e) idéal(e) s'engage à lutter contre la désinformation et à communiquer clairement les informations en temps voulu, et se consacre à la production d'un journalisme impartial de premier plan.
 
-Privacy Guides is a small, largely volunteer-driven nonprofit media organization, and we do not currently have a dedicated writing and editing team. As such, you will be expected to take charge of the entire writing process from beginning to publication. You will have the freedom to choose which topics to cover and set a schedule to release articles on our main website.
+Privacy Guides est une petite organisation médiatique à but non lucratif, gérée en grande partie par des bénévoles, et nous ne disposons pas actuellement d'une équipe dédiée à la rédaction et à l'édition. À ce titre, vous devrez prendre en charge l'ensemble du processus de rédaction, du début à la publication. You will have the freedom to choose which topics to cover and set a schedule to release articles on our main website.
 
 \==Our primary mission is to publish the highest quality content surrounding consumer privacy and cybersecurity on the internet==, not the highest quantity of stories. You will be empowered to dive deep into the topics you are writing about, and expected to meet our high quality and editorial standards.
 
-Your responsibilities will include, but aren’t limited to:
+Vos responsabilités incluront, mais ne seront pas limitées à.. :
 
 - Creating high-quality articles for our [knowledge base](../../basics/why-privacy-matters.md).
 - Performing product reviews for our [reviews](https://www.privacyguides.org/articles/category/reviews) section and [tool recommendations](../../tools.md).
-- Researching new topics to cover.
+- Rechercher des nouveaux sujets à aborder.
 - Interviewing and fact-checking all relevant sources.
 - Regular posting of high-quality, unbiased journalistic content across our platforms.
 
-As a guideline, we expect roughly 3-5 articles a week that meet our quality standards, since we believe a well-researched article will take at least 8 hours to research and write on average. We realize some articles can be completed quickly, while others may take weeks or longer before publishing. You will be empowered to use your best judgement and prioritize your work accordingly.
+As a guideline, we expect roughly 3-5 articles a week that meet our quality standards, since we believe a well-researched article will take at least 8 hours to research and write on average. We realize some articles can be completed quickly, while others may take weeks or longer before publishing. Vous serez habilité à faire preuve de discernement et à hiérarchiser votre travail en conséquence.
 
 We are much more interested in articles that deeply cover a subject area than articles that cover the news of the day.
 
-Job requirements:
+Exigences du poste :
 
-- Excellent organization and communication skills.
+- Excellentes capacités d'organisation et de communication.
 - Expertise in English and writing.
-- Flexibility to set and respond to varying priorities and deadlines.
-- Proactive, results-driven mindset with a strong sense of initiative.
-- Personal interest in consumer privacy, cybersecurity, and technology.
+- Adaptabilité à fixer et à répondre à des priorités variables et à des deadlines.
+- Un état d'esprit proactif et orienté sur les résultats avec une grande capacité d'initiative.
+- Intérêt particulier pour la protection de la vie privée des consommateurs, la sécurité numérique et les technologiques.
 - Regular communication with the Privacy Guides committee and other team members.
-- Skeptical nature and drive to investigate difficult, often niche, technologies. You will need to evaluate the truthfulness of claims.
+- De nature sceptique et capable d'enquêter sur des technologies complexes et souvent de niche. Vous devrez évaluer la véracité des affirmations.
 
-The following qualifications will be an asset to your application. However, we are looking for the best candidate (which isn’t always apparent on paper!), so please apply even if you don’t meet any/many of these qualifications.
+Les qualifications suivantes seront un atout pour votre candidature. Toutefois, nous recherchons le(a) meilleur(e) candidat(e) (ce qui n'est pas toujours évident sur le papier !), alors n'hésitez pas à postuler même si vous ne répondez pas à l'une ou à plusieurs de ces qualifications.
 
 - Previous writing or journalism experience.
 - Previous product review experience.
-- Education in English, journalism, media production, or any other related fields.
-- Familiarity with Privacy Guides' communities, culture, and mission.
-- Located between UTC-08:00 and UTC-04:00 time zones.
-- At least basic familiarity with GitHub, including pull requests, branches, reviews, and issues.
+- Formation en anglais, journalisme, production de médias ou tout autre domaine connexe.
+- Connaissance des communautés, de la culture et de la mission de Privacy Guides.
+- Situé entre les fuseaux horaires UTC-08:00 et UTC-04:00.
+- Au moins une connaissance de base de GitHub, y compris les demandes d'extraction, les branches, les révisions et les problèmes.
 
-The ideal candidate can commit to this role on a full-time basis (40 hours / week), but we are open to discussing a schedule you suggest.
+Le candidat idéal peut s'engager à temps plein (40 heures par semaine), mais nous sommes disposés à discuter d'un horaire que vous nous suggéreriez.
 
-For this position, our hiring pay range falls between \$20-$25 / hour USD. The base pay may vary depending on job related qualifications such as knowledge, skills, and experience. Our compensation structure is rooted in a performance and merit based approach that acknowledges performance of both the individual and the project as a whole.
+Pour ce poste, notre fourchette de rémunération se situe entre 20$ et 25$ USD de l'heure. Le salaire de base peut varier en fonction des qualifications liées au poste, telles que les connaissances, les compétences et l'expérience. Notre structure de rémunération est fondée sur une approche basée sur les performances et le mérite, qui reconnaît à la fois les performances individuelles et du projet dans son ensemble.
 
 ---
 
@@ -68,6 +68,6 @@ Thank you for your interest in this position at Privacy Guides. At this time we 
 
 </div>
 
-Privacy Guides is fiscally hosted by [MAGIC Grants](https://magicgrants.org), a 501(c)(3) public charity. MAGIC Grants is an equal opportunity employer. MAGIC Grants does not discriminate against any applicant or employee because of age, color, sex, disability, national origin, race, religion, sexual orientation, sexual identity, veteran status, or other protected characteristic.
+Privacy Guides est légalement administré par [MAGIC Grants](https://magicgrants.org), une association publique 501(c)(3) qui nous sert également d'hôte fiscal. MAGIC Grants est un employeur qui souscrit au principe de l'égalité des chances. MAGIC Grants n'exerce aucune discrimination à l'encontre d'un(e) candidat(e) ou d'un(e) employé(e) en raison de son âge, de sa couleur de peau, de son sexe, de son handicap, de son origine nationale, de sa religion, de son orientation sexuelle, de son identité sexuelle, de son statut d'ancien combattant ou de toute autre caractéristique protégée.
 
-We respect your privacy. After this position is filled, your application will be deleted. Your application will not be shared with third parties.
+Nous respectons votre vie privée. Une fois le poste pourvu, votre candidature sera supprimée. Votre candidature ne sera pas communiquée à des tiers.

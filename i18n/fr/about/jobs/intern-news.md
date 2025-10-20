@@ -3,7 +3,7 @@ title: Intern (Community & News)
 description: Privacy Guides is looking for an intern to discover and promote relevant news content on our platform, and to moderate and engage with our online communities.
 ---
 
-[:material-arrow-left-drop-circle: Job Openings](../jobs.md)
+[:material-arrow-left-drop-circle: Offres d'emploi](../jobs.md)
 
 <div class="admonition info" markdown>
 <p class="admonition-title">Position Closed</p>
@@ -12,9 +12,9 @@ Thank you for your interest in this position at Privacy Guides. At this time we 
 
 </div>
 
-Are you passionate about privacy and cybersecurity?
+Vous êtes passionné(e) de protection de la vie privée et de la sécurité numérique ?
 
-Privacy Guides is an international nonprofit dedicated to producing top-tier, unbiased educational content and journalism, and to fostering safe and informative online communities to discuss technical topics around improving personal privacy and cybersecurity.
+Privacy Guides est une organisation internationale à but non lucratif dédiée à la production de contenus informatifs et journalistiques objectifs de haute qualité ainsi qu'à la promotion de communautés en ligne fiables et informatives pour discuter de sujets techniques autour de l'amélioration de la protection de la vie privée et de la sécurité numérique.
 
 This role is focused on interacting with our community members and answering their questions, keeping our online communities safe and constructive, and sharing thoughtful and informative news stories from around the internet for community discussion.
 
@@ -32,9 +32,9 @@ No prior experience is necessary. We are looking for people passionate about pri
 
 The following will be assets to your application, but please submit an application even if they don't apply to you:
 
-- Familiarity with Privacy Guides' communities, culture, and mission.
+- Connaissance des communautés, de la culture et de la mission de Privacy Guides.
 - Previous experience with social media management and/or journalism.
-- Located between UTC-08:00 and UTC-04:00 time zones.
+- Situé entre les fuseaux horaires UTC-08:00 et UTC-04:00.
 
 This is a part-time, 10-20 hour per week role depending on your availability. We can work around your schedule and other obligations.
 
@@ -49,6 +49,6 @@ Thank you for your interest in this position at Privacy Guides. At this time we 
 
 </div>
 
-Privacy Guides is fiscally hosted by [MAGIC Grants](https://magicgrants.org), a 501(c)(3) public charity. MAGIC Grants is an equal opportunity employer. MAGIC Grants does not discriminate against any applicant or employee because of age, color, sex, disability, national origin, race, religion, sexual orientation, sexual identity, veteran status, or other protected characteristic.
+Privacy Guides est légalement administré par [MAGIC Grants](https://magicgrants.org), une association publique 501(c)(3) qui nous sert également d'hôte fiscal. MAGIC Grants est un employeur qui souscrit au principe de l'égalité des chances. MAGIC Grants n'exerce aucune discrimination à l'encontre d'un(e) candidat(e) ou d'un(e) employé(e) en raison de son âge, de sa couleur de peau, de son sexe, de son handicap, de son origine nationale, de sa religion, de son orientation sexuelle, de son identité sexuelle, de son statut d'ancien combattant ou de toute autre caractéristique protégée.
 
-We respect your privacy. After this position is filled, your application will be deleted. Your application will not be shared with third parties.
+Nous respectons votre vie privée. Une fois le poste pourvu, votre candidature sera supprimée. Votre candidature ne sera pas communiquée à des tiers.

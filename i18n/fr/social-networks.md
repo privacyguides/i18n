@@ -69,7 +69,7 @@ Afin de bénéficier un maximum de Mastodon, il est très important de choisir u
 
 ### Paramètres de confidentialité recommandés
 
-Depuis l'interface web de Mastodon, cliquez sur **Préférences** dans la barre latérale droite. Dans le panneau de contrôle de d'administration, vous trouverez ces sections dans la barre latérale gauche :
+Depuis l'interface web de Mastodon, cliquez sur **Préférences** dans la barre latérale droite. À partir de cette page, vous pourrez trouver dans la barre latérale gauche les sections suivantes :
 
 #### Profil
 
@@ -89,13 +89,13 @@ Vous devriez malgré tout faire ces demandes car elles peuvent vous aider à ré
 
 #### Préférences
 
-Vous devriez configurer vos paramètres de **confidentialité des pouets** sur : **Privé - Visible uniquement des abonnés**.
+Vous devriez configurer vos paramètres de **Paramètres de publication par défaut** sur : **Followers only**.
 
 Ce paramètre change uniquement vos réglages par défaut pour éviter les erreurs. Vous pouvez toujours ajuster le niveau de visibilité lorsque vous écrivez un nouveau pouet.
 
 #### Suppression automatique des pouets
 
-- [x] Cochez la case **Supprimer automatiquement les vieux pouets**.
+- [x] Cochez la case **Suppression automatique de messages**.
 
 Les paramètres par défaut de cette option sont correctes, les pouets que vous publiez seront supprimés après 2 semaines, à mois que vous ne les mettiez en favoris (étoile). Cela vous permet de contrôler facilement quels posts sont permanents ou éphémères. De nombreux paramètres concernant la durée et le moment de conservation des messages peuvent toutefois être ajustés ici pour répondre à vos propres besoins.
 
@@ -106,11 +106,11 @@ Il est assez rare que des posts plus vieux que quelques semaines soient lus ou p
 Lorsque vous écrivez un pouet, vous aurez la possibilité de choisir parmi les paramètres de visibilité suivants :
 
 - **Public** : visible par n'importe qui sur internet.
-- **Non-listé** : équivalent à l'option Public ! Ne représente pas une garantie technique, simplement une demande que vous faites aux autres serveurs de cacher vos pouets.
-- **Privé** : visible uniquement par vos abonnés. Si vous n'avez pas modifier vos paramètres de restriction de vos abonnés, considérez le comme équivalent à l'option Public !
-- **Direct** : visible uniquement par les personnes que vous mentionnez dans le pouet. C'est la version de Mastodon des messages privés/directs, mais vous ne devriez jamais l'utiliser pour des conversations privées ou sensibles car Mastodon ne propose pas de chiffrement de bout-en-bout, comme nous l'avons mentionné plus haut.
+- **Public discret** : équivalent à l'option Public ! Ne représente pas une garantie technique, simplement une demande que vous faites aux autres serveurs de cacher vos pouets.
+- **Abonnés** : visible uniquement par vos abonnés. Si vous n'avez pas modifié vos paramètres de restriction de vos abonnés, considérez le comme équivalent à l'option Public !
+- **Mention privée** : visible uniquement par les personnes que vous mentionnez dans le pouet. C'est la version de Mastodon des messages privés/directs, mais vous ne devriez jamais l'utiliser pour des conversations privées ou sensibles car Mastodon ne propose pas de chiffrement de bout-en-bout, comme nous l'avons mentionné plus haut.
 
-Si vous avez modifié vos paramètres selon nos recommandations, vos pouets devraient être réglés par défaut sur **Privé** et vous ne devriez utiliser **Public** que de façon réfléchie et intentionnelle.
+Si vous avez modifié vos paramètres selon nos recommandations, vos pouets devraient être réglés par défaut sur **Abonnés** et vous ne devriez utiliser **Public** que de façon réfléchie et intentionnelle.
 
 ## Element
 
@@ -139,7 +139,7 @@ Si vous avez modifié vos paramètres selon nos recommandations, vos pouets devr
 
 </div>
 
-### Choisir une instance (homeserver)
+### Choisir une instance
 
 Afin de profiter un maximum de Matrix, il est important de choisir une instance (serveur que vous choisissez à la création de votre compte, aussi appelé "homeserver"), qui correspond aux sujets sur lesquels vous souhaitez discuter. Nous ne recommandons pas d'instance particulière pour le moment, mais vous pouvez demander conseil dans nos communautés ou utiliser des ressources comme [_joinmatrix.org_](https://servers.joinmatrix.org). Nous vous recommandons d'éviter _matrix.org_ car cette instance est contrôlée par l'équipe de développement de Matrix. Du point de vue de la décentralisation, il est préférable au long terme de séparer les développeurs d'un logiciel et les hébergeurs de serveur afin qu'aucune des parties ne puisse exercer un trop grand contrôle sur le réseau entier.
 

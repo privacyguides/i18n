@@ -1,72 +1,72 @@
 ---
-title: Content Creator
-description: Privacy Guides is looking for a video producer and host for informative privacy-related content on YouTube and other platforms.
+title: Créateur de contenu
+description: Privacy Guides est à la recherche d'un(e) producteur(rice) vidéo et d'un(e) animateur(rice) pour la diffusion de contenus informatifs sur la protection de la vie privée sur YouTube et d'autres plateformes.
 ---
 
-[:material-arrow-left-drop-circle: Job Openings](../jobs.md)
+[:material-arrow-left-drop-circle: Offres d'emploi](../jobs.md)
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Position Closed</p>
+<p class="admonition-title">Candidatures fermées</p>
 
-Thank you for your interest in this position at Privacy Guides. At this time we are no longer accepting new applications, but please follow our [job openings](../jobs.md) page to learn about future opportunities.
+Nous vous remercions de l'intérêt que vous portez à ce poste à Privacy Guides. Nous n'acceptons pas de candidatures pour le moment, mais vous pouvez suivre notre page [Offres d'emploi](../jobs.md) pour vous tenir informé des prochaines opportunités.
 
 </div>
 
-Are you passionate about privacy and cybersecurity?
+Vous êtes passionné(e) de protection de la vie privée et de la sécurité numérique ?
 
-Privacy Guides is an international nonprofit dedicated to producing top-tier, unbiased educational content and journalism, and to fostering safe and informative online communities to discuss technical topics around improving personal privacy and cybersecurity.
+Privacy Guides est une organisation internationale à but non lucratif dédiée à la production de contenus informatifs et journalistiques objectifs de haute qualité ainsi qu'à la promotion de communautés en ligne fiables et informatives pour discuter de sujets techniques autour de l'amélioration de la protection de la vie privée et de la sécurité numérique.
 
-Privacy Guides is looking for a focused and motivated individual to be responsible for our social media presence from end to end, with a particular emphasis on video content. You must be comfortable being on camera to succeed in this role.
+Privacy Guides recherche des gens passionnés et attentifs pour prendre la responsabilité totale de notre présence sur les réseaux, avec une attention particulière sur le contenu vidéo. Pour ce poste, vous devez être à l'aise devant une caméra.
 
-This is a unique opportunity. Your primary goal will be to create and share privacy-based educational materials, without any motive to sell a product. If you truly value being able to create the best content that you can, and if you are passionate about privacy, then this position is for you!
+C'est une opportunité unique. Votre objectif principal sera de créer et de partager du contenu éducatif sur la protection de la vie privée, sans aucun objectif de vendre un produit. Si vous êtes attaché(e) à pouvoir créer le meilleur contenu possible et si vous êtes passionné(e) par la protection de la vie privée, ce poste est fait pour vous !
 
-Your responsibilities will include, but aren’t limited to:
+Vos responsabilités incluront, mais ne seront pas limitées à.. :
 
-- Scripting and hosting educational video content to be posted across various social media platforms.
-- Video editing, production, and other backend work required to make successful content.
-- Researching new topics to cover.
-- Regular, daily posting to text-based social media platforms like Mastodon.
-- Regular posting of highly educational video content to social media platforms.
-- Compiling news sources for and hosting a weekly news recap (livestreamed) podcast on our YouTube channel.
-- Regularly communicating with the Privacy Guides committee and other team members.
+- Écrire et animer du contenu éducatif vidéo pour le partager sur nos différents réseaux sociaux.
+- Édition de vidéos, production et autres tâches nécessaires pour faire du contenu réussi.
+- Rechercher des nouveaux sujets à aborder.
+- Poster régulièrement et quotidiennement du contenu sur les réseaux sociaux textuels comme Mastodon.
+- Poster régulièrement du contenu vidéo hautement éducatif sur les plates-formes de réseaux sociaux.
+- Compiler et héberger un podcast hebdomadaire de news (en direct) sur notre chaîne YouTube.
+- Communiquer régulièrement avec le comité de Privacy Guides et les autres membres de l'équipe.
 
-This is a highly individualized role, and we are extremely interested in hearing your ideas on how you’ll find success and make this role your own. You will be responsible for handling virtually every aspect of this role without regular supervision, so being highly self-motivated is a must.
+Il s'agit d'un rôle hautement individualisé, et nous sommes très intéressés à entendre vos idées sur la façon dont vous trouverez une audience et comment vous voulez vous approprier ce rôle. Vous serez chargé(e) de gérer pratiquement tous les aspects de cette fonction sans supervision régulière, c'est pourquoi il est indispensable que vous soyez très motivé(e).
 
-As a guideline, we expect your video output to be roughly 1 video and 1 _This Week In Privacy_ livestream per week, since we think most videos which meet our quality standards will be a multi-day process to research and script, in addition to a day for recording and editing. We realize some videos can be completed more quickly, while others may take multiple weeks or longer before publishing. You will be empowered to use your best judgement and prioritize your work accordingly.
+Pour vous donner une idée, nous nous attendons à ce que votre production vidéo soit d'environ une vidéo et un _This Week In Privacy_ par semaine, car nous pensons que la plupart des vidéos qui répondront à nos normes de qualité demanderont un processus de recherche et de script de plusieurs jours, en plus d'une journée pour l'enregistrement et l'édition. Nous sommes conscients que certaines vidéos peuvent être réalisées plus rapidement, tandis que d'autres peuvent prendre plusieurs semaines voir plus avant d'être publiées. Vous serez habilité à faire preuve de discernement et à hiérarchiser votre travail en conséquence.
 
-Job requirements:
+Exigences du poste :
 
-- Excellent organization and communication skills.
-- Flexibility to set and respond to varying priorities and deadlines.
-- Proactive, results-driven mindset with a strong sense of initiative.
-- Comfortable being on camera, and working with video production equipment.
-- Personal interest in consumer privacy, cybersecurity, and technology.
-- Skeptical nature and drive to investigate difficult, often niche, technologies. You will need to evaluate the truthfulness of claims.
+- Excellentes capacités d'organisation et de communication.
+- Adaptabilité à fixer et à répondre à des priorités variables et à des deadlines.
+- Un état d'esprit proactif et orienté sur les résultats avec une grande capacité d'initiative.
+- A l'aise à la caméra et au travail avec des équipements de production de vidéos.
+- Intérêt particulier pour la protection de la vie privée des consommateurs, la sécurité numérique et les technologiques.
+- De nature sceptique et capable d'enquêter sur des technologies complexes et souvent de niche. Vous devrez évaluer la véracité des affirmations.
 
-The following qualifications will be an asset to your application. However, we are looking for the best candidate (which isn’t always apparent on paper!), so please apply even if you don’t meet any/many of these qualifications.
+Les qualifications suivantes seront un atout pour votre candidature. Toutefois, nous recherchons le(a) meilleur(e) candidat(e) (ce qui n'est pas toujours évident sur le papier !), alors n'hésitez pas à postuler même si vous ne répondez pas à l'une ou à plusieurs de ces qualifications.
 
-- Previous YouTube or other video creation experience.
-- Previous social media management experience.
-- Education in English, journalism, media production, or any other related fields.
-- Fluency in Spanish, French, Portuguese, or other languages.
-- Familiarity with Privacy Guides' communities, culture, and mission.
-- A solid understanding of the latest trends/culture on YouTube & TikTok.
-- Located between UTC-08:00 and UTC-04:00 time zones.
-- At least basic familiarity with GitHub, including pull requests, branches, reviews, and issues.
+- Expérience de la création de vidéos sur YouTube ou autre.
+- Expérience de gestion de réseaux sociaux.
+- Formation en anglais, journalisme, production de médias ou tout autre domaine connexe.
+- Maîtrise de l'espagnol, du français, du portugais ou d'autres langues.
+- Connaissance des communautés, de la culture et de la mission de Privacy Guides.
+- Une solide compréhension des dernières tendances/culture sur YouTube et TikTok.
+- Situé entre les fuseaux horaires UTC-08:00 et UTC-04:00.
+- Au moins une connaissance de base de GitHub, y compris les demandes d'extraction, les branches, les révisions et les problèmes.
 
-The ideal candidate can commit to this role on a full-time basis (40 hours / week), but we are open to discussing a schedule you suggest.
+Le candidat idéal peut s'engager à temps plein (40 heures par semaine), mais nous sommes disposés à discuter d'un horaire que vous nous suggéreriez.
 
-For this position, our hiring pay range falls between \$20-$25 / hour USD. The base pay may vary depending on job related qualifications such as knowledge, skills, and experience. Our compensation structure is rooted in a performance and merit based approach that acknowledges performance of both the individual and the project as a whole.
+Pour ce poste, notre fourchette de rémunération se situe entre 20$ et 25$ USD de l'heure. Le salaire de base peut varier en fonction des qualifications liées au poste, telles que les connaissances, les compétences et l'expérience. Notre structure de rémunération est fondée sur une approche basée sur les performances et le mérite, qui reconnaît à la fois les performances individuelles et du projet dans son ensemble.
 
 ---
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Position Closed</p>
+<p class="admonition-title">Candidatures fermées</p>
 
-Thank you for your interest in this position at Privacy Guides. At this time we are no longer accepting new applications, but please follow our [job openings](../jobs.md) page to learn about future opportunities.
+Nous vous remercions de l'intérêt que vous portez à ce poste à Privacy Guides. Nous n'acceptons pas de candidatures pour le moment, mais vous pouvez suivre notre page [Offres d'emploi](../jobs.md) pour vous tenir informé des prochaines opportunités.
 
 </div>
 
-Privacy Guides is fiscally hosted by [MAGIC Grants](https://magicgrants.org), a 501(c)(3) public charity. MAGIC Grants is an equal opportunity employer. MAGIC Grants does not discriminate against any applicant or employee because of age, color, sex, disability, national origin, race, religion, sexual orientation, sexual identity, veteran status, or other protected characteristic.
+Privacy Guides est légalement administré par [MAGIC Grants](https://magicgrants.org), une association publique 501(c)(3) qui nous sert également d'hôte fiscal. MAGIC Grants est un employeur qui souscrit au principe de l'égalité des chances. MAGIC Grants n'exerce aucune discrimination à l'encontre d'un(e) candidat(e) ou d'un(e) employé(e) en raison de son âge, de sa couleur de peau, de son sexe, de son handicap, de son origine nationale, de sa religion, de son orientation sexuelle, de son identité sexuelle, de son statut d'ancien combattant ou de toute autre caractéristique protégée.
 
-We respect your privacy. After this position is filled, your application will be deleted. Your application will not be shared with third parties.
+Nous respectons votre vie privée. Une fois le poste pourvu, votre candidature sera supprimée. Votre candidature ne sera pas communiquée à des tiers.
