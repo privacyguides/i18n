@@ -61,7 +61,7 @@
 *[NAT-PMP]: NAT Port Mapping Protocol
 *[NTP]: Network Time Protocol
 *[OCI]: Open Container Initiative
-*[OCSP]: Online Certificate Status Protocol
+*[OCSP]: Protokol stavu online certifikátu
 *[OEM]: Original Equipment Manufacturer
 *[OEMs]: Original Equipment Manufacturers
 *[open-weights]: An open weights-model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.

@@ -183,6 +183,6 @@ Additionally, all public providers...
 
     Control D: [*Privacy Policy*](https://controld.com/privacy) [^4]: Mullvad's DNS service is available to both subscribers and non-subscribers of Mullvad VPN. Their privacy policy explicitly claims they do not log DNS requests in any way.
 
-    Mullvad: [*No-logging of user activity policy*](https://mullvad.net/en/help/no-logging-data-policy) [^5]: Quad9 collects some data for the purposes of threat monitoring and response. That data may then be remixed and shared for purposes like furthering their security research. Quad9 does not collect or record IP addresses or other data they deem personally identifiable.
+    Mullvad: [*Zásady nezaznamenávání činnosti uživatelů*](https://mullvad.net/en/help/no-logging-data-policy) [^5]: Quad9 shromažďuje některá data pro účely monitorování hrozeb a reakce na ně. That data may then be remixed and shared for purposes like furthering their security research. Quad9 does not collect or record IP addresses or other data they deem personally identifiable.
 
     Quad9: [*Data and Privacy Policy*](https://quad9.net/privacy/policy)
