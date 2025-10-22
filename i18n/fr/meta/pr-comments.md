@@ -1,13 +1,13 @@
 ---
-title: Commenting on PRs
-description: A guide on participating in Pull Request discussions.
+title: Commenter les PRs
+description: Un guide sur la participation aux discussions sur les Pull Request.
 ---
 
-Please refrain from using the general **Add a comment** box in GitHub PRs when leaving a comment or performing a review.
+Veuillez vous abstenir d'utiliser la boîte générale **Ajouter un commentaire** dans les PRs GitHub lorsque vous laissez un commentaire ou effectuez une évaluation.
 
-![Do not use the general "Add a comment" box in GitHub](../assets/img/meta/pr-avoid-general-comments.png)
+![Ne pas utiliser la boîte générale "Ajouter un commentaire" dans GitHub](../assets/img/meta/pr-avoid-general-comments.png)
 
-Comments that are left like this are not _threaded_, which makes it difficult to keep track of multiple conversations.
+Les commentaires laissés de la sorte ne sont pas _threaded_, ce qui rend difficile le suivi de plusieurs conversations.
 
 Comments that are instead left in the manner described below will have a built-in reply box to keep conversations in a single thread. These comments can also be marked as resolved afterwards, so that discussion can be tracked more easily.
 
