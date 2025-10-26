@@ -1,6 +1,6 @@
 ---
-meta_title: "Recommended AI Chat: Private ChatGPT Alternatives - Privacy Guides"
-title: "AI Chat"
+meta_title: "Chat IA recommandé : alternatives privées à ChatGPT – Privacy Guides"
+title: "Chat IA"
 icon: material/assistant
 description: Unlike OpenAI's ChatGPT and its Big Tech competitors, these AI tools run locally so your data never leaves your desktop device.
 cover: ai-chatbots.webp
@@ -14,7 +14,7 @@ cover: ai-chatbots.webp
 
 The use of **AI chat**, also known as Large Language Models (LLMs), has become increasingly common since the release of ChatGPT in 2022. LLMs can help us write better, understand unfamiliar subjects, or answer a wide range of questions. They work by statistically predicting the next word in their responses based on a vast amount of data scraped from the web.
 
-## Privacy Concerns About LLMs
+## Problèmes de confidentialité liés aux modèles de langage
 
 Data used to train AI models, however, includes a massive amount of publicly available data scraped from the web, which can include sensitive information like names and addresses. Cloud-based AI software often [collects your inputs](https://openai.com/policies/row-privacy-policy), meaning your chats are not private from them. This practice also introduces a risk of data breaches. Furthermore, there is a real possibility that an LLM will leak your private chat information in future conversations with other users.
 
