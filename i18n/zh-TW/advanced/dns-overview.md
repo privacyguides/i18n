@@ -24,7 +24,7 @@ DNS 從網際網路的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System
     tshark -w /tmp/dns.pcap udp port 53 and host 1.1.1.1 or host 8.8.8.8
     ```
 
-2. We can then use [`dig`](https://en.wikipedia.org/wiki/Dig_(command)) (Linux, macOS, etc.) or [`nslookup`](https://en.wikipedia.org/wiki/Nslookup) (Windows) to send the DNS lookup to both servers. Web 瀏覽器等軟體會自動執行這些查詢，除非它們被設定為使用加密的DNS。
+2. 接下來可以使用 [`dig`](https://en.wikipedia.org/wiki/Dig_(command))（Linux、macOS 等系統）或 [`nslookup`](https://en.wikipedia.org/wiki/Nslookup)（Windows 系統）來送出 DNS 柴尋請求到這兩台伺服器。 Web 瀏覽器等軟體會自動執行這些查詢，除非它們被設定為使用加密的DNS。
 
     === "Linux ， macOS"
 
@@ -39,7 +39,7 @@ DNS 從網際網路的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System
         nslookup privacyguides.org 8.8.8.8
         ```
 
-3. Next, we want to [analyze](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs) the results:
+3. 接下來，[分析](https://wireshark.org/docs/wsug_html_chunked/ChapterIntroduction.html#ChIntroWhatIs)結果：
 
     === "Wireshark"
 
@@ -70,7 +70,7 @@ DNS 從網際網路的 [早期](https://en.wikipedia.org/wiki/Domain_Name_System
 
 ### DNSCrypt
 
-[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) 是第一種查詢加密 DNS 的方法之一。 DNSCrypt 在 443 端口上運作，與 TCP 或 UDP 傳輸協議一起使用。 DNSCrypt has never been submitted to the [Internet Engineering Task Force (IETF)](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force) nor has it gone through the [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments) process, so it has not been used widely outside a few [implementations](https://dnscrypt.info/implementations). 因此，它大量被更受歡迎的 [DNS over HTTPS](#dns-over-https-doh) 取代。
+[**DNSCrypt**](https://en.wikipedia.org/wiki/DNSCrypt) 是第一種查詢加密 DNS 的方法之一。 DNSCrypt 在 443 端口上運作，與 TCP 或 UDP 傳輸協議一起使用。 DNSCrypt 從未被送出到 [網際網路工程任務組（IETF）](https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force)，也沒有完成 [Request for Comments (RFC)](https://en.wikipedia.org/wiki/Request_for_Comments) 程序，所以除了少數[實作](https://dnscrypt.info/implementations)之外，從未被廣泛使用。 因此，它大量被更受歡迎的 [DNS over HTTPS](#dns-over-https-doh) 取代。
 
 ### 通過 TLS 的 DNS (DoT)
 
@@ -118,7 +118,7 @@ Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profi
 
 3. 提出請求後，快速鍵 <kbd>CTRL</kbd> + <kbd>C</kbd>可停止封包捉取。
 
-4. Analyze the results in Wireshark:
+4. 到 Wireshark 分析送出的請求：
 
     ```bash
     wireshark -r /tmp/dns_doh.pcap
@@ -136,13 +136,13 @@ Apple不提供用於建立加密DNS設定檔的原生介面。 [Secure DNS profi
 
 確定瀏覽活動的最簡單方法可能是查看您的設備正在訪問的 IP 位址。 例如，如果觀察者知道 `privacyguides.org` 位於 `198.98.54.105`，而您的裝置正在請求 `198.98.54.105`的數據，則很有可能您正在訪問隱私指南。
 
-此方法僅在 IP 位址屬於僅託管少數網站的伺服器時才有用。 It's also not very useful if the site is hosted on a shared platform (e.g. GitHub Pages, Cloudflare Pages, Netlify, WordPress, Blogger, etc.). 如果伺服器託管在 [反向代理](https://en.wikipedia.org/wiki/Reverse_proxy)之後，這也不是很有用，這在現代網路上非常常見。
+此方法僅在 IP 位址屬於僅託管少數網站的伺服器時才有用。 如果網站託管在共享平台（例如 GitHub Pages、Cloudflare Pages、Netlify、WordPress、Blogger等），就不太有用。 如果伺服器託管在 [反向代理](https://en.wikipedia.org/wiki/Reverse_proxy)之後，這也不是很有用，這在現代網路上非常常見。
 
 ### 伺服器名指示(SNI)
 
-Server Name Indication is typically used when an IP address hosts many websites. 這可能是像 Cloudflare 的服務，或者其他 [阻斷服務攻擊](https://en.wikipedia.org/wiki/Denial-of-service_attack) 保護。
+「伺服器名稱指示」通常用於以單一 IP 地址，託管多個網站的情境。 這可能是像 Cloudflare 的服務，或者其他 [阻斷服務攻擊](https://en.wikipedia.org/wiki/Denial-of-service_attack) 保護。
 
-1. 再次開始捕捉 `tshark`。 We've added a filter with our IP address, so you don't capture many packets:
+1. 再次開始捕捉 `tshark`。 現在加入了一組我們的 IP 地址的過濾器，這樣就不需要捕捉太多無關的封包：
 
     ```bash
     tshark -w /tmp/pg.pcap port 443 and host 198.98.54.105
@@ -333,7 +333,7 @@ graph TB
 ```
 
 
-Encrypted DNS with a third party should only be used to get around redirects and basic [DNS blocking](https://en.wikipedia.org/wiki/DNS_blocking) when you can be sure there won't be any consequences, or you're interested in a provider that does some rudimentary filtering.
+應只在能確定沒有任何後顧之憂，或對於供應商提供的基礎過濾有興趣時，才使用由第三方提供的加密 DNS 以躲避重新導向和基本的 [DNS 封鎖](https://en.wikipedia.org/wiki/DNS_blocking) 。
 
 [推薦的 DNS 伺服器列表](../dns.md ""){.md-button}
 

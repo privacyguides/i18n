@@ -6,7 +6,7 @@ description: 簡介常見的即時通訊應用程式網路架構。
 
 有幾種網路架構常運用於在人與人之間傳遞消息。 這些網路提供不同的隱私保證，這就是為什麼在決定使用哪個應用程式時，最好能考慮您的[威脅模型](../basics/threat-modeling.md) 。
 
-[Recommended Instant Messengers](../real-time-communication.md ""){.md-button} [:material-movie-open-play-outline: Video: It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
+[推薦使用的即時通訊軟體](../real-time-communication.md ""){.md-button} [:material-movie-open-play-outline: 影片：It's time to stop using SMS](https://www.privacyguides.org/videos/2025/01/24/its-time-to-stop-using-sms-heres-why ""){.md-button}
 
 ## 集中式網路
 
