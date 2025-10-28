@@ -175,65 +175,65 @@ Zoeksuggesties sturen alles wat je in de adresbalk typt naar de standaard zoekma
 
 - [x] Selecteer **Strikte** Verbeterde Traceringsbescherming
 
-This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
+Dit beschermt je door het blokkeren van social media trackers, fingerprinting scripts (merk op dat dit je niet tegen *alle* fingerprinting beschermt), cryptominers, cross-site tracking cookies en sommige andere tracking content. ETP beschermt tegen veel voorkomende bedreigingen, maar blokkeert niet alle trackingkanalen omdat het zo is ontworpen dat het minimale tot geen invloed heeft op de bruikbaarheid van de site.
 
 ##### Saneren bij sluiten
 
-If you want to stay logged in to particular sites, you can allow exceptions in **Cookies and Site Data** → **Manage Exceptions...**
+Als je aangemeld wilt blijven bij bepaalde sites, kun je uitzonderingen toestaan in **Cookies en sitegegevens** → **Uitzonderingen beheren...**
 
 - [x] Check **Cookies en sitegegevens verwijderen wanneer Firefox wordt afgesloten**
 
-This protects you from persistent cookies, but does not protect you against cookies acquired during any one browsing session. When this is enabled, it becomes possible to easily cleanse your browser cookies by simply restarting Firefox. You can set exceptions on a per-site basis, if you wish to stay logged in to a particular site you visit often.
+Dit beschermt je tegen permanente cookies, maar beschermt je niet tegen cookies die tijdens een willekeurige browsersessie worden aangemaakt. Wanneer dit is ingeschakeld, wordt het mogelijk om eenvoudig jouw browsercookies op te schonen door Firefox simpelweg opnieuw te starten. Je kunt uitzonderingen per site instellen als je ingelogd wilt blijven op een bepaalde site die je vaak bezoekt.
 
-##### Telemetry
+##### Telemetrie
 
-- [ ] Uncheck **Firefox toestaan technische en interactiegegevens naar Mozilla**te sturen
-- [ ] Uncheck **Firefox toestaan om studies te installeren en uit te voeren**uit
-- [ ] Uncheck **Firefox toestaan om namens je achterstallige crashmeldingen te verzenden uit**
+- [ ] Deselecteer **Firefox toestaan technische en interactiegegevens naar Mozilla**te sturen
+- [ ] Deselecteer **Firefox toestaan om studies te installeren en uit te voeren**
+- [ ] Deselecteer **Firefox toestaan achterstallige crashmeldingen namens jou te verzenden**
 
-According to Mozilla's privacy policy for Firefox,
+Volgens Mozilla's privacybeleid voor Firefox,
 
 > Firefox stuurt ons gegevens over jouw Firefox-versie en -taal; besturingssysteem van het apparaat en hardwareconfiguratie; geheugen, basisinformatie over crashes en fouten; resultaat van geautomatiseerde processen zoals updates, veilig browsen en activering. Wanneer Firefox gegevens naar ons verzendt, wordt uw IP-adres tijdelijk verzameld als onderdeel van onze serverlogs.
 
-Additionally, the Mozilla Accounts service collects [some technical data](https://mozilla.org/privacy/mozilla-accounts). If you use a Mozilla Account you can opt out:
+Daarnaast verzamelt de Mozilla Accounts service [enkele technische gegevens](https://mozilla.org/privacy/mozilla-accounts). Als je een Mozilla-account gebruikt, kan je je afmelden:
 
 1. Open jouw [profielinstellingen op accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
 2. Schakel **Gegevensverzameling en -gebruik uit** > **Help Firefox-accounts verbeteren**
 
-##### Website Advertising Preferences
+##### Website Advertentievoorkeuren
 
-- [ ] Uncheck **Allow websites to perform privacy-preserving ad measurement**
+- [ ] Deselecteer **Websites toestaan om privacy-beschermende advertentiemeting uit te voeren**
 
-With the release of Firefox 128, a new setting for [privacy-preserving attribution](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) has been added and [enabled by default](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA allows advertisers to use your web browser to measure the effectiveness of web campaigns, instead of using traditional JavaScript-based tracking. We consider this behavior to be outside the scope of a user agent's responsibilities, and the fact that it is disabled by default in Arkenfox is an additional indicator for disabling this feature.
+Met de release van Firefox 128 is een nieuwe instelling voor [privacy-beschermende attributie](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA) toegevoegd en [standaard ingeschakeld](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). Met PPA kunnen adverteerders je webbrowser gebruiken om de effectiviteit van webcampagnes te meten, in plaats van traditionele tracking op basis van JavaScript te gebruiken. Wij zijn van mening dat dit gedrag buiten de verantwoordelijkheden van een user agent valt, en het feit dat het standaard is uitgeschakeld in Arkenfox is een extra indicator voor het uitschakelen van deze functie.
 
-##### HTTPS-Only Mode
+##### HTTPS-Only Modus
 
-- [x] Select **Schakel HTTPS-only modus in alle vensters in**
+- [x] Selecteer **HTTPS-only modus in alle vensters inschakelen**
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. Sites without HTTPS are uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+Dit voorkomt dat je onbedoeld verbinding maakt met een website in platte HTTP-tekst. Sites zonder HTTPS zijn tegenwoordig zeldzaam, dus dit zou weinig tot geen invloed moeten hebben op je dagelijkse browsen.
 
 ##### DNS over HTTPS
 
-If you use a [DNS over HTTPS provider](dns.md):
+Als je een [DNS over HTTPS provider](dns.md) gebruikt:
 
 - [x] Selecteer **Maximale Bescherming** en kies een geschikte provider
 
-Max Protection enforces the use of DNS over HTTPS, and a security warning will show if Firefox can’t connect to your secure DNS resolver, or if your secure DNS resolver says that records for the domain you are trying to access do not exist. This stops the network you're connected to from secretly downgrading your DNS security.
+Max Protection dwingt het gebruik van DNS over HTTPS af, en er wordt een beveiligingswaarschuwing weergegeven als Firefox geen verbinding kan maken met jouw beveiligde DNS resolver, of als jouw beveiligde DNS resolver zegt dat er geen records bestaan voor het domein dat u probeert te openen. Dit voorkomt dat het netwerk waarmee je verbonden bent in het geheim je DNS-beveiliging verlaagt.
 
-#### Sync
+#### Synchronisatie
 
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices and protects it with E2EE.
+[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) maakt je surfgegevens (geschiedenis, bladwijzers, enz.) toegankelijk op al je apparaten en beschermt ze met E2EE.
 
 ### Arkenfox (gevorderd)
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Use Mullvad Browser for advanced anti-fingerprinting</p>
+<p class="admonition-title">Gebruik Mullvad Browser voor geavanceerde anti-vingerafdrukken</p>
 
-[Mullvad Browser](#mullvad-browser) biedt dezelfde anti-fingeprint bescherming als Arkenfox out of the box, en vereist niet het gebruik van Mullvad's VPN om van deze bescherming te profiteren. In combinatie met een VPN kan Mullvad Browser meer geavanceerde tracking scripts dwarsbomen dan Arkenfox. Arkenfox heeft nog steeds het voordeel dat het veel flexibeler is, en uitzonderingen per site toestaat voor websites waarop je ingelogd moet blijven.
+[Mullvad Browser](#mullvad-browser) biedt dezelfde anti-fingeprint bescherming als Arkenfox, en vereist niet het gebruik van Mullvad's VPN om van deze bescherming te profiteren. In combinatie met een VPN kan Mullvad Browser meer geavanceerde tracking scripts dwarsbomen dan Arkenfox. Arkenfox heeft nog steeds het voordeel dat het veel flexibeler is en uitzonderingen per site toestaat voor websites waarop je ingelogd moet blijven.
 
 </div>
 
-The [Arkenfox project](https://github.com/arkenfox/user.js) provides a set of carefully considered options for Firefox. If you [decide](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) to use Arkenfox, a [few options](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) are subjectively strict and/or may cause some websites to not work properly—which you can [easily change](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) to suit your needs. We **strongly recommend** reading through their full [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox also enables [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) support.
+Het [Arkenfox-project](https://github.com/arkenfox/user.js) biedt een reeks weloverwogen opties voor Firefox. Als je [besluit](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) om Arkenfox te gebruiken, zijn een [paar opties](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) subjectief streng en/ of kunnen ervoor zorgen dat sommige websites niet goed werken - deze kun je [eenvoudig wijzigen](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) om aan jouw behoeften te voldoen. We raden **je sterk aan** om hun volledige [wiki](https://github.com/arkenfox/user.js/wiki) te lezen. Arkenfox biedt ook [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) ondersteuning.
 
 Arkenfox only aims to thwart basic or naive tracking scripts through canvas randomization and Firefox's built-in fingerprint resistance configuration settings. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
 
@@ -269,11 +269,11 @@ Brave is gebouwd op het Chromium webbrowser project, dus het zou vertrouwd moete
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning</p>
 
-Brave voegt een "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" toe aan de file naam in downloads van de Brave website, die wordt gebruikt om te volgen van welke bron de browser heeft gedownload. Als voorbeeld `BRV002` in een download genaamd `Brave-Browser-BRV002.pkg`. Het installatieprogramma zal aan het eind van het installatieproces de server van Brave pingen met de verwijzingscode. Als u zich hier zorgen om maakt kunt u de naam van de installer veranderen voor het openen.
+Brave voegt een "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" toe aan de file naam in downloads van de Brave website, die wordt gebruikt om te volgen van welke bron de browser heeft gedownload. Als voorbeeld `BRV002` in een download genaamd `Brave-Browser-BRV002.pkg`. Het installatieprogramma zal aan het eind van het installatieproces de server van Brave pingen met de verwijzingscode. Als je je hier zorgen over maakt, kun je de naam van het installatiebestand wijzigen voordat je het opent.
 
 </div>
 
-### Recommended Brave Configuration
+### Aanbevolen Brave Configuratie
 
 Deze opties zijn te vinden in :material-menu: → **Instellingen**.
 

@@ -84,7 +84,7 @@ Brave is gebouwd op het Chromium webbrowser project, dus het zou vertrouwd moete
 
 </div>
 
-### Recommended Brave Configuration
+### Aanbevolen Brave Configuratie
 
 Tor Browser is de enige manier om echt anoniem op het internet te surfen. Wanneer je Brave gebruikt, raden we je aan de volgende instellingen te wijzigen om jouw privacy tegen bepaalde partijen te beschermen, maar alle browsers behalve de [Tor Browser](tor.md#tor-browser) zijn in sommige opzichten traceerbaar door *iemand*.
 
@@ -244,7 +244,7 @@ These options can be found in :material-menu: → :gear: **Settings** → **Priv
 
 - [x] Select **Always use secure connections**
 
-This prevents you from unintentionally connecting to a website in plain-text HTTP. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+Dit voorkomt dat je onbedoeld verbinding maakt met een website in platte HTTP-tekst. HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
 
 #### Adblock Plus settings
 
