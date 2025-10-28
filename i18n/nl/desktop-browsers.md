@@ -63,20 +63,20 @@ schema:
 
 Dit zijn momenteel onze aanbevolen **desktop webbrowsers** en configuraties voor standaard/ niet-anoniem internetten. Wij bevelen [Mullvad Browser](#mullvad-browser) aan als je gericht bent op sterke privacybescherming en anti-vingerafdrukken, [Firefox](#firefox) voor casual internetters op zoek naar een goed alternatief voor Google Chrome, en [Brave](#brave) als je Chromium-browsercompatibiliteit nodig hebt.
 
-Als je anoniem wil browsen, gebruik in plaats daarvan dan [ Tor](tor.md). We doen op deze pagina enkele aanbevelingen voor de configuratie, maar alle andere browsers dan Tor Browser zullen op een of andere manier traceerbaar zijn via *iemand*.
+Als je anoniem wil browsen, gebruik in plaats daarvan dan [ Tor](tor.md). We doen een aantal aanbevelingen voor configuratie op deze pagina, maar alle andere browsers dan Tor Browser zullen op de een of andere manier door *iemand* getraceerd kunnen worden.
 
 ## Mullvad Browser
 
 <div class="admonition recommendation" markdown>
 
-![Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
+Mullvad Browser logo](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Mullvad Browser** is a version of [Tor Browser](tor.md#tor-browser) with Tor network integrations removed. It aims to provide to VPN users Tor Browser's anti-fingerprinting browser technologies, which are key protections against [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Het is ontwikkeld door het Tor Project en gedistribueerd door [Mullvad](vpn.md#mullvad), en vereist **niet** het gebruik van Mullvad's VPN.
+**Mullvad Browser** is een versie van [Tor Browser](tor.md#tor-browser) met Tor netwerk integraties verwijderd. Het is bedoeld om VPN-gebruikers te voorzien van Tor Browser's anti-vingerafdruk technologieën, die een belangrijke bescherming zijn tegen [:material-eye-outline: Massa Surveillance](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Het is ontwikkeld door het Tor Project en gedistribueerd door [Mullvad](vpn.md#mullvad), en vereist **niet** het gebruik van Mullvad's VPN.
 
 [:octicons-home-16: Homepage](https://mullvad.net/en/browser){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title="Documentation" }
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacybeleid" }
+[:octicons-info-16:](https://mullvad.net/en/help/tag/mullvad-browser){ .card-link title="Documentatie" }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/mullvad-browser){ .card-link title="Broncode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -91,15 +91,15 @@ Als je anoniem wil browsen, gebruik in plaats daarvan dan [ Tor](tor.md). We doe
 
 Net als [ Tor Browser](tor.md) is Mullvad Browser ontworpen om vingerafdrukken te voorkomen door jouw browser vingerafdruk identiek te maken aan andere Mulvad Browser gebruikers, en bevat standaard instellingen en extensies die automatisch worden geconfigureerd aan de standaard beveiligingsniveaus: *Standaard*, *Veilig* en *Veiligst*.
 
-Therefore, it is imperative that you do not modify the browser at all outside adjusting the default [security levels](https://tb-manual.torproject.org/security-settings). When adjusting the security level, you **must** always restart the browser before continuing to use it. Otherwise, [the security settings may not be fully applied](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), putting you at a higher risk of fingerprinting and exploits than you may expect based on the setting chosen.
+Daarom is het absoluut noodzakelijk dat je de browser niet wijzigt buiten het aanpassen van de standaard [beveiligingsniveaus](https://tb-manual.torproject.org/security-settings). Wanneer je het beveiligingsniveau aanpast, **moet** je de browser altijd opnieuw opstarten voordat je deze verder gebruikt. Anders [worden de beveiligingsinstellingen mogelijk niet volledig toegepast](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), waardoor je een hoger risico loopt op vingerafdrukken en exploitatie dan je zou verwachten op basis van de gekozen instelling.
 
-Wijzigingen die anders zijn dan het aanpassen van deze instelling zal je vingerafdruk uniek maken, wat het doel van het gebruik van deze browser tenietdoet. Als je jouw browser zwaarder wilt configureren en vingerafdrukken voor jou geen probleem is, raden wij in plaats daarvan [Firefox](#firefox) aan.
+Andere wijzigingen zouden jouw vingerafdruk uniek maken, wat het doel van het gebruik van deze browser tenietdoet. Als je jouw browser zwaarder wilt configureren en vingerafdrukken voor jou geen probleem is, raden wij in plaats daarvan [Firefox](#firefox) aan.
 
 ### Anti-Vingerafdrukken
 
-**Zonder** gebruik te maken van een [VPN](vpn.md), biedt Mullvad Browser dezelfde bescherming tegen [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) als andere private browsers zoals Firefox+[Arkenfox](#arkenfox-advanced) of [Brave](#brave). Mullvad Browser biedt deze bescherming out of the box, ten koste van enige flexibiliteit en gemak die andere privé-browsers kunnen bieden.
+**Zonder** gebruik te maken van een [VPN](vpn.md), biedt Mullvad Browser dezelfde bescherming tegen [naive fingerprinting scripts](https://github.com/arkenfox/user.js/wiki/3.3-Overrides-%5BTo-RFP-or-Not%5D#-fingerprinting) als andere private browsers zoals Firefox+[Arkenfox](#arkenfox-advanced) of [Brave](#brave). Mullvad Browser biedt deze bescherming, ten koste van enige mate van flexibiliteit en gemak die andere privé-browsers kunnen bieden.
 
-==Voor de sterkste bescherming tegen vingerafdrukken raden we aan Mullvad Browser te gebruiken in combinatie **met** een VPN==, of dat nu Mullvad is of een andere aanbevolen VPN-provider. Wanneer je een VPN met Mullvad Browser gebruikt, deelt je een vingerafdruk en een pool van IP-adressen met vele andere gebruikers, waardoor je een "menigte" krijgt om in op te gaan. Deze strategie is de enige manier om geavanceerde volgscripts te dwarsbomen, en is dezelfde anti-fingerprinting techniek die Tor Browser gebruikt.
+==Voor de sterkste bescherming tegen vingerafdrukken raden we aan Mullvad Browser te gebruiken in combinatie **met** een VPN==, of dat nu Mullvad is of een andere aanbevolen VPN-provider. Wanneer je een VPN met Mullvad Browser gebruikt, deelt je een vingerafdruk en een pool van IP-adressen met vele andere gebruikers, waardoor je een "menigte" krijgt om in op te gaan. Deze strategie is de enige manier om geavanceerde volgscripts te dwarsbomen, en is dezelfde anti-vingerafdruk techniek die Tor Browser gebruikt.
 
 Denk eraan dat je Mullvad Browser kunt gebruiken met elke VPN-provider, maar dat andere mensen op die VPN ook Mullvad Browser moeten gebruiken om deze "menigte" te laten bestaan, iets wat waarschijnlijker is bij Mullvad VPN in vergelijking met andere providers, vooral zo kort na de lancering van Mullvad Browser. Mullvad Browser heeft geen ingebouwde VPN-verbinding en controleert niet of je een VPN gebruikt voordat je gaat browsen; jouw VPN-verbinding moet apart worden geconfigureerd en beheerd.
 
@@ -115,7 +115,7 @@ Dit is nodig om geavanceerde vormen van tracking te voorkomen, maar gaat wel ten
 
 Mullvad Browser heeft [**Mullvad Leta**](search-engines.md#mullvad-leta) als de standaard zoekmachine, die fungeert als een proxy voor zoekresultaten van Google of Brave (instelbaar op de startpagina van Mullvad Leta).
 
-If you are a Mullvad VPN user, there is some risk in using services like Mullvad Leta which are offered by your VPN provider themselves. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta); the latter is information a VPN is typically intended to separate. Even though Mullvad collects very little information about their VPN subscribers or Leta users, you should consider a different [search engine](search-engines.md) if this risk concerns you.
+Als je een Mullvad VPN-gebruiker bent, is het gebruik van diensten zoals Mullvad Leta, die door je VPN-provider zelf worden aangeboden, niet zonder risico. Dit komt omdat Mullvad theoretisch toegang heeft tot je echte IP-adres (via hun VPN) en je zoekactiviteit (via Leta); dit laatste is informatie die een VPN normaal gesproken wil scheiden. Hoewel Mullvad zeer weinig informatie verzamelt over hun VPN-abonnees of Leta-gebruikers, zou je een andere [zoekmachine](search-engines.md) moeten overwegen als dit risico je zorgen baart.
 
 ## Firefox
 
@@ -126,18 +126,18 @@ If you are a Mullvad VPN user, there is some risk in using services like Mullvad
 **Firefox** biedt krachtige privacy-instellingen zoals [Enhanced Tracking Protection](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop), die kunnen helpen bij het blokkeren van verschillende [soorten tracking](https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_what-enhanced-tracking-protection-blocks).
 
 [:octicons-home-16: Homepage](https://firefox.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title="Documentation" }
-[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="Contribute" }
+[:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Privacybeleid" }
+[:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title="Documentatie" }
+[:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Broncode" }
+[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="Bijdragen" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
 
--[:fontawesome-brands-windows: Windows](https://mozilla.org/firefox/windows)
--[:simple-apple: mac OS](https://mozilla.org/firefox/mac)
--[:simple-linux: Linux](https://mozilla.org/firefox/linux)
--[:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
+- [:fontawesome-brands-windows: Windows](https://mozilla.org/firefox/windows)
+- [:simple-apple: macOS](https://mozilla.org/firefox/mac)
+- [:simple-linux: Linux](https://mozilla.org/firefox/linux)
+- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
 
 </details>
 
@@ -146,34 +146,34 @@ If you are a Mullvad VPN user, there is some risk in using services like Mullvad
 <div class="admonition warning" markdown>
 <p class="admonition-title">Waarschuwing</p>
 
-Firefox voegt een uniek [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) toe aan downloads vanaf Mozilla's website en gebruikt telemetrie in Firefox om het token te verzenden. The token is **not** included in releases from the [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+Firefox voegt een uniek [download token](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) toe aan downloads vanaf Mozilla's website en gebruikt telemetrie in Firefox om het token te verzenden. Het token is **niet** opgenomen in releases van de [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
 
 </div>
 
-### Recommended Firefox Configuration
+### Aanbevolen Firefox Configuratie
 
-These options can be found in :material-menu: → **Settings**.
+Deze opties zijn te vinden in :material-menu: → **Instellingen**.
 
 #### Zoeken
 
-- [ ] Uncheck **Show search suggestions**
+- [Deselecteer **Zoeksuggesties weergeven**
 
-Search suggestion features may not be available in your region.
+Functies voor zoeksuggesties zijn mogelijk niet beschikbaar in jouw regio.
 
-Search suggestions send everything you type in the address bar to the default search engine, regardless of whether you submit an actual search. Disabling search suggestions allows you to more precisely control what data you send to your search engine provider.
+Zoeksuggesties sturen alles wat je in de adresbalk typt naar de standaard zoekmachine, ongeacht of je een echte zoekopdracht opgeeft. Door zoeksuggesties uit te schakelen, kan je nauwkeuriger bepalen welke gegevens je naar jouw zoekmachineprovider stuurt.
 
-##### Firefox stelt voor (alleen VS)
+##### Firefox Suggesties (alleen VS)
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is a feature similar to search suggestions which is only available in the US. We recommend disabling it for the same reason we recommend disabling search suggestions. If you don't see these options under the **Address Bar** header, you do not have the new experience and can ignore these changes.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) is een functie die lijkt op zoeksuggesties, maar is alleen beschikbaar in de VS. We raden aan deze functie uit te schakelen om dezelfde reden waarom we aanraden zoeksuggesties uit te schakelen. Als je deze opties niet ziet onder de **adresbalk**, heb je de nieuwe ervaring niet en kun je deze wijzigingen negeren.
 
-- [ ] Uncheck **Suggestions from Firefox**
+- [ ] Deselecteer **Suggesties van Firefox**
 - [ ] Deselecteer **Suggesties van sponsors**
 
 #### Privacy & beveiliging
 
-##### Verbeterde traceringsbescherming
+##### Verbeterde Traceringsbescherming
 
-- [x] Select **Strict** Verbeterde traceringsbescherming
+- [x] Selecteer **Strikte** Verbeterde Traceringsbescherming
 
 This protects you by blocking social media trackers, fingerprinting scripts (note that this does not protect you from *all* fingerprinting), cryptominers, cross-site tracking cookies, and some other tracking content. ETP protects against many common threats, but it does not block all tracking avenues because it is designed to have minimal to no impact on site usability.
 
@@ -275,7 +275,7 @@ Brave voegt een "[referral code](https://github.com/brave/brave-browser/wiki/Bra
 
 ### Recommended Brave Configuration
 
-These options can be found in :material-menu: → **Settings**.
+Deze opties zijn te vinden in :material-menu: → **Instellingen**.
 
 #### Shields
 
@@ -347,7 +347,7 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
 
-- [ ] Uncheck **Show search suggestions**
+- [Deselecteer **Zoeksuggesties weergeven**
 
 #### System
 
