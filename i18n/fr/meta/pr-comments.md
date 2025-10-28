@@ -17,17 +17,17 @@ Les commentaires laissés de la manière décrite ci-dessous seront accompagnés
 
 Pour lancer un fil de commentaires, vous devez laisser tous les commentaires sous l'onglet :octicons-file-diff-16: **Files changed** dans un PR.
 
-![Capture d'écran des onglets pour une pull request. The "Files changed" tab is outlined in dark orange.](https://docs.github.com/assets/cb-23571/mw-1440/images/help/pull_requests/pull-request-tabs-changed-files.webp)
+![Capture d'écran des onglets pour une pull request. L'onglet "Fichiers modifiés" est souligné en orange foncé.](https://docs.github.com/assets/cb-23571/mw-1440/images/help/pull_requests/pull-request-tabs-changed-files.webp)
 
-To leave a _general_ comment on a PR, click the :octicons-comment-16: comment icon to the right of a file:
+Pour laisser un commentaire _général_ sur un PR, cliquez sur l'icône :octicons-comment-16: à droite d'un fichier :
 
-![Screenshot of an image file on the "Files changed" page of a pull request. To the right of the file, a comment icon is outlined in orange.](https://docs.github.com/assets/cb-73771/mw-1440/images/help/pull_requests/pull-request-comment-on-file.webp)
+Capture d'écran d'un fichier image sur la page "Files changed" d'une pull request. À droite du fichier, une icône de commentaire est soulignée en orange.](https://docs.github.com/assets/cb-73771/mw-1440/images/help/pull_requests/pull-request-comment-on-file.webp)
 
-If the PR has multiple files changed, comment on the primary or most relevant file changed, or comment on the first file if you can't decide.
+Si plusieurs fichiers ont été modifiés dans le PR, commentez le fichier principal ou le plus pertinent qui a été modifié, ou commentez le premier fichier si vous n'arrivez pas à vous décider.
 
-To leave a comment _on a specific line_ of a PR, hover over the line where you'd like to add a comment, and click the blue comment icon:
+Pour laisser un commentaire _sur une ligne spécifique_ d'un RP, survolez la ligne où vous souhaitez ajouter un commentaire et cliquez sur l'icône bleue de commentaire :
 
-![Screenshot of a diff in a pull request. Next to a line number, a blue plus icon is highlighted with an orange outline.](https://docs.github.com/assets/cb-44227/mw-1440/images/help/commits/hover-comment-icon.webp)
+![Capture d'écran d'un diff dans une pull request. A côté d'un numéro de ligne, une icône plus bleue est mise en évidence avec un contour orange.](https://docs.github.com/assets/cb-44227/mw-1440/images/help/commits/hover-comment-icon.webp)
 
 (En option, vous pouvez ajouter un commentaire sur plusieurs lignes. Vous pouvez cliquer sur le numéro de la première ligne que vous souhaitez commenter et faire glisser vers le bas pour sélectionner une série de lignes, puis cliquer sur l'icône bleue de commentaire sur la dernière ligne que vous souhaitez commenter. Vous pouvez également cliquer sur l'icône bleue de commentaire à côté de la première ligne que vous souhaitez commenter, puis faire glisser vers le bas jusqu'à la dernière ligne que vous souhaitez commenter.)
 
@@ -35,10 +35,10 @@ Ensuite, tapez votre commentaire et cliquez sur **Ajouter un seul commentaire**.
 
 ## Révision
 
-When performing a review, follow the same steps as above, but click **Start a review** (and subsequently, **Add a review comment**) instead of **Add single comment**.
+Pour effectuer une révision, suivez les mêmes étapes que ci-dessus, mais cliquez sur **Démarrer une révision** (et ensuite, **Ajouter un commentaire de révision**) au lieu de **Ajouter un commentaire unique**.
 
-Then, click the green **Finish your review** button at the top of the page.
+Ensuite, cliquez sur le bouton vert **Finish your review** en haut de la page.
 
-Do not leave any discussion comments in the _Leave a comment_ box in the review finalization pop-up. You can leave it blank, or leave a short note if it will not require any follow-up. To comment on something that will require further discussion, add a comment on a file as described above instead.
+Ne laissez pas de commentaires de discussion dans la case _Laisser un commentaire_ de la fenêtre contextuelle de finalisation de l'examen. Vous pouvez ne rien indiquer ou laisser une brève note si cela ne nécessite pas de suivi. Pour commenter quelque chose qui nécessitera une discussion plus approfondie, ajoutez un commentaire sur un fichier comme décrit ci-dessus.
 
 Cliquez ensuite sur **Submit review**.
