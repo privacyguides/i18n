@@ -164,7 +164,7 @@ This is a list of our **active** [members](https://donate.magicgrants.org/privac
   </dd>
   
   <dt>
-    <strong x-id="1">Online Services</strong>
+    <strong x-id="1">Usługi online</strong>
   </dt>
   
   <dd>

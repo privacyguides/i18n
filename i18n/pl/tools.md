@@ -346,7 +346,7 @@ We [recommend](dns.md#recommended-providers) a number of encrypted DNS servers b
 
 [Dowiedz się więcej :hero-arrow-circle-right-fill:](search-engines.md)
 
-## Software
+## Oprogramowanie
 
 ### AI Chat
 
