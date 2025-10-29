@@ -2,7 +2,7 @@
 *[ADB]: Android Debug Bridge
 *[AOSP]: Android Open Source Project
 *[ATA]: Advanced Technology Attachment
-*[Powierzchnia ataku]: Całkowita liczba możliwych punktów wejścia umożliwiających nieautoryzowany dostęp do systemu
+*[powierzchnia ataku]: Całkowita liczba możliwych punktów dostępu umożliwiających nieautoryzowany dostęp do systemu
 *[AVB]: Android Verified Boot
 *[cgroups]: Grupa kontrolna
 *[CLI]: Interfejs wiersza poleceń
