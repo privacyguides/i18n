@@ -35,7 +35,7 @@ Un "actif" est quelque chose que vous valorisez et que vous voulez protéger. Da
 
 Pour répondre à cette question, il est important d'identifier qui pourrait vouloir vous cibler, vous ou vos informations. ==Une personne ou une entité qui représente une menace pour vos actifs est un “adversaire.”== Des exemples d'adversaires potentiels sont votre patron, votre ancien partenaire, une entreprise concurrentielle, votre gouvernement ou un pirate informatique sur un réseau public.
 
-*Dressez une liste de vos adversaires ou de ceux qui pourraient vouloir s'emparer de vos biens. Votre liste peut comprendre des particuliers, une agence gouvernementale ou des sociétés.*
+*Dressez une liste de vos adversaires ou de ceux qui pourraient vouloir s'emparer de vos biens. Votre liste peut comprendre des particuliers, une agence gouvernementale ou des entreprises.*
 
 En fonction de l'identité de vos adversaires, vous souhaiterez peut-être détruire cette liste une fois que vous avez terminé l'élaboration de votre modèle de menace.
 
