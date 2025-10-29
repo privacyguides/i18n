@@ -235,7 +235,7 @@ Max Protection dwingt het gebruik van DNS over HTTPS af, en er wordt een beveili
 
 Het [Arkenfox-project](https://github.com/arkenfox/user.js) biedt een reeks weloverwogen opties voor Firefox. Als je [besluit](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) om Arkenfox te gebruiken, zijn een [paar opties](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) subjectief streng en/ of kunnen ervoor zorgen dat sommige websites niet goed werken - deze kun je [eenvoudig wijzigen](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) om aan jouw behoeften te voldoen. We raden **je sterk aan** om hun volledige [wiki](https://github.com/arkenfox/user.js/wiki) te lezen. Arkenfox biedt ook [container](https://support.mozilla.org/kb/containers#w_for-advanced-users) ondersteuning.
 
-Arkenfox is er alleen op gericht om eenvoudige of naïeve volgscripts te dwarsbomen via canvas randomisatie en de ingebouwde configuratie-instellingen voor vingerafdrukbestendigheid van Firefox. It does not aim to make your browser blend in with a large crowd of other Arkenfox users in the same way Mullvad Browser or Tor Browser do, which is the only way to thwart advanced fingerprint tracking scripts. Remember that you can always use multiple browsers, for example, you could consider using Firefox+Arkenfox for a few sites that you want to stay logged in on or otherwise trust, and Mullvad Browser for general browsing.
+Arkenfox is er alleen op gericht om eenvoudige of naïeve volgscripts te dwarsbomen via canvas randomisatie en de ingebouwde configuratie-instellingen voor vingerafdrukbestendigheid van Firefox. Het is niet erop gericht om jouw browser te laten opgaan in een grote menigte van andere Arkenfox-gebruikers zoals Mullvad Browser of Tor Browser dat doen, wat de enige manier is om geavanceerde scripts voor het traceren van vingerafdrukken te dwarsbomen. Vergeet niet dat je altijd meerdere browsers kunt gebruiken, bijvoorbeeld door Firefox+Arkenfox te gebruiken voor een paar sites waarop je ingelogd wilt blijven of die je anderszins vertrouwt, en Mullvad Browser voor algemeen browsen.
 
 ## Brave
 
@@ -243,15 +243,15 @@ Arkenfox is er alleen op gericht om eenvoudige of naïeve volgscripts te dwarsbo
 
 ![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
-**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
+**Brave Browser** bevat een ingebouwde adblocker en [privacyfuncties](https://brave.com/privacy-features), waarvan vele standaard zijn ingeschakeld.
 
 Brave is gebouwd op het Chromium webbrowser project, dus het zou vertrouwd moeten aanvoelen en minimale website compatibiliteitsproblemen moeten hebben.
 
 [:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacybeleid" }.
+[:octicons-info-16:](https://support.brave.com){ .card-link title=Documentatie}
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Broncode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -267,9 +267,9 @@ Brave is gebouwd op het Chromium webbrowser project, dus het zou vertrouwd moete
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Let op</p>
 
-Brave voegt een "[referral code](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" toe aan de file naam in downloads van de Brave website, die wordt gebruikt om te volgen van welke bron de browser heeft gedownload. Als voorbeeld `BRV002` in een download genaamd `Brave-Browser-BRV002.pkg`. Het installatieprogramma zal aan het eind van het installatieproces de server van Brave pingen met de verwijzingscode. Als je je hier zorgen over maakt, kun je de naam van het installatiebestand wijzigen voordat je het opent.
+Brave voegt een "[verwijzingscode](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" toe aan de bestandsnaam in downloads van de Brave website. Deze code wordt gebruikt om bij te houden van welke bron de browser is gedownload, bijvoorbeeld `BRV002` in een download met de naam `Brave-Browser-BRV002.pkg`. Het installatieprogramma zal aan het eind van het installatieproces de server van Brave pingen met de verwijzingscode. Als je je hier zorgen over maakt, kun je de naam van het installatiebestand wijzigen voordat je het opent.
 
 </div>
 
@@ -279,77 +279,77 @@ Deze opties zijn te vinden in :material-menu: → **Instellingen**.
 
 #### Shields
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+Brave heeft een aantal maatregelen tegen vingerafdrukken opgenomen in de functie [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields). We raden je aan deze opties [globaal](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) te configureren voor alle pagina's die je bezoekt.
 
-De opties van Shields kunnen naar behoefte per site worden gedowngrade, maar standaard raden wij aan de volgende opties in te stellen:
+De opties van Shields kunnen naar behoefte per site worden aangepast, maar standaard raden wij aan de volgende opties in te stellen:
 
 <div class="annotate" markdown>
 
-- [x] Select **Aggressive** under *Trackers & ads blocking*
+- x] Selecteer **Agressief** onder *Trackers en advertenties blokkeren*
 
 <details class="warning" markdown>
-<summary>Use default filter lists</summary>
+<summary>Gebruik standaard filterlijsten</summary>
 
-Brave allows you to select additional content filters within the internal `brave://adblock` page. Wij raden het gebruik van deze functie af; houd in plaats daarvan de standaardfilterlijsten aan. Het gebruik van extra lijsten zorgt ervoor dat u zich onderscheidt van andere Brave gebruikers en kan ook het aanvalsoppervlak vergroten als er een exploit in Brave is en een kwaadaardige regel wordt toegevoegd aan één van de lijsten die je gebruikt.
+Met Brave kun je extra inhoudsfilters selecteren binnen de interne `brave://adblock` pagina. Wij raden het gebruik van deze functie af; houd in plaats daarvan de standaardfilterlijsten aan. Het gebruik van extra lijsten zorgt ervoor dat je je onderscheidt van andere Brave gebruikers en kan ook het aanvalsoppervlak vergroten als er een exploit in Brave is en een kwaadwillige regel wordt toegevoegd aan één van de lijsten die je gebruikt.
 
 </details>
 
-- [x] Select **Strict** under *Upgrade connections to HTTPS*
-- [x] (Optional) Select **Block Scripts** (1)
-- [x] Check **Block fingerprinting**
-- [x] Select **Block third-party cookies**
-- [x] Check **Forget me when I close this site** (2)
-- [ ] Uncheck all social media components
+- x] Selecteer **Strict** onder *Verbeter verbindingen naar HTTPS*
+- [x] (Optioneel) Selecteer **Blokkeer scripts** (1)
+- [x] Vink **Blokkeer vingerafdrukken** aan
+- [x] Selecteer **Blokkeer cookies van derden**
+- [x] Vink **Vergeet mij als ik deze site afsluit** aan (2)
+- [ ] Schakel alle onderdelen van sociale media uit.
 
 </div>
 
-1. This option disables JavaScript, which will break a lot of sites. To fix them, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
-2. If you wish to stay logged in to a particular site you visit often, you can set exceptions on a per-site basis by clicking on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+1. Deze optie schakelt JavaScript uit, waardoor veel sites niet meer werken. Om dit te verhelpen, kun je uitzonderingen per site instellen door op het schildpictogram in de adresbalk te klikken en deze instelling uit te vinken onder *Geavanceerde besturingselementen*.
+2. Als je aangemeld wilt blijven bij een bepaalde site die je vaak bezoekt, kun je uitzonderingen per site instellen door op het schildpictogram in de adresbalk te klikken en deze instelling uit te vinken onder *Geavanceerde besturingselementen*.
 
-#### Privacy and security
+#### Privacy en beveiliging
 
 <div class="annotate" markdown>
 
-- [x] Select **Don’t allow sites to use JavaScript optimization** under *Security* → *Manage JavaScript optimization & security* (1)
-- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
-- [x] Select **Disable non-proxied UDP** under [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [x] Select **Auto-redirect AMP pages**
-- [x] Select **Auto-redirect tracking URLs**
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- x] Selecteer **Sites niet toestaan JavaScript-optimalisatie te gebruiken** onder *Security* → *Manage JavaScript optimization & security* (1)
+- [x] Selecteer **Automatisch rechten verwijderen van ongebruikte sites** onder *Sites and Shields Settings*
+- [x] Selecteer **Disable non-proxied UDP** onder [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [ ] Deselecteer **Google-services gebruiken voor pushberichten**
+- [x] Selecteer **Auto-omleiden AMP-pagina's**
+- [x] Selecteer **Auto-omleiden tracking URL's**
+- [x] Selecteer **Voorkom dat sites mij vingerafdrukken geven op basis van mijn taalvoorkeuren**
 
 </div>
 
-1. Disabling the V8 optimizer reduces your attack surface by disabling [*some*](https://grapheneos.social/@GrapheneOS/112708049232710156) parts of JavaScript Just-In-Time (JIT) compilation.
+1. Het uitschakelen van de V8 optimizer verkleint je aanvalsoppervlak door [*sommige*](https://grapheneos.social/@GrapheneOS/112708049232710156) delen van de JavaScript Just-In-Time (JIT) compilatie uit te schakelen.
 
 ##### Tor windows
 
-[**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser is, and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
+[**Privé window met Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) waar je je verkeer via het Tor-netwerk in privé windows kunt routeren en toegang kunt krijgen tot .onion-services, wat in sommige gevallen handig kan zijn. Brave is echter **niet** zo goed bestand tegen vingerafdrukken als de Tor Browser, en veel minder mensen gebruiken Brave met Tor, dus je zult opvallen. Als je threat model sterke anonimiteit vereist, gebruik dan de [Tor Browser](tor.md#tor-browser).
 
-##### Data Collection
+##### Dataverzameling
 
-- [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-- [ ] Uncheck **Automatically send daily usage ping to Brave**
-- [ ] Uncheck **Automatically send diagnostic reports**
+- [ ] Deselecteer **Privacybeschermende productanalyse (P3A) toestaan**
+- [ ] Deselecteer **Automatisch dagelijkse gebruiksping naar Brave verzenden**
+- [ ] Deselecteer **Automatisch diagnostische rapporten verzenden**
 
 #### Web3
 
-Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of these features, they should be disabled.
+De Web3-functies van Brave kunnen mogelijk de vingerafdruk van jouw browser en het aanvalsoppervlak vergroten. Unless you use any of these features, they should be disabled.
 
 - Select **Extensions (no fallback)** under *Default Ethereum wallet*
 - Select **Extensions (no fallback)** under *Default Solana wallet*
 
-#### Extensions
+#### Extensies
 
-- [ ] Uncheck all built-in extensions you don't use
+- [ ] Deselecteer alle ingebouwde extensies die je niet gebruikt
 
-#### Search engine
+#### Zoekmachine
 
 We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
 
 - [Deselecteer **Zoeksuggesties weergeven**
 
-#### System
+#### Systeem
 
 <div class="annotate" markdown>
 
@@ -363,7 +363,7 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 [Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
 
-#### Brave Rewards and Wallet
+#### Brave Rewards en Wallet
 
 **Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
 

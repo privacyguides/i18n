@@ -62,15 +62,15 @@ These are our currently recommended **mobile web browsers** and configurations f
 
 ![Brave logo](assets/img/browsers/brave.svg){ align=right }
 
-**Brave Browser** includes a built-in content blocker and [privacy features](https://brave.com/privacy-features), many of which are enabled by default.
+**Brave Browser** bevat een ingebouwde adblocker en [privacyfuncties](https://brave.com/privacy-features), waarvan vele standaard zijn ingeschakeld.
 
 Brave is gebouwd op het Chromium webbrowser project, dus het zou vertrouwd moeten aanvoelen en minimale website compatibiliteitsproblemen moeten hebben.
 
 [:octicons-home-16: Homepage](https://brave.com){ .md-button .md-button--primary }
 [:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacybeleid" }.
+[:octicons-info-16:](https://support.brave.com){ .card-link title=Documentatie}
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Broncode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -98,7 +98,7 @@ Tor Browser is de enige manier om echt anoniem op het internet te surfen. Wannee
 
 #### Brave shields global defaults
 
-Brave includes some anti-fingerprinting measures in its [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields) feature. We suggest configuring these options [globally](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) across all pages that you visit.
+Brave heeft een aantal maatregelen tegen vingerafdrukken opgenomen in de functie [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields). We raden je aan deze opties [globaal](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) te configureren voor alle pagina's die je bezoekt.
 
 De opties van Shields kunnen naar behoefte per site worden gedowngrade, maar standaard raden wij aan de volgende opties in te stellen:
 
@@ -126,7 +126,7 @@ De opties van Shields kunnen naar behoefte per site worden gedowngrade, maar sta
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Deze optie schakelt JavaScript uit, waardoor veel sites niet meer werken. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 === "iOS"
 
@@ -149,7 +149,7 @@ De opties van Shields kunnen naar behoefte per site worden gedowngrade, maar sta
 
     </div>
 
-    1. This option disables JavaScript, which will break a lot of sites. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Deze optie schakelt JavaScript uit, waardoor veel sites niet meer werken. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
 
 ##### Clear browsing data (Android only)
 
@@ -170,9 +170,9 @@ De opties van Shields kunnen naar behoefte per site worden gedowngrade, maar sta
     - [ ] Uncheck **Allow sites to check if you have payment methods saved**
     - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
     - [x] Select **Close tabs on exit**
-    - [ ] Uncheck **Allow privacy-preserving product analytics (P3A)**
-    - [ ] Uncheck **Automatically send diagnostic reports**
-    - [ ] Uncheck **Automatically send daily usage ping to Brave**
+    - [ ] Deselecteer **Privacybeschermende productanalyse (P3A) toestaan**
+    - [ ] Deselecteer **Automatisch diagnostische rapporten verzenden**
+    - [ ] Deselecteer **Automatisch dagelijkse gebruiksping naar Brave verzenden**
 
     </div>
 
@@ -181,7 +181,7 @@ De opties van Shields kunnen naar behoefte per site worden gedowngrade, maar sta
 === "iOS"
 
     - [ ] Uncheck **Allow Privacy-Preserving Product Analytics (P3A)**
-    - [ ] Uncheck **Automatically send daily usage ping to Brave**
+    - [ ] Deselecteer **Automatisch dagelijkse gebruiksping naar Brave verzenden**
 
 #### Leo
 
