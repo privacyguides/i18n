@@ -334,10 +334,10 @@ Met Brave kun je extra inhoudsfilters selecteren binnen de interne `brave://adbl
 
 #### Web3
 
-De Web3-functies van Brave kunnen mogelijk de vingerafdruk van jouw browser en het aanvalsoppervlak vergroten. Unless you use any of these features, they should be disabled.
+De Web3-functies van Brave kunnen mogelijk de vingerafdruk van jouw browser en het aanvalsoppervlak vergroten. Tenzij je een van deze functies gebruikt, moeten ze worden uitgeschakeld.
 
-- Select **Extensions (no fallback)** under *Default Ethereum wallet*
-- Select **Extensions (no fallback)** under *Default Solana wallet*
+- Selecteer **Extensions (no fallback)** onder *Default Ethereum wallet*
+- Selecteer **Extensions (no fallback)** onder *Default Solana wallet*
 
 #### Extensies
 
@@ -345,7 +345,7 @@ De Web3-functies van Brave kunnen mogelijk de vingerafdruk van jouw browser en h
 
 #### Zoekmachine
 
-We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
+We raden aan om zoeksuggesties in Brave uit te schakelen om dezelfde reden waarom we aanraden om deze functie in [Firefox](#search) uit te schakelen.
 
 - [Deselecteer **Zoeksuggesties weergeven**
 
@@ -353,7 +353,7 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Continue running background apps when Brave is closed** to disable background apps (1)
+- [ ] Zet **Achtergrond apps actief houden als Brave is gesloten** uit om achtergrond apps uit te schakelen (1)
 
 </div>
 
