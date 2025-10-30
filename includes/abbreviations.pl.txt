@@ -56,36 +56,36 @@
 *[MDAG]: Microsoft Defender Application Guard
 *[MEID]: Identyfikator urządzenia mobilnego
 *[MFA]: Uwierzytelnianie wieloskładnikowe
-*[NVMe]: Nonvolatile Memory Express (szybki interfejs do obsługi dysków SSD)
+*[NVMe]: Non-Volatile Memory Express (szybki interfejs do obsługi dysków SSD)
 *[NAT]: Translacja adresów sieciowych
 *[NAT-PMP]: Protokół mapowania portów NAT
-*[NTP]: Protokół czasu sieciowego
+*[NTP]: Protokół synchronizacji czasu sieciowego
 *[OCI]: Open Container Initiative
-*[OCSP]: Stan certyfikatu online
+*[OCSP]: Protokół stanu certyfikatu online
 *[OEM]: Producent oryginalnego sprzętu
-*[OEMs]: Producenci oryginalnego sprzętu
-*[open-weights]: Otwarty model wagowy to model AI, który każdy może pobrać i używać, jednak jego dane treningowe i/lub algorytmy pozostają zastrzeżone.
+*[OEM-y]: Producenci oryginalnego sprzętu
+*[model z otwartymi wagami]: Model z otwartymi wagami to model sztucznej inteligencji, który każdy może pobrać i używać, jednak dane treningowe i/lub zastosowane algorytmy pozostają zastrzeżone.
 *[OS]: System operacyjny
-*[OTP]: Jednorazowe hasło
-*[OTPs]: Jednorazowe hasła
-*[OpenPGP]: Open-source'owa implementacja Pretty Good Privacy (PGP)
-[P2P]: Peer-to-Peer
-*[PAM]: Moduły uwierzytelniania w systemie Linux
-*[POP3]: Protokół pocztowy 3
-*[PGP]: Pretty Good Privacy (system szyfrowania, zobacz także OpenPGP)
-*[PII]: Informacje umożliwiające identyfikację osoby
+*[OTP]: Hasło jednorazowe
+*[OTP-y]: Hasła jednorazowe
+*[OpenPGP]: Implementacja Pretty Good Privacy (PGP) typu open source
+*[P2P]: Peer-to-peer
+*[PAM]: Moduły uwierzytelniające Linux Pluggable Authentication Modules
+*[POP3]: Protokół pocztowy w wersji 3
+*[PGP]: Pretty Good Privacy (system szyfrowania, patrz: OpenPGP)
+*[PII]: Dane osobowe
 *[QNAME]: Nazwa kwalifikowana
 *[QUIC]: Protokół sieciowy oparty na UDP, mający na celu połączenie szybkości UDP z niezawodnością TCP.
-*[rate limity]: Ograniczenia liczby żądań narzucone przez usługę, określające, ile razy użytkownik może z niej skorzystać w danym czasie.
-*[rolling release]: Aktualizacje wydawane na bieżąco, a nie w stałych odstępach czasu
+*[limit zapytań]: Limity żądań/zapytań to ograniczenia nakładane przez usługę na liczbę razy, jakie użytkownik może z niej skorzystać w określonym przedziale czasowym.
+*[rolling release]: Aktualizacje wydawane na bieżąco, a nie w ustalonych odstępach czasu
 *[RSS]: Really Simple Syndication
-*[SELinux]: Linux o zwiększonym bezpieczeństwie
+*[SELinux]: Security-Enhanced Linux
 *[SIM]: Moduł identyfikacji abonenta
 *[SMS]: Usługa krótkich wiadomości tekstowych (standardowe wiadomości tekstowe)
-*[SMTP]: Prosty protokół przesyłania poczty
-*[SNI]: Wskazanie nazwy serwera
-*[SSD]: Dysk SSD
-*[SSH]: Bezpieczna powłoka
+*[SMTP]: Simple Mail Transfer Protocol (prosty protokół pocztowy)
+*[SNI]: Server Name Indication (rozszerzenie protokołu TLS)
+*[SSD]: Dysk SSD (półprzewodnikowy)
+*[SSH]: Secure Shell (kryptograficzny protokół sieciowy)
 *[SUID]: Identyfikator właściciela pliku
 *[SaaS]: Oprogramowanie jako usługa (oprogramowanie w chmurze)
 *[SoC]: System na chipie
