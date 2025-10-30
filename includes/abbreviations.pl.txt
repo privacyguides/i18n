@@ -4,35 +4,35 @@
 *[ATA]: Advanced Technology Attachment
 *[powierzchnia ataku]: Całkowita liczba możliwych punktów dostępu umożliwiających nieautoryzowany dostęp do systemu
 *[AVB]: Android Verified Boot
-*[cgroups]: Grupa kontrolna
-*[CLI]: Interfejs wiersza poleceń
+*[cgroups]: Grupy kontrolne
+*[CLI]: Wiersz poleceń
 *[CSV]: Wartości rozdzielone przecinkiem
-*[CVE]: Typowe podatności i zagrożenia
-*[ciemne wzorce]: Zwodniczy wzorzec projektowy mający na celu nakłonienie użytkownika do zrobienia czegoś wbrew jego interesowi
-*[cyfrowe dziedziczenie]: Dziedzictwo cyfrowe odnosi się do rozwiązań, które pozwalają przekazać innym osobom dostęp do twoich danych po śmierci
-*[DNSSEC]: Rozszerzenie systemu DNS mające na celu zwiększenie jego bezpieczeństwa
+*[CVE]: Common Vulnerabilities and Exposures
+*[zwodniczy interfejs]: Podstępny wzorzec projektowy mający na celu nakłonienie użytkownika do wykonania określonych działań wbrew jego intencji
+*[cyfrowe dziedzictwo]: Cyfrowe dziedzictwo odnosi się do funkcji, które umożliwiają przekazanie innym osobom dostępu do Twoich danych po Twojej śmierci
+*[DNSSEC]: Rozszerzenie zabezpieczeń DNS
 *[DNS]: System nazw domen
-*[DoH]: DNS przez HTTPS
-*[DoQ]: DNS przez QUIC
-*[DoH3]: DNS przez HTTP/3
-*[DoT]: DNS przez TLS
+*[DoH]: DNS poprzez HTTPS
+*[DoQ]: DNS poprzez QUIC
+*[DoH3]: DNS poprzez HTTP/3
+*[DoT]: DNS poprzez TLS
 *[DPI]: Głęboka inspekcja pakietów identyfikuje i blokuje pakiety o określonej zawartości
-*[E2EE]: Szyfrowanie od końca do końca/Zaszyfrowane
-*[ECS]: Podsieć klienta EDNS
-*[EEA]: Europejski Obszar Gospodarczy
-*[entropia]: Miara tego, jak bardzo coś jest nieprzewidywalne
-*[EOL]: Koniec okresu użytkowania
-*[Exif]: Standard metadanych dla plików z obrazkami
+*[E2EE]: Szyfrowanie od końca do końca/szyfrowane
+*[ECS]: EDNS Client Subnet
+*[EOG]: Europejski Obszar Gospodarczy
+*[entropia]: Miara nieprzewidywalności czegoś
+*[EOL]: Koniec cyklu życia produktu
+*[Exif]: Standard zapisu metadanych dla plików ze zdjęciami
 *[FCM]: Firebase Cloud Messaging
 *[FDE]: Pełne szyfrowanie dysku
 *[FIDO]: Fast IDentity Online
 *[FS]: Utajnianie z wyprzedzeniem
-*[fork]: Nowy projekt oprogramowania utworzony poprzez skopiowanie istniejącego projektu i rozwijany niezależnie
+*[fork]: Nowy projekt oprogramowania utworzony poprzez skopiowanie istniejącego projektu i jego dalszy, niezależny rozwój
 *[RODO]: Ogólne rozporządzenie o ochronie danych
-*[GPG]: GNU Privacy Guard (Implementacja PGP)
+*[GPG]: GNU Privacy Guard (implementacja PGP)
 *[GPS]: Globalny system pozycjonowania
-*[GUI]: Graficzny Interfejs Użytkownika
-*[GnuPG]: GNU Privacy Guard (Implementacja PGP)
+*[GUI]: Graficzny interfejs użytkownika
+*[GnuPG]: GNU Privacy Guard (implementacja PGP)
 *[HDD]: Dysk twardy
 *[HOTP]: Jednorazowe hasło oparte na kodzie uwierzytelniania wiadomości (HMAC)
 *[HTTPS]: Protokół HTTP chroniony przy pomocy szyfrowania protokołu TLS
