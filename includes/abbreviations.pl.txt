@@ -34,7 +34,7 @@
 *[GUI]: Graficzny interfejs użytkownika
 *[GnuPG]: GNU Privacy Guard (implementacja PGP)
 *[HDD]: Dysk twardy
-*[HOTP]: Jednorazowe hasło oparte na HMAC (Hash-based Message Authentication Code)
+*[HOTP]: Hasło jednorazowe oparte na HMAC (Hash-based Message Authentication Code)
 *[HTTPS]: Protokół HTTP chroniony przy pomocy szyfrowania protokołu TLS
 *[HTTP]: Protokół transmisji hipertekstu
 *[hipernadzorca]: Oprogramowanie komputerowe, sprzętowe lub sprzęt komputerowy, który dzieli zasoby procesora między wiele systemów operacyjnych
@@ -86,26 +86,26 @@
 *[SNI]: Server Name Indication (rozszerzenie protokołu TLS)
 *[SSD]: Dysk SSD (półprzewodnikowy)
 *[SSH]: Secure Shell (kryptograficzny protokół sieciowy)
-*[SUID]: Identyfikator właściciela pliku
+*[SUID]: Set Owner User ID (Ustaw identyfikator właściciela pliku)
 *[SaaS]: Oprogramowanie jako usługa (oprogramowanie w chmurze)
-*[SoC]: System na chipie
-*[SSO]: Logowanie jednokrotne
-*[system prompt]: Prompt systemowy w czacie AI to ogólne instrukcje przekazane przez człowieka, które mają określić sposób działania AI.
-*[temperature]: Temperatura AI to parametr stosowany w modelach AI do kontrolowania poziomu losowości i kreatywności generowanego tekstu.
+*[SoC]: System na czipie
+*[SSO]: Pojedyncze logowanie
+*[system prompt]: System prompt (z ang. instrukcja systemowa) w czacie sztucznej inteligencji to ogólne instrukcje przekazywane przez człowieka, które określają sposób działania modelu.
+*[temperatura]: Temperatura modelu AI to parametr służący do kontrolowania poziomu losowości i kreatywności generowanego tekstu.
 *[TCP]: Protokół sterowania transmisją
-*[TEE]: Środowisko zaufanego wykonania
-*[TLS]: Bezpieczeństwo warstwy transportowej
-*[ToS]: Warunkami użytkowania
-*[TOTP]: Jednorazowe hasło ważne przez określony czas
-*[TPM]: Moduł zaufanej platformy
-*[U2F]: Uwierzytelnienie za pomocą specjalnego klucza
-*[UEFI]: Zunifikowany rozszerzalny interfejs oprogramowania układowego
+*[TEE]: Zaufane środowisko wykonawcze
+*[TLS]: Transport Layer Security (rozwinięcie protokołu SSL)
+*[ToS]: Warunki korzystania z usługi
+*[TOTP]: Hasło jednorazowe ograniczone czasowo
+*[TPM]: Trusted Platform Module (standard układu scalonego)
+*[U2F]: Uwierzytelnienie za pomocą specjalnego klucza U2F
+*[UEFI]: Unified Extensible Firmware Interface (interfejs pomiędzy systemem operacyjnym a firmware)
 *[UDP]: Protokół pakietów użytkownika
 *[VPN]: Wirtualna sieć prywatna
 *[VLAN]: Wirtualna sieć lokalna
-*[VoIP]: Przesyłanie dźwięku za pomocą łącza internetowego
+*[VoIP]: Voice over IP (telefonia internetowa)
 *[W3C]: Konsorcjum World Wide Web
 *[XMPP]: Rozszerzalny protokół przesyłania wiadomości i statusu
 *[PWA]: Progresywna aplikacja internetowa
-*[PWAs]: Progresywne aplikacje internetowe
-*[WKD]: Katalog kluczy internetowych
+*[aplikacje PWA]: Progresywne aplikacje internetowe
+*[WKD]: Web Key Directory (Katalog kluczy publicznych)
