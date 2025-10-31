@@ -1,21 +1,21 @@
 ---
-title: Uploading Images
-description: A guide for website contributors on uploading images in the proper format and location.
+title: Przesyłanie obrazów
+description: Przewodnik dla współtwórców tej strony na temat przesyłania obrazów w odpowiednim formacie i miejscu.
 ---
 
-If you make changes to this website that involve adding new images or replacing existing ones, here are a couple of general recommendations:
+Jeśli wprowadzasz zmiany na tej stronie, które obejmują dodawanie nowych obrazów lub zastępowanie już istniejących, oto kilka ogólnych zaleceń:
 
-## Images
+## Obrazy
 
-- We **prefer** SVG images, but if those do not exist we can use PNG images. Additionally, for cover images, we prefer that they are obtained from [Unsplash](https://unsplash.com) and are in the WebP format.
+- **Preferowane** są obrazy w formacie SVG, ale jeśli nie są one dostępne, można użyć obrazów w formacie PNG. Ponadto preferujemy, aby obrazy przewodnie pochodziły z serwisu [Unsplash](https://unsplash.com) i były w formacie WebP.
 
-Company logos should be square if possible, and at least 200x200px if they are PNGs (non-vector images).
+Loga firm powinny być, o ile to możliwe, kwadratowe i mieć rozmiar co najmniej 200×200 pikseli, jeśli są to pliki PNG (grafiki niewektorowe).
 
-## Optimization
+## Optymalizacja obrazów
 
 ### PNG
 
-Use the [OptiPNG](https://sourceforge.net/projects/optipng) tool to optimize PNG images:
+Użyj narzędzia [OptiPNG](https://sourceforge.net/projects/optipng), aby zoptymalizować obrazy w formacie PNG:
 
 ```bash
 optipng -o7 file.png
@@ -25,51 +25,51 @@ optipng -o7 file.png
 
 #### Inkscape
 
-[Scour](https://github.com/scour-project/scour) all SVG images.
+Użyj narzędzia [Scour](https://github.com/scour-project/scour), aby zoptymalizować pliki SVG.
 
-In Inkscape:
+W programie Inkscape:
 
-1. File > Save As...
-2. Set type to: Optimized SVG (*.svg)
+1. Plik > Zapisz jako...
+2. Ustaw typ: Zoptymalizowany SVG (*.svg)
 
-In the **Options** tab:
+W zakładce **Opcje**:
 
-- **Number of significant digits for coordinates** > **5**
-- [x] Turn on **Shorten color values**
-- [x] Turn on **Convert CSS attributes to XML attributes**
-- [x] Turn on **Collapse groups**
-- [x] Turn on **Create groups for similar attributes**
-- [ ] Turn off **Keep editor data**
-- [ ] Turn off **Keep unreferenced definitions**
-- [x] Turn on **Work around renderer bugs**
+- Ustaw opcję **Liczba cyfr znaczących dla współrzędnych** na wartość **5**
+- [x] Włącz opcję **Skróć wartości kolorów**
+- [x] Włącz opcję **Konwertuj atrybuty CSS na atrybuty XML**
+- [x] Włącz opcję **Spłaszcz grupy**
+- [x] Włącz opcję **Utwórz grupy dla podobnych atrybutów**
+- [ ] Wyłącz opcję **Zachowaj dane edytora**
+- [ ] Wyłącz opcję **Zachowaj nieużywane definicje**
+- [x] Włącz opcję **Zastosuj obejścia błędów renderowania**
 
-In the **SVG Output** tab under **Document options**:
+W zakładce **Zapis w formacie SVG** w sekcji **Opcje dokumentu**:
 
-- [ ] Turn off **Remove the XML declaration**
-- [x] Turn on **Remove metadata**
-- [x] Turn on **Remove comments**
-- [x] Turn on **Embedded raster images**
-- [x] Turn on **Enable viewboxing**
+- [ ] Wyłącz opcję **Usuń deklarację XML**
+- [x] Włącz opcję **Usuń metadane**
+- [x] Włącz opcję **Usuń komentarze**
+- [x] Włącz opcję **Osadź obrazy rastrowe**
+- [x] Włącz opcję **Włącz skalowanie viewbox**
 
-In the **SVG Output** under **Pretty-printing**:
+W zakładce **Zapis w formacie SVG** w sekcji **Formatowanie kodu**:
 
-- [ ] Turn off **Format output with line-breaks and indentation**
-- **Indentation characters** > Select **Space**
-- **Depth of indentation** > **1**
-- [ ] Turn off **Strip the "xml:space" attribute from the root SVG element**
+- [ ] Wyłącz opcję **Sformatuj dane wyjściowe za pomocą wcięć i znaków końca linii**
+- **Znaki wcięć** > Wybierz **Spacja**
+- **Głębokości wcięć** > **1**
+- [ ] Wyłącz opcję **Wytnij atrybut "xml:space" z głównego elementu SVG**
 
-In the **IDs** tab:
+W zakładce **IDs**:
 
-- [x] Turn on **Remove unused IDs**
-- [ ] Turn off **Shorten IDs**
-- **Prefix shortened IDs with** > `leave blank`
-- [x] Turn on **Preserve manually created IDs not ending with digits**
-- **Preserve the following IDs** > `leave blank`
-- **Preserve IDs starting with** > `leave blank`
+- [x] Włącz opcję **Usuń nieużywane identyfikatory (ID)**
+- [ ] Wyłącz opcję **Skróć identyfikatory (ID)**
+- **Poprzedź skrócone identyfikatory (ID) przedrostkiem** > `pozostaw puste`
+- [x] Włącz opcję **Zachowaj ręcznie utworzone identyfikatory (ID), które nie kończą się cyfrą**
+- **Zachowaj następujące identyfikatory (ID)** > `pozostaw puste`
+- **Zachowaj identyfikatory (ID) zaczynające się od** > `pozostaw puste`
 
-#### CLI
+#### Wiersz poleceń (CLI)
 
-The same can be achieved with the [Scour](https://github.com/scour-project/scour) command:
+To samo można osiągnąć za pomocą polecenia [Scour](https://github.com/scour-project/scour):
 
 ```bash
 scour --set-precision=5 \
@@ -88,8 +88,8 @@ scour --set-precision=5 \
 
 ### WebP
 
-Use the [`cwebp`](https://developers.google.com/speed/webp/docs/using) command to convert PNG or JPEG image files to WebP format:
+Użyj polecenia [`cwebp`](https://developers.google.com/speed/webp/docs/using), aby przekonwertować pliki graficzne PNG lub JPEG do formatu WebP:
 
 ```bash
-cwebp -m 6 input_file -o output.webp
+cwebp -m 6 plik_wejściowy -o plik_wyjściowy.webp
 ```

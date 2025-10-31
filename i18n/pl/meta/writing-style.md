@@ -1,11 +1,11 @@
 ---
-title: Writing Style
-description: Our official writing style handbook for website contributors.
+title: Styl pisania
+description: Nasz oficjalny podręcznik stylu pisania dla współtwórców tej strony.
 ---
 
-Privacy Guides is written in American English, and you should refer to [APA Style guidelines](https://apastyle.apa.org/style-grammar-guidelines/grammar) when in doubt.
+Privacy Guides jest pisane w amerykańskiej odmianie języka angielskiego. W razie wątpliwości należy zapoznać się z [wytycznymi stylu APA](https://apastyle.apa.org/style-grammar-guidelines/grammar).
 
-In general the [United States federal plain language guidelines](https://plainlanguage.gov/guidelines) provide a good overview of how to write clearly and concisely. We highlight a few important notes from these guidelines below.
+Ogólnie rzecz biorąc, [amerykańskie federalne wytyczne dotyczące prostego języka](https://plainlanguage.gov/guidelines) stanowią dobre źródło wiedzy o tym, jak pisać jasno i zwięźle. Poniżej podkreślamy kilka istotnych wskazówek z tych wytycznych.
 
 ## Writing for our audience
 

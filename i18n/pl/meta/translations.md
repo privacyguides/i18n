@@ -21,14 +21,14 @@ Na przykład:
 
 Czasami zdarzało się, że w powyższej składni do wstawiania obrazu brakowało znaku `![` lub między tekstem a ścieżką obrazu znajdowała się dodatkowa spacja, np. `](`. Jeśli tłumaczenie jest ewidentnie błędne, zalecamy jego **usunięcie** poprzez kliknięcie ikony kosza lub [oddanie głosu](https://support.crowdin.com/enterprise/getting-started-for-volunteers/#voting-view) na tłumaczenie, które wydaje się najbardziej poprawne. Po usunięciu nieprawidłowych tłumaczeń są one usuwane z [„pamięci tłumaczeniowej”](https://support.crowdin.com/enterprise/translation-memory) organizacji, co oznacza, że gdy tłumaczenie źródłowe pojawi się ponownie, nie będzie ono sugerować nieprawidłowego tłumaczenia.
 
-## Punctuation
+## Interpunkcja
 
-For examples like the above admonitions, quotation marks, e.g.: `" "` must be used to specify string text. MkDocs will not correctly interpret other symbols i.e., `「 」` or `« »`. Other punctuation marks are fine for marking regular quotations within the text otherwise.
+W przykładach takich jak powyższe ostrzeżenia należy używać cudzysłowów `" "` do oznaczania tekstu w postaci ciągów znaków (string). MkDocs nie interpretuje poprawnie innych symboli, takich jak `「 」` czy `« »`. Pozostałe znaki interpunkcyjne można stosować bez przeszkód w zwykłych cytatach w tekście.
 
-## Fullwidth alternatives and Markdown syntax
+## Odpowiedniki znaków o pełnej szerokości i składnia Markdown
 
-CJK writing systems tend to use alternative "fullwidth" variants of common symbols. These are different characters and cannot be used for Markdown syntax.
+Systemy pisma CJK (chiński, japoński, koreański) często używają alternatywnych wariantów popularnych symboli o pełnej szerokości. Są to jednak całkowicie inne znaki i nie mogą być używane w składni Markdown.
 
-- Links must use regular parenthesis i.e. `(` (Left Parenthesis U+0028) and `)` (Right Parenthesis U+0029) and not `（` (Fullwidth Left Parenthesis U+FF08) or `）` (Fullwidth Right Parenthesis U+FF09)
-- Indented quoted text must use `:` (Colon U+003A) and not `：` (Fullwidth Colon U+FF1A)
-- Pictures must use `!` (Exclamation Mark U+0021) and not `！` (Fullwidth Exclamation Mark U+FF01)
+- Linki muszą korzystać ze zwykłych nawiasów okrągłych, tj. `(` (lewy nawias U+0028) i `)` (prawy nawias U+0029), a nie `（` (lewy nawias o pełnej szerokości U+FF08) ani `）` (prawy nawias o pełnej szerokości U+FF09),
+- Cytaty ze wcięciem muszą używać dwukropka `:` (dwukropek U+003A), a nie `：` (dwukropek o pełnej szerokości U+FF1A),
+- Obrazy muszą używać wykrzyknika `!` (wykrzyknik U+0021), a nie `！` (wykrzyknik o pełnej szerokości U+FF01).
