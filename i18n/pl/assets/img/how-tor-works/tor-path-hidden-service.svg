@@ -28,23 +28,23 @@
   <g transform="matrix(.26458 0 0 .26458 -26.794 -25.953)">
     <g transform="matrix(.42318 0 0 .45369 63.518 110.55)">
       <g transform="translate(88.72,550.07)">
-        <text font-family="Helvetica" font-size="53.309px">Your</text>
+        <text font-family="Helvetica" font-size="53.309px">Twoje</text>
       </g>
       <g transform="translate(88.72,616.71)">
-        <text font-family="Helvetica" font-size="53.309px">Device</text>
+        <text font-family="Helvetica" font-size="53.309px">urz&#x105;dzenie</text>
       </g>
     </g>
     <g transform="matrix(.42318 0 0 .42318 215.19 217.54)">
-      <text font-family="Helvetica" font-size="53.309px">Guard</text>
+      <text font-family="Helvetica" font-size="53.309px">Stra&#x17C;nik</text>
     </g>
     <g transform="matrix(.42318 0 0 .45369 342.48 365.1)">
-      <text font-family="Helvetica" font-size="53.309px">Relay</text>
+      <text font-family="Helvetica" font-size="53.309px">Przeka&#x17A;nik</text>
     </g>
     <g transform="matrix(.42318 0 0 .45369 486.48 214.68)">
-      <text font-family="Helvetica" font-size="53.309px">Relay</text>
+      <text font-family="Helvetica" font-size="53.309px">Przeka&#x17A;nik</text>
     </g>
     <g transform="matrix(.42318 0 0 .42318 1011.7 453.12)">
-      <text font-family="Helvetica" font-size="53.309px">hidden...onion</text>
+      <text font-family="Helvetica" font-size="53.309px">us&#x142;uga onion</text>
     </g>
     <g transform="matrix(1,0,0,1.1339,0,-13.598)">
       <rect x="192.38" y="101.58" width="397.82" height="388.05" fill="none" stroke="#3e2cb1" stroke-dasharray="6.08, 6.08" stroke-miterlimit="1.5" stroke-width="6.08px"/>
@@ -108,13 +108,13 @@
       <path d="m1099.4 756.12c0 14.508-3.57 28.756-10.37 41.351-6.73 12.597-16.53 23.022-28.2 30.233-11.75 7.297-25.12 11.12-38.65 11.12-13.54 0-26.906-3.823-38.574-11.12-11.749-7.21-21.554-17.636-28.279-30.233-6.807-12.597-10.372-26.844-10.372-41.351 0-14.595 3.566-28.842 10.372-41.438 6.725-12.597 16.53-23.022 28.279-30.232 11.668-7.298 25.034-11.12 38.574-11.12 13.53 0 26.9 3.822 38.65 11.12 11.67 7.21 21.47 17.635 28.2 30.232 6.8 12.597 10.37 26.845 10.37 41.438" fill="none" stroke="#3465a4" stroke-width=".08px"/>
     </g>
     <g transform="matrix(.42318 0 0 .45369 613.99 258.96)">
-      <text font-family="Helvetica" font-size="53.309px">Rendezvous</text>
+      <text font-family="Helvetica" font-size="53.309px">Punkt spotkania</text>
     </g>
     <g transform="matrix(.42318 0 0 .45369 776.89 519.87)">
-      <text font-family="Helvetica" font-size="53.309px">Relay</text>
+      <text font-family="Helvetica" font-size="53.309px">Przeka&#x17A;nik</text>
     </g>
     <g transform="matrix(.42318 0 0 .45369 924.29 375.58)">
-      <text font-family="Helvetica" font-size="53.309px">Entry</text>
+      <text font-family="Helvetica" font-size="53.309px">W&#x119;ze&#x142; wej&#x15B;ciowy</text>
     </g>
     <g transform="matrix(.43818 0 0 -.43818 616.24 496.06)">
       <path d="m330.23 166.03-137.18 182.29 3.883 2.924 137.18-182.29z"/>

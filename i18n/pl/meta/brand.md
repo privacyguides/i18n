@@ -1,9 +1,9 @@
 ---
-title: Wytyczne dotyczące brandingu
-description: Przewodnik dla dziennikarzy i współautorów strony na temat właściwego oznaczania marki i logo Privacy Guides.
+title: Wytyczne dotyczące marki
+description: Przewodnik dla dziennikarzy i współtwórców tej strony na temat prawidłowego używania znaku słownego i logo Privacy Guides.
 ---
 
-Nazwa strony to **Privacy Guides** i **nie** powinna być zmieniana na:
+Nazwa strony internetowej to **Privacy Guides** i **nie** powinna być zmieniana na:
 
 <div class="pg-red" markdown>
 - PrivacyGuides
@@ -16,8 +16,8 @@ Nazwa subreddita to **r/PrivacyGuides** lub **Subreddit Privacy Guides**.
 
 Dodatkowe wytyczne dotyczące marki można znaleźć na stronie [github.com/privacyguides/brand](https://github.com/privacyguides/brand)
 
-## Znak firmowy
+## Znak towarowy
 
-"Privacy Guides" i logo tarczy są znakami firmowymi należącymi do Jonah Aragon, a ich nieograniczone wykorzystanie jest przyznawane projektowi Privacy Guides.
+„Privacy Guides” i sygnet tarczy są znakami towarowymi należącymi do Jonaha Aragona; projekt Privacy Guides ma prawo do ich nieograniczonego wykorzystywania.
 
-Nie zrzekając się żadnych swoich praw, Privacy Guides nie doradza innym w zakresie swoich praw własności intelektualnej. Privacy Guides nie zezwala ani nie wyraża zgody na wykorzystywanie swoich znaków firmowych w jakikolwiek sposób, który może wprowadzać w błąd poprzez sugerowanie powiązania z Privacy Guides lub sponsorowania przez Privacy Guides. W przypadku uzyskania informacji o takim wykorzystaniu prosimy o kontakt z Jonah Aragon pod adresem `jonah@privacyguides.org`. W razie pytań należy skonsultować się z radcą prawnym.
+Nie zrzekając się żadnych ze swoich praw, Privacy Guides nie udziela innym porad dotyczących zakresu swoich praw własności intelektualnej. Privacy Guides nie zezwala ani nie wyraża zgody na jakiekolwiek wykorzystywanie swoich znaków towarowych w sposób, który mógłby wprowadzać w błąd, sugerując powiązanie z Privacy Guides lub jego sponsorowanie. W przypadku uzyskania informacji o takim wykorzystaniu prosimy o kontakt z Jonahem Aragonem pod adresem `jonah@privacyguides.org`. W przypadku jakichkolwiek pytań skonsultuj się ze swoim radcą prawnym.
