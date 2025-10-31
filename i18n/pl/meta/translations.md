@@ -1,25 +1,25 @@
 ---
-title: Translations
-description: A guide for website contributors on adding translations to our website.
+title: Tłumaczenia
+description: Przewodnik dla współtwórców tej strony na temat dodawania tłumaczeń do naszego serwisu.
 ---
 
-Crowdin has good documentation, and we suggest looking at their [Getting Started](https://support.crowdin.com/crowdin-intro) guide. Our site is largely written in [Markdown](https://en.wikipedia.org/wiki/Markdown), so it should be easy to contribute. This page contains some helpful pointers for translating some specific syntax you may encounter on our site.
+Crowdin posiada dobrą dokumentację i zalecamy zapoznanie się z ich przewodnikiem [„Pierwsze kroki”](https://support.crowdin.com/crowdin-intro) (w języku angielskim). Nasza strona jest w dużej mierze napisana w języku [Markdown](https://pl.wikipedia.org/wiki/Markdown), dzięki czemu powinno być łatwo wnieść swój wkład. Ta strona zawiera kilka pomocnych wskazówek dotyczących tłumaczenia pewnych specyficznych konstrukcji składniowych, na które można natrafić na naszej stronie.
 
-Please join our localization room on Matrix ([#pg-i18n:aragon.sh](https://matrix.to/#/%23pg-i18n:aragon.sh)) if you have any additional questions, and read our [announcement blog post](https://blog.privacyguides.org/2023/02/26/i18n-announcement) for additional information about the project.
+Jeśli masz dodatkowe pytania, dołącz do naszego pokoju tłumaczeniowego na Matrixie ([#pg-i18n:aragon.sh](https://matrix.to/#/%23pg-i18n:aragon.sh)) oraz przeczytaj nasz [wpis na blogu z ogłoszeniem](https://blog.privacyguides.org/2023/02/26/i18n-announcement), aby dowiedzieć się więcej o projekcie.
 
-Note that the English version of the site is the primary version, meaning changes occur there first. If you notice a language falling behind the English version, please help out. We cannot guarantee the accuracy of all our translations. If you have a suggestion about content specific to your region, please open an issue or pull request to our [main repository](https://github.com/privacyguides/privacyguides.org).
+Należy pamiętać, że wersja angielska strony jest wersją podstawową, co oznacza, że zmiany wprowadzane są najpierw tam. Jeśli zauważysz, że jakaś wersja językowa pozostaje w tyle za wersją angielską, prosimy o pomoc. Nie możemy jednak zagwarantować dokładności wszystkich naszych tłumaczeń. Jeśli masz sugestie dotyczące treści dotyczących Twojego regionu, utwórz zgłoszenie (issue) lub pull request w naszym [głównym repozytorium](https://github.com/privacyguides/privacyguides.org).
 
-## Translation output
+## Wynik tłumaczenia
 
-Translation software gets the translation quite accurate; however, you need to make sure the translated string is correct.
+Narzędzia tłumaczeniowe zapewniają całkiem dokładne tłumaczenia, jednak trzeba upewnić się, że przetłumaczony tekst jest poprawny.
 
-For example:
+Na przykład:
 
 ```text
-![Software logo](assets/img/path/to/image.svg){ align=right }
+![Logo programu](assets/img/path/to/image.svg){ align=right }
 ```
 
-We have sometimes found that the syntax for inserting an image like above was missing the `![` or an extra space was placed between the text and the path, e.g. `](`. If a translation string is clearly not correct, we encourage you to **delete** it by pressing the trash icon [or vote](https://support.crowdin.com/enterprise/getting-started-for-volunteers/#voting-view) on which one you think sounds best. When invalid strings are deleted, they are removed from the organization's [translation memory](https://support.crowdin.com/enterprise/translation-memory), meaning that when the source string is seen again, it won't suggest the incorrect translation.
+Czasami zdarzało się, że w powyższej składni do wstawiania obrazu brakowało znaku `![` lub między tekstem a ścieżką obrazu znajdowała się dodatkowa spacja, np. `](`. Jeśli tłumaczenie jest ewidentnie błędne, zalecamy jego **usunięcie** poprzez kliknięcie ikony kosza lub [oddanie głosu](https://support.crowdin.com/enterprise/getting-started-for-volunteers/#voting-view) na tłumaczenie, które wydaje się najbardziej poprawne. Po usunięciu nieprawidłowych tłumaczeń są one usuwane z [„pamięci tłumaczeniowej”](https://support.crowdin.com/enterprise/translation-memory) organizacji, co oznacza, że gdy tłumaczenie źródłowe pojawi się ponownie, nie będzie ono sugerować nieprawidłowego tłumaczenia.
 
 ## Punctuation
 
