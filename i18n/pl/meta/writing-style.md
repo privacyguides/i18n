@@ -7,15 +7,15 @@ Privacy Guides jest pisane w amerykańskiej odmianie języka angielskiego. W raz
 
 Ogólnie rzecz biorąc, [amerykańskie federalne wytyczne dotyczące prostego języka](https://plainlanguage.gov/guidelines) stanowią dobre źródło wiedzy o tym, jak pisać jasno i zwięźle. Poniżej podkreślamy kilka istotnych wskazówek z tych wytycznych.
 
-## Writing for our audience
+## Pisanie z myślą o naszych odbiorcach
 
-Privacy Guides' intended [audience](https://plainlanguage.gov/guidelines/audience) is primarily adults who use technology. Don't dumb down content as if you are addressing a middle-school class, but don't overuse complicated terminology about concepts average computer users wouldn't be familiar with.
+Docelową [grupą odbiorców](https://plainlanguage.gov/guidelines/audience) Privacy Guides są przede wszystkim dorośli użytkownicy technologii. Nie spłycaj treści tak, jakbyś pisał do uczniów szkoły podstawowej, ale też nie przesadzaj z używaniem złożonej terminologii dotyczącej zagadnień, których przeciętny użytkownik komputera może nie znać.
 
-### Address only what people want to know
+### Skup się wyłącznie na tym, co ludzie chcą wiedzieć
 
-People don't need overly complex articles with little relevance to them. Figure out what you want people to accomplish when writing an article, and only include those details.
+Odbiorcy nie potrzebują zbyt skomplikowanych artykułów, które nie mają dla nich większego znaczenia. Zastanów się, co chcesz, by czytelnik osiągnął, czytając dany tekst, i zawrzyj tylko te informacje, które są potrzebne do tego celu.
 
-> Tell your audience why the material is important to them. Say, “If you want a research grant, here’s what you have to do.” Or, “If you want to mine federal coal, here’s what you should know.” Or, “If you’re planning a trip to Rwanda, read this first.”
+> Powiedz odbiorcy, dlaczego materiał jest dla niego istotny. Na przykład: „Jeśli chcesz otrzymać grant badawczy, oto co musisz zrobić”. Albo: „Jeśli chcesz wydobywać węgiel federalny, oto co powinieneś wiedzieć”. Lub: „Jeśli planujesz podróż do Rwandy, przeczytaj najpierw ten artykuł”.
 
 ### Address people directly
 
