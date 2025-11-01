@@ -166,24 +166,24 @@ Podpowiedzi wyszukiwania powodują, że wszystko, co wpisujesz w pasku adresu, j
 
 [Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) to funkcja podobna do podpowiedzi wyszukiwania, dostępna wyłącznie w Stanach Zjednoczonych. Zalecamy jej wyłączenie z tego samego powodu, dla którego zalecamy wyłączenie podpowiedzi wyszukiwania. Jeśli nie widzisz tych opcji w sekcji **Pasek adresu**, oznacza to, że nie masz tej funkcji i możesz zignorować te zmiany.
 
-- [ ] Odznacz **Sugestie z Firefox**
+- [ ] Odznacz **Sugestie od Firefoksa**
 - [ ] Odznacz **Sugestie od sponsorów**
 
 #### Prywatność i bezpieczeństwo
 
-##### Udoskonalona ochrona przed śledzeniem
+##### Wzmocniona ochrona przed śledzeniem
 
-- [x] Wybierz **Ścisła** ochrona przed śledzeniem
+- [x] Wybierz **Ścisłą** ochronę przed śledzeniem
 
-Chroni to użytkownika poprzez blokowanie modułów śledzących w mediach społecznościowych, skryptów służących do identyfikacji przeglądarki (należy pamiętać, że nie chroni to przed *wszystkimi* odciskami palców), koparek kryptowalut, ciasteczek śledzących różne witryny i niektórych innych treści śledzących. Ochrona przed śledzeniem chroni przed wieloma powszechnymi zagrożeniami, jednak nie blokuje wszystkich metod śledzenia, ponieważ została zaprojektowana tak, by mieć minimalny lub zerowy wpływ na użyteczność stron.
+Chroni Cię ona poprzez blokowanie elementów śledzących z mediów społecznościowych, skryptów identyfikujących przeglądarkę (choć nie chroni przed *wszystkimi* metodami identyfikacji), koparek kryptowalut, ciasteczek śledzących między witrynami oraz innych form śledzenia. Wzmocniona ochrona przed śledzeniem chroni przed wieloma powszechnymi zagrożeniami, jednak nie eliminuje wszystkich metod śledzenia, ponieważ została zaprojektowana tak, by miała minimalny lub zerowy wpływ na działanie stron internetowych.
 
-##### Wyczyść po zamknięciu
+##### Czyszczenie danych podczas zamykania przeglądarki
 
-Jeśli chcesz pozostać zalogowany na wybranych stronach, możesz zezwolić na wyjątki w **Pliki cookie i dane witryn** → **Zarządzaj wyjątkami...**
+Jeśli chcesz pozostać zalogowany na wybranych stronach, możesz dodać wyjątki w sekcji **Ciasteczka i dane witryn** → **Wyjątki...**
 
-- [x] Zaznacz **Usuń pliki cookie i dane witryn po zamknięciu przeglądarki Firefox**
+- [x] Zaznacz **Usuwanie ciasteczek i danych witryn podczas zamykania przeglądarki Firefox**
 
-Chroni to użytkownika przed trwałymi ciasteczkami, ale nie chroni przed ciasteczkami pozyskanymi podczas jednej sesji przeglądania. Po włączeniu tej opcji możliwe jest łatwe wyczyszczenie ciasteczek przeglądarki poprzez ponowne uruchomienie Firefoksa. Możesz ustawiać wyjątki dla poszczególnych stron, jeśli chcesz pozostać zalogowany na konkretnej stronie, którą często odwiedzasz.
+Chroni to przed trwałymi ciasteczkami, choć nie zabezpiecza przed tymi, które zostały zapisane w trakcie bieżącej sesji. Po włączeniu tej opcji możesz łatwo wyczyścić dane przeglądarki, po prostu ponownie uruchamiając Firefoksa. Możesz również ustawić wyjątki dla konkretnych stron, na których chcesz pozostać zalogowany.
 
 ##### Telemetria
 
@@ -191,38 +191,38 @@ Chroni to użytkownika przed trwałymi ciasteczkami, ale nie chroni przed ciaste
 - [ ] Odznacz **Instalowanie i przeprowadzanie badań**
 - [ ] Odznacz **Automatyczne wysyłanie zgłoszeń awarii**
 
-Zgodnie z polityką prywatności Firefoksa opracowaną przez Mozillę,
+Zgodnie z polityką prywatności Mozilli dla Firefoksa:
 
-> Firefox wysyła o nas dane o wersji i języku Firefoksa, systemie operacyjnym urządzeniach i konfiguracji sprzętowej, pamięci, podstawowe informacje o awariach i błędach oraz wynikach zautomatyzowanych procesów, takich jak aktualizacje, bezpieczne przeglądanie i aktywacja. Gdy przeglądarka Firefox wysyła nasze dane, adres IP użytkownika jest tymczasowo gromadzony w dziennikach serwera.
+> Firefox przesyła dane dotyczące wersji i języka Firefoksa, systemu operacyjnego urządzenia i konfiguracji sprzętowej, pamięci, podstawowe informacje o awariach i błędach oraz wyniki zautomatyzowanych procesów, takich jak aktualizacje, bezpieczne przeglądanie i aktywacja. Podczas przesyłania danych do Mozilli Twój adres IP jest tymczasowo zapisywany w dziennikach serwera.
 
-Ponadto usługa Mozilla Accounts gromadzi [pewne dane techniczne](https://mozilla.org/privacy/mozilla-accounts). Jeśli korzystasz z konta Firefox, możesz z tego zrezygnować:
+Ponadto usługa kont Mozilla Accounts gromadzi [pewne dane techniczne](https://www.mozilla.org/pl/privacy/mozilla-accounts). Jeśli korzystasz z konta Mozilli, możesz zrezygnować z udostępniania tych informacji:
 
-1. Otwórz ustawienia profilu [na accounts.firefox.com](https://accounts.firefox.com/settings#data-collection)
+1. Otwórz [ustawienia profilu na accounts.firefox.com](https://accounts.firefox.com/pl/settings#data-collection)
 2. Odznacz **Gromadzenie i wykorzystywanie danych** > **Pomóż ulepszyć konta Firefox**
 
 ##### Preferencje dotyczące reklam na witrynach
 
 - [ ] Odznacz **Zezwalanie witrynom na przeprowadzanie pomiarów reklam przy zachowaniu prywatności**
 
-Wraz z wydaniem Firefoksa 128 dodano nowe ustawienie dotyczące [atrybucji z zachowaniem prywatności](https://support.mozilla.org/kb/privacy-preserving-attribution) (PPA), które jest [włączone domyślnie](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA pozwala reklamodawcom mierzyć skuteczność kampanii internetowych za pomocą danej przeglądarki, zamiast wykorzystywać do tego tradycyjne śledzenie oparte na JavaScript. Uważamy, że takie działanie wykracza poza zakres obowiązków przeglądarki, a fakt, że funkcja ta jest domyślnie wyłączona w Arkenfox, jest dodatkowym argumentem za jej wyłączeniem.
+Wraz z wydaniem Firefoksa 128 dodano nowe ustawienie dotyczące [atrybucji z zachowaniem prywatności](https://support.mozilla.org/pl/kb/privacy-preserving-attribution) (PPA), które zostało [domyślnie włączone](https://blog.privacyguides.org/2024/07/14/mozilla-disappoints-us-yet-again-2). PPA pozwala reklamodawcom wykorzystywać Twoją przeglądarkę do mierzenia skuteczności kampanii internetowych zamiast tradycyjnych metod śledzenia opartych na JavaScripcie. Uważamy, że takie działanie wykracza poza zakres obowiązków przeglądarki, a fakt, że funkcja ta jest domyślnie wyłączona w Arkenfoxie, stanowi dodatkowy argument za jej wyłączeniem.
 
 ##### Tryb używania wyłącznie protokołu HTTPS
 
 - [x] Zaznacz **Włącz we wszystkich oknach**
 
-To zapobiega nieumyślnemu połączeniu się ze stroną przez niezabezpieczony protokół HTTP. Obecnie strony bez HTTPS są rzadkością, więc ta opcja nie powinna mieć żadnego wpływu na codzienne przeglądanie internetu.
+Zapobiega to przypadkowemu łączeniu się ze stronami używającymi nieszyfrowanego protokołu HTTP. Strony bez obsługi HTTPS są obecnie rzadkością, więc ta opcja nie powinna mieć zauważalnego wpływu na codzienne przeglądanie Internetu.
 
 ##### DNS poprzez HTTPS
 
 Jeśli korzystasz z [dostawcy DNS poprzez HTTPS](dns.md):
 
-- [x] Wybierz opcję **Maksymalna ochrona** i wybierz odpowiedniego dostawcę
+- [x] Wybierz opcję **Maksymalna ochrona** i ustaw odpowiedniego dostawcę
 
-Maksymalna ochrona wymusza korzystanie z DNS poprzez HTTPS, a jeśli Firefox nie może połączyć się z bezpiecznym resolverem DNS lub jeśli ten poinformuje, że nie istnieją rekordy dla domeny, do której próbujesz uzyskać dostęp, pojawi się ostrzeżenie o bezpieczeństwie. To uniemożliwia sieci, z którą jesteś połączony, potajemne obniżenie poziomu bezpieczeństwa DNS.
+Tryb Maksymalnej ochrony wymusza korzystanie z DNS poprzez HTTPS. W przypadku, gdy Firefox nie będzie mógł połączyć się z bezpiecznym resolverem DNS lub jeśli ten zgłosi, że rekordy dla danej domeny nie istnieją, przeglądarka wyświetli ostrzeżenie o bezpieczeństwie. Chroni to przed sytuacją, w której sieć, z której korzystasz, potajemnie obniża poziom zabezpieczeń DNS.
 
 #### Synchronizacja
 
-[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) umożliwia dostęp do danych przeglądania (historii, zakładek itd.) na wszystkich urządzeniach i chroni je za pomocą E2EE.
+[Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) umożliwia dostęp do danych przeglądania (historii, zakładek itp.) na wszystkich Twoich urządzeniach i chroni je za pomocą szyfrowania typu E2EE (end-to-end encryption).
 
 ### Arkenfox (zaawansowany)
 
