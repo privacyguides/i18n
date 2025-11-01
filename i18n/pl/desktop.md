@@ -7,7 +7,7 @@ cover: desktop.webp
 
 <small>Protects against the following threat(s):</small>
 
-- [:material-account-cash: Surveillance Capitalism](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: Kapitalizm inwigilacji](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
 Dystrybucje systemu Linux są powszechnie polecane, jeśli chodzi o ochronę prywatności oraz wolne oprogramowanie. Jeśli nie korzystasz jeszcze z systemu Linux, poniżej znajdziesz kilka dystrybucji, które polecamy wypróbować oraz kilka ogólnych porad dotyczących lepszej prywatności i bezpieczeństwa, które mają zastosowanie dla wielu dystrybucji systemu Linux.
 

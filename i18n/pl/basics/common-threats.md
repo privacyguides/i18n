@@ -183,7 +183,7 @@ If you're concerned about mass surveillance programs, you can use strategies lik
 
 ## Surveillance as a Business Model
 
-<span class="pg-brown">:material-account-cash: Surveillance Capitalism</span>
+<span class="pg-brown">:material-account-cash: Kapitalizm inwigilacji</span>
 
 > Surveillance capitalism is an economic system centered around the capture and commodification of personal data for the core purpose of profit-making.[^3]
 

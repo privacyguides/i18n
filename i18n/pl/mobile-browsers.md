@@ -54,7 +54,7 @@ schema:
 
 - [:material-account-cash: Kapitalizm Nadzoru](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-To są obecnie zalecane przez nas **przeglądarki internetowe** oraz konfiguracje dla standardowego/nie anonimowego przeglądania internetu. Jeżeli chcesz przeglądać internet anonimowo, powinieneś użyć [Tor'a](tor.md).
+To są obecnie zalecane przez nas **przeglądarki internetowe** oraz konfiguracje dla standardowego/nie anonimowego przeglądania internetu. Jeśli chcesz przeglądać Internet anonimowo, skorzystaj z sieci [Tor](tor.md).
 
 ## Brave
 
