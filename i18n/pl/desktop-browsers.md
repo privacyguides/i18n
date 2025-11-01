@@ -71,7 +71,7 @@ Jeśli chcesz przeglądać Internet anonimowo, skorzystaj z sieci [Tor](tor.md).
 
 ![Logo przeglądarki Mullvad](assets/img/browsers/mullvad_browser.svg){ align=right }
 
-**Przeglądarka Mullvad** to wersja [Tor Browser](tor.md#tor-browser) z usuniętą integracją z siecią Tor. Jej celem jest udostępnienie użytkownikom VPN technologii ochrony przed identyfikacją przeglądarki (tzw. fingerprinting), które stanowią kluczową barierę przeciwko [:material-eye-outline: masowej inwigilacji](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Rozwijana jest przez Tor Project i dystrybuowana przez [Mullvad](vpn.md#mullvad); **nie** wymaga jednak korzystania z VPN od Mullvad.
+**Przeglądarka Mullvad** to wersja [Tor Browser](tor.md#tor-browser) z usuniętą integracją z siecią Tor. Jej celem jest zapewnienie użytkownikom VPN technologii ochrony przed identyfikacją przeglądarki (tzw. fingerprinting), które stanowią kluczową barierę przeciwko [:material-eye-outline: masowej inwigilacji](basics/common-threats.md#mass-surveillance-programs){ .pg-blue }. Rozwijana jest przez Tor Project i dystrybuowana przez [Mullvad](vpn.md#mullvad); **nie** wymaga jednak korzystania z VPN od Mullvad.
 
 [:octicons-home-16: Strona główna](https://mullvad.net/pl/browser){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mullvad.net/pl/help/privacy-policy){ .card-link title="Polityka prywatności" }
@@ -109,35 +109,35 @@ Przeglądarka Mullvad dostarczana jest z wbudowanymi rozszerzeniami *uBlock Orig
 
 Mullvad Browser działa w stałym trybie prywatnego przeglądania, co oznacza, że historia, pliki cookie i inne dane witryn są automatycznie usuwane po każdym zamknięciu przeglądarki. Zakładki, ustawienia przeglądarki oraz konfiguracje rozszerzeń są jednak zachowywane.
 
-Jest to wymagane, aby zapobiec zaawansowanym formom śledzenia, ale odbywa się kosztem wygody i niektórych funkcji Firefox'a, takich jak kontenery z wieloma kontami. Pamiętaj, że zawsze możesz korzystać z wielu przeglądarek, na przykład możesz rozważyć użycie Firefox + Arkenfox dla kilku witryn, na których chcesz pozostać zalogowany lub które nie działają poprawnie w Mullvad Browser, oraz Mullvad Browser do ogólnego przeglądania.
+To rozwiązanie jest niezbędne, by zapobiec zaawansowanym formom śledzenia, lecz odbywa się kosztem wygody oraz pewnych funkcji Firefoksa, takich jak Multi-Account Containers. Warto pamiętać, że zawsze można używać kilku przeglądarek, na przykład Firefox z Arkenfoxem do kilku witryn, na których chcesz pozostać zalogowany lub które nie działają poprawnie w przeglądarce Mullvad, oraz przeglądarkę Mullvad do ogólnego przeglądania Internetu.
 
 ### Mullvad Leta
 
-Przeglądarka Mullvad domyślnie korzysta z [**Mullvad Leta**](search-engines.md#mullvad-leta) jako wyszukiwarki, która działa jako proxy do wyników wyszukiwania Google lub Brave (konfigurowalne na stronie głównej Mullvad Leta).
+Przeglądarka Mullvad korzysta domyślnie z [**Mullvad Leta**](search-engines.md#mullvad-leta) jako wyszukiwarki, która działa jako proxy do wyników wyszukiwania Google lub Brave (można to skonfigurować na stronie głównej Mullvad Leta).
 
-Jeśli jesteś użytkownikiem Mullvad VPN, korzystanie z usług takich jak Mullvad Leta, oferowanych bezpośrednio przez samego dostawcę VPN, wiąże się z pewnym ryzykiem. Dzieje się tak, ponieważ Mullvad teoretycznie ma dostęp zarówno do prawdziwego adresu IP (poprzez VPN), jak i do aktywności wyszukiwania (poprzez Leta) - czyli do informacji, które VPN z założenia powinien od siebie oddzielać. Nawet jeśli Mullvad gromadzi bardzo mało informacji o swoich użytkownikach VPN czy Leta, powinieneś rozważyć użycie innej [wyszukiwarki](search-engines.md), jeśli to ryzyko budzi Twój niepokój.
+Jeśli korzystasz z Mullvad VPN, istnieje pewne ryzyko związane z używaniem usług takich jak Mullvad Leta, oferowanych przez tego samego dostawcę VPN. Wynika to z faktu, że Mullvad teoretycznie ma dostęp zarówno do Twojego rzeczywistego adresu IP (przez VPN), jak i do aktywności wyszukiwania (przez Leta) – a właśnie te informacje VPN ma z założenia rozdzielać. Choć Mullvad gromadzi bardzo niewiele danych o użytkownikach swojego VPN i Leta, jeśli ta zależność budzi Twój niepokój, rozważ użycie innej [wyszukiwarki](search-engines.md).
 
 ## Firefox
 
 <div class="admonition recommendation" markdown>
 
-![Logo Firefox](assets/img/browsers/firefox.svg){ align=right }
+![Logo Firefoksa](assets/img/browsers/firefox.svg){ align=right }
 
-**Firefox** zapewnia silne ustawienia prywatności, takie jak [wzmocniona ochrona przed śledzeniem](https://support.mozilla.org/pl/kb/wzmocniona-ochrona-przed-sledzeniem-firefox-desktop), które mogą pomóc zablokować różne [rodzaje śledzenia](https://support.mozilla.org/pl/kb/wzmocniona-ochrona-przed-sledzeniem-firefox-desktop#w_co-blokuje-wzmocniona-ochrona-przed-sledzeniem).
+**Firefox** zapewnia zaawansowane ustawienia prywatności, takie jak [wzmocniona ochrona przed śledzeniem](https://support.mozilla.org/pl/kb/wzmocniona-ochrona-przed-sledzeniem-firefox-desktop), które mogą pomóc zablokować różne [rodzaje śledzenia](https://support.mozilla.org/pl/kb/wzmocniona-ochrona-przed-sledzeniem-firefox-desktop#w_co-blokuje-wzmocniona-ochrona-przed-sledzeniem).
 
 [:octicons-home-16: Strona główna](https://firefox.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://mozilla.org/privacy/firefox){ .card-link title="Polityka prywatności" }
 [:octicons-info-16:](https://support.mozilla.org/products/firefox){ .card-link title="Dokumentacja" }
 [:octicons-code-16:](https://hg.mozilla.org/mozilla-central){ .card-link title="Kod źródłowy" }
-[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="Przyczyń się" }
+[:octicons-heart-16:](https://donate.mozilla.org){ .card-link title="Wspomóż projekt" }
 
 <details class="downloads" markdown>
-<summary>Pliki do pobrania</summary>
+<summary>Pobierz</summary>
 
-- [:fontawesome-brands-windows: Windows](https://mozilla.org/firefox/windows)
-- [:simple-apple: macOS](https://mozilla.org/firefox/mac)
-- [:simple-linux: Linux](https://mozilla.org/firefox/linux)
-- [:simple-flathub: Flathub](https://flathub.org/apps/details/org.mozilla.firefox)
+- [:fontawesome-brands-windows: Windows](https://mozilla.org/pl/firefox/windows)
+- [:simple-apple: macOS](https://mozilla.org/pl/firefox/mac)
+- [:simple-linux: Linux](https://mozilla.org/pl/firefox/linux)
+- [:simple-flathub: Flathub](https://flathub.org/pl/apps/org.mozilla.firefox)
 
 </details>
 
@@ -146,25 +146,25 @@ Jeśli jesteś użytkownikiem Mullvad VPN, korzystanie z usług takich jak Mullv
 <div class="admonition warning" markdown>
 <p class="admonition-title">Ostrzeżenie</p>
 
-Firefox zawiera unikalny [token pobierania](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) w pobieraniach ze strony Mozilli i używa telemetrii w Firefox, aby wysłać token. Token **nie jest** zawarty w wydaniach z [Mozilla FTP](https://ftp.mozilla.org/pub/firefox/releases/).
+Firefox zawiera unikalny [token pobierania](https://bugzilla.mozilla.org/show_bug.cgi?id=1677497#c0) w instalatorach pobranych ze strony Mozilli i wykorzystuje telemetrię w Firefoksie do przesyłania tego tokena. Token **nie jest** zawarty w wydaniach dostępnych w [repozytorium FTP Mozilli](https://ftp.mozilla.org/pub/firefox/releases/).
 
 </div>
 
-### Zalecana konfiguracja przeglądarki Firefox
+### Zalecana konfiguracja Firefoksa
 
-Te opcje znajdziesz w :material-menu: → **Ustawienia**.
+Poniższe opcje można znaleźć w :material-menu: → **Ustawienia**.
 
-#### Wyszukiwarka
+#### Wyszukiwanie
 
 - [ ] Odznacz **Podpowiedzi wyszukiwania**
 
 Funkcje podpowiedzi wyszukiwania mogą nie być dostępne w Twoim regionie.
 
-Podpowiedzi wyszukiwania przesyłają wszystko, co wpisujesz w pasku adresu, do domyślnej wyszukiwarki, niezależnie od tego, czy faktycznie zatwierdzisz wyszukiwanie. Wyłączenie podpowiedzi wyszukiwania pozwala bardziej precyzyjnie kontrolować dane wysyłane do dostawcy wyszukiwarki.
+Podpowiedzi wyszukiwania powodują, że wszystko, co wpisujesz w pasku adresu, jest wysyłane do domyślnej wyszukiwarki – niezależnie od tego, czy faktycznie wysyłasz zapytanie. Wyłączenie podpowiedzi pozwala dokładniej kontrolować, jakie dane przekazujesz dostawcy wyszukiwarki.
 
-##### Firefox Suggest (tylko USA)
+##### Firefox Suggest (tylko w USA)
 
-[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) to funkcja podobna do podpowiedzi wyszukiwania, która jest dostępna tylko w Stanach Zjednoczonych. Zalecamy wyłączenie tej funkcji z tego samego powodu, dla którego rekomendujemy wyłączenie podpowiedzi wyszukiwania. Jeśli nie widzisz tych opcji pod **paskiem adresu strony**, nie masz tej funkcjonalności i możesz zignorować te zmiany.
+[Firefox Suggest](https://support.mozilla.org/kb/firefox-suggest) to funkcja podobna do podpowiedzi wyszukiwania, dostępna wyłącznie w Stanach Zjednoczonych. Zalecamy jej wyłączenie z tego samego powodu, dla którego zalecamy wyłączenie podpowiedzi wyszukiwania. Jeśli nie widzisz tych opcji w sekcji **Pasek adresu**, oznacza to, że nie masz tej funkcji i możesz zignorować te zmiany.
 
 - [ ] Odznacz **Sugestie z Firefox**
 - [ ] Odznacz **Sugestie od sponsorów**
@@ -275,7 +275,7 @@ Brave dodaje "[kod polecenia](https://github.com/brave/brave-browser/wiki/Brave%
 
 ### Zalecana konfiguracja przeglądarki Brave
 
-Te opcje znajdziesz w :material-menu: → **Ustawienia**.
+Poniższe opcje można znaleźć w :material-menu: → **Ustawienia**.
 
 #### Tarcze
 

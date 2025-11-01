@@ -303,11 +303,11 @@ Under **Siri**:
 
 This prevents Siri from using content from Safari for Siri suggestions.
 
-#### Wyszukiwarka
+#### Wyszukiwanie
 
 - [ ] Disable **Search Engine Suggestions**
 
-This setting sends whatever you type in the address bar to the search engine set in Safari. Wyłączenie podpowiedzi wyszukiwania pozwala bardziej precyzyjnie kontrolować dane wysyłane do dostawcy wyszukiwarki.
+This setting sends whatever you type in the address bar to the search engine set in Safari. Wyłączenie podpowiedzi pozwala dokładniej kontrolować, jakie dane przekazujesz dostawcy wyszukiwarki.
 
 #### Profiles
 
