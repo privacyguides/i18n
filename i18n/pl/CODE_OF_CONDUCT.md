@@ -1,22 +1,22 @@
-# Community Code of Conduct
+# Kodeks postępowania społeczności
 
-**We pledge** to make our community a harassment-free experience for everyone.
+**Zobowiązujemy się** do zapewnienia, by nasza społeczność była miejscem wolnym od nękania i dyskryminacji dla wszystkich.
 
-**We strive** to create a positive environment, using welcoming and inclusive language, and being respectful of the viewpoints of others.
+**Dążymy** do tworzenia pozytywnego środowiska, używając życzliwego i inkluzywnego języka oraz okazując szacunek dla poglądów innych osób.
 
-**We do not allow** inappropriate or otherwise unacceptable behavior, such as sexualized language, trolling and insulting comments, or otherwise promoting intolerance or harassment.
+**Nie tolerujemy** niewłaściwego ani w inny sposób niedopuszczalnego zachowania, takiego jak język o charakterze seksualnym, trolling, obraźliwe komentarze czy jakiekolwiek przejawy promujące nietolerancję lub nękanie.
 
-## Community Standards
+## Standardy społeczności
 
-What we expect from members of our communities:
+Czego oczekujemy od członków naszych społeczności:
 
-1. **Do not spread misinformation**
+1. **Nie rozpowszechniaj dezinformacji**
 
-      We are creating an evidence-based educational community around information privacy and security, not an information home for conspiracy theories. For example, when making a claim that a certain piece of software is malicious or that certain telemetry data is privacy invasive, explain in detail what is collected and how it collected. Claims of this nature must be backed by technical evidence.
+      Budujemy społeczność edukacyjną opartą na dowodach, skupioną wokół prywatności i bezpieczeństwa informacji, a nie przestrzeń dla teorii spiskowych. Na przykład, jeśli twierdzisz, że dane oprogramowanie jest złośliwe lub że określone dane telemetryczne naruszają prywatność, wyjaśnij szczegółowo, jakie dane są zbierane i w jaki sposób. Tego rodzaju twierdzenia muszą być poparte dowodami technicznymi.
 
-2. **Do not abuse our willingness to help**
+2. **Nie nadużywaj naszej gotowości do pomocy**
 
-      Our community members are not free tech support. We are happy to help with specific steps for your privacy journey, if you are willing to put in effort. We are not obligated to answer endless, repetitive questions about general computer problems solvable with a simple internet search. **Do not** become a [help vampire](https://slash7.com/2006/12/22/vampires).
+      Członkowie naszej społeczności nie są darmowym wsparciem technicznym. We are happy to help with specific steps for your privacy journey, if you are willing to put in effort. We are not obligated to answer endless, repetitive questions about general computer problems solvable with a simple internet search. **Do not** become a [help vampire](https://slash7.com/2006/12/22/vampires).
 
 3. **Behave in a positive and constructive manner**
 

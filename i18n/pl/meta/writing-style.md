@@ -17,72 +17,72 @@ Odbiorcy nie potrzebują zbyt skomplikowanych artykułów, które nie mają dla 
 
 > Powiedz odbiorcy, dlaczego materiał jest dla niego istotny. Na przykład: „Jeśli chcesz otrzymać grant badawczy, oto co musisz zrobić”. Albo: „Jeśli chcesz wydobywać węgiel federalny, oto co powinieneś wiedzieć”. Lub: „Jeśli planujesz podróż do Rwandy, przeczytaj najpierw ten artykuł”.
 
-### Address people directly
+### Zwracaj się bezpośrednio do odbiorcy
 
-We're writing *for* a wide variety of people, but we are writing *to* the person who is actually reading it. Use "you" to address the reader directly.
+Piszemy *dla* szerokiego grona osób, ale kierujemy się *do* konkretnego czytelnika, który faktycznie to czyta. Używaj formy „ty”, aby zwracać się bezpośrednio do odbiorcy.
 
-> More than any other single technique, using “you” pulls users into the information and makes it relevant to them.
+> Żadna inna technika nie angażuje czytelnika tak skutecznie jak użycie słowa „ty” — sprawia, że treść staje się dla niego bardziej istotna.
 > 
-> When you use “you” to address users, they are more likely to understand what their responsibility is.
+> Gdy używasz formy „ty”, odbiorcy łatwiej zrozumieć, jaka jest ich odpowiedzialność.
 
-Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/audience/address-the-user)
+Źródło: [plainlanguage.gov](https://plainlanguage.gov/guidelines/audience/address-the-user) (ang.)
 
-### Avoid "users"
+### Unikaj określenia „użytkownicy”
 
-Avoid calling people "users", in favor of "people", or a more specific description of the group of people you are writing for.
+Zamiast nazywać ludzi „użytkownikami”, używaj słowa „osoby” lub bardziej precyzyjnego określenia grupy, do której się zwracasz.
 
-## Organizing content
+## Organizacja treści
 
-Organization is key. Content should flow from most to least important information, and use headers as much as needed to logically separate different ideas.
+Odpowiednia struktura to podstawa. Treść powinna być uporządkowana od informacji najważniejszych do mniej istotnych, a nagłówki należy stosować tak często, jak to potrzebne, by logicznie rozdzielić różne wątki.
 
-- Limit the document to around five or six sections. Long documents should probably be broken up into separate pages.
-- Mark important ideas with **bold** or *italics*.
+- Ogranicz dokument do około pięciu lub sześciu sekcji. Dłuższe teksty najlepiej podzielić na osobne strony.
+- Oznaczaj ważne myśli za pomocą **pogrubienia** lub *kursywy*.
 
-Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/design)
+Źródło: [plainlanguage.gov](https://plainlanguage.gov/guidelines/design) (ang.)
 
-### Begin with a topic sentence
+### Zaczynaj od zdania wprowadzającego temat
 
-> If you tell your reader what they’re going to read about, they’re less likely to have to read your paragraph again. Headings help, but they’re not enough. Establish a context for your audience before you provide them with the details.
+> Jeśli powiesz czytelnikowi, o czym będzie czytał, rzadziej będzie musiał wracać do początku akapitu. Nagłówki pomagają, ale to za mało. Zanim podasz szczegóły, stwórz kontekst dla odbiorcy.
 > 
-> We often write the way we think, putting our premises first and then our conclusion. It may be the natural way to develop thoughts, but we wind up with the topic sentence at the end of the paragraph. Move it up front and let users know where you’re going. Don’t make readers hold a lot of information in their heads before getting to the point.
+> Często piszemy tak, jak myślimy: przedstawiamy najpierw przesłanki, a dopiero potem wnioski. To naturalny sposób rozumowania, ale w efekcie zdanie wprowadzające temat ląduje na końcu akapitu. Przenieś je na początek i od razu pokaż czytelnikowi, dokąd zmierzasz. Nie zmuszaj go do trzymania w głowie zbyt wielu informacji, zanim dojdziesz do sedna.
 
-Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/organize/have-a-topic-sentence)
+Źródło: [plainlanguage.gov](https://plainlanguage.gov/guidelines/organize/have-a-topic-sentence) (ang.)
 
-## Choose your words carefully
+## Dobieraj słowa rozważnie
 
-> Words matter. They are the most basic building blocks of written and spoken communication. Don’t complicate things by using jargon, technical terms, or abbreviations that people won’t understand.
+> Słowa mają znaczenie. To podstawowe elementy komunikacji pisemnej i ustnej. Nie komplikuj przekazu, używając żargonu, terminów technicznych ani skrótów, których ludzie mogą nie rozumieć.
 
-We should try to avoid abbreviations where possible, but technology is full of abbreviations. In general, spell out the abbreviation/acronym the first time it is used on a page, and add the abbreviation to the abbreviation glossary file when it is used repeatedly.
+Należy unikać skrótów, jeśli to możliwe — choć w świecie technologii trudno się bez nich obejść. Ogólnie rzecz biorąc, pierwsze wystąpienie skrótu lub akronimu na stronie powinno być zapisane w pełnej formie, a sam skrót należy dodać do pliku ze słownikiem skrótów, jeśli jest używany wielokrotnie.
 
-> Kathy McGinty offers tongue-in-cheek instructions for bulking up your simple, direct sentences:
+> Kathy McGinty w żartobliwy sposób pokazuje, jak „rozdmuchać” proste, bezpośrednie zdanie:
 > 
-> > There is no escaping the fact that it is considered very important to note that a number of various available applicable studies ipso facto have generally identified the fact that additional appropriate nocturnal employment could usually keep juvenile adolescents off thoroughfares during the night hours, including but not limited to the time prior to midnight on weeknights and/or 2 a.m. on weekends.
+> > Nie da się zaprzeczyć, że uznaje się za niezwykle istotne zauważenie, iż szereg różnych dostępnych i adekwatnych badań ipso facto ogólnie wskazało, że dodatkowe odpowiednie zatrudnienie nocne mogłoby zwykle powstrzymać młodzież przed przebywaniem na drogach w godzinach nocnych, w tym, choć nie wyłącznie, przed północą w dni powszednie i/lub do godziny drugiej w weekendy.
 > 
-> And the original, using stronger, simpler words:
+> A oto oryginał, napisany prościej i z większą siłą wyrazu:
 > 
-> > More night jobs would keep youths off the streets.
+> > Więcej nocnych miejsc pracy pozwoliłoby utrzymać młodzież z dala od ulic.
 
-## Be concise
+## Pisz zwięźle
 
-> Unnecessary words waste your audience’s time. Great writing is like a conversation. Omit information that the audience doesn’t need to know. This can be difficult as a subject-matter expert, so it’s important to have someone look at the information from the audience’s perspective.
+> Zbędne słowa marnują czas odbiorcy. Dobre pisanie przypomina rozmowę — pomiń informacje, których czytelnik nie musi znać. Może to być trudne dla eksperta w danej dziedzinie, dlatego warto, by ktoś spojrzał na tekst z perspektywy odbiorcy.
 
-Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise)
+Źródło: [plainlanguage.gov](https://plainlanguage.gov/guidelines/concise) (ang.)
 
-## Keep text conversational
+## Zachowaj konwersacyjny charakter tekstu
 
-> Verbs are the fuel of writing. They give your sentences power and direction. They enliven your writing and make it more interesting.
+> Czasowniki są paliwem pisania. Nadają zdaniom energię i kierunek, ożywiają tekst i czynią go ciekawszym.
 > 
-> Verbs tell your audience what to do. Make sure it’s clear who does what.
+> Czasowniki mówią odbiorcy, co ma zrobić. Upewnij się więc, że jasno wynika, kto co robi.
 
-### Use active voice
+### Używaj strony czynnej
 
-> Active voice makes it clear who is supposed to do what. It eliminates ambiguity about responsibilities. Not “It must be done,” but “You must do it.”
+> Strona czynna jasno wskazuje, kto ma coś zrobić, i eliminuje niejednoznaczność co do odpowiedzialności. Nie „To musi być zrobione”, ale „Ty musisz to zrobić”.
 
-Source: [plainlanguage.gov](https://plainlanguage.gov/guidelines/conversational/use-active-voice)
+Źródło: [plainlanguage.gov](https://plainlanguage.gov/guidelines/conversational/use-active-voice) (ang.)
 
-### Use "must" for requirements
+### Używaj „must” do wyrażania obowiązków
 
-> - “must” for an obligation
-> - “must not” for a prohibition
-> - “may” for a discretionary action
-> - “should” for a recommendation
+> - „must” – oznacza obowiązek
+> - „must not” – oznacza zakaz
+> - „may” – oznacza działanie opcjonalne (uznaniowe)
+> - „should” – oznacza zalecenie
