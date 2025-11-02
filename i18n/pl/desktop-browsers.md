@@ -224,18 +224,18 @@ Tryb Maksymalnej ochrony wymusza korzystanie z DNS poprzez HTTPS. W przypadku, g
 
 [Firefox Sync](https://hacks.mozilla.org/2018/11/firefox-sync-privacy) umożliwia dostęp do danych przeglądania (historii, zakładek itp.) na wszystkich Twoich urządzeniach i chroni je za pomocą szyfrowania typu E2EE (end-to-end encryption).
 
-### Arkenfox (zaawansowany)
+### Arkenfox (dla zaawansowanych)
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Korzystaj z przeglądarki Mullvad do zaawansowanej ochrony przed odciskami palców</p>
+<p class="admonition-title">Korzystaj z przeglądarki Mullvad dla zaawansowanej ochrony przed identyfikacją</p>
 
-[Przeglądarka Mullvad](#mullvad-browser) oferuje takie same zabezpieczenia przed identyfikacją przeglądarki jak Arkenfox już po instalacji i nie wymaga korzystania z VPN Mullvad, aby z nich korzystać. W połączeniu z VPN, przeglądarka Mullvad może zablokować bardziej zaawansowane skrypty śledzące, z którymi Arkenfox sobie nie poradzi. Arkenfox ma jednak tę przewagę, że jest znacznie bardziej elastyczny i pozwala na dodawanie wyjątków dla stron, na których chcesz pozostać zalogowany.
+[Przeglądarka Mullvad](#mullvad-browser) zapewnia taki sam poziom ochrony przed identyfikacją przeglądarki jak Arkenfox, i to od razu po instalacji — bez konieczności używania Mullvad VPN, aby z nich korzystać. W połączeniu z VPN przeglądarka Mullvad potrafi zablokować bardziej zaawansowane techniki śledzenia, z którymi Arkenfox sobie nie radzi. Arkenfox ma jednak tę przewagę, że jest znacznie bardziej elastyczna i pozwala na tworzenie wyjątków dla konkretnych witryn, na których chcesz pozostać zalogowany(-a).
 
 </div>
 
-[Projekt Arkenfox](https://github.com/arkenfox/user.js) dostarcza zestaw starannie przemyślanych opcji dla Firefoksa. Jeśli [zdecydujesz się](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) korzystać z Arkenfox, [niektóre ustawienia](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) są subiektywnie restrykcyjne i/lub mogą powodować, że niektóre strony nie będą działać poprawnie — możesz je [łatwo zmienić](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) według własnych potrzeb. **Zdecydowanie zalecamy** przeczytanie całej ich [wiki](https://github.com/arkenfox/user.js/wiki). Arkenfox włącza także obsługę [kontenerów](https://support.mozilla.org/kb/containers#w_for-advanced-users).
+[Projekt Arkenfox](https://github.com/arkenfox/user.js) dostarcza zestaw starannie dobranych ustawień dla Firefoksa. Jeśli [zdecydujesz się](https://github.com/arkenfox/user.js/wiki/1.1-To-Arkenfox-or-Not) korzystać z Arkenfox, [niektóre opcje](https://github.com/arkenfox/user.js/wiki/3.2-Overrides-[Common]) mogą być subiektywnie zbyt restrykcyjne lub powodować problemy z działaniem niektórych stron — co możesz [łatwo dostosować](https://github.com/arkenfox/user.js/wiki/3.1-Overrides) według własnych potrzeb. **Zdecydowanie zalecamy** zapoznanie się z ich pełnym [wiki](https://github.com/arkenfox/user.js/wiki) projektu. Arkenfox włącza także obsługę [kontenerów](https://support.mozilla.org/pl/kb/containers#w_for-advanced-users).
 
-Arkenfox ma na celu jedynie blokowanie podstawowych lub prostych skryptów śledzących, korzystając z losowego generowania zawartości elementów graficznych (tzw. canvas) oraz wbudowanych ustawień Firefoksa ograniczających możliwość identyfikacji przeglądarki użytkownika. Nie ma jednak na celu upodobnienia przeglądarki do dużej grupy innych użytkowników Arkenfox, tak jak robi to przeglądarka Mullvad czy przeglądarka Tor — a to jedyny sposób na zablokowanie zaawansowanych technik śledzenia odciskiem przeglądarki. Pamiętaj, że zawsze możesz korzystać z kilku przeglądarek. Na przykład, możesz używać Firefoksa z Arkenfox do tych kilku stron, na których musisz być zalogowany lub którym ufasz, a do ogólnego przeglądania internetu — przeglądarki Mullvad.
+Arkenfox ma na celu jedynie utrudnienie działania podstawowych lub prostych skryptów śledzących poprzez losową zmianę zawartości elementów graficznych (tzw. canvas) i użycie wbudowanych ustawień Firefoksa związanych z odpornością na identyfikację. Nie ma on jednak na celu ujednolicenia odcisku przeglądarki z dużą grupą innych użytkowników Arkenfoxa — tak jak robi to przeglądarka Mullvad czy Tor Browser — co jest jedyną skuteczną metodą ochrony przed zaawansowanym śledzeniem odcisku przeglądarki. Warto pamiętać, że zawsze można używać kilku przeglądarek, na przykład Firefox z Arkenfoxem do kilku witryn, na których chcesz pozostać zalogowany lub którym ufasz, a przeglądarkę Mullvad do ogólnego przeglądania internetu.
 
 ## Brave
 
@@ -243,24 +243,24 @@ Arkenfox ma na celu jedynie blokowanie podstawowych lub prostych skryptów śled
 
 ![Logo Brave](assets/img/browsers/brave.svg){ align=right }
 
-**Przeglądarka Brave** zawiera wbudowany bloker treści oraz [funkcje prywatności](https://brave.com/privacy-features), z których wiele jest domyślnie włączonych.
+**Przeglądarka Brave* zawiera wbudowany mechanizm blokowania treści oraz liczne [funkcje prywatności](https://brave.com/privacy-features), z których wiele jest domyślnie włączonych.
 
-Brave jest oparty na projekcie przeglądarki Chromium, więc powinien wyglądać znajomo i nie sprawiać problemów z kompatybilnością na większości stron internetowych.
+Oparta jest na projekcie przeglądarki Chromium, dzięki czemu jej interfejs i działanie powinny być dobrze znane większości osób, a problemy ze zgodnością stron internetowych są minimalne.
 
-[:octicons-home-16: Strona główna](https://brave.com){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Usługa Onion" }
+[:octicons-home-16: Strona główna](https://brave.com/pl){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Usługa onion" }
 [:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Polityka prywatności" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title="Dokumentacja" }
+[:octicons-info-16:](https://support.brave.com/hc/pl){ .card-link title="Dokumentacja" }
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
-<summary>Pliki do pobrania</summary>
+<summary>Pobierz</summary>
 
 - [:simple-github: GitHub](https://github.com/brave/brave-browser/releases)
-- [:fontawesome-brands-windows: Windows](https://brave.com/download)
-- [:simple-apple: macOS](https://brave.com/download)
-- [:simple-linux: Linux](https://brave.com/linux)
-- [:simple-flathub: Flathub](https://flathub.org/apps/com.brave.Browser)
+- [:fontawesome-brands-windows: Windows](https://brave.com/pl/download)
+- [:simple-apple: macOS](https://brave.com/pl/download)
+- [:simple-linux: Linux](https://brave.com/pl/linux)
+- [:simple-flathub: Flathub](https://flathub.org/pl/apps/com.brave.Browser)
 
 </details>
 
@@ -269,7 +269,7 @@ Brave jest oparty na projekcie przeglądarki Chromium, więc powinien wyglądać
 <div class="admonition warning" markdown>
 <p class="admonition-title">Ostrzeżenie</p>
 
-Brave dodaje "[kod polecenia](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)" do nazwy pliku podczas pobierania z oficjalnej strony Brave. Kod ten służy do śledzenia, z jakiego źródła przeglądarka została pobrana, na przykład `BRV002` w pliku o nazwie `Brave-Browser-BRV002.pkg`. Instalator po zakończeniu procesu instalacji wysyła kod polecenia na serwer Brave. Jeśli Cię to niepokoi, możesz przed uruchomieniem zmienić nazwę pliku instalacyjnego.
+Brave dodaje tzw. „[kod polecenia](https://github.com/brave/brave-browser/wiki/Brave%E2%80%99s-Use-of-Referral-Codes)” do nazwy pliku instalacyjnego pobieranego z oficjalnej strony Brave. Kod ten służy do śledzenia źródła, z którego przeglądarka została pobrana, na przykład `BRV002` w pliku o nazwie `Brave-Browser-BRV002.pkg`. Po zakończeniu instalacji instalator wysyła ten kod do serwera Brave. Jeśli Cię to niepokoi, możesz po prostu zmienić nazwę pliku instalacyjnego przed jego uruchomieniem.
 
 </div>
 
@@ -279,9 +279,9 @@ Poniższe opcje można znaleźć w :material-menu: → **Ustawienia**.
 
 #### Tarcze
 
-Brave posiada pewne zabezpieczenia przed identyfikacją przeglądarki w ramach funkcji [Tarcze](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Zalecamy skonfigurowanie tych opcji [globalnie](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) – dla wszystkich odwiedzanych stron.
+Brave posiada pewne zabezpieczenia przed identyfikacją przeglądarki w ramach funkcji [Tarcze](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Zalecamy skonfigurowanie tych ustawień [globalnie](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) – czyli dla wszystkich odwiedzanych stron.
 
-Ustawienia tarczy można w razie potrzeby obniżać dla wybranych stron, ale domyślnie zalecamy następujące ustawienia:
+W razie potrzeby można je obniżyć dla poszczególnych witryn, jednak domyślnie zalecamy następującą konfigurację:
 
 <div class="annotate" markdown>
 
@@ -303,7 +303,7 @@ Brave pozwala wybrać dodatkowe filtry treści na wewnętrznej stronie `brave://
 
 </div>
 
-1. Ta opcja wyłącza JavaScript, co sprawi, że wiele stron przestanie działać poprawnie. Aby przywrócić ich działanie, możesz dodać wyjątki dla konkretnych stron, klikając ikonę tarczy w pasku adresu i odznaczając tę opcję w sekcji *Zaawansowane sterowanie*.
+1. Ta opcja wyłącza JavaScript, co sprawi, że wiele stron przestanie działać prawidłowo. Aby przywrócić ich działanie, możesz dodać wyjątki dla konkretnych stron, klikając ikonę tarczy w pasku adresu i odznaczając tę opcję w sekcji *Zaawansowane sterowanie*.
 2. Jeśli chcesz pozostać zalogowany na wybranej stronie, którą odwiedzasz często, również możesz dodać wyjątek w ten sam sposób — klikając ikonę tarczy i odznaczając ustawienie w sekcji *Zaawansowane sterowanie*.
 
 #### Prywatność i bezpieczeństwo
