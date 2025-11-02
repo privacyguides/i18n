@@ -324,7 +324,7 @@ Brave pozwala wybrać dodatkowe filtry treści na wewnętrznej stronie `brave://
 
 ##### Okna w Tor
 
-[**Prywatne okno z Torem**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) pozwala kierować ruch przez sieć Tor w oknach prywatnych oraz uzyskiwać dostęp do usług .onion, co może być przydatne w niektórych przypadkach. Jednak Brave **nie** zapewnia takiej ochrony przed identyfikacją przeglądarki jak Tor, a znacznie mniej osób korzysta z Brave w trybie Tor — przez co łatwiej się wyróżnisz. Jeśli Twój model oceny ryzyka wymaga silnej anonimowości, używaj [Tor Browser](tor.md#tor-browser).
+[**Prywatne okno z Torem**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) pozwala kierować ruch przez sieć Tor w oknach prywatnych oraz uzyskiwać dostęp do usług .onion, co może być przydatne w niektórych przypadkach. Jednak Brave **nie** zapewnia takiej ochrony przed identyfikacją przeglądarki jak Tor, a znacznie mniej osób korzysta z Brave w trybie Tor — przez co łatwiej się wyróżnisz. Jeśli Twój model zagrożeń wymaga silnej anonimowości, używaj [Tor Browser](tor.md#tor-browser).
 
 ##### Gromadzenie danych
 
@@ -334,7 +334,7 @@ Brave pozwala wybrać dodatkowe filtry treści na wewnętrznej stronie `brave://
 
 #### Sieć Web3
 
-Funkcje Web3 w Brave mogą potencjalnie zwiększać unikalność Twojej przeglądarki oraz powierzchnię ataku. Jeśli nie korzystasz z żadnej z tych funkcji, powinieneś je wyłączyć.
+Funkcje Web3 w przeglądarce Brave mogą potencjalnie zwiększyć unikalność Twojego odcisku przeglądarki oraz powierzchnię ataku. Jeśli nie korzystasz z żadnej z tych funkcji, należy je wyłączyć.
 
 - Wybierz **Rozszerzenia (bez kopii zapasowej)** w sekcji *Domyślny portfel Ethereum*
 - Wybierz **Rozszerzenia (bez kopii zapasowej)** w sekcji *Domyślny portfel Solana*
@@ -345,9 +345,9 @@ Funkcje Web3 w Brave mogą potencjalnie zwiększać unikalność Twojej przeglą
 
 #### Wyszukiwarka
 
-Zalecamy wyłączenie podpowiedzi wyszukiwania w Brave z tego samego powodu, dla którego zalecamy wyłączenie tej funkcji w [Firefoksie](#search).
+Zalecamy wyłączenie podpowiedzi wyszukiwania w Brave, zwanych tam sugestiami wyszukiwania, z tych samych powodów, dla których zalecamy to w [Firefoksie](#search).
 
-- [ ] Odznacz **Podpowiedzi wyszukiwania**
+- [ ] Odznacz **Sugestie wyszukiwania**
 
 #### System
 
@@ -359,40 +359,40 @@ Zalecamy wyłączenie podpowiedzi wyszukiwania w Brave z tego samego powodu, dla
 
 1. Ta opcja nie jest dostępna na wszystkich platformach.
 
-#### Synchronizacja
+#### Synchronizacja (Brave Sync)
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) umożliwia dostęp do danych przeglądania (historii, zakładek itd.) na wszystkich urządzeniach bez potrzeby zakładania konta i chroni je za pomocą E2EE.
+[Brave Sync](https://support.brave.app/hc/pl/articles/360059793111-Zrozumienie-Brave-Sync) pozwala na dostęp do danych przeglądania (historii, zakładek itp.) na wszystkich Twoich urządzeniach bez potrzeby zakładania konta i chroni je za pomocą szyfrowania typu E2EE (end-to-end encryption).
 
-#### Nagrody i Portfel Brave
+#### Nagrody i portfel Brave
 
-**Nagrody Brave** pozwalają otrzymywać kryptowalutę Basic Attention Token (BAT) za wykonywanie określonych działań w przeglądarce Brave. Wymaga założenia konta powierniczego oraz weryfikacji tożsamości (KYC) u wybranych dostawców usług. Nie polecamy BAT jako [prywatnej kryptowaluty](cryptocurrency.md) ani korzystania z [portfela powierniczego](advanced/payments.md#wallet-custody), odradzamy używanie tej funkcji.
+**Nagrody Brave** pozwalają na zdobywanie kryptowaluty Basic Attention Token (BAT) za wykonywanie określonych czynności w przeglądarce Brave. System ten wymaga konta powierniczego oraz weryfikacji na bazie procedury KYC u wybranych dostawców usług. Nie zalecamy BAT jako [prywatnej kryptowaluty](cryptocurrency.md) ani korzystania z [portfela powierniczego](advanced/payments.md#wallet-custody), dlatego odradzamy używanie tej funkcji.
 
 **Portfel Brave** działa lokalnie na Twoim komputerze, ale nie obsługuje żadnych prywatnych kryptowalut, dlatego również odradzamy korzystanie z tej funkcji.
 
 ## Kryteria
 
-**Zwróć uwagę, że nie jesteśmy powiązani z żadnym z polecanych przez nas projektów.** Oprócz [naszych standardowych kryteriów](about/criteria.md) opracowaliśmy również jasny zestaw wymagań, który pozwala nam przedstawiać obiektywne rekomendacje. Zalecamy zapoznanie się z tą listą przed wyborem projektu oraz przeprowadzenie własnych badań, by upewnić się, że jest to odpowiedni wybór dla Ciebie.
+**Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas projektów.** Oprócz [naszych standardowych kryteriów](about/criteria.md) opracowaliśmy jasny zestaw wymagań, które pozwalają nam formułować obiektywne rekomendacje. Zalecamy zapoznanie się z tą listą przed wyborem projektu oraz przeprowadzenie własnych badań, aby upewnić się, że jest to odpowiedni wybór dla Ciebie.
 
-### Wymagania minimalne
+### Minimalne wymagania
 
-- Musi być otwartym oprogramowaniem.
+- Musi być oprogramowaniem typu open source.
 - Musi obsługiwać automatyczne aktualizacje.
-- Musi otrzymywać aktualizacje silnika w ciągu 0-1 dnia od oficjalnego wydania.
-- Musi być dostępne na Linuksa, macOS i Windows.
-- Wszelkie zmiany mające na celu zwiększenie prywatności nie mogą negatywnie wpływać na doświadczenie użytkownika.
+- Musi otrzymywać aktualizacje silnika w ciągu 0–1 dnia od oficjalnego wydania.
+- Musi być dostępne na systemach Linux, macOS i Windows.
+- Wszelkie zmiany mające na celu zwiększenie prywatności nie mogą pogarszać komfortu użytkowania.
 - Musi domyślnie blokować ciasteczka stron trzecich.
-- Musi obsługiwać [partycjonowanie stanu](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning), aby ograniczać śledzenie między stronami.[^1]
+- Musi obsługiwać [partycjonowanie stanu](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) w celu ograniczenia śledzenia między witrynami.[^1]
 
 ### Najlepszy scenariusz
 
-Nasze kryteria najlepszego scenariusza określają, czego oczekiwalibyśmy od idealnego projektu w tej kategorii. Nie wszystkie nasze rekomendacje muszą spełniać wszystkie te wymagania, jednak te, które je spełniają, mogą być oceniane wyżej od pozostałych na tej stronie.
+Nasze kryteria „najlepszego scenariusza” określają, jak powinien wyglądać idealny projekt w tej kategorii. Nasze zalecenia nie muszą spełniać wszystkich tych warunków, jednak projekty, które spełniają więcej z nich, mogą być oceniane wyżej od pozostałych na stronie.
 
-- Powinien mieć wbudowaną funkcję blokowania treści.
+- Powinien zawierać wbudowaną funkcję blokowania treści.
 - Powinien obsługiwać izolację ciasteczek (na wzór [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Powinien obsługiwać progresywne aplikacje internetowe (PWA). PWA umożliwiają instalowanie wybranych stron internetowych tak, jakby były natywnymi aplikacjami na komputerze. To rozwiązanie ma przewagę nad instalowaniem aplikacji opartych na Electronie, ponieważ PWA korzystają z regularnych aktualizacji bezpieczeństwa przeglądarki.
+- Powinien obsługiwać progresywne aplikacje internetowe (PWA). PWA umożliwiają instalowanie wybranych stron internetowych tak, jakby były natywnymi aplikacjami na komputerze. To rozwiązanie ma przewagę nad aplikacjami opartymi na Electronie, ponieważ PWA korzystają z regularnych aktualizacji zabezpieczeń przeglądarki.
 - Nie powinien zawierać dodatkowych funkcji (bloatware), które nie wpływają na prywatność użytkownika.
-- Nie powinien domyślnie zbierać danych telemetrycznych.
-- Powinien udostępniać otwartoźródłową implementację serwera synchronizacji.
-- Domyślnie powinien korzystać z [prywatnej wyszukiwarki](search-engines.md).
+- Nie powinien domyślnie gromadzić danych telemetrycznych.
+- Powinien udostępniać implementację serwera synchronizacji typu open source.
+- Powinien domyślnie korzystać z [prywatnej wyszukiwarki](search-engines.md).
 
-[^1]: Implementacja Brave została opisana szczegółowo w [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).
+[^1]: Implementacja Brave’a została opisana szczegółowo tutaj: [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state)(ang.).
