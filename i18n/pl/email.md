@@ -22,35 +22,35 @@ Korzystanie z poczty e-mail jest praktycznie niezbędne do używania większośc
 
 Do pozostałych zastosowań zalecamy różnorodne usługi e-mail, oparte na zrównoważonych modelach biznesowych i wyposażone we wbudowane funkcje bezpieczeństwa oraz prywatności. Pełną [listę kryteriów](#criteria) znajdziesz w dalszej części strony.
 
-| Dostawca                      | OpenPGP / WKD                          | IMAP / SMTP                                                         | Szyfrowanie z zerowym dostępem                          | Anonimowe metody płatności                                |
-| ----------------------------- | -------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------- | --------------------------------------------------------- |
-| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Tylko w płatnych planach | :material-check:{ .pg-green }                           | Gotówka                                                   |
-| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                       | :material-information-outline:{ .pg-blue } Tylko poczta | Gotówka                                                   |
-| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                              | :material-check:{ .pg-green }                           | Monero <br>Gotówka za pośrednictwem strony trzeciej |
+| Dostawca                        | OpenPGP / WKD                          | IMAP / SMTP                                                         | Szyfrowanie z zerowym dostępem                          | Anonimowe metody płatności                |
+| ------------------------------- | -------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------- | ----------------------------------------- |
+| [Proton Mail](#proton-mail)     | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Tylko w płatnych planach | :material-check:{ .pg-green }                           | Gotówka                                   |
+| [Poczta Mailbox](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                       | :material-information-outline:{ .pg-blue } Tylko poczta | Gotówka                                   |
+| [Tuta](#tuta)                   | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                              | :material-check:{ .pg-green }                           | Monero <br>Gotówka przez pośrednika |
 
-Oprócz (lub zamiast) zalecanego tutaj dostawcy poczty e-mail, możesz rozważyć dedykowaną [usługę aliasingu poczty e-mail](email-aliasing.md#recommended-providers), aby chronić swoją prywatność. Usługi te mogą między innymi pomóc chronić twoją prawdziwą skrzynkę odbiorczą przed spamem, uniemożliwić marketingowcom korelację twoich kont i zaszyfrować wszystkie wiadomości przychodzące przy użyciu PGP.
+Oprócz (lub zamiast) jednego z wymienionych tutaj dostawców usług e-mail, możesz rozważyć skorzystanie z dedykowanej [usługi aliasingu e-maili](email-aliasing.md#recommended-providers) w celu zwiększenia swojej prywatności. Między innymi takie usługi pomagają chronić Twoją prawdziwą skrzynkę przed spamem, uniemożliwiają marketerom powiązanie Twoich kont oraz szyfrują wszystkie przychodzące wiadomości za pomocą PGP.
 
 - [Więcej informacji :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## Usługi kompatybilne z OpenPGP
 
-Dostawcy ci natywnie obsługują szyfrowanie/deszyfrowanie OpenPGP i standard [Web Key Directory (WKD)](basics/email-security.md#what-is-the-web-key-directory-standard), umożliwiając niezależne od dostawcy kompleksowe szyfrowanie wiadomości e-mail. For example, a Proton Mail user could send an E2EE message to a Mailbox Mail user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
+Ci dostawcy natywnie obsługują szyfrowanie i deszyfrowanie OpenPGP oraz standard [Web Key Directory (WKD)](basics/email-security.md#what-is-the-web-key-directory-standard), co umożliwia wysyłanie i odbieranie wiadomości e-mail z szyfrowaniem typu end-to-end (E2EE) niezależnie od dostawcy. Na przykład użytkownik Proton Mail może wysłać zaszyfrowaną wiadomość E2EE do użytkownika poczty Mailbox, lub możesz otrzymywać zaszyfrowane powiadomienia OpenPGP od usług internetowych, które je wspierają.
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
-- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
+- ![Logo Proton Mail](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
+- ![Logo poczty Mailbox](assets/img/email/mailbox-mail.svg){ .twemoji } [Poczta Mailbox](#mailbox-mail)
 
 </div>
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">Ostrzeżenie</p>
 
-Podczas korzystania z technologii E2EE, takiej jak OpenPGP, wiadomość e-mail nadal będzie zawierać pewne metadane, które nie są zaszyfrowane w nagłówku wiadomości e-mail, w tym zazwyczaj wiersz tematu! Dowiedz się więcej o [metadanych e-maili](basics/email-security.md#email-metadata-overview).
+Podczas korzystania z technologii E2EE, takich jak OpenPGP, część metadanych wiadomości e-mail wciąż pozostaje niezaszyfrowana — dotyczy to m.in. nagłówka wiadomości, który zazwyczaj zawiera temat maila! Dowiedz się więcej o [metadanych e-maili](basics/email-security.md#email-metadata-overview).
 
-OpenPGP nie obsługuje również funkcji forward secrecy, co oznacza, że jeśli klucz prywatny użytkownika lub odbiorcy wiadomości zostanie kiedykolwiek skradziony, wszystkie poprzednie wiadomości zaszyfrowane za jego pomocą zostaną ujawnione.
+OpenPGP nie zapewnia również utajniania z wyprzedzeniem, co oznacza, że jeśli prywatny klucz Twój lub odbiorcy zostanie kiedykolwiek skradziony, wszystkie wcześniejsze wiadomości zaszyfrowane tym kluczem mogą zostać ujawnione.
 
-- [Jak chronić swoje klucze prywatne?](basics/email-security.md#how-do-i-protect-my-private-keys)
+— [Jak chronić swoje klucze prywatne?](basics/email-security.md#how-do-i-protect-my-private-keys)
 
 </div>
 
@@ -60,70 +60,70 @@ OpenPGP nie obsługuje również funkcji forward secrecy, co oznacza, że jeśli
 
 ![Logo Proton Mail](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** to usługa poczty elektronicznej skupiająca się na prywatności, szyfrowaniu, bezpieczeństwie i łatwości użytkowania. Działają od 2013 roku. Proton AG ma siedzibę w Genewie, w Szwajcarii.
+**Proton Mail** to usługa e-mail skupiona na prywatności, szyfrowaniu, bezpieczeństwie i prostocie obsługi. Działa od 2013 roku. Proton AG ma siedzibę w Genewie, w Szwajcarii.
 
-Plan Proton Free obejmuje 500 MB pamięci pocztowej, którą możesz bezpłatnie zwiększyć do 1 GB.
+Darmowy plan Proton Free oferuje 500 MB miejsca na pocztę, które można bezpłatnie zwiększyć do 1 GB.
 
-[:octicons-home-16: Strona główna](https://proton.me/mail){ .md-button .md-button--primary }
-[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Usługa Onion" }
-[:octicons-eye-16:](https://proton.me/mail/privacy-policy){ .card-link title="Polityka prywatności" }
-[:octicons-info-16:](https://proton.me/support/mail){ .card-link title="Dokumentacja" }
+[:octicons-home-16: Strona główna](https://proton.me/pl/mail){ .md-button .md-button--primary }
+[:simple-torbrowser:](https://protonmailrmez3lotccipshtkleegetolb73fuirgj7r4o4vfu7ozyd.onion){ .card-link title="Usługa onion" }
+[:octicons-eye-16:](https://proton.me/pl/legal/policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://proton.me/support/pl/mail){ .card-link title="Dokumentacja" }
 [:octicons-code-16:](https://github.com/ProtonMail){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
-<summary>Pliki do pobrania</summary>
+<summary>Pobierz</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
-- [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
+- [:simple-appstore: App Store](https://apps.apple.com/app/id979659905?l=pl)
 - [:simple-github: GitHub](https://github.com/ProtonMail/android-mail/releases)
-- [:fontawesome-brands-windows: Windows](https://proton.me/mail/bridge#download)
-- [:simple-apple: macOS](https://proton.me/mail/bridge#download)
-- [:simple-linux: Linux](https://proton.me/mail/bridge#download)
-- [:octicons-browser-16: Przeglądarka](https://mail.proton.me)
+- [:fontawesome-brands-windows: Windows](https://proton.me/pl/mail/bridge#download)
+- [:simple-apple: macOS](https://proton.me/pl/mail/bridge#download)
+- [:simple-linux: Linux](https://proton.me/pl/mail/bridge#download)
+- [:octicons-browser-16: Wersja przeglądarkowa](https://mail.proton.me)
 
 </details>
 
 </div>
 
-Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) (e.g., Thunderbird). Paid accounts include features like Proton Mail Bridge, additional storage, and custom domain support. If you have the Proton Unlimited plan or any multi-user Proton plan, you also get [SimpleLogin](email-aliasing.md#simplelogin) Premium for free.
+Konta bezpłatne mają pewne ograniczenia, takie jak brak możliwości wyszukiwania w treści wiadomości oraz brak dostępu do [Proton Mail Bridge](https://proton.me/pl/mail/bridge), który jest wymagany do korzystania z [zalecanego klienta poczty desktopowej](email-clients.md) (np. Thunderbird). Konta płatne obejmują funkcje takie jak Proton Mail Bridge, dodatkową przestrzeń dyskową oraz obsługę własnych domen. Jeśli posiadasz plan Proton Unlimited lub jakikolwiek plan dla wielu użytkowników, otrzymujesz także darmowy dostęp do [SimpleLogin](email-aliasing.md#simplelogin) Premium.
 
-A [letter of attestation](https://proton.me/blog/security-audit-all-proton-apps) was provided for Proton Mail's apps on 9th November 2021 by [Securitum](https://research.securitum.com).
+[Raport potwierdzający bezpieczeństwo](https://proton.me/pl/blog/security-audit-all-proton-apps) aplikacji Proton Mail został wydany 9 listopada 2021 roku przez firmę [Securitum](https://research.securitum.com).
 
-Proton Mail has internal crash reports that are **not** shared with third parties. This can be disabled in the web app: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+Proton Mail gromadzi wewnętrzne raporty o awariach, które **nie są** udostępniane podmiotom trzecim. Funkcję tę można wyłączyć w aplikacji webowej: :gear: → **Wszystkie ustawienia** → **Konto** → **Bezpieczeństwo i prywatność** → **Prywatność i gromadzenie danych**.
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } Domeny niestandardowe i aliasy
 
-Paid Proton Mail subscribers can use their own domain with the service or a [catch-all](https://proton.me/support/catch-all) address. Proton Mail also supports [sub-addressing](https://proton.me/support/creating-aliases), which is useful for people who don't want to purchase a domain.
+Płatni użytkownicy Proton Mail mogą korzystać z własnej domeny lub z adresu typu [catch-all](https://proton.me/pl/support/catch-all). Proton Mail obsługuje również [sub-adresowanie](https://proton.me/pl/support/creating-aliases), przydatne dla osób, które nie chcą kupować własnej domeny.
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### :material-check:{ .pg-green } Prywatne metody płatności
 
-Proton Mail [accepts](https://proton.me/support/payment-options) **cash** by mail in addition to standard credit/debit card, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), and PayPal payments.
+Proton Mail [akceptuje](https://proton.me/pl/support/payment-options) płatność **gotówką** wysłaną pocztą, a także standardowe płatności kartą kredytową/debetową, [Bitcoinem](advanced/payments.md#other-coins-bitcoin-ethereum-etc) oraz przez PayPal.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } Bezpieczeństwo konta
 
-Proton Mail supports TOTP [two-factor authentication](https://proton.me/support/two-factor-authentication-2fa) and [hardware security keys](https://proton.me/support/2fa-security-key) using FIDO2 or U2F standards. The use of a hardware security key requires setting up TOTP two-factor authentication first.
+Proton Mail obsługuje [uwierzytelnianie dwuskładnikowe](https://proton.me/pl/support/two-factor-authentication-2fa) hasłem jednorazowym ograniczonym czasowo (TOTP) oraz [sprzętowe klucze bezpieczeństwa](https://proton.me/pl/support/2fa-security-key) zgodne ze standardami FIDO2 lub U2F. Aby skorzystać z klucza bezpieczeństwa, należy najpierw skonfigurować uwierzytelnianie TOTP.
 
-#### :material-check:{ .pg-green } Data Security
+#### :material-check:{ .pg-green } Bezpieczeństwo danych
 
-Proton Mail has [zero-access encryption](https://proton.me/blog/zero-access-encryption) at rest for your emails and [calendars](https://proton.me/news/protoncalendar-security-model). Data secured with zero-access encryption is only accessible by you.
+Proton Mail stosuje [szyfrowanie z zerowym dostępem](https://proton.me/blog/zero-access-encryption) (zero-access encryption) dla Twoich wiadomości e-mail oraz [kalendarzy](https://proton.me/news/protoncalendar-security-model). Dane zabezpieczone tym mechanizmem są dostępne wyłącznie dla Ciebie.
 
-Certain information stored in [Proton Contacts](https://proton.me/support/proton-contacts), such as display names and email addresses, are not secured with zero-access encryption. Contact fields that support zero-access encryption, such as phone numbers, are indicated with a padlock icon.
+Niektóre informacje przechowywane w [Proton Contacts](https://proton.me/pl/support/proton-contacts), takie jak wyświetlane nazwy czy adresy e-mail, nie są objęte szyfrowaniem z zerowym dostępem. Pola kontaktów, które wspierają ten rodzaj szyfrowania (np. numery telefonów), są oznaczone ikoną kłódki.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } Szyfrowanie wiadomości e-mail
 
-Proton Mail has [integrated OpenPGP encryption](https://proton.me/support/how-to-use-pgp) in their webmail. Emails to other Proton Mail accounts are encrypted automatically, and encryption to non-Proton Mail addresses with an OpenPGP key can be enabled easily in your account settings. Proton also supports automatic external key discovery with WKD. This means that emails sent to other providers which use WKD will be automatically encrypted with OpenPGP as well, without the need to manually exchange public PGP keys with your contacts. They also allow you to [encrypt messages to non-Proton Mail addresses without OpenPGP](https://proton.me/support/password-protected-emails), without the need for them to sign up for a Proton Mail account.
+Proton Mail ma [zintegrowane szyfrowanie OpenPGP](https://proton.me/pl/support/how-to-use-pgp) w swojej aplikacji webowej. Wiadomości między kontami Proton Mail są szyfrowane automatycznie, a szyfrowanie do adresów spoza Proton Mail, które posiadają klucz OpenPGP, można łatwo włączyć w ustawieniach konta. Proton obsługuje również automatyczne wyszukiwanie zewnętrznych kluczy publicznych przez Katalog kluczy publicznych (WKD). Oznacza to, że wiadomości wysyłane do innych dostawców korzystających z WKD będą automatycznie szyfrowane za pomocą OpenPGP, bez konieczności ręcznej wymiany kluczy PGP z kontaktami. Proton Mail umożliwia także [szyfrowanie wiadomości do adresów spoza Proton Mail bez użycia OpenPGP](https://proton.me/support/password-protected-emails) — odbiorca nie musi zakładać konta Proton Mail, by taką wiadomość odczytać.
 
-Proton Mail also publishes the public keys of Proton accounts via HTTP from their WKD. This allows people who don't use Proton Mail to find the OpenPGP keys of Proton Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Proton's own domains, like `@proton.me`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Proton Mail publikuje również klucze publiczne kont Proton poprzez HTTP w swoim WKD. Dzięki temu osoby spoza Proton Mail mogą łatwo znaleźć klucze OpenPGP kont Proton Mail i korzystać z szyfrowanej komunikacji między różnymi dostawcami (E2EE). Dotyczy to wyłącznie adresów e-mail zakończonych jedną z domen Proton, np. `@proton.me`. Jeśli używasz własnej domeny, musisz [skonfigurować WKD](basics/email-security.md#what-is-the-web-key-directory-standard) osobno.
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } Zamknięcie konta
 
-If you have a paid account and your [bill is unpaid](https://proton.me/support/delinquency) after 14 days, you won't be able to access your data. After 30 days, your account will become delinquent and won't receive incoming mail. You will continue to be billed during this period. Proton will [delete inactive free accounts](https://proton.me/support/inactive-accounts) after one year. You **cannot** reuse the email address of a deactivated account.
+Jeśli posiadasz konto płatne i Twój [rachunek pozostaje nieopłacony](https://proton.me/pl/support/delinquency) przez 14 dni, utracisz dostęp do swoich danych. Po 30 dniach konto zostanie oznaczone jako zaległe i przestanie odbierać nowe wiadomości, przy czym nadal będzie naliczana opłata. Proton [usuwa nieaktywne darmowe konta](https://proton.me/pl/support/inactive-accounts) po upływie jednego roku. **Nie można** ponownie użyć adresu e-mail powiązanego z dezaktywowanym kontem.
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } Dodatkowe funkcje
 
-Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) plan also enables access to other Proton services in addition to providing multiple custom domains, unlimited hide-my-email aliases, and 500 GB of storage.
+Plan [Proton Unlimited](https://proton.me/pl/support/proton-plans#proton-unlimited) umożliwia dostęp do innych usług Proton, a także zapewnia korzystanie z wielu własnych domen, nieograniczonej liczby aliasów z funkcją hide-my-email oraz 500 GB przestrzeni dyskowej.
 
-### Mailbox Mail
+### Poczta Mailbox
 
 <div class="admonition recommendation" markdown>
 
@@ -146,15 +146,15 @@ Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
 </div>
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } Domeny niestandardowe i aliasy
 
 Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
 
-#### :material-check:{ .pg-green } Private Payment Methods
+#### :material-check:{ .pg-green } Prywatne metody płatności
 
 Mailbox Mail doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept **cash** by mail, **cash** payment to bank account, bank transfer, credit card, PayPal, and a couple of German-specific processors: Paydirekt and Sofortüberweisung.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } Bezpieczeństwo konta
 
 Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](security-keys.md#yubikey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) are not yet supported.
 
@@ -164,17 +164,17 @@ Mailbox Mail allows for encryption of incoming mail using their [encrypted mailb
 
 However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that data.
 
-#### :material-check:{ .pg-green } Email Encryption
+#### :material-check:{ .pg-green } Szyfrowanie wiadomości e-mail
 
 Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox Mail's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox.
 
-Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. If you use a custom domain, you must [configure WKD](basics/email-security.md#what-is-the-web-key-directory-standard) separately.
+Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. Jeśli używasz własnej domeny, musisz [skonfigurować WKD](basics/email-security.md#what-is-the-web-key-directory-standard) osobno.
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } Zamknięcie konta
 
 Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } Dodatkowe funkcje
 
 You can access your Mailbox Mail account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). However, their webmail interface cannot be accessed via their .onion service, and you may experience TLS certificate errors.
 
@@ -226,7 +226,7 @@ Free accounts start with 1 GB of storage.
 
 Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
 
-#### :material-check:{ .pg-green } Custom Domains and Aliases
+#### :material-check:{ .pg-green } Domeny niestandardowe i aliasy
 
 Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/support#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/support#plus), but you can use a [catch-all](https://tuta.com/support#settings-global) with a custom domain.
 
@@ -234,11 +234,11 @@ Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and u
 
 Tuta only directly accepts credit cards and PayPal, however [**cryptocurrency**](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
 
-#### :material-check:{ .pg-green } Account Security
+#### :material-check:{ .pg-green } Bezpieczeństwo konta
 
 Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
 
-#### :material-check:{ .pg-green } Data Security
+#### :material-check:{ .pg-green } Bezpieczeństwo danych
 
 Tuta has [zero-access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). This means the messages and other data stored in your account are only readable by you.
 
@@ -246,11 +246,11 @@ Tuta has [zero-access encryption at rest](https://tuta.com/support#what-encrypte
 
 Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
 
-#### :material-information-outline:{ .pg-blue } Account Termination
+#### :material-information-outline:{ .pg-blue } Zamknięcie konta
 
 Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
 
-#### :material-information-outline:{ .pg-blue } Additional Functionality
+#### :material-information-outline:{ .pg-blue } Dodatkowe funkcje
 
 Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
 
