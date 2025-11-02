@@ -37,7 +37,7 @@ Email aliasing services also have a number of benefits over "temporary email" se
 - Emails are sent to your trusted mailbox rather than stored by the alias provider.
 - Temporary email services typically have public mailboxes which can be accessed by anyone who knows the address, while aliases are private to you.
 
-## Rekomendowani dostawcy
+## Zalecani dostawcy
 
 <div class="grid cards" markdown>
 

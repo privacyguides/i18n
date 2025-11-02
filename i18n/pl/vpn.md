@@ -29,7 +29,7 @@ Jeśli szukasz **anonimowości**, powinieneś korzystać z przeglądarki Tor. Je
 
 [Szczegółowy przegląd VPN :material-arrow-right-drop-circle:](basics/vpn-overview.md ""){.md-button}
 
-## Rekomendowani dostawcy
+## Zalecani dostawcy
 
 Polecani przez nas dostawcy stosują szyfrowanie, obsługują WireGuard & OpenVPN i stosują politykę braku logów. Przeczytaj naszą [pełną listę kryteriów](#criteria), aby uzyskać więcej informacji.
 

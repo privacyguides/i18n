@@ -16,7 +16,7 @@ global:
 
 Use a **search engine** that doesn't build an advertising profile based on your searches.
 
-## Rekomendowani dostawcy
+## Zalecani dostawcy
 
 The recommendations here do not collect personally identifying information (PII) based on each service's privacy policy. There is **no guarantee** that these privacy policies are honored.
 

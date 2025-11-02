@@ -2,7 +2,7 @@
 meta_title: "Zalecane szyfrowane prywatne usługi e-mail – Privacy Guides"
 title: Usługi e-mail
 icon: material/email
-description: Ci dostawcy poczty e-mail oferują świetne miejsce do bezpiecznego przechowywania wiadomości e-mail, a wielu z nich oferuje interoperacyjne szyfrowanie OpenPGP z innymi dostawcami.
+description: Ci dostawcy poczty e-mail oferują bezpieczne miejsce do przechowywania Twoich wiadomości e-mail, a wielu z nich zapewnia kompatybilne szyfrowanie OpenPGP do komunikacji z innymi usługodawcami.
 cover: email.webp
 global:
   - 
@@ -14,19 +14,19 @@ global:
 
 - [:material-server-network: Usługodawcy](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
-Poczta e-mail jest praktycznie niezbędna do korzystania z dowolnej usługi online, jednak nie zalecamy jej do rozmów osobistych. Zamiast korzystać z poczty e-mail do kontaktowania się z innymi osobami, warto rozważyć użycie komunikatora internetowego, który obsługuje przekazywanie poufnych informacji.
+Korzystanie z poczty e-mail jest praktycznie niezbędne do używania większości usług online, jednak nie zalecamy jej do rozmów osobistych. Zamiast używać e-maila do kontaktu z innymi ludźmi, rozważ komunikator internetowy obsługujący utajnianie z wyprzedzeniem (forward secrecy).
 
 [Zalecane komunikatory internetowe](real-time-communication.md ""){.md-button}
 
-## Rekomendowani dostawcy
+## Zalecani dostawcy
 
-W pozostałych przypadkach polecamy różnych dostawców poczty e-mail w oparciu o zrównoważone modele biznesowe oraz wbudowane funkcje bezpieczeństwa i prywatności. Przeczytaj naszą [pełną listę kryteriów](#criteria), aby uzyskać więcej informacji.
+Do pozostałych zastosowań zalecamy różnorodne usługi e-mail, oparte na zrównoważonych modelach biznesowych i wyposażone we wbudowane funkcje bezpieczeństwa oraz prywatności. Pełną [listę kryteriów](#criteria) znajdziesz w dalszej części strony.
 
-| Dostawca                      | OpenPGP / WKD                          | IMAP /SMTP                                                    | Szyfrowanie po stronie klienta                          | Anonimowe metody płatności                                |
-| ----------------------------- | -------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------- | --------------------------------------------------------- |
-| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Tylko płatne plany | :material-check:{ .pg-green }                           | Gotówka                                                   |
-| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                 | :material-information-outline:{ .pg-blue } Tylko poczta | Gotówka                                                   |
-| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                        | :material-check:{ .pg-green }                           | Monero <br>Gotówka za pośrednictwem strony trzeciej |
+| Dostawca                      | OpenPGP / WKD                          | IMAP / SMTP                                                         | Szyfrowanie z zerowym dostępem                          | Anonimowe metody płatności                                |
+| ----------------------------- | -------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------- | --------------------------------------------------------- |
+| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Tylko w płatnych planach | :material-check:{ .pg-green }                           | Gotówka                                                   |
+| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                       | :material-information-outline:{ .pg-blue } Tylko poczta | Gotówka                                                   |
+| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                              | :material-check:{ .pg-green }                           | Monero <br>Gotówka za pośrednictwem strony trzeciej |
 
 Oprócz (lub zamiast) zalecanego tutaj dostawcy poczty e-mail, możesz rozważyć dedykowaną [usługę aliasingu poczty e-mail](email-aliasing.md#recommended-providers), aby chronić swoją prywatność. Usługi te mogą między innymi pomóc chronić twoją prawdziwą skrzynkę odbiorczą przed spamem, uniemożliwić marketingowcom korelację twoich kont i zaszyfrować wszystkie wiadomości przychodzące przy użyciu PGP.
 
