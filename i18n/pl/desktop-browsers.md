@@ -310,13 +310,13 @@ Brave pozwala wybrać dodatkowe filtry treści na wewnętrznej stronie `brave://
 
 <div class="annotate" markdown>
 
-- [x] Select **Don’t allow sites to use JavaScript optimization** under *Security* → *Manage JavaScript optimization & security* (1)
-- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
-- [x] Select **Disable non-proxied UDP** under [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [x] Select **Auto-redirect AMP pages**
-- [x] Select **Auto-redirect tracking URLs**
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- [x] Wybierz **Nie zezwalaj witrynom na korzystanie z optymalizacji JavaScriptu** w sekcji *Bezpieczeństwo* → *Zarządzanie optymalizacją i zabezpieczeniami JavaScriptu* (1)
+- [x] Zaznacz **Automatycznie usuwaj uprawnienia nieużywanych witryn** w sekcji *Ustawienia stron i tarcz*
+- [x] Wybierz **Wyłącz UDP bez proxy** w sekcji [*Zasady obsługi IP WebRTC IP*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+- [ ] Odznacz **Użyj usług Google do wiadomości typu push**
+- [x] Zaznacz **Automatyczne przekierowywanie stron AMP**
+- [x] Zaznacz **Automatycznie przekierowuj śledzące adresy URL**
+- [x] Zaznacz **Zablokuj zdejmowanie odcisków palców na podstawie moich preferencji językowych**
 
 </div>
 
@@ -324,7 +324,7 @@ Brave pozwala wybrać dodatkowe filtry treści na wewnętrznej stronie `brave://
 
 ##### Okna w Tor
 
-[**Prywatne okno z Torem**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) umożliwia kierowanie ruchu przez sieć Tor w oknach prywatnych oraz dostęp do usług .onion, co w niektórych przypadkach może być przydatne. Jednak Brave **nie** zapewnia takiej ochrony przed identyfikacją przeglądarki jak Tor, a znacznie mniej osób korzysta z Brave w trybie Tor — przez co łatwiej się wyróżnisz. Jeśli Twój model zagrożeń wymaga silnej anonimowości, używaj [przeglądarki Tor](tor.md#tor-browser).
+[**Prywatne okno z Torem**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) pozwala kierować ruch przez sieć Tor w oknach prywatnych oraz uzyskiwać dostęp do usług .onion, co może być przydatne w niektórych przypadkach. Jednak Brave **nie** zapewnia takiej ochrony przed identyfikacją przeglądarki jak Tor, a znacznie mniej osób korzysta z Brave w trybie Tor — przez co łatwiej się wyróżnisz. Jeśli Twój model oceny ryzyka wymaga silnej anonimowości, używaj [Tor Browser](tor.md#tor-browser).
 
 ##### Gromadzenie danych
 
