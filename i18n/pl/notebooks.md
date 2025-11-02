@@ -5,7 +5,7 @@ description: These encrypted note-taking apps let you keep track of your notes w
 cover: notebooks.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Chroni przed następującymi zagrożeniami:</small>
 
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 

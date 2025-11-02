@@ -23,7 +23,7 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Chroni przed następującymi zagrożeniami:</small>
 
 - [:material-account-cash: Kapitalizm inwigilacji](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 - [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}

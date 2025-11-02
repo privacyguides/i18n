@@ -5,7 +5,7 @@ description: Dystrybucje systemu Linux są powszechnie polecane, jeśli chodzi o
 cover: desktop.webp
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Chroni przed następującymi zagrożeniami:</small>
 
 - [:material-account-cash: Kapitalizm inwigilacji](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
@@ -189,7 +189,7 @@ By design, Tails is meant to completely reset itself after each reboot. Encrypte
 
 ## Security-focused Distributions
 
-<small>Protects against the following threat(s):</small>
+<small>Chroni przed następującymi zagrożeniami:</small>
 
 - [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 

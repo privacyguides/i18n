@@ -1,6 +1,6 @@
 ---
-meta_title: "Zalecenia dotyczące szyfrowanej, prywatnej poczty e-mail - Privacy Guides"
-title: Usługi poczty elektronicznej
+meta_title: "Zalecane szyfrowane prywatne usługi e-mail – Privacy Guides"
+title: Usługi e-mail
 icon: material/email
 description: Ci dostawcy poczty e-mail oferują świetne miejsce do bezpiecznego przechowywania wiadomości e-mail, a wielu z nich oferuje interoperacyjne szyfrowanie OpenPGP z innymi dostawcami.
 cover: email.webp

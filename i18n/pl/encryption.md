@@ -14,7 +14,7 @@ The options listed here are available on multiple platforms and great for creati
 
 ### Cryptomator (Chmura)
 
-<small>Protects against the following threat(s):</small>
+<small>Chroni przed następującymi zagrożeniami:</small>
 
 - [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 
@@ -55,7 +55,7 @@ Cryptomator's documentation details its intended [security target](https://docs.
 
 ### VeraCrypt (Disk)
 
-<small>Protects against the following threat(s):</small>
+<small>Chroni przed następującymi zagrożeniami:</small>
 
 - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
@@ -90,7 +90,7 @@ TrueCrypt has been [audited a number of times](https://en.wikipedia.org/wiki/Tru
 
 ## Operating System Encryption
 
-<small>Protects against the following threat(s):</small>
+<small>Chroni przed następującymi zagrożeniami:</small>
 
 - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
@@ -218,7 +218,7 @@ cryptsetup luksHeaderBackup /dev/device --header-backup-file /mnt/backup/file.im
 
 ## Command-line
 
-<small>Protects against the following threat(s):</small>
+<small>Chroni przed następującymi zagrożeniami:</small>
 
 - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 
@@ -268,7 +268,7 @@ Tools with command-line interfaces are useful for integrating [shell scripts](ht
 
 ## OpenPGP
 
-<small>Protects against the following threat(s):</small>
+<small>Chroni przed następującymi zagrożeniami:</small>
 
 - [:material-target-account: Targeted Attacks](basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}
 - [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy ""){.pg-orange}

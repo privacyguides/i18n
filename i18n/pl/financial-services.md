@@ -5,7 +5,7 @@ cover: financial-services.webp
 description: These services can assist you in protecting your privacy from merchants and other trackers, which is one of the biggest challenges to privacy today.
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Chroni przed następującymi zagrożeniami:</small>
 
 - [:material-account-cash: Kapitalizm inwigilacji](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
@@ -15,7 +15,7 @@ Making payments online is one of the biggest challenges to privacy. These servic
 
 ## Payment Masking Services
 
-<small>Protects against the following threat(s):</small>
+<small>Chroni przed następującymi zagrożeniami:</small>
 
 - [:material-account-search: Public Exposure](basics/common-threats.md#limiting-public-information ""){.pg-green}
 
@@ -75,7 +75,7 @@ MySudo's virtual cards are currently only available via their iOS app.
 
 ## Gift Card Marketplaces
 
-<small>Protects against the following threat(s):</small>
+<small>Chroni przed następującymi zagrożeniami:</small>
 
 - [:material-eye-outline: Mass Surveillance](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
 
