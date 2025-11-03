@@ -91,7 +91,7 @@ Konta bezpłatne mają pewne ograniczenia, takie jak brak możliwości wyszukiwa
 
 Proton Mail gromadzi wewnętrzne raporty o awariach, które **nie są** udostępniane podmiotom trzecim. Funkcję tę można wyłączyć w aplikacji webowej: :gear: → **Wszystkie ustawienia** → **Konto** → **Bezpieczeństwo i prywatność** → **Prywatność i gromadzenie danych**.
 
-#### :material-check:{ .pg-green } Domeny niestandardowe i aliasy
+#### :material-check:{ .pg-green } Własne domeny i aliasy
 
 Płatni użytkownicy Proton Mail mogą korzystać z własnej domeny lub z adresu typu [catch-all](https://proton.me/pl/support/catch-all). Proton Mail obsługuje również [sub-adresowanie](https://proton.me/pl/support/creating-aliases), przydatne dla osób, które nie chcą kupować własnej domeny.
 
@@ -113,7 +113,7 @@ Niektóre informacje przechowywane w [Proton Contacts](https://proton.me/pl/supp
 
 Proton Mail ma [zintegrowane szyfrowanie OpenPGP](https://proton.me/pl/support/how-to-use-pgp) w swojej aplikacji webowej. Wiadomości między kontami Proton Mail są szyfrowane automatycznie, a szyfrowanie do adresów spoza Proton Mail, które posiadają klucz OpenPGP, można łatwo włączyć w ustawieniach konta. Proton obsługuje również automatyczne wyszukiwanie zewnętrznych kluczy publicznych przez Katalog kluczy publicznych (WKD). Oznacza to, że wiadomości wysyłane do innych dostawców korzystających z WKD będą automatycznie szyfrowane za pomocą OpenPGP, bez konieczności ręcznej wymiany kluczy PGP z kontaktami. Proton Mail umożliwia także [szyfrowanie wiadomości do adresów spoza Proton Mail bez użycia OpenPGP](https://proton.me/support/password-protected-emails) — odbiorca nie musi zakładać konta Proton Mail, by taką wiadomość odczytać.
 
-Proton Mail publikuje również klucze publiczne kont Proton poprzez HTTP w swoim WKD. Dzięki temu osoby spoza Proton Mail mogą łatwo znaleźć klucze OpenPGP kont Proton Mail i korzystać z szyfrowanej komunikacji między różnymi dostawcami (E2EE). Dotyczy to wyłącznie adresów e-mail zakończonych jedną z domen Proton, np. `@proton.me`. Jeśli używasz własnej domeny, musisz [skonfigurować WKD](basics/email-security.md#what-is-the-web-key-directory-standard) osobno.
+Proton Mail publikuje również klucze publiczne kont Proton poprzez HTTP w swoim WKD. Dzięki temu osoby spoza Proton Mail mogą łatwo znaleźć klucze OpenPGP kont Proton Mail i korzystać z szyfrowanej komunikacji między różnymi dostawcami (E2EE). Dotyczy to wyłącznie adresów e-mail zakończonych jedną z domen Proton, np. `@proton.me`. Jeśli korzystasz z własnej domeny, musisz [skonfigurować WKD](basics/email-security.md#what-is-the-web-key-directory-standard) osobno.
 
 #### :material-information-outline:{ .pg-blue } Zamknięcie konta
 
@@ -127,60 +127,60 @@ Plan [Proton Unlimited](https://proton.me/pl/support/proton-plans#proton-unlimit
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
+![Logo Mailbox.org](assets/img/email/mailbox-mail.svg){ align=right }
 
-**Mailbox Mail** is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. They have been in operation since 2014. Mailbox Mail is based in Berlin, Germany.
+Poczta **Mailbox** to usługa e-mail skoncentrowana na bezpieczeństwie, braku reklam oraz korzystaniu w 100% z energii pochodzącej ze źródeł odnawialnych. Działa od 2014 roku. Mailbox ma siedzibę w Berlinie, w Niemczech.
 
-Accounts start with up to 2 GB storage, which can be upgraded as needed.
+Konta oferują do 2 GB przestrzeni, którą można zwiększyć w razie potrzeby.
 
-[:octicons-home-16: Homepage](https://mailbox.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Documentation" }
+[:octicons-home-16: Strona główna](https://mailbox.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://mailbox.org/en/data-protection-privacy-policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://kb.mailbox.org/en/private){ .card-link title="Dokumentacja" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
-- [:octicons-browser-16: Web](https://login.mailbox.org)
+- [:octicons-browser-16: W przeglądarce](https://login.mailbox.org)
 
 </details>
 
 </div>
 
-#### :material-check:{ .pg-green } Domeny niestandardowe i aliasy
+#### :material-check:{ .pg-green } Własne domeny i aliasy
 
-Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
+Poczta Mailbox umożliwia korzystanie z własnej domeny oraz obsługuje adresy typu [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name). Usługa wspiera również [sub-adresowanie](https://proton.me/pl/support/creating-aliases), przydatne dla osób, które nie chcą kupować własnej domeny.
 
 #### :material-check:{ .pg-green } Prywatne metody płatności
 
-Mailbox Mail doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. However, they do accept **cash** by mail, **cash** payment to bank account, bank transfer, credit card, PayPal, and a couple of German-specific processors: Paydirekt and Sofortüberweisung.
+Poczta Mailbox nie akceptuje żadnych kryptowalut, ponieważ ich operator płatności BitPay zawiesił działalność w Niemczech. Akceptowane są natomiast płatności **gotówką** wysyłaną pocztą, **gotówką** wpłacaną na konto bankowe, przelewem, kartą kredytową, przez PayPal, a także przez niemieckie systemy płatności Paydirekt i Sofortüberweisung.
 
 #### :material-check:{ .pg-green } Bezpieczeństwo konta
 
-Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](security-keys.md#yubikey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web standards such as [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online) are not yet supported.
+Poczta Mailbox obsługuje [uwierzytelnianie dwuskładnikowe](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) wyłącznie dla swojej aplikacji webowej. Można używać metody TOTP lub klucza [YubiKey](security-keys.md#yubikey) za pośrednictwem [YubiCloud](https://yubico.com/products/services-software/yubicloud). Standardy webowe, takie jak [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online), nie są jeszcze obsługiwane.
 
-#### :material-information-outline:{ .pg-blue } Data Security
+#### :material-information-outline:{ .pg-blue } Bezpieczeństwo danych
 
-Mailbox Mail allows for encryption of incoming mail using their [encrypted mailbox](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). New messages that you receive will then be immediately encrypted with your public key.
+Poczta Mailbox umożliwia szyfrowanie przychodzących wiadomości za pomocą [szyfrowanej skrzynki pocztowej](https://kb.mailbox.org/en/private/e-mail-article/your-encrypted-mailbox). Nowe wiadomości, które otrzymujesz, są automatycznie szyfrowane Twoim kluczem publicznym.
 
-However, [Open-Xchange](https://en.wikipedia.org/wiki/Open-Xchange), the software platform used by Mailbox Mail, [does not support](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) the encryption of your address book and calendar. A [standalone option](calendar.md) may be more appropriate for that data.
+Jednak oprogramowanie [Open-Xchange](https://pl.wikipedia.org/wiki/Open-Xchange), z którego korzysta poczta Mailbox, [nie obsługuje](https://kb.mailbox.org/en/private/security-privacy-article/encryption-of-calendar-and-address-book) szyfrowania książki adresowej ani kalendarza. Do tych danych bardziej odpowiednie może być [oddzielne rozwiązanie](calendar.md).
 
 #### :material-check:{ .pg-green } Szyfrowanie wiadomości e-mail
 
-Mailbox Mail has [integrated encryption](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) in their webmail, which simplifies sending messages to people with public OpenPGP keys. They also allow [remote recipients to decrypt an email](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) on Mailbox Mail's servers. This feature is useful when the remote recipient does not have OpenPGP and cannot decrypt a copy of the email in their own mailbox.
+Poczta Mailbox ma [zintegrowane szyfrowanie](https://kb.mailbox.org/en/private/e-mail-article/send-encrypted-e-mails-with-guard) w swojej aplikacji webowej, co ułatwia wysyłanie wiadomości do osób posiadających publiczne klucze OpenPGP. Umożliwia również [odszyfrowanie wiadomości przez odbiorcę zdalnego](https://kb.mailbox.org/en/private/e-mail-article/my-recipient-does-not-use-pgp) na serwerach poczty Mailbox. Ta funkcja jest przydatna, gdy zdalny odbiorca nie posiada OpenPGP i nie może samodzielnie odszyfrować wiadomości we własnej skrzynce pocztowej.
 
-Mailbox Mail also supports the discovery of public keys via HTTP from their WKD. This allows people outside of Mailbox Mail to find the OpenPGP keys of Mailbox Mail accounts easily for cross-provider E2EE. This only applies to email addresses ending in one of Mailbox Mail's own domains, like `@mailbox.org`. Jeśli używasz własnej domeny, musisz [skonfigurować WKD](basics/email-security.md#what-is-the-web-key-directory-standard) osobno.
+Poczta Mailbox obsługuje także wyszukiwanie kluczy publicznych przez HTTP za pośrednictwem swojego WKD. Dzięki temu osoby spoza poczty Mailbox mogą łatwo znaleźć klucze OpenPGP kont Mailbox i korzystać z szyfrowanej komunikacji między różnymi dostawcami (E2EE). Dotyczy to wyłącznie adresów e-mail zakończonych jedną z domen Mailbox, np. `@mailbox.org`. Jeśli korzystasz z własnej domeny, musisz [skonfigurować WKD](basics/email-security.md#what-is-the-web-key-directory-standard) osobno.
 
 #### :material-information-outline:{ .pg-blue } Zamknięcie konta
 
-Your account will be set to a restricted user account when your contract ends. It will be irrevocably deleted after [30 days](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
+Twoje konto zostanie przekształcone w konto o ograniczonych uprawnieniach po zakończeniu umowy. Następnie zostanie nieodwracalnie usunięte po upływie [30 dni](https://kb.mailbox.org/en/private/payment-article/what-happens-at-the-end-of-my-contract).
 
 #### :material-information-outline:{ .pg-blue } Dodatkowe funkcje
 
-You can access your Mailbox Mail account via IMAP/SMTP using their [.onion service](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). However, their webmail interface cannot be accessed via their .onion service, and you may experience TLS certificate errors.
+Do konta poczty Mailbox można uzyskać dostęp za pośrednictwem protokołu IMAP/SMTP, korzystając z ich [usługi .onion](https://kb.mailbox.org/en/private/faq-article/the-tor-exit-node-of-mailbox-org). Jednak interfejs aplikacji webowej nie jest dostępny przez adres .onion, a przy korzystaniu z niego mogą występować błędy certyfikatów TLS.
 
-All accounts come with limited cloud storage that [can be encrypted](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Mailbox Mail also offers the alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), which enforces the TLS encryption on the connection between mail servers, otherwise the message will not be sent at all. Mailbox Mail also supports [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync) in addition to standard access protocols like IMAP and POP3.
+Wszystkie konta mają ograniczoną przestrzeń w chmurze, która [może być szyfrowana](https://kb.mailbox.org/en/private/drive-article/encrypt-files-on-your-drive). Poczta Mailbox oferuje także alias [@secure.mailbox.org](https://kb.mailbox.org/en/private/e-mail-article/ensuring-e-mails-are-sent-securely), który wymusza szyfrowanie TLS połączenia między serwerami pocztowymi — w przeciwnym razie wiadomość nie zostanie wysłana. Poczta Mailbox obsługuje również [Exchange ActiveSync](https://en.wikipedia.org/wiki/Exchange_ActiveSync), oprócz standardowych protokołów dostępu takich jak IMAP i POP3.
 
-Mailbox Mail has a digital legacy feature for all plans. You can choose whether you want any of your data to be passed to heirs, providing that they apply and provide your testament. Alternatively, you can nominate a person by name and address.
+Poczta Mailbox oferuje funkcję cyfrowego spadku we wszystkich planach. Możesz zdecydować, czy chcesz, aby Twoje dane zostały przekazane spadkobiercom, pod warunkiem, że złożą odpowiedni wniosek i przedstawią testament. Alternatywnie możesz wskazać konkretną osobę, podając jej imię, nazwisko i adres.
 
 ## More Providers
 
@@ -226,7 +226,7 @@ Free accounts start with 1 GB of storage.
 
 Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
 
-#### :material-check:{ .pg-green } Domeny niestandardowe i aliasy
+#### :material-check:{ .pg-green } Własne domeny i aliasy
 
 Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/support#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/support#plus), but you can use a [catch-all](https://tuta.com/support#settings-global) with a custom domain.
 
