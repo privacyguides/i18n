@@ -8,7 +8,7 @@ description: Tor 是一個免費使用的去中心化網路，其讓用戶在使
 
 [Tor </strong>](../alternative-networks.md#tor)是一個免費使用的去中心化網路，其讓用戶在使用網際網路之際盡可能地保護自己的隱私。 如果使用得當，該網路可以實現私人和匿名瀏覽和通訊。 很難阻止和追蹤 Tor 流量，因此它是一種有效的審查規避工具。
 
-[:material-movie-open-play-outline: Video: Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
+[:material-movie-open-play-outline:影片：Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
 
 Tor works by routing your internet traffic through volunteer-operated servers instead of making a direct connection to the site you're trying to visit. 這樣可以混淆流量來源，所連接的伺服器都無法看到流量來去的完整路徑，也意味著即使您連接的伺服器無法破壞您的匿名性。
 
