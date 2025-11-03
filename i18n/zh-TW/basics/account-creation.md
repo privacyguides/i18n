@@ -5,7 +5,7 @@ icon: 'material/account-plus'
 description: 創建帳戶為實際連線網際網路所必要，請採取下列步驟確保您的線上隱私。
 ---
 
-人們經常不假思索地註冊網路服務。 Maybe it's a streaming service to watch that new show everyone's talking about, or an account that gives you a discount for your favorite fast food place. 無論在什麼樣的場景，您都應該考慮現在和以後對個資的影響。
+人們經常不假思索地註冊網路服務。 也許只是人人都在討論新劇集的一個串流媒體服務，或只是要取得喜歡的快餐店折扣。 無論在什麼樣的場景，您都應該考慮現在和以後對個資的影響。
 
 在新的服務申請帳號時，都伴著相關風險。 資料洩露；向第三方披露客戶資訊、員工有不當的權限可以訪問所有資料，在給出您的個資時都必須考慮的接下來可能的狀況。 您需要確信足夠信任該服務，這就是為什麼我們建議把重要資料儲存在最成熟且通過測試的產品。 這通常意味著提供 E2EE 並經過加密審計的服務。 審計增加了產品設計的保證，減低因開發人員缺乏經驗所導致的安全問題。
 
@@ -13,11 +13,11 @@ description: 創建帳戶為實際連線網際網路所必要，請採取下列�
 
 ## 服務條款 & 隱私權政策
 
-服務條款是您在使用服務時同意遵守的規則。 隨著更大的服務，這些規則通常由自動化系統強制執行。 有時這些自動化系統可能會出錯。 For example, you may be banned or locked out of your account on some services for using a VPN or VoIP number. 對這種禁令提出上訴通常很困難，而且通常都由系統自動處理而不是人工審核，造成了上訴的困難度。 這也是我們不建議使用 Gmail 作為電子郵件的原因之一。 電子郵件對於訪問您已註冊的其他服務至關重要。
+服務條款是您在使用服務時同意遵守的規則。 隨著更大的服務，這些規則通常由自動化系統強制執行。 有時這些自動化系統可能會出錯。 例如您的帳號可能會因為使用 VPN 或 VoIP 號碼而被禁止或無法使用某些服務。 對這種禁令提出上訴通常很困難，而且通常都由系統自動處理而不是人工審核，造成了上訴的困難度。 這也是我們不建議使用 Gmail 作為電子郵件的原因之一。 電子郵件對於訪問您已註冊的其他服務至關重要。
 
-The Privacy Policy is how the service says they will use your data, and it is worth reading so that you understand how your data will be used. 公司或組織可能沒有法律義務遵守政策中包含的所有內容（取決於司法管轄區）。 我們建議您了解當地法律以及這些法律允許供應商收集哪些資訊。
+「隱私權政策」是一個服務對會如何使用您的資料，做出的聲明。值得閱讀，讓您了解您的資料會如何被使用。 公司或組織可能沒有法律義務遵守政策中包含的所有內容（取決於司法管轄區）。 我們建議您了解當地法律以及這些法律允許供應商收集哪些資訊。
 
-我們建議您尋找特定的術語，例如「資料收集」、「資料分析」、「Cookie」、「廣告」或「第三方」服務。 Sometimes you will be able to opt out from data collection or from sharing your data, but it is best to choose a service that respects your privacy from the start.
+我們建議您尋找特定的術語，例如「資料收集」、「資料分析」、「Cookie」、「廣告」或「第三方」服務。 有時您可以選擇拒絕資料收集或分享資料，但最好從一開始就選擇尊重您隱私權的服務。
 
 請記住，您把信任託付給該公司或組織，冀望其真的遵守自己的隱私政策。
 
@@ -42,7 +42,7 @@ The Privacy Policy is how the service says they will use your data, and it is wo
 
 #### 電子郵件別名
 
-如果您不想將您的真實電子郵件地址提供給服務，您可以選擇使用別名。 We describe them in more detail on our email services recommendation page. 基本上，別名服務允許您生成新的電子郵件位址，將所有電子郵件轉發到您的主位址。 This can help prevent tracking across services and help you manage the marketing emails that sometimes come with the sign-up process. 這些可以根據它們被發送到的別名自動過濾。
+如果您不想將您的真實電子郵件地址提供給服務，您可以選擇使用別名。 我們在推薦電子郵件業者頁面有更詳細的描述。 基本上，別名服務允許您生成新的電子郵件位址，將所有電子郵件轉發到您的主位址。 此功能可幫助您避免被不同服務追蹤，也幫助您管理在註冊過程中可能會訂閱的行銷郵件。 這些可以根據它們被發送到的別名自動過濾。
 
 如果服務遭到駭客攻擊，您用於註冊的電子郵件可能會收到網路釣魚或垃圾郵件。 為每個服務使用獨特的別名可以幫助確定哪些服務被駭。
 
@@ -50,19 +50,19 @@ The Privacy Policy is how the service says they will use your data, and it is wo
 
 ### "登入方式：" (OAuth)
 
-[Open Authorization (OAuth)](https://en.wikipedia.org/wiki/OAuth) is an authentication protocol that allows you to register for a service without sharing much information with the service provider, if any, by using an existing account you have with another service instead. 每當您在註冊表單上看到「登入方式: 使用 *提供商名稱*登入」時，它就是 OAuth。
+[OAuth](https://en.wikipedia.org/wiki/OAuth) 是一套能夠讓您不用分享過多資訊，就能以其他服務帳號來註冊該業者帳號的驗證機制。 每當您在註冊表單上看到「登入方式: 使用 *提供商名稱*登入」時，它就是 OAuth。
 
 當您透由 OAuth 登入，它會開啟您所選的供應商登入頁面而您的帳戶即會與新帳戶連接。 我們不會分享你的密碼，但會分享一些基本資訊（你可以在登入期間要求查看）。 每次您想要登入同一個帳戶時，都需要進行此程序。
 
 主要優勢是：
 
-- **Security**: You don't have to trust the security practices of the service you're logging into when it comes to storing your login credentials because they are stored with the external OAuth provider. Common OAuth providers like Apple and Google typically follow the best security practices, continuously audit their authentication systems, and don't store credentials inappropriately (such as in plain text).
-- **Ease-of-use**: Multiple accounts are managed by a single login.
+- **安全性**：由於登入資訊儲存於外部 OAuth 提供者，因此您不必信任登入服務的安全措施。 常見的 OAuth 提供者（如 Apple 和 Google）通常會遵循最佳的安全性作法，持續稽核其驗證系統，也不會以不適當的方式儲存登入資訊（例如純文字）。
+- **使用簡單**：使用單一登入資訊管理多組帳號。
 
 但也有一些缺陷：
 
-- **Privacy**: The OAuth provider you log in with will know the services you use.
-- **Centralization**: If the account you use for OAuth is compromised, or you aren't able to log in to it, all other accounts connected to it are affected.
+- **隱私權**：您用來登入的 OAuth 提供者會知道您使用了哪些服務。
+- **中心化**：如果您使用的 OAuth 帳號被駭，或是無法再用來登入，與之連結的其它帳號也會受到影響。
 
 OAuth 在那些服務之間深度整合情況下，可以特別有用。 我們建議將 OAuth 限制在需要的地方，用 [MFA](multi-factor-authentication.md)來保護主帳戶。
 
@@ -74,9 +74,9 @@ OAuth 在那些服務之間深度整合情況下，可以特別有用。 我們�
 
 ### 電話號碼
 
-我們建議您避免使用需要電話號碼才能註冊的服務。 A phone number can identify you across multiple services and depending on data sharing agreements this will make your usage easier to track, particularly if one of those services is breached as the phone number is often **not** encrypted.
+我們建議您避免使用需要電話號碼才能註冊的服務。 不同服務之間，可以透過電話號碼識別出您的身分。尤其是電話號碼資訊時常**沒有**加密，如果任一服務被破解，視資料分享協議而定，可能會更容易追蹤讓您的使用情況。
 
-如果可以的話，你應該避免透露你的真實電話號碼。 Some services will allow the use of VoIP numbers, however these often trigger fraud detection systems, causing an account to be locked down, so we don't recommend that for important accounts.
+如果可以的話，你應該避免透露你的真實電話號碼。 某些服務允許使用 VoIP 號碼，但也時常會觸發詐騙偵測系統，鎖定您的帳號，所以我們不建議針對重要帳號使用。
 
 在許多情況下，您需要提供可以接收短信或電話的號碼，特別是在國際購物時，以防您在邊境審查時的訂單出現問題。 服務通常會使用您的號碼作為驗證方式；不要自作聰明使用假的電話號碼，最後讓自己重要的帳戶被鎖定！
 

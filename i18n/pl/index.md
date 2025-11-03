@@ -46,9 +46,9 @@ schema:
 
 Podobnie jak prawo do małżeństw międzyrasowych, prawa wyborcze kobiet czy wolność słowa – nasze prawo do prywatności nie zawsze było respektowane. W wielu dyktaturach nadal nie jest. Poprzednie pokolenia walczyły o to, byśmy mogli z tego prawa korzystać. ==Prywatność jest prawem człowieka, przysługującym każdemu z nas,== bez wyjątków i dyskryminacji.
 
-Nie należy mylić prywatności z tajemnicą. Wszyscy wiemy, co robisz w łazience, ale mimo to zamykasz drzwi. Robisz to, bo chcesz prywatności, a nie dlatego, że coś ukrywasz. **Każdy** ma coś, co chce chronić. Prywatność to coś, co czyni nas ludźmi.
+Nie należy mylić prywatności z tajemnicą. Wszyscy wiemy, co dzieje się w łazience, a mimo to zamykami drzwi. Robimy to, bo chcemy prywatności, a nie dlatego, że coś ukrywamy. **Każdy** ma coś, co chce chronić. Prywatność to coś, co czyni nas ludźmi.
 
-[:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button" }
+[:material-book-outline: Dlaczego prywatność ma znaczenie](basics/why-privacy-matters.md){ class="md-button" }
 </div>
 
 <div markdown>
@@ -112,7 +112,7 @@ Zalecamy szeroki wybór narzędzi do ochrony prywatności (znanych też jako *ap
 
 We współczesnej erze cyfrowego wykorzystywania danych Twoja prywatność nigdy nie była bardziej zagrożona, a mimo to wielu ludzi uważa, że jej ochrona to już przegrana sprawa. To nieprawda. ==Twoja prywatność jest na wagę złota i musisz o nią dbać.== Prywatność to kwestia władzy, i kluczowe jest, by ta władza trafiła we właściwe ręce.
 
-Wiele osób myli pojęcia prywatności, bezpieczeństwa i anonimowości. Często można spotkać się z krytyką różnych produktów jako „nieprywatnych”, gdy w rzeczywistości chodzi o to, że nie zapewniają anonimowości. Na tej stronie omawiamy wszystkie trzy aspekty, ale istotne jest, aby znać różnice między nimi i wiedzieć, kiedy każdy z nich ma zastosowanie.
+Wiele osób myli pojęcia prywatności, bezpieczeństwa i anonimowości. Często można spotkać się z krytyką różnych produktów jako „nieprywatnych”, gdy w rzeczywistości chodzi o to, że nie zapewniają anonimowości. Na tej stronie omawiamy wszystkie trzy zagadnienia, ale kluczowe jest, by rozumieć różnice między nimi i wiedzieć, kiedy każdy z nich ma zastosowanie.
 
 [:material-movie-open-play-outline: Film: 5 kroków do poprawy prywatności](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 </div>

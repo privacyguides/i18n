@@ -63,13 +63,13 @@ schema:
 
 ## 「越複雜愈好」
 
-很多人把隱私威脅模型想得太複雜了。 Often, these solutions include problems like multiple email accounts or complicated setups with lots of moving parts and conditions. 這些回覆通常是針對「做*某件事*的最佳方法是什麼？」這類問題所給出的答案。
+很多人把隱私威脅模型想得太複雜了。 這類解決方案常涉及使用多組電子郵件帳號，或是複雜的設定，其中包含許多變數和條件。 這些回覆通常是針對「做*某件事*的最佳方法是什麼？」這類問題所給出的答案。
 
 尋找適合自己的「最佳」解決方案，不一定要追求無懈可擊的方案，因為這樣的方案往往需要滿足數十個條件，實際操作起來非常困難。 正如先前所討論過的，安全性往往以便利性為代價。 以下是我們的一些建議：
 
 1. ==行動應該要有特定的目的：== 思考如何用最少的行動達成您的目標。
 2. ==消除人為失誤的風險：== 人總會失敗、感到疲倦，或者忘記事情。 為了維持安全性，請避免依賴大腦記憶的手動流程和條件。
-3. ==根據你的需求選擇合適的保護級別：== 我們經常看到針對執法或傳票的防範建議。 這些通常需要專業知識，並且不符合一般人的需求。 There's no point in building an intricate threat model for anonymity if you can be easily deanonymized by a simple oversight.
+3. ==根據你的需求選擇合適的保護級別：== 我們經常看到針對執法或傳票的防範建議。 這些通常需要專業知識，並且不符合一般人的需求。 如果因為一個簡單的疏忽而輕易被去匿名化，那麼建立複雜的匿名威脅模型就毫無意義。
 
 那麼，這會是什麼樣子呢？
 
@@ -94,4 +94,4 @@ schema:
 
     使用 Tor 可以幫助解決這個問題。 值得注意的是，避免使用即時通訊可以實現更高的匿名性: 即時通訊很可能會暴露打字習慣 (例如，超過一段文字的內容，分散在論壇、電子郵件等平台上。)
 
-[^1]: A notable supply chain attack occurred in March 2024, when a malicious maintainer added an obfuscated backdoor into `xz`, a popular compression library. 此後門 ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) 企圖讓未知方透過 SSH 遠端存取大多數 Linux 伺服器，但在廣泛部署之前就被發現了。
+[^1]: 2024 年 3 月，發生了一起引人注目的供應鏈攻擊，一名惡意維護者在流行的壓縮庫 `xz` 中加入了一個經混淆處理的後門。 此後門 ([CVE-2024-3094](https://cve.org/CVERecord?id=CVE-2024-3094)) 企圖讓未知方透過 SSH 遠端存取大多數 Linux 伺服器，但在廣泛部署之前就被發現了。

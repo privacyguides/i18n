@@ -1,52 +1,52 @@
 ---
-title: "Why Privacy Matters"
+title: "Dlaczego prywatność ma znaczenie?"
 icon: 'material/shield-account'
-description: In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not.
+description: We współczesnej erze cyfrowego wykorzystywania danych Twoja prywatność nigdy nie była bardziej zagrożona, a mimo to wielu ludzi uważa, że jej ochrona to już przegrana sprawa. To nieprawda.
 ---
 
-In the modern age of digital data exploitation, your privacy has never been more critical, and yet many believe it is already a lost cause. It is not. ==Your privacy is up for grabs==, and you need to care about it. Privacy is about power, and it is so important that this power ends up in the right hands.
+We współczesnej erze cyfrowego wykorzystywania danych Twoja prywatność nigdy nie była bardziej zagrożona, a mimo to wielu ludzi uważa, że jej ochrona to już przegrana sprawa. To nieprawda. ==Twoja prywatność jest na wagę złota== i musisz o nią dbać. Prywatność to kwestia władzy, i kluczowe jest, by ta władza trafiła we właściwe ręce.
 
-Privacy is ultimately about human information, and this is important because we know that human information confers power over human beings. If we care about our ability to be authentic, fulfilled, and free humans, we have to care about the rules that apply to information about us. So much of our modern society is structured around **information**. When you shop online, read the news, look something up, vote, seek directions, or really anything else, you are relying on information. If we live in an information society, our information matters, and therefore privacy matters.
+Prywatność dotyczy ostatecznie informacji o człowieku, a to ma znaczenie, ponieważ wiemy, że informacje o ludziach dają władzę nad nimi. Jeśli zależy nam na zdolności do bycia autentycznymi, spełnionymi i wolnymi ludźmi, musimy dbać o zasady, które dotyczą informacji na nasz temat. Tak wiele aspektów współczesnego społeczeństwa opiera się na **informacji**. Kiedy robisz zakupy online, czytasz wiadomości, czegoś szukasz, głosujesz, sprawdzasz drogę — praktycznie przy każdej z tych czynności polegasz na informacji. Skoro żyjemy w społeczeństwie informacyjnym, nasze informacje mają znaczenie, a zatem prywatność ma znaczenie.
 
-## What is Privacy?
+## Czym jest prywatność?
 
-Many people get the concepts of **privacy**, **security**, and **anonymity** confused. Często można spotkać się z krytyką różnych produktów jako „nieprywatnych”, gdy w rzeczywistości chodzi o to, że nie zapewniają anonimowości. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
+Wiele osób myli pojęcia **prywatności**, **bezpieczeństwa** i **anonimowości**. Często można spotkać się z krytyką różnych produktów jako „nieprywatnych”, gdy w rzeczywistości chodzi o to, że nie zapewniają anonimowości. Na tej stronie omawiamy wszystkie trzy zagadnienia, ale kluczowe jest, by rozumieć różnice między nimi i wiedzieć, kiedy każdy z nich ma zastosowanie.
 
-[:material-movie-open-play-outline: Video: Stop Confusing Privacy, Anonymity, and Security](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security ""){.md-button}
+[:material-movie-open-play-outline: Film: Przestań mylić prywatność, anonimowość i bezpieczeństwo](https://www.privacyguides.org/videos/2025/03/14/stop-confusing-privacy-anonymity-and-security ""){.md-button}
 
 <!-- markdownlint-disable-next-line -->
 **Prywatność**
 :
 
-==Privacy is the assurance that your data is only seen by the parties you intend to view it.== In the context of an instant messenger, for example, end-to-end encryption provides privacy by keeping your message visible only to yourself and the recipient.
+==Prywatność to pewność, że Twoje dane są widoczne tylko dla tych, którym chcesz je udostępnić.== W kontekście komunikatora internetowego na przykład szyfrowanie typu end-to-end zapewnia prywatność, ponieważ Twoja wiadomość jest widoczna wyłącznie dla Ciebie i odbiorcy.
 
 <!-- markdownlint-disable-next-line -->
 **Bezpieczeństwo**
 :
 
-Security is the ability to trust the applications you use—that the parties involved are who they say they are—and keep those applications safe. In the context of browsing the web, for example, security can be provided by HTTPS certificates.
+Bezpieczeństwo to możliwość zaufania używanym aplikacjom — że strony, z którymi wchodzisz w interakcję, są tymi, za które się podają — oraz zapewnienie, że te aplikacje pozostają bezpieczne. W kontekście przeglądania Internetu bezpieczeństwo może być zapewnione przez certyfikaty HTTPS.
 :
 
-Certificates prove you are talking directly to the website you're visiting, and keep attackers on your network from reading or modifying the data sent to or from the website.
+Certyfikaty dowodzą, że komunikujesz się bezpośrednio z witryną, którą odwiedzasz, oraz chronią przed atakującymi, którzy chcą odczytać lub modyfikować dane przesyłane między Tobą a tą witryną.
 
 <!-- markdownlint-disable-next-line -->
-**Anonymity**
+**Anonimowość**
 :
 
-Anonymity is the ability to act without a persistent identifier. You might achieve this online with [Tor](../tor.md), which allows you to browse the internet with a random IP address and network connection instead of your own.
+Anonimowość to możliwość działania bez stałego identyfikatora. Można to osiągnąć w Internecie na przykład za pomocą sieci [Tor](../tor.md), która pozwala przeglądać Internet z losowym adresem IP i połączeniem sieciowym zamiast własnego.
 :
 
-**Pseudonymity** is a similar concept, but it allows you to have a persistent identifier without it being tied to your real identity. If everybody knows you as `@GamerGuy12` online, but nobody knows your real name, that is your pseudonym.
+**Pseudonimowość** to podobne pojęcie, ale pozwala na posiadanie stałego identyfikatora, który nie jest powiązany z prawdziwą tożsamością. Jeśli wszyscy znają Cię w sieci jako `@PolskiGracz12`, ale nikt nie zna Twojego prawdziwego imienia, to właśnie Twój pseudonim.
 
-All of these concepts overlap, but it is possible to have any combination of these. The sweet spot for most people is when all three of these concepts overlap. However, it's trickier to achieve than many initially believe. Sometimes, you have to compromise on some of these, and that's okay too. This is where **threat modeling** comes into play, allowing you to make informed decisions about the [software and services](../tools.md) you use.
+Wszystkie te koncepcje się przenikają, ale każda może występować niezależnie. Idealna sytuacja dla większości ludzi to ta, gdy prywatność, bezpieczeństwo i anonimowość współistnieją. Jednak osiągnięcie tego jest trudniejsze, niż wielu sądzi. Czasem trzeba pójść na kompromis — i to też jest w porządku. Właśnie tutaj wkracza **modelowanie zagrożeń**, które pozwala podejmować świadome decyzje dotyczące używanego [oprogramowania i usług](../tools.md).
 
-[:material-book-outline: Learn More About Threat Modeling](threat-modeling.md ""){.md-button}
+[:material-book-outline: Dowiedz się więcej o modelowaniu zagrożeń](threat-modeling.md ""){.md-button}
 
-## Privacy vs. Secrecy
+## Prywatność a tajemnica
 
-A common counter-argument to pro-privacy movements is the notion that one doesn't need privacy if they have **"nothing to hide."** This is a dangerous misconception, because it creates a sense that people who demand privacy must be deviant, criminal, or wrong.
+Częstym argumentem przeciw ruchom na rzecz prywatności jest przekonanie, że „**kto nie ma nic do ukrycia**, nie potrzebuje prywatności”. To niebezpieczne nieporozumienie, ponieważ sugeruje, że osoby dbające o prywatność muszą być dewiantami, przestępcami lub są źli.
 
-==You shouldn't confuse privacy with secrecy.== We know what happens in the bathroom, but you still close the door. Robisz to, bo chcesz prywatności, a nie dlatego, że coś ukrywasz. There are always certain facts about us—say, personal health information, or sexual behavior—that we wouldn't want the whole world to know, and that's okay. The need for privacy is legitimate, and that's what makes us human. Privacy is about empowering your rights over your own information, not about hiding secrets.
+==Nie należy mylić prywatności z tajemnicą.== Wszyscy wiemy, co dzieje się w łazience, a mimo to zamykami drzwi. Robimy to, bo chcemy prywatności, a nie dlatego, że coś ukrywamy. Zawsze istnieją pewne informacje o nas — na przykład dotyczące zdrowia czy życia seksualnego — których nie chcielibyśmy ujawniać całemu światu, i jest to w pełni naturalne. Potrzeba prywatności jest uzasadniona i właśnie ona czyni nas ludźmi. Prywatność to kwestia prawa do kontroli nad własnymi informacjami, a nie ukrywania sekretów.
 
 ## Is Privacy About Control?
 

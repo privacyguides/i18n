@@ -27,7 +27,7 @@ description: 一般人很容易累積大量的網路服務帳戶，這裏有一�
 
 ### 電子郵件
 
-If you didn't use a password manager in the past, or you think you have accounts that were never added to your password manager, another option is to search the email account(s) that you believe you signed up on. 在電子郵件用戶端上，搜尋「驗證」或「歡迎」等關鍵字。 幾乎每次你建立線上帳戶時，該服務都會向你的電子郵件發送驗證連結或介紹訊息。 這可能是找到舊的，被遺忘的帳戶的好方法。
+若您過去沒有使用密碼管理員，或您認為您有從未加入密碼管理員的帳號，另一個選項則是搜尋印象中用於註冊的電子郵件帳號。 在電子郵件用戶端上，搜尋「驗證」或「歡迎」等關鍵字。 幾乎每次你建立線上帳戶時，該服務都會向你的電子郵件發送驗證連結或介紹訊息。 這可能是找到舊的，被遺忘的帳戶的好方法。
 
 ## 刪除舊帳戶
 
@@ -39,7 +39,7 @@ If you didn't use a password manager in the past, or you think you have accounts
 
 ### GDPR （僅限歐洲經濟區居民）
 
-歐洲經濟區的居民享有資料刪除的額外權利，其詳見於 GDPR [第 17 條](https://gdpr-info.eu/art-17-gdpr)規定。 如果適用於您，請閱讀任何特定服務的隱私權政策，以查找有關如何行使刪除權利的資訊。 閱讀隱私政策可能很重要，因為某些服務的「刪除帳戶」選項，實際上只是停用您的帳戶，若要真正刪除，您必須採取額外行動。 有時，刪除過程中可能需填寫調查、向服務商的資料保護人員發送電子郵件，甚至提出您為歐盟居民的證明。 如果您打算這樣做，請 **不要** 覆寫帳戶資訊-可能需要歐盟居民身份。 請注意，服務的位置並不重要； GDPR 適用於為歐盟用戶服務的任何人。 If the service does not respect your right to erasure, you can contact your national [Data Protection Authority](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en) and may be entitled to monetary compensation.
+歐洲經濟區的居民享有資料刪除的額外權利，其詳見於 GDPR [第 17 條](https://gdpr-info.eu/art-17-gdpr)規定。 如果適用於您，請閱讀任何特定服務的隱私權政策，以查找有關如何行使刪除權利的資訊。 閱讀隱私政策可能很重要，因為某些服務的「刪除帳戶」選項，實際上只是停用您的帳戶，若要真正刪除，您必須採取額外行動。 有時，刪除過程中可能需填寫調查、向服務商的資料保護人員發送電子郵件，甚至提出您為歐盟居民的證明。 如果您打算這樣做，請 **不要** 覆寫帳戶資訊-可能需要歐盟居民身份。 請注意，服務的位置並不重要； GDPR 適用於為歐盟用戶服務的任何人。 如果該服務不尊重您的刪除權利，您可以聯絡您的國家[資料保護機構](https://ec.europa.eu/info/law/law-topic/data-protection/reform/rights-citizens/redress/what-should-i-do-if-i-think-my-personal-data-protection-rights-havent-been-respected_en)，可能有權獲得金錢賠償。
 
 ### 覆寫帳戶資訊
 
