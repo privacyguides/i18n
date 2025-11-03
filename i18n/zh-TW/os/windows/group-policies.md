@@ -3,9 +3,9 @@ title: 群組原則設定
 description: 設定群組政策使 Windows 更尊重隱私的快速指南。
 ---
 
-Outside modifying the registry itself, the **Local Group Policy Editor** is the most powerful way to change many aspects of your system without installing third-party tools. 更改這些設定需要 [專業版](index.md#windows-editions) 或更高版本。
+除了修改登錄機碼本身之外，**本機群組原則編輯器**是無需安裝第三方工具即可更改系統許多方面的最強大方法。 更改這些設定需要 [專業版](index.md#windows-editions) 或更高版本。
 
-These settings should be set on a brand-new installation of Windows. Setting them on your existing installation should work, but may introduce unpredictable behavior and is done at your own risk.
+這些設定應在全新安裝的 Windows 進行。 在已安裝完成的系統設定它們應該也可行，但還是有可能會引發不可預測的行為，須自行承擔風險。
 
 所有設定在群組原則編輯器中都附有說明，非常詳細地準確說明了它們的作用。 更改時請注意這些描述，準確了解我們在此建議的內容。 當 Windows 附帶的解釋不充分時，我們在下面解釋了我們的一些選擇。
 

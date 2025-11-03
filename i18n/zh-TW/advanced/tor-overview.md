@@ -10,7 +10,7 @@ description: Tor 是一個免費使用的去中心化網路，其讓用戶在使
 
 [:material-movie-open-play-outline:影片：Why You Need Tor](https://www.privacyguides.org/videos/2025/03/02/why-you-need-tor ""){.md-button}
 
-Tor works by routing your internet traffic through volunteer-operated servers instead of making a direct connection to the site you're trying to visit. 這樣可以混淆流量來源，所連接的伺服器都無法看到流量來去的完整路徑，也意味著即使您連接的伺服器無法破壞您的匿名性。
+Tor 的工作原理是通過志工營運的伺服器來引導您的上網路由，而不是直接連線到想開啟的網站。 這樣可以混淆流量來源，所連接的伺服器都無法看到流量來去的完整路徑，也意味著即使您連接的伺服器無法破壞您的匿名性。
 
 [:octicons-home-16:](https://torproject.org){ .card-link title=首頁 }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="洋蔥服務" }

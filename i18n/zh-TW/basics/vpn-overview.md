@@ -7,7 +7,7 @@ description: 虛擬私用網路將風險從您的ISP 轉移到您信任的第三
 
 虛擬專用網路是將您的網路末端延伸到世界其它地方的一種方式。
 
-[:material-movie-open-play-outline: Video: Do you need a VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
+[:material-movie-open-play-outline: 影片：Do you need a VPN?](https://www.privacyguides.org/videos/2024/12/12/do-you-need-a-vpn ""){.md-button}
 
 ISP 可以看到網路終端設備（例如數據機）的網際網路進出流量。 HTTPS 等加密協議通常應用在網際網路，因此雖無法確切地知道您發布或閱讀的內容，但還是可以了解您所請求訪問的 [網域名](../advanced/dns-overview.md#why-shouldnt-i-use-encrypted-dns)。
 
@@ -51,7 +51,7 @@ VPN 無法加密裝置與 VPN 伺服器之間連線以外的資料。 VPN 服務
 
 在您使用[真實身份或知名身份](common-misconceptions.md#complicated-is-better)上網的情況下，使用 VPN 不大可能有用。 這樣做可能會觸發垃圾郵件和欺詐偵測系統，例如您正試圖登入銀行網站。
 
-It's important to remember that a VPN will not provide you with absolute anonymity because the VPN provider itself will still have access to your real IP address, destination website information, and often a money trail that can be linked directly back to you. "No logging" policies are merely a promise; if you need complete safety from the network itself, consider using [Tor](../advanced/tor-overview.md) in addition to or instead of a VPN.
+重要的是請記住，VPN 不會提供絕對的匿名性，因為 VPN 業者本身仍然會看到用戶的真實 IP 位址、目的地網站資訊，並且通常有可以直接連結回用戶的金流紀錄。 「不記錄」只是一種承諾。如果需要整體網路的完全安全性，請考慮使用 [Tor](../advanced/tor-overview.md) 補充或替代 VPN。
 
 也不該信任 VPN 來保護您與未加密的 HTTP 目標的連線。 為了保持所瀏覽網站活動的私密和安全，您必須使用 HTTPS。 這將確保密碼、會話令牌和查詢免受 VPN 提供者以及 VPN 伺服器和目的地之間其他潛在對手的攻擊。 應在瀏覽器中啟用純 HTTPS 模式（如果支援），以減輕嘗試將連線從 HTTPS 降級為 HTTP 的攻擊。
 
@@ -93,7 +93,7 @@ It's important to remember that a VPN will not provide you with absolute anonymi
 
 MPR 試圖解決 VPN 固有的問題：用戶必須完全信任它們。 他們透過劃分兩個或多個不同公司間的責任來實現此目標。
 
-One example of a commercially available MPR is Apple's iCloud+ Private Relay, which routes your traffic through two servers:
+Apple 的 iCloud+ Private Relay 就是一個商用 MPR 的例子，它會透過兩台伺服器轉傳您的流量：
 
 1. 首先是 Apple 營運的伺服器。
 
@@ -103,15 +103,15 @@ One example of a commercially available MPR is Apple's iCloud+ Private Relay, wh
 
     該伺服器實際上會連接到您的目標網站，但不知道您的裝置。 它知道的唯一 IP 位址是 Apple 伺服器 IP 位址。
 
-Other MPRs run by different companies operate in a very similar manner. This protection by segmentation only exists if you trust the two companies to not collude with each other to deanonymize you.
+其他的 MPR 運作模式也非常相似。 只有在您相信這兩家公司不會串通起來，將您去匿名化時，這種分段保護才有意義。
 
 ### 去中心化 VPN
 
-Another attempt at solving the issues with centralized VPN services are dVPNs. These are based on blockchain technology and claim to eliminate trust in a single party by distributing the nodes across lots of different people. However, many times a dVPN will default to a single node, meaning you need to trust that node completely, just like a traditional VPN. Unlike a traditional VPN, this one node that can see all your traffic is a random person instead of your VPN provider that can be audited and has legal responsibilities to uphold their privacy policy. Multi-hop is needed to solve this, but that comes with a stability and performance cost.
+解決集中式 VPN 問題的另一種嘗試作法是使用 dVPN。 它們基於區塊鏈技術，聲稱透過將節點分佈在許多不同的人身上來消除對單一方的信任。 然而，很多時候 dVPN 預設使用單一節點，也就是說需要完全信任該節點，跟傳統 VPN 一樣。 與傳統 VPN 不同的是，這個能看到您所有流量的節點是隨機的，而非可以被稽核、承擔維護其隱私權政策的相關法律責任的 VPN 業者。 透過多跳的方式來解決這個問題，但又會帶來穩定性和效能成本問題。
 
-Another consideration is legal liability. The exit node will need to deal with legal problems from misuse of the network, an issue that the Tor network has contended with for its entire existence. This discourages regular people from running nodes and makes it more attractive for a malicious actor with lots of resources to host one. This is a big problem if the service is single-node, as the potentially malicious exit node can see who you are and what you're connecting to.
+另一個考慮因素是法律責任。 出口節點需要處理網路濫用帶來的法律問題，這是 Tor 網路自誕生以來一直在處理的問題。 這會降低一般人運作節點的意願，並對擁有大量資源來提供節點的惡意行為者更具吸引力。 如果服務只有單一節點，這就是個大問題，因為潛在的惡意出口節點可以看到您是誰以及正在連線到什麼地方。
 
-Many dVPNs are used to push a cryptocurrency rather than to make the best service. They also tend to be smaller networks with fewer nodes, making them more vulnerable to [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack).
+許多 dVPN 被用在推送加密貨幣，而不是提供最好的服務。 它們也往往是節點較少的小型網路，更容易受到[女巫攻擊](https://en.wikipedia.org/wiki/Sybil_attack)。
 
 ## VPN 相關資訊
 

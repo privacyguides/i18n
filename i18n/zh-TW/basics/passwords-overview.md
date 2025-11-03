@@ -4,13 +4,13 @@ icon: material/form-textbox-password
 description: 以下是關於如何建立最強密碼並確保帳戶安全的一些提示和技巧。
 ---
 
-密碼是我們日常數位生活的重要組成部分。 We use them to protect our accounts, our devices, and our secrets. 儘管密碼常常是我們與挖取我們私人資訊的對手之間僅有的唯一阻隔，但人們並未對密碼有充分的考量，導致人們使用的密碼很容易被猜到或強力破解。
+密碼是我們日常數位生活的重要組成部分。 我們使用它們來保護帳號、裝置與祕密資訊。 儘管密碼常常是我們與挖取我們私人資訊的對手之間僅有的唯一阻隔，但人們並未對密碼有充分的考量，導致人們使用的密碼很容易被猜到或強力破解。
 
 ## 最佳實踐
 
 ### 每項服務各選用不同的獨特密碼
 
-Imagine this: You sign up for an account with the same e-mail and password on multiple online services. 如果其中一個服務提供商懷有惡意，或者其服務發生資料洩露，以未加密格式暴露了您的密碼，那麼不良行為者只需嘗試跨多個流行服務的電子郵件和密碼組合，就可輕易得手。 密碼強度已無關緊要，因為對手已經打開它了。
+想像這個情境：您在各個不同的網路服務註冊時都使用同一組電子郵件和密碼。 如果其中一個服務提供商懷有惡意，或者其服務發生資料洩露，以未加密格式暴露了您的密碼，那麼不良行為者只需嘗試跨多個流行服務的電子郵件和密碼組合，就可輕易得手。 密碼強度已無關緊要，因為對手已經打開它了。
 
 這稱為 [憑證填充](https://en.wikipedia.org/wiki/Credential_stuffing)，是最常見帳戶被不良行為者破壞的方式之一。 為了避免這種情況，請確保您永遠不會重複使用密碼。
 
@@ -73,9 +73,9 @@ Imagine this: You sign up for an account with the same e-mail and password on mu
 
 </div>
 
-If you don't have access to or would prefer to not use real dice, you can use your password manager's built-in password generator, as most of them have the option to generate diceware passphrases in addition to regular passwords. We recommend setting the generated passphrase length to at least 6 words.
+如果您手邊沒有，或不想使用真正的骰子，可利用密碼管理器內建的密碼產生器。因為大多數密碼產生器除了普通密碼之外也可以產生 diceware 密語。 我們建議產生的密語長度至少要有 6 個字。
 
-We also recommend using [EFF's large word list](https://eff.org/files/2016/07/18/eff_large_wordlist.txt) to generate your diceware passphrases, as it offers the exact same security as the original list, while containing words that are easier to memorize. 如果您不希望您的密碼短語使用英文，也有 [不同語言的單詞列表](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline)。
+我們也建議使用 [EFF 的大型單詞清單](https://eff.org/files/2016/07/18/eff_large_wordlist.txt)來產生 diceware 密語，因為它提供與原始清單完全相同的安全性，又包含較容易記憶的字詞。 如果您不希望您的密碼短語使用英文，也有 [不同語言的單詞列表](https://theworld.com/~reinhold/diceware.html#Diceware%20in%20Other%20Languages|outline)。
 
 <details class="note" markdown>
 <summary>密碼短語的熵和強度的說明</summary>
@@ -93,7 +93,7 @@ We also recommend using [EFF's large word list](https://eff.org/files/2016/07/18
 平均而言，至少要嘗試所有可能組合的一半來猜測您的密語。 考慮到這一點，即使對手每秒能夠猜測~ 1,000,000,000,000 次，他們仍然需要~ 27,255,689 年來猜出您的密語。 即使以下情況屬實，也是如此：
 
 - 對手知道您使用 diceware 方法。
-- Your adversary knows the specific word list that you used.
+- 對方知道您所使用的具體單詞清單。
 - 對手知道您的密語包含多少個單詞。
 
 </details>
@@ -113,7 +113,7 @@ We also recommend using [EFF's large word list](https://eff.org/files/2016/07/18
 <div class="admonition warning" markdown>
 <p class="admonition-title">Warning "不要將密碼和 TOTP 令牌放在同一個密碼管理器中</p>
 
-When using [TOTP codes as multifactor authentication](multi-factor-authentication.md#time-based-one-time-password-totp), the best security practice is to keep your TOTP codes in a [separate app](../multi-factor-authentication.md).
+當使用 TOTP 代碼進行[多因素驗證](multi-factor-authentication.md#time-based-one-time-password-totp)時，最好的安全措施是將 TOTP 代碼保存在[獨立的應用程式](../multi-factor-authentication.md)中。
 
 將您的 TOTP 令牌儲存在與密碼相同的位置，雖然方便，但假若對手可以存取密碼管理器，則帳戶安全驗證則減少為單一因素。
 
