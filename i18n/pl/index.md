@@ -1,6 +1,6 @@
 ---
-meta_title: "Privacy Guides: Independent Privacy & Security Resources"
-description: "Established in 2021, Privacy Guides is the most popular & trustworthy non-profit resource to find privacy tools and learn about protecting your digital life."
+meta_title: "Privacy Guides: Niezależne źródło informacji o prywatności i bezpieczeństwie"
+description: "Założone w 2021 roku, Privacy Guides to najpopularniejsze i najbardziej godne zaufania, non-profit źródło wiedzy o narzędziach do ochrony prywatności i sposobach zabezpieczenia swojego cyfrowego życia."
 template: home.html
 social:
   cards_layout: home
@@ -26,7 +26,7 @@ schema:
     "@context": https://schema.org
     "@type": WebSite
     name: Privacy Guides
-    url: "https://www.privacyguides.org/"
+    url: "https://www.privacyguides.org/?lang=pl"
     sameAs:
       - https://www.wikidata.org/wiki/Q111710163
     potentialAction:
@@ -42,78 +42,78 @@ schema:
 <div markdown>
 ## A po co to komu?
 
-> “I have nothing to hide. Po co mam się martwić o swoją prywatność?"
+> „Nie mam nic do ukrycia. Dlaczego mam się przejmować swoją prywatnością?”
 
-Podobnie jak prawo do małżeństw różnych ras, prawo wyborcze kobiet, wolność słowa i wiele innych, nasze prawo do prywatności nie zawsze było egzekwowane. W części dyktatur nadal nie jest. Poprzednie pokolenia walczyły za nasze prawo do prywatności. == Prywatność jest prawem człowieka, nieodłącznym dla nas wszystkich, == do którego mamy prawo (bez dyskryminacji).
+Podobnie jak prawo do małżeństw międzyrasowych, prawa wyborcze kobiet czy wolność słowa – nasze prawo do prywatności nie zawsze było respektowane. W wielu dyktaturach nadal nie jest. Poprzednie pokolenia walczyły o to, byśmy mogli z tego prawa korzystać. ==Prywatność jest prawem człowieka, przysługującym każdemu z nas,== bez wyjątków i dyskryminacji.
 
-Nie powinieneś mylić prywatności z tajnością. Wszyscy wiemy co robi się w łazience, ale nadal zamykamy drzwi. To dlatego, że chcesz prywatności, a nie tajności. **Każdy** ma coś, co chce chronić. Prywatność to coś, co czyni nas ludźmi.
+Nie należy mylić prywatności z tajemnicą. Wszyscy wiemy, co robisz w łazience, ale mimo to zamykasz drzwi. Robisz to, bo chcesz prywatności, a nie dlatego, że coś ukrywasz. **Każdy** ma coś, co chce chronić. Prywatność to coś, co czyni nas ludźmi.
 
 [:material-book-outline: Why Privacy Matters](basics/why-privacy-matters.md){ class="md-button" }
 </div>
 
 <div markdown>
-## Co powinniśmy zrobić?
+## Co w takim razie mam zrobić?
 
-> First, you need to make a plan
+> Po pierwsze, musisz opracować plan
 
-Trying to protect all your data from everyone all the time is impractical, expensive, and exhausting. Ale bez obaw! Bezpieczeństwo to proces, a myśląc z wyprzedzeniem możesz stworzyć plan, który będzie odpowiedni dla Ciebie. Security isn't just about the *privacy tools* you use or the software you download. Zaczyna się to raczej od zrozumienia unikalnych zagrożeń, z którymi się borykasz i w jaki sposób możesz im przeciwdziałać.
+Próba ochrony wszystkich danych przed wszystkimi przez cały czas jest niepraktyczna, kosztowna i wyczerpująca. Ale bez obaw! Bezpieczeństwo to proces. Myśląc z wyprzedzeniem, możesz stworzyć plan, który będzie odpowiedni właśnie dla Ciebie. Bezpieczeństwo nie sprowadza się tylko do *narzędzi do ochrony prywatności*, z których korzystasz, ani do oprogramowania, które instalujesz. Zaczyna się od zrozumienia, jakie konkretne zagrożenia Cię dotyczą i jak możesz im przeciwdziałać.
 
-==Ten proces identyfikacji zagrożeń oraz definiowania środków zaradczych jest nazywany **modelowaniem zagrożeń**== i stanowi podstawę każdego dobrego planu bezpieczeństwa i prywatności.
+==Ten proces identyfikacji zagrożeń oraz określania sposobów ich neutralizacji nazywany jest **modelowaniem zagrożeń**== i stanowi podstawę każdego solidnego planu ochrony prywatności i bezpieczeństwa.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button" }
+[:material-book-outline: Dowiedz się więcej o modelowaniu zagrożeń](basics/threat-modeling.md){ class="md-button" }
 </div>
 </div>
 
-## Trustworthy Privacy Software Reviews
+## Rzetelne recenzje oprogramowania do ochrony prywatności
 
 <div class="grid" markdown>
 
 <div markdown>
-**Privacy Guides** has a dedicated [community](https://discuss.privacyguides.net) independently reviewing various *privacy tools* and services. Each of our recommendations comply with a strict set of criteria to ensure they provide the most value to most people, and provide the best balance of privacy, security, and convenience. As part of a non-profit **public charity**, Privacy Guides has strict **journalistic standards** and policies to ensure our recommendations are free of conflict of interest, and we do not partner with providers or affiliate programs that could sway our reviews and recommendations.
+**Privacy Guides** posiada dedykowaną [społeczność](https://discuss.privacyguides.net), która niezależnie ocenia różne *narzędzia do ochrony prywatności* i usługi. Każde z naszych zaleceń spełnia rygorystyczny zestaw kryteriów, aby zapewnić jak największą wartość dla większości użytkowników oraz najlepszy możliwy balans między prywatnością, bezpieczeństwem i wygodą. Jako **publiczna organizacja charytatywna** non-profit, Privacy Guides stosuje surowe **standardy dziennikarskie** i polityki gwarantujące, że nasze zalecenia są całkowicie wolne od konfliktu interesów. Nie współpracujemy z dostawcami ani programami partnerskimi, które mogłyby wpłynąć na niezależność naszych recenzji i zaleceń.
 
-[:material-heart:{.pg-red} Support Our Work](about/donate.md){ class="md-button md-button--primary" data-portal="signup" }
+[:material-heart:{.pg-red} Wesprzyj naszą działalność](about/donate.md){ class="md-button md-button--primary" data-portal="signup" }
 
 </div>
 
-- [x] **Ad-Free Recommendations**
-- [x] **Complete Editorial Independence**
-- [x] **Non-Profit & Open Source**
-- [x] **Frequent Updates**
-- [x] **Trusted by Journalists**
-- [x] **Trusted by Readers**
+- [x] **Zalecenia bez reklam**
+- [x] **Pełna niezależność redakcyjna**
+- [x] **Non-profit i open source**
+- [x] **Częste aktualizacje**
+- [x] **Zaufanie dziennikarzy**
+- [x] **Zaufanie czytelników**
 
 </div>
 
 ---
 
-## About Privacy Guides
+## O Privacy Guides
 
-![Privacy Guides logo](assets/brand/logos/png/square/pg-yellow.png){ align=right loading=lazy }
+![Logo Privacy Guides](assets/brand/logos/png/square/pg-yellow.png){ align=right loading=lazy }
 
-Established in 2021 due to the difficulty of finding unbiased reviewers in the VPN and privacy space, **Privacy Guides** is the most popular, trustworthy, non-profit website that provides information about protecting your *personal* data security and privacy. Our crowdsourced recommendations and reviews of **privacy tools** and our community dedicated to helping others set us apart from other blogs and content creators. The team behind this project has been researching privacy and security in the open-source space for over 5 years, originally with a now-defunct web resource that eventually became the *Privacy Guides* millions of readers trust.
+Założony w 2021 roku z powodu trudności w znalezieniu bezstronnych recenzentów w branży VPN i prywatności, **Privacy Guides** to najpopularniejszy, godny zaufania, non-profit serwis dostarczający informacji o ochronie *danych osobowych*, bezpieczeństwie i prywatności. Nasze oparte na współpracy społeczności zalecenia i recenzje **narzędzi do ochrony prywatności** oraz aktywna społeczność pomagająca innym wyróżniają nas na tle blogów i twórców treści. Zespół stojący za projektem bada kwestie prywatności i bezpieczeństwa w przestrzeni open-source od ponad 5 lat — początkowo w ramach nieistniejącego już projektu, który z czasem przekształcił się w *Privacy Guides*, obecnie zaufane źródło wiedzy dla milionów czytelników.
 
-*Our website is free of advertisements and not affiliated with any of the listed providers.*
+*Nasza strona jest całkowicie wolna od reklam i nie jest powiązana z żadnym z prezentowanych dostawców.*
 
-As seen in **WIRED**, **Tweakers.net**, **The New York Times**, and many other publications as a reliable source for privacy and security knowledge.
+Wspominany m.in. przez **WIRED**, **Tweakers.net**, **The New York Times** i wiele innych redakcji jako wiarygodne źródło wiedzy o prywatności i bezpieczeństwie.
 
-[:material-information: More About Who We Are](about.md){ class="md-button" }
+[:material-information: Dowiedz się więcej o nas](about.md){ class="md-button" }
 
 <div class="grid" markdown>
 <div markdown>
-## What are privacy tools?
+## Czym są narzędzia do ochrony prywatności?
 
-We recommend a wide variety of **privacy tools** (a.k.a. *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can use to improve your privacy. Many of the tools we recommend are completely free to use and open-source software, while some are commercial services available for purchase. Switching from mainstream data-hungry software like Google Chrome and Windows to privacy-focused tools like [Brave](desktop-browsers.md#brave) and [Linux](desktop.md) can go a long way towards controlling the information you share with companies and others.
+Zalecamy szeroki wybór narzędzi do ochrony prywatności (znanych też jako *aplikacje do ochrony prywatności*, *usługi do ochrony prywatności* lub *oprogramowanie do ochrony prywatności*), obejmujących zarówno oprogramowanie, jak i sprzęt, które możesz wykorzystać, aby zwiększyć swoją prywatność. Wiele z polecanych przez nas narzędzi to całkowicie darmowe oprogramowania typu open-source, choć niektóre są komercyjnymi usługami dostępnymi za opłatą. Przejście z popularnych, żądnych danych oprogramowań, takich jak Google Chrome czy Windows, na rozwiązania skoncentrowane na prywatności, jak [Brave](desktop-browsers.md#brave) czy [Linux](desktop.md), może znacząco ograniczyć ilość informacji, które udostępniasz firmom i innym podmiotom.
 
-[:material-check-all: Our General Criteria](about/criteria.md){ class="md-button" }
+[:material-check-all: Nasze ogólne kryteria](about/criteria.md){ class="md-button" }
 </div>
 
 <div markdown>
-## Why does privacy matter?
+## Dlaczego prywatność ma znaczenie?
 
-In the modern age of digital data exploitation, your privacy has never been more critical, yet many believe it is already a lost cause. It is not. ==Your privacy is up for grabs, and you need to care about it.== Privacy is about power, and it is so important that this power ends up in the right hands.
+We współczesnej erze cyfrowego wykorzystywania danych Twoja prywatność nigdy nie była bardziej zagrożona, a mimo to wielu ludzi uważa, że jej ochrona to już przegrana sprawa. To nieprawda. ==Twoja prywatność jest na wagę złota i musisz o nią dbać.== Prywatność to kwestia władzy, i kluczowe jest, by ta władza trafiła we właściwe ręce.
 
-Many people get the concepts of privacy, security, and anonymity confused. You'll see people criticize various products as "not private" when really they mean it doesn't provide anonymity, for example. On this website, we cover all three of these topics, but it is important you understand the difference between them, and when each one comes into play.
+Wiele osób myli pojęcia prywatności, bezpieczeństwa i anonimowości. Często można spotkać się z krytyką różnych produktów jako „nieprywatnych”, gdy w rzeczywistości chodzi o to, że nie zapewniają anonimowości. Na tej stronie omawiamy wszystkie trzy aspekty, ale istotne jest, aby znać różnice między nimi i wiedzieć, kiedy każdy z nich ma zastosowanie.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
+[:material-movie-open-play-outline: Film: 5 kroków do poprawy prywatności](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 </div>
 </div>
