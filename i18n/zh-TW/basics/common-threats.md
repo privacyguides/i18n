@@ -4,7 +4,7 @@ icon: 'material/eye-outline'
 description: 您的威脅模型雖說是個人的事，但它也是本站許多訪客關心的課題。
 ---
 
-廣義來講，我們將建議歸類為適用於大多數人的 [威脅](threat-modeling.md) 或目標。 您可能會在意各種可能性的組合，而選用的工具和服務則取決於您的目標何在。 You may have specific threats outside these categories as well, which is perfectly fine! 重要的是要了解您選擇使用的工具的好處和缺點，因為幾乎沒有一種工具可以保護您免受任何威脅。
+廣義來講，我們將建議歸類為適用於大多數人的 [威脅](threat-modeling.md) 或目標。 您可能會在意各種可能性的組合，而選用的工具和服務則取決於您的目標何在。 您也可能有超出這些類別之外的特定威脅，這完全有可能！ 重要的是要了解您選擇使用的工具的好處和缺點，因為幾乎沒有一種工具可以保護您免受任何威脅。
 
 <span class="pg-purple">:material-incognito: **匿名**</span>
 :

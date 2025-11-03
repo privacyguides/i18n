@@ -19,7 +19,7 @@ description: 我們建議您使用這些方法取得 Android 上的應用程式�
 [:octicons-heart-16:](https://github.com/sponsors/ImranR98){ .card-link title=捐款 }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-github: GitHub](https://github.com/ImranR98/Obtainium/releases)
 
@@ -48,7 +48,7 @@ Google Play商店 需要登錄 Google帳戶 才能使用，這不利於隱私。
 [:octicons-code-16:](https://gitlab.com/AuroraOSS/AuroraStore){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-gitlab: GitLab](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
 
