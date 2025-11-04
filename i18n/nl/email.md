@@ -10,7 +10,7 @@ global:
     - "table tbody"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Beschermt tegen de volgende bedreiging(en):</small>
 
 - [:material-server-network: Dienstverleners](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
@@ -22,7 +22,7 @@ E-mail is bijna een noodzaak voor het gebruik van elke online dienst, maar wij r
 
 Voor al het andere raden wij verschillende e-mailproviders aan op basis van duurzame bedrijfsmodellen en ingebouwde beveiligings- en privacyfuncties. Lees onze [volledige lijst met criteria](#criteria) voor meer informatie.
 
-| Provider                      | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero-Access Encryption                               | Anonymous Payment Methods             |
+| Provider                      | OpenPGP / WKD                          | IMAP / SMTP                                                | Zero-Access Encryption                               | Anonieme betaalmethoden               |
 | ----------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------- |
 | [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Paid plans only | :material-check:{ .pg-green }                        | Contant                               |
 | [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Mail only | Contant                               |
@@ -30,7 +30,7 @@ Voor al het andere raden wij verschillende e-mailproviders aan op basis van duur
 
 In addition to (or instead of) an email provider recommended here, you may wish to consider a dedicated [email aliasing service](email-aliasing.md#recommended-providers) to protect your privacy. Among other things, these services can help protect your real inbox from spam, prevent marketers from correlating your accounts, and encrypt all incoming messages with PGP.
 
-- [More Information :material-arrow-right-drop-circle:](email-aliasing.md)
+- [Meer informatie :material-arrow-right-drop-circle:](email-aliasing.md)
 
 ## OpenPGP compatibele diensten
 
@@ -44,7 +44,7 @@ These providers natively support OpenPGP encryption/decryption and the [Web Key 
 </div>
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Waarschuwing</p>
 
 When using E2EE technology like OpenPGP your email will still have some metadata that is not encrypted in the header of the email, generally including the subject line! Read more about [email metadata](basics/email-security.md#email-metadata-overview).
 
@@ -60,7 +60,7 @@ OpenPGP also does not support forward secrecy, which means if the private key of
 
 ![Proton Mail logo](assets/img/email/protonmail.svg){ align=right }
 
-**Proton Mail** is een e-maildienst met focus op privacy, encryptie, veiligheid en gebruiksgemak. They have been in operation since 2013. Proton AG is based in Geneva, Switzerland.
+**Proton Mail** is een e-maildienst met focus op privacy, encryptie, veiligheid en gebruiksgemak. Ze zijn actief sinds 2013. Proton AG is gevestigd in Genève, Zwitserland.
 
 The Proton Free plan comes with 500 MB of Mail storage, which you can increase up to 1 GB for free.
 

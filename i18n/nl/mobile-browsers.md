@@ -199,11 +199,11 @@ These options can be found in :material-menu: → **Settings** → **Leo**.
 
 These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
 
-- [Deselecteer **Zoeksuggesties weergeven**
+- [ ] Deselecteer **Zoeksuggesties weergeven**
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) maakt jouw surfgegevens (geschiedenis, bladwijzers, enz.) toegankelijk op al je apparaten zonder dat je een account nodig hebt en beschermt ze met E2EE.
 
 ## Cromite (Android)
 

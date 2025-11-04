@@ -13,7 +13,7 @@ cover: data-redaction.webp
 Wanneer je bestanden deelt, is het belangrijk om de bijbehorende metadata te verwijderen. Afbeeldingsbestanden bevatten vaak [Exif](https://en.wikipedia.org/wiki/Exif) data. Foto's bevatten soms zelfs GPS-coördinaten in de metadata van het bestand.
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Warning</p>
+<p class="admonition-title">Waarschuwing</p>
 
 Je moet **nooit** vervaging gebruiken om [tekst in afbeeldingen](https://bishopfox.com/blog/unredacter-tool-never-pixelation) te redigeren. If you want to redact text in an image, you should draw a box over the text.
 

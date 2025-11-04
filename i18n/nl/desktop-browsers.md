@@ -156,7 +156,7 @@ Deze opties zijn te vinden in :material-menu: → **Instellingen**.
 
 #### Zoeken
 
-- [Deselecteer **Zoeksuggesties weergeven**
+- [ ] Deselecteer **Zoeksuggesties weergeven**
 
 Functies voor zoeksuggesties zijn mogelijk niet beschikbaar in jouw regio.
 
@@ -285,21 +285,21 @@ De opties van Shields kunnen naar behoefte per site worden aangepast, maar stand
 
 <div class="annotate" markdown>
 
-- x] Selecteer **Agressief** onder *Trackers en advertenties blokkeren*
+- [x] Selecteer **Agressief** onder *Trackers en advertenties blokkeren*
 
 <details class="warning" markdown>
 <summary>Gebruik standaard filterlijsten</summary>
 
-Met Brave kun je extra inhoudsfilters selecteren binnen de interne `brave://adblock` pagina. Wij raden het gebruik van deze functie af; houd in plaats daarvan de standaardfilterlijsten aan. Het gebruik van extra lijsten zorgt ervoor dat je je onderscheidt van andere Brave gebruikers en kan ook het aanvalsoppervlak vergroten als er een exploit in Brave is en een kwaadwillige regel wordt toegevoegd aan één van de lijsten die je gebruikt.
+Met Brave kun je extra inhoudsfilters selecteren binnen de interne `brave://adblock` pagina. Wij raden het gebruik van deze functie af; houd in plaats daarvan de standaard filterlijsten aan. Het gebruik van extra lijsten zorgt ervoor dat je je onderscheidt van andere Brave gebruikers en kan ook het aanvalsoppervlak vergroten als er een exploit in Brave is en een kwaadwillige regel wordt toegevoegd aan één van de lijsten die je gebruikt.
 
 </details>
 
-- x] Selecteer **Strict** onder *Verbeter verbindingen naar HTTPS*
+- [x] Selecteer **Strict** onder *Verbeter verbindingen naar HTTPS*
 - [x] (Optioneel) Selecteer **Blokkeer scripts** (1)
 - [x] Vink **Blokkeer vingerafdrukken** aan
 - [x] Selecteer **Blokkeer cookies van derden**
 - [x] Vink **Vergeet mij als ik deze site afsluit** aan (2)
-- [ ] Schakel alle onderdelen van sociale media uit.
+- [ ] Schakel alle onderdelen van sociale media uit
 
 </div>
 
@@ -310,7 +310,7 @@ Met Brave kun je extra inhoudsfilters selecteren binnen de interne `brave://adbl
 
 <div class="annotate" markdown>
 
-- x] Selecteer **Sites niet toestaan JavaScript-optimalisatie te gebruiken** onder *Security* → *Manage JavaScript optimization & security* (1)
+- [x] Selecteer **Sites niet toestaan JavaScript-optimalisatie te gebruiken** onder *Security* → *Manage JavaScript optimization & security* (1)
 - [x] Selecteer **Automatisch rechten verwijderen van ongebruikte sites** onder *Sites and Shields Settings*
 - [x] Selecteer **Disable non-proxied UDP** onder [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
 - [ ] Deselecteer **Google-services gebruiken voor pushberichten**
@@ -347,7 +347,7 @@ De Web3-functies van Brave kunnen mogelijk de vingerafdruk van jouw browser en h
 
 We raden aan om zoeksuggesties in Brave uit te schakelen om dezelfde reden waarom we aanraden om deze functie in [Firefox](#search) uit te schakelen.
 
-- [Deselecteer **Zoeksuggesties weergeven**
+- [ ] Deselecteer **Zoeksuggesties weergeven**
 
 #### Systeem
 
@@ -361,13 +361,13 @@ We raden aan om zoeksuggesties in Brave uit te schakelen om dezelfde reden waaro
 
 #### Brave Sync
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) maakt jouw surfgegevens (geschiedenis, bladwijzers, enz.) toegankelijk op al je apparaten zonder dat je een account nodig hebt en beschermt ze met E2EE.
 
 #### Brave Rewards en Wallet
 
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+Met **Brave Rewards** kun je Basic Attention Token (BAT) cryptocurrency ontvangen voor het uitvoeren van bepaalde acties binnen Brave. Het is afhankelijk van een bewaarrekening en KYC van een select aantal providers. We raden BAT niet aan als een [privé cryptocurrency](cryptocurrency.md), noch raden we het gebruik van een [bewaarrekening](advanced/payments.md#wallet-custody) aan, dus we raden het gebruik van deze functie af.
 
-**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
+**Brave Wallet** werkt lokaal op je computer, maar ondersteunt geen privé cryptocurrencies, dus we raden het gebruik van deze functie ook af.
 
 ## Criteria
 
@@ -377,22 +377,22 @@ We raden aan om zoeksuggesties in Brave uit te schakelen om dezelfde reden waaro
 
 - Moet open-source software zijn.
 - Moet automatische updates ondersteunen.
-- Must receive engine updates in 0-1 days from upstream release.
-- Must be available on Linux, macOS, and Windows.
-- Any changes required to make the browser more privacy-respecting must not negatively impact user experience.
-- Must block third-party cookies by default.
-- Must support [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) to mitigate cross-site tracking.[^1]
+- Moet engine updates ontvangen binnen 0-1 dagen na upstream release.
+- Beschikbaar op Linux, macOS en Windows.
+- Wijzigingen die nodig zijn om de browser privacyvriendelijker te maken, mogen de gebruikerservaring niet negatief beïnvloeden.
+- Blokkeert standaard cookies van derden.
+- Moet [state partitioning](https://developer.mozilla.org/docs/Web/Privacy/State_Partitioning) ondersteunen om cross-site tracking te beperken.[^1]
 
-### Beste geval
+### Best-case
 
 Onze best-case criteria geven aan wat wij zouden willen zien van het perfecte project in deze categorie. Het is mogelijk dat onze aanbevelingen geen of niet alle functies bevatten, maar degene die dat wel doen kunnen hoger gerangschikt worden dan andere op deze pagina.
 
-- Should include built-in content blocking functionality.
-- Should support cookie compartmentalization (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
-- Should support Progressive Web Apps (PWAs). PWAs enable you to install certain websites as if they were native apps on your computer. This can have advantages over installing Electron-based apps because PWAs benefit from your browser's regular security updates.
-- Should not include add-on functionality (bloatware) that does not impact user privacy.
-- Should not collect telemetry by default.
-- Should provide an open-source sync server implementation.
-- Should default to a [private search engine](search-engines.md).
+- Beschikt over ingebouwde functionaliteit voor het blokkeren van inhoud.
+- Ondersteunt cookie compartimentalisatie (à la [Multi-Account Containers](https://support.mozilla.org/kb/containers)).
+- Moet Progressive Web Apps (PWA's) ondersteunen. Met PWA's kun je bepaalde websites op je computer installeren alsof het native apps zijn. Dit kan voordelen hebben ten opzichte van het installeren van op Electron-gebaseerde apps, omdat je profiteert van de regelmatige beveiligingsupdates van jouw browser.
+- Mag geen extra functionaliteit (bloatware) bevatten die geen invloed heeft op de privacy van de gebruiker.
+- Verzamelt standaard geen telemetrie.
+- Biedt een open-source sync-server implementatie.
+- Standaard ingesteld op een [privé zoekmachine](search-engines.md).
 
-[^1]: Brave's implementation is detailed at [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).
+[^1]: De implementatie van Brave is gedetailleerd beschreven in [Brave Privacy Updates: Partitioning network-state for privacy](https://brave.com/privacy-updates/14-partitioning-network-state).
