@@ -21,13 +21,13 @@ description: Microsoft Windows 是一種常見的作業系統，開箱即用；�
 <div class="admonition example" markdown>
 <p class="admonition-title">本節為新增內容</p>
 
-This section is a work in progress, because it takes considerably more time and effort to make a Windows installation more privacy-friendly than other operating systems.
+本節仍在撰寫中，與其他作業系統相比，需要花費更多的時間和精力才能將 Windows 安裝調整為更隱私友善。
 
 </div>
 
 ## 隱私筆記
 
-Microsoft Windows, particularly those versions aimed at consumers like the **Home** version often don't prioritize privacy-friendly features by [default](https://theguardian.com/technology/2015/jul/31/windows-10-microsoft-faces-criticism-over-privacy-default-settings). 因此，我們經常看到比必要更多的 [資料收集](https://en.wikipedia.org/wiki/Criticism_of_Microsoft#Telemetry_and_data_collection)，卻沒有任何真正的警告說明這是預設行為。 為了在廣告領域與 Google 競爭，[Cortana](https://en.wikipedia.org/wiki/Cortana_\(virtual_assistant\)) 加入了獨特的識別碼，例如「廣告 ID」，以便關聯使用情況，協助廣告商針對性地投放廣告。  在 Windows 10 推出時，非企業版無法停用遙測功能。 現在仍然無法停用，但微軟新增了 [減少](https://extremetech.com/computing/243079-upcoming-windows-update-reduces-spying-microsoft-still-mum-data-collects) 傳送資料的功能。
+Microsoft Windows，尤其是針對消費者的版本（如**家用版**），常常[預設](https://theguardian.com/technology/2015/jul/31/windows-10-microsoft-faces-criticism-over-privacy-default-settings) 不優先使用對隱私權友善的功能。 因此，我們經常看到比必要更多的 [資料收集](https://en.wikipedia.org/wiki/Criticism_of_Microsoft#Telemetry_and_data_collection)，卻沒有任何真正的警告說明這是預設行為。 為了在廣告領域與 Google 競爭，[Cortana](https://en.wikipedia.org/wiki/Cortana_\(virtual_assistant\)) 加入了獨特的識別碼，例如「廣告 ID」，以便關聯使用情況，協助廣告商針對性地投放廣告。  在 Windows 10 推出時，非企業版無法停用遙測功能。 現在仍然無法停用，但微軟新增了 [減少](https://extremetech.com/computing/243079-upcoming-windows-update-reduces-spying-microsoft-still-mum-data-collects) 傳送資料的功能。
 
 Windows 11 有許多限制或預設值，例如：
 
@@ -43,11 +43,11 @@ Windows 11 有許多限制或預設值，例如：
 
 ## Windows 版本
 
-遺憾的是，許多重要的隱私與安全功能都被鎖定在成本較高的 Windows 版本，而非 Windows **家用版**。 Some features missing from **Home** include BitLocker Drive Encryption, Hyper-V, and Windows Sandbox. 在 Windows 指南中，我們將介紹如何適當地使用所有這些功能，因此擁有高級版本的 Windows 將是必要的。
+遺憾的是，許多重要的隱私與安全功能都被鎖定在成本較高的 Windows 版本，而非 Windows **家用版**。 **家用版**缺少的一些功能包括 Bitlocker 磁碟機加密、Hyper-V 和 Windows 沙箱。 在 Windows 指南中，我們將介紹如何適當地使用所有這些功能，因此擁有高級版本的 Windows 將是必要的。
 
 Windows **企業版** 在設定 Windows 內建的隱私與安全設定時，提供最大的彈性。 例如，它們是唯一能限制啟用遙測工具，阻止將資料傳回微軟的版本。 遺憾的是，Enterprise 無法零售購買，因此可能無法使用。
 
-The best version available for _retail_ purchase is Windows **Pro** as it has nearly all the features you'll want to use to secure your device, including BitLocker, Hyper-V, etc. The only thing missing is some of the most restrictive limitations on Microsoft's telemetry, unfortunately.
+可供_零售_購買的最佳版本是 Windows _專業版_，因為它幾乎擁有您想要用來保護裝置的所有功能，包括 Bitlocker、Hyper-V 等。 遺憾的是，微軟的遙測功能，缺少了一些最嚴格的限制。
 
 學生和教師可以從教育機構免費取得 Windows **教育版**（相當於企業版）或 **專業教育版**（相當於專業版）授權，包括在個人裝置上。 許多學校透過 OnTheHub 或 Microsoft Azure for Education 與微軟合作，因此您可以檢查這些網站或學校的福利頁面，看看是否符合資格。 能否獲得這些許可完全取決於機構。 對許多人來說，這可能是取得 Windows 企業版供個人使用的最佳方式。 與零售版本相比，使用教育授權不會帶來額外的隱私或安全風險。
 
@@ -59,6 +59,6 @@ The best version available for _retail_ purchase is Windows **Pro** as it has ne
 
 官方的 [媒體建立工具](https://microsoft.com/software-download/windows11) 是將 Windows 安裝程式放入 USB 隨身碟的最佳方法。 Rufus 或 Etcher 等第三方工具可能會意外修改檔案，這可能會導致開機問題或安裝時出現其他麻煩。
 
-此工具只能讓您安裝**家用版**或**專業版**，因為沒有 Windows **企業版**的公開下載。 如果您有**企業版**授權金鑰，您可以輕鬆從**專業版**升級。 To do this, install Windows **Pro** without entering a license key during setup, then enter your **Enterprise** key in the Settings app after completing the installation. 輸入有效的授權金鑰後，您的**專業版**安裝將會自動升級為**企業版**。
+此工具只能讓您安裝**家用版**或**專業版**，因為沒有 Windows **企業版**的公開下載。 如果您有**企業版**授權金鑰，您可以輕鬆從**專業版**升級。 若要執行此動作，請安裝 Windows **專業版**，但在安裝過程中不輸入授權金鑰，完成安裝後，在「設定」應用程式中輸入您的**企業版**金鑰。 輸入有效的授權金鑰後，您的**專業版**安裝將會自動升級為**企業版**。
 
 如果您安裝的是**教育版**授權，通常會有一個私人下載連結，當您從機構的福利入口網站取得授權金鑰時，該連結會與授權金鑰一同提供。

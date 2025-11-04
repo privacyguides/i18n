@@ -35,7 +35,7 @@ Android 10 及以上版本已從全磁碟加密轉變為更靈活的[基於文�
 
 **韌體更新**對維護安全性至關重要，沒有韌體更新，您的裝置就不可能安全。 OEM 與合作夥伴簽訂支援協議，在有限的支援期限內提供封閉原始碼元件。 詳情請參閱每月 [Android 安全公告](https://source.android.com/security/bulletin)。
 
-由於手機的元件（例如處理器和無線電技術）依賴於閉源元件，因此更新必須由各自的製造商提供。 因此，您的購買裝置必須在有效的支援週期內。 [Qualcomm](https://qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and) and [Samsung](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox) support their devices for 4 years, while cheaper products often have shorter support cycles. 隨著 [Pixel 6](https://support.google.com/pixelphone/answer/4457705) 的推出，Google 現在自家製造 SoC，而且他們會提供至少 5 年的支援。 隨著 Pixel 8 系列的推出，Google 將支援期限延長至 7 年。
+由於手機的元件（例如處理器和無線電技術）依賴於閉源元件，因此更新必須由各自的製造商提供。 因此，您的購買裝置必須在有效的支援週期內。 [高通](https://qualcomm.com/news/releases/2020/12/qualcomm-and-google-announce-collaboration-extend-android-os-support-and)和[三星](https://news.samsung.com/us/samsung-galaxy-security-extending-updates-knox)為其裝置提供 4 年的支援，而較便宜的產品通常支援週期較短。 隨著 [Pixel 6](https://support.google.com/pixelphone/answer/4457705) 的推出，Google 現在自家製造 SoC，而且他們會提供至少 5 年的支援。 隨著 Pixel 8 系列的推出，Google 將支援期限延長至 7 年。
 
 不再受 SoC 製造商支援的 EOL （產品生命週期結束）裝置無法從 OEM 供應商或 Android 售後市場經銷商取得韌體更新。 這表示這些裝置的安全問題仍未修正。
 
@@ -84,7 +84,7 @@ Android 13:
 <div class="admonition note" markdown>
 <p class="admonition-title">備註</p>
 
-[Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/)等隱私友好型應用程式可能會顯示 [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/)等追蹤程式。 此程式庫包括 [Firebase Cloud Messaging](https://zh.wikipedia.org/wiki/Firebase_Cloud_Messaging) ，可以在應用程式中提供 [推送通知](https://zh.wikipedia.org/wiki/Push_technology)。 這是Bitwarden的 [情況](https://fosstodon.org/ @ bitwarden/109636825700482007)。 That doesn't mean that Bitwarden is using all the analytics features that are provided by Google Firebase Analytics.
+[Bitwarden](https://reports.exodus-privacy.eu.org/en/reports/com.x8bit.bitwarden/latest/)等隱私友好型應用程式可能會顯示 [Google Firebase Analytics](https://reports.exodus-privacy.eu.org/en/trackers/49/)等追蹤程式。 此程式庫包括 [Firebase Cloud Messaging](https://zh.wikipedia.org/wiki/Firebase_Cloud_Messaging) ，可以在應用程式中提供 [推送通知](https://zh.wikipedia.org/wiki/Push_technology)。 這是Bitwarden的 [情況](https://fosstodon.org/ @ bitwarden/109636825700482007)。 這並不代表 Bitwarden 使用 Google Firebase Analytics 提供的所有分析功能。
 
 </div>
 
@@ -114,7 +114,7 @@ Android 13:
 
 與工作設定檔不同，私人空間是 Android 原生的功能，不需要第三方應用程式來管理。 因此，我們一般建議您使用私人空間而非工作設定檔，不過您也可以同時使用工作設定檔和私人空間。
 
-### VPN kill switch
+### VPN 切換開關
 
 Android 7 及以上版本支援 VPN kill switch，無需安裝第三方應用程式即可使用。 此功能可以防止VPN中斷連線時的洩漏。 它可以在 :gear: **設定** → **網路 &網際網路** → **VPN** → :gear: → **區塊連接沒有 VPN**中找到。
 
@@ -124,7 +124,7 @@ Android 7 及以上版本支援 VPN kill switch，無需安裝第三方應用程
 
 ## Google 服務
 
-如果您使用的是有 Google 服務的裝置，無論是使用原生作業系統（'stock' 版本）或像 GrapheneOS 這樣透過沙盒化使您能安全使用 Google Play 服務 的作業系統，您都可以做一些額外的變更來改善您的隱私。 We still recommend avoiding Google services entirely, or limiting Google Play Services to a specific user/work profile by combining a device controller like *Shelter* with GrapheneOS's Sandboxed Google Play.
+如果您使用的是有 Google 服務的裝置，無論是使用原生作業系統（'stock' 版本）或像 GrapheneOS 這樣透過沙盒化使您能安全使用 Google Play 服務 的作業系統，您都可以做一些額外的變更來改善您的隱私。 我們仍建議完全避免使用 Google 服務，或結合 *Shelter* 等裝置控制器與 GrapheneOS 的 Sandboxed Google Play，將 Google Play Services 限制於特定使用者/工作設定檔。
 
 ### 進階保護計劃
 
@@ -132,7 +132,7 @@ Android 7 及以上版本支援 VPN kill switch，無需安裝第三方應用程
 
 進階防護計劃提供強化的威脅監控，並能夠：
 
-- Stricter two-factor authentication; e.g. that [FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online) **must** be used and disallows the use of [SMS OTPs](../basics/multi-factor-authentication.md#sms-or-email-mfa), [TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp) and [OAuth](../basics/account-creation.md#sign-in-with-oauth)
+- 更嚴格的雙重認證；例如**必須**使用[FIDO](../basics/multi-factor-authentication.md#fido-fast-identity-online)，且不允許使用[SMS OTP](../basics/multi-factor-authentication.md#sms-or-email-mfa)、[TOTP](../basics/multi-factor-authentication.md#time-based-one-time-password-totp)和[OAuth](../basics/account-creation.md#sign-in-with-oauth)
 - 只有 Google 和經過驗證的第三方應用程式才能存取帳戶資料
 - 掃描 Gmail 帳戶收到的電子郵件，以防[釣魚嘗試](https://en.wikipedia.org/wiki/Phishing#Email_phishing)
 - 使用 Google Chrome 進行更嚴格的[安全瀏覽器掃描](https://google.com/chrome/privacy/whitepaper.html#malware)
@@ -154,11 +154,11 @@ Android 7 及以上版本支援 VPN kill switch，無需安裝第三方應用程
 
 所有安裝 Google Play 服務的裝置都會自動產生 [廣告ID](https://support.google.com/googleplay/android-developer/answer/6048248) ，用於定向廣告。 禁用此功能以限制其收集您的資料。
 
-On Android distributions with [sandboxed Google Play](https://grapheneos.org/usage#sandboxed-google-play), go to :gear: **Settings** → **Apps** → **Sandboxed Google Play** → **Google Settings** → **All services** → **Ads**.
+在有[沙盒 Google Play 的](https://grapheneos.org/usage#sandboxed-google-play) Android 版本上，請到 :gear: **設定**→**應用程式**→**沙盒 Google Play**→**Google 設定**→**所有服務**→**廣告**。
 
-- [x] Select **Delete advertising ID**
+- [x] 選擇**刪除廣告 ID**
 
-On Android distributions with privileged Google Play Services (which includes the stock installation on most devices), the setting may be in one of several locations. 查看
+在具有特權 Google Play 服務的 Android 發行版（如大多數裝置的原生系統）上，此設定可能在幾個位置。 查看
 
 - :gear: **設定** → **Google** → **廣告**
 - :gear: **設定** → **私隱** → **廣告**

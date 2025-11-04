@@ -68,7 +68,7 @@ description: 設定群組政策使 Windows 更尊重隱私的快速指南。
 - 啟動時需要其它驗證:**已啟用**
 - 允許用於啟動的 PIN 增強:**己啟用**
 
-Despite the names of these policies, this doesn't _require_ you to do anything by default, but it will unlock the _option_ to have a more complex setup (such as requiring a PIN at startup in addition to the TPM) in the BitLocker setup wizard.
+儘管這些原則的名稱是這樣，但預設下並不會_強制_您執行任何動作。不過，這將在 BitLocker 設定精靈中解鎖更複雜的設定_選項_（例如，除 TPM 之外，開機時還需要輸入 PIN 碼）。
 
 #### 雲端內容
 
