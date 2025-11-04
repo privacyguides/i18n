@@ -48,9 +48,9 @@ Częstym argumentem przeciw ruchom na rzecz prywatności jest przekonanie, że �
 
 ==Nie należy mylić prywatności z tajemnicą.== Wszyscy wiemy, co dzieje się w łazience, a mimo to zamykami drzwi. Robimy to, bo chcemy prywatności, a nie dlatego, że coś ukrywamy. Zawsze istnieją pewne informacje o nas — na przykład dotyczące zdrowia czy życia seksualnego — których nie chcielibyśmy ujawniać całemu światu, i jest to w pełni naturalne. Potrzeba prywatności jest uzasadniona i właśnie ona czyni nas ludźmi. Prywatność to kwestia prawa do kontroli nad własnymi informacjami, a nie ukrywania sekretów.
 
-## Is Privacy About Control?
+## Czy prywatność to kwestia kontroli?
 
-A common definition of privacy is that it is the ability to *control* who has access to your data. This is an easy trap to fall into, in fact it is the definition of privacy we operated this website on for a long time. It sounds nice, and it appeals to many people, but in practice it just doesn't work.
+Często definiuje się prywatność jako możliwość *kontrolowania*, kto ma dostęp do Twoich danych. This is an easy trap to fall into, in fact it is the definition of privacy we operated this website on for a long time. It sounds nice, and it appeals to many people, but in practice it just doesn't work.
 
 Take cookie consent forms, for example. You may encounter these dozens of times per day on the various websites you visit, with a nice array of checkboxes and sliders which allow you to "curate" your preferences to exactly fit your needs. In the end, we just hit the "I Agree" button, because we just want to read the article or make a purchase. Nobody wants to complete a personal privacy audit on every single website they visit. This is an exercise in [choice architecture](https://en.wikipedia.org/wiki/Choice_architecture), designed to make you take the easy route out instead of delving into a maze of configuration options that don't need to exist in the first place.
 
