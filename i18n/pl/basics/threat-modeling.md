@@ -1,111 +1,111 @@
 ---
-meta_title: "Modelowanie zagrożeń: Pierwszy krok na drodze do prywatności - Privacy Guides"
-title: "Czym są modele zagrożeń"
+meta_title: "Modelowanie zagrożeń: Twój pierwszy krok na drodze ku prywatności – Privacy Guides"
+title: "Modelowanie zagrożeń"
 icon: 'material/target-account'
-description: Osiągnięcie kompromisu pomiędzy bezpieczeństwem, prywatnością oraz łatwością korzystania jest pierwszym, a zarazem najtrudniejszym zadaniem z jakim przyjdzie Ci się zmierzyć na swojej drodze do prywatności.
+description: Utrzymanie równowagi między bezpieczeństwem, prywatnością a użytecznością to jedno z pierwszych i najtrudniejszych zadań, jakie napotkasz na drodze ku ochronie prywatności.
 ---
 
-Osiągnięcie kompromisu pomiędzy bezpieczeństwem, prywatnością oraz łatwością korzystania jest pierwszym, a zarazem najtrudniejszym zadaniem z jakim przyjdzie Ci się zmierzyć na swojej drodze do prywatności. Wszystko ma swoje minusy: Im coś jest bardziej bezpieczne, tym trudniej z tego korzystać lub uzyskać do tego dostęp i tak dalej. Wiele osób jest zdania, że korzystanie z zalecanych narzędzi jest po prostu zbyt skomplikowane!
+Utrzymanie równowagi między bezpieczeństwem, prywatnością a użytecznością to jedno z pierwszych i najtrudniejszych zadań, jakie napotkasz na drodze ku ochronie prywatności. Wszystko sprowadza się do kompromisów: im coś jest bezpieczniejsze, tym częściej staje się bardziej ograniczające lub mniej wygodne. Wielu ludzi stwierdza, że problem z zalecanymi narzędziami do ochrony prywatności, polega na tym, że są po prostu zbyt trudne w obsłudze na sam początek.
 
-Chcąc korzystać z **najbezpieczniejszych** narzędzi należy poświęcić *ogromną ilość* funkcji. I nawet wtedy, ==nic nie jest w pełni bezpieczne.== Nie ma czegoś takiego jak **pełne** bezpieczeństwo, istnieje tylko jego **wysoki poziom**. Z tego powodu, modele zagrożeń są ważne.
+Chcąc korzystać z **najbezpieczniejszych** narzędzi dostępnych na rynku, musisz poświęcić *sporo* wygody. A i tak ==nic nigdy nie jest w pełni bezpieczne.== Można osiągnąć **wysoki** poziom bezpieczeństwa, ale nigdy **pełne** bezpieczeństwo. Właśnie dlatego modelowanie zagrożeń ma takie znaczenie.
 
-**Czym zatem są wspomniane modele zagrożeń?**
+**Czym więc właściwie jest model zagrożeń?**
 
-== Model zagrożeń to lista najbardziej prawdopodobnych zagrożeń dla twojego bezpieczeństwa i prywatności.== Ponieważ nie jest możliwe zabezpieczenie się przed **każdym** atakiem, powinieneś skupić się na **najbardziej prawdopodobnych** zagrożeniach. W bezpieczeństwie komputerowym zagrożenie to zdarzenie, które może zniweczyć twoje wysiłki w drodze zachowania prywatności i bezpieczeństwa.
+==Model zagrożeń to lista najbardziej prawdopodobnych zagrożeń dla Twojego bezpieczeństwa i prywatności.== Ponieważ nie da się ochronić przed **każdym** atakiem, warto skupić się na **najbardziej prawdopodobnych** zagrożeniach. W kontekście bezpieczeństwa komputerowego zagrożeniem jest każde zdarzenie, które może podważyć Twoje starania o zachowanie prywatności i bezpieczeństwa.
 
-Skupiając się na zagrożeniach, które mają dla Ciebie znaczenie, optymalnie zawężasz swoje przemyślenia o ochronie, tak aby móc wybrać narzędzia, które są właściwe dla danej pracy.
+Skupienie się na zagrożeniach, które rzeczywiście Cię dotyczą, zawęża sposób myślenia o potrzebnej ochronie, dzięki czemu możesz dobrać narzędzia właściwe do danego celu.
 
 ## Tworzenie własnego modelu zagrożeń
 
-Aby określić, co może stać się z cennymi dla Ciebie rzeczami oraz ustalić, przed kim należy je chronić, odpowiedz sobie na następujące pięć pytań:
+Aby określić, co może się stać z rzeczami, które cenisz, i przed kim musisz je chronić, musisz odpowiedzieć sobie na następujące pięć pytań:
 
 1. Co chcę chronić?
 2. Przed kim chcę to chronić?
 3. Na ile prawdopodobne jest to, że zajdzie potrzeba to chronić?
 4. Jak poważne będą konsekwencje, jeśli mi się nie uda?
-5. Co jestem w stanie znieść, aby zapobiec potencjalnym konsekwencjom?
+5. Ile wysiłku jestem w stanie włożyć, by zapobiec ewentualnym konsekwencjom?
 
 ### Co chcę chronić?
 
-"Zasobem" jest wszystko, co jest dla Ciebie cenne i chcesz to chronić. W kontekście bezpieczeństwa cyfrowego, ==zasobem jest zazwyaczaj jakiś rodzaj informacji.== Zasobami mogą być Twoje e-maile, listy kontaktów, wiadomości, lokalizacja oraz pliki. Twoje urządzenia również mogą stanowić zasoby.
+„Zasób” to coś, co ma dla Ciebie wartość i co chcesz chronić. W kontekście bezpieczeństwa cyfrowego ==zasobem jest zazwyczaj pewien rodzaj informacji.== Na przykład: Twoje e-maile, lista kontaktów, wiadomości, dane lokalizacji czy pliki — to wszystko mogą być zasoby. Sam sprzęt, z którego korzystasz, także może być zasobem.
 
-*Sporządź listę swoich zasobów: przechowywanych danych, gdzie są one przechowywane, kto ma do nich dostęp oraz co zapobiega uzyskaniu do nich dostępu przez inne osoby.*
+*Sporządź listę swoich zasobów: danych, które przechowujesz, miejsc, w których są przechowywane, osób mających do nich dostęp oraz zabezpieczeń, które uniemożliwiają dostęp osobom niepowołanym.*
 
 ### Przed kim chcę to chronić?
 
-Przed odpowiedzeniem na te pytania warto ustalić, kto może chcieć próbować dotrzeć do Ciebie lub Twoich danych. ==Osoba lub podmiot, który stanowi zagrożenie dla Twoich zasobów to "przeciwnik".== Przykładem potencjalnego przeciwnika może być Twój szef, były partner, konkurencja firmy, rząd kraju lub haker w publicznej sieci.
+Aby odpowiedzieć na to pytanie, musisz ustalić, kto mógłby chcieć uzyskać dostęp do Twoich informacji lub zasobów. ==Osoba lub podmiot, który stanowi zagrożenie dla Twoich zasobów, to „przeciwnik”.== Przykładowi przeciwnicy to: Twój przełożony, były partner, konkurencja biznesowa, rząd lub haker w sieci publicznej.
 
-*Make a list of your adversaries or those who might want to get hold of your assets. Twoja lista może zawierać osoby fizyczne, agencje rządowe lub korporacje.*
+*Sporządź listę swoich potencjalnych przeciwników — tych, którzy mogą chcieć zdobyć Twoje zasoby. Na liście mogą się znaleźć osoby prywatne, agencje rządowe lub korporacje.*
 
-W zależności od tego, kim są Twoi przeciwnicy, ta lista może być czymś, co chcesz zniszczyć po zakończeniu tworzenia modelu zagrożeń.
+W zależności od tego, kto się na niej znajdzie, może to być dokument, który warto zniszczyć po zakończeniu tworzenia modelu zagrożeń.
 
 ### Na ile prawdopodobne jest to, że zajdzie potrzeba to chronić?
 
-==Ryzyko to prawdopodobieństwo, że dane zagrożenie dla konkretnego zasobu rzeczywiście wystąpi.== Idzie to w parze z możliwościami. Mimo tego, że Twój dostawca usług mobilnych posiada możliwości dostępu do wszystkich Twoich danych to ryzyko, że opublikują Twoje prywatne dane w sieci w celu zaszkodzenia Twojej reputacji jest niskie.
+==Ryzyko to prawdopodobieństwo, że konkretne zagrożenie wobec konkretnego zasobu faktycznie wystąpi.== Ryzyko idzie w parze z możliwościami. Choć Twój operator komórkowy ma techniczną możliwość uzyskania dostępu do wszystkich Twoich danych, ryzyko, że opublikuje Twoje prywatne informacje w Internecie, aby zaszkodzić Twojej reputacji, jest niewielkie.
 
-Ważne jest, aby rozróżnić to, co może się wydarzyć i to, jak prawdopodobne jest, że się wydarzy. Na przykład istnieje zagrożenie, że Twój budynek ulegnie zawaleniu, ale ryzyko wystąpienia tego jest o wiele większe w San Francisco (gdzie trzęsienia ziemi są częste) niż w Sztokholmie (gdzie nie są).
+Ważne jest, aby odróżniać to, co może się wydarzyć, od tego, jak prawdopodobne jest, że się wydarzy. Na przykład istnieje zagrożenie, że budynek, w którym mieszkasz, może się zawalić, ale ryzyko takiego zdarzenia jest znacznie większe w San Francisco (gdzie trzęsienia ziemi są powszechne) niż w Sztokholmie (gdzie praktycznie nie występują).
 
-Ocena ryzyka to proces zarówno osobisty, jak i subiektywny. Wiele osób uważa pewne zagrożenia za niedopuszczalne, bez względu na prawdopodobieństwo ich wystąpienia, ponieważ sama obecność zagrożenia nie jest warta ich ceny. W innych przypadkach osoby lekceważą wysokie ryzyko, ponieważ nie postrzegają zagrożenia jako problemu.
+Ocena ryzyka to proces zarówno osobisty, jak i subiektywny. Wiele osób uznaje pewne zagrożenia za nieakceptowalne — niezależnie od ich prawdopodobieństwa — ponieważ samo ich istnienie stanowi zbyt duże obciążenie. W innych przypadkach ludzie lekceważą wysokie ryzyko, ponieważ nie postrzegają danego zagrożenia jako problemu.
 
-*Zapisz, które zagrożenia zamierzasz traktować poważnie, a które mogą być zbyt rzadkie lub zbyt mało szkodliwe (lub zbyt trudne do zwalczenia), by się nimi przejmować.*
+*Zapisz, które zagrożenia traktujesz poważnie, a które są zbyt rzadkie, zbyt niegroźne (lub zbyt trudne do zwalczenia), by się nimi przejmować.*
 
 ### Jak poważne będą konsekwencje, jeśli mi się nie uda?
 
-Twój przeciwnik może uzyskać dostęp do Twoich danych na wiele sposobów. Na przykład: przeciwnik może czytać Twoją prywatną komunikację w trakcie jej podróży poprzez sieć lub usunąć oraz uszkodzić Twoje dane.
+Istnieje wiele sposobów, w jakie przeciwnik może uzyskać dostęp do Twoich danych. Może na przykład odczytać Twoją prywatną komunikację przesyłaną przez sieć, albo usunąć czy uszkodzić Twoje dane.
 
-==Motywy przeciwników są bardzo różne, podobnie jak ich taktyki.== Rząd próbujący zapobiec rozprzestrzenianiu się filmu pokazującego przemoc policji może zadowolić się usunięciem lub ograniczeniem dostępności tego filmu. Z kolei przeciwnik polityczny może chcieć uzyskać dostęp do tajnych treści i opublikować je bez twojej wiedzy.
+==Motywacje przeciwników są bardzo zróżnicowane — podobnie jak ich taktyki.== Rząd, który chce zapobiec rozprzestrzenianiu się nagrania przedstawiającego przemoc ze strony policji, może zadowolić się usunięciem tego materiału lub ograniczeniem jego dostępności. Z kolei przeciwnik polityczny może dążyć do uzyskania poufnych informacji i ich upublicznienia bez Twojej wiedzy.
 
-Planowanie bezpieczeństwa obejmuje zrozumienie, jak poważne mogą być konsekwencje, jeśli przeciwnik z powodzeniem uzyska dostęp do jednego z zasobów. Aby to ocenić, należy wziąć pod uwagę możliwości swojego przeciwnika. Na przykład, twój operator telefonii komórkowej ma dostęp do wszystkich twoich danych telefonicznych. Haker może uzyskać dostęp do Twojej nieszyfrowanej komunikacji, gdy korzystasz z otwartej sieci Wi-Fi. Twój rząd może mieć większe możliwości.
+Planowanie bezpieczeństwa wymaga zrozumienia, jak poważne mogą być skutki, jeśli przeciwnik uzyska dostęp do jednego z Twoich zasobów. Aby to ocenić, warto rozważyć jego możliwości. Przykładowo, Twój operator komórkowy ma dostęp do wszystkich Twoich danych połączeń. Haker w otwartej sieci Wi-Fi może przechwycić Twoją niezaszyfrowaną komunikację. Rząd z kolei może dysponować znacznie większymi możliwościami.
 
-*Zapisz, co Twój przeciwnik może chcieć zrobić z Twoimi danymi.*
+*Zapisz, co Twój przeciwnik mógłby chcieć zrobić z Twoimi prywatnymi danymi.*
 
-### Co jestem w stanie znieść, aby zapobiec potencjalnym konsekwencjom?
+### Ile wysiłku jestem w stanie włożyć, by zapobiec ewentualnym konsekwencjom?
 
-==Nie ma idealnej opcji dla bezpieczeństwa.== Nie każdy ma takie same priorytety, obawy lub dostęp do zasobów. Twoja ocena ryzyka pozwoli ci zaplanować odpowiednią strategię, równoważąc wygodę, koszty i prywatność.
+==Nie istnieje idealne rozwiązanie w zakresie bezpieczeństwa.== Każdy ma inne priorytety, obawy i dostęp do zasobów. Ocena ryzyka pozwoli Ci opracować strategię najlepiej dopasowaną do Twojej sytuacji, równoważąc wygodę, koszty i prywatność.
 
-Na przykład adwokat reprezentujący klienta w sprawie dotyczącej bezpieczeństwa narodowego może być skłonny dołożyć większych starań, aby chronić komunikację w tej sprawie, na przykład używając zaszyfrowanej poczty e-mail, niż matka, która regularnie wysyła swojej córce zabawne filmiki z kotami.
+Na przykład adwokat reprezentujący klienta w sprawie dotyczącej bezpieczeństwa narodowego może być skłonny podjąć znacznie dalej idące środki w celu ochrony komunikacji, takie jak korzystanie z szyfrowanej poczty elektronicznej, niż osoba, która wysyła córce zabawne filmiki z kotami.
 
-*Zapisz jakie opcje masz do dyspozycji, aby złagodzić swoje unikalne zagrożenia. Zwróć uwagę, czy masz jakieś ograniczenia finansowe, techniczne lub społeczne.*
+*Zapisz, jakie masz dostępne opcje, które mogą pomóc Ci ograniczyć Twoje specyficzne zagrożenia. Zaznacz, czy obowiązują Cię jakieś ograniczenia finansowe, techniczne lub społeczne.*
 
-### Spróbuj sam: Ochrona rzeczy osobistych
+### Spróbuj sam: ochrona rzeczy osobistych
 
-Pytania te mogą dotyczyć wielu różnych sytuacji, zarówno online, jak i offline. Aby zademonstrować użycie tych pytań, zbudujemy plan ochrony Twojego domu oraz mienia.
+Te pytania można zastosować w wielu sytuacjach — zarówno online, jak i offline. Aby pokazać, jak działają w praktyce, prześledźmy przykład tworzenia planu ochrony Twojego domu i mienia.
 
-**Co chcesz chronić? (lub *co w Twoim posiadaniu jest warte ochrony?*)**
+**Co chcesz chronić? (albo *co posiadasz, co jest warte ochrony?*)**
 :
 
-Twoim mieniem mogą być biżuteria, elektronika, ważne dokumenty oraz zdjęcia.
+Twoje zasoby mogą obejmować biżuterię, elektronikę, ważne dokumenty lub zdjęcia.
 
 **Przed kim chcesz to chronić?**
 :
 
-Twoimi przeciwnikami mogą być włamywacze, współlokatorzy oraz goście.
+Twoimi przeciwnikami mogą być włamywacze, współlokatorzy lub goście.
 
-**Na ile prawdopodobne jest to, że będziesz musieć to chronić?**
+**Na ile prawdopodobne jest to, że zajdzie potrzeba to chronić?**
 :
 
-Czy w Twojej dzielnicy mają miejsce włamania? Na ile możesz zaufać swoim współlokatorom/gościom? Co są w stanie zrobić Twoi przeciwnicy? Jakie zagrożenia należy wziąć pod uwagę?
+Czy w Twojej okolicy mają miejsce włamania? Na ile ufasz swoim współlokatorom lub gościom? Jakie możliwości mają potencjalni przeciwnicy? Jakie zagrożenia należy wziąć pod uwagę?
 
-**Jak poważne będą konsekwencję, jeśli Ci się nie uda?**
+**Jak poważne będą konsekwencje, jeśli Ci się nie uda?**
 :
 
-Czy posiadasz w swoim domu coś, czego nie da się zastąpić? Czy posiadasz czas lub pieniądze na zastąpienie tych rzeczy? Czy posiadasz ubezpieczenie, które obejmuje ochronę Twojego mienia od kradzieży?
+Czy posiadasz w domu coś, czego nie da się zastąpić? Czy masz czas lub pieniądze, by je zastąpić? Czy posiadasz ubezpieczenie, które obejmuje ochronę Twojego mienia od kradzieży?
 
-**Ile czasu jesteś w stanie poświęcić, aby zapobiec tym konsekwencjom?**
+**Ile wysiłku jesteś w stanie włożyć, by zapobiec tym konsekwencjom?**
 :
 
-Czy jesteś w stanie kupić sejf na wrażliwe dokumenty? Czy możesz sobie pozwolić na zakup wysokiej jakości kłódki? Czy masz czas na założenie skrytki bankowej w swoim lokalnym banku, aby przechowywać tam swoje kosztowności?
+Czy jesteś w stanie kupić sejf na poufne dokumenty? Czy możesz sobie pozwolić na zakup solidnego zamka? Czy masz czas, by otworzyć skrytkę depozytową w lokalnym banku i przechowywać tam swoje kosztowności?
 
-Dopiero po odpowiedzeniu sobie na te pytania, będziesz mieć możliwość oceny, jakie działania należy podjąć. Jeśli Twoja własność jest cenna, ale prawdopodobieństwo włamania jest niskie, nie warto inwestować zbyt wiele pieniędzy w zamek. Jeśli jednak prawdopodobieństwo włamania jest wysokie, należy rozejrzeć się za najlepszym zamkiem na rynku oraz rozważyć zakup systemu bezpieczeństwa.
+Dopiero po zadaniu sobie tych pytań będziesz w stanie ocenić, jakie środki warto podjąć. Jeśli Twoje rzeczy mają dużą wartość, ale ryzyko włamania jest niskie, prawdopodobnie nie ma sensu inwestować dużych pieniędzy w zamek. Jednak gdy ryzyko włamania jest wysokie, najlepiej kupić możliwie najbezpieczniejszy zamek oraz rozważyć instalację systemu bezpieczeństwa.
 
-Stworzenie planu bezpieczeństwa pomoże Ci zrozumieć zagrożenia, które są unikalne dla Twojej osoby oraz oszacować Twoje zasoby, przeciwników, ich możliwości oraz prawdopodobieństwo wystąpienia ryzyka.
+Stworzenie planu bezpieczeństwa pomoże Ci zrozumieć zagrożenia specyficzne dla Twojej sytuacji oraz ocenić swoje zasoby, przeciwników i ich możliwości, a także prawdopodobieństwo wystąpienia ryzyk, z którymi możesz się zmierzyć.
 
-## Czytaj Dalej
+## Zobacz też
 
-Dla osób, które chcą zwiększyć swoją prywatność i bezpieczeństwo w Internecie, przygotowaliśmy listę typowych zagrożeń, z którymi borykają się nasi użytkownicy lub celów, które sobie stawiają, aby dać ci inspirację i zademonstrować podstawy naszych zaleceń.
+Dla osób, które chcą zwiększyć swoją prywatność i bezpieczeństwo w sieci, przygotowaliśmy listę typowych zagrożeń, z jakimi mierzą się nasi użytkownicy, oraz celów, które sobie stawiają — aby zainspirować Cię i zademonstrować podstawy naszych zaleceń.
 
 - [Typowe cele i zagrożenia :material-arrow-right-drop-circle:](common-threats.md)
 
 ## Źródła
 
-- [Samoobrona przed inwigilacją EFF: Twój plan bezpieczeństwa](https://ssd.eff.org/en/module/your-security-plan)
+- [EFF Surveillance Self Defense: Your Security Plan (ang.)](https://ssd.eff.org/en/module/your-security-plan)
