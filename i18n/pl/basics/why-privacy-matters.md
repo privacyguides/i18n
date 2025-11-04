@@ -50,18 +50,18 @@ Częstym argumentem przeciw ruchom na rzecz prywatności jest przekonanie, że �
 
 ## Czy prywatność to kwestia kontroli?
 
-Często definiuje się prywatność jako możliwość *kontrolowania*, kto ma dostęp do Twoich danych. This is an easy trap to fall into, in fact it is the definition of privacy we operated this website on for a long time. It sounds nice, and it appeals to many people, but in practice it just doesn't work.
+Często definiuje się prywatność jako możliwość *kontrolowania*, kto ma dostęp do Twoich danych. Łatwo dać się złapać w tę pułapkę. Zresztą, taką definicją prywatności posługiwaliśmy się przez długi czas na tej stronie. Brzmi dobrze i przemawia do wielu ludzi, ale w praktyce po prostu nie działa.
 
-Take cookie consent forms, for example. You may encounter these dozens of times per day on the various websites you visit, with a nice array of checkboxes and sliders which allow you to "curate" your preferences to exactly fit your needs. In the end, we just hit the "I Agree" button, because we just want to read the article or make a purchase. Nobody wants to complete a personal privacy audit on every single website they visit. This is an exercise in [choice architecture](https://en.wikipedia.org/wiki/Choice_architecture), designed to make you take the easy route out instead of delving into a maze of configuration options that don't need to exist in the first place.
+Weźmy na przykład formularze zgody na pliki cookie. Spotykasz je dziesiątki razy dziennie, odwiedzając różne strony internetowe. Oferują one mnóstwo pól wyboru i suwaków, które mają pozwolić Ci „dostosować” ustawienia do własnych potrzeb. W praktyce i tak klikamy „Zgadzam się”, bo chcemy po prostu przeczytać artykuł albo coś kupić. Nikt nie ma ochoty przeprowadzać osobistego audytu prywatności na każdej odwiedzanej stronie. To klasyczny przykład tzw. [architektury wyboru](https://en.wikipedia.org/wiki/Choice_architecture), zaprojektowanej tak, by użytkownik wybrał najłatwiejszą opcję, zamiast przebijać się przez gąszcz niepotrzebnych ustawień.
 
-==Control over your privacy inside most apps is an illusion.== It's a shiny dashboard with all sorts of choices you can make about your data, but rarely the choices you're looking for, like "only use my data to help me." This type of control is meant to make you feel guilty about your choices, that you "had the choice" to make the apps you use more private, and you chose not to.
+==Kontrola nad prywatnością w większości aplikacji to iluzja.== To błyszczący panel z pozornymi opcjami, które dają wrażenie sprawczości, ale rzadko oferują te, których naprawdę potrzebujesz, jak na przykład: „wykorzystuj moje dane wyłącznie, by mi pomóc”. Tego typu „kontrola” ma wzbudzić w Tobie poczucie winy, że „masz wybór”, by uczynić aplikację bardziej prywatną, a mimo to tego nie robisz.
 
-Privacy is something we need to have baked into the [software and services](../tools.md) we use by default, you can't bend most apps into being private on your own.
+Prywatność musi być wbudowana domyślnie w używane przez nas [oprogramowanie i usługi](../tools.md). Nie da się samodzielnie zmusić większości aplikacji, by stały się prywatne.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
+[:material-movie-open-play-outline: Film: 5 kroków do poprawy prywatności](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 
 ## Źródła
 
-- [Why Privacy Matters](https://amazon.com/dp/0190939044) (2021) by Neil Richards
+- [Why Privacy Matters](https://amazon.com/dp/0190939044) (2021) — Neil Richards
 - [The New Oil: Why Privacy & Security Matter](https://thenewoil.org/en/guides/prologue/why)
-- [@Thorin-Oakenpants on Anonymity vs Privacy vs Security](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452)
+- [@Thorin-Oakenpants, Anonymity vs Privacy vs Security](https://code.privacyguides.dev/privacyguides/privacytools.io/issues/1760#issuecomment-10452)
