@@ -1,7 +1,7 @@
 ---
-title: "Köp faktorly tanamak"
-icon: 'material/two-factor-authentication'
-description: Bu araçlar, sırlarınızı üçüncü bir tarafa göndermeden internet hesaplarınızı Çok Faktörlü Kimlik Doğrulama ile güvence altına almanıza yardımcı olur.
+title: Köp faktorly tanamak
+icon: material/two-factor-authentication
+description: These tools assist you with securing your internet accounts with multifactor authentication without sending your secrets to a third-party.
 cover: Çok Faktörlü Kimlik Doğrulama
 ---
 
@@ -16,7 +16,7 @@ cover: Çok Faktörlü Kimlik Doğrulama
 
 </div>
 
-**Çok Faktörlü Kimlik Doğrulama Uygulamaları**, İnternet Mühendisliği Görev Gücü (IETF) tarafından kabul edilen ve **Zaman Tabanlı Tek Kullanımlık Parolalar** veya **TOTP** olarak adlandırılan bir güvenlik standardını uygular. Bu, web sitelerinin sizinle bir sır paylaştığı ve kimlik doğrulayıcı uygulamanız tarafından web sitesinin kontrol etmesi için oturum açarken girdiğiniz geçerli saate dayalı altı (genellikle) basamaklı bir kod oluşturmak için kullanılan bir yöntemdir. Typically, these codes are regenerated every 30 seconds, and once a new code is generated the old one becomes useless. Even if a hacker gets one six-digit code, there is no way for them to reverse that code to get the original secret or otherwise be able to predict what any future codes might be.
+**Multifactor authentication apps** implement a security standard adopted by the Internet Engineering Task Force (IETF) called **Time-based One-time Passwords**, or **TOTP**. Bu, web sitelerinin sizinle bir sır paylaştığı ve kimlik doğrulayıcı uygulamanız tarafından web sitesinin kontrol etmesi için oturum açarken girdiğiniz geçerli saate dayalı altı (genellikle) basamaklı bir kod oluşturmak için kullanılan bir yöntemdir. Typically, these codes are regenerated every 30 seconds, and once a new code is generated the old one becomes useless. Even if a hacker gets one six-digit code, there is no way for them to reverse that code to get the original secret or otherwise be able to predict what any future codes might be.
 
 We highly recommend that you use mobile TOTP apps instead of desktop alternatives as Android and iOS have better security and app isolation than most desktop operating systems.
 
@@ -30,7 +30,7 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.ente.io/auth){ .card-link title=Documentation}
+[:octicons-info-16:](https://help.ente.io/auth){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -39,11 +39,13 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id6444121398)
 - [:simple-github: GitHub](https://github.com/ente-io/ente/releases?q=auth)
-- [:octicons-globe-16: Web](https://auth.ente.io)
+- [:octicons-browser-16: Web](https://auth.ente.io)
 
 </details>
 
 </div>
+
+The server-side source code and infrastructure which underpins Ente Auth (if used with an online account) underwent an audit by [Cure53](https://ente.io/blog/cern-audit) in October 2025.
 
 ## Aegis Authenticator (Android)
 
@@ -55,9 +57,9 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 [:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://buymeacoffee.com/beemdevelopment){ .card-link title=Contribute }
+[:octicons-heart-16:](https://buymeacoffee.com/beemdevelopment){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -69,11 +71,10 @@ We highly recommend that you use mobile TOTP apps instead of desktop alternative
 
 </div>
 
-<!-- markdownlint-disable-next-line -->
 ## Kriter
 
 **Lütfen önerdiğimiz projelerin hiçbirine bağlı olmadığımızı unutmayın.** [standart kriterlerimize](about/criteria.md) ek olarak, objektif tavsiyelerde bulunabilmemiz için bir takım gereklilikler geliştirdik. Bir projeyi kullanmayı seçmeden önce bu listeye aşina olmanızı ve sizin için doğru seçim olduğundan emin olmak için kendi araştırmanızı yapmanızı öneririz.
 
 - Source code must be publicly available.
 - Must not require internet connectivity.
-- Cloud syncing must be optional, and (if available) sync functionality must be E2EE.
+- Cloud syncing must be optional; sync functionality, if available, must be E2EE.

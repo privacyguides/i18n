@@ -1,7 +1,7 @@
 ---
-title: "Multifactor Authentication"
-icon: 'material/two-factor-authentication'
-description: These tools assist you with securing your internet accounts with Multifactor Authentication without sending your secrets to a third-party.
+title: Multifactor Authentication
+icon: material/two-factor-authentication
+description: These tools assist you with securing your internet accounts with multifactor authentication without sending your secrets to a third-party.
 cover: multi-factor-authentication.webp
 ---
 
@@ -16,7 +16,7 @@ cover: multi-factor-authentication.webp
 
 </div>
 
-**Multifactor Authentication Apps** implement a security standard adopted by the Internet Engineering Task Force (IETF) called **Time-based One-time Passwords**, or **TOTP**. Dit is een methode waarbij websites een geheim met je delen dat door jouw authenticator-app wordt gebruikt om een code van zes (meestal) cijfers te genereren op basis van de huidige tijd, die je invoert terwijl je inlogt om de website te controleren. Typically, these codes are regenerated every 30 seconds, and once a new code is generated the old one becomes useless. Zelfs als een hacker één zescijferige code bemachtigt, is er geen manier om die code om te keren om het oorspronkelijke geheim te bemachtigen of om anderszins te kunnen voorspellen wat eventuele toekomstige codes zouden kunnen zijn.
+**Multifactor authentication apps** implement a security standard adopted by the Internet Engineering Task Force (IETF) called **Time-based One-time Passwords**, or **TOTP**. Dit is een methode waarbij websites een geheim met je delen dat door jouw authenticator-app wordt gebruikt om een code van zes (meestal) cijfers te genereren op basis van de huidige tijd, die je invoert terwijl je inlogt om de website te controleren. Typically, these codes are regenerated every 30 seconds, and once a new code is generated the old one becomes useless. Zelfs als een hacker één zescijferige code bemachtigt, is er geen manier om die code om te keren om het oorspronkelijke geheim te bemachtigen of om anderszins te kunnen voorspellen wat eventuele toekomstige codes zouden kunnen zijn.
 
 Wij raden je ten zeerste aan om mobiele TOTP apps te gebruiken in plaats van desktop alternatieven, aangezien Android en IOS een betere beveiliging en app isolatie hebben dan de meeste desktop besturingssystemen.
 
@@ -30,7 +30,7 @@ Wij raden je ten zeerste aan om mobiele TOTP apps te gebruiken in plaats van des
 
 [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.ente.io/auth){ .card-link title=Documentation}
+[:octicons-info-16:](https://help.ente.io/auth){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -39,11 +39,13 @@ Wij raden je ten zeerste aan om mobiele TOTP apps te gebruiken in plaats van des
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id6444121398)
 - [:simple-github: GitHub](https://github.com/ente-io/ente/releases?q=auth)
-- [:octicons-globe-16: Web](https://auth.ente.io)
+- [:octicons-browser-16: Web](https://auth.ente.io)
 
 </details>
 
 </div>
+
+The server-side source code and infrastructure which underpins Ente Auth (if used with an online account) underwent an audit by [Cure53](https://ente.io/blog/cern-audit) in October 2025.
 
 ## Aegis Authenticator (Android)
 
@@ -55,9 +57,9 @@ Wij raden je ten zeerste aan om mobiele TOTP apps te gebruiken in plaats van des
 
 [:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://buymeacoffee.com/beemdevelopment){ .card-link title=Contribute }
+[:octicons-heart-16:](https://buymeacoffee.com/beemdevelopment){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -69,11 +71,10 @@ Wij raden je ten zeerste aan om mobiele TOTP apps te gebruiken in plaats van des
 
 </div>
 
-<!-- markdownlint-disable-next-line -->
 ## Criteria
 
 **Wij zijn niet verbonden aan de projecten die wij aanbevelen.** Naast [onze standaardcriteria](about/criteria.md)hebben wij een duidelijke reeks eisen ontwikkeld om objectieve aanbevelingen te kunnen doen. Wij stellen voor dat je jezelf vertrouwd maakt met deze lijst voordat je een project kiest, en jouw eigen onderzoek uitvoert om er zeker van te zijn dat je de juiste keuze maakt.
 
 - Broncode moet openbaar beschikbaar zijn.
 - Moet geen internetverbinding vereisen.
-- Cloud syncing must be optional, and (if available) sync functionality must be E2EE.
+- Cloud syncing must be optional; sync functionality, if available, must be E2EE.

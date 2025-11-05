@@ -1,7 +1,7 @@
 ---
-title: "Multifactor Authentication"
-icon: 'material/two-factor-authentication'
-description: These tools assist you with securing your internet accounts with Multifactor Authentication without sending your secrets to a third-party.
+title: Multifactor Authentication
+icon: material/two-factor-authentication
+description: These tools assist you with securing your internet accounts with multifactor authentication without sending your secrets to a third-party.
 cover: multi-factor-authentication.webp
 ---
 
@@ -16,7 +16,7 @@ cover: multi-factor-authentication.webp
 
 </div>
 
-**Multifactor Authentication Apps** implement a security standard adopted by the Internet Engineering Task Force (IETF) called **Time-based One-time Passwords**, or **TOTP**. Este é um método através do qual os sites partilham um segredo, que é utilizado pela sua aplicação de autenticação para gerar um código de seis dígitos (normalmente) com base na hora atual, que deverá introduzir ao iniciar sessão, para que o site o possa verificar. Typically, these codes are regenerated every 30 seconds, and once a new code is generated the old one becomes useless. Mesmo que um pirata informático obtenha o código de seis dígitos, não há forma de reverter esse código para obter o segredo original ou de prever quais serão os códigos futuros.
+**Multifactor authentication apps** implement a security standard adopted by the Internet Engineering Task Force (IETF) called **Time-based One-time Passwords**, or **TOTP**. Este é um método através do qual os sites partilham um segredo, que é utilizado pela sua aplicação de autenticação para gerar um código de seis dígitos (normalmente) com base na hora atual, que deverá introduzir ao iniciar sessão, para que o site o possa verificar. Typically, these codes are regenerated every 30 seconds, and once a new code is generated the old one becomes useless. Mesmo que um pirata informático obtenha o código de seis dígitos, não há forma de reverter esse código para obter o segredo original ou de prever quais serão os códigos futuros.
 
 Recomendamos vivamente que utilize aplicações TOTP para dispositivos móveis, em vez de alternativas para computador, uma vez que o Android e o iOS têm melhor segurança e isolamento de aplicações do que a maioria dos sistemas operativos para PC.
 
@@ -30,7 +30,7 @@ Recomendamos vivamente que utilize aplicações TOTP para dispositivos móveis, 
 
 [:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://help.ente.io/auth){ .card-link title=Documentation}
+[:octicons-info-16:](https://help.ente.io/auth){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -39,11 +39,13 @@ Recomendamos vivamente que utilize aplicações TOTP para dispositivos móveis, 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id6444121398)
 - [:simple-github: GitHub](https://github.com/ente-io/ente/releases?q=auth)
-- [:octicons-globe-16: Web](https://auth.ente.io)
+- [:octicons-browser-16: Web](https://auth.ente.io)
 
 </details>
 
 </div>
+
+The server-side source code and infrastructure which underpins Ente Auth (if used with an online account) underwent an audit by [Cure53](https://ente.io/blog/cern-audit) in October 2025.
 
 ## Aegis Authenticator (Android)
 
@@ -55,9 +57,9 @@ Recomendamos vivamente que utilize aplicações TOTP para dispositivos móveis, 
 
 [:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://buymeacoffee.com/beemdevelopment){ .card-link title=Contribute }
+[:octicons-heart-16:](https://buymeacoffee.com/beemdevelopment){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -69,11 +71,10 @@ Recomendamos vivamente que utilize aplicações TOTP para dispositivos móveis, 
 
 </div>
 
-<!-- markdownlint-disable-next-line -->
 ## Critérios
 
 **Note que não estamos associados a nenhum dos projetos que recomendamos.** Para além dos [nossos critérios padrão](about/criteria.md), temos um conjunto claro de requisitos que nos permitem fornecer recomendações objetivas. Sugerimos que se familiarize com esta lista antes de optar por um projeto e que desenvolva a sua própria investigação para garantir que se trata da escolha certa para si.
 
 - O código-fonte deve estar disponível ao público.
 - Não devem exigir ligação à Internet.
-- Cloud syncing must be optional, and (if available) sync functionality must be E2EE.
+- Cloud syncing must be optional; sync functionality, if available, must be E2EE.

@@ -1,7 +1,7 @@
 ---
-title: "Многофакторная аутентификация"
-icon: 'material/two-factor-authentication'
-description: Эти инструменты помогут вам защитить ваши учетные записи в интернете с помощью многофакторной аутентификации без передачи ваших секретов третьим лицам.
+title: Многофакторная аутентификация
+icon: material/two-factor-authentication
+description: These tools assist you with securing your internet accounts with multifactor authentication without sending your secrets to a third-party.
 cover: multi-factor-authentication.webp
 ---
 
@@ -16,7 +16,7 @@ cover: multi-factor-authentication.webp
 
 </div>
 
-**Приложения многофакторной аутентификации** реализуют стандарт безопасности, принятый рабочей группой инженеров интернета (IETF), который называется **Time-based One-time Passwords** или **TOTP**. При этом методе веб-сайты делятся с вами секретом, который вносится в приложение аутентификации. Затем приложение генерирует шестизначные коды, основанные на текущем времени, которые вы вводите при входе на сайт для проверки. Обычно эти коды обновляются каждые 30 секунд, и как только генерируется новый код, старый становится бесполезным. Даже если хакер получит один шестизначный код, у него не будет возможности анализировать этот код, чтобы получить исходный секрет, или каким-либо другим способом предсказать, какими могут быть будущие коды.
+**Multifactor authentication apps** implement a security standard adopted by the Internet Engineering Task Force (IETF) called **Time-based One-time Passwords**, or **TOTP**. При этом методе веб-сайты делятся с вами секретом, который вносится в приложение аутентификации. Затем приложение генерирует шестизначные коды, основанные на текущем времени, которые вы вводите при входе на сайт для проверки. Обычно эти коды обновляются каждые 30 секунд, и как только генерируется новый код, старый становится бесполезным. Даже если хакер получит один шестизначный код, у него не будет возможности анализировать этот код, чтобы получить исходный секрет, или каким-либо другим способом предсказать, какими могут быть будущие коды.
 
 Мы настоятельно рекомендуем вам использовать мобильные приложения TOTP вместо настольных альтернатив, поскольку Android и iOS имеют лучшую безопасность и изоляцию приложений, чем большинство настольных операционных систем.
 
@@ -28,10 +28,10 @@ cover: multi-factor-authentication.webp
 
 **Ente Auth** is a free and open-source app which stores and generates TOTP tokens. It can be used with an online account to back up and sync your tokens across your devices (and access them via a web interface) in a secure, end-to-end encrypted fashion. It can also be used offline on a single device with no account necessary.
 
-[:octicons-home-16: Главная](https://ente.io/auth){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Политика конфиденциальности" }
-[:octicons-info-16:](https://help.ente.io/auth){ .card-link title=Документация}
-[:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Исходный код" }
+[:octicons-home-16: Homepage](https://ente.io/auth){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ente.io/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://help.ente.io/auth){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/ente-io/ente/tree/main/auth#readme){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -39,11 +39,13 @@ cover: multi-factor-authentication.webp
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.auth)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id6444121398)
 - [:simple-github: GitHub](https://github.com/ente-io/ente/releases?q=auth)
-- [:octicons-globe-16: Web](https://auth.ente.io)
+- [:octicons-browser-16: Web](https://auth.ente.io)
 
 </details>
 
 </div>
+
+The server-side source code and infrastructure which underpins Ente Auth (if used with an online account) underwent an audit by [Cure53](https://ente.io/blog/cern-audit) in October 2025.
 
 ## Aegis Authenticator (Android)
 
@@ -55,9 +57,9 @@ cover: multi-factor-authentication.webp
 
 [:octicons-home-16: Homepage](https://getaegis.app){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://getaegis.app/aegis/privacy.html){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title=Documentation}
+[:octicons-info-16:](https://github.com/beemdevelopment/Aegis/wiki){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/beemdevelopment/Aegis){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://buymeacoffee.com/beemdevelopment){ .card-link title=Contribute }
+[:octicons-heart-16:](https://buymeacoffee.com/beemdevelopment){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -69,11 +71,10 @@ cover: multi-factor-authentication.webp
 
 </div>
 
-<!-- markdownlint-disable-next-line -->
 ## Критерии
 
 **Обрати внимание, что у нас нет связей ни с одним проектом, который мы рекомендуем.** В дополнение к [нашим стандартным критериям](about/criteria.md) мы разработали четкий набор требований, позволяющий давать объективные рекомендации. Перед тем, как вы решите выбрать какой-либо проект, мы рекомендуем вам ознакомиться со списком критериев и провести собственное исследование, чтобы убедиться в правильности своего выбора.
 
 - Исходный код должен быть общедоступным.
 - Не должно требовать интернет соединения.
-- Cloud syncing must be optional, and (if available) sync functionality must be E2EE.
+- Cloud syncing must be optional; sync functionality, if available, must be E2EE.
