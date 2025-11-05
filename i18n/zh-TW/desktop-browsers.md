@@ -310,13 +310,13 @@ Brave 允許您在內部網頁 brave://settings/shields/filters 內選擇額外�
 
 <div class="annotate" markdown>
 
-- [x] Select **Don’t allow sites to use JavaScript optimization** under *Security* → *Manage JavaScript optimization & security* (1)
-- [x] Select **Automatically remove permissions from unused sites** under *Sites and Shields Settings*
-- [x] Select **Disable non-proxied UDP** under [*WebRTC IP Handling Policy*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-- [ ] Uncheck **Use Google services for push messaging**
-- [x] Select **Auto-redirect AMP pages**
-- [x] Select **Auto-redirect tracking URLs**
-- [x] Select **Prevent sites from fingerprinting me based on my language preferences**
+- [x] 在「安全性」→「管理 JavaScript 最佳化和安全性」下選取**禁止網站使用 JavaScript 最佳化功能** (1)
+- [x] 在「網站設定」下選取**自動移除未使用網站的權限**
+- [x] 在「[WebRTC IP 處理政策](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)」下選取**停用非代理的 UDP**
+- [ ] 取消勾選**使用 Google 服務來推播訊息**
+- [x] 選取**自動重新導向 AMP 頁面**
+- [x] 選取**自動重新導向追蹤 URL**
+- [x] 選取**避免網站根據我的語言偏好設定進行指紋辨識**
 
 </div>
 
@@ -324,7 +324,7 @@ Brave 允許您在內部網頁 brave://settings/shields/filters 內選擇額外�
 
 ##### Tor 視窗
 
-[**Private Window with Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) allows you to route your traffic through the Tor network in Private Windows and access .onion services, which may be useful in some cases. However, Brave is **not** as resistant to fingerprinting as the Tor Browser is, and far fewer people use Brave with Tor, so you will stand out. If your threat model requires strong anonymity, use the [Tor Browser](tor.md#tor-browser).
+[**使用 Tor 的無痕式視窗**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity)讓您可以在無痕式視窗中透過 Tor 網路傳送流量，並存取 .onion 服務，這在某些情況下可能很有用。 不過，Brave 對數位指紋辨識的抵抗力**不如** Tor 瀏覽器，而且將 Brave 與 Tor 搭配使用的人少得多，因此您會特別容易被鎖定。 若您的威脅模型需要極高的匿名性，請使用 [Tor 瀏覽器](tor.md#tor-browser)。
 
 ##### 資料集合
 
@@ -334,7 +334,7 @@ Brave 允許您在內部網頁 brave://settings/shields/filters 內選擇額外�
 
 #### Web3
 
-Brave's Web3 features can potentially add to your browser fingerprint and attack surface. Unless you use any of these features, they should be disabled.
+Brave 的 Web3 功能可能會增加您的瀏覽器數位指紋與攻擊面。 除非您會使用這些功能，否則應將其停用。
 
 - 將 *預設以太坊錢包* 設定為 **擴充功能 (無後援)**
 - 將 *預設 Solana 錢包* 設定為 **擴充功能 (無後援)**
@@ -345,7 +345,7 @@ Brave's Web3 features can potentially add to your browser fingerprint and attack
 
 #### 搜尋引擎
 
-We recommend disabling search suggestions in Brave for the same reason we recommend disabling this feature in [Firefox](#search).
+我們建議在 Brave 中停用搜尋建議，原因與我們建議在 [Firefox](#search) 中停用此功能相同。
 
 - [ ] 取消勾選 **顯示搜尋建議**
 
@@ -353,7 +353,7 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 <div class="annotate" markdown>
 
-- [ ] Uncheck **Continue running background apps when Brave is closed** to disable background apps (1)
+- [ ] 取消勾選**在 Brave 關閉時繼續執行背景應用程式**以停用背景應用程式 (1)
 
 </div>
 
@@ -361,13 +361,13 @@ We recommend disabling search suggestions in Brave for the same reason we recomm
 
 #### Brave 同步
 
-[Brave Sync](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) allows your browsing data (history, bookmarks, etc.) to be accessible on all your devices without requiring an account and protects it with E2EE.
+[Brave 同步](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) 可在不同裝置上存取瀏覽資料（歷史記錄、書籤等），不需要帳號且受 E2EE 保護。
 
 #### Brave Rewards 與錢包
 
-**Brave Rewards** lets you receive Basic Attention Token (BAT) cryptocurrency for performing certain actions within Brave. It relies on a custodial account and KYC from a select number of providers. We do not recommend BAT as a [private cryptocurrency](cryptocurrency.md), nor do we recommend using a [custodial wallet](advanced/payments.md#wallet-custody), so we would discourage using this feature.
+**Brave Rewards** 可讓您在 Brave 執行某些動作時獲得 Basic Attention Token (BAT) 加密貨幣。 其依賴於由少數供應商託管的帳號與 KYC。 我們不建議使用 BAT 作為[隱私加密貨幣](cryptocurrency.md)，也不建議使用[託管錢包](advanced/payments.md#wallet-custody)，因此我們會建議避免使用此功能。
 
-**Brave Wallet** operates locally on your computer, but does not support any private cryptocurrencies, so we would discourage using this feature as well.
+**Brave Wallet** 在您的電腦上本機運作，但不支援任何隱私加密貨幣，因此我們也同樣不建議此功能。
 
 ## 標準
 
