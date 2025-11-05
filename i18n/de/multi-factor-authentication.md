@@ -1,7 +1,7 @@
 ---
 title: Multi-Faktor-Authentisierung
 icon: material/two-factor-authentication
-description: These tools assist you with securing your internet accounts with multifactor authentication without sending your secrets to a third-party.
+description: Diese Werkzeuge helfen Ihre online Konten zusichern mit Multi-Faktor-Authentifizierung, ohne Ihre Geheimnisse an Dritte zu schicken.
 cover: multi-factor-authentication.webp
 ---
 
@@ -77,4 +77,4 @@ The server-side source code and infrastructure which underpins Ente Auth (if use
 
 - Der Quellcode muss öffentlich zugänglich sein.
 - Darf keine Internetverbindung erfordern.
-- Cloud syncing must be optional; sync functionality, if available, must be E2EE.
+- Cloud Synchronisierung muss optional sein; wenn verfügbar, E2EE ist verpflichtend.
