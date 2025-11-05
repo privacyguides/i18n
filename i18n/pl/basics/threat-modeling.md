@@ -100,7 +100,7 @@ Dopiero po zadaniu sobie tych pytań będziesz w stanie ocenić, jakie środki w
 
 Stworzenie planu bezpieczeństwa pomoże Ci zrozumieć zagrożenia specyficzne dla Twojej sytuacji oraz ocenić swoje zasoby, przeciwników i ich możliwości, a także prawdopodobieństwo wystąpienia ryzyk, z którymi możesz się zmierzyć.
 
-## Zobacz też
+## Dalsza lektura
 
 Dla osób, które chcą zwiększyć swoją prywatność i bezpieczeństwo w sieci, przygotowaliśmy listę typowych zagrożeń, z jakimi mierzą się nasi użytkownicy, oraz celów, które sobie stawiają — aby zainspirować Cię i zademonstrować podstawy naszych zaleceń.
 

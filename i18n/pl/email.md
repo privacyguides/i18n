@@ -182,7 +182,7 @@ Wszystkie konta mają ograniczoną przestrzeń w chmurze, która [może być szy
 
 Poczta Mailbox oferuje funkcję cyfrowego spadku we wszystkich planach. Możesz zdecydować, czy chcesz, aby Twoje dane zostały przekazane spadkobiercom, pod warunkiem, że złożą odpowiedni wniosek i przedstawią testament. Alternatywnie możesz wskazać konkretną osobę, podając jej imię, nazwisko i adres.
 
-## More Providers
+## Więcej dostawców
 
 These providers store your emails with zero-knowledge encryption, making them great options for keeping your stored emails secure. However, they don't support interoperable encryption standards for E2EE communications between different providers.
 
