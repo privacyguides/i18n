@@ -188,7 +188,7 @@ These providers store your emails with zero-knowledge encryption, making them gr
 
 <div class="grid cards" markdown>
 
-- ![Tuta logo](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
+- ![Logo Tuta](assets/img/email/tuta.svg#only-light){ .twemoji loading=lazy }![Logo Tuta](assets/img/email/tuta-dark.svg#only-dark){ .twemoji loading=lazy } [Tuta](#tuta)
 
 </div>
 
@@ -203,22 +203,22 @@ These providers store your emails with zero-knowledge encryption, making them gr
 
 Free accounts start with 1 GB of storage.
 
-[:octicons-home-16: Homepage](https://tuta.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://tuta.com/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://tuta.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://tuta.com/community){ .card-link title="Contribute" }
+[:octicons-home-16: Strona główna](https://tuta.com/pl){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://tuta.com/privacy-policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://tuta.com/pl/support){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/tutao/tutanota){ .card-link title="Kod źródłowy" }
+[:octicons-heart-16:](https://tuta.com/pl/community){ .card-link title="Wspomóż projekt" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=de.tutao.tutanota)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id922429609)
 - [:simple-github: GitHub](https://github.com/tutao/tutanota/releases)
-- [:fontawesome-brands-windows: Windows](https://tuta.com/#download)
-- [:simple-apple: macOS](https://tuta.com/#download)
-- [:simple-linux: Linux](https://tuta.com/#download)
-- [:octicons-browser-16: Web](https://app.tuta.com)
+- [:fontawesome-brands-windows: Windows](https://tuta.com/pl#download)
+- [:simple-apple: macOS](https://tuta.com/pl/#download)
+- [:simple-linux: Linux](https://tuta.com/pl/#download)
+- [:octicons-browser-16: W przeglądarce](https://app.tuta.com)
 
 </details>
 
@@ -230,7 +230,7 @@ Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the u
 
 Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/support#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/support#plus), but you can use a [catch-all](https://tuta.com/support#settings-global) with a custom domain.
 
-#### :material-information-outline:{ .pg-blue } Private Payment Methods
+#### :material-information-outline:{ .pg-blue } Prywatne metody płatności
 
 Tuta only directly accepts credit cards and PayPal, however [**cryptocurrency**](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
 
@@ -242,7 +242,7 @@ Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with eit
 
 Tuta has [zero-access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). This means the messages and other data stored in your account are only readable by you.
 
-#### :material-information-outline:{ .pg-blue } Email Encryption
+#### :material-information-outline:{ .pg-blue } Szyfrowanie wiadomości e-mail
 
 Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
 
@@ -254,7 +254,7 @@ Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-acco
 
 Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
 
-## Criteria
+## Kryteria
 
 **Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
 

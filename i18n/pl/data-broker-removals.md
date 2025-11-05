@@ -119,7 +119,7 @@ When results are found, they will be available for review in this web tool. You 
 
 In our testing, this tool worked to reliably remove people search sites from Google search results, but was not effective against websites that showed _corporate_ filing information, even if you used your personal address to register a company, nor was it effective against social media profiles.
 
-## Criteria
+## Kryteria
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing a data removal service, and conduct your own research to ensure it's the right choice for you.
 
