@@ -34,12 +34,12 @@ global:
 
 ## OpenPGP 兼容服務
 
-這些供應商原生支援 OpenPGP 加/解密 和 [WKD 標準](basics/email-security.md#what-is-the-web-key-directory-standard)，可提供跨供應商 E2EE 的電子郵件。 For example, a Proton Mail user could send an E2EE message to a Mailbox Mail user, or you could receive OpenPGP-encrypted notifications from internet services which support it.
+這些供應商原生支援 OpenPGP 加/解密 和 [WKD 標準](basics/email-security.md#what-is-the-web-key-directory-standard)，可提供跨供應商 E2EE 的電子郵件。 舉例來說，Proton Mail 使用者可以寄送 E2EE 電子郵件給 Mailbox 電子郵件使用者，或者是您也可以從其支援的網際網路服務接收 OpenPGP 加密通知。
 
 <div class="grid cards" markdown>
 
-- ![Proton Mail logo](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
-- ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
+- ![Proton Mail 標誌](assets/img/email/protonmail.svg){ .twemoji } [Proton Mail](#proton-mail)
+- ![Mailbox Mail 標誌](assets/img/email/mailbox-mail.svg){ .twemoji } [Mailbox Mail](#mailbox-mail)
 
 </div>
 
@@ -127,9 +127,9 @@ Proton Mail 的[Unlimited](https://proton.me/support/proton-plans#proton-unlimit
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
+![Mailbox.org 標誌](assets/img/email/mailbox-mail.svg){ align=right }
 
-**Mailbox Mail** is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. 自 **2014 年** 開始運營。 Mailbox Mail is based in Berlin, Germany.
+**Mailbox.org** 是專注於安全、無廣告、100% 採用環保能源的電子郵件服務。 自 **2014 年** 開始運營。 Mailbox Mail 總部位於德國柏林。
 
 帳戶一開始最多只有 2 GB 儲存空間，可視需要升級。
 
@@ -148,15 +148,15 @@ Proton Mail 的[Unlimited](https://proton.me/support/proton-plans#proton-unlimit
 
 #### :material-check:{ .pg-green } 自訂域名和別名
 
-Mailbox Mail lets you use your own domain, and they support [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) addresses. Mailbox Mail also supports [sub-addressing](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it), which is useful if you don't want to purchase a domain.
+Mailbox Mail 可使用自訂域名，且支援 [catch-all](https://kb.mailbox.org/en/private/custom-domains/how-to-set-up-a-catch-all-alias-with-a-custom-domain-name) 位址。 Mailbox Mail 也支援[子位址](https://kb.mailbox.org/en/private/account-article/what-is-an-alias-and-how-do-i-use-it)，如果您不想購買網域，這非常有用。
 
 #### :material-check:{ .pg-green } 私人付款方式
 
-Mailbox Mail doesn't accept any cryptocurrencies as a result of their payment processor BitPay suspending operations in Germany. 不過，他們接受郵寄**現金**、使用**現金**支付至銀行帳戶、銀行轉帳、信用卡、PayPal，以及幾家德國特定的處理商：Paydirekt 和 Sofortüberweisung。
+Mailbox Mail 不接受任何加密貨幣，因為他們的支付處理商 BitPay 暫停了德國業務。 不過，他們接受郵寄**現金**、使用**現金**支付至銀行帳戶、銀行轉帳、信用卡、PayPal，以及幾家德國特定的處理商：Paydirekt 和 Sofortüberweisung。
 
 #### :material-check:{ .pg-green } 帳號安全
 
-Mailbox Mail supports [two-factor authentication](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa) for their webmail only. You can use either TOTP or a [YubiKey](security-keys.md#yubikey) via the [YubiCloud](https://yubico.com/products/services-software/yubicloud). Web 標準如[WebAuthn ](basics/multi-factor-authentication.md#fido-fast-identity-online)等尚不支援。
+Mailbox Mail 僅對其網頁郵件提供[雙重要素驗證](https://kb.mailbox.org/en/private/account-article/how-to-use-two-factor-authentication-2fa)。 您可以使用 TOTP 或通過 [YubiKey](security-keys.md#yubikey) 來使用 [YubiCloud](https://yubico.com/products/services-software/yubicloud) 進行雙重認證。 Web 標準如[WebAuthn ](basics/multi-factor-authentication.md#fido-fast-identity-online)等尚不支援。
 
 #### :material-information-outline:{ .pg-blue } 資料安全
 
