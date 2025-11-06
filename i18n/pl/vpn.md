@@ -315,7 +315,7 @@ Wymagamy, aby wszyscy nasi rekomendowani dostawcy VPN dostarczali standardowe pl
 
 ### Prywatność
 
-Preferujemy, aby nasi rekomendowani dostawcy gromadzili jak najmniej danych. Wymagane jest nie gromadzenie danych osobowych podczas rejestracji i akceptowanie anonimowych form płatności.
+Preferujemy dostawców, którzy gromadzą możliwie najmniej danych. Wymagane jest nie gromadzenie danych osobowych podczas rejestracji i akceptowanie anonimowych form płatności.
 
 **Minimum do zakwalifikowania się:**
 

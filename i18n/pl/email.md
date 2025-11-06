@@ -182,9 +182,9 @@ Wszystkie konta mają ograniczoną przestrzeń w chmurze, która [może być szy
 
 Poczta Mailbox oferuje funkcję cyfrowego spadku we wszystkich planach. Możesz zdecydować, czy chcesz, aby Twoje dane zostały przekazane spadkobiercom, pod warunkiem, że złożą odpowiedni wniosek i przedstawią testament. Alternatywnie możesz wskazać konkretną osobę, podając jej imię, nazwisko i adres.
 
-## Więcej dostawców
+## Inni dostawcy
 
-These providers store your emails with zero-knowledge encryption, making them great options for keeping your stored emails secure. However, they don't support interoperable encryption standards for E2EE communications between different providers.
+Ci dostawcy przechowują Twoje wiadomości e-mail z wykorzystaniem szyfrowania z wiedzą zerową, co czyni ich doskonałym wyborem do bezpiecznego przechowywania poczty. Nie obsługują jednak interoperacyjnych standardów szyfrowania dla komunikacji E2EE między różnymi usługami.
 
 <div class="grid cards" markdown>
 
@@ -199,9 +199,9 @@ These providers store your emails with zero-knowledge encryption, making them gr
 ![Tuta logo](assets/img/email/tuta.svg#only-light){ align=right }
 ![Tuta logo](assets/img/email/tuta-dark.svg#only-dark){ align=right }
 
-**Tuta** (formerly *Tutanota*) is an email service with a focus on security and privacy through the use of encryption. Tuta has been in operation since 2011 and is based in Hanover, Germany.
+**Tuta** (wcześniej *Tutanota*) to usługa e-mail koncentrująca się na bezpieczeństwie i prywatności poprzez wykorzystanie szyfrowania. Działa od 2011 roku i ma siedzibę w Hanowerze, w Niemczech.
 
-Free accounts start with 1 GB of storage.
+Darmowe konta oferują 1 GB przestrzeni.
 
 [:octicons-home-16: Strona główna](https://tuta.com/pl){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://tuta.com/privacy-policy){ .card-link title="Polityka prywatności" }
@@ -224,86 +224,86 @@ Free accounts start with 1 GB of storage.
 
 </div>
 
-Tuta doesn't support the [IMAP protocol](https://tuta.com/support#imap) or the use of third-party [email clients](email-clients.md), and you also won't be able to add [external email accounts](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) to the Tuta app. [Email import](https://github.com/tutao/tutanota/issues/630) is not currently supported either, though this is [due to be changed](https://tuta.com/blog/kickoff-import). Emails can be exported [individually or by bulk selection](https://tuta.com/support#generalMail) per folder, which may be inconvenient if you have many folders.
+Tuta nie obsługuje [protokołu IMAP](https://tuta.com/support#imap) ani korzystania z [zewnętrznych klientów poczty](email-clients.md). Nie jest także możliwe dodawanie [zewnętrznych kont e-mail](https://github.com/tutao/tutanota/issues/544#issuecomment-670473647) do aplikacji Tuta. [Import wiadomości e-mail](https://github.com/tutao/tutanota/issues/630) nie jest obecnie obsługiwany, choć [planowane są zmiany](https://tuta.com/blog/kickoff-import). Wiadomości można eksportować [pojedynczo lub grupowo](https://tuta.com/pl/support#generalMail) w ramach każdego folderu, co może być niewygodne w przypadku dużej liczby folderów.
 
 #### :material-check:{ .pg-green } Własne domeny i aliasy
 
-Paid Tuta accounts can use either 15 or 30 aliases depending on their plan and unlimited aliases on [custom domains](https://tuta.com/support#custom-domain). Tuta doesn't allow for [sub-addressing (plus addresses)](https://tuta.com/support#plus), but you can use a [catch-all](https://tuta.com/support#settings-global) with a custom domain.
+Płatne konta Tuta pozwalają na użycie 15 lub 30 aliasów w zależności od planu oraz nieograniczonej liczby aliasów w przypadku [niestandardowych domen](https://tuta.com/pl/support#custom-domain). Tuta nie obsługuje [sub-adresowania (adresów z plusem)](https://tuta.com/pl/support#plus), ale umożliwia korzystanie z adresu [catch-all](https://tuta.com/pl/support#settings-global) (skrzynki zbiorczej) dla własnej domeny.
 
 #### :material-information-outline:{ .pg-blue } Prywatne metody płatności
 
-Tuta only directly accepts credit cards and PayPal, however [**cryptocurrency**](cryptocurrency.md) can be used to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
+Tuta bezpośrednio akceptuje wyłącznie płatności kartą kredytową oraz przez PayPal. Jednak [**kryptowalutami**](cryptocurrency.md) można zapłacić pośrednio, kupując karty podarunkowe poprzez [współpracę](https://tuta.com/pl/support/#cryptocurrency) z ProxyStore.
 
 #### :material-check:{ .pg-green } Bezpieczeństwo konta
 
-Tuta supports [two-factor authentication](https://tuta.com/support#2fa) with either TOTP or U2F.
+Tuta obsługuje [uwierzytelnianie dwuskładnikowe](https://tuta.com/pl/support#2fa) z użyciem TOTP lub U2F.
 
 #### :material-check:{ .pg-green } Bezpieczeństwo danych
 
-Tuta has [zero-access encryption at rest](https://tuta.com/support#what-encrypted) for your emails, [address book contacts](https://tuta.com/support#encrypted-address-book), and [calendars](https://tuta.com/support#calendar). This means the messages and other data stored in your account are only readable by you.
+Tuta stosuje [szyfrowanie z zerowym dostępem](https://tuta.com/pl/support#what-encrypted) (zero-access encryption) dla Twoich wiadomości e-mail, [kontaktów w książce adresowej](https://tuta.com/pl/support#encrypted-address-book) oraz [kalendarza](https://tuta.com/pl/support#calendar). Oznacza to, że wiadomości i inne dane przechowywane na Twoim koncie mogą być odczytane wyłącznie przez Ciebie.
 
 #### :material-information-outline:{ .pg-blue } Szyfrowanie wiadomości e-mail
 
-Tuta [does not use OpenPGP](https://tuta.com/support/#pgp). Tuta accounts can only receive encrypted emails from non-Tuta email accounts when sent via a [temporary Tuta mailbox](https://tuta.com/support/#encrypted-email-external).
+Tuta [nie korzysta z OpenPGP](https://tuta.com/pl/support/#pgp). Konta Tuta mogą otrzymywać zaszyfrowane wiadomości e-mail od użytkowników spoza tej usługi wyłącznie wtedy, gdy są one wysłane za pośrednictwem [tymczasowej skrzynki pocztowej Tuta](https://tuta.com/support/#encrypted-email-external).
 
 #### :material-information-outline:{ .pg-blue } Zamknięcie konta
 
-Tuta will [delete inactive free accounts](https://tuta.com/support#inactive-accounts) after six months. You can reuse a deactivated free account if you pay.
+Tuta [usuwa nieaktywne darmowe konta](https://tuta.com/pl/support#inactive-accounts) po upływie sześciu miesięcy. Można jednak ponownie aktywować dezaktywowane konto darmowe, jeśli zostanie opłacone.
 
 #### :material-information-outline:{ .pg-blue } Dodatkowe funkcje
 
-Tuta offers the business version of [Tuta to non-profit organizations](https://tuta.com/blog/secure-email-for-non-profit) for free or with a heavy discount.
+Tuta oferuje wersję biznesową swojej usługi [organizacjom non-profit](https://tuta.com/blog/secure-email-for-non-profit) bezpłatnie lub z dużym rabatem.
 
 ## Kryteria
 
-**Please note we are not affiliated with any of the providers we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements for any email provider wishing to be recommended, including implementing industry best practices, modern technology and more. We suggest you familiarize yourself with this list before choosing an email provider, and conduct your own research to ensure the email provider you choose is the right choice for you.
+**Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas dostawców.** Oprócz [naszych standardowych kryteriów](about/criteria.md) opracowaliśmy jasny zestaw wymagań, które musi spełniać każdy dostawca usług e-mail, aby mógł być przez nas polecany — obejmują one wdrożenie najlepszych praktyk branżowych, nowoczesnych technologii i nie tylko. Zalecamy zapoznanie się z tą listą przed wyborem dostawcy poczty e-mail i przeprowadzenie własnych badań, aby upewnić się, że wybrany dostawca będzie dla Ciebie odpowiedni.
 
 ### Technologia
 
-We regard these features as important in order to provide a safe and optimal service. You should consider whether the provider has the features you require.
+Poniższe funkcje uznajemy za istotne dla zapewnienia bezpiecznej i wydajnej usługi. Warto rozważyć, czy wybrany dostawca oferuje funkcje, których potrzebujesz.
 
 **Minimum do zakwalifikowania się:**
 
-- Must encrypt email account data at rest with zero-access encryption.
-- Must be capable of exporting emails as [Mbox](https://en.wikipedia.org/wiki/Mbox) or individual .EML with [RFC5322](https://datatracker.ietf.org/doc/rfc5322) standard.
-- Allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
-- Must operate on owned infrastructure, i.e. not built upon third-party email service providers.
+- Musi szyfrować dane kont e-mail w spoczynku przy użyciu szyfrowania z zerowym dostępem (zero-access encryption).
+- Musi umożliwiać eksport wiadomości e-mail w formacie [mbox](https://pl.wikipedia.org/wiki/Mbox) lub jako pojedyncze pliki .EML zgodne ze standardem [RFC5322](https://datatracker.ietf.org/doc/rfc5322).
+- Musi pozwalać użytkownikom na korzystanie z własnej [nazwy domeny](https://pl.wikipedia.org/wiki/Domena_internetowa). Własne domeny są istotne, ponieważ pozwalają użytkownikowi zachować niezależność od dostawcy, jeśli ten np. zmieni właściciela lub przestanie dbać o prywatność.
+- Musi działać na własnej infrastrukturze, tj. nie może być zbudowany w oparciu o zewnętrzne platformy e-mailowe.
 
 **Najlepszy scenariusz:**
 
-- Should encrypt all account data (contacts, calendars, etc.) at rest with zero-access encryption.
-- Should provide integrated webmail E2EE/PGP encryption as a convenience.
-- Should support WKD to allow improved discovery of public OpenPGP keys via HTTP. GnuPG users can get a key with this command: `gpg --locate-key example_user@example.com`.
-- Support for a temporary mailbox for external users. This is useful when you want to send an encrypted email without sending an actual copy to your recipient. These emails usually have a limited lifespan and then are automatically deleted. They also don't require the recipient to configure any cryptography like OpenPGP.
-- Should support [sub-addressing](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
-- Should allow users to use their own [domain name](https://en.wikipedia.org/wiki/Domain_name). Custom domain names are important to users because it allows them to maintain their agency from the service, should it turn bad or be acquired by another company which doesn't prioritize privacy.
-- Catch-all or alias functionality for those who use their own domains.
-- Should use standard email access protocols such as IMAP, SMTP, or [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol). Standard access protocols ensure customers can easily download all of their email, should they want to switch to another provider.
-- Email provider's services should be available via an [onion service](https://en.wikipedia.org/wiki/.onion).
+- Powinien szyfrować wszystkie dane konta (kontakty, kalendarze itp.) w spoczynku przy użyciu szyfrowania z zerowym dostępem.
+- Powinien oferować zintegrowane szyfrowanie E2EE/PGP w webmailu dla wygody użytkownika.
+- Powinien obsługiwać WKD, aby umożliwić łatwiejsze wyszukiwanie publicznych kluczy OpenPGP poprzez HTTP. Użytkownicy GnuPG mogą pobrać klucz poleceniem: `gpg --locate-key uzytkownik@example.com`.
+- Powinien wspierać funkcję tymczasowej skrzynki pocztowej dla użytkowników zewnętrznych — przydatną do wysyłania zaszyfrowanych wiadomości bez przekazywania ich kopii odbiorcy. Takie wiadomości mają zwykle ograniczoną żywotność i są automatycznie usuwane; odbiorca nie musi konfigurować żadnych narzędzi kryptograficznych jak OpenPGP.
+- Powinien obsługiwać [sub-adresowanie](https://en.wikipedia.org/wiki/Email_address#Sub-addressing).
+- Powinien pozwalać użytkownikom na korzystanie z własnej [nazwy domeny](https://pl.wikipedia.org/wiki/Domena_internetowa). Własne domeny są istotne, ponieważ pozwalają użytkownikowi zachować niezależność od dostawcy, jeśli ten np. zmieni właściciela lub przestanie dbać o prywatność.
+- Powinien wspierać adresy typu catch-all lub aliasy dla użytkowników korzystających z własnych domen.
+- Powinien korzystać ze standardowych protokołów dostępu do poczty, takich jak IMAP, SMTP lub [JMAP](https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol), co umożliwia łatwe pobranie wszystkich wiadomości w przypadku zmiany dostawcy.
+- Usługi dostawcy powinny być dostępne również przez [usługę .onion](https://pl.wikipedia.org/wiki/.onion).
 
 ### Prywatność
 
-Preferujemy, aby nasi rekomendowani dostawcy gromadzili jak najmniej danych.
+Preferujemy dostawców, którzy gromadzą możliwie najmniej danych.
 
 **Minimum do zakwalifikowania się:**
 
-- Must protect sender's IP address, which can involve filtering it from showing in the `Received` header field.
-- Must not require personally identifiable information (PII) besides a username and a password.
-- Privacy policy must meet the requirements defined by the GDPR.
+- Musi chronić adres IP nadawcy, np. poprzez usuwanie go z nagłówka `Received`.
+- Nie może wymagać danych osobowych (PII) innych niż nazwa użytkownika i hasło.
+- Polityka prywatności musi spełniać wymogi określone przez RODO.
 
 **Najlepszy scenariusz:**
 
-- Should accept [anonymous payment options](advanced/payments.md) ([cryptocurrency](cryptocurrency.md), cash, gift cards, etc.)
-- Should be hosted in a jurisdiction with strong email privacy protection laws.
+- Powinien akceptować [anonimowe metody płatności](advanced/payments.md) ([kryptowaluty](cryptocurrency.md), gotówkę, karty podarunkowe itp.).
+- Powinien być hostowany w jurysdykcji oferującej silną ochronę prywatności komunikacji e-mailowej.
 
 ### Bezpieczeństwo
 
-Email servers deal with a lot of very sensitive data. We expect that providers will adopt industry best practices in order to protect their customers.
+Serwery pocztowe przetwarzają ogromne ilości wrażliwych danych. Oczekujemy, że dostawcy będą stosować najlepsze praktyki branżowe w celu ochrony swoich klientów.
 
 **Minimum do zakwalifikowania się:**
 
-- Protection of webmail with 2FA, such as [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
-- Zero-access encryption, which builds on encryption at rest. The provider does not have the decryption keys to the data they hold. This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
+- Ochrona dostępu do webmaila z użyciem 2FA, np. [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
+- Szyfrowanie z zerowym dostępem, będące rozszerzeniem szyfrowania danych w spoczynku — dostawca nie posiada kluczy deszyfrujących dane, This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
 - [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) support.
 - No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
 - A server suite preference (optional on TLS 1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
