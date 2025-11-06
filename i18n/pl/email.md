@@ -303,61 +303,61 @@ Serwery pocztowe przetwarzają ogromne ilości wrażliwych danych. Oczekujemy, �
 **Minimum do zakwalifikowania się:**
 
 - Ochrona dostępu do webmaila z użyciem 2FA, np. [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
-- Szyfrowanie z zerowym dostępem, będące rozszerzeniem szyfrowania danych w spoczynku — dostawca nie posiada kluczy deszyfrujących dane, This prevents a rogue employee leaking data they have access to or remote adversary from releasing data they have stolen by gaining unauthorized access to the server.
-- [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions) support.
-- No TLS errors or vulnerabilities when being profiled by tools such as [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh), or [Qualys SSL Labs](https://ssllabs.com/ssltest); this includes certificate related errors and weak DH parameters, such as those that led to [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
-- A server suite preference (optional on TLS 1.3) for strong cipher suites which support forward secrecy and authenticated encryption.
-- A valid [MTA-STS](https://tools.ietf.org/html/rfc8461) and [TLS-RPT](https://tools.ietf.org/html/rfc8460) policy.
-- Valid [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities) records.
-- Valid [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DKIM](https://en.wikipedia.org/wiki/DomainKeys_Identified_Mail) records.
-- Must have a proper [DMARC](https://en.wikipedia.org/wiki/DMARC) record and policy or use [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) for authentication. If DMARC authentication is being used, the policy must be set to `reject` or `quarantine`.
-- A server suite preference of TLS 1.2 or later and a plan for [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
-- [SMTPS](https://en.wikipedia.org/wiki/SMTPS) submission, assuming SMTP is used.
-- Website security standards such as:
-    - [HTTP Strict Transport Security](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
-    - [Subresource Integrity](https://en.wikipedia.org/wiki/Subresource_Integrity) if loading things from external domains.
-- Must support viewing of [message headers](https://en.wikipedia.org/wiki/Email#Message_header), as it is a crucial forensic feature to determine if an email is a phishing attempt.
+- Szyfrowanie z zerowym dostępem, będące rozszerzeniem szyfrowania danych w spoczynku — dostawca nie posiada kluczy deszyfrujących dane, co uniemożliwia wyciek informacji przez nieuczciwego pracownika lub zewnętrznego atakującego po uzyskaniu nieautoryzowanego dostępu do serwera.
+- Obsługa [DNSSEC](https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions).
+- Brak błędów lub luk TLS podczas testów za pomocą narzędzi takich jak [Hardenize](https://hardenize.com), [testssl.sh](https://testssl.sh) czy [Qualys SSL Labs](https://ssllabs.com/ssltest); dotyczy to błędów certyfikatów i słabych parametrów DH, takich jak te, które doprowadziły do podatności [Logjam](https://en.wikipedia.org/wiki/Logjam_(computer_security)).
+- Preferencja serwera dla silnych zestawów szyfrów obsługujących utajnianie z wyprzedzeniem oraz uwierzytelnione szyfrowanie (dla TLS 1.3 opcjonalna).
+- Prawidłowo wdrożone polityki [MTA-STS](https://tools.ietf.org/html/rfc8461) i [TLS-RPT](https://tools.ietf.org/html/rfc8460).
+- Prawidłowe rekordy [DANE](https://en.wikipedia.org/wiki/DNS-based_Authentication_of_Named_Entities).
+- Prawidłowe rekordy [SPF](https://pl.wikipedia.org/wiki/Sender_Policy_Framework) oraz [DKIM](https://pl.wikipedia.org/wiki/DomainKeys_Identified_Mail).
+- Poprawnie skonfigurowany rekord i polityka [DMARC](https://en.wikipedia.org/wiki/DMARC) lub alternatywnie użycie [ARC](https://en.wikipedia.org/wiki/Authenticated_Received_Chain) do uwierzytelniania. If DMARC authentication is being used, the policy must be set to `reject` or `quarantine`.
+- Preferencja serwera dla TLS 1.2 lub nowszego oraz plan przejścia na zgodność z [RFC8996](https://datatracker.ietf.org/doc/rfc8996).
+- Obsługa [SMTPS](https://en.wikipedia.org/wiki/SMTPS) przy założeniu, że używany jest protokół SMTP.
+- Wdrożenie standardów bezpieczeństwa stron internetowych, takich jak:
+    - [HTTP Strict Transport Security (HSTS)](https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security)
+    - [Subresource Integrity (SRI)](https://en.wikipedia.org/wiki/Subresource_Integrity) przy ładowaniu zasobów z domen zewnętrznych.
+- Musi umożliwiać podgląd [nagłówków wiadomości e-mail](https://en.wikipedia.org/wiki/Email#Message_header), co jest kluczowe przy analizie prób phishingu.
 
 **Najlepszy scenariusz:**
 
-- Should support hardware authentication, i.e. U2F and [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
-- [DNS Certification Authority Authorization (CAA) Resource Record](https://tools.ietf.org/html/rfc6844) in addition to DANE support.
-- Should implement [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), which is useful for people who post to mailing lists [RFC8617](https://tools.ietf.org/html/rfc8617).
-- Published security audits from a reputable, third-party firm.
-- Programy Bug-Bounty i/lub skoordynowany proces ujawniania luk w zabezpieczeniach.
-- Website security standards such as:
+- Powinien obsługiwać uwierzytelnianie sprzętowe, tj. U2F i [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
+- Powinien posiadać rekord [DNS Certification Authority Authorization (CAA)](https://tools.ietf.org/html/rfc6844) oprócz obsługi DANE.
+- Powinien implementować [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), co jest przydatne dla osób korzystających z list mailingowych ([RFC8617](https://tools.ietf.org/html/rfc8617)).
+- Opublikowane audyty bezpieczeństwa przeprowadzone przez renomowaną, niezależną firmę.
+- Programy typu bug bounty i/lub skoordynowane ujawnianie podatności (coordinated vulnerability disclosure).
+- Wdrożenie standardów bezpieczeństwa stron internetowych, takich jak:
     - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
     - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163)
 
 ### Zaufanie
 
-You wouldn't trust your finances to someone with a fake identity, so why trust them with your email? Wymagamy, aby rekomendowani przez nas dostawcy publicznie informowali o swojej własności lub przywództwie. Chcielibyśmy również widzieć częste raporty przejrzystości, zwłaszcza w odniesieniu do sposobu obsługi wniosków rządowych.
+Nie powierzył(a)byś swoich finansów komuś o fałszywej tożsamości, więc po co powierzać mu swoje dane e-mail? Wymagamy, aby zalecani przez nas dostawcy ujawniali informacje o właścicielach lub kadrze zarządzającej. Doceniamy również regularne raporty przejrzystości, szczególnie w zakresie tego, jak obsługiwane są żądania organów państwowych.
 
 **Minimum do zakwalifikowania się:**
 
-- Publiczne przywództwo lub własność.
+- Publicznie dostępne informacje o właścicielu lub kadrze kierowniczej.
 
 **Najlepszy scenariusz:**
 
-- Częste raporty przejrzystości.
+- Regularnie publikowane raporty przejrzystości.
 
 ### Marketing
 
-With the email providers we recommend, we like to see responsible marketing.
+W przypadku polecanych przez nas dostawców poczty e-mail zwracamy uwagę na odpowiedzialne praktyki marketingowe.
 
 **Minimum do zakwalifikowania się:**
 
-- Must self-host analytics (no Google Analytics, Adobe Analytics, etc.).
-- Must not have any irresponsible marketing, which can include the following:
-    - Claims of "unbreakable encryption." Encryption should be used with the intention that it may not be secret in the future when the technology exists to crack it.
-    - Guarantees of protecting anonymity 100%. When someone makes a claim that something is 100%, it means there is no certainty for failure. We know people can quite easily de-anonymize themselves in a number of ways, e.g.:
-        - Reusing personal information e.g. (email accounts, unique pseudonyms, etc.) that they accessed without anonymity software such as Tor
-        - [Browser Fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+- Musi samodzielnie hostować analitykę (bez korzystania z Google Analytics, Adobe Analytics itp.).
+- Nie może stosować nieodpowiedzialnych działań marketingowych, w tym m.in.:
+    - Twierdzeń o „niemożliwym do złamania szyfrowaniu”. Należy zakładać, że każda forma szyfrowania może zostać w przyszłości złamana wraz z rozwojem technologii.
+    - Gwarancji pełnej anonimowości w 100%. Kiedy ktoś zapewnia o 100% skuteczności czegoś, oznacza to, że nie ma żadnej pewności co do niepowodzenia. Zdajemy sobie sprawę, że ludzie mogą dość łatwo ujawnić swoją tożsamość na wiele sposobów, np.:
+        - używając tych samych danych osobowych lub pseudonimów bez korzystania z narzędzi zapewniających anonimowość (np. Tor),
+        - [przez unikalny odcisk przeglądarki (browser fingerprinting).](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
 
 **Najlepszy scenariusz:**
 
-- Clear and easy-to-read documentation for tasks like setting up 2FA, email clients, OpenPGP, etc.
+- Przejrzysta i czytelna dokumentacja dotycząca czynności takich jak konfiguracja uwierzytelniania dwuskładnikowego (2FA), klienta poczty elektronicznej, OpenPGP itp.
 
-### Dodatkowa funkcjonalność
+### Dodatkowe funkcje
 
-While not strictly requirements, there are some other convenience or privacy factors we looked into when determining which providers to recommend.
+Nie są to ścisłe wymagania, lecz czynniki zwiększające wygodę i prywatność użytkownika, które brane są pod uwagę przy ocenie dostawców poczty e-mail.

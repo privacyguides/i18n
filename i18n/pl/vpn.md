@@ -343,22 +343,22 @@ VPN nie ma sensu, jeśli nie może nawet zapewnić odpowiedniego bezpieczeństwa
 - Najsilniejsze szyfrowanie: RSA-4096.
 - Opcjonalne szyfrowanie odporne na kwanty.
 - Kompleksowe audyty bezpieczeństwa publikowane przez renomowaną firmę zewnętrzną.
-- Programy Bug-Bounty i/lub skoordynowany proces ujawniania luk w zabezpieczeniach.
+- Programy typu bug bounty i/lub skoordynowane ujawnianie podatności (coordinated vulnerability disclosure).
 - Serwery VPN działające tylko w RAM.
 
 ### Zaufanie
 
-Nie powierzyłbyś swoich finansów komuś z fałszywą tożsamością, więc po co powierzać mu swoje dane internetowe? Wymagamy, aby rekomendowani przez nas dostawcy publicznie informowali o swojej własności lub przywództwie. Chcielibyśmy również widzieć częste raporty przejrzystości, zwłaszcza w odniesieniu do sposobu obsługi wniosków rządowych.
+Nie powierzyłbyś swoich finansów komuś z fałszywą tożsamością, więc po co powierzać mu swoje dane internetowe? Wymagamy, aby zalecani przez nas dostawcy ujawniali informacje o właścicielach lub kadrze zarządzającej. Doceniamy również regularne raporty przejrzystości, szczególnie w zakresie tego, jak obsługiwane są żądania organów państwowych.
 
 **Minimum do zakwalifikowania się:**
 
-- Publiczne przywództwo lub własność.
+- Publicznie dostępne informacje o właścicielu lub kadrze kierowniczej.
 - Firma z siedzibą w jurysdykcji, w której nie można jej zmusić do prowadzenia tajnych rejestrów.
 
 **Najlepszy scenariusz:**
 
 - Publiczne przywództwo.
-- Częste raporty przejrzystości.
+- Regularnie publikowane raporty przejrzystości.
 
 ### Marketing
 
@@ -383,6 +383,6 @@ Odpowiedzialny marketing, który jest zarówno edukacyjny, jak i użyteczny dla 
 - Dokładne porównanie, kiedy zamiast tego powinien być używany [Tor](tor.md).
 - Dostępność strony internetowej dostawcy VPN za pośrednictwem [ usługi .onion](https://en.wikipedia.org/wiki/.onion)
 
-### Dodatkowa funkcjonalność
+### Dodatkowe funkcje
 
 Chociaż nie są to ścisłe wymagania, istnieją pewne czynniki, które wzięliśmy pod uwagę przy określaniu, których dostawców polecić. Obejmują one funkcje blokowania treści, kanały ostrzegawcze, doskonałą obsługę klienta, liczbę dozwolonych jednoczesnych połączeń itp.
