@@ -309,51 +309,51 @@ Ta opcja powoduje, że wszystko, co wpisujesz w pasku adresu, jest wysyłane do 
 
 #### Profile
 
-Safari umożliwia oddzielenie przeglądania przy użyciu różnych profili. Wszystkie ciasteczka, historia oraz dane witryn są przechowywane osobno dla każdego profilu. Warto używać różnych profili do różnych celów, np. Osobisty, Praca czy Szkoła.
+Safari umożliwia oddzielenie przeglądania przy użyciu różnych profili. Wszystkie pliki cookie, historia oraz dane witryn są przechowywane osobno dla każdego profilu. Warto używać różnych profili do różnych celów, np. Osobisty, Praca czy Szkoła.
 
 #### Prywatność i bezpieczeństwo
 
-- [x] Enable **Prevent Cross-Site Tracking**
+- [x] Włącz **Blokuj śledzenie poza witryną**
 
-This enables WebKit's [Intelligent Tracking Protection](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp). The feature helps protect against unwanted tracking by using on-device machine learning to stop trackers. ITP protects against many common threats, but does not block all tracking avenues because it is designed to not interfere with website usability.
+Ta opcja aktywuje [inteligentne zapobieganie śledzeniu (ITP)](https://webkit.org/tracking-prevention/#intelligent-tracking-prevention-itp) w silniku WebKit. Funkcja ta chroni przed niechcianym śledzeniem, wykorzystując lokalne uczenie maszynowe do blokowania trackerów. ITP zapewnia ochronę przed wieloma powszechnymi zagrożeniami, jednak nie eliminuje wszystkich metod śledzenia, ponieważ została zaprojektowana tak, by nie zakłócać działania stron internetowych.
 
-- [x] Enable **Require Face ID/Touch ID to Unlock Private Browsing**
+- [x] Włącz **Wymagaj Face ID/Touch ID do odblokowywania przeglądania prywatnego**
 
-This setting allows you to lock your private tabs behind biometrics/PIN when not in use.
+Ta opcja pozwala zabezpieczyć karty w trybie przeglądania prywatnego za pomocą biometrii lub kodu PIN, gdy nie są używane.
 
-- [ ] Disable **Fraudulent Website Warning**
+- [ ] Wyłącz **Alerty o fałszywych witrynach**
 
-This setting uses Google Safe Browsing (or Tencent Safe Browsing for users in mainland China or Hong Kong) to protect you while you browse. As such, your IP address may be logged by your Safe Browsing provider. Disabling this setting will disable this logging, but you might be more vulnerable to known phishing sites.
+Ta funkcja korzysta z usługi Bezpieczne przeglądanie Google (lub usługi Tencent Safe Browsing dla użytkowników z Chin kontynentalnych lub Hongkongu), aby chronić Cię podczas przeglądania. W efekcie Twój adres IP może być rejestrowany przez dostawcę usługi Bezpieczne przeglądanie. Wyłączenie tej funkcji uniemożliwi takie logowanie, ale jednocześnie zwiększy ryzyko wejścia na znane strony phishingowe.
 
-- [x] Enable **Not Secure Connection Warning**
+- [x] Włącz **Ostrzeżenie o niezabezpieczonym połączeniu**
 
-This setting shows a warning screen if your connection to a website isn't using HTTPS. Safari will automatically try to upgrade the site to HTTPS, so you should only see this when there is no HTTPS connection available.
+Ta opcja wyświetla ostrzeżenie, jeśli połączenie ze stroną nie jest szyfrowane przy użyciu protokołu HTTPS. Safari automatycznie spróbuje połączyć się z wersją HTTPS witryny, więc ostrzeżenie pojawi się tylko wtedy, gdy taka wersja nie jest dostępna.
 
-- [ ] Disable **Highlights**
+- [ ] Wyłącz **Najważniejsze**
 
-Apple's privacy policy for Safari states:
+Zgodnie z polityką prywatności Apple dla Safari:
 
-> When visiting a webpage, Safari may send information calculated from the webpage address to Apple over OHTTP to determine if relevant highlights are available.
+> Podczas odwiedzin w witrynie Safari może wysłać informacje uzyskane na podstawie jej adresu do Apple za pośrednictwem OHTTP w celu ustalenia, czy witryna zawiera istotne informacje do zaprezentowania.
 
-#### Settings for Websites
+#### Ustawienia dla witryn
 
-Under **Camera**
+W sekcji **Aparat**
 
-- [x] Select **Ask**
+- [x] Wybierz **Pytaj**
 
-Under **Microphone**
+W sekcji **Mikrofon**
 
-- [x] Select **Ask**
+- [x] Wybierz **Pytaj**
 
-Under **Location**
+W sekcji **Położenie**
 
-- [x] Select **Ask**
+- [x] Wybierz **Pytaj**
 
-These settings ensure that websites can only access your camera, microphone, or location after you explicitly grant them access.
+Te ustawienia sprawiają, że strony internetowe mogą uzyskać dostęp do aparatu, mikrofonu lub położenia (lokalizacji) dopiero po uzyskaniu Twojej wyraźnej zgody.
 
-#### Other Privacy Settings
+#### Inne ustawienia prywatności
 
-These options can be found in :gear: **Settings** → **Apps** → **Safari** → **Advanced**.
+Te opcje znajdziesz w :gear: **Ustawienia** → **Aplikacje** → **Safari** → **Zaawansowane**.
 
 ##### Fingerprinting Mitigations
 
@@ -361,23 +361,23 @@ The **Advanced Tracking and Fingerprinting Protection** setting will randomize c
 
 - [x] Select **All Browsing** or **Private Browsing**
 
-##### Privacy Preserving Ad Measurement
+##### Miary dot. reklam zachowujące prywatność
 
-- [ ] Disable **Privacy Preserving Ad Measurement**
+- [ ] Wyłącz **Miary dot. reklam zachowujące prywatność**
 
-Ad click measurement has traditionally used tracking technology that infringes on user privacy. [Private Click Measurement](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm) is a WebKit feature and proposed web standard aimed towards allowing advertisers to measure the effectiveness of web campaigns without compromising on user privacy.
+Tradycyjne pomiary kliknięć reklamowych zwykle wykorzystują technologie śledzące, które naruszają prywatność użytkownika. [Miary dot. stuknięć zachowujące prywatność](https://webkit.org/blog/11529/introducing-private-click-measurement-pcm) (Private Click Measurement) to funkcja WebKit oraz proponowany standard sieciowy, mający umożliwić reklamodawcom pomiar skuteczności kampanii bez naruszania prywatności użytkowników.
 
-The feature has little privacy concerns on its own, so while you can choose to leave it on, we consider the fact that it's automatically disabled in Private Browsing to be an indicator for disabling the feature.
+Sama funkcja nie stanowi istotnego zagrożenia dla prywatności, jednak fakt, że jest automatycznie wyłączona w trybie prywatnego przeglądania, wskazuje, że warto ją wyłączyć również globalnie.
 
-#### Always-on Private Browsing
+#### Zawsze włączony tryb przeglądania prywatnego
 
-Open Safari and tap the Tabs button, located in the bottom right. Then, expand the :material-format-list-bulleted: Tab Groups list.
+Otwórz Safari i stuknij przycisk Karty w prawym dolnym rogu. Następnie rozwiń listę grup kart :material-format-list-bulleted:.
 
-- [x] Select **Private**
+- [x] Wybierz **Prywatne**
 
-Safari's Private Browsing mode offers additional privacy protections. Private Browsing uses a new [ephemeral](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) session for each tab, meaning tabs are isolated from one another. There are other smaller privacy benefits with Private Browsing too, such as not sending a webpage’s address to Apple when using Safari's translation feature.
+Tryb przeglądania prywatnego w przeglądarce Safari oferuje dodatkowe mechanizmy ochrony prywatności. Tryb ten korzysta z nowej sesji [efemerycznej](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) dla każdej karty, co oznacza, że karty są od siebie odizolowane. Istnieją też inne, drobniejsze korzyści w zakresie prywatności — np. w trybie przeglądania prywatnego Safari nie wysyła adresów stron do Apple przy korzystaniu z funkcji tłumaczenia.
 
-Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed in to sites. This may be an inconvenience.
+Należy jednak pamiętać, że w trybie przeglądania prywatnego nie są zapisywane pliki cookie ani dane witryn, więc nie będzie możliwe pozostawanie zalogowanym na stronach — może to być pewną niedogodnością.
 
 #### iCloud Sync
 
