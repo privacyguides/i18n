@@ -59,7 +59,7 @@ When replying to someone on a mailing list in Thunderbird Mobile, the "reply" op
 
 </div>
 
-#### Recommended Configuration
+#### Zalecana konfiguracja
 
 <div class="annotate" markdown>
 

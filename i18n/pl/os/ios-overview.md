@@ -32,7 +32,7 @@ Apple's [privacy policy regarding VPNs](https://apple.com/legal/privacy/data/en/
 
 > Even when a VPN is active, some traffic that is necessary for essential system services will take place outside the VPN so that your device can function properly.
 
-## Recommended Configuration
+## Zalecana konfiguracja
 
 **Note:** This guide assumes that you're running the latest version of iOS.
 

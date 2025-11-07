@@ -166,64 +166,62 @@ W razie potrzeby można je obniżyć dla poszczególnych witryn, jednak domyśln
 
     <div class="annotate" markdown>
 
-    - [x] Zaznacz **Wyłącz UDP bez proxy** w [Zasady obsługi IP WebRTC IP</em>](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
-    - \[x\] (Opcjonalne) Zaznacz **Brak ochrony** w *Bezpieczne przeglądanie*
-    - [] Odznacz **Zezwalaj stronom internetowym na sprawdzanie, czy masz zapisane formy płatności**
-    - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
+    - [x] Wybierz **Wyłącz UDP bez proxy** w sekcji [*Zasady obsługi IP WebRTC IP*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc)
+    - \[x\] (Opcjonalnie) Wybierz **Brak ochrony** w sekcji *Bezpieczne przeglądanie* (1)
+    - [ ] Odznacz **Zezwalaj stronom internetowym na sprawdzanie, czy masz zapisane formy płatności**
+    - [ ] Odznacz **Optymalizacja i zabezpieczenia JavaScriptu** w sekcji o tej samej nazwie
     - [x] Zaznacz **Zamknij karty przy wyjściu**
-    - [] Odznacz **Zezwól na zastosowanie analizy produktów z zachowaniem prywatności (P3A)**
-    - [] Odznacz **Automatycznie wysyłaj raporty diagnostyczne**
-    - [] Odznacz **Automatycznie wysyłaj pingi dziennego użycia do Brave**
+    - [ ] Odznacz **Zezwól na zastosowanie analizy produktów z zachowaniem prywatności (P3A)**
+    - [ ] Odznacz **Automatycznie wysyłaj raporty diagnostyczne**
+    - [ ] Odznacz **Automatycznie wysyłaj pingi dziennego użycia do Brave**
 
     </div>
 
-    1. Brave's [implementation of Safe Browsing](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) on Android **does not** proxy [Safe Browsing network requests](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) like its desktop counterpart. To oznacza, że twój adres IP może być widoczny (i rejestrowany) przez Google. Należy pamiętać, że Bezpieczne Przeglądanie nie jest dostępne na urządzeniach z Androidem bez Usług Google Play.
+    1. Implementacja funkcji [Bezpiecznego przeglądania](https://support.brave.com/hc/en-us/articles/15222663599629-Safe-Browsing-in-Brave) w przeglądarce Brave na Androidzie **nie** przesyła [żądań sieciowych Bezpiecznego przeglądania](https://developers.google.com/safe-browsing/v4/update-api#checking-urls) przez serwer pośredniczący, w przeciwieństwie do wersji na komputery stacjonarne. Oznacza to, że Twój adres IP może być widoczny (i rejestrowany) przez Google. Należy również pamiętać, że funkcja Bezpiecznego przeglądania nie jest dostępna na urządzeniach z Androidem bez Usług Google Play.
 
 === "iOS"
 
-    - [] Odznacz **Zezwól na zastosowanie analizy produktów z zachowaniem prywatności (P3A)**
-    - [] Odznacz **Automatycznie wysyłaj pingi dziennego użycia do Brave**
+    - [ ] Odznacz **Zezwól na zastosowanie analizy produktów z zachowaniem prywatności (P3A)**
+    - [ ] Odznacz **Automatycznie wysyłaj pingi dziennego użycia do Brave**
 
 #### Leo
 
-Te opcje można znaleźć w :material-menu: → **Ustawienia** → **Leo**
+Te opcje znajdziesz w :material-menu: → **Ustawienia** → **Sztuczna inteligencja Leo**.
 
 <div class="annotate" markdown>
 
-- [] Odznacz **Pokaż sugestie automatycznego uzupełniania na pasku adresu**
+- [ ] Odznacz **Pokaż sugestie automatycznego uzupełniania na pasku adresu** (1)
 
 </div>
 
-1. Ta opcja jest nie dostępna w aplikacji Brave na IOS.
+1. Ta opcja nie występuje w aplikacji Brave na iOS.
 
 #### Wyszukiwarki
 
-Te opcje można znaleźć w :material-menu:/:fontawesome-solid-ellipsis: → **Ustawienia** → **Wyszukiwarki**.
+Te opcje znajdziesz w :material-menu:/:fontawesome-solid-ellipsis: → **Ustawienia** → **Wyszukiwarki**.
 
-- [ ] Odznacz **Podpowiedzi wyszukiwania**
+- [ ] Odznacz **Pokaż sugestie wyszukiwania**
 
 #### Synchronizacja
 
-[Synchronizacja](https://support.brave.com/hc/articles/360059793111-Understanding-Brave-Sync) umożliwia na dostęp do danych przeglądania (historia, zakładki, itd.) na wszystkich urządzeniach wymaganego konta i chroni je za pomocą E2EE.
+[Brave Sync](https://support.brave.app/hc/pl/articles/360059793111-Zrozumienie-Brave-Sync) pozwala na dostęp do danych przeglądania (historii, zakładek itp.) na wszystkich Twoich urządzeniach bez potrzeby zakładania konta i chroni je za pomocą szyfrowania typu E2EE (end-to-end encryption).
 
 ## Cromite (Android)
 
 <div class="admonition recommendation" markdown>
 
-![Cromite logo](assets/img/browsers/cromite.svg){ align=right }
+![Logo Cromite](assets/img/browsers/cromite.svg){ align=right }
 
-**Cromite** to przeglądarka oparta na Chromium z 
- wbudowanym blokowaniem reklam, ochroną przed rozpoznaniem urządzenia, i innymi [ulepszeniami prywatności i bezpieczeństwa]
-(https://github.com/uazo/cromite/blob/master/docs/FEATURES.md).  To fork wycofanej przeglądarki **Bromite**.
+**Cromite** to przeglądarka oparta na Chromium, oferująca wbudowane blokowanie reklam, ochronę przed odciskami palców oraz inne [ulepszenia w zakresie prywatności i bezpieczeństwa](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). Jest to fork porzuconej już przeglądarki **Bromite**.
 
 [:octicons-home-16: Strona główna](https://cromite.org){ .md-button .md-button--primary }
 [:octicons-eye-16:]
-(https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Source Code" }
+(https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
-<summary>Pobieranie</summary>
+<summary>Pobierz</summary>
 
 - [:simple-android: F-Droid](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
 - [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
@@ -234,84 +232,84 @@ Te opcje można znaleźć w :material-menu:/:fontawesome-solid-ellipsis: → **U
 
 ### Zalecana konfiguracja
 
-Te opcje można znaleźć w  → :gear: **Ustawienia** → **Prywatność i bezpieczeństwo**.
+Te opcje znajdziesz w :material-menu: → :gear: **Ustawienia** → **Prywatność i bezpieczeństwo**.
 
-#### Dane przeglądania
+#### Browsing data (Dane przeglądania)
 
 - [x] Zaznacz **Close all open tabs on exit**
 
-#### Tryb Incognito
+#### Tryb incognito
 
-- [x] Zaznacz **Open external links in incognito**
+- [x] Zaznacz **Open external links in incognito** (Otwieranie linków zewnętrznych w trybie incognito)
 
 #### Bezpieczeństwo
 
-- [x] Zaznacz **Zawsze używaj bezpiecznych połączeń**
+- [x] Zaznacz **Zawsze używaj bezpiecznych połączeń** w sekcji o tej samej nazwie
 
-HTTP is extremely uncommon nowadays, so this should have little to no impact on your day-to-day browsing.
+Zapobiega to przypadkowemu łączeniu się ze stronami używającymi nieszyfrowanego protokołu HTTP. HTTP jest obecnie bardzo rzadko używany, więc ta opcja nie powinna mieć zauważalnego wpływu na codzienne przeglądanie Internetu.
 
-#### Adblock Plus settings
+#### Adblock Plus settings (Opcje Adblock Plus)
 
-These options can be found in :material-menu: → :gear: **Settings** → **Adblock Plus settings**.
+Te opcje znajdziesz w :material-menu: → :gear: **Ustawienia** → **Adblock Plus settings**.
 
-Cromite contains a customized version of Adblock Plus with EasyList enabled by default, as well as options to select more filter lists within the **Filter lists** menu.
+Cromite zawiera zmodyfikowaną wersję Adblock Plus z domyślnie włączoną listą EasyList oraz możliwością wyboru dodatkowych list filtrów w menu **Filter lists** (Listy filtrów).
 
-Using extra lists will make you stand out from other Cromite users and may also increase attack surface if a malicious rule is added to one of the lists you use.
+Korzystanie z dodatkowych list może sprawić, że będziesz się wyróżniać na tle innych użytkowników Cromite, a także zwiększyć ryzyko ataku, jeśli do którejś z list zostanie dodana złośliwa reguła.
 
-- \[x\] (Optional) Select **Enable anti-circumvention and snippets**
+- \[x\] (Opcjonalnie) Zaznacz **Enable anti-circumvention and snippets** (Włączenie ochrony przed obchodzeniem blokad i snippetów)
 
-This setting adds an additional Adblock Plus list that may increase the effectiveness of Cromite's content blocking. The warnings about standing out and potentially increasing attack surface apply.
+Ta opcja dodaje dodatkową listę Adblock Plus, która może zwiększyć skuteczność blokowania treści w Cromite. Nadal jednak obowiązują ostrzeżenia dotyczące wyróżniania się i potencjalnego zwiększenia powierzchni ataku.
 
-#### Legacy Adblock settings
+#### Legacy Adblock settings (Starsze opcje Adblock)
 
-These options can be found in :material-menu: → :gear: **Settings** → **Legacy Adblock settings**.
+Te opcje znajdziesz w :material-menu: → :gear: **Ustawienia** → **Legacy Adblock settings**.
 
-- [ ] Uncheck the autoupdate setting
+- [ ] Odznacz opcję automatycznych aktualizacji
 
-This disables update checks for the unmaintained Bromite adblock filter.
+Wyłącza to sprawdzanie aktualizacji dla nieutrzymywanej już listy filtrów reklam z przeglądarki Bromite.
 
 ## Safari (iOS)
 
-On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Blink engine (the core component of Chromium) like its counterparts on other operating systems.
+W systemie iOS każda aplikacja umożliwiająca przeglądanie Internetu jest [ograniczona](https://developer.apple.com/app-store/review/guidelines) do korzystania z udostępnionego przez Apple [frameworka WebKit](https://developer.apple.com/documentation/webkit). Oznacza to, że przeglądarka taka jak [Brave](#brave) nie korzysta z silnika Blink (rdzenia Chromium), jak jej odpowiedniki na innych systemach operacyjnych.
 
 <div class="admonition recommendation" markdown>
 
-![Safari logo](assets/img/browsers/safari.svg){ align=right }
+![Logo Safari](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** is the default browser in iOS. It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites, so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
+**Safari** jest domyślną przeglądarką w systemie iOS. Zawiera [funkcje prywatności](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios), takie jak [inteligentne zapobieganie śledzeniu](https://webkit.org/blog/7675/intelligent-tracking-prevention), izolowane i efemeryczne karty w trybie przeglądania prywatnego, ochrona przed odciskami palców (poprzez prezentowanie uproszczonej wersji konfiguracji systemu, co sprawia, że więcej urządzeń wygląda identycznie), losowa zmienność odcisków palców, a także usługę Przekazywanie prywatne dostępną dla subskrybentów iCloud+.
 
-[:octicons-home-16: Homepage](https://apple.com/safari){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://apple.com/legal/privacy/data/en/safari){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title="Documentation" }
+[:octicons-home-16: Strona główna](https://apple.com/safari){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://apple.com/legal/privacy/data/pl/safari){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://support.apple.com/guide/iphone/browse-the-web-iph1fbef4daa/ios){ .card-link title="Dokumentacja" }
 
 </details>
 
 </div>
 
-### Recommended Safari Configuration
+### Zalecana konfiguracja przeglądarki Safari
 
-The following privacy/security-related options can be found in :gear: **Settings** → **Apps** → **Safari**.
+Następujące opcje dotyczące prywatności i bezpieczeństwa znajdziesz w :gear: **Ustawienia** → **Aplikacje** → **Safari**.
 
-#### Allow Safari to Access
+#### Zezwalaj Safari na dostęp
 
-Under **Siri**:
+W sekcji **Siri**:
 
 - [ ] Disable **Learn from this App**
-- [ ] Disable **Show in App**
-- [ ] Disable **Show on Home Screen**
-- [ ] Disable **Suggest App**
+- [ ] Wyłącz **W aplikacji**
+- [ ] Wyłącz **Na ekranie głównym**
+- [ ] Wyłącz **Sugeruj aplikację**
 
-This prevents Siri from using content from Safari for Siri suggestions.
+To uniemożliwia Siri wykorzystywanie zawartości z Safari do generowania sugestii.
 
-#### Wyszukiwanie
+#### Wyszukiwarka
 
-- [ ] Disable **Search Engine Suggestions**
+- [ ] Wyłącz **Sugestie wyszukiwarki**
 
-This setting sends whatever you type in the address bar to the search engine set in Safari. Wyłączenie podpowiedzi pozwala dokładniej kontrolować, jakie dane przekazujesz dostawcy wyszukiwarki.
+Ta opcja powoduje, że wszystko, co wpisujesz w pasku adresu, jest wysyłane do wyszukiwarki ustawionej w Safari. Wyłączenie sugestii wyszukiwarki pozwala dokładniej kontrolować, jakie dane przekazujesz dostawcy wyszukiwarki.
 
-#### Profiles
+#### Profile
 
-Safari allows you to separate your browsing with different profiles. All of your cookies, history, and website data are separate for each profile. You should use different profiles for different purposes e.g. Shopping, Work, or School.
+Safari umożliwia oddzielenie przeglądania przy użyciu różnych profili. Wszystkie ciasteczka, historia oraz dane witryn są przechowywane osobno dla każdego profilu. Warto używać różnych profili do różnych celów, np. Osobisty, Praca czy Szkoła.
 
 #### Prywatność i bezpieczeństwo
 
