@@ -1,14 +1,14 @@
 ---
-meta_title: "Przeglądarki internetowe na Android/IOS szanujące prywatność - Privacy Guides"
+meta_title: "Przeglądarki internetowe szanujące prywatność dla Androida i iOS – Privacy Guides"
 title: Przeglądarki mobilne
 icon: octicons/device-mobile-16
-description: Obecnie zalecamy te przeglądarki do standardowego/nie anonimowego przeglądania internetu na swoim smartfonie.
+description: Te przeglądarki to obecnie nasze zalecenia do standardowego/nieanonimowego korzystania z Internetu na telefonie.
 cover: mobile-browsers.webp
 schema:
   - 
     "@context": http://schema.org
     "@type": WebPage
-    name: Rekomendowane Prywatne Przeglądarki Mobilne
+    name: Zalecane prywatne przeglądarki mobilne
     url: "./"
     relatedLink: "../desktop-browsers/"
   - 
@@ -52,29 +52,29 @@ schema:
 
 <small>Chroni przed następującymi zagrożeniami:</small>
 
-- [:material-account-cash: Kapitalizm Nadzoru](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
+- [:material-account-cash: Kapitalizm inwigilacji](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-To są obecnie zalecane przez nas **przeglądarki internetowe** oraz konfiguracje dla standardowego/nie anonimowego przeglądania internetu. Jeśli chcesz przeglądać Internet anonimowo, skorzystaj z sieci [Tor](tor.md).
+Oto nasze aktualne zalecenia dotyczące **mobilnych przeglądarek internetowych** oraz ich konfiguracji do standardowego/nieanonimowego przeglądania. Jeśli chcesz przeglądać Internet anonimowo, skorzystaj z sieci [Tor](tor.md).
 
 ## Brave
 
 <div class="admonition recommendation" markdown>
 
-![Brave logo](assets/img/browsers/brave.svg){ align=right }
+![Logo Brave](assets/img/browsers/brave.svg){ align=right }
 
-**Brave Browser** zawiera wbudowany bloker treści i [funkcje prywatności](https://brave.com/privacy-features), z których większość jest włączona domyślnie.
+**Przeglądarka Brave** zawiera wbudowany mechanizm blokowania treści oraz liczne [funkcje prywatności](https://brave.com/privacy-features), z których wiele jest domyślnie włączonych.
 
-Brave jest zbudowany na projekcie przeglądarki internetowej Chromium, 
+Oparta jest na projekcie przeglądarki Chromium, dzięki czemu jej interfejs i działanie powinny być dobrze znane większości osób, a problemy ze zgodnością stron internetowych być minimalne.
 
-[:octicons-home-16: Strona główna](https://brave.com){ .md-button .md-button--primary }
+[:octicons-home-16: Strona główna](https://brave.com/pl){ .md-button .md-button--primary }
 [:simple-torbrowser:]
-(https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://support.brave.com){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Source Code" }
+(https://brave4u7jddbv7cyviptqjc7jusxh72uik7zt6adtckl5f4nwy2v72qd.onion){ .card-link title="Usługa onion" }
+[:octicons-eye-16:](https://brave.com/privacy/browser){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://support.brave.com){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1052879175)
@@ -85,80 +85,80 @@ Brave jest zbudowany na projekcie przeglądarki internetowej Chromium,
 
 </div>
 
-### Rekomendowana Konfiguracja Brave
+### Zalecana konfiguracja przeglądarki Brave
 
-Przeglądarka Tor to jedyny sposób aby na prawdę przeglądać internet anonimowo. Kiedy używasz Braver zalecamy zmianę następujących ustawień aby chronić twoją prywatność przed niektórymi stronami, ale wszystkie przeglądarki inne niż [Przeglądarka Tor](tor.md#tor-browser) będą możliwe do śledzenia przez *kogoś* w takim czy innym zakresie.
+Tor Browser to jedyny sposób na prawdziwie anonimowe przeglądanie Internetu. Korzystając z Brave, zalecamy zmianę poniższych ustawień, aby lepiej chronić swoją prywatność przed niektórymi podmiotami, jednak każda przeglądarka inna niż [Tor Browser](tor.md#tor-browser) będzie możliwa do śledzenia przez *kogoś* w taki czy inny sposób.
 
 === "Android"
 
-    .
+    Te opcje znajdziesz w :material-menu: → **Ustawienia** → **Tarcze Brave i prywatność**.
 
 === "iOS"
 
-    Te opcje można znaleźć w :material-menu: → **Ustawienia** → **Tarcze & prywatność**.
+    Te opcje znajdziesz w :fontawesome-solid-ellipsis: → **Ustawienia** → **Tarcze i prywatność**.
 
-####
+#### Domyślne ustawienia Tarcz Brave
 
-Brave zawiera funkcje zapobiegające rozpoznawaniu urządzenia w sekcji [Tarcze](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Zalecamy skonfigurowanie tych ustawień [globalnie](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) pomiędzy wszystkimi stronami, które odwiedzasz.
+Brave posiada pewne zabezpieczenia przed identyfikacją przeglądarki w ramach funkcji [Tarcze](https://support.brave.com/hc/articles/360022973471-What-is-Shields). Zalecamy skonfigurowanie tych ustawień [globalnie](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) – czyli dla wszystkich odwiedzanych stron.
 
-Opcje Tarczy mogą być obniżane w zależności od potrzeb, ale domyślnie zalecamy ustawienie następujących opcji:
+W razie potrzeby można je obniżyć dla poszczególnych witryn, jednak domyślnie zalecamy następującą konfigurację:
 
 === "Android"
 
     <div class="annotate" markdown>
 
-    -
+    - [x] Wybierz **agresywnie** w sekcji *Zablokuj skrypty śledzące i reklamy*
     - [x] Zaznacz **Automatyczne przekierowywanie stron AMP**
     - [x] Zaznacz **Automatycznie przekierowuj śledzące adresy URL**
-    - [x] Zaznacz **Wymagaj, aby wszystkie połączenia używały HTTPS (ścisłe)** w *Aktualizacje HTTPS*
-    - \[x\] (Opcjonalne) Zaznacz **Zablokuj skrypty**
-    - [x] Zaznacz **Blokuj pliki cookie innych firm** w *Zablokuj pliki cookies</li>
+    - [x] Wybierz **Wymagaj, aby wszystkie połączenia używały HTTPS (ścisłe)** w sekcji *Aktualizacje HTTPS*
+    - \[x\] (Opcjonalnie) Zaznacz **Zablokuj skrypty** (1)
+    - [x] Wybierz **Blokuj pliki cookie innych firm** w sekcji *Zablokuj pliki cookies*
     - [x] Zaznacz **Zablokuj rozpoznawanie urządzenia**
     - [x] Zaznacz **Zapobiegaj pobieraniu odcisków palców za pomocą ustawień językowych**
 
     <details class="warning" markdown>
     <summary>Używaj domyślnych list filtrów</summary>
 
-    Brave pozwala wybrać dodatkowe filtry treści w menu **Filtrowanie Treści** lub bezpośrednio przez stronę `brave://adblock`. Nie zalecamy używania tej funkcji, zachowaj domyślne ustawienia list filtrów. Używanie dodatkowych list sprawi, że będziesz się wyróżniał na tle innych użytkowników i może zwiększyć ryzyko ataku powierzchniowego jeśli w Brave znajduje się exploit i złośliwa reguła zostanie dodana do jednej z list, których używasz.
+    Brave umożliwia wybór dodatkowych filtrów treści w menu **Filtrowanie treści** lub na stronie wewnętrznej `brave://adblock`. Odradzamy korzystanie z tej funkcji; zamiast tego pozostaw domyślne listy filtrów. Korzystanie z dodatkowych list może sprawić, że będziesz się wyróżniać na tle innych użytkowników Brave, a także zwiększyć ryzyko ataku, jeśli w Brave pojawi się luka, a do którejś z list zostanie dodana złośliwa reguła.
 
     </details>
 
-    - [x] Zaznacz **Zapomnij po zamknięciu strony**
+    - [x] Zaznacz **Zapomnij po zamknięciu tej strony**
 
-    </div></ul>
+    </div>
 
-    1. Ta opcja wyłącza JavaScript, co może wywołać nie poprawne działanie niektórych witryn. Aby je naprawić, możesz ustawić wyjątki dla poszczególnych witryn klikając na ikonę Tarczy na pasku adresu i odznaczając tą opcję w *Zaawansowane sterowanie*.
+    1. Ta opcja wyłącza JavaScript, co sprawi, że wiele stron przestanie działać prawidłowo. Aby przywrócić ich działanie, możesz dodać wyjątki dla konkretnych stron, stukając ikonę tarczy w pasku adresu i odznaczając tę opcję w sekcji *Zaawansowane sterowanie*.
 
 === "iOS"
 
     <div class="annotate" markdown>
 
-    - [x] Zaznacz **agresywnie** w *Zablokuj skrypty śledzące i reklamy*
-    - [x] Zaznacz **ścisłe** w *Aktualizacje HTTPS*
+    - [x] Wybierz **agresywnie** w sekcji *Blokowanie skryptów śledzących i reklam*
+    - [x] Wybierz **ścisłe** w sekcji *Aktualizacje HTTPS*
     - [x] Zaznacz **Automatyczne przekierowywanie stron AMP**
     - [x] Zaznacz **Automatycznie przekierowuj śledzące adresy URL**
-    - \[x\] (Opcjonalne) Zaznacz **Zablokuj skrypty**
+    - \[x\] (Opcjonalnie) Zaznacz **Zablokuj skrypty** (1)
     - [x] Zaznacz **Zablokuj rozpoznawanie urządzenia**
     - [x] Select **Site Tabs Closed** under *Auto Shred*
 
     <details class="warning" markdown>
     <summary>Używaj domyślnych list filtrów</summary>
 
-    Brave pozwala na wybranie dodatkowych filtrów treści w menu **Filtrowanie Treści**. Odradzamy korzystanie z tej funkcji, zamiast tego zachowaj domyślne ustawienia listy filtrów. Korzystanie z dodatkowych list sprawi, że będziesz wyróżniać się na tle innych użytkowników Brave i również może zwiększyć powierzchnię ataku jeśli w Brave istnieje exploit i złośliwa reguła zostanie dodana do jednej z list, której używasz.
+    Brave umożliwia wybór dodatkowych filtrów treści w menu **Filtrowanie treści**. Odradzamy korzystanie z tej funkcji; zamiast tego pozostaw domyślne listy filtrów. Korzystanie z dodatkowych list może sprawić, że będziesz się wyróżniać na tle innych użytkowników Brave, a także zwiększyć ryzyko ataku, jeśli w Brave pojawi się luka, a do którejś z list zostanie dodana złośliwa reguła.
 
     </details>
 
     </div>
 
-    1. Ta opcja wyłącza JavaScript,  Aby je naprawić, możesz ustawić wyjątki dla poszczególnych witryn klikając na ikonę Tarczy na pasku adresu i odznaczając tą opcję w *Zaawansowane sterowanie*.
+    1. Ta opcja wyłącza JavaScript, co sprawi, że wiele stron przestanie działać prawidłowo. Aby przywrócić ich działanie, możesz dodać wyjątki dla konkretnych stron, stukając ikonę tarczy w pasku adresu i odznaczając tę opcję w sekcji *Zaawansowane sterowanie*.
 
-##### Clear browsing data (Android only)
+##### Wyczyść dane przeglądania (tylko Android)
 
-- [x] Select **Clear data on exit**
+- [x] Zaznacz **Wyczyść dane przy wyjściu**
 
-##### Social Media Blocking (Android only)
+##### Zablokuj sieci społecznościowe (tylko Android)
 
-- [ ] Uncheck all social media components
+- [ ] Odznacz wszystkie komponenty mediów społecznościowych
 
 #### Inne ustawienia prywatności
 

@@ -243,7 +243,7 @@ Arkenfox ma na celu jedynie utrudnienie działania podstawowych lub prostych skr
 
 ![Logo Brave](assets/img/browsers/brave.svg){ align=right }
 
-**Przeglądarka Brave* zawiera wbudowany mechanizm blokowania treści oraz liczne [funkcje prywatności](https://brave.com/privacy-features), z których wiele jest domyślnie włączonych.
+**Przeglądarka Brave** zawiera wbudowany mechanizm blokowania treści oraz liczne [funkcje prywatności](https://brave.com/privacy-features), z których wiele jest domyślnie włączonych.
 
 Oparta jest na projekcie przeglądarki Chromium, dzięki czemu jej interfejs i działanie powinny być dobrze znane większości osób, a problemy ze zgodnością stron internetowych są minimalne.
 
