@@ -71,7 +71,7 @@ schema:
 <div markdown>
 **Privacy Guides** 有一個專門的[社群](https://discuss.privacyguides.net)，獨立審查各種*隱私工具*和服務。 我們的每項建議都符合一套嚴格的標準，以確保能為大多數人提供最大價值，並在隱私、安全性和便利性之間取得最佳平衡。 作為非營利**公共慈善機構**的一部分，Privacy Guides 有嚴格的**新聞標準**和政策，以確保我們的推薦沒有利益衝突，而且我們不與可能影響我們的評論和推薦的供應商或聯盟計劃合作。
 
-[:material-heart:{.pg-red} Support Our Work](about/donate.md){ class="md-button md-button--primary" data-portal="signup" }
+[:material-heart:{.pg-red} 支援我們的工作](about/donate.md){ class="md-button md-button--primary" data-portal="signup" }
 
 </div>
 
@@ -96,13 +96,13 @@ schema:
 
 在 **WIRED**、**Tweakers.net**、**《紐約時報》**及其他許多刊物中，都被視為隱私與安全知識的可靠來源。
 
-[:material-information: More About Who We Are](about.md){ class="md-button" }
+[:material-information: 關於我們是誰的更多資訊](about.md){ class="md-button" }
 
 <div class="grid" markdown>
 <div markdown>
 ## 什麼是隱私工具？
 
-我們建議您使用多種**隱私工具**（又稱爲 *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can use to improve your privacy. 我們推薦的許多工具都是完全免費使用的開放原始碼軟體，而有些則是可供購買的商業服務。 從 Google Chrome 和 Windows 等渴求資料的主流軟體，轉換為 [Brave](desktop-browsers.md#brave) 和 [Linux](desktop.md) 等注重隱私權的工具，對於控制您與公司和其他人分享的資訊有很大幫助。
+我們建議您使用多種**隱私工具**（又稱爲 「隱私應用程式」、「隱私工具」、「隱私軟體」）橫跨軟體與硬體，您可以採用這些軟體與硬體來改善您的隱私。 我們推薦的許多工具都是完全免費使用的開放原始碼軟體，而有些則是可供購買的商業服務。 從 Google Chrome 和 Windows 等渴求資料的主流軟體，轉換為 [Brave](desktop-browsers.md#brave) 和 [Linux](desktop.md) 等注重隱私權的工具，對於控制您與公司和其他人分享的資訊有很大幫助。
 
 [:material-check-all: 我們的通用準則](about/criteria.md){ class="md-button" }
 </div>
@@ -114,6 +114,6 @@ schema:
 
 許多人混淆了隱私權、安全性和匿名性的概念。 舉例來說，您會看到人們批評各種產品「不具隱私性」，但實際上他們的意思是不提供匿名性。 在本網站中，我們涵蓋了所有這三個主題，但重要的是您必須瞭解它們之間的差異，以及每種主題何時會發揮作用。
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
+[:material-movie-open-play-outline: 影片：改善隱私的五個步驟](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 </div>
 </div>
