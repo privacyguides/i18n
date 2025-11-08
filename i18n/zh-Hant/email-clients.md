@@ -141,13 +141,13 @@ Apple Mail 具備在背景載入遠端內容或完全封鎖遠端內容的功能
 
 ![Evolution logo](assets/img/email-clients/evolution.svg){ align=right }
 
-**Evolution** 是個人資訊管理應用程式，提供整合的郵件、行事曆和通訊錄功能。 Evolution 有大量的[說明文件](https://help.gnome.org/users/evolution/stable)，可以幫助您開始使用。
+**Evolution** is a personal information management application that provides integrated mail, calendaring, and address book functionality. Evolution has extensive [documentation](https://gnome.pages.gitlab.gnome.org/evolution/help) to help you get started.
 
-[:octicons-home-16: 首頁](https://wiki.gnome.org/Apps/Evolution){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://wiki.gnome.org/Apps/Evolution/PrivacyPolicy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://help.gnome.org/users/evolution/stable){ .card-link title="說明文件" }
-[:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution){ .card-link title="原始碼" }
-[:octicons-heart-16:](https://gnome.org/donate){ .card-link title="捐款" }
+[:octicons-home-16: Homepage](https://gitlab.gnome.org/GNOME/evolution/-/wikis/home){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://gitlab.gnome.org/GNOME/evolution/-/wikis/Privacy-Policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://gnome.pages.gitlab.gnome.org/evolution/help){ .card-link title="Documentation" }
+[:octicons-code-16:](https://gitlab.gnome.org/GNOME/evolution){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://gnome.org/donate){ .card-link title="Contribute" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>

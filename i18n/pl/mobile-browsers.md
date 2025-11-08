@@ -379,19 +379,19 @@ Tryb przeglądania prywatnego w przeglądarce Safari oferuje dodatkowe mechanizm
 
 Należy jednak pamiętać, że w trybie przeglądania prywatnego nie są zapisywane pliki cookie ani dane witryn, więc nie będzie możliwe pozostawanie zalogowanym na stronach — może to być pewną niedogodnością.
 
-#### iCloud Sync
+#### Synchronizacja iCloud
 
-Synchronization of Safari History, Tab Groups, iCloud Tabs and saved passwords are E2EE. However, by default, bookmarks are [not](https://support.apple.com/HT202303). Apple can decrypt and access them in accordance with their [privacy policy](https://apple.com/legal/privacy/en-ww).
+Synchronizacja historii Safari, grup kart, kart iCloud oraz zapisanych haseł jest chroniona szyfrowaniem E2EE. Jednak domyślnie zakładki [nie są](https://support.apple.com/HT202303) objęte tym zabezpieczeniem — Apple może je odszyfrować i uzyskać do nich dostęp zgodnie ze swoimi [Zasadami ochrony prywatności](https://apple.com/pl/legal/privacy/pl).
 
-You can enable E2EE for your Safari bookmarks and downloads by enabling [Advanced Data Protection](https://support.apple.com/HT212520). Go to :gear: **Settings** → **iCloud** → **Advanced Data Protection**.
+Możesz włączyć szyfrowanie E2EE dla zakładek i pobranych plików w Safari, aktywując funkcję [Zaawansowana ochrona danych](https://support.apple.com/HT212520). Przejdź do :gear: **Ustawienia** → **iCloud** → **Zaawansowana ochrona danych**.
 
-- [x] Turn on **Advanced Data Protection**
+- [x] Włącz **Zaawansowana ochrona danych**
 
-If you use iCloud with Advanced Data Protection disabled, we also recommend setting Safari's default download location to a local folder on your device. This option can be found in :gear: **Settings** → **Apps** → **Safari** → **General** → **Downloads**.
+Jeśli korzystasz z iCloud bez włączonej zaawansowanej ochrony danych, zaleca się ustawienie domyślnej lokalizacji pobierania w Safari na folder lokalny na Twoim urządzeniu. Opcję tę znajdziesz w :gear: **Ustawienia** → **Aplikacje** → **Safari** → **Ogólne** → **Pobrane**.
 
 ## Kryteria
 
-**Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas projektów.** Oprócz [naszych standardowych kryteriów](about/criteria.md) opracowaliśmy jasny zestaw wymagań, które pozwalają nam formułować obiektywne zalecenia. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
 ### Minimum Requirements
 

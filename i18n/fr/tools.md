@@ -142,7 +142,7 @@ Pour avoir plus de détails sur chaque projet, pour savoir pourquoi ils ont ét�
 ## Top 3 des fournisseurs de VPN privés
 
 <details class="danger" markdown>
-<summary>Les VPN ne peuvent pas fournir d'anonymat</summary>
+<summary>Les VPN ne garantissent pas l'anonymat</summary>
 
 L'utilisation d'un VPN ne rendra **pas** votre navigation anonyme et n'ajoutera pas de sécurité supplémentaire à un trafic non sécurisé (HTTP).
 
