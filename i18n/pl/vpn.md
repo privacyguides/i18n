@@ -81,25 +81,25 @@ W styczniu 2020 roku Proton VPN przeszedł niezależny audyt przeprowadzony prze
 
 #### :material-check:{ .pg-green } Oprogramowanie typu open source
 
-Proton VPN udostępnia kod źródłowy ich aplikacji mobilnych i desktopowych na ich  [stronie GitHub](https://github.com/ProtonVPN).
+Proton VPN udostępnia kod źródłowy swoich aplikacji desktopowych i mobilnych w serwisie [GitHub](https://github.com/ProtonVPN).
 
-#### :material-check:{ .pg-green } Przyjmuje Gotówkę
+#### :material-check:{ .pg-green } Akceptuje płatność gotówką
 
-Proton VPN, oprócz akceptowania kart kredytowych/debetowych, PayPal i [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), akceptuje również **gotówkę/walutę lokalną** jako anonimową formę płatności.
+Proton VPN, oprócz kart kredytowych i debetowych, PayPala i [Bitcoina](advanced/payments.md#other-coins-bitcoin-ethereum-etc), akceptuje również **gotówkę/lokalną walutę** jako anonimową formę płatności.
 
-#### :material-check:{ .pg-green } Wsparcie WireGuard
+#### :material-check:{ .pg-green } Obsługa WireGuard
 
-Proton VPN obsługuje protokół WireGuard®. [WireGuard](https://wireguard.com) to nowszy protokół, który wykorzystuje najnowocześniejszą [kryptografię](https://wireguard.com/protocol). Ponadto WireGuard ma być prostszy i bardziej wydajny.
+Proton VPN obsługuje protokół WireGuard®. [WireGuard](https://wireguard.com) to nowszy protokół wykorzystujący nowoczesną [kryptografię](https://wireguard.com/protocol). Ponadto WireGuard został zaprojektowany tak, aby był prostszy i bardziej wydajny.
 
-Proton VPN [zaleca](https://protonvpn.com/blog/wireguard) korzystanie z WireGuard w ramach swojej usługi. Proton VPN oferuje również generator konfiguracji WireGuard do użytku z oficjalnymi aplikacjami WireGuard [](https://wireguard.com/install).
+Proton VPN [zaleca](https://protonvpn.com/blog/wireguard) korzystanie z WireGuard w swojej usłudze. Proton VPN oferuje również generator konfiguracji WireGuard do użycia z oficjalnymi [aplikacjami WireGuard](https://wireguard.com/install).
 
-#### :material-alert-outline:{ .pg-orange } Ograniczone Wsparcie IPv6
+#### :material-alert-outline:{ .pg-orange } Ograniczona obsługa IPv6
 
-Proton [obsługuje teraz IPv6](https://protonvpn.com/support/prevent-ipv6-vpn-leaks) w swojej wtyczce przeglądarkowej i aplikacji Linux, ale tylko 80% ich serwerów jest kompatybilnych z IPv6. Na innych platformach klient Proton VPN zablokuje cały wychodzący ruch IPv6, więc nie musisz się martwić, że Twój adres IPv6 wycieknie, ale nie będziesz mógł połączyć się z żadnymi witrynami obsługującymi tylko IPv6, ani nie będziesz mógł połączyć się z Proton VPN z sieci obsługującej tylko IPv6.
+Proton [obsługuje teraz IPv6](https://protonvpn.com/support/pl/prevent-ipv6-vpn-leaks) w rozszerzeniu do przeglądarki i aplikacji na Linuksa, ale tylko 80% ich serwerów jest kompatybilnych z IPv6. Na innych platformach klient Proton VPN blokuje cały wychodzący ruch IPv6, dzięki czemu nie musisz obawiać się wycieku swojego adresu IPv6, ale nie będziesz mógł łączyć się z witrynami działającymi wyłącznie w IPv6 ani korzystać z Proton VPN w sieci obsługującej tylko IPv6.
 
-#### :material-information-outline:{ .pg-info } Zdalne Przekierowanie Portów
+#### :material-information-outline:{ .pg-info } Zdalne przekierowanie portów
 
-Proton VPN obsługuje obecnie tylko efemeryczne zdalne [przekierowanie portów](https://protonvpn.com/support/port-forwarding) za pośrednictwem NAT-PMP,  z 60-sekundowym czasem dzierżawy. Oficjalne aplikacje dla systemów Windows i Linux zapewniają łatwy dostęp do tej opcji, podczas gdy w innych systemach operacyjnych konieczne będzie uruchomienie własnego [klienta NAT-PMP](https://protonvpn.com/support/port-forwarding-manual-setup). Aplikacje torrentowe często natywnie obsługują NAT-PMP.
+Proton VPN obecnie obsługuje jedynie efemeryczne zdalne [przekierowanie portów](https://protonvpn.com/support/pl/port-forwarding) poprzez NAT-PMP, z 60-sekundowym czasem dzierżawy. Oficjalne aplikacje dla systemów Windows i Linux oferują łatwo dostępne opcje konfiguracji, natomiast na innych systemach operacyjnych konieczne jest uruchomienie własnego [klienta NAT-PMP](https://protonvpn.com/support/pl/port-forwarding-manual-setup). Aplikacje do torrentów często obsługują NAT-PMP natywnie.
 
 #### :material-information-outline:{ .pg-blue } Anty-Cenzura
 
