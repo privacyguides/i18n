@@ -73,7 +73,7 @@ Brave 基於 Chromium 瀏覽器專案構建，因此使用起來應該會感到�
 [:octicons-code-16:](https://github.com/brave/brave-browser){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=com.brave.browser)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1052879175)
@@ -138,7 +138,7 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
     - [x] 勾選 **自動重新導向追蹤 URL**
     - \[x\] (選擇性) 勾選 **封鎖指令碼** (1)
     - [x] 勾選 **封鎖指紋識別**
-    - [x] Select **Site Tabs Closed** under *Auto Shred*
+    - [x] 在*自動銷毀*下選取**已關閉的網站分頁**
 
     <details class="warning" markdown>
     <summary>使用預設篩選清單</summary>
@@ -168,7 +168,7 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
     - [x] 將 [*WebRTC IP 處理政策*](https://support.brave.com/hc/articles/360017989132-How-do-I-change-my-Privacy-Settings#webrtc) 設定為 **停用非代理 UDP**
     - [x] （可選） 將 *安全瀏覽* 設定為 **無防護** (1)
     - [ ] 取消勾選 **允許網站檢查是否有已儲存的付款方式**
-    - [ ] Uncheck **Javascript optimization & security** under the setting with the same name
+    - [ ] 取消勾選同名設定下的 **Javascript 最佳化與安全性**
     - [x] 勾選 **退出時關閉分頁**
     - [ ] 取消勾選 **允許保護私隱的產品分析 (P3A)**
     - [ ] 取消勾選 **自動傳送診斷報告**
@@ -213,13 +213,13 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
 
 **Cromite** 是一個基於 Chromium 的瀏覽器，內建廣告封鎖、指紋保護及其他[隱私與安全強化功能](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md)。 它是已停止維護的 **Bromite** 瀏覽器之分支。
 
-[:octicons-home-16: Homepage](https://cromite.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Source Code" }
+[:octicons-home-16: 首頁](https://cromite.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="原始碼" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>下載</summary>
 
 - [:simple-android: F-Droid](https://cromite.org/fdroid/repo/?fingerprint=49F37E74DEE483DCA2B991334FB5A0200787430D0B5F9A783DD5F13695E9517B)
 - [:simple-github: GitHub](https://github.com/uazo/cromite/releases/latest)
@@ -232,7 +232,7 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
 
 這些選項可以在 :material-menu: → :gear: **設定** → **隱私權和安全性** 中找到。
 
-#### Browsing data
+#### 瀏覽資料
 
 - [x] 勾選 **Close all open tabs on exit**
 
@@ -246,11 +246,11 @@ Brave 的[防護 (Shields)](https://support.brave.com/hc/articles/360022973471-W
 
 這可以防止您無意間以明文 HTTP 連線到網站。 如今，僅支援 HTTP 的網站已不多見，因此這對您日常瀏覽的影響幾乎沒有影響。
 
-#### Adblock Plus settings
+#### Adblock Plus 設定
 
 這些選項可以在 :material-menu: → :gear: **設定** → **Adblock Plus settings** 中找到。
 
-Cromite contains a customized version of Adblock Plus with EasyList enabled by default, as well as options to select more filter lists within the **Filter lists** menu.
+Cromite 包含 Adblock Plus 的客製化版本，預設啟用 EasyList，您也可以在**過濾規則清單**選單中選取更多過濾規則清單。
 
 使用額外的清單將使您從其他 Cromite 使用者中脫穎而出，並且如果瀏覽器存在漏洞，而您使用的清單之一被加入了惡意規則，也可能會增加攻擊面。
 
@@ -258,7 +258,7 @@ Cromite contains a customized version of Adblock Plus with EasyList enabled by d
 
 此設定會新增額外的 Adblock Plus 清單，可能會提高 Cromite 封鎖內容的效能。 關於從其他使用者中脫穎而出和潛在增加攻擊面的警告仍然適用。
 
-#### Legacy Adblock settings
+#### 舊版 Adblock 設定
 
 這些選項可以在 :material-menu: → :gear: **設定** → **Legacy Adblock settings** 中找到。
 
