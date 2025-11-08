@@ -268,13 +268,13 @@ Cromite 包含 Adblock Plus 的客製化版本，預設啟用 EasyList，您也�
 
 ## Safari (iOS)
 
-On iOS, any app that can browse the web is [restricted](https://developer.apple.com/app-store/review/guidelines) to using an Apple-provided [WebKit framework](https://developer.apple.com/documentation/webkit), so a browser like [Brave](#brave) does not use the Blink engine (the core component of Chromium) like its counterparts on other operating systems.
+在 iOS 上，任何可以瀏覽網頁的應用程式都[只能](https://developer.apple.com/app-store/review/guidelines)使用 Apple 提供的 [WebKit 框架](https://developer.apple.com/documentation/webkit)，因此 [Brave](#brave) 這類瀏覽器無法像其他作業系統一樣使用 Blink 引擎（Chromium 的核心元件）。
 
 <div class="admonition recommendation" markdown>
 
 ![Safari 標誌](assets/img/browsers/safari.svg){ align=right }
 
-**Safari** 是 iOS 的預設瀏覽器。 It includes [privacy features](https://support.apple.com/guide/iphone/browse-the-web-privately-iphb01fc3c85/ios) such as [Intelligent Tracking Prevention](https://webkit.org/blog/7675/intelligent-tracking-prevention), isolated and ephemeral Private Browsing tabs, fingerprinting protection (by presenting a simplified version of the system configuration to websites, so more devices look identical), and fingerprint randomization, as well as Private Relay for those with a paid iCloud+ subscription.
+**Safari** 是 iOS 的預設瀏覽器。 其包含了多種[隱私功能](https://support.apple.com/zh-tw/guide/iphone/iphb01fc3c85/ios)，例如[智慧追蹤預防](https://webkit.org/blog/7675/intelligent-tracking-prevention)、隱私報告、受隔離且短暫的私密瀏覽標籤、指紋保護（透過向網站呈現簡化版的系統組態，讓更多裝置看起來完全相同），以及指紋隨機化，並針對已付費訂閱 iCloud+ 的使用者提供私密轉送功能。
 
 [:octicons-home-16: 首頁](https://www.apple.com/tw/safari/){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://www.apple.com/tw/legal/privacy/data/zh-tw/safari/){ .card-link title="隱私權政策" }
@@ -323,9 +323,9 @@ Safari 可以使用不同的主題類別來分隔您的瀏覽。 您的所有 Co
 
 此設定使用 Google 安全瀏覽功能 (中國大陸或香港的使用者則使用騰訊安全瀏覽) 在瀏覽時保護你的安全。 因此，您的 IP 位址可能會被安全瀏覽功能供應商記錄下來。 停用此設定可以防止被記錄，但也可能會更容易受到已知釣魚網站的攻擊。
 
-- [x] Enable **Not Secure Connection Warning**
+- [x] 啟用**不安全連線警告**
 
-This setting shows a warning screen if your connection to a website isn't using HTTPS. Safari will automatically try to upgrade the site to HTTPS, so you should only see this when there is no HTTPS connection available.
+此設定會在您連線到不是使用 HTTPS 的網站時顯示警告畫面。 Safari 會自動嘗試將網站升級至 HTTPS，因此您僅會在無法建立 HTTPS 連線時看到此提示。
 
 - [ ] 停用 **Highlights**
 
@@ -373,7 +373,7 @@ Apple 的 Safari 隱私權政策規定：
 
 - [x] 選擇 **私密瀏覽**
 
-Safari 的私密瀏覽模式提供額外的隱私保護。 私密瀏覽為每個分頁使用新的[短暫](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral)工作階段，這意味著各個分頁之間是隔離的。 There are other smaller privacy benefits with Private Browsing too, such as not sending a webpage’s address to Apple when using Safari's translation feature.
+Safari 的私密瀏覽模式提供額外的隱私保護。 私密瀏覽為每個分頁使用新的[短暫](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral)工作階段，這意味著各個分頁之間是隔離的。 隱私瀏覽還有其他較小的隱私優勢，例如在使用 Safari 的翻譯功能時，不會將網頁位址傳送給 Apple。
 
 要注意的是，私密瀏覽不會保存 Cookies 和網站資料，因此無法保持登入狀態。 這可能會帶來不便。
 
