@@ -256,7 +256,7 @@ Tuta oferuje wersję biznesową swojej usługi [organizacjom non-profit](https:/
 
 ## Kryteria
 
-**Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas dostawców.** Oprócz [naszych standardowych kryteriów](about/criteria.md) opracowaliśmy jasny zestaw wymagań, które musi spełniać każdy dostawca usług e-mail, aby mógł być przez nas polecany — obejmują one wdrożenie najlepszych praktyk branżowych, nowoczesnych technologii i nie tylko. Zalecamy zapoznanie się z tą listą przed wyborem dostawcy poczty e-mail i przeprowadzenie własnych badań, aby upewnić się, że wybrany dostawca będzie dla Ciebie odpowiedni.
+**Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas dostawców.** Oprócz [naszych standardowych kryteriów](about/criteria.md) opracowaliśmy jasny zestaw wymagań, które musi spełniać każdy dostawca usług e-mail, aby mógł być przez nas polecany — obejmują one wdrożenie najlepszych praktyk branżowych, nowoczesnych technologii i nie tylko. Sugerujemy zapoznanie się z tą listą przed wyborem dostawcy poczty e-mail i przeprowadzenie własnych badań, aby upewnić się, że wybrany dostawca będzie dla Ciebie odpowiedni.
 
 ### Technologia
 

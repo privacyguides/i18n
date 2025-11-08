@@ -391,11 +391,11 @@ Jeśli korzystasz z iCloud bez włączonej zaawansowanej ochrony danych, zaleca 
 
 ## Kryteria
 
-**Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas projektów.** Oprócz [naszych standardowych kryteriów](about/criteria.md) opracowaliśmy jasny zestaw wymagań, które pozwalają nam formułować obiektywne zalecenia. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
+**Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas projektów.** Oprócz [naszych standardowych kryteriów](about/criteria.md) opracowaliśmy jasny zestaw wymagań, które pozwalają nam formułować obiektywne zalecenia. Sugerujemy zapoznanie się z tą listą przed wyborem projektu oraz przeprowadzenie własnych badań, aby upewnić się, że jest to odpowiedni wybór dla Ciebie.
 
-### Minimum Requirements
+### Minimalne wymagania
 
-- Must support automatic updates.
-- Must receive engine updates from upstream releases quickly.
-- Must support content blocking.
-- Any changes required to make the browser more privacy-respecting should not negatively impact user experience.
+- Musi obsługiwać automatyczne aktualizacje.
+- Musi szybko otrzymywać aktualizacje silnika z wersji nadrzędnych (upstream).
+- Musi obsługiwać blokowanie treści.
+- Wszelkie zmiany mające na celu zwiększenie prywatności nie mogą pogarszać komfortu użytkowania.

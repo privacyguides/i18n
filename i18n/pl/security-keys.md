@@ -111,7 +111,7 @@ Excluding the Nitrokey 3, Nitrokeys which support HOTP and TOTP do not have encr
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-### Minimum Requirements
+### Minimalne wymagania
 
 - Must use high-quality, tamper-resistant hardware security modules.
 - Must support the latest FIDO2 specification.

@@ -173,7 +173,7 @@ The client software was independently [audited](https://briarproject.org/news/20
 
 **Please note we are not affiliated with any of the projects we recommend.** In addition to [our standard criteria](about/criteria.md), we have developed a clear set of requirements to allow us to provide objective recommendations. We suggest you familiarize yourself with this list before choosing to use a project, and conduct your own research to ensure it's the right choice for you.
 
-### Minimum Requirements
+### Minimalne wymagania
 
 - Must have open-source clients.
 - Must not require sharing personal identifiers (particularly phone numbers or emails) with contacts.
