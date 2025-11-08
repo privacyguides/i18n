@@ -147,7 +147,7 @@ Using a VPN will **not** keep your browsing habits anonymous, nor will it add ad
 
 If you are looking for **anonymity**, you should use the Tor Browser.
 
-If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.
+If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. VPN nie zastępuje dobrych praktyk w zakresie bezpieczeństwa.
 
 [Dowiedz się więcej :hero-arrow-circle-right-fill:](vpn.md)
 

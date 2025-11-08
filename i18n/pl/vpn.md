@@ -1,8 +1,8 @@
 ---
-meta_title: "Rekomendacje i porównanie prywatnych usług VPN, bez sponsorów i reklam - Privacy Guides"
+meta_title: "Zalecenia i porównanie prywatnych usług VPN, bez sponsorów i reklam – Privacy Guides"
 title: "Usługi VPN"
 icon: material/vpn
-description: Najlepsze usługi VPN do ochrony prywatności i bezpieczeństwa w Internecie. Znajdź tutaj dostawcę, który nie jest po to, żeby Cię szpiegować.
+description: Najlepsze usługi VPN chroniące Twoją prywatność i bezpieczeństwo w sieci. Znajdź dostawcę, który nie śledzi tego, co robisz.
 cover: vpn.webp
 global:
   - 
@@ -14,16 +14,16 @@ global:
 
 - [:material-account-cash: Kapitalizm inwigilacji](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-Jeśli szukasz dodatkowej *prywatności* od swojego dostawcy usług internetowych, w publicznej sieci Wi-Fi lub podczas torrentowania plików, **VPN** może być rozwiązaniem dla Ciebie.
+Jeżeli chcesz zwiększyć swoją *prywatność* wobec dostawcy Internetu, podczas korzystania z publicznej sieci Wi-Fi lub przy pobieraniu plików z torrentów, **VPN** może być rozwiązaniem dla Ciebie.
 
 <div class="admonition danger" markdown>
 <p class="admonition-title">VPN nie zapewnia anonimowości</p>
 
-Korzystanie z VPN **nie** zachowuje anonimowość Twoich nawyków przeglądania, ani nie zwiększy bezpieczeństwa niezabezpieczonego ruchu (HTTP).
+Korzystanie z VPN **nie** uczyni Twojej aktywności w sieci anonimową ani nie zwiększy bezpieczeństwa niezabezpieczonego ruchu (HTTP).
 
-Jeśli szukasz **anonimowości**, powinieneś korzystać z przeglądarki Tor. Jeśli szukasz dodatkowego **bezpieczeństwa**, powinieneś zawsze upewnić się, że łączysz się ze stronami internetowymi za pomocą HTTPS. VPN nie zastępuje dobrych praktyk w zakresie bezpieczeństwa.
+Jeśli zależy Ci na **anonimowości**, skorzystaj z przeglądarki Tor Browser. Jeśli zależy Ci na dodatkowym **bezpieczeństwie**, zawsze upewnij się, że łączysz się z witrynami za pomocą HTTPS. VPN nie zastępuje dobrych praktyk w zakresie bezpieczeństwa.
 
-[Pobierz Tor](https://torproject.org){ .md-button .md-button--primary } [Mity Tor & FAQ](advanced/tor-overview.md){ .md-button }
+[Pobierz Tor Browser](https://torproject.org){ .md-button .md-button--primary } [Mity dot. sieci Tor i FAQ](advanced/tor-overview.md){ .md-button }
 
 </div>
 
@@ -31,13 +31,13 @@ Jeśli szukasz **anonimowości**, powinieneś korzystać z przeglądarki Tor. Je
 
 ## Zalecani dostawcy
 
-Polecani przez nas dostawcy stosują szyfrowanie, obsługują WireGuard & OpenVPN i stosują politykę braku logów. Przeczytaj naszą [pełną listę kryteriów](#criteria), aby uzyskać więcej informacji.
+Zalecani przez nas dostawcy stosują szyfrowanie, obsługują WireGuard i OpenVPN oraz mają politykę braku logów. Szczegóły znajdziesz w naszej [pełnej liście kryteriów](#criteria).
 
-| Dostawca              | Kraje | WireGuard                     | Przekazywanie portów                                      | IPv6                                                            | Anonimowe płatności |
+| Dostawca              | Kraje | WireGuard                     | Przekierowanie portów                                     | IPv6                                                            | Płatności anonimowe |
 | --------------------- | ----- | ----------------------------- | --------------------------------------------------------- | --------------------------------------------------------------- | ------------------- |
 | [Proton](#proton-vpn) | 127+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Częściowe wsparcie | :material-information-outline:{ .pg-blue } Ograniczone wsparcie | Gotówka             |
-| [IVPN](#ivpn)         | 41+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                    | :material-information-outline:{ .pg-blue } Tylko wychodzące     | Monero, Gotówka     |
-| [Mullvad](#mullvad)   | 49+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                    | :material-check:{ .pg-green }                                   | Monero, Gotówka     |
+| [IVPN](#ivpn)         | 41+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                    | :material-information-outline:{ .pg-blue } Tylko wychodzące     | Monero i gotówka    |
+| [Mullvad](#mullvad)   | 49+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                    | :material-check:{ .pg-green }                                   | Monero i gotówka    |
 
 ### Proton VPN
 
@@ -45,11 +45,11 @@ Polecani przez nas dostawcy stosują szyfrowanie, obsługują WireGuard & OpenVP
 
 ![Logo Proton VPN](assets/img/vpn/protonvpn.svg){ align=right }
 
-**Proton VPN** jest silnym konkurentem w przestrzeni VPN i działa od 2016 roku. Proton AG ma siedzibę w Szwajcarii i oferuje ograniczony bezpłatny plan, a także bardziej funkcjonalną opcję premium.
+**Proton VPN** to mocny gracz na rynku VPN, działający od 2016 roku. Firma Proton AG ma siedzibę w Szwajcarii i oferuje zarówno ograniczoną darmową wersję, jak i pełniejszą wersję premium.
 
-[:octicons-home-16: Strona główna](https://protonvpn.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Polityka prywatności" }
-[:octicons-info-16:](https://protonvpn.com/support){ .card-link title="Dokumentacja"}
+[:octicons-home-16: Strona główna](https://protonvpn.com/pl){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://protonvpn.com/pl/privacy-policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://protonvpn.com/support/pl){ .card-link title="Dokumentacja"}
 [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
@@ -65,21 +65,21 @@ Polecani przez nas dostawcy stosują szyfrowanie, obsługują WireGuard & OpenVP
 
 </div>
 
-#### :material-check:{ .pg-green } 127 Countries
+#### :material-check:{ .pg-green } 127 krajów
 
-Proton VPN has [servers in 127 countries](https://protonvpn.com/vpn-servers)(1) or [10](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/blog/product-roadmap-winter-2025-2026).(2) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Wynika to z krótszej trasy (mniej przeskoków) do miejsca docelowego.
+Proton VPN posiada [serwery w 127 krajach](https://protonvpn.com/pl/vpn-servers)(1) lub [10](https://protonvpn.com/support/pl/how-to-create-free-vpn-account), jeśli korzystasz z [darmowego planu](https://protonvpn.com/blog/pl/product-roadmap-winter-2025-2026).(2) Wybór dostawcy VPN z serwerem znajdującym się najbliżej Ciebie zmniejsza opóźnienia przesyłanych danych, ponieważ trasa do celu jest krótsza (mniej „przeskoków”).
 { .annotate }
 
-1. Of which at least 71 are virtual servers, meaning your IP will appear from the country but the server is in another. 12 more locations have both hardware and virtual servers. [Source](https://protonvpn.com/support/how-smart-routing-works)
-2. Last checked: 2025-10-28
+1. Co najmniej 71 z nich to serwery wirtualne, co oznacza, że Twój adres IP będzie wskazywał dany kraj, ale serwer znajduje się tak naprawdę w innym. Dodatkowo 12 lokalizacji oferuje zarówno serwery fizyczne, jak i wirtualne. [Źródło](https://protonvpn.com/support/pl/how-smart-routing-works)
+2. Stan na dzień: 28.10.2025
 
-Uważamy również, że lepiej jest dla bezpieczeństwa kluczy prywatnych dostawcy VPN, jeśli korzysta on z [dedykowanych serwerów](https://en.wikipedia.org/wiki/Dedicated_hosting_service), zamiast tańszych rozwiązań współdzielonych (z innymi klientami), takich jak [wirtualne serwery prywatne](https://en.wikipedia.org/wiki/Virtual_private_server).
+Uważamy też, że dla bezpieczeństwa kluczy prywatnych dostawcy VPN lepiej jest stosować [serwery dedykowane](https://en.wikipedia.org/wiki/Dedicated_hosting_service), zamiast tańszych rozwiązań współdzielonych z innymi klientami, takich jak [wirtualne serwery prywatne (VPS)](https://pl.wikipedia.org/wiki/Virtual_private_serverr).
 
-#### :material-check:{ .pg-green } Niezależny Audyt
+#### :material-check:{ .pg-green } Niezależnie audytowany
 
-W styczniu 2020 r. Proton VPN przeszedł niezależny audyt przeprowadzony przez SEC Consult. SEC Consult znalazł kilka luk średniego i niskiego ryzyka w aplikacjach Proton VPN dla systemów Windows, Android i iOS, z których wszystkie zostały "odpowiednio naprawione" przez Proton VPN przed opublikowaniem raportów. Żaden ze zidentyfikowanych błędów nie zapewniłby atakującemu zdalnego dostępu do urządzenia lub ruchu. Poszczególne raporty dla każdej platformy można wyświetlić na stronie [protonvpn.com.](https://protonvpn.com/blog/open-source) W kwietniu 2022 roku Proton VPN przeszedł [kolejny audyt](https://protonvpn.com/blog/no-logs-audit). [List atestacyjny](https://proton.me/blog/security-audit-all-proton-apps) został dostarczony dla aplikacji Proton VPN 9 listopada 2021 r. przez [Securitum](https://research.securitum.com).
+W styczniu 2020 roku Proton VPN przeszedł niezależny audyt przeprowadzony przez SEC Consult. Audyt wykazał kilka luk o średnim i niskim ryzyku w aplikacjach Proton VPN dla systemów Windows, Android i iOS, które zostały „należycie naprawione” przez Proton VPN przed publikacją raportów. Żaden ze znalezionych problemów nie mógł umożliwić atakującemu zdalnego dostępu do Twojego urządzenia ani ruchu sieciowego. Poszczególne raporty dla każdej platformy można zobaczyć na stronie [protonvpn.com](https://protonvpn.com/blog/open-source). W kwietniu 2022 roku Proton VPN przeszedł [kolejny audyt](https://protonvpn.com/blog/pl/no-logs-audit). [Raport potwierdzający bezpieczeństwo](https://proton.me/pl/blog/security-audit-all-proton-apps) aplikacji Proton VPN został wydany 9 listopada 2021 roku przez firmę [Securitum](https://research.securitum.com).
 
-#### :material-check:{ .pg-green } Klienci Open-Source
+#### :material-check:{ .pg-green } Oprogramowanie typu open source
 
 Proton VPN udostępnia kod źródłowy ich aplikacji mobilnych i desktopowych na ich  [stronie GitHub](https://github.com/ProtonVPN).
 
@@ -161,7 +161,7 @@ Podczas korzystania z funkcji Kill Switch VPN na komputerach Mac z procesorami I
 IVPN has [servers in 41 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Wynika to z krótszej trasy (mniej przeskoków) do miejsca docelowego.
 { .annotate }
 
-1. Last checked: 2025-10-28
+1. Stan na dzień: 28.10.2025
 
 Uważamy również, że lepiej jest dla bezpieczeństwa kluczy prywatnych dostawcy VPN, jeśli korzysta on z [dedykowanych serwerów](https://en.wikipedia.org/wiki/Dedicated_hosting_service), zamiast tańszych rozwiązań współdzielonych (z innymi klientami), takich jak [wirtualne serwery prywatne](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -236,7 +236,7 @@ Klienci IVPN obsługują uwierzytelnianie dwuskładnikowe. IVPN zapewnia równie
 Mullvad posiada [serwery w 49 krajach](https://mullvad.net/servers).(1) Wybór dostawcy VPN z serwerem znajdującym się najbliżej użytkownika zmniejszy opóźnienia w przesyłanym ruchu sieciowym. Wynika to z krótszej trasy (mniej przeskoków) do miejsca docelowego.
 { .annotate }
 
-1. Last checked: 2025-10-28
+1. Stan na dzień: 28.10.2025
 
 Uważamy również, że lepiej jest dla bezpieczeństwa kluczy prywatnych dostawcy VPN, jeśli korzysta on z [dedykowanych serwerów](https://en.wikipedia.org/wiki/Dedicated_hosting_service), zamiast tańszych rozwiązań współdzielonych (z innymi klientami), takich jak [wirtualne serwery prywatne](https://en.wikipedia.org/wiki/Virtual_private_server).
 
