@@ -111,12 +111,6 @@ Modifications other than adjusting this setting would make your fingerprint uniq
 
 Αυτό είναι απαραίτητο για την αποτροπή προηγμένων μορφών εντοπισμού, αλλά έχει ως κόστος την ευκολία και ορισμένες λειτουργίες του Firefox, όπως τα Multi-Account Containers. Θυμηθείτε ότι μπορείτε πάντα να χρησιμοποιείτε πολλαπλά προγράμματα περιήγησης, για παράδειγμα, μπορείτε να χρησιμοποιήσετε το Firefox+Arkenfox για μερικούς ιστότοπους, στους οποίους επιθυμείται να παραμείνετε συνδεδεμένοι ή οι οποίοι δεν λειτουργούν σωστά στο περιηγήτη Mullvad, και το περιηγητή Mullvad για γενική περιήγηση.
 
-### Mullvad Leta
-
-Mullvad Browser comes with [**Mullvad Leta**](search-engines.md#mullvad-leta) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
-
-If you are a Mullvad VPN user, there is some risk in using services like Mullvad Leta which are offered by your VPN provider themselves. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta); the latter is information a VPN is typically intended to separate. Even though Mullvad collects very little information about their VPN subscribers or Leta users, you should consider a different [search engine](search-engines.md) if this risk concerns you.
-
 ## Firefox
 
 <div class="admonition recommendation" markdown>

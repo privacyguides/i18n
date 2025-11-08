@@ -35,8 +35,8 @@ VPNを使用しても、ブラウジング傾向を匿名化したり、安全�
 
 | プロバイダー                | サーバーロケーション国数 | WireGuard                     | ポートフォワーディング                                 | IPv6                                                       | 匿名での支払い   |
 | --------------------- | ------------ | ----------------------------- | ------------------------------------------- | ---------------------------------------------------------- | --------- |
-| [Proton](#proton-vpn) | 112以上        | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } 一部対応 | :material-information-outline:{ .pg-blue } 制限あり            | 現金        |
-| [IVPN](#ivpn)         | 37以上         | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-information-outline:{ .pg-blue } アウトバウンドトラフィックのみ | Monero、現金 |
+| [Proton](#proton-vpn) | 127+         | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } 一部対応 | :material-information-outline:{ .pg-blue } 制限あり            | 現金        |
+| [IVPN](#ivpn)         | 41+          | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-information-outline:{ .pg-blue } アウトバウンドトラフィックのみ | Monero、現金 |
 | [Mullvad](#mullvad)   | 49以上         | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-check:{ .pg-green }                              | Monero、現金 |
 
 ### Proton VPN
@@ -66,12 +66,13 @@ VPNを使用しても、ブラウジング傾向を匿名化したり、安全�
 
 </div>
 
-#### :material-check:{ .pg-green } 112カ国
+#### :material-check:{ .pg-green } 127 Countries
 
-Proton VPNは[112カ国にサーバーを設置しています](https://protonvpn.com/vpn-servers)。[free plan](https://protonvpn.com/free-vpn/server)は[5カ国](https://protonvpn.com/support/how-to-create-free-vpn-account)のみです。(1) VPNプロバイダーの最も近いサーバーを選ぶことで、ネットワークトラフィックのレイテンシーを小さくすることができます。 これは目的地までのルートが短い(ホップが少ない) ことによります。
+Proton VPN has [servers in 127 countries](https://protonvpn.com/vpn-servers)(1) or [10](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/blog/product-roadmap-winter-2025-2026).(2) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. これは目的地までのルートが短い(ホップが少ない) ことによります。
 { .annotate }
 
-1. 最終確認：2024-08-06
+1. Of which at least 71 are virtual servers, meaning your IP will appear from the country but the server is in another. 12 more locations have both hardware and virtual servers. [Source](https://protonvpn.com/support/how-smart-routing-works)
+2. Last checked: 2025-10-28
 
 また、VPNプロバイダの秘密鍵のセキュリティを考えると、できれば[バーチャルプライベートサーバー](https://en.wikipedia.org/wiki/Virtual_private_server)のような安価な(他の顧客との)共有ソリューションではなく[専用サーバー](https://en.wikipedia.org/wiki/Dedicated_hosting_service)を使用したほうがいいと考えています。
 
@@ -156,12 +157,12 @@ VPNキルスイッチを使っている際、システムクラッシュが[発�
 
 </div>
 
-#### :material-check:{ .pg-green } 37カ国
+#### :material-check:{ .pg-green } 41 Countries
 
-IVPNは[37カ国にサーバー](https://ivpn.net/status)を設置しています。(1) VPNプロバイダーの最も近いサーバーを選ぶことで、ネットワークトラフィックのレイテンシーを小さくすることができます。 これは目的地までのルートが短い(ホップが少ない) ことによります。
+IVPN has [servers in 41 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. これは目的地までのルートが短い(ホップが少ない) ことによります。
 { .annotate }
 
-1. 最終確認：2024-08-06
+1. Last checked: 2025-10-28
 
 また、VPNプロバイダの秘密鍵のセキュリティを考えると、できれば[バーチャルプライベートサーバー](https://en.wikipedia.org/wiki/Virtual_private_server)のような安価な(他の顧客との)共有ソリューションではなく[専用サーバー](https://en.wikipedia.org/wiki/Dedicated_hosting_service)を使用したほうがいいと考えています。
 
@@ -236,7 +237,7 @@ IVPNのクライアントは二要素認証に対応しています。 また、
 Mullvadは[49カ国にサーバー](https://mullvad.net/servers)を設置しています。(1) VPNプロバイダーの最も近いサーバーを選ぶことで、ネットワークトラフィックのレイテンシーを小さくすることができます。 これは目的地までのルートが短い(ホップが少ない) ことによります。
 { .annotate }
 
-1. 最終確認：2025-03-10
+1. Last checked: 2025-10-28
 
 また、VPNプロバイダの秘密鍵のセキュリティを考えると、できれば[バーチャルプライベートサーバー](https://en.wikipedia.org/wiki/Virtual_private_server)のような安価な(他の顧客との)共有ソリューションではなく[専用サーバー](https://en.wikipedia.org/wiki/Dedicated_hosting_service)を使用したほうがいいと考えています。
 
@@ -256,7 +257,7 @@ Mullvadはクレジット・デビットカードやPayPalでの支払いに加�
 
 MullvadはWireGuard®️プロトコルをサポートしています。 [Wireguard](https://wireguard.com)は最先端の[暗号化技術](https://wireguard.com/protocol)を用いた新しいプロトコルです。 加えて、WireGuardはよりシンプルかつより高性能であることを目指しています。
 
-MullvadはWireGuardを用いることを[推奨](https://mullvad.net/en/help/why-wireguard)しています。 Android、iOS、macOSとLinuxアプリではデフォルトもしくは利用できる唯一のプロトコルですが、WindowsではWireGuardを[手動で有効にする](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app)必要があります。 また、公式のWireGuard[アプリ](https://wireguard.com/install)で使用するWireGuard設定を作成できます。
+MullvadはWireGuardを用いることを[推奨](https://mullvad.net/en/help/why-wireguard)しています。 It is the only protocol supported on their mobile apps, and their desktop apps will [lose OpenVPN support](https://mullvad.net/en/blog/reminder-that-openvpn-is-being-removed) in 2025. Additionally, their servers will stop accepting OpenVPN connections by January 15, 2026. また、公式のWireGuard[アプリ](https://wireguard.com/install)で使用するWireGuard設定を作成できます。
 
 #### :material-check:{ .pg-green } IPv6のサポート
 

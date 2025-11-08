@@ -111,12 +111,6 @@ Mullvad Browserは常にプライベートブラウジングモードで動作�
 
 これは、高度な形式のトラッキングを防ぐために必要ですが、これによって利便性が減少したり、Firefoxの一部の機能（例えば、Multi-Account Containersなど）が使えなくなったりします。 常に複数のブラウザを使用できることを覚えておいてください。たとえば、ログインしたままにしたいサイトや、Mullvad Browserでは正しく動作しないサイトについては Firefox + Arkenfox を使い、一般的なブラウジングには Mullvad Browserを使うといった方法が考えられます。
 
-### Mullvad Leta
-
-Mullvad Browserでは [**Mullvad Leta**](search-engines.md#mullvad-leta) が標準の検索エンジンになっています。Mullvad LetaはGoogleもしくはBrave（Mullvad Letaのウェブページで設定可能）で検索するプロキシの役割を果たします。
-
-もしMullvad VPNのユーザーであるなら、Mullvad LetaのようなVPNプロバイダーが提供するサービスを利用することは一定程度のリスクが生じます。 Mullvadは（VPN経由で）利用している本当のIPアドレスと（Leta経由での）検索アクティビティに理論上はアクセスできてしまいます。後者は本来VPNが分離しようとしている情報です。 MullvadはMullvad VPNの利用者やMullvad Letaの利用者からはほとんど情報を収集しませんが、そのようなリスクについて懸念があるならば、別の[検索エンジン](search-engines.md)の利用を検討すべきです。
-
 ## Firefox
 
 <div class="admonition recommendation" markdown>

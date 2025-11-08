@@ -51,14 +51,14 @@ Calendari multipli e funzioni estese di condivisione sono limitate agli abbonati
 
 ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
 
-**Proton Calendar** è un servizio di calendario crittografato disponibile per i membri Proton, tramite web o client mobile. Le caratteristiche includono E2EE automatica di tutti i dati, funzioni di condivisione, importazione/esportazione e [altro](https://proton.me/support/proton-calendar-guide).
+**Proton Calendar** is an encrypted calendar service available to Proton members via its web or mobile clients. Le caratteristiche includono E2EE automatica di tutti i dati, funzioni di condivisione, importazione/esportazione e [altro](https://proton.me/support/proton-calendar-guide).
 
 Gli utenti con il piano gratuito hanno accesso a 3 calendari, mentre gli utenti a pagamento possono creare fino a 25 calendari. Anche la funzionalità di condivisione estesa è limitata agli abbonati.
 
-[:octicons-home-16: Pagina Principale](https://proton.me/calendar){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://proton.me/calendar/privacy-policy){ .card-link title="Informativa sulla Privacy" }
-[:octicons-info-16:](https://proton.me/support/calendar){ .card-link title="Documentazione" }
-[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="Codice Sorgente" }
+[:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://proton.me/calendar/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/calendar){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/orgs/ProtonMail/repositories?q=calendar){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Scarica</summary>
@@ -71,7 +71,7 @@ Gli utenti con il piano gratuito hanno accesso a 3 calendari, mentre gli utenti 
 
 </div>
 
-Sfortunatamente, ad agosto 2024, Proton non ha [ancora](https://discuss.privacyguides.net/t/proton-calendar-is-not-open-source-mobile/14656/8) rilasciato il codice sorgente per la propria app mobile del calendario per Android e iOS, e solamente la prima è stata [verificata](https://proton.me/blog/security-audit-all-proton-apps). Il client web di Proton Calendar è tuttavia open source ed è stato [verificato](https://proton.me/community/open-source).
+In 2021, Securitum [audited](https://proton.me/community/open-source#:~:text=Proton%20Calendar) Proton Calendar's web client and provided a [letter of attestation](https://res.cloudinary.com/dbulfrlrz/images/v1714639870/wp-pme/letter-of-attestation-proton-calendar-20211109_3138998f9b/letter-of-attestation-proton-calendar-20211109_3138998f9b.pdf) for the Android app.
 
 ## Criteri
 

@@ -111,12 +111,6 @@ Mullvad Browser pracuje v režimu soukromého prohlížení nepřetržitě, tzn.
 
 To je potřeba pro zabránění pokročilým formám sledování, ale jde to na úkor pohodlí a některých funkcí Firefoxu, jako např. Multi-Account Containers. Nezapomeňte, že vždy můžete používat více prohlížečů. Můžete např. zvážit používání Firefoxu + Arkenfoxu pro pár stránek, kde chcete být přihlášeni nebo protože nefungují správně v Mullvad Browseru, a Mullvad Browser pro běžné prohlížení.
 
-### Mullvad Leta
-
-Mullvad Browser má v základu jako výchozí vyhledávač nastavený [**Mullvad Leta**](search-engines.md#mullvad-leta), který funguje jako proxy buď ke Google, nebo Brave vyhledávání (lze nastavit na domovské stránce Mullvad Leta).
-
-Pokud jste uživatelem Mullvad VPN, existuje určité riziko při používání služeb, jako je Mullvad Leta, které nabízí sám poskytovatel VPN. To proto, že Mullvad má teoreticky přístup k vaší pravé IP adrese (skrz VPN) a vaší vyhledávací aktivitě (skrz Leta); a právě k oddělení těchto dvou informací se většinou používá VPN. I přesto, že Mullvad shromažďuje jen minimum informací o svých předplatitelích VPN nebo uživatelích Lety, měli byste zvážit používání jiného [vyhledávače](search-engines.md), pokud toto riziko nemůžete podstoupit.
-
 ## Firefox
 
 <div class="admonition recommendation" markdown>

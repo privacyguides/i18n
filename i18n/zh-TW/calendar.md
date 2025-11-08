@@ -51,14 +51,14 @@ Multiple calendars and extended sharing functionality are limited to paid subscr
 
 ![Proton](assets/img/calendar/proton-calendar.svg){ align=right }
 
-**Proton Calendar** 是 Proton 會員可透過網路或行動客戶端使用的加密行事曆服務。 Features include automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide).
+**Proton Calendar** is an encrypted calendar service available to Proton members via its web or mobile clients. Features include automatic E2EE of all data, sharing features, import/export functionality, and [more](https://proton.me/support/proton-calendar-guide).
 
 Those on the free tier have access to 3 calendars, whereas paid subscribers can create up to 25 calendars. 擴展共享功能也僅限於付費訂閱者。
 
-[:octicons-home-16: 首頁](https://proton.me/calendar){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://proton.me/calendar/privacy-policy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://proton.me/support/calendar){ .card-link title="說明文件" }
-[:octicons-code-16:](https://github.com/ProtonMail/WebClients){ .card-link title="原始碼" }
+[:octicons-home-16: Homepage](https://proton.me/calendar){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://proton.me/calendar/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://proton.me/support/calendar){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/orgs/ProtonMail/repositories?q=calendar){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -71,7 +71,7 @@ Those on the free tier have access to 3 calendars, whereas paid subscribers can 
 
 </div>
 
-但截至 2024 年 8 月，Proton [仍然未](https://discuss.privacyguides.net/t/proton-calendar-is-not-open-source-mobile/14656/8) 發布 Android 或 iOS 上的行動日曆應用程式的源代碼，且僅 [審核 Android 版應用程式](https://proton.me/blog/security-audit-all-proton-apps) 。 不過，Proton Calendar 網頁用戶端是開源的，並且已[審核](https://proton.me/community/open-source)。
+In 2021, Securitum [audited](https://proton.me/community/open-source#:~:text=Proton%20Calendar) Proton Calendar's web client and provided a [letter of attestation](https://res.cloudinary.com/dbulfrlrz/images/v1714639870/wp-pme/letter-of-attestation-proton-calendar-20211109_3138998f9b/letter-of-attestation-proton-calendar-20211109_3138998f9b.pdf) for the Android app.
 
 ## 標準
 

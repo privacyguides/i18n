@@ -111,12 +111,6 @@ Mullvad Browser beroperasi dalam mode penjelajahan pribadi permanen, yang mana r
 
 Hal ini diperlukan untuk mencegah bentuk pelacakan tingkat lanjut, tetapi harus mengorbankan kenyamanan dan beberapa fitur Firefox seperti Multi-Account Containers. Ingatlah bahwa Anda selalu dapat menggunakan beberapa browser lain. Misalnya Anda dapat mempertimbangkan untuk menggunakan Firefox+Arkenfox untuk beberapa situs yang ingin Anda tetap masuk atau yang tidak berfungsi dengan baik di Mullvad Browser. Lalu menggunakan Mullvad Browser untuk penjelajahan umum.
 
-### Mullvad Leta
-
-Mullvad Browser dilengkapi dengan [**Mullvad Leta**](search-engines.md#mullvad-leta) sebagai mesin pencari default, yang berfungsi sebagai proteksi untuk hasil pencarian Google atau Brave (dapat dikonfigurasi di beranda Mullvad Leta).
-
-Jika Anda adalah pengguna VPN Mullvad, ada beberapa risiko dalam menggunakan layanan seperti Mullvad Leta yang ditawarkan oleh penyedia VPN Anda sendiri. Ini karena Mullvad secara teoritis memiliki akses ke alamat IP Anda yang sebenarnya (melalui VPN mereka) dan aktifitas pencarian Anda (melalui Leta); yang terakhir ini adalah informasi yang biasanya dimaksudkan untuk dipisahkan oleh VPN. Meskipun mullvad mengumpulkan sangat sedikit informasi tentang pelanggan VPN mereka atau pengguna Leta, Anda sebaiknya mempertimbangkan [mesin pencari](search-engines.md) yang berbeda jika risiko ini menjadi perhatian Anda.
-
 ## Firefox
 
 <div class="admonition recommendation" markdown>

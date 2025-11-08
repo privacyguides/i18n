@@ -111,12 +111,6 @@ A Mullvad Browser állandó privát böngészési módban működik, ami azt jel
 
 Ez szükséges az előrehaladott követési formák megakadályozásához, azonban cserébe fel kell áldoznunk némi kényelmet és néhány Firefox funkciót, például a többfiókos konténereket. Ne felejtsd el, hogy mindig használhatsz több böngészőt. Például megfontolhatod a Firefox és az Arkenfox egyidejű használatát néhány olyan weboldalhoz, amelyeken bejelentkezve maradnál, vagy amelyek nem működnek megfelelően a Mullvad Böngészőben, míg általános böngészéshez használhatod a Mullvad Böngészőt.
 
-### Mullvad Leta
-
-Mullvad Browser comes with [**Mullvad Leta**](search-engines.md#mullvad-leta) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
-
-If you are a Mullvad VPN user, there is some risk in using services like Mullvad Leta which are offered by your VPN provider themselves. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta); the latter is information a VPN is typically intended to separate. Even though Mullvad collects very little information about their VPN subscribers or Leta users, you should consider a different [search engine](search-engines.md) if this risk concerns you.
-
 ## Firefox
 
 <div class="admonition recommendation" markdown>

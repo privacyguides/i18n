@@ -26,8 +26,7 @@ Considera l'utilizzo di una [VPN](vpn.md) o di [Tor](tor.md), se il tuo modello 
 | ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | ----------------------------------- | --------------------- |
 | [Brave Search](#brave-search) | [Indipendente](https://brave.com/search-independence)                                                                                                                       | :material-check:{ .pg-green } | Anonimizzato[^1]                    | Stati Uniti d'America |
 | [DuckDuckGo](#duckduckgo)     | [Bing](https://help.duckduckgo.com/results/sources)                                                                                                                         | :material-check:{ .pg-green } | Anonimizzato[^2]                    | Stati Uniti d'America |
-| [Mullvad Leta](#mullvad-leta) | [Brave e Google](https://leta.mullvad.net/faq#what-can-leta-do)                                                                                                             | :material-check:{ .pg-green } | Anonimizzato[^3]                    | Svezia                |
-| [Startpage](#startpage)       | [Google e Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) | :material-check:{ .pg-green } | Anonimizzato[^4]                    | Paesi Bassi           |
+| [Startpage](#startpage)       | [Google e Bing](https://support.startpage.com/hc/articles/4522435533844-What-is-the-relationship-between-Startpage-and-your-search-partners-like-Google-and-Microsoft-Bing) | :material-check:{ .pg-green } | Anonimizzato[^3]                    | Paesi Bassi           |
 
 ### Brave Search
 
@@ -68,32 +67,6 @@ DuckDuckGo è il motore di ricerca predefinito del [Tor Browser](tor.md#tor-brow
 </div>
 
 DuckDuckGo offre [altre due versioni](https://help.duckduckgo.com/features/non-javascript) del loro motore di ricerca, entrambe le quali non richiedono JavaScript. Tuttavia, queste versioni mancano di funzionalità. Queste versioni possono anche essere utilizzate in combinazione con il loro indirizzo Tor nascosto aggiungendo [/lite](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/lite) o [/html](https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/html) per la rispettiva versione.
-
-### Mullvad Leta
-
-<div class="admonition recommendation" markdown>
-
-![Logo di Mullvad](assets/img/vpn/mullvad.svg){ align=right }
-
-**Mullvad Leta** è un motore di ricerca sviluppato da Mullvad. Utilizza una [cache condivisa](https://leta.mullvad.net/faq#what-is-cached-search) per recuperare i risultati della ricerca e limitare le chiamate alle API di ricerca utilizzate.
-
-Mullvad Leta attualmente fornisce solo risultati di ricerca testuali. È il motore di ricerca predefinito del [Mullvad Browser](desktop-browsers.md#mullvad-browser).
-
-[:octicons-home-16: Pagina Principale](https://leta.mullvad.net){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://uxngojcovdcyrmwkmkltyy2q7enzzvgv7vlqac64f2vl6hcrrqtlskqd.onion){ .card-link title="Servizio Onion" }
-[:octicons-eye-16:](https://leta.mullvad.net/terms-of-service){ . ard-link title="Informativa sulla Privacy" }
-[:octicons-info-16:](https://leta.mullvad.net/faq){ .card-link title="Documentazione" }
-
-</div>
-
-<div class="admonition tip" markdown>
-<p class="admonition-title">Suggerimento</p>
-
-Mullvad Leta è utile se vuoi disabilitare JavaScript nel tuo browser, come [Mullvad Browser](desktop-browsers.md#mullvad-browser) nel suo livello di sicurezza più elevato.
-
-</div>
-
-Mullvad Leta è stato [revisionato](https://mullvad.net/en/blog/security-audit-of-our-letamullvadnet-search-service) da Assured AB nel marzo 2023. Tutti i problemi sono stati affrontati e risolti poco dopo il [report](https://assured.se/publications/Assured_Mullvad_Leta_pentest_report_2023.pdf).
 
 ### Startpage
 
@@ -159,8 +132,6 @@ I nostri criteri ottimali rappresentano ciò che vorremmo vedere dal progetto pe
 
     Brave Search: [*Informativa sulla privacy di Brave Search*](https://search.brave.com/help/privacy-policy) [^2]: DuckDuckGo **registra** le tue ricerche per migliorare il prodotto ma non il tuo indirizzo IP o altre PII.
 
-    Informativa sulla privacy di DuckDuckGo: [*Non ti tracciamo.*](https://duckduckgo.com/privacy) [^3]: Mullvad Leta registra le tue ricerche e le memorizza in una cache basata sulla RAM sotto forma di hash. La cache viene rimossa quando raggiunge i 30 giorni di età o quando l'applicazione Leta lato server viene riavviata. Non raccolgono alcuna PII.
-
-    Termini di servizio: [*Utilizzo del servizio*](https://leta.mullvad.net/terms-of-service) [^4]: Startpage registra dettagli quali il sistema operativo, l'user agent e la lingua. Non registrano l'indirizzo IP, le query di ricerca o altre PII.
+    DuckDuckGo Privacy Policy: [*We don't track you.*](https://duckduckgo.com/privacy) [^3]: Startpage logs details such as operating system, user agent, and language. Non registrano l'indirizzo IP, le query di ricerca o altre PII.
 
     La nostra informativa sulla privacy: [*Come abbiamo implementato le statistiche di utilizzo veramente anonime*](https://startpage.com/en/privacy-policy#section-4)

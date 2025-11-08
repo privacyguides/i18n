@@ -35,8 +35,8 @@ global:
 
 | مزوّد                 | البُلدان | WireGuard                     | إعادة توجيه المنفذ (Port Forwarding)                | IPv6                                                     | المدفوعات المخفيّة |
 | --------------------- | -------- | ----------------------------- | --------------------------------------------------- | -------------------------------------------------------- | ------------------ |
-| [Proton](#proton-vpn) | 112+     | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } الدعم الجزئي | :material-information-outline:{ .pg-blue } الدعم المحدود | نقداً              |
-| [IVPN](#ivpn)         | 37+      | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }              | :material-information-outline:{ .pg-blue } الصادر فقط    | Monero, نقداً      |
+| [Proton](#proton-vpn) | 127+     | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } الدعم الجزئي | :material-information-outline:{ .pg-blue } الدعم المحدود | نقداً              |
+| [IVPN](#ivpn)         | 41+      | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }              | :material-information-outline:{ .pg-blue } الصادر فقط    | Monero, نقداً      |
 | [ملفاد](#mullvad)     | 49+      | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }              | :material-check:{ .pg-green }                            | Monero, نقداً      |
 
 ### الشبكات الخاصة الافتراضية من Proton
@@ -66,12 +66,13 @@ global:
 
 </div>
 
-#### :material-check:{ .pg-green } 112 دولة
+#### :material-check:{ .pg-green } 127 Countries
 
-لدى Proton VPN [خوادم في 112 دولة](https://protonvpn.com/vpn-servers) أو [5](https://protonvpn.com/support/how-to-create-free-vpn-account) إذا كنت تستخدم [خطتهم المجانية](https://protonvpn.com/free-vpn/server).(1) اختيار مزود VPN مع خادم أقرب خادم إليك سيقلل من زمن انتقال حركة مرور الشبكة التي ترسلها. This is because of a shorter route (fewer hops) to the destination.
+Proton VPN has [servers in 127 countries](https://protonvpn.com/vpn-servers)(1) or [10](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/blog/product-roadmap-winter-2025-2026).(2) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. This is because of a shorter route (fewer hops) to the destination.
 { .annotate }
 
-1. Last checked: 2024-08-06
+1. Of which at least 71 are virtual servers, meaning your IP will appear from the country but the server is in another. 12 more locations have both hardware and virtual servers. [Source](https://protonvpn.com/support/how-smart-routing-works)
+2. Last checked: 2025-10-28
 
 استخدام [خادم مخصص](https://en.wikipedia.org/wiki/Dedicated_hosting_service) يعني أن الشركة تملك الخادم وتتحكم فيه بالكامل، مما يقلل من خطر تسريب البيانات أو تعرضها للاختراق مقارنة [بخوادم مشتركة (VPS)](https://en.wikipedia.org/wiki/Virtual_private_server) تُستخدم من عدة عملاء.
 
@@ -156,12 +157,12 @@ global:
 
 </div>
 
-#### :material-check:{ .pg-green } 37 دولة
+#### :material-check:{ .pg-green } 41 Countries
 
-تمتلك IVPN [خوادم في 37 دولة](https://ivpn.net/status).(1) اختيار مزود VPN يحتوي على خادم قريب من موقعك الجغرافي يساعد في تقليل زمن الاستجابة (Latency) لحركة البيانات التي ترسلها عبر الشبكة. وذلك لأن المسار إلى الوجهة سيكون أقصر (أي عدد أقل من التمريرات أو "hops")، مما يؤدي إلى تقليل التأخير وتحسين سرعة الاتصال.
+IVPN has [servers in 41 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. وذلك لأن المسار إلى الوجهة سيكون أقصر (أي عدد أقل من التمريرات أو "hops")، مما يؤدي إلى تقليل التأخير وتحسين سرعة الاتصال.
 { .annotate }
 
-1. تاريخ آخر تحقق: 6 أغسطس 2024
+1. Last checked: 2025-10-28
 
 استخدام [خادم مخصص](https://en.wikipedia.org/wiki/Dedicated_hosting_service) يعني أن الشركة تملك الخادم وتتحكم فيه بالكامل، مما يقلل من خطر تسريب البيانات أو تعرضها للاختراق مقارنة [بخوادم مشتركة (VPS)](https://en.wikipedia.org/wiki/Virtual_private_server) تُستخدم من عدة عملاء.
 
@@ -236,7 +237,7 @@ Mullvad هو خدمة VPN سريعة ومنخفضة التكلفة، تركز ب
 تمتلك Mullvad [خوادم في 49 دولة](https://mullvad.net/servers).(1) اختيارك لخدمة VPN توفر خادما قريبا من موقعك الجغرافي يساعد على تقليل زمن التأخير (latency) في حركة البيانات التي ترسلها عبر الشبكة. ويعود ذلك إلى أن المسار بينك وبين الوجهة يكون أقصر، أي أن البيانات تمر عبر عدد أقل من الـ (hops).
 { .annotate }
 
-1. آخر مراجعة: 10 مارس 2025
+1. Last checked: 2025-10-28
 
 استخدام [خادم مخصص](https://en.wikipedia.org/wiki/Dedicated_hosting_service) يعني أن الشركة تملك الخادم وتتحكم فيه بالكامل، مما يقلل من خطر تسريب البيانات أو تعرضها للاختراق مقارنة [بخوادم مشتركة (VPS)](https://en.wikipedia.org/wiki/Virtual_private_server) تُستخدم من عدة عملاء.
 
@@ -256,7 +257,7 @@ Mullvad هو خدمة VPN سريعة ومنخفضة التكلفة، تركز ب
 
 تدعم Mullvad بروتوكول WireGuard®. [WireGuard](https://wireguard.com) هو بروتوكول VPN جديد نسبيا، ويعتمد على [تشفير حديث ومتطور](https://wireguard.com/protocol) يوفّر أمانًا عاليا وكفاءة في الأداء. ويتميز WireGuard أيضا بتصميمه البسيط وأدائه العالي، مقارنة ببروتوكولات VPN التقليدية.
 
-[توصي ](https://mullvad.net/en/help/why-wireguard)Mullvad باستخدام بروتوكول WireGuard مع خدمتها. يُعد WireGuard البروتوكول الافتراضي – أو الوحيد – في تطبيقات Mullvad على أنظمة Android وiOS وmacOS وLinux، أما على Windows، فيجب [تفعيله يدويا](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app). توفر Mullvad أيضا مولد إعدادات WireGuard لاستخدامه مع [تطبيقات ](https://wireguard.com/install)WireGuard الرسمية.
+[توصي ](https://mullvad.net/en/help/why-wireguard)Mullvad باستخدام بروتوكول WireGuard مع خدمتها. It is the only protocol supported on their mobile apps, and their desktop apps will [lose OpenVPN support](https://mullvad.net/en/blog/reminder-that-openvpn-is-being-removed) in 2025. Additionally, their servers will stop accepting OpenVPN connections by January 15, 2026. توفر Mullvad أيضا مولد إعدادات WireGuard لاستخدامه مع [تطبيقات ](https://wireguard.com/install)WireGuard الرسمية.
 
 #### :material-check:{ .pg-green } دعم لـ IPv6
 

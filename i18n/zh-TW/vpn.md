@@ -35,8 +35,8 @@ global:
 
 | 供應商                   | 國家   | WireGuard                     | 端口轉發                                        | IPv6                                              | 匿名付款方式    |
 | --------------------- | ---- | ----------------------------- | ------------------------------------------- | ------------------------------------------------- | --------- |
-| [Proton](#proton-vpn) | 112+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } 部分支援 | :material-information-outline:{ .pg-blue } 有限支援   | 現金        |
-| [IVPN](#ivpn)         | 37+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-information-outline:{ .pg-blue } 僅限連出流量 | Monero、現金 |
+| [Proton](#proton-vpn) | 127+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } 部分支援 | :material-information-outline:{ .pg-blue } 有限支援   | 現金        |
+| [IVPN](#ivpn)         | 41+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-information-outline:{ .pg-blue } 僅限連出流量 | Monero、現金 |
 | [Mullvad](#mullvad)   | 49+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-check:{ .pg-green }                     | Monero、現金 |
 
 ### Proton VPN
@@ -66,12 +66,13 @@ global:
 
 </div>
 
-#### :material-check:{ .pg-green } 112 個國家
+#### :material-check:{ .pg-green } 127 Countries
 
-Proton VPN [在 112 個國家設有伺服器](https://protonvpn.com/vpn-servers)，如果您使用其[免費計劃](https://protonvpn.com/free-vpn/server)，則在 [5 個](https://protonvpn.com/support/how-to-create-free-vpn-account)國家設有伺服器。(1) 選擇擁有距離您最近的伺服器之 VPN 供應商，可減少發送網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
+Proton VPN has [servers in 127 countries](https://protonvpn.com/vpn-servers)(1) or [10](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/blog/product-roadmap-winter-2025-2026).(2) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
-1. 最近檢查日期: 2024-08-06
+1. Of which at least 71 are virtual servers, meaning your IP will appear from the country but the server is in another. 12 more locations have both hardware and virtual servers. [Source](https://protonvpn.com/support/how-smart-routing-works)
+2. Last checked: 2025-10-28
 
 我們認為，如果 VPN 供應商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而非採用更便宜、與其他客戶共享的解決方案 (例如[虛擬伺服器](https://en.wikipedia.org/wiki/Virtual_private_server))，對其私鑰的安全性會更好。
 
@@ -156,12 +157,12 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 
 </div>
 
-#### :material-check:{ .pg-green } 37 個國家
+#### :material-check:{ .pg-green } 41 Countries
 
-IVPN 在 [37 個國家/地區設有伺服器](https://ivpn.net/status)。(1) 選擇擁有距離您最近的伺服器之 VPN 供應商，可減少發送網路流量的延遲。 這是因為到達目的地的路徑較短 (跳數較少)。
+IVPN has [servers in 41 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
-1. 最近檢查日期: 2024-08-06
+1. Last checked: 2025-10-28
 
 我們認為，如果 VPN 供應商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而非採用更便宜、與其他客戶共享的解決方案 (例如[虛擬伺服器](https://en.wikipedia.org/wiki/Virtual_private_server))，對其私鑰的安全性會更好。
 
@@ -236,7 +237,7 @@ IVPN clients support two-factor authentication. IVPN 有「[反追蹤](https://i
 Mullvad has [servers in 49 countries](https://mullvad.net/servers).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. 這是因為到達目的地的路徑較短 (跳數較少)。
 { .annotate }
 
-1. Last checked: 2025-03-10
+1. Last checked: 2025-10-28
 
 我們認為，如果 VPN 供應商使用[專用伺服器](https://en.wikipedia.org/wiki/Dedicated_hosting_service)，而非採用更便宜、與其他客戶共享的解決方案 (例如[虛擬伺服器](https://en.wikipedia.org/wiki/Virtual_private_server))，對其私鑰的安全性會更好。
 
@@ -256,7 +257,7 @@ Mullvad 在其 [GitHub 組織](https://github.com/mullvad/mullvadvpn-app) 中提
 
 Mullvad 支援 WireGuard® 協議。 [WireGuard](https://wireguard.com/protocol) 是一種較新的協議，使用最先進的[密碼學](https://wireguard.com)。 此外，WireGuard 的目標是更簡單，更高效。
 
-Mullvad [建議](https://mullvad.net/en/help/why-wireguard)搭配 WireGuard 使用。 在 Mullvad 的 Android、iOS、macOS 以及 Linux 平台的應用程式中，WireGuard 已是預設協議；在 Windows 平台則需[手動選擇](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app) WireGuard。 Mullvad 也提供 WireGuard 設定檔產生器，可用於 WireGuard 的官方[應用程式](https://wireguard.com/install)。
+Mullvad [建議](https://mullvad.net/en/help/why-wireguard)搭配 WireGuard 使用。 It is the only protocol supported on their mobile apps, and their desktop apps will [lose OpenVPN support](https://mullvad.net/en/blog/reminder-that-openvpn-is-being-removed) in 2025. Additionally, their servers will stop accepting OpenVPN connections by January 15, 2026. Mullvad 也提供 WireGuard 設定檔產生器，可用於 WireGuard 的官方[應用程式](https://wireguard.com/install)。
 
 #### :material-check:{ .pg-green } IPv6 支援
 

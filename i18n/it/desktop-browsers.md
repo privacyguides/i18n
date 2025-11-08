@@ -111,12 +111,6 @@ Mullvad Browser opera in modalità di navigazione privata permanente, ciò signi
 
 Ciò è necessario per impedire forme avanzate di tracciamento, a costo della comodità e di alcune funzionalità di Firefox, come i Contenitori Multi Profilo. Ricordati che puoi sempre utilizzare più browser, ad esempio, potresti considerare di utilizzare Firefox+Arkenfox per alcuni siti cui desideri rimanere connesso o, altrimenti, che non operano adeguatamente su Mullvad Browser, e Mullvad Browser per la navigazione generale.
 
-### Mullvad Leta
-
-Mullvad Browser include [**Mullvad Leta**](search-engines.md#mullvad-leta) come motore di ricerca predefinito, che agisce da proxy per i risultati di ricerca di Google o Brave (configurabili sulla homepage di Mullvad Leta).
-
-Se sei un utente di Mullvad VPN, c'è qualche rischio nell'utilizzare servizi come Mullvad Leta, offerti dallo stesso fornitore VPN. Questo perché Mullvad teoricamente ha accesso al tuo vero indirizzo IP (tramite la loro VPN) e alla tua attività di ricerca (tramite Leta); quest'ultima è un'informazione che una VPN di solito dovrebbe separare. Anche se Mullvad raccoglie pochissime informazioni sugli abbonati alla VPN o sugli utenti di Leta, dovresti considerare un altro [motore di ricerca](search-engines.md) se questo rischio ti preoccupa.
-
 ## Firefox
 
 <div class="admonition recommendation" markdown>

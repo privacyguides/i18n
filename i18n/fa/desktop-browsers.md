@@ -111,12 +111,6 @@ Mullvad Browser comes with the *uBlock Origin* and *NoScript* browser extensions
 
 این اقدام به منظور جلوگیری از روش‌های پیشرفته‌ی پیگیری (tracking) مورد نیاز است. اما این کار کمی راحتی کار را کم می‌کند. some Firefox features, such as Multi-Account Containers. به خاطر داشته باشید همیشه می‌توانید از چندین مرورگر استفاده کنید، به عنوان مثال می‌توانید برای برخی از وب‌سایت‌ها که می‌خواهید با حساب کاربری خود وارد شوید یا به طور دیگر در مرورگر مولواد به درستی کار نمی‌کنند، از Firefox+Arkenfox استفاده کنید و از مرورگر مولواد برای استفاده عمومی استفاده کنید.
 
-### مولواد (Mullvad)
-
-Mullvad Browser comes with [**Mullvad Leta**](search-engines.md#mullvad-leta) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
-
-If you are a Mullvad VPN user, there is some risk in using services like Mullvad Leta which are offered by your VPN provider themselves. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta); the latter is information a VPN is typically intended to separate. Even though Mullvad collects very little information about their VPN subscribers or Leta users, you should consider a different [search engine](search-engines.md) if this risk concerns you.
-
 ## فایرفاکس (Firefox)
 
 <div class="admonition recommendation" markdown>

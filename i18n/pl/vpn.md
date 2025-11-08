@@ -35,8 +35,8 @@ Polecani przez nas dostawcy stosują szyfrowanie, obsługują WireGuard & OpenVP
 
 | Dostawca              | Kraje | WireGuard                     | Przekazywanie portów                                      | IPv6                                                            | Anonimowe płatności |
 | --------------------- | ----- | ----------------------------- | --------------------------------------------------------- | --------------------------------------------------------------- | ------------------- |
-| [Proton](#proton-vpn) | 112+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Częściowe wsparcie | :material-information-outline:{ .pg-blue } Ograniczone wsparcie | Gotówka             |
-| [IVPN](#ivpn)         | 37+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                    | :material-information-outline:{ .pg-blue } Tylko wychodzące     | Monero, Gotówka     |
+| [Proton](#proton-vpn) | 127+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Częściowe wsparcie | :material-information-outline:{ .pg-blue } Ograniczone wsparcie | Gotówka             |
+| [IVPN](#ivpn)         | 41+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                    | :material-information-outline:{ .pg-blue } Tylko wychodzące     | Monero, Gotówka     |
 | [Mullvad](#mullvad)   | 49+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                    | :material-check:{ .pg-green }                                   | Monero, Gotówka     |
 
 ### Proton VPN
@@ -65,12 +65,13 @@ Polecani przez nas dostawcy stosują szyfrowanie, obsługują WireGuard & OpenVP
 
 </div>
 
-#### :material-check:{ .pg-green } 112 Krajów
+#### :material-check:{ .pg-green } 127 Countries
 
-Proton VPN ma [serwery w 112 krajach](https://protonvpn.com/vpn-servers) lub [5](https://protonvpn.com/support/how-to-create-free-vpn-account), jeśli korzystasz z ich [bezpłatnego planu](https://protonvpn.com/free-vpn/server).(1) Wybór dostawcy VPN z serwerem znajdującym się najbliżej Ciebie zmniejszy opóźnienia w wysyłanym ruchu sieciowym. Wynika to z krótszej trasy (mniej przeskoków) do miejsca docelowego.
+Proton VPN has [servers in 127 countries](https://protonvpn.com/vpn-servers)(1) or [10](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/blog/product-roadmap-winter-2025-2026).(2) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Wynika to z krótszej trasy (mniej przeskoków) do miejsca docelowego.
 { .annotate }
 
-1. Ostatnio sprawdzone: 2024-08-06
+1. Of which at least 71 are virtual servers, meaning your IP will appear from the country but the server is in another. 12 more locations have both hardware and virtual servers. [Source](https://protonvpn.com/support/how-smart-routing-works)
+2. Last checked: 2025-10-28
 
 Uważamy również, że lepiej jest dla bezpieczeństwa kluczy prywatnych dostawcy VPN, jeśli korzysta on z [dedykowanych serwerów](https://en.wikipedia.org/wiki/Dedicated_hosting_service), zamiast tańszych rozwiązań współdzielonych (z innymi klientami), takich jak [wirtualne serwery prywatne](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -155,12 +156,12 @@ Podczas korzystania z funkcji Kill Switch VPN na komputerach Mac z procesorami I
 
 </div>
 
-#### :material-check:{ .pg-green } 37 Krajów
+#### :material-check:{ .pg-green } 41 Countries
 
-IVPN posiada [serwery w 37 krajach](https://ivpn.net/status).(1) Wybór dostawcy VPN z serwerem znajdującym się najbliżej użytkownika zmniejszy opóźnienia w przesyłanym ruchu sieciowym. Wynika to z krótszej trasy (mniej przeskoków) do miejsca docelowego.
+IVPN has [servers in 41 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Wynika to z krótszej trasy (mniej przeskoków) do miejsca docelowego.
 { .annotate }
 
-1. Ostatnio sprawdzone: 2024-08-06
+1. Last checked: 2025-10-28
 
 Uważamy również, że lepiej jest dla bezpieczeństwa kluczy prywatnych dostawcy VPN, jeśli korzysta on z [dedykowanych serwerów](https://en.wikipedia.org/wiki/Dedicated_hosting_service), zamiast tańszych rozwiązań współdzielonych (z innymi klientami), takich jak [wirtualne serwery prywatne](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -235,7 +236,7 @@ Klienci IVPN obsługują uwierzytelnianie dwuskładnikowe. IVPN zapewnia równie
 Mullvad posiada [serwery w 49 krajach](https://mullvad.net/servers).(1) Wybór dostawcy VPN z serwerem znajdującym się najbliżej użytkownika zmniejszy opóźnienia w przesyłanym ruchu sieciowym. Wynika to z krótszej trasy (mniej przeskoków) do miejsca docelowego.
 { .annotate }
 
-1. Ostatnio sprawdzone: 2025-03-10
+1. Last checked: 2025-10-28
 
 Uważamy również, że lepiej jest dla bezpieczeństwa kluczy prywatnych dostawcy VPN, jeśli korzysta on z [dedykowanych serwerów](https://en.wikipedia.org/wiki/Dedicated_hosting_service), zamiast tańszych rozwiązań współdzielonych (z innymi klientami), takich jak [wirtualne serwery prywatne](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -255,7 +256,7 @@ Mullvad, oprócz akceptowania kart kredytowych/debetowych i PayPal, akceptuje Bi
 
 Mullvad obsługuje protokół WireGuard®. [WireGuard](https://wireguard.com) to nowszy protokół, który wykorzystuje najnowocześniejszą [kryptografię](https://wireguard.com/protocol). Ponadto WireGuard ma być prostszy i bardziej wydajny.
 
-Mullvad [zaleca](https://mullvad.net/en/help/why-wireguard) używanie WireGuard z ich usługą. Jest to domyślny lub jedyny protokół w aplikacjach Mullvad, iOS, macOS i Linux, ale w systemie Windows musisz [ręcznie włączyć](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app) WireGuard. Mullvad oferuje również generator konfiguracji WireGuard do użytku z oficjalnymi [aplikacjami](https://wireguard.com/install) WireGuard.
+Mullvad [zaleca](https://mullvad.net/en/help/why-wireguard) używanie WireGuard z ich usługą. It is the only protocol supported on their mobile apps, and their desktop apps will [lose OpenVPN support](https://mullvad.net/en/blog/reminder-that-openvpn-is-being-removed) in 2025. Additionally, their servers will stop accepting OpenVPN connections by January 15, 2026. Mullvad oferuje również generator konfiguracji WireGuard do użytku z oficjalnymi [aplikacjami](https://wireguard.com/install) WireGuard.
 
 #### :material-check:{ .pg-green } Wsparcie IPv6
 

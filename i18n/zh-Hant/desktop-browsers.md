@@ -111,12 +111,6 @@ Mullvad 瀏覽器預設總是使用隱私瀏覽模式運行，這意味著您的
 
 這是為了防止進階形式的追蹤，但確實犧牲了便利性和一些 Firefox 功能，例如多重帳戶容器 (Multi-Account Containers，又稱容器分頁功能)。 請記住，您隨時可以使用多個瀏覽器，例如，您可以考慮對希望保持登入狀態或在 Mullvad 瀏覽器中無法正常運作的幾個網站使用 Firefox + Arkenfox，而在一般瀏覽時使用 Mullvad 瀏覽器。
 
-### Mullvad Leta
-
-Mullvad Browser comes with [**Mullvad Leta**](search-engines.md#mullvad-leta) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
-
-如果您是 Mullvad VPN 使用者，使用由 VPN 供應商自行提供的 Mullvad Leta 等服務會有一定風險。 This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta); the latter is information a VPN is typically intended to separate. 儘管 Mullvad 收集其 VPN 訂戶或 Leta 使用者的資訊非常少，但如果您擔心此風險，則應考慮使用其他[搜尋引擎](search-engines.md)。
-
 ## Firefox
 
 <div class="admonition recommendation" markdown>

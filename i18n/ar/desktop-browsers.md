@@ -110,12 +110,6 @@ schema:
 
 هذا الإجراء ضروري لمنع أساليب التتبع المتقدمة، لكنه يأتي على حساب بعض جوانب الراحة وبعض ميزات Firefox، مثل ميزة الحاويات متعددة الحسابات (Multi-Account Containers). تذكر أنه يمكنك دائما استخدام أكثر من متصفح. على سبيل المثال، يمكنك استخدام Firefox مع Arkenfox لتصفح بعض المواقع التي تحتاج إلى البقاء مسجّلًا فيها أو لا تعمل بشكل جيد مع متصفح Mullvad، واستخدام Mullvad Browser للتصفّح العام.
 
-### Mullvad Leta
-
-Mullvad Browser comes with [**Mullvad Leta**](search-engines.md#mullvad-leta) as the default search engine, which functions as a proxy to either Google or Brave search results (configurable on the Mullvad Leta homepage).
-
-إذا كنت من مستخدمي Mullvad VPN، فهناك قدر من المخاطرة في استخدام خدمات مثل Mullvad Leta، لأنها تُقدم من نفس مزوّد خدمة الـVPN الذي تستخدمه. This is because Mullvad theoretically has access to your true IP address (via their VPN) and your search activity (via Leta); the latter is information a VPN is typically intended to separate. رغم أن Mullvad لا تجمع إلا القليل جدًا من المعلومات عن مستخدمي خدمة VPN أو Leta، فإنه من الأفضل التفكير في استخدام [محرك بحث آخر](search-engines.md) إذا كانت هذه المخاطرة تثير قلقك.
-
 ## Firefox
 
 <div class="admonition recommendation" markdown>

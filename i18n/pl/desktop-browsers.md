@@ -111,12 +111,6 @@ Mullvad Browser działa w stałym trybie prywatnego przeglądania, co oznacza, �
 
 To rozwiązanie jest niezbędne, by zapobiec zaawansowanym formom śledzenia, lecz odbywa się kosztem wygody oraz pewnych funkcji Firefoksa, takich jak Multi-Account Containers. Warto pamiętać, że zawsze można używać kilku przeglądarek, na przykład Firefox z Arkenfoxem do kilku witryn, na których chcesz pozostać zalogowany lub które nie działają poprawnie w przeglądarce Mullvad, oraz przeglądarkę Mullvad do ogólnego przeglądania Internetu.
 
-### Mullvad Leta
-
-Przeglądarka Mullvad korzysta domyślnie z [**Mullvad Leta**](search-engines.md#mullvad-leta) jako wyszukiwarki, która działa jako proxy do wyników wyszukiwania Google lub Brave (można to skonfigurować na stronie głównej Mullvad Leta).
-
-Jeśli korzystasz z Mullvad VPN, istnieje pewne ryzyko związane z używaniem usług takich jak Mullvad Leta, oferowanych przez tego samego dostawcę VPN. Wynika to z faktu, że Mullvad teoretycznie ma dostęp zarówno do Twojego rzeczywistego adresu IP (przez VPN), jak i do aktywności wyszukiwania (przez Leta) – a właśnie te informacje VPN ma z założenia rozdzielać. Choć Mullvad gromadzi bardzo niewiele danych o użytkownikach swojego VPN i Leta, jeśli ta zależność budzi Twój niepokój, rozważ użycie innej [wyszukiwarki](search-engines.md).
-
 ## Firefox
 
 <div class="admonition recommendation" markdown>

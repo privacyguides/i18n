@@ -35,8 +35,8 @@ global:
 
 | ارائه‌دهنده           | کشورها | وایرگارد                      | پورت فورواردینگ                                      | IPv6                                                      | پرداخت‌های ناشناس |
 | --------------------- | ------ | ----------------------------- | ---------------------------------------------------- | --------------------------------------------------------- | ----------------- |
-| [پروتون](#proton-vpn) | ۱۱۲+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } پشتیبانی جزئی | :material-information-outline:{ .pg-blue } پشتیبانی محدود | نقدی              |
-| [آی‌وی‌پی‌ان](#ivpn)  | ۳۷+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }               | :material-information-outline:{ .pg-blue } فقط خروجی      | مونرو، نقدی       |
+| [پروتون](#proton-vpn) | 127+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } پشتیبانی جزئی | :material-information-outline:{ .pg-blue } پشتیبانی محدود | نقدی              |
+| [آی‌وی‌پی‌ان](#ivpn)  | 41+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }               | :material-information-outline:{ .pg-blue } فقط خروجی      | مونرو، نقدی       |
 | [مول‌واد](#mullvad)   | ۴۹+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }               | :material-check:{ .pg-green }                             | مونرو، نقدی       |
 
 ### پروتون وی‌پی‌ان
@@ -66,12 +66,13 @@ global:
 
 </div>
 
-#### :material-check:{ .pg-green } ۱۱۲ کشور
+#### :material-check:{ .pg-green } 127 Countries
 
-پروتون وی‌پی‌ان دارای [سرور در ۱۱۲ کشور](https://protonvpn.com/vpn-servers) است یا [۵ کشور](https://protonvpn.com/support/how-to-create-free-vpn-account) اگر از [طرح رایگان](https://protonvpn.com/free-vpn/server) آن استفاده کنید.(۱) انتخاب یک ارائه‌دهنده وی‌پی‌ان با سروری که به شما نزدیک‌تر است، تأخیر ترافیک شبکه ارسالی شما را کاهش می‌دهد. این به دلیل مسیر کوتاه‌تر (تعداد پرش کمتر) به مقصد است.
+Proton VPN has [servers in 127 countries](https://protonvpn.com/vpn-servers)(1) or [10](https://protonvpn.com/support/how-to-create-free-vpn-account) if you use their [free plan](https://protonvpn.com/blog/product-roadmap-winter-2025-2026).(2) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. این به دلیل مسیر کوتاه‌تر (تعداد پرش کمتر) به مقصد است.
 { .annotate }
 
-1. آخرین بررسی: ۲۰۲۴-۰۸-۰۶
+1. Of which at least 71 are virtual servers, meaning your IP will appear from the country but the server is in another. 12 more locations have both hardware and virtual servers. [Source](https://protonvpn.com/support/how-smart-routing-works)
+2. Last checked: 2025-10-28
 
 ما همچنین معتقدیم که برای امنیت کلیدهای خصوصی ارائه‌دهنده VPN بهتر است از [سرورهای اختصاصی](https://en.wikipedia.org/wiki/Dedicated_hosting_service) استفاده شود، به جای راه‌حل‌های ارزان‌تر اشتراکی (با مشتریان دیگر) مانند [سرورهای مجازی خصوصی](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -154,12 +155,12 @@ global:
 
 </div>
 
-#### :material-check:{ .pg-green } ۳۷ کشور
+#### :material-check:{ .pg-green } 41 Countries
 
-IVPN دارای [سرور در ۳۷ کشور](https://ivpn.net/status) است.(1) انتخاب یک ارائه‌دهنده VPN با سروری که به شما نزدیک‌تر باشد، تأخیر ترافیک شبکه‌ای که ارسال می‌کنید را کاهش می‌دهد. این به دلیل مسیر کوتاه‌تر (تعداد پرش کمتر) به مقصد است.
+IVPN has [servers in 41 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. این به دلیل مسیر کوتاه‌تر (تعداد پرش کمتر) به مقصد است.
 { .annotate }
 
-1. آخرین بررسی: ۲۰۲۴-۰۸-۰۶
+1. Last checked: 2025-10-28
 
 ما همچنین معتقدیم که برای امنیت کلیدهای خصوصی ارائه‌دهنده VPN بهتر است از [سرورهای اختصاصی](https://en.wikipedia.org/wiki/Dedicated_hosting_service) استفاده شود، به جای راه‌حل‌های اشتراکی ارزان‌تر (با سایر مشتریان) مانند [سرورهای مجازی خصوصی](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -232,7 +233,7 @@ IVPN دارای حالت‌های اختفا با استفاده از [V2Ray](ht
 مولواد دارای [سرورها در ۴۹ کشور](https://mullvad.net/servers) است.(1) انتخاب یک ارائه‌دهنده VPN با سروری که به شما نزدیک‌تر باشد، تأخیر ترافیک شبکه‌ای که ارسال می‌کنید را کاهش می‌دهد. این به دلیل مسیر کوتاه‌تر (تعداد پرش‌های کمتر) تا مقصد است.
 { .annotate }
 
-1. آخرین بررسی: ۲۰۲۵-۰۳-۱۰
+1. Last checked: 2025-10-28
 
 ما همچنین معتقدیم که برای امنیت کلیدهای خصوصی ارائه‌دهنده VPN بهتر است اگر آن‌ها از [سرورهای اختصاصی](https://en.wikipedia.org/wiki/Dedicated_hosting_service) استفاده کنند، به جای راه‌حل‌های ارزان‌تر اشتراکی (با مشتریان دیگر) مانند [سرورهای خصوصی مجازی](https://en.wikipedia.org/wiki/Virtual_private_server).
 
@@ -252,7 +253,7 @@ IVPN دارای حالت‌های اختفا با استفاده از [V2Ray](ht
 
 مولواد از پروتکل WireGuard® پشتیبانی می‌کند. [وایرگارد](https://wireguard.com) یک پروتکل جدیدتر است که از [رمزنگاری](https://wireguard.com/protocol) پیشرفته استفاده می‌کند. علاوه بر این، WireGuard هدف دارد ساده‌تر و کارآمدتر باشد.
 
-مولواد [استفاده](https://mullvad.net/en/help/why-wireguard) از وایرگارد را با سرویس خود توصیه می‌کند. این پروتکل پیش‌فرض یا تنها پروتکل در اپلیکیشن‌های اندروید، iOS، مک‌اواس و لینوکس مول‌ود است، اما در ویندوز باید WireGuard را به صورت [دستی فعال کنید](https://mullvad.net/en/help/how-turn-wireguard-mullvad-app). مولواد همچنین یک تولیدکننده پیکربندی WireGuard برای استفاده با [اپلیکیشن‌های](https://wireguard.com/install) رسمی WireGuard ارائه می‌دهد.
+مولواد [استفاده](https://mullvad.net/en/help/why-wireguard) از وایرگارد را با سرویس خود توصیه می‌کند. It is the only protocol supported on their mobile apps, and their desktop apps will [lose OpenVPN support](https://mullvad.net/en/blog/reminder-that-openvpn-is-being-removed) in 2025. Additionally, their servers will stop accepting OpenVPN connections by January 15, 2026. مولواد همچنین یک تولیدکننده پیکربندی WireGuard برای استفاده با [اپلیکیشن‌های](https://wireguard.com/install) رسمی WireGuard ارائه می‌دهد.
 
 #### :material-check:{ .pg-green } پشتیبانی از IPv6
 
