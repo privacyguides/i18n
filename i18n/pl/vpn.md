@@ -83,7 +83,7 @@ W styczniu 2020 roku Proton VPN przeszedł niezależny audyt przeprowadzony prze
 
 Proton VPN udostępnia kod źródłowy swoich aplikacji desktopowych i mobilnych w serwisie [GitHub](https://github.com/ProtonVPN).
 
-#### :material-check:{ .pg-green } Akceptuje płatność gotówką
+#### :material-check:{ .pg-green } Akceptuje płatności gotówką
 
 Proton VPN, oprócz kart kredytowych i debetowych, PayPala i [Bitcoina](advanced/payments.md#other-coins-bitcoin-ethereum-etc), akceptuje również **gotówkę/lokalną walutę** jako anonimową formę płatności.
 
@@ -134,10 +134,10 @@ Na komputerach Mac z procesorami Intel użycie funkcji Kill Kwitch VPN [może pr
 
 ![Logo IVPN](assets/img/vpn/ivpn.svg){ align=right }
 
-**IVPN** to kolejny dostawca VPN klasy premium, który działa od 2009 roku. IVPN ma siedzibę na Gibraltarze i nie oferuje bezpłatnego okresu próbnego.
+**IVPN** to kolejny dostawca usługi VPN klasy premium, działający od 2009 roku. Siedziba firmy znajduje się na Gibraltarze, a usługa nie oferuje bezpłatnego okresu próbnego.
 
 [:octicons-home-16: Strona główna](https://ivpn.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Polityka Prywatności" }
+[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Polityka prywatności" }
 [:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="Dokumentacja"}
 [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Kod źródłowy" }
 
@@ -156,52 +156,52 @@ Na komputerach Mac z procesorami Intel użycie funkcji Kill Kwitch VPN [może pr
 
 </div>
 
-#### :material-check:{ .pg-green } 41 Countries
+#### :material-check:{ .pg-green } 41 krajów
 
-IVPN has [servers in 41 countries](https://ivpn.net/status).(1) Picking a VPN provider with a server nearest to you will reduce latency of the network traffic you send. Wynika to z krótszej trasy (mniej przeskoków) do miejsca docelowego.
+IVPN posiada [serwery w 41 krajach](https://ivpn.net/status).(1) Wybór dostawcy VPN z serwerem znajdującym się najbliżej Ciebie zmniejsza opóźnienia przesyłanych danych, ponieważ trasa do celu jest krótsza (mniej „przeskoków”).
 { .annotate }
 
 1. Stan na dzień: 28.10.2025
 
-Uważamy również, że lepiej jest dla bezpieczeństwa kluczy prywatnych dostawcy VPN, jeśli korzysta on z [dedykowanych serwerów](https://en.wikipedia.org/wiki/Dedicated_hosting_service), zamiast tańszych rozwiązań współdzielonych (z innymi klientami), takich jak [wirtualne serwery prywatne](https://en.wikipedia.org/wiki/Virtual_private_server).
+Uważamy też, że dla bezpieczeństwa kluczy prywatnych dostawcy VPN lepiej jest stosować [serwery dedykowane](https://en.wikipedia.org/wiki/Dedicated_hosting_service), zamiast tańszych rozwiązań współdzielonych z innymi klientami, takich jak [wirtualne serwery prywatne (VPS)](https://pl.wikipedia.org/wiki/Virtual_private_serverr).
 
-#### :material-check:{ .pg-green } Niezależny Audyt
+#### :material-check:{ .pg-green } Niezależnie audytowany
 
-IVPN przeszła wiele [niezależnych audytów](https://ivpn.net/en/blog/tags/audit) od 2019 roku i publicznie ogłosiła swoje zobowiązanie do [corocznych audytów bezpieczeństwa.](https://ivpn.net/blog/ivpn-apps-security-audit-concluded)
+IVPN od 2019 roku przeszedł kilka [niezależnych audytów](https://ivpn.net/en/blog/tags/audit) i publicznie zadeklarował zobowiązanie do [corocznych audytów bezpieczeństwa](https://ivpn.net/blog/ivpn-apps-security-audit-concluded).
 
-#### :material-check:{ .pg-green } Klienci Open-Source
+#### :material-check:{ .pg-green } Oprogramowanie typu open source
 
-Od lutego 2020 r. [aplikacje IVPN są teraz Open-Source](https://ivpn.net/blog/ivpn-applications-are-now-open-source). Kod źródłowy można uzyskać z ich [organizacji GitHub](https://github.com/ivpn).
+Od lutego 2020 roku [aplikacje IVPN są dostępne jako open source](https://ivpn.net/blog/ivpn-applications-are-now-open-source). Kod źródłowy można znaleźć na ich profilu na [GitHubie](https://github.com/ivpn).
 
-#### :material-check:{ .pg-green } Akceptuje Gotówkę i Monero
+#### :material-check:{ .pg-green } Akceptuje płatności gotówką i Monero
 
-Oprócz akceptowania kart kredytowych/debetowych i PayPal, IVPN akceptuje Bitcoin, **Monero** i **gotówkę/walutę lokalną** (w planach rocznych) jako anonimowe metody płatności. [Dostępne](https://ivpn.net/knowledgebase/billing/voucher-cards-faq) są również karty przedpłacone z kodami do realizacji.
+Oprócz płatności kartą kredytową/debetową i PayPalem IVPN przyjmuje również płatności w Bitcoinach, **Monero** oraz **gotówce/walucie lokalnej** (w przypadku planów rocznych) jako anonimowe formy płatności. Dostępne są także [karty przedpłacone z kodami](https://ivpn.net/knowledgebase/billing/voucher-cards-faq).
 
-#### :material-check:{ .pg-green } Wsparcie WireGuard
+#### :material-check:{ .pg-green } Obsługa WireGuard
 
-IVPN obsługuje protokół WireGuard®. [WireGuard](https://wireguard.com) to nowszy protokół, który wykorzystuje najnowocześniejszą [kryptografię](https://wireguard.com/protocol). Ponadto WireGuard ma być prostszy i bardziej wydajny.
+IVPN obsługuje protokół WireGuard®. [WireGuard](https://wireguard.com) to nowszy protokół wykorzystujący nowoczesną [kryptografię](https://wireguard.com/protocol). Ponadto WireGuard został zaprojektowany tak, aby był prostszy i bardziej wydajny.
 
-IVPN [zaleca](https://ivpn.net/wireguard) korzystanie z WireGuard w swojej usłudze i jest domyślny we wszystkich aplikacjach IVPN. IVPN oferuje również generator konfiguracji WireGuard do użytku z oficjalnymi [aplikacjami](https://wireguard.com/install) WireGuard.
+IVPN [zaleca](https://ivpn.net/wireguard) korzystanie z WireGuard w swojej usłudze, dlatego jest to domyślny protokół we wszystkich aplikacjach IVPN. IVPN oferuje również generator konfiguracji WireGuard do użycia z oficjalnymi [aplikacjami WireGuard](https://wireguard.com/install).
 
-#### :material-information-outline:{ .pg-blue } Wsparcie IPv6
+#### :material-information-outline:{ .pg-blue } Obsługa IPv6
 
-IVPN umożliwia [łączenie się z usługami przy użyciu protokołu IPv6](https://ivpn.net/knowledgebase/general/do-you-support-ipv6), ale nie pozwala na łączenie się z urządzenia przy użyciu adresu IPv6.
+IVPN umożliwia [łączenie się z usługami za pomocą IPv6](https://ivpn.net/knowledgebase/general/do-you-support-ipv6), ale nie pozwala na ustanowienie połączenia z urządzenia korzystającego z adresu IPv6.
 
-#### :material-alert-outline:{ .pg-orange } Zdalne Przekierowanie Portów
+#### :material-alert-outline:{ .pg-orange } Zdalne przekierowanie portów
 
-IVPN wcześniej obsługiwał przekierowanie portów, ale usunął tę opcję w [czerwcu 2023](https://ivpn.net/blog/gradual-removal-of-port-forwarding) roku. Brak tej funkcji może negatywnie wpłynąć na niektóre aplikacje, zwłaszcza aplikacje peer-to-peer, takie jak klienty torrent.
+IVPN wcześniej oferował funkcję przekierowywania portów, jednak została ona usunięta w [czerwcu 2023 roku](https://ivpn.net/blog/gradual-removal-of-port-forwarding). Brak tej funkcji może negatywnie wpływać na działanie niektórych aplikacji, szczególnie tych opartych na komunikacji peer-to-peer, takich jak klienty torrentów.
 
-#### Anty-Cenzura
+#### :material-check:{ .pg-green } Ochrona przed cenzurą
 
-IVPN ma tryby zaciemniania przy użyciu [V2Ray](https://v2ray.com/en/index.html), które pomagają w sytuacjach, w których protokoły VPN, takie jak OpenVPN lub WireGuard, są blokowane. Obecnie funkcja ta jest dostępna tylko na komputerach stacjonarnych i [iOS](https://ivpn.net/knowledgebase/ios/v2ray). Ma dwa tryby, w których może używać [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) przez połączenia QUIC lub TCP. QUIC jest nowoczesnym protokołem z lepszą kontrolą przeciążenia, a zatem może być szybszy i mieć mniejsze opóźnienia. Tryb TCP sprawia, że dane wyglądają jak zwykły ruch HTTP.
+IVPN oferuje tryby zaciemniania ruchu z wykorzystaniem [V2Ray](https://v2ray.com/en/index.html), co jest przydatne w sytuacjach, gdy protokoły VPN, takie jak OpenVPN czy WireGuard, są blokowane. Obecnie ta funkcja dostępna jest tylko na komputerach stacjonarnych i urządzeniach z systemem [iOS](https://ivpn.net/knowledgebase/ios/v2ray). Dostępne są dwa tryby działania: z użyciem [VMess](https://guide.v2fly.org/en_US/basics/vmess.html) przez połączenia QUIC lub TCP. QUIC to nowoczesny protokół z lepszą kontrolą przeciążenia, co może przekładać się na wyższą prędkość i mniejsze opóźnienia. Tryb TCP sprawia, że Twój ruch sieciowy wygląda jak zwykły ruch HTTP.
 
-#### :material-check:{ .pg-green } Klienci Mobilni
+#### :material-check:{ .pg-green } Aplikacje mobilne
 
-IVPN opublikował klientów [App Store](https://apps.apple.com/app/id1193122683) i [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client), z których oba obsługują łatwy w użyciu interfejs, nie wymagający ręcznej konfiguracji połączenia WireGuard. Klient Android jest również dostępny na [GitHub](https://github.com/ivpn/android-app/releases).
+IVPN udostępnia aplikacje w [App Store](https://apps.apple.com/app/id1193122683) oraz [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client), obie z prostym w obsłudze interfejsem, który eliminuje konieczność ręcznej konfiguracji połączenia WireGuard. Aplikacja na Androida dostępna jest również na [GitHubie](https://github.com/ivpn/android-app/releases).
 
 #### :material-information-outline:{ .pg-blue } Dodatkowe uwagi
 
-Klienci IVPN obsługują uwierzytelnianie dwuskładnikowe. IVPN zapewnia również funkcję["AntiTracker](https://ivpn.net/antitracker)", która blokuje sieci reklamowe i trackery z poziomu sieci.
+Aplikacje IVPN obsługują uwierzytelnianie dwuskładnikowe. IVPN oferuje także funkcję „[AntiTracker](https://ivpn.net/antitracker)”, która blokuje sieci reklamowe i trackery już na poziomie sieciowym.
 
 ### Mullvad
 
