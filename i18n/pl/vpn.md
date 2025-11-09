@@ -209,79 +209,79 @@ Aplikacje IVPN obsługują uwierzytelnianie dwuskładnikowe. IVPN oferuje także
 
 ![Logo Mullvad](assets/img/vpn/mullvad.svg){ align=right }
 
-**Mullvad** to szybka i niedroga sieć VPN, która kładzie duży nacisk na przejrzystość i bezpieczeństwo. Działają od 2009 roku. Mullvad ma siedzibę w Szwecji i oferuje 14-dniową gwarancję zwrotu pieniędzy dla [metod płatności](https://mullvad.net/en/help/refunds), które na to pozwalają.
+**Mullvad** to szybka i niedroga usługa VPN, która kładzie duży nacisk na przejrzystość i bezpieczeństwo. Działa od 2009 roku. Siedziba firmy znajduje się w Szwecji, a użytkownicy mogą skorzystać z 14-dniowej gwarancji zwrotu pieniędzy dla [metod płatności](https://mullvad.net/pl/help/refunds), które na to pozwalają.
 
-[:octicons-home-16: Strona główna](https://mullvad.net){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Polityka prywatności" }
-[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="Dokumentacja"}
+[:octicons-home-16: Strona główna](https://mullvad.net/pl){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Usługa onion" }
+[:octicons-eye-16:](https://mullvad.net/pl/help/privacy-policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://mullvad.net/pl/help){ .card-link title="Dokumentacja"}
 [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
-<summary>Pliki do pobrania</summary>
+<summary>Pobierz</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1488466513)
 - [:simple-github: GitHub](https://github.com/mullvad/mullvadvpn-app/releases)
-- [:fontawesome-brands-windows: Windows](https://mullvad.net/en/download/windows)
-- [:simple-apple: macOS](https://mullvad.net/en/download/macos)
-- [:simple-linux: Linux](https://mullvad.net/en/download/linux)
+- [:fontawesome-brands-windows: Windows](https://mullvad.net/pl/download/windows)
+- [:simple-apple: macOS](https://mullvad.net/pl/download/macos)
+- [:simple-linux: Linux](https://mullvad.net/pl/download/linux)
 
 </details>
 
 </div>
 
-#### :material-check:{ .pg-green } 49 Krajów
+#### :material-check:{ .pg-green } 49 krajów
 
-Mullvad posiada [serwery w 49 krajach](https://mullvad.net/servers).(1) Wybór dostawcy VPN z serwerem znajdującym się najbliżej użytkownika zmniejszy opóźnienia w przesyłanym ruchu sieciowym. Wynika to z krótszej trasy (mniej przeskoków) do miejsca docelowego.
+Mullvad posiada [serwery w 49 krajach](https://mullvad.net/servers).(1) Wybór dostawcy VPN z serwerem znajdującym się najbliżej Ciebie zmniejsza opóźnienia przesyłanych danych, ponieważ trasa do celu jest krótsza (mniej „przeskoków”).
 { .annotate }
 
 1. Stan na dzień: 28.10.2025
 
-Uważamy również, że lepiej jest dla bezpieczeństwa kluczy prywatnych dostawcy VPN, jeśli korzysta on z [dedykowanych serwerów](https://en.wikipedia.org/wiki/Dedicated_hosting_service), zamiast tańszych rozwiązań współdzielonych (z innymi klientami), takich jak [wirtualne serwery prywatne](https://en.wikipedia.org/wiki/Virtual_private_server).
+Uważamy też, że dla bezpieczeństwa kluczy prywatnych dostawcy VPN lepiej jest stosować [serwery dedykowane](https://en.wikipedia.org/wiki/Dedicated_hosting_service), zamiast tańszych rozwiązań współdzielonych z innymi klientami, takich jak [wirtualne serwery prywatne (VPS)](https://pl.wikipedia.org/wiki/Virtual_private_serverr).
 
-#### :material-check:{ .pg-green } Niezależny audyt
+#### :material-check:{ .pg-green } Niezależnie audytowany
 
-Mullvad przeszedł wiele [niezależnych audytów](https://mullvad.net/en/blog/tag/audits) i publicznie ogłosił, że stara się przeprowadzać [coroczne audyty](https://mullvad.net/en/blog/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) swoich aplikacji i infrastruktury.
+Mullvad przeszedł liczne [niezależne audyty](https://mullvad.net/pl/blog/tag/audits) i publicznie zadeklarował zamiar przeprowadzania [corocznych audytów](https://mullvad.net/pl/blog/no-pii-or-privacy-leaks-found-cure53s-infrastructure-audit) swoich aplikacji i infrastruktury.
 
-#### :material-check:{ .pg-green } Klienci Open-Source
+#### :material-check:{ .pg-green } Oprogramowanie typu open source
 
-Mullvad udostępnia kod źródłowy swoich klientów stacjonarnych i mobilnych na ich [GitHubie.](https://github.com/mullvad/mullvadvpn-app)
+Mullvad udostępnia kod źródłowy swoich aplikacji desktopowych i mobilnych w serwisie [GitHub](https://github.com/mullvad/mullvadvpn-app).
 
-#### :material-check:{ .pg-green } Akceptuje Gotówkę i Monero
+#### :material-check:{ .pg-green } Akceptuje płatności gotówką i Monero
 
-Mullvad, oprócz akceptowania kart kredytowych/debetowych i PayPal, akceptuje Bitcoin, Bitcoin Cash, **Monero** i **gotówkę/walutę lokalną** jako anonimowe formy płatności. Dostępne są również karty przedpłacone z kodami do realizacji. Mullvad akceptuje również przelewy Swish i bankowe, a także kilka europejskich systemów płatności.
+Oprócz płatności kartą kredytową/debetową i PayPalem, Mullvad przyjmuje również płatności Bitcoin, Bitcoin Cash, **Monero** oraz **gotówką/walutą lokalną** jako anonimowe formy płatności. Dostępne są także karty przedpłacone z kodami. Mullvad akceptuje ponadto płatności za pośrednictwem Swish, przelewów bankowych oraz kilku europejskich systemów płatności w tym Przelewy24.
 
-#### :material-check:{ .pg-green } Wsparcie WireGuard
+#### :material-check:{ .pg-green } Obsługa WireGuard
 
-Mullvad obsługuje protokół WireGuard®. [WireGuard](https://wireguard.com) to nowszy protokół, który wykorzystuje najnowocześniejszą [kryptografię](https://wireguard.com/protocol). Ponadto WireGuard ma być prostszy i bardziej wydajny.
+Mullvad obsługuje protokół WireGuard®. [WireGuard](https://wireguard.com) to nowszy protokół wykorzystujący nowoczesną [kryptografię](https://wireguard.com/protocol). Ponadto WireGuard został zaprojektowany tak, aby był prostszy i bardziej wydajny.
 
-Mullvad [zaleca](https://mullvad.net/en/help/why-wireguard) używanie WireGuard z ich usługą. It is the only protocol supported on their mobile apps, and their desktop apps will [lose OpenVPN support](https://mullvad.net/en/blog/reminder-that-openvpn-is-being-removed) in 2025. Additionally, their servers will stop accepting OpenVPN connections by January 15, 2026. Mullvad oferuje również generator konfiguracji WireGuard do użytku z oficjalnymi [aplikacjami](https://wireguard.com/install) WireGuard.
+Mullvad [zaleca](https://mullvad.net/pl/help/why-wireguard) korzystanie z WireGuard w swojej usłudze. Jest to jedyny obsługiwany protokół przez ich aplikacje mobilne, a w wersjach desktopowych wsparcie dla OpenVPN zostanie [zakończone](https://mullvad.net/pl/blog/reminder-that-openvpn-is-being-removed) w 2025 roku. Serwery Mullvad przestaną akceptować połączenia OpenVPN najpóźniej 15 stycznia 2026 roku. Mullvad oferuje również generator konfiguracji WireGuard do użycia z oficjalnymi [aplikacjami WireGuard](https://wireguard.com/install).
 
-#### :material-check:{ .pg-green } Wsparcie IPv6
+#### :material-check:{ .pg-green } Obsługa IPv6
 
-Mullvad umożliwia [dostęp do usług hostowanych na IPv6](https://mullvad.net/en/blog/2014/9/15/ipv6-support) i łączenie się z urządzenia korzystającego z adresu IPv6.
+Mullvad umożliwia [korzystanie z usług działających w sieci IPv6](https://mullvad.net/pl/blog/2014/9/15/ipv6-support) oraz łączenie się z niej bezpośrednio z urządzeń obsługujących adresy IPv6.
 
 #### :material-alert-outline:{ .pg-orange } Zdalne przekierowanie portów
 
-Mullvad wcześniej obsługiwał przekierowanie portów, ale usunął tę opcję w [maju 2023](https://mullvad.net/en/blog/2023/5/29/removing-the-support-for-forwarded-ports) roku. Brak tej funkcji może negatywnie wpłynąć na niektóre aplikacje, zwłaszcza aplikacje peer-to-peer, takie jak klienty torrent.
+Mullvad wcześniej oferował funkcję przekierowywania portów, jednak została ona usunięta w [maju 2023 roku](https://mullvad.net/pl/blog/2023/5/29/removing-the-support-for-forwarded-ports). Brak tej funkcji może negatywnie wpływać na działanie niektórych aplikacji, szczególnie tych opartych na komunikacji peer-to-peer, takich jak klienty torrentów.
 
-#### :material-check:{ .pg-green } Anty-Cenzura
+#### :material-check:{ .pg-green } Ochrona przed cenzurą
 
-Mullvad oferuje kilka funkcji, które pomagają ominąć cenzurę i uzyskać swobodny dostęp do Internetu:
+Mullvad oferuje szereg funkcji pomagających omijać cenzurę i swobodnie uzyskiwać dostęp do Internetu:
 
-- **Tryby zaciemniania**: Mullvad posiada dwa wbudowane tryby obfuskacji: ["](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard)UDP-over-TCP" i ["WireGuard over Shadowsocks"](https://mullvad.net/en/blog/introducing-shadowsocks-obfuscation-for-wireguard). Tryby te ukrywają ruch VPN jako zwykły ruch internetowy, utrudniając cenzorom wykrywanie i blokowanie. Podobno Chiny muszą użyć [nowej metody, aby zakłócić ruch kierowany przez Shadowsocks](https://gfw.report/publications/usenixsecurity23/en).
-- **Zaawansowane zaciemnianie za pomocą Shadowsocks i v2ray**: Dla bardziej zaawansowanych użytkowników Mullvad zapewnia przewodnik na temat korzystania z wtyczki [Shadowsocks z v2ray](https://mullvad.net/en/help/shadowsocks-with-v2ray) z klientami Mullvad. Ta konfiguracja zapewnia dodatkową warstwę zaciemniania i szyfrowania.
-- **Niestandardowe adresy IP serwerów**: Aby przeciwdziałać blokowaniu adresów IP, możesz poprosić zespół pomocy technicznej Mullvad o niestandardowe adresy IP serwerów. Po otrzymaniu niestandardowych adresów IP można wprowadzić plik tekstowy w ustawieniach "Zastępowanie adresów IP serwera", co spowoduje zastąpienie wybranych adresów IP serwera adresami, które nie są znane cenzorowi.
-- **Mosty i serwery proxy**: Mullvad umożliwia również korzystanie z mostów lub serwerów proxy w celu uzyskania dostępu do interfejsu API (potrzebnego do uwierzytelniania), co może pomóc w ominięciu prób cenzury, które blokują dostęp do samego interfejsu API.
+- **Tryby zaciemniania ruchu**: Mullvad udostępnia dwa wbudowane tryby zaciemniania — „UDP-over-TCP” oraz [„WireGuard over Shadowsocks”](https://mullvad.net/pl/blog/introducing-shadowsocks-obfuscation-for-wireguard). Tryby te maskują ruch VPN, sprawiając, że wygląda on jak zwykły ruch WWW, co utrudnia jego wykrycie i zablokowanie przez cenzurę. Według niektórych informacji Chiny muszą stosować [nowe metody zakłócania ruchu przez Shadowsocks](https://gfw.report/publications/usenixsecurity23/en).
+- **Zaawansowane zaciemnianie z użyciem Shadowsocks i v2ray**: Dla bardziej zaawansowanych użytkowników Mullvad przygotował przewodnik, jak korzystać z wtyczki [Shadowsocks z v2ray](https://mullvad.net/pl/help/shadowsocks-with-v2ray) w połączeniu z klientem Mullvad. Takie rozwiązanie zapewnia dodatkową warstwę zaciemniania i szyfrowania.
+- **Niestandardowe adresy IP serwerów**: Aby obejść blokowanie adresów IP, użytkownicy mogą poprosić zespół pomocy technicznej Mullvad o przydzielenie niestandardowych adresów IP. Po otrzymaniu niestandardowych adresów IP możesz wprowadzić plik tekstowy w ustawieniach w sekcji „Server IP override” (Zastępowanie adresu IP serwera), co spowoduje nadpisanie wybranych adresów IP serwerów adresami nieznanymi cenzurze.
+- **Mostki i serwery proxy**: Mullvad umożliwia również korzystanie z mostków lub serwerów proxy do uzyskania dostępu do swojego interfejsu API (wymaganego do uwierzytelnienia), co pomaga w obejściu prób cenzury blokujących połączenia z API.
 
-#### :material-check:{ .pg-green } Klienci Mobilni
+#### :material-check:{ .pg-green } Aplikacje mobilne
 
-Mullvad opublikował klientów [App Store](https://apps.apple.com/app/id1488466513) i [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn), z których oba obsługują łatwy w użyciu interfejs, nie wymagający ręcznej konfiguracji połączenia WireGuard. Klient Android jest również dostępny na [GitHub](https://github.com/mullvad/mullvadvpn-app/releases).
+Mullvad udostępnia aplikacje w [App Store](https://apps.apple.com/app/id1488466513) oraz [Google Play](https://play.google.com/store/apps/details?id=net.mullvad.mullvadvpn), obie z prostym w obsłudze interfejsem, który eliminuje konieczność ręcznej konfiguracji połączenia WireGuard. Aplikacja na Androida dostępna jest również na [GitHubie](https://github.com/mullvad/mullvadvpn-app/releases).
 
-#### :material-information-outline:{ .pg-blue } Dodatkowe Uwagi
+#### :material-information-outline:{ .pg-blue } Dodatkowe uwagi
 
-Mullvad jest bardzo przejrzysty, jeśli chodzi o węzły, które [posiada lub wynajmuje](https://mullvad.net/en/servers). Zapewniają one również opcję włączenia w swoich aplikacjach funkcji Defense Against AI-guided Traffic Analysis[(DAITA](https://mullvad.net/en/blog/daita-defense-against-ai-guided-traffic-analysis)). DAITA chroni przed zagrożeniami związanymi z zaawansowaną analizą ruchu, która może być wykorzystywana do łączenia wzorców w ruchu VPN z określonymi stronami internetowymi.
+Mullvad zachowuje pełną przejrzystość w kwestii tego, które węzły [posiada, a które wynajmuje](https://mullvad.net/pl/servers). Dodatkowo w aplikacjach dostępna jest opcja włączenia funkcji Defense Against AI-guided Traffic Analysis ([DAITA](https://mullvad.net/pl/blog/daita-defense-against-ai-guided-traffic-analysis)). DAITA chroni przed zaawansowaną analizą ruchu sieciowego, która może być wykorzystywana do powiązania wzorców ruchu VPN z konkretnymi odwiedzanymi stronami internetowymi.
 
 ## Kryteria
 
