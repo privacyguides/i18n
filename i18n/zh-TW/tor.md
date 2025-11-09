@@ -80,7 +80,7 @@ schema:
 
 </div>
 
-Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。 因此， **不應** 修改瀏覽器超出預設 [安全級別](https://tb-manual.torproject.org/security-settings)。 When modifying the security level setting, you **must** always restart the browser before continuing to use it. 否則，[安全設定可能無法完全套用](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw)，使您遭受指紋辨識和漏洞利用的風險比您對所選設定的預期還要高。
+Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。 因此， **不應** 修改瀏覽器超出預設 [安全級別](https://tb-manual.torproject.org/security-settings)。 修改安全層級後，您**必須**重新啟動瀏覽器才能繼續使用。 否則，[安全設定可能無法完全套用](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw)，使您遭受指紋辨識和漏洞利用的風險比您對所選設定的預期還要高。
 
 除了直接在電腦安裝 Tor 瀏覽器外，還有專門設計用於連接到 Tor 網路的操作系統，例如 [Qubes OS 作業系統](desktop.md#qubes-os) ＋ [Whonix](desktop.md#whonix) ，它們提供比標準 Tor 瀏覽器更高的安全性和保護。
 
@@ -92,13 +92,13 @@ Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。
 
 **Onion 瀏覽器** 是開源瀏覽器，其可讓您在 iOS 設備上匿名瀏覽 Tor 網路，其有 [Tor Project](https://support.torproject.org/glossary/onion-browser/)之保證。
 
-[:material-star-box: Read our latest Onion Browser review.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
+[:material-star-box: 閱讀我們的最新 Onion 瀏覽器評測報告。](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
 
-[:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title="Contribute" }
+[:octicons-home-16: 首頁](https://onionbrowser.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="隱私權政策" }
+[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title="文件" }
+[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="原始碼" }
+[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title="貢獻" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -111,4 +111,4 @@ Tor 瀏覽器旨在防止指紋識別----根據您的瀏覽器配置識別您。
 
 Onion Browser 不提供與 Tor Browser 在電腦平台上相同等級的隱私保護。 對於日常使用而言，這是存取隱藏服務的絕佳方式，但如果您擔心被先進的對手追蹤或監視，則不應將其視為匿名工具。
 
-[Notably](https://github.com/privacyguides/privacyguides.org/issues/2929), Onion Browser does not *guarantee* all requests go through Tor. When using the built-in version of Tor, [your real IP **will** be leaked via WebRTC and audio/video streams](https://onionbrowser.com/faqs) due to limitations of WebKit. It is *safer* to use Onion Browser alongside [Orbot](alternative-networks.md#orbot), but this still comes with some limitations on iOS.
+[值得注意的是](https://github.com/privacyguides/privacyguides.org/issues/2929)，Onion 瀏覽器無法*保證*所有請求都會通過 Tor 網路傳輸。 使用內建版本的 Tor 時，由於 WebKit 的限制，[您的真實 IP **將會**透過 WebRTC 與音訊/視訊串流洩漏](https://onionbrowser.com/faqs)。 在使用 [Orbot](alternative-networks.md#orbot) 的同時使用 Onion 瀏覽器會*比較安全*，但在 iOS 上仍有一些限制。
