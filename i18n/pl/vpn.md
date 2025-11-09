@@ -114,19 +114,19 @@ Proton VPN udostępnia aplikacje w [App Store](https://apps.apple.com/app/id1437
 <div class="admonition warning" markdown>
 <p class="admonition-title">Jak zrezygnować z udostępniania telemetrii</p>
 
-Na Androidzie Proton ukrywa ustawienia telemetrii pod myląco nazwanym menu "**Pomóż nam walczyć z cenzurą**" w panelu ustawień. Na innych platformach ustawienia te można znaleźć w menu "**Statystyki użytkowania**".
+Na Androidzie ustawienia telemetrii ukryte są w menu myląco nazwanym „**Pomóż nam w walce z cenzurą**” w panelu ustawień. Na innych platformach ustawienia te znajdują się w menu „**Statystyki użytkowania**”.
 
-Zwracamy na to uwagę, ponieważ nie zalecamy udostępnianie anonimowych statystyk użytkowania deweloperom. Ważne jest, aby te ustawienia były łatwe do znalezienia i wyraźnie oznaczone.
+Warto o tym wspomnieć, ponieważ choć niekoniecznie odradzamy dzielenie się anonimowymi statystykami z deweloperami, ważne jest, aby te ustawienia były łatwo dostępne i jasno opisane.
 
 </div>
 
-#### :material-information-outline:{ .pg-blue } Dodatkowe Uwagi
+#### :material-information-outline:{ .pg-blue } Dodatkowe uwagi
 
-Proton VPN obsługuje uwierzytelnianie dwuskładnikowe na wszystkich platformach. Proton VPN posiada własne serwery i centra danych w Szwajcarii, Islandii i Szwecji. Oferują blokowanie treści i blokowanie znanego złośliwego oprogramowania za pomocą swojej usługi DNS. Dodatkowo, Proton VPN oferuje również serwery "Tor" umożliwiające łatwe łączenie się z witrynami cebulowymi, ale nadal zdecydowanie zalecamy korzystanie z [oficjalnej przeglądarki Tor Browser](tor.md#tor-browser) do tego celu.
+Aplikacje Proton VPN obsługują uwierzytelnianie dwuskładnikowe na wszystkich platformach. Proton VPN posiada własne serwery i centra danych w Szwajcarii, Islandii i Szwecji. Usługa oferuje blokowanie treści oraz znanego złośliwego oprogramowania poprzez serwery DNS. Dodatkowo Proton VPN udostępnia serwery „Tor”, umożliwiające łatwe łączenie się z witrynami .onion, choć wciąż zdecydowanie zalecamy korzystanie z [oficjalnej przeglądarki Tor Browser](tor.md#tor-browser) w tym celu.
 
-##### :material-alert-outline:{ .pg-orange } Funkcja Kill Switch nie działa na komputerach Mac z procesorami Intel
+##### :material-alert-outline:{ .pg-orange } Funkcja Kill Switch nie działa poprawnie na komputerach Mac z procesorami Intel
 
-Podczas korzystania z funkcji Kill Switch VPN na komputerach Mac z procesorami Intel [mogą wystąpić](https://protonvpn.com/support/macos-t2-chip-kill-switch) awarie systemu. Jeśli wymagasz tej funkcji i korzystasz z komputera Mac z chipsetem Intel, powinieneś rozważyć skorzystanie z innej usługi VPN.
+Na komputerach Mac z procesorami Intel użycie funkcji Kill Kwitch VPN [może prowadzić do awarii systemu](https://protonvpn.com/support/pl/macos-t2-chip-kill-switch). Jeśli potrzebujesz tej funkcji i korzystasz z Maca z chipsetem Intel, warto rozważyć użycie innej usługi VPN.
 
 ### IVPN
 
@@ -199,7 +199,7 @@ IVPN ma tryby zaciemniania przy użyciu [V2Ray](https://v2ray.com/en/index.html)
 
 IVPN opublikował klientów [App Store](https://apps.apple.com/app/id1193122683) i [Google Play](https://play.google.com/store/apps/details?id=net.ivpn.client), z których oba obsługują łatwy w użyciu interfejs, nie wymagający ręcznej konfiguracji połączenia WireGuard. Klient Android jest również dostępny na [GitHub](https://github.com/ivpn/android-app/releases).
 
-#### :material-information-outline:{ .pg-blue } Dodatkowe Uwagi
+#### :material-information-outline:{ .pg-blue } Dodatkowe uwagi
 
 Klienci IVPN obsługują uwierzytelnianie dwuskładnikowe. IVPN zapewnia również funkcję["AntiTracker](https://ivpn.net/antitracker)", która blokuje sieci reklamowe i trackery z poziomu sieci.
 
