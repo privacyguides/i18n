@@ -101,18 +101,18 @@ Proton [obsługuje teraz IPv6](https://protonvpn.com/support/pl/prevent-ipv6-vpn
 
 Proton VPN obecnie obsługuje jedynie efemeryczne zdalne [przekierowanie portów](https://protonvpn.com/support/pl/port-forwarding) poprzez NAT-PMP, z 60-sekundowym czasem dzierżawy. Oficjalne aplikacje dla systemów Windows i Linux oferują łatwo dostępne opcje konfiguracji, natomiast na innych systemach operacyjnych konieczne jest uruchomienie własnego [klienta NAT-PMP](https://protonvpn.com/support/pl/port-forwarding-manual-setup). Aplikacje do torrentów często obsługują NAT-PMP natywnie.
 
-#### :material-information-outline:{ .pg-blue } Anty-Cenzura
+#### :material-information-outline:{ .pg-blue } Ochrona przed cenzurą
 
-Proton VPN ma swój protokół [Stealth](https://protonvpn.com/blog/stealth-vpn-protocol), który *może* pomóc w sytuacjach, w których protokoły VPN, takie jak OpenVPN lub WireGuard, są blokowane za pomocą różnych podstawowych technik. Stealth enkapsuluje tunel VPN w sesji TLS, aby wyglądał jak bardziej zwyczajny ruch internetowy.
+Proton VPN oferuje protokół [Stealth](https://protonvpn.com/blog/pl/stealth-vpn-protocol), który *może* pomóc w sytuacjach, gdy protokoły VPN, takie jak OpenVPN czy WireGuard, są blokowane przez różne proste metody. Stealth hermetyzuje tunel VPN w sesji TLS, aby wyglądał jak zwykły ruch internetowy.
 
-Niestety, nie działa to zbyt dobrze w krajach, w których wdrożone są zaawansowane filtry analizujące cały ruch wychodzący w celu wykrycia zaszyfrowanych tuneli. Stealth jest dostępny na Androida, iOS, Windows i macOS, ale nie jest jeszcze dostępny na Linuksa.
+Niestety, nie sprawdza się dobrze w krajach, które stosują zaawansowane filtry analizujące cały wychodzący ruch w celu wykrycia tuneli szyfrowanych. Stealth jest dostępny na systemach Android, iOS, Windows i macOS, ale nie jest jeszcze dostępny na Linuksa.
 
 #### :material-check:{ .pg-green } Aplikacje mobilne
 
-Proton VPN opublikował klientów [App Store](https://apps.apple.com/app/id1437005085) i [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android), z których oba obsługują łatwy w użyciu interfejs, nie wymagający ręcznej konfiguracji połączenia WireGuard. Aplikacja na Androida jest również dostępna na [GitHub](https://github.com/ProtonVPN/android-app/releases).
+Proton VPN udostępnia aplikacje w [App Store](https://apps.apple.com/app/id1437005085) i [Google Play](https://play.google.com/store/apps/details?id=ch.protonvpn.android), oferujące łatwy w obsłudze interfejs, bez konieczności ręcznej konfiguracji połączenia WireGuard. Aplikacja na Androida dostępna jest również na [GitHubie](https://github.com/ProtonVPN/android-app/releases).
 
 <div class="admonition warning" markdown>
-<p class="admonition-title">Jak zrezygnować z udostępniania danych telemetrycznych</p>
+<p class="admonition-title">Jak zrezygnować z udostępniania telemetrii</p>
 
 Na Androidzie Proton ukrywa ustawienia telemetrii pod myląco nazwanym menu "**Pomóż nam walczyć z cenzurą**" w panelu ustawień. Na innych platformach ustawienia te można znaleźć w menu "**Statystyki użytkowania**".
 
