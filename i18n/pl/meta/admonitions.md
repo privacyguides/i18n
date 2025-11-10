@@ -1,14 +1,14 @@
 ---
-title: Admonitions
-description: A guide for website contributors on creating admonitions.
+title: Objaśnienia
+description: Przewodnik dla współtwórców tej strony na temat tworzenia objaśnień.
 ---
 
-**Admonitions** (or "call-outs") are tools that writers can use to include side content in an article without interrupting the document flow.
+Objaśnienia (ang. _admonitions_ lub _call-outs_) to narzędzia, dzięki którym redaktorzy mogą dodawać dodatkowe komentarze do artykułów bez zaburzania płynności tekstu.
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example Admonition</p>
+<p class="admonition-title">Przykładowe objaśnienie</p>
 
-This is an example of an admonition. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+To jest przykład objaśnienia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
 </div>
 
