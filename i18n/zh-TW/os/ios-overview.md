@@ -22,19 +22,29 @@ iOS 上唯一的應用程式來源是 Apple 的 App Store，需要有 Apple 帳�
 
 ### 侵入式遙測
 
-Apple has historically had problems with properly disassociating their telemetry from Apple Accounts on iOS. In [2019](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings), Apple was found to transmit Siri recordings—some containing highly confidential information—to their servers for manual review by third-party contractors. Though Apple temporarily stopped that program after that practice was [widely reported on](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana), the company rolled out a switch to [**opt out** of uploading conversations with Siri](https://theguardian.com/technology/2019/oct/30/apple-lets-users-opt-out-of-having-siri-conversations-recorded) a few months later in the succeeding iOS update. Moreover, in 2021, [Apple reworked Siri](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance) so that it processes voice recordings locally rather than sending it to their servers.
+在 iOS 上，Apple 在適當地將遙測功能與 Apple 帳號取消關聯上一直都有問題。 [2019 年](https://theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings)，Apple 被發現將 Siri 錄音（其中一些包含高度機密資訊）傳輸回其伺服器，以供第三方承包商進行手動審核。 儘管在此作法被[廣泛報導](https://theverge.com/2019/8/23/20830120/apple-contractors-siri-recordings-listening-1000-a-day-globetech-microsoft-cortana)之後，Apple 已停止該計畫，而該公司也在幾個月後，於後續的 iOS 更新當中推出了一組開關，讓使用者能
 
-More recently, Apple has been found to transmit analytics [even when analytics sharing is disabled](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558) on iOS, and this data [appears](https://twitter.com/mysk_co/status/1594515229915979776) to be easily linked to unique iCloud account identifiers despite supposedly being decoupled from Apple Accounts.
+**選擇退出**上傳對話給 Siri。 此外，在 2021 年，[Apple 重新修改了 Siri](https://theguardian.com/technology/2021/jun/07/apple-overhauls-siri-to-address-privacy-concerns-and-improve-performance)，使其在本機處理語音記錄，不再傳送至伺服器中。</p> 
 
-### Traffic Outside Active VPN Connections
+最近，人們發現[就算關閉分享使用分析資料](https://gizmodo.com/apple-iphone-analytics-tracking-even-when-off-app-store-1849757558)，iOS 也還是會傳輸出去。儘管這些資料應該已進行匿名化處理，不再與 Apple 帳號相關，但這些資料[似乎](https://twitter.com/mysk_co/status/1594515229915979776)還是很容易連結到唯一的 iCloud 帳號識別碼。
 
-Apple's [privacy policy regarding VPNs](https://apple.com/legal/privacy/data/en/vpns) states:
 
-> Even when a VPN is active, some traffic that is necessary for essential system services will take place outside the VPN so that your device can function properly.
+
+### 使用中的 VPN 連線以外的流量
+
+Apple 的[隱私權政策](https://apple.com/legal/privacy/data/en/vpns)針對 VPN 有下列描述：
+
+
+
+> 即使已開啟 VPN，一些必要的系統服務流量仍會在 VPN 外部進行，以讓您的裝置能夠正常運作。
+
+
 
 ## 建議的設定
 
-**Note:** This guide assumes that you're running the latest version of iOS.
+**註：**本指南假設您使用的是最新版本的 iOS。
+
+
 
 ### iCloud
 
@@ -46,6 +56,8 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 您也可以先限制同步到 iCloud 的內容來保護您的資料。 在「 **設定** 」應用程式的頂部，如果您已登入 iCloud ，便會看到您的姓名和個人資料相片。 選擇該選項，然後選擇 **iCloud**，然後關閉您不想同步到 iCloud 的任何服務的交換機。 如果第三方應用程式與 iCloud 同步，您可能會看到列在「 **顯示全部** 」下的第三方應用程式，您可以在此處停用這些應用程式。
 
+
+
 #### iCloud+
 
 付費 **iCloud+** 訂閱（任何 iCloud 儲存方案）附帶一些隱私保護功能。 雖然這些能為當前 iCloud 客戶提供足夠服務，但不建議通過 [VPN](../vpn.md) 購買 iCloud 方案，和將 [獨立電子郵件別名服務](../email-aliasing.md)僅用在這些功能。
@@ -54,11 +66,15 @@ Apple 產品的大多數隱私和安全問題與其雲服務有關，而不是�
 
 **Hide My Email** 是 Apple 電子郵件別名服務。 當您在網站或應用程式上*使用 Apple 登錄*時，您可以免費創建電子郵件別名，或者通過付費 iCloud+ 方案生成無數的別名。 Hide My Email 的優點是使用 `@icloud.com` 域作為其別名，與其他電子郵件別名服務相比，它可能不太可能被阻止，但不提供獨立服務提供的功能，例如 例如自動 PGP 加密或多郵箱支援。
 
+
+
 #### 媒體 & 購買項目
 
-At the top of the **Settings** app, you'll see your name and profile picture if you are signed in to an Apple Account. 選取該項目，然後選擇**媒體與購買項目**→**檢視帳號**。
+如果您有登入 Apple 帳號，在**設定**應用程式的頂端，會看到姓名和個人檔案圖片。 選取該項目，然後選擇**媒體與購買項目**→**檢視帳號**。
 
 - [ ] 關閉 **個人化推薦**
+
+
 
 #### Find My
 
@@ -71,13 +87,19 @@ At the top of the **Settings** app, you'll see your name and profile picture if 
 
 在 **設定** 應用程式的頂端，如果您登入了 Apple 帳戶，您會看到您的姓名和個人檔案圖片。 選取這項然後再選 **尋找**。 此處您可以選擇是否啟用或禁用“尋找設備”功能。
 
+
+
 ### 設定
 
 許多其他與隱私相關的設定可以在**設定**應用中找到。
 
+
+
 #### 飛航模式
 
 啟用 **飛航模式** 會阻止您的手機與手機基地塔連線。 您仍然可以連接到 Wi-Fi 和藍牙，因此每當您連接到 Wi-Fi 時，您都可以開啟此設定。
+
+
 
 #### Wi-Fi
 
@@ -87,17 +109,21 @@ At the top of the **Settings** app, you'll see your name and profile picture if 
 
 您也可以選擇 **限制 IP 位址追蹤**。 這與 iCloud Private Relay 類似，但僅影響與“已知跟踪器”的連接。 因為它只影響與潛在惡意伺服器的連接，所以啟用此設定應該沒問題，但如果不希望*任何*流量通過 Apple 的伺服器路由，則可把它關掉。
 
+
+
 #### 藍牙
 
 **當您不使用藍牙時，應停用藍牙** ，因為它會增加您被攻擊的機會。 透過控制中心停用藍牙（或 Wi-Fi ）只會暫時停用：您必須在「設定」中關閉藍牙才能保持有效。
 
 - [ ] 關閉 **藍牙**
 
-Note that Bluetooth is automatically turned on after every system update.
+請注意，每次系統更新後或自動開啟藍牙。
+
+
 
 #### 一般設定
 
-預設情況中，您的 iPhone 裝置名稱將包含您的名字，所連接的網路中的其它人都可以看到該名稱。 所以應該將其更改為更一般的名稱，例如“iPhone”。 Select **About** → **Name** and enter the device name you prefer.
+預設情況中，您的 iPhone 裝置名稱將包含您的名字，所連接的網路中的其它人都可以看到該名稱。 所以應該將其更改為更一般的名稱，例如“iPhone”。 選擇**關於** → **名稱** ，然後輸入您想要使用的裝置名稱。
 
 經常安裝 **軟體更新** 以獲得最新的安全修復非常重要。 您可以啟用 **自動更新** ，以保持手機最新，而無需不斷檢查更新。 選擇**軟體更新**→**自動更新**：
 
@@ -105,7 +131,7 @@ Note that Bluetooth is automatically turned on after every system update.
 - [x] 打開 **（自動安裝類別） iOS 更新項目**
 - [x] 打開 **安全回應與系統檔案**
 
-**AirDrop** is commonly used to easily share files, but it represents a significant privacy risk. The AirDrop protocol constantly broadcasts your personal information to your surroundings, with [very weak](https://usenix.org/system/files/sec21-heinrich.pdf) security protections. Your identity can easily be discovered by attackers even with limited resources, and the Chinese government has [openly acknowledged](https://arstechnica.com/security/2024/01/hackers-can-id-unique-apple-airdrop-users-chinese-authorities-claim-to-do-just-that) using such techniques to identify AirDrop users in public since 2022.
+**AirDrop** 常被用來分享檔案，但也代表可能有重大的安全性風險。 AirDrop 通訊協定會不斷向周遭環境廣播您的個人資訊，雖有安全防護但[非常薄弱](https://usenix.org/system/files/sec21-heinrich.pdf)。 就是算資源受限的攻擊者，也能輕鬆找出您的身分；中國政府自 2022 年起也[公開承認](https://arstechnica.com/security/2024/01/hackers-can-id-unique-apple-airdrop-users-chinese-authorities-claim-to-do-just-that)使用該技術於公開場所識別 AirDrop 使用者。
 
 - [x] 選取 **AirDrop**→**關閉接收**
 
@@ -113,9 +139,11 @@ Note that Bluetooth is automatically turned on after every system update.
 
 - [x] 選擇 **永不** 或 **詢問**
 
-**背景 App 重新整理**可將應用程式在不使用時刷新其內容。 這可能會導致它們建立不必要的連接。 Turning this off can also save battery life, but may affect an app's ability to receive updated information, particularly weather and messaging apps.
+**背景 App 重新整理**可將應用程式在不使用時刷新其內容。 這可能會導致它們建立不必要的連接。 關閉此功能還可節省電池壽命，但可能會影響應用程式接收更新資訊的能力，特別是天氣和訊息軟體。
 
 選擇 **背景 App 重新整理** 並切掉無需在背景下繼續刷新的應用。 若不想讓任何 apps 在背景刷新，可再次選擇 **背景 App 重新整理** 並將其 **關閉**。
+
+
 
 #### Siri & 尋找
 
@@ -123,9 +151,11 @@ Note that Bluetooth is automatically turned on after every system update.
 
 - [ ] 關閉 **畫面鎖住時可使用 Siri**
 
+
+
 #### Face ID/Touch ID & 密碼
 
-在手機上設定強密碼是確保設備物理安全的最重要步驟。 You'll have to make trade-offs here between security and convenience: A longer password will be annoying to type in every time, but a shorter password or PIN will be easier to guess. 設定 Face ID 或 Touch ID 以及強密碼可以在可用性和安全性之間實現良好折衷。
+在手機上設定強密碼是確保設備物理安全的最重要步驟。 您必須權衡安全性與方便性：輸入夠長、夠亂的密碼很麻煩，但密碼如果太短，或只使用 PIN 碼卻又容易被猜到。 設定 Face ID 或 Touch ID 以及強密碼可以在可用性和安全性之間實現良好折衷。
 
 選擇**開啟密碼**或**更改密碼**→**密碼選項**→**自訂英數密碼**。 確認建立[安全密碼](../basics/passwords-overview.md)。
 
@@ -133,13 +163,13 @@ Note that Bluetooth is automatically turned on after every system update.
 
 如果使用生物識別技術，應該知道如何在緊急情況下快速關閉它們。 按住側面按鈕或電源按鈕以及*任一*音量按鈕，直到看到滑動關閉滑塊為止，這將禁用生物識別功能，需要密碼才能解鎖。 設備重新啟動後還需要您的密碼。
 
-On some older devices, you may have to press the power button five times to disable biometrics instead, or for devices with Touch ID, you may just have to hold down the power button and nothing else. Make sure you try this in advance, so you know which method works for your device.
+在某些較舊的裝置上，可能需要按電源按鈕五次才能停用生物識別功能。如果是具有 Touch ID 的裝置，可能只需按住電源按鈕即可。 請務必先試著操作一下，這樣才知道您的裝置需使用哪種方法關閉。
 
-**Stolen Device Protection** adds additional security intended to protect your personal data if your device is stolen while unlocked. If you use biometrics and the Find My Device feature in your Apple Account settings, we recommend enabling this new protection:
+**遭竊裝置防護**能增加安全性，萬一裝置在解鎖時被偷走，可保護您的個人資料。 若您在 Apple 帳號設定中使用生物辨識技術和「尋找我的裝置」功能，我們建議開啟此個新保護：
 
 - [x] 選擇**開啟保護**
 
-啟用被盜設備保護後，[某些操作](https://support.apple.com/HT212510)將需要生物識別身份驗證，無需密碼回退（如果駭客准竊盜已獲得您的 PIN），例如使用密碼自動填寫功能就可訪問支付資訊並關閉遺失模式。 It also adds a security delay to certain actions performed away from your home or another "familiar location," such as requiring a 1-hour timer to reset your Apple Account password or sign out of your Apple Account. 此延遲是為了有時間啟用遺失模式並在小偷重置設備前保護好您的帳戶。
+啟用被盜設備保護後，[某些操作](https://support.apple.com/HT212510)將需要生物識別身份驗證，無需密碼回退（如果駭客准竊盜已獲得您的 PIN），例如使用密碼自動填寫功能就可訪問支付資訊並關閉遺失模式。 它還可以針對在住家或其他「熟悉位置」以外的地點執行的某些操作加入安全延遲，例如需要 1 小時來重設 Apple 帳號的密碼，或登出 Apple 帳號。 此延遲是為了有時間啟用遺失模式並在小偷重置設備前保護好您的帳戶。
 
 **鎖定時允許存取** 提供您在手機鎖定時可以允許的選項。 禁用的這些選項越多，沒有密碼者可做的事情就越少，但對您來說也就更不方便。 選擇不希望其他人接觸您的手機後訪問其中哪些內容。
 
@@ -165,6 +195,8 @@ iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長�
 
 - [x] 打開 **清除資料**
 
+
+
 #### 隱私 & 安全
 
 **定位服務**可用在“尋找”和“地圖”等功能。 如果不需要這些功能，可以禁用定位服務。 或者，可以在此處查看並選擇哪些應用程式可以使用您的位置資訊。 選擇 **定位服務**:
@@ -174,8 +206,8 @@ iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長�
 在這些設定中，最近曾使用您位置的應用程式旁會出現紫色箭頭，而灰色箭頭則表示您的位置在過去 24 小時內曾被存取。 如果您決定開啟位置服務，Apple 預設會將其用於系統服務。 您可以在此檢視並挑選哪些服務可以使用您的位置資訊。 不過，如果您不想向 Apple 提交位置分析資料（他們會利用這些資料來改善 Apple Maps），您也可以在此停用該功能。 選擇**分析與改進功能**：
 
 - [ ] 關閉 **分享 iPhone 分析**
-- [ ] Turn off **Routing & Traffic**
-- [ ] Turn off **Improve Maps**
+- [ ] 關閉**路線與交通量**
+- [ ] 關閉**改進地圖**
 
 您在此處決定是否讓 apps **追蹤** 活動。 關閉此功能可禁止所有應用程式利用手機的廣告 ID 進行跟踪。 選擇 **追蹤**:
 
@@ -196,8 +228,8 @@ iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長�
 - [ ] 關閉 **改善 Fitness+**
 - [ ] 關閉 **改進安全性**
 - [ ] 關閉 **改進 Siri 與聽寫**
-- [ ] Turn off **Improve Assistive Voice Features**
-- [ ] Turn off **Improve AR Location Accuracy**
+- [ ] 關閉**改善輔助語音功能**
+- [ ] 關閉**改善 AR 定位精確度**
 
 關閉 **個人化廣告** 如不願加入針對式行銷。 選擇 **Apple 廣告**:
 
@@ -211,17 +243,25 @@ iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長�
 
 - [x] 選擇 **開啟封閉模式**
 
+
+
 ## 其它建議
+
+
 
 ### E2EE 通話
 
 通過電信運營商使用“電話”應用程式撥打的一般電話不是 E2EE。 Both FaceTime Video and FaceTime Audio calls are E2EE. Alternatively, you can use [another app](../real-time-communication.md) like Signal for E2EE calls.
+
+
 
 ### 加密的 iMessage
 
 The [color of the message bubble](https://support.apple.com/en-us/104972) in the Messages app indicates whether your messages are E2EE or not. A blue bubble indicates that you're using iMessage with E2EE, while a green bubble indicates the other party is using either the outdated SMS and MMS protocols or RCS. RCS on iOS is **not** E2EE. Currently, the only way to have E2EE in Messages is for both parties to be using iMessage on Apple devices.
 
 如果您或您的訊息傳遞夥伴在沒有進階資料保護下啟用 iCloud 備份，則加密金鑰會儲存在 Apple 伺服器，這意味著他們可以訪問您的訊息。 Additionally, iMessage's key exchange is not as secure as alternative implementations like Signal's (which allows you to view the recipients key and verify by QR code), so it shouldn't be relied on for particularly sensitive communications.
+
+
 
 ### Photo Permissions
 
@@ -237,11 +277,15 @@ Rather than allow an app to access all the photos on your device, you can allow 
 
 Some apps also support **Private Access**, which functions similarly to the **Limited Access** permission. However, photos shared to apps using Private Access include their location by default. We recommend unchecking this setting if you do not [remove photo metadata](../data-redaction.md) beforehand.
 
+
+
 ### Contact Permissions
 
 Similarly, rather than allow an app to access all the contacts saved on your device, you can allow it to only access whichever contacts you choose. You can change contact access permissions at any time by navigating to **Settings** → **Privacy & Security** → **Contacts**.
 
 ![Contact Permissions](../assets/img/ios/contact-permissions-light.png#only-light) ![Contact Permissions](../assets/img/ios/contact-permissions-dark.png#only-dark)
+
+
 
 ### Require Biometrics and Hide Apps
 
@@ -250,6 +294,8 @@ iOS offers the ability to lock most apps behind Touch ID/Face ID or your passcod
 In addition to locking apps behind biometrics, you can also hide apps so that they don't appear on the Home Screen, App Library, the app list in **Settings**, etc. While hiding apps may be useful in situations where you have to hand your unlocked phone to someone else, the concealment provided by the feature is not absolute, as a hidden app is still visible in some places such as the battery usage list. Moreover, one notable trade off of hiding an app is that you will not receive any of its notifications.
 
 You can hide an app by long-pressing on it and selecting **Require Face ID/Touch ID** → **Hide and Require Face ID/Touch ID**. Note that pre-installed Apple apps, as well as the default web browser and email app, cannot be hidden. Hidden apps reside in a **Hidden** folder at the bottom of the App Library, which can be unlocked using biometrics. This folder appears in the App Library whether you hid any apps or not, which provides you a degree of plausible deniability.
+
+
 
 ### Redacting Elements in Images
 
@@ -271,15 +317,23 @@ Our warning [against blurring text](../data-redaction.md) also applies here, so 
 
 **Don't** use the highlighter to obfuscate information, as its opacity is not quite 100%.
 
+
+
 ### 避免 iOS越獄
 
 iPhone 越獄會破壞其安全性更容易受到攻擊。 運行不可信任的第三方軟體可能會導致設備感染惡意軟體。
+
+
 
 ### iOS Betas
 
 Apple 會為那些希望幫助查找和報告錯誤的人先提供 iOS 測試版。 不建議在手機上安裝測試版軟體。 Beta 版本不夠穩定，可能存在未被發現的安全漏洞。
 
+
+
 ## 安全重點
+
+
 
 ### Before First Unlock(初次解鎖之前)
 
