@@ -1,6 +1,6 @@
 ---
 meta_title: "隱私 VPN 服務建議和比較，無任何贊助商或廣告 - Privacy Guides"
-title: "VPN 服務"
+title: VPN 服務
 icon: material/vpn
 description: 保護您線上隱私與安全的最佳 VPN 服務。 Find a provider here that isn't out to spy on you.
 cover: vpn.webp
@@ -23,7 +23,7 @@ global:
 
 如果您追求的是 **匿名性** ，您應該使用 Tor 瀏覽器。 如果您正在尋求額外的 **安全性** ，您應該始終確保使用 HTTPS 連接到網站。 VPN不能取代良好的安全措施。
 
-[下載 Tor](https://torproject.org){ .md-button .md-button--primary } [Tor 迷思 & 常見問答](advanced/tor-overview.md){ .md-button }
+[Introduction to the Tor Browser](tor.md#tor-browser){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
 
 </div>
 
@@ -33,11 +33,11 @@ global:
 
 我們推薦的供應商使用加密技術，支援 WireGuard & OpenVPN，並有無記錄政策。 閱讀我們[完整的標準清單](#criteria)，瞭解更多資訊。
 
-| 供應商                   | 國家   | WireGuard                     | 端口轉發                                        | IPv6                                              | 匿名付款方式    |
-| --------------------- | ---- | ----------------------------- | ------------------------------------------- | ------------------------------------------------- | --------- |
-| [Proton](#proton-vpn) | 127+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } 部分支援 | :material-information-outline:{ .pg-blue } 有限支援   | 現金        |
-| [IVPN](#ivpn)         | 41+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-information-outline:{ .pg-blue } 僅限連出流量 | Monero、現金 |
-| [Mullvad](#mullvad)   | 49+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-check:{ .pg-green }                     | Monero、現金 |
+| 供應商                   | 國家   | WireGuard                     | 端口轉發                                        | IPv6                                              | 匿名付款方式                       |
+| --------------------- | ---- | ----------------------------- | ------------------------------------------- | ------------------------------------------------- | ---------------------------- |
+| [Proton](#proton-vpn) | 127+ | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } 部分支援 | :material-information-outline:{ .pg-blue } 有限支援   | Cash  Monero via third party |
+| [IVPN](#ivpn)         | 41+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-information-outline:{ .pg-blue } 僅限連出流量 | Monero  Cash                 |
+| [Mullvad](#mullvad)   | 49+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-check:{ .pg-green }                     | Monero  Cash                 |
 
 ### Proton VPN
 
@@ -47,10 +47,10 @@ global:
 
 **Proton VPN** 是 VPN 領域的強大競爭者，自 2016 年開始營運。 Proton AG 總部位於瑞士，提供有限的免費方案，以及更多功能的付費方案。
 
-[:octicons-home-16: 首頁](https://protonvpn.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://protonvpn.com/support){ .card-link title="說明文件"}
-[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="原始碼" }
+[:octicons-home-16: Homepage](https://protonvpn.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://protonvpn.com/support){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -78,15 +78,17 @@ Proton VPN has [servers in 127 countries](https://protonvpn.com/vpn-servers)(1) 
 
 #### :material-check:{ .pg-green } 獨立稽核
 
-截至 2020 年 1 月， Proton VPN 已通過 SEC Consult 的獨立審計。 SEC Consult 在 Proton VPN Windows、Android 和 iOS 應用程式中發現一些中低風險漏洞，Proton VPN 已在報告發布之前全部 “妥善修復” 了這些漏洞。 所發現的問題都不會讓攻擊者遠端存取您的裝置或流量。 您可以在 [protonvpn.com](https://protonvpn.com/blog/open-source) 查看各個平臺的報告。 2022 年 4 月，Proton VPN 接受[另一次審核](https://protonvpn.com/blog/no-logs-audit)。 [Securitum](https://research.securitum.com) 於 2021 年 11 月 9 日簽發 Proton VPN 的[應用程式認證函](https://proton.me/blog/security-audit-all-proton-apps) 。
+Independent security researcher Ruben Santamarta conducted audits for Proton VPN's [browser extensions](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) and [apps](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) in September 2024 and January 2025, respectively. Proton VPN's infrastrcture has undergone [annual audits](https://protonvpn.com/blog/no-logs-audit) by Securitum since 2022.
+
+Previously, Proton VPN underwent an independent audit by SEC Consult in January 2020. SEC Consult 在 Proton VPN Windows、Android 和 iOS 應用程式中發現一些中低風險漏洞，Proton VPN 已在報告發布之前全部 “妥善修復” 了這些漏洞。 所發現的問題都不會讓攻擊者遠端存取您的裝置或流量。 You can view individual reports for each platform in their dedicated [blog post](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) on the audit.
 
 #### :material-check:{ .pg-green } 開源客戶端
 
-Proton VPN 在其 [GitHub 組織](https://github.com/ProtonVPN) 中提供桌面和行動裝置客戶端的原始碼。
+Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
 
 #### :material-check:{ .pg-green } 接受現金
 
-除了信用卡/簽帳卡、PayPal 和 [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) 以外，Proton VPN 還接受 **現金/當地貨幣** 等匿名付款方式。
+Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment. You can also use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton VPN Plus and Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
 
 #### :material-check:{ .pg-green } 支援 WireGuard
 
@@ -137,10 +139,10 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 
 **IVPN** 是另一個高級 VPN 供應商，自 2009 年開始運營。 IVPN 位於直布羅陀，不提供免費試用。
 
-[:octicons-home-16: 首頁](https://ivpn.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="說明文件"}
-[:octicons-code-16:](https://github.com/ivpn){ .card-link title="原始碼" }
+[:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -176,7 +178,7 @@ IVPN has had multiple [independent audits](https://ivpn.net/en/blog/tags/audit) 
 
 #### :material-check:{ .pg-green } 接受現金和 Monero
 
-除了接受信用卡/簽帳卡和 PayPal 外，IVPN 還接受比特幣、**Monero** 和 **現金/當地貨幣** (僅限年度方案) 作為匿名付款方式。 [也提供](https://ivpn.net/knowledgebase/billing/voucher-cards-faq).帶有兌換代碼的預付卡。
+除了接受信用卡/簽帳卡和 PayPal 外，IVPN 還接受比特幣、**Monero** 和 **現金/當地貨幣** (僅限年度方案) 作為匿名付款方式。 You can also purchase [prepaid cards](https://ivpn.net/knowledgebase/billing/voucher-cards-faq) with redeem codes.
 
 #### :material-check:{ .pg-green } 支援 WireGuard
 
@@ -212,11 +214,11 @@ IVPN clients support two-factor authentication. IVPN 有「[反追蹤](https://i
 
 **Mullvad** 是一個快速且便宜的 VPN，非常注重透明和安全性。 他們自 2009 年起開始營運。 Mullvad is based in Sweden and offers a 14-day money-back guarantee for [payment methods](https://mullvad.net/en/help/refunds) that allow it.
 
-[:octicons-home-16: 首頁](https://mullvad.net){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="洋蔥服務" }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="隱私權政策" }
-[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="說明文件" }
-[:octicons-code-16:](https://github.com/mullvad){ .card-link title="原始碼" }
+[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>下載</summary>
@@ -251,7 +253,7 @@ Mullvad 在其 [GitHub 組織](https://github.com/mullvad/mullvadvpn-app) 中提
 
 #### :material-check:{ .pg-green } 接受現金和 Monero
 
-除了接受信用卡/簽帳卡和 PayPal 外， Mullvad 還接受比特幣, Bitcoin Cash **Monero** 和 **現金/當地貨幣** （年度方案繳費）作為匿名付款方式。 也提供帶有兌換代碼的預付卡。 Mullvad 也接受 Swish 和銀行電匯，以及一些歐洲的付款系統。
+除了接受信用卡/簽帳卡和 PayPal 外， Mullvad 還接受比特幣, Bitcoin Cash **Monero** 和 **現金/當地貨幣** （年度方案繳費）作為匿名付款方式。 You can also purchase [prepaid cards](https://mullvad.net/en/help/partnerships-and-resellers) with redeem codes. Mullvad 也接受 Swish 和銀行電匯，以及一些歐洲的付款系統。
 
 #### :material-check:{ .pg-green } 支援 WireGuard
 

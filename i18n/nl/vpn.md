@@ -1,6 +1,6 @@
 ---
 meta_title: "Privé VPN Service Aanbevelingen en Vergelijkingen, Geen Sponsors of Advertenties - Privacy Guides"
-title: "VPN-diensten"
+title: VPN-diensten
 icon: material/vpn
 description: The best VPN services for protecting your privacy and security online. Find a provider here that isn't out to spy on you.
 cover: vpn.webp
@@ -23,7 +23,7 @@ Using a VPN will **not** keep your browsing habits anonymous, nor will it add ad
 
 If you are looking for **anonymity**, you should use the Tor Browser. If you're looking for added **security**, you should always ensure you're connecting to websites using HTTPS. Een VPN is geen vervanging voor goede beveiligingspraktijken.
 
-[Download Tor](https://torproject.org){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+[Introduction to the Tor Browser](tor.md#tor-browser){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
 
 </div>
 
@@ -33,11 +33,11 @@ If you are looking for **anonymity**, you should use the Tor Browser. If you're 
 
 Our recommended providers use encryption, support WireGuard & OpenVPN, and have a no logging policy. Lees onze [volledige lijst met criteria](#criteria) voor meer informatie.
 
-| Provider              | Countries | WireGuard                     | Port Forwarding                                        | IPv6                                                       | Anonymous Payments |
-| --------------------- | --------- | ----------------------------- | ------------------------------------------------------ | ---------------------------------------------------------- | ------------------ |
-| [Proton](#proton-vpn) | 127+      | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Partial Support | :material-information-outline:{ .pg-blue } Limited Support | Contant            |
-| [IVPN](#ivpn)         | 41+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-information-outline:{ .pg-blue } Outgoing Only   | Monero, Cash       |
-| [Mullvad](#mullvad)   | 49+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-check:{ .pg-green }                              | Monero, Cash       |
+| Provider              | Countries | WireGuard                     | Port Forwarding                                        | IPv6                                                       | Anonymous Payments           |
+| --------------------- | --------- | ----------------------------- | ------------------------------------------------------ | ---------------------------------------------------------- | ---------------------------- |
+| [Proton](#proton-vpn) | 127+      | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Partial Support | :material-information-outline:{ .pg-blue } Limited Support | Cash  Monero via third party |
+| [IVPN](#ivpn)         | 41+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-information-outline:{ .pg-blue } Outgoing Only   | Monero  Cash                 |
+| [Mullvad](#mullvad)   | 49+       | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                 | :material-check:{ .pg-green }                              | Monero  Cash                 |
 
 ### Proton VPN
 
@@ -49,7 +49,7 @@ Our recommended providers use encryption, support WireGuard & OpenVPN, and have 
 
 [:octicons-home-16: Homepage](https://protonvpn.com){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://protonvpn.com/support){ .card-link title=Documentation}
+[:octicons-info-16:](https://protonvpn.com/support){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -78,15 +78,17 @@ Wij denken ook dat het beter is voor de veiligheid van de privésleutels van de 
 
 #### :material-check:{ .pg-green } Onafhankelijk geaudit
 
-Vanaf januari 2020, heeft Proton VPN een onafhankelijke audit door SEC Consult ondergaan. SEC Consult vond enkele kwetsbaarheden met een gemiddeld en laag risico in de Windows-, Android- en iOS-applicaties van Proton VPN, die allemaal door Proton VPN "naar behoren waren verholpen" voordat de rapporten werden gepubliceerd. Geen van de geconstateerde problemen zou een aanvaller op afstand toegang hebben verschaft tot jouw apparaat of verkeer. You can view individual reports for each platform at [protonvpn.com](https://protonvpn.com/blog/open-source). In April 2022 Proton VPN underwent [another audit](https://protonvpn.com/blog/no-logs-audit). Een [attestatiebrief](https://proton.me/blog/security-audit-all-proton-apps) werd op 9 november 2021 voor de apps van Proton VPN verstrekt door [Securitum](https://research.securitum.com).
+Independent security researcher Ruben Santamarta conducted audits for Proton VPN's [browser extensions](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) and [apps](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) in September 2024 and January 2025, respectively. Proton VPN's infrastrcture has undergone [annual audits](https://protonvpn.com/blog/no-logs-audit) by Securitum since 2022.
+
+Previously, Proton VPN underwent an independent audit by SEC Consult in January 2020. SEC Consult vond enkele kwetsbaarheden met een gemiddeld en laag risico in de Windows-, Android- en iOS-applicaties van Proton VPN, die allemaal door Proton VPN "naar behoren waren verholpen" voordat de rapporten werden gepubliceerd. Geen van de geconstateerde problemen zou een aanvaller op afstand toegang hebben verschaft tot jouw apparaat of verkeer. You can view individual reports for each platform in their dedicated [blog post](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) on the audit.
 
 #### :material-check:{ .pg-green } Open-source clients
 
-Proton VPN levert de broncode voor hun desktop en mobiele clients in hun [GitHub organisatie](https://github.com/ProtonVPN).
+Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
 
 #### :material-check:{ .pg-green } Accepteert contant geld
 
-Proton VPN accepteert, naast credit/debit cards, PayPal en [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), ook **contant geld** als anonieme vorm van betaling.
+Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment. You can also use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton VPN Plus and Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
 
 #### :material-check:{ .pg-green } WireGuard ondersteuning
 
@@ -139,7 +141,7 @@ System crashes [may occur](https://protonvpn.com/support/macos-t2-chip-kill-swit
 
 [:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title=Documentation}
+[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -176,7 +178,7 @@ As of February 2020 [IVPN applications are now open source](https://ivpn.net/blo
 
 #### :material-check:{ .pg-green } Accepteert contant geld en Monero
 
-In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **Monero** and **cash/local currency** (on annual plans) as anonymous forms of payment. Prepaid cards with redeem codes are [also available](https://ivpn.net/knowledgebase/billing/voucher-cards-faq).
+In addition to accepting credit/debit cards and PayPal, IVPN accepts Bitcoin, **Monero** and **cash/local currency** (on annual plans) as anonymous forms of payment. You can also purchase [prepaid cards](https://ivpn.net/knowledgebase/billing/voucher-cards-faq) with redeem codes.
 
 #### :material-check:{ .pg-green } WireGuard ondersteuning
 
@@ -215,7 +217,7 @@ IVPN clients support two-factor authentication. IVPN also provides "[AntiTracker
 [:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
 [:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title=Documentation}
+[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -251,7 +253,7 @@ Mullvad levert de broncode voor hun desktop en mobiele clients in hun [GitHub or
 
 #### :material-check:{ .pg-green } Accepteert contant geld en Monero
 
-Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. Prepaid cards with redeem codes are also available. Mullvad also accepts Swish and bank wire transfers, as well as a few European payment systems.
+Mullvad, in addition to accepting credit/debit cards and PayPal, accepts Bitcoin, Bitcoin Cash, **Monero** and **cash/local currency** as anonymous forms of payment. You can also purchase [prepaid cards](https://mullvad.net/en/help/partnerships-and-resellers) with redeem codes. Mullvad also accepts Swish and bank wire transfers, as well as a few European payment systems.
 
 #### :material-check:{ .pg-green } WireGuard ondersteuning
 

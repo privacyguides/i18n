@@ -119,16 +119,7 @@ Además, algunas distribuciones no descargan automáticamente las actualizacione
 
 ### Controles de Permisos
 
-Los entornos de escritorio (DEs) que admiten el protocolo de visualización [Wayland](https://wayland.freedesktop.org) son [más seguros](https://lwn.net/Articles/589147) que los que solo admiten X11. Sin embargo, no todos los DEs aprovechan al máximo las mejoras de seguridad de la arquitectura de Wayland.
-
-Por ejemplo, GNOME tiene una notable ventaja en seguridad comparado con otras DEs al implementar controles de permisos para software de terceros que intenta [capturar tu pantalla](https://gitlab.gnome.org/GNOME/gnome-shell/-/issues/3943). Es decir, cuando una aplicación de terceros intenta capturar tu pantalla, se te pide permiso para compartir tu pantalla con la aplicación.
-
-<figure markdown>
-  Permisos de Captura de Pantalla](../assets/img/linux/screenshot_permission.png){ width="450" }
- <figcaption>Diálogo de permisos de captura de pantalla de GNOME</figcaption>
-</figure>
-
-Muchas alternativas aún no ofrecen estos mismos controles de permisos,[^1] mientras que otras están esperando a que Wayland implemente estos controles.[^2]
+Desktop environments that support the [Wayland](https://wayland.freedesktop.org) display protocol are [more secure](https://lwn.net/Articles/589147) than those that only support X11. Moreover, we *generally* recommend installing and using applications which are sandboxed such as those obtained via **Flatpak**. Flatpak supports the [`security-context-v1`](https://github.com/flatpak/flatpak/pull/4920) protocol and the ability to filter D-Bus protocols, which allow Flatpak to properly identify apps for the purpose of sandboxing them through permission controls.[^1] Conversely, applications outside sandboxes are free to perform privileged actions such as capturing your screen, either by [overwriting the portal permission store](https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/issues/7#note_1112260), or [making use of privileged Wayland protocols](https://github.com/swaywm/sway/pull/7648#issuecomment-2507730794).
 
 ## Ajustes de privacidad
 
@@ -177,5 +168,4 @@ Esta [opción](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-bo
 
 openSUSE también utiliza un [ID único](https://en.opensuse.org/openSUSE:Statistics) para contar los sistemas, que puede desactivarse vaciando el archivo `/var/lib/zypp/AnonymousUniqueId`.
 
-[^1]: KDE tiene actualmente una propuesta abierta para añadir controles para capturas de pantalla: <https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/issues/7>
-[^2]: Sway está esperando a añadir controles de seguridad específicos hasta que "sepa cómo va a funcionar la seguridad en su conjunto" en Wayland: <https://github.com/swaywm/sway/issues/5118#issuecomment-600054496>
+[^1]: This exposes a reliable way for Wayland compositors to get identifying information about a client. Compositors can then apply security policies if desirable. [https://github.com/flatpak/flatpak/commit/f0e626a4b60439f211f06d35df74b675a9ef42f4](https://github.com/flatpak/flatpak/commit/f0e626a4b60439f211f06d35df74b675a9ef42f4)

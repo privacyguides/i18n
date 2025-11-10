@@ -119,16 +119,7 @@ Linux 發行版，如 [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) �
 
 ### 權限控制
 
-支援 [Wayland](https://wayland.freedesktop.org) 顯示通訊協定的桌面環境 (DE) 比只支援 X11 的桌面環境 [更安全](https://lwn.net/Articles/589147) 。 然而，並非所有的 DE 都能充分利用 Wayland 的架構安全性改進。
-
-舉例來說，GNOME 藉由對嘗試 [擷取螢幕的](https://gitlab.gnome.org/GNOME/gnome-shell/-/issues/3943) 第三方軟體實施權限控制，在安全性上比其他 DE 有顯著的優勢。 也就是說，當第三方應用程式嘗試擷取您的螢幕時，會提示您是否同意與該應用程式分享您的螢幕。
-
-<figure markdown>
-  ![Screenshot permissions](../assets/img/linux/screenshot_permission.png){ width="450" }
-  <figcaption>GNOME 的截圖權限對話框</figcaption>
-</figure>
-
-許多替代方案尚未提供這些相同的權限控制[^1]；而有些則在等待 Wayland 在上游實作這些控制[^2]。
+Desktop environments that support the [Wayland](https://wayland.freedesktop.org) display protocol are [more secure](https://lwn.net/Articles/589147) than those that only support X11. Moreover, we *generally* recommend installing and using applications which are sandboxed such as those obtained via **Flatpak**. Flatpak supports the [`security-context-v1`](https://github.com/flatpak/flatpak/pull/4920) protocol and the ability to filter D-Bus protocols, which allow Flatpak to properly identify apps for the purpose of sandboxing them through permission controls.[^1] Conversely, applications outside sandboxes are free to perform privileged actions such as capturing your screen, either by [overwriting the portal permission store](https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/issues/7#note_1112260), or [making use of privileged Wayland protocols](https://github.com/swaywm/sway/pull/7648#issuecomment-2507730794).
 
 ## 隱私微調
 
@@ -177,5 +168,4 @@ Fedora 專案使用 [`countme`](https://fedoraproject.org/wiki/Changes/DNF_Bette
 
 openSUSE 則是使用[唯一的 ID](https://en.opensuse.org/openSUSE:Statistics) 來計算系統，可以通過清空`/var/lib/zypp/AnonymousUniqueId` 此檔案來禁用。
 
-[^1]: KDE 目前有一個開放的提案，加入螢幕擷取的控制： <https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/issues/7>
-[^2]: Sway 正在等待加入特定的安全控制，直到他們「知道 Wayland 的整體安全性會如何發展」： <https://github.com/swaywm/sway/issues/5118#issuecomment-600054496>
+[^1]: This exposes a reliable way for Wayland compositors to get identifying information about a client. Compositors can then apply security policies if desirable. [https://github.com/flatpak/flatpak/commit/f0e626a4b60439f211f06d35df74b675a9ef42f4](https://github.com/flatpak/flatpak/commit/f0e626a4b60439f211f06d35df74b675a9ef42f4)

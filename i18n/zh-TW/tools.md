@@ -209,7 +209,7 @@ description: Privacy Guides 社群所推薦的隱私工具、服務、軟體及�
 
     ---
 
-    Mailbox Mail is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. 自 **2014 年** 開始運營。 Mailbox Mail 總部位於德國柏林。 Accounts start with up to 2 GB storage, which can be upgraded as needed.
+    Mailbox Mail (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. 自 **2014 年** 開始運營。 Mailbox Mail 總部位於德國柏林。 Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#mailbox-mail)
 

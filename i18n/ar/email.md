@@ -22,11 +22,11 @@ global:
 
 خلا ذلك فنوصي بعدد من موفِّري خدمة البريد الإلكتروني، وذلك حسب استدامة نموذجات عملهم وأمنهم ومزايا الخصوصية عندهم. للمزيد من المعلومات، اطلع على [قائمة المعايير](#criteria).
 
-| مزوّد                         | OpenPGP / WKD                          | IMAP / SMTP                                               | تشفير يمنع وصول المزود إلى البيانات                   | وسائل الدفع بدون هوية                                  |
-| ----------------------------- | -------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------ |
-| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } خطط مدفوعة فقط | :material-check:{ .pg-green }                         | نقداً                                                  |
-| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                             | :material-information-outline:{ .pg-blue } البريد فقط | نقداً                                                  |
-| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                    | :material-check:{ .pg-green }                         | مونيرو (Monero) <br> دفع نقدي من خلال وسيط خارجي |
+| مزوّد                         | OpenPGP / WKD                          | IMAP / SMTP                                               | تشفير يمنع وصول المزود إلى البيانات                   | وسائل الدفع بدون هوية                                 |
+| ----------------------------- | -------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
+| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } خطط مدفوعة فقط | :material-check:{ .pg-green }                         | Cash <br>Monero via third party                 |
+| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                             | :material-information-outline:{ .pg-blue } البريد فقط | نقداً                                                 |
+| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                    | :material-check:{ .pg-green }                         | Monero via third party <br>Cash via third party |
 
 الإضافة إلى (أو بدلا من) مزود البريد الإلكتروني الموصى به هنا، قد ترغب في استخدام [خدمة مخصصة لإخفاء البريد الإلكتروني](email-aliasing.md#recommended-providers) (email aliasing) لحماية خصوصيتك. من بين فوائد هذه الخدمات أنها تساعد في حماية بريدك الحقيقي من الرسائل المزعجة، وتمنع جهات التسويق من ربط حساباتك ببعضها، كما يمكنها تشفير جميع الرسائل الواردة باستخدام PGP.
 
@@ -85,11 +85,25 @@ global:
 
 </div>
 
-الحسابات المجانية لديها بعض القيود، مثل عدم القدرة على البحث داخل محتوى الرسائل، وعدم إمكانية استخدام أداة [Proton Mail Bridge](https://proton.me/mail/bridge)، التي تُستخدم لربط بريد Proton مع [برامج البريد على الكمبيوتر](email-clients.md) مثل Thunderbird. لمن اشترك في حساب عند بريد بروتون مزايا، مثل جسر بريد بروتون ومساحة تخزين إضافية ودعم أسماء النطاق المخصَّصة. إذا كنت مشتركا في خطة Proton Unlimited أو أي خطة متعددة المستخدمين من Proton، فستحصل أيضا على [SimpleLogin](email-aliasing.md#simplelogin) Premium مجانا، وهي خدمة تساعدك على إنشاء عناوين بريد إلكتروني مستعارة لحماية خصوصيتك وتجنب الرسائل المزعجة.
+Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) such as Thunderbird. لمن اشترك في حساب عند بريد بروتون مزايا، مثل جسر بريد بروتون ومساحة تخزين إضافية ودعم أسماء النطاق المخصَّصة. The Proton Unlimited plan or any multi-user Proton plan includes access to [SimpleLogin](email-aliasing.md#simplelogin) Premium.
 
-أعطت [سكيورتم](https://research.securitum.com) [شهادةً](https://proton.me/blog/security-audit-all-proton-apps) لتطبيقات بريد بروتون في التاسع من نوفمبر عام ٢٠٢١.
+A [letter of attestation](https://res.cloudinary.com/dbulfrlrz/images/v1714639878/wp-pme/letter-of-attestation-proton-mail-20211109_3138714c61/letter-of-attestation-proton-mail-20211109_3138714c61.pdf) was provided for Proton Mail's apps in November 2021 by [Securitum](https://research.securitum.com).
 
-بريد Proton Mail يحتوي على تقارير أعطال داخلية (internal crash reports) **لا** تتم مشاركتها مع أي جهة خارجية. يمكنك إيقاف هذا الخيار من خلال تطبيق الويب::gear: → **جميع الإعدادات (All Settings)** → **الحساب (Account)** → **الأمان والخصوصية (Security and privacy)** → **الخصوصية وجمع البيانات (Privacy and data collection)**.
+Proton Mail has internal crash reports that are **not** shared with third parties and can be disabled.
+
+=== "Web"
+
+    From your inbox, select :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+
+    - [ ] Disable **Collect usage dignostics**
+    - [ ] Disable **Send crash reports**
+
+=== "Mobile"
+
+    From your inbox, select :material-menu: → :gear: **Settings** → select your username.
+
+    - [ ] Disable **Send crash reports**
+    - [ ] Disable **Collect usage dignostics**
 
 #### :material-check:{ .pg-green } النطاقات المخصَّصة والكنى
 
@@ -97,7 +111,7 @@ global:
 
 #### :material-check:{ .pg-green } سُبُل الدفع الخاصَّة
 
-يقبل Proton Mail [الدفع](https://proton.me/support/payment-options) **نقدًا عبر البريد** (عن طريق إرسال المبلغ ورقيًا إلى عنوانهم البريدي)، بالإضافة إلى وسائل الدفع المعتادة مثل بطاقات الـ credit/debit، [البيتكوين](advanced/payments.md#other-coins-bitcoin-ethereum-etc)، وPayPal.
+يقبل Proton Mail [الدفع](https://proton.me/support/payment-options) **نقدًا عبر البريد** (عن طريق إرسال المبلغ ورقيًا إلى عنوانهم البريدي)، بالإضافة إلى وسائل الدفع المعتادة مثل بطاقات الـ credit/debit، [البيتكوين](advanced/payments.md#other-coins-bitcoin-ethereum-etc)، وPayPal. Additionally, you can use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton Mail Plus or Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
 
 #### :material-check:{ .pg-green } أمن الحساب
 
@@ -129,7 +143,7 @@ global:
 
 ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
 
-**Mailbox Mail** is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. وهم يعملون منذ ٢٠١٤. Mailbox Mail is based in Berlin, Germany.
+**Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. وهم يعملون منذ ٢٠١٤. Mailbox Mail is based in Berlin, Germany.
 
 تبدأ الحسابات بسعة تخزين تصل إلى 2 جيجابايت، ويمكن زيادتها حسب الحاجة.
 
@@ -232,7 +246,7 @@ Mailbox Mail has a digital legacy feature for all plans. يمكنك اختيار
 
 #### :material-information-outline:{ .pg-blue } سُبُل الدفع الخاصَّة
 
-تدعم Tuta الدفع المباشر عبر بطاقات الائتمان وPayPal فقط، ولكن يمكن استخدام [**العملات الرقمية**](cryptocurrency.md) لشراء بطاقات هدايا من خلال شراكتهم مع [ProxyStore](https://tuta.com/support/#cryptocurrency).
+Tuta only directly accepts credit cards and PayPal, however you can use [**cryptocurrency**](cryptocurrency.md) to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
 
 #### :material-check:{ .pg-green } أمن الحساب
 

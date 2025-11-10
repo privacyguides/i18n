@@ -22,11 +22,11 @@ global:
 
 Для всего остального мы рекомендуем различных провайдеров электронной почты, которые базируются на устойчивых бизнес-моделях и встроенных функциях безопасности и конфиденциальности. Для получения дополнительной информации, ознакомьтесь с [полным списком критериев](#criteria).
 
-| Провайдер                     | OpenPGP / WKD                          | IMAP / SMTP                                                      | Шифрование с нулевым доступом                           | Анонимные способы оплаты                    |
-| ----------------------------- | -------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------- |
-| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue }  Только платные планы | :material-check:{ .pg-green }                           | Наличные                                    |
-| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                    | :material-information-outline:{ .pg-blue } Только почта | Наличные                                    |
-| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                           | :material-check:{ .pg-green }                           | Monero <br>Наличные через третьих лиц |
+| Провайдер                     | OpenPGP / WKD                          | IMAP / SMTP                                                      | Шифрование с нулевым доступом                           | Анонимные способы оплаты                              |
+| ----------------------------- | -------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------- | ----------------------------------------------------- |
+| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue }  Только платные планы | :material-check:{ .pg-green }                           | Cash <br>Monero via third party                 |
+| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                    | :material-information-outline:{ .pg-blue } Только почта | Наличные                                              |
+| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                           | :material-check:{ .pg-green }                           | Monero via third party <br>Cash via third party |
 
 В дополнение к (или вместо) рекомендованному здесь провайдеру электронной почты, вы можете рассмотреть специализированный [сервис создания псевдонимов электронной почты](email-aliasing.md#recommended-providers) для защиты вашей конфиденциальности. Помимо прочего, эти сервисы могут помочь защитить ваш настоящий почтовый ящик от спама, предотвратить корреляцию ваших аккаунтов маркетологами и шифровать все входящие сообщения с помощью PGP.
 
@@ -85,11 +85,25 @@ OpenPGP также не поддерживает прямую секретнос
 
 </div>
 
-Бесплатные аккаунты имеют некоторые ограничения, такие как невозможность поиска писем по седержимому и отсутствие доступа к [Proton Mail Bridge](https://proton.me/mail/bridge), который необходим для использования [рекомендуемого настольного почтового клиента](email-clients.md) (например, Thunderbird). Платные аккаунты включают такие функции, как Proton Mail Bridge, дополнительное хранилище и поддержку пользовательских доменов. Если у тебя есть план Proton Unlimited или любой многопользовательский план Proton, ты также получаешь [SimpleLogin](email-aliasing.md#simplelogin) Premium бесплатно.
+Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) such as Thunderbird. Платные аккаунты включают такие функции, как Proton Mail Bridge, дополнительное хранилище и поддержку пользовательских доменов. The Proton Unlimited plan or any multi-user Proton plan includes access to [SimpleLogin](email-aliasing.md#simplelogin) Premium.
 
-[Аттестационное письмо](https://proton.me/blog/security-audit-all-proton-apps) было предоставлено для приложений Proton Mail 9 ноября 2021 года компанией [Securitum](https://research.securitum.com).
+A [letter of attestation](https://res.cloudinary.com/dbulfrlrz/images/v1714639878/wp-pme/letter-of-attestation-proton-mail-20211109_3138714c61/letter-of-attestation-proton-mail-20211109_3138714c61.pdf) was provided for Proton Mail's apps in November 2021 by [Securitum](https://research.securitum.com).
 
-У Proton Mail есть внутренние отчеты о сбоях, которые **не** передаются третьим сторонам. Это можно отключить в веб-приложении: :gear: → **Все настройки** → **Аккаунт** → **Безопасность и конфиденциальность** → **Конфиденциальность и сбор данных**.
+Proton Mail has internal crash reports that are **not** shared with third parties and can be disabled.
+
+=== "Web"
+
+    From your inbox, select :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+
+    - [ ] Disable **Collect usage dignostics**
+    - [ ] Disable **Send crash reports**
+
+=== "Mobile"
+
+    From your inbox, select :material-menu: → :gear: **Settings** → select your username.
+
+    - [ ] Disable **Send crash reports**
+    - [ ] Disable **Collect usage dignostics**
 
 #### :material-check:{ .pg-green } Пользовательские домены и псевдонимы
 
@@ -97,7 +111,7 @@ OpenPGP также не поддерживает прямую секретнос
 
 #### :material-check:{ .pg-green } Конфиденциальные способы оплаты
 
-Proton Mail [принимает](https://proton.me/support/payment-options) **наличные** по почте в дополнение к стандартным платежам кредитными/дебетовыми картами, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) и PayPal.
+Proton Mail [принимает](https://proton.me/support/payment-options) **наличные** по почте в дополнение к стандартным платежам кредитными/дебетовыми картами, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) и PayPal. Additionally, you can use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton Mail Plus or Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
 
 #### :material-check:{ .pg-green } Безопасность аккаунта
 
@@ -127,9 +141,9 @@ Proton Mail также публикует открытые ключи аккау
 
 <div class="admonition recommendation" markdown>
 
-![Логотип Mailbox Mail](assets/img/email/mailbox-mail.svg){ align=right }
+![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
 
-**Mailbox Mail** — это сервис электронной почты, ориентированный на безопасность, отсутствие рекламы и работающий на 100% экологически чистой энергии. Они работают с 2014 года. Mailbox Mail базируется в Берлине, Германия.
+**Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Они работают с 2014 года. Mailbox Mail базируется в Берлине, Германия.
 
 Аккаунты начинаются с объемом хранилища до 2 ГБ, который при необходимости можно увеличить.
 
@@ -231,7 +245,7 @@ Tuta не поддерживает [протокол IMAP](https://tuta.com/supp
 
 #### :material-information-outline:{ .pg-blue } Конфиденциальные способы оплаты
 
-Tuta напрямую принимает только кредитные карты и PayPal, однако [**криптовалюта**](cryptocurrency.md) может быть использована для покупки подарочных карт через их [партнерство](https://tuta.com/support/#cryptocurrency) с ProxyStore.
+Tuta only directly accepts credit cards and PayPal, however you can use [**cryptocurrency**](cryptocurrency.md) to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
 
 #### :material-check:{ .pg-green } Безопасность аккаунта
 

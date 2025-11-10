@@ -22,11 +22,11 @@ global:
 
 それ以外にも、持続可能なビジネスモデル、組み込まれたセキュリティーとプライバシー機能に基づき、様々な電子メールプロバイダーを推奨します。 詳細については、[基準の完全なリスト](#criteria)をお読みください。
 
-| プロバイダー                        | OpenPGP / WKD                          | IMAP / SMTP                                        | ゼロアクセス暗号化                                        | 匿名での支払方法                  |
-| ----------------------------- | -------------------------------------- | -------------------------------------------------- | ------------------------------------------------ | ------------------------- |
-| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } 有料プランのみ | :material-check:{ .pg-green }                    | 現金                        |
-| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                      | :material-information-outline:{ .pg-blue } メールのみ | 現金                        |
-| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }             | :material-check:{ .pg-green }                    | Monero<br>第三者経由での現金 |
+| プロバイダー                        | OpenPGP / WKD                          | IMAP / SMTP                                        | ゼロアクセス暗号化                                        | 匿名での支払方法                                              |
+| ----------------------------- | -------------------------------------- | -------------------------------------------------- | ------------------------------------------------ | ----------------------------------------------------- |
+| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } 有料プランのみ | :material-check:{ .pg-green }                    | Cash <br>Monero via third party                 |
+| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                      | :material-information-outline:{ .pg-blue } メールのみ | 現金                                                    |
+| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }             | :material-check:{ .pg-green }                    | Monero via third party <br>Cash via third party |
 
 推奨するEメールプロバイダーに加え（もしくは代わりに）、プライバシー保護のために[Eメールエイリアスサービス](email-aliasing.md#recommended-providers)を検討してください。 特に、スパムから実際の受信トレイを保護し、企業のマーケティング活動によるアカウントの関連付けを防ぎ、すべての受信メールをPGPで暗号化することができます。
 
@@ -85,11 +85,25 @@ Proton の無償プランのメールストレージは500MBから始まり、�
 
 </div>
 
-無償アカウントには本文の検索ができないことや、 [推奨されるデスクトップメールクライアント](email-clients.md) (Thunderbirdなど)を使用するために必要な [Proton Mail Bridge](https://proton.me/mail/bridge) を利用できないといった制限があります。 有料アカウントにはProton Mail Bridge、追加ストレージ、カスタムドメインのサポートなどの機能が含まれています。 Proton Unlimitedプランや複数ユーザープランの場合、[SimpleLogin](email-aliasing.md#simplelogin)も無料で利用できます。
+Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) such as Thunderbird. 有料アカウントにはProton Mail Bridge、追加ストレージ、カスタムドメインのサポートなどの機能が含まれています。 The Proton Unlimited plan or any multi-user Proton plan includes access to [SimpleLogin](email-aliasing.md#simplelogin) Premium.
 
-[Securitum](https://research.securitum.com)により2021年11月9日 [監査証明書](https://proton.me/blog/security-audit-all-proton-apps) がProton Mailアプリにおくられました。
+A [letter of attestation](https://res.cloudinary.com/dbulfrlrz/images/v1714639878/wp-pme/letter-of-attestation-proton-mail-20211109_3138714c61/letter-of-attestation-proton-mail-20211109_3138714c61.pdf) was provided for Proton Mail's apps in November 2021 by [Securitum](https://research.securitum.com).
 
-Proton Mailのクラッシュレポートは第三者に共有**されません**。 これはウェブアプリで無効にすることができます：:gear: → **すべての設定** → **アカウント** → **セキュリティとプライバシー** → **プライバシーとデータ収集**。
+Proton Mail has internal crash reports that are **not** shared with third parties and can be disabled.
+
+=== "Web"
+
+    From your inbox, select :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+
+    - [ ] Disable **Collect usage dignostics**
+    - [ ] Disable **Send crash reports**
+
+=== "Mobile"
+
+    From your inbox, select :material-menu: → :gear: **Settings** → select your username.
+
+    - [ ] Disable **Send crash reports**
+    - [ ] Disable **Collect usage dignostics**
 
 #### :material-check:{ .pg-green } カスタムドメインとエイリアス
 
@@ -97,7 +111,7 @@ Proton Mailの有料会員は独自ドメインでサービスや [キャッチ�
 
 #### :material-check:{ .pg-green } プライベートな支払い方法
 
-Proton Mailは郵送による**現金**やクレジットカード・デビットカードの支払いに加え、[Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc)やPayPalでの支払いも[受け付けています](https://proton.me/support/payment-options)。
+Proton Mailは郵送による**現金**やクレジットカード・デビットカードの支払いに加え、[Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc)やPayPalでの支払いも[受け付けています](https://proton.me/support/payment-options)。 Additionally, you can use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton Mail Plus or Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
 
 #### :material-check:{ .pg-green } アカウントのセキュリティ
 
@@ -129,7 +143,7 @@ Proton Mailの[Unlimited](https://proton.me/support/proton-plans#proton-unlimite
 
 ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
 
-**Mailbox Mail** is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. 2014年から運営をされています。 Mailbox Mail is based in Berlin, Germany.
+**Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. 2014年から運営をされています。 Mailbox Mail is based in Berlin, Germany.
 
 各アカウントには最大2GBのストレージが割当てられ、必要に応じてアップグレードできます。
 
@@ -232,7 +246,7 @@ Tutaは[IMAPプロトコル](https://tuta.com/support#imap)やサードパーテ
 
 #### :material-information-outline:{ .pg-blue } プライベートな支払い方法
 
-TutaはクレジットカードもしくはPaypalのみ受け付けていますが、ProxyStoreとの[提携](https://tuta.com/support/#cryptocurrency)により、[**暗号通貨**](cryptocurrency.md)でギフトカードを購入することができます。
+Tuta only directly accepts credit cards and PayPal, however you can use [**cryptocurrency**](cryptocurrency.md) to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
 
 #### :material-check:{ .pg-green } アカウントのセキュリティ
 

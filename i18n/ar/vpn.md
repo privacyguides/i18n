@@ -1,6 +1,6 @@
 ---
 meta_title: "توصيات ومقارنة بين خِدْمَات الشبكات الخاصة الافتراضية، دون رعاة أو إعلانات - Privacy Guides"
-title: "خدمات الشبكات الخاصة الافتراضية"
+title: خدمات الشبكات الخاصة الافتراضية
 icon: material/vpn
 description: أفضل خدمات الشبكات الخاصة الافتراضية لحماية خصوصيتك وأمانك على الإنترنت. اعثر هنا على مزود خدمة لا يريد التجسس عليك.
 cover: vpn.webp
@@ -23,7 +23,7 @@ global:
 
 إذا كنت تبحث عن **عدم الكشف عن هويتك**، فعليك استخدام متصفح Tor. إذا كنت تبحث عن **أمان** إضافي، يجب التأكد من الاتصال بمواقع الويب باستخدام ميثاق نَقْل النُصوصٍ التَرابُطيَّة الآمن (HTTPS). الشبكات الخاصة الافتراضية ليست بديلاً للممارسات الأمنية الجيدة.
 
-[نزّل Tor](https://torproject.org){ .md-button .md-button--primary } [خرافات وأسئلة شائعة خاصة بـ Tor](advanced/tor-overview.md){ .md-button }
+[Introduction to the Tor Browser](tor.md#tor-browser){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
 
 </div>
 
@@ -33,11 +33,11 @@ global:
 
 يستخدم مزودو الخدمات الذين نوصي بهم التشفير، ويدعمون WireGuard & OpenVPN، ولديهم سياسة عدم تسجيل الاتصالات. للمزيد من المعلومات، اطلع على [قائمة المعايير](#criteria).
 
-| مزوّد                 | البُلدان | WireGuard                     | إعادة توجيه المنفذ (Port Forwarding)                | IPv6                                                     | المدفوعات المخفيّة |
-| --------------------- | -------- | ----------------------------- | --------------------------------------------------- | -------------------------------------------------------- | ------------------ |
-| [Proton](#proton-vpn) | 127+     | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } الدعم الجزئي | :material-information-outline:{ .pg-blue } الدعم المحدود | نقداً              |
-| [IVPN](#ivpn)         | 41+      | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }              | :material-information-outline:{ .pg-blue } الصادر فقط    | Monero, نقداً      |
-| [ملفاد](#mullvad)     | 49+      | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }              | :material-check:{ .pg-green }                            | Monero, نقداً      |
+| مزوّد                 | البُلدان | WireGuard                     | إعادة توجيه المنفذ (Port Forwarding)                | IPv6                                                     | المدفوعات المخفيّة           |
+| --------------------- | -------- | ----------------------------- | --------------------------------------------------- | -------------------------------------------------------- | ---------------------------- |
+| [Proton](#proton-vpn) | 127+     | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } الدعم الجزئي | :material-information-outline:{ .pg-blue } الدعم المحدود | Cash  Monero via third party |
+| [IVPN](#ivpn)         | 41+      | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }              | :material-information-outline:{ .pg-blue } الصادر فقط    | Monero  Cash                 |
+| [ملفاد](#mullvad)     | 49+      | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }              | :material-check:{ .pg-green }                            | Monero  Cash                 |
 
 ### الشبكات الخاصة الافتراضية من Proton
 
@@ -47,10 +47,10 @@ global:
 
 **الشبكات الخاصة الافتراضية من Proton** هي منافس قوي في مجال الشبكات الخاصة الافتراضية، وهي تعمل منذ عام 2016. يقع مقر شركة Proton AG في سويسرا وتقدم فئة مجانية محدودة، بالإضافة إلى خِيار مميز أكثر.
 
-[:octicons-home-16: صفحتهم](https://protonvpn.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="سياسة الخصوصية" }
-[:octicons-info-16:](https://protonvpn.com/support){ .card-link title=التوثيق}
-[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="النص المصدري" }
+[:octicons-home-16: Homepage](https://protonvpn.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://protonvpn.com/support){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>التنزيلات</summary>
@@ -78,15 +78,17 @@ Proton VPN has [servers in 127 countries](https://protonvpn.com/vpn-servers)(1) 
 
 #### :material-check:{ .pg-green } تمت مراجعته من جهة مستقلة
 
-في يناير 2020، أُجري تدقيق أمني مستقل لخدمة Proton VPN من قبل شركة SEC Consult المتخصصة. اكتشفت شركة SEC Consult بعض الثغرات الأمنية متوسطة ومنخفضة الخطورة في تطبيقات Proton VPN على أنظمة ويندوز وأندرويد وiOS، وقد قامت Proton VPN بـ"معالجتها بالشكل المناسب" قبل نشر تقارير التدقيق. جميع الثغرات التي تم العثور عليها كانت محدودة التأثير، ولم تُمكن أي جهة من الوصول عن بُعد إلى جهازك أو اعتراض حركة الإنترنت الخاصة بك. لقراءة تقارير التدقيق لكل نظام تشغيل على حدة، تفضل بزيارة [protonvpn.com](https://protonvpn.com/blog/open-source). أجرت Proton VPN [تدقيقا جديدًا](https://protonvpn.com/blog/no-logs-audit) في أبريل 2022 لتعزيز الشفافية والثقة. في 9 نوفمبر 2021، أصدرت شركة [Securitum](https://research.securitum.com) [شهادة إثبات](https://research.securitum.com) تؤكد نتائج تدقيق أمني أُجري لتطبيقات Proton VPN.
+Independent security researcher Ruben Santamarta conducted audits for Proton VPN's [browser extensions](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) and [apps](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) in September 2024 and January 2025, respectively. Proton VPN's infrastrcture has undergone [annual audits](https://protonvpn.com/blog/no-logs-audit) by Securitum since 2022.
+
+Previously, Proton VPN underwent an independent audit by SEC Consult in January 2020. اكتشفت شركة SEC Consult بعض الثغرات الأمنية متوسطة ومنخفضة الخطورة في تطبيقات Proton VPN على أنظمة ويندوز وأندرويد وiOS، وقد قامت Proton VPN بـ"معالجتها بالشكل المناسب" قبل نشر تقارير التدقيق. جميع الثغرات التي تم العثور عليها كانت محدودة التأثير، ولم تُمكن أي جهة من الوصول عن بُعد إلى جهازك أو اعتراض حركة الإنترنت الخاصة بك. You can view individual reports for each platform in their dedicated [blog post](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) on the audit.
 
 #### :material-check:{ .pg-green } العملاء الذين يستخدمون برامج مفتوحة المصدر
 
-تنشر Proton VPN الـ Source code لتطبيقاتها (على الحاسوب والهاتف) بشكل علني ضمن [منظمتها على GitHub](https://github.com/ProtonVPN)، مما يتيح للمجتمع مراجعتها والتأكد من أمانها.
+Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
 
 #### :material-check:{ .pg-green } يقبل الدفع نقدا
 
-إلى جانب قبول بطاقات الـ credit/debit وPayPal، و[البيتكوين](advanced/payments.md#other-coins-bitcoin-ethereum-etc)، تقبل Proton VPN أيضا **الدفع نقدًا** كوسيلة دفع مجهولة الهوية.
+Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment. You can also use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton VPN Plus and Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
 
 #### :material-check:{ .pg-green } WireGuard Support
 
@@ -137,9 +139,9 @@ Proton VPN has [servers in 127 countries](https://protonvpn.com/vpn-servers)(1) 
 
 **IVPN** هو مزود VPN مميز آخر، وقد بدأ تشغيله منذ عام 2009. شركة IVPN مقرها في جبل طارق، ولا توفر فترة تجريبية مجانية لاختبار الخدمة.
 
-[:octicons-home-16: الصفحة الرئيسية](https://ivpn.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="سياسة الخصوصية" }
-[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title=الشروحات التفصيلية}
+[:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -176,7 +178,7 @@ IVPN has [servers in 41 countries](https://ivpn.net/status).(1) Picking a VPN pr
 
 #### :material-check:{ .pg-green } تقبل الدفع بوسائل خاصة مثل النقود وعملة مونيرو (Monero)
 
-بالإضافة إلى قبول بطاقات الـ credit/debit وPayPal، تقبل IVPN الدفع باستخدام البيتكوين (Bitcoin) **ومونيرو (Monero)** **والنقد (cash)** كخيارات دفع مجهولة الهوية، وذلك عند الاشتراك في الخطط السنوية. البطاقات الـ Prepaid التي تحتوي على رموز تفعيل (redeem codes) متوفرة أيضا، [ويمكن استخدامها كوسيلة دفع](https://ivpn.net/knowledgebase/billing/voucher-cards-faq).
+بالإضافة إلى قبول بطاقات الـ credit/debit وPayPal، تقبل IVPN الدفع باستخدام البيتكوين (Bitcoin) **ومونيرو (Monero)** **والنقد (cash)** كخيارات دفع مجهولة الهوية، وذلك عند الاشتراك في الخطط السنوية. You can also purchase [prepaid cards](https://ivpn.net/knowledgebase/billing/voucher-cards-faq) with redeem codes.
 
 #### :material-check:{ .pg-green } WireGuard Support
 
@@ -212,10 +214,10 @@ IVPN has [servers in 41 countries](https://ivpn.net/status).(1) Picking a VPN pr
 
 Mullvad هو خدمة VPN سريعة ومنخفضة التكلفة، تركز بشكل جاد على الشفافية والأمان. تعمل Mullvad منذ عام 2009. يقع مقر Mullvad في السويد، وتقدم ضمان استرداد لمدة 14 يوما على [طرق الدفع](https://mullvad.net/en/help/refunds) التي تسمح بذلك.
 
-[:octicons-home-16: الصفحة الرئيسية](https://mullvad.net){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="سياسة الخصوصية" }
-[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title=الشروحات التفصيلية}
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="Documentation" }
 [:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
@@ -251,7 +253,7 @@ Mullvad هو خدمة VPN سريعة ومنخفضة التكلفة، تركز ب
 
 #### :material-check:{ .pg-green } تقبل الدفع بوسائل خاصة مثل النقود وعملة مونيرو (Monero)
 
-بالإضافة إلى قبول بطاقات الـ credit/debit وPayPal، تقبل Mullvad أيضا البيتكوين، وبيتكوين كاش، و**Monero**، و**النقد** كطرق دفع مجهولة الهوية. تتوفر أيضا بطاقات شحن مسبقة الدفع (Prepaid) تحتوي على رموز يمكن استخدامها لتفعيل الخدمة، وغالبا ما تباع عبر موزعين أو متاجر طرف ثالث. تقبل Mullvad أيضا الدفع عبر تطبيق Swish والتحويل البنكي المباشر، بالإضافة إلى بعض أنظمة الدفع الأوروبية الأخرى.
+بالإضافة إلى قبول بطاقات الـ credit/debit وPayPal، تقبل Mullvad أيضا البيتكوين، وبيتكوين كاش، و**Monero**، و**النقد** كطرق دفع مجهولة الهوية. You can also purchase [prepaid cards](https://mullvad.net/en/help/partnerships-and-resellers) with redeem codes. تقبل Mullvad أيضا الدفع عبر تطبيق Swish والتحويل البنكي المباشر، بالإضافة إلى بعض أنظمة الدفع الأوروبية الأخرى.
 
 #### :material-check:{ .pg-green } WireGuard Support
 

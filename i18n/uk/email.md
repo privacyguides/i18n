@@ -22,11 +22,11 @@ global:
 
 Для всього іншого ми рекомендуємо різноманітні поштові сервіси, що базуються на стійких бізнес-моделях і мають вбудовані функції безпеки та конфіденційності. Ознайомтеся з нашим [повним списком критеріїв](#criteria) для отримання додаткової інформації.
 
-| Сервіс                        | OpenPGP / WKD                          | IMAP / SMTP                                                                 | Шифрування з нульовим доступом                          | Анонімні способи оплати                    |
-| ----------------------------- | -------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------ |
-| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Тільки в платних тарифних планах | :material-check:{ .pg-green }                           | Готівка                                    |
-| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                               | :material-information-outline:{ .pg-blue } Тільки пошта | Готівка                                    |
-| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                                      | :material-check:{ .pg-green }                           | Monero <br>Готівка через третіх осіб |
+| Сервіс                        | OpenPGP / WKD                          | IMAP / SMTP                                                                 | Шифрування з нульовим доступом                          | Анонімні способи оплати                               |
+| ----------------------------- | -------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------- | ----------------------------------------------------- |
+| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Тільки в платних тарифних планах | :material-check:{ .pg-green }                           | Cash <br>Monero via third party                 |
+| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                               | :material-information-outline:{ .pg-blue } Тільки пошта | Готівка                                               |
+| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                                      | :material-check:{ .pg-green }                           | Monero via third party <br>Cash via third party |
 
 На додаток до (або замість) рекомендованого тут сервісу електронної пошти, ви можете розглянути можливість використання спеціального [сервісу псевдонімів](email-aliasing.md#recommended-providers) для захисту вашої приватності. Серед іншого, ці сервіси можуть допомогти захистити вашу реальну поштову скриньку від спаму, не дати маркетологам зв'язати ваші акаунти, а також зашифрувати всі вхідні повідомлення за допомогою PGP.
 
@@ -85,11 +85,25 @@ OpenPGP також не підтримує пряму секретність, щ
 
 </div>
 
-Безплатні облікові записи мають деякі обмеження, наприклад, неможливість пошуку в основному тексті та відсутність доступу до [Proton Mail Bridge](https://proton.me/mail/bridge), який необхідний для використання [рекомендованого десктопного поштового клієнта](email-clients.md) (наприклад, Thunderbird). Платні акаунти включають такі функції, як Proton Mail Bridge, додаткове сховище та підтримку власних доменів. Якщо у вас тарифний план Proton Безліміт або будь-який інший багатокористувацький тарифний план Proton, ви також отримуєте [SimpleLogin](email-aliasing.md#simplelogin) Premium безплатно.
+Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) such as Thunderbird. Платні акаунти включають такі функції, як Proton Mail Bridge, додаткове сховище та підтримку власних доменів. The Proton Unlimited plan or any multi-user Proton plan includes access to [SimpleLogin](email-aliasing.md#simplelogin) Premium.
 
-[Лист про атестацію](https://proton.me/blog/security-audit-all-proton-apps) додатків Proton Mail було надано 9 листопада 2021 року компанією [Securitum](https://research.securitum.com).
+A [letter of attestation](https://res.cloudinary.com/dbulfrlrz/images/v1714639878/wp-pme/letter-of-attestation-proton-mail-20211109_3138714c61/letter-of-attestation-proton-mail-20211109_3138714c61.pdf) was provided for Proton Mail's apps in November 2021 by [Securitum](https://research.securitum.com).
 
-Proton Mail має внутрішні звіти про збої, які **не** передаються третім особам. Цю функцію можна вимкнути у вебдодатку: :gear: → **Всі налаштування** → **Обліковий запис** → **Безпека та конфіденційність** → **Конфіденційність та збір даних**.
+Proton Mail has internal crash reports that are **not** shared with third parties and can be disabled.
+
+=== "Web"
+
+    From your inbox, select :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+
+    - [ ] Disable **Collect usage dignostics**
+    - [ ] Disable **Send crash reports**
+
+=== "Mobile"
+
+    From your inbox, select :material-menu: → :gear: **Settings** → select your username.
+
+    - [ ] Disable **Send crash reports**
+    - [ ] Disable **Collect usage dignostics**
 
 #### :material-check:{ .pg-green } Користувацькі домени та псевдоніми
 
@@ -97,7 +111,7 @@ Proton Mail має внутрішні звіти про збої, які **не*
 
 #### :material-check:{ .pg-green } Приватні способи оплати
 
-Proton Mail [приймає](https://proton.me/support/payment-options) **готівку** поштою на додаток до стандартних платежів кредитною/дебетовою карткою, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) та PayPal.
+Proton Mail [приймає](https://proton.me/support/payment-options) **готівку** поштою на додаток до стандартних платежів кредитною/дебетовою карткою, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) та PayPal. Additionally, you can use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton Mail Plus or Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
 
 #### :material-check:{ .pg-green } Безпека облікового запису
 
@@ -127,9 +141,9 @@ Proton Mail також публікує відкриті ключі акаунт
 
 <div class="admonition recommendation" markdown>
 
-![Логотип Mailbox Mail](assets/img/email/mailbox-mail.svg){align=right}
+![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
 
-**Mailbox Mail** - це поштовий сервіс, який працює на 100% екологічно чистій енергії, не містить реклами та є безпечним. Він працює з 2014 року. Mailbox Mail базується в Берліні, Німеччина.
+**Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Він працює з 2014 року. Mailbox Mail базується в Берліні, Німеччина.
 
 Облікові записи починаються з 2 ГБ пам'яті, яку можна збільшити за потреби.
 
@@ -232,7 +246,7 @@ Tuta не підтримує [протокол IMAP](https://tuta.com/support#im
 
 #### :material-information-outline:{ .pg-blue } Приватні способи оплати
 
-Tuta безпосередньо приймає лише кредитні картки та PayPal, однак за [**криптовалюту**](cryptocurrency.md) можна придбати подарункові картки через [партнерство](https://tuta.com/support/#cryptocurrency) з ProxyStore.
+Tuta only directly accepts credit cards and PayPal, however you can use [**cryptocurrency**](cryptocurrency.md) to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
 
 #### :material-check:{ .pg-green } Безпека облікового запису
 

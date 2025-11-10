@@ -1,6 +1,6 @@
 ---
 meta_title: "توصیه ها و مقایسه سرویس VPN خصوصی، بدون اسپانسر یا تبلیغات - Privacy Guides"
-title: "سرویس‌های VPN"
+title: سرویس‌های VPN
 icon: material/vpn
 description: بهترین سرویس‌های VPN برای حفاظت از حریم خصوصی و امنیت شما در اینترنت. در اینجا ارائه‌دهنده‌ای پیدا کنید که قصد جاسوسی از شما را ندارد.
 cover: vpn.webp
@@ -23,7 +23,7 @@ global:
 
 اگر به دنبال **ناشناس بودن** هستید، باید از مرورگر Tor استفاده کنید. اگر به دنبال **امنیت** بیشتری هستید، همیشه باید مطمئن شوید که به وب‌سایت‌ها از طریق HTTPS متصل می‌شوید. یک VPN جایگزینی برای رعایت اصول صحیح امنیتی نیست.
 
-[دانلود تور](https://torproject.org){ .md-button .md-button--primary } [افسانه‌ها و پرسش‌های متداول تور](advanced/tor-overview.md){ .md-button }
+[Introduction to the Tor Browser](tor.md#tor-browser){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
 
 </div>
 
@@ -33,11 +33,11 @@ global:
 
 ارائه‌دهندگان پیشنهادی ما از رمزگذاری استفاده می‌کنند، از WireGuard و OpenVPN پشتیبانی می‌کنند و سیاست عدم ثبت لاگ دارند. برای اطلاعات بیشتر، [فهرست کامل معیارها](#criteria) را بخوانید.
 
-| ارائه‌دهنده           | کشورها | وایرگارد                      | پورت فورواردینگ                                      | IPv6                                                      | پرداخت‌های ناشناس |
-| --------------------- | ------ | ----------------------------- | ---------------------------------------------------- | --------------------------------------------------------- | ----------------- |
-| [پروتون](#proton-vpn) | 127+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } پشتیبانی جزئی | :material-information-outline:{ .pg-blue } پشتیبانی محدود | نقدی              |
-| [آی‌وی‌پی‌ان](#ivpn)  | 41+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }               | :material-information-outline:{ .pg-blue } فقط خروجی      | مونرو، نقدی       |
-| [مول‌واد](#mullvad)   | ۴۹+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }               | :material-check:{ .pg-green }                             | مونرو، نقدی       |
+| ارائه‌دهنده           | کشورها | وایرگارد                      | پورت فورواردینگ                                      | IPv6                                                      | پرداخت‌های ناشناس            |
+| --------------------- | ------ | ----------------------------- | ---------------------------------------------------- | --------------------------------------------------------- | ---------------------------- |
+| [پروتون](#proton-vpn) | 127+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } پشتیبانی جزئی | :material-information-outline:{ .pg-blue } پشتیبانی محدود | Cash  Monero via third party |
+| [آی‌وی‌پی‌ان](#ivpn)  | 41+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }               | :material-information-outline:{ .pg-blue } فقط خروجی      | Monero  Cash                 |
+| [مول‌واد](#mullvad)   | ۴۹+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }               | :material-check:{ .pg-green }                             | Monero  Cash                 |
 
 ### پروتون وی‌پی‌ان
 
@@ -47,10 +47,10 @@ global:
 
 **پروتون وی‌پی‌ان** یکی از گزینه‌های قدرتمند در حوزه وی‌پی‌ان است و از سال ۲۰۱۶ فعالیت خود را آغاز کرده‌اند. شرکت Proton AG در سوئیس مستقر است و یک سطح رایگان محدود و همچنین گزینه‌ای پریمیوم با امکانات بیشتر ارائه می‌دهد.
 
-[:octicons-home-16: صفحه اصلی](https://protonvpn.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="سیاست حفظ حریم خصوصی" }
-[:octicons-info-16:](https://protonvpn.com/support){ .card-link title=مستندات}
-[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="کد منبع" }
+[:octicons-home-16: Homepage](https://protonvpn.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://protonvpn.com/support){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>دانلودها</summary>
@@ -78,15 +78,17 @@ Proton VPN has [servers in 127 countries](https://protonvpn.com/vpn-servers)(1) 
 
 #### :material-check:{ .pg-green } حسابرسی مستقل
 
-از ژانویه ۲۰۲۰، پروتون وی‌پی‌ان تحت یک حسابرسی مستقل توسط SEC Consult قرار گرفته است. شرکت SEC Consult برخی آسیب‌پذیری‌های با ریسک متوسط و پایین را در برنامه‌های ویندوز، اندروید و iOS پروتون وی‌پی‌ان شناسایی کرد که همگی آن‌ها پیش از انتشار گزارش‌ها توسط پروتون وی‌پی‌ان «به‌درستی رفع شدند». هیچ‌یک از مشکلات شناسایی‌شده به مهاجم اجازه دسترسی از راه دور به دستگاه یا ترافیک شما را نمی‌داد. شما می‌توانید گزارش‌های جداگانه برای هر پلتفرم را در [protonvpn.com](https://protonvpn.com/blog/open-source) مشاهده کنید. در آوریل ۲۰۲۲، پروتون وی‌پی‌ان تحت [یک ممیزی دیگر](https://protonvpn.com/blog/no-logs-audit) قرار گرفت. یک [نامه تأییدیه](https://proton.me/blog/security-audit-all-proton-apps) برای اپلیکیشن‌های Proton VPN در تاریخ ۹ نوامبر ۲۰۲۱ توسط [Securitum](https://research.securitum.com) ارائه شد.
+Independent security researcher Ruben Santamarta conducted audits for Proton VPN's [browser extensions](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) and [apps](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) in September 2024 and January 2025, respectively. Proton VPN's infrastrcture has undergone [annual audits](https://protonvpn.com/blog/no-logs-audit) by Securitum since 2022.
+
+Previously, Proton VPN underwent an independent audit by SEC Consult in January 2020. شرکت SEC Consult برخی آسیب‌پذیری‌های با ریسک متوسط و پایین را در برنامه‌های ویندوز، اندروید و iOS پروتون وی‌پی‌ان شناسایی کرد که همگی آن‌ها پیش از انتشار گزارش‌ها توسط پروتون وی‌پی‌ان «به‌درستی رفع شدند». هیچ‌یک از مشکلات شناسایی‌شده به مهاجم اجازه دسترسی از راه دور به دستگاه یا ترافیک شما را نمی‌داد. You can view individual reports for each platform in their dedicated [blog post](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) on the audit.
 
 #### :material-check:{ .pg-green } کلاینت‌های متن‌باز
 
-پروتون وی‌پی‌ان کد منبع کلاینت‌های دسکتاپ و موبایل خود را در [سازمان گیت‌هاب](https://github.com/ProtonVPN) خود ارائه می‌دهد.
+Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
 
 #### :material-check:{ .pg-green } پذیرش وجه نقد
 
-پروتون وی‌پی‌ان علاوه بر پذیرش کارت‌های اعتباری/دبیت، پی‌پال و [بیت‌کوین](advanced/payments.md#other-coins-bitcoin-ethereum-etc)، **پول نقد/ارز محلی** را نیز به عنوان روشی ناشناس برای پرداخت می‌پذیرد.
+Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment. You can also use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton VPN Plus and Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
 
 #### :material-check:{ .pg-green } پشتیبانی از WireGuard
 
@@ -135,10 +137,10 @@ Proton VPN has [servers in 127 countries](https://protonvpn.com/vpn-servers)(1) 
 
 **IVPN** یکی دیگر از ارائه‌دهندگان ممتاز VPN است و از سال ۲۰۰۹ فعالیت می‌کند. IVPN در جبل‌الطارق مستقر است و دوره آزمایشی رایگان ارائه نمی‌دهد.
 
-[:octicons-home-16: صفحه اصلی](https://ivpn.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="سیاست حفظ حریم خصوصی" }
-[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title=مستندات}
-[:octicons-code-16:](https://github.com/ivpn){ .card-link title="کد منبع" }
+[:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>دانلودها</summary>
@@ -174,7 +176,7 @@ IVPN has [servers in 41 countries](https://ivpn.net/status).(1) Picking a VPN pr
 
 #### :material-check:{ .pg-green } پول نقد و مونرو را می‌پذیرد
 
-علاوه بر پذیرش کارت‌های اعتباری/دبیت و پی‌پال، IVPN بیت‌کوین، **مونرو** و **پول نقد/ارز محلی** (در طرح‌های سالانه) را نیز به عنوان روش‌های پرداخت ناشناس می‌پذیرد. کارت‌های پیش‌پرداخت با کدهای بازخرید [نیز در دسترس هستند](https://ivpn.net/knowledgebase/billing/voucher-cards-faq).
+علاوه بر پذیرش کارت‌های اعتباری/دبیت و پی‌پال، IVPN بیت‌کوین، **مونرو** و **پول نقد/ارز محلی** (در طرح‌های سالانه) را نیز به عنوان روش‌های پرداخت ناشناس می‌پذیرد. You can also purchase [prepaid cards](https://ivpn.net/knowledgebase/billing/voucher-cards-faq) with redeem codes.
 
 #### :material-check:{ .pg-green } پشتیبانی از WireGuard
 
@@ -208,11 +210,11 @@ IVPN دارای حالت‌های اختفا با استفاده از [V2Ray](ht
 
 **مولواد** یک وی‌پی‌ان سریع و مقرون‌به‌صرفه با تمرکز جدی بر شفافیت و امنیت است. آن‌ها از سال ۲۰۰۹ فعالیت می‌کنند. مولواد در سوئد مستقر است و برای [روش‌های پرداخت](https://mullvad.net/en/help/refunds) که این امکان را دارند، ضمانت بازگشت وجه ۱۴ روزه ارائه می‌دهد.
 
-[:octicons-home-16: صفحه اصلی](https://mullvad.net){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="سرویس Onion" }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="سیاست حفظ حریم خصوصی" }
-[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title=مستندات}
-[:octicons-code-16:](https://github.com/mullvad){ .card-link title="کد منبع" }
+[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>دانلودها</summary>
@@ -247,7 +249,7 @@ IVPN دارای حالت‌های اختفا با استفاده از [V2Ray](ht
 
 #### :material-check:{ .pg-green } پول نقد و مونرو را می‌پذیرد
 
-مولواد علاوه بر پذیرش کارت‌های اعتباری/دبیت و پی‌پال، بیت‌کوین، بیت‌کوین کش، **مونرو** و **پول نقد/ارز محلی** را نیز به عنوان روش‌های پرداخت ناشناس می‌پذیرد. کارت‌های پیش‌پرداخت با کدهای قابل بازخرید نیز موجود هستند. مولواد همچنین سوئیش و انتقال بانکی، و همچنین چند سیستم پرداخت اروپایی را می‌پذیرد.
+مولواد علاوه بر پذیرش کارت‌های اعتباری/دبیت و پی‌پال، بیت‌کوین، بیت‌کوین کش، **مونرو** و **پول نقد/ارز محلی** را نیز به عنوان روش‌های پرداخت ناشناس می‌پذیرد. You can also purchase [prepaid cards](https://mullvad.net/en/help/partnerships-and-resellers) with redeem codes. مولواد همچنین سوئیش و انتقال بانکی، و همچنین چند سیستم پرداخت اروپایی را می‌پذیرد.
 
 #### :material-check:{ .pg-green } پشتیبانی از WireGuard
 

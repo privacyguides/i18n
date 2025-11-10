@@ -22,11 +22,11 @@ E-mail je prakticky nezbytný pro používání jakékoliv online služby, ale n
 
 Pro všechno ostatní doporučujeme různé e-mailové poskytovatele, kteří mají udržitelný byznys model a vestavěné funkce pro zachování bezpečnosti a soukromí. Přečtěte si náš [úplný seznam kritérií](#criteria) pro více informací.
 
-| Poskytovatel                  | OpenPGP / WKD                          | IMAP / SMTP                                                     | Zero-Access šifrování                                  | Anonymní platební metody                               |
-| ----------------------------- | -------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------ |
-| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Pouze placené tarify | :material-check:{ .pg-green }                          | Hotovost                                               |
-| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                   | :material-information-outline:{ .pg-blue } Pouze maily | Hotovost                                               |
-| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                          | :material-check:{ .pg-green }                          | Monero <br>Hotovost prostřednictvím třetí strany |
+| Poskytovatel                  | OpenPGP / WKD                          | IMAP / SMTP                                                     | Zero-Access šifrování                                  | Anonymní platební metody                              |
+| ----------------------------- | -------------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------------------- |
+| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Pouze placené tarify | :material-check:{ .pg-green }                          | Cash <br>Monero via third party                 |
+| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                   | :material-information-outline:{ .pg-blue } Pouze maily | Hotovost                                              |
+| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                          | :material-check:{ .pg-green }                          | Monero via third party <br>Cash via third party |
 
 Můžete navíc, nebo místo, zvážit používání kromě zmíněných e-mailových poskytovatelů i používání dedikované [služby pro e-mailové aliasy](email-aliasing.md#recommended-providers) pro ochranu vašeho soukromí. Tyto služby vám mimo jiné mohou pomoct chránit vaši pravou adresu před spamem, zabránit marketingovým týmům v korelování mezi jednotlivými účty a šifrovat všechny příchozí zprávy pomocí PGP.
 
@@ -85,11 +85,25 @@ Tarif Proton Free obsahuje 500 MB úložiště pro e-mail, které můžete zdarm
 
 </div>
 
-Bezplatné účty mají některá omezení, např. nemohou vyhledávat v textu zpráv nebo nemají přístup k [Proton Mail Bridge](https://proton.me/mail/bridge), který je nutný pro používání s [doporučenými desktopovými e-mailovými klienty](email-clients.md) (např. s Thunderbirdem). Placené účty zahrnují funkce, jako je např. Proton Mail Bridge, dodatečné úložiště nebo podpora vlastních domén. Pokud máte tarif Proton Unlimited nebo jakýkoliv Proton tarif pro více uživatelů, získáte také [SimpleLogin](email-aliasing.md#simplelogin) Premium zdarma.
+Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) such as Thunderbird. Placené účty zahrnují funkce, jako je např. Proton Mail Bridge, dodatečné úložiště nebo podpora vlastních domén. The Proton Unlimited plan or any multi-user Proton plan includes access to [SimpleLogin](email-aliasing.md#simplelogin) Premium.
 
-[Osvědčení](https://proton.me/blog/security-audit-all-proton-apps) bylo uděleno aplikacím Proton Mail 9. října 2021 firmou [Securitum](https://research.securitum.com).
+A [letter of attestation](https://res.cloudinary.com/dbulfrlrz/images/v1714639878/wp-pme/letter-of-attestation-proton-mail-20211109_3138714c61/letter-of-attestation-proton-mail-20211109_3138714c61.pdf) was provided for Proton Mail's apps in November 2021 by [Securitum](https://research.securitum.com).
 
-Proton Mail generuje interní hlášení o pádech, které ale **nejsou** sdílené se třetími stranami. Můžete je ve webové aplikaci zakázat následovně: :gear: → **Všechna nastavení** → **Účet** → **Bezpečnost a soukromí** → **Soukromí a sběr dat**.
+Proton Mail has internal crash reports that are **not** shared with third parties and can be disabled.
+
+=== "Web"
+
+    From your inbox, select :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+
+    - [ ] Disable **Collect usage dignostics**
+    - [ ] Disable **Send crash reports**
+
+=== "Mobile"
+
+    From your inbox, select :material-menu: → :gear: **Settings** → select your username.
+
+    - [ ] Disable **Send crash reports**
+    - [ ] Disable **Collect usage dignostics**
 
 #### :material-check:{ .pg-green } Vlastní domény a aliasy
 
@@ -97,7 +111,7 @@ Uživatelé placených tarifů Proton Mailu mohou používat vlastní domény se
 
 #### :material-check:{ .pg-green } Soukromé platební metody
 
-Proton Mail kromě běžných plateb kreditní či debetní kartou [přijímá](https://proton.me/support/payment-options) také [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), PayPal a dokonce i **hotovost** zaslanou poštou.
+Proton Mail kromě běžných plateb kreditní či debetní kartou [přijímá](https://proton.me/support/payment-options) také [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), PayPal a dokonce i **hotovost** zaslanou poštou. Additionally, you can use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton Mail Plus or Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
 
 #### :material-check:{ .pg-green } Zabezpečení účtu
 
@@ -127,9 +141,9 @@ Tarif Proton Mail [Unlimited](https://proton.me/support/proton-plans#proton-unli
 
 <div class="admonition recommendation" markdown>
 
-![logo Mailbox Mail](assets/img/email/mailbox-mail.svg){ align=right }
+![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
 
-**Mailbox Mail** je e-mailová služba zaměřená na bezpečnost, je bez reklam a je poháněná 100% ekologickou energií. Fungují od roku 2014. Mailbox Mail sídlí v německém Berlíně.
+**Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Fungují od roku 2014. Mailbox Mail sídlí v německém Berlíně.
 
 Účty mají 2 GB úložiště, které může být podle potřeby rozšířeno.
 
@@ -232,7 +246,7 @@ Placené Tuta účty mohou používat buď 15 nebo 30 aliasů v závislosti na j
 
 #### :material-information-outline:{ .pg-blue } Soukromé platební metody
 
-Tuta přijímá pouze platební karty a PayPal. Přes [**kryptoměny**](cryptocurrency.md) lze ale zakoupit dárkové karty díky [spolupráci](https://tuta.com/support/#cryptocurrency) s ProxyStore.
+Tuta only directly accepts credit cards and PayPal, however you can use [**cryptocurrency**](cryptocurrency.md) to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
 
 #### :material-check:{ .pg-green } Zabezpečení účtu
 

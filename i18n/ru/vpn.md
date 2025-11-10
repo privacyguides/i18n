@@ -1,6 +1,6 @@
 ---
 meta_title: "Рекомендации и сравнение приватных VPN-сервисов, без спонсоров и рекламы - Privacy Guides"
-title: "VPN сервисы"
+title: VPN сервисы
 icon: material/vpn
 description: Лучшие VPN-сервисы для защиты вашей конфиденциальности и безопасности в интернете. Здесь вы найдёте провайдера, который не будет шпионить за вами.
 cover: vpn.webp
@@ -23,7 +23,7 @@ global:
 
 Если вам нужна **анонимность**, воспользуйтесь браузером Tor. Если вам нужна дополнительная **безопасность**, убедитесь, что вы подключаетесь к веб-сайтам, используя HTTPS. VPN не является заменой полезных привычек для обеспечения безопасности.
 
-[Скачать Tor](https://torproject.org){ .md-button .md-button--primary } [Мифы о Tor & ЧаВо](advanced/tor-overview.md){ .md-button }
+[Introduction to the Tor Browser](tor.md#tor-browser){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
 
 </div>
 
@@ -33,11 +33,11 @@ global:
 
 Рекомендуемые нами провайдеры используют шифрование, поддерживают WireGuard & OpenVPN и не ведут логи. Для получения дополнительной информации, ознакомьтесь с [полным списком критериев](#criteria).
 
-| Провайдер             | Страны | WireGuard                     | Проброс портов                                  | IPv6                                                               | Анонимные платежи |
-| --------------------- | ------ | ----------------------------- | ----------------------------------------------- | ------------------------------------------------------------------ | ----------------- |
-| [Proton](#proton-vpn) | 127+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Частично | :material-information-outline:{ .pg-blue } Ограниченно             | Наличные          |
-| [IVPN](#ivpn)         | 41+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }          | :material-information-outline:{ .pg-blue } Только исходящий трафик | Monero, Наличные  |
-| [Mullvad](#mullvad)   | 49+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }          | :material-check:{ .pg-green }                                      | Monero, Наличные  |
+| Провайдер             | Страны | WireGuard                     | Проброс портов                                  | IPv6                                                               | Анонимные платежи            |
+| --------------------- | ------ | ----------------------------- | ----------------------------------------------- | ------------------------------------------------------------------ | ---------------------------- |
+| [Proton](#proton-vpn) | 127+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Частично | :material-information-outline:{ .pg-blue } Ограниченно             | Cash  Monero via third party |
+| [IVPN](#ivpn)         | 41+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }          | :material-information-outline:{ .pg-blue } Только исходящий трафик | Monero  Cash                 |
+| [Mullvad](#mullvad)   | 49+    | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }          | :material-check:{ .pg-green }                                      | Monero  Cash                 |
 
 ### Proton VPN
 
@@ -47,10 +47,10 @@ global:
 
 **Proton VPN** - сильный игрок в сфере VPN, работающий с 2016 года. Proton AG базируется в Швейцарии и предлагает ограниченный бесплатный доступ, а также более функциональный премиум вариант.
 
-[:octicons-home-16: Домашняя страница](https://protonvpn.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Политика конфиденциальности" }
-[:octicons-info-16:](https://protonvpn.com/support){ .card-link title=Документация}
-[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Исходный код" }
+[:octicons-home-16: Homepage](https://protonvpn.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://protonvpn.com/support){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Скачать</summary>
@@ -78,15 +78,17 @@ Proton VPN has [servers in 127 countries](https://protonvpn.com/vpn-servers)(1) 
 
 #### :material-check:{ .pg-green } Независимый аудит
 
-По состоянию на январь 2020 года компания Proton VPN прошла независимый аудит от SEC Consult. SEC Consult обнаружила несколько уязвимостей среднего и низкого риска в приложениях Proton VPN для Windows, Android и iOS, все из которых Proton VPN "должным образом устранил" ещё до публикации отчетов. Ни одна из выявленных проблем не предоставила бы злоумышленнику удаленный доступ к вашему устройству или трафику. Вы можете просмотреть отдельные отчёты для каждой платформы на сайте [protonvpn.com](https://protonvpn.com/blog/open-source). В апреле 2022 года компания Proton VPN прошла [очередной аудит](https://protonvpn.com/blog/no-logs-audit). [Аттестационное письмо](https://proton.me/blog/security-audit-all-proton-apps) было предоставлено для приложений Proton VPN 9 ноября 2021 года компанией [Securitum](https://research.securitum.com).
+Independent security researcher Ruben Santamarta conducted audits for Proton VPN's [browser extensions](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) and [apps](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) in September 2024 and January 2025, respectively. Proton VPN's infrastrcture has undergone [annual audits](https://protonvpn.com/blog/no-logs-audit) by Securitum since 2022.
+
+Previously, Proton VPN underwent an independent audit by SEC Consult in January 2020. SEC Consult обнаружила несколько уязвимостей среднего и низкого риска в приложениях Proton VPN для Windows, Android и iOS, все из которых Proton VPN "должным образом устранил" ещё до публикации отчетов. Ни одна из выявленных проблем не предоставила бы злоумышленнику удаленный доступ к вашему устройству или трафику. You can view individual reports for each platform in their dedicated [blog post](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) on the audit.
 
 #### :material-check:{ .pg-green } Клиенты с открытым исходным кодом
 
-Proton VPN предоставляет исходный код для своих настольных и мобильных клиентов в своём [GitHub](https://github.com/ProtonVPN).
+Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
 
 #### :material-check:{ .pg-green } Принимает наличные
 
-Помимо приема кредитных/дебетовых карт и PayPal, Proton VPN принимает [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) и **наличные/местные валюты** как анонимные формы платежа.
+Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment. You can also use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton VPN Plus and Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
 
 #### :material-check:{ .pg-green } Поддержка WireGuard
 
@@ -137,10 +139,10 @@ Proton VPN опубликовал клиенты [App Store](https://apps.apple.
 
 **IVPN** — еще один платный VPN-провайдер, работающий с 2009 года. IVPN базируется в Гибралтаре и не предлагает бесплатную пробную версию.
 
-[:octicons-home-16: Домашняя страница](https://ivpn.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Политика конфиденциальности" }
-[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title=Документация}
-[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Исходный код" }
+[:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Скачать</summary>
@@ -176,7 +178,7 @@ IVPN has [servers in 41 countries](https://ivpn.net/status).(1) Picking a VPN pr
 
 #### :material-check:{ .pg-green } Принимает наличные и Monero
 
-В дополнение к приему кредитных/дебетовых карт и PayPal, IVPN принимает Bitcoin, **Monero** и **наличные/местную валюту** (при годовых планах) в качестве анонимных форм оплаты. Предоплаченные карты с кодами для погашения [также доступны](https://ivpn.net/knowledgebase/billing/voucher-cards-faq).
+В дополнение к приему кредитных/дебетовых карт и PayPal, IVPN принимает Bitcoin, **Monero** и **наличные/местную валюту** (при годовых планах) в качестве анонимных форм оплаты. You can also purchase [prepaid cards](https://ivpn.net/knowledgebase/billing/voucher-cards-faq) with redeem codes.
 
 #### :material-check:{ .pg-green } Поддержка WireGuard
 
@@ -212,11 +214,11 @@ IVPN опубликовал клиенты в [App Store](https://apps.apple.com
 
 **Mullvad** - это быстрый и недорогой VPN с серьезным акцентом на прозрачность и безопасность. Он работает с 2009 года. Mullvad базируется в Швеции и предоставляет 14-дневную гарантию возврата денег для [способов оплаты](https://mullvad.net/en/help/refunds), которые это позволяют.
 
-[:octicons-home-16: Домашняя страница](https://mullvad.net){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion-сайт" }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Политика конфиденциальности" }
-[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title=Документация}
-[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Исходный код" }
+[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Скачать</summary>
@@ -251,7 +253,7 @@ Mullvad предоставляет исходный код для своих н�
 
 #### :material-check:{ .pg-green } Принимает наличные и Monero
 
-Помимо приема кредитных/дебетовых карт и PayPal, Mullvad принимает Bitcoin, Bitcoin Cash, **Monero** и **наличные/местные валюты** как анонимные формы платежа. Также доступны предоплаченные карты с кодами погашения. Mullvad также принимает Swish и банковские переводы, а также несколько европейских платежных систем.
+Помимо приема кредитных/дебетовых карт и PayPal, Mullvad принимает Bitcoin, Bitcoin Cash, **Monero** и **наличные/местные валюты** как анонимные формы платежа. You can also purchase [prepaid cards](https://mullvad.net/en/help/partnerships-and-resellers) with redeem codes. Mullvad также принимает Swish и банковские переводы, а также несколько европейских платежных систем.
 
 #### :material-check:{ .pg-green } Поддержка WireGuard
 

@@ -209,7 +209,7 @@ If you're looking for added **security**, you should always ensure you're connec
 
     ---
 
-    Mailbox Mail is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. 2014年から運営をされています。 Mailbox Mail is based in Berlin, Germany. 各アカウントには最大2GBのストレージが割当てられ、必要に応じてアップグレードできます。
+    Mailbox Mail (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. 2014年から運営をされています。 Mailbox Mail is based in Berlin, Germany. 各アカウントには最大2GBのストレージが割当てられ、必要に応じてアップグレードできます。
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#mailbox-mail)
 

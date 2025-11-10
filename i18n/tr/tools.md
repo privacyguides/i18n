@@ -205,7 +205,7 @@ Daha fazla **güvenlik** arıyorsanız, her zaman HTTPS kullanan web sitelerine 
 
     ---
 
-    Mailbox Mail is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. **2014** yılından beri faaliyet göstermektedirler. Mailbox Mail is based in Berlin, Germany. Hesaplar, gerektiğinde yükseltilebilen 2 GB'a kadar depolama alanıyla başlar.
+    Mailbox Mail (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. **2014** yılından beri faaliyet göstermektedirler. Mailbox Mail is based in Berlin, Germany. Hesaplar, gerektiğinde yükseltilebilen 2 GB'a kadar depolama alanıyla başlar.
 
     [Read Full Review :material-arrow-right-drop-circle:](email.md#mailbox-mail)
 

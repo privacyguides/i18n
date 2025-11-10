@@ -1,6 +1,6 @@
 ---
 meta_title: "プライベートVPNサービスの推奨事項と比較、スポンサーや広告なし - Privacy Guides"
-title: "VPNサービス"
+title: VPNサービス
 icon: material/vpn
 description: オンラインでのプライバシーとセキュリティを保護するための最良のVPNサービス。 ひそかにあなたを監視することがないVPNサービスプロバイダーを挙げています。
 cover: vpn.webp
@@ -23,7 +23,7 @@ VPNを使用しても、ブラウジング傾向を匿名化したり、安全�
 
 **匿名性**を確保するには、Tor Browserを使用してください。 **セキュリティ**を強化するには、常にウェブサイトへの接続にHTTPSを使用してください。 VPNは、優れたセキュリティーの代わりにはなりません。
 
-[Torのダウンロード](https://torproject.org){ .md-button .md-button--primary } [Tor神話とよくある質問](advanced/tor-overview.md){ .md-button }
+[Introduction to the Tor Browser](tor.md#tor-browser){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
 
 </div>
 
@@ -33,11 +33,11 @@ VPNを使用しても、ブラウジング傾向を匿名化したり、安全�
 
 推奨するプロバイダーは暗号化され、WireGuardとOpenVPNへ対応し、ノーログポリシーがあります。 詳細については、[基準の完全なリスト](#criteria)をお読みください。
 
-| プロバイダー                | サーバーロケーション国数 | WireGuard                     | ポートフォワーディング                                 | IPv6                                                       | 匿名での支払い   |
-| --------------------- | ------------ | ----------------------------- | ------------------------------------------- | ---------------------------------------------------------- | --------- |
-| [Proton](#proton-vpn) | 127+         | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } 一部対応 | :material-information-outline:{ .pg-blue } 制限あり            | 現金        |
-| [IVPN](#ivpn)         | 41+          | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-information-outline:{ .pg-blue } アウトバウンドトラフィックのみ | Monero、現金 |
-| [Mullvad](#mullvad)   | 49以上         | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-check:{ .pg-green }                              | Monero、現金 |
+| プロバイダー                | サーバーロケーション国数 | WireGuard                     | ポートフォワーディング                                 | IPv6                                                       | 匿名での支払い                      |
+| --------------------- | ------------ | ----------------------------- | ------------------------------------------- | ---------------------------------------------------------- | ---------------------------- |
+| [Proton](#proton-vpn) | 127+         | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } 一部対応 | :material-information-outline:{ .pg-blue } 制限あり            | Cash  Monero via third party |
+| [IVPN](#ivpn)         | 41+          | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-information-outline:{ .pg-blue } アウトバウンドトラフィックのみ | Monero  Cash                 |
+| [Mullvad](#mullvad)   | 49以上         | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }      | :material-check:{ .pg-green }                              | Monero  Cash                 |
 
 ### Proton VPN
 
@@ -47,10 +47,10 @@ VPNを使用しても、ブラウジング傾向を匿名化したり、安全�
 
 **Proton VPN**はVPNの分野において強力なサービスプロバイダーであり、2016年から運営されています。 Proton AGはスイスに本社を置き、機能が限定された無料枠と、より多くの機能を備えたプレミアムオプションを提供しています。
 
-[:octicons-home-16: ウェブページ](https://protonvpn.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="プライバシーポリシー" }
-[:octicons-info-16:](https://protonvpn.com/support){ .card-link title=ドキュメント}
-[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="ソースコード" }
+[:octicons-home-16: Homepage](https://protonvpn.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://protonvpn.com/support){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>ダウンロード</summary>
@@ -78,15 +78,17 @@ Proton VPN has [servers in 127 countries](https://protonvpn.com/vpn-servers)(1) 
 
 #### :material-check:{ .pg-green } 独立監査済み
 
-2020年1月時点で、Proton VPNはSEC Consultによる独立監査を受けました。 SEC ConsultはProton VPNのWindows、Android、iOSアプリに中、低リスクの脆弱性を発見しましたが、これらすべてはProton VPNによって報告書が公表される前に「適切に修正」されました。 確認された問題はいずれも攻撃者がデバイスやトラフィックへリモートアクセスを可能にするものではありませんでした。 [protonvpn.com](https://protonvpn.com/blog/open-source)で各プラットフォーム個別のレポートを見ることができます。 2022年4月にProton VPNは[別の監査](https://protonvpn.com/blog/no-logs-audit)を受けました。 2021年11月9日に[Securitum](https://research.securitum.com)から [監査証明書](https://proton.me/blog/security-audit-all-proton-apps) がProton VPNアプリに対して提供されました。
+Independent security researcher Ruben Santamarta conducted audits for Proton VPN's [browser extensions](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) and [apps](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) in September 2024 and January 2025, respectively. Proton VPN's infrastrcture has undergone [annual audits](https://protonvpn.com/blog/no-logs-audit) by Securitum since 2022.
+
+Previously, Proton VPN underwent an independent audit by SEC Consult in January 2020. SEC ConsultはProton VPNのWindows、Android、iOSアプリに中、低リスクの脆弱性を発見しましたが、これらすべてはProton VPNによって報告書が公表される前に「適切に修正」されました。 確認された問題はいずれも攻撃者がデバイスやトラフィックへリモートアクセスを可能にするものではありませんでした。 You can view individual reports for each platform in their dedicated [blog post](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) on the audit.
 
 #### :material-check:{ .pg-green } オープンソースクライアント
 
-Proton VPNはデスクトップおよびモバイルクライアントのソースコードを[GitHub organization](https://github.com/ProtonVPN)で提供しています。
+Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
 
 #### :material-check:{ .pg-green } 現金の受け入れ
 
-Proton VPNはクレジットおよびデビットカード、PayPal、そして[Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc)に加え、さらに**現金および現地通貨**を匿名での支払い方法として受け入れています。
+Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment. You can also use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton VPN Plus and Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
 
 #### :material-check:{ .pg-green } WireGuard対応
 
@@ -137,10 +139,10 @@ VPNキルスイッチを使っている際、システムクラッシュが[発�
 
 **IVPN**はプレミアムVPNプロバイダの一つで、2009年から運営されています。 IVPNはジブラルタルに拠点があり、無料トライアルはありません。
 
-[:octicons-home-16: ウェブページ](https://ivpn.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="プライバシーポリシー" }
-[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title=ドキュメント}
-[:octicons-code-16:](https://github.com/ivpn){ .card-link title="ソースコード" }
+[:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>ダウンロード</summary>
@@ -176,7 +178,7 @@ IVPNは2019年から複数の[独立した監査](https://ivpn.net/en/blog/tags/
 
 #### :material-check:{ .pg-green } 現金とMoneroが利用可能
 
-IVPNはクレジット・デビットカードやPayPalでの支払いに加え、匿名での支払い手段としてBitcoinや**Monero**と**現金・現地通貨**での支払い（年間プランの場合）を受け付けています。 引き換えコード付きプリペイドカードも[利用可能](https://ivpn.net/knowledgebase/billing/voucher-cards-faq)です。
+IVPNはクレジット・デビットカードやPayPalでの支払いに加え、匿名での支払い手段としてBitcoinや**Monero**と**現金・現地通貨**での支払い（年間プランの場合）を受け付けています。 You can also purchase [prepaid cards](https://ivpn.net/knowledgebase/billing/voucher-cards-faq) with redeem codes.
 
 #### :material-check:{ .pg-green } WireGuard対応
 
@@ -212,11 +214,11 @@ IVPNのクライアントは二要素認証に対応しています。 また、
 
 **Mullvad**は、透明性とセキュリティに重点を置いた、高速で安価なVPNです。 2009年からサービスが稼働しました。 Mullvadはスウェーデンに拠点を置き、[支払い](https://mullvad.net/en/help/refunds)には14日間の返金保証があります。
 
-[:octicons-home-16: ウェブページ](https://mullvad.net){ .md-button .md-button--primary }
+[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="プライバシーポリシー" }
-[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title=ドキュメント}
-[:octicons-code-16:](https://github.com/mullvad){ .card-link title="ソースコード" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>ダウンロード</summary>
@@ -251,7 +253,7 @@ Mullvadはデスクトップおよびモバイルクライアントのソース�
 
 #### :material-check:{ .pg-green } 現金とMoneroが利用可能
 
-Mullvadはクレジット・デビットカードやPayPalでの支払いに加え、匿名での支払手段としてBitcoin、Bitcoin Cash、**Monero**と**現金・現地通貨**での支払いを受け付けています。 引き換えコード付きのプリペイドカードも利用可能です。 また、Swishや銀行振込、いくつかのヨーロッパの支払いシステムにも対応しています。
+Mullvadはクレジット・デビットカードやPayPalでの支払いに加え、匿名での支払手段としてBitcoin、Bitcoin Cash、**Monero**と**現金・現地通貨**での支払いを受け付けています。 You can also purchase [prepaid cards](https://mullvad.net/en/help/partnerships-and-resellers) with redeem codes. また、Swishや銀行振込、いくつかのヨーロッパの支払いシステムにも対応しています。
 
 #### :material-check:{ .pg-green } WireGuard対応
 

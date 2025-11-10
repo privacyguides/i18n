@@ -119,16 +119,7 @@ Ayrıca, bazı dağıtımlar ürün yazılımı güncellemelerini otomatik olara
 
 ### İzin Kontrolleri
 
-[Wayland](https://wayland.freedesktop.org) görüntüleme protokolünü destekleyen masaüstü ortamları (DE'ler), yalnızca X11'i destekleyenlere göre [daha güvenlidir](https://lwn.net/Articles/589147). Ancak, tüm DE'ler Wayland'in mimari güvenlik iyileştirmelerinden tam olarak yararlanamamaktadır.
-
-Örneğin, GNOME, [ekranınızı yakalamaya](https://gitlab.gnome.org/GNOME/gnome-shell/-/issues/3943) çalışan üçüncü taraf yazılımlar için izin denetimleri uygulayarak diğer DE'lere kıyasla güvenlik konusunda kayda değer bir avantaja sahiptir. Yani, üçüncü taraf bir uygulama ekranınızı yakalamaya çalıştığında, ekranınızı uygulama ile paylaşmak için izniniz istenir.
-
-<figure markdown>
-  ![Ekran görüntüsü izinleri](../assets/img/linux/screenshot_permission.png){ width="450" }
-  <figcaption>GNOME'un ekran görüntüsü izin iletişim kutusu</figcaption>
-</figure>
-
-Birçok alternatif henüz aynı izin kontrollerini sağlamıyor,[^1] Bazıları ise Wayland'in bu kontrolleri yukarı yönde uygulamasını bekliyor.[^2]
+Desktop environments that support the [Wayland](https://wayland.freedesktop.org) display protocol are [more secure](https://lwn.net/Articles/589147) than those that only support X11. Moreover, we *generally* recommend installing and using applications which are sandboxed such as those obtained via **Flatpak**. Flatpak supports the [`security-context-v1`](https://github.com/flatpak/flatpak/pull/4920) protocol and the ability to filter D-Bus protocols, which allow Flatpak to properly identify apps for the purpose of sandboxing them through permission controls.[^1] Conversely, applications outside sandboxes are free to perform privileged actions such as capturing your screen, either by [overwriting the portal permission store](https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/issues/7#note_1112260), or [making use of privileged Wayland protocols](https://github.com/swaywm/sway/pull/7648#issuecomment-2507730794).
 
 ## Gizlilik Ayarları
 
@@ -177,5 +168,4 @@ This [option](https://dnf.readthedocs.io/en/latest/conf_ref.html#options-for-bot
 
 openSUSE also uses a [unique ID](https://en.opensuse.org/openSUSE:Statistics) to count systems, which can be disabled by emptying the `/var/lib/zypp/AnonymousUniqueId` file.
 
-[^1]: KDE currently has an open proposal to add controls for screen captures: <https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/issues/7>
-[^2]: Sway is waiting to add specific security controls until they "know how security as a whole is going to play out" in Wayland: <https://github.com/swaywm/sway/issues/5118#issuecomment-600054496>
+[^1]: This exposes a reliable way for Wayland compositors to get identifying information about a client. Compositors can then apply security policies if desirable. [https://github.com/flatpak/flatpak/commit/f0e626a4b60439f211f06d35df74b675a9ef42f4](https://github.com/flatpak/flatpak/commit/f0e626a4b60439f211f06d35df74b675a9ef42f4)

@@ -1,6 +1,6 @@
 ---
 meta_title: "Zalecenia i porównanie prywatnych usług VPN, bez sponsorów i reklam – Privacy Guides"
-title: "Usługi VPN"
+title: Usługi VPN
 icon: material/vpn
 description: Najlepsze usługi VPN chroniące Twoją prywatność i bezpieczeństwo w sieci. Znajdź dostawcę, który nie śledzi tego, co robisz.
 cover: vpn.webp
@@ -23,7 +23,7 @@ Korzystanie z VPN **nie** uczyni Twojej aktywności w sieci anonimową ani nie z
 
 Jeśli zależy Ci na **anonimowości**, skorzystaj z przeglądarki Tor Browser. Jeśli zależy Ci na dodatkowym **bezpieczeństwie**, zawsze upewnij się, że łączysz się z witrynami za pomocą HTTPS. VPN nie zastępuje dobrych praktyk w zakresie bezpieczeństwa.
 
-[Pobierz Tor Browser](https://torproject.org){ .md-button .md-button--primary } [Mity dot. sieci Tor i FAQ](advanced/tor-overview.md){ .md-button }
+[Introduction to the Tor Browser](tor.md#tor-browser){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
 
 </div>
 
@@ -33,11 +33,11 @@ Jeśli zależy Ci na **anonimowości**, skorzystaj z przeglądarki Tor Browser. 
 
 Zalecani przez nas dostawcy stosują szyfrowanie, obsługują WireGuard i OpenVPN oraz mają politykę braku logów. Szczegóły znajdziesz w naszej [pełnej liście kryteriów](#criteria).
 
-| Dostawca              | Kraje | WireGuard                     | Przekierowanie portów                                     | IPv6                                                            | Płatności anonimowe |
-| --------------------- | ----- | ----------------------------- | --------------------------------------------------------- | --------------------------------------------------------------- | ------------------- |
-| [Proton](#proton-vpn) | 127+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Częściowe wsparcie | :material-information-outline:{ .pg-blue } Ograniczone wsparcie | Gotówka             |
-| [IVPN](#ivpn)         | 41+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                    | :material-information-outline:{ .pg-blue } Tylko wychodzące     | Monero i gotówka    |
-| [Mullvad](#mullvad)   | 49+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                    | :material-check:{ .pg-green }                                   | Monero i gotówka    |
+| Dostawca              | Kraje | WireGuard                     | Przekierowanie portów                                     | IPv6                                                            | Płatności anonimowe          |
+| --------------------- | ----- | ----------------------------- | --------------------------------------------------------- | --------------------------------------------------------------- | ---------------------------- |
+| [Proton](#proton-vpn) | 127+  | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange } Częściowe wsparcie | :material-information-outline:{ .pg-blue } Ograniczone wsparcie | Cash  Monero via third party |
+| [IVPN](#ivpn)         | 41+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                    | :material-information-outline:{ .pg-blue } Tylko wychodzące     | Monero  Cash                 |
+| [Mullvad](#mullvad)   | 49+   | :material-check:{ .pg-green } | :material-alert-outline:{ .pg-orange }                    | :material-check:{ .pg-green }                                   | Monero  Cash                 |
 
 ### Proton VPN
 
@@ -47,10 +47,10 @@ Zalecani przez nas dostawcy stosują szyfrowanie, obsługują WireGuard i OpenVP
 
 **Proton VPN** to mocny gracz na rynku VPN, działający od 2016 roku. Firma Proton AG ma siedzibę w Szwajcarii i oferuje zarówno ograniczoną darmową wersję, jak i pełniejszą wersję premium.
 
-[:octicons-home-16: Strona główna](https://protonvpn.com/pl){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://protonvpn.com/pl/privacy-policy){ .card-link title="Polityka prywatności" }
-[:octicons-info-16:](https://protonvpn.com/support/pl){ .card-link title="Dokumentacja"}
-[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Kod źródłowy" }
+[:octicons-home-16: Homepage](https://protonvpn.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://protonvpn.com/support){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Pobierz</summary>
@@ -77,15 +77,17 @@ Uważamy też, że dla bezpieczeństwa kluczy prywatnych dostawcy VPN lepiej jes
 
 #### :material-check:{ .pg-green } Niezależnie audytowany
 
-W styczniu 2020 roku Proton VPN przeszedł niezależny audyt przeprowadzony przez SEC Consult. Audyt wykazał kilka luk o średnim i niskim ryzyku w aplikacjach Proton VPN dla systemów Windows, Android i iOS, które zostały „należycie naprawione” przez Proton VPN przed publikacją raportów. Żaden ze znalezionych problemów nie mógł umożliwić atakującemu zdalnego dostępu do Twojego urządzenia ani ruchu sieciowego. Poszczególne raporty dla każdej platformy można zobaczyć na stronie [protonvpn.com](https://protonvpn.com/blog/open-source). W kwietniu 2022 roku Proton VPN przeszedł [kolejny audyt](https://protonvpn.com/blog/pl/no-logs-audit). [Raport potwierdzający bezpieczeństwo](https://proton.me/pl/blog/security-audit-all-proton-apps) aplikacji Proton VPN został wydany 9 listopada 2021 roku przez firmę [Securitum](https://research.securitum.com).
+Independent security researcher Ruben Santamarta conducted audits for Proton VPN's [browser extensions](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) and [apps](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) in September 2024 and January 2025, respectively. Proton VPN's infrastrcture has undergone [annual audits](https://protonvpn.com/blog/no-logs-audit) by Securitum since 2022.
+
+Previously, Proton VPN underwent an independent audit by SEC Consult in January 2020. Audyt wykazał kilka luk o średnim i niskim ryzyku w aplikacjach Proton VPN dla systemów Windows, Android i iOS, które zostały „należycie naprawione” przez Proton VPN przed publikacją raportów. Żaden ze znalezionych problemów nie mógł umożliwić atakującemu zdalnego dostępu do Twojego urządzenia ani ruchu sieciowego. You can view individual reports for each platform in their dedicated [blog post](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) on the audit.
 
 #### :material-check:{ .pg-green } Oprogramowanie typu open source
 
-Proton VPN udostępnia kod źródłowy swoich aplikacji desktopowych i mobilnych w serwisie [GitHub](https://github.com/ProtonVPN).
+Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
 
 #### :material-check:{ .pg-green } Akceptuje płatności gotówką
 
-Proton VPN, oprócz kart kredytowych i debetowych, PayPala i [Bitcoina](advanced/payments.md#other-coins-bitcoin-ethereum-etc), akceptuje również **gotówkę/lokalną walutę** jako anonimową formę płatności.
+Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment. You can also use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton VPN Plus and Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
 
 #### :material-check:{ .pg-green } Obsługa WireGuard
 
@@ -136,10 +138,10 @@ Na komputerach Mac z procesorami Intel użycie funkcji Kill Kwitch VPN [może pr
 
 **IVPN** to kolejny dostawca usługi VPN klasy premium, działający od 2009 roku. Siedziba firmy znajduje się na Gibraltarze, a usługa nie oferuje bezpłatnego okresu próbnego.
 
-[:octicons-home-16: Strona główna](https://ivpn.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Polityka prywatności" }
-[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="Dokumentacja"}
-[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Kod źródłowy" }
+[:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Pobierz</summary>
@@ -175,7 +177,7 @@ Od lutego 2020 roku [aplikacje IVPN są dostępne jako open source](https://ivpn
 
 #### :material-check:{ .pg-green } Akceptuje płatności gotówką i Monero
 
-Oprócz płatności kartą kredytową/debetową i PayPalem IVPN przyjmuje również płatności w Bitcoinach, **Monero** oraz **gotówce/walucie lokalnej** (w przypadku planów rocznych) jako anonimowe formy płatności. Dostępne są także [karty przedpłacone z kodami](https://ivpn.net/knowledgebase/billing/voucher-cards-faq).
+Oprócz płatności kartą kredytową/debetową i PayPalem IVPN przyjmuje również płatności w Bitcoinach, **Monero** oraz **gotówce/walucie lokalnej** (w przypadku planów rocznych) jako anonimowe formy płatności. You can also purchase [prepaid cards](https://ivpn.net/knowledgebase/billing/voucher-cards-faq) with redeem codes.
 
 #### :material-check:{ .pg-green } Obsługa WireGuard
 
@@ -211,11 +213,11 @@ Aplikacje IVPN obsługują uwierzytelnianie dwuskładnikowe. IVPN oferuje także
 
 **Mullvad** to szybka i niedroga usługa VPN, która kładzie duży nacisk na przejrzystość i bezpieczeństwo. Działa od 2009 roku. Siedziba firmy znajduje się w Szwecji, a użytkownicy mogą skorzystać z 14-dniowej gwarancji zwrotu pieniędzy dla [metod płatności](https://mullvad.net/pl/help/refunds), które na to pozwalają.
 
-[:octicons-home-16: Strona główna](https://mullvad.net/pl){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Usługa onion" }
-[:octicons-eye-16:](https://mullvad.net/pl/help/privacy-policy){ .card-link title="Polityka prywatności" }
-[:octicons-info-16:](https://mullvad.net/pl/help){ .card-link title="Dokumentacja"}
-[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Kod źródłowy" }
+[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
+[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="Documentation" }
+[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
 <summary>Pobierz</summary>
@@ -250,7 +252,7 @@ Mullvad udostępnia kod źródłowy swoich aplikacji desktopowych i mobilnych w 
 
 #### :material-check:{ .pg-green } Akceptuje płatności gotówką i Monero
 
-Oprócz płatności kartą kredytową/debetową i PayPalem, Mullvad przyjmuje również płatności Bitcoin, Bitcoin Cash, **Monero** oraz **gotówką/walutą lokalną** jako anonimowe formy płatności. Dostępne są także karty przedpłacone z kodami. Mullvad akceptuje ponadto płatności za pośrednictwem Swish, przelewów bankowych oraz kilku europejskich systemów płatności w tym Przelewy24.
+Oprócz płatności kartą kredytową/debetową i PayPalem, Mullvad przyjmuje również płatności Bitcoin, Bitcoin Cash, **Monero** oraz **gotówką/walutą lokalną** jako anonimowe formy płatności. You can also purchase [prepaid cards](https://mullvad.net/en/help/partnerships-and-resellers) with redeem codes. Mullvad akceptuje ponadto płatności za pośrednictwem Swish, przelewów bankowych oraz kilku europejskich systemów płatności w tym Przelewy24.
 
 #### :material-check:{ .pg-green } Obsługa WireGuard
 

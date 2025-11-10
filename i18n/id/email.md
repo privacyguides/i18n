@@ -22,11 +22,11 @@ Email bisa dibilang merupakan kebutuhan untuk menggunakan layanan daring apa pun
 
 Untuk yang lainnya, kami merekomendasikan berbagai penyedia surel yang didasarkan pada model bisnis yang berkelanjutan serta fitur keamanan dan privasi bawaan. Baca [daftar lengkap kriteria](#criteria) kami untuk informasi lebih lanjut.
 
-| Penyedia                      | OpenPGP / WKD                          | IMAP / SMTP                                                     | Zero-Access Encryption                                | Metode Pembayaran Anonim                         |
-| ----------------------------- | -------------------------------------- | --------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------ |
-| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Hanya paket berbayar | :material-check:{ .pg-green }                         | Uang Tunai                                       |
-| [MailBox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                   | :material-information-outline:{ .pg-blue } Hanya mail | Uang Tunai                                       |
-| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                          | :material-check:{ .pg-green }                         | Monero <br>Uang tunai melalui pihak ketiga |
+| Penyedia                      | OpenPGP / WKD                          | IMAP / SMTP                                                     | Zero-Access Encryption                                | Metode Pembayaran Anonim                              |
+| ----------------------------- | -------------------------------------- | --------------------------------------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- |
+| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Hanya paket berbayar | :material-check:{ .pg-green }                         | Cash <br>Monero via third party                 |
+| [MailBox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                   | :material-information-outline:{ .pg-blue } Hanya mail | Uang Tunai                                            |
+| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                          | :material-check:{ .pg-green }                         | Monero via third party <br>Cash via third party |
 
 Selain (atau sebagai pengganti) penyedia email yang direkomendasikan di sini, Anda mungkin ingin mempertimbangkan [layanan aliasing email](email-aliasing.md#recommended-providers) khusus untuk melindungi privasi Anda. Di antaranya, layanan-layanan ini dapat membantu melindungi kotak masuk asli Anda dari spam, mencegah para pemasar menghubungkan akun-akun Anda, dan mengenkripsi semua pesan yang masuk dengan PGP.
 
@@ -85,11 +85,25 @@ Paket Proton Free hadir dengan penyimpanan Mail sebesar 500 MB, yang dapat Anda 
 
 </div>
 
-Akun gratis memiliki beberapa keterbatasan, seperti tidak dapat mencari teks di body email dan tidak memiliki akses ke [Proton Mail Bridge](https://proton.me/mail/bridge), yang diperlukan untuk menggunakan [klien email desktop yang direkomendasikan](email-clients.md) (misalnya Thunderbird). Akun berbayar mencakup fitur-fitur seperti Proton Mail Bridge, penyimpanan tambahan, dan dukungan domain khusus. Jika Anda memiliki paket Proton Unlimited atau paket Proton multi-user, Anda juga mendapatkan [SimpleLogin](email-aliasing.md#simplelogin) Premium secara gratis.
+Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) such as Thunderbird. Akun berbayar mencakup fitur-fitur seperti Proton Mail Bridge, penyimpanan tambahan, dan dukungan domain khusus. The Proton Unlimited plan or any multi-user Proton plan includes access to [SimpleLogin](email-aliasing.md#simplelogin) Premium.
 
-[Surat pengesahan](https://proton.me/blog/security-audit-all-proton-apps) diberikan untuk aplikasi Proton Mail pada tanggal 9 November 2021 oleh [Securitum](https://research.securitum.com).
+A [letter of attestation](https://res.cloudinary.com/dbulfrlrz/images/v1714639878/wp-pme/letter-of-attestation-proton-mail-20211109_3138714c61/letter-of-attestation-proton-mail-20211109_3138714c61.pdf) was provided for Proton Mail's apps in November 2021 by [Securitum](https://research.securitum.com).
 
-Proton Mail memiliki laporan crash internal yang **tidak** dibagikan dengan pihak ketiga. Hal ini dapat dinonaktifkan di aplikasi web: :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+Proton Mail has internal crash reports that are **not** shared with third parties and can be disabled.
+
+=== "Web"
+
+    From your inbox, select :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+
+    - [ ] Disable **Collect usage dignostics**
+    - [ ] Disable **Send crash reports**
+
+=== "Mobile"
+
+    From your inbox, select :material-menu: → :gear: **Settings** → select your username.
+
+    - [ ] Disable **Send crash reports**
+    - [ ] Disable **Collect usage dignostics**
 
 #### :material-check:{ .pg-green } Domain dan Alias Khusus
 
@@ -97,7 +111,7 @@ Pelanggan Proton Mail berbayar dapat menggunakan domain mereka sendiri dengan la
 
 #### :material-check:{ .pg-green } Metode Pembayaran Pribadi
 
-Proton Mail [menerima](https://proton.me/support/payment-options)**tunai** melalui pos selain kartu kredit/debit standar, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), dan PayPal.
+Proton Mail [menerima](https://proton.me/support/payment-options)**tunai** melalui pos selain kartu kredit/debit standar, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), dan PayPal. Additionally, you can use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton Mail Plus or Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
 
 #### :material-check:{ .pg-green } Keamanan Akun
 
@@ -129,7 +143,7 @@ Paket [Unlimited](https://proton.me/support/proton-plans#proton-unlimited) Proto
 
 ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
 
-**Mailbox Mail** adalah layanan email yang berfokus pada keamanan, bebas iklan, dan didukung oleh 100% energi ramah lingkungan. Mereka telah beroperasi sejak tahun 2014. Mailbox Mail berbasis di Berlin, Germany.
+**Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Mereka telah beroperasi sejak tahun 2014. Mailbox Mail berbasis di Berlin, Germany.
 
 Akun dimulai dengan penyimpanan hingga 2 GB, yang dapat ditingkatkan sesuai kebutuhan.
 
@@ -232,7 +246,7 @@ Akun Tuta berbayar dapat menggunakan 15 atau 30 alias tergantung pada paket mere
 
 #### :material-information-outline:{ .pg-blue } Metode Pembayaran Pribadi
 
-Tuta hanya menerima kartu kredit dan PayPal secara langsung, namun [**mata uang kripto**](cryptocurrency.md) dapat digunakan untuk membeli kartu hadiah melalui [kemitraan](https://tuta.com/support/#cryptocurrency) dengan ProxyStore.
+Tuta only directly accepts credit cards and PayPal, however you can use [**cryptocurrency**](cryptocurrency.md) to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
 
 #### :material-check:{ .pg-green } Keamanan Akun
 

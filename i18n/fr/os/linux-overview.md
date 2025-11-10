@@ -69,6 +69,7 @@ Arch et les distributions basées sur Arch ne sont pas recommandées pour ceux q
 Pour un système sécurisé, vous êtes également censé avoir suffisamment de connaissances sur Linux pour configurer correctement la sécurité de leur système, comme adopter un [système de contrôle d'accès obligatoire](#mandatory-access-control), configurer un [ module de noyau](https://en.wikipedia.org/wiki/Loadable_kernel_module#Security), une liste noire, renforcer les paramètres de démarrage, manipuler les paramètres [sysctl](https://en.wikipedia.org/wiki/Sysctl) et savoir quels composants sont nécessaires comme [Polkit](https://en.wikipedia.org/wiki/Polkit).
 
 Toute personne utilisant le [Arch User Repository (AUR)](https://wiki.archlinux.org/title/Arch_User_Repository) **doit** être à l'aise avec l'audit des PKGBUILDs qu'elle télécharge depuis ce service. Les paquets AUR sont des contenus produits par la communauté et ne font l'objet d'aucune vérification. Ils sont donc vulnérables aux
+
 :material-package-variant-closed-remove: attaques de la chaîne d'approvisionnement des logiciels, ce qui s'est d'ailleurs produit [dans le passé](https://bleepingcomputer.com/news/security/malware-found-in-arch-linux-aur-package-repository).</p> 
 
 Le AUR doit toujours être utilisé avec parcimonie, et l'on trouve souvent de nombreux mauvais conseils sur diverses pages qui incitent les gens à utiliser aveuglément [AUR helpers](https://wiki.archlinux.org/title/AUR_helpers) sans avertissement suffisant. Des avertissements similaires s'appliquent à l'utilisation des Archives de Paquets Personnels (PPAs) conçu par de tiers sur les distributions basées sur Debian ou des Projets Communautaires (COPR) sur Fedora.
@@ -136,16 +137,7 @@ En outre, certaines distributions ne téléchargent pas automatiquement les mise
 
 ### Contrôles des autorisations
 
-Les environnements de bureau (Desktop Environnements ou DE) qui prennent en charge le protocole d'affichage [Wayland](https://wayland.freedesktop.org) sont [plus sûrs](https://lwn.net/Articles/589147) que ceux qui ne prennent en charge que X11. Cependant, toutes les DE ne tirent pas pleinement parti des améliorations architecturales de Wayland en matière de sécurité.
-
-Par exemple : GNOME dispose d'un avantage notable en matière de sécurité par rapport aux autres DEs en implémentant des contrôles d'autorisations pour des logiciels tiers qui tentent de [capturer votre écran](https://gitlab.gnome.org/GNOME/gnome-shell/-/issues/3943). Ainsi, lorsqu'une application tierce tente de capturer votre écran, vous êtes invité à autoriser le partage de votre écran avec l'application.
-
-<figure markdown>
-  ![Permissions de capture d'écran](../assets/img/linux/screenshot_permission.png){ width="450" }
-  <figcaption>Dialogue de permission de capture d'écran de GNOME</figcaption>
-</figure>
-
-De nombreuses alternatives n'offrent pas encore ces mêmes contrôles d'autorisation,[^1] tandis que d'autres attendent que Wayland implémente ces contrôles en amont.[^2]
+Desktop environments that support the [Wayland](https://wayland.freedesktop.org) display protocol are [more secure](https://lwn.net/Articles/589147) than those that only support X11. Moreover, we *generally* recommend installing and using applications which are sandboxed such as those obtained via **Flatpak**. Flatpak supports the [`security-context-v1`](https://github.com/flatpak/flatpak/pull/4920) protocol and the ability to filter D-Bus protocols, which allow Flatpak to properly identify apps for the purpose of sandboxing them through permission controls.[^1] Conversely, applications outside sandboxes are free to perform privileged actions such as capturing your screen, either by [overwriting the portal permission store](https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/issues/7#note_1112260), or [making use of privileged Wayland protocols](https://github.com/swaywm/sway/pull/7648#issuecomment-2507730794).
 
 
 
@@ -211,8 +203,4 @@ openSUSE utilise également un [identifiant unique](https://en.opensuse.org/open
 
 
 [^1]:    
-    KDE a actuellement une proposition ouverte pour ajouter des contrôles pour les captures d'écran : [:](https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/issues/7) https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/issues/7
-
-
-[^2]:    
-    Sway attend de "savoir comment la sécurité dans son ensemble va jouer" pour ajouter des contrôles de sécurité spécifiques dans Wayland : [:](https://github.com/swaywm/sway/issues/5118#issuecomment-600054496) https://github.com/swaywm/sway/issues/5118#issuecomment-600054496
+    This exposes a reliable way for Wayland compositors to get identifying information about a client. Compositors can then apply security policies if desirable. [https://github.com/flatpak/flatpak/commit/f0e626a4b60439f211f06d35df74b675a9ef42f4](https://github.com/flatpak/flatpak/commit/f0e626a4b60439f211f06d35df74b675a9ef42f4)

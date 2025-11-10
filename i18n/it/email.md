@@ -22,11 +22,11 @@ L'email è praticamente una necessità per utilizzare qualsiasi servizio online,
 
 Per tutto il resto, consigliamo una varietà di provider di posta elettronica basati su modelli di business sostenibile e funzioni di sicurezza integrate. Leggi il nostro [elenco completo di criteri](#criteria) per ulteriori informazioni.
 
-| Provider                      | OpenPGP / WKD                          | IMAP / SMTP                                                | Crittografia ad accesso zero                         | Metodi di pagamento anonimi             |
-| ----------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | --------------------------------------- |
-| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Solo a pgamento | :material-check:{ .pg-green }                        | Contanti                                |
-| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Solo mail | Contanti                                |
-| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero <br>Contanti tramite terzi |
+| Provider                      | OpenPGP / WKD                          | IMAP / SMTP                                                | Crittografia ad accesso zero                         | Metodi di pagamento anonimi                           |
+| ----------------------------- | -------------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------- | ----------------------------------------------------- |
+| [Proton Mail](#proton-mail)   | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Solo a pgamento | :material-check:{ .pg-green }                        | Cash <br>Monero via third party                 |
+| [Mailbox Mail](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                              | :material-information-outline:{ .pg-blue } Solo mail | Contanti                                              |
+| [Tuta](#tuta)                 | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                     | :material-check:{ .pg-green }                        | Monero via third party <br>Cash via third party |
 
 Oltre a (o al posto di) un fornitore di posta elettronica consigliato qui, potresti prendere in considerazione un [servizio di aliasing e-mail](email-aliasing.md#recommended-providers) dedicato per proteggere la tua privacy. Tra le altre cose, questi servizi possono aiutare a proteggere la vostra casella di posta reale dallo spam, a impedire ai marketer di correlare i vostri account e a criptare tutti i messaggi in arrivo con PGP.
 
@@ -85,11 +85,25 @@ Il piano Proton Free viene fornito con 500 MB di spazio di archiviazione per l'e
 
 </div>
 
-Gli account gratuiti presentano alcune limitazioni, come l'impossibilità di effettuare ricerche nel testo del corpo delle email e l'impossibilità di accedere a [Proton Mail Bridge](https://proton.me/mail/bridge), necessario per utilizzare un [client di posta elettronica desktop consigliato](email-clients.md) (ad esempio, Thunderbird). I profili a pagamento includono funzionalità come Proton Mail Bridge, archiviazione aggiuntiva e supporto ai domini personalizzati. Se hai un piano Proton Unlimited o un piano Proton per più utenti, avrai anche [SimpleLogin](email-aliasing.md#simplelogin) Premium gratis.
+Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) such as Thunderbird. I profili a pagamento includono funzionalità come Proton Mail Bridge, archiviazione aggiuntiva e supporto ai domini personalizzati. The Proton Unlimited plan or any multi-user Proton plan includes access to [SimpleLogin](email-aliasing.md#simplelogin) Premium.
 
-Una [lettera di attestazione](https://proton.me/blog/security-audit-all-proton-apps) è stata fornita per le applicazioni di Proton Mail il 9 novembre 2021 da [Securitum](https://research.securitum.com).
+A [letter of attestation](https://res.cloudinary.com/dbulfrlrz/images/v1714639878/wp-pme/letter-of-attestation-proton-mail-20211109_3138714c61/letter-of-attestation-proton-mail-20211109_3138714c61.pdf) was provided for Proton Mail's apps in November 2021 by [Securitum](https://research.securitum.com).
 
-Proton Mail ha dei rapporti sugli arresti anomali interni che **non** sono condivisi con terze parti. Questa funzione può essere disattivata nell'applicazione web: :gear: → **Tutte le impostazioni** → **Account** → **Sicurezza e privacy** → **Privacy e raccolta dati**.
+Proton Mail has internal crash reports that are **not** shared with third parties and can be disabled.
+
+=== "Web"
+
+    From your inbox, select :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+
+    - [ ] Disable **Collect usage dignostics**
+    - [ ] Disable **Send crash reports**
+
+=== "Mobile"
+
+    From your inbox, select :material-menu: → :gear: **Settings** → select your username.
+
+    - [ ] Disable **Send crash reports**
+    - [ ] Disable **Collect usage dignostics**
 
 #### :material-check:{ .pg-green } Domini e Alias Personalizzati
 
@@ -97,7 +111,7 @@ Gli abbonati a Proton Mail a pagamento possono utilizzare il proprio dominio con
 
 #### :material-check:{ .pg-green } Metodi di pagamento privati
 
-Proton Mail [accetta](https://proton.me/support/payment-options) **contanti** per posta oltre ai pagamenti standard con carta di credito/debito, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) e PayPal.
+Proton Mail [accetta](https://proton.me/support/payment-options) **contanti** per posta oltre ai pagamenti standard con carta di credito/debito, [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc) e PayPal. Additionally, you can use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton Mail Plus or Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
 
 #### :material-check:{ .pg-green } Sicurezza dell'account
 
@@ -129,7 +143,7 @@ Proton Mail's [Unlimited](https://proton.me/support/proton-plans#proton-unlimite
 
 ![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
 
-**Mailbox Mail** is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Sono operativi dal 2014. Mailbox Mail is based in Berlin, Germany.
+**Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Sono operativi dal 2014. Mailbox Mail is based in Berlin, Germany.
 
 Accounts start with up to 2 GB storage, which can be upgraded as needed.
 
@@ -232,7 +246,7 @@ Gli account Tuta a pagamento possono utilizzare 15 o 30 alias a seconda del pian
 
 #### :material-information-outline:{ .pg-blue } Metodi di pagamento privati
 
-Tuta accetta direttamente solo carte di credito e PayPal, tuttavia le [**criptovalute**](cryptocurrency.md) possono essere utilizzate per acquistare carte regalo grazie alla [collaborazione](https://tuta.com/support/#cryptocurrency) con ProxyStore.
+Tuta only directly accepts credit cards and PayPal, however you can use [**cryptocurrency**](cryptocurrency.md) to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
 
 #### :material-check:{ .pg-green } Sicurezza dell'account
 
