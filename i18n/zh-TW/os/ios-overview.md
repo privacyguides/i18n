@@ -10,7 +10,7 @@ description: 蘋果公司使用 Unix 作業系統來開發macOS 支援自家的 
 
 iOS 設備因其強大的資料保護和對現代最佳作法的遵守而受到安全專家的讚揚。 然而，Apple 生態系統的限制性——尤其是行動裝置——仍然在很多方面阻礙了隱私。
 
-我們認為，與任何製造商的庫存 Android 設備相比，iOS 為大多數人提供了水平之上的隱私和安全保護。 However, you can achieve even higher standards of privacy with a [custom Android operating system](../android/distributions.md) like GrapheneOS, if you want or need to be completely independent of Apple or Google's cloud services.
+我們認為，與任何製造商的庫存 Android 設備相比，iOS 為大多數人提供了水平之上的隱私和安全保護。 不過，如果您想要，或有需要完全不使用 Apple 或 Google 的雲端服務，還可以使用諸如 GrapheneOS 等[客製的 Android 作業系統](../android/distributions.md)，來達到更高的隱私保護標準。
 
 ### 激活鎖
 
@@ -18,7 +18,7 @@ iOS 設備因其強大的資料保護和對現代最佳作法的遵守而受到�
 
 ### 強制的 App Store
 
-The only source for apps on iOS is Apple's App Store, which requires an Apple Account to access. 這意味著 Apple 擁有您在設備上安裝的每個應用記錄，且如果向 App Store 提供付款方式，則可能會將該資訊與您的實際身份聯繫起來。
+iOS 上唯一的應用程式來源是 Apple 的 App Store，需要有 Apple 帳號才能使用。 這意味著 Apple 擁有您在設備上安裝的每個應用記錄，且如果向 App Store 提供付款方式，則可能會將該資訊與您的實際身份聯繫起來。
 
 ### 侵入式遙測
 
