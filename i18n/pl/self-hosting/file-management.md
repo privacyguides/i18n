@@ -18,7 +18,7 @@ Self-hosting your own **file management** tools may be a good idea to reduce the
 
 <div class="admonition recommendation" markdown>
 
-![PhotoPrism logo](../assets/img/self-hosting/photoprism.svg){ align=right }
+![Logo PhotoPrism](../assets/img/self-hosting/photoprism.svg){ align=right }
 
 **PhotoPrism** is a platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
 
@@ -74,7 +74,7 @@ Self-hosting your own **file management** tools may be a good idea to reduce the
 </div>
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">Zagrożenie</p>
 
 We don't recommend using the [E2EE App](https://apps.nextcloud.com/apps/end_to_end_encryption) for Nextcloud as it may lead to data loss; it is highly experimental and not production quality. For this reason, we don't recommend third-party Nextcloud providers.
 

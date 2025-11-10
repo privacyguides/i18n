@@ -1,5 +1,5 @@
 ---
-title: "Mobiltelefone"
+title: Mobiltelefone
 icon: material/cellphone-check
 description: Diese mobilen Geräte bieten die beste Hardware-Sicherheitsunterstützung für benutzerdefinierte Android-Betriebssysteme.
 cover: android.webp
@@ -42,7 +42,7 @@ End-of-Life-Geräte (z. B. "erweitertem Support"-Geräte von GrapheneOS) verfüg
 
 </div>
 
-## Kauf-Hinweis
+## General Purchasing Advice
 
 When purchasing a device, we recommend getting one as new as possible. The software and firmware of mobile devices are only supported for a limited time, so buying new extends that lifespan as much as possible.
 
@@ -72,11 +72,15 @@ Ab dem **Pixel 8** und **8 Pro** erhalten Pixel-Geräte mindestens 7 Jahre lang 
 
 </div>
 
-Secure-Elements wie das Titan M2 sind eingeschränkter als die Trusted Execution Environment des Prozessors, die von den meisten anderen Handys verwendet wird, da sie nur für die Speicherung von Geheimnissen, die Hardware-Bescheinigung und die Ratenbegrenzung verwendet werden, nicht aber für die Ausführung "vertrauenswürdiger" Programme. Hndys ohne Secure-Element müssen das TEE für _alle_ diese Funktionen verwenden, was zu einer größeren Angriffsfläche führt.
+### Hardware Security
+
+Secure Elements like the Titan M2 are more limited than the processor's Trusted Execution Environment (TEE) used by most other phones as they are only used for secrets storage, hardware attestation, and rate limiting, not for running "trusted" programs. Hndys ohne Secure-Element müssen das TEE für _alle_ diese Funktionen verwenden, was zu einer größeren Angriffsfläche führt.
 
 Google Pixel-Telefone verwenden ein TEE-Betriebssystem namens Trusty, das im Gegensatz zu vielen anderen Telefonen [Open Source] (https://source.android.com/security/trusty#whyTrusty) ist.
 
-Die Installation von GrapheneOS auf einem Pixel-Telefon ist mit dem [Web-Installer](https://grapheneos.org/install/web) einfach. Wenn du dich nicht wohl dabei fühlst, es selbst zu tun und bereit bist, etwas mehr Geld auszugeben, solltest du dir das [NitroPhone](https://shop.nitrokey.com/shop) ansehen, auf dem GrapheneOS von der renommierten Firma [Nitrokey](https://nitrokey.com/about) vorinstalliert ist.
+The Pixel 8 series and later supports ARM's Memory Tagging Extension ([MTE](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension)), a hardware security enhancement that drastically lowers the probability of exploits occurring through memory corruption bugs. The stock Pixel OS allows you to enable MTE for supported apps through Google's Advanced Protection Program or via a developer option, but its usability is quite limited. [GrapheneOS](android/distributions.md#grapheneos), an alternative Android OS we recommend, greatly improves the usability and coverage of MTE in its implementation of the feature.
+
+### Buying a Google Pixel
 
 Ein paar weitere Tipps für den Kauf eines Google Pixel:
 
@@ -86,6 +90,8 @@ Ein paar weitere Tipps für den Kauf eines Google Pixel:
 - Google stellt eine Liste mit dem [Support-Zyklus](https://support.google.com/nexus/answer/4457705?hl=de) für jedes ihrer Geräte zur Verfügung. Der Preis pro Tag für ein Gerät kann wie folgt berechnet werden: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext>Kosten</mtext> <mrow> <mtext>End-of-Life Datum</mtext> <mo>−</mo> <mtext>Aktuelles Datum</mtext> </mrow> </mfrac> </math>
   , d. h. dass die Kosten pro Tag umso niedriger sind, je länger das Gerät genutzt wird.
 - Auch wenn das Pixel in deiner Region nicht verfügbar ist, kann das [NitroPhone](https://shop.nitrokey.com/shop) weltweit versendet werden.
+
+Die Installation von GrapheneOS auf einem Pixel-Telefon ist mit dem [Web-Installer](https://grapheneos.org/install/web) einfach. Wenn du dich nicht wohl dabei fühlst, es selbst zu tun und bereit bist, etwas mehr Geld auszugeben, solltest du dir das [NitroPhone](https://shop.nitrokey.com/shop) ansehen, auf dem GrapheneOS von der renommierten Firma [Nitrokey](https://nitrokey.com/about) vorinstalliert ist.
 
 ## Kriterien
 

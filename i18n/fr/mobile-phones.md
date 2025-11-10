@@ -1,5 +1,5 @@
 ---
-title: "Smartphones"
+title: Smartphones
 icon: material/cellphone-check
 description: Les smartphones suivants possèdent la meilleure sécurité matérielle (hardware) pour les systèmes d'exploitation Android alternatifs (ou custom ROMs).
 cover: android.webp
@@ -42,7 +42,7 @@ Les appareils en fin de vie (comme les appareils à "support prolongé" de Graph
 
 </div>
 
-## Conseil d'achat
+## General Purchasing Advice
 
 Lorsque vous achetez un appareil, nous vous recommandons d'en acheter un le plus neuf possible. Puisque le logiciel et le micrologiciel d'un appareil ne sont mis à jour que pendant une courte période, acheter un appareil neuf permet de profiter de celle-ci le plus longtemps possible.
 
@@ -72,11 +72,15 @@ Les appareils **Google Pixel** sont connus pour avoir une bonne sécurité et po
 
 </div>
 
-Les Composants Sécurisés comme le Titan M2 sont plus limités que les Environnements d'Exécution Sécurisés (Trusted Execution Environment, ou TEE) des processeurs utilisés par la plupart des autres smartphones, ils sont utilisés uniquement pour le stockage secret, l'authentification hardware, et la limitation du débit (rate limiting), et non pour l'exécution de programmes "de confiance". Les smartphones qui ne possèdent pas de Composant Sécurisé doivent utiliser le TEE pour _toutes_ ces fonctions, laissant ainsi une surface d'attaque plus importante.
+### Sécurité matérielle
+
+Secure Elements like the Titan M2 are more limited than the processor's Trusted Execution Environment (TEE) used by most other phones as they are only used for secrets storage, hardware attestation, and rate limiting, not for running "trusted" programs. Les smartphones qui ne possèdent pas de Composant Sécurisé doivent utiliser le TEE pour _toutes_ ces fonctions, laissant ainsi une surface d'attaque plus importante.
 
 Les Pixels utilisent un système d'exploitation particulier pour le TEE appelé Trusty qui, contrairement à beaucoup d'autres téléphones, est [open source](https://source.android.com/security/trusty#whyTrusty).
 
-L'installation de GrapheneOS sur un Pixel est très simple grâce à leur [web installer](https://grapheneos.org/install/web)(en anglais uniquement, mais des tutoriels en français sont facilement trouvables). Si vous n'êtes pas à l'aise à l'idée de le faire vous-même et si cela entre dans votre budget, vous pouvez investir dans un [NitroPhone](https://shop.nitrokey.com/shop) préinstallé avec GrapheneOS, vendu par l'entreprise réputée [Nitrokey](https://nitrokey.com/about).
+The Pixel 8 series and later supports ARM's Memory Tagging Extension ([MTE](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension)), a hardware security enhancement that drastically lowers the probability of exploits occurring through memory corruption bugs. The stock Pixel OS allows you to enable MTE for supported apps through Google's Advanced Protection Program or via a developer option, but its usability is quite limited. [GrapheneOS](android/distributions.md#grapheneos), an alternative Android OS we recommend, greatly improves the usability and coverage of MTE in its implementation of the feature.
+
+### Buying a Google Pixel
 
 Quelques conseils supplémentaires :
 
@@ -86,6 +90,8 @@ Quelques conseils supplémentaires :
 - Google fourni une liste complète du [cycle de support](https://support.google.com/nexus/answer/4457705) pour chacun de leurs modèles. Le coût journalier d'un appareil peut être calculé comme suit : <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext>Coût</mtext> <mrow> <mtext>Date de fin de vie</mtext> <mo>−</mo> <mtext>Date du jour</mtext> </mrow> </mfrac> </math>
   , ce qui signifie que plus vous utilisez votre appareil longtemps, moins le coût journalier sera élevé.
 - Si les Pixels ne sont pas disponibles à la vente dans votre pays, les [NitroPhones](https://shop.nitrokey.com/shop) peuvent être livrés dans le monde entier.
+
+L'installation de GrapheneOS sur un Pixel est très simple grâce à leur [web installer](https://grapheneos.org/install/web)(en anglais uniquement, mais des tutoriels en français sont facilement trouvables). Si vous n'êtes pas à l'aise à l'idée de le faire vous-même et si cela entre dans votre budget, vous pouvez investir dans un [NitroPhone](https://shop.nitrokey.com/shop) préinstallé avec GrapheneOS, vendu par l'entreprise réputée [Nitrokey](https://nitrokey.com/about).
 
 ## Critères
 

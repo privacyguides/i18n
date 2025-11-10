@@ -23,7 +23,7 @@ Korzystanie z VPN **nie** uczyni Twojej aktywności w sieci anonimową ani nie z
 
 Jeśli zależy Ci na **anonimowości**, skorzystaj z przeglądarki Tor Browser. Jeśli zależy Ci na dodatkowym **bezpieczeństwie**, zawsze upewnij się, że łączysz się z witrynami za pomocą HTTPS. VPN nie zastępuje dobrych praktyk w zakresie bezpieczeństwa.
 
-[Introduction to the Tor Browser](tor.md#tor-browser){ .md-button .md-button--primary } [Tor Myths & FAQ](advanced/tor-overview.md){ .md-button }
+[Wprowadzenie do Tor Browser](tor.md#tor-browser){ .md-button .md-button--primary } [Mity dot. sieci Tor i FAQ](advanced/tor-overview.md){ .md-button }
 
 </div>
 
@@ -47,10 +47,10 @@ Zalecani przez nas dostawcy stosują szyfrowanie, obsługują WireGuard i OpenVP
 
 **Proton VPN** to mocny gracz na rynku VPN, działający od 2016 roku. Firma Proton AG ma siedzibę w Szwajcarii i oferuje zarówno ograniczoną darmową wersję, jak i pełniejszą wersję premium.
 
-[:octicons-home-16: Homepage](https://protonvpn.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://protonvpn.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://protonvpn.com/support){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Source Code" }
+[:octicons-home-16: Strona główna](https://protonvpn.com/pl){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://protonvpn.com/pl/privacy-policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://protonvpn.com/support/pl){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/ProtonVPN){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
 <summary>Pobierz</summary>
@@ -290,37 +290,37 @@ Mullvad zachowuje pełną przejrzystość w kwestii tego, które węzły [posiad
 <div class="admonition danger" markdown>
 <p class="admonition-title">Zagrożenie</p>
 
-Ważne jest, aby pamiętać, że korzystanie z usług dostawcy VPN nie zapewni anonimowości, ale zapewni lepszą prywatność w niektórych sytuacjach. VPN nie jest narzędziem do nielegalnych działań. Nie polegaj na polityce "no log".
+Ważne jest, aby pamiętać, że korzystanie z dostawcy usługi VPN nie czyni Cię anonimowym, choć w pewnych sytuacjach zwiększy Twoją prywatność. VPN nie jest narzędziem do działań niezgodnych z prawem. Nie polegaj na polityce „braku logów”.
 
 </div>
 
-**Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas dostawców. Pozwala nam to zapewnić całkowicie obiektywne rekomendacje.** Oprócz [naszych standardowych kryteriów](about/criteria.md), opracowaliśmy jasny zestaw wymagań dla każdego dostawcy VPN, który chce być rekomendowany, w tym silne szyfrowanie, niezależne audyty bezpieczeństwa, nowoczesną technologię i wiele innych. Zalecamy zapoznanie się z tą listą przed wyborem dostawcy VPN i przeprowadzenie własnych badań, aby upewnić się, że wybrany dostawca VPN jest tak godny zaufania, jak to tylko możliwe.
+**Należy pamiętać, że nie jesteśmy powiązani z żadnym z polecanych przez nas dostawców. Pozwala nam to formułować całkowicie obiektywne zalecenia.** Oprócz [naszych standardowych kryteriów](about/criteria.md), opracowaliśmy jasny zestaw wymagań, które musi spełniać dostawca usługi VPN, aby mógł być przez nas polecany — obejmują one wdrożenie silnego szyfrowania, niezależnych audytów bezpieczeństwa, nowoczesnych technologii i nie tylko. Sugerujemy zapoznanie się z tą listą przed wyborem dostawcy usługi VPN i przeprowadzenie własnych badań, aby upewnić się, że wybrany dostawca jest jak najbardziej godny zaufania.
 
 ### Technologia
 
-Wymagamy, aby wszyscy nasi rekomendowani dostawcy VPN dostarczali standardowe pliki konfiguracyjne, które mogą być używane w ogólnym kliencie open-source. **Jeśli** VPN udostępnia własnego klienta, wymagamy kill switch, aby zablokować wycieki danych sieciowych po rozłączeniu.
+Wymagamy, aby wszyscy zalecani przez nas dostawcy VPN udostępniali standardowe pliki konfiguracyjne, które można wykorzystać w uniwersalnym kliencie VPN typu open-source. **Jeśli** dostawca udostępnia własną aplikację, musi ona mieć wbudowany tzw. „kill switch”, który blokuje przesyłanie danych po utracie połączenia z VPN, zapobiegając wyciekom ruchu sieciowego.
 
-**Minimum do zakwalifikowania się:**
+**Minimalne wymagania:**
 
 - Obsługa silnych protokołów, takich jak WireGuard.
-- Kill Switch wbudowany w klientów.
-- Wsparcie Wielokrotnego Przeskoku. Wielokrotny Przeskok jest ważny, aby zachować prywatność danych w przypadku naruszenia bezpieczeństwa pojedynczego węzła.
-- Jeśli klienci VPN są dostarczani, powinni być [open source](https://en.wikipedia.org/wiki/Open_source), podobnie jak oprogramowanie VPN, które zazwyczaj jest w nich wbudowane. Uważamy, że dostępność [kodu źródłowego](https://en.wikipedia.org/wiki/Source_code) zapewnia większą przejrzystość tego, co program faktycznie robi.
-- Funkcje odporności na cenzurę zaprojektowane do omijania zapór sieciowych bez DPI.
+- Wbudowany kill switch w swoich aplikacjach.
+- Obsługa multi-hop (łączenie przez wiele serwerów), co zwiększa prywatność w razie kompromitacji jednego z węzłów.
+- Jeśli dostawca oferuje własne aplikacje, powinny być one [open source](https://en.wikipedia.org/wiki/Open_source), podobnie jak oprogramowanie VPN, na którym zazwyczaj są oparte. Wierzymy, że dostępność [kodu źródłowego](https://en.wikipedia.org/wiki/Source_code) zapewnia większą przejrzystość i możliwość weryfikacji działania programu.
+- Funkcje odporne na cenzurę, zaprojektowane tak, aby omijać zapory sieciowe bez konieczności analizy głębokiej zawartości pakietów (DPI).
 
 **Najlepszy scenariusz:**
 
-- Kill Switch z wysoce konfigurowalnymi opcjami (włączanie/wyłączanie w określonych sieciach, podczas uruchamiania itp.)
-- Łatwe w użyciu klienty VPN
-- Obsługa protokołu [IPv6](https://en.wikipedia.org/wiki/IPv6). Oczekujemy, że serwery będą zezwalać na połączenia przychodzące przez IPv6 i umożliwiać dostęp do usług hostowanych na adresach IPv6.
-- Możliwość [zdalnego przekierowania portów](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding) pomaga w tworzeniu połączeń podczas korzystania z oprogramowania do udostępniania plików P2P[(Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer)) lub hostowania serwera (np. Mumble).
-- Technologia zaciemniania, która kamufluje prawdziwą naturę ruchu internetowego, zaprojektowana w celu obejścia zaawansowanych metod cenzury internetowej, takich jak DPI.
+- Kill switch z rozbudowanymi opcjami konfiguracji (np. włączenie/wyłączenie w określonych sieciach, uruchamianie przy starcie systemu itp.).
+- Łatwe w obsłudze aplikacje VPN.
+- Obsługa protokołu [IPv6](https://en.wikipedia.org/wiki/IPv6). Oczekujemy, że serwery umożliwiają zarówno połączenia przychodzące przez IPv6, jak i dostęp do usług działających w tej sieci.
+- Możliwość [zdalnego przekierowywania portów](https://en.wikipedia.org/wiki/Port_forwarding#Remote_port_forwarding), co ułatwia tworzenie połączeń w aplikacjach typu P2P ([peer-to-peer](https://en.wikipedia.org/wiki/Peer-to-peer)) lub przy hostowaniu własnych usług (np. serwera Mumble).
+- Technologia zaciemniania ruchu, która maskuje rzeczywisty charakter przesyłanych danych i pozwala obejść zaawansowane formy cenzury internetowej, takie jak DPI.
 
 ### Prywatność
 
 Preferujemy dostawców, którzy gromadzą możliwie najmniej danych. Wymagane jest nie gromadzenie danych osobowych podczas rejestracji i akceptowanie anonimowych form płatności.
 
-**Minimum do zakwalifikowania się:**
+**Minimalne wymagania:**
 
 - [Anonimowa kryptowaluta](cryptocurrency.md) **lub** opcja płatności gotówką.
 - Do rejestracji nie są wymagane żadne dane osobowe: Co najwyżej nazwa użytkownika, hasło i adres e-mail.
@@ -334,7 +334,7 @@ Preferujemy dostawców, którzy gromadzą możliwie najmniej danych. Wymagane je
 
 VPN nie ma sensu, jeśli nie może nawet zapewnić odpowiedniego bezpieczeństwa. Od wszystkich rekomendowanych przez nas dostawców wymagamy przestrzegania aktualnych standardów bezpieczeństwa. Idealnie byłoby, gdyby domyślnie używały bardziej przyszłościowych schematów szyfrowania. Wymagamy również, aby niezależna strona trzecia przeprowadziła audyt bezpieczeństwa dostawcy, najlepiej w bardzo kompleksowy sposób i w sposób powtarzalny (corocznie).
 
-**Minimum do zakwalifikowania się:**
+**Minimalne wymagania:**
 
 - Silne schematy szyfrowania: OpenVPN z uwierzytelnianiem SHA-256; RSA-2048 lub lepszy handshake; szyfrowanie danych AES-256-GCM lub AES-256-CBC.
 - Utajnianie z wyprzedzeniem.
@@ -367,7 +367,7 @@ Nie powierzyłbyś swoich finansów komuś z fałszywą tożsamością, więc po
 
 W przypadku polecanych przez nas dostawców VPN lubimy widzieć odpowiedzialny marketing.
 
-**Minimum do zakwalifikowania się:**
+**Minimalne wymagania:**
 
 - Musi samodzielnie hostować analitykę (tj. bez Google Analytics).
 

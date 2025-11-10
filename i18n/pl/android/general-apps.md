@@ -93,7 +93,7 @@ Main privacy features include:
 - Microphone permission not required unless you want to record sound
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Uwaga</p>
 
 Metadata is not currently deleted from video files, but that is planned.
 

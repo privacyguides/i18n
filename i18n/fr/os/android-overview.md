@@ -143,6 +143,7 @@ Le Programme de Protection Avancée offre une surveillance accrue des menaces et
 - Ne pas autoriser l'installation d'applications en dehors du Google Play Store, de la boutique d'applications du fournisseur du système d'exploitation ou via [`adb`](https://en.wikipedia.org/wiki/Android_Debug_Bridge)
 - Analyse automatique obligatoire des appareils avec [Play Protect](https://support.google.com/googleplay/answer/2812853?#zippy=%2Chow-malware-protection-works%2Chow-privacy-alerts-work)
 - Avertissement concernant les applications non vérifiées
+- Enabling ARM's hardware-based [Memory Tagging Extension (MTE)](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension) for supported apps, which lowers the likelihood of device exploits happening through memory corruption bugs
 
 ### Mise à jour du système avec Google Play
 

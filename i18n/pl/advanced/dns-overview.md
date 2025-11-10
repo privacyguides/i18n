@@ -55,7 +55,7 @@ Below, we discuss and provide a tutorial to prove what an outside observer may s
 
 If you run the Wireshark command above, the top pane shows the "[frames](https://en.wikipedia.org/wiki/Ethernet_frame)", and the bottom pane shows all the data about the selected frame. Enterprise filtering and monitoring solutions (such as those purchased by governments) can do the process automatically, without human interaction, and can aggregate those frames to produce statistical data useful to the network observer.
 
-| No. | Time     | Source    | Destination | Protocol     | Length | Info                                                                   |
+| No. | Time     | Source    | Destination | Protocol     | Length | Informacja                                                             |
 | --- | -------- | --------- | ----------- | ------------ | ------ | ---------------------------------------------------------------------- |
 | 1   | 0.000000 | 192.0.2.1 | 1.1.1.1     | Wyszukiwarki | 104    | Standard query 0x58ba A privacyguides.org OPT                          |
 | 2   | 0.293395 | 1.1.1.1   | 192.0.2.1   | Wyszukiwarki | 108    | Standard query response 0x58ba A privacyguides.org A 198.98.54.105 OPT |

@@ -1,6 +1,6 @@
 ---
 meta_title: "I Migliori Sistemi Operativi Android – Privacy Guides"
-title: "Distribuzioni Alternative"
+title: Distribuzioni Alternative
 description: Puoi sostituire il sistema operativo del tuo telefono Android con queste alternative sicure e rispettose della privacy.
 schema:
   - "@context": http://schema.org
@@ -44,17 +44,21 @@ Consigliamo di installare GrapheneOS se hai un Google Pixel, perché migliora la
 
 GrapheneOS offre un ulteriore miglioramento della privacy e della [sicurezza](https://en.wikipedia.org/wiki/Hardening_\(computing\)). Dispone di un [allocatore di memoria rafforzato](https://github.com/GrapheneOS/hardened_malloc), permessi per rete e sensori, e altre [funzionalità di sicurezza](https://grapheneos.org/features). GrapheneOS include anche aggiornamenti firmware completi e build firmate, quindi il Verified Boot è completamente supportato.
 
-[:octicons-home-16: Pagina principale](https://grapheneos.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Informativa Sulla Privacy" }
-[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Documentazione}
-[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Codice Sorgente" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribuisci }
+[:octicons-home-16: Homepage](https://grapheneos.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title="Documentation" }
+[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title="Contribute" }
 
 </div>
 
 GrapheneOS consente l’uso di [Google Play in una sandbox](https://grapheneos.org/usage#sandboxed-google-play), che esegue Google Play Services isolati come qualsiasi altra app. In questo modo è possibile utilizzare la maggior parte dei servizi di Google Play Services, come le notifiche push, dandoti un controllo completo sui loro permessi e autorizzazioni, e limitandoli a un [profilo di lavoro](../os/android-overview.md#work-profile) o a un [profilo utente](../os/android-overview.md#user-profiles) a tua scelta.
 
-Al momento, solo i [telefoni Google Pixel](../mobile-phones.md#google-pixel) soddisfano i [requisiti di sicurezza hardware](https://grapheneos.org/faq#future-devices) di GrapheneOS.
+[Google Pixel phones](../mobile-phones.md#google-pixel) are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#future-devices). The Pixel 8 and later support ARM's Memory Tagging Extension (MTE), a hardware security enhancement that drastically lowers the probability of exploits occurring through memory corruption bugs. GrapheneOS greatly expands the coverage of MTE on supported devices. Whereas the stock OS only allows you to opt in to a limited implementation of MTE via a developer option or Google's Advanced Protection Program, GrapheneOS features a more robust implementation of MTE by default in the system kernel, default system components, and their Vanadium web browser and its WebView.
+
+GrapheneOS also provides a global toggle for enabling MTE on all user-installed apps at :gear: **Settings** → **Security & privacy** → **Exploit protection** → **Memory tagging** → **Enable by default**. The OS also features per-app toggles to opt out of MTE for apps which may crash due to compatibility issues.
+
+### Connectivity Checks
 
 Per impostazione predefinita, Android effettua molte connessioni di rete verso Google per verificare che il DNS funzioni correttamente, sincronizzarsi con l’orario di rete, verificare la connessione e svolgere altri compiti in background. GrapheneOS sostituisce queste connessioni con server gestiti da loro e soggetti alla loro informativa sulla privacy. Questo nasconde informazioni come il tuo indirizzo IP [a Google](../basics/common-threats.md#privacy-from-service-providers), ma rende facile per un amministratore di rete o per il provider Internet vedere che ti stai collegando a grapheneos.network, grapheneos.org, ecc., e capire quale sistema operativo stai usando.
 

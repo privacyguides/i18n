@@ -1,6 +1,6 @@
 ---
 meta_title: "Les meilleurs systèmes d'exploitation Android - Privacy Guides"
-title: "Distributions alternatives"
+title: Distributions alternatives
 description: Vous pouvez remplacer le système d'exploitation de votre téléphone Android par ces alternatives sécurisées et respectueuses de la vie privée.
 schema:
   - "@context": http://schema.org
@@ -44,17 +44,21 @@ Nous recommandons d'installer GrapheneOS si vous avez un Google Pixel, puisqu'il
 
 GrapheneOS fournit des [renforcements de sécurité](https://en.wikipedia.org/wiki/Hardening_\(computing\)) et de confidentialité supplémentaire. Il dispose d'un [allocateur de mémoire renforcé](https://github.com/GrapheneOS/hardened_malloc), de permissions de réseau et de capteurs, et de diverses autres [fonctions de sécurité](https://grapheneos.org/features). GrapheneOS est également livré avec des mises à jour complètes du micrologiciel et des versions signées, de sorte que le démarrage sécurisé est entièrement pris en charge.
 
-[:octicons-home-16: Page d'accueil](https://grapheneos.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Politique de confidentialité" }
-[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=Documentation}
-[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Code source" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=Contribuer }
+[:octicons-home-16: Homepage](https://grapheneos.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title="Documentation" }
+[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title="Contribute" }
 
 </div>
 
 GrapheneOS prend en charge [l'isolation Google Play] (https://grapheneos.org/usage#sandboxed-google-play), qui exécute les services Google Play de façon isolée, comme n'importe quelle autre application. Cela signifie que vous pouvez profiter de la plupart des avantages des services Google Play, comme les notifications, tout en vous donnant le contrôle total à leurs permissions et leurs accès, en plus de les limiter à un [profil professionnel](../os/android-overview.md#work-profile) ou à un [profil personnel](../os/android-overview.md#user-profiles) de votre choix.
 
-Les [téléphones Google Pixel](../mobile-phones.md#google-pixel) sont présentement les seuls à répondre aux [exigences de sécurité matérielle](https://grapheneos.org/faq#future-devices) de GrapheneOS.
+[Google Pixel phones](../mobile-phones.md#google-pixel) are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#future-devices). The Pixel 8 and later support ARM's Memory Tagging Extension (MTE), a hardware security enhancement that drastically lowers the probability of exploits occurring through memory corruption bugs. GrapheneOS greatly expands the coverage of MTE on supported devices. Whereas the stock OS only allows you to opt in to a limited implementation of MTE via a developer option or Google's Advanced Protection Program, GrapheneOS features a more robust implementation of MTE by default in the system kernel, default system components, and their Vanadium web browser and its WebView.
+
+GrapheneOS also provides a global toggle for enabling MTE on all user-installed apps at :gear: **Settings** → **Security & privacy** → **Exploit protection** → **Memory tagging** → **Enable by default**. The OS also features per-app toggles to opt out of MTE for apps which may crash due to compatibility issues.
+
+### Connectivity Checks
 
 Par défaut, Android effectue de nombreuses connexions réseau avec Google pour effectuer des vérifications de connectivité DNS, pour se synchroniser avec l'heure actuelle du réseau, pour vérifier votre connectivité réseau et pour de nombreuses autres tâches d'arrière-plan. GrapheneOS vient remplacer celles-ci par des connexions à des serveurs opérés par GrapheneOS qui sont soumis à leur propre politique de confidentialité. Cela cache votre information comme votre adresse IP [de Google](../basics/common-threats.md#privacy-from-service-providers), mais fais en sorte qu'il est trivial pour un administrateur de votre réseau ou pour votre fournisseur d'accès internet que vous faites des connexions à `grapheneos.network`, `grapheneos.org`, etc. et de déuire quel système d'exploitation vous utilisez.
 

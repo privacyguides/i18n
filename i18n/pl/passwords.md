@@ -131,7 +131,7 @@ schema:
 [Introduction to Passwords :material-arrow-right-drop-circle:](basics/passwords-overview.md)
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Info</p>
+<p class="admonition-title">Informacja</p>
 
 Built-in password managers in software like browsers and operating systems are sometimes not as good as dedicated password manager software. The advantage of a built-in password manager is good integration with the software, but it can often be very simple and lack privacy and security features that standalone offerings have.
 

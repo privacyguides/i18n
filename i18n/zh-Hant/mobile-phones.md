@@ -1,5 +1,5 @@
 ---
-title: "手機"
+title: 手機
 icon: material/cellphone-check
 description: 這些行動裝置為客製化 Android 作業系統提供最佳的硬體安全支援。
 cover: android.webp
@@ -42,7 +42,7 @@ robots: nofollow, max-snippet:-1, max-image-preview:large
 
 </div>
 
-## 採購建議
+## General Purchasing Advice
 
 購買裝置時，我們建議盡可能購買全新的裝置。 行動裝置的軟體和韌體只能支援一段有限的時間，因此購買新裝置可以儘可能延長使用期限。
 
@@ -72,11 +72,15 @@ Google Pixel 手機是我們**唯一**推薦購買的裝置。 Pixel 手機擁�
 
 </div>
 
-Titan M2 之類的安全元件比其他大多數手機所使用的處理器可信執行環境更為有限，因為它們僅用於機密儲存、硬體驗證和速率限制，而非執行「可信賴」的程式。 沒有安全元件的手機必須使用 TEE 來執行**所有**這些功能，因此會產生較大的攻擊面。
+### 硬體安全
+
+Secure Elements like the Titan M2 are more limited than the processor's Trusted Execution Environment (TEE) used by most other phones as they are only used for secrets storage, hardware attestation, and rate limiting, not for running "trusted" programs. 沒有安全元件的手機必須使用 TEE 來執行**所有**這些功能，因此會產生較大的攻擊面。
 
 Google Pixel 手機使用的 TEE OS 名為 Trusty，與許多其他手機不同，它是[開放原始碼](https://source.android.com/security/trusty#whyTrusty)的。
 
-使用他們的 [線上安裝程式](https://grapheneos.org/install/web)，在 Pixel 手機上安裝 GrapheneOS 非常簡單。 如果您不習慣自己動手，又願意多花一點錢，可以看看 [NitroPhone](https://shop.nitrokey.com/shop)，因為它們預載了來自聲譽良好的 [Nitrokey](https://nitrokey.com/about) 公司的 GrapheneOS。
+The Pixel 8 series and later supports ARM's Memory Tagging Extension ([MTE](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension)), a hardware security enhancement that drastically lowers the probability of exploits occurring through memory corruption bugs. The stock Pixel OS allows you to enable MTE for supported apps through Google's Advanced Protection Program or via a developer option, but its usability is quite limited. [GrapheneOS](android/distributions.md#grapheneos), an alternative Android OS we recommend, greatly improves the usability and coverage of MTE in its implementation of the feature.
+
+### Buying a Google Pixel
 
 還有一些購買 Google Pixel 的小提醒：
 
@@ -86,6 +90,8 @@ Google Pixel 手機使用的 TEE OS 名為 Trusty，與許多其他手機不同�
 - Google 提供了一份清單，顯示每部裝置的 [支援週期](https://support.google.com/nexus/answer/4457705)。 裝置的每日價格可計算為 <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext>成本</mtext> <mrow> <mtext>壽命結束日期</mtext> <mo>-</mo> <mtext>目前日期</mtext> </mrow> </mfrac> </math>
   這表示裝置使用時間越長，每天的成本就越低。
 - 如果您所在的地區沒有 Pixel，[NitroPhone](https://shop.nitrokey.com/shop) 可以全球配送。
+
+使用他們的 [線上安裝程式](https://grapheneos.org/install/web)，在 Pixel 手機上安裝 GrapheneOS 非常簡單。 如果您不習慣自己動手，又願意多花一點錢，可以看看 [NitroPhone](https://shop.nitrokey.com/shop)，因為它們預載了來自聲譽良好的 [Nitrokey](https://nitrokey.com/about) 公司的 GrapheneOS。
 
 ## 標準
 

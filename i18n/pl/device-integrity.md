@@ -53,7 +53,7 @@ These tools provide analysis based on the information they have the ability to a
 External verification tools run on your computer and scan your mobile device for forensic traces, which are helpful to identify potential compromise.
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">Zagrożenie</p>
 
 Public indicators of compromise are insufficient to determine that a device is "clean", and not targeted with a particular spyware tool. Reliance on public indicators alone can miss recent forensic traces and give a false sense of security.
 

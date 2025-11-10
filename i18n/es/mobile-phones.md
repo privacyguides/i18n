@@ -1,5 +1,5 @@
 ---
-title: "Teléfonos celulares"
+title: Teléfonos celulares
 icon: material/cellphone-check
 description: Estos dispositivos móviles ofrecen el mejor soporte de seguridad de hardware para sistemas operativos Android personalizados.
 cover: android.webp
@@ -42,7 +42,7 @@ Al final de su vida útil, los dispositivos (como los dispositivos con el "sopor
 
 </div>
 
-## Consejo de compra
+## General Purchasing Advice
 
 Al comprar un dispositivo, recomendamos obtener uno tan nuevo como sea posible. El software y el firmware de los dispositivos móviles cuentan con soporte por un periodo limitado de tiempo, por lo que comprar uno nuevo extiende la vida útil tanto como sea posible.
 
@@ -72,11 +72,15 @@ Iniciando con el **Pixel 8** y **8 Pro**, los dispositivos Pixel cuentan como m�
 
 </div>
 
-Los Elementos Seguros como el Titan M2 se encuentran limitados al Entorno de Ejecución Confiable del procesador, utilizado por la mayoría de los otros teléfono para el almacenamiento secreto, la certificación de hardware y la limitación de velocidad, no para ejecutar programas "confiables". Los teléfonos sin un Entorno Seguro suelen utilizar TEE para _todas_ las demás funciones, lo que resulta en una gran superficie de ataque.
+### Seguridad del hardware
+
+Secure Elements like the Titan M2 are more limited than the processor's Trusted Execution Environment (TEE) used by most other phones as they are only used for secrets storage, hardware attestation, and rate limiting, not for running "trusted" programs. Los teléfonos sin un Entorno Seguro suelen utilizar TEE para _todas_ las demás funciones, lo que resulta en una gran superficie de ataque.
 
 A diferencia de otros teléfonos, los Google Pixel utilizan un SO TEE de [código abierto](https://source.android.com/security/trusty#whyTrusty) llamado Trusty.
 
-La instalación de GrapheneOS en un Pixel es sencilla con su [instalador web](https://grapheneos.org/install/web). Si no te sientes cómodo realizando esto por ti mismo y te gustaría invertir un poco más de dinero, echa un vistazo al [NitroPhone](https://shop.nitrokey.com/shop) que viene con GrapheneOS preinstalado y proviene de la reputada empresa [Nitrokey](https://nitrokey.com/about).
+The Pixel 8 series and later supports ARM's Memory Tagging Extension ([MTE](https://developer.arm.com/documentation/108035/0100/Introduction-to-the-Memory-Tagging-Extension)), a hardware security enhancement that drastically lowers the probability of exploits occurring through memory corruption bugs. The stock Pixel OS allows you to enable MTE for supported apps through Google's Advanced Protection Program or via a developer option, but its usability is quite limited. [GrapheneOS](android/distributions.md#grapheneos), an alternative Android OS we recommend, greatly improves the usability and coverage of MTE in its implementation of the feature.
+
+### Buying a Google Pixel
 
 Algunos consejos adicionales al comprar un Google Pixel:
 
@@ -86,6 +90,8 @@ Algunos consejos adicionales al comprar un Google Pixel:
 - Google proporciona un listad con el [ciclo de soporte](https://support.google.com/nexus/answer/4457705) para cada uno de sus dispositivos. El precio por día de un dispositivo puede calcularse de la siguiente manera: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline" class="tml-display" style="display:inline math;"> <mfrac> <mtext> Costo</mtext> <mrow> <mtext>Fecha del fin de vida útil</mtext> <mo>-</mo> <mtext>Fecha actual</mtext> </mrow> </mfrac> </math>
   , significando que el precio es más bajo entre más se use el dispositivo.
 - Si el Pixel no se encuentra disponible en tu país, el [NitroPhone](https://shop.nitrokey.com/shop) cuenta con envíos a nivel mundial.
+
+La instalación de GrapheneOS en un Pixel es sencilla con su [instalador web](https://grapheneos.org/install/web). Si no te sientes cómodo realizando esto por ti mismo y te gustaría invertir un poco más de dinero, echa un vistazo al [NitroPhone](https://shop.nitrokey.com/shop) que viene con GrapheneOS preinstalado y proviene de la reputada empresa [Nitrokey](https://nitrokey.com/about).
 
 ## Criterios
 

@@ -13,15 +13,15 @@ To jest przykład objaśnienia. Lorem ipsum dolor sit amet, consectetur adipisci
 </div>
 
 <details class="example" markdown>
-<summary>Example Collapsible Admonition</summary>
+<summary>Przykładowe objaśnienie zwijane</summary>
 
-This is an example of a collapsible admonition. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+To jest przykład objaśnienia zwijanego. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
 </details>
 
-## Formatting
+## Formatowanie
 
-To add an admonition to a page, you can use the following code:
+Aby dodać objaśnienie do strony, można użyć następującego kodu:
 
 ```markdown title="Admonition"
 <div class="admonition TYPE" markdown>
@@ -43,14 +43,14 @@ ENCLOSED TEXT
 
 The `TITLE` must be specified; if you don't want a specific title you can set it to the same text as the `TYPE` (see below) in title case, e.g. `Note`. The `ENCLOSED TEXT` should be Markdown formatted.
 
-### Regular types
+### Standardowe rodzaje upomnień
 
 Replace `TYPE` in the examples above with one of the following:
 
 #### `note`
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Uwaga</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -59,7 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `abstract`
 
 <div class="admonition abstract" markdown>
-<p class="admonition-title">Abstract</p>
+<p class="admonition-title">Streszczenie</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -68,7 +68,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `info`
 
 <div class="admonition info" markdown>
-<p class="admonition-title">Info</p>
+<p class="admonition-title">Informacja</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -77,7 +77,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `tip`
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">Porada</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -86,7 +86,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `success`
 
 <div class="admonition success" markdown>
-<p class="admonition-title">Success</p>
+<p class="admonition-title">Sukces</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -95,7 +95,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `question`
 
 <div class="admonition question" markdown>
-<p class="admonition-title">Question</p>
+<p class="admonition-title">Pytanie</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -113,7 +113,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `failure`
 
 <div class="admonition failure" markdown>
-<p class="admonition-title">Failure</p>
+<p class="admonition-title">Niepowodzenie</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -122,7 +122,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `danger`
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">Zagrożenie</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -131,7 +131,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `bug`
 
 <div class="admonition bug" markdown>
-<p class="admonition-title">Bug</p>
+<p class="admonition-title">Błąd</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -140,7 +140,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `example`
 
 <div class="admonition example" markdown>
-<p class="admonition-title">Example</p>
+<p class="admonition-title">Przykład</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
@@ -149,17 +149,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 #### `quote`
 
 <div class="admonition quote" markdown>
-<p class="admonition-title">Quote</p>
+<p class="admonition-title">Cytat</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 </div>
 
-### Special Types
+### Specjalne rodzaje upomnień
 
 #### `recommendation`
 
-This format is used to generate recommendation cards. Notably it is missing the `<p class="admonition-title">` element.
+Format ten służy do tworzenia kart zaleceń. Należy zauważyć, że brakuje w nim elementu `<p class="admonition-title">`.
 
 ```markdown title="Recommendation Card"
 <div class="admonition recommendation" markdown>
@@ -180,7 +180,7 @@ This format is used to generate recommendation cards. Notably it is missing the 
 
 <div class="admonition recommendation" markdown>
 
-![PhotoPrism logo](../assets/img/self-hosting/photoprism.svg){ align=right }
+![Logo PhotoPrism](../assets/img/self-hosting/photoprism.svg){ align=right }
 
 **PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
 
@@ -244,7 +244,7 @@ Throughout the site, you may see some admonitions formatted like the following e
 <div class="result" markdown>
 
 <div class="admonition note" markdown>
-<p class="admonition-title">Note</p>
+<p class="admonition-title">Uwaga</p>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
 nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor

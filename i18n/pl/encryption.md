@@ -146,7 +146,7 @@ To enable BitLocker on "Home" editions of Windows, you must have partitions form
     ```
 
 <div class="admonition tip" markdown>
-<p class="admonition-title">Tip</p>
+<p class="admonition-title">Porada</p>
 
 Backup `BitLocker-Recovery-Key.txt` on your Desktop to a separate storage device. Loss of this recovery code may result in loss of data.
 

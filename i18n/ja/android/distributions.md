@@ -1,6 +1,6 @@
 ---
 meta_title: "一番良いAndroidのオペレーティングシステム - Privacy Guides"
-title: "別のディストリビューション"
+title: 別のディストリビューション
 description: 本記事で紹介する安全かつプライバシー重視のOSで自分のAndroidスマホのOSを置き換えることができます。
 schema:
   - "@context": http://schema.org
@@ -44,17 +44,21 @@ Google Pixelを使用している人は、セキュリティが強化され、�
 
 GrapheneOSでは、[セキュリティが強化（ハードニング）](https://ja.wikipedia.org/wiki/%E3%83%8F%E3%83%BC%E3%83%89%E3%83%8B%E3%83%B3%E3%82%B0)され、プライバシーが改善されています。 [ハードニングされたメモリアロケータ](https://github.com/GrapheneOS/hardened_malloc)、ネットワークとセンサーの権限管理機能、その他のさまざまな[セキュリティ機能](https://grapheneos.org/features)を備えています。 さらに、ファームウェアアップデートがすべて含まれ、ビルドも署名付きのため、セキュアブートに完全対応しています。
 
-[:octicons-home-16: ホームページ](https://grapheneos.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="プライバシーポリシー" }
-[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title=ドキュメント}
-[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="ソースコード" }
-[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title=支援 }
+[:octicons-home-16: Homepage](https://grapheneos.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://grapheneos.org/faq#privacy-policy){ .card-link title="Privacy Policy" }
+[:octicons-info-16:](https://grapheneos.org/faq){ .card-link title="Documentation" }
+[:octicons-code-16:](https://grapheneos.org/source){ .card-link title="Source Code" }
+[:octicons-heart-16:](https://grapheneos.org/donate){ .card-link title="Contribute" }
 
 </div>
 
 GrapheneOSでは、[サンドボックス化されたGoogle Play](https://grapheneos.org/usage#sandboxed-google-play)を使うことができます。これは、Google Playサービスを他のアプリと同じように完全にサンドボックス化して実行するものです。 サンドボックス化により、プッシュ通知などほとんどのGoogle Playサービスが利用可能でありながら、Playサービスの権限やアクセスを完全に制御することができ、また、自由に特定の[仕事用プロファイル](../os/android-overview.md#work-profile)や[ユーザープロファイル](../os/android-overview.md#user-profiles)の中に隔離することができます。
 
-現在、GrapheneOSの[ハードウェアセキュリティ要件](https://grapheneos.org/faq#future-devices)を満たすデバイスは、[Google Pixelスマートフォン](../mobile-phones.md#google-pixel)のみです。
+[Google Pixel phones](../mobile-phones.md#google-pixel) are the only devices that currently meet GrapheneOS's [hardware security requirements](https://grapheneos.org/faq#future-devices). The Pixel 8 and later support ARM's Memory Tagging Extension (MTE), a hardware security enhancement that drastically lowers the probability of exploits occurring through memory corruption bugs. GrapheneOS greatly expands the coverage of MTE on supported devices. Whereas the stock OS only allows you to opt in to a limited implementation of MTE via a developer option or Google's Advanced Protection Program, GrapheneOS features a more robust implementation of MTE by default in the system kernel, default system components, and their Vanadium web browser and its WebView.
+
+GrapheneOS also provides a global toggle for enabling MTE on all user-installed apps at :gear: **Settings** → **Security & privacy** → **Exploit protection** → **Memory tagging** → **Enable by default**. The OS also features per-app toggles to opt out of MTE for apps which may crash due to compatibility issues.
+
+### Connectivity Checks
 
 デフォルトでAndroidは、DNS接続確認やネットワーク現在時刻の同期、ネットワーク接続確認など、色々なバックグラウンドタスクのために、Googleに頻繁にネットワーク接続を行います。 GrapheneOSでは、この通信先がGrapheneOSが運営するサーバーに変更されます。この通信は、GrapheneOSのプライバシーポリシーに従って管理されます。 これにより、あなたのIPアドレスなどの情報が[Googleから](../basics/common-threats.md#privacy-from-service-providers)見えなくなりますが、逆にネットワーク管理者やISPからは、あなたが`grapheneos.network`や`grapheneos.org`などに接続しているのが観測できるため、GrapheneOSを使用していることが容易に推測できてしまいます。
 

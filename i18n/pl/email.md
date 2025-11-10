@@ -22,11 +22,11 @@ Korzystanie z poczty e-mail jest praktycznie niezbędne do używania większośc
 
 Do pozostałych zastosowań zalecamy różnorodne usługi e-mail, oparte na zrównoważonych modelach biznesowych i wyposażone we wbudowane funkcje bezpieczeństwa oraz prywatności. Pełną [listę kryteriów](#criteria) znajdziesz w dalszej części strony.
 
-| Dostawca                        | OpenPGP / WKD                          | IMAP / SMTP                                                         | Szyfrowanie z zerowym dostępem                          | Anonimowe metody płatności                            |
-| ------------------------------- | -------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------- | ----------------------------------------------------- |
-| [Proton Mail](#proton-mail)     | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Tylko w płatnych planach | :material-check:{ .pg-green }                           | Cash <br>Monero via third party                 |
-| [Poczta Mailbox](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                       | :material-information-outline:{ .pg-blue } Tylko poczta | Gotówka                                               |
-| [Tuta](#tuta)                   | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                              | :material-check:{ .pg-green }                           | Monero via third party <br>Cash via third party |
+| Dostawca                        | OpenPGP / WKD                          | IMAP / SMTP                                                         | Szyfrowanie z zerowym dostępem                          | Anonimowe metody płatności                                 |
+| ------------------------------- | -------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------- | ---------------------------------------------------------- |
+| [Proton Mail](#proton-mail)     | :material-check:{ .pg-green }          | :material-information-outline:{ .pg-blue } Tylko w płatnych planach | :material-check:{ .pg-green }                           | Gotówka <br>Monero przez pośrednika                  |
+| [Poczta Mailbox](#mailbox-mail) | :material-check:{ .pg-green }          | :material-check:{ .pg-green }                                       | :material-information-outline:{ .pg-blue } Tylko poczta | Gotówka                                                    |
+| [Tuta](#tuta)                   | :material-alert-outline:{ .pg-orange } | :material-alert-outline:{ .pg-orange }                              | :material-check:{ .pg-green }                           | Monero przez pośrednika <br>Gotówka przez pośrednika |
 
 Oprócz (lub zamiast) jednego z wymienionych tutaj dostawców usług e-mail, możesz rozważyć skorzystanie z dedykowanej [usługi aliasingu e-maili](email-aliasing.md#recommended-providers) w celu zwiększenia swojej prywatności. Między innymi takie usługi pomagają chronić Twoją prawdziwą skrzynkę przed spamem, uniemożliwiają marketerom powiązanie Twoich kont oraz szyfrują wszystkie przychodzące wiadomości za pomocą PGP.
 
@@ -85,22 +85,22 @@ Darmowy plan Proton Free oferuje 500 MB miejsca na pocztę, które można bezpł
 
 </div>
 
-Free accounts have some limitations, such as not being able to search body text and not having access to [Proton Mail Bridge](https://proton.me/mail/bridge), which is required to use a [recommended desktop email client](email-clients.md) such as Thunderbird. Konta płatne obejmują funkcje takie jak Proton Mail Bridge, dodatkową przestrzeń dyskową oraz obsługę własnych domen. The Proton Unlimited plan or any multi-user Proton plan includes access to [SimpleLogin](email-aliasing.md#simplelogin) Premium.
+Konta bezpłatne mają pewne ograniczenia, takie jak brak możliwości wyszukiwania w treści wiadomości oraz brak dostępu do [Proton Mail Bridge](https://proton.me/pl/mail/bridge), który jest wymagany do korzystania z [zalecanego klienta poczty desktopowej](email-clients.md), np. Thunderbird. Konta płatne obejmują funkcje takie jak Proton Mail Bridge, dodatkową przestrzeń dyskową oraz obsługę własnych domen. Plan Proton Unlimited lub dowolny plan dla wielu użytkowników obejmuje darmowy dostęp do [SimpleLogin](email-aliasing.md#simplelogin) Premium.
 
-A [letter of attestation](https://res.cloudinary.com/dbulfrlrz/images/v1714639878/wp-pme/letter-of-attestation-proton-mail-20211109_3138714c61/letter-of-attestation-proton-mail-20211109_3138714c61.pdf) was provided for Proton Mail's apps in November 2021 by [Securitum](https://research.securitum.com).
+[Raport potwierdzający bezpieczeństwo](https://res.cloudinary.com/dbulfrlrz/images/v1714639878/wp-pme/letter-of-attestation-proton-mail-20211109_3138714c61/letter-of-attestation-proton-mail-20211109_3138714c61.pdf) aplikacji Proton Mail został wydany 9 listopada 2021 roku przez firmę [Securitum](https://research.securitum.com).
 
-Proton Mail has internal crash reports that are **not** shared with third parties and can be disabled.
+Proton Mail gromadzi wewnętrzne raporty o awariach, które **nie są** udostępniane podmiotom trzecim i które mogą zostać wyłączone.
 
-=== "Web"
+=== "W przeglądarce"
 
-    From your inbox, select :gear: → **All Settings** → **Account** → **Security and privacy** → **Privacy and data collection**.
+    Z poziomu skrzynki odbiorczej wybierz :gear: → **Wszystkie ustawienia** → **Konto** → **Bezpieczeństwo i prywatność** → **Prywatność i gromadzenie danych**.
 
     - [ ] Disable **Collect usage dignostics**
     - [ ] Disable **Send crash reports**
 
-=== "Mobile"
+=== "W aplikacji mobilnej"
 
-    From your inbox, select :material-menu: → :gear: **Settings** → select your username.
+    Z poziomu skrzynki odbiorczej wybierz :material-menu: → :gear: **Ustawienia** → wybierz swoją nazwę użytkownika.
 
     - [ ] Disable **Send crash reports**
     - [ ] Disable **Collect usage dignostics**
@@ -141,9 +141,9 @@ Plan [Proton Unlimited](https://proton.me/pl/support/proton-plans#proton-unlimit
 
 <div class="admonition recommendation" markdown>
 
-![Mailbox Mail logo](assets/img/email/mailbox-mail.svg){ align=right }
+![Logo Mailbox.org](assets/img/email/mailbox-mail.svg){ align=right }
 
-**Mailbox Mail** (formerly *Mailbox.org*) is an email service with a focus on being secure, ad-free, and powered by 100% eco-friendly energy. Działa od 2014 roku. Mailbox ma siedzibę w Berlinie, w Niemczech.
+Poczta **Mailbox** (wcześniej **Mailbox.org**) to usługa e-mail skoncentrowana na bezpieczeństwie, braku reklam oraz korzystaniu w 100% z energii pochodzącej ze źródeł odnawialnych. Działa od 2014 roku. Mailbox ma siedzibę w Berlinie, w Niemczech.
 
 Konta oferują do 2 GB przestrzeni, którą można zwiększyć w razie potrzeby.
 
@@ -246,7 +246,7 @@ Płatne konta Tuta pozwalają na użycie 15 lub 30 aliasów w zależności od pl
 
 #### :material-information-outline:{ .pg-blue } Prywatne metody płatności
 
-Tuta only directly accepts credit cards and PayPal, however you can use [**cryptocurrency**](cryptocurrency.md) to purchase gift cards via their [partnership](https://tuta.com/support/#cryptocurrency) with ProxyStore.
+Tuta bezpośrednio akceptuje wyłącznie płatności kartą kredytową oraz przez PayPal. Jednak [**kryptowalutami**](cryptocurrency.md) można zapłacić pośrednio, kupując karty podarunkowe poprzez [współpracę](https://tuta.com/support/#cryptocurrency) z ProxyStore.
 
 #### :material-check:{ .pg-green } Bezpieczeństwo konta
 
@@ -276,7 +276,7 @@ Tuta oferuje wersję biznesową swojej usługi [organizacjom non-profit](https:/
 
 Poniższe funkcje uznajemy za istotne dla zapewnienia bezpiecznej i wydajnej usługi. Warto rozważyć, czy wybrany dostawca oferuje funkcje, których potrzebujesz.
 
-**Minimum do zakwalifikowania się:**
+**Minimalne wymagania:**
 
 - Musi szyfrować dane kont e-mail w spoczynku przy użyciu szyfrowania z zerowym dostępem (zero-access encryption).
 - Musi umożliwiać eksport wiadomości e-mail w formacie [mbox](https://pl.wikipedia.org/wiki/Mbox) lub jako pojedyncze pliki .EML zgodne ze standardem [RFC5322](https://datatracker.ietf.org/doc/rfc5322).
@@ -299,7 +299,7 @@ Poniższe funkcje uznajemy za istotne dla zapewnienia bezpiecznej i wydajnej us�
 
 Preferujemy dostawców, którzy gromadzą możliwie najmniej danych.
 
-**Minimum do zakwalifikowania się:**
+**Minimalne wymagania:**
 
 - Musi chronić adres IP nadawcy, np. poprzez usuwanie go z nagłówka `Received`.
 - Nie może wymagać danych osobowych (PII) innych niż nazwa użytkownika i hasło.
@@ -314,7 +314,7 @@ Preferujemy dostawców, którzy gromadzą możliwie najmniej danych.
 
 Serwery pocztowe przetwarzają ogromne ilości wrażliwych danych. Oczekujemy, że dostawcy będą stosować najlepsze praktyki branżowe w celu ochrony swoich klientów.
 
-**Minimum do zakwalifikowania się:**
+**Minimalne wymagania:**
 
 - Ochrona dostępu do webmaila z użyciem 2FA, np. [TOTP](basics/multi-factor-authentication.md#time-based-one-time-password-totp).
 - Szyfrowanie z zerowym dostępem, będące rozszerzeniem szyfrowania danych w spoczynku — dostawca nie posiada kluczy deszyfrujących dane, co uniemożliwia wyciek informacji przez nieuczciwego pracownika lub zewnętrznego atakującego po uzyskaniu nieautoryzowanego dostępu do serwera.
@@ -347,7 +347,7 @@ Serwery pocztowe przetwarzają ogromne ilości wrażliwych danych. Oczekujemy, �
 
 Nie powierzył(a)byś swoich finansów komuś o fałszywej tożsamości, więc po co powierzać mu swoje dane e-mail? Wymagamy, aby zalecani przez nas dostawcy ujawniali informacje o właścicielach lub kadrze zarządzającej. Doceniamy również regularne raporty przejrzystości, szczególnie w zakresie tego, jak obsługiwane są żądania organów państwowych.
 
-**Minimum do zakwalifikowania się:**
+**Minimalne wymagania:**
 
 - Publicznie dostępne informacje o właścicielu lub kadrze kierowniczej.
 
@@ -359,7 +359,7 @@ Nie powierzył(a)byś swoich finansów komuś o fałszywej tożsamości, więc p
 
 W przypadku polecanych przez nas dostawców poczty e-mail zwracamy uwagę na odpowiedzialne praktyki marketingowe.
 
-**Minimum do zakwalifikowania się:**
+**Minimalne wymagania:**
 
 - Musi samodzielnie hostować analitykę (bez korzystania z Google Analytics, Adobe Analytics itp.).
 - Nie może stosować nieodpowiedzialnych działań marketingowych, w tym m.in.:
