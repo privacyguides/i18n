@@ -297,7 +297,7 @@ Poniższe funkcje uznajemy za istotne dla zapewnienia bezpiecznej i wydajnej us�
 
 ### Prywatność
 
-Preferujemy dostawców, którzy gromadzą możliwie najmniej danych.
+Preferujemy, aby zalecani przez nas dostawcy gromadzili możliwie najmniej danych.
 
 **Minimalne wymagania:**
 
@@ -337,8 +337,8 @@ Serwery pocztowe przetwarzają ogromne ilości wrażliwych danych. Oczekujemy, �
 - Powinien obsługiwać uwierzytelnianie sprzętowe, tj. U2F i [WebAuthn](basics/multi-factor-authentication.md#fido-fast-identity-online).
 - Powinien posiadać rekord [DNS Certification Authority Authorization (CAA)](https://tools.ietf.org/html/rfc6844) oprócz obsługi DANE.
 - Powinien implementować [Authenticated Received Chain (ARC)](https://en.wikipedia.org/wiki/Authenticated_Received_Chain), co jest przydatne dla osób korzystających z list mailingowych ([RFC8617](https://tools.ietf.org/html/rfc8617)).
-- Opublikowane audyty bezpieczeństwa przeprowadzone przez renomowaną, niezależną firmę.
-- Programy typu bug bounty i/lub skoordynowane ujawnianie podatności (coordinated vulnerability disclosure).
+- Opublikowane audyty bezpieczeństwa przeprowadzone przez renomowaną firmę zewnętrzną.
+- Programy bug-bounty i/lub skoordynowany proces ujawniania podatności.
 - Wdrożenie standardów bezpieczeństwa stron internetowych, takich jak:
     - [Content Security Policy (CSP)](https://en.wikipedia.org/wiki/Content_Security_Policy)
     - [RFC9163 Expect-CT](https://datatracker.ietf.org/doc/rfc9163)

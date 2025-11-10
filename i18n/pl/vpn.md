@@ -79,15 +79,15 @@ Uważamy też, że dla bezpieczeństwa kluczy prywatnych dostawcy VPN lepiej jes
 
 Independent security researcher Ruben Santamarta conducted audits for Proton VPN's [browser extensions](https://drive.proton.me/urls/RWDD2SHT98#v7ZrwNcafkG8) and [apps](https://drive.proton.me/urls/RVW8TXG484#uTXX5Fc9GADo) in September 2024 and January 2025, respectively. Proton VPN's infrastrcture has undergone [annual audits](https://protonvpn.com/blog/no-logs-audit) by Securitum since 2022.
 
-Previously, Proton VPN underwent an independent audit by SEC Consult in January 2020. Audyt wykazał kilka luk o średnim i niskim ryzyku w aplikacjach Proton VPN dla systemów Windows, Android i iOS, które zostały „należycie naprawione” przez Proton VPN przed publikacją raportów. Żaden ze znalezionych problemów nie mógł umożliwić atakującemu zdalnego dostępu do Twojego urządzenia ani ruchu sieciowego. You can view individual reports for each platform in their dedicated [blog post](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) on the audit.
+Previously, Proton VPN underwent an independent audit by SEC Consult in January 2020. Audyt wykazał kilka luk o średnim i niskim ryzyku w aplikacjach Proton VPN dla systemów Windows, Android i iOS, które zostały „należycie naprawione” przez Proton VPN przed publikacją raportów. Żaden ze znalezionych problemów nie mógł umożliwić atakującemu zdalnego dostępu do Twojego urządzenia ani ruchu sieciowego. Poszczególne raporty dla każdej platformy można znaleźć w ich dedykowanym [wpisie na blogu](https://web.archive.org/web/20250307041036/https://protonvpn.com/blog/open-source) na ten audytu.
 
 #### :material-check:{ .pg-green } Oprogramowanie typu open source
 
-Proton VPN provides the source code for their desktop and mobile clients in their [GitHub organization](https://github.com/ProtonVPN).
+Proton VPN udostępnia kod źródłowy swoich aplikacji desktopowych i mobilnych w serwisie [GitHub](https://github.com/ProtonVPN).
 
 #### :material-check:{ .pg-green } Akceptuje płatności gotówką
 
-Proton VPN, in addition to accepting credit/debit cards, PayPal, and [Bitcoin](advanced/payments.md#other-coins-bitcoin-ethereum-etc), also accepts **cash/local currency** as an anonymous form of payment. You can also use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton VPN Plus and Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
+Proton VPN, oprócz kart kredytowych i debetowych, PayPala i [Bitcoina](advanced/payments.md#other-coins-bitcoin-ethereum-etc), akceptuje również **gotówkę/lokalną walutę** jako anonimową formę płatności. You can also use [**Monero**](cryptocurrency.md#monero) to purchase vouchers for Proton VPN Plus and Proton Unlimited via their [official](https://discuss.privacyguides.net/t/add-monero-as-an-anonymous-payment-method-for-proton-services/31058/15) reseller [ProxyStore](https://dys2p.com/en/2025-09-09-proton.html).
 
 #### :material-check:{ .pg-green } Obsługa WireGuard
 
@@ -138,10 +138,10 @@ Na komputerach Mac z procesorami Intel użycie funkcji Kill Kwitch VPN [może pr
 
 **IVPN** to kolejny dostawca usługi VPN klasy premium, działający od 2009 roku. Siedziba firmy znajduje się na Gibraltarze, a usługa nie oferuje bezpłatnego okresu próbnego.
 
-[:octicons-home-16: Homepage](https://ivpn.net){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Source Code" }
+[:octicons-home-16: Strona główna](https://ivpn.net){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://ivpn.net/privacy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://ivpn.net/knowledgebase/general){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/ivpn){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
 <summary>Pobierz</summary>
@@ -177,7 +177,7 @@ Od lutego 2020 roku [aplikacje IVPN są dostępne jako open source](https://ivpn
 
 #### :material-check:{ .pg-green } Akceptuje płatności gotówką i Monero
 
-Oprócz płatności kartą kredytową/debetową i PayPalem IVPN przyjmuje również płatności w Bitcoinach, **Monero** oraz **gotówce/walucie lokalnej** (w przypadku planów rocznych) jako anonimowe formy płatności. You can also purchase [prepaid cards](https://ivpn.net/knowledgebase/billing/voucher-cards-faq) with redeem codes.
+Oprócz płatności kartą kredytową/debetową i PayPalem IVPN przyjmuje również płatności w Bitcoinach, **Monero** oraz **gotówce/walucie lokalnej** (w przypadku planów rocznych) jako anonimowe formy płatności. Można również użyć [kart przedpłaconych](https://ivpn.net/knowledgebase/billing/voucher-cards-faq) z kodami.
 
 #### :material-check:{ .pg-green } Obsługa WireGuard
 
@@ -213,11 +213,12 @@ Aplikacje IVPN obsługują uwierzytelnianie dwuskładnikowe. IVPN oferuje także
 
 **Mullvad** to szybka i niedroga usługa VPN, która kładzie duży nacisk na przejrzystość i bezpieczeństwo. Działa od 2009 roku. Siedziba firmy znajduje się w Szwecji, a użytkownicy mogą skorzystać z 14-dniowej gwarancji zwrotu pieniędzy dla [metod płatności](https://mullvad.net/pl/help/refunds), które na to pozwalają.
 
-[:octicons-home-16: Homepage](https://mullvad.net){ .md-button .md-button--primary }
-[:simple-torbrowser:](http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Onion Service" }
-[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Source Code" }
+[:octicons-home-16: Strona główna](https://mullvad.net/pl){ .md-button .md-button--primary }
+[:simple-torbrowser:]
+(http://o54hon2e2vj6c7m3aqqu6uyece65by3vgoxxhlqlsvkmacw6a7m7kiad.onion){ .card-link title="Usługa onion" }
+[:octicons-eye-16:](https://mullvad.net/en/help/privacy-policy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://mullvad.net/en/help){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/mullvad){ .card-link title="Kod źródłowy" }
 
 <details class="downloads" markdown>
 <summary>Pobierz</summary>
@@ -252,7 +253,7 @@ Mullvad udostępnia kod źródłowy swoich aplikacji desktopowych i mobilnych w 
 
 #### :material-check:{ .pg-green } Akceptuje płatności gotówką i Monero
 
-Oprócz płatności kartą kredytową/debetową i PayPalem, Mullvad przyjmuje również płatności Bitcoin, Bitcoin Cash, **Monero** oraz **gotówką/walutą lokalną** jako anonimowe formy płatności. You can also purchase [prepaid cards](https://mullvad.net/en/help/partnerships-and-resellers) with redeem codes. Mullvad akceptuje ponadto płatności za pośrednictwem Swish, przelewów bankowych oraz kilku europejskich systemów płatności w tym Przelewy24.
+Oprócz płatności kartą kredytową/debetową i PayPalem, Mullvad przyjmuje również płatności Bitcoin, Bitcoin Cash, **Monero** oraz **gotówką/walutą lokalną** jako anonimowe formy płatności. Można również użyć [kart przedpłaconych](https://mullvad.net/en/help/partnerships-and-resellers) z kodami. Mullvad akceptuje ponadto płatności za pośrednictwem Swish, przelewów bankowych oraz kilku europejskich systemów płatności w tym Przelewy24.
 
 #### :material-check:{ .pg-green } Obsługa WireGuard
 
@@ -318,74 +319,74 @@ Wymagamy, aby wszyscy zalecani przez nas dostawcy VPN udostępniali standardowe 
 
 ### Prywatność
 
-Preferujemy dostawców, którzy gromadzą możliwie najmniej danych. Wymagane jest nie gromadzenie danych osobowych podczas rejestracji i akceptowanie anonimowych form płatności.
+Preferujemy, aby zalecani przez nas dostawcy gromadzili możliwie najmniej danych. Niezbieranie danych osobowych przy rejestracji oraz akceptowanie anonimowych form płatności są wymagane.
 
 **Minimalne wymagania:**
 
 - [Anonimowa kryptowaluta](cryptocurrency.md) **lub** opcja płatności gotówką.
-- Do rejestracji nie są wymagane żadne dane osobowe: Co najwyżej nazwa użytkownika, hasło i adres e-mail.
+- Brak konieczności podawania danych osobowych przy rejestracji: co najwyżej nazwa użytkownika, hasło i adres e-mail.
 
 **Najlepszy scenariusz:**
 
 - Akceptuje wiele [anonimowych opcji płatności](advanced/payments.md).
-- Brak akceptacji danych osobowych (automatycznie generowana nazwa użytkownika, brak wymogu podania adresu e-mail itp.)
+- Brak akceptowanych danych osobowych (nazwa użytkownika generowana automatycznie, brak wymogu podania adresu e-mail itp.).
 
 ### Bezpieczeństwo
 
-VPN nie ma sensu, jeśli nie może nawet zapewnić odpowiedniego bezpieczeństwa. Od wszystkich rekomendowanych przez nas dostawców wymagamy przestrzegania aktualnych standardów bezpieczeństwa. Idealnie byłoby, gdyby domyślnie używały bardziej przyszłościowych schematów szyfrowania. Wymagamy również, aby niezależna strona trzecia przeprowadziła audyt bezpieczeństwa dostawcy, najlepiej w bardzo kompleksowy sposób i w sposób powtarzalny (corocznie).
+VPN nie ma sensu, jeśli nie zapewnia odpowiedniego poziomu bezpieczeństwa. Wymagamy, aby wszyscy zalecani przez nas dostawcy przestrzegali aktualnych standardów bezpieczeństwa. Najlepiej, aby domyślnie stosowali bardziej przyszłościowe schematy szyfrowania. Wymagamy także niezależnego audytu bezpieczeństwa przeprowadzanego przez stronę trzecią — najlepiej kompleksowo i cyklicznie (co roku).
 
 **Minimalne wymagania:**
 
-- Silne schematy szyfrowania: OpenVPN z uwierzytelnianiem SHA-256; RSA-2048 lub lepszy handshake; szyfrowanie danych AES-256-GCM lub AES-256-CBC.
+- Silne schematy szyfrowania: OpenVPN z uwierzytelnianiem SHA-256; wymiana kluczy RSA-2048 lub lepsza; szyfrowanie danych AES-256-GCM lub AES-256-CBC.
 - Utajnianie z wyprzedzeniem.
 - Opublikowane audyty bezpieczeństwa przeprowadzone przez renomowaną firmę zewnętrzną.
-- Serwery VPN wykorzystujące szyfrowanie pełnodyskowe lub tylko pamięć RAM.
+- Serwery VPN korzystające z pełnego szyfrowania dysku lub działające wyłącznie w pamięci RAM.
 
 **Najlepszy scenariusz:**
 
 - Najsilniejsze szyfrowanie: RSA-4096.
-- Opcjonalne szyfrowanie odporne na kwanty.
+- Opcjonalne szyfrowanie odporne na ataki kwantowe.
 - Kompleksowe audyty bezpieczeństwa publikowane przez renomowaną firmę zewnętrzną.
-- Programy typu bug bounty i/lub skoordynowane ujawnianie podatności (coordinated vulnerability disclosure).
-- Serwery VPN działające tylko w RAM.
+- Programy bug-bounty i/lub skoordynowany proces ujawniania podatności.
+- Serwery VPN działające wyłącznie w pamięci RAM.
 
 ### Zaufanie
 
-Nie powierzyłbyś swoich finansów komuś z fałszywą tożsamością, więc po co powierzać mu swoje dane internetowe? Wymagamy, aby zalecani przez nas dostawcy ujawniali informacje o właścicielach lub kadrze zarządzającej. Doceniamy również regularne raporty przejrzystości, szczególnie w zakresie tego, jak obsługiwane są żądania organów państwowych.
+Nie powierzył(a)byś swoich finansów komuś o fałszywej tożsamości, więc po co powierzać mu swoje dane internetowe? Wymagamy, aby zalecani przez nas dostawcy ujawniali informacje o właścicielach lub kadrze zarządzającej. Doceniamy również regularne raporty przejrzystości, szczególnie w zakresie tego, jak obsługiwane są żądania organów państwowych.
 
-**Minimum do zakwalifikowania się:**
+**Minimalne wymagania:**
 
 - Publicznie dostępne informacje o właścicielu lub kadrze kierowniczej.
-- Firma z siedzibą w jurysdykcji, w której nie można jej zmusić do prowadzenia tajnych rejestrów.
+- Siedziba w jurysdykcji, w której firma nie może zostać prawnie zmuszona do prowadzenia tajnego rejestrowania aktywności użytkowników.
 
 **Najlepszy scenariusz:**
 
-- Publiczne przywództwo.
+- Publicznie dostępne informacje o właścicielu lub kadrze kierowniczej.
 - Regularnie publikowane raporty przejrzystości.
 
 ### Marketing
 
-W przypadku polecanych przez nas dostawców VPN lubimy widzieć odpowiedzialny marketing.
+W przypadku polecanych przez nas dostawców usługi VPN zwracamy uwagę na odpowiedzialne praktyki marketingowe.
 
 **Minimalne wymagania:**
 
-- Musi samodzielnie hostować analitykę (tj. bez Google Analytics).
+- Musi samodzielnie hostować analitykę (tj. bez korzystania z Google Analytics).
 
-Nie może mieć żadnego marketingu, który jest nie odpowiedzialny.
+Brak nieodpowiedzialnych praktyk marketingowych, takich jak:
 
-- Gwarantując ochronę anonimowości w 100%. Kiedy ktoś twierdzi, że coś jest w 100%, oznacza to, że nie ma pewności co do niepowodzenia. Wiemy, że ludzie mogą dość łatwo pozbawić się anonimowości na wiele sposobów, np:
-    - Ponowne wykorzystanie danych osobowych (np. kont e-mail, unikalnych pseudonimów itp.), do których uzyskali dostęp bez oprogramowania zapewniającego anonimowość (Tor, VPN itp.).
-    - [Browser Fingerprinting](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
-- Twierdzenie, że pojedynczy obwód VPN jest "bardziej anonimowy" niż Tor, który jest obwodem składającym się z trzech lub więcej węzłów, które regularnie się zmieniają.
-- Używaj odpowiedzialnego języka: tzn. w porządku jest powiedzieć, że VPN jest "odłączony" lub "niepodłączony", jednak twierdzenie, że ktoś jest "narażony", "podatny na ataki" lub "zagrożony" jest niepotrzebnym użyciem alarmującego języka, który może być niepoprawny. Na przykład, osoba ta może po prostu korzystać z usługi innego dostawcy VPN lub używać sieci Tor.
+- Gwarancji pełnej anonimowości w 100%. Kiedy ktoś zapewnia o 100% skuteczności czegoś, oznacza to, że nie ma żadnej pewności co do niepowodzenia. Zdajemy sobie sprawę, że ludzie mogą dość łatwo ujawnić swoją tożsamość na wiele sposobów, np.:
+    - używając tych samych danych osobowych lub pseudonimów bez korzystania z narzędzi zapewniających anonimowość (Tor, VPN itp.),
+    - [przez unikalny odcisk przeglądarki (browser fingerprinting).](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint)
+- Twierdzenie, że pojedynczy obwód VPN zapewnia „większą anonimowość” niż Tor, który opiera się na trzech lub więcej węzłach i regularnie zmienia trasę połączenia.
+- Używanie alarmistycznego języka. Można napisać, że użytkownik jest „rozłączony” lub „niepołączony”, ale określenia typu „narażony”, „zagrożony” czy „podatny na ataki” są niepotrzebnie dramatyczne i często błędne. Przykładowo, dana osoba może po prostu korzystać z innego VPN-a lub z sieci Tor.
 
 **Najlepszy scenariusz:**
 
-Odpowiedzialny marketing, który jest zarówno edukacyjny, jak i użyteczny dla konsumenta, może obejmować:
+Odpowiedzialny marketing, który jest zarówno edukacyjny, jak i przydatny dla użytkownika, może obejmować:
 
-- Dokładne porównanie, kiedy zamiast tego powinien być używany [Tor](tor.md).
-- Dostępność strony internetowej dostawcy VPN za pośrednictwem [ usługi .onion](https://en.wikipedia.org/wiki/.onion)
+- rzetelne porównanie sytuacji, w których lepiej użyć sieci [Tor](tor.md) zamiast VPN,
+- dostępność strony internetowej dostawcy VPN również za pośrednictwem [usługi onion](https://en.wikipedia.org/wiki/.onion).
 
 ### Dodatkowe funkcje
 
-Chociaż nie są to ścisłe wymagania, istnieją pewne czynniki, które wzięliśmy pod uwagę przy określaniu, których dostawców polecić. Obejmują one funkcje blokowania treści, kanały ostrzegawcze, doskonałą obsługę klienta, liczbę dozwolonych jednoczesnych połączeń itp.
+Nie są to ścisłe wymagania, lecz istnieją pewne czynniki, które są brane pod uwagę przy ocenie dostawców usługi VPN. Obejmują one funkcje blokowania treści, warrant canaries (publiczne oświadczenia o braku nakazów ujawnienia danych), wysoka jakość obsługi klienta, liczba dozwolonych jednoczesnych połączeń itp.
