@@ -110,6 +110,12 @@ You can also get cables, like [BusKill](https://buskill.in), that will lock or w
 
 確保您的裝置支援安全開機/驗證開機，並且已啟用。 盡可能避免讓您的裝置無人看管。
 
+### Kensington Locks
+
+Many laptops come equipped with a [Kensington slot](https://www.kensington.com/solutions/product-category/security/?srsltid=AfmBOorQOlRnqRJOAqM-Mvl7wumed0wBdiOgktlvdidpMHNIvGfwj9VI) that can be used to secure your device with a **metal cable** that locks into the slot on your machine. These locks can be combination locks or keyed.
+
+As with all locks, Kensington locks are vulnerable to [physical attacks](https://youtu.be/vgvCxL7dMJk) so you should mainly use them to deter petty theft. You can secure your laptop at home or even when you're out in public using a table leg or something that won't move easily.
+
 ## 保護您的網路安全
 
 ### 隔離

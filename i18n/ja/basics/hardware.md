@@ -110,6 +110,12 @@ OSの権限管理をそもそも信用しない場合、物理的にカメラに
 
 デバイスがセキュアブート・ベリファイドブートに対応しているか確認し、有効にしてください。 可能な限り、デバイスを放置しないようにしてください。
 
+### Kensington Locks
+
+Many laptops come equipped with a [Kensington slot](https://www.kensington.com/solutions/product-category/security/?srsltid=AfmBOorQOlRnqRJOAqM-Mvl7wumed0wBdiOgktlvdidpMHNIvGfwj9VI) that can be used to secure your device with a **metal cable** that locks into the slot on your machine. These locks can be combination locks or keyed.
+
+As with all locks, Kensington locks are vulnerable to [physical attacks](https://youtu.be/vgvCxL7dMJk) so you should mainly use them to deter petty theft. You can secure your laptop at home or even when you're out in public using a table leg or something that won't move easily.
+
 ## ネットワークの保護
 
 ### 区画化
