@@ -29,7 +29,7 @@ Text inputted to grammar, spelling, and style checkers, as well as translation s
 [:octicons-code-16:](https://github.com/languagetool-org){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1534275760)
 - [:fontawesome-brands-windows: Windows](https://languagetool.org/windows-desktop)

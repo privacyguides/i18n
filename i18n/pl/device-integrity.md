@@ -78,7 +78,7 @@ These tools can trigger false-positives. If any of these tools finds indicators 
 [:octicons-code-16:](https://github.com/mvt-project/mvt){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
 - [:simple-apple: macOS](https://docs.mvt.re/en/latest/install)
 - [:simple-linux: Linux](https://docs.mvt.re/en/latest/install)
@@ -121,7 +121,7 @@ MVT allows you to perform deeper scans/analysis if your device is jailbroken. Un
 [:octicons-info-16:](https://imazing.com/spyware-analyzer){ .card-link title=Documentation}
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
 - [:fontawesome-brands-windows: Windows](https://imazing.com/download)
 - [:simple-apple: macOS](https://imazing.com/download)
@@ -164,7 +164,7 @@ Using these apps is insufficient to determine that a device is "clean", and not 
 [:octicons-heart-16:](https://attestation.app/donate){ .card-link title=Contribute }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=app.attestation.auditor.play)
 - [:simple-github: GitHub](https://github.com/GrapheneOS/Auditor/releases)

@@ -20,12 +20,12 @@ Self-hosting your own **file management** tools may be a good idea to reduce the
 
 ![Logo PhotoPrism](../assets/img/self-hosting/photoprism.svg){ align=right }
 
-**PhotoPrism** is a platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
+**PhotoPrism** is a platform for managing photos. Obsługuje synchronizację i udostępnianie albumów oraz szereg innych [funkcji](https://photoprism.app/features). Nie oferuje jednak szyfrowania typu end-to-end, dlatego najlepiej hostować ją na zaufanym serwerze, nad którym masz pełną kontrolę.
 
-[:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
+[:octicons-home-16: Strona główna](https://photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Kod źródłowy" }
 
 </div>
 

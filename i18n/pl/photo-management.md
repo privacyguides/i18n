@@ -28,7 +28,7 @@ The free plan offers 10 GB of storage as long as you use the service at least o
 [:octicons-code-16:](https://github.com/ente-io/ente){ .card-link title="Source Code" }
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=io.ente.photos)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id1542026904)

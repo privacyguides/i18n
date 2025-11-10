@@ -3,7 +3,7 @@ title: Objaśnienia
 description: Przewodnik dla współtwórców tej strony na temat tworzenia objaśnień.
 ---
 
-Objaśnienia (ang. _admonitions_ lub _call-outs_) to narzędzia, dzięki którym redaktorzy mogą dodawać dodatkowe komentarze do artykułów bez zaburzania płynności tekstu.
+Objaśnienia (ang. _admonitions_ lub _call-outs_) to narzędzie, z którego redaktorzy mogą korzystać, aby dodać treści poboczne do artykułu bez przerywania głównego toku dokumentu.
 
 <div class="admonition example" markdown>
 <p class="admonition-title">Przykładowe objaśnienie</p>
@@ -13,39 +13,39 @@ To jest przykład objaśnienia. Lorem ipsum dolor sit amet, consectetur adipisci
 </div>
 
 <details class="example" markdown>
-<summary>Przykładowe objaśnienie zwijane</summary>
+<summary>Przykładowe zwijane objaśnienie</summary>
 
-To jest przykład objaśnienia zwijanego. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
+To jest przykład zwijanego objaśnienia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.
 
 </details>
 
 ## Formatowanie
 
-Aby dodać objaśnienie do strony, można użyć następującego kodu:
+Aby dodać objaśnienie do strony, możesz użyć poniższego kodu:
 
 ```markdown title="Admonition"
 <div class="admonition TYPE" markdown>
-<p class="admonition-title">TITLE</p>
+<p class="admonition-title">TYTUŁ</p>
 
-ENCLOSED TEXT
+ZAWARTA TREŚĆ
 
 </div>
 ```
 
 ```markdown title="Collapsible Admonition"
 <details class="TYPE" markdown>
-<summary>TITLE</summary>
+<summary>TYTUŁ</summary>
 
-ENCLOSED TEXT
+ZAWARTA TREŚĆ
 
 </details>
 ```
 
-The `TITLE` must be specified; if you don't want a specific title you can set it to the same text as the `TYPE` (see below) in title case, e.g. `Note`. The `ENCLOSED TEXT` should be Markdown formatted.
+Pole `TYTUŁ` jest obowiązkowe; jeśli nie chcesz określać konkretnego tytułu, możesz ustawić je na taki sam tekst jak `TYPE` (patrz poniżej), zapisany wielką literą na początku, np. `Uwaga`. `ZAWARTA TREŚĆ` powinna być sformatowana w Markdown.
 
-### Standardowe rodzaje upomnień
+### Typy standardowe
 
-Replace `TYPE` in the examples above with one of the following:
+Zastąp `TYPE` w powyższych przykładach jednym z poniższych:
 
 #### `note`
 
@@ -155,23 +155,23 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 </div>
 
-### Specjalne rodzaje upomnień
+### Typy specjalne
 
 #### `recommendation`
 
-Format ten służy do tworzenia kart zaleceń. Należy zauważyć, że brakuje w nim elementu `<p class="admonition-title">`.
+Ten format służy do generowania kart z zaleceniami. Wyróżnia się tym, że nie zawiera elementu `<p class="admonition-title">`.
 
 ```markdown title="Recommendation Card"
 <div class="admonition recommendation" markdown>
 
-![PhotoPrism logo](assets/img/self-hosting/photoprism.svg){ align=right }
+![Logo PhotoPrism](assets/img/self-hosting/photoprism.svg){ align=right }
 
-**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
+**PhotoPrism** to platforma do samodzielnego hostowania i zarządzania zdjęciami. Obsługuje synchronizację i udostępnianie albumów oraz szereg innych [funkcji](https://photoprism.app/features). Nie oferuje jednak szyfrowania typu end-to-end, dlatego najlepiej hostować ją na zaufanym serwerze, nad którym masz pełną kontrolę.
 
-[:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
+[:octicons-home-16: Strona główna](https://photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Kod źródłowy" }
 
 </div>
 ```
@@ -182,12 +182,12 @@ Format ten służy do tworzenia kart zaleceń. Należy zauważyć, że brakuje w
 
 ![Logo PhotoPrism](../assets/img/self-hosting/photoprism.svg){ align=right }
 
-**PhotoPrism** is a self-hostable platform for managing photos. It supports album syncing and sharing as well as a variety of other [features](https://photoprism.app/features). It does not include end-to-end encryption, so it's best hosted on a server that you trust and is under your control.
+**PhotoPrism** to platforma do samodzielnego hostowania i zarządzania zdjęciami. Obsługuje synchronizację i udostępnianie albumów oraz szereg innych [funkcji](https://photoprism.app/features). Nie oferuje jednak szyfrowania typu end-to-end, dlatego najlepiej hostować ją na zaufanym serwerze, nad którym masz pełną kontrolę.
 
-[:octicons-home-16: Homepage](https://photoprism.app){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Source Code" }
+[:octicons-home-16: Strona główna](https://photoprism.app){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://photoprism.app/privacy){ .card-link title="Polityka prywatności" }
+[:octicons-info-16:](https://photoprism.app/kb){ .card-link title="Dokumentacja" }
+[:octicons-code-16:](https://github.com/photoprism){ .card-link title="Kod źródłowy" }
 
 </div>
 
@@ -195,11 +195,11 @@ Format ten służy do tworzenia kart zaleceń. Należy zauważyć, że brakuje w
 
 #### `downloads`
 
-This is a special type of collapsible admonition which is used to generate sections containing download links. It is only used within recommendation cards, as shown in the example above.
+Jest to specjalny typ zwijanego objaśnienia używanego do generowania sekcji zawierających linki do pobrania. Występuje wyłącznie wewnątrz kart z zaleceniami, jak pokazano w powyższym przykładzie.
 
 ```markdown title="Downloads Section"
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
@@ -207,7 +207,7 @@ This is a special type of collapsible admonition which is used to generate secti
 - [:fontawesome-brands-windows: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
 - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
-- [:octicons-browser-16: Web](https://mail.proton.me)
+- [:octicons-browser-16: W przeglądarce](https://mail.proton.me)
 
 </details>
 ```
@@ -215,7 +215,7 @@ This is a special type of collapsible admonition which is used to generate secti
 <div class="result" markdown>
 
 <details class="downloads" markdown>
-<summary>Downloads</summary>
+<summary>Pobierz</summary>
 
 - [:simple-googleplay: Google Play](https://play.google.com/store/apps/details?id=ch.protonmail.android)
 - [:simple-appstore: App Store](https://apps.apple.com/app/id979659905)
@@ -223,15 +223,15 @@ This is a special type of collapsible admonition which is used to generate secti
 - [:fontawesome-brands-windows: Windows](https://proton.me/mail/bridge#download)
 - [:simple-apple: macOS](https://proton.me/mail/bridge#download)
 - [:simple-linux: Linux](https://proton.me/mail/bridge#download)
-- [:octicons-browser-16: Web](https://mail.proton.me)
+- [:octicons-browser-16: W przeglądarce](https://mail.proton.me)
 
 </details>
 
 </div>
 
-## Old Format
+## Stary format
 
-Throughout the site, you may see some admonitions formatted like the following examples:
+Na stronie możesz natrafić na objaśnienia sformatowane na jeden z poniższych sposobów:
 
 ```markdown title="Admonition"
 !!! note
@@ -255,7 +255,7 @@ massa, nec semper lorem quam in massa.
 </div>
 
 ```markdown title="Collapsible Admonition"
-??? example "Custom Title"
+??? example "Niestandardowy tytuł"
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
     nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
@@ -265,7 +265,7 @@ massa, nec semper lorem quam in massa.
 <div class="result" markdown>
 
 <details class="example" markdown>
-<summary>Custom Title</summary>
+<summary>Niestandardowy tytuł</summary>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
 nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
@@ -275,6 +275,6 @@ massa, nec semper lorem quam in massa.
 
 </div>
 
-**This format is no longer used going forward** because it is incompatible with newer versions of our translation software at Crowdin. When adding a new page to the site, only the newer, HTML-based format should be used.
+**Ten format nie jest już używany**, ponieważ jest niekompatybilny z nowszymi wersjami naszego oprogramowania tłumaczeniowego w Crowdin. Podczas dodawania nowej strony należy używać wyłącznie nowszego formatu opartego na HTML.
 
-There is no rush to convert admonitions with the old format to the new format. Pages currently using this formatting should continue to work, but we will be updating them to use the newer, HTML-based format above over time as we continue to update the site.
+Nie ma jednak potrzeby natychmiastowej konwersji istniejących objaśnień do nowego formatu. Strony korzystające ze starego zapisu będą nadal działać, ale z czasem będziemy je stopniowo aktualizować do nowego, opartego na HTML formatu, w miarę wprowadzania kolejnych zmian na stronie.
