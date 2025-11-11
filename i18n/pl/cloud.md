@@ -8,7 +8,7 @@ cover: cloud.webp
 
 <small>Chroni przed następującymi zagrożeniami:</small>
 
-- [:material-bug-outline: Passive Attacks](basics/common-threats.md#security-and-privacy ""){.pg-orange}
+- [:material-bug-outline: Ataki pasywne](basics/common-threats.md#security-and-privacy ""){.pg-orange}
 - [:material-server-network: Service Providers](basics/common-threats.md#privacy-from-service-providers ""){.pg-teal}
 
 Many **cloud storage providers** require your full trust that they will not look at your files. The alternatives listed below eliminate the need for trust by implementing secure end-to-end encryption.

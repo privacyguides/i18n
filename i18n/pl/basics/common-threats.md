@@ -1,82 +1,82 @@
 ---
 title: "Powszechne zagrożenia"
 icon: 'material/eye-outline'
-description: Your threat model is personal to you, but these are some of the things many visitors to this site care about.
+description: Model zagrożeń jest dla każdego indywidualny, ale oto kilka kwestii, które interesują wielu odwiedzających tę stronę.
 ---
 
-Broadly speaking, we categorize our recommendations into the [threats](threat-modeling.md) or goals that apply to most people. ==You may be concerned with none, one, a few, or all of these possibilities==, and the tools and services you use depend on what your goals are. You may have specific threats outside these categories as well, which is perfectly fine! The important part is developing an understanding of the benefits and shortcomings of the tools you choose to use, because virtually none of them will protect you from every threat.
+Ogólnie rzecz biorąc, dzielimy nasze zalecenia według [zagrożeń](threat-modeling.md) lub celów, które dotyczą większości osób. ==Może nie dotyczyć Cię żadne, jedno, kilka lub wszystkie z tych zagrożeń== — narzędzia i usługi, których używasz, zależą od twoich celów. Możesz mieć też konkretne zagrożenia wykraczające poza te kategorie, i to jest całkowicie w porządku! Najważniejsze jest zrozumienie korzyści i ograniczeń narzędzi, które wybierasz, ponieważ praktycznie żadne z nich nie ochroni cię przed wszystkimi zagrożeniami.
 
-<span class="pg-purple">:material-incognito: **Anonymity**</span>
+<span class="pg-purple">:material-incognito: **Anonimowość**</span>
 :
 
-Shielding your online activity from your real identity, protecting you from people who are trying to uncover *your* identity specifically.
+Chronienie aktywności w sieci przed ujawnieniem Twojej prawdziwej tożsamości, zabezpieczając cię przed osobami, które w szczególności próbują poznać *Twoją* tożsamość.
 
-<span class="pg-red">:material-target-account: **Targeted Attacks**</span>
+<span class="pg-red">:material-target-account: **Ataki ukierunkowane**</span>
 :
 
-Being protected from hackers or other malicious actors who are trying to gain access to *your* data or devices specifically.
+Ochrona przed hakerami lub innymi cyberprzestępcami, którzy próbują uzyskać dostęp do *Twoich* danych lub urządzeń w sposób wymierzony.
 
-<span class="pg-viridian">:material-package-variant-closed-remove: **Supply Chain Attacks**</span>
+<span class="pg-viridian">:material-package-variant-closed-remove: **Ataki na łańcuch dostaw**</span>
 :
 
-Typically, a form of <span class="pg-red">:material-target-account: Targeted Attack</span> that centers around a vulnerability or exploit introduced into otherwise good software either directly or through a dependency from a third party.
+Zwykle przyjmuję formę <span class="pg-red">:material-target-account: Ataku ukierunkowanego</span>, która koncentruje się wokół luki lub błędu w zabezpieczeniach wprowadzonego do pozornie dobrego oprogramowania — bezpośrednio lub przez zależność od strony trzeciej.
 
-<span class="pg-orange">:material-bug-outline: **Passive Attacks**</span>
+<span class="pg-orange">:material-bug-outline: **Ataki pasywne**</span>
 :
 
-Being protected from things like malware, data breaches, and other attacks that are made against many people at once.
+Ochrona przed takimi zagrożeniami jak złośliwe oprogramowanie, wycieki danych i innymi atakami wymierzonymi przeciwko wielu osobom jednocześnie.
 
-<span class="pg-teal">:material-server-network: **Service Providers**</span>
+<span class="pg-teal">:material-server-network: **Dostawcy usług**</span>
 :
 
-Protecting your data from service providers (e.g. with E2EE, which renders your data unreadable to the server).
+Ochrona Twoich danych przed dostawcami usług (np. za pomocą E2EE, które sprawia, że twoje dane są nieczytelne dla serwera).
 
-<span class="pg-blue">:material-eye-outline: **Mass Surveillance**</span>
+<span class="pg-blue">:material-eye-outline: **Masowa inwigilacja**</span>
 :
 
-Protection from government agencies, organizations, websites, and services which work together to track your activities.
+Ochrona przed agencjami rządowymi, organizacjami, stronami i usługami, które współpracują, by śledzić Twoje działania.
 
-<span class="pg-brown">:material-account-cash: **Surveillance Capitalism**</span>
+<span class="pg-brown">:material-account-cash: **Kapitalizm inwigilacji**</span>
 :
 
-Protecting yourself from big advertising networks, like Google and Facebook, as well as a myriad of other third-party data collectors.
+Ochrona przed dużymi sieciami reklamowymi, takimi jak Google i Facebook, oraz przed wieloma innymi zbieraczami danych stron trzecich.
 
-<span class="pg-green">:material-account-search: **Public Exposure**</span>
+<span class="pg-green">:material-account-search: **Publiczna ekspozycja**</span>
 :
 
-Limiting the information about you that is accessible online—to search engines or the public.
+Ograniczanie dostępnych o Tobie informacji w sieci — dla wyszukiwarek lub ogółu.
 
-<span class="pg-blue-gray">:material-close-outline: **Censorship**</span>
+<span class="pg-blue-gray">:material-close-outline: **Cenzura**</span>
 :
 
-Avoiding censored access to information or being censored yourself when speaking online.
+Unikanie cenzurowanego dostępu do informacji lub sytuacji, w których Twoje wypowiedzi online są cenzurowane.
 
-Some of these threats may be more important to you than others, depending on your specific concerns. For example, a software developer with access to valuable or critical data may be primarily concerned with <span class="pg-viridian">:material-package-variant-closed-remove: Supply Chain Attacks</span> and <span class="pg-red">:material-target-account: Targeted Attacks</span>. They will likely still want to protect their personal data from being swept up in <span class="pg-blue">:material-eye-outline: Mass Surveillance</span> programs. Similarly, many people may be primarily concerned with <span class="pg-green">:material-account-search: Public Exposure</span> of their personal data, but they should still be wary of security-focused issues, such as <span class="pg-orange">:material-bug-outline: Passive Attacks</span>—like malware affecting their devices.
+Niektóre z tych zagrożeń mogą być dla Ciebie ważniejsze niż inne, w zależności od Twoich obaw. Na przykład programista mający dostęp do wartościowych lub krytycznych danych może przede wszystkim martwić się o <span class="pg-viridian">:material-package-variant-closed-remove: Ataki na łańcuch dostaw</span> i <span class="pg-red">:material-target-account: Ataki ukierunkowane</span>. Prawdopodobnie nadal będzie chciał chronić swoje dane osobowe przed wciągnięciem ich w programy <span class="pg-blue">:material-eye-outline: Masowej inwigilacji</span>. Podobnie wiele osób może przede wszystkim obawiać się <span class="pg-green">:material-account-search: Publicznej ekspozycji</span> swoich danych osobowych, ale i tak powinny być one czujne w kwestiach związanych z bezpieczeństwem, takich jak <span class="pg-orange">:material-bug-outline: Ataki pasywne</span> — na przykład złośliwe oprogramowanie atakujące ich urządzenia.
 
-## Anonymity vs. Privacy
+## Anonimowość a prywatność
 
-<span class="pg-purple">:material-incognito: Anonymity</span>
+<span class="pg-purple">:material-incognito: Anonimowość</span>
 
-Anonymity is often confused with privacy, but they're distinct concepts. While privacy is a set of choices you make about how your data is used and shared, anonymity is the complete disassociation of your online activities from your real identity.
+Anonimowość jest często mylona z prywatnością, ale są to różne pojęcia. Prywatność to zestaw wyborów dotyczących tego, jak Twoje dane są używane i udostępniane, natomiast anonimowość to całkowite oddzielenie Twoich działań w sieci od Twojej prawdziwej tożsamości.
 
-Whistleblowers and journalists, for example, can have a much more extreme threat model which requires total anonymity. That's not only hiding what they do, what data they have, and not getting hacked by malicious actors or governments, but also hiding who they are entirely. They will often sacrifice any kind of convenience if it means protecting their anonymity, privacy, or security, because their lives could depend on it. Most people don't need to go so far.
+Na przykład sygnaliści i dziennikarze mogą mieć znacznie bardziej ekstremalny model zagrożeń, który wymaga całkowitej anonimowości. Chodzi nie tylko o ukrycie tego, co robią, jakimi danymi dysponują i o ochronę przed atakami cyberprzestępców czy państw, ale też o pełne ukrycie, kim są. Często rezygnują z jakiejkolwiek wygody, jeśli pozwala to chronić ich anonimowość, prywatność lub bezpieczeństwo, ponieważ od tego może zależeć ich życie. Większość osób nie musi iść aż tak daleko.
 
-## Security and Privacy
+## Bezpieczeństwo a prywatność
 
-<span class="pg-orange">:material-bug-outline: Passive Attacks</span>
+<span class="pg-orange">:material-bug-outline: Ataki pasywne</span>
 
-Security and privacy are also often confused, because you need security to obtain any semblance of privacy: Using tools—even if they're private by design—is futile if they could be easily exploited by attackers who later release your data. However, the inverse isn't necessarily true: The most secure service in the world *isn't necessarily* private. The best example of this is trusting data to Google who, given their scale, have had few security incidents by employing industry-leading security experts to secure their infrastructure. Even though Google provides very secure services, very few people would consider their data private in Google's free consumer products (Gmail, YouTube, etc.)
+Bezpieczeństwo i prywatność też bywają często mylone, ponieważ potrzebujesz bezpieczeństwa, by w ogóle mieć choćby namiastkę prywatności: korzystanie z narzędzi — nawet zaprojektowanych z myślą o prywatności — jest bezcelowe, jeśli mogą zostać łatwo wykorzystane przez atakujących, którzy później ujawnią Twoje dane. Jednak odwrotność niekoniecznie jest prawdziwa: najbezpieczniejsza usługa na świecie *niekoniecznie* jest prywatna. Najlepszym przykładem jest powierzenie danych firmie Google, która, biorąc pod uwagę swoją skalę, miała stosunkowo niewiele incydentów bezpieczeństwa, bo zatrudnia wiodących w branży ekspertów, by zabezpieczać swoją infrastrukturę. Mimo że Google dostarcza bardzo bezpieczne usługi, niewiele osób uznałoby swoje dane za prywatne w darmowych produktach konsumenckich Google (Gmail, YouTube itp.).
 
-When it comes to application security, we generally don't (and sometimes can't) know if the software we use is malicious, or might one day become malicious. Even with the most trustworthy developers, there's generally no guarantee that their software doesn't have a serious vulnerability that could later be exploited.
+Jeśli chodzi o bezpieczeństwo aplikacji, zwykle nie wiemy (a czasem nie możemy wiedzieć), czy oprogramowanie, z którego korzystamy, jest złośliwe lub czy pewnego dnia nie stanie się złośliwe. Nawet przy najbardziej godnych zaufania deweloperach nie ma zwykle gwarancji, że ich oprogramowanie nie zawiera poważnej luki, którą można by później wykorzystać.
 
-To minimize the damage that a malicious piece of software *could* do, you should employ security by compartmentalization. For example, this could come in the form of using different computers for different jobs, using virtual machines to separate different groups of related applications, or using a secure operating system with a strong focus on application sandboxing and mandatory access control.
+Aby zminimalizować szkody, jakie złośliwe oprogramowanie *mogłoby* wyrządzić, warto stosować zasadę zabezpieczeń przez szufladkowanie (ang. *compartmentalization*). Na przykład może to oznaczać używanie różnych komputerów do różnych zadań, korzystanie z maszyn wirtualnych do izolowania grup powiązanych aplikacji albo użycie bezpiecznego systemu operacyjnego silnie stawiającego na mechanizm piaskownicy aplikacji i obowiązkową kontrolę dostępu.
 
 <div class="admonition tip" markdown>
 <p class="admonition-title">Porada</p>
 
-Mobile operating systems generally have better application sandboxing than desktop operating systems: Apps can't obtain root access, and require permission for access to system resources.
+Mobilne systemy operacyjne zazwyczaj oferują lepszy mechanizm piaskownicy aplikacji niż systemy na komputery stacjonarne: aplikacje nie mogą uzyskać uprawnień root i wymagają zezwoleń na dostęp do zasobów systemowych.
 
-Desktop operating systems generally lag behind on proper sandboxing. ChromeOS has similar sandboxing capabilities to Android, and macOS has full system permission control (and developers can opt in to sandboxing for applications). However, these operating systems do transmit identifying information to their respective OEMs. Linux tends to not submit information to system vendors, but it has poor protection against exploits and malicious apps. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+Systemy na komputery stacjonarne zwykle pozostają w tyle w kwestii piaskownic. ChromeOS ma podobne możliwości piaskownicy do Androida, a macOS zapewnia pełną kontrolę uprawnień systemowych (deweloperzy mogą opcjonalnie włączyć piaskownicę dla aplikacji). Jednak systemy te przekazują informacje identyfikujące do swoich producentów OEM. Linux zwykle nie wysyła danych do dostawców systemu, lecz gorzej chroni przed exploitami i złośliwymi aplikacjami. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
 
 </div>
 
