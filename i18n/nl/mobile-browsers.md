@@ -138,7 +138,7 @@ De opties van Shields kunnen naar behoefte per site worden aangepast, maar stand
     - [x] Selecteer **Automatisch doorsturen van tracking-URL's**
     - \[x\] (optioneel) Selecteer **Blokkeer scripts** (1)
     - [x] Selecteer **Blokkeer vingerafdrukken**
-    - [x] Select **Site Tabs Closed** under *Auto Shred*
+    - [x] Selecteer **Site Tabbladen Gesloten** onder *Auto Shred*
 
     <details class="warning" markdown>
     <summary>Standaard filterlijsten gebruiken</summary>
@@ -151,13 +151,13 @@ De opties van Shields kunnen naar behoefte per site worden aangepast, maar stand
 
     1. Deze optie schakelt JavaScript uit, waardoor veel sites niet meer werken. Om dit te verhelpen, kun je uitzonderingen per site instellen door op het schildpictogram in de adresbalk te klikken en deze instelling uit te vinken onder *Geavanceerde besturingselementen*.
 
-##### Clear browsing data (Android only)
+##### Browsegegevens wissen (alleen Android)
 
 - [x] Selecteer **Gegevens wissen bij het sluiten van de browser**
 
-##### Social Media Blocking (Android only)
+##### Sociale media blokkeren (alleen Android)
 
-- [ ] Uncheck alle sociale media componenten uit
+- [ ] Deselecteer alle sociale media componenten
 
 #### Andere privacy-instellingen
 
@@ -211,12 +211,12 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 
 ![Cromite logo](assets/img/browsers/cromite.svg){ align=right }
 
-**Cromite** is een op Chromium gebaseerde browser met ingebouwde adblocking, vingerafdrukken beschermen en andere [privacy- en veiligheidsverbeteringen] (https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the discontinued **Bromite** browser.
+**Cromite** is een op Chromium gebaseerde browser met ingebouwde adblocking, vingerafdrukken beschermen en andere [privacy- en veiligheidsverbeteringen] (https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). Het is een fork van de beëindigde **Bromite** browser.
 
-[:octicons-home-16: Homepage](https://cromite.org){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Source Code" }
+[:octicons-home-16: Homepagina](https://cromite.org){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacybeleid" }
+[:octicons-info-16:](https://github.com/uazo/cromite?tab=readme-ov-file#docs){ .card-link title="Documentatie" }
+[:octicons-code-16:](https://github.com/uazo/cromite){ .card-link title="Broncode" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -333,23 +333,23 @@ Apple's privacy policy for Safari states:
 
 > When visiting a webpage, Safari may send information calculated from the webpage address to Apple over OHTTP to determine if relevant highlights are available.
 
-#### Settings for Websites
+#### Instellingen voor websites
 
-Under **Camera**
+Onder **Camera**
 
-- [x] Select **Ask**
+- [x] Selecteer **Vraag**
 
-Under **Microphone**
+Onder **Microfoon**
 
-- [x] Select **Ask**
+- [x] Selecteer **Vraag**
 
-Under **Location**
+Onder **Locatie**
 
-- [x] Select **Ask**
+- [x] Selecteer **Vraag**
 
 These settings ensure that websites can only access your camera, microphone, or location after you explicitly grant them access.
 
-#### Other Privacy Settings
+#### Andere privacy-instellingen
 
 These options can be found in :gear: **Settings** → **Apps** → **Safari** → **Advanced**.
 
@@ -373,7 +373,7 @@ Open Safari en tik op de knop Tabbladen, rechtsonder. Then, expand the :material
 
 - [x] Selecteer **Privé**
 
-Safari's Privénavigatie modus biedt extra bescherming van de privacy. Private Browsing gebruikt een nieuwe [kortstondige](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) sessie voor elk tabblad, wat betekent dat tabbladen van elkaar geïsoleerd zijn. There are other smaller privacy benefits with Private Browsing too, such as not sending a webpage’s address to Apple when using Safari's translation feature.
+De privénavigatiemodus van Safari biedt extra privacybescherming. Private Browsing gebruikt een nieuwe [kortstondige](https://developer.apple.com/documentation/foundation/urlsessionconfiguration/1410529-ephemeral) sessie voor elk tabblad, wat betekent dat tabbladen van elkaar geïsoleerd zijn. There are other smaller privacy benefits with Private Browsing too, such as not sending a webpage’s address to Apple when using Safari's translation feature.
 
 Do note that Private Browsing does not save cookies and website data, so it won't be possible to remain signed in to sites. Dit kan een ongemak zijn.
 

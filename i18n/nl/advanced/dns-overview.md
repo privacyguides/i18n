@@ -80,7 +80,7 @@ Encrypted DNS can refer to one of a number of protocols, the most common ones be
 
 [**DNS over HTTPS**](https://en.wikipedia.org/wiki/DNS_over_HTTPS), as defined in [RFC 8484](https://datatracker.ietf.org/doc/html/rfc8484), packages queries in the [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) protocol and provides security with HTTPS. Ondersteuning werd voor het eerst toegevoegd in webbrowsers zoals Firefox 60 en Chrome 83.
 
-Native implementatie van DoH dook op in iOS 14, macOS 11, Microsoft Windows, en Android 13 (het zal echter niet standaard worden ingeschakeld [](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)). Algemene Linux desktop ondersteuning wacht op de systemd [implementatie](https://github.com/systemd/systemd/issues/8639) dus [het installeren van third-party software is nog steeds vereist](../dns.md#linux).
+Native implementatie van DoH dook op in iOS 14, macOS 11, Microsoft Windows, en Android 13 (het zal echter niet standaard worden ingeschakeld [](https://android-review.googlesource.com/c/platform/packages/modules/DnsResolver/+/1833144)). Algemene Linux desktop ondersteuning wacht op de systemd [implementatie](https://github.com/systemd/systemd/issues/8639) dus [het installeren van software van derden is nog steeds vereist](../dns.md#encrypted-dns-proxies).
 
 ### Ondersteuning voor besturingssystemen
 
@@ -94,7 +94,7 @@ De nieuwste versies van iOS, iPadOS, tvOS en macOS ondersteunen zowel DoT als Do
 
 Na installatie van een configuratieprofiel of een app die gebruik maakt van de DNS Settings API, kan de DNS-configuratie worden geselecteerd. Als een VPN actief is, zal de resolutie binnen de VPN-tunnel de DNS-instellingen van het VPN gebruiken en niet je systeembrede instellingen.
 
-Apple biedt geen native interface voor het maken van versleutelde DNS-profielen. [Secure DNS profile creator](https://dns.notjakob.com/tool.html) is een onofficiële tool voor het maken van je eigen versleutelde DNS-profielen, echter worden deze niet ondertekend. Ondertekende profielen hebben de voorkeur; ondertekening valideert de oorsprong van een profiel en helpt de integriteit van de profielen te waarborgen. Een groen "Geverifieerd" label wordt gegeven aan ondertekende configuratieprofielen. Voor meer informatie over het ondertekenen van codes, zie [Over het ondertekenen van codes](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html).
+Apple biedt geen native interface voor het maken van versleutelde DNS-profielen. [Secure DNS profile creator](https://dns.notjakob.com/tool.html) is een onofficieel hulpmiddel voor het maken van je eigen versleutelde DNS-profielen, echter worden deze niet ondertekend. Ondertekende profielen hebben de voorkeur; ondertekening valideert de oorsprong van een profiel en helpt de integriteit van de profielen te waarborgen. Een groen "Geverifieerd" label wordt gegeven aan ondertekende configuratieprofielen. Voor meer informatie over het ondertekenen van codes, zie [Over het ondertekenen van codes](https://developer.apple.com/library/archive/documentation/Security/Conceptual/CodeSigningGuide/Introduction/Introduction.html).
 
 #### Linux
 
@@ -124,11 +124,11 @@ In dit voorbeeld zullen we vastleggen wat er gebeurt als we een DoH-verzoek doen
     wireshark -r /tmp/dns_doh.pcap
     ```
 
-We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) and [TLS handshake](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) that occurs with any encrypted connection. Als we kijken naar de "toepassings gegevens" pakketten die volgen, bevat geen van hen het domein dat we hebben aangevraagd of het IP adres dat wordt teruggestuurd.
+We can see the [connection establishment](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment) and [TLS handshake](https://cloudflare.com/learning/ssl/what-happens-in-a-tls-handshake) that occurs with any encrypted connection. Als we kijken naar de "toepassingsgegevens" pakketten die volgen, bevat geen van hen het domein dat we hebben aangevraagd of het IP-adres dat wordt teruggestuurd.
 
 ## Waarom **zou ik geen** versleutelde DNS gebruiken?
 
-Op plaatsen waar internet wordt gefilterd (of gecensureerd), kan het bezoeken van verboden bronnen eigen gevolgen hebben waarmee je rekening moet houden in jouw [bedreigingsmodel](../basics/threat-modeling.md). Wij **niet** suggereren het gebruik van gecodeerde DNS voor dit doel. Use [Tor](../advanced/tor-overview.md) or a [VPN](../vpn.md) instead. Als je een VPN gebruikt, moet je de DNS-servers van jouw VPN gebruiken. Wanneer je een VPN gebruikt, vertrouwt je hen al jouw netwerkactiviteiten toe.
+Op plaatsen waar internet wordt gefilterd (of gecensureerd), kan het bezoeken van verboden bronnen eigen gevolgen hebben waarmee je rekening moet houden in jouw [bedreigingsmodel](../basics/threat-modeling.md). We raden het gebruik van versleutelde DNS voor dit doel **af**. Use [Tor](../advanced/tor-overview.md) or a [VPN](../vpn.md) instead. Als je een VPN gebruikt, moet je de DNS-servers van jouw VPN gebruiken. Wanneer je een VPN gebruikt, vertrouwt je hen al jouw netwerkactiviteiten toe.
 
 Wanneer we een DNS lookup doen, is dat meestal omdat we toegang willen tot een bron. Hieronder bespreken we enkele van de methoden die jouw surf-activiteiten kunnen onthullen, zelfs wanneer je versleutelde DNS gebruikt:
 
@@ -180,7 +180,7 @@ Dit betekent dat zelfs als we "Encrypted DNS" servers gebruiken, het domein waar
 
 Governments, in particular [China](https://zdnet.com/article/china-is-now-blocking-all-encrypted-https-traffic-using-tls-1-3-and-esni) and [Russia](https://zdnet.com/article/russia-wants-to-ban-the-use-of-secure-protocols-such-as-tls-1-3-doh-dot-esni), have either already [started blocking](https://en.wikipedia.org/wiki/Server_Name_Indication#Encrypted_Client_Hello) it or expressed a desire to do so. Onlangs is Rusland [begonnen met het blokkeren van buitenlandse websites](https://github.com/net4people/bbs/issues/108) die gebruik maken van de [HTTP/3](https://en.wikipedia.org/wiki/HTTP/3) norm. Dit komt doordat het [QUIC](https://en.wikipedia.org/wiki/QUIC) protocol dat deel uitmaakt van HTTP/3 vereist dat `ClientHello` ook gecodeerd wordt.
 
-### Protocol voor onlinecertificaatstatus (PVOC/OCSP)
+### Online Certificate Status Protocol (OCSP)
 
 Een andere manier waarop jouw browser jouw surfactiviteiten kan onthullen is met het [Online Certificate Status Protocol](https://en.wikipedia.org/wiki/Online_Certificate_Status_Protocol). Wanneer je een HTTPS-website bezoekt, kan de browser controleren of het [-certificaat](https://en.wikipedia.org/wiki/Public_key_certificate) van de website is ingetrokken. Dit gebeurt over het algemeen via het HTTP-protocol, wat betekent dat het **niet** versleuteld is.
 

@@ -289,33 +289,33 @@ iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長�
 
 ### 要求生物特徵驗證和隱藏應用程式
 
-iOS offers the ability to lock most apps behind Touch ID/Face ID or your passcode, which can be useful for protecting sensitive content in apps which do not provide the option themselves. You can lock an app by long-pressing on it and selecting **Require Face ID/Touch ID**. Any app locked in this way requires biometric authentication whenever opening it or accessing its contents in other apps. Also, notification previews for locked apps will not be shown.
+iOS 提供以 Touch ID/Face ID 或您的密碼來鎖定大部分應用程式的功能，這對於保護本身未提供相關功能的應用程式當中的敏感內容非常有用。 您可以長按應用程式，選擇**需要 Face ID/Touch ID** 來鎖定該應用程式。 開啟以這種方式鎖定的應用程式之前，或是從其他程式存取資料前，將要求進行生物特徵驗證。 此外，被鎖定的應用程式，也不會顯示通知預覽。
 
-In addition to locking apps behind biometrics, you can also hide apps so that they don't appear on the Home Screen, App Library, the app list in **Settings**, etc. While hiding apps may be useful in situations where you have to hand your unlocked phone to someone else, the concealment provided by the feature is not absolute, as a hidden app is still visible in some places such as the battery usage list. Moreover, one notable trade off of hiding an app is that you will not receive any of its notifications.
+除了以生物特徵鎖定外，您也可以隱藏應用程式，讓它們不會出現在主畫面、應用程式庫、**設定**中的應用程式清單等。 雖然隱藏應用程式在您必須將已解鎖的手機交給他人的情況下可能很有用，但該功能提供的隱藏效果並非絕對，因為隱藏的應用程式在某些地方（例如電量使用清單）仍是可見的。 此外，隱藏應用程式的一個顯著缺點是您將不會收到任何通知。
 
-You can hide an app by long-pressing on it and selecting **Require Face ID/Touch ID** → **Hide and Require Face ID/Touch ID**. Note that pre-installed Apple apps, as well as the default web browser and email app, cannot be hidden. Hidden apps reside in a **Hidden** folder at the bottom of the App Library, which can be unlocked using biometrics. This folder appears in the App Library whether you hid any apps or not, which provides you a degree of plausible deniability.
+您可以長按應用程式，然後選擇**要求使用 Face ID/Touch ID**→**隱藏並要求使用 Face ID/Touch ID** 來隱藏應用程式。 請注意，無法隱藏 Apple 內建的應用程式、預設網頁瀏覽器和電子郵件應用程式。 隱藏的應用程式位於應用程式庫底部的**隱藏**資料夾，可使用生物特徵解鎖。 無論您是否隱藏應用程式，此資料夾都會出現在應用程式庫中，這可提供一定程度的合理推諉。
 
 
 
-### Redacting Elements in Images
+### 隱藏圖片中的元素
 
-If you need to hide information in a photo, you can use Apple's built-in editing tools to do so.
+如果想隱藏照片中的資訊，可以使用 Apple 內建的編輯工具。
 
-If your device supports it, you can use the [Clean Up](https://support.apple.com/en-us/121429) feature to pixelate faces or remove objects from images.
+如果您的裝置支援，可以使用[清理](https://support.apple.com/en-us/121429)功能來打馬賽克，或移除影像中的物件。
 
-- Open the **Photos** app and tap the photo you have selected for redaction
-- Tap the :material-tune: (at the bottom of the screen)
-- Tap the button labeled **Clean Up**
-- Draw a circle around whatever you want to redact. Faces will be pixelated, and it will attempt to delete anything else.
+- 開啟**「照片」**應用程式，點擊您想要調整的照片
+- 點擊螢幕底部的 :material-tune:
+- 點擊標示**清除**的按鈕
+- 圈選想要刪減的內容。 臉部會被打馬，其他東西將被清除。
 
-Our warning [against blurring text](../data-redaction.md) also applies here, so we recommend to instead add a black shape with 100% opacity over it. In addition to redacting text, you can also black out any face or object using the **Photos** app.
+我們[針對將文字模糊化的](../data-redaction.md)警告也適用於此，所以建議改為加入不透明度為 100% 的黑色形狀。 除了刪除文字之外，您也可以使用「**照片**」應用程式，將任何臉部或物件塗黑。
 
-- Tap the image you have selected for redaction
-- Tap the :material-tune: (at the bottom of the screen) → markup symbol (top right) → plus icon at the bottom right
-- Select **Add Shape** and choose the square or circle
-- On the toolbar, tap the circle (left-most option) and choose black as the color for filling in the shape. You can also move the shape and increase its size as you see fit.
+- 點選您想要調整的照片
+- 點選螢幕底部的 :material-tune: → 標記符號（右上方）→ 右下方的加號圖示
+- 選擇**「新增圖形」**，然後選擇方形或圓形
+- 點擊工具列上的圓形（最左邊的選項），然後選擇黑色填入。 您也可以移動圖形，視情況放大。
 
-**Don't** use the highlighter to obfuscate information, as its opacity is not quite 100%.
+**不要**使用螢光筆來隱藏資訊，因為它並非完全不透明。
 
 
 
@@ -337,4 +337,4 @@ Apple 會為那些希望幫助查找和報告錯誤的人先提供 iOS 測試版
 
 ### Before First Unlock(初次解鎖之前)
 
-If your threat model includes [:material-target-account: Targeted Attacks](../basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red} that involve forensic tools, and you want to minimize the chance of exploits being used to access your phone, you should restart your device frequently. 重啟後**解鎖設備**之前的狀態稱為“首次解鎖之前”(BFU) ，當設備處於該狀態時，取證鑑識工具[明顯更加困難](https://belkasoft.com/checkm8_glossary)利用漏洞訪問您的資料。 此 BFU 狀態允許您接收電話、簡訊和鬧鐘通知，但設備上的大部分資料為加密且無法訪問。 這可能不切實際，因此請考慮權衡這個作法對於自身情況是否有意義。
+如果您的威脅模式包含鑑識工具的[:material-target-account: 針對式攻擊](../basics/common-threats.md#attacks-against-specific-individuals ""){.pg-red}，而且您希望盡可能降低被利用漏洞來存取手機的機會，請經常重新啟動裝置。 重啟後**解鎖設備**之前的狀態稱為“首次解鎖之前”(BFU) ，當設備處於該狀態時，取證鑑識工具[明顯更加困難](https://belkasoft.com/checkm8_glossary)利用漏洞訪問您的資料。 此 BFU 狀態允許您接收電話、簡訊和鬧鐘通知，但設備上的大部分資料為加密且無法訪問。 這可能不切實際，因此請考慮權衡這個作法對於自身情況是否有意義。

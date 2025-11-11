@@ -6,7 +6,7 @@ description: macOS 是蘋果電腦的桌面作業系統，搭配其自家硬體�
 
 蘋果公司使用 Unix 作業系統來開發**macOS** 支援自家的 Mac 電腦。 為提高 macOS 隱私，用戶可關閉遙測功能以強化現有的隱私與安全設定。
 
-舊款的 Intel-based Macs 與 Hackintoshe 則無法完全支援 macOS 所提供的安全功能。 To enhance data security, we recommend using a newer Mac with [Apple Silicon](https://support.apple.com/HT211814).
+舊款的 Intel-based Macs 與 Hackintoshe 則無法完全支援 macOS 所提供的安全功能。 為了加強資料安全性，建議使用[Apple Silicon](https://support.apple.com/HT211814)晶片的新款 Mac。
 
 ## 隱私筆記
 
@@ -14,7 +14,7 @@ description: macOS 是蘋果電腦的桌面作業系統，搭配其自家硬體�
 
 ### 激活鎖
 
-Brand-new Apple Silicon devices can be set up without an internet connection. 但是，恢復或重置 Mac 將**需要**連接到 Apple 伺服器，以檢查丟失或被盜設備資料庫的激活鎖。
+全新 Apple Silicon 裝置可不需網際網路連線即可設定。 但是，恢復或重置 Mac 將**需要**連接到 Apple 伺服器，以檢查丟失或被盜設備資料庫的激活鎖。
 
 ### 應用程式撤銷檢查
 
@@ -46,7 +46,7 @@ Apple 的 OCSP 服務使用 HTTPS 加密，因此只有他們能夠看到您開�
 
 #### 藍牙
 
-- [ ] Turn off **Bluetooth** (unless you are currently using it)
+- [ ] 關閉**藍牙**（除非目前正在使用）
 
 #### 網路
 
@@ -54,25 +54,25 @@ Apple 的 OCSP 服務使用 HTTPS 加密，因此只有他們能夠看到您開�
 
 單擊網路名稱旁邊的“詳細資訊”按鈕：
 
-- [x] Select **Rotating** under **Private Wi-Fi address**
+- [x] 在**私人 Wi-Fi 位址**下選擇**輪替**
 
-- [x] Turn on **Limit IP address tracking**
+- [x] 開啟**限制 IP 位址追蹤**
 
 ##### 防火牆
 
 防火牆會阻止不必要的網路連接。 防火牆設定越嚴格，您的 Mac 就越安全。 然而某些服務可能會被封鎖。 您應該將防火牆配置得盡可能嚴格，但不會影響使用的服務。
 
-- [x] Turn on **Firewall**
+- [x] 開啟**防火牆**
 
 點擊 **生成（Generate）** 按鈕。
 
-- [x] Turn on **Block all incoming connections**
+- [x] 勾選**封鎖所有傳入連線**
 
 如果配置過於嚴格，可以再回來取消勾選此選項。 但如果應用程式請求，macOS 通常會提示用戶允許該應用的傳入連接。
 
 #### 一般設定
 
-您的設備名稱預設為“[您的名字] 的 iMac”。 Because this name is [publicly broadcast on your network](https://support.apple.com/guide/mac-help/change-computers-local-hostname-mac-mchlp2322/26/mac/26#:~:text=The%20local%20hostname%2C%20or%20local%20network%20name%2C%20is%20displayed%20at%20the%20bottom%20of%20the%20Sharing%20settings%20window.%20It%20identifies%20your%20Mac%20to%20Bonjour%2Dcompatible%20services.), you'll want to change your device name to something generic like "Mac".
+您的設備名稱預設為“[您的名字] 的 iMac”。 由於此名稱會[在您的網路上公開廣播](https://support.apple.com/guide/mac-help/change-computers-local-hostname-mac-mchlp2322/26/mac/26#:~:text=The%20local%20hostname%2C%20or%20local%20network%20name%2C%20is%20displayed%20at%20the%20bottom%20of%20the%20Sharing%20settings%20window.%20It%20identifies%20your%20Mac%20to%20Bonjour%2Dcompatible%20services.)，因此需將裝置名稱更改為通用名稱，例如「Mac」。
 
 單擊**關於**，然後在**名稱**欄位上輸入想取的設備名稱。
 
@@ -82,30 +82,30 @@ Apple 的 OCSP 服務使用 HTTPS 加密，因此只有他們能夠看到您開�
 
 點擊 :material-information-outline: **自動更新** 旁邊的小圖標:
 
-- [x] Turn on **Download new updates when available**
+- [x] 開啟**更新推出時就下載**
 
-- [x] Turn on **Install macOS updates**
+- [x] 開啟**安裝 macOS 更新**
 
-- [x] Turn on **Install Security Responses and system files**
+- [x] 開啟**安裝安全回應與系統檔案**
 
-#### Apple Intelligence & Siri
+#### Apple Intelligence 與 Siri
 
-If you do not use these features on macOS, you should disable them:
+如果您在 macOS 上不使用這些功能，應該關閉：
 
-- [ ] Turn off **Apple Intelligence**
+- [ ] 關閉 **Apple Intelligence**
 - [ ] 關閉 **Siri**
 
-**[Apple Intelligence](https://apple.com/legal/privacy/data/en/intelligence-engine)** is only available if your device supports it. Apple Intelligence uses a combination of on-device processing and their [Private Cloud Compute](https://security.apple.com/blog/private-cloud-compute) for things that take more processing power than your device can provide.
+只有在您的裝置支援 **[Apple Intelligence](https://apple.com/legal/privacy/data/en/intelligence-engine)** 時才能使用它。 Apple Intelligence 結合裝置內處理與它們的[私人雲端運算](https://security.apple.com/blog/private-cloud-compute)功能，以處理需要比裝置所能提供還更多處理能力的事情。
 
-To see a report of all the data sent via Apple Intelligence, you can navigate to **Privacy & Security** → **Apple Intelligence Report** and press **Export Activity** to see activity from the either the last 15 minutes or 7 days, depending on what you set it for. Similar to the **App Privacy Report** which shows you the recent permissions accessed by the apps on your phone, the Apple Intelligence Report likewise shows what is being sent to Apple's servers while using Apple Intelligence.
+若要查閱透過 Apple Intelligence 傳送的所有資料報告，您可以到 **隱私權與安全性** → **Apple Intelligence 報告**，然後按下**匯出活動**，即可查看過去 15 分鐘或 7 天內的活動，視您的設定而定。 與會顯示您手機上的應用程式近期存取的權限的**應用程式隱私權報告**類似，Apple Intelligence 報告也會顯示使用 Apple Intelligence 時，有哪些資料被送到 Apple 的伺服器。
 
-By default, ChatGPT integration is disabled. If you don't want ChatGPT integration anymore, you can navigate to **ChatGPT**:
+預設情況下，ChatGPT 整合功能是關閉的。 如果您不想再使用 ChatGPT 整合功能了，可以切換到 **ChatGPT**：
 
-- [ ] Turn off **Use ChatGPT**
+- [ ] 關閉 **使用 ChatGPT**
 
-You can also have it ask for confirmation every time if you leave ChatGPT integration on:
+如果您維持開啟 ChatGPT 整合功能，也可以讓它每次都要求確認：
 
-- [x] Turn on **Confirm Requests**
+- [x] 開啟**確認請求**
 
 <div class="admonition warning" markdown>
 <p class="admonition-title">警告</p>

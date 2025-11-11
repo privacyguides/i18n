@@ -1,11 +1,11 @@
 ---
-title: Writing Style
-description: Our official writing style handbook for website contributors.
+title: Schrijfstijl
+description: Ons officiële schrijfstijlhandboek voor medewerkers aan websites.
 ---
 
 Privacy Guides is geschreven in Amerikaans Engels, en je dient bij twijfel de [APA Style guidelines](https://apastyle.apa.org/style-grammar-guidelines/grammar) te raadplegen.
 
-In general the [United States federal plain language guidelines](https://plainlanguage.gov/guidelines) provide a good overview of how to write clearly and concisely. Wij belichten hieronder enkele belangrijke opmerkingen uit deze richtsnoeren.
+In general the [United States federal plain language guidelines](https://plainlanguage.gov/guidelines) provide a good overview of how to write clearly and concisely. Hieronder lichten we een paar belangrijke opmerkingen uit deze richtlijnen toe.
 
 ## Schrijven voor ons publiek
 

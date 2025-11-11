@@ -1,7 +1,7 @@
 ---
 meta_title: "Tor-browser en -netwerk: Anoniem surfen op het web - Privacy Guides"
 title: "Tor Browser"
-icon: simple/torbrowser
+icon: simpel/torbrowser
 description: Bescherm je surf gedrag tegen pottenkijkers door gebruik te maken van het Tor netwerk, een beveiligd netwerk dat censuur omzeilt.
 cover: tor.webp
 schema:
@@ -23,7 +23,7 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Beschermt tegen de volgende bedreiging(en):</small>
 
 - [:material-account-cash: Surveillance kapitalisme](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 - [:material-eye-outline: Massabewaking](basics/common-threats.md#mass-surveillance-programs ""){.pg-blue}
@@ -54,11 +54,11 @@ If more complete anonymity is paramount to your situation, you should **only** b
 
 **Tor Browser** is the top choice if you need anonymity, as it provides you with access to the Tor network and bridges, and it includes default settings and extensions that are automatically configured by the default security levels: *Standard*, *Safer* and *Safest*.
 
-[:octicons-home-16: Homepage](https://torproject.org){ .md-button .md-button--primary }
+[:octicons-home-16: Homepagina](https://torproject.org){ .md-button .md-button--primary }
 [:simple-torbrowser:](http://2gzyxa5ihm7nsggfxnu52rck2vv4rvmdlkiu3zzui5du4xyclen53wid.onion){ .card-link title="Onion Service" }
-[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title="Documentation" }
-[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://donate.torproject.org){ .card-link title="Contribute" }
+[:octicons-info-16:](https://tb-manual.torproject.org){ .card-link title="Documentatie" }
+[:octicons-code-16:](https://gitlab.torproject.org/tpo/applications/tor-browser){ .card-link title="Broncode" }
+[:octicons-heart-16:](https://donate.torproject.org){ .card-link title="Bijdragen" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>
@@ -74,13 +74,13 @@ If more complete anonymity is paramount to your situation, you should **only** b
 </div>
 
 <div class="admonition danger" markdown>
-<p class="admonition-title">Danger</p>
+<p class="admonition-title">Let op</p>
 
-Je moet **nooit** extra extensies installeren op Tor Browser of `about:config` instellingen bewerken, inclusief de extensies die we voorstellen voor Firefox. Browserextensies en niet-standaardinstellingen zorgen ervoor dat je je onderscheidt van anderen op het Tor-netwerk, waardoor je browser gemakkelijker te vinden is op [fingerprint](https://support.torproject.org/glossary/browser-fingerprinting).
+Je moet **nooit** extra extensies installeren op Tor Browser of `about:config` instellingen bewerken, inclusief de extensies die we voorstellen voor Firefox. Browserextensies en niet-standaard instellingen zorgen ervoor dat je je onderscheidt van anderen op het Tor-netwerk, waardoor je browser gemakkelijker te vinden is op [vingerafdruk](https://support.torproject.org/glossary/browser-fingerprinting).
 
 </div>
 
-De Tor Browser is ontworpen om fingerprinting, of het identificeren van jou op basis van je browserconfiguratie, te voorkomen. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings). When modifying the security level setting, you **must** always restart the browser before continuing to use it. Anders [worden de beveiligingsinstellingen mogelijk niet volledig toegepast](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), waardoor je een hoger risico loopt op vingerafdrukken en exploitatie dan je zou verwachten op basis van de gekozen instelling.
+De Tor Browser is ontworpen om vingerafdrukken, of het identificeren van jou op basis van je browserconfiguratie, te voorkomen. Therefore, it is imperative that you do **not** modify the browser beyond the default [security levels](https://tb-manual.torproject.org/security-settings). When modifying the security level setting, you **must** always restart the browser before continuing to use it. Anders [worden de beveiligingsinstellingen mogelijk niet volledig toegepast](https://www.privacyguides.org/articles/2025/05/02/tor-security-slider-flaw), waardoor je een hoger risico loopt op vingerafdrukken en exploitatie dan je zou verwachten op basis van de gekozen instelling.
 
 In addition to installing Tor Browser on your computer directly, there are also operating systems designed specifically to connect to the Tor network such as [Whonix](desktop.md#whonix) on [Qubes OS](desktop.md#qubes-os), which provide even greater security and protections than the standard Tor Browser alone.
 
@@ -92,13 +92,13 @@ In addition to installing Tor Browser on your computer directly, there are also 
 
 **Onion Browser** is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the [Tor Project](https://support.torproject.org/glossary/onion-browser).
 
-[:material-star-box: Read our latest Onion Browser review.](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
+[:material-star-box: Lees onze laatste Onion Browser review](https://www.privacyguides.org/articles/2024/09/18/onion-browser-review)
 
-[:octicons-home-16: Homepage](https://onionbrowser.com){ .md-button .md-button--primary }
-[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacy Policy" }
-[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title="Documentation" }
-[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Source Code" }
-[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title="Contribute" }
+[:octicons-home-16: Homepagina](https://onionbrowser.com){ .md-button .md-button--primary }
+[:octicons-eye-16:](https://onionbrowser.com/privacy-policy){ .card-link title="Privacybeleid" }
+[:octicons-info-16:](https://onionbrowser.com/faqs){ .card-link title="Documentatie" }
+[:octicons-code-16:](https://github.com/OnionBrowser/OnionBrowser){ .card-link title="Broncode" }
+[:octicons-heart-16:](https://onionbrowser.com/donate){ .card-link title="Bijdragen" }
 
 <details class="downloads" markdown>
 <summary>Downloads</summary>

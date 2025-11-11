@@ -2,14 +2,14 @@
 *[ADB]: Android Debug Bridge
 *[AOSP]: Android open-source project
 *[ATA]: Advanced Technology Attachment
-*[aanvalsoppervlakte]: The total number of possible entry points for unauthorized access to a system
+*[aanvalsoppervlakte]: Het totale aantal mogelijke ingangen voor onbevoegde toegang tot een systeem
 *[AVB]: Android Verified Boot
 *[cgroups]: Control Groups
 *[CLI]: Command Line Interface
 *[CSV]: Comma-Separated Values
 *[CVE]: Common Vulnerabilities and Exposures
 *[dark pattern]: Een misleidend ontwerp bedoeld om een gebruiker dingen te laten doen die zelf niet willen
-*[digital legacy feature]: Digital Legacy refers to features that allow you to give other people access to your data when you die
+*[digitale nalatenschap functie]: Digitale nalatenschap verwijst naar functies waarmee je andere mensen toegang kunt geven tot je gegevens als je overlijdt
 *[DNSSEC]: Domain Name System Security Extensions
 *[DNS]: Domain Name System
 *[DoH]: DNS over HTTPS
@@ -27,17 +27,17 @@
 *[FDE]: Full Disk Encryption
 *[FIDO]: Fast IDentity Online
 *[FS]: Forward Secrecy
-*[fork]: A new software project created by copying an existing project and adding to it independently
+*[fork]: Een nieuw softwareproject dat wordt gemaakt door een bestaand project te kopiëren en er zelfstandig iets aan toe te voegen.
 *[GDPR]: General Data Protection Regulation
 *[GPG]: GNU Privacy Guard (PGP implementation)
 *[GPS]: Global Positioning System
 *[GUI]: Graphical User Interface
 *[GnuPG]: GNU Privacy Guard (PGP implementation)
 *[HDD]: Hard Disk Drive
-*[HOTP]: HMAC (Hash-based Message Authentication Code) based One-Time Password
+*[HOTP]: HMAC (Hash-based Message Authentication Code) gebaseerd eenmalig wachtwoord
 *[HTTPS]: Hypertext Transfer Protocol Secure
 *[HTTP]: Hypertext Transfer Protocol
-*[hypervisor]: Computer software, firmware, or hardware that splits the resources of a CPU among multiple operating systems
+*[hypervisor]: Computersoftware, firmware of hardware die de resources van een CPU verdeelt over meerdere besturingssystemen
 *[ICCID]: Integrated Circuit Card Identifier
 *[IMAP]: Internet Message Access Protocol
 *[IMEI]: International Mobile Equipment Identity
@@ -48,9 +48,9 @@
 *[ISP]: Internet Service Provider
 *[ISPs]: Internet Service Providers
 *[JNI]: Java Native Interface
-*[KYC]: Know Your Customer (ken uw klant)
-*[LLaVA]: Large Language and Vision Assistant (multimodal AI model)
-*[LLMs]: Large Language Models (AI models such as ChatGPT)
+*[KYC]: Know Your Customer (ken je klant)
+*[LLaVA]: Large Language and Vision Assistant (multimodaal AI-model)
+*[LLMs]: Large Language Models (AI-modellen zoals ChatGPT)
 *[LUKS]: Linux Unified Key Setup (Full-Disk Encryption)
 *[MAC]: Media Access Control
 *[MDAG]: Microsoft Defender Application Guard
@@ -64,7 +64,7 @@
 *[OCSP]: Online Certificate Status Protocol
 *[OEM]: Original Equipment Manufacturer
 *[OEMs]: Original Equipment Manufacturers
-*[open-weights]: An open weights-model is an AI model that anyone can download and use, but for which the underlying training data and/or algorithms are proprietary.
+*[open-weights]: Een open weights-model is een AI-model dat iedereen kan downloaden en gebruiken, maar waarvan de onderliggende trainingsgegevens en/of algoritmen gepatenteerd zijn.
 *[OS]: Operating System
 *[OTP]: One-Time Password
 *[OTPs]: One-Time Passwords
@@ -72,7 +72,7 @@
 *[P2P]: Peer-to-Peer
 *[PAM]: Linux Pluggable Authentication Modules
 *[POP3]: Post Office Protocol 3
-*[PGP]: Pretty Good Privacy (see OpenPGP)
+*[PGP]: Pretty Good Privacy (zie OpenPGP)
 *[PII]: Personally Identifiable Information
 *[QNAME]: Qualified Name
 *[QUIC]: A network protocol based on UDP, but aiming to combine the speed of UDP with the reliability of TCP.

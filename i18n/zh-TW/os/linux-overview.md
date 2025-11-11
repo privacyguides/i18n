@@ -56,7 +56,7 @@ Linux 有一些值得注意的安全問題，您應該注意。 儘管有這些�
 
 因此 Silverblue 和 NixOS 等 [發行版](../desktop.md#atomic-distributions) 在這種情況下便可以依靠原子更新模式維持系統穩定性。 [Adam Šamalík](https://twitter.com/adsamalik) 介紹 `rpm-ostree` 如何與 Silverblue 搭配使用：
 
-- [Let's try Fedora Silverblue — an immutable desktop OS! - Adam Šamalík](https://youtu.be/-hpV5l-gJnQ) <small>(YouTube)</small>
+- [試試 Fedora Silverblue！— 一套不變的桌機作業系統！ - Adam Šamalík](https://youtu.be/-hpV5l-gJnQ) <small>(YouTube)</small>
 
 ### 「注重安全」的發行版
 
@@ -119,7 +119,7 @@ Linux 發行版，如 [Linux-libre](https://en.wikipedia.org/wiki/Linux-libre) �
 
 ### 權限控制
 
-Desktop environments that support the [Wayland](https://wayland.freedesktop.org) display protocol are [more secure](https://lwn.net/Articles/589147) than those that only support X11. Moreover, we *generally* recommend installing and using applications which are sandboxed such as those obtained via **Flatpak**. Flatpak supports the [`security-context-v1`](https://github.com/flatpak/flatpak/pull/4920) protocol and the ability to filter D-Bus protocols, which allow Flatpak to properly identify apps for the purpose of sandboxing them through permission controls.[^1] Conversely, applications outside sandboxes are free to perform privileged actions such as capturing your screen, either by [overwriting the portal permission store](https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/issues/7#note_1112260), or [making use of privileged Wayland protocols](https://github.com/swaywm/sway/pull/7648#issuecomment-2507730794).
+支援 [Wayland](https://wayland.freedesktop.org) 顯示通訊協定的桌面環境，比只支援 X11 的桌面環境[更安全](https://lwn.net/Articles/589147)。 此外，我們*一般*都建議安裝和使用將應用程式封裝於沙盒內的軟體，例如透過 **Flatpak** 取得的應用程式。 Flatpak 支援 [`security-context-v1`](https://github.com/flatpak/flatpak/pull/4920) 通訊協定與過濾 D-Bus 通訊協定的能力，讓 Flatpak 可以正確識別應用程式，以透過權限控制將其放置於沙盒中運作。[^1]相反地，沙盒外的應用程式可自由執行需權限的行為，例如透過[覆寫入口的權限儲存空間](https://invent.kde.org/plasma/xdg-desktop-portal-kde/-/issues/7#note_1112260)，或是[利用高權限的 Wayland 通訊協定](https://github.com/swaywm/sway/pull/7648#issuecomment-2507730794)來擷取您的螢幕畫面。
 
 ## 隱私微調
 
@@ -168,4 +168,4 @@ Fedora 專案使用 [`countme`](https://fedoraproject.org/wiki/Changes/DNF_Bette
 
 openSUSE 則是使用[唯一的 ID](https://en.opensuse.org/openSUSE:Statistics) 來計算系統，可以通過清空`/var/lib/zypp/AnonymousUniqueId` 此檔案來禁用。
 
-[^1]: This exposes a reliable way for Wayland compositors to get identifying information about a client. Compositors can then apply security policies if desirable. [https://github.com/flatpak/flatpak/commit/f0e626a4b60439f211f06d35df74b675a9ef42f4](https://github.com/flatpak/flatpak/commit/f0e626a4b60439f211f06d35df74b675a9ef42f4)
+[^1]: 這提供一個讓 Wayland 合成器能可靠地取得客戶端的識別資訊的方法。 然後在需要的時候，合成器可以套用安全政策。 [https://github.com/flatpak/flatpak/commit/f0e626a4b60439f211f06d35df74b675a9ef42f4](https://github.com/flatpak/flatpak/commit/f0e626a4b60439f211f06d35df74b675a9ef42f4)
