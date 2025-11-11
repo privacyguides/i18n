@@ -1,5 +1,5 @@
 ---
-title: "Common Threats"
+title: "Powszechne zagrożenia"
 icon: 'material/eye-outline'
 description: Your threat model is personal to you, but these are some of the things many visitors to this site care about.
 ---
