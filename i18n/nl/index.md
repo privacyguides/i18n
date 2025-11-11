@@ -1,6 +1,6 @@
 ---
-meta_title: "Privacy Guides: Independent Privacy & Security Resources"
-description: "Established in 2021, Privacy Guides is the most popular & trustworthy non-profit resource to find privacy tools and learn about protecting your digital life."
+meta_title: "Privacy Guides: Onafhankelijke bron voor privacy & en beveiliging"
+description: "Privacy Guides, opgericht in 2021, is de populairste & betrouwbare non-profitbron om privacytools te vinden en meer te leren over het beschermen van je digitale leven."
 template: home.html
 social:
   cards_layout: home
@@ -58,29 +58,29 @@ Je moet privacy niet verwarren met geheimhouding. We weten wat er in de badkamer
 
 Proberen om al je gegevens voortdurend tegen iedereen te beschermen is onpraktisch, duur en vermoeiend. Maar maak je geen zorgen! Veiligheid is een proces, en door vooruit te denken kun je een plan samenstellen dat bij jou past. Beveiliging gaat niet alleen over de *privacy tools* die je gebruikt of de software die je downloadt. Integendeel, het begint met het begrijpen van de unieke bedreigingen waarmee je wordt geconfronteerd en hoe je deze kunt beperken.
 
-==This process of identifying threats and defining countermeasures is called **threat modeling**==, and it forms the basis of every good security and privacy plan.
+==Dit proces van bedreigingen identificeren en tegenmaatregelen definiëren heet **bedreigingsmodellering**==, en het vormt de basis van elk goed beveiligings- en privacyplan.
 
-[:material-book-outline: Learn More About Threat Modeling](basics/threat-modeling.md){ class="md-button" }
+[:material-book-outline: Meer informatie over bedreigingsmodellering](basics/threat-modeling.md){ class="md-button" }
 </div>
 </div>
 
-## Trustworthy Privacy Software Reviews
+## Betrouwbare privacysoftware beoordelingen
 
 <div class="grid" markdown>
 
 <div markdown>
-**Privacy Guides** has a dedicated [community](https://discuss.privacyguides.net) independently reviewing various *privacy tools* and services. Each of our recommendations comply with a strict set of criteria to ensure they provide the most value to most people, and provide the best balance of privacy, security, and convenience. As part of a non-profit **public charity**, Privacy Guides has strict **journalistic standards** and policies to ensure our recommendations are free of conflict of interest, and we do not partner with providers or affiliate programs that could sway our reviews and recommendations.
+**Privacy Guides** heeft een toegewijde [community](https://discuss.privacyguides.net) die onafhankelijk verschillende *privacy tools* en diensten beoordeelt. Al onze aanbevelingen voldoen aan een aantal strenge criteria om ervoor te zorgen dat ze de meeste mensen de meeste waarde bieden en de beste balans tussen privacy, veiligheid en gemak. Als onderdeel van een non-profit **liefdadigheidsinstelling** heeft Privacy Guides strikte **journalistieke normen** en beleidsregels om ervoor te zorgen dat onze aanbevelingen vrij zijn van belangenverstrengeling, en we werken niet samen met providers of partnerprogramma's die onze beoordelingen en aanbevelingen zouden kunnen beïnvloeden.
 
-[:material-heart:{.pg-red} Support Our Work](about/donate.md){ class="md-button md-button--primary" data-portal="signup" }
+[:material-heart:{.pg-red} Steun ons werk](about/donate.md){ class="md-button md-button--primary" data-portal="signup" }
 
 </div>
 
-- [x] **Ad-Free Recommendations**
-- [x] **Complete Editorial Independence**
+- [x] **Advertentie-vrije aanbevelingen**
+- [x] **Volledige onafhankelijkheid**
 - [x] **Non-Profit & Open Source**
-- [x] **Frequent Updates**
-- [x] **Trusted by Journalists**
-- [x] **Trusted by Readers**
+- [x] **Frequente updates**
+- [x] **Vertrouwd door journalisten**
+- [x] **Vertrouwd door lezers**
 
 </div>
 
@@ -90,30 +90,30 @@ Proberen om al je gegevens voortdurend tegen iedereen te beschermen is onpraktis
 
 ![Privacy Guides logo](assets/brand/logos/png/square/pg-yellow.png){ align=right loading=lazy }
 
-Established in 2021 due to the difficulty of finding unbiased reviewers in the VPN and privacy space, **Privacy Guides** is the most popular, trustworthy, non-profit website that provides information about protecting your *personal* data security and privacy. Our crowdsourced recommendations and reviews of **privacy tools** and our community dedicated to helping others set us apart from other blogs and content creators. The team behind this project has been researching privacy and security in the open-source space for over 5 years, originally with a now-defunct web resource that eventually became the *Privacy Guides* millions of readers trust.
+**Privacy Guides** is opgericht in 2021 omdat het moeilijk was om onbevooroordeelde beoordelaars te vinden op het gebied van VPN's en privacy. Het is de populairste, betrouwbaarste website zonder winstoogmerk die informatie biedt over de bescherming van de beveiliging van je *persoonlijke* gegevens en privacy. Onze crowdsourced aanbevelingen en beoordelingen van **privacy hulpmiddelen** en onze community die zich inzet om anderen te helpen, onderscheiden ons van andere blogs en contentmakers. Het team achter dit project doet al meer dan 5 jaar onderzoek naar privacy en beveiliging in de open-source ruimte, oorspronkelijk met een nu niet meer bestaande webbron die uiteindelijk de *Privacy Guides* werd waar miljoenen lezers op vertrouwen.
 
-*Our website is free of advertisements and not affiliated with any of the listed providers.*
+*Onze website is vrij van advertenties en niet gelieerd aan een van de vermelde aanbieders.*
 
-As seen in **WIRED**, **Tweakers.net**, **The New York Times**, and many other publications as a reliable source for privacy and security knowledge.
+Zoals gezien in **WIRED**, **Tweakers.net**, **The New York Times** en vele andere publicaties als een betrouwbare bron voor kennis over privacy en beveiliging.
 
-[:material-information: More About Who We Are](about.md){ class="md-button" }
+[:material-information: Meer Over wie We zijn](about.md){ class="md-button" }
 
 <div class="grid" markdown>
 <div markdown>
-## What are privacy tools?
+## Wat zijn privacy hulpmiddelen?
 
-We recommend a wide variety of **privacy tools** (a.k.a. *privacy apps*, *privacy utilities*, *privacy software*) spanning software and hardware that you can use to improve your privacy. Many of the tools we recommend are completely free to use and open-source software, while some are commercial services available for purchase. Switching from mainstream data-hungry software like Google Chrome and Windows to privacy-focused tools like [Brave](desktop-browsers.md#brave) and [Linux](desktop.md) can go a long way towards controlling the information you share with companies and others.
+We raden een groot aantal **privacy hulpmiddelen** aan (ook bekend als *privacy apps*, *privacy utilities*, *privacy software*) wat software en hardware omvat die je kunt gebruiken om je privacy te verbeteren. Veel van de hulpmiddelen die we aanbevelen zijn volledig gratis te gebruiken en open-source software, terwijl sommige commerciële diensten zijn die je kunt kopen. Overschakelen van mainstream software die veel gegevens opslokt, zoals Google Chrome en Windows, naar privacy-gerichte hulpmiddelen zoals [Brave](desktop-browsers.md#brave) en [Linux](desktop.md) kan al veel bijdragen aan het controleren van de informatie die je deelt met bedrijven en anderen.
 
-[:material-check-all: Our General Criteria](about/criteria.md){ class="md-button" }
+[:material-check-all: Onze algemene criteria](about/criteria.md){ class="md-knop" }
 </div>
 
 <div markdown>
-## Why does privacy matter?
+## Waarom is privacy belangrijk?
 
-In the modern age of digital data exploitation, your privacy has never been more critical, yet many believe it is already a lost cause. Dat is het niet. ==Your privacy is up for grabs, and you need to care about it.== Privacy is about power, and it is so important that this power ends up in the right hands.
+In het moderne tijdperk van digitale gegevensuitbuiting is je privacy nog nooit zo belangrijk geweest, maar toch denken velen dat het al een verloren zaak is. Dat is het niet. ==Jouw privacy ligt voor het grijpen en vraagt om je aandacht.==Privacy gaat over macht en het is zo belangrijk dat deze macht in de juiste handen terechtkomt.
 
-Many people get the concepts of privacy, security, and anonymity confused. Je ziet mensen verschillende producten bekritiseren als "niet privé", terwijl ze eigenlijk bedoelen dat het bijvoorbeeld geen anonimiteit biedt. Op deze website behandelen we alle drie onderwerpen, maar het is belangrijk dat je het verschil begrijpt en wanneer het om verschillende zaken gaat.
+Veel mensen halen de begrippen privacy, veiligheid en anonimiteit door elkaar. Je ziet mensen verschillende producten bekritiseren als "niet privé", terwijl ze eigenlijk bedoelen dat het bijvoorbeeld geen anonimiteit biedt. Op deze website behandelen we alle drie onderwerpen, maar het is belangrijk dat je het verschil begrijpt en wanneer het om verschillende zaken gaat.
 
-[:material-movie-open-play-outline: Video: 5 Steps to Improve Your Privacy](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
+[:material-movie-open-play-outline: Video: 5 stappen om jouw privacy te verbeteren](https://www.privacyguides.org/videos/2025/02/14/5-easy-steps-to-protect-yourself-online){ class="md-button" }
 </div>
 </div>

@@ -267,27 +267,27 @@ iPhone 可以抵禦暴力攻擊，在多次嘗試失敗後，需要等待很長�
 
 當應用程式提示您要存取裝置的照片圖庫時，iOS 會提供您限制應用程式存取內容的選項。
 
-與其讓應用程式能夠存取裝置上的所有照片，您可以點擊權限對話框中的「選擇照片…」選項，讓應用程式只能存取您選擇的照片。 您可以隨時瀏覽**設定**→**隱私權與安全性**→**照片**，以變更照片存取權限。
+與其讓應用程式能夠存取裝置上的所有照片，您可以點擊權限對話框中的「選擇照片…」選項，讓應用程式只能存取您選擇的照片。 您可以隨時到**設定**→**隱私權與安全性**→**照片**，以變更照片存取權限。
 
 ![照片權限](../assets/img/ios/photo-permissions-light.png#only-light) ![照片權限](../assets/img/ios/photo-permissions-dark.png#only-dark)
 
 **只新增照片**是一種只允許應用程式將照片加入圖庫的權限。 並非所有要求存取照片圖庫的應用程式，都提供此選項。
 
-![Private Access](../assets/img/ios/private-access-light.png#only-light) ![Private Access](../assets/img/ios/private-access-dark.png#only-dark)
+![私人存取](../assets/img/ios/private-access-light.png#only-light) ![私人存取](../assets/img/ios/private-access-dark.png#only-dark)
 
-Some apps also support **Private Access**, which functions similarly to the **Limited Access** permission. However, photos shared to apps using Private Access include their location by default. We recommend unchecking this setting if you do not [remove photo metadata](../data-redaction.md) beforehand.
+某些應用程式也支援**私人存取**權限，其功能與「**有限存取**」權限類似。 不過，使用「私人存取」功能分享給應用程式的照片，預設會包含其位置。 如果您不事先[移除照片後設資料](../data-redaction.md)，我們建議您取消勾選此選項。
 
 
 
 ### 聯絡人權限
 
-Similarly, rather than allow an app to access all the contacts saved on your device, you can allow it to only access whichever contacts you choose. You can change contact access permissions at any time by navigating to **Settings** → **Privacy & Security** → **Contacts**.
+同樣地，與其讓應用程式能存取裝置上儲存的所有聯絡人，您可以讓它只存取您選擇的聯絡人。 您可以隨時到**設定**→**隱私權與安全性**→**聯絡人**變更聯絡人的存取權限。
 
 ![聯絡人權限](../assets/img/ios/contact-permissions-light.png#only-light) ![聯絡人權限](../assets/img/ios/contact-permissions-dark.png#only-dark)
 
 
 
-### Require Biometrics and Hide Apps
+### 要求生物特徵驗證和隱藏應用程式
 
 iOS offers the ability to lock most apps behind Touch ID/Face ID or your passcode, which can be useful for protecting sensitive content in apps which do not provide the option themselves. You can lock an app by long-pressing on it and selecting **Require Face ID/Touch ID**. Any app locked in this way requires biometric authentication whenever opening it or accessing its contents in other apps. Also, notification previews for locked apps will not be shown.
 

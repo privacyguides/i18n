@@ -169,7 +169,7 @@ Zoeksuggesties sturen alles wat je in de adresbalk typt naar de standaard zoekma
 
 - [x] Selecteer **Strikte** Verbeterde Traceringsbescherming
 
-Dit beschermt je door het blokkeren van social media trackers, fingerprinting scripts (merk op dat dit je niet tegen *alle* fingerprinting beschermt), cryptominers, cross-site tracking cookies en sommige andere tracking content. ETP beschermt tegen veel voorkomende bedreigingen, maar blokkeert niet alle trackingkanalen omdat het zo is ontworpen dat het minimale tot geen invloed heeft op de bruikbaarheid van de site.
+Dit beschermt je door het blokkeren van social media trackers, vingerafdrukscripts (merk op dat dit je niet tegen *alle* vingerafdrukken beschermt), cryptominers, cross-site tracking cookies en sommige andere tracking content. ETP beschermt tegen veel voorkomende bedreigingen, maar blokkeert niet alle trackingkanalen omdat het zo is ontworpen dat het minimale tot geen invloed heeft op de bruikbaarheid van de site.
 
 ##### Saneren bij sluiten
 
@@ -318,7 +318,7 @@ Met Brave kun je extra inhoudsfilters selecteren binnen de interne `brave://adbl
 
 ##### Tor windows
 
-[**Privé window met Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) waar je je verkeer via het Tor-netwerk in privé windows kunt routeren en toegang kunt krijgen tot .onion-services, wat in sommige gevallen handig kan zijn. Brave is echter **niet** zo goed bestand tegen vingerafdrukken als de Tor Browser, en veel minder mensen gebruiken Brave met Tor, dus je zult opvallen. Als je threat model sterke anonimiteit vereist, gebruik dan de [Tor Browser](tor.md#tor-browser).
+[**Privé window met Tor**](https://support.brave.com/hc/articles/360018121491-What-is-a-Private-Window-with-Tor-Connectivity) waar je je verkeer via het Tor-netwerk in privé windows kunt routeren en toegang kunt krijgen tot .onion-services, wat in sommige gevallen handig kan zijn. Brave is echter **niet** zo goed bestand tegen vingerafdrukken als de Tor Browser, en veel minder mensen gebruiken Brave met Tor, dus je zult opvallen. Als je bedreigingsmodel sterke anonimiteit vereist, gebruik dan de [Tor Browser](tor.md#tor-browser).
 
 ##### Dataverzameling
 

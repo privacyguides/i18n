@@ -1,8 +1,8 @@
 ---
-meta_title: "Privacy Respecting Web Browsers for Android and iOS - Privacy Guides"
+meta_title: "Privacy respecterende mobiele webbrowsers voor Android en iOS - Privacy Guides"
 title: Mobiele browsers
 icon: material/cellphone-information
-description: Deze browsers zijn wat we momenteel aanbevelen voor standaard/niet-anoniem internetten op jouw telefoon.
+description: Deze browsers raden we momenteel aan voor standaard/niet-anoniem internetten op je telefoon.
 cover: mobile-browsers.webp
 schema:
   - 
@@ -50,11 +50,11 @@ schema:
       url: "./"
 ---
 
-<small>Protects against the following threat(s):</small>
+<small>Beschermt tegen de volgende bedreiging(en):</small>
 
 - [:material-account-cash: Surveillance kapitalisme](basics/common-threats.md#surveillance-as-a-business-model ""){.pg-brown}
 
-These are our currently recommended **mobile web browsers** and configurations for standard/non-anonymous internet browsing. In het algemeen raden we aan om extensies tot een minimum te beperken: ze hebben geprivilegieerde toegang binnen jouw browser, vereisen dat je de ontwikkelaar vertrouwt, kunnen je [doen opvallen](https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint), en [verzwakken](https://groups.google.com/a/chromium.org/g/chromium-extensions/c/0ei-Uchnm34/m/lDaXwQhzBAAJ) site-isolatie.
+Dit zijn onze momenteel aanbevolen **mobiele webbrowsers** en configuraties voor standaard/niet-anoniem surfen op het internet. Als je anoniem wilt internetten, kun je beter [Tor](tor.md) gebruiken.
 
 ## Brave
 
@@ -90,66 +90,66 @@ Tor Browser is de enige manier om echt anoniem op het internet te surfen. Wannee
 
 === "Android"
 
-    These options can be found in :material-menu: → **Settings** → **Brave Shields & privacy**.
+    Deze opties zijn te vinden in :material-menu: → **Instellingen** → **Brave Shields & privacy**.
 
 === "iOS"
 
-    These options can be found in :fontawesome-solid-ellipsis: → **Settings** → **Shields & Privacy**.
+    Deze opties zijn te vinden in :fontawesome-solid-ellipsis: → **Instellingen** → **Schermen & Privacy**.
 
 #### Brave shields global defaults
 
 Brave heeft een aantal maatregelen tegen vingerafdrukken opgenomen in de functie [Shields](https://support.brave.com/hc/articles/360022973471-What-is-Shields). We raden je aan deze opties [globaal](https://support.brave.com/hc/articles/360023646212-How-do-I-configure-global-and-site-specific-Shields-settings) te configureren voor alle pagina's die je bezoekt.
 
-De opties van Shields kunnen naar behoefte per site worden gedowngrade, maar standaard raden wij aan de volgende opties in te stellen:
+De opties van Shields kunnen naar behoefte per site worden aangepast, maar standaard raden wij aan de volgende opties in te stellen:
 
 === "Android"
 
     <div class="annotate" markdown>
 
-    - [x] Select **Aggressive** under *Block trackers & ads*
-    - [x] Select **Auto-redirect AMP pages**
-    - [x] Select **Auto-redirect tracking URLs**
-    - [x] Select **Require all connections to use HTTPS (strict)** under *Upgrade connections to HTTPS*
-    - \[x\] (Optional) Select **Block Scripts** (1)
-    - [x] Select **Block third-party cookies** under *Block Cookies*
-    - [x] Select **Block Fingerprinting**
-    - [x] Select **Prevent fingerprinting via language settings**
+    - [x] Selecteer **Agressief** onder *Trackers blokkeren & advertenties*
+    - [x] Selecteer **Automatisch doorsturen naar AMP-pagina's**
+    - [x] Selecteer **Automatisch doorsturen van tracking-URL's**
+    - [x] Selecteer **Vereisen dat alle verbindingen HTTPS (strikt) gebruiken** onder *Verbindingen upgraden naar HTTPS*
+    - \[x\] (optioneel) Selecteer **Blokkeer scripts** (1)
+    - [x] Selecteer **Cookies van derden** *blokkeren* onder *Cookies blokkeren*
+    - [x] Selecteer **Blokkeer vingerafdrukken**
+    - [x] Selecteer **Voorkomen van vingerafdrukken via taalinstellingen**
 
     <details class="warning" markdown>
-    <summary>Use default filter lists</summary>
+    <summary>Gebruik standaard filterlijsten</summary>
 
-    Brave allows you to select additional content filters within the **Content Filtering** menu or the internal `brave://adblock` page. Wij raden het gebruik van deze functie af; houd in plaats daarvan de standaardfilterlijsten aan. Het gebruik van extra lijsten zorgt ervoor dat u zich onderscheidt van andere Brave gebruikers en kan ook het aanvalsoppervlak vergroten als er een exploit in Brave is en een kwaadaardige regel wordt toegevoegd aan één van de lijsten die je gebruikt.
+    Met Brave kun je extra inhoudfilters selecteren in het menu **Inhoudfiltering** of op de interne pagina `brave://adblock`. Wij raden het gebruik van deze functie af; houd in plaats daarvan de standaardfilterlijsten aan. Het gebruik van extra lijsten zorgt ervoor dat je je onderscheidt van andere Brave gebruikers en kan ook het aanvalsoppervlak vergroten als er een exploit in Brave is en een kwaadwillige regel wordt toegevoegd aan één van de lijsten die je gebruikt.
 
     </details>
 
-    - [x] Select **Forget me when I close this site**
+    - [x] Selecteer **Vergeet mij als ik deze site sluit**
 
     </div>
 
-    1. Deze optie schakelt JavaScript uit, waardoor veel sites niet meer werken. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Deze optie schakelt JavaScript uit, waardoor veel sites niet meer werken. Om dit te verhelpen, kun je uitzonderingen per site instellen door op het schildpictogram in de adresbalk te klikken en deze instelling uit te vinken onder *Geavanceerde besturingselementen*.
 
 === "iOS"
 
     <div class="annotate" markdown>
 
-    - [x] Select **Aggressive** under *Trackers & Ads Blocking*
-    - [x] Select **Strict** under *Upgrade Connections to HTTPS*
-    - [x] Select **Auto-Redirect AMP pages**
-    - [x] Select **Auto-Redirect Tracking URLs**
-    - \[x\] (Optional) Select **Block Scripts** (1)
-    - [x] Select **Block Fingerprinting**
+    - [x] Selecteer **Agressief** onder *Trackers & Advertentieblokkering*
+    - [x] Selecteer **Strikt** onder *Verbindingen upgraden naar HTTPS*
+    - [x] Selecteer **Automatisch doorsturen naar AMP-pagina's**
+    - [x] Selecteer **Automatisch doorsturen van tracking-URL's**
+    - \[x\] (optioneel) Selecteer **Blokkeer scripts** (1)
+    - [x] Selecteer **Blokkeer vingerafdrukken**
     - [x] Select **Site Tabs Closed** under *Auto Shred*
 
     <details class="warning" markdown>
-    <summary>Use default filter lists</summary>
+    <summary>Standaard filterlijsten gebruiken</summary>
 
-    Brave allows you to select additional content filters within the **Content Filtering** menu. Wij raden het gebruik van deze functie af; houd in plaats daarvan de standaardfilterlijsten aan. Het gebruik van extra lijsten zorgt ervoor dat u zich onderscheidt van andere Brave gebruikers en kan ook het aanvalsoppervlak vergroten als er een exploit in Brave is en een kwaadaardige regel wordt toegevoegd aan één van de lijsten die je gebruikt.
+    Met Brave kun je extra inhoudsfilters selecteren in het menu **Inhoudsfiltering**. Wij raden het gebruik van deze functie af; houd in plaats daarvan de standaard filterlijsten aan. Het gebruik van extra lijsten zorgt ervoor dat je je onderscheidt van andere Brave gebruikers en kan ook het aanvalsoppervlak vergroten als er een exploit in Brave is en een kwaadwillige regel wordt toegevoegd aan één van de lijsten die je gebruikt.
 
     </details>
 
     </div>
 
-    1. Deze optie schakelt JavaScript uit, waardoor veel sites niet meer werken. To unbreak them, you can set exceptions on a per-site basis by tapping on the Shield icon in the address bar and unchecking this setting under *Advanced controls*.
+    1. Deze optie schakelt JavaScript uit, waardoor veel sites niet meer werken. Om dit te verhelpen, kun je uitzonderingen per site instellen door op het schildpictogram in de adresbalk te klikken en deze instelling uit te vinken onder *Geavanceerde besturingselementen*.
 
 ##### Clear browsing data (Android only)
 
@@ -159,7 +159,7 @@ De opties van Shields kunnen naar behoefte per site worden gedowngrade, maar sta
 
 - [ ] Uncheck alle sociale media componenten uit
 
-#### Other privacy settings
+#### Andere privacy-instellingen
 
 === "Android"
 
@@ -195,7 +195,7 @@ These options can be found in :material-menu: → **Settings** → **Leo**.
 
 1. This option is not present in Brave's iOS app.
 
-#### Search engines
+#### Zoekmachines
 
 These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → **Settings** → **Search engines**.
 
@@ -211,7 +211,7 @@ These options can be found in :material-menu:/:fontawesome-solid-ellipsis: → *
 
 ![Cromite logo](assets/img/browsers/cromite.svg){ align=right }
 
-**Cromite** is a Chromium-based browser with built-in ad blocking, fingerprinting protections, and other [privacy and security enhancements](https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the discontinued **Bromite** browser.
+**Cromite** is een op Chromium gebaseerde browser met ingebouwde adblocking, vingerafdrukken beschermen en andere [privacy- en veiligheidsverbeteringen] (https://github.com/uazo/cromite/blob/master/docs/FEATURES.md). It is a fork of the discontinued **Bromite** browser.
 
 [:octicons-home-16: Homepage](https://cromite.org){ .md-button .md-button--primary }
 [:octicons-eye-16:](https://github.com/uazo/cromite/blob/master/docs/PRIVACY_POLICY.md){ .card-link title="Privacy Policy" }
