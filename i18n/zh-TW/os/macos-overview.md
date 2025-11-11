@@ -241,30 +241,30 @@ codesign -dv <您的應用程式路徑>
 
 macOS 提供兩種[惡意軟體防禦](https://support.apple.com/guide/security/protecting-against-malware-sec469d47bd8/1/web/1)機制：
 
-1. 首先，防止啟動惡意軟體是由 App Store 對 App Store 應用程式的審核流程或*公證*（*Gatekeeper* 的一部份），這是 Apple 允許運行之前掃描第三方應用程式是否存在已知惡意軟體的程式。 Apps are required to be signed by the developers using a key given to them by Apple. This ensures that you are running software from the real developers. Notarization also requires that developers enable the Hardened Runtime for their apps, which limits methods of exploitation.
+1. 首先，防止啟動惡意軟體是由 App Store 對 App Store 應用程式的審核流程或*公證*（*Gatekeeper* 的一部份），這是 Apple 允許運行之前掃描第三方應用程式是否存在已知惡意軟體的程式。 應用程式必須由開發人員使用 Apple 給予他們的金鑰簽署。 這個機制可確保您執行的軟體來自真正的開發者。 「公證化」也要求開發人員為他們的應用程式啟用執行時期加固，以限制漏洞被利用的方法。
 2. *XProtect* 提供針對其他惡意軟體的防護以及修復系統上現有惡意軟體，XProtect 是 macOS 內建較傳統的防病毒軟體。
 
-We recommend against installing third-party antivirus software as they typically do not have the system-level access required to properly function anyway, because of Apple's limitations on third-party apps, and because granting the high levels of access they do ask for often poses an even greater security and privacy risk to your computer.
+我們建議不要安裝第三方防毒軟體，它們通常不具備正常運作所需的系統存取權限。且由於 Apple 對第三方應用程式的限制，授予它們所要求的高級別存取權限，反而容易對電腦造成更大的安全和隱私風險。
 
 ##### 備份
 
-macOS comes with automatic backup software called [Time Machine](https://support.apple.com/HT201250), so you can create [encrypted backups](https://support.apple.com/guide/mac-help/keep-your-time-machine-backup-disk-secure-mh21241/mac) to an external drive or a network drive in the event of corrupted/deleted files.
+macOS 內建稱為 [Time Machine](https://support.apple.com/HT201250) 的自動備份軟體，可以將[加密備份](https://support.apple.com/guide/mac-help/keep-your-time-machine-backup-disk-secure-mh21241/mac)建立到外接或網路磁碟，以避免檔案毀損或遭到刪除。
 
 ### 硬體安全
 
-Many modern security features in macOS—such as modern Secure Boot, hardware-level exploit mitigation, OS integrity checks, and file-based encryption—rely on Apple Silicon, and Apple's newer hardware always has the [best security](https://support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1). We only encourage the use of Apple Silicon, and not older Intel-based Mac computers or Hackintoshes.
+macOS 中的許多現代安全功能（例如現代安全啟動、硬體級漏洞利用緩解、作業系統完整性檢查和檔案加密）都依賴 Apple Silicon，Apple 較新硬體一直具有[最佳安全性](https:// support.apple.com/guide/security/apple-soc-security-sec87716a080/1/web/1)。 我們只鼓勵使用 Apple Silicon，而不推薦較舊的 Intel Mac 電腦或 Hackintosh。
 
 其中一些現代安全功能可在配備Apple T2 安全晶片的 Intel 老式Mac 電腦上使用，但該晶片容易受到*checkm8* 漏洞的攻擊，這可能會損害其安全性。
 
-If you use Bluetooth accessories such as a keyboard, we recommend that you use official Apple ones as their firmware will [automatically be updated](https://support.apple.com/en-us/120303#:~:text=Firmware%20updates%20are%20automatically%20delivered%20in%20the%20background%20while%20the%20Magic%20Keyboard%20is%20actively%20paired%20to%20a%20device%20running%20macOS%2C%20iOS%2C%20iPadOS%2C%20or%20tvOS.) for you by macOS. 使用第三方配件沒問題，但應該記住定期為其更新安裝軔體。
+若您使用鍵盤等藍牙配件，建議最好是 Apple 官方配件，因為 macOS 會[自動更新](https://support.apple.com/en-us/120303#:~:text=Firmware%20updates%20are%20automatically%20delivered%20in%20the%20background%20while%20the%20Magic%20Keyboard%20is%20actively%20paired%20to%20a%20device%20running%20macOS%2C%20iOS%2C%20iPadOS%2C%20or%20tvOS.)其軔體。 使用第三方配件沒問題，但應該記住定期為其更新安裝軔體。
 
-Apple's SoCs focus on [minimizing attack surface](https://support.apple.com/en-vn/guide/security/secf020d1074/web#:~:text=Security%2Dfocused%20hardware%20follows%20the%20principle%20of%20supporting%20limited%20and%20discretely%20defined%20functions%20to%20minimize%20attack%20surface.) by relegating security functions to dedicated hardware with limited functionality.
+Apple 的 SoC 著重於通過將安全功能轉移到功能有限的專用硬體，以[盡可能減少攻擊面](https://support.apple.com/en-vn/guide/security/secf020d1074/web#:~:text=Security%2Dfocused%20hardware%20follows%20the%20principle%20of%20supporting%20limited%20and%20discretely%20defined%20functions%20to%20minimize%20attack%20surface.)。
 
 #### Boot ROM
 
-macOS prevents malware persistence by only allowing official Apple software to run at boot time; this is known as [secure boot](https://support.apple.com/en-vn/guide/security/secac71d5623/1/web/1). Mac computers verify this with a bit of read-only memory on the SoC called the [boot ROM](https://support.apple.com/en-vn/guide/security/aside/sec5240db956/1/web/1), which is [laid down during the manufacturing of the chip](https://support.apple.com/en-vn/guide/security/secf020d1074/1/web/1#:~:text=which%20is%20laid%20down%20during%20Apple%20SoC%20fabrication).
+macOS 通過僅允許官方 Apple 軟體在開機時運作，以防止惡意軟體持久存在。這也稱為[安全開機](https://support.apple.com/en-vn/guide/security/secac71d5623/1/web/1)。 Mac 電腦利用 SoC 上，稱為 [boot ROM](https://support.apple.com/en-vn/guide/security/aside/sec5240db956/1/web/1) 的唯讀記憶體來驗證此軟體，該儲存空間是在[晶片製造過程中](https://support.apple.com/en-vn/guide/security/secf020d1074/1/web/1#:~:text=which%20is%20laid%20down%20during%20Apple%20SoC%20fabrication)就設定完成​​的。
 
-開機 ROM 構成了硬體信任根。 This ensures that malware cannot tamper with the boot process, since the boot ROM is immutable. Mac 啟動時，開機 ROM 第一個運行，為信任鏈中的第一個環節。
+開機 ROM 構成了硬體信任根。 這可確保惡意軟體無法篡改開機流程，因為 Boot ROM 不可變更。 Mac 啟動時，開機 ROM 第一個運行，為信任鏈中的第一個環節。
 
 Mac computers can be configured to boot in [three security modes](https://support.apple.com/guide/deployment/startup-security-dep5810e849c/web#dep32fb404e1): *Full Security*, *Reduced Security*, and *Permissive Security*, with the default setting being Full Security. You should ideally be using Full Security mode and avoid things like **[kernel extensions](https://support.apple.com/guide/deployment/system-extensions-in-macos-depa5fb8376f/web#dep51e097f45)** that force you to lower your security mode. 請務必[檢查](https://support.apple.com/guide/mac-help/change-security-settings-startup-disk-a-mac-mchl768f7291/mac)使用的是完全安全模式。
 
@@ -278,7 +278,7 @@ The **[Secure Enclave](https://support.apple.com/guide/security/secure-enclave-s
 
 Apple Touch ID 功能可使用生物識別技術安全地解鎖設備。
 
-Your biometric data [never leaves your device](https://www.apple.com/legal/privacy/data/en/touch-id/#:~:text=Touch%C2%A0ID%20data%20does%20not%20leave%20your%20device%2C%20and%20is%20never%20backed%20up%20to%20iCloud%20or%20anywhere%20else.); it's stored only in the Secure Enclave.
+您的生物識別資料[永遠不會離開您的裝置](https://www.apple.com/legal/privacy/data/en/touch-id/#:~:text=Touch%C2%A0ID%20data%20does%20not%20leave%20your%20device%2C%20and%20is%20never%20backed%20up%20to%20iCloud%20or%20anywhere%20else.)；它僅儲存在安全隔離區當中。
 
 #### 硬體麥克風斷線
 
