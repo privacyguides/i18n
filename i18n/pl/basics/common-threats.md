@@ -76,7 +76,7 @@ Aby zminimalizować szkody, jakie złośliwe oprogramowanie *mogłoby* wyrządzi
 
 Mobilne systemy operacyjne zazwyczaj oferują lepszy mechanizm piaskownicy aplikacji niż systemy na komputery stacjonarne: aplikacje nie mogą uzyskać uprawnień root i wymagają zezwoleń na dostęp do zasobów systemowych.
 
-Systemy na komputery stacjonarne zwykle pozostają w tyle w kwestii piaskownic. ChromeOS ma podobne możliwości piaskownicy do Androida, a macOS zapewnia pełną kontrolę uprawnień systemowych (deweloperzy mogą opcjonalnie włączyć piaskownicę dla aplikacji). Jednak systemy te przekazują informacje identyfikujące do swoich producentów OEM. Linux zwykle nie wysyła danych do dostawców systemu, lecz gorzej chroni przed exploitami i złośliwymi aplikacjami. This can be mitigated somewhat with specialized distributions which make significant use of virtual machines or containers, such as [Qubes OS](../desktop.md#qubes-os).
+Systemy na komputery stacjonarne zwykle pozostają w tyle w kwestii piaskownic. ChromeOS ma podobne możliwości piaskownicy do Androida, a macOS zapewnia pełną kontrolę uprawnień systemowych (deweloperzy mogą opcjonalnie włączyć piaskownicę dla aplikacji). Jednak systemy te przekazują informacje identyfikujące do swoich producentów OEM. Linux zwykle nie wysyła danych do dostawców systemu, lecz gorzej chroni przed exploitami i złośliwymi aplikacjami. Można to częściowo złagodzić, korzystając ze specjalistycznych dystrybucji, które w dużym stopniu opierają się na maszynach wirtualnych lub kontenerach, takich jak [Qubes OS](../desktop.md#qubes-os).
 
 </div>
 
